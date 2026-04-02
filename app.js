@@ -1,4 +1,4 @@
-const APP_VERSION = '2.4.6';
+const APP_VERSION = '2.4.7';
 
 let game = null;
 let playerColor = 'white';
@@ -1714,16 +1714,19 @@ const OPENING_TRAINING = {
     'gambito-rey': { name: 'Gambito de Rey', moves: 'e2e4 e7e5 f2f4', san: '1.e4 e5 2.f4', desc: 'Sacrifica un peón por iniciativa y ataque al rey. Apertura romántica y agresiva que busca abrir la columna f.', wr: [37, 26, 37] },
     'gambito-evans': { name: 'Gambito Evans', moves: 'e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 b2b4', san: '1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4', desc: 'Sacrifica un peón de flanco para ganar tiempos de desarrollo y construir un centro fuerte con c3 y d4.', wr: [41, 28, 31] },
     'dos-caballos': { name: 'Dos Caballos', moves: 'e2e4 e7e5 g1f3 b8c6 f1c4 g8f6', san: '1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6', desc: 'Contraataque directo al peón e4. Las negras prefieren actividad a solidez, aceptando complicaciones tácticas.', wr: [37, 30, 33] },
+    'siciliana': { name: 'Defensa Siciliana', moves: 'e2e4 c7c5', san: '1.e4 c5', desc: 'La defensa más popular y combativa contra 1.e4. Las negras luchan por el control del centro con un peón de flanco, creando posiciones asimétricas y ricas en táctica.', wr: [37, 32, 31] },
     'siciliana-najdorf': { name: 'Siciliana Najdorf', moves: 'e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 g8f6 b1c3 a7a6', san: '1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6', desc: 'La variante más popular de la Siciliana. ...a6 prepara ...e5 o ...b5 para contrajuego en el flanco de dama manteniendo flexibilidad.', wr: [37, 30, 33] },
     'siciliana-dragon': { name: 'Siciliana Dragón', moves: 'e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 g8f6 b1c3 g7g6', san: '1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6', desc: 'Fianchetto del alfil en g7 creando presión en la gran diagonal. Lleva a ataques opuestos: blancas al rey, negras al flanco de dama.', wr: [40, 27, 33] },
     'siciliana-sveshnikov': { name: 'Siciliana Sveshnikov', moves: 'e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 g8f6 b1c3 e7e5', san: '1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e5', desc: 'Golpe central agresivo que expulsa el caballo. Acepta debilidad en d5 a cambio de juego activo y contrajuego dinámico.', wr: [35, 31, 34] },
     'siciliana-clasica': { name: 'Siciliana Clásica', moves: 'e2e4 c7c5 g1f3 b8c6', san: '1.e4 c5 2.Nf3 Nc6', desc: 'Desarrollo natural del caballo presionando d4. Posición flexible que puede transponerse a múltiples sistemas.', wr: [38, 29, 33] },
     'siciliana-alapin': { name: 'Siciliana Alapin', moves: 'e2e4 c7c5 c2c3', san: '1.e4 c5 2.c3', desc: 'Blancas preparan d4 reforzado con c3. Evita la complejidad teórica de la Siciliana Abierta a cambio de un centro sólido.', wr: [36, 33, 31] },
     'siciliana-smith-morra': { name: 'Gambito Smith-Morra', moves: 'e2e4 c7c5 d2d4 c5d4', san: '1.e4 c5 2.d4 cxd4', desc: 'Gambito agresivo que sacrifica un peón por desarrollo rápido, columnas abiertas y fuerte iniciativa.', wr: [40, 25, 35] },
+    'francesa': { name: 'Defensa Francesa', moves: 'e2e4 e7e6 d2d4 d7d5', san: '1.e4 e6 2.d4 d5', desc: 'Sólida defensa que construye una cadena de peones resistente. Las negras aceptan un alfil pasivo en c8 a cambio de una estructura sólida y contraataque en el centro.', wr: [38, 33, 29] },
     'francesa-winawer': { name: 'Francesa Winawer', moves: 'e2e4 e7e6 d2d4 d7d5 b1c3 f8b4', san: '1.e4 e6 2.d4 d5 3.Nc3 Bb4', desc: 'Clava el caballo que defiende e4. Lleva a juego desequilibrado con peones doblados y ataques en flancos opuestos.', wr: [36, 30, 34] },
     'francesa-clasica': { name: 'Francesa Clásica', moves: 'e2e4 e7e6 d2d4 d7d5 b1c3 g8f6', san: '1.e4 e6 2.d4 d5 3.Nc3 Nf6', desc: 'Presión directa sobre e4. Juego más sólido que la Winawer, con planes estratégicos de ruptura con ...c5 o ...f6.', wr: [35, 35, 30] },
     'francesa-avance': { name: 'Francesa Avance', moves: 'e2e4 e7e6 d2d4 d7d5 e4e5', san: '1.e4 e6 2.d4 d5 3.e5', desc: 'Fija la estructura de peones y gana espacio. Las negras buscan romper con ...c5 y presionar la cadena de peones blancos.', wr: [35, 33, 32] },
     'francesa-tarrasch': { name: 'Francesa Tarrasch', moves: 'e2e4 e7e6 d2d4 d7d5 b1d2', san: '1.e4 e6 2.d4 d5 3.Nd2', desc: 'Evita el clavado de la Winawer. Juego más tranquilo que permite recapturar en e4 con el caballo manteniendo la estructura.', wr: [34, 36, 30] },
+    'caro-kann': { name: 'Defensa Caro-Kann', moves: 'e2e4 c7c6 d2d4 d7d5', san: '1.e4 c6 2.d4 d5', desc: 'Defensa sólida y posicional que busca igualdad rápida. Las negras mantienen una estructura de peones sana y un alfil de casillas claras activo.', wr: [38, 34, 28] },
     'caro-kann-clasica': { name: 'Caro-Kann Clásica', moves: 'e2e4 c7c6 d2d4 d7d5 b1c3 d5e4 c3e4', san: '1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4', desc: 'Defensa sólida que desarrolla el alfil de dama antes de cerrar la posición. Busca igualdad con estructura de peones sana.', wr: [35, 35, 30] },
     'caro-kann-avance': { name: 'Caro-Kann Avance', moves: 'e2e4 c7c6 d2d4 d7d5 e4e5', san: '1.e4 c6 2.d4 d5 3.e5', desc: 'Gana espacio en el centro. Las negras buscan contrajuego con ...c5 y ...Bf5, presionando la cadena de peones.', wr: [36, 32, 32] },
     'escandinava': { name: 'Defensa Escandinava', moves: 'e2e4 d7d5 e4d5 d8d5 b1c3', san: '1.e4 d5 2.exd5 Qxd5 3.Nc3', desc: 'Desafía e4 inmediatamente. La dama sale temprano pero obtiene desarrollo rápido del alfil de dama y estructura sólida.', wr: [42, 28, 30] },
@@ -4027,6 +4030,11 @@ const VERSION_CHANGELOG = {
         'Sistema de puntuación: aciertos, fallos y racha',
         'Pistas y soluciones disponibles'
     ],
+    '2.4.7': [
+        'Menú de aperturas simplificado: solo variantes principales por apertura (38 opciones)',
+        'Siciliana, Francesa y Caro-Kann agrupadas en entrada única con movimientos genéricos',
+        'Ver Apertura: al finalizar, seleccionar variante en el menú transparente continúa con ella',
+    ],
     '2.4.6': [
         'TEST INTERNO:Ver Apertura: al finalizar, pulsar flechas azules abre variantes para continuar',
         'Análisis: botón 📊 en la barra de navegación para reabrir el resumen de errores',
@@ -4842,6 +4850,14 @@ function viewOpening() {
             setGameButtonsDisabled(false);
             showLoadedGameMessage('Apertura completada', false);
             showContinueButton();
+            const history = game.moveHistoryUCI || [];
+            const variants = getOpeningVariants(history);
+            if (variants.length > 0) {
+                const key = history.join(' ');
+                showVariantsPopup(variants, key, (selectedVariant) => {
+                    continueTrainingFromVariant(selectedVariant, key);
+                });
+            }
             return;
         }
 
