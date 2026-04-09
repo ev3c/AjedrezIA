@@ -1,4 +1,4 @@
-const APP_VERSION = '2.4.7';
+const APP_VERSION = '2.4.8';
 
 let game = null;
 let playerColor = 'white';
@@ -2055,10 +2055,18 @@ function startNewPuzzle() {
     puzzleMode = true;
 
     if (trainingActive) {
+        cancelTrainingTimeout();
         trainingActive = false;
         trainingFreeMode = false;
+        trainingPaused = false;
+        trainingResumeCallback = null;
     }
     if (quizMode) quizMode = false;
+    hideMoveInsight();
+    hideBoardBanner();
+    setFamousGameTitle('');
+    var openingLog = document.getElementById('opening-log');
+    if (openingLog) openingLog.remove();
 
     game = new ChessGame();
     game.loadFromFEN(currentPuzzle.fen);
@@ -2069,7 +2077,15 @@ function startNewPuzzle() {
     lastMoveSquares = { from: null, to: null };
     bestMoveSquares = { from: null, to: null };
     selectedSquare = null;
+    currentMoveIndex = -1;
+    currentOpeningName = '';
+    lastOpeningMoveCount = 0;
+    stopClock();
     renderBoard();
+    updateCapturedPieces();
+    updateMoveHistory();
+    updateUndoButton();
+    updateEvalBar();
     scrollToBoard();
 
     var info = document.getElementById('puzzle-info');
@@ -2221,11 +2237,35 @@ function puzzleFailed() {
 
 function formatPuzzleSolution() {
     var sol = currentPuzzle.solution;
+    var PIECE_LETTERS = { king: 'K', queen: 'Q', rook: 'R', bishop: 'B', knight: 'N', pawn: '' };
+    var tempGame = new ChessGame();
+    tempGame.loadFromFEN(currentPuzzle.fen);
     var parts = [];
     for (var i = 0; i < sol.length; i++) {
         var c = puzzleUCItoCoords(sol[i]);
-        var files = 'abcdefgh';
-        parts.push(files[c.fromCol] + (8 - c.fromRow) + '-' + files[c.toCol] + (8 - c.toRow));
+        var piece = tempGame.getPiece(c.fromRow, c.fromCol);
+        var targetPiece = tempGame.getPiece(c.toRow, c.toCol);
+        var toSq = String.fromCharCode(97 + c.toCol) + (8 - c.toRow);
+        var san = '';
+        if (piece && piece.type === 'king' && Math.abs(c.fromCol - c.toCol) === 2) {
+            san = c.toCol > c.fromCol ? 'O-O' : 'O-O-O';
+        } else if (piece) {
+            var letter = PIECE_LETTERS[piece.type] || '';
+            var isCapture = !!targetPiece || (piece.type === 'pawn' && c.fromCol !== c.toCol);
+            if (piece.type === 'pawn') {
+                san = (isCapture ? String.fromCharCode(97 + c.fromCol) + 'x' : '') + toSq;
+            } else {
+                san = letter + (isCapture ? 'x' : '') + toSq;
+            }
+            if (c.promo) {
+                var promoMap = { q: 'Q', r: 'R', b: 'B', n: 'N' };
+                san += '=' + (promoMap[c.promo] || 'Q');
+            }
+        } else {
+            san = toSq;
+        }
+        tempGame.makeMove(c.fromRow, c.fromCol, c.toRow, c.toCol, c.promo || undefined);
+        parts.push(san);
     }
     return parts.join(', ');
 }
@@ -2828,9 +2868,9 @@ async function getStockfishAPIMove() {
 
     const API_LEVELS = {
         5: { depth: 1  },   // ~1500 ELO
-        6: { depth: 3  },   // ~1800 ELO
-        7: { depth: 8  },   // ~2200 ELO
-        8: { depth: 15 }    // ~2500 ELO
+        6: { depth: 2  },   // ~1800 ELO
+        7: { depth: 6  },   // ~2200 ELO
+        8: { depth: 10 }    // ~2500 ELO
     };
     const params = API_LEVELS[aiDifficulty] || { depth: 15 };
 
@@ -3365,26 +3405,27 @@ async function getLocalBestMove() {
     let useQuiescence = false;
 
     if (aiDifficulty <= 1) {
-        // ~400 ELO: captura piezas a veces, muchos errores graves
+        // ~400 ELO: solo material básico, muchos errores
         depth = 1;
         useFullEval = false;
         randomnessFactor = 0.7;
     } else if (aiDifficulty <= 2) {
-        // ~700 ELO: evalúa material, errores frecuentes
+        // ~700 ELO: eval posicional, errores frecuentes
         depth = 1;
         useFullEval = true;
         randomnessFactor = 0.4;
     } else if (aiDifficulty <= 3) {
-        // ~1000 ELO: táctica básica a 2 jugadas
+        // ~1000 ELO: táctica a 2 jugadas + quiescence
         depth = 2;
         useFullEval = true;
-        randomnessFactor = 0.15;
+        useQuiescence = true;
+        randomnessFactor = 0.12;
     } else {
-        // ~1200 ELO: tácticas sólidas con búsqueda de capturas
+        // ~1200 ELO: táctica a 3 jugadas + quiescence
         depth = 3;
         useFullEval = true;
         useQuiescence = true;
-        randomnessFactor = 0.05;
+        randomnessFactor = 0.08;
     }
     
     console.log(`Evaluando con profundidad ${depth}, aleatoriedad ${randomnessFactor}`);
@@ -4030,6 +4071,9 @@ const VERSION_CHANGELOG = {
         'Sistema de puntuación: aciertos, fallos y racha',
         'Pistas y soluciones disponibles'
     ],
+    '2.4.8': [
+        'Exportar PGN: corregido cambio de extensión a .txt al renombrar el archivo',
+    ],
     '2.4.7': [
         'Menú de aperturas simplificado: solo variantes principales por apertura (38 opciones)',
         'Siciliana, Francesa y Caro-Kann agrupadas en entrada única con movimientos genéricos',
@@ -4360,10 +4404,6 @@ document.addEventListener('DOMContentLoaded', () => {
             panel.classList.remove('collapsed');
         }
         panel.querySelector('.panel-toggle').addEventListener('click', () => {
-            if (panel.id === 'puzzles-panel') {
-                showMessage('🚧 En Construcción 🚧', 'info', 2000);
-                return;
-            }
             panel.classList.toggle('collapsed');
             localStorage.setItem(key, panel.classList.contains('collapsed') ? 'closed' : 'open');
         });
@@ -5803,7 +5843,7 @@ async function exportPGNDirectMobile(pgn, suggestedName) {
         if ('showSaveFilePicker' in window) {
             const handle = await window.showSaveFilePicker({
                 suggestedName: suggestedName,
-                types: [{ description: 'Archivo PGN', accept: { 'text/plain': ['.pgn'] } }]
+                types: [{ description: 'Archivo PGN', accept: { 'application/x-chess-pgn': ['.pgn'] } }]
             });
             const writable = await handle.createWritable();
             await writable.write(pgn);
@@ -5925,7 +5965,7 @@ function showExportPGNDialog(defaultName, pgn) {
             if ('showSaveFilePicker' in window) {
                 const handle = await window.showSaveFilePicker({
                     suggestedName: filename,
-                    types: [{ description: 'Archivo PGN', accept: { 'text/plain': ['.pgn'] } }]
+                    types: [{ description: 'Archivo PGN', accept: { 'application/x-chess-pgn': ['.pgn'] } }]
                 });
                 const writable = await handle.createWritable();
                 await writable.write(pgn);
@@ -5953,7 +5993,7 @@ function showExportPGNDialog(defaultName, pgn) {
 }
 
 function doExportPGN(pgn, filename) {
-    const blob = new Blob([pgn], { type: 'text/plain' });
+    const blob = new Blob([pgn], { type: 'application/x-chess-pgn' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
@@ -7864,6 +7904,9 @@ function executeMove(fromRow, fromCol, toRow, toCol, promotionPiece) {
     autoSaveGame();
     detectOpening();
     updateEvalBar();
+    if (!window.matchMedia('(max-width: 1024px) and (orientation: portrait), (max-width: 768px)').matches) {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
     if (pieceBeforeMove) {
         showMoveInsight(fromRow, fromCol, toRow, toCol, pieceBeforeMove, capturedBeforeMove);
     }
@@ -8257,6 +8300,9 @@ async function makeAIMove() {
                 autoSaveGame();
                 detectOpening();
                 updateEvalBar();
+                if (!window.matchMedia('(max-width: 1024px) and (orientation: portrait), (max-width: 768px)').matches) {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
             
                 handleGameResult(result);
             } else {

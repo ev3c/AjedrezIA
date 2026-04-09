@@ -2474,8 +2474,8 @@ header h1 {
     font-weight: 600;
 }
 
-/* En landscape con pantalla pequeña: mostrar overlay y ocultar contenido */
-@media (orientation: landscape) and (max-height: 600px) {
+/* En landscape con pantalla pequeña en dispositivos táctiles: mostrar overlay y ocultar contenido */
+@media (orientation: landscape) and (max-height: 600px) and (pointer: coarse) {
     .container,
     .app-footer {
         display: none !important;

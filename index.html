@@ -43,14 +43,14 @@
                     <div class="config-section" id="ai-settings">
                         <label>Nivel de Dificultad:</label>
                         <select id="ai-difficulty" class="select">
-                            <option value="1" selected>Muy Fácil (~400 ELO)</option>
-                            <option value="2">Fácil (~700 ELO)</option>
-                            <option value="3">Principiante (~1000 ELO)</option>
-                            <option value="4">Intermedio (~1200 ELO)</option>
-                            <option value="5">Avanzado (~1500 ELO)</option>
-                            <option value="6">Experto (~1800 ELO)</option>
-                            <option value="7">Maestro (~2200 ELO)</option>
-                            <option value="8">Gran Maestro (~2500 ELO)</option>
+                            <option value="1" selected>Muy Fácil (~400 ELO) — Local d1</option>
+                            <option value="2">Fácil (~700 ELO) — Local d1</option>
+                            <option value="3">Principiante (~1000 ELO) — Local d2+q</option>
+                            <option value="4">Intermedio (~1200 ELO) — Local d3+q</option>
+                            <option value="5">Avanzado (~1500 ELO) — Stockfish d1</option>
+                            <option value="6">Experto (~1800 ELO) — Stockfish d2</option>
+                            <option value="7">Maestro (~2200 ELO) — Stockfish d6</option>
+                            <option value="8">Gran Maestro (~2500 ELO) — Stockfish d10</option>
                         </select>
                     </div>
                     
@@ -199,6 +199,9 @@
                 <div class="panel panel-collapsible collapsed" id="puzzles-panel">
                     <h2 class="panel-toggle">🧩 Problemas de Ajedrez <span class="panel-arrow">▲</span></h2>
                     <div class="panel-body">
+                    <div style="text-align:center;padding:12px 16px 8px;color:#888;border-bottom:1px solid #e0e0e0;margin-bottom:8px;">
+                        <p style="font-size:0.95rem;font-weight:600;color:#b45309;margin:0;">🚧 En construcción</p>
+                    </div>
                     <div class="config-section">
                         <label>Categoría:</label>
                         <select id="puzzle-theme-select" class="select">
