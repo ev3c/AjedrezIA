@@ -1,4 +1,4 @@
-const APP_VERSION = '2.5';
+const APP_VERSION = '2.5.1';
 
 let game = null;
 let playerColor = 'white';
@@ -4180,6 +4180,10 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '2.5.1': [
+        'Menús táctiles en móvil: bottom sheet con opciones grandes en lugar del picker nativo',
+        'Backdrop oscuro, scroll automático a la opción seleccionada y cierre con ✕ o toque fuera',
+    ],
     '2.5': [
         'Nuevo panel: Problemas de Ajedrez con 100+ puzzles',
         'Categorías: Mate en 1/2/3, Horquilla, Clavada, Sacrificio, Finales y más',
@@ -4259,11 +4263,17 @@ function checkNewVersion() {
     const savedVersion = localStorage.getItem('app_version');
     if (!savedVersion || compareVersions(APP_VERSION, savedVersion) > 0) {
         if (savedVersion) {
-            const changes = VERSION_CHANGELOG[APP_VERSION];
+            const allChanges = [];
+            Object.keys(VERSION_CHANGELOG)
+                .filter(v => compareVersions(v, savedVersion) > 0 && compareVersions(v, APP_VERSION) <= 0)
+                .sort((a, b) => compareVersions(b, a))
+                .forEach(v => {
+                    VERSION_CHANGELOG[v].forEach(c => allChanges.push(c));
+                });
             let msg = `<strong>🆕 Nueva Versión ${APP_VERSION}</strong>`;
-            if (changes && changes.length) {
+            if (allChanges.length) {
                 msg += '<ul style="text-align:left;margin:8px 0 0;padding-left:18px;font-size:0.9em;">';
-                changes.forEach(c => msg += `<li>${c}</li>`);
+                allChanges.forEach(c => msg += `<li>${c}</li>`);
                 msg += '<li style="margin-top:6px;font-style:italic;opacity:0.92;">… y muchos más cambios</li>';
                 msg += '</ul>';
             } else {
@@ -4781,7 +4791,21 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function initCustomDropdowns() {
-    const isMobile = window.matchMedia('(max-width: 1024px) and (orientation: portrait), (max-width: 768px)').matches;
+    const mobileQuery = '(max-width: 1024px) and (orientation: portrait), (max-width: 768px)';
+    const isMobile = window.matchMedia(mobileQuery).matches;
+
+    if (!document.getElementById('mobile-select-backdrop')) {
+        const bd = document.createElement('div');
+        bd.id = 'mobile-select-backdrop';
+        bd.className = 'mobile-select-backdrop';
+        bd.addEventListener('click', () => {
+            document.querySelectorAll('.custom-select-list.open').forEach(l => l.classList.remove('open'));
+            document.querySelectorAll('.custom-select-trigger.open').forEach(t => t.classList.remove('open'));
+            bd.classList.remove('open');
+        });
+        document.body.appendChild(bd);
+    }
+
     document.querySelectorAll('.select').forEach(select => {
         if (!select.closest('.custom-select-wrap')) {
             const wrap = document.createElement('div');
@@ -4792,15 +4816,44 @@ function initCustomDropdowns() {
             const trigger = document.createElement('button');
             trigger.type = 'button';
             trigger.className = 'custom-select-trigger';
-            var selOpt = select.options[select.selectedIndex]; trigger.textContent = (selOpt && selOpt.text) || '';
+            var selOpt = select.options[select.selectedIndex];
+            trigger.textContent = (selOpt && selOpt.text) || '';
             wrap.appendChild(trigger);
 
             const list = document.createElement('div');
             list.className = 'custom-select-list';
             wrap.appendChild(list);
 
+            function getLabel() {
+                const section = select.closest('.config-section, .clock-controls, .panel-body');
+                const lbl = section ? section.querySelector('label') : null;
+                return lbl ? lbl.textContent.replace(/:?\s*$/, '') : '';
+            }
+
+            function closeSheet() {
+                list.classList.remove('open');
+                trigger.classList.remove('open');
+                const bd = document.getElementById('mobile-select-backdrop');
+                if (bd) bd.classList.remove('open');
+            }
+
             function buildList() {
                 list.innerHTML = '';
+                const mobile = window.matchMedia(mobileQuery).matches;
+                if (mobile) {
+                    const hdr = document.createElement('div');
+                    hdr.className = 'sheet-header';
+                    const span = document.createElement('span');
+                    span.textContent = getLabel();
+                    const btn = document.createElement('button');
+                    btn.type = 'button';
+                    btn.className = 'sheet-close';
+                    btn.textContent = '✕';
+                    btn.addEventListener('click', closeSheet);
+                    hdr.appendChild(span);
+                    hdr.appendChild(btn);
+                    list.appendChild(hdr);
+                }
                 for (const node of select.children) {
                     if (node.tagName === 'OPTGROUP') {
                         const g = document.createElement('div');
@@ -4830,9 +4883,9 @@ function initCustomDropdowns() {
 
             function selectOption(val) {
                 select.value = val;
-                var so = select.options[select.selectedIndex]; trigger.textContent = (so && so.text) || '';
-                list.classList.remove('open');
-                trigger.classList.remove('open');
+                var so = select.options[select.selectedIndex];
+                trigger.textContent = (so && so.text) || '';
+                closeSheet();
                 list.querySelectorAll('.custom-select-option').forEach(o => {
                     o.classList.toggle('selected', o.dataset.value === val);
                 });
@@ -4841,9 +4894,22 @@ function initCustomDropdowns() {
 
             trigger.addEventListener('click', (e) => {
                 e.stopPropagation();
+                document.querySelectorAll('.custom-select-list.open').forEach(l => { if (l !== list) l.classList.remove('open'); });
+                document.querySelectorAll('.custom-select-trigger.open').forEach(t => { if (t !== trigger) t.classList.remove('open'); });
                 const open = list.classList.toggle('open');
                 trigger.classList.toggle('open', open);
-                if (open) buildList();
+                if (open) {
+                    buildList();
+                    if (window.matchMedia(mobileQuery).matches) {
+                        document.getElementById('mobile-select-backdrop').classList.add('open');
+                        setTimeout(() => {
+                            const sel = list.querySelector('.custom-select-option.selected');
+                            if (sel) sel.scrollIntoView({ block: 'center', behavior: 'smooth' });
+                        }, 60);
+                    }
+                } else {
+                    closeSheet();
+                }
             });
 
             select.addEventListener('change', function() {
@@ -4851,7 +4917,7 @@ function initCustomDropdowns() {
                 if (trigger) trigger.textContent = (so && so.text) || '';
             });
 
-            document.addEventListener('click', function closeDropdown(e) {
+            document.addEventListener('click', function(e) {
                 if (!wrap.contains(e.target)) {
                     list.classList.remove('open');
                     trigger.classList.remove('open');
@@ -4865,7 +4931,8 @@ function initCustomDropdowns() {
         if (wrap && trigger && list) {
             if (isMobile) {
                 trigger.style.display = 'block';
-                var so2 = select.options[select.selectedIndex]; trigger.textContent = (so2 && so2.text) || '';
+                var so2 = select.options[select.selectedIndex];
+                trigger.textContent = (so2 && so2.text) || '';
             } else {
                 trigger.style.display = 'none';
             }
