@@ -187,7 +187,6 @@
                         <div id="opening-winrate" class="opening-winrate" style="display:none;"></div>
                     </div>
                     <button id="show-known-variants" class="btn btn-secondary" disabled>📖 Variantes Conocidas</button>
-                    <button id="view-opening" class="btn btn-info" disabled>👁 Ver Apertura</button>
                     <button id="start-opening-quiz" class="btn btn-warning" disabled>🧠 Quiz: Adivina el Movimiento</button>
                     <div id="quiz-score" class="quiz-score" style="display:none;">
                         <span class="quiz-correct">✓ <span id="quiz-correct-count">0</span></span>
@@ -199,16 +198,13 @@
                 <div class="panel panel-collapsible collapsed" id="puzzles-panel">
                     <h2 class="panel-toggle">🧩 Problemas de Ajedrez <span class="panel-arrow">▲</span></h2>
                     <div class="panel-body">
-                    <div style="text-align:center;padding:12px 16px 8px;color:#888;border-bottom:1px solid #e0e0e0;margin-bottom:8px;">
-                        <p style="font-size:0.95rem;font-weight:600;color:#b45309;margin:0;">🚧 En construcción</p>
-                    </div>
+                    <p class="puzzles-construction-hint" role="status">En construcción</p>
                     <div class="config-section">
                         <label>Categoría:</label>
                         <select id="puzzle-theme-select" class="select">
                             <option value="all">— Todas —</option>
                             <option value="mate1">♔ Mate en 1</option>
                             <option value="mate2">♔ Mate en 2</option>
-                            <option value="mate3">♔ Mate en 3+</option>
                             <option value="fork">⚔️ Horquilla / Doble ataque</option>
                             <option value="pin">📌 Clavada</option>
                             <option value="sacrifice">💎 Sacrificio</option>
@@ -221,18 +217,7 @@
                             <option value="tactic">🧠 Táctica general</option>
                         </select>
                     </div>
-                    <div class="config-section">
-                        <label>Dificultad:</label>
-                        <select id="puzzle-difficulty-select" class="select">
-                            <option value="all">— Todas —</option>
-                            <option value="1">⭐ Fácil</option>
-                            <option value="2">⭐⭐ Media</option>
-                            <option value="3">⭐⭐⭐ Difícil</option>
-                            <option value="4">⭐⭐⭐⭐ Experto</option>
-                        </select>
-                    </div>
-                    <button id="start-puzzle" class="btn btn-primary" style="margin-top:6px;width:100%">🧩 Nuevo Problema</button>
-                    <div id="puzzle-info" style="display:none;">
+                    <div id="puzzle-info" style="display:none;margin-top:8px;">
                         <p id="puzzle-title" class="training-name" style="margin-top:8px;"></p>
                         <p id="puzzle-theme-label" class="training-moves"></p>
                         <p id="puzzle-instruction" class="training-desc" style="font-style:normal;color:#1e40af;font-weight:600;"></p>
@@ -240,7 +225,6 @@
                         <div class="puzzle-actions" style="margin-top:6px;">
                             <button id="puzzle-hint" class="btn btn-yellow btn-sm">💡 Pista</button>
                             <button id="puzzle-solution" class="btn btn-secondary btn-sm">👁 Ver solución</button>
-                            <button id="puzzle-skip" class="btn btn-secondary btn-sm">⏭ Saltar</button>
                         </div>
                     </div>
                     <div id="puzzle-stats" class="puzzle-stats">
@@ -432,6 +416,19 @@
                         </div>
                     </div>
                 </div>
+                       <!-- Navegación de problemas bajo el tablero -->
+                       <div id="puzzle-board-nav" class="puzzle-board-nav" style="display:none;">
+                           <button id="puzzle-prev-board" class="puzzle-board-nav-btn" type="button" title="Problema anterior">
+                               <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+                           </button>
+                           <span id="puzzle-board-nav-label" class="puzzle-board-nav-label"></span>
+                           <button id="puzzle-next-board" class="puzzle-board-nav-btn" type="button" title="Siguiente problema">
+                               <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+                           </button>
+                           <button id="puzzle-close-board" class="puzzle-board-nav-btn puzzle-board-close-btn" type="button" title="Cerrar problemas">
+                               <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                           </button>
+                       </div>
                        <!-- Navegación de errores del análisis (visible al analizar) -->
                        <div id="analysis-errors-nav" class="analysis-errors-nav" style="display: none;">
                            <button id="analysis-nav-summary" class="analysis-nav-btn analysis-nav-summary-btn" title="Ver resumen del análisis">📊</button>

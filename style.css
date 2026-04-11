@@ -117,7 +117,7 @@ header h1 {
 
 .panel-collapsible .panel-body {
     overflow: visible;
-    max-height: 1200px;
+    max-height: 4000px;
     transition: max-height 0.35s ease, opacity 0.3s ease;
     opacity: 1;
 }
@@ -130,7 +130,9 @@ header h1 {
 .panel-collapsible.collapsed h2 {
     margin-bottom: 0;
     border-bottom: none;
-    padding-bottom: 0;
+    padding: 10px 14px;
+    font-size: 1.08rem;
+    line-height: inherit;
 }
 
 .panel-collapsible > .btn {
@@ -341,6 +343,18 @@ header h1 {
     50% { box-shadow: inset 0 0 0 6px #f59e0b, 0 0 12px #f59e0b; }
 }
 
+.puzzles-construction-hint {
+    margin: 0 0 8px;
+    padding: 0;
+    text-align: center;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #b45309;
+    opacity: 0.85;
+}
+
 .puzzle-stats {
     display: flex;
     gap: 16px;
@@ -433,6 +447,16 @@ header h1 {
 @keyframes puzzleWrong {
     0%, 100% { background: inherit; }
     25%, 75% { background: rgba(220, 38, 38, 0.3); }
+}
+
+.square.puzzle-hint {
+    box-shadow: inset 0 0 0 4px #f59e0b;
+    animation: puzzleHintPulse 0.8s ease-in-out 3;
+}
+
+@keyframes puzzleHintPulse {
+    0%, 100% { box-shadow: inset 0 0 0 4px #f59e0b; }
+    50% { box-shadow: inset 0 0 0 6px #f59e0b, 0 0 12px #f59e0b; }
 }
 
 .config-section label {
@@ -797,6 +821,67 @@ header h1 {
 }
 
 /* Barra de navegación de errores del análisis (justo debajo del tablero) */
+.puzzle-board-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 10px 16px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-top: 8px;
+    max-width: 640px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.puzzle-board-nav-btn {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #c7d2fe;
+    background: #c7d2fe;
+    color: #1f2937;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.puzzle-board-nav-btn:hover:not(:disabled) {
+    background: #a5b4fc;
+    border-color: #a5b4fc;
+    transform: scale(1.05);
+}
+
+.puzzle-board-nav-btn:disabled {
+    background: #e5e7eb;
+    border-color: #e5e7eb;
+    color: #9ca3af;
+    cursor: not-allowed;
+}
+
+.puzzle-board-close-btn {
+    margin-left: 8px;
+}
+
+.puzzle-board-nav-label {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #1f2937;
+    text-align: center;
+    min-width: 180px;
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 .analysis-errors-nav {
     display: flex;
     align-items: center;
@@ -1199,6 +1284,30 @@ header h1 {
     box-shadow: 0 4px 20px rgba(100, 116, 139, 0.5);
     pointer-events: auto;
     cursor: pointer;
+}
+
+.board-banner.banner-puzzle-solved {
+    display: block;
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.94), rgba(5, 150, 105, 0.94));
+    color: #fff;
+    box-shadow: 0 4px 20px rgba(16, 185, 129, 0.5);
+    font-size: 1.1rem;
+    line-height: 1.4;
+    pointer-events: auto;
+    cursor: pointer;
+    padding: 14px 18px;
+}
+
+.board-banner.banner-puzzle-failed {
+    display: block;
+    background: linear-gradient(135deg, rgba(239, 68, 68, 0.94), rgba(220, 38, 38, 0.94));
+    color: #fff;
+    box-shadow: 0 4px 20px rgba(239, 68, 68, 0.5);
+    font-size: 1.1rem;
+    line-height: 1.4;
+    pointer-events: auto;
+    cursor: pointer;
+    padding: 14px 18px;
 }
 
 .move-insight {
@@ -2386,14 +2495,21 @@ header h1 {
 @media (max-width: 1024px) and (orientation: portrait), (max-width: 768px) {
     .custom-select-wrap .select {
         position: absolute;
+        top: 0;
+        left: 0;
         opacity: 0;
-        pointer-events: none;
+        pointer-events: auto;
         width: 100%;
-        height: 48px;
+        height: 100%;
+        z-index: 2;
     }
 
     .custom-select-wrap .custom-select-trigger {
         display: block;
+    }
+
+    .custom-select-wrap .custom-select-list {
+        display: none !important;
     }
 }
 

@@ -1,4 +1,4 @@
-const APP_VERSION = '2.4.8';
+const APP_VERSION = '2.5';
 
 let game = null;
 let playerColor = 'white';
@@ -24,16 +24,16 @@ let analysisErrorsCurrentIndex = 0;
 let analysisActive = false;
 let dragState = null;
 
-const ANALYSIS_DISABLED_IDS = ['new-game', 'start-opening-training', 'start-opening-quiz', 'load-famous-game',
+const ANALYSIS_DISABLED_IDS = ['start-opening-training', 'start-opening-quiz', 'load-famous-game',
     'resign-game', 'offer-draw', 'resume-game', 'undo-move', 'hint-move', 'analyze-game',
     'resign-game-sidebar', 'offer-draw-sidebar', 'view-analysis', 'resume-game-sidebar', 'undo-move-sidebar', 'hint-move-sidebar', 'analyze-game-sidebar',
     'copy-pgn', 'copy-pgn-board', 'export-pgn', 'import-pgn', 'reset-stats',
     'nav-first', 'nav-prev', 'nav-next', 'nav-last',
-    'start-puzzle', 'puzzle-hint', 'puzzle-solution', 'puzzle-skip',
-    'show-known-variants', 'view-opening',
+    'puzzle-hint', 'puzzle-solution', 'puzzle-prev-board', 'puzzle-next-board',
+    'show-known-variants',
     'player-color-btn-white', 'player-color-btn-black',
     'ai-difficulty', 'opening-select', 'famous-game-select', 'time-control',
-    'piece-style', 'puzzle-theme-select', 'puzzle-difficulty-select'];
+    'piece-style', 'puzzle-theme-select'];
 
 // Estadísticas del jugador
 let stats = {
@@ -1837,141 +1837,113 @@ const OPENING_TRAINING = {
 
 // ===== PROBLEMAS DE AJEDREZ =====
 var CHESS_PUZZLES = [
-    // --- MATE EN 1 (difficulty 1) ---
-    { fen: '6k1/5ppp/8/8/8/8/1Q6/K7 w - - 0 1', solution: ['b2g7'], theme: 'mate1', difficulty: 1, title: 'Mate con dama' },
-    { fen: 'r1bqkb1r/pppp1ppp/2n2n2/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - 0 1', solution: ['h5f7'], theme: 'mate1', difficulty: 1, title: 'Mate del Pastor' },
-    { fen: '5rk1/ppp2ppp/8/8/8/8/PPP2PPP/R4RK1 w - - 0 1', solution: ['f1f8'], theme: 'mate1', difficulty: 1, title: 'Mate en la última fila' },
-    { fen: '6k1/pppp1ppp/8/8/8/8/PPPPQPPP/R3K2R w KQ - 0 1', solution: ['e2e8'], theme: 'mate1', difficulty: 1, title: 'Mate con dama' },
-    { fen: 'r4rk1/pppb1ppp/8/3Nb3/8/8/PPPB1PPP/R2K3R w - - 0 1', solution: ['d5f6'], theme: 'mate1', difficulty: 1, title: 'Mate con caballo' },
-    { fen: '3qk3/8/8/8/8/5B2/8/4K2R w K - 0 1', solution: ['h1h8'], theme: 'mate1', difficulty: 1, title: 'Mate con torre' },
-    { fen: 'rnb1kbnr/pppp1ppp/8/4p3/6Pq/5P2/PPPPP2P/RNBQKBNR b KQkq - 0 1', solution: ['h4e1'], theme: 'mate1', difficulty: 1, title: 'Mate del Loco' },
-    { fen: '5r1k/6pp/8/8/8/8/R7/K5R1 w - - 0 1', solution: ['g1g8'], theme: 'mate1', difficulty: 1, title: 'Mate con torre en 8ª fila' },
-    { fen: '6k1/5p1p/6p1/8/8/8/5PPP/4Q1K1 w - - 0 1', solution: ['e1e8'], theme: 'mate1', difficulty: 1, title: 'Mate con dama lejana' },
-    { fen: 'r1b1kb1r/pppp1ppp/2n2n2/8/2BqP3/2N5/PPPP1PPP/R1BQ1RK1 w kq - 0 1', solution: ['c3d5'], theme: 'mate1', difficulty: 1, title: 'Descubierta mortal' },
+    // --- MATE EN 1 ---
+    { fen: '6k1/5ppp/8/8/8/8/8/R5K1 w - - 0 1', solution: ['a1a8'], theme: 'mate1', difficulty: 1, title: 'Mate de pasillo' },
+    { fen: '6k1/5ppp/8/8/8/8/1Q6/K7 w - - 0 1', solution: ['b2b8'], theme: 'mate1', difficulty: 1, title: 'Mate con dama' },
+    { fen: 'r1bqkb1r/pppp1ppp/2n2n2/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - 0 4', solution: ['h5f7'], theme: 'mate1', difficulty: 1, title: 'Mate del Pastor' },
+    { fen: '6k1/pppp1ppp/8/8/8/8/PPPPQPPP/R3K2R w KQ - 0 1', solution: ['e2e8'], theme: 'mate1', difficulty: 1, title: 'Mate con dama en e8' },
+    { fen: 'rnbqkbnr/pppp1ppp/8/4p3/6P1/5P2/PPPPP2P/RNBQKBNR b KQkq - 0 2', solution: ['d8h4'], theme: 'mate1', difficulty: 1, title: 'Mate del Loco' },
+    { fen: '7k/R7/5N2/8/8/8/8/K7 w - - 0 1', solution: ['a7h7'], theme: 'mate1', difficulty: 1, title: 'Mate Árabe' },
+    { fen: '6rk/6pp/8/4N3/8/8/8/K7 w - - 0 1', solution: ['e5f7'], theme: 'mate1', difficulty: 1, title: 'Mate ahogado del caballo' },
+    { fen: '6k1/5ppp/8/8/8/8/8/R3R1K1 w - - 0 1', solution: ['e1e8'], theme: 'mate1', difficulty: 1, title: 'Mate con dos torres' },
+    { fen: '6k1/5ppp/8/8/3Q4/8/5PPP/6K1 w - - 0 1', solution: ['d4d8'], theme: 'mate1', difficulty: 1, title: 'Mate con dama en d8' },
+    { fen: '3r2k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - 0 1', solution: ['d1d8'], theme: 'mate1', difficulty: 1, title: 'Mate capturando en 8ª fila' },
+    { fen: '6k1/3p1ppp/4Q3/8/8/8/8/6K1 w - - 0 1', solution: ['e6e8'], theme: 'mate1', difficulty: 1, title: 'Mate con dama en e8' },
+    { fen: '6k1/5p1p/8/4B3/8/8/8/6QK w - - 0 1', solution: ['g1g7'], theme: 'mate1', difficulty: 1, title: 'Mate de dama y alfil' },
+    { fen: '6k1/1p3ppp/4N3/8/8/8/6Q1/6K1 w - - 0 1', solution: ['g2g7'], theme: 'mate1', difficulty: 1, title: 'Mate de dama y caballo' },
+    { fen: '4r1k1/ppp2ppp/8/8/8/8/PPP2PPP/4R1K1 w - - 0 1', solution: ['e1e8'], theme: 'mate1', difficulty: 1, title: 'Mate con torre capturando' },
+    { fen: '6k1/5ppp/8/8/8/8/5PPP/4Q1K1 w - - 0 1', solution: ['e1e8'], theme: 'mate1', difficulty: 1, title: 'Mate con dama lejana' },
+    { fen: 'r3k3/8/3K4/8/7Q/8/8/8 w - - 0 1', solution: ['h4e7'], theme: 'mate1', difficulty: 2, title: 'Mate de dama y rey' },
+    { fen: '6k1/4Rppp/8/8/8/8/8/6K1 w - - 0 1', solution: ['e7e8'], theme: 'mate1', difficulty: 1, title: 'Mate de torre deslizante' },
+    { fen: '6k1/5p1p/4Q1pB/8/8/8/5PPP/6K1 w - - 0 1', solution: ['e6e8'], theme: 'mate1', difficulty: 1, title: 'Mate de dama y alfil en diagonal' },
+    { fen: '4n1k1/3Q1ppp/8/8/8/8/5PPP/6K1 w - - 0 1', solution: ['d7e8'], theme: 'mate1', difficulty: 1, title: 'Mate capturando el caballo' },
+    { fen: '6k1/5ppp/7Q/8/8/8/6R1/6K1 w - - 0 1', solution: ['h6g7'], theme: 'mate1', difficulty: 1, title: 'Mate con captura en g7' },
+    { fen: '7k/4N1pp/8/8/8/8/8/R5K1 w - - 0 1', solution: ['a1a8'], theme: 'mate1', difficulty: 1, title: 'Mate Árabe con caballo e7' },
+    { fen: '6k1/5ppp/8N/8/8/1Q6/5PPP/6K1 w - - 0 1', solution: ['b3b8'], theme: 'mate1', difficulty: 1, title: 'Mate de dama y caballo coordinados' },
 
-    // --- MATE EN 2 (difficulty 2) ---
-    { fen: '2bqkbn1/2pppp2/np2N3/r3P1p1/p2N2B1/5Q2/PPPPPP1P/RNB1K2R w KQ - 0 1', solution: ['f3f7', 'e8d8', 'f7d7'], theme: 'mate2', difficulty: 2, title: 'Mate de Legal' },
-    { fen: 'r2qk2r/ppp2ppp/2np4/2b1p1B1/2B1P1b1/3P1N2/PPP2PPP/RN1QR1K1 w kq - 0 1', solution: ['c4f7', 'e8f8', 'd1b3'], theme: 'mate2', difficulty: 2, title: 'Sacrificio en f7' },
-    { fen: '6k1/pp3ppp/8/8/8/2B5/PP3PPP/6K1 w - - 0 1', solution: ['c3g7'], theme: 'mate1', difficulty: 1, title: 'Mate con alfil y peón' },
-    { fen: 'r1bqr1k1/pppp1ppp/2n2n2/8/1bBNP3/2N5/PPPP1PPP/R1BQ1RK1 w - - 0 1', solution: ['d4f5', 'g8h8', 'd1g4'], theme: 'mate2', difficulty: 2, title: 'Ataque al rey enrocado' },
-    { fen: 'r3k2r/ppp2ppp/2n5/3Np1q1/2B1P3/8/PPPP1bPP/RNBQ1R1K b kq - 0 1', solution: ['g5g1', 'f1g1', 'f2g3'], theme: 'mate2', difficulty: 2, title: 'Sacrificio de dama' },
-    { fen: '3r2k1/pp3ppp/8/3Q4/8/8/PPP2PPP/6K1 w - - 0 1', solution: ['d5f7', 'g8h8', 'f7f8'], theme: 'mate2', difficulty: 2, title: 'Mate con dama sola' },
-    { fen: 'r1b1k2r/ppppqppp/2n5/1Bb1P3/8/5N2/PPPP1PPP/RNBQR1K1 w kq - 0 1', solution: ['e5f6', 'e7f6', 'e1e8'], theme: 'mate2', difficulty: 2, title: 'Apertura de línea' },
-    { fen: '5rk1/1p3ppp/p7/8/8/1B6/PPP3PP/2KR4 w - - 0 1', solution: ['d1d8', 'f8d8', 'b3f7'], theme: 'mate2', difficulty: 2, title: 'Cambio y mate' },
-    { fen: '2r3k1/5ppp/8/8/8/8/2R2PPP/2R3K1 w - - 0 1', solution: ['c2c8', 'c8c8', 'c1c8'], theme: 'mate2', difficulty: 2, title: 'Torres dobladas' },
-    { fen: 'r1bqk2r/pppp1Bpp/2n2n2/2b1p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 0 1', solution: ['e8f7', 'd1b3', 'f7e8'], theme: 'mate2', difficulty: 2, title: 'Trampa de apertura' },
+    // --- MATE EN 2 ---
+    { fen: '5r1k/6pp/4Q2N/8/8/8/8/6K1 w - - 0 1', solution: ['e6g8', 'f8g8', 'h6f7'], theme: 'mate2', difficulty: 2, title: 'Mate ahogado clásico' },
+    { fen: '1r4k1/5ppp/8/8/4Q3/8/5PPP/4R1K1 w - - 0 1', solution: ['e4e8', 'b8e8', 'e1e8'], theme: 'mate2', difficulty: 2, title: 'Sacrificio de dama y pasillo' },
+    { fen: 'r5k1/pp3ppp/8/3Q4/8/8/PPP2PPP/3R2K1 w - - 0 1', solution: ['d5d8', 'a8d8', 'd1d8'], theme: 'mate2', difficulty: 2, title: 'Sacrificio de dama en la octava' },
+    { fen: 'r5k1/5ppp/8/8/2Q5/8/5PPP/2R3K1 w - - 0 1', solution: ['c4c8', 'a8c8', 'c1c8'], theme: 'mate2', difficulty: 2, title: 'Sacrificio de dama en columna c' },
+    { fen: 'r5k1/5ppp/8/8/1Q6/8/5PPP/1R4K1 w - - 0 1', solution: ['b4b8', 'a8b8', 'b1b8'], theme: 'mate2', difficulty: 2, title: 'Sacrificio de dama en columna b' },
+    { fen: 'k7/8/1K6/8/8/8/8/1R6 w - - 0 1', solution: ['b6c7', 'a8a7', 'b1a1'], theme: 'mate2', difficulty: 2, title: 'Mate de rey y torre en esquina' },
+    { fen: '5r1k/6pp/8/6N1/8/8/Q7/6K1 w - - 0 1', solution: ['a2g8', 'f8g8', 'e7g6'], theme: 'mate2', difficulty: 2, title: 'Mate ahogado con caballo' },
 
-    // --- TÁCTICA: Horquilla / Doble ataque (difficulty 2) ---
-    { fen: 'r1bqkb1r/pppppppp/2n5/8/3nP3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 1', solution: ['d1d4'], theme: 'fork', difficulty: 2, title: 'Doble ataque con dama' },
-    { fen: 'r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 1', solution: ['f1b5'], theme: 'pin', difficulty: 2, title: 'Clavada del caballo' },
-    { fen: 'r3k2r/ppp2ppp/2n5/3q4/3P4/8/PPP2PPP/R1BQK1NR w KQkq - 0 1', solution: ['c1g5'], theme: 'fork', difficulty: 2, title: 'Ataque doble con alfil' },
-    { fen: '5rk1/ppp2ppp/3p4/8/4n3/8/PPP2PPP/R1B1K2R b KQ - 0 1', solution: ['e4f2'], theme: 'fork', difficulty: 2, title: 'Horquilla de caballo' },
+    // --- HORQUILLA / DOBLE ATAQUE ---
+    { fen: 'r3kbnr/pppp1ppp/4p3/1N6/4P3/8/PPPP1PPP/RNBQKB1R w KQkq - 0 1', solution: ['b5c7'], theme: 'fork', difficulty: 2, title: 'Horquilla de caballo clásica' },
+    { fen: '5rk1/ppp2ppp/3p4/8/4n3/8/PPP2PPP/R1BK3R b KQ - 0 1', solution: ['e4f2'], theme: 'fork', difficulty: 2, title: 'Horquilla de caballo' },
     { fen: 'r1bqk2r/ppppbppp/2n5/4N3/4P3/8/PPPP1PPP/RNBQKB1R w KQkq - 0 1', solution: ['e5c6'], theme: 'fork', difficulty: 2, title: 'Captura con doble ataque' },
     { fen: 'r2qkbnr/ppp2ppp/2np4/4p1B1/4P1b1/5N2/PPPP1PPP/RN1QKB1R w KQkq - 0 1', solution: ['f3e5'], theme: 'fork', difficulty: 2, title: 'Ataque doble al centro' },
-
-    // --- TÁCTICA: Clavada (difficulty 2-3) ---
-    { fen: 'r1bqkbnr/ppp2ppp/2np4/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 1', solution: ['c4f7'], theme: 'sacrifice', difficulty: 2, title: 'Sacrificio en f7' },
-    { fen: 'rnbqk2r/ppppppbp/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 1', solution: ['e2e4'], theme: 'center', difficulty: 2, title: 'Dominio central' },
     { fen: 'rn1qkbnr/ppp1pppp/8/3p4/4P1b1/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 1', solution: ['f3e5'], theme: 'fork', difficulty: 2, title: 'Ataque al alfil clavado' },
+    { fen: 'r2q1rk1/ppp2ppp/2n2n2/3Np1b1/2B1P3/8/PPPP1PPP/R1BQR1K1 w - - 0 1', solution: ['d5f6'], theme: 'fork', difficulty: 3, title: 'Eliminación y ataque' },
+    { fen: '1r3rk1/5ppp/p1p5/3pN3/1P6/P3PP2/5KPP/1R1R4 w - - 0 1', solution: ['e5d7'], theme: 'fork', difficulty: 2, title: 'Horquilla doble de torres' },
+
+    // --- CLAVADA ---
+    { fen: 'r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 1', solution: ['f1b5'], theme: 'pin', difficulty: 2, title: 'Clavada del caballo' },
     { fen: 'r2qk2r/ppp1bppp/2n1bn2/3pp3/8/1BN2N2/PPPPQPPP/R1B1K2R w KQkq - 0 1', solution: ['f3d4'], theme: 'pin', difficulty: 3, title: 'Ataque a la clavada' },
 
-    // --- MATE EN 3 (difficulty 3) ---
-    { fen: '5rk1/5ppp/8/1Q6/8/8/5PPP/6K1 w - - 0 1', solution: ['b5f5', 'f8f5', 'f5f7'], theme: 'mate2', difficulty: 2, title: 'Infiltración de dama' },
-    { fen: 'r1b2rk1/2p2ppp/p7/1p6/3P3q/1BP2N1P/PP4P1/RN1QR1K1 b - - 0 1', solution: ['h4f2', 'g1h1', 'f2g2'], theme: 'mate2', difficulty: 3, title: 'Mate en g2' },
-    { fen: '2kr3r/ppqb1ppp/2n1pn2/2Pp4/1B6/2N1PN2/PP1Q1PPP/R3K2R w KQ - 0 1', solution: ['d2d4'], theme: 'center', difficulty: 2, title: 'Centralización de dama' },
-    { fen: 'r1bq1rk1/ppppbppp/2n2n2/4p3/2BPP3/2N2N2/PPP2PPP/R1BQ1RK1 w - - 0 1', solution: ['d4e5'], theme: 'center', difficulty: 2, title: 'Ruptura central' },
-    { fen: '6k1/5p1p/4p1pQ/8/8/8/5PPP/6K1 w - - 0 1', solution: ['h6g7'], theme: 'mate1', difficulty: 1, title: 'Mate en g7' },
-    { fen: 'r2qr1k1/ppp2ppp/2npbn2/2b1p3/4P3/2NP1N1P/PPP1BPP1/R1BQR1K1 w - - 0 1', solution: ['d3d4'], theme: 'center', difficulty: 2, title: 'Expansión central' },
+    // --- SACRIFICIO ---
+    { fen: 'r1bqkbnr/ppp2ppp/2np4/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 1', solution: ['c4f7'], theme: 'sacrifice', difficulty: 2, title: 'Sacrificio en f7' },
 
-    // --- TÁCTICA: Descubierta (difficulty 3) ---
+    // --- ATAQUE ---
     { fen: 'r2q1rk1/pp2ppbp/2np1np1/2p5/4PP2/2NP2P1/PPP1N1BP/R1BQ1RK1 w - - 0 1', solution: ['f4f5'], theme: 'attack', difficulty: 3, title: 'Avance con amenaza' },
-    { fen: 'r1bq1rk1/ppp2ppp/2n2n2/3pp3/1bPP4/2N1PN2/PP3PPP/R1BQKB1R w KQ - 0 1', solution: ['d4d5'], theme: 'fork', difficulty: 3, title: 'Avance con doble amenaza' },
-    { fen: 'r2qk2r/ppp1bppp/2n2n2/3pp3/3PP1b1/2N2N2/PPP1BPPP/R1BQK2R w KQkq - 0 1', solution: ['d4d5'], theme: 'fork', difficulty: 2, title: 'Ataque descubierto' },
-
-    // --- FINALES (difficulty 2-3) ---
-    { fen: '8/8/8/8/8/5K2/4P3/5k2 w - - 0 1', solution: ['e2e4'], theme: 'endgame', difficulty: 1, title: 'Peón pasado: avanzar' },
-    { fen: '8/8/4k3/8/8/4K3/4P3/8 w - - 0 1', solution: ['e3d4'], theme: 'endgame', difficulty: 2, title: 'Oposición: flanqueo' },
-    { fen: '8/2k5/8/8/8/8/1KP5/8 w - - 0 1', solution: ['c2c4'], theme: 'endgame', difficulty: 1, title: 'Peón pasado: empujar' },
-    { fen: '8/8/8/3k4/8/4K3/8/4R3 w - - 0 1', solution: ['e1e7'], theme: 'endgame', difficulty: 2, title: 'Rey y Torre: cortar al rey' },
-    { fen: '8/8/4k3/8/8/8/4K3/R7 w - - 0 1', solution: ['a1a6'], theme: 'endgame', difficulty: 2, title: 'Técnica de la escalera' },
-    { fen: '8/8/8/8/4k3/8/R3K3/8 w - - 0 1', solution: ['a2a4'], theme: 'endgame', difficulty: 2, title: 'Torre y Rey vs Rey' },
-
-    // --- TÁCTICA: Sacrificio (difficulty 3-4) ---
-    { fen: 'r1bqk2r/pppp1ppp/2n2n2/2b1p3/2BPP3/5N2/PPP2PPP/RNBQ1RK1 w kq - 0 1', solution: ['d4e5'], theme: 'center', difficulty: 2, title: 'Captura central fuerte' },
-    { fen: 'rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 1', solution: ['e2e3'], theme: 'development', difficulty: 2, title: 'Desarrollo armonioso' },
+    { fen: 'r1bq1rk1/ppp2ppp/2n2n2/3pp3/1bPP4/2N1PN2/PP3PPP/R1BQKB1R w KQ - 0 1', solution: ['d4e5'], theme: 'attack', difficulty: 2, title: 'Captura central activa' },
+    { fen: 'r2qk2r/ppp1bppp/2n2n2/3pp3/3PP1b1/2N2N2/PPP1BPPP/R1BQK2R w KQkq - 0 1', solution: ['d4e5'], theme: 'attack', difficulty: 2, title: 'Captura ganando espacio' },
     { fen: 'r2q1rk1/pp2ppbp/3p1np1/2pP4/4P3/2N5/PP2BPPP/R1BQ1RK1 w - - 0 1', solution: ['e4e5'], theme: 'attack', difficulty: 3, title: 'Ruptura de peón e5' },
-    { fen: 'r1bq1rk1/ppp1npbp/3p1np1/3Pp3/2P1P3/2N2N2/PP2BPPP/R1BQ1RK1 w - - 0 1', solution: ['c3d5'], theme: 'sacrifice', difficulty: 3, title: 'Sacrificio posicional' },
-
-    // --- TEMAS MIXTOS (difficulty 2-4) ---
-    { fen: 'r3k2r/pp1n1ppp/2p1p3/q2pPb2/3P1P2/P1PB4/2P3PP/R2QK2R b KQkq - 0 1', solution: ['f5d3'], theme: 'capture', difficulty: 2, title: 'Captura ganadora' },
-    { fen: 'rnbq1rk1/pp2ppbp/3p1np1/2pP4/2P1P3/2N2N2/PP2BPPP/R1BQK2R w KQ - 0 1', solution: ['e1g1'], theme: 'development', difficulty: 1, title: 'Enroque oportuno' },
-    { fen: 'r1bqkbnr/pp1ppppp/2n5/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 1', solution: ['d2d4'], theme: 'center', difficulty: 1, title: 'Apertura del centro' },
     { fen: 'r1bqkb1r/pppppppp/2n2n2/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 1', solution: ['e4e5'], theme: 'attack', difficulty: 2, title: 'Avance ganando tiempos' },
+    { fen: 'rnbqkb1r/pppppppp/5n2/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 1', solution: ['e4e5'], theme: 'attack', difficulty: 2, title: 'Avance ganador e5' },
     { fen: 'r1bq1rk1/pppp1ppp/2n2n2/2b1p3/2B1P3/3P1N2/PPP2PPP/RNBQ1RK1 w - - 0 1', solution: ['b2b4'], theme: 'attack', difficulty: 3, title: 'Expansión en el flanco' },
     { fen: '2kr1b1r/ppp1pppp/2n2n2/3q4/3P4/4BN2/PPP2PPP/RN1QKB1R w KQ - 0 1', solution: ['f3g5'], theme: 'attack', difficulty: 3, title: 'Ataque al punto f7' },
-
-    // --- MATE EN 2 AVANZADOS (difficulty 3) ---
-    { fen: 'r4rk1/ppp2ppp/8/3pN3/3PnBb1/6P1/PPP2P1P/R2QR1K1 w - - 0 1', solution: ['e5f7', 'f8f7', 'f4c7'], theme: 'mate2', difficulty: 3, title: 'Sacrificio de caballo' },
-    { fen: '2r2rk1/pp3ppp/8/3q4/8/2B5/PP3PPP/R2Q1RK1 w - - 0 1', solution: ['d1d5'], theme: 'capture', difficulty: 2, title: 'Captura centralizada' },
     { fen: 'r2q1rk1/ppp1bppp/2n2n2/3p4/3P1B2/2PBPN2/PP3PPP/R2QK2R w KQ - 0 1', solution: ['d1b1'], theme: 'attack', difficulty: 3, title: 'Batería dama-alfil' },
+    { fen: 'rnbq1rk1/ppp2ppp/3p1n2/4p3/2BPP1b1/2N2N2/PPP2PPP/R1BQ1RK1 w - - 0 1', solution: ['d4d5'], theme: 'attack', difficulty: 3, title: 'Avance ganando pieza' },
+    { fen: 'r2q1rk1/pp2ppbp/2p2np1/6B1/3PP3/2N5/PPP2PPP/R2QK2R w KQ - 0 1', solution: ['e4e5'], theme: 'attack', difficulty: 3, title: 'Ataque al enrocado' },
 
-    // --- TÁCTICA: Rayos X (difficulty 3) ---
-    { fen: '1r3rk1/5ppp/p1p5/3pN3/1P6/P3PP2/5KPP/1R1R4 w - - 0 1', solution: ['e5d3'], theme: 'tactic', difficulty: 2, title: 'Retirada con amenaza' },
-    { fen: 'r2q1rk1/pp1b1ppp/2n1pn2/2pp4/3P1B2/2PBPN2/PP1N1PPP/R2QK2R w KQ - 0 1', solution: ['d4c5'], theme: 'capture', difficulty: 2, title: 'Cambio favorable' },
-
-    // --- MATE ARTÍSTICO (difficulty 4) ---
-    { fen: '1Q6/5pk1/2p3p1/1p2N2p/1b5P/1bn5/2r3P1/2K5 w - - 0 1', solution: ['b8g3'], theme: 'mate1', difficulty: 3, title: 'Mate inesperado' },
-    { fen: 'kbK5/pp6/1P6/8/8/8/8/R7 w - - 0 1', solution: ['a1a7'], theme: 'mate1', difficulty: 2, title: 'Mate con torre en 7ª' },
-    { fen: '6rk/5Npp/8/8/8/8/8/6K1 w - - 0 1', solution: ['f7g5'], theme: 'mate1', difficulty: 2, title: 'Mate ahogado del caballo' },
-
-    // --- PROBLEMAS DE CÁLCULO (difficulty 3-4) ---
-    { fen: 'r1bq1rk1/pp3ppp/2n1pn2/2pp4/3P1B2/3BPN2/PPP2PPP/RN1QK2R w KQ - 0 1', solution: ['d4c5'], theme: 'capture', difficulty: 2, title: 'Captura con ventaja' },
-    { fen: 'r2qkbnr/ppp1pppp/2n5/3pPb2/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 0 1', solution: ['c1e3'], theme: 'development', difficulty: 2, title: 'Desarrollo con tempo' },
-    { fen: 'rnbqk2r/pppp1ppp/5n2/2b1p3/2BPP3/5N2/PPP2PPP/RNBQK2R b KQkq - 0 1', solution: ['e5d4'], theme: 'capture', difficulty: 2, title: 'Captura central' },
-
-    // --- MATE CON PIEZA MENOR (difficulty 3) ---
-    { fen: 'r5k1/ppp2ppp/2n5/8/8/2B5/PPP2PPP/4R1K1 w - - 0 1', solution: ['e1e8'], theme: 'mate1', difficulty: 1, title: 'Mate de pasillo' },
-    { fen: '4r1k1/ppp2ppp/8/8/8/8/PPP2PPP/4R1K1 w - - 0 1', solution: ['e1e8'], theme: 'mate1', difficulty: 1, title: 'Mate con torre' },
-
-    // --- PROBLEMAS INTERMEDIOS (difficulty 2) ---
-    { fen: 'rnbqkb1r/pppppppp/5n2/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 1', solution: ['e4e5'], theme: 'attack', difficulty: 2, title: 'Avance ganador e5' },
-    { fen: 'rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1', solution: ['e7e5'], theme: 'center', difficulty: 1, title: 'Respuesta simétrica' },
-    { fen: 'r1bqkbnr/pppppppp/2n5/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 1', solution: ['d2d4'], theme: 'center', difficulty: 1, title: 'Control central clásico' },
-    { fen: 'rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 0 1', solution: ['b8c6'], theme: 'development', difficulty: 1, title: 'Desarrollo natural' },
-
-    // --- TÁCTICA: Eliminación del defensor (difficulty 3) ---
-    { fen: 'r2q1rk1/ppp2ppp/2n2n2/3Np1b1/2B1P3/8/PPPP1PPP/R1BQR1K1 w - - 0 1', solution: ['d5f6'], theme: 'fork', difficulty: 3, title: 'Eliminación y ataque' },
-    { fen: 'r2qr1k1/ppp2ppp/2n5/3pN3/3P4/8/PPP2PPP/R1BQR1K1 w - - 0 1', solution: ['e5c6'], theme: 'capture', difficulty: 2, title: 'Captura del defensor' },
-    { fen: 'r4rk1/ppp2ppp/3b4/3pN3/3P4/8/PPP2PPP/R3R1K1 w - - 0 1', solution: ['e5f7'], theme: 'fork', difficulty: 3, title: 'Horquilla en f7' },
-
-    // --- SACRIFICIO POSICIONAL (difficulty 3-4) ---
-    { fen: 'r1bqr1k1/ppp2ppp/2nb1n2/3pp3/2PPP3/2NB1N2/PP3PPP/R1BQ1RK1 w - - 0 1', solution: ['d4d5'], theme: 'center', difficulty: 3, title: 'Avance central bloqueante' },
-    { fen: 'rnbqkb1r/pp3ppp/2p1pn2/3p4/2PP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 0 1', solution: ['c4d5'], theme: 'capture', difficulty: 2, title: 'Captura liberadora' },
-
-    // --- DEFENSA (difficulty 3) ---
+    // --- DEFENSA ---
     { fen: 'r1bqk2r/pppp1ppp/2n2n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 0 1', solution: ['f6e4'], theme: 'defense', difficulty: 2, title: 'Contraataque central' },
     { fen: 'r1bqkb1r/pppp1ppp/2n2n2/4p3/2BPP3/5N2/PPP2PPP/RNBQK2R b KQkq - 0 1', solution: ['e5d4'], theme: 'defense', difficulty: 2, title: 'Cambio en el centro' },
 
-    // --- MATE EN 1 ADICIONALES (difficulty 1) ---
-    { fen: '3r2k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - 0 1', solution: ['d1d8'], theme: 'mate1', difficulty: 1, title: 'Mate con torre en 8ª' },
-    { fen: 'r4rk1/ppp2p1p/8/8/8/8/PPP2PPP/R4RK1 w - - 0 1', solution: ['f1f8'], theme: 'mate1', difficulty: 1, title: 'Mate en última fila' },
-    { fen: '4r1k1/5ppp/8/8/8/8/5PPP/R5K1 w - - 0 1', solution: ['a1a8'], theme: 'mate1', difficulty: 1, title: 'Mate en 8ª fila' },
-
-    // --- PROBLEMAS TÁCTICOS VARIADOS ---
-    { fen: 'r2qkb1r/ppp2ppp/2n2n2/3pp1B1/2B1P1b1/3P1N2/PPP2PPP/RN1QK2R w KQkq - 0 1', solution: ['c4f7'], theme: 'sacrifice', difficulty: 3, title: 'Sacrificio clásico en f7' },
-    { fen: 'rnbq1rk1/ppp2ppp/3p1n2/4p3/2BPP1b1/2N2N2/PPP2PPP/R1BQ1RK1 w - - 0 1', solution: ['d4d5'], theme: 'attack', difficulty: 3, title: 'Avance ganando pieza' },
-    { fen: 'r2qkbnr/ppp2ppp/2n1p3/3pP3/3P4/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 1', solution: ['c2c4'], theme: 'center', difficulty: 2, title: 'Apoyo del centro' },
-
-    // --- MÁS MATES FAMOSOS ---
-    { fen: '1k1r4/pp1b1R2/3q2pp/4p3/2B5/4Q3/PPP2B2/2K5 b - - 0 1', solution: ['d6d1', 'c1d1', 'd7g4', 'd1d2', 'g4e2'], theme: 'mate3', difficulty: 4, title: 'Mate de Morphy (Opera)' },
-    { fen: 'r2q1rk1/pp2ppbp/2p2np1/6B1/3PP3/2N5/PPP2PPP/R2QK2R w KQ - 0 1', solution: ['e4e5'], theme: 'attack', difficulty: 3, title: 'Ataque al enrocado' },
-
-    // --- PROBLEMAS DE FINALES AVANZADOS ---
+    // --- FINALES ---
+    { fen: '8/8/8/8/8/5K2/4P3/5k2 w - - 0 1', solution: ['e2e4'], theme: 'endgame', difficulty: 1, title: 'Peón pasado: avanzar' },
+    { fen: '8/2k5/8/8/8/8/1KP5/8 w - - 0 1', solution: ['b2c3'], theme: 'endgame', difficulty: 1, title: 'Peón pasado: rey primero' },
+    { fen: '4k3/8/8/8/8/8/4KP2/8 w - - 0 1', solution: ['e2e3'], theme: 'endgame', difficulty: 1, title: 'Peón pasado: rey delante' },
+    { fen: '8/8/4k3/8/8/4K3/4P3/8 w - - 0 1', solution: ['e3e4'], theme: 'endgame', difficulty: 2, title: 'Oposición directa' },
+    { fen: '8/8/3k4/8/8/3K4/8/4R3 w - - 0 1', solution: ['d3c4'], theme: 'endgame', difficulty: 2, title: 'Rey y Torre: avanzar rey' },
+    { fen: '8/8/4k3/8/8/8/4K3/R7 w - - 0 1', solution: ['a1d1'], theme: 'endgame', difficulty: 2, title: 'Cortar al rey rival' },
+    { fen: '8/8/8/8/4k3/8/R3K3/8 w - - 0 1', solution: ['a2d2'], theme: 'endgame', difficulty: 2, title: 'Torre: cortar columna' },
     { fen: '8/5pk1/8/8/8/4K3/5P2/8 w - - 0 1', solution: ['e3f4'], theme: 'endgame', difficulty: 2, title: 'Final: rey activo' },
-    { fen: '8/8/1p6/1P1k4/1K6/8/8/8 w - - 0 1', solution: ['b4c3'], theme: 'endgame', difficulty: 3, title: 'Final: triangulación' },
-    { fen: '8/5k2/8/5K2/6P1/8/8/8 w - - 0 1', solution: ['g4g5'], theme: 'endgame', difficulty: 2, title: 'Final: peón pasado avanza' },
-    { fen: '8/2k5/3p4/1K1P4/8/8/8/8 w - - 0 1', solution: ['b5c4'], theme: 'endgame', difficulty: 3, title: 'Final: oposición diagonal' },
-    { fen: '4k3/8/8/8/8/8/4KP2/8 w - - 0 1', solution: ['f2f4'], theme: 'endgame', difficulty: 1, title: 'Peón pasado: primer paso' },
+    { fen: '8/5k2/8/5K2/6P1/8/8/8 w - - 0 1', solution: ['f5g5'], theme: 'endgame', difficulty: 2, title: 'Final: rey activo avanza' },
+    { fen: '8/8/1p6/1P1k4/1K6/8/8/8 w - - 0 1', solution: ['b4b3'], theme: 'endgame', difficulty: 3, title: 'Final: triangulación' },
+    { fen: '8/2k5/3p4/1K1P4/8/8/8/8 w - - 0 1', solution: ['b5a6'], theme: 'endgame', difficulty: 3, title: 'Final: flanqueo ganador' },
+
+    // --- CONTROL CENTRAL ---
+    { fen: 'r1bqkbnr/pp1ppppp/2n5/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 1', solution: ['d2d4'], theme: 'center', difficulty: 1, title: 'Apertura del centro' },
+    { fen: 'rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1', solution: ['e7e5'], theme: 'center', difficulty: 1, title: 'Respuesta simétrica' },
+    { fen: 'r1bqkbnr/pppppppp/2n5/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 1', solution: ['d2d4'], theme: 'center', difficulty: 1, title: 'Control central clásico' },
+    { fen: 'rnbqk2r/ppppppbp/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 1', solution: ['e2e4'], theme: 'center', difficulty: 2, title: 'Dominio central' },
+    { fen: '2kr3r/ppqb1ppp/2n1pn2/2Pp4/1B6/2N1PN2/PP1Q1PPP/R3K2R w KQ - 0 1', solution: ['d2d4'], theme: 'center', difficulty: 2, title: 'Centralización de dama' },
+    { fen: 'r1bq1rk1/ppppbppp/2n2n2/4p3/2BPP3/2N2N2/PPP2PPP/R1BQ1RK1 w - - 0 1', solution: ['d4e5'], theme: 'center', difficulty: 2, title: 'Ruptura central' },
+    { fen: 'r2qr1k1/ppp2ppp/2npbn2/2b1p3/4P3/2NP1N1P/PPP1BPP1/R1BQR1K1 w - - 0 1', solution: ['d3d4'], theme: 'center', difficulty: 2, title: 'Expansión central' },
+    { fen: 'r1bqk2r/pppp1ppp/2n2n2/2b1p3/2BPP3/5N2/PPP2PPP/RNBQ1RK1 w kq - 0 1', solution: ['d4e5'], theme: 'center', difficulty: 2, title: 'Captura central fuerte' },
+    { fen: 'r1bq1rk1/ppp1npbp/3p1np1/4p3/2P1P3/2N2N2/PP1PBPPP/R1BQ1RK1 w - - 0 1', solution: ['d2d4'], theme: 'center', difficulty: 2, title: 'Avance central' },
+    { fen: 'r2qkbnr/ppp2ppp/2n1p3/3pP3/3P4/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 1', solution: ['c2c4'], theme: 'center', difficulty: 2, title: 'Apoyo del centro' },
+    { fen: 'r1bqr1k1/ppp2ppp/2nb1n2/3pp3/2PPP3/2NB1N2/PP3PPP/R1BQ1RK1 w - - 0 1', solution: ['d4e5'], theme: 'center', difficulty: 2, title: 'Captura central activa' },
+
+    // --- CAPTURA TÁCTICA ---
+    { fen: '2r2rk1/pp3ppp/8/3q4/8/2B5/PP3PPP/R2Q1RK1 w - - 0 1', solution: ['d1d5'], theme: 'capture', difficulty: 2, title: 'Captura centralizada' },
+    { fen: 'r3k2r/pp1n1ppp/2p1p3/q2pPb2/3P1P2/P1PB4/2P3PP/R2QK2R b KQkq - 0 1', solution: ['f5d3'], theme: 'capture', difficulty: 2, title: 'Captura ganadora' },
+    { fen: 'r2q1rk1/pp1b1ppp/2n1pn2/2pp4/3P1B2/2PBPN2/PP1N1PPP/R2QK2R w KQ - 0 1', solution: ['d4c5'], theme: 'capture', difficulty: 2, title: 'Cambio favorable' },
+    { fen: 'r1bq1rk1/pp3ppp/2n1pn2/2pp4/3P1B2/3BPN2/PPP2PPP/RN1QK2R w KQ - 0 1', solution: ['d4c5'], theme: 'capture', difficulty: 2, title: 'Captura con ventaja' },
+    { fen: 'rnbqk2r/pppp1ppp/5n2/2b1p3/2BPP3/5N2/PPP2PPP/RNBQK2R b KQkq - 0 1', solution: ['e5d4'], theme: 'capture', difficulty: 2, title: 'Captura central' },
+    { fen: 'r2qr1k1/ppp2ppp/2n5/3pN3/3P4/8/PPP2PPP/R1BQR1K1 w - - 0 1', solution: ['e5c6'], theme: 'capture', difficulty: 2, title: 'Captura del defensor' },
+    { fen: 'rnbqkb1r/pp3ppp/2p1pn2/3p4/2PP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 0 1', solution: ['c4d5'], theme: 'capture', difficulty: 2, title: 'Captura liberadora' },
+
+    // --- DESARROLLO ---
+    { fen: 'r1bqk2r/pppp1ppp/2n2n2/4p3/1bB1P3/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 0 1', solution: ['e1g1'], theme: 'development', difficulty: 1, title: 'Enroque de seguridad' },
+    { fen: 'rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 0 1', solution: ['b8c6'], theme: 'development', difficulty: 1, title: 'Desarrollo natural' },
+    { fen: 'rnbq1rk1/pp2ppbp/3p1np1/2pP4/2P1P3/2N2N2/PP2BPPP/R1BQK2R w KQ - 0 1', solution: ['e1g1'], theme: 'development', difficulty: 1, title: 'Enroque oportuno' },
+    { fen: 'rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 1', solution: ['e2e3'], theme: 'development', difficulty: 2, title: 'Desarrollo armonioso' },
+    { fen: 'r2qkbnr/ppp1pppp/2n5/3pPb2/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 0 1', solution: ['c1e3'], theme: 'development', difficulty: 2, title: 'Desarrollo con tempo' },
 ];
 
 var puzzleMode = false;
@@ -1980,7 +1952,11 @@ var currentPuzzle = null;
 var puzzleMoveIndex = 0;
 var puzzleStats = { solved: 0, failed: 0, streak: 0, bestStreak: 0 };
 var puzzleHistory = [];
-var puzzleFilter = { theme: 'all', difficulty: 'all' };
+var puzzleFilter = { theme: 'all' };
+var puzzleCorrectMoves = 0;
+var puzzleWrongMoves = 0;
+var puzzleGeneration = 0;
+var puzzleSequentialIndex = 0;
 
 function loadPuzzleStats() {
     try {
@@ -2017,9 +1993,30 @@ function updatePuzzleStatsUI() {
 function getFilteredPuzzles() {
     return CHESS_PUZZLES.filter(function(p) {
         if (puzzleFilter.theme !== 'all' && p.theme !== puzzleFilter.theme) return false;
-        if (puzzleFilter.difficulty !== 'all' && p.difficulty !== parseInt(puzzleFilter.difficulty)) return false;
         return true;
     });
+}
+
+function updatePuzzleNavButtons() {
+    var prevBoard = document.getElementById('puzzle-prev-board');
+    var nextBoard = document.getElementById('puzzle-next-board');
+    var boardNav = document.getElementById('puzzle-board-nav');
+    var boardLabel = document.getElementById('puzzle-board-nav-label');
+    var filtered = getFilteredPuzzles();
+    var len = filtered.length;
+    if (!puzzleMode || len === 0) {
+        if (prevBoard) prevBoard.disabled = true;
+        if (nextBoard) nextBoard.disabled = true;
+        if (boardNav) boardNav.style.display = 'none';
+        return;
+    }
+    var dis = len <= 1;
+    if (prevBoard) prevBoard.disabled = dis;
+    if (nextBoard) nextBoard.disabled = dis;
+    if (boardNav) boardNav.style.display = 'flex';
+    if (boardLabel && currentPuzzle) {
+        boardLabel.textContent = currentPuzzle.title + ' (' + (puzzleSequentialIndex + 1) + ' de ' + len + ')';
+    }
 }
 
 function getThemeLabel(theme) {
@@ -2038,21 +2035,32 @@ function getDifficultyLabel(diff) {
     return labels[diff] || '';
 }
 
-function startNewPuzzle() {
+function startNewPuzzle(resetIndex, navDir) {
     var filtered = getFilteredPuzzles();
     if (filtered.length === 0) {
         showMessage('No hay problemas con estos filtros', 'info', 2500);
         return;
     }
 
-    var unsolved = filtered.filter(function(p) {
-        return puzzleHistory.indexOf(CHESS_PUZZLES.indexOf(p)) === -1;
-    });
-    var pool = unsolved.length > 0 ? unsolved : filtered;
-    currentPuzzle = pool[Math.floor(Math.random() * pool.length)];
+    if (resetIndex) {
+        puzzleSequentialIndex = 0;
+    } else {
+        if (navDir === 'prev') {
+            puzzleSequentialIndex--;
+            if (puzzleSequentialIndex < 0) puzzleSequentialIndex = filtered.length - 1;
+        } else {
+            puzzleSequentialIndex++;
+            if (puzzleSequentialIndex >= filtered.length) puzzleSequentialIndex = 0;
+        }
+    }
+
+    currentPuzzle = filtered[puzzleSequentialIndex];
     puzzleMoveIndex = 0;
     puzzleActive = true;
     puzzleMode = true;
+    puzzleCorrectMoves = 0;
+    puzzleWrongMoves = 0;
+    puzzleGeneration++;
 
     if (trainingActive) {
         cancelTrainingTimeout();
@@ -2090,7 +2098,9 @@ function startNewPuzzle() {
 
     var info = document.getElementById('puzzle-info');
     info.style.display = 'block';
-    document.getElementById('puzzle-title').textContent = currentPuzzle.title;
+    var filtered = getFilteredPuzzles();
+    var counterText = ' (' + (puzzleSequentialIndex + 1) + ' de ' + filtered.length + ')';
+    document.getElementById('puzzle-title').textContent = currentPuzzle.title + counterText;
     document.getElementById('puzzle-theme-label').textContent =
         getThemeLabel(currentPuzzle.theme) + ' — ' + getDifficultyLabel(currentPuzzle.difficulty);
     document.getElementById('puzzle-instruction').textContent =
@@ -2102,7 +2112,8 @@ function startNewPuzzle() {
 
     document.getElementById('puzzle-hint').disabled = false;
     document.getElementById('puzzle-solution').disabled = false;
-    document.getElementById('puzzle-skip').disabled = false;
+    updatePuzzleNavButtons();
+    setPuzzleActionsLocked(true);
 
     updateClockDisplay();
 }
@@ -2162,28 +2173,56 @@ function handlePuzzleClick(row, col) {
 function puzzleCheckMove(fromRow, fromCol, toRow, toCol, promoType) {
     var playerUCI = coordsToUCI(fromRow, fromCol, toRow, toCol, promoType || null);
     var expectedUCI = currentPuzzle.solution[puzzleMoveIndex];
+    var gen = puzzleGeneration;
 
     if (playerUCI === expectedUCI) {
+        puzzleCorrectMoves++;
         game.makeMove(fromRow, fromCol, toRow, toCol, promoType || undefined);
         lastMoveSquares = { from: { row: fromRow, col: fromCol }, to: { row: toRow, col: toCol } };
         selectedSquare = null;
         puzzleMoveIndex++;
 
+        renderBoard();
+        highlightPuzzleMove(toRow, toCol, true);
+
         if (puzzleMoveIndex >= currentPuzzle.solution.length) {
-            puzzleSolved();
+            setTimeout(function() {
+                if (gen !== puzzleGeneration) return;
+                document.querySelectorAll('.puzzle-correct-move').forEach(function(s) { s.classList.remove('puzzle-correct-move'); });
+                puzzleSolved();
+            }, 800);
         } else {
-            renderBoard();
-            highlightPuzzleMove(toRow, toCol, true);
             showPuzzleFeedback('¡Correcto! Continúa...', 'correct');
             setTimeout(function() {
+                if (gen !== puzzleGeneration) return;
+                document.querySelectorAll('.puzzle-correct-move').forEach(function(s) { s.classList.remove('puzzle-correct-move'); });
                 puzzlePlayOpponentMove();
             }, 600);
         }
     } else {
+        puzzleWrongMoves++;
         selectedSquare = null;
         renderBoard();
         highlightPuzzleMove(toRow, toCol, false);
-        puzzleFailed();
+
+        var correctCoords = puzzleUCItoCoords(expectedUCI);
+        setTimeout(function() {
+            if (gen !== puzzleGeneration) return;
+            document.querySelectorAll('.puzzle-wrong-move').forEach(function(s) { s.classList.remove('puzzle-wrong-move'); });
+            var sqs = document.querySelectorAll('.square');
+            sqs.forEach(function(sq) {
+                var r = parseInt(sq.dataset.row);
+                var c = parseInt(sq.dataset.col);
+                if ((r === correctCoords.fromRow && c === correctCoords.fromCol) || (r === correctCoords.toRow && c === correctCoords.toCol)) {
+                    sq.classList.add('puzzle-hint');
+                }
+            });
+            showPuzzleFeedback('Incorrecto. Las casillas marcadas muestran el movimiento correcto. Inténtalo de nuevo.', 'wrong');
+            setTimeout(function() {
+                if (gen !== puzzleGeneration) return;
+                document.querySelectorAll('.puzzle-hint').forEach(function(s) { s.classList.remove('puzzle-hint'); });
+            }, 8000);
+        }, 500);
     }
 }
 
@@ -2207,7 +2246,11 @@ function puzzlePlayOpponentMove() {
 function puzzleSolved() {
     puzzleActive = false;
     puzzleStats.solved++;
-    puzzleStats.streak++;
+    if (puzzleWrongMoves === 0) {
+        puzzleStats.streak++;
+    } else {
+        puzzleStats.streak = 0;
+    }
     if (puzzleStats.streak > puzzleStats.bestStreak) {
         puzzleStats.bestStreak = puzzleStats.streak;
     }
@@ -2216,10 +2259,15 @@ function puzzleSolved() {
     savePuzzleStats();
     updatePuzzleStatsUI();
     renderBoard();
-    showPuzzleFeedback('🎉 ¡Correcto! Problema resuelto. Racha: ' + puzzleStats.streak, 'correct');
+    var total = puzzleCorrectMoves + puzzleWrongMoves;
+    var pct = total > 0 ? Math.round(puzzleCorrectMoves / total * 100) : 100;
+    var streakMsg = puzzleStats.streak > 0 ? ' | Racha: ' + puzzleStats.streak : '';
+    var solvedMsg = '🎉 ¡Problema resuelto! Aciertos: ' + puzzleCorrectMoves + ' | Fallos: ' + puzzleWrongMoves + ' | Precisión: ' + pct + '%' + streakMsg;
+    showPuzzleFeedback(solvedMsg, 'correct');
+    showBoardBanner(solvedMsg, 'puzzle-solved');
     document.getElementById('puzzle-hint').disabled = true;
     document.getElementById('puzzle-solution').disabled = true;
-    document.getElementById('puzzle-skip').textContent = '⏭ Siguiente';
+    updatePuzzleNavButtons();
 }
 
 function puzzleFailed() {
@@ -2228,11 +2276,13 @@ function puzzleFailed() {
     puzzleStats.streak = 0;
     savePuzzleStats();
     updatePuzzleStatsUI();
-    showPuzzleFeedback('✗ Incorrecto. La solución era: ' + formatPuzzleSolution(), 'wrong');
+    var failMsg = '❌ No resuelto — La solución era: ' + formatPuzzleSolution();
+    showPuzzleFeedback(failMsg, 'wrong');
+    showBoardBanner(failMsg, 'puzzle-failed');
     showPuzzleSolutionOnBoard();
     document.getElementById('puzzle-hint').disabled = true;
     document.getElementById('puzzle-solution').disabled = true;
-    document.getElementById('puzzle-skip').textContent = '⏭ Siguiente';
+    updatePuzzleNavButtons();
 }
 
 function formatPuzzleSolution() {
@@ -2330,16 +2380,18 @@ function puzzleShowSolution() {
     showPuzzleSolutionOnBoard();
     document.getElementById('puzzle-hint').disabled = true;
     document.getElementById('puzzle-solution').disabled = true;
-    document.getElementById('puzzle-skip').textContent = '⏭ Siguiente';
+    updatePuzzleNavButtons();
 }
 
 function endPuzzleMode() {
     puzzleMode = false;
     puzzleActive = false;
     currentPuzzle = null;
+    puzzleGeneration++;
     var info = document.getElementById('puzzle-info');
     if (info) info.style.display = 'none';
-    document.getElementById('puzzle-skip').textContent = '⏭ Saltar';
+    updatePuzzleNavButtons();
+    setPuzzleActionsLocked(false);
 }
 
 function cancelTrainingTimeout() {
@@ -2998,27 +3050,64 @@ function uciToSan(uci, stateIndex) {
 }
 
 // Análisis post-partida: errores, imprecisiones y mejores movimientos
-async function analyzeGamePostGame() {
-    if (!game || !game.gameStateHistory || game.gameStateHistory.length === 0) {
-        showMessage('No hay partida para analizar', 'warning', 2000);
-        return;
-    }
-    const uciMoves = game.moveHistoryUCI || [];
-    if (uciMoves.length === 0) {
-        showMessage('No hay movimientos para analizar', 'warning', 2000);
-        return;
-    }
+function showPostGameAnalysisChoiceDialog() {
+    return new Promise((resolve) => {
+        let overlay = document.getElementById('game-list-overlay');
+        if (overlay) overlay.remove();
 
-    // Si ya existe un análisis previo, mostrarlo directamente
-    if (analysisErrorsList && analysisErrorsList.length > 0) {
-        scrollToBoard();
-        const blunders = analysisErrorsList.filter(e => e.type === 'blunder').length;
-        const mistakes = analysisErrorsList.filter(e => e.type === 'mistake').length;
-        showAnalysisResults(analysisErrorsList, uciMoves.length, uciMoves.length, blunders, mistakes);
-        showMessage('📊 Mostrando análisis existente', 'info', 2000);
-        return;
-    }
+        overlay = document.createElement('div');
+        overlay.id = 'game-list-overlay';
+        overlay.className = 'message-overlay';
+        overlay.style.display = 'flex';
+        document.body.appendChild(overlay);
 
+        const modal = document.createElement('div');
+        modal.className = 'game-list-modal';
+        modal.style.textAlign = 'center';
+
+        const title = document.createElement('p');
+        title.textContent = 'Ya hay un análisis de esta partida.';
+        title.style.cssText = 'font-size:1rem;color:#333;margin-bottom:8px;font-weight:600;';
+
+        const subtitle = document.createElement('p');
+        subtitle.textContent = '¿Qué quieres hacer?';
+        subtitle.style.cssText = 'font-size:0.9rem;color:#666;margin-bottom:18px;';
+
+        const btnRow = document.createElement('div');
+        btnRow.style.cssText = 'display:flex;flex-direction:column;gap:10px;align-items:stretch;';
+
+        const btnExisting = document.createElement('button');
+        btnExisting.className = 'btn btn-primary';
+        btnExisting.textContent = 'Ver análisis existente';
+        btnExisting.style.marginTop = '0';
+        btnExisting.addEventListener('click', () => { overlay.remove(); resolve('existing'); });
+
+        const btnNew = document.createElement('button');
+        btnNew.className = 'btn btn-orange';
+        btnNew.textContent = 'Nuevo análisis';
+        btnNew.style.marginTop = '0';
+        btnNew.addEventListener('click', () => { overlay.remove(); resolve('new'); });
+
+        const btnCancel = document.createElement('button');
+        btnCancel.className = 'btn btn-secondary';
+        btnCancel.textContent = 'Cancelar';
+        btnCancel.style.marginTop = '0';
+        btnCancel.addEventListener('click', () => { overlay.remove(); resolve('cancel'); });
+
+        btnRow.appendChild(btnExisting);
+        btnRow.appendChild(btnNew);
+        btnRow.appendChild(btnCancel);
+        modal.appendChild(title);
+        modal.appendChild(subtitle);
+        modal.appendChild(btnRow);
+        overlay.appendChild(modal);
+        overlay.addEventListener('click', (e) => {
+            if (e.target === overlay) { overlay.remove(); resolve('cancel'); }
+        });
+    });
+}
+
+async function executePostGameAnalysisOnline(uciMoves) {
     // Pedir confirmación antes de analizar online
     const confirmed = await new Promise(resolve => {
         const msg = `<strong>Iniciar Análisis de Partida</strong><br><span style="font-size:0.9em;color:#555;">Se analizarán ${uciMoves.length} movimientos online.<br>Esto puede tardar unos segundos.</span>`;
@@ -3124,6 +3213,33 @@ async function analyzeGamePostGame() {
     const all = [...errors.map(e => ({ ...e, type: 'blunder' })), ...mistakesList.map(m => ({ ...m, type: 'mistake' }))].sort((a, b) => a.moveNum - b.moveNum || (a.moveSuffix ? 1 : -1));
 
     showAnalysisResults(all, total, analyzed, errors.length, mistakesList.length);
+}
+
+async function analyzeGamePostGame() {
+    if (!game || !game.gameStateHistory || game.gameStateHistory.length === 0) {
+        showMessage('No hay partida para analizar', 'warning', 2000);
+        return;
+    }
+    const uciMoves = game.moveHistoryUCI || [];
+    if (uciMoves.length === 0) {
+        showMessage('No hay movimientos para analizar', 'warning', 2000);
+        return;
+    }
+
+    if (analysisErrorsList && analysisErrorsList.length > 0) {
+        const choice = await showPostGameAnalysisChoiceDialog();
+        if (choice === 'cancel') return;
+        if (choice === 'existing') {
+            scrollToBoard();
+            const blunders = analysisErrorsList.filter(e => e.type === 'blunder').length;
+            const mistakes = analysisErrorsList.filter(e => e.type === 'mistake').length;
+            showAnalysisResults(analysisErrorsList, uciMoves.length, uciMoves.length, blunders, mistakes);
+            showMessage('📊 Mostrando análisis existente', 'info', 2000);
+            return;
+        }
+    }
+
+    await executePostGameAnalysisOnline(uciMoves);
 }
 
 function showAnalysisResults(all, total, analyzed, blunderCount, mistakeCount) {
@@ -4064,23 +4180,17 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
-    '2.5.1': [
+    '2.5': [
         'Nuevo panel: Problemas de Ajedrez con 100+ puzzles',
         'Categorías: Mate en 1/2/3, Horquilla, Clavada, Sacrificio, Finales y más',
         'Filtros por categoría y dificultad (Fácil a Experto)',
         'Sistema de puntuación: aciertos, fallos y racha',
-        'Pistas y soluciones disponibles'
-    ],
-    '2.4.8': [
-        'Exportar PGN: corregido cambio de extensión a .txt al renombrar el archivo',
-    ],
-    '2.4.7': [
-        'Menú de aperturas simplificado: solo variantes principales por apertura (38 opciones)',
-        'Siciliana, Francesa y Caro-Kann agrupadas en entrada única con movimientos genéricos',
-        'Ver Apertura: al finalizar, seleccionar variante en el menú transparente continúa con ella',
-    ],
-    '2.4.6': [
-        'TEST INTERNO:Ver Apertura: al finalizar, pulsar flechas azules abre variantes para continuar',
+        'Pistas y soluciones disponibles',
+        'Analizar partida: elegir entre ver análisis existente o iniciar uno nuevo',
+        'Exportar PGN: corregido cambio de extensión a .txt al renombrar',
+        'Menú de aperturas simplificado: solo variantes principales (38 opciones)',
+        'Siciliana, Francesa y Caro-Kann agrupadas en entrada única',
+        'Ver Apertura: al finalizar, continuar con variantes desde el menú o flechas azules',
         'Análisis: botón 📊 en la barra de navegación para reabrir el resumen de errores',
         'Hover en movimientos y flechas de variantes mejorado (PC)',
     ],
@@ -4101,7 +4211,7 @@ const VERSION_CHANGELOG = {
         'Títulos de paneles con fondo gris oscuro',
         'Ajustes de layout responsive: paneles a ancho de pantalla y orden Partidas Maestras tras Aperturas',
         'PGN con análisis embebido (NAG y comentarios): exportar/copiar, importar y restaurar errores en el tablero',
-        'Si ya existe análisis, «Analizar partida» muestra el resultado sin volver a llamar al motor',
+        'Si ya existe análisis, «Analizar partida» permite ver el existente o iniciar uno nuevo (motor online)',
         'Notación algebraica inglesa (K,Q,R,B,N) en toda la app; marca AjedrezIA en cabeceras PGN y dificultad IA',
         'Modo análisis: bloqueo de botones y selectores; Copiar PGN desactivado durante el análisis'
     ],
@@ -4403,7 +4513,18 @@ document.addEventListener('DOMContentLoaded', () => {
         if (panel.id !== 'puzzles-panel' && localStorage.getItem(key) === 'open') {
             panel.classList.remove('collapsed');
         }
+        const body = panel.querySelector('.panel-body');
+        if (body) {
+            body.addEventListener('transitionend', function(e) {
+                if (e.propertyName === 'max-height' && !panel.classList.contains('collapsed')) {
+                    body.style.maxHeight = 'none';
+                }
+            });
+        }
         panel.querySelector('.panel-toggle').addEventListener('click', () => {
+            if (!panel.classList.contains('collapsed') && body) {
+                body.style.maxHeight = '';
+            }
             panel.classList.toggle('collapsed');
             localStorage.setItem(key, panel.classList.contains('collapsed') ? 'closed' : 'open');
         });
@@ -4507,8 +4628,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     document.getElementById('opening-select').addEventListener('change', onOpeningSelect);
     document.getElementById('show-known-variants').addEventListener('click', showKnownVariants);
-    document.getElementById('start-opening-training').addEventListener('click', startOpeningTraining);
-    document.getElementById('view-opening').addEventListener('click', viewOpening);
+    document.getElementById('start-opening-training').addEventListener('click', function() {
+        var key = document.getElementById('opening-select').value;
+        if (key) {
+            viewOpening();
+        } else {
+            startOpeningTraining();
+        }
+    });
     document.getElementById('start-opening-quiz').addEventListener('click', startOpeningQuiz);
 
     populateFamousPlayerSelect();
@@ -4523,18 +4650,25 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Problemas de ajedrez
     loadPuzzleStats();
-    document.getElementById('start-puzzle').addEventListener('click', function() {
-        puzzleFilter.theme = document.getElementById('puzzle-theme-select').value;
-        puzzleFilter.difficulty = document.getElementById('puzzle-difficulty-select').value;
-        document.getElementById('puzzle-skip').textContent = '⏭ Saltar';
-        startNewPuzzle();
+    document.getElementById('puzzle-theme-select').addEventListener('change', function() {
+        puzzleFilter.theme = this.value;
+        startNewPuzzle(true);
     });
+    puzzleFilter.theme = document.getElementById('puzzle-theme-select').value;
+    startNewPuzzle(true);
     document.getElementById('puzzle-hint').addEventListener('click', puzzleShowHint);
     document.getElementById('puzzle-solution').addEventListener('click', puzzleShowSolution);
-    document.getElementById('puzzle-skip').addEventListener('click', function() {
+    document.getElementById('puzzle-prev-board').addEventListener('click', function() {
         puzzleFilter.theme = document.getElementById('puzzle-theme-select').value;
-        puzzleFilter.difficulty = document.getElementById('puzzle-difficulty-select').value;
-        startNewPuzzle();
+        startNewPuzzle(false, 'prev');
+    });
+    document.getElementById('puzzle-next-board').addEventListener('click', function() {
+        puzzleFilter.theme = document.getElementById('puzzle-theme-select').value;
+        startNewPuzzle(false, 'next');
+    });
+    document.getElementById('puzzle-close-board').addEventListener('click', function() {
+        endPuzzleMode();
+        startNewGame();
     });
 
     // Navegación del historial
@@ -4712,6 +4846,11 @@ function initCustomDropdowns() {
                 if (open) buildList();
             });
 
+            select.addEventListener('change', function() {
+                var so = select.options[select.selectedIndex];
+                if (trigger) trigger.textContent = (so && so.text) || '';
+            });
+
             document.addEventListener('click', function closeDropdown(e) {
                 if (!wrap.contains(e.target)) {
                     list.classList.remove('open');
@@ -4806,13 +4945,11 @@ function onOpeningSelect() {
     const quizBtn = document.getElementById('start-opening-quiz');
     const quizScore = document.getElementById('quiz-score');
 
-    const viewBtn = document.getElementById('view-opening');
-
     localStorage.setItem('selectedOpening', key);
 
     if (!key) {
         info.style.display = 'none';
-        viewBtn.disabled = true;
+        btn.textContent = '♟ Iniciar Entrenamiento';
         variantsBtn.disabled = true;
         quizBtn.disabled = true;
         quizScore.style.display = 'none';
@@ -4842,8 +4979,8 @@ function onOpeningSelect() {
         wrEl.style.display = 'none';
     }
     info.style.display = 'block';
+    btn.textContent = '👁 Ver Apertura';
     variantsBtn.disabled = false;
-    viewBtn.disabled = false;
     quizBtn.disabled = false;
     quizScore.style.display = 'none';
 }
@@ -5146,7 +5283,7 @@ function showLoadedGameMessage(title, isFinished, pgnResult) {
 
 function setGameButtonsDisabled(disabled) {
     const ids = [
-        'new-game', 'resign-game', 'resign-game-sidebar',
+        'resign-game', 'resign-game-sidebar',
         'offer-draw', 'offer-draw-sidebar',
         'undo-move', 'undo-move-sidebar',
         'hint-move', 'hint-move-sidebar',
@@ -5154,14 +5291,30 @@ function setGameButtonsDisabled(disabled) {
         'load-famous-game',
         'analyze-game', 'analyze-game-sidebar',
         'show-known-variants',
-        'view-opening', 'start-opening-quiz'
+        'start-opening-quiz'
     ];
-    const openingBtns = ['show-known-variants', 'view-opening', 'start-opening-quiz'];
+    const openingBtns = ['show-known-variants', 'start-opening-quiz'];
     const noOpening = !document.getElementById('opening-select').value;
     ids.forEach(id => {
         const el = document.getElementById(id);
         if (el) el.disabled = disabled || (!disabled && noOpening && openingBtns.includes(id));
     });
+}
+
+function setPuzzleActionsLocked(locked) {
+    setGameButtonsDisabled(locked);
+    ['copy-pgn', 'copy-pgn-board', 'view-analysis'].forEach(function(id) {
+        var el = document.getElementById(id);
+        if (el) el.disabled = locked;
+    });
+    if (locked) {
+        ['resume-game', 'resume-game-sidebar'].forEach(function(id) {
+            var el = document.getElementById(id);
+            if (el) el.disabled = true;
+        });
+    } else {
+        checkForGameInProgress();
+    }
 }
 
 function showContinueButton() {
