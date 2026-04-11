@@ -1,4 +1,4 @@
-const APP_VERSION = '2.5.1';
+const APP_VERSION = '2.5.2';
 
 let game = null;
 let playerColor = 'white';
@@ -4180,11 +4180,10 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
-    '2.5.1': [
+    '2.5.2': [
+        'Barra de problemas oculta al iniciar: solo aparece al abrir el panel de Problemas',
         'Menús táctiles en móvil: bottom sheet con opciones grandes en lugar del picker nativo',
         'Backdrop oscuro, scroll automático a la opción seleccionada y cierre con ✕ o toque fuera',
-    ],
-    '2.5': [
         'Nuevo panel: Problemas de Ajedrez con 100+ puzzles',
         'Categorías: Mate en 1/2/3, Horquilla, Clavada, Sacrificio, Finales y más',
         'Filtros por categoría y dificultad (Fácil a Experto)',
@@ -4537,6 +4536,10 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             panel.classList.toggle('collapsed');
             localStorage.setItem(key, panel.classList.contains('collapsed') ? 'closed' : 'open');
+            if (panel.id === 'puzzles-panel' && !panel.classList.contains('collapsed') && !puzzleMode) {
+                puzzleFilter.theme = document.getElementById('puzzle-theme-select').value;
+                startNewPuzzle(true);
+            }
         });
     });
 
@@ -4665,7 +4668,6 @@ document.addEventListener('DOMContentLoaded', () => {
         startNewPuzzle(true);
     });
     puzzleFilter.theme = document.getElementById('puzzle-theme-select').value;
-    startNewPuzzle(true);
     document.getElementById('puzzle-hint').addEventListener('click', puzzleShowHint);
     document.getElementById('puzzle-solution').addEventListener('click', puzzleShowSolution);
     document.getElementById('puzzle-prev-board').addEventListener('click', function() {
