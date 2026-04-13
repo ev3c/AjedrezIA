@@ -1,4 +1,4 @@
-const APP_VERSION = '2.5.2';
+const APP_VERSION = '2.5.3';
 
 let game = null;
 let playerColor = 'white';
@@ -1413,7 +1413,7 @@ const FAMOUS_GAMES = {
     },
     'deepblue-kasparov-96': {
         name: 'Deep Blue vs Kasparov, partida 1 (1996)',
-        pgn: '[Event "Philadelphia"]\n[Site "Philadelphia"]\n[Date "1996.02.10"]\n[White "Deep Blue"]\n[Black "Garry Kasparov"]\n[Result "1-0"]\n\n1.e4 c5 2.c3 d5 3.exd5 Qxd5 4.d4 Nf6 5.Nf3 Bg4 6.Be2 e6 7.h3 Bh5 8.O-O Nc6 9.Be3 cxd4 10.cxd4 Bb4 11.a3 Ba5 12.Nc3 Qd6 13.Nb5 Qe7 14.Ne5 Bxe2 15.Qxe2 O-O 16.Rac1 Rac8 17.Bg5 Bb6 18.Bxf6 gxf6 19.Nc4 Rfd8 20.Nxb6 axb6 21.Rfd1 f5 22.Qe3 Qf6 23.Rxc8 Rxc8 24.Rc1 Rxc1 25.Qxc1 Kh7 26.Kf1 Kg7 27.Ke2 Kh6 28.Kd3 Kg5 29.f4+ Kh4 30.Qc4 f6 31.Qf7 Qxf7 32.Nxf7 Kg3 33.Nxe6 fxe5 34.fxe5 Kxh3 35.Kd4 Kg4 36.e6 h5 37.Rxh7 1-0'
+        pgn: '[Event "Philadelphia"]\n[Site "Philadelphia"]\n[Date "1996.02.10"]\n[White "Deep Blue"]\n[Black "Garry Kasparov"]\n[Result "1-0"]\n\n1.e4 c5 2.c3 d5 3.exd5 Qxd5 4.d4 Nf6 5.Nf3 Bg4 6.Be2 e6 7.h3 Bh5 8.O-O Nc6 9.Be3 cxd4 10.cxd4 Bb4 11.a3 Ba5 12.Nc3 Qd6 13.Nb5 Qe7 14.Ne5 Bxe2 15.Qxe2 O-O 16.Rac1 Rac8 17.Bg5 Bb6 18.Bxf6 gxf6 19.Nc4 Rfd8 20.Nxb6 axb6 21.Rfd1 f5 22.Qe3 Qf6 23.d5 Rxd5 24.Rxd5 exd5 25.b3 Kh8 26.Qxb6 Rg8 27.Qc5 d4 28.Nd6 f4 29.Nxb7 Ne5 30.Qd5 f3 31.g3 Nd3 32.Rc7 Re8 33.Nd6 Re1+ 34.Kh2 Nxf2 35.Nxf7+ Kg7 36.Ng5+ Kh6 37.Rxh7+ 1-0'
     },
     'lasker-capablanca': {
         name: 'Lasker vs Capablanca, San Petersburgo 1914',
@@ -1515,10 +1515,11 @@ const FAMOUS_GAMES = {
         name: 'Geller vs Euwe, Zúrich 1953 — Contraataque mortal',
         pgn: '[Event "Candidates Tournament"]\n[Site "Zurich"]\n[Date "1953.08.31"]\n[White "Efim Geller"]\n[Black "Max Euwe"]\n[Result "0-1"]\n\n1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 c5 5.a3 Bxc3+ 6.bxc3 b6 7.Bd3 Bb7 8.f3 Nc6 9.Ne2 O-O 10.O-O Na5 11.e4 Ne8 12.Ng3 cxd4 13.cxd4 Rc8 14.f4 Nxc4 15.f5 f6 16.Rf4 b5 17.Rh4 Qb6 18.e5 Nxe5 19.fxe6 Nxd3 20.Qxd3 Qxe6 21.Qxh7+ Kf7 22.Bh6 Rh8 23.Qxh8 Rc2 24.Rc1 Rxg2+ 25.Kf1 Qb3 26.Ke1 Qf3 0-1'
     },
+    /* REM - PGN con movimientos ilegales
     'mcconnell-morphy': {
         name: 'McConnell vs Morphy, Nueva Orleans 1849',
         pgn: '[Event "New Orleans"]\n[Site "New Orleans"]\n[Date "1849"]\n[White "James McConnell"]\n[Black "Paul Morphy"]\n[Result "0-1"]\n\n1.e4 e5 2.f4 exf4 3.Nf3 g5 4.Bc4 g4 5.d4 gxf3 6.Qxf3 Bh6 7.O-O Nc6 8.c3 Nge7 9.g4 fxg3 10.Bxh6 gxh2+ 11.Kh1 Nxd4 12.Qg3 Rg8 13.Qe3 Nef5 14.Qe1 Rg1+ 15.Qxg1 Nd3 16.Be3 hxg1=Q+ 17.Rxg1 Qh4+ 18.Rg3 Nxb2 19.Nd2 Nxc4 20.Nxc4 d5 21.Nd2 c5 22.Nf3 Qxe4 23.Bd2 Nxg3+ 24.Kg2 Nf5 25.Re1 Qf4 26.Re8+ Kd7 27.Ra8 Nd4 0-1'
-    },
+    }, */
     'karpov-kasparov-85-g24': {
         name: 'Karpov vs Kasparov, Mundial 1985 G24 — Kasparov se corona',
         pgn: '[Event "World Championship"]\n[Site "Moscow"]\n[Date "1985.11.09"]\n[White "Anatoly Karpov"]\n[Black "Garry Kasparov"]\n[Result "0-1"]\n\n1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Be2 e6 7.O-O Be7 8.f4 O-O 9.Kh1 Qc7 10.a4 Nc6 11.Be3 Re8 12.Bf3 Rb8 13.Qd2 Bd7 14.Nb3 b6 15.g4 Bc8 16.g5 Nd7 17.Qf2 Bf8 18.Bg2 Bb7 19.Rad1 g6 20.Bc1 Rbc8 21.Rd3 Nb4 22.Rh3 Bg7 23.Be3 Re7 24.Kg1 Rce8 25.Rd1 f5 26.gxf6 Nxf6 27.Rg3 Rf7 28.Bxb6 Qb8 29.Be3 Nh5 30.Rg4 Nf6 31.Rh4 g5 32.fxg5 Ng4 33.Qd2 Nxe3 34.Qxe3 Nxc2 35.Qb6 Ba8 36.Rxd6 Rb7 37.Qxa6 Rxb3 38.Rxe6 Rxb2 39.Qc4 Kh8 40.e5 Qa7+ 41.Kh1 Bxg2+ 42.Kxg2 Nd4+ 0-1'
@@ -1548,64 +1549,65 @@ const FAMOUS_GAMES = {
         pgn: '[Event "USSR-USA Radio Match"]\n[Site "Moscow-New York"]\n[Date "1945"]\n[White "Vassily Smyslov"]\n[Black "Samuel Reshevsky"]\n[Result "1-0"]\n\n1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4 6.d4 b5 7.Bb3 d5 8.dxe5 Be6 9.c3 Bc5 10.Nbd2 O-O 11.Bc2 f5 12.Nb3 Bb6 13.Nfd4 Nxd4 14.Nxd4 Bxd4 15.cxd4 f4 16.f3 Ng3 17.hxg3 fxg3 18.Qd3 Bf5 19.Qxf5 Rxf5 20.Bxf5 Qh4 21.Bh3 Qxd4+ 22.Kh1 Qxe5 23.Bd2 Qxb2 24.Bf4 c5 25.Be6+ Kh8 26.Bxd5 Rd8 27.Rad1 c4 28.Bxg3 c3 29.Be5 b4 30.Bb3 Rd2 31.f4 h5 32.Rb1 Rf2 33.Rfe1 Qd2 34.Rbd1 Qb2 35.Rd8+ Kh7 36.Bg8+ Kg6 37.Rd6+ Kf5 38.Be6+ Kg6 39.Bd5+ Kh7 40.Be4+ Kg8 41.Bg6 1-0'
     },
     'alekhine-bogoljubov': {
-        name: 'Alekhine vs Bogoljubov, Hastings 1922 — Ataque demoledor',
-        pgn: '[Event "Hastings"]\n[Site "Hastings"]\n[Date "1922"]\n[White "Alexander Alekhine"]\n[Black "Efim Bogoljubov"]\n[Result "1-0"]\n\n1.d4 Nf6 2.c4 e6 3.Nf3 d5 4.Nc3 Be7 5.Bg5 Nbd7 6.e3 O-O 7.Rc1 c6 8.Qc2 a6 9.a3 h6 10.Bh4 Re8 11.Bd3 dxc4 12.Bxc4 b5 13.Bd3 c5 14.O-O cxd4 15.exd4 Nb6 16.Ne5 Nbd5 17.Nxd5 Nxd5 18.Bg3 Bb7 19.Re1 Rc8 20.Qd2 Bb4 21.axb4 Nxb4 22.Qe3 Nxd3 23.Nxd3 Qxd4 24.Qxe6 Rxe6 25.Rxe6 Rd8 26.Nc5 fxe6 27.Nxb7 Rd5 28.Rxc8+ Kh7 29.Nc5 Rd1+ 30.Bf1 e5 31.Nd3 e4 32.Nf4 g5 33.Nh5 Rd2 34.b4 a5 35.bxa5 b4 36.Rc7+ Kh8 37.a6 1-0'
+        name: 'Bogoljubov vs Alekhine, Hastings 1922 — Tres damas sacrificadas',
+        pgn: '[Event "Hastings"]\n[Site "Hastings"]\n[Date "1922.09.21"]\n[White "Efim Bogoljubov"]\n[Black "Alexander Alekhine"]\n[Result "0-1"]\n\n1.d4 f5 2.c4 Nf6 3.g3 e6 4.Bg2 Bb4+ 5.Bd2 Bxd2+ 6.Nxd2 Nc6 7.Ngf3 O-O 8.O-O d6 9.Qb3 Kh8 10.Qc3 e5 11.e3 a5 12.b3 Qe8 13.a3 Qh5 14.h4 Ng4 15.Ng5 Bd7 16.f3 Nf6 17.f4 e4 18.Rfd1 h6 19.Nh3 d5 20.Nf1 Ne7 21.a4 Nc6 22.Rd2 Nb4 23.Bh1 Qe8 24.Rg2 dxc4 25.bxc4 Bxa4 26.Nf2 Bd7 27.Nd2 b5 28.Nd1 Nd3 29.Rxa5 b4 30.Rxa8 bxc3 31.Rxe8 c2 32.Rxf8+ Kh7 33.Nf2 c1=Q+ 34.Nf1 Ne1 35.Rh2 Qxc4 36.Rb8 Bb5 37.Rxb5 Qxb5 38.g4 Nf3+ 39.Bxf3 exf3 40.gxf5 Qe2 41.d5 Kg8 42.h5 Kh7 43.e4 Nxe4 44.Nxe4 Qxe4 45.d6 cxd6 46.f6 gxf6 47.Rd2 Qe2 48.Rxe2 fxe2 49.Kf2 exf1=Q+ 50.Kxf1 Kg7 51.Ke2 Kf7 52.Ke3 Ke6 53.Ke4 d5+ 0-1'
     },
     'fischer-larsen-71': {
         name: 'Fischer vs Larsen, Candidatos 1971 — 6-0 aplastante',
-        pgn: '[Event "Candidates Semifinal"]\n[Site "Denver"]\n[Date "1971.07.06"]\n[White "Robert James Fischer"]\n[Black "Bent Larsen"]\n[Result "1-0"]\n\n1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Nb8 10.d4 Nbd7 11.Nbd2 Bb7 12.Bc2 Re8 13.Nf1 Bf8 14.Ng3 g6 15.Bg5 h6 16.Bd2 Bg7 17.a4 c5 18.d5 c4 19.b4 Nh5 20.Nxh5 gxh5 21.g3 Nf6 22.Kg2 Qd7 23.Rh1 Qh3+ 24.Kg1 Nh7 25.Be3 Rf8 26.Qe2 f5 27.exf5 Rxf5 28.Nd2 Raf8 29.f4 Ng5 30.fxg5 Rxf1+ 31.Rxf1 Rxf1+ 32.Nxf1 Qxh1+ 33.Kf2 Qxa1 34.Qxh5 Qa2+ 35.Be4 Qb2+ 36.Kg1 Qe2 37.gxh6 Bh8 38.Qg6+ Kf8 39.Qf6+ Kg8 40.Bd3 1-0'
+        pgn: '[Event "Candidates Semifinal"]\n[Site "Denver"]\n[Date "1971.07.06"]\n[White "Robert James Fischer"]\n[Black "Bent Larsen"]\n[Result "1-0"]\n\n1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 Ne7 5.a3 Bxc3+ 6.bxc3 c5 7.a4 Nbc6 8.Nf3 Bd7 9.Bd3 Qc7 10.O-O c4 11.Be2 f6 12.Re1 Ng6 13.Ba3 fxe5 14.dxe5 Ncxe5 15.Nxe5 Nxe5 16.Qd4 Ng6 17.Bh5 Kf7 18.f4 Rhe8 19.f5 exf5 20.Qxd5+ Kf6 21.Bf3 Ne5 22.Qd4 Kg6 23.Rxe5 Qxe5 24.Qxd7 Rad8 25.Qxb7 Qe3+ 26.Kf1 Rd2 27.Qc6+ Re6 28.Bc5 Rf2+ 29.Kg1 Rxg2+ 30.Kxg2 Qd2+ 31.Kh1 Rxc6 32.Bxc6 Qxc3 33.Rg1+ Kf6 34.Bxa7 g5 35.Bb6 Qxc2 36.a5 Qb2 37.Bd8+ Ke6 38.a6 Qa3 39.Bb7 Qc5 40.Rb1 c3 41.Bb6 1-0'
     },
+    /* REM - PGN con movimientos ilegales
     'fischer-petrosian-71': {
         name: 'Fischer vs Petrosian, Candidatos 1971 G7 — Sacrificio en h5',
-        pgn: '[Event "Candidates Final"]\n[Site "Buenos Aires"]\n[Date "1971.10.07"]\n[White "Robert James Fischer"]\n[Black "Tigran Petrosian"]\n[Result "1-0"]\n\n1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6 5.Bd3 Nc6 6.Nxc6 bxc6 7.O-O d5 8.c4 Nf6 9.cxd5 cxd5 10.exd5 exd5 11.Nc3 Be7 12.Qa4+ Qd7 13.Re1 Qxa4 14.Nxa4 Be6 15.Be3 O-O 16.Bc5 Rfe8 17.Bxe7 Rxe7 18.b4 Kf8 19.Nc5 Bc8 20.f3 Rea7 21.Re5 Bd7 22.Nxd7+ Nxd7 23.Re2 Rc7 24.Rae1 Nf6 25.Re7 Rxe7 26.Rxe7 Nd7 27.Rd7 g6 28.Kf2 h5 29.f4 h4 30.Kf3 f5 31.Ke3 d4+ 32.Kd2 Nb6 33.Rb7 Nd5 34.Rd7 Nc3 35.Rd6 Nxa2 36.Rxg6 Nb4 37.Bb1 a5 38.Rg5 axb4 39.Rxf5+ Ke7 40.Rb5 1-0'
-    },
+        pgn: '[Event "Candidates Final"]\n[Site "Buenos Aires"]\n[Date "1971.10.19"]\n[White "Robert James Fischer"]\n[Black "Tigran Petrosian"]\n[Result "1-0"]\n\n1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6 5.Bd3 Nc6 6.Nxc6 bxc6 7.O-O d5 8.c4 Nf6 9.cxd5 cxd5 10.exd5 exd5 11.Nc3 Be7 12.Qa4+ Qd7 13.Re1 Qxa4 14.Nxa4 Be6 15.Be3 O-O 16.Bc5 Rfe8 17.Bxe7 Rxe7 18.b4 Kf8 19.Nc5 Bc8 20.f3 Rea7 21.Re5 Bd7 22.Nxd7+ Nxd7 23.Re2 Rc7 24.Rae1 Nf6 25.Re7 Rxe7 26.Rxe7 Nd7 27.Re2 Rc7 28.Kf2 Ke7 29.f4 Kd6 30.Re3 Rc2+ 31.Re2 Rc7 32.Re3 Nf6 33.Ke2 Nd7 34.Kd2 Nb6 35.Rc3 Rxc3 36.Kxc3 Na4+ 37.Kb3 Nc5+ 38.Kc3 Ne4+ 39.Bxe4 dxe4 40.Kd4 f5 41.Ke5 1-0'
+    }, */
     'spassky-fischer-72-g1': {
         name: 'Spassky vs Fischer, Mundial 1972 G1 — Captura envenenada',
         pgn: '[Event "World Championship"]\n[Site "Reykjavik"]\n[Date "1972.07.11"]\n[White "Boris Spassky"]\n[Black "Robert James Fischer"]\n[Result "1-0"]\n\n1.d4 Nf6 2.c4 e6 3.Nf3 d5 4.Nc3 Bb4 5.e3 O-O 6.Bd3 c5 7.O-O Nc6 8.a3 Ba5 9.Ne2 dxc4 10.Bxc4 Bb6 11.dxc5 Qxd1 12.Rxd1 Bxc5 13.b4 Be7 14.Bb2 Bd7 15.Rac1 Rfd8 16.Ned4 Nxd4 17.Nxd4 Ba4 18.Bb3 Bxb3 19.Nxb3 Rxd1+ 20.Rxd1 Rc8 21.Kf1 Kf8 22.Ke2 Ne4 23.Rc1 Rxc1 24.Bxc1 f6 25.Na5 Nd6 26.Kd3 Bd8 27.Nc4 Bc7 28.Nxd6 Bxd6 29.b5 Bxh2 30.g3 h5 31.Ke2 h4 32.Kf3 Ke7 33.Kg2 hxg3 34.fxg3 Bxg3 35.Kxg3 Kd6 36.a4 Kd5 37.Ba3 Ke4 38.Bc5 a6 39.b6 f5 40.Kh4 f4 41.exf4 Kxf4 42.Kh5 Kf5 43.Be3 Ke4 44.Bf2 Kf3 45.Kg6 e5 46.Kxg7 1-0'
     },
     'carlsen-caruana-18': {
         name: 'Carlsen vs Caruana, Mundial 2018 — Desempate rápido G1',
-        pgn: '[Event "World Championship Tiebreak"]\n[Site "London"]\n[Date "2018.11.28"]\n[White "Magnus Carlsen"]\n[Black "Fabiano Caruana"]\n[Result "1-0"]\n\n1.e4 c5 2.Nf3 Nc6 3.Bb5 g6 4.Bxc6 dxc6 5.d3 Bg7 6.h3 Nf6 7.Nc3 Nd7 8.Be3 e5 9.O-O O-O 10.Nh2 b6 11.f4 exf4 12.Bxf4 Nf6 13.Qd2 Be6 14.Bh6 Qd4+ 15.Kh1 Qxd3 16.Bxg7 Kxg7 17.Rf3 Qd6 18.Raf1 Nd7 19.e5 Qe7 20.Ng4 Bxg4 21.hxg4 Rfe8 22.g5 f5 23.gxf6+ Nxf6 24.Rxf6 Qxf6 25.Rxf6 Kxf6 26.Qf4+ Kg7 27.Qd4 Re6 28.Nd5 cxd5 29.Qxd5 Re1+ 30.Kh2 Rae8 31.Qd4+ Kh6 32.Qh4+ Kg7 33.Qd4+ Kf8 34.Qa7 R1e5 35.Qxa4 Rxe5 36.Qb3 Rc5 37.a4 Rce5 38.c4 Kf7 39.Qf3+ Kg7 40.Qd3 Re1 41.a5 R1e5 42.a6 Re2 43.Qd4+ Kh6 44.Qf4+ Kg7 45.Qd4+ Kh6 46.Qf4+ Kh5 47.g3 R5e4 48.Qf5 Kh6 49.Qf4+ Kh5 50.Qf5 Kh6 51.Qf4+ Kg7 52.Qd4+ Kf7 53.Qd7+ Kg8 54.a7 1-0'
+        pgn: '[Event "World Championship Tiebreak"]\n[Site "London"]\n[Date "2018.11.28"]\n[White "Magnus Carlsen"]\n[Black "Fabiano Caruana"]\n[Result "1-0"]\n\n1.c4 e5 2.Nc3 Nf6 3.g3 Bb4 4.e4 O-O 5.Nge2 c6 6.Bg2 a6 7.O-O b5 8.d4 d6 9.a3 Bxc3 10.Nxc3 bxc4 11.dxe5 dxe5 12.Na4 Be6 13.Qxd8 Rxd8 14.Be3 Nbd7 15.f3 Rab8 16.Rac1 Rb3 17.Rfe1 Ne8 18.Bf1 Nd6 19.Rcd1 Nb5 20.Nc5 Rxb2 21.Nxe6 fxe6 22.Bxc4 Nd4 23.Bxd4 exd4 24.Bxe6+ Kf8 25.Rxd4 Ke7 26.Rxd7+ Rxd7 27.Bxd7 Kxd7 28.Rd1+ Ke6 29.f4 c5 30.Rd5 Rc2 31.h4 c4 32.f5+ Kf6 33.Rc5 h5 34.Kf1 Rc3 35.Kg2 Rxa3 36.Rxc4 Ke5 37.Rc7 Kxe4 38.Re7+ Kxf5 39.Rxg7 Kf6 40.Rg5 a5 41.Rxh5 a4 42.Ra5 Ra1 43.Kf3 a3 44.Ra6+ Kg7 45.Kg2 Ra2+ 46.Kh3 Ra1 47.h5 Kh7 48.g4 Kg7 49.Kh4 a2 50.Kg5 Kf7 51.h6 Rb1 52.Ra7+ Kg8 53.Rxa2 Rb5+ 54.Kg6 Rb6+ 55.Kh5 1-0'
     },
     'ding-nepomniachtchi-23': {
-        name: 'Ding Liren vs Nepomniachtchi, Mundial 2023 G12 — Ding campeón',
-        pgn: '[Event "World Championship"]\n[Site "Astana"]\n[Date "2023.04.27"]\n[White "Ding Liren"]\n[Black "Ian Nepomniachtchi"]\n[Result "1-0"]\n\n1.d4 Nf6 2.c4 e6 3.Nf3 d5 4.h3 Be7 5.Bf4 O-O 6.e3 Nbd7 7.a3 c5 8.cxd5 exd5 9.Nc3 a6 10.Be2 b5 11.O-O Bb7 12.b4 c4 13.a4 bxa4 14.Nxa4 a5 15.Nc5 Nxc5 16.bxc5 Nd7 17.Be5 axb4 18.Qb1 f6 19.Bc3 Nxc5 20.dxc5 Bxc5 21.Nd4 Qd6 22.Bb4 Bxd4 23.exd4 Qd7 24.Ra5 Bc6 25.Bg4 Qe7 26.Qa1 Rfe8 27.Bc5 Qf7 28.Qa4 Be4 29.Qxc4 dxc4 30.Rxf7 1-0'
+        name: 'Ding Liren vs Nepomniachtchi, Mundial 2023 G12 — Ding empata el match',
+        pgn: '[Event "World Championship"]\n[Site "Astana"]\n[Date "2023.04.16"]\n[White "Ding Liren"]\n[Black "Ian Nepomniachtchi"]\n[Result "1-0"]\n\n1.d4 Nf6 2.Nf3 d5 3.Bf4 c5 4.e3 Nc6 5.Nbd2 cxd4 6.exd4 Bf5 7.c3 e6 8.Bb5 Bd6 9.Bxd6 Qxd6 10.O-O O-O 11.Re1 h6 12.Ne5 Ne7 13.a4 a6 14.Bf1 Nd7 15.Nxd7 Qxd7 16.a5 Qc7 17.Qf3 Rfc8 18.Ra3 Bg6 19.Nb3 Nc6 20.Qg3 Qe7 21.h4 Re8 22.Nc5 e5 23.Rb3 Nxa5 24.Rxe5 Qf6 25.Ra3 Nc4 26.Bxc4 dxc4 27.h5 Bc2 28.Nxb7 Qb6 29.Nd6 Rxe5 30.Qxe5 Qxb2 31.Ra5 Kh7 32.Rc5 Qc1+ 33.Kh2 f6 34.Qg3 a5 35.Nxc4 a4 36.Ne3 Bb1 37.Rc7 Rg8 38.Nd5 Kh8 39.Ra7 a3 40.Ne7 Rf8 41.d5 a2 42.Qc7 Kh7 43.Ng6 Rg8 44.Qf7 1-0'
     },
     'tal-botvinnik-60': {
-        name: 'Tal vs Botvinnik, Mundial 1960 G6 — El mago de Riga',
-        pgn: '[Event "World Championship"]\n[Site "Moscow"]\n[Date "1960.03.26"]\n[White "Mikhail Tal"]\n[Black "Mikhail Botvinnik"]\n[Result "1-0"]\n\n1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 c5 5.Bd3 b6 6.Ne2 Bb7 7.O-O cxd4 8.exd4 O-O 9.d5 exd5 10.cxd5 Nxd5 11.Nxd5 Bxd5 12.a3 Bd6 13.Nf4 Be4 14.Nxe4 Nc6 15.Bg5 f6 16.Be3 Na5 17.Qg4 Nc4 18.Nxd6 Nxe3 19.fxe3 Qxd6 20.Rxf6 Qe5 21.Raf1 Rxf6 22.Qxg7# 1-0'
+        name: 'Botvinnik vs Tal, Mundial 1960 G6 — El mago de Riga',
+        pgn: '[Event "World Championship"]\n[Site "Moscow"]\n[Date "1960.03.26"]\n[White "Mikhail Botvinnik"]\n[Black "Mikhail Tal"]\n[Result "0-1"]\n\n1.c4 Nf6 2.Nf3 g6 3.g3 Bg7 4.Bg2 O-O 5.d4 d6 6.Nc3 Nbd7 7.O-O e5 8.e4 c6 9.h3 Qb6 10.d5 cxd5 11.cxd5 Nc5 12.Ne1 Bd7 13.Nd3 Nxd3 14.Qxd3 Rfc8 15.Rb1 Nh5 16.Be3 Qb4 17.Qe2 Rc4 18.Rfc1 Rac8 19.Kh2 f5 20.exf5 Bxf5 21.Ra1 Nf4 22.gxf4 exf4 23.Bd2 Qxb2 24.Rab1 f3 25.Rxb2 fxe2 26.Rb3 Rd4 27.Be1 Be5+ 28.Kg1 Bf4 29.Nxe2 Rxc1 30.Nxd4 Rxe1+ 31.Bf1 Be4 32.Ne2 Be5 33.f4 Bf6 34.Rxb7 Bxd5 35.Rc7 Bxa2 36.Rxa7 Bc4 37.Ra8+ Kf7 38.Ra7+ Ke6 39.Ra3 d5 40.Kf2 Bh4+ 41.Kg2 Kd6 42.Ng3 Bxg3 43.Bxc4 dxc4 44.Kxg3 Kd5 45.Ra7 c3 46.Rc7 Kd4 47.Rd7+ 0-1'
     },
     'fischer-11-0': {
         name: 'Fischer vs US Championship 1963 — El 11-0 perfecto',
-        pgn: '[Event "US Championship"]\n[Site "New York"]\n[Date "1964.01.01"]\n[White "Robert James Fischer"]\n[Black "Pal Benko"]\n[Result "1-0"]\n\n1.e4 g6 2.d4 Bg7 3.Nc3 d6 4.f4 Nf6 5.Nf3 O-O 6.Bd3 Na6 7.O-O c5 8.d5 Nc7 9.a4 b6 10.Qe1 Bb7 11.Qh4 e5 12.fxe5 dxe5 13.Bg5 Qe8 14.Nh5 Nxe4 15.Bxe4 Bxe4 16.Nxe4 Nxd5 17.Neg3 f6 18.Bd2 Qe6 19.a5 f5 20.Rae1 e4 21.Nf4 Nxf4 22.Bxf4 Qf6 23.Qxf6 Bxf6 24.axb6 axb6 25.Nh5 Be5 26.Bxe5 Rxf1+ 27.Rxf1 1-0'
+        pgn: '[Event "US Championship"]\n[Site "New York"]\n[Date "1963"]\n[White "Robert James Fischer"]\n[Black "Pal Benko"]\n[Result "1-0"]\n\n1.e4 g6 2.d4 Bg7 3.Nc3 d6 4.f4 Nf6 5.Nf3 O-O 6.Bd3 Bg4 7.h3 Bxf3 8.Qxf3 Nc6 9.Be3 e5 10.dxe5 dxe5 11.f5 gxf5 12.Qxf5 Nd4 13.Qf2 Ne8 14.O-O Nd6 15.Qg3 Kh8 16.Qg4 c6 17.Qh5 Qe8 18.Bxd4 exd4 19.Rf6 Kg8 20.e5 h6 21.Ne2 1-0'
     },
     'larsen-spassky-70': {
         name: 'Larsen vs Spassky, URSS vs Mundo 1970 — 1.b3 desastre',
         pgn: '[Event "USSR vs Rest of the World"]\n[Site "Belgrade"]\n[Date "1970.03.29"]\n[White "Bent Larsen"]\n[Black "Boris Spassky"]\n[Result "0-1"]\n\n1.b3 e5 2.Bb2 Nc6 3.c4 Nf6 4.Nf3 e4 5.Nd4 Bc5 6.Nxc6 dxc6 7.e3 Bf5 8.Qc2 Qe7 9.Be2 O-O-O 10.f4 Ng4 11.g3 h5 12.h3 h4 13.hxg4 hxg3 14.Rg1 Rh1 15.Rxh1 g2 16.Rf1 Qh4+ 17.Kd1 gxf1=Q+ 0-1'
     },
     'kasparov-shirov-94': {
-        name: 'Kasparov vs Shirov, Horgen 1994 — Ataque fulminante',
-        pgn: '[Event "Horgen"]\n[Site "Horgen"]\n[Date "1994"]\n[White "Garry Kasparov"]\n[Black "Alexei Shirov"]\n[Result "1-0"]\n\n1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.f3 O-O 6.Be3 Nc6 7.Nge2 a6 8.Qd2 Rb8 9.Rc1 e5 10.d5 Nd4 11.N2g3 c5 12.Be2 Nh5 13.Nxh5 gxh5 14.O-O f5 15.exf5 Bxf5 16.g4 hxg4 17.fxg4 Bd7 18.Rxf8+ Qxf8 19.Nxd4 cxd4 20.Bxd4 exd4 21.Qxd4 Bf6 22.Qf2 b5 23.cxb5 axb5 24.Rc7 Qd8 25.Bxb5 Be5 26.Be2 Rf8 27.Qg3 Bg6 28.h4 Rf6 29.h5 Be8 30.Bd3 Rf3 31.Qg2 Bf4 32.Be4 Rf2 33.Qg1 Qg5 34.Kh1 Be3 35.Qh2 Bg6 36.hxg6 hxg6 37.Qh8+ Kf7 38.Qg8# 1-0'
+        name: 'Kasparov vs Shirov, Horgen 1994 — Sacrificio de torre',
+        pgn: '[Event "Credit Suisse Masters"]\n[Site "Horgen"]\n[Date "1994"]\n[White "Garry Kasparov"]\n[Black "Alexei Shirov"]\n[Result "1-0"]\n\n1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.Ndb5 d6 7.Bf4 e5 8.Bg5 a6 9.Na3 b5 10.Nd5 Be7 11.Bxf6 Bxf6 12.c3 Bb7 13.Nc2 Nb8 14.a4 bxa4 15.Rxa4 Nd7 16.Rb4 Nc5 17.Rxb7 Nxb7 18.b4 Bg5 19.Na3 O-O 20.Nc4 a5 21.Bd3 axb4 22.cxb4 Qb8 23.h4 Bh6 24.Ncb6 Ra2 25.O-O Rd2 26.Qf3 Qa7 27.Nd7 Nd8 28.Nxf8 Kxf8 29.b5 Qa3 30.Qf5 Ke8 31.Bc4 Rc2 32.Qxh7 Rxc4 33.Qg8+ Kd7 34.Nb6+ Ke7 35.Nxc4 Qc5 36.Ra1 Qd4 37.Ra3 Bc1 38.Ne3 1-0'
     },
     'capablanca-alekhine-27': {
-        name: 'Capablanca vs Alekhine, Mundial 1927 G34 — La partida decisiva',
-        pgn: '[Event "World Championship"]\n[Site "Buenos Aires"]\n[Date "1927.11.26"]\n[White "Jose Raul Capablanca"]\n[Black "Alexander Alekhine"]\n[Result "0-1"]\n\n1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Nbd7 5.e3 Be7 6.Nf3 O-O 7.Rc1 c6 8.Bd3 dxc4 9.Bxc4 Nd5 10.Bxe7 Qxe7 11.Ne4 N5f6 12.Ng3 e5 13.O-O exd4 14.Nxd4 Ne5 15.Bb3 Rd8 16.Qc2 Ng6 17.Ndf5 Bxf5 18.Nxf5 Qe5 19.Ng3 Nd5 20.Rfd1 Nf4 21.Qe4 Qxe4 22.Nxe4 Nxe3 23.Rxd8+ Rxd8 24.fxe3 Rd1+ 25.Rxd1 Nxd1 26.Kf1 Nxb2 27.Nc5 b6 28.Na6 Kf8 29.Ke2 Ke7 30.Kd2 Kd6 31.Kc3 Na4+ 32.Kb4 Nc5 33.Nxc5 bxc5+ 34.Ka5 Kd5 35.Ba4 c4 36.Bc2 g5 37.Kb4 f5 38.Ka5 g4 39.Kb4 c3 40.Kxc3 Ke4 41.Bd1 Kf4 42.Kd4 c5+ 43.Kd3 f4 0-1'
+        name: 'Alekhine vs Capablanca, Mundial 1927 G34 — La partida decisiva',
+        pgn: '[Event "World Championship"]\n[Site "Buenos Aires"]\n[Date "1927.11.26"]\n[White "Alexander Alekhine"]\n[Black "Jose Raul Capablanca"]\n[Result "1-0"]\n\n1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Nbd7 5.e3 c6 6.a3 Be7 7.Nf3 O-O 8.Bd3 dxc4 9.Bxc4 Nd5 10.Bxe7 Qxe7 11.Ne4 N5f6 12.Ng3 c5 13.O-O Nb6 14.Ba2 cxd4 15.Nxd4 g6 16.Rc1 Bd7 17.Qe2 Rac8 18.e4 e5 19.Nf3 Kg7 20.h3 h6 21.Qd2 Be6 22.Bxe6 Qxe6 23.Qa5 Nc4 24.Qxa7 Nxb2 25.Rxc8 Rxc8 26.Qxb7 Nc4 27.Qb4 Ra8 28.Ra1 Qc6 29.a4 Nxe4 30.Nxe5 Qd6 31.Qxc4 Qxe5 32.Re1 Nd6 33.Qc1 Qf6 34.Ne4 Nxe4 35.Rxe4 Rb8 36.Re2 Ra8 37.Ra2 Ra5 38.Qc7 Qa6 39.Qc3+ Kh7 40.Rd2 Qb6 41.Rd7 Qb1+ 42.Kh2 Qb8+ 43.g3 Rf5 44.Qd4 Qe8 45.Rd5 Rf3 46.h4 Qh8 47.Qb6 Qa1 48.Kg2 Rf6 49.Qd4 Qxd4 50.Rxd4 Kg7 51.a5 Ra6 52.Rd5 Rf6 53.Rd4 Ra6 54.Ra4 Kf6 55.Kf3 Ke5 56.Ke3 h5 57.Kd3 Kd5 58.Kc3 Kc5 59.Ra2 Kb5 60.Kb3 Kc5 61.Kc3 Kb5 62.Kd4 Rd6+ 63.Ke5 Re6+ 64.Kf4 Ka6 65.Kg5 Re5+ 66.Kh6 Rf5 67.f4 Rc5 68.Ra3 Rc7 69.Kg7 Rd7 70.f5 gxf5 71.Kh6 f4 72.gxf4 Rd5 73.Kg7 Rf5 74.Ra4 Kb5 75.Re4 Ka6 76.Kh6 Rxa5 77.Re5 Ra1 78.Kxh5 Rg1 79.Rg5 Rh1 80.Rf5 Kb6 81.Rxf7 Kc6 82.Re7 1-0'
     },
     'tal-hecht-62': {
         name: 'Tal vs Hecht, Varna Olimpiada 1962',
-        pgn: '[Event "15th Olympiad"]\n[Site "Varna"]\n[Date "1962.09.28"]\n[White "Mikhail Tal"]\n[Black "Hans-Joachim Hecht"]\n[Result "1-0"]\n\n1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 e6 5.Nc3 Qc7 6.g3 a6 7.Bg2 Nf6 8.O-O Be7 9.Re1 O-O 10.Nxc6 bxc6 11.e5 Nd5 12.Ne4 Bb7 13.Nd6 Bxd6 14.exd6 Qd8 15.c4 Nf6 16.d7 Qc7 17.Be3 Nd5 18.Bd4 f6 19.Qg4 e5 20.Qg6 Rf7 21.cxd5 exd4 22.d6 Qd8 23.dxc6 Ba6 24.Qe8+ Rf8 25.d8=Q 1-0'
+        pgn: '[Event "Varna Olympiad"]\n[Site "Varna"]\n[Date "1962.10.06"]\n[White "Mikhail Tal"]\n[Black "Hans-Joachim Hecht"]\n[Result "1-0"]\n\n1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.Nc3 Bb4 5.Bg5 Bb7 6.e3 h6 7.Bh4 Bxc3+ 8.bxc3 d6 9.Nd2 e5 10.f3 Qe7 11.e4 Nbd7 12.Bd3 Nf8 13.c5 dxc5 14.dxe5 Qxe5 15.Qa4+ c6 16.O-O Ng6 17.Nc4 Qe6 18.e5 b5 19.exf6 bxa4 20.fxg7 Rg8 21.Bf5 Nxh4 22.Bxe6 Ba6 23.Nd6+ Ke7 24.Bc4 Rxg7 25.g3 Kxd6 26.Bxa6 Nf5 27.Rab1 f6 28.Rfd1+ Ke7 29.Re1+ Kd6 30.Kf2 c4 31.g4 Ne7 32.Rb7 Rag8 33.Bxc4 Nd5 34.Bxd5 cxd5 35.Rb4 Rc8 36.Rxa4 Rxc3 37.Ra6+ Kc5 38.Rxf6 h5 39.h3 hxg4 40.hxg4 Rh7 41.g5 Rh5 42.Rf5 Rc2+ 43.Kg3 Kc4 44.Ree5 d4 45.g6 Rh1 46.Rc5+ Kd3 47.Rxc2 Kxc2 48.Kf4 Rg1 49.Rg5 1-0'
     },
     'korchnoi-karpov-78': {
         name: 'Korchnoi vs Karpov, Mundial 1978 G17 — La Guerra Fría',
-        pgn: '[Event "World Championship"]\n[Site "Baguio City"]\n[Date "1978.09.08"]\n[White "Viktor Korchnoi"]\n[Black "Anatoly Karpov"]\n[Result "0-1"]\n\n1.c4 e6 2.Nc3 d5 3.d4 Be7 4.Nf3 Nf6 5.Bg5 h6 6.Bh4 O-O 7.e3 b6 8.Bd3 Bb7 9.O-O Nbd7 10.Bg3 c5 11.cxd5 Nxd5 12.Nxd5 exd5 13.dxc5 Nxc5 14.Bc2 Rc8 15.Qd4 a5 16.Rfd1 Bf6 17.Qf4 g6 18.h4 Re8 19.Rd2 Bg7 20.Rad1 Ne6 21.Qg4 d4 22.h5 Bc6 23.Nxd4 Bxd4 24.Rxd4 Nxd4 25.exd4 Qf6 26.hxg6 Qxg6 27.Qxg6+ fxg6 28.Bd3 Kf7 29.d5 Bd7 30.Bxg6+ Kxg6 31.d6 Re6 32.Rd4 Kf7 33.Rf4+ Ke8 34.d7+ Ke7 35.Re4 Be8 36.Rxe6+ Kxe6 37.dxc8=Q+ Bxc8 0-1'
+        pgn: '[Event "World Championship"]\n[Site "Baguio City"]\n[Date "1978"]\n[White "Viktor Korchnoi"]\n[Black "Anatoly Karpov"]\n[Result "0-1"]\n\n1.c4 Nf6 2.Nc3 e6 3.d4 Bb4 4.e3 O-O 5.Bd3 c5 6.d5 b5 7.dxe6 fxe6 8.cxb5 a6 9.Nge2 d5 10.O-O e5 11.a3 axb5 12.Bxb5 Bxc3 13.bxc3 Ba6 14.Rb1 Qd6 15.c4 d4 16.Ng3 Nc6 17.a4 Na5 18.Qd3 Qe6 19.exd4 cxd4 20.c5 Rfc8 21.f4 Rxc5 22.Bxa6 Qxa6 23.Qxa6 Rxa6 24.Ba3 Rd5 25.Nf5 Kf7 26.fxe5 Rxe5 27.Rb5 Nc4 28.Rb7+ Ke6 29.Nxd4+ Kd5 30.Nf3 Nxa3 31.Nxe5 Kxe5 32.Re7+ Kd4 33.Rxg7 Nc4 34.Rf4+ Ne4 35.Rd7+ Ke3 36.Rf3+ Ke2 37.Rxh7 Ncd2 38.Ra3 Rc6 39.Ra1 Nf3+ 0-1'
     },
     'fischer-taimanov-71': {
         name: 'Fischer vs Taimanov, Candidatos 1971 — 6-0 histórico',
         pgn: '[Event "Candidates Quarterfinal"]\n[Site "Vancouver"]\n[Date "1971.05.25"]\n[White "Robert James Fischer"]\n[Black "Mark Taimanov"]\n[Result "1-0"]\n\n1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Qc7 5.Nc3 e6 6.g3 a6 7.Bg2 Nf6 8.O-O Nxd4 9.Qxd4 Bc5 10.Bf4 d6 11.Qd2 h6 12.Rad1 e5 13.Be3 Bg4 14.Bxc5 dxc5 15.f3 Be6 16.f4 Rd8 17.Nd5 Bxd5 18.exd5 e4 19.Rfe1 Rxd5 20.Rxe4+ Kf8 21.Qxd5 Nxd5 22.Re8# 1-0'
     },
     'kasparov-portisch-83': {
-        name: 'Kasparov vs Portisch, Niksic 1983 — Ataque India de Rey',
-        pgn: '[Event "Niksic"]\n[Site "Niksic"]\n[Date "1983"]\n[White "Garry Kasparov"]\n[Black "Lajos Portisch"]\n[Result "1-0"]\n\n1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.Nc3 Bb7 5.a3 d5 6.cxd5 Nxd5 7.Qc2 Nxc3 8.bxc3 Be7 9.e4 O-O 10.Bd3 c5 11.O-O Qc8 12.Qe2 Ba6 13.Bg5 Bxd3 14.Qxd3 Qa6 15.Qe3 Nd7 16.Bxe7 Rfe8 17.Ba3 cxd4 18.cxd4 Qd3 19.Qxd3 Nc5 20.Qc3 Nxe4 21.Qb4 Nd6 22.Nd2 Rac8 23.Rfe1 f6 24.Rab1 Kf7 25.Nf3 Nc4 26.Bb2 Red8 27.d5 exd5 28.Nd4 Rc5 29.Ne6 Rc7 30.Nxd8+ Rxd8 31.Re7+ Kg8 32.Rxg7+ Kh8 33.Qe7 Rd7 34.Qf8# 1-0'
+        name: 'Kasparov vs Portisch, Niksic 1983 — Doble sacrificio de alfil',
+        pgn: '[Event "Niksic"]\n[Site "Niksic"]\n[Date "1983"]\n[White "Garry Kasparov"]\n[Black "Lajos Portisch"]\n[Result "1-0"]\n\n1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.Nc3 Bb7 5.a3 d5 6.cxd5 Nxd5 7.e3 Nxc3 8.bxc3 Be7 9.Bb5+ c6 10.Bd3 c5 11.O-O Nc6 12.Bb2 Rc8 13.Qe2 O-O 14.Rad1 Qc7 15.c4 cxd4 16.exd4 Na5 17.d5 exd5 18.cxd5 Bxd5 19.Bxh7+ Kxh7 20.Rxd5 Kg8 21.Bxg7 Kxg7 22.Ne5 Rfd8 23.Qg4+ Kf8 24.Qf5 f6 25.Nd7+ Rxd7 26.Rxd7 Qc5 27.Qh7 Rc7 28.Qh8+ Kf7 29.Rd3 Nc4 30.Rfd1 Ne5 31.Qh7+ Ke6 32.Qg8+ Kf5 33.g4+ Kf4 34.Rd4+ Kf3 35.Qb3+ 1-0'
     },
     'bernstein-capablanca': {
         name: 'Bernstein vs Capablanca, Moscú 1914 — Obra maestra de Capa',
@@ -1625,83 +1627,90 @@ const FAMOUS_GAMES = {
     },
     'tal-tringov-64': {
         name: 'Tal vs Tringov, Ámsterdam 1964 — Sacrificio brillante',
-        pgn: '[Event "Amsterdam Interzonal"]\n[Site "Amsterdam"]\n[Date "1964"]\n[White "Mikhail Tal"]\n[Black "Georgi Tringov"]\n[Result "1-0"]\n\n1.e4 g6 2.d4 Bg7 3.Nc3 d6 4.Nf3 c6 5.Bg5 Qb6 6.Qd2 Qxb2 7.Rb1 Qa3 8.Bc4 Qa5 9.O-O e6 10.Rfe1 a6 11.Bf4 e5 12.dxe5 dxe5 13.Qd6 Qxd2 14.Nxd2 f6 15.Nc4 b5 16.Nd6+ Kf8 17.Bb3 Nd7 18.Nxb5 axb5 19.Rxb5 Ra6 20.Nxc8 Ne7 21.Rb8 Rxa2 22.Nd6 Bf8 23.Nf5 Nxf5 24.exf5 gxf5 25.Bxe5 Rd2 26.Bxf6 Nxf6 27.Re8# 1-0'
+        pgn: '[Event "Amsterdam Interzonal"]\n[Site "Amsterdam"]\n[Date "1964"]\n[White "Mikhail Tal"]\n[Black "Georgi Tringov"]\n[Result "1-0"]\n\n1.e4 g6 2.d4 Bg7 3.Nc3 d6 4.Nf3 c6 5.Bg5 Qb6 6.Qd2 Qxb2 7.Rb1 Qa3 8.Bc4 Qa5 9.O-O e6 10.Rfe1 a6 11.Bf4 e5 12.dxe5 dxe5 13.Qd6 Qxc3 14.Red1 Nd7 15.Bxf7+ Kxf7 16.Ng5+ Ke8 17.Qe6+ 1-0'
     },
+    /* REM - PGN con movimientos ilegales
     'tal-flesch-81': {
         name: 'Tal vs Flesch, Riga 1981 — 18 movimientos',
         pgn: '[Event "Riga"]\n[Site "Riga"]\n[Date "1981"]\n[White "Mikhail Tal"]\n[Black "Janos Flesch"]\n[Result "1-0"]\n\n1.e4 c6 2.d4 d5 3.Nd2 dxe4 4.Nxe4 Nd7 5.Nf3 Ngf6 6.Nxf6+ Nxf6 7.Bc4 Bf5 8.Qe2 e6 9.Bg5 Bg4 10.O-O-O Qa5 11.d5 O-O-O 12.Bxf6 gxf6 13.d6 Bh5 14.Nd4 Bxe2 15.Nxe2 Qb4 16.Rd4 Qa5 17.Rc4 Kb8 18.b4 1-0'
-    },
+    }, */
+    /* REM - PGN con movimientos ilegales
     'karpov-spassky-74': {
         name: 'Karpov vs Spassky, Candidatos 1974 — Demolición posicional',
         pgn: '[Event "Candidates Semifinal"]\n[Site "Leningrad"]\n[Date "1974"]\n[White "Anatoly Karpov"]\n[Black "Boris Spassky"]\n[Result "1-0"]\n\n1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e6 6.Be2 Be7 7.O-O Nc6 8.Be3 O-O 9.f4 e5 10.Nb3 exf4 11.Bxf4 Be6 12.Nd5 Bxd5 13.exd5 Ne5 14.c4 Neg4 15.Bd3 Re8 16.h3 Nh6 17.Nd4 Nf5 18.Nxf5 Bh4 19.Qf3 g6 20.Rae1 gxf5 21.Re7 Rxe7 22.Bxf5 Nd7 23.Bxd7 Rd8 24.Bf5 Bg5 25.Bxg5 Qxg5 26.Qf4 Qxf4 27.Rxf4 Kg7 28.b3 Rd7 29.Rf3 a5 30.Rg3+ Kf8 31.Kf2 Rc7 32.Ke3 Re7+ 33.Kd4 Rd7 34.Re3 a4 35.Re8+ Kg7 36.Rb8 axb3 37.axb3 Re7 38.Rxb7 Re1 39.Kc3 Rc1+ 40.Kd3 Rd1+ 41.Ke4 Rxd5 42.Rxf7+ Kh6 43.c5 dxc5 44.b4 1-0'
-    },
+    }, */
     'karpov-kasparov-87': {
-        name: 'Karpov vs Kasparov, Mundial 1987 G24 — Kasparov retiene',
-        pgn: '[Event "World Championship"]\n[Site "Seville"]\n[Date "1987.12.18"]\n[White "Anatoly Karpov"]\n[Black "Garry Kasparov"]\n[Result "0-1"]\n\n1.c4 e5 2.Nc3 Nf6 3.Nf3 Nc6 4.g3 Bb4 5.Bg2 O-O 6.O-O e4 7.Ng5 Bxc3 8.bxc3 Re8 9.f3 e3 10.d3 d5 11.Qb3 Na5 12.Qa4 c6 13.cxd5 Nxd5 14.f4 b5 15.Qd1 Qd6 16.Nf3 Bg4 17.Ba3 Qb6 18.Qd2 Rad8 19.Bxe3 Nxe3 20.Qxe3 Qxe3+ 21.fxe3 Bxf3 22.Bxf3 Nc4 23.Rab1 Nxe3 24.Rf2 Nd1 25.Rf1 Ne3 26.Rf2 Ng4 27.Rf1 Rd2 28.Bxg4 Rxe2 29.Bf3 Rxa2 30.Rb4 a5 31.Rb3 a4 32.Rb4 Ra1 33.Rxa1 a3 34.Kf2 a2 35.Ra7 Rb8 36.Kg2 b4 37.cxb4 Rxb4 38.d4 Rb2+ 39.Kh3 Rf2 40.Ra3 h5 41.Kg2 Rd2 42.Be2 hxg4 43.Ra8+ Kh7 44.Ra3 f5 45.Kf1 Rd1+ 0-1'
+        name: 'Kasparov vs Karpov, Mundial 1987 G24 — Kasparov retiene',
+        pgn: '[Event "World Championship"]\n[Site "Seville"]\n[Date "1987.12.18"]\n[White "Garry Kasparov"]\n[Black "Anatoly Karpov"]\n[Result "1-0"]\n\n1.c4 e6 2.Nf3 Nf6 3.g3 d5 4.b3 Be7 5.Bg2 O-O 6.O-O b6 7.Bb2 Bb7 8.e3 Nbd7 9.Nc3 Ne4 10.Ne2 a5 11.d3 Bf6 12.Qc2 Bxb2 13.Qxb2 Nd6 14.cxd5 Bxd5 15.d4 c5 16.Rfd1 Rc8 17.Nf4 Bxf3 18.Bxf3 Qe7 19.Rac1 Rfd8 20.dxc5 Nxc5 21.b4 axb4 22.Qxb4 Qa7 23.a3 Nf5 24.Rb1 Rxd1+ 25.Rxd1 Qc7 26.Nd3 h6 27.Rc1 Ne7 28.Qb5 Nf5 29.a4 Nd6 30.Qb1 Qa7 31.Ne5 Nxa4 32.Rxc8+ Nxc8 33.Qd1 Ne7 34.Qd8+ Kh7 35.Nxf7 Ng6 36.Qe8 Qe7 37.Qxa4 Qxf7 38.Be4 Kg8 39.Qb5 Nf8 40.Qxb6 Qf6 41.Qb5 Qe7 42.Kg2 g6 43.Qa5 Qg7 44.Qc5 Qf7 45.h4 h5 46.Qc6 Qe7 47.Bd3 Qf7 48.Qd6 Kg7 49.e4 Kg8 50.Bc4 Kg7 51.Qe5+ Kg8 52.Qd6 Kg7 53.Bb5 Kg8 54.Bc6 Qa7 55.Qb4 Qc7 56.Qb7 Qd8 57.e5 Qa5 58.Be8 Qc5 59.Qf7+ Kh8 60.Ba4 Qd5+ 61.Kh2 Qc5 62.Bb3 Qc8 63.Bd1 Qc5 64.Kg2 1-0'
     },
     'kasparov-kramnik-96': {
         name: 'Kasparov vs Kramnik, Dos Hermanas 1996 — Sacrificio posicional',
-        pgn: '[Event "Dos Hermanas"]\n[Site "Dos Hermanas"]\n[Date "1996.05.25"]\n[White "Garry Kasparov"]\n[Black "Vladimir Kramnik"]\n[Result "1-0"]\n\n1.Nf3 Nf6 2.c4 e6 3.Nc3 d5 4.d4 Be7 5.Bg5 h6 6.Bh4 O-O 7.e3 b6 8.Bd3 Bb7 9.O-O Nbd7 10.Qe2 c5 11.Rad1 Qc7 12.Bb1 cxd4 13.exd4 dxc4 14.Qxc4 Qd6 15.Bg3 Qb4 16.Qe2 Rfd8 17.d5 exd5 18.Nxd5 Nxd5 19.Rxd5 Nf6 20.Rd2 Rxd2 21.Nxd2 Rd8 22.Nc4 Nd5 23.Re1 Bf8 24.Qf3 Nb4 25.a3 Nc2 26.Rd1 Nd4 27.Qe4 Nc6 28.Ne5 Nxe5 29.Bxe5 Bd6 30.Qg4 Bxe5 31.Rxd8+ Kh7 32.Qe4+ g6 33.Qxe5 Qd2 34.Qf4 Qxb2 35.Bd3 f5 36.Qc7+ Kh8 37.Rd7 Bc8 38.Rd8 1-0'
+        pgn: '[Event "Dos Hermanas"]\n[Site "Dos Hermanas"]\n[Date "1996"]\n[White "Garry Kasparov"]\n[Black "Vladimir Kramnik"]\n[Result "0-1"]\n\n1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 e6 5.e3 Nbd7 6.Bd3 dxc4 7.Bxc4 b5 8.Bd3 Bb7 9.O-O a6 10.e4 c5 11.d5 c4 12.Bc2 Qc7 13.Nd4 Nc5 14.b4 cxb3 15.axb3 b4 16.Na4 Ncxe4 17.Bxe4 Nxe4 18.dxe6 Bd6 19.exf7+ Qxf7 20.f3 Qh5 21.g3 O-O 22.fxe4 Qh3 23.Nf3 Bxg3 24.Nc5 Rxf3 25.Rxf3 Qxh2+ 26.Kf1 Bc6 27.Bg5 Bb5+ 28.Nd3 Re8 29.Ra2 Qh1+ 30.Ke2 Rxe4+ 31.Kd2 Qg2+ 32.Kc1 Qxa2 33.Rxg3 Qa1+ 34.Kc2 Qc3+ 35.Kb1 Rd4 0-1'
     },
+    /* REM - PGN con movimientos ilegales
     'anand-karpov-98': {
         name: 'Anand vs Karpov, Mundial FIDE 1998 — Anand campeón',
         pgn: '[Event "FIDE World Championship"]\n[Site "Lausanne"]\n[Date "1998.01.07"]\n[White "Viswanathan Anand"]\n[Black "Anatoly Karpov"]\n[Result "1-0"]\n\n1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Na5 10.Bc2 c5 11.d4 Qc7 12.Nbd2 cxd4 13.cxd4 Nc6 14.d5 Nd8 15.Nf1 Ne8 16.a4 Rb8 17.N3h2 g6 18.f4 exf4 19.Bxf4 Ng7 20.axb5 axb5 21.Ng3 f5 22.Ng4 Nge6 23.Nxf5 gxf5 24.Bxd6 Bxd6 25.Nxd6 Qxd6 26.exf5 Nc5 27.f6 Nb6 28.Qg4+ Kh8 29.Qg7# 1-0'
-    },
+    }, */
     'anand-topalov-05': {
         name: 'Anand vs Topalov, Sofía 2005 — Victoria brillante',
-        pgn: '[Event "M-Tel Masters"]\n[Site "Sofia"]\n[Date "2005.05.13"]\n[White "Viswanathan Anand"]\n[Black "Veselin Topalov"]\n[Result "1-0"]\n\n1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Be2 e6 7.O-O Be7 8.a4 Nc6 9.Be3 O-O 10.f4 Qc7 11.Kh1 Re8 12.Bf3 Rb8 13.Qd2 Bd7 14.Nb3 b6 15.g4 Bc8 16.g5 Nd7 17.Qf2 Bf8 18.Bg2 Bb7 19.Rad1 g6 20.Bc1 Nb4 21.Nd4 e5 22.fxe5 dxe5 23.Nf5 gxf5 24.Rxd7 Qc5 25.Qg3 Nc2 26.exf5 Nd4 27.f6 Bc6 28.Rd6 Qxg5 29.Qxg5+ 1-0'
+        pgn: '[Event "M-Tel Masters"]\n[Site "Sofia"]\n[Date "2005.05.13"]\n[White "Viswanathan Anand"]\n[Black "Veselin Topalov"]\n[Result "1/2-1/2"]\n\n1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Be3 e6 7.f3 b5 8.g4 h6 9.Qd2 b4 10.Na4 Nbd7 11.O-O-O Ne5 12.b3 Bd7 13.Nb2 d5 14.Bf4 Nxf3 15.Nxf3 Nxe4 16.Qd4 f6 17.Bd3 Bc5 18.Bxe4 Bxd4 19.Bg6+ Kf8 20.Rxd4 a5 21.Re1 Be8 22.Nh4 e5 23.Rd2 a4 24.bxa4 Kg8 25.Bg3 d4 26.Rd3 h5 27.Bxe8 Qxe8 28.g5 Rc8 29.g6 Rh6 30.Rxd4 Rxg6 31.Nxg6 Qxg6 32.Rd2 Rc3 33.Red1 Kh7 34.Kb1 Qf5 35.Be1 Ra3 36.Rd6 Rh3 37.a5 Rxh2 38.Rc1 Qe4 39.a6 Qa8 40.Bxb4 h4 41.Bc5 h3 42.Nd3 Rd2 43.Rb6 h2 44.Nf2 Qd5 45.Be3 Re2 46.Rb3 f5 47.a7 Rxe3 48.Rxe3 Qb7+ 49.Rb3 Qxa7 50.Nh1 f4 51.c4 e4 52.c5 e3 53.c6 e2 54.c7 Qxc7 55.Rxc7 e1=Q+ 56.Rc1 Qe4+ 57.Ka1 Qd4+ 58.Kb1 Qe4+ 59.Ka1 Qd4+ 60.Kb1 Qe4+ 1/2-1/2'
     },
     'alekhine-nimzowitsch': {
         name: 'Alekhine vs Nimzowitsch, San Remo 1930 — Victoria aplastante',
-        pgn: '[Event "San Remo"]\n[Site "San Remo"]\n[Date "1930.01.18"]\n[White "Alexander Alekhine"]\n[Black "Aron Nimzowitsch"]\n[Result "1-0"]\n\n1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.Ne2 dxe4 5.a3 Bxc3+ 6.Nxc3 f5 7.f3 exf3 8.Qxf3 Qh4+ 9.g3 Qd8 10.Qf2 Nf6 11.Bg5 O-O 12.Bd3 Nc6 13.O-O e5 14.Nd5 Be6 15.Nxf6+ gxf6 16.Bh6 Re8 17.d5 Bd7 18.Bf4 exf4 19.Bxf5 Bxf5 20.Qxf4 Be4 21.Qxf6 Qxf6 22.Rxf6 Bxc2 23.Raf1 Kh8 24.R6f2 Bg6 25.Re1 Rxe1+ 26.Kf2 Re8 27.Re2 Rd8 28.Re7 Nd4 29.Rxb7 a5 30.Rb6 Be4 31.d6 cxd6 32.Rxd6 Rf8+ 33.Kg1 Nxb3 34.Rd7 Bc6 35.Rc7 Nd4 36.Kf2 Rf7 37.Rxc6 1-0'
+        pgn: '[Event "San Remo"]\n[Site "San Remo"]\n[Date "1930.01.18"]\n[White "Alexander Alekhine"]\n[Black "Aron Nimzowitsch"]\n[Result "1-0"]\n\n1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 c5 5.Bd2 Ne7 6.Nb5 Bxd2+ 7.Qxd2 O-O 8.c3 b6 9.f4 Ba6 10.Nf3 Qd7 11.a4 Nbc6 12.b4 cxb4 13.cxb4 Bb7 14.Nd6 f5 15.a5 Nc8 16.Nxb7 Qxb7 17.a6 Qf7 18.Bb5 N8e7 19.O-O h6 20.Rfc1 Rfc8 21.Rc2 Qe8 22.Rac1 Rab8 23.Qe3 Rc7 24.Rc3 Qd7 25.R1c2 Kf8 26.Qc1 Rbc8 27.Ba4 b5 28.Bxb5 Ke8 29.Ba4 Kd8 30.h4 1-0'
     },
+    /* REM - PGN con movimientos ilegales
     'alekhine-lasker-14': {
         name: 'Alekhine vs Lasker, San Petersburgo 1914',
         pgn: '[Event "St. Petersburg"]\n[Site "St. Petersburg"]\n[Date "1914"]\n[White "Alexander Alekhine"]\n[Black "Emanuel Lasker"]\n[Result "1-0"]\n\n1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O d6 5.d4 Bd7 6.Nc3 Be7 7.Re1 exd4 8.Nxd4 O-O 9.Bxc6 bxc6 10.Bg5 h6 11.Bh4 Re8 12.Qd3 Nh7 13.Rad1 Bf8 14.f3 Ng5 15.Bf2 Ne6 16.Nb3 Nc5 17.Nxc5 dxc5 18.Qg3 Kh8 19.h4 Qe7 20.e5 Red8 21.Ne4 Be8 22.Nd6 Rxd6 23.exd6 Qxd6 24.Qxd6 cxd6 25.Rxd6 Bd7 26.Be3 Be7 27.Rd3 Rd8 28.Red1 Bf6 29.Bxc5 1-0'
-    },
+    }, */
     'steinitz-zukertort-86': {
-        name: 'Steinitz vs Zukertort, Mundial 1886 G1 — Primer campeonato',
-        pgn: '[Event "World Championship"]\n[Site "New York"]\n[Date "1886.01.11"]\n[White "Johannes Zukertort"]\n[Black "Wilhelm Steinitz"]\n[Result "0-1"]\n\n1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.e3 c5 5.Nf3 Nc6 6.a3 dxc4 7.Bxc4 cxd4 8.exd4 Be7 9.O-O O-O 10.Be3 Bd7 11.Qd3 Rc8 12.Rac1 Qa5 13.Ba2 Rfd8 14.Rfe1 Be8 15.Bb1 g6 16.Qe2 Bf8 17.Red1 Bg7 18.Ba2 Ne7 19.Qd2 Qa6 20.Bg5 Nf5 21.g4 Nxd4 22.Nxd4 e5 23.Nd5 Nxd5 24.Bxd5 exd4 25.Bf6 Qb6 26.Qg5 Qxb2 27.Bxg7 Kxg7 28.Bxf7 Rc5 29.Qg3 Rf5 30.Be6 Rf3 31.Qg2 Qxa3 32.Rd3 Qe7 33.Bd5 Rf6 34.Rc2 Qe5 0-1'
+        name: 'Zukertort vs Steinitz, Mundial 1886 G1 — Primer campeonato',
+        pgn: '[Event "World Championship"]\n[Site "New York"]\n[Date "1886.01.11"]\n[White "Johannes Zukertort"]\n[Black "Wilhelm Steinitz"]\n[Result "0-1"]\n\n1.d4 d5 2.c4 c6 3.e3 Bf5 4.Nc3 e6 5.Nf3 Nd7 6.a3 Bd6 7.c5 Bc7 8.b4 e5 9.Be2 Ngf6 10.Bb2 e4 11.Nd2 h5 12.h3 Nf8 13.a4 Ng6 14.b5 Nh4 15.g3 Ng2+ 16.Kf1 Nxe3+ 17.fxe3 Bxg3 18.Kg2 Bc7 19.Qg1 Rh6 20.Kf1 Rg6 21.Qf2 Qd7 22.bxc6 bxc6 23.Rg1 Bxh3+ 24.Ke1 Ng4 25.Bxg4 Bxg4 26.Ne2 Qe7 27.Nf4 Rh6 28.Bc3 g5 29.Ne2 Rf6 30.Qg2 Rf3 31.Nf1 Rb8 32.Kd2 f5 33.a5 f4 34.Rh1 Qf7 35.Re1 fxe3+ 36.Nxe3 Rf2 37.Qxf2 Qxf2 38.Nxg4 Bf4+ 39.Kc2 hxg4 40.Bd2 e3 41.Bc1 Qg2 42.Kc3 Kd7 43.Rh7+ Ke6 44.Rh6+ Kf5 45.Bxe3 Bxe3 46.Rf1+ Bf4 0-1'
     },
     'morphy-paulsen': {
-        name: 'Morphy vs Paulsen, Nueva York 1857 — El Congreso Americano',
-        pgn: '[Event "1st American Chess Congress"]\n[Site "New York"]\n[Date "1857.11.08"]\n[White "Paul Morphy"]\n[Black "Louis Paulsen"]\n[Result "1-0"]\n\n1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.d4 exd4 5.O-O Nxe4 6.Re1 d5 7.Bxd5 Qxd5 8.Nc3 Qh5 9.Nxe4 Be6 10.Neg5 Bb4 11.Rxe6+ fxe6 12.Nxe6 Qf5 13.Nfg5 g6 14.Nxd4 Nxd4 15.Qxd4 Bf8 16.Nf3 Qe4 17.Qd8+ Kf7 18.Be3 Qxf3 19.Qd7+ Be7 20.Qxb7 Rhb8 21.Qxa8 Rxa8 22.gxf3 Rd8 23.Rd1 Rxd1+ 24.Kg2 Rd7 25.c4 Bf6 26.a4 h5 27.Bc5 Bd4 28.Bxd4 Rxd4 29.c5 Rc4 30.c6 Ke6 31.a5 Kd6 32.a6 Kxc6 33.f4 Kb6 34.a7 Ka6 35.f5 gxf5 36.f4 h4 37.Kf3 Rc3+ 38.Ke2 Ra3 39.Kd2 Kb7 40.a8=Q+ Kxa8 1-0'
+        name: 'Paulsen vs Morphy, Nueva York 1857 — Sacrificio de dama',
+        pgn: '[Event "1st American Chess Congress"]\n[Site "New York"]\n[Date "1857.11.03"]\n[White "Louis Paulsen"]\n[Black "Paul Morphy"]\n[Result "0-1"]\n\n1.e4 e5 2.Nf3 Nc6 3.Nc3 Nf6 4.Bb5 Bc5 5.O-O O-O 6.Nxe5 Re8 7.Nxc6 dxc6 8.Bc4 b5 9.Be2 Nxe4 10.Nxe4 Rxe4 11.Bf3 Re6 12.c3 Qd3 13.b4 Bb6 14.a4 bxa4 15.Qxa4 Bd7 16.Ra2 Rae8 17.Qa6 Qxf3 18.gxf3 Rg6+ 19.Kh1 Bh3 20.Rd1 Bg2+ 21.Kg1 Bxf3+ 22.Kf1 Bg2+ 23.Kg1 Bh3+ 24.Kh1 Bxf2 25.Qf1 Bxf1 26.Rxf1 Re2 27.Ra1 Rh6 28.d4 Be3 0-1'
     },
     'keres-spassky-55': {
-        name: 'Keres vs Spassky, URSS 1955 — Ataque de alfil',
-        pgn: '[Event "USSR Championship"]\n[Site "Riga"]\n[Date "1955.02.05"]\n[White "Paul Keres"]\n[Black "Boris Spassky"]\n[Result "1-0"]\n\n1.e4 e5 2.Nc3 Nf6 3.f4 d5 4.fxe5 Nxe4 5.Nf3 Be7 6.d3 Nxc3 7.bxc3 c5 8.d4 O-O 9.Bd3 Nc6 10.O-O Bg4 11.Be3 f6 12.Qd2 f5 13.Nh4 g6 14.g4 fxg4 15.Nxg6 hxg6 16.Bxg6 Bh5 17.Bf5 Bxd1 18.Be6+ Rf7 19.Rxf7 Bg4 20.Bxg4 cxd4 21.cxd4 Nxd4 22.Bxd4 Qa5 23.Bf6 Bxf6 24.exf6 Qc7 25.Raf1 Kh8 26.R7f4 Qc5+ 27.Rf2 Rd8 28.Bh5 Rd7 29.f7 Qd6 30.Be8 Qd8 31.f8=Q+ Qxf8 32.Rxf8+ Kg7 33.R1f7+ 1-0'
+        name: 'Keres vs Spassky, Gotemburgo 1955 — Ataque de alfil',
+        pgn: '[Event "Gothenburg Interzonal"]\n[Site "Gothenburg"]\n[Date "1955.08.19"]\n[White "Paul Keres"]\n[Black "Boris Spassky"]\n[Result "1-0"]\n\n1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.e3 Bb7 5.Bd3 Be7 6.O-O O-O 7.b3 d5 8.Bb2 Nbd7 9.Nc3 c5 10.Qe2 dxc4 11.bxc4 Qc7 12.Rad1 Rad8 13.d5 a6 14.dxe6 fxe6 15.Ng5 Qc6 16.f4 h6 17.Nf3 Qc7 18.Nh4 Bd6 19.Bb1 Rfe8 20.Qf2 Nf8 21.Qg3 Nh5 22.Qh3 Nf6 23.Ng6 e5 24.Nd5 Bxd5 25.fxe5 Bxe5 26.Nxe5 Be6 27.Qg3 Rxd1 28.Rxd1 b5 29.Rf1 N6d7 30.Qxg7# 1-0'
     },
     'spassky-tal-73': {
         name: 'Spassky vs Tal, Tallín 1973 — Duelo de genios',
-        pgn: '[Event "Tallinn"]\n[Site "Tallinn"]\n[Date "1973.03.16"]\n[White "Boris Spassky"]\n[Black "Mikhail Tal"]\n[Result "1-0"]\n\n1.d4 Nf6 2.c4 c5 3.d5 d6 4.Nc3 g6 5.e4 Bg7 6.f4 O-O 7.Nf3 e6 8.Be2 exd5 9.cxd5 Re8 10.Nd2 Na6 11.O-O Nc7 12.a4 b6 13.Kh1 Ng4 14.Qe1 Bd4 15.Nc4 f5 16.Bf3 Nf6 17.e5 dxe5 18.fxe5 Nfxd5 19.e6 Nxc3 20.bxc3 Bxc3 21.Qe2 Bxa1 22.Bh6 Ne8 23.Nd6 Bd4 24.Nxe8 Rxe8 25.Qd2 Rf8 26.Qxd4 cxd4 27.e7 Qd6 28.exf8=Q+ Kxf8 29.Bxa8 Qc6 30.Bf3 1-0'
+        pgn: '[Event "Tallinn"]\n[Site "Tallinn"]\n[Date "1973.03.10"]\n[White "Boris Spassky"]\n[Black "Mikhail Tal"]\n[Result "0-1"]\n\n1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Bg5 h6 5.Bh4 c5 6.d5 b5 7.dxe6 fxe6 8.cxb5 d5 9.e3 O-O 10.Nf3 Qa5 11.Bxf6 Rxf6 12.Qd2 a6 13.bxa6 Nc6 14.Be2 d4 15.exd4 Rxf3 16.Bxf3 cxd4 17.O-O dxc3 18.bxc3 Bxc3 19.Qd6 Rxa6 20.Bxc6 Bb4 21.Qb8 Rxc6 22.Rac1 Bc5 23.Rc2 Qa4 24.Qb3 Qf4 25.Qg3 Qf5 26.Rfc1 Bb7 27.Qf3 Qg5 28.Qb3 Rc7 29.g3 Bxf2+ 30.Kxf2 Qf6+ 31.Ke1 Qe5+ 32.Kf1 Ba6+ 33.Kg1 Qd4+ 34.Kg2 Qe4+ 35.Kg1 Bb7 36.h4 Qh1+ 37.Kf2 Rf7+ 38.Ke2 Qe4+ 0-1'
     },
+    /* REM - PGN con movimientos ilegales
     'bronstein-ljubojevic-73': {
         name: 'Bronstein vs Ljubojevic, Petropolis 1973',
         pgn: '[Event "Interzonal"]\n[Site "Petropolis"]\n[Date "1973"]\n[White "David Bronstein"]\n[Black "Ljubomir Ljubojevic"]\n[Result "1-0"]\n\n1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Bg5 e6 7.f4 Be7 8.Qf3 h6 9.Bh4 Qc7 10.O-O-O Nbd7 11.Be2 b5 12.Bxf6 Nxf6 13.e5 Bb7 14.Qe3 dxe5 15.fxe5 Nd7 16.Nxe6 fxe6 17.Qxe6 Qc5 18.Bf3 Bxf3 19.gxf3 O-O 20.Rhg1 Rf4 21.Nd5 Qd4 22.Rxd4 Rxd4 23.Qg6 Rf8 24.Nxe7+ Kh8 25.Qxg7# 1-0'
-    },
+    }, */
     'carlsen-nakamura-11': {
         name: 'Carlsen vs Nakamura, Londres 2011',
-        pgn: '[Event "London Chess Classic"]\n[Site "London"]\n[Date "2011.12.07"]\n[White "Magnus Carlsen"]\n[Black "Hikaru Nakamura"]\n[Result "1-0"]\n\n1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.Nf3 O-O 6.Be2 e5 7.O-O Nc6 8.d5 Ne7 9.b4 Nh5 10.Re1 f5 11.Ng5 Nf6 12.f3 Kh8 13.Rb1 fxe4 14.fxe4 h6 15.Ne6 Bxe6 16.dxe6 d5 17.cxd5 Nexd5 18.Bc4 Nxb4 19.e7 Qxe7 20.Rxb4 c6 21.Bf4 exf4 22.e5 Nd5 23.Bxd5 cxd5 24.Nxd5 Qe6 25.Rxf4 Rxf4 26.Nxf4 Qf5 27.Qd5 Rd8 28.Qxb7 Qc2 29.h3 Qd2 30.Re2 Qd4+ 31.Kh2 Rd5 32.Qf3 Kh7 33.Nd3 Rd8 34.Re4 Qd6 35.Rd4 Rxd4 36.Qf7 Rd5 37.e6 Qd8 38.Qf5 Qd6+ 39.Qg5 Rd4 40.e7 1-0'
+        pgn: '[Event "London Chess Classic"]\n[Site "London"]\n[Date "2011.12.05"]\n[White "Magnus Carlsen"]\n[Black "Hikaru Nakamura"]\n[Result "1-0"]\n\n1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.d3 Bc5 5.c3 d6 6.Bb3 a6 7.Nbd2 Ba7 8.Nf1 h6 9.Ng3 O-O 10.O-O Be6 11.h3 Qd7 12.Be3 Ne7 13.Nh4 Ng6 14.Nhf5 Ne7 15.Nxe7+ Qxe7 16.Bxa7 Rxa7 17.f4 c5 18.Bc2 b5 19.Qd2 Rb7 20.a3 a5 21.Rf2 b4 22.axb4 axb4 23.Raf1 bxc3 24.bxc3 exf4 25.Rxf4 Nh7 26.d4 cxd4 27.cxd4 Qg5 28.Kh2 Nf6 29.Bd1 Rfb8 30.h4 Qg6 31.Rxf6 gxf6 32.Qf4 Rb2 33.Bh5 Qg7 34.Bf3 Ra8 35.d5 Bc8 36.Nh5 Qf8 37.Nxf6+ Kh8 38.Rc1 Kg7 39.e5 dxe5 40.Nh5+ Kh7 41.Be4+ 1-0'
     },
+    /* REM - PGN con movimientos ilegales
     'fischer-reshevsky-61': {
         name: 'Fischer vs Reshevsky, US Ch. 1961 — Venganza del prodigio',
         pgn: '[Event "US Championship"]\n[Site "New York"]\n[Date "1961.12.18"]\n[White "Robert James Fischer"]\n[Black "Samuel Reshevsky"]\n[Result "1-0"]\n\n1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6 5.Nc3 Bg7 6.Be3 Nf6 7.Bc4 O-O 8.Bb3 Na5 9.e5 Ne8 10.Bxf7+ Kxf7 11.Ne6 dxe6 12.Qxd8 Nc6 13.Qd2 Nxe5 14.O-O Nc4 15.Qe2 Nxe3 16.Qxe3 Nc7 17.Rfd1 Rf6 18.Nd5 exd5 19.Qe7+ Kg8 20.Rxd5 Ne6 21.Rd7 Bf8 22.Qxb7 Rb8 23.Qa6 Bh6 24.Re1 Rbb6 25.Qa4 Rf7 26.Rxf7 Kxf7 27.Qa7+ Kf6 28.Qxa5 Bg7 29.Qc3+ Kf7 30.Qc4 Kf8 31.a4 Bd4 32.b3 Rf6 33.c3 Bf2+ 34.Kf1 Bg3 35.hxg3 Nf4 36.gxf4 Rxf4 37.a5 Rf6 38.a6 1-0'
-    },
+    }, */
+    /* REM - PGN con movimientos ilegales
     'kramnik-aronian-07': {
         name: 'Kramnik vs Aronian, Candidatos Wijk 2007',
         pgn: '[Event "Corus"]\n[Site "Wijk aan Zee"]\n[Date "2007.01.27"]\n[White "Vladimir Kramnik"]\n[Black "Levon Aronian"]\n[Result "1-0"]\n\n1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 d5 5.cxd5 Qxd5 6.Nf3 Qf5 7.Qb3 Nc6 8.Bd2 O-O 9.h3 b6 10.g4 Qg6 11.Rg1 Bb7 12.a3 Bxc3 13.Bxc3 Ne4 14.Bb4 Re8 15.Bg2 f5 16.gxf5 exf5 17.Nd2 Nxd2 18.Kxd2 f4 19.f3 Ne5 20.Qd1 Nd3 21.e3 fxe3+ 22.Ke2 Qf5 23.Bd3 Qh5 24.Rxg7+ Kxg7 25.Qg1+ Kh8 26.Qg5 Qxg5 27.Bxh7 Qg2+ 28.Bf2 Nxf2 29.Rg1 Qxh3 30.Bd3+ Kg7 31.Rg3 Qh2 32.Rf3 Qh4 33.Rxf2 exf2 34.Kxf2 Re3 35.Bc2 Rae8 36.Bb3 Kf6 37.d5 R3e5 38.Kf1 Re1+ 39.Kg2 Rxd5 40.Bd1 Rd2+ 41.Kh3 Rh1# 0-1'
-    },
+    }, */
     'anand-carlsen-14': {
-        name: 'Anand vs Carlsen, Mundial 2014 G11 — Anand casi iguala',
-        pgn: '[Event "World Championship"]\n[Site "Sochi"]\n[Date "2014.11.23"]\n[White "Viswanathan Anand"]\n[Black "Magnus Carlsen"]\n[Result "1-0"]\n\n1.d4 Nf6 2.c4 e6 3.Nf3 d5 4.Nc3 Be7 5.Bf4 O-O 6.e3 Nbd7 7.c5 Nh5 8.Bd3 Nxf4 9.exf4 b6 10.b4 a5 11.a3 c6 12.O-O Qc7 13.g3 Ba6 14.Bxa6 Rxa6 15.Re1 Rb8 16.Qe2 Ra8 17.Red1 bxc5 18.bxc5 Qa7 19.Qa6 Qb8 20.Rab1 Qa7 21.Qa4 Rb8 22.Rb6 Ra6 23.Rdb1 Nf6 24.Qc2 Rxb6 25.Rxb6 Nd7 26.Rb1 e5 27.fxe5 Nxc5 28.Na4 Ne6 29.Rb7 Qd4 30.Nc5 Nxc5 31.dxc5 Qxc5 32.Nd4 Ra8 33.Qd2 Qc4 34.Rxe7 1-0'
+        name: 'Carlsen vs Anand, Mundial 2014 G11 — Carlsen retiene la corona',
+        pgn: '[Event "World Championship"]\n[Site "Sochi"]\n[Date "2014.11.23"]\n[White "Magnus Carlsen"]\n[Black "Viswanathan Anand"]\n[Result "1-0"]\n\n1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.d4 Nd6 6.Bxc6 dxc6 7.dxe5 Nf5 8.Qxd8+ Kxd8 9.h3 Bd7 10.Nc3 h6 11.b3 Kc8 12.Bb2 c5 13.Rad1 b6 14.Rfe1 Be6 15.Nd5 g5 16.c4 Kb7 17.Kh2 a5 18.a4 Ne7 19.g4 Ng6 20.Kg3 Be7 21.Nd2 Rhd8 22.Ne4 Bf8 23.Nef6 b5 24.Bc3 bxa4 25.bxa4 Kc6 26.Kf3 Rdb8 27.Ke4 Rb4 28.Bxb4 cxb4 29.Nh5 Kb7 30.f4 gxf4 31.Nhxf4 Nxf4 32.Nxf4 Bxc4 33.Rd7 Ra6 34.Nd5 Rc6 35.Rxf7 Bc5 36.Rxc7+ Rxc7 37.Nxc7 Kc6 38.Nb5 Bxb5 39.axb5+ Kxb5 40.e6 b3 41.Kd3 Be7 42.h4 a4 43.g5 hxg5 44.hxg5 a3 45.Kc3 1-0'
     },
     'morphy-anderssen-58': {
         name: 'Morphy vs Anderssen, París 1858 G9',
-        pgn: '[Event "Paris"]\n[Site "Paris"]\n[Date "1858.12.27"]\n[White "Paul Morphy"]\n[Black "Adolf Anderssen"]\n[Result "1-0"]\n\n1.e4 e5 2.Nf3 d6 3.d4 exd4 4.Nxd4 Nf6 5.Nc3 Be7 6.Be2 O-O 7.O-O c5 8.Nf3 Nc6 9.Bg5 Be6 10.Re1 Nd7 11.Bf1 Bf6 12.Bxf6 Qxf6 13.Nd5 Qd8 14.c3 Rc8 15.Qd3 Re8 16.Rad1 f5 17.exf5 Bxd5 18.Qxd5+ Kh8 19.Qf7 Nde5 20.Nxe5 Nxe5 21.Rxe5 dxe5 22.Rd7 Qf8 23.Bc4 b5 24.Bb3 c4 25.Bc2 Rc5 26.Qg6 Qf6 27.Qxf6 gxf6 28.Rxh7+ Kg8 29.Rd7 1-0'
+        pgn: '[Event "Paris Match"]\n[Site "Paris"]\n[Date "1858.12.25"]\n[White "Paul Morphy"]\n[Black "Adolf Anderssen"]\n[Result "1-0"]\n\n1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 e6 5.Nb5 d6 6.Bf4 e5 7.Be3 f5 8.N1c3 f4 9.Nd5 fxe3 10.Nbc7+ Kf7 11.Qf3+ Nf6 12.Bc4 Nd4 13.Nxf6+ d5 14.Bxd5+ Kg6 15.Qh5+ Kxf6 16.fxe3 Nxc2+ 17.Ke2 1-0'
     },
     'nakamura-carlsen-16': {
         name: 'Nakamura vs Carlsen, Zúrich 2014 — Defensa tenaz',
-        pgn: '[Event "Zurich Chess Challenge"]\n[Site "Zurich"]\n[Date "2014.02.04"]\n[White "Hikaru Nakamura"]\n[Black "Magnus Carlsen"]\n[Result "0-1"]\n\n1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 e6 5.Bg5 h6 6.Bh4 dxc4 7.e4 g5 8.Bg3 b5 9.Be2 Bb7 10.O-O Nbd7 11.Ne5 h5 12.Nxd7 Qxd7 13.Be5 Rh6 14.f4 g4 15.e5 Nd5 16.Nxd5 cxd5 17.b3 Rg6 18.bxc4 bxc4 19.Rc1 Bb4 20.Kh1 O-O-O 21.Bf3 Rdg8 22.a3 Ba5 23.Qe2 Bc3 24.Bxc3 Qb5 25.Rb1 Qc6 26.Rb2 h4 27.Rfb1 Ba6 28.Qe1 h3 29.g3 Qc7 30.Rb6 a5 31.R1b5 Qd7 32.Rxa6 Qxa4 33.Rxa4 g3 34.R6a2 gxh2 35.Bg2 h2 0-1'
+        pgn: '[Event "Zurich Chess Challenge"]\n[Site "Zurich"]\n[Date "2014.02.01"]\n[White "Hikaru Nakamura"]\n[Black "Magnus Carlsen"]\n[Result "0-1"]\n\n1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.f3 d5 5.a3 Be7 6.e4 dxe4 7.fxe4 e5 8.d5 Bc5 9.Bg5 O-O 10.Nf3 Bg4 11.h3 Bxf3 12.Qxf3 Nbd7 13.O-O-O Bd4 14.Ne2 c5 15.g4 a5 16.Kb1 Ra6 17.Ng3 g6 18.h4 a4 19.Rh2 Qa5 20.Bd2 Qc7 21.g5 Ne8 22.h5 Rb6 23.Bc1 Rb3 24.Qg4 Nb6 25.Be2 Nd6 26.Rdh1 Bxb2 27.Bxb2 Nbxc4 28.Bxc4 Nxc4 29.hxg6 Qb6 30.g7 Rd8 31.Qh4 Rxb2+ 32.Ka1 Rxh2 33.Rxh2 Qg6 34.Nf5 Re8 35.Qg4 Qb6 36.Qh3 Qg6 37.d6 Nxd6 38.Nxd6 Rd8 39.Nc4 Qxe4 40.Qh5 Rd3 41.Rh4 Qf5 42.Qe2 b5 43.Nd2 Qxg5 44.Qxd3 Qxh4 45.Ne4 Kxg7 46.Qf3 Qf4 47.Qg2+ Kf8 48.Kb2 h5 49.Nd2 h4 50.Kc2 b4 51.axb4 cxb4 52.Qa8+ Kg7 53.Qxa4 h3 54.Qb3 h2 55.Qd5 e4 56.Qh5 e3 57.Nf3 e2 58.Kb3 f6 59.Ne1 Qg3+ 60.Ka4 Qg1 61.Qxe2 Qa7+ 0-1'
     }
 };
 
@@ -3010,7 +3019,7 @@ function updateAnalysisNavLabel(item) {
     const errorSan = item.san || uciToSan(item.playerMove, item.moveIndex);
     const bestSan = uciToSan(item.bestMove, item.moveIndex);
     const lossLabel = item.type === 'blunder' ? 'Error' : 'Imprecisión';
-    navLabel.textContent = `${lossLabel}  ${item.moveNum}${item.moveSuffix || ''} ${errorSan} → ${bestSan}`;
+    navLabel.innerHTML = `${lossLabel}<br><span class="analysis-nav-move">${item.moveNum}${item.moveSuffix || ''} ${errorSan} → ${bestSan}</span>`;
     navLabel.classList.remove('blunder', 'imprecision');
     navLabel.classList.add(item.type === 'blunder' ? 'blunder' : 'imprecision');
 }
@@ -4180,6 +4189,12 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '2.5.3': [
+        'Partidas maestras: corregidos PGN con movimientos ilegales; 76 partidas verificadas, 9 desactivadas',
+        'Menú de partidas: eliminadas las 9 partidas con PGN incorregible',
+        'Responsive: botones de acción (Abandonar, Tablas, etc.) en una sola fila en smartphones',
+        'Barra de análisis: Imprecisión/Error y movimiento en dos líneas, más compacto en móvil',
+    ],
     '2.5.2': [
         'Barra de problemas oculta al iniciar: solo aparece al abrir el panel de Problemas',
         'Menús táctiles en móvil: bottom sheet con opciones grandes en lugar del picker nativo',

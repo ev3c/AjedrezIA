@@ -708,6 +708,23 @@ header h1 {
     gap: 4px;
 }
 
+.captured-label {
+    padding: 3px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.captured-label-white {
+    background: #fff;
+    color: #1f2937;
+    border: 1px solid #d1d5db;
+}
+
+.captured-label-black {
+    background: #1f2937;
+    color: #f3f4f6;
+}
+
 #captured-white, #captured-black {
     font-weight: 500;
 }
@@ -927,10 +944,17 @@ header h1 {
 }
 
 #analysis-nav-label {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 0.95rem;
     min-width: 180px;
     text-align: center;
+    line-height: 1.2;
+}
+
+.analysis-nav-move {
+    font-weight: 500;
+    font-size: 0.85rem;
+    opacity: 0.9;
 }
 
 #analysis-nav-label.blunder {
@@ -2877,14 +2901,26 @@ header h1 {
         max-width: calc(8 * var(--square-size) + 28px);
         width: 100%;
         margin-top: 2px;
-        gap: 6px;
+        gap: 4px;
+        flex-wrap: nowrap;
     }
 
     .btn-icon {
-        width: 44px;
-        height: 44px;
-        font-size: 1.35rem;
-        border-radius: 10px;
+        width: 0;
+        min-width: 34px;
+        height: 40px;
+        flex: 1 1 0;
+        font-size: 1.2rem;
+        border-radius: 8px;
+    }
+
+    #analysis-nav-label {
+        font-size: 0.78rem;
+        min-width: 120px;
+    }
+
+    .analysis-nav-move {
+        font-size: 0.72rem;
     }
 
     .move-navigator {
