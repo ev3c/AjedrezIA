@@ -17,6 +17,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Trash
+_trash/
+
 # API Keys (por seguridad)
 api-key.txt
 config.json
