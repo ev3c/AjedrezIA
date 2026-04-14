@@ -1,4 +1,4 @@
-const APP_VERSION = '2.5.3';
+const APP_VERSION = '2.5.4';
 
 let game = null;
 let playerColor = 'white';
@@ -4189,6 +4189,9 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '2.5.4': [
+        'PWA: actualización fiable con updateViaCache:none, detección de SW waiting y chequeo al volver al tab',
+    ],
     '2.5.3': [
         'Partidas maestras: corregidos PGN con movimientos ilegales; 76 partidas verificadas, 9 desactivadas',
         'Menú de partidas: eliminadas las 9 partidas con PGN incorregible',
