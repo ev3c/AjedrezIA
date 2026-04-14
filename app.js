@@ -4790,9 +4790,40 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('./sw.js').then(function(reg) {
-            setInterval(function() { reg.update(); }, 60 * 60 * 1000);
-        }).catch(function() {});
+        function promptSwUpdate(worker) {
+            worker.postMessage({ type: 'SKIP_WAITING' });
+        }
+
+        function trackInstalling(reg) {
+            var sw = reg.installing;
+            if (!sw) return;
+            sw.addEventListener('statechange', function() {
+                if (sw.state === 'installed' && navigator.serviceWorker.controller) {
+                    promptSwUpdate(sw);
+                }
+            });
+        }
+
+        navigator.serviceWorker.register('./sw.js', { updateViaCache: 'none' })
+            .then(function(reg) {
+                if (reg.waiting) {
+                    promptSwUpdate(reg.waiting);
+                }
+
+                reg.addEventListener('updatefound', function() {
+                    trackInstalling(reg);
+                });
+
+                setInterval(function() { reg.update(); }, 15 * 60 * 1000);
+
+                reg.update();
+            }).catch(function() {});
+
+        document.addEventListener('visibilitychange', function() {
+            if (document.visibilityState === 'visible' && navigator.serviceWorker.controller) {
+                navigator.serviceWorker.ready.then(function(reg) { reg.update(); });
+            }
+        });
 
         var swRefreshing = false;
         navigator.serviceWorker.addEventListener('controllerchange', function() {
