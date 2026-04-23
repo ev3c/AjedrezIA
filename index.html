@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 
-    <!-- Google tag (gtag.js) -->
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-X1BTCRLXEY"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -19,6 +19,7 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-WT2PFFVK');</script>
 !-- End Google Tag Manager -->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <meta name="theme-color" content="#e5e7eb">
@@ -81,6 +82,11 @@
                                         <span id="player-color-pawn-black-txt" class="player-color-pawn-txt" aria-hidden="true"></span>
                                     </span>
                                 </button>
+                                <button type="button" class="player-color-option" data-color="both" id="player-color-btn-both" title="Persona vs persona" aria-label="Jugar ambos colores" aria-pressed="false">
+                                    <span class="player-color-pawn-wrap">
+                                        <span class="player-color-pawn-txt is-visible" aria-hidden="true">🧑</span>
+                                    </span>
+                                </button>
                             </div>
                         </div>
                         <input type="hidden" id="player-color" value="white">
@@ -125,6 +131,10 @@
 
                     <div class="config-section config-checkbox">
                         <label><input type="checkbox" id="show-move-insights"> Mensajes de Ayuda</label>
+                    </div>
+
+                    <div class="config-section config-checkbox">
+                        <label><input type="checkbox" id="sound-enabled" checked> Sonidos</label>
                     </div>
 
                     </div>
@@ -209,13 +219,15 @@
                 <div class="panel panel-collapsible collapsed" id="puzzles-panel">
                     <h2 class="panel-toggle">🧩 Problemas de Ajedrez <span class="panel-arrow">▲</span></h2>
                     <div class="panel-body">
-                    <p class="puzzles-construction-hint" role="status">En construcción</p>
                     <div class="config-section">
                         <label>Categoría:</label>
                         <select id="puzzle-theme-select" class="select">
                             <option value="all">— Todas —</option>
                             <option value="mate1">♔ Mate en 1</option>
                             <option value="mate2">♔ Mate en 2</option>
+                            <option value="mate3">♔ Mate en 3</option>
+                            <option value="mate4">♔ Mate en 4</option>
+                            <option value="mate5">♔ Mate en 5</option>
                             <option value="fork">⚔️ Horquilla / Doble ataque</option>
                             <option value="pin">📌 Clavada</option>
                             <option value="sacrifice">💎 Sacrificio</option>
@@ -226,6 +238,7 @@
                             <option value="capture">🔄 Captura táctica</option>
                             <option value="development">📐 Desarrollo</option>
                             <option value="tactic">🧠 Táctica general</option>
+                            <option value="other">🎲 Otros</option>
                         </select>
                     </div>
                     <div id="puzzle-info" style="display:none;margin-top:8px;">
@@ -410,6 +423,7 @@
                         <div class="board-and-files">
                             <div id="chess-board" class="chess-board"></div>
                             <div id="board-banner" class="board-banner"></div>
+                            <div id="puzzle-loading-msg" class="puzzle-loading-msg" style="display:none;" role="status" aria-live="polite"></div>
                             <div id="move-insight" class="move-insight"></div>
                             <div class="file-labels" id="file-labels-bottom"></div>
                         </div>
@@ -548,6 +562,10 @@
                        <div class="panel panel-collapsible collapsed" id="stats-panel">
                            <h2 class="panel-toggle">📊 Estadísticas <span class="panel-arrow">▲</span></h2>
                            <div class="panel-body">
+                           <div class="stat-item stat-elo">
+                               <div class="stat-label">ELO</div>
+                               <div class="stat-value" id="stat-elo">XXXX</div>
+                           </div>
                            <div class="stats-container">
                                <div class="stat-item stat-wins">
                                    <div class="stat-label">Ganadas</div>

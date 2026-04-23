@@ -1,4 +1,131 @@
-const APP_VERSION = '2.5.4';
+const APP_VERSION = '2.5.5';
+
+// ─────────────────────────────────────────────────────────
+// SISTEMA DE SONIDO — Web Audio API (sin archivos externos)
+// ─────────────────────────────────────────────────────────
+const SoundFX = (() => {
+    let ctx = null;
+    let enabled = true;
+
+    function getCtx() {
+        if (!ctx) ctx = new (window.AudioContext || window.webkitAudioContext)();
+        if (ctx.state === 'suspended') ctx.resume();
+        return ctx;
+    }
+
+    function tone(freq, type, t, dur, vol, endFreq) {
+        const c = getCtx();
+        const osc = c.createOscillator();
+        const g   = c.createGain();
+        osc.connect(g); g.connect(c.destination);
+        osc.type = type || 'sine';
+        osc.frequency.setValueAtTime(freq, t);
+        if (endFreq) osc.frequency.linearRampToValueAtTime(endFreq, t + dur);
+        g.gain.setValueAtTime(vol || 0.25, t);
+        g.gain.exponentialRampToValueAtTime(0.001, t + dur);
+        osc.start(t); osc.stop(t + dur);
+    }
+
+    function noise(t, dur, vol, lp) {
+        const c  = getCtx();
+        const n  = Math.ceil(c.sampleRate * dur);
+        const buf = c.createBuffer(1, n, c.sampleRate);
+        const d  = buf.getChannelData(0);
+        for (let i = 0; i < n; i++) d[i] = Math.random() * 2 - 1;
+        const src = c.createBufferSource();
+        src.buffer = buf;
+        const flt = c.createBiquadFilter();
+        flt.type = 'lowpass';
+        flt.frequency.value = lp || 800;
+        const g = c.createGain();
+        src.connect(flt); flt.connect(g); g.connect(c.destination);
+        g.gain.setValueAtTime(vol || 0.35, t);
+        g.gain.exponentialRampToValueAtTime(0.001, t + dur);
+        src.start(t); src.stop(t + dur);
+    }
+
+    return {
+        setEnabled(v) { enabled = v; },
+        isEnabled()   { return enabled; },
+
+        // Movimiento normal — golpe suave de madera
+        move() {
+            if (!enabled) return;
+            const t = getCtx().currentTime;
+            noise(t,        0.055, 0.40, 700);
+            tone(200, 'sine', t, 0.07, 0.10);
+        },
+
+        // Captura — golpe más fuerte y grave
+        capture() {
+            if (!enabled) return;
+            const t = getCtx().currentTime;
+            noise(t,        0.08,  0.60, 450);
+            tone(130, 'sine', t, 0.10, 0.18);
+        },
+
+        // Enroque — doble golpe rápido
+        castle() {
+            if (!enabled) return;
+            const t = getCtx().currentTime;
+            noise(t,        0.05,  0.32, 700);
+            noise(t + 0.09, 0.05,  0.28, 700);
+        },
+
+        // Promoción — fanfare ascendente
+        promotion() {
+            if (!enabled) return;
+            const t = getCtx().currentTime;
+            [523, 659, 784, 1047].forEach((f, i) => tone(f, 'sine', t + i * 0.09, 0.14, 0.20));
+        },
+
+        // Jaque — campana de alerta doble
+        check() {
+            if (!enabled) return;
+            const t = getCtx().currentTime;
+            tone(880,  'sine', t,        0.14, 0.28);
+            tone(1100, 'sine', t + 0.11, 0.12, 0.22);
+        },
+
+        // Inicio de partida
+        start() {
+            if (!enabled) return;
+            const t = getCtx().currentTime;
+            tone(523, 'sine', t,        0.17, 0.18);
+            tone(659, 'sine', t + 0.14, 0.17, 0.16);
+        },
+
+        // Victoria
+        win() {
+            if (!enabled) return;
+            const t = getCtx().currentTime;
+            [523, 659, 784, 1047].forEach((f, i) => tone(f, 'sine', t + i * 0.12, 0.18, 0.22));
+        },
+
+        // Derrota
+        lose() {
+            if (!enabled) return;
+            const t = getCtx().currentTime;
+            [440, 370, 330, 260].forEach((f, i) => tone(f, 'sine', t + i * 0.12, 0.20, 0.22));
+        },
+
+        // Tablas
+        draw() {
+            if (!enabled) return;
+            const t = getCtx().currentTime;
+            tone(440, 'sine', t,        0.18, 0.18);
+            tone(440, 'sine', t + 0.20, 0.18, 0.12);
+        },
+
+        // Movimiento ilegal
+        illegal() {
+            if (!enabled) return;
+            const t = getCtx().currentTime;
+            tone(220, 'sawtooth', t, 0.08, 0.15, 180);
+        }
+    };
+})();
+// ─────────────────────────────────────────────────────────
 
 let game = null;
 let playerColor = 'white';
@@ -31,7 +158,7 @@ const ANALYSIS_DISABLED_IDS = ['start-opening-training', 'start-opening-quiz', '
     'nav-first', 'nav-prev', 'nav-next', 'nav-last',
     'puzzle-hint', 'puzzle-solution', 'puzzle-prev-board', 'puzzle-next-board',
     'show-known-variants',
-    'player-color-btn-white', 'player-color-btn-black',
+    'player-color-btn-white', 'player-color-btn-black', 'player-color-btn-both',
     'ai-difficulty', 'opening-select', 'famous-game-select', 'time-control',
     'piece-style', 'puzzle-theme-select'];
 
@@ -39,8 +166,48 @@ const ANALYSIS_DISABLED_IDS = ['start-opening-training', 'start-opening-quiz', '
 let stats = {
     wins: 0,
     draws: 0,
-    losses: 0
+    losses: 0,
+    elo: 1200,
+    gamesPlayed: 0
 };
+
+// ELO aproximado de la IA por nivel de dificultad
+const AI_ELO_MAP = { 1: 400, 2: 700, 3: 1000, 4: 1200, 5: 1500, 6: 1800, 7: 2200, 8: 2500 };
+
+// Factor K según estándar FIDE:
+//   K=40 → jugador nuevo (< 30 partidas) o ELO < 1000
+//   K=32 → ELO 1000–1599
+//   K=24 → ELO 1600–1999
+//   K=16 → ELO 2000–2399
+//   K=10 → ELO ≥ 2400
+function getKFactor(playerElo, gamesPlayed) {
+    if (gamesPlayed < 30 || playerElo < 1000) return 40;
+    if (playerElo < 1600) return 32;
+    if (playerElo < 2000) return 24;
+    if (playerElo < 2400) return 16;
+    return 10;
+}
+
+// Calcula el cambio de ELO usando la fórmula estándar FIDE
+function calcEloChange(playerElo, opponentElo, result, gamesPlayed) {
+    const K = getKFactor(playerElo, gamesPlayed);
+    const expected = 1 / (1 + Math.pow(10, (opponentElo - playerElo) / 400));
+    return Math.round(K * (result - expected));
+}
+
+// Aplica un cambio de ELO y anima el delta en pantalla
+function applyEloChange(delta) {
+    stats.elo = Math.max(100, stats.elo + delta);
+    saveStats();
+    const el = document.getElementById('stat-elo');
+    if (!el) return;
+    el.textContent = stats.elo;
+    const deltaEl = document.createElement('span');
+    deltaEl.className = 'elo-delta ' + (delta >= 0 ? 'elo-delta-up' : 'elo-delta-down');
+    deltaEl.textContent = (delta >= 0 ? '+' : '') + delta;
+    el.parentElement.appendChild(deltaEl);
+    setTimeout(() => deltaEl.remove(), 2200);
+}
 
 // Motor Stockfish
 let stockfish = null;
@@ -1847,112 +2014,195 @@ const OPENING_TRAINING = {
 // ===== PROBLEMAS DE AJEDREZ =====
 var CHESS_PUZZLES = [
     // --- MATE EN 1 ---
-    { fen: '6k1/5ppp/8/8/8/8/8/R5K1 w - - 0 1', solution: ['a1a8'], theme: 'mate1', difficulty: 1, title: 'Mate de pasillo' },
-    { fen: '6k1/5ppp/8/8/8/8/1Q6/K7 w - - 0 1', solution: ['b2b8'], theme: 'mate1', difficulty: 1, title: 'Mate con dama' },
-    { fen: 'r1bqkb1r/pppp1ppp/2n2n2/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - 0 4', solution: ['h5f7'], theme: 'mate1', difficulty: 1, title: 'Mate del Pastor' },
-    { fen: '6k1/pppp1ppp/8/8/8/8/PPPPQPPP/R3K2R w KQ - 0 1', solution: ['e2e8'], theme: 'mate1', difficulty: 1, title: 'Mate con dama en e8' },
-    { fen: 'rnbqkbnr/pppp1ppp/8/4p3/6P1/5P2/PPPPP2P/RNBQKBNR b KQkq - 0 2', solution: ['d8h4'], theme: 'mate1', difficulty: 1, title: 'Mate del Loco' },
-    { fen: '7k/R7/5N2/8/8/8/8/K7 w - - 0 1', solution: ['a7h7'], theme: 'mate1', difficulty: 1, title: 'Mate Árabe' },
-    { fen: '6rk/6pp/8/4N3/8/8/8/K7 w - - 0 1', solution: ['e5f7'], theme: 'mate1', difficulty: 1, title: 'Mate ahogado del caballo' },
-    { fen: '6k1/5ppp/8/8/8/8/8/R3R1K1 w - - 0 1', solution: ['e1e8'], theme: 'mate1', difficulty: 1, title: 'Mate con dos torres' },
-    { fen: '6k1/5ppp/8/8/3Q4/8/5PPP/6K1 w - - 0 1', solution: ['d4d8'], theme: 'mate1', difficulty: 1, title: 'Mate con dama en d8' },
-    { fen: '3r2k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - 0 1', solution: ['d1d8'], theme: 'mate1', difficulty: 1, title: 'Mate capturando en 8ª fila' },
-    { fen: '6k1/3p1ppp/4Q3/8/8/8/8/6K1 w - - 0 1', solution: ['e6e8'], theme: 'mate1', difficulty: 1, title: 'Mate con dama en e8' },
-    { fen: '6k1/5p1p/8/4B3/8/8/8/6QK w - - 0 1', solution: ['g1g7'], theme: 'mate1', difficulty: 1, title: 'Mate de dama y alfil' },
-    { fen: '6k1/1p3ppp/4N3/8/8/8/6Q1/6K1 w - - 0 1', solution: ['g2g7'], theme: 'mate1', difficulty: 1, title: 'Mate de dama y caballo' },
-    { fen: '4r1k1/ppp2ppp/8/8/8/8/PPP2PPP/4R1K1 w - - 0 1', solution: ['e1e8'], theme: 'mate1', difficulty: 1, title: 'Mate con torre capturando' },
-    { fen: '6k1/5ppp/8/8/8/8/5PPP/4Q1K1 w - - 0 1', solution: ['e1e8'], theme: 'mate1', difficulty: 1, title: 'Mate con dama lejana' },
-    { fen: 'r3k3/8/3K4/8/7Q/8/8/8 w - - 0 1', solution: ['h4e7'], theme: 'mate1', difficulty: 2, title: 'Mate de dama y rey' },
-    { fen: '6k1/4Rppp/8/8/8/8/8/6K1 w - - 0 1', solution: ['e7e8'], theme: 'mate1', difficulty: 1, title: 'Mate de torre deslizante' },
-    { fen: '6k1/5p1p/4Q1pB/8/8/8/5PPP/6K1 w - - 0 1', solution: ['e6e8'], theme: 'mate1', difficulty: 1, title: 'Mate de dama y alfil en diagonal' },
-    { fen: '4n1k1/3Q1ppp/8/8/8/8/5PPP/6K1 w - - 0 1', solution: ['d7e8'], theme: 'mate1', difficulty: 1, title: 'Mate capturando el caballo' },
-    { fen: '6k1/5ppp/7Q/8/8/8/6R1/6K1 w - - 0 1', solution: ['h6g7'], theme: 'mate1', difficulty: 1, title: 'Mate con captura en g7' },
-    { fen: '7k/4N1pp/8/8/8/8/8/R5K1 w - - 0 1', solution: ['a1a8'], theme: 'mate1', difficulty: 1, title: 'Mate Árabe con caballo e7' },
-    { fen: '6k1/5ppp/8N/8/8/1Q6/5PPP/6K1 w - - 0 1', solution: ['b3b8'], theme: 'mate1', difficulty: 1, title: 'Mate de dama y caballo coordinados' },
+    { fen: '8/3B2pp/p5k1/2p3P1/1p1p1K2/8/1P6/8 b - - 0 38', preMoves: ['c5c4'], solution: ['d7e8'], theme: 'mate1', difficulty: 1, title: 'Mate en 1' },
+    { fen: '8/3pk3/R7/1R2Pp1p/2PPnKr1/8/8/8 w - - 4 43', preMoves: ['f4f5'], solution: ['e4g3'], theme: 'mate1', difficulty: 1, title: 'Mate en 1' },
+    { fen: 'r2r2k1/2q1bpp1/3p1n1p/1ppN4/1P1BP3/P5Q1/4RPPP/R5K1 b - - 1 20', preMoves: ['f6d5'], solution: ['g3g7'], theme: 'mate1', difficulty: 1, title: 'Mate en 1' },
+    { fen: '3r4/R7/2p5/p1P2p2/1p4k1/nP6/P2KNP2/8 w - - 3 41', preMoves: ['d2e3'], solution: ['a3c2'], theme: 'mate1', difficulty: 1, title: 'Mate en 1' },
+    { fen: 'r3kb1r/ppqn1ppp/4pn2/1Q2Nb2/3P4/8/PP2PPPP/RNB1KB1R w KQkq - 4 9', preMoves: ['e5d7'], solution: ['c7c1'], theme: 'mate1', difficulty: 1, title: 'Queens Pawn Game' },
+    { fen: '6k1/2p2ppp/pnp5/B7/2P3PP/1P1bPPR1/r6r/3R2K1 b - - 1 29', preMoves: ['d3e2'], solution: ['d1d8'], theme: 'mate1', difficulty: 1, title: 'Mate en 1' },
+    { fen: '7k/1p2R3/p3N3/3p4/2n5/2P5/PPK4r/8 w - - 3 36', preMoves: ['c2d3'], solution: ['h2d2'], theme: 'mate1', difficulty: 1, title: 'Mate en 1' },
+    { fen: '3r4/1p4p1/2pBkbBp/p1P5/3rp3/P7/1PK2P2/4R3 b - - 1 31', preMoves: ['e6d5'], solution: ['g6f7'], theme: 'mate1', difficulty: 1, title: 'Mate en 1' },
+    { fen: '2r1r1k1/1bpn1ppp/p4n2/1p6/1P4q1/P3PN2/1BB1QPPP/3R1RK1 w - - 6 18', preMoves: ['f3d4'], solution: ['g4g2'], theme: 'mate1', difficulty: 1, title: 'Horwitz Defense' },
+    { fen: 'r1b1k1nr/pppp1ppp/5q2/2b1n3/4P3/2N2N2/PPPP2PP/R1BQKB1R w KQkq - 0 6', preMoves: ['f3e5'], solution: ['f6f2'], theme: 'mate1', difficulty: 1, title: 'Vienna Gambit With Max Lange Defense' },
+    { fen: '2r3k1/5p1p/4pP2/3p3P/8/5P2/p1b3P1/2R3K1 b - - 0 30', preMoves: ['c2b1'], solution: ['c1c8'], theme: 'mate1', difficulty: 1, title: 'Mate en 1' },
+    { fen: '8/Q5b1/p2kp3/1p2qpN1/1P6/P7/4nPP1/5K2 b - - 5 46', preMoves: ['d6d5'], solution: ['a7c5'], theme: 'mate1', difficulty: 1, title: 'Mate en 1' },
+    { fen: '5rk1/1q3r1p/3p2RQ/3p4/3B4/2P2P2/P5PP/6K1 b - - 0 30', preMoves: ['h7g6'], solution: ['h6h8'], theme: 'mate1', difficulty: 1, title: 'Mate en 1' },
+    { fen: '1r3rk1/2p1Nppb/p2nq3/1p2p1Pp/4Qn1P/2P1N3/PPB2P1K/3R2R1 b - - 5 28', preMoves: ['e6e7'], solution: ['e4h7'], theme: 'mate1', difficulty: 1, title: 'Mate en 1' },
 
     // --- MATE EN 2 ---
-    { fen: '5r1k/6pp/4Q2N/8/8/8/8/6K1 w - - 0 1', solution: ['e6g8', 'f8g8', 'h6f7'], theme: 'mate2', difficulty: 2, title: 'Mate ahogado clásico' },
-    { fen: '1r4k1/5ppp/8/8/4Q3/8/5PPP/4R1K1 w - - 0 1', solution: ['e4e8', 'b8e8', 'e1e8'], theme: 'mate2', difficulty: 2, title: 'Sacrificio de dama y pasillo' },
-    { fen: 'r5k1/pp3ppp/8/3Q4/8/8/PPP2PPP/3R2K1 w - - 0 1', solution: ['d5d8', 'a8d8', 'd1d8'], theme: 'mate2', difficulty: 2, title: 'Sacrificio de dama en la octava' },
-    { fen: 'r5k1/5ppp/8/8/2Q5/8/5PPP/2R3K1 w - - 0 1', solution: ['c4c8', 'a8c8', 'c1c8'], theme: 'mate2', difficulty: 2, title: 'Sacrificio de dama en columna c' },
-    { fen: 'r5k1/5ppp/8/8/1Q6/8/5PPP/1R4K1 w - - 0 1', solution: ['b4b8', 'a8b8', 'b1b8'], theme: 'mate2', difficulty: 2, title: 'Sacrificio de dama en columna b' },
-    { fen: 'k7/8/1K6/8/8/8/8/1R6 w - - 0 1', solution: ['b6c7', 'a8a7', 'b1a1'], theme: 'mate2', difficulty: 2, title: 'Mate de rey y torre en esquina' },
-    { fen: '5r1k/6pp/8/6N1/8/8/Q7/6K1 w - - 0 1', solution: ['a2g8', 'f8g8', 'e7g6'], theme: 'mate2', difficulty: 2, title: 'Mate ahogado con caballo' },
+    { fen: '3r2k1/4nppp/pq1p1b2/1p2P3/2r2P2/2P1NR2/PP1Q2BP/3R2K1 b - - 0 24', preMoves: ['d6e5'], solution: ['d2d8', 'b6d8', 'd1d8'], theme: 'mate2', difficulty: 2, title: 'Mate en 2' },
+    { fen: '4rk2/p1q5/1p3Q1b/8/1p5N/2P1p3/P3P3/2K5 b - - 0 43', preMoves: ['c7f7'], solution: ['h4g6', 'f8g8', 'f6h8'], theme: 'mate2', difficulty: 2, title: 'Mate en 2' },
+    { fen: 'r6k/2q3pp/8/2p1n3/R1Qp4/7P/2PB1PP1/6K1 b - - 0 32', preMoves: ['e5c4'], solution: ['a4a8', 'c7b8', 'a8b8'], theme: 'mate2', difficulty: 2, title: 'Mate en 2' },
+    { fen: '3rk2r/2qn1pp1/p1Q1R3/3n3p/8/8/PP4PP/5R1K b k - 0 23', preMoves: ['f7e6'], solution: ['c6e6', 'd5e7', 'e6f7'], theme: 'mate2', difficulty: 2, title: 'Mate en 2' },
+    { fen: '1r6/5k2/2p1pNp1/p5Pp/1pQ1P2P/2P4R/KP3P2/3q4 w - - 4 31', preMoves: ['c4c6'], solution: ['b4b3', 'a2a3', 'd1a1'], theme: 'mate2', difficulty: 2, title: 'Mate en 2' },
+    { fen: 'r4r2/2q1NN2/4bQpk/2n4p/pp5P/8/1PP2PP1/2KR3R b - - 0 28', preMoves: ['e6f7'], solution: ['e7f5', 'h6h7', 'f6g7'], theme: 'mate2', difficulty: 2, title: 'Mate en 2' },
+    { fen: 'r1bq3Q/1np2kp1/p5B1/1p1Pp3/1Pn2BP1/2b2P2/P3K3/R4N2 b - - 5 35', preMoves: ['f7g6'], solution: ['h8h5', 'g6f6', 'f4g5'], theme: 'mate2', difficulty: 2, title: 'Mate en 2' },
+    { fen: '1k1r4/ppp3p1/8/1P5p/8/P3n2P/2P1r1P1/B3NRK1 b - - 4 31', preMoves: ['d8d1'], solution: ['f1f8', 'd1d8', 'f8d8'], theme: 'mate2', difficulty: 2, title: 'Mate en 2' },
+    { fen: '3r2k1/6p1/4Q3/4B3/1p3P2/4PKP1/3q4/8 b - - 17 51', preMoves: ['g8h8'], solution: ['e6h6', 'h8g8', 'h6g7'], theme: 'mate2', difficulty: 2, title: 'Mate en 2' },
+    { fen: '1R6/6pk/2p4p/3bP2r/5B1P/2P2qP1/P4P1Q/4R1K1 w - - 2 40', preMoves: ['e1e3'], solution: ['f3d1', 'e3e1', 'd1e1'], theme: 'mate2', difficulty: 2, title: 'Mate en 2' },
 
-    // --- HORQUILLA / DOBLE ATAQUE ---
-    { fen: 'r3kbnr/pppp1ppp/4p3/1N6/4P3/8/PPPP1PPP/RNBQKB1R w KQkq - 0 1', solution: ['b5c7'], theme: 'fork', difficulty: 2, title: 'Horquilla de caballo clásica' },
-    { fen: '5rk1/ppp2ppp/3p4/8/4n3/8/PPP2PPP/R1BK3R b KQ - 0 1', solution: ['e4f2'], theme: 'fork', difficulty: 2, title: 'Horquilla de caballo' },
-    { fen: 'r1bqk2r/ppppbppp/2n5/4N3/4P3/8/PPPP1PPP/RNBQKB1R w KQkq - 0 1', solution: ['e5c6'], theme: 'fork', difficulty: 2, title: 'Captura con doble ataque' },
-    { fen: 'r2qkbnr/ppp2ppp/2np4/4p1B1/4P1b1/5N2/PPPP1PPP/RN1QKB1R w KQkq - 0 1', solution: ['f3e5'], theme: 'fork', difficulty: 2, title: 'Ataque doble al centro' },
-    { fen: 'rn1qkbnr/ppp1pppp/8/3p4/4P1b1/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 1', solution: ['f3e5'], theme: 'fork', difficulty: 2, title: 'Ataque al alfil clavado' },
-    { fen: 'r2q1rk1/ppp2ppp/2n2n2/3Np1b1/2B1P3/8/PPPP1PPP/R1BQR1K1 w - - 0 1', solution: ['d5f6'], theme: 'fork', difficulty: 3, title: 'Eliminación y ataque' },
-    { fen: '1r3rk1/5ppp/p1p5/3pN3/1P6/P3PP2/5KPP/1R1R4 w - - 0 1', solution: ['e5d7'], theme: 'fork', difficulty: 2, title: 'Horquilla doble de torres' },
+    // --- MATE EN 3 ---
+    { fen: '6nr/pp3p1p/k1p5/8/1QN5/2P1P3/4KPqP/8 b - - 5 26', preMoves: ['b7b5'], solution: ['b4a5', 'a6b7', 'c4d6', 'b7b8', 'a5d8'], theme: 'mate3', difficulty: 3, title: 'Mate en 3' },
+    { fen: '1r6/pp2kpp1/2n1p1n1/3p2PQ/5P2/2PqP3/PP1N4/2KR3R w - - 3 27', preMoves: ['h5h7'], solution: ['c6b4', 'c3b4', 'b8c8', 'd2c4', 'c8c4'], theme: 'mate3', difficulty: 3, title: 'Mate en 3' },
+    { fen: 'rn3rk1/4pp1p/3p2pB/2q4P/3bP1b1/Pp2Q3/1P2B3/1K1R2NR w - - 0 20', preMoves: ['e3d4'], solution: ['c5c2', 'b1a1', 'a8a3', 'b2a3', 'c2a2'], theme: 'mate3', difficulty: 3, title: 'Mate en 3' },
+    { fen: 'Q7/8/3B4/2p5/Krkn4/8/8/8 w - - 1 54', preMoves: ['a4a3'], solution: ['d4b5', 'a3a2', 'b5c3', 'a2a1', 'b4b1'], theme: 'mate3', difficulty: 3, title: 'Mate en 3' },
+    { fen: '2k3r1/ppp2prp/1q2b3/8/Q7/2P1R1P1/P4P1P/4R1K1 b - - 3 23', preMoves: ['e6d7'], solution: ['e3e8', 'd7e8', 'e1e8', 'g8e8', 'a4e8'], theme: 'mate3', difficulty: 3, title: 'Mate en 3' },
+    { fen: '4r2k/1pQ2p2/p4N1p/5P2/1P6/P1Pn1K2/4r3/6R1 w - - 1 36', preMoves: ['c7f7'], solution: ['e8e3', 'f3g4', 'd3e5', 'g4h5', 'e2h2'], theme: 'mate3', difficulty: 3, title: 'Mate en 3' },
+    { fen: '3r2k1/6pp/8/5Q2/2pP4/2Pq2P1/5RKP/8 b - - 2 35', preMoves: ['d3c3'], solution: ['f5f7', 'g8h8', 'f7f8', 'd8f8', 'f2f8'], theme: 'mate3', difficulty: 3, title: 'Mate en 3' },
+    { fen: '6k1/5R2/pp4p1/2p4p/7P/1P1r4/P3r1PK/5R2 b - - 0 38', preMoves: ['d3d2'], solution: ['f7f8', 'g8h7', 'f1f7', 'h7h6', 'f8h8'], theme: 'mate3', difficulty: 3, title: 'Mate en 3' },
+
+    // --- MATE EN 4 ---
+    { fen: '1k6/1p1q4/P2p3p/1NpPpn1Q/5b2/2P3r1/1P2B1P1/R6K b - - 3 28', preMoves: ['g3g7'], solution: ['a6a7', 'b8a8', 'b5c7', 'd7c7', 'h5e8', 'c7b8', 'a7b8q'], theme: 'mate4', difficulty: 4, title: 'Mate en 4' },
+    { fen: '5QR1/5p1p/1b3qp1/p6k/P2P4/8/1P2rPPP/5RK1 w - - 7 32', preMoves: ['g8h8'], solution: ['f6f2', 'f1f2', 'e2e1', 'f2f1', 'b6d4', 'g1h1', 'e1f1'], theme: 'mate4', difficulty: 4, title: 'Mate en 4' },
+    { fen: '3r2k1/pR3pp1/8/5p1p/3n1q2/5P2/PP4R1/6QK b - - 4 29', preMoves: ['d4f3'], solution: ['g2g7', 'g8h8', 'g7h7', 'h8h7', 'b7f7', 'h7h8', 'g1g7'], theme: 'mate4', difficulty: 4, title: 'Mate en 4' },
+    { fen: '5rk1/p5pp/8/6N1/2Q5/8/Pq3P1P/1b3RK1 b - - 3 30', preMoves: ['g8h8'], solution: ['g5f7', 'h8g8', 'f7h6', 'g8h8', 'c4g8', 'f8g8', 'h6f7'], theme: 'mate4', difficulty: 4, title: 'Mate en 4' },
+    { fen: '1r3r1k/ppp2pp1/8/8/1nP5/1P5R/PbBq1PPP/1Q4K1 b - - 1 20', preMoves: ['h8g8'], solution: ['c2h7', 'g8h8', 'h7g8', 'd2h6', 'h3h6', 'g7h6', 'b1h7'], theme: 'mate4', difficulty: 4, title: 'Mate en 4' },
+    { fen: '2kr2nr/1pp1q2p/p2b2p1/1N1P1b2/2BPp3/Q7/PB3PPP/4R1K1 b - - 1 17', preMoves: ['a6b5'], solution: ['a3a8', 'c8d7', 'c4b5', 'c7c6', 'b5c6', 'b7c6', 'a8c6'], theme: 'mate4', difficulty: 4, title: 'Italian Game' },
+    { fen: '3r1k2/2Q2ppp/2R5/1B2r3/8/4BP2/PPP3qP/2K5 w - - 1 23', preMoves: ['c7e5'], solution: ['g2h1', 'e3g1', 'h1g1', 'b5f1', 'g1f1', 'e5e1', 'f1e1'], theme: 'mate4', difficulty: 4, title: 'Mate en 4' },
+    { fen: 'r1bq1r1k/2p1b2p/p1np2p1/1p2p1P1/n3PN2/P1PP1Q2/BP3P2/RNB1K2R b KQ - 1 15', preMoves: ['e5f4'], solution: ['h1h7', 'h8h7', 'f3h1', 'c8h3', 'h1h3', 'h7g7', 'h3h6'], theme: 'mate4', difficulty: 4, title: 'Bishops Opening' },
+
+    // --- MATE EN 5 ---
+    { fen: '4r1k1/pp3p1p/q1p2Np1/3nP1Q1/8/1P1P3P/P3R1P1/7K b - - 1 28', preMoves: ['d5f6'], solution: ['e5f6', 'e8e2', 'g5h6', 'e2e1', 'h1h2', 'e1h1', 'h2h1', 'c6c5', 'h6g7'], theme: 'mate5', difficulty: 4, title: 'Mate en 5' },
+    { fen: '7k/pp2q1p1/1n2p1Bp/1b3pN1/1n1P3P/8/PP1K1PP1/1Q5R b - - 0 24', preMoves: ['h6g5'], solution: ['h4g5', 'h8g8', 'h1h8', 'g8h8', 'b1h1', 'h8g8', 'h1h7', 'g8f8', 'h7h8'], theme: 'mate5', difficulty: 4, title: 'Mate en 5' },
+    { fen: '3q2k1/1Q2rpb1/3Pn2p/2P3p1/8/P5P1/1P4BP/3R2K1 w - - 1 36', preMoves: ['d6e7'], solution: ['d8d1', 'g2f1', 'g7d4', 'g1g2', 'e6f4', 'g3f4', 'd1g4', 'g2h1', 'g4g1'], theme: 'mate5', difficulty: 4, title: 'Mate en 5' },
+    { fen: 'Qnbq1rk1/p4ppp/8/1B6/4p1n1/2N2N2/PPPP1KPP/R1BQ3R w - - 1 10', preMoves: ['f2g1'], solution: ['d8b6', 'd2d4', 'e4d3', 'f3d4', 'b6d4', 'c1e3', 'd4e3', 'g1f1', 'e3f2'], theme: 'mate5', difficulty: 4, title: 'Elephant Gambit' },
+    { fen: '5rk1/pp4p1/7p/3pp2Q/P2n4/2Pbq2N/1P1N1bPP/R1BK3R w - - 1 21', preMoves: ['c3d4'], solution: ['f8c8', 'd2c4', 'd3c2', 'd1c2', 'c8c4', 'c2b1', 'e3d3', 'b1a2', 'c4a4'], theme: 'mate5', difficulty: 4, title: 'Mate en 5' },
+    { fen: 'r2qkb1r/pp1n1B2/2pQ3p/4P1pn/6b1/2N2NP1/PPP5/R1B2RK1 b - - 4 15', preMoves: ['e8f7'], solution: ['f3g5', 'f7g7', 'f1f7', 'g7g8', 'd6g6', 'h5g7', 'f7g7', 'f8g7', 'g6f7'], theme: 'mate5', difficulty: 4, title: 'Vienna Game' },
+
+    // --- HORQUILLA ---
+    { fen: 'r2qk2r/pp2ppbp/1n1p2p1/3Pn3/2P5/2NBBP1P/PP3P2/R2QK2R b KQkq - 0 12', preMoves: ['e5c4'], solution: ['d3c4', 'b6c4', 'd1a4', 'd8d7', 'a4c4'], theme: 'fork', difficulty: 3, title: 'Alekhine Defense' },
+    { fen: 'r2qr1k1/ppp2ppp/4b3/3P4/1nP2Q2/2N2N1P/PP3KP1/R4R2 w - - 1 15', preMoves: ['d5e6'], solution: ['b4d3', 'f2g1', 'd3f4'], theme: 'fork', difficulty: 2, title: 'Kings Gambit Accepted' },
+    { fen: '5rk1/1p2p1rp/p2p4/2pPb2R/2P1P3/1P1BKP1R/8/8 b - - 4 30', preMoves: ['g7g3'], solution: ['h3g3', 'e5g3', 'h5g5', 'g8f7', 'g5g3'], theme: 'fork', difficulty: 3, title: 'Horquilla' },
+    { fen: '3rk2r/2qn1pp1/p1Q1R3/3n3p/8/8/PP4PP/5R1K b k - 0 23', preMoves: ['f7e6'], solution: ['c6e6', 'd5e7', 'e6f7'], theme: 'fork', difficulty: 2, title: 'Horquilla' },
+    { fen: '1r3k2/5p1p/2p1pp2/P2n4/2r1N3/P4PK1/2R2P1P/2R5 b - - 9 29', preMoves: ['c4a4'], solution: ['e4c5', 'a4a5', 'c5d7', 'f8g7', 'd7b8'], theme: 'fork', difficulty: 3, title: 'Horquilla' },
+    { fen: '3r2k1/1b3pbR/p2P2P1/3p2N1/2p5/2P2N2/PP6/2K5 b - - 0 28', preMoves: ['f7g6'], solution: ['h7g7', 'g8g7', 'g5e6', 'g7g8', 'e6d8'], theme: 'fork', difficulty: 3, title: 'Horquilla' },
+    { fen: 'r1bqk2r/pp3ppp/4p2n/3pP3/1b1P1P2/2N5/PP4PP/R1BQKB1R b KQkq - 2 9', preMoves: ['h6f5'], solution: ['d1a4', 'c8d7', 'a4b4'], theme: 'fork', difficulty: 2, title: 'French Defense' },
+    { fen: '7k/pb1qn2n/1p2R2Q/2p2p2/2Pp4/3B4/PP3PrP/4RK2 b - - 1 27', preMoves: ['g2g7'], solution: ['h6g7', 'h8g7', 'e6e7', 'd7e7', 'e1e7'], theme: 'fork', difficulty: 3, title: 'Horquilla' },
+    { fen: '8/4k3/1p1p4/rP2p1p1/P2nP1P1/3BK3/8/R7 w - - 0 35', preMoves: ['e3d2'], solution: ['d4b3', 'd2c3', 'b3a1'], theme: 'fork', difficulty: 2, title: 'Horquilla' },
+    { fen: '6k1/6pp/p1N2p2/1pP2bP1/5P2/8/PPP5/3K4 b - - 1 28', preMoves: ['f6g5'], solution: ['c6e7', 'g8f7', 'e7f5'], theme: 'fork', difficulty: 2, title: 'Horquilla' },
 
     // --- CLAVADA ---
-    { fen: 'r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 1', solution: ['f1b5'], theme: 'pin', difficulty: 2, title: 'Clavada del caballo' },
-    { fen: 'r2qk2r/ppp1bppp/2n1bn2/3pp3/8/1BN2N2/PPPPQPPP/R1B1K2R w KQkq - 0 1', solution: ['f3d4'], theme: 'pin', difficulty: 3, title: 'Ataque a la clavada' },
+    { fen: '2kr3r/pp3p2/4p2p/1N1p2p1/3Q4/1P1P4/2q2PPP/5RK1 b - - 1 20', preMoves: ['b7b6'], solution: ['d4a1', 'a7a5', 'f1c1'], theme: 'pin', difficulty: 2, title: 'Clavada' },
+    { fen: 'rnbq3r/1p2bkpp/p4n2/8/2pNP3/2N5/PPP3PP/R1BQ1RK1 b - - 1 11', preMoves: ['e7c5'], solution: ['d1h5', 'f7g8', 'h5c5'], theme: 'pin', difficulty: 2, title: 'Sicilian Defense' },
+    { fen: 'r4k1r/pNqnppb1/6pn/2p3Np/7P/2P2Q2/PP3PP1/R1B1K2R b KQ - 2 15', preMoves: ['a8b8'], solution: ['g5e6', 'f8g8', 'e6c7'], theme: 'pin', difficulty: 2, title: 'Modern Defense' },
+    { fen: '2r2rk1/6pp/3Q1q2/8/3N1B2/6P1/PP1K3P/R4b2 w - - 0 24', preMoves: ['a1f1'], solution: ['f6d6', 'f4d6', 'f8f1'], theme: 'pin', difficulty: 2, title: 'Clavada' },
+    { fen: '2kr2r1/1bp4n/1pq1p2p/p1P5/1P3B2/P6P/5RP1/RB2Q1K1 w - - 3 26', preMoves: ['e1f1'], solution: ['d8d1', 'f1d1', 'g8g2', 'g1f1', 'g2g1', 'f1e2', 'g1d1'], theme: 'pin', difficulty: 4, title: 'Clavada' },
+    { fen: '4rk2/p1q5/1p3Q1b/8/1p5N/2P1p3/P3P3/2K5 b - - 0 43', preMoves: ['c7f7'], solution: ['h4g6', 'f8g8', 'f6h8'], theme: 'pin', difficulty: 2, title: 'Clavada' },
+    { fen: 'r4r2/2q1NN2/4bQpk/2n4p/pp5P/8/1PP2PP1/2KR3R b - - 0 28', preMoves: ['e6f7'], solution: ['e7f5', 'h6h7', 'f6g7'], theme: 'pin', difficulty: 2, title: 'Clavada' },
+    { fen: 'r5kr/pp1qb1p1/2p4p/3pPb1Q/3P4/2P1B3/PP4PP/R4RK1 b - - 1 17', preMoves: ['f5e4'], solution: ['h5f7', 'g8h7', 'f1f6', 'e7f6', 'f7d7'], theme: 'pin', difficulty: 3, title: 'Russian Game' },
+    { fen: 'r4rk1/6p1/b3p1nN/p1pp4/1p3P1q/3P1Q1B/PPP2PK1/R6R b - - 0 26', preMoves: ['g8h8'], solution: ['h6f7', 'f8f7', 'h3e6'], theme: 'pin', difficulty: 2, title: 'Clavada' },
+    { fen: '3r2k1/6p1/4Q3/4B3/1p3P2/4PKP1/3q4/8 b - - 17 51', preMoves: ['g8h8'], solution: ['e6h6', 'h8g8', 'h6g7'], theme: 'pin', difficulty: 2, title: 'Clavada' },
 
     // --- SACRIFICIO ---
-    { fen: 'r1bqkbnr/ppp2ppp/2np4/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 1', solution: ['c4f7'], theme: 'sacrifice', difficulty: 2, title: 'Sacrificio en f7' },
-
-    // --- ATAQUE ---
-    { fen: 'r2q1rk1/pp2ppbp/2np1np1/2p5/4PP2/2NP2P1/PPP1N1BP/R1BQ1RK1 w - - 0 1', solution: ['f4f5'], theme: 'attack', difficulty: 3, title: 'Avance con amenaza' },
-    { fen: 'r1bq1rk1/ppp2ppp/2n2n2/3pp3/1bPP4/2N1PN2/PP3PPP/R1BQKB1R w KQ - 0 1', solution: ['d4e5'], theme: 'attack', difficulty: 2, title: 'Captura central activa' },
-    { fen: 'r2qk2r/ppp1bppp/2n2n2/3pp3/3PP1b1/2N2N2/PPP1BPPP/R1BQK2R w KQkq - 0 1', solution: ['d4e5'], theme: 'attack', difficulty: 2, title: 'Captura ganando espacio' },
-    { fen: 'r2q1rk1/pp2ppbp/3p1np1/2pP4/4P3/2N5/PP2BPPP/R1BQ1RK1 w - - 0 1', solution: ['e4e5'], theme: 'attack', difficulty: 3, title: 'Ruptura de peón e5' },
-    { fen: 'r1bqkb1r/pppppppp/2n2n2/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 1', solution: ['e4e5'], theme: 'attack', difficulty: 2, title: 'Avance ganando tiempos' },
-    { fen: 'rnbqkb1r/pppppppp/5n2/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 1', solution: ['e4e5'], theme: 'attack', difficulty: 2, title: 'Avance ganador e5' },
-    { fen: 'r1bq1rk1/pppp1ppp/2n2n2/2b1p3/2B1P3/3P1N2/PPP2PPP/RNBQ1RK1 w - - 0 1', solution: ['b2b4'], theme: 'attack', difficulty: 3, title: 'Expansión en el flanco' },
-    { fen: '2kr1b1r/ppp1pppp/2n2n2/3q4/3P4/4BN2/PPP2PPP/RN1QKB1R w KQ - 0 1', solution: ['f3g5'], theme: 'attack', difficulty: 3, title: 'Ataque al punto f7' },
-    { fen: 'r2q1rk1/ppp1bppp/2n2n2/3p4/3P1B2/2PBPN2/PP3PPP/R2QK2R w KQ - 0 1', solution: ['d1b1'], theme: 'attack', difficulty: 3, title: 'Batería dama-alfil' },
-    { fen: 'rnbq1rk1/ppp2ppp/3p1n2/4p3/2BPP1b1/2N2N2/PPP2PPP/R1BQ1RK1 w - - 0 1', solution: ['d4d5'], theme: 'attack', difficulty: 3, title: 'Avance ganando pieza' },
-    { fen: 'r2q1rk1/pp2ppbp/2p2np1/6B1/3PP3/2N5/PPP2PPP/R2QK2R w KQ - 0 1', solution: ['e4e5'], theme: 'attack', difficulty: 3, title: 'Ataque al enrocado' },
-
-    // --- DEFENSA ---
-    { fen: 'r1bqk2r/pppp1ppp/2n2n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 0 1', solution: ['f6e4'], theme: 'defense', difficulty: 2, title: 'Contraataque central' },
-    { fen: 'r1bqkb1r/pppp1ppp/2n2n2/4p3/2BPP3/5N2/PPP2PPP/RNBQK2R b KQkq - 0 1', solution: ['e5d4'], theme: 'defense', difficulty: 2, title: 'Cambio en el centro' },
+    { fen: '1qr2rk1/pb2bppp/8/8/2p1N3/P1Bn2P1/2Q2PBP/1R3RK1 b - - 3 23', preMoves: ['b8c7'], solution: ['b1b7', 'c7b7', 'e4f6', 'e7f6', 'g2b7'], theme: 'sacrifice', difficulty: 3, title: 'Sacrificio' },
+    { fen: 'k1r1b3/p1r1nppp/1p1qpn2/2Np4/1P1P4/PQRBPN2/5PPP/2R3K1 w - - 0 19', preMoves: ['d3a6'], solution: ['b6c5', 'a6c8', 'c5c4'], theme: 'sacrifice', difficulty: 2, title: 'Slav Defense' },
+    { fen: '2kr2r1/1bp4n/1pq1p2p/p1P5/1P3B2/P6P/5RP1/RB2Q1K1 w - - 3 26', preMoves: ['e1f1'], solution: ['d8d1', 'f1d1', 'g8g2', 'g1f1', 'g2g1', 'f1e2', 'g1d1'], theme: 'sacrifice', difficulty: 4, title: 'Sacrificio' },
+    { fen: '1r6/pp2kpp1/2n1p1n1/3p2PQ/5P2/2PqP3/PP1N4/2KR3R w - - 3 27', preMoves: ['h5h7'], solution: ['c6b4', 'c3b4', 'b8c8', 'd2c4', 'c8c4'], theme: 'sacrifice', difficulty: 3, title: 'Sacrificio' },
+    { fen: '3r2k1/1b3pbR/p2P2P1/3p2N1/2p5/2P2N2/PP6/2K5 b - - 0 28', preMoves: ['f7g6'], solution: ['h7g7', 'g8g7', 'g5e6', 'g7g8', 'e6d8'], theme: 'sacrifice', difficulty: 3, title: 'Sacrificio' },
+    { fen: 'rn3rk1/4pp1p/3p2pB/2q4P/3bP1b1/Pp2Q3/1P2B3/1K1R2NR w - - 0 20', preMoves: ['e3d4'], solution: ['c5c2', 'b1a1', 'a8a3', 'b2a3', 'c2a2'], theme: 'sacrifice', difficulty: 3, title: 'Sacrificio' },
+    { fen: 'r4rk1/6p1/b3p1nN/p1pp4/1p3P1q/3P1Q1B/PPP2PK1/R6R b - - 0 26', preMoves: ['g8h8'], solution: ['h6f7', 'f8f7', 'h3e6'], theme: 'sacrifice', difficulty: 2, title: 'Sacrificio' },
+    { fen: 'r5k1/1p3p2/2p1ppp1/3p4/2nP4/1QB2B1P/rPP2PP1/qNKR3R w - - 3 22', preMoves: ['f3e2'], solution: ['a1b1', 'c1b1', 'a2a1'], theme: 'sacrifice', difficulty: 2, title: 'Sacrificio' },
+    { fen: 'r2k2nr/pp2qBb1/3p3p/Q5p1/3n1B2/2N2R2/PPP3P1/R5K1 b - - 1 18', preMoves: ['b7b6'], solution: ['a5d5', 'd4f3', 'g2f3', 'a8c8', 'f4d6'], theme: 'sacrifice', difficulty: 3, title: 'Kings Gambit Accepted' },
+    { fen: '4r1k1/p5bp/1q4p1/2pPrp2/1pP2N2/6PP/P4QB1/1R3RK1 w - - 2 25', preMoves: ['f4e6'], solution: ['e5e6', 'd5e6', 'g7d4'], theme: 'sacrifice', difficulty: 2, title: 'Sacrificio' },
 
     // --- FINALES ---
-    { fen: '8/8/8/8/8/5K2/4P3/5k2 w - - 0 1', solution: ['e2e4'], theme: 'endgame', difficulty: 1, title: 'Peón pasado: avanzar' },
-    { fen: '8/2k5/8/8/8/8/1KP5/8 w - - 0 1', solution: ['b2c3'], theme: 'endgame', difficulty: 1, title: 'Peón pasado: rey primero' },
-    { fen: '4k3/8/8/8/8/8/4KP2/8 w - - 0 1', solution: ['e2e3'], theme: 'endgame', difficulty: 1, title: 'Peón pasado: rey delante' },
-    { fen: '8/8/4k3/8/8/4K3/4P3/8 w - - 0 1', solution: ['e3e4'], theme: 'endgame', difficulty: 2, title: 'Oposición directa' },
-    { fen: '8/8/3k4/8/8/3K4/8/4R3 w - - 0 1', solution: ['d3c4'], theme: 'endgame', difficulty: 2, title: 'Rey y Torre: avanzar rey' },
-    { fen: '8/8/4k3/8/8/8/4K3/R7 w - - 0 1', solution: ['a1d1'], theme: 'endgame', difficulty: 2, title: 'Cortar al rey rival' },
-    { fen: '8/8/8/8/4k3/8/R3K3/8 w - - 0 1', solution: ['a2d2'], theme: 'endgame', difficulty: 2, title: 'Torre: cortar columna' },
-    { fen: '8/5pk1/8/8/8/4K3/5P2/8 w - - 0 1', solution: ['e3f4'], theme: 'endgame', difficulty: 2, title: 'Final: rey activo' },
-    { fen: '8/5k2/8/5K2/6P1/8/8/8 w - - 0 1', solution: ['f5g5'], theme: 'endgame', difficulty: 2, title: 'Final: rey activo avanza' },
-    { fen: '8/8/1p6/1P1k4/1K6/8/8/8 w - - 0 1', solution: ['b4b3'], theme: 'endgame', difficulty: 3, title: 'Final: triangulación' },
-    { fen: '8/2k5/3p4/1K1P4/8/8/8/8 w - - 0 1', solution: ['b5a6'], theme: 'endgame', difficulty: 3, title: 'Final: flanqueo ganador' },
+    { fen: '5rk1/1p3ppp/pq3b2/8/8/1P1Q1N2/P4PPP/3R2K1 w - - 2 27', preMoves: ['d3d6'], solution: ['f8d8', 'd6d8', 'f6d8'], theme: 'endgame', difficulty: 2, title: 'Final' },
+    { fen: '8/7R/8/5p2/4bk1P/8/2r2K2/6R1 w - - 7 51', preMoves: ['f2f1'], solution: ['f4f3', 'f1e1', 'c2c1', 'e1d2', 'c1g1'], theme: 'endgame', difficulty: 3, title: 'Final' },
+    { fen: '2Q2bk1/5p1p/p5p1/2p3P1/2r1B3/7P/qPQ2P2/2K4R b - - 0 32', preMoves: ['c4c2'], solution: ['e4c2', 'a2a1', 'c2b1'], theme: 'endgame', difficulty: 2, title: 'Final' },
+    { fen: '2kr3r/pp3p2/4p2p/1N1p2p1/3Q4/1P1P4/2q2PPP/5RK1 b - - 1 20', preMoves: ['b7b6'], solution: ['d4a1', 'a7a5', 'f1c1'], theme: 'endgame', difficulty: 2, title: 'Final' },
+    { fen: '8/3B2pp/p5k1/2p3P1/1p1p1K2/8/1P6/8 b - - 0 38', preMoves: ['c5c4'], solution: ['d7e8'], theme: 'endgame', difficulty: 1, title: 'Final' },
+    { fen: '6nr/pp3p1p/k1p5/8/1QN5/2P1P3/4KPqP/8 b - - 5 26', preMoves: ['b7b5'], solution: ['b4a5', 'a6b7', 'c4d6', 'b7b8', 'a5d8'], theme: 'endgame', difficulty: 3, title: 'Final' },
+    { fen: '8/4R1k1/p5pp/3B4/5q2/8/5P1P/6K1 b - - 5 40', preMoves: ['g7f6'], solution: ['e7f7', 'f6e5', 'f7f4'], theme: 'endgame', difficulty: 2, title: 'Final' },
+    { fen: '8/7p/2b1k3/p2p1pPB/1n1P3P/N1p1P3/4K3/8 b - - 1 42', preMoves: ['c6b5'], solution: ['a3b5', 'c3c2', 'e2d2'], theme: 'endgame', difficulty: 2, title: 'Final' },
+    { fen: '8/8/1p6/k7/P1R5/1K5r/8/8 w - - 26 64', preMoves: ['c4c3'], solution: ['h3c3', 'b3c3', 'a5a4', 'c3b2', 'a4b4'], theme: 'endgame', difficulty: 3, title: 'Final' },
+    { fen: '1r5r/p3kp2/4p2p/4P3/3R1Pp1/6P1/P1P4P/4K2R w K - 1 25', preMoves: ['d4a4'], solution: ['b8b1', 'e1f2', 'b1h1', 'a4a7', 'e7f8'], theme: 'endgame', difficulty: 3, title: 'Final' },
+    { fen: '8/3pk3/R7/1R2Pp1p/2PPnKr1/8/8/8 w - - 4 43', preMoves: ['f4f5'], solution: ['e4g3'], theme: 'endgame', difficulty: 1, title: 'Final' },
+    { fen: '8/6pk/7p/2p5/2qp4/5PP1/P3QK1P/8 b - - 1 40', preMoves: ['c4d5'], solution: ['e2e4', 'd5e4', 'f3e4'], theme: 'endgame', difficulty: 2, title: 'Final' },
+
+    // --- ATAQUE ---
+    { fen: 'r6k/pp2r2p/4Rp1Q/3p4/8/1N1P2R1/PqP2bPP/7K b - - 0 24', preMoves: ['f2g3'], solution: ['e6e7', 'b2b1', 'b3c1', 'b1c1', 'h6c1'], theme: 'attack', difficulty: 3, title: 'Ataque' },
+    { fen: '8/7R/8/5p2/4bk1P/8/2r2K2/6R1 w - - 7 51', preMoves: ['f2f1'], solution: ['f4f3', 'f1e1', 'c2c1', 'e1d2', 'c1g1'], theme: 'attack', difficulty: 3, title: 'Ataque' },
+    { fen: '1qr2rk1/pb2bppp/8/8/2p1N3/P1Bn2P1/2Q2PBP/1R3RK1 b - - 3 23', preMoves: ['b8c7'], solution: ['b1b7', 'c7b7', 'e4f6', 'e7f6', 'g2b7'], theme: 'attack', difficulty: 3, title: 'Ataque' },
+    { fen: 'k1r1b3/p1r1nppp/1p1qpn2/2Np4/1P1P4/PQRBPN2/5PPP/2R3K1 w - - 0 19', preMoves: ['d3a6'], solution: ['b6c5', 'a6c8', 'c5c4'], theme: 'attack', difficulty: 2, title: 'Slav Defense' },
+    { fen: 'r3kb1r/ppq2ppp/4pn2/2Ppn3/1P4bP/2P2N2/P3BPP1/RNBQ1RK1 b kq - 2 10', preMoves: ['f8e7'], solution: ['f3e5', 'c7e5', 'e2g4'], theme: 'attack', difficulty: 2, title: 'Caro-Kann Defense' },
+    { fen: 'r4rk1/pp3ppp/3p1q2/P1P1p3/2B5/2B2n2/2P2P1P/R2Q1RK1 w - - 0 16', preMoves: ['g1h1'], solution: ['f6f4', 'd1f3', 'f4f3'], theme: 'attack', difficulty: 2, title: 'Sicilian Defense' },
+    { fen: '8/8/1p6/k7/P1R5/1K5r/8/8 w - - 26 64', preMoves: ['c4c3'], solution: ['h3c3', 'b3c3', 'a5a4', 'c3b2', 'a4b4'], theme: 'attack', difficulty: 3, title: 'Ataque' },
+    { fen: '1r5r/p3kp2/4p2p/4P3/3R1Pp1/6P1/P1P4P/4K2R w K - 1 25', preMoves: ['d4a4'], solution: ['b8b1', 'e1f2', 'b1h1', 'a4a7', 'e7f8'], theme: 'attack', difficulty: 3, title: 'Ataque' },
+    { fen: '8/r1b1q2k/2p3p1/2Pp4/1P2p1n1/2B1P3/NQ6/2K4R b - - 1 36', preMoves: ['h7g8'], solution: ['h1h8', 'g8f7', 'h8h7', 'f7e8', 'h7e7'], theme: 'attack', difficulty: 3, title: 'Ataque' },
+    { fen: 'r2qr1k1/ppp2ppp/4b3/3P4/1nP2Q2/2N2N1P/PP3KP1/R4R2 w - - 1 15', preMoves: ['d5e6'], solution: ['b4d3', 'f2g1', 'd3f4'], theme: 'attack', difficulty: 2, title: 'Kings Gambit Accepted' },
+
+    // --- DEFENSA ---
+    { fen: '8/8/1p6/k7/P1R5/1K5r/8/8 w - - 26 64', preMoves: ['c4c3'], solution: ['h3c3', 'b3c3', 'a5a4', 'c3b2', 'a4b4'], theme: 'defense', difficulty: 3, title: 'Defensa' },
+    { fen: '1r5r/p3kp2/4p2p/4P3/3R1Pp1/6P1/P1P4P/4K2R w K - 1 25', preMoves: ['d4a4'], solution: ['b8b1', 'e1f2', 'b1h1', 'a4a7', 'e7f8'], theme: 'defense', difficulty: 3, title: 'Defensa' },
+    { fen: '8/7R/5p2/p7/7P/2p5/3k2r1/1K2N3 w - - 3 48', preMoves: ['e1g2'], solution: ['c3c2', 'b1a2', 'c2c1q', 'h7d7', 'd2e2'], theme: 'defense', difficulty: 3, title: 'Defensa' },
+    { fen: '7R/8/8/6p1/2p1p1k1/2PbK2p/P7/8 w - - 4 71', preMoves: ['e3f2'], solution: ['e4e3', 'f2e3', 'g4g3'], theme: 'defense', difficulty: 2, title: 'Defensa' },
+    { fen: '2rr2k1/pp4bp/4qpp1/3Pp3/8/4Q2P/4B1P1/2RR3K b - - 0 26', preMoves: ['c8c1'], solution: ['d5e6', 'd8d1', 'e2d1', 'c1d1', 'h1h2'], theme: 'defense', difficulty: 3, title: 'Defensa' },
+    { fen: '3r1k2/2p1R3/p2p2n1/1p6/1P1P2Q1/7P/5qPK/3R4 w - - 2 42', preMoves: ['d1e1'], solution: ['g6e7', 'e1e4', 'f8e8'], theme: 'defense', difficulty: 2, title: 'Defensa' },
+    { fen: '2r5/2r3k1/p1q1b1pp/3pn3/3R4/4P1N1/PQ4PP/R5K1 b - - 7 32', preMoves: ['c6c1'], solution: ['a1c1', 'c7c1', 'g3f1'], theme: 'defense', difficulty: 2, title: 'Defensa' },
+    { fen: 'r1bq1r2/2p2p1k/pb1p1pnp/1p2p2Q/1P2P2N/P1PP1N2/B4PPP/R4RK1 w - - 6 17', preMoves: ['a2f7'], solution: ['g6f4', 'f7g6', 'h7g7', 'h4f5', 'c8f5'], theme: 'defense', difficulty: 3, title: 'Italian Game' },
+    { fen: '8/5P1P/1p4K1/8/6P1/8/2p5/k6r b - - 0 62', preMoves: ['h1h6'], solution: ['g6h6', 'c2c1q', 'g4g5', 'c1c6', 'h6g7'], theme: 'defense', difficulty: 3, title: 'Defensa' },
+    { fen: '3r4/5k2/p4Pp1/2pK2Pp/2R5/P7/8/8 w - - 7 51', preMoves: ['d5c5'], solution: ['d8c8', 'c5d4', 'c8c4', 'd4c4', 'h5h4'], theme: 'defense', difficulty: 3, title: 'Defensa' },
 
     // --- CONTROL CENTRAL ---
-    { fen: 'r1bqkbnr/pp1ppppp/2n5/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 1', solution: ['d2d4'], theme: 'center', difficulty: 1, title: 'Apertura del centro' },
-    { fen: 'rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1', solution: ['e7e5'], theme: 'center', difficulty: 1, title: 'Respuesta simétrica' },
-    { fen: 'r1bqkbnr/pppppppp/2n5/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 1', solution: ['d2d4'], theme: 'center', difficulty: 1, title: 'Control central clásico' },
-    { fen: 'rnbqk2r/ppppppbp/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 1', solution: ['e2e4'], theme: 'center', difficulty: 2, title: 'Dominio central' },
-    { fen: '2kr3r/ppqb1ppp/2n1pn2/2Pp4/1B6/2N1PN2/PP1Q1PPP/R3K2R w KQ - 0 1', solution: ['d2d4'], theme: 'center', difficulty: 2, title: 'Centralización de dama' },
-    { fen: 'r1bq1rk1/ppppbppp/2n2n2/4p3/2BPP3/2N2N2/PPP2PPP/R1BQ1RK1 w - - 0 1', solution: ['d4e5'], theme: 'center', difficulty: 2, title: 'Ruptura central' },
-    { fen: 'r2qr1k1/ppp2ppp/2npbn2/2b1p3/4P3/2NP1N1P/PPP1BPP1/R1BQR1K1 w - - 0 1', solution: ['d3d4'], theme: 'center', difficulty: 2, title: 'Expansión central' },
-    { fen: 'r1bqk2r/pppp1ppp/2n2n2/2b1p3/2BPP3/5N2/PPP2PPP/RNBQ1RK1 w kq - 0 1', solution: ['d4e5'], theme: 'center', difficulty: 2, title: 'Captura central fuerte' },
-    { fen: 'r1bq1rk1/ppp1npbp/3p1np1/4p3/2P1P3/2N2N2/PP1PBPPP/R1BQ1RK1 w - - 0 1', solution: ['d2d4'], theme: 'center', difficulty: 2, title: 'Avance central' },
-    { fen: 'r2qkbnr/ppp2ppp/2n1p3/3pP3/3P4/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 1', solution: ['c2c4'], theme: 'center', difficulty: 2, title: 'Apoyo del centro' },
-    { fen: 'r1bqr1k1/ppp2ppp/2nb1n2/3pp3/2PPP3/2NB1N2/PP3PPP/R1BQ1RK1 w - - 0 1', solution: ['d4e5'], theme: 'center', difficulty: 2, title: 'Captura central activa' },
+    { fen: '5rk1/1p3ppp/pq3b2/8/8/1P1Q1N2/P4PPP/3R2K1 w - - 2 27', preMoves: ['d3d6'], solution: ['f8d8', 'd6d8', 'f6d8'], theme: 'center', difficulty: 2, title: 'Control Central' },
+    { fen: '3r3r/pQNk1ppp/1qnb1n2/1B6/8/8/PPP3PP/3R1R1K w - - 5 19', preMoves: ['d1d6'], solution: ['d7d6', 'b7b6', 'a7b6'], theme: 'center', difficulty: 2, title: 'Control Central' },
+    { fen: '2Q2bk1/5p1p/p5p1/2p3P1/2r1B3/7P/qPQ2P2/2K4R b - - 0 32', preMoves: ['c4c2'], solution: ['e4c2', 'a2a1', 'c2b1'], theme: 'center', difficulty: 2, title: 'Control Central' },
+    { fen: 'r2q1rk1/5ppp/1np5/p1b5/2p1B3/P7/1P3PPP/R1BQ1RK1 b - - 1 17', preMoves: ['d8f6'], solution: ['d1h5', 'h7h6', 'h5c5'], theme: 'center', difficulty: 2, title: 'Scotch Game' },
+    { fen: 'r2qk2r/pp2ppbp/1n1p2p1/3Pn3/2P5/2NBBP1P/PP3P2/R2QK2R b KQkq - 0 12', preMoves: ['e5c4'], solution: ['d3c4', 'b6c4', 'd1a4', 'd8d7', 'a4c4'], theme: 'center', difficulty: 3, title: 'Alekhine Defense' },
+    { fen: '2kr3r/pp3p2/4p2p/1N1p2p1/3Q4/1P1P4/2q2PPP/5RK1 b - - 1 20', preMoves: ['b7b6'], solution: ['d4a1', 'a7a5', 'f1c1'], theme: 'center', difficulty: 2, title: 'Control Central' },
+    { fen: '2R2r1k/pQ4pp/5rp1/3B4/q2n4/7P/P4PP1/5RK1 w - - 3 30', preMoves: ['c8c7'], solution: ['d4e2', 'g1h2', 'a4f4', 'h2h1', 'e2g3', 'f2g3', 'f4f1'], theme: 'center', difficulty: 4, title: 'Control Central' },
+    { fen: 'rnbq3r/1p2bkpp/p4n2/8/2pNP3/2N5/PPP3PP/R1BQ1RK1 b - - 1 11', preMoves: ['e7c5'], solution: ['d1h5', 'f7g8', 'h5c5'], theme: 'center', difficulty: 2, title: 'Sicilian Defense' },
+    { fen: '6k1/1p3pp1/1p5p/2r1p3/2n5/r3PN2/2RnNPPP/2R3K1 b - - 1 32', preMoves: ['f7f6'], solution: ['f3d2', 'c4d2', 'c2d2', 'c5c1', 'e2c1'], theme: 'center', difficulty: 3, title: 'Control Central' },
+    { fen: '8/4R1k1/p5pp/3B4/5q2/8/5P1P/6K1 b - - 5 40', preMoves: ['g7f6'], solution: ['e7f7', 'f6e5', 'f7f4'], theme: 'center', difficulty: 2, title: 'Control Central' },
 
-    // --- CAPTURA TÁCTICA ---
-    { fen: '2r2rk1/pp3ppp/8/3q4/8/2B5/PP3PPP/R2Q1RK1 w - - 0 1', solution: ['d1d5'], theme: 'capture', difficulty: 2, title: 'Captura centralizada' },
-    { fen: 'r3k2r/pp1n1ppp/2p1p3/q2pPb2/3P1P2/P1PB4/2P3PP/R2QK2R b KQkq - 0 1', solution: ['f5d3'], theme: 'capture', difficulty: 2, title: 'Captura ganadora' },
-    { fen: 'r2q1rk1/pp1b1ppp/2n1pn2/2pp4/3P1B2/2PBPN2/PP1N1PPP/R2QK2R w KQ - 0 1', solution: ['d4c5'], theme: 'capture', difficulty: 2, title: 'Cambio favorable' },
-    { fen: 'r1bq1rk1/pp3ppp/2n1pn2/2pp4/3P1B2/3BPN2/PPP2PPP/RN1QK2R w KQ - 0 1', solution: ['d4c5'], theme: 'capture', difficulty: 2, title: 'Captura con ventaja' },
-    { fen: 'rnbqk2r/pppp1ppp/5n2/2b1p3/2BPP3/5N2/PPP2PPP/RNBQK2R b KQkq - 0 1', solution: ['e5d4'], theme: 'capture', difficulty: 2, title: 'Captura central' },
-    { fen: 'r2qr1k1/ppp2ppp/2n5/3pN3/3P4/8/PPP2PPP/R1BQR1K1 w - - 0 1', solution: ['e5c6'], theme: 'capture', difficulty: 2, title: 'Captura del defensor' },
-    { fen: 'rnbqkb1r/pp3ppp/2p1pn2/3p4/2PP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 0 1', solution: ['c4d5'], theme: 'capture', difficulty: 2, title: 'Captura liberadora' },
+    // --- CAPTURA TACTICA ---
+    { fen: 'r6k/pp2r2p/4Rp1Q/3p4/8/1N1P2R1/PqP2bPP/7K b - - 0 24', preMoves: ['f2g3'], solution: ['e6e7', 'b2b1', 'b3c1', 'b1c1', 'h6c1'], theme: 'capture', difficulty: 3, title: 'Captura' },
+    { fen: '3r3r/pQNk1ppp/1qnb1n2/1B6/8/8/PPP3PP/3R1R1K w - - 5 19', preMoves: ['d1d6'], solution: ['d7d6', 'b7b6', 'a7b6'], theme: 'capture', difficulty: 2, title: 'Captura' },
+    { fen: '8/7p/2b1k3/p2p1pPB/1n1P3P/N1p1P3/4K3/8 b - - 1 42', preMoves: ['c6b5'], solution: ['a3b5', 'c3c2', 'e2d2'], theme: 'capture', difficulty: 2, title: 'Captura' },
+    { fen: '6k1/p3b2p/1p1pP3/2p3P1/1Pnp3B/P6P/3Q3K/8 w - - 0 38', preMoves: ['b4c5'], solution: ['c4d2', 'c5c6', 'd6d5', 'g5g6', 'e7d6'], theme: 'capture', difficulty: 3, title: 'Captura' },
+    { fen: 'r6k/2q3pp/8/2p1n3/R1Qp4/7P/2PB1PP1/6K1 b - - 0 32', preMoves: ['e5c4'], solution: ['a4a8', 'c7b8', 'a8b8'], theme: 'capture', difficulty: 2, title: 'Captura' },
+    { fen: 'r3kb1r/ppqn1ppp/4pn2/1Q2Nb2/3P4/8/PP2PPPP/RNB1KB1R w KQkq - 4 9', preMoves: ['e5d7'], solution: ['c7c1'], theme: 'capture', difficulty: 1, title: 'Queens Pawn Game' },
+    { fen: '8/pp1r2kp/q2P1ppb/4p3/2N1P3/1Q5P/PPR2PP1/6K1 w - - 3 32', preMoves: ['c4e5'], solution: ['f6e5', 'c2c7', 'a6d6'], theme: 'capture', difficulty: 2, title: 'Captura' },
+    { fen: '2rr2k1/pp4bp/4qpp1/3Pp3/8/4Q2P/4B1P1/2RR3K b - - 0 26', preMoves: ['c8c1'], solution: ['d5e6', 'd8d1', 'e2d1', 'c1d1', 'h1h2'], theme: 'capture', difficulty: 3, title: 'Captura' },
+    { fen: '3r4/ppp1Q3/1b2kP2/8/4qp2/P1Pr4/1P3P2/1K2N3 b - - 5 31', preMoves: ['e6d5'], solution: ['e7d8', 'd5c6', 'e1d3'], theme: 'capture', difficulty: 2, title: 'Captura' },
+    { fen: '2r3k1/5p1p/4pP2/3p3P/8/5P2/p1b3P1/2R3K1 b - - 0 30', preMoves: ['c2b1'], solution: ['c1c8'], theme: 'capture', difficulty: 1, title: 'Captura' },
 
     // --- DESARROLLO ---
-    { fen: 'r1bqk2r/pppp1ppp/2n2n2/4p3/1bB1P3/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 0 1', solution: ['e1g1'], theme: 'development', difficulty: 1, title: 'Enroque de seguridad' },
-    { fen: 'rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 0 1', solution: ['b8c6'], theme: 'development', difficulty: 1, title: 'Desarrollo natural' },
-    { fen: 'rnbq1rk1/pp2ppbp/3p1np1/2pP4/2P1P3/2N2N2/PP2BPPP/R1BQK2R w KQ - 0 1', solution: ['e1g1'], theme: 'development', difficulty: 1, title: 'Enroque oportuno' },
-    { fen: 'rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 1', solution: ['e2e3'], theme: 'development', difficulty: 2, title: 'Desarrollo armonioso' },
-    { fen: 'r2qkbnr/ppp1pppp/2n5/3pPb2/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 0 1', solution: ['c1e3'], theme: 'development', difficulty: 2, title: 'Desarrollo con tempo' },
+    { fen: 'rnbq3r/1p2bkpp/p4n2/8/2pNP3/2N5/PPP3PP/R1BQ1RK1 b - - 1 11', preMoves: ['e7c5'], solution: ['d1h5', 'f7g8', 'h5c5'], theme: 'development', difficulty: 2, title: 'Sicilian Defense' },
+    { fen: 'r3kb1r/ppqn1ppp/4pn2/1Q2Nb2/3P4/8/PP2PPPP/RNB1KB1R w KQkq - 4 9', preMoves: ['e5d7'], solution: ['c7c1'], theme: 'development', difficulty: 1, title: 'Queens Pawn Game' },
+    { fen: 'r1bqk2r/pp3ppp/4p2n/3pP3/1b1P1P2/2N5/PP4PP/R1BQKB1R b KQkq - 2 9', preMoves: ['h6f5'], solution: ['d1a4', 'c8d7', 'a4b4'], theme: 'development', difficulty: 2, title: 'French Defense' },
+    { fen: 'r2qk1nr/ppp3pp/2n5/1B1pp3/1b1P4/5Q1P/PP1B1PP1/RN2K2R b KQkq - 3 11', preMoves: ['e5e4'], solution: ['b5c6', 'b7c6', 'f3h5', 'g7g6', 'h5e5'], theme: 'development', difficulty: 3, title: 'Ponziani Opening' },
+    { fen: 'r1b1k1nr/ppp2pbp/3ppqp1/8/2BnP3/N2P2QP/PPP2PP1/R1B1K2R b KQkq - 4 9', preMoves: ['e6e5'], solution: ['c1g5', 'f6g5', 'g3g5'], theme: 'development', difficulty: 2, title: 'Pirc Defense' },
+    { fen: 'rn1qk2r/pp3ppp/3bp1b1/3p4/3Pn2N/3BB3/PPP2PPP/RN1Q1RK1 w kq - 4 10', preMoves: ['h4g6'], solution: ['d6h2', 'g1h1', 'h7g6'], theme: 'development', difficulty: 2, title: 'Caro-Kann Defense' },
+    { fen: 'rnbqk2r/pp3ppp/5n2/3pN3/2B5/2P5/P1PPQPPP/R1B1K2R b KQkq - 1 8', preMoves: ['d5c4'], solution: ['e5c6', 'c8e6', 'c6d8'], theme: 'development', difficulty: 2, title: 'Kings Pawn Game' },
+    { fen: 'r2qkbnr/pp4pp/2p2p2/4n2b/2B1P3/2N2N2/PPP3PP/R1BQ1RK1 w kq - 0 10', preMoves: ['d1e2'], solution: ['h5f3', 'g2f3', 'd8d4'], theme: 'development', difficulty: 2, title: 'Kings Gambit' },
+    { fen: 'r2qk1nr/pbpp1pbp/1p2p1p1/3Pn3/2P1P3/3B1N2/PP3PPP/RNBQ1RK1 w kq - 0 8', preMoves: ['c1g5'], solution: ['e5f3', 'd1f3', 'd8g5'], theme: 'development', difficulty: 2, title: 'English Defense' },
+    { fen: 'r1b1k1nr/pppp1ppp/5q2/2b1n3/4P3/2N2N2/PPPP2PP/R1BQKB1R w KQkq - 0 6', preMoves: ['f3e5'], solution: ['f6f2'], theme: 'development', difficulty: 1, title: 'Vienna Gambit With Max Lange Defense' },
+
+    // --- TACTICA GENERAL ---
+    { fen: '8/7R/8/5p2/4bk1P/8/2r2K2/6R1 w - - 7 51', preMoves: ['f2f1'], solution: ['f4f3', 'f1e1', 'c2c1', 'e1d2', 'c1g1'], theme: 'tactic', difficulty: 3, title: 'Tactica' },
+    { fen: '8/4R1k1/p5pp/3B4/5q2/8/5P1P/6K1 b - - 5 40', preMoves: ['g7f6'], solution: ['e7f7', 'f6e5', 'f7f4'], theme: 'tactic', difficulty: 2, title: 'Tactica' },
+    { fen: '1r5r/p3kp2/4p2p/4P3/3R1Pp1/6P1/P1P4P/4K2R w K - 1 25', preMoves: ['d4a4'], solution: ['b8b1', 'e1f2', 'b1h1', 'a4a7', 'e7f8'], theme: 'tactic', difficulty: 3, title: 'Tactica' },
+    { fen: '8/r1b1q2k/2p3p1/2Pp4/1P2p1n1/2B1P3/NQ6/2K4R b - - 1 36', preMoves: ['h7g8'], solution: ['h1h8', 'g8f7', 'h8h7', 'f7e8', 'h7e7'], theme: 'tactic', difficulty: 3, title: 'Tactica' },
+    { fen: '5Q2/8/1b1kp1p1/5p2/3p4/5qPK/7P/8 b - - 1 51', preMoves: ['d6c6'], solution: ['f8a8', 'c6d6', 'a8f3'], theme: 'tactic', difficulty: 2, title: 'Tactica' },
+    { fen: '2kr2r1/1bp4n/1pq1p2p/p1P5/1P3B2/P6P/5RP1/RB2Q1K1 w - - 3 26', preMoves: ['e1f1'], solution: ['d8d1', 'f1d1', 'g8g2', 'g1f1', 'g2g1', 'f1e2', 'g1d1'], theme: 'tactic', difficulty: 4, title: 'Tactica' },
+    { fen: 'r3k1nr/1pp2ppp/1pnp2q1/4p1B1/2B1P3/3P1Q1P/PPP2PP1/R4RK1 b kq - 0 11', preMoves: ['g6g5'], solution: ['f3f7', 'e8d8', 'f7f8', 'd8d7', 'f8a8'], theme: 'tactic', difficulty: 3, title: 'Italian Game' },
+    { fen: '8/7Q/3p1kp1/1p6/2b5/2P4P/5PPK/4q3 b - - 8 36', preMoves: ['e1c3'], solution: ['h7h8', 'f6e6', 'h8c3'], theme: 'tactic', difficulty: 2, title: 'Tactica' },
+    { fen: '8/5k2/7p/p1P1bPpP/Pp2P3/1P1pBK2/8/8 w - - 1 47', preMoves: ['e3f2'], solution: ['g5g4', 'f3e3', 'e5d4', 'e3d3', 'd4f2'], theme: 'tactic', difficulty: 3, title: 'Tactica' },
+    { fen: '2k2rr1/1p1q3p/1p2p3/1NbpQ3/P1p2P2/6P1/6KP/R4R2 b - - 0 31', preMoves: ['f8f5'], solution: ['b5a7', 'c8d8', 'e5b8', 'd8e7', 'b8g8'], theme: 'tactic', difficulty: 3, title: 'Tactica' },
+
+    // --- OTROS ---
+    { fen: '6k1/p3b2p/1p1pP3/2p3P1/1Pnp3B/P6P/3Q3K/8 w - - 0 38', preMoves: ['b4c5'], solution: ['c4d2', 'c5c6', 'd6d5', 'g5g6', 'e7d6'], theme: 'other', difficulty: 3, title: 'Otro' },
+    { fen: 'r1b2rk1/2q2p1p/1p2pbp1/pP6/2P1Q3/P2B1N2/5PPP/3R1RK1 w - - 0 20', preMoves: ['e4a8'], solution: ['c8b7', 'a8a7', 'f8a8', 'a7a8', 'b7a8'], theme: 'other', difficulty: 3, title: 'Otro' },
+    { fen: '4r1k1/p5bp/1q4p1/2pPrp2/1pP2N2/6PP/P4QB1/1R3RK1 w - - 2 25', preMoves: ['f4e6'], solution: ['e5e6', 'd5e6', 'g7d4'], theme: 'other', difficulty: 2, title: 'Otro' },
+    { fen: '8/Q1p1r1kp/5pp1/3P3r/4P3/2N2bPq/PPP2R1P/5RK1 w - - 3 23', preMoves: ['a7e3'], solution: ['h3g3', 'h2g3', 'h5h1'], theme: 'other', difficulty: 2, title: 'Otro' },
+    { fen: '3r1r2/pp3pk1/2p1pRp1/6Qp/2P5/P7/1q4PP/5R1K b - - 1 31', preMoves: ['d8d2'], solution: ['f6g6', 'f7g6', 'g5e7', 'g7h6', 'e7f8', 'b2g7', 'f8f4', 'h6h7', 'f4d2'], theme: 'other', difficulty: 4, title: 'Otro' },
+    { fen: 'R7/P4p2/5k1p/q5n1/5R2/7P/5PK1/8 b - - 2 46', preMoves: ['f6e5'], solution: ['a8e8', 'e5f4', 'a7a8q', 'a5a8', 'e8a8'], theme: 'other', difficulty: 3, title: 'Otro' },
+    { fen: '1q5r/p3kpp1/2Q1p2p/3pP2P/2n3P1/2N2P2/PrP5/K3R1NR w - - 0 26', preMoves: ['g1e2'], solution: ['b2a2', 'c3a2', 'b8b2'], theme: 'other', difficulty: 2, title: 'Otro' },
+    { fen: '2r3nr/p5pp/b3kp2/3p4/4p3/BP3P2/P1PN2PP/2KR3R b - - 0 18', preMoves: ['f6f5'], solution: ['f3e4', 'f5e4', 'd2e4', 'd5e4', 'd1d6', 'e6f7', 'd6a6'], theme: 'other', difficulty: 4, title: 'Nimzo-Larsen Attack' },
+    { fen: '4r1k1/p1p2pp1/1p5p/2Q1P3/5r1q/5R2/P3B1PP/R5K1 w - - 0 22', preMoves: ['c5c7'], solution: ['f4f3', 'g2f3', 'h4d4', 'g1g2', 'd4a1'], theme: 'other', difficulty: 3, title: 'Otro' },
+    { fen: '1k6/1p2rp1p/1p4b1/1N1B4/2P2p2/3p3P/P2Rr3/2K2R2 w - - 4 34', preMoves: ['f1f4'], solution: ['e2e1', 'c1b2', 'e7e2', 'b2c3', 'e1c1', 'c3d4', 'e2d2'], theme: 'other', difficulty: 4, title: 'Otro' },
+
 ];
 
 var puzzleMode = false;
@@ -1965,7 +2215,46 @@ var puzzleFilter = { theme: 'all' };
 var puzzleCorrectMoves = 0;
 var puzzleWrongMoves = 0;
 var puzzleGeneration = 0;
+var puzzleSolutionViewed = false;
 var puzzleSequentialIndex = 0;
+
+// API de puzzles Lichess (Hostinger)
+const PUZZLES_API = 'https://ajedrezia.com/puzzles/api/puzzles.php';
+var puzzleApiCache = [];     // puzzles cargados de la API
+var puzzleApiLoading = false;
+
+async function fetchPuzzlesFromAPI(theme, limit = 20) {
+    puzzleApiLoading = true;
+    puzzleApiCache = [];   // limpiar caché antes de cargar nuevo tema
+    // Scroll al inicio antes de mostrar el overlay de carga sobre el tablero
+    if (window.innerWidth <= 768) {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+        const board = document.querySelector('.board-container');
+        if (board) board.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+    var loadingMsg = document.getElementById('puzzle-loading-msg');
+    if (loadingMsg) {
+        var themeLabel = theme === 'all' ? 'Todos los Problemas' : 'Problemas de ' + getThemeLabel(theme);
+        loadingMsg.textContent = 'Cargando ' + themeLabel + '…';
+        loadingMsg.style.display = 'flex';
+    }
+    try {
+        const url = `${PUZZLES_API}?theme=${encodeURIComponent(theme)}&limit=${limit}`;
+        const res = await fetch(url);
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const data = await res.json();
+        if (data.puzzles && data.puzzles.length > 0) {
+            puzzleApiCache = data.puzzles;
+            puzzleSequentialIndex = 0;
+        }
+    } catch (e) {
+        console.warn('API puzzles no disponible, usando puzzles locales:', e.message);
+    } finally {
+        puzzleApiLoading = false;
+        if (loadingMsg) loadingMsg.style.display = 'none';
+    }
+}
 
 function loadPuzzleStats() {
     try {
@@ -2000,7 +2289,9 @@ function updatePuzzleStatsUI() {
 }
 
 function getFilteredPuzzles() {
-    return CHESS_PUZZLES.filter(function(p) {
+    // Si tenemos puzzles de la API los usamos, si no el array local como fallback
+    const source = puzzleApiCache.length > 0 ? puzzleApiCache : CHESS_PUZZLES;
+    return source.filter(function(p) {
         if (puzzleFilter.theme !== 'all' && p.theme !== puzzleFilter.theme) return false;
         return true;
     });
@@ -2030,11 +2321,12 @@ function updatePuzzleNavButtons() {
 
 function getThemeLabel(theme) {
     var labels = {
-        'mate1': '♔ Mate en 1', 'mate2': '♔ Mate en 2', 'mate3': '♔ Mate en 3+',
+        'mate1': '♔ Mate en 1', 'mate2': '♔ Mate en 2', 'mate3': '♔ Mate en 3',
+        'mate4': '♔ Mate en 4', 'mate5': '♔ Mate en 5',
         'fork': '⚔️ Horquilla', 'pin': '📌 Clavada', 'sacrifice': '💎 Sacrificio',
         'attack': '⚡ Ataque', 'defense': '🛡️ Defensa', 'endgame': '♟ Final',
         'center': '🎯 Centro', 'capture': '🔄 Captura', 'development': '📐 Desarrollo',
-        'tactic': '🧠 Táctica'
+        'tactic': '🧠 Táctica', 'other': '🎲 Otros'
     };
     return labels[theme] || theme;
 }
@@ -2044,7 +2336,12 @@ function getDifficultyLabel(diff) {
     return labels[diff] || '';
 }
 
-function startNewPuzzle(resetIndex, navDir) {
+async function startNewPuzzle(resetIndex, navDir) {
+    // Si cambia tema o la caché está vacía, carga desde la API
+    if (resetIndex || puzzleApiCache.length === 0) {
+        await fetchPuzzlesFromAPI(puzzleFilter.theme, 30);
+    }
+
     var filtered = getFilteredPuzzles();
     if (filtered.length === 0) {
         showMessage('No hay problemas con estos filtros', 'info', 2500);
@@ -2059,7 +2356,12 @@ function startNewPuzzle(resetIndex, navDir) {
             if (puzzleSequentialIndex < 0) puzzleSequentialIndex = filtered.length - 1;
         } else {
             puzzleSequentialIndex++;
-            if (puzzleSequentialIndex >= filtered.length) puzzleSequentialIndex = 0;
+            // Al llegar al final, carga más puzzles de la API
+            if (puzzleSequentialIndex >= filtered.length) {
+                await fetchPuzzlesFromAPI(puzzleFilter.theme, 30);
+                filtered = getFilteredPuzzles();
+                puzzleSequentialIndex = 0;
+            }
         }
     }
 
@@ -2067,8 +2369,10 @@ function startNewPuzzle(resetIndex, navDir) {
     puzzleMoveIndex = 0;
     puzzleActive = true;
     puzzleMode = true;
+    document.body.classList.add('puzzle-mode-active');
     puzzleCorrectMoves = 0;
     puzzleWrongMoves = 0;
+    puzzleSolutionViewed = false;
     puzzleGeneration++;
 
     if (trainingActive) {
@@ -2087,6 +2391,19 @@ function startNewPuzzle(resetIndex, navDir) {
 
     game = new ChessGame();
     game.loadFromFEN(currentPuzzle.fen);
+
+    // Aplicar pre-movimiento de la IA (puzzles Lichess)
+    if (currentPuzzle.preMoves && currentPuzzle.preMoves.length > 0) {
+        currentPuzzle.preMoves.forEach(function(uci) {
+            var fc = uci.charCodeAt(0) - 97, fr = 8 - parseInt(uci[1]);
+            var tc = uci.charCodeAt(2) - 97, tr = 8 - parseInt(uci[3]);
+            game.makeMove(fr, fc, tr, tc);
+        });
+        lastMoveSquares = {
+            from: { row: 8 - parseInt(currentPuzzle.preMoves[0][1]), col: currentPuzzle.preMoves[0].charCodeAt(0) - 97 },
+            to:   { row: 8 - parseInt(currentPuzzle.preMoves[0][3]), col: currentPuzzle.preMoves[0].charCodeAt(2) - 97 }
+        };
+    }
 
     var turnColor = game.currentTurn === 'white' ? 'white' : 'black';
     playerColor = turnColor;
@@ -2210,6 +2527,7 @@ function puzzleCheckMove(fromRow, fromCol, toRow, toCol, promoType) {
         }
     } else {
         puzzleWrongMoves++;
+        applyEloChange(-1);
         selectedSquare = null;
         renderBoard();
         highlightPuzzleMove(toRow, toCol, false);
@@ -2267,13 +2585,16 @@ function puzzleSolved() {
     if (idx !== -1 && puzzleHistory.indexOf(idx) === -1) puzzleHistory.push(idx);
     savePuzzleStats();
     updatePuzzleStatsUI();
+    if (!puzzleSolutionViewed) {
+        applyEloChange(1);
+    }
     renderBoard();
     var total = puzzleCorrectMoves + puzzleWrongMoves;
     var pct = total > 0 ? Math.round(puzzleCorrectMoves / total * 100) : 100;
     var streakMsg = puzzleStats.streak > 0 ? ' | Racha: ' + puzzleStats.streak : '';
-    var solvedMsg = '🎉 ¡Problema resuelto! Aciertos: ' + puzzleCorrectMoves + ' | Fallos: ' + puzzleWrongMoves + ' | Precisión: ' + pct + '%' + streakMsg;
-    showPuzzleFeedback(solvedMsg, 'correct');
-    showBoardBanner(solvedMsg, 'puzzle-solved');
+    var sidebarMsg = '🎉 ¡Problema resuelto! Aciertos: ' + puzzleCorrectMoves + ' | Fallos: ' + puzzleWrongMoves + ' | Precisión: ' + pct + '%' + streakMsg;
+    showPuzzleFeedback(sidebarMsg, 'correct');
+    showBoardBanner('🎉 ¡Problema Resuelto!', 'puzzle-solved');
     document.getElementById('puzzle-hint').disabled = true;
     document.getElementById('puzzle-solution').disabled = true;
     updatePuzzleNavButtons();
@@ -2285,6 +2606,7 @@ function puzzleFailed() {
     puzzleStats.streak = 0;
     savePuzzleStats();
     updatePuzzleStatsUI();
+    applyEloChange(-1);
     var failMsg = '❌ No resuelto — La solución era: ' + formatPuzzleSolution();
     showPuzzleFeedback(failMsg, 'wrong');
     showBoardBanner(failMsg, 'puzzle-failed');
@@ -2380,16 +2702,14 @@ function puzzleShowHint() {
 
 function puzzleShowSolution() {
     if (!currentPuzzle) return;
-    puzzleActive = false;
+    puzzleSolutionViewed = true;
     puzzleStats.failed++;
     puzzleStats.streak = 0;
     savePuzzleStats();
     updatePuzzleStatsUI();
-    showPuzzleFeedback('Solución: ' + formatPuzzleSolution(), 'info');
+    showPuzzleFeedback('💡 Solución: ' + formatPuzzleSolution() + ' — Inténtalo ahora', 'info');
     showPuzzleSolutionOnBoard();
-    document.getElementById('puzzle-hint').disabled = true;
     document.getElementById('puzzle-solution').disabled = true;
-    updatePuzzleNavButtons();
 }
 
 function endPuzzleMode() {
@@ -2397,6 +2717,7 @@ function endPuzzleMode() {
     puzzleActive = false;
     currentPuzzle = null;
     puzzleGeneration++;
+    document.body.classList.remove('puzzle-mode-active');
     var info = document.getElementById('puzzle-info');
     if (info) info.style.display = 'none';
     updatePuzzleNavButtons();
@@ -2527,6 +2848,7 @@ function uciToSanCurrent(uci) {
 }
 
 function showVariantsPopup(variants, variantsKey, onSelectCallback) {
+    if (puzzleMode) return;
     hideVariantsPopup(false);
     if (!variants || variants.length === 0) return;
 
@@ -2735,6 +3057,13 @@ function continueTrainingFromVariant(variant, fromKey) {
 }
 
 function showOpeningName(name) {
+    if (playerColor === 'both') {
+        hideVariantsPopup(false);
+        const existingLog = document.getElementById('opening-log');
+        if (existingLog) existingLog.remove();
+        return;
+    }
+
     let log = document.getElementById('opening-log');
     if (!log) {
         log = document.createElement('div');
@@ -4111,17 +4440,26 @@ function updatePlayerColorPawnImages() {
     }
 }
 
+function isHumanTurn() {
+    return playerColor === 'both' || game.currentTurn === playerColor;
+}
+
 function syncPlayerColorUI() {
     var hidden = document.getElementById('player-color');
     var wBtn = document.getElementById('player-color-btn-white');
     var bBtn = document.getElementById('player-color-btn-black');
+    var bothBtn = document.getElementById('player-color-btn-both');
     if (hidden) hidden.value = playerColor;
-    if (wBtn && bBtn) {
+    if (wBtn && bBtn && bothBtn) {
         var isW = playerColor === 'white';
+        var isB = playerColor === 'black';
+        var isBoth = playerColor === 'both';
         wBtn.classList.toggle('player-color-option--selected', isW);
-        bBtn.classList.toggle('player-color-option--selected', !isW);
+        bBtn.classList.toggle('player-color-option--selected', isB);
+        bothBtn.classList.toggle('player-color-option--selected', isBoth);
         wBtn.setAttribute('aria-pressed', isW ? 'true' : 'false');
-        bBtn.setAttribute('aria-pressed', isW ? 'false' : 'true');
+        bBtn.setAttribute('aria-pressed', isB ? 'true' : 'false');
+        bothBtn.setAttribute('aria-pressed', isBoth ? 'true' : 'false');
     }
 }
 
@@ -4134,7 +4472,8 @@ function saveSettings() {
         showCoordinates: showCoordinates,
         showMoveInsights: showMoveInsights,
         timePerPlayer: timePerPlayer,
-        incrementPerMove: incrementPerMove
+        incrementPerMove: incrementPerMove,
+        soundEnabled: SoundFX.isEnabled()
     };
     localStorage.setItem('chess_settings', JSON.stringify(settings));
 }
@@ -4148,6 +4487,9 @@ function loadSavedSettings() {
             const settings = JSON.parse(savedSettings);
             
             playerColor = settings.playerColor != null ? settings.playerColor : 'white';
+            if (playerColor !== 'white' && playerColor !== 'black' && playerColor !== 'both') {
+                playerColor = 'white';
+            }
             aiDifficulty = settings.aiDifficulty != null ? settings.aiDifficulty : 1;
             boardTheme = settings.boardTheme != null ? settings.boardTheme : 'classic';
             pieceStyle = settings.pieceStyle != null ? settings.pieceStyle : 'cburnett';
@@ -4168,6 +4510,9 @@ function loadSavedSettings() {
             document.getElementById('piece-style').value = pieceStyle;
             document.getElementById('show-coordinates').checked = showCoordinates;
             document.getElementById('show-move-insights').checked = showMoveInsights;
+            const soundEnabled = settings.soundEnabled !== undefined ? settings.soundEnabled : true;
+            SoundFX.setEnabled(soundEnabled);
+            document.getElementById('sound-enabled').checked = soundEnabled;
             updatePieceStylePreview();
             
             const timeControl = `${timePerPlayer}+${incrementPerMove}`;
@@ -4185,10 +4530,27 @@ function loadSavedSettings() {
 
 function scrollToBoard() {
     const board = document.querySelector('.board-container');
-    if (board) board.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (!board) return;
+    // En móvil / responsive hacemos scroll al top primero para que el tablero quede visible
+    if (window.innerWidth <= 768) {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+        board.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
 }
 
 const VERSION_CHANGELOG = {
+    '2.5.5': [
+        'Fin de partida: mensaje y banner muestran ELO +/- (mate, tablas, tiempo y abandono)',
+        'Nuevo modo "🧑" en "Juegas con": persona vs persona (both), sin respuesta automática de IA',
+        'Modo both: giro dinámico de todas las piezas por turno para facilitar juego cara a cara en tablet / smartphone',
+        'Modo both: ocultadas variantes/aperturas sobre el tablero para una vista más limpia',
+        'Quiz: al cerrar "Quiz completado" se muestran variantes siguientes como en Ver Apertura',
+        'Quiz ELO ajustado: +1 por acierto y -2 por fallo',
+        'Problemas: conectado a la BD de Lichess con más de 5,5 millones de puzzles reales',
+        '      "Ver Solución" deja seguir intentando el puzzle pero sin sumar ELO',
+        '       UI más limpia — se ocultan piezas capturadas, botones de acción e historial al jugar',
+    ],
     '2.5.4': [
         'PWA: actualización fiable con updateViaCache:none, detección de SW waiting y chequeo al volver al tab',
     ],
@@ -4280,19 +4642,21 @@ function checkNewVersion() {
     const savedVersion = localStorage.getItem('app_version');
     if (!savedVersion || compareVersions(APP_VERSION, savedVersion) > 0) {
         if (savedVersion) {
-            const allChanges = [];
-            Object.keys(VERSION_CHANGELOG)
+            const versionsToShow = Object.keys(VERSION_CHANGELOG)
                 .filter(v => compareVersions(v, savedVersion) > 0 && compareVersions(v, APP_VERSION) <= 0)
-                .sort((a, b) => compareVersions(b, a))
-                .forEach(v => {
-                    VERSION_CHANGELOG[v].forEach(c => allChanges.push(c));
-                });
+                .sort((a, b) => compareVersions(b, a));
             let msg = `<strong>🆕 Nueva Versión ${APP_VERSION}</strong>`;
-            if (allChanges.length) {
-                msg += '<ul style="text-align:left;margin:8px 0 0;padding-left:18px;font-size:0.9em;">';
-                allChanges.forEach(c => msg += `<li>${c}</li>`);
-                msg += '<li style="margin-top:6px;font-style:italic;opacity:0.92;">… y muchos más cambios</li>';
-                msg += '</ul>';
+            if (versionsToShow.length) {
+                versionsToShow.forEach(v => {
+                    const changes = VERSION_CHANGELOG[v] || [];
+                    msg += `<div style="margin-top:10px;"><strong>v${v}</strong></div>`;
+                    if (changes.length) {
+                        msg += '<ul style="text-align:left;margin:6px 0 0;padding-left:18px;font-size:0.9em;">';
+                        changes.forEach(c => msg += `<li>${c}</li>`);
+                        msg += '</ul>';
+                    }
+                });
+                msg += '<p style="text-align:left;margin:10px 0 0;font-size:0.86em;font-style:italic;opacity:0.92;">… y muchos más cambios</p>';
             } else {
                 msg += '<p style="text-align:left;margin:10px 0 0;font-size:0.9em;font-style:italic;">… y muchos más cambios</p>';
             }
@@ -4300,7 +4664,18 @@ function checkNewVersion() {
                 localStorage.setItem('app_version', APP_VERSION);
             }), 500);
         } else {
-            localStorage.setItem('app_version', APP_VERSION);
+            const latestVersion = Object.keys(VERSION_CHANGELOG)
+                .sort((a, b) => compareVersions(b, a))[0] || APP_VERSION;
+            const latestChanges = VERSION_CHANGELOG[latestVersion] || [];
+            let msg = `<strong>🆕 Nueva Versión ${latestVersion}</strong>`;
+            if (latestChanges.length) {
+                msg += '<ul style="text-align:left;margin:8px 0 0;padding-left:18px;font-size:0.9em;">';
+                latestChanges.forEach(c => msg += `<li>${c}</li>`);
+                msg += '</ul>';
+            }
+            setTimeout(() => showMessage(msg, 'success', 0, () => {
+                localStorage.setItem('app_version', APP_VERSION);
+            }), 500);
         }
     }
 }
@@ -4325,6 +4700,9 @@ function showMessage(message, type = 'info', duration = 3000, onClose = null) {
     
     const messageBox = document.createElement('div');
     messageBox.className = `message-box message-${type}`;
+    if (typeof message === 'string' && message.indexOf('🆕 Nueva Versión') !== -1) {
+        messageBox.classList.add('message-box-changelog');
+    }
     
     const messageText = document.createElement('div');
     messageText.className = 'message-text';
@@ -4365,10 +4743,13 @@ function loadStats() {
     const savedStats = localStorage.getItem('chess_stats');
     if (savedStats) {
         try {
-            stats = JSON.parse(savedStats);
+            const parsed = JSON.parse(savedStats);
+            stats = parsed;
+            if (stats.elo == null) stats.elo = 1200;
+            if (stats.gamesPlayed == null) stats.gamesPlayed = stats.wins + stats.draws + stats.losses;
         } catch (error) {
             console.error('Error al cargar estadísticas:', error);
-            stats = { wins: 0, draws: 0, losses: 0 };
+            stats = { wins: 0, draws: 0, losses: 0, elo: 1200, gamesPlayed: 0 };
         }
     }
     updateStatsDisplay();
@@ -4385,10 +4766,13 @@ function updateStatsDisplay() {
     document.getElementById('stat-wins').textContent = stats.wins;
     document.getElementById('stat-draws').textContent = stats.draws;
     document.getElementById('stat-losses').textContent = stats.losses;
+    const eloEl = document.getElementById('stat-elo');
+    if (eloEl) eloEl.textContent = stats.elo != null ? stats.elo : 1200;
 }
 
 // Registrar resultado de partida
 function recordGameResult(result) {
+    if (playerColor === 'both') return 0;
     if (result === 'win') {
         stats.wins++;
     } else if (result === 'draw') {
@@ -4396,13 +4780,23 @@ function recordGameResult(result) {
     } else if (result === 'loss') {
         stats.losses++;
     }
-    saveStats();
+    stats.gamesPlayed = (stats.gamesPlayed || 0) + 1;
+    const opponentElo = AI_ELO_MAP[aiDifficulty] || 1200;
+    const score = result === 'win' ? 1 : result === 'draw' ? 0.5 : 0;
+    const delta = calcEloChange(stats.elo, opponentElo, score, stats.gamesPlayed);
+    applyEloChange(delta);
+    return delta;
+}
+
+function formatEloDelta(delta) {
+    if (typeof delta !== 'number' || Number.isNaN(delta)) return '';
+    return ` (ELO ${delta >= 0 ? '+' : ''}${delta})`;
 }
 
 // Reiniciar estadísticas
 function resetStats() {
     showConfirmDialog('¿Reiniciar las estadísticas a cero?', () => {
-        stats = { wins: 0, draws: 0, losses: 0 };
+        stats = { wins: 0, draws: 0, losses: 0, elo: 1200, gamesPlayed: 0 };
         saveStats();
         showMessage('Estadísticas reiniciadas', 'success', 2000);
     });
@@ -4420,10 +4814,11 @@ function resignGame() {
     showConfirmDialog('¿Seguro que quieres abandonar la partida?', () => {
         game.gameOver = true;
         stopClock();
-        recordGameResult('loss');
+        const eloDelta = recordGameResult('loss');
+        SoundFX.lose();
         clearAutoSavedGame();
         updateUndoButton();
-        showMessage('Has abandonado la partida', 'error', 0);
+        showMessage(`Has abandonado la partida.${formatEloDelta(eloDelta)}`, 'error', 0);
         setTimeout(showAnalysisButton, 100);
     });
 }
@@ -4460,9 +4855,10 @@ function offerDraw() {
         if (accepted) {
             game.gameOver = true;
             stopClock();
-            recordGameResult('draw');
+            const eloDelta = recordGameResult('draw');
+            SoundFX.draw();
             clearAutoSavedGame();
-            showMessage('Tablas aceptadas', 'info', 3000);
+            showMessage(`Tablas aceptadas.${formatEloDelta(eloDelta)}`, 'info', 3000);
         } else {
             const evalText = aiEval > 1.0 ? ' (tiene ventaja)' : '';
             showMessage(`El rival rechaza las tablas${evalText}`, 'warning', 2000);
@@ -4569,9 +4965,14 @@ document.addEventListener('DOMContentLoaded', () => {
             var btn = e.target.closest('.player-color-option');
             if (!btn) return;
             var c = btn.getAttribute('data-color');
-            if (c !== 'white' && c !== 'black') return;
+            if (c !== 'white' && c !== 'black' && c !== 'both') return;
             if (playerColor === c) return;
             playerColor = c;
+            if (playerColor === 'both') {
+                hideVariantsPopup(false);
+                const openingLog = document.getElementById('opening-log');
+                if (openingLog) openingLog.remove();
+            }
             syncPlayerColorUI();
             renderBoard();
             renderCoordinateLabels();
@@ -4601,6 +5002,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     document.getElementById('show-move-insights').addEventListener('change', (e) => {
         showMoveInsights = e.target.checked;
+        saveSettings();
+    });
+    document.getElementById('sound-enabled').addEventListener('change', (e) => {
+        SoundFX.setEnabled(e.target.checked);
+        if (e.target.checked) SoundFX.move();
         saveSettings();
     });
     document.getElementById('time-control').addEventListener('change', (e) => {
@@ -5047,7 +5453,9 @@ function startNewGame() {
         const el = document.getElementById(id);
         if (el) el.disabled = true;
     });
-    
+
+    SoundFX.start();
+
     if (playerColor === 'black') {
         setTimeout(() => makeAIMove(), 800);
     }
@@ -5391,6 +5799,9 @@ function showLoadedGameMessage(title, isFinished, pgnResult) {
             msg += `<br>Partida finalizada`;
         }
     } else {
+        if (title === 'Apertura completada') {
+            msg += `<br><span style="font-size:0.85em;color:#9ca3af;">Pulsa variantes sobre el tablero para reemprender apertura</span>`;
+        }
         msg += `<br>Turno: ${turnLabel}`;
         msg += `<br>Pulsa Continuar Partida`;
     }
@@ -5470,7 +5881,7 @@ function showContinueButton() {
 
     if (!game.gameOver) {
         startClock();
-            if (game.currentTurn !== playerColor) {
+            if (playerColor !== 'both' && game.currentTurn !== playerColor) {
                 setTimeout(() => makeAIMove(), 800);
             }
         }
@@ -5706,7 +6117,26 @@ function quizFinished() {
     document.getElementById('opening-training-moves').style.display = '';
     const total = quizCorrect + quizWrong;
     const pct = total > 0 ? Math.round(quizCorrect / total * 100) : 0;
-    showMessage(`<strong>Quiz completado: ${trainingOpening.name}</strong><br>Aciertos: ${quizCorrect} | Fallos: ${quizWrong} | Precisión: ${pct}%`, 'success', 0);
+    const quizEloDelta = quizCorrect - (quizWrong * 2);
+    if (quizEloDelta !== 0) {
+        applyEloChange(quizEloDelta);
+    }
+    showMessage(
+        `<strong>Quiz completado: ${trainingOpening.name}</strong><br>Aciertos: ${quizCorrect} | Fallos: ${quizWrong} | Precisión: ${pct}%<br>ELO quiz: ${quizEloDelta >= 0 ? '+' : ''}${quizEloDelta}`,
+        'success',
+        0,
+        () => {
+            const history = game.moveHistoryUCI || [];
+            const variants = getOpeningVariants(history);
+            if (variants.length > 0) {
+                const key = history.join(' ');
+                showVariantsPopup(variants, key, (selectedVariant) => {
+                    trainingResumeCallback = null;
+                    continueTrainingFromVariant(selectedVariant, key);
+                });
+            }
+        }
+    );
     showContinueButton();
 }
 
@@ -6157,8 +6587,8 @@ function buildPGNContent() {
 
     const diffSelect = document.getElementById('ai-difficulty');
     const diffLabel = diffSelect ? diffSelect.options[diffSelect.selectedIndex].text : ('Nivel ' + aiDifficulty);
-    const whitePlayer = playerColor === 'white' ? 'Jugador' : ('AjedrezIA');
-    const blackPlayer = playerColor === 'black' ? 'Jugador' : ('AjedrezIA');
+    const whitePlayer = (playerColor === 'white' || playerColor === 'both') ? 'Jugador' : ('AjedrezIA');
+    const blackPlayer = (playerColor === 'black' || playerColor === 'both') ? 'Jugador' : ('AjedrezIA');
     var fgt = document.getElementById('famous-game-title'); const famousTitle = (fgt && fgt.textContent) || '';
     const defaultEvent = 'AjedrezIA - ' + diffLabel;
 
@@ -6813,7 +7243,7 @@ function resumeGame(silent) {
         }
         
         // Si es el turno de la IA, que mueva
-        if (!game.gameOver && game.currentTurn !== playerColor) {
+        if (!game.gameOver && playerColor !== 'both' && game.currentTurn !== playerColor) {
             setTimeout(() => makeAIMove(), 800);
         }
         
@@ -6881,13 +7311,14 @@ function startClock() {
                 clearAutoSavedGame();
                 
                 // Registrar estadística (negras ganan)
+                let eloDelta = 0;
                 if (playerColor === 'black') {
-                    recordGameResult('win');
+                    eloDelta = recordGameResult('win');
                 } else {
-                    recordGameResult('loss');
+                    eloDelta = recordGameResult('loss');
                 }
                 
-                showMessage('¡Se acabó el tiempo de las blancas! Las negras ganan.', 'error', 0);
+                showMessage(`¡Se acabó el tiempo de las blancas! Las negras ganan.${formatEloDelta(eloDelta)}`, 'error', 0);
                 setTimeout(showAnalysisButton, 100);
                 return;
             }
@@ -6899,13 +7330,14 @@ function startClock() {
                 clearAutoSavedGame();
                 
                 // Registrar estadística (blancas ganan)
+                let eloDelta = 0;
                 if (playerColor === 'white') {
-                    recordGameResult('win');
+                    eloDelta = recordGameResult('win');
                 } else {
-                    recordGameResult('loss');
+                    eloDelta = recordGameResult('loss');
                 }
                 
-                showMessage('¡Se acabó el tiempo de las negras! Las blancas ganan.', 'error', 0);
+                showMessage(`¡Se acabó el tiempo de las negras! Las blancas ganan.${formatEloDelta(eloDelta)}`, 'error', 0);
                 setTimeout(showAnalysisButton, 100);
                 return;
             }
@@ -7028,6 +7460,7 @@ function renderBoard() {
             // Agregar pieza si existe
             const piece = game.getPiece(displayRow, displayCol);
             if (piece) {
+                const rotateForBothMode = playerColor === 'both' && game.currentTurn === 'black';
                 // Verificar si se debe usar SVG o emoji
                 if (SVG_PIECE_SETS.includes(pieceStyle)) {
                     // Usar imagen SVG
@@ -7052,6 +7485,7 @@ function renderBoard() {
                     
                     pieceImg.src = `pieces/${pieceStyle}/${fileName}`;
                     pieceImg.alt = piece.piece;
+                    if (rotateForBothMode) pieceImg.classList.add('piece-rotate-180');
                     square.appendChild(pieceImg);
                 } else {
                     // Usar emoji/texto
@@ -7059,6 +7493,7 @@ function renderBoard() {
                 pieceElement.className = 'piece';
                     pieceElement.dataset.color = piece.color;
                     pieceElement.dataset.type = piece.type;
+                    if (rotateForBothMode) pieceElement.classList.add('piece-rotate-180');
                 pieceElement.textContent = piece.piece;
                 square.appendChild(pieceElement);
                 }
@@ -7177,6 +7612,7 @@ function handleSquareClick(row, col) {
         handlePuzzleClick(row, col);
         return;
     }
+    if (puzzleMode) return;
 
     if (trainingFreeMode && trainingActive) {
         handleFreeTrainingClick(row, col);
@@ -7217,7 +7653,7 @@ function handleSquareClick(row, col) {
     }
 
     // Solo permitir mover las piezas del jugador (siempre vs IA)
-    if (game.currentTurn !== playerColor) return;
+    if (!isHumanTurn()) return;
     
     const clickedPiece = game.getPiece(row, col);
     
@@ -7243,7 +7679,7 @@ function handleSquareClick(row, col) {
             }
 
             executeMove(selectedSquare.row, selectedSquare.col, row, col);
-        } else if (clickedPiece && clickedPiece.color === playerColor) {
+        } else if (clickedPiece && clickedPiece.color === game.currentTurn) {
             // Seleccionar otra pieza propia
             selectedSquare = { row, col };
             highlightValidMoves(row, col);
@@ -7269,11 +7705,12 @@ function handleDragStart(e, row, col) {
     const piece = game.getPiece(row, col);
     if (!piece) return;
 
+    if (puzzleMode && !puzzleActive) return;
     const isPuzzleActive = puzzleMode && puzzleActive;
     const isFreeTraining = trainingFreeMode && trainingActive;
-    const allowedColor = (quizMode || isFreeTraining || isPuzzleActive) ? game.currentTurn : playerColor;
+    const allowedColor = (quizMode || isFreeTraining || isPuzzleActive || playerColor === 'both') ? game.currentTurn : playerColor;
     if (piece.color !== allowedColor) return;
-    if (!quizMode && !isFreeTraining && !isPuzzleActive && game.currentTurn !== playerColor) return;
+    if (!quizMode && !isFreeTraining && !isPuzzleActive && playerColor !== 'both' && game.currentTurn !== playerColor) return;
 
     e.preventDefault();
 
@@ -7361,6 +7798,8 @@ function handleDragEnd(e) {
         }
         if (puzzleMode && puzzleActive) {
             puzzleCheckMove(fromRow, fromCol, dropRow, dropCol);
+        } else if (puzzleMode) {
+            // puzzle ended (solved/failed) – ignore drop
         } else if (trainingFreeMode && trainingActive) {
             executeFreeTrainingMove(fromRow, fromCol, dropRow, dropCol);
         } else if (quizMode) {
@@ -8092,7 +8531,7 @@ function getMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece, mo
 }
 
 function showMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece) {
-    if (!showMoveInsights) return;
+    if (!showMoveInsights || puzzleMode) return;
     var moveCount = (game.moveHistory || []).length;
     var insights = getMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece, moveCount);
     if (insights.length === 0) return;
@@ -8168,6 +8607,20 @@ function executeMove(fromRow, fromCol, toRow, toCol, promotionPiece) {
     selectedSquare = null;
     if (!clockInterval) startClock();
     addTimeIncrement();
+
+    // — Sonido del movimiento —
+    if (result) {
+        const isCastle    = pieceBeforeMove && pieceBeforeMove.type === 'king' && Math.abs(toCol - fromCol) === 2;
+        const isPromo     = pieceBeforeMove && pieceBeforeMove.type === 'pawn' && (toRow === 0 || toRow === 7) && promotionPiece;
+        const isCapture   = !!capturedBeforeMove || (pieceBeforeMove && pieceBeforeMove.type === 'pawn' && fromCol !== toCol && !capturedBeforeMove);
+        if      (result.status === 'checkmate') SoundFX.checkmate ? SoundFX.lose() : SoundFX.lose();
+        else if (result.status === 'check')     SoundFX.check();
+        else if (isPromo)                       SoundFX.promotion();
+        else if (isCastle)                      SoundFX.castle();
+        else if (isCapture)                     SoundFX.capture();
+        else                                    SoundFX.move();
+    }
+
     renderBoard();
     updateCapturedPieces();
     updateMoveHistory();
@@ -8182,7 +8635,7 @@ function executeMove(fromRow, fromCol, toRow, toCol, promotionPiece) {
         showMoveInsight(fromRow, fromCol, toRow, toCol, pieceBeforeMove, capturedBeforeMove);
     }
     handleGameResult(result);
-    if (!game.gameOver && game.currentTurn !== playerColor) {
+    if (!game.gameOver && playerColor !== 'both' && game.currentTurn !== playerColor) {
         setTimeout(() => makeAIMove(), 800);
     }
 }
@@ -8465,7 +8918,18 @@ function showBoardBanner(text, type) {
     const banner = document.getElementById('board-banner');
     if (!banner) return;
     banner.className = 'board-banner';
-    banner.textContent = text;
+    banner.textContent = '';
+    const eloMatch = text.match(/\s*(\(ELO [^)]+\))\s*$/);
+    const mainText = eloMatch ? text.slice(0, eloMatch.index).trimEnd() : text;
+
+    banner.appendChild(document.createTextNode(mainText));
+
+    if (eloMatch) {
+        const eloLine = document.createElement('span');
+        eloLine.className = 'board-banner-elo';
+        eloLine.textContent = eloMatch[1];
+        banner.appendChild(eloLine);
+    }
     banner.classList.add(`banner-${type}`);
     banner.onclick = hideBoardBanner;
 }
@@ -8478,42 +8942,43 @@ function hideBoardBanner() {
 }
 
 function handleGameResult(result) {
+    if (puzzleMode) return;
     if (result.status === 'checkmate') {
         const winner = result.winner === 'white' ? 'Blancas' : 'Negras';
         stopClock();
         clearAutoSavedGame();
-        showBoardBanner(`♚ ¡JAQUE MATE! — Ganan ${winner}`, 'checkmate');
-        
+        let eloDelta = 0;
         if (result.winner === playerColor) {
-            recordGameResult('win');
+            eloDelta = recordGameResult('win');
+            setTimeout(() => SoundFX.win(), 200);
         } else {
-            recordGameResult('loss');
+            eloDelta = recordGameResult('loss');
+            setTimeout(() => SoundFX.lose(), 200);
         }
+        showBoardBanner(`♚ ¡JAQUE MATE! — Ganan ${winner}${formatEloDelta(eloDelta)}`, 'checkmate');
         
         setTimeout(() => {
-            showMessage(`¡Jaque mate! ${winner} ganan.`, 'success', 0);
+            showMessage(`¡Jaque mate! ${winner} ganan.${formatEloDelta(eloDelta)}`, 'success', 0);
             showAnalysisButton();
         }, 300);
     } else if (result.status === 'stalemate') {
         stopClock();
         clearAutoSavedGame();
-        showBoardBanner('½ TABLAS — Ahogado', 'stalemate');
-        
-        recordGameResult('draw');
-        
+        const eloDelta = recordGameResult('draw');
+        showBoardBanner(`½ TABLAS — Ahogado${formatEloDelta(eloDelta)}`, 'stalemate');
+        setTimeout(() => SoundFX.draw(), 200);
         setTimeout(() => {
-            showMessage('¡Tablas por ahogado!', 'info', 0);
+            showMessage(`¡Tablas por ahogado!${formatEloDelta(eloDelta)}`, 'info', 0);
             showAnalysisButton();
         }, 300);
     } else if (result.status === 'threefold') {
         stopClock();
         clearAutoSavedGame();
-        showBoardBanner('½ TABLAS — Triple repetición', 'stalemate');
-        
-        recordGameResult('draw');
-        
+        const eloDelta = recordGameResult('draw');
+        showBoardBanner(`½ TABLAS — Triple repetición${formatEloDelta(eloDelta)}`, 'stalemate');
+        setTimeout(() => SoundFX.draw(), 200);
         setTimeout(() => {
-            showMessage('¡Tablas por triple repetición!', 'info', 0);
+            showMessage(`¡Tablas por triple repetición!${formatEloDelta(eloDelta)}`, 'info', 0);
             showAnalysisButton();
         }, 300);
     } else if (result.status === 'check') {
@@ -8554,8 +9019,21 @@ async function makeAIMove() {
                     to: { row: move.toRow, col: move.toCol }
                 };
                 bestMoveSquares = { from: null, to: null };
-                
+
+                const aiPieceBefore    = game.getPiece(move.fromRow, move.fromCol);
+                const aiCaptureBefore  = game.getPiece(move.toRow, move.toCol);
                 const result = game.makeMove(move.fromRow, move.fromCol, move.toRow, move.toCol);
+
+                // — Sonido del movimiento de la IA —
+                if (result) {
+                    const isCastle  = aiPieceBefore && aiPieceBefore.type === 'king' && Math.abs(move.toCol - move.fromCol) === 2;
+                    const isCapture = !!aiCaptureBefore || (aiPieceBefore && aiPieceBefore.type === 'pawn' && move.fromCol !== move.toCol && !aiCaptureBefore);
+                    if      (result.status === 'checkmate') SoundFX.lose();
+                    else if (result.status === 'check')     SoundFX.check();
+                    else if (isCastle)                      SoundFX.castle();
+                    else if (isCapture)                     SoundFX.capture();
+                    else                                    SoundFX.move();
+                }
                 
                 // Agregar incremento al jugador que acaba de mover
                 addTimeIncrement();

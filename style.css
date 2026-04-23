@@ -355,6 +355,44 @@ header h1 {
     opacity: 0.85;
 }
 
+.puzzle-loading-msg {
+    position: absolute;
+    inset: 0;
+    z-index: 60;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    background: rgba(255, 255, 255, 0.88);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border-radius: 4px;
+    font-size: 0.92rem;
+    font-weight: 700;
+    color: #1d4ed8;
+    letter-spacing: 0.02em;
+    text-align: center;
+    animation: puzzle-loading-fadein 0.2s ease;
+}
+.puzzle-loading-msg::before {
+    content: '';
+    width: 38px;
+    height: 38px;
+    border: 4px solid #bfdbfe;
+    border-top-color: #1d4ed8;
+    border-radius: 50%;
+    animation: puzzle-spinner 0.75s linear infinite;
+    flex-shrink: 0;
+}
+@keyframes puzzle-loading-fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@keyframes puzzle-spinner {
+    to { transform: rotate(360deg); }
+}
+
 .puzzle-stats {
     display: flex;
     gap: 16px;
@@ -371,6 +409,20 @@ header h1 {
     display: inline-flex;
     align-items: center;
     gap: 4px;
+}
+
+/* Ocultar elementos del juego mientras se está en modo problema */
+body.puzzle-mode-active #captured-below,
+body.puzzle-mode-active .board-action-buttons,
+body.puzzle-mode-active .move-navigator {
+    display: none !important;
+}
+
+/* En móvil ocultar también los relojes en modo problema */
+@media (max-width: 768px) {
+    body.puzzle-mode-active .mini-clock {
+        display: none !important;
+    }
 }
 
 .puzzle-solved {
@@ -625,6 +677,37 @@ header h1 {
     grid-template-columns: repeat(3, 1fr);
     gap: 6px;
     margin-bottom: 12px;
+}
+
+.stat-elo {
+    background: #e5e7eb;
+    border-color: #4b5563;
+    margin-bottom: 8px;
+    position: relative;
+    overflow: visible;
+}
+
+.stat-elo .stat-value {
+    color: #2563eb;
+}
+
+.elo-delta {
+    position: absolute;
+    top: -4px;
+    right: 6px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    pointer-events: none;
+    animation: eloDeltaFly 2.2s ease-out forwards;
+}
+
+.elo-delta-up   { color: #16a34a; }
+.elo-delta-down { color: #dc2626; }
+
+@keyframes eloDeltaFly {
+    0%   { opacity: 1; transform: translateY(0); }
+    70%  { opacity: 1; transform: translateY(-18px); }
+    100% { opacity: 0; transform: translateY(-28px); }
 }
 
 .stat-item {
@@ -1091,6 +1174,9 @@ header h1 {
     align-items: center;
     gap: 20px;
     order: 2;
+    position: sticky;
+    top: 20px;
+    align-self: flex-start;
 }
 
 .board-wrapper {
@@ -1101,7 +1187,7 @@ header h1 {
 
 .board-with-coords {
     --sq: 80px;
-    --sq: min(80px, calc((100vw - 80px) / 8));
+    --sq: min(80px, calc((100vw - 80px) / 8), calc((100vh - 280px) / 8));
     display: flex;
     align-items: center;
     margin-left: -8px;
@@ -1282,6 +1368,14 @@ header h1 {
     pointer-events: none;
     animation: bannerSlideIn 0.35s ease-out;
     text-shadow: 0 1px 4px rgba(0,0,0,0.3);
+}
+
+.board-banner-elo {
+    display: block;
+    margin-top: 4px;
+    font-size: 0.72em;
+    font-weight: 700;
+    letter-spacing: 0.5px;
 }
 
 .board-banner.banner-check {
@@ -1569,6 +1663,18 @@ header h1 {
 .piece-svg.moving {
     transform: scale(1.15);
     opacity: 0.7;
+}
+
+.piece-rotate-180 {
+    transform: rotate(180deg);
+}
+
+.piece.piece-rotate-180.moving {
+    transform: rotate(180deg) scale(1.1);
+}
+
+.piece-svg.piece-rotate-180.moving {
+    transform: rotate(180deg) scale(1.15);
 }
 
 .drag-ghost {
@@ -1940,6 +2046,20 @@ header h1 {
 
 .message-text {
     margin-bottom: 0;
+}
+
+.message-box-changelog {
+    width: min(92vw, 760px);
+    max-height: min(80vh, 720px);
+    padding: 22px 22px 18px;
+}
+
+.message-box-changelog .message-text {
+    max-height: calc(min(80vh, 720px) - 62px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 4px 10px 4px 4px;
+    text-align: left;
 }
 
 .message-close-btn {
@@ -2414,6 +2534,7 @@ header h1 {
     .board-container {
         order: 2 !important;
         margin: 0 auto;
+        position: static;
     }
 
     .sidebar-right {
@@ -2979,6 +3100,7 @@ header h1 {
         gap: 6px;
         --square-size: calc((100vw - 60px) / 8);
         --square-size: min(80px, calc((100vw - 60px) / 8));
+        position: static;
     }
 
     /* Evitar doble espacio: el fallback global añade margin-top:20px a cada hijo */
