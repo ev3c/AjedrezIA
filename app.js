@@ -1,4 +1,4 @@
-const APP_VERSION = '2.5.7';
+// APP_VERSION se define en version.js (cargado antes en index.html)
 
 // ─────────────────────────────────────────────────────────
 // SISTEMA DE SONIDO — Web Audio API (sin archivos externos)
@@ -4543,6 +4543,9 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '2.5.8': [
+        'Actualización automática de nuevas versiones SW, CSS y scripts en todos los dispositivos',
+    ],
     '2.5.7': [
         'Configuración: campo Nickname para personalizar el nombre del jugador (guardado entre sesiones)',
         'Título sobre el tablero: muestra "♔ Jugador (ELO) vs ♚ AjedrezIA (Nivel)" al iniciar partida',
@@ -5287,7 +5290,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
 
-        navigator.serviceWorker.register('./sw.js', { updateViaCache: 'none' })
+        navigator.serviceWorker.register(`./sw.js?v=${APP_VERSION}`, { updateViaCache: 'none' })
             .then(function(reg) {
                 if (reg.waiting) {
                     promptSwUpdate(reg.waiting);

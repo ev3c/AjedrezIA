@@ -33,7 +33,8 @@
     <link rel="icon" href="icons/icon-192.png" type="image/png">
     <link rel="apple-touch-icon" href="icons/icon-192.png">
     <link rel="manifest" href="manifest.json">
-    <link rel="stylesheet" href="style.css?v=21">
+    <script src="version.js"></script>
+    <script>document.write('<link rel="stylesheet" href="style.css?v=' + APP_VERSION + '">');</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -626,8 +627,10 @@
         </div>
     </div>
 
-    <script src="chess-logic.js?v=21"></script>
-    <script src="app.js?v=21"></script>
+    <script>
+        document.write('<script src="chess-logic.js?v=' + APP_VERSION + '"><\/script>');
+        document.write('<script src="app.js?v=' + APP_VERSION + '"><\/script>');
+    </script>
 </body>
 </html>
 
