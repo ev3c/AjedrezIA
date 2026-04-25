@@ -1,4 +1,4 @@
-const APP_VERSION = '2.5.5';
+const APP_VERSION = '2.5.7';
 
 // ─────────────────────────────────────────────────────────
 // SISTEMA DE SONIDO — Web Audio API (sin archivos externos)
@@ -129,6 +129,7 @@ const SoundFX = (() => {
 
 let game = null;
 let playerColor = 'white';
+let playerNickname = 'Jugador';
 let selectedSquare = null;
 let gameMode = 'vs-ai'; // vs-ai, vs-human, puzzle
 let aiDifficulty = 1; // Nivel Stockfish (0-20)
@@ -2422,8 +2423,6 @@ async function startNewPuzzle(resetIndex, navDir) {
     updateEvalBar();
     scrollToBoard();
 
-    var info = document.getElementById('puzzle-info');
-    info.style.display = 'block';
     var filtered = getFilteredPuzzles();
     var counterText = ' (' + (puzzleSequentialIndex + 1) + ' de ' + filtered.length + ')';
     document.getElementById('puzzle-title').textContent = currentPuzzle.title + counterText;
@@ -2718,8 +2717,8 @@ function endPuzzleMode() {
     currentPuzzle = null;
     puzzleGeneration++;
     document.body.classList.remove('puzzle-mode-active');
-    var info = document.getElementById('puzzle-info');
-    if (info) info.style.display = 'none';
+    document.getElementById('puzzle-hint').disabled = true;
+    document.getElementById('puzzle-solution').disabled = true;
     updatePuzzleNavButtons();
     setPuzzleActionsLocked(false);
 }
@@ -4473,7 +4472,8 @@ function saveSettings() {
         showMoveInsights: showMoveInsights,
         timePerPlayer: timePerPlayer,
         incrementPerMove: incrementPerMove,
-        soundEnabled: SoundFX.isEnabled()
+        soundEnabled: SoundFX.isEnabled(),
+        playerNickname: playerNickname
     };
     localStorage.setItem('chess_settings', JSON.stringify(settings));
 }
@@ -4504,6 +4504,7 @@ function loadSavedSettings() {
                 aiDifficulty = OLD_TO_NEW[aiDifficulty] || (aiDifficulty <= 5 ? 2 : aiDifficulty <= 8 ? 4 : 6);
             }
 
+            playerNickname = settings.playerNickname || 'Jugador';
             document.getElementById('player-color').value = playerColor;
             document.getElementById('ai-difficulty').value = aiDifficulty;
             document.getElementById('board-theme').value = boardTheme;
@@ -4513,6 +4514,8 @@ function loadSavedSettings() {
             const soundEnabled = settings.soundEnabled !== undefined ? settings.soundEnabled : true;
             SoundFX.setEnabled(soundEnabled);
             document.getElementById('sound-enabled').checked = soundEnabled;
+            const nicknameEl = document.getElementById('player-nickname');
+            if (nicknameEl) nicknameEl.value = playerNickname;
             updatePieceStylePreview();
             
             const timeControl = `${timePerPlayer}+${incrementPerMove}`;
@@ -4540,6 +4543,16 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '2.5.7': [
+        'Configuración: campo Nickname para personalizar el nombre del jugador (guardado entre sesiones)',
+        'Título sobre el tablero: muestra "♔ Jugador (ELO) vs ♚ AjedrezIA (Nivel)" al iniciar partida',
+        'Botón "🌐 Jugar Online" en "Juegas con" (en construcción)',
+        'Reloj de Ajedrez: panel ahora plegable con estado recordado entre sesiones',
+        'Responsive/smartphone: paneles Problemas, Aperturas y Partidas Maestras se mueven bajo la barra de evaluación usarse',
+        'Problemas: Botón "Cargar Problema" explícito — la categoría no carga automáticamente... y más mejoras',
+        'Entrenar Aperturas: botón "Ver Apertura" recolocado sobre Variantes Conocidas',
+        'Changelog: al detectar nueva versión se muestra el historial completo de todas las versiones',
+    ],
     '2.5.5': [
         'Fin de partida: mensaje y banner muestran ELO +/- (mate, tablas, tiempo y abandono)',
         'Nuevo modo "🧑" en "Juegas con": persona vs persona (both), sin respuesta automática de IA',
@@ -4638,45 +4651,28 @@ function compareVersions(a, b) {
     return 0;
 }
 
+function scrollToResponsivePanel(panelEl) {
+    setTimeout(() => panelEl.scrollIntoView({ behavior: 'smooth', block: 'start' }), 80);
+}
+
 function checkNewVersion() {
     const savedVersion = localStorage.getItem('app_version');
     if (!savedVersion || compareVersions(APP_VERSION, savedVersion) > 0) {
-        if (savedVersion) {
-            const versionsToShow = Object.keys(VERSION_CHANGELOG)
-                .filter(v => compareVersions(v, savedVersion) > 0 && compareVersions(v, APP_VERSION) <= 0)
-                .sort((a, b) => compareVersions(b, a));
-            let msg = `<strong>🆕 Nueva Versión ${APP_VERSION}</strong>`;
-            if (versionsToShow.length) {
-                versionsToShow.forEach(v => {
-                    const changes = VERSION_CHANGELOG[v] || [];
-                    msg += `<div style="margin-top:10px;"><strong>v${v}</strong></div>`;
-                    if (changes.length) {
-                        msg += '<ul style="text-align:left;margin:6px 0 0;padding-left:18px;font-size:0.9em;">';
-                        changes.forEach(c => msg += `<li>${c}</li>`);
-                        msg += '</ul>';
-                    }
-                });
-                msg += '<p style="text-align:left;margin:10px 0 0;font-size:0.86em;font-style:italic;opacity:0.92;">… y muchos más cambios</p>';
-            } else {
-                msg += '<p style="text-align:left;margin:10px 0 0;font-size:0.9em;font-style:italic;">… y muchos más cambios</p>';
-            }
-            setTimeout(() => showMessage(msg, 'success', 0, () => {
-                localStorage.setItem('app_version', APP_VERSION);
-            }), 500);
-        } else {
-            const latestVersion = Object.keys(VERSION_CHANGELOG)
-                .sort((a, b) => compareVersions(b, a))[0] || APP_VERSION;
-            const latestChanges = VERSION_CHANGELOG[latestVersion] || [];
-            let msg = `<strong>🆕 Nueva Versión ${latestVersion}</strong>`;
-            if (latestChanges.length) {
-                msg += '<ul style="text-align:left;margin:8px 0 0;padding-left:18px;font-size:0.9em;">';
-                latestChanges.forEach(c => msg += `<li>${c}</li>`);
+        const allVersions = Object.keys(VERSION_CHANGELOG)
+            .sort((a, b) => compareVersions(b, a));
+        let msg = `<strong>🆕 Nueva Versión ${APP_VERSION}</strong>`;
+        allVersions.forEach(v => {
+            const changes = VERSION_CHANGELOG[v] || [];
+            msg += `<div style="margin-top:10px;"><strong>v${v}</strong></div>`;
+            if (changes.length) {
+                msg += '<ul style="text-align:left;margin:6px 0 0;padding-left:18px;font-size:0.9em;">';
+                changes.forEach(c => msg += `<li>${c}</li>`);
                 msg += '</ul>';
             }
-            setTimeout(() => showMessage(msg, 'success', 0, () => {
-                localStorage.setItem('app_version', APP_VERSION);
-            }), 500);
-        }
+        });
+        setTimeout(() => showMessage(msg, 'success', 0, () => {
+            localStorage.setItem('app_version', APP_VERSION);
+        }), 500);
     }
 }
 
@@ -4933,7 +4929,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Panel colapsable de Configuración
     document.querySelectorAll('.panel-collapsible').forEach(panel => {
         const key = 'panel_' + panel.id;
-        if (panel.id !== 'puzzles-panel' && localStorage.getItem(key) === 'open') {
+        if (localStorage.getItem(key) === 'open') {
             panel.classList.remove('collapsed');
         }
         const body = panel.querySelector('.panel-body');
@@ -4950,9 +4946,30 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             panel.classList.toggle('collapsed');
             localStorage.setItem(key, panel.classList.contains('collapsed') ? 'closed' : 'open');
-            if (panel.id === 'puzzles-panel' && !panel.classList.contains('collapsed') && !puzzleMode) {
-                puzzleFilter.theme = document.getElementById('puzzle-theme-select').value;
-                startNewPuzzle(true);
+            const isResponsive = window.matchMedia('(max-width: 1024px) and (orientation: portrait)').matches;
+            if (panel.id === 'puzzles-panel') {
+                const isOpen = !panel.classList.contains('collapsed');
+                if (!isOpen) {
+                    document.body.classList.remove('puzzle-panel-open');
+                    restorePanelPosition('puzzles-panel');
+                }
+                if (isOpen) {
+                    puzzleFilter.theme = document.getElementById('puzzle-theme-select').value;
+                }
+            }
+            if (panel.id === 'openings-panel') {
+                const isOpen = !panel.classList.contains('collapsed');
+                if (!isOpen) {
+                    document.body.classList.remove('openings-panel-open');
+                    restorePanelPosition('openings-panel');
+                }
+            }
+            if (panel.id === 'famous-panel') {
+                const isOpen = !panel.classList.contains('collapsed');
+                if (!isOpen) {
+                    document.body.classList.remove('famous-panel-open');
+                    restoreFamousPanelPosition();
+                }
             }
         });
     });
@@ -4965,7 +4982,11 @@ document.addEventListener('DOMContentLoaded', () => {
             var btn = e.target.closest('.player-color-option');
             if (!btn) return;
             var c = btn.getAttribute('data-color');
-            if (c !== 'white' && c !== 'black' && c !== 'both') return;
+            if (c !== 'white' && c !== 'black' && c !== 'both' && c !== 'online') return;
+            if (c === 'online') {
+                showMessage('🌐 Jugar Online — En Construcción', 'info', 3000);
+                return;
+            }
             if (playerColor === c) return;
             playerColor = c;
             if (playerColor === 'both') {
@@ -4976,6 +4997,13 @@ document.addEventListener('DOMContentLoaded', () => {
             syncPlayerColorUI();
             renderBoard();
             renderCoordinateLabels();
+            saveSettings();
+        });
+    }
+    const nicknameInput = document.getElementById('player-nickname');
+    if (nicknameInput) {
+        nicknameInput.addEventListener('input', (e) => {
+            playerNickname = e.target.value.trim() || 'Jugador';
             saveSettings();
         });
     }
@@ -5075,6 +5103,21 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     document.getElementById('start-opening-quiz').addEventListener('click', startOpeningQuiz);
 
+    document.getElementById('openings-panel').addEventListener('click', function(e) {
+        const btn = e.target.closest('button');
+        if (!btn) return;
+        if (window.matchMedia('(max-width: 1024px) and (orientation: portrait)').matches) {
+            const panel = document.getElementById('openings-panel');
+            if (panel && panel.classList.contains('collapsed')) panel.classList.remove('collapsed');
+            document.body.classList.add('openings-panel-open');
+            movePanelBelowEvalBar('openings-panel');
+            // Para "Ver apertura", viewOpening() ya hace scrollToBoard: no desplazar al panel
+            if (btn.id !== 'start-opening-training') {
+                scrollToResponsivePanel(panel);
+            }
+        }
+    });
+
     populateFamousPlayerSelect();
     document.getElementById('famous-player-select').addEventListener('change', onFamousPlayerSelect);
     const savedFamousGame = localStorage.getItem('selectedFamousGame');
@@ -5089,11 +5132,34 @@ document.addEventListener('DOMContentLoaded', () => {
     loadPuzzleStats();
     document.getElementById('puzzle-theme-select').addEventListener('change', function() {
         puzzleFilter.theme = this.value;
-        startNewPuzzle(true);
     });
     puzzleFilter.theme = document.getElementById('puzzle-theme-select').value;
+    document.getElementById('load-puzzle').addEventListener('click', function() {
+        hideVariantsPopup(false);
+        puzzleFilter.theme = document.getElementById('puzzle-theme-select').value;
+        startNewPuzzle(true);
+    });
     document.getElementById('puzzle-hint').addEventListener('click', puzzleShowHint);
     document.getElementById('puzzle-solution').addEventListener('click', puzzleShowSolution);
+
+    (function() {
+        const PUZZLE_SCROLL_BOARD_IDS = ['load-puzzle', 'puzzle-hint', 'puzzle-solution'];
+        document.getElementById('puzzles-panel').addEventListener('click', function(e) {
+            const btn = e.target.closest('button');
+            if (!btn) return;
+            if (!window.matchMedia('(max-width: 1024px) and (orientation: portrait)').matches) return;
+            const panel = document.getElementById('puzzles-panel');
+            if (panel && panel.classList.contains('collapsed')) panel.classList.remove('collapsed');
+            document.body.classList.add('puzzle-panel-open');
+            movePanelBelowEvalBar('puzzles-panel');
+            if (PUZZLE_SCROLL_BOARD_IDS.includes(btn.id)) {
+                scrollToBoard();
+            } else {
+                scrollToResponsivePanel(panel);
+            }
+        });
+        // Al cambiar categoría no se mueve el panel ni se hace scroll
+    })();
     document.getElementById('puzzle-prev-board').addEventListener('click', function() {
         puzzleFilter.theme = document.getElementById('puzzle-theme-select').value;
         startNewPuzzle(false, 'prev');
@@ -5104,6 +5170,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     document.getElementById('puzzle-close-board').addEventListener('click', function() {
         endPuzzleMode();
+        playerColor = 'white';
+        syncPlayerColorUI();
         startNewGame();
     });
 
@@ -5174,6 +5242,12 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('resize', () => {
         initCustomDropdowns();
         updateEvalBar();
+        if (!window.matchMedia('(max-width: 1024px) and (orientation: portrait)').matches) {
+            document.body.classList.remove('puzzle-panel-open', 'openings-panel-open', 'famous-panel-open');
+            restorePanelPosition('puzzles-panel');
+            restorePanelPosition('openings-panel');
+            restoreFamousPanelPosition();
+        }
     });
 
     document.addEventListener('click', (e) => {
@@ -5409,6 +5483,12 @@ function confirmNewGame() {
 }
 
 function startNewGame() {
+    hideVariantsPopup(false);
+    // Restaurar paneles a posición por defecto (igual que al refrescar la página)
+    document.body.classList.remove('puzzle-panel-open', 'openings-panel-open', 'famous-panel-open');
+    restorePanelPosition('puzzles-panel');
+    restorePanelPosition('openings-panel');
+    restoreFamousPanelPosition();
     scrollToBoard();
     hideMoveInsight();
     cancelTrainingTimeout();
@@ -5419,7 +5499,13 @@ function startNewGame() {
     trainingPaused = false;
     trainingResumeCallback = null;
     setGameButtonsDisabled(false);
-    setFamousGameTitle('');
+    const _diffSelect = document.getElementById('ai-difficulty');
+    const _diffLabel = _diffSelect ? _diffSelect.options[_diffSelect.selectedIndex].text.split('(')[0].trim() : `Nv.${aiDifficulty}`;
+    const _aiLabel = `AjedrezIA (${_diffLabel})`;
+    const _humanLabel = `${playerNickname} (${stats.elo})`;
+    const _whiteLabel = (playerColor === 'white' || playerColor === 'both') ? _humanLabel : _aiLabel;
+    const _blackLabel = (playerColor === 'black' || playerColor === 'both') ? _humanLabel : _aiLabel;
+    setFamousGameTitle(`♔ ${_whiteLabel}  vs  ♚ ${_blackLabel}`);
     document.getElementById('quiz-score').style.display = 'none';
     document.getElementById('opening-training-moves').style.display = '';
     const navBar = document.getElementById('analysis-errors-nav');
@@ -5514,6 +5600,7 @@ function onOpeningSelect() {
 function viewOpening() {
     if (!trainingOpening) return;
 
+    endPuzzleMode();
     scrollToBoard();
     cancelTrainingTimeout();
     trainingActive = true;
@@ -5762,6 +5849,40 @@ function onFamousGameSelect() {
     localStorage.setItem('selectedFamousGame', select.value);
 }
 
+function movePanelBelowEvalBar(panelId) {
+    // Restaurar los TRES paneles a posición por defecto (igual que al refrescar)
+    restorePanelPosition('puzzles-panel');
+    restorePanelPosition('openings-panel');
+    restoreFamousPanelPosition();
+    document.body.classList.remove('puzzle-panel-open', 'openings-panel-open', 'famous-panel-open');
+    // Ocultar barra de navegación de problemas si se abre otro panel
+    if (panelId !== 'puzzles-panel') {
+        const puzzleNav = document.getElementById('puzzle-board-nav');
+        if (puzzleNav) puzzleNav.style.display = 'none';
+    }
+    const panel = document.getElementById(panelId);
+    const evalBarMobile = document.getElementById('eval-bar-mobile');
+    const boardContainer = document.querySelector('.board-container');
+    if (panel && boardContainer && evalBarMobile && panel.parentElement !== boardContainer) {
+        panel._originalParent = panel.parentElement;
+        panel._originalNextSibling = panel.nextSibling;
+        evalBarMobile.insertAdjacentElement('afterend', panel);
+    }
+}
+
+function restorePanelPosition(panelId) {
+    const panel = document.getElementById(panelId);
+    if (panel && panel._originalParent) {
+        panel._originalParent.insertBefore(panel, panel._originalNextSibling || null);
+        delete panel._originalParent;
+        delete panel._originalNextSibling;
+    }
+}
+
+function restoreFamousPanelPosition() {
+    restorePanelPosition('famous-panel');
+}
+
 function loadFamousGame() {
     const select = document.getElementById('famous-game-select');
     const key = select.value;
@@ -5770,10 +5891,21 @@ function loadFamousGame() {
     const famous = FAMOUS_GAMES[key];
     if (!famous || !famous.pgn) return;
 
+    hideVariantsPopup(false);
     parsePGNAndLoad(famous.pgn, famous.name);
 
-    if (window.matchMedia('(max-width: 600px)').matches) {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+    if (window.matchMedia('(max-width: 1024px) and (orientation: portrait)').matches) {
+        const famousPanel = document.getElementById('famous-panel');
+        if (famousPanel && famousPanel.classList.contains('collapsed')) {
+            famousPanel.classList.remove('collapsed');
+        }
+        document.body.classList.add('famous-panel-open');
+        movePanelBelowEvalBar('famous-panel');
+    }
+
+    const boardContainer = document.querySelector('.board-container');
+    if (boardContainer) {
+        setTimeout(() => boardContainer.scrollIntoView({ behavior: 'smooth', block: 'start' }), 80);
     }
 }
 
@@ -6587,8 +6719,8 @@ function buildPGNContent() {
 
     const diffSelect = document.getElementById('ai-difficulty');
     const diffLabel = diffSelect ? diffSelect.options[diffSelect.selectedIndex].text : ('Nivel ' + aiDifficulty);
-    const whitePlayer = (playerColor === 'white' || playerColor === 'both') ? 'Jugador' : ('AjedrezIA');
-    const blackPlayer = (playerColor === 'black' || playerColor === 'both') ? 'Jugador' : ('AjedrezIA');
+    const whitePlayer = (playerColor === 'white' || playerColor === 'both') ? playerNickname : ('AjedrezIA');
+    const blackPlayer = (playerColor === 'black' || playerColor === 'both') ? playerNickname : ('AjedrezIA');
     var fgt = document.getElementById('famous-game-title'); const famousTitle = (fgt && fgt.textContent) || '';
     const defaultEvent = 'AjedrezIA - ' + diffLabel;
 

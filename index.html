@@ -52,6 +52,11 @@
                     <h2 class="panel-toggle" id="config-toggle">Configuración <span class="panel-arrow">▲</span></h2>
                     <div class="panel-body" id="config-body">
 
+                    <div class="config-section config-row-nickname">
+                        <label for="player-nickname">Nickname:</label>
+                        <input type="text" id="player-nickname" class="input-text input-text--nickname" maxlength="20" placeholder="Jugador" autocomplete="off">
+                    </div>
+
                     <div class="config-section" id="ai-settings">
                         <label>Nivel de Dificultad:</label>
                         <select id="ai-difficulty" class="select">
@@ -85,6 +90,11 @@
                                 <button type="button" class="player-color-option" data-color="both" id="player-color-btn-both" title="Persona vs persona" aria-label="Jugar ambos colores" aria-pressed="false">
                                     <span class="player-color-pawn-wrap">
                                         <span class="player-color-pawn-txt is-visible" aria-hidden="true">🧑</span>
+                                    </span>
+                                </button>
+                                <button type="button" class="player-color-option" data-color="online" id="player-color-btn-online" title="Jugar online" aria-label="Jugar online" aria-pressed="false">
+                                    <span class="player-color-pawn-wrap">
+                                        <span class="player-color-pawn-txt is-visible" aria-hidden="true">🌐</span>
                                     </span>
                                 </button>
                             </div>
@@ -143,7 +153,6 @@
 
                 <div class="panel panel-collapsible collapsed" id="openings-panel">
                     <h2 class="panel-toggle">📖 Entrenar Aperturas <span class="panel-arrow">▲</span></h2>
-                    <button id="start-opening-training" class="btn btn-primary" style="margin-bottom:8px;margin-top:8px;width:100%">♟ Iniciar Entrenamiento</button>
                     <div class="panel-body">
                     <div class="config-section">
                         <label>Selecciona una apertura:</label>
@@ -207,6 +216,7 @@
                         <p id="opening-training-desc" class="training-desc"></p>
                         <div id="opening-winrate" class="opening-winrate" style="display:none;"></div>
                     </div>
+                    <button id="start-opening-training" class="btn btn-primary" style="margin-bottom:8px;margin-top:8px;width:100%">♟ Iniciar Entrenamiento</button>
                     <button id="show-known-variants" class="btn btn-secondary" disabled>📖 Variantes Conocidas</button>
                     <button id="start-opening-quiz" class="btn btn-warning" disabled>🧠 Quiz: Adivina el Movimiento</button>
                     <div id="quiz-score" class="quiz-score" style="display:none;">
@@ -241,14 +251,17 @@
                             <option value="other">🎲 Otros</option>
                         </select>
                     </div>
-                    <div id="puzzle-info" style="display:none;margin-top:8px;">
+                    <div id="puzzle-info" style="margin-top:8px;">
                         <p id="puzzle-title" class="training-name" style="margin-top:8px;"></p>
                         <p id="puzzle-theme-label" class="training-moves"></p>
                         <p id="puzzle-instruction" class="training-desc" style="font-style:normal;color:#1e40af;font-weight:600;"></p>
                         <div id="puzzle-feedback" class="puzzle-feedback" style="display:none;"></div>
+                        <div style="margin-top:8px;">
+                            <button id="load-puzzle" class="btn btn-primary" style="width:100%">🧩 Cargar Problemas</button>
+                        </div>
                         <div class="puzzle-actions" style="margin-top:6px;">
-                            <button id="puzzle-hint" class="btn btn-yellow btn-sm">💡 Pista</button>
-                            <button id="puzzle-solution" class="btn btn-secondary btn-sm">👁 Ver solución</button>
+                            <button id="puzzle-hint" class="btn btn-yellow btn-sm" disabled>💡 Pista</button>
+                            <button id="puzzle-solution" class="btn btn-secondary btn-sm" disabled>👁 Ver solución</button>
                         </div>
                     </div>
                     <div id="puzzle-stats" class="puzzle-stats">
@@ -503,8 +516,9 @@
             </div>
 
             <div class="sidebar sidebar-right">
-                <div class="panel" id="clock-panel">
-                    <h2>⏱️ Reloj de Ajedrez</h2>
+                <div class="panel panel-collapsible" id="clock-panel">
+                    <h2 class="panel-toggle">⏱️ Reloj de Ajedrez <span class="panel-arrow">▲</span></h2>
+                    <div class="panel-body">
                     <div id="chess-clock" class="chess-clock">
                         <div class="clock-player">
                             <div class="clock-label">Blancas</div>
@@ -518,6 +532,7 @@
                     <div class="clock-controls">
                         <label for="time-control">Control de Tiempo:</label>
                         <select id="time-control" class="select">
+
                             <optgroup label="⚡ Bullet">
                                 <option value="1+0">1 min</option>
                                 <option value="1+1">1 min + 1 seg</option>
@@ -540,6 +555,7 @@
                                 <option value="90+30">90 min + 30 seg</option>
                             </optgroup>
                         </select>
+                    </div>
                     </div>
                 </div>
 

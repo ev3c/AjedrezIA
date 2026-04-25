@@ -543,7 +543,37 @@ body.puzzle-mode-active .move-navigator {
     transition: border-color 0.3s;
 }
 
+.config-row-nickname {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.config-row-nickname label {
+    white-space: nowrap;
+    margin-bottom: 0;
+}
+
+.input-text {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 0.72rem;
+    transition: border-color 0.3s;
+    box-sizing: border-box;
+}
+
+.input-text--nickname {
+    flex: 1;
+    min-width: 0;
+    font-size: 1.9rem;
+    font-weight: bold;
+    background-color: #eff6ff;
+}
+
 .config-section input:focus,
+.input-text:focus,
 .select:focus {
     outline: none;
     border-color: #667eea;
@@ -3136,6 +3166,30 @@ body.puzzle-mode-active .move-navigator {
 
     #puzzles-panel {
         order: 7 !important;
+    }
+
+    body.puzzle-panel-open #puzzles-panel {
+        order: 2 !important;
+    }
+
+    body.puzzle-panel-open #clock-panel {
+        display: none !important;
+    }
+
+    body.openings-panel-open #openings-panel {
+        order: 2 !important;
+    }
+
+    body.openings-panel-open #clock-panel {
+        display: none !important;
+    }
+
+    body.famous-panel-open #famous-panel {
+        order: 2 !important;
+    }
+
+    body.famous-panel-open #clock-panel {
+        display: none !important;
     }
 
     #actions-panel {
