@@ -1,5 +1,10 @@
 // APP_VERSION se define en version.js (cargado antes en index.html)
 
+/** URL base pública del sitio (compartir, enlaces con query, fallback). */
+
+const BASE_PATH = 'https://www.ajedrezia.com/';
+// const BASE_PATH = 'file:///H:/Mi%20unidad/AI%20code/games/AjedrezIA/';
+
 // ─────────────────────────────────────────────────────────
 // SISTEMA DE SONIDO — Web Audio API (sin archivos externos)
 // ─────────────────────────────────────────────────────────
@@ -1530,6 +1535,9 @@ let quizIndex = 0;
 let quizCorrect = 0;
 let quizWrong = 0;
 
+/** Contexto del botón Compartir: qué flujo ha cargado el usuario (Nueva partida, apertura, problema, maestra). */
+let shareContext = 'partida';
+
 const FAMOUS_GAMES = {
     'immortal': {
         name: 'La Partida Inmortal',
@@ -2257,6 +2265,19 @@ async function fetchPuzzlesFromAPI(theme, limit = 20) {
     }
 }
 
+/** Un puzzle por id Lichess (misma API que getShareInfo ?puzzle=). */
+async function fetchPuzzleByIdFromAPI(puzzleId) {
+    try {
+        const res = await fetch(`${PUZZLES_API}?id=${encodeURIComponent(puzzleId)}`);
+        if (!res.ok) return null;
+        const data = await res.json();
+        if (data.puzzles && data.puzzles.length > 0) return data.puzzles[0];
+    } catch (e) {
+        console.warn('Puzzle por id no disponible:', e.message);
+    }
+    return null;
+}
+
 function loadPuzzleStats() {
     try {
         var saved = localStorage.getItem('puzzleStats');
@@ -2367,11 +2388,22 @@ async function startNewPuzzle(resetIndex, navDir) {
     }
 
     currentPuzzle = filtered[puzzleSequentialIndex];
+    bindPuzzleToBoardAndUI();
+}
+
+/**
+ * Con currentPuzzle y puzzleSequentialIndex ya fijados, activa el modo problema y pinta el tablero.
+ * Usada por startNewPuzzle (lista) y por applyPuzzleFromQueryString (id concreto).
+ */
+function bindPuzzleToBoardAndUI() {
+    if (!currentPuzzle) return;
     puzzleMoveIndex = 0;
     puzzleActive = true;
     puzzleMode = true;
+    shareContext = 'problema';
     document.body.classList.add('puzzle-mode-active');
     puzzleCorrectMoves = 0;
+    updateShareButton();
     puzzleWrongMoves = 0;
     puzzleSolutionViewed = false;
     puzzleGeneration++;
@@ -2423,8 +2455,8 @@ async function startNewPuzzle(resetIndex, navDir) {
     updateEvalBar();
     scrollToBoard();
 
-    var filtered = getFilteredPuzzles();
-    var counterText = ' (' + (puzzleSequentialIndex + 1) + ' de ' + filtered.length + ')';
+    var list = getFilteredPuzzles();
+    var counterText = ' (' + (puzzleSequentialIndex + 1) + ' de ' + list.length + ')';
     document.getElementById('puzzle-title').textContent = currentPuzzle.title + counterText;
     document.getElementById('puzzle-theme-label').textContent =
         getThemeLabel(currentPuzzle.theme) + ' — ' + getDifficultyLabel(currentPuzzle.difficulty);
@@ -2457,6 +2489,188 @@ function coordsToUCI(fromRow, fromCol, toRow, toCol, promo) {
     var uci = files[fromCol] + (8 - fromRow) + files[toCol] + (8 - toRow);
     if (promo) uci += promo;
     return uci;
+}
+
+function mapUciPromoToPiece(ch) {
+    if (!ch) return undefined;
+    const m = { q: 'queen', r: 'rook', b: 'bishop', n: 'knight' };
+    return m[String(ch).toLowerCase()] || 'queen';
+}
+
+/** Reproduce UCI de ?moves= (coma o +) sobre la partida actual; limpia la URL al terminar. */
+function applyMovesFromQueryString() {
+    const params = new URLSearchParams(window.location.search);
+    const raw = params.get('moves');
+    if (!raw || !game) return;
+    const list = raw.split(/[,+]/g).map(function (s) { return s.trim().toLowerCase(); }).filter(function (s) { return s.length >= 4; });
+    for (var i = 0; i < list.length; i++) {
+        var uci = list[i];
+        var c = puzzleUCItoCoords(uci);
+        var prom = uci.length > 4 ? mapUciPromoToPiece(uci[4]) : undefined;
+        var ok = game.makeMove(c.fromRow, c.fromCol, c.toRow, c.toCol, prom);
+        if (!ok) {
+            console.warn('Movimiento inválido al reproducir enlace compartido:', uci);
+            showMessage('No se pudo reproducir toda la partida del enlace. Movimiento ilegal: ' + uci, 'warning', 4000);
+            break;
+        }
+        lastMoveSquares = { from: { row: c.fromRow, col: c.fromCol }, to: { row: c.toRow, col: c.toCol } };
+    }
+    selectedSquare = null;
+    currentMoveIndex = -1;
+    renderBoard();
+    updateCapturedPieces();
+    updateMoveHistory();
+    updateUndoButton();
+    updateEvalBar();
+    updateNavigationButtons();
+    shareContext = 'partida';
+    updateShareButton();
+    if (!game.gameOver && playerColor !== 'both' && game.currentTurn !== playerColor) {
+        setTimeout(function () { makeAIMove(); }, 500);
+    }
+    try {
+        history.replaceState(null, '', window.location.pathname + (window.location.hash || ''));
+    } catch (e) { /* file:// o restricción */ }
+}
+
+/**
+ * Carga PGN de ?master=id (clave en FAMOUS_GAMES, p. ej. kasparov-anand-95) como al pulsar Cargar.
+ * Limpia el query al terminar. Devuelve true si se cargó; false si la clave no existe (fallback a inicio normal).
+ */
+function applyMasterFromQueryString() {
+    const params = new URLSearchParams(window.location.search);
+    const raw = params.get('master');
+    if (raw == null || String(raw).trim() === '') return false;
+    const key = decodeURIComponent(String(raw).trim()).toLowerCase();
+    const famous = FAMOUS_GAMES[key];
+    if (!famous || !famous.pgn) {
+        showMessage('Enlace: partida maestra desconocida. Clave: ' + String(raw).trim(), 'warning', 4000);
+        try {
+            history.replaceState(null, '', window.location.pathname + (window.location.hash || ''));
+        } catch (e) { /* file:// o restricción */ }
+        return false;
+    }
+    const playerSel = document.getElementById('famous-player-select');
+    const gameSel = document.getElementById('famous-game-select');
+    if (playerSel) {
+        playerSel.value = '';
+        onFamousPlayerSelect();
+    }
+    if (gameSel) {
+        gameSel.value = key;
+        onFamousGameSelect();
+    }
+    hideVariantsPopup(false);
+    parsePGNAndLoad(famous.pgn, famous.name);
+    shareContext = 'maestra';
+    updateShareButton();
+    if (window.matchMedia('(max-width: 1024px) and (orientation: portrait)').matches) {
+        const famousPanel = document.getElementById('famous-panel');
+        if (famousPanel && famousPanel.classList.contains('collapsed')) {
+            famousPanel.classList.remove('collapsed');
+        }
+        document.body.classList.add('famous-panel-open');
+        movePanelBelowEvalBar('famous-panel');
+    }
+    const boardContainer = document.querySelector('.board-container');
+    if (boardContainer) {
+        setTimeout(() => boardContainer.scrollIntoView({ behavior: 'smooth', block: 'start' }), 80);
+    }
+    try {
+        history.replaceState(null, '', window.location.pathname + (window.location.hash || ''));
+    } catch (e) { /* file:// o restricción */ }
+    return true;
+}
+
+/**
+ * Carga apertura de Entrenar aperturas: ?opening=catalana (clave OPENING_TRAINING, mismo que Compartir).
+ * Equivale a elegir en el desplegable y pulsar "Ver Apertura". Limpia el query al terminar.
+ * Devuelve true si se cargó; false si la clave no existe.
+ */
+function applyOpeningFromQueryString() {
+    const params = new URLSearchParams(window.location.search);
+    const raw = params.get('opening');
+    if (raw == null || String(raw).trim() === '') return false;
+    const key = decodeURIComponent(String(raw).trim()).toLowerCase();
+    if (!OPENING_TRAINING[key]) {
+        showMessage('Enlace: apertura desconocida. Clave: ' + String(raw).trim(), 'warning', 4000);
+        try {
+            history.replaceState(null, '', window.location.pathname + (window.location.hash || ''));
+        } catch (e) { /* file:// o restricción */ }
+        return false;
+    }
+    const select = document.getElementById('opening-select');
+    if (!select) return false;
+    select.value = key;
+    try {
+        localStorage.setItem('selectedOpening', key);
+    } catch (e) { /* private mode */ }
+    onOpeningSelect();
+    hideVariantsPopup(false);
+    viewOpening();
+    updateShareButton();
+    if (window.matchMedia('(max-width: 1024px) and (orientation: portrait)').matches) {
+        const panel = document.getElementById('openings-panel');
+        if (panel && panel.classList.contains('collapsed')) {
+            panel.classList.remove('collapsed');
+        }
+        document.body.classList.add('openings-panel-open');
+        movePanelBelowEvalBar('openings-panel');
+    }
+    const boardContainer = document.querySelector('.board-container');
+    if (boardContainer) {
+        setTimeout(function () { boardContainer.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 80);
+    }
+    try {
+        history.replaceState(null, '', window.location.pathname + (window.location.hash || ''));
+    } catch (e) { /* file:// o restricción */ }
+    return true;
+}
+
+/**
+ * Carga el problema ?puzzle=id (id Lichess, mismo enlace que Compartir).
+ * Devuelve true si se cargó; false si no existe (fallback a inicio normal).
+ */
+async function applyPuzzleFromQueryString() {
+    const params = new URLSearchParams(window.location.search);
+    const raw = params.get('puzzle');
+    if (raw == null || String(raw).trim() === '') return false;
+    const id = String(raw).trim();
+    hideVariantsPopup(false);
+    var p = await fetchPuzzleByIdFromAPI(id);
+    if (!p && Array.isArray(CHESS_PUZZLES)) {
+        p = CHESS_PUZZLES.find(function (q) { return q.id && String(q.id) === id; });
+    }
+    if (!p || !p.fen) {
+        showMessage('Enlace: problema de ajedrez desconocido. Id: ' + id, 'warning', 4000);
+        try {
+            history.replaceState(null, '', window.location.pathname + (window.location.hash || ''));
+        } catch (e) { /* file:// o restricción */ }
+        return false;
+    }
+    puzzleFilter.theme = 'all';
+    var themeSel = document.getElementById('puzzle-theme-select');
+    if (themeSel) themeSel.value = 'all';
+    puzzleApiCache = [p];
+    puzzleSequentialIndex = 0;
+    currentPuzzle = p;
+    bindPuzzleToBoardAndUI();
+    if (window.matchMedia('(max-width: 1024px) and (orientation: portrait)').matches) {
+        const panel = document.getElementById('puzzles-panel');
+        if (panel && panel.classList.contains('collapsed')) {
+            panel.classList.remove('collapsed');
+        }
+        document.body.classList.add('puzzle-panel-open');
+        movePanelBelowEvalBar('puzzles-panel');
+    }
+    const boardContainer = document.querySelector('.board-container');
+    if (boardContainer) {
+        setTimeout(function () { boardContainer.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 80);
+    }
+    try {
+        history.replaceState(null, '', window.location.pathname + (window.location.hash || ''));
+    } catch (e) { /* file:// o restricción */ }
+    return true;
 }
 
 function handlePuzzleClick(row, col) {
@@ -4543,8 +4757,19 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '2.5.9': [
+        'Añadido botón "Compartir" en la barra de navegación para compartir la partida, apertura, problema o partida maestra',
+        'Enlaces:',
+        '   ?moves= e2e4,d7d6,… (UCI, coma o +) reproduce la partida al abrir; prioridad máxima',
+        '  ?puzzle= id Lichess (mismo que Compartir) carga el problema vía API; prioridad: moves > puzzle > opening > master > auto-guardado',
+        '  ?opening= catalana (OPENING_TRAINING) carga y reproduce la apertura (Ver Apertura); prioridad: moves > puzzle > opening > master > auto-guardado',
+        '  ?master= kasparov-anand-95 (clave FAMOUS_GAMES) carga la partida maestra al abrir; prioridad sobre auto-guardado',
+    ],
     '2.5.8': [
         'Actualización automática de nuevas versiones SW, CSS y scripts en todos los dispositivos',
+        'Compartir: textos "Compartir Partida/Apertura/Problema/Maestra (+10 ELO)"; al completar compartir (copiar, X, WhatsApp, Gmail) +10 ELO',
+        'Compartir: formato único de mensaje (AjedrezIA + tipo + detalle + ♟ URL) para partida, apertura, problema y partida maestra',
+        'Enlaces: ?moves= e2e4,d7d6,… (UCI, coma o +) reproduce la partida al abrir; prioridad sobre auto-guardado',
     ],
     '2.5.7': [
         'Configuración: campo Nickname para personalizar el nombre del jugador (guardado entre sesiones)',
@@ -5084,6 +5309,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const el = document.getElementById(id);
         if (el) el.addEventListener('click', copyPGN);
     });
+    ['share-sidebar', 'share-board', 'puzzle-share-board'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.addEventListener('click', shareContent);
+    });
 
     // Estadísticas
     document.getElementById('reset-stats').addEventListener('click', resetStats);
@@ -5232,15 +5461,50 @@ document.addEventListener('DOMContentLoaded', () => {
         autoSaveGame();
     });
 
-    // Restaurar partida en curso o iniciar nueva
+    // Restaurar partida en curso, enlace compartido ?moves= / ?puzzle= / ?opening= / ?master=, o iniciar nueva
     applyBoardTheme();
     const autoSavedGame = localStorage.getItem('auto_saved_game');
-    if (autoSavedGame) {
+    const spInit = new URLSearchParams(window.location.search);
+    if (spInit.get('moves')) {
+        startNewGame({ skipInitialAI: true });
+        applyMovesFromQueryString();
+    } else if (spInit.get('puzzle')) {
+        applyPuzzleFromQueryString().then(function (ok) {
+            if (!ok) {
+                if (autoSavedGame) {
+                    resumeGame(true);
+                } else {
+                    startNewGame();
+                }
+            }
+            checkForGameInProgress();
+            updateShareButton();
+        });
+    } else if (spInit.get('opening')) {
+        if (!applyOpeningFromQueryString()) {
+            if (autoSavedGame) {
+                resumeGame(true);
+            } else {
+                startNewGame();
+            }
+        }
+    } else if (spInit.get('master')) {
+        if (!applyMasterFromQueryString()) {
+            if (autoSavedGame) {
+                resumeGame(true);
+            } else {
+                startNewGame();
+            }
+        }
+    } else if (autoSavedGame) {
         resumeGame(true);
     } else {
-    startNewGame();
+        startNewGame();
     }
-    checkForGameInProgress();
+    if (!spInit.get('puzzle')) {
+        checkForGameInProgress();
+        updateShareButton();
+    }
     initCustomDropdowns();
     window.addEventListener('resize', () => {
         initCustomDropdowns();
@@ -5485,7 +5749,8 @@ function confirmNewGame() {
     });
 }
 
-function startNewGame() {
+function startNewGame(options) {
+    shareContext = 'partida';
     hideVariantsPopup(false);
     // Restaurar paneles a posición por defecto (igual que al refrescar la página)
     document.body.classList.remove('puzzle-panel-open', 'openings-panel-open', 'famous-panel-open');
@@ -5544,9 +5809,12 @@ function startNewGame() {
     });
 
     SoundFX.start();
+    updateShareButton();
 
-    if (playerColor === 'black') {
-        setTimeout(() => makeAIMove(), 800);
+    if (!options || !options.skipInitialAI) {
+        if (playerColor === 'black') {
+            setTimeout(() => makeAIMove(), 800);
+        }
     }
 }
 
@@ -5604,6 +5872,7 @@ function viewOpening() {
     if (!trainingOpening) return;
 
     endPuzzleMode();
+    shareContext = 'apertura';
     scrollToBoard();
     cancelTrainingTimeout();
     trainingActive = true;
@@ -5641,6 +5910,8 @@ function viewOpening() {
             trainingResumeCallback = null;
             trainingTimeoutId = null;
             setGameButtonsDisabled(false);
+            // shareContext sigue en "apertura" (Compartir apertura) tras el replay
+            updateShareButton();
             showLoadedGameMessage('Apertura completada', false);
             showContinueButton();
             const history = game.moveHistoryUCI || [];
@@ -5674,6 +5945,7 @@ function viewOpening() {
     }
 
     trainingTimeoutId = setTimeout(() => playNextMove(0), 600);
+    updateShareButton();
 }
 
 function showKnownVariants() {
@@ -5896,6 +6168,8 @@ function loadFamousGame() {
 
     hideVariantsPopup(false);
     parsePGNAndLoad(famous.pgn, famous.name);
+    shareContext = 'maestra';
+    updateShareButton();
 
     if (window.matchMedia('(max-width: 1024px) and (orientation: portrait)').matches) {
         const famousPanel = document.getElementById('famous-panel');
@@ -6027,10 +6301,12 @@ function showContinueButton() {
 function startOpeningTraining() {
     scrollToBoard();
     cancelTrainingTimeout();
+    shareContext = 'apertura';
     trainingActive = true;
     trainingFreeMode = true;
     quizMode = false;
     setGameButtonsDisabled(true);
+    updateShareButton();
     document.getElementById('quiz-score').style.display = 'none';
     const movesEl = document.getElementById('opening-training-moves');
     if (movesEl) movesEl.style.display = '';
@@ -6116,6 +6392,8 @@ function startOpeningTraining() {
         trainingResumeCallback = null;
         trainingTimeoutId = null;
         setGameButtonsDisabled(false);
+        // shareContext sigue en "apertura" para compartir el enlace de la apertura tras completar
+        updateShareButton();
         showLoadedGameMessage('Apertura completada', false);
         showContinueButton();
     }
@@ -6163,6 +6441,8 @@ function startOpeningQuiz() {
     updateUndoButton();
     updateEvalBar();
 
+    shareContext = 'apertura';
+    updateShareButton();
     showMessage(`<strong>Quiz: ${trainingOpening.name}</strong><br>Juega todos los movimientos correctos (blancas y negras)<br><br><strong>Movimientos:</strong> ${trainingOpening.san}`, 'info', 0);
 }
 
@@ -6704,6 +6984,198 @@ function pgnAnnotationForMove(moveIndex) {
     return ` ${nag} {${label} (${err.loss.toFixed(1)}). Mejor: ${bestSan}}`;
 }
 
+// ─────────────────────────────────────────────────────────
+// SISTEMA DE COMPARTIR
+// ─────────────────────────────────────────────────────────
+
+const SHARE_ELO_BONUS = 10;
+
+function grantEloOnShareComplete() {
+    applyEloChange(SHARE_ELO_BONUS);
+}
+
+function copyShareMsg(btn) {
+    const text = btn.getAttribute('data-msg') || '';
+    function done() {
+        if (window.grantEloOnShareComplete) window.grantEloOnShareComplete();
+        btn.textContent = '✓ Copiado!';
+        setTimeout(function () { btn.textContent = '📋 Copiar'; }, 1500);
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(done).catch(function () {
+            fallbackCopy(text, done);
+        });
+    } else {
+        fallbackCopy(text, done);
+    }
+}
+
+function fallbackCopy(text, callback) {
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.cssText = 'position:fixed;top:0;left:0;opacity:0;pointer-events:none;';
+    document.body.appendChild(ta);
+    ta.focus();
+    ta.select();
+    try { document.execCommand('copy'); if (callback) callback(); }
+    catch (e) { /* copia no disponible */ }
+    finally { document.body.removeChild(ta); }
+}
+
+if (typeof window !== 'undefined') {
+    window.grantEloOnShareComplete = grantEloOnShareComplete;
+    window.copyShareMsg = copyShareMsg;
+}
+
+function getShareEloSuffix() {
+    return ' (+' + SHARE_ELO_BONUS + ' ELO)';
+}
+
+/** Etiqueta de tipo (línea 2 del mensaje unificado) */
+const SHARE_KIND_LABEL = {
+    problema: 'Problema de ajedrez',
+    partida:  'Partida',
+    apertura: 'Apertura',
+    maestra:  'Partida maestra',
+    home:     'AjedrezIA'
+};
+
+/** Texto del botón Compartir según shareContext (flujo activo) */
+const SHARE_COMPARTIR_LABEL = {
+    partida:  '🔗 Compartir partida',
+    apertura: '🔗 Compartir apertura',
+    problemas: '🔗 Compartir problemas',
+    maestra:  '🔗 Compartir partida maestra',
+    generico: '🔗 Compartir'
+};
+
+/**
+ * Formato único (WhatsApp, Gmail, copiar, Twitter) para todo lo compartible:
+ *   L1: ¡Echa un vistazo en AjedrezIA!
+ *   L2: Tipo (partida, apertura, problema, partida maestra, …)
+ *   L3: Detalle opcional (título del puzzle, nombre de apertura, título de maestra, “vs” en partida, …)
+ *   (una línea en blanco)
+ *   Última: ♟ + URL
+ */
+function formatUnifiedShareMessage(url, kind, shareDetail) {
+    const u = (url && String(url).trim()) ? String(url).trim() : BASE_PATH;
+    const det = (shareDetail && String(shareDetail).trim()) ? String(shareDetail).trim() : '';
+
+    if (kind === 'apertura') {
+        if (det) {
+            return '¡Echa un vistazo en AjedrezIA!\nApertura: ' + det + '\n\n♟ ' + u;
+        }
+        return '¡Echa un vistazo en AjedrezIA!\n' + (SHARE_KIND_LABEL.apertura) + '\n\n♟ ' + u;
+    }
+    const typeName = SHARE_KIND_LABEL[kind] || SHARE_KIND_LABEL.home;
+    const extra = det ? ('\n' + det) : '';
+    return '¡Echa un vistazo en AjedrezIA!\n' + typeName + extra + '\n\n♟ ' + u;
+}
+
+function getShareOpeningNameDetail() {
+    const key = document.getElementById('opening-select') && document.getElementById('opening-select').value;
+    if (trainingOpening && trainingOpening.name) return String(trainingOpening.name).trim();
+    if (key && OPENING_TRAINING[key] && OPENING_TRAINING[key].name) return String(OPENING_TRAINING[key].name).trim();
+    const os = document.getElementById('opening-select');
+    if (os && os.options[os.selectedIndex]) {
+        const t = os.options[os.selectedIndex].textContent.replace(/\s+/g, ' ').trim();
+        if (t && t !== '— Modo libre —') return t;
+    }
+    return null;
+}
+
+function getShareInfo() {
+    if (shareContext === 'problema' && puzzleMode && currentPuzzle) {
+        const id = currentPuzzle.id || null;
+        const titleDetail = (currentPuzzle.title && String(currentPuzzle.title).trim()) ? currentPuzzle.title.trim() : null;
+        if (id) {
+            return { url: `${BASE_PATH}?puzzle=${encodeURIComponent(id)}`, label: SHARE_COMPARTIR_LABEL.problemas, shareKind: 'problema', shareDetail: titleDetail };
+        }
+        return { url: `${BASE_PATH}?daily=1`, label: SHARE_COMPARTIR_LABEL.problemas, shareKind: 'problema', shareDetail: titleDetail || 'Problema del día' };
+    }
+
+    if (shareContext === 'maestra') {
+        const famousKey = document.getElementById('famous-game-select').value;
+        const g = famousKey && FAMOUS_GAMES[famousKey];
+        if (g) {
+            return { url: `${BASE_PATH}?master=${encodeURIComponent(famousKey)}`, label: SHARE_COMPARTIR_LABEL.maestra, shareKind: 'maestra', shareDetail: g.name || null };
+        }
+    }
+
+    if (shareContext === 'apertura') {
+        const openingKey = document.getElementById('opening-select').value;
+        if (openingKey) {
+            const nameDetail = getShareOpeningNameDetail();
+            return { url: `${BASE_PATH}?opening=${encodeURIComponent(openingKey)}`, label: SHARE_COMPARTIR_LABEL.apertura, shareKind: 'apertura', shareDetail: nameDetail };
+        }
+        return { url: BASE_PATH, label: SHARE_COMPARTIR_LABEL.apertura, shareKind: 'apertura', shareDetail: null };
+    }
+
+    if (game && game.moveHistory && game.moveHistory.length > 0) {
+        const pgn = buildPGNContent();
+        const encoded = btoa(unescape(encodeURIComponent(pgn)));
+        const movesUCI = (game.moveHistoryUCI || []).join(',');
+        const url = movesUCI.length < 400
+            ? `${BASE_PATH}?moves=${encodeURIComponent(movesUCI)}`
+            : `${BASE_PATH}?pgn=${encoded.substring(0, 800)}`;
+        const fgt = document.getElementById('famous-game-title');
+        const vsDetail = (fgt && fgt.textContent) ? fgt.textContent.replace(/\n/g, ' ').replace(/\s+/g, ' ').trim() : null;
+        return { url, label: SHARE_COMPARTIR_LABEL.partida, shareKind: 'partida', shareDetail: vsDetail || null };
+    }
+
+    return { url: BASE_PATH, label: SHARE_COMPARTIR_LABEL.partida, shareKind: 'partida', shareDetail: null };
+}
+
+function updateShareButton() {
+    const info = getShareInfo();
+    const withElo = info.label + getShareEloSuffix();
+    ['share-sidebar'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.textContent = withElo;
+    });
+    const boardBtn = document.getElementById('share-board');
+    if (boardBtn) boardBtn.title = withElo;
+    const puzzleShareBtn = document.getElementById('puzzle-share-board');
+    if (puzzleShareBtn) puzzleShareBtn.title = withElo;
+}
+
+function shareContent() {
+    if (shareContext === 'partida') {
+        const mh = game && game.moveHistory;
+        if (!mh || mh.length === 0) {
+            showMessage('No hay movimientos para compartir', 'info', 3000);
+            return;
+        }
+    }
+    const { url, label, shareKind, shareDetail } = getShareInfo();
+    const shareMsg = formatUnifiedShareMessage(url, shareKind, shareDetail);
+    const gmailSubj = 'AjedrezIA ♟';
+    const gmailUrl = 'https://mail.google.com/mail/?view=cm&fs=1&su=' + encodeURIComponent(gmailSubj) + '&body=' + encodeURIComponent(shareMsg);
+    const titleLine = label.replace('🔗 ', '') + getShareEloSuffix();
+    const msgAttr = shareMsg
+        .replace(/&/g, '&amp;')
+        .replace(/"/g, '&quot;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
+    const displayMsg = shareMsg
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/\n/g, '<br>');
+
+    const htmlMsg = `
+        <strong>${titleLine}</strong>
+        <div class="share-message-frame">${displayMsg}</div>
+        <div class="share-actions">
+            <button type="button" class="share-action-btn share-action-btn--copy" data-msg="${msgAttr}" onclick="copyShareMsg(this)">📋 Copiar</button>
+            <a href="https://twitter.com/intent/tweet?text=${encodeURIComponent(shareMsg)}" class="share-action-btn share-action-btn--twitter" target="_blank" rel="noopener noreferrer" onclick="if(window.grantEloOnShareComplete)window.grantEloOnShareComplete();">𝕏 Twitter/X</a>
+            <a href="https://wa.me/?text=${encodeURIComponent(shareMsg)}" class="share-action-btn share-action-btn--whatsapp" target="_blank" rel="noopener noreferrer" onclick="if(window.grantEloOnShareComplete)window.grantEloOnShareComplete();">📱 WhatsApp</a>
+            <a href="${gmailUrl.replace(/&/g, '&amp;')}" class="share-action-btn share-action-btn--gmail" target="_blank" rel="noopener noreferrer" onclick="if(window.grantEloOnShareComplete)window.grantEloOnShareComplete();">✉️ Gmail</a>
+        </div>`;
+
+    showMessage(htmlMsg, 'info', 0);
+}
+
 function buildPGNContent() {
     const allMoves = game.moveHistory || [];
     const allMovesUCI = game.moveHistoryUCI || [];
@@ -6853,6 +7325,8 @@ function importPGN() {
         reader.onload = (event) => {
             const pgnText = event.target.result;
             parsePGNAndLoad(pgnText);
+            shareContext = 'partida';
+            updateShareButton();
         };
         reader.readAsText(file);
     });
@@ -7383,6 +7857,8 @@ function resumeGame(silent) {
         }
         
         if (!silent) showMessage('Partida continuada correctamente', 'success', 2000);
+        shareContext = 'partida';
+        updateShareButton();
     } catch (error) {
         console.error('Error al reanudar partida:', error);
         if (!silent) showMessage('Error al continuar la partida', 'error', 3000);

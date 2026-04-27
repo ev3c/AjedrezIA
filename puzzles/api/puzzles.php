@@ -58,6 +58,84 @@ try {
     exit;
 }
 
+/** Fila BD → objeto puzzle app (o null si no válida) */
+function row_to_puzzle(array $row, string $theme): ?array {
+    $allMoves = array_values(array_filter(explode(' ', trim($row['moves']))));
+    $preMoves = array_slice($allMoves, 0, 1);
+    $solution = array_slice($allMoves, 1);
+    if (empty($solution)) {
+        return null;
+    }
+    $diff  = solutionToDifficulty($solution);
+    $tags  = trim($row['opening_tags'] ?? '');
+    $title = $tags ? ucwords(str_replace('_', ' ', explode(' ', $tags)[0])) : ucfirst($theme === 'all' ? 'Táctica' : $theme);
+    return [
+        'id'         => $row['puzzle_id'],
+        'fen'        => $row['fen'],
+        'preMoves'   => $preMoves,
+        'solution'   => $solution,
+        'theme'      => $theme === 'all' ? 'tactic' : $theme,
+        'difficulty' => $diff,
+        'title'      => $title,
+    ];
+}
+
+// ── Enlaces compartidos: un puzzle por id ────────────────────────────
+if (!empty($_GET['id'])) {
+    try {
+        $stmt = $pdo->prepare(
+            'SELECT puzzle_id, fen, moves, themes, opening_tags FROM lichess_puzzles WHERE puzzle_id = ? LIMIT 1'
+        );
+        $stmt->execute([$_GET['id']]);
+        $row = $stmt->fetch(PDO::FETCH_ASSOC);
+    } catch (Exception $e) {
+        http_response_code(500);
+        echo json_encode(['error' => 'Query failed: ' . $e->getMessage()]);
+        exit;
+    }
+    if (!$row) {
+        echo json_encode(['puzzles' => [], 'total' => 0]);
+        exit;
+    }
+    $p = row_to_puzzle($row, 'all');
+    if (!$p) {
+        echo json_encode(['puzzles' => [], 'total' => 0]);
+        exit;
+    }
+    echo json_encode(['puzzles' => [$p], 'total' => 1]);
+    exit;
+}
+
+// ── Problema del día (misma fila para todos en la misma fecha UTC) ───
+if (isset($_GET['daily']) && $_GET['daily'] === '1') {
+    $daySeed = (string)(int)date('Ymd');
+    try {
+        $stmt = $pdo->prepare(
+            "SELECT puzzle_id, fen, moves, themes, opening_tags FROM lichess_puzzles
+             ORDER BY CRC32(CONCAT(puzzle_id, :seed)) DESC
+             LIMIT 1"
+        );
+        $stmt->execute([':seed' => $daySeed]);
+        $row = $stmt->fetch(PDO::FETCH_ASSOC);
+    } catch (Exception $e) {
+        http_response_code(500);
+        echo json_encode(['error' => 'Query failed: ' . $e->getMessage()]);
+        exit;
+    }
+    if (!$row) {
+        echo json_encode(['puzzles' => [], 'total' => 0]);
+        exit;
+    }
+    $p = row_to_puzzle($row, 'all');
+    if (!$p) {
+        echo json_encode(['puzzles' => [], 'total' => 0]);
+        exit;
+    }
+    $p['title'] = 'Problema del día';
+    echo json_encode(['puzzles' => [$p], 'total' => 1]);
+    exit;
+}
+
 // ── Construcción de consulta ──────────────────────────────────────────
 $where  = [];
 $params = [];

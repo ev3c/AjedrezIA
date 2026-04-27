@@ -685,6 +685,17 @@ body.puzzle-mode-active .move-navigator {
     box-shadow: 0 4px 8px rgba(249, 115, 22, 0.2);
 }
 
+.btn-share {
+    background: #dbeafe;
+    color: #1e40af;
+}
+
+.btn-share:hover:not(:disabled) {
+    background: #bfdbfe;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(37, 99, 235, 0.2);
+}
+
 .btn:disabled {
     background: #e5e7eb;
     color: #9ca3af;
@@ -938,6 +949,17 @@ body.puzzle-mode-active .move-navigator {
     box-shadow: 0 4px 8px rgba(249, 115, 22, 0.2);
 }
 
+.btn-icon.btn-share {
+    background: #dbeafe;
+    color: #1e40af;
+}
+
+.btn-icon.btn-share:hover:not(:disabled) {
+    background: #bfdbfe;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(37, 99, 235, 0.2);
+}
+
 .btn-icon:disabled {
     background: #e5e7eb;
     color: #9ca3af;
@@ -994,6 +1016,20 @@ body.puzzle-mode-active .move-navigator {
     border-color: #e5e7eb;
     color: #9ca3af;
     cursor: not-allowed;
+}
+
+.puzzle-board-nav-btn.puzzle-board-share-btn {
+    background: #dbeafe;
+    border-color: #93c5fd;
+    color: #1e40af;
+    font-size: 1.2rem;
+    line-height: 1;
+}
+
+.puzzle-board-nav-btn.puzzle-board-share-btn:hover:not(:disabled) {
+    background: #bfdbfe;
+    border-color: #60a5fa;
+    transform: scale(1.05);
 }
 
 .puzzle-board-close-btn {
@@ -2076,6 +2112,75 @@ body.puzzle-mode-active .move-navigator {
 
 .message-text {
     margin-bottom: 0;
+}
+
+/* Mensaje a compartir (modal share): texto desde ¡Echa un vistazo… hasta ♟ URL */
+.share-message-frame {
+    display: block;
+    border: 2px solid #93c5fd;
+    background: linear-gradient(180deg, #f8fafc 0%, #eff6ff 100%);
+    border-radius: 12px;
+    padding: 14px 16px;
+    margin: 10px 0 12px 0;
+    max-width: 100%;
+    font-size: 0.8em;
+    font-weight: 500;
+    word-break: break-word;
+    color: #1e3a8a;
+    text-align: left;
+    line-height: 1.5;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), 0 2px 8px rgba(30, 64, 175, 0.08);
+}
+
+.share-actions {
+    display: flex;
+    gap: 6px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    -webkit-overflow-scrolling: touch;
+}
+
+.share-action-btn {
+    flex-shrink: 0;
+    padding: 6px 9px;
+    border: 1px solid rgba(255, 255, 255, 0.65);
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.7em;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 1px 3px rgba(55, 65, 85, 0.12);
+    transition: filter 0.15s ease, box-shadow 0.15s ease;
+}
+
+.share-action-btn:hover {
+    filter: brightness(1.03);
+    box-shadow: 0 2px 6px rgba(55, 65, 85, 0.14);
+}
+
+.share-action-btn--copy {
+    background: linear-gradient(180deg, #dbeafe 0%, #bfdbfe 100%);
+    color: #1e3a8a;
+}
+
+.share-action-btn--twitter {
+    background: linear-gradient(180deg, #e4e4f5 0%, #d4d4e8 100%);
+    color: #433850;
+}
+
+.share-action-btn--whatsapp {
+    background: linear-gradient(180deg, #d1fae5 0%, #a7f3d0 100%);
+    color: #14532d;
+}
+
+.share-action-btn--gmail {
+    background: linear-gradient(180deg, #fce7f3 0%, #fbcfe8 100%);
+    color: #831843;
 }
 
 .message-box-changelog {
