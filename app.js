@@ -4757,7 +4757,7 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
-    '2.5.9': [
+    '2.6': [
         'Añadido botón "Compartir" en la barra de navegación para compartir la partida, apertura, problema o partida maestra',
         'Enlaces:',
         '   ?moves= e2e4,d7d6,… (UCI, coma o +) reproduce la partida al abrir; prioridad máxima',

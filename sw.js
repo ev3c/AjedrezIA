@@ -1,4 +1,4 @@
-const CACHE_VERSION = new URLSearchParams(self.location.search).get('v') || '2.5.7';
+const CACHE_VERSION = new URLSearchParams(self.location.search).get('v') || '2.6';
 const CACHE_NAME = 'ajedrez-ia-v' + CACHE_VERSION;
 
 const ASSETS_TO_CACHE = [
