@@ -4757,7 +4757,9 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
-    '2.6': [
+    '2.6.1': [
+        'Problemas: barra de navegación ajustada al ancho de pantalla en móvil (responsive)',
+        'Actualización automática de nuevas versiones SW, CSS y scripts en todos los dispositivos',
         'Añadido botón "Compartir" en la barra de navegación para compartir la partida, apertura, problema o partida maestra',
         'Enlaces:',
         '   ?moves= e2e4,d7d6,… (UCI, coma o +) reproduce la partida al abrir; prioridad máxima',
@@ -5554,7 +5556,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
 
-        navigator.serviceWorker.register(`./sw.js?v=${APP_VERSION}`, { updateViaCache: 'none' })
+        navigator.serviceWorker.register('./sw.js', { updateViaCache: 'none' })
             .then(function(reg) {
                 if (reg.waiting) {
                     promptSwUpdate(reg.waiting);
@@ -5564,9 +5566,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     trackInstalling(reg);
                 });
 
-                setInterval(function() { reg.update(); }, 15 * 60 * 1000);
-
+                // Comprobar actualización al arrancar y cada 5 minutos
                 reg.update();
+                setInterval(function() { reg.update(); }, 5 * 60 * 1000);
             }).catch(function() {});
 
         document.addEventListener('visibilitychange', function() {

@@ -1,4 +1,4 @@
-const CACHE_VERSION = new URLSearchParams(self.location.search).get('v') || '2.6';
+const CACHE_VERSION = new URLSearchParams(self.location.search).get('v') || '2.6.1';
 const CACHE_NAME = 'ajedrez-ia-v' + CACHE_VERSION;
 
 const ASSETS_TO_CACHE = [
@@ -100,6 +100,7 @@ self.addEventListener('message', (event) => {
 self.addEventListener('fetch', (event) => {
     const url = new URL(event.request.url);
 
+    // Recursos externos: red con fallback a caché
     if (url.origin !== location.origin) {
         event.respondWith(
             fetch(event.request).catch(() => caches.match(event.request))
@@ -107,6 +108,23 @@ self.addEventListener('fetch', (event) => {
         return;
     }
 
+    // Navegación (index.html / ./): siempre red sin caché HTTP para recibir la versión más reciente
+    if (event.request.mode === 'navigate') {
+        event.respondWith(
+            fetch(new Request(event.request, { cache: 'no-store' }))
+                .then(response => {
+                    if (response && response.status === 200) {
+                        const clone = response.clone();
+                        caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
+                    }
+                    return response;
+                })
+                .catch(() => caches.match(event.request))
+        );
+        return;
+    }
+
+    // Resto de recursos del mismo origen: red primero, caché como fallback
     event.respondWith(
         fetch(event.request).then(response => {
             if (response && response.status === 200) {

@@ -3248,6 +3248,26 @@ body.puzzle-mode-active .move-navigator {
         margin-bottom: 6px;
     }
 
+    .puzzle-board-nav {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 8px 8px;
+        gap: 8px;
+        border-radius: 6px;
+    }
+
+    .puzzle-board-nav-btn {
+        width: 36px;
+        height: 36px;
+        font-size: 1.2rem;
+    }
+
+    .puzzle-board-nav-label {
+        min-width: 0;
+        font-size: 0.82rem;
+    }
+
     .chess-board {
         --sq: var(--square-size);
     }
