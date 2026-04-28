@@ -4757,6 +4757,9 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '2.6.2': [
+        'Compartir partida: el enlace usa siempre ?moves= (UCI) en lugar de ?pgn= (base64)',
+    ],
     '2.6.1': [
         'Problemas: barra de navegación ajustada al ancho de pantalla en móvil (responsive)',
         'Actualización automática de nuevas versiones SW, CSS y scripts en todos los dispositivos',
@@ -7114,12 +7117,8 @@ function getShareInfo() {
     }
 
     if (game && game.moveHistory && game.moveHistory.length > 0) {
-        const pgn = buildPGNContent();
-        const encoded = btoa(unescape(encodeURIComponent(pgn)));
         const movesUCI = (game.moveHistoryUCI || []).join(',');
-        const url = movesUCI.length < 400
-            ? `${BASE_PATH}?moves=${encodeURIComponent(movesUCI)}`
-            : `${BASE_PATH}?pgn=${encoded.substring(0, 800)}`;
+        const url = `${BASE_PATH}?moves=${encodeURIComponent(movesUCI)}`;
         const fgt = document.getElementById('famous-game-title');
         const vsDetail = (fgt && fgt.textContent) ? fgt.textContent.replace(/\n/g, ' ').replace(/\s+/g, ' ').trim() : null;
         return { url, label: SHARE_COMPARTIR_LABEL.partida, shareKind: 'partida', shareDetail: vsDetail || null };
