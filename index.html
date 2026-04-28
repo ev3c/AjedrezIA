@@ -13,7 +13,7 @@
 </script>
 
 
-<!-- Versión de la aplicación 2.6.2 -->
+<!-- Versión de la aplicación 2.6.5 -->
 
 <!-- Google Tag Manager --
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -38,6 +38,42 @@
     <link rel="manifest" href="manifest.json">
     <script src="version.js"></script>
     <script>document.write('<link rel="stylesheet" href="style.css?v=' + APP_VERSION + '">');</script>
+    <script>
+    // Salvavidas de actualización para PWAs antiguas instaladas en ajedrezia.com:
+    // si version.js cargado en memoria está obsoleto respecto al del servidor,
+    // limpiamos cachés, desregistramos el Service Worker y recargamos.
+    // Se ejecuta independientemente de app.js para cubrir el caso en el que
+    // app.js sea servido desde una caché muy antigua sin esta lógica.
+    (function() {
+        if (!('serviceWorker' in navigator) || !('fetch' in window)) return;
+        try {
+            fetch('./version.js?_=' + Date.now(), { cache: 'no-store' })
+                .then(function(r) { return r && r.ok ? r.text() : null; })
+                .then(function(txt) {
+                    if (!txt) return;
+                    var m = txt.match(/APP_VERSION\s*=\s*['"]([^'"]+)['"]/);
+                    if (!m) return;
+                    var remote = m[1];
+                    if (typeof APP_VERSION === 'undefined' || remote === APP_VERSION) return;
+                    if (window.__ajedrezia_forcing_update) return;
+                    window.__ajedrezia_forcing_update = true;
+                    var clearCaches = ('caches' in window)
+                        ? caches.keys().then(function(keys) {
+                            return Promise.all(keys.map(function(k) { return caches.delete(k); }));
+                        }).catch(function(){})
+                        : Promise.resolve();
+                    var unregister = navigator.serviceWorker.getRegistrations()
+                        .then(function(regs) {
+                            return Promise.all(regs.map(function(r) { return r.unregister().catch(function(){}); }));
+                        }).catch(function(){});
+                    Promise.all([clearCaches, unregister]).then(function() {
+                        window.location.reload();
+                    });
+                })
+                .catch(function(){});
+        } catch (e) {}
+    })();
+    </script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->

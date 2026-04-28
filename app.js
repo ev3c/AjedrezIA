@@ -4757,6 +4757,12 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '2.6.5': [
+        'Actualización automática reforzada: todas las versiones anteriores (incluso instaladas como PWA) se actualizan al abrir www.ajedrezia.com',
+        'Service Worker registrado con ?v=APP_VERSION para evitar la caché HTTP de navegadores y proxies',
+        'Limpieza agresiva de cachés antiguas al activar la nueva versión',
+        'Comprobación de versión al arrancar y al volver a la pestaña: fuerza recarga si detecta una versión más reciente',
+    ],
     '2.6.2': [
         'Compartir partida: el enlace usa siempre ?moves= (UCI) en lugar de ?pgn= (base64)',
     ],
@@ -5559,7 +5565,11 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
 
-        navigator.serviceWorker.register('./sw.js', { updateViaCache: 'none' })
+        // Registramos sw.js con ?v=APP_VERSION para que el navegador lo trate
+        // como un script nuevo aunque la caché HTTP del usuario sea agresiva
+        // (clave para que las PWAs instaladas con versiones antiguas se actualicen).
+        var swUrl = './sw.js?v=' + (typeof APP_VERSION !== 'undefined' ? APP_VERSION : Date.now());
+        navigator.serviceWorker.register(swUrl, { updateViaCache: 'none' })
             .then(function(reg) {
                 if (reg.waiting) {
                     promptSwUpdate(reg.waiting);
@@ -5570,13 +5580,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
 
                 // Comprobar actualización al arrancar y cada 5 minutos
-                reg.update();
-                setInterval(function() { reg.update(); }, 5 * 60 * 1000);
+                try { reg.update(); } catch (e) {}
+                setInterval(function() { try { reg.update(); } catch (e) {} }, 5 * 60 * 1000);
             }).catch(function() {});
 
         document.addEventListener('visibilitychange', function() {
             if (document.visibilityState === 'visible' && navigator.serviceWorker.controller) {
                 navigator.serviceWorker.ready.then(function(reg) { reg.update(); });
+                // Comprobación adicional de versión al volver a la pestaña
+                checkRemoteVersion();
             }
         });
 
@@ -5590,6 +5602,49 @@ document.addEventListener('DOMContentLoaded', () => {
                 window.location.reload();
             });
         });
+
+        // --- Verificación remota de versión ---
+        // Trae version.js de la red (sin caché) y, si la versión es mayor que la
+        // cargada en memoria, fuerza la actualización: limpia cachés, desregistra
+        // SW antiguos y recarga. Cubre PWAs muy antiguas cuya SW no responde a
+        // los mecanismos estándar de actualización.
+        function checkRemoteVersion() {
+            try {
+                fetch('./version.js?ts=' + Date.now(), { cache: 'no-store' })
+                    .then(function(r) { return r.ok ? r.text() : null; })
+                    .then(function(txt) {
+                        if (!txt) return;
+                        var m = txt.match(/APP_VERSION\s*=\s*['"]([^'"]+)['"]/);
+                        if (!m) return;
+                        var remote = m[1];
+                        if (typeof APP_VERSION === 'undefined') return;
+                        if (compareVersions(remote, APP_VERSION) > 0) {
+                            forceHardUpdate();
+                        }
+                    })
+                    .catch(function() {});
+            } catch (e) {}
+        }
+
+        function forceHardUpdate() {
+            if (window.__ajedrezia_forcing_update) return;
+            window.__ajedrezia_forcing_update = true;
+            var clearCaches = ('caches' in window)
+                ? caches.keys().then(function(keys) {
+                    return Promise.all(keys.map(function(k) { return caches.delete(k); }));
+                }).catch(function() {})
+                : Promise.resolve();
+            var unregisterSWs = navigator.serviceWorker.getRegistrations()
+                .then(function(regs) {
+                    return Promise.all(regs.map(function(r) { return r.unregister().catch(function(){}); }));
+                }).catch(function() {});
+            Promise.all([clearCaches, unregisterSWs]).then(function() {
+                window.location.reload();
+            });
+        }
+
+        // Al arrancar: comprobar versión remota a los 2s (no bloquea el render)
+        setTimeout(checkRemoteVersion, 2000);
     }
 });
 

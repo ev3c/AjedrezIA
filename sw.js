@@ -1,5 +1,6 @@
-const CACHE_VERSION = new URLSearchParams(self.location.search).get('v') || '2.6.2';
+const CACHE_VERSION = new URLSearchParams(self.location.search).get('v') || '2.6.5';
 const CACHE_NAME = 'ajedrez-ia-v' + CACHE_VERSION;
+const CACHE_PREFIX = 'ajedrez-ia-v';
 
 const ASSETS_TO_CACHE = [
     './',
@@ -76,7 +77,11 @@ const ASSETS_TO_CACHE = [
 self.addEventListener('install', (event) => {
     event.waitUntil(
         caches.open(CACHE_NAME)
-            .then(cache => cache.addAll(ASSETS_TO_CACHE))
+            // Forzamos red sin caché HTTP al cachear los assets en la instalación
+            // para que un SW antiguo o un proxy/CDN no devuelva versiones obsoletas.
+            .then(cache => cache.addAll(
+                ASSETS_TO_CACHE.map(url => new Request(url, { cache: 'reload' }))
+            ))
             .then(() => self.skipWaiting())
     );
 });
@@ -85,7 +90,12 @@ self.addEventListener('activate', (event) => {
     event.waitUntil(
         caches.keys().then(keys =>
             Promise.all(
-                keys.filter(k => k !== CACHE_NAME).map(k => caches.delete(k))
+                // Borramos TODAS las cachés antiguas (cualquier nombre con
+                // el prefijo ajedrez-ia-v* o cualquier otra) para que las
+                // versiones anteriores instaladas como PWA queden limpias.
+                keys
+                    .filter(k => k !== CACHE_NAME)
+                    .map(k => caches.delete(k))
             )
         ).then(() => self.clients.claim())
     );
@@ -108,8 +118,26 @@ self.addEventListener('fetch', (event) => {
         return;
     }
 
-    // Navegación (index.html / ./): siempre red sin caché HTTP para recibir la versión más reciente
+    // Navegación (index.html / ./): SIEMPRE red sin caché HTTP para recibir la versión más reciente.
+    // Esto garantiza que cualquier visita a www.ajedrezia.com obtenga el index.html nuevo
+    // (con la última APP_VERSION) aunque el SW esté instalado desde versiones antiguas.
     if (event.request.mode === 'navigate') {
+        event.respondWith(
+            fetch(new Request(event.request, { cache: 'no-store' }))
+                .then(response => {
+                    if (response && response.status === 200) {
+                        const clone = response.clone();
+                        caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
+                    }
+                    return response;
+                })
+                .catch(() => caches.match(event.request))
+        );
+        return;
+    }
+
+    // version.js, sw.js, manifest.json: red obligatoria sin caché HTTP para detectar cambios al instante
+    if (url.pathname.endsWith('/version.js') || url.pathname.endsWith('/sw.js') || url.pathname.endsWith('/manifest.json')) {
         event.respondWith(
             fetch(new Request(event.request, { cache: 'no-store' }))
                 .then(response => {
