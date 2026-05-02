@@ -13,7 +13,7 @@
 </script>
 
 
-<!-- Versión de la aplicación 2.6.5 -->
+<!-- Versión de la aplicación 3.0 -->
 
 <!-- Google Tag Manager --
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -93,8 +93,11 @@
                     <div class="panel-body" id="config-body">
 
                     <div class="config-section config-row-nickname">
-                        <label for="player-nickname">Nickname:</label>
-                        <input type="text" id="player-nickname" class="input-text input-text--nickname" maxlength="20" placeholder="Jugador" autocomplete="off">
+                        <input type="hidden" id="player-nickname" value="Jugador">
+                        <button id="login-status-btn" class="login-status-btn" type="button" title="Iniciar sesión online">
+                            <span class="login-status-avatar" id="login-status-avatar">👤</span>
+                            <span class="login-status-text" id="login-status-text">Iniciar Sesión</span>
+                        </button>
                     </div>
 
                     <div class="config-section" id="ai-settings">
@@ -558,6 +561,21 @@
             </div>
 
             <div class="sidebar sidebar-right">
+                <div id="analysis-overlay" class="analysis-overlay" style="display: none;">
+                    <div class="analysis-modal">
+                        <div class="analysis-title-bar">
+                            <h3 class="analysis-title">📊 Análisis post-partida</h3>
+                            <button id="analysis-close-x" class="analysis-close-x" title="Cerrar">✕</button>
+                        </div>
+                        <div id="analysis-loading" class="analysis-loading">Movimientos analizados: 0 / 0</div>
+                        <div id="analysis-content" class="analysis-content" style="display: none;">
+                            <div id="analysis-summary" class="analysis-summary"></div>
+                            <div id="analysis-mistakes" class="analysis-mistakes"></div>
+                            <button id="analysis-close" class="btn btn-primary">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="panel panel-collapsible" id="clock-panel">
                     <h2 class="panel-toggle">⏱️ Reloj de Ajedrez <span class="panel-arrow">▲</span></h2>
                     <div class="panel-body">
@@ -650,6 +668,176 @@
         <a href="mailto:ev3c.android@gmail.com">ev3c.android@gmail.com</a>
     </footer>
 
+    <!-- Modal de inicio de sesión online -->
+    <div id="login-modal-overlay" class="login-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="login-modal-title">
+        <div class="login-modal-card">
+            <button class="login-modal-close" id="login-modal-close" title="Cerrar" aria-label="Cerrar">✕</button>
+
+            <!-- Spinner de carga durante el proceso OAuth -->
+            <div class="login-modal-loading" id="login-modal-loading" style="display:none;">
+                <div class="login-spinner"></div>
+                <p class="login-loading-text">Conectando…</p>
+            </div>
+
+            <!-- Vista A: no autenticado -->
+            <div id="login-view-out">
+                <div class="login-modal-chess-icon" aria-hidden="true">♔</div>
+                <h2 class="login-modal-title" id="login-modal-title">Jugar Online</h2>
+                <p class="login-modal-subtitle">Inicia sesión para jugar partidas en línea, guardar tu progreso y competir en rankings.</p>
+                <div class="login-modal-error" id="login-modal-error" style="display:none;"></div>
+                <div class="login-modal-buttons">
+                    <button class="login-btn login-btn-google" id="login-google-btn" type="button">
+                        <svg class="login-btn-icon" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                            <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                            <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/>
+                            <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+                        </svg>
+                        Continuar con Google
+                    </button>
+                    <button class="login-btn login-btn-apple" id="login-apple-btn" type="button">
+                        <svg class="login-btn-icon" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+                            <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.7 9.05 7.43c1.31.07 2.22.72 2.98.75.84-.17 1.65-.84 3.04-.9 1.74-.07 3.04.7 3.84 1.9-3.42 2.07-2.86 6.61.42 7.93-.6 1.47-1.38 2.93-2.28 3.17zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
+                        </svg>
+                        Continuar con Apple
+                    </button>
+                </div>
+                <p class="login-modal-legal">Al continuar aceptas los <a href="#" class="login-modal-link">Términos de servicio</a> y la <a href="#" class="login-modal-link">Política de privacidad</a>.</p>
+            </div>
+
+            <!-- Vista B: autenticado -->
+            <div id="login-view-in" style="display:none;">
+                <div class="login-user-avatar" id="login-user-avatar"></div>
+                <p class="login-user-name" id="login-user-name"></p>
+                <p class="login-user-email" id="login-user-email"></p>
+                <p class="login-user-provider" id="login-user-provider"></p>
+                <div class="login-modal-buttons" style="margin-top:22px;">
+                    <button class="login-btn login-btn-play" id="login-play-btn" type="button">🌐 Buscar partida online</button>
+                    <button class="login-btn login-btn-signout" id="login-signout-btn" type="button">Cerrar sesión</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de usuarios online -->
+    <div id="users-modal-overlay" class="login-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="users-modal-title">
+        <div class="login-modal-card users-modal-card">
+            <button class="login-modal-close" id="users-modal-close" title="Cerrar" aria-label="Cerrar">✕</button>
+            <h2 class="login-modal-title" id="users-modal-title">🌐 Jugadores Registrados</h2>
+            <p class="login-modal-subtitle" id="users-modal-subtitle">Buscando jugadores…</p>
+
+            <div id="users-modal-loading" class="login-modal-loading" style="display:none;">
+                <div class="login-spinner"></div>
+            </div>
+
+            <div id="users-list" class="users-list"></div>
+
+            <button class="login-btn login-btn-play" id="users-refresh-btn" type="button" style="margin-top:14px;">
+                🔄 Actualizar
+            </button>
+        </div>
+    </div>
+
+    <!-- Modal: enviar invitación a un jugador -->
+    <div id="invite-send-overlay" class="login-modal-overlay" role="dialog" aria-modal="true">
+        <div class="login-modal-card invite-card">
+            <button class="login-modal-close" id="invite-send-close" title="Cerrar" aria-label="Cerrar">✕</button>
+            <h2 class="login-modal-title">⚔️ Invitar a jugar</h2>
+            <p class="login-modal-subtitle" id="invite-send-target">…</p>
+
+            <div class="invite-form">
+                <div class="invite-field">
+                    <label class="invite-label">Juego con:</label>
+                    <div class="invite-color-picker" id="invite-color-picker" role="radiogroup">
+                        <button type="button" class="invite-color-btn is-selected" data-color="white" aria-pressed="true">
+                            <img src="pieces/cburnett/wK.svg" alt="" class="invite-color-img"><span>Blancas</span>
+                        </button>
+                        <button type="button" class="invite-color-btn" data-color="black" aria-pressed="false">
+                            <img src="pieces/cburnett/bK.svg" alt="" class="invite-color-img"><span>Negras</span>
+                        </button>
+                        <button type="button" class="invite-color-btn" data-color="random" aria-pressed="false">
+                            <span class="invite-color-emoji">🎲</span><span>Aleatorio</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="invite-field">
+                    <label class="invite-label" for="invite-time-select">Reloj / Tiempo:</label>
+                    <select id="invite-time-select" class="select">
+                        <optgroup label="⚡ Bullet">
+                            <option value="1+0">1 min</option>
+                            <option value="1+1">1 min + 1 seg</option>
+                            <option value="2+1">2 min + 1 seg</option>
+                        </optgroup>
+                        <optgroup label="⚔️ Blitz">
+                            <option value="3+0">3 min</option>
+                            <option value="3+2">3 min + 2 seg</option>
+                            <option value="5+0" selected>5 min</option>
+                            <option value="5+3">5 min + 3 seg</option>
+                        </optgroup>
+                        <optgroup label="🎯 Rápidas">
+                            <option value="10+0">10 min</option>
+                            <option value="10+5">10 min + 5 seg</option>
+                            <option value="15+10">15 min + 10 seg</option>
+                            <option value="30+0">30 min</option>
+                        </optgroup>
+                        <optgroup label="♔ Clásicas">
+                            <option value="60+0">60 min</option>
+                            <option value="90+30">90 min + 30 seg</option>
+                        </optgroup>
+                    </select>
+                </div>
+            </div>
+
+            <div class="invite-error" id="invite-send-error" style="display:none;"></div>
+
+            <div class="login-modal-buttons" style="margin-top:18px;">
+                <button class="login-btn login-btn-play" id="invite-send-btn" type="button">📨 Enviar invitación</button>
+                <button class="login-btn login-btn-signout" id="invite-send-cancel" type="button">Cancelar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal: esperando respuesta del oponente -->
+    <div id="invite-waiting-overlay" class="login-modal-overlay" role="dialog" aria-modal="true">
+        <div class="login-modal-card">
+            <div class="login-spinner" style="margin: 0 auto 18px;"></div>
+            <h2 class="login-modal-title">Esperando respuesta…</h2>
+            <p class="login-modal-subtitle" id="invite-waiting-info">…</p>
+            <button class="login-btn login-btn-signout" id="invite-waiting-cancel" type="button" style="margin-top:18px;">Cancelar invitación</button>
+        </div>
+    </div>
+
+    <!-- Modal: invitación recibida -->
+    <div id="invite-incoming-overlay" class="login-modal-overlay" role="dialog" aria-modal="true">
+        <div class="login-modal-card invite-incoming-card">
+            <div class="invite-incoming-icon">⚔️</div>
+            <h2 class="login-modal-title">Te reto a una partida on-line</h2>
+            <p class="invite-from-line"><strong id="invite-incoming-from">…</strong> <span id="invite-incoming-elo" class="invite-elo-tag"></span></p>
+            <div class="invite-summary">
+                <div class="invite-summary-row"><span>Juego con:</span><strong id="invite-incoming-color">…</strong></div>
+                <div class="invite-summary-row"><span>Reloj / Tiempo:</span><strong id="invite-incoming-time">…</strong></div>
+            </div>
+            <div class="login-modal-buttons" style="margin-top:18px;">
+                <button class="login-btn login-btn-play" id="invite-accept-btn" type="button">✅ Aceptar</button>
+                <button class="login-btn login-btn-signout" id="invite-reject-btn" type="button">✖ Rechazar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal: confirmar abandono de partida online -->
+    <div id="abandon-confirm-overlay" class="login-modal-overlay" role="dialog" aria-modal="true" style="display:none;">
+        <div class="login-modal-card abandon-confirm-card">
+            <div class="invite-incoming-icon">⚠️</div>
+            <h2 class="login-modal-title">¿Abandonar la partida?</h2>
+            <p class="login-modal-subtitle">Se registrará como derrota y el rival ganará la partida.</p>
+            <div class="login-modal-buttons" style="margin-top:22px;">
+                <button class="login-btn login-btn-danger" id="abandon-confirm-accept" type="button">Abandonar</button>
+                <button class="login-btn login-btn-signout" id="abandon-confirm-cancel" type="button">Cancelar</button>
+            </div>
+        </div>
+    </div>
+
     <div id="rotate-device-overlay" class="rotate-device-overlay">
         <div class="rotate-device-message">
             <span class="rotate-icon">📱</span>
@@ -657,17 +845,13 @@
         </div>
     </div>
 
-    <div id="analysis-overlay" class="message-overlay analysis-overlay" style="display: none;">
-        <div class="analysis-modal">
-            <h3 class="analysis-title">📊 Análisis post-partida</h3>
-            <div id="analysis-loading" class="analysis-loading">Movimientos analizados: 0 / 0</div>
-            <div id="analysis-content" class="analysis-content" style="display: none;">
-                <div id="analysis-summary" class="analysis-summary"></div>
-                <div id="analysis-mistakes" class="analysis-mistakes"></div>
-                <button id="analysis-close" class="btn btn-primary">Cerrar</button>
-            </div>
-        </div>
-    </div>
+
+    <!-- Google Identity Services -->
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <!-- Apple Sign In with Apple JS -->
+    <script src="https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js" defer></script>
+    <!-- EmailJS (envío de emails desde el navegador) -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
 
     <script>
         document.write('<script src="chess-logic.js?v=' + APP_VERSION + '"><\/script>');

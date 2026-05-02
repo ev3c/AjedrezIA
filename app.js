@@ -1,9 +1,32 @@
 // APP_VERSION se define en version.js (cargado antes en index.html)
-
+// APP v3.0 desde Notebook
 /** URL base pública del sitio (compartir, enlaces con query, fallback). */
 
 const BASE_PATH = 'https://www.ajedrezia.com/';
 // const BASE_PATH = 'file:///H:/Mi%20unidad/AI%20code/games/AjedrezIA/';
+
+// ── Credenciales OAuth ─────────────────────────────────────────────────────
+// Orígenes autorizados que debes registrar en Google Cloud Console:
+//   • https://www.ajedrezia.com  (producción)
+//   • http://localhost:8000      (servidor.bat local)
+const GOOGLE_CLIENT_ID = '966584756345-inm4c8kpdrlebb76up05sis1pu5po7aa.apps.googleusercontent.com';
+
+// Detecta automáticamente si estamos en local o en producción
+const IS_LOCAL = (function() {
+    const h = window.location.hostname;
+    return h === 'localhost' || h === '127.0.0.1' || h === '';
+})();
+const APPLE_SERVICE_ID  = 'com.ajedrezia.signin';
+const APPLE_REDIRECT_URI = IS_LOCAL
+    ? 'http://localhost:8000/'
+    : 'https://www.ajedrezia.com/';
+
+// ── EmailJS — rellena con tus credenciales de emailjs.com ─────────────
+const EMAILJS_PUBLIC_KEY  = 'dAMru_0p8fJMCiuKj';
+const EMAILJS_SERVICE_ID  = 'service_nrzs4zq';
+const EMAILJS_TEMPLATE_ID = 'template_3627zca';
+// ─────────────────────────────────────────────────────────────────────
+// ─────────────────────────────────────────────────────────────────────────────
 
 // ─────────────────────────────────────────────────────────
 // SISTEMA DE SONIDO — Web Audio API (sin archivos externos)
@@ -150,11 +173,15 @@ let blackTime = 3600; // segundos
 let clockInterval = null;
 let lastMoveSquares = { from: null, to: null }; // Guardar último movimiento para resaltar
 let bestMoveSquares = { from: null, to: null }; // Movimiento recomendado por el análisis (verde)
+let _analysisHoverSnapshot = null;              // Snapshot del tablero antes de un hover en el panel
 let currentMoveIndex = -1; // Índice del movimiento actual en visualización (-1 = posición actual)
 let gameStateSnapshots = []; // Estados del juego en cada movimiento
 let analysisErrorsList = []; // Errores e imprecisiones del análisis post-partida
+let analysisAnalyzedUpTo = -1;  // Índice del último movimiento analizado (-1 = ninguno)
+let analysisComplete = false;   // true cuando todos los movimientos han sido analizados
 let analysisErrorsCurrentIndex = 0;
 let analysisActive = false;
+let analysisAbortRequested = false;
 let dragState = null;
 
 const ANALYSIS_DISABLED_IDS = ['start-opening-training', 'start-opening-quiz', 'load-famous-game',
@@ -3601,7 +3628,7 @@ function uciToSan(uci, stateIndex) {
 }
 
 // Análisis post-partida: errores, imprecisiones y mejores movimientos
-function showPostGameAnalysisChoiceDialog() {
+function showPostGameAnalysisChoiceDialog(totalMoves) {
     return new Promise((resolve) => {
         let overlay = document.getElementById('game-list-overlay');
         if (overlay) overlay.remove();
@@ -3620,9 +3647,15 @@ function showPostGameAnalysisChoiceDialog() {
         title.textContent = 'Ya hay un análisis de esta partida.';
         title.style.cssText = 'font-size:1rem;color:#333;margin-bottom:8px;font-weight:600;';
 
+        const analyzedCount = analysisAnalyzedUpTo + 1;
+        const statusText = analysisComplete
+            ? `Análisis completo (${analyzedCount}/${totalMoves} movimientos)`
+            : `Análisis parcial (${analyzedCount}/${totalMoves} movimientos)`;
+        const statusColor = analysisComplete ? '#059669' : '#d97706';
+
         const subtitle = document.createElement('p');
-        subtitle.textContent = '¿Qué quieres hacer?';
-        subtitle.style.cssText = 'font-size:0.9rem;color:#666;margin-bottom:18px;';
+        subtitle.innerHTML = `<span style="color:${statusColor};font-weight:600;">${statusText}</span><br><span style="color:#666;">¿Qué quieres hacer?</span>`;
+        subtitle.style.cssText = 'font-size:0.9rem;margin-bottom:18px;';
 
         const btnRow = document.createElement('div');
         btnRow.style.cssText = 'display:flex;flex-direction:column;gap:10px;align-items:stretch;';
@@ -3658,7 +3691,7 @@ function showPostGameAnalysisChoiceDialog() {
     });
 }
 
-async function executePostGameAnalysisOnline(uciMoves) {
+async function executePostGameAnalysisOnline(uciMoves, startFrom = 0) {
     // Pedir confirmación antes de analizar online
     const confirmed = await new Promise(resolve => {
         const msg = `<strong>Iniciar Análisis de Partida</strong><br><span style="font-size:0.9em;color:#555;">Se analizarán ${uciMoves.length} movimientos online.<br>Esto puede tardar unos segundos.</span>`;
@@ -3699,71 +3732,114 @@ async function executePostGameAnalysisOnline(uciMoves) {
     const total = uciMoves.length;
 
     setAnalysisModeActive(true);
-    overlay.style.display = 'flex';
+    overlay.style.display = 'block';
     overlay.classList.add('analysis-loading-mode');
     loading.style.display = 'block';
     content.style.display = 'none';
-    loading.textContent = `Movimientos analizados: 0 / ${total}`;
+    loading.textContent = `Movimientos analizados: ${startFrom} / ${total}`;
 
-    const errors = []; // blunder > 2
-    const mistakesList = []; // mistake 0.5-2
+    // Pre-cargar errores ya encontrados en análisis previos
+    const errors = analysisErrorsList.filter(e => e.type === 'blunder' && e.moveIndex < startFrom).map(e => ({ ...e }));
+    const mistakesList = analysisErrorsList.filter(e => e.type === 'mistake' && e.moveIndex < startFrom).map(e => ({ ...e }));
 
-    let analyzed = 0;
-    let apiErrors = 0;
+    let analyzed = startFrom;
+    let interruptedAtLabel = null;
+    let consecutiveFailures = 0;
 
-    for (let i = 0; i < uciMoves.length; i++) {
+    // Permitir abortar pulsando la X durante la carga
+    analysisAbortRequested = false;
+    const closeX = document.getElementById('analysis-close-x');
+    if (closeX) closeX.onclick = () => { analysisAbortRequested = true; };
+
+    for (let i = startFrom; i < uciMoves.length; i++) {
+        if (analysisAbortRequested) {
+            const turn = i % 2 === 0 ? 'white' : 'black';
+            const moveNum = Math.floor(i / 2) + 1;
+            const moveSuffix = turn === 'white' ? '' : '...';
+            interruptedAtLabel = `${moveNum}${moveSuffix}`;
+            break;
+        }
+
         const turn = i % 2 === 0 ? 'white' : 'black';
         const moveNum = Math.floor(i / 2) + 1;
         const moveSuffix = turn === 'white' ? '' : '...';
         const playerMove = uciMoves[i];
 
-        try {
-            const stateBefore = game.gameStateHistory[i];
-            if (!stateBefore) { apiErrors++; continue; }
-            const fullMove = Math.floor(i / 2) + 1;
-            const fenBefore = ChessGame.stateToFEN(stateBefore, fullMove);
+        // Intentar analizar el movimiento; si falla, reintentar una vez antes de saltar
+        let moveAnalyzed = false;
+        for (let attempt = 0; attempt < 2; attempt++) {
+            if (analysisAbortRequested) break;
+            try {
+                const stateBefore = game.gameStateHistory[i];
+                if (!stateBefore) break;
+                const fullMove = Math.floor(i / 2) + 1;
+                const fenBefore = ChessGame.stateToFEN(stateBefore, fullMove);
 
-            const analysisBefore = await analyzePosition(fenBefore, 10);
-            const bestMove = (analysisBefore.move || '').toLowerCase();
+                const analysisBefore = await analyzePosition(fenBefore, 10);
+                const bestMove = (analysisBefore.move || '').toLowerCase();
 
-            if (bestMove && playerMove.toLowerCase() !== bestMove) {
-                const stateAfter = i + 1 < game.gameStateHistory.length ? game.gameStateHistory[i + 1] : null;
-                const fenAfter = stateAfter ? ChessGame.stateToFEN(stateAfter, fullMove) : game.toFEN();
-                const analysisAfter = await analyzePosition(fenAfter, 10);
+                if (bestMove && playerMove.toLowerCase() !== bestMove) {
+                    const stateAfter = i + 1 < game.gameStateHistory.length ? game.gameStateHistory[i + 1] : null;
+                    const isTerminal = stateAfter ? stateAfter.gameOver : game.gameOver;
+                    const fenAfter = stateAfter ? ChessGame.stateToFEN(stateAfter, fullMove) : game.toFEN();
+                    let analysisAfter = null;
+                    try {
+                        analysisAfter = await analyzePosition(fenAfter, 10);
+                    } catch (eAfter) {
+                        // Posición terminal (jaque mate / ahogado): sin movimientos legales,
+                        // la API no puede devolver bestmove → se ignora sin penalizar.
+                        if (!isTerminal) throw eAfter;
+                    }
 
-                const evalBest = parseFloat(analysisBefore.eval) || 0;
-                const evalPlayer = parseFloat(analysisAfter.eval) || 0;
-                const loss = turn === 'white' ? evalBest - evalPlayer : evalPlayer - evalBest;
+                    if (analysisAfter) {
+                        const evalBest = parseFloat(analysisBefore.eval) || 0;
+                        const evalPlayer = parseFloat(analysisAfter.eval) || 0;
+                        const loss = turn === 'white' ? evalBest - evalPlayer : evalPlayer - evalBest;
 
-                if (loss >= 2) {
-                    errors.push({ moveNum, moveSuffix, playerMove, bestMove, loss, san: game.moveHistory[i], moveIndex: i });
-                } else if (loss >= 0.5) {
-                    mistakesList.push({ moveNum, moveSuffix, playerMove, bestMove, loss, san: game.moveHistory[i], moveIndex: i });
+                        if (loss >= 2) {
+                            errors.push({ moveNum, moveSuffix, playerMove, bestMove, loss, san: game.moveHistory[i], moveIndex: i });
+                        } else if (loss >= 0.5) {
+                            mistakesList.push({ moveNum, moveSuffix, playerMove, bestMove, loss, san: game.moveHistory[i], moveIndex: i });
+                        }
+                    }
+                }
+
+                analyzed++;
+                analysisAnalyzedUpTo = i;
+                consecutiveFailures = 0;
+                loading.textContent = `Movimientos analizados: ${analyzed} / ${total}`;
+                moveAnalyzed = true;
+                break; // éxito, no reintentar
+            } catch (e) {
+                console.warn(`Error analizando movimiento ${i} (intento ${attempt + 1})`, e);
+                if (attempt === 0) {
+                    // Esperar antes de reintentar
+                    await new Promise(r => setTimeout(r, 2000));
                 }
             }
+        }
 
-            analyzed++;
-            loading.textContent = `Movimientos analizados: ${analyzed} / ${total}`;
-            await new Promise(r => setTimeout(r, 500));
-        } catch (e) {
-            apiErrors++;
-            console.warn('Error analizando movimiento', i, e);
-            if (apiErrors >= 3) {
-                if (analyzed === 0) {
-                    showAnalysisError();
-                    return;
-                }
-                const moveLabel = `${moveNum}${moveSuffix || ''}`;
-                await showAnalysisErrorPartial(`Análisis OK hasta movimiento ${moveLabel}`);
-                break;
+        if (!moveAnalyzed && !analysisAbortRequested) {
+            // El movimiento falló en ambos intentos: saltar y continuar con el siguiente
+            consecutiveFailures++;
+            // Si el servidor no responde en absoluto desde el principio, mostrar error
+            if (analyzed === 0 && consecutiveFailures >= 3) {
+                analysisAbortRequested = false;
+                showAnalysisError();
+                return;
             }
-            await new Promise(r => setTimeout(r, 2000));
+        }
+
+        if (moveAnalyzed) {
+            await new Promise(r => setTimeout(r, 300));
         }
     }
 
+    analysisAbortRequested = false;
+
     const all = [...errors.map(e => ({ ...e, type: 'blunder' })), ...mistakesList.map(m => ({ ...m, type: 'mistake' }))].sort((a, b) => a.moveNum - b.moveNum || (a.moveSuffix ? 1 : -1));
 
-    showAnalysisResults(all, total, analyzed, errors.length, mistakesList.length);
+    showAnalysisResults(all, total, analyzed, errors.length, mistakesList.length, interruptedAtLabel);
 }
 
 async function analyzeGamePostGame() {
@@ -3777,31 +3853,38 @@ async function analyzeGamePostGame() {
         return;
     }
 
-    if (analysisErrorsList && analysisErrorsList.length > 0) {
-        const choice = await showPostGameAnalysisChoiceDialog();
+    const hasExisting = analysisAnalyzedUpTo >= 0;
+    if (hasExisting) {
+        const choice = await showPostGameAnalysisChoiceDialog(uciMoves.length);
         if (choice === 'cancel') return;
         if (choice === 'existing') {
             scrollToBoard();
             const blunders = analysisErrorsList.filter(e => e.type === 'blunder').length;
             const mistakes = analysisErrorsList.filter(e => e.type === 'mistake').length;
-            showAnalysisResults(analysisErrorsList, uciMoves.length, uciMoves.length, blunders, mistakes);
-            showMessage('📊 Mostrando análisis existente', 'info', 2000);
+            showAnalysisResults(analysisErrorsList, uciMoves.length, analysisAnalyzedUpTo + 1, blunders, mistakes);
+
             return;
         }
+        // choice === 'new': resetear y analizar desde cero
+        analysisAnalyzedUpTo = -1;
     }
 
     await executePostGameAnalysisOnline(uciMoves);
 }
 
-function showAnalysisResults(all, total, analyzed, blunderCount, mistakeCount) {
+function showAnalysisResults(all, total, analyzed, blunderCount, mistakeCount, interruptedAtLabel = null) {
     const overlay = document.getElementById('analysis-overlay');
     const loading = document.getElementById('analysis-loading');
     const content = document.getElementById('analysis-content');
     const summary = document.getElementById('analysis-summary');
     const mistakes = document.getElementById('analysis-mistakes');
 
+    // Mantener analysisAnalyzedUpTo sincronizado con los movimientos realmente analizados
+    if (analyzed > 0) analysisAnalyzedUpTo = analyzed - 1;
+    analysisComplete = (analyzed === total);
+
     setAnalysisModeActive(true);
-    overlay.style.display = 'flex';
+    overlay.style.display = 'block';
     overlay.classList.remove('analysis-loading-mode');
     loading.style.display = 'none';
     content.style.display = 'block';
@@ -3817,6 +3900,11 @@ function showAnalysisResults(all, total, analyzed, blunderCount, mistakeCount) {
 
         if (blunderCount === 0 && mistakeCount === 0) {
             summaryHtml += '<div style="margin-top: 10px; color: #059669; font-weight: 600;">¡Partida sin errores significativos!</div>';
+        }
+        if (analyzed < total) {
+            const lastChessMove = Math.ceil(analyzed / 2);
+            const totalChessMoves = Math.ceil(total / 2);
+            summaryHtml += `<div style="margin-top:10px;padding:7px 10px;background:#fef3c7;border:1px solid #f59e0b;border-radius:7px;color:#92400e;font-size:0.85rem;">⚠️ Análisis interrumpido en el movimiento ${lastChessMove} de ${totalChessMoves}</div>`;
         }
     }
 
@@ -3845,12 +3933,16 @@ function showAnalysisResults(all, total, analyzed, blunderCount, mistakeCount) {
         </div>`;
     }).join('') || '<p style="color:#059669;">No se detectaron errores en la partida.</p>';
 
+    const supportsHover = window.matchMedia('(hover: hover)').matches;
+
     mistakes.querySelectorAll('.analysis-move[data-move-index]').forEach((el, idx) => {
         const moveIdx = parseInt(el.dataset.moveIndex);
         const uci = el.dataset.uci;
         if (moveIdx >= 0 && uci) {
             el.style.cursor = 'pointer';
+
             el.addEventListener('click', () => {
+                _analysisHoverSnapshot = null; // El click hace permanente la posición
                 analysisErrorsCurrentIndex = idx;
                 updateAnalysisNavLabel(analysisErrorsList[idx]);
                 const navPrev = document.getElementById('analysis-nav-prev');
@@ -3859,10 +3951,44 @@ function showAnalysisResults(all, total, analyzed, blunderCount, mistakeCount) {
                 if (navNext) navNext.disabled = idx === analysisErrorsList.length - 1;
                 showAnalysisPositionOnBoard(moveIdx, uci);
             });
+
+            if (supportsHover) {
+                el.addEventListener('mouseenter', () => {
+                    if (!game || !game.gameStateHistory) return;
+                    // Guardar estado actual antes del preview
+                    const effectiveIdx = currentMoveIndex >= 0
+                        ? currentMoveIndex
+                        : game.gameStateHistory.length - 1;
+                    _analysisHoverSnapshot = {
+                        moveIndex: effectiveIdx,
+                        lastMoveSquares: { from: lastMoveSquares.from ? { ...lastMoveSquares.from } : null, to: lastMoveSquares.to ? { ...lastMoveSquares.to } : null },
+                        bestMoveSquares: { from: bestMoveSquares.from ? { ...bestMoveSquares.from } : null, to: bestMoveSquares.to ? { ...bestMoveSquares.to } : null }
+                    };
+                    // Mostrar posición del error en el tablero
+                    restoreGameState(moveIdx);
+                    const move = parseUCIMove(uci);
+                    if (move) {
+                        lastMoveSquares = { from: { row: move.fromRow, col: move.fromCol }, to: { row: move.toRow, col: move.toCol } };
+                        const item = analysisErrorsList.find(a => a.moveIndex === moveIdx);
+                        const best = item ? parseUCIMove(item.bestMove) : null;
+                        bestMoveSquares = best ? { from: { row: best.fromRow, col: best.fromCol }, to: { row: best.toRow, col: best.toCol } } : { from: null, to: null };
+                    }
+                    renderBoard();
+                });
+
+                el.addEventListener('mouseleave', () => {
+                    if (!_analysisHoverSnapshot || !game) return;
+                    restoreGameState(_analysisHoverSnapshot.moveIndex);
+                    lastMoveSquares = _analysisHoverSnapshot.lastMoveSquares;
+                    bestMoveSquares = _analysisHoverSnapshot.bestMoveSquares;
+                    _analysisHoverSnapshot = null;
+                    renderBoard();
+                });
+            }
         }
     });
 
-    document.getElementById('analysis-close').onclick = () => {
+    const closeAnalysis = () => {
         overlay.style.display = 'none';
         if (analysisErrorsList.length > 0) {
             showAnalysisPositionOnBoard(analysisErrorsList[0].moveIndex, analysisErrorsList[0].playerMove);
@@ -3873,6 +3999,12 @@ function showAnalysisResults(all, total, analyzed, blunderCount, mistakeCount) {
             setAnalysisModeActive(false);
         }
     };
+    document.getElementById('analysis-close').onclick = closeAnalysis;
+    const closeX = document.getElementById('analysis-close-x');
+    if (closeX) closeX.onclick = closeAnalysis;
+
+    // Persistir el análisis para que sobreviva a una recarga de página
+    autoSaveGame();
 }
 
 function goToAnalysisError(delta) {
@@ -3950,8 +4082,11 @@ function showAnalysisError() {
         content.style.display = 'block';
         summary.innerHTML = '<p style="color:#ef4444;">No se pudo conectar con el servidor de análisis. Comprueba tu conexión e inténtalo de nuevo.</p>';
         if (mistakes) mistakes.innerHTML = '';
+        const closeFn = () => { overlay.style.display = 'none'; setAnalysisModeActive(false); };
         const closeBtn = document.getElementById('analysis-close');
-        if (closeBtn) closeBtn.onclick = () => { overlay.style.display = 'none'; };
+        if (closeBtn) closeBtn.onclick = closeFn;
+        const closeX = document.getElementById('analysis-close-x');
+        if (closeX) closeX.onclick = closeFn;
     }
 }
 
@@ -4654,6 +4789,9 @@ function updatePlayerColorPawnImages() {
 }
 
 function isHumanTurn() {
+    if (_onlineGame && _onlineGame.status === 'active') {
+        return game.currentTurn === _onlineGame.myColor;
+    }
     return playerColor === 'both' || game.currentTurn === playerColor;
 }
 
@@ -4757,6 +4895,21 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '3.0.0': [
+        '🌐 Versión 3.0: juego online multijugador en tiempo real completo',
+        'Login con OAuth: autenticación con Google y Apple Sign-In',
+        'Sistema de invitaciones: reta a cualquier jugador registrado con selección de color y control de tiempo',
+        'Presencia online: heartbeat cada 30 s para mostrar qué jugadores están conectados',
+        'Modal de jugadores: lista de usuarios registrados con ELO y estado online/offline',
+        'Modal de perfil: avatar, nombre y email del usuario autenticado',
+        'API REST PHP: heartbeat, get-users, save-user, send-invite, respond-invite, get-invite-status, get-game, send-move, end-game, get-invites',
+        'Análisis post-partida: seguimiento completo hasta el último movimiento, incluidas posiciones terminales',
+        'Actualización automática forzada: las versiones anteriores instaladas como PWA se actualizan al abrir la app',
+    ],
+    '2.6.6': [
+        'Corrección: el análisis post-partida ahora llega siempre hasta el último movimiento',
+        'Las posiciones terminales (jaque mate / ahogado) ya no causan un error de API que interrumpía el análisis',
+    ],
     '2.6.5': [
         'Actualización automática reforzada: todas las versiones anteriores (incluso instaladas como PWA) se actualizan al abrir www.ajedrezia.com',
         'Service Worker registrado con ?v=APP_VERSION para evitar la caché HTTP de navegadores y proxies',
@@ -4973,6 +5126,1028 @@ function hideMessage() {
     }
 }
 
+// ── Gestión de sesión online ───────────────────────────────────────────────
+
+/** Decodifica un JWT sin verificar la firma (solo para mostrar datos en cliente). */
+function parseJwt(token) {
+    try {
+        const base64 = token.split('.')[1].replace(/-/g, '+').replace(/_/g, '/');
+        return JSON.parse(atob(base64));
+    } catch (e) {
+        return null;
+    }
+}
+
+function getOnlineUser() {
+    try {
+        const raw = localStorage.getItem('online_user');
+        return raw ? JSON.parse(raw) : null;
+    } catch (e) {
+        return null;
+    }
+}
+
+function setOnlineUser(user) {
+    const isFirstLoginLocal = !getOnlineUser();
+
+    localStorage.setItem('online_user', JSON.stringify(user));
+
+    if (user.email) {
+        playerNickname = user.email.split('@')[0];
+        const nicknameEl = document.getElementById('player-nickname');
+        if (nicknameEl) {
+            nicknameEl.value = playerNickname;
+            nicknameEl.disabled = true;
+            nicknameEl.title = 'Nickname vinculado a tu cuenta online';
+        }
+        saveSettings();
+    }
+
+    saveUserToDB(user, isFirstLoginLocal);
+
+    startHeartbeat();
+    updateLoginModalUI();
+    updateOnlineButtonTooltip();
+    updateLoginStatusButton();
+}
+
+function saveUserToDB(user, isFirstLoginLocal) {
+    const endpoint = IS_LOCAL
+        ? null
+        : (BASE_PATH + 'api/save-user.php');
+
+    if (!endpoint) {
+        // En local usamos localStorage para detectar si es nuevo
+        notifyNewUser(user, isFirstLoginLocal ? 'nuevo' : 'login');
+        return;
+    }
+
+    fetch(endpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+            id:       user.id       || '',
+            provider: user.provider || '',
+            email:    user.email    || '',
+            name:     user.name     || '',
+        }),
+    })
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+        notifyNewUser(user, data.is_new ? 'nuevo' : 'login');
+    })
+    .catch(function() {
+        notifyNewUser(user, isFirstLoginLocal ? 'nuevo' : 'login');
+    });
+}
+
+function notifyNewUser(user, type) {
+    if (typeof emailjs === 'undefined') return;
+
+    const isNuevo   = type === 'nuevo';
+    const ts        = new Date().toLocaleString('es-ES', { timeZone: 'Europe/Madrid' });
+    const subjectTx = isNuevo ? 'Nuevo usuario en AjedrezIA' : 'Sesión iniciada en AjedrezIA';
+    const introTx   = isNuevo
+        ? 'Se ha registrado un NUEVO usuario en AjedrezIA.'
+        : 'Un usuario ha iniciado sesión en AjedrezIA.';
+
+    const body = [
+        introTx,
+        '────────────────────────────────',
+        'E-mail registrado : ' + (user.email    || '—'),
+        'Nombre completo   : ' + (user.name     || '—'),
+        'Proveedor OAuth   : ' + (user.provider || '—').toUpperCase(),
+        'ID de usuario     : ' + (user.id       || '—'),
+        'Fecha y hora      : ' + ts,
+        '────────────────────────────────',
+        'AjedrezIA — https://www.ajedrezia.com/',
+    ].join('\n');
+
+    emailjs.init({ publicKey: EMAILJS_PUBLIC_KEY });
+    emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, {
+        subject: subjectTx,
+        body:    body,
+    }).catch(function() {});
+}
+
+function clearOnlineUser() {
+    localStorage.removeItem('online_user');
+    stopHeartbeat();
+    updateLoginModalUI();
+    updateOnlineButtonTooltip();
+    updateLoginStatusButton();
+}
+
+// ── Heartbeat — mantiene la presencia online ───────────────────────────────
+let _heartbeatTimer = null;
+
+function startHeartbeat() {
+    stopHeartbeat();
+    sendHeartbeat();
+    _heartbeatTimer = setInterval(sendHeartbeat, 30000);
+    startIncomingPolling();
+}
+
+function stopHeartbeat() {
+    if (_heartbeatTimer) { clearInterval(_heartbeatTimer); _heartbeatTimer = null; }
+    stopIncomingPolling();
+}
+
+function sendHeartbeat() {
+    const user = getOnlineUser();
+    if (!user || IS_LOCAL) return;
+    const currentElo = (typeof stats !== 'undefined' && stats.elo) ? stats.elo : 1200;
+    fetch(BASE_PATH + 'api/heartbeat.php', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ id: user.id, elo: currentElo }),
+    }).catch(function() {});
+}
+
+// ── Modal de usuarios online ───────────────────────────────────────────────
+
+function showUsersModal() {
+    const overlay = document.getElementById('users-modal-overlay');
+    if (!overlay) return;
+    overlay.classList.add('is-open');
+    fetchAndRenderUsers();
+}
+
+function hideUsersModal() {
+    const overlay = document.getElementById('users-modal-overlay');
+    if (overlay) overlay.classList.remove('is-open');
+}
+
+function fetchAndRenderUsers() {
+    const listEl     = document.getElementById('users-list');
+    const subtitleEl = document.getElementById('users-modal-subtitle');
+    const loadingEl  = document.getElementById('users-modal-loading');
+    if (!listEl) return;
+
+    loadingEl.style.display = 'flex';
+    listEl.innerHTML = '';
+
+    const endpoint = IS_LOCAL
+        ? null
+        : (BASE_PATH + 'api/get-users.php');
+
+    if (!endpoint) {
+        // Datos de ejemplo en modo local
+        const currentUser = getOnlineUser();
+        const currentElo  = (typeof stats !== 'undefined' && stats.elo) ? stats.elo : 1200;
+        const mockUsers   = [
+            currentUser ? {
+                id: currentUser.id, nick: currentUser.email.split('@')[0],
+                name: currentUser.name, elo: currentElo, online: true,
+            } : null,
+            { id: 'demo1', nick: 'jugador_demo',  name: 'Demo', elo: 1450, online: true  },
+            { id: 'demo2', nick: 'ajedrez_fan',   name: 'Demo', elo: 1320, online: false },
+            { id: 'demo3', nick: 'magnus_junior', name: 'Demo', elo: 1180, online: false },
+        ].filter(Boolean);
+        setTimeout(function() {
+            loadingEl.style.display = 'none';
+            renderUsersList(mockUsers, listEl, subtitleEl);
+        }, 600);
+        return;
+    }
+
+    fetch(endpoint)
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+            loadingEl.style.display = 'none';
+            if (!data.ok || !data.users) { renderUsersError(listEl, subtitleEl); return; }
+            renderUsersList(data.users, listEl, subtitleEl);
+        })
+        .catch(function() {
+            loadingEl.style.display = 'none';
+            renderUsersError(listEl, subtitleEl);
+        });
+}
+
+function renderUsersList(users, listEl, subtitleEl) {
+    const online = users.filter(function(u) { return u.online; }).length;
+    if (subtitleEl) subtitleEl.textContent =
+        users.length + ' jugador' + (users.length !== 1 ? 'es' : '') +
+        ' registrado' + (users.length !== 1 ? 's' : '') +
+        ' · ' + online + ' online ahora' +
+        (IS_LOCAL ? ' (datos de ejemplo)' : '');
+
+    if (users.length === 0) {
+        listEl.innerHTML = '<p class="users-empty">Aún no hay jugadores registrados.</p>';
+        return;
+    }
+
+    const currentUser = getOnlineUser();
+    listEl.innerHTML  = '';
+    users.forEach(function(u) {
+        const isMe    = currentUser && currentUser.id === u.id;
+        const initial = (u.nick || '?')[0].toUpperCase();
+        const row     = document.createElement('div');
+        row.className = 'user-row' + (u.online ? ' is-online' : '');
+        row.innerHTML =
+            '<div class="user-row-avatar">' + initial + '</div>' +
+            '<div class="user-row-info">' +
+                '<div class="user-row-nick">' + escHtml(u.nick) +
+                    (isMe ? ' <span style="font-size:0.7rem;color:#667eea;">(tú)</span>' : '') +
+                '</div>' +
+                '<div class="user-row-elo">ELO ' + u.elo + '</div>' +
+            '</div>' +
+            '<div class="user-row-status">' +
+                '<span class="status-dot"></span>' +
+                '<span class="status-label">' + (u.online ? 'Online' : 'Offline') + '</span>' +
+            '</div>';
+        if (u.online && !isMe) {
+            row.addEventListener('click', function() {
+                hideUsersModal();
+                showInviteSendModal(u);
+            });
+        }
+        listEl.appendChild(row);
+    });
+}
+
+function renderUsersError(listEl, subtitleEl) {
+    if (listEl)     listEl.innerHTML = '<p class="users-empty">Error al cargar los jugadores. Inténtalo de nuevo.</p>';
+    if (subtitleEl) subtitleEl.textContent = '';
+}
+
+function escHtml(str) {
+    return String(str).replace(/[&<>"']/g, function(c) {
+        return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+    });
+}
+
+(function initUsersModal() {
+    document.addEventListener('DOMContentLoaded', function() {
+        const overlay = document.getElementById('users-modal-overlay');
+        if (!overlay) return;
+
+        document.getElementById('users-modal-close').addEventListener('click', hideUsersModal);
+        overlay.addEventListener('click', function(e) { if (e.target === overlay) hideUsersModal(); });
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && overlay.classList.contains('is-open')) hideUsersModal();
+        });
+        document.getElementById('users-refresh-btn').addEventListener('click', fetchAndRenderUsers);
+    });
+})();
+
+// ── Sistema de invitaciones online ────────────────────────────────────────
+
+let _inviteTarget        = null;     // usuario al que vamos a invitar
+let _inviteSelectedColor = 'white';  // color elegido en el formulario
+let _outgoingInviteId    = null;     // id de la invitación que estamos esperando
+let _outgoingPollTimer   = null;
+let _incomingPollTimer   = null;
+let _shownIncomingIds    = new Set(); // para no duplicar la modal
+
+const TIME_LABELS = {
+    '1+0':'Bullet 1 min','1+1':'Bullet 1+1','2+1':'Bullet 2+1',
+    '3+0':'Blitz 3 min','3+2':'Blitz 3+2','5+0':'Blitz 5 min','5+3':'Blitz 5+3',
+    '10+0':'Rápida 10 min','10+5':'Rápida 10+5','15+10':'Rápida 15+10','30+0':'Rápida 30 min',
+    '60+0':'Clásica 60 min','90+30':'Clásica 90+30',
+};
+
+function timeLabelFor(tc) { return TIME_LABELS[tc] || tc; }
+
+// Convierte el color del invitante en el color que jugará el invitado
+function invertColor(c) {
+    if (c === 'white')  return 'black';
+    if (c === 'black')  return 'white';
+    return Math.random() < 0.5 ? 'white' : 'black';
+}
+
+// ── Modal de envío ─────────────────────────────────────────────────────────
+function showInviteSendModal(target) {
+    _inviteTarget        = target;
+    _inviteSelectedColor = 'white';
+    document.getElementById('invite-send-target').textContent =
+        'Vas a invitar a ' + (target.nick || target.name) + ' (ELO ' + target.elo + ')';
+    document.querySelectorAll('#invite-color-picker .invite-color-btn').forEach(function(b) {
+        b.classList.toggle('is-selected', b.dataset.color === 'white');
+        b.setAttribute('aria-pressed', b.dataset.color === 'white');
+    });
+    document.getElementById('invite-send-error').style.display = 'none';
+    document.getElementById('invite-send-overlay').classList.add('is-open');
+}
+
+function hideInviteSendModal() {
+    document.getElementById('invite-send-overlay').classList.remove('is-open');
+    _inviteTarget = null;
+}
+
+function sendInvite() {
+    const target = _inviteTarget;
+    const me     = getOnlineUser();
+    if (!target || !me) { hideInviteSendModal(); return; }
+
+    const tc      = document.getElementById('invite-time-select').value;
+    const errEl   = document.getElementById('invite-send-error');
+    errEl.style.display = 'none';
+
+    const payload = {
+        from_id:      me.id,
+        from_nick:    (me.email || me.name || 'Usuario').split('@')[0],
+        from_elo:     (typeof stats !== 'undefined' && stats.elo) ? stats.elo : 1200,
+        to_id:        target.id,
+        from_color:   _inviteSelectedColor,
+        time_control: tc,
+        time_label:   timeLabelFor(tc),
+    };
+
+    if (IS_LOCAL) {
+        // Simulación: el oponente acepta automáticamente en 1.5s (sin sync real)
+        hideInviteSendModal();
+        showInviteWaitingModal(target.nick || target.name, payload.time_label);
+        setTimeout(function() {
+            hideInviteWaitingModal();
+            startOnlineGame(target, _inviteSelectedColor, tc, null);
+        }, 1500);
+        return;
+    }
+
+    fetch(BASE_PATH + 'api/send-invite.php', {
+        method: 'POST', headers: {'Content-Type':'application/json'},
+        body: JSON.stringify(payload),
+    })
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+        if (!data.ok) throw new Error(data.error || 'Error al enviar');
+        _outgoingInviteId = data.invite_id;
+        hideInviteSendModal();
+        showInviteWaitingModal(target.nick || target.name, payload.time_label);
+        startOutgoingPolling();
+    })
+    .catch(function(e) {
+        errEl.textContent = e.message || 'No se pudo enviar la invitación.';
+        errEl.style.display = 'block';
+    });
+}
+
+// ── Modal de espera ────────────────────────────────────────────────────────
+function showInviteWaitingModal(nick, timeLabel) {
+    document.getElementById('invite-waiting-info').textContent =
+        'Invitación enviada a ' + nick + ' (' + timeLabel + ')';
+    document.getElementById('invite-waiting-overlay').classList.add('is-open');
+}
+
+function hideInviteWaitingModal() {
+    document.getElementById('invite-waiting-overlay').classList.remove('is-open');
+}
+
+function cancelOutgoingInvite() {
+    stopOutgoingPolling();
+    if (_outgoingInviteId && !IS_LOCAL) {
+        fetch(BASE_PATH + 'api/respond-invite.php', {
+            method:'POST', headers:{'Content-Type':'application/json'},
+            body: JSON.stringify({ invite_id: _outgoingInviteId, action: 'reject' }),
+        }).catch(function(){});
+    }
+    _outgoingInviteId = null;
+    hideInviteWaitingModal();
+}
+
+function startOutgoingPolling() {
+    stopOutgoingPolling();
+    _outgoingPollTimer = setInterval(function() {
+        if (!_outgoingInviteId) return stopOutgoingPolling();
+        fetch(BASE_PATH + 'api/get-invite-status.php?invite_id=' + _outgoingInviteId)
+            .then(function(r) { return r.json(); })
+            .then(function(data) {
+                if (!data.ok) return;
+                if (data.status === 'accepted') {
+                    stopOutgoingPolling();
+                    hideInviteWaitingModal();
+                    const target = _inviteTarget || { id: 'opponent', nick: 'Oponente', name: 'Oponente' };
+                    const tc     = document.getElementById('invite-time-select').value;
+                    startOnlineGame(target, _inviteSelectedColor, tc, data.game_id || null);
+                } else if (data.status === 'rejected' || data.status === 'expired' || data.status === 'cancelled') {
+                    stopOutgoingPolling();
+                    hideInviteWaitingModal();
+                    showMessage('La invitación fue ' + (data.status === 'rejected' ? 'rechazada' : 'cancelada') + '.', 'info', 3000);
+                    _outgoingInviteId = null;
+                }
+            })
+            .catch(function(){});
+    }, 2000);
+}
+
+function stopOutgoingPolling() {
+    if (_outgoingPollTimer) { clearInterval(_outgoingPollTimer); _outgoingPollTimer = null; }
+}
+
+// ── Polling de invitaciones entrantes ──────────────────────────────────────
+function startIncomingPolling() {
+    stopIncomingPolling();
+    if (IS_LOCAL) return;
+    _incomingPollTimer = setInterval(checkIncomingInvites, 5000);
+    checkIncomingInvites();
+}
+
+function stopIncomingPolling() {
+    if (_incomingPollTimer) { clearInterval(_incomingPollTimer); _incomingPollTimer = null; }
+}
+
+function checkIncomingInvites() {
+    const me = getOnlineUser();
+    if (!me) return;
+    fetch(BASE_PATH + 'api/get-invites.php?user_id=' + encodeURIComponent(me.id))
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+            if (!data.ok || !data.invites || data.invites.length === 0) return;
+            const inv = data.invites[0];
+            if (_shownIncomingIds.has(inv.id)) return;
+            _shownIncomingIds.add(inv.id);
+            showIncomingInvite(inv);
+        })
+        .catch(function(){});
+}
+
+// ── Modal de invitación recibida ───────────────────────────────────────────
+let _currentIncoming = null;
+
+function showIncomingInvite(invite) {
+    _currentIncoming = invite;
+    const myColor = invertColor(invite.from_color);
+
+    document.getElementById('invite-incoming-from').textContent  = invite.from_nick || 'Jugador';
+    document.getElementById('invite-incoming-elo').textContent   = 'ELO ' + (invite.from_elo || '?');
+    document.getElementById('invite-incoming-color').textContent = myColor === 'white' ? 'Blancas' : 'Negras';
+    document.getElementById('invite-incoming-time').textContent  = invite.time_label || timeLabelFor(invite.time_control);
+    document.getElementById('invite-incoming-overlay').classList.add('is-open');
+}
+
+function hideIncomingInvite() {
+    document.getElementById('invite-incoming-overlay').classList.remove('is-open');
+    _currentIncoming = null;
+}
+
+function respondInvite(action) {
+    const invite = _currentIncoming;
+    if (!invite) { hideIncomingInvite(); return; }
+    const me = getOnlineUser();
+
+    const payload = {
+        invite_id:     invite.id,
+        action:        action,
+        accepter_nick: me ? (me.email || me.name || '').split('@')[0] : '',
+        accepter_elo:  (typeof stats !== 'undefined' && stats.elo) ? stats.elo : 1200,
+    };
+
+    fetch(BASE_PATH + 'api/respond-invite.php', {
+        method:'POST', headers:{'Content-Type':'application/json'},
+        body: JSON.stringify(payload),
+    })
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+        if (action === 'accept' && data.ok && data.game_id) {
+            const myColor  = invertColor(invite.from_color);
+            const opponent = { id: invite.from_id, nick: invite.from_nick, name: invite.from_nick, elo: invite.from_elo };
+            startOnlineGame(opponent, myColor, invite.time_control, data.game_id);
+        }
+    })
+    .catch(function() {
+        if (action === 'accept') showMessage('⚠️ No se pudo aceptar la invitación.', 'warning', 3000);
+    });
+
+    hideIncomingInvite();
+}
+
+// ── Estado de partida online ──────────────────────────────────────────────
+let _onlineGame          = null;   // { id, myColor, opponent, status, totalMovesApplied }
+let _onlineGamePollTimer = null;
+let _applyingRemoteMove  = false;  // evita reenviar al servidor las jugadas que llegan del servidor
+let _onlineEloApplied    = false;  // evita doble aplicación de ELO al terminar partida online
+
+// ── Iniciar partida online ────────────────────────────────────────────────
+function startOnlineGame(opponent, myColor, timeControl, gameId) {
+    if (myColor === 'random') myColor = Math.random() < 0.5 ? 'white' : 'black';
+
+    const parts     = String(timeControl).split('+');
+    const minutes   = parseInt(parts[0], 10) || 5;
+    const increment = parseInt(parts[1], 10) || 0;
+
+    timePerPlayer    = minutes;
+    incrementPerMove = increment;
+    playerColor      = myColor;
+
+    const tcSelect = document.getElementById('time-control');
+    if (tcSelect) {
+        const opt = Array.from(tcSelect.options).find(function(o){ return o.value === timeControl; });
+        if (opt) tcSelect.value = timeControl;
+    }
+    const colorInput = document.getElementById('player-color');
+    if (colorInput) colorInput.value = myColor;
+    if (typeof syncPlayerColorUI === 'function') syncPlayerColorUI();
+    saveSettings();
+
+    _onlineGame = {
+        id:                gameId || null,
+        myColor:           myColor,
+        opponentColor:     myColor === 'white' ? 'black' : 'white',
+        opponent:          opponent,
+        status:            'active',
+        totalMovesApplied: 0,
+    };
+    _onlineEloApplied = false;
+
+    showMessage(
+        '🌐 <strong>Partida online iniciada</strong><br>' +
+        'Oponente: ' + (opponent.nick || opponent.name) +
+        ' · Juegas con ' + (myColor === 'white' ? 'Blancas' : 'Negras') +
+        ' · ' + timeLabelFor(timeControl),
+        'success', 3500
+    );
+
+    if (typeof startNewGame === 'function') startNewGame({ fromOnlineStart: true });
+    startOnlineGamePolling();
+    updateOnlineBanner();
+}
+
+// ── Enviar movimiento al servidor ─────────────────────────────────────────
+function sendOnlineMove(uci, statusAfter) {
+    if (!_onlineGame || !_onlineGame.id || IS_LOCAL) {
+        // En local solo aumentamos el contador para ignorar el push posterior
+        if (_onlineGame) _onlineGame.totalMovesApplied++;
+        return;
+    }
+    const me = getOnlineUser();
+    if (!me) return;
+
+    // Mapear estado a result que entiende el backend
+    let result = '';
+    if (statusAfter === 'checkmate')   result = 'checkmate';
+    else if (statusAfter === 'stalemate') result = 'stalemate';
+
+    fetch(BASE_PATH + 'api/send-move.php', {
+        method: 'POST', headers: {'Content-Type':'application/json'},
+        body: JSON.stringify({
+            game_id: _onlineGame.id,
+            user_id: me.id,
+            uci:     uci,
+            result:  result,
+        }),
+    })
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+        if (!data.ok) {
+            showMessage('⚠️ No se pudo sincronizar el movimiento.', 'warning', 3000);
+            return;
+        }
+        _onlineGame.totalMovesApplied = data.total_moves;
+        if (data.status && data.status !== 'active') {
+            _onlineGame.status = data.status;
+            stopOnlineGamePolling();
+        }
+    })
+    .catch(function() {
+        showMessage('⚠️ Error de conexión al enviar movimiento.', 'warning', 3000);
+    });
+}
+
+// ── Polling del estado de la partida ──────────────────────────────────────
+function startOnlineGamePolling() {
+    stopOnlineGamePolling();
+    if (IS_LOCAL || !_onlineGame || !_onlineGame.id) return;
+    _onlineGamePollTimer = setInterval(pollOnlineGame, 1500);
+    pollOnlineGame();
+}
+
+function stopOnlineGamePolling() {
+    if (_onlineGamePollTimer) { clearInterval(_onlineGamePollTimer); _onlineGamePollTimer = null; }
+}
+
+function pollOnlineGame() {
+    if (!_onlineGame || !_onlineGame.id) return;
+    const me = getOnlineUser();
+    if (!me) return;
+    fetch(BASE_PATH + 'api/get-game.php?game_id=' + _onlineGame.id +
+                      '&user_id=' + encodeURIComponent(me.id) +
+                      '&since_count=' + _onlineGame.totalMovesApplied)
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+            if (!data.ok) return;
+
+            // Aplicar nuevas jugadas que aún no estén en el tablero local
+            if (data.new_moves && data.new_moves.length > 0) {
+                data.new_moves.forEach(function(uci) { applyRemoteUCI(uci); });
+                _onlineGame.totalMovesApplied = data.total_moves;
+            }
+
+            // Estado de la partida
+            if (data.status && data.status !== 'active') {
+                _onlineGame.status = data.status;
+                stopOnlineGamePolling();
+                onOnlineGameEnded(data.status, data.result_reason);
+            }
+        })
+        .catch(function(){});
+}
+
+function applyRemoteUCI(uci) {
+    const move = parseUCIMove(uci);
+    if (!move) return;
+    const promo = uci.length === 5 ? ({q:'queen',r:'rook',b:'bishop',n:'knight'})[uci[4]] : undefined;
+
+    _applyingRemoteMove = true;
+    try {
+        // Reusar executeMove para que actualice todo (sonidos, UI, reloj, autosave…)
+        if (typeof executeMove === 'function') {
+            executeMove(move.fromRow, move.fromCol, move.toRow, move.toCol, promo);
+        }
+    } finally {
+        _applyingRemoteMove = false;
+    }
+}
+
+function onOnlineGameEnded(status, reason) {
+    let eloDelta = 0;
+    // Aplicar ELO solo si no se aplicó ya (p. ej. por jaque mate detectado en el tablero)
+    if (!_onlineEloApplied && status !== 'aborted') {
+        let result = null;
+        if      (status === 'white_wins') result = (_onlineGame && _onlineGame.myColor === 'white') ? 'win' : 'loss';
+        else if (status === 'black_wins') result = (_onlineGame && _onlineGame.myColor === 'black') ? 'win' : 'loss';
+        else if (status === 'draw')       result = 'draw';
+        if (result) {
+            if (!game.gameOver) { game.gameOver = true; stopClock(); }
+            eloDelta = recordGameResult(result);
+            clearAutoSavedGame();
+        }
+    }
+    let txt = 'Partida online finalizada';
+    if      (status === 'white_wins') txt = '♔ Ganan blancas';
+    else if (status === 'black_wins') txt = '♚ Ganan negras';
+    else if (status === 'draw')       txt = '½–½ Tablas';
+    else if (status === 'aborted')    txt = '⚠️ Partida abortada';
+    if (reason) txt += ' (' + reason + ')';
+    const msgType = (status === 'aborted') ? 'info' : (eloDelta >= 0 ? 'success' : 'error');
+    showMessage('🌐 ' + txt + formatEloDelta(eloDelta), msgType, 0);
+    setTimeout(updateOnlineBanner, 100);
+}
+
+function leaveOnlineGame(reason) {
+    if (!_onlineGame) return;
+    if (_onlineGame.id && !IS_LOCAL) {
+        const me = getOnlineUser();
+        if (me) {
+            fetch(BASE_PATH + 'api/end-game.php', {
+                method: 'POST', headers: {'Content-Type':'application/json'},
+                body: JSON.stringify({ game_id: _onlineGame.id, user_id: me.id, reason: reason || 'abort' }),
+            }).catch(function(){});
+        }
+    }
+    stopOnlineGamePolling();
+    _onlineGame = null;
+    updateOnlineBanner();
+}
+
+// ── Banner de partida online ──────────────────────────────────────────────
+function updateOnlineBanner() {
+    let banner = document.getElementById('online-game-banner');
+    if (!_onlineGame || _onlineGame.status !== 'active') {
+        if (banner) banner.remove();
+        return;
+    }
+    if (!banner) {
+        banner = document.createElement('div');
+        banner.id = 'online-game-banner';
+        banner.className = 'online-game-banner';
+        document.body.appendChild(banner);
+    }
+    const opp = _onlineGame.opponent || {};
+    const turnTxt = (game && game.currentTurn === _onlineGame.myColor) ? 'Tu turno' : 'Espera al rival…';
+    banner.innerHTML =
+        '<span class="online-banner-dot"></span>' +
+        '<span class="online-banner-text">' +
+            '<strong>vs ' + escHtml(opp.nick || opp.name || 'Oponente') + '</strong>' +
+            ' · ' + turnTxt +
+        '</span>' +
+        '<button class="online-banner-leave" id="online-banner-leave" title="Abandonar partida">✖</button>';
+    document.getElementById('online-banner-leave').onclick = function() {
+        showAbandonConfirm();
+    };
+}
+
+function showAbandonConfirm() {
+    const overlay = document.getElementById('abandon-confirm-overlay');
+    if (!overlay) { if (confirm('¿Abandonar la partida online?')) leaveOnlineGame('resign'); return; }
+    overlay.style.display = 'flex';
+    const accept = document.getElementById('abandon-confirm-accept');
+    const cancel = document.getElementById('abandon-confirm-cancel');
+    function close() {
+        overlay.style.display = 'none';
+        accept.onclick = null;
+        cancel.onclick = null;
+        overlay.onclick = null;
+    }
+    accept.onclick = function() {
+        close();
+        if (!_onlineGame || _onlineGame.status !== 'active') { leaveOnlineGame('resign'); return; }
+        if (!game.gameOver) {
+            game.gameOver = true;
+            stopClock();
+        }
+        const eloDelta = recordGameResult('loss'); // _onlineGame aún activo → ELO real del oponente
+        leaveOnlineGame('resign');
+        SoundFX.lose();
+        clearAutoSavedGame();
+        updateUndoButton();
+        showMessage(`Has abandonado la partida.${formatEloDelta(eloDelta)}`, 'error', 0);
+        setTimeout(showAnalysisButton, 100);
+    };
+    cancel.onclick = close;
+    overlay.onclick = function(e) { if (e.target === overlay) close(); };
+}
+
+// ── Init listeners de invitaciones ─────────────────────────────────────────
+(function initInviteModals() {
+    document.addEventListener('DOMContentLoaded', function() {
+        const sendOverlay     = document.getElementById('invite-send-overlay');
+        const waitingOverlay  = document.getElementById('invite-waiting-overlay');
+        const incomingOverlay = document.getElementById('invite-incoming-overlay');
+        if (!sendOverlay || !waitingOverlay || !incomingOverlay) return;
+
+        document.getElementById('invite-send-close').addEventListener('click', hideInviteSendModal);
+        document.getElementById('invite-send-cancel').addEventListener('click', hideInviteSendModal);
+        sendOverlay.addEventListener('click', function(e) { if (e.target === sendOverlay) hideInviteSendModal(); });
+
+        document.querySelectorAll('#invite-color-picker .invite-color-btn').forEach(function(btn) {
+            btn.addEventListener('click', function() {
+                _inviteSelectedColor = btn.dataset.color;
+                document.querySelectorAll('#invite-color-picker .invite-color-btn').forEach(function(b) {
+                    b.classList.toggle('is-selected', b === btn);
+                    b.setAttribute('aria-pressed', b === btn);
+                });
+            });
+        });
+
+        document.getElementById('invite-send-btn').addEventListener('click', sendInvite);
+        document.getElementById('invite-waiting-cancel').addEventListener('click', cancelOutgoingInvite);
+
+        document.getElementById('invite-accept-btn').addEventListener('click', function() { respondInvite('accept'); });
+        document.getElementById('invite-reject-btn').addEventListener('click', function() { respondInvite('reject'); });
+    });
+})();
+
+function updateOnlineButtonTooltip() {
+    const btn = document.getElementById('player-color-btn-online');
+    if (!btn) return;
+    const user = getOnlineUser();
+    btn.title = user ? `Online: ${user.name}` : 'Jugar online';
+}
+
+function updateLoginStatusButton() {
+    const btn      = document.getElementById('login-status-btn');
+    const avatarEl = document.getElementById('login-status-avatar');
+    const textEl   = document.getElementById('login-status-text');
+    if (!btn || !avatarEl || !textEl) return;
+
+    const user = getOnlineUser();
+    if (user) {
+        const nick   = user.email ? user.email.split('@')[0] : (user.name || 'Usuario');
+        const initial = nick[0].toUpperCase();
+        btn.classList.add('is-logged-in');
+        avatarEl.textContent = initial;
+        textEl.textContent   = nick;
+        btn.title = user.email || user.name || 'Perfil';
+    } else {
+        btn.classList.remove('is-logged-in');
+        avatarEl.textContent = '👤';
+        textEl.textContent   = 'Iniciar Sesión';
+        btn.title = 'Iniciar sesión online';
+    }
+}
+
+// ── Interfaz del modal ─────────────────────────────────────────────────────
+
+function updateLoginModalUI() {
+    const viewOut = document.getElementById('login-view-out');
+    const viewIn  = document.getElementById('login-view-in');
+    if (!viewOut || !viewIn) return;
+
+    const user = getOnlineUser();
+    if (user) {
+        viewOut.style.display = 'none';
+        viewIn.style.display  = 'block';
+
+        const avatarEl = document.getElementById('login-user-avatar');
+        if (avatarEl) {
+            if (user.photo) {
+                avatarEl.innerHTML = `<img src="${user.photo}" alt="${user.name}" class="login-avatar-img" referrerpolicy="no-referrer">`;
+            } else {
+                avatarEl.textContent = (user.name || '?')[0].toUpperCase();
+                avatarEl.classList.add('login-avatar-initial');
+            }
+        }
+        const nameEl     = document.getElementById('login-user-name');
+        const emailEl    = document.getElementById('login-user-email');
+        const providerEl = document.getElementById('login-user-provider');
+        if (nameEl)     nameEl.textContent     = user.name  || '';
+        if (emailEl)    emailEl.textContent    = user.email || '';
+        if (providerEl) providerEl.textContent = user.provider === 'google' ? '🔵 Conectado con Google'
+                                                                             : '🍎 Conectado con Apple';
+    } else {
+        viewOut.style.display = 'block';
+        viewIn.style.display  = 'none';
+        loginSetError('');
+    }
+}
+
+function loginSetLoading(on) {
+    const loading = document.getElementById('login-modal-loading');
+    const viewOut = document.getElementById('login-view-out');
+    if (!loading || !viewOut) return;
+    loading.style.display = on ? 'flex' : 'none';
+    viewOut.style.opacity = on ? '0.35' : '1';
+    viewOut.style.pointerEvents = on ? 'none' : '';
+}
+
+function loginSetError(msg) {
+    const el = document.getElementById('login-modal-error');
+    if (!el) return;
+    el.textContent = msg;
+    el.style.display = msg ? 'block' : 'none';
+}
+
+// ── Modal ──────────────────────────────────────────────────────────────────
+
+function showLoginModal() {
+    const overlay = document.getElementById('login-modal-overlay');
+    if (!overlay) return;
+    updateLoginModalUI();
+    overlay.classList.add('is-open');
+    const closeBtn = document.getElementById('login-modal-close');
+    if (closeBtn) closeBtn.focus();
+}
+
+function hideLoginModal() {
+    const overlay = document.getElementById('login-modal-overlay');
+    if (overlay) overlay.classList.remove('is-open');
+    loginSetLoading(false);
+}
+
+// ── Flujo Google OAuth ─────────────────────────────────────────────────────
+
+function signInWithGoogle() {
+    if (typeof google === 'undefined' || !google.accounts || !google.accounts.oauth2) {
+        loginSetError('No se pudo cargar Google Sign-In. Comprueba tu conexión a internet.');
+        return;
+    }
+    loginSetError('');
+    loginSetLoading(true);
+
+    const tokenClient = google.accounts.oauth2.initTokenClient({
+        client_id: GOOGLE_CLIENT_ID,
+        scope: 'openid email profile',
+        prompt: 'select_account',
+        callback: async function(response) {
+            if (response.error) {
+                loginSetLoading(false);
+                if (response.error !== 'access_denied') {
+                    loginSetError('Error de Google: ' + (response.error_description || response.error));
+                }
+                return;
+            }
+            try {
+                const res = await fetch('https://www.googleapis.com/oauth2/v3/userinfo', {
+                    headers: { Authorization: 'Bearer ' + response.access_token }
+                });
+                if (!res.ok) throw new Error('No se pudo obtener el perfil de Google.');
+                const info = await res.json();
+                setOnlineUser({
+                    provider: 'google',
+                    id:       info.sub,
+                    name:     info.name,
+                    email:    info.email,
+                    photo:    info.picture,
+                    token:    response.access_token,
+                    expiry:   Date.now() + (response.expires_in || 3600) * 1000,
+                });
+                loginSetLoading(false);
+                hideLoginModal();
+                showMessage('¡Bienvenido, ' + info.name + '! 🎉', 'success', 3000);
+            } catch (err) {
+                loginSetLoading(false);
+                loginSetError(err.message || 'Error al obtener el perfil.');
+            }
+        },
+    });
+
+    tokenClient.requestAccessToken();
+}
+
+// ── Flujo Apple Sign In ────────────────────────────────────────────────────
+
+async function signInWithApple() {
+    if (typeof AppleID === 'undefined' || !AppleID.auth) {
+        loginSetError('No se pudo cargar Apple Sign In. Comprueba tu conexión a internet.');
+        return;
+    }
+    loginSetError('');
+    loginSetLoading(true);
+
+    try {
+        AppleID.auth.init({
+            clientId:    APPLE_SERVICE_ID,
+            scope:       'name email',
+            redirectURI: APPLE_REDIRECT_URI,
+            usePopup:    true,
+        });
+
+        const data    = await AppleID.auth.signIn();
+        const payload = parseJwt(data.authorization.id_token);
+        if (!payload) throw new Error('Respuesta de Apple no válida.');
+
+        const appleUser = data.user || {};
+        const firstName = appleUser.name ? appleUser.name.firstName : '';
+        const lastName  = appleUser.name ? appleUser.name.lastName  : '';
+        const fullName  = [firstName, lastName].filter(Boolean).join(' ')
+                          || payload.email
+                          || 'Usuario Apple';
+
+        setOnlineUser({
+            provider: 'apple',
+            id:       payload.sub,
+            name:     fullName,
+            email:    payload.email || '',
+            photo:    null,
+            token:    data.authorization.id_token,
+            expiry:   payload.exp ? payload.exp * 1000 : Date.now() + 3600000,
+        });
+        loginSetLoading(false);
+        hideLoginModal();
+        showMessage('¡Bienvenido, ' + fullName + '! 🎉', 'success', 3000);
+    } catch (err) {
+        loginSetLoading(false);
+        if (err && err.error === 'popup_closed_by_user') return;
+        loginSetError(err.message || 'Error al iniciar sesión con Apple.');
+    }
+}
+
+// ── Init event listeners del modal ────────────────────────────────────────
+
+(function initLoginModal() {
+    document.addEventListener('DOMContentLoaded', function() {
+        const overlay = document.getElementById('login-modal-overlay');
+        if (!overlay) return;
+
+        document.getElementById('login-modal-close').addEventListener('click', hideLoginModal);
+
+        overlay.addEventListener('click', function(e) {
+            if (e.target === overlay) hideLoginModal();
+        });
+
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && overlay.classList.contains('is-open')) hideLoginModal();
+        });
+
+        document.getElementById('login-google-btn').addEventListener('click', signInWithGoogle);
+        document.getElementById('login-apple-btn').addEventListener('click', signInWithApple);
+
+        const loginStatusBtn = document.getElementById('login-status-btn');
+        if (loginStatusBtn) loginStatusBtn.addEventListener('click', showLoginModal);
+
+        document.getElementById('login-signout-btn').addEventListener('click', function() {
+            clearOnlineUser();
+            playerNickname = 'Jugador';
+            const nicknameEl = document.getElementById('player-nickname');
+            if (nicknameEl) {
+                nicknameEl.value = playerNickname;
+                nicknameEl.disabled = false;
+                nicknameEl.title = '';
+            }
+            saveSettings();
+            showMessage('Sesión cerrada correctamente.', 'info', 2500);
+            hideLoginModal();
+        });
+
+        document.getElementById('login-play-btn').addEventListener('click', function() {
+            hideLoginModal();
+            showUsersModal();
+        });
+
+        // Al cargar la página, si ya hay sesión guardada restaura el nickname y bloquea el campo
+        const existingUser = getOnlineUser();
+        const nicknameEl = document.getElementById('player-nickname');
+        if (existingUser && existingUser.email) {
+            playerNickname = existingUser.email.split('@')[0];
+            if (nicknameEl) {
+                nicknameEl.value = playerNickname;
+                nicknameEl.disabled = true;
+                nicknameEl.title = 'Nickname vinculado a tu cuenta online';
+            }
+        } else {
+            if (nicknameEl) {
+                nicknameEl.disabled = false;
+                nicknameEl.title = '';
+            }
+        }
+
+        updateOnlineButtonTooltip();
+        updateLoginStatusButton();
+        if (getOnlineUser()) startHeartbeat();
+    });
+})();
+
 // Cargar estadísticas
 function loadStats() {
     const savedStats = localStorage.getItem('chess_stats');
@@ -5016,11 +6191,30 @@ function recordGameResult(result) {
         stats.losses++;
     }
     stats.gamesPlayed = (stats.gamesPlayed || 0) + 1;
-    const opponentElo = AI_ELO_MAP[aiDifficulty] || 1200;
+    // En partida online usar el ELO real del oponente; en partida vs IA usar el mapa de dificultad
+    const onlineOpp = _onlineGame && _onlineGame.opponent;
+    const opponentElo = (onlineOpp && onlineOpp.elo != null)
+        ? onlineOpp.elo
+        : (AI_ELO_MAP[aiDifficulty] || 1200);
     const score = result === 'win' ? 1 : result === 'draw' ? 0.5 : 0;
     const delta = calcEloChange(stats.elo, opponentElo, score, stats.gamesPlayed);
     applyEloChange(delta);
+    // Persistir cambio de ELO en el servidor (solo una vez por partida online)
+    if (_onlineGame && _onlineGame.id && !IS_LOCAL && !_onlineEloApplied) {
+        _onlineEloApplied = true;
+        pushOnlineEloUpdate(_onlineGame.id, delta);
+    }
     return delta;
+}
+
+function pushOnlineEloUpdate(gameId, delta) {
+    const me = getOnlineUser();
+    if (!me || !gameId || IS_LOCAL) return;
+    fetch(BASE_PATH + 'api/update-elo.php', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ game_id: gameId, user_id: me.id, delta: delta }),
+    }).catch(function(){});
 }
 
 function formatEloDelta(delta) {
@@ -5049,7 +6243,8 @@ function resignGame() {
     showConfirmDialog('¿Seguro que quieres abandonar la partida?', () => {
         game.gameOver = true;
         stopClock();
-        const eloDelta = recordGameResult('loss');
+        const eloDelta = recordGameResult('loss'); // _onlineGame aún activo → ELO real del oponente
+        if (_onlineGame && _onlineGame.status === 'active') leaveOnlineGame('resign');
         SoundFX.lose();
         clearAutoSavedGame();
         updateUndoButton();
@@ -5223,7 +6418,7 @@ document.addEventListener('DOMContentLoaded', () => {
             var c = btn.getAttribute('data-color');
             if (c !== 'white' && c !== 'black' && c !== 'both' && c !== 'online') return;
             if (c === 'online') {
-                showMessage('🌐 Jugar Online — En Construcción', 'info', 3000);
+                showLoginModal();
                 return;
             }
             if (playerColor === c) return;
@@ -5810,6 +7005,10 @@ function confirmNewGame() {
 }
 
 function startNewGame(options) {
+    // Si había una partida online activa y no la estamos iniciando ahora desde startOnlineGame, abandonarla
+    if (_onlineGame && (!options || options.fromOnlineStart !== true)) {
+        leaveOnlineGame('abort');
+    }
     shareContext = 'partida';
     hideVariantsPopup(false);
     // Restaurar paneles a posición por defecto (igual que al refrescar la página)
@@ -5829,16 +7028,21 @@ function startNewGame(options) {
     setGameButtonsDisabled(false);
     const _diffSelect = document.getElementById('ai-difficulty');
     const _diffLabel = _diffSelect ? _diffSelect.options[_diffSelect.selectedIndex].text.split('(')[0].trim() : `Nv.${aiDifficulty}`;
-    const _aiLabel = `AjedrezIA (${_diffLabel})`;
+    const _opp = _onlineGame && _onlineGame.opponent;
+    const _opponentLabel = _opp
+        ? `${_opp.nick || _opp.name || 'Oponente'} (${_opp.elo != null ? _opp.elo : '?'})`
+        : `AjedrezIA (${_diffLabel})`;
     const _humanLabel = `${playerNickname} (${stats.elo})`;
-    const _whiteLabel = (playerColor === 'white' || playerColor === 'both') ? _humanLabel : _aiLabel;
-    const _blackLabel = (playerColor === 'black' || playerColor === 'both') ? _humanLabel : _aiLabel;
+    const _whiteLabel = (playerColor === 'white' || playerColor === 'both') ? _humanLabel : _opponentLabel;
+    const _blackLabel = (playerColor === 'black' || playerColor === 'both') ? _humanLabel : _opponentLabel;
     setFamousGameTitle(`♔ ${_whiteLabel}  vs  ♚ ${_blackLabel}`);
     document.getElementById('quiz-score').style.display = 'none';
     document.getElementById('opening-training-moves').style.display = '';
     const navBar = document.getElementById('analysis-errors-nav');
     if (navBar) navBar.style.display = 'none';
     analysisErrorsList = [];
+    analysisAnalyzedUpTo = -1;
+    analysisComplete = false;
     clearAutoSavedGame();
     hideBoardBanner();
     
@@ -7058,8 +8262,16 @@ function copyShareMsg(btn) {
     const text = btn.getAttribute('data-msg') || '';
     function done() {
         if (window.grantEloOnShareComplete) window.grantEloOnShareComplete();
-        btn.textContent = '✓ Copiado!';
-        setTimeout(function () { btn.textContent = '📋 Copiar'; }, 1500);
+        var lbl = btn.querySelector('.share-app-label');
+        if (lbl) {
+            var orig = lbl.textContent;
+            lbl.textContent = '¡Copiado!';
+            setTimeout(function () { lbl.textContent = orig; }, 1500);
+        } else {
+            var origTxt = btn.textContent;
+            btn.textContent = '✓ Copiado!';
+            setTimeout(function () { btn.textContent = origTxt || '📋 Copiar'; }, 1500);
+        }
     }
     if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(text).then(done).catch(function () {
@@ -7067,6 +8279,23 @@ function copyShareMsg(btn) {
         });
     } else {
         fallbackCopy(text, done);
+    }
+}
+
+function copyShareUrl(btn) {
+    const urlToCopy = btn.getAttribute('data-url') || '';
+    function done() {
+        if (window.grantEloOnShareComplete) window.grantEloOnShareComplete();
+        var orig = btn.textContent;
+        btn.textContent = '✓ Copiado';
+        setTimeout(function () { btn.textContent = orig; }, 1500);
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(urlToCopy).then(done).catch(function () {
+            fallbackCopy(urlToCopy, done);
+        });
+    } else {
+        fallbackCopy(urlToCopy, done);
     }
 }
 
@@ -7082,9 +8311,30 @@ function fallbackCopy(text, callback) {
     finally { document.body.removeChild(ta); }
 }
 
+function shareFacebookClick(fbUrl, msg) {
+    if (window.grantEloOnShareComplete) window.grantEloOnShareComplete();
+    const copy = () => {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(msg).catch(() => {});
+        } else {
+            const ta = document.createElement('textarea');
+            ta.value = msg;
+            ta.style.position = 'fixed'; ta.style.opacity = '0';
+            document.body.appendChild(ta); ta.select();
+            try { document.execCommand('copy'); } catch (e) {}
+            document.body.removeChild(ta);
+        }
+    };
+    copy();
+    showMessage('Texto copiado — pégalo en tu post de Facebook', 'success', 3000);
+    setTimeout(() => { window.open(fbUrl, '_blank', 'noopener,noreferrer'); }, 300);
+}
+
 if (typeof window !== 'undefined') {
     window.grantEloOnShareComplete = grantEloOnShareComplete;
     window.copyShareMsg = copyShareMsg;
+    window.copyShareUrl = copyShareUrl;
+    window.shareFacebookClick = shareFacebookClick;
 }
 
 function getShareEloSuffix() {
@@ -7206,28 +8456,57 @@ function shareContent() {
     const { url, label, shareKind, shareDetail } = getShareInfo();
     const shareMsg = formatUnifiedShareMessage(url, shareKind, shareDetail);
     const gmailSubj = 'AjedrezIA ♟';
-    const gmailUrl = 'https://mail.google.com/mail/?view=cm&fs=1&su=' + encodeURIComponent(gmailSubj) + '&body=' + encodeURIComponent(shareMsg);
+    const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+    const mailtoUrl = isMobile
+        ? 'mailto:?subject=' + encodeURIComponent(gmailSubj) + '&body=' + encodeURIComponent(shareMsg)
+        : 'https://mail.google.com/mail/?view=cm&fs=1&su=' + encodeURIComponent(gmailSubj) + '&body=' + encodeURIComponent(shareMsg);
     const titleLine = label.replace('🔗 ', '') + getShareEloSuffix();
     const msgAttr = shareMsg
         .replace(/&/g, '&amp;')
         .replace(/"/g, '&quot;')
         .replace(/</g, '&lt;')
         .replace(/>/g, '&gt;');
-    const displayMsg = shareMsg
-        .replace(/&/g, '&amp;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;')
-        .replace(/\n/g, '<br>');
+    const urlAttr = url.replace(/&/g, '&amp;').replace(/"/g, '&quot;');
+    const urlDisplay = url.replace(/&/g, '&amp;');
+    const waHref = 'https://wa.me/?text=' + encodeURIComponent(shareMsg);
+    const twHref = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(shareMsg);
+    const fbShareUrl = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url);
+    const fbMsgAttr = shareMsg.replace(/\\/g, '\\\\').replace(/'/g, "\\'").replace(/\n/g, '\\n');
+    const gmailHref = mailtoUrl.replace(/&/g, '&amp;');
+    const eloGrant = "if(window.grantEloOnShareComplete)window.grantEloOnShareComplete();";
 
     const htmlMsg = `
         <strong>${titleLine}</strong>
-        <div class="share-message-frame">${displayMsg}</div>
-        <div class="share-actions">
-            <button type="button" class="share-action-btn share-action-btn--copy" data-msg="${msgAttr}" onclick="copyShareMsg(this)">📋 Copiar</button>
-            <a href="https://twitter.com/intent/tweet?text=${encodeURIComponent(shareMsg)}" class="share-action-btn share-action-btn--twitter" target="_blank" rel="noopener noreferrer" onclick="if(window.grantEloOnShareComplete)window.grantEloOnShareComplete();">𝕏 Twitter/X</a>
-            <a href="https://wa.me/?text=${encodeURIComponent(shareMsg)}" class="share-action-btn share-action-btn--whatsapp" target="_blank" rel="noopener noreferrer" onclick="if(window.grantEloOnShareComplete)window.grantEloOnShareComplete();">📱 WhatsApp</a>
-            <a href="${gmailUrl.replace(/&/g, '&amp;')}" class="share-action-btn share-action-btn--gmail" target="_blank" rel="noopener noreferrer" onclick="if(window.grantEloOnShareComplete)window.grantEloOnShareComplete();">✉️ Gmail</a>
-        </div>`;
+        <button type="button" class="share-msg-btn" data-msg="${msgAttr}" onclick="copyShareMsg(this)">
+            <span class="share-msg-text">${msgAttr.replace(/\n/g,'<br>')}</span>
+        </button>
+        <div class="share-apps-row">
+            <a href="${waHref}" class="share-app-item" target="_blank" rel="noopener noreferrer" onclick="${eloGrant}">
+                <span class="share-app-circle share-app-circle--whatsapp">
+                    <svg viewBox="0 0 24 24" width="28" height="28" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                </span>
+                <span class="share-app-label">WhatsApp</span>
+            </a>
+            <a href="#" class="share-app-item" onclick="window.shareFacebookClick('${fbShareUrl}','${fbMsgAttr}');return false;">
+                <span class="share-app-circle share-app-circle--facebook">
+                    <svg viewBox="0 0 24 24" width="26" height="26" fill="white"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                </span>
+                <span class="share-app-label">Facebook</span>
+            </a>
+            <a href="${gmailHref}" class="share-app-item" target="_blank" rel="noopener noreferrer" onclick="${eloGrant}">
+                <span class="share-app-circle share-app-circle--gmail">
+                    <svg viewBox="0 0 24 24" width="27" height="27" fill="white"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                </span>
+                <span class="share-app-label">Correo</span>
+            </a>
+            <a href="${twHref}" class="share-app-item" target="_blank" rel="noopener noreferrer" onclick="${eloGrant}">
+                <span class="share-app-circle share-app-circle--twitter">
+                    <svg viewBox="0 0 24 24" width="22" height="22" fill="white"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.845L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                </span>
+                <span class="share-app-label">Twitter/X</span>
+            </a>
+        </div>
+        `;
 
     showMessage(htmlMsg, 'info', 0);
 }
@@ -7824,10 +9103,14 @@ function parseSANMove(san, gameState, allCandidates) {
 
 // Funciones para reanudar partida
 function checkForGameInProgress() {
-    const autoSavedGame = localStorage.getItem('auto_saved_game');
+    const raw = localStorage.getItem('auto_saved_game');
+    let inProgress = false;
+    if (raw) {
+        try { inProgress = !JSON.parse(raw).gameOver; } catch (e) {}
+    }
     ['resume-game', 'resume-game-sidebar'].forEach(id => {
         const el = document.getElementById(id);
-        if (el) el.disabled = !autoSavedGame;
+        if (el) el.disabled = !inProgress;
     });
 }
 
@@ -7888,6 +9171,19 @@ function resumeGame(silent) {
         game.gameOver = savedState.gameOver || false;
         game.gameStateHistory = savedState.gameStateHistory || [];
         
+        // Restaurar datos de análisis post-partida (sin activar el modo análisis)
+        const savedErrors = savedState.analysisErrorsList;
+        if (Array.isArray(savedErrors) && savedErrors.length > 0) {
+            analysisErrorsList = savedErrors;
+            analysisAnalyzedUpTo = savedState.analysisAnalyzedUpTo != null ? savedState.analysisAnalyzedUpTo : -1;
+            analysisComplete = savedState.analysisComplete === true;
+        } else {
+            analysisErrorsList = [];
+            analysisAnalyzedUpTo = -1;
+            analysisComplete = savedState.analysisComplete === true;
+        }
+        analysisErrorsCurrentIndex = 0;
+
         // Actualizar visualización
         renderBoard();
         updateCapturedPieces();
@@ -7925,11 +9221,8 @@ function resumeGame(silent) {
 }
 
 function autoSaveGame() {
-    if (!game || game.gameOver) {
-        clearAutoSavedGame();
-        return;
-    }
-    
+    if (!game) return;
+
     const gameState = {
         board: game.board,
         currentTurn: game.currentTurn,
@@ -7950,9 +9243,12 @@ function autoSaveGame() {
         blackTime: blackTime,
         lastMoveSquares: lastMoveSquares,
         currentMoveIndex: currentMoveIndex,
+        analysisErrorsList: analysisErrorsList || [],
+        analysisAnalyzedUpTo: analysisAnalyzedUpTo,
+        analysisComplete: analysisComplete,
         timestamp: new Date().toISOString()
     };
-    
+
     try {
         localStorage.setItem('auto_saved_game', JSON.stringify(gameState));
         checkForGameInProgress();
@@ -9269,6 +10565,12 @@ function executeMove(fromRow, fromCol, toRow, toCol, promotionPiece) {
     var pieceBeforeMove = game.getPiece(fromRow, fromCol);
     var capturedBeforeMove = game.getPiece(toRow, toCol);
     const result = game.makeMove(fromRow, fromCol, toRow, toCol, promotionPiece);
+
+    // — Sincronización online: enviar UCI al servidor si la partida está activa —
+    if (result && _onlineGame && _onlineGame.status === 'active' && !_applyingRemoteMove) {
+        const uci = moveToUCI(fromRow, fromCol, toRow, toCol, promotionPiece);
+        sendOnlineMove(uci, result.status);
+    }
     lastMoveSquares = { from: { row: fromRow, col: fromCol }, to: { row: toRow, col: toCol } };
     bestMoveSquares = { from: null, to: null };
     selectedSquare = null;
@@ -9302,9 +10604,10 @@ function executeMove(fromRow, fromCol, toRow, toCol, promotionPiece) {
         showMoveInsight(fromRow, fromCol, toRow, toCol, pieceBeforeMove, capturedBeforeMove);
     }
     handleGameResult(result);
-    if (!game.gameOver && playerColor !== 'both' && game.currentTurn !== playerColor) {
+    if (!game.gameOver && playerColor !== 'both' && game.currentTurn !== playerColor && !_onlineGame) {
         setTimeout(() => makeAIMove(), 800);
     }
+    if (_onlineGame) updateOnlineBanner();
 }
 
 function showPromotionDialog(pieceColor) {
