@@ -37,14 +37,18 @@ try {
         $minutes   = (int)($parts[0] ?? 5);
         $increment = (int)($parts[1] ?? 0);
 
+        // Tiempo inicial en milisegundos para cada jugador.
+        // last_move_at = NULL hasta que se haga el primer movimiento (ningún reloj corre).
+        $initialMs = $minutes * 60 * 1000;
         $ins = $pdo->prepare("
             INSERT INTO ajedrezia_games
                 (white_id, black_id, white_nick, black_nick, white_elo, black_elo,
-                 time_per_player, increment, time_control, current_turn, status, created_at)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 'white', 'active', NOW())
+                 time_per_player, increment, time_control, current_turn, status, created_at,
+                 white_time_ms, black_time_ms, last_move_at)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 'white', 'active', NOW(), ?, ?, NULL)
         ");
         $ins->execute([$white_id, $black_id, $white_nick, $black_nick, $white_elo, $black_elo,
-                       $minutes, $increment, $tc]);
+                       $minutes, $increment, $tc, $initialMs, $initialMs]);
         $game_id = (int)$pdo->lastInsertId();
     }
 

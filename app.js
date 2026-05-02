@@ -4895,6 +4895,10 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '3.0.2': [
+        'Online: durante la partida se desactivan todos los botones excepto Abandonar y Pedir Tablas',    
+        '   ... y más mejoras en AjedrezIA ... ',
+    ],
     '3.0.0': [
         '🌐 Versión 3.0: juego online multijugador en tiempo real completo',
         'Login con OAuth: autenticación con Google y Apple Sign-In',
@@ -5661,6 +5665,8 @@ function startOnlineGame(opponent, myColor, timeControl, gameId) {
     if (typeof startNewGame === 'function') startNewGame({ fromOnlineStart: true });
     startOnlineGamePolling();
     updateOnlineBanner();
+    // Bloquear acciones que no deben usarse durante una partida online
+    setOnlineActionsLocked(true);
 }
 
 // ── Enviar movimiento al servidor ─────────────────────────────────────────
@@ -5694,6 +5700,12 @@ function sendOnlineMove(uci, statusAfter) {
             return;
         }
         _onlineGame.totalMovesApplied = data.total_moves;
+        // Reloj autoritativo del servidor tras aplicar el movimiento
+        if (typeof data.white_time_ms === 'number' && typeof data.black_time_ms === 'number') {
+            whiteTime = Math.ceil(data.white_time_ms / 1000);
+            blackTime = Math.ceil(data.black_time_ms / 1000);
+            updateClockDisplay();
+        }
         if (data.status && data.status !== 'active') {
             _onlineGame.status = data.status;
             stopOnlineGamePolling();
@@ -5733,6 +5745,11 @@ function pollOnlineGame() {
                 _onlineGame.totalMovesApplied = data.total_moves;
             }
 
+            // ── Sincronizar reloj con el servidor (fuente única de verdad) ──
+            if (typeof data.white_time_ms === 'number' && typeof data.black_time_ms === 'number') {
+                syncOnlineClock(data);
+            }
+
             // Estado de la partida
             if (data.status && data.status !== 'active') {
                 _onlineGame.status = data.status;
@@ -5741,6 +5758,37 @@ function pollOnlineGame() {
             }
         })
         .catch(function(){});
+}
+
+// Sincroniza whiteTime / blackTime locales con los valores autoritativos del servidor.
+// Usa el "ahora" del servidor para neutralizar el desfase de reloj entre cliente y servidor.
+function syncOnlineClock(data) {
+    if (!_onlineGame || _onlineGame.status !== 'active') return;
+
+    let whiteMs = data.white_time_ms;
+    let blackMs = data.black_time_ms;
+
+    // Si ya hubo un primer movimiento, descontar el tiempo transcurrido al jugador en turno
+    if (data.last_move_ms && data.server_now_ms) {
+        const elapsedMs = Math.max(0, data.server_now_ms - data.last_move_ms);
+        if (data.current_turn === 'white') whiteMs = Math.max(0, whiteMs - elapsedMs);
+        else                                blackMs = Math.max(0, blackMs - elapsedMs);
+    }
+    // Si last_move_ms es null aún no se ha jugado: ningún reloj corre, los valores ya son los iniciales.
+
+    const newWhiteSec = Math.ceil(whiteMs / 1000);
+    const newBlackSec = Math.ceil(blackMs / 1000);
+
+    // Solo aplicar si la diferencia es notable (≥1 s) para evitar saltos visuales por jitter
+    if (Math.abs(newWhiteSec - whiteTime) >= 1) whiteTime = newWhiteSec;
+    if (Math.abs(newBlackSec - blackTime) >= 1) blackTime = newBlackSec;
+
+    updateClockDisplay();
+
+    // Si aún no se ha hecho el primer movimiento, asegurarnos de que el reloj local NO corre
+    if (!data.last_move_ms && clockInterval) stopClock();
+    // Si ya se ha hecho el primer movimiento y la partida sigue activa, mantener el tick local fluido
+    else if (data.last_move_ms && !clockInterval && !game.gameOver) startClock();
 }
 
 function applyRemoteUCI(uci) {
@@ -5782,6 +5830,7 @@ function onOnlineGameEnded(status, reason) {
     const msgType = (status === 'aborted') ? 'info' : (eloDelta >= 0 ? 'success' : 'error');
     showMessage('🌐 ' + txt + formatEloDelta(eloDelta), msgType, 0);
     setTimeout(updateOnlineBanner, 100);
+    setOnlineActionsLocked(false);
 }
 
 function leaveOnlineGame(reason) {
@@ -5798,6 +5847,7 @@ function leaveOnlineGame(reason) {
     stopOnlineGamePolling();
     _onlineGame = null;
     updateOnlineBanner();
+    setOnlineActionsLocked(false);
 }
 
 // ── Banner de partida online ──────────────────────────────────────────────
@@ -7076,7 +7126,9 @@ function startNewGame(options) {
     updateShareButton();
 
     if (!options || !options.skipInitialAI) {
-        if (playerColor === 'black') {
+        // En partidas online no debe jugar la IA: el primer movimiento (y todos)
+        // los hacen siempre los dos jugadores humanos.
+        if (playerColor === 'black' && !_onlineGame) {
             setTimeout(() => makeAIMove(), 800);
         }
     }
@@ -7500,6 +7552,47 @@ function setGameButtonsDisabled(disabled) {
     ids.forEach(id => {
         const el = document.getElementById(id);
         if (el) el.disabled = disabled || (!disabled && noOpening && openingBtns.includes(id));
+    });
+}
+
+// Bloquea todos los botones de acción durante una partida online,
+// dejando habilitados únicamente Abandonar y Pedir Tablas. Al desbloquear,
+// se restablece el estado normal (incluido el de aperturas).
+function setOnlineActionsLocked(locked) {
+    const idsToLock = [
+        'new-game',
+        'resume-game', 'resume-game-sidebar',
+        'undo-move', 'undo-move-sidebar',
+        'hint-move', 'hint-move-sidebar',
+        'analyze-game', 'analyze-game-sidebar',
+        'export-pgn', 'import-pgn',
+        'load-famous-game',
+        'show-known-variants',
+        'start-opening-quiz',
+        'start-opening-training',
+        'view-opening',
+        'select-puzzle', 'next-puzzle', 'puzzle-hint', 'puzzle-solution',
+        'share-game',
+    ];
+    if (locked) {
+        idsToLock.forEach(id => {
+            const el = document.getElementById(id);
+            if (el) el.disabled = true;
+        });
+    } else {
+        // Restaurar el estado coherente normal: los botones de partida vuelven a estar
+        // habilitados; aperturas/quiz se reactivan según haya selección de apertura.
+        setGameButtonsDisabled(false);
+        ['new-game', 'export-pgn', 'import-pgn', 'load-famous-game',
+         'select-puzzle', 'next-puzzle', 'share-game'].forEach(id => {
+            const el = document.getElementById(id);
+            if (el) el.disabled = false;
+        });
+    }
+    // Asegurar siempre que Abandonar y Pedir Tablas están operativos durante la partida
+    ['resign-game', 'resign-game-sidebar', 'offer-draw', 'offer-draw-sidebar'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.disabled = false;
     });
 }
 
@@ -9281,6 +9374,12 @@ function startClock() {
                     eloDelta = recordGameResult('loss');
                 }
                 
+                if (_onlineGame) {
+                    _onlineGame.status = 'finished';
+                    stopOnlineGamePolling();
+                    updateOnlineBanner();
+                    setOnlineActionsLocked(false);
+                }
                 showMessage(`¡Se acabó el tiempo de las blancas! Las negras ganan.${formatEloDelta(eloDelta)}`, 'error', 0);
                 setTimeout(showAnalysisButton, 100);
                 return;
@@ -9300,6 +9399,12 @@ function startClock() {
                     eloDelta = recordGameResult('loss');
                 }
                 
+                if (_onlineGame) {
+                    _onlineGame.status = 'finished';
+                    stopOnlineGamePolling();
+                    updateOnlineBanner();
+                    setOnlineActionsLocked(false);
+                }
                 showMessage(`¡Se acabó el tiempo de las negras! Las blancas ganan.${formatEloDelta(eloDelta)}`, 'error', 0);
                 setTimeout(showAnalysisButton, 100);
                 return;
@@ -10954,6 +11059,17 @@ function handleGameResult(result) {
     } else if (result.status === 'check') {
         showBoardBanner('♔ ¡JAQUE!', 'check');
         setTimeout(hideBoardBanner, 1500);
+    }
+
+    // Si la partida online ha terminado en el tablero, cerrar banner y reactivar botones
+    const finished = result.status === 'checkmate' || result.status === 'stalemate' ||
+                     result.status === 'threefold' || result.status === 'fifty' ||
+                     result.status === 'insufficient';
+    if (finished && _onlineGame) {
+        _onlineGame.status = 'finished';
+        stopOnlineGamePolling();
+        updateOnlineBanner();
+        setOnlineActionsLocked(false);
     }
 }
 

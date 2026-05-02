@@ -33,6 +33,16 @@ try {
     $totalMoves = count($movesArr);
     $newMoves   = ($since > 0 && $since <= $totalMoves) ? array_slice($movesArr, $since) : $movesArr;
 
+    // Reloj con precisión de ms y "ahora" del servidor para que el cliente
+    // calcule el offset y descuente el tiempo desde el último movimiento.
+    $nowMs = (int)floor(((int)$pdo->query("SELECT FLOOR(UNIX_TIMESTAMP(NOW(3)) * 1000)")->fetchColumn()));
+    $lastMoveMs = null;
+    if (!empty($game['last_move_at'])) {
+        $stmt2 = $pdo->prepare("SELECT FLOOR(UNIX_TIMESTAMP(?) * 1000) AS ms");
+        $stmt2->execute([$game['last_move_at']]);
+        $lastMoveMs = (int)$stmt2->fetch(PDO::FETCH_ASSOC)['ms'];
+    }
+
     echo json_encode([
         'ok'             => true,
         'id'             => (int)$game['id'],
@@ -50,6 +60,10 @@ try {
         'result_reason'  => $game['result_reason'],
         'total_moves'    => $totalMoves,
         'new_moves'      => $newMoves,
+        'white_time_ms'  => (int)$game['white_time_ms'],
+        'black_time_ms'  => (int)$game['black_time_ms'],
+        'last_move_ms'   => $lastMoveMs,
+        'server_now_ms'  => $nowMs,
     ]);
 } catch (PDOException $e) {
     http_response_code(500);
