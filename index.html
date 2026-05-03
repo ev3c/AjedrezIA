@@ -100,6 +100,49 @@
                         </button>
                     </div>
 
+                    <div class="config-section config-player-color" id="color-picker-section">
+                        <label>Juegas con:</label>
+                        <div class="player-color-picker" id="player-color-picker" role="group" aria-label="Juegas con">
+                            <button type="button" class="player-color-option player-color-option--selected" data-color="white" id="player-color-btn-white" title="Blancas" aria-label="Jugar con blancas" aria-pressed="true">
+                                <span class="player-color-pawn-wrap">
+                                    <img id="player-color-pawn-white" class="player-color-pawn-img" src="pieces/cburnett/wP.svg" alt="">
+                                </span>
+                            </button>
+                            <button type="button" class="player-color-option" data-color="black" id="player-color-btn-black" title="Negras" aria-label="Jugar con negras" aria-pressed="false">
+                                <span class="player-color-pawn-wrap">
+                                    <img id="player-color-pawn-black" class="player-color-pawn-img" src="pieces/cburnett/bP.svg" alt="">
+                                </span>
+                            </button>
+                            <button type="button" class="player-color-option" data-color="random" id="player-color-btn-random" title="Aleatorio" aria-label="Color aleatorio" aria-pressed="false">
+                                <span class="player-color-pawn-wrap">
+                                    <span class="player-color-pawn-txt is-visible" aria-hidden="true">🎲</span>
+                                </span>
+                            </button>
+                        </div>
+                        <input type="hidden" id="player-color" value="white">
+                    </div>
+
+                    <div class="config-section config-opponent">
+                        <label>Juegas contra:</label>
+                        <div class="player-color-picker" id="player-opponent-picker" role="group" aria-label="Juegas contra">
+                            <button type="button" class="player-color-option player-color-option--selected" data-mode="ai" id="opponent-btn-ai" title="Inteligencia Artificial" aria-label="Jugar contra IA" aria-pressed="true">
+                                <span class="player-color-pawn-wrap">
+                                    <span class="player-color-pawn-txt is-visible" aria-hidden="true">💻</span>
+                                </span>
+                            </button>
+                            <button type="button" class="player-color-option" data-mode="pvp" id="opponent-btn-pvp" title="Persona vs persona" aria-label="Persona vs persona" aria-pressed="false">
+                                <span class="player-color-pawn-wrap">
+                                    <span class="player-color-pawn-txt is-visible" aria-hidden="true">🧑</span>
+                                </span>
+                            </button>
+                            <button type="button" class="player-color-option" data-mode="online" id="opponent-btn-online" title="Jugar online" aria-label="Jugar online" aria-pressed="false">
+                                <span class="player-color-pawn-wrap">
+                                    <span class="player-color-pawn-txt is-visible" aria-hidden="true">🌐</span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+
                     <div class="config-section" id="ai-settings">
                         <label>Nivel de Dificultad:</label>
                         <select id="ai-difficulty" class="select">
@@ -112,37 +155,6 @@
                             <option value="7">Maestro (~2200 ELO) — Stockfish d6</option>
                             <option value="8">Gran Maestro (~2500 ELO) — Stockfish d10</option>
                         </select>
-                    </div>
-                    
-                    <div class="config-section config-player-color">
-                        <div class="config-row-player-color">
-                            <label>Juegas con:</label>
-                            <div class="player-color-picker" id="player-color-picker" role="group" aria-label="Juegas con">
-                                <button type="button" class="player-color-option player-color-option--selected" data-color="white" id="player-color-btn-white" title="Blancas" aria-label="Jugar con blancas" aria-pressed="true">
-                                    <span class="player-color-pawn-wrap">
-                                        <img id="player-color-pawn-white" class="player-color-pawn-img" src="pieces/cburnett/wP.svg" alt="">
-                                        <span id="player-color-pawn-white-txt" class="player-color-pawn-txt" aria-hidden="true"></span>
-                                    </span>
-                                </button>
-                                <button type="button" class="player-color-option" data-color="black" id="player-color-btn-black" title="Negras" aria-label="Jugar con negras" aria-pressed="false">
-                                    <span class="player-color-pawn-wrap">
-                                        <img id="player-color-pawn-black" class="player-color-pawn-img" src="pieces/cburnett/bP.svg" alt="">
-                                        <span id="player-color-pawn-black-txt" class="player-color-pawn-txt" aria-hidden="true"></span>
-                                    </span>
-                                </button>
-                                <button type="button" class="player-color-option" data-color="both" id="player-color-btn-both" title="Persona vs persona" aria-label="Jugar ambos colores" aria-pressed="false">
-                                    <span class="player-color-pawn-wrap">
-                                        <span class="player-color-pawn-txt is-visible" aria-hidden="true">🧑</span>
-                                    </span>
-                                </button>
-                                <button type="button" class="player-color-option" data-color="online" id="player-color-btn-online" title="Jugar online" aria-label="Jugar online" aria-pressed="false">
-                                    <span class="player-color-pawn-wrap">
-                                        <span class="player-color-pawn-txt is-visible" aria-hidden="true">🌐</span>
-                                    </span>
-                                </button>
-                            </div>
-                        </div>
-                        <input type="hidden" id="player-color" value="white">
                     </div>
 
                     <div class="config-section">
@@ -712,7 +724,8 @@
                 <p class="login-user-email" id="login-user-email"></p>
                 <p class="login-user-provider" id="login-user-provider"></p>
                 <div class="login-modal-buttons" style="margin-top:22px;">
-                    <button class="login-btn login-btn-play" id="login-play-btn" type="button">🌐 Buscar partida online</button>
+                    <button class="login-btn login-btn-play" id="login-invite-btn" type="button">⚔️ Invitar a partida online</button>
+                    <button class="login-btn login-btn-secondary" id="login-play-btn" type="button">🌐 Buscar jugador online</button>
                     <button class="login-btn login-btn-signout" id="login-signout-btn" type="button">Cerrar sesión</button>
                 </div>
             </div>
@@ -821,6 +834,19 @@
             <div class="login-modal-buttons" style="margin-top:18px;">
                 <button class="login-btn login-btn-play" id="invite-accept-btn" type="button">✅ Aceptar</button>
                 <button class="login-btn login-btn-signout" id="invite-reject-btn" type="button">✖ Rechazar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal: oferta de tablas online -->
+    <div id="draw-offer-overlay" class="login-modal-overlay" role="dialog" aria-modal="true" style="display:none;">
+        <div class="login-modal-card abandon-confirm-card">
+            <div class="invite-incoming-icon">🤝</div>
+            <h2 class="login-modal-title" id="draw-offer-title">Tu rival ofrece tablas</h2>
+            <p class="login-modal-subtitle" id="draw-offer-subtitle">¿Aceptas las tablas?</p>
+            <div class="login-modal-buttons" style="margin-top:22px;">
+                <button class="login-btn login-btn-play" id="draw-offer-accept" type="button">Aceptar tablas</button>
+                <button class="login-btn login-btn-signout" id="draw-offer-reject" type="button">Rechazar</button>
             </div>
         </div>
     </div>

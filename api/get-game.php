@@ -64,6 +64,7 @@ try {
         'black_time_ms'  => (int)$game['black_time_ms'],
         'last_move_ms'   => $lastMoveMs,
         'server_now_ms'  => $nowMs,
+        'draw_offer'     => $game['draw_offer'] ?? '',
     ]);
 } catch (PDOException $e) {
     http_response_code(500);

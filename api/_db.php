@@ -82,11 +82,13 @@ function ai_ensure_games_table(PDO $pdo): void {
             INDEX idx_black (black_id, status)
         ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
     ");
-    // Compat: si la tabla ya existía sin las columnas de reloj, añadirlas
+    // Compat: si la tabla ya existía sin las columnas de reloj o de oferta de tablas, añadirlas
     foreach ([
         'ALTER TABLE ajedrezia_games ADD COLUMN white_time_ms BIGINT DEFAULT 0',
         'ALTER TABLE ajedrezia_games ADD COLUMN black_time_ms BIGINT DEFAULT 0',
         'ALTER TABLE ajedrezia_games ADD COLUMN last_move_at DATETIME(3) NULL',
+        "ALTER TABLE ajedrezia_games ADD COLUMN draw_offer VARCHAR(8) DEFAULT ''",
+        'ALTER TABLE ajedrezia_games ADD COLUMN draw_offer_at DATETIME NULL',
     ] as $alter) {
         try { $pdo->exec($alter); } catch (PDOException $e) { /* ya existe */ }
     }

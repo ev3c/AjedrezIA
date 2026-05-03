@@ -229,6 +229,32 @@ header h1 {
     display: block;
 }
 
+.player-color-option--col {
+    flex-direction: column;
+    gap: 3px;
+    min-width: 62px;
+    min-height: 62px;
+    padding: 7px 8px;
+}
+
+.player-color-btn-label {
+    font-size: 0.68rem;
+    color: #374151;
+    text-align: center;
+    line-height: 1.25;
+    pointer-events: none;
+}
+
+.player-color-option--selected .player-color-btn-label {
+    color: #4338ca;
+    font-weight: 600;
+}
+
+.config-opponent > label {
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
 /* Entrenador de aperturas */
 .opening-training-info {
     background: #f0f4ff;
@@ -3941,6 +3967,12 @@ body.puzzle-mode-active .move-navigator {
     color: #6b7280;
     border: 1.5px solid #e5e7eb;
 }
+.login-btn-secondary {
+    background: #f0f4ff;
+    color: #4338ca;
+    border: 1.5px solid #c7d2fe;
+}
+.login-btn-secondary:hover { background: #e0e7ff; }
 
 /* ── Modal de usuarios online ───────────────────────────────────────── */
 .users-modal-card {

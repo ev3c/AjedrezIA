@@ -156,10 +156,12 @@ const SoundFX = (() => {
 // ─────────────────────────────────────────────────────────
 
 let game = null;
-let playerColor = 'white';
+let playerColor = 'white';       // valor resuelto para la lógica del juego: 'white'|'black'|'both'
+let playerColorSetting = 'white'; // preferencia del selector de color: 'white'|'black'|'random'
+let gameOpponent = 'ai';          // oponente seleccionado: 'ai'|'pvp'|'online'
 let playerNickname = 'Jugador';
 let selectedSquare = null;
-let gameMode = 'vs-ai'; // vs-ai, vs-human, puzzle
+let gameMode = 'vs-ai'; // vs-ai, vs-human, puzzle (compatibilidad)
 let aiDifficulty = 1; // Nivel Stockfish (0-20)
 let boardTheme = 'classic';
 let pieceStyle = 'cburnett';
@@ -191,7 +193,8 @@ const ANALYSIS_DISABLED_IDS = ['start-opening-training', 'start-opening-quiz', '
     'nav-first', 'nav-prev', 'nav-next', 'nav-last',
     'puzzle-hint', 'puzzle-solution', 'puzzle-prev-board', 'puzzle-next-board',
     'show-known-variants',
-    'player-color-btn-white', 'player-color-btn-black', 'player-color-btn-both',
+    'player-color-btn-white', 'player-color-btn-black', 'player-color-btn-random',
+    'opponent-btn-ai', 'opponent-btn-pvp', 'opponent-btn-online',
     'ai-difficulty', 'opening-select', 'famous-game-select', 'time-control',
     'piece-style', 'puzzle-theme-select'];
 
@@ -2524,6 +2527,72 @@ function mapUciPromoToPiece(ch) {
     return m[String(ch).toLowerCase()] || 'queen';
 }
 
+/** Maneja ?online=<base64> para abrir la app preconfigurada para una partida online. */
+function applyOnlineFromQueryString() {
+    const params = new URLSearchParams(window.location.search);
+    const raw = params.get('online');
+    if (raw === null) return false;   // param no presente
+
+    let inviteData = null;
+    if (raw) {
+        try { inviteData = JSON.parse(atob(raw)); } catch(e) {}
+    }
+
+    // Limpiar la URL sin recargar
+    const cleanUrl = window.location.pathname;
+    history.replaceState(null, '', cleanUrl);
+
+    const colorRaw   = inviteData && inviteData.c ? inviteData.c : 'random';
+    const tcRaw      = inviteData && inviteData.t ? inviteData.t : '5+0';
+    // El receptor juega el color opuesto al invitante (o random si fue random)
+    const myColorRaw = colorRaw === 'white' ? 'black' : colorRaw === 'black' ? 'white' : 'random';
+    const colorLabel = { white: 'Blancas ♔', black: 'Negras ♚', random: 'Aleatorio 🎲' }[colorRaw] || '';
+    const myColorLabel = { white: 'Blancas ♔', black: 'Negras ♚', random: 'Aleatorio 🎲' }[myColorRaw] || '';
+    const tcLabel = timeLabelFor(tcRaw);
+
+    // Mostrar modal de bienvenida con los detalles de la invitación
+    function launchOnlineInvite() {
+        // Preconfigurar el modal de invitación con los valores del enlace
+        _inviteGenericMode   = false;   // ahora buscamos un jugador real
+        _inviteSelectedColor = myColorRaw;
+        // Preseleccionar color en el picker
+        document.querySelectorAll('#invite-color-picker .invite-color-btn').forEach(function(b) {
+            b.classList.toggle('is-selected', b.dataset.color === myColorRaw);
+            b.setAttribute('aria-pressed', b.dataset.color === myColorRaw);
+        });
+        // Preseleccionar tiempo en el select
+        const tcSelect = document.getElementById('invite-time-select');
+        if (tcSelect) tcSelect.value = tcRaw;
+        // Abrir el modal de usuarios para que elija al oponente
+        showUsersModal();
+    }
+
+    const user = getOnlineUser();
+    const detailHtml = colorLabel
+        ? `<br><small style="color:#6b7280;">Invitante: ${colorLabel} · ${tcLabel} → Tú jugarías: ${myColorLabel}</small>`
+        : '';
+
+    if (user) {
+        // Ya está logueado → mostrar mensaje y abrir directamente
+        showMessage(
+            `⚔️ <strong>¡Invitación a partida online!</strong>${detailHtml}<br>Elige un oponente para jugar.`,
+            'info', 0, launchOnlineInvite
+        );
+    } else {
+        // No logueado → mostrar login; al entrar, lanzar el flujo
+        showMessage(
+            `⚔️ <strong>¡Invitación a partida online!</strong>${detailHtml}<br>Inicia sesión para jugar.`,
+            'info', 0,
+            function() {
+                // Guardar parámetros para recuperarlos tras el login
+                sessionStorage.setItem('_pendingOnline', JSON.stringify({ c: colorRaw, t: tcRaw }));
+                showLoginModal();
+            }
+        );
+    }
+    return true;
+}
+
 /** Reproduce UCI de ?moves= (coma o +) sobre la partida actual; limpia la URL al terminar. */
 function applyMovesFromQueryString() {
     const params = new URLSearchParams(window.location.search);
@@ -4797,26 +4866,50 @@ function isHumanTurn() {
 
 function syncPlayerColorUI() {
     var hidden = document.getElementById('player-color');
-    var wBtn = document.getElementById('player-color-btn-white');
-    var bBtn = document.getElementById('player-color-btn-black');
-    var bothBtn = document.getElementById('player-color-btn-both');
     if (hidden) hidden.value = playerColor;
-    if (wBtn && bBtn && bothBtn) {
-        var isW = playerColor === 'white';
-        var isB = playerColor === 'black';
-        var isBoth = playerColor === 'both';
-        wBtn.classList.toggle('player-color-option--selected', isW);
-        bBtn.classList.toggle('player-color-option--selected', isB);
-        bothBtn.classList.toggle('player-color-option--selected', isBoth);
-        wBtn.setAttribute('aria-pressed', isW ? 'true' : 'false');
-        bBtn.setAttribute('aria-pressed', isB ? 'true' : 'false');
-        bothBtn.setAttribute('aria-pressed', isBoth ? 'true' : 'false');
+
+    // Selector "Juegas con"
+    var wBtn      = document.getElementById('player-color-btn-white');
+    var bBtn      = document.getElementById('player-color-btn-black');
+    var randBtn   = document.getElementById('player-color-btn-random');
+    if (wBtn && bBtn && randBtn) {
+        wBtn.classList.toggle('player-color-option--selected',    playerColorSetting === 'white');
+        bBtn.classList.toggle('player-color-option--selected',    playerColorSetting === 'black');
+        randBtn.classList.toggle('player-color-option--selected', playerColorSetting === 'random');
+        wBtn.setAttribute('aria-pressed',    playerColorSetting === 'white'  ? 'true' : 'false');
+        bBtn.setAttribute('aria-pressed',    playerColorSetting === 'black'  ? 'true' : 'false');
+        randBtn.setAttribute('aria-pressed', playerColorSetting === 'random' ? 'true' : 'false');
     }
+
+    // Selector "Juegas contra"
+    var aiBtn     = document.getElementById('opponent-btn-ai');
+    var pvpBtn    = document.getElementById('opponent-btn-pvp');
+    var onlineBtn = document.getElementById('opponent-btn-online');
+    if (aiBtn && pvpBtn && onlineBtn) {
+        var isAI  = gameOpponent === 'ai';
+        var isPvP = gameOpponent === 'pvp';
+        var isOnl = gameOpponent === 'online';
+        aiBtn.classList.toggle('player-color-option--selected',     isAI);
+        pvpBtn.classList.toggle('player-color-option--selected',    isPvP);
+        onlineBtn.classList.toggle('player-color-option--selected', isOnl);
+        aiBtn.setAttribute('aria-pressed',     isAI  ? 'true' : 'false');
+        pvpBtn.setAttribute('aria-pressed',    isPvP ? 'true' : 'false');
+        onlineBtn.setAttribute('aria-pressed', isOnl ? 'true' : 'false');
+    }
+
+    // Mostrar/ocultar selector de color y dificultad según oponente
+    var colorSection = document.getElementById('color-picker-section');
+    var aiSettings   = document.getElementById('ai-settings');
+    var isAIMode = gameOpponent === 'ai';
+    if (colorSection) colorSection.style.display = isAIMode ? '' : 'none';
+    if (aiSettings)   aiSettings.style.display   = isAIMode ? '' : 'none';
 }
 
 function saveSettings() {
     const settings = {
         playerColor: playerColor,
+        playerColorSetting: playerColorSetting,
+        gameOpponent: gameOpponent,
         aiDifficulty: aiDifficulty,
         boardTheme: boardTheme,
         pieceStyle: pieceStyle,
@@ -4841,6 +4934,19 @@ function loadSavedSettings() {
             playerColor = settings.playerColor != null ? settings.playerColor : 'white';
             if (playerColor !== 'white' && playerColor !== 'black' && playerColor !== 'both') {
                 playerColor = 'white';
+            }
+            // Preferencia de color (incluye 'random')
+            if (settings.playerColorSetting && ['white','black','random'].includes(settings.playerColorSetting)) {
+                playerColorSetting = settings.playerColorSetting;
+            } else {
+                // Migrar desde versión anterior
+                playerColorSetting = (playerColor === 'both') ? 'white' : playerColor;
+            }
+            // Oponente
+            if (settings.gameOpponent && ['ai','pvp'].includes(settings.gameOpponent)) {
+                gameOpponent = settings.gameOpponent;
+            } else {
+                gameOpponent = (playerColor === 'both') ? 'pvp' : 'ai';
             }
             aiDifficulty = settings.aiDifficulty != null ? settings.aiDifficulty : 1;
             boardTheme = settings.boardTheme != null ? settings.boardTheme : 'classic';
@@ -4876,6 +4982,8 @@ function loadSavedSettings() {
             if (matchingOption) {
                 timeControlSelect.value = timeControl;
             }
+
+            syncPlayerColorUI();
             
         } catch (error) {
             console.error('Error al cargar configuración:', error);
@@ -4895,6 +5003,11 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '3.0.3': [
+        'Configuración: "Juegas con" (Blancas / Negras / Aleatorio 🎲) y "Juegas contra" (IA 💻 / Persona vs persona 🧑 / Online 🌐) como selectores separados',
+        'Color aleatorio: al iniciar partida se resuelve aleatoriamente entre blancas y negras',
+        'Dificultad y selector de color se ocultan automáticamente al elegir Persona vs persona u Online',
+    ],
     '3.0.2': [
         'Online: durante la partida se desactivan todos los botones excepto Abandonar y Pedir Tablas',    
         '   ... y más mejoras en AjedrezIA ... ',
@@ -5173,6 +5286,35 @@ function setOnlineUser(user) {
     updateLoginModalUI();
     updateOnlineButtonTooltip();
     updateLoginStatusButton();
+
+    // Si el usuario llegó desde un enlace ?online= y tuvo que loguearse, retomar el flujo
+    const pending = sessionStorage.getItem('_pendingOnline');
+    if (pending) {
+        sessionStorage.removeItem('_pendingOnline');
+        try {
+            const inv = JSON.parse(pending);
+            const colorRaw  = inv.c || 'random';
+            const tcRaw     = inv.t || '5+0';
+            const myColor   = colorRaw === 'white' ? 'black' : colorRaw === 'black' ? 'white' : 'random';
+            const myLabel   = { white: 'Blancas ♔', black: 'Negras ♚', random: 'Aleatorio 🎲' }[myColor] || '';
+            const tcLabel   = timeLabelFor(tcRaw);
+            setTimeout(function() {
+                document.querySelectorAll('#invite-color-picker .invite-color-btn').forEach(function(b) {
+                    b.classList.toggle('is-selected', b.dataset.color === myColor);
+                    b.setAttribute('aria-pressed', b.dataset.color === myColor);
+                });
+                _inviteSelectedColor = myColor;
+                const tcSelect = document.getElementById('invite-time-select');
+                if (tcSelect) tcSelect.value = tcRaw;
+                showMessage(
+                    `⚔️ <strong>¡Invitación a partida online!</strong><br>` +
+                    `<small style="color:#6b7280;">Tú jugarías: ${myLabel} · ${tcLabel}</small><br>` +
+                    `Elige un oponente para jugar.`,
+                    'info', 0, showUsersModal
+                );
+            }, 600);
+        } catch(e) {}
+    }
 }
 
 function saveUserToDB(user, isFirstLoginLocal) {
@@ -5210,10 +5352,10 @@ function notifyNewUser(user, type) {
 
     const isNuevo   = type === 'nuevo';
     const ts        = new Date().toLocaleString('es-ES', { timeZone: 'Europe/Madrid' });
-    const subjectTx = isNuevo ? 'Nuevo usuario en AjedrezIA' : 'Sesión iniciada en AjedrezIA';
+    const subjectTx = isNuevo ? 'Nuevo usuario en AjedrezIA' : 'Reconexión en AjedrezIA';
     const introTx   = isNuevo
         ? 'Se ha registrado un NUEVO usuario en AjedrezIA.'
-        : 'Un usuario ha iniciado sesión en AjedrezIA.';
+        : 'Se ha vuelto a conectar en AjedrezIA.';
 
     const body = [
         introTx,
@@ -5304,9 +5446,31 @@ function fetchAndRenderUsers() {
                 id: currentUser.id, nick: currentUser.email.split('@')[0],
                 name: currentUser.name, elo: currentElo, online: true,
             } : null,
-            { id: 'demo1', nick: 'jugador_demo',  name: 'Demo', elo: 1450, online: true  },
-            { id: 'demo2', nick: 'ajedrez_fan',   name: 'Demo', elo: 1320, online: false },
-            { id: 'demo3', nick: 'magnus_junior', name: 'Demo', elo: 1180, online: false },
+            { id: 'demo1',  nick: 'jugador_demo',    name: 'Demo', elo: 1450, online: true  },
+            { id: 'demo2',  nick: 'ajedrez_fan',     name: 'Demo', elo: 1320, online: false },
+            { id: 'demo3',  nick: 'magnus_junior',   name: 'Demo', elo: 1180, online: false },
+            { id: 'demo4',  nick: 'caballo_loco',    name: 'Demo', elo: 1675, online: false },
+            { id: 'demo5',  nick: 'reina_blanca',    name: 'Demo', elo: 1890, online: false },
+            { id: 'demo6',  nick: 'gambit_master',   name: 'Demo', elo: 2100, online: false },
+            { id: 'demo7',  nick: 'peoncito',        name: 'Demo', elo: 980,  online: false },
+            { id: 'demo8',  nick: 'torre_negra',     name: 'Demo', elo: 1540, online: false },
+            { id: 'demo9',  nick: 'alfil_rapido',    name: 'Demo', elo: 1265, online: false },
+            { id: 'demo10', nick: 'enroque_corto',   name: 'Demo', elo: 1410, online: false },
+            { id: 'demo11', nick: 'jaque_mate_99',   name: 'Demo', elo: 1750, online: false },
+            { id: 'demo12', nick: 'capablanca_ii',   name: 'Demo', elo: 2250, online: false },
+            { id: 'demo13', nick: 'tablero_loco',    name: 'Demo', elo: 1120, online: false },
+            { id: 'demo14', nick: 'siciliana_pro',   name: 'Demo', elo: 1830, online: false },
+            { id: 'demo15', nick: 'rey_solitario',   name: 'Demo', elo: 1050, online: false },
+            { id: 'demo16', nick: 'dama_furiosa',    name: 'Demo', elo: 1620, online: false },
+            { id: 'demo17', nick: 'pasapeon',        name: 'Demo', elo: 1370, online: false },
+            { id: 'demo18', nick: 'al_passant',      name: 'Demo', elo: 1495, online: false },
+            { id: 'demo19', nick: 'fianchetto',      name: 'Demo', elo: 1985, online: false },
+            { id: 'demo20', nick: 'novato_2026',     name: 'Demo', elo: 880,  online: false },
+            { id: 'demo21', nick: 'gran_maestro',    name: 'Demo', elo: 2400, online: false },
+            { id: 'demo22', nick: 'apertura_inglesa',name: 'Demo', elo: 1710, online: false },
+            { id: 'demo23', nick: 'defensa_francesa',name: 'Demo', elo: 1565, online: false },
+            { id: 'demo24', nick: 'mate_pastor',     name: 'Demo', elo: 1230, online: false },
+            { id: 'demo25', nick: 'bobby_fan',       name: 'Demo', elo: 1920, online: false },
         ].filter(Boolean);
         setTimeout(function() {
             loadingEl.style.display = 'none';
@@ -5399,6 +5563,7 @@ function escHtml(str) {
 
 let _inviteTarget        = null;     // usuario al que vamos a invitar
 let _inviteSelectedColor = 'white';  // color elegido en el formulario
+let _inviteGenericMode   = false;    // true cuando se abre el modal sin jugador destino (invitación compartible)
 let _outgoingInviteId    = null;     // id de la invitación que estamos esperando
 let _outgoingPollTimer   = null;
 let _incomingPollTimer   = null;
@@ -5423,13 +5588,16 @@ function invertColor(c) {
 // ── Modal de envío ─────────────────────────────────────────────────────────
 function showInviteSendModal(target) {
     _inviteTarget        = target;
-    _inviteSelectedColor = 'white';
+    _inviteSelectedColor = localStorage.getItem('invite_color') || 'white';
+    const savedTc        = localStorage.getItem('invite_tc')    || '5+0';
     document.getElementById('invite-send-target').textContent =
         'Vas a invitar a ' + (target.nick || target.name) + ' (ELO ' + target.elo + ')';
     document.querySelectorAll('#invite-color-picker .invite-color-btn').forEach(function(b) {
-        b.classList.toggle('is-selected', b.dataset.color === 'white');
-        b.setAttribute('aria-pressed', b.dataset.color === 'white');
+        b.classList.toggle('is-selected', b.dataset.color === _inviteSelectedColor);
+        b.setAttribute('aria-pressed', b.dataset.color === _inviteSelectedColor);
     });
+    const tcSelect = document.getElementById('invite-time-select');
+    if (tcSelect) tcSelect.value = savedTc;
     document.getElementById('invite-send-error').style.display = 'none';
     document.getElementById('invite-send-overlay').classList.add('is-open');
 }
@@ -5437,9 +5605,37 @@ function showInviteSendModal(target) {
 function hideInviteSendModal() {
     document.getElementById('invite-send-overlay').classList.remove('is-open');
     _inviteTarget = null;
+    _inviteGenericMode = false;
+}
+
+// Abre el modal de invitación en modo genérico (sin jugador destino).
+// Al confirmar mostrará el share con los datos elegidos.
+function showGenericInviteModal() {
+    _inviteGenericMode   = true;
+    _inviteTarget        = null;
+    _inviteSelectedColor = localStorage.getItem('invite_color') || 'white';
+    const savedTc        = localStorage.getItem('invite_tc')    || '5+0';
+    document.getElementById('invite-send-target').textContent = 'Elige color y tiempo para tu invitación';
+    document.querySelectorAll('#invite-color-picker .invite-color-btn').forEach(function(b) {
+        b.classList.toggle('is-selected', b.dataset.color === _inviteSelectedColor);
+        b.setAttribute('aria-pressed', b.dataset.color === _inviteSelectedColor);
+    });
+    const tcSelect = document.getElementById('invite-time-select');
+    if (tcSelect) tcSelect.value = savedTc;
+    document.getElementById('invite-send-error').style.display = 'none';
+    document.getElementById('invite-send-overlay').classList.add('is-open');
 }
 
 function sendInvite() {
+    // Modo genérico: construir share con los datos elegidos
+    if (_inviteGenericMode) {
+        const tc = document.getElementById('invite-time-select').value;
+        const colorLabel = { white: 'Blancas ♔', black: 'Negras ♚', random: 'Aleatorio 🎲' }[_inviteSelectedColor] || '';
+        hideInviteSendModal();
+        shareInviteOnline(colorLabel, timeLabelFor(tc), _inviteSelectedColor, tc);
+        return;
+    }
+
     const target = _inviteTarget;
     const me     = getOnlineUser();
     if (!target || !me) { hideInviteSendModal(); return; }
@@ -5621,6 +5817,7 @@ let _onlineGame          = null;   // { id, myColor, opponent, status, totalMove
 let _onlineGamePollTimer = null;
 let _applyingRemoteMove  = false;  // evita reenviar al servidor las jugadas que llegan del servidor
 let _onlineEloApplied    = false;  // evita doble aplicación de ELO al terminar partida online
+let _drawOfferShown      = false;  // evita mostrar el modal de tablas en cada ciclo de polling
 
 // ── Iniciar partida online ────────────────────────────────────────────────
 function startOnlineGame(opponent, myColor, timeControl, gameId) {
@@ -5653,6 +5850,7 @@ function startOnlineGame(opponent, myColor, timeControl, gameId) {
         totalMovesApplied: 0,
     };
     _onlineEloApplied = false;
+    _drawOfferShown   = false;
 
     showMessage(
         '🌐 <strong>Partida online iniciada</strong><br>' +
@@ -5728,6 +5926,86 @@ function stopOnlineGamePolling() {
     if (_onlineGamePollTimer) { clearInterval(_onlineGamePollTimer); _onlineGamePollTimer = null; }
 }
 
+function showDrawOfferModal(opponentNick) {
+    const overlay = document.getElementById('draw-offer-overlay');
+    if (!overlay) return;
+    const titleEl    = document.getElementById('draw-offer-title');
+    const subtitleEl = document.getElementById('draw-offer-subtitle');
+    if (titleEl)    titleEl.textContent    = opponentNick + ' ofrece tablas';
+    if (subtitleEl) subtitleEl.textContent = '¿Aceptas las tablas?';
+    overlay.style.display = 'flex';
+
+    const acceptBtn = document.getElementById('draw-offer-accept');
+    const rejectBtn = document.getElementById('draw-offer-reject');
+
+    function cleanup() {
+        overlay.style.display = 'none';
+        overlay.onclick = null;
+        if (acceptBtn) acceptBtn.onclick = null;
+        if (rejectBtn) rejectBtn.onclick = null;
+    }
+
+    if (acceptBtn) acceptBtn.onclick = function() {
+        cleanup();
+        respondDrawOffer('accept');
+    };
+    if (rejectBtn) rejectBtn.onclick = function() {
+        cleanup();
+        _drawOfferShown = false;
+        respondDrawOffer('reject');
+    };
+    overlay.onclick = function(e) {
+        if (e.target === overlay) { cleanup(); _drawOfferShown = false; respondDrawOffer('reject'); }
+    };
+}
+
+function hideDrawOfferModal() {
+    const overlay = document.getElementById('draw-offer-overlay');
+    if (overlay) overlay.style.display = 'none';
+}
+
+function respondDrawOffer(action) {
+    if (!_onlineGame || IS_LOCAL) {
+        if (action === 'accept') {
+            game.gameOver = true; stopClock();
+            const eloDelta = recordGameResult('draw');
+            SoundFX.draw(); clearAutoSavedGame();
+            showMessage(`Tablas acordadas.${formatEloDelta(eloDelta)}`, 'info', 0);
+        } else {
+            showMessage('Has rechazado las tablas.', 'info', 2000);
+        }
+        return;
+    }
+    const me = getOnlineUser();
+    if (!me) return;
+    fetch(BASE_PATH + 'api/respond-draw.php', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ game_id: _onlineGame.id, user_id: me.id, action: action }),
+    })
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+        if (!data.ok) return;
+        if (action === 'accept' && data.result === 'draw') {
+            // Procesar fin de partida localmente
+            _onlineGame.status = 'draw';
+            stopOnlineGamePolling();
+            updateOnlineBanner();
+            setOnlineActionsLocked(false);
+            game.gameOver = true; stopClock();
+            const eloDelta = recordGameResult('draw');
+            SoundFX.draw(); clearAutoSavedGame();
+            showBoardBanner(`½ TABLAS — Acordadas${formatEloDelta(eloDelta)}`, 'stalemate');
+            setTimeout(function() {
+                showMessage(`Tablas acordadas.${formatEloDelta(eloDelta)}`, 'info', 0);
+                showAnalysisButton();
+            }, 300);
+        } else if (action === 'reject') {
+            showMessage('Has rechazado la oferta de tablas.', 'info', 2000);
+        }
+    })
+    .catch(function() { showMessage('Error al responder la oferta de tablas.', 'warning', 2000); });
+}
+
 function pollOnlineGame() {
     if (!_onlineGame || !_onlineGame.id) return;
     const me = getOnlineUser();
@@ -5750,10 +6028,23 @@ function pollOnlineGame() {
                 syncOnlineClock(data);
             }
 
+            // ── Oferta de tablas del oponente ────────────────────────────
+            const opponentColor = _onlineGame.myColor === 'white' ? 'black' : 'white';
+            if (data.draw_offer === opponentColor && !_drawOfferShown) {
+                _drawOfferShown = true;
+                const opp = _onlineGame.opponent || {};
+                showDrawOfferModal(opp.nick || opp.name || 'Tu rival');
+            } else if (!data.draw_offer) {
+                // La oferta fue cancelada/resuelta: cerrar modal si estaba abierto
+                if (_drawOfferShown) { hideDrawOfferModal(); _drawOfferShown = false; }
+            }
+
             // Estado de la partida
             if (data.status && data.status !== 'active') {
                 _onlineGame.status = data.status;
                 stopOnlineGamePolling();
+                hideDrawOfferModal();
+                _drawOfferShown = false;
                 onOnlineGameEnded(data.status, data.result_reason);
             }
         })
@@ -5923,11 +6214,17 @@ function showAbandonConfirm() {
         document.querySelectorAll('#invite-color-picker .invite-color-btn').forEach(function(btn) {
             btn.addEventListener('click', function() {
                 _inviteSelectedColor = btn.dataset.color;
+                localStorage.setItem('invite_color', _inviteSelectedColor);
                 document.querySelectorAll('#invite-color-picker .invite-color-btn').forEach(function(b) {
                     b.classList.toggle('is-selected', b === btn);
                     b.setAttribute('aria-pressed', b === btn);
                 });
             });
+        });
+
+        const tcSelectEl = document.getElementById('invite-time-select');
+        if (tcSelectEl) tcSelectEl.addEventListener('change', function() {
+            localStorage.setItem('invite_tc', tcSelectEl.value);
         });
 
         document.getElementById('invite-send-btn').addEventListener('click', sendInvite);
@@ -5939,7 +6236,7 @@ function showAbandonConfirm() {
 })();
 
 function updateOnlineButtonTooltip() {
-    const btn = document.getElementById('player-color-btn-online');
+    const btn = document.getElementById('opponent-btn-online');
     if (!btn) return;
     const user = getOnlineUser();
     btn.title = user ? `Online: ${user.name}` : 'Jugar online';
@@ -6170,6 +6467,11 @@ async function signInWithApple() {
             hideLoginModal();
         });
 
+        document.getElementById('login-invite-btn').addEventListener('click', function() {
+            hideLoginModal();
+            showGenericInviteModal();
+        });
+
         document.getElementById('login-play-btn').addEventListener('click', function() {
             hideLoginModal();
             showUsersModal();
@@ -6312,6 +6614,35 @@ function offerDraw() {
         showMessage('Es muy pronto para pedir tablas', 'warning', 2000);
         return;
     }
+
+    // ── Partida online: enviar oferta al oponente vía servidor ───────────
+    if (_onlineGame && _onlineGame.status === 'active') {
+        const me = getOnlineUser();
+        if (!me || IS_LOCAL) {
+            showMessage('Oferta de tablas enviada (simulación)', 'info', 2000);
+            return;
+        }
+        fetch(BASE_PATH + 'api/offer-draw.php', {
+            method: 'POST', headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ game_id: _onlineGame.id, user_id: me.id }),
+        })
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+            if (data.ok) {
+                showMessage('🤝 Oferta de tablas enviada al oponente…', 'info', 3000);
+                // Deshabilitar botón temporalmente para evitar spam
+                ['offer-draw', 'offer-draw-sidebar'].forEach(function(id) {
+                    const el = document.getElementById(id);
+                    if (el) { el.disabled = true; setTimeout(function() { el.disabled = false; }, 10000); }
+                });
+            } else {
+                showMessage('No se pudo enviar la oferta de tablas.', 'warning', 2000);
+            }
+        })
+        .catch(function() { showMessage('Error de conexión al ofrecer tablas.', 'warning', 2000); });
+        return;
+    }
+
     showConfirmDialog('¿Quieres ofrecer tablas?', () => {
         const aiColor = playerColor === 'white' ? 'black' : 'white';
         const aiEval = evaluatePosition(aiColor) / 100;
@@ -6466,17 +6797,40 @@ document.addEventListener('DOMContentLoaded', () => {
             var btn = e.target.closest('.player-color-option');
             if (!btn) return;
             var c = btn.getAttribute('data-color');
-            if (c !== 'white' && c !== 'black' && c !== 'both' && c !== 'online') return;
-            if (c === 'online') {
+            if (c !== 'white' && c !== 'black' && c !== 'random') return;
+            if (playerColorSetting === c) return;
+            playerColorSetting = c;
+            playerColor = c === 'random' ? (Math.random() < 0.5 ? 'white' : 'black') : c;
+            syncPlayerColorUI();
+            renderBoard();
+            renderCoordinateLabels();
+            saveSettings();
+        });
+    }
+
+    var playerOpponentPicker = document.getElementById('player-opponent-picker');
+    if (playerOpponentPicker) {
+        playerOpponentPicker.addEventListener('click', function(e) {
+            var btn = e.target.closest('.player-color-option');
+            if (!btn) return;
+            var m = btn.getAttribute('data-mode');
+            if (m !== 'ai' && m !== 'pvp' && m !== 'online') return;
+            if (m === 'online') {
                 showLoginModal();
                 return;
             }
-            if (playerColor === c) return;
-            playerColor = c;
-            if (playerColor === 'both') {
+            if (gameOpponent === m) return;
+            gameOpponent = m;
+            if (m === 'pvp') {
+                playerColor = 'both';
                 hideVariantsPopup(false);
                 const openingLog = document.getElementById('opening-log');
                 if (openingLog) openingLog.remove();
+            } else {
+                // Restaurar color resuelto desde la preferencia
+                playerColor = playerColorSetting === 'random'
+                    ? (Math.random() < 0.5 ? 'white' : 'black')
+                    : playerColorSetting;
             }
             syncPlayerColorUI();
             renderBoard();
@@ -6659,6 +7013,8 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('puzzle-close-board').addEventListener('click', function() {
         endPuzzleMode();
         playerColor = 'white';
+        playerColorSetting = 'white';
+        gameOpponent = 'ai';
         syncPlayerColorUI();
         startNewGame();
     });
@@ -6721,7 +7077,10 @@ document.addEventListener('DOMContentLoaded', () => {
     applyBoardTheme();
     const autoSavedGame = localStorage.getItem('auto_saved_game');
     const spInit = new URLSearchParams(window.location.search);
-    if (spInit.get('moves')) {
+    if (spInit.has('online')) {
+        startNewGame();
+        applyOnlineFromQueryString();
+    } else if (spInit.get('moves')) {
         startNewGame({ skipInitialAI: true });
         applyMovesFromQueryString();
     } else if (spInit.get('puzzle')) {
@@ -7059,6 +7418,16 @@ function startNewGame(options) {
     if (_onlineGame && (!options || options.fromOnlineStart !== true)) {
         leaveOnlineGame('abort');
     }
+
+    // Resolver color aleatorio si procede (solo en modo IA)
+    if (gameOpponent === 'ai' && playerColorSetting === 'random') {
+        playerColor = Math.random() < 0.5 ? 'white' : 'black';
+        const hidden = document.getElementById('player-color');
+        if (hidden) hidden.value = playerColor;
+    } else if (gameOpponent === 'pvp') {
+        playerColor = 'both';
+    }
+
     shareContext = 'partida';
     hideVariantsPopup(false);
     // Restaurar paneles a posición por defecto (igual que al refrescar la página)
@@ -8536,6 +8905,65 @@ function updateShareButton() {
     if (boardBtn) boardBtn.title = withElo;
     const puzzleShareBtn = document.getElementById('puzzle-share-board');
     if (puzzleShareBtn) puzzleShareBtn.title = withElo;
+}
+
+function shareInviteOnline(colorLabel, timeLabel, colorRaw, tcRaw) {
+    // Codificar parámetros en la URL para que el receptor abra la app preconfigurada
+    let encoded = '';
+    if (colorRaw && tcRaw) {
+        try { encoded = btoa(JSON.stringify({ c: colorRaw, t: tcRaw })); } catch(e) {}
+    }
+    const url = 'https://www.ajedrezia.com/?online=' + encoded;
+    const details = [colorLabel, timeLabel].filter(Boolean).join(' · ');
+    const shareMsg = '¡Te reto a una partida en AjedrezIA!\nPartida online' +
+        (details ? ' · ' + details : '') + '\n\n♟ ' + url;
+    const titleLine = 'Invitar online (+10 ELO)';
+    const gmailSubj = 'AjedrezIA ♟';
+    const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+    const mailtoUrl = isMobile
+        ? 'mailto:?subject=' + encodeURIComponent(gmailSubj) + '&body=' + encodeURIComponent(shareMsg)
+        : 'https://mail.google.com/mail/?view=cm&fs=1&su=' + encodeURIComponent(gmailSubj) + '&body=' + encodeURIComponent(shareMsg);
+    const eloGrant = "if(window.grantEloOnShareComplete)window.grantEloOnShareComplete();";
+    const msgAttr = shareMsg.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    const waHref  = 'https://wa.me/?text=' + encodeURIComponent(shareMsg);
+    const twHref  = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(shareMsg);
+    const fbShareUrl  = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url);
+    const fbMsgAttr   = shareMsg.replace(/\\/g,'\\\\').replace(/'/g,"\\'").replace(/\n/g,'\\n');
+    const gmailHref   = mailtoUrl.replace(/&/g,'&amp;');
+
+    const htmlMsg = `
+        <strong>${titleLine}</strong>
+        <button type="button" class="share-msg-btn" data-msg="${msgAttr}" onclick="copyShareMsg(this)">
+            <span class="share-msg-text">${msgAttr.replace(/\n/g,'<br>')}</span>
+        </button>
+        <div class="share-apps-row">
+            <a href="${waHref}" class="share-app-item" target="_blank" rel="noopener noreferrer" onclick="${eloGrant}">
+                <span class="share-app-circle share-app-circle--whatsapp">
+                    <svg viewBox="0 0 24 24" width="28" height="28" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                </span>
+                <span class="share-app-label">WhatsApp</span>
+            </a>
+            <a href="#" class="share-app-item" onclick="window.shareFacebookClick('${fbShareUrl}','${fbMsgAttr}');return false;">
+                <span class="share-app-circle share-app-circle--facebook">
+                    <svg viewBox="0 0 24 24" width="26" height="26" fill="white"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                </span>
+                <span class="share-app-label">Facebook</span>
+            </a>
+            <a href="${gmailHref}" class="share-app-item" target="_blank" rel="noopener noreferrer" onclick="${eloGrant}">
+                <span class="share-app-circle share-app-circle--gmail">
+                    <svg viewBox="0 0 24 24" width="27" height="27" fill="white"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                </span>
+                <span class="share-app-label">Correo</span>
+            </a>
+            <a href="${twHref}" class="share-app-item" target="_blank" rel="noopener noreferrer" onclick="${eloGrant}">
+                <span class="share-app-circle share-app-circle--twitter">
+                    <svg viewBox="0 0 24 24" width="22" height="22" fill="white"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.845L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                </span>
+                <span class="share-app-label">Twitter/X</span>
+            </a>
+        </div>
+        `;
+    showMessage(htmlMsg, 'info', 0);
 }
 
 function shareContent() {
