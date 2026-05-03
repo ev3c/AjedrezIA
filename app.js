@@ -2544,48 +2544,103 @@ function applyOnlineFromQueryString() {
 
     const colorRaw   = inviteData && inviteData.c ? inviteData.c : 'random';
     const tcRaw      = inviteData && inviteData.t ? inviteData.t : '5+0';
+    const inviterId  = inviteData && inviteData.i ? String(inviteData.i) : '';
+    const inviterNick= inviteData && inviteData.n ? String(inviteData.n) : '';
+    const inviterElo = inviteData && inviteData.e ? parseInt(inviteData.e, 10) : 0;
     // El receptor juega el color opuesto al invitante (o random si fue random)
     const myColorRaw = colorRaw === 'white' ? 'black' : colorRaw === 'black' ? 'white' : 'random';
     const colorLabel = { white: 'Blancas ♔', black: 'Negras ♚', random: 'Aleatorio 🎲' }[colorRaw] || '';
     const myColorLabel = { white: 'Blancas ♔', black: 'Negras ♚', random: 'Aleatorio 🎲' }[myColorRaw] || '';
     const tcLabel = timeLabelFor(tcRaw);
 
-    // Mostrar modal de bienvenida con los detalles de la invitación
-    function launchOnlineInvite() {
-        // Preconfigurar el modal de invitación con los valores del enlace
-        _inviteGenericMode   = false;   // ahora buscamos un jugador real
+    // Fallback: abrir el modal de jugadores preconfigurado (flujo anterior)
+    function launchOnlineInviteGeneric() {
+        _inviteGenericMode   = false;
         _inviteSelectedColor = myColorRaw;
-        // Preseleccionar color en el picker
         document.querySelectorAll('#invite-color-picker .invite-color-btn').forEach(function(b) {
             b.classList.toggle('is-selected', b.dataset.color === myColorRaw);
             b.setAttribute('aria-pressed', b.dataset.color === myColorRaw);
         });
-        // Preseleccionar tiempo en el select
         const tcSelect = document.getElementById('invite-time-select');
         if (tcSelect) tcSelect.value = tcRaw;
-        // Abrir el modal de usuarios para que elija al oponente
         showUsersModal();
     }
 
+    // Caso nuevo: el enlace identifica al invitador. Si está online, mostramos
+    // directamente el modal "Te reto a una partida online" con sus datos.
+    function launchDirectedInvite() {
+        // No retarse a uno mismo
+        const self = getOnlineUser();
+        if (self && self.id === inviterId) {
+            showMessage('Este enlace lo enviaste tú. Compártelo con otro jugador.', 'info', 4000);
+            return;
+        }
+
+        if (IS_LOCAL) {
+            // Sin backend: simulamos que el invitador está online y abrimos la modal
+            showLinkInviteModal({
+                c: colorRaw, t: tcRaw,
+                i: inviterId, n: inviterNick, e: inviterElo,
+            }, { id: inviterId, nick: inviterNick, elo: inviterElo, online: true });
+            return;
+        }
+
+        fetch(BASE_PATH + 'api/get-users.php')
+            .then(function(r) { return r.json(); })
+            .then(function(data) {
+                const list = (data && data.users) ? data.users : [];
+                const inviter = list.find(function(u) { return String(u.id) === inviterId; });
+                if (inviter && inviter.online) {
+                    showLinkInviteModal({
+                        c: colorRaw, t: tcRaw,
+                        i: inviterId, n: inviter.nick || inviterNick,
+                        e: inviter.elo || inviterElo,
+                    }, inviter);
+                } else {
+                    const niceName = (inviter && inviter.nick) || inviterNick || 'El invitador';
+                    showMessage(
+                        `⚔️ <strong>${escHtml(niceName)}</strong> no está conectado ahora.<br>` +
+                        `Puedes elegir otro oponente de la lista.`,
+                        'info', 0, launchOnlineInviteGeneric
+                    );
+                }
+            })
+            .catch(function() { launchOnlineInviteGeneric(); });
+    }
+
     const user = getOnlineUser();
-    const detailHtml = colorLabel
-        ? `<br><small style="color:#6b7280;">Invitante: ${colorLabel} · ${tcLabel} → Tú jugarías: ${myColorLabel}</small>`
+    const inviterLine = inviterNick
+        ? `<br><small style="color:#6b7280;">De: <strong>${escHtml(inviterNick)}</strong>${inviterElo ? ' (ELO ' + inviterElo + ')' : ''}</small>`
         : '';
+    const detailHtml = colorLabel
+        ? `${inviterLine}<br><small style="color:#6b7280;">Invitante: ${colorLabel} · ${tcLabel} → Tú jugarías: ${myColorLabel}</small>`
+        : inviterLine;
 
     if (user) {
-        // Ya está logueado → mostrar mensaje y abrir directamente
-        showMessage(
-            `⚔️ <strong>¡Invitación a partida online!</strong>${detailHtml}<br>Elige un oponente para jugar.`,
-            'info', 0, launchOnlineInvite
-        );
+        if (inviterId) {
+            // Enlace dirigido: ir directo a comprobar si el invitador está online
+            showMessage(
+                `⚔️ <strong>¡Invitación a partida online!</strong>${detailHtml}<br>Buscando al invitador…`,
+                'info', 3000, launchDirectedInvite
+            );
+        } else {
+            // Enlace antiguo sin ID: flujo anterior (elegir oponente)
+            showMessage(
+                `⚔️ <strong>¡Invitación a partida online!</strong>${detailHtml}<br>Elige un oponente para jugar.`,
+                'info', 0, launchOnlineInviteGeneric
+            );
+        }
     } else {
         // No logueado → mostrar login; al entrar, lanzar el flujo
         showMessage(
             `⚔️ <strong>¡Invitación a partida online!</strong>${detailHtml}<br>Inicia sesión para jugar.`,
             'info', 0,
             function() {
-                // Guardar parámetros para recuperarlos tras el login
-                sessionStorage.setItem('_pendingOnline', JSON.stringify({ c: colorRaw, t: tcRaw }));
+                // Guardar parámetros (incluido el invitador) para recuperarlos tras el login
+                sessionStorage.setItem('_pendingOnline', JSON.stringify({
+                    c: colorRaw, t: tcRaw,
+                    i: inviterId, n: inviterNick, e: inviterElo,
+                }));
                 showLoginModal();
             }
         );
@@ -5003,6 +5058,19 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '3.0.4': [
+        'Invitaciones online por enlace: el URL ?online= ahora incluye también el ID, nick y ELO del invitador',
+        'Al abrir un enlace ?online=, si el invitador está conectado se muestra directamente la modal "Te reto a una partida online" con sus datos — sin tener que buscarlo en la lista',
+        'Si el invitador está offline, se informa con su nick y se abre la lista de jugadores como alternativa',
+        'El flujo se retoma correctamente tras iniciar sesión: si el usuario tuvo que loguearse al abrir el enlace, al entrar se resuelve al invitador automáticamente',
+        'Online: corrección del error "Error al cargar los jugadores" para quienes entraban por ajedrezia.com sin www (CORS ampliado a todos los orígenes del dominio)',
+        'Online: save-user / heartbeat / invitaciones funcionan ahora también desde ajedrezia.com sin www, evitando que cuentas de Google quedaran sin registrarse en la BD',
+        '.htaccess canónico: redirección 301 de ajedrezia.com → www.ajedrezia.com y forzado de HTTPS para unificar el origen',
+        'Compatibilidad con navegadores antiguos (Mi Browser Xiaomi, Samsung Internet viejo, etc.): fallback explícito top/right/bottom/left para inset:0 y 100vh antes de 100dvh — los modales de login, jugadores y variantes ya se ven correctamente',
+        'Login: detección automática de navegadores no compatibles con Google OAuth (Mi Browser, WebView, apps internas de Facebook/Instagram/TikTok/LINE/Twitter/Snapchat, Samsung Internet antiguo, UC, QQ, Baidu, Oppo, Vivo, Huawei, Meizu)',
+        'Login: cuando se detecta un navegador no compatible, el modal muestra un aviso con botones "Abrir en Chrome" (intent de Android) y "Copiar enlace"',
+        'Login: timeout de 45 s y error_callback en Google Sign-In — el spinner "Conectando…" ya no se queda colgado si el popup no responde',
+    ],
     '3.0.3': [
         'Configuración: "Juegas con" (Blancas / Negras / Aleatorio 🎲) y "Juegas contra" (IA 💻 / Persona vs persona 🧑 / Online 🌐) como selectores separados',
         'Color aleatorio: al iniciar partida se resuelve aleatoriamente entre blancas y negras',
@@ -5293,11 +5361,15 @@ function setOnlineUser(user) {
         sessionStorage.removeItem('_pendingOnline');
         try {
             const inv = JSON.parse(pending);
-            const colorRaw  = inv.c || 'random';
-            const tcRaw     = inv.t || '5+0';
-            const myColor   = colorRaw === 'white' ? 'black' : colorRaw === 'black' ? 'white' : 'random';
-            const myLabel   = { white: 'Blancas ♔', black: 'Negras ♚', random: 'Aleatorio 🎲' }[myColor] || '';
-            const tcLabel   = timeLabelFor(tcRaw);
+            const colorRaw   = inv.c || 'random';
+            const tcRaw      = inv.t || '5+0';
+            const inviterId  = inv.i ? String(inv.i) : '';
+            const inviterNick= inv.n ? String(inv.n) : '';
+            const inviterElo = inv.e ? parseInt(inv.e, 10) : 0;
+            const myColor    = colorRaw === 'white' ? 'black' : colorRaw === 'black' ? 'white' : 'random';
+            const myLabel    = { white: 'Blancas ♔', black: 'Negras ♚', random: 'Aleatorio 🎲' }[myColor] || '';
+            const tcLabel    = timeLabelFor(tcRaw);
+
             setTimeout(function() {
                 document.querySelectorAll('#invite-color-picker .invite-color-btn').forEach(function(b) {
                     b.classList.toggle('is-selected', b.dataset.color === myColor);
@@ -5306,15 +5378,70 @@ function setOnlineUser(user) {
                 _inviteSelectedColor = myColor;
                 const tcSelect = document.getElementById('invite-time-select');
                 if (tcSelect) tcSelect.value = tcRaw;
-                showMessage(
-                    `⚔️ <strong>¡Invitación a partida online!</strong><br>` +
-                    `<small style="color:#6b7280;">Tú jugarías: ${myLabel} · ${tcLabel}</small><br>` +
-                    `Elige un oponente para jugar.`,
-                    'info', 0, showUsersModal
-                );
+
+                if (inviterId) {
+                    // Enlace dirigido: al logueado tras arrancar, resolver invitador online
+                    const inviterLine = inviterNick
+                        ? `<small style="color:#6b7280;">De: <strong>${escHtml(inviterNick)}</strong>${inviterElo ? ' (ELO ' + inviterElo + ')' : ''}</small><br>`
+                        : '';
+                    showMessage(
+                        `⚔️ <strong>¡Invitación a partida online!</strong><br>` +
+                        inviterLine +
+                        `<small style="color:#6b7280;">Tú jugarías: ${myLabel} · ${tcLabel}</small><br>` +
+                        `Buscando al invitador…`,
+                        'info', 3000,
+                        function() { resolveDirectedInviteFromLink(inviterId, inviterNick, inviterElo, colorRaw, tcRaw); }
+                    );
+                } else {
+                    showMessage(
+                        `⚔️ <strong>¡Invitación a partida online!</strong><br>` +
+                        `<small style="color:#6b7280;">Tú jugarías: ${myLabel} · ${tcLabel}</small><br>` +
+                        `Elige un oponente para jugar.`,
+                        'info', 0, showUsersModal
+                    );
+                }
             }, 600);
         } catch(e) {}
     }
+}
+
+// Resuelve si el invitador del enlace está online y, si lo está, muestra la
+// modal "Te reto a una partida online". Se usa tras el login, cuando ya
+// tenemos sesión iniciada.
+function resolveDirectedInviteFromLink(inviterId, inviterNick, inviterElo, colorRaw, tcRaw) {
+    const self = getOnlineUser();
+    if (self && self.id === inviterId) {
+        showMessage('Este enlace lo enviaste tú. Compártelo con otro jugador.', 'info', 4000);
+        return;
+    }
+    if (IS_LOCAL) {
+        showLinkInviteModal(
+            { c: colorRaw, t: tcRaw, i: inviterId, n: inviterNick, e: inviterElo },
+            { id: inviterId, nick: inviterNick, elo: inviterElo, online: true }
+        );
+        return;
+    }
+    fetch(BASE_PATH + 'api/get-users.php')
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+            const list = (data && data.users) ? data.users : [];
+            const inviter = list.find(function(u) { return String(u.id) === inviterId; });
+            if (inviter && inviter.online) {
+                showLinkInviteModal(
+                    { c: colorRaw, t: tcRaw, i: inviterId,
+                      n: inviter.nick || inviterNick, e: inviter.elo || inviterElo },
+                    inviter
+                );
+            } else {
+                const niceName = (inviter && inviter.nick) || inviterNick || 'El invitador';
+                showMessage(
+                    `⚔️ <strong>${escHtml(niceName)}</strong> no está conectado ahora.<br>` +
+                    `Puedes elegir otro oponente de la lista.`,
+                    'info', 0, showUsersModal
+                );
+            }
+        })
+        .catch(function() { showUsersModal(); });
 }
 
 function saveUserToDB(user, isFirstLoginLocal) {
@@ -5776,6 +5903,31 @@ function showIncomingInvite(invite) {
     document.getElementById('invite-incoming-overlay').classList.add('is-open');
 }
 
+// Muestra la modal "Te reto a una partida online" a partir de un enlace ?online=,
+// usando los datos del invitador recién comprobados como online. Al aceptar,
+// será el receptor quien envíe una invitación real (B→A) mediante send-invite.php.
+function showLinkInviteModal(linkData, inviterUser) {
+    const fromNick  = inviterUser.nick || linkData.n || 'Jugador';
+    const fromElo   = inviterUser.elo || linkData.e || 1200;
+    const fromColor = linkData.c || 'random';
+    const tc        = linkData.t || '5+0';
+    _currentIncoming = {
+        _viaLink:     true,
+        from_id:      inviterUser.id || linkData.i,
+        from_nick:    fromNick,
+        from_elo:     fromElo,
+        from_color:   fromColor,
+        time_control: tc,
+        time_label:   timeLabelFor(tc),
+    };
+    const myColor = invertColor(fromColor);
+    document.getElementById('invite-incoming-from').textContent  = fromNick;
+    document.getElementById('invite-incoming-elo').textContent   = 'ELO ' + fromElo;
+    document.getElementById('invite-incoming-color').textContent = myColor === 'white' ? 'Blancas' : (myColor === 'black' ? 'Negras' : 'Aleatorio');
+    document.getElementById('invite-incoming-time').textContent  = _currentIncoming.time_label;
+    document.getElementById('invite-incoming-overlay').classList.add('is-open');
+}
+
 function hideIncomingInvite() {
     document.getElementById('invite-incoming-overlay').classList.remove('is-open');
     _currentIncoming = null;
@@ -5786,6 +5938,66 @@ function respondInvite(action) {
     if (!invite) { hideIncomingInvite(); return; }
     const me = getOnlineUser();
 
+    // Caso sintético: la "invitación entrante" viene de un enlace ?online=
+    // y no existe en BD. Al aceptar, somos nosotros (B) quienes enviamos la
+    // invitación real al invitador original (A). Al rechazar, sólo cerramos.
+    if (invite._viaLink) {
+        hideIncomingInvite();
+        if (action !== 'accept') {
+            showMessage('Invitación rechazada.', 'info', 2500);
+            return;
+        }
+        if (!me) {
+            showMessage('Debes iniciar sesión para aceptar.', 'warning', 3000);
+            showLoginModal();
+            return;
+        }
+
+        // El color que vamos a jugar nosotros es el opuesto al del invitador original
+        const myColor = invertColor(invite.from_color);
+        _inviteTarget        = { id: invite.from_id, nick: invite.from_nick, name: invite.from_nick, elo: invite.from_elo };
+        _inviteSelectedColor = myColor;
+        const tc = invite.time_control;
+
+        const tcSelect = document.getElementById('invite-time-select');
+        if (tcSelect) tcSelect.value = tc;
+
+        if (IS_LOCAL) {
+            showInviteWaitingModal(invite.from_nick, invite.time_label);
+            setTimeout(function() {
+                hideInviteWaitingModal();
+                startOnlineGame(_inviteTarget, myColor, tc, null);
+            }, 1500);
+            return;
+        }
+
+        const payload = {
+            from_id:      me.id,
+            from_nick:    (me.email || me.name || 'Usuario').split('@')[0],
+            from_elo:     (typeof stats !== 'undefined' && stats.elo) ? stats.elo : 1200,
+            to_id:        invite.from_id,
+            from_color:   myColor,
+            time_control: tc,
+            time_label:   timeLabelFor(tc),
+        };
+        fetch(BASE_PATH + 'api/send-invite.php', {
+            method:'POST', headers:{'Content-Type':'application/json'},
+            body: JSON.stringify(payload),
+        })
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+            if (!data.ok) throw new Error(data.error || 'Error al enviar');
+            _outgoingInviteId = data.invite_id;
+            showInviteWaitingModal(invite.from_nick, payload.time_label);
+            startOutgoingPolling();
+        })
+        .catch(function() {
+            showMessage('⚠️ No se pudo enviar la invitación al invitador.', 'warning', 3500);
+        });
+        return;
+    }
+
+    // Flujo normal: invitación registrada en BD (recibida por polling)
     const payload = {
         invite_id:     invite.id,
         action:        action,
@@ -6322,6 +6534,9 @@ function showLoginModal() {
     if (!overlay) return;
     updateLoginModalUI();
     overlay.classList.add('is-open');
+    // En navegadores no compatibles (Mi Browser antiguo, WebViews, apps in-app)
+    // Google OAuth no funcionará: avisamos al usuario antes de que pulse nada.
+    showUnsupportedBrowserWarningIfNeeded();
     const closeBtn = document.getElementById('login-modal-close');
     if (closeBtn) closeBtn.focus();
 }
@@ -6332,21 +6547,160 @@ function hideLoginModal() {
     loginSetLoading(false);
 }
 
+// ── Detección de navegadores incompatibles ────────────────────────────────
+// Google bloquea OAuth 2.0 en navegadores embebidos (disallowed_useragent)
+// y los Mi Browser antiguos de Xiaomi no soportan ni siquiera el flujo básico.
+// Devuelve un objeto { unsupported: bool, name: string } o null si todo OK.
+function detectUnsupportedBrowser() {
+    const ua = (navigator.userAgent || '').toLowerCase();
+    const rules = [
+        { re: /miuibrowser|xiaomi/i,                 name: 'Navegador Xiaomi (Mi Browser)' },
+        { re: /mzbrowser/i,                          name: 'Navegador Meizu' },
+        { re: /heytapbrowser|oppobrowser/i,          name: 'Navegador Oppo/HeyTap' },
+        { re: /vivobrowser/i,                        name: 'Navegador Vivo' },
+        { re: /huaweibrowser/i,                      name: 'Navegador Huawei' },
+        { re: /samsungbrowser\/([1-9]|1[0-3])\./i,   name: 'Samsung Internet (versión antigua)' },
+        { re: /ucbrowser|ucweb/i,                    name: 'UC Browser' },
+        { re: /qqbrowser/i,                          name: 'QQ Browser' },
+        { re: /baidubrowser|baiduboxapp/i,           name: 'Baidu Browser' },
+        { re: /fb_iab|fban|fbav|fbios/i,             name: 'navegador interno de Facebook' },
+        { re: /instagram/i,                          name: 'navegador interno de Instagram' },
+        { re: /line\//i,                             name: 'navegador interno de LINE' },
+        { re: /musical_ly|bytedance|tiktok/i,        name: 'navegador interno de TikTok' },
+        { re: /twitter/i,                            name: 'navegador interno de Twitter' },
+        { re: /snapchat/i,                           name: 'navegador interno de Snapchat' },
+        { re: /wv\)/i,                               name: 'WebView de Android' },
+    ];
+    for (let i = 0; i < rules.length; i++) {
+        if (rules[i].re.test(ua)) return { unsupported: true, name: rules[i].name };
+    }
+    return null;
+}
+
+// Abre la URL actual en Chrome (Android) o copia la URL como fallback.
+function openInExternalBrowser() {
+    const currentUrl = window.location.href;
+    const ua = navigator.userAgent || '';
+    try {
+        if (/android/i.test(ua)) {
+            // Construir un intent:// que fuerce a Chrome. Si Chrome no está instalado,
+            // el navegador resolverá el fallback https normal.
+            const scheme = window.location.protocol === 'https:' ? 'https' : 'http';
+            const host   = window.location.host + window.location.pathname + window.location.search + window.location.hash;
+            const intent = 'intent://' + host
+                         + '#Intent;scheme=' + scheme
+                         + ';package=com.android.chrome'
+                         + ';S.browser_fallback_url=' + encodeURIComponent(currentUrl)
+                         + ';end';
+            window.location.href = intent;
+            return;
+        }
+    } catch (e) { /* noop */ }
+    // Fallback universal: copiar la URL y avisar
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(currentUrl).then(function() {
+            alert('Enlace copiado. Pégalo en Chrome, Firefox o Safari para iniciar sesión.');
+        }).catch(function() {
+            window.prompt('Copia este enlace y ábrelo en Chrome, Firefox o Safari:', currentUrl);
+        });
+    } else {
+        window.prompt('Copia este enlace y ábrelo en Chrome, Firefox o Safari:', currentUrl);
+    }
+}
+
+// Inserta (o retira) el aviso de navegador incompatible dentro del modal.
+function showUnsupportedBrowserWarningIfNeeded() {
+    const detected = detectUnsupportedBrowser();
+    const container = document.getElementById('login-view-out');
+    if (!container) return;
+
+    let warn = document.getElementById('login-unsupported-warning');
+
+    if (!detected) {
+        if (warn) warn.remove();
+        return;
+    }
+
+    if (!warn) {
+        warn = document.createElement('div');
+        warn.id = 'login-unsupported-warning';
+        warn.className = 'login-modal-error';
+        warn.style.display        = 'block';
+        warn.style.textAlign      = 'left';
+        warn.style.background     = '#fff7ed';
+        warn.style.color          = '#9a3412';
+        warn.style.border         = '1px solid #fdba74';
+        warn.style.borderRadius   = '10px';
+        warn.style.padding        = '12px 14px';
+        warn.style.margin         = '0 0 16px';
+        warn.style.fontSize       = '0.82rem';
+        warn.style.lineHeight     = '1.45';
+        warn.innerHTML =
+            '<strong>⚠️ Navegador no compatible</strong><br>' +
+            'Estás usando <em>' + detected.name + '</em>, que no permite iniciar sesión con Google. ' +
+            'Abre AjedrezIA en Chrome, Firefox o Safari para poder conectarte.' +
+            '<div style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">' +
+                '<button type="button" id="login-open-chrome-btn" class="login-btn" ' +
+                    'style="flex:1 1 auto; min-width:140px; padding:9px 12px; font-size:0.85rem; ' +
+                    'background:#1f2937; color:#fff;">Abrir en Chrome</button>' +
+                '<button type="button" id="login-copy-url-btn" class="login-btn" ' +
+                    'style="flex:1 1 auto; min-width:140px; padding:9px 12px; font-size:0.85rem; ' +
+                    'background:#e5e7eb; color:#1f2937;">Copiar enlace</button>' +
+            '</div>';
+        const errEl = document.getElementById('login-modal-error');
+        if (errEl) container.insertBefore(warn, errEl);
+        else container.appendChild(warn);
+
+        const openBtn = document.getElementById('login-open-chrome-btn');
+        const copyBtn = document.getElementById('login-copy-url-btn');
+        if (openBtn) openBtn.addEventListener('click', openInExternalBrowser);
+        if (copyBtn) copyBtn.addEventListener('click', function() {
+            const u = window.location.href;
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(u).then(function() {
+                    copyBtn.textContent = '✔ Copiado';
+                    setTimeout(function() { copyBtn.textContent = 'Copiar enlace'; }, 1800);
+                }).catch(function() { window.prompt('Copia el enlace:', u); });
+            } else {
+                window.prompt('Copia el enlace:', u);
+            }
+        });
+    }
+}
+
 // ── Flujo Google OAuth ─────────────────────────────────────────────────────
 
 function signInWithGoogle() {
+    // Si detectamos un navegador incompatible, evitamos intentar el flujo OAuth
+    // (acabaría en "Cuenta desactivada" o en un spinner infinito) y mostramos
+    // el aviso con la opción de abrir en Chrome.
+    const bad = detectUnsupportedBrowser();
+    if (bad) {
+        loginSetError('');
+        showUnsupportedBrowserWarningIfNeeded();
+        return;
+    }
     if (typeof google === 'undefined' || !google.accounts || !google.accounts.oauth2) {
-        loginSetError('No se pudo cargar Google Sign-In. Comprueba tu conexión a internet.');
+        loginSetError('No se pudo cargar Google Sign-In. Comprueba tu conexión a internet o usa otro navegador.');
         return;
     }
     loginSetError('');
     loginSetLoading(true);
+
+    // Timeout de seguridad: si el popup queda colgado (típico en navegadores
+    // embebidos que Google rechaza silenciosamente), liberamos la UI tras 45s.
+    const safetyTimeout = setTimeout(function() {
+        loginSetLoading(false);
+        loginSetError('No hemos recibido respuesta de Google. Si usas un navegador antiguo o dentro de una app, abre esta web en Chrome, Firefox o Safari.');
+        showUnsupportedBrowserWarningIfNeeded();
+    }, 45000);
 
     const tokenClient = google.accounts.oauth2.initTokenClient({
         client_id: GOOGLE_CLIENT_ID,
         scope: 'openid email profile',
         prompt: 'select_account',
         callback: async function(response) {
+            clearTimeout(safetyTimeout);
             if (response.error) {
                 loginSetLoading(false);
                 if (response.error !== 'access_denied') {
@@ -6377,9 +6731,27 @@ function signInWithGoogle() {
                 loginSetError(err.message || 'Error al obtener el perfil.');
             }
         },
+        error_callback: function(err) {
+            clearTimeout(safetyTimeout);
+            loginSetLoading(false);
+            // El "popup_failed_to_open" ocurre típicamente en navegadores in-app y Mi Browser antiguo.
+            if (err && (err.type === 'popup_failed_to_open' || err.type === 'popup_closed')) {
+                loginSetError('No se pudo abrir el inicio de sesión de Google. Abre AjedrezIA en Chrome, Firefox o Safari.');
+                showUnsupportedBrowserWarningIfNeeded();
+            } else if (err && err.message) {
+                loginSetError('Error de Google: ' + err.message);
+            }
+        },
     });
 
-    tokenClient.requestAccessToken();
+    try {
+        tokenClient.requestAccessToken();
+    } catch (e) {
+        clearTimeout(safetyTimeout);
+        loginSetLoading(false);
+        loginSetError('No se pudo iniciar el flujo de Google. Abre AjedrezIA en Chrome, Firefox o Safari.');
+        showUnsupportedBrowserWarningIfNeeded();
+    }
 }
 
 // ── Flujo Apple Sign In ────────────────────────────────────────────────────
@@ -8908,10 +9280,20 @@ function updateShareButton() {
 }
 
 function shareInviteOnline(colorLabel, timeLabel, colorRaw, tcRaw) {
-    // Codificar parámetros en la URL para que el receptor abra la app preconfigurada
+    // Codificar parámetros en la URL para que el receptor abra la app preconfigurada.
+    // Si el invitante está logueado, incluimos su id/nick/elo para que al abrir el
+    // enlace, si sigue online, el receptor vea directamente la modal "Te reto a
+    // una partida online" con sus datos (sin tener que buscarlo en la lista).
     let encoded = '';
     if (colorRaw && tcRaw) {
-        try { encoded = btoa(JSON.stringify({ c: colorRaw, t: tcRaw })); } catch(e) {}
+        const payloadObj = { c: colorRaw, t: tcRaw };
+        const me = getOnlineUser();
+        if (me && me.id) {
+            payloadObj.i = me.id;
+            payloadObj.n = (me.email ? me.email.split('@')[0] : (me.name || 'Jugador'));
+            payloadObj.e = (typeof stats !== 'undefined' && stats.elo) ? stats.elo : 1200;
+        }
+        try { encoded = btoa(JSON.stringify(payloadObj)); } catch(e) {}
     }
     const url = 'https://www.ajedrezia.com/?online=' + encoded;
     const details = [colorLabel, timeLabel].filter(Boolean).join(' · ');

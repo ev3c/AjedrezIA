@@ -1,0 +1,26 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  AjedrezIA — Reglas de origen canónico
+# ─────────────────────────────────────────────────────────────────────────────
+#  El sitio debe servirse SIEMPRE desde https://www.ajedrezia.com/ para que
+#  tanto las peticiones fetch() a /api/*.php como el login con Google OAuth
+#  funcionen (ambos están configurados para ese origen canónico).
+#
+#  Antes de esto, los usuarios que entraban por https://ajedrezia.com (sin www)
+#  recibían el HTML pero todas las llamadas cross-origin a la API caían por
+#  CORS, mostrando "Error al cargar los jugadores" y fallando el login.
+# ─────────────────────────────────────────────────────────────────────────────
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # 1) Forzar HTTPS (por si algún cliente viejo entra por http)
+    RewriteCond %{HTTPS} !=on
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+    # 2) Forzar www: ajedrezia.com → www.ajedrezia.com
+    RewriteCond %{HTTP_HOST} ^ajedrezia\.com$ [NC]
+    RewriteRule ^(.*)$ https://www.ajedrezia.com/$1 [R=301,L]
+</IfModule>
+
+# Asegurar UTF-8 por defecto
+AddDefaultCharset UTF-8

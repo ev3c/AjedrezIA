@@ -1,9 +1,20 @@
 <?php
 // Helpers de DB compartidos para los endpoints de invitaciones / online
 function ai_cors() {
-    $allowedOrigins = ['https://www.ajedrezia.com', 'http://localhost:8000', 'http://127.0.0.1:8000'];
+    // Aceptamos el dominio con y sin www, y http/https (por si el usuario llega
+    // desde http:// antes de que el HSTS redirija). También incluimos localhost
+    // para pruebas locales desde el servidor integrado.
+    $allowedOrigins = [
+        'https://www.ajedrezia.com',
+        'https://ajedrezia.com',
+        'http://www.ajedrezia.com',
+        'http://ajedrezia.com',
+        'http://localhost:8000',
+        'http://127.0.0.1:8000',
+    ];
     $origin = $_SERVER['HTTP_ORIGIN'] ?? '';
     header('Access-Control-Allow-Origin: ' . (in_array($origin, $allowedOrigins, true) ? $origin : 'https://www.ajedrezia.com'));
+    header('Vary: Origin');
     header('Access-Control-Allow-Methods: GET, POST, OPTIONS');
     header('Access-Control-Allow-Headers: Content-Type');
     header('Content-Type: application/json; charset=utf-8');

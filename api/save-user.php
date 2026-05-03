@@ -1,9 +1,17 @@
 <?php
 header('Content-Type: application/json; charset=utf-8');
 
-$allowedOrigins = ['https://www.ajedrezia.com', 'http://localhost:8000', 'http://127.0.0.1:8000'];
+$allowedOrigins = [
+    'https://www.ajedrezia.com',
+    'https://ajedrezia.com',
+    'http://www.ajedrezia.com',
+    'http://ajedrezia.com',
+    'http://localhost:8000',
+    'http://127.0.0.1:8000',
+];
 $origin = $_SERVER['HTTP_ORIGIN'] ?? '';
 header('Access-Control-Allow-Origin: ' . (in_array($origin, $allowedOrigins, true) ? $origin : 'https://www.ajedrezia.com'));
+header('Vary: Origin');
 header('Access-Control-Allow-Methods: POST, OPTIONS');
 header('Access-Control-Allow-Headers: Content-Type');
 
