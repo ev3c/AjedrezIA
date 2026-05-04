@@ -444,15 +444,9 @@ header h1 {
 /* Ocultar elementos del juego mientras se está en modo problema */
 body.puzzle-mode-active #captured-below,
 body.puzzle-mode-active .board-action-buttons,
-body.puzzle-mode-active .move-navigator {
+body.puzzle-mode-active .move-navigator,
+body.puzzle-mode-active .mini-clock {
     display: none !important;
-}
-
-/* En móvil ocultar también los relojes en modo problema */
-@media (max-width: 768px) {
-    body.puzzle-mode-active .mini-clock {
-        display: none !important;
-    }
 }
 
 .puzzle-solved {
@@ -1343,9 +1337,9 @@ body.puzzle-mode-active .move-navigator {
     display: none;
 }
 
-/* Mini-reloj compacto (visible solo en responsive) */
+/* Mini-reloj compacto bajo el tablero (visible en PC y en responsive) */
 .mini-clock {
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -2195,9 +2189,9 @@ body.puzzle-mode-active .move-navigator {
 .share-apps-row {
     display: flex;
     flex-direction: row;
-    gap: 18px;
+    gap: 4px;
     overflow-x: auto;
-    padding: 14px 8px 6px;
+    padding: 14px 4px 6px;
     justify-content: center;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
@@ -2215,8 +2209,8 @@ body.puzzle-mode-active .move-navigator {
     cursor: pointer;
     background: none;
     border: none;
-    padding: 2px 6px;
-    width: 76px;
+    padding: 2px 2px;
+    width: 64px;
     -webkit-tap-highlight-color: transparent;
     outline: none;
 }
@@ -3373,9 +3367,8 @@ body.puzzle-mode-active .move-navigator {
         height: 34px;
     }
 
-    /* Mini-reloj visible en responsive */
+    /* Mini-reloj en responsive (ya es display:flex por defecto) */
     .mini-clock {
-        display: flex;
         margin: 0 auto;
     }
 
@@ -4249,5 +4242,189 @@ body.puzzle-mode-active .move-navigator {
 .login-btn-danger:hover {
     box-shadow: 0 6px 20px rgba(239,68,68,0.5);
     opacity: 0.95;
+}
+
+/* ── Chat de partida online (sidebar derecha, sólo modo PC) ─────────── */
+.online-chat-panel .panel-toggle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.online-chat-opponent {
+    font-size: 0.78rem;
+    font-weight: 500;
+    color: #6b7280;
+    margin-left: 2px;
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex: 1 1 auto;
+}
+.online-chat-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 20px;
+    height: 20px;
+    padding: 0 6px;
+    border-radius: 10px;
+    background: #ef4444;
+    color: #fff;
+    font-size: 0.72rem;
+    font-weight: 700;
+    line-height: 1;
+    animation: chatBadgePulse 1.2s ease-in-out infinite;
+}
+@keyframes chatBadgePulse {
+    0%, 100% { transform: scale(1); }
+    50%      { transform: scale(1.12); }
+}
+.online-chat-body {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 10px;
+}
+.online-chat-messages {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    max-height: 300px;
+    min-height: 140px;
+    overflow-y: auto;
+    padding: 6px 4px;
+    background: #f9fafb;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    scroll-behavior: smooth;
+}
+.online-chat-messages::-webkit-scrollbar { width: 6px; }
+.online-chat-messages::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 3px; }
+
+.online-chat-empty {
+    text-align: center;
+    color: #9ca3af;
+    font-size: 0.82rem;
+    padding: 14px 6px;
+    line-height: 1.45;
+}
+
+.online-chat-msg {
+    display: flex;
+    flex-direction: column;
+    max-width: 82%;
+    padding: 7px 10px;
+    border-radius: 14px;
+    font-size: 0.88rem;
+    line-height: 1.35;
+    word-wrap: break-word;
+    word-break: break-word;
+    animation: chatMsgIn 0.18s ease;
+}
+@keyframes chatMsgIn {
+    from { opacity: 0; transform: translateY(4px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+.online-chat-msg.is-mine {
+    align-self: flex-end;
+    background: linear-gradient(135deg, #667eea, #5a67d8);
+    color: #fff;
+    border-bottom-right-radius: 4px;
+}
+.online-chat-msg.is-theirs {
+    align-self: flex-start;
+    background: #fff;
+    color: #1f2937;
+    border: 1px solid #e5e7eb;
+    border-bottom-left-radius: 4px;
+}
+.online-chat-msg-time {
+    font-size: 0.66rem;
+    opacity: 0.7;
+    margin-top: 3px;
+}
+.online-chat-msg.is-mine .online-chat-msg-time { color: #e0e7ff; }
+.online-chat-msg.is-theirs .online-chat-msg-time { color: #9ca3af; }
+
+.online-chat-form {
+    display: flex;
+    gap: 6px;
+    margin: 0;
+}
+.online-chat-input {
+    flex: 1 1 auto;
+    min-width: 0;
+    padding: 8px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 18px;
+    font-size: 0.88rem;
+    outline: none;
+    transition: border-color 0.15s, box-shadow 0.15s;
+    background: #fff;
+}
+.online-chat-input:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.15);
+}
+.online-chat-input:disabled {
+    background: #f3f4f6;
+    color: #9ca3af;
+    cursor: not-allowed;
+}
+.online-chat-send {
+    flex: 0 0 auto;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: none;
+    background: linear-gradient(135deg, #667eea, #5a67d8);
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.12s, opacity 0.12s;
+    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.35);
+}
+.online-chat-send:hover:not(:disabled) {
+    transform: scale(1.05);
+}
+.online-chat-send:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+    background: #9ca3af;
+    box-shadow: none;
+}
+
+/* Ocultar el chat en móvil / tablet apilado (mismo breakpoint que apila
+   la sidebar sobre/bajo el tablero). El chat sólo aparece en modo PC. */
+@media (max-width: 1400px) and (orientation: portrait) {
+    #online-chat-panel { display: none !important; }
+}
+@media (max-width: 900px) {
+    #online-chat-panel { display: none !important; }
+}
+
+/* En PC: compactar los elementos bajo el tablero */
+@media (min-width: 769px) {
+    .board-container {
+        gap: 8px;
+    }
+    .mini-clock {
+        margin: 0 auto;
+    }
+    .captured-below {
+        margin-top: 0;
+        padding: 3px 10px;
+    }
+    .board-action-buttons {
+        margin-top: 0;
+    }
+    .move-navigator {
+        margin-top: 0;
+        padding: 10px 12px;
+    }
 }
 

@@ -5058,7 +5058,13 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '3.0.5': [
+        'Mini-reloj compacto bajo el tablero ahora visible también en modo PC (antes solo aparecía en móvil)',
+        'Elementos bajo el tablero (reloj, piezas capturadas, botones de acción y navegador de movimientos) más compactos y juntos en escritorio',
+    ],
     '3.0.4': [
+        'Chat online durante la partida: panel plegable en la barra lateral derecha (sólo modo PC) para conversar con tu oponente en tiempo real, con burbujas propias/rivales, envío optimista, polling cada 2,5 s e insignia de mensajes no leídos',
+        'API REST nueva: send-chat.php y get-chat.php, tabla ajedrezia_chat con limpieza automática de mensajes de más de 48 h y rate-limit de 1 mensaje/segundo por usuario',
         'Invitaciones online por enlace: el URL ?online= ahora incluye también el ID, nick y ELO del invitador',
         'Al abrir un enlace ?online=, si el invitador está conectado se muestra directamente la modal "Te reto a una partida online" con sus datos — sin tener que buscarlo en la lista',
         'Si el invitador está offline, se informa con su nick y se abre la lista de jugadores como alternativa',
@@ -6077,6 +6083,8 @@ function startOnlineGame(opponent, myColor, timeControl, gameId) {
     updateOnlineBanner();
     // Bloquear acciones que no deben usarse durante una partida online
     setOnlineActionsLocked(true);
+    // Abrir panel de chat con el oponente (sólo visible en modo PC por CSS)
+    openOnlineChat(opponent);
 }
 
 // ── Enviar movimiento al servidor ─────────────────────────────────────────
@@ -6351,6 +6359,234 @@ function leaveOnlineGame(reason) {
     _onlineGame = null;
     updateOnlineBanner();
     setOnlineActionsLocked(false);
+    // Cerrar el chat (se mantendría visible pero vacío si no lo cerramos)
+    closeOnlineChat();
+}
+
+// ── Chat de partida online ────────────────────────────────────────────────
+let _chatLastId     = 0;
+let _chatPollTimer  = null;
+let _chatUnreadCount = 0;
+let _chatWiredUp    = false;
+
+function openOnlineChat(opponent) {
+    const panel = document.getElementById('online-chat-panel');
+    if (!panel) return;
+    // En móviles el CSS fuerza display:none, así que este show no los afecta
+    panel.style.display = 'block';
+    panel.classList.remove('collapsed');
+
+    const oppEl = document.getElementById('online-chat-opponent');
+    if (oppEl) oppEl.textContent = opponent ? ('vs ' + (opponent.nick || opponent.name || 'Oponente')) : '';
+
+    const msgsEl = document.getElementById('online-chat-messages');
+    if (msgsEl) {
+        msgsEl.innerHTML = '<p class="online-chat-empty">Saluda a tu rival. Los mensajes desaparecen 48 h después.</p>';
+    }
+    // Input y botón siempre habilitados durante la partida: en modo local
+    // el render es optimista y en producción se envía al backend.
+    const input = document.getElementById('online-chat-input');
+    const sendBtn = document.getElementById('online-chat-send');
+    if (input) input.disabled = false;
+    if (sendBtn) sendBtn.disabled = false;
+
+    _chatLastId = 0;
+    _chatUnreadCount = 0;
+    renderChatBadge();
+    wireChatHandlersOnce();
+
+    if (_onlineGame && _onlineGame.id && !IS_LOCAL) startChatPolling();
+}
+
+function closeOnlineChat() {
+    stopChatPolling();
+    const panel = document.getElementById('online-chat-panel');
+    if (panel) panel.style.display = 'none';
+    _chatLastId = 0;
+    _chatUnreadCount = 0;
+    renderChatBadge();
+}
+
+function wireChatHandlersOnce() {
+    if (_chatWiredUp) return;
+    _chatWiredUp = true;
+    const form = document.getElementById('online-chat-form');
+    const msgsEl = document.getElementById('online-chat-messages');
+    const input = document.getElementById('online-chat-input');
+    if (form) form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        sendChatMessage();
+    });
+    if (input) input.addEventListener('focus', function() {
+        _chatUnreadCount = 0;
+        renderChatBadge();
+    });
+    if (msgsEl) msgsEl.addEventListener('scroll', function() {
+        // Si el usuario llega al final con la rueda, resetear contador
+        if (msgsEl.scrollTop + msgsEl.clientHeight >= msgsEl.scrollHeight - 4) {
+            _chatUnreadCount = 0;
+            renderChatBadge();
+        }
+    });
+    // Al plegar/desplegar el panel (la lógica genérica de panel-toggle ya lo hace),
+    // al desplegar reseteamos unread.
+    const toggle = document.querySelector('#online-chat-panel .panel-toggle');
+    if (toggle) toggle.addEventListener('click', function() {
+        // Tras el click la clase cambia; comprobamos al siguiente tick
+        setTimeout(function() {
+            const panel = document.getElementById('online-chat-panel');
+            if (panel && !panel.classList.contains('collapsed')) {
+                _chatUnreadCount = 0;
+                renderChatBadge();
+            }
+        }, 10);
+    });
+}
+
+function sendChatMessage() {
+    const input = document.getElementById('online-chat-input');
+    if (!input) return;
+    const text = String(input.value || '').trim();
+    if (!text) return;
+    if (!_onlineGame || !_onlineGame.id || IS_LOCAL) {
+        // En local: render optimista sin backend
+        appendChatMessage({ id: 'local-' + Date.now(), user_id: 'me', nick: 'Tú', message: text, created_at: new Date().toISOString() }, true);
+        input.value = '';
+        return;
+    }
+    const me = getOnlineUser();
+    if (!me) return;
+
+    const myNick = (me.email ? me.email.split('@')[0] : (me.name || 'Tú'));
+    // Render optimista antes de que responda el servidor: mantenemos la burbuja
+    // con un id temporal, y al confirmar la reetiquetamos con la id real para
+    // que el polling de entrada no la duplique.
+    const tempId = 'tmp-' + Date.now() + '-' + Math.floor(Math.random() * 1000);
+    appendChatMessage({ id: tempId, user_id: me.id, nick: myNick, message: text, created_at: new Date().toISOString() }, true);
+    input.value = '';
+    input.focus();
+
+    fetch(BASE_PATH + 'api/send-chat.php', {
+        method: 'POST', headers: {'Content-Type':'application/json'},
+        body: JSON.stringify({
+            game_id: _onlineGame.id,
+            user_id: me.id,
+            nick:    myNick,
+            message: text,
+        }),
+    })
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+        const node = document.querySelector('.online-chat-msg[data-id="' + tempId + '"]');
+        if (!data.ok) {
+            if (node) {
+                node.style.opacity = '0.55';
+                node.title = 'No enviado: ' + (data.error || 'error');
+            }
+            showMessage('⚠️ No se pudo enviar el mensaje: ' + (data.error || 'error'), 'warning', 3000);
+            return;
+        }
+        // Re-etiquetar la burbuja con el id real y actualizar la hora.
+        if (node) {
+            node.setAttribute('data-id', String(data.id));
+            if (data.created_at) {
+                const timeEl = node.querySelector('.online-chat-msg-time');
+                if (timeEl) timeEl.textContent = formatChatTime(data.created_at);
+            }
+        }
+        // Avanzamos _chatLastId hasta nuestro propio mensaje para que el polling
+        // no lo vuelva a traer como si fuera nuevo.
+        if (data.id > _chatLastId) _chatLastId = data.id;
+    })
+    .catch(function() {
+        const node = document.querySelector('.online-chat-msg[data-id="' + tempId + '"]');
+        if (node) { node.style.opacity = '0.55'; node.title = 'Error de red'; }
+        showMessage('⚠️ Error de red al enviar el mensaje.', 'warning', 3000);
+    });
+}
+
+function pollChat() {
+    if (!_onlineGame || !_onlineGame.id || IS_LOCAL) return;
+    fetch(BASE_PATH + 'api/get-chat.php?game_id=' + _onlineGame.id + '&since_id=' + _chatLastId)
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+            if (!data.ok || !Array.isArray(data.messages) || data.messages.length === 0) return;
+            const me = getOnlineUser();
+            data.messages.forEach(function(m) {
+                const isMine = !!(me && String(m.user_id) === String(me.id));
+                appendChatMessage(m, isMine);
+                if (m.id > _chatLastId) _chatLastId = m.id;
+                if (!isMine) {
+                    const input = document.getElementById('online-chat-input');
+                    const panel = document.getElementById('online-chat-panel');
+                    const focused = input && document.activeElement === input;
+                    const collapsed = panel && panel.classList.contains('collapsed');
+                    if (!focused || collapsed) {
+                        _chatUnreadCount++;
+                        renderChatBadge();
+                    }
+                }
+            });
+        })
+        .catch(function(){});
+}
+
+function startChatPolling() {
+    stopChatPolling();
+    pollChat();
+    _chatPollTimer = setInterval(pollChat, 2500);
+}
+
+function stopChatPolling() {
+    if (_chatPollTimer) { clearInterval(_chatPollTimer); _chatPollTimer = null; }
+}
+
+function appendChatMessage(msg, isMine) {
+    const msgsEl = document.getElementById('online-chat-messages');
+    if (!msgsEl) return;
+    const id = String(msg.id);
+    // Evitar duplicados: si ya pintamos ese id (por carrera send/poll), salimos.
+    if (msgsEl.querySelector('.online-chat-msg[data-id="' + id + '"]')) return;
+    // Quitar placeholder si existe
+    const empty = msgsEl.querySelector('.online-chat-empty');
+    if (empty) empty.remove();
+
+    const bubble = document.createElement('div');
+    bubble.className = 'online-chat-msg ' + (isMine ? 'is-mine' : 'is-theirs');
+    bubble.setAttribute('data-id', id);
+
+    const text = document.createElement('div');
+    text.className = 'online-chat-msg-text';
+    text.textContent = msg.message;
+
+    const time = document.createElement('div');
+    time.className = 'online-chat-msg-time';
+    time.textContent = formatChatTime(msg.created_at);
+
+    bubble.appendChild(text);
+    bubble.appendChild(time);
+    msgsEl.appendChild(bubble);
+    msgsEl.scrollTop = msgsEl.scrollHeight;
+}
+
+function formatChatTime(iso) {
+    if (!iso) return '';
+    try {
+        const d = new Date(iso.replace(' ', 'T'));
+        if (isNaN(d.getTime())) return '';
+        return d.toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' });
+    } catch (e) { return ''; }
+}
+
+function renderChatBadge() {
+    const badge = document.getElementById('online-chat-badge');
+    if (!badge) return;
+    if (_chatUnreadCount > 0) {
+        badge.textContent = _chatUnreadCount > 99 ? '99+' : String(_chatUnreadCount);
+        badge.style.display = 'inline-flex';
+    } else {
+        badge.style.display = 'none';
+    }
 }
 
 // ── Banner de partida online ──────────────────────────────────────────────
@@ -8301,22 +8537,31 @@ function setGameButtonsDisabled(disabled) {
 // se restablece el estado normal (incluido el de aperturas).
 function setOnlineActionsLocked(locked) {
     const idsToLock = [
+        // Configuración / partida nueva
         'new-game',
+        // Navegación de partida guardada
         'resume-game', 'resume-game-sidebar',
+        // Acciones de turno
         'undo-move', 'undo-move-sidebar',
         'hint-move', 'hint-move-sidebar',
         'analyze-game', 'analyze-game-sidebar',
+        'view-analysis',
+        // PGN y compartir
+        'copy-pgn', 'copy-pgn-board',
         'export-pgn', 'import-pgn',
+        'share-board', 'share-sidebar',
+        // Partidas famosas
         'load-famous-game',
+        // Aperturas
         'show-known-variants',
         'start-opening-quiz',
         'start-opening-training',
         'view-opening',
-        'select-puzzle', 'next-puzzle', 'puzzle-hint', 'puzzle-solution',
-        'share-game',
+        // Problemas
+        'load-puzzle', 'puzzle-hint', 'puzzle-solution',
     ];
     if (locked) {
-        idsToLock.forEach(id => {
+        idsToLock.forEach(function(id) {
             const el = document.getElementById(id);
             if (el) el.disabled = true;
         });
@@ -8324,14 +8569,16 @@ function setOnlineActionsLocked(locked) {
         // Restaurar el estado coherente normal: los botones de partida vuelven a estar
         // habilitados; aperturas/quiz se reactivan según haya selección de apertura.
         setGameButtonsDisabled(false);
-        ['new-game', 'export-pgn', 'import-pgn', 'load-famous-game',
-         'select-puzzle', 'next-puzzle', 'share-game'].forEach(id => {
+        ['new-game', 'copy-pgn', 'copy-pgn-board',
+         'export-pgn', 'import-pgn', 'load-famous-game',
+         'share-board', 'share-sidebar',
+         'load-puzzle', 'resume-game', 'resume-game-sidebar'].forEach(function(id) {
             const el = document.getElementById(id);
             if (el) el.disabled = false;
         });
     }
     // Asegurar siempre que Abandonar y Pedir Tablas están operativos durante la partida
-    ['resign-game', 'resign-game-sidebar', 'offer-draw', 'offer-draw-sidebar'].forEach(id => {
+    ['resign-game', 'resign-game-sidebar', 'offer-draw', 'offer-draw-sidebar'].forEach(function(id) {
         const el = document.getElementById(id);
         if (el) el.disabled = false;
     });

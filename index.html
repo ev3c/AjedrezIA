@@ -13,7 +13,7 @@
 </script>
 
 
-<!-- Versión de la aplicación 3.0.2 -->
+<!-- Versión de la aplicación 3.0.5 -->
 
 <!-- Google Tag Manager --
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -630,6 +630,23 @@
                     </div>
                     </div>
                 </div>
+
+                       <div class="panel panel-collapsible online-chat-panel" id="online-chat-panel" style="display:none;">
+                           <h2 class="panel-toggle">
+                               💬 Chat <span class="online-chat-opponent" id="online-chat-opponent"></span>
+                               <span class="online-chat-badge" id="online-chat-badge" style="display:none;">0</span>
+                               <span class="panel-arrow">▲</span>
+                           </h2>
+                           <div class="panel-body online-chat-body">
+                               <div class="online-chat-messages" id="online-chat-messages" aria-live="polite"></div>
+                               <form class="online-chat-form" id="online-chat-form" autocomplete="off">
+                                   <input type="text" id="online-chat-input" class="online-chat-input"
+                                          placeholder="Escribe un mensaje…" maxlength="500"
+                                          aria-label="Mensaje para el oponente">
+                                   <button type="submit" class="online-chat-send" id="online-chat-send" title="Enviar">➤</button>
+                               </form>
+                           </div>
+                       </div>
 
                        <div class="panel panel-collapsible collapsed" id="actions-panel">
                            <h2 class="panel-toggle">Acciones <span class="panel-arrow">▲</span></h2>

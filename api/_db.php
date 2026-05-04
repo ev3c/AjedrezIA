@@ -65,6 +65,22 @@ function ai_ensure_elo_log_table(PDO $pdo): void {
     ");
 }
 
+function ai_ensure_chat_table(PDO $pdo): void {
+    $pdo->exec("
+        CREATE TABLE IF NOT EXISTS ajedrezia_chat (
+            id         INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+            game_id    INT UNSIGNED NOT NULL,
+            user_id    VARCHAR(128) NOT NULL,
+            nick       VARCHAR(64)  DEFAULT '',
+            message    VARCHAR(500) NOT NULL,
+            created_at DATETIME     NOT NULL,
+            INDEX idx_game (game_id, id)
+        ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+    ");
+    // Limpieza ocasional: borrar mensajes de más de 48 h para no crecer sin control
+    try { $pdo->exec("DELETE FROM ajedrezia_chat WHERE created_at < DATE_SUB(NOW(), INTERVAL 48 HOUR)"); } catch (PDOException $e) {}
+}
+
 function ai_ensure_games_table(PDO $pdo): void {
     $pdo->exec("
         CREATE TABLE IF NOT EXISTS ajedrezia_games (
