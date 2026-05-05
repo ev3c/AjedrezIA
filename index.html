@@ -13,7 +13,7 @@
 </script>
 
 
-<!-- Versión de la aplicación 3.0.5 -->
+<!-- Versión de la aplicación 3.0.6 -->
 
 <!-- Google Tag Manager --
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -88,123 +88,7 @@
 
         <div class="game-container">
             <div class="sidebar sidebar-left">
-                <div class="panel panel-collapsible collapsed" id="config-panel">
-                    <h2 class="panel-toggle" id="config-toggle">Configuración <span class="panel-arrow">▲</span></h2>
-                    <div class="panel-body" id="config-body">
-
-                    <div class="config-section config-row-nickname">
-                        <input type="hidden" id="player-nickname" value="Jugador">
-                        <button id="login-status-btn" class="login-status-btn" type="button" title="Iniciar sesión online">
-                            <span class="login-status-avatar" id="login-status-avatar">👤</span>
-                            <span class="login-status-text" id="login-status-text">Iniciar Sesión</span>
-                        </button>
-                    </div>
-
-                    <div class="config-section config-player-color" id="color-picker-section">
-                        <label>Juegas con:</label>
-                        <div class="player-color-picker" id="player-color-picker" role="group" aria-label="Juegas con">
-                            <button type="button" class="player-color-option player-color-option--selected" data-color="white" id="player-color-btn-white" title="Blancas" aria-label="Jugar con blancas" aria-pressed="true">
-                                <span class="player-color-pawn-wrap">
-                                    <img id="player-color-pawn-white" class="player-color-pawn-img" src="pieces/cburnett/wP.svg" alt="">
-                                </span>
-                            </button>
-                            <button type="button" class="player-color-option" data-color="black" id="player-color-btn-black" title="Negras" aria-label="Jugar con negras" aria-pressed="false">
-                                <span class="player-color-pawn-wrap">
-                                    <img id="player-color-pawn-black" class="player-color-pawn-img" src="pieces/cburnett/bP.svg" alt="">
-                                </span>
-                            </button>
-                            <button type="button" class="player-color-option" data-color="random" id="player-color-btn-random" title="Aleatorio" aria-label="Color aleatorio" aria-pressed="false">
-                                <span class="player-color-pawn-wrap">
-                                    <span class="player-color-pawn-txt is-visible" aria-hidden="true">🎲</span>
-                                </span>
-                            </button>
-                        </div>
-                        <input type="hidden" id="player-color" value="white">
-                    </div>
-
-                    <div class="config-section config-opponent">
-                        <label>Juegas contra:</label>
-                        <div class="player-color-picker" id="player-opponent-picker" role="group" aria-label="Juegas contra">
-                            <button type="button" class="player-color-option player-color-option--selected" data-mode="ai" id="opponent-btn-ai" title="Inteligencia Artificial" aria-label="Jugar contra IA" aria-pressed="true">
-                                <span class="player-color-pawn-wrap">
-                                    <span class="player-color-pawn-txt is-visible" aria-hidden="true">💻</span>
-                                </span>
-                            </button>
-                            <button type="button" class="player-color-option" data-mode="pvp" id="opponent-btn-pvp" title="Persona vs persona" aria-label="Persona vs persona" aria-pressed="false">
-                                <span class="player-color-pawn-wrap">
-                                    <span class="player-color-pawn-txt is-visible" aria-hidden="true">🧑</span>
-                                </span>
-                            </button>
-                            <button type="button" class="player-color-option" data-mode="online" id="opponent-btn-online" title="Jugar online" aria-label="Jugar online" aria-pressed="false">
-                                <span class="player-color-pawn-wrap">
-                                    <span class="player-color-pawn-txt is-visible" aria-hidden="true">🌐</span>
-                                </span>
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="config-section" id="ai-settings">
-                        <label>Nivel de Dificultad:</label>
-                        <select id="ai-difficulty" class="select">
-                            <option value="1" selected>Muy Fácil (~400 ELO) — Local d1</option>
-                            <option value="2">Fácil (~700 ELO) — Local d1</option>
-                            <option value="3">Principiante (~1000 ELO) — Local d2+q</option>
-                            <option value="4">Intermedio (~1200 ELO) — Local d3+q</option>
-                            <option value="5">Avanzado (~1500 ELO) — Stockfish d1</option>
-                            <option value="6">Experto (~1800 ELO) — Stockfish d2</option>
-                            <option value="7">Maestro (~2200 ELO) — Stockfish d6</option>
-                            <option value="8">Gran Maestro (~2500 ELO) — Stockfish d10</option>
-                        </select>
-                    </div>
-
-                    <div class="config-section">
-                        <label>Tema del Tablero:</label>
-                        <select id="board-theme" class="select">
-                            <option value="classic">Clásico</option>
-                            <option value="wood">Madera</option>
-                            <option value="blue">Azul</option>
-                            <option value="green">Verde</option>
-                            <option value="gray">Gris</option>
-                        </select>
-                    </div>
-
-                    <div class="config-section">
-                        <label>Estilo de Piezas:</label>
-                        <div class="piece-style-wrapper">
-                            <img id="piece-style-preview" class="piece-style-preview" src="pieces/cburnett/bP.svg" alt="Preview">
-                            <select id="piece-style" class="select">
-                                <option value="cburnett" selected>Cburnett (Lichess)</option>
-                                <option value="merida">Mérida</option>
-                                <option value="alpha">Alpha</option>
-                                <option value="california">California</option>
-                                <option value="maestro">Maestro</option>
-                                <option value="staunty">Staunty</option>
-                                <option value="companion">Companion</option>
-                                <option value="tatiana">Tatiana</option>
-                                <option value="leipzig">Leipzig</option>
-                                <option value="horsey">Horsey</option>
-                                <option value="pixel">Pixel Art</option>
-                                <option value="fantasy">Fantasy</option>
-                                <option value="letter">Letras</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="config-section config-checkbox">
-                        <label><input type="checkbox" id="show-coordinates"> Coordenadas en Casillas</label>
-                    </div>
-
-                    <div class="config-section config-checkbox">
-                        <label><input type="checkbox" id="show-move-insights"> Mensajes de Ayuda</label>
-                    </div>
-
-                    <div class="config-section config-checkbox">
-                        <label><input type="checkbox" id="sound-enabled" checked> Sonidos</label>
-                    </div>
-
-                    </div>
-                    <button id="new-game" class="btn btn-success">Nueva Partida</button>
-                </div>
+                <button id="new-game" class="btn btn-success btn-new-game-top btn-new-game--desktop">♟ Nueva Partida</button>
 
                 <div class="panel panel-collapsible collapsed" id="openings-panel">
                     <h2 class="panel-toggle">📖 Entrenar Aperturas <span class="panel-arrow">▲</span></h2>
@@ -601,10 +485,100 @@
                             <div class="clock-time" id="black-time">3:00</div>
                         </div>
                     </div>
-                    <div class="clock-controls">
+                    </div>
+                </div>
+
+                       <div class="panel panel-collapsible online-chat-panel" id="online-chat-panel" style="display:none;">
+                           <h2 class="panel-toggle">
+                               💬 Chat <span class="online-chat-opponent" id="online-chat-opponent"></span>
+                               <span class="online-chat-badge" id="online-chat-badge" style="display:none;">0</span>
+                               <span class="panel-arrow">▲</span>
+                           </h2>
+                           <div class="panel-body online-chat-body">
+                               <div class="online-chat-messages" id="online-chat-messages" aria-live="polite"></div>
+                               <form class="online-chat-form" id="online-chat-form" autocomplete="off">
+                                   <input type="text" id="online-chat-input" class="online-chat-input"
+                                          placeholder="Escribe un mensaje…" maxlength="500"
+                                          aria-label="Mensaje para el oponente">
+                                   <button type="submit" class="online-chat-send" id="online-chat-send" title="Enviar">➤</button>
+                               </form>
+                           </div>
+                       </div>
+
+                <button id="new-game-mobile" type="button" class="btn btn-success btn-new-game-top btn-new-game--mobile" aria-label="Nueva Partida">♟ Nueva Partida</button>
+
+                <div class="panel panel-collapsible collapsed" id="config-panel">
+                    <h2 class="panel-toggle" id="config-toggle">Configuración <span class="panel-arrow">▲</span></h2>
+                    <div class="panel-body" id="config-body">
+
+                    <div class="config-section config-row-nickname">
+                        <input type="hidden" id="player-nickname" value="Jugador">
+                        <button id="login-status-btn" class="login-status-btn" type="button" title="Iniciar sesión online">
+                            <span class="login-status-avatar" id="login-status-avatar">👤</span>
+                            <span class="login-status-text" id="login-status-text">Iniciar Sesión</span>
+                        </button>
+                    </div>
+
+                    <div class="config-section config-player-color nueva-partida-config" id="color-picker-section">
+                        <label>Juegas con:</label>
+                        <div class="player-color-picker" id="player-color-picker" role="group" aria-label="Juegas con">
+                            <button type="button" class="player-color-option player-color-option--selected" data-color="white" id="player-color-btn-white" title="Blancas" aria-label="Jugar con blancas" aria-pressed="true">
+                                <span class="player-color-pawn-wrap">
+                                    <img id="player-color-pawn-white" class="player-color-pawn-img" src="pieces/cburnett/wP.svg" alt="">
+                                </span>
+                            </button>
+                            <button type="button" class="player-color-option" data-color="black" id="player-color-btn-black" title="Negras" aria-label="Jugar con negras" aria-pressed="false">
+                                <span class="player-color-pawn-wrap">
+                                    <img id="player-color-pawn-black" class="player-color-pawn-img" src="pieces/cburnett/bP.svg" alt="">
+                                </span>
+                            </button>
+                            <button type="button" class="player-color-option" data-color="random" id="player-color-btn-random" title="Aleatorio" aria-label="Color aleatorio" aria-pressed="false">
+                                <span class="player-color-pawn-wrap">
+                                    <span class="player-color-pawn-txt is-visible" aria-hidden="true">🎲</span>
+                                </span>
+                            </button>
+                        </div>
+                        <input type="hidden" id="player-color" value="white">
+                    </div>
+
+                    <div class="config-section config-opponent nueva-partida-config">
+                        <label>Juegas contra:</label>
+                        <div class="player-color-picker" id="player-opponent-picker" role="group" aria-label="Juegas contra">
+                            <button type="button" class="player-color-option player-color-option--selected" data-mode="ai" id="opponent-btn-ai" title="Inteligencia Artificial" aria-label="Jugar contra IA" aria-pressed="true">
+                                <span class="player-color-pawn-wrap">
+                                    <span class="player-color-pawn-txt is-visible" aria-hidden="true">💻</span>
+                                </span>
+                            </button>
+                            <button type="button" class="player-color-option" data-mode="pvp" id="opponent-btn-pvp" title="Persona vs persona" aria-label="Persona vs persona" aria-pressed="false">
+                                <span class="player-color-pawn-wrap">
+                                    <span class="player-color-pawn-txt is-visible" aria-hidden="true">🧑</span>
+                                </span>
+                            </button>
+                            <button type="button" class="player-color-option" data-mode="online" id="opponent-btn-online" title="Jugar online" aria-label="Jugar online" aria-pressed="false">
+                                <span class="player-color-pawn-wrap">
+                                    <span class="player-color-pawn-txt is-visible" aria-hidden="true">🌐</span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="config-section nueva-partida-config" id="ai-settings">
+                        <label>Nivel de Dificultad:</label>
+                        <select id="ai-difficulty" class="select">
+                            <option value="1" selected>Muy Fácil (~400 ELO) — Local d1</option>
+                            <option value="2">Fácil (~700 ELO) — Local d1</option>
+                            <option value="3">Principiante (~1000 ELO) — Local d2+q</option>
+                            <option value="4">Intermedio (~1200 ELO) — Local d3+q</option>
+                            <option value="5">Avanzado (~1500 ELO) — Stockfish d1</option>
+                            <option value="6">Experto (~1800 ELO) — Stockfish d2</option>
+                            <option value="7">Maestro (~2200 ELO) — Stockfish d6</option>
+                            <option value="8">Gran Maestro (~2500 ELO) — Stockfish d10</option>
+                        </select>
+                    </div>
+
+                    <div class="config-section nueva-partida-config">
                         <label for="time-control">Control de Tiempo:</label>
                         <select id="time-control" class="select">
-
                             <optgroup label="⚡ Bullet">
                                 <option value="1+0">1 min</option>
                                 <option value="1+1">1 min + 1 seg</option>
@@ -628,25 +602,54 @@
                             </optgroup>
                         </select>
                     </div>
+
+                    <div class="config-section">
+                        <label>Tema del Tablero:</label>
+                        <select id="board-theme" class="select">
+                            <option value="classic">Clásico</option>
+                            <option value="wood">Madera</option>
+                            <option value="blue">Azul</option>
+                            <option value="green">Verde</option>
+                            <option value="gray">Gris</option>
+                        </select>
+                    </div>
+
+                    <div class="config-section">
+                        <label>Estilo de Piezas:</label>
+                        <div class="piece-style-wrapper">
+                            <img id="piece-style-preview" class="piece-style-preview" src="pieces/cburnett/bP.svg" alt="Preview">
+                            <select id="piece-style" class="select">
+                                <option value="cburnett" selected>Cburnett (Lichess)</option>
+                                <option value="merida">Mérida</option>
+                                <option value="alpha">Alpha</option>
+                                <option value="california">California</option>
+                                <option value="maestro">Maestro</option>
+                                <option value="staunty">Staunty</option>
+                                <option value="companion">Companion</option>
+                                <option value="tatiana">Tatiana</option>
+                                <option value="leipzig">Leipzig</option>
+                                <option value="horsey">Horsey</option>
+                                <option value="pixel">Pixel Art</option>
+                                <option value="fantasy">Fantasy</option>
+                                <option value="letter">Letras</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="config-section config-checkbox">
+                        <label><input type="checkbox" id="show-coordinates"> Coordenadas en Casillas</label>
+                    </div>
+
+                    <div class="config-section config-checkbox">
+                        <label><input type="checkbox" id="show-move-insights"> Mensajes de Ayuda</label>
+                    </div>
+
+                    <div class="config-section config-checkbox">
+                        <label><input type="checkbox" id="sound-enabled" checked> Sonidos</label>
+                    </div>
+
                     </div>
                 </div>
-
-                       <div class="panel panel-collapsible online-chat-panel" id="online-chat-panel" style="display:none;">
-                           <h2 class="panel-toggle">
-                               💬 Chat <span class="online-chat-opponent" id="online-chat-opponent"></span>
-                               <span class="online-chat-badge" id="online-chat-badge" style="display:none;">0</span>
-                               <span class="panel-arrow">▲</span>
-                           </h2>
-                           <div class="panel-body online-chat-body">
-                               <div class="online-chat-messages" id="online-chat-messages" aria-live="polite"></div>
-                               <form class="online-chat-form" id="online-chat-form" autocomplete="off">
-                                   <input type="text" id="online-chat-input" class="online-chat-input"
-                                          placeholder="Escribe un mensaje…" maxlength="500"
-                                          aria-label="Mensaje para el oponente">
-                                   <button type="submit" class="online-chat-send" id="online-chat-send" title="Enviar">➤</button>
-                               </form>
-                           </div>
-                       </div>
 
                        <div class="panel panel-collapsible collapsed" id="actions-panel">
                            <h2 class="panel-toggle">Acciones <span class="panel-arrow">▲</span></h2>
@@ -686,7 +689,6 @@
                                    <div class="stat-value" id="stat-losses">0</div>
                                </div>
                            </div>
-                           <button id="reset-stats" class="btn btn-secondary">🔄 Reiniciar Estadísticas</button>
                            </div>
                        </div>
             </div>
@@ -714,6 +716,39 @@
                 <h2 class="login-modal-title" id="login-modal-title">Jugar Online</h2>
                 <p class="login-modal-subtitle">Inicia sesión para jugar partidas en línea, guardar tu progreso y competir en rankings.</p>
                 <div class="login-modal-error" id="login-modal-error" style="display:none;"></div>
+
+                <form class="login-nick-form" id="login-nick-form" autocomplete="off">
+                    <label for="login-nick-input" class="login-nick-label">Usuario:</label>
+                    <div class="login-nick-row">
+                        <input id="login-nick-input" type="text" class="login-nick-input"
+                               placeholder="Tu nickname" maxlength="20"
+                               autocomplete="off" inputmode="text" spellcheck="false">
+                    </div>
+                    <label for="login-pwd-input" class="login-nick-label" style="margin-top:10px;">Contraseña:</label>
+                    <div class="login-nick-row">
+                        <div class="login-pwd-wrap">
+                            <input id="login-pwd-input" type="password" class="login-nick-input login-pwd-input"
+                                   placeholder="Tu contraseña" maxlength="50" name="pwd_x"
+                                   autocomplete="off" autocorrect="off" autocapitalize="off"
+                                   data-lpignore="true" data-form-type="other">
+                            <button type="button" id="login-pwd-eye" class="login-pwd-eye" title="Ver contraseña" aria-label="Mostrar/ocultar contraseña">
+                                <span id="eye-open">👁️</span>
+                                <span id="eye-closed" style="display:none;">🙈</span>
+                            </button>
+                        </div>
+                        <button type="submit" id="login-nick-btn" class="login-nick-btn"
+                                title="Continuar" aria-label="Continuar">
+                            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+                                <path d="M5 12h13M13 6l6 6-6 6" stroke="currentColor"
+                                      stroke-width="2.6" fill="none"
+                                      stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+
+                <div class="login-divider"><span>o</span></div>
+
                 <div class="login-modal-buttons">
                     <button class="login-btn login-btn-google" id="login-google-btn" type="button">
                         <svg class="login-btn-icon" viewBox="0 0 24 24" aria-hidden="true">
@@ -743,7 +778,6 @@
                 <div class="login-modal-buttons" style="margin-top:22px;">
                     <button class="login-btn login-btn-play" id="login-invite-btn" type="button">⚔️ Invitar a partida online</button>
                     <button class="login-btn login-btn-secondary" id="login-play-btn" type="button">🌐 Buscar jugador online</button>
-                    <button class="login-btn login-btn-signout" id="login-signout-btn" type="button">Cerrar sesión</button>
                 </div>
             </div>
         </div>

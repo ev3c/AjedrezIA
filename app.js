@@ -159,6 +159,9 @@ let game = null;
 let playerColor = 'white';       // valor resuelto para la lógica del juego: 'white'|'black'|'both'
 let playerColorSetting = 'white'; // preferencia del selector de color: 'white'|'black'|'random'
 let gameOpponent = 'ai';          // oponente seleccionado: 'ai'|'pvp'|'online'
+let lastNewGameOpponent = 'ai';   // última selección hecha en el modal Nueva Partida ('ai'|'pvp'|'online')
+let _newGameDialogOpen = false;   // true mientras la ventana de Nueva Partida está abierta
+let _postLoginShowOnlineMenu = false; // si el login se abrió desde "Comenzar online" sin sesión: tras login, dejar visible el menú online
 let playerNickname = 'Jugador';
 let selectedSquare = null;
 let gameMode = 'vs-ai'; // vs-ai, vs-human, puzzle (compatibilidad)
@@ -189,7 +192,7 @@ let dragState = null;
 const ANALYSIS_DISABLED_IDS = ['start-opening-training', 'start-opening-quiz', 'load-famous-game',
     'resign-game', 'offer-draw', 'resume-game', 'undo-move', 'hint-move', 'analyze-game',
     'resign-game-sidebar', 'offer-draw-sidebar', 'view-analysis', 'resume-game-sidebar', 'undo-move-sidebar', 'hint-move-sidebar', 'analyze-game-sidebar',
-    'copy-pgn', 'copy-pgn-board', 'export-pgn', 'import-pgn', 'reset-stats',
+    'copy-pgn', 'copy-pgn-board', 'export-pgn', 'import-pgn',
     'nav-first', 'nav-prev', 'nav-next', 'nav-last',
     'puzzle-hint', 'puzzle-solution', 'puzzle-prev-board', 'puzzle-next-board',
     'show-known-variants',
@@ -2257,8 +2260,11 @@ var puzzleGeneration = 0;
 var puzzleSolutionViewed = false;
 var puzzleSequentialIndex = 0;
 
-// API de puzzles Lichess (Hostinger)
-const PUZZLES_API = 'https://ajedrezia.com/puzzles/api/puzzles.php';
+// API de puzzles Lichess (Hostinger).
+// Importante: usar el mismo origen canónico (BASE_PATH = https://www.ajedrezia.com/)
+// para evitar redirecciones cross-origin (ajedrezia.com → www.ajedrezia.com)
+// que en CORS no propagan los Access-Control-* y harían fallar el fetch.
+const PUZZLES_API = BASE_PATH + 'puzzles/api/puzzles.php';
 var puzzleApiCache = [];     // puzzles cargados de la API
 var puzzleApiLoading = false;
 
@@ -2799,6 +2805,101 @@ async function applyPuzzleFromQueryString() {
         } catch (e) { /* file:// o restricción */ }
         return false;
     }
+    puzzleFilter.theme = 'all';
+    var themeSel = document.getElementById('puzzle-theme-select');
+    if (themeSel) themeSel.value = 'all';
+    puzzleApiCache = [p];
+    puzzleSequentialIndex = 0;
+    currentPuzzle = p;
+    bindPuzzleToBoardAndUI();
+    if (window.matchMedia('(max-width: 1024px) and (orientation: portrait)').matches) {
+        const panel = document.getElementById('puzzles-panel');
+        if (panel && panel.classList.contains('collapsed')) {
+            panel.classList.remove('collapsed');
+        }
+        document.body.classList.add('puzzle-panel-open');
+        movePanelBelowEvalBar('puzzles-panel');
+    }
+    const boardContainer = document.querySelector('.board-container');
+    if (boardContainer) {
+        setTimeout(function () { boardContainer.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 80);
+    }
+    try {
+        history.replaceState(null, '', window.location.pathname + (window.location.hash || ''));
+    } catch (e) { /* file:// o restricción */ }
+    return true;
+}
+
+// ── Codificación inline del puzzle en URL (?p=) ───────────────────────
+// Para puzzles sin id Lichess (los locales en CHESS_PUZZLES o cuando la API
+// está caída) embebemos la posición + solución en la propia URL para que
+// siempre se pueda compartir y abrir el problema exacto.
+
+/** Codifica string UTF-8 a base64 de forma segura. */
+function _utf8ToB64(str) {
+    try { return btoa(unescape(encodeURIComponent(String(str)))); }
+    catch (e) { return null; }
+}
+/** Decodifica base64 a string UTF-8. */
+function _b64ToUtf8(b64) {
+    try { return decodeURIComponent(escape(atob(String(b64)))); }
+    catch (e) { return null; }
+}
+
+function encodePuzzlePayload(p) {
+    if (!p || !p.fen) return null;
+    const compact = {
+        f: p.fen,
+        p: Array.isArray(p.preMoves) ? p.preMoves : [],
+        s: Array.isArray(p.solution) ? p.solution : [],
+        t: p.theme || '',
+        n: p.title || '',
+        d: p.difficulty || 0,
+    };
+    const b64 = _utf8ToB64(JSON.stringify(compact));
+    if (!b64) return null;
+    // Hacemos el base64 url-safe para no necesitar encodeURIComponent extra.
+    return b64.replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+}
+
+function decodePuzzlePayload(raw) {
+    if (!raw) return null;
+    // Restituir base64 estándar desde la versión url-safe.
+    let b64 = String(raw).replace(/-/g, '+').replace(/_/g, '/');
+    while (b64.length % 4) b64 += '=';
+    const json = _b64ToUtf8(b64);
+    if (!json) return null;
+    try {
+        const o = JSON.parse(json);
+        if (!o || !o.f) return null;
+        return {
+            fen:        o.f,
+            preMoves:   Array.isArray(o.p) ? o.p : [],
+            solution:   Array.isArray(o.s) ? o.s : [],
+            theme:      o.t || 'tactic',
+            title:      o.n || 'Problema compartido',
+            difficulty: o.d || 1,
+        };
+    } catch (e) { return null; }
+}
+
+/**
+ * Carga el problema embebido en ?p=<base64(JSON)> (mismo enlace que Compartir
+ * cuando el puzzle no tiene id Lichess). Devuelve true si se cargó.
+ */
+function applyPuzzleInlineFromQueryString() {
+    const params = new URLSearchParams(window.location.search);
+    const raw = params.get('p');
+    if (raw == null || String(raw).trim() === '') return false;
+    const p = decodePuzzlePayload(String(raw).trim());
+    if (!p || !p.fen) {
+        showMessage('Enlace de problema inválido o corrupto.', 'warning', 4000);
+        try {
+            history.replaceState(null, '', window.location.pathname + (window.location.hash || ''));
+        } catch (e) { /* file:// o restricción */ }
+        return false;
+    }
+    hideVariantsPopup(false);
     puzzleFilter.theme = 'all';
     var themeSel = document.getElementById('puzzle-theme-select');
     if (themeSel) themeSel.value = 'all';
@@ -4174,6 +4275,20 @@ function clearAnalysisHighlight() {
     if (game) renderBoard();
 }
 
+/** Cierra modal de análisis post-partida y la barra de navegación de errores (si estaban visibles). */
+function dismissPostGameAnalysisUI() {
+    analysisAbortRequested = true;
+    const navBar = document.getElementById('analysis-errors-nav');
+    const overlay = document.getElementById('analysis-overlay');
+    if (navBar) navBar.style.display = 'none';
+    if (overlay) {
+        overlay.style.display = 'none';
+        overlay.classList.remove('analysis-loading-mode');
+    }
+    clearAnalysisHighlight();
+    setAnalysisModeActive(false);
+}
+
 function showAnalysisErrorPartial(message) {
     return new Promise(resolve => {
         const overlay = document.getElementById('analysis-overlay');
@@ -4965,6 +5080,7 @@ function saveSettings() {
         playerColor: playerColor,
         playerColorSetting: playerColorSetting,
         gameOpponent: gameOpponent,
+        lastNewGameOpponent: lastNewGameOpponent,
         aiDifficulty: aiDifficulty,
         boardTheme: boardTheme,
         pieceStyle: pieceStyle,
@@ -5002,6 +5118,12 @@ function loadSavedSettings() {
                 gameOpponent = settings.gameOpponent;
             } else {
                 gameOpponent = (playerColor === 'both') ? 'pvp' : 'ai';
+            }
+            // Última selección del modal Nueva Partida (puede ser 'online')
+            if (settings.lastNewGameOpponent && ['ai','pvp','online'].includes(settings.lastNewGameOpponent)) {
+                lastNewGameOpponent = settings.lastNewGameOpponent;
+            } else {
+                lastNewGameOpponent = gameOpponent;
             }
             aiDifficulty = settings.aiDifficulty != null ? settings.aiDifficulty : 1;
             boardTheme = settings.boardTheme != null ? settings.boardTheme : 'classic';
@@ -5058,6 +5180,10 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '3.0.6': [
+        'Reorganización general del panel Configuración y Botón "Nueva Partida" ',
+        'Login online: Añadido registro e inicio de sesión con Usuario y Contraseña en servidor (api/nick-auth.php), alineado con save-user para cuentas provider nickname',
+    ],
     '3.0.5': [
         'Mini-reloj compacto bajo el tablero ahora visible también en modo PC (antes solo aparecía en móvil)',
         'Elementos bajo el tablero (reloj, piezas capturadas, botones de acción y navegador de movimientos) más compactos y juntos en escritorio',
@@ -5660,7 +5786,7 @@ function renderUsersList(users, listEl, subtitleEl) {
         if (u.online && !isMe) {
             row.addEventListener('click', function() {
                 hideUsersModal();
-                showInviteSendModal(u);
+                sendDirectInvite(u);
             });
         }
         listEl.appendChild(row);
@@ -5716,6 +5842,59 @@ function invertColor(c) {
     if (c === 'white')  return 'black';
     if (c === 'black')  return 'white';
     return Math.random() < 0.5 ? 'white' : 'black';
+}
+
+// Envía una invitación directamente al jugador seleccionado usando los valores
+// configurados en el modal Nueva Partida (color y tiempo), sin abrir ningún modal.
+function sendDirectInvite(target) {
+    const me = getOnlineUser();
+    if (!target || !me) return;
+
+    const colorRaw = playerColorSetting || 'white';
+    const tcRaw    = (timePerPlayer != null && incrementPerMove != null)
+        ? (timePerPlayer + '+' + incrementPerMove)
+        : (localStorage.getItem('invite_tc') || '5+0');
+
+    _inviteTarget        = target;
+    _inviteSelectedColor = colorRaw;
+    _inviteGenericMode   = false;
+    _outgoingInviteId    = null;
+
+    const payload = {
+        from_id:      me.id,
+        from_nick:    (me.email || me.name || 'Usuario').split('@')[0],
+        from_elo:     (typeof stats !== 'undefined' && stats.elo) ? stats.elo : 1200,
+        to_id:        target.id,
+        from_color:   colorRaw,
+        time_control: tcRaw,
+        time_label:   timeLabelFor(tcRaw),
+    };
+
+    if (IS_LOCAL) {
+        showInviteWaitingModal(target.nick || target.name, payload.time_label);
+        setTimeout(function() {
+            hideInviteWaitingModal();
+            startOnlineGame(target, colorRaw, tcRaw, null);
+        }, 1500);
+        return;
+    }
+
+    showInviteWaitingModal(target.nick || target.name, payload.time_label);
+
+    fetch(BASE_PATH + 'api/send-invite.php', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+    })
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+        if (!data.ok) throw new Error(data.error || 'Error al enviar');
+        _outgoingInviteId = data.invite_id;
+        startOutgoingPolling();
+    })
+    .catch(function(e) {
+        hideInviteWaitingModal();
+        showMessage(e.message || 'No se pudo enviar la invitación.', 'error', 4000);
+    });
 }
 
 // ── Modal de envío ─────────────────────────────────────────────────────────
@@ -6703,13 +6882,92 @@ function updateLoginStatusButton() {
         btn.classList.add('is-logged-in');
         avatarEl.textContent = initial;
         textEl.textContent   = nick;
-        btn.title = user.email || user.name || 'Perfil';
+        // Para nickname users no mostramos el email sintético en el tooltip.
+        btn.title = user.provider === 'nickname'
+            ? (user.name || nick)
+            : (user.email || user.name || 'Perfil');
     } else {
         btn.classList.remove('is-logged-in');
         avatarEl.textContent = '👤';
         textEl.textContent   = 'Iniciar Sesión';
         btn.title = 'Iniciar sesión online';
     }
+}
+
+function showUserProfileModal() {
+    const user = getOnlineUser();
+    if (!user) { showLoginModal(); return; }
+
+    let overlay = document.getElementById('user-profile-overlay');
+    if (overlay) { overlay.remove(); return; }
+
+    overlay = document.createElement('div');
+    overlay.id = 'user-profile-overlay';
+    overlay.className = 'message-overlay';
+    overlay.style.display = 'flex';
+    document.body.appendChild(overlay);
+
+    const modal = document.createElement('div');
+    modal.className = 'game-list-modal';
+    modal.style.maxWidth = '320px';
+    modal.style.textAlign = 'center';
+
+    // Avatar
+    const avatar = document.createElement('div');
+    avatar.className = 'login-user-avatar';
+    avatar.style.cssText = 'margin: 0 auto 12px;';
+    if (user.photo) {
+        avatar.innerHTML = `<img src="${user.photo}" alt="${user.name}" class="login-avatar-img" referrerpolicy="no-referrer">`;
+    } else {
+        avatar.textContent = (user.name || '?')[0].toUpperCase();
+        avatar.classList.add('login-avatar-initial');
+    }
+    modal.appendChild(avatar);
+
+    // Nombre
+    const nameEl = document.createElement('p');
+    nameEl.className = 'login-user-name';
+    nameEl.textContent = user.name || '';
+    nameEl.style.margin = '0 0 4px';
+    modal.appendChild(nameEl);
+
+    // Proveedor
+    const provEl = document.createElement('p');
+    provEl.className = 'login-user-provider';
+    provEl.style.margin = '0 0 20px';
+    provEl.textContent =
+        user.provider === 'google'   ? '🔵 Conectado con Google' :
+        user.provider === 'apple'    ? '🍎 Conectado con Apple'  :
+        user.provider === 'nickname' ? '👤 Conectado con Nickname' : '';
+    modal.appendChild(provEl);
+
+    // Botón cerrar sesión
+    const signoutBtn = document.createElement('button');
+    signoutBtn.className = 'btn btn-secondary';
+    signoutBtn.textContent = 'Cerrar sesión';
+    signoutBtn.style.cssText = 'width:100%;margin-top:0;';
+    signoutBtn.addEventListener('click', function() {
+        overlay.remove();
+        clearOnlineUser();
+        playerNickname = 'Jugador';
+        const nicknameEl = document.getElementById('player-nickname');
+        if (nicknameEl) {
+            nicknameEl.value = playerNickname;
+            nicknameEl.disabled = false;
+            nicknameEl.title = '';
+        }
+        saveSettings();
+        showMessage('Sesión cerrada correctamente.', 'info', 2500);
+        updateLoginStatusButton();
+        updateLoginModalUI();
+        updateOnlineButtonTooltip();
+    });
+    modal.appendChild(signoutBtn);
+
+    overlay.appendChild(modal);
+    overlay.addEventListener('click', function(e) {
+        if (e.target === overlay) overlay.remove();
+    });
 }
 
 // ── Interfaz del modal ─────────────────────────────────────────────────────
@@ -6736,10 +6994,25 @@ function updateLoginModalUI() {
         const nameEl     = document.getElementById('login-user-name');
         const emailEl    = document.getElementById('login-user-email');
         const providerEl = document.getElementById('login-user-provider');
-        if (nameEl)     nameEl.textContent     = user.name  || '';
-        if (emailEl)    emailEl.textContent    = user.email || '';
-        if (providerEl) providerEl.textContent = user.provider === 'google' ? '🔵 Conectado con Google'
-                                                                             : '🍎 Conectado con Apple';
+        const isNickname = user.provider === 'nickname';
+        if (nameEl)  nameEl.textContent  = user.name || '';
+        if (emailEl) {
+            // Para usuarios nickname el email es sintético: lo ocultamos.
+            if (isNickname) {
+                emailEl.textContent  = '';
+                emailEl.style.display = 'none';
+            } else {
+                emailEl.textContent   = user.email || '';
+                emailEl.style.display = '';
+            }
+        }
+        if (providerEl) {
+            providerEl.textContent =
+                user.provider === 'google'   ? '🔵 Conectado con Google' :
+                user.provider === 'apple'    ? '🍎 Conectado con Apple'  :
+                user.provider === 'nickname' ? '👤 Conectado con Nickname' :
+                                               '';
+        }
     } else {
         viewOut.style.display = 'block';
         viewIn.style.display  = 'none';
@@ -6769,6 +7042,16 @@ function showLoginModal() {
     const overlay = document.getElementById('login-modal-overlay');
     if (!overlay) return;
     updateLoginModalUI();
+    // Limpiar contraseña cada vez que se abre para que siempre se pida de nuevo
+    const pwdField = document.getElementById('login-pwd-input');
+    if (pwdField) {
+        pwdField.value = '';
+        pwdField.type  = 'password';
+        const eyeOpen   = document.getElementById('eye-open');
+        const eyeClosed = document.getElementById('eye-closed');
+        if (eyeOpen)   eyeOpen.style.display   = '';
+        if (eyeClosed) eyeClosed.style.display  = 'none';
+    }
     overlay.classList.add('is-open');
     // En navegadores no compatibles (Mi Browser antiguo, WebViews, apps in-app)
     // Google OAuth no funcionará: avisamos al usuario antes de que pulse nada.
@@ -6781,6 +7064,9 @@ function hideLoginModal() {
     const overlay = document.getElementById('login-modal-overlay');
     if (overlay) overlay.classList.remove('is-open');
     loginSetLoading(false);
+    // Si el modal se cierra (manual o programáticamente sin completar login)
+    // descartamos cualquier intención pendiente de abrir el menú online.
+    _postLoginShowOnlineMenu = false;
 }
 
 // ── Detección de navegadores incompatibles ────────────────────────────────
@@ -6904,6 +7190,117 @@ function showUnsupportedBrowserWarningIfNeeded() {
     }
 }
 
+// ── Flujo Nickname (sin OAuth) ─────────────────────────────────────────────
+
+/** Caracteres permitidos: letras, dígitos, _ - . */
+const NICKNAME_RE = /^[A-Za-z0-9_.\-]{3,20}$/;
+
+/** Genera (o recupera) un id estable por dispositivo para usuarios nickname. */
+function getOrCreateNicknameId() {
+    let id = localStorage.getItem('nickname_user_id');
+    if (id) return id;
+    // UUID v4 ligero (no criptográfico, basta para identificar el dispositivo)
+    id = 'nick-' + (
+        Date.now().toString(36) +
+        Math.random().toString(36).slice(2, 10) +
+        Math.random().toString(36).slice(2, 10)
+    );
+    localStorage.setItem('nickname_user_id', id);
+    return id;
+}
+
+function signInWithNickname(rawNick) {
+    const nick = (rawNick || '').trim();
+
+    if (!nick) {
+        loginSetError('Escribe un nickname para continuar.');
+        return false;
+    }
+    if (!NICKNAME_RE.test(nick)) {
+        loginSetError('Nickname no válido. Usa 3–20 caracteres: letras, números, "_", "-" o ".".');
+        return false;
+    }
+
+    const pwdInput = document.getElementById('login-pwd-input');
+    const pwd = pwdInput ? pwdInput.value : '';
+
+    loginSetError('');
+    loginSetLoading(true);
+
+    const id = getOrCreateNicknameId();
+    const syntheticEmail = nick + '@nickname.local';
+
+    try { localStorage.setItem('nickname_pref', nick); } catch (e) {}
+
+    function _applyLogin(resolvedId) {
+        setOnlineUser({
+            provider: 'nickname',
+            id:       resolvedId,
+            name:     nick,
+            email:    syntheticEmail,
+            photo:    null,
+            token:    '',
+            expiry:   Date.now() + 365 * 24 * 60 * 60 * 1000,
+        });
+        loginSetLoading(false);
+        if (_postLoginShowOnlineMenu) {
+            _postLoginShowOnlineMenu = false;
+        } else {
+            hideLoginModal();
+        }
+        showMessage('¡Bienvenido, ' + nick + '! 🎉', 'success', 3000);
+    }
+
+    if (IS_LOCAL) {
+        // En local no hay servidor: validar y guardar contraseña localmente.
+        const pwdKey    = 'nick_pwd_' + nick.toLowerCase();
+        const storedPwd = localStorage.getItem(pwdKey);
+        if (storedPwd === null) {
+            localStorage.setItem(pwdKey, pwd);
+        } else if (storedPwd !== '' && storedPwd !== pwd) {
+            loginSetLoading(false);
+            loginSetError('Contraseña incorrecta.');
+            return false;
+        } else if (storedPwd === '' && pwd !== '') {
+            localStorage.setItem(pwdKey, pwd);
+        }
+        _applyLogin(id);
+        return true;
+    }
+
+    // Validar / registrar en el servidor
+    fetch(BASE_PATH + 'api/nick-auth.php', {
+        method:  'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body:    JSON.stringify({ nick, password: pwd, user_id: id }),
+    })
+    .then(r => r.json())
+    .then(data => {
+        if (!data.ok) {
+            loginSetLoading(false);
+            if (data.error === 'wrong_password') {
+                loginSetError('Contraseña incorrecta.');
+            } else {
+                loginSetError(data.error || 'Error al iniciar sesión.');
+            }
+            return;
+        }
+        // El servidor puede devolver el id canónico del usuario existente
+        const resolvedId = data.user_id || id;
+        // Persistir el id local si el servidor asignó uno distinto
+        if (resolvedId !== id) {
+            localStorage.setItem('nickname_user_id', resolvedId);
+        }
+        _applyLogin(resolvedId);
+    })
+    .catch(() => {
+        loginSetLoading(false);
+        loginSetError('No se pudo conectar al servidor.');
+    });
+
+    return true;
+}
+
 // ── Flujo Google OAuth ─────────────────────────────────────────────────────
 
 function signInWithGoogle() {
@@ -6960,7 +7357,13 @@ function signInWithGoogle() {
                     expiry:   Date.now() + (response.expires_in || 3600) * 1000,
                 });
                 loginSetLoading(false);
-                hideLoginModal();
+                if (_postLoginShowOnlineMenu) {
+                    _postLoginShowOnlineMenu = false;
+                    // Mantener el modal abierto: setOnlineUser ya cambió a la vista
+                    // "Invitar a partida online / Buscar jugador online".
+                } else {
+                    hideLoginModal();
+                }
                 showMessage('¡Bienvenido, ' + info.name + '! 🎉', 'success', 3000);
             } catch (err) {
                 loginSetLoading(false);
@@ -7029,7 +7432,13 @@ async function signInWithApple() {
             expiry:   payload.exp ? payload.exp * 1000 : Date.now() + 3600000,
         });
         loginSetLoading(false);
-        hideLoginModal();
+        if (_postLoginShowOnlineMenu) {
+            _postLoginShowOnlineMenu = false;
+            // Mantener el modal abierto: setOnlineUser ya cambió a la vista
+            // "Invitar a partida online / Buscar jugador online".
+        } else {
+            hideLoginModal();
+        }
         showMessage('¡Bienvenido, ' + fullName + '! 🎉', 'success', 3000);
     } catch (err) {
         loginSetLoading(false);
@@ -7056,12 +7465,57 @@ async function signInWithApple() {
         });
 
         document.getElementById('login-google-btn').addEventListener('click', signInWithGoogle);
-        document.getElementById('login-apple-btn').addEventListener('click', signInWithApple);
+        document.getElementById('login-apple-btn').addEventListener('click', function() {
+            loginSetError('🍎 Inicio de sesión con Apple — En construcción.');
+        });
+
+        // ── Nickname (input + flecha azul) ────────────────────────────
+        const nickForm  = document.getElementById('login-nick-form');
+        const nickInput = document.getElementById('login-nick-input');
+
+        if (nickForm) {
+            nickForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                if (nickInput) signInWithNickname(nickInput.value);
+            });
+        }
+        if (nickInput) {
+            // Prefilled con el último nickname recordado entre sesiones
+            const savedNick = localStorage.getItem('nickname_pref') || '';
+            if (savedNick) nickInput.value = savedNick;
+            // Limpia el mensaje de error mientras el usuario corrige
+            nickInput.addEventListener('input', function() { loginSetError(''); });
+        }
+        const pwdInput2 = document.getElementById('login-pwd-input');
+        if (pwdInput2) {
+            pwdInput2.addEventListener('input', function() { loginSetError(''); });
+        }
+
+        // Botón ojo: alternar visibilidad de la contraseña
+        const eyeBtn = document.getElementById('login-pwd-eye');
+        const eyeOpen = document.getElementById('eye-open');
+        const eyeClosed = document.getElementById('eye-closed');
+        if (eyeBtn && pwdInput2 && eyeOpen && eyeClosed) {
+            eyeBtn.addEventListener('click', function() {
+                const isPassword = pwdInput2.type === 'password';
+                pwdInput2.type = isPassword ? 'text' : 'password';
+                eyeOpen.style.display   = isPassword ? 'none'  : '';
+                eyeClosed.style.display = isPassword ? ''      : 'none';
+            });
+        }
 
         const loginStatusBtn = document.getElementById('login-status-btn');
-        if (loginStatusBtn) loginStatusBtn.addEventListener('click', showLoginModal);
+        if (loginStatusBtn) loginStatusBtn.addEventListener('click', function() {
+            const user = getOnlineUser();
+            if (user) {
+                showUserProfileModal();
+            } else {
+                showLoginModal();
+            }
+        });
 
-        document.getElementById('login-signout-btn').addEventListener('click', function() {
+        const loginSignoutBtn = document.getElementById('login-signout-btn');
+        if (loginSignoutBtn) loginSignoutBtn.addEventListener('click', function() {
             clearOnlineUser();
             playerNickname = 'Jugador';
             const nicknameEl = document.getElementById('player-nickname');
@@ -7077,7 +7531,15 @@ async function signInWithApple() {
 
         document.getElementById('login-invite-btn').addEventListener('click', function() {
             hideLoginModal();
-            showGenericInviteModal();
+            // Usar los valores seleccionados en el modal Nueva Partida:
+            // "Juegas con" → playerColorSetting  |  "Control de Tiempo" → timePerPlayer+incrementPerMove
+            const colorRaw   = playerColorSetting || 'white';
+            const tcRaw      = (timePerPlayer != null && incrementPerMove != null)
+                                   ? (timePerPlayer + '+' + incrementPerMove)
+                                   : '5+0';
+            const colorLabel = { white: 'Blancas ♔', black: 'Negras ♚', random: 'Aleatorio 🎲' }[colorRaw] || '';
+            const timeLabel  = timeLabelFor(tcRaw);
+            shareInviteOnline(colorLabel, timeLabel, colorRaw, tcRaw);
         });
 
         document.getElementById('login-play-btn').addEventListener('click', function() {
@@ -7180,15 +7642,6 @@ function pushOnlineEloUpdate(gameId, delta) {
 function formatEloDelta(delta) {
     if (typeof delta !== 'number' || Number.isNaN(delta)) return '';
     return ` (ELO ${delta >= 0 ? '+' : ''}${delta})`;
-}
-
-// Reiniciar estadísticas
-function resetStats() {
-    showConfirmDialog('¿Reiniciar las estadísticas a cero?', () => {
-        stats = { wins: 0, draws: 0, losses: 0, elo: 1200, gamesPlayed: 0 };
-        saveStats();
-        showMessage('Estadísticas reiniciadas', 'success', 2000);
-    });
 }
 
 function resignGame() {
@@ -7399,6 +7852,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Event listeners
     document.getElementById('new-game').addEventListener('click', confirmNewGame);
+    const newGameMobile = document.getElementById('new-game-mobile');
+    if (newGameMobile) newGameMobile.addEventListener('click', confirmNewGame);
     var playerColorPicker = document.getElementById('player-color-picker');
     if (playerColorPicker) {
         playerColorPicker.addEventListener('click', function(e) {
@@ -7409,6 +7864,16 @@ document.addEventListener('DOMContentLoaded', () => {
             if (playerColorSetting === c) return;
             playerColorSetting = c;
             playerColor = c === 'random' ? (Math.random() < 0.5 ? 'white' : 'black') : c;
+            if (_newGameDialogOpen) {
+                // Solo actualizar visualmente el color picker sin tocar "Juegas contra".
+                playerColorPicker.querySelectorAll('.player-color-option').forEach(function(b) {
+                    var sel = b.getAttribute('data-color') === c;
+                    b.classList.toggle('player-color-option--selected', sel);
+                    b.setAttribute('aria-pressed', sel ? 'true' : 'false');
+                });
+                saveSettings();
+                return;
+            }
             syncPlayerColorUI();
             renderBoard();
             renderCoordinateLabels();
@@ -7423,6 +7888,21 @@ document.addEventListener('DOMContentLoaded', () => {
             if (!btn) return;
             var m = btn.getAttribute('data-mode');
             if (m !== 'ai' && m !== 'pvp' && m !== 'online') return;
+            // Dentro del modal de Nueva Partida: sólo previsualización.
+            // No abrimos login ni mutamos el estado global hasta que el usuario pulse "Comenzar".
+            if (_newGameDialogOpen) {
+                playerOpponentPicker.querySelectorAll('.player-color-option').forEach(b => {
+                    var sel = b.getAttribute('data-mode') === m;
+                    b.classList.toggle('player-color-option--selected', sel);
+                    b.setAttribute('aria-pressed', sel ? 'true' : 'false');
+                });
+                var aiSettingsEl = document.getElementById('ai-settings');
+                if (aiSettingsEl) aiSettingsEl.style.display = (m === 'ai') ? '' : 'none';
+                // Guardar inmediatamente para que al reabrir el modal aparezca seleccionado.
+                lastNewGameOpponent = m;
+                saveSettings();
+                return;
+            }
             if (m === 'online') {
                 showLoginModal();
                 return;
@@ -7531,9 +8011,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const el = document.getElementById(id);
         if (el) el.addEventListener('click', shareContent);
     });
-
-    // Estadísticas
-    document.getElementById('reset-stats').addEventListener('click', resetStats);
 
     // Entrenador de aperturas
     const savedOpening = localStorage.getItem('selectedOpening');
@@ -7662,12 +8139,7 @@ document.addEventListener('DOMContentLoaded', () => {
         showAnalysisResults(analysisErrorsList, total, total, blunders, mistakes);
     });
     const navCloseBtn = document.getElementById('analysis-nav-close');
-    if (navCloseBtn) navCloseBtn.addEventListener('click', () => {
-        document.getElementById('analysis-errors-nav').style.display = 'none';
-        document.getElementById('analysis-overlay').style.display = 'none';
-        clearAnalysisHighlight();
-        setAnalysisModeActive(false);
-    });
+    if (navCloseBtn) navCloseBtn.addEventListener('click', dismissPostGameAnalysisUI);
 
     // Bloquear zoom con gesto de pinza en móviles
     document.addEventListener('touchmove', (e) => {
@@ -7703,6 +8175,15 @@ document.addEventListener('DOMContentLoaded', () => {
             checkForGameInProgress();
             updateShareButton();
         });
+    } else if (spInit.get('p')) {
+        // Problema embebido en la URL (FEN + solución codificados en base64)
+        if (!applyPuzzleInlineFromQueryString()) {
+            if (autoSavedGame) {
+                resumeGame(true);
+            } else {
+                startNewGame();
+            }
+        }
     } else if (spInit.get('opening')) {
         if (!applyOpeningFromQueryString()) {
             if (autoSavedGame) {
@@ -7753,7 +8234,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }, true);
 
     document.addEventListener('click', (e) => {
-        if (e.target.closest('#new-game, #start-opening-training, #start-opening-quiz, #resume-game, #resume-game-sidebar, #undo-move, #undo-move-sidebar, #hint-move, #hint-move-sidebar')) {
+        if (e.target.closest('#new-game, #new-game-mobile, #start-opening-training, #start-opening-quiz, #resume-game, #resume-game-sidebar, #undo-move, #undo-move-sidebar, #hint-move, #hint-move-sidebar')) {
             if (window.matchMedia('(max-width: 1024px) and (orientation: portrait), (max-width: 768px)').matches) {
                 setTimeout(() => {
                     var bc3 = document.querySelector('.board-container'); if (bc3) bc3.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -8016,8 +8497,192 @@ async function getAIMove() {
 }
 
 function confirmNewGame() {
-    showConfirmDialog('¿Iniciar una nueva partida?', () => {
+    dismissPostGameAnalysisUI();
+    showNewGameDialog();
+}
+
+function showNewGameDialog() {
+    let overlay = document.getElementById('new-game-overlay');
+    if (overlay) overlay.remove();
+
+    _newGameDialogOpen = true;
+
+    overlay = document.createElement('div');
+    overlay.id = 'new-game-overlay';
+    overlay.className = 'message-overlay new-game-overlay';
+    overlay.style.display = 'flex';
+    document.body.appendChild(overlay);
+
+    const modal = document.createElement('div');
+    modal.className = 'game-list-modal new-game-modal';
+
+    const title = document.createElement('h3');
+    title.className = 'game-list-title';
+    title.textContent = 'Nueva Partida';
+    modal.appendChild(title);
+
+    const content = document.createElement('div');
+    content.className = 'new-game-content';
+    modal.appendChild(content);
+
+    // Mover temporalmente las secciones del panel de Configuración al modal.
+    // Así reaprovechamos los listeners y la lógica existente sin duplicar nada.
+    const colorSection = document.getElementById('color-picker-section');
+    const opponentSection = document.querySelector('.config-section.config-opponent');
+    const aiSection = document.getElementById('ai-settings');
+    const timeSelect = document.getElementById('time-control');
+    const timeSection = timeSelect ? timeSelect.closest('.config-section') : null;
+
+    const moves = [];
+    [colorSection, opponentSection, aiSection, timeSection].forEach(sec => {
+        if (!sec) return;
+        const placeholder = document.createComment('new-game-section-placeholder');
+        sec.parentNode.insertBefore(placeholder, sec);
+        content.appendChild(sec);
+        // Limpiar cualquier inline display heredado del panel de Configuración
+        // (por ejemplo, syncPlayerColorUI puede dejarlo en 'none' en modo PvP).
+        sec.style.display = '';
+        moves.push({ section: sec, placeholder });
+    });
+
+    // Refrescar el estado visual de ambos pickers con los últimos valores guardados,
+    // ya que entre cierres/aperturas del modal el estado visual puede haberse desincronizado.
+
+    // — Picker "Juegas con" (color) —
+    const colorPickerEl = document.getElementById('player-color-picker');
+    if (colorPickerEl) {
+        colorPickerEl.querySelectorAll('.player-color-option').forEach(b => {
+            const sel = b.getAttribute('data-color') === playerColorSetting;
+            b.classList.toggle('player-color-option--selected', sel);
+            b.setAttribute('aria-pressed', sel ? 'true' : 'false');
+        });
+    }
+
+    // — Picker "Juegas contra" (oponente, incluye online) —
+    const opponentPickerEl = document.getElementById('player-opponent-picker');
+    if (opponentPickerEl) {
+        opponentPickerEl.querySelectorAll('.player-color-option').forEach(b => {
+            const sel = b.getAttribute('data-mode') === lastNewGameOpponent;
+            b.classList.toggle('player-color-option--selected', sel);
+            b.setAttribute('aria-pressed', sel ? 'true' : 'false');
+        });
+    }
+
+    // — Nivel de Dificultad: visible solo cuando el oponente es IA —
+    if (aiSection) aiSection.style.display = (lastNewGameOpponent === 'ai') ? '' : 'none';
+
+    function restoreSections() {
+        moves.forEach(m => {
+            if (m.placeholder.parentNode) {
+                m.placeholder.parentNode.insertBefore(m.section, m.placeholder);
+                m.placeholder.remove();
+            }
+        });
+    }
+
+    // Devuelve el modo seleccionado actualmente en el picker (ai/pvp/online).
+    function getSelectedOpponent() {
+        const opponentPickerEl = document.getElementById('player-opponent-picker');
+        if (!opponentPickerEl) return gameOpponent;
+        const sel = opponentPickerEl.querySelector('.player-color-option--selected');
+        return (sel && sel.getAttribute('data-mode')) || gameOpponent;
+    }
+
+    function close() {
+        _newGameDialogOpen = false;
+        restoreSections();
+        // Sincronizar la visibilidad real según el oponente efectivo,
+        // por si el usuario marcó "online" en la previsualización.
+        syncPlayerColorUI();
+        overlay.remove();
+    }
+
+    const btnRow = document.createElement('div');
+    btnRow.className = 'new-game-btn-row';
+    btnRow.style.cssText = 'display:flex;gap:8px;margin-top:8px;';
+
+    const startBtn = document.createElement('button');
+    startBtn.className = 'btn btn-success';
+    startBtn.textContent = 'Comenzar';
+    startBtn.style.marginTop = '0';
+    startBtn.style.flex = '1';
+    startBtn.addEventListener('click', () => {
+        const selected = getSelectedOpponent();
+
+        // ── Leer y sincronizar los 4 valores del modal al estado global ──────
+        // Juegas con
+        const colorPickerEl2 = document.getElementById('player-color-picker');
+        if (colorPickerEl2) {
+            const selColorBtn = colorPickerEl2.querySelector('.player-color-option--selected');
+            if (selColorBtn) {
+                const c = selColorBtn.getAttribute('data-color');
+                if (c === 'white' || c === 'black' || c === 'random') playerColorSetting = c;
+            }
+        }
+        // Nivel de dificultad
+        const diffSelect = document.getElementById('ai-difficulty');
+        if (diffSelect) aiDifficulty = parseInt(diffSelect.value) || aiDifficulty;
+        // Control de tiempo
+        const tcSelect2 = document.getElementById('time-control');
+        if (tcSelect2) {
+            const parts = tcSelect2.value.split('+').map(Number);
+            if (parts.length === 2 && !isNaN(parts[0]) && !isNaN(parts[1])) {
+                timePerPlayer = parts[0];
+                incrementPerMove = parts[1];
+            }
+        }
+        // Juegas contra
+        lastNewGameOpponent = selected;
+
+        // ─────────────────────────────────────────────────────────────────────
+        // Online: delegar al modal de sesión, que muestra automáticamente
+        // la vista de inicio de sesión o la de "Invitar / Buscar jugador"
+        // dependiendo de si ya hay un usuario autenticado. Si no hay sesión,
+        // marcamos un flag para que tras el login el modal NO se cierre y
+        // el usuario vea directamente "Invitar / Buscar".
+        if (selected === 'online') {
+            if (!getOnlineUser()) {
+                _postLoginShowOnlineMenu = true;
+            }
+            saveSettings();
+            close();
+            showLoginModal();
+            return;
+        }
+        // Aplicar al estado global la selección realizada en el modal
+        // (durante el modal sólo se previsualiza, no se mutaba gameOpponent).
+        if ((selected === 'ai' || selected === 'pvp') && gameOpponent !== selected) {
+            gameOpponent = selected;
+            if (selected === 'pvp') {
+                playerColor = 'both';
+                hideVariantsPopup(false);
+                const openingLog = document.getElementById('opening-log');
+                if (openingLog) openingLog.remove();
+            } else {
+                playerColor = playerColorSetting === 'random'
+                    ? (Math.random() < 0.5 ? 'white' : 'black')
+                    : playerColorSetting;
+            }
+        }
+        saveSettings();
+        close();
         startNewGame();
+    });
+
+    const cancelBtn = document.createElement('button');
+    cancelBtn.className = 'btn btn-secondary';
+    cancelBtn.textContent = 'Cancelar';
+    cancelBtn.style.marginTop = '0';
+    cancelBtn.style.flex = '1';
+    cancelBtn.addEventListener('click', close);
+
+    btnRow.appendChild(startBtn);
+    btnRow.appendChild(cancelBtn);
+    modal.appendChild(btnRow);
+
+    overlay.appendChild(modal);
+    overlay.addEventListener('click', (e) => {
+        if (e.target === overlay) close();
     });
 }
 
@@ -8538,7 +9203,7 @@ function setGameButtonsDisabled(disabled) {
 function setOnlineActionsLocked(locked) {
     const idsToLock = [
         // Configuración / partida nueva
-        'new-game',
+        'new-game', 'new-game-mobile',
         // Navegación de partida guardada
         'resume-game', 'resume-game-sidebar',
         // Acciones de turno
@@ -8569,7 +9234,7 @@ function setOnlineActionsLocked(locked) {
         // Restaurar el estado coherente normal: los botones de partida vuelven a estar
         // habilitados; aperturas/quiz se reactivan según haya selección de apertura.
         setGameButtonsDisabled(false);
-        ['new-game', 'copy-pgn', 'copy-pgn-board',
+        ['new-game', 'new-game-mobile', 'copy-pgn', 'copy-pgn-board',
          'export-pgn', 'import-pgn', 'load-famous-game',
          'share-board', 'share-sidebar',
          'load-puzzle', 'resume-game', 'resume-game-sidebar'].forEach(function(id) {
@@ -8602,6 +9267,12 @@ function setPuzzleActionsLocked(locked) {
 
 function showContinueButton() {
     const resumeBtns = ['resume-game', 'resume-game-sidebar'].map(id => document.getElementById(id)).filter(Boolean);
+    // En partidas online no se ofrece "Continuar Partida": no se puede salir,
+    // navegar o reanudar a otro estado mientras la partida online está activa.
+    if (_onlineGame && _onlineGame.status === 'active') {
+        resumeBtns.forEach(btn => { btn.disabled = true; btn.onclick = null; });
+        return;
+    }
     resumeBtns.forEach(btn => { btn.disabled = false; });
     const handler = function() {
         resumeBtns.forEach(btn => { btn.disabled = true; btn.onclick = null; });
@@ -8906,6 +9577,11 @@ function applyBoardTheme() {
 }
 
 function undoMove() {
+    // En partidas online no se permite deshacer movimientos.
+    if (_onlineGame && _onlineGame.status === 'active') {
+        showMessage('No puedes deshacer movimientos en partida online', 'warning', 2000);
+        return;
+    }
     if (!game.canUndo()) {
         showMessage('No hay movimientos para deshacer', 'warning', 2000);
         return;
@@ -8928,7 +9604,10 @@ function undoMove() {
 }
 
 function updateUndoButton() {
-    const canUndo = game && game.canUndo();
+    // Durante una partida online no se permite deshacer movimientos: el botón
+    // queda siempre desactivado mientras la partida esté activa.
+    const onlineActive = !!(_onlineGame && _onlineGame.status === 'active');
+    const canUndo = !onlineActive && game && game.canUndo();
     ['undo-move', 'undo-move-sidebar'].forEach(id => {
         const el = document.getElementById(id);
         if (el) el.disabled = !canUndo;
@@ -9482,7 +10161,14 @@ function getShareInfo() {
         if (id) {
             return { url: `${BASE_PATH}?puzzle=${encodeURIComponent(id)}`, label: SHARE_COMPARTIR_LABEL.problemas, shareKind: 'problema', shareDetail: titleDetail };
         }
-        return { url: `${BASE_PATH}?daily=1`, label: SHARE_COMPARTIR_LABEL.problemas, shareKind: 'problema', shareDetail: titleDetail || 'Problema del día' };
+        // Sin id Lichess (puzzles locales o API caída): codificamos la posición
+        // y la solución en la propia URL para que el enlace siempre abra el
+        // problema concreto que se está viendo en este momento.
+        const payload = encodePuzzlePayload(currentPuzzle);
+        if (payload) {
+            return { url: `${BASE_PATH}?p=${payload}`, label: SHARE_COMPARTIR_LABEL.problemas, shareKind: 'problema', shareDetail: titleDetail };
+        }
+        return { url: BASE_PATH, label: SHARE_COMPARTIR_LABEL.problemas, shareKind: 'problema', shareDetail: titleDetail };
     }
 
     if (shareContext === 'maestra') {
@@ -10258,15 +10944,24 @@ function checkForGameInProgress() {
     if (raw) {
         try { inProgress = !JSON.parse(raw).gameOver; } catch (e) {}
     }
+    // Durante una partida online no se permite reanudar otra partida.
+    const onlineActive = !!(_onlineGame && _onlineGame.status === 'active');
     ['resume-game', 'resume-game-sidebar'].forEach(id => {
         const el = document.getElementById(id);
-        if (el) el.disabled = !inProgress;
+        if (el) el.disabled = onlineActive || !inProgress;
     });
 }
 
 function resumeGame(silent) {
+    // En partidas online no se permite reanudar otra partida guardada:
+    // la partida online en curso es prioritaria.
+    if (_onlineGame && _onlineGame.status === 'active') {
+        if (!silent) showMessage('No puedes continuar otra partida durante una partida online', 'warning', 2500);
+        return;
+    }
+
     const autoSavedGame = localStorage.getItem('auto_saved_game');
-    
+
     if (!autoSavedGame) {
         if (!silent) showMessage('No hay partida en curso para continuar', 'warning', 2000);
         return;

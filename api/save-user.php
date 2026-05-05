@@ -90,6 +90,8 @@ $existing = $check->fetch(PDO::FETCH_ASSOC);
 $is_new   = ($existing === false);
 
 // ── Upsert usuario ────────────────────────────────────────────────────
+// Nota: actualizamos también email/provider para soportar el cambio de nick
+// en cuentas tipo "nickname" (email sintético <nick>@nickname.local).
 $pdo->prepare("
     INSERT INTO ajedrezia_users (id, provider, email, name, first_login, last_login, login_count, last_ip)
     VALUES (?, ?, ?, ?, ?, ?, 1, ?)
@@ -97,7 +99,9 @@ $pdo->prepare("
         last_login  = VALUES(last_login),
         login_count = login_count + 1,
         last_ip     = VALUES(last_ip),
-        name        = VALUES(name)
+        name        = VALUES(name),
+        email       = VALUES(email),
+        provider    = VALUES(provider)
 ")->execute([$uid, $provider, $email, $name, $now, $now, $ip]);
 
 // ── Registrar en historial ────────────────────────────────────────────

@@ -2,6 +2,16 @@
 
 ---
 
+## v3.0.6 — 2026-05-05
+
+### Responsive
+- En móvil / tablet en vertical, el botón «Nueva Partida» se muestra justo encima del panel **Configuración** (tras el tablero). Se corrige el orden en el contenedor flex cuando las barras laterales usan `display: contents`.
+
+### Juego online / cuenta
+- Registro e inicio de sesión con **nickname y contraseña** en el servidor (`api/nick-auth.php`), coherente con el guardado de usuario para cuentas tipo nickname (`save-user.php`).
+
+---
+
 ## v3.0.5 — 2026-05-04
 
 ### Mejoras de UI (modo PC)
