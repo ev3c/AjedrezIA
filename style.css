@@ -2200,6 +2200,12 @@ body.puzzle-mode-active .mini-clock {
     animation: fadeIn 0.3s ease;
 }
 
+/* Por encima de .mobile-select-backdrop (10001): si no, el bottom-sheet de selects
+   táctiles queda debajo del velo y no se puede elegir dificultad/tiempo en Nueva Partida. */
+.message-overlay.new-game-overlay {
+    z-index: 10050;
+}
+
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
