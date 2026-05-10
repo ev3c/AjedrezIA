@@ -25,6 +25,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
     <meta name="theme-color" content="#e5e7eb">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -403,16 +404,21 @@
                            <button id="analysis-nav-next" class="analysis-nav-btn" title="Siguiente error">›</button>
                            <button id="analysis-nav-close" class="analysis-nav-btn analysis-nav-list-btn" title="Cerrar análisis">✕</button>
                        </div>
-                       <!-- Mini-reloj compacto (solo visible en responsive) -->
-                       <div class="mini-clock" id="mini-clock">
-                           <div class="mini-clock-player" id="mini-clock-white">
-                               <span class="mini-clock-label">♔</span>
-                               <span class="mini-clock-time" id="mini-white-time">3:00</span>
+                       <!-- Mini-reloj compacto bajo el tablero + ELO a la derecha -->
+                       <div class="mini-clock-elo-row" id="mini-clock-elo-row">
+                           <div class="mini-clock" id="mini-clock">
+                               <div class="mini-clock-player" id="mini-clock-white">
+                                   <span class="mini-clock-label">♔</span>
+                                   <span class="mini-clock-time" id="mini-white-time">3:00</span>
+                               </div>
+                               <div class="mini-clock-player" id="mini-clock-black">
+                                   <span class="mini-clock-label">♚</span>
+                                   <span class="mini-clock-time" id="mini-black-time">3:00</span>
+                               </div>
                            </div>
-                           <div class="mini-clock-player" id="mini-clock-black">
-                               <span class="mini-clock-label">♚</span>
-                               <span class="mini-clock-time" id="mini-black-time">3:00</span>
-                           </div>
+                          <div class="mini-elo-display" title="Tu ELO">
+                              <span class="mini-elo-label">ELO:&nbsp;</span><span class="mini-elo-value" id="mini-elo-value">1200</span>
+                          </div>
                        </div>
                        <div id="captured-below" class="captured-below">
                            <span class="captured-label captured-label-white">Blancas: <span id="captured-white"></span></span>
@@ -508,7 +514,7 @@
                 <button id="new-game-mobile" type="button" class="btn btn-success btn-new-game-top btn-new-game--mobile" aria-label="Nueva Partida">♟ Nueva Partida</button>
 
                 <div class="panel panel-collapsible collapsed" id="config-panel">
-                    <h2 class="panel-toggle" id="config-toggle">Configuración <span class="panel-arrow">▲</span></h2>
+                    <h2 class="panel-toggle" id="config-toggle">⚙️ Configuración <span class="panel-arrow">▲</span></h2>
                     <div class="panel-body" id="config-body">
 
                     <div class="config-section config-row-nickname">
@@ -648,11 +654,15 @@
                         <label><input type="checkbox" id="sound-enabled" checked> Sonidos</label>
                     </div>
 
+                    <div class="config-section">
+                        <button type="button" id="config-help-btn" class="btn btn-secondary" style="width:100%">❓ Ayuda en Vídeo</button>
+                    </div>
+
                     </div>
                 </div>
 
                        <div class="panel panel-collapsible collapsed" id="actions-panel">
-                           <h2 class="panel-toggle">Acciones <span class="panel-arrow">▲</span></h2>
+                           <h2 class="panel-toggle">⚡ Acciones <span class="panel-arrow">▲</span></h2>
                            <div class="panel-body">
                            <button id="resign-game-sidebar" class="btn btn-danger">🏳️ Abandonar</button>
                            <button id="offer-draw-sidebar" class="btn btn-warning">🤝 Pedir Tablas</button>
@@ -698,6 +708,39 @@
     <footer class="app-footer">
         <a href="mailto:ev3c.android@gmail.com">ev3c.android@gmail.com</a>
     </footer>
+
+    <!-- Menú Ayuda: elegir panel / tema para abrir su vídeo tutorial -->
+    <div id="help-menu-overlay" class="login-modal-overlay help-menu-overlay" role="dialog" aria-modal="true" aria-labelledby="help-menu-heading">
+        <div class="login-modal-card help-menu-card">
+            <button type="button" class="login-modal-close" id="help-menu-close" title="Cerrar" aria-label="Cerrar">✕</button>
+            <h2 class="login-modal-title" id="help-menu-heading">Ayuda en vídeo</h2>
+            <p class="login-modal-subtitle help-menu-intro">Elige un tema para ver el tutorial en YouTube.</p>
+            <button type="button" id="help-menu-tutorial-completo-btn" class="btn btn-secondary help-menu-item-btn help-menu-tutorial-completo-btn">📚 Tutorial Completo</button>
+            <ul class="help-menu-list" id="help-menu-list"></ul>
+            <button type="button" id="help-menu-analysis-btn" class="btn btn-secondary help-menu-item-btn help-menu-analysis-btn">📊 Análisis</button>
+            <button type="button" id="help-menu-share-btn" class="btn btn-secondary help-menu-item-btn help-menu-share-btn">📤 Compartir</button>
+        </div>
+    </div>
+
+    <!-- Ayuda: vídeo embebido + opción abrir en YouTube (ventana arrastrable) -->
+    <div id="help-modal-overlay" class="login-modal-overlay help-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="help-modal-title">
+        <div class="login-modal-card help-modal-card" id="help-modal-card">
+            <div class="help-modal-drag-handle" id="help-modal-drag-handle" role="presentation">
+                <button type="button" class="login-modal-close help-modal-close-in-drag" id="help-modal-close" title="Cerrar" aria-label="Cerrar">✕</button>
+                <h2 class="login-modal-title" id="help-modal-title">Ayuda · Introducción</h2>
+            </div>
+            <div class="help-modal-video-wrap">
+                <iframe id="help-modal-iframe" width="1536" height="864" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen src="about:blank"></iframe>
+            </div>
+            <div class="help-modal-open-wrap">
+                <button type="button" id="help-modal-sound-btn" class="btn btn-primary help-modal-open-secondary help-modal-sound-btn" style="display:none">Activar sonido</button>
+                <button type="button" id="help-modal-open-youtube" class="btn btn-secondary help-modal-open-secondary">Abrir en YouTube</button>
+            </div>
+            <div class="help-modal-footer">
+                <label class="help-modal-dont-show"><input type="checkbox" id="help-intro-hide-again"> No volver a mostrar</label>
+            </div>
+        </div>
+    </div>
 
     <!-- Modal de inicio de sesión online -->
     <div id="login-modal-overlay" class="login-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="login-modal-title">

@@ -239,13 +239,16 @@ function applyEloChange(delta) {
     stats.elo = Math.max(100, stats.elo + delta);
     saveStats();
     const el = document.getElementById('stat-elo');
-    if (!el) return;
-    el.textContent = stats.elo;
-    const deltaEl = document.createElement('span');
-    deltaEl.className = 'elo-delta ' + (delta >= 0 ? 'elo-delta-up' : 'elo-delta-down');
-    deltaEl.textContent = (delta >= 0 ? '+' : '') + delta;
-    el.parentElement.appendChild(deltaEl);
-    setTimeout(() => deltaEl.remove(), 2200);
+    if (el) {
+        el.textContent = stats.elo;
+        const deltaEl = document.createElement('span');
+        deltaEl.className = 'elo-delta ' + (delta >= 0 ? 'elo-delta-up' : 'elo-delta-down');
+        deltaEl.textContent = (delta >= 0 ? '+' : '') + delta;
+        el.parentElement.appendChild(deltaEl);
+        setTimeout(() => deltaEl.remove(), 2200);
+    }
+    const miniEl = document.getElementById('mini-elo-value');
+    if (miniEl) miniEl.textContent = stats.elo;
 }
 
 // Motor Stockfish
@@ -3035,6 +3038,12 @@ function puzzlePlayOpponentMove() {
     }
 }
 
+function getPuzzleEloByStar(difficulty) {
+    // 1⭐ → +1, 2⭐ → +2, 3⭐ → +3, 4⭐ → +4
+    var diff = (currentPuzzle && currentPuzzle.difficulty) ? currentPuzzle.difficulty : (difficulty || 1);
+    return Math.max(1, Math.min(4, diff));
+}
+
 function puzzleSolved() {
     puzzleActive = false;
     puzzleStats.solved++;
@@ -3050,16 +3059,19 @@ function puzzleSolved() {
     if (idx !== -1 && puzzleHistory.indexOf(idx) === -1) puzzleHistory.push(idx);
     savePuzzleStats();
     updatePuzzleStatsUI();
+    var eloGained = 0;
     if (!puzzleSolutionViewed) {
-        applyEloChange(1);
+        eloGained = getPuzzleEloByStar();
+        applyEloChange(eloGained);
     }
     renderBoard();
     var total = puzzleCorrectMoves + puzzleWrongMoves;
     var pct = total > 0 ? Math.round(puzzleCorrectMoves / total * 100) : 100;
     var streakMsg = puzzleStats.streak > 0 ? ' | Racha: ' + puzzleStats.streak : '';
-    var sidebarMsg = '🎉 ¡Problema resuelto! Aciertos: ' + puzzleCorrectMoves + ' | Fallos: ' + puzzleWrongMoves + ' | Precisión: ' + pct + '%' + streakMsg;
+    var eloMsg = eloGained > 0 ? ' (+' + eloGained + ' ELO)' : '';
+    var sidebarMsg = '🎉 ¡Problema resuelto!' + eloMsg + ' Aciertos: ' + puzzleCorrectMoves + ' | Fallos: ' + puzzleWrongMoves + ' | Precisión: ' + pct + '%' + streakMsg;
     showPuzzleFeedback(sidebarMsg, 'correct');
-    showBoardBanner('🎉 ¡Problema Resuelto!', 'puzzle-solved');
+    showBoardBanner('🎉 ¡Problema Resuelto!' + eloMsg, 'puzzle-solved');
     document.getElementById('puzzle-hint').disabled = true;
     document.getElementById('puzzle-solution').disabled = true;
     updatePuzzleNavButtons();
@@ -5180,13 +5192,21 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '3.0.7': [
+        'Menú "Ayuda en Vídeo": vídeos de tutorial asignados a todos los paneles (Introducción, Nueva Partida, Aperturas, Problemas, Partidas Maestras, Configuración, Acciones, Análisis, Compartir)',
+        'Vídeo de inicio (modal automático al abrir la app) actualizado',
+        'Ventana de vídeo limitada al alto visible del viewport (calc 100dvh) para evitar desbordamiento en pantallas pequeñas',
+        '... y más mejoras en AjedrezIA ...',
+    ],
     '3.0.6': [
         'Reorganización general del panel Configuración y Botón "Nueva Partida" ',
         'Login online: Añadido registro e inicio de sesión con Usuario y Contraseña en servidor (api/nick-auth.php), alineado con save-user para cuentas provider nickname',
+        '... y más mejoras en AjedrezIA ...',
     ],
     '3.0.5': [
         'Mini-reloj compacto bajo el tablero ahora visible también en modo PC (antes solo aparecía en móvil)',
         'Elementos bajo el tablero (reloj, piezas capturadas, botones de acción y navegador de movimientos) más compactos y juntos en escritorio',
+        '... y más mejoras en AjedrezIA ...',
     ],
     '3.0.4': [
         'Chat online durante la partida: panel plegable en la barra lateral derecha (sólo modo PC) para conversar con tu oponente en tiempo real, con burbujas propias/rivales, envío optimista, polling cada 2,5 s e insignia de mensajes no leídos',
@@ -5202,11 +5222,13 @@ const VERSION_CHANGELOG = {
         'Login: detección automática de navegadores no compatibles con Google OAuth (Mi Browser, WebView, apps internas de Facebook/Instagram/TikTok/LINE/Twitter/Snapchat, Samsung Internet antiguo, UC, QQ, Baidu, Oppo, Vivo, Huawei, Meizu)',
         'Login: cuando se detecta un navegador no compatible, el modal muestra un aviso con botones "Abrir en Chrome" (intent de Android) y "Copiar enlace"',
         'Login: timeout de 45 s y error_callback en Google Sign-In — el spinner "Conectando…" ya no se queda colgado si el popup no responde',
+        '... y más mejoras en AjedrezIA ...',
     ],
     '3.0.3': [
         'Configuración: "Juegas con" (Blancas / Negras / Aleatorio 🎲) y "Juegas contra" (IA 💻 / Persona vs persona 🧑 / Online 🌐) como selectores separados',
         'Color aleatorio: al iniciar partida se resuelve aleatoriamente entre blancas y negras',
         'Dificultad y selector de color se ocultan automáticamente al elegir Persona vs persona u Online',
+        '... y más mejoras en AjedrezIA ...',
     ],
     '3.0.2': [
         'Online: durante la partida se desactivan todos los botones excepto Abandonar y Pedir Tablas',    
@@ -5222,19 +5244,23 @@ const VERSION_CHANGELOG = {
         'API REST PHP: heartbeat, get-users, save-user, send-invite, respond-invite, get-invite-status, get-game, send-move, end-game, get-invites',
         'Análisis post-partida: seguimiento completo hasta el último movimiento, incluidas posiciones terminales',
         'Actualización automática forzada: las versiones anteriores instaladas como PWA se actualizan al abrir la app',
+        '... y más mejoras en AjedrezIA ...',
     ],
     '2.6.6': [
         'Corrección: el análisis post-partida ahora llega siempre hasta el último movimiento',
         'Las posiciones terminales (jaque mate / ahogado) ya no causan un error de API que interrumpía el análisis',
+        '... y más mejoras en AjedrezIA ...',
     ],
     '2.6.5': [
         'Actualización automática reforzada: todas las versiones anteriores (incluso instaladas como PWA) se actualizan al abrir www.ajedrezia.com',
         'Service Worker registrado con ?v=APP_VERSION para evitar la caché HTTP de navegadores y proxies',
         'Limpieza agresiva de cachés antiguas al activar la nueva versión',
         'Comprobación de versión al arrancar y al volver a la pestaña: fuerza recarga si detecta una versión más reciente',
+        '... y más mejoras en AjedrezIA ...',
     ],
     '2.6.2': [
         'Compartir partida: el enlace usa siempre ?moves= (UCI) en lugar de ?pgn= (base64)',
+        '... y más mejoras en AjedrezIA ...',
     ],
     '2.6.1': [
         'Problemas: barra de navegación ajustada al ancho de pantalla en móvil (responsive)',
@@ -5245,12 +5271,14 @@ const VERSION_CHANGELOG = {
         '  ?puzzle= id Lichess (mismo que Compartir) carga el problema vía API; prioridad: moves > puzzle > opening > master > auto-guardado',
         '  ?opening= catalana (OPENING_TRAINING) carga y reproduce la apertura (Ver Apertura); prioridad: moves > puzzle > opening > master > auto-guardado',
         '  ?master= kasparov-anand-95 (clave FAMOUS_GAMES) carga la partida maestra al abrir; prioridad sobre auto-guardado',
+        '... y más mejoras en AjedrezIA ...',
     ],
     '2.5.8': [
         'Actualización automática de nuevas versiones SW, CSS y scripts en todos los dispositivos',
         'Compartir: textos "Compartir Partida/Apertura/Problema/Maestra (+10 ELO)"; al completar compartir (copiar, X, WhatsApp, Gmail) +10 ELO',
         'Compartir: formato único de mensaje (AjedrezIA + tipo + detalle + ♟ URL) para partida, apertura, problema y partida maestra',
         'Enlaces: ?moves= e2e4,d7d6,… (UCI, coma o +) reproduce la partida al abrir; prioridad sobre auto-guardado',
+        '... y más mejoras en AjedrezIA ...',
     ],
     '2.5.7': [
         'Configuración: campo Nickname para personalizar el nombre del jugador (guardado entre sesiones)',
@@ -5261,6 +5289,7 @@ const VERSION_CHANGELOG = {
         'Problemas: Botón "Cargar Problema" explícito — la categoría no carga automáticamente... y más mejoras',
         'Entrenar Aperturas: botón "Ver Apertura" recolocado sobre Variantes Conocidas',
         'Changelog: al detectar nueva versión se muestra el historial completo de todas las versiones',
+        '... y más mejoras en AjedrezIA ...',
     ],
     '2.5.5': [
         'Fin de partida: mensaje y banner muestran ELO +/- (mate, tablas, tiempo y abandono)',
@@ -5272,15 +5301,18 @@ const VERSION_CHANGELOG = {
         'Problemas: conectado a la BD de Lichess con más de 5,5 millones de puzzles reales',
         '      "Ver Solución" deja seguir intentando el puzzle pero sin sumar ELO',
         '       UI más limpia — se ocultan piezas capturadas, botones de acción e historial al jugar',
+        '... y más mejoras en AjedrezIA ...',
     ],
     '2.5.4': [
         'PWA: actualización fiable con updateViaCache:none, detección de SW waiting y chequeo al volver al tab',
+        '... y más mejoras en AjedrezIA ...',
     ],
     '2.5.3': [
         'Partidas maestras: corregidos PGN con movimientos ilegales; 76 partidas verificadas, 9 desactivadas',
         'Menú de partidas: eliminadas las 9 partidas con PGN incorregible',
         'Responsive: botones de acción (Abandonar, Tablas, etc.) en una sola fila en smartphones',
         'Barra de análisis: Imprecisión/Error y movimiento en dos líneas, más compacto en móvil',
+        '... y más mejoras en AjedrezIA ...',
     ],
     '2.5.2': [
         'Barra de problemas oculta al iniciar: solo aparece al abrir el panel de Problemas',
@@ -5298,11 +5330,13 @@ const VERSION_CHANGELOG = {
         'Ver Apertura: al finalizar, continuar con variantes desde el menú o flechas azules',
         'Análisis: botón 📊 en la barra de navegación para reabrir el resumen de errores',
         'Hover en movimientos y flechas de variantes mejorado (PC)',
+        '... y más mejoras en AjedrezIA ...',
     ],
     '2.4.4': [
         'Insights múltiples: un movimiento puede mostrar 2-3 mensajes de ayuda combinados',
         'Recapturas: detecta "Recuperas pieza" cuando recapturas en la misma casilla',
         'Actualización automática de PWA: borra caché antigua y recarga al detectar nueva versión',
+        '... y más mejoras en AjedrezIA ...',
     ],
     '2.4.3': [
         'Biblioteca de Partidas Maestras: +25 partidas nuevas, total ~85 partidas',
@@ -5384,6 +5418,434 @@ function checkNewVersion() {
         }), 500);
     }
 }
+
+const HELP_INTRO_YOUTUBE_HIDDEN_KEY = 'help_intro_youtube_hidden';
+
+/**
+ * Vídeos de ayuda por panel. `videoId` null = tutorial pendiente (se avisa al usuario).
+ * Añade aquí el id de YouTube de cada tutorial cuando lo subas.
+ */
+const HELP_VIDEO_CATALOG = [
+    {
+        key: 'intro',
+        title: '🎬 Introducción a AjedrezIA',
+        videoId: 'cyl1BW5F2YA',
+        controls: 0,
+        watchUrl: 'https://youtu.be/cyl1BW5F2YA'
+    },
+    {
+        key: 'tutorial-completo',
+        title: '📚 Tutorial Completo',
+        videoId: '9uKhLt_rhJo',
+        watchUrl: 'https://youtu.be/9uKhLt_rhJo',
+        helpMenuStaticOnly: true
+    },
+    {
+        key: 'new-game',
+        title: '♟ Nueva Partida',
+        videoId: '_0gcI7fWUI4',
+        watchUrl: 'https://youtu.be/_0gcI7fWUI4'
+    },
+    {
+        key: 'openings',
+        title: '📖 Entrenar Aperturas',
+        videoId: 'E989q6TTYvo',
+        watchUrl: 'https://youtu.be/E989q6TTYvo'
+    },
+    {
+        key: 'puzzles',
+        title: '🧩 Problemas de Ajedrez',
+        videoId: 'iDx3MobdpKU',
+        watchUrl: 'https://youtu.be/iDx3MobdpKU'
+    },
+    {
+        key: 'famous',
+        title: '🏆 Partidas Maestras',
+        videoId: 'gEUvEooSknE',
+        watchUrl: 'https://youtu.be/gEUvEooSknE'
+    },
+    {
+        key: 'config',
+        title: '⚙️ Configuración',
+        videoId: 'WT89teh9R_U',
+        watchUrl: 'https://youtu.be/WT89teh9R_U'
+    },
+    {
+        key: 'actions',
+        title: '⚡ Acciones',
+        videoId: 'TlSccO7FlEQ',
+        watchUrl: 'https://youtu.be/TlSccO7FlEQ'
+    },
+    {
+        key: 'analysis',
+        title: '📊 Análisis',
+        videoId: '49ggdWfBA9g',
+        watchUrl: 'https://youtu.be/49ggdWfBA9g',
+        helpMenuFooterOnly: true
+    },
+    {
+        key: 'share',
+        title: '📤 Compartir',
+        videoId: 'jTpfHuWCheI',
+        watchUrl: 'https://youtu.be/jTpfHuWCheI',
+        helpMenuFooterOnly: true
+    }
+];
+
+var _helpModalCurrentKey = null;
+/** true sólo cuando el modal de intro se abre al arrancar la app (mostrar «No volver a mostrar»). */
+var _helpIntroDontShowOffered = false;
+
+function getHelpYoutubeEmbedUrl(entry, embedOpts) {
+    if (!entry || !entry.videoId) return 'about:blank';
+    embedOpts = embedOpts || {};
+    var parts = ['rel=0'];
+    if (entry.si) parts.push('si=' + encodeURIComponent(entry.si));
+    // Autoplay con sonido puede bloquearse según el navegador; se muestran controles si autoplay.
+    var hideControls = entry.controls === 0 && !embedOpts.autoplay;
+    if (hideControls) parts.push('controls=0');
+    if (embedOpts.autoplay) {
+        parts.push('autoplay=1');
+        parts.push('playsinline=1');
+    }
+    return 'https://www.youtube.com/embed/' + entry.videoId + '?' + parts.join('&');
+}
+
+function helpEscapeHtml(s) {
+    return String(s)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/"/g, '&quot;');
+}
+
+function centerHelpModalCard() {
+    const card = document.getElementById('help-modal-card');
+    if (!card) return;
+    var margin = 8;
+    var w = card.offsetWidth;
+    var h = card.offsetHeight;
+    var left = (window.innerWidth - w) / 2;
+    var top = (window.innerHeight - h) / 2;
+    left = Math.max(margin, Math.min(left, window.innerWidth - w - margin));
+    top = Math.max(margin, Math.min(top, window.innerHeight - h - margin));
+    card.style.left = left + 'px';
+    card.style.top = top + 'px';
+}
+
+function openHelpIntroYoutubeTab() {
+    var url = typeof window._helpCurrentWatchUrl === 'string' ? window._helpCurrentWatchUrl.trim() : '';
+    if (!url && HELP_VIDEO_CATALOG[0] && HELP_VIDEO_CATALOG[0].videoId) {
+        var e0 = HELP_VIDEO_CATALOG[0];
+        url = e0.watchUrl || ('https://www.youtube.com/watch?v=' + e0.videoId);
+    }
+    if (!url) return;
+    try {
+        window.open(url, '_blank', 'noopener,noreferrer');
+    } catch (_e) {
+        window.location.href = url;
+    }
+}
+
+function openHelpFromConfig() {
+    showHelpMenu();
+}
+
+function hideHelpMenu() {
+    var menu = document.getElementById('help-menu-overlay');
+    if (menu) menu.classList.remove('is-open');
+}
+
+function showHelpTopicComingSoon(panelTitle) {
+    showMessage(
+        '<p><strong>' + helpEscapeHtml(panelTitle) + '</strong></p>' +
+            '<p>El vídeo de ayuda para este panel estará disponible pronto.</p>',
+        'info',
+        0
+    );
+}
+
+function showHelpMenu() {
+    var menu = document.getElementById('help-menu-overlay');
+    if (!menu) {
+        if (HELP_VIDEO_CATALOG[0] && HELP_VIDEO_CATALOG[0].videoId) {
+            showHelpVideoModal(HELP_VIDEO_CATALOG[0]);
+        } else {
+            showHelpTopicComingSoon('Ayuda');
+        }
+        return;
+    }
+    if (menu.parentElement !== document.body) {
+        document.body.appendChild(menu);
+    }
+    var list = document.getElementById('help-menu-list');
+    if (list) {
+        list.innerHTML = '';
+        HELP_VIDEO_CATALOG.forEach(function(entry) {
+            if (entry.helpMenuFooterOnly || entry.helpMenuStaticOnly) return;
+            var li = document.createElement('li');
+            var btn = document.createElement('button');
+            btn.type = 'button';
+            btn.className = 'btn btn-secondary help-menu-item-btn';
+            btn.textContent = entry.title;
+            if (!entry.videoId) {
+                btn.classList.add('help-menu-item-btn--pending');
+                btn.title = 'Vídeo disponible próximamente';
+            }
+            btn.addEventListener('click', function() {
+                hideHelpMenu();
+                if (!entry.videoId) {
+                    showHelpTopicComingSoon(entry.title);
+                } else {
+                    showHelpVideoModal(entry);
+                }
+            });
+            li.appendChild(btn);
+            list.appendChild(li);
+        });
+    }
+    menu.classList.add('is-open');
+}
+
+function showHelpVideoModal(entry, options) {
+    options = options || {};
+    var overlay = document.getElementById('help-modal-overlay');
+    if (!overlay || !entry) return;
+    _helpModalCurrentKey = entry.key;
+    _helpIntroDontShowOffered = !!options.showDontShowAgain && entry.key === 'intro';
+    window._helpCurrentWatchUrl = entry.watchUrl
+        ? entry.watchUrl
+        : entry.videoId
+            ? ('https://www.youtube.com/watch?v=' + entry.videoId)
+            : '';
+
+    if (overlay.parentElement !== document.body) {
+        document.body.appendChild(overlay);
+    }
+
+    var titleEl = document.getElementById('help-modal-title');
+    if (titleEl) titleEl.textContent = entry.title;
+
+    var iframe = document.getElementById('help-modal-iframe');
+    if (iframe) {
+        iframe.src = getHelpYoutubeEmbedUrl(entry, { autoplay: !!options.autoplay });
+        iframe.title = entry.title + ' — YouTube';
+    }
+
+    var footer = overlay.querySelector('.help-modal-footer');
+    var cb = document.getElementById('help-intro-hide-again');
+    if (footer) footer.style.display = _helpIntroDontShowOffered ? '' : 'none';
+    if (cb) cb.checked = false;
+
+    overlay.classList.add('is-open');
+    requestAnimationFrame(function() {
+        requestAnimationFrame(centerHelpModalCard);
+    });
+}
+
+function hideHelpIntroModal() {
+    const overlay = document.getElementById('help-modal-overlay');
+    if (!overlay) return;
+    const cb = document.getElementById('help-intro-hide-again');
+    if (cb && cb.checked && _helpModalCurrentKey === 'intro' && _helpIntroDontShowOffered) {
+        try {
+            localStorage.setItem(HELP_INTRO_YOUTUBE_HIDDEN_KEY, '1');
+        } catch (_e) { /* noop */ }
+    }
+    overlay.classList.remove('is-open');
+    _helpModalCurrentKey = null;
+    _helpIntroDontShowOffered = false;
+    const iframe = document.getElementById('help-modal-iframe');
+    if (iframe) iframe.src = 'about:blank';
+}
+
+function maybeShowIntroVideoOnStartup() {
+    try {
+        if (localStorage.getItem(HELP_INTRO_YOUTUBE_HIDDEN_KEY) === '1') return;
+        var intro = HELP_VIDEO_CATALOG[0];
+        if (!intro || intro.key !== 'intro' || !intro.videoId) return;
+        if (!document.getElementById('help-modal-overlay')) return;
+        showHelpVideoModal(intro, { showDontShowAgain: true, autoplay: true });
+    } catch (_e) { /* noop */ }
+}
+
+(function initHelpMenuAndVideos() {
+    document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('keydown', function(e) {
+            if (e.key !== 'Escape') return;
+            const vo = document.getElementById('help-modal-overlay');
+            const mo = document.getElementById('help-menu-overlay');
+            if (vo && vo.classList.contains('is-open')) {
+                hideHelpIntroModal();
+                e.preventDefault();
+                return;
+            }
+            if (mo && mo.classList.contains('is-open')) {
+                hideHelpMenu();
+                e.preventDefault();
+            }
+        });
+
+        var menuOv = document.getElementById('help-menu-overlay');
+        if (menuOv) {
+            var menuClose = document.getElementById('help-menu-close');
+            if (menuClose) menuClose.addEventListener('click', hideHelpMenu);
+            menuOv.addEventListener('click', function(e) {
+                if (e.target === menuOv) hideHelpMenu();
+            });
+            var tutorialCompletoBtn = document.getElementById('help-menu-tutorial-completo-btn');
+            var tutorialCompletoCatalogEntry = HELP_VIDEO_CATALOG.find(function(e) {
+                return e.key === 'tutorial-completo';
+            });
+            if (
+                tutorialCompletoBtn &&
+                tutorialCompletoCatalogEntry &&
+                tutorialCompletoCatalogEntry.title
+            ) {
+                tutorialCompletoBtn.textContent = tutorialCompletoCatalogEntry.title;
+            }
+            if (tutorialCompletoBtn) {
+                tutorialCompletoBtn.addEventListener('click', function() {
+                    var tcEntry = HELP_VIDEO_CATALOG.find(function(e) {
+                        return e.key === 'tutorial-completo';
+                    });
+                    hideHelpMenu();
+                    if (!tcEntry || !tcEntry.videoId) {
+                        showHelpTopicComingSoon(
+                            tcEntry && tcEntry.title ? tcEntry.title : 'Tutorial Completo'
+                        );
+                    } else {
+                        showHelpVideoModal(tcEntry);
+                    }
+                });
+            }
+            var analysisHelpBtn = document.getElementById('help-menu-analysis-btn');
+            var analysisCatalogEntry = HELP_VIDEO_CATALOG.find(function(e) {
+                return e.key === 'analysis';
+            });
+            if (analysisHelpBtn && analysisCatalogEntry && analysisCatalogEntry.title) {
+                analysisHelpBtn.textContent = analysisCatalogEntry.title;
+            }
+            if (analysisHelpBtn) {
+                analysisHelpBtn.addEventListener('click', function() {
+                    var analysisEntry = HELP_VIDEO_CATALOG.find(function(e) {
+                        return e.key === 'analysis';
+                    });
+                    hideHelpMenu();
+                    if (analysisEntry && analysisEntry.videoId) {
+                        showHelpVideoModal(analysisEntry);
+                    } else {
+                        showHelpTopicComingSoon(
+                            analysisEntry && analysisEntry.title
+                                ? analysisEntry.title
+                                : '📊 Análisis'
+                        );
+                    }
+                });
+            }
+            var shareHelpBtn = document.getElementById('help-menu-share-btn');
+            var shareCatalogEntry = HELP_VIDEO_CATALOG.find(function(e) {
+                return e.key === 'share';
+            });
+            if (shareHelpBtn && shareCatalogEntry && shareCatalogEntry.title) {
+                shareHelpBtn.textContent = shareCatalogEntry.title;
+            }
+            if (shareHelpBtn) {
+                shareHelpBtn.addEventListener('click', function() {
+                    var shareEntry = HELP_VIDEO_CATALOG.find(function(e) {
+                        return e.key === 'share';
+                    });
+                    hideHelpMenu();
+                    if (shareEntry && shareEntry.videoId) {
+                        showHelpVideoModal(shareEntry);
+                    } else {
+                        showHelpTopicComingSoon(
+                            shareEntry && shareEntry.title ? shareEntry.title : '📤 Compartir'
+                        );
+                    }
+                });
+            }
+        }
+
+        const overlay = document.getElementById('help-modal-overlay');
+        if (!overlay) return;
+
+        const helpClose = document.getElementById('help-modal-close');
+        if (helpClose) helpClose.addEventListener('click', hideHelpIntroModal);
+
+        const helpDrag = document.getElementById('help-modal-drag-handle');
+        const card = document.getElementById('help-modal-card');
+        var helpDragState = null;
+
+        function helpModalPointerDown(e) {
+            if (!helpDrag || !card) return;
+            if (!helpDrag.contains(e.target) || e.target.closest('#help-modal-close')) return;
+            if (e.type === 'mousedown' && e.button !== 0) return;
+            var cx = e.touches ? e.touches[0].clientX : e.clientX;
+            var cy = e.touches ? e.touches[0].clientY : e.clientY;
+            var left = parseFloat(card.style.left);
+            var top = parseFloat(card.style.top);
+            if (isNaN(left) || isNaN(top)) {
+                var r = card.getBoundingClientRect();
+                left = r.left;
+                top = r.top;
+            }
+            helpDragState = { ox: cx, oy: cy, sl: left, st: top };
+            if (e.type === 'touchstart') e.preventDefault();
+            document.body.style.cursor = 'grabbing';
+        }
+
+        function helpModalPointerMove(e) {
+            if (!helpDragState || !card) return;
+            var cx = e.touches ? e.touches[0].clientX : e.clientX;
+            var cy = e.touches ? e.touches[0].clientY : e.clientY;
+            var nl = helpDragState.sl + (cx - helpDragState.ox);
+            var nt = helpDragState.st + (cy - helpDragState.oy);
+            var margin = 8;
+            var cw = card.offsetWidth;
+            var ch = card.offsetHeight;
+            nl = Math.max(margin, Math.min(nl, window.innerWidth - cw - margin));
+            nt = Math.max(margin, Math.min(nt, window.innerHeight - ch - margin));
+            card.style.left = nl + 'px';
+            card.style.top = nt + 'px';
+            if (e.type === 'touchmove') e.preventDefault();
+        }
+
+        function helpModalPointerUp() {
+            if (!helpDragState) return;
+            helpDragState = null;
+            document.body.style.cursor = '';
+        }
+
+        if (helpDrag) {
+            helpDrag.addEventListener('mousedown', helpModalPointerDown);
+            helpDrag.addEventListener('touchstart', helpModalPointerDown, { passive: false });
+        }
+        document.addEventListener('mousemove', helpModalPointerMove);
+        document.addEventListener('mouseup', helpModalPointerUp);
+        document.addEventListener('touchmove', helpModalPointerMove, { passive: false });
+        document.addEventListener('touchend', helpModalPointerUp);
+
+        window.addEventListener('resize', function() {
+            if (!overlay.classList.contains('is-open') || !card) return;
+            var margin = 8;
+            var left = parseFloat(card.style.left);
+            var top = parseFloat(card.style.top);
+            if (isNaN(left)) return;
+            var cw = card.offsetWidth;
+            var ch = card.offsetHeight;
+            left = Math.max(margin, Math.min(left, window.innerWidth - cw - margin));
+            top = Math.max(margin, Math.min(top, window.innerHeight - ch - margin));
+            card.style.left = left + 'px';
+            card.style.top = top + 'px';
+        });
+        const helpOpenYt = document.getElementById('help-modal-open-youtube');
+        if (helpOpenYt) helpOpenYt.addEventListener('click', openHelpIntroYoutubeTab);
+
+        overlay.addEventListener('click', function(e) {
+            if (e.target === overlay) hideHelpIntroModal();
+        });
+    });
+})();
 
 // Mostrar mensaje centrado en el tablero
 function showMessage(message, type = 'info', duration = 3000, onClose = null) {
@@ -5483,6 +5945,7 @@ function setOnlineUser(user) {
     saveUserToDB(user, isFirstLoginLocal);
 
     startHeartbeat();
+    requestNotificationPermission();
     updateLoginModalUI();
     updateOnlineButtonTooltip();
     updateLoginStatusButton();
@@ -5643,6 +6106,52 @@ function clearOnlineUser() {
     updateLoginStatusButton();
 }
 
+// ── Notificaciones de escritorio ───────────────────────────────────────────
+
+/**
+ * Solicita permiso de notificaciones de escritorio (se llama una sola vez al
+ * iniciar sesión online). Chrome/Edge/Firefox muestran el diálogo del sistema
+ * solo si el permiso aún no está concedido ni denegado.
+ */
+function requestNotificationPermission() {
+    if (!('Notification' in window)) return;
+    if (Notification.permission === 'granted' || Notification.permission === 'denied') return;
+    // El diálogo del sistema requiere un gesto del usuario; lo diferimos 1 s
+    // para que el modal de login ya haya cerrado y el contexto sea visible.
+    setTimeout(function() {
+        Notification.requestPermission().catch(function() {});
+    }, 1000);
+}
+
+/**
+ * Muestra una notificación nativa de escritorio si el documento no está en
+ * primer plano o la visibilidad es 'hidden'. Al hacer clic se enfoca la
+ * pestaña y se abre el modal de invitación.
+ */
+function showDesktopInviteNotification(nick, elo, colorLabel, timeLabel) {
+    if (!('Notification' in window)) return;
+    if (Notification.permission !== 'granted') return;
+    if (document.visibilityState === 'visible' && document.hasFocus()) return;
+
+    var body = '♟ ' + (nick || 'Jugador') + ' (ELO ' + (elo || '?') + ')'
+        + '\nJuegas: ' + colorLabel + ' · ' + timeLabel;
+
+    var notif = new Notification('⚔️ ¡Te retan a una partida!', {
+        body: body,
+        icon: './icons/icon-192.png',
+        tag: 'ajedrezia-invite',   // reemplaza notificaciones anteriores del mismo tag
+        requireInteraction: true   // no desaparece sola hasta que el usuario actúe
+    });
+
+    notif.addEventListener('click', function() {
+        window.focus();
+        notif.close();
+        // El modal ya estará abierto (showIncomingInvite lo abrió); si por
+        // alguna razón la pestaña se enfocó antes de que apareciera, el
+        // polling lo mostrará en el siguiente ciclo (5 s).
+    });
+}
+
 // ── Heartbeat — mantiene la presencia online ───────────────────────────────
 let _heartbeatTimer = null;
 
@@ -5658,6 +6167,16 @@ function stopHeartbeat() {
     stopIncomingPolling();
 }
 
+function isUserBusy() {
+    // Ocupado jugando online
+    if (_onlineGame && _onlineGame.status === 'active') return true;
+    // Ocupado jugando vs IA (hay movimientos, partida no terminada, no modo persona vs persona)
+    if (game && !game.gameOver
+        && game.moveHistory && game.moveHistory.length > 0
+        && playerColor !== 'both') return true;
+    return false;
+}
+
 function sendHeartbeat() {
     const user = getOnlineUser();
     if (!user || IS_LOCAL) return;
@@ -5665,7 +6184,7 @@ function sendHeartbeat() {
     fetch(BASE_PATH + 'api/heartbeat.php', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ id: user.id, elo: currentElo }),
+        body: JSON.stringify({ id: user.id, elo: currentElo, busy: isUserBusy() }),
     }).catch(function() {});
 }
 
@@ -5700,37 +6219,136 @@ function fetchAndRenderUsers() {
         // Datos de ejemplo en modo local
         const currentUser = getOnlineUser();
         const currentElo  = (typeof stats !== 'undefined' && stats.elo) ? stats.elo : 1200;
-        const mockUsers   = [
+        const demoBase = [
+            { id:'demo001', nick:'jugador_demo',      elo:1450 },
+            { id:'demo002', nick:'ajedrez_fan',       elo:1320 },
+            { id:'demo003', nick:'magnus_junior',     elo:1180 },
+            { id:'demo004', nick:'caballo_loco',      elo:1675 },
+            { id:'demo005', nick:'reina_blanca',      elo:1890 },
+            { id:'demo006', nick:'gambit_master',     elo:2100 },
+            { id:'demo007', nick:'peoncito',          elo:980  },
+            { id:'demo008', nick:'torre_negra',       elo:1540 },
+            { id:'demo009', nick:'alfil_rapido',      elo:1265 },
+            { id:'demo010', nick:'enroque_corto',     elo:1410 },
+            { id:'demo011', nick:'jaque_mate_99',     elo:1750 },
+            { id:'demo012', nick:'capablanca_ii',     elo:2250 },
+            { id:'demo013', nick:'tablero_loco',      elo:1120 },
+            { id:'demo014', nick:'siciliana_pro',     elo:1830 },
+            { id:'demo015', nick:'rey_solitario',     elo:1050 },
+            { id:'demo016', nick:'dama_furiosa',      elo:1620 },
+            { id:'demo017', nick:'pasapeon',          elo:1370 },
+            { id:'demo018', nick:'al_passant',        elo:1495 },
+            { id:'demo019', nick:'fianchetto',        elo:1985 },
+            { id:'demo020', nick:'novato_2026',       elo:880  },
+            { id:'demo021', nick:'gran_maestro',      elo:2400 },
+            { id:'demo022', nick:'apertura_inglesa',  elo:1710 },
+            { id:'demo023', nick:'defensa_francesa',  elo:1565 },
+            { id:'demo024', nick:'mate_pastor',       elo:1230 },
+            { id:'demo025', nick:'bobby_fan',         elo:1920 },
+            { id:'demo026', nick:'ataque_indio',      elo:1480 },
+            { id:'demo027', nick:'gambito_rey',       elo:1355 },
+            { id:'demo028', nick:'nimzo_defense',     elo:1790 },
+            { id:'demo029', nick:'grünfeld_pro',      elo:2030 },
+            { id:'demo030', nick:'caro_kann_fan',     elo:1640 },
+            { id:'demo031', nick:'peon_pasado',       elo:1160 },
+            { id:'demo032', nick:'torres_gemelas',    elo:1520 },
+            { id:'demo033', nick:'bishop_hunter',     elo:1395 },
+            { id:'demo034', nick:'zugzwang_king',     elo:2180 },
+            { id:'demo035', nick:'blitz_relámpago',   elo:1870 },
+            { id:'demo036', nick:'pio_xieco',         elo:945  },
+            { id:'demo037', nick:'ruy_lopez_fan',     elo:1725 },
+            { id:'demo038', nick:'italiana_clásica',  elo:1580 },
+            { id:'demo039', nick:'española_cerrada',  elo:1440 },
+            { id:'demo040', nick:'dragón_siciliano',  elo:1960 },
+            { id:'demo041', nick:'kan_siciliano',     elo:1305 },
+            { id:'demo042', nick:'scheveningue_fan',  elo:1670 },
+            { id:'demo043', nick:'berlin_defense',    elo:2050 },
+            { id:'demo044', nick:'petroff_draw',      elo:1100 },
+            { id:'demo045', nick:'escocesa_clásica',  elo:1755 },
+            { id:'demo046', nick:'cuatro_caballos',   elo:1215 },
+            { id:'demo047', nick:'vienna_gambit',     elo:1600 },
+            { id:'demo048', nick:'london_system',     elo:1885 },
+            { id:'demo049', nick:'catalan_abierto',   elo:2140 },
+            { id:'demo050', nick:'nimzovich_fan',     elo:1340 },
+            { id:'demo051', nick:'enroque_largo',     elo:1465 },
+            { id:'demo052', nick:'sacrificio_alfil',  elo:1810 },
+            { id:'demo053', nick:'tenedor_doble',     elo:1130 },
+            { id:'demo054', nick:'clavada_perfecta',  elo:1690 },
+            { id:'demo055', nick:'ataque_polgar',     elo:2300 },
+            { id:'demo056', nick:'defensa_pirc',      elo:1550 },
+            { id:'demo057', nick:'moderna_defense',   elo:1420 },
+            { id:'demo058', nick:'benko_gambit',      elo:1780 },
+            { id:'demo059', nick:'benoni_defense',    elo:1970 },
+            { id:'demo060', nick:'slav_defense',      elo:1270 },
+            { id:'demo061', nick:'holandesa_fan',     elo:1625 },
+            { id:'demo062', nick:'budapest_gambit',   elo:2085 },
+            { id:'demo063', nick:'budapest_trap',     elo:1025 },
+            { id:'demo064', nick:'botvinnik_fan',     elo:1840 },
+            { id:'demo065', nick:'tal_sacrificador',  elo:2220 },
+            { id:'demo066', nick:'karpov_defensor',   elo:1500 },
+            { id:'demo067', nick:'spassky_1972',      elo:1360 },
+            { id:'demo068', nick:'anand_rápido',      elo:1935 },
+            { id:'demo069', nick:'carlsen_endgame',   elo:2350 },
+            { id:'demo070', nick:'kasparov_ataque',   elo:2260 },
+            { id:'demo071', nick:'fischer_random',    elo:1715 },
+            { id:'demo072', nick:'kramnik_solido',    elo:1590 },
+            { id:'demo073', nick:'topalov_agresivo',  elo:1845 },
+            { id:'demo074', nick:'leko_defensivo',    elo:1475 },
+            { id:'demo075', nick:'giri_draws',        elo:2015 },
+            { id:'demo076', nick:'nepo_blitz',        elo:1930 },
+            { id:'demo077', nick:'ding_liren_fan',    elo:2195 },
+            { id:'demo078', nick:'pragg_joven',       elo:1655 },
+            { id:'demo079', nick:'so_wesley',         elo:1820 },
+            { id:'demo080', nick:'nakamura_speed',    elo:2120 },
+            { id:'demo081', nick:'mvl_francés',       elo:1765 },
+            { id:'demo082', nick:'aronian_creativo',  elo:2045 },
+            { id:'demo083', nick:'grischuk_blitz',    elo:1605 },
+            { id:'demo084', nick:'mamedyarov_sharp',  elo:1385 },
+            { id:'demo085', nick:'gelfand_solido',    elo:1530 },
+            { id:'demo086', nick:'ivanchuk_genio',    elo:2170 },
+            { id:'demo087', nick:'shirov_fuego',      elo:1900 },
+            { id:'demo088', nick:'polgar_dama',       elo:2285 },
+            { id:'demo089', nick:'hou_yifan',         elo:1745 },
+            { id:'demo090', nick:'ju_wenjun',         elo:1625 },
+            { id:'demo091', nick:'peon_d4',           elo:1070 },
+            { id:'demo092', nick:'peon_e4',           elo:1145 },
+            { id:'demo093', nick:'ajedrecista_99',    elo:1320 },
+            { id:'demo094', nick:'táctico_feroz',     elo:1430 },
+            { id:'demo095', nick:'posicional_puro',   elo:1870 },
+            { id:'demo096', nick:'estratega_mayor',   elo:2095 },
+            { id:'demo097', nick:'blunder_king',      elo:860  },
+            { id:'demo098', nick:'endgame_wizard',    elo:1990 },
+            { id:'demo099', nick:'opening_bookworm',  elo:1560 },
+            { id:'demo100', nick:'chess960_fan',      elo:1705 },
+        ];
+        // Asignar estado online/ocupado aleatoriamente (15 online, 3 de ellos ocupados)
+        // usando el minuto actual como semilla ligera para variar en cada apertura del modal
+        // 4 demo aleatorios aparecen como ocupados; el resto siempre offline.
+        // Los jugadores falsos nunca se muestran como disponibles (verde).
+        const shuffled = demoBase.slice().sort(function() { return Math.random() - 0.5; });
+        const busySet  = new Set(shuffled.slice(0, 25).map(function(u) { return u.id; }));
+        const mockUsers = [
             currentUser ? {
-                id: currentUser.id, nick: currentUser.email.split('@')[0],
-                name: currentUser.name, elo: currentElo, online: true,
+                id: currentUser.id,
+                nick: (currentUser.email || '').split('@')[0] || currentUser.name || 'tú',
+                name: currentUser.name, elo: currentElo, online: true, status: 'available',
             } : null,
-            { id: 'demo1',  nick: 'jugador_demo',    name: 'Demo', elo: 1450, online: true  },
-            { id: 'demo2',  nick: 'ajedrez_fan',     name: 'Demo', elo: 1320, online: false },
-            { id: 'demo3',  nick: 'magnus_junior',   name: 'Demo', elo: 1180, online: false },
-            { id: 'demo4',  nick: 'caballo_loco',    name: 'Demo', elo: 1675, online: false },
-            { id: 'demo5',  nick: 'reina_blanca',    name: 'Demo', elo: 1890, online: false },
-            { id: 'demo6',  nick: 'gambit_master',   name: 'Demo', elo: 2100, online: false },
-            { id: 'demo7',  nick: 'peoncito',        name: 'Demo', elo: 980,  online: false },
-            { id: 'demo8',  nick: 'torre_negra',     name: 'Demo', elo: 1540, online: false },
-            { id: 'demo9',  nick: 'alfil_rapido',    name: 'Demo', elo: 1265, online: false },
-            { id: 'demo10', nick: 'enroque_corto',   name: 'Demo', elo: 1410, online: false },
-            { id: 'demo11', nick: 'jaque_mate_99',   name: 'Demo', elo: 1750, online: false },
-            { id: 'demo12', nick: 'capablanca_ii',   name: 'Demo', elo: 2250, online: false },
-            { id: 'demo13', nick: 'tablero_loco',    name: 'Demo', elo: 1120, online: false },
-            { id: 'demo14', nick: 'siciliana_pro',   name: 'Demo', elo: 1830, online: false },
-            { id: 'demo15', nick: 'rey_solitario',   name: 'Demo', elo: 1050, online: false },
-            { id: 'demo16', nick: 'dama_furiosa',    name: 'Demo', elo: 1620, online: false },
-            { id: 'demo17', nick: 'pasapeon',        name: 'Demo', elo: 1370, online: false },
-            { id: 'demo18', nick: 'al_passant',      name: 'Demo', elo: 1495, online: false },
-            { id: 'demo19', nick: 'fianchetto',      name: 'Demo', elo: 1985, online: false },
-            { id: 'demo20', nick: 'novato_2026',     name: 'Demo', elo: 880,  online: false },
-            { id: 'demo21', nick: 'gran_maestro',    name: 'Demo', elo: 2400, online: false },
-            { id: 'demo22', nick: 'apertura_inglesa',name: 'Demo', elo: 1710, online: false },
-            { id: 'demo23', nick: 'defensa_francesa',name: 'Demo', elo: 1565, online: false },
-            { id: 'demo24', nick: 'mate_pastor',     name: 'Demo', elo: 1230, online: false },
-            { id: 'demo25', nick: 'bobby_fan',       name: 'Demo', elo: 1920, online: false },
-        ].filter(Boolean);
+            ...demoBase.map(function(d) {
+                var isBusy = busySet.has(d.id);
+                return {
+                    id: d.id, nick: d.nick, name: 'Demo', elo: d.elo,
+                    online: isBusy,
+                    status: isBusy ? 'busy' : 'offline',
+                };
+            }),
+        ].filter(Boolean).sort(function(a, b) {
+            var rankA = (a.online && a.status === 'available') ? 0
+                      : (a.online && a.status === 'busy'       ? 1 : 2);
+            var rankB = (b.online && b.status === 'available') ? 0
+                      : (b.online && b.status === 'busy'       ? 1 : 2);
+            if (rankA !== rankB) return rankA - rankB;
+            return (a.nick || '').localeCompare(b.nick || '', 'es', { sensitivity: 'base' });
+        });
         setTimeout(function() {
             loadingEl.style.display = 'none';
             renderUsersList(mockUsers, listEl, subtitleEl);
@@ -5752,11 +6370,13 @@ function fetchAndRenderUsers() {
 }
 
 function renderUsersList(users, listEl, subtitleEl) {
-    const online = users.filter(function(u) { return u.online; }).length;
+    const online     = users.filter(function(u) { return u.online; }).length;
+    const available  = users.filter(function(u) { return u.online && u.status !== 'busy'; }).length;
     if (subtitleEl) subtitleEl.textContent =
         users.length + ' jugador' + (users.length !== 1 ? 'es' : '') +
         ' registrado' + (users.length !== 1 ? 's' : '') +
-        ' · ' + online + ' online ahora' +
+        ' · ' + online + ' online' +
+        (available !== online ? ' (' + available + ' disponible' + (available !== 1 ? 's' : '') + ')' : '') +
         (IS_LOCAL ? ' (datos de ejemplo)' : '');
 
     if (users.length === 0) {
@@ -5768,26 +6388,37 @@ function renderUsersList(users, listEl, subtitleEl) {
     listEl.innerHTML  = '';
     users.forEach(function(u) {
         const isMe    = currentUser && currentUser.id === u.id;
+        const isBusy  = u.online && u.status === 'busy';
         const initial = (u.nick || '?')[0].toUpperCase();
         const row     = document.createElement('div');
-        row.className = 'user-row' + (u.online ? ' is-online' : '');
+
+        var rowClass = 'user-row';
+        if (u.online) rowClass += isBusy ? ' is-busy' : ' is-online';
+        row.className = rowClass;
+
+        var statusLabel = 'Offline';
+        if (u.online) statusLabel = isBusy ? 'Ocupado' : 'Online';
+        if (isMe && u.online) statusLabel = isBusy ? 'Ocupado (tú)' : 'Online (tú)';
+
         row.innerHTML =
             '<div class="user-row-avatar">' + initial + '</div>' +
             '<div class="user-row-info">' +
-                '<div class="user-row-nick">' + escHtml(u.nick) +
-                    (isMe ? ' <span style="font-size:0.7rem;color:#667eea;">(tú)</span>' : '') +
-                '</div>' +
+                '<div class="user-row-nick">' + escHtml(u.nick) + '</div>' +
                 '<div class="user-row-elo">ELO ' + u.elo + '</div>' +
             '</div>' +
             '<div class="user-row-status">' +
                 '<span class="status-dot"></span>' +
-                '<span class="status-label">' + (u.online ? 'Online' : 'Offline') + '</span>' +
+                '<span class="status-label">' + statusLabel + '</span>' +
             '</div>';
-        if (u.online && !isMe) {
+
+        // Solo los disponibles (online y no ocupados) y que no seamos nosotros son invitables
+        if (u.online && !isMe && !isBusy) {
             row.addEventListener('click', function() {
                 hideUsersModal();
                 sendDirectInvite(u);
             });
+        } else if (u.online && !isMe && isBusy) {
+            row.title = escHtml(u.nick) + ' está en una partida';
         }
         listEl.appendChild(row);
     });
@@ -6080,12 +6711,17 @@ let _currentIncoming = null;
 function showIncomingInvite(invite) {
     _currentIncoming = invite;
     const myColor = invertColor(invite.from_color);
+    const colorLabel = myColor === 'white' ? 'Blancas' : 'Negras';
+    const timeLabel  = invite.time_label || timeLabelFor(invite.time_control);
 
     document.getElementById('invite-incoming-from').textContent  = invite.from_nick || 'Jugador';
     document.getElementById('invite-incoming-elo').textContent   = 'ELO ' + (invite.from_elo || '?');
-    document.getElementById('invite-incoming-color').textContent = myColor === 'white' ? 'Blancas' : 'Negras';
-    document.getElementById('invite-incoming-time').textContent  = invite.time_label || timeLabelFor(invite.time_control);
+    document.getElementById('invite-incoming-color').textContent = colorLabel;
+    document.getElementById('invite-incoming-time').textContent  = timeLabel;
     document.getElementById('invite-incoming-overlay').classList.add('is-open');
+
+    // Notificación de escritorio si la pestaña no está en primer plano
+    showDesktopInviteNotification(invite.from_nick, invite.from_elo, colorLabel, timeLabel);
 }
 
 // Muestra la modal "Te reto a una partida online" a partir de un enlace ?online=,
@@ -7598,8 +8234,11 @@ function updateStatsDisplay() {
     document.getElementById('stat-wins').textContent = stats.wins;
     document.getElementById('stat-draws').textContent = stats.draws;
     document.getElementById('stat-losses').textContent = stats.losses;
+    const elo = stats.elo != null ? stats.elo : 1200;
     const eloEl = document.getElementById('stat-elo');
-    if (eloEl) eloEl.textContent = stats.elo != null ? stats.elo : 1200;
+    if (eloEl) eloEl.textContent = elo;
+    const miniEl = document.getElementById('mini-elo-value');
+    if (miniEl) miniEl.textContent = elo;
 }
 
 // Registrar resultado de partida
@@ -7963,6 +8602,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (e.target.checked) SoundFX.move();
         saveSettings();
     });
+    document.getElementById('config-help-btn').addEventListener('click', openHelpFromConfig);
     document.getElementById('time-control').addEventListener('change', (e) => {
         const [minutes, increment] = e.target.value.split('+').map(Number);
         timePerPlayer = minutes;
@@ -8339,6 +8979,8 @@ document.addEventListener('DOMContentLoaded', () => {
         // Al arrancar: comprobar versión remota a los 2s (no bloquea el render)
         setTimeout(checkRemoteVersion, 2000);
     }
+
+    setTimeout(maybeShowIntroVideoOnStartup, 0);
 });
 
 function initCustomDropdowns() {
@@ -8570,6 +9212,17 @@ function showNewGameDialog() {
 
     // — Nivel de Dificultad: visible solo cuando el oponente es IA —
     if (aiSection) aiSection.style.display = (lastNewGameOpponent === 'ai') ? '' : 'none';
+
+    // — Restaurar valores de los <select> según el estado guardado —
+    const diffSelectEl = document.getElementById('ai-difficulty');
+    if (diffSelectEl) diffSelectEl.value = aiDifficulty;
+
+    const tcSelectEl = document.getElementById('time-control');
+    if (tcSelectEl) {
+        const tcValue = timePerPlayer + '+' + incrementPerMove;
+        const hasOption = Array.from(tcSelectEl.options).some(o => o.value === tcValue);
+        if (hasOption) tcSelectEl.value = tcValue;
+    }
 
     function restoreSections() {
         moves.forEach(m => {
@@ -9123,6 +9776,10 @@ function loadFamousGame() {
 
     const famous = FAMOUS_GAMES[key];
     if (!famous || !famous.pgn) return;
+
+    // Cerrar barra de problemas y análisis si estaban activos
+    if (puzzleMode) endPuzzleMode();
+    dismissPostGameAnalysisUI();
 
     hideVariantsPopup(false);
     parsePGNAndLoad(famous.pgn, famous.name);
@@ -10022,15 +10679,22 @@ function copyShareMsg(btn) {
     const text = btn.getAttribute('data-msg') || '';
     function done() {
         if (window.grantEloOnShareComplete) window.grantEloOnShareComplete();
-        var lbl = btn.querySelector('.share-app-label');
-        if (lbl) {
-            var orig = lbl.textContent;
-            lbl.textContent = '¡Copiado!';
-            setTimeout(function () { lbl.textContent = orig; }, 1500);
+        var msgSpan = btn.querySelector('.share-msg-text');
+        if (msgSpan) {
+            var origHTML = msgSpan.innerHTML;
+            msgSpan.innerHTML = '✓ Copiado';
+            setTimeout(function () { msgSpan.innerHTML = origHTML; }, 1800);
         } else {
-            var origTxt = btn.textContent;
-            btn.textContent = '✓ Copiado!';
-            setTimeout(function () { btn.textContent = origTxt || '📋 Copiar'; }, 1500);
+            var lbl = btn.querySelector('.share-app-label');
+            if (lbl) {
+                var orig = lbl.textContent;
+                lbl.textContent = '¡Copiado!';
+                setTimeout(function () { lbl.textContent = orig; }, 1800);
+            } else {
+                var origTxt = btn.textContent;
+                btn.textContent = '✓ Copiado';
+                setTimeout(function () { btn.textContent = origTxt || '📋 Copiar'; }, 1800);
+            }
         }
     }
     if (navigator.clipboard && navigator.clipboard.writeText) {
@@ -11047,14 +11711,47 @@ function resumeGame(silent) {
         if (hasMoves) {
             recalcOpening();
         }
-        
+
+        // ── Restaurar contexto de sesión ──────────────────────────────────
+        // 1. Problemas de ajedrez
+        if (savedState.puzzleMode && savedState.currentPuzzle) {
+            puzzleMode = true;
+            puzzleActive = false;         // posición cargada pero no en juego activo
+            currentPuzzle = savedState.currentPuzzle;
+            if (savedState.puzzleFilter) puzzleFilter = savedState.puzzleFilter;
+            puzzleSequentialIndex = savedState.puzzleSequentialIndex || 0;
+            if (Array.isArray(savedState.puzzleApiCache) && savedState.puzzleApiCache.length > 0) {
+                puzzleApiCache = savedState.puzzleApiCache;
+            }
+            document.body.classList.add('puzzle-mode-active');
+            updatePuzzleNavButtons();
+            shareContext = 'problema';
+        // 2. Partida maestra
+        } else if (savedState.shareContext === 'maestra') {
+            shareContext = 'maestra';
+            if (savedState.famousGameTitle) {
+                setFamousGameTitle(savedState.famousGameTitle);
+            }
+            if (savedState.famousGameKey) {
+                var famousSelectEl = document.getElementById('famous-game-select');
+                if (famousSelectEl) famousSelectEl.value = savedState.famousGameKey;
+            }
+        // 3. Apertura
+        } else if (savedState.shareContext === 'apertura') {
+            shareContext = 'apertura';
+        // 4. Partida normal
+        } else {
+            shareContext = 'partida';
+        }
+        // ─────────────────────────────────────────────────────────────────
+
         // Si es el turno de la IA, que mueva
-        if (!game.gameOver && playerColor !== 'both' && game.currentTurn !== playerColor) {
+        if (!game.gameOver && playerColor !== 'both' && game.currentTurn !== playerColor
+            && !puzzleMode) {
             setTimeout(() => makeAIMove(), 800);
         }
         
         if (!silent) showMessage('Partida continuada correctamente', 'success', 2000);
-        shareContext = 'partida';
         updateShareButton();
     } catch (error) {
         console.error('Error al reanudar partida:', error);
@@ -11067,6 +11764,14 @@ function resumeGame(silent) {
 
 function autoSaveGame() {
     if (!game) return;
+
+    // Capturar título de la partida maestra activa
+    var famousTitleEl = document.getElementById('famous-game-title');
+    var famousGameTitle = (famousTitleEl && famousTitleEl.style.display !== 'none')
+        ? (famousTitleEl.textContent || '') : '';
+    var famousGameKey = '';
+    var famousSelect = document.getElementById('famous-game-select');
+    if (famousSelect) famousGameKey = famousSelect.value || '';
 
     const gameState = {
         board: game.board,
@@ -11091,6 +11796,16 @@ function autoSaveGame() {
         analysisErrorsList: analysisErrorsList || [],
         analysisAnalyzedUpTo: analysisAnalyzedUpTo,
         analysisComplete: analysisComplete,
+        // Contexto de la sesión
+        shareContext: typeof shareContext !== 'undefined' ? shareContext : 'partida',
+        famousGameKey: famousGameKey,
+        famousGameTitle: famousGameTitle,
+        puzzleMode: !!puzzleMode,
+        currentPuzzle: puzzleMode && currentPuzzle ? currentPuzzle : null,
+        puzzleFilter: puzzleMode ? (puzzleFilter || { theme: 'all' }) : null,
+        puzzleSequentialIndex: puzzleMode ? (puzzleSequentialIndex || 0) : 0,
+        puzzleApiCache: puzzleMode && puzzleApiCache && puzzleApiCache.length > 0
+            ? puzzleApiCache.slice(0, 50) : [],
         timestamp: new Date().toISOString()
     };
 

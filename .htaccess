@@ -24,3 +24,8 @@
 
 # Asegurar UTF-8 por defecto
 AddDefaultCharset UTF-8
+
+# Permitir el embed de YouTube (nocookie) en iframes
+<IfModule mod_headers.c>
+    Header always set Content-Security-Policy "frame-src 'self' https://www.youtube-nocookie.com https://www.youtube.com;"
+</IfModule>

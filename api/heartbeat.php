@@ -29,11 +29,18 @@ try {
     );
 } catch (PDOException $e) { http_response_code(500); echo json_encode(['ok'=>false]); exit; }
 
-$uid = substr(trim($data['id']), 0, 128);
-$elo = isset($data['elo']) ? (int)$data['elo'] : 1200;
+// Migración: añadir columna status si no existe
+try {
+    $pdo->exec("ALTER TABLE ajedrezia_users ADD COLUMN status VARCHAR(20) DEFAULT 'available'");
+} catch (PDOException $e) { /* ya existe */ }
+
+$uid    = substr(trim($data['id']), 0, 128);
+$elo    = isset($data['elo'])  ? (int)$data['elo']  : 1200;
+$busy   = !empty($data['busy']);
+$status = $busy ? 'busy' : 'available';
 
 $pdo->prepare("
-    UPDATE ajedrezia_users SET last_seen = NOW(), elo = ? WHERE id = ?
-")->execute([$elo, $uid]);
+    UPDATE ajedrezia_users SET last_seen = NOW(), elo = ?, status = ? WHERE id = ?
+")->execute([$elo, $status, $uid]);
 
 echo json_encode(['ok' => true]);

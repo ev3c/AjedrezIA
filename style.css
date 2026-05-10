@@ -449,6 +449,10 @@ body.puzzle-mode-active .mini-clock {
     display: none !important;
 }
 
+body.puzzle-mode-active .mini-elo-display {
+    margin: 0 auto;
+}
+
 .puzzle-solved {
     color: #16a34a;
 }
@@ -1363,13 +1367,51 @@ body.puzzle-mode-active .mini-clock {
     display: none;
 }
 
+/* Mini-reloj + ELO bajo el tablero */
+.mini-clock-elo-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    width: 100%;
+    margin: 2px auto 0;
+}
+
+.mini-elo-display {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 12px;
+    border-radius: 6px;
+    background: linear-gradient(135deg, #f8fafc 0%, #eef2ff 100%);
+    border: 1.5px solid #c7d2fe;
+    white-space: nowrap;
+    line-height: 1;
+}
+
+.mini-elo-label {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #6366f1;
+}
+
+.mini-elo-value {
+    font-size: 1.05rem;
+    font-weight: 800;
+    color: #1e1b4b;
+    font-variant-numeric: tabular-nums;
+}
+
 /* Mini-reloj compacto bajo el tablero (visible en PC y en responsive) */
 .mini-clock {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    margin: 2px auto 0;
+    flex: 0 1 auto;
+    margin: 0;
 }
 
 .mini-clock-player {
@@ -3436,8 +3478,18 @@ body.puzzle-mode-active .mini-clock {
     }
 
     /* Mini-reloj en responsive (ya es display:flex por defecto) */
-    .mini-clock {
+    .mini-clock-elo-row {
         margin: 0 auto;
+        gap: 8px;
+    }
+
+    .mini-elo-display {
+        padding: 4px 8px;
+    }
+
+    .mini-elo-label,
+    .mini-elo-value {
+        font-size: 0.98rem;
     }
 
     .mini-clock-player {
@@ -3815,6 +3867,189 @@ body.puzzle-mode-active .mini-clock {
 .chess-clock > * + * { margin-left: 10px; }
 .puzzle-stats > * + * { margin-left: 16px; }
 .puzzle-actions > * + * { margin-left: 6px; }
+
+/* ── Menú Ayuda (lista de paneles / temas) ───────────────────────────── */
+.login-modal-overlay.help-menu-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 10019;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.login-modal-overlay.help-menu-overlay.is-open {
+    display: flex;
+}
+
+.help-menu-card {
+    position: relative;
+    max-width: min(96vw, 440px);
+    width: 100%;
+    text-align: left;
+    padding: 22px 20px 16px;
+}
+
+.help-menu-intro {
+    margin-bottom: 10px !important;
+    text-align: left;
+}
+
+.help-menu-tutorial-completo-btn {
+    margin-bottom: 12px;
+}
+
+.help-menu-analysis-btn {
+    margin-top: 12px;
+}
+
+.help-menu-share-btn {
+    margin-top: 4px;
+}
+
+.help-menu-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.help-menu-item-btn {
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    text-align: left;
+    font-weight: 600;
+    padding-top: 0.45rem;
+    padding-bottom: 0.45rem;
+}
+
+.help-menu-item-btn--pending {
+    opacity: 0.78;
+    font-weight: 500;
+}
+
+/* ── Modal de ayuda (fondo pantalla completa + tarjeta fija arrastrable) ─ */
+.login-modal-overlay.help-modal-overlay {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    transform: none;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 10020;
+    display: none;
+    pointer-events: auto;
+}
+
+.login-modal-overlay.help-modal-overlay.is-open {
+    display: block;
+}
+
+.help-modal-overlay .help-modal-card {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 20px 22px 18px;
+    position: fixed;
+    box-sizing: border-box;
+    z-index: 10021;
+    max-width: min(96vw, 1280px);
+    width: min(96vw, 1280px);
+    /* Ocupa como máximo el alto visible; el bloque del vídeo crece con flex */
+    height: calc(100vh - 24px);
+    height: calc(100dvh - 24px);
+    max-height: calc(100vh - 24px);
+    max-height: calc(100dvh - 24px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: left;
+}
+
+.help-modal-drag-handle {
+    position: relative;
+    flex-shrink: 0;
+    cursor: grab;
+    padding: 4px 40px 8px 0;
+    margin: -12px -8px 12px -8px;
+    border-radius: 16px 16px 0 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: none;
+}
+
+.help-modal-drag-handle:active {
+    cursor: grabbing;
+}
+
+.help-modal-drag-handle .login-modal-title {
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.help-modal-drag-handle .help-modal-close-in-drag {
+    cursor: pointer;
+}
+
+.help-modal-video-wrap {
+    position: relative;
+    flex: 1 1 auto;
+    min-height: 0;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 12px;
+    background: #111;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+.help-modal-video-wrap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.help-modal-open-wrap {
+    flex-shrink: 0;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.help-modal-open-secondary {
+    width: 100%;
+    box-sizing: border-box;
+}
+.help-modal-sound-btn {
+    font-weight: 600;
+}
+.help-modal-footer {
+    flex-shrink: 0;
+    margin-top: 16px;
+    padding-top: 4px;
+}
+.help-modal-dont-show {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+    color: #374151;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.help-modal-dont-show input {
+    width: 1rem;
+    height: 1rem;
+    flex-shrink: 0;
+}
 
 /* ── Modal de inicio de sesión online ──────────────────────────────── */
 .login-modal-overlay {
@@ -4266,6 +4501,15 @@ body.puzzle-mode-active .mini-clock {
 .status-label { color: #9ca3af; }
 .is-online .status-label { color: #16a34a; }
 
+/* Ocupado jugando una partida */
+.user-row.is-busy {
+    background: #fff7ed;
+    border-color: #fdba74;
+}
+.is-busy .status-dot { background: #f97316; }
+.is-busy .status-label { color: #c2410c; }
+.user-row.is-busy { cursor: default; }
+
 .users-empty {
     text-align: center;
     color: #9ca3af;
@@ -4609,7 +4853,7 @@ body.puzzle-mode-active .mini-clock {
     .board-container {
         gap: 8px;
     }
-    .mini-clock {
+    .mini-clock-elo-row {
         margin: 0 auto;
     }
     .captured-below {
