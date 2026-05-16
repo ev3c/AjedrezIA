@@ -9432,15 +9432,18 @@ function startNewGame(options) {
         leaveOnlineGame('abort');
     }
 
-    // Resolver playerColor siempre desde playerColorSetting al iniciar partida
-    if (gameOpponent === 'ai') {
-        playerColor = playerColorSetting === 'random'
-            ? (Math.random() < 0.5 ? 'white' : 'black')
-            : playerColorSetting;
-        const hidden = document.getElementById('player-color');
-        if (hidden) hidden.value = playerColor;
-    } else if (gameOpponent === 'pvp') {
-        playerColor = 'both';
+    // Resolver playerColor desde playerColorSetting al iniciar partida
+    // (omitir si viene de startOnlineGame, que ya fijó el color correcto del servidor)
+    if (!(options && options.fromOnlineStart)) {
+        if (gameOpponent === 'ai') {
+            playerColor = playerColorSetting === 'random'
+                ? (Math.random() < 0.5 ? 'white' : 'black')
+                : playerColorSetting;
+            const hidden = document.getElementById('player-color');
+            if (hidden) hidden.value = playerColor;
+        } else if (gameOpponent === 'pvp') {
+            playerColor = 'both';
+        }
     }
 
     shareContext = 'partida';
