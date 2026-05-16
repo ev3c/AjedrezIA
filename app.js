@@ -158,8 +158,8 @@ const SoundFX = (() => {
 let game = null;
 let playerColor = 'white';       // valor resuelto para la lógica del juego: 'white'|'black'|'both'
 let playerColorSetting = 'white'; // preferencia del selector de color: 'white'|'black'|'random'
-let gameOpponent = 'ai';          // oponente seleccionado: 'ai'|'pvp'|'online'
-let lastNewGameOpponent = 'ai';   // última selección hecha en el modal Nueva Partida ('ai'|'pvp'|'online')
+let gameOpponent = 'ai';          // oponente seleccionado: 'ai'|'pvp'|'online'|'mail'
+let lastNewGameOpponent = 'ai';   // última selección hecha en el modal Nueva Partida ('ai'|'pvp'|'online'|'mail')
 let _newGameDialogOpen = false;   // true mientras la ventana de Nueva Partida está abierta
 let _postLoginShowOnlineMenu = false; // si el login se abrió desde "Comenzar online" sin sesión: tras login, dejar visible el menú online
 let playerNickname = 'Jugador';
@@ -197,7 +197,7 @@ const ANALYSIS_DISABLED_IDS = ['start-opening-training', 'start-opening-quiz', '
     'puzzle-hint', 'puzzle-solution', 'puzzle-prev-board', 'puzzle-next-board',
     'show-known-variants',
     'player-color-btn-white', 'player-color-btn-black', 'player-color-btn-random',
-    'opponent-btn-ai', 'opponent-btn-pvp', 'opponent-btn-online',
+    'opponent-btn-ai', 'opponent-btn-pvp', 'opponent-btn-online', 'opponent-btn-mail',
     'ai-difficulty', 'opening-select', 'famous-game-select', 'time-control',
     'piece-style', 'puzzle-theme-select'];
 
@@ -5067,16 +5067,20 @@ function syncPlayerColorUI() {
     var aiBtn     = document.getElementById('opponent-btn-ai');
     var pvpBtn    = document.getElementById('opponent-btn-pvp');
     var onlineBtn = document.getElementById('opponent-btn-online');
+    var mailBtn   = document.getElementById('opponent-btn-mail');
     if (aiBtn && pvpBtn && onlineBtn) {
-        var isAI  = gameOpponent === 'ai';
-        var isPvP = gameOpponent === 'pvp';
-        var isOnl = gameOpponent === 'online';
+        var isAI   = gameOpponent === 'ai';
+        var isPvP  = gameOpponent === 'pvp';
+        var isOnl  = gameOpponent === 'online';
+        var isMail = gameOpponent === 'mail';
         aiBtn.classList.toggle('player-color-option--selected',     isAI);
         pvpBtn.classList.toggle('player-color-option--selected',    isPvP);
         onlineBtn.classList.toggle('player-color-option--selected', isOnl);
-        aiBtn.setAttribute('aria-pressed',     isAI  ? 'true' : 'false');
-        pvpBtn.setAttribute('aria-pressed',    isPvP ? 'true' : 'false');
-        onlineBtn.setAttribute('aria-pressed', isOnl ? 'true' : 'false');
+        if (mailBtn) mailBtn.classList.toggle('player-color-option--selected', isMail);
+        aiBtn.setAttribute('aria-pressed',     isAI   ? 'true' : 'false');
+        pvpBtn.setAttribute('aria-pressed',    isPvP  ? 'true' : 'false');
+        onlineBtn.setAttribute('aria-pressed', isOnl  ? 'true' : 'false');
+        if (mailBtn) mailBtn.setAttribute('aria-pressed', isMail ? 'true' : 'false');
     }
 
     // Mostrar/ocultar selector de color y dificultad según oponente
@@ -5126,13 +5130,13 @@ function loadSavedSettings() {
                 playerColorSetting = (playerColor === 'both') ? 'white' : playerColor;
             }
             // Oponente
-            if (settings.gameOpponent && ['ai','pvp'].includes(settings.gameOpponent)) {
+            if (settings.gameOpponent && ['ai','pvp','mail'].includes(settings.gameOpponent)) {
                 gameOpponent = settings.gameOpponent;
             } else {
                 gameOpponent = (playerColor === 'both') ? 'pvp' : 'ai';
             }
-            // Última selección del modal Nueva Partida (puede ser 'online')
-            if (settings.lastNewGameOpponent && ['ai','pvp','online'].includes(settings.lastNewGameOpponent)) {
+            // Última selección del modal Nueva Partida (puede ser 'online' o 'mail')
+            if (settings.lastNewGameOpponent && ['ai','pvp','online','mail'].includes(settings.lastNewGameOpponent)) {
                 lastNewGameOpponent = settings.lastNewGameOpponent;
             } else {
                 lastNewGameOpponent = gameOpponent;
@@ -5192,6 +5196,12 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '3.0.8': [
+        'Configuración: "Juegas contra" (IA 💻 / Online 🌐 / Por Correo ✉️ / Persona vs persona 🧑) como selectores separados',
+        'Por Correo: función en construcción — próximamente disponible',
+        'Guardar PGN: en modo PC y Smartphone pide la carpeta donde guardarse',
+        '... y más mejoras en AjedrezIA ...',
+    ],
     '3.0.7': [
         'Menú "Ayuda en Vídeo": vídeos de tutorial asignados a todos los paneles (Introducción, Nueva Partida, Aperturas, Problemas, Partidas Maestras, Configuración, Acciones, Análisis, Compartir)',
         'Vídeo de inicio (modal automático al abrir la app) actualizado',
@@ -6321,6 +6331,60 @@ function fetchAndRenderUsers() {
             { id:'demo099', nick:'opening_bookworm',  elo:1560 },
             { id:'demo100', nick:'chess960_fan',      elo:1705 },
         ];
+        // 50 jugadores adicionales siempre ocupados
+        const demoBusy = [
+            { id:'demo101', nick:'ruy_lopez_pro',       elo:1480 },
+            { id:'demo102', nick:'defensa_caro',        elo:1730 },
+            { id:'demo103', nick:'apertura_italiana',   elo:1195 },
+            { id:'demo104', nick:'gambito_dama',        elo:2060 },
+            { id:'demo105', nick:'nimzo_india',         elo:1885 },
+            { id:'demo106', nick:'grunfeld_fan',        elo:1340 },
+            { id:'demo107', nick:'king_indian',         elo:2155 },
+            { id:'demo108', nick:'queens_gambit',       elo:1560 },
+            { id:'demo109', nick:'french_defense',      elo:1420 },
+            { id:'demo110', nick:'pirc_defense',        elo:975  },
+            { id:'demo111', nick:'dragon_siciliano',    elo:1810 },
+            { id:'demo112', nick:'najdorf_maestro',     elo:2230 },
+            { id:'demo113', nick:'scheveningen',        elo:1665 },
+            { id:'demo114', nick:'ataque_ingles',       elo:1390 },
+            { id:'demo115', nick:'torre_blanca',        elo:1075 },
+            { id:'demo116', nick:'peón_pasado',         elo:1920 },
+            { id:'demo117', nick:'gambito_rey',         elo:2300 },
+            { id:'demo118', nick:'defensa_petroff',     elo:1545 },
+            { id:'demo119', nick:'apertura_escocesa',   elo:1280 },
+            { id:'demo120', nick:'bishop_pair',         elo:1640 },
+            { id:'demo121', nick:'opposite_color',      elo:1870 },
+            { id:'demo122', nick:'zugzwang_fan',        elo:1135 },
+            { id:'demo123', nick:'pawn_structure',      elo:2010 },
+            { id:'demo124', nick:'diagonal_attack',     elo:1760 },
+            { id:'demo125', nick:'rook_endgame',        elo:1455 },
+            { id:'demo126', nick:'fork_tactic',         elo:1325 },
+            { id:'demo127', nick:'pin_master',          elo:1990 },
+            { id:'demo128', nick:'skewer_pro',          elo:1580 },
+            { id:'demo129', nick:'discovered_check',    elo:2080 },
+            { id:'demo130', nick:'double_attack',       elo:1715 },
+            { id:'demo131', nick:'ajedrez_clasico',     elo:1260 },
+            { id:'demo132', nick:'partida_rapida',      elo:1830 },
+            { id:'demo133', nick:'blitz_master',        elo:2190 },
+            { id:'demo134', nick:'bullet_player',       elo:1500 },
+            { id:'demo135', nick:'correspondence_pro',  elo:1350 },
+            { id:'demo136', nick:'análisis_profundo',   elo:1945 },
+            { id:'demo137', nick:'tiempo_crítico',      elo:1125 },
+            { id:'demo138', nick:'jaque_perpetuo',      elo:1780 },
+            { id:'demo139', nick:'ahogado_fan',         elo:2270 },
+            { id:'demo140', nick:'enroque_largo',       elo:1615 },
+            { id:'demo141', nick:'peón_cadena',         elo:1440 },
+            { id:'demo142', nick:'isla_peones',         elo:1070 },
+            { id:'demo143', nick:'doblado_peón',        elo:1695 },
+            { id:'demo144', nick:'rey_activo',          elo:1860 },
+            { id:'demo145', nick:'caballo_bordeado',    elo:2140 },
+            { id:'demo146', nick:'alfil_malo',          elo:1385 },
+            { id:'demo147', nick:'par_torres',          elo:1525 },
+            { id:'demo148', nick:'columna_abierta',     elo:1975 },
+            { id:'demo149', nick:'diagonal_libre',      elo:1650 },
+            { id:'demo150', nick:'centro_avanzado',     elo:2050 },
+        ];
+
         // Asignar estado online/ocupado aleatoriamente (15 online, 3 de ellos ocupados)
         // usando el minuto actual como semilla ligera para variar en cada apertura del modal
         // 4 demo aleatorios aparecen como ocupados; el resto siempre offline.
@@ -6339,6 +6403,13 @@ function fetchAndRenderUsers() {
                     id: d.id, nick: d.nick, name: 'Demo', elo: d.elo,
                     online: isBusy,
                     status: isBusy ? 'busy' : 'offline',
+                };
+            }),
+            ...demoBusy.map(function(d) {
+                return {
+                    id: d.id, nick: d.nick, name: 'Demo', elo: d.elo,
+                    online: true,
+                    status: 'busy',
                 };
             }),
         ].filter(Boolean).sort(function(a, b) {
@@ -8526,7 +8597,7 @@ document.addEventListener('DOMContentLoaded', () => {
             var btn = e.target.closest('.player-color-option');
             if (!btn) return;
             var m = btn.getAttribute('data-mode');
-            if (m !== 'ai' && m !== 'pvp' && m !== 'online') return;
+            if (m !== 'ai' && m !== 'pvp' && m !== 'online' && m !== 'mail') return;
             // Dentro del modal de Nueva Partida: sólo previsualización.
             // No abrimos login ni mutamos el estado global hasta que el usuario pulse "Comenzar".
             if (_newGameDialogOpen) {
@@ -8537,6 +8608,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
                 var aiSettingsEl = document.getElementById('ai-settings');
                 if (aiSettingsEl) aiSettingsEl.style.display = (m === 'ai') ? '' : 'none';
+                // Ocultar Control de Tiempo en modo Por Correo
+                var tcEl = document.getElementById('time-control');
+                var tSec = tcEl ? tcEl.closest('.config-section') : null;
+                if (tSec) tSec.style.display = (m === 'mail') ? 'none' : '';
                 // Guardar inmediatamente para que al reabrir el modal aparezca seleccionado.
                 lastNewGameOpponent = m;
                 saveSettings();
@@ -9191,7 +9266,9 @@ function showNewGameDialog() {
     // ya que entre cierres/aperturas del modal el estado visual puede haberse desincronizado.
 
     // — Picker "Juegas con" (color) —
-    const colorPickerEl = document.getElementById('player-color-picker');
+    // Usamos referencias directas al nodo (no getElementById) porque las secciones
+    // ya han sido movidas a un árbol desconectado del documento en este punto.
+    const colorPickerEl = colorSection ? colorSection.querySelector('#player-color-picker') : null;
     if (colorPickerEl) {
         colorPickerEl.querySelectorAll('.player-color-option').forEach(b => {
             const sel = b.getAttribute('data-color') === playerColorSetting;
@@ -9201,7 +9278,7 @@ function showNewGameDialog() {
     }
 
     // — Picker "Juegas contra" (oponente, incluye online) —
-    const opponentPickerEl = document.getElementById('player-opponent-picker');
+    const opponentPickerEl = opponentSection ? opponentSection.querySelector('#player-opponent-picker') : null;
     if (opponentPickerEl) {
         opponentPickerEl.querySelectorAll('.player-color-option').forEach(b => {
             const sel = b.getAttribute('data-mode') === lastNewGameOpponent;
@@ -9213,11 +9290,14 @@ function showNewGameDialog() {
     // — Nivel de Dificultad: visible solo cuando el oponente es IA —
     if (aiSection) aiSection.style.display = (lastNewGameOpponent === 'ai') ? '' : 'none';
 
+    // — Control de Tiempo: oculto en modo Por Correo —
+    if (timeSection) timeSection.style.display = (lastNewGameOpponent === 'mail') ? 'none' : '';
+
     // — Restaurar valores de los <select> según el estado guardado —
-    const diffSelectEl = document.getElementById('ai-difficulty');
+    const diffSelectEl = aiSection ? aiSection.querySelector('#ai-difficulty') : null;
     if (diffSelectEl) diffSelectEl.value = aiDifficulty;
 
-    const tcSelectEl = document.getElementById('time-control');
+    const tcSelectEl = timeSection ? timeSection.querySelector('#time-control') : null;
     if (tcSelectEl) {
         const tcValue = timePerPlayer + '+' + incrementPerMove;
         const hasOption = Array.from(tcSelectEl.options).some(o => o.value === tcValue);
@@ -9235,10 +9315,10 @@ function showNewGameDialog() {
 
     // Devuelve el modo seleccionado actualmente en el picker (ai/pvp/online).
     function getSelectedOpponent() {
-        const opponentPickerEl = document.getElementById('player-opponent-picker');
-        if (!opponentPickerEl) return gameOpponent;
-        const sel = opponentPickerEl.querySelector('.player-color-option--selected');
-        return (sel && sel.getAttribute('data-mode')) || gameOpponent;
+        const el = opponentSection ? opponentSection.querySelector('#player-opponent-picker') : null;
+        if (!el) return lastNewGameOpponent || gameOpponent;
+        const sel = el.querySelector('.player-color-option--selected');
+        return (sel && sel.getAttribute('data-mode')) || lastNewGameOpponent || gameOpponent;
     }
 
     function close() {
@@ -9264,7 +9344,7 @@ function showNewGameDialog() {
 
         // ── Leer y sincronizar los 4 valores del modal al estado global ──────
         // Juegas con
-        const colorPickerEl2 = document.getElementById('player-color-picker');
+        const colorPickerEl2 = colorSection ? colorSection.querySelector('#player-color-picker') : null;
         if (colorPickerEl2) {
             const selColorBtn = colorPickerEl2.querySelector('.player-color-option--selected');
             if (selColorBtn) {
@@ -9273,10 +9353,10 @@ function showNewGameDialog() {
             }
         }
         // Nivel de dificultad
-        const diffSelect = document.getElementById('ai-difficulty');
+        const diffSelect = aiSection ? aiSection.querySelector('#ai-difficulty') : null;
         if (diffSelect) aiDifficulty = parseInt(diffSelect.value) || aiDifficulty;
         // Control de tiempo
-        const tcSelect2 = document.getElementById('time-control');
+        const tcSelect2 = timeSection ? timeSection.querySelector('#time-control') : null;
         if (tcSelect2) {
             const parts = tcSelect2.value.split('+').map(Number);
             if (parts.length === 2 && !isNaN(parts[0]) && !isNaN(parts[1])) {
@@ -9300,6 +9380,13 @@ function showNewGameDialog() {
             saveSettings();
             close();
             showLoginModal();
+            return;
+        }
+        // Por Correo: función en construcción — cerrar modal y mostrar aviso
+        if (selected === 'mail') {
+            saveSettings();
+            close();
+            showMessage('✉️ <strong>Por Correo</strong><br><br>🚧 Función en construcción.<br>Próximamente disponible.', 'info', 0);
             return;
         }
         // Aplicar al estado global la selección realizada en el modal
@@ -9345,9 +9432,11 @@ function startNewGame(options) {
         leaveOnlineGame('abort');
     }
 
-    // Resolver color aleatorio si procede (solo en modo IA)
-    if (gameOpponent === 'ai' && playerColorSetting === 'random') {
-        playerColor = Math.random() < 0.5 ? 'white' : 'black';
+    // Resolver playerColor siempre desde playerColorSetting al iniciar partida
+    if (gameOpponent === 'ai') {
+        playerColor = playerColorSetting === 'random'
+            ? (Math.random() < 0.5 ? 'white' : 'black')
+            : playerColorSetting;
         const hidden = document.getElementById('player-color');
         if (hidden) hidden.value = playerColor;
     } else if (gameOpponent === 'pvp') {
@@ -10603,11 +10692,7 @@ function exportPGN() {
         showMessage('📊 Se añade Análisis de Partida al PGN', 'info', 2500);
     }
 
-    if (window.matchMedia('(max-width: 1024px) and (orientation: portrait), (max-width: 768px)').matches) {
-        exportPGNDirectMobile(pgn, filename);
-    } else {
-        doExportPGN(pgn, filename);
-    }
+    exportPGNDirectMobile(pgn, filename);
 }
 
 function copyPGN() {
