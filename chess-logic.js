@@ -591,13 +591,20 @@ class ChessGame {
     }
 
     promotePawn(row, col, pieceType) {
+        // Aceptar tanto nombre completo ('queen','rook','bishop','knight')
+        // como carácter UCI ('q','r','b','n')
+        const uciMap = { q: 'queen', r: 'rook', b: 'bishop', n: 'knight' };
+        if (typeof pieceType === 'string' && pieceType.length === 1) {
+            pieceType = uciMap[pieceType.toLowerCase()] || 'queen';
+        }
         pieceType = pieceType || 'queen';
         const piece = this.getPiece(row, col);
+        if (!piece) return;
         const pieceSet = getPieceSet();
         const key = piece.color === 'white' ? 'WHITE_' : 'BLACK_';
         const typeMap = { queen: 'QUEEN', rook: 'ROOK', bishop: 'BISHOP', knight: 'KNIGHT' };
         piece.type = pieceType;
-        piece.piece = pieceSet[key + typeMap[pieceType]];
+        piece.piece = pieceSet[key + typeMap[pieceType]] || piece.piece;
     }
 
     getMoveNotation(fromRow, fromCol, toRow, toCol, piece, capturedPiece) {

@@ -60,6 +60,33 @@ $users = array_map(function($r) {
     ];
 }, $rows);
 
+// ── Bots siempre online ─────────────────────────────────────────────────
+// Jugadores sintéticos que aparecen siempre disponibles. El cliente
+// detecta el prefijo "bot_" y arranca una partida contra la IA local
+// con el nivel correspondiente al ELO del bot.
+$bots = [
+    ['id'=>'bot_400',  'nick'=>'Bot_400',  'elo'=>400 ],
+    ['id'=>'bot_700',  'nick'=>'Bot_700',  'elo'=>700 ],
+    ['id'=>'bot_1000', 'nick'=>'Bot_1000', 'elo'=>1000],
+    ['id'=>'bot_1200', 'nick'=>'Bot_1200', 'elo'=>1200],
+    ['id'=>'bot_1500', 'nick'=>'Bot_1500', 'elo'=>1500],
+    ['id'=>'bot_1800', 'nick'=>'Bot_1800', 'elo'=>1800],
+    ['id'=>'bot_2200', 'nick'=>'Bot_2200', 'elo'=>2200],
+    ['id'=>'bot_2500', 'nick'=>'Bot_2500', 'elo'=>2500],
+];
+foreach ($bots as $b) {
+    $users[] = [
+        'id'         => $b['id'],
+        'nick'       => $b['nick'],
+        'name'       => 'Bot',
+        'elo'        => $b['elo'],
+        'online'     => true,
+        'status'     => 'available',
+        'last_login' => null,
+        'isBot'      => true,
+    ];
+}
+
 // ── 100 jugadores demo ────────────────────────────────────────────────
 // Se asigna estado online/ocupado de forma aleatoria con semilla temporal
 // para que el listado parezca vivo cada vez que se abre el modal.

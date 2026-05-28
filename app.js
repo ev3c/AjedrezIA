@@ -167,9 +167,11 @@ let selectedSquare = null;
 let gameMode = 'vs-ai'; // vs-ai, vs-human, puzzle (compatibilidad)
 let aiDifficulty = 1; // Nivel Stockfish (0-20)
 let boardTheme = 'classic';
-let pieceStyle = 'cburnett';
+let pieceStyle = 'staunty';
 let showCoordinates = false;
 let showMoveInsights = false;
+let board3D = false;
+let moveArrowEnabled = true;
 let clockEnabled = true; // Reloj siempre activado
 let timePerPlayer = 60; // minutos (base)
 let incrementPerMove = 0; // segundos de incremento
@@ -2678,6 +2680,10 @@ function applyMovesFromQueryString() {
     selectedSquare = null;
     currentMoveIndex = -1;
     renderBoard();
+    if (lastMoveSquares.from && lastMoveSquares.to) {
+        showMoveArrow(lastMoveSquares.from.row, lastMoveSquares.from.col,
+                      lastMoveSquares.to.row,   lastMoveSquares.to.col);
+    }
     updateCapturedPieces();
     updateMoveHistory();
     updateUndoButton();
@@ -2971,12 +2977,22 @@ function puzzleCheckMove(fromRow, fromCol, toRow, toCol, promoType) {
 
     if (playerUCI === expectedUCI) {
         puzzleCorrectMoves++;
+        var puzzlePieceBefore = game.getPiece(fromRow, fromCol);
+        var puzzleCapturedBefore = game.getPiece(toRow, toCol);
+        var puzzleEnPassant = null;
+        if (puzzlePieceBefore && puzzlePieceBefore.type === 'pawn' && fromCol !== toCol && !puzzleCapturedBefore) {
+            const epRow = puzzlePieceBefore.color === 'white' ? toRow + 1 : toRow - 1;
+            puzzleEnPassant = { row: epRow, col: toCol, piece: game.getPiece(epRow, toCol) };
+        }
         game.makeMove(fromRow, fromCol, toRow, toCol, promoType || undefined);
         lastMoveSquares = { from: { row: fromRow, col: fromCol }, to: { row: toRow, col: toCol } };
         selectedSquare = null;
         puzzleMoveIndex++;
 
         renderBoard();
+        showMoveArrow(fromRow, fromCol, toRow, toCol);
+        if (puzzleCapturedBefore) showCaptureAnimation(toRow, toCol, puzzleCapturedBefore);
+        else if (puzzleEnPassant && puzzleEnPassant.piece) showCaptureAnimation(puzzleEnPassant.row, puzzleEnPassant.col, puzzleEnPassant.piece);
         highlightPuzzleMove(toRow, toCol, true);
 
         if (puzzleMoveIndex >= currentPuzzle.solution.length) {
@@ -3026,6 +3042,13 @@ function puzzlePlayOpponentMove() {
 
     var opp = currentPuzzle.solution[puzzleMoveIndex];
     var coords = puzzleUCItoCoords(opp);
+    var oppPieceBefore = game.getPiece(coords.fromRow, coords.fromCol);
+    var oppCapturedBefore = game.getPiece(coords.toRow, coords.toCol);
+    var oppEnPassant = null;
+    if (oppPieceBefore && oppPieceBefore.type === 'pawn' && coords.fromCol !== coords.toCol && !oppCapturedBefore) {
+        const epRow = oppPieceBefore.color === 'white' ? coords.toRow + 1 : coords.toRow - 1;
+        oppEnPassant = { row: epRow, col: coords.toCol, piece: game.getPiece(epRow, coords.toCol) };
+    }
     game.makeMove(coords.fromRow, coords.fromCol, coords.toRow, coords.toCol, coords.promo || undefined);
     lastMoveSquares = { from: { row: coords.fromRow, col: coords.fromCol }, to: { row: coords.toRow, col: coords.toCol } };
     puzzleMoveIndex++;
@@ -3034,6 +3057,9 @@ function puzzlePlayOpponentMove() {
         puzzleSolved();
     } else {
         renderBoard();
+        showMoveArrow(coords.fromRow, coords.fromCol, coords.toRow, coords.toCol);
+        if (oppCapturedBefore) showCaptureAnimation(coords.toRow, coords.toCol, oppCapturedBefore);
+        else if (oppEnPassant && oppEnPassant.piece) showCaptureAnimation(oppEnPassant.row, oppEnPassant.col, oppEnPassant.piece);
         showPuzzleFeedback('Tu turno. Encuentra el mejor movimiento.', 'info');
     }
 }
@@ -3494,6 +3520,13 @@ function continueTrainingFromVariant(variant, fromKey) {
         const toCol = uci.charCodeAt(2) - 97;
         const toRow = 8 - parseInt(uci[3]);
 
+        const opnPieceBefore = game.getPiece(fromRow, fromCol);
+        const opnCapturedBefore = game.getPiece(toRow, toCol);
+        let opnEnPassant = null;
+        if (opnPieceBefore && opnPieceBefore.type === 'pawn' && fromCol !== toCol && !opnCapturedBefore) {
+            const epRow = opnPieceBefore.color === 'white' ? toRow + 1 : toRow - 1;
+            opnEnPassant = { row: epRow, col: toCol, piece: game.getPiece(epRow, toCol) };
+        }
         const result = game.makeMove(fromRow, fromCol, toRow, toCol);
         if (!result) {
             trainingPaused = false;
@@ -3507,6 +3540,9 @@ function continueTrainingFromVariant(variant, fromKey) {
 
         lastMoveSquares = { from: { row: fromRow, col: fromCol }, to: { row: toRow, col: toCol } };
         renderBoard();
+        showMoveArrow(fromRow, fromCol, toRow, toCol);
+        if (opnCapturedBefore) showCaptureAnimation(toRow, toCol, opnCapturedBefore);
+        else if (opnEnPassant && opnEnPassant.piece) showCaptureAnimation(opnEnPassant.row, opnEnPassant.col, opnEnPassant.piece);
         updateCapturedPieces();
         updateMoveHistory();
         updateUndoButton();
@@ -5102,6 +5138,8 @@ function saveSettings() {
         pieceStyle: pieceStyle,
         showCoordinates: showCoordinates,
         showMoveInsights: showMoveInsights,
+        board3D: board3D,
+        moveArrowEnabled: moveArrowEnabled,
         timePerPlayer: timePerPlayer,
         incrementPerMove: incrementPerMove,
         soundEnabled: SoundFX.isEnabled(),
@@ -5143,9 +5181,11 @@ function loadSavedSettings() {
             }
             aiDifficulty = settings.aiDifficulty != null ? settings.aiDifficulty : 1;
             boardTheme = settings.boardTheme != null ? settings.boardTheme : 'classic';
-            pieceStyle = settings.pieceStyle != null ? settings.pieceStyle : 'cburnett';
+            pieceStyle = settings.pieceStyle != null ? settings.pieceStyle : 'staunty';
             showCoordinates = settings.showCoordinates !== undefined ? settings.showCoordinates : false;
             showMoveInsights = settings.showMoveInsights !== undefined ? settings.showMoveInsights : false;
+            board3D = settings.board3D !== undefined ? settings.board3D : false;
+            moveArrowEnabled = settings.moveArrowEnabled !== undefined ? settings.moveArrowEnabled : true;
             timePerPlayer = settings.timePerPlayer != null ? settings.timePerPlayer : 60;
             incrementPerMove = settings.incrementPerMove != null ? settings.incrementPerMove : 0;
             
@@ -5162,6 +5202,9 @@ function loadSavedSettings() {
             document.getElementById('piece-style').value = pieceStyle;
             document.getElementById('show-coordinates').checked = showCoordinates;
             document.getElementById('show-move-insights').checked = showMoveInsights;
+            document.getElementById('board-3d').checked = board3D;
+            applyBoard3D();
+            document.getElementById('move-arrow-toggle').checked = moveArrowEnabled;
             const soundEnabled = settings.soundEnabled !== undefined ? settings.soundEnabled : true;
             SoundFX.setEnabled(soundEnabled);
             document.getElementById('sound-enabled').checked = soundEnabled;
@@ -5196,6 +5239,15 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '3.2.0': [
+        'Tablero 3D: nuevo modo visual con perspectiva isométrica activable desde Configuración',
+        'Flechas de movimiento: amarilla al mover, gris al retroceder, con checkbox en Configuración',
+        'Animación de captura: zoom + fade en la pieza capturada cuando la flecha está activa',
+        'Promoción de peón: acepta notación UCI (q/r/b/n) y nombres completos; corrige puzzles',
+        'Online: aviso de conexión de usuario con ELO cada 30 s',
+        'Jugadores online: nuevos bots siempre disponibles (Bot_400, Bot_700, Bot_1000, Bot_1200, Bot_1500, Bot_1800, Bot_2200, Bot_2500)',
+        '... y más mejoras en AjedrezIA ...',
+    ],
     '3.0.8': [
         'Configuración: "Juegas contra" (IA 💻 / Online 🌐 / Por Correo ✉️ / Persona vs persona 🧑) como selectores separados',
         'Por Correo: función en construcción — próximamente disponible',
@@ -6422,7 +6474,7 @@ function fetchAndRenderUsers() {
         });
         setTimeout(function() {
             loadingEl.style.display = 'none';
-            renderUsersList(mockUsers, listEl, subtitleEl);
+            renderUsersList(withBots(mockUsers), listEl, subtitleEl);
         }, 600);
         return;
     }
@@ -6432,7 +6484,7 @@ function fetchAndRenderUsers() {
         .then(function(data) {
             loadingEl.style.display = 'none';
             if (!data.ok || !data.users) { renderUsersError(listEl, subtitleEl); return; }
-            renderUsersList(data.users, listEl, subtitleEl);
+            renderUsersList(withBots(data.users), listEl, subtitleEl);
         })
         .catch(function() {
             loadingEl.style.display = 'none';
@@ -6539,6 +6591,105 @@ const TIME_LABELS = {
 
 function timeLabelFor(tc) { return TIME_LABELS[tc] || tc; }
 
+// ── Bots siempre online ────────────────────────────────────────────────────
+// Jugadores sintéticos que aparecen siempre disponibles en la lista de
+// usuarios online. Al ser invitados, la partida se juega contra la IA
+// local con el nivel asociado (mismo motor que "Nueva Partida → IA").
+const BOT_USERS = [
+    { id: 'bot_400',  nick: 'Bot_400',  elo: 400,  level: 1 },
+    { id: 'bot_700',  nick: 'Bot_700',  elo: 700,  level: 2 },
+    { id: 'bot_1000', nick: 'Bot_1000', elo: 1000, level: 3 },
+    { id: 'bot_1200', nick: 'Bot_1200', elo: 1200, level: 4 },
+    { id: 'bot_1500', nick: 'Bot_1500', elo: 1500, level: 5 },
+    { id: 'bot_1800', nick: 'Bot_1800', elo: 1800, level: 6 },
+    { id: 'bot_2200', nick: 'Bot_2200', elo: 2200, level: 7 },
+    { id: 'bot_2500', nick: 'Bot_2500', elo: 2500, level: 8 },
+];
+
+function isBotId(id) {
+    return typeof id === 'string' && /^bot_\d+$/i.test(id);
+}
+
+function getBotById(id) {
+    const key = String(id || '').toLowerCase();
+    return BOT_USERS.find(function(b) { return b.id === key; });
+}
+
+// Prepone los bots a la lista de usuarios. Si por alguna razón el backend
+// ya los devolviera, se eliminan duplicados (gana la versión sintética).
+function withBots(users) {
+    const list = Array.isArray(users) ? users.slice() : [];
+    const botIds = new Set(BOT_USERS.map(function(b) { return b.id; }));
+    const filtered = list.filter(function(u) { return !botIds.has(String(u.id).toLowerCase()); });
+    const bots = BOT_USERS.map(function(b) {
+        return {
+            id: b.id,
+            nick: b.nick,
+            name: 'Bot',
+            elo: b.elo,
+            online: true,
+            status: 'available',
+            isBot: true,
+        };
+    });
+    return bots.concat(filtered);
+}
+
+// Inicia una partida contra un bot: configura nivel IA, color y tiempo,
+// y arranca el flujo normal de "Nueva Partida vs IA".
+function startBotGame(bot, color, timeControl) {
+    if (!bot) return;
+    const meta = getBotById(bot.id) || BOT_USERS.find(function(b) { return b.elo === bot.elo; }) || BOT_USERS[3];
+
+    // Si alguna partida online estuviera activa, abandonarla antes
+    if (_onlineGame) { try { leaveOnlineGame('abort'); } catch (e) {} }
+
+    // Nivel de IA correspondiente al ELO del bot
+    aiDifficulty = meta.level;
+    const diffSel = document.getElementById('ai-difficulty');
+    if (diffSel) diffSel.value = String(meta.level);
+
+    // Color: resolver "random"
+    let resolvedColor = color || playerColorSetting || 'white';
+    if (resolvedColor === 'random') resolvedColor = Math.random() < 0.5 ? 'white' : 'black';
+    playerColorSetting = (color === 'random') ? 'random' : resolvedColor;
+    playerColor = resolvedColor;
+    const colorInput = document.getElementById('player-color');
+    if (colorInput) colorInput.value = resolvedColor;
+    if (typeof syncPlayerColorUI === 'function') syncPlayerColorUI();
+
+    // Control de tiempo
+    const tcRaw = timeControl || ((timePerPlayer != null && incrementPerMove != null)
+        ? (timePerPlayer + '+' + incrementPerMove)
+        : '5+0');
+    const parts = String(tcRaw).split('+');
+    const minutes   = parseInt(parts[0], 10);
+    const increment = parseInt(parts[1], 10);
+    if (!isNaN(minutes))   timePerPlayer    = minutes;
+    if (!isNaN(increment)) incrementPerMove = increment;
+    const tcSelect = document.getElementById('time-control');
+    if (tcSelect) {
+        const opt = Array.from(tcSelect.options).find(function(o){ return o.value === tcRaw; });
+        if (opt) tcSelect.value = tcRaw;
+    }
+
+    // Oponente = IA (igual que en Nueva Partida → IA)
+    gameOpponent = 'ai';
+    lastNewGameOpponent = 'ai';
+
+    saveSettings();
+
+    showMessage(
+        '🤖 <strong>Partida contra ' + meta.nick + '</strong><br>' +
+        'ELO ' + meta.elo +
+        ' · Juegas con ' + (resolvedColor === 'white' ? 'Blancas' : 'Negras') +
+        ' · ' + timeLabelFor(tcRaw),
+        'success', 3000
+    );
+
+    if (typeof startNewGame === 'function') startNewGame();
+}
+
 // Convierte el color del invitante en el color que jugará el invitado
 function invertColor(c) {
     if (c === 'white')  return 'black';
@@ -6549,13 +6700,21 @@ function invertColor(c) {
 // Envía una invitación directamente al jugador seleccionado usando los valores
 // configurados en el modal Nueva Partida (color y tiempo), sin abrir ningún modal.
 function sendDirectInvite(target) {
-    const me = getOnlineUser();
-    if (!target || !me) return;
+    if (!target) return;
 
     const colorRaw = playerColorSetting || 'white';
     const tcRaw    = (timePerPlayer != null && incrementPerMove != null)
         ? (timePerPlayer + '+' + incrementPerMove)
         : (localStorage.getItem('invite_tc') || '5+0');
+
+    // ── Bot: no se envía invitación al servidor, se arranca partida IA local ──
+    if (target.isBot || isBotId(target.id)) {
+        startBotGame(target, colorRaw, tcRaw);
+        return;
+    }
+
+    const me = getOnlineUser();
+    if (!me) return;
 
     _inviteTarget        = target;
     _inviteSelectedColor = colorRaw;
@@ -6658,6 +6817,13 @@ function sendInvite() {
     const errEl   = document.getElementById('invite-send-error');
     errEl.style.display = 'none';
 
+    // ── Bot: arrancar partida IA local en lugar de enviar invitación ──
+    if (target.isBot || isBotId(target.id)) {
+        hideInviteSendModal();
+        startBotGame(target, _inviteSelectedColor, tc);
+        return;
+    }
+
     const payload = {
         from_id:      me.id,
         from_nick:    (me.email || me.name || 'Usuario').split('@')[0],
@@ -6755,10 +6921,76 @@ function startIncomingPolling() {
     if (IS_LOCAL) return;
     _incomingPollTimer = setInterval(checkIncomingInvites, 5000);
     checkIncomingInvites();
+    startOnlinePresencePolling();
 }
 
 function stopIncomingPolling() {
     if (_incomingPollTimer) { clearInterval(_incomingPollTimer); _incomingPollTimer = null; }
+    stopOnlinePresencePolling();
+}
+
+// ── Detección de nuevos usuarios online ────────────────────────────────────
+// Cada 30 s consulta la lista de usuarios y muestra un aviso por cada nuevo
+// usuario que se ha conectado desde la última consulta.
+let _onlinePresencePollTimer = null;
+let _knownOnlineUserIds = null;     // Set con los IDs online conocidos; null = primera consulta
+
+function startOnlinePresencePolling() {
+    stopOnlinePresencePolling();
+    if (IS_LOCAL) return;
+    _onlinePresencePollTimer = setInterval(checkOnlinePresence, 30000);
+    checkOnlinePresence();
+}
+
+function stopOnlinePresencePolling() {
+    if (_onlinePresencePollTimer) {
+        clearInterval(_onlinePresencePollTimer);
+        _onlinePresencePollTimer = null;
+    }
+    _knownOnlineUserIds = null;
+}
+
+function checkOnlinePresence() {
+    const me = getOnlineUser();
+    if (!me) return;
+    fetch(BASE_PATH + 'api/get-users.php')
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+            const users = (data && data.users) ? data.users : [];
+            const onlineUsers = users.filter(function(u) { return u.online; });
+
+            // Primera consulta: inicializar el set conocido sin notificar
+            if (_knownOnlineUserIds === null) {
+                _knownOnlineUserIds = new Set(onlineUsers.map(function(u) { return String(u.id); }));
+                return;
+            }
+
+            // Detectar nuevos conectados desde la última consulta
+            const newcomers = [];
+            onlineUsers.forEach(function(u) {
+                const uid = String(u.id);
+                // Excluir al usuario actual
+                if (uid === String(me.id)) return;
+                if (!_knownOnlineUserIds.has(uid)) {
+                    newcomers.push(u);
+                }
+            });
+
+            // Actualizar el set conocido con los IDs actuales (también
+            // permite que un usuario que se va y vuelve genere otra notificación).
+            _knownOnlineUserIds = new Set(onlineUsers.map(function(u) { return String(u.id); }));
+
+            // Notificar cada nuevo conectado
+            newcomers.forEach(function(u, idx) {
+                const nick = escHtml(u.nick || 'Jugador');
+                const elo = u.elo != null ? u.elo : '?';
+                const msg = '🟢 <strong>' + nick + '</strong> on-line  ELO:' + elo;
+                setTimeout(function() {
+                    showMessage(msg, 'info', 4000);
+                }, idx * 600);
+            });
+        })
+        .catch(function(){});
 }
 
 function checkIncomingInvites() {
@@ -8672,6 +8904,19 @@ document.addEventListener('DOMContentLoaded', () => {
         showMoveInsights = e.target.checked;
         saveSettings();
     });
+    document.getElementById('board-3d').addEventListener('change', (e) => {
+        board3D = e.target.checked;
+        applyBoard3D();
+        saveSettings();
+    });
+    document.getElementById('move-arrow-toggle').addEventListener('change', (e) => {
+        moveArrowEnabled = e.target.checked;
+        if (!moveArrowEnabled) {
+            const prev = document.getElementById('move-arrow-svg');
+            if (prev) prev.remove();
+        }
+        saveSettings();
+    });
     document.getElementById('sound-enabled').addEventListener('change', (e) => {
         SoundFX.setEnabled(e.target.checked);
         if (e.target.checked) SoundFX.move();
@@ -9634,10 +9879,20 @@ function viewOpening() {
         const toCol = uci.charCodeAt(2) - 97;
         const toRow = 8 - parseInt(uci[3]);
 
+        const trnPieceBefore = game.getPiece(fromRow, fromCol);
+        const trnCapturedBefore = game.getPiece(toRow, toCol);
+        let trnEnPassant = null;
+        if (trnPieceBefore && trnPieceBefore.type === 'pawn' && fromCol !== toCol && !trnCapturedBefore) {
+            const epRow = trnPieceBefore.color === 'white' ? toRow + 1 : toRow - 1;
+            trnEnPassant = { row: epRow, col: toCol, piece: game.getPiece(epRow, toCol) };
+        }
         const result = game.makeMove(fromRow, fromCol, toRow, toCol);
         if (result) {
             lastMoveSquares = { from: { row: fromRow, col: fromCol }, to: { row: toRow, col: toCol } };
             renderBoard();
+            showMoveArrow(fromRow, fromCol, toRow, toCol);
+            if (trnCapturedBefore) showCaptureAnimation(toRow, toCol, trnCapturedBefore);
+            else if (trnEnPassant && trnEnPassant.piece) showCaptureAnimation(trnEnPassant.row, trnEnPassant.col, trnEnPassant.piece);
             updateCapturedPieces();
             updateMoveHistory();
             updateUndoButton();
@@ -10124,10 +10379,20 @@ function startOpeningTraining() {
         const toCol = uci.charCodeAt(2) - 97;
         const toRow = 8 - parseInt(uci[3]);
 
+        const op2PieceBefore = game.getPiece(fromRow, fromCol);
+        const op2CapturedBefore = game.getPiece(toRow, toCol);
+        let op2EnPassant = null;
+        if (op2PieceBefore && op2PieceBefore.type === 'pawn' && fromCol !== toCol && !op2CapturedBefore) {
+            const epRow = op2PieceBefore.color === 'white' ? toRow + 1 : toRow - 1;
+            op2EnPassant = { row: epRow, col: toCol, piece: game.getPiece(epRow, toCol) };
+        }
         const result = game.makeMove(fromRow, fromCol, toRow, toCol);
         if (result) {
             lastMoveSquares = { from: { row: fromRow, col: fromCol }, to: { row: toRow, col: toCol } };
             renderBoard();
+            showMoveArrow(fromRow, fromCol, toRow, toCol);
+            if (op2CapturedBefore) showCaptureAnimation(toRow, toCol, op2CapturedBefore);
+            else if (op2EnPassant && op2EnPassant.piece) showCaptureAnimation(op2EnPassant.row, op2EnPassant.col, op2EnPassant.piece);
             updateCapturedPieces();
             updateMoveHistory();
             updateUndoButton();
@@ -10222,12 +10487,22 @@ function quizCheckMove(fromRow, fromCol, toRow, toCol, promotionPiece) {
         quizCorrect++;
         document.getElementById('quiz-correct-count').textContent = quizCorrect;
 
+        var quizPieceBefore = game.getPiece(fromRow, fromCol);
+        var quizCapturedBefore = game.getPiece(toRow, toCol);
+        var quizEnPassant = null;
+        if (quizPieceBefore && quizPieceBefore.type === 'pawn' && fromCol !== toCol && !quizCapturedBefore) {
+            const epRow = quizPieceBefore.color === 'white' ? toRow + 1 : toRow - 1;
+            quizEnPassant = { row: epRow, col: toCol, piece: game.getPiece(epRow, toCol) };
+        }
         const result = game.makeMove(fromRow, fromCol, toRow, toCol, promotionPiece);
         if (result) {
             lastMoveSquares = { from: { row: fromRow, col: fromCol }, to: { row: toRow, col: toCol } };
             quizIndex++;
             selectedSquare = null;
             renderBoard();
+            showMoveArrow(fromRow, fromCol, toRow, toCol);
+            if (quizCapturedBefore) showCaptureAnimation(toRow, toCol, quizCapturedBefore);
+            else if (quizEnPassant && quizEnPassant.piece) showCaptureAnimation(quizEnPassant.row, quizEnPassant.col, quizEnPassant.piece);
             updateCapturedPieces();
             updateMoveHistory();
             detectOpening();
@@ -10325,6 +10600,67 @@ function applyBoardTheme() {
     boardElement.className = 'chess-board board-theme-' + boardTheme + ' piece-style-' + pieceStyle;
 }
 
+function applyBoard3D() {
+    const boardWrapper = document.querySelector('.board-wrapper');
+    if (!boardWrapper) return;
+    const boardEl = document.getElementById('chess-board');
+
+    // Desinstalar handlers previos
+    if (_board3dClickHandler && boardEl) {
+        boardEl.removeEventListener('click', _board3dClickHandler, true);
+        _board3dClickHandler = null;
+    }
+    if (_board3dTouchHandler && boardEl) {
+        boardEl.removeEventListener('touchend', _board3dTouchHandler, true);
+        _board3dTouchHandler = null;
+    }
+
+    if (board3D) {
+        boardWrapper.classList.add('board-3d-mode');
+        document.body.classList.add('mode-3d-active');
+
+        // Interceptar clicks en modo 3D: usar get3DSquareFromPoint con tolerancia
+        // para compensar la compresión perspectiva de las casillas superiores.
+        _board3dClickHandler = function(e) {
+            const sq = get3DSquareFromPoint(e.clientX, e.clientY);
+            if (!sq) return;
+            const targetSq = e.target && e.target.closest('.square[data-row]');
+            // Si el click ya aterrizó en la casilla correcta, dejar que
+            // el listener individual de la casilla lo maneje.
+            if (targetSq === sq) return;
+            // Si aterrizó en un elemento sin casilla o en una casilla distinta
+            // (borde de pieza, gap de perspectiva), redirigir al cuadrado correcto.
+            e.stopPropagation();
+            handleSquareClick(parseInt(sq.dataset.row), parseInt(sq.dataset.col));
+        };
+
+        // Mismo enfoque para touch (dedo)
+        _board3dTouchHandler = function(e) {
+            if (e.changedTouches.length === 0) return;
+            const touch = e.changedTouches[0];
+            const sq = get3DSquareFromPoint(touch.clientX, touch.clientY);
+            if (!sq) return;
+            const targetSq = document.elementFromPoint(touch.clientX, touch.clientY);
+            const directSq = targetSq && targetSq.closest('.square[data-row]');
+            if (directSq === sq) return;
+            e.preventDefault();
+            e.stopPropagation();
+            handleSquareClick(parseInt(sq.dataset.row), parseInt(sq.dataset.col));
+        };
+
+        if (boardEl) {
+            boardEl.addEventListener('click', _board3dClickHandler, true);
+            boardEl.addEventListener('touchend', _board3dTouchHandler, true);
+        }
+    } else {
+        boardWrapper.classList.remove('board-3d-mode');
+        document.body.classList.remove('mode-3d-active');
+    }
+    // Regenerar tablero para añadir/quitar los frame-coord spans
+    renderBoard();
+    renderCoordinateLabels();
+}
+
 function undoMove() {
     // En partidas online no se permite deshacer movimientos.
     if (_onlineGame && _onlineGame.status === 'active') {
@@ -10338,12 +10674,27 @@ function undoMove() {
 
     hideBoardBanner();
 
+    // Capturar el último movimiento ANTES de deshacer para dibujar la flecha gris
+    const histBefore = (game.moveHistoryUCI || []).slice();
+
         game.undoMove();
         if (game.canUndo()) {
         game.undoMove();
     }
 
     renderBoard();
+    const prevArrow = document.getElementById('move-arrow-svg');
+    if (prevArrow) prevArrow.remove();
+    // Flecha gris desde la casilla actual (TO del último movimiento deshecho)
+    // hasta donde retrocede (FROM del mismo movimiento).
+    const lastUndoneUCI = histBefore[histBefore.length - 1];
+    if (lastUndoneUCI && lastUndoneUCI.length >= 4) {
+        const fc = lastUndoneUCI.charCodeAt(0) - 97;
+        const fr = 8 - parseInt(lastUndoneUCI[1]);
+        const tc = lastUndoneUCI.charCodeAt(2) - 97;
+        const tr = 8 - parseInt(lastUndoneUCI[3]);
+        if (!isNaN(fr) && !isNaN(tr)) showMoveArrow(tr, tc, fr, fc, { reverse: true });
+    }
     updateCapturedPieces();
     updateMoveHistory();
     updateUndoButton();
@@ -12026,6 +12377,212 @@ function formatTime(seconds) {
     return `${mins}:${secs.toString().padStart(2, '0')}`;
 }
 
+// ── Flecha de movimiento ──────────────────────────────────────────────────
+let _moveArrowTimer = null;
+
+function showMoveArrow(fromRow, fromCol, toRow, toCol, opts) {
+    if (!moveArrowEnabled) return;
+    const reverse = !!(opts && opts.reverse);
+    const boardEl = document.getElementById('chess-board');
+    if (!boardEl) return;
+
+    const prev = document.getElementById('move-arrow-svg');
+    if (prev) prev.remove();
+    if (_moveArrowTimer) { clearTimeout(_moveArrowTimer); _moveArrowTimer = null; }
+
+    const sq = boardEl.clientWidth / 8;
+    if (!sq) return;
+
+    const isFlipped = playerColor === 'black';
+    const fdr = isFlipped ? 7 - fromRow : fromRow;
+    const fdc = isFlipped ? 7 - fromCol : fromCol;
+    const tdr = isFlipped ? 7 - toRow   : toRow;
+    const tdc = isFlipped ? 7 - toCol   : toCol;
+
+    const x1 = (fdc + 0.5) * sq,  y1 = (fdr + 0.5) * sq;
+    const x2 = (tdc + 0.5) * sq,  y2 = (tdr + 0.5) * sq;
+
+    const dx = x2 - x1, dy = y2 - y1;
+    const len = Math.sqrt(dx * dx + dy * dy) || 1;
+    const ux = dx / len, uy = dy / len;   // vector unitario dirección
+    const nx = -uy,      ny =  ux;        // vector normal
+
+    // Dimensiones proporcionales al tamaño de casilla
+    const sw0 = sq * 0.03;   // semi-ancho en el inicio (estrecho)
+    const sw1 = sq * 0.10;   // semi-ancho en la base de la cabeza (ancho)
+    const hw  = sq * 0.26;   // semi-ancho de la cabeza
+    const hl  = sq * 0.34;   // longitud de la cabeza
+    const gap = sq * 0.14;   // hueco entre el cuerpo y el centro del origen
+
+    // Punto donde empieza el cuerpo (ligeramente alejado del origen)
+    const bx1 = x1 + ux * gap, by1 = y1 + uy * gap;
+    // Punto donde termina el cuerpo / empieza la cabeza
+    const hx  = x2 - ux * hl, hy  = y2 - uy * hl;
+
+    // 7 puntos: cuerpo trapezoidal (estrecho en origen, ancho en cabeza)
+    const pts = [
+        [bx1 + nx * sw0, by1 + ny * sw0],
+        [hx  + nx * sw1, hy  + ny * sw1],
+        [hx  + nx * hw,  hy  + ny * hw ],
+        [x2,             y2            ],   // punta
+        [hx  - nx * hw,  hy  - ny * hw ],
+        [hx  - nx * sw1, hy  - ny * sw1],
+        [bx1 - nx * sw0, by1 - ny * sw0],
+    ].map(([px, py]) => `${px.toFixed(2)},${py.toFixed(2)}`).join(' ');
+
+    const boardSize = sq * 8;
+    const ns = 'http://www.w3.org/2000/svg';
+
+    const svg = document.createElementNS(ns, 'svg');
+    svg.id = 'move-arrow-svg';
+    svg.setAttribute('viewBox', `0 0 ${boardSize} ${boardSize}`);
+    svg.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:15;';
+
+    // Defs: gradiente lineal + filtro de brillo
+    const gradId   = 'arrow-grad';
+    const filterId = 'arrow-glow';
+    const defs = document.createElementNS(ns, 'defs');
+
+    // Gradiente: dorado (movimiento normal) o gris (retroceso)
+    const grad = document.createElementNS(ns, 'linearGradient');
+    grad.setAttribute('id', gradId);
+    grad.setAttribute('gradientUnits', 'userSpaceOnUse');
+    grad.setAttribute('x1', x1); grad.setAttribute('y1', y1);
+    grad.setAttribute('x2', x2); grad.setAttribute('y2', y2);
+    const stops = reverse ? [
+        { offset: '0%',   color: '#6b6b6b', opacity: '0.70' },
+        { offset: '55%',  color: '#a0a0a0', opacity: '0.85' },
+        { offset: '100%', color: '#d0d0d0', opacity: '0.95' },
+    ] : [
+        { offset: '0%',   color: '#e8a800', opacity: '0.75' },
+        { offset: '55%',  color: '#ffe033', opacity: '0.90' },
+        { offset: '100%', color: '#fff176', opacity: '0.98' },
+    ];
+    stops.forEach(({ offset, color, opacity }) => {
+        const s = document.createElementNS(ns, 'stop');
+        s.setAttribute('offset', offset);
+        s.setAttribute('stop-color', color);
+        s.setAttribute('stop-opacity', opacity);
+        grad.appendChild(s);
+    });
+    defs.appendChild(grad);
+
+    // Filtro de resplandor suave
+    const filt = document.createElementNS(ns, 'filter');
+    filt.setAttribute('id', filterId);
+    filt.setAttribute('x', '-20%'); filt.setAttribute('y', '-20%');
+    filt.setAttribute('width', '140%'); filt.setAttribute('height', '140%');
+    const blur = document.createElementNS(ns, 'feGaussianBlur');
+    blur.setAttribute('in', 'SourceGraphic'); blur.setAttribute('stdDeviation', sq * 0.04);
+    filt.appendChild(blur);
+    defs.appendChild(filt);
+
+    svg.appendChild(defs);
+
+    // Sombra difusa (copia desplazada semitransparente)
+    const shadow = document.createElementNS(ns, 'polygon');
+    shadow.setAttribute('points', pts);
+    shadow.setAttribute('fill', 'rgba(0,0,0,0.28)');
+    shadow.setAttribute('transform', `translate(${sq*0.03},${sq*0.05})`);
+    svg.appendChild(shadow);
+
+    // Contorno oscuro para visibilidad sobre cualquier color de casilla
+    const outline = document.createElementNS(ns, 'polygon');
+    outline.setAttribute('points', pts);
+    outline.setAttribute('fill', 'none');
+    outline.setAttribute('stroke', reverse ? 'rgba(40,40,40,0.55)' : 'rgba(120,70,0,0.55)');
+    outline.setAttribute('stroke-width', sq * 0.04);
+    outline.setAttribute('stroke-linejoin', 'round');
+    svg.appendChild(outline);
+
+    // Polígono principal con gradiente
+    const arrow = document.createElementNS(ns, 'polygon');
+    arrow.setAttribute('points', pts);
+    arrow.setAttribute('fill', `url(#${gradId})`);
+    arrow.setAttribute('stroke', reverse ? 'rgba(220,220,220,0.5)' : 'rgba(255,240,100,0.5)');
+    arrow.setAttribute('stroke-width', sq * 0.02);
+    arrow.setAttribute('stroke-linejoin', 'round');
+    svg.appendChild(arrow);
+
+
+    boardEl.style.position = 'relative';
+    boardEl.appendChild(svg);
+
+    // Aparición suave
+    svg.style.opacity = '0';
+    svg.style.transition = 'opacity 0.18s ease';
+    requestAnimationFrame(() => { svg.style.opacity = '1'; });
+
+    // Desvanecimiento y eliminación automática
+    _moveArrowTimer = setTimeout(() => {
+        svg.style.transition = 'opacity 0.55s ease';
+        svg.style.opacity = '0';
+        setTimeout(() => { if (svg.parentNode) svg.remove(); }, 560);
+    }, 1800);
+}
+
+// ── Animación de captura: la pieza capturada hace zoom y desaparece ──────
+// Se llama ANTES de renderBoard() porque tras el render la pieza ya no está.
+function showCaptureAnimation(capRow, capCol, capturedPiece) {
+    if (!moveArrowEnabled || !capturedPiece) return;
+    const boardEl = document.getElementById('chess-board');
+    if (!boardEl) return;
+    const sq = boardEl.clientWidth / 8;
+    if (!sq) return;
+
+    const isFlipped = playerColor === 'black';
+    const dr = isFlipped ? 7 - capRow : capRow;
+    const dc = isFlipped ? 7 - capCol : capCol;
+
+    const container = document.createElement('div');
+    container.className = 'capture-anim';
+    container.style.cssText =
+        'position:absolute;' +
+        'left:' + (dc * sq) + 'px;' +
+        'top:' + (dr * sq) + 'px;' +
+        'width:' + sq + 'px;' +
+        'height:' + sq + 'px;' +
+        'pointer-events:none;' +
+        'z-index:14;' +
+        'display:flex;' +
+        'align-items:center;' +
+        'justify-content:center;' +
+        'transform-origin:center center;' +
+        'will-change:transform,opacity;';
+
+    if (SVG_PIECE_SETS.includes(pieceStyle)) {
+        const typeMap = { king: 'K', queen: 'Q', rook: 'R', bishop: 'B', knight: 'N', pawn: 'P' };
+        const colorChar = capturedPiece.color === 'white' ? 'w' : 'b';
+        const typeChar = typeMap[capturedPiece.type];
+        if (!typeChar) return;
+        const img = document.createElement('img');
+        img.src = 'pieces/' + pieceStyle + '/' + colorChar + typeChar + '.svg';
+        img.style.cssText = 'width:88%;height:88%;filter:drop-shadow(0 4px 6px rgba(0,0,0,0.45));';
+        container.appendChild(img);
+    } else {
+        const span = document.createElement('span');
+        span.textContent = capturedPiece.piece || '';
+        span.style.cssText =
+            'font-size:' + (sq * 0.7) + 'px;' +
+            'line-height:1;' +
+            'color:' + (capturedPiece.color === 'white' ? '#fff' : '#222') + ';' +
+            'text-shadow:0 2px 4px rgba(0,0,0,0.5);';
+        container.appendChild(span);
+    }
+
+    boardEl.style.position = 'relative';
+    boardEl.appendChild(container);
+
+    // Disparar la animación en el siguiente frame
+    requestAnimationFrame(() => {
+        container.style.transition = 'transform 0.55s cubic-bezier(0.22, 0.8, 0.3, 1.4), opacity 0.55s ease-out';
+        container.style.transform = 'scale(2.2) rotate(12deg)';
+        container.style.opacity = '0';
+    });
+
+    setTimeout(() => { if (container.parentNode) container.remove(); }, 700);
+}
+
 function renderBoard() {
     const boardElement = document.getElementById('chess-board');
     boardElement.innerHTML = '';
@@ -12078,6 +12635,36 @@ function renderBoard() {
             coordinate.className = 'square-coordinate';
             coordinate.textContent = files[displayCol] + (8 - displayRow);
             square.appendChild(coordinate);
+            }
+
+            // Coordenadas en los 4 lados del marco 3D
+            // Usar coordenadas visuales (row/col) para que los rótulos siempre
+            // queden en los bordes del tablero, esté volteado o no.
+            if (board3D) {
+                if (col === 0) {
+                    const rankL = document.createElement('span');
+                    rankL.className = 'frame-coord frame-coord-rank frame-coord-rank-left';
+                    rankL.textContent = String(8 - displayRow);
+                    square.appendChild(rankL);
+                }
+                if (col === 7) {
+                    const rankR = document.createElement('span');
+                    rankR.className = 'frame-coord frame-coord-rank frame-coord-rank-right';
+                    rankR.textContent = String(8 - displayRow);
+                    square.appendChild(rankR);
+                }
+                if (row === 7) {
+                    const fileB = document.createElement('span');
+                    fileB.className = 'frame-coord frame-coord-file frame-coord-file-bottom';
+                    fileB.textContent = files[displayCol];
+                    square.appendChild(fileB);
+                }
+                if (row === 0) {
+                    const fileT = document.createElement('span');
+                    fileT.className = 'frame-coord frame-coord-file frame-coord-file-top';
+                    fileT.textContent = files[displayCol];
+                    square.appendChild(fileT);
+                }
             }
             
             // Agregar pieza si existe
@@ -12194,6 +12781,13 @@ function handleFreeTrainingClick(row, col) {
 }
 
 function executeFreeTrainingMove(fromRow, fromCol, toRow, toCol, promotionPiece) {
+    var ftPieceBefore = game.getPiece(fromRow, fromCol);
+    var ftCapturedBefore = game.getPiece(toRow, toCol);
+    var ftEnPassant = null;
+    if (ftPieceBefore && ftPieceBefore.type === 'pawn' && fromCol !== toCol && !ftCapturedBefore) {
+        const epRow = ftPieceBefore.color === 'white' ? toRow + 1 : toRow - 1;
+        ftEnPassant = { row: epRow, col: toCol, piece: game.getPiece(epRow, toCol) };
+    }
     const result = game.makeMove(fromRow, fromCol, toRow, toCol, promotionPiece);
     if (!result) return;
 
@@ -12201,6 +12795,9 @@ function executeFreeTrainingMove(fromRow, fromCol, toRow, toCol, promotionPiece)
     bestMoveSquares = { from: null, to: null };
     selectedSquare = null;
             renderBoard();
+            showMoveArrow(fromRow, fromCol, toRow, toCol);
+            if (ftCapturedBefore) showCaptureAnimation(toRow, toCol, ftCapturedBefore);
+            else if (ftEnPassant && ftEnPassant.piece) showCaptureAnimation(ftEnPassant.row, ftEnPassant.col, ftEnPassant.piece);
             updateCapturedPieces();
             updateMoveHistory();
             updateUndoButton();
@@ -12377,6 +12974,31 @@ function handleDragMove(e) {
     dragState.ghost.style.top = (e.clientY - sz * 0.425) + 'px';
 }
 
+// Busca la casilla bajo el punto (x,y) con tolerancia en pixels.
+// Probando el punto exacto y luego puntos en espiral para ampliar
+// el margen de detección en el tablero 3D perspectivado.
+function get3DSquareFromPoint(x, y, tolerance) {
+    const t = tolerance || 14;
+    const offsets = [
+        [0, 0],
+        [-t, 0], [t, 0], [0, -t], [0, t],
+        [-t, -t], [t, -t], [-t, t], [t, t],
+        [-t * 0.5, 0], [t * 0.5, 0], [0, -t * 0.5], [0, t * 0.5],
+        [-t * 0.7, -t * 0.7], [t * 0.7, -t * 0.7],
+    ];
+    for (const [dx, dy] of offsets) {
+        const el = document.elementFromPoint(x + dx, y + dy);
+        const sq = el && el.closest('.square[data-row]');
+        if (sq) return sq;
+    }
+    return null;
+}
+
+// Handler de click instalado sobre el tablero en modo 3D para ampliar
+// el margen de detección usando get3DSquareFromPoint.
+let _board3dClickHandler = null;
+let _board3dTouchHandler = null;
+
 function handleDragEnd(e) {
     if (!dragState) return;
 
@@ -12384,26 +13006,42 @@ function handleDragEnd(e) {
     ghost.remove();
     dragState = null;
 
-    const boardEl = document.getElementById('chess-board');
-    const boardRect = boardEl.getBoundingClientRect();
-    const x = e.clientX - boardRect.left;
-    const y = e.clientY - boardRect.top;
+    let dropRow, dropCol;
 
-    if (x < 0 || y < 0 || x > boardRect.width || y > boardRect.height) {
-        selectedSquare = null;
-        renderBoard();
-        return;
+    if (board3D) {
+        // En modo 3D la perspectiva CSS comprime las filas superiores y expande las
+        // inferiores, por lo que el cálculo lineal da filas incorrectas.
+        // get3DSquareFromPoint() resuelve con tolerancia adicional.
+        const squareEl = get3DSquareFromPoint(e.clientX, e.clientY);
+        if (!squareEl) {
+            selectedSquare = null;
+            renderBoard();
+            return;
+        }
+        dropRow = parseInt(squareEl.dataset.row);
+        dropCol = parseInt(squareEl.dataset.col);
+    } else {
+        const boardEl = document.getElementById('chess-board');
+        const boardRect = boardEl.getBoundingClientRect();
+        const x = e.clientX - boardRect.left;
+        const y = e.clientY - boardRect.top;
+
+        if (x < 0 || y < 0 || x > boardRect.width || y > boardRect.height) {
+            selectedSquare = null;
+            renderBoard();
+            return;
+        }
+
+        const squareSize = boardRect.width / 8;
+        let gridCol = Math.floor(x / squareSize);
+        let gridRow = Math.floor(y / squareSize);
+        gridCol = Math.max(0, Math.min(7, gridCol));
+        gridRow = Math.max(0, Math.min(7, gridRow));
+
+        const isFlipped = playerColor === 'black';
+        dropCol = isFlipped ? 7 - gridCol : gridCol;
+        dropRow = isFlipped ? 7 - gridRow : gridRow;
     }
-
-    const squareSize = boardRect.width / 8;
-    let gridCol = Math.floor(x / squareSize);
-    let gridRow = Math.floor(y / squareSize);
-    gridCol = Math.max(0, Math.min(7, gridCol));
-    gridRow = Math.max(0, Math.min(7, gridRow));
-
-    const isFlipped = playerColor === 'black';
-    const dropCol = isFlipped ? 7 - gridCol : gridCol;
-    const dropRow = isFlipped ? 7 - gridRow : gridRow;
 
     if (dropRow === fromRow && dropCol === fromCol) {
         return;
@@ -13224,6 +13862,12 @@ function hideMoveInsight() {
 function executeMove(fromRow, fromCol, toRow, toCol, promotionPiece) {
     var pieceBeforeMove = game.getPiece(fromRow, fromCol);
     var capturedBeforeMove = game.getPiece(toRow, toCol);
+    // Detectar en-passant: peón que se mueve en diagonal a casilla vacía
+    var enPassantCapture = null;
+    if (pieceBeforeMove && pieceBeforeMove.type === 'pawn' && fromCol !== toCol && !capturedBeforeMove) {
+        const epRow = pieceBeforeMove.color === 'white' ? toRow + 1 : toRow - 1;
+        enPassantCapture = { row: epRow, col: toCol, piece: game.getPiece(epRow, toCol) };
+    }
     const result = game.makeMove(fromRow, fromCol, toRow, toCol, promotionPiece);
 
     // — Sincronización online: enviar UCI al servidor si la partida está activa —
@@ -13251,6 +13895,13 @@ function executeMove(fromRow, fromCol, toRow, toCol, promotionPiece) {
     }
 
     renderBoard();
+    showMoveArrow(fromRow, fromCol, toRow, toCol);
+    if (result) {
+        if (capturedBeforeMove) showCaptureAnimation(toRow, toCol, capturedBeforeMove);
+        else if (enPassantCapture && enPassantCapture.piece) {
+            showCaptureAnimation(enPassantCapture.row, enPassantCapture.col, enPassantCapture.piece);
+        }
+    }
     updateCapturedPieces();
     updateMoveHistory();
     updateUndoButton();
@@ -13454,12 +14105,20 @@ function updateNavigationButtons() {
 //    i = después del movimiento i → mostrar gameStateHistory[i+1]
 //   "inicio" = posición inicial → mostrar gameStateHistory[0], currentMoveIndex = 0 especial
 
+// Devuelve el índice de estado actual normalizado (resolviendo -1 al último).
+function _resolveCurrentStateIndex() {
+    const states = game ? (game.gameStateHistory || []) : [];
+    if (states.length === 0) return 0;
+    return currentMoveIndex === -1 ? states.length - 1 : currentMoveIndex;
+}
+
 function goToFirstMove() {
     const states = game ? (game.gameStateHistory || []) : [];
     if (states.length < 2) return;
     hideBoardBanner();
+    const fromIdx = _resolveCurrentStateIndex();
     currentMoveIndex = 1;
-    restoreGameState(1);
+    restoreGameState(1, fromIdx);
     updateMoveHistory();
 }
 
@@ -13467,6 +14126,7 @@ function goToPreviousMove() {
     const states = game ? (game.gameStateHistory || []) : [];
     if (states.length < 2) return;
     hideBoardBanner();
+    const fromIdx = _resolveCurrentStateIndex();
     if (currentMoveIndex === -1) {
         // Desde el final, ir al penúltimo estado (después del penúltimo movimiento)
         currentMoveIndex = states.length - 2;
@@ -13475,52 +14135,55 @@ function goToPreviousMove() {
     } else {
         return;
     }
-    
-        restoreGameState(currentMoveIndex);
-        updateMoveHistory();
+
+    restoreGameState(currentMoveIndex, fromIdx);
+    updateMoveHistory();
 }
 
 function goToNextMove() {
     const states = game ? (game.gameStateHistory || []) : [];
     if (states.length < 2 || currentMoveIndex === -1) return;
     hideBoardBanner();
-    
+    const fromIdx = _resolveCurrentStateIndex();
+
     if (currentMoveIndex < states.length - 2) {
         currentMoveIndex++;
-        restoreGameState(currentMoveIndex);
+        restoreGameState(currentMoveIndex, fromIdx);
     } else {
         currentMoveIndex = -1;
-        restoreGameState(states.length - 1);
+        restoreGameState(states.length - 1, fromIdx);
     }
-        updateMoveHistory();
+    updateMoveHistory();
 }
 
 function goToLastMove() {
     const states = game ? (game.gameStateHistory || []) : [];
     if (states.length < 2) return;
     hideBoardBanner();
+    const fromIdx = _resolveCurrentStateIndex();
     currentMoveIndex = -1;
-    restoreGameState(states.length - 1);
+    restoreGameState(states.length - 1, fromIdx);
     updateMoveHistory();
 }
 
 function goToMove(moveIndex) {
     const states = game ? (game.gameStateHistory || []) : [];
     if (states.length < 2) return;
-    
+    const fromIdx = _resolveCurrentStateIndex();
+
     // Click en movimiento i → mostrar posición después de ese movimiento = states[i+1]
     const stateIdx = moveIndex + 1;
     if (stateIdx >= states.length) {
         currentMoveIndex = -1;
-        restoreGameState(states.length - 1);
+        restoreGameState(states.length - 1, fromIdx);
     } else {
         currentMoveIndex = moveIndex + 1;
-        restoreGameState(stateIdx);
+        restoreGameState(stateIdx, fromIdx);
     }
     updateMoveHistory();
 }
 
-function restoreGameState(stateIndex) {
+function restoreGameState(stateIndex, fromStateIndex) {
     if (!game || !game.gameStateHistory) return;
     
     if (stateIndex < 0) stateIndex = 0;
@@ -13539,6 +14202,37 @@ function restoreGameState(stateIndex) {
     game.gameOver = state.gameOver != null ? state.gameOver : false;
     
     renderBoard();
+    const prevArrow = document.getElementById('move-arrow-svg');
+    if (prevArrow) prevArrow.remove();
+
+    // Determinar dirección: si conocemos el índice anterior y vamos hacia atrás,
+    // dibujamos una flecha gris desde la casilla actual hacia la de retroceso.
+    const history = game.moveHistoryUCI || [];
+    const goingBack = (typeof fromStateIndex === 'number') && fromStateIndex > stateIndex;
+
+    if (goingBack) {
+        // El movimiento que se está deshaciendo es el último que aplicamos
+        // antes de retroceder, es decir el de índice (fromStateIndex - 1).
+        const moveUCI = history[fromStateIndex - 1];
+        if (moveUCI && moveUCI.length >= 4) {
+            const fc = moveUCI.charCodeAt(0) - 97;
+            const fr = 8 - parseInt(moveUCI[1]);
+            const tc = moveUCI.charCodeAt(2) - 97;
+            const tr = 8 - parseInt(moveUCI[3]);
+            // Flecha gris: desde TO (donde está la pieza) hasta FROM (donde retrocede)
+            if (!isNaN(fr) && !isNaN(tr)) showMoveArrow(tr, tc, fr, fc, { reverse: true });
+        }
+    } else {
+        // Avance normal: flecha amarilla del movimiento que llevó a este estado
+        const moveUCI = history[stateIndex - 1];
+        if (moveUCI && moveUCI.length >= 4) {
+            const fc = moveUCI.charCodeAt(0) - 97;
+            const fr = 8 - parseInt(moveUCI[1]);
+            const tc = moveUCI.charCodeAt(2) - 97;
+            const tr = 8 - parseInt(moveUCI[3]);
+            if (!isNaN(fr) && !isNaN(tr)) showMoveArrow(fr, fc, tr, tc);
+        }
+    }
     updateCapturedPieces();
     updateNavigationButtons();
     updateEvalBar();
@@ -13663,6 +14357,11 @@ async function makeAIMove() {
 
                 const aiPieceBefore    = game.getPiece(move.fromRow, move.fromCol);
                 const aiCaptureBefore  = game.getPiece(move.toRow, move.toCol);
+                let aiEnPassantCapture = null;
+                if (aiPieceBefore && aiPieceBefore.type === 'pawn' && move.fromCol !== move.toCol && !aiCaptureBefore) {
+                    const epRow = aiPieceBefore.color === 'white' ? move.toRow + 1 : move.toRow - 1;
+                    aiEnPassantCapture = { row: epRow, col: move.toCol, piece: game.getPiece(epRow, move.toCol) };
+                }
                 const result = game.makeMove(move.fromRow, move.fromCol, move.toRow, move.toCol);
 
                 // — Sonido del movimiento de la IA —
@@ -13683,6 +14382,12 @@ async function makeAIMove() {
                 await new Promise(resolve => setTimeout(resolve, 200));
                 
                 renderBoard();
+                showMoveArrow(move.fromRow, move.fromCol, move.toRow, move.toCol);
+                if (aiCaptureBefore) {
+                    showCaptureAnimation(move.toRow, move.toCol, aiCaptureBefore);
+                } else if (aiEnPassantCapture && aiEnPassantCapture.piece) {
+                    showCaptureAnimation(aiEnPassantCapture.row, aiEnPassantCapture.col, aiEnPassantCapture.piece);
+                }
                 updateCapturedPieces();
                 updateMoveHistory();
                 updateUndoButton();
@@ -13713,6 +14418,101 @@ function showThinkingIndicator(show) {
     const indicator = document.getElementById('thinking-indicator');
     indicator.style.display = show ? 'flex' : 'none';
 }
+
+// ── Tablero siempre visible en PC ──────────────────────────────────────────
+// El tablero tiene position:sticky. Calculamos dinámicamente su `top` para
+// mantener visible TODO el contenedor (tablero + botones + navegador de
+// movimientos), priorizando que la parte inferior no quede recortada.
+(function () {
+    let _boardStickyRaf = null;
+
+    function updateBoardStickyTop() {
+        if (window.innerWidth <= 768) return;
+        const bc = document.querySelector('.board-container');
+        if (!bc) return;
+        const boardEl = document.getElementById('chess-board');
+        const vh = window.innerHeight;
+        const margin = 10;
+        const bcHeight = bc.offsetHeight;
+
+        // Si no tenemos referencia al tablero, fallback al cálculo basado en bc
+        if (!boardEl) {
+            bc.style.top = (bcHeight >= vh ? 0 : Math.max(margin, Math.floor((vh - bcHeight) / 2))) + 'px';
+            return;
+        }
+
+        // Offset del chess-board dentro del board-container (normalmente 0
+        // porque el board-wrapper es el primer hijo, pero lo medimos por seguridad).
+        const cbRect = boardEl.getBoundingClientRect();
+        const bcRect = bc.getBoundingClientRect();
+        const cbOffsetInBc = Math.max(0, cbRect.top - bcRect.top);
+        const cbHeight = boardEl.offsetHeight;
+
+        let topVal;
+        if (bcHeight + margin * 2 <= vh) {
+            // Cabe TODO el contenedor: centrarlo verticalmente
+            topVal = Math.floor((vh - bcHeight) / 2);
+        } else {
+            // No cabe entero. Anclar el contenedor por la parte INFERIOR
+            // para que los controles (botones, navegador de movimientos,
+            // mini-reloj, etc.) queden siempre visibles.
+            topVal = vh - bcHeight - margin;
+
+            // Evitar que el tablero quede demasiado recortado por arriba:
+            // mantener al menos un 80% del tablero visible.
+            // chess-board top en viewport = topVal + cbOffsetInBc
+            // → topVal >= -0.2 * cbHeight - cbOffsetInBc
+            const minAllowedTop = -Math.floor(cbHeight * 0.2) - cbOffsetInBc;
+            if (topVal < minAllowedTop) topVal = minAllowedTop;
+
+            // Si ni el tablero cabe en viewport, anclar arriba con margen
+            if (cbHeight + margin * 2 > vh) {
+                topVal = Math.max(margin, margin - cbOffsetInBc);
+            }
+        }
+
+        bc.style.top = topVal + 'px';
+    }
+
+    function scheduleUpdate() {
+        if (_boardStickyRaf) cancelAnimationFrame(_boardStickyRaf);
+        _boardStickyRaf = requestAnimationFrame(updateBoardStickyTop);
+    }
+
+    // Redirigir rueda del ratón sobre el tablero al scroll de página
+    function initBoardWheelRedirect() {
+        const bc = document.querySelector('.board-container');
+        if (!bc) return;
+        bc.addEventListener('wheel', function (e) {
+            if (window.innerWidth <= 768) return;
+            e.preventDefault();
+            window.scrollBy({ top: e.deltaY, behavior: 'auto' });
+        }, { passive: false });
+    }
+
+    function init() {
+        initBoardWheelRedirect();
+        updateBoardStickyTop();
+        window.addEventListener('resize', scheduleUpdate);
+        window.addEventListener('scroll', scheduleUpdate, { passive: true });
+        // Recalcular cuando el contenido cambie (paneles colapsables, modo 3D, etc.)
+        const bc = document.querySelector('.board-container');
+        if (bc && typeof ResizeObserver !== 'undefined') {
+            const observer = new ResizeObserver(scheduleUpdate);
+            observer.observe(bc);
+            const boardEl = document.getElementById('chess-board');
+            if (boardEl) observer.observe(boardEl);
+            // Observar también el documento para detectar crecimiento total
+            if (document.body) observer.observe(document.body);
+        }
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
+})();
 
 function updateEvalBar() {
     if (!game) return;

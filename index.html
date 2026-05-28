@@ -630,12 +630,12 @@
                         <div class="piece-style-wrapper">
                             <img id="piece-style-preview" class="piece-style-preview" src="pieces/cburnett/bP.svg" alt="Preview">
                             <select id="piece-style" class="select">
-                                <option value="cburnett" selected>Cburnett (Lichess)</option>
+                                <option value="cburnett">Cburnett (Lichess)</option>
                                 <option value="merida">Mérida</option>
                                 <option value="alpha">Alpha</option>
                                 <option value="california">California</option>
                                 <option value="maestro">Maestro</option>
-                                <option value="staunty">Staunty</option>
+                                <option value="staunty" selected>Staunty</option>
                                 <option value="companion">Companion</option>
                                 <option value="tatiana">Tatiana</option>
                                 <option value="leipzig">Leipzig</option>
@@ -649,6 +649,11 @@
 
                     <div class="config-section config-checkbox">
                         <label><input type="checkbox" id="show-coordinates"> Coordenadas en Casillas</label>
+                    </div>
+
+                    <div class="config-section config-checkbox">
+                        <label><input type="checkbox" id="board-3d"> Tablero 3D</label>
+                        <label><input type="checkbox" id="move-arrow-toggle" checked> Flecha para movimiento</label>
                     </div>
 
                     <div class="config-section config-checkbox">
@@ -720,10 +725,12 @@
             <button type="button" class="login-modal-close" id="help-menu-close" title="Cerrar" aria-label="Cerrar">✕</button>
             <h2 class="login-modal-title" id="help-menu-heading">Ayuda en vídeo</h2>
             <p class="login-modal-subtitle help-menu-intro">Elige un tema para ver el tutorial en YouTube.</p>
-            <button type="button" id="help-menu-tutorial-completo-btn" class="btn btn-secondary help-menu-item-btn help-menu-tutorial-completo-btn">📚 Tutorial Completo</button>
-            <ul class="help-menu-list" id="help-menu-list"></ul>
-            <button type="button" id="help-menu-analysis-btn" class="btn btn-secondary help-menu-item-btn help-menu-analysis-btn">📊 Análisis</button>
-            <button type="button" id="help-menu-share-btn" class="btn btn-secondary help-menu-item-btn help-menu-share-btn">📤 Compartir</button>
+            <div class="help-menu-buttons">
+                <button type="button" id="help-menu-tutorial-completo-btn" class="btn btn-secondary help-menu-item-btn help-menu-tutorial-completo-btn">📚 Tutorial Completo</button>
+                <ul class="help-menu-list" id="help-menu-list"></ul>
+                <button type="button" id="help-menu-analysis-btn" class="btn btn-secondary help-menu-item-btn help-menu-analysis-btn">📊 Análisis</button>
+                <button type="button" id="help-menu-share-btn" class="btn btn-secondary help-menu-item-btn help-menu-share-btn">📤 Compartir</button>
+            </div>
         </div>
     </div>
 

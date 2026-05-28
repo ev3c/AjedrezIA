@@ -143,10 +143,19 @@ header h1 {
     margin-bottom: 20px;
 }
 
+.config-section.config-checkbox {
+    margin-bottom: 6px;
+}
+
 .config-checkbox label {
     display: flex;
     align-items: center;
     cursor: pointer;
+    line-height: 1.25;
+}
+
+.config-checkbox label + label {
+    margin-top: 2px;
 }
 
 .config-checkbox input[type="checkbox"] {
@@ -3501,7 +3510,7 @@ body.puzzle-mode-active .mini-elo-display {
     .board-container {
         order: 1 !important;
         width: 100%;
-        gap: 6px;
+        gap: 2px;
         --square-size: calc((100vw - 60px) / 8);
         --square-size: min(80px, calc((100vw - 60px) / 8));
         position: static;
@@ -3512,9 +3521,9 @@ body.puzzle-mode-active .mini-elo-display {
         margin-top: 0 !important;
     }
 
-    /* Un poco más de aire solo entre tablero y lo que sigue (mini-reloj / nav análisis) */
+    /* Un poco de aire solo entre tablero y lo que sigue (mini-reloj / nav análisis) */
     .board-container > .board-wrapper {
-        margin-bottom: 6px;
+        margin-bottom: 2px;
     }
 
     .puzzle-board-nav {
@@ -3893,29 +3902,29 @@ body.puzzle-mode-active .mini-elo-display {
 }
 
 .help-menu-intro {
-    margin-bottom: 10px !important;
+    margin-bottom: 6px !important;
     text-align: left;
 }
 
-.help-menu-tutorial-completo-btn {
-    margin-bottom: 12px;
+.help-menu-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
 }
 
-.help-menu-analysis-btn {
-    margin-top: 12px;
-}
-
-.help-menu-share-btn {
-    margin-top: 4px;
+.help-menu-card .btn {
+    margin-top: 0;
 }
 
 .help-menu-list {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
+    display: contents;
+}
+
+.help-menu-list li {
+    display: contents;
 }
 
 .help-menu-item-btn {
@@ -3924,8 +3933,8 @@ body.puzzle-mode-active .mini-elo-display {
     justify-content: flex-start;
     text-align: left;
     font-weight: 600;
-    padding-top: 0.45rem;
-    padding-bottom: 0.45rem;
+    padding-top: 0.35rem;
+    padding-bottom: 0.35rem;
 }
 
 .help-menu-item-btn--pending {
@@ -4850,11 +4859,13 @@ body.puzzle-mode-active .mini-elo-display {
 
 /* En PC: compactar los elementos bajo el tablero */
 @media (min-width: 769px) {
+
     .board-container {
-        gap: 8px;
+        gap: 6px;
     }
+
     .mini-clock-elo-row {
-        margin: 0 auto;
+        margin: 2px auto 0;
     }
     .captured-below {
         margin-top: 0;
@@ -4866,6 +4877,155 @@ body.puzzle-mode-active .mini-elo-display {
     .move-navigator {
         margin-top: 0;
         padding: 10px 12px;
+    }
+
+    /* En 3D, reducir el espaciador inferior del tablero para que
+       los controles queden más cerca de la base proyectada. */
+    .board-3d-mode {
+        padding-bottom: calc(min(80px, calc((100vw - 80px) / 8), calc((100vh - 280px) / 8)) * 0.3);
+    }
+}
+
+/* ═══════════════════════════════════════════════════
+   MODO TABLERO 3D
+   ═══════════════════════════════════════════════════ */
+
+/* Wrapper que aplica la perspectiva */
+.board-3d-mode .board-and-files {
+    perspective: 900px;
+    perspective-origin: 50% -10%;
+}
+
+/* El tablero inclinado */
+.board-3d-mode #chess-board {
+    transform: translateY(-25px) rotateX(20deg) scale(0.92);
+    transform-style: preserve-3d;
+    border: 14px solid #7b4a1e;
+    border-radius: 6px;
+    outline: 3px solid #3d1f08;
+    box-shadow:
+        0 2px 0 4px #1a1a1a,
+        0 6px 0 4px #2a1a0a,
+        0 10px 0 4px #1a1a1a,
+        0 20px 40px rgba(0,0,0,0.7),
+        0 40px 80px rgba(0,0,0,0.4),
+        inset 0 0 12px rgba(0,0,0,0.25);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* Lustre interior del marco marrón */
+.board-3d-mode #chess-board::after {
+    content: '';
+    position: absolute;
+    inset: -14px;
+    border-radius: 6px;
+    border: 14px solid transparent;
+    background:
+        linear-gradient(135deg, rgba(255,255,255,0.18) 0%, transparent 50%, rgba(0,0,0,0.15) 100%)
+        border-box;
+    pointer-events: none;
+}
+
+/* Piezas SVG: elevan con sombra para simular volumen */
+.board-3d-mode .piece-svg {
+    transform: translateZ(10px) scale(0.96);
+    filter:
+        drop-shadow(0 6px 5px rgba(0,0,0,0.55))
+        drop-shadow(0 2px 2px rgba(0,0,0,0.4));
+    transition: transform 0.15s ease, filter 0.15s ease;
+}
+
+/* Pieza seleccionada: se "levanta" más */
+.board-3d-mode .square.selected .piece-svg {
+    transform: translateZ(22px) scale(1.08);
+    filter:
+        drop-shadow(0 12px 10px rgba(0,0,0,0.65))
+        drop-shadow(0 4px 4px rgba(0,0,0,0.5));
+}
+
+/* Piezas emoji/texto en modo 3D */
+.board-3d-mode .piece:not(.piece-svg) {
+    transform: translateZ(8px);
+    text-shadow: 0 4px 8px rgba(0,0,0,0.6), 0 2px 3px rgba(0,0,0,0.5);
+    transition: transform 0.15s ease;
+}
+
+/* Indicadores de movimiento válido ajustados */
+.board-3d-mode .square.valid-move::after {
+    transform: translateZ(4px);
+}
+
+/* Sombras de casillas para efecto de profundidad */
+.board-3d-mode .square.dark {
+    box-shadow: inset 0 -2px 4px rgba(0,0,0,0.2);
+}
+
+/* Ocultar etiquetas externas en 3D (sustituidas por frame-coord en las casillas) */
+.board-3d-mode .rank-labels,
+.board-3d-mode .file-labels {
+    display: none;
+}
+
+/* Base de coordenadas de marco */
+.frame-coord {
+    position: absolute;
+    font-size: 0.6rem;
+    font-weight: 800;
+    color: rgba(255, 220, 160, 0.95);
+    text-shadow: 0 1px 3px rgba(0,0,0,0.9);
+    pointer-events: none;
+    z-index: 20;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Números (1-8) en bordes laterales del marco */
+.frame-coord-rank {
+    top: 0;
+    width: 14px;
+    height: 100%;
+}
+.frame-coord-rank-left  { left:  -14px; }
+.frame-coord-rank-right { right: -14px; }
+
+/* Letras (a-h) en bordes superior e inferior del marco */
+.frame-coord-file {
+    left: 0;
+    width: 100%;
+    height: 14px;
+}
+.frame-coord-file-bottom { bottom: -14px; }
+.frame-coord-file-top    { top:    -14px; }
+
+/* Animación suave al activar/desactivar */
+#chess-board {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* El rotateX hace que el borde inferior del tablero se extienda
+   visualmente por debajo del layout box, cubriendo el reloj/ELO.
+   padding-bottom empuja el reloj hacia abajo proporcionalmente
+   al tamaño de casilla (--sq no está disponible en este scope,
+   se usa la misma fórmula inline). */
+.board-3d-mode {
+    padding-bottom: calc(min(80px, calc((100vw - 80px) / 8), calc((100vh - 280px) / 8)) * 0.65);
+}
+
+/* En PC 3D: barra de fuerza alineada arriba con el tablero */
+@media (min-width: 769px) {
+    .board-3d-mode .eval-bar-container {
+        margin-left: 0;
+        align-self: flex-start;
+        margin-top: 0;
+    }
+}
+
+/* En smartphone restaurar el scale original del tablero 3D */
+@media (max-width: 1024px) and (orientation: portrait), (max-width: 768px) {
+    .board-3d-mode #chess-board {
+        transform: translateY(-35px) rotateX(32deg) scale(0.97);
     }
 }
 

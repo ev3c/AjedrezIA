@@ -2,6 +2,81 @@
 
 ---
 
+## v3.2.0 — 2026-05-28
+
+### Jugadores online — Bots siempre disponibles
+- Nuevos jugadores sintéticos disponibles 24/7 en la lista de usuarios online: **Bot_400, Bot_700, Bot_1000, Bot_1200, Bot_1500, Bot_1800, Bot_2200, Bot_2500**.
+- Al invitar a un bot se arranca directamente una partida contra la IA local con el nivel correspondiente a su ELO (mismo motor que «Nueva Partida → contra IA»). Se respeta el color y el control de tiempo seleccionados.
+- Los bots se sirven tanto desde el backend (`api/get-users.php`) como inyectados en el cliente, por lo que están disponibles también en modo local (sin servidor) y sin necesidad de iniciar sesión.
+
+---
+
+## v3.1.7 — 2026-05-28
+
+### UI — Menú Ayuda en vídeo
+- Todos los botones del menú Ayuda en vídeo muestran la misma separación entre sí: se envolvieron en un contenedor flex con `gap: 4px` uniforme, eliminando los márgenes individuales distintos.
+
+### UI — Panel Configuración
+- Los checkboxes del panel de Configuración se muestran más juntos: `margin-bottom: 6px` por sección y `line-height: 1.25` en etiquetas.
+
+## v3.1.6 — 2026-05-28
+
+### UI — Menú Ayuda en vídeo
+- Botones más compactos: padding vertical reducido, `margin-top: 0` sobre la clase `.btn`, gap de lista a 2px.
+
+## v3.1.5 — 2026-05-28
+
+### UI — Panel Configuración
+- Checkboxes más juntos: nueva regla `.config-section.config-checkbox` con `margin-bottom: 6px` (antes heredaban 20px del `.config-section` general).
+
+## v3.1.4 — 2026-05-27
+
+### UI — Tablero 3D
+- Controles bajo el tablero más arriba en modo 3D: factor `padding-bottom` reducido de `×1.1` a `×0.65` (general) y de `×0.55` a `×0.3` (override PC).
+
+## v3.1.3 — 2026-05-27
+
+### UI — Layout PC y smartphone
+- Controles bajo el tablero (mini-reloj, ELO, botones de acción, navegador de movimientos) aparecen más arriba en PC y en móvil.
+  - PC: `gap` del `.board-container` de 10px → 6px; `margin` del mini-reloj de 20px → 2px.
+  - Móvil: `gap` de 6px → 2px; `margin-bottom` del wrapper de 6px → 2px.
+
+## v3.1.2 — 2026-05-27
+
+### UI — Tablero 3D (PC)
+- Tablero 3D en modo PC ligeramente más grande: `scale(0.86)` → `scale(0.92)`; `translateY` ajustado de -20px a -25px para compensar la proyección.
+
+## v3.1.1 — 2026-05-27
+
+### UI — Layout PC (sticky)
+- Nueva lógica de posicionamiento sticky del tablero en PC: prioriza que los controles inferiores (botones, navegador de movimientos, mini-reloj) nunca queden recortados por la parte inferior. El `top` se calcula sobre la altura total del `.board-container`, no solo del tablero.
+
+## v3.1.0 — 2026-05-27
+
+### Tablero 3D y layout PC
+- Detección de clics en 3D: `get3DSquareFromPoint()` con tolerancia; handlers de click/touch en `applyBoard3D`.
+- PC con `scale(0.86)` y `rotateX(20deg)`; smartphone mantiene `scale(0.97)`.
+- Coordenadas en marco 3D: números y letras en los 4 lados; corrección de posición visual para negras.
+- Barra de fuerza 3D alineada arriba con el tablero.
+- Tablero siempre visible en PC: sticky dinámico basado en `#chess-board`, recalculado en resize/scroll/ResizeObserver.
+- Scroll con rueda sobre el tablero redirige el scroll a los paneles laterales.
+
+### Flechas de movimiento
+- Flecha amarilla al mover piezas (jugador, IA, online, puzzles, aperturas, partidas maestras, quiz, entrenamiento).
+- Flecha gris al retroceder (navegación de movimientos y deshacer).
+- Checkbox «Flecha para movimiento» en Configuración, persistido en `localStorage`.
+
+### Animación de captura
+- Si la flecha está activa, la pieza capturada hace zoom + desvanecimiento (incluye en-passant).
+
+### Promoción de peón
+- `promotePawn()` acepta tanto notación UCI (`q/r/b/n`) como nombres completos; corrige piezas coronadas en puzzles.
+
+### Online
+- Aviso cuando un usuario se conecta: «🟢 usuario on-line ELO:XXX» (polling cada 30 s).
+
+---
+
 ## v3.0.6 — 2026-05-05
 
 ### Responsive
