@@ -2,6 +2,13 @@
 
 ---
 
+## v3.2.1 — 2026-05-28
+
+### UI — Tablero 3D por defecto
+- El checkbox "Tablero 3D" aparece **marcado por defecto** en nuevas instalaciones / primer uso. Los usuarios que ya tengan una preferencia guardada en `localStorage` mantienen su valor anterior.
+
+---
+
 ## v3.2.0 — 2026-05-28
 
 ### Jugadores online — Bots siempre disponibles

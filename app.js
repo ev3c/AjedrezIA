@@ -170,7 +170,7 @@ let boardTheme = 'classic';
 let pieceStyle = 'staunty';
 let showCoordinates = false;
 let showMoveInsights = false;
-let board3D = false;
+let board3D = true;
 let moveArrowEnabled = true;
 let clockEnabled = true; // Reloj siempre activado
 let timePerPlayer = 60; // minutos (base)
@@ -5184,7 +5184,7 @@ function loadSavedSettings() {
             pieceStyle = settings.pieceStyle != null ? settings.pieceStyle : 'staunty';
             showCoordinates = settings.showCoordinates !== undefined ? settings.showCoordinates : false;
             showMoveInsights = settings.showMoveInsights !== undefined ? settings.showMoveInsights : false;
-            board3D = settings.board3D !== undefined ? settings.board3D : false;
+            board3D = settings.board3D !== undefined ? settings.board3D : true;
             moveArrowEnabled = settings.moveArrowEnabled !== undefined ? settings.moveArrowEnabled : true;
             timePerPlayer = settings.timePerPlayer != null ? settings.timePerPlayer : 60;
             incrementPerMove = settings.incrementPerMove != null ? settings.incrementPerMove : 0;
@@ -5239,7 +5239,7 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
-    '3.2.0': [
+    '3.2.1': [
         'Tablero 3D: nuevo modo visual con perspectiva isométrica activable desde Configuración',
         'Flechas de movimiento: amarilla al mover, gris al retroceder, con checkbox en Configuración',
         'Animación de captura: zoom + fade en la pieza capturada cuando la flecha está activa',
