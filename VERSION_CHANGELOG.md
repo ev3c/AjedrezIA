@@ -2,6 +2,104 @@
 
 ---
 
+## v3.3.2 — 2026-05-28
+
+### Tablero 3D y layout PC
+- Detección de clics en 3D: `get3DSquareFromPoint()` con tolerancia; handlers de click/touch en `applyBoard3D`.
+- PC con `scale(0.86)` y `rotateX(20deg)`; smartphone mantiene `scale(0.97)`.
+- Coordenadas en marco 3D: números y letras en los 4 lados; corrección de posición visual para negras.
+- Barra de fuerza 3D alineada arriba con el tablero.
+- Tablero siempre visible en PC: sticky dinámico basado en `#chess-board`, recalculado en resize/scroll/ResizeObserver.
+- Scroll con rueda sobre el tablero redirige el scroll a los paneles laterales.
+
+### Flechas de movimiento
+- Flecha amarilla al mover piezas (jugador, IA, online, puzzles, aperturas, partidas maestras, quiz, entrenamiento).
+- Flecha gris al retroceder (navegación de movimientos y deshacer).
+- Checkbox «Flecha para movimiento» en Configuración, persistido en `localStorage`.
+
+### Animación de captura
+- Si la flecha está activa, la pieza capturada hace zoom + desvanecimiento (incluye en-passant).
+
+### Promoción de peón
+- `promotePawn()` acepta tanto notación UCI (`q/r/b/n`) como nombres completos; corrige piezas coronadas en puzzles.
+
+### Online
+- Aviso cuando un usuario se conecta: «🟢 usuario on-line ELO:XXX» (polling cada 30 s).
+
+---
+
+## v3.3.1 — 2026-05-28
+
+### Banner de apertura — Ocultar también en partida normal
+- En partida normal (vs IA, PvP, online) el banner / log de aperturas encima del tablero queda **completamente oculto**. Antes seguía apareciendo el nombre y se acumulaban las variantes detectadas movimiento a movimiento.
+- El banner / log con nombre + variantes sigue activo en los modos **entrenamiento de aperturas**, **entrenamiento libre** y **quiz**.
+
+---
+
+## v3.3.0 — 2026-05-28
+
+### Banner de apertura — Variantes solo en entrenamiento
+- En una partida normal (vs IA, PvP, online), el banner de apertura muestra **solo el nombre** detectado, sin botón de variantes ni popup sobre el tablero.
+- Las variantes interactivas (botón «⤵ N variantes» y popup) siguen activas en los modos de **entrenamiento de aperturas**, **entrenamiento libre** y **quiz** (donde su valor pedagógico tiene sentido).
+
+---
+
+## v3.2.9 — 2026-05-28
+
+### UI — Estabilidad del sticky del tablero (PC)
+- Corregido el «tirón hacia arriba» del tablero tras cada movimiento. El recálculo del `top` dinámico del `.board-container` ignora ahora cambios de altura menores de 25px (los típicos del navegador de movimientos, capturas, eval-bar, etc.).
+- Cuando sí se aplica un cambio de `top` significativo (por ejemplo, al redimensionar la ventana), se suaviza con una transición CSS `top 0.25s ease-out`. El scroll natural del sticky sigue funcionando sin transición, ya que el navegador lo aplica internamente.
+
+---
+
+## v3.2.8 — 2026-05-28
+
+### UI — Footer en responsive
+- En móvil/tablet en vertical, el footer `ev3c.android@gmail.com` aparece ahora justo debajo del panel **📊 Estadísticas** (igual que en PC). Se le asigna `order: 10` para fijarlo después de `#stats-panel` (que tiene `order: 9`) en el flex del `game-container`.
+
+---
+
+## v3.2.7 — 2026-05-28
+
+### UI — Footer dentro del sidebar derecho
+- El footer con el email del autor (`ev3c.android@gmail.com`) se ha reubicado dentro del sidebar derecho, **debajo del panel Estadísticas**. Mantiene su aspecto discreto sin competir por espacio con la parte inferior del tablero.
+- En móvil/tablet en vertical, queda automáticamente al final del bloque (los sidebars se apilan en columna debajo del board-container).
+
+---
+
+## v3.2.6 — 2026-05-28
+
+### UI — Footer fuera del flujo en PC
+- El footer con el email del autor (`ev3c.android@gmail.com`) deja de competir por espacio con la parte inferior del tablero (botones de acción, navegador de movimientos, mini-reloj…). En PC se muestra ahora discreto en la esquina inferior derecha con `position: fixed`, sin contribuir a la altura del documento.
+- El sticky del tablero puede anclar correctamente la parte inferior del `.board-container` al bottom del viewport.
+- En móvil/tablet en vertical, el footer mantiene su posición original al pie de la página.
+
+---
+
+## v3.2.5 — 2026-05-28
+
+### UI — Animación de captura
+- Duración de la animación de captura aumentada (zoom + desvanecimiento): de 0.55s a 0.95s. El efecto es ahora más visible y permite seguir mejor las capturas durante partidas rápidas y al navegar por los movimientos.
+
+---
+
+## v3.2.4 — 2026-05-28
+
+### Navegación de movimientos
+- Al avanzar paso a paso por la partida (botón ▶ del navegador de movimientos), si el movimiento captura una pieza se muestra la animación de **zoom + desvanecimiento** sobre la casilla destino, incluyendo capturas **en-passant**.
+- La animación solo se dispara en avances de un paso; los saltos múltiples (⏮ ir al inicio, ⏭ ir al final, o click directo en un movimiento del historial) no la disparan para evitar exceso visual.
+- Requiere la opción «Flecha para movimiento» activada en Configuración (misma opción que controla las flechas y la animación durante el juego).
+
+---
+
+## v3.2.3 — 2026-05-28
+
+### UI — Scroll inteligente
+- Al iniciar partida, entrenar aperturas, abrir un puzzle o cargar una partida maestra, el scroll prioriza ahora la visibilidad de **tablero + botones de acción + navegador de movimientos**. Si todo cabe, se centra verticalmente; si no, se ancla por la parte inferior para que los controles queden siempre a la vista.
+- Eliminado el `window.scrollTo({ top: 0 })` automático tras cada movimiento en PC. El `position: sticky` dinámico ya garantiza que el tablero esté siempre visible sin necesidad de forzar scroll a la cabecera.
+
+---
+
 ## v3.2.2 — 2026-05-28
 
 ### Online

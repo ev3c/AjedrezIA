@@ -2276,13 +2276,8 @@ var puzzleApiLoading = false;
 async function fetchPuzzlesFromAPI(theme, limit = 20) {
     puzzleApiLoading = true;
     puzzleApiCache = [];   // limpiar caché antes de cargar nuevo tema
-    // Scroll al inicio antes de mostrar el overlay de carga sobre el tablero
-    if (window.innerWidth <= 768) {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    } else {
-        const board = document.querySelector('.board-container');
-        if (board) board.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
+    // Llevar el tablero a vista priorizando tablero + controles inferiores
+    scrollToBoard();
     var loadingMsg = document.getElementById('puzzle-loading-msg');
     if (loadingMsg) {
         var themeLabel = theme === 'all' ? 'Todos los Problemas' : 'Problemas de ' + getThemeLabel(theme);
@@ -3577,6 +3572,17 @@ function showOpeningName(name) {
         return;
     }
 
+    // En partida normal (no entrenamiento ni quiz) NO se muestra el log de
+    // aperturas / variantes sobre el tablero. Esto evita que se acumulen
+    // sucesivos nombres de apertura encima del tablero durante el juego.
+    const isLearningMode = trainingActive || trainingFreeMode || quizMode;
+    if (!isLearningMode) {
+        hideVariantsPopup(false);
+        const existingLog = document.getElementById('opening-log');
+        if (existingLog) existingLog.remove();
+        return;
+    }
+
     let log = document.getElementById('opening-log');
     if (!log) {
         log = document.createElement('div');
@@ -3615,6 +3621,11 @@ function showOpeningName(name) {
     const entryKey = history.join(' ');
     wrapper.dataset.variantsKey = entryKey;
 
+    // El botón de variantes y el popup sobre el tablero solo se muestran en
+    // modos relacionados con aperturas (entrenamiento o quiz). En una partida
+    // normal contra IA / PvP / online no se muestran las variantes.
+    const showVariantsAllowed = trainingActive || trainingFreeMode || quizMode;
+
     const showEntryVariants = (e) => {
         e.stopPropagation();
         const existing = document.getElementById('variants-popup');
@@ -3638,17 +3649,19 @@ function showOpeningName(name) {
         }
     };
 
-    wrapper.style.cursor = 'pointer';
-    wrapper.onclick = showEntryVariants;
+    if (showVariantsAllowed) {
+        wrapper.style.cursor = 'pointer';
+        wrapper.onclick = showEntryVariants;
 
-    if (variants.length > 0) {
-        const varBtn = document.createElement('button');
-        varBtn.className = 'opening-variants-btn';
-        varBtn.textContent = `⤵ ${variants.length}`;
-        varBtn.title = `Ver ${variants.length} variantes`;
-        varBtn.dataset.variantsKey = entryKey;
-        varBtn.onclick = showEntryVariants;
-        wrapper.appendChild(varBtn);
+        if (variants.length > 0) {
+            const varBtn = document.createElement('button');
+            varBtn.className = 'opening-variants-btn';
+            varBtn.textContent = `⤵ ${variants.length}`;
+            varBtn.title = `Ver ${variants.length} variantes`;
+            varBtn.dataset.variantsKey = entryKey;
+            varBtn.onclick = showEntryVariants;
+            wrapper.appendChild(varBtn);
+        }
     }
 
     log.appendChild(wrapper);
@@ -5230,22 +5243,39 @@ function loadSavedSettings() {
 function scrollToBoard() {
     const board = document.querySelector('.board-container');
     if (!board) return;
-    // En móvil / responsive hacemos scroll al top primero para que el tablero quede visible
-    if (window.innerWidth <= 768) {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+    // Calcula la posición de scroll que prioriza mantener visibles
+    // el tablero, los botones de acción y la barra de navegación de
+    // movimientos. Si el board-container cabe entero en el viewport,
+    // se centra; si no cabe, se ancla por la PARTE INFERIOR para que
+    // los controles bajo el tablero queden siempre visibles.
+    const rect    = board.getBoundingClientRect();
+    const boardTop    = rect.top + window.pageYOffset;
+    const boardHeight = board.offsetHeight;
+    const vh          = window.innerHeight;
+    const margin      = 10;
+
+    let target;
+    if (boardHeight + margin * 2 <= vh) {
+        target = boardTop - Math.floor((vh - boardHeight) / 2);
     } else {
-        board.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        // Anclamos el fondo del board-container al fondo del viewport
+        // (deja ver botones + navegador), aunque la parte superior del
+        // tablero pueda asomar por encima.
+        target = boardTop + boardHeight - vh + margin;
     }
+    target = Math.max(0, Math.floor(target));
+    window.scrollTo({ top: target, behavior: 'smooth' });
 }
 
 const VERSION_CHANGELOG = {
-    '3.2.2': [
-        'Tablero 3D: nuevo modo visual con perspectiva isométrica activable desde Configuración',
-        'Flechas de movimiento: amarilla al mover, gris al retroceder, con checkbox en Configuración',
-        'Animación de captura: zoom + fade en la pieza capturada cuando la flecha está activa',
-        'Promoción de peón: acepta notación UCI (q/r/b/n) y nombres completos; corrige puzzles',
-        'Online: aviso de conexión de usuario con ELO cada 30 s',
-        'Jugadores online: nuevos bots siempre disponibles (Bot_400, Bot_700, Bot_1000, Bot_1200, Bot_1500, Bot_1800, Bot_2200, Bot_2500)',
+    '3.3.2': [
+        'Tablero 3D y layout PC: detección de clics en 3D con get3DSquareFromPoint() y tolerancia; handlers de click/touch en applyBoard3D',
+        'Tablero siempre visible en PC: sticky dinámico basado en #chess-board, recalculado en resize/scroll/ResizeObserver',
+        'Flecha amarilla al mover piezas (jugador, IA, online, puzzles, aperturas, partidas maestras, quiz, entrenamiento)',
+        'Flecha gris al retroceder (navegación de movimientos y deshacer)',
+        'Checkbox «Flecha para movimiento» en Configuración, persistido en localStorage',
+        'Animación de captura: si la flecha está activa, la pieza capturada hace zoom + desvanecimiento (incluye en-passant)',
+        'Promoción de peón: promotePawn() acepta tanto notación UCI (q/r/b/n) como nombres completos; corrige piezas coronadas en puzzles',
         '... y más mejoras en AjedrezIA ...',
     ],
     '3.0.8': [
@@ -12567,12 +12597,12 @@ function showCaptureAnimation(capRow, capCol, capturedPiece) {
 
     // Disparar la animación en el siguiente frame
     requestAnimationFrame(() => {
-        container.style.transition = 'transform 0.55s cubic-bezier(0.22, 0.8, 0.3, 1.4), opacity 0.55s ease-out';
+        container.style.transition = 'transform 0.95s cubic-bezier(0.22, 0.8, 0.3, 1.4), opacity 0.95s ease-out';
         container.style.transform = 'scale(2.2) rotate(12deg)';
         container.style.opacity = '0';
     });
 
-    setTimeout(() => { if (container.parentNode) container.remove(); }, 700);
+    setTimeout(() => { if (container.parentNode) container.remove(); }, 1150);
 }
 
 function renderBoard() {
@@ -13900,9 +13930,6 @@ function executeMove(fromRow, fromCol, toRow, toCol, promotionPiece) {
     autoSaveGame();
     detectOpening();
     updateEvalBar();
-    if (!window.matchMedia('(max-width: 1024px) and (orientation: portrait), (max-width: 768px)').matches) {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
     if (pieceBeforeMove) {
         showMoveInsight(fromRow, fromCol, toRow, toCol, pieceBeforeMove, capturedBeforeMove);
     }
@@ -14222,7 +14249,29 @@ function restoreGameState(stateIndex, fromStateIndex) {
             const fr = 8 - parseInt(moveUCI[1]);
             const tc = moveUCI.charCodeAt(2) - 97;
             const tr = 8 - parseInt(moveUCI[3]);
-            if (!isNaN(fr) && !isNaN(tr)) showMoveArrow(fr, fc, tr, tc);
+            if (!isNaN(fr) && !isNaN(tr)) {
+                showMoveArrow(fr, fc, tr, tc);
+
+                // Animación de captura: solo cuando avanzamos exactamente
+                // un movimiento (no en saltos múltiples como First/Last/click).
+                const oneStepForward = (typeof fromStateIndex === 'number')
+                    && (stateIndex - fromStateIndex === 1);
+                if (oneStepForward) {
+                    const prevState = game.gameStateHistory[stateIndex - 1];
+                    if (prevState && prevState.board) {
+                        const capturedAtDest = prevState.board[tr] && prevState.board[tr][tc];
+                        const movingPiece    = prevState.board[fr] && prevState.board[fr][fc];
+                        if (capturedAtDest) {
+                            showCaptureAnimation(tr, tc, capturedAtDest);
+                        } else if (movingPiece && movingPiece.type === 'pawn' && fc !== tc) {
+                            // Captura al paso: la pieza capturada está al lado del destino
+                            const epRow = movingPiece.color === 'white' ? tr + 1 : tr - 1;
+                            const epPiece = prevState.board[epRow] && prevState.board[epRow][tc];
+                            if (epPiece) showCaptureAnimation(epRow, tc, epPiece);
+                        }
+                    }
+                }
+            }
         }
     }
     updateCapturedPieces();
@@ -14387,9 +14436,6 @@ async function makeAIMove() {
                 autoSaveGame();
                 detectOpening();
                 updateEvalBar();
-                if (!window.matchMedia('(max-width: 1024px) and (orientation: portrait), (max-width: 768px)').matches) {
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                }
             
                 handleGameResult(result);
             } else {
@@ -14463,6 +14509,14 @@ function showThinkingIndicator(show) {
             }
         }
 
+        // Histéresis: ignorar pequeños cambios para evitar el "tirón" hacia
+        // arriba que aparece cuando crece la lista de movimientos / capturas
+        // tras cada jugada y se recalcula el sticky-top en modo anclado abajo.
+        const currentTopAttr = parseFloat(bc.style.top);
+        const hasCurrent = !isNaN(currentTopAttr);
+        if (hasCurrent && Math.abs(currentTopAttr - topVal) < 25) {
+            return;
+        }
         bc.style.top = topVal + 'px';
     }
 

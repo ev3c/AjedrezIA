@@ -1348,6 +1348,10 @@ body.puzzle-mode-active .mini-elo-display {
     position: sticky;
     top: 20px;
     align-self: flex-start;
+    /* Suaviza los cambios de "top" que aplica updateBoardStickyTop() para
+       que recálculos puntuales no se noten como un salto. No afecta al
+       scroll natural del sticky (el navegador lo aplica vía translate). */
+    transition: top 0.25s ease-out;
 }
 
 .board-wrapper {
@@ -2225,13 +2229,23 @@ body.puzzle-mode-active .mini-elo-display {
 }
 
 .thinking-indicator {
-    background: white;
-    padding: 20px 40px;
+    background: rgba(255, 255, 255, 0.96);
+    padding: 12px 22px;
     border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.18);
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 12px;
+    /* Posicionamos absoluto en el centro del board-container para que no
+       contribuya a la altura del flujo (de lo contrario, al mostrarse /
+       ocultarse el indicador, el sticky-top dinámico recalcula y el
+       tablero hace un pequeño "tirón" hacia arriba/abajo). */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 12;
+    pointer-events: none;
 }
 
 /* Overlay de mensajes centrados */
@@ -3368,11 +3382,12 @@ body.puzzle-mode-active .mini-elo-display {
     }
 }
 
-/* Footer */
+/* Footer — colocado dentro del sidebar derecho, bajo el panel Estadísticas.
+   Se muestra discreto, alineado a la izquierda del sidebar. */
 .app-footer {
     text-align: center;
-    padding: 20px;
-    margin-top: 30px;
+    padding: 10px 6px 4px;
+    margin: 8px 0 0;
     font-size: 0.72rem;
     opacity: 0.6;
 }
@@ -3609,6 +3624,12 @@ body.puzzle-mode-active .mini-elo-display {
 
     #stats-panel {
         order: 9 !important;
+    }
+
+    /* Footer: justo después del panel Estadísticas */
+    .app-footer {
+        order: 10 !important;
+        margin-top: 4px;
     }
 
     /* Piezas capturadas debajo del control de movimientos */
