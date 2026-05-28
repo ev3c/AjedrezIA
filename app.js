@@ -5239,7 +5239,7 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
-    '3.2.1': [
+    '3.2.2': [
         'Tablero 3D: nuevo modo visual con perspectiva isométrica activable desde Configuración',
         'Flechas de movimiento: amarilla al mover, gris al retroceder, con checkbox en Configuración',
         'Animación de captura: zoom + fade en la pieza capturada cuando la flecha está activa',
@@ -6921,7 +6921,6 @@ function startIncomingPolling() {
     if (IS_LOCAL) return;
     _incomingPollTimer = setInterval(checkIncomingInvites, 5000);
     checkIncomingInvites();
-    startOnlinePresencePolling();
 }
 
 function stopIncomingPolling() {
@@ -6980,15 +6979,8 @@ function checkOnlinePresence() {
             // permite que un usuario que se va y vuelve genere otra notificación).
             _knownOnlineUserIds = new Set(onlineUsers.map(function(u) { return String(u.id); }));
 
-            // Notificar cada nuevo conectado
-            newcomers.forEach(function(u, idx) {
-                const nick = escHtml(u.nick || 'Jugador');
-                const elo = u.elo != null ? u.elo : '?';
-                const msg = '🟢 <strong>' + nick + '</strong> on-line  ELO:' + elo;
-                setTimeout(function() {
-                    showMessage(msg, 'info', 4000);
-                }, idx * 600);
-            });
+            // Notificación de nuevos conectados desactivada (v3.2.2).
+            // Se mantiene el set actualizado por si se quiere reactivar.
         })
         .catch(function(){});
 }

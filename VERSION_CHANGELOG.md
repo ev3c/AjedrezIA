@@ -2,6 +2,13 @@
 
 ---
 
+## v3.2.2 — 2026-05-28
+
+### Online
+- Eliminado el aviso «🟢 usuario on-line ELO:XXX» que aparecía al conectarse otros jugadores. Se desactiva el polling de presencia (cada 30 s) para reducir tráfico innecesario al backend.
+
+---
+
 ## v3.2.1 — 2026-05-28
 
 ### UI — Tablero 3D por defecto
