@@ -5272,8 +5272,6 @@ const VERSION_CHANGELOG = {
         'Compartir partidas maestras con tarjeta enriquecida: el enlace genera una imagen del tablero (posición final con la última jugada resaltada), título, jugadores y lugar/año',
         'La tarjeta se muestra al compartir en WhatsApp, Facebook y X (Twitter); al pulsarla, abre la partida en la app',
         'El modal de compartir muestra una previsualización de la imagen del tablero (entre el texto y los botones)',
-        'Compartir disponible en WhatsApp, Facebook, Correo y X',
-        'Al abrir la web, el tablero se muestra en 3D si el checkbox «Tablero 3D» está marcado (también en la primera visita)',
         '... y más mejoras en AjedrezIA ...',
     ],
     '3.3.2': [
@@ -8933,6 +8931,8 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('show-move-insights').addEventListener('change', (e) => {
         showMoveInsights = e.target.checked;
         saveSettings();
+        // Mostrar un mensaje de ayuda de ejemplo al activar la opción
+        if (showMoveInsights) showExampleMoveInsight();
     });
     document.getElementById('board-3d').addEventListener('change', (e) => {
         board3D = e.target.checked;
@@ -8944,6 +8944,9 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!moveArrowEnabled) {
             const prev = document.getElementById('move-arrow-svg');
             if (prev) prev.remove();
+        } else {
+            // Mostrar una flecha de ejemplo (e2→e4) al activar la opción
+            showMoveArrow(6, 4, 4, 4);
         }
         saveSettings();
     });
@@ -13885,6 +13888,33 @@ function showMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece) {
     var displayTime = insights.length > 1 ? 4500 : 3000;
     moveInsightVisibleUntil = Date.now() + displayTime;
 
+    moveInsightTimeout = setTimeout(function() {
+        el.style.animation = 'insightFadeOut 0.5s ease-out forwards';
+        moveInsightFadeTimeout = setTimeout(function() {
+            el.style.display = 'none';
+            el.style.animation = '';
+            moveInsightVisibleUntil = 0;
+        }, 500);
+    }, displayTime);
+}
+
+// Mensaje de ayuda de EJEMPLO (al activar el checkbox "Mensajes de Ayuda").
+// Reutiliza el contenedor y los estilos reales de los mensajes de ayuda.
+function showExampleMoveInsight() {
+    var el = document.getElementById('move-insight');
+    if (!el) return;
+    if (moveInsightTimeout) clearTimeout(moveInsightTimeout);
+    if (moveInsightFadeTimeout) clearTimeout(moveInsightFadeTimeout);
+
+    el.style.animation = 'none';
+    el.offsetHeight; // forzar reflow para reiniciar la animación
+    el.className = 'move-insight insight-good';
+    el.textContent = '💡 Ejemplo: ¡buena jugada! Controlas el centro del tablero.';
+    el.style.display = 'block';
+    el.style.animation = 'insightFadeIn 0.35s ease-out';
+
+    var displayTime = 3000;
+    moveInsightVisibleUntil = Date.now() + displayTime;
     moveInsightTimeout = setTimeout(function() {
         el.style.animation = 'insightFadeOut 0.5s ease-out forwards';
         moveInsightFadeTimeout = setTimeout(function() {

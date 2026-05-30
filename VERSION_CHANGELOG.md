@@ -14,6 +14,16 @@
 ### Tablero 3D al abrir la web
 - Al abrir la web, el tablero se muestra directamente en **3D** si el checkbox «Tablero 3D» está marcado. Antes, en la **primera visita** (sin ajustes guardados) no se aplicaba el modo 3D aunque el checkbox apareciera marcado por defecto.
 
+### Fix tarjeta de Facebook
+- `og:url` y `canonical` ahora apuntan al propio `share.php` (la página que contiene la imagen de la tarjeta) en lugar de a la app (`?master=`). Facebook usa `og:url` como URL canónica del objeto y re-rastrea esa página para la imagen; al apuntar antes a `index.html` (sin etiquetas og) la tarjeta salía vacía en Facebook, aunque WhatsApp y X sí la mostraban.
+
+### Configuración — Vistas previas al activar opciones
+- «Flecha para movimiento» renombrado a **«Flecha movimiento»**. Al activarla se muestra una **flecha de ejemplo** (e2→e4) sobre el tablero.
+- Al activar **«Mensajes de Ayuda»** se muestra un **mensaje de ayuda de ejemplo** sobre el tablero, reutilizando el estilo real de los mensajes durante la partida.
+
+### UI
+- Títulos de los paneles con un tamaño de texto algo más pequeño (`1.08rem` → `0.98rem`, y ajustes equivalentes en las variantes responsive).
+
 ### Detalles técnicos
 - Nuevo `share.php` (landing con metaetiquetas dinámicas + redirección a la app).
 - Nuevo `share-data.php` (mapa título/descripción por partida) y carpeta `share-img/` con una imagen PNG por partida maestra (76 partidas).

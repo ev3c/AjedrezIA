@@ -21,27 +21,35 @@ $base   = $scheme . '://' . $host . $dir . '/';
 
 $master = isset($_GET['master']) ? preg_replace('/[^a-z0-9\-]/', '', $_GET['master']) : '';
 
-// Valores por defecto (genérico)
+// $appUrl   -> destino real (la app) al que se redirige a las personas.
+// $shareUrl -> URL canónica de la TARJETA (este mismo share.php). IMPORTANTE:
+//              og:url debe apuntar aquí, no a la app: Facebook usa og:url como
+//              URL canónica del objeto y re-rastrea esa página para la imagen.
+//              Si apuntara a la app (index.html, sin og tags), la tarjeta de
+//              Facebook saldría vacía aunque WhatsApp/X sí la muestren.
 $title    = 'AjedrezIA — Juega y aprende ajedrez';
 $desc     = 'Juega contra la IA, resuelve problemas y estudia aperturas y partidas maestras.';
 $image    = $base . 'share-img/default.png';
 $appUrl   = $base;
+$shareUrl = $base . 'share.php';
 $imageW   = '1200';
 $imageH   = '630';
 
 if ($master !== '') {
     $games = @include __DIR__ . '/share-data.php';
     if (is_array($games) && isset($games[$master])) {
-        $g       = $games[$master];
-        $title   = $g['title'] . ' — AjedrezIA';
-        $desc    = $g['desc'];
-        $image   = $base . 'share-img/master-' . rawurlencode($master) . '.png';
-        $appUrl  = $base . '?master=' . rawurlencode($master);
-        $imageW  = '1200';
-        $imageH  = '630';
+        $g        = $games[$master];
+        $title    = $g['title'] . ' — AjedrezIA';
+        $desc     = $g['desc'];
+        $image    = $base . 'share-img/master-' . rawurlencode($master) . '.png';
+        $appUrl   = $base . '?master=' . rawurlencode($master);
+        $shareUrl = $base . 'share.php?master=' . rawurlencode($master);
+        $imageW   = '1200';
+        $imageH   = '630';
     } else {
         // Clave desconocida: abrir la app igualmente con el parámetro recibido
-        $appUrl = $base . '?master=' . rawurlencode($master);
+        $appUrl   = $base . '?master=' . rawurlencode($master);
+        $shareUrl = $base . 'share.php?master=' . rawurlencode($master);
     }
 }
 
@@ -68,7 +76,7 @@ header('Content-Type: text/html; charset=UTF-8');
 <meta property="og:image:width" content="<?= h($imageW) ?>">
 <meta property="og:image:height" content="<?= h($imageH) ?>">
 <meta property="og:image:alt" content="<?= h($title) ?>">
-<meta property="og:url" content="<?= h($appUrl) ?>">
+<meta property="og:url" content="<?= h($shareUrl) ?>">
 
 <!-- Twitter / X -->
 <meta name="twitter:card" content="summary_large_image">
@@ -78,7 +86,7 @@ header('Content-Type: text/html; charset=UTF-8');
 
 <!-- Redirección para visitantes humanos -->
 <meta http-equiv="refresh" content="0; url=<?= h($appUrl) ?>">
-<link rel="canonical" href="<?= h($appUrl) ?>">
+<link rel="canonical" href="<?= h($shareUrl) ?>">
 <script>window.location.replace(<?= json_encode($appUrl) ?>);</script>
 <style>
   body{font-family:Arial,Helvetica,sans-serif;background:#1f1b18;color:#e7e0d8;

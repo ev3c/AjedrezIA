@@ -87,7 +87,7 @@ header h1 {
 
 .panel h2 {
     color: #f3f4f6;
-    font-size: 1.08rem;
+    font-size: 0.98rem;
     margin-bottom: 15px;
     border-bottom: none;
     padding: 10px 14px;
@@ -131,7 +131,7 @@ header h1 {
     margin-bottom: 0;
     border-bottom: none;
     padding: 10px 14px;
-    font-size: 1.08rem;
+    font-size: 0.98rem;
     line-height: inherit;
 }
 
@@ -3346,7 +3346,7 @@ body.puzzle-mode-active .mini-elo-display {
     }
 
     .panel h2 {
-        font-size: 0.9rem;
+        font-size: 0.82rem;
         margin-bottom: 10px;
     }
 
@@ -3453,7 +3453,7 @@ body.puzzle-mode-active .mini-elo-display {
     }
 
     .panel h2 {
-        font-size: 1.15rem;
+        font-size: 1.05rem;
     }
     
     .board-action-buttons {
