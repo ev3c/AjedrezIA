@@ -5268,6 +5268,14 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '3.3.3': [
+        'Compartir partidas maestras con tarjeta enriquecida: el enlace genera una imagen del tablero (posición final con la última jugada resaltada), título, jugadores y lugar/año',
+        'La tarjeta se muestra al compartir en WhatsApp, Facebook y X (Twitter); al pulsarla, abre la partida en la app',
+        'El modal de compartir muestra una previsualización de la imagen del tablero (entre el texto y los botones)',
+        'Compartir disponible en WhatsApp, Facebook, Correo y X',
+        'Al abrir la web, el tablero se muestra en 3D si el checkbox «Tablero 3D» está marcado (también en la primera visita)',
+        '... y más mejoras en AjedrezIA ...',
+    ],
     '3.3.2': [
         'Tablero 3D y layout PC: detección de clics en 3D con get3DSquareFromPoint() y tolerancia; handlers de click/touch en applyBoard3D',
         'Tablero siempre visible en PC: sticky dinámico basado en #chess-board, recalculado en resize/scroll/ResizeObserver',
@@ -9191,6 +9199,13 @@ document.addEventListener('DOMContentLoaded', () => {
         checkForGameInProgress();
         updateShareButton();
     }
+    // Aplicar el modo 3D al abrir la web si el checkbox "Tablero 3D" está
+    // marcado (también en la primera visita, cuando aún no hay ajustes
+    // guardados). Se hace aquí, ya creado el game e inicializado el tablero,
+    // para que el render salga directamente en 3D.
+    const board3dCheckbox = document.getElementById('board-3d');
+    if (board3dCheckbox) board3D = board3dCheckbox.checked;
+    applyBoard3D();
     initCustomDropdowns();
     window.addEventListener('resize', () => {
         initCustomDropdowns();
@@ -11300,7 +11315,17 @@ function getShareInfo() {
         const famousKey = document.getElementById('famous-game-select').value;
         const g = famousKey && FAMOUS_GAMES[famousKey];
         if (g) {
-            return { url: `${BASE_PATH}?master=${encodeURIComponent(famousKey)}`, label: SHARE_COMPARTIR_LABEL.maestra, shareKind: 'maestra', shareDetail: g.name || null };
+            // share.php genera la tarjeta enriquecida (Open Graph) con imagen del
+            // tablero para Facebook / X / WhatsApp, y redirige a ?master= en la app.
+            return {
+                url: `${BASE_PATH}share.php?master=${encodeURIComponent(famousKey)}`,
+                label: SHARE_COMPARTIR_LABEL.maestra,
+                shareKind: 'maestra',
+                shareDetail: g.name || null,
+                // Ruta relativa al mismo origen para que la previsualización del
+                // modal cargue tanto en local (localhost) como en producción.
+                previewImage: `share-img/master-${encodeURIComponent(famousKey)}.png`
+            };
         }
     }
 
@@ -11414,7 +11439,7 @@ function shareContent() {
             return;
         }
     }
-    const { url, label, shareKind, shareDetail } = getShareInfo();
+    const { url, label, shareKind, shareDetail, previewImage } = getShareInfo();
     const shareMsg = formatUnifiedShareMessage(url, shareKind, shareDetail);
     const gmailSubj = 'AjedrezIA ♟';
     const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
@@ -11436,11 +11461,18 @@ function shareContent() {
     const gmailHref = mailtoUrl.replace(/&/g, '&amp;');
     const eloGrant = "if(window.grantEloOnShareComplete)window.grantEloOnShareComplete();";
 
+    // Previsualización de la imagen de la tarjeta (la misma que verán en
+    // WhatsApp / Facebook / X). Se muestra entre el texto y los botones.
+    const previewHtml = previewImage
+        ? `<img src="${previewImage.replace(/&/g,'&amp;').replace(/"/g,'&quot;')}" alt="${msgAttr}" class="share-preview-img" loading="lazy" onerror="this.style.display='none'">`
+        : '';
+
     const htmlMsg = `
         <strong>${titleLine}</strong>
-        <button type="button" class="share-msg-btn" data-msg="${msgAttr}" onclick="copyShareMsg(this)">
+        <button type="button" class="share-msg-btn${previewImage ? ' share-msg-btn--compact' : ''}" data-msg="${msgAttr}" onclick="copyShareMsg(this)">
             <span class="share-msg-text">${msgAttr.replace(/\n/g,'<br>')}</span>
         </button>
+        ${previewHtml}
         <div class="share-apps-row">
             <a href="${waHref}" class="share-app-item" target="_blank" rel="noopener noreferrer" onclick="${eloGrant}">
                 <span class="share-app-circle share-app-circle--whatsapp">

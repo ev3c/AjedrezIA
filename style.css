@@ -2390,6 +2390,25 @@ body.puzzle-mode-active .mini-elo-display {
 .share-url-copy-btn:active { background: #1e40af; }
 
 /* Bloque de texto del mensaje compartir */
+.share-preview-img {
+    display: block;
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+    margin: 6px auto 4px;
+    border-radius: 10px;
+    border: 1px solid #d1d5db;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+/* Al compartir partida maestra (con previsualización), texto más compacto */
+.share-msg-btn--compact {
+    padding: 7px 12px 6px;
+    margin: 6px 0 2px;
+}
+.share-msg-btn--compact .share-msg-text {
+    font-size: 1.02em;
+    line-height: 1.35;
+}
 .share-msg-btn {
     display: block;
     width: 100%;

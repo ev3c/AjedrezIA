@@ -2,29 +2,30 @@
 
 ---
 
+## v3.3.3 — 2026-05-30
+
+### Compartir partidas maestras con tarjeta enriquecida (Open Graph)
+- Al compartir una partida maestra, el enlace ahora apunta a `share.php`, que genera una **tarjeta con imagen del tablero** para Facebook, X (Twitter) y WhatsApp (los robots de esas redes no ejecutan JavaScript, así que las metaetiquetas se generan en el servidor).
+- La tarjeta muestra la **posición final** de la partida (con la última jugada resaltada), el **título**, los **jugadores** y el **lugar/año**. Imagen 1200×630 px (`og:image` / `twitter:card = summary_large_image`).
+- Al pulsar la tarjeta, `share.php` redirige a `?master=` en la app, que reproduce la partida normalmente.
+- El **modal de compartir** muestra una previsualización de esa misma imagen del tablero, entre el texto y los botones de WhatsApp / Facebook / Correo / X.
+- Compartir disponible en **WhatsApp, Facebook, Correo y X** desde el modal de compartir.
+
+### Tablero 3D al abrir la web
+- Al abrir la web, el tablero se muestra directamente en **3D** si el checkbox «Tablero 3D» está marcado. Antes, en la **primera visita** (sin ajustes guardados) no se aplicaba el modo 3D aunque el checkbox apareciera marcado por defecto.
+
+### Detalles técnicos
+- Nuevo `share.php` (landing con metaetiquetas dinámicas + redirección a la app).
+- Nuevo `share-data.php` (mapa título/descripción por partida) y carpeta `share-img/` con una imagen PNG por partida maestra (76 partidas).
+- Las imágenes se generan con `tools/build-share-cards.js`, que **reutiliza el motor real** (`chess-logic.js`) para reproducir cada PGN hasta su posición final y rasteriza el tablero con las piezas `cburnett`.
+
+---
+
 ## v3.3.2 — 2026-05-28
 
-### Tablero 3D y layout PC
-- Detección de clics en 3D: `get3DSquareFromPoint()` con tolerancia; handlers de click/touch en `applyBoard3D`.
-- PC con `scale(0.86)` y `rotateX(20deg)`; smartphone mantiene `scale(0.97)`.
-- Coordenadas en marco 3D: números y letras en los 4 lados; corrección de posición visual para negras.
-- Barra de fuerza 3D alineada arriba con el tablero.
-- Tablero siempre visible en PC: sticky dinámico basado en `#chess-board`, recalculado en resize/scroll/ResizeObserver.
-- Scroll con rueda sobre el tablero redirige el scroll a los paneles laterales.
-
-### Flechas de movimiento
-- Flecha amarilla al mover piezas (jugador, IA, online, puzzles, aperturas, partidas maestras, quiz, entrenamiento).
-- Flecha gris al retroceder (navegación de movimientos y deshacer).
-- Checkbox «Flecha para movimiento» en Configuración, persistido en `localStorage`.
-
-### Animación de captura
-- Si la flecha está activa, la pieza capturada hace zoom + desvanecimiento (incluye en-passant).
-
-### Promoción de peón
-- `promotePawn()` acepta tanto notación UCI (`q/r/b/n`) como nombres completos; corrige piezas coronadas en puzzles.
-
-### Online
-- Aviso cuando un usuario se conecta: «🟢 usuario on-line ELO:XXX» (polling cada 30 s).
+### UI — Estabilidad del tablero al jugar con negras
+- El indicador «La IA está calculando…» ahora flota centrado sobre el tablero con `position: absolute`, en lugar de añadirse al flujo del `.board-container`.
+- Esto elimina el pequeño «tirón» que hacía el tablero al jugar con negras, donde el indicador aparecía/desaparecía tras cada movimiento de la IA cambiando la altura del contenedor y forzando un recálculo del sticky-top.
 
 ---
 
