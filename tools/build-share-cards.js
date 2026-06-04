@@ -148,7 +148,7 @@ function replayGame(pgn) {
 // ---------------------------------------------------------------------------
 // 5) Render de la imagen-tarjeta (1200x630) a partir del FEN
 // ---------------------------------------------------------------------------
-const PIECE_DIR = path.join(ROOT, 'pieces', 'cburnett');
+const PIECE_DIR = path.join(ROOT, 'pieces', 'staunty');
 const pieceCache = {};
 function pieceInner(code) {
     // code: 'wK','bQ',... -> contenido interno del SVG cburnett (sin <svg> raíz)

@@ -2,20 +2,43 @@
 
 ---
 
+## v3.3.4 — 2026-06-04
+
+### Open Graph para todos los contenidos (tarjeta enriquecida en redes)
+- Al compartir por **WhatsApp, Facebook y X**, el enlace muestra automáticamente una tarjeta enriquecida con la **imagen del tablero** (posición real en pantalla), título y subtítulo. La imagen la genera `board-image.php` en el servidor.
+- `share.php` ahora es **genérico**: acepta `fen`, `kind`, `t`, `s`, `mv` más el parámetro de apertura (`moves` / `opening` / `puzzle` / `master`). Redirige a las personas a la URL limpia de la app y sirve los OG tags a los bots de redes.
+- **OG genérico en `index.html`**: cualquier link a `ajedrezia.com` (sin pasar por `share.php`) muestra ya la imagen y descripción de la app.
+- En **localhost**, `share.php` apunta al servidor local en lugar de a producción, para poder probarlo directamente.
+
+### Imagen de compartir mejorada
+- **Coordenadas del tablero** (números 1–8 y letras a–h) fuera del tablero, centradas en los márgenes lateral e inferior, en las tres versiones: canvas (modal), PHP (`board-image.php`) y SVG (`default.png`).
+- **`default.png` renovado**: tablero más grande, piezas **staunty**, textos *Aperturas · Problemas · Partidas maestras* y *Juega y aprende con AjedrezIA*.
+- Las **76 imágenes `master-*.png` estáticas eliminadas**: la imagen se genera siempre en tiempo real desde `board-image.php`.
+- Sprites de piezas en `share-img/pieces/` actualizados a **staunty**.
+
 ## v3.3.3 — 2026-05-30
 
-### Compartir partidas maestras con tarjeta enriquecida (Open Graph)
-- Al compartir una partida maestra, el enlace ahora apunta a `share.php`, que genera una **tarjeta con imagen del tablero** para Facebook, X (Twitter) y WhatsApp (los robots de esas redes no ejecutan JavaScript, así que las metaetiquetas se generan en el servidor).
-- La tarjeta muestra la **posición final** de la partida (con la última jugada resaltada), el **título**, los **jugadores** y el **lugar/año**. Imagen 1200×630 px (`og:image` / `twitter:card = summary_large_image`).
-- Al pulsar la tarjeta, `share.php` redirige a `?master=` en la app, que reproduce la partida normalmente.
-- El **modal de compartir** muestra una previsualización de esa misma imagen del tablero, entre el texto y los botones de WhatsApp / Facebook / Correo / X.
-- Compartir disponible en **WhatsApp, Facebook, Correo y X** desde el modal de compartir.
+### Compartir con texto + imagen del tablero para TODO el contenido
+- Ahora se comparte con **texto + imagen del tablero** cualquier contenido: **partidas, aperturas, problemas y partidas maestras** (antes solo las maestras).
+- El **enlace que se comparte** (texto del mensaje y botones de WhatsApp / Facebook / Correo / X) es siempre la **URL limpia de la app**:
+  - `?puzzle=` para problemas (o `?p=` si el problema no tiene id),
+  - `?opening=` para aperturas,
+  - `?master=` para partidas maestras,
+  - `?moves=` para partidas normales.
+- La **imagen** del tablero se usa **solo internamente** para la tarjeta y se genera **en tiempo real** desde la posición que estás viendo:
+  - En el **navegador** (canvas), para que la previsualización del modal se vea siempre, incluso en local sin PHP.
+  - En el **servidor** con `board-image.php` (PHP GD): toma el **FEN actual**, la **orientación** según tu color y resalta la **última jugada**. Imagen 1200×630 px con tablero + título + subtítulo.
+- El **modal de compartir** muestra esa imagen entre el texto y los botones de WhatsApp / Facebook / Correo / X.
+- **Pulsar la imagen** la copia al portapapeles (como al pulsar el texto), con un aviso «✓ Imagen copiada». Útil para **pegarla en Facebook** (Ctrl+V) junto al enlace.
+- Sprites de piezas (cburnett) en PNG (`share-img/pieces/`, generados con `tools/build-piece-sprites.js`) y fuente DejaVu Sans empaquetada (`assets/fonts/`) para el texto de la tarjeta del servidor. `share.php` se mantiene como landing genérico (compatibilidad con enlaces antiguos `share.php?master=clave`).
 
 ### Tablero 3D al abrir la web
 - Al abrir la web, el tablero se muestra directamente en **3D** si el checkbox «Tablero 3D» está marcado. Antes, en la **primera visita** (sin ajustes guardados) no se aplicaba el modo 3D aunque el checkbox apareciera marcado por defecto.
 
 ### Fix tarjeta de Facebook
 - `og:url` y `canonical` ahora apuntan al propio `share.php` (la página que contiene la imagen de la tarjeta) en lugar de a la app (`?master=`). Facebook usa `og:url` como URL canónica del objeto y re-rastrea esa página para la imagen; al apuntar antes a `index.html` (sin etiquetas og) la tarjeta salía vacía en Facebook, aunque WhatsApp y X sí la mostraban.
+- La **redirección** de `share.php` ahora se aplica **solo a personas**: los robots de redes (Facebook, Twitter/X, WhatsApp, LinkedIn, Telegram, etc.) se detectan por `User-Agent` y se quedan en `share.php` para leer las etiquetas Open Graph, evitando que el rastreador siga la redirección hacia la app (que no tiene imagen).
+- Al pulsar **Facebook** en el modal de compartir, aviso más claro: explica que Facebook no permite rellenar el texto automáticamente y recuerda **pegar con Ctrl+V** (o «mantén pulsado → Pegar» en móvil); la imagen del tablero aparece sola. La ventana de Facebook se abre con un pequeño retardo para dar tiempo a leer el aviso.
 
 ### Configuración — Vistas previas al activar opciones
 - «Flecha para movimiento» renombrado a **«Flecha movimiento»**. Al activarla se muestra una **flecha de ejemplo** (e2→e4) sobre el tablero.

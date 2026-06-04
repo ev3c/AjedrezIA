@@ -4,6 +4,12 @@
 
 const BASE_PATH = 'https://www.ajedrezia.com/';
 // const BASE_PATH = 'file:///H:/Mi%20unidad/AI%20code/games/AjedrezIA/';
+// Para share.php usamos el origen real del servidor actual (en localhost apunta
+// al servidor local; en producción apunta a www.ajedrezia.com).
+const SHARE_BASE = (typeof location !== 'undefined' &&
+    (location.hostname === 'localhost' || location.hostname === '127.0.0.1'))
+    ? location.origin + '/'
+    : BASE_PATH;
 
 // ── Credenciales OAuth ─────────────────────────────────────────────────────
 // Orígenes autorizados que debes registrar en Google Cloud Console:
@@ -5268,10 +5274,12 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
-    '3.3.3': [
-        'Compartir partidas maestras con tarjeta enriquecida: el enlace genera una imagen del tablero (posición final con la última jugada resaltada), título, jugadores y lugar/año',
-        'La tarjeta se muestra al compartir en WhatsApp, Facebook y X (Twitter); al pulsarla, abre la partida en la app',
-        'El modal de compartir muestra una previsualización de la imagen del tablero (entre el texto y los botones)',
+    '3.3.4': [
+        'Compartir CUALQUIER contenido (partida, apertura, problema y partida maestra) muestra ahora texto + imagen del tablero en el modal',
+        'La imagen se dibuja en tiempo real desde la posición que estás viendo (en el navegador con canvas, y en servidor con board-image.php), con la última jugada resaltada y la orientación según tu color',
+        'El enlace que se comparte es siempre la URL limpia de la app: ?puzzle= (problemas), ?opening= (aperturas), ?master= (maestras) y ?moves= (partidas)',
+        'Pulsa la imagen del modal para copiarla al portapapeles (igual que al pulsar el texto)',
+        'Disponible en WhatsApp, Facebook, Correo y X (Twitter)',
         '... y más mejoras en AjedrezIA ...',
     ],
     '3.3.2': [
@@ -11202,6 +11210,48 @@ function copyShareUrl(btn) {
     }
 }
 
+// Muestra un aviso flotante "✓ Imagen copiada" centrado sobre la imagen.
+function flashImageCopied(img, ok) {
+    try {
+        const rect = img.getBoundingClientRect();
+        const badge = document.createElement('div');
+        badge.textContent = ok ? '✓ Imagen copiada' : 'No se pudo copiar la imagen';
+        badge.style.cssText = 'position:fixed;z-index:100000;padding:8px 14px;border-radius:8px;' +
+            'font:600 14px Arial,sans-serif;color:#fff;pointer-events:none;' +
+            'background:' + (ok ? 'rgba(40,120,60,0.92)' : 'rgba(150,50,50,0.92)') + ';' +
+            'box-shadow:0 2px 10px rgba(0,0,0,0.35);transition:opacity .3s;';
+        badge.style.left = (rect.left + rect.width / 2) + 'px';
+        badge.style.top = (rect.top + rect.height / 2) + 'px';
+        badge.style.transform = 'translate(-50%,-50%)';
+        document.body.appendChild(badge);
+        if (ok) { img.style.outline = '3px solid #7fb069'; img.style.outlineOffset = '2px'; }
+        setTimeout(function () {
+            badge.style.opacity = '0';
+            img.style.outline = '';
+            setTimeout(function () { if (badge.parentNode) badge.parentNode.removeChild(badge); }, 320);
+        }, 1400);
+    } catch (e) {}
+}
+
+// Copia al portapapeles la imagen de la tarjeta (igual que al pulsar el texto).
+async function copyShareImage(img) {
+    if (!img || !img.src) return;
+    try {
+        const res = await fetch(img.src);
+        const blob = await res.blob();
+        const type = blob.type && blob.type.indexOf('image/') === 0 ? blob.type : 'image/png';
+        if (navigator.clipboard && window.ClipboardItem) {
+            await navigator.clipboard.write([new ClipboardItem({ [type]: blob })]);
+            if (window.grantEloOnShareComplete) window.grantEloOnShareComplete();
+            flashImageCopied(img, true);
+        } else {
+            flashImageCopied(img, false);
+        }
+    } catch (e) {
+        flashImageCopied(img, false);
+    }
+}
+
 function fallbackCopy(text, callback) {
     var ta = document.createElement('textarea');
     ta.value = text;
@@ -11216,12 +11266,14 @@ function fallbackCopy(text, callback) {
 
 function shareFacebookClick(fbUrl, msg) {
     if (window.grantEloOnShareComplete) window.grantEloOnShareComplete();
+    // El texto llega con \n literales desde el atributo onclick: los restauramos.
+    const text = (msg || '').replace(/\\n/g, '\n');
     const copy = () => {
         if (navigator.clipboard && navigator.clipboard.writeText) {
-            navigator.clipboard.writeText(msg).catch(() => {});
+            navigator.clipboard.writeText(text).catch(() => {});
         } else {
             const ta = document.createElement('textarea');
-            ta.value = msg;
+            ta.value = text;
             ta.style.position = 'fixed'; ta.style.opacity = '0';
             document.body.appendChild(ta); ta.select();
             try { document.execCommand('copy'); } catch (e) {}
@@ -11229,7 +11281,6 @@ function shareFacebookClick(fbUrl, msg) {
         }
     };
     copy();
-    showMessage('Texto copiado — pégalo en tu post de Facebook', 'success', 3000);
     setTimeout(() => { window.open(fbUrl, '_blank', 'noopener,noreferrer'); }, 300);
 }
 
@@ -11237,6 +11288,7 @@ if (typeof window !== 'undefined') {
     window.grantEloOnShareComplete = grantEloOnShareComplete;
     window.copyShareMsg = copyShareMsg;
     window.copyShareUrl = copyShareUrl;
+    window.copyShareImage = copyShareImage;
     window.shareFacebookClick = shareFacebookClick;
 }
 
@@ -11297,38 +11349,263 @@ function getShareOpeningNameDetail() {
     return null;
 }
 
+/**
+ * Posición que se está viendo en pantalla (FEN), orientación y última jugada,
+ * para generar la imagen de la tarjeta de compartir en tiempo real.
+ */
+function getCurrentShareImageParams() {
+    let fen = '';
+    try { if (typeof game !== 'undefined' && game && typeof game.toFEN === 'function') fen = game.toFEN(); } catch (e) {}
+    const flip = (typeof playerColor !== 'undefined' && playerColor === 'black') ? '1' : '';
+    let mv = '';
+    try {
+        // Solo resaltamos la última jugada cuando se ve la posición "en vivo"
+        // (no durante la navegación por el historial, donde no coincidiría).
+        if ((typeof currentMoveIndex === 'undefined' || currentMoveIndex === -1) &&
+            typeof game !== 'undefined' && game && game.moveHistoryUCI && game.moveHistoryUCI.length) {
+            mv = game.moveHistoryUCI[game.moveHistoryUCI.length - 1] || '';
+        }
+    } catch (e) {}
+    return { fen, flip, mv };
+}
+
+/**
+ * Prepara SOLO la imagen de la tarjeta (no la URL que se comparte): la URL del
+ * mensaje es siempre el enlace limpio de la app (?puzzle=/?opening=/?master=/?moves=).
+ * Los parámetros de posición (fen/t/s/mv) se usan internamente para la imagen:
+ *   - previewParams : para dibujarla en el navegador (canvas) en el modal.
+ *   - previewImage  : board-image.php (respaldo del src si el servidor tiene PHP).
+ *   kind        : partida | apertura | problema | maestra
+ *   cardT       : título grande de la tarjeta
+ *   cardS       : subtítulo de la tarjeta
+ *   fenOverride : FEN explícito (problemas) en vez de la posición en pantalla
+ */
+/**
+ * Prepara la imagen de la tarjeta y la URL de share.php para WhatsApp/X/FB.
+ *   appKV      : { key, val } parámetro de apertura de la app (?puzzle=, ?master=…).
+ *                Si es null se comparte BASE_PATH (genérico).
+ *   fenOverride: FEN explícito para problemas (en vez de la posición en pantalla).
+ */
+function buildSharePreview(kind, cardT, cardS, fenOverride, appKV) {
+    const pos = getCurrentShareImageParams();
+    const fen = (fenOverride && String(fenOverride).trim()) ? String(fenOverride).trim() : pos.fen;
+    const mv = (pos.mv && !fenOverride) ? pos.mv : '';
+
+    const img = new URLSearchParams();
+    if (fen) img.set('fen', fen);
+    if (pos.flip) img.set('flip', '1');
+    if (kind) img.set('kind', kind);
+    if (cardT) img.set('t', cardT);
+    if (cardS) img.set('s', cardS);
+    if (mv) img.set('mv', mv);
+
+    // URL de share.php (usada en WhatsApp/X/FB para que los bots lean los OG tags).
+    // Incluye todos los parámetros de imagen MÁS el parámetro de apertura de la app,
+    // de modo que share.php redirija a ?puzzle=, ?master=, ?opening=, ?moves=, etc.
+    const shareQ = new URLSearchParams(img.toString());
+    if (appKV && appKV.key && appKV.val) shareQ.set(appKV.key, appKV.val);
+    const shareUrl = `${SHARE_BASE}share.php?${shareQ.toString()}`;
+
+    return {
+        shareUrl,
+        previewImage: `board-image.php?${img.toString()}`,
+        previewParams: { fen: fen, flip: pos.flip === '1', kind: kind, t: cardT || '', s: cardS || '', mv: mv }
+    };
+}
+
+// --- Previsualización de la tarjeta dibujada en el NAVEGADOR (canvas) -------
+// Así el modal muestra la imagen aunque el servidor local no ejecute PHP
+// (file://, python http.server, Live Server...). El enlace para redes sigue
+// usando board-image.php (los robots necesitan render en servidor).
+const SHARE_PREVIEW_PIECES = {};
+let sharePreviewPiecesPromise = null;
+function preloadSharePreviewPieces() {
+    if (sharePreviewPiecesPromise) return sharePreviewPiecesPromise;
+    const codes = ['wK','wQ','wR','wB','wN','wP','bK','bQ','bR','bB','bN','bP'];
+    sharePreviewPiecesPromise = Promise.all(codes.map(code => new Promise(resolve => {
+        const img = new Image();
+        img.onload = () => { SHARE_PREVIEW_PIECES[code] = img; resolve(); };
+        img.onerror = () => resolve();
+        img.src = `share-img/pieces/${code}.png`;
+    })));
+    return sharePreviewPiecesPromise;
+}
+
+function sharePreviewFenToBoard(placement) {
+    const rows = (placement || '').split('/');
+    const board = [];
+    for (let r = 0; r < 8; r++) {
+        const line = [];
+        const src = rows[r] != null ? rows[r] : '8';
+        for (const ch of src) {
+            if (ch >= '1' && ch <= '8') { for (let k = 0; k < parseInt(ch); k++) line.push(null); }
+            else line.push(ch);
+        }
+        while (line.length < 8) line.push(null);
+        board.push(line.slice(0, 8));
+    }
+    while (board.length < 8) board.push([null,null,null,null,null,null,null,null]);
+    return board;
+}
+
+async function renderShareBoardDataURL(p) {
+    await preloadSharePreviewPieces();
+    const W = 1200, H = 630, BOARD = 540, BX = 48, BY = (H - BOARD) / 2, SQ = BOARD / 8;
+    const canvas = document.createElement('canvas');
+    canvas.width = W; canvas.height = H;
+    const ctx = canvas.getContext('2d');
+
+    const grad = ctx.createLinearGradient(0, 0, 0, H);
+    grad.addColorStop(0, '#3a3531'); grad.addColorStop(1, '#1f1b18');
+    ctx.fillStyle = grad; ctx.fillRect(0, 0, W, H);
+
+    ctx.fillStyle = '#11100e';
+    ctx.fillRect(BX - 10, BY - 10, BOARD + 20, BOARD + 20);
+
+    const placement = ((p.fen || '').split(' ')[0]) || 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR';
+    const board = sharePreviewFenToBoard(placement);
+    const flip = !!p.flip;
+
+    const hl = [];
+    const mv = p.mv || '';
+    if (mv.length >= 4) {
+        const f = 'abcdefgh';
+        const fc = f.indexOf(mv[0]), fr = 8 - parseInt(mv[1]);
+        const tc = f.indexOf(mv[2]), tr = 8 - parseInt(mv[3]);
+        if (fc >= 0) hl.push([fr, fc]);
+        if (tc >= 0) hl.push([tr, tc]);
+    }
+    const FEN_TO_CODE = { K:'wK',Q:'wQ',R:'wR',B:'wB',N:'wN',P:'wP',k:'bK',q:'bQ',r:'bR',b:'bB',n:'bN',p:'bP' };
+
+    for (let r = 0; r < 8; r++) {
+        for (let c = 0; c < 8; c++) {
+            const mr = flip ? 7 - r : r, mc = flip ? 7 - c : c;
+            const x = BX + c * SQ, y = BY + r * SQ;
+            const isLight = ((mr + mc) % 2) === 0;
+            ctx.fillStyle = isLight ? '#eadab5' : '#b07a48';
+            ctx.fillRect(x, y, SQ, SQ);
+            if (hl.some(sq => sq[0] === mr && sq[1] === mc)) {
+                ctx.fillStyle = 'rgba(246,224,122,0.55)';
+                ctx.fillRect(x, y, SQ, SQ);
+            }
+            const piece = board[mr][mc];
+            const code = piece && FEN_TO_CODE[piece];
+            if (code && SHARE_PREVIEW_PIECES[code]) {
+                const ps = SQ * 0.85, po = (SQ - ps) / 2;
+                ctx.drawImage(SHARE_PREVIEW_PIECES[code], x + po, y + po, ps, ps);
+            }
+        }
+    }
+
+    // Coordenadas fuera del tablero
+    const cfs = Math.round(SQ * 0.22);
+    const filesCoord = flip ? ['h','g','f','e','d','c','b','a'] : ['a','b','c','d','e','f','g','h'];
+    ctx.fillStyle = '#c9c2ba';
+    ctx.textBaseline = 'middle';
+    ctx.textAlign = 'center';
+    for (let i = 0; i < 8; i++) {
+        ctx.font = `bold ${cfs}px Arial, sans-serif`;
+        // Números (1-8): margen izquierdo
+        const rank = String(flip ? i + 1 : 8 - i);
+        ctx.fillText(rank, BX / 2, BY + i * SQ + SQ / 2);
+        // Letras (a-h): margen inferior
+        const bottomMid = BY + BOARD + (H - BY - BOARD) / 2;
+        ctx.fillText(filesCoord[i], BX + i * SQ + SQ / 2, bottomMid);
+    }
+    ctx.textBaseline = 'alphabetic';
+    ctx.textAlign = 'left';
+
+    const tx = BX + BOARD + 44;
+    const tw = W - tx - 48;
+    ctx.textBaseline = 'alphabetic';
+    ctx.fillStyle = '#7fb069'; ctx.font = 'bold 30px Arial, sans-serif';
+    ctx.fillText('\u265E AjedrezIA', tx, 92);
+    const KIND_LABEL = { partida:'Partida', apertura:'Apertura', problema:'Problema de ajedrez', maestra:'Partida maestra' };
+    ctx.fillStyle = '#c9c2ba'; ctx.font = '20px Arial, sans-serif';
+    ctx.fillText(KIND_LABEL[p.kind] || 'Ajedrez', tx, 134);
+
+    const wrap = (text, font, maxW, maxLines) => {
+        ctx.font = font;
+        const words = String(text || '').split(/\s+/).filter(Boolean);
+        const lines = []; let cur = '';
+        for (const w of words) {
+            const tryLine = cur ? (cur + ' ' + w) : w;
+            if (ctx.measureText(tryLine).width > maxW && cur) { lines.push(cur); cur = w; }
+            else cur = tryLine;
+            if (lines.length >= maxLines) break;
+        }
+        if (cur && lines.length < maxLines) lines.push(cur);
+        return lines;
+    };
+
+    let ty = 192;
+    const titleFont = 'bold 36px Arial, sans-serif';
+    ctx.fillStyle = '#ffffff';
+    for (const ln of wrap(p.t, titleFont, tw, 3)) {
+        ctx.font = titleFont;
+        ctx.fillText(ln, tx, ty);
+        ty += 46;
+    }
+    if (p.s) {
+        ty += 12;
+        const subFont = '24px Arial, sans-serif';
+        ctx.fillStyle = '#f0d9b5';
+        for (const ln of wrap(p.s, subFont, tw, 2)) {
+            ctx.font = subFont;
+            ctx.fillText(ln, tx, ty);
+            ty += 34;
+        }
+    }
+    ctx.fillStyle = '#8a827a'; ctx.font = '20px Arial, sans-serif';
+    ctx.fillText('ajedrezia.com', tx, H - 40);
+
+    try { return canvas.toDataURL('image/png'); } catch (e) { return null; }
+}
+
+// Sustituye el src de la previsualización del modal por la imagen dibujada en
+// el navegador (si se puede); si falla, deja la de board-image.php.
+function applySharePreviewCanvas(previewParams) {
+    if (!previewParams) return;
+    renderShareBoardDataURL(previewParams).then(dataUrl => {
+        if (!dataUrl) return;
+        let tries = 0;
+        const set = () => {
+            const el = document.getElementById('share-modal-preview');
+            if (el) { el.onerror = null; el.src = dataUrl; el.style.display = ''; return; }
+            if (tries++ < 20) requestAnimationFrame(set);
+        };
+        set();
+    }).catch(() => {});
+}
+
 function getShareInfo() {
     if (shareContext === 'problema' && puzzleMode && currentPuzzle) {
         const id = currentPuzzle.id || null;
         const titleDetail = (currentPuzzle.title && String(currentPuzzle.title).trim()) ? currentPuzzle.title.trim() : null;
+        const cardT = titleDetail || 'Problema de ajedrez';
+        const cardS = '¿Encuentras la mejor jugada?';
+        const puzzleFen = (currentPuzzle.fen && String(currentPuzzle.fen).trim()) ? currentPuzzle.fen.trim() : null;
+        let url;
         if (id) {
-            return { url: `${BASE_PATH}?puzzle=${encodeURIComponent(id)}`, label: SHARE_COMPARTIR_LABEL.problemas, shareKind: 'problema', shareDetail: titleDetail };
+            url = `${BASE_PATH}?puzzle=${encodeURIComponent(id)}`;
+        } else {
+            const payload = encodePuzzlePayload(currentPuzzle);
+            url = payload ? `${BASE_PATH}?p=${payload}` : BASE_PATH;
         }
-        // Sin id Lichess (puzzles locales o API caída): codificamos la posición
-        // y la solución en la propia URL para que el enlace siempre abra el
-        // problema concreto que se está viendo en este momento.
-        const payload = encodePuzzlePayload(currentPuzzle);
-        if (payload) {
-            return { url: `${BASE_PATH}?p=${payload}`, label: SHARE_COMPARTIR_LABEL.problemas, shareKind: 'problema', shareDetail: titleDetail };
-        }
-        return { url: BASE_PATH, label: SHARE_COMPARTIR_LABEL.problemas, shareKind: 'problema', shareDetail: titleDetail };
+        const appKV = id ? { key: 'puzzle', val: id } : (encodePuzzlePayload(currentPuzzle) ? { key: 'p', val: encodePuzzlePayload(currentPuzzle) } : null);
+        const { shareUrl, previewImage, previewParams } = buildSharePreview('problema', cardT, cardS, puzzleFen, appKV);
+        return { url, shareUrl, label: SHARE_COMPARTIR_LABEL.problemas, shareKind: 'problema', shareDetail: titleDetail, previewImage, previewParams };
     }
 
     if (shareContext === 'maestra') {
         const famousKey = document.getElementById('famous-game-select').value;
         const g = famousKey && FAMOUS_GAMES[famousKey];
         if (g) {
-            // share.php genera la tarjeta enriquecida (Open Graph) con imagen del
-            // tablero para Facebook / X / WhatsApp, y redirige a ?master= en la app.
-            return {
-                url: `${BASE_PATH}share.php?master=${encodeURIComponent(famousKey)}`,
-                label: SHARE_COMPARTIR_LABEL.maestra,
-                shareKind: 'maestra',
-                shareDetail: g.name || null,
-                // Ruta relativa al mismo origen para que la previsualización del
-                // modal cargue tanto en local (localhost) como en producción.
-                previewImage: `share-img/master-${encodeURIComponent(famousKey)}.png`
-            };
+            const cardT = g.name || 'Partida maestra';
+            const cardS = 'Revívela jugada a jugada';
+            const url = `${BASE_PATH}?master=${encodeURIComponent(famousKey)}`;
+            const { shareUrl, previewImage, previewParams } = buildSharePreview('maestra', cardT, cardS, null, { key: 'master', val: famousKey });
+            return { url, shareUrl, label: SHARE_COMPARTIR_LABEL.maestra, shareKind: 'maestra', shareDetail: g.name || null, previewImage, previewParams };
         }
     }
 
@@ -11336,20 +11613,29 @@ function getShareInfo() {
         const openingKey = document.getElementById('opening-select').value;
         if (openingKey) {
             const nameDetail = getShareOpeningNameDetail();
-            return { url: `${BASE_PATH}?opening=${encodeURIComponent(openingKey)}`, label: SHARE_COMPARTIR_LABEL.apertura, shareKind: 'apertura', shareDetail: nameDetail };
+            const cardT = nameDetail || 'Apertura';
+            const cardS = 'Aprende esta apertura paso a paso';
+            const url = `${BASE_PATH}?opening=${encodeURIComponent(openingKey)}`;
+            const { shareUrl, previewImage, previewParams } = buildSharePreview('apertura', cardT, cardS, null, { key: 'opening', val: openingKey });
+            return { url, shareUrl, label: SHARE_COMPARTIR_LABEL.apertura, shareKind: 'apertura', shareDetail: nameDetail, previewImage, previewParams };
         }
-        return { url: BASE_PATH, label: SHARE_COMPARTIR_LABEL.apertura, shareKind: 'apertura', shareDetail: null };
+        const { shareUrl, previewImage, previewParams } = buildSharePreview('apertura', 'Apertura', 'Aprende aperturas en AjedrezIA');
+        return { url: BASE_PATH, shareUrl, label: SHARE_COMPARTIR_LABEL.apertura, shareKind: 'apertura', shareDetail: null, previewImage, previewParams };
     }
 
     if (game && game.moveHistory && game.moveHistory.length > 0) {
         const movesUCI = (game.moveHistoryUCI || []).join(',');
-        const url = `${BASE_PATH}?moves=${encodeURIComponent(movesUCI)}`;
         const fgt = document.getElementById('famous-game-title');
         const vsDetail = (fgt && fgt.textContent) ? fgt.textContent.replace(/\n/g, ' ').replace(/\s+/g, ' ').trim() : null;
-        return { url, label: SHARE_COMPARTIR_LABEL.partida, shareKind: 'partida', shareDetail: vsDetail || null };
+        const cardT = vsDetail || 'Mi partida';
+        const cardS = 'Revívela jugada a jugada';
+        const url = `${BASE_PATH}?moves=${encodeURIComponent(movesUCI)}`;
+        const { shareUrl, previewImage, previewParams } = buildSharePreview('partida', cardT, cardS, null, { key: 'moves', val: movesUCI });
+        return { url, shareUrl, label: SHARE_COMPARTIR_LABEL.partida, shareKind: 'partida', shareDetail: vsDetail || null, previewImage, previewParams };
     }
 
-    return { url: BASE_PATH, label: SHARE_COMPARTIR_LABEL.partida, shareKind: 'partida', shareDetail: null };
+    const { shareUrl, previewImage, previewParams } = buildSharePreview('partida', 'AjedrezIA', 'Juega y aprende ajedrez');
+    return { url: BASE_PATH, shareUrl, label: SHARE_COMPARTIR_LABEL.partida, shareKind: 'partida', shareDetail: null, previewImage, previewParams };
 }
 
 function updateShareButton() {
@@ -11395,7 +11681,7 @@ function shareInviteOnline(colorLabel, timeLabel, colorRaw, tcRaw) {
     const msgAttr = shareMsg.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
     const waHref  = 'https://wa.me/?text=' + encodeURIComponent(shareMsg);
     const twHref  = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(shareMsg);
-    const fbShareUrl  = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url);
+    const fbShareUrl  = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url) + '&quote=' + encodeURIComponent(shareMsg);
     const fbMsgAttr   = shareMsg.replace(/\\/g,'\\\\').replace(/'/g,"\\'").replace(/\n/g,'\\n');
     const gmailHref   = mailtoUrl.replace(/&/g,'&amp;');
 
@@ -11442,7 +11728,10 @@ function shareContent() {
             return;
         }
     }
-    const { url, label, shareKind, shareDetail, previewImage } = getShareInfo();
+    const { url, shareUrl, label, shareKind, shareDetail, previewImage, previewParams } = getShareInfo();
+    // shareUrl -> share.php con OG tags (para que WhatsApp/X/FB muestren la imagen del tablero).
+    // url      -> URL limpia de la app (para el texto del mensaje y el correo).
+    const socialUrl = shareUrl || url;
     const shareMsg = formatUnifiedShareMessage(url, shareKind, shareDetail);
     const gmailSubj = 'AjedrezIA ♟';
     const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
@@ -11457,21 +11746,28 @@ function shareContent() {
         .replace(/>/g, '&gt;');
     const urlAttr = url.replace(/&/g, '&amp;').replace(/"/g, '&quot;');
     const urlDisplay = url.replace(/&/g, '&amp;');
-    const waHref = 'https://wa.me/?text=' + encodeURIComponent(shareMsg);
-    const twHref = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(shareMsg);
-    const fbShareUrl = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url);
+    // Para WhatsApp y X: el mensaje lleva la URL de share.php (con OG tags = imagen del tablero).
+    // Para el texto visible en el mensaje usamos la URL limpia de la app.
+    const shareMsgSocial = shareMsg.replace(encodeURIComponent(url), encodeURIComponent(socialUrl));
+    const waHref = 'https://wa.me/?text=' + encodeURIComponent(shareMsg.replace(url, socialUrl));
+    const twHref = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(shareMsg.replace(url, socialUrl));
+    // quote= puede pre-rellenar el campo de texto en algunas versiones de FB.
+    const fbShareUrl = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(socialUrl) + '&quote=' + encodeURIComponent(shareMsg);
     const fbMsgAttr = shareMsg.replace(/\\/g, '\\\\').replace(/'/g, "\\'").replace(/\n/g, '\\n');
     const gmailHref = mailtoUrl.replace(/&/g, '&amp;');
     const eloGrant = "if(window.grantEloOnShareComplete)window.grantEloOnShareComplete();";
 
     // Previsualización de la imagen de la tarjeta (la misma que verán en
     // WhatsApp / Facebook / X). Se muestra entre el texto y los botones.
+    // La previsualización se dibuja en el navegador (canvas) para que se vea en
+    // local aunque no haya PHP; board-image.php queda como respaldo del src.
     const previewHtml = previewImage
-        ? `<img src="${previewImage.replace(/&/g,'&amp;').replace(/"/g,'&quot;')}" alt="${msgAttr}" class="share-preview-img" loading="lazy" onerror="this.style.display='none'">`
+        ? `<img id="share-modal-preview" src="${previewImage.replace(/&/g,'&amp;').replace(/"/g,'&quot;')}" alt="${msgAttr}" class="share-preview-img" loading="lazy" title="Pulsa para copiar la imagen" style="cursor:pointer" onclick="copyShareImage(this)" onerror="this.style.display='none'">`
         : '';
 
     const htmlMsg = `
         <strong>${titleLine}</strong>
+        <span class="share-copy-hint" style="display:block;font-size:0.82em;color:#7fb069;text-align:center;margin:2px 0 4px;opacity:0.9;">Pulsa texto / imagen para Copiar</span>
         <button type="button" class="share-msg-btn${previewImage ? ' share-msg-btn--compact' : ''}" data-msg="${msgAttr}" onclick="copyShareMsg(this)">
             <span class="share-msg-text">${msgAttr.replace(/\n/g,'<br>')}</span>
         </button>
@@ -11505,6 +11801,7 @@ function shareContent() {
         `;
 
     showMessage(htmlMsg, 'info', 0);
+    if (previewImage && previewParams) applySharePreviewCanvas(previewParams);
 }
 
 function buildPGNContent() {

@@ -2390,12 +2390,20 @@ body.puzzle-mode-active .mini-elo-display {
 .share-url-copy-btn:active { background: #1e40af; }
 
 /* Bloque de texto del mensaje compartir */
+.share-copy-hint {
+    display: block;
+    font-size: 0.82em;
+    color: #7fb069;
+    text-align: center;
+    margin: 2px 0 4px;
+    opacity: 0.9;
+}
 .share-preview-img {
     display: block;
     width: 100%;
-    max-width: 560px;
+    max-width: 720px;
     height: auto;
-    margin: 6px auto 4px;
+    margin: 8px auto 6px;
     border-radius: 10px;
     border: 1px solid #d1d5db;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
