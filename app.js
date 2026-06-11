@@ -164,6 +164,7 @@ const SoundFX = (() => {
 let game = null;
 let playerColor = 'white';       // valor resuelto para la lógica del juego: 'white'|'black'|'both'
 let playerColorSetting = 'white'; // preferencia del selector de color: 'white'|'black'|'random'
+let manualBoardFlipped = false;   // volteo manual del tablero con el botón ⇅
 let gameOpponent = 'ai';          // oponente seleccionado: 'ai'|'pvp'|'online'|'mail'
 let lastNewGameOpponent = 'ai';   // última selección hecha en el modal Nueva Partida ('ai'|'pvp'|'online'|'mail')
 let _newGameDialogOpen = false;   // true mientras la ventana de Nueva Partida está abierta
@@ -174,6 +175,7 @@ let gameMode = 'vs-ai'; // vs-ai, vs-human, puzzle (compatibilidad)
 let aiDifficulty = 1; // Nivel Stockfish (0-20)
 let boardTheme = 'classic';
 let pieceStyle = 'staunty';
+let boardZoom = 100; // zoom del tablero en %: 70..120
 let showCoordinates = false;
 let showMoveInsights = false;
 let board3D = true;
@@ -1589,7 +1591,7 @@ const FAMOUS_GAMES = {
     },
     'kasparov-deepblue': {
         name: 'Kasparov vs Deep Blue, partida 6',
-        pgn: '[Event "IBM Man-Machine"]\n[Site "New York"]\n[Date "1997"]\n[White "Deep Blue"]\n[Black "Garry Kasparov"]\n[Result "1-0"]\n\n1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Ng5 Ngf6 6.Bd3 e6 7.N1f3 h6 8.Nxe6 Qe7 9.O-O fxe6 10.Bg6+ Kd8 11.Bf4 b5 12.a4 Bb7 13.Re1 Nd5 14.Bg3 Kc8 15.axb5 cxb5 16.Qd3 Bc6 17.Bf5 exf5 18.Rxe7 Bxe7 19.c4 1-0'
+        pgn: '[Event "IBM Man-Machine"]\n[Site "New York"]\n[Date "1997"]\n[White "Deep Blue"]\n[Black "Garry Kasparov"]\n[BlackElo "2785"]\n[Result "1-0"]\n\n1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Ng5 Ngf6 6.Bd3 e6 7.N1f3 h6 8.Nxe6 Qe7 9.O-O fxe6 10.Bg6+ Kd8 11.Bf4 b5 12.a4 Bb7 13.Re1 Nd5 14.Bg3 Kc8 15.axb5 cxb5 16.Qd3 Bc6 17.Bf5 exf5 18.Rxe7 Bxe7 19.c4 1-0'
     },
     'opera': {
         name: 'La Partida de la Ópera',
@@ -1601,15 +1603,15 @@ const FAMOUS_GAMES = {
     },
     'kasparov-topalov': {
         name: 'Kasparov vs Topalov, Wijk aan Zee 1999',
-        pgn: '[Event "Hoogovens"]\n[Site "Wijk aan Zee"]\n[Date "1999.01.20"]\n[White "Garry Kasparov"]\n[Black "Veselin Topalov"]\n[Result "1-0"]\n\n1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be3 Bg7 5.Qd2 c6 6.f3 b5 7.Nge2 Nbd7 8.Bh6 Bxh6 9.Qxh6 Bb7 10.a3 e5 11.O-O-O Qe7 12.Kb1 a6 13.Nc1 O-O-O 14.Nb3 exd4 15.Rxd4 c5 16.Rd1 Nb6 17.g3 Kb8 18.Na5 Ba8 19.Bh3 d5 20.Qf4+ Ka7 21.Rhe1 d4 22.Nd5 Nbxd5 23.exd5 Qd6 24.Rxd4 cxd4 25.Re7+ Kb6 26.Qxd4+ Kxa5 27.b4+ Ka4 28.Qc3 Qxd5 29.Ra7 Bb7 30.Rxb7 Qc4 31.Qxf6 Kxa3 32.Qxa6+ Kxb4 33.c3+ Kxc3 34.Qa1+ Kd2 35.Qb2+ Kd1 36.Bf1 Rd2 37.Rd7 Rxd7 38.Bxc4 bxc4 39.Qxh8 Rd3 40.Qa8 c3 41.Qa4+ Ke1 42.f4 f5 43.Kc1 Rd2 44.Qa7 1-0'
+        pgn: '[Event "Hoogovens"]\n[Site "Wijk aan Zee"]\n[Date "1999.01.20"]\n[White "Garry Kasparov"]\n[Black "Veselin Topalov"]\n[WhiteElo "2812"]\n[BlackElo "2700"]\n[Result "1-0"]\n\n1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be3 Bg7 5.Qd2 c6 6.f3 b5 7.Nge2 Nbd7 8.Bh6 Bxh6 9.Qxh6 Bb7 10.a3 e5 11.O-O-O Qe7 12.Kb1 a6 13.Nc1 O-O-O 14.Nb3 exd4 15.Rxd4 c5 16.Rd1 Nb6 17.g3 Kb8 18.Na5 Ba8 19.Bh3 d5 20.Qf4+ Ka7 21.Rhe1 d4 22.Nd5 Nbxd5 23.exd5 Qd6 24.Rxd4 cxd4 25.Re7+ Kb6 26.Qxd4+ Kxa5 27.b4+ Ka4 28.Qc3 Qxd5 29.Ra7 Bb7 30.Rxb7 Qc4 31.Qxf6 Kxa3 32.Qxa6+ Kxb4 33.c3+ Kxc3 34.Qa1+ Kd2 35.Qb2+ Kd1 36.Bf1 Rd2 37.Rd7 Rxd7 38.Bxc4 bxc4 39.Qxh8 Rd3 40.Qa8 c3 41.Qa4+ Ke1 42.f4 f5 43.Kc1 Rd2 44.Qa7 1-0'
     },
     'fischer-spassky': {
         name: 'Fischer vs Spassky, partida 6 (1972)',
-        pgn: '[Event "World Championship"]\n[Site "Reykjavik"]\n[Date "1972.07.23"]\n[White "Robert James Fischer"]\n[Black "Boris Spassky"]\n[Result "1-0"]\n\n1.c4 e6 2.Nf3 d5 3.d4 Nf6 4.Nc3 Be7 5.Bg5 O-O 6.e3 h6 7.Bh4 b6 8.cxd5 Nxd5 9.Bxe7 Qxe7 10.Nxd5 exd5 11.Rc1 Be6 12.Qa4 c5 13.Qa3 Rc8 14.Bb5 a6 15.dxc5 bxc5 16.O-O Ra7 17.Be2 Nd7 18.Nd4 Qf8 19.Nxe6 fxe6 20.e4 d4 21.f4 Qe7 22.e5 Rb8 23.Bc4 Kh8 24.Qh3 Nf8 25.b3 a5 26.f5 exf5 27.Rxf5 Nh7 28.Rcf1 Qd8 29.Qg3 Re7 30.h4 Rbb7 31.e6 Rbc7 32.Qe5 Qe8 33.a4 Qd8 34.R1f2 Qe8 35.R2f3 Qd8 36.Bd3 Qe8 37.Qe4 Nf6 38.Rxf6 gxf6 39.Rxf6 Kg8 40.Bc4 Kh8 41.Qf4 1-0'
+        pgn: '[Event "World Championship"]\n[Site "Reykjavik"]\n[Date "1972.07.23"]\n[White "Robert James Fischer"]\n[Black "Boris Spassky"]\n[WhiteElo "2785"]\n[BlackElo "2660"]\n[Result "1-0"]\n\n1.c4 e6 2.Nf3 d5 3.d4 Nf6 4.Nc3 Be7 5.Bg5 O-O 6.e3 h6 7.Bh4 b6 8.cxd5 Nxd5 9.Bxe7 Qxe7 10.Nxd5 exd5 11.Rc1 Be6 12.Qa4 c5 13.Qa3 Rc8 14.Bb5 a6 15.dxc5 bxc5 16.O-O Ra7 17.Be2 Nd7 18.Nd4 Qf8 19.Nxe6 fxe6 20.e4 d4 21.f4 Qe7 22.e5 Rb8 23.Bc4 Kh8 24.Qh3 Nf8 25.b3 a5 26.f5 exf5 27.Rxf5 Nh7 28.Rcf1 Qd8 29.Qg3 Re7 30.h4 Rbb7 31.e6 Rbc7 32.Qe5 Qe8 33.a4 Qd8 34.R1f2 Qe8 35.R2f3 Qd8 36.Bd3 Qe8 37.Qe4 Nf6 38.Rxf6 gxf6 39.Rxf6 Kg8 40.Bc4 Kh8 41.Qf4 1-0'
     },
     'game-of-century': {
         name: 'La Partida del Siglo (Byrne vs Fischer, 1956)',
-        pgn: '[Event "Rosenwald Memorial"]\n[Site "New York"]\n[Date "1956.10.17"]\n[White "Donald Byrne"]\n[Black "Robert James Fischer"]\n[Result "0-1"]\n\n1.Nf3 Nf6 2.c4 g6 3.Nc3 Bg7 4.d4 O-O 5.Bf4 d5 6.Qb3 dxc4 7.Qxc4 c6 8.e4 Nbd7 9.Rd1 Nb6 10.Qc5 Bg4 11.Bg5 Na4 12.Qa3 Nxc3 13.bxc3 Nxe4 14.Bxe7 Qb6 15.Bc4 Nxc3 16.Bc5 Rfe8+ 17.Kf1 Be6 18.Bxb6 Bxc4+ 19.Kg1 Ne2+ 20.Kf1 Nxd4+ 21.Kg1 Ne2+ 22.Kf1 Nc3+ 23.Kg1 axb6 24.Qb4 Ra4 25.Qxb6 Nxd1 26.h3 Rxa2 27.Kh2 Nxf2 28.Re1 Rxe1 29.Qd8+ Bf8 30.Nxe1 Bd5 31.Nf3 Ne4 32.Qb8 b5 33.h4 h5 34.Ne5 Kg7 35.Kg1 Bc5+ 36.Kf1 Ng3+ 37.Ke1 Bb4+ 38.Kd1 Bb3+ 39.Kc1 Ne2+ 40.Kb1 Nc3+ 41.Kc1 Rc2# 0-1'
+        pgn: '[Event "Rosenwald Memorial"]\n[Site "New York"]\n[Date "1956.10.17"]\n[White "Donald Byrne"]\n[Black "Robert James Fischer"]\n[WhiteElo "2480"]\n[BlackElo "2400"]\n[Result "0-1"]\n\n1.Nf3 Nf6 2.c4 g6 3.Nc3 Bg7 4.d4 O-O 5.Bf4 d5 6.Qb3 dxc4 7.Qxc4 c6 8.e4 Nbd7 9.Rd1 Nb6 10.Qc5 Bg4 11.Bg5 Na4 12.Qa3 Nxc3 13.bxc3 Nxe4 14.Bxe7 Qb6 15.Bc4 Nxc3 16.Bc5 Rfe8+ 17.Kf1 Be6 18.Bxb6 Bxc4+ 19.Kg1 Ne2+ 20.Kf1 Nxd4+ 21.Kg1 Ne2+ 22.Kf1 Nc3+ 23.Kg1 axb6 24.Qb4 Ra4 25.Qxb6 Nxd1 26.h3 Rxa2 27.Kh2 Nxf2 28.Re1 Rxe1 29.Qd8+ Bf8 30.Nxe1 Bd5 31.Nf3 Ne4 32.Qb8 b5 33.h4 h5 34.Ne5 Kg7 35.Kg1 Bc5+ 36.Kf1 Ng3+ 37.Ke1 Bb4+ 38.Kd1 Bb3+ 39.Kc1 Ne2+ 40.Kb1 Nc3+ 41.Kc1 Rc2# 0-1'
     },
     'rubinstein-immortal': {
         name: 'La Inmortal de Rubinstein (Rotlewi vs Rubinstein, 1907)',
@@ -1625,15 +1627,15 @@ const FAMOUS_GAMES = {
     },
     'karpov-kasparov-85': {
         name: 'Karpov vs Kasparov, partida 16 (1985) — Brisbane Bombshell',
-        pgn: '[Event "World Championship"]\n[Site "Moscow"]\n[Date "1985.10.15"]\n[White "Anatoly Karpov"]\n[Black "Garry Kasparov"]\n[Result "0-1"]\n\n1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nc6 5.Nb5 d6 6.c4 Nf6 7.N1c3 a6 8.Na3 d5 9.cxd5 exd5 10.exd5 Nb4 11.Be2 Bc5 12.O-O O-O 13.Bf3 Bf5 14.Bg5 Re8 15.Qd2 b5 16.Rad1 Nd3 17.Nab1 h6 18.Bh4 b4 19.Na4 Bd6 20.Bg3 Rc8 21.b3 g5 22.Bxd6 Qxd6 23.g3 Nd7 24.Bg2 Qf6 25.a3 a5 26.axb4 axb4 27.Qa2 Bg6 28.d6 g4 29.Qd2 Kg7 30.f3 Qxd6 31.fxg4 Qd4+ 32.Kh1 Nf6 33.Rf4 Ne4 34.Qxd3 Nf2+ 35.Rxf2 Bxd3 36.Rfd2 Qe3 37.Rxd3 Rc1 38.Nb2 Qf2 39.Nd2 Rxd1+ 40.Nxd1 Re1+ 0-1'
+        pgn: '[Event "World Championship"]\n[Site "Moscow"]\n[Date "1985.10.15"]\n[White "Anatoly Karpov"]\n[Black "Garry Kasparov"]\n[WhiteElo "2720"]\n[BlackElo "2700"]\n[Result "0-1"]\n\n1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nc6 5.Nb5 d6 6.c4 Nf6 7.N1c3 a6 8.Na3 d5 9.cxd5 exd5 10.exd5 Nb4 11.Be2 Bc5 12.O-O O-O 13.Bf3 Bf5 14.Bg5 Re8 15.Qd2 b5 16.Rad1 Nd3 17.Nab1 h6 18.Bh4 b4 19.Na4 Bd6 20.Bg3 Rc8 21.b3 g5 22.Bxd6 Qxd6 23.g3 Nd7 24.Bg2 Qf6 25.a3 a5 26.axb4 axb4 27.Qa2 Bg6 28.d6 g4 29.Qd2 Kg7 30.f3 Qxd6 31.fxg4 Qd4+ 32.Kh1 Nf6 33.Rf4 Ne4 34.Qxd3 Nf2+ 35.Rxf2 Bxd3 36.Rfd2 Qe3 37.Rxd3 Rc1 38.Nb2 Qf2 39.Nd2 Rxd1+ 40.Nxd1 Re1+ 0-1'
     },
     'polugaevsky-tal': {
         name: 'Polugaevsky vs Tal (1969)',
-        pgn: '[Event "USSR Championship"]\n[Site "Moscow"]\n[Date "1969.09.07"]\n[White "Lev Polugaevsky"]\n[Black "Mikhail Tal"]\n[Result "1-0"]\n\n1.c4 Nf6 2.Nc3 e6 3.Nf3 d5 4.d4 c5 5.cxd5 Nxd5 6.e4 Nxc3 7.bxc3 cxd4 8.cxd4 Bb4+ 9.Bd2 Bxd2+ 10.Qxd2 O-O 11.Bc4 Nc6 12.O-O b6 13.Rad1 Bb7 14.Rfe1 Na5 15.Bd3 Rc8 16.d5 exd5 17.e5 Nc4 18.Qf4 Nb2 19.Bxh7+ Kxh7 20.Ng5+ Kg6 21.h4 Rc4 22.h5+ Kh6 23.Nxf7+ Kh7 24.Qf5+ Kg8 25.e6 Qf6 26.Qxf6 gxf6 27.Rd2 Rc6 28.Rxb2 Re8 29.Nh6+ Kh7 30.Nf5 Rexe6 31.Rxe6 Rxe6 32.Rc2 Rc6 33.Re2 Bc8 34.Re7+ Kh8 35.Nh4 f5 36.Ng6+ Kg8 37.Rxa7 1-0'
+        pgn: '[Event "USSR Championship"]\n[Site "Moscow"]\n[Date "1969.09.07"]\n[White "Lev Polugaevsky"]\n[Black "Mikhail Tal"]\n[WhiteElo "2610"]\n[BlackElo "2625"]\n[Result "1-0"]\n\n1.c4 Nf6 2.Nc3 e6 3.Nf3 d5 4.d4 c5 5.cxd5 Nxd5 6.e4 Nxc3 7.bxc3 cxd4 8.cxd4 Bb4+ 9.Bd2 Bxd2+ 10.Qxd2 O-O 11.Bc4 Nc6 12.O-O b6 13.Rad1 Bb7 14.Rfe1 Na5 15.Bd3 Rc8 16.d5 exd5 17.e5 Nc4 18.Qf4 Nb2 19.Bxh7+ Kxh7 20.Ng5+ Kg6 21.h4 Rc4 22.h5+ Kh6 23.Nxf7+ Kh7 24.Qf5+ Kg8 25.e6 Qf6 26.Qxf6 gxf6 27.Rd2 Rc6 28.Rxb2 Re8 29.Nh6+ Kh7 30.Nf5 Rexe6 31.Rxe6 Rxe6 32.Rc2 Rc6 33.Re2 Bc8 34.Re7+ Kh8 35.Nh4 f5 36.Ng6+ Kg8 37.Rxa7 1-0'
     },
     'deepblue-kasparov-96': {
         name: 'Deep Blue vs Kasparov, partida 1 (1996)',
-        pgn: '[Event "Philadelphia"]\n[Site "Philadelphia"]\n[Date "1996.02.10"]\n[White "Deep Blue"]\n[Black "Garry Kasparov"]\n[Result "1-0"]\n\n1.e4 c5 2.c3 d5 3.exd5 Qxd5 4.d4 Nf6 5.Nf3 Bg4 6.Be2 e6 7.h3 Bh5 8.O-O Nc6 9.Be3 cxd4 10.cxd4 Bb4 11.a3 Ba5 12.Nc3 Qd6 13.Nb5 Qe7 14.Ne5 Bxe2 15.Qxe2 O-O 16.Rac1 Rac8 17.Bg5 Bb6 18.Bxf6 gxf6 19.Nc4 Rfd8 20.Nxb6 axb6 21.Rfd1 f5 22.Qe3 Qf6 23.d5 Rxd5 24.Rxd5 exd5 25.b3 Kh8 26.Qxb6 Rg8 27.Qc5 d4 28.Nd6 f4 29.Nxb7 Ne5 30.Qd5 f3 31.g3 Nd3 32.Rc7 Re8 33.Nd6 Re1+ 34.Kh2 Nxf2 35.Nxf7+ Kg7 36.Ng5+ Kh6 37.Rxh7+ 1-0'
+        pgn: '[Event "Philadelphia"]\n[Site "Philadelphia"]\n[Date "1996.02.10"]\n[White "Deep Blue"]\n[Black "Garry Kasparov"]\n[BlackElo "2795"]\n[Result "1-0"]\n\n1.e4 c5 2.c3 d5 3.exd5 Qxd5 4.d4 Nf6 5.Nf3 Bg4 6.Be2 e6 7.h3 Bh5 8.O-O Nc6 9.Be3 cxd4 10.cxd4 Bb4 11.a3 Ba5 12.Nc3 Qd6 13.Nb5 Qe7 14.Ne5 Bxe2 15.Qxe2 O-O 16.Rac1 Rac8 17.Bg5 Bb6 18.Bxf6 gxf6 19.Nc4 Rfd8 20.Nxb6 axb6 21.Rfd1 f5 22.Qe3 Qf6 23.d5 Rxd5 24.Rxd5 exd5 25.b3 Kh8 26.Qxb6 Rg8 27.Qc5 d4 28.Nd6 f4 29.Nxb7 Ne5 30.Qd5 f3 31.g3 Nd3 32.Rc7 Re8 33.Nd6 Re1+ 34.Kh2 Nxf2 35.Nxf7+ Kg7 36.Ng5+ Kh6 37.Rxh7+ 1-0'
     },
     'lasker-capablanca': {
         name: 'Lasker vs Capablanca, San Petersburgo 1914',
@@ -1649,19 +1651,19 @@ const FAMOUS_GAMES = {
     },
     'vallejo-shirov': {
         name: 'Vallejo vs Shirov, Linares 2002',
-        pgn: '[Event "Linares"]\n[Site "Linares"]\n[Date "2002.03.09"]\n[White "Francisco Vallejo Pons"]\n[Black "Alexei Shirov"]\n[Result "1-0"]\n\n1.e4 c5 2.Nf3 d6 3.Bc4 Nf6 4.d3 e6 5.Bb3 Be7 6.O-O O-O 7.c3 Nc6 8.Re1 b5 9.Nbd2 d5 10.e5 Nd7 11.d4 Ba6 12.Nf1 b4 13.Ba4 Rc8 14.Bxc6 Rxc6 15.cxb4 Bxf1 16.Rxf1 cxb4 17.Be3 Qa5 18.g3 Rfc8 19.Ne1 Qb5 20.h4 a5 21.b3 a4 22.Nd3 Rc3 23.Nf4 Nf8 24.Qg4 Qd7 25.h5 axb3 26.axb3 Rxb3 27.h6 g6 28.Nh3 Rbc3 29.Bg5 b3 30.Rfb1 Rb8 31.Kg2 Rc7 32.Rb2 Bxg5 33.Qxg5 Qe7 34.Qe3 Qb4 35.Qf4 Qe7 36.Qf3 Rcb7 37.Rab1 Nd7 38.Rxb3 Rxb3 39.Rxb3 Qf8 40.Rxb8 Nxb8 41.Ng5 Nd7 42.Qf4 Qe7 43.Qc1 Qd8 44.Nf3 Kf8 45.Ng5 Kg8 46.Nf3 Kf8 47.Kg1 Qb8 48.Qa3+ Ke8 49.Ng5 Nf8 50.Qa4+ Ke7 51.Kg2 Qb7 52.Qa3+ Ke8 53.Qf3 Qe7 54.Qf6 1-0'
+        pgn: '[Event "Linares"]\n[Site "Linares"]\n[Date "2002.03.09"]\n[White "Francisco Vallejo Pons"]\n[Black "Alexei Shirov"]\n[WhiteElo "2650"]\n[BlackElo "2715"]\n[Result "1-0"]\n\n1.e4 c5 2.Nf3 d6 3.Bc4 Nf6 4.d3 e6 5.Bb3 Be7 6.O-O O-O 7.c3 Nc6 8.Re1 b5 9.Nbd2 d5 10.e5 Nd7 11.d4 Ba6 12.Nf1 b4 13.Ba4 Rc8 14.Bxc6 Rxc6 15.cxb4 Bxf1 16.Rxf1 cxb4 17.Be3 Qa5 18.g3 Rfc8 19.Ne1 Qb5 20.h4 a5 21.b3 a4 22.Nd3 Rc3 23.Nf4 Nf8 24.Qg4 Qd7 25.h5 axb3 26.axb3 Rxb3 27.h6 g6 28.Nh3 Rbc3 29.Bg5 b3 30.Rfb1 Rb8 31.Kg2 Rc7 32.Rb2 Bxg5 33.Qxg5 Qe7 34.Qe3 Qb4 35.Qf4 Qe7 36.Qf3 Rcb7 37.Rab1 Nd7 38.Rxb3 Rxb3 39.Rxb3 Qf8 40.Rxb8 Nxb8 41.Ng5 Nd7 42.Qf4 Qe7 43.Qc1 Qd8 44.Nf3 Kf8 45.Ng5 Kg8 46.Nf3 Kf8 47.Kg1 Qb8 48.Qa3+ Ke8 49.Ng5 Nf8 50.Qa4+ Ke7 51.Kg2 Qb7 52.Qa3+ Ke8 53.Qf3 Qe7 54.Qf6 1-0'
     },
     'illescas-karpov': {
         name: 'Illescas vs Karpov, Linares 1994 — The Reign in Spain',
-        pgn: '[Event "Linares"]\n[Site "Linares"]\n[Date "1994.02.26"]\n[White "Miguel Illescas Cordoba"]\n[Black "Anatoly Karpov"]\n[Result "0-1"]\n\n1.Nf3 Nf6 2.c4 b6 3.g3 Bb7 4.Bg2 e6 5.Nc3 Bb4 6.O-O O-O 7.Qc2 Re8 8.d4 Bxc3 9.Qxc3 d6 10.b3 Nbd7 11.Bb2 Be4 12.Rac1 Rc8 13.Rfd1 c6 14.Qb4 Qc7 15.Qd2 Qb7 16.Qf4 d5 17.Bf1 b5 18.cxb5 cxb5 19.Ne1 Qa6 20.a3 h6 21.Rxc8 Rxc8 22.Rc1 Nb8 23.e3 Rxc1 24.Bxc1 Qb6 25.Bd2 Nbd7 26.Bb4 a5 27.Be7 e5 28.Qh4 exd4 29.Qf4 dxe3 30.Qxe3 d4 31.Qf4 Qc6 32.Bxf6 Nxf6 33.Qb8+ Kh7 34.Qxb5 Qc1 35.Nd3 Qd1 36.Nc5 Bg6 37.Kg2 Ne4 38.Be2 Qe1 39.Nxe4 Bxe4+ 40.f3 Bg6 41.h4 h5 42.f4 Be4+ 43.Bf3 g6 44.Bxe4 Qxe4+ 45.Kf2 Qe3+ 46.Kg2 d3 47.Qc4 Qe2+ 48.Kg1 Qd1+ 49.Kf2 Qd2+ 50.Kf1 Qd1+ 51.Kf2 Qe2+ 52.Kg1 Kg8 53.Qc8+ Kg7 54.Qc3+ Kf8 55.Qc5+ Ke8 56.Qc6+ Ke7 57.Qc5+ Ke6 58.Qf2 Qd1+ 59.Kg2 Qxb3 60.Qe1+ Kd7 61.Qxa5 Qc2+ 62.Kh3 d2 63.Qd5+ Kc8 0-1'
+        pgn: '[Event "Linares"]\n[Site "Linares"]\n[Date "1994.02.26"]\n[White "Miguel Illescas Cordoba"]\n[Black "Anatoly Karpov"]\n[WhiteElo "2590"]\n[BlackElo "2740"]\n[Result "0-1"]\n\n1.Nf3 Nf6 2.c4 b6 3.g3 Bb7 4.Bg2 e6 5.Nc3 Bb4 6.O-O O-O 7.Qc2 Re8 8.d4 Bxc3 9.Qxc3 d6 10.b3 Nbd7 11.Bb2 Be4 12.Rac1 Rc8 13.Rfd1 c6 14.Qb4 Qc7 15.Qd2 Qb7 16.Qf4 d5 17.Bf1 b5 18.cxb5 cxb5 19.Ne1 Qa6 20.a3 h6 21.Rxc8 Rxc8 22.Rc1 Nb8 23.e3 Rxc1 24.Bxc1 Qb6 25.Bd2 Nbd7 26.Bb4 a5 27.Be7 e5 28.Qh4 exd4 29.Qf4 dxe3 30.Qxe3 d4 31.Qf4 Qc6 32.Bxf6 Nxf6 33.Qb8+ Kh7 34.Qxb5 Qc1 35.Nd3 Qd1 36.Nc5 Bg6 37.Kg2 Ne4 38.Be2 Qe1 39.Nxe4 Bxe4+ 40.f3 Bg6 41.h4 h5 42.f4 Be4+ 43.Bf3 g6 44.Bxe4 Qxe4+ 45.Kf2 Qe3+ 46.Kg2 d3 47.Qc4 Qe2+ 48.Kg1 Qd1+ 49.Kf2 Qd2+ 50.Kf1 Qd1+ 51.Kf2 Qe2+ 52.Kg1 Kg8 53.Qc8+ Kg7 54.Qc3+ Kf8 55.Qc5+ Ke8 56.Qc6+ Ke7 57.Qc5+ Ke6 58.Qf2 Qd1+ 59.Kg2 Qxb3 60.Qe1+ Kd7 61.Qxa5 Qc2+ 62.Kh3 d2 63.Qd5+ Kc8 0-1'
     },
     'pomar-fischer': {
         name: 'Pomar vs Fischer, Olimpiada La Habana 1966',
-        pgn: '[Event "Olympiad"]\n[Site "Havana"]\n[Date "1966"]\n[White "Arturo Pomar Salamanca"]\n[Black "Robert James Fischer"]\n[Result "0-1"]\n\n1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5 5.cxd5 g6 6.e4 d6 7.Be2 Bg7 8.f4 O-O 9.Nf3 Re8 10.Nd2 c4 11.Bf3 Nbd7 12.O-O b5 13.Kh1 a6 14.a4 Rb8 15.axb5 axb5 16.e5 dxe5 17.Nde4 Nxe4 18.Nxe4 Nf6 19.d6 Be6 20.Nc5 e4 21.Nxe4 Nxe4 22.Bxe4 Qb6 23.f5 gxf5 24.Bc2 Qd4 25.Qh5 Qg4 26.Qxg4 fxg4 27.Bg5 Bxb2 28.Rad1 b4 29.d7 Red8 30.Ba4 b3 31.Rfe1 Kg7 32.Bxd8 Rxd8 33.Rd6 Bf6 34.Red1 Bg5 35.Rb6 h6 36.Rc6 Ra8 37.Bb5 Bxd7 38.h4 Bxc6 39.Bxc6 c3 40.hxg5 c2 41.gxh6+ Kh8 0-1'
+        pgn: '[Event "Olympiad"]\n[Site "Havana"]\n[Date "1966"]\n[White "Arturo Pomar Salamanca"]\n[Black "Robert James Fischer"]\n[WhiteElo "2490"]\n[BlackElo "2600"]\n[Result "0-1"]\n\n1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5 5.cxd5 g6 6.e4 d6 7.Be2 Bg7 8.f4 O-O 9.Nf3 Re8 10.Nd2 c4 11.Bf3 Nbd7 12.O-O b5 13.Kh1 a6 14.a4 Rb8 15.axb5 axb5 16.e5 dxe5 17.Nde4 Nxe4 18.Nxe4 Nf6 19.d6 Be6 20.Nc5 e4 21.Nxe4 Nxe4 22.Bxe4 Qb6 23.f5 gxf5 24.Bc2 Qd4 25.Qh5 Qg4 26.Qxg4 fxg4 27.Bg5 Bxb2 28.Rad1 b4 29.d7 Red8 30.Ba4 b3 31.Rfe1 Kg7 32.Bxd8 Rxd8 33.Rd6 Bf6 34.Red1 Bg5 35.Rb6 h6 36.Rc6 Ra8 37.Bb5 Bxd7 38.h4 Bxc6 39.Bxc6 c3 40.hxg5 c2 41.gxh6+ Kh8 0-1'
     },
     'fischer-pomar-62': {
         name: 'Fischer vs Pomar, Estocolmo 1962 — Jaque continuo',
-        pgn: '[Event "Stockholm Interzonal"]\n[Site "Stockholm"]\n[Date "1962.02.10"]\n[Round "9"]\n[White "Robert James Fischer"]\n[Black "Arturo Pomar Salamanca"]\n[Result "1/2-1/2"]\n[ECO "B29"]\n\n1.e4 c5 2.Nf3 Nf6 3.Nc3 d5 4.Bb5+ Bd7 5.e5 d4 6.exf6 dxc3 7.fxg7 cxd2+ 8.Qxd2 Bxg7 9.Qg5 Bf6 10.Bxd7+ Nxd7 11.Qh5 Qa5+ 12.Nd2 Qa6 13.Ne4 O-O-O 14.Qe2 Qe6 15.Nxf6 Qxe2+ 16.Kxe2 Nxf6 17.Be3 b6 18.Rad1 Rxd1 19.Rxd1 Rd8 20.Rxd8+ Kxd8 21.Kf3 Kd7 22.Kf4 Ng8 23.c4 f6 24.Ke4 e6 25.Bd2 Ne7 26.Bc3 Ng8 27.g4 Ke7 28.f4 h6 29.f5 exf5+ 30.gxf5 h5 31.Bd2 Kd7 32.a4 Ne7 33.Bc3 Ng8 34.Kf4 Ke7 35.b4 cxb4 36.Bxb4+ Kd7 37.Bf8 Ke8 38.Bd6 Kd7 39.c5 bxc5 40.Bxc5 a6 41.Ke4 Kc6 42.Bf8 Kd7 43.h3 Ke8 44.Bc5 Kd7 45.Bd4 Kd6 46.Bb2 Kc6 47.Bc3 Kd6 48.Bb4+ Kd7 49.a5 Nh6 50.Bc3 Ng8 51.Bb4 Nh6 52.Bc3 Ng8 53.Kd5 Ne7+ 54.Kc5 Nxf5 55.Bxf6 Ke6 56.Bg5 Nd6 57.Kb6 Kd5 58.Kxa6 Kc6 59.Bd2 Ne4 60.Bb4 Nf6 61.Ka7 Nd7 62.a6 Kc7 63.Ba5+ Kc6 64.Be1 Nc5 65.Bf2 Nd7 66.Bh4 Nc5 67.Be7 Nd7 68.Ba3 Kc7 69.Bb2 Kc6 70.Bd4 Kc7 71.Bg7 Kc6 72.Ba1 Nc5 73.Bd4 Nd7 74.Be3 Kc7 75.Bf4+ Kc6 76.Ka8 Kb6 77.a7 Kc6 1/2-1/2'
+        pgn: '[Event "Stockholm Interzonal"]\n[Site "Stockholm"]\n[Date "1962.02.10"]\n[Round "9"]\n[White "Robert James Fischer"]\n[Black "Arturo Pomar Salamanca"]\n[WhiteElo "2560"]\n[BlackElo "2490"]\n[Result "1/2-1/2"]\n[ECO "B29"]\n\n1.e4 c5 2.Nf3 Nf6 3.Nc3 d5 4.Bb5+ Bd7 5.e5 d4 6.exf6 dxc3 7.fxg7 cxd2+ 8.Qxd2 Bxg7 9.Qg5 Bf6 10.Bxd7+ Nxd7 11.Qh5 Qa5+ 12.Nd2 Qa6 13.Ne4 O-O-O 14.Qe2 Qe6 15.Nxf6 Qxe2+ 16.Kxe2 Nxf6 17.Be3 b6 18.Rad1 Rxd1 19.Rxd1 Rd8 20.Rxd8+ Kxd8 21.Kf3 Kd7 22.Kf4 Ng8 23.c4 f6 24.Ke4 e6 25.Bd2 Ne7 26.Bc3 Ng8 27.g4 Ke7 28.f4 h6 29.f5 exf5+ 30.gxf5 h5 31.Bd2 Kd7 32.a4 Ne7 33.Bc3 Ng8 34.Kf4 Ke7 35.b4 cxb4 36.Bxb4+ Kd7 37.Bf8 Ke8 38.Bd6 Kd7 39.c5 bxc5 40.Bxc5 a6 41.Ke4 Kc6 42.Bf8 Kd7 43.h3 Ke8 44.Bc5 Kd7 45.Bd4 Kd6 46.Bb2 Kc6 47.Bc3 Kd6 48.Bb4+ Kd7 49.a5 Nh6 50.Bc3 Ng8 51.Bb4 Nh6 52.Bc3 Ng8 53.Kd5 Ne7+ 54.Kc5 Nxf5 55.Bxf6 Ke6 56.Bg5 Nd6 57.Kb6 Kd5 58.Kxa6 Kc6 59.Bd2 Ne4 60.Bb4 Nf6 61.Ka7 Nd7 62.a6 Kc7 63.Ba5+ Kc6 64.Be1 Nc5 65.Bf2 Nd7 66.Bh4 Nc5 67.Be7 Nd7 68.Ba3 Kc7 69.Bb2 Kc6 70.Bd4 Kc7 71.Bg7 Kc6 72.Ba1 Nc5 73.Bd4 Nd7 74.Be3 Kc7 75.Bf4+ Kc6 76.Ka8 Kb6 77.a7 Kc6 1/2-1/2'
     },
     'carlsen-ernst': {
         name: 'Carlsen vs Ernst, Wijk aan Zee 2004 — El Efecto Magnus',
@@ -1681,7 +1683,7 @@ const FAMOUS_GAMES = {
     },
     'petrosian-spassky-66': {
         name: 'Petrosian vs Spassky, Mundial 1966 G10 — Doble sacrificio de calidad',
-        pgn: '[Event "World Championship"]\n[Site "Moscow"]\n[Date "1966.04.22"]\n[White "Tigran Petrosian"]\n[Black "Boris Spassky"]\n[Result "1-0"]\n\n1.Nf3 Nf6 2.g3 g6 3.c4 Bg7 4.Bg2 O-O 5.O-O Nc6 6.Nc3 d6 7.d4 a6 8.d5 Na5 9.Nd2 c5 10.Qc2 e5 11.b3 Ng4 12.e4 f5 13.exf5 gxf5 14.Nd1 b5 15.f3 e4 16.Bb2 exf3 17.Bxf3 Bxb2 18.Qxb2 Ne5 19.Be2 f4 20.gxf4 Bh3 21.Ne3 Bxf1 22.Rxf1 Ng6 23.Bg4 Nxf4 24.Rxf4 Rxf4 25.Be6+ Rf7 26.Ne4 Qh4 27.Nxd6 Qg5+ 28.Kh1 Raa7 29.Bxf7+ Rxf7 30.Qh8# 1-0'
+        pgn: '[Event "World Championship"]\n[Site "Moscow"]\n[Date "1966.04.22"]\n[White "Tigran Petrosian"]\n[Black "Boris Spassky"]\n[WhiteElo "2645"]\n[BlackElo "2625"]\n[Result "1-0"]\n\n1.Nf3 Nf6 2.g3 g6 3.c4 Bg7 4.Bg2 O-O 5.O-O Nc6 6.Nc3 d6 7.d4 a6 8.d5 Na5 9.Nd2 c5 10.Qc2 e5 11.b3 Ng4 12.e4 f5 13.exf5 gxf5 14.Nd1 b5 15.f3 e4 16.Bb2 exf3 17.Bxf3 Bxb2 18.Qxb2 Ne5 19.Be2 f4 20.gxf4 Bh3 21.Ne3 Bxf1 22.Rxf1 Ng6 23.Bg4 Nxf4 24.Rxf4 Rxf4 25.Be6+ Rf7 26.Ne4 Qh4 27.Nxd6 Qg5+ 28.Kh1 Raa7 29.Bxf7+ Rxf7 30.Qh8# 1-0'
     },
     'najdorf-polish-immortal': {
         name: 'Glucksberg vs Najdorf, Varsovia 1929 — La Inmortal Polaca',
@@ -1689,7 +1691,7 @@ const FAMOUS_GAMES = {
     },
     'short-timman': {
         name: 'Short vs Timman, Tilburg 1991 — La Marcha del Rey',
-        pgn: '[Event "Tilburg Interpolis"]\n[Site "Tilburg"]\n[Date "1991.10.21"]\n[White "Nigel Short"]\n[Black "Jan Timman"]\n[Result "1-0"]\n\n1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.Nf3 g6 5.Bc4 Nb6 6.Bb3 Bg7 7.Qe2 Nc6 8.O-O O-O 9.h3 a5 10.a4 dxe5 11.dxe5 Nd4 12.Nxd4 Qxd4 13.Re1 e6 14.Nd2 Nd5 15.Nf3 Qc5 16.Qe4 Qb4 17.Bc4 Nb6 18.b3 Nxc4 19.bxc4 Re8 20.Rd1 Qc5 21.Qh4 b6 22.Be3 Qc6 23.Bh6 Bh8 24.Rd8 Bb7 25.Rad1 Bg7 26.R8d7 Rf8 27.Bxg7 Kxg7 28.R1d4 Rae8 29.Qf6+ Kg8 30.h4 h5 31.Kh2 Rc8 32.Kg3 Rce8 33.Kf4 Bc8 34.Kg5 1-0'
+        pgn: '[Event "Tilburg Interpolis"]\n[Site "Tilburg"]\n[Date "1991.10.21"]\n[White "Nigel Short"]\n[Black "Jan Timman"]\n[WhiteElo "2660"]\n[BlackElo "2630"]\n[Result "1-0"]\n\n1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.Nf3 g6 5.Bc4 Nb6 6.Bb3 Bg7 7.Qe2 Nc6 8.O-O O-O 9.h3 a5 10.a4 dxe5 11.dxe5 Nd4 12.Nxd4 Qxd4 13.Re1 e6 14.Nd2 Nd5 15.Nf3 Qc5 16.Qe4 Qb4 17.Bc4 Nb6 18.b3 Nxc4 19.bxc4 Re8 20.Rd1 Qc5 21.Qh4 b6 22.Be3 Qc6 23.Bh6 Bh8 24.Rd8 Bb7 25.Rad1 Bg7 26.R8d7 Rf8 27.Bxg7 Kxg7 28.R1d4 Rae8 29.Qf6+ Kg8 30.h4 h5 31.Kh2 Rc8 32.Kg3 Rce8 33.Kf4 Bc8 34.Kg5 1-0'
     },
     'topalov-shirov': {
         name: 'Topalov vs Shirov, Linares 1998 — ¡Bh3!!',
@@ -1697,7 +1699,7 @@ const FAMOUS_GAMES = {
     },
     'ivanchuk-yusupov': {
         name: 'Ivanchuk vs Yusupov, Candidatos 1991 — Fuegos artificiales',
-        pgn: '[Event "Candidates Match"]\n[Site "Brussels"]\n[Date "1991.08.24"]\n[White "Vassily Ivanchuk"]\n[Black "Artur Yusupov"]\n[Result "0-1"]\n\n1.c4 e5 2.g3 d6 3.Bg2 g6 4.d4 Nd7 5.Nc3 Bg7 6.Nf3 Ngf6 7.O-O O-O 8.Qc2 Re8 9.Rd1 c6 10.b3 Qe7 11.Ba3 e4 12.Ng5 e3 13.f4 Nf8 14.b4 Bf5 15.Qb3 h6 16.Nf3 Ng4 17.b5 g5 18.bxc6 bxc6 19.Ne5 gxf4 20.Nxc6 Qg5 21.Bxd6 Ng6 22.Nd5 Qh5 23.h4 Nxh4 24.gxh4 Qxh4 25.Nde7+ Kh8 26.Nxf5 Qh2+ 27.Kf1 Re6 28.Qb7 Rg6 29.Qxa8+ Kh7 30.Qg8+ Kxg8 31.Nce7+ Kh7 32.Nxg6 fxg6 33.Nxg7 Nf2 34.Bxf4 Qxf4 35.Ne6 Qh2 36.Rdb1 Nh3 37.Rb7+ Kh8 38.Rb8+ Qxb8 39.Bxh3 Qg3 0-1'
+        pgn: '[Event "Candidates Match"]\n[Site "Brussels"]\n[Date "1991.08.24"]\n[White "Vassily Ivanchuk"]\n[Black "Artur Yusupov"]\n[WhiteElo "2700"]\n[BlackElo "2620"]\n[Result "0-1"]\n\n1.c4 e5 2.g3 d6 3.Bg2 g6 4.d4 Nd7 5.Nc3 Bg7 6.Nf3 Ngf6 7.O-O O-O 8.Qc2 Re8 9.Rd1 c6 10.b3 Qe7 11.Ba3 e4 12.Ng5 e3 13.f4 Nf8 14.b4 Bf5 15.Qb3 h6 16.Nf3 Ng4 17.b5 g5 18.bxc6 bxc6 19.Ne5 gxf4 20.Nxc6 Qg5 21.Bxd6 Ng6 22.Nd5 Qh5 23.h4 Nxh4 24.gxh4 Qxh4 25.Nde7+ Kh8 26.Nxf5 Qh2+ 27.Kf1 Re6 28.Qb7 Rg6 29.Qxa8+ Kh7 30.Qg8+ Kxg8 31.Nce7+ Kh7 32.Nxg6 fxg6 33.Nxg7 Nf2 34.Bxf4 Qxf4 35.Ne6 Qh2 36.Rdb1 Nh3 37.Rb7+ Kh8 38.Rb8+ Qxb8 39.Bxh3 Qg3 0-1'
     },
     'spassky-bronstein': {
         name: 'Spassky vs Bronstein, URSS 1960 — Gambito de Rey brillante',
@@ -1709,7 +1711,7 @@ const FAMOUS_GAMES = {
     },
     'karpov-unzicker': {
         name: 'Karpov vs Unzicker, Olimpiada Niza 1974 — Squeeze Play',
-        pgn: '[Event "Nice Olympiad"]\n[Site "Nice"]\n[Date "1974.06.18"]\n[White "Anatoly Karpov"]\n[Black "Wolfgang Unzicker"]\n[Result "1-0"]\n\n1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Na5 10.Bc2 c5 11.d4 Qc7 12.Nbd2 Nc6 13.d5 Nd8 14.a4 Rb8 15.axb5 axb5 16.b4 Nb7 17.Nf1 Bd7 18.Be3 Ra8 19.Qd2 Rfc8 20.Bd3 g6 21.Ng3 Bf8 22.Ra2 c4 23.Bb1 Qd8 24.Ba7 Ne8 25.Bc2 Nc7 26.Rea1 Qe7 27.Bb1 Be8 28.Ne2 Nd8 29.Nh2 Bg7 30.f4 f6 31.f5 g5 32.Bc2 Bf7 33.Ng3 Nb7 34.Bd1 h6 35.Bh5 Qe8 36.Qd1 Nd8 37.Ra3 Kf8 38.R1a2 Kg8 39.Ng4 Kf8 40.Ne3 Kg8 41.Bxf7+ Nxf7 42.Qh5 Nd8 43.Qg6 Kf8 44.Nh5 1-0'
+        pgn: '[Event "Nice Olympiad"]\n[Site "Nice"]\n[Date "1974.06.18"]\n[White "Anatoly Karpov"]\n[Black "Wolfgang Unzicker"]\n[WhiteElo "2700"]\n[BlackElo "2530"]\n[Result "1-0"]\n\n1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Na5 10.Bc2 c5 11.d4 Qc7 12.Nbd2 Nc6 13.d5 Nd8 14.a4 Rb8 15.axb5 axb5 16.b4 Nb7 17.Nf1 Bd7 18.Be3 Ra8 19.Qd2 Rfc8 20.Bd3 g6 21.Ng3 Bf8 22.Ra2 c4 23.Bb1 Qd8 24.Ba7 Ne8 25.Bc2 Nc7 26.Rea1 Qe7 27.Bb1 Be8 28.Ne2 Nd8 29.Nh2 Bg7 30.f4 f6 31.f5 g5 32.Bc2 Bf7 33.Ng3 Nb7 34.Bd1 h6 35.Bh5 Qe8 36.Qd1 Nd8 37.Ra3 Kf8 38.R1a2 Kg8 39.Ng4 Kf8 40.Ne3 Kg8 41.Bxf7+ Nxf7 42.Qh5 Nd8 43.Qg6 Kf8 44.Nh5 1-0'
     },
     'reti-alekhine': {
         name: 'Réti vs Alekhine, Baden-Baden 1925 — Obra maestra de Alekhine',
@@ -1721,19 +1723,19 @@ const FAMOUS_GAMES = {
     },
     'byrne-fischer-63': {
         name: 'R. Byrne vs Fischer, US Championship 1963 — El Premio de Brillantez',
-        pgn: '[Event "US Championship"]\n[Site "New York"]\n[Date "1963.12.18"]\n[White "Robert Byrne"]\n[Black "Robert James Fischer"]\n[Result "0-1"]\n\n1.d4 Nf6 2.c4 g6 3.g3 c6 4.Bg2 d5 5.cxd5 cxd5 6.Nc3 Bg7 7.e3 O-O 8.Nge2 Nc6 9.O-O b6 10.b3 Ba6 11.Ba3 Re8 12.Qd2 e5 13.dxe5 Nxe5 14.Rfd1 Nd3 15.Qc2 Nxf2 16.Kxf2 Ng4+ 17.Kg1 Nxe3 18.Qd2 Nxg2 19.Kxg2 d4 20.Nxd4 Bb7+ 21.Kf1 Qd7 0-1'
+        pgn: '[Event "US Championship"]\n[Site "New York"]\n[Date "1963.12.18"]\n[White "Robert Byrne"]\n[Black "Robert James Fischer"]\n[WhiteElo "2510"]\n[BlackElo "2570"]\n[Result "0-1"]\n\n1.d4 Nf6 2.c4 g6 3.g3 c6 4.Bg2 d5 5.cxd5 cxd5 6.Nc3 Bg7 7.e3 O-O 8.Nge2 Nc6 9.O-O b6 10.b3 Ba6 11.Ba3 Re8 12.Qd2 e5 13.dxe5 Nxe5 14.Rfd1 Nd3 15.Qc2 Nxf2 16.Kxf2 Ng4+ 17.Kg1 Nxe3 18.Qd2 Nxg2 19.Kxg2 d4 20.Nxd4 Bb7+ 21.Kf1 Qd7 0-1'
     },
     'nezhmetdinov-chernikov': {
         name: 'Nezhmetdinov vs Chernikov, 1962 — Sacrificio de dama inmortal',
-        pgn: '[Event "Chigorin Team Cup"]\n[Site "Rostov-on-Don"]\n[Date "1962"]\n[White "Rashid Nezhmetdinov"]\n[Black "Oleg Chernikov"]\n[Result "1-0"]\n\n1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6 5.Nc3 Bg7 6.Be3 Nf6 7.Bc4 O-O 8.Bb3 Ng4 9.Qxg4 Nxd4 10.Qh4 Qa5 11.O-O Bf6 12.Qxf6 Ne2+ 13.Nxe2 exf6 14.Nc3 Re8 15.Nd5 Re6 16.Bd4 Kg7 17.Rad1 d6 18.Rd3 Bd7 19.Rf3 Bb5 20.Bc3 Qd8 21.Nxf6 Be2 22.Nxh7+ Kg8 23.Rh3 Re5 24.f4 Bxf1 25.Kxf1 Rc8 26.Bd4 b5 27.Ng5 Rc7 28.Bxf7+ Rxf7 29.Rh8+ Kxh8 30.Nxf7+ Kh7 31.Nxd8 Rxe4 32.Nc6 Rxf4+ 33.Ke2 1-0'
+        pgn: '[Event "Chigorin Team Cup"]\n[Site "Rostov-on-Don"]\n[Date "1962"]\n[White "Rashid Nezhmetdinov"]\n[Black "Oleg Chernikov"]\n[WhiteElo "2540"]\n[BlackElo "2450"]\n[Result "1-0"]\n\n1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6 5.Nc3 Bg7 6.Be3 Nf6 7.Bc4 O-O 8.Bb3 Ng4 9.Qxg4 Nxd4 10.Qh4 Qa5 11.O-O Bf6 12.Qxf6 Ne2+ 13.Nxe2 exf6 14.Nc3 Re8 15.Nd5 Re6 16.Bd4 Kg7 17.Rad1 d6 18.Rd3 Bd7 19.Rf3 Bb5 20.Bc3 Qd8 21.Nxf6 Be2 22.Nxh7+ Kg8 23.Rh3 Re5 24.f4 Bxf1 25.Kxf1 Rc8 26.Bd4 b5 27.Ng5 Rc7 28.Bxf7+ Rxf7 29.Rh8+ Kxh8 30.Nxf7+ Kh7 31.Nxd8 Rxe4 32.Nc6 Rxf4+ 33.Ke2 1-0'
     },
     'tal-larsen-65': {
         name: 'Tal vs Larsen, Candidatos 1965 — Sacrificio de caballo',
-        pgn: '[Event "Candidates Semifinal"]\n[Site "Bled"]\n[Date "1965.08.08"]\n[White "Mikhail Tal"]\n[Black "Bent Larsen"]\n[Result "1-0"]\n\n1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 e6 5.Nc3 d6 6.Be3 Nf6 7.f4 Be7 8.Qf3 O-O 9.O-O-O Qc7 10.Ndb5 Qb8 11.g4 a6 12.Nd4 Nxd4 13.Bxd4 b5 14.g5 Nd7 15.Bd3 b4 16.Nd5 exd5 17.exd5 f5 18.Rhe1 Rf7 19.h4 Bb7 20.Bxf5 Rxf5 21.Rxe7 Ne5 22.Qe4 Qf8 23.fxe5 Rf4 24.Qe3 Rf3 25.Qe2 Qxe7 26.Qxf3 dxe5 27.Re1 Rd8 28.Rxe5 Qd6 29.Qf4 Rf8 30.Qe4 b3 31.axb3 Rf1+ 32.Kd2 Qb4+ 33.c3 Qd6 34.Bc5 Qxc5 35.Re8+ Rf8 36.Qe6+ Kh8 37.Qf7 1-0'
+        pgn: '[Event "Candidates Semifinal"]\n[Site "Bled"]\n[Date "1965.08.08"]\n[White "Mikhail Tal"]\n[Black "Bent Larsen"]\n[WhiteElo "2630"]\n[BlackElo "2630"]\n[Result "1-0"]\n\n1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 e6 5.Nc3 d6 6.Be3 Nf6 7.f4 Be7 8.Qf3 O-O 9.O-O-O Qc7 10.Ndb5 Qb8 11.g4 a6 12.Nd4 Nxd4 13.Bxd4 b5 14.g5 Nd7 15.Bd3 b4 16.Nd5 exd5 17.exd5 f5 18.Rhe1 Rf7 19.h4 Bb7 20.Bxf5 Rxf5 21.Rxe7 Ne5 22.Qe4 Qf8 23.fxe5 Rf4 24.Qe3 Rf3 25.Qe2 Qxe7 26.Qxf3 dxe5 27.Re1 Rd8 28.Rxe5 Qd6 29.Qf4 Rf8 30.Qe4 b3 31.axb3 Rf1+ 32.Kd2 Qb4+ 33.c3 Qd6 34.Bc5 Qxc5 35.Re8+ Rf8 36.Qe6+ Kh8 37.Qf7 1-0'
     },
     'geller-euwe': {
         name: 'Geller vs Euwe, Zúrich 1953 — Contraataque mortal',
-        pgn: '[Event "Candidates Tournament"]\n[Site "Zurich"]\n[Date "1953.08.31"]\n[White "Efim Geller"]\n[Black "Max Euwe"]\n[Result "0-1"]\n\n1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 c5 5.a3 Bxc3+ 6.bxc3 b6 7.Bd3 Bb7 8.f3 Nc6 9.Ne2 O-O 10.O-O Na5 11.e4 Ne8 12.Ng3 cxd4 13.cxd4 Rc8 14.f4 Nxc4 15.f5 f6 16.Rf4 b5 17.Rh4 Qb6 18.e5 Nxe5 19.fxe6 Nxd3 20.Qxd3 Qxe6 21.Qxh7+ Kf7 22.Bh6 Rh8 23.Qxh8 Rc2 24.Rc1 Rxg2+ 25.Kf1 Qb3 26.Ke1 Qf3 0-1'
+        pgn: '[Event "Candidates Tournament"]\n[Site "Zurich"]\n[Date "1953.08.31"]\n[White "Efim Geller"]\n[Black "Max Euwe"]\n[WhiteElo "2570"]\n[BlackElo "2580"]\n[Result "0-1"]\n\n1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 c5 5.a3 Bxc3+ 6.bxc3 b6 7.Bd3 Bb7 8.f3 Nc6 9.Ne2 O-O 10.O-O Na5 11.e4 Ne8 12.Ng3 cxd4 13.cxd4 Rc8 14.f4 Nxc4 15.f5 f6 16.Rf4 b5 17.Rh4 Qb6 18.e5 Nxe5 19.fxe6 Nxd3 20.Qxd3 Qxe6 21.Qxh7+ Kf7 22.Bh6 Rh8 23.Qxh8 Rc2 24.Rc1 Rxg2+ 25.Kf1 Qb3 26.Ke1 Qf3 0-1'
     },
     /* REM - PGN con movimientos ilegales
     'mcconnell-morphy': {
@@ -1742,19 +1744,19 @@ const FAMOUS_GAMES = {
     }, */
     'karpov-kasparov-85-g24': {
         name: 'Karpov vs Kasparov, Mundial 1985 G24 — Kasparov se corona',
-        pgn: '[Event "World Championship"]\n[Site "Moscow"]\n[Date "1985.11.09"]\n[White "Anatoly Karpov"]\n[Black "Garry Kasparov"]\n[Result "0-1"]\n\n1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Be2 e6 7.O-O Be7 8.f4 O-O 9.Kh1 Qc7 10.a4 Nc6 11.Be3 Re8 12.Bf3 Rb8 13.Qd2 Bd7 14.Nb3 b6 15.g4 Bc8 16.g5 Nd7 17.Qf2 Bf8 18.Bg2 Bb7 19.Rad1 g6 20.Bc1 Rbc8 21.Rd3 Nb4 22.Rh3 Bg7 23.Be3 Re7 24.Kg1 Rce8 25.Rd1 f5 26.gxf6 Nxf6 27.Rg3 Rf7 28.Bxb6 Qb8 29.Be3 Nh5 30.Rg4 Nf6 31.Rh4 g5 32.fxg5 Ng4 33.Qd2 Nxe3 34.Qxe3 Nxc2 35.Qb6 Ba8 36.Rxd6 Rb7 37.Qxa6 Rxb3 38.Rxe6 Rxb2 39.Qc4 Kh8 40.e5 Qa7+ 41.Kh1 Bxg2+ 42.Kxg2 Nd4+ 0-1'
+        pgn: '[Event "World Championship"]\n[Site "Moscow"]\n[Date "1985.11.09"]\n[White "Anatoly Karpov"]\n[Black "Garry Kasparov"]\n[WhiteElo "2720"]\n[BlackElo "2700"]\n[Result "0-1"]\n\n1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Be2 e6 7.O-O Be7 8.f4 O-O 9.Kh1 Qc7 10.a4 Nc6 11.Be3 Re8 12.Bf3 Rb8 13.Qd2 Bd7 14.Nb3 b6 15.g4 Bc8 16.g5 Nd7 17.Qf2 Bf8 18.Bg2 Bb7 19.Rad1 g6 20.Bc1 Rbc8 21.Rd3 Nb4 22.Rh3 Bg7 23.Be3 Re7 24.Kg1 Rce8 25.Rd1 f5 26.gxf6 Nxf6 27.Rg3 Rf7 28.Bxb6 Qb8 29.Be3 Nh5 30.Rg4 Nf6 31.Rh4 g5 32.fxg5 Ng4 33.Qd2 Nxe3 34.Qxe3 Nxc2 35.Qb6 Ba8 36.Rxd6 Rb7 37.Qxa6 Rxb3 38.Rxe6 Rxb2 39.Qc4 Kh8 40.e5 Qa7+ 41.Kh1 Bxg2+ 42.Kxg2 Nd4+ 0-1'
     },
     'kasparov-anand-95': {
         name: 'Kasparov vs Anand, Mundial PCA 1995 G10 — Sacrificio de dama',
-        pgn: '[Event "PCA World Championship"]\n[Site "New York"]\n[Date "1995.09.26"]\n[White "Garry Kasparov"]\n[Black "Viswanathan Anand"]\n[Result "1-0"]\n\n1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4 6.d4 b5 7.Bb3 d5 8.dxe5 Be6 9.Nbd2 Nc5 10.c3 d4 11.Ng5 dxc3 12.Nxe6 fxe6 13.bxc3 Qd3 14.Bc2 Qxc3 15.Nb3 Nxb3 16.Bxb3 Nd4 17.Qg4 Qxa1 18.Bxe6 Rd8 19.Bh6 Qc3 20.Bxg7 Qd3 21.Bxh8 Qg6 22.Bf6 Be7 23.Bxe7 Qxg4 24.Bxg4 Kxe7 25.Rc1 c6 26.f4 a5 27.Kf2 a4 28.Ke3 b4 29.Bd1 a3 30.g4 Rd5 31.Rc4 c5 32.Ke4 Rd8 33.Rxc5 Ne6 34.Rd5 Rc8 35.f5 Rc4+ 36.Ke3 Nc5 37.g5 Rc1 38.Rd6 1-0'
+        pgn: '[Event "PCA World Championship"]\n[Site "New York"]\n[Date "1995.09.26"]\n[White "Garry Kasparov"]\n[Black "Viswanathan Anand"]\n[WhiteElo "2795"]\n[BlackElo "2725"]\n[Result "1-0"]\n\n1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4 6.d4 b5 7.Bb3 d5 8.dxe5 Be6 9.Nbd2 Nc5 10.c3 d4 11.Ng5 dxc3 12.Nxe6 fxe6 13.bxc3 Qd3 14.Bc2 Qxc3 15.Nb3 Nxb3 16.Bxb3 Nd4 17.Qg4 Qxa1 18.Bxe6 Rd8 19.Bh6 Qc3 20.Bxg7 Qd3 21.Bxh8 Qg6 22.Bf6 Be7 23.Bxe7 Qxg4 24.Bxg4 Kxe7 25.Rc1 c6 26.f4 a5 27.Kf2 a4 28.Ke3 b4 29.Bd1 a3 30.g4 Rd5 31.Rc4 c5 32.Ke4 Rd8 33.Rxc5 Ne6 34.Rd5 Rc8 35.f5 Rc4+ 36.Ke3 Nc5 37.g5 Rc1 38.Rd6 1-0'
     },
     'kramnik-kasparov-2000': {
         name: 'Kramnik vs Kasparov, Mundial 2000 G10 — Fin de una era',
-        pgn: '[Event "World Championship"]\n[Site "London"]\n[Date "2000.10.24"]\n[White "Vladimir Kramnik"]\n[Black "Garry Kasparov"]\n[Result "1-0"]\n\n1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.cxd5 Nxd5 5.e4 Nxc3 6.bxc3 Bg7 7.Nf3 c5 8.Be3 Qa5 9.Qd2 Bg4 10.Rb1 a6 11.Rxb7 Bxf3 12.gxf3 Nc6 13.Bc4 O-O 14.O-O cxd4 15.cxd4 Bxd4 16.Bd5 Bc3 17.Qc1 Nd4 18.Bxd4 Bxd4 19.Rxe7 Ra7 20.Rxa7 Bxa7 21.f4 Qd8 22.Qc3 Bb8 23.Qf3 Qh4 24.e5 g5 25.Re1 Qxf4 26.Qxf4 gxf4 27.e6 fxe6 28.Rxe6 Kg7 29.Rxa6 Rf5 30.Be4 Re5 31.f3 Re7 32.a4 Ra7 33.Rb6 Be5 34.Rb4 Rd7 35.Kg2 Rd2+ 36.Kh3 h5 37.Rb5 Kf6 38.a5 Ra2 39.Rb6+ Ke7 40.Bd5 1-0'
+        pgn: '[Event "World Championship"]\n[Site "London"]\n[Date "2000.10.24"]\n[White "Vladimir Kramnik"]\n[Black "Garry Kasparov"]\n[WhiteElo "2770"]\n[BlackElo "2849"]\n[Result "1-0"]\n\n1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.cxd5 Nxd5 5.e4 Nxc3 6.bxc3 Bg7 7.Nf3 c5 8.Be3 Qa5 9.Qd2 Bg4 10.Rb1 a6 11.Rxb7 Bxf3 12.gxf3 Nc6 13.Bc4 O-O 14.O-O cxd4 15.cxd4 Bxd4 16.Bd5 Bc3 17.Qc1 Nd4 18.Bxd4 Bxd4 19.Rxe7 Ra7 20.Rxa7 Bxa7 21.f4 Qd8 22.Qc3 Bb8 23.Qf3 Qh4 24.e5 g5 25.Re1 Qxf4 26.Qxf4 gxf4 27.e6 fxe6 28.Rxe6 Kg7 29.Rxa6 Rf5 30.Be4 Re5 31.f3 Re7 32.a4 Ra7 33.Rb6 Be5 34.Rb4 Rd7 35.Kg2 Rd2+ 36.Kh3 h5 37.Rb5 Kf6 38.a5 Ra2 39.Rb6+ Ke7 40.Bd5 1-0'
     },
     'carlsen-anand-13': {
         name: 'Carlsen vs Anand, Mundial 2013 G6 — Carlsen toma el mando',
-        pgn: '[Event "World Championship"]\n[Site "Chennai"]\n[Date "2013.11.16"]\n[White "Viswanathan Anand"]\n[Black "Magnus Carlsen"]\n[Result "0-1"]\n\n1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 O-O 5.Nge2 d5 6.a3 Be7 7.cxd5 Nxd5 8.Bd2 Nd7 9.g3 b6 10.Nxd5 exd5 11.Bg2 Bb7 12.Bb4 Nf6 13.O-O Re8 14.Rc1 c6 15.Bxe7 Rxe7 16.Re1 Qd6 17.Nf4 Bc8 18.Qa4 Rc7 19.f3 Be6 20.e4 dxe4 21.fxe4 Qd7 22.d5 cxd5 23.Qxd7 Rxd7 24.Nxe6 fxe6 25.Bh3 Kh8 26.e5 Ng8 27.Bxe6 Rdd8 28.Rc7 d4 29.Bd7 1-0'
+        pgn: '[Event "World Championship"]\n[Site "Chennai"]\n[Date "2013.11.16"]\n[White "Viswanathan Anand"]\n[Black "Magnus Carlsen"]\n[WhiteElo "2775"]\n[BlackElo "2870"]\n[Result "0-1"]\n\n1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 O-O 5.Nge2 d5 6.a3 Be7 7.cxd5 Nxd5 8.Bd2 Nd7 9.g3 b6 10.Nxd5 exd5 11.Bg2 Bb7 12.Bb4 Nf6 13.O-O Re8 14.Rc1 c6 15.Bxe7 Rxe7 16.Re1 Qd6 17.Nf4 Bc8 18.Qa4 Rc7 19.f3 Be6 20.e4 dxe4 21.fxe4 Qd7 22.d5 cxd5 23.Qxd7 Rxd7 24.Nxe6 fxe6 25.Bh3 Kh8 26.e5 Ng8 27.Bxe6 Rdd8 28.Rc7 d4 29.Bd7 1-0'
     },
     'morphy-consultants': {
         name: 'Morphy vs Consultantes, Nueva Orleans 1858',
@@ -1766,7 +1768,7 @@ const FAMOUS_GAMES = {
     },
     'smyslov-reshevsky': {
         name: 'Smyslov vs Reshevsky, URSS-USA 1945 — Sacrificio de dama',
-        pgn: '[Event "USSR-USA Radio Match"]\n[Site "Moscow-New York"]\n[Date "1945"]\n[White "Vassily Smyslov"]\n[Black "Samuel Reshevsky"]\n[Result "1-0"]\n\n1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4 6.d4 b5 7.Bb3 d5 8.dxe5 Be6 9.c3 Bc5 10.Nbd2 O-O 11.Bc2 f5 12.Nb3 Bb6 13.Nfd4 Nxd4 14.Nxd4 Bxd4 15.cxd4 f4 16.f3 Ng3 17.hxg3 fxg3 18.Qd3 Bf5 19.Qxf5 Rxf5 20.Bxf5 Qh4 21.Bh3 Qxd4+ 22.Kh1 Qxe5 23.Bd2 Qxb2 24.Bf4 c5 25.Be6+ Kh8 26.Bxd5 Rd8 27.Rad1 c4 28.Bxg3 c3 29.Be5 b4 30.Bb3 Rd2 31.f4 h5 32.Rb1 Rf2 33.Rfe1 Qd2 34.Rbd1 Qb2 35.Rd8+ Kh7 36.Bg8+ Kg6 37.Rd6+ Kf5 38.Be6+ Kg6 39.Bd5+ Kh7 40.Be4+ Kg8 41.Bg6 1-0'
+        pgn: '[Event "USSR-USA Radio Match"]\n[Site "Moscow-New York"]\n[Date "1945"]\n[White "Vassily Smyslov"]\n[Black "Samuel Reshevsky"]\n[WhiteElo "2660"]\n[BlackElo "2590"]\n[Result "1-0"]\n\n1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4 6.d4 b5 7.Bb3 d5 8.dxe5 Be6 9.c3 Bc5 10.Nbd2 O-O 11.Bc2 f5 12.Nb3 Bb6 13.Nfd4 Nxd4 14.Nxd4 Bxd4 15.cxd4 f4 16.f3 Ng3 17.hxg3 fxg3 18.Qd3 Bf5 19.Qxf5 Rxf5 20.Bxf5 Qh4 21.Bh3 Qxd4+ 22.Kh1 Qxe5 23.Bd2 Qxb2 24.Bf4 c5 25.Be6+ Kh8 26.Bxd5 Rd8 27.Rad1 c4 28.Bxg3 c3 29.Be5 b4 30.Bb3 Rd2 31.f4 h5 32.Rb1 Rf2 33.Rfe1 Qd2 34.Rbd1 Qb2 35.Rd8+ Kh7 36.Bg8+ Kg6 37.Rd6+ Kf5 38.Be6+ Kg6 39.Bd5+ Kh7 40.Be4+ Kg8 41.Bg6 1-0'
     },
     'alekhine-bogoljubov': {
         name: 'Bogoljubov vs Alekhine, Hastings 1922 — Tres damas sacrificadas',
@@ -1774,7 +1776,7 @@ const FAMOUS_GAMES = {
     },
     'fischer-larsen-71': {
         name: 'Fischer vs Larsen, Candidatos 1971 — 6-0 aplastante',
-        pgn: '[Event "Candidates Semifinal"]\n[Site "Denver"]\n[Date "1971.07.06"]\n[White "Robert James Fischer"]\n[Black "Bent Larsen"]\n[Result "1-0"]\n\n1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 Ne7 5.a3 Bxc3+ 6.bxc3 c5 7.a4 Nbc6 8.Nf3 Bd7 9.Bd3 Qc7 10.O-O c4 11.Be2 f6 12.Re1 Ng6 13.Ba3 fxe5 14.dxe5 Ncxe5 15.Nxe5 Nxe5 16.Qd4 Ng6 17.Bh5 Kf7 18.f4 Rhe8 19.f5 exf5 20.Qxd5+ Kf6 21.Bf3 Ne5 22.Qd4 Kg6 23.Rxe5 Qxe5 24.Qxd7 Rad8 25.Qxb7 Qe3+ 26.Kf1 Rd2 27.Qc6+ Re6 28.Bc5 Rf2+ 29.Kg1 Rxg2+ 30.Kxg2 Qd2+ 31.Kh1 Rxc6 32.Bxc6 Qxc3 33.Rg1+ Kf6 34.Bxa7 g5 35.Bb6 Qxc2 36.a5 Qb2 37.Bd8+ Ke6 38.a6 Qa3 39.Bb7 Qc5 40.Rb1 c3 41.Bb6 1-0'
+        pgn: '[Event "Candidates Semifinal"]\n[Site "Denver"]\n[Date "1971.07.06"]\n[White "Robert James Fischer"]\n[Black "Bent Larsen"]\n[WhiteElo "2785"]\n[BlackElo "2660"]\n[Result "1-0"]\n\n1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 Ne7 5.a3 Bxc3+ 6.bxc3 c5 7.a4 Nbc6 8.Nf3 Bd7 9.Bd3 Qc7 10.O-O c4 11.Be2 f6 12.Re1 Ng6 13.Ba3 fxe5 14.dxe5 Ncxe5 15.Nxe5 Nxe5 16.Qd4 Ng6 17.Bh5 Kf7 18.f4 Rhe8 19.f5 exf5 20.Qxd5+ Kf6 21.Bf3 Ne5 22.Qd4 Kg6 23.Rxe5 Qxe5 24.Qxd7 Rad8 25.Qxb7 Qe3+ 26.Kf1 Rd2 27.Qc6+ Re6 28.Bc5 Rf2+ 29.Kg1 Rxg2+ 30.Kxg2 Qd2+ 31.Kh1 Rxc6 32.Bxc6 Qxc3 33.Rg1+ Kf6 34.Bxa7 g5 35.Bb6 Qxc2 36.a5 Qb2 37.Bd8+ Ke6 38.a6 Qa3 39.Bb7 Qc5 40.Rb1 c3 41.Bb6 1-0'
     },
     /* REM - PGN con movimientos ilegales
     'fischer-petrosian-71': {
@@ -1783,31 +1785,31 @@ const FAMOUS_GAMES = {
     }, */
     'spassky-fischer-72-g1': {
         name: 'Spassky vs Fischer, Mundial 1972 G1 — Captura envenenada',
-        pgn: '[Event "World Championship"]\n[Site "Reykjavik"]\n[Date "1972.07.11"]\n[White "Boris Spassky"]\n[Black "Robert James Fischer"]\n[Result "1-0"]\n\n1.d4 Nf6 2.c4 e6 3.Nf3 d5 4.Nc3 Bb4 5.e3 O-O 6.Bd3 c5 7.O-O Nc6 8.a3 Ba5 9.Ne2 dxc4 10.Bxc4 Bb6 11.dxc5 Qxd1 12.Rxd1 Bxc5 13.b4 Be7 14.Bb2 Bd7 15.Rac1 Rfd8 16.Ned4 Nxd4 17.Nxd4 Ba4 18.Bb3 Bxb3 19.Nxb3 Rxd1+ 20.Rxd1 Rc8 21.Kf1 Kf8 22.Ke2 Ne4 23.Rc1 Rxc1 24.Bxc1 f6 25.Na5 Nd6 26.Kd3 Bd8 27.Nc4 Bc7 28.Nxd6 Bxd6 29.b5 Bxh2 30.g3 h5 31.Ke2 h4 32.Kf3 Ke7 33.Kg2 hxg3 34.fxg3 Bxg3 35.Kxg3 Kd6 36.a4 Kd5 37.Ba3 Ke4 38.Bc5 a6 39.b6 f5 40.Kh4 f4 41.exf4 Kxf4 42.Kh5 Kf5 43.Be3 Ke4 44.Bf2 Kf3 45.Kg6 e5 46.Kxg7 1-0'
+        pgn: '[Event "World Championship"]\n[Site "Reykjavik"]\n[Date "1972.07.11"]\n[White "Boris Spassky"]\n[Black "Robert James Fischer"]\n[WhiteElo "2660"]\n[BlackElo "2785"]\n[Result "1-0"]\n\n1.d4 Nf6 2.c4 e6 3.Nf3 d5 4.Nc3 Bb4 5.e3 O-O 6.Bd3 c5 7.O-O Nc6 8.a3 Ba5 9.Ne2 dxc4 10.Bxc4 Bb6 11.dxc5 Qxd1 12.Rxd1 Bxc5 13.b4 Be7 14.Bb2 Bd7 15.Rac1 Rfd8 16.Ned4 Nxd4 17.Nxd4 Ba4 18.Bb3 Bxb3 19.Nxb3 Rxd1+ 20.Rxd1 Rc8 21.Kf1 Kf8 22.Ke2 Ne4 23.Rc1 Rxc1 24.Bxc1 f6 25.Na5 Nd6 26.Kd3 Bd8 27.Nc4 Bc7 28.Nxd6 Bxd6 29.b5 Bxh2 30.g3 h5 31.Ke2 h4 32.Kf3 Ke7 33.Kg2 hxg3 34.fxg3 Bxg3 35.Kxg3 Kd6 36.a4 Kd5 37.Ba3 Ke4 38.Bc5 a6 39.b6 f5 40.Kh4 f4 41.exf4 Kxf4 42.Kh5 Kf5 43.Be3 Ke4 44.Bf2 Kf3 45.Kg6 e5 46.Kxg7 1-0'
     },
     'carlsen-caruana-18': {
         name: 'Carlsen vs Caruana, Mundial 2018 — Desempate rápido G1',
-        pgn: '[Event "World Championship Tiebreak"]\n[Site "London"]\n[Date "2018.11.28"]\n[White "Magnus Carlsen"]\n[Black "Fabiano Caruana"]\n[Result "1-0"]\n\n1.c4 e5 2.Nc3 Nf6 3.g3 Bb4 4.e4 O-O 5.Nge2 c6 6.Bg2 a6 7.O-O b5 8.d4 d6 9.a3 Bxc3 10.Nxc3 bxc4 11.dxe5 dxe5 12.Na4 Be6 13.Qxd8 Rxd8 14.Be3 Nbd7 15.f3 Rab8 16.Rac1 Rb3 17.Rfe1 Ne8 18.Bf1 Nd6 19.Rcd1 Nb5 20.Nc5 Rxb2 21.Nxe6 fxe6 22.Bxc4 Nd4 23.Bxd4 exd4 24.Bxe6+ Kf8 25.Rxd4 Ke7 26.Rxd7+ Rxd7 27.Bxd7 Kxd7 28.Rd1+ Ke6 29.f4 c5 30.Rd5 Rc2 31.h4 c4 32.f5+ Kf6 33.Rc5 h5 34.Kf1 Rc3 35.Kg2 Rxa3 36.Rxc4 Ke5 37.Rc7 Kxe4 38.Re7+ Kxf5 39.Rxg7 Kf6 40.Rg5 a5 41.Rxh5 a4 42.Ra5 Ra1 43.Kf3 a3 44.Ra6+ Kg7 45.Kg2 Ra2+ 46.Kh3 Ra1 47.h5 Kh7 48.g4 Kg7 49.Kh4 a2 50.Kg5 Kf7 51.h6 Rb1 52.Ra7+ Kg8 53.Rxa2 Rb5+ 54.Kg6 Rb6+ 55.Kh5 1-0'
+        pgn: '[Event "World Championship Tiebreak"]\n[Site "London"]\n[Date "2018.11.28"]\n[White "Magnus Carlsen"]\n[Black "Fabiano Caruana"]\n[WhiteElo "2835"]\n[BlackElo "2832"]\n[Result "1-0"]\n\n1.c4 e5 2.Nc3 Nf6 3.g3 Bb4 4.e4 O-O 5.Nge2 c6 6.Bg2 a6 7.O-O b5 8.d4 d6 9.a3 Bxc3 10.Nxc3 bxc4 11.dxe5 dxe5 12.Na4 Be6 13.Qxd8 Rxd8 14.Be3 Nbd7 15.f3 Rab8 16.Rac1 Rb3 17.Rfe1 Ne8 18.Bf1 Nd6 19.Rcd1 Nb5 20.Nc5 Rxb2 21.Nxe6 fxe6 22.Bxc4 Nd4 23.Bxd4 exd4 24.Bxe6+ Kf8 25.Rxd4 Ke7 26.Rxd7+ Rxd7 27.Bxd7 Kxd7 28.Rd1+ Ke6 29.f4 c5 30.Rd5 Rc2 31.h4 c4 32.f5+ Kf6 33.Rc5 h5 34.Kf1 Rc3 35.Kg2 Rxa3 36.Rxc4 Ke5 37.Rc7 Kxe4 38.Re7+ Kxf5 39.Rxg7 Kf6 40.Rg5 a5 41.Rxh5 a4 42.Ra5 Ra1 43.Kf3 a3 44.Ra6+ Kg7 45.Kg2 Ra2+ 46.Kh3 Ra1 47.h5 Kh7 48.g4 Kg7 49.Kh4 a2 50.Kg5 Kf7 51.h6 Rb1 52.Ra7+ Kg8 53.Rxa2 Rb5+ 54.Kg6 Rb6+ 55.Kh5 1-0'
     },
     'ding-nepomniachtchi-23': {
         name: 'Ding Liren vs Nepomniachtchi, Mundial 2023 G12 — Ding empata el match',
-        pgn: '[Event "World Championship"]\n[Site "Astana"]\n[Date "2023.04.16"]\n[White "Ding Liren"]\n[Black "Ian Nepomniachtchi"]\n[Result "1-0"]\n\n1.d4 Nf6 2.Nf3 d5 3.Bf4 c5 4.e3 Nc6 5.Nbd2 cxd4 6.exd4 Bf5 7.c3 e6 8.Bb5 Bd6 9.Bxd6 Qxd6 10.O-O O-O 11.Re1 h6 12.Ne5 Ne7 13.a4 a6 14.Bf1 Nd7 15.Nxd7 Qxd7 16.a5 Qc7 17.Qf3 Rfc8 18.Ra3 Bg6 19.Nb3 Nc6 20.Qg3 Qe7 21.h4 Re8 22.Nc5 e5 23.Rb3 Nxa5 24.Rxe5 Qf6 25.Ra3 Nc4 26.Bxc4 dxc4 27.h5 Bc2 28.Nxb7 Qb6 29.Nd6 Rxe5 30.Qxe5 Qxb2 31.Ra5 Kh7 32.Rc5 Qc1+ 33.Kh2 f6 34.Qg3 a5 35.Nxc4 a4 36.Ne3 Bb1 37.Rc7 Rg8 38.Nd5 Kh8 39.Ra7 a3 40.Ne7 Rf8 41.d5 a2 42.Qc7 Kh7 43.Ng6 Rg8 44.Qf7 1-0'
+        pgn: '[Event "World Championship"]\n[Site "Astana"]\n[Date "2023.04.16"]\n[White "Ding Liren"]\n[Black "Ian Nepomniachtchi"]\n[WhiteElo "2788"]\n[BlackElo "2795"]\n[Result "1-0"]\n\n1.d4 Nf6 2.Nf3 d5 3.Bf4 c5 4.e3 Nc6 5.Nbd2 cxd4 6.exd4 Bf5 7.c3 e6 8.Bb5 Bd6 9.Bxd6 Qxd6 10.O-O O-O 11.Re1 h6 12.Ne5 Ne7 13.a4 a6 14.Bf1 Nd7 15.Nxd7 Qxd7 16.a5 Qc7 17.Qf3 Rfc8 18.Ra3 Bg6 19.Nb3 Nc6 20.Qg3 Qe7 21.h4 Re8 22.Nc5 e5 23.Rb3 Nxa5 24.Rxe5 Qf6 25.Ra3 Nc4 26.Bxc4 dxc4 27.h5 Bc2 28.Nxb7 Qb6 29.Nd6 Rxe5 30.Qxe5 Qxb2 31.Ra5 Kh7 32.Rc5 Qc1+ 33.Kh2 f6 34.Qg3 a5 35.Nxc4 a4 36.Ne3 Bb1 37.Rc7 Rg8 38.Nd5 Kh8 39.Ra7 a3 40.Ne7 Rf8 41.d5 a2 42.Qc7 Kh7 43.Ng6 Rg8 44.Qf7 1-0'
     },
     'tal-botvinnik-60': {
         name: 'Botvinnik vs Tal, Mundial 1960 G6 — El mago de Riga',
-        pgn: '[Event "World Championship"]\n[Site "Moscow"]\n[Date "1960.03.26"]\n[White "Mikhail Botvinnik"]\n[Black "Mikhail Tal"]\n[Result "0-1"]\n\n1.c4 Nf6 2.Nf3 g6 3.g3 Bg7 4.Bg2 O-O 5.d4 d6 6.Nc3 Nbd7 7.O-O e5 8.e4 c6 9.h3 Qb6 10.d5 cxd5 11.cxd5 Nc5 12.Ne1 Bd7 13.Nd3 Nxd3 14.Qxd3 Rfc8 15.Rb1 Nh5 16.Be3 Qb4 17.Qe2 Rc4 18.Rfc1 Rac8 19.Kh2 f5 20.exf5 Bxf5 21.Ra1 Nf4 22.gxf4 exf4 23.Bd2 Qxb2 24.Rab1 f3 25.Rxb2 fxe2 26.Rb3 Rd4 27.Be1 Be5+ 28.Kg1 Bf4 29.Nxe2 Rxc1 30.Nxd4 Rxe1+ 31.Bf1 Be4 32.Ne2 Be5 33.f4 Bf6 34.Rxb7 Bxd5 35.Rc7 Bxa2 36.Rxa7 Bc4 37.Ra8+ Kf7 38.Ra7+ Ke6 39.Ra3 d5 40.Kf2 Bh4+ 41.Kg2 Kd6 42.Ng3 Bxg3 43.Bxc4 dxc4 44.Kxg3 Kd5 45.Ra7 c3 46.Rc7 Kd4 47.Rd7+ 0-1'
+        pgn: '[Event "World Championship"]\n[Site "Moscow"]\n[Date "1960.03.26"]\n[White "Mikhail Botvinnik"]\n[Black "Mikhail Tal"]\n[WhiteElo "2680"]\n[BlackElo "2580"]\n[Result "0-1"]\n\n1.c4 Nf6 2.Nf3 g6 3.g3 Bg7 4.Bg2 O-O 5.d4 d6 6.Nc3 Nbd7 7.O-O e5 8.e4 c6 9.h3 Qb6 10.d5 cxd5 11.cxd5 Nc5 12.Ne1 Bd7 13.Nd3 Nxd3 14.Qxd3 Rfc8 15.Rb1 Nh5 16.Be3 Qb4 17.Qe2 Rc4 18.Rfc1 Rac8 19.Kh2 f5 20.exf5 Bxf5 21.Ra1 Nf4 22.gxf4 exf4 23.Bd2 Qxb2 24.Rab1 f3 25.Rxb2 fxe2 26.Rb3 Rd4 27.Be1 Be5+ 28.Kg1 Bf4 29.Nxe2 Rxc1 30.Nxd4 Rxe1+ 31.Bf1 Be4 32.Ne2 Be5 33.f4 Bf6 34.Rxb7 Bxd5 35.Rc7 Bxa2 36.Rxa7 Bc4 37.Ra8+ Kf7 38.Ra7+ Ke6 39.Ra3 d5 40.Kf2 Bh4+ 41.Kg2 Kd6 42.Ng3 Bxg3 43.Bxc4 dxc4 44.Kxg3 Kd5 45.Ra7 c3 46.Rc7 Kd4 47.Rd7+ 0-1'
     },
     'fischer-11-0': {
         name: 'Fischer vs US Championship 1963 — El 11-0 perfecto',
-        pgn: '[Event "US Championship"]\n[Site "New York"]\n[Date "1963"]\n[White "Robert James Fischer"]\n[Black "Pal Benko"]\n[Result "1-0"]\n\n1.e4 g6 2.d4 Bg7 3.Nc3 d6 4.f4 Nf6 5.Nf3 O-O 6.Bd3 Bg4 7.h3 Bxf3 8.Qxf3 Nc6 9.Be3 e5 10.dxe5 dxe5 11.f5 gxf5 12.Qxf5 Nd4 13.Qf2 Ne8 14.O-O Nd6 15.Qg3 Kh8 16.Qg4 c6 17.Qh5 Qe8 18.Bxd4 exd4 19.Rf6 Kg8 20.e5 h6 21.Ne2 1-0'
+        pgn: '[Event "US Championship"]\n[Site "New York"]\n[Date "1963"]\n[White "Robert James Fischer"]\n[Black "Pal Benko"]\n[WhiteElo "2570"]\n[BlackElo "2510"]\n[Result "1-0"]\n\n1.e4 g6 2.d4 Bg7 3.Nc3 d6 4.f4 Nf6 5.Nf3 O-O 6.Bd3 Bg4 7.h3 Bxf3 8.Qxf3 Nc6 9.Be3 e5 10.dxe5 dxe5 11.f5 gxf5 12.Qxf5 Nd4 13.Qf2 Ne8 14.O-O Nd6 15.Qg3 Kh8 16.Qg4 c6 17.Qh5 Qe8 18.Bxd4 exd4 19.Rf6 Kg8 20.e5 h6 21.Ne2 1-0'
     },
     'larsen-spassky-70': {
         name: 'Larsen vs Spassky, URSS vs Mundo 1970 — 1.b3 desastre',
-        pgn: '[Event "USSR vs Rest of the World"]\n[Site "Belgrade"]\n[Date "1970.03.29"]\n[White "Bent Larsen"]\n[Black "Boris Spassky"]\n[Result "0-1"]\n\n1.b3 e5 2.Bb2 Nc6 3.c4 Nf6 4.Nf3 e4 5.Nd4 Bc5 6.Nxc6 dxc6 7.e3 Bf5 8.Qc2 Qe7 9.Be2 O-O-O 10.f4 Ng4 11.g3 h5 12.h3 h4 13.hxg4 hxg3 14.Rg1 Rh1 15.Rxh1 g2 16.Rf1 Qh4+ 17.Kd1 gxf1=Q+ 0-1'
+        pgn: '[Event "USSR vs Rest of the World"]\n[Site "Belgrade"]\n[Date "1970.03.29"]\n[White "Bent Larsen"]\n[Black "Boris Spassky"]\n[WhiteElo "2660"]\n[BlackElo "2660"]\n[Result "0-1"]\n\n1.b3 e5 2.Bb2 Nc6 3.c4 Nf6 4.Nf3 e4 5.Nd4 Bc5 6.Nxc6 dxc6 7.e3 Bf5 8.Qc2 Qe7 9.Be2 O-O-O 10.f4 Ng4 11.g3 h5 12.h3 h4 13.hxg4 hxg3 14.Rg1 Rh1 15.Rxh1 g2 16.Rf1 Qh4+ 17.Kd1 gxf1=Q+ 0-1'
     },
     'kasparov-shirov-94': {
         name: 'Kasparov vs Shirov, Horgen 1994 — Sacrificio de torre',
-        pgn: '[Event "Credit Suisse Masters"]\n[Site "Horgen"]\n[Date "1994"]\n[White "Garry Kasparov"]\n[Black "Alexei Shirov"]\n[Result "1-0"]\n\n1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.Ndb5 d6 7.Bf4 e5 8.Bg5 a6 9.Na3 b5 10.Nd5 Be7 11.Bxf6 Bxf6 12.c3 Bb7 13.Nc2 Nb8 14.a4 bxa4 15.Rxa4 Nd7 16.Rb4 Nc5 17.Rxb7 Nxb7 18.b4 Bg5 19.Na3 O-O 20.Nc4 a5 21.Bd3 axb4 22.cxb4 Qb8 23.h4 Bh6 24.Ncb6 Ra2 25.O-O Rd2 26.Qf3 Qa7 27.Nd7 Nd8 28.Nxf8 Kxf8 29.b5 Qa3 30.Qf5 Ke8 31.Bc4 Rc2 32.Qxh7 Rxc4 33.Qg8+ Kd7 34.Nb6+ Ke7 35.Nxc4 Qc5 36.Ra1 Qd4 37.Ra3 Bc1 38.Ne3 1-0'
+        pgn: '[Event "Credit Suisse Masters"]\n[Site "Horgen"]\n[Date "1994"]\n[White "Garry Kasparov"]\n[Black "Alexei Shirov"]\n[WhiteElo "2805"]\n[BlackElo "2710"]\n[Result "1-0"]\n\n1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.Ndb5 d6 7.Bf4 e5 8.Bg5 a6 9.Na3 b5 10.Nd5 Be7 11.Bxf6 Bxf6 12.c3 Bb7 13.Nc2 Nb8 14.a4 bxa4 15.Rxa4 Nd7 16.Rb4 Nc5 17.Rxb7 Nxb7 18.b4 Bg5 19.Na3 O-O 20.Nc4 a5 21.Bd3 axb4 22.cxb4 Qb8 23.h4 Bh6 24.Ncb6 Ra2 25.O-O Rd2 26.Qf3 Qa7 27.Nd7 Nd8 28.Nxf8 Kxf8 29.b5 Qa3 30.Qf5 Ke8 31.Bc4 Rc2 32.Qxh7 Rxc4 33.Qg8+ Kd7 34.Nb6+ Ke7 35.Nxc4 Qc5 36.Ra1 Qd4 37.Ra3 Bc1 38.Ne3 1-0'
     },
     'capablanca-alekhine-27': {
         name: 'Alekhine vs Capablanca, Mundial 1927 G34 — La partida decisiva',
@@ -1815,19 +1817,19 @@ const FAMOUS_GAMES = {
     },
     'tal-hecht-62': {
         name: 'Tal vs Hecht, Varna Olimpiada 1962',
-        pgn: '[Event "Varna Olympiad"]\n[Site "Varna"]\n[Date "1962.10.06"]\n[White "Mikhail Tal"]\n[Black "Hans-Joachim Hecht"]\n[Result "1-0"]\n\n1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.Nc3 Bb4 5.Bg5 Bb7 6.e3 h6 7.Bh4 Bxc3+ 8.bxc3 d6 9.Nd2 e5 10.f3 Qe7 11.e4 Nbd7 12.Bd3 Nf8 13.c5 dxc5 14.dxe5 Qxe5 15.Qa4+ c6 16.O-O Ng6 17.Nc4 Qe6 18.e5 b5 19.exf6 bxa4 20.fxg7 Rg8 21.Bf5 Nxh4 22.Bxe6 Ba6 23.Nd6+ Ke7 24.Bc4 Rxg7 25.g3 Kxd6 26.Bxa6 Nf5 27.Rab1 f6 28.Rfd1+ Ke7 29.Re1+ Kd6 30.Kf2 c4 31.g4 Ne7 32.Rb7 Rag8 33.Bxc4 Nd5 34.Bxd5 cxd5 35.Rb4 Rc8 36.Rxa4 Rxc3 37.Ra6+ Kc5 38.Rxf6 h5 39.h3 hxg4 40.hxg4 Rh7 41.g5 Rh5 42.Rf5 Rc2+ 43.Kg3 Kc4 44.Ree5 d4 45.g6 Rh1 46.Rc5+ Kd3 47.Rxc2 Kxc2 48.Kf4 Rg1 49.Rg5 1-0'
+        pgn: '[Event "Varna Olympiad"]\n[Site "Varna"]\n[Date "1962.10.06"]\n[White "Mikhail Tal"]\n[Black "Hans-Joachim Hecht"]\n[WhiteElo "2615"]\n[BlackElo "2490"]\n[Result "1-0"]\n\n1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.Nc3 Bb4 5.Bg5 Bb7 6.e3 h6 7.Bh4 Bxc3+ 8.bxc3 d6 9.Nd2 e5 10.f3 Qe7 11.e4 Nbd7 12.Bd3 Nf8 13.c5 dxc5 14.dxe5 Qxe5 15.Qa4+ c6 16.O-O Ng6 17.Nc4 Qe6 18.e5 b5 19.exf6 bxa4 20.fxg7 Rg8 21.Bf5 Nxh4 22.Bxe6 Ba6 23.Nd6+ Ke7 24.Bc4 Rxg7 25.g3 Kxd6 26.Bxa6 Nf5 27.Rab1 f6 28.Rfd1+ Ke7 29.Re1+ Kd6 30.Kf2 c4 31.g4 Ne7 32.Rb7 Rag8 33.Bxc4 Nd5 34.Bxd5 cxd5 35.Rb4 Rc8 36.Rxa4 Rxc3 37.Ra6+ Kc5 38.Rxf6 h5 39.h3 hxg4 40.hxg4 Rh7 41.g5 Rh5 42.Rf5 Rc2+ 43.Kg3 Kc4 44.Ree5 d4 45.g6 Rh1 46.Rc5+ Kd3 47.Rxc2 Kxc2 48.Kf4 Rg1 49.Rg5 1-0'
     },
     'korchnoi-karpov-78': {
         name: 'Korchnoi vs Karpov, Mundial 1978 G17 — La Guerra Fría',
-        pgn: '[Event "World Championship"]\n[Site "Baguio City"]\n[Date "1978"]\n[White "Viktor Korchnoi"]\n[Black "Anatoly Karpov"]\n[Result "0-1"]\n\n1.c4 Nf6 2.Nc3 e6 3.d4 Bb4 4.e3 O-O 5.Bd3 c5 6.d5 b5 7.dxe6 fxe6 8.cxb5 a6 9.Nge2 d5 10.O-O e5 11.a3 axb5 12.Bxb5 Bxc3 13.bxc3 Ba6 14.Rb1 Qd6 15.c4 d4 16.Ng3 Nc6 17.a4 Na5 18.Qd3 Qe6 19.exd4 cxd4 20.c5 Rfc8 21.f4 Rxc5 22.Bxa6 Qxa6 23.Qxa6 Rxa6 24.Ba3 Rd5 25.Nf5 Kf7 26.fxe5 Rxe5 27.Rb5 Nc4 28.Rb7+ Ke6 29.Nxd4+ Kd5 30.Nf3 Nxa3 31.Nxe5 Kxe5 32.Re7+ Kd4 33.Rxg7 Nc4 34.Rf4+ Ne4 35.Rd7+ Ke3 36.Rf3+ Ke2 37.Rxh7 Ncd2 38.Ra3 Rc6 39.Ra1 Nf3+ 0-1'
+        pgn: '[Event "World Championship"]\n[Site "Baguio City"]\n[Date "1978"]\n[White "Viktor Korchnoi"]\n[Black "Anatoly Karpov"]\n[WhiteElo "2665"]\n[BlackElo "2725"]\n[Result "0-1"]\n\n1.c4 Nf6 2.Nc3 e6 3.d4 Bb4 4.e3 O-O 5.Bd3 c5 6.d5 b5 7.dxe6 fxe6 8.cxb5 a6 9.Nge2 d5 10.O-O e5 11.a3 axb5 12.Bxb5 Bxc3 13.bxc3 Ba6 14.Rb1 Qd6 15.c4 d4 16.Ng3 Nc6 17.a4 Na5 18.Qd3 Qe6 19.exd4 cxd4 20.c5 Rfc8 21.f4 Rxc5 22.Bxa6 Qxa6 23.Qxa6 Rxa6 24.Ba3 Rd5 25.Nf5 Kf7 26.fxe5 Rxe5 27.Rb5 Nc4 28.Rb7+ Ke6 29.Nxd4+ Kd5 30.Nf3 Nxa3 31.Nxe5 Kxe5 32.Re7+ Kd4 33.Rxg7 Nc4 34.Rf4+ Ne4 35.Rd7+ Ke3 36.Rf3+ Ke2 37.Rxh7 Ncd2 38.Ra3 Rc6 39.Ra1 Nf3+ 0-1'
     },
     'fischer-taimanov-71': {
         name: 'Fischer vs Taimanov, Candidatos 1971 — 6-0 histórico',
-        pgn: '[Event "Candidates Quarterfinal"]\n[Site "Vancouver"]\n[Date "1971.05.25"]\n[White "Robert James Fischer"]\n[Black "Mark Taimanov"]\n[Result "1-0"]\n\n1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Qc7 5.Nc3 e6 6.g3 a6 7.Bg2 Nf6 8.O-O Nxd4 9.Qxd4 Bc5 10.Bf4 d6 11.Qd2 h6 12.Rad1 e5 13.Be3 Bg4 14.Bxc5 dxc5 15.f3 Be6 16.f4 Rd8 17.Nd5 Bxd5 18.exd5 e4 19.Rfe1 Rxd5 20.Rxe4+ Kf8 21.Qxd5 Nxd5 22.Re8# 1-0'
+        pgn: '[Event "Candidates Quarterfinal"]\n[Site "Vancouver"]\n[Date "1971.05.25"]\n[White "Robert James Fischer"]\n[Black "Mark Taimanov"]\n[WhiteElo "2785"]\n[BlackElo "2620"]\n[Result "1-0"]\n\n1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Qc7 5.Nc3 e6 6.g3 a6 7.Bg2 Nf6 8.O-O Nxd4 9.Qxd4 Bc5 10.Bf4 d6 11.Qd2 h6 12.Rad1 e5 13.Be3 Bg4 14.Bxc5 dxc5 15.f3 Be6 16.f4 Rd8 17.Nd5 Bxd5 18.exd5 e4 19.Rfe1 Rxd5 20.Rxe4+ Kf8 21.Qxd5 Nxd5 22.Re8# 1-0'
     },
     'kasparov-portisch-83': {
         name: 'Kasparov vs Portisch, Niksic 1983 — Doble sacrificio de alfil',
-        pgn: '[Event "Niksic"]\n[Site "Niksic"]\n[Date "1983"]\n[White "Garry Kasparov"]\n[Black "Lajos Portisch"]\n[Result "1-0"]\n\n1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.Nc3 Bb7 5.a3 d5 6.cxd5 Nxd5 7.e3 Nxc3 8.bxc3 Be7 9.Bb5+ c6 10.Bd3 c5 11.O-O Nc6 12.Bb2 Rc8 13.Qe2 O-O 14.Rad1 Qc7 15.c4 cxd4 16.exd4 Na5 17.d5 exd5 18.cxd5 Bxd5 19.Bxh7+ Kxh7 20.Rxd5 Kg8 21.Bxg7 Kxg7 22.Ne5 Rfd8 23.Qg4+ Kf8 24.Qf5 f6 25.Nd7+ Rxd7 26.Rxd7 Qc5 27.Qh7 Rc7 28.Qh8+ Kf7 29.Rd3 Nc4 30.Rfd1 Ne5 31.Qh7+ Ke6 32.Qg8+ Kf5 33.g4+ Kf4 34.Rd4+ Kf3 35.Qb3+ 1-0'
+        pgn: '[Event "Niksic"]\n[Site "Niksic"]\n[Date "1983"]\n[White "Garry Kasparov"]\n[Black "Lajos Portisch"]\n[WhiteElo "2690"]\n[BlackElo "2630"]\n[Result "1-0"]\n\n1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.Nc3 Bb7 5.a3 d5 6.cxd5 Nxd5 7.e3 Nxc3 8.bxc3 Be7 9.Bb5+ c6 10.Bd3 c5 11.O-O Nc6 12.Bb2 Rc8 13.Qe2 O-O 14.Rad1 Qc7 15.c4 cxd4 16.exd4 Na5 17.d5 exd5 18.cxd5 Bxd5 19.Bxh7+ Kxh7 20.Rxd5 Kg8 21.Bxg7 Kxg7 22.Ne5 Rfd8 23.Qg4+ Kf8 24.Qf5 f6 25.Nd7+ Rxd7 26.Rxd7 Qc5 27.Qh7 Rc7 28.Qh8+ Kf7 29.Rd3 Nc4 30.Rfd1 Ne5 31.Qh7+ Ke6 32.Qg8+ Kf5 33.g4+ Kf4 34.Rd4+ Kf3 35.Qb3+ 1-0'
     },
     'bernstein-capablanca': {
         name: 'Bernstein vs Capablanca, Moscú 1914 — Obra maestra de Capa',
@@ -1839,15 +1841,15 @@ const FAMOUS_GAMES = {
     },
     'kasparov-karpov-90': {
         name: 'Kasparov vs Karpov, Mundial 1990 G20 — Serie decisiva',
-        pgn: '[Event "World Championship"]\n[Site "Lyon"]\n[Date "1990.12.17"]\n[White "Garry Kasparov"]\n[Black "Anatoly Karpov"]\n[Result "1-0"]\n\n1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Bb7 10.d4 Re8 11.Nbd2 Bf8 12.a4 h6 13.Bc2 exd4 14.cxd4 Nb4 15.Bb1 c5 16.d5 Nd7 17.Ra3 f5 18.Rae3 Nf6 19.Nh2 Kh8 20.b3 bxa4 21.bxa4 c4 22.Bb2 fxe4 23.Nxe4 Nfxd5 24.Rg3 Re6 25.Ng4 Qe8 26.Nxh6 c3 27.Nf5 cxb2 28.Qg4 Bc8 29.Qh4+ Rh6 30.Nxh6 gxh6 31.Kh2 Qe5 32.Ng5 Qf6 33.Re8 Bf5 34.Qxh6+ Qxh6 35.Nf7+ Kh7 36.Bxf5+ Qg6 37.Bxg6+ Kg7 38.Rxa8 Be7 39.Rb8 a5 40.Be4+ Kxf7 41.Bxd5+ 1-0'
+        pgn: '[Event "World Championship"]\n[Site "Lyon"]\n[Date "1990.12.17"]\n[White "Garry Kasparov"]\n[Black "Anatoly Karpov"]\n[WhiteElo "2800"]\n[BlackElo "2730"]\n[Result "1-0"]\n\n1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Bb7 10.d4 Re8 11.Nbd2 Bf8 12.a4 h6 13.Bc2 exd4 14.cxd4 Nb4 15.Bb1 c5 16.d5 Nd7 17.Ra3 f5 18.Rae3 Nf6 19.Nh2 Kh8 20.b3 bxa4 21.bxa4 c4 22.Bb2 fxe4 23.Nxe4 Nfxd5 24.Rg3 Re6 25.Ng4 Qe8 26.Nxh6 c3 27.Nf5 cxb2 28.Qg4 Bc8 29.Qh4+ Rh6 30.Nxh6 gxh6 31.Kh2 Qe5 32.Ng5 Qf6 33.Re8 Bf5 34.Qxh6+ Qxh6 35.Nf7+ Kh7 36.Bxf5+ Qg6 37.Bxg6+ Kg7 38.Rxa8 Be7 39.Rb8 a5 40.Be4+ Kxf7 41.Bxd5+ 1-0'
     },
     'carlsen-karjakin-16': {
         name: 'Carlsen vs Karjakin, Mundial 2016 Desempate G4 — Mate en 50',
-        pgn: '[Event "World Championship Tiebreak"]\n[Site "New York"]\n[Date "2016.11.30"]\n[White "Magnus Carlsen"]\n[Black "Sergey Karjakin"]\n[Result "1-0"]\n\n1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.f3 e5 6.Nb3 Be7 7.c4 a5 8.Be3 a4 9.Nc1 O-O 10.Nc3 Qa5 11.Qd2 Na6 12.Be2 Nc5 13.O-O Bd7 14.Rb1 Rfc8 15.b4 axb3 16.axb3 Qd8 17.Nd3 Ne6 18.Nb4 Bc6 19.Rfd1 h5 20.Bf1 h4 21.Qf2 Nd7 22.g3 Ra3 23.Bh3 Rca8 24.Nc2 R3a6 25.Nb4 Ra5 26.Nc2 b6 27.Rd2 Qc7 28.Rbd1 Bf8 29.gxh4 Nf4 30.Bxf4 exf4 31.Bxd7 Qxd7 32.Nb4 Ra3 33.Nxc6 Qxc6 34.Nb5 Rxb3 35.Nd4 Qxc4 36.Nxb3 Qxb3 37.Qe2 Be7 38.Kg2 Qe6 39.h5 Ra3 40.Rd3 Ra2 41.R3d2 Ra3 42.Rd3 Ra7 43.Rd5 Rc7 44.Qd2 Qf6 45.Rf5 Qh4 46.Rc1 Ra7 47.Qxf4 Ra2+ 48.Kh1 Qf2 49.Rc8+ Kh7 50.Qh6# 1-0'
+        pgn: '[Event "World Championship Tiebreak"]\n[Site "New York"]\n[Date "2016.11.30"]\n[White "Magnus Carlsen"]\n[Black "Sergey Karjakin"]\n[WhiteElo "2853"]\n[BlackElo "2772"]\n[Result "1-0"]\n\n1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.f3 e5 6.Nb3 Be7 7.c4 a5 8.Be3 a4 9.Nc1 O-O 10.Nc3 Qa5 11.Qd2 Na6 12.Be2 Nc5 13.O-O Bd7 14.Rb1 Rfc8 15.b4 axb3 16.axb3 Qd8 17.Nd3 Ne6 18.Nb4 Bc6 19.Rfd1 h5 20.Bf1 h4 21.Qf2 Nd7 22.g3 Ra3 23.Bh3 Rca8 24.Nc2 R3a6 25.Nb4 Ra5 26.Nc2 b6 27.Rd2 Qc7 28.Rbd1 Bf8 29.gxh4 Nf4 30.Bxf4 exf4 31.Bxd7 Qxd7 32.Nb4 Ra3 33.Nxc6 Qxc6 34.Nb5 Rxb3 35.Nd4 Qxc4 36.Nxb3 Qxb3 37.Qe2 Be7 38.Kg2 Qe6 39.h5 Ra3 40.Rd3 Ra2 41.R3d2 Ra3 42.Rd3 Ra7 43.Rd5 Rc7 44.Qd2 Qf6 45.Rf5 Qh4 46.Rc1 Ra7 47.Qxf4 Ra2+ 48.Kh1 Qf2 49.Rc8+ Kh7 50.Qh6# 1-0'
     },
     'tal-tringov-64': {
         name: 'Tal vs Tringov, Ámsterdam 1964 — Sacrificio brillante',
-        pgn: '[Event "Amsterdam Interzonal"]\n[Site "Amsterdam"]\n[Date "1964"]\n[White "Mikhail Tal"]\n[Black "Georgi Tringov"]\n[Result "1-0"]\n\n1.e4 g6 2.d4 Bg7 3.Nc3 d6 4.Nf3 c6 5.Bg5 Qb6 6.Qd2 Qxb2 7.Rb1 Qa3 8.Bc4 Qa5 9.O-O e6 10.Rfe1 a6 11.Bf4 e5 12.dxe5 dxe5 13.Qd6 Qxc3 14.Red1 Nd7 15.Bxf7+ Kxf7 16.Ng5+ Ke8 17.Qe6+ 1-0'
+        pgn: '[Event "Amsterdam Interzonal"]\n[Site "Amsterdam"]\n[Date "1964"]\n[White "Mikhail Tal"]\n[Black "Georgi Tringov"]\n[WhiteElo "2620"]\n[BlackElo "2490"]\n[Result "1-0"]\n\n1.e4 g6 2.d4 Bg7 3.Nc3 d6 4.Nf3 c6 5.Bg5 Qb6 6.Qd2 Qxb2 7.Rb1 Qa3 8.Bc4 Qa5 9.O-O e6 10.Rfe1 a6 11.Bf4 e5 12.dxe5 dxe5 13.Qd6 Qxc3 14.Red1 Nd7 15.Bxf7+ Kxf7 16.Ng5+ Ke8 17.Qe6+ 1-0'
     },
     /* REM - PGN con movimientos ilegales
     'tal-flesch-81': {
@@ -1861,11 +1863,11 @@ const FAMOUS_GAMES = {
     }, */
     'karpov-kasparov-87': {
         name: 'Kasparov vs Karpov, Mundial 1987 G24 — Kasparov retiene',
-        pgn: '[Event "World Championship"]\n[Site "Seville"]\n[Date "1987.12.18"]\n[White "Garry Kasparov"]\n[Black "Anatoly Karpov"]\n[Result "1-0"]\n\n1.c4 e6 2.Nf3 Nf6 3.g3 d5 4.b3 Be7 5.Bg2 O-O 6.O-O b6 7.Bb2 Bb7 8.e3 Nbd7 9.Nc3 Ne4 10.Ne2 a5 11.d3 Bf6 12.Qc2 Bxb2 13.Qxb2 Nd6 14.cxd5 Bxd5 15.d4 c5 16.Rfd1 Rc8 17.Nf4 Bxf3 18.Bxf3 Qe7 19.Rac1 Rfd8 20.dxc5 Nxc5 21.b4 axb4 22.Qxb4 Qa7 23.a3 Nf5 24.Rb1 Rxd1+ 25.Rxd1 Qc7 26.Nd3 h6 27.Rc1 Ne7 28.Qb5 Nf5 29.a4 Nd6 30.Qb1 Qa7 31.Ne5 Nxa4 32.Rxc8+ Nxc8 33.Qd1 Ne7 34.Qd8+ Kh7 35.Nxf7 Ng6 36.Qe8 Qe7 37.Qxa4 Qxf7 38.Be4 Kg8 39.Qb5 Nf8 40.Qxb6 Qf6 41.Qb5 Qe7 42.Kg2 g6 43.Qa5 Qg7 44.Qc5 Qf7 45.h4 h5 46.Qc6 Qe7 47.Bd3 Qf7 48.Qd6 Kg7 49.e4 Kg8 50.Bc4 Kg7 51.Qe5+ Kg8 52.Qd6 Kg7 53.Bb5 Kg8 54.Bc6 Qa7 55.Qb4 Qc7 56.Qb7 Qd8 57.e5 Qa5 58.Be8 Qc5 59.Qf7+ Kh8 60.Ba4 Qd5+ 61.Kh2 Qc5 62.Bb3 Qc8 63.Bd1 Qc5 64.Kg2 1-0'
+        pgn: '[Event "World Championship"]\n[Site "Seville"]\n[Date "1987.12.18"]\n[White "Garry Kasparov"]\n[Black "Anatoly Karpov"]\n[WhiteElo "2740"]\n[BlackElo "2700"]\n[Result "1-0"]\n\n1.c4 e6 2.Nf3 Nf6 3.g3 d5 4.b3 Be7 5.Bg2 O-O 6.O-O b6 7.Bb2 Bb7 8.e3 Nbd7 9.Nc3 Ne4 10.Ne2 a5 11.d3 Bf6 12.Qc2 Bxb2 13.Qxb2 Nd6 14.cxd5 Bxd5 15.d4 c5 16.Rfd1 Rc8 17.Nf4 Bxf3 18.Bxf3 Qe7 19.Rac1 Rfd8 20.dxc5 Nxc5 21.b4 axb4 22.Qxb4 Qa7 23.a3 Nf5 24.Rb1 Rxd1+ 25.Rxd1 Qc7 26.Nd3 h6 27.Rc1 Ne7 28.Qb5 Nf5 29.a4 Nd6 30.Qb1 Qa7 31.Ne5 Nxa4 32.Rxc8+ Nxc8 33.Qd1 Ne7 34.Qd8+ Kh7 35.Nxf7 Ng6 36.Qe8 Qe7 37.Qxa4 Qxf7 38.Be4 Kg8 39.Qb5 Nf8 40.Qxb6 Qf6 41.Qb5 Qe7 42.Kg2 g6 43.Qa5 Qg7 44.Qc5 Qf7 45.h4 h5 46.Qc6 Qe7 47.Bd3 Qf7 48.Qd6 Kg7 49.e4 Kg8 50.Bc4 Kg7 51.Qe5+ Kg8 52.Qd6 Kg7 53.Bb5 Kg8 54.Bc6 Qa7 55.Qb4 Qc7 56.Qb7 Qd8 57.e5 Qa5 58.Be8 Qc5 59.Qf7+ Kh8 60.Ba4 Qd5+ 61.Kh2 Qc5 62.Bb3 Qc8 63.Bd1 Qc5 64.Kg2 1-0'
     },
     'kasparov-kramnik-96': {
         name: 'Kasparov vs Kramnik, Dos Hermanas 1996 — Sacrificio posicional',
-        pgn: '[Event "Dos Hermanas"]\n[Site "Dos Hermanas"]\n[Date "1996"]\n[White "Garry Kasparov"]\n[Black "Vladimir Kramnik"]\n[Result "0-1"]\n\n1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 e6 5.e3 Nbd7 6.Bd3 dxc4 7.Bxc4 b5 8.Bd3 Bb7 9.O-O a6 10.e4 c5 11.d5 c4 12.Bc2 Qc7 13.Nd4 Nc5 14.b4 cxb3 15.axb3 b4 16.Na4 Ncxe4 17.Bxe4 Nxe4 18.dxe6 Bd6 19.exf7+ Qxf7 20.f3 Qh5 21.g3 O-O 22.fxe4 Qh3 23.Nf3 Bxg3 24.Nc5 Rxf3 25.Rxf3 Qxh2+ 26.Kf1 Bc6 27.Bg5 Bb5+ 28.Nd3 Re8 29.Ra2 Qh1+ 30.Ke2 Rxe4+ 31.Kd2 Qg2+ 32.Kc1 Qxa2 33.Rxg3 Qa1+ 34.Kc2 Qc3+ 35.Kb1 Rd4 0-1'
+        pgn: '[Event "Dos Hermanas"]\n[Site "Dos Hermanas"]\n[Date "1996"]\n[White "Garry Kasparov"]\n[Black "Vladimir Kramnik"]\n[WhiteElo "2785"]\n[BlackElo "2775"]\n[Result "0-1"]\n\n1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 e6 5.e3 Nbd7 6.Bd3 dxc4 7.Bxc4 b5 8.Bd3 Bb7 9.O-O a6 10.e4 c5 11.d5 c4 12.Bc2 Qc7 13.Nd4 Nc5 14.b4 cxb3 15.axb3 b4 16.Na4 Ncxe4 17.Bxe4 Nxe4 18.dxe6 Bd6 19.exf7+ Qxf7 20.f3 Qh5 21.g3 O-O 22.fxe4 Qh3 23.Nf3 Bxg3 24.Nc5 Rxf3 25.Rxf3 Qxh2+ 26.Kf1 Bc6 27.Bg5 Bb5+ 28.Nd3 Re8 29.Ra2 Qh1+ 30.Ke2 Rxe4+ 31.Kd2 Qg2+ 32.Kc1 Qxa2 33.Rxg3 Qa1+ 34.Kc2 Qc3+ 35.Kb1 Rd4 0-1'
     },
     /* REM - PGN con movimientos ilegales
     'anand-karpov-98': {
@@ -1874,7 +1876,7 @@ const FAMOUS_GAMES = {
     }, */
     'anand-topalov-05': {
         name: 'Anand vs Topalov, Sofía 2005 — Victoria brillante',
-        pgn: '[Event "M-Tel Masters"]\n[Site "Sofia"]\n[Date "2005.05.13"]\n[White "Viswanathan Anand"]\n[Black "Veselin Topalov"]\n[Result "1/2-1/2"]\n\n1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Be3 e6 7.f3 b5 8.g4 h6 9.Qd2 b4 10.Na4 Nbd7 11.O-O-O Ne5 12.b3 Bd7 13.Nb2 d5 14.Bf4 Nxf3 15.Nxf3 Nxe4 16.Qd4 f6 17.Bd3 Bc5 18.Bxe4 Bxd4 19.Bg6+ Kf8 20.Rxd4 a5 21.Re1 Be8 22.Nh4 e5 23.Rd2 a4 24.bxa4 Kg8 25.Bg3 d4 26.Rd3 h5 27.Bxe8 Qxe8 28.g5 Rc8 29.g6 Rh6 30.Rxd4 Rxg6 31.Nxg6 Qxg6 32.Rd2 Rc3 33.Red1 Kh7 34.Kb1 Qf5 35.Be1 Ra3 36.Rd6 Rh3 37.a5 Rxh2 38.Rc1 Qe4 39.a6 Qa8 40.Bxb4 h4 41.Bc5 h3 42.Nd3 Rd2 43.Rb6 h2 44.Nf2 Qd5 45.Be3 Re2 46.Rb3 f5 47.a7 Rxe3 48.Rxe3 Qb7+ 49.Rb3 Qxa7 50.Nh1 f4 51.c4 e4 52.c5 e3 53.c6 e2 54.c7 Qxc7 55.Rxc7 e1=Q+ 56.Rc1 Qe4+ 57.Ka1 Qd4+ 58.Kb1 Qe4+ 59.Ka1 Qd4+ 60.Kb1 Qe4+ 1/2-1/2'
+        pgn: '[Event "M-Tel Masters"]\n[Site "Sofia"]\n[Date "2005.05.13"]\n[White "Viswanathan Anand"]\n[Black "Veselin Topalov"]\n[WhiteElo "2788"]\n[BlackElo "2788"]\n[Result "1/2-1/2"]\n\n1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Be3 e6 7.f3 b5 8.g4 h6 9.Qd2 b4 10.Na4 Nbd7 11.O-O-O Ne5 12.b3 Bd7 13.Nb2 d5 14.Bf4 Nxf3 15.Nxf3 Nxe4 16.Qd4 f6 17.Bd3 Bc5 18.Bxe4 Bxd4 19.Bg6+ Kf8 20.Rxd4 a5 21.Re1 Be8 22.Nh4 e5 23.Rd2 a4 24.bxa4 Kg8 25.Bg3 d4 26.Rd3 h5 27.Bxe8 Qxe8 28.g5 Rc8 29.g6 Rh6 30.Rxd4 Rxg6 31.Nxg6 Qxg6 32.Rd2 Rc3 33.Red1 Kh7 34.Kb1 Qf5 35.Be1 Ra3 36.Rd6 Rh3 37.a5 Rxh2 38.Rc1 Qe4 39.a6 Qa8 40.Bxb4 h4 41.Bc5 h3 42.Nd3 Rd2 43.Rb6 h2 44.Nf2 Qd5 45.Be3 Re2 46.Rb3 f5 47.a7 Rxe3 48.Rxe3 Qb7+ 49.Rb3 Qxa7 50.Nh1 f4 51.c4 e4 52.c5 e3 53.c6 e2 54.c7 Qxc7 55.Rxc7 e1=Q+ 56.Rc1 Qe4+ 57.Ka1 Qd4+ 58.Kb1 Qe4+ 59.Ka1 Qd4+ 60.Kb1 Qe4+ 1/2-1/2'
     },
     'alekhine-nimzowitsch': {
         name: 'Alekhine vs Nimzowitsch, San Remo 1930 — Victoria aplastante',
@@ -1895,11 +1897,11 @@ const FAMOUS_GAMES = {
     },
     'keres-spassky-55': {
         name: 'Keres vs Spassky, Gotemburgo 1955 — Ataque de alfil',
-        pgn: '[Event "Gothenburg Interzonal"]\n[Site "Gothenburg"]\n[Date "1955.08.19"]\n[White "Paul Keres"]\n[Black "Boris Spassky"]\n[Result "1-0"]\n\n1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.e3 Bb7 5.Bd3 Be7 6.O-O O-O 7.b3 d5 8.Bb2 Nbd7 9.Nc3 c5 10.Qe2 dxc4 11.bxc4 Qc7 12.Rad1 Rad8 13.d5 a6 14.dxe6 fxe6 15.Ng5 Qc6 16.f4 h6 17.Nf3 Qc7 18.Nh4 Bd6 19.Bb1 Rfe8 20.Qf2 Nf8 21.Qg3 Nh5 22.Qh3 Nf6 23.Ng6 e5 24.Nd5 Bxd5 25.fxe5 Bxe5 26.Nxe5 Be6 27.Qg3 Rxd1 28.Rxd1 b5 29.Rf1 N6d7 30.Qxg7# 1-0'
+        pgn: '[Event "Gothenburg Interzonal"]\n[Site "Gothenburg"]\n[Date "1955.08.19"]\n[White "Paul Keres"]\n[Black "Boris Spassky"]\n[WhiteElo "2625"]\n[BlackElo "2545"]\n[Result "1-0"]\n\n1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.e3 Bb7 5.Bd3 Be7 6.O-O O-O 7.b3 d5 8.Bb2 Nbd7 9.Nc3 c5 10.Qe2 dxc4 11.bxc4 Qc7 12.Rad1 Rad8 13.d5 a6 14.dxe6 fxe6 15.Ng5 Qc6 16.f4 h6 17.Nf3 Qc7 18.Nh4 Bd6 19.Bb1 Rfe8 20.Qf2 Nf8 21.Qg3 Nh5 22.Qh3 Nf6 23.Ng6 e5 24.Nd5 Bxd5 25.fxe5 Bxe5 26.Nxe5 Be6 27.Qg3 Rxd1 28.Rxd1 b5 29.Rf1 N6d7 30.Qxg7# 1-0'
     },
     'spassky-tal-73': {
         name: 'Spassky vs Tal, Tallín 1973 — Duelo de genios',
-        pgn: '[Event "Tallinn"]\n[Site "Tallinn"]\n[Date "1973.03.10"]\n[White "Boris Spassky"]\n[Black "Mikhail Tal"]\n[Result "0-1"]\n\n1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Bg5 h6 5.Bh4 c5 6.d5 b5 7.dxe6 fxe6 8.cxb5 d5 9.e3 O-O 10.Nf3 Qa5 11.Bxf6 Rxf6 12.Qd2 a6 13.bxa6 Nc6 14.Be2 d4 15.exd4 Rxf3 16.Bxf3 cxd4 17.O-O dxc3 18.bxc3 Bxc3 19.Qd6 Rxa6 20.Bxc6 Bb4 21.Qb8 Rxc6 22.Rac1 Bc5 23.Rc2 Qa4 24.Qb3 Qf4 25.Qg3 Qf5 26.Rfc1 Bb7 27.Qf3 Qg5 28.Qb3 Rc7 29.g3 Bxf2+ 30.Kxf2 Qf6+ 31.Ke1 Qe5+ 32.Kf1 Ba6+ 33.Kg1 Qd4+ 34.Kg2 Qe4+ 35.Kg1 Bb7 36.h4 Qh1+ 37.Kf2 Rf7+ 38.Ke2 Qe4+ 0-1'
+        pgn: '[Event "Tallinn"]\n[Site "Tallinn"]\n[Date "1973.03.10"]\n[White "Boris Spassky"]\n[Black "Mikhail Tal"]\n[WhiteElo "2640"]\n[BlackElo "2620"]\n[Result "0-1"]\n\n1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Bg5 h6 5.Bh4 c5 6.d5 b5 7.dxe6 fxe6 8.cxb5 d5 9.e3 O-O 10.Nf3 Qa5 11.Bxf6 Rxf6 12.Qd2 a6 13.bxa6 Nc6 14.Be2 d4 15.exd4 Rxf3 16.Bxf3 cxd4 17.O-O dxc3 18.bxc3 Bxc3 19.Qd6 Rxa6 20.Bxc6 Bb4 21.Qb8 Rxc6 22.Rac1 Bc5 23.Rc2 Qa4 24.Qb3 Qf4 25.Qg3 Qf5 26.Rfc1 Bb7 27.Qf3 Qg5 28.Qb3 Rc7 29.g3 Bxf2+ 30.Kxf2 Qf6+ 31.Ke1 Qe5+ 32.Kf1 Ba6+ 33.Kg1 Qd4+ 34.Kg2 Qe4+ 35.Kg1 Bb7 36.h4 Qh1+ 37.Kf2 Rf7+ 38.Ke2 Qe4+ 0-1'
     },
     /* REM - PGN con movimientos ilegales
     'bronstein-ljubojevic-73': {
@@ -1908,7 +1910,7 @@ const FAMOUS_GAMES = {
     }, */
     'carlsen-nakamura-11': {
         name: 'Carlsen vs Nakamura, Londres 2011',
-        pgn: '[Event "London Chess Classic"]\n[Site "London"]\n[Date "2011.12.05"]\n[White "Magnus Carlsen"]\n[Black "Hikaru Nakamura"]\n[Result "1-0"]\n\n1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.d3 Bc5 5.c3 d6 6.Bb3 a6 7.Nbd2 Ba7 8.Nf1 h6 9.Ng3 O-O 10.O-O Be6 11.h3 Qd7 12.Be3 Ne7 13.Nh4 Ng6 14.Nhf5 Ne7 15.Nxe7+ Qxe7 16.Bxa7 Rxa7 17.f4 c5 18.Bc2 b5 19.Qd2 Rb7 20.a3 a5 21.Rf2 b4 22.axb4 axb4 23.Raf1 bxc3 24.bxc3 exf4 25.Rxf4 Nh7 26.d4 cxd4 27.cxd4 Qg5 28.Kh2 Nf6 29.Bd1 Rfb8 30.h4 Qg6 31.Rxf6 gxf6 32.Qf4 Rb2 33.Bh5 Qg7 34.Bf3 Ra8 35.d5 Bc8 36.Nh5 Qf8 37.Nxf6+ Kh8 38.Rc1 Kg7 39.e5 dxe5 40.Nh5+ Kh7 41.Be4+ 1-0'
+        pgn: '[Event "London Chess Classic"]\n[Site "London"]\n[Date "2011.12.05"]\n[White "Magnus Carlsen"]\n[Black "Hikaru Nakamura"]\n[WhiteElo "2826"]\n[BlackElo "2758"]\n[Result "1-0"]\n\n1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.d3 Bc5 5.c3 d6 6.Bb3 a6 7.Nbd2 Ba7 8.Nf1 h6 9.Ng3 O-O 10.O-O Be6 11.h3 Qd7 12.Be3 Ne7 13.Nh4 Ng6 14.Nhf5 Ne7 15.Nxe7+ Qxe7 16.Bxa7 Rxa7 17.f4 c5 18.Bc2 b5 19.Qd2 Rb7 20.a3 a5 21.Rf2 b4 22.axb4 axb4 23.Raf1 bxc3 24.bxc3 exf4 25.Rxf4 Nh7 26.d4 cxd4 27.cxd4 Qg5 28.Kh2 Nf6 29.Bd1 Rfb8 30.h4 Qg6 31.Rxf6 gxf6 32.Qf4 Rb2 33.Bh5 Qg7 34.Bf3 Ra8 35.d5 Bc8 36.Nh5 Qf8 37.Nxf6+ Kh8 38.Rc1 Kg7 39.e5 dxe5 40.Nh5+ Kh7 41.Be4+ 1-0'
     },
     /* REM - PGN con movimientos ilegales
     'fischer-reshevsky-61': {
@@ -1922,7 +1924,7 @@ const FAMOUS_GAMES = {
     }, */
     'anand-carlsen-14': {
         name: 'Carlsen vs Anand, Mundial 2014 G11 — Carlsen retiene la corona',
-        pgn: '[Event "World Championship"]\n[Site "Sochi"]\n[Date "2014.11.23"]\n[White "Magnus Carlsen"]\n[Black "Viswanathan Anand"]\n[Result "1-0"]\n\n1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.d4 Nd6 6.Bxc6 dxc6 7.dxe5 Nf5 8.Qxd8+ Kxd8 9.h3 Bd7 10.Nc3 h6 11.b3 Kc8 12.Bb2 c5 13.Rad1 b6 14.Rfe1 Be6 15.Nd5 g5 16.c4 Kb7 17.Kh2 a5 18.a4 Ne7 19.g4 Ng6 20.Kg3 Be7 21.Nd2 Rhd8 22.Ne4 Bf8 23.Nef6 b5 24.Bc3 bxa4 25.bxa4 Kc6 26.Kf3 Rdb8 27.Ke4 Rb4 28.Bxb4 cxb4 29.Nh5 Kb7 30.f4 gxf4 31.Nhxf4 Nxf4 32.Nxf4 Bxc4 33.Rd7 Ra6 34.Nd5 Rc6 35.Rxf7 Bc5 36.Rxc7+ Rxc7 37.Nxc7 Kc6 38.Nb5 Bxb5 39.axb5+ Kxb5 40.e6 b3 41.Kd3 Be7 42.h4 a4 43.g5 hxg5 44.hxg5 a3 45.Kc3 1-0'
+        pgn: '[Event "World Championship"]\n[Site "Sochi"]\n[Date "2014.11.23"]\n[White "Magnus Carlsen"]\n[Black "Viswanathan Anand"]\n[WhiteElo "2863"]\n[BlackElo "2792"]\n[Result "1-0"]\n\n1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.d4 Nd6 6.Bxc6 dxc6 7.dxe5 Nf5 8.Qxd8+ Kxd8 9.h3 Bd7 10.Nc3 h6 11.b3 Kc8 12.Bb2 c5 13.Rad1 b6 14.Rfe1 Be6 15.Nd5 g5 16.c4 Kb7 17.Kh2 a5 18.a4 Ne7 19.g4 Ng6 20.Kg3 Be7 21.Nd2 Rhd8 22.Ne4 Bf8 23.Nef6 b5 24.Bc3 bxa4 25.bxa4 Kc6 26.Kf3 Rdb8 27.Ke4 Rb4 28.Bxb4 cxb4 29.Nh5 Kb7 30.f4 gxf4 31.Nhxf4 Nxf4 32.Nxf4 Bxc4 33.Rd7 Ra6 34.Nd5 Rc6 35.Rxf7 Bc5 36.Rxc7+ Rxc7 37.Nxc7 Kc6 38.Nb5 Bxb5 39.axb5+ Kxb5 40.e6 b3 41.Kd3 Be7 42.h4 a4 43.g5 hxg5 44.hxg5 a3 45.Kc3 1-0'
     },
     'morphy-anderssen-58': {
         name: 'Morphy vs Anderssen, París 1858 G9',
@@ -1930,7 +1932,232 @@ const FAMOUS_GAMES = {
     },
     'nakamura-carlsen-16': {
         name: 'Nakamura vs Carlsen, Zúrich 2014 — Defensa tenaz',
-        pgn: '[Event "Zurich Chess Challenge"]\n[Site "Zurich"]\n[Date "2014.02.01"]\n[White "Hikaru Nakamura"]\n[Black "Magnus Carlsen"]\n[Result "0-1"]\n\n1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.f3 d5 5.a3 Be7 6.e4 dxe4 7.fxe4 e5 8.d5 Bc5 9.Bg5 O-O 10.Nf3 Bg4 11.h3 Bxf3 12.Qxf3 Nbd7 13.O-O-O Bd4 14.Ne2 c5 15.g4 a5 16.Kb1 Ra6 17.Ng3 g6 18.h4 a4 19.Rh2 Qa5 20.Bd2 Qc7 21.g5 Ne8 22.h5 Rb6 23.Bc1 Rb3 24.Qg4 Nb6 25.Be2 Nd6 26.Rdh1 Bxb2 27.Bxb2 Nbxc4 28.Bxc4 Nxc4 29.hxg6 Qb6 30.g7 Rd8 31.Qh4 Rxb2+ 32.Ka1 Rxh2 33.Rxh2 Qg6 34.Nf5 Re8 35.Qg4 Qb6 36.Qh3 Qg6 37.d6 Nxd6 38.Nxd6 Rd8 39.Nc4 Qxe4 40.Qh5 Rd3 41.Rh4 Qf5 42.Qe2 b5 43.Nd2 Qxg5 44.Qxd3 Qxh4 45.Ne4 Kxg7 46.Qf3 Qf4 47.Qg2+ Kf8 48.Kb2 h5 49.Nd2 h4 50.Kc2 b4 51.axb4 cxb4 52.Qa8+ Kg7 53.Qxa4 h3 54.Qb3 h2 55.Qd5 e4 56.Qh5 e3 57.Nf3 e2 58.Kb3 f6 59.Ne1 Qg3+ 60.Ka4 Qg1 61.Qxe2 Qa7+ 0-1'
+        pgn: '[Event "Zurich Chess Challenge"]\n[Site "Zurich"]\n[Date "2014.02.01"]\n[White "Hikaru Nakamura"]\n[Black "Magnus Carlsen"]\n[WhiteElo "2772"]\n[BlackElo "2881"]\n[Result "0-1"]\n\n1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.f3 d5 5.a3 Be7 6.e4 dxe4 7.fxe4 e5 8.d5 Bc5 9.Bg5 O-O 10.Nf3 Bg4 11.h3 Bxf3 12.Qxf3 Nbd7 13.O-O-O Bd4 14.Ne2 c5 15.g4 a5 16.Kb1 Ra6 17.Ng3 g6 18.h4 a4 19.Rh2 Qa5 20.Bd2 Qc7 21.g5 Ne8 22.h5 Rb6 23.Bc1 Rb3 24.Qg4 Nb6 25.Be2 Nd6 26.Rdh1 Bxb2 27.Bxb2 Nbxc4 28.Bxc4 Nxc4 29.hxg6 Qb6 30.g7 Rd8 31.Qh4 Rxb2+ 32.Ka1 Rxh2 33.Rxh2 Qg6 34.Nf5 Re8 35.Qg4 Qb6 36.Qh3 Qg6 37.d6 Nxd6 38.Nxd6 Rd8 39.Nc4 Qxe4 40.Qh5 Rd3 41.Rh4 Qf5 42.Qe2 b5 43.Nd2 Qxg5 44.Qxd3 Qxh4 45.Ne4 Kxg7 46.Qf3 Qf4 47.Qg2+ Kf8 48.Kb2 h5 49.Nd2 h4 50.Kc2 b4 51.axb4 cxb4 52.Qa8+ Kg7 53.Qxa4 h3 54.Qb3 h2 55.Qd5 e4 56.Qh5 e3 57.Nf3 e2 58.Kb3 f6 59.Ne1 Qg3+ 60.Ka4 Qg1 61.Qxe2 Qa7+ 0-1'
+    },
+    // ── FIDE Candidates 2026 Cyprus ─────────────────────────────────────
+    'cand26-caruana-nakamura-r1': {
+        name: 'Caruana, Fabiano vs Nakamura, Hikaru — Candidates 2026, R1 (1-0)',
+        pgn: '[Event "FIDE Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.03.29"]\n[Round "1.1"]\n[White "Caruana, Fabiano"]\n[Black "Nakamura, Hikaru"]\n[Result "1-0"]\n[WhiteElo "2795"]\n[BlackElo "2810"]\n\n1.Nf3 d5 2.c4 e6 3.g3 d4 4.Bg2 Nc6 5.O-O Bc5 6.e3 Nge7 7.Nxd4 Nxd4 8.b4 Bxb4 9.exd4 O-O 10.Qb3 Ba5 11.Nc3 Nf5 12.Ba3 Re8 13.d5 Nd4 14.Qa4 b6 15.Rae1 Bd7 16.Qd1 c5 17.Bb2 Rb8 18.a4 a6 19.dxe6 Bxe6 20.Nd5 Qd6 21.Bxd4 cxd4 22.Re4 Bxd5 23.Rxe8+ Rxe8 24.Bxd5 Bb4 25.h4 a5 26.d3 Qf6 27.Kg2 Qe5 28.Qf3 Qf6 29.Qg4 Bc5 30.h5 h6 31.Rh1 Qg5 32.Qd1 Qe7 33.Bc6 Rc8 34.Re1 Qc7 35.Bd5 Kf8 36.Qg4 Rd8 37.Qe4 Kg8 38.Qf5 Qd7 39.Qf3 Rf8 40.Re5 Bd6 41.Rf5 Qe7 42.Qg4 Be5 43.Rf3 Bf6 44.Rf4 Qd8 45.Be4 Re8 46.Rf5 Qd7 47.Qf4 Bg5 48.Qf3 Qc7 49.Rxf7 Qxf7 50.Bd5 Re6 51.Qg4 Kf8 52.Bxe6 Qe8 53.Bd7 Qa8+ 54.Kg1 Bf6 55.Qe6 Qd8 56.Bc6 Qe7 57.Qc8+ Qd8 58.Qb7 Be5 59.Bd5 Qc7 60.Qa8+ Ke7 61.Qg8 Kd6 62.Be4 Ke7 63.Bg6 Bf6 64.Qf7+ Kd6 65.Qd5+ Ke7 66.Bf5 Be5 67.f4 Bf6 68.Kg2 Qd6 69.Qb7+ Kf8 70.Kf3 Qe7 71.Qe4 Qxe4+ 72.dxe4 Be7 73.e5 Bb4 74.Bd3 Be1 75.g4 Ke7 76.Ke4 Bg3 77.f5 Kd7 78.Kd5 Bh4 79.f6 gxf6 80.e6+ Ke7 81.Kc6 Kxe6 82.Kxb6 Be1 83.c5 1-0'
+    },
+    'cand26-sindarov-esipenko-r1': {
+        name: 'Sindarov, Javokhir vs Esipenko, Andrey — Candidates 2026, R1 (1-0)',
+        pgn: '[Event "FIDE Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.03.29"]\n[Round "1.4"]\n[White "Sindarov, Javokhir"]\n[Black "Esipenko, Andrey"]\n[Result "1-0"]\n[WhiteElo "2745"]\n[BlackElo "2698"]\n\n1.d4 d5 2.c4 e6 3.Nf3 Nf6 4.Nc3 Be7 5.cxd5 exd5 6.Bf4 O-O 7.e3 c5 8.Bd3 Nc6 9.O-O c4 10.Bc2 Nh5 11.Be5 f6 12.Bg3 f5 13.Be5 Be6 14.b3 Qa5 15.Ne2 b5 16.Nf4 Nxf4 17.exf4 Qd8 18.Re1 Qd7 19.Re3 Rae8 20.h4 h6 21.g3 a6 22.Kg2 Bf7 23.Qd2 Bb4 24.Qe2 Bh5 25.a4 Ba5 26.axb5 axb5 27.Bd1 Bxf3+ 28.Qxf3 Bb6 29.Ra6 Nxd4 30.Qh5 Rxe5 31.Rxe5 Qc6 32.bxc4 bxc4 33.Ba4 Qc5 34.Qg6 Ba7 35.Re8 Rxe8 36.Qxe8+ Kh7 37.Qg6+ Kg8 38.Bd7 c3 39.Qe8+ Kh7 40.Qg6+ Kg8 41.Re6 1-0'
+    },
+    'cand26-zhu-tan-r1': {
+        name: 'Zhu, Jiner vs Tan, Zhongyi — Candidates 2026, R1 (1/2-1/2)',
+        pgn: '[Event "FIDE Women’s Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.03.29"]\n[Round "1.1"]\n[White "Zhu, Jiner"]\n[Black "Tan, Zhongyi"]\n[Result "1/2-1/2"]\n[WhiteElo "2578"]\n[BlackElo "2535"]\n\n1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.d3 Be7 5.O-O O-O 6.Nc3 d6 7.a4 Na5 8.Ba2 c5 9.Bg5 Nc6 10.Bxf6 Bxf6 11.Nd5 g6 12.c3 Bg7 13.Qd2 Bg4 14.Ng5 h6 15.f4 Kh8 16.Ne3 hxg5 17.f5 gxf5 18.exf5 Bh5 19.g4 e4 20.dxe4 Ne5 21.h3 Bg6 22.fxg6 fxg6 23.Kg2 Qd7 24.Nc4 Rf4 25.Rxf4 gxf4 26.Qxf4 Qxa4 27.Nxe5 dxe5 28.Qg5 Qxe4+ 29.Kg1 c4 30.Qh4+ Kg8 31.Re1 Qf4 32.Rf1 Qe3+ 33.Qf2 Qxf2+ 34.Rxf2 Rc8 35.Bb1 Bh6 36.Re2 Kf7 37.Rxe5 Rd8 38.Ba2 Rd1+ 39.Kf2 Rd2+ 40.Ke1 Rxb2 41.Bxc4+ Kf6 1/2-1/2'
+    },
+    'cand26-goryachkina-lagno-r1': {
+        name: 'Goryachkina, Aleksandra vs Lagno, Kateryna — Candidates 2026, R1 (1/2-1/2)',
+        pgn: '[Event "FIDE Women’s Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.03.29"]\n[Round "1.2"]\n[White "Goryachkina, Aleksandra"]\n[Black "Lagno, Kateryna"]\n[Result "1/2-1/2"]\n[WhiteElo "2534"]\n[BlackElo "2508"]\n\n1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.d3 b5 7.Bb3 O-O 8.Nc3 d6 9.a3 Bg4 10.Be3 Qd7 11.h3 Be6 12.Nd5 Bd8 13.Nxf6+ Bxf6 14.Bxe6 Qxe6 15.Rc1 d5 16.exd5 Qxd5 17.c4 bxc4 18.Rxc4 Rfd8 19.Qc2 Ne7 20.d4 Ng6 21.Rc5 Qe6 22.Re1 Qd6 23.dxe5 Nxe5 24.Nxe5 Bxe5 25.b4 Re8 26.Rd1 Qf6 27.Rcd5 h6 28.Bd4 Bxd4 29.R5xd4 Rad8 30.Rxd8 Rxd8 31.Re1 Qd6 32.Qc3 Kh7 33.Qc4 Rd7 34.Qe4+ Kg8 35.Qe8+ Kh7 36.Qe4+ Kg8 37.Qe5 Qd3 38.h4 Kh7 39.Qe8 h5 40.Qe5 Qd5 41.Qxd5 Rxd5 42.Rc1 a5 43.Rxc7 axb4 44.axb4 Rd1+ 45.Kh2 Rd4 46.g3 Rxb4 47.Rxf7 Kh6 48.Kg2 Rb3 49.Rd7 Ra3 50.Rd6+ Kh7 51.Kf1 Ra2 52.Ke1 g6 53.Rd7+ Kh6 54.Rf7 Rb2 55.Kf1 Ra2 56.Kg2 Ra3 57.Re7 Rb3 58.Re3 Rb2 59.Re7 Rb3 60.Rd7 Ra3 61.f3 Ra2+ 62.Kh3 Ra3 63.Rf7 Rb3 64.g4 hxg4+ 65.Kxg4 Rb5 66.Re7 Ra5 67.Re3 Rb5 68.Re4 Ra5 69.f4 Ra1 70.Re6 Rg1+ 71.Kh3 Rf1 72.Kg3 Kg7 73.Re5 1/2-1/2'
+    },
+    'cand26-wei-praggnanandhaa-r-r2': {
+        name: 'Wei, Yi vs Praggnanandhaa R — Candidates 2026, R2 (1/2-1/2)',
+        pgn: '[Event "FIDE Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.03.30"]\n[Round "2.1"]\n[White "Wei, Yi"]\n[Black "Praggnanandhaa R"]\n[Result "1/2-1/2"]\n[WhiteElo "2754"]\n[BlackElo "2741"]\n\n1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.e5 Nfd7 5.f4 c5 6.Nf3 Nc6 7.Be3 Be7 8.Qd2 a6 9.Bd3 O-O 10.O-O f6 11.exf6 Nxf6 12.Kh1 b6 13.Ne5 Qc7 14.Rae1 Bd6 15.Nxc6 Qxc6 16.Be2 Ra7 17.Bf3 Raf7 18.f5 c4 19.Bg5 Bb4 20.Qe2 Bxc3 21.fxe6 Re7 22.bxc3 Rxe6 23.Qd2 Ne4 24.Bxe4 Rxf1+ 25.Rxf1 Rxe4 26.Bf4 Re7 27.Be5 Qg6 28.Qf4 Rf7 29.Qxf7+ Qxf7 30.Rxf7 Kxf7 31.Kg1 Bf5 32.Kf2 Bxc2 33.Bc7 b5 34.a3 Ke6 35.Ke3 Kf5 36.h3 h5 37.g3 g5 38.Bd8 Bd3 39.h4 Kg4 40.Bxg5 Kxg3 41.Bd8 Be4 42.Be7 Kg2 43.Bd8 Kf1 44.Kd2 Kf2 45.Be7 Kf3 46.Bd8 1/2-1/2'
+    },
+    'cand26-esipenko-nakamura-r2': {
+        name: 'Esipenko, Andrey vs Nakamura, Hikaru — Candidates 2026, R2 (1/2-1/2)',
+        pgn: '[Event "FIDE Candidates Tournament 2026"]\n[Site "https://lichess.org/broadcast/fide-candidates-2026-open/round-2/FRTlzP2X/q1PvC2Uo"]\n[Date "2026.03.30"]\n[Round "2.4"]\n[White "Esipenko, Andrey"]\n[Black "Nakamura, Hikaru"]\n[Result "1/2-1/2"]\n[WhiteElo "2698"]\n[BlackElo "2810"]\n\n1.c4 e6 2.g3 d5 3.Bg2 Nf6 4.Nf3 c5 5.cxd5 Nxd5 6.O-O Be7 7.d4 cxd4 8.Nxd4 O-O 9.Qb3 Nc6 10.Nxc6 bxc6 11.e4 Nf6 12.h3 Ba6 13.Rd1 Qb6 14.Be3 Bc5 15.Bxc5 Qxc5 16.Qc3 Qb6 17.Nd2 c5 18.b3 Rad8 19.Nc4 Bxc4 20.Qxc4 e5 21.Rac1 Rxd1+ 22.Rxd1 a5 23.Rc1 Rc8 24.Qc3 Qc7 25.h4 h6 26.Rc2 g6 27.Qe3 Qd8 28.Rd2 Qb6 29.Bf1 Kg7 30.a4 Rc6 31.Rc2 c4 32.Qxb6 Rxb6 33.Bxc4 Nxe4 34.Re2 f5 35.f3 Nd6 36.Rxe5 Nxc4 37.bxc4 Rb4 38.Rxa5 Rxc4 39.Ra7+ Kf6 40.a5 Rc3 41.Kf2 Rc2+ 42.Ke3 Rc3+ 43.Ke2 Rc2+ 44.Kd3 Rg2 45.Ra6+ Kf7 46.Kd4 Rxg3 47.Ke5 Rxf3 48.Ra7+ Ke8 49.a6 Ra3 50.Ke6 Kd8 51.Kf6 1/2-1/2'
+    },
+    'cand26-lagno-zhu-r2': {
+        name: 'Lagno, Kateryna vs Zhu, Jiner — Candidates 2026, R2 (1/2-1/2)',
+        pgn: '[Event "FIDE Women’s Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.03.30"]\n[Round "2.1"]\n[White "Lagno, Kateryna"]\n[Black "Zhu, Jiner"]\n[Result "1/2-1/2"]\n[WhiteElo "2508"]\n[BlackElo "2578"]\n\n1.e4 e6 2.d4 d5 3.Nd2 c5 4.Ngf3 cxd4 5.exd5 Qxd5 6.Bc4 Qd6 7.Ne4 Qb4+ 8.Nfd2 Nf6 9.Nxf6+ gxf6 10.O-O Nc6 11.Re1 Bd7 12.c3 Qb6 13.cxd4 Qxd4 14.Ne4 Be7 15.Qe2 f5 16.Nc3 Qg4 17.f3 Qg7 18.Bf4 Nd4 19.Qf2 Nxf3+ 20.Qxf3 Qd4+ 21.Kh1 Qxc4 22.Qg3 Bc6 23.Rad1 Bf6 24.h3 h5 25.h4 Rd8 26.Bg5 Bxg5 27.Qxg5 Rc8 28.Rd2 Qb4 29.Rxe6+ fxe6 30.Qg6+ Kf8 31.Qf6+ Kg8 32.Qg6+ Kf8 33.Qf6+ Kg8 34.Qg6+ Kf8 1/2-1/2'
+    },
+    'cand26-divya-deshmukh-vaishali-r2': {
+        name: 'Divya Deshmukh vs Vaishali, Rameshbabu — Candidates 2026, R2 (1/2-1/2)',
+        pgn: '[Event "FIDE Women’s Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.03.30"]\n[Round "2.3"]\n[White "Divya Deshmukh"]\n[Black "Vaishali, Rameshbabu"]\n[Result "1/2-1/2"]\n[WhiteElo "2497"]\n[BlackElo "2470"]\n\n1.c4 e6 2.Nc3 d5 3.d4 h6 4.cxd5 exd5 5.Bf4 c6 6.e3 Bd6 7.Bxd6 Qxd6 8.Bd3 Ne7 9.Qc2 O-O 10.Nf3 Nd7 11.O-O Nf6 12.h3 g6 13.Rab1 a5 14.Na4 Bf5 15.Nc5 Qc7 16.Rfc1 Nd7 17.Na4 Rfe8 18.Nc3 Qd6 19.Ne2 Qf6 20.Nf4 Bxd3 21.Nxd3 Nf5 22.b4 Nd6 23.a4 Qe7 24.bxa5 Rxa5 25.Rb4 Rea8 26.Rcb1 R8a7 27.Qb3 Qd8 28.Nfe5 Kg7 29.Qd1 Qe7 30.Qb3 Qd8 31.Qd1 Qe7 32.Nxd7 Qxd7 33.Nc5 Qc8 34.Qf3 Ne4 35.Rxb7 Rxb7 36.Rxb7 Ng5 37.Qg3 Rxc5 38.Qe5+ Kh7 39.Rb8 Rc1+ 40.Kh2 Qxh3+ 41.gxh3 Nf3+ 42.Kg2 Nxe5 43.dxe5 Ra1 44.Ra8 1/2-1/2'
+    },
+    'cand26-caruana-wei-r3': {
+        name: 'Caruana, Fabiano vs Wei, Yi — Candidates 2026, R3 (1-0)',
+        pgn: '[Event "FIDE Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.03.31"]\n[Round "3.2"]\n[White "Caruana, Fabiano"]\n[Black "Wei, Yi"]\n[Result "1-0"]\n[WhiteElo "2795"]\n[BlackElo "2754"]\n\n1.Nf3 Nf6 2.c4 c5 3.g3 g6 4.Nc3 d5 5.cxd5 Nxd5 6.Bg2 Bg7 7.Qa4+ Nc6 8.Ng5 Nb6 9.Bxc6+ bxc6 10.Qxc6+ Bd7 11.Qxc5 h6 12.Nf3 Rc8 13.Qa5 Bh3 14.Qb5+ Nd7 15.Rg1 O-O 16.g4 Rc5 17.Qb3 Ne5 18.Nxe5 Rxe5 19.Nd1 1-0'
+    },
+    'cand26-praggnanandhaa-r-sindarov-r3': {
+        name: 'Praggnanandhaa R vs Sindarov, Javokhir — Candidates 2026, R3 (0-1)',
+        pgn: '[Event "FIDE Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.03.31"]\n[Round "3.1"]\n[White "Praggnanandhaa R"]\n[Black "Sindarov, Javokhir"]\n[Result "0-1"]\n[WhiteElo "2741"]\n[BlackElo "2745"]\n\n1.d4 d5 2.c4 e6 3.Nc3 Be7 4.Nf3 Nf6 5.Bf4 O-O 6.e3 c5 7.dxc5 Bxc5 8.a3 Nc6 9.Qc2 Re8 10.Bg5 d4 11.Bxf6 Qxf6 12.Ne4 Qf5 13.b4 Nxb4 14.axb4 Bxb4+ 15.Kd1 dxe3 16.Bd3 Qg6 17.fxe3 f5 18.Ng3 Bc5 19.Qc3 e5 20.Bc2 e4 21.Nd2 Rd8 22.Kc1 Qg5 23.Re1 Qe7 24.Re2 Bb4 25.Qb2 a5 26.Nb3 Ra6 27.Nd4 Qg5 28.Kb1 h5 29.Ka2 h4 30.Nf1 Bd7 31.Rd1 Rc8 32.Nd2 Rb6 33.c5 Rxc5 34.Qb3+ Kh8 35.Qf7 Rxc2+ 36.Kb1 Rxd2 37.Rdxd2 Bxd2+ 38.Ka2 Bxe3 39.Qxd7 Bxd4 40.Qxd4 Qf6 0-1'
+    },
+    'cand26-zhu-assaubayeva-r3': {
+        name: 'Zhu, Jiner vs Assaubayeva, Bibisara — Candidates 2026, R3 (0-1)',
+        pgn: '[Event "FIDE Women’s Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.03.31"]\n[Round "3.3"]\n[White "Zhu, Jiner"]\n[Black "Assaubayeva, Bibisara"]\n[Result "0-1"]\n[WhiteElo "2578"]\n[BlackElo "2516"]\n\n1.e4 c5 2.Nf3 Nc6 3.Bb5 d6 4.O-O Bd7 5.Re1 Nf6 6.h3 a6 7.Bf1 Rg8 8.d3 h6 9.b4 cxb4 10.a3 b3 11.Nbd2 g5 12.d4 g4 13.hxg4 Bxg4 14.Bb2 d5 15.c4 dxe4 16.Nxe4 Nxe4 17.Rxe4 Bf5 18.Re3 Bc2 19.Qc1 Rc8 20.d5 Na5 21.Nd2 Rg4 22.Be5 h5 23.Qb2 Bh6 24.Rae1 Bxe3 25.Rxe3 Nxc4 26.Nxc4 Rcxc4 27.Bxc4 Rxc4 28.d6 e6 29.Bh2 Qg5 30.Be5 Be4 31.f4 Rc1+ 32.Kh2 Qh4+ 33.Rh3 Rh1+ 34.Kxh1 Qxh3+ 35.Kg1 Qe3+ 36.Qf2 Qxf2+ 37.Kxf2 h4 38.g4 b5 39.Kg1 h3 40.Kh2 Bg2 41.Kg3 a5 42.Kh2 Kd7 43.Kg3 a4 0-1'
+    },
+    'cand26-tan-lagno-r3': {
+        name: 'Tan, Zhongyi vs Lagno, Kateryna — Candidates 2026, R3 (0-1)',
+        pgn: '[Event "FIDE Women’s Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.03.31"]\n[Round "3.4"]\n[White "Tan, Zhongyi"]\n[Black "Lagno, Kateryna"]\n[Result "0-1"]\n[WhiteElo "2535"]\n[BlackElo "2508"]\n\n1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 d6 5.d4 exd4 6.cxd4 Bb6 7.Nc3 Nf6 8.Qd3 O-O 9.Bg5 h6 10.Bh4 Nb4 11.Qd2 d5 12.exd5 Re8+ 13.Kf1 c6 14.dxc6 bxc6 15.Rd1 Ba6 16.Bxa6 Nxa6 17.g4 Nc7 18.Rg1 Ncd5 19.g5 Nh5 20.Rg4 Qd7 21.h3 Qf5 22.Qd3 Ne3+ 23.fxe3 Qxf3+ 24.Bf2 Qxh3+ 25.Rg2 hxg5 26.Kg1 Bc7 27.Ne4 f6 28.Rc1 Kh8 29.Nc5 Rad8 30.Qb3 Re7 31.Na6 Qf3 32.Nb4 Rd6 33.d5 cxd5 34.Nc6 Rf7 35.Nd4 Qe4 36.Rxc7 Rxc7 37.Qb8+ Kh7 38.Qxc7 Rb6 39.b3 Qb1+ 40.Kh2 f5 41.Qf7 Rf6 42.Qxd5 Nf4 43.exf4 Rh6+ 44.Kg3 Qd3+ 45.Qf3 g4 46.Rh2 gxf3 47.Rxh6+ gxh6 48.Nxf3 a6 49.Bd4 Qc2 50.b4 Qxa2 51.Bc3 Qb3 52.Be1 Kg6 53.Kg2 Kf7 54.Nh4 Qe3 0-1'
+    },
+    'cand26-sindarov-caruana-r4': {
+        name: 'Sindarov, Javokhir vs Caruana, Fabiano — Candidates 2026, R4 (1-0)',
+        pgn: '[Event "FIDE Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.01"]\n[Round "4.1"]\n[White "Sindarov, Javokhir"]\n[Black "Caruana, Fabiano"]\n[Result "1-0"]\n[WhiteElo "2745"]\n[BlackElo "2795"]\n\n1.d4 d5 2.c4 e6 3.Nf3 dxc4 4.e3 Nf6 5.Bxc4 c5 6.O-O Nc6 7.Qe2 a6 8.Nc3 b5 9.Bd3 Bb7 10.a4 b4 11.Ne4 Na5 12.Nxf6+ gxf6 13.dxc5 Nb3 14.c6 Bxc6 15.Nd4 Nxd4 16.exd4 Rg8 17.g3 f5 18.Bc4 Rg4 19.Be3 Bd5 20.Rac1 Be7 21.Bxa6 Kf8 22.Bb5 Bf6 23.Rfd1 Kg7 24.Bc6 Ra5 25.Bxd5 Rxd5 26.Rc5 Rd7 27.d5 exd5 28.Qf3 Bxb2 29.Rcxd5 Rxd5 30.Rxd5 Qe8 31.Rxf5 Rg6 32.h4 Bc3 33.h5 Ra6 34.Qg4+ Kh8 35.Bd4+ f6 36.Rc5 1-0'
+    },
+    'cand26-esipenko-giri-r4': {
+        name: 'Esipenko, Andrey vs Giri, Anish — Candidates 2026, R4 (0-1)',
+        pgn: '[Event "FIDE Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.01"]\n[Round "4.3"]\n[White "Esipenko, Andrey"]\n[Black "Giri, Anish"]\n[Result "0-1"]\n[WhiteElo "2698"]\n[BlackElo "2753"]\n\n1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Bg5 e6 7.Bd3 Be7 8.Qe2 Nxe4 9.Nxe4 Bxg5 10.Nf5 Be7 11.Nxg7+ Kd7 12.O-O Nc6 13.c4 Kc7 14.Nh5 Bd7 15.Rfd1 Rc8 16.b4 Nxb4 17.Rab1 Nxd3 18.Qxd3 Ba4 19.Rd2 Kb8 20.Rdb2 Bc6 21.c5 dxc5 22.Qxa6 Qd5 23.f3 Rc7 24.Nhg3 Rd8 25.Nf2 c4 26.Nge4 f5 27.Nc3 Qc5 28.Re2 Bf6 29.Na4 Bxa4 30.Qxa4 c3 31.Qc2 Bg5 32.Kf1 Qc4 33.Rd1 Rd2 34.Rxd2 cxd2 0-1'
+    },
+    'cand26-divya-deshmukh-zhu-r4': {
+        name: 'Divya Deshmukh vs Zhu, Jiner — Candidates 2026, R4 (0-1)',
+        pgn: '[Event "FIDE Women’s Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.01"]\n[Round "4.4"]\n[White "Divya Deshmukh"]\n[Black "Zhu, Jiner"]\n[Result "0-1"]\n[WhiteElo "2497"]\n[BlackElo "2578"]\n\n1.c4 e5 2.Nc3 Bb4 3.Nd5 a5 4.Nf3 d6 5.a3 Bc5 6.e3 Nf6 7.d4 Nxd5 8.cxd5 exd4 9.exd4 Bb6 10.Bg5 f6 11.Be3 O-O 12.h4 f5 13.g3 Qe8 14.Bd3 Nd7 15.O-O h6 16.Ne1 Nf6 17.Ng2 Nxd5 18.Bc4 Be6 19.Re1 Qf7 20.Bd2 c6 21.Qb3 Kh7 22.a4 Bxd4 23.Re2 Be5 24.Rae1 Nf4 25.gxf4 Bxc4 26.Qg3 Bf6 27.Re3 d5 28.Qh3 d4 29.Rg3 Qh5 30.b4 axb4 31.Bxb4 Rfe8 32.Rc1 Bd5 33.Ne1 Rxa4 34.Bd6 Kh8 35.Be5 Bxe5 36.fxe5 d3 0-1'
+    },
+    'cand26-muzychuk-lagno-r4': {
+        name: 'Muzychuk, Anna vs Lagno, Kateryna — Candidates 2026, R4 (1-0)',
+        pgn: '[Event "FIDE Women’s Candidates Tournament 20"]\n[Site "lichess.org"]\n[Date "2026.04.01"]\n[Round "4.1"]\n[White "Muzychuk, Anna"]\n[Black "Lagno, Kateryna"]\n[Result "1-0"]\n[WhiteElo "2522"]\n[BlackElo "2508"]\n\n1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Bxc6 dxc6 7.d3 Qd6 8.a4 Be6 9.Na3 h6 10.Nd2 O-O-O 11.Ndc4 Bxc4 12.Nxc4 Qe6 13.Qe2 Nd7 14.Bd2 b6 15.b4 Kb7 16.Rfb1 Ra8 17.Qe1 h5 18.b5 cxb5 19.axb5 a5 20.Bxa5 bxa5 21.Nxa5+ Kc8 22.Nc6 Rxa1 23.Rxa1 Nb6 24.Qe3 Bd6 25.c4 Qh6 26.Qh3+ Qe6 27.Qe3 Qh6 28.d4 exd4 29.Qxd4 Kb7 30.c5 Ra8 31.cxd6 Qxd6 32.Rxa8 1-0'
+    },
+    'cand26-nakamura-sindarov-r5': {
+        name: 'Nakamura, Hikaru vs Sindarov, Javokhir — Candidates 2026, R5 (0-1)',
+        pgn: '[Event "FIDE Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.03"]\n[Round "5.1"]\n[White "Nakamura, Hikaru"]\n[Black "Sindarov, Javokhir"]\n[Result "0-1"]\n[WhiteElo "2810"]\n[BlackElo "2745"]\n\n1.d4 d5 2.c4 e6 3.Nc3 c6 4.e4 dxe4 5.Nxe4 Bb4+ 6.Bd2 Qxd4 7.Bxb4 Qxe4+ 8.Be2 Na6 9.Bd6 Qxg2 10.Bf3 Qg5 11.Ne2 Ne7 12.Ng3 O-O 13.h4 Qa5+ 14.b4 Nxb4 15.O-O Re8 16.Qd2 c5 17.Rad1 Nf5 18.Nxf5 exf5 19.Qf4 Nc6 20.Kh1 Nd4 21.Rg1 g6 22.Bd5 Be6 23.Bxb7 Ne2 24.Qd2 Qxd2 25.Rxd2 Nxg1 26.Bxa8 Rxa8 27.Kxg1 Rd8 28.Bf4 Rxd2 29.Bxd2 Bxc4 30.Be3 Bxa2 31.Bxc5 a5 32.f4 f6 33.Kf2 Kf7 34.Ba3 Ke6 35.Bf8 a4 36.Ke3 Kf7 37.Bb4 h6 38.Kf2 g5 39.Kg3 Bd5 40.Ba3 Be4 41.Bc1 gxh4+ 0-1'
+    },
+    'cand26-caruana-bluebaum-r5': {
+        name: 'Caruana, Fabiano vs Bluebaum, Matthias — Candidates 2026, R5 (1-0)',
+        pgn: '[Event "FIDE Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.03"]\n[Round "5.2"]\n[White "Caruana, Fabiano"]\n[Black "Bluebaum, Matthias"]\n[Result "1-0"]\n[WhiteElo "2795"]\n[BlackElo "2698"]\n\n1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nc4 Nxe4 5.Nc3 Nxc3 6.dxc3 d5 7.Ne3 c6 8.Bd2 g6 9.f4 Bg7 10.Qf3 Nd7 11.O-O-O Nc5 12.f5 O-O 13.g4 Ne4 14.Bd3 Re8 15.Bxe4 Rxe4 16.h4 Be5 17.c4 Qb6 18.c3 Qa5 19.h5 g5 20.cxd5 Rf4 21.Qe2 cxd5 22.Kb1 Ra4 23.c4 Qa6 24.Nxd5 f6 25.Bc3 Qxc4 26.Nxf6+ Bxf6 27.Qe8+ Kg7 28.h6# 1-0'
+    },
+    'cand26-lagno-assaubayeva-r5': {
+        name: 'Lagno, Kateryna vs Assaubayeva, Bibisara — Candidates 2026, R5 (1-0)',
+        pgn: '[Event "FIDE Women’s Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.03"]\n[Round "5.1"]\n[White "Lagno, Kateryna"]\n[Black "Assaubayeva, Bibisara"]\n[Result "1-0"]\n[WhiteElo "2508"]\n[BlackElo "2516"]\n\n1.e4 c5 2.Nf3 Nc6 3.Nc3 g6 4.d4 cxd4 5.Nxd4 Bg7 6.Be3 Nf6 7.Nb3 O-O 8.Qd2 d6 9.f3 a5 10.a4 Nb4 11.O-O-O Bd7 12.Kb1 Rc8 13.h4 Nh5 14.Bd4 e5 15.Bf2 d5 16.exd5 Bf5 17.Na1 Nf6 18.g4 Rxc3 19.Qxc3 Nfxd5 20.Qd2 Be6 21.Nb3 Qf6 22.Be2 Rc8 23.c3 Nc6 24.Nc5 Nf4 25.Nxe6 Nxe2 26.Qxe2 Qxe6 27.Qe4 Qb3 28.Rd7 b5 29.axb5 Qxb5 30.Qd5 Qxd5 31.Rxd5 f5 32.gxf5 Ne7 33.Rd7 Nxf5 34.h5 a4 35.hxg6 hxg6 36.Rg1 a3 37.Rxg6 axb2 38.Kxb2 Kh7 39.Rf6 Nh6 40.Be3 1-0'
+    },
+    'cand26-zhu-vaishali-r5': {
+        name: 'Zhu, Jiner vs Vaishali, Rameshbabu — Candidates 2026, R5 (1-0)',
+        pgn: '[Event "FIDE Women’s Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.03"]\n[Round "5.3"]\n[White "Zhu, Jiner"]\n[Black "Vaishali, Rameshbabu"]\n[Result "1-0"]\n[WhiteElo "2578"]\n[BlackElo "2470"]\n\n1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.d3 h6 5.O-O d6 6.a4 g6 7.a5 Bg7 8.a6 b6 9.Bb5 Bd7 10.c4 O-O 11.Nc3 Nd4 12.Nxd4 exd4 13.Bxd7 Nxd7 14.Ne2 c6 15.f4 f5 16.Ng3 Nc5 17.b4 Ne6 18.Bd2 Qd7 19.h4 d5 20.cxd5 cxd5 21.e5 h5 22.Ne2 Qb5 23.Ra3 Rfc8 24.Qa1 Rc2 25.Rd1 Kf7 26.Nxd4 Nxd4 27.Qxd4 Ke6 28.Rc3 Rc8 29.Rxc8 Rxc8 30.Qe3 Bf8 31.Qg3 Qe8 32.b5 Be7 33.Rb1 Rc2 34.Be3 Rc3 35.Bd4 Rc2 36.Kh2 Bd8 37.Ra1 Qf7 38.Be3 Qe8 39.Kh3 Qf7 40.Bc1 Be7 41.Ba3 Bxa3 42.Rxa3 Rc8 43.Qg5 Kd7 44.d4 Rg8 45.Rc3 Re8 46.Kh2 Re6 47.Qg3 Kd8 48.Qe1 Qe7 49.Kh3 Qe8 50.Qc1 Qd7 51.Qc2 Re7 52.Qb3 Re6 53.Qb4 Ke8 54.Rc2 Qd8 55.Qc3 Kd7 56.Rc1 Qb8 57.Qb3 Qa8 58.Kg3 Ke8 59.Rc7 Re7 60.Rc6 Rd7 61.Qc2 Rd8 62.Rxg6 1-0'
+    },
+    'cand26-wei-sindarov-r6': {
+        name: 'Wei, Yi vs Sindarov, Javokhir — Candidates 2026, R6 (0-1)',
+        pgn: '[Event "FIDE Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.04"]\n[Round "6.1"]\n[White "Wei, Yi"]\n[Black "Sindarov, Javokhir"]\n[Result "0-1"]\n[WhiteElo "2754"]\n[BlackElo "2745"]\n\n1.e4 e5 2.Nc3 Nc6 3.Bc4 Nf6 4.d3 Na5 5.a3 Nxc4 6.dxc4 Bc5 7.Nf3 d6 8.Qd3 Be6 9.Bg5 a5 10.Nd5 c6 11.Nxf6+ gxf6 12.Bh4 Rg8 13.O-O a4 14.b4 axb3 15.cxb3 Bg4 16.b4 Bxf3 17.Qxf3 Bd4 18.Bxf6 Qd7 19.Rad1 Qe6 20.h3 Qxc4 21.Rd3 Qe6 22.Rfd1 Rg6 23.Bh4 Kf8 24.Qh5 Kg8 25.Kh1 c5 26.f4 exf4 27.Qf3 Re8 28.Bf2 Bxf2 29.Qxf2 Qxe4 30.Rxd6 Rxd6 31.Rxd6 Qe3 32.Qf3 c4 33.Qg4+ Kf8 34.Rd1 c3 35.Qg5 f3 36.Qxe3 Rxe3 0-1'
+    },
+    'cand26-nakamura-praggnanandhaa-r-r6': {
+        name: 'Nakamura, Hikaru vs Praggnanandhaa R — Candidates 2026, R6 (1/2-1/2)',
+        pgn: '[Event "FIDE Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.04"]\n[Round "6.4"]\n[White "Nakamura, Hikaru"]\n[Black "Praggnanandhaa R"]\n[Result "1/2-1/2"]\n[WhiteElo "2810"]\n[BlackElo "2741"]\n\n1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 b6 5.Ne2 c5 6.a3 Ba5 7.Bd2 O-O 8.d5 exd5 9.Nxd5 Nxd5 10.cxd5 Bxd2+ 11.Qxd2 Ba6 12.Ng3 Bxf1 13.Kxf1 d6 14.h4 Nd7 15.e4 Qf6 16.Re1 g6 17.h5 Ne5 18.Rh3 b5 19.Kg1 c4 20.Qh6 Ng4 21.Qd2 Ne5 22.Qh6 Ng4 23.Qd2 Ne5 1/2-1/2'
+    },
+    'cand26-zhu-muzychuk-r6': {
+        name: 'Zhu, Jiner vs Muzychuk, Anna — Candidates 2026, R6 (0-1)',
+        pgn: '[Event "FIDE Women’s Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.03.29"]\n[Round "6.1"]\n[White "Zhu, Jiner"]\n[Black "Muzychuk, Anna"]\n[Result "0-1"]\n[WhiteElo "2578"]\n[BlackElo "2522"]\n\n1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.d3 Nf6 5.Be3 Bxe3 6.fxe3 d6 7.Qd2 a6 8.Bb3 Be6 9.Nc3 Bxb3 10.axb3 d5 11.exd5 Nxd5 12.O-O O-O 13.Ne4 Qe7 14.Ng3 g6 15.e4 Nf6 16.Kh1 Nd7 17.Ne2 Rad8 18.Rf2 Nc5 19.Nc3 Nb4 20.Raf1 f6 21.h4 Ne6 22.Nh2 Nd4 23.Qd1 f5 24.g3 f4 25.gxf4 Rxf4 26.h5 Ndxc2 27.Rxc2 Rxf1+ 28.Nxf1 Nxc2 29.Qxc2 Qh4+ 30.Nh2 Rf8 31.Nd1 Qxh5 32.Ne3 c6 33.Qc4+ Kg7 34.Ng4 Qh3 35.Qc1 Qxd3 36.Qe1 Rf4 37.Nf2 Qg3 0-1'
+    },
+    'cand26-lagno-vaishali-r6': {
+        name: 'Lagno, Kateryna vs Vaishali, Rameshbabu — Candidates 2026, R6 (0-1)',
+        pgn: '[Event "FIDE Women’s Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.04"]\n[Round "6.2"]\n[White "Lagno, Kateryna"]\n[Black "Vaishali, Rameshbabu"]\n[Result "0-1"]\n[WhiteElo "2508"]\n[BlackElo "2470"]\n\n1.e4 e5 2.Bc4 Nf6 3.Nc3 Nc6 4.d3 Bb4 5.Nf3 h6 6.O-O Bxc3 7.bxc3 O-O 8.Re1 d6 9.h3 Na5 10.Bb3 c5 11.c4 Nh7 12.c3 f5 13.exf5 Bxf5 14.d4 e4 15.Nh2 b6 16.Qh5 Qf6 17.Be3 Rae8 18.Rad1 Be6 19.Qe2 Qf7 20.d5 Bc8 21.Ba4 Re7 22.Nf1 h5 23.Nd2 Qf6 24.Rc1 Qh4 25.Bc2 Bf5 26.Nb3 Nb7 27.Bd1 g6 28.a4 Re5 29.Qd2 Bxh3 30.Bh6 Rf7 31.Re3 Bg4 32.Bc2 Bf3 33.gxf3 exf3 34.Qd3 Rff5 35.Rxf3 Ng5 36.Bxg5 Rxg5+ 37.Rg3 Qh3 38.Qf1 Rxg3+ 39.fxg3 Qxg3+ 40.Qg2 Qe3+ 41.Kh2 Rg5 42.Qh3 Qf4+ 43.Kh1 Rg3 44.Qe6+ Kg7 45.Qe7+ Kh6 46.Be4 Rg5 47.Bg2 Qh4+ 48.Kg1 Rxg2+ 49.Kxg2 Qxe7 0-1'
+    },
+    'cand26-esipenko-wei-r7': {
+        name: 'Esipenko, Andrey vs Wei, Yi — Candidates 2026, R7 (0-1)',
+        pgn: '[Event "FIDE Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.05"]\n[Round "7.4"]\n[White "Esipenko, Andrey"]\n[Black "Wei, Yi"]\n[Result "0-1"]\n[WhiteElo "2698"]\n[BlackElo "2754"]\n\n1.e4 e5 2.Nf3 Nf6 3.d4 Nxe4 4.Qe2 d5 5.Nxe5 Be7 6.f3 Nd6 7.Nc3 Nf5 8.Qf2 O-O 9.Bf4 f6 10.Nd3 Nc6 11.Ne2 Nb4 12.Nxb4 Bxb4+ 13.c3 Bd6 14.Bd2 Qe8 15.Kd1 Qa4+ 16.Kc1 b5 17.Nf4 c5 18.Bd3 cxd4 19.Bc2 Qa6 20.cxd4 Bd7 21.Kb1 Rac8 22.Bd3 Rc4 23.Ne2 Ne7 24.g4 Rfc8 25.h4 b4 26.b3 Bb5 27.bxc4 Bxc4 28.Bc2 Bd3 29.Bc3 bxc3 30.Nc1 Rb8+ 0-1'
+    },
+    'cand26-sindarov-giri-r7': {
+        name: 'Sindarov, Javokhir vs Giri, Anish — Candidates 2026, R7 (1/2-1/2)',
+        pgn: '[Event "FIDE Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.05"]\n[Round "7.1"]\n[White "Sindarov, Javokhir"]\n[Black "Giri, Anish"]\n[Result "1/2-1/2"]\n[WhiteElo "2745"]\n[BlackElo "2753"]\n\n1.d4 Nf6 2.c4 e6 3.Nf3 d5 4.Nc3 Bb4 5.Bg5 h6 6.Bxf6 Qxf6 7.e3 O-O 8.Rc1 dxc4 9.Bxc4 c5 10.O-O cxd4 11.Ne4 Qe7 12.exd4 Rd8 13.Qe2 Nc6 14.Rfd1 Ba5 15.Bb5 Bd7 16.Nc5 Be8 17.d5 exd5 18.Qxe7 Nxe7 19.Nxb7 Rdb8 20.Nxa5 Rxb5 21.Nb3 a5 22.Rd2 a4 23.Nbd4 Rb7 24.h3 Rab8 25.b3 axb3 26.axb3 f6 27.g4 h5 28.Ne1 hxg4 29.hxg4 Ng6 30.f3 Ne5 31.Kf2 g5 32.Nd3 Bd7 33.Kg3 Nxd3 34.Rxd3 Rb6 35.Rd2 Kf7 36.Rc5 R8b7 37.Rh2 Rd6 38.Kf2 Kg7 39.Ra5 Rb4 40.Ke3 Rdb6 41.Rxd5 Be6 42.Rd8 Rxb3+ 43.Nxb3 Rxb3+ 44.Kf2 Rb2+ 45.Kg3 Rxh2 46.Kxh2 Kf7 47.Kg3 Ke7 48.Ra8 Kf7 49.Ra7+ Kf8 50.Kf2 Ke8 51.Ke3 Kf8 52.Kd4 Ke8 53.Kc5 Kf8 54.Rb7 Ba2 55.Rc7 Bb3 56.Kd6 Ba2 57.Rc2 Bb3 58.Rb2 Bc4 59.Rb4 Ba2 60.Rb5 Kf7 61.Rb7+ Kf8 62.Rb2 Bc4 63.Rf2 Bb3 64.Rf1 Bc4 65.Ra1 Bb3 66.Ra3 Bc4 67.Ra5 Kf7 68.Ra7+ Kf8 69.Kd7 Kf7 70.Rc7 Bb3 71.Rc5 Be6+ 72.Kc6 Bb3 73.Rf5 Be6 74.Kd6 Bb3 75.Rb5 Ba2 76.Rb4 Kf8 77.f4 gxf4 78.Rxf4 Kg7 79.Ke7 Kg6 80.Rxf6+ Kg5 81.Rf2 Bb3 82.Rg2 Bd1 83.Ke6 Bxg4+ 84.Ke5 Kh5 85.Rxg4 Kxg4 1/2-1/2'
+    },
+    'cand26-vaishali-tan-r7': {
+        name: 'Vaishali, Rameshbabu vs Tan, Zhongyi — Candidates 2026, R7 (1-0)',
+        pgn: '[Event "FIDE Women’s Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.05"]\n[Round "7.4"]\n[White "Vaishali, Rameshbabu"]\n[Black "Tan, Zhongyi"]\n[Result "1-0"]\n[WhiteElo "2470"]\n[BlackElo "2535"]\n\n1.e4 d6 2.d4 Nf6 3.Bd3 e5 4.c3 Nbd7 5.Bc2 b6 6.Ne2 Bb7 7.Nd2 g6 8.O-O Bg7 9.f4 O-O 10.Ng3 Ba6 11.Rf3 exd4 12.cxd4 c5 13.e5 Ne8 14.Be4 Rc8 15.Ra3 Nb8 16.Rxa6 Nxa6 17.Bb7 Rb8 18.Bxa6 b5 19.a4 Qa5 20.Bxb5 Rxb5 21.Nb3 Rxb3 22.Qxb3 cxd4 23.exd6 Qe1+ 24.Nf1 Nxd6 25.Qg3 Qe2 26.Qf2 d3 27.Be3 Ne4 28.Qxe2 dxe2 29.Ng3 Re8 30.Nxe4 Rxe4 31.Kf2 Bxb2 32.Re1 Rxa4 33.Rxe2 Bf6 34.Rc2 h5 35.Kf3 a5 36.Rc6 Kg7 37.Ra6 Ra1 38.Rxf6 Rf1+ 39.Ke2 Kxf6 40.Kxf1 Kf5 41.Ke2 Ke4 42.g3 a4 43.Bc5 h4 44.Be7 hxg3 45.hxg3 Kd4 46.Kf3 f5 47.Bf8 Kd3 48.Kg2 Ke3 49.Kh3 Kf2 50.Kh4 Kf3 51.Bd6 1-0'
+    },
+    'cand26-muzychuk-assaubayeva-r7': {
+        name: 'Muzychuk, Anna vs Assaubayeva, Bibisara — Candidates 2026, R7 (1/2-1/2)',
+        pgn: '[Event "FIDE Women’s Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.05"]\n[Round "7.1"]\n[White "Muzychuk, Anna"]\n[Black "Assaubayeva, Bibisara"]\n[Result "1/2-1/2"]\n[WhiteElo "2522"]\n[BlackElo "2516"]\n\n1.e4 c5 2.Nf3 Nc6 3.Bb5 Nf6 4.Bxc6 dxc6 5.d3 Bg4 6.h3 Bh5 7.g4 Bg6 8.Bf4 c4 9.Nc3 cxd3 10.Qxd3 Qxd3 11.cxd3 Nd7 12.Nh4 e5 13.Be3 Be7 14.Nf5 Bxf5 15.exf5 O-O-O 16.Ne4 Kb8 17.Ke2 Nf6 18.Nxf6 Bxf6 19.Rac1 Rd5 20.b3 Rhd8 21.Rhd1 h6 22.Rc4 R8d7 23.Rd2 Rd8 24.Rd1 R8d7 25.Rd2 Rd8 26.Rd1 R8d7 1/2-1/2'
+    },
+    'cand26-nakamura-caruana-r8': {
+        name: 'Nakamura, Hikaru vs Caruana, Fabiano — Candidates 2026, R8 (1-0)',
+        pgn: '[Event "FIDE Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.07"]\n[Round "8.2"]\n[White "Nakamura, Hikaru"]\n[Black "Caruana, Fabiano"]\n[Result "1-0"]\n[WhiteElo "2810"]\n[BlackElo "2795"]\n\n1.c4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e6 6.Bf4 d5 7.cxd5 Nxd5 8.Nxc6 bxc6 9.Bd2 Bb4 10.Qa4 a5 11.e4 Nxc3 12.bxc3 Be7 13.Be2 O-O 14.Bf4 Ba6 15.Bxa6 Rxa6 16.Rd1 Qb6 17.O-O Qb5 18.Qc2 Bc5 19.c4 Qb7 20.Be5 Qe7 21.Qd3 f6 22.Bd6 Bxd6 23.Qxd6 Qxd6 24.Rxd6 Rb8 25.Rxe6 Rb2 26.Re7 Rab6 27.Ra7 Rxa2 28.h3 h5 29.Rd1 Rbb2 30.Rd8+ Kh7 31.Rdd7 Rxf2 32.Rxg7+ Kh8 33.Rh7+ Kg8 34.Rag7+ Kf8 35.Rf7+ Kg8 36.Rhg7+ Kh8 37.Rg6 Rf4 38.Rfxf6 Rxf6 39.Rxf6 Kg7 40.Rxc6 Rc2 41.Rc5 Kg6 42.Rxa5 Rxc4 43.Re5 h4 44.Kf2 Rc2+ 45.Kf3 Rc3+ 46.Kg4 Rg3+ 47.Kxh4 Rxg2 48.Rf5 Rg1 49.Rf4 Ra1 50.Kg3 Rg1+ 51.Kf3 Rf1+ 52.Ke3 Re1+ 53.Kd4 Ra1 54.Rf5 Rh1 55.Rf3 Ra1 56.h4 Ra4+ 57.Ke5 Ra5+ 58.Kf4 Rh5 59.Kg4 Re5 60.Rf4 Kh6 61.Kf3 Kg6 62.Ke3 Ra5 63.Rg4+ Kf6 64.Rg5 Ra1 65.Rf5+ Kg6 66.h5+ Kh6 67.e5 1-0'
+    },
+    'cand26-giri-praggnanandhaa-r-r8': {
+        name: 'Giri, Anish vs Praggnanandhaa R — Candidates 2026, R8 (1-0)',
+        pgn: '[Event "FIDE Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.07"]\n[Round "8.3"]\n[White "Giri, Anish"]\n[Black "Praggnanandhaa R"]\n[Result "1-0"]\n[WhiteElo "2753"]\n[BlackElo "2741"]\n\n1.d4 Nf6 2.c4 e6 3.Nf3 d5 4.Nc3 dxc4 5.e4 b5 6.e5 Nd5 7.Nxb5 Nb6 8.Be2 Be7 9.O-O O-O 10.a4 Ba6 11.Na3 c5 12.a5 Nd5 13.Bxc4 Qxa5 14.Nc2 Qb6 15.Bxd5 exd5 16.Re1 Bb7 17.Bg5 Bxg5 18.Nxg5 h6 19.dxc5 Qxc5 20.Nf3 Nc6 21.Ncd4 Nxd4 22.Nxd4 Bc8 23.Qd2 Rb8 24.Rec1 Qb6 25.b3 Bd7 26.h3 Rfc8 27.Rd1 Rc5 28.Kh2 a5 29.f4 f6 30.Re1 Re8 31.Re2 fxe5 32.fxe5 Qc7 33.Rae1 a4 34.bxa4 Bxa4 35.Kh1 Qf7 36.e6 Qg6 37.Rf2 Rc4 38.Rf4 h5 39.Qf2 Bc2 40.e7 Be4 41.Rf8+ Kh7 42.Rxe8 Qxe8 43.Rxe4 dxe4 44.Qf5+ 1-0'
+    },
+    'cand26-muzychuk-divya-deshmukh-r8': {
+        name: 'Muzychuk, Anna vs Divya Deshmukh — Candidates 2026, R8 (0-1)',
+        pgn: '[Event "FIDE Women\'s Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.07"]\n[Round "8.1"]\n[White "Muzychuk, Anna"]\n[Black "Divya Deshmukh"]\n[Result "0-1"]\n[WhiteElo "2522"]\n[BlackElo "2497"]\n\n1.e4 c5 2.Nf3 g6 3.c4 Nc6 4.d4 cxd4 5.Nxd4 Nf6 6.Nc3 d6 7.Be2 Nxd4 8.Qxd4 Bg7 9.Be3 O-O 10.Qd3 Ng4 11.Bxg4 Bxg4 12.O-O Be6 13.Bd4 Bxd4 14.Qxd4 Qc7 15.b3 Qc5 16.Qd3 Rfc8 17.Rfe1 a6 18.a4 Rc7 19.Re3 Rac8 20.Rae1 Qe5 21.h3 b6 22.Nd5 Bxd5 23.exd5 Qf6 24.Rf3 Qg7 25.h4 f6 26.Qd4 Rb8 27.Rfe3 Rbb7 28.Re6 Qh6 29.g3 Qf8 30.h5 g5 31.Kg2 Qa8 32.Ra1 Qc8 33.Rae1 Qa8 34.f4 gxf4 35.Qxf4 b5 36.h6 Qf8 37.cxb5 axb5 38.a5 Rc5 39.Qg4+ Kh8 40.b4 Rc4 41.R6e4 Rxe4 42.Rxe4 Rc7 43.Qe2 Qxh6 44.Qxb5 Rc2+ 45.Re2 Qg6 46.Rxc2 Qxc2+ 47.Kf3 Qd1+ 48.Kf2 Qd2+ 49.Kf3 Qd1+ 50.Kf2 Qd2+ 51.Qe2 Qxb4 52.a6 Qb6+ 53.Kg2 Qa7 54.Qb5 Kg7 55.Qa4 h5 56.Qa2 Kf7 57.Qe2 Kf8 58.Kh3 Qg1 59.a7 Qxa7 60.Qxh5 Qe3 61.Qh8+ Kf7 62.Qh5+ Kg7 63.Qe8 Qe4 64.Kh2 Qe2+ 65.Kg1 Qe1+ 66.Kg2 Qd2+ 67.Kh3 Qe2 68.g4 Qf3+ 69.Kh2 Qe4 70.Kg3 Qe5+ 71.Kh3 f5 72.gxf5 Qxf5+ 73.Kg3 Qg5+ 74.Kf2 Kf6 75.Qh8+ Kf5 76.Qc8+ Kf6 77.Qh8+ Kg6 78.Qg8+ Kh6 79.Qh8+ Kg6 80.Qg8+ Kh5 81.Qf7+ Kh4 82.Qh7+ Kg4 83.Kf1 Qf5+ 0-1'
+    },
+    'cand26-lagno-goryachkina-r8': {
+        name: 'Lagno, Kateryna vs Goryachkina, Aleksandra — Candidates 2026, R8 (1-0)',
+        pgn: '[Event "FIDE Women\'s Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.07"]\n[Round "8.3"]\n[White "Lagno, Kateryna"]\n[Black "Goryachkina, Aleksandra"]\n[Result "1-0"]\n[WhiteElo "2508"]\n[BlackElo "2534"]\n\n1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nf6 5.Nxc6 bxc6 6.e5 Qe7 7.Qe2 Nd5 8.g3 g6 9.Bg2 Bg7 10.O-O O-O 11.Re1 Re8 12.c4 Ba6 13.Qc2 Qc5 14.Nd2 Nb6 15.b3 f5 16.Nf3 Rab8 17.Be3 Qf8 18.Rad1 Bb7 19.Qd2 c5 20.Qa5 Bxf3 21.Bxf3 Bxe5 22.Bxc5 d6 23.Ba3 c5 24.Qxa7 f4 25.Kg2 Qf6 26.Bc1 Rf8 27.Rf1 d5 28.cxd5 Ra8 29.Qb7 Rxa2 30.Rd2 Raa8 31.d6 Rab8 32.Qe7 Rbd8 33.Re2 Bxd6 34.Qxf6 Rxf6 35.Rd1 Rff8 36.Re6 Nc8 37.Bb2 Rf7 38.Bd5 Kf8 39.Bc4 Bc7 40.Rxd8+ Bxd8 41.Re5 Rc7 42.Re4 g5 43.Be5 Re7 44.gxf4 Bc7 45.Bd3 g4 46.Kg3 Na7 47.Kxg4 Nc6 48.Bf6 Rd7 49.Bc4 Bd8 50.Bg5 Rd6 51.Kh5 Bf6 52.Re6 Rxe6 53.Bxe6 Bg7 54.f5 Nd4 55.Bh6 Nf3 56.h3 Nd4 57.Bg5 Ke8 58.Bg8 Nxf5 59.Bxh7 Nd6 60.Bd3 Bd4 61.Be3 Nb7 62.Bxd4 cxd4 63.b4 Nd8 64.Kg5 Ke7 65.Kf5 Ne6 66.h4 1-0'
+    },
+    'cand26-caruana-giri-r9': {
+        name: 'Caruana, Fabiano vs Giri, Anish — Candidates 2026, R9 (0-1)',
+        pgn: '[Event "FIDE Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.08"]\n[Round "9.2"]\n[White "Caruana, Fabiano"]\n[Black "Giri, Anish"]\n[Result "0-1"]\n[WhiteElo "2795"]\n[BlackElo "2753"]\n\n1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d3 O-O 6.Nbd2 d6 7.c3 a5 8.h3 Be6 9.Bb5 Ba7 10.Re1 Ne7 11.d4 Ng6 12.Bd3 Nh5 13.Nf1 Nhf4 14.Ng3 Nxd3 15.Qxd3 a4 16.d5 Bd7 17.Bg5 f6 18.Be3 Bxe3 19.fxe3 b5 20.b4 axb3 21.axb3 Qb8 22.c4 Qb6 23.Nf5 Rfe8 24.N3h4 b4 25.Kh2 Ra3 26.Rab1 Ra2 27.Qd1 Nxh4 28.Nxh4 Rea8 29.Re2 Qa7 30.Rc1 Qb6 31.Nf3 h6 32.Ne1 Kh7 33.Rxa2 Rxa2 34.Nc2 Be8 35.Qd3 Bg6 36.Ra1 Rxa1 37.Nxa1 c5 38.Kg3 Qa7 39.Qb1 h5 40.Kf3 h4 41.Kg4 Qe7 42.Qd3 f5+ 43.exf5 Kh6 0-1'
+    },
+    'cand26-bluebaum-sindarov-r9': {
+        name: 'Bluebaum, Matthias vs Sindarov, Javokhir — Candidates 2026, R9 (1/2-1/2)',
+        pgn: '[Event "FIDE Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.08"]\n[Round "9.1"]\n[White "Bluebaum, Matthias"]\n[Black "Sindarov, Javokhir"]\n[Result "1/2-1/2"]\n[WhiteElo "2698"]\n[BlackElo "2745"]\n\n1.d4 d5 2.c4 e6 3.Nf3 Nf6 4.Nc3 Be7 5.Bf4 dxc4 6.e4 b5 7.Nxb5 Bb4+ 8.Bd2 Bxd2+ 9.Nxd2 O-O 10.Bxc4 a6 11.Nc3 Qxd4 12.Qe2 Bb7 13.O-O-O Qb6 14.f4 Nbd7 15.g4 Nc5 16.g5 Ne8 17.Bb3 Nd6 18.Bc2 a5 19.Nc4 Nxc4 20.Qxc4 Rfb8 21.Qd4 Bc6 22.b3 a4 23.Nxa4 Nxa4 24.bxa4 Bxa4 25.Qxb6 cxb6 26.Bb3 Bxb3 27.axb3 Ra2 28.Kb1 Rba8 29.f5 exf5 30.exf5 R2a5 31.Rhf1 g6 32.fxg6 hxg6 33.h4 Ra2 34.Rd8+ Rxd8 35.Kxa2 Rd4 36.Rh1 b5 37.Kb2 b4 38.Kc2 Kg7 39.Rh2 f5 40.gxf6+ Kxf6 41.Rh1 Kf7 42.Rh2 Kg8 43.h5 g5 44.h6 Rh4 45.Rg2 g4 46.Kd3 Kh7 47.Ke4 Kxh6 48.Kf5 Rh5+ 49.Kf4 Rh3 50.Kxg4 Rxb3 51.Kf4 Rc3 52.Rb2 b3 53.Ke4 Rc4+ 54.Kd3 Rb4 55.Kc3 Rb8 56.Rb1 b2 57.Kc2 Rc8+ 58.Kxb2 Rb8+ 59.Kc2 Rxb1 60.Kxb1 1/2-1/2'
+    },
+    'cand26-vaishali-divya-deshmukh-r9': {
+        name: 'Vaishali, Rameshbabu vs Divya Deshmukh — Candidates 2026, R9 (1-0)',
+        pgn: '[Event "FIDE Women\'s Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.08"]\n[Round "9.1"]\n[White "Vaishali, Rameshbabu"]\n[Black "Divya Deshmukh"]\n[Result "1-0"]\n[WhiteElo "2470"]\n[BlackElo "2497"]\n\n1.Nf3 d5 2.b3 Nf6 3.Bb2 e6 4.c4 Bd6 5.g3 O-O 6.Bg2 c6 7.O-O Nbd7 8.d4 a5 9.Nc3 Ne4 10.Nxe4 dxe4 11.Ne5 f5 12.f4 Nf6 13.e3 Qe8 14.h3 b5 15.Rf2 Ba6 16.Rc1 bxc4 17.bxc4 Nd7 18.Nxc6 Rc8 19.d5 Nc5 20.Qd4 Rf6 21.Rd2 Rg6 22.Kh2 Nd3 23.Rxd3 exd3 24.c5 Rxc6 25.dxc6 Bc7 26.Qd7 Qb8 27.Be5 Bxe5 28.Rb1 Qf8 29.fxe5 h5 30.Qd6 Qf7 31.Rb7 1-0'
+    },
+    'cand26-zhu-lagno-r9': {
+        name: 'Zhu, Jiner vs Lagno, Kateryna — Candidates 2026, R9 (1-0)',
+        pgn: '[Event "FIDE Women\'s Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.08"]\n[Round "9.2"]\n[White "Zhu, Jiner"]\n[Black "Lagno, Kateryna"]\n[Result "1-0"]\n[WhiteElo "2578"]\n[BlackElo "2508"]\n\n1.Nf3 d5 2.e3 Nf6 3.b3 c5 4.Bb2 e6 5.Be2 Nc6 6.O-O Bd6 7.d4 b6 8.c4 Bb7 9.cxd5 exd5 10.Nc3 O-O 11.Rc1 Re8 12.Nb5 Bf8 13.dxc5 bxc5 14.Bxf6 gxf6 15.Bd3 Ne5 16.Re1 Qd7 17.Nc3 Qg4 18.Nxe5 Qxd1 19.Rexd1 fxe5 20.e4 dxe4 21.Bxe4 Bxe4 22.Nxe4 Red8 23.Kf1 Rxd1+ 24.Rxd1 a5 25.Rd5 a4 26.Rxe5 axb3 27.axb3 Rb8 28.Rg5+ Kh8 29.Rg3 h6 30.Ke2 Rb4 31.Nd2 Bd6 32.Rd3 Be5 33.Nc4 Bg7 34.Nd6 Kg8 35.Rg3 Kh7 36.Nxf7 Rb6 37.f4 Re6+ 38.Re3 Rf6 39.Nd8 Rxf4 40.Re7 Rb4 41.Ne6 Kg6 42.Nxg7 Rxb3 43.Ne8 c4 44.Rg7+ Kf5 45.Nd6+ Kf6 46.Rc7 1-0'
+    },
+    'cand26-sindarov-praggnanandhaa-r-r10': {
+        name: 'Sindarov, Javokhir vs Praggnanandhaa R — Candidates 2026, R10 (1-0)',
+        pgn: '[Event "FIDE Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.09"]\n[Round "10.1"]\n[White "Sindarov, Javokhir"]\n[Black "Praggnanandhaa R"]\n[Result "1-0"]\n[WhiteElo "2745"]\n[BlackElo "2741"]\n\n1.d4 Nf6 2.c4 e6 3.Nf3 d5 4.Nc3 Nbd7 5.Bf4 Bb4 6.cxd5 exd5 7.e3 Ne4 8.Qc2 g5 9.Bg3 h5 10.Bd3 h4 11.Bxe4 dxe4 12.Qxe4+ Kf8 13.Be5 f6 14.Nxg5 Bxc3+ 15.bxc3 Nxe5 16.dxe5 fxg5 17.f4 h3 18.Rd1 Qe7 19.g3 gxf4 20.O-O Rh6 21.Rxf4+ Kg8 22.Rdf1 Bd7 23.Rf7 Qxf7 24.Rxf7 Kxf7 25.Qf4+ Kg7 26.Qg5+ Kh7 27.Qe7+ Kg8 28.Qxd7 Rf8 29.Qg4+ Kh8 30.a4 a5 31.Qg5 Rh7 32.e6 Re8 33.Qxa5 b6 34.Qe5+ Kg8 35.Qg5+ Rg7 36.Qf5 Rge7 37.Qg4+ Kf8 38.Qxh3 Rxe6 39.Kf2 R8e7 40.Qh8+ Kf7 41.g4 Re4 42.Qh5+ Kg7 43.Qg5+ Kf7 44.Kf3 Rxa4 45.h4 Ra5 46.Qh6 Rae5 47.Qh7+ Kf8 48.Qh8+ Kf7 49.e4 b5 50.h5 c5 51.h6 Rg5 52.Qd8 Rg8 53.Qd5+ 1-0'
+    },
+    'cand26-esipenko-bluebaum-r10': {
+        name: 'Esipenko, Andrey vs Bluebaum, Matthias — Candidates 2026, R10 (1/2-1/2)',
+        pgn: '[Event "FIDE Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.09"]\n[Round "10.3"]\n[White "Esipenko, Andrey"]\n[Black "Bluebaum, Matthias"]\n[Result "1/2-1/2"]\n[WhiteElo "2698"]\n[BlackElo "2698"]\n\n1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nc4 Nxe4 5.Qe2 Qe7 6.d4 Nc6 7.c3 d5 8.Ne3 Be6 9.Nd2 f5 10.Nxe4 fxe4 11.f3 exf3 12.Qxf3 O-O-O 13.Bd3 Qd7 14.O-O g6 15.Nc2 Bg7 16.Bg5 Rdf8 17.Qg3 Rxf1+ 18.Rxf1 Rf8 19.Qh4 Rxf1+ 20.Bxf1 Bf8 21.Ne3 Qf7 22.Qf2 Qxf2+ 23.Kxf2 Nd8 24.Bd3 Nf7 25.Bf4 Kd7 26.h4 c5 27.Nc2 c4 28.Be2 Be7 29.g3 g5 30.hxg5 Nxg5 31.Ke3 Bf5 32.Ne1 a6 33.Nf3 Nxf3 34.Bxf3 Ke6 35.a3 b5 36.Bc7 Bg5+ 37.Bf4 Be7 38.Bc7 Bg5+ 39.Bf4 Be7 40.Bc7 Bg5+ 1/2-1/2'
+    },
+    'cand26-muzychuk-vaishali-r10': {
+        name: 'Muzychuk, Anna vs Vaishali, Rameshbabu — Candidates 2026, R10 (1/2-1/2)',
+        pgn: '[Event "FIDE Women\'s Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.09"]\n[Round "10.1"]\n[White "Muzychuk, Anna"]\n[Black "Vaishali, Rameshbabu"]\n[Result "1/2-1/2"]\n[WhiteElo "2522"]\n[BlackElo "2470"]\n\n1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.d3 h6 5.O-O d6 6.Re1 g6 7.d4 Bg4 8.dxe5 Nxe5 9.Be2 Qd7 10.Nc3 Bg7 11.Be3 Bxf3 12.Bxf3 Nxf3+ 13.Qxf3 Ng4 14.Bd2 O-O 15.h3 Ne5 16.Qe2 Nc6 17.Nd5 f5 18.Qc4 Kh7 19.c3 Rae8 20.f4 fxe4 21.Rxe4 b5 22.Qe2 Rxe4 23.Qxe4 Re8 24.Qd3 Ne7 25.Nxe7 Rxe7 26.Re1 Rxe1+ 27.Bxe1 a6 28.b3 Qf5 29.Qxf5 gxf5 30.c4 bxc4 31.bxc4 h5 32.Kf2 Kg6 33.Kf3 Bd4 34.g4 hxg4+ 35.hxg4 fxg4+ 36.Kxg4 c6 37.f5+ Kf7 38.Kf4 d5 39.cxd5 cxd5 40.Ba5 Kf6 41.Bd8+ Kf7 42.Bc7 Kf6 1/2-1/2'
+    },
+    'cand26-assaubayeva-zhu-r10': {
+        name: 'Assaubayeva, Bibisara vs Zhu, Jiner — Candidates 2026, R10 (1-0)',
+        pgn: '[Event "FIDE Women\'s Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.09"]\n[Round "10.2"]\n[White "Assaubayeva, Bibisara"]\n[Black "Zhu, Jiner"]\n[Result "1-0"]\n[WhiteElo "2516"]\n[BlackElo "2578"]\n\n1.d4 Nf6 2.c4 e6 3.Nf3 d5 4.Nc3 c6 5.Bg5 h6 6.Bxf6 Qxf6 7.a3 dxc4 8.e3 g6 9.Bxc4 Bg7 10.O-O O-O 11.Ne5 c5 12.Ne4 Qe7 13.Qf3 cxd4 14.exd4 Nc6 15.Nxc6 bxc6 16.Rad1 Rd8 17.Qe3 a5 18.Nc5 Qd6 19.Ne4 Qe7 20.Nc5 Qd6 21.Ne4 Qb8 22.Rd2 Ba6 23.Rc1 Bxc4 24.Rxc4 Ra6 25.g3 Rb6 26.Qc3 Rd5 27.Nc5 h5 28.h4 e5 29.Qxa5 exd4 30.b4 Rb5 31.Qa4 Qe8 32.Qd1 Re5 33.Kg2 Re1 34.Qf3 Rb8 35.a4 Rd8 36.a5 Rd5 37.Nd3 Ra1 38.Re2 Qd7 39.Rec2 Ra3 40.Rxc6 Rc3 41.R6xc3 dxc3 42.Nc5 Qd8 43.a6 Rd1 44.Nb3 Rd3 45.Qe4 f5 46.Qb7 Rd7 47.Qc6 Rd6 48.Qc4+ Kh7 49.b5 Qa8+ 50.Kh2 Rd1 51.Qc6 Qa7 52.Ra2 f4 53.b6 Qe7 54.a7 fxg3+ 55.fxg3 Be5 56.Kg2 Rd3 57.a8=Q Rxg3+ 58.Kf1 Qf7+ 59.Rf2 Qxb3 60.Qd7+ 1-0'
+    },
+    'cand26-caruana-sindarov-r11': {
+        name: 'Caruana, Fabiano vs Sindarov, Javokhir — Candidates 2026, R11 (1/2-1/2)',
+        pgn: '[Event "FIDE Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.11"]\n[Round "11.1"]\n[White "Caruana, Fabiano"]\n[Black "Sindarov, Javokhir"]\n[Result "1/2-1/2"]\n[WhiteElo "2795"]\n[BlackElo "2745"]\n\n1.Nf3 d5 2.c4 e6 3.g3 Nf6 4.Bg2 Be7 5.O-O O-O 6.d4 dxc4 7.Ne5 Nc6 8.Bxc6 bxc6 9.Nxc6 Qe8 10.Nxe7+ Qxe7 11.Be3 Nd5 12.Qc1 Rb8 13.Nc3 Nxe3 14.Qxe3 Rxb2 15.Rab1 Rxb1 16.Rxb1 a6 17.f3 Bd7 18.Kf2 Bc6 19.d5 Bd7 20.Rb7 Qd6 21.Ne4 Qxd5 22.Rxc7 e5 23.Qc5 Be6 24.Qxd5 Bxd5 25.Nc3 Be6 26.Rc5 f6 27.Rc6 Kf7 28.Rxa6 Rb8 29.Ra7+ Kg6 30.Re7 Rb6 31.g4 h5 32.gxh5+ Kh6 33.Ke1 Bf5 34.Rc7 Be6 35.Kd2 Rd6+ 36.Kc2 Rd7 37.Rc6 Bf7 38.a4 Ra7 39.Kb2 Kxh5 40.Ka3 Rb7 41.Nb5 Kg5 42.Rc5 Kf4 43.a5 Ke3 44.a6 Rb6 45.a7 Ra6+ 46.Kb4 Be8 47.Rc7 Kxe2 48.Nc3+ Kxf3 49.Rxg7 e4 50.Re7 f5 51.Rxe8 Rxa7 52.Rf8 Rh7 53.Rxf5+ Kg2 54.Nxe4 Kxh2 55.Nf6 Rc7 56.Rc5 Rxc5 57.Kxc5 c3 58.Ng4+ 1/2-1/2'
+    },
+    'cand26-giri-esipenko-r11': {
+        name: 'Giri, Anish vs Esipenko, Andrey — Candidates 2026, R11 (1/2-1/2)',
+        pgn: '[Event "FIDE Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.11"]\n[Round "11.2"]\n[White "Giri, Anish"]\n[Black "Esipenko, Andrey"]\n[Result "1/2-1/2"]\n[WhiteElo "2753"]\n[BlackElo "2698"]\n\n1.d4 d5 2.c4 e6 3.Nc3 Be7 4.cxd5 exd5 5.Bf4 Nf6 6.e3 O-O 7.Nf3 c5 8.dxc5 Bxc5 9.Be2 Nc6 10.O-O Be6 11.Qa4 h6 12.Rfd1 Qb6 13.Qb5 a6 14.Qxb6 Bxb6 15.Na4 Ba7 16.Bd6 Rfc8 17.Bc5 Bxc5 18.Nxc5 Ne5 19.Rac1 Ned7 20.Nd3 Kf8 21.Nd4 Ke7 22.f3 Ne8 23.Kf2 Nd6 24.g4 g5 25.h4 Nc4 26.Rh1 Nce5 27.Nxe5 Nxe5 28.Rcd1 Rh8 29.Kg3 Nc6 30.Nxe6 fxe6 31.f4 Rag8 32.fxg5 hxg5 33.hxg5 Ne5 34.Rxh8 Rxh8 35.e4 dxe4 36.Rd4 Rg8 37.Rb4 b5 38.Rxe4 Rxg5 39.a4 Nf7 40.axb5 axb5 41.Rd4 Nd6 42.Kf2 Rc5 43.Ke3 1/2-1/2'
+    },
+    'cand26-goryachkina-vaishali-r11': {
+        name: 'Goryachkina, Aleksandra vs Vaishali, Rameshbabu — Candidates 2026, R11 (0-1)',
+        pgn: '[Event "FIDE Women’s Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.11"]\n[Round "11.1"]\n[White "Goryachkina, Aleksandra"]\n[Black "Vaishali, Rameshbabu"]\n[Result "0-1"]\n[WhiteElo "2534"]\n[BlackElo "2470"]\n\n1.d4 d5 2.Nf3 Nf6 3.c3 e6 4.Bf4 c5 5.e3 Qb6 6.Qb3 Bd7 7.Nbd2 Be7 8.Be2 O-O 9.O-O Rc8 10.Ne5 Be8 11.Bg5 Nc6 12.f4 Na5 13.Qxb6 axb6 14.f5 h6 15.Bh4 exf5 16.Rxf5 Nc6 17.a3 Bd8 18.Raf1 Nxe5 19.Rxe5 Bc6 20.Ref5 Rc7 21.h3 Rd7 22.Bg3 Bc7 23.Bxc7 Rxc7 24.Re5 Re8 25.Rff5 Rxe5 26.Rxe5 g6 27.dxc5 bxc5 28.c4 Kf8 29.cxd5 Bxd5 30.Bc4 Bc6 31.Rxc5 b6 32.Rxc6 Rxc6 33.Bb5 Rc2 34.Nc4 Nd5 35.b3 Rc3 36.Ba4 Nxe3 37.Nxb6 Rc2 38.Bb5 Rxg2+ 39.Kh1 Rb2 40.Nd7+ Ke7 41.Nc5 Kd6 42.Nb7+ Kd5 43.b4 Ke4 44.Nc5+ Kf3 45.Bd3 f5 0-1'
+    },
+    'cand26-zhu-divya-deshmukh-r11': {
+        name: 'Zhu, Jiner vs Divya Deshmukh — Candidates 2026, R11 (1/2-1/2)',
+        pgn: '[Event "FIDE Women’s Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.11"]\n[Round "11.3"]\n[White "Zhu, Jiner"]\n[Black "Divya Deshmukh"]\n[Result "1/2-1/2"]\n[WhiteElo "2578"]\n[BlackElo "2497"]\n\n1.e4 c5 2.Nf3 Nc6 3.Bb5 d6 4.O-O Bd7 5.Re1 a6 6.Bxc6 Bxc6 7.d4 cxd4 8.Nxd4 Rc8 9.c4 g6 10.b3 Nf6 11.Nxc6 Rxc6 12.Bb2 Bg7 13.Nc3 O-O 14.Nd5 e6 15.Nb4 Rc8 16.Qf3 Qe7 17.Rad1 Rfd8 18.h3 Ne8 19.Bxg7 Nxg7 20.Qc3 Qc7 21.a4 Qa5 22.Qd2 Ne8 23.Nc2 Qxd2 24.Rxd2 Kf8 25.Red1 Ke7 26.Ne3 h5 27.h4 Nf6 28.f3 Nd7 29.Kf2 Nc5 30.Rb1 Rc6 31.Ke2 Rcc8 32.a5 Nd7 33.Kd3 Ne5+ 34.Kc3 f5 35.exf5 gxf5 36.f4 Nc6 37.Re1 Kf7 38.Nc2 d5 39.cxd5 Rxd5 40.Rxd5 Ne7+ 41.Kb2 Nxd5 42.g3 Rd8 43.Ne3 Nb4 44.Kc3 Na2+ 45.Kb2 Nb4 46.Kc3 Na2+ 47.Kb2 Nb4 1/2-1/2'
+    },
+    'cand26-wei-giri-r12': {
+        name: 'Wei, Yi vs Giri, Anish — Candidates 2026, R12 (1/2-1/2)',
+        pgn: '[Event "FIDE Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.12"]\n[Round "12.2"]\n[White "Wei, Yi"]\n[Black "Giri, Anish"]\n[Result "1/2-1/2"]\n[WhiteElo "2754"]\n[BlackElo "2753"]\n\n1.e4 e5 2.Nc3 Nf6 3.Bc4 Bc5 4.d3 O-O 5.f4 exf4 6.Bxf4 c6 7.d4 Bb4 8.Ne2 Nxe4 9.O-O d5 10.Nxe4 dxc4 11.c3 Be7 12.N2g3 Na6 13.Qe2 Nc7 14.Qxc4 Nd5 15.Bd2 a5 16.Nf5 Bxf5 17.Rxf5 g6 18.Rf3 f5 19.Nc5 b5 20.Qf1 Bxc5 21.dxc5 a4 22.c4 bxc4 23.Qxc4 Re8 24.Re3 Rxe3 25.Bxe3 Rb8 26.Bh6 Qf6 27.Rd1 g5 28.Rxd5 cxd5 29.Qxd5+ Qf7 30.Qd2 f4 31.c6 Qa7+ 32.Kh1 Qc5 33.c7 Re8 34.h3 Qxc7 35.Bxg5 f3 36.gxf3 Qc4 37.Kg1 Qxa2 38.Kf2 Qe6 39.h4 Rb8 40.Bf4 Qb6+ 41.Kg3 Rd8 42.Qe2 Qc6 43.h5 Kf7 44.Qe5 Qd5 45.Qc7+ Rd7 46.Qc2 Qxh5 47.Qc4+ Kf8 48.Qb4+ Kg8 49.Qc4+ Rf7 50.Qc8+ Rf8 51.Qc4+ Qf7 52.Qxa4 Qg6+ 53.Kh2 h6 54.Qb3+ Kh7 55.Bg3 Rg8 56.Qb7+ Rg7 57.Qb8 Qc2+ 58.Kh3 Qf5+ 59.Kg2 Qc2+ 60.Kh3 Qd1 61.Qf4 Qh1+ 62.Bh2 Qf1+ 63.Kh4 Qe1+ 64.Bg3 Qh1+ 65.Bh2 Qb1 66.Bg3 Re7 67.b4 Qh1+ 68.Bh2 Qe1+ 69.Bg3 Qb1 70.Kh3 Qf1+ 71.Kh4 Qb5 72.Kh3 Qd5 73.Kg2 Re2+ 74.Bf2 Re7 75.Bg3 Qa2+ 76.Kh3 Qd5 77.Kg2 1/2-1/2'
+    },
+    'cand26-esipenko-praggnanandhaa-r-r12': {
+        name: 'Esipenko, Andrey vs Praggnanandhaa R — Candidates 2026, R12 (1/2-1/2)',
+        pgn: '[Event "FIDE Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.12"]\n[Round "12.4"]\n[White "Esipenko, Andrey"]\n[Black "Praggnanandhaa R"]\n[Result "1/2-1/2"]\n[WhiteElo "2698"]\n[BlackElo "2741"]\n\n1.c4 e6 2.g3 d5 3.Bg2 d4 4.Nf3 Nc6 5.O-O Nh6 6.e3 g6 7.b4 dxe3 8.Bb2 exf2+ 9.Rxf2 f6 10.b5 Na5 11.Qe2 a6 12.Ng5 Bc5 13.Ne4 Bxf2+ 14.Qxf2 Ng4 15.Nxf6+ Nxf6 16.Bxf6 Rf8 17.Bxd8 Rxf2 18.Kxf2 Kxd8 19.Na3 axb5 20.cxb5 Ra7 21.b6 cxb6 22.Nb5 Ra8 23.Nc3 Bd7 24.Rb1 Kc7 25.Rb4 Rf8+ 26.Ke3 Bc6 27.Be4 Kd6 28.Bd3 Kc5 29.a3 e5 30.Ne4+ Bxe4 31.Rxe4 Nc6 32.a4 Kd6 33.Rc4 Rd8 34.h4 Rf8 35.Rc1 Nb4 36.Be4 Ra8 37.Rf1 Rxa4 38.Rf7 Ra3+ 39.d3 Nc2+ 40.Kf3 Nb4 41.Rxh7 Nxd3 42.Kg2 Ra2+ 43.Kg1 Ra1+ 44.Kg2 Ra2+ 45.Kg1 Ra1+ 46.Kg2 Ra2+ 1/2-1/2'
+    },
+    'cand26-vaishali-zhu-r12': {
+        name: 'Vaishali, Rameshbabu vs Zhu, Jiner — Candidates 2026, R12 (0-1)',
+        pgn: '[Event "FIDE Women\'s Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.12"]\n[Round "12.1"]\n[White "Vaishali, Rameshbabu"]\n[Black "Zhu, Jiner"]\n[Result "0-1"]\n[WhiteElo "2470"]\n[BlackElo "2578"]\n\n1.e4 c6 2.d4 d5 3.e5 Bf5 4.Bd3 Bxd3 5.cxd3 e6 6.Nc3 Ne7 7.Nf3 h6 8.h4 Nd7 9.Ne2 b6 10.Bd2 c5 11.Rc1 Nc6 12.h5 Qc8 13.dxc5 bxc5 14.Qa4 Qb7 15.O-O Rb8 16.Rc2 a6 17.Qf4 Qb5 18.Nc1 Rg8 19.b3 g5 20.hxg6 Rxg6 21.d4 Be7 22.Be3 c4 23.bxc4 dxc4 24.Ne2 Nb4 25.Rb2 Qc6 26.Rfb1 Rb5 27.d5 Nxd5 28.Qe4 Qb7 29.Bd4 h5 30.Kh1 Rg4 31.Qh7 h4 32.Qh5 Rg6 33.Qh8+ Nf8 34.a4 Rb3 35.Rxb3 cxb3 36.Nc1 h3 37.Nxb3 hxg2+ 38.Kh2 g1=Q+ 39.Nxg1 Nc3 0-1'
+    },
+    'cand26-muzychuk-goryachkina-r12': {
+        name: 'Muzychuk, Anna vs Goryachkina, Aleksandra — Candidates 2026, R12 (1/2-1/2)',
+        pgn: '[Event "FIDE Women\'s Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.12"]\n[Round "12.2"]\n[White "Muzychuk, Anna"]\n[Black "Goryachkina, Aleksandra"]\n[Result "1/2-1/2"]\n[WhiteElo "2522"]\n[BlackElo "2534"]\n\n1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.d3 b5 7.Bb3 d6 8.Bd2 O-O 9.h3 h6 10.Re1 Rb8 11.a3 Re8 12.Nc3 Bf8 13.Nd5 Nxd5 14.Bxd5 Ne7 15.Bb3 Ng6 16.a4 Be6 17.Bxe6 Rxe6 18.axb5 axb5 19.Ra7 b4 20.d4 d5 21.dxe5 d4 22.Qe2 Nxe5 23.Nxe5 Rxe5 24.Qd3 b3 25.c3 dxc3 26.Qxd8 Rxd8 27.Bxc3 Rb5 28.Rxc7 Bb4 29.Bxb4 Rxb4 30.Re2 Rd1+ 31.Kh2 Rbd4 32.Rc3 R4d2 33.Rxd2 Rxd2 34.Rxb3 Rxf2 35.Kg3 Rc2 36.h4 Kf8 37.Rb7 Rc6 38.b4 Rg6+ 39.Kf3 Rf6+ 40.Ke3 Rg6 41.b5 Rxg2 42.b6 g5 43.Rc7 Rb2 44.b7 Kg7 45.e5 Kg6 46.h5+ Kf5 47.Kd4 Ke6 48.Kc5 Kxe5 49.Kc6 g4 50.Re7+ Kf6 51.Re8 Rxb7 52.Kxb7 Kg5 53.Kc6 Kxh5 54.Kd5 Kh4 55.Ke4 Kg3 56.Ra8 h5 57.Ra3+ Kh2 58.Kf4 f5 59.Ra2+ Kh3 60.Ra3+ Kh2 61.Ra2+ Kh3 62.Ra5 g3 63.Rxf5 Kg2 64.Ra5 h4 65.Ra2+ Kh3 66.Ra3 Kh2 67.Kg4 g2 68.Rh3+ Kg1 69.Kxh4 Kf2 70.Rh2 Kf3 71.Rxg2 Kxg2 1/2-1/2'
+    },
+    'cand26-giri-sindarov-r13': {
+        name: 'Giri, Anish vs Sindarov, Javokhir — Candidates 2026, R13 (1/2-1/2)',
+        pgn: '[Event "FIDE Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.14"]\n[Round "13.1"]\n[White "Giri, Anish"]\n[Black "Sindarov, Javokhir"]\n[Result "1/2-1/2"]\n[WhiteElo "2753"]\n[BlackElo "2745"]\n\n1.d4 d5 2.c4 e6 3.Nc3 Be7 4.cxd5 exd5 5.Bf4 Nf6 6.e3 O-O 7.Bd3 c5 8.Nge2 Nc6 9.O-O Bg4 10.dxc5 Bxc5 11.h3 Bxe2 12.Nxe2 d4 13.e4 Re8 14.Ng3 Nd7 15.a3 Nde5 16.Bxe5 Nxe5 17.f4 Nxd3 18.Qxd3 Qb6 19.e5 Qa6 20.Qxa6 bxa6 21.Ne4 Bb6 22.Nd6 Re6 23.Nc4 f6 24.Rad1 fxe5 25.fxe5 Rd8 26.Rf4 d3+ 27.Kf1 Bc7 28.Re4 Rd5 29.Kf2 Bxe5 30.Rxe5 Rexe5 31.Nxe5 Rxe5 32.Rxd3 Rb5 33.b3 Kf7 34.a4 Rb7 35.Ke2 Ke6 36.Re3+ Kd6 37.Kd2 a5 38.Rg3 g6 39.Kc3 Rc7+ 40.Kb2 Rc5 41.h4 Re5 42.Rg4 Kc6 43.Rc4+ Kd6 44.g4 Re2+ 45.Ka3 h6 46.Rd4+ Kc6 47.Rf4 Rh2 48.g5 hxg5 49.Rf6+ Kb7 50.hxg5 Rg2 51.Rxg6 a6 52.Rg8 Ka7 53.Rg7+ Kb6 54.g6 Kc6 55.Ra7 Kb6 56.Rg7 Kc6 57.Ra7 Kb6 58.Rg7 Kc6 1/2-1/2'
+    },
+    'cand26-wei-esipenko-r13': {
+        name: 'Wei, Yi vs Esipenko, Andrey — Candidates 2026, R13 (1-0)',
+        pgn: '[Event "FIDE Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.14"]\n[Round "13.4"]\n[White "Wei, Yi"]\n[Black "Esipenko, Andrey"]\n[Result "1-0"]\n[WhiteElo "2754"]\n[BlackElo "2698"]\n\n1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.c4 Be7 6.d4 d5 7.Bd3 Bb4+ 8.Kf1 c6 9.Qc2 O-O 10.a3 Ba5 11.Bf4 Nd7 12.Nc3 Bxc3 13.bxc3 Qa5 14.cxd5 cxd5 15.c4 b6 16.Nd2 f5 17.Kg1 Bb7 18.f3 Rac8 19.h4 Ndc5 20.dxc5 Qxc5+ 21.Kh2 Qf2 22.Kh3 Qd4 23.Bxe4 fxe4 24.Bg3 e3 25.Nb3 Qf6 26.c5 Ba6 27.Rac1 bxc5 28.Qd1 Bc4 29.Na5 Qe6+ 30.Kh2 Ba6 31.Nb3 Bc4 32.Na5 Ba6 33.Nb3 Bc4 34.Re1 Rfe8 35.Na5 Ba6 36.Nb3 Bc4 37.Na5 Ba6 38.Qa4 Red8 39.Nb3 Bc4 40.Na5 Ba6 41.Nb3 Bc4 42.Rc3 e2 43.Nc1 Qa6 44.Qc2 Re8 45.Nd3 Qf6 46.Rxe2 1-0'
+    },
+    'cand26-zhu-goryachkina-r13': {
+        name: 'Zhu, Jiner vs Goryachkina, Aleksandra — Candidates 2026, R13 (0-1)',
+        pgn: '[Event "FIDE Women\'s Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.14"]\n[Round "13.1"]\n[White "Zhu, Jiner"]\n[Black "Goryachkina, Aleksandra"]\n[Result "0-1"]\n[WhiteElo "2578"]\n[BlackElo "2534"]\n\n1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.d3 h6 5.c3 Bc5 6.b4 Be7 7.O-O O-O 8.Bb2 a6 9.a4 d5 10.exd5 Nxd5 11.b5 axb5 12.axb5 Rxa1 13.Bxa1 Na5 14.Bxd5 Qxd5 15.c4 Qd8 16.Bc3 b6 17.Bxa5 bxa5 18.Nxe5 Bd6 19.Nc6 Qh4 20.g3 Qf6 21.Nd2 Bb4 22.Ne4 Qb2 23.Qc1 Qe2 24.Qe3 Qb2 25.Qc1 Qe2 26.Qe3 Qb2 27.Rd1 f5 28.Nc5 Bxc5 29.Qxc5 Qe2 30.Ra1 Re8 31.d4 f4 32.Ne5 fxg3 33.hxg3 Rf8 34.Qd5+ Kh7 35.Qg2 Qb2 36.Rd1 a4 37.f3 Qb3 38.Rd3 Qb1+ 39.Qf1 Qb4 40.g4 Qb2 41.Qd1 Bb7 42.Rd2 Qb4 43.g5 Bc8 44.Qc2+ Bf5 45.g6+ Kg8 46.Qa2 Be6 47.Kf2 a3 48.Re2 Qe7 49.Re4 Qb4 50.Nc6 Qd6 51.Re5 Kh8 52.Ke3 Bd7 53.Re4 Bxc6 54.bxc6 Qg3 55.Qf2 Qxg6 56.d5 Qf6 57.Qe2 a2 0-1'
+    },
+    'cand26-assaubayeva-muzychuk-r13': {
+        name: 'Assaubayeva, Bibisara vs Muzychuk, Anna — Candidates 2026, R13 (1-0)',
+        pgn: '[Event "FIDE Women\'s Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.14"]\n[Round "13.3"]\n[White "Assaubayeva, Bibisara"]\n[Black "Muzychuk, Anna"]\n[Result "1-0"]\n[WhiteElo "2516"]\n[BlackElo "2522"]\n\n1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nf6 5.Nxc6 bxc6 6.Qe2 Qe7 7.Nc3 d5 8.exd5 Nxd5 9.Bd2 Bg4 10.f3 Qxe2+ 11.Bxe2 Be6 12.O-O-O Be7 13.Nxd5 cxd5 14.Bb5+ Bd7 15.Rhe1 Bxb5 16.Bb4 O-O-O 17.Rxe7 Rd7 18.Rxd7 Bxd7 19.Rxd5 h5 20.Bc3 f6 21.h4 Be6 22.Rc5 Kb7 23.a4 Bf7 24.b4 Rd8 25.b5 Rd5 26.Rc6 Rd6 27.Rxd6 cxd6 28.Kd2 Be6 29.Bb4 Kc7 30.Ke3 Bc4 31.Ba5+ Kd7 32.Bc3 a6 33.b6 Bf7 34.a5 Bg6 35.Kd2 Bf5 36.Bd4 Kc6 37.c3 Bc8 38.Ke3 Kd5 39.g4 g6 40.Bxf6 Bb7 41.Kf4 Ke6 42.Kg5 Kf7 43.gxh5 gxh5 44.f4 1-0'
+    },
+    'cand26-bluebaum-giri-r14': {
+        name: 'Bluebaum, Matthias vs Giri, Anish — Candidates 2026, R14 (0-1)',
+        pgn: '[Event "FIDE Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.15"]\n[Round "14.2"]\n[White "Bluebaum, Matthias"]\n[Black "Giri, Anish"]\n[Result "0-1"]\n[WhiteElo "2698"]\n[BlackElo "2753"]\n\n1.d4 Nf6 2.c4 e6 3.Nf3 d5 4.Nc3 Bb4 5.Qa4+ Nc6 6.e3 O-O 7.Bd2 dxc4 8.Bxc4 Bd6 9.Ng5 a6 10.Qc2 h6 11.h4 Re8 12.a3 b5 13.Ba2 Bb7 14.O-O-O b4 15.d5 Nd4 16.exd4 bxc3 17.dxe6 cxd2+ 18.Qxd2 fxe6 19.Nxe6 Qc8 20.Qa5 Bd5 21.Bxd5 Nxd5 22.Nxg7 Kxg7 23.Qxd5 Qe6 24.Qxe6 Rxe6 25.g3 Rf8 26.Rd2 Ref6 27.Rf1 Rf3 28.Kd1 Rxg3 0-1'
+    },
+    'cand26-esipenko-caruana-r14': {
+        name: 'Esipenko, Andrey vs Caruana, Fabiano — Candidates 2026, R14 (0-1)',
+        pgn: '[Event "FIDE Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.15"]\n[Round "14.3"]\n[White "Esipenko, Andrey"]\n[Black "Caruana, Fabiano"]\n[Result "0-1"]\n[WhiteElo "2698"]\n[BlackElo "2795"]\n\n1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Qd3 g6 7.Bg5 Bg7 8.O-O-O O-O 9.Be2 Nc6 10.Nb3 Be6 11.Qe3 Rc8 12.Kb1 Ne5 13.h3 Rxc3 14.bxc3 Qc7 15.f4 Ned7 16.Rd4 b5 17.g4 Nb6 18.f5 Bc4 19.Bxc4 Nxc4 20.Qe1 a5 21.Bc1 Nd7 22.h4 Rc8 23.fxg6 hxg6 24.h5 a4 25.hxg6 fxg6 26.e5 Ncxe5 27.Na1 Qc6 28.Rh3 Nf6 29.g5 Nd5 30.Bd2 Rf8 31.Rdh4 Rf3 32.Kc1 Qd7 33.Qh1 Qf5 34.Rh8+ Bxh8 35.Rxh8+ Kf7 36.Qh7+ Ke6 37.Qg8+ Qf7 38.Qc8+ Nd7 39.Rh2 Rf1+ 40.Kb2 Nb6 0-1'
+    },
+    'cand26-vaishali-lagno-r14': {
+        name: 'Vaishali, Rameshbabu vs Lagno, Kateryna — Candidates 2026, R14 (1-0)',
+        pgn: '[Event "FIDE Women\'s Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.15"]\n[Round "14.1"]\n[White "Vaishali, Rameshbabu"]\n[Black "Lagno, Kateryna"]\n[Result "1-0"]\n[WhiteElo "2470"]\n[BlackElo "2508"]\n\n1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6 6.Be3 Bg7 7.f3 O-O 8.Qd2 Nc6 9.O-O-O d5 10.Nxc6 bxc6 11.Bc4 Be6 12.exd5 cxd5 13.Nxd5 Nxd5 14.Bxd5 Rb8 15.Bb3 Qc8 16.Kb1 Bxb3 17.axb3 a5 18.Bd4 e5 19.Bc3 a4 20.bxa4 Qc4 21.b3 Qxa4 22.Rhe1 Rb5 23.Re4 Qa7 24.Qe3 Qc7 25.Qd3 Qb6 26.Bb2 Ra5 27.Bc3 Ra6 28.Qe3 Qc6 29.Rc4 Qe6 30.Qe4 Rfa8 31.Rc5 h5 32.g4 hxg4 33.fxg4 Kh7 34.Rcd5 Qc6 35.Bb2 Ra2 36.g5 Qb6 37.Qh4+ Kg8 38.Qe4 R8a4 39.Rd8+ Kh7 40.c4 Rxc4 41.Qxc4 Rxb2+ 42.Kxb2 e4+ 43.Kb1 Qf2 44.R8d2 Qf5 45.Qd5 Qf3 46.Rc2 Qf4 47.Re1 e3 48.Qg2 1-0'
+    },
+    'cand26-divya-deshmukh-assaubayeva-r14': {
+        name: 'Divya Deshmukh vs Assaubayeva, Bibisara — Candidates 2026, R14 (1/2-1/2)',
+        pgn: '[Event "FIDE Women\'s Candidates Tournament 2026"]\n[Site "lichess.org"]\n[Date "2026.04.15"]\n[Round "14.2"]\n[White "Divya Deshmukh"]\n[Black "Assaubayeva, Bibisara"]\n[Result "1/2-1/2"]\n[WhiteElo "2497"]\n[BlackElo "2516"]\n\n1.d4 Nf6 2.g3 c5 3.d5 d6 4.Bg2 g6 5.a4 Bg7 6.e4 O-O 7.Ne2 Nbd7 8.O-O Rb8 9.c4 a6 10.Nec3 Qc7 11.h3 e6 12.dxe6 fxe6 13.Bf4 Ne5 14.Bxe5 dxe5 15.Nd2 Bd7 16.Qe2 Rbd8 17.Qe3 a5 18.Nf3 b6 19.h4 Kh8 20.Bh3 Bc8 21.Nb5 Qe7 22.Rad1 Rxd1 23.Rxd1 Nxe4 24.Bg2 Bb7 25.Nxe5 Nxf2 26.Rd7 Qf6 27.Rxb7 Qxe5 28.Qxe5 Bxe5 29.Nc7 Ng4 30.Nxe6 Rf6 31.Ng5 Bd4+ 32.Kh1 Nf2+ 33.Kh2 Ng4+ 34.Kh1 Nf2+ 35.Kh2 Ng4+ 36.Kh1 Nf2+ 1/2-1/2'
     }
 };
 
@@ -2505,6 +2732,12 @@ function bindPuzzleToBoardAndUI() {
     document.getElementById('puzzle-instruction').textContent =
         'Juegan ' + (turnColor === 'white' ? 'BLANCAS' : 'NEGRAS') + '. Encuentra el mejor movimiento.';
 
+    // Banner temporal sobre el tablero
+    const puzzleSide = turnColor === 'white' ? '♔ Juegan Blancas' : '♚ Juegan Negras';
+    const puzzleBannerType = turnColor === 'white' ? 'puzzle-white-turn' : 'puzzle-black-turn';
+    showBoardBanner(puzzleSide, puzzleBannerType);
+    setTimeout(hideBoardBanner, 2200);
+
     var fb = document.getElementById('puzzle-feedback');
     fb.style.display = 'none';
     fb.className = 'puzzle-feedback';
@@ -2728,7 +2961,29 @@ function applyMasterFromQueryString() {
         onFamousGameSelect();
     }
     hideVariantsPopup(false);
+    const _qwElo  = extractPGNHeader(famous.pgn, 'WhiteElo');
+    const _qbElo  = extractPGNHeader(famous.pgn, 'BlackElo');
+    const _qWhite = extractPGNHeader(famous.pgn, 'White');
+    const _qBlack = extractPGNHeader(famous.pgn, 'Black');
     parsePGNAndLoad(famous.pgn, famous.name);
+    if (_qwElo || _qbElo) {
+        setTimeout(() => {
+            const msgEl = document.querySelector('.message-box');
+            if (!msgEl) return;
+            const strong = msgEl.querySelector('strong');
+            if (!strong) return;
+            if (msgEl.querySelector('.elo-line')) return;
+            const eloDiv = document.createElement('div');
+            eloDiv.className = 'elo-line';
+            eloDiv.style.cssText = 'font-size:0.83em;opacity:0.72;margin-top:5px;line-height:1.6;';
+            const wName = _qWhite ? _qWhite.split(',')[0].trim() : '♔';
+            const bName = _qBlack ? _qBlack.split(',')[0].trim() : '♚';
+            const wPart = _qwElo ? `♔ ${wName} <b>${_qwElo}</b>` : '';
+            const bPart = _qbElo ? `♚ ${bName} <b>${_qbElo}</b>` : '';
+            eloDiv.innerHTML = [wPart, bPart].filter(Boolean).join('&nbsp;&nbsp;·&nbsp;&nbsp;');
+            strong.insertAdjacentElement('afterend', eloDiv);
+        }, 30);
+    }
     shareContext = 'maestra';
     updateShareButton();
     if (window.matchMedia('(max-width: 1024px) and (orientation: portrait)').matches) {
@@ -2815,12 +3070,38 @@ async function applyPuzzleFromQueryString() {
         } catch (e) { /* file:// o restricción */ }
         return false;
     }
-    puzzleFilter.theme = 'all';
+    // Usar la temática del puzzle para cargar 30 más de la misma categoría
+    const pTheme = p.theme && p.theme !== '' ? p.theme : 'all';
+    puzzleFilter.theme = pTheme;
     var themeSel = document.getElementById('puzzle-theme-select');
-    if (themeSel) themeSel.value = 'all';
+    if (themeSel) themeSel.value = pTheme;
+
+    // El puzzle compartido va primero; los 30 adicionales se añaden en segundo plano
     puzzleApiCache = [p];
     puzzleSequentialIndex = 0;
     currentPuzzle = p;
+
+    // Cargar 30 puzzles más de la misma temática en segundo plano
+    (async function loadMoreFromLink() {
+        try {
+            const url = `${PUZZLES_API}?theme=${encodeURIComponent(pTheme)}&limit=30`;
+            const res = await fetch(url);
+            if (!res.ok) return;
+            const data = await res.json();
+            if (data.puzzles && data.puzzles.length > 0) {
+                const extras = data.puzzles.filter(function(q) {
+                    return !q.id || String(q.id) !== String(p.id);
+                });
+                puzzleApiCache = [puzzleApiCache[0]].concat(extras);
+                const boardLabel = document.getElementById('puzzle-board-nav-label');
+                if (boardLabel && currentPuzzle === puzzleApiCache[0]) {
+                    boardLabel.textContent = (currentPuzzle.title || 'Problema') +
+                        ' (1 de ' + puzzleApiCache.length + ')';
+                }
+            }
+        } catch(e) { /* API no disponible, continuar solo con el puzzle compartido */ }
+    })();
+
     bindPuzzleToBoardAndUI();
     if (window.matchMedia('(max-width: 1024px) and (orientation: portrait)').matches) {
         const panel = document.getElementById('puzzles-panel');
@@ -3012,7 +3293,13 @@ function puzzleCheckMove(fromRow, fromCol, toRow, toCol, promoType) {
         }
     } else {
         puzzleWrongMoves++;
-        applyEloChange(-1);
+        var eloLost = 0;
+        if (puzzleWrongMoves === 1) {
+            eloLost = getPuzzleEloByStar();
+            applyEloChange(-eloLost);
+            showBoardBanner('¡Error en Problema! (' + formatPuzzleEloLabel(-eloLost) + ')', 'puzzle-failed');
+            setTimeout(hideBoardBanner, 2500);
+        }
         selectedSquare = null;
         renderBoard();
         highlightPuzzleMove(toRow, toCol, false);
@@ -3029,7 +3316,9 @@ function puzzleCheckMove(fromRow, fromCol, toRow, toCol, promoType) {
                     sq.classList.add('puzzle-hint');
                 }
             });
-            showPuzzleFeedback('Incorrecto. Las casillas marcadas muestran el movimiento correcto. Inténtalo de nuevo.', 'wrong');
+            var failHint = 'Incorrecto. Las casillas marcadas muestran el movimiento correcto. Inténtalo de nuevo.';
+            if (eloLost > 0) failHint += ' (' + formatPuzzleEloLabel(-eloLost) + ')';
+            showPuzzleFeedback(failHint, 'wrong');
             setTimeout(function() {
                 if (gen !== puzzleGeneration) return;
                 document.querySelectorAll('.puzzle-hint').forEach(function(s) { s.classList.remove('puzzle-hint'); });
@@ -3071,6 +3360,12 @@ function getPuzzleEloByStar(difficulty) {
     return Math.max(1, Math.min(4, diff));
 }
 
+function formatPuzzleEloLabel(delta) {
+    if (!delta) return '0 ELO';
+    var sign = delta > 0 ? '+' : '-';
+    return sign + '⭐'.repeat(Math.abs(delta)) + ' ELO';
+}
+
 function puzzleSolved() {
     puzzleActive = false;
     puzzleStats.solved++;
@@ -3087,7 +3382,7 @@ function puzzleSolved() {
     savePuzzleStats();
     updatePuzzleStatsUI();
     var eloGained = 0;
-    if (!puzzleSolutionViewed) {
+    if (!puzzleSolutionViewed && puzzleWrongMoves === 0) {
         eloGained = getPuzzleEloByStar();
         applyEloChange(eloGained);
     }
@@ -3095,7 +3390,7 @@ function puzzleSolved() {
     var total = puzzleCorrectMoves + puzzleWrongMoves;
     var pct = total > 0 ? Math.round(puzzleCorrectMoves / total * 100) : 100;
     var streakMsg = puzzleStats.streak > 0 ? ' | Racha: ' + puzzleStats.streak : '';
-    var eloMsg = eloGained > 0 ? ' (+' + eloGained + ' ELO)' : '';
+    var eloMsg = eloGained > 0 ? ' (' + formatPuzzleEloLabel(eloGained) + ')' : (puzzleWrongMoves > 0 ? ' (0 ELO — hubo fallos)' : '');
     var sidebarMsg = '🎉 ¡Problema resuelto!' + eloMsg + ' Aciertos: ' + puzzleCorrectMoves + ' | Fallos: ' + puzzleWrongMoves + ' | Precisión: ' + pct + '%' + streakMsg;
     showPuzzleFeedback(sidebarMsg, 'correct');
     showBoardBanner('🎉 ¡Problema Resuelto!' + eloMsg, 'puzzle-solved');
@@ -3110,8 +3405,9 @@ function puzzleFailed() {
     puzzleStats.streak = 0;
     savePuzzleStats();
     updatePuzzleStatsUI();
-    applyEloChange(-1);
-    var failMsg = '❌ No resuelto — La solución era: ' + formatPuzzleSolution();
+    var eloLost = getPuzzleEloByStar();
+    applyEloChange(-eloLost);
+    var failMsg = '❌ No resuelto (' + formatPuzzleEloLabel(-eloLost) + ') — La solución era: ' + formatPuzzleSolution();
     showPuzzleFeedback(failMsg, 'wrong');
     showBoardBanner(failMsg, 'puzzle-failed');
     showPuzzleSolutionOnBoard();
@@ -3316,10 +3612,17 @@ function highlightVariantSquares(v) {
     const toSq = document.querySelector(`.square[data-row="${toRow}"][data-col="${toCol}"]`);
     if (fromSq) fromSq.classList.add('variant-highlight');
     if (toSq) toSq.classList.add('variant-highlight');
+    // Flecha verde con el movimiento sugerido (persiste mientras dura el hover)
+    showMoveArrow(fromRow, fromCol, toRow, toCol, { color: 'green', persist: true, force: true });
+    const arrowSvg = document.getElementById('move-arrow-svg');
+    if (arrowSvg) arrowSvg.dataset.variantArrow = '1';
 }
 
 function clearVariantHighlight() {
     document.querySelectorAll('.variant-highlight').forEach(sq => sq.classList.remove('variant-highlight'));
+    // Solo eliminar la flecha verde de variante; nunca la amarilla/gris de movimientos
+    const arrowSvg = document.getElementById('move-arrow-svg');
+    if (arrowSvg && arrowSvg.dataset.variantArrow === '1') arrowSvg.remove();
 }
 
 function uciToSanCurrent(uci) {
@@ -3593,7 +3896,9 @@ function showOpeningName(name) {
     if (!log) {
         log = document.createElement('div');
         log.id = 'opening-log';
-        log.className = 'opening-log';
+        // En "Ver Apertura" (trainingActive) se mantiene la altura reservada
+        // para que el tablero no se desplace al recrearse el log.
+        log.className = trainingActive ? 'opening-log opening-log--reserved' : 'opening-log';
         const boardContainer = document.querySelector('.board-container');
         boardContainer.insertBefore(log, boardContainer.firstChild);
     }
@@ -3670,8 +3975,29 @@ function showOpeningName(name) {
         }
     }
 
+    // Hover: flecha amarilla del último movimiento de esta entrada
+    const moves = entryKey ? entryKey.split(' ') : [];
+    const lastUCI = moves[moves.length - 1];
+    if (lastUCI && lastUCI.length >= 4) {
+        const fRow = 8 - parseInt(lastUCI[1]);
+        const fCol = lastUCI.charCodeAt(0) - 97;
+        const tRow = 8 - parseInt(lastUCI[3]);
+        const tCol = lastUCI.charCodeAt(2) - 97;
+        wrapper.addEventListener('mouseenter', () => {
+            showMoveArrow(fRow, fCol, tRow, tCol, { persist: true, force: true });
+            const arrowSvg = document.getElementById('move-arrow-svg');
+            if (arrowSvg) arrowSvg.dataset.variantArrow = '1';
+        });
+        wrapper.addEventListener('mouseleave', () => {
+            const arrowSvg = document.getElementById('move-arrow-svg');
+            if (arrowSvg && arrowSvg.dataset.variantArrow === '1') arrowSvg.remove();
+        });
+    }
+
     log.appendChild(wrapper);
     log.style.display = 'flex';
+    // Desplaza el log para mostrar la última entrada sin mover el tablero
+    requestAnimationFrame(() => { log.scrollTop = log.scrollHeight; });
 }
 
 function recalcOpening() {
@@ -4264,8 +4590,11 @@ function showAnalysisResults(all, total, analyzed, blunderCount, mistakeCount, i
                         const item = analysisErrorsList.find(a => a.moveIndex === moveIdx);
                         const best = item ? parseUCIMove(item.bestMove) : null;
                         bestMoveSquares = best ? { from: { row: best.fromRow, col: best.fromCol }, to: { row: best.toRow, col: best.toCol } } : { from: null, to: null };
+                        renderBoard();
+                        showAnalysisArrows(uci, item ? item.bestMove : null);
+                    } else {
+                        renderBoard();
                     }
-                    renderBoard();
                 });
 
                 el.addEventListener('mouseleave', () => {
@@ -4275,6 +4604,9 @@ function showAnalysisResults(all, total, analyzed, blunderCount, mistakeCount, i
                     bestMoveSquares = _analysisHoverSnapshot.bestMoveSquares;
                     _analysisHoverSnapshot = null;
                     renderBoard();
+                    // Restaurar flechas del error actual si hay uno seleccionado
+                    const cur = analysisErrorsList[analysisErrorsCurrentIndex];
+                    if (cur) showAnalysisArrows(cur.playerMove, cur.bestMove);
                 });
             }
         }
@@ -4332,6 +4664,7 @@ function showAnalysisPositionOnBoard(moveIndex, uciMove) {
         const bestMove = item ? parseUCIMove(item.bestMove) : null;
         bestMoveSquares = bestMove ? { from: { row: bestMove.fromRow, col: bestMove.fromCol }, to: { row: bestMove.toRow, col: bestMove.toCol } } : { from: null, to: null };
         renderBoard();
+        showAnalysisArrows(uciMove, item ? item.bestMove : null);
         var bc2 = document.querySelector('.board-container'); if (bc2) bc2.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
 }
@@ -5146,6 +5479,18 @@ function syncPlayerColorUI() {
     if (aiSettings)   aiSettings.style.display   = isAIMode ? '' : 'none';
 }
 
+function applyBoardZoom(zoom) {
+    document.documentElement.style.zoom = zoom / 100;
+    const valEl = document.getElementById('zoom-value');
+    if (valEl) valEl.textContent = zoom + '%';
+    const slider = document.getElementById('zoom-slider');
+    if (slider) {
+        slider.value = zoom;
+        const pct = (zoom - 70) / (120 - 70) * 100;
+        slider.style.background = `linear-gradient(to right, #6366f1 ${pct.toFixed(1)}%, #c7d2fe ${pct.toFixed(1)}%)`;
+    }
+}
+
 function saveSettings() {
     const settings = {
         playerColor: playerColor,
@@ -5162,7 +5507,8 @@ function saveSettings() {
         timePerPlayer: timePerPlayer,
         incrementPerMove: incrementPerMove,
         soundEnabled: SoundFX.isEnabled(),
-        playerNickname: playerNickname
+        playerNickname: playerNickname,
+        boardZoom: boardZoom
     };
     localStorage.setItem('chess_settings', JSON.stringify(settings));
 }
@@ -5205,6 +5551,7 @@ function loadSavedSettings() {
             showMoveInsights = settings.showMoveInsights !== undefined ? settings.showMoveInsights : false;
             board3D = settings.board3D !== undefined ? settings.board3D : true;
             moveArrowEnabled = settings.moveArrowEnabled !== undefined ? settings.moveArrowEnabled : true;
+            boardZoom = (settings.boardZoom >= 70 && settings.boardZoom <= 120) ? settings.boardZoom : 100;
             timePerPlayer = settings.timePerPlayer != null ? settings.timePerPlayer : 60;
             incrementPerMove = settings.incrementPerMove != null ? settings.incrementPerMove : 0;
             
@@ -5244,6 +5591,8 @@ function loadSavedSettings() {
             console.error('Error al cargar configuración:', error);
         }
     }
+    // Siempre sincronizar el slider con el valor actual (aunque falle el try)
+    applyBoardZoom(boardZoom);
 }
 
 function scrollToBoard() {
@@ -5274,6 +5623,17 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '3.3.8': [
+        'Botón girar tablero (⇅) junto al mini-reloj: mitad negra arriba / blanca abajo, se invierte al pulsar',
+        'Zoom de la página: barra deslizante en Configuración (70%–120%)',
+        'Partidas maestras: nuevo grupo "🏆 FIDE Candidates 2026 Cyprus" con las 56 partidas organizadas por ronda y resultado',
+        'Botón de compartir por Instagram: en móvil usa el selector nativo del sistema; en escritorio copia la imagen al portapapeles y abre Instagram',
+        'Modo apertura: el tablero queda fijo y el panel de variantes tiene scroll propio (ya no desplaza el tablero al acumularse variantes)',
+        'Apertura: al pasar el ratón sobre una variante del log (encima del tablero) se muestra la flecha amarilla del movimiento de esa línea',
+        'Apertura: al pasar el ratón sobre las variantes del popup sobre el tablero se muestra la flecha verde del movimiento sugerido',
+        'Problemas: banner "♔ Juegan Blancas" / "♚ Juegan Negras" sobre el tablero al cargar cada puzzle',
+        '... y más mejoras en AjedrezIA ...',
+    ],
     '3.3.4': [
         'Compartir CUALQUIER contenido (partida, apertura, problema y partida maestra) muestra ahora texto + imagen del tablero en el modal',
         'La imagen se dibuja en tiempo real desde la posición que estás viendo (en el navegador con canvas, y en servidor con board-image.php), con la última jugada resaltada y la orientación según tu color',
@@ -6993,6 +7353,12 @@ function stopOnlinePresencePolling() {
     _knownOnlineUserIds = null;
 }
 
+/** Devuelve true si el usuario es real (no bot ni demo). */
+function isRealUser(u) {
+    const uid = String(u.id);
+    return !u.isBot && !uid.startsWith('bot_') && !uid.startsWith('demo');
+}
+
 function checkOnlinePresence() {
     const me = getOnlineUser();
     if (!me) return;
@@ -7000,33 +7366,62 @@ function checkOnlinePresence() {
         .then(function(r) { return r.json(); })
         .then(function(data) {
             const users = (data && data.users) ? data.users : [];
-            const onlineUsers = users.filter(function(u) { return u.online; });
+            // Solo usuarios reales online (excluye al propio usuario, bots y demos)
+            const realOnline = users.filter(function(u) {
+                return u.online && isRealUser(u) && String(u.id) !== String(me.id);
+            });
+            const currentIds = new Set(realOnline.map(function(u) { return String(u.id); }));
 
             // Primera consulta: inicializar el set conocido sin notificar
             if (_knownOnlineUserIds === null) {
-                _knownOnlineUserIds = new Set(onlineUsers.map(function(u) { return String(u.id); }));
+                _knownOnlineUserIds = currentIds;
                 return;
             }
 
-            // Detectar nuevos conectados desde la última consulta
-            const newcomers = [];
-            onlineUsers.forEach(function(u) {
+            // Detectar nuevos conectados
+            realOnline.forEach(function(u) {
                 const uid = String(u.id);
-                // Excluir al usuario actual
-                if (uid === String(me.id)) return;
                 if (!_knownOnlineUserIds.has(uid)) {
-                    newcomers.push(u);
+                    showOnlineToast('🟢 ' + (u.nick || u.name || 'Jugador') + ' se ha conectado', 'connect');
                 }
             });
 
-            // Actualizar el set conocido con los IDs actuales (también
-            // permite que un usuario que se va y vuelve genere otra notificación).
-            _knownOnlineUserIds = new Set(onlineUsers.map(function(u) { return String(u.id); }));
+            // Detectar desconectados
+            _knownOnlineUserIds.forEach(function(uid) {
+                if (!currentIds.has(uid)) {
+                    const gone = users.find(function(u) { return String(u.id) === uid; });
+                    const nick = gone ? (gone.nick || gone.name || 'Jugador') : 'Jugador';
+                    showOnlineToast('🔴 ' + nick + ' se ha desconectado', 'disconnect');
+                }
+            });
 
-            // Notificación de nuevos conectados desactivada (v3.2.2).
-            // Se mantiene el set actualizado por si se quiere reactivar.
+            _knownOnlineUserIds = currentIds;
         })
         .catch(function(){});
+}
+
+function showOnlineToast(msg, type) {
+    // Toast no intrusivo en la esquina, sin bloquear el juego
+    let container = document.getElementById('online-toast-container');
+    if (!container) {
+        container = document.createElement('div');
+        container.id = 'online-toast-container';
+        container.style.cssText =
+            'position:fixed;bottom:72px;left:50%;transform:translateX(-50%);' +
+            'display:flex;flex-direction:column;align-items:center;gap:6px;' +
+            'z-index:9000;pointer-events:none;';
+        document.body.appendChild(container);
+    }
+    const toast = document.createElement('div');
+    toast.className = 'online-toast online-toast--' + type;
+    toast.textContent = msg;
+    container.appendChild(toast);
+    // Aparición suave
+    requestAnimationFrame(function() { toast.classList.add('online-toast--visible'); });
+    setTimeout(function() {
+        toast.classList.remove('online-toast--visible');
+        setTimeout(function() { if (toast.parentNode) toast.remove(); }, 400);
+    }, 3500);
 }
 
 function checkIncomingInvites() {
@@ -8631,7 +9026,11 @@ function resignGame() {
         showMessage('La partida aún no ha empezado', 'warning', 2000);
         return;
     }
-    showConfirmDialog('¿Seguro que quieres abandonar la partida?', () => {
+    const _oppEloR = (_onlineGame && _onlineGame.opponent && _onlineGame.opponent.elo != null)
+        ? _onlineGame.opponent.elo
+        : (AI_ELO_MAP[aiDifficulty] || 1200);
+    const _deltaR = calcEloChange(stats.elo, _oppEloR, 0, stats.gamesPlayed);
+    showConfirmDialog(`Partida en curso (${_deltaR} ELO si abandonas)`, () => {
         game.gameOver = true;
         stopClock();
         const eloDelta = recordGameResult('loss'); // _onlineGame aún activo → ELO real del oponente
@@ -8920,6 +9319,12 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log('Nivel de dificultad cambiado a:', aiDifficulty);
         saveSettings();
     });
+    document.getElementById('zoom-slider').addEventListener('input', (e) => {
+        boardZoom = parseInt(e.target.value);
+        applyBoardZoom(boardZoom);
+        saveSettings();
+    });
+
     document.getElementById('board-theme').addEventListener('change', (e) => {
         boardTheme = e.target.value;
         saveSettings();
@@ -8970,6 +9375,16 @@ document.addEventListener('DOMContentLoaded', () => {
         incrementPerMove = increment;
         saveSettings();
     });
+
+    // Botón girar tablero
+    const flipBoardBtn = document.getElementById('flip-board-btn');
+    if (flipBoardBtn) {
+        flipBoardBtn.addEventListener('click', () => {
+            manualBoardFlipped = !manualBoardFlipped;
+            flipBoardBtn.classList.toggle('flipped', manualBoardFlipped);
+            renderBoard();
+        });
+    }
 
     // Botones de acciones (iconos debajo del tablero + texto en sidebar)
     ['resign-game', 'resign-game-sidebar'].forEach(id => {
@@ -9508,6 +9923,33 @@ async function getAIMove() {
 
 function confirmNewGame() {
     dismissPostGameAnalysisUI();
+
+    // Partida en curso con movimientos → advertir pérdida de ELO
+    // Solo aplica en partida normal vs IA u online, no en aperturas, maestras ni puzzles
+    if (game && !game.gameOver && game.moveHistory && game.moveHistory.length > 0
+            && playerColor !== 'both'
+            && !trainingActive && !quizMode && !puzzleMode
+            && shareContext === 'partida') {
+        const onlineOpp = _onlineGame && _onlineGame.opponent;
+        const opponentElo = (onlineOpp && onlineOpp.elo != null)
+            ? onlineOpp.elo
+            : (AI_ELO_MAP[aiDifficulty] || 1200);
+        const delta = calcEloChange(stats.elo, opponentElo, 0, stats.gamesPlayed);
+        showConfirmDialog(
+            `Partida en curso (${delta} ELO si abandonas)`,
+            () => {
+                // Aplicar la pérdida de ELO como si fuera una derrota
+                game.gameOver = true;
+                stopClock();
+                const eloDelta = recordGameResult('loss');
+                if (_onlineGame && _onlineGame.status === 'active') leaveOnlineGame('resign');
+                clearAutoSavedGame();
+                showNewGameDialog();
+            }
+        );
+        return;
+    }
+
     showNewGameDialog();
 }
 
@@ -9888,6 +10330,13 @@ function viewOpening() {
     lastOpeningMoveCount = 0;
     const openingLog = document.getElementById('opening-log');
     if (openingLog) openingLog.remove();
+    // Reservar YA el hueco de variantes con altura fija: el tablero no se
+    // moverá cuando se vayan añadiendo entradas durante el replay.
+    const reservedLog = document.createElement('div');
+    reservedLog.id = 'opening-log';
+    reservedLog.className = 'opening-log opening-log--reserved';
+    const bcEl = document.querySelector('.board-container');
+    if (bcEl) bcEl.insertBefore(reservedLog, bcEl.firstChild);
     stopClock();
     whiteTime = timePerPlayer * 60;
     blackTime = timePerPlayer * 60;
@@ -10177,7 +10626,31 @@ function loadFamousGame() {
     dismissPostGameAnalysisUI();
 
     hideVariantsPopup(false);
+
+    // Extraer ELOs del PGN para inyectarlos en el mensaje tras cargar
+    const _fwElo   = extractPGNHeader(famous.pgn, 'WhiteElo');
+    const _fbElo   = extractPGNHeader(famous.pgn, 'BlackElo');
+    const _fWhite  = extractPGNHeader(famous.pgn, 'White');
+    const _fBlack  = extractPGNHeader(famous.pgn, 'Black');
     parsePGNAndLoad(famous.pgn, famous.name);
+    if (_fwElo || _fbElo) {
+        setTimeout(() => {
+            const msgEl = document.querySelector('.message-box');
+            if (!msgEl) return;
+            const strong = msgEl.querySelector('strong');
+            if (!strong) return;
+            if (msgEl.querySelector('.elo-line')) return;
+            const eloDiv = document.createElement('div');
+            eloDiv.className = 'elo-line';
+            eloDiv.style.cssText = 'font-size:0.83em;opacity:0.72;margin-top:5px;line-height:1.6;';
+            const wName = _fWhite ? _fWhite.split(',')[0].trim() : '♔';
+            const bName = _fBlack ? _fBlack.split(',')[0].trim() : '♚';
+            const wPart = _fwElo ? `♔ ${wName} <b>${_fwElo}</b>` : '';
+            const bPart = _fbElo ? `♚ ${bName} <b>${_fbElo}</b>` : '';
+            eloDiv.innerHTML = [wPart, bPart].filter(Boolean).join('&nbsp;&nbsp;·&nbsp;&nbsp;');
+            strong.insertAdjacentElement('afterend', eloDiv);
+        }, 30);
+    }
     shareContext = 'maestra';
     updateShareButton();
 
@@ -10853,7 +11326,7 @@ function saveGame() {
         timestamp: new Date().toISOString()
     };
 
-    const savedGames = JSON.parse(localStorage.getItem('saved_games') || '[]');
+    const savedGames = readSavedGames();
     const defaultName = `Partida ${savedGames.length + 1}`;
     
     showSaveDialog(defaultName, (gameName) => {
@@ -10931,8 +11404,18 @@ function showSaveDialog(defaultName, onSave) {
     });
 }
 
+// Lectura segura: si el JSON está corrupto devuelve [] en lugar de romper la app.
+function readSavedGames() {
+    try {
+        const parsed = JSON.parse(localStorage.getItem('saved_games') || '[]');
+        return Array.isArray(parsed) ? parsed : [];
+    } catch (e) {
+        return [];
+    }
+}
+
 function loadGame() {
-    const savedGames = JSON.parse(localStorage.getItem('saved_games') || '[]');
+    const savedGames = readSavedGames();
     
     if (savedGames.length === 0) {
         showMessage('No hay partidas guardadas', 'warning', 2000);
@@ -11284,12 +11767,55 @@ function shareFacebookClick(fbUrl, msg) {
     setTimeout(() => { window.open(fbUrl, '_blank', 'noopener,noreferrer'); }, 300);
 }
 
+async function shareInstagramClick(msg) {
+    if (window.grantEloOnShareComplete) window.grantEloOnShareComplete();
+    const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+    const text = (msg || '').replace(/\\n/g, '\n');
+
+    // En móvil: intentar Web Share API con imagen si está disponible
+    if (isMobile && navigator.share) {
+        const imgEl = document.getElementById('share-modal-preview');
+        if (imgEl && imgEl.src) {
+            try {
+                const resp = await fetch(imgEl.src);
+                const blob = await resp.blob();
+                const file = new File([blob], 'ajedrezia.png', { type: 'image/png' });
+                if (navigator.canShare && navigator.canShare({ files: [file] })) {
+                    await navigator.share({ files: [file], text });
+                    return;
+                }
+            } catch (e) {}
+        }
+        // Fallback móvil: share de texto
+        try { await navigator.share({ text }); return; } catch (e) {}
+    }
+
+    // Escritorio (o fallback): copiar imagen al portapapeles y abrir Instagram
+    const imgEl = document.getElementById('share-modal-preview');
+    if (imgEl && imgEl.src) {
+        try {
+            const resp = await fetch(imgEl.src);
+            const blob = await resp.blob();
+            await navigator.clipboard.write([new ClipboardItem({ 'image/png': blob })]);
+        } catch (e) {
+            // Si no se puede copiar imagen, copiar texto
+            try {
+                if (navigator.clipboard) await navigator.clipboard.writeText(text);
+                else { const ta=document.createElement('textarea');ta.value=text;document.body.appendChild(ta);ta.select();document.execCommand('copy');document.body.removeChild(ta); }
+            } catch (e2) {}
+        }
+    }
+    showMessage('📸 Imagen copiada — ábrela en Instagram y pégala en tu historia o post', 'success', 3500);
+    setTimeout(() => { window.open('https://www.instagram.com/', '_blank', 'noopener,noreferrer'); }, 400);
+}
+
 if (typeof window !== 'undefined') {
     window.grantEloOnShareComplete = grantEloOnShareComplete;
     window.copyShareMsg = copyShareMsg;
     window.copyShareUrl = copyShareUrl;
     window.copyShareImage = copyShareImage;
     window.shareFacebookClick = shareFacebookClick;
+    window.shareInstagramClick = shareInstagramClick;
 }
 
 function getShareEloSuffix() {
@@ -11682,7 +12208,9 @@ function shareInviteOnline(colorLabel, timeLabel, colorRaw, tcRaw) {
     const waHref  = 'https://wa.me/?text=' + encodeURIComponent(shareMsg);
     const twHref  = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(shareMsg);
     const fbShareUrl  = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url) + '&quote=' + encodeURIComponent(shareMsg);
-    const fbMsgAttr   = shareMsg.replace(/\\/g,'\\\\').replace(/'/g,"\\'").replace(/\n/g,'\\n');
+    // Escape JS (\, ', \n) + escape HTML (&, ", <, >) porque va dentro de onclick="..."
+    const fbMsgAttr   = shareMsg.replace(/\\/g,'\\\\').replace(/'/g,"\\'").replace(/\n/g,'\\n')
+        .replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
     const gmailHref   = mailtoUrl.replace(/&/g,'&amp;');
 
     const htmlMsg = `
@@ -11702,6 +12230,12 @@ function shareInviteOnline(colorLabel, timeLabel, colorRaw, tcRaw) {
                     <svg viewBox="0 0 24 24" width="26" height="26" fill="white"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
                 </span>
                 <span class="share-app-label">Facebook</span>
+            </a>
+            <a href="#" class="share-app-item" onclick="window.shareInstagramClick('${fbMsgAttr}');return false;">
+                <span class="share-app-circle share-app-circle--instagram">
+                    <svg viewBox="0 0 24 24" width="26" height="26" fill="white"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                </span>
+                <span class="share-app-label">Instagram</span>
             </a>
             <a href="${gmailHref}" class="share-app-item" target="_blank" rel="noopener noreferrer" onclick="${eloGrant}">
                 <span class="share-app-circle share-app-circle--gmail">
@@ -11753,7 +12287,9 @@ function shareContent() {
     const twHref = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(shareMsg.replace(url, socialUrl));
     // quote= puede pre-rellenar el campo de texto en algunas versiones de FB.
     const fbShareUrl = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(socialUrl) + '&quote=' + encodeURIComponent(shareMsg);
-    const fbMsgAttr = shareMsg.replace(/\\/g, '\\\\').replace(/'/g, "\\'").replace(/\n/g, '\\n');
+    // Escape JS (\, ', \n) + escape HTML (&, ", <, >) porque va dentro de onclick="..."
+    const fbMsgAttr = shareMsg.replace(/\\/g, '\\\\').replace(/'/g, "\\'").replace(/\n/g, '\\n')
+        .replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
     const gmailHref = mailtoUrl.replace(/&/g, '&amp;');
     const eloGrant = "if(window.grantEloOnShareComplete)window.grantEloOnShareComplete();";
 
@@ -11784,6 +12320,12 @@ function shareContent() {
                     <svg viewBox="0 0 24 24" width="26" height="26" fill="white"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
                 </span>
                 <span class="share-app-label">Facebook</span>
+            </a>
+            <a href="#" class="share-app-item" onclick="window.shareInstagramClick('${fbMsgAttr}');return false;">
+                <span class="share-app-circle share-app-circle--instagram">
+                    <svg viewBox="0 0 24 24" width="26" height="26" fill="white"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                </span>
+                <span class="share-app-label">Instagram</span>
             </a>
             <a href="${gmailHref}" class="share-app-item" target="_blank" rel="noopener noreferrer" onclick="${eloGrant}">
                 <span class="share-app-circle share-app-circle--gmail">
@@ -12735,8 +13277,10 @@ function formatTime(seconds) {
 let _moveArrowTimer = null;
 
 function showMoveArrow(fromRow, fromCol, toRow, toCol, opts) {
-    if (!moveArrowEnabled) return;
+    const force = !!(opts && opts.force);
+    if (!moveArrowEnabled && !force) return;
     const reverse = !!(opts && opts.reverse);
+    const green   = !!(opts && opts.color === 'green');
     const boardEl = document.getElementById('chess-board');
     if (!boardEl) return;
 
@@ -12747,7 +13291,7 @@ function showMoveArrow(fromRow, fromCol, toRow, toCol, opts) {
     const sq = boardEl.clientWidth / 8;
     if (!sq) return;
 
-    const isFlipped = playerColor === 'black';
+    const isFlipped = (playerColor === 'black') !== manualBoardFlipped;
     const fdr = isFlipped ? 7 - fromRow : fromRow;
     const fdc = isFlipped ? 7 - fromCol : fromCol;
     const tdr = isFlipped ? 7 - toRow   : toRow;
@@ -12803,7 +13347,11 @@ function showMoveArrow(fromRow, fromCol, toRow, toCol, opts) {
     grad.setAttribute('gradientUnits', 'userSpaceOnUse');
     grad.setAttribute('x1', x1); grad.setAttribute('y1', y1);
     grad.setAttribute('x2', x2); grad.setAttribute('y2', y2);
-    const stops = reverse ? [
+    const stops = green ? [
+        { offset: '0%',   color: '#15803d', opacity: '0.75' },
+        { offset: '55%',  color: '#22c55e', opacity: '0.90' },
+        { offset: '100%', color: '#86efac', opacity: '0.98' },
+    ] : reverse ? [
         { offset: '0%',   color: '#6b6b6b', opacity: '0.70' },
         { offset: '55%',  color: '#a0a0a0', opacity: '0.85' },
         { offset: '100%', color: '#d0d0d0', opacity: '0.95' },
@@ -12844,7 +13392,7 @@ function showMoveArrow(fromRow, fromCol, toRow, toCol, opts) {
     const outline = document.createElementNS(ns, 'polygon');
     outline.setAttribute('points', pts);
     outline.setAttribute('fill', 'none');
-    outline.setAttribute('stroke', reverse ? 'rgba(40,40,40,0.55)' : 'rgba(120,70,0,0.55)');
+    outline.setAttribute('stroke', green ? 'rgba(10,70,30,0.55)' : reverse ? 'rgba(40,40,40,0.55)' : 'rgba(120,70,0,0.55)');
     outline.setAttribute('stroke-width', sq * 0.04);
     outline.setAttribute('stroke-linejoin', 'round');
     svg.appendChild(outline);
@@ -12853,7 +13401,7 @@ function showMoveArrow(fromRow, fromCol, toRow, toCol, opts) {
     const arrow = document.createElementNS(ns, 'polygon');
     arrow.setAttribute('points', pts);
     arrow.setAttribute('fill', `url(#${gradId})`);
-    arrow.setAttribute('stroke', reverse ? 'rgba(220,220,220,0.5)' : 'rgba(255,240,100,0.5)');
+    arrow.setAttribute('stroke', green ? 'rgba(134,239,172,0.5)' : reverse ? 'rgba(220,220,220,0.5)' : 'rgba(255,240,100,0.5)');
     arrow.setAttribute('stroke-width', sq * 0.02);
     arrow.setAttribute('stroke-linejoin', 'round');
     svg.appendChild(arrow);
@@ -12867,12 +13415,138 @@ function showMoveArrow(fromRow, fromCol, toRow, toCol, opts) {
     svg.style.transition = 'opacity 0.18s ease';
     requestAnimationFrame(() => { svg.style.opacity = '1'; });
 
-    // Desvanecimiento y eliminación automática
+    // Desvanecimiento y eliminación automática (salvo flechas persistentes,
+    // p. ej. la verde de variantes, que dura mientras el hover)
+    if (opts && opts.persist) return;
     _moveArrowTimer = setTimeout(() => {
         svg.style.transition = 'opacity 0.55s ease';
         svg.style.opacity = '0';
         setTimeout(() => { if (svg.parentNode) svg.remove(); }, 560);
     }, 1800);
+}
+
+// ── Flechas de análisis: amarilla (movimiento jugado) + verde (mejor) ────
+function showAnalysisArrows(playerUci, bestUci) {
+    const boardEl = document.getElementById('chess-board');
+    if (!boardEl) return;
+    const prev = document.getElementById('analysis-arrows-svg');
+    if (prev) prev.remove();
+
+    const sq = boardEl.clientWidth / 8;
+    if (!sq) return;
+
+    const isFlipped = (playerColor === 'black') !== manualBoardFlipped;
+    const ns = 'http://www.w3.org/2000/svg';
+    const boardSize = sq * 8;
+
+    const svg = document.createElementNS(ns, 'svg');
+    svg.id = 'analysis-arrows-svg';
+    svg.setAttribute('viewBox', `0 0 ${boardSize} ${boardSize}`);
+    svg.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:15;';
+
+    const defs = document.createElementNS(ns, 'defs');
+    svg.appendChild(defs);
+
+    function parseUci(uci) {
+        if (!uci || uci.length < 4) return null;
+        const fc = uci[0].charCodeAt(0) - 97;
+        const fr = 8 - parseInt(uci[1]);
+        const tc = uci[2].charCodeAt(0) - 97;
+        const tr = 8 - parseInt(uci[3]);
+        return { fromRow: fr, fromCol: fc, toRow: tr, toCol: tc };
+    }
+
+    function addArrow(fromRow, fromCol, toRow, toCol, isGreen, suffix) {
+        const fdr = isFlipped ? 7 - fromRow : fromRow;
+        const fdc = isFlipped ? 7 - fromCol : fromCol;
+        const tdr = isFlipped ? 7 - toRow   : toRow;
+        const tdc = isFlipped ? 7 - toCol   : toCol;
+
+        const x1 = (fdc + 0.5) * sq, y1 = (fdr + 0.5) * sq;
+        const x2 = (tdc + 0.5) * sq, y2 = (tdr + 0.5) * sq;
+        const dx = x2 - x1, dy = y2 - y1;
+        const len = Math.sqrt(dx * dx + dy * dy) || 1;
+        const ux = dx / len, uy = dy / len;
+        const nx = -uy, ny = ux;
+
+        const sw0 = sq * 0.03, sw1 = sq * 0.10, hw = sq * 0.26, hl = sq * 0.34, gap = sq * 0.14;
+        const bx1 = x1 + ux * gap, by1 = y1 + uy * gap;
+        const hx = x2 - ux * hl, hy = y2 - uy * hl;
+
+        const pts = [
+            [bx1 + nx * sw0, by1 + ny * sw0],
+            [hx  + nx * sw1, hy  + ny * sw1],
+            [hx  + nx * hw,  hy  + ny * hw ],
+            [x2,             y2            ],
+            [hx  - nx * hw,  hy  - ny * hw ],
+            [hx  - nx * sw1, hy  - ny * sw1],
+            [bx1 - nx * sw0, by1 - ny * sw0],
+        ].map(([px, py]) => `${px.toFixed(2)},${py.toFixed(2)}`).join(' ');
+
+        const gradId = `ag-grad-${suffix}`;
+        const grad = document.createElementNS(ns, 'linearGradient');
+        grad.setAttribute('id', gradId);
+        grad.setAttribute('gradientUnits', 'userSpaceOnUse');
+        grad.setAttribute('x1', x1); grad.setAttribute('y1', y1);
+        grad.setAttribute('x2', x2); grad.setAttribute('y2', y2);
+        const stops = isGreen ? [
+            { offset: '0%',   color: '#15803d', opacity: '0.75' },
+            { offset: '55%',  color: '#22c55e', opacity: '0.90' },
+            { offset: '100%', color: '#86efac', opacity: '0.98' },
+        ] : [
+            { offset: '0%',   color: '#e8a800', opacity: '0.75' },
+            { offset: '55%',  color: '#ffe033', opacity: '0.90' },
+            { offset: '100%', color: '#fff176', opacity: '0.98' },
+        ];
+        stops.forEach(({ offset, color, opacity }) => {
+            const s = document.createElementNS(ns, 'stop');
+            s.setAttribute('offset', offset);
+            s.setAttribute('stop-color', color);
+            s.setAttribute('stop-opacity', opacity);
+            grad.appendChild(s);
+        });
+        defs.appendChild(grad);
+
+        // Sombra
+        const shadow = document.createElementNS(ns, 'polygon');
+        shadow.setAttribute('points', pts);
+        shadow.setAttribute('fill', 'rgba(0,0,0,0.22)');
+        shadow.setAttribute('transform', `translate(${sq*0.03},${sq*0.05})`);
+        svg.appendChild(shadow);
+
+        // Contorno
+        const outline = document.createElementNS(ns, 'polygon');
+        outline.setAttribute('points', pts);
+        outline.setAttribute('fill', 'none');
+        outline.setAttribute('stroke', isGreen ? 'rgba(10,70,30,0.55)' : 'rgba(120,70,0,0.55)');
+        outline.setAttribute('stroke-width', sq * 0.04);
+        outline.setAttribute('stroke-linejoin', 'round');
+        svg.appendChild(outline);
+
+        // Flecha principal
+        const arrow = document.createElementNS(ns, 'polygon');
+        arrow.setAttribute('points', pts);
+        arrow.setAttribute('fill', `url(#${gradId})`);
+        arrow.setAttribute('stroke', isGreen ? 'rgba(134,239,172,0.5)' : 'rgba(255,240,100,0.5)');
+        arrow.setAttribute('stroke-width', sq * 0.02);
+        arrow.setAttribute('stroke-linejoin', 'round');
+        svg.appendChild(arrow);
+    }
+
+    const player = parseUci(playerUci);
+    const best   = parseUci(bestUci);
+
+    // Amarilla debajo, verde encima
+    if (player) addArrow(player.fromRow, player.fromCol, player.toRow, player.toCol, false, 'p');
+    if (best)   addArrow(best.fromRow,   best.fromCol,   best.toRow,   best.toCol,   true,  'b');
+
+    if (!player && !best) return;
+
+    boardEl.style.position = 'relative';
+    boardEl.appendChild(svg);
+    svg.style.opacity = '0';
+    svg.style.transition = 'opacity 0.18s ease';
+    requestAnimationFrame(() => { svg.style.opacity = '1'; });
 }
 
 // ── Animación de captura: la pieza capturada hace zoom y desaparece ──────
@@ -12944,7 +13618,7 @@ function renderBoard() {
     // Aplicar clase de estilo de piezas al tablero
     boardElement.className = 'chess-board board-theme-' + boardTheme + ' piece-style-' + pieceStyle;
     
-    const isFlipped = playerColor === 'black';
+    const isFlipped = (playerColor === 'black') !== manualBoardFlipped;
     const files = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
     
     for (let row = 0; row < 8; row++) {
@@ -13077,7 +13751,7 @@ function renderBoard() {
 }
 
 function renderCoordinateLabels() {
-    const isFlipped = playerColor === 'black';
+    const isFlipped = (playerColor === 'black') !== manualBoardFlipped;
     const files = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
     const ranks = ['8', '7', '6', '5', '4', '3', '2', '1'];
     
@@ -14304,30 +14978,42 @@ function showPromotionDialog(pieceColor) {
     const container = document.getElementById('promotion-pieces');
     if (!overlay || !container) return;
 
-    const pieces = [
-        { type: 'queen', symbol: pieceColor === 'white' ? '♕' : '♛' },
-        { type: 'rook', symbol: pieceColor === 'white' ? '♖' : '♜' },
-        { type: 'bishop', symbol: pieceColor === 'white' ? '♗' : '♝' },
-        { type: 'knight', symbol: pieceColor === 'white' ? '♘' : '♞' }
-    ];
+    const typeMap   = { queen: 'Q', rook: 'R', bishop: 'B', knight: 'N' };
+    const labelMap  = { queen: 'Dama', rook: 'Torre', bishop: 'Alfil', knight: 'Caballo' };
+    const colorChar = pieceColor === 'white' ? 'w' : 'b';
+    const fallback  = { queen: pieceColor === 'white' ? '♕' : '♛',
+                        rook:   pieceColor === 'white' ? '♖' : '♜',
+                        bishop: pieceColor === 'white' ? '♗' : '♝',
+                        knight: pieceColor === 'white' ? '♘' : '♞' };
 
     container.innerHTML = '';
-    pieces.forEach(p => {
+    ['queen', 'rook', 'bishop', 'knight'].forEach(type => {
         const btn = document.createElement('button');
         btn.className = 'promotion-piece-btn';
-        btn.textContent = p.symbol;
-        btn.title = p.type === 'queen' ? 'Dama' : p.type === 'rook' ? 'Torre' : p.type === 'bishop' ? 'Alfil' : 'Caballo';
+        btn.title = labelMap[type];
+
+        if (SVG_PIECE_SETS.includes(pieceStyle)) {
+            const img = document.createElement('img');
+            img.src = `pieces/${pieceStyle}/${colorChar}${typeMap[type]}.svg`;
+            img.alt = labelMap[type];
+            img.className = 'promotion-piece-img';
+            btn.appendChild(img);
+        } else {
+            btn.textContent = fallback[type];
+        }
+
+        const p = { type };
         btn.addEventListener('click', () => {
             if (pendingPromotionMove) {
                 const { fromRow, fromCol, toRow, toCol, isQuiz, isFreeTraining, isPuzzle } = pendingPromotionMove;
                 if (isPuzzle) {
-                    puzzleCheckMove(fromRow, fromCol, toRow, toCol, p.type.charAt(0));
+                    puzzleCheckMove(fromRow, fromCol, toRow, toCol, type.charAt(0));
                 } else if (isFreeTraining) {
-                    executeFreeTrainingMove(fromRow, fromCol, toRow, toCol, p.type);
+                    executeFreeTrainingMove(fromRow, fromCol, toRow, toCol, type);
                 } else if (isQuiz) {
-                    quizCheckMove(fromRow, fromCol, toRow, toCol, p.type);
+                    quizCheckMove(fromRow, fromCol, toRow, toCol, type);
                 } else {
-                    executeMove(fromRow, fromCol, toRow, toCol, p.type);
+                    executeMove(fromRow, fromCol, toRow, toCol, type);
                 }
                 pendingPromotionMove = null;
                 overlay.style.display = 'none';

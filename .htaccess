@@ -25,6 +25,16 @@
 # Asegurar UTF-8 por defecto
 AddDefaultCharset UTF-8
 
+# version.js nunca debe quedar en caché del navegador —
+# es el archivo que controla el cache-busting de style.css y app.js
+<IfModule mod_headers.c>
+    <FilesMatch "^version\.js$">
+        Header set Cache-Control "no-cache, no-store, must-revalidate"
+        Header set Pragma "no-cache"
+        Header set Expires "0"
+    </FilesMatch>
+</IfModule>
+
 # Permitir el embed de YouTube (nocookie) en iframes
 <IfModule mod_headers.c>
     Header always set Content-Security-Policy "frame-src 'self' https://www.youtube-nocookie.com https://www.youtube.com;"

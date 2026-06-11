@@ -25,12 +25,12 @@ $base   = $scheme . '://' . $host . $dir . '/';
 // ---- Lectura/saneado de parámetros ---------------------------------------
 function gp($k) { return isset($_GET[$k]) ? (string)$_GET[$k] : ''; }
 
-$fen   = gp('fen');
+$fen   = substr(gp('fen'), 0, 100);
 $flip  = gp('flip') === '1' ? '1' : '';
 $kind  = preg_replace('/[^a-z]/', '', strtolower(gp('kind')));
-$t     = trim(gp('t'));
-$s     = trim(gp('s'));
-$mv    = preg_replace('/[^a-h1-8]/', '', strtolower(gp('mv')));
+$t     = mb_substr(trim(gp('t')), 0, 120);
+$s     = mb_substr(trim(gp('s')), 0, 120);
+$mv    = substr(preg_replace('/[^a-h1-8]/', '', strtolower(gp('mv'))), 0, 4);
 
 $moves   = preg_replace('/[^a-h1-8nbrqkNBRQKO=,\-]/', '', gp('moves'));
 $opening = preg_replace('/[^A-Za-z0-9_\-]/', '', gp('opening'));

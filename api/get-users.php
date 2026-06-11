@@ -191,6 +191,23 @@ $demoUsers = [
     ['id'=>'demo098','nick'=>'endgame_wizard',    'elo'=>1990],
     ['id'=>'demo099','nick'=>'opening_bookworm',  'elo'=>1560],
     ['id'=>'demo100','nick'=>'chess960_fan',      'elo'=>1705],
+    // ── FIDE Candidates 2026 Cyprus ──────────────────────────────────────
+    ['id'=>'demo101','nick'=>'Caruana',           'elo'=>2795],
+    ['id'=>'demo102','nick'=>'Nakamura',          'elo'=>2810],
+    ['id'=>'demo103','nick'=>'Sindarov',          'elo'=>2745],
+    ['id'=>'demo104','nick'=>'Wei_Yi',            'elo'=>2754],
+    ['id'=>'demo105','nick'=>'Praggnanandhaa',    'elo'=>2741],
+    ['id'=>'demo106','nick'=>'Giri',              'elo'=>2753],
+    ['id'=>'demo107','nick'=>'Bluebaum',          'elo'=>2698],
+    ['id'=>'demo108','nick'=>'Esipenko',          'elo'=>2698],
+    ['id'=>'demo109','nick'=>'Goryachkina',       'elo'=>2534],
+    ['id'=>'demo110','nick'=>'Tan_Zhongyi',       'elo'=>2535],
+    ['id'=>'demo111','nick'=>'Lagno',             'elo'=>2508],
+    ['id'=>'demo112','nick'=>'Zhu_Jiner',         'elo'=>2578],
+    ['id'=>'demo113','nick'=>'Assaubayeva',       'elo'=>2516],
+    ['id'=>'demo114','nick'=>'Muzychuk_A',        'elo'=>2522],
+    ['id'=>'demo115','nick'=>'Vaishali',          'elo'=>2470],
+    ['id'=>'demo116','nick'=>'Divya_Deshmukh',   'elo'=>2497],
 ];
 
 // Semilla aleatoria basada en la hora actual para que cambie en cada visita

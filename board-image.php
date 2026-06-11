@@ -24,12 +24,12 @@ $BOARD = 540; $BX = 48; $BY = (int)(($H - $BOARD) / 2);
 $SQ = $BOARD / 8.0;
 
 // ---- Parámetros -----------------------------------------------------------
-$fen  = isset($_GET['fen'])  ? (string)$_GET['fen'] : 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR';
+$fen  = isset($_GET['fen'])  ? substr((string)$_GET['fen'], 0, 100) : 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR';
 $flip = isset($_GET['flip']) && $_GET['flip'] === '1';
 $kind = isset($_GET['kind']) ? preg_replace('/[^a-z]/', '', strtolower($_GET['kind'])) : '';
-$t    = isset($_GET['t']) ? trim((string)$_GET['t']) : '';
-$s    = isset($_GET['s']) ? trim((string)$_GET['s']) : '';
-$mv   = isset($_GET['mv']) ? preg_replace('/[^a-h1-8]/', '', strtolower($_GET['mv'])) : '';
+$t    = isset($_GET['t']) ? mb_substr(trim((string)$_GET['t']), 0, 120) : '';
+$s    = isset($_GET['s']) ? mb_substr(trim((string)$_GET['s']), 0, 120) : '';
+$mv   = isset($_GET['mv']) ? substr(preg_replace('/[^a-h1-8]/', '', strtolower($_GET['mv'])), 0, 4) : '';
 
 $placement = explode(' ', trim($fen))[0];
 

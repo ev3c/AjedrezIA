@@ -15,6 +15,14 @@
 
 <!-- Versión de la aplicación 3.0.6 -->
 
+<!-- Aplicar zoom guardado antes de pintar la página (evita flash al cargar) -->
+<script>
+try {
+    var _z = JSON.parse(localStorage.getItem('chess_settings') || '{}').boardZoom;
+    if (_z >= 70 && _z <= 120) document.documentElement.style.zoom = _z / 100;
+} catch(e) {}
+</script>
+
 <!-- Google Tag Manager --
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -242,135 +250,193 @@
                         <select id="famous-game-select" class="select">
                             <option value="">— Elegir partida —</option>
                             <optgroup label="⚔️ Campeonatos del Mundo">
-                                <option value="steinitz-zukertort-86">Steinitz vs Zukertort, 1886 G1 — Primer campeonato</option>
-                                <option value="spassky-fischer-72-g1">Spassky vs Fischer, 1972 G1</option>
-                                <option value="fischer-spassky">Fischer vs Spassky, 1972 G6</option>
-                                <option value="korchnoi-karpov-78">Korchnoi vs Karpov, 1978 G17</option>
-                                <option value="karpov-kasparov-85">Karpov vs Kasparov, 1985 G16</option>
-                                <option value="karpov-kasparov-85-g24">Karpov vs Kasparov, 1985 G24</option>
-                                <option value="karpov-kasparov-87">Karpov vs Kasparov, 1987 G24 Sevilla</option>
-                                <option value="kasparov-karpov-90">Kasparov vs Karpov, 1990 G20 Lyon</option>
-                                <option value="kasparov-anand-95">Kasparov vs Anand, PCA 1995 G10</option>
-                                <option value="kramnik-kasparov-2000">Kramnik vs Kasparov, 2000 G10</option>
-                                <option value="tal-botvinnik-60">Tal vs Botvinnik, 1960 G6</option>
-                                <option value="carlsen-anand-13">Carlsen vs Anand, 2013 G6</option>
-                                <option value="anand-carlsen-14">Anand vs Carlsen, 2014 G11</option>
-                                <option value="carlsen-karjakin-16">Carlsen vs Karjakin, 2016 Desempate G4</option>
-                                <option value="carlsen-caruana-18">Carlsen vs Caruana, 2018 Desempate</option>
-                                <option value="ding-nepomniachtchi-23">Ding Liren vs Nepomniachtchi, 2023 G12</option>
-                                <option value="capablanca-alekhine-27">Capablanca vs Alekhine, 1927 G34</option>
-                                <option value="petrosian-spassky-66">Petrosian vs Spassky, 1966 G10</option>
+                                <option value="steinitz-zukertort-86">Steinitz vs Zukertort, 1886 G1 — Primer campeonato (0-1)</option>
+                                <option value="spassky-fischer-72-g1">Spassky vs Fischer, 1972 G1 (1-0)</option>
+                                <option value="fischer-spassky">Fischer vs Spassky, 1972 G6 (1-0)</option>
+                                <option value="korchnoi-karpov-78">Korchnoi vs Karpov, 1978 G17 (0-1)</option>
+                                <option value="karpov-kasparov-85">Karpov vs Kasparov, 1985 G16 (0-1)</option>
+                                <option value="karpov-kasparov-85-g24">Karpov vs Kasparov, 1985 G24 (0-1)</option>
+                                <option value="karpov-kasparov-87">Karpov vs Kasparov, 1987 G24 Sevilla (1-0)</option>
+                                <option value="kasparov-karpov-90">Kasparov vs Karpov, 1990 G20 Lyon (1-0)</option>
+                                <option value="kasparov-anand-95">Kasparov vs Anand, PCA 1995 G10 (1-0)</option>
+                                <option value="kramnik-kasparov-2000">Kramnik vs Kasparov, 2000 G10 (1-0)</option>
+                                <option value="tal-botvinnik-60">Tal vs Botvinnik, 1960 G6 (0-1)</option>
+                                <option value="carlsen-anand-13">Carlsen vs Anand, 2013 G6 (0-1)</option>
+                                <option value="anand-carlsen-14">Anand vs Carlsen, 2014 G11 (1-0)</option>
+                                <option value="carlsen-karjakin-16">Carlsen vs Karjakin, 2016 Desempate G4 (1-0)</option>
+                                <option value="carlsen-caruana-18">Carlsen vs Caruana, 2018 Desempate (1-0)</option>
+                                <option value="ding-nepomniachtchi-23">Ding Liren vs Nepomniachtchi, 2023 G12 (1-0)</option>
+                                <option value="capablanca-alekhine-27">Capablanca vs Alekhine, 1927 G34 (1-0)</option>
+                                <option value="petrosian-spassky-66">Petrosian vs Spassky, 1966 G10 (1-0)</option>
+                            </optgroup>
+                            <optgroup label="🏆 FIDE Candidates 2026 Cyprus">
+                                <option value="cand26-caruana-nakamura-r1">Caruana vs Nakamura R1 (1-0)</option>
+                                <option value="cand26-sindarov-esipenko-r1">Sindarov vs Esipenko R1 (1-0)</option>
+                                <option value="cand26-zhu-tan-r1">Zhu vs Tan R1 (1/2-1/2)</option>
+                                <option value="cand26-goryachkina-lagno-r1">Goryachkina vs Lagno R1 (1/2-1/2)</option>
+                                <option value="cand26-wei-praggnanandhaa-r-r2">Wei vs Praggnanandhaa R R2 (1/2-1/2)</option>
+                                <option value="cand26-esipenko-nakamura-r2">Esipenko vs Nakamura R2 (1/2-1/2)</option>
+                                <option value="cand26-lagno-zhu-r2">Lagno vs Zhu R2 (1/2-1/2)</option>
+                                <option value="cand26-divya-deshmukh-vaishali-r2">Divya Deshmukh vs Vaishali R2 (1/2-1/2)</option>
+                                <option value="cand26-caruana-wei-r3">Caruana vs Wei R3 (1-0)</option>
+                                <option value="cand26-praggnanandhaa-r-sindarov-r3">Praggnanandhaa R vs Sindarov R3 (0-1)</option>
+                                <option value="cand26-zhu-assaubayeva-r3">Zhu vs Assaubayeva R3 (0-1)</option>
+                                <option value="cand26-tan-lagno-r3">Tan vs Lagno R3 (0-1)</option>
+                                <option value="cand26-sindarov-caruana-r4">Sindarov vs Caruana R4 (1-0)</option>
+                                <option value="cand26-esipenko-giri-r4">Esipenko vs Giri R4 (0-1)</option>
+                                <option value="cand26-divya-deshmukh-zhu-r4">Divya Deshmukh vs Zhu R4 (0-1)</option>
+                                <option value="cand26-muzychuk-lagno-r4">Muzychuk vs Lagno R4 (1-0)</option>
+                                <option value="cand26-nakamura-sindarov-r5">Nakamura vs Sindarov R5 (0-1)</option>
+                                <option value="cand26-caruana-bluebaum-r5">Caruana vs Bluebaum R5 (1-0)</option>
+                                <option value="cand26-lagno-assaubayeva-r5">Lagno vs Assaubayeva R5 (1-0)</option>
+                                <option value="cand26-zhu-vaishali-r5">Zhu vs Vaishali R5 (1-0)</option>
+                                <option value="cand26-wei-sindarov-r6">Wei vs Sindarov R6 (0-1)</option>
+                                <option value="cand26-nakamura-praggnanandhaa-r-r6">Nakamura vs Praggnanandhaa R R6 (1/2-1/2)</option>
+                                <option value="cand26-zhu-muzychuk-r6">Zhu vs Muzychuk R6 (0-1)</option>
+                                <option value="cand26-lagno-vaishali-r6">Lagno vs Vaishali R6 (0-1)</option>
+                                <option value="cand26-esipenko-wei-r7">Esipenko vs Wei R7 (0-1)</option>
+                                <option value="cand26-sindarov-giri-r7">Sindarov vs Giri R7 (1/2-1/2)</option>
+                                <option value="cand26-vaishali-tan-r7">Vaishali vs Tan R7 (1-0)</option>
+                                <option value="cand26-muzychuk-assaubayeva-r7">Muzychuk vs Assaubayeva R7 (1/2-1/2)</option>
+                                <option value="cand26-nakamura-caruana-r8">Nakamura vs Caruana R8 (1-0)</option>
+                                <option value="cand26-giri-praggnanandhaa-r-r8">Giri vs Praggnanandhaa R R8 (1-0)</option>
+                                <option value="cand26-muzychuk-divya-deshmukh-r8">Muzychuk vs Divya Deshmukh R8 (0-1)</option>
+                                <option value="cand26-lagno-goryachkina-r8">Lagno vs Goryachkina R8 (1-0)</option>
+                                <option value="cand26-caruana-giri-r9">Caruana vs Giri R9 (0-1)</option>
+                                <option value="cand26-bluebaum-sindarov-r9">Bluebaum vs Sindarov R9 (1/2-1/2)</option>
+                                <option value="cand26-vaishali-divya-deshmukh-r9">Vaishali vs Divya Deshmukh R9 (1-0)</option>
+                                <option value="cand26-zhu-lagno-r9">Zhu vs Lagno R9 (1-0)</option>
+                                <option value="cand26-sindarov-praggnanandhaa-r-r10">Sindarov vs Praggnanandhaa R R10 (1-0)</option>
+                                <option value="cand26-esipenko-bluebaum-r10">Esipenko vs Bluebaum R10 (1/2-1/2)</option>
+                                <option value="cand26-muzychuk-vaishali-r10">Muzychuk vs Vaishali R10 (1/2-1/2)</option>
+                                <option value="cand26-assaubayeva-zhu-r10">Assaubayeva vs Zhu R10 (1-0)</option>
+                                <option value="cand26-caruana-sindarov-r11">Caruana vs Sindarov R11 (1/2-1/2)</option>
+                                <option value="cand26-giri-esipenko-r11">Giri vs Esipenko R11 (1/2-1/2)</option>
+                                <option value="cand26-goryachkina-vaishali-r11">Goryachkina vs Vaishali R11 (0-1)</option>
+                                <option value="cand26-zhu-divya-deshmukh-r11">Zhu vs Divya Deshmukh R11 (1/2-1/2)</option>
+                                <option value="cand26-wei-giri-r12">Wei vs Giri R12 (1/2-1/2)</option>
+                                <option value="cand26-esipenko-praggnanandhaa-r-r12">Esipenko vs Praggnanandhaa R R12 (1/2-1/2)</option>
+                                <option value="cand26-vaishali-zhu-r12">Vaishali vs Zhu R12 (0-1)</option>
+                                <option value="cand26-muzychuk-goryachkina-r12">Muzychuk vs Goryachkina R12 (1/2-1/2)</option>
+                                <option value="cand26-giri-sindarov-r13">Giri vs Sindarov R13 (1/2-1/2)</option>
+                                <option value="cand26-wei-esipenko-r13">Wei vs Esipenko R13 (1-0)</option>
+                                <option value="cand26-zhu-goryachkina-r13">Zhu vs Goryachkina R13 (0-1)</option>
+                                <option value="cand26-assaubayeva-muzychuk-r13">Assaubayeva vs Muzychuk R13 (1-0)</option>
+                                <option value="cand26-bluebaum-giri-r14">Bluebaum vs Giri R14 (0-1)</option>
+                                <option value="cand26-esipenko-caruana-r14">Esipenko vs Caruana R14 (0-1)</option>
+                                <option value="cand26-vaishali-lagno-r14">Vaishali vs Lagno R14 (1-0)</option>
+                                <option value="cand26-divya-deshmukh-assaubayeva-r14">Divya Deshmukh vs Assaubayeva R14 (1/2-1/2)</option>
                             </optgroup>
                             <optgroup label="♔ Partidas Inmortales y Clásicas">
-                                <option value="immortal">La Partida Inmortal (Anderssen, 1851)</option>
-                                <option value="evergreen">La Siempre Verde (Anderssen, 1852)</option>
-                                <option value="opera">La Partida de la Ópera (Morphy, 1858)</option>
-                                <option value="game-of-century">La Partida del Siglo (Fischer, 1956)</option>
-                                <option value="rubinstein-immortal">La Inmortal de Rubinstein (1907)</option>
-                                <option value="najdorf-polish-immortal">La Inmortal Polaca (Najdorf, 1929)</option>
-                                <option value="anand-immortal">La Inmortal de Anand (2013)</option>
-                                <option value="ding-liren-immortal">La Inmortal de Ding Liren (2017)</option>
-                                <option value="nezhmetdinov-chernikov">Nezhmetdinov vs Chernikov (1962)</option>
-                                <option value="mcdonell-labourdonnais">McDonnell vs La Bourdonnais (1834)</option>
+                                <option value="immortal">La Partida Inmortal (Anderssen, 1851) (1-0)</option>
+                                <option value="evergreen">La Siempre Verde (Anderssen, 1852) (1-0)</option>
+                                <option value="opera">La Partida de la Ópera (Morphy, 1858) (1-0)</option>
+                                <option value="game-of-century">La Partida del Siglo (Fischer, 1956) (0-1)</option>
+                                <option value="rubinstein-immortal">La Inmortal de Rubinstein (1907) (0-1)</option>
+                                <option value="najdorf-polish-immortal">La Inmortal Polaca (Najdorf, 1929) (0-1)</option>
+                                <option value="anand-immortal">La Inmortal de Anand (2013) (0-1)</option>
+                                <option value="ding-liren-immortal">La Inmortal de Ding Liren (2017) (0-1)</option>
+                                <option value="nezhmetdinov-chernikov">Nezhmetdinov vs Chernikov (1962) (1-0)</option>
+                                <option value="mcdonell-labourdonnais">McDonnell vs La Bourdonnais (1834) (0-1)</option>
                             </optgroup>
                             <optgroup label="👑 Kasparov (11)">
-                                <option value="kasparov-topalov">vs Topalov, Wijk aan Zee 1999</option>
-                                <option value="kasparov-shirov-94">vs Shirov, Horgen 1994</option>
-                                <option value="kasparov-portisch-83">vs Portisch, Niksic 1983</option>
-                                <option value="kasparov-kramnik-96">vs Kramnik, Dos Hermanas 1996</option>
-                                <option value="kasparov-karpov-90">vs Karpov, Mundial 1990 G20</option>
-                                <option value="kasparov-anand-95">vs Anand, Mundial 1995 G10</option>
-                                <option value="karpov-kasparov-85">Karpov vs Kasparov, 1985 G16</option>
-                                <option value="karpov-kasparov-85-g24">Karpov vs Kasparov, 1985 G24</option>
-                                <option value="karpov-kasparov-87">Karpov vs Kasparov, 1987 G24</option>
-                                <option value="kasparov-deepblue">vs Deep Blue, 1997</option>
-                                <option value="polgar-kasparov">Polgar vs Kasparov, 2002</option>
+                                <option value="kasparov-topalov">vs Topalov, Wijk aan Zee 1999 (1-0)</option>
+                                <option value="kasparov-shirov-94">vs Shirov, Horgen 1994 (1-0)</option>
+                                <option value="kasparov-portisch-83">vs Portisch, Niksic 1983 (1-0)</option>
+                                <option value="kasparov-kramnik-96">vs Kramnik, Dos Hermanas 1996 (0-1)</option>
+                                <option value="kasparov-karpov-90">vs Karpov, Mundial 1990 G20 (1-0)</option>
+                                <option value="kasparov-anand-95">vs Anand, Mundial 1995 G10 (1-0)</option>
+                                <option value="karpov-kasparov-85">Karpov vs Kasparov, 1985 G16 (0-1)</option>
+                                <option value="karpov-kasparov-85-g24">Karpov vs Kasparov, 1985 G24 (0-1)</option>
+                                <option value="karpov-kasparov-87">Karpov vs Kasparov, 1987 G24 (1-0)</option>
+                                <option value="kasparov-deepblue">vs Deep Blue, 1997 (1-0)</option>
+                                <option value="polgar-kasparov">Polgar vs Kasparov, 2002 (1-0)</option>
                             </optgroup>
                             <optgroup label="👑 Fischer (8)">
-                                <option value="game-of-century">vs D. Byrne, 1956 — Partida del Siglo</option>
-                                <option value="byrne-fischer-63">R. Byrne vs Fischer, 1963 — Brillantez</option>
-                                <option value="fischer-spassky">vs Spassky, Mundial 1972 G6</option>
-                                <option value="fischer-taimanov-71">vs Taimanov, Candidatos 1971</option>
-                                <option value="fischer-larsen-71">vs Larsen, Candidatos 1971</option>
-                                <option value="fischer-11-0">vs Benko, US Ch. 1963</option>
-                                <option value="fischer-pomar-62">vs Pomar, Estocolmo 1962</option>
-                                <option value="pomar-fischer">Pomar vs Fischer, La Habana 1966</option>
+                                <option value="game-of-century">vs D. Byrne, 1956 — Partida del Siglo (0-1)</option>
+                                <option value="byrne-fischer-63">R. Byrne vs Fischer, 1963 — Brillantez (0-1)</option>
+                                <option value="fischer-spassky">vs Spassky, Mundial 1972 G6 (1-0)</option>
+                                <option value="fischer-taimanov-71">vs Taimanov, Candidatos 1971 (1-0)</option>
+                                <option value="fischer-larsen-71">vs Larsen, Candidatos 1971 (1-0)</option>
+                                <option value="fischer-11-0">vs Benko, US Ch. 1963 (1-0)</option>
+                                <option value="fischer-pomar-62">vs Pomar, Estocolmo 1962 (1/2-1/2)</option>
+                                <option value="pomar-fischer">Pomar vs Fischer, La Habana 1966 (0-1)</option>
                             </optgroup>
                             <optgroup label="👑 Carlsen (6)">
-                                <option value="carlsen-ernst">vs Ernst, Wijk aan Zee 2004</option>
-                                <option value="carlsen-anand-13">vs Anand, Mundial 2013 G6</option>
-                                <option value="carlsen-karjakin-16">vs Karjakin, Mundial 2016 Desempate</option>
-                                <option value="carlsen-caruana-18">vs Caruana, Mundial 2018 Desempate</option>
-                                <option value="carlsen-nakamura-11">vs Nakamura, Londres 2011</option>
-                                <option value="nakamura-carlsen-16">Nakamura vs Carlsen, Zúrich 2014</option>
+                                <option value="carlsen-ernst">vs Ernst, Wijk aan Zee 2004 (1-0)</option>
+                                <option value="carlsen-anand-13">vs Anand, Mundial 2013 G6 (0-1)</option>
+                                <option value="carlsen-karjakin-16">vs Karjakin, Mundial 2016 Desempate (1-0)</option>
+                                <option value="carlsen-caruana-18">vs Caruana, Mundial 2018 Desempate (1-0)</option>
+                                <option value="carlsen-nakamura-11">vs Nakamura, Londres 2011 (1-0)</option>
+                                <option value="nakamura-carlsen-16">Nakamura vs Carlsen, Zúrich 2014 (0-1)</option>
                             </optgroup>
                             <optgroup label="👑 Tal (5)">
-                                <option value="tal-botvinnik-60">vs Botvinnik, Mundial 1960 G6</option>
-                                <option value="tal-larsen-65">vs Larsen, Candidatos 1965</option>
-                                <option value="tal-hecht-62">vs Hecht, Olimpiada 1962</option>
-                                <option value="tal-tringov-64">vs Tringov, Ámsterdam 1964</option>
-                                <option value="polugaevsky-tal">Polugaevsky vs Tal, 1969</option>
+                                <option value="tal-botvinnik-60">vs Botvinnik, Mundial 1960 G6 (0-1)</option>
+                                <option value="tal-larsen-65">vs Larsen, Candidatos 1965 (1-0)</option>
+                                <option value="tal-hecht-62">vs Hecht, Olimpiada 1962 (1-0)</option>
+                                <option value="tal-tringov-64">vs Tringov, Ámsterdam 1964 (1-0)</option>
+                                <option value="polugaevsky-tal">Polugaevsky vs Tal, 1969 (1-0)</option>
                             </optgroup>
                             <optgroup label="👑 Karpov (5)">
-                                <option value="karpov-unzicker">vs Unzicker, Olimpiada 1974</option>
-                                <option value="karpov-kasparov-85">vs Kasparov, Mundial 1985 G16</option>
-                                <option value="karpov-kasparov-87">vs Kasparov, Mundial 1987 G24</option>
-                                <option value="korchnoi-karpov-78">Korchnoi vs Karpov, 1978</option>
-                                <option value="illescas-karpov">Illescas vs Karpov, 1994</option>
+                                <option value="karpov-unzicker">vs Unzicker, Olimpiada 1974 (1-0)</option>
+                                <option value="karpov-kasparov-85">vs Kasparov, Mundial 1985 G16 (0-1)</option>
+                                <option value="karpov-kasparov-87">vs Kasparov, Mundial 1987 G24 (1-0)</option>
+                                <option value="korchnoi-karpov-78">Korchnoi vs Karpov, 1978 (0-1)</option>
+                                <option value="illescas-karpov">Illescas vs Karpov, 1994 (0-1)</option>
                             </optgroup>
                             <optgroup label="👑 Morphy (4)">
-                                <option value="opera">Partida de la Ópera, 1858</option>
-                                <option value="morphy-consultants">vs Consultantes, 1858</option>
-                                <option value="morphy-paulsen">vs Paulsen, Nueva York 1857</option>
-                                <option value="morphy-anderssen-58">vs Anderssen, París 1858</option>
+                                <option value="opera">Partida de la Ópera, 1858 (1-0)</option>
+                                <option value="morphy-consultants">vs Consultantes, 1858 (1-0)</option>
+                                <option value="morphy-paulsen">vs Paulsen, Nueva York 1857 (0-1)</option>
+                                <option value="morphy-anderssen-58">vs Anderssen, París 1858 (1-0)</option>
                             </optgroup>
                             <optgroup label="👑 Capablanca (4)">
-                                <option value="capablanca-marshall">vs Marshall, NY 1918</option>
-                                <option value="capablanca-tartakower">vs Tartakower, NY 1924</option>
-                                <option value="capablanca-alekhine-27">vs Alekhine, Mundial 1927 G34</option>
-                                <option value="bernstein-capablanca">Bernstein vs Capablanca, 1914</option>
+                                <option value="capablanca-marshall">vs Marshall, NY 1918 (1-0)</option>
+                                <option value="capablanca-tartakower">vs Tartakower, NY 1924 (1-0)</option>
+                                <option value="capablanca-alekhine-27">vs Alekhine, Mundial 1927 G34 (1-0)</option>
+                                <option value="bernstein-capablanca">Bernstein vs Capablanca, 1914 (0-1)</option>
                             </optgroup>
                             <optgroup label="👑 Alekhine (3)">
-                                <option value="reti-alekhine">Réti vs Alekhine, 1925</option>
-                                <option value="alekhine-bogoljubov">vs Bogoljubov, 1922</option>
-                                <option value="alekhine-nimzowitsch">vs Nimzowitsch, San Remo 1930</option>
+                                <option value="reti-alekhine">Réti vs Alekhine, 1925 (0-1)</option>
+                                <option value="alekhine-bogoljubov">vs Bogoljubov, 1922 (0-1)</option>
+                                <option value="alekhine-nimzowitsch">vs Nimzowitsch, San Remo 1930 (1-0)</option>
                             </optgroup>
                             <optgroup label="👑 Anand (3)">
-                                <option value="anand-immortal">Inmortal de Anand (2013)</option>
-                                <option value="anand-topalov-05">vs Topalov, Sofía 2005</option>
-                                <option value="anand-carlsen-14">vs Carlsen, Mundial 2014 G11</option>
+                                <option value="anand-immortal">Inmortal de Anand (2013) (0-1)</option>
+                                <option value="anand-topalov-05">vs Topalov, Sofía 2005 (1/2-1/2)</option>
+                                <option value="anand-carlsen-14">vs Carlsen, Mundial 2014 G11 (1-0)</option>
                             </optgroup>
                             <optgroup label="👑 Kramnik (2)">
-                                <option value="kramnik-kasparov-2000">vs Kasparov, Mundial 2000 G10</option>
-                                <option value="kasparov-kramnik-96">Kasparov vs Kramnik, 1996</option>
+                                <option value="kramnik-kasparov-2000">vs Kasparov, Mundial 2000 G10 (1-0)</option>
+                                <option value="kasparov-kramnik-96">Kasparov vs Kramnik, 1996 (0-1)</option>
                             </optgroup>
                             <optgroup label="👑 Spassky (5)">
-                                <option value="spassky-bronstein">vs Bronstein, 1960</option>
-                                <option value="spassky-tal-73">vs Tal, Tallín 1973</option>
-                                <option value="spassky-fischer-72-g1">vs Fischer, Mundial 1972 G1</option>
-                                <option value="keres-spassky-55">Keres vs Spassky, 1955</option>
-                                <option value="larsen-spassky-70">Larsen vs Spassky, 1970</option>
+                                <option value="spassky-bronstein">vs Bronstein, 1960 (1-0)</option>
+                                <option value="spassky-tal-73">vs Tal, Tallín 1973 (0-1)</option>
+                                <option value="spassky-fischer-72-g1">vs Fischer, Mundial 1972 G1 (1-0)</option>
+                                <option value="keres-spassky-55">Keres vs Spassky, 1955 (1-0)</option>
+                                <option value="larsen-spassky-70">Larsen vs Spassky, 1970 (0-1)</option>
                             </optgroup>
                             <optgroup label="👑 Lasker / Steinitz / Botvinnik">
-                                <option value="lasker-bauer">Lasker vs Bauer, 1889</option>
-                                <option value="lasker-capablanca">Lasker vs Capablanca, 1914</option>
-                                <option value="steinitz-mongredien">Steinitz vs Mongredien, 1862</option>
-                                <option value="steinitz-zukertort-86">Zukertort vs Steinitz, 1886</option>
-                                <option value="botvinnik-capablanca">Botvinnik vs Capablanca, 1938</option>
-                                <option value="smyslov-reshevsky">Smyslov vs Reshevsky, 1945</option>
+                                <option value="lasker-bauer">Lasker vs Bauer, 1889 (1-0)</option>
+                                <option value="lasker-capablanca">Lasker vs Capablanca, 1914 (1-0)</option>
+                                <option value="steinitz-mongredien">Steinitz vs Mongredien, 1862 (1-0)</option>
+                                <option value="steinitz-zukertort-86">Zukertort vs Steinitz, 1886 (0-1)</option>
+                                <option value="botvinnik-capablanca">Botvinnik vs Capablanca, 1938 (1-0)</option>
+                                <option value="smyslov-reshevsky">Smyslov vs Reshevsky, 1945 (1-0)</option>
                             </optgroup>
                             <optgroup label="🌟 Otros Maestros">
-                                <option value="short-timman">Short vs Timman, 1991</option>
-                                <option value="topalov-shirov">Topalov vs Shirov, 1998</option>
-                                <option value="ivanchuk-yusupov">Ivanchuk vs Yusupov, 1991</option>
-                                <option value="polgar-kasparov">Polgar vs Kasparov, 2002</option>
-                                <option value="geller-euwe">Geller vs Euwe, 1953</option>
-                                <option value="deepblue-kasparov-96">Deep Blue vs Kasparov, 1996</option>
-                                <option value="bogolyubov-monticelli">Bogolyubov vs Monticelli, 1930</option>
-                                <option value="torre-lasker">Torre vs Lasker, 1925</option>
-                                <option value="vallejo-shirov">Vallejo vs Shirov, 2002</option>
-                                <option value="illescas-karpov">Illescas vs Karpov, 1994</option>
-                                <option value="ding-nepomniachtchi-23">Ding Liren vs Nepomniachtchi, 2023</option>
+                                <option value="short-timman">Short vs Timman, 1991 (1-0)</option>
+                                <option value="topalov-shirov">Topalov vs Shirov, 1998 (0-1)</option>
+                                <option value="ivanchuk-yusupov">Ivanchuk vs Yusupov, 1991 (0-1)</option>
+                                <option value="polgar-kasparov">Polgar vs Kasparov, 2002 (1-0)</option>
+                                <option value="geller-euwe">Geller vs Euwe, 1953 (0-1)</option>
+                                <option value="deepblue-kasparov-96">Deep Blue vs Kasparov, 1996 (1-0)</option>
+                                <option value="bogolyubov-monticelli">Bogolyubov vs Monticelli, 1930 (0-1)</option>
+                                <option value="torre-lasker">Torre vs Lasker, 1925 (1-0)</option>
+                                <option value="vallejo-shirov">Vallejo vs Shirov, 2002 (1-0)</option>
+                                <option value="illescas-karpov">Illescas vs Karpov, 1994 (0-1)</option>
+                                <option value="ding-nepomniachtchi-23">Ding Liren vs Nepomniachtchi, 2023 (1-0)</option>
                             </optgroup>
                         </select>
                     </div>
@@ -435,6 +501,9 @@
                           <div class="mini-elo-display" title="Tu ELO">
                               <span class="mini-elo-label">ELO:&nbsp;</span><span class="mini-elo-value" id="mini-elo-value">1200</span>
                           </div>
+                          <button id="flip-board-btn" class="btn-flip-board" title="Girar tablero">
+                              <span class="fhalf fhalf--dark">♚</span><span class="fhalf fhalf--light">♔</span>
+                          </button>
                        </div>
                        <div id="captured-below" class="captured-below">
                            <span class="captured-label captured-label-white">Blancas: <span id="captured-white"></span></span>
@@ -678,6 +747,11 @@
 
                     <div class="config-section config-checkbox">
                         <label><input type="checkbox" id="sound-enabled" checked> Sonidos</label>
+                    </div>
+
+                    <div class="config-section">
+                        <label>🔍 Zoom — <span id="zoom-value">100%</span></label>
+                        <input type="range" id="zoom-slider" min="70" max="120" step="10" value="100" class="zoom-slider">
                     </div>
 
                     <div class="config-section">
