@@ -2657,15 +2657,16 @@ async function startNewPuzzle(resetIndex, navDir) {
     }
 
     currentPuzzle = filtered[puzzleSequentialIndex];
-    bindPuzzleToBoardAndUI();
+    bindPuzzleToBoardAndUI({ suppressScroll: navDir === 'prev' || navDir === 'next' });
 }
 
 /**
  * Con currentPuzzle y puzzleSequentialIndex ya fijados, activa el modo problema y pinta el tablero.
  * Usada por startNewPuzzle (lista) y por applyPuzzleFromQueryString (id concreto).
  */
-function bindPuzzleToBoardAndUI() {
+function bindPuzzleToBoardAndUI(opts) {
     if (!currentPuzzle) return;
+    const suppressScroll = opts && opts.suppressScroll;
     puzzleMoveIndex = 0;
     puzzleActive = true;
     puzzleMode = true;
@@ -2722,7 +2723,7 @@ function bindPuzzleToBoardAndUI() {
     updateMoveHistory();
     updateUndoButton();
     updateEvalBar();
-    scrollToBoard();
+    if (!suppressScroll) scrollToBoard();
 
     var list = getFilteredPuzzles();
     var counterText = ' (' + (puzzleSequentialIndex + 1) + ' de ' + list.length + ')';
@@ -3707,6 +3708,7 @@ function showVariantsPopup(variants, variantsKey, onSelectCallback) {
         const descPart = v.name.split(' — ')[1] || v.name;
         item.innerHTML = `<span class="variant-move">${moveLabel}</span> <span class="variant-name">${descPart}</span>`;
         item.title = `${moveLabel} — ${descPart}`;
+        item._variantData = v;
         item.addEventListener('mouseenter', () => highlightVariantSquares(v));
         item.addEventListener('mouseleave', clearVariantHighlight);
         item.addEventListener('touchstart', () => highlightVariantSquares(v), { passive: true });
@@ -3719,6 +3721,22 @@ function showVariantsPopup(variants, variantsKey, onSelectCallback) {
         };
         list.appendChild(item);
     }
+
+    // En móvil: al deslizar el dedo sobre la lista, resaltar el ítem bajo el toque
+    let _touchedItem = null;
+    list.addEventListener('touchmove', (e) => {
+        const touch = e.touches[0];
+        const el = document.elementFromPoint(touch.clientX, touch.clientY);
+        const item = el && el.closest('.variants-popup-item');
+        if (item && item !== _touchedItem) {
+            _touchedItem = item;
+            if (item._variantData) highlightVariantSquares(item._variantData);
+        }
+    }, { passive: true });
+    list.addEventListener('touchend', () => {
+        _touchedItem = null;
+        clearVariantHighlight();
+    }, { passive: true });
 
     popup.appendChild(list);
 
@@ -5623,6 +5641,11 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '3.4.0': [
+        'Pieza arrastrada centrada bajo el cursor cuando el zoom de página es distinto al 100%',
+        'Enlace de puzzle: carga 30 problemas de la misma categoría real del puzzle compartido',
+        '... y más mejoras en AjedrezIA ...',
+    ],
     '3.3.8': [
         'Botón girar tablero (⇅) junto al mini-reloj: mitad negra arriba / blanca abajo, se invierte al pulsar',
         'Zoom de la página: barra deslizante en Configuración (70%–120%)',
@@ -6626,11 +6649,13 @@ function startHeartbeat() {
     sendHeartbeat();
     _heartbeatTimer = setInterval(sendHeartbeat, 30000);
     startIncomingPolling();
+    startOnlinePresencePolling();
 }
 
 function stopHeartbeat() {
     if (_heartbeatTimer) { clearInterval(_heartbeatTimer); _heartbeatTimer = null; }
     stopIncomingPolling();
+    stopOnlinePresencePolling();
 }
 
 function isUserBusy() {
@@ -13967,12 +13992,17 @@ function handleDragStart(e, row, col) {
     if (!pieceEl) return;
 
     const rect = squareEl.getBoundingClientRect();
+    // Con CSS zoom en el html, position:fixed usa coordenadas del espacio zoomado,
+    // pero clientX/Y y getBoundingClientRect() devuelven píxeles de viewport.
+    // Dividimos por el zoom para convertir al espacio de coordenadas correcto.
+    const zf = parseFloat(document.documentElement.style.zoom) || 1;
+    const szZ = rect.width / zf;
     const ghost = pieceEl.cloneNode(true);
     ghost.className = pieceEl.className + ' drag-ghost';
-    ghost.style.width = rect.width * 0.85 + 'px';
-    ghost.style.height = rect.height * 0.85 + 'px';
-    ghost.style.left = (e.clientX - rect.width * 0.425) + 'px';
-    ghost.style.top = (e.clientY - rect.height * 0.425) + 'px';
+    ghost.style.width = szZ * 0.85 + 'px';
+    ghost.style.height = szZ * 0.85 + 'px';
+    ghost.style.left = (e.clientX / zf - szZ * 0.425) + 'px';
+    ghost.style.top = (e.clientY / zf - szZ * 0.425) + 'px';
     document.body.appendChild(ghost);
 
     pieceEl.style.opacity = '0.25';
@@ -13997,9 +14027,10 @@ function handleDragStart(e, row, col) {
 function handleDragMove(e) {
     if (!dragState) return;
     e.preventDefault();
-    const sz = dragState.squareSize;
-    dragState.ghost.style.left = (e.clientX - sz * 0.425) + 'px';
-    dragState.ghost.style.top = (e.clientY - sz * 0.425) + 'px';
+    const zf = parseFloat(document.documentElement.style.zoom) || 1;
+    const szZ = dragState.squareSize / zf;
+    dragState.ghost.style.left = (e.clientX / zf - szZ * 0.425) + 'px';
+    dragState.ghost.style.top = (e.clientY / zf - szZ * 0.425) + 'px';
 }
 
 // Busca la casilla bajo el punto (x,y) con tolerancia en pixels.
@@ -15570,12 +15601,16 @@ function showThinkingIndicator(show) {
         _boardStickyRaf = requestAnimationFrame(updateBoardStickyTop);
     }
 
-    // Redirigir rueda del ratón sobre el tablero al scroll de página
+    // Redirigir rueda del ratón sobre el tablero al scroll de página,
+    // o al scroll del popup de variantes si está visible.
     function initBoardWheelRedirect() {
         const bc = document.querySelector('.board-container');
         if (!bc) return;
         bc.addEventListener('wheel', function (e) {
             if (window.innerWidth <= 768) return;
+            // Si el cursor está sobre el popup de variantes, dejar que el
+            // navegador haga el scroll nativo de la lista (no interceptar).
+            if (e.target && e.target.closest && e.target.closest('#variants-popup')) return;
             e.preventDefault();
             window.scrollBy({ top: e.deltaY, behavior: 'auto' });
         }, { passive: false });

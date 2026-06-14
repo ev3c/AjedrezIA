@@ -31,6 +31,23 @@ const THEME_MAP = [
                       'coercion', 'equality', 'master'],
 ];
 
+// ── Mapa inverso tema Lichess → categoría app ────────────────────────
+// Se construye una sola vez. El orden de THEME_MAP da prioridad: los mates
+// y temas específicos se evalúan antes que 'tactic'/'other'.
+function lichessThemeToAppCategory(string $themesRaw): string {
+    $tokens = array_values(array_filter(explode(' ', trim($themesRaw))));
+    if (empty($tokens)) return 'tactic';
+    // Prioridad por orden de THEME_MAP: recorremos las categorías en su orden
+    // de declaración (mates y temas específicos primero) y devolvemos la
+    // primera cuyos temas Lichess estén presentes en el puzzle.
+    foreach (THEME_MAP as $appCat => $lichessThemes) {
+        foreach ($tokens as $tok) {
+            if (in_array($tok, $lichessThemes, true)) return $appCat;
+        }
+    }
+    return 'tactic';
+}
+
 // ── Dificultad estimada por número de jugadas en la solución ─────────
 function solutionToDifficulty(array $moves): int {
     $n = count($moves);
@@ -68,13 +85,17 @@ function row_to_puzzle(array $row, string $theme): ?array {
     }
     $diff  = solutionToDifficulty($solution);
     $tags  = trim($row['opening_tags'] ?? '');
+    // Si el tema solicitado es 'all' (p.ej. enlace por id o problema del día),
+    // derivamos la categoría real del puzzle desde su columna 'themes' de Lichess
+    // para que el cliente pueda cargar más problemas de la misma categoría.
+    $resolvedTheme = $theme === 'all' ? lichessThemeToAppCategory($row['themes'] ?? '') : $theme;
     $title = $tags ? ucwords(str_replace('_', ' ', explode(' ', $tags)[0])) : ucfirst($theme === 'all' ? 'Táctica' : $theme);
     return [
         'id'         => $row['puzzle_id'],
         'fen'        => $row['fen'],
         'preMoves'   => $preMoves,
         'solution'   => $solution,
-        'theme'      => $theme === 'all' ? 'tactic' : $theme,
+        'theme'      => $resolvedTheme,
         'difficulty' => $diff,
         'title'      => $title,
     ];
