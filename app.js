@@ -12136,6 +12136,13 @@ function getShareInfo() {
         const cardT = titleDetail || 'Problema de ajedrez';
         const cardS = '¿Encuentras la mejor jugada?';
         const puzzleFen = (currentPuzzle.fen && String(currentPuzzle.fen).trim()) ? currentPuzzle.fen.trim() : null;
+        // Texto para el mensaje copiable: categoría del selector + turno
+        const themeSel = document.getElementById('puzzle-theme-select');
+        const catLabel = (themeSel && themeSel.selectedOptions[0] && themeSel.selectedOptions[0].text)
+            ? themeSel.selectedOptions[0].text
+            : getThemeLabel(currentPuzzle.theme || 'tactic');
+        const turnLabel = playerColor === 'black' ? '♚ Juegan Negras' : '♔ Juegan Blancas';
+        const puzzleDetail = catLabel + ' · ' + turnLabel;
         let url;
         if (id) {
             url = `${BASE_PATH}?puzzle=${encodeURIComponent(id)}`;
@@ -12145,7 +12152,7 @@ function getShareInfo() {
         }
         const appKV = id ? { key: 'puzzle', val: id } : (encodePuzzlePayload(currentPuzzle) ? { key: 'p', val: encodePuzzlePayload(currentPuzzle) } : null);
         const { shareUrl, previewImage, previewParams } = buildSharePreview('problema', cardT, cardS, puzzleFen, appKV);
-        return { url, shareUrl, label: SHARE_COMPARTIR_LABEL.problemas, shareKind: 'problema', shareDetail: titleDetail, previewImage, previewParams };
+        return { url, shareUrl, label: SHARE_COMPARTIR_LABEL.problemas, shareKind: 'problema', shareDetail: puzzleDetail, previewImage, previewParams };
     }
 
     if (shareContext === 'maestra') {
