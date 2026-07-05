@@ -210,18 +210,43 @@ $demoUsers = [
     ['id'=>'demo116','nick'=>'Divya_Deshmukh',   'elo'=>2497],
 ];
 
+// ── 180 jugadores demo adicionales (80 aparecen como ocupados) ───────────
+$nickWords = [
+    'rapid', 'blitz', 'storm', 'tactic', 'master', 'knight', 'bishop', 'rook',
+    'queen', 'pawn', 'gambit', 'defense', 'attack', 'endgame', 'opening', 'sacrifice',
+    'check', 'castle', 'pin', 'fork', 'skewer', 'zug', 'pawnstorm', 'blitzkrieg',
+    'grand', 'club', 'liga', 'torneo', 'amateur', 'pro', 'fan', 'junior', 'veteran',
+    'online', 'cyber', 'digital', 'pixel', 'matrix', 'nova', 'sigma', 'omega',
+    'delta', 'zeta', 'alfa', 'beta', 'gamma', 'kappa', 'theta', 'flash', 'bullet',
+];
+$oldDemoCount = count($demoUsers);
+for ($n = 117; $n <= 296; $n++) {
+    $w1 = $nickWords[($n * 3) % count($nickWords)];
+    $w2 = $nickWords[($n * 7 + 5) % count($nickWords)];
+    $demoUsers[] = [
+        'id'   => sprintf('demo%03d', $n),
+        'nick' => $w1 . '_' . $w2 . '_' . $n,
+        'elo'  => 850 + (($n * 37) % 1650),
+    ];
+}
+
 // Semilla aleatoria basada en la hora actual para que cambie en cada visita
 // pero sea reproducible dentro de la misma llamada (consistencia visual).
 mt_srand(intval(date('His')));
 
-// Barajar y elegir 4 jugadores demo que aparecen como ocupados (jugando)
-// El resto siempre offline — los jugadores falsos nunca se muestran como disponibles.
-$indices = array_keys($demoUsers);
-shuffle($indices);
-$busyIndices = array_slice($indices, 0, 25);
+// 25 ocupados entre los demo originales + 80 entre los 180 nuevos
+$oldIndices = range(0, $oldDemoCount - 1);
+shuffle($oldIndices);
+$busyOld = array_slice($oldIndices, 0, 25);
+
+$newIndices = range($oldDemoCount, count($demoUsers) - 1);
+shuffle($newIndices);
+$busyNew = array_slice($newIndices, 0, 80);
+
+$busySet = array_flip(array_merge($busyOld, $busyNew));
 
 foreach ($demoUsers as $i => $d) {
-    $isBusy = in_array($i, $busyIndices, true);
+    $isBusy = isset($busySet[$i]);
     $users[] = [
         'id'         => $d['id'],
         'nick'       => $d['nick'],

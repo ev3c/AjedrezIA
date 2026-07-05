@@ -41,7 +41,7 @@ $master  = preg_replace('/[^a-z0-9\-]/', '', gp('master'));
 $KIND_LABEL = [
     'partida'  => 'Partida',
     'apertura' => 'Apertura',
-    'problema' => 'Problema de ajedrez',
+    'problema' => 'Problema de ajedrez y 30 más',
     'maestra'  => 'Partida maestra',
 ];
 

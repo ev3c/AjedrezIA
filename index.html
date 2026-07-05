@@ -225,7 +225,7 @@ try {
                         </div>
                         <div class="puzzle-actions" style="margin-top:6px;">
                             <button id="puzzle-hint" class="btn btn-yellow btn-sm" disabled>💡 Pista</button>
-                            <button id="puzzle-solution" class="btn btn-secondary btn-sm" disabled>👁 Ver solución</button>
+                            <button id="puzzle-solution" class="btn btn-blue btn-sm" disabled>👁 Ver solución</button>
                         </div>
                     </div>
                     <div id="puzzle-stats" class="puzzle-stats">
@@ -443,10 +443,30 @@ try {
                     <button id="load-famous-game" class="btn btn-primary" disabled>Cargar Partida</button>
                     </div>
                 </div>
+
+                <div class="panel panel-collapsible collapsed" id="learn-panel">
+                    <h2 class="panel-toggle"><span>📚 Aprende Ajedrez <span class="under-construction-badge">🚧 En construcción</span></span> <span class="panel-arrow">▲</span></h2>
+                    <div class="panel-body">
+                        <div class="learn-under-construction">🚧 Sección en construcción: puede haber lecciones incompletas o cambios frecuentes.</div>
+                        <div class="learn-progress-bar"><div id="learn-progress-fill" class="learn-progress-fill" style="width:0%"></div></div>
+                        <div id="learn-lesson-list" class="learn-lesson-list"></div>
+                        <div id="learn-active-info" class="learn-active-info" style="display:none;">
+                            <p id="learn-panel-lesson-title" class="training-name"></p>
+                            <p id="learn-panel-description" class="training-desc"></p>
+                            <p id="learn-panel-instruction" class="learn-instruction"></p>
+                            <div id="learn-panel-feedback" class="learn-feedback" style="display:none;"></div>
+                            <div class="learn-btn-row">
+                                <button id="learn-hint-btn" class="btn btn-yellow btn-sm" disabled>💡 Pista</button>
+                                <button id="learn-exit-btn" class="btn btn-secondary btn-sm">✕ Salir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="board-container">
                 <div class="board-wrapper">
+                    <div id="learn-board-banner" class="learn-board-banner" style="display:none;"></div>
                     <div class="board-with-coords">
                         <div class="eval-bar-container">
                             <div class="eval-bar">
@@ -466,7 +486,6 @@ try {
                 </div>
                        <!-- Navegación de problemas bajo el tablero -->
                        <div id="puzzle-board-nav" class="puzzle-board-nav" style="display:none;">
-                           <button id="puzzle-share-board" class="puzzle-board-nav-btn puzzle-board-share-btn" type="button" title="Compartir problema">🔗</button>
                            <button id="puzzle-prev-board" class="puzzle-board-nav-btn" type="button" title="Problema anterior">
                                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
                            </button>
@@ -504,6 +523,9 @@ try {
                           <button id="flip-board-btn" class="btn-flip-board" title="Girar tablero">
                               <span class="fhalf fhalf--dark">♚</span><span class="fhalf fhalf--light">♔</span>
                           </button>
+                          <button id="puzzle-board-hint" class="btn-icon btn-yellow mini-puzzle-board-btn" title="Pista" disabled aria-label="Pista">💡</button>
+                          <button id="puzzle-board-solution" class="btn-icon btn-blue mini-puzzle-board-btn" title="Ver solución" disabled aria-label="Ver solución">👁</button>
+                          <button id="share-board" class="btn-icon btn-share mini-share-btn" title="Compartir">🔗</button>
                        </div>
                        <div id="captured-below" class="captured-below">
                            <span class="captured-label captured-label-white">Blancas: <span id="captured-white"></span></span>
@@ -518,7 +540,6 @@ try {
                            <button id="hint-move" class="btn-icon btn-yellow" title="Sugerencia de IA">💡</button>
                            <button id="analyze-game" class="btn-icon btn-orange" title="Analizar Partida">📊</button>
                            <button id="copy-pgn-board" class="btn-icon btn-primary" title="Copiar PGN">📋</button>
-                           <button id="share-board" class="btn-icon btn-share" title="Compartir">🔗</button>
                 </div>
                        <div id="thinking-indicator" class="thinking-indicator" style="display: none;">
                            <div class="spinner"></div>
@@ -802,8 +823,21 @@ try {
                            </div>
                        </div>
 
+                       <a href="mailto:ev3c.android@gmail.com" class="sidebar-email">
+                           <span class="sidebar-email-icon" aria-hidden="true">✉️</span>
+                           <span class="sidebar-email-text">ev3c.android@gmail.com</span>
+                       </a>
+
+                       <button type="button" id="feedback-open-btn" class="sidebar-feedback-link">
+                           <span class="sidebar-feedback-icon" aria-hidden="true">📧</span>
+                           <span class="sidebar-feedback-text">Informar de errores/mejoras</span>
+                       </button>
+
                        <footer class="app-footer">
-                           <a href="mailto:ev3c.android@gmail.com">ev3c.android@gmail.com</a>
+                           <a href="mailto:ev3c.android@gmail.com">
+                               <span class="app-footer-icon" aria-hidden="true">✉️</span>
+                               ev3c.android@gmail.com
+                           </a>
                        </footer>
             </div>
         </div>
@@ -1003,6 +1037,49 @@ try {
             <div class="login-modal-buttons" style="margin-top:18px;">
                 <button class="login-btn login-btn-play" id="invite-send-btn" type="button">📨 Enviar invitación</button>
                 <button class="login-btn login-btn-signout" id="invite-send-cancel" type="button">Cancelar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Aviso: informar de errores/mejoras (tras 10 min de uso) -->
+    <div id="feedback-prompt-overlay" class="login-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="feedback-prompt-title">
+        <div class="login-modal-card feedback-prompt-card">
+            <button class="login-modal-close" id="feedback-prompt-close" title="Cerrar" aria-label="Cerrar">✕</button>
+            <h2 class="login-modal-title" id="feedback-prompt-title">📧 Informar de errores/mejoras</h2>
+            <p class="login-modal-subtitle">¿Has encontrado algún fallo o tienes una idea para mejorar AjedrezIA? Tu opinión nos ayuda mucho.</p>
+            <div class="login-modal-buttons" style="margin-top:18px;">
+                <button class="login-btn login-btn-play" id="feedback-prompt-open-btn" type="button">📨 Informar</button>
+                <button class="login-btn login-btn-signout" id="feedback-prompt-dismiss-btn" type="button">Ahora no</button>
+            </div>
+            <div class="feedback-prompt-footer">
+                <label class="help-modal-dont-show"><input type="checkbox" id="feedback-prompt-hide-again"> No volver a mostrar</label>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal: informar de errores o mejoras -->
+    <div id="feedback-modal-overlay" class="login-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="feedback-modal-title">
+        <div class="login-modal-card feedback-card">
+            <button class="login-modal-close" id="feedback-modal-close" title="Cerrar" aria-label="Cerrar">✕</button>
+            <h2 class="login-modal-title" id="feedback-modal-title">📧 Informar de errores/mejoras</h2>
+            <p class="login-modal-subtitle">Cuéntanos qué falla o qué se podría mejorar. Se enviará por correo al equipo de AjedrezIA.</p>
+
+            <div class="invite-form">
+                <div class="invite-field">
+                    <label class="invite-label" for="feedback-error-text">Error:</label>
+                    <textarea id="feedback-error-text" class="feedback-textarea" rows="3" placeholder="Describe aquí el error encontrado (opcional)"></textarea>
+                </div>
+                <div class="invite-field">
+                    <label class="invite-label" for="feedback-improve-text">Mejora:</label>
+                    <textarea id="feedback-improve-text" class="feedback-textarea" rows="3" placeholder="Describe aquí tu sugerencia de mejora (opcional)"></textarea>
+                </div>
+            </div>
+
+            <div class="invite-error" id="feedback-modal-error" style="display:none;"></div>
+
+            <div class="login-modal-buttons" style="margin-top:18px;">
+                <button class="login-btn login-btn-play" id="feedback-send-btn" type="button">📨 Enviar</button>
+                <button class="login-btn login-btn-signout" id="feedback-cancel-btn" type="button">Cancelar</button>
             </div>
         </div>
     </div>

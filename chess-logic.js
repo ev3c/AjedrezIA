@@ -850,7 +850,18 @@ class ChessGame {
     }
 
     undoMove() {
-        if (this.gameStateHistory.length === 0) return false;
+        if (this.moveHistory.length === 0) return false;
+
+        // El estado a restaurar es el guardado justo antes del último
+        // movimiento jugado (índice moveHistory.length - 1 en
+        // gameStateHistory). No usamos gameStateHistory.pop() directamente
+        // porque, al cargar una partida completa desde PGN (partida maestra,
+        // importar PGN), se añade un estado "final" extra al terminar de
+        // cargar; eso desalinea gameStateHistory (N+1 elementos) respecto a
+        // moveHistory (N elementos) y hacía que el primer "Deshacer" quitara
+        // ese estado sobrante sin mover realmente la pieza en el tablero.
+        const targetIndex = this.moveHistory.length - 1;
+        if (targetIndex >= this.gameStateHistory.length) return false;
 
         // Decrementar contador de la posición ACTUAL antes de restaurar
         const currentPosKey = this.getPositionKey();
@@ -859,7 +870,10 @@ class ChessGame {
         }
         this.positionKeyHistory.pop();
 
-        const previousState = this.gameStateHistory.pop();
+        const previousState = this.gameStateHistory[targetIndex];
+        // Trunca también cualquier estado sobrante posterior, dejando
+        // gameStateHistory alineado 1:1 con moveHistory tras deshacer.
+        this.gameStateHistory.length = targetIndex;
         this.board = previousState.board;
         this.currentTurn = previousState.currentTurn;
         this.capturedPieces = previousState.capturedPieces;
@@ -873,7 +887,23 @@ class ChessGame {
     }
 
     canUndo() {
-        return this.gameStateHistory.length > 0;
+        return this.moveHistory.length > 0;
+    }
+
+    // Descarta los movimientos futuros más allá de moveCount y deja la partida
+    // lista para continuar desde la posición actual (board/currentTurn/etc. ya
+    // deben estar puestos a esa posición, p.ej. tras navegar el historial).
+    // moveCount = número de medios-movimientos ya jugados que se conservan.
+    truncateHistory(moveCount) {
+        if (moveCount < 0) moveCount = 0;
+        this.moveHistory = this.moveHistory.slice(0, moveCount);
+        this.moveHistoryUCI = this.moveHistoryUCI.slice(0, moveCount);
+        this.gameStateHistory = this.gameStateHistory.slice(0, moveCount);
+        this.positionKeyHistory = this.positionKeyHistory.slice(0, moveCount + 1);
+        this.positionCounts = {};
+        this.positionKeyHistory.forEach(key => {
+            this.positionCounts[key] = (this.positionCounts[key] || 0) + 1;
+        });
     }
 }
 

@@ -193,26 +193,10 @@ try {
 // ── Transformar al formato app ────────────────────────────────────────
 $puzzles = [];
 foreach ($rows as $row) {
-    $allMoves = array_values(array_filter(explode(' ', trim($row['moves']))));
-    // En Lichess el primer movimiento es el pre-move de la IA, los siguientes son la solución
-    $preMoves = array_slice($allMoves, 0, 1);
-    $solution = array_slice($allMoves, 1);
-
-    if (empty($solution)) continue;
-
-    $diff  = solutionToDifficulty($solution);
-    $tags  = trim($row['opening_tags'] ?? '');
-    $title = $tags ? ucwords(str_replace('_', ' ', explode(' ', $tags)[0])) : ucfirst($theme === 'all' ? 'Táctica' : $theme);
-
-    $puzzles[] = [
-        'id'         => $row['puzzle_id'],
-        'fen'        => $row['fen'],
-        'preMoves'   => $preMoves,
-        'solution'   => $solution,
-        'theme'      => $theme === 'all' ? 'tactic' : $theme,
-        'difficulty' => $diff,
-        'title'      => $title,
-    ];
+    $p = row_to_puzzle($row, $theme);
+    if ($p) {
+        $puzzles[] = $p;
+    }
 }
 
 echo json_encode(['puzzles' => $puzzles, 'total' => count($puzzles)]);

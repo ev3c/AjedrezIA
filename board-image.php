@@ -36,7 +36,7 @@ $placement = explode(' ', trim($fen))[0];
 $KIND_LABEL = [
     'partida'  => 'Partida',
     'apertura' => 'Apertura',
-    'problema' => 'Problema de ajedrez',
+    'problema' => 'Problema de ajedrez y 30 más',
     'maestra'  => 'Partida maestra',
 ];
 $kindLabel = isset($KIND_LABEL[$kind]) ? $KIND_LABEL[$kind] : 'Ajedrez';
@@ -106,16 +106,21 @@ function drawText($im, $size, $x, $y, $color, $bold, $text) {
     return $y;
 }
 
+// Respeta saltos de línea explícitos ('\n') como líneas independientes;
+// dentro de cada una aplica word-wrap normal si excede $maxChars.
 function wrapText($text, $maxChars) {
-    $words = preg_split('/\s+/', trim($text));
-    $lines = []; $cur = '';
-    foreach ($words as $w) {
-        if ($w === '') continue;
-        $try = ($cur === '') ? $w : ($cur . ' ' . $w);
-        if (mb_strlen($try) > $maxChars && $cur !== '') { $lines[] = $cur; $cur = $w; }
-        else $cur = $try;
+    $lines = [];
+    foreach (preg_split('/\r\n|\r|\n/', $text) as $para) {
+        $words = preg_split('/\s+/', trim($para));
+        $cur = '';
+        foreach ($words as $w) {
+            if ($w === '') continue;
+            $try = ($cur === '') ? $w : ($cur . ' ' . $w);
+            if (mb_strlen($try) > $maxChars && $cur !== '') { $lines[] = $cur; $cur = $w; }
+            else $cur = $try;
+        }
+        $lines[] = $cur;
     }
-    if ($cur !== '') $lines[] = $cur;
     return $lines;
 }
 

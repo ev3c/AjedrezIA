@@ -2,6 +2,62 @@
 
 ---
 
+## v3.4.33 — 2026-07-03
+
+### Aprende Ajedrez — Nuevas categorías Intermedio y Avanzado
+- Nueva categoría **«🎓 Intermedio»** con 4 lecciones multi-paso:
+  - **Colocación del tablero** (6 pasos): dónde empieza cada pieza (torres, caballos, alfiles, dama en su color, rey) y primera jugada desde la posición inicial.
+  - **El Enroque** (5 pasos): enroque corto, largo, elegir lado, casilla atacada (por qué es ilegal enrocar pasando por una casilla amenazada) y enrocar pronto en la apertura.
+  - **Captura al paso** (4 pasos): captura básica, solo el peón que ACABA de avanzar dos casillas, elegir con cuál de tus dos peones capturar y evitar que un peón pase de largo.
+  - **El Ahogado** (4 pasos): provocar tablas por ahogado con dama, en el rincón, con rey y peón de torre y con torre.
+- Nueva categoría **«🏆 Avanzado»** con 2 lecciones multi-paso:
+  - **Valor de las piezas** (5 pasos): capturar siempre la pieza de mayor valor (dama 9, torre 5, alfil/caballo 3, peón 1)… solo si la captura es segura.
+  - **Jaque en dos** (8 pasos, 4 parejas de jugadas): preparar el ataque con una jugada (torre, alfil, caballo, dama) y rematar con jaque en la segunda; el rival responde automáticamente entre ambas.
+- Con esto el panel cubre todas las etapas de los cursos básicos de Lichess Learn: Piezas (1–6), Básico (7–12), Intermedio (13–16) y Avanzado (17–18).
+- La categoría antigua **«Especiales»** desaparece: sus lecciones sueltas (enroque corto/largo, captura al paso) quedan integradas en las nuevas lecciones multi-paso, y la coronación ya se practica en la lección «El Peón».
+- Banner sobre el tablero «Ejercicio Intermedio / Avanzado: …» al abrir una lección de las nuevas categorías.
+
+### Corrección
+- **La Horquilla** (Tácticas): el segundo paso reiniciaba el tablero a la posición inicial en vez de continuar tras la respuesta automática del rival; ahora el caballo y el rey negro mantienen la posición correcta.
+
+### Detalles técnicos
+- Nuevo script `tools/verify-learn.js`: valida con el motor real (`chess-logic.js`) que cada ejercicio nuevo es legal y coherente (jugadas aceptadas legales, ahogados reales, jaques efectivos y FEN encadenados coincidentes tras cada `autoResponse`).
+
+---
+
+## v3.4.32 — 2026-07-03
+
+### Aprende Ajedrez
+- Lecciones de piezas (Torre, Alfil, Dama, Rey, Caballo, Peón) consolidadas en ejercicios **multi-paso con avance automático** al acertar, con título y contador de paso, estrellas objetivo más grandes y una **flecha verde** temporal que muestra el movimiento correcto.
+- Los reyes se quitan de los ejercicios de piezas (excepto el rey blanco en la lección «El Rey»).
+- Nueva categoría **«Básico»** debajo de «Piezas» con 6 lecciones basadas en Lichess Learn: Captura, Protección, Combate, Jaque en una, Salir del jaque y Mate en una.
+- Banner sobre el tablero con el nombre del ejercicio en curso; sonido al capturar una estrella.
+- Sección marcada como **«🚧 En construcción»** (badge en el título del panel y aviso dentro).
+- Al abrir cualquier opción de Aprende Ajedrez se cierran las variantes de apertura sobre el tablero y se oculta el título de la partida; al salir hacia otro panel, la pantalla vuelve al estado de una partida nueva.
+
+### Partidas — Reanudar, deshacer y fin de partida
+- **Reanudar / Continuar Partida** pide confirmación («¿Quieres continuar la partida desde esta posición?»), aplica la **IA actualmente seleccionada** en Nueva Partida (mostrando su nivel y ELO) y hace que la IA mueva automáticamente si le toca a ella.
+- Se puede **continuar la partida desde cualquier movimiento** del historial (no solo desde el último), con el mismo aviso de confirmación.
+- **Deshacer Movimiento** retrocede un único movimiento (media jugada) por pulsación, en vez de dos; corregido también para partidas maestras, donde antes la flecha gris aparecía pero la pieza no volvía a su casilla anterior.
+- El **título de la partida** y el mensaje de reanudar muestran ahora el **ELO** de la IA rival (p. ej. «AjedrezIA (Intermedio · 1200 ELO)»).
+- Al terminar la partida (jaque mate, tablas, abandono o tiempo agotado) **ya no aparece el modal emergente** con el resultado y el botón «Ver análisis post-partida»: solo se muestra el **banner sobre el tablero**. El análisis sigue disponible desde el botón dedicado del panel Acciones.
+- Corregida una condición de carrera que impedía a la IA mover automáticamente tras reanudar una partida (contador de «generación» de partida para descartar movimientos de IA obsoletos).
+
+### Compartir
+- La imagen generada al compartir un **problema** coincide siempre con la posición real del tablero (se aplican los `preMoves` antes de generar el FEN).
+- Tercera línea de la tarjeta compartida dividida en «Tipo de problema» y «Juegan Blancas/Negras»; etiqueta «Problema de ajedrez» → «Problema de ajedrez y 30 más».
+- Icono y botón de compartir unificados en **verde** (como «Nueva Partida») dentro del panel Acciones, con el mismo tamaño que el botón de cambiar color, en PC y smartphone. Se retira el icono suelto de la barra de navegación de problemas.
+- Barra de problemas: la categoría del problema se muestra formateada en lugar de la clave interna del tema.
+
+### Contacto
+- Email del autor reubicado en el sidebar derecho (con emoji ✉️ delante), visible tanto en PC como en smartphone.
+- Nuevo enlace **«📧 Informar de errores/mejoras»** debajo del email: abre un modal con campos «Error:» y «Mejora:» y botones Enviar/Cancelar; al enviar, el mensaje llega por correo al equipo de AjedrezIA (`api/send-feedback.php`).
+
+### Otros
+- Lista de usuarios online ampliada con 180 usuarios de ejemplo adicionales (80 marcados como ocupados).
+
+---
+
 ## v3.3.4 — 2026-06-04
 
 ### Open Graph para todos los contenidos (tarjeta enriquecida en redes)

@@ -39,6 +39,58 @@ header h1 {
     letter-spacing: 0.5px;
 }
 
+.sidebar-email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+    padding: 6px 0 2px;
+    color: #6b7280;
+    font-size: 0.82rem;
+    font-weight: 400;
+    text-decoration: none;
+    letter-spacing: 0.2px;
+}
+
+.sidebar-email:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+}
+
+.sidebar-email-icon {
+    font-size: 1.05rem;
+    line-height: 1;
+}
+
+.sidebar-feedback-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+    padding: 2px 0 8px;
+    color: #6b7280;
+    font-size: 0.82rem;
+    font-weight: 400;
+    text-decoration: none;
+    letter-spacing: 0.2px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.sidebar-feedback-link:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+}
+
+.sidebar-feedback-icon {
+    font-size: 1.05rem;
+    line-height: 1;
+}
+
 .subtitle {
     font-size: 1.08rem;
     opacity: 0.9;
@@ -113,6 +165,31 @@ header h1 {
 
 .panel-collapsible.collapsed .panel-arrow {
     transform: rotate(180deg);
+}
+
+.under-construction-badge {
+    display: inline-block;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: #7c2d12;
+    background: linear-gradient(135deg, #fbbf24, #f59e0b);
+    padding: 2px 8px;
+    border-radius: 999px;
+    margin-left: 8px;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.learn-under-construction {
+    background: rgba(245, 158, 11, 0.15);
+    border: 1px solid rgba(245, 158, 11, 0.5);
+    color: #fbbf24;
+    font-size: 0.82rem;
+    line-height: 1.35;
+    padding: 8px 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
 }
 
 .panel-collapsible .panel-body {
@@ -547,6 +624,12 @@ body.puzzle-mode-active .mini-clock-elo-row {
     border: 1px solid #93c5fd;
 }
 
+.puzzle-feedback.solution {
+    background: #dbeafe;
+    color: #1d4ed8;
+    border: 1px solid #3b82f6;
+}
+
 .puzzle-actions {
     display: flex;
     gap: 6px;
@@ -561,7 +644,8 @@ body.puzzle-mode-active .mini-clock-elo-row {
 }
 
 .square.puzzle-from {
-    box-shadow: inset 0 0 0 3px #3b82f6;
+    background: rgba(59, 130, 246, 0.35) !important;
+    box-shadow: inset 0 0 0 4px #3b82f6 !important;
 }
 
 .square.puzzle-to {
@@ -825,6 +909,17 @@ body.puzzle-mode-active .mini-clock-elo-row {
     box-shadow: 0 4px 8px rgba(234, 179, 8, 0.2);
 }
 
+.btn-blue {
+    background: #bfdbfe;
+    color: #1e3a8a;
+}
+
+.btn-blue:hover:not(:disabled) {
+    background: #93c5fd;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(59, 130, 246, 0.28);
+}
+
 .btn-orange {
     background: #fed7aa;
     color: #1f2937;
@@ -837,14 +932,15 @@ body.puzzle-mode-active .mini-clock-elo-row {
 }
 
 .btn-share {
-    background: #dbeafe;
-    color: #1e40af;
+    background: linear-gradient(135deg, #34d399, #059669);
+    color: #fff;
 }
 
 .btn-share:hover:not(:disabled) {
-    background: #bfdbfe;
+    background: linear-gradient(135deg, #6ee7b7, #34d399);
+    color: #fff;
     transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(37, 99, 235, 0.2);
+    box-shadow: 0 4px 8px rgba(5, 150, 105, 0.3);
 }
 
 .btn:disabled {
@@ -1089,6 +1185,17 @@ body.puzzle-mode-active .mini-clock-elo-row {
     box-shadow: 0 4px 8px rgba(234, 179, 8, 0.2);
 }
 
+.btn-icon.btn-blue {
+    background: #bfdbfe;
+    color: #1e3a8a;
+}
+
+.btn-icon.btn-blue:hover:not(:disabled) {
+    background: #93c5fd;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(59, 130, 246, 0.28);
+}
+
 .btn-icon.btn-orange {
     background: #fed7aa;
     color: #1f2937;
@@ -1101,14 +1208,15 @@ body.puzzle-mode-active .mini-clock-elo-row {
 }
 
 .btn-icon.btn-share {
-    background: #dbeafe;
-    color: #1e40af;
+    background: linear-gradient(135deg, #34d399, #059669);
+    color: #fff;
 }
 
 .btn-icon.btn-share:hover:not(:disabled) {
-    background: #bfdbfe;
+    background: linear-gradient(135deg, #6ee7b7, #34d399);
+    color: #fff;
     transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(37, 99, 235, 0.2);
+    box-shadow: 0 4px 8px rgba(5, 150, 105, 0.3);
 }
 
 .btn-icon:disabled {
@@ -1167,24 +1275,6 @@ body.puzzle-mode-active .mini-clock-elo-row {
     border-color: #e5e7eb;
     color: #9ca3af;
     cursor: not-allowed;
-}
-
-.puzzle-board-nav-btn.puzzle-board-share-btn {
-    background: #dbeafe;
-    border-color: #93c5fd;
-    color: #1e40af;
-    font-size: 1.2rem;
-    line-height: 1;
-}
-
-.puzzle-board-nav-btn.puzzle-board-share-btn:hover:not(:disabled) {
-    background: #bfdbfe;
-    border-color: #60a5fa;
-    transform: scale(1.05);
-}
-
-.puzzle-board-close-btn {
-    margin-left: 8px;
 }
 
 .puzzle-board-nav-label {
@@ -1512,6 +1602,28 @@ body.puzzle-mode-active .mini-clock-elo-row {
     flex-direction: column-reverse;
 }
 
+/* Icono compartir junto al ELO y al botón blanco/negro (fila compacta) */
+/* Selector reforzado (.btn-icon.mini-share-btn) para ganar siempre a las
+   reglas responsivas genéricas de .btn-icon y mantener el mismo tamaño
+   que el botón blancas/negras en todos los tamaños de pantalla. */
+.btn-icon.mini-share-btn,
+.btn-icon.mini-puzzle-board-btn {
+    flex: 0 0 auto;
+    width: 34px;
+    min-width: 34px;
+    height: 38px;
+    font-size: 1.1rem;
+    border-radius: 7px;
+}
+
+.btn-icon.mini-puzzle-board-btn {
+    display: none;
+}
+
+body.puzzle-mode-active .btn-icon.mini-puzzle-board-btn {
+    display: inline-flex !important;
+}
+
 /* Mini-reloj compacto bajo el tablero (visible en PC y en responsive) */
 .mini-clock {
     display: flex;
@@ -1735,7 +1847,7 @@ body.puzzle-mode-active .mini-clock-elo-row {
     background: linear-gradient(135deg, rgba(209, 250, 229, 0.92), rgba(167, 243, 208, 0.88));
     color: #047857;
     box-shadow: 0 4px 18px rgba(52, 211, 153, 0.28);
-    font-size: 1.1rem;
+    font-size: 1.45rem;
     line-height: 1.4;
     pointer-events: auto;
     cursor: pointer;
@@ -1747,7 +1859,19 @@ body.puzzle-mode-active .mini-clock-elo-row {
     background: linear-gradient(135deg, rgba(254, 226, 226, 0.92), rgba(254, 202, 202, 0.88));
     color: #b91c1c;
     box-shadow: 0 4px 18px rgba(248, 113, 113, 0.28);
-    font-size: 1.1rem;
+    font-size: 1.45rem;
+    line-height: 1.4;
+    pointer-events: auto;
+    cursor: pointer;
+    padding: 14px 18px;
+}
+
+.board-banner.banner-puzzle-solution {
+    display: block;
+    background: linear-gradient(135deg, rgba(219, 234, 254, 0.94), rgba(191, 219, 254, 0.90));
+    color: #1d4ed8;
+    box-shadow: 0 4px 18px rgba(59, 130, 246, 0.28);
+    font-size: 1.45rem;
     line-height: 1.4;
     pointer-events: auto;
     cursor: pointer;
@@ -3742,19 +3866,22 @@ body.puzzle-mode-active .mini-clock-elo-row {
     }
 }
 
-/* Footer — colocado dentro del sidebar derecho, bajo el panel Estadísticas.
-   Se muestra discreto, alineado a la izquierda del sidebar. */
+/* Footer legacy (email unificado en .sidebar-email) */
 .app-footer {
-    text-align: center;
-    padding: 10px 6px 4px;
-    margin: 8px 0 0;
-    font-size: 0.72rem;
-    opacity: 0.6;
+    display: none !important;
 }
 
 .app-footer a {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
     color: #4b5563;
     text-decoration: none;
+}
+
+.app-footer-icon {
+    font-size: 1.15rem;
+    line-height: 1;
 }
 
 .app-footer a:hover {
@@ -3814,6 +3941,17 @@ body.puzzle-mode-active .mini-clock-elo-row {
         border-radius: 8px;
     }
 
+    .btn-icon.mini-share-btn,
+    .btn-icon.mini-puzzle-board-btn,
+    .btn-flip-board {
+        flex: 0 0 auto;
+        width: 34px;
+        min-width: 34px;
+        height: 38px;
+        font-size: 1.1rem;
+        border-radius: 7px;
+    }
+
     #analysis-nav-label {
         font-size: 0.78rem;
         min-width: 120px;
@@ -3861,10 +3999,22 @@ body.puzzle-mode-active .mini-clock-elo-row {
         height: 34px;
     }
 
-    /* Mini-reloj en responsive (ya es display:flex por defecto) */
+    /* Mini-reloj en responsive: reloj debajo del tablero; ELO y botones en la fila siguiente */
     .mini-clock-elo-row {
         margin: 0 auto;
         gap: 8px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: calc(8 * var(--square-size) + 28px);
+    }
+
+    .mini-clock-elo-row .mini-clock {
+        flex: 0 0 100%;
+        width: 100%;
+        justify-content: center;
+        margin: 0;
     }
 
     .mini-elo-display {
@@ -3986,7 +4136,31 @@ body.puzzle-mode-active .mini-clock-elo-row {
         order: 9 !important;
     }
 
-    /* Footer: justo después del panel Estadísticas */
+    /* Email: justo después del panel Estadísticas */
+    .sidebar-email {
+        order: 10 !important;
+        margin-top: 4px;
+        font-size: 0.76rem;
+        font-weight: 400;
+        padding: 8px 0 12px;
+    }
+
+    .sidebar-email-icon {
+        font-size: 0.95rem;
+    }
+
+    .sidebar-feedback-link {
+        order: 10 !important;
+        font-size: 0.76rem;
+        font-weight: 400;
+        padding: 0 0 10px;
+    }
+
+    .sidebar-feedback-icon {
+        font-size: 0.95rem;
+    }
+
+    /* Footer legacy */
     .app-footer {
         order: 10 !important;
         margin-top: 4px;
@@ -5004,6 +5178,33 @@ body.puzzle-mode-active .mini-clock-elo-row {
     text-align: left;
 }
 
+/* ── Informar de errores/mejoras ────────────────────────────────────── */
+.feedback-card { max-width: 440px; }
+.feedback-prompt-card {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.feedback-prompt-footer {
+    margin-top: 20px;
+    align-self: flex-start;
+}
+.feedback-textarea {
+    width: 100%;
+    padding: 8px 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-family: inherit;
+    resize: vertical;
+    min-height: 64px;
+    transition: border-color 0.3s;
+}
+.feedback-textarea:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
 /* ── Invitación recibida ────────────────────────────────────────────── */
 .invite-incoming-card { max-width: 380px; }
 .invite-incoming-icon {
@@ -5434,5 +5635,198 @@ body.puzzle-mode-active .mini-clock-elo-row {
     .board-3d-mode #chess-board {
         transform: translateY(-35px) rotateX(32deg) scale(0.97);
     }
+}
+
+/* ══════════════════════════════════════════════════════════════════════════
+   PANEL APRENDE AJEDREZ
+   ══════════════════════════════════════════════════════════════════════════ */
+
+.learn-lesson-list {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-bottom: 10px;
+    max-height: 320px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(102,126,234,0.5) transparent;
+}
+.learn-lesson-list::-webkit-scrollbar { width: 5px; }
+.learn-lesson-list::-webkit-scrollbar-thumb { background: rgba(102,126,234,0.5); border-radius: 3px; }
+
+.learn-cat-label {
+    font-size: 0.72em;
+    font-weight: 700;
+    color: #667eea;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 6px 4px 2px;
+    margin-top: 4px;
+}
+
+.learn-lesson-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 10px;
+    background: #f8f9ff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: left;
+    font-size: 0.82em;
+    color: #374151;
+    transition: background 0.13s, border-color 0.13s;
+    width: 100%;
+}
+.learn-lesson-btn:hover { background: #eef0ff; border-color: #a5b4fc; }
+.learn-lesson-btn.active {
+    background: #ede9fe;
+    border-color: #7c3aed;
+    color: #4c1d95;
+    font-weight: 600;
+}
+.learn-lesson-btn.done { background: #f0fdf4; border-color: #86efac; color: #166534; }
+.learn-lesson-btn.done.active { background: #dcfce7; border-color: #4ade80; }
+
+.learn-lesson-check {
+    font-size: 1em;
+    flex-shrink: 0;
+    width: 16px;
+    text-align: center;
+    color: #9ca3af;
+}
+.learn-lesson-piece {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    object-fit: contain;
+    pointer-events: none;
+}
+.learn-lesson-btn.done .learn-lesson-check { color: #22c55e; font-weight: 700; }
+
+.learn-lesson-name { flex: 1; line-height: 1.3; }
+
+/* Banner sobre el tablero en modo lección de piezas */
+.learn-board-banner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
+    color: #fff;
+    border-radius: 8px;
+    padding: 6px 14px;
+    font-size: 0.88rem;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    box-shadow: 0 2px 10px rgba(29, 78, 216, 0.3);
+    margin-bottom: 6px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.learn-board-banner-label {
+    opacity: 0.82;
+    font-weight: 600;
+}
+.learn-board-banner-title {
+    font-weight: 800;
+    font-size: 1em;
+}
+.learn-board-banner .learn-lesson-piece {
+    width: 1.6em;
+    height: 1.6em;
+    vertical-align: middle;
+    filter: drop-shadow(0 1px 2px rgba(0,0,0,0.4)) brightness(1.25);
+    flex-shrink: 0;
+}
+
+/* Estrellas en el tablero (Aprende Ajedrez — estilo Lichess) */
+.learn-star {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(var(--sq, 80px) * 0.72);
+    line-height: 1;
+    color: #ffd60a;
+    text-shadow:
+        0 0 14px rgba(255, 214, 10, 0.95),
+        0 0 6px rgba(255, 214, 10, 0.9),
+        0 1px 3px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+    z-index: 3;
+    animation: learn-star-pulse 1.4s ease-in-out infinite;
+}
+@keyframes learn-star-pulse {
+    0%, 100% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.15); opacity: 0.9; }
+}
+body.learn-mode-active .square:has(.learn-star) {
+    box-shadow: inset 0 0 0 3px rgba(255, 214, 10, 0.5);
+}
+
+/* Panel activo con lección en curso */
+.learn-active-info {
+    border-top: 1px solid #e5e7eb;
+    padding-top: 12px;
+    margin-top: 4px;
+}
+
+.learn-instruction {
+    font-size: 0.86em;
+    color: #1e40af;
+    font-weight: 600;
+    margin: 6px 0 8px;
+    line-height: 1.45;
+}
+
+.learn-feedback {
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 0.83em;
+    font-weight: 500;
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+.learn-feedback--correct { background: #dcfce7; color: #166534; border: 1px solid #86efac; }
+.learn-feedback--wrong   { background: #fee2e2; color: #991b1b; border: 1px solid #fca5a5; }
+.learn-feedback--success { background: #ede9fe; color: #4c1d95; border: 1px solid #c4b5fd; font-size: 0.82em; }
+
+.learn-btn-row {
+    display: flex;
+    gap: 8px;
+    margin-top: 6px;
+}
+
+/* Ocultar elementos innecesarios durante el modo lección */
+body.learn-mode-active .mini-clock,
+body.learn-mode-active .board-action-buttons,
+body.learn-mode-active .move-navigator,
+body.learn-mode-active #captured-below { display: none !important; }
+
+/* Barra de progreso de lecciones */
+.learn-progress-bar {
+    height: 4px;
+    background: #e5e7eb;
+    border-radius: 2px;
+    margin-top: 8px;
+    overflow: hidden;
+}
+.learn-progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    border-radius: 2px;
+    transition: width 0.4s ease;
+}
+
+/* Móvil: reorden del panel */
+@media (max-width: 1024px) and (orientation: portrait) {
+    #learn-panel { order: 8 !important; }
+    body.learn-panel-open #learn-panel { order: 2 !important; }
+    body.learn-panel-open #clock-panel { display: none !important; }
+    .learn-lesson-list { max-height: 220px; }
 }
 

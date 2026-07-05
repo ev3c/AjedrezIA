@@ -156,12 +156,29 @@ const SoundFX = (() => {
             if (!enabled) return;
             const t = getCtx().currentTime;
             tone(220, 'sawtooth', t, 0.08, 0.15, 180);
+        },
+
+        // Estrella capturada (ejercicios de Aprender Ajedrez) — brillo ascendente
+        star() {
+            if (!enabled) return;
+            const t = getCtx().currentTime;
+            tone(880,  'sine', t,        0.09, 0.22);
+            tone(1318, 'sine', t + 0.07, 0.12, 0.20);
+            tone(1760, 'sine', t + 0.14, 0.14, 0.18);
         }
     };
 })();
 // ─────────────────────────────────────────────────────────
 
 let game = null;
+// Se incrementa cada vez que `game` se sustituye por una nueva partida/contexto
+// (nueva partida, reanudar, puzzle, apertura, partida maestra, lección...).
+// Los movimientos de la IA programados con setTimeout/async capturan el valor
+// vigente al programarse y comprueban que siga siendo el mismo antes de
+// aplicar el movimiento, para evitar que una IA "atrasada" (p.ej. tardó varios
+// segundos en responder vía API externa) mueva sobre una partida distinta a
+// la que la originó si el usuario navegó a otro sitio mientras tanto.
+let gameGeneration = 0;
 let playerColor = 'white';       // valor resuelto para la lógica del juego: 'white'|'black'|'both'
 let playerColorSetting = 'white'; // preferencia del selector de color: 'white'|'black'|'random'
 let manualBoardFlipped = false;   // volteo manual del tablero con el botón ⇅
@@ -2291,6 +2308,1232 @@ const OPENING_TRAINING = {
     'holandesa-staunton': { name: 'Gambito Staunton', moves: 'd2d4 f7f5 e2e4', san: '1.d4 f5 2.e4', desc: 'Gambito agresivo que busca abrir líneas contra el rey negro debilitado por ...f5. Juego táctico con compensación por el peón.', wr: [42, 25, 33] },
 };
 
+// ===== LECCIONES DE AJEDREZ =====
+const LEARN_LESSONS = [
+    // ── PIEZAS ────────────────────────────────────────────────────────────
+    {
+        id: 'peon-1', category: 'piezas',
+        title: 'El Peón',
+        description: 'El peón avanza hacia adelante y captura en diagonal. Completa los 8 ejercicios en orden.',
+        fen: '8/8/8/8/8/8/3P4/8 w - - 0 1',
+        playerColor: 'white', preMoves: [],
+        steps: [
+            {
+                title: 'Avanza',
+                instruction: 'Mueve el peón hacia adelante hasta la estrella.',
+                stars: ['d3'],
+                hint: 'El peón avanza una casilla. Llévalo de d2 a d3.',
+                comment: '¡Muy bien!'
+            },
+            {
+                title: 'Doble paso',
+                instruction: 'Desde su casilla inicial el peón puede avanzar dos casillas.',
+                stars: ['d4'],
+                hint: 'Solo en su primer movimiento el peón puede avanzar dos casillas: de d2 a d4.',
+                comment: '¡Perfecto, el doble paso inicial!'
+            },
+            {
+                title: 'Paso a paso',
+                instruction: 'Avanza el peón casilla a casilla hasta las estrellas.',
+                stars: ['d3', 'd4'],
+                hint: 'Tras el primer paso, el peón solo avanza una casilla cada vez.',
+                comment: '¡Bien hecho!'
+            },
+            {
+                title: 'Captura',
+                fen: '8/8/8/8/8/4p3/3P4/8 w - - 0 1',
+                instruction: 'El peón captura en diagonal. ¡Captura la pieza negra!',
+                stars: ['e3'],
+                hint: 'El peón captura en diagonal hacia adelante: de d2 a e3.',
+                comment: '¡Captura correcta!'
+            },
+            {
+                title: 'Captura y avanza',
+                fen: '8/8/8/8/8/4p3/3P4/8 w - - 0 1',
+                instruction: 'Captura en diagonal y después sigue avanzando.',
+                stars: ['e3', 'e4'],
+                hint: 'Primero captura en e3 y luego avanza recto hasta e4.',
+                comment: '¡Muy bien encadenado!'
+            },
+            {
+                title: 'Dos capturas',
+                fen: '8/8/8/8/5p2/4p3/3P4/8 w - - 0 1',
+                instruction: 'Captura las dos piezas negras en diagonal.',
+                stars: ['e3', 'f4'],
+                hint: 'Captura en e3 y desde ahí captura de nuevo en diagonal hacia f4.',
+                comment: '¡Doble captura!'
+            },
+            {
+                title: 'Corona',
+                fen: '8/3P4/8/8/8/8/8/8 w - - 0 1',
+                instruction: 'Lleva el peón a la última fila para coronar.',
+                stars: ['d8'],
+                hint: 'Avanza de d7 a d8: el peón se convierte en una pieza (¡normalmente dama!).',
+                comment: '¡Coronación!'
+            },
+            {
+                title: 'Corona avanzando',
+                fen: '8/8/3P4/8/8/8/8/8 w - - 0 1',
+                instruction: 'Avanza el peón hasta la última fila y corona.',
+                stars: ['d7', 'd8'],
+                hint: 'Avanza a d7 y después a d8 para coronar.',
+                comment: '¡Has coronado avanzando!'
+            }
+        ],
+        successMessage: '¡Capítulo del peón completado! Avanza recto, captura en diagonal y corona al llegar al final.',
+    },
+    {
+        id: 'caballo-1', category: 'piezas',
+        title: 'El Caballo',
+        description: 'El caballo se mueve en forma de «L» y es la única pieza que salta sobre otras. Completa los 6 ejercicios en orden.',
+        fen: '8/8/8/8/8/8/8/1N6 w - - 0 1',
+        playerColor: 'white', preMoves: [],
+        steps: [
+            {
+                title: 'Salto en L',
+                instruction: 'Mueve el caballo en «L» hasta la estrella.',
+                stars: ['c3'],
+                hint: 'El caballo salta 2 + 1 casillas. Llévalo de b1 a c3.',
+                comment: '¡Muy bien, ese es el salto en L!'
+            },
+            {
+                title: 'Dos saltos',
+                instruction: 'Captura las dos estrellas con el caballo.',
+                stars: ['c3', 'e4'],
+                hint: 'Salta a c3 y desde ahí a e4.',
+                comment: '¡Bien encadenado!'
+            },
+            {
+                title: 'Tres saltos',
+                instruction: 'Captura las tres estrellas con el caballo.',
+                stars: ['c3', 'd5', 'f4'],
+                hint: 'Sigue las estrellas en orden saltando en L.',
+                comment: '¡Perfecto!'
+            },
+            {
+                title: 'El recorrido',
+                instruction: 'Recorre el tablero capturando todas las estrellas.',
+                stars: ['a3', 'b5', 'd6', 'f5'],
+                hint: 'Cada salto es una «L». Sigue las estrellas una a una.',
+                comment: '¡Gran recorrido!'
+            },
+            {
+                title: 'Salta sobre las piezas',
+                fen: '8/8/8/8/8/8/PPP5/1N6 w - - 0 1',
+                instruction: 'El caballo salta sobre tus propios peones. ¡Captura las estrellas!',
+                stars: ['c3', 'e4', 'g5'],
+                hint: 'Aunque los peones le rodeen, el caballo puede saltar sobre ellos.',
+                comment: '¡El caballo salta sobre las piezas!'
+            },
+            {
+                title: 'El gran recorrido',
+                instruction: 'Captura todas las estrellas con el caballo.',
+                stars: ['a3', 'c4', 'e5', 'g6', 'h4', 'f5', 'd4'],
+                hint: 'Sigue las estrellas en orden; cada movimiento es un salto en L.',
+                comment: '¡Recorrido completo!'
+            }
+        ],
+        successMessage: '¡Capítulo del caballo completado! Salta en «L» y puede saltar sobre cualquier pieza.',
+    },
+    {
+        id: 'alfil-1', category: 'piezas',
+        title: 'El Alfil',
+        description: 'El alfil se mueve en diagonal y siempre permanece en casillas del mismo color. Completa los 6 ejercicios en orden.',
+        fen: '8/8/8/8/8/8/8/B7 w - - 0 1',
+        playerColor: 'white', preMoves: [],
+        steps: [
+            {
+                title: 'Una diagonal',
+                instruction: 'Mueve el alfil en diagonal hasta la estrella.',
+                stars: ['d4'],
+                hint: 'El alfil se mueve en diagonal. Llévalo de a1 a d4.',
+                comment: '¡Muy bien!'
+            },
+            {
+                title: 'Cambia de diagonal',
+                instruction: 'Captura las dos estrellas cambiando de diagonal.',
+                stars: ['e5', 'b8'],
+                hint: 'Ve a e5 y después cambia de diagonal hacia b8.',
+                comment: '¡Perfecto, has cambiado de diagonal!'
+            },
+            {
+                title: 'Gira por las esquinas',
+                instruction: 'Captura todas las estrellas con el alfil.',
+                stars: ['d4', 'g1', 'a7'],
+                hint: 'Sigue las diagonales girando en cada estrella.',
+                comment: '¡Bien hecho!'
+            },
+            {
+                title: 'El recorrido',
+                instruction: 'Recorre el tablero capturando las estrellas.',
+                stars: ['e5', 'h2', 'c7', 'a5'],
+                hint: 'Cambia de diagonal en cada estrella para seguir el recorrido.',
+                comment: '¡Gran recorrido!'
+            },
+            {
+                title: 'Rodea el obstáculo',
+                fen: '8/8/8/8/8/2P5/8/4B3 w - - 0 1',
+                instruction: 'El peón bloquea tu diagonal. Rodéalo para capturar las estrellas.',
+                stars: ['h4', 'd8', 'a5'],
+                hint: 'No puedes cruzar el peón: da un rodeo por h4 y d8 para llegar a a5.',
+                comment: '¡Bien rodeado el obstáculo!'
+            },
+            {
+                title: 'El gran recorrido',
+                instruction: 'Captura todas las estrellas con el alfil.',
+                stars: ['f6', 'h4', 'e1', 'a5', 'd8'],
+                hint: 'Sigue las estrellas en orden, cambiando de diagonal en cada giro.',
+                comment: '¡Recorrido completo!'
+            }
+        ],
+        successMessage: '¡Capítulo del alfil completado! Se mueve en diagonal y siempre por el mismo color de casilla.',
+    },
+    {
+        id: 'torre-1', category: 'piezas',
+        title: 'La Torre',
+        description: 'La torre se mueve horizontalmente o verticalmente cualquier número de casillas. Completa los 6 ejercicios en orden.',
+        fen: '8/8/8/8/8/8/8/R7 w - - 0 1',
+        playerColor: 'white', preMoves: [],
+        steps: [
+            {
+                title: 'Línea recta',
+                instruction: 'Mueve la torre hasta la estrella.',
+                stars: ['a5'],
+                hint: 'La torre sube por su columna. Llévala de a1 a la estrella en a5.',
+                comment: '¡Muy bien!'
+            },
+            {
+                title: 'Dos estrellas',
+                instruction: 'Captura las dos estrellas con la torre.',
+                stars: ['a5', 'e5'],
+                hint: 'Sube a a5 y después muévete por la fila hasta e5.',
+                comment: '¡Perfecto, has girado en la esquina!'
+            },
+            {
+                title: 'Gira en las esquinas',
+                instruction: 'Captura todas las estrellas con la torre.',
+                stars: ['a8', 'g8', 'g4'],
+                hint: 'Sube por la columna a, cruza la fila 8 y baja por la columna g.',
+                comment: '¡Bien hecho!'
+            },
+            {
+                title: 'El recorrido',
+                instruction: 'Captura todas las estrellas con la torre.',
+                stars: ['a8', 'g8', 'g2', 'a2'],
+                hint: 'Sube por la columna a, cruza arriba, baja por la columna g y vuelve por la fila 2.',
+                comment: '¡Gran recorrido!'
+            },
+            {
+                title: 'Rodea el obstáculo',
+                fen: '8/8/8/P7/8/8/8/R7 w - - 0 1',
+                instruction: 'El peón bloquea la columna a. Rodéalo para capturar las estrellas.',
+                stars: ['b1', 'b8', 'a8'],
+                hint: 'Sal a la columna b (b1), sube hasta b8 y entra en a8 por la fila.',
+                comment: '¡Bien rodeado el obstáculo!'
+            },
+            {
+                title: 'El gran recorrido',
+                instruction: 'Captura todas las estrellas con la torre.',
+                stars: ['a8', 'c8', 'c4', 'h4', 'h6', 'f6'],
+                hint: 'Sigue las estrellas en orden, girando en cada cambio de dirección.',
+                comment: '¡Recorrido completo!'
+            }
+        ],
+        successMessage: '¡Capítulo de la torre completado! Ya dominas el movimiento de la torre.',
+    },
+    {
+        id: 'dama-1', category: 'piezas',
+        title: 'La Dama',
+        description: 'La dama combina la torre y el alfil: se mueve en cualquier dirección. Completa los 5 ejercicios en orden.',
+        fen: '8/8/8/8/8/8/8/Q7 w - - 0 1',
+        playerColor: 'white', preMoves: [],
+        steps: [
+            {
+                title: 'Línea recta',
+                instruction: 'Mueve la dama en línea recta hasta la estrella.',
+                stars: ['a5'],
+                hint: 'Como la torre, la dama se mueve por filas y columnas. Sube de a1 a a5.',
+                comment: '¡Muy bien!'
+            },
+            {
+                title: 'En diagonal',
+                instruction: 'Mueve la dama en diagonal hasta la estrella.',
+                stars: ['e5'],
+                hint: 'Como el alfil, la dama también se mueve en diagonal: de a1 a e5.',
+                comment: '¡Perfecto, en diagonal!'
+            },
+            {
+                title: 'En todas direcciones',
+                instruction: 'Captura las estrellas combinando rectas y diagonales.',
+                stars: ['d4', 'd8', 'h4'],
+                hint: 'Ve a d4 en diagonal, sube a d8 por la columna y baja a h4 en diagonal.',
+                comment: '¡Bien hecho!'
+            },
+            {
+                title: 'El recorrido',
+                instruction: 'Recorre el tablero capturando las estrellas.',
+                stars: ['a5', 'h5', 'h2', 'b2'],
+                hint: 'Sigue las estrellas en orden: la dama llega a cualquier parte.',
+                comment: '¡Gran recorrido!'
+            },
+            {
+                title: 'El gran recorrido',
+                instruction: 'Captura todas las estrellas con la dama.',
+                stars: ['e1', 'e5', 'a5', 'a8', 'd8', 'h4'],
+                hint: 'Combina movimientos rectos y diagonales siguiendo las estrellas.',
+                comment: '¡Recorrido completo!'
+            }
+        ],
+        successMessage: '¡Capítulo de la dama completado! Combina torre y alfil: ¡hasta 27 casillas desde el centro!',
+    },
+    {
+        id: 'rey-1', category: 'piezas',
+        title: 'El Rey',
+        description: 'El rey se mueve una casilla en cualquier dirección. Completa los 5 ejercicios en orden.',
+        fen: '8/8/8/8/8/8/8/3K4 w - - 0 1',
+        playerColor: 'white', preMoves: [],
+        steps: [
+            {
+                title: 'Un paso',
+                instruction: 'Mueve el rey una casilla hasta la estrella.',
+                stars: ['d2'],
+                hint: 'El rey se mueve solo una casilla. Llévalo de d1 a d2.',
+                comment: '¡Muy bien!'
+            },
+            {
+                title: 'Pasea',
+                instruction: 'Avanza el rey paso a paso hasta las estrellas.',
+                stars: ['d2', 'd3'],
+                hint: 'Cada movimiento del rey es de una casilla.',
+                comment: '¡Bien hecho!'
+            },
+            {
+                title: 'En diagonal',
+                instruction: 'Mueve el rey en diagonal capturando las estrellas.',
+                stars: ['e2', 'f3', 'g4'],
+                hint: 'El rey también se mueve en diagonal, una casilla cada vez.',
+                comment: '¡Perfecto!'
+            },
+            {
+                title: 'El recorrido',
+                instruction: 'Recorre el tablero con el rey siguiendo las estrellas.',
+                stars: ['d2', 'd3', 'd4', 'e4'],
+                hint: 'Sigue las estrellas una a una, de casilla en casilla.',
+                comment: '¡Gran recorrido!'
+            },
+            {
+                title: 'La gran caminata',
+                fen: '8/8/8/8/8/8/8/K7 w - - 0 1',
+                instruction: 'Lleva el rey por el borde capturando todas las estrellas.',
+                stars: ['a2', 'a3', 'a4', 'b4', 'c4'],
+                hint: 'Sigue las estrellas en orden, una casilla cada vez.',
+                comment: '¡Caminata completa!'
+            }
+        ],
+        successMessage: '¡Capítulo del rey completado! Se mueve una casilla en cualquier dirección: ¡protégelo siempre!',
+    },
+    // ── BÁSICO ────────────────────────────────────────────────────────────
+    {
+        id: 'basico-captura', category: 'basico',
+        title: 'Captura',
+        description: 'Capturar piezas enemigas es esencial. Muévete a la casilla de una pieza rival para eliminarla del tablero. Completa los 6 ejercicios en orden.',
+        fen: '8/8/3p4/8/8/8/8/3R4 w - - 0 1',
+        playerColor: 'white', preMoves: [],
+        steps: [
+            {
+                title: 'Primera captura',
+                fen: '8/8/3p4/8/8/8/8/3R4 w - - 0 1',
+                instruction: 'La torre puede capturar el peón negro moviéndose a su casilla.',
+                stars: ['d6'],
+                hint: 'Mueve la torre por la columna d hasta el peón negro en d6.',
+                comment: '¡Captura! La pieza enemiga desaparece del tablero.'
+            },
+            {
+                title: 'El alfil captura',
+                fen: '8/8/3p4/8/8/B7/8/8 w - - 0 1',
+                instruction: 'El alfil captura en diagonal. ¡Captura el peón negro!',
+                stars: ['d6'],
+                hint: 'El alfil en a3 se mueve en diagonal hasta el peón en d6.',
+                comment: '¡El alfil captura en diagonal!'
+            },
+            {
+                title: 'El caballo captura',
+                fen: '8/8/3p4/8/4N3/8/8/8 w - - 0 1',
+                instruction: 'El caballo salta en L para capturar el peón.',
+                stars: ['d6'],
+                hint: 'Desde e4 el caballo salta 2 arriba y 1 a la izquierda: ¡d6!',
+                comment: '¡El caballo salta y captura!'
+            },
+            {
+                title: 'Dos capturas',
+                fen: '8/3p2p1/8/8/8/8/8/3Q4 w - - 0 1',
+                instruction: 'La dama puede capturar los dos peones. ¡Empieza por el de d7!',
+                stars: ['d7', 'g7'],
+                hint: 'La dama sube por la columna a d7 y luego cruza por la fila a g7.',
+                comment: '¡Dos capturas con la dama!'
+            },
+            {
+                title: 'La torre cosecha',
+                fen: '8/3p2p1/8/8/6p1/8/8/6R1 w - - 0 1',
+                instruction: 'La torre puede capturar tres peones uno a uno.',
+                stars: ['g4', 'g7', 'd7'],
+                hint: 'Sube por la columna g capturando en g4 y g7, luego cruza a d7.',
+                comment: '¡Tres capturas seguidas!'
+            },
+            {
+                title: 'Gran cosecha',
+                fen: '8/pp6/p7/8/8/8/8/R7 w - - 0 1',
+                instruction: 'La torre puede comerse todos los peones. ¡A por ellos!',
+                stars: ['a6', 'a7', 'b7'],
+                hint: 'Sube por la columna a capturando en a6 y a7, luego cruza a b7.',
+                comment: '¡Gran cosecha! Tres peones menos para el rival.'
+            }
+        ],
+        successMessage: '¡Capítulo Captura completado! Ganar material da ventaja decisiva.'
+    },
+    {
+        id: 'basico-proteccion', category: 'basico',
+        title: 'Protección',
+        description: 'Una pieza sin defensa se llama "colgante" y puede capturarse gratis. ¡Aprende a identificarlas! Completa los 6 ejercicios.',
+        fen: '6k1/8/8/4r3/8/8/8/4R2K w - - 0 1',
+        playerColor: 'white', preMoves: [],
+        steps: [
+            {
+                title: 'Pieza colgante',
+                fen: '6k1/8/8/4r3/8/8/8/4R2K w - - 0 1',
+                instruction: 'La torre negra no está defendida. ¡Captúrala!',
+                stars: ['e5'],
+                hint: 'Tu torre en e1 sube directamente a e5 donde la torre negra está sola.',
+                comment: '¡Una pieza sin defensa es un regalo!'
+            },
+            {
+                title: 'El alfil suelto',
+                fen: '6k1/8/8/6b1/8/8/8/2B4K w - - 0 1',
+                instruction: 'El alfil negro en g5 no está defendido. ¡Captúralo con tu alfil!',
+                stars: ['g5'],
+                hint: 'Tu alfil en c1 llega en diagonal hasta g5.',
+                comment: '¡Capturaste el alfil sin perder nada!'
+            },
+            {
+                title: 'La dama descuidada',
+                fen: '6k1/8/8/3q4/8/8/8/3R3K w - - 0 1',
+                instruction: 'La dama negra está sola en d5. ¡Captúrala con la torre!',
+                stars: ['d5'],
+                hint: 'La torre en d1 sube por la columna d hasta la dama en d5.',
+                comment: '¡Capturaste la pieza más valiosa del rival!'
+            },
+            {
+                title: 'El caballo suelto',
+                fen: '6k1/8/8/3n4/8/8/8/3Q3K w - - 0 1',
+                instruction: 'El caballo negro en d5 no tiene defensa. ¡Captúralo con la dama!',
+                stars: ['d5'],
+                hint: 'Tu dama en d1 sube por la columna d hasta el caballo en d5.',
+                comment: '¡Caballo capturado gratis!'
+            },
+            {
+                title: 'Despeja el camino',
+                fen: '6k1/3q4/8/8/8/3b4/8/3R3K w - - 0 1',
+                instruction: 'El alfil negro en d3 bloquea el camino a la dama en d7. ¡Captura primero el alfil!',
+                stars: ['d3', 'd7'],
+                hint: 'La torre sube a d3 (captura el alfil que bloquea) y luego sigue a d7 (captura la dama).',
+                comment: '¡Despejaste el camino y capturaste las dos piezas!'
+            },
+            {
+                title: 'Dos piezas colgantes',
+                fen: '6k1/8/3r4/8/8/3b4/8/3R3K w - - 0 1',
+                instruction: 'Hay dos piezas negras sin defensa en la columna d. ¡Captúralas en orden!',
+                stars: ['d3', 'd6'],
+                hint: 'La torre sube a d3 (captura el alfil), luego sube a d6 (captura la torre negra).',
+                comment: '¡Dos piezas capturadas! Ventaja material aplastante.'
+            }
+        ],
+        successMessage: '¡Capítulo Protección completado! Nunca dejes tus piezas sin defensa.'
+    },
+    {
+        id: 'basico-combate', category: 'basico',
+        title: 'Combate',
+        description: 'En el combate se captura y se recaptura. ¡Aprende a ganar los intercambios! Completa los 6 ejercicios.',
+        fen: '7k/8/8/3q4/8/8/8/3R3K w - - 0 1',
+        playerColor: 'white', preMoves: [],
+        steps: [
+            {
+                title: 'Captura lo más valioso',
+                fen: '7k/8/8/3q4/8/8/8/3R3K w - - 0 1',
+                instruction: 'Hay una dama negra sin defensa. ¡Captúrala con la torre!',
+                stars: ['d5'],
+                hint: 'La torre en d1 sube hasta la dama en d5 por la columna d.',
+                comment: '¡Ganaste la dama! Eso es un enorme intercambio a tu favor.'
+            },
+            {
+                title: 'Elige bien',
+                fen: '7k/8/8/3qr3/8/8/8/3R3K w - - 0 1',
+                instruction: 'Hay dama y torre negras en la fila 5. ¡Captura la más valiosa!',
+                acceptedMoves: ['d1d5'],
+                hint: 'La dama vale más que la torre. ¡Captura la dama en d5!',
+                comment: '¡Capturaste la dama, la pieza más valiosa!'
+            },
+            {
+                title: 'Intercambio de torres',
+                fen: '7k/8/8/3r4/8/8/8/3R3K w - - 0 1',
+                instruction: 'Puedes capturar la torre negra. ¡Torre por torre es un intercambio justo!',
+                stars: ['d5'],
+                hint: 'Tu torre en d1 sube hasta la torre negra en d5.',
+                comment: '¡Intercambio de torres! Queda material equilibrado.'
+            },
+            {
+                title: 'Captura y cosecha',
+                fen: '7k/8/3r4/6p1/8/8/8/3R3K w - - 0 1',
+                instruction: 'Captura la torre negra y luego el peón.',
+                stars: ['d6', 'g5'],
+                hint: 'Torre d1→d6 (captura la torre negra), luego d6→g6 no... d6→g6→g5? Piensa: ¿qué puede alcanzar la torre desde d6?',
+                comment: '¡Dos capturas en secuencia!'
+            },
+            {
+                title: 'Ataca la más valiosa primero',
+                fen: '7k/8/8/3rn3/8/8/8/2BR3K w - - 0 1',
+                instruction: 'Hay caballo y torre negros. Tu alfil ataca el caballo. ¡Captúralo!',
+                acceptedMoves: ['c1e3', 'c1b2', 'c1d2', 'c1a3', 'e1e5'],
+                hint: 'El alfil en c1 puede atacar el caballo en e3 (diagonal), o la torre en e1 puede subir a e5.',
+                comment: '¡Pieza capturada! Controlar el centro da ventaja.'
+            },
+            {
+                title: 'El gran intercambio',
+                fen: '7k/8/3r4/8/8/8/3R4/3Q3K w - - 0 1',
+                instruction: 'Captura la torre negra con la torre blanca, ¡no con la dama!',
+                acceptedMoves: ['d2d6'],
+                hint: 'Usa la torre (d2→d6) para capturar la torre negra. Guarda la dama para ataques más importantes.',
+                comment: '¡Bien! Capturas con la pieza de menor valor cuando puedes.'
+            }
+        ],
+        successMessage: '¡Capítulo Combate completado! Entender los intercambios es clave para ganar.'
+    },
+    {
+        id: 'basico-jaque-1', category: 'basico',
+        title: 'Jaque en una',
+        description: 'El jaque ataca al rey directamente. El rival DEBE responder al instante. ¡Aprende a dar jaque! Completa los 6 ejercicios.',
+        fen: '2k5/8/8/8/8/8/8/R7 w - - 0 1',
+        playerColor: 'white', preMoves: [],
+        steps: [
+            {
+                title: 'Jaque con la torre',
+                fen: '2k5/8/8/8/8/8/8/R7 w - - 0 1',
+                instruction: 'Da jaque al rey negro con la torre.',
+                acceptedMoves: ['a1a8', 'a1c1', 'a1b1', 'a1d1', 'a1e1', 'a1f1', 'a1g1', 'a1h1', 'a1a2', 'a1a3', 'a1a4', 'a1a5', 'a1a6', 'a1a7'],
+                hint: 'Mueve la torre a la columna c (misma que el rey) o a la fila 8 para dar jaque.',
+                comment: '¡Jaque! La torre ataca al rey por fila o columna.'
+            },
+            {
+                title: 'Jaque con el alfil',
+                fen: '7k/8/8/8/8/8/8/B7 w - - 0 1',
+                instruction: 'Da jaque al rey negro con el alfil.',
+                acceptedMoves: ['a1b2', 'a1c3', 'a1d4', 'a1e5', 'a1f6', 'a1g7'],
+                hint: 'El alfil en a1 y el rey en h8 están en la misma diagonal. ¡Muévete por ella!',
+                comment: '¡Jaque! El alfil ataca en diagonal.'
+            },
+            {
+                title: 'Jaque con la dama',
+                fen: '4k3/8/8/8/8/8/8/3Q4 w - - 0 1',
+                instruction: 'Da jaque al rey negro con la dama.',
+                acceptedMoves: ['d1e1', 'd1d8', 'd1a4', 'd1h5'],
+                hint: 'La dama puede dar jaque desde la columna e, la fila 8 o desde las diagonales de e8.',
+                comment: '¡Jaque con la dama! Es la pieza más poderosa para atacar.'
+            },
+            {
+                title: 'Jaque con el caballo',
+                fen: '3k4/8/8/8/3N4/8/8/8 w - - 0 1',
+                instruction: 'Da jaque al rey negro con el caballo.',
+                acceptedMoves: ['d4c6', 'd4e6'],
+                hint: 'El caballo en d4 puede saltar a c6 o e6, desde donde ataca al rey en d8.',
+                comment: '¡Jaque con el caballo! El salto en L puede sorprender al rival.'
+            },
+            {
+                title: 'Jaque por la fila',
+                fen: '8/4k3/8/8/8/8/8/4R3 w - - 0 1',
+                instruction: 'El rey negro está en e7. ¡Da jaque con la torre!',
+                acceptedMoves: ['e1a1', 'e1b1', 'e1c1', 'e1d1', 'e1f1', 'e1g1', 'e1h1', 'e1e2', 'e1e3', 'e1e4', 'e1e5', 'e1e6'],
+                hint: 'Mueve la torre a cualquier casilla de la columna e (misma que el rey en e7) para dar jaque.',
+                comment: '¡Jaque por la columna!'
+            },
+            {
+                title: 'Elige tu jaque',
+                fen: '4k3/8/8/8/8/8/8/R3Q3 w - - 0 1',
+                instruction: 'Tienes torre y dama. ¡Da jaque al rey negro!',
+                acceptedMoves: ['e1e8', 'e1e2', 'e1e3', 'e1e4', 'e1e5', 'e1e6', 'e1e7', 'a1a8', 'e1h4', 'e1d2'],
+                hint: 'La dama a e8 o cualquier casilla de la columna e da jaque. La torre a a8 da jaque por la fila.',
+                comment: '¡Jaque! Con más piezas tienes más opciones de ataque.'
+            }
+        ],
+        successMessage: '¡Capítulo Jaque en una completado! El jaque obliga al rival a reaccionar.'
+    },
+    {
+        id: 'basico-jaque-2', category: 'basico',
+        title: 'Salir del jaque',
+        description: 'En jaque DEBES salir de él. Hay 3 formas: mover el rey, bloquear el ataque o capturar la pieza atacante. Completa los 5 ejercicios.',
+        fen: '4k3/8/4R3/8/8/8/8/4K3 b - - 0 1',
+        playerColor: 'black', preMoves: [],
+        steps: [
+            {
+                title: 'Mueve el rey',
+                fen: '4k3/8/4R3/8/8/8/8/4K3 b - - 0 1',
+                instruction: 'Tu rey negro está en jaque por la torre blanca. ¡Muévelo a una casilla segura!',
+                acceptedMoves: null,
+                hint: 'El rey puede ir a d8, d7, f8 o f7 para escapar del jaque de la torre en e6.',
+                comment: '¡Bien! Escapaste del jaque moviendo el rey.'
+            },
+            {
+                title: 'Captura al atacante',
+                fen: '4k3/4R3/8/8/8/8/8/4K3 b - - 0 1',
+                instruction: 'Tu rey está en jaque por la torre en e7. ¡Captúrala con el rey!',
+                acceptedMoves: ['e8e7'],
+                hint: 'El rey negro puede capturar la torre blanca en e7. La torre está sin defensa.',
+                comment: '¡Capturaste la pieza que daba jaque!'
+            },
+            {
+                title: 'Bloquea el jaque',
+                fen: '4k3/8/8/3r4/8/8/8/4R2K b - - 0 1',
+                instruction: 'El rey negro está en jaque por la torre blanca en e1. ¡Bloquea con tu torre!',
+                acceptedMoves: ['d5e5'],
+                hint: 'Interpón tu torre negra en e5 entre el rey en e8 y la torre blanca en e1.',
+                comment: '¡Bloqueaste el jaque con tu propia torre!'
+            },
+            {
+                title: 'Elige la salida',
+                fen: '3k4/8/8/8/8/3R4/8/3K4 b - - 0 1',
+                instruction: 'El rey negro en d8 está en jaque por la torre en d3. ¡Escápate!',
+                acceptedMoves: null,
+                hint: 'El rey puede ir a c8, c7, e8 o e7 para salir del jaque.',
+                comment: '¡Escapaste del jaque!'
+            },
+            {
+                title: 'Captura o escapa',
+                fen: '4k3/8/8/4r3/8/8/8/4R2K b - - 0 1',
+                instruction: 'Tu rey está en jaque. Puedes escapar moviendo el rey o capturar la torre blanca con tu torre.',
+                acceptedMoves: null,
+                hint: 'La torre negra en e5 puede capturar la torre blanca en e1. O el rey puede moverse.',
+                comment: '¡Bien resuelto el jaque!'
+            }
+        ],
+        successMessage: '¡Capítulo Salir del jaque completado! Siempre debes responder al jaque inmediatamente.'
+    },
+    {
+        id: 'basico-mate', category: 'basico',
+        title: 'Mate en una',
+        description: 'El jaque mate gana la partida al instante: el rey atacado no puede escapar. Completa los 6 ejercicios.',
+        fen: 'k7/8/1K6/1Q6/8/8/8/8 w - - 0 1',
+        playerColor: 'white', preMoves: [],
+        steps: [
+            {
+                title: 'Mate con la dama',
+                fen: 'k7/8/1K6/1Q6/8/8/8/8 w - - 0 1',
+                instruction: '¡Hay jaque mate en 1! Mueve la dama para atrapar al rey negro.',
+                acceptedMoves: ['b5b8'],
+                hint: 'La dama en b8 da jaque y el rey en a8 no puede escapar: a7 y b7 están controlados por el rey blanco.',
+                comment: '¡JAQUE MATE! El rey negro no tiene ningún escape.'
+            },
+            {
+                title: 'Mate del pasillo',
+                fen: '6k1/5ppp/8/8/8/8/8/3R2K1 w - - 0 1',
+                instruction: '¡El rey negro está atrapado detrás de sus propios peones! Da mate con la torre.',
+                acceptedMoves: ['d1d8'],
+                hint: 'Lleva la torre a d8: el rey en g8 no puede escapar porque sus propios peones bloquean la salida.',
+                comment: '¡Mate del pasillo! Los peones propios pueden ser la prisión del rey.'
+            },
+            {
+                title: 'Mate de caja',
+                fen: 'k7/8/KR6/8/8/8/8/8 w - - 0 1',
+                instruction: '¡Da jaque mate al rey negro con la torre!',
+                acceptedMoves: ['b6b8'],
+                hint: 'La torre en b8 da jaque y el rey en a8 no puede ir a a7 (rey blanco en a6) ni a b7 (torre).',
+                comment: '¡Mate de caja! La torre y el rey coordinados atrapan al rey enemigo.'
+            },
+            {
+                title: 'Mate de escalera',
+                fen: 'k7/1R6/1K6/8/8/8/8/8 w - - 0 1',
+                instruction: '¡Hay mate en 1 con la torre! ¿Puedes encontrarlo?',
+                acceptedMoves: ['b7b8'],
+                hint: 'La torre a b8 da jaque. El rey en a8 no puede ir a a7 ni b7 (ambas controladas por el rey en b6).',
+                comment: '¡Mate de escalera! La técnica de la escalera es fundamental en finales.'
+            },
+            {
+                title: 'Mate con la dama (esquina)',
+                fen: '1k6/8/1KQ5/8/8/8/8/8 w - - 0 1',
+                instruction: '¡Hay mate en 1 con la dama!',
+                acceptedMoves: ['c6b7', 'c6c8'],
+                hint: 'La dama en b7 da jaque y el rey en b8 no puede escapar con el rey blanco en b6. También funciona c8.',
+                comment: '¡Jaque mate con la dama! Controla todas las casillas de huida.'
+            },
+            {
+                title: 'Mate con dos torres',
+                fen: 'k7/1R6/2K5/8/8/8/8/3R4 w - - 0 1',
+                instruction: '¡Las dos torres dan mate en 1! ¿Cuál mueves?',
+                acceptedMoves: ['d1a1'],
+                hint: 'La torre a a1 da jaque por la columna a. El rey en a8 no puede ir a b8 (torre b7) ni a a7 (torre b7 controla a7).',
+                comment: '¡Mate con dos torres! La coordinación de torres es devastadora.'
+            }
+        ],
+        successMessage: '¡Capítulo Mate en una completado! Busca siempre si hay jaque mate antes de cualquier movimiento.'
+    },
+    // ── INTERMEDIO (estilo Lichess Learn) ────────────────────────────────
+    {
+        id: 'inter-tablero', category: 'intermedio',
+        title: 'Colocación del tablero',
+        description: 'Aprende dónde empieza cada pieza. La fila 1 es de las blancas y la dama va en su color. Completa los 6 ejercicios.',
+        fen: '8/8/8/8/8/8/8/1R6 w - - 0 1',
+        playerColor: 'white', preMoves: [],
+        steps: [
+            {
+                title: 'Las torres',
+                fen: '8/8/8/8/8/8/8/1R6 w - - 0 1',
+                instruction: 'Las torres empiezan en las esquinas. Lleva la torre a su casilla inicial.',
+                stars: ['a1'],
+                hint: 'Mueve la torre de b1 a la esquina a1.',
+                comment: '¡Bien! Las torres empiezan en a1 y h1.'
+            },
+            {
+                title: 'Los caballos',
+                fen: '8/8/8/8/8/2N5/8/8 w - - 0 1',
+                instruction: 'Los caballos van junto a las torres. Lleva el caballo a su casilla inicial.',
+                stars: ['b1'],
+                hint: 'Salta con el caballo de c3 a b1.',
+                comment: '¡Bien! Los caballos empiezan en b1 y g1.'
+            },
+            {
+                title: 'Los alfiles',
+                fen: '8/8/8/8/8/B7/8/8 w - - 0 1',
+                instruction: 'Los alfiles van junto a los caballos. Lleva el alfil a su casilla inicial.',
+                stars: ['c1'],
+                hint: 'Mueve el alfil en diagonal de a3 a c1.',
+                comment: '¡Bien! Los alfiles empiezan en c1 y f1.'
+            },
+            {
+                title: 'La dama en su color',
+                fen: '8/8/8/3Q4/8/8/8/8 w - - 0 1',
+                instruction: 'La dama blanca empieza en casilla blanca: d1. ¡Colócala!',
+                stars: ['d1'],
+                hint: 'Baja la dama por la columna d hasta d1. Recuerda: «la dama en su color».',
+                comment: '¡Bien! Dama blanca en casilla blanca (d1), dama negra en casilla negra (d8).'
+            },
+            {
+                title: 'El rey',
+                fen: '8/8/8/8/8/8/4K3/8 w - - 0 1',
+                instruction: 'El rey ocupa la casilla que queda libre junto a la dama: e1.',
+                stars: ['e1'],
+                hint: 'Mueve el rey de e2 a e1.',
+                comment: '¡Bien! El rey blanco empieza en e1 y el negro en e8.'
+            },
+            {
+                title: 'Primera jugada',
+                fen: 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1',
+                instruction: 'El tablero ya está colocado (los peones ocupan toda la fila 2). ¡Haz tu primera jugada!',
+                acceptedMoves: null,
+                hint: 'Cualquier movimiento legal vale. Los clásicos son e4 o d4.',
+                comment: '¡La partida ha comenzado!'
+            }
+        ],
+        successMessage: '¡Capítulo Colocación del tablero completado! Torre, caballo, alfil, dama en su color y rey al lado.'
+    },
+    {
+        id: 'inter-enroque', category: 'intermedio',
+        title: 'El Enroque',
+        description: 'El enroque pone al rey a salvo y activa la torre: el rey se mueve 2 casillas hacia la torre y esta salta al otro lado. Completa los 5 ejercicios.',
+        fen: '4k3/8/8/8/8/8/8/4K2R w K - 0 1',
+        playerColor: 'white', preMoves: [],
+        steps: [
+            {
+                title: 'Enroque corto',
+                fen: '4k3/8/8/8/8/8/8/4K2R w K - 0 1',
+                instruction: 'Realiza el enroque corto: mueve el rey 2 casillas hacia la torre de h1.',
+                acceptedMoves: ['e1g1'],
+                hint: 'Haz clic en el rey (e1) y luego en g1. La torre saltará automáticamente a f1.',
+                comment: '¡Enroque corto! El rey queda en g1 y la torre en f1.'
+            },
+            {
+                title: 'Enroque largo',
+                fen: '4k3/8/8/8/8/8/8/R3K3 w Q - 0 1',
+                instruction: 'Realiza el enroque largo: mueve el rey 2 casillas hacia la torre de a1.',
+                acceptedMoves: ['e1c1'],
+                hint: 'Haz clic en el rey (e1) y luego en c1. La torre saltará automáticamente a d1.',
+                comment: '¡Enroque largo! El rey queda en c1 y la torre en d1.'
+            },
+            {
+                title: 'Elige tu enroque',
+                fen: '4k3/8/8/8/8/8/8/R3K2R w KQ - 0 1',
+                instruction: 'Puedes enrocar a cualquiera de los dos lados. ¡Elige!',
+                acceptedMoves: ['e1g1', 'e1c1'],
+                hint: 'Mueve el rey a g1 (corto) o a c1 (largo).',
+                comment: '¡Enroque realizado! El corto suele ser más seguro.'
+            },
+            {
+                title: 'Casilla atacada',
+                fen: '4k3/8/b7/8/8/8/8/R3K2R w KQ - 0 1',
+                instruction: 'El alfil negro ataca f1: el rey no puede pasar por una casilla atacada. ¡Enroca por el lado seguro!',
+                acceptedMoves: ['e1c1'],
+                hint: 'El enroque corto es ilegal porque el rey pasaría por f1, atacada por el alfil de a6. Enroca largo (e1 → c1).',
+                comment: '¡Bien! El rey nunca puede pasar por una casilla atacada al enrocar.'
+            },
+            {
+                title: 'Enroca pronto',
+                fen: 'r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/3P1N2/PPP2PPP/RNBQK2R w KQkq - 0 1',
+                instruction: 'En la apertura conviene enrocar cuanto antes para proteger al rey. ¡Enroca corto!',
+                acceptedMoves: ['e1g1'],
+                hint: 'Las casillas f1 y g1 ya están libres: mueve el rey de e1 a g1.',
+                comment: '¡Rey a salvo y torre activa! Un gran principio de apertura.'
+            }
+        ],
+        successMessage: '¡Capítulo El Enroque completado! No puedes enrocar si el rey o la torre ya se movieron, ni pasando por casillas atacadas.'
+    },
+    {
+        id: 'inter-alpaso', category: 'intermedio',
+        title: 'Captura al paso',
+        description: 'Si un peón rival avanza 2 casillas y queda a tu lado, puedes capturarlo «al paso» como si hubiera avanzado solo 1. Completa los 4 ejercicios.',
+        fen: '4k3/8/8/3pP3/8/8/8/4K3 w - d6 0 1',
+        playerColor: 'white', preMoves: [],
+        steps: [
+            {
+                title: 'Al paso',
+                fen: '4k3/8/8/3pP3/8/8/8/4K3 w - d6 0 1',
+                instruction: 'El peón negro acaba de avanzar 2 casillas (d7-d5). ¡Captúralo al paso!',
+                acceptedMoves: ['e5d6'],
+                hint: 'Mueve tu peón de e5 a d6: el peón negro de d5 desaparece.',
+                comment: '¡Captura al paso! El peón se captura como si solo hubiera avanzado una casilla.'
+            },
+            {
+                title: 'Solo el último',
+                fen: '4k3/8/8/3pPp2/8/8/8/4K3 w - f6 0 1',
+                instruction: 'El peón f acaba de avanzar 2 casillas; el peón d lo hizo hace varios turnos. Solo puedes capturar al paso el último. ¡Captura en f6!',
+                acceptedMoves: ['e5f6'],
+                hint: 'La captura al paso solo vale justo después del avance de 2 casillas: e5 → f6.',
+                comment: '¡Exacto! Al paso solo se captura el peón que ACABA de avanzar dos casillas.'
+            },
+            {
+                title: 'Elige el lado',
+                fen: '4k3/8/8/3PpP2/8/8/8/4K3 w - e6 0 1',
+                instruction: 'El peón negro avanzó 2 casillas entre tus dos peones. ¡Cualquiera de los dos puede capturarlo al paso!',
+                acceptedMoves: ['d5e6', 'f5e6'],
+                hint: 'Captura en e6 con el peón de d5 o con el de f5.',
+                comment: '¡Capturado! Los dos peones vigilaban la casilla e6.'
+            },
+            {
+                title: 'No se escapa',
+                fen: '4k3/8/8/pP6/8/8/8/4K3 w - a6 0 1',
+                instruction: 'El peón negro intentó pasar de largo avanzando 2 casillas. ¡Captúralo al paso!',
+                acceptedMoves: ['b5a6'],
+                hint: 'Mueve tu peón de b5 a a6 para capturar al paso.',
+                comment: '¡Bien! Avanzar dos casillas no sirve para esquivar a un peón rival.'
+            }
+        ],
+        successMessage: '¡Capítulo Captura al paso completado! Recuerda: solo es posible en el turno inmediatamente posterior al avance de 2 casillas.'
+    },
+    {
+        id: 'inter-ahogado', category: 'intermedio',
+        title: 'El Ahogado',
+        description: 'Si el rival no está en jaque pero no tiene ningún movimiento legal, la partida termina en tablas por ahogado. ¡Practica provocándolo! Completa los 4 ejercicios.',
+        fen: 'k7/8/1K6/8/8/8/2Q5/8 w - - 0 1',
+        playerColor: 'white', preMoves: [],
+        steps: [
+            {
+                title: 'Ahogado con la dama',
+                fen: 'k7/8/1K6/8/8/8/2Q5/8 w - - 0 1',
+                instruction: 'Deja al rey negro sin jugadas legales pero SIN darle jaque. Mueve la dama a c7.',
+                acceptedMoves: ['c2c7'],
+                hint: 'La dama en c7 controla a7, b7 y b8, pero NO ataca a8: el rey queda ahogado.',
+                comment: '¡Ahogado! El rey no está en jaque y no puede moverse: tablas.'
+            },
+            {
+                title: 'El rincón',
+                fen: '8/8/8/5K2/8/8/1Q6/7k w - - 0 1',
+                instruction: 'El rey negro está en la esquina h1. ¡Ahógalo con la dama!',
+                acceptedMoves: ['b2f2'],
+                hint: 'La dama en f2 controla g1, g2 y h2 sin dar jaque a h1.',
+                comment: '¡Ahogado en el rincón! Cuidado: con la dama es muy fácil ahogar sin querer.'
+            },
+            {
+                title: 'El peón coronador',
+                fen: '7k/7P/5K2/8/8/8/8/8 w - - 0 1',
+                instruction: 'Acércate con el rey para apoyar el peón… ¡y ahoga al rey negro!',
+                acceptedMoves: ['f6g6'],
+                hint: 'Con tu rey en g6, el rey negro no puede ir a g7, g8 ni capturar en h7: ahogado.',
+                comment: '¡Ahogado! Esta posición de rey y peón de torre es un empate clásico.'
+            },
+            {
+                title: 'Ahogado con la torre',
+                fen: 'k7/7R/1K6/8/8/8/8/8 w - - 0 1',
+                instruction: 'Ahoga al rey negro con la torre (¡sin jaque!).',
+                acceptedMoves: ['h7b7'],
+                hint: 'La torre en b7 controla a7 y b8 y está defendida por tu rey: ahogado.',
+                comment: '¡Ahogado! En un final ganado, esto sería un error: evita ahogar cuando vas ganando.'
+            }
+        ],
+        successMessage: '¡Capítulo El Ahogado completado! Ahogado = tablas: provócalo si vas perdiendo y evítalo si vas ganando.'
+    },
+    // ── AVANZADO (estilo Lichess Learn) ──────────────────────────────────
+    {
+        id: 'av-valor', category: 'avanzado',
+        title: 'Valor de las piezas',
+        description: 'Peón 1 · Caballo 3 · Alfil 3 · Torre 5 · Dama 9. Cuando puedas elegir, captura la pieza de mayor valor. Completa los 5 ejercicios.',
+        fen: '6k1/3r4/8/8/6n1/8/8/3Q2K1 w - - 0 1',
+        playerColor: 'white', preMoves: [],
+        steps: [
+            {
+                title: 'Torre o caballo',
+                fen: '6k1/3r4/8/8/6n1/8/8/3Q2K1 w - - 0 1',
+                instruction: 'Tu dama puede capturar la torre o el caballo. ¡Captura la pieza más valiosa!',
+                acceptedMoves: ['d1d7'],
+                hint: 'La torre vale 5 puntos y el caballo 3. Sube la dama por la columna d hasta d7.',
+                comment: '¡Bien! Torre (5) antes que caballo (3).'
+            },
+            {
+                title: 'Torre o caballo II',
+                fen: 'r5k1/8/8/8/4Q3/8/8/1n4K1 w - - 0 1',
+                instruction: 'De nuevo puedes elegir entre torre y caballo. ¡Elige bien!',
+                acceptedMoves: ['e4a8'],
+                hint: 'La dama llega en diagonal hasta la torre de a8.',
+                comment: '¡Capturada la torre! 5 puntos valen más que 3.'
+            },
+            {
+                title: '¡Cuidado con la defensa!',
+                fen: '3k4/3r4/8/7b/8/8/8/3Q2K1 w - - 0 1',
+                instruction: 'La torre de d7 está defendida por su rey: capturarla pierde la dama. ¡Captura el alfil gratis!',
+                acceptedMoves: ['d1h5'],
+                hint: 'Si tomas la torre, el rey recaptura tu dama (9 por 5 = mal negocio). El alfil de h5 está sin defensa.',
+                comment: '¡Exacto! El valor solo cuenta si la captura es segura.'
+            },
+            {
+                title: 'Alfil o peón',
+                fen: 'k7/8/8/p7/8/8/7K/R4b2 w - - 0 1',
+                instruction: 'Tu torre puede capturar el alfil o el peón. ¡Captura la pieza más valiosa!',
+                acceptedMoves: ['a1f1'],
+                hint: 'El alfil vale 3 puntos y el peón solo 1. Mueve la torre por la primera fila hasta f1.',
+                comment: '¡Bien! Alfil (3) antes que peón (1).'
+            },
+            {
+                title: 'El salto ganador',
+                fen: 'k7/4r3/8/3N4/8/2p5/8/6K1 w - - 0 1',
+                instruction: 'Tu caballo puede capturar la torre o el peón. ¡Elige la más valiosa!',
+                acceptedMoves: ['d5e7'],
+                hint: 'Salta con el caballo de d5 a e7 para capturar la torre (5 puntos).',
+                comment: '¡Torre capturada! El caballo alcanza casillas sorprendentes.'
+            }
+        ],
+        successMessage: '¡Capítulo Valor de las piezas completado! Dama 9, Torre 5, Alfil y Caballo 3, Peón 1: captura siempre lo más valioso… si es seguro.'
+    },
+    {
+        id: 'av-jaque2', category: 'avanzado',
+        title: 'Jaque en dos',
+        description: 'A veces el jaque necesita preparación: una jugada para colocarte y otra para atacar al rey. Completa los 4 ejercicios (2 jugadas cada uno).',
+        fen: '4k3/p7/8/4p3/8/8/8/R5K1 w - - 0 1',
+        playerColor: 'white', preMoves: [],
+        steps: [
+            {
+                title: 'Sube la torre',
+                fen: '4k3/p7/8/4p3/8/8/8/R5K1 w - - 0 1',
+                instruction: 'Ningún movimiento da jaque todavía. Sube la torre a a6 para preparar el ataque.',
+                acceptedMoves: ['a1a6'],
+                hint: 'La torre en a6 podrá deslizarse después por la sexta fila hacia el rey.',
+                comment: '¡Torre activada! Ahora viene el jaque.',
+                autoResponse: 'e5e4'
+            },
+            {
+                title: 'Remata la torre',
+                fen: '4k3/p7/R7/8/4p3/8/8/6K1 w - - 0 1',
+                instruction: 'Ahora desliza la torre por la sexta fila y da jaque al rey.',
+                acceptedMoves: ['a6e6'],
+                hint: 'La torre en e6 ataca al rey de e8 por la columna e.',
+                comment: '¡Jaque en dos jugadas!'
+            },
+            {
+                title: 'Apunta con el alfil',
+                fen: '8/6kp/8/6P1/3P4/8/8/2B3K1 w - - 0 1',
+                instruction: 'El alfil no puede dar jaque aún. Llévalo a a3 para apuntar a f8.',
+                acceptedMoves: ['c1a3'],
+                hint: 'Desde a3, el alfil controla la diagonal a3–f8, junto al rey negro.',
+                comment: '¡Diagonal preparada!',
+                autoResponse: 'h7h6'
+            },
+            {
+                title: 'Dispara el alfil',
+                fen: '8/6k1/7p/6P1/3P4/B7/8/6K1 w - - 0 1',
+                instruction: 'Ahora desliza el alfil por la diagonal y da jaque.',
+                acceptedMoves: ['a3f8'],
+                hint: 'El alfil en f8 ataca al rey de g7.',
+                comment: '¡Jaque con el alfil!'
+            },
+            {
+                title: 'Acerca el caballo',
+                fen: '4k3/p7/8/5P2/8/6N1/8/6K1 w - - 0 1',
+                instruction: 'El caballo está lejos. Salta a e4 para acercarte al rey.',
+                acceptedMoves: ['g3e4'],
+                hint: 'Desde e4 el caballo alcanzará d6 o f6, desde donde dará jaque.',
+                comment: '¡Caballo en camino!',
+                autoResponse: 'a7a6'
+            },
+            {
+                title: 'Salto con jaque',
+                fen: '4k3/8/p7/5P2/4N3/8/8/6K1 w - - 0 1',
+                instruction: 'Ahora salta y da jaque al rey negro. ¡Hay dos opciones!',
+                acceptedMoves: ['e4d6', 'e4f6'],
+                hint: 'El caballo da jaque a e8 desde d6 o desde f6.',
+                comment: '¡Jaque con el caballo en dos saltos!'
+            },
+            {
+                title: 'Infiltra la dama',
+                fen: '4r1k1/p4ppp/8/8/8/8/8/3Q2K1 w - - 0 1',
+                instruction: 'La torre negra de e8 impide el jaque en la octava fila. Sube la dama a d8 para atacarla.',
+                acceptedMoves: ['d1d8'],
+                hint: 'La dama sube por la columna d hasta d8, atacando la torre de e8.',
+                comment: '¡Torre atacada! Y no está defendida…',
+                autoResponse: 'a7a6'
+            },
+            {
+                title: 'Golpea la dama',
+                fen: '3Qr1k1/5ppp/p7/8/8/8/8/6K1 w - - 0 1',
+                instruction: '¡Captura la torre y da jaque al rey al mismo tiempo!',
+                acceptedMoves: ['d8e8'],
+                hint: 'La dama captura la torre en e8: jaque al rey de g8 por la octava fila.',
+                comment: '¡Jaque y torre capturada! Preparar el ataque en dos jugadas es la base de la táctica.'
+            }
+        ],
+        successMessage: '¡Capítulo Jaque en dos completado! Piensa siempre una jugada de preparación antes del golpe.'
+    },
+    // ── JAQUE ─────────────────────────────────────────────────────────────
+    {
+        id: 'jaque-1', category: 'jaque',
+        title: 'Dar Jaque con la Torre',
+        description: 'El jaque ocurre cuando el rey es atacado directamente. El jugador en jaque debe salir de él inmediatamente. La torre ataca por filas y columnas.',
+        fen: '8/8/4k3/8/8/8/8/4KR2 w - - 0 1',
+        playerColor: 'white', preMoves: [],
+        steps: [{
+            instruction: 'Da jaque al rey negro moviendo la torre a su misma fila.',
+            acceptedMoves: ['f1f6'],
+            hint: 'Mueve la torre al f6: quedará en la misma fila que el rey negro en e6.',
+            comment: '¡Jaque! El rey negro está bajo ataque.'
+        }],
+        successMessage: '¡Lección completada! La torre da jaque atacando al rey por la misma fila o columna.',
+    },
+    {
+        id: 'jaque-2', category: 'jaque',
+        title: 'Escapar del Jaque',
+        description: 'Cuando tu rey está en jaque DEBES salir de él. Hay 3 formas: mover el rey, bloquear el ataque, o capturar la pieza atacante.',
+        fen: '8/8/4k3/4R3/8/8/8/4K3 b - - 0 1',
+        playerColor: 'black', preMoves: [],
+        steps: [{
+            instruction: 'Tu rey negro está en jaque por la torre blanca. ¡Sálvalo!',
+            acceptedMoves: null,
+            hint: 'El rey puede moverse a d5, d6, d7, e7, f5, f6, f7 o capturar la torre en e5.',
+            comment: '¡Has escapado del jaque!'
+        }],
+        successMessage: '¡Lección completada! Para salir del jaque puedes mover el rey, bloquear o capturar.',
+    },
+    {
+        id: 'jaque-3', category: 'jaque',
+        title: 'Jaque al Descubierto',
+        description: 'El jaque al descubierto ocurre cuando al mover una pieza, otra que estaba detrás queda atacando al rey enemigo.',
+        fen: 'k7/8/8/8/B7/8/8/R3K3 w - - 0 1',
+        playerColor: 'white', preMoves: [],
+        steps: [{
+            instruction: 'Mueve el alfil fuera de la columna "a" para que la torre descubra jaque al rey negro.',
+            acceptedMoves: ['a4b3', 'a4c2', 'a4d1', 'a4b5', 'a4c6', 'a4d7', 'a4e8'],
+            hint: 'Mueve el alfil en diagonal: cuando abandone la columna "a", la torre atacará al rey en a8.',
+            comment: '¡Jaque al descubierto! La torre ahora ataca al rey negro.'
+        }],
+        successMessage: '¡Lección completada! El jaque al descubierto puede ser muy sorpresivo para el rival.',
+    },
+    // ── MATE ──────────────────────────────────────────────────────────────
+    {
+        id: 'mate-1', category: 'mate',
+        title: 'Jaque Mate con Dama',
+        description: 'El jaque mate es la posición de jaque de la que el rey no puede escapar. ¡Es el objetivo del ajedrez!',
+        fen: 'k7/8/1K6/1Q6/8/8/8/8 w - - 0 1',
+        playerColor: 'white', preMoves: [],
+        steps: [{
+            instruction: '¡Hay jaque mate en 1! Mueve la dama para que el rey no tenga escape.',
+            acceptedMoves: ['b5b8'],
+            hint: 'La dama en b8 da jaque y el rey en a8 no puede escapar. El rey blanco en b6 cubre a7 y b7.',
+            comment: '¡Jaque Mate! El rey negro no tiene ningún escape.'
+        }],
+        successMessage: '¡Lección completada! El jaque mate gana la partida instantáneamente.',
+    },
+    {
+        id: 'mate-2', category: 'mate',
+        title: 'Mate del Pasillo',
+        description: 'El mate del pasillo ocurre cuando el rey enemigo está atrapado detrás de sus propios peones y no puede escapar del ataque de la torre.',
+        fen: '6k1/5ppp/8/8/8/8/8/3R2K1 w - - 0 1',
+        playerColor: 'white', preMoves: [],
+        steps: [{
+            instruction: 'Da mate al rey negro llevando la torre a la última fila.',
+            acceptedMoves: ['d1d8'],
+            hint: 'Mueve la torre a d8: el rey en g8 no puede escapar porque sus propios peones bloquean la salida.',
+            comment: '¡Jaque Mate del Pasillo! Los peones negros son los culpables.'
+        }],
+        successMessage: '¡Lección completada! El mate del pasillo es muy común en partidas reales. ¡Protege tu rey!',
+    },
+    {
+        id: 'mate-3', category: 'mate',
+        title: 'Mate con 2 Torres',
+        description: 'Dos torres coordinadas pueden dar mate de forma sistemática. Una da jaque y la otra corta la huida del rey.',
+        fen: 'k7/1R6/2K5/8/8/8/8/3R4 w - - 0 1',
+        playerColor: 'white', preMoves: [],
+        steps: [{
+            instruction: 'Mueve la segunda torre para dar jaque mate al rey en a8.',
+            acceptedMoves: ['d1a1'],
+            hint: 'La torre en a1 da jaque. El rey no puede ir a b8 (torre b7) ni a a7 (torre b7). ¡Es mate!',
+            comment: '¡Jaque Mate! Las dos torres coordinadas atrapan al rey.'
+        }],
+        successMessage: '¡Lección completada! Con dos torres puedes dar mate a cualquier rey con la técnica correcta.',
+    },
+    // ── TÁCTICAS ──────────────────────────────────────────────────────────
+    {
+        id: 'horquilla', category: 'tacticas',
+        title: 'La Horquilla',
+        description: 'La horquilla es un ataque simultáneo a dos o más piezas con una sola pieza. El caballo es el rey de las horquillas gracias a su movimiento en "L".',
+        fen: 'r3k3/8/8/3N4/8/8/8/4K3 w - - 0 1',
+        playerColor: 'white', preMoves: [],
+        steps: [
+            {
+                instruction: 'Mueve el caballo para atacar simultáneamente al rey negro y a la torre negra. ¡Busca la horquilla!',
+                acceptedMoves: ['d5c7'],
+                hint: 'El caballo en c7 ataca tanto al rey en e8 como a la torre en a8.',
+                comment: '¡Horquilla! El caballo ataca al rey y a la torre al mismo tiempo.',
+                autoResponse: 'e8f8',
+            },
+            {
+                fen: 'r4k2/2N5/8/8/8/8/8/4K3 w - - 0 1',
+                instruction: '¡El rey se ha escapado del jaque, pero la torre sigue colgando! ¡Captúrala!',
+                acceptedMoves: ['c7a8'],
+                hint: 'El caballo en c7 puede capturar la torre en a8.',
+                comment: '¡Excelente! Has ganado una torre con la horquilla.',
+            }
+        ],
+        successMessage: '¡Lección completada! La horquilla con caballo es una táctica muy poderosa.',
+    },
+    {
+        id: 'clavada', category: 'tacticas',
+        title: 'La Clavada',
+        description: 'La clavada inmoviliza una pieza porque si se mueve, dejaría al rey en jaque o perdería una pieza más valiosa. La pieza clavada no puede moverse libremente.',
+        fen: '4k3/4r3/8/8/8/8/4R3/4K3 w - - 0 1',
+        playerColor: 'white', preMoves: [],
+        steps: [{
+            instruction: 'La torre negra está clavada: no puede moverse sin dejar al rey en jaque. ¡Captúrala!',
+            acceptedMoves: ['e2e7'],
+            hint: 'Mueve la torre blanca de e2 a e7 para capturar la torre clavada.',
+            comment: '¡Correcto! Has capturado la pieza clavada.'
+        }],
+        successMessage: '¡Lección completada! Siempre busca piezas clavadas del rival para atacarlas.',
+    },
+    {
+        id: 'colgante', category: 'tacticas',
+        title: 'Pieza Colgante',
+        description: 'Una pieza está "colgante" cuando no está defendida por ninguna pieza rival. Puedes capturarla sin perder material.',
+        fen: '4k3/8/8/8/8/3r4/8/3QK3 w - - 0 1',
+        playerColor: 'white', preMoves: [],
+        steps: [{
+            instruction: 'La torre negra está colgante (no defendida). ¡Captúrala con la dama!',
+            acceptedMoves: ['d1d3'],
+            hint: 'Mueve la dama de d1 a d3 para capturar la torre negra sin defensa.',
+            comment: '¡Perfecto! Has ganado una torre gratis.'
+        }],
+        successMessage: '¡Lección completada! Antes de mover, siempre comprueba si hay piezas colgantes del rival.',
+    },
+    // ── EJERCICIOS DE ESTRELLAS (estilo Lichess) ───────────────────────────
+    {
+        id: 'ej-caballo', category: 'ejercicios',
+        title: 'Paseo del Caballo',
+        description: 'Practica el salto en «L» del caballo recorriendo el tablero y capturando todas las estrellas en orden.',
+        fen: '4k3/8/8/8/8/8/8/N3K3 w - - 0 1',
+        playerColor: 'white', preMoves: [],
+        steps: [{
+            instruction: 'Captura todas las estrellas con el caballo.',
+            stars: ['b3', 'c5', 'd7', 'e5', 'f7', 'h6'],
+            hint: 'El caballo salta en «L». Ve capturando cada estrella en el orden en que aparecen.',
+            comment: '¡Excelente paseo del caballo!'
+        }],
+        successMessage: '¡Ejercicio completado! Dominas el movimiento en «L» del caballo.',
+    },
+    {
+        id: 'ej-alfil', category: 'ejercicios',
+        title: 'Diagonales del Alfil',
+        description: 'El alfil siempre se mueve en diagonal por casillas del mismo color. Captura todas las estrellas.',
+        fen: '4k3/8/8/8/8/8/8/2B1K3 w - - 0 1',
+        playerColor: 'white', preMoves: [],
+        steps: [{
+            instruction: 'Captura todas las estrellas con el alfil.',
+            stars: ['a3', 'c5', 'a7', 'g1'],
+            hint: 'El alfil se mueve en diagonal. Sigue las estrellas por las diagonales.',
+            comment: '¡Diagonales perfectas!'
+        }],
+        successMessage: '¡Ejercicio completado! El alfil domina las diagonales del tablero.',
+    },
+    {
+        id: 'ej-dama', category: 'ejercicios',
+        title: 'Gran Tour de la Dama',
+        description: 'La dama combina torre y alfil: se mueve en línea recta y en diagonal. Captura todas las estrellas.',
+        fen: '4k3/8/8/8/8/8/8/3QK3 w - - 0 1',
+        playerColor: 'white', preMoves: [],
+        steps: [{
+            instruction: 'Captura todas las estrellas con la dama.',
+            stars: ['d8', 'a8', 'a1', 'd4', 'h8'],
+            hint: 'La dama se mueve en cualquier dirección. Combina rectas y diagonales.',
+            comment: '¡Gran tour de la dama!'
+        }],
+        successMessage: '¡Ejercicio completado! La dama es la pieza más versátil y poderosa.',
+    },
+    {
+        id: 'ej-rey', category: 'ejercicios',
+        title: 'Camino del Rey',
+        description: 'El rey se mueve una sola casilla cada vez, en cualquier dirección. Captura todas las estrellas paso a paso.',
+        fen: '7k/8/8/8/8/8/8/K7 w - - 0 1',
+        playerColor: 'white', preMoves: [],
+        steps: [{
+            instruction: 'Captura todas las estrellas con el rey, una casilla cada vez.',
+            stars: ['b2', 'c3', 'b4', 'a5', 'a6'],
+            hint: 'El rey avanza solo 1 casilla. Acércate a cada estrella paso a paso.',
+            comment: '¡Bien guiado el rey!'
+        }],
+        successMessage: '¡Ejercicio completado! El rey se mueve con cuidado, una casilla cada vez.',
+    },
+];
+
+/** Código Staunty (wP, wN…) delante del nombre en la lista de lecciones */
+const LEARN_LESSON_PIECES = {
+    'peon-1': 'wP',
+    'caballo-1': 'wN',
+    'alfil-1': 'wB',
+    'torre-1': 'wR',
+    'dama-1': 'wQ',
+    'rey-1': 'wK',
+    'basico-captura': 'wQ',
+    'basico-proteccion': 'wR',
+    'basico-combate': 'wN',
+    'basico-jaque-1': 'wK',
+    'basico-jaque-2': 'bK',
+    'basico-mate': 'wQ',
+    'inter-tablero': 'wR',
+    'inter-enroque': 'wK',
+    'inter-alpaso': 'wP',
+    'inter-ahogado': 'wQ',
+    'av-valor': 'wQ',
+    'av-jaque2': 'wR',
+    'jaque-1': 'wR',
+    'jaque-2': 'bK',
+    'jaque-3': 'wB',
+    'mate-1': 'wQ',
+    'mate-2': 'wR',
+    'mate-3': 'wR',
+    'horquilla': 'wN',
+    'clavada': 'wR',
+    'colgante': 'wQ',
+    'ej-caballo': 'wN',
+    'ej-alfil': 'wB',
+    'ej-dama': 'wQ',
+    'ej-rey': 'wK',
+};
+
+function learnPieceIconHtml(lessonId) {
+    var code = LEARN_LESSON_PIECES[lessonId];
+    if (!code) return '';
+    return '<img class="learn-lesson-piece" src="pieces/staunty/' + code + '.svg" alt="" loading="lazy" draggable="false">';
+}
+
 // ===== PROBLEMAS DE AJEDREZ =====
 var CHESS_PUZZLES = [
     // --- MATE EN 1 ---
@@ -2485,6 +3728,15 @@ var CHESS_PUZZLES = [
 
 ];
 
+/** Duración de los banners temporales sobre el tablero en problemas (carga, error, ver solución). */
+const PUZZLE_BOARD_BANNER_MS = 2500;
+const PUZZLE_CATEGORY_KEY = 'puzzleCategory';
+const PUZZLE_ALL_CATEGORIES = [
+    'mate1', 'mate2', 'mate3', 'mate4', 'mate5',
+    'fork', 'pin', 'sacrifice', 'attack', 'defense',
+    'endgame', 'center', 'capture', 'development', 'tactic', 'other'
+];
+
 var puzzleMode = false;
 var puzzleActive = false;
 var currentPuzzle = null;
@@ -2496,7 +3748,20 @@ var puzzleCorrectMoves = 0;
 var puzzleWrongMoves = 0;
 var puzzleGeneration = 0;
 var puzzleSolutionViewed = false;
+var puzzleSolutionAnimTimer = null;
+var puzzleSolutionBannerTimer = null;
+var puzzleSolutionPlaying = false;
+var puzzleHintMove = null;
 var puzzleSequentialIndex = 0;
+
+// ── Modo lección ──────────────────────────────────────────────────────────
+var learnMode = false;
+var learnActive = false;
+var currentLesson = null;
+var learnStepIndex = 0;
+var learnStarIndex = 0;
+var learnGeneration = 0;
+var learnProgress = {};
 
 // API de puzzles Lichess (Hostinger).
 // Importante: usar el mismo origen canónico (BASE_PATH = https://www.ajedrezia.com/)
@@ -2505,6 +3770,61 @@ var puzzleSequentialIndex = 0;
 const PUZZLES_API = BASE_PATH + 'puzzles/api/puzzles.php';
 var puzzleApiCache = [];     // puzzles cargados de la API
 var puzzleApiLoading = false;
+
+function shufflePuzzleList(list) {
+    var arr = list.slice();
+    for (var i = arr.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var tmp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = tmp;
+    }
+    return arr;
+}
+
+async function fetchPuzzlesByThemeFromAPI(theme, limit) {
+    const url = `${PUZZLES_API}?theme=${encodeURIComponent(theme)}&limit=${limit}`;
+    const res = await fetch(url);
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    return (data.puzzles && data.puzzles.length > 0) ? data.puzzles : [];
+}
+
+/** Con «Todas»: mezcla problemas de cada categoría. */
+async function fetchPuzzlesFromAllCategories(limit) {
+    var perCategory = Math.max(2, Math.ceil(limit / PUZZLE_ALL_CATEGORIES.length));
+    var merged = [];
+    var seen = {};
+    await Promise.all(PUZZLE_ALL_CATEGORIES.map(async function(cat) {
+        try {
+            var batch = await fetchPuzzlesByThemeFromAPI(cat, perCategory);
+            batch.forEach(function(p) {
+                var key = p.id || (p.fen + '|' + (p.solution || []).join(','));
+                if (!seen[key]) {
+                    seen[key] = true;
+                    merged.push(p);
+                }
+            });
+        } catch (e) {
+            console.warn('Puzzles API categoría ' + cat + ':', e.message);
+        }
+    }));
+    if (merged.length < limit) {
+        try {
+            var extra = await fetchPuzzlesByThemeFromAPI('all', limit);
+            extra.forEach(function(p) {
+                var key = p.id || (p.fen + '|' + (p.solution || []).join(','));
+                if (!seen[key]) {
+                    seen[key] = true;
+                    merged.push(p);
+                }
+            });
+        } catch (e) {
+            console.warn('Puzzles API theme=all:', e.message);
+        }
+    }
+    return shufflePuzzleList(merged).slice(0, limit);
+}
 
 async function fetchPuzzlesFromAPI(theme, limit = 20) {
     puzzleApiLoading = true;
@@ -2518,12 +3838,12 @@ async function fetchPuzzlesFromAPI(theme, limit = 20) {
         loadingMsg.style.display = 'flex';
     }
     try {
-        const url = `${PUZZLES_API}?theme=${encodeURIComponent(theme)}&limit=${limit}`;
-        const res = await fetch(url);
-        if (!res.ok) throw new Error('HTTP ' + res.status);
-        const data = await res.json();
-        if (data.puzzles && data.puzzles.length > 0) {
-            puzzleApiCache = data.puzzles;
+        if (theme === 'all') {
+            puzzleApiCache = await fetchPuzzlesFromAllCategories(limit);
+        } else {
+            puzzleApiCache = await fetchPuzzlesByThemeFromAPI(theme, limit);
+        }
+        if (puzzleApiCache.length > 0) {
             puzzleSequentialIndex = 0;
         }
     } catch (e) {
@@ -2570,6 +3890,28 @@ function savePuzzleStats() {
     } catch(e) {}
 }
 
+function savePuzzleCategory(theme) {
+    try { localStorage.setItem(PUZZLE_CATEGORY_KEY, theme); } catch (e) {}
+}
+
+function loadPuzzleCategory() {
+    try {
+        var saved = localStorage.getItem(PUZZLE_CATEGORY_KEY);
+        if (!saved) return 'all';
+        var themeSel = document.getElementById('puzzle-theme-select');
+        if (themeSel && Array.from(themeSel.options).some(function(o) { return o.value === saved; })) {
+            return saved;
+        }
+    } catch (e) {}
+    return 'all';
+}
+
+function applyPuzzleCategory(theme) {
+    puzzleFilter.theme = theme || 'all';
+    var themeSel = document.getElementById('puzzle-theme-select');
+    if (themeSel) themeSel.value = puzzleFilter.theme;
+}
+
 function updatePuzzleStatsUI() {
     var sc = document.getElementById('puzzle-solved-count');
     var fc = document.getElementById('puzzle-failed-count');
@@ -2577,6 +3919,13 @@ function updatePuzzleStatsUI() {
     if (sc) sc.textContent = puzzleStats.solved;
     if (fc) fc.textContent = puzzleStats.failed;
     if (st) st.textContent = puzzleStats.streak;
+}
+
+function setPuzzleHintSolutionEnabled(enabled) {
+    ['puzzle-hint', 'puzzle-solution', 'puzzle-board-hint', 'puzzle-board-solution'].forEach(function(id) {
+        var el = document.getElementById(id);
+        if (el) el.disabled = !enabled;
+    });
 }
 
 function getFilteredPuzzles() {
@@ -2606,7 +3955,7 @@ function updatePuzzleNavButtons() {
     if (nextBoard) nextBoard.disabled = dis;
     if (boardNav) boardNav.style.display = 'flex';
     if (boardLabel && currentPuzzle) {
-        boardLabel.textContent = currentPuzzle.title + ' (' + (puzzleSequentialIndex + 1) + ' de ' + len + ')';
+        boardLabel.textContent = getThemeLabel(currentPuzzle.theme) + ' (' + (puzzleSequentialIndex + 1) + ' de ' + len + ')';
     }
 }
 
@@ -2666,6 +4015,7 @@ async function startNewPuzzle(resetIndex, navDir) {
  */
 function bindPuzzleToBoardAndUI(opts) {
     if (!currentPuzzle) return;
+    if (learnMode) endLearnMode();
     const suppressScroll = opts && opts.suppressScroll;
     puzzleMoveIndex = 0;
     puzzleActive = true;
@@ -2688,11 +4038,14 @@ function bindPuzzleToBoardAndUI(opts) {
     if (quizMode) quizMode = false;
     hideMoveInsight();
     hideBoardBanner();
+    cancelPuzzleSolutionAnimation();
+    puzzleHintMove = null;
     setFamousGameTitle('');
     var openingLog = document.getElementById('opening-log');
     if (openingLog) openingLog.remove();
 
     game = new ChessGame();
+    gameGeneration++;
     game.loadFromFEN(currentPuzzle.fen);
 
     // Aplicar pre-movimiento de la IA (puzzles Lichess)
@@ -2733,18 +4086,17 @@ function bindPuzzleToBoardAndUI(opts) {
     document.getElementById('puzzle-instruction').textContent =
         'Juegan ' + (turnColor === 'white' ? 'BLANCAS' : 'NEGRAS') + '. Encuentra el mejor movimiento.';
 
-    // Banner temporal sobre el tablero
+    // Banner temporal sobre el tablero: turno + estrellas ELO y puntos al resolver
     const puzzleSide = turnColor === 'white' ? '♔ Juegan Blancas' : '♚ Juegan Negras';
     const puzzleBannerType = turnColor === 'white' ? 'puzzle-white-turn' : 'puzzle-black-turn';
-    showBoardBanner(puzzleSide, puzzleBannerType);
-    setTimeout(hideBoardBanner, 2200);
+    showBoardBanner(puzzleSide + ' ' + getPuzzleEloBannerSuffix(), puzzleBannerType);
+    setTimeout(hideBoardBanner, PUZZLE_BOARD_BANNER_MS);
 
     var fb = document.getElementById('puzzle-feedback');
     fb.style.display = 'none';
     fb.className = 'puzzle-feedback';
 
-    document.getElementById('puzzle-hint').disabled = false;
-    document.getElementById('puzzle-solution').disabled = false;
+    setPuzzleHintSolutionEnabled(true);
     updatePuzzleNavButtons();
     setPuzzleActionsLocked(true);
 
@@ -2927,7 +4279,8 @@ function applyMovesFromQueryString() {
     shareContext = 'partida';
     updateShareButton();
     if (!game.gameOver && playerColor !== 'both' && game.currentTurn !== playerColor) {
-        setTimeout(function () { makeAIMove(); }, 500);
+        const _aiGen = gameGeneration;
+        setTimeout(function () { makeAIMove(_aiGen); }, 500);
     }
     try {
         history.replaceState(null, '', window.location.pathname + (window.location.hash || ''));
@@ -3073,9 +4426,8 @@ async function applyPuzzleFromQueryString() {
     }
     // Usar la temática del puzzle para cargar 30 más de la misma categoría
     const pTheme = p.theme && p.theme !== '' ? p.theme : 'all';
-    puzzleFilter.theme = pTheme;
-    var themeSel = document.getElementById('puzzle-theme-select');
-    if (themeSel) themeSel.value = pTheme;
+    applyPuzzleCategory(pTheme);
+    savePuzzleCategory(pTheme);
 
     // El puzzle compartido va primero; los 30 adicionales se añaden en segundo plano
     puzzleApiCache = [p];
@@ -3096,7 +4448,7 @@ async function applyPuzzleFromQueryString() {
                 puzzleApiCache = [puzzleApiCache[0]].concat(extras);
                 const boardLabel = document.getElementById('puzzle-board-nav-label');
                 if (boardLabel && currentPuzzle === puzzleApiCache[0]) {
-                    boardLabel.textContent = (currentPuzzle.title || 'Problema') +
+                    boardLabel.textContent = (getThemeLabel(currentPuzzle.theme) || 'Problema') +
                         ' (1 de ' + puzzleApiCache.length + ')';
                 }
             }
@@ -3218,7 +4570,7 @@ function applyPuzzleInlineFromQueryString() {
 }
 
 function handlePuzzleClick(row, col) {
-    if (!puzzleActive || !currentPuzzle) return;
+    if (!puzzleActive || !currentPuzzle || puzzleSolutionPlaying) return;
 
     var clickedPiece = game.getPiece(row, col);
 
@@ -3254,6 +4606,8 @@ function handlePuzzleClick(row, col) {
 }
 
 function puzzleCheckMove(fromRow, fromCol, toRow, toCol, promoType) {
+    if (puzzleSolutionPlaying) return;
+    puzzleHintMove = null;
     var playerUCI = coordsToUCI(fromRow, fromCol, toRow, toCol, promoType || null);
     var expectedUCI = currentPuzzle.solution[puzzleMoveIndex];
     var gen = puzzleGeneration;
@@ -3299,7 +4653,7 @@ function puzzleCheckMove(fromRow, fromCol, toRow, toCol, promoType) {
             eloLost = getPuzzleEloByStar();
             applyEloChange(-eloLost);
             showBoardBanner('¡Error en Problema! (' + formatPuzzleEloLabel(-eloLost) + ')', 'puzzle-failed');
-            setTimeout(hideBoardBanner, 2500);
+            setTimeout(hideBoardBanner, PUZZLE_BOARD_BANNER_MS);
         }
         selectedSquare = null;
         renderBoard();
@@ -3361,14 +4715,22 @@ function getPuzzleEloByStar(difficulty) {
     return Math.max(1, Math.min(4, diff));
 }
 
+/** Texto ELO con estrellas y número: "ELO ⭐⭐ +2" / "ELO ⭐⭐ -2" / "0 ELO" */
 function formatPuzzleEloLabel(delta) {
     if (!delta) return '0 ELO';
+    var n = Math.abs(delta);
     var sign = delta > 0 ? '+' : '-';
-    return sign + '⭐'.repeat(Math.abs(delta)) + ' ELO';
+    return 'ELO ' + '⭐'.repeat(n) + ' ' + sign + n;
+}
+
+/** Sufijo para el banner de inicio de problema: "(ELO ⭐⭐ +2)" */
+function getPuzzleEloBannerSuffix() {
+    return '(' + formatPuzzleEloLabel(getPuzzleEloByStar()) + ')';
 }
 
 function puzzleSolved() {
     puzzleActive = false;
+    puzzleHintMove = null;
     puzzleStats.solved++;
     if (puzzleWrongMoves === 0) {
         puzzleStats.streak++;
@@ -3391,29 +4753,35 @@ function puzzleSolved() {
     var total = puzzleCorrectMoves + puzzleWrongMoves;
     var pct = total > 0 ? Math.round(puzzleCorrectMoves / total * 100) : 100;
     var streakMsg = puzzleStats.streak > 0 ? ' | Racha: ' + puzzleStats.streak : '';
-    var eloMsg = eloGained > 0 ? ' (' + formatPuzzleEloLabel(eloGained) + ')' : (puzzleWrongMoves > 0 ? ' (0 ELO — hubo fallos)' : '');
+    var eloMsg;
+    if (eloGained > 0) {
+        eloMsg = ' (' + formatPuzzleEloLabel(eloGained) + ')';
+    } else if (puzzleWrongMoves > 0) {
+        var eloLostOnError = getPuzzleEloByStar();
+        eloMsg = ' — hubo fallos (' + formatPuzzleEloLabel(-eloLostOnError) + ')';
+    } else {
+        eloMsg = '';
+    }
     var sidebarMsg = '🎉 ¡Problema resuelto!' + eloMsg + ' Aciertos: ' + puzzleCorrectMoves + ' | Fallos: ' + puzzleWrongMoves + ' | Precisión: ' + pct + '%' + streakMsg;
     showPuzzleFeedback(sidebarMsg, 'correct');
     showBoardBanner('🎉 ¡Problema Resuelto!' + eloMsg, 'puzzle-solved');
-    document.getElementById('puzzle-hint').disabled = true;
-    document.getElementById('puzzle-solution').disabled = true;
     updatePuzzleNavButtons();
 }
 
 function puzzleFailed() {
     puzzleActive = false;
+    puzzleHintMove = null;
     puzzleStats.failed++;
     puzzleStats.streak = 0;
     savePuzzleStats();
     updatePuzzleStatsUI();
     var eloLost = getPuzzleEloByStar();
     applyEloChange(-eloLost);
-    var failMsg = '❌ No resuelto (' + formatPuzzleEloLabel(-eloLost) + ') — La solución era: ' + formatPuzzleSolution();
-    showPuzzleFeedback(failMsg, 'wrong');
-    showBoardBanner(failMsg, 'puzzle-failed');
+    var failMsg = '❌ No resuelto — La solución era: ' + formatPuzzleSolution();
+    var failBanner = failMsg + ' (' + formatPuzzleEloLabel(-eloLost) + ')';
+    showPuzzleFeedback(failMsg + ' (' + formatPuzzleEloLabel(-eloLost) + ')', 'wrong');
+    showBoardBanner(failBanner, 'puzzle-failed');
     showPuzzleSolutionOnBoard();
-    document.getElementById('puzzle-hint').disabled = true;
-    document.getElementById('puzzle-solution').disabled = true;
     updatePuzzleNavButtons();
 }
 
@@ -3452,6 +4820,98 @@ function formatPuzzleSolution() {
     return parts.join(', ');
 }
 
+function cancelPuzzleSolutionAnimation() {
+    if (puzzleSolutionAnimTimer) {
+        clearTimeout(puzzleSolutionAnimTimer);
+        puzzleSolutionAnimTimer = null;
+    }
+    if (puzzleSolutionBannerTimer) {
+        clearTimeout(puzzleSolutionBannerTimer);
+        puzzleSolutionBannerTimer = null;
+    }
+    puzzleSolutionPlaying = false;
+    puzzleHintMove = null;
+}
+
+/** Tablero en la posición de reto del puzzle (FEN + preMoves). */
+function loadPuzzleChallengePosition() {
+    if (!currentPuzzle) return;
+    game.loadFromFEN(currentPuzzle.fen);
+    if (currentPuzzle.preMoves && currentPuzzle.preMoves.length > 0) {
+        currentPuzzle.preMoves.forEach(function(uci) {
+            var fc = uci.charCodeAt(0) - 97, fr = 8 - parseInt(uci[1]);
+            var tc = uci.charCodeAt(2) - 97, tr = 8 - parseInt(uci[3]);
+            game.makeMove(fr, fc, tr, tc);
+        });
+    }
+    game.gameOver = false;
+    playerColor = game.currentTurn === 'white' ? 'white' : 'black';
+    puzzleMoveIndex = 0;
+    lastMoveSquares = { from: null, to: null };
+    selectedSquare = null;
+}
+
+function applyPuzzleSolutionMove(uci) {
+    var coords = puzzleUCItoCoords(uci);
+    var pieceBefore = game.getPiece(coords.fromRow, coords.fromCol);
+    var capturedBefore = game.getPiece(coords.toRow, coords.toCol);
+    var enPassant = null;
+    if (pieceBefore && pieceBefore.type === 'pawn' && coords.fromCol !== coords.toCol && !capturedBefore) {
+        var epRow = pieceBefore.color === 'white' ? coords.toRow + 1 : coords.toRow - 1;
+        enPassant = { row: epRow, col: coords.toCol, piece: game.getPiece(epRow, coords.toCol) };
+    }
+    game.makeMove(coords.fromRow, coords.fromCol, coords.toRow, coords.toCol, mapUciPromoToPiece(coords.promo));
+    lastMoveSquares = { from: { row: coords.fromRow, col: coords.fromCol }, to: { row: coords.toRow, col: coords.toCol } };
+    renderBoard();
+    showMoveArrow(coords.fromRow, coords.fromCol, coords.toRow, coords.toCol, { color: 'blue', force: true });
+    if (capturedBefore) showCaptureAnimation(coords.toRow, coords.toCol, capturedBefore);
+    else if (enPassant && enPassant.piece) showCaptureAnimation(enPassant.row, enPassant.col, enPassant.piece);
+    updateCapturedPieces();
+}
+
+/** Reproduce la línea solución jugada a jugada con flecha azul. */
+function playPuzzleSolutionAnimation(onComplete) {
+    if (!currentPuzzle || !currentPuzzle.solution || !currentPuzzle.solution.length) {
+        if (onComplete) onComplete();
+        return;
+    }
+    cancelPuzzleSolutionAnimation();
+    var gen = puzzleGeneration;
+    puzzleSolutionPlaying = true;
+    loadPuzzleChallengePosition();
+    renderBoard();
+    updateCapturedPieces();
+    updateMoveHistory();
+    updateUndoButton();
+
+    function finish() {
+        puzzleSolutionAnimTimer = null;
+        puzzleSolutionPlaying = false;
+        if (gen !== puzzleGeneration || !currentPuzzle) return;
+        loadPuzzleChallengePosition();
+        renderBoard();
+        updateCapturedPieces();
+        updateMoveHistory();
+        updateUndoButton();
+        if (onComplete) onComplete();
+    }
+
+    function playStep(idx) {
+        if (gen !== puzzleGeneration || !currentPuzzle) {
+            puzzleSolutionPlaying = false;
+            return;
+        }
+        if (idx >= currentPuzzle.solution.length) {
+            finish();
+            return;
+        }
+        applyPuzzleSolutionMove(currentPuzzle.solution[idx]);
+        puzzleSolutionAnimTimer = setTimeout(function() { playStep(idx + 1); }, 850);
+    }
+
+    puzzleSolutionAnimTimer = setTimeout(function() { playStep(0); }, 400);
+}
+
 function showPuzzleSolutionOnBoard() {
     if (!currentPuzzle) return;
     var first = currentPuzzle.solution[puzzleMoveIndex] || currentPuzzle.solution[0];
@@ -3486,41 +4946,85 @@ function highlightPuzzleMove(row, col, correct) {
 }
 
 function puzzleShowHint() {
-    if (!puzzleActive || !currentPuzzle) return;
+    if (!currentPuzzle || !puzzleMode) return;
+    if (!puzzleActive || puzzleMoveIndex >= currentPuzzle.solution.length) {
+        loadPuzzleChallengePosition();
+        puzzleMoveIndex = 0;
+        renderBoard();
+        updateCapturedPieces();
+        updateMoveHistory();
+        updateUndoButton();
+    }
     var move = currentPuzzle.solution[puzzleMoveIndex];
+    if (!move) return;
     var c = puzzleUCItoCoords(move);
+    puzzleHintMove = {
+        fromRow: c.fromRow, fromCol: c.fromCol,
+        toRow: c.toRow, toCol: c.toCol
+    };
     renderBoard();
-    var squares = document.querySelectorAll('.square');
-    squares.forEach(function(sq) {
-        var r = parseInt(sq.dataset.row);
-        var cl = parseInt(sq.dataset.col);
-        if (r === c.fromRow && cl === c.fromCol) {
-            sq.classList.add('puzzle-from');
-        }
-    });
-    showPuzzleFeedback('💡 Mueve la pieza resaltada en azul', 'info');
+    showMoveArrow(c.fromRow, c.fromCol, c.toRow, c.toCol, { color: 'blue', force: true });
+    showPuzzleFeedback('💡 Mueve la pieza señalada con la flecha azul', 'info');
 }
 
 function puzzleShowSolution() {
     if (!currentPuzzle) return;
-    puzzleSolutionViewed = true;
-    puzzleStats.failed++;
-    puzzleStats.streak = 0;
-    savePuzzleStats();
-    updatePuzzleStatsUI();
-    showPuzzleFeedback('💡 Solución: ' + formatPuzzleSolution() + ' — Inténtalo ahora', 'info');
-    showPuzzleSolutionOnBoard();
-    document.getElementById('puzzle-solution').disabled = true;
+
+    if (puzzleActive) {
+        puzzleSolutionViewed = true;
+        var eloLost = getPuzzleEloByStar();
+        if (puzzleWrongMoves === 0) {
+            applyEloChange(-eloLost);
+        }
+        puzzleStats.failed++;
+        puzzleStats.streak = 0;
+        savePuzzleStats();
+        updatePuzzleStatsUI();
+
+        cancelPuzzleSolutionAnimation();
+        var gen = puzzleGeneration;
+        var eloLabel = formatPuzzleEloLabel(-eloLost);
+        showBoardBanner('💡 Ver solución (' + eloLabel + ')', 'puzzle-solution');
+        showPuzzleFeedback('💡 Ver solución (' + eloLabel + ')', 'solution');
+
+        var playbackStarted = false;
+        function startSolutionPlayback() {
+            if (playbackStarted) return;
+            playbackStarted = true;
+            if (puzzleSolutionBannerTimer) {
+                clearTimeout(puzzleSolutionBannerTimer);
+                puzzleSolutionBannerTimer = null;
+            }
+            if (gen !== puzzleGeneration || !currentPuzzle) return;
+            hideBoardBanner();
+            showPuzzleFeedback('💡 Reproduciendo la solución…', 'solution');
+            playPuzzleSolutionAnimation(function() {
+                showPuzzleFeedback('💡 Solución: ' + formatPuzzleSolution() + ' — Inténtalo ahora', 'solution');
+            });
+        }
+
+        var banner = document.getElementById('board-banner');
+        if (banner) banner.onclick = startSolutionPlayback;
+        puzzleSolutionBannerTimer = setTimeout(startSolutionPlayback, PUZZLE_BOARD_BANNER_MS);
+        return;
+    }
+
+    cancelPuzzleSolutionAnimation();
+    showPuzzleFeedback('💡 Reproduciendo la solución…', 'solution');
+    playPuzzleSolutionAnimation(function() {
+        showPuzzleFeedback('💡 Solución: ' + formatPuzzleSolution(), 'solution');
+    });
 }
 
 function endPuzzleMode() {
+    cancelPuzzleSolutionAnimation();
     puzzleMode = false;
     puzzleActive = false;
+    puzzleHintMove = null;
     currentPuzzle = null;
     puzzleGeneration++;
     document.body.classList.remove('puzzle-mode-active');
-    document.getElementById('puzzle-hint').disabled = true;
-    document.getElementById('puzzle-solution').disabled = true;
+    setPuzzleHintSolutionEnabled(false);
     updatePuzzleNavButtons();
     setPuzzleActionsLocked(false);
 }
@@ -3530,6 +5034,457 @@ function cancelTrainingTimeout() {
         clearTimeout(trainingTimeoutId);
         trainingTimeoutId = null;
     }
+}
+
+// ══════════════════════════════════════════════════════════════════════════
+// MODO LECCIÓN — Aprende Ajedrez
+// ══════════════════════════════════════════════════════════════════════════
+
+function loadLearnProgress() {
+    try {
+        var s = localStorage.getItem('learnProgress');
+        if (s) learnProgress = JSON.parse(s);
+    } catch(e) {}
+}
+
+function saveLearnProgress() {
+    try { localStorage.setItem('learnProgress', JSON.stringify(learnProgress)); } catch(e) {}
+}
+
+function showLearnBoardBanner(lesson, label) {
+    const el = document.getElementById('learn-board-banner');
+    if (!el) return;
+    const iconHtml = learnPieceIconHtml(lesson.id);
+    const labelText = label || 'Ejercicio';
+    el.innerHTML = '<span class="learn-board-banner-label">' + labelText + ': </span>'
+        + iconHtml
+        + '<span class="learn-board-banner-title">' + lesson.title + '</span>';
+    el.style.display = 'flex';
+}
+
+function hideLearnBoardBanner() {
+    const el = document.getElementById('learn-board-banner');
+    if (!el) return;
+    el.style.display = 'none';
+    el.innerHTML = '';
+}
+
+function endLearnMode() {
+    learnMode = false;
+    learnActive = false;
+    currentLesson = null;
+    learnStarIndex = 0;
+    learnGeneration++;
+    document.body.classList.remove('learn-mode-active');
+    const activeInfo = document.getElementById('learn-active-info');
+    if (activeInfo) activeInfo.style.display = 'none';
+    hideLearnBoardBanner();
+    renderLearnLessonList();
+}
+
+function startLearnLesson(lesson) {
+    if (!lesson) return;
+    endPuzzleMode();
+    hideVariantsPopup(false);
+    const existingOpeningLog = document.getElementById('opening-log');
+    if (existingOpeningLog) existingOpeningLog.remove();
+    if (typeof cancelTrainingTimeout === 'function') cancelTrainingTimeout();
+    trainingActive = false; trainingFreeMode = false; quizMode = false;
+    setFamousGameTitle('');
+
+    currentLesson = lesson;
+    learnStepIndex = 0;
+    learnStarIndex = 0;
+    learnActive = true;
+    learnMode = true;
+    learnGeneration++;
+    shareContext = 'partida';
+    document.body.classList.add('learn-mode-active');
+
+    game = new ChessGame();
+    gameGeneration++;
+    game.loadFromFEN(lesson.fen);
+
+    if (lesson.preMoves && lesson.preMoves.length > 0) {
+        lesson.preMoves.forEach(function(uci) {
+            var fc = uci.charCodeAt(0)-97, fr = 8-parseInt(uci[1]);
+            var tc = uci.charCodeAt(2)-97, tr = 8-parseInt(uci[3]);
+            game.makeMove(fr, fc, tr, tc);
+        });
+        lastMoveSquares = {
+            from: { row: 8-parseInt(lesson.preMoves[0][1]), col: lesson.preMoves[0].charCodeAt(0)-97 },
+            to:   { row: 8-parseInt(lesson.preMoves[0][3]), col: lesson.preMoves[0].charCodeAt(2)-97 }
+        };
+    } else {
+        lastMoveSquares = { from: null, to: null };
+    }
+
+    playerColor = lesson.playerColor || 'white';
+    manualBoardFlipped = false;
+    selectedSquare = null;
+    currentMoveIndex = -1;
+    stopClock();
+    renderBoard();
+    updateCapturedPieces();
+    updateMoveHistory();
+    updateUndoButton();
+    updateEvalBar();
+    hideBoardBanner();
+    if (lesson.category === 'piezas') {
+        showLearnBoardBanner(lesson, 'Ejercicio de Piezas');
+    } else if (lesson.category === 'basico') {
+        showLearnBoardBanner(lesson, 'Ejercicio Básico');
+    } else if (lesson.category === 'intermedio') {
+        showLearnBoardBanner(lesson, 'Ejercicio Intermedio');
+    } else if (lesson.category === 'avanzado') {
+        showLearnBoardBanner(lesson, 'Ejercicio Avanzado');
+    } else {
+        hideLearnBoardBanner();
+    }
+
+    document.getElementById('learn-panel-lesson-title').textContent = lesson.title;
+    document.getElementById('learn-panel-description').textContent = lesson.description;
+    const activeInfo = document.getElementById('learn-active-info');
+    if (activeInfo) activeInfo.style.display = 'block';
+    const hintBtn = document.getElementById('learn-hint-btn');
+    if (hintBtn) hintBtn.disabled = false;
+    learnShowStep();
+
+    // En móvil, subir panel al tablero
+    if (window.matchMedia('(max-width: 1024px) and (orientation: portrait)').matches) {
+        const panel = document.getElementById('learn-panel');
+        if (panel && panel.classList.contains('collapsed')) panel.classList.remove('collapsed');
+        document.body.classList.add('learn-panel-open');
+        movePanelBelowEvalBar('learn-panel');
+    }
+    scrollToBoard();
+}
+
+function sqNameToCoords(sq) {
+    if (!sq || sq.length < 2) return null;
+    return { row: 8 - parseInt(sq[1], 10), col: sq.charCodeAt(0) - 97 };
+}
+
+function learnStepHasStars(step) {
+    return step && Array.isArray(step.stars) && step.stars.length > 0;
+}
+
+function learnGetCurrentStarSq(step) {
+    if (!learnStepHasStars(step)) return null;
+    return step.stars[learnStarIndex] || null;
+}
+
+function loadLearnStepBoard(step) {
+    if (!currentLesson || !step) return;
+    var fen = step.fen || currentLesson.fen;
+    game = new ChessGame();
+    gameGeneration++;
+    game.loadFromFEN(fen);
+    game.currentTurn = playerColor || currentLesson.playerColor || 'white';
+    game.gameOver = false;
+    lastMoveSquares = { from: null, to: null };
+    selectedSquare = null;
+}
+
+function learnAdvanceAfterStepSuccess(gen, step) {
+    if (step.autoResponse) {
+        setTimeout(function() {
+            if (gen !== learnGeneration) return;
+            var uc = step.autoResponse;
+            var fc2 = uc.charCodeAt(0) - 97, fr2 = 8 - parseInt(uc[1], 10);
+            var tc2 = uc.charCodeAt(2) - 97, tr2 = 8 - parseInt(uc[3], 10);
+            var cap2 = game.getPiece(tr2, tc2);
+            game.makeMove(fr2, fc2, tr2, tc2);
+            lastMoveSquares = { from: { row: fr2, col: fc2 }, to: { row: tr2, col: tc2 } };
+            renderBoard();
+            showMoveArrow(fr2, fc2, tr2, tc2);
+            if (cap2) showCaptureAnimation(tr2, tc2, cap2);
+            learnStepIndex++;
+            learnStarIndex = 0;
+            if (learnStepIndex < currentLesson.steps.length) {
+                learnShowStep();
+            } else {
+                learnCompleted(gen);
+            }
+        }, 700);
+        return;
+    }
+    learnStepIndex++;
+    learnStarIndex = 0;
+    if (learnStepIndex < currentLesson.steps.length) {
+        setTimeout(function() {
+            if (gen !== learnGeneration) return;
+            learnShowStep();
+            renderBoard();
+        }, 600);
+    } else {
+        setTimeout(function() {
+            if (gen !== learnGeneration) return;
+            learnCompleted(gen);
+        }, 700);
+    }
+}
+
+function learnShowStep() {
+    if (!currentLesson) return;
+    const step = currentLesson.steps[learnStepIndex];
+    if (!step) return;
+    learnStarIndex = 0;
+    loadLearnStepBoard(step);
+    const titleEl = document.getElementById('learn-panel-lesson-title');
+    const instrEl = document.getElementById('learn-panel-instruction');
+    const feedbackEl = document.getElementById('learn-panel-feedback');
+    const hintBtn = document.getElementById('learn-hint-btn');
+    const totalSteps = currentLesson.steps.length;
+    const stepNum = learnStepIndex + 1;
+    if (titleEl) {
+        var stepTitle = step.title || ('Ejercicio ' + stepNum);
+        titleEl.textContent = stepTitle + ' (' + stepNum + '/' + totalSteps + ')';
+    }
+    if (instrEl) {
+        var txt = step.instruction;
+        if (learnStepHasStars(step)) {
+            txt += ' (' + step.stars.length + (step.stars.length === 1 ? ' estrella' : ' estrellas') + ')';
+        }
+        instrEl.textContent = txt;
+    }
+    if (feedbackEl) { feedbackEl.style.display = 'none'; feedbackEl.textContent = ''; }
+    if (hintBtn) hintBtn.disabled = false;
+    renderBoard();
+    learnFlashStarHint();
+}
+
+// Muestra brevemente una flecha verde desde la pieza hasta la estrella actual.
+function learnFlashStarHint() {
+    if (!currentLesson || !learnActive) return;
+    const gen = learnGeneration;
+    setTimeout(function() {
+        if (gen !== learnGeneration || !learnActive || !currentLesson) return;
+        const step = currentLesson.steps[learnStepIndex];
+        const starSq = step && learnGetCurrentStarSq(step);
+        if (!starSq) return;
+        const target = sqNameToCoords(starSq);
+        if (!target) return;
+        const code = LEARN_LESSON_PIECES[currentLesson.id];
+        const typeMap = { p: 'pawn', n: 'knight', b: 'bishop', r: 'rook', q: 'queen', k: 'king' };
+        const wantType = code ? typeMap[code.charAt(1).toLowerCase()] : null;
+        var src = null;
+        for (var r = 0; r < 8 && !src; r++) {
+            for (var c = 0; c < 8 && !src; c++) {
+                var p = game.getPiece(r, c);
+                if (!p || p.color !== playerColor) continue;
+                if (wantType && p.type !== wantType) continue;
+                var mv = game.getValidMoves(r, c);
+                if (mv.some(function(m) { return m.row === target.row && m.col === target.col; })) {
+                    src = { row: r, col: c };
+                }
+            }
+        }
+        if (!src) return;
+        showMoveArrow(src.row, src.col, target.row, target.col, { color: 'green', force: true });
+    }, 380);
+}
+
+function learnShowFeedback(msg, type) {
+    const el = document.getElementById('learn-panel-feedback');
+    if (!el) return;
+    el.textContent = msg;
+    el.className = 'learn-feedback learn-feedback--' + type;
+    el.style.display = 'block';
+}
+
+function learnCheckMove(fromRow, fromCol, toRow, toCol, promoType) {
+    if (!currentLesson || !learnActive) return;
+    const step = currentLesson.steps[learnStepIndex];
+    if (!step) return;
+    const gen = learnGeneration;
+
+    // ── Modo estrellas (estilo Lichess Learn) ───────────────────────────
+    if (learnStepHasStars(step)) {
+        var targetSq = learnGetCurrentStarSq(step);
+        var target = sqNameToCoords(targetSq);
+        if (!target) return;
+
+        var validStarMoves = game.getValidMoves(fromRow, fromCol);
+        var isLegal = validStarMoves.some(function(m) { return m.row === toRow && m.col === toCol; });
+        var hitsStar = toRow === target.row && toCol === target.col;
+
+        if (!isLegal || !hitsStar) {
+            selectedSquare = null;
+            renderBoard();
+            learnShowFeedback(isLegal
+                ? 'Muévete a la casilla con la estrella ★.'
+                : 'Movimiento incorrecto. ¡Inténtalo de nuevo!', 'wrong');
+            setTimeout(function() {
+                const el = document.getElementById('learn-panel-feedback');
+                if (el && el.classList.contains('learn-feedback--wrong')) el.style.display = 'none';
+            }, 2500);
+            return;
+        }
+
+        var capStar = game.getPiece(toRow, toCol);
+        game.makeMove(fromRow, fromCol, toRow, toCol, promoType || undefined);
+        lastMoveSquares = { from: { row: fromRow, col: fromCol }, to: { row: toRow, col: toCol } };
+        selectedSquare = null;
+        renderBoard();
+        showMoveArrow(fromRow, fromCol, toRow, toCol);
+        if (capStar) showCaptureAnimation(toRow, toCol, capStar);
+        SoundFX.star();
+
+        learnStarIndex++;
+        if (learnStarIndex < step.stars.length) {
+            // En modo estrellas no hay rival: devolvemos el turno al jugador
+            // para que pueda seguir moviendo la misma pieza hacia la siguiente.
+            game.currentTurn = playerColor;
+            game.gameOver = false;
+            var left = step.stars.length - learnStarIndex;
+            learnShowFeedback('¡Estrella capturada! Quedan ' + left + '.', 'correct');
+            setTimeout(function() {
+                if (gen !== learnGeneration) return;
+                renderBoard();
+                learnFlashStarHint();
+            }, 450);
+        } else {
+            if (step.comment) learnShowFeedback(step.comment, 'correct');
+            learnAdvanceAfterStepSuccess(gen, step);
+        }
+        return;
+    }
+
+    var playerUCI = coordsToUCI(fromRow, fromCol, toRow, toCol, promoType || null);
+
+    var isCorrect = false;
+    if (step.acceptedMoves === null) {
+        // Cualquier movimiento válido es correcto
+        var validMoves = game.getValidMoves(fromRow, fromCol);
+        isCorrect = validMoves.some(function(m) { return m.row === toRow && m.col === toCol; });
+    } else {
+        isCorrect = step.acceptedMoves.some(function(uci) {
+            if (promoType && uci.length === 5) return uci === playerUCI;
+            if (!promoType && uci.length === 4) return uci === playerUCI;
+            if (promoType && uci.length === 4) return uci === playerUCI.slice(0, 4);
+            return uci === playerUCI;
+        });
+    }
+
+    if (isCorrect) {
+        var pieceBefore = game.getPiece(fromRow, fromCol);
+        var capturedBefore = game.getPiece(toRow, toCol);
+        var promoArg = promoType || undefined;
+        game.makeMove(fromRow, fromCol, toRow, toCol, promoArg);
+        lastMoveSquares = { from: { row: fromRow, col: fromCol }, to: { row: toRow, col: toCol } };
+        selectedSquare = null;
+        renderBoard();
+        showMoveArrow(fromRow, fromCol, toRow, toCol);
+        if (capturedBefore) showCaptureAnimation(toRow, toCol, capturedBefore);
+
+        if (step.comment) learnShowFeedback(step.comment, 'correct');
+
+        learnAdvanceAfterStepSuccess(gen, step);
+    } else {
+        selectedSquare = null;
+        renderBoard();
+        learnShowFeedback('Movimiento incorrecto. ¡Inténtalo de nuevo!', 'wrong');
+        setTimeout(function() {
+            const el = document.getElementById('learn-panel-feedback');
+            if (el && el.classList.contains('learn-feedback--wrong')) {
+                el.style.display = 'none';
+            }
+        }, 2500);
+    }
+}
+
+function learnCompleted(gen) {
+    if (gen !== learnGeneration) return;
+    learnActive = false;
+    learnProgress[currentLesson.id] = 'completed';
+    saveLearnProgress();
+    learnShowFeedback('🎉 ' + currentLesson.successMessage, 'success');
+    hideLearnBoardBanner();
+    showBoardBanner('¡Lección Completada! 🎉', 'puzzle-white-turn');
+    setTimeout(hideBoardBanner, 3000);
+    renderLearnLessonList();
+}
+
+function handleLearnClick(row, col) {
+    if (!learnActive || !currentLesson) return;
+    const clickedPiece = game.getPiece(row, col);
+    const step = currentLesson.steps[learnStepIndex];
+    if (!step) return;
+
+    if (selectedSquare) {
+        const validMoves = game.getValidMoves(selectedSquare.row, selectedSquare.col);
+        const targetMove = validMoves.find(function(m) { return m.row === row && m.col === col; });
+        if (targetMove) {
+            const piece = game.getPiece(selectedSquare.row, selectedSquare.col);
+            const isPromotion = piece && piece.type === 'pawn' && (row === 0 || row === 7);
+            if (isPromotion) {
+                pendingPromotionMove = { fromRow: selectedSquare.row, fromCol: selectedSquare.col, toRow: row, toCol: col, isLearn: true };
+                selectedSquare = null;
+                showPromotionDialog(piece.color);
+                return;
+            }
+            learnCheckMove(selectedSquare.row, selectedSquare.col, row, col);
+            return;
+        } else if (clickedPiece && clickedPiece.color === playerColor) {
+            selectedSquare = { row, col };
+            highlightValidMoves(row, col);
+        } else {
+            selectedSquare = null;
+            renderBoard();
+        }
+    } else if (clickedPiece && clickedPiece.color === playerColor) {
+        selectedSquare = { row, col };
+        highlightValidMoves(row, col);
+    }
+}
+
+function renderLearnLessonList() {
+    const listEl = document.getElementById('learn-lesson-list');
+    if (!listEl) return;
+    // Actualizar barra de progreso
+    const totalDone = LEARN_LESSONS.filter(function(l) { return learnProgress[l.id] === 'completed'; }).length;
+    const pct = Math.round(totalDone / LEARN_LESSONS.length * 100);
+    const fill = document.getElementById('learn-progress-fill');
+    if (fill) fill.style.width = pct + '%';
+    const selCat = 'all';
+    const CATS = {
+        piezas: '♟ Piezas', basico: '⚡ Básico', intermedio: '🎓 Intermedio',
+        avanzado: '🏆 Avanzado', jaque: '⚠️ Jaque', mate: '♔ Mate',
+        tacticas: '⚔️ Tácticas', ejercicios: '⭐ Ejercicios de Estrellas'
+    };
+    const filtered = selCat === 'all' ? LEARN_LESSONS : LEARN_LESSONS.filter(function(l) { return l.category === selCat; });
+    if (filtered.length === 0) { listEl.innerHTML = ''; return; }
+
+    // Agrupar por categoría
+    const groups = {};
+    filtered.forEach(function(l) {
+        if (!groups[l.category]) groups[l.category] = [];
+        groups[l.category].push(l);
+    });
+
+    var html = '';
+    Object.keys(groups).forEach(function(cat) {
+        if (selCat === 'all') html += '<div class="learn-cat-label">' + (CATS[cat] || cat) + '</div>';
+        groups[cat].forEach(function(l) {
+            var done = learnProgress[l.id] === 'completed';
+            var active = currentLesson && currentLesson.id === l.id;
+            html += '<button class="learn-lesson-btn' + (done ? ' done' : '') + (active ? ' active' : '') + '" data-id="' + l.id + '">'
+                + '<span class="learn-lesson-check">' + (done ? '✓' : '○') + '</span>'
+                + learnPieceIconHtml(l.id)
+                + '<span class="learn-lesson-name">' + l.title + '</span>'
+                + '</button>';
+        });
+    });
+    listEl.innerHTML = html;
+
+    listEl.querySelectorAll('.learn-lesson-btn').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+            var id = this.dataset.id;
+            var lesson = LEARN_LESSONS.find(function(l) { return l.id === id; });
+            if (lesson) startLearnLesson(lesson);
+        });
+    });
 }
 
 function detectOpening() {
@@ -5641,6 +7596,22 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '3.4.59': [
+        'Problemas de ajedrez: con categoría «— Todas —» se cargan problemas mezclados de todas las categorías',
+        'Problemas de ajedrez: botones 💡 Pista y 👁 Ver solución junto al ELO, girar tablero y compartir',
+        'Problemas de ajedrez: «Ver solución» reproduce los movimientos con flechas azules',
+        'Problemas de ajedrez: la pista muestra también una flecha azul con el movimiento correcto',
+        'Problemas de ajedrez: todos los banners (error, resuelto, no resuelto) muestran ahora estrellas ELO y el número de puntos (p. ej. «ELO ⭐⭐ +2» / «ELO ⭐⭐ -2»)',
+        'Aprende Ajedrez: nueva categoría "🎓 Intermedio" con 4 lecciones — Colocación del tablero, El Enroque, Captura al paso y El Ahogado',
+        'Aprende Ajedrez: nueva categoría "🏆 Avanzado" con 2 lecciones — Valor de las piezas y Jaque en dos',
+        'Las lecciones antiguas de "Especiales" (enroques, coronación, al paso) se integran ahora en las nuevas lecciones multi-paso',
+        'Aprende Ajedrez: "🚧 En construcción" lecciones de piezas (Torre, Alfil, Dama, Rey, Caballo, Peón) en ejercicios',
+        'Reanudar/Continuar Partida pide confirmación, aplica la IA seleccionada actualmente (con su ELO) y mueve automáticamente si le toca a la IA',
+        'Continuar la partida/apertura/maestra desde cualquier movimiento del historial',
+        'Compartir problemas: la imagen generada coincide siempre con la posición real del tablero',
+        'Nuevo enlace "📧 Informar de errores/mejoras"',
+        '... y más mejoras en AjedrezIA ...',
+    ],
     '3.4.0': [
         'Pieza arrastrada centrada bajo el cursor cuando el zoom de página es distinto al 100%',
         'Enlace de puzzle: carga 30 problemas de la misma categoría real del puzzle compartido',
@@ -6681,6 +8652,26 @@ function sendHeartbeat() {
 
 // ── Modal de usuarios online ───────────────────────────────────────────────
 
+function buildGeneratedDemoUsers(startNum, count) {
+    var words = [
+        'rapid', 'blitz', 'storm', 'tactic', 'master', 'knight', 'bishop', 'rook',
+        'queen', 'pawn', 'gambit', 'defense', 'attack', 'endgame', 'opening', 'sacrifice',
+        'check', 'castle', 'pin', 'fork', 'skewer', 'zug', 'pawnstorm', 'blitzkrieg',
+        'grand', 'club', 'liga', 'torneo', 'amateur', 'pro', 'fan', 'junior', 'veteran',
+        'online', 'cyber', 'digital', 'pixel', 'matrix', 'nova', 'sigma', 'omega',
+        'delta', 'zeta', 'alfa', 'beta', 'gamma', 'kappa', 'theta', 'flash', 'bullet',
+    ];
+    var list = [];
+    for (var n = startNum; n < startNum + count; n++) {
+        list.push({
+            id: 'demo' + String(n).padStart(3, '0'),
+            nick: words[(n * 3) % words.length] + '_' + words[(n * 7 + 5) % words.length] + '_' + n,
+            elo: 850 + ((n * 37) % 1650),
+        });
+    }
+    return list;
+}
+
 function showUsersModal() {
     const overlay = document.getElementById('users-modal-overlay');
     if (!overlay) return;
@@ -6865,6 +8856,13 @@ function fetchAndRenderUsers() {
             { id:'demo149', nick:'diagonal_libre',      elo:1650 },
             { id:'demo150', nick:'centro_avanzado',     elo:2050 },
         ];
+        // 180 jugadores adicionales (80 aparecen como ocupados)
+        const demoExtra = buildGeneratedDemoUsers(151, 180);
+        const demoExtraBusySet = new Set(
+            demoExtra.slice().sort(function() { return Math.random() - 0.5; })
+                .slice(0, 80)
+                .map(function(u) { return u.id; })
+        );
 
         // Asignar estado online/ocupado aleatoriamente (15 online, 3 de ellos ocupados)
         // usando el minuto actual como semilla ligera para variar en cada apertura del modal
@@ -6891,6 +8889,14 @@ function fetchAndRenderUsers() {
                     id: d.id, nick: d.nick, name: 'Demo', elo: d.elo,
                     online: true,
                     status: 'busy',
+                };
+            }),
+            ...demoExtra.map(function(d) {
+                var isBusy = demoExtraBusySet.has(d.id);
+                return {
+                    id: d.id, nick: d.nick, name: 'Demo', elo: d.elo,
+                    online: isBusy,
+                    status: isBusy ? 'busy' : 'offline',
                 };
             }),
         ].filter(Boolean).sort(function(a, b) {
@@ -7764,7 +9770,8 @@ function respondDrawOffer(action) {
             game.gameOver = true; stopClock();
             const eloDelta = recordGameResult('draw');
             SoundFX.draw(); clearAutoSavedGame();
-            showMessage(`Tablas acordadas.${formatEloDelta(eloDelta)}`, 'info', 0);
+            updateUndoButton();
+            showBoardBanner(`½ TABLAS — Acordadas${formatEloDelta(eloDelta)}`, 'stalemate');
         } else {
             showMessage('Has rechazado las tablas.', 'info', 2000);
         }
@@ -7788,11 +9795,8 @@ function respondDrawOffer(action) {
             game.gameOver = true; stopClock();
             const eloDelta = recordGameResult('draw');
             SoundFX.draw(); clearAutoSavedGame();
+            updateUndoButton();
             showBoardBanner(`½ TABLAS — Acordadas${formatEloDelta(eloDelta)}`, 'stalemate');
-            setTimeout(function() {
-                showMessage(`Tablas acordadas.${formatEloDelta(eloDelta)}`, 'info', 0);
-                showAnalysisButton();
-            }, 300);
         } else if (action === 'reject') {
             showMessage('Has rechazado la oferta de tablas.', 'info', 2000);
         }
@@ -7912,8 +9916,12 @@ function onOnlineGameEnded(status, reason) {
     else if (status === 'draw')       txt = '½–½ Tablas';
     else if (status === 'aborted')    txt = '⚠️ Partida abortada';
     if (reason) txt += ' (' + reason + ')';
-    const msgType = (status === 'aborted') ? 'info' : (eloDelta >= 0 ? 'success' : 'error');
-    showMessage('🌐 ' + txt + formatEloDelta(eloDelta), msgType, 0);
+    updateUndoButton();
+    if (status === 'aborted') {
+        showMessage('🌐 ' + txt, 'info', 3000);
+    } else {
+        showBoardBanner('🌐 ' + txt + formatEloDelta(eloDelta), status === 'draw' ? 'stalemate' : 'checkmate');
+    }
     setTimeout(updateOnlineBanner, 100);
     setOnlineActionsLocked(false);
 }
@@ -8214,8 +10222,7 @@ function showAbandonConfirm() {
         SoundFX.lose();
         clearAutoSavedGame();
         updateUndoButton();
-        showMessage(`Has abandonado la partida.${formatEloDelta(eloDelta)}`, 'error', 0);
-        setTimeout(showAnalysisButton, 100);
+        showBoardBanner(`🏳️ HAS ABANDONADO${formatEloDelta(eloDelta)}`, 'checkmate');
     };
     cancel.onclick = close;
     overlay.onclick = function(e) { if (e.target === overlay) close(); };
@@ -8254,6 +10261,136 @@ function showAbandonConfirm() {
 
         document.getElementById('invite-accept-btn').addEventListener('click', function() { respondInvite('accept'); });
         document.getElementById('invite-reject-btn').addEventListener('click', function() { respondInvite('reject'); });
+    });
+})();
+
+// ── Informar de errores/mejoras ─────────────────────────────────────────────
+const FEEDBACK_PROMPT_HIDDEN_KEY = 'feedback_prompt_hidden';
+const FEEDBACK_PROMPT_DELAY_MS = 600000;
+var _feedbackPromptTimer = null;
+
+function hideFeedbackPrompt() {
+    const overlay = document.getElementById('feedback-prompt-overlay');
+    const cb = document.getElementById('feedback-prompt-hide-again');
+    if (cb && cb.checked) {
+        try { localStorage.setItem(FEEDBACK_PROMPT_HIDDEN_KEY, '1'); } catch (e) {}
+    }
+    if (overlay) overlay.classList.remove('is-open');
+    if (_feedbackPromptTimer) {
+        clearTimeout(_feedbackPromptTimer);
+        _feedbackPromptTimer = null;
+    }
+}
+
+function showFeedbackPrompt() {
+    try {
+        if (localStorage.getItem(FEEDBACK_PROMPT_HIDDEN_KEY) === '1') return;
+    } catch (e) {}
+    const overlay = document.getElementById('feedback-prompt-overlay');
+    if (!overlay) return;
+    const cb = document.getElementById('feedback-prompt-hide-again');
+    if (cb) cb.checked = false;
+    overlay.classList.add('is-open');
+}
+
+function scheduleFeedbackPrompt() {
+    try {
+        if (localStorage.getItem(FEEDBACK_PROMPT_HIDDEN_KEY) === '1') return;
+    } catch (e) {}
+    if (_feedbackPromptTimer) clearTimeout(_feedbackPromptTimer);
+    _feedbackPromptTimer = setTimeout(showFeedbackPrompt, FEEDBACK_PROMPT_DELAY_MS);
+}
+
+function openFeedbackFromPrompt() {
+    hideFeedbackPrompt();
+    showFeedbackModal();
+}
+
+function showFeedbackModal() {
+    const overlay = document.getElementById('feedback-modal-overlay');
+    if (!overlay) return;
+    document.getElementById('feedback-error-text').value = '';
+    document.getElementById('feedback-improve-text').value = '';
+    document.getElementById('feedback-modal-error').style.display = 'none';
+    overlay.classList.add('is-open');
+}
+
+function hideFeedbackModal() {
+    const overlay = document.getElementById('feedback-modal-overlay');
+    if (overlay) overlay.classList.remove('is-open');
+}
+
+function sendFeedback() {
+    const errorText   = (document.getElementById('feedback-error-text').value || '').trim();
+    const improveText = (document.getElementById('feedback-improve-text').value || '').trim();
+    const errBox = document.getElementById('feedback-modal-error');
+
+    if (!errorText && !improveText) {
+        if (errBox) { errBox.textContent = 'Escribe al menos un error o una mejora antes de enviar.'; errBox.style.display = 'block'; }
+        return;
+    }
+    if (errBox) errBox.style.display = 'none';
+
+    const sendBtn = document.getElementById('feedback-send-btn');
+    const originalLabel = sendBtn ? sendBtn.textContent : '';
+    if (sendBtn) { sendBtn.disabled = true; sendBtn.textContent = 'Enviando…'; }
+
+    fetch(BASE_PATH + 'api/send-feedback.php', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ error: errorText, mejora: improveText, url: location.href }),
+    })
+    .then(function(r) {
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return r.json();
+    })
+    .then(function(data) {
+        if (data && data.ok) {
+            hideFeedbackModal();
+            showMessage('¡Gracias! Tu mensaje se ha enviado correctamente.', 'success', 3000);
+        } else {
+            if (errBox) { errBox.textContent = 'No se pudo enviar el mensaje. Inténtalo de nuevo más tarde.'; errBox.style.display = 'block'; }
+        }
+    })
+    .catch(function(err) {
+        console.error('sendFeedback error:', err);
+        if (errBox) { errBox.textContent = 'Error de conexión al enviar el mensaje.'; errBox.style.display = 'block'; }
+    })
+    .finally(function() {
+        if (sendBtn) { sendBtn.disabled = false; sendBtn.textContent = originalLabel; }
+    });
+}
+
+(function initFeedbackModal() {
+    document.addEventListener('DOMContentLoaded', function() {
+        const openBtn = document.getElementById('feedback-open-btn');
+        const overlay = document.getElementById('feedback-modal-overlay');
+        if (!openBtn || !overlay) return;
+
+        openBtn.addEventListener('click', showFeedbackModal);
+        document.getElementById('feedback-modal-close').addEventListener('click', hideFeedbackModal);
+        document.getElementById('feedback-cancel-btn').addEventListener('click', hideFeedbackModal);
+        document.getElementById('feedback-send-btn').addEventListener('click', sendFeedback);
+        overlay.addEventListener('click', function(e) { if (e.target === overlay) hideFeedbackModal(); });
+        document.addEventListener('keydown', function(e) {
+            if (e.key !== 'Escape') return;
+            const promptOv = document.getElementById('feedback-prompt-overlay');
+            if (promptOv && promptOv.classList.contains('is-open')) {
+                hideFeedbackPrompt();
+                e.preventDefault();
+                return;
+            }
+            if (overlay.classList.contains('is-open')) hideFeedbackModal();
+        });
+
+        const promptOverlay = document.getElementById('feedback-prompt-overlay');
+        if (promptOverlay) {
+            document.getElementById('feedback-prompt-close').addEventListener('click', hideFeedbackPrompt);
+            document.getElementById('feedback-prompt-dismiss-btn').addEventListener('click', hideFeedbackPrompt);
+            document.getElementById('feedback-prompt-open-btn').addEventListener('click', openFeedbackFromPrompt);
+            promptOverlay.addEventListener('click', function(e) { if (e.target === promptOverlay) hideFeedbackPrompt(); });
+            scheduleFeedbackPrompt();
+        }
     });
 })();
 
@@ -9063,8 +11200,7 @@ function resignGame() {
         SoundFX.lose();
         clearAutoSavedGame();
         updateUndoButton();
-        showMessage(`Has abandonado la partida.${formatEloDelta(eloDelta)}`, 'error', 0);
-        setTimeout(showAnalysisButton, 100);
+        showBoardBanner(`🏳️ HAS ABANDONADO${formatEloDelta(eloDelta)}`, 'checkmate');
     });
 }
 
@@ -9132,7 +11268,8 @@ function offerDraw() {
             const eloDelta = recordGameResult('draw');
             SoundFX.draw();
             clearAutoSavedGame();
-            showMessage(`Tablas aceptadas.${formatEloDelta(eloDelta)}`, 'info', 3000);
+            updateUndoButton();
+            showBoardBanner(`½ TABLAS — Aceptadas${formatEloDelta(eloDelta)}`, 'stalemate');
         } else {
             const evalText = aiEval > 1.0 ? ' (tiene ventaja)' : '';
             showMessage(`El rival rechaza las tablas${evalText}`, 'warning', 2000);
@@ -9140,7 +11277,7 @@ function offerDraw() {
     });
 }
 
-function showConfirmDialog(message, onConfirm) {
+function showConfirmDialog(message, onConfirm, confirmLabel, onCancel) {
     let overlay = document.getElementById('game-list-overlay');
     if (overlay) overlay.remove();
 
@@ -9164,7 +11301,7 @@ function showConfirmDialog(message, onConfirm) {
 
     const confirmBtn = document.createElement('button');
     confirmBtn.className = 'btn btn-success';
-    confirmBtn.textContent = 'Confirmar';
+    confirmBtn.textContent = confirmLabel || 'Confirmar';
     confirmBtn.style.marginTop = '0';
     confirmBtn.addEventListener('click', () => { overlay.remove(); onConfirm(); });
 
@@ -9172,7 +11309,7 @@ function showConfirmDialog(message, onConfirm) {
     cancelBtn.className = 'btn btn-secondary';
     cancelBtn.textContent = 'Cancelar';
     cancelBtn.style.marginTop = '0';
-    cancelBtn.addEventListener('click', () => overlay.remove());
+    cancelBtn.addEventListener('click', () => { overlay.remove(); if (onCancel) onCancel(); });
 
     btnRow.appendChild(confirmBtn);
     btnRow.appendChild(cancelBtn);
@@ -9180,7 +11317,25 @@ function showConfirmDialog(message, onConfirm) {
 
     overlay.appendChild(modal);
     overlay.addEventListener('click', (e) => {
-        if (e.target === overlay) overlay.remove();
+        if (e.target === overlay) { overlay.remove(); if (onCancel) onCancel(); }
+    });
+}
+
+// Si se está navegando el historial de la partida (currentMoveIndex !== -1) y
+// el jugador intenta mover una pieza, pregunta antes de descartar los
+// movimientos posteriores y continuar la partida desde la posición vista.
+function confirmContinueFromHistoryIfNeeded(proceedFn) {
+    if (currentMoveIndex === -1) { proceedFn(); return; }
+    showConfirmDialog('¿Quieres continuar la partida desde aquí?', function() {
+        if (game && typeof game.truncateHistory === 'function') {
+            game.truncateHistory(currentMoveIndex);
+        }
+        currentMoveIndex = -1;
+        updateMoveHistory();
+        proceedFn();
+    }, 'Aceptar', function() {
+        selectedSquare = null;
+        renderBoard();
     });
 }
 
@@ -9249,7 +11404,33 @@ document.addEventListener('DOMContentLoaded', () => {
                     restoreFamousPanelPosition();
                 }
             }
+            if (panel.id === 'learn-panel') {
+                const isOpen = !panel.classList.contains('collapsed');
+                if (isOpen) {
+                    hideVariantsPopup(false);
+                    const existingOpeningLog = document.getElementById('opening-log');
+                    if (existingOpeningLog) existingOpeningLog.remove();
+                } else {
+                    document.body.classList.remove('learn-panel-open');
+                    restorePanelPosition('learn-panel');
+                }
+            }
         });
+    });
+
+    // Panel Aprende Ajedrez
+    loadLearnProgress();
+    renderLearnLessonList();
+    document.getElementById('learn-hint-btn').addEventListener('click', function() {
+        if (!currentLesson || !learnActive) return;
+        const step = currentLesson.steps[learnStepIndex];
+        if (step && step.hint) learnShowFeedback('💡 ' + step.hint, 'correct');
+    });
+    document.getElementById('learn-exit-btn').addEventListener('click', function() {
+        endLearnMode();
+        document.body.classList.remove('learn-panel-open');
+        restorePanelPosition('learn-panel');
+        startNewGame();
     });
 
     // Event listeners
@@ -9427,7 +11608,30 @@ document.addEventListener('DOMContentLoaded', () => {
         const el = document.getElementById(id);
         if (el) el.addEventListener('click', function() {
             if (this.onclick) return;
-            resumeGame();
+            showConfirmDialog('¿Quieres continuar la partida desde esta posición?', function() {
+                const diffSelect = document.getElementById('ai-difficulty');
+                const selectedDifficulty = diffSelect ? parseInt(diffSelect.value) : null;
+                const selectedLabel = diffSelect
+                    ? diffSelect.options[diffSelect.selectedIndex].text.split('(')[0].trim()
+                    : null;
+                resumeGame(true);
+                // Continuar contra la IA seleccionada actualmente en "Nueva Partida"
+                // (en lugar de la dificultad que tuviera guardada la partida).
+                if (selectedDifficulty != null && !isNaN(selectedDifficulty)) {
+                    aiDifficulty = selectedDifficulty;
+                    if (diffSelect) diffSelect.value = selectedDifficulty;
+                }
+                const _elo = AI_ELO_MAP[aiDifficulty] || 1200;
+                showMessage('Juegas contra ' + (selectedLabel || ('IA Nv.' + aiDifficulty)) + ' (' + _elo + ' ELO)', 'success', 2500);
+                // Actualizar también el título de la partida con la IA/ELO vigentes
+                if (playerColor !== 'both' && !_onlineGame && shareContext !== 'maestra') {
+                    const _oppLabel = `AjedrezIA (${selectedLabel || ('Nv.' + aiDifficulty)} · ${_elo} ELO)`;
+                    const _humanLabel = `${playerNickname} (${stats.elo})`;
+                    const _whiteLabel = playerColor === 'white' ? _humanLabel : _oppLabel;
+                    const _blackLabel = playerColor === 'black' ? _humanLabel : _oppLabel;
+                    setFamousGameTitle(`♔ ${_whiteLabel}  vs  ♚ ${_blackLabel}`);
+                }
+            }, 'Aceptar');
         });
     });
     ['undo-move', 'undo-move-sidebar'].forEach(id => {
@@ -9498,17 +11702,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Problemas de ajedrez
     loadPuzzleStats();
+    applyPuzzleCategory(loadPuzzleCategory());
     document.getElementById('puzzle-theme-select').addEventListener('change', function() {
         puzzleFilter.theme = this.value;
+        savePuzzleCategory(this.value);
     });
-    puzzleFilter.theme = document.getElementById('puzzle-theme-select').value;
     document.getElementById('load-puzzle').addEventListener('click', function() {
         hideVariantsPopup(false);
         puzzleFilter.theme = document.getElementById('puzzle-theme-select').value;
+        savePuzzleCategory(puzzleFilter.theme);
         startNewPuzzle(true);
     });
     document.getElementById('puzzle-hint').addEventListener('click', puzzleShowHint);
     document.getElementById('puzzle-solution').addEventListener('click', puzzleShowSolution);
+    document.getElementById('puzzle-board-hint').addEventListener('click', puzzleShowHint);
+    document.getElementById('puzzle-board-solution').addEventListener('click', puzzleShowSolution);
 
     (function() {
         const PUZZLE_SCROLL_BOARD_IDS = ['load-puzzle', 'puzzle-hint', 'puzzle-solution'];
@@ -10209,10 +12417,12 @@ function startNewGame(options) {
     shareContext = 'partida';
     hideVariantsPopup(false);
     // Restaurar paneles a posición por defecto (igual que al refrescar la página)
-    document.body.classList.remove('puzzle-panel-open', 'openings-panel-open', 'famous-panel-open');
+    document.body.classList.remove('puzzle-panel-open', 'openings-panel-open', 'famous-panel-open', 'learn-panel-open');
     restorePanelPosition('puzzles-panel');
     restorePanelPosition('openings-panel');
+    restorePanelPosition('learn-panel');
     restoreFamousPanelPosition();
+    endLearnMode();
     scrollToBoard();
     hideMoveInsight();
     cancelTrainingTimeout();
@@ -10225,10 +12435,11 @@ function startNewGame(options) {
     setGameButtonsDisabled(false);
     const _diffSelect = document.getElementById('ai-difficulty');
     const _diffLabel = _diffSelect ? _diffSelect.options[_diffSelect.selectedIndex].text.split('(')[0].trim() : `Nv.${aiDifficulty}`;
+    const _diffElo = AI_ELO_MAP[aiDifficulty] || 1200;
     const _opp = _onlineGame && _onlineGame.opponent;
     const _opponentLabel = _opp
         ? `${_opp.nick || _opp.name || 'Oponente'} (${_opp.elo != null ? _opp.elo : '?'})`
-        : `AjedrezIA (${_diffLabel})`;
+        : `AjedrezIA (${_diffLabel} · ${_diffElo} ELO)`;
     const _humanLabel = `${playerNickname} (${stats.elo})`;
     const _whiteLabel = (playerColor === 'white' || playerColor === 'both') ? _humanLabel : _opponentLabel;
     const _blackLabel = (playerColor === 'black' || playerColor === 'both') ? _humanLabel : _opponentLabel;
@@ -10244,6 +12455,7 @@ function startNewGame(options) {
     hideBoardBanner();
     
     game = new ChessGame();
+    gameGeneration++;
     selectedSquare = null;
     lastMoveSquares = { from: null, to: null };
     bestMoveSquares = { from: null, to: null };
@@ -10276,7 +12488,8 @@ function startNewGame(options) {
         // En partidas online no debe jugar la IA: el primer movimiento (y todos)
         // los hacen siempre los dos jugadores humanos.
         if (playerColor === 'black' && !_onlineGame) {
-            setTimeout(() => makeAIMove(), 800);
+            const _aiGen = gameGeneration;
+            setTimeout(() => makeAIMove(_aiGen), 800);
         }
     }
 }
@@ -10335,6 +12548,7 @@ function viewOpening() {
     if (!trainingOpening) return;
 
     endPuzzleMode();
+    if (learnMode) endLearnMode();
     shareContext = 'apertura';
     scrollToBoard();
     cancelTrainingTimeout();
@@ -10348,6 +12562,7 @@ function viewOpening() {
     document.getElementById('opening-training-moves').style.display = '';
     clearAutoSavedGame();
     game = new ChessGame();
+    gameGeneration++;
     selectedSquare = null;
     lastMoveSquares = { from: null, to: null };
     currentMoveIndex = -1;
@@ -10605,11 +12820,12 @@ function onFamousGameSelect() {
 }
 
 function movePanelBelowEvalBar(panelId) {
-    // Restaurar los TRES paneles a posición por defecto (igual que al refrescar)
+    // Restaurar los CUATRO paneles a posición por defecto (igual que al refrescar)
     restorePanelPosition('puzzles-panel');
     restorePanelPosition('openings-panel');
     restoreFamousPanelPosition();
-    document.body.classList.remove('puzzle-panel-open', 'openings-panel-open', 'famous-panel-open');
+    restorePanelPosition('learn-panel');
+    document.body.classList.remove('puzzle-panel-open', 'openings-panel-open', 'famous-panel-open', 'learn-panel-open');
     // Ocultar barra de navegación de problemas si se abre otro panel
     if (panelId !== 'puzzles-panel') {
         const puzzleNav = document.getElementById('puzzle-board-nav');
@@ -10648,6 +12864,7 @@ function loadFamousGame() {
 
     // Cerrar barra de problemas y análisis si estaban activos
     if (puzzleMode) endPuzzleMode();
+    if (learnMode) endLearnMode();
     dismissPostGameAnalysisUI();
 
     hideVariantsPopup(false);
@@ -10857,7 +13074,8 @@ function showContinueButton() {
     if (!game.gameOver) {
         startClock();
             if (playerColor !== 'both' && game.currentTurn !== playerColor) {
-                setTimeout(() => makeAIMove(), 800);
+                const _aiGen = gameGeneration;
+                setTimeout(() => makeAIMove(_aiGen), 800);
             }
         }
     };
@@ -10865,6 +13083,7 @@ function showContinueButton() {
 }
 
 function startOpeningTraining() {
+    if (learnMode) endLearnMode();
     scrollToBoard();
     cancelTrainingTimeout();
     shareContext = 'apertura';
@@ -10878,6 +13097,7 @@ function startOpeningTraining() {
     if (movesEl) movesEl.style.display = '';
     clearAutoSavedGame();
     game = new ChessGame();
+    gameGeneration++;
     selectedSquare = null;
     lastMoveSquares = { from: null, to: null };
     currentMoveIndex = -1;
@@ -10979,6 +13199,7 @@ function startOpeningTraining() {
 
 function startOpeningQuiz() {
     if (!trainingOpening) return;
+    if (learnMode) endLearnMode();
 
     scrollToBoard();
     cancelTrainingTimeout();
@@ -10988,6 +13209,7 @@ function startOpeningQuiz() {
     trainingResumeCallback = null;
     clearAutoSavedGame();
     game = new ChessGame();
+    gameGeneration++;
     selectedSquare = null;
     lastMoveSquares = { from: null, to: null };
     currentMoveIndex = -1;
@@ -11223,10 +13445,7 @@ function undoMove() {
     // Capturar el último movimiento ANTES de deshacer para dibujar la flecha gris
     const histBefore = (game.moveHistoryUCI || []).slice();
 
-        game.undoMove();
-        if (game.canUndo()) {
-        game.undoMove();
-    }
+    game.undoMove();
 
     renderBoard();
     const prevArrow = document.getElementById('move-arrow-svg');
@@ -11275,10 +13494,6 @@ async function getHint() {
     try {
         const bestMove = await getAIMove();
         if (bestMove) {
-            const fromSquare = bestMove.substring(0, 2);
-            const toSquare = bestMove.substring(2, 4);
-            showMessage(`💡 Sugerencia: ${fromSquare} → ${toSquare}`, 'info', 1000);
-            
             const move = parseUCIMove(bestMove);
             if (move) {
                 bestMoveSquares = {
@@ -11286,6 +13501,7 @@ async function getHint() {
                     to: { row: move.toRow, col: move.toCol }
                 };
                 renderBoard();
+                showMoveArrow(move.fromRow, move.fromCol, move.toRow, move.toCol, { color: 'green', force: true });
             }
         }
     } catch (error) {
@@ -11535,6 +13751,7 @@ function loadGameByIndex(savedGames, index) {
         
         stopClock();
     game = new ChessGame();
+    gameGeneration++;
         game.board = savedGame.board;
         game.currentTurn = savedGame.currentTurn;
         game.moveHistory = savedGame.moveHistory || [];
@@ -11849,7 +14066,7 @@ function getShareEloSuffix() {
 
 /** Etiqueta de tipo (línea 2 del mensaje unificado) */
 const SHARE_KIND_LABEL = {
-    problema: 'Problema de ajedrez',
+    problema: 'Problema de ajedrez y 30 más',
     partida:  'Partida',
     apertura: 'Apertura',
     maestra:  'Partida maestra',
@@ -12071,22 +14288,29 @@ async function renderShareBoardDataURL(p) {
     ctx.textBaseline = 'alphabetic';
     ctx.fillStyle = '#7fb069'; ctx.font = 'bold 30px Arial, sans-serif';
     ctx.fillText('\u265E AjedrezIA', tx, 92);
-    const KIND_LABEL = { partida:'Partida', apertura:'Apertura', problema:'Problema de ajedrez', maestra:'Partida maestra' };
+    const KIND_LABEL = { partida:'Partida', apertura:'Apertura', problema:'Problema de ajedrez y 30 más', maestra:'Partida maestra' };
     ctx.fillStyle = '#c9c2ba'; ctx.font = '20px Arial, sans-serif';
     ctx.fillText(KIND_LABEL[p.kind] || 'Ajedrez', tx, 134);
 
+    // Respeta saltos de línea explícitos ('\n') como líneas independientes;
+    // dentro de cada una aplica word-wrap normal si excede el ancho disponible.
     const wrap = (text, font, maxW, maxLines) => {
         ctx.font = font;
-        const words = String(text || '').split(/\s+/).filter(Boolean);
-        const lines = []; let cur = '';
-        for (const w of words) {
-            const tryLine = cur ? (cur + ' ' + w) : w;
-            if (ctx.measureText(tryLine).width > maxW && cur) { lines.push(cur); cur = w; }
-            else cur = tryLine;
+        const lines = [];
+        const paragraphs = String(text || '').split(/\r\n|\r|\n/);
+        for (const para of paragraphs) {
+            const words = para.split(/\s+/).filter(Boolean);
+            let cur = '';
+            for (const w of words) {
+                const tryLine = cur ? (cur + ' ' + w) : w;
+                if (ctx.measureText(tryLine).width > maxW && cur) { lines.push(cur); cur = w; }
+                else cur = tryLine;
+                if (lines.length >= maxLines) break;
+            }
             if (lines.length >= maxLines) break;
+            lines.push(cur);
         }
-        if (cur && lines.length < maxLines) lines.push(cur);
-        return lines;
+        return lines.slice(0, maxLines);
     };
 
     let ty = 192;
@@ -12129,20 +14353,48 @@ function applySharePreviewCanvas(previewParams) {
     }).catch(() => {});
 }
 
+// Devuelve el FEN de la posición de reto del puzzle (el FEN base con los
+// pre-movimientos ya aplicados), que es la posición que realmente se ve en
+// el tablero al cargar el problema. Usar currentPuzzle.fen "en crudo" para
+// compartir es incorrecto cuando el puzzle tiene preMoves, porque esa
+// posición todavía no incluye la jugada de la IA que coloca las piezas
+// como se ven en pantalla.
+function getPuzzleChallengeFen(puzzle) {
+    if (!puzzle || !puzzle.fen) return null;
+    const rawFen = String(puzzle.fen).trim();
+    if (!rawFen) return null;
+    if (!puzzle.preMoves || !puzzle.preMoves.length) return rawFen;
+    try {
+        const tmp = new ChessGame();
+        tmp.loadFromFEN(rawFen);
+        puzzle.preMoves.forEach(function(uci) {
+            const fc = uci.charCodeAt(0) - 97, fr = 8 - parseInt(uci[1]);
+            const tc = uci.charCodeAt(2) - 97, tr = 8 - parseInt(uci[3]);
+            tmp.makeMove(fr, fc, tr, tc);
+        });
+        return tmp.toFEN();
+    } catch (e) {
+        return rawFen;
+    }
+}
+
 function getShareInfo() {
     if (shareContext === 'problema' && puzzleMode && currentPuzzle) {
         const id = currentPuzzle.id || null;
-        const titleDetail = (currentPuzzle.title && String(currentPuzzle.title).trim()) ? currentPuzzle.title.trim() : null;
-        const cardT = titleDetail || 'Problema de ajedrez';
-        const cardS = '¿Encuentras la mejor jugada?';
-        const puzzleFen = (currentPuzzle.fen && String(currentPuzzle.fen).trim()) ? currentPuzzle.fen.trim() : null;
+        const puzzleFen = getPuzzleChallengeFen(currentPuzzle);
         // Texto para el mensaje copiable: categoría del selector + turno
         const themeSel = document.getElementById('puzzle-theme-select');
         const catLabel = (themeSel && themeSel.selectedOptions[0] && themeSel.selectedOptions[0].text)
             ? themeSel.selectedOptions[0].text
             : getThemeLabel(currentPuzzle.theme || 'tactic');
         const turnLabel = playerColor === 'black' ? '♚ Juegan Negras' : '♔ Juegan Blancas';
-        const puzzleDetail = catLabel + ' · ' + turnLabel;
+        // Tipo de problema y turno en líneas separadas (tanto en el mensaje
+        // de texto como en la tarjeta de imagen, que respeta el salto '\n').
+        const puzzleDetail = catLabel + '\n' + turnLabel;
+        // La 3ª línea de la tarjeta muestra el mismo detalle que va debajo de
+        // "Problema de ajedrez" en el mensaje de Compartir (categoría / turno).
+        const cardT = puzzleDetail;
+        const cardS = '¿Encuentras la mejor jugada?';
         let url;
         if (id) {
             url = `${BASE_PATH}?puzzle=${encodeURIComponent(id)}`;
@@ -12609,6 +14861,7 @@ function parsePGNAndLoad(pgnRaw, gameTitle) {
         // Crear nueva partida y reproducir movimientos
         stopClock();
         game = new ChessGame();
+        gameGeneration++;
         currentMoveIndex = -1;
         currentOpeningName = '';
         lastOpeningMoveCount = 0;
@@ -13037,6 +15290,7 @@ function resumeGame(silent) {
         
         // Restaurar el estado del juego
         game = new ChessGame();
+        gameGeneration++;
         game.board = savedState.board;
         game.currentTurn = savedState.currentTurn;
         game.moveHistory = savedState.moveHistory || [];
@@ -13085,16 +15339,21 @@ function resumeGame(silent) {
             puzzleMode = true;
             puzzleActive = false;         // posición cargada pero no en juego activo
             currentPuzzle = savedState.currentPuzzle;
-            if (savedState.puzzleFilter) puzzleFilter = savedState.puzzleFilter;
+            if (savedState.puzzleFilter) {
+                puzzleFilter = savedState.puzzleFilter;
+                applyPuzzleCategory(puzzleFilter.theme);
+            }
             puzzleSequentialIndex = savedState.puzzleSequentialIndex || 0;
             if (Array.isArray(savedState.puzzleApiCache) && savedState.puzzleApiCache.length > 0) {
                 puzzleApiCache = savedState.puzzleApiCache;
             }
             document.body.classList.add('puzzle-mode-active');
+            setPuzzleHintSolutionEnabled(true);
             updatePuzzleNavButtons();
             shareContext = 'problema';
         // 2. Partida maestra
         } else if (savedState.shareContext === 'maestra') {
+            puzzleMode = false;
             shareContext = 'maestra';
             if (savedState.famousGameTitle) {
                 setFamousGameTitle(savedState.famousGameTitle);
@@ -13105,9 +15364,11 @@ function resumeGame(silent) {
             }
         // 3. Apertura
         } else if (savedState.shareContext === 'apertura') {
+            puzzleMode = false;
             shareContext = 'apertura';
         // 4. Partida normal
         } else {
+            puzzleMode = false;
             shareContext = 'partida';
         }
         // ─────────────────────────────────────────────────────────────────
@@ -13115,7 +15376,8 @@ function resumeGame(silent) {
         // Si es el turno de la IA, que mueva
         if (!game.gameOver && playerColor !== 'both' && game.currentTurn !== playerColor
             && !puzzleMode) {
-            setTimeout(() => makeAIMove(), 800);
+            const _aiGen = gameGeneration;
+            setTimeout(() => makeAIMove(_aiGen), 800);
         }
         
         if (!silent) showMessage('Partida continuada correctamente', 'success', 2000);
@@ -13214,8 +15476,8 @@ function startClock() {
                     updateOnlineBanner();
                     setOnlineActionsLocked(false);
                 }
-                showMessage(`¡Se acabó el tiempo de las blancas! Las negras ganan.${formatEloDelta(eloDelta)}`, 'error', 0);
-                setTimeout(showAnalysisButton, 100);
+                updateUndoButton();
+                showBoardBanner(`⏱️ TIEMPO AGOTADO — Ganan Negras${formatEloDelta(eloDelta)}`, 'checkmate');
                 return;
             }
         } else {
@@ -13239,8 +15501,8 @@ function startClock() {
                     updateOnlineBanner();
                     setOnlineActionsLocked(false);
                 }
-                showMessage(`¡Se acabó el tiempo de las negras! Las blancas ganan.${formatEloDelta(eloDelta)}`, 'error', 0);
-                setTimeout(showAnalysisButton, 100);
+                updateUndoButton();
+                showBoardBanner(`⏱️ TIEMPO AGOTADO — Ganan Blancas${formatEloDelta(eloDelta)}`, 'checkmate');
                 return;
             }
         }
@@ -13312,7 +15574,9 @@ function showMoveArrow(fromRow, fromCol, toRow, toCol, opts) {
     const force = !!(opts && opts.force);
     if (!moveArrowEnabled && !force) return;
     const reverse = !!(opts && opts.reverse);
-    const green   = !!(opts && opts.color === 'green');
+    const arrowColor = opts && opts.color;
+    const green = arrowColor === 'green';
+    const blue  = arrowColor === 'blue';
     const boardEl = document.getElementById('chess-board');
     if (!boardEl) return;
 
@@ -13383,6 +15647,10 @@ function showMoveArrow(fromRow, fromCol, toRow, toCol, opts) {
         { offset: '0%',   color: '#15803d', opacity: '0.75' },
         { offset: '55%',  color: '#22c55e', opacity: '0.90' },
         { offset: '100%', color: '#86efac', opacity: '0.98' },
+    ] : blue ? [
+        { offset: '0%',   color: '#1d4ed8', opacity: '0.75' },
+        { offset: '55%',  color: '#3b82f6', opacity: '0.90' },
+        { offset: '100%', color: '#93c5fd', opacity: '0.98' },
     ] : reverse ? [
         { offset: '0%',   color: '#6b6b6b', opacity: '0.70' },
         { offset: '55%',  color: '#a0a0a0', opacity: '0.85' },
@@ -13424,7 +15692,7 @@ function showMoveArrow(fromRow, fromCol, toRow, toCol, opts) {
     const outline = document.createElementNS(ns, 'polygon');
     outline.setAttribute('points', pts);
     outline.setAttribute('fill', 'none');
-    outline.setAttribute('stroke', green ? 'rgba(10,70,30,0.55)' : reverse ? 'rgba(40,40,40,0.55)' : 'rgba(120,70,0,0.55)');
+    outline.setAttribute('stroke', green ? 'rgba(10,70,30,0.55)' : blue ? 'rgba(30,64,175,0.55)' : reverse ? 'rgba(40,40,40,0.55)' : 'rgba(120,70,0,0.55)');
     outline.setAttribute('stroke-width', sq * 0.04);
     outline.setAttribute('stroke-linejoin', 'round');
     svg.appendChild(outline);
@@ -13433,7 +15701,7 @@ function showMoveArrow(fromRow, fromCol, toRow, toCol, opts) {
     const arrow = document.createElementNS(ns, 'polygon');
     arrow.setAttribute('points', pts);
     arrow.setAttribute('fill', `url(#${gradId})`);
-    arrow.setAttribute('stroke', green ? 'rgba(134,239,172,0.5)' : reverse ? 'rgba(220,220,220,0.5)' : 'rgba(255,240,100,0.5)');
+    arrow.setAttribute('stroke', green ? 'rgba(134,239,172,0.5)' : blue ? 'rgba(147,197,253,0.5)' : reverse ? 'rgba(220,220,220,0.5)' : 'rgba(255,240,100,0.5)');
     arrow.setAttribute('stroke-width', sq * 0.02);
     arrow.setAttribute('stroke-linejoin', 'round');
     svg.appendChild(arrow);
@@ -13689,6 +15957,11 @@ function renderBoard() {
                 bestMoveSquares.to.col === displayCol) {
                 square.classList.add('best-move');
             }
+            if (puzzleHintMove &&
+                puzzleHintMove.fromRow === displayRow &&
+                puzzleHintMove.fromCol === displayCol) {
+                square.classList.add('puzzle-from');
+            }
             
             if (showCoordinates) {
             const coordinate = document.createElement('span');
@@ -13766,6 +16039,22 @@ function renderBoard() {
                     if (rotateForBothMode) pieceElement.classList.add('piece-rotate-180');
                 pieceElement.textContent = piece.piece;
                 square.appendChild(pieceElement);
+                }
+            }
+
+            // Estrellas de lección (modo Aprende Ajedrez, estilo Lichess)
+            if (learnMode && learnActive && currentLesson) {
+                var learnStep = currentLesson.steps[learnStepIndex];
+                var starSq = learnStep && learnGetCurrentStarSq(learnStep);
+                if (starSq) {
+                    var starPos = sqNameToCoords(starSq);
+                    if (starPos && starPos.row === displayRow && starPos.col === displayCol) {
+                        var starEl = document.createElement('span');
+                        starEl.className = 'learn-star';
+                        starEl.setAttribute('aria-hidden', 'true');
+                        starEl.textContent = '★';
+                        square.appendChild(starEl);
+                    }
                 }
             }
             
@@ -13886,7 +16175,13 @@ function executeFreeTrainingMove(fromRow, fromCol, toRow, toCol, promotionPiece)
 function handleSquareClick(row, col) {
     if (dragState) return;
     if (analysisActive) return;
-    if (game.gameOver && !puzzleMode) return;
+    if (game.gameOver && !puzzleMode && !(learnMode && learnActive)) return;
+
+    if (learnMode && learnActive) {
+        handleLearnClick(row, col);
+        return;
+    }
+    if (learnMode) return;
 
     if (puzzleMode && puzzleActive) {
         handlePuzzleClick(row, col);
@@ -13944,21 +16239,24 @@ function handleSquareClick(row, col) {
         if (targetMove) {
             const piece = game.getPiece(selectedSquare.row, selectedSquare.col);
             const isPromotion = piece && piece.type === 'pawn' && (row === 0 || row === 7);
+            const fromRow = selectedSquare.row, fromCol = selectedSquare.col;
 
-            if (isPromotion) {
-                pendingPromotionMove = {
-                    fromRow: selectedSquare.row,
-                    fromCol: selectedSquare.col,
-                    toRow: row,
-                    toCol: col,
-                    isQuiz: false
-                };
-                selectedSquare = null;
-                showPromotionDialog(piece.color);
-                return;
-            }
+            confirmContinueFromHistoryIfNeeded(function() {
+                if (isPromotion) {
+                    pendingPromotionMove = {
+                        fromRow: fromRow,
+                        fromCol: fromCol,
+                        toRow: row,
+                        toCol: col,
+                        isQuiz: false
+                    };
+                    selectedSquare = null;
+                    showPromotionDialog(piece.color);
+                    return;
+                }
 
-            executeMove(selectedSquare.row, selectedSquare.col, row, col);
+                executeMove(fromRow, fromCol, row, col);
+            });
         } else if (clickedPiece && clickedPiece.color === game.currentTurn) {
             // Seleccionar otra pieza propia
             selectedSquare = { row, col };
@@ -13979,7 +16277,7 @@ function handleSquareClick(row, col) {
 
 function handleDragStart(e, row, col) {
     if (e.button !== 0) return;
-    if (analysisActive || !game || (game.gameOver && !puzzleMode)) return;
+    if (analysisActive || !game || (game.gameOver && !puzzleMode && !(learnMode && learnActive))) return;
     if ('ontouchstart' in window && e.pointerType === 'touch') return;
 
     const piece = game.getPiece(row, col);
@@ -14117,13 +16415,26 @@ function handleDragEnd(e) {
     if (targetMove) {
         const piece = game.getPiece(fromRow, fromCol);
         const isPromotion = piece && piece.type === 'pawn' && (dropRow === 0 || dropRow === 7);
+        const isPlainMode = !learnMode && !puzzleMode && !(trainingFreeMode && trainingActive) && !quizMode;
         if (isPromotion) {
-            pendingPromotionMove = { fromRow, fromCol, toRow: dropRow, toCol: dropCol, isQuiz: quizMode, isFreeTraining: trainingFreeMode && trainingActive, isPuzzle: puzzleMode && puzzleActive };
-            selectedSquare = null;
-            showPromotionDialog(piece.color);
+            if (isPlainMode) {
+                confirmContinueFromHistoryIfNeeded(function() {
+                    pendingPromotionMove = { fromRow, fromCol, toRow: dropRow, toCol: dropCol, isQuiz: false };
+                    selectedSquare = null;
+                    showPromotionDialog(piece.color);
+                });
+            } else {
+                pendingPromotionMove = { fromRow, fromCol, toRow: dropRow, toCol: dropCol, isQuiz: quizMode, isFreeTraining: trainingFreeMode && trainingActive, isPuzzle: puzzleMode && puzzleActive, isLearn: learnMode && learnActive };
+                selectedSquare = null;
+                showPromotionDialog(piece.color);
+            }
             return;
         }
-        if (puzzleMode && puzzleActive) {
+        if (learnMode && learnActive) {
+            learnCheckMove(fromRow, fromCol, dropRow, dropCol);
+        } else if (learnMode) {
+            // lección terminada – ignorar drop
+        } else if (puzzleMode && puzzleActive && !puzzleSolutionPlaying) {
             puzzleCheckMove(fromRow, fromCol, dropRow, dropCol);
         } else if (puzzleMode) {
             // puzzle ended (solved/failed) – ignore drop
@@ -14132,7 +16443,9 @@ function handleDragEnd(e) {
         } else if (quizMode) {
             quizCheckMove(fromRow, fromCol, dropRow, dropCol);
         } else {
-            executeMove(fromRow, fromCol, dropRow, dropCol);
+            confirmContinueFromHistoryIfNeeded(function() {
+                executeMove(fromRow, fromCol, dropRow, dropCol);
+            });
         }
     } else {
         selectedSquare = null;
@@ -15006,7 +17319,8 @@ function executeMove(fromRow, fromCol, toRow, toCol, promotionPiece) {
     }
     handleGameResult(result);
     if (!game.gameOver && playerColor !== 'both' && game.currentTurn !== playerColor && !_onlineGame) {
-        setTimeout(() => makeAIMove(), 800);
+        const _aiGen = gameGeneration;
+        setTimeout(() => makeAIMove(_aiGen), 800);
     }
     if (_onlineGame) updateOnlineBanner();
 }
@@ -15044,7 +17358,10 @@ function showPromotionDialog(pieceColor) {
         btn.addEventListener('click', () => {
             if (pendingPromotionMove) {
                 const { fromRow, fromCol, toRow, toCol, isQuiz, isFreeTraining, isPuzzle } = pendingPromotionMove;
-                if (isPuzzle) {
+                const { isLearn } = pendingPromotionMove;
+                if (isLearn) {
+                    learnCheckMove(fromRow, fromCol, toRow, toCol, type.charAt(0));
+                } else if (isPuzzle) {
                     puzzleCheckMove(fromRow, fromCol, toRow, toCol, type.charAt(0));
                 } else if (isFreeTraining) {
                     executeFreeTrainingMove(fromRow, fromCol, toRow, toCol, type);
@@ -15404,31 +17721,18 @@ function handleGameResult(result) {
             setTimeout(() => SoundFX.lose(), 200);
         }
         showBoardBanner(`♚ ¡JAQUE MATE! — Ganan ${winner}${formatEloDelta(eloDelta)}`, 'checkmate');
-        
-        setTimeout(() => {
-            showMessage(`¡Jaque mate! ${winner} ganan.${formatEloDelta(eloDelta)}`, 'success', 0);
-            showAnalysisButton();
-        }, 300);
     } else if (result.status === 'stalemate') {
         stopClock();
         clearAutoSavedGame();
         const eloDelta = recordGameResult('draw');
         showBoardBanner(`½ TABLAS — Ahogado${formatEloDelta(eloDelta)}`, 'stalemate');
         setTimeout(() => SoundFX.draw(), 200);
-        setTimeout(() => {
-            showMessage(`¡Tablas por ahogado!${formatEloDelta(eloDelta)}`, 'info', 0);
-            showAnalysisButton();
-        }, 300);
     } else if (result.status === 'threefold') {
         stopClock();
         clearAutoSavedGame();
         const eloDelta = recordGameResult('draw');
         showBoardBanner(`½ TABLAS — Triple repetición${formatEloDelta(eloDelta)}`, 'stalemate');
         setTimeout(() => SoundFX.draw(), 200);
-        setTimeout(() => {
-            showMessage(`¡Tablas por triple repetición!${formatEloDelta(eloDelta)}`, 'info', 0);
-            showAnalysisButton();
-        }, 300);
     } else if (result.status === 'check') {
         showBoardBanner('♔ ¡JAQUE!', 'check');
         setTimeout(hideBoardBanner, 1500);
@@ -15446,28 +17750,19 @@ function handleGameResult(result) {
     }
 }
 
-function showAnalysisButton() {
-    const overlay = document.getElementById('message-overlay');
-    const box = overlay ? overlay.querySelector('.message-box') : null;
-    if (!overlay || !box) return;
-    const existing = box.querySelector('.analysis-btn');
-    if (existing) return;
-    const btn = document.createElement('button');
-    btn.className = 'btn btn-primary analysis-btn';
-    btn.style.marginTop = '12px';
-    btn.textContent = '📊 Ver análisis post-partida';
-    btn.onclick = () => {
-        overlay.style.display = 'none';
-        analyzeGamePostGame();
-    };
-    box.appendChild(btn);
-}
-
-async function makeAIMove() {
+async function makeAIMove(expectedGen) {
+    // `expectedGen` identifica la partida/contexto para el que se programó
+    // este movimiento. Si mientras la IA "pensaba" (posiblemente varios
+    // segundos vía API externa) el usuario navegó a otra partida/puzzle/
+    // apertura, `gameGeneration` ya no coincidirá y descartamos el
+    // movimiento en vez de aplicarlo sobre una posición equivocada.
+    const gen = (expectedGen != null) ? expectedGen : gameGeneration;
+    if (gen !== gameGeneration) return;
     showThinkingIndicator(true);
     
     try {
         const bestMove = await getAIMove();
+        if (gen !== gameGeneration) return;
         
         if (bestMove) {
             const move = parseUCIMove(bestMove);
