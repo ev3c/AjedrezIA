@@ -7596,12 +7596,12 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
-    '3.4.76': [
-        'Total biblioteca: ~268.000 partidas con ~250 jugadores',
-        'Partidas Maestras: «⭐ Partidas Seleccionadas» y «📚 Biblioteca de jugadores» son ahora completamente independientes',
+    '3.5.0': [
+        'Partidas Maestras: nueva «📚 Biblioteca de jugadores» con ~250 grandes maestros y ~268.000 partidas',
+        'Partidas Maestras: «⭐ Partidas Seleccionadas» y «📚 Biblioteca de jugadores» son completamente independientes',
         'Partidas Seleccionadas: al elegir una partida se carga automáticamente sin necesidad de pulsar «Cargar»',
+        'Biblioteca: sin límite de partidas por jugador (Carlsen 9.764, Nakamura 8.699, Korchnoi 8.153, Anand 7.734...)',
         '... y más mejoras en AjedrezIA ...',
-
     ],
     '3.4.59': [
         'Problemas de ajedrez: con categoría «— Todas —» se cargan problemas mezclados de todas las categorías',

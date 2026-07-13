@@ -2,7 +2,7 @@
 
 ---
 
-## v3.4.76 — 2026-07-13
+## v3.5.0 — 2026-07-13
 
 ### Biblioteca de jugadores — info en separador
 - El separador «📚 Biblioteca de jugadores» muestra ahora «~250 jugadores · ~268.000 partidas».
