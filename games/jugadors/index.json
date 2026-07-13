@@ -1,0 +1,1773 @@
+[
+  {
+    "id": "adams",
+    "name": "Adams, Michael",
+    "file": "adams/games.pgn",
+    "gameCount": 1374,
+    "sizeMB": 0.85
+  },
+  {
+    "id": "adianto-utut",
+    "name": "Adianto Utut",
+    "file": "adianto-utut/games.pgn",
+    "gameCount": 453,
+    "sizeMB": 0.28
+  },
+  {
+    "id": "adorjan-andras",
+    "name": "Adorjan Andras",
+    "file": "adorjan-andras/games.pgn",
+    "gameCount": 1561,
+    "sizeMB": 0.79
+  },
+  {
+    "id": "alekhine",
+    "name": "Alekhine, Alexander",
+    "file": "alekhine/games.pgn",
+    "gameCount": 3372,
+    "sizeMB": 1.88
+  },
+  {
+    "id": "anand",
+    "name": "Anand, Viswanathan",
+    "file": "anand/games.pgn",
+    "gameCount": 7734,
+    "sizeMB": 1.89
+  },
+  {
+    "id": "anderssen",
+    "name": "Anderssen, Adolf",
+    "file": "anderssen/games.pgn",
+    "gameCount": 1385,
+    "sizeMB": 0.79
+  },
+  {
+    "id": "andersson-tecnica",
+    "name": "Andersson Tecnica",
+    "file": "andersson-tecnica/games.pgn",
+    "gameCount": 97,
+    "sizeMB": 0.08
+  },
+  {
+    "id": "antoshin-v",
+    "name": "Antoshin V",
+    "file": "antoshin-v/games.pgn",
+    "gameCount": 436,
+    "sizeMB": 0.26
+  },
+  {
+    "id": "antunes",
+    "name": "Antunes",
+    "file": "antunes/games.pgn",
+    "gameCount": 403,
+    "sizeMB": 0.26
+  },
+  {
+    "id": "aronian",
+    "name": "Aronian",
+    "file": "aronian/games.pgn",
+    "gameCount": 5382,
+    "sizeMB": 2.13
+  },
+  {
+    "id": "aronians-beauty-of-chess",
+    "name": "Aronian's Beauty of Chess",
+    "file": "aronians-beauty-of-chess/games.pgn",
+    "gameCount": 290,
+    "sizeMB": 0.48
+  },
+  {
+    "id": "ashley-140-annotated-games",
+    "name": "Ashley 140 Annotated Games",
+    "file": "ashley-140-annotated-games/games.pgn",
+    "gameCount": 141,
+    "sizeMB": 0.38
+  },
+  {
+    "id": "ashley-maurica",
+    "name": "Ashley Maurica",
+    "file": "ashley-maurica/games.pgn",
+    "gameCount": 290,
+    "sizeMB": 0.19
+  },
+  {
+    "id": "azmaiparashvili-zurab",
+    "name": "Azmaiparashvili Zurab",
+    "file": "azmaiparashvili-zurab/games.pgn",
+    "gameCount": 695,
+    "sizeMB": 0.42
+  },
+  {
+    "id": "baburin-alexsandar",
+    "name": "Baburin Alexsandar",
+    "file": "baburin-alexsandar/games.pgn",
+    "gameCount": 410,
+    "sizeMB": 0.24
+  },
+  {
+    "id": "bacrot-etienne",
+    "name": "Bacrot Etienne",
+    "file": "bacrot-etienne/games.pgn",
+    "gameCount": 154,
+    "sizeMB": 0.1
+  },
+  {
+    "id": "bagirov-vladimir",
+    "name": "Bagirov Vladimir",
+    "file": "bagirov-vladimir/games.pgn",
+    "gameCount": 1413,
+    "sizeMB": 0.81
+  },
+  {
+    "id": "balashov-yuri",
+    "name": "Balashov Yuri",
+    "file": "balashov-yuri/games.pgn",
+    "gameCount": 1787,
+    "sizeMB": 1.0
+  },
+  {
+    "id": "barbero-gerardo",
+    "name": "Barbero Gerardo",
+    "file": "barbero-gerardo/games.pgn",
+    "gameCount": 613,
+    "sizeMB": 0.37
+  },
+  {
+    "id": "basman-89-games",
+    "name": "Basman 89 Games",
+    "file": "basman-89-games/games.pgn",
+    "gameCount": 89,
+    "sizeMB": 0.05
+  },
+  {
+    "id": "bauer-johann",
+    "name": "Bauer Johann",
+    "file": "bauer-johann/games.pgn",
+    "gameCount": 43,
+    "sizeMB": 0.03
+  },
+  {
+    "id": "benjamin-joel",
+    "name": "Benjamin Joel",
+    "file": "benjamin-joel/games.pgn",
+    "gameCount": 1099,
+    "sizeMB": 0.67
+  },
+  {
+    "id": "bilek-istvan",
+    "name": "Bilek Istvan",
+    "file": "bilek-istvan/games.pgn",
+    "gameCount": 407,
+    "sizeMB": 0.21
+  },
+  {
+    "id": "bird",
+    "name": "Bird",
+    "file": "bird/games.pgn",
+    "gameCount": 353,
+    "sizeMB": 0.23
+  },
+  {
+    "id": "bird-100-attacking-games",
+    "name": "Bird 100 Attacking Games",
+    "file": "bird-100-attacking-games/games.pgn",
+    "gameCount": 100,
+    "sizeMB": 0.37
+  },
+  {
+    "id": "bird-henry",
+    "name": "Bird Henry",
+    "file": "bird-henry/games.pgn",
+    "gameCount": 513,
+    "sizeMB": 0.31
+  },
+  {
+    "id": "bisguier-arthur",
+    "name": "Bisguier Arthur",
+    "file": "bisguier-arthur/games.pgn",
+    "gameCount": 561,
+    "sizeMB": 0.32
+  },
+  {
+    "id": "blatny-pavel",
+    "name": "Blatny Pavel",
+    "file": "blatny-pavel/games.pgn",
+    "gameCount": 940,
+    "sizeMB": 0.57
+  },
+  {
+    "id": "bogoljubow-efim",
+    "name": "Bogoljubow Efim",
+    "file": "bogoljubow-efim/games.pgn",
+    "gameCount": 849,
+    "sizeMB": 0.55
+  },
+  {
+    "id": "bolbochan-julio",
+    "name": "Bolbochan Julio",
+    "file": "bolbochan-julio/games.pgn",
+    "gameCount": 244,
+    "sizeMB": 0.15
+  },
+  {
+    "id": "bonin-jay",
+    "name": "Bonin Jay",
+    "file": "bonin-jay/games.pgn",
+    "gameCount": 270,
+    "sizeMB": 0.16
+  },
+  {
+    "id": "borges",
+    "name": "Borges",
+    "file": "borges/games.pgn",
+    "gameCount": 30,
+    "sizeMB": 0.02
+  },
+  {
+    "id": "botvinnik",
+    "name": "Botvinnik, Mikhail",
+    "file": "botvinnik/games.pgn",
+    "gameCount": 2803,
+    "sizeMB": 1.74
+  },
+  {
+    "id": "braga-fernando",
+    "name": "Braga Fernando",
+    "file": "braga-fernando/games.pgn",
+    "gameCount": 697,
+    "sizeMB": 0.4
+  },
+  {
+    "id": "braitt",
+    "name": "Braitt",
+    "file": "braitt/games.pgn",
+    "gameCount": 300,
+    "sizeMB": 0.17
+  },
+  {
+    "id": "breyer-gyula",
+    "name": "Breyer Gyula",
+    "file": "breyer-gyula/games.pgn",
+    "gameCount": 57,
+    "sizeMB": 0.03
+  },
+  {
+    "id": "bronstein",
+    "name": "Bronstein",
+    "file": "bronstein/games.pgn",
+    "gameCount": 1930,
+    "sizeMB": 1.15
+  },
+  {
+    "id": "browne-walter",
+    "name": "Browne Walter",
+    "file": "browne-walter/games.pgn",
+    "gameCount": 1566,
+    "sizeMB": 0.93
+  },
+  {
+    "id": "burger-karl",
+    "name": "Burger Karl",
+    "file": "burger-karl/games.pgn",
+    "gameCount": 354,
+    "sizeMB": 0.21
+  },
+  {
+    "id": "burn-amos",
+    "name": "Burn Amos",
+    "file": "burn-amos/games.pgn",
+    "gameCount": 483,
+    "sizeMB": 0.3
+  },
+  {
+    "id": "capablanca",
+    "name": "Capablanca, José Raúl",
+    "file": "capablanca/games.pgn",
+    "gameCount": 1933,
+    "sizeMB": 1.68
+  },
+  {
+    "id": "carlsen",
+    "name": "Carlsen, Magnus",
+    "file": "carlsen/games.pgn",
+    "gameCount": 9764,
+    "sizeMB": 2.12
+  },
+  {
+    "id": "carlsen-chess24-attacking-without-s",
+    "name": "Carlsen - Chess24 Attacking Without Sacrificing, Magnus Carlsen 2020",
+    "file": "carlsen-chess24-attacking-without-s/games.pgn",
+    "gameCount": 5,
+    "sizeMB": 0.01
+  },
+  {
+    "id": "caruana",
+    "name": "Caruana",
+    "file": "caruana/games.pgn",
+    "gameCount": 5317,
+    "sizeMB": 2.22
+  },
+  {
+    "id": "chandler-murray-g",
+    "name": "Chandler Murray G",
+    "file": "chandler-murray-g/games.pgn",
+    "gameCount": 997,
+    "sizeMB": 0.63
+  },
+  {
+    "id": "charousek-rudolf",
+    "name": "Charousek Rudolf",
+    "file": "charousek-rudolf/games.pgn",
+    "gameCount": 172,
+    "sizeMB": 0.1
+  },
+  {
+    "id": "chennai-gm-2024-61-annotated-games",
+    "name": "Chennai GM 2024 61 Annotated Games",
+    "file": "chennai-gm-2024-61-annotated-games/games.pgn",
+    "gameCount": 61,
+    "sizeMB": 0.21
+  },
+  {
+    "id": "chiburdanidze",
+    "name": "Chiburdanidze",
+    "file": "chiburdanidze/games.pgn",
+    "gameCount": 30,
+    "sizeMB": 0.02
+  },
+  {
+    "id": "chigorin",
+    "name": "Chigorin, Mikhail",
+    "file": "chigorin/games.pgn",
+    "gameCount": 849,
+    "sizeMB": 0.54
+  },
+  {
+    "id": "christiansen-larry",
+    "name": "Christiansen Larry",
+    "file": "christiansen-larry/games.pgn",
+    "gameCount": 1392,
+    "sizeMB": 0.9
+  },
+  {
+    "id": "colle-edgard",
+    "name": "Colle Edgard",
+    "file": "colle-edgard/games.pgn",
+    "gameCount": 199,
+    "sizeMB": 0.12
+  },
+  {
+    "id": "cruz",
+    "name": "Cruz",
+    "file": "cruz/games.pgn",
+    "gameCount": 306,
+    "sizeMB": 0.19
+  },
+  {
+    "id": "damaso",
+    "name": "Damaso",
+    "file": "damaso/games.pgn",
+    "gameCount": 233,
+    "sizeMB": 0.13
+  },
+  {
+    "id": "davies-nigel",
+    "name": "Davies Nigel",
+    "file": "davies-nigel/games.pgn",
+    "gameCount": 514,
+    "sizeMB": 0.29
+  },
+  {
+    "id": "day-lawrence",
+    "name": "Day Lawrence",
+    "file": "day-lawrence/games.pgn",
+    "gameCount": 514,
+    "sizeMB": 0.31
+  },
+  {
+    "id": "de-firmian-nick",
+    "name": "De Firmian Nick",
+    "file": "de-firmian-nick/games.pgn",
+    "gameCount": 990,
+    "sizeMB": 0.62
+  },
+  {
+    "id": "ding-liren",
+    "name": "Ding Liren",
+    "file": "ding-liren/games.pgn",
+    "gameCount": 1967,
+    "sizeMB": 1.35
+  },
+  {
+    "id": "dreev-aleksey",
+    "name": "Dreev Aleksey",
+    "file": "dreev-aleksey/games.pgn",
+    "gameCount": 975,
+    "sizeMB": 0.56
+  },
+  {
+    "id": "dubov-annotated",
+    "name": "Dubov Annotated",
+    "file": "dubov-annotated/games.pgn",
+    "gameCount": 1407,
+    "sizeMB": 2.07
+  },
+  {
+    "id": "duras-72-annotated-games",
+    "name": "Duras 72 Annotated Games",
+    "file": "duras-72-annotated-games/games.pgn",
+    "gameCount": 72,
+    "sizeMB": 0.24
+  },
+  {
+    "id": "duras-oldrich",
+    "name": "Duras Oldrich",
+    "file": "duras-oldrich/games.pgn",
+    "gameCount": 217,
+    "sizeMB": 0.14
+  },
+  {
+    "id": "duzhotimirski",
+    "name": "Duz-Hotimirski",
+    "file": "duzhotimirski/games.pgn",
+    "gameCount": 57,
+    "sizeMB": 0.03
+  },
+  {
+    "id": "dzindzichashvili-roman",
+    "name": "Dzindzichashvili Roman",
+    "file": "dzindzichashvili-roman/games.pgn",
+    "gameCount": 947,
+    "sizeMB": 0.56
+  },
+  {
+    "id": "eliskases",
+    "name": "Eliskases",
+    "file": "eliskases/games.pgn",
+    "gameCount": 1179,
+    "sizeMB": 0.74
+  },
+  {
+    "id": "eliskases-erich",
+    "name": "Eliskases Erich",
+    "file": "eliskases-erich/games.pgn",
+    "gameCount": 531,
+    "sizeMB": 0.32
+  },
+  {
+    "id": "erigaisi",
+    "name": "Erigaisi",
+    "file": "erigaisi/games.pgn",
+    "gameCount": 3579,
+    "sizeMB": 2.14
+  },
+  {
+    "id": "erigaisi-chess-notes",
+    "name": "Erigaisi Chess Notes",
+    "file": "erigaisi-chess-notes/games.pgn",
+    "gameCount": 235,
+    "sizeMB": 1.29
+  },
+  {
+    "id": "euwe",
+    "name": "Euwe, Max",
+    "file": "euwe/games.pgn",
+    "gameCount": 2330,
+    "sizeMB": 1.49
+  },
+  {
+    "id": "evans",
+    "name": "Evans",
+    "file": "evans/games.pgn",
+    "gameCount": 685,
+    "sizeMB": 0.43
+  },
+  {
+    "id": "falkbeer-ernst-karl",
+    "name": "Falkbeer Ernst Karl",
+    "file": "falkbeer-ernst-karl/games.pgn",
+    "gameCount": 17,
+    "sizeMB": 0.01
+  },
+  {
+    "id": "fedorowicz-john-p",
+    "name": "Fedorowicz John P",
+    "file": "fedorowicz-john-p/games.pgn",
+    "gameCount": 838,
+    "sizeMB": 0.5
+  },
+  {
+    "id": "fernandes",
+    "name": "Fernandes",
+    "file": "fernandes/games.pgn",
+    "gameCount": 375,
+    "sizeMB": 0.28
+  },
+  {
+    "id": "fine-reuben-usa",
+    "name": "Fine Reuben  USA",
+    "file": "fine-reuben-usa/games.pgn",
+    "gameCount": 392,
+    "sizeMB": 0.24
+  },
+  {
+    "id": "firouzja",
+    "name": "Firouzja",
+    "file": "firouzja/games.pgn",
+    "gameCount": 4350,
+    "sizeMB": 2.18
+  },
+  {
+    "id": "fischer",
+    "name": "Fischer, Robert James",
+    "file": "fischer/games.pgn",
+    "gameCount": 1377,
+    "sizeMB": 2.81
+  },
+  {
+    "id": "flohr",
+    "name": "Flohr",
+    "file": "flohr/games.pgn",
+    "gameCount": 986,
+    "sizeMB": 0.59
+  },
+  {
+    "id": "franco-games",
+    "name": "Franco Games",
+    "file": "franco-games/games.pgn",
+    "gameCount": 7,
+    "sizeMB": 0.0
+  },
+  {
+    "id": "ftacnik-lubomir",
+    "name": "Ftacnik Lubomir",
+    "file": "ftacnik-lubomir/games.pgn",
+    "gameCount": 1600,
+    "sizeMB": 0.99
+  },
+  {
+    "id": "galego",
+    "name": "Galego",
+    "file": "galego/games.pgn",
+    "gameCount": 267,
+    "sizeMB": 0.18
+  },
+  {
+    "id": "galliamovaivanchuk-alisa",
+    "name": "Galliamova-Ivanchuk Alisa",
+    "file": "galliamovaivanchuk-alisa/games.pgn",
+    "gameCount": 413,
+    "sizeMB": 0.27
+  },
+  {
+    "id": "gaprindashvili-nona",
+    "name": "Gaprindashvili Nona",
+    "file": "gaprindashvili-nona/games.pgn",
+    "gameCount": 635,
+    "sizeMB": 0.41
+  },
+  {
+    "id": "gelfand-boris",
+    "name": "Gelfand Boris",
+    "file": "gelfand-boris/games.pgn",
+    "gameCount": 823,
+    "sizeMB": 0.51
+  },
+  {
+    "id": "geller-efim",
+    "name": "Geller Efim",
+    "file": "geller-efim/games.pgn",
+    "gameCount": 2579,
+    "sizeMB": 1.43
+  },
+  {
+    "id": "german",
+    "name": "German",
+    "file": "german/games.pgn",
+    "gameCount": 331,
+    "sizeMB": 0.2
+  },
+  {
+    "id": "gipslis",
+    "name": "Gipslis",
+    "file": "gipslis/games.pgn",
+    "gameCount": 90,
+    "sizeMB": 0.05
+  },
+  {
+    "id": "gipslis-aivars",
+    "name": "Gipslis Aivars",
+    "file": "gipslis-aivars/games.pgn",
+    "gameCount": 913,
+    "sizeMB": 0.5
+  },
+  {
+    "id": "gligoric-svetosar",
+    "name": "Gligoric Svetosar",
+    "file": "gligoric-svetosar/games.pgn",
+    "gameCount": 2916,
+    "sizeMB": 1.74
+  },
+  {
+    "id": "goglidze",
+    "name": "Goglidze",
+    "file": "goglidze/games.pgn",
+    "gameCount": 38,
+    "sizeMB": 0.03
+  },
+  {
+    "id": "granda-zuniga",
+    "name": "Granda Zuniga",
+    "file": "granda-zuniga/games.pgn",
+    "gameCount": 592,
+    "sizeMB": 0.35
+  },
+  {
+    "id": "grischuk",
+    "name": "Grischuk",
+    "file": "grischuk/games.pgn",
+    "gameCount": 5898,
+    "sizeMB": 2.09
+  },
+  {
+    "id": "grivas-480-annotated-games",
+    "name": "Grivas 480 Annotated Games",
+    "file": "grivas-480-annotated-games/games.pgn",
+    "gameCount": 480,
+    "sizeMB": 1.35
+  },
+  {
+    "id": "grunfeld-ernst",
+    "name": "Grunfeld Ernst",
+    "file": "grunfeld-ernst/games.pgn",
+    "gameCount": 239,
+    "sizeMB": 0.14
+  },
+  {
+    "id": "gufeld",
+    "name": "Gufeld",
+    "file": "gufeld/games.pgn",
+    "gameCount": 106,
+    "sizeMB": 0.06
+  },
+  {
+    "id": "gukesh",
+    "name": "Gukesh",
+    "file": "gukesh/games.pgn",
+    "gameCount": 2053,
+    "sizeMB": 1.41
+  },
+  {
+    "id": "gukesh-masterful-moves-gukesh",
+    "name": "Gukesh Masterful Moves Gukesh",
+    "file": "gukesh-masterful-moves-gukesh/games.pgn",
+    "gameCount": 195,
+    "sizeMB": 0.39
+  },
+  {
+    "id": "gulko-all-games",
+    "name": "GULKO All Games",
+    "file": "gulko-all-games/games.pgn",
+    "gameCount": 1876,
+    "sizeMB": 1.11
+  },
+  {
+    "id": "harrwitz-daniel",
+    "name": "Harrwitz Daniel",
+    "file": "harrwitz-daniel/games.pgn",
+    "gameCount": 152,
+    "sizeMB": 0.09
+  },
+  {
+    "id": "hebden-mark",
+    "name": "Hebden Mark",
+    "file": "hebden-mark/games.pgn",
+    "gameCount": 987,
+    "sizeMB": 0.65
+  },
+  {
+    "id": "hodgson-julian",
+    "name": "Hodgson Julian",
+    "file": "hodgson-julian/games.pgn",
+    "gameCount": 1101,
+    "sizeMB": 0.64
+  },
+  {
+    "id": "holmov",
+    "name": "Holmov",
+    "file": "holmov/games.pgn",
+    "gameCount": 63,
+    "sizeMB": 0.04
+  },
+  {
+    "id": "horowitz-israel-albert",
+    "name": "Horowitz Israel Albert",
+    "file": "horowitz-israel-albert/games.pgn",
+    "gameCount": 98,
+    "sizeMB": 0.06
+  },
+  {
+    "id": "hort",
+    "name": "Hort",
+    "file": "hort/games.pgn",
+    "gameCount": 3086,
+    "sizeMB": 1.72
+  },
+  {
+    "id": "howell-400-annotated-games",
+    "name": "Howell 400 Annotated Games",
+    "file": "howell-400-annotated-games/games.pgn",
+    "gameCount": 400,
+    "sizeMB": 1.73
+  },
+  {
+    "id": "huebner",
+    "name": "Huebner",
+    "file": "huebner/games.pgn",
+    "gameCount": 2157,
+    "sizeMB": 1.32
+  },
+  {
+    "id": "illescas-cordoba-miguel",
+    "name": "Illescas Cordoba Miguel",
+    "file": "illescas-cordoba-miguel/games.pgn",
+    "gameCount": 649,
+    "sizeMB": 0.4
+  },
+  {
+    "id": "ivanchuk-annotated-games",
+    "name": "Ivanchuk Annotated Games",
+    "file": "ivanchuk-annotated-games/games.pgn",
+    "gameCount": 2585,
+    "sizeMB": 4.23
+  },
+  {
+    "id": "ivanchuk-vasily",
+    "name": "Ivanchuk Vasily",
+    "file": "ivanchuk-vasily/games.pgn",
+    "gameCount": 1157,
+    "sizeMB": 0.69
+  },
+  {
+    "id": "ivanov-igor",
+    "name": "Ivanov Igor",
+    "file": "ivanov-igor/games.pgn",
+    "gameCount": 853,
+    "sizeMB": 0.51
+  },
+  {
+    "id": "ivkov-borislav",
+    "name": "Ivkov Borislav",
+    "file": "ivkov-borislav/games.pgn",
+    "gameCount": 2503,
+    "sizeMB": 1.36
+  },
+  {
+    "id": "jansa-vlastimil",
+    "name": "Jansa Vlastimil",
+    "file": "jansa-vlastimil/games.pgn",
+    "gameCount": 1854,
+    "sizeMB": 1.04
+  },
+  {
+    "id": "jiangchuan-ye-china",
+    "name": "Jiangchuan Ye China",
+    "file": "jiangchuan-ye-china/games.pgn",
+    "gameCount": 456,
+    "sizeMB": 0.29
+  },
+  {
+    "id": "jun-xu",
+    "name": "Jun Xu",
+    "file": "jun-xu/games.pgn",
+    "gameCount": 392,
+    "sizeMB": 0.27
+  },
+  {
+    "id": "kaidanov-gregory",
+    "name": "Kaidanov Gregory",
+    "file": "kaidanov-gregory/games.pgn",
+    "gameCount": 855,
+    "sizeMB": 0.46
+  },
+  {
+    "id": "kamsky-2004",
+    "name": "kamsky 2004",
+    "file": "kamsky-2004/games.pgn",
+    "gameCount": 4,
+    "sizeMB": 0.0
+  },
+  {
+    "id": "kamsky-g",
+    "name": "Kamsky G",
+    "file": "kamsky-g/games.pgn",
+    "gameCount": 485,
+    "sizeMB": 0.35
+  },
+  {
+    "id": "karpov",
+    "name": "Karpov, Anatoly",
+    "file": "karpov/games.pgn",
+    "gameCount": 4823,
+    "sizeMB": 2.13
+  },
+  {
+    "id": "kasparov",
+    "name": "Kasparov, Garry",
+    "file": "kasparov/games.pgn",
+    "gameCount": 3496,
+    "sizeMB": 1.99
+  },
+  {
+    "id": "keene-raymond",
+    "name": "Keene Raymond",
+    "file": "keene-raymond/games.pgn",
+    "gameCount": 349,
+    "sizeMB": 0.18
+  },
+  {
+    "id": "keres",
+    "name": "Keres, Paul",
+    "file": "keres/games.pgn",
+    "gameCount": 3694,
+    "sizeMB": 2.99
+  },
+  {
+    "id": "khalifman",
+    "name": "Khalifman, Alexander",
+    "file": "khalifman/games.pgn",
+    "gameCount": 2683,
+    "sizeMB": 1.64
+  },
+  {
+    "id": "khmelnitsky-igor",
+    "name": "Khmelnitsky Igor",
+    "file": "khmelnitsky-igor/games.pgn",
+    "gameCount": 179,
+    "sizeMB": 0.11
+  },
+  {
+    "id": "kolisch-ignac",
+    "name": "Kolisch, Ignac",
+    "file": "kolisch-ignac/games.pgn",
+    "gameCount": 136,
+    "sizeMB": 0.07
+  },
+  {
+    "id": "koltanowski-george",
+    "name": "Koltanowski  George",
+    "file": "koltanowski-george/games.pgn",
+    "gameCount": 360,
+    "sizeMB": 0.18
+  },
+  {
+    "id": "korchnoi",
+    "name": "Korchnoi, Viktor",
+    "file": "korchnoi/games.pgn",
+    "gameCount": 8153,
+    "sizeMB": 2.26
+  },
+  {
+    "id": "kotov-alexander",
+    "name": "Kotov Alexander",
+    "file": "kotov-alexander/games.pgn",
+    "gameCount": 490,
+    "sizeMB": 0.31
+  },
+  {
+    "id": "kotronias-vasilios",
+    "name": "Kotronias Vasilios",
+    "file": "kotronias-vasilios/games.pgn",
+    "gameCount": 573,
+    "sizeMB": 0.36
+  },
+  {
+    "id": "kovacevic-vladimir",
+    "name": "Kovacevic Vladimir",
+    "file": "kovacevic-vladimir/games.pgn",
+    "gameCount": 561,
+    "sizeMB": 0.37
+  },
+  {
+    "id": "kramnik",
+    "name": "Kramnik, Vladimir",
+    "file": "kramnik/games.pgn",
+    "gameCount": 3334,
+    "sizeMB": 2.35
+  },
+  {
+    "id": "krasenkov-mikhail",
+    "name": "Krasenkov Mikhail",
+    "file": "krasenkov-mikhail/games.pgn",
+    "gameCount": 598,
+    "sizeMB": 0.34
+  },
+  {
+    "id": "kudrin-sergey",
+    "name": "Kudrin Sergey",
+    "file": "kudrin-sergey/games.pgn",
+    "gameCount": 603,
+    "sizeMB": 0.36
+  },
+  {
+    "id": "kupreichik-viktor",
+    "name": "Kupreichik Viktor",
+    "file": "kupreichik-viktor/games.pgn",
+    "gameCount": 1250,
+    "sizeMB": 0.79
+  },
+  {
+    "id": "larsen",
+    "name": "Larsen, Bent",
+    "file": "larsen/games.pgn",
+    "gameCount": 2383,
+    "sizeMB": 1.58
+  },
+  {
+    "id": "lasker",
+    "name": "Lasker, Emanuel",
+    "file": "lasker/games.pgn",
+    "gameCount": 1076,
+    "sizeMB": 1.37
+  },
+  {
+    "id": "lautier-2002-sim",
+    "name": "Lautier 2002  Sim",
+    "file": "lautier-2002-sim/games.pgn",
+    "gameCount": 3,
+    "sizeMB": 0.0
+  },
+  {
+    "id": "lautier-joel",
+    "name": "Lautier Joel",
+    "file": "lautier-joel/games.pgn",
+    "gameCount": 728,
+    "sizeMB": 0.45
+  },
+  {
+    "id": "leitao",
+    "name": "Leitao",
+    "file": "leitao/games.pgn",
+    "gameCount": 850,
+    "sizeMB": 0.51
+  },
+  {
+    "id": "leko-peter",
+    "name": "Leko Peter",
+    "file": "leko-peter/games.pgn",
+    "gameCount": 524,
+    "sizeMB": 0.32
+  },
+  {
+    "id": "levenfish-grigory",
+    "name": "Levenfish Grigory",
+    "file": "levenfish-grigory/games.pgn",
+    "gameCount": 347,
+    "sizeMB": 0.23
+  },
+  {
+    "id": "lilienthal-andor",
+    "name": "Lilienthal Andor",
+    "file": "lilienthal-andor/games.pgn",
+    "gameCount": 382,
+    "sizeMB": 0.23
+  },
+  {
+    "id": "lima",
+    "name": "Lima",
+    "file": "lima/games.pgn",
+    "gameCount": 730,
+    "sizeMB": 0.42
+  },
+  {
+    "id": "lipke-paul",
+    "name": "Lipke Paul",
+    "file": "lipke-paul/games.pgn",
+    "gameCount": 41,
+    "sizeMB": 0.02
+  },
+  {
+    "id": "ljubojevic-ljubomir",
+    "name": "Ljubojevic Ljubomir",
+    "file": "ljubojevic-ljubomir/games.pgn",
+    "gameCount": 2070,
+    "sizeMB": 1.23
+  },
+  {
+    "id": "lombardy-william-j",
+    "name": "Lombardy William J",
+    "file": "lombardy-william-j/games.pgn",
+    "gameCount": 349,
+    "sizeMB": 0.21
+  },
+  {
+    "id": "maghsoodloo",
+    "name": "Maghsoodloo",
+    "file": "maghsoodloo/games.pgn",
+    "gameCount": 402,
+    "sizeMB": 2.03
+  },
+  {
+    "id": "mariotti-sergio",
+    "name": "Mariotti Sergio",
+    "file": "mariotti-sergio/games.pgn",
+    "gameCount": 230,
+    "sizeMB": 0.13
+  },
+  {
+    "id": "marjanovic-slavoljub",
+    "name": "Marjanovic Slavoljub",
+    "file": "marjanovic-slavoljub/games.pgn",
+    "gameCount": 800,
+    "sizeMB": 0.48
+  },
+  {
+    "id": "maroczy-geza",
+    "name": "Maroczy Geza",
+    "file": "maroczy-geza/games.pgn",
+    "gameCount": 548,
+    "sizeMB": 0.31
+  },
+  {
+    "id": "marshall-franklin-james",
+    "name": "Marshall Franklin James",
+    "file": "marshall-franklin-james/games.pgn",
+    "gameCount": 1254,
+    "sizeMB": 0.75
+  },
+  {
+    "id": "mecking",
+    "name": "Mecking",
+    "file": "mecking/games.pgn",
+    "gameCount": 1261,
+    "sizeMB": 0.79
+  },
+  {
+    "id": "mecking-henrique",
+    "name": "Mecking Henrique",
+    "file": "mecking-henrique/games.pgn",
+    "gameCount": 306,
+    "sizeMB": 0.19
+  },
+  {
+    "id": "mieses-jacques",
+    "name": "Mieses Jacques",
+    "file": "mieses-jacques/games.pgn",
+    "gameCount": 342,
+    "sizeMB": 0.2
+  },
+  {
+    "id": "mikenas",
+    "name": "Mikenas",
+    "file": "mikenas/games.pgn",
+    "gameCount": 69,
+    "sizeMB": 0.04
+  },
+  {
+    "id": "mikenas-vladas",
+    "name": "Mikenas Vladas",
+    "file": "mikenas-vladas/games.pgn",
+    "gameCount": 387,
+    "sizeMB": 0.24
+  },
+  {
+    "id": "miles-anthony-j",
+    "name": "Miles Anthony J",
+    "file": "miles-anthony-j/games.pgn",
+    "gameCount": 2336,
+    "sizeMB": 1.4
+  },
+  {
+    "id": "milos",
+    "name": "Milos",
+    "file": "milos/games.pgn",
+    "gameCount": 1305,
+    "sizeMB": 0.78
+  },
+  {
+    "id": "milos-gilberto",
+    "name": "Milos Gilberto",
+    "file": "milos-gilberto/games.pgn",
+    "gameCount": 418,
+    "sizeMB": 0.25
+  },
+  {
+    "id": "mohr-georg-velimirovic-zorica-ana-f",
+    "name": "Mohr Georg Velimirovic Zorica Ana Forgotten Genius The Life and",
+    "file": "mohr-georg-velimirovic-zorica-ana-f/games.pgn",
+    "gameCount": 86,
+    "sizeMB": 0.07
+  },
+  {
+    "id": "monticelli-mario",
+    "name": "Monticelli Mario",
+    "file": "monticelli-mario/games.pgn",
+    "gameCount": 63,
+    "sizeMB": 0.04
+  },
+  {
+    "id": "morozevich",
+    "name": "Morozevich",
+    "file": "morozevich/games.pgn",
+    "gameCount": 2729,
+    "sizeMB": 1.81
+  },
+  {
+    "id": "morphy",
+    "name": "Morphy, Paul",
+    "file": "morphy/games.pgn",
+    "gameCount": 683,
+    "sizeMB": 0.7
+  },
+  {
+    "id": "murey-yacok",
+    "name": "Murey Yacok",
+    "file": "murey-yacok/games.pgn",
+    "gameCount": 467,
+    "sizeMB": 0.3
+  },
+  {
+    "id": "myagmarsuren-lhamsuren",
+    "name": "Myagmarsuren Lhamsuren",
+    "file": "myagmarsuren-lhamsuren/games.pgn",
+    "gameCount": 154,
+    "sizeMB": 0.1
+  },
+  {
+    "id": "myzychuk",
+    "name": "Myzychuk",
+    "file": "myzychuk/games.pgn",
+    "gameCount": 110,
+    "sizeMB": 0.37
+  },
+  {
+    "id": "nakamura",
+    "name": "Nakamura",
+    "file": "nakamura/games.pgn",
+    "gameCount": 8699,
+    "sizeMB": 2.2
+  },
+  {
+    "id": "nepomniachtchi",
+    "name": "Nepomniachtchi",
+    "file": "nepomniachtchi/games.pgn",
+    "gameCount": 4373,
+    "sizeMB": 2.12
+  },
+  {
+    "id": "nezhmetdinov",
+    "name": "Nezhmetdinov, Rashid",
+    "file": "nezhmetdinov/games.pgn",
+    "gameCount": 221,
+    "sizeMB": 0.14
+  },
+  {
+    "id": "nikolic-predrag-23-games",
+    "name": "Nikolic Predrag 23 Games",
+    "file": "nikolic-predrag-23-games/games.pgn",
+    "gameCount": 23,
+    "sizeMB": 0.01
+  },
+  {
+    "id": "nimzowitsch",
+    "name": "Nimzowitsch, Aaron",
+    "file": "nimzowitsch/games.pgn",
+    "gameCount": 479,
+    "sizeMB": 0.3
+  },
+  {
+    "id": "nodirbek-abdusattorov",
+    "name": "Nodirbek Abdusattorov",
+    "file": "nodirbek-abdusattorov/games.pgn",
+    "gameCount": 2898,
+    "sizeMB": 2.17
+  },
+  {
+    "id": "norwood-david",
+    "name": "Norwood David",
+    "file": "norwood-david/games.pgn",
+    "gameCount": 334,
+    "sizeMB": 0.19
+  },
+  {
+    "id": "nunn-john",
+    "name": "Nunn John",
+    "file": "nunn-john/games.pgn",
+    "gameCount": 1582,
+    "sizeMB": 0.87
+  },
+  {
+    "id": "okelly-de-galway-alberic",
+    "name": "O'Kelly de Galway Alberic",
+    "file": "okelly-de-galway-alberic/games.pgn",
+    "gameCount": 323,
+    "sizeMB": 0.18
+  },
+  {
+    "id": "orlov-georgy",
+    "name": "Orlov Georgy",
+    "file": "orlov-georgy/games.pgn",
+    "gameCount": 161,
+    "sizeMB": 0.11
+  },
+  {
+    "id": "pachman-ludek",
+    "name": "Pachman Ludek",
+    "file": "pachman-ludek/games.pgn",
+    "gameCount": 758,
+    "sizeMB": 0.42
+  },
+  {
+    "id": "panov",
+    "name": "Panov",
+    "file": "panov/games.pgn",
+    "gameCount": 80,
+    "sizeMB": 0.05
+  },
+  {
+    "id": "parma-bruno",
+    "name": "Parma Bruno",
+    "file": "parma-bruno/games.pgn",
+    "gameCount": 472,
+    "sizeMB": 0.26
+  },
+  {
+    "id": "penrose-jonathan",
+    "name": "Penrose Jonathan",
+    "file": "penrose-jonathan/games.pgn",
+    "gameCount": 193,
+    "sizeMB": 0.11
+  },
+  {
+    "id": "petrosian",
+    "name": "Petrosian, Tigran",
+    "file": "petrosian/games.pgn",
+    "gameCount": 1750,
+    "sizeMB": 2.1
+  },
+  {
+    "id": "petursson-margeir",
+    "name": "Petursson Margeir",
+    "file": "petursson-margeir/games.pgn",
+    "gameCount": 944,
+    "sizeMB": 0.57
+  },
+  {
+    "id": "pillsbury-h-n",
+    "name": "Pillsbury H. N",
+    "file": "pillsbury-h-n/games.pgn",
+    "gameCount": 395,
+    "sizeMB": 0.26
+  },
+  {
+    "id": "pinter-jozsef",
+    "name": "Pinter Jozsef",
+    "file": "pinter-jozsef/games.pgn",
+    "gameCount": 644,
+    "sizeMB": 0.39
+  },
+  {
+    "id": "platonov-igor",
+    "name": "Platonov Igor",
+    "file": "platonov-igor/games.pgn",
+    "gameCount": 239,
+    "sizeMB": 0.14
+  },
+  {
+    "id": "polgar",
+    "name": "polgar",
+    "file": "polgar/games.pgn",
+    "gameCount": 40,
+    "sizeMB": 0.07
+  },
+  {
+    "id": "polgar-judit",
+    "name": "Polgar Judit",
+    "file": "polgar-judit/games.pgn",
+    "gameCount": 2214,
+    "sizeMB": 1.56
+  },
+  {
+    "id": "polgar-zsofia",
+    "name": "Polgar Zsofia",
+    "file": "polgar-zsofia/games.pgn",
+    "gameCount": 583,
+    "sizeMB": 0.36
+  },
+  {
+    "id": "polgar-zsuzsa",
+    "name": "Polgar Zsuzsa",
+    "file": "polgar-zsuzsa/games.pgn",
+    "gameCount": 1016,
+    "sizeMB": 0.61
+  },
+  {
+    "id": "polugaevsky-lev",
+    "name": "Polugaevsky Lev",
+    "file": "polugaevsky-lev/games.pgn",
+    "gameCount": 2050,
+    "sizeMB": 1.24
+  },
+  {
+    "id": "portisch-lajos",
+    "name": "Portisch Lajos",
+    "file": "portisch-lajos/games.pgn",
+    "gameCount": 2380,
+    "sizeMB": 1.39
+  },
+  {
+    "id": "praggnanandhaa",
+    "name": "Praggnanandhaa, R.",
+    "file": "praggnanandhaa/games.pgn",
+    "gameCount": 2740,
+    "sizeMB": 2.7
+  },
+  {
+    "id": "purdy-46-annotated-games-of-cpurdy",
+    "name": "Purdy - 46 Annotated games of C.Purdy",
+    "file": "purdy-46-annotated-games-of-cpurdy/games.pgn",
+    "gameCount": 46,
+    "sizeMB": 0.15
+  },
+  {
+    "id": "quinteros-miguel-a",
+    "name": "Quinteros Miguel A",
+    "file": "quinteros-miguel-a/games.pgn",
+    "gameCount": 648,
+    "sizeMB": 0.41
+  },
+  {
+    "id": "ragozin",
+    "name": "Ragozin",
+    "file": "ragozin/games.pgn",
+    "gameCount": 89,
+    "sizeMB": 0.05
+  },
+  {
+    "id": "ragozin-viacheslav",
+    "name": "Ragozin Viacheslav",
+    "file": "ragozin-viacheslav/games.pgn",
+    "gameCount": 523,
+    "sizeMB": 0.35
+  },
+  {
+    "id": "rapport",
+    "name": "Rapport",
+    "file": "rapport/games.pgn",
+    "gameCount": 2040,
+    "sizeMB": 1.39
+  },
+  {
+    "id": "reti",
+    "name": "Reti",
+    "file": "reti/games.pgn",
+    "gameCount": 784,
+    "sizeMB": 0.51
+  },
+  {
+    "id": "reti-225-annotated-games",
+    "name": "Reti 225 Annotated Games",
+    "file": "reti-225-annotated-games/games.pgn",
+    "gameCount": 225,
+    "sizeMB": 1.32
+  },
+  {
+    "id": "ribeiro",
+    "name": "ribeiro",
+    "file": "ribeiro/games.pgn",
+    "gameCount": 254,
+    "sizeMB": 0.19
+  },
+  {
+    "id": "robatsch-karl",
+    "name": "Robatsch Karl",
+    "file": "robatsch-karl/games.pgn",
+    "gameCount": 404,
+    "sizeMB": 0.22
+  },
+  {
+    "id": "rodriguez-andres",
+    "name": "Rodriguez Andres",
+    "file": "rodriguez-andres/games.pgn",
+    "gameCount": 137,
+    "sizeMB": 0.08
+  },
+  {
+    "id": "rogers-ian",
+    "name": "Rogers Ian",
+    "file": "rogers-ian/games.pgn",
+    "gameCount": 769,
+    "sizeMB": 0.46
+  },
+  {
+    "id": "rohde-michael-a",
+    "name": "Rohde Michael A",
+    "file": "rohde-michael-a/games.pgn",
+    "gameCount": 230,
+    "sizeMB": 0.14
+  },
+  {
+    "id": "romanovsky",
+    "name": "Romanovsky",
+    "file": "romanovsky/games.pgn",
+    "gameCount": 51,
+    "sizeMB": 0.03
+  },
+  {
+    "id": "rosito-jorge",
+    "name": "Rosito Jorge",
+    "file": "rosito-jorge/games.pgn",
+    "gameCount": 312,
+    "sizeMB": 0.18
+  },
+  {
+    "id": "rossolimo-nicolas",
+    "name": "Rossolimo Nicolas",
+    "file": "rossolimo-nicolas/games.pgn",
+    "gameCount": 126,
+    "sizeMB": 0.07
+  },
+  {
+    "id": "rubinstein",
+    "name": "Rubinstein, Akiba",
+    "file": "rubinstein/games.pgn",
+    "gameCount": 1338,
+    "sizeMB": 0.83
+  },
+  {
+    "id": "rublevski",
+    "name": "Rublevski",
+    "file": "rublevski/games.pgn",
+    "gameCount": 50,
+    "sizeMB": 0.03
+  },
+  {
+    "id": "rublevsky-sergey",
+    "name": "Rublevsky Sergey",
+    "file": "rublevsky-sergey/games.pgn",
+    "gameCount": 362,
+    "sizeMB": 0.2
+  },
+  {
+    "id": "saemisch-friedrich",
+    "name": "Saemisch Friedrich",
+    "file": "saemisch-friedrich/games.pgn",
+    "gameCount": 222,
+    "sizeMB": 0.13
+  },
+  {
+    "id": "salov-valery",
+    "name": "Salov Valery",
+    "file": "salov-valery/games.pgn",
+    "gameCount": 826,
+    "sizeMB": 0.54
+  },
+  {
+    "id": "santasiere-anthony",
+    "name": "Santasiere Anthony",
+    "file": "santasiere-anthony/games.pgn",
+    "gameCount": 150,
+    "sizeMB": 0.09
+  },
+  {
+    "id": "schiller",
+    "name": "schiller",
+    "file": "schiller/games.pgn",
+    "gameCount": 8,
+    "sizeMB": 0.03
+  },
+  {
+    "id": "schlechter",
+    "name": "Schlechter, Carl",
+    "file": "schlechter/games.pgn",
+    "gameCount": 699,
+    "sizeMB": 0.42
+  },
+  {
+    "id": "segal",
+    "name": "Segal",
+    "file": "segal/games.pgn",
+    "gameCount": 808,
+    "sizeMB": 0.46
+  },
+  {
+    "id": "shabalov-alexander",
+    "name": "Shabalov Alexander",
+    "file": "shabalov-alexander/games.pgn",
+    "gameCount": 772,
+    "sizeMB": 0.44
+  },
+  {
+    "id": "shirov-neuilly2001",
+    "name": "shirov Neuilly2001",
+    "file": "shirov-neuilly2001/games.pgn",
+    "gameCount": 4,
+    "sizeMB": 0.0
+  },
+  {
+    "id": "sindarov-javokhir-1480-tournament-g",
+    "name": "Sindarov Javokhir 1480 tournament games",
+    "file": "sindarov-javokhir-1480-tournament-g/games.pgn",
+    "gameCount": 1480,
+    "sizeMB": 1.03
+  },
+  {
+    "id": "smyslov",
+    "name": "Smyslov, Vasily",
+    "file": "smyslov/games.pgn",
+    "gameCount": 2990,
+    "sizeMB": 2.07
+  },
+  {
+    "id": "souza-mendes",
+    "name": "Souza Mendes",
+    "file": "souza-mendes/games.pgn",
+    "gameCount": 563,
+    "sizeMB": 0.35
+  },
+  {
+    "id": "spassky",
+    "name": "Spassky, Boris",
+    "file": "spassky/games.pgn",
+    "gameCount": 4667,
+    "sizeMB": 2.89
+  },
+  {
+    "id": "spielmann",
+    "name": "Spielmann",
+    "file": "spielmann/games.pgn",
+    "gameCount": 37,
+    "sizeMB": 0.02
+  },
+  {
+    "id": "spielmannl-350-annotated-games",
+    "name": "Spielmannl 350 Annotated Games",
+    "file": "spielmannl-350-annotated-games/games.pgn",
+    "gameCount": 356,
+    "sizeMB": 0.94
+  },
+  {
+    "id": "steinitz",
+    "name": "Steinitz, Wilhelm",
+    "file": "steinitz/games.pgn",
+    "gameCount": 689,
+    "sizeMB": 0.62
+  },
+  {
+    "id": "suetin",
+    "name": "Suetin",
+    "file": "suetin/games.pgn",
+    "gameCount": 94,
+    "sizeMB": 0.06
+  },
+  {
+    "id": "sunye",
+    "name": "Sunye",
+    "file": "sunye/games.pgn",
+    "gameCount": 1125,
+    "sizeMB": 0.71
+  },
+  {
+    "id": "svidler-2900-annotated-games",
+    "name": "Svidler 2900 Annotated Games",
+    "file": "svidler-2900-annotated-games/games.pgn",
+    "gameCount": 2923,
+    "sizeMB": 4.79
+  },
+  {
+    "id": "tal",
+    "name": "Tal, Mikhail",
+    "file": "tal/games.pgn",
+    "gameCount": 4606,
+    "sizeMB": 3.44
+  },
+  {
+    "id": "tkatchiev2004",
+    "name": "Tkatchiev2004",
+    "file": "tkatchiev2004/games.pgn",
+    "gameCount": 12,
+    "sizeMB": 0.01
+  },
+  {
+    "id": "tolush",
+    "name": "Tolush",
+    "file": "tolush/games.pgn",
+    "gameCount": 59,
+    "sizeMB": 0.03
+  },
+  {
+    "id": "topalov",
+    "name": "Topalov, Veselin",
+    "file": "topalov/games.pgn",
+    "gameCount": 1351,
+    "sizeMB": 3.84
+  },
+  {
+    "id": "torre-carlos",
+    "name": "Torre Carlos",
+    "file": "torre-carlos/games.pgn",
+    "gameCount": 103,
+    "sizeMB": 0.06
+  },
+  {
+    "id": "torre-eugenio",
+    "name": "Torre Eugenio",
+    "file": "torre-eugenio/games.pgn",
+    "gameCount": 933,
+    "sizeMB": 0.56
+  },
+  {
+    "id": "trompowsky",
+    "name": "Trompowsky",
+    "file": "trompowsky/games.pgn",
+    "gameCount": 214,
+    "sizeMB": 0.12
+  },
+  {
+    "id": "van-den-bergen-2005",
+    "name": "Van Den Bergen 2005",
+    "file": "van-den-bergen-2005/games.pgn",
+    "gameCount": 6,
+    "sizeMB": 0.0
+  },
+  {
+    "id": "varuzhan-akobian",
+    "name": "Varuzhan Akobian",
+    "file": "varuzhan-akobian/games.pgn",
+    "gameCount": 1442,
+    "sizeMB": 0.93
+  },
+  {
+    "id": "velimirovic-forgotten-genius",
+    "name": "Velimirovic Forgotten Genius",
+    "file": "velimirovic-forgotten-genius/games.pgn",
+    "gameCount": 86,
+    "sizeMB": 0.07
+  },
+  {
+    "id": "vescovi",
+    "name": "Vescovi",
+    "file": "vescovi/games.pgn",
+    "gameCount": 1625,
+    "sizeMB": 0.95
+  },
+  {
+    "id": "vidit-s-450-annotated-games",
+    "name": "Vidit, S - 450 annotated Games",
+    "file": "vidit-s-450-annotated-games/games.pgn",
+    "gameCount": 461,
+    "sizeMB": 1.88
+  },
+  {
+    "id": "vyzhmanavin-alexei",
+    "name": "Vyzhmanavin Alexei",
+    "file": "vyzhmanavin-alexei/games.pgn",
+    "gameCount": 695,
+    "sizeMB": 0.4
+  },
+  {
+    "id": "waitzkin-joshua",
+    "name": "Waitzkin Joshua",
+    "file": "waitzkin-joshua/games.pgn",
+    "gameCount": 164,
+    "sizeMB": 0.11
+  },
+  {
+    "id": "wei",
+    "name": "Wei",
+    "file": "wei/games.pgn",
+    "gameCount": 404,
+    "sizeMB": 2.25
+  },
+  {
+    "id": "wei-yi",
+    "name": "Wei Yi",
+    "file": "wei-yi/games.pgn",
+    "gameCount": 1806,
+    "sizeMB": 1.22
+  },
+  {
+    "id": "wesley-so",
+    "name": "Wesley So",
+    "file": "wesley-so/games.pgn",
+    "gameCount": 4417,
+    "sizeMB": 2.08
+  },
+  {
+    "id": "wojtkiewicz-aleksander",
+    "name": "Wojtkiewicz Aleksander",
+    "file": "wojtkiewicz-aleksander/games.pgn",
+    "gameCount": 921,
+    "sizeMB": 0.51
+  },
+  {
+    "id": "yanofsky-daniel-abe",
+    "name": "Yanofsky Daniel Abe",
+    "file": "yanofsky-daniel-abe/games.pgn",
+    "gameCount": 207,
+    "sizeMB": 0.14
+  },
+  {
+    "id": "yermolinsky",
+    "name": "Yermolinsky",
+    "file": "yermolinsky/games.pgn",
+    "gameCount": 83,
+    "sizeMB": 0.1
+  },
+  {
+    "id": "yermolinsky-alex",
+    "name": "Yermolinsky Alex",
+    "file": "yermolinsky-alex/games.pgn",
+    "gameCount": 805,
+    "sizeMB": 0.48
+  },
+  {
+    "id": "yip",
+    "name": "Yip",
+    "file": "yip/games.pgn",
+    "gameCount": 95,
+    "sizeMB": 0.39
+  },
+  {
+    "id": "yurtaev-leonid",
+    "name": "Yurtaev Leonid",
+    "file": "yurtaev-leonid/games.pgn",
+    "gameCount": 566,
+    "sizeMB": 0.35
+  },
+  {
+    "id": "zaitsev",
+    "name": "Zaitsev",
+    "file": "zaitsev/games.pgn",
+    "gameCount": 104,
+    "sizeMB": 0.06
+  },
+  {
+    "id": "zaitsev-alexander",
+    "name": "Zaitsev, Alexander",
+    "file": "zaitsev-alexander/games.pgn",
+    "gameCount": 121,
+    "sizeMB": 0.07
+  },
+  {
+    "id": "zaltsman-vitaly",
+    "name": "Zaltsman Vitaly",
+    "file": "zaltsman-vitaly/games.pgn",
+    "gameCount": 168,
+    "sizeMB": 0.1
+  },
+  {
+    "id": "znoskoborovsky-eugene",
+    "name": "Znosko-Borovsky Eugene",
+    "file": "znoskoborovsky-eugene/games.pgn",
+    "gameCount": 214,
+    "sizeMB": 0.13
+  },
+  {
+    "id": "zukertort-johannes",
+    "name": "Zukertort Johannes",
+    "file": "zukertort-johannes/games.pgn",
+    "gameCount": 194,
+    "sizeMB": 0.11
+  }
+]

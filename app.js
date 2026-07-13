@@ -225,7 +225,7 @@ const ANALYSIS_DISABLED_IDS = ['start-opening-training', 'start-opening-quiz', '
     'show-known-variants',
     'player-color-btn-white', 'player-color-btn-black', 'player-color-btn-random',
     'opponent-btn-ai', 'opponent-btn-pvp', 'opponent-btn-online', 'opponent-btn-mail',
-    'ai-difficulty', 'opening-select', 'famous-game-select', 'time-control',
+    'ai-difficulty', 'opening-select', 'famous-game-select', 'library-game-select', 'time-control',
     'piece-style', 'puzzle-theme-select'];
 
 // Estadísticas del jugador
@@ -4305,14 +4305,14 @@ function applyMasterFromQueryString() {
         return false;
     }
     const playerSel = document.getElementById('famous-player-select');
-    const gameSel = document.getElementById('famous-game-select');
     if (playerSel) {
         playerSel.value = '';
-        onFamousPlayerSelect();
+        _showLibrarySection(false);
     }
+    const gameSel = document.getElementById('famous-game-select');
     if (gameSel) {
         gameSel.value = key;
-        onFamousGameSelect();
+        localStorage.setItem('selectedFamousGame', key);
     }
     hideVariantsPopup(false);
     const _qwElo  = extractPGNHeader(famous.pgn, 'WhiteElo');
@@ -6168,7 +6168,7 @@ function setAnalysisModeActive(active) {
     if (!active) {
         updateUndoButton();
         checkForGameInProgress();
-        onFamousGameSelect();
+        onLibraryGameSelect();
     }
 }
 
@@ -7596,6 +7596,13 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '3.4.76': [
+        'Total biblioteca: ~268.000 partidas con ~250 jugadores',
+        'Partidas Maestras: «⭐ Partidas Seleccionadas» y «📚 Biblioteca de jugadores» son ahora completamente independientes',
+        'Partidas Seleccionadas: al elegir una partida se carga automáticamente sin necesidad de pulsar «Cargar»',
+        '... y más mejoras en AjedrezIA ...',
+
+    ],
     '3.4.59': [
         'Problemas de ajedrez: con categoría «— Todas —» se cargan problemas mezclados de todas las categorías',
         'Problemas de ajedrez: botones 💡 Pista y 👁 Ver solución junto al ELO, girar tablero y compartir',
@@ -11341,6 +11348,11 @@ function confirmContinueFromHistoryIfNeeded(proceedFn) {
 
 // Inicializar la aplicación
 document.addEventListener('DOMContentLoaded', () => {
+    // Detectar Safari (no Chrome/Edge que también usan WebKit) y marcar el body
+    // Safari no puede combinar filter: drop-shadow con transform-style: preserve-3d
+    const _isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+    if (_isSafari) document.body.classList.add('safari-browser');
+
     // Inicializar motor Stockfish
     initStockfish();
 
@@ -11696,9 +11708,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (savedFamousGame) {
         document.getElementById('famous-game-select').value = savedFamousGame;
     }
+    // famous-game-select: auto-carga al seleccionar (sin botón)
     document.getElementById('famous-game-select').addEventListener('change', onFamousGameSelect);
+    // library-game-select: habilita botón "Cargar"
+    document.getElementById('library-game-select').addEventListener('change', onLibraryGameSelect);
     document.getElementById('load-famous-game').addEventListener('click', loadFamousGame);
-    onFamousGameSelect();
 
     // Problemas de ajedrez
     loadPuzzleStats();
@@ -12741,7 +12755,8 @@ function getFamousGamePlayers() {
     return players;
 }
 
-let famousGameSelectOriginalHTML = '';
+// Caché de partidas de la biblioteca: { id: [ { white, black, result, event, date, pgn } ] }
+const libraryGamesCache = {};
 
 function nameToLastFirst(name) {
     const parts = name.trim().split(/\s+/);
@@ -12753,70 +12768,144 @@ function nameToLastFirst(name) {
 
 function populateFamousPlayerSelect() {
     const select = document.getElementById('famous-player-select');
-    const players = getFamousGamePlayers();
-    const entries = [...players.keys()].map(name => ({ name, display: nameToLastFirst(name), count: players.get(name).length }));
-    entries.sort((a, b) => a.display.localeCompare(b.display, 'es'));
-    for (const entry of entries) {
-        const opt = document.createElement('option');
-        opt.value = entry.name;
-        opt.textContent = `${entry.display} (${entry.count})`;
-        select.appendChild(opt);
-    }
-    famousGameSelectOriginalHTML = document.getElementById('famous-game-select').innerHTML;
+
+    // Aplicar estilo grande a los optgroups del select de partidas seleccionadas
+    document.getElementById('famous-game-select').querySelectorAll('optgroup').forEach(og => {
+        og.style.cssText = 'font-size:1rem;font-weight:700;font-style:normal;color:#1a1a2e';
+    });
+
+    // Solo biblioteca de jugadores (cargada async desde index.json)
+    fetch('games/jugadors/index.json')
+        .then(r => r.ok ? r.json() : null)
+        .then(data => {
+            if (!Array.isArray(data) || data.length === 0) return;
+            const sorted = [...data].sort((a, b) => a.name.localeCompare(b.name, 'es'));
+            const fragment = document.createDocumentFragment();
+            for (const player of sorted) {
+                const opt = document.createElement('option');
+                opt.value = 'lib:' + player.id;
+                opt.textContent = `${player.name} (${player.gameCount.toLocaleString()})`;
+                fragment.appendChild(opt);
+            }
+            select.appendChild(fragment);
+        })
+        .catch(() => { /* sin conexión o archivo no existe */ });
+}
+
+function _showLibrarySection(show) {
+    const section = document.getElementById('library-game-section');
+    const btn = document.getElementById('load-famous-game');
+    if (section) section.style.display = show ? '' : 'none';
+    if (btn) btn.style.display = show ? '' : 'none';
 }
 
 function onFamousPlayerSelect() {
     const playerSelect = document.getElementById('famous-player-select');
-    const gameSelect = document.getElementById('famous-game-select');
     const selectedPlayer = playerSelect.value;
 
     if (!selectedPlayer) {
-        gameSelect.innerHTML = famousGameSelectOriginalHTML;
-        gameSelect.value = '';
-        onFamousGameSelect();
+        _showLibrarySection(false);
+        const libSel = document.getElementById('library-game-select');
+        if (libSel) libSel.innerHTML = '<option value="">— Elegir partida —</option>';
         return;
     }
 
-    const playerGames = new Set();
-    for (const [key, game] of Object.entries(FAMOUS_GAMES)) {
-        const white = extractPGNHeader(game.pgn, 'White');
-        const black = extractPGNHeader(game.pgn, 'Black');
-        if (white === selectedPlayer || black === selectedPlayer) {
-            playerGames.add(key);
-        }
+    _showLibrarySection(true);
+
+    // Todos los jugadores son de la biblioteca
+    const playerId = selectedPlayer.startsWith('lib:') ? selectedPlayer.slice(4) : selectedPlayer;
+    const playerName = playerSelect.options[playerSelect.selectedIndex].textContent.replace(/\s*\([\d.,]+\)$/, '');
+    loadLibraryPlayerGames(playerId, playerName);
+}
+
+function loadLibraryPlayerGames(playerId, playerName) {
+    const libSel = document.getElementById('library-game-select');
+    const btn = document.getElementById('load-famous-game');
+
+    // Si ya está en caché, poblar directamente
+    if (libraryGamesCache[playerId]) {
+        populateLibraryGameSelect(playerId, playerName);
+        return;
     }
 
-    gameSelect.innerHTML = '';
+    // Mostrar cargando
+    libSel.innerHTML = '';
+    const loadingOpt = document.createElement('option');
+    loadingOpt.value = '';
+    loadingOpt.textContent = `⏳ Cargando partidas de ${playerName}…`;
+    libSel.appendChild(loadingOpt);
+    libSel.disabled = true;
+    if (btn) btn.disabled = true;
+
+    fetch('games/jugadors/' + playerId + '/games.pgn')
+        .then(r => {
+            if (!r.ok) throw new Error('No se pudo cargar el archivo PGN');
+            return r.text();
+        })
+        .then(pgnText => {
+            const blocks = pgnText.split(/(?=\[Event\s+")/);
+            const games = blocks.map(b => b.trim()).filter(b => b.startsWith('[Event'));
+
+            libraryGamesCache[playerId] = games.map((pgn, idx) => ({
+                idx, pgn,
+                white:  extractPGNHeader(pgn, 'White'),
+                black:  extractPGNHeader(pgn, 'Black'),
+                result: extractPGNHeader(pgn, 'Result'),
+                event:  extractPGNHeader(pgn, 'Event'),
+                date:   extractPGNHeader(pgn, 'Date')
+            }));
+
+            libSel.disabled = false;
+            populateLibraryGameSelect(playerId, playerName);
+        })
+        .catch(err => {
+            libSel.disabled = false;
+            libSel.innerHTML = '<option value="">❌ Error al cargar partidas</option>';
+            onLibraryGameSelect();
+            console.warn('loadLibraryPlayerGames error:', err);
+        });
+}
+
+function populateLibraryGameSelect(playerId, playerName) {
+    const libSel = document.getElementById('library-game-select');
+    const games = libraryGamesCache[playerId] || [];
+
+    libSel.innerHTML = '';
     const defaultOpt = document.createElement('option');
     defaultOpt.value = '';
-    defaultOpt.textContent = `— Partidas de ${selectedPlayer} (${playerGames.size}) —`;
-    gameSelect.appendChild(defaultOpt);
+    defaultOpt.textContent = `— ${playerName} (${games.length.toLocaleString()} partidas) —`;
+    libSel.appendChild(defaultOpt);
 
-    for (const key of playerGames) {
-        const game = FAMOUS_GAMES[key];
-        const white = extractPGNHeader(game.pgn, 'White');
-        const black = extractPGNHeader(game.pgn, 'Black');
-        const result = extractPGNHeader(game.pgn, 'Result');
-        const isWhite = white === selectedPlayer;
-        const opponent = isWhite ? black : white;
+    const fragment = document.createDocumentFragment();
+    for (const g of games) {
+        const isWhite = g.white && g.white.toLowerCase().includes(playerId.toLowerCase());
+        const opponent = isWhite ? g.black : g.white;
         const colorIcon = isWhite ? '♔' : '♚';
-        const resultIcon = result === '1-0' ? (isWhite ? '✓' : '✗') :
-                           result === '0-1' ? (isWhite ? '✗' : '✓') : '½';
+        const resultIcon = g.result === '1-0' ? (isWhite ? '✓' : '✗') :
+                           g.result === '0-1' ? (isWhite ? '✗' : '✓') : '½';
+        const year = g.date ? g.date.slice(0, 4) : '';
         const opt = document.createElement('option');
-        opt.value = key;
-        opt.textContent = `${colorIcon} vs ${opponent} ${resultIcon} — ${game.name}`;
-        gameSelect.appendChild(opt);
+        opt.value = 'lib:' + playerId + ':' + g.idx;
+        opt.textContent = `${colorIcon} vs ${opponent || '?'} ${resultIcon}${year ? ' ' + year : ''}${g.event ? ' — ' + g.event : ''}`;
+        fragment.appendChild(opt);
     }
+    libSel.appendChild(fragment);
+    libSel.value = '';
+    onLibraryGameSelect();
+}
 
-    gameSelect.value = '';
-    onFamousGameSelect();
+function onLibraryGameSelect() {
+    const libSel = document.getElementById('library-game-select');
+    const btn = document.getElementById('load-famous-game');
+    if (btn) btn.disabled = !libSel || !libSel.value;
 }
 
 function onFamousGameSelect() {
-    const select = document.getElementById('famous-game-select');
-    const btn = document.getElementById('load-famous-game');
-    btn.disabled = !select.value;
-    localStorage.setItem('selectedFamousGame', select.value);
+    // Carga automática al seleccionar en "Partidas Seleccionadas"
+    const key = document.getElementById('famous-game-select').value;
+    if (!key) return;
+    localStorage.setItem('selectedFamousGame', key);
+    loadFamousGame();
 }
 
 function movePanelBelowEvalBar(panelId) {
@@ -12855,10 +12944,65 @@ function restoreFamousPanelPosition() {
 }
 
 function loadFamousGame() {
-    const select = document.getElementById('famous-game-select');
-    const key = select.value;
+    // Leer del library-game-select (biblioteca) o del famous-game-select (seleccionadas)
+    const libSel = document.getElementById('library-game-select');
+    const famSel = document.getElementById('famous-game-select');
+    // Si se llamó desde el botón "Cargar", usar library-game-select
+    // Si se llamó desde auto-load de famous-game-select, ese select ya tiene el valor
+    const select = (libSel && libSel.value) ? libSel : famSel;
+    const key = select ? select.value : '';
     if (!key) return;
 
+    // Partida de la biblioteca
+    if (key.startsWith('lib:')) {
+        const parts = key.split(':');
+        const playerId = parts[1];
+        const gameIdx = parseInt(parts[2], 10);
+        const games = libraryGamesCache[playerId];
+        if (!games || isNaN(gameIdx)) return;
+        const g = games[gameIdx];
+        if (!g || !g.pgn) return;
+
+        if (puzzleMode) endPuzzleMode();
+        if (learnMode) endLearnMode();
+        dismissPostGameAnalysisUI();
+        hideVariantsPopup(false);
+
+        const gameTitle = `${g.white || '?'} vs ${g.black || '?'}${g.event ? ' — ' + g.event : ''}${g.date ? ' (' + g.date.slice(0,4) + ')' : ''}`;
+        const _fwElo  = extractPGNHeader(g.pgn, 'WhiteElo');
+        const _fbElo  = extractPGNHeader(g.pgn, 'BlackElo');
+        parsePGNAndLoad(g.pgn, gameTitle);
+        if (_fwElo || _fbElo) {
+            setTimeout(() => {
+                const msgEl = document.querySelector('.message-box');
+                if (!msgEl) return;
+                const strong = msgEl.querySelector('strong');
+                if (!strong || msgEl.querySelector('.elo-line')) return;
+                const eloDiv = document.createElement('div');
+                eloDiv.className = 'elo-line';
+                eloDiv.style.cssText = 'font-size:0.83em;opacity:0.72;margin-top:5px;line-height:1.6;';
+                const wName = g.white ? g.white.split(',')[0].trim() : '♔';
+                const bName = g.black ? g.black.split(',')[0].trim() : '♚';
+                const wPart = _fwElo ? `♔ ${wName} <b>${_fwElo}</b>` : '';
+                const bPart = _fbElo ? `♚ ${bName} <b>${_fbElo}</b>` : '';
+                eloDiv.innerHTML = [wPart, bPart].filter(Boolean).join('&nbsp;&nbsp;·&nbsp;&nbsp;');
+                strong.insertAdjacentElement('afterend', eloDiv);
+            }, 30);
+        }
+        shareContext = 'maestra';
+        updateShareButton();
+        if (window.matchMedia('(max-width: 1024px) and (orientation: portrait)').matches) {
+            const famousPanel = document.getElementById('famous-panel');
+            if (famousPanel && famousPanel.classList.contains('collapsed')) famousPanel.classList.remove('collapsed');
+            document.body.classList.add('famous-panel-open');
+            movePanelBelowEvalBar('famous-panel');
+        }
+        const boardContainer = document.querySelector('.board-container');
+        if (boardContainer) setTimeout(() => boardContainer.scrollIntoView({ behavior: 'smooth', block: 'start' }), 80);
+        return;
+    }
+
+    // Partida de FAMOUS_GAMES (comportamiento original)
     const famous = FAMOUS_GAMES[key];
     if (!famous || !famous.pgn) return;
 

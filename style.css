@@ -710,6 +710,56 @@ body.puzzle-mode-active .mini-clock-elo-row {
     transition: border-color 0.3s;
 }
 
+#famous-player-select optgroup,
+#famous-game-select optgroup {
+    font-size: 1rem;
+    font-weight: 700;
+    font-style: normal;
+    color: #1a1a2e;
+}
+#famous-player-select option,
+#famous-game-select option {
+    font-size: 0.72rem;
+    font-weight: normal;
+    color: #333;
+}
+
+.famous-section-label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #1a1a2e;
+    margin-bottom: 5px;
+    letter-spacing: 0.01em;
+}
+
+.famous-panel-divider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    margin: 12px 0 8px;
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: #4a5568;
+    letter-spacing: 0.03em;
+}
+.fpd-title { display: block; }
+.fpd-sub {
+    display: block;
+    font-weight: 400;
+    font-size: 0.85em;
+    opacity: 0.75;
+    letter-spacing: 0.01em;
+}
+.famous-panel-divider::before,
+.famous-panel-divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: #cbd5e0;
+}
+
 .config-row-nickname {
     display: flex;
     align-items: center;
@@ -5635,6 +5685,33 @@ body.puzzle-mode-active .btn-icon.mini-puzzle-board-btn {
     .board-3d-mode #chess-board {
         transform: translateY(-35px) rotateX(32deg) scale(0.97);
     }
+}
+
+/* ── Safari: fix preserve-3d + filter conflict ─────────────────────────────
+   Safari rompe el contexto preserve-3d cuando un hijo tiene filter.
+   Solución: deshabilitar preserve-3d en Safari y quitar translateZ de piezas.
+   El efecto de inclinación (rotateX) se mantiene; las piezas pierden la
+   elevación Z pero se renderizan correctamente.
+   ─────────────────────────────────────────────────────────────────────── */
+.safari-browser .board-3d-mode #chess-board {
+    -webkit-transform-style: flat;
+    transform-style: flat;
+}
+.safari-browser .board-3d-mode .piece-svg {
+    -webkit-transform: scale(0.96);
+    transform: scale(0.96);
+    -webkit-filter: drop-shadow(0 5px 4px rgba(0,0,0,0.5)) drop-shadow(0 2px 2px rgba(0,0,0,0.35));
+    filter:         drop-shadow(0 5px 4px rgba(0,0,0,0.5)) drop-shadow(0 2px 2px rgba(0,0,0,0.35));
+}
+.safari-browser .board-3d-mode .square.selected .piece-svg {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-filter: drop-shadow(0 10px 8px rgba(0,0,0,0.6)) drop-shadow(0 3px 3px rgba(0,0,0,0.45));
+    filter:         drop-shadow(0 10px 8px rgba(0,0,0,0.6)) drop-shadow(0 3px 3px rgba(0,0,0,0.45));
+}
+.safari-browser .board-3d-mode .square.valid-move::after {
+    -webkit-transform: none;
+    transform: none;
 }
 
 /* ══════════════════════════════════════════════════════════════════════════

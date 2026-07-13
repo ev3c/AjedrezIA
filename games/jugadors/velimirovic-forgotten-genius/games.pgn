@@ -1,0 +1,1283 @@
+﻿[Event "Chapter Birth"]
+[Site "Game 1"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter Birth"]
+[Black "Game 1"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r2q1k2/pp1nbpp1/2p1pnp1/6Nr/2PP4/5N2/PP2QPPP/R1B1R1K1 w - - 0 14"]
+
+14.g4 $1 Ng4 15.Nf7 $1 15...Qc7 ( 15...Kf7 16.Qe6 Kf8 17.Qg4 $18 ) 16.Qe6 Ndf6 ( 16...Bb4 17.N7g5 Ndf6 18.Bf4 Qe7 19.a3 $1 ) 17.N7e5 Ne5 18.Ne5 Re5 19.de5 Bb4 20.ef6 $1 Be1 21.Bf4 $1 Bf2 22.Kh1 Qf7 23.fg7 Kg8 24.Qf7 Kf7 25.Rf1 Bb6 26.Bh6
+ * 
+
+
+
+[Event "Chapter 1958 - 1960"]
+[Site "Game 1"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1958 - 1960"]
+[Black "Game 1"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r3r1k1/2q2pbp/p3b1p1/npp1p3/4P1P1/2P1NQ2/PPB2PP1/R1B1R1K1 w - - 0 20"]
+
+20.Nd5 Bd5 21.ed5
+ * 
+
+
+
+[Event "Chapter 1958 - 1960"]
+[Site "Game 2"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1958 - 1960"]
+[Black "Game 2"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r3r1k1/2q2pbp/p3b1p1/npp1p3/4P1P1/2P1NQ2/PPB2PP1/R1B1R1K1 w - - 0 20"]
+
+20.g5
+ * 
+
+
+
+[Event "Chapter 1958 - 1960"]
+[Site "Game 3"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1958 - 1960"]
+[Black "Game 3"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r3r1k1/2q2pbp/p3b1p1/npp1p3/4P1P1/2P1NQ2/PPB2PP1/R1B1R1K1 w - - 0 20"]
+
+20.Nf5 $5 20...f6 $2 ( 20...gf5 21.ef5 ( 21.gf5 21...Bc8 22.f6 22...Bf8 ( 22...Re6 $5 23.fg7 Rg6 24.b3 ) ) 21...e4 $1 22.Be4 ( 22.Bf4 ef3 23.Bc7 Bd5 24.Ba5 fg2 ) 22...Bd5 $1 ) 21.Ng7 Kg7 22.g5 $1 22...Rf8 23.gf6 Rf6 24.Bh6 Kf7 25.Qg3 Kg8 26.a4 $1 ba4 ( 26...Re8 27.ab5 ab5 28.Qd3 ( 28.Ra5 Qa5 29.Qe5 Rf7 30.Qc5 ( 30.Bb3 30...Qb6 31.Bd5 c4 $1 ( 31...Qc7 32.Qe6 $1 Re6 33.Be6 Qe5 34.Rd1 $1 ) ) 30...Qa7 31.Qd4 ( 31.Be3 ) ) ) ( 26...b4 27.cb4 cb4 28.Rac1 Bc4 29.Bd1 Rc6 30.Bg4 $1 $16 ) 27.Ra4 Bb3 28.Bb3 Nb3 29.Qd3 29...Qf7 30.Rd1
+ * 
+
+
+
+[Event "Chapter 1958 - 1960"]
+[Site "Game 4"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1958 - 1960"]
+[Black "Game 4"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r2q1rk1/1b2bppp/p2p1n2/1p2p3/1PnPP3/5N1P/P1BN1PP1/R1BQR1K1 b - - 0 14"]
+
+14...d5 $5 15.ed5 ed4 16.Nc4 bc4 17.Qd4 Bb4 ( 17...Bd5 ) 18.Rb1 $1 Be1 19.Rb7 19...Re8 ( 19...Ba5 20.Bg5 ) 20.d6 $1 ( 20.Bg5 $2 Qd5 $1 21.Bf6 Qb7 22.Qg4 Bf2 23.Kh1 g6 24.Qg5 24...Qc6 $1 ) 20...Qc8 21.Bg5 $2 ( 21.Rc7 Qe6 22.Rc4 ) 21...Qb7 ( 21...Re2 22.Rc7 Qe6 23.Ne1 23...Re1 24.Kh2 Rad8 25.Bf6 Qf6 26.Qf6 gf6 27.d7 Kf8 28.Bh7 Re2 ) 22.Bf6 22...gf6 $2 ( 22...Qc6 23.Qh4 Bf2 24.Kf2 Qb6 25.Bd4 ) ( 22...Re6 23.Bh7 Kh7 ( 23...Kf8 24.Bg7 Ke8 25.Bf5 Bb4 26.Be6 fe6 27.Qf6 Bd6 28.Qe6 Qe7 ( 28...Be7 29.Ne5 ) 29.Qg8 Kd7 30.Qa8 Qg7 31.Qb7 Bc7 32.Qd5 Bd6 33.Nd4 ) 24.Qh4 Kg6 ( 24...Kg8 25.Ng5 ) 25.Qg5 Kh7 26.Qg7# ) ( 22...Re6 23.Bh7 Kh7 24.Qh4 Kg8 25.Ng5 25...Bf2 $1 ) ( 22...Re2 23.Bh7 Kh8 $1 24.Kf1 Bf2 25.Qg4 gf6 26.Bf5 Rg8 $1 27.Qf4 Rg7 28.Ke2 Qb2 ) 23.Qg4 Kh8 ( 23...Kf8 24.Bh7 ) 24.Qf5 Bf2 25.Kh1 $18
+ * 
+
+
+
+[Event "Chapter 1958 - 1960"]
+[Site "Game 5"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1958 - 1960"]
+[Black "Game 5"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 ed5 5.cd5 d6 6.e4 g6 7.Bd3 Bg7 8.Nge2 ( 8.h3 ) ( 8.Nf3 Bg4 ) 8...0-0 9.Bg5 9...Nbd7 10.f4 $6 a6 ( 10...Qc7 $1 11.0-0 c4 12.Bc2 Ng4 ) 11.a4 h6 12.Bh4 12...g5 $1 ( 12...Qb6 $5 ) ( 12...Qa5 13.0-0 c4 14.Bc2 Ng4 15.Qd2 Re8 16.h3 Qc5 ( 16...Qb6 ) ) 13.fg5 Ng4 14.Qd2 Nde5 $1 15.h3 ( 15.Bc2 $2 Nc4 ) ( 15.0-0 15...Nd3 ( 15...c4 $5 16.Bc2 Qb6 17.Kh1 Qe3 $5 18.Qe3 Ne3 19.Rfc1 Nd3 20.Bd3 cd3 ) 16.Qd3 hg5 17.Bg3 c4 $1 ) 15...hg5 16.Bg3 ( 16.Bg5 Nd3 17.Qd3 Qg5 18.hg4 Bg4 ) 16...Nd3 ( 16...c4 17.Bc2 Nh6 18.h4 ) 17.Qd3 Ne5 18.Be5 ( 18.Qb1 f5 ) ( 18.Qc2 Nc4 ) 18...Be5 19.g4 19...Bd7 20.0-0 ( 20.a5 20...Qf6 $1 21.Rf1 Qh6 22.Rf3 Qh4 23.Kf1 Rab8 ) 20...b5 $1 21.Qc2 ( 21.ab5 ab5 22.Nb5 ( 22.Ra8 Qa8 23.Nb5 Qa6 24.Nec3 Rb8 ( 24...Bc3 $2 25.Qc3 Bb5 26.Qf6 $1 ) 25.Qf3 f6 $19 ) 22...Ra1 23.Ra1 Qb6 ) 21...Kg7 22.Kg2 Rb8 ( 22...Qe7 $1 23.Ng3 Bg3 24.Kg3 b4 25.Nd1 Qe5 ) 23.a5 $2 ( 23.ab5 ab5 24.Ng3 $1 ( 24.Ra7 $5 ) ) 23...b4 24.Na4 $2 ( 24.Nd1 Rh8 ) 24...Qa5 25.Ng3 f6 26.Nf5 Kf7 27.Nc3 27...bc3 $1 28.Ra5 Rb2 29.Qb2 ( 29.Rc1 Rfb8 30.Ra6 Rc2 31.Rc2 Rb2 32.Ra2 Ba4 $1 $19 ) 29...cb2 30.Ra6 Rb8 31.Rb1 Bf5 32.ef5 c4 33.Ra7 Kg8 34.Rc7 c3 35.Kf3 Ra8
+ * 
+
+
+
+[Event "Chapter 1958 - 1960"]
+[Site "Game 6"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1958 - 1960"]
+[Black "Game 6"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r1b2rk1/p1q3pp/1p1bpp2/2pP4/2P1PP2/4B3/P1Q1B1PP/3R1RK1 w - - 0 17"]
+
+17.e5 $1 17...fe5 18.fe5 Rf1 19.Rf1 Be5 20.Bd3 $1 g6 ( 20...h6 21.Bh7 Kh8 22.Rf8 ) ( 20...Bh2 21.Kh1 ) 21.Bg6 $1 hg6 22.Qg6 Bg7 ( 22...Qg7 23.Qe8 Kh7 24.Rf7 ) 23.Qe8 Kh7 24.Rf4 $18 Qf4 25.Bf4 ed5 26.Qh5
+ * 
+
+
+
+[Event "Chapter 1958 - 1960"]
+[Site "Game 7"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1958 - 1960"]
+[Black "Game 7"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Nc3 Ne4 5.Ne4 d5 6.d4 $6 dc4 $1 7.Ne5 Qd4 $1 8.Qd4 Nd4 9.Kd1 f6 10.Nc4 Bg4 11.Kd2 0-0-0 12.Ne3 Bh5 13.Kc3 Bf7 14.b3 $2 14...f5 $1 15.Ng5 Nb5 16.Kb2 Ba3 17.Kb1 Nc3
+ * 
+
+
+
+[Event "Chapter 1961 - 1962"]
+[Site "Game 1"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1961 - 1962"]
+[Black "Game 1"]
+[Result "*"]
+
+
+1.e4 e5 2.Nf3 Nc6 3.Nc3 Nf6 4.d4 ed4 5.Nd5 $5
+ * 
+
+
+
+[Event "Chapter 1961 - 1962"]
+[Site "Game 2"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1961 - 1962"]
+[Black "Game 2"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.d4 Nf6 2.c4 c5 3.d5 d6 ( 3...e6 4.Nc3 ed5 5.cd5 ) 4.Nc3 g6 5.e4 Bg7 6.Nf3 ( 6.Bd3 0-0 7.h3 7...e6 8.Nf3 ed5 9.ed5 $5 9...Re8 10.Be3 Bh6 ( 10...Re3 $5 ) 11.0-0 $1 11...Be3 12.fe3 Re3 13.Qd2 Re8 14.Qh6 ) 6...0-0 7.Be2 7...e6 8.Bg5 8...h6 $1 9.Be3 ed5 10.cd5 ( 10.ed5 10...Ng4 $5 11.Bd2 ( 11.Bf4 11...g5 ( 11...Bc3 ) ) 11...Nd7 ) 10...Re8 11.Qc2 $6 ( 11.Nd2 ) 11...Na6 $1 12.0-0 ( 12.a3 ) ( 12.Ba6 ) 12...Nb4 13.Qb1 13...Ne4 $5 ( 13...Ng4 ) 14.Ne4 Bf5 15.Nfd2 Qe7 ( 15...Nd5 16.g4 Ne3 17.fe3 Be4 18.Ne4 d5 $1 ) 16.f3 Nd5 17.Bf2 Nf4 18.Bd3 $2 ( 18.Bb5 18...d5 $5 19.Bc5 Qc5 20.Nc5 Bd4 21.Kh1 Bb1 ) 18...d5 19.Nc5 ( 19.Bc5 Qe5 ) 19...Nd3 ( 19...Qg5 20.g4 20...Re2 $1 ) 20.Nd3 Qe2 21.Re1 Qd2 22.Rd1 Qe2 23.Nf4 Bb1 24.Ne2 Re2 25.Rab1 Rc8 26.Rd5 Rcc2 27.Rf1 Bb2 28.Rd8 Kh7 29.Rd7 b5 30.Ra7 Rf2
+ * 
+
+
+
+[Event "Chapter 1961 - 1962"]
+[Site "Game 3"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1961 - 1962"]
+[Black "Game 3"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.e4 c6 2.d4 d5 3.e5 3...Bf5 4.h4 4...h6 ( 4...h5 5.c4 ) 5.g4 Bh7 $2 ( 5...Bd7 ) 6.e6 $1 6...fe6 ( 6...Qd6 7.ef7 Kf7 8.g5 $1 ( 8.Nf3 Nd7 9.g5 $1 ) 8...e5 9.Qf3 Ke8 10.Qe2 $1 e4 11.Nh3 ) 7.Bd3 Nf6 8.Nf3 8...Nbd7 ( 8...Ng4 9.Bh7 Rh7 10.Qd3 ( 10.Ng5 $6 hg5 11.Qg4 Rh4 $1 ) 10...Nf6 11.Qg6 ( 11.Bf4 ) 11...Kd7 12.Ne5 ) 9.Bh7 Rh7 10.Qd3 Ne4 11.Nc3 Ndf6 12.Ne5 12...Qb6 13.f3 Nd6 ( 13...Nc3 14.Qg6 ( 14.Qc3 ) 14...Kd8 15.bc3 Qa5 16.Bd2 ) 14.a4 ( 14.Ne2 $1 ) 14...0-0-0 15.a5 Qc7 16.Na4 16...Nc4 ( 16...Qa5 17.Bd2 Qb5 18.Nc5 $1 Qd3 19.Ned3 ) 17.Bf4 g5 18.Bh2 ( 18.Nc4 18...Qf4 ( 18...gf4 ) ( 18...dc4 19.Bc7 cd3 20.Bd8 $18 ) 19.Ne5 ) 18...Qa5 19.Ke2 Qb5 20.Nc5 20...a6 ( 20...Nb2 21.Qb5 cb5 22.Ra7 $18 ) 21.Ne6 Re8 22.b3 ( 22.Ng6 $1 ) 22...Ne5 23.Qb5 cb5 24.de5 gh4 ( 24...Nd7 25.Rad1 ) ( 24...Ng8 25.hg5 hg5 26.Ng5 ) 25.Nf8 Rf8 26.ef6 Rf6 27.Be5 Rc6 28.c3 Rf7 29.f4 Kd7 30.Kd3 d4 31.cd4
+ * 
+
+
+
+[Event "Chapter 1961 - 1962"]
+[Site "Game 4"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1961 - 1962"]
+[Black "Game 4"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r1b2kr1/p4p1p/1q2pb2/2p2p2/3N4/2P3N1/PP2QPPP/3RR1K1 w - - 0 17"]
+
+17.Nf3
+ * 
+
+
+
+[Event "Chapter 1961 - 1962"]
+[Site "Game 5"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1961 - 1962"]
+[Black "Game 5"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r1b2kr1/p4p1p/1q2pb2/2p2p2/3N4/2P3N1/PP2QPPP/3RR1K1 w - - 0 17"]
+
+17.Ndf5 $1 Ba6 ( 17...ef5 18.Qe8 Kg7 19.Nh5 Kh8 20.Qg8 $1 Kg8 21.Re8 ) 18.Qh5 ( 18.Qd2 ef5 19.Qd6 $1 Qd6 20.Rd6 ) 18...ef5 19.Rd7 $6 ( 19.Qh6 Bg7 ( 19...Rg7 20.Nf5 ) ) 19...Bc4 $6 ( 19...Rg6 ) 20.Qh6 Bg7 21.Qh4 21...Bd4 22.cd4 Qg6 23.d5 Bb5 24.Qe7 Kg7 25.Qe5 Kf8 26.Qe7 Kg7 27.Rd6 Rge8 28.Rg6 hg6 29.Nf5
+ * 
+
+
+
+[Event "Chapter 1961 - 1962"]
+[Site "Game 6"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1961 - 1962"]
+[Black "Game 6"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.e4 d6 2.d4 Nf6 3.Nc3 g6
+ * 
+
+
+
+[Event "Chapter 1961 - 1962"]
+[Site "Game 7"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1961 - 1962"]
+[Black "Game 7"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.Nf3 g6 ( 1...Nf6 ) 2.e4 2...Bg7 3.d4 3...c5 4.dc5 ( 4.c3 ) ( 4.c4 4...cd4 5.Nd4 Nc6 6.Be3 ) 4...Qa5 5.Bd2 5...Qc5 6.Bc3 6...Nf6 $1 7.Bd3 0-0 8.0-0 Nc6 9.Nbd2 9...d5 $5 10.Nb3 ( 10.e5 Ng4 11.Qe2 d4 $5 12.Nb3 Qb6 13.Nbd4 Nge5 ) 10...Qb6 11.ed5 ( 11.Bf6 Bf6 12.ed5 Nb4 13.c3 Nd5 14.Bg6 Rd8 $1 ) 11...Nd5 12.Bg7 Kg7 13.Bc4 ( 13.Be4 ) ( 13.Bg6 13...Ne3 $1 ) 13...Nf6 14.h3 Bf5 15.Qe2 Rac8 16.c3 e5 17.Rad1 e4 18.Nfd4 18...Ne5 $1 19.Nf5 $6 gf5 20.Bb5 f4 $1 21.Nd4 f3 $1 22.Qe3 ( 22.gf3 Nf3 23.Kh1 Rc5 24.Nf3 Qb5 $1 ( 24...ef3 25.Rg1 Kh8 26.Qe7 ) ) 22...g2 23.Kg2 Kh8 24.Kh1 Rg8 25.b3 $6 ( 25.Rg1 25...a6 26.Ba4 Rg6 ) 25...Nfg4 $1 26.hg4 Ng4 ( 26...Rg4 $1 ) 27.Qh3 Rc3 $1 ( 27...Rc5 $5 ) 28.Qh4 Rc5 $1 29.Bd7 29...Qg6 ( 29...Qh6 $1 30.Qh6 Nh6 31.Bh3 Rh5 32.Kh2 Ng4 33.Kg3 Ne3 34.Kf4 ( 34.Kh2 Rg2 35.Kh1 Rh3 ) 34...Nd1 $19 ) 30.Bf5 Rf5 ( 30...Qh6 $1 ) 31.Nf5 Qf5 32.Rd8 Rd8 33.Qd8 Kg7 34.Qd4 $2 ( 34.Qh4 ) 34...f6 35.Rg1 35...Kh6 $2 ( 35...h5 $1 ) 36.Rg2 Kh5 $1 37.Qd1 Kh4 38.Kg1 Qf4 39.Qe1 Kg5 40.Rg3 ( 40.Qa5 Kg6 41.Kf1 ) 40...h5 41.Rh3 ( 41.Qe3 41...Qe3 42.fe3 h4 43.Rh3 Ne5 ) 41...Ne5 42.Rg3 $2 ( 42.Qe3 ) 42...Qg3
+ * 
+
+
+
+[Event "Chapter 1963"]
+[Site "Game 1"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1963"]
+[Black "Game 1"]
+[Result "*"]
+
+
+1.e4 c5 2.Nf3 d6 3.d4 cd4 4.Nd4 Nf6 5.Nc3 a6 6.Bc4 6...e6 7.Bb3 b5 8.0-0 Bb7 9.Re1 9...Nbd7 ( 9...b4 10.Na4 Ne4 11.f3 Nf6 ( 11...Nc5 12.Nc5 dc5 13.Ba4 Nd7 14.Ne6 $1 fe6 15.Bg5 $1 $18 ) ( 11...Ng5 12.h4 $18 ) 12.Be6 $1 fe6 13.Ne6 ) 10.Bg5 ( 10.a4 b4 11.Nd5 $1 11...ed5 12.ed5 Be7 ( 12...Ne5 13.f4 ) 13.Nf5 Ne5 14.Ng7 Kd7 15.Nf5 ) 10...h6 ( 10...Nc5 11.Bd5 $1 ) ( 10...Be7 11.Be6 $1 ) 11.Bh4 g5 ( 11...Nc5 12.Bd5 $1 ) ( 11...Be7 12.Be6 ) 12.Bg3 Ne5 13.Be6 $5 ( 13.a3 Bg7 14.Qe2 0-0 15.Rad1 ) 13...fe6 14.Ne6 Qd7 15.Nd5 15...Kf7 ( 15...Nd5 16.ed5 ) 16.Nc5 $5 ( 16.Nf8 Raf8 17.Nf6 Kf6 18.Be5 Ke5 ) 16...dc5 17.Be5 Bd5 18.Qf3 18...Bg7 19.Rad1 Qg4 20.Qg4 Ng4 21.Bg7 Rhd8 22.Bh6 Nh6 23.ed5 23...Re8 24.f3 Nf5 25.Kf2 Re1 26.Re1 Re8 27.Re8 Ke8 28.g4 Ne7 29.Ke3 29...Nd5 30.Ke4 Nb4 31.Kf5 Nc2 32.Kg5 32...Nb4 $2 ( 32...Ne1 ) 33.Kf6 Kf8 34.h4 c4 35.h5 Nd3 $2 ( 35...Na2 36.h6 Kg8 37.g5 Nb4 38.h7 ( 38.g6 Nd5 ) 38...Kh7 39.Kf7 Nc6 40.g6 Kh6 41.g7 Nd8 $1 42.Kf6 Kh7 $19 ) 36.h6 Kg8 37.g5 b4 $2 ( 37...Nf4 38.Kf5 Nd5 39.Ke4 ) 38.g6 c3 39.bc3 bc3 40.h7 Kh8 41.f4 $1
+ * 
+
+
+
+[Event "Chapter 1963"]
+[Site "Game 2"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1963"]
+[Black "Game 2"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.e4 c6 2.d3 2...d5 3.Nd2 g6 4.Ngf3 Bg7 5.g3 e5 6.Bg2 Ne7 7.0-0 0-0 8.Re1 ( 8.Nb3 ) ( 8.c3 ) ( 8.b4 ) 8...d4 9.c3 $5 9...c5 ( 9...dc3 10.bc3 ( 10.Nc4 10...cb2 ( 10...b5 11.Nce5 Be5 12.Ne5 Qd4 13.Bf4 cb2 14.Rb1 $16 ) 11.Bb2 f6 12.Qb3 Kh8 13.d4 ) 10...Qd3 11.Ba3 $1 ) 10.cd4 cd4 11.b4 11...b5 ( 11...Nbc6 $5 12.a3 $5 ( 12.Qa4 a6 13.Nb3 b5 14.Qa3 Qd6 15.Bd2 a5 ) ( 12.Nc4 b5 ) ( 12.b5 Na5 13.Ba3 ) ) 12.Nb3 12...Nec6 13.Bd2 Na6 14.a3 Bd7 15.Rc1 15...Rc8 16.Nc5 Nc5 17.Rc5 Qb6 18.Qb3 Na5 19.Qb2 Nb7 $2 ( 19...Nc6 ) ( 19...Rc5 20.bc5 Qa6 ) 20.Re5 $1 20...Be5 ( 20...f6 21.Rd5 Be6 22.Rd4 $16 ) ( 20...Be6 $5 21.Re6 fe6 22.e5 $1 ) 21.Ne5 $16 21...Be6 22.Nf3 Rcd8 23.Bh6 Rfe8 24.Bg5 Rd7 25.Bf6 25...Bc4 26.e5 $1 26...h6 27.dc4 bc4 28.Qc1 Kh7 29.Ng5 $1 ( 29.Re4 $1 ) 29...Kg8 30.Bb7 ( 30.Ne6 $1 30...Kh7 ( 30...fe6 31.Qh6 ) 31.Re4 $1 ) 30...Rb7 31.Ne4 Kh7 32.Nd6 Qc6 33.Re4 $1 Qd6 34.Qh6
+ * 
+
+
+
+[Event "Chapter 1963"]
+[Site "Game 3"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1963"]
+[Black "Game 3"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.e4 c5 2.Nf3 e6 3.d4 cd4 4.Nd4 a6 5.Nc3 Qc7 6.g3 6...Nc6 7.Bg2 Nf6 8.0-0 Be7 9.b3 $5 ( 9.Re1 9...d6 10.Nc6 bc6 11.e5 $1 de5 12.Re5 ) 9...0-0 10.Bb2 b5 $2 11.e5 $1 Ne8 ( 11...Qe5 12.Nc6 dc6 13.Nd5 $1 $16 ( 13.Bc6 Qb8 14.Ba8 Qa8 ) 13...Qb2 ( 13...Qd6 14.Nf6 gf6 15.Qg4 Kh8 16.Be4 $16 ) 14.Ne7 Kh8 15.Bc6 Ra7 16.Qd6 $18 ) 12.a4 Rb8 ( 12...b4 13.Nc6 dc6 14.Ne4 Bb7 15.Qg4 $16 ) 13.Nc6 dc6 14.Ne4 14...c5 15.ab5 ab5 16.Re1 Bb7 17.Qh5 17...g6 ( 17...c4 18.Ra7 cb3 19.cb3 ( 19.Nf6 gf6 ( 19...Nf6 ) ( 19...Bf6 ) 20.ef6 $18 ) 19...Qc2 20.Qe2 ) 18.Qe2 Ng7 19.Ra7 ( 19.Nf6 Kh8 20.Ra7 ) 19...Qb6 20.Rea1 Nf5 21.Nd6 $1 ( 21.Nf6 Bf6 22.ef6 Bg2 23.Kg2 Qc6 24.Qf3 Qf3 25.Kf3 h5 $1 ) 21...Bg2 ( 21...Nd6 22.ed6 Bd6 23.Qd2 ) ( 21...Bd6 22.Bb7 Rb7 23.R7a6 ) 22.Nf5 $1 22...gf5 23.R1a6 $1 23...Qd8 24.Kg2 c4 25.Qe3 cb3 26.Rd6 $1 26...Qe8 ( 26...Bd6 27.ed6 27...Re8 28.Rd7 $18 ( 28.Be5 $18 ) ) 27.Rdd7 27...Bd8 28.cb3 Kh8 29.Qh6 Rc8 30.Ba3 30...Bb6 31.Bf8 Qf8 32.Qf8 Rf8 33.Rf7 Ba7 34.Rf8 Kg7 35.Rf6
+ * 
+
+
+
+[Event "Chapter 1964"]
+[Site "Game 1"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1964"]
+[Black "Game 1"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2r1r1k1/2qbbppp/p2p4/nppPp2n/4P3/1PP2N1P/P4PP1/RBBQRNK1 w - - 0 17"]
+
+17.Ne5 $1 17...Bf6 18.Nf7 $1 ( 18.Nd7 Bc3 19.e5 $1 ) ( 18.Qh5 Be5 19.Bd2 b4 20.Qf3 c4 $1 ) 18...Bc3 19.Qh5 $1 19...Be1 ( 19...g6 20.Qf3 Ba1 21.e5 $1 Be5 22.Re5 $1 Re5 23.Nh6 ) 20.e5 20...Bf5 21.Bf5 Qf7 22.Qh7 Kf8 23.e6 Qf6 ( 23...Qg8 24.Qh5 ) 24.h4 $1 Bc3 ( 24...Qa1 25.Qh8 Ke7 26.Bg5 $18 ) 25.Rb1 ( 25.Bg5 Qg5 ( 25...Ba1 26.Qh8 Ke7 27.Qg7 ) 26.hg5 Ba1 27.Bg6 $18 ) 25...Qd8 26.Qh8 26...Ke7 27.Bg5 Bf6 28.Qg7
+ * 
+
+
+
+[Event "Chapter 1964"]
+[Site "Game 2"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1964"]
+[Black "Game 2"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r4rk1/1p4pp/p1n1b3/2bpP2q/5BnP/2N2NP1/PP2BP2/R2Q1RK1 b - - 0 18"]
+
+18...Rf4 $1 19.gf4 Nf2 $1 20.Rf2 Qg4 21.Kf1 21...Qg3 22.Rg2 Bh3 23.Qd5 Kh8 24.Qc5 ( 24.Ne1 Qf2 ) 24...Bg2 25.Kg1 Bh3 26.Kh1 Qg2
+ * 
+
+
+
+[Event "Chapter 1964"]
+[Site "Game 3"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1964"]
+[Black "Game 3"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rn3r2/p4pkp/4p2p/3pPP2/7q/P2b2N1/2P3PP/R1Q2RK1 w - - 0 19"]
+
+19.Rf4 $1 19...Qg5 20.cd3 Nd7 21.Qe3 21...Kh8 22.h4 Qg7 23.d4 Rg8 24.Kh2 Rae8 25.Qf3 f6 26.Nh5 Qf7 27.fe6 Re6 28.Nf6 ( 28.Rc1 $1 ) 28...Nf6 29.Rf6 Rf6 30.ef6 h5 31.Rc1 31...h6 32.Qf4 ( 32.Rc6 ) 32...Qg6 33.g3 Rf8 34.Rf1 ( 34.Rc6 $1 ) 34...Kh7 35.f7 Qd3 36.Qf5 $5 Qf5 37.Rf5 Kg6 38.Rd5 Rf7 39.Rd6 Kg7 40.Kg2 Rb7 41.Ra6 $2 ( 41.Rd5 41...Kg6 42.a4 42...Rb2 43.Kf3 Rb3 44.Kf4 $18 ) 41...Rd7 42.Ra4 Rf7 $5 43.d5 43...Rd7 44.Ra5 Kf6 45.Kf3 Ke5 46.d6 $1 Kd4 ( 46...Kd6 47.Rh5 Rh7 48.g4 $18 ) 47.Rh5 Rd6 48.Ra5 $1 48...a6 49.g4 Rf6 50.Kg3 Ke4 51.g5 $1 Rf1 52.Kg4 hg5 53.hg5 Rg1 54.Kh5 Kf4 55.Kh6
+ * 
+
+
+
+[Event "Chapter 1965"]
+[Site "Game 1"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1965"]
+[Black "Game 1"]
+[Result "*"]
+
+
+1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 Qd7 ( 4...Ne7 5.a3 Bc3 6.bc3 b6 ) 5.a3 Bc3 6.bc3 b6 7.Nh3 $1 7...Ba6 8.Ba6 Na6 9.Qg4 $1 f5 10.Qh5 $1 Qf7 11.Qe2 $1 Nb8 12.c4 $1 12...c6 13.0-0 Qd7 14.Nf4 14...Ne7 15.cd5 $1 15...Nd5 16.Qh5 Qf7 17.Ne6 $1 g6 18.Qh6 $1 18...Qe6 19.Qg7 Rf8 20.Qb7 $1 20...Nc7 21.Qc7 Rf7 22.Qd6 Qd6 23.ed6 Kd7 ( 23...f4 24.Re1 ) 24.Bf4 c5 25.dc5 bc5 26.Rfe1 Nc6 27.Rab1 27...Rb8 28.Rb8 Nb8 29.Re5 Na6 30.c4 30...Kc6 31.h4 Rd7 32.Re8 Kb7 33.h5 $1 33...Nb8 34.hg6 hg6 35.Re7 Kb6 36.Kh2 Ka5 ( 36...g5 $5 37.Bg5 Rd6 38.Bf4 $18 ) 37.Re6 Ka4 38.Rg6 Ka3 39.Rg8 Rb7 40.Rc8 $1 Nd7 41.Rc7 $1 41...Rc7 42.dc7 Nb6 43.f3 Kb4 44.g4 44...fg4 45.fg4 Kc4 46.g5 Kd5 47.g6 Ke6 48.Be5 48...Nc8 49.g7 Kf7 50.Kg3 Ne7 51.Kf3
+ * 
+
+
+
+[Event "Chapter 1965"]
+[Site "Game 2"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1965"]
+[Black "Game 2"]
+[Result "*"]
+[SetUp "1"]
+[FEN "5k2/5p1p/p3p3/3nPb1P/1Pr5/3pB3/P4KP1/3R1B2 w - - 0 34"]
+
+34.Bd3 Bd3 ( 34...Ne3 35.Ke3 Bd3 36.Rd3 Rb4 37.Ra3 Rh4 ) 35.Bh6 $1 35...Ke8 36.Rd3 Nb4 ( 36...Rh4 $5 ) 37.Rg3 Rc2 38.Kg1 38...Nc6 39.Rg8 Kd7 40.Bg7 $1 40...Ra2 41.Rf8 $1 41...Ke7 42.Rh8 Re2 $2 43.Bf6 $1 Kd7 44.Rh7 44...Ne5 45.Rg7 $1 ( 45.Be5 Re5 46.Rf7 Ke8 47.Rh7 Rf5 ) 45...Re1 46.Kf2 $6 ( 46.Kh2 $1 Nd3 47.h6 Nf2 48.Bh4 $1 ) 46...Nd3 47.Kg3 Rh1 48.Rf7 Kd6 49.Bh4 $1 Nc5 50.h6 Ne4 51.Kg4
+ * 
+
+
+
+[Event "Chapter 1965"]
+[Site "Game 3"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1965"]
+[Black "Game 3"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7 5.Bc4 Be7 6.0-0 c6 7.a4 Qc7 8.Qe2 ( 8.Re1 ) 8...Nb6 $2 9.de5 $1 de5 10.Bf7 $1 ( 10.Ba2 Bg4 ) 10...Kf7 11.a5 Nbd7 12.Qc4 Ke8 ( 12...Kg6 13.Nh4 Kh5 14.Qe2 Kh4 ( 14...Ng4 15.Nf5 ) 15.g3 Kh3 16.f3 $18 ) 13.Ng5 Nf8 14.Rd1 14...Bd7 ( 14...Bd8 15.Be3 h6 ( 15...Bg4 $1 16.f3 Bh5 $1 ) 16.Qf7 $3 Qf7 17.Rd8 $1 Kd8 18.Nf7 Ke8 19.Nh8 19...Be6 20.Bc5 N6d7 21.Bd6 g5 22.h4 gh4 23.f4 ef4 24.Rf1 ) ( 14...Bd8 15.Bf4 $1 ( 15.h3 ) 15...ef4 16.Nb5 $1 cb5 17.Rd8 Kd8 18.Nf7 Qf7 19.Qf7 19...N6d7 $1 20.Qg7 Ng6 21.h4 Re8 ) ( 14...Bd6 15.Be3 ( 15.Rd6 Qd6 16.Qf7 Kd8 17.Qg7 Rg8 18.Qg8 Ng8 19.Nf7 Ke7 20.Nd6 Kd6 ) 15...h6 16.Rd6 $1 16...hg5 ( 16...Qd6 17.Qf7 Kd8 18.Rd1 ) 17.Rad1 ( 17.Nb5 Qe7 18.Rc6 Be6 19.Qc3 Ne4 20.Qe5 bc6 21.Nc7 Kf7 22.Na8 Nf6 ) ) 15.Be3 Qc8 ( 15...h6 $2 16.Nb5 $1 Qc8 17.Qf7 Kd8 18.Na7 $1 ) 16.Qf7 Kd8 17.Na4 $1 c5 ( 17...h6 18.Nb6 $1 ) 18.Nc5 $1 Bc5 19.Qg7 Ng6 20.Bc5 Nh5 21.Be7 ( 21.Qf7 Nhf4 22.Nh7 ) ( 21.Nf7 Ke8 22.Nd6 Kd8 23.Qh6 $18 ) 21...Kc7 ( 21...Ne7 22.Nf7 Ke8 23.Nd6 $18 ) 22.Bd6 Kc6 ( 22...Kd8 23.Qf7 $1 23...Re8 24.Qf6 $1 Nf6 25.Nf7# ) 23.Qf7 Kb5 24.a6 $1 24...ba6 25.Qd5 ( 25.Qb3 Kc6 26.Ra6 $1 Qa6 27.Qd5 Kb6 28.Qc5 Kb7 29.Qc7 ) 25...Kb6 26.c4 Qc6 27.Qa5 Kb7 28.Bc5 Rac8 29.b4 Rhd8 30.Nf7 30...Rg8 31.Rd6 Ngf4 32.Rc6 Rg2 33.Kf1 Rc6 34.Nd8 Kc8 35.Nc6 Bc6 36.Bd6
+ * 
+
+
+
+[Event "Chapter 1965"]
+[Site "Game 4"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1965"]
+[Black "Game 4"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.e4 c5 2.Nf3 Nc6 3.d4 cd4 4.Nd4 e6 5.Nc3 d6 6.Be3 ( 6.Bc4 ) 6...Nf6 7.Bc4 Be7 8.Qe2 8...a6 ( 8...0-0 9.0-0-0 Bd7 10.Bb3 Qb8 11.g4 Rc8 12.g5 Ne8 13.h4 Na5 14.g6 ) ( 8...0-0 9.0-0-0 Nd4 10.Bd4 Qa5 11.e5 de5 12.Qe5 ( 12.Be5 $5 ) 12...Qe5 13.Be5 ) ( 8...Nd4 9.Bd4 a6 10.0-0-0 b5 11.Bb3 Bb7 12.f4 0-0 13.a3 Qc7 14.g4 $1 d5 15.Be5 Qc5 16.g5 ) 9.0-0-0 ( 9.Bb3 Qc7 10.g4 10...Nd4 $1 11.Bd4 e5 12.Be3 Bg4 13.Qd3 Be6 14.Rg1 g6 15.0-0-0 0-0-0 16.Kb1 Kb8 17.f3 Rc8 18.Bg5 ) 9...Qc7 10.Bb3 Na5 ( 10...Bd7 11.g4 e5 12.Nf5 Bf5 13.ef5 h6 14.h4 Na5 15.g5 ( 15.Bd5 ) ) 11.g4 $1 11...b5 ( 11...d5 $6 12.ed5 Nb3 13.Nb3 Nd5 14.Nd5 ed5 15.Rd5 ( 15.Bc5 ) ) 12.g5 Nb3 ( 12...Nd7 13.Be6 $1 fe6 14.Ne6 ) 13.ab3 Nd7 14.Nf5 $1 14...ef5 ( 14...b4 15.Ne7 bc3 16.Nc8 ) ( 14...Bf8 15.Bd4 $1 ) 15.Nd5 Qd8 ( 15...Qc6 16.ef5 ) ( 15...Qa5 16.ef5 Bb7 17.Bb6 $1 Qa1 18.Kd2 Qd1 19.Rd1 Bd5 20.Re1 $18 ) 16.ef5 0-0 $2 ( 16...Bb7 $1 17.f6 $1 gf6 18.Rhe1 $1 ( 18.gf6 Bd5 19.fe7 Qa5 20.Bd4 Bh1 21.Bh8 Bb7 ) 18...Bd5 $1 ( 18...0-0 19.gf6 Bf6 ( 19...Nf6 20.Ne7 Qe7 21.Rg1 Kh8 22.Bd4 $18 ) 20.Qg4 Kh8 21.Nf6 Nf6 22.Bd4 Rg8 23.Re8 $1 Re8 24.Qg5 Re6 25.Rg1 $18 ) 19.Rd5 19...Rg8 $1 ( 19...0-0 20.gf6 Nf6 21.Rg5 Kh8 22.Bd4 Re8 23.Qe7 $1 $18 ) ( 19...Ne5 20.gf6 Bf6 21.f4 $18 ) 20.gf6 ( 20.Bf4 ) ) 17.f6 $1 gf6 18.Bd4 ( 18.gf6 18...Nf6 ( 18...Bf6 19.Nf6 Qf6 20.f4 $1 ) 19.Rhg1 ) 18...Ne5 19.gf6 Bf6 20.Rhg1 Bg7 ( 20...Kh8 21.Bb6 $1 ( 21.Qh5 ) ) 21.Be5 de5 22.Qe5 f6 23.Ne7 Kf7 ( 23...Kh8 24.Rd8 $1 fe5 25.Rf8 Bf8 26.Rg8 ) 24.Qh5 24...Ke7 25.Rg7 Ke6 26.Qe2 Kf5 27.Qg4 Ke5 28.f4 Ke4 29.f5 Ke5 30.Qe2 Kf5 ( 30...Kf4 ) 31.Rf1
+ * 
+
+
+
+[Event "Chapter 1965"]
+[Site "Game 5"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1965"]
+[Black "Game 5"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.e4 c5 2.Nf3 Nc6 3.d4 cd4 4.Nd4 e6 5.Nc3 Qc7 6.Be2 6...a6 7.0-0 Nf6 8.Kh1 8...Bb4 9.Nc6 ( 9.Nc6 $1 bc6 10.f4 Bc3 11.bc3 Ne4 12.Qd4 Nf6 13.Ba3 ) 9...bc6 10.Qd4 $1 ( 10.f4 10...d5 11.e5 Nd7 12.Qe1 0-0 ( 12...a5 ) ( 12...Be7 ) 13.Nd5 cd5 14.Qb4 Qc2 15.Qd2 Qd2 16.Bd2 ) 10...Bd6 ( 10...c5 11.Qe3 ) 11.Qe3 $1 ( 11.f4 e5 $1 ) ( 11.Rd1 Be5 12.Qe3 0-0 13.f4 ( 13.Na4 ) 13...Bc3 14.bc3 d5 ) 11...0-0 12.Rd1 ( 12.f4 12...e5 ( 12...Be7 ) ) 12...Be7 ( 12...Be5 13.Na4 $1 ) ( 12...e5 $5 13.Qg3 Be7 14.f4 ) 13.e5 $1 Ne8 ( 13...Nd5 14.Qg3 Nc3 15.bc3 ( 15.Bh6 g6 ( 15...Bf6 $1 16.ef6 Qg3 17.fg3 Nd1 18.fg7 Rd8 ) 16.Qc3 Rd8 17.Rd6 ) 15...Kh8 16.h4 ) 14.Na4 14...f6 ( 14...Rb8 15.b3 ) 15.f4 fe5 16.Nb6 Rb8 17.Nc8 Qc8 18.fe5 18...Nc7 19.Qg3 Rf7 20.c4 a5 21.b3 Na6 22.Bh6 Kh8 23.Bh5 $1 23...g6 24.Rf1 $1 24...Qg8 25.Be2 Bf8 26.Bg5 Bg7 27.Rf7 Qf7 28.Rf1 Qe8 29.h4 $1 29...a4 30.Bf6 ab3 31.ab3 Nc5 32.Qe3 32...Nb3 33.h5 33...c5 34.Bd3 Bf6 35.Rf6 gh5 36.Rh6 Qe7 37.Qe4 $1 37...Kg8 38.Rh7 Qg5 39.Rh8 $1 Kf7 40.Qh7 Qg7 41.Qh5 ( 41.Bg6 Ke7 42.Qg7 ) 41...Ke7 42.Rb8 42...Nd4
+ * 
+
+
+
+[Event "Chapter 1965"]
+[Site "Game 6"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1965"]
+[Black "Game 6"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r1b2r2/5k2/p1p1pb2/6P1/4N2p/8/PPPR4/2KR4 w - - 0 28"]
+
+28.Rf2 28...Kg6 ( 28...e5 ) 29.gf6 e5 30.Rg1 Kf7 31.Rg7 Ke6 32.c4 $1 32...Re8 ( 32...Rf7 33.Ng5 ) 33.b4 $1 33...a5 34.Ng5 Kd6 35.Rd2#
+ * 
+
+
+
+[Event "Chapter 1965"]
+[Site "Game 7"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1965"]
+[Black "Game 7"]
+[Result "*"]
+[SetUp "1"]
+[FEN "5r1k/1pp1R2p/p2q3r/5Pp1/6P1/2NP2Q1/PPP4P/4K3 w - - 0 38"]
+
+38.Rc7 38...Re8 39.Ne4 39...Qb4 40.Kd1 $2 40...Re4 41.a3 $4 ( 41.de4 Rd6 42.Ke2 Qe4 ( 42...Qd2 43.Kf3 Qd1 44.Ke3 $10 ) 43.Qe3 Qg4 44.Kf2 ) 41...Qd6
+ * 
+
+
+
+[Event "Chapter 1966"]
+[Site "Game 1"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1966"]
+[Black "Game 1"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1kb5/1p6/p7/4q2p/6PP/5B1K/P5Q1/8 b - - 0 1"]
+
+
+ * 
+
+
+
+[Event "Chapter 1966"]
+[Site "Game 2"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1966"]
+[Black "Game 2"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.e4 e5 2.Nf3 Nc6 3.d4 ( 3.c3 ) 3...ed4 4.c3 4...d3 $5 ( 4...d5 5.ed5 Qd5 6.cd4 ) 5.Bd3 d6 ( 5...Nf6 $2 6.e5 Ng4 7.0-0 ) 6.h3 6...Nf6 7.0-0 Be7 8.Nd4 $1 8...0-0 9.Nd2 Re8 10.f4 Bf8 ( 10...Nd4 11.cd4 c5 ) 11.Qc2 11...g6 12.N2f3 Nd7 $2 13.Bc4 Nb6 14.Bd3 ( 14.Bb3 Na5 $1 ) 14...Nb8 $2 15.f5 $1 15...N8d7 16.fg6 fg6 $6 ( 16...hg6 17.e5 $1 ) 17.Bg5 $1 17...Nf6 ( 17...Be7 18.Ne6 ) 18.Qb3 $1 18...d5 ( 18...Kg7 19.e5 $1 de5 20.Ne5 ) 19.e5
+ * 
+
+
+
+[Event "Chapter 1966"]
+[Site "Game 3"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1966"]
+[Black "Game 3"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.Nc3 cd4 5.Nd4 Nc6 6.Be3 Nf6 7.Bc4 0-0 8.Bb3 d6 9.f3 ( 9.h3 ) 9...Bd7 10.Qd2 Rc8 11.0-0-0 Ne5 12.Bh6 ( 12.h4 ) ( 12.Kb1 ) 12...Bh6 13.Qh6 13...Rc3 $5 14.bc3 Qa5 15.Kb2 ( 15.Ne2 ) 15...Rc8 16.Qe3 Qb6 17.Ka1 a5 18.Nf5 $5 ( 18.a4 Qc5 19.g4 Ba4 20.g5 Nh5 21.f4 Ng4 22.Qf3 Bb3 23.Nb3 Qc3 24.Qc3 Rc3 25.Kb2 Re3 ( 25...Rh3 ) ) 18...Qe3 19.Ne3 Rc3 20.Nd5 $6 ( 20.Rhe1 a4 21.Bd5 Rc7 22.Rd4 $1 ) 20...Nd5 21.Bd5 21...b5 $5 ( 21...Rc2 22.Rhg1 ( 22.f4 Ng4 $1 ) 22...b5 23.Kb1 Rc5 24.Rc1 Kf8 ) 22.Kb2 22...b4 23.f4 ( 23.h3 23...g5 24.h4 $1 24...h6 25.hg5 hg5 26.Rh5 ) ( 23.Rd4 23...g5 24.h4 ) 23...Ng4 $1 24.Rhe1 e6 25.Bb7 $6 ( 25.Bb3 a4 26.Rd6 Bc6 27.a3 $3 ) 25...Ne3 $1 26.Re3 ( 26.Rc1 Ng2 ( 26...Bb5 ) 27.Rf1 Ne3 28.Rfe1 a4 ) ( 26.Rd6 $4 26...Nc4 ) 26...Re3 27.Rd6 Bb5 28.e5 a4 29.Rb6 ( 29.Rd4 a3 30.Kc1 Re1 31.Kd2 Rb1 ) 29...a3 30.Kc1 30...b3 $1 31.cb3 Rc3 32.Kd2 Rb3 $1 33.ab3 $4 ( 33.Be4 ) ( 33.Kc2 $1 Rb2 34.Kc3 Bc6 $1 35.Rc6 Rb7 36.Rd6 ) 33...a2 34.Rb5 a1=Q 35.Rb4 35...g5 $1 36.fg5 Qa5 37.Kc3 Qe5 38.Kd3 Qc5 39.Rc4 Qb5 40.Bf3 Qb3 41.Kd4 Kg7 42.h4 h6 43.gh6 Kh6 44.h5 e5 45.Kc5 f5 46.Bd5 Qb8 47.Be6
+ * 
+
+
+
+[Event "Chapter 1966"]
+[Site "Game 4"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1966"]
+[Black "Game 4"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r2q1rk1/p1p2pp1/1pn4p/5b2/3PNP2/2PB4/P2Q2PP/1R3RK1 w - - 0 18"]
+
+18.Rb5 $1 18...Ne7 19.Ng3 $1 ( 19.Nf6 19...gf6 20.Bf5 $2 a6 ) 19...Bd3 20.Qd3 Nd5 21.c4 c6 22.Rb3 Nf6 23.Nf5 23...g6 24.Nh4 ( 24.Nh6 Kg7 25.g4 Kh6 26.g5 Kg7 27.gf6 Qf6 ) 24...Re8 25.Ng6 $5 25...fg6 26.Qg6 Kh8 27.Qh6 Nh7 28.Rd1 28...Qd7 ( 28...Qf6 29.Rh3 Qh6 30.Rh6 Rac8 31.Kf2 ) 29.d5 $5 29...Re4 30.Qc6 30...Qc6 31.dc6 Re7 $2 ( 31...Rc4 32.Rh3 Kg8 $1 33.Rg3 Kh8 34.Rh3 ) 32.c5 $1 32...Nf6 ( 32...bc5 33.Rb7 Rb7 34.cb7 Rb8 35.Rd7 ) 33.cb6 ab6 34.Rb6 Kg7 ( 34...Ra2 35.c7 $18 ) 35.Rb7 Kf7 36.Re1 Rb7 37.cb7 Rb8 38.Rb1 Nd7 39.a4 Ke7 40.a5 Nc5 41.h4 Rb7 $2 42.Rb7 Nb7 43.a6
+ * 
+
+
+
+[Event "Chapter 1967 - 1969"]
+[Site "Game 1"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1967 - 1969"]
+[Black "Game 1"]
+[Result "*"]
+
+
+1.d4 c5 2.d5 Nf6 3.c4 g6 4.Nc3 Bg7 5.e4 d6 6.Nf3 0-0 7.Be2 7...e5 ( 7...e6 ) 8.Bg5 h6 9.Bh4 9...Qd7 $5 10.0-0 ( 10.Nd2 ) 10...Nh5 $1 11.Re1 Nf4 12.Bf1 f5 13.Nd2 ( 13.g3 $5 13...Nh5 14.Bh3 14...Qf7 15.Nb5 $1 ) ( 13.ef5 13...gf5 ( 13...g5 $5 14.Bg3 Qf5 15.Ne4 ( 15.Nb5 Qd7 16.Nd2 a6 17.Nc3 Qf7 ) 15...Qg6 ) 14.Bg3 Ng6 ) 13...g5 14.Bg3 14...Ng2 15.Bg2 f4 16.Nf1 a6 17.a4 b6 18.h3 ( 18.Qh5 Qe7 19.a5 Nd7 20.ab6 Nf6 21.Qg6 Kh8 $1 22.f3 Rg8 ) 18...Qf7 $5 19.Qf3 Ra7 20.Bh2 20...h5 21.Nd2 g4 22.Qd1 Qf6 $1 23.a5 23...Qh4 24.hg4 hg4 25.ab6 Raf7 26.Qc2 ( 26.Nf1 26...Bh6 27.Qd3 ( 27.Qc2 f3 28.Bg3 Qh5 29.Bh1 Rh7 30.Nh2 Bf4 31.Rf1 Qh2 32.Bh2 Bh2 ) 27...f3 28.Bh1 Rh7 29.Bg3 Qh5 30.Nh2 Bf4 31.Qc2 Bg3 32.fg3 f2 $19 ) 26...Bh6 27.Reb1 $2 27...Bg5 28.Qd3 28...f3 29.Bg3 Qh5 30.Nf1 fg2 31.Kg2 Qh3 32.Kg1 32...Rf2
+ * 
+
+
+
+[Event "Chapter 1967 - 1969"]
+[Site "Game 2"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1967 - 1969"]
+[Black "Game 2"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.e4 c5 2.Nf3 Nc6 3.d4 cd4 4.Nd4 Nf6 5.Nc3 d6 6.Bc4 e6 7.Be3 Be7 8.Qe2 0-0 9.0-0-0 Qc7 10.Bb3 a6 11.g4 $1 ( 11.Rhg1 ) 11...Nd4 12.Rd4 $1 ( 12.Bd4 12...e5 ( 12...b5 13.g5 Nd7 ) ) 12...b5 ( 12...e5 13.Rc4 $1 Qd8 14.g5 Nd7 15.Nd5 $1 15...Bg5 16.Rg1 Be3 17.Qe3 ) 13.g5 Nd7 14.Qh5 ( 14.Rg1 14...Nc5 15.e5 $5 ) 14...Ne5 ( 14...Bb7 15.Rg1 ) ( 14...g6 ) 15.f4 Nc6 16.Rd3 Nb4 $6 ( 16...b4 17.Na4 ( 17.Bb6 $2 Qb6 18.Rh3 h6 19.gh6 g6 ) 17...Na5 18.Bb6 Nb3 19.ab3 Qc6 20.Re1 ) ( 16...Bb7 17.f5 $5 ( 17.Bf2 $5 ) 17...Ne5 18.fe6 $1 Nd3 19.cd3 $16 ) 17.Rd2 17...Rd8 $2 ( 17...a5 18.f5 a4 19.Be6 19...Be6 $1 ( 19...fe6 20.f6 a3 $5 ( 20...g6 21.Qh6 Rf6 22.gf6 Bf6 23.e5 Be5 24.Bd4 $16 ) 21.fe7 Qe7 ) 20.fe6 a3 $1 ) 18.f5 $1 g6 19.fg6 hg6 20.Qh4 20...Nc6 21.Qg3 ( 21.Rg1 ) ( 21.Rf1 21...Bf8 22.Rdf2 Ne5 23.Bd4 ) 21...Ne5 22.h4 22...Bb7 ( 22...b4 23.h5 $5 ( 23.Na4 ) 23...bc3 24.Rdh2 Bf8 25.Bd4 cb2 26.Bb2 Bg7 27.hg6 Rb8 $5 ( 27...fg6 28.Qh3 ) ( 27...a5 28.Rh7 fg6 29.Qh3 ) ( 27...Re8 28.Rh7 $1 fg6 29.Qh3 $18 ) 28.Qh3 Qe7 29.Kb1 ) 23.h5 b4 24.hg6 $1 Ng6 ( 24...bc3 25.Rh8 $1 Kg7 ( 25...Kh8 26.Qh4 $18 ) 26.Rh7 $1 ) 25.Rdh2 25...bc3 26.Bd4 e5 27.Rh8 $3 Nh8 28.g6 $6 ( 28.Qh4 ) 28...Bf6 29.gf7 Kf8 30.Rh7 $1 Nf7 ( 30...Qf7 31.Bf7 Nf7 32.Qg6 $18 ) 31.Qg6 Bg5 32.Kb1 Rd7 33.Qg7 Ke8 34.Qg8
+ * 
+
+
+
+[Event "Chapter 1967 - 1969"]
+[Site "Game 3"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1967 - 1969"]
+[Black "Game 3"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r2q1rk1/p2b2bp/1p1p4/n1pPpppn/2P5/1P2P1PP/PBQNNPBK/R4R2 b - - 0 16"]
+
+16...f4 $5 17.Bf3 g4 $5 18.hg4 fg3 19.Ng3 e4 $5 ( 19...Bg4 20.Bg4 ( 20.Kg2 ) 20...Qh4 21.Bh3 ( 21.Kg2 21...Qg4 22.Qd1 22...Rf2 23.Rf2 Qg3 24.Kf1 ) 21...Rf2 ) 20.Be2 ( 20.Nde4 $1 20...Rf3 21.gh5 ) 20...Qh4 21.Kg2 Bb2 22.Qb2 Bg4 23.Bg4 Qg4 24.Nde4 24...Rae8 25.Rh1 Re4 $6 ( 25...Qf3 ) 26.Rh5 Qf3 27.Kg1 $2 ( 27.Kh2 ) ( 27.Kh3 ) 27...Rg4 28.Rh2 h5 $1 29.Re1 h4 30.Qc2 30...Rf7 31.Qb2 Rfg7
+ * 
+
+
+
+[Event "Chapter 1967 - 1969"]
+[Site "Game 4"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1967 - 1969"]
+[Black "Game 4"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r5k1/3b2p1/3Np1QR/ppP1q3/8/8/PP3rP1/1KR5 w - - 0 31"]
+
+31.Qf7 $1 Rf7 32.Rh8 $1 Kh8 33.Nf7 Kg8 34.Ne5 34...Be8 35.c6 $6 ( 35.a4 $1 ) 35...Kf8 36.Rc5 Rb8 $2 ( 36...Ke7 $1 37.Rb5 a4 $1 ) 37.a4 $1 37...ba4 38.c7 Rc8 39.Nc4
+ * 
+
+
+
+[Event "Chapter 1970"]
+[Site "Game 1"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1970"]
+[Black "Game 1"]
+[Result "*"]
+
+
+1.e4 c5 2.Nf3 d6 3.d4 cd4 4.Nd4 Nf6 5.Nc3 g6 6.Be3 Bg7 7.f3 Nc6 8.Bc4 0-0 9.Qd2 9...Qa5 ( 9...Nd4 10.Bd4 Be6 ) 10.0-0-0 Bd7 11.Bb3 Rfc8 12.Kb1 ( 12.h4 ) 12...Ne5 13.h4 13...Nc4 14.Bc4 Rc4 15.Nb3 Qd8 16.Bh6 16...Bh8 $2 ( 16...Bh6 17.Qh6 Qf8 ) 17.h5 Rac8 18.hg6 fg6 19.g4 $2 ( 19.e5 $1 19...de5 ( 19...Ne8 20.ed6 ( 20.Rhe1 $18 ) ) 20.Bg5 R8c7 21.Bf6 ef6 ( 21...Bf6 22.Qh6 ) 22.Qd5 ( 22.Qh6 Qe7 23.Nd5 ) 22...Kg7 23.Ne4 ) 19...Be6 $1 20.e5 ( 20.Qh2 Qe8 ) 20...Rc3 $1 21.bc3 ( 21.ef6 Rc2 ) 21...Nd5 22.Rde1 Nc3 23.Kb2 23...Qe8 $1 24.f4 Qa4 25.a3 Nb5 26.Qb4 26...Rc2 $1 $19 27.Kc2 Na3 28.Qa3 ( 28.Kc3 Nb5 ) 28...Qa3 29.Nd4 Bg4
+ * 
+
+
+
+[Event "Chapter 1970"]
+[Site "Game 2"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1970"]
+[Black "Game 2"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.e4 c5 2.Nf3 Nc6 3.d4 cd4 4.Nd4 Nf6 5.Nc3 d6 6.Bc4 e6 7.Be3 Qc7 8.Bb3 a6 9.Qe2 Na5 10.g4 h6 ( 10...e5 $2 11.Ba4 $1 ) ( 10...b5 11.g5 Nd7 12.Be6 $1 fe6 13.Ne6 ) 11.0-0-0 b5 12.f3 b4 $5 ( 12...Bd7 ) 13.Na4 Nd7 ( 13...Nb3 14.ab3 Bd7 ) ( 13...Bd7 14.Kb1 g6 15.Nb6 $5 Qb6 16.Ne6 Qb8 17.Nf8 Kf8 18.Bd4 Kg7 ( 18...Qd8 19.Qd2 ) 19.h4 ) 14.Kb1 Be7 15.h4 $1 ( 15.Be6 15...fe6 16.Ne6 Qc4 $1 ) 15...g6 16.h5 g5 17.c3 $1 17...bc3 18.Rc1 Nc5 19.Rc3 Bd7 20.e5 $1 20...Nab3 ( 20...de5 21.Nc5 Bc5 22.Ne6 $1 ) 21.ab3 ( 21.Nb3 $5 Ba4 22.ed6 Bd6 23.Nc5 Bc5 24.Bc5 ) 21...Qb8 22.ed6 Na4 23.ba4 Bd6 24.Rb3 24...Bb4 ( 24...Qd8 25.Nf5 $1 ef5 ( 25...Ba4 26.Rb7 ) 26.Bd4 $18 ) 25.Nf5 ( 25.Qd3 25...Ba4 26.Ne6 $1 ) 25...Ba4 26.Ng7 Kf8 27.Bc5 ( 27.Ne6 $2 Kg8 $1 ) 27...Kg7 ( 27...Bc5 28.Rb8 Rb8 29.Qe5 $18 ) 28.Rb4 Bb5 29.Bd4 Kg8 30.Qe1 30...Rh7 31.Bf6 $1 31...e5 ( 31...Bd3 32.Ka1 Qc7 33.Rd4 $1 ) 32.Be5 32...Qe8 33.Bf6 $1 33...Qe6 ( 33...Qe1 34.Re1 ) 34.Qc3 Rc8 35.Qd4 Be2 36.Rb6 Qe8 37.Rc1 $2 ( 37.Rb3 37...Bb5 38.Rc3 Rc6 39.Rhc1 ) 37...Rc1 $2 ( 37...Bd3 38.Qd3 Rc1 39.Kc1 Qe1 40.Kc2 Qf2 $1 41.Kb1 Qb6 42.Bc3 ) 38.Kc1 Bf3 39.Rd6 39...Qe1 40.Kc2 Qe2 41.Kc3
+ * 
+
+
+
+[Event "Chapter 1970"]
+[Site "Game 3"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1970"]
+[Black "Game 3"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r3r1k1/5pb1/b2p1npp/qNpP4/P1Q5/4BN1P/1P3PP1/3RK2R w K - 0 20"]
+
+20.Nd2 Re4 $1 21.Qc2 Ra4 22.Nc3 Rb4 23.b3 Re8 24.Qa2 Qb6 25.Nc4 Bc4 26.bc4 26...Nh5 $1 27.Nb5 Ng3 $1 28.fg3 Re3 29.Kf2 ( 29.Kf1 29...Be5 ) 29...Bd4 $1 30.Nd4 cd4 31.Qa8 Kg7 32.Kg1 Rb2 33.Kh2 33...Rg2 $1 34.Kg2 Qb2
+ * 
+
+
+
+[Event "Chapter 1970"]
+[Site "Game 4"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1970"]
+[Black "Game 4"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.Nf3 Nf6 2.c4 g6 3.d4 c5 4.d5 Bg7 5.Nc3 0-0 6.g3 d6 7.Bg2 e6 8.0-0 ed5 9.cd5 9...Nbd7 10.Nd2 a6 11.a4 11...Ne8 $5 12.a5 ( 12.Nc4 Nb6 13.Ne3 Bd7 14.a5 Nc8 15.Nc4 Bb5 16.Qb3 Bc4 ) 12...Rb8 13.Nc4 Ne5 14.Nb6 Nd7 $1 15.Nc4 Ne5 16.Nb6 16...Nc7 $5 17.f4 $6 ( 17.h3 Nb5 18.Bd2 Re8 19.Re1 Nd7 20.Nc8 Qc8 21.Qa4 b6 $5 ) 17...Ng4 18.e3 ( 18.Nc4 Re8 19.Ne4 Nb5 20.h3 Bf5 $1 21.hg4 Be4 ) 18...Re8 19.Re1 ( 19.Qf3 $2 Ne3 $1 20.Be3 Re3 21.Qe3 Bd4 $19 ) 19...Nb5 $1 20.Nb5 ab5 21.h3 Nf6 22.Qb3 ( 22.e4 22...c4 $5 ( 22...Nd7 ) ) 22...Ne4 $1 23.Qb5 $6 ( 23.g4 ) ( 23.Kh2 Bd7 ) 23...Ng3 24.e4 $2 24...Bh3 $6 ( 24...Bf5 $1 ) 25.Bh3 Qh4 26.Bg2 ( 26.Kh2 Ne4 $19 ) 26...Nf5 $1 ( 26...Ne4 27.Be3 ) 27.Re3 ( 27.Be3 Ne3 28.Re3 Bd4 ) ( 27.Rd1 27...Qg4 $1 ) 27...Bd4 28.Raa3 Ne3 29.Be3 Qe1
+ * 
+
+
+
+[Event "Chapter 1970"]
+[Site "Game 5"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1970"]
+[Black "Game 5"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.Nf3 g6 2.g3 Bg7 3.Bg2 Nf6 4.0-0 0-0 5.c4 d6 6.d4 c5 7.Nc3 Nc6 8.dc5 dc5 9.Bf4 Nh5 10.Bd2 ( 10.Be3 10...Nd4 ) 10...Bd7 11.Qc1 Re8 12.Rd1 Qc8 13.Bh6 Bh8 14.Qd2 Bh3 15.Rac1 $5 Bg2 16.Kg2 Nd4 $1 17.Qd3 Qc6 18.b3 Nf6 ( 18...f5 $5 ) 19.h3 Rad8 20.e4 $6 20...Nd7 $1 21.Nd2 ( 21.Ne2 21...e5 22.Nc3 22...f5 23.Nd5 Nf6 $1 ) 21...Ne5 22.Qf1 22...Nf5 $1 23.Bg5 h6 24.Bf4 Nd3 $1 25.Nd5 25...Nf4 $2 ( 25...Nc1 26.ef5 e6 $1 ) 26.Nf4 e6 ( 26...Rd2 27.Rd2 Qe4 28.Kh2 28...Nd4 29.Rd3 $1 Nf3 30.Kh1 $1 ) ( 26...Rd2 27.Rd2 27...Nh4 $1 28.gh4 Qe4 29.Kg1 ( 29.Kg3 Be5 ) 29...Qf4 ) 27.Qe2 Rd4 $2 ( 27...Nd4 28.Qe3 g5 $1 29.Nd3 f5 $1 ) 28.Kh2 Ne7 29.Re1 $1 29...Red8 30.Nf3 R4d7 31.h4 $1 Qc7 32.Red1 32...Nc6 33.Kg2 Rd6 34.Rd6 Qd6 35.Rc2 Nd4 36.Nd4 Qd4 37.Nh3 $1 Qd1 38.Ng1 $1 Kf8 39.Nf3 $1 Ba1 40.Qd1 Rd1 41.Rd2 Rd2 42.Nd2 f5 43.ef5 gf5
+ * 
+
+
+
+[Event "Chapter 1970"]
+[Site "Game 6"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1970"]
+[Black "Game 6"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.e4 c5 2.Nf3 d6 3.d4 cd4 4.Nd4 Nf6 5.Nc3 a6 6.Bg5 e6 7.f4 Be7 8.Qf3 Qc7 9.0-0-0 Nbd7 10.Be2 10...b5 11.Bf6 Nf6 12.e5 Bb7 13.Qg3 de5 14.fe5 Ne4 $6 ( 14...Nd7 15.Bb5 $5 ab5 16.Ndb5 Qc5 17.Qg7 0-0-0 ( 17...Qe5 18.Nc7 $1 ) 18.Qf7 Ne5 19.Qe6 Kb8 ) 15.Ne6 $1 ( 15.Qg7 0-0-0 $1 ) ( 15.Ne4 Be4 16.Bf3 ( 16.Qg7 0-0-0 $1 ) ( 16.Bd3 Bd3 17.Rd3 0-0 $10 ) 16...Bf3 17.Qf3 ( 17.Qg7 Bg5 $1 ) 17...0-0 ) 15...fe6 ( 15...Qc3 16.Ng7 Kf8 17.Ne6 $1 Ke8 18.Qc3 Nc3 19.Nc7 ) 16.Bh5 16...Kf8 $2 ( 16...g6 17.Bg6 hg6 18.Qg6 Kf8 19.Rhf1 $1 ) 17.Rhf1 Bf6 18.Ne4 Be4 19.Rd2 Bg6 ( 19...Bf5 20.ef6 Qg3 21.hg3 gf6 ( 21...g6 $2 22.Bf3 ) 22.Rd7 ) ( 19...Qc4 20.Rf6 $1 gf6 21.Qf4 $18 ) 20.Bg6 hg6 21.Qf3 Kf7 22.ef6 Rhf8 23.Qd1 ( 23.Qh3 ) ( 23.Rdf2 ) 23...Rfd8 $1 24.Rd8 Rd8 25.Qf3 Qd6 26.b3 $6 ( 26.h4 e5 27.fg7 Kg7 28.h5 ) 26...e5 27.fg7 Kg7 28.Kb1 Qe7 29.Re1 Rd4 30.Qc6 b4 31.Re4 $4 ( 31.Qa6 e4 ( 31...Rd2 32.Qc6 ) 32.Qb6 $1 ) 31...Rd1 32.Kb2 Qg5 $1 33.Qb7 Kh6 34.Qb4 Qc1 $1 35.Kc3 Qa1 $1 36.Kc4 Rd4 $1
+ * 
+
+
+
+[Event "Chapter 1970"]
+[Site "Game 7"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1970"]
+[Black "Game 7"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1qn2rk1/r4ppp/ppb1n3/3NpN2/2P1P3/1P2Q3/P2RB1PP/3R2K1 w - - 0 27"]
+
+27.Nf6 $1 gf6 28.Qg3 Ng5 ( 28...Kh8 29.Qh4 ( 29.Rd8 $1 ) ) 29.h4 Be4 30.hg5 Bf5 31.gf6 Bg6 32.Qg5 ( 32.Rd8 )
+ * 
+
+
+
+[Event "Chapter 1970"]
+[Site "Game 8"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1970"]
+[Black "Game 8"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4r3/7p/p4kp1/8/4p1PP/P1R5/4PK2/8 b - - 0 38"]
+
+38...Re5 $1 39.Rc6 Re6
+ * 
+
+
+
+[Event "Chapter 1970"]
+[Site "Game 9"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1970"]
+[Black "Game 9"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4r3/7p/p4kp1/8/4p1PP/P1R5/4PK2/8 b - - 0 38"]
+
+38...h5 $2 39.Rc6 Ke5 $1 ( 39...Re6 40.Re6 Ke6 41.Kg3 $18 Kd5 ( 41...Ke5 42.e3 a5 43.a4 Kd6 44.gh5 gh5 45.Kf4 Kd5 46.Kf5 Kc4 47.Ke4 Kb4 48.Kd4 Ka4 49.Kc4 $18 ) 42.Kf4 a5 43.a4 Kc4 44.gh5 gh5 45.Ke4 Kb4 46.Kd4 $1 Ka4 47.Kc4 $1 47...Ka3 48.e4 a4 49.e5 Kb2 50.e6 a3 51.e7 a2 52.e8=Q a1=Q 53.Qe2 $1 $18 ) 40.Rg6 hg4 41.Ra6 $2 ( 41.Rg4 $1 ) 41...Rf8 $1 42.Ke3 ( 42.Kg3 Rf1 $1 43.h5 Rg1 $1 44.Kf2 Rh1 45.Ra5 Kf6 46.Kg3 Rh3 47.Kg4 Re3 48.a4 Re2 49.Kf4 Rh2 50.Ke4 Rh4 51.Kf3 ( 51.Kd3 Rh3 52.Ke2 Rh4 53.Ra6 Kg7 54.h6 Kh7 55.a5 Rh5 $10 ) 51...Kg7 52.Kg3 Rc4 53.Ra6 Kh7 54.a5 Rc5 55.Kf4 Rh5 ( 55...Rd5 56.Ke4 Rg5 57.Kd4 Rf5 $10 ) 56.Ra8 Rc5 $10 $1 ) 42...Rh8 43.Ra5 Kf6 44.Ke4 ( 44.h5 Rb8 $1 45.Ke4 Re8 ) 44...Rh4 45.Kf4 45...Rh3 $1 46.Ra6 Kf7 47.Ra7 ( 47.e4 g3 48.Kf3 Rh4 $1 $10 ) 47...Kf6 48.Ra8 Kf7 49.a4 g3 50.Kf3 Rh2 51.Kg3 ( 51.e4 g2 52.Kf2 Rh4 $10 ) 51...Re2 52.a5 Kg7 53.Kf4 Rb2 54.a6 Rb6 55.Ke5 Kh7 56.Ra7 Kh6 57.Kf5 Rc6 58.Ra8 Kh7 59.Ke5 Rb6 60.Kd5 Rg6 61.Ra7 Kh6
+ * 
+
+
+
+[Event "Chapter 1970"]
+[Site "Game 10"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1970"]
+[Black "Game 10"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/6p1/3R2p1/6p1/6P1/4k3/8/2K2R2 w - - 0 1"]
+
+1.Ra6 $1
+ * 
+
+
+
+[Event "Chapter 1971 - 1973"]
+[Site "Game 1"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1971 - 1973"]
+[Black "Game 1"]
+[Result "*"]
+
+
+1.e4 Nf6 2.e5 Nd5 3.c4 Nb6 4.d4 d6 5.f4 5...de5 6.fe5 Nc6 7.Be3 Bf5 8.Nc3 e6 9.Nf3 Be7 10.d5 $1 Nb4 ( 10...ed5 11.cd5 Nb4 12.Nd4 12...Bg6 13.Bb5 $1 ) 11.Rc1 11...f6 ( 11...0-0 ) ( 11...ed5 ) 12.a3 Na6 13.g4 $1 13...Bg4 ( 13...Bg6 14.de6 ) 14.Rg1 f5 ( 14...Bh5 15.Be2 $1 ) 15.h3 $1 15...Bf3 ( 15...Bh4 16.Kd2 Bh5 17.Rg7 17...ed5 $2 18.cd5 Nd5 19.Qa4 $1 c6 ( 19...Kf8 20.Rd7 $18 ) 20.Qh4 20...Bf3 21.Bg5 Qa5 22.b4 $18 ) 16.Qf3 0-0 17.Rc2 ( 17.Bh6 17...Bh4 18.Kd1 Rf7 19.Kc2 ) 17...Qd7 18.Rd2 Rae8 ( 18...Bc5 $5 ) 19.d6 $1 19...cd6 20.Qh5 $1 20...Rc8 ( 20...-- 21.Rdg2 Rf7 22.Qf7 $1 ) 21.c5 $1 21...Rc5 ( 21...Nc5 22.Bb5 $1 Qc7 23.Rdg2 Rf7 24.Qf7 $1 ) 22.Bc5 $6 ( 22.Rdg2 Rf7 23.Bc5 Nc5 24.Bb5 $1 Qc7 25.Qf7 $1 ) 22...Nc5 23.Rdg2 g5 24.Bb5 Qd8 25.b4 Ncd7 26.ed6 Bf6 27.Ne2 Ne5 28.Nf4 Qd6 $2 ( 28...Nf7 $1 ) 29.Rg5 $1 Kh8 30.Qh7 $1
+ * 
+
+
+
+[Event "Chapter 1971 - 1973"]
+[Site "Game 2"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1971 - 1973"]
+[Black "Game 2"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.e4 c5 2.Nf3 d6 3.d4 cd4 4.Nd4 Nf6 5.Nc3 Nc6 6.Bc4 e6 7.Be3 Be7 8.Qe2 a6 9.0-0-0 Qc7 10.Bb3 0-0 11.g4 Nd7 12.Nf5 $1 ( 12.h4 $2 ) 12...ef5 13.Nd5 Qd8 14.gf5 14...Na5 ( 14...Nf6 15.Bb6 Qd7 16.Rhg1 Kh8 17.Rd3 ) 15.Ne7 ( 15.Rhg1 15...Kh8 16.Bd4 Nb3 17.ab3 Bg5 $1 ( 17...f6 18.Nc7 $3 Qc7 19.Rg7 $3 ) ) 15...Qe7 16.Bd5 Kh8 17.Rhg1 Nf6 18.Qf3 18...Nd5 19.Rd5 ( 19.Rg7 19...Kg7 20.Rg1 Kh8 21.Qg4 Qf6 22.ed5 Nc4 $1 23.Qc4 Qf5 ) 19...Nc4 ( 19...Nc6 ) 20.f6 $1 Qf6 21.Qf6 $1 gf6 22.Bd4 22...Ne5 23.f4 Nd7 24.Rd6 24...Rg8 25.Rd1 25...Re8 ( 25...Kg7 26.Bc3 b5 $5 ) 26.f5 $5 26...Re4 27.Rg1 27...h5 28.Rg5 Rg4 $2 ( 28...Kh7 29.Bf6 Nf6 30.Rf6 Re7 ) 29.Rf6 $3 29...Rg1 ( 29...Rg5 30.Rh6 Kg8 31.Rh8 ) 30.Kd2 $1 Rg2 31.Ke3 $1
+ * 
+
+
+
+[Event "Chapter 1971 - 1973"]
+[Site "Game 3"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1971 - 1973"]
+[Black "Game 3"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r1bq1rk1/p4pbp/2p3p1/2Bnp3/8/2N2P2/PPPQ2PP/R3KB1R b KQ - 0 12"]
+
+12...Re8
+ * 
+
+
+
+[Event "Chapter 1971 - 1973"]
+[Site "Game 4"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1971 - 1973"]
+[Black "Game 4"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r1bq1rk1/p4pbp/2p3p1/2Bnp3/8/2N2P2/PPPQ2PP/R3KB1R b KQ - 0 12"]
+
+12...Nc3 $1 13.Bf8 Qf8 14.bc3 ( 14.Qc3 e4 $1 ) 14...Qc5 15.Rd1 Be6 ( 15...e4 16.Qd8 Bf8 17.Qd4 ) 16.c4 e4 $1 17.fe4 Re8 18.Bd3 18...Bg4 $1 19.h3 19...Bc3 $1 20.Qc3 Qe3 21.Kf1 Re4 $1 22.Qf6 Bd1
+ * 
+
+
+
+[Event "Chapter 1971 - 1973"]
+[Site "Game 5"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1971 - 1973"]
+[Black "Game 5"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4 4...Bg7 5.Nf3 c5 ( 5...0-0 6.e5 $1 6...de5 ( 6...Nfd7 7.Bc4 c5 8.e6 Nb6 9.ef7 Kh8 10.h4 $5 ) 7.de5 7...Qd1 8.Kd1 Ng4 9.Ke1 h5 ( 9...Nc6 ) 10.Nd5 Nc6 11.Bb5 Bd7 12.h3 Nh6 13.Kf2 ( 13.Ne7 Ne7 14.Bd7 14...c6 15.g4 $1 Rfd8 16.e6 ) 13...Rfd8 ( 13...Nf5 14.g4 ) 14.Bc6 bc6 15.Nc7 ) 6.e5 ( 6.dc5 ) ( 6.Bb5 ) 6...Nfd7 7.Bc4 $5 7...0-0 ( 7...cd4 8.Ng5 ( 8.Bf7 $5 8...Kf7 9.e6 Kg8 $1 10.ed7 Bd7 11.Nd4 11...Nc6 ( 11...Qb6 ) ) ( 8.Qd4 8...0-0 ( 8...de5 9.Bf7 $1 Kf7 10.Ng5 Ke8 11.Qd5 $18 ) ( 8...Nc6 9.Bf7 ( 9.Qd5 $5 ) ( 9.Qd2 ) 9...Kf7 10.Ng5 Ke8 11.Qd5 ) 9.Qe4 ) 8...0-0 ( 8...dc3 $5 ) 9.Qd4 $5 ) 8.e6 $1 8...Nb6 ( 8...fe6 9.Be6 Kh8 10.d5 $1 ) 9.ef7 Kh8 10.h4 $5 10...Bg4 ( 10...Nc4 11.h5 Bf5 ( 11...gh5 12.Rh5 Rf7 13.Ng5 Rf6 14.Rh7 ) 12.hg6 Bg6 13.f5 $5 Bf5 14.Ng5 ) 11.h5 $1 gh5 ( 11...Nc4 12.hg6 h5 13.Qd3 13...Nb6 14.Rh5 $5 Bh5 15.Qf5 Bh6 16.Qh5 Kg7 17.Ng5 $1 Qc8 18.d5 $1 18...Nd5 19.Nd5 Nc6 20.Nc7 $1 Nd4 21.Be3 $1 ) ( 11...Bh5 12.g4 $1 Bg4 13.Rh7 $1 ( 13.Ng5 $1 ) ) 12.Be2 $1 12...Qd7 ( 12...cd4 13.Ng5 $1 Bf5 14.Bd3 ) 13.Ng5 h6 14.Bg4 ( 14.dc5 ) ( 14.Be3 ) 14...Qg4 15.Qd3 $5 ( 15.Qg4 hg4 16.dc5 dc5 17.Be3 ) 15...hg5 16.Qg6 $1 h4 17.Ne4 $1 17...Rf7 18.Ng5 $1 Qg3 19.Kf1 Rf4 20.Bf4 Qf4 21.Ke2 Qg4 22.Ke1 Qg3 23.Kd1 Qg4 24.Kc1 Qf4 25.Kb1 Qg5 26.Qg5 N8d7 27.Rh4 Kg8 28.Rg4
+ * 
+
+
+
+[Event "Chapter 1971 - 1973"]
+[Site "Game 6"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1971 - 1973"]
+[Black "Game 6"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4 Bg7 5.Nf3 c5 6.dc5 ( 6.e5 ) 6...Qa5 7.Bd3 ( 7.cd6 $2 Ne4 $1 ) ( 7.Qd4 $5 7...dc5 8.Qc4 $1 ) 7...Qc5 8.Qe2 0-0 9.Be3 Qa5 10.0-0 10...Nc6 $5 ( 10...Bg4 ) 11.h3 11...Bd7 12.a3 Rac8 13.Qf2 $1 13...Qd8 14.Qh4 ( 14.Ba7 Na7 15.Qa7 15...Nh5 $1 16.f5 e6 $1 ( 16...Bc3 ) ) ( 14.e5 $5 ) 14...e6 15.f5 $1 ( 15.Nb5 15...d5 16.e5 Ne4 17.Qd8 Rfd8 18.Na7 ) 15...Ne8 ( 15...ef5 $5 16.ef5 Bf5 17.Bf5 gf5 18.Bh6 ) ( 15...Nh5 $5 16.g4 Qh4 17.Nh4 Bf6 $5 ) 16.Bg5 $5 16...f6 ( 16...Qb6 17.Qf2 ) 17.fg6 hg6 18.e5 $3 18...Qb6 ( 18...fg5 19.Ng5 Rf5 20.Bf5 gf5 21.Rf5 $1 ef5 22.Qc4 $18 ) ( 18...Ne5 19.Ne5 $1 fg5 20.Rf8 Bf8 ( 20...Kf8 21.Rf1 ) 21.Qe4 $18 ) 19.Kh1 f5 20.ed6 20...Nd6 21.Rad1 ( 21.Na4 $1 21...Qc7 ( 21...Qa5 22.Bd2 $1 ) 22.Bf4 $1 ) 21...Be8 ( 21...Qb2 22.Bf4 22...Nf7 23.Nb5 23...Nce5 $5 ( 23...Qf6 ) ) 22.Rfe1 $5 22...Bf7 23.Be3 23...Qd8 ( 23...Qb2 24.Ng5 Rfd8 25.Nb5 $1 25...Nb5 26.Bc5 $1 26...Bh6 27.Qh6 Qg7 28.Qg7 Kg7 29.Bb5 ) 24.Ng5 Re8 25.Bc5 $1 25...Ne7 26.Bd6 Qd6 27.Bc4 Nd5 28.Nd5 ed5 29.Re8 Re8 30.Nf7 Kf7 31.Rd5
+ * 
+
+
+
+[Event "Chapter 1971 - 1973"]
+[Site "Game 7"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1971 - 1973"]
+[Black "Game 7"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.e4 c5 2.Nf3 d6 3.d4 cd4 4.Nd4 Nf6 5.Nc3 a6 6.Bg5 e6 7.f4 Be7 8.Qf3 Qc7 9.0-0-0 Nbd7 10.Bd3 b5 ( 10...h6 11.Bh4 g5 $5 12.fg5 Ne5 13.Qe2 Nfg4 $5 ) 11.Rhe1 Bb7 12.Nd5 $5 ( 12.Qg3 12...0-0-0 ( 12...b4 13.Nd5 $1 ) 13.Bb5 $1 ) 12...Nd5 $5 ( 12...ed5 13.Nf5 $5 ) 13.ed5 Bg5 ( 13...Bd5 14.Qd5 $1 ( 14.Ne6 $3 14...fe6 ( 14...Be6 15.Qa8 ) 15.Qh5 Kd8 16.Be7 Ke7 17.Qd5 $18 ) 14...ed5 15.Re7 Kf8 16.Bf5 Rd8 ( 16...Re8 ) ( 16...Qa5 ) 17.Be6 $18 ) 14.Re6 $5 ( 14.fg5 14...Ne5 15.Qh3 ( 15.Qh5 $5 ) 15...Bd5 16.g6 $1 ( 16.Be4 Be4 17.Re4 0-0-0 $1 ) 16...h6 17.Be4 Be4 ( 17...0-0 18.Bd5 ed5 19.Qb3 Ng6 20.Nf5 $1 ) 18.gf7 Qf7 19.Re4 ) ( 14.Ne6 fe6 15.Re6 Be7 16.Rde1 Nf6 ( 16...Ne5 17.fe5 0-0-0 $1 ) ) 14...fe6 ( 14...Be7 15.Nf5 fe6 16.Ng7 Kd8 $1 ( 16...Kf7 17.Ne6 Qa5 18.Qh5 Kg8 19.Qg4 Kf7 20.Qg7 Ke8 21.Bg6 hg6 22.Qg6# ) 17.Ne6 Kc8 18.Nc7 Kc7 19.Bf5 ) 15.Ne6 $1 ( 15.Qh5 g6 16.Bg6 hg6 ( 16...Ke7 17.Qg5 Nf6 18.Nf5 $1 $18 ) 17.Qh8 Nf8 18.Ne6 Bf4 $1 19.Nf4 0-0-0 ) 15...Qa5 ( 15...Bf4 16.Qf4 Qb6 17.Qg5 $1 ) ( 15...Qb6 $1 16.Qh5 g6 17.Qg5 ( 17.Bg6 Ke7 $1 18.Qg5 Nf6 ) 17...Qe3 $1 18.Kb1 Kf7 19.Qh6 Rag8 20.Qh4 ( 20.Ng5 Ke7 21.Qh4 Kd8 22.Re1 Qb6 23.Nf7 Kc8 24.Nh8 Rh8 25.Bg6 Qd8 $1 ) 20...Bd5 21.Ng5 Kg7 22.Re1 Qb6 $19 ) 16.Qh5 g6 17.Qg5 $1 ( 17.Bg6 $2 Ke7 18.Qg5 Nf6 19.Bf7 Rag8 $1 ) 17...Rg8 ( 17...Rf8 18.f5 $1 18...gf5 19.Ng7 $1 Kf7 20.Nf5 ) 18.Rd2 ( 18.c3 18...Rc8 19.Re1 Rc3 20.Kb1 $1 Ne5 ( 20...Kf7 21.Qh6 Bd5 22.Qh7 Ke8 ( 22...Kf6 23.Qh4 Kf7 24.Ng5 Kf8 25.bc3 $1 Qc3 26.Qh6 Qg7 27.Nh7 Kf7 28.Qg5 $18 ) 23.Qg8 $18 ) 21.bc3 Bd5 22.Nd4 Qa2 23.Kc1 $16 $1 ) 18...Nf8 $2 ( 18...Nc5 19.Nc5 dc5 20.d6 Qd8 ( 20...Rg7 21.Qf6 $18 ) 21.Re2 Kd7 22.Re7 Kc8 23.Qc5 $1 Kb8 24.Rc7 Re8 25.Qb6 Ra7 26.Be4 Re4 27.Rb7 ) ( 18...Kf7 $1 19.Re2 Nf6 20.Qh6 $1 20...Ke7 $1 21.Nc5 Kf7 22.Ne6 ) 19.Nf8 Qd8 20.Nh7 Qg5 21.fg5 21...Kf7 22.Nf6 Rh8 23.g3 Bc8 24.h4 Bf5 25.Bf5 gf5 26.h5 Ra7 27.Rf2
+ * 
+
+
+
+[Event "Chapter 1971 - 1973"]
+[Site "Game 8"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1971 - 1973"]
+[Black "Game 8"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.e4 Nf6 2.e5 Nd5 3.c4 Nb6 4.d4 d6 5.f4 Bf5 6.Nc3 de5 7.fe5 e6 8.Nf3 $1 ( 8.Be3 Nc6 $1 ) 8...Be7 9.Be3 0-0 ( 9...Nc6 10.d5 $1 ) 10.Bd3 $1 10...Bg4 ( 10...Nc6 11.Bf5 ef5 ( 11...Nc4 12.Bh7 $1 ) 12.Qd3 ) 11.0-0 Nc6 12.h3 $1 12...Bf3 ( 12...Bh5 13.Bh7 $1 Kh7 14.Ng5 Bg5 15.Qh5 Kg8 ( 15...Bh6 16.Rf6 $1 Kg8 17.Rh6 $1 gh6 18.Ne4 $1 ) 16.Bg5 Qd4 17.Kh1 17...Qe5 ( 17...Nc4 18.Bf6 $1 ) ( 17...Ne5 18.Rf4 $1 ) 18.Rae1 Qa5 $1 19.Ne4 Nd7 ( 19...Nc4 20.Qh4 $1 f5 21.Bd2 $1 ) 20.Rd1 ) 13.Qf3 Ne5 ( 13...Nd4 14.Qe4 Nf5 15.g4 g6 16.gf5 ef5 17.Rf5 $1 $18 ) ( 13...f6 14.ef6 Bf6 15.Qe4 ) 14.Bh7 Kh7 15.de5 Qd3 16.Rad1 Qg6 ( 16...Qf5 17.Qf5 ef5 18.b3 $1 18...g6 19.c5 ) ( 16...Qc4 17.Rd4 Qc6 18.Qh5 Kg8 19.Rf6 $1 ) 17.Rd4 ( 17.b3 $1 17...Rad8 18.Rd8 Bd8 19.Bc5 ) 17...Rad8 18.Rg4 $5 ( 18.Rd8 Rd8 19.Qf7 ) ( 18.Qb7 ) 18...Qd3 19.Ne4 $6 ( 19.Re4 $1 ) 19...Nc4 20.Rg7 $5 ( 20.Bg5 $1 Qf3 ( 20...f6 21.ef6 Qf3 22.Rf3 Rd1 23.Kf2 gf6 24.Bf6 $18 ) 21.Rf3 Ne5 ( 21...Rd1 22.Kf2 Ne5 23.Rh4 Kg8 24.Be7 Re8 25.Rg3 Ng6 26.Ba3 $16 ) 22.Rh4 Kg8 23.Be7 Nf3 24.gf3 24...f5 25.Bf8 Rd1 26.Kf2 Kf8 27.Nc5 $16 ) 20...Kg7 21.Qg4 Kh8 22.Bg5 $5 ( 22.Rf3 22...Qe3 ( 22...Qd1 23.Kh2 Ne3 24.Qh5 Kg7 25.Rg3 Ng4 26.Rg4 Qg4 27.Qg4 Kh6 28.Qf4 Kg6 29.Nf6 $1 ) 23.Re3 Ne3 24.Qh5 Kg7 25.Ng5 Rd1 26.Kf2 Rf1 27.Ke3 Rh8 28.Qg4 Kf8 ) 22...Rd4 ( 22...Ne3 23.Qh4 Kg8 24.Re1 24...Qd4 ( 24...Rd4 $1 25.Be7 Qe4 $1 26.Qg3 Qg6 27.Qe3 ( 27.Qg6 fg6 28.Bf8 Ng2 $1 ) 27...Rd3 ) 25.Kh1 Nf5 26.Qg4 ) 23.Re1 ( 23.Bf6 23...Bf6 24.Qh5 Kg8 25.Nf6 Kg7 26.Ne8 $1 Kg8 27.Rf3 Qb1 ( 27...Qg6 28.Nf6 Kg7 29.Rg3 $1 ) 28.Kh2 Qg6 29.Nf6 Kg7 30.Rg3 Qg3 31.Kg3 Rh8 32.Qg5 Kf8 ) 23...Ne5 $6 ( 23...Ne3 $1 24.Qh4 ( 24.Qh5 Kg8 25.Re3 Qd1 ) ( 24.Re3 Qd1 ) 24...Kg8 25.Be7 Qe4 26.Qg3 Qg6 27.Re3 Re8 ) 24.Qh4 Kg8 25.Be7 Re4 ( 25...Ng6 26.Nf6 ) 26.Re4 Ng6 27.Rg4 27...Qe3 $2 28.Kh1 Rc8 29.Bf6 Kf8 30.Rg6 Ke8 31.Rg3 Qe2 32.Qd4
+ * 
+
+
+
+[Event "Chapter 1971 - 1973"]
+[Site "Game 9"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1971 - 1973"]
+[Black "Game 9"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.d4 Nf6 2.c4 c5 3.d5 g6 4.Nc3 Bg7 5.g3 0-0 6.Bg2 d6 7.Nf3 e6 8.de6 $2 ( 8.0-0 ed5 9.cd5 ) 8...Be6 9.Ng5 $5 Bc4 $5 10.Bb7 Nbd7 11.Qd6 ( 11.Ba8 Qa8 12.0-0 d5 13.b3 Ba6 14.Bb2 d4 ) 11...h6 12.Nge4 ( 12.Nh3 12...Rb8 13.Bg2 Re8 14.0-0 g5 $1 ) ( 12.Ba8 Qa8 13.Nf3 13...Ne4 $1 14.Ne4 ( 14.Qd7 Nc3 $19 ) 14...Qe4 15.0-0 Qe2 16.Nd2 ( 16.Qd1 Qf1 17.Qf1 Bf1 18.Kf1 Rb8 19.Rb1 c4 ) 16...Be6 ) 12...Ne4 13.Be4 13...Re8 14.0-0 ( 14.Ba8 Bc3 $1 15.bc3 Re2 16.Kd1 Qa8 17.Re1 Qf3 $19 ) 14...Bc3 $1 15.Ba8 ( 15.Bc6 Bd4 16.Qd7 Qd7 17.Bd7 Re2 $19 ) 15...Be5 $1 16.Qd1 Qa8 17.Qd7 Bd4 $1 18.e3 ( 18.Qh3 Re2 19.Bh6 Rb2 ) ( 18.g4 Re2 19.Bh6 Qf3 $19 ) ( 18.Qa4 Qe4 $1 ) 18...Bf1 19.Kf1 Bf6 $6 ( 19...Rd8 $1 20.Qa4 Qh1 21.Ke2 21...Bf6 ) 20.Qa4 $2 ( 20.Kg1 Rd8 ( 20...c4 21.Qg4 Qc6 ) 21.Qg4 c4 ) 20...Qh1 21.Ke2 21...Re5 22.Qd1 Qh2 23.Bd2 23...Rf5 24.Qg1 Qh3 25.Rc1 ( 25.Bc3 Qg4 26.Ke1 ( 26.Kd2 Rd5 27.Kc2 Qe2 28.Kb3 c4 29.Ka3 Be7 30.Bb4 Ra5# ) 26...Bc3 27.bc3 Qc4 $19 ) 25...Qg4 26.Ke1 Qf3 ( 26...Qe4 $1 27.g4 Rg5 $19 ) 27.Rc4 ( 27.g4 Rg5 28.Qg3 Qg3 29.fg3 Bb2 30.Rc4 ) 27...Bb2 ( 27...Rh5 28.Rf4 Qc6 29.Ke2 Bg5 $1 ( 29...Rh1 30.Qh1 Qh1 31.Rf6 ) ) 28.g4 Re5 29.Qh2 Qd5 30.Rc3 Re8 31.Qh6 Rd8 32.Rc2 32...Bc3 $1
+ * 
+
+
+
+[Event "Chapter 1971 - 1973"]
+[Site "Game 10"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1971 - 1973"]
+[Black "Game 10"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4r1k1/r4p1p/p1b1p1p1/1pqpP1PP/5P2/1PN4R/1PP1Q3/2K4R w - - 0 25"]
+
+25.Qd3 $1 25...Kf8 ( 25...-- 26.hg6 fg6 27.Qg6 $1 ) 26.hg6 hg6 27.Ne4 $1 27...Qb4 ( 27...de4 28.Qd6 $3 Qd6 29.ed6 ) 28.Nd6 ( 28.Kb1 28...Qe4 29.Qc3 $1 $18 ) 28...Qf4 29.Kb1 Qe5 30.Rh8 ( 30.Qf3 $1 30...Qd6 31.Qf6 $1 $18 ) 30...Ke7 31.Nf7 $1 31...Rh8 ( 31...Qf5 32.Qd4 $1 ) 32.Ne5 Rh1 33.Ka2 33...Kd6 34.Qg3 Rah7 35.Nc4 Kc5 36.Qe3 d4 37.Qe5
+ * 
+
+
+
+[Event "Chapter 1971 - 1973"]
+[Site "Game 11"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1971 - 1973"]
+[Black "Game 11"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2b1r3/2r2kpp/pR1Rp3/1p2PpP1/5Bn1/1P4P1/1PP1N3/2K5 w - - 0 29"]
+
+29.Nd4 Nf2 30.Nc6 Ne4 31.Nd8 Kg8 32.Ne6 $1 32...Rce7 33.Nd4 Nd6 34.ed6 34...Re4 ( 34...Rd7 35.Nf5 Rb7 $5 36.Ne7 Ree7 37.de7 Re7 ) 35.c3 Kf7 36.Rc6 Be6 37.Ra6 Rd4 38.Ra7 $1 Kg6 39.cd4 Rd8 40.Rb7 Rd7 41.d5 $1
+ * 
+
+
+
+[Event "Chapter 1971 - 1973"]
+[Site "Game 12"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1971 - 1973"]
+[Black "Game 12"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.e4 c5 2.Nf3 d6 3.d4 cd4 4.Nd4 Nf6 5.Nc3 a6 6.Bg5 e6 7.f4 b5 8.Qf3 $5 8...Bb7 ( 8...b4 9.e5 ( 9.Ncb5 Qb6 10.e5 Bb7 $19 ) ( 9.0-0-0 bc3 10.e5 d5 11.ef6 cb2 12.Kb2 gf6 ) ( 9.Bf6 gf6 10.Nce2 ) 9...bc3 10.Qa8 ( 10.bc3 $1 de5 11.fe5 Qd5 12.ef6 Qf3 13.Nf3 ) 10...cb2 11.Rb1 de5 12.Bf6 gf6 13.Qb8 ed4 14.Rb2 Bd6 ) 9.0-0-0 Nbd7 ( 9...b4 10.Nd5 $1 ed5 11.e5 h6 ( 11...Be7 12.Nf5 $1 ) 12.Bh4 ( 12.Bf6 $5 gf6 13.e6 $1 ) 12...g5 13.fg5 $1 13...Ne4 ( 13...hg5 14.Bg5 $16 ) ( 13...de5 14.gf6 ed4 15.Bc4 $1 $18 ) 14.g6 $1 Qd7 15.Bd3 $1 Nc6 ( 15...de5 16.Be4 de4 17.Qf6 $18 ) ( 15...fg6 16.Rhf1 $1 $16 de5 17.Be4 de4 18.Qf6 $18 ) ( 15...Rg8 16.e6 fe6 17.Rhf1 $16 ) 16.Nc6 Bc6 17.Rhf1 ) 10.Bd3 $1 10...Rc8 ( 10...Qb6 ) ( 10...Qc7 ) ( 10...Be7 ) 11.Nd5 $5 Qa5 ( 11...ed5 12.Rhe1 12...de4 ( 12...Qb6 13.ed5 Kd8 14.Bf5 ) ( 12...Be7 13.Nf5 ) 13.Be4 Be4 14.Re4 Be7 15.Nf5 ) 12.Kb1 ( 12.Bf6 gf6 13.Kb1 ) 12...ed5 ( 12...Nd5 13.ed5 Bd5 ( 13...Nb6 14.Be4 ) ( 13...Nc5 14.Rhe1 ) 14.Qd5 $1 ed5 15.Rhe1 Ne5 16.fe5 ) 13.Rhe1 ( 13.ed5 Bd5 14.Rhe1 Be7 15.Re7 $5 15...Kf8 $1 16.Qe3 Qa2 17.Kc1 17...h6 $1 18.Bf6 Nf6 19.Bf5 Qa1 20.Kd2 Qa5 21.c3 Rb8 $1 ) 13...Nc5 ( 13...de4 14.Be4 Be4 15.Re4 Kd8 16.Re3 Qb6 $1 ) ( 13...h6 14.ed5 Be7 15.Nc6 $1 Bc6 16.dc6 hg5 17.cd7 Nd7 18.Bf5 ) 14.ed5 Kd8 15.Bf5 Rc7 16.Nc6 Bc6 17.dc6 17...Qb6 ( 17...Ne6 18.Be6 fe6 19.Re6 Be7 20.Bf6 $1 20...gf6 ( 20...Bf6 21.Qh3 $1 ) 21.Qe3 $1 ) ( 17...Be7 18.Qe3 ) 18.Qc3 ( 18.Bf6 18...gf6 19.Qc3 ) 18...Rc6 19.Bf6 Kc7 20.Bd4 $1 Qb8 ( 20...b4 21.Qc4 ) 21.Qa5 $1 Qb6 22.Qb6 Rb6 23.b4 23...Na4
+ * 
+
+
+
+[Event "Chapter 1971 - 1973"]
+[Site "Game 13"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1971 - 1973"]
+[Black "Game 13"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r2q1rk1/pp1bppbp/2np1np1/8/3NP3/1BN1BP2/PPP3PP/R2QK2R w KQ - 0 10"]
+
+10.Qe2 $5 10...Na5 11.0-0-0 a6 $1 12.Qd3 ( 12.Qd2 ) 12...b5 13.Bg5 13...Nb3 14.Nb3 b4 15.Bf6 Bf6 16.Nd5 Bg7 17.Qe3 ( 17.Nb4 a5 18.Nd5 a4 19.Nd4 e6 20.Ne3 Qb6 ) 17...Rb8 18.e5 $5 Be6 $1 ( 18...Be5 19.f4 $1 ) 19.f4 $2 19...Rb5 $1 20.Qf3 Bd5 21.Rd5 Rd5 22.Qd5 de5 23.Qd8 Rd8 24.fe5 Be5
+ * 
+
+
+
+[Event "Chapter 1971 - 1973"]
+[Site "Game 14"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1971 - 1973"]
+[Black "Game 14"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.e4 Nf6 2.e5 Nd5 3.c4 Nb6 4.d4 d6 5.f4 Bf5 6.Nc3 de5 7.fe5 e6 8.Nf3 Bb4 9.Bd3 $1 9...Bg4 ( 9...Bd3 10.Qd3 c5 11.0-0 11...cd4 12.Ne4 $1 ) ( 9...c5 10.0-0 cd4 11.Ne4 11...Nc6 12.Bg5 Qc7 13.a3 Be4 14.Be4 Be7 15.Be7 15...Qe7 ( 15...Ne7 16.Ng5 $1 ) 16.b4 $1 ) ( 9...c5 10.Bf5 cd4 ( 10...ef5 11.d5 Nc4 12.0-0 ) 11.Nd4 ef5 12.Nf5 $1 12...Qd1 13.Kd1 g6 14.Nd6 Bd6 15.ed6 Nc4 16.Re1 Kd7 17.Bf4 $18 ) 10.0-0 $1 10...Nc6 ( 10...Bf3 11.Qf3 Qd4 12.Be3 Qd7 13.Rad1 Qe7 14.Bg5 Qc5 ( 14...Qf8 15.Bg6 $1 ) 15.Kh1 0-0 16.Bf6 $1 gf6 ( 16...N8d7 17.Bh7 Kh7 18.Ne4 $18 ) 17.Bh7 Kh7 18.Qh5 Kg8 19.Qg4 Kh8 20.Rf3 $18 ) 11.c5 $1 ( 11.Be3 $2 Nd4 $1 ) 11...Bc3 ( 11...Nd5 12.Ne4 ( 12.Ne2 ) ) 12.bc3 Nd5 13.Qe1 $1 13...Nde7 ( 13...0-0 $2 14.Bg5 Qd7 15.Bh7 $1 Kh7 16.Qh4 $18 ) 14.Rb1 ( 14.h3 Bf3 15.Rf3 Nd4 $1 ) 14...Rb8 15.Ng5 $1 15...Bf5 16.Bf5 Nf5 ( 16...ef5 17.e6 ) 17.Qe4 ( 17.g4 Nh6 18.Rb2 ) 17...Qd7 ( 17...h6 18.Rb7 $1 ) ( 17...0-0 18.g4 ) 18.d5 $1 18...Nce7 19.c4 ( 19.Rb7 $1 Rb7 20.c6 Qc8 21.d6 $1 ) 19...c6 ( 19...h6 20.c6 $1 Qd8 21.Nf7 $1 Kf7 22.cb7 ) 20.d6 ( 20.g4 ) ( 20.de6 fe6 21.g4 ) 20...Ng6 21.g4 Nh6 22.Rb3 $1 22...0-0 ( 22...b6 23.Rbf3 23...-- 24.Nh7 Rh7 25.Qg6 $1 ) 23.Rbf3 b6 24.h4 Rfe8 25.Nh7 Nh4 26.Rh3 26...Ng6 27.Rh6 $1
+ * 
+
+
+
+[Event "Chapter 1971 - 1973"]
+[Site "Game 15"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1971 - 1973"]
+[Black "Game 15"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2r3k1/1pqbppb1/3p1np1/p1r5/P2NP1P1/1BN1QP2/1PP5/2KR3R w - - 0 19"]
+
+19.Rd3
+ * 
+
+
+
+[Event "Chapter 1971 - 1973"]
+[Site "Game 16"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1971 - 1973"]
+[Black "Game 16"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2r3k1/1pqbppb1/3p1np1/p1r5/P2NP1P1/1BN1QP2/1PP5/2KR3R w - - 0 19"]
+
+19.Rd2 Rc3 20.Qc3 Qc3 21.bc3 Rc3 22.e5 ( 22.Kb2 Rc5 ( 22...Re3 ) ) 22...Ne8 ( 22...de5 23.Nb5 ( 23.Ne2 ) 23...Bb5 24.ab5 24...a4 25.Rd8 Bf8 26.Rh8 $1 Kh8 ( 26...Kg7 27.Rdf8 ab3 28.g5 $1 $18 ) 27.Rf8 Kg7 ( 27...Ng8 $1 ) 28.Rf7 Kh6 29.Ba4 ) 23.f4 ( 23.e6 fe6 24.Be6 ( 24.Ne6 Rb3 25.Ng7 Ra3 $10 ) 24...Be6 25.Ne6 Ra3 26.Ng7 Kg7 $10 ) 23...Kf8 $5 ( 23...de5 24.Nf5 $5 Bf5 25.gf5 gf5 26.Rd8 Kf8 27.Rh7 27...e6 28.Re8 ( 28.Rg7 ) ) 24.e6 fe6 25.Ne6 Be6 26.Be6 Nc7 ( 26...Ra3 $5 27.Rdh2 Nf6 $5 $10 ) 27.Bb3 b5 28.Rd3 ( 28.ab5 a4 29.b6 ab3 30.bc7 Rc7 ) 28...Rc5 29.ab5 Rb5 30.Kd2 Rb4 31.Rf1 Na6 32.Ba2 Nc5 33.Rh3 $2 ( 33.Ra3 a4 34.Rb1 Bb2 35.Rh3 ) 33...Ne4 $1 34.Kd3 ( 34.Ke2 Nc3 35.Rc3 Bc3 36.Kd3 ) 34...Nc3 35.Bc4 Na4 36.Ba2 d5 $5 37.Rb1 Rb1 38.Bb1 Nc3 39.Rh1 a4 40.Kd2 a3 41.Kc1 41...Bd4 ( 41...g5 $1 ) 42.Rh3 42...e6 43.Rc3 Bc3 44.Ba2 ( 44.Kd1 Ke7 45.Ke2 Kd6 46.Kd3 Bb2 47.Kd2 ( 47.Ba2 Bc1 $19 ) 47...Bg7 $1 48.Ba2 Kc5 49.c3 ( 49.Kd3 Bh6 $19 50.g5 ( 50.Ke3 Kb4 51.g5 Bg5 52.fg5 Kc3 ) 50...Bf8 51.Bb3 Bd6 52.Ke3 Kb4 ) 49...Bh6 $1 $19 50.g5 ( 50.Ke3 e5 51.g5 ef4 52.Kf4 Bg7 ) 50...Bf8 51.Bb3 Bd6 52.Ke3 e5 53.fe5 Be5 54.Kd3 Bf4 ) 44...Bb4 45.c4 d4 46.Kc2 g5 47.fg5 e5 48.Kd3 Kg7 49.Ke4 Bd6 50.Kf3 d3 51.Ke3 e4
+ * 
+
+
+
+[Event "Chapter 1971 - 1973"]
+[Site "Game 17"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1971 - 1973"]
+[Black "Game 17"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3qb1k1/6pp/4p2r/2b5/p1N2PP1/2NP2K1/6P1/2Q2R2 w - - 0 30"]
+
+30.Ne5 30...Bd4 31.Ne4 $1 Be5 32.fe5 Qd3 33.Rf3 Qe4
+ * 
+
+
+
+[Event "Chapter 1971 - 1973"]
+[Site "Game 18"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1971 - 1973"]
+[Black "Game 18"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3qb1k1/6pp/4p2r/2b5/p1N2PP1/2NP2K1/6P1/2Q2R2 w - - 0 30"]
+
+30.g5 Qd3 $1 31.Rf3 Qc4 32.gh6 Bc6 33.Qf1 ( 33.Rf1 Qd3 34.Kh2 Qg6 $1 35.Qd2 Qh6 36.Kg3 Qg6 37.Kh2 Bd4 $1 ) 33...Qd4 34.Rd3 34...Qf6 35.hg7 35...Bd4 $1 36.Qd1 ( 36.Na2 36...Qg6 37.Kh2 Bg2 38.Qb1 Bb7 $1 $19 ) 36...Qg6 37.Qg4 Qd3 38.Kh2 Qg6 39.Qg6 39...hg6 40.Na2 a3 41.g4
+ * 
+
+
+
+[Event "Chapter 1971 - 1973"]
+[Site "Game 19"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1971 - 1973"]
+[Black "Game 19"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.e4 g6 2.d4 Bg7 3.Nc3 d6 4.f4 Nc6 5.Be3 ( 5.Nf3 Bg4 6.Be3 Bf3 7.gf3 d5 $5 8.ed5 Nb4 9.Bb5 Kf8 ) 5...Nf6 6.Nf3 0-0 7.Bb5 $5 ( 7.Be2 ) ( 7.e5 ) ( 7.Qd2 ) 7...a6 8.Bc6 bc6 9.Qd2 9...Bd7 10.0-0 ( 10.h3 ) 10...Qb8 11.b3 Ng4 12.h3 Ne3 13.Qe3 13...Qb4 14.e5 $1 14...Rae8 15.a3 Qa5 16.Nd2 Qb6 $6 ( 16...Be6 17.g4 f5 $1 ) 17.Nc4 Qa7 18.Rae1 a5 ( 18...Be6 19.Nd2 ( 19.d5 $5 ) 19...f6 20.Nf3 ) 19.g4 f5 20.g5 20...Be6 21.Nd2 Bc8 ( 21...c5 22.dc5 ( 22.d5 Bd7 23.a4 ) 22...de5 23.Nb5 $1 Qb7 24.Nd4 $1 ) 22.Nf3 Ba6 23.Rf2 e6 24.h4 $1 24...Kf7 25.h5 Rh8 26.Rh2 Qb7 27.Kf2 ( 27.h6 $1 Bf8 28.ed6 cd6 29.d5 $3 29...cd5 30.Qd4 $1 Kg8 31.Nd5 $18 ) 27...Qa8 28.Kg3 Qb8 29.Na4 Bb5 30.Nb2 Ba6 31.Qc3 $1 Qb6 ( 31...gh5 ) 32.h6 $1 Bf8 33.ed6 cd6 34.d5 $1 34...e5 35.fe5 de5 36.Ne5 Kg8 37.Ng6 Qb8 38.Nf4 ( 38.Kf3 38...hg6 39.Qf6 ( 39.h7 Rh7 40.Rh7 Be2 $1 41.Re2 Kh7 $10 $1 ) ) 38...Bd6 39.Qg7
+ * 
+
+
+
+[Event "Chapter 1971 - 1973"]
+[Site "Game 20"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1971 - 1973"]
+[Black "Game 20"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.d4 $1 1...d5 2.c4 e6 3.Nc3 Nf6 4.cd5 Nd5 5.Nf3 c5 6.e3 ( 6.e4 6...Nc3 7.bc3 cd4 8.cd4 Bb4 9.Bd2 Bd2 ( 9...Qa5 10.Rb1 $1 Bd2 11.Qd2 Qd2 12.Kd2 0-0 13.Bb5 $1 ) 10.Qd2 0-0 ) 6...Nc6 7.Bd3 cd4 8.ed4 Be7 9.0-0 0-0 10.Re1 10...Nc3 ( 10...Nf6 ) ( 10...Bf6 ) 11.bc3 b6 12.Qc2 $1 g6 ( 12...h6 13.Qe2 $1 ) 13.Qd2 $5 ( 13.Bh6 13...Re8 14.Qd2 ( 14.Be4 ) ( 14.h4 ) ) 13...Bf6 14.Be4 ( 14.h4 $5 14...Bh4 ( 14...Bb7 15.h5 ) 15.Qh6 Bf6 16.Ng5 Bg5 17.Bg5 f6 18.Bg6 $1 ) 14...Bb7 15.Qh6 15...Bg7 16.Qh3 Bf6 ( 16...Na5 17.Ng5 h6 18.Bb7 ( 18.Bg6 18...fg6 19.Qe6 Kh8 20.Nf7 Rf7 21.Qf7 Qd5 22.Qg6 Rg8 ) ( 18.Ne6 $5 fe6 19.Qe6 Kh8 20.Bb7 Nb7 21.Qg6 ) 18...Nb7 19.Ne4 h5 20.Bg5 ) 17.Bf4 $1 17...Na5 18.Be5 18...Rc8 $2 ( 18...Be4 19.Re4 19...Nc4 20.Bf6 Qf6 21.Rh4 h5 22.Qg3 Qf5 23.Ng5 23...Nd2 $1 ) 19.Qh6 $1 19...Be5 20.Ng5 $1 Qg5 21.Qg5 Bd6 22.Bb7 Nb7 23.Re3
+ * 
+
+
+
+[Event "Chapter 1971 - 1973"]
+[Site "Game 21"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1971 - 1973"]
+[Black "Game 21"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 Ne7 5.a3 Bc3 6.bc3 c5 7.Qg4 Qc7 8.Bd3 ( 8.Qg7 ) 8...h5 ( 8...cd4 9.Ne2 dc3 10.Qg7 Rg8 11.Qh7 11...Qe5 12.0-0 12...Rh8 13.Bf4 Qf6 14.Bg5 Qe5 ) 9.Qg7 Rg8 10.Qh6 $1 10...cd4 11.Ne2 Nbc6 $2 ( 11...dc3 12.Bf4 ) 12.cd4 $1 12...Bd7 ( 12...Nd4 $2 13.Nd4 Qc3 14.Qd2 $1 Qa1 15.c3 ) ( 12...Rg2 13.Kf1 $1 ) 13.Be3 0-0-0 ( 13...Rg2 14.Ng3 ) 14.Qh5 Nf5 15.Bf5 ef5 16.Nf4 $2 ( 16.Qf7 16...Rgf8 17.Qd5 f4 18.Nf4 18...Nb4 19.Qb3 $1 Nc2 20.Qc2 Qc2 21.Rc1 ) 16...Ne5 $1 17.0-0 ( 17.de5 Qc3 18.Ke2 Bb5 19.Kf3 Qe5 $19 ) 17...Rh8 $2 ( 17...Ng6 $1 ) 18.Qe2 Ng6 19.g3 Nf4 $6 ( 19...Bc6 20.Qd3 ) ( 19...Qc4 20.Rfe1 ) 20.Bf4 Qc6 21.Qe5 21...Be6 22.Rab1 Kd7 23.Rfe1 b6 24.a4 $1 24...Rhf8 ( 24...Rh3 ) 25.a5 Rb8 26.c4 $1 Rbc8 27.ab6 ab6 28.Ra1
+ * 
+
+
+
+[Event "Chapter 1971 - 1973"]
+[Site "Game 22"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1971 - 1973"]
+[Black "Game 22"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.e4 c5 2.Nf3 Nc6 3.d4 cd4 4.Nd4 e6 5.Nc3 a6 6.Be2 Qc7 7.0-0 b5 8.Nc6 Qc6 9.Bf3 Bb7 10.Bf4 10...d6 ( 10...Ne7 11.Bd6 $1 ) ( 10...Bc5 11.e5 ) 11.Re1 e5 12.a4 $1 ( 12.Bd2 12...Nf6 13.a4 ba4 $1 14.Ra4 Be7 15.Bg5 0-0 16.Be2 Ne4 ) 12...b4 ( 12...ef4 13.e5 d5 14.Bd5 Qb6 15.Qf3 $18 ) 13.Nd5 $1 ef4 14.c3 $1 14...b3 ( 14...bc3 15.e5 $1 ( 15.Rc1 $5 15...Qd7 ( 15...Rc8 16.Rc3 Qd7 17.Bg4 $18 ) 16.Rc3 Bd5 ( 16...Rc8 17.Bg4 $18 ) 17.Qd5 Rd8 ( 17...Rc8 18.e5 $16 ) 18.e5 $1 Be7 ( 18...Ne7 19.ed6 Qd6 20.Qc6 Qc6 ( 20...Rd7 21.Qa8 Rd8 22.Bc6 $18 ) 21.Bc6 Rd7 22.Rd3 $18 ) 19.ed6 Qd6 ( 19...Nf6 20.Qc6 $18 ) 20.Qd6 Rd6 21.Rc8 Kd7 ( 21...Rd8 22.Bc6 Kf8 23.Rd8 Bd8 24.Re8 ) 22.Bg4 Re6 23.Ra8 $18 ) 15...cb2 16.Nc7 $1 Qc7 17.ed6 Ne7 18.dc7 ba1=Q 19.Qa1 ) ( 14...Ne7 ) ( 14...Nf6 ) 15.e5 $1 0-0-0 16.Qb3 Kb8 17.Nb4 $1 17...Qd7 ( 17...Qf3 ) ( 17...Qb6 18.Nc6 $18 ) 18.Bb7 Kb7 ( 18...Qb7 19.Nc6 ) 19.Nd5 Ka8 20.Nb6 Ka7 21.Nd7 Rd7 22.Rad1
+ * 
+
+
+
+[Event "Chapter 1974"]
+[Site "Game 1"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1974"]
+[Black "Game 1"]
+[Result "*"]
+
+
+1.e4 c5 2.Nf3 Nc6 3.d4 cd4 4.Nd4 e6 5.Nc3 d6 6.Be3 Be7 7.Bc4 Nf6 8.Qe2 8...a6 9.0-0-0 0-0 10.Bb3 Qc7 11.g4 Nd4 12.Rd4 b5 ( 12...e5 13.Rc4 $1 ) 13.g5 Nd7 14.e5 ( 14.Qh5 14...g6 $1 15.Qh6 Re8 ) ( 14.Rg1 14...Nc5 15.e5 $5 ) 14...d5 15.Rh4 g6 16.f4 16...b4 17.Na4 Bb7 18.Bd4 $5 18...Bc6 19.Qe3 19...Rfb8 20.Rg1 Qa5 ( 20...Ba4 21.Ba4 Nc5 $5 ) 21.f5 $3 ( 21.Qh3 Nf8 ) 21...Ba4 22.fe6 fe6 23.Qh3 $1 23...Nf8 24.Rh7 $3 24...Nh7 ( 24...Bb3 25.Re7 $1 ( 25.Rh8 $1 Kf7 26.Rf1 Ke8 27.Qe6 ) ) 25.Qe6 Kf8 ( 25...Kh8 26.Qe7 ) 26.Rf1 Ke8 27.Rf7 Rb7 28.Ba4 Qa4 29.Rh7 Kd8 30.Bb6 Rb6 31.Qe7
+ * 
+
+
+
+[Event "Chapter 1974"]
+[Site "Game 2"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1974"]
+[Black "Game 2"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.e4 c5 2.Nf3 d6 3.d4 cd4 4.Nd4 Nf6 5.Nc3 a6 6.Bg5 e6 7.f4 Be7 8.Qf3 Qc7 9.0-0-0 Nbd7 10.Bd3 b5 11.Rhe1 Bb7 12.Qg3 12...0-0-0 ( 12...b4 13.Nd5 $1 13...ed5 14.ed5 Kd8 15.Nc6 $1 Bc6 16.dc6 Nc5 ( 16...Qc6 17.Bf6 Nf6 ( 17...Bf6 18.Be4 Qa4 19.Ba8 Qa2 20.Rd6 $1 Qb2 21.Kd1 Qb1 22.Ke2 Qc2 23.Kf3 $1 ) 18.Qg7 ) 17.Bh4 $5 17...Rg8 18.Bf5 $1 ) 13.Bb5 $5 ( 13.Bf6 Nf6 14.Qg7 Rdf8 15.Qg3 b4 16.Na4 16...Qa5 17.b3 Nh5 18.Qf2 Nf4 19.Ba6 $1 ( 19.Qf4 $4 Bg5 ) ) 13...ab5 14.Ndb5 Qb6 15.e5 $1 15...d5 ( 15...de5 16.fe5 Nd5 17.Be7 Ne7 18.Nd6 ) ( 15...Nc5 16.ef6 gf6 17.Bh6 ( 17.Bh4 Rhg8 18.Qe3 Rg2 ) 17...Rhg8 18.Qh4 18...Rg2 ( 18...Bc6 19.Nd4 Rg2 20.f5 $1 ) 19.f5 $1 ) 16.f5 $3 16...Nh5 ( 16...-- 17.fe6 fe6 18.ef6 gf6 19.Re6 $3 ) ( 16...Ne4 17.Ne4 de4 18.Be7 Qb5 19.Bd8 Rd8 20.fe6 fe6 21.Qg7 ) 17.Qh4 Bg5 18.Qg5 Ne5 ( 18...g6 19.Nd6 ) ( 18...d4 19.Rd4 $18 ) 19.Qh5 19...d4 20.Re5 dc3 21.Nc3 Rd1 22.Qd1 Rd8 23.Qe1 ef5 24.Rf5 Qh6 25.Kb1 Qh2 26.Rf7 Qg2 27.Qe6 Kb8 28.Qe5
+ * 
+
+
+
+[Event "Chapter 1974"]
+[Site "Game 3"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1974"]
+[Black "Game 3"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.e4 e5 2.d4 ed4 3.Nf3 Nc6 4.c3 d5 ( 4...dc3 5.Nc3 ( 5.Bc4 $5 ) ) 5.ed5 Qd5 6.cd4 Bg4 7.Be2 Bb4 ( 7...Bf3 8.Bf3 Qd4 $2 ( 8...Qc4 ) 9.Bc6 ) 8.Nc3 8...Bf3 ( 8...0-0-0 9.0-0 Qa5 ) 9.Bf3 Qc4 10.Qb3 Qb3 11.ab3 11...Nd4 ( 11...Nge7 ) 12.Bb7 Nc2 ( 12...Nb3 13.Ba8 Na1 14.Bc6 Kf8 15.Ba4 ) 13.Ke2 Na1 14.Bc6 ( 14.Ba8 Nb3 15.Bc6 15...Kd8 ) 14...Kf8 ( 14...Kd8 15.Rd1 Kc8 16.Ba8 Nb3 17.Be3 ( 17.Bf4 ) ( 17.Bg5 ) ) 15.Ba8 Nb3 16.Be3 16...Nf6 ( 16...Bc3 $5 17.bc3 Nf6 18.Bf3 ( 18.Rb1 $5 ) ( 18.Ba7 Ke7 19.Bf3 Rd8 20.Rb1 Rd2 21.Ke1 Ra2 22.Be3 ) 18...Ke7 19.Rb1 Rb8 20.Kd1 Nd7 21.Ba7 Rb5 22.Be3 Nd4 23.Rb5 Nb5 ) 17.Nd5 Bd6 ( 17...Nd5 18.Bd5 Nc5 ( 18...Na5 $5 19.Ba7 ) 19.Rc1 Ne6 20.Be6 fe6 21.Rc7 ) 18.Nf6 gf6 19.Bd5 Nc5 20.Ra1 20...Ke7 21.Ra7 Rb8 22.Ra2 ( 22.f4 ) 22...f5 $5 23.g3 23...Ne6 $6 ( 23...f4 $1 24.gf4 Ne6 25.Kf3 Rb4 $1 ) 24.f4 24...Nc5 25.Bd4 25...Ne4 26.Ra5 Rb4 27.Kd3 c5 ( 27...h5 28.Bf7 $2 Kf7 29.Rf5 Kg6 30.Ke4 Rd4 ) 28.Ra7 Kd8 29.Bc3 29...Nc3 30.bc3 Rb2 31.h4 $1 31...Be7 32.Kc4 $1 32...Rb1 33.Bf7 Rg1 34.Kd5 $1 34...Rg3 35.Kc6 $1 35...Bh4 36.Rd7 Kc8 37.Be6 Rg6 38.Kd5 Kb8 39.Rh7 Bg3 $2 ( 39...Be1 40.c4 Rf6 ) 40.Bf5 Rg8 41.Be6 Rd8 42.Ke4 c4 43.f5 43...Rd3 44.f6 Bd6 45.Rd7 $1
+ * 
+
+
+
+[Event "Chapter 1974"]
+[Site "Game 4"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1974"]
+[Black "Game 4"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.e4 c5 2.Nf3 d6 3.d4 Nf6 4.Nc3 cd4 5.Nd4 a6 6.Bc4 e6 7.Bb3 Be7 ( 7...b5 ) 8.Be3 Nc6 9.Qe2 Qc7 10.0-0-0 0-0 11.Kb1 $5 ( 11.g4 ) ( 11.Rhg1 ) 11...b5 12.Nc6 $5 Qc6 13.Bd4 13...Bb7 ( 13...b4 14.Nd5 $1 14...ed5 15.Bf6 15...Bf6 16.Bd5 16...Qe8 17.Ba8 Qe5 $1 18.c4 bc3 ) 14.Rhe1 $1 14...Qc7 ( 14...b4 15.Nd5 $1 ed5 16.ed5 Nd5 17.Bg7 $1 Kg7 18.Bd5 Qc7 19.Bb7 Qb7 20.Qe7 ) 15.a3 Rac8 16.f4 16...e5 17.fe5 $1 17...de5 18.Nd5 $5 18...Bd5 ( 18...Qd6 ) 19.ed5 ed4 20.Qe7 20...Qh2 21.d6 $1 21...Rce8 $2 22.Bf7 $1 Rf7 23.Qe8 $1 Ne8 24.Re8 Rf8 25.d7 Qd6 26.Rf1
+ * 
+
+
+
+[Event "Chapter 1974"]
+[Site "Game 5"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1974"]
+[Black "Game 5"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.d4 c5 2.d5 Nf6 3.c4 g6 4.Nc3 Bg7 5.e4 d6 6.Nf3 0-0 7.Be2 e6 8.0-0 ed5 9.cd5 Re8 10.Nd2 Nbd7 11.Qc2 ( 11.a4 11...a6 12.f4 $5 ) ( 11.f4 $5 ) 11...Ne5 12.b3 ( 12.a4 a6 13.Ra3 ) 12...a6 13.a4 13...Nfg4 $5 14.h3 ( 14.Bb2 Qh4 15.Bg4 Ng4 16.Nf3 Qh5 17.Ne2 Bb2 18.Qb2 Ne5 $1 19.Ne1 Qh6 $1 20.Qc3 f5 21.ef5 Bf5 22.Ng3 Qf4 23.Nf5 Qf5 ) 14...Nh6 15.f4 15...Neg4 $1 16.Nf3 ( 16.hg4 Bd4 17.Rf2 Qh4 18.Nd1 Ng4 19.Bg4 Bg4 20.Nf3 Bf3 21.gf3 Ba1 ) 16...Qa5 $1 17.Bd2 ( 17.e5 17...Bf5 18.Qd2 ( 18.Qb2 de5 19.hg4 ef4 ) ( 18.Ne4 de5 19.Qc5 ( 19.hg4 Be4 20.Qe4 ef4 $19 ) 19...Qc5 20.Nc5 ef4 ) ( 18.Bd3 de5 ( 18...Bd3 19.Qd3 19...de5 $1 ) 19.hg4 ( 19.Bf5 Nf5 20.hg4 Nd4 21.Nd4 ( 21.Qd3 Qc3 $1 ) 21...ed4 22.Ne4 d3 23.Qd3 Ba1 24.Bd2 Qb6 $1 ) ) 18...de5 19.hg4 ef4 $5 20.gf5 ( 20.Bb2 Ng4 ) 20...Bc3 21.Qf4 ) 17...Ne3 $1 18.Be3 Qc3 19.Qc3 Bc3 20.Rac1 Bb2 $1 21.Rc2 Re4 22.Bc5 22...dc5 23.Rb2 23...Nf5 ( 23...Rf4 24.Rc1 b6 25.a5 ba5 26.Rc5 a4 27.ba4 Ra4 28.Rc7 ) 24.Rc1 Rf4 25.Rc5 Nd6 26.Ne5 Bf5 27.Nc4 Ne4 $1 ( 27...Rd8 28.Nd6 Rd6 29.Rc4 $1 ) 28.Rc7 Re8 $5 29.d6 $1 ( 29.Rb7 Nc3 30.Bf3 Na4 ) 29...b5 ( 29...Rd8 30.Rb7 Nd6 31.Ra7 31...Nc4 $2 32.Bc4 ) 30.ab5 ab5 31.d7 $2 ( 31.Nb6 $1 31...Nd6 32.Nd5 $1 32...Rd4 33.Nf6 Kf8 34.Ne8 Ke8 ) 31...Bd7 $1 32.Rd7 Ng3 ( 32...bc4 33.Bc4 Ng3 34.Kh2 Re3 $1 ) ( 32...Nc3 $5 33.Bf1 bc4 34.Bc4 h5 $5 ) 33.Rdd2 33...h5 $1 34.Bf3 ( 34.Nd6 Re2 $1 35.Re2 Rf1 36.Kh2 h4 ) 34...bc4 35.bc4 Rc4 36.Rd1 $2 ( 36.Rd7 36...Rc1 37.Rd1 Rd1 38.Bd1 ) 36...Re7 37.Kf2 h4 38.Rbd2 Kg7 39.Kg1 f5 40.Kf2 Kf6 41.Rd5 Rc2 42.R1d2 Rd2 43.Rd2 Ke5 $1 44.Rd5 Kf4 45.Rd4 Ne4 $1 46.Be4 fe4 47.Rd6 e3 48.Ke2 g5 49.Rd5 Re4 50.Ra5 Rd4 51.Ra2 Rd2 $1
+ * 
+
+
+
+[Event "Chapter 1975"]
+[Site "Game 1"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1975"]
+[Black "Game 1"]
+[Result "*"]
+
+
+1.e4 c5 2.Nf3 d6 3.d4 cd4 4.Nd4 Nf6 5.Nc3 g6 6.Be3 Bg7 7.f3 7...Nc6 8.Qd2 0-0 9.Bc4 ( 9.0-0-0 ) ( 9.g4 ) 9...Bd7 10.0-0-0 ( 10.Bb3 Nd4 11.Bd4 b5 $5 ) ( 10.h4 $5 10...Rc8 ( 10...Ne5 ) ) ( 10.h4 Qa5 11.0-0-0 Rfc8 12.Bb3 Ne5 13.Kb1 $1 13...b5 $5 14.Ncb5 Qd2 $1 15.Rd2 Rab8 16.Nc3 Nc4 17.Bc4 Rc4 18.Nde2 $2 ( 18.Nb3 ) ( 18.Kc1 $5 ) 18...Ne4 $1 19.fe4 ( 19.Ne4 Rb2 20.Kc1 Ra2 21.Kd1 Ra1 22.Nc1 Bb2 $1 ) 19...Rc3 20.Bd4 Bd4 21.Rd4 Re3 ) 10...Qb8 $5 11.Bb3 ( 11.g4 11...b5 $1 12.Ndb5 ( 12.Bd5 12...Rc8 13.Bc6 Bc6 14.h4 b4 15.Nce2 Ne4 $1 ) 12...Ne5 13.Be2 Bb5 14.Nb5 Nf3 ) ( 11.h4 11...b5 $5 ) 11...a5 12.Ndb5 ( 12.a4 Nd4 ( 12...Rc8 13.g4 Ne5 14.Qe2 Rc3 $5 15.bc3 Qc7 ) 13.Bd4 b5 $1 ) 12...a4 $5 13.Ba4 ( 13.Na4 Na5 14.Qd3 14...Nb3 15.Qb3 Be6 ) 13...Rc8 14.Qe2 ( 14.Kb1 Na5 15.Bb3 Nc4 $1 16.Qe2 $1 Ne3 17.Qe3 Rc5 ) 14...Na5 15.Bb3 ( 15.g4 ) ( 15.Kb1 15...Nc4 16.Bb3 ) 15...Nb3 16.ab3 16...d5 $1 ( 16...Bb5 17.Nb5 17...d5 ) ( 16...Ra5 17.b4 Bb5 18.Nb5 Ra4 ( 18...Ra1 19.Kd2 Ra2 ) ) 17.ed5 ( 17.Nd5 Nd5 18.ed5 Bb5 19.Qb5 Qe5 $1 ) 17...Qe5 ( 17...Bb5 18.Qb5 ( 18.Nb5 Qe5 $1 ) 18...Rc3 $1 19.bc3 Ne4 $3 20.Bd4 ( 20.fe4 $2 Bc3 21.Qa4 b5 $1 ) 20...Bd4 $1 21.cd4 Qf4 22.Kb2 Ra2 $1 ) 18.f4 Ra1 ( 18...Bb5 19.fe5 Be2 20.Ne2 ( 20.ef6 Bd1 21.fg7 Bf3 $1 ) 20...Nd5 $1 ) 19.Kd2 19...Ne4 $1 20.Ke1 ( 20.Ne4 Rc2 $3 21.Kc2 Qb2 22.Kd3 Bb5 ) 20...Rd1 21.Kd1 Qf5 22.Kc1 $2 ( 22.g4 $1 Qg4 ( 22...Qf6 23.Ne4 Qb2 24.Bc1 $1 Bb5 25.Bb2 Be2 26.Ke2 Rc2 27.Kd3 Rb2 28.Nd2 g5 $1 29.Re1 $1 ( 29.fg5 29...Be5 $1 ) ) 23.Ne4 Qf5 24.Nbc3 Bc3 $1 25.Nc3 Rc3 ) 22...Ra8 23.Kb1 23...Nc3 $6 ( 23...Qf6 24.Nd4 24...Nc3 25.bc3 Qb6 $1 ) 24.Nc3 Qf6 25.Bc1 $2 ( 25.Qd3 $1 Bf5 ( 25...b5 26.Bc5 $1 Qa6 27.Ba3 27...Bf5 28.Qb5 Bc3 29.Qa6 Ra6 30.Be7 ) 26.Qb5 $1 ) ( 25.Nd1 25...Qd6 $1 26.Re1 $1 26...Qd5 27.Qd2 $1 Qb5 28.Bc5 $1 Qc5 29.Qd7 Qa5 30.c3 Bc3 31.bc3 $1 ) 25...b5 26.Ne4 Qa6 27.c3 27...Bc3 $1 28.Nc3 ( 28.bc3 $2 Qa1 29.Kc2 Ra2 ) 28...Bf5 29.Ne4 Qa2 30.Kc2 Rc8 31.Kd2 Qb3 32.Qd3 Qb4 33.Ke3 Rc4 34.Nf6 ef6 35.Qa3 35...Re4 36.Kf2 Qd4 37.Kg3 37...Qd5 ( 37...Re2 $1 38.Qf3 Qc4 $1 39.Qc3 Rg2 $1 40.Kg2 Qd5 $1 41.Kg1 Qd1 42.Kg2 Be4 ) 38.Qf3 Qe6 39.Rd1 Kg7 40.Rd3 Rc4 41.Re3 Be4 42.Qe2 Qf5 43.Rc3 Ra4 44.Qd2 Ra7 $1 45.Qe3 Rd7 46.Rc5 Qe6 47.Kf2 ( 47.f5 Qd6 48.Kf2 Bf5 49.Rb5 Qh2 ( 49...Rc7 $1 50.Qh6 Kg8 51.Rb8 Bc8 $19 ) ) 47...Qd6 48.b4 Bb7 49.h3 Qd1
+ * 
+
+
+
+[Event "Chapter 1975"]
+[Site "Game 2"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1975"]
+[Black "Game 2"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r1b2rk1/pp2bppp/2nqp3/3n4/3P4/2NB1N2/PP3PPP/R1BQR1K1 w - - 0 11"]
+
+11.Qc2 $5 11...h6 ( 11...g6 ) ( 11...Ndb4 $1 12.Bh7 Kh8 13.Qb1 f5 ( 13...g6 14.Bg6 fg6 15.Qg6 ) ( 13...Nd4 14.Nd4 Qd4 15.Be4 ) 14.Bg6 ( 14.a3 Kh7 15.ab4 Nd4 ) 14...Nd4 )
+ * 
+
+
+
+[Event "Chapter 1975"]
+[Site "Game 3"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1975"]
+[Black "Game 3"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r1b2rk1/pp2bppp/2nqp3/3n4/3P4/2NB1N2/PP3PPP/R1BQR1K1 w - - 0 11"]
+
+11.a3
+ * 
+
+
+
+[Event "Chapter 1975"]
+[Site "Game 4"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1975"]
+[Black "Game 4"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r1b2rk1/pp2bppp/2nqp3/3n4/3P4/2NB1N2/PP3PPP/R1BQR1K1 w - - 0 11"]
+
+11.Qc2 $5 11...g6 12.Ne4 12...Qc7 13.a3 13...Bd7 14.Qd2 $5 14...Rfe8 ( 14...Qb6 15.Qh6 15...Rac8 ) ( 14...f5 ) 15.Qh6 Bf8 16.Qh4 Nce7 ( 16...Bg7 ) 17.Neg5 $1 h6 18.Nh3 $5 ( 18.Nf7 $1 Kf7 19.Ne5 Kg8 20.Bh6 ) 18...Kh7 ( 18...h5 19.g4 $1 19...hg4 20.Nhg5 Bg7 ( 20...Nf6 21.Ne5 $18 ) 21.Ne5 ) 19.Ne5 19...Nf5 ( 19...f6 20.Ng4 Ng8 21.Nf4 $5 ( 21.Bd2 $5 21...Qd6 22.Ne3 Bc6 23.Nd5 Bd5 24.Nf4 $1 ( 24.Bb4 Qd7 25.Nf4 f5 26.Qg3 Qf7 27.Bf8 Rf8 28.Nd5 ed5 29.Rac1 ( 29.Re5 Nf6 30.Rae1 Ne4 31.Qf4 $16 ) 29...Rac8 30.Qd6 $16 ) 24...f5 25.Qg3 $16 g5 ( 25...Ne7 26.Bb4 $16 ) 26.Nd5 Qd5 27.Re5 Qd4 28.Bc3 Qd7 29.Rf5 $1 ef5 30.Qc7 $1 Re7 31.Qd7 Rd7 32.Bf5 ) 21...Nf4 22.Nf6 Nf6 23.Bf4 Qd8 24.Qg3 $1 ) 20.Bf5 ef5 21.Ng5 Kg8 22.Ngf7 22...h5 23.Qg3 Re6 24.Bh6 Be8 25.Rac1 Qb6 26.Bf8 Bf7 27.Bh6 ( 27.Bc5 $1 27...Qb2 28.Rb1 ) 27...Rae8 ( 27...Qb2 28.Nf7 Re1 29.Re1 Kf7 30.Qe5 $18 ) 28.Rc5 $2 28...Nf6 ( 28...h4 $1 29.Qh4 $2 ( 29.Qf3 Re5 $1 ) ( 29.Qg5 Re5 30.de5 Qc5 31.e6 31...Qd4 $1 ) 29...Re5 $1 ) 29.Qc3 $1 29...Ne4 30.Re4 $1 fe4 31.Nc4 $1 31...Qd8 32.d5 32...Rf6 33.Bg5 Qe7 ( 33...Kg7 34.Rc8 Qe7 ( 34...Qc8 35.Qf6 ) 35.d6 Qe6 36.Bf6 Qf6 37.Qf6 Kf6 38.d7 $1 ) 34.d6 $2 ( 34.Qf6 34...Qc5 35.Bh6 ) 34...Qd6 $2 ( 34...Rd6 $1 35.Nd6 ( 35.Be7 35...Rd1 $1 ) 35...Qd6 36.h4 ) 35.Nd6
+ * 
+
+
+
+[Event "Chapter 1975"]
+[Site "Game 5"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1975"]
+[Black "Game 5"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1k6/1p4r1/p1q1p2p/4b2P/8/1PN5/1PP2Q2/1K1R4 b - - 0 30"]
+
+30...Bc3 31.bc3 Qc3 32.Rd8 ( 32.Qb6 Rc7 $1 ) 32...Kc7 33.Rd4 Qg3 $1
+ * 
+
+
+
+[Event "Chapter 1975"]
+[Site "Game 6"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1975"]
+[Black "Game 6"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1k6/1p4r1/p1q1p2p/4b2P/8/1PN5/1PP2Q2/1K1R4 b - - 0 30"]
+
+30...Rg8 31.Na4
+ * 
+
+
+
+[Event "Chapter 1975"]
+[Site "Game 7"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1975"]
+[Black "Game 7"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1k6/1p4r1/p1q1p2p/4b2P/8/1PN5/1PP2Q2/1K1R4 b - - 0 30"]
+
+30...Rc7 $2 31.Qf8 Rc8 32.Qh6 Bc3 33.bc3 Qc3 34.Qd2 Qh3 $1 35.Qg5 35...Ka7 ( 35...Qf5 $1 36.Qf5 ef5 37.Rh1 Rh8 38.h6 Kc7 39.Kb2 Kd6 40.Kc3 Ke5 ) 36.Qg1 Ka8 37.Qh1 $1 37...Qf5 38.Rd3 e5 39.Qh3 $1 Qf8 40.h6 $1 40...e4 41.Rd2 Qh8 42.Rd7 $1 42...Rg8 43.Qh1 Qe5 44.h7 Rh8 45.Qh4 $1 45...Ka7 46.Qe7 Qe7 47.Re7 47...a5 48.Kc1 Ka6 49.c4 49...e3 50.Kc2 b5 51.cb5 Kb5 52.Kd3 Rd8 53.Ke3 Kb4 54.Rg7 $1 54...Rh8 55.Rb7 Kc3 56.Ke4 Rf8 57.Rg7 57...Rh8 58.Rg3 Kb4 59.Rh3 59...Ka3 60.Kf5 Kb4 61.Kg6 Rc8 62.Rf3 Rb8 63.Kg7 Rb7 64.Rf7 Rb8 65.h8=Q Rh8 66.Rb7 $1
+ * 
+
+
+
+[Event "Chapter 1975"]
+[Site "Game 8"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1975"]
+[Black "Game 8"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.d4 Nf6 2.c4 c5 3.d5 3...e6 4.Nc3 ed5 5.cd5 d6 6.e4 g6 7.Nf3 Bg7 8.Be2 ( 8.h3 ) 8...0-0 9.0-0 Re8 10.Nd2 Nbd7 11.a4 a6 12.Qc2 ( 12.f4 12...c4 $5 13.Kh1 13...Nc5 14.e5 ) 12...Ne5 13.Ra3 13...Qe7 ( 13...g5 ) 14.a5 $5 14...Bd7 $5 15.Rb3 ( 15.Na4 ) 15...Rab8 16.Rb6 16...Bg4 $1 17.f3 ( 17.Bg4 Nfg4 18.h3 Nf6 ) 17...Bc8 $1 18.Kh1 Qc7 19.f4 $6 ( 19.Qa4 ) 19...Ned7 20.e5 20...de5 21.fe5 Qe5 22.Nc4 22...Qd4 $1 23.Rd6 ( 23.Rf4 23...Nb6 $1 24.Rd4 ( 24.ab6 Bf5 25.Qb3 Re2 $1 26.Ne2 Qd5 ) ( 24.Nb6 Bf5 $19 ) 24...cd4 25.Nb6 dc3 26.Bf1 Re1 27.Kg1 Ne4 ) 23...Ng4 $1 ( 23...Bf8 24.Rf4 ) 24.Bg4 Qg4 ( 24...Qc4 25.Be2 Qb4 ) 25.Qf2 f5 $6 ( 25...Rf8 26.Bf4 g5 $5 27.Qg3 Qg3 28.Bg3 f5 $5 29.Rd7 Bd7 30.Bb8 Rb8 31.Nb6 Bc8 32.Nc8 Rc8 33.Rf5 Rf8 34.g4 ) 26.Bf4 g5 $2 27.Re6 $1 27...Re6 28.Bb8 $2 ( 28.de6 gf4 29.e7 $3 29...Nf6 30.Ne5 Qh5 31.Qc5 31...Bd7 ( 31...Be6 32.Qd6 $18 ) 32.Nd7 $18 ) 28...Bd4 $1 ( 28...Qc4 29.de6 Nb8 30.e7 Kf7 31.Re1 Ke8 $1 ) 29.de6 ( 29.Qg3 Rf6 $1 30.Qg4 fg4 31.Rf6 Nf6 ) ( 29.Qf3 Qf3 30.gf3 Re8 ) 29...Bf2 30.ed7 Bd7 31.Ne5 31...Qd4 $1 32.Rd1 ( 32.Nd7 Qd7 33.Rf2 Qe8 $1 ) 32...Qb4 33.Nd7 Bd4 34.Be5 Qb2 35.Bd4 cd4 36.Nd5 36...Qe2 37.Rc1 Kf7 38.h3 d3 39.Rc7 Ke6 40.N7b6 d2 $1
+ * 
+
+
+
+[Event "Chapter 1975"]
+[Site "Game 9"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1975"]
+[Black "Game 9"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r2q1rk1/pp2ppbp/2bp1np1/8/3BPP2/2N2B2/PPPQ2PP/R4RK1 b - - 0 12"]
+
+12...e5 $1 13.fe5 ( 13.Be3 ef4 14.Bf4 Qb6 15.Kh1 Rfe8 ) 13...de5 14.Be3 Qd2 15.Bd2 Nd7 16.Be3 Rfd8 17.Rfd1 Bf8 18.Nd5 Bc5 19.Kf2 Kf8 20.Rd2 Bd5 21.Rd5 ( 21.ed5 Ke7 $1 ) 21...Be3 22.Ke3 22...Nb6 $1 23.Rd8 ( 23.Re5 $2 Nc4 ) 23...Rd8 24.b3 Ke7 25.Rd1 Rd1 26.Bd1 26...f5 $1 27.g3 ( 27.ef5 27...Nd5 28.Kd2 gf5 29.c4 Nf6 ) 27...Nd7 28.Bf3 b6 29.ef5 gf5 30.g4 ( 30.c4 Kd6 31.b4 e4 32.Be2 Ke5 ) 30...f4 31.Ke4 Ke6 32.b4 32...h6 33.h3 ( 33.h4 Nf6 34.Kd3 e4 $5 35.Be4 Ng4 ) 33...b5 $1 34.Kd3 $6 ( 34.Be2 $1 34...Nf6 35.Kf3 Nd5 36.Bb5 $1 e4 37.Ke4 Nc3 38.Kf4 Nb5 39.c4 ) ( 34.g5 34...hg5 35.Bg4 Kd6 36.Kf5 e4 37.Ke4 ( 37.Kg5 f3 $1 38.Kf4 Nf6 $19 ) 37...Nf6 38.Kd4 Ng4 39.hg4 ) 34...Nb6 $1 35.a3 $2 ( 35.Bc6 $5 Nd5 36.a3 f3 $1 37.Bb5 $1 e4 38.Ke4 Nc3 39.Kf3 Nb5 40.a4 Nc3 41.a5 ) ( 35.c3 ) 35...Nc4 36.Bc6 ( 36.a4 Nb2 ) 36...Na3 37.h4 37...a6 $1 38.Bb7 Nc4 $1 39.Ba6 Nd6 $1 40.Bb5 Nb5 41.c4 Nd6 42.c5 e4 $1 43.Kd4 e3 44.Kd3 Nb5 45.g5 ( 45.Ke2 Nd4 46.Kd3 e2 $1 47.Kd2 f3 ) 45...hg5 46.hg5 Kf5 47.g6 Kg6 48.c6 Kf5 49.c7 Nc7 50.b5 Nb5
+ * 
+
+
+
+[Event "Chapter 1975"]
+[Site "Game 10"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1975"]
+[Black "Game 10"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1.e4 e5 2.Nf3 Nc6 3.d4 ed4 4.c3 4...dc3 5.Bc4 5...c2 6.Qc2 Bb4 7.Nc3 d6 8.0-0 Bc3 9.bc3 Nf6 10.Ba3 $1 ( 10.Re1 10...0-0 11.e5 $1 Ne5 ( 11...de5 12.Ba3 $1 ) 12.Ne5 de5 13.Ba3 ) 10...0-0 ( 10...Nd7 ) ( 10...Ng4 ) ( 10...Bg4 11.e5 Nd7 $5 12.ed6 Bf3 ) 11.e5 $1 Ne5 ( 11...Ne8 12.h3 $1 12...Be6 13.Bd3 ) 12.Ne5 de5 13.Rad1 $1 Bd7 14.Rfe1 $1 14...Qe8 ( 14...Re8 15.Qb3 ) ( 14...e4 15.Bf8 Qf8 16.Qb3 Bc6 17.Rd4 ) 15.Bf8 Kf8 16.Qe2 e4 17.Qe3 17...Qe5 18.h3 Bc6 19.Rd2 ( 19.f4 Qe7 ) 19...g5 $5 20.f3 $1 20...Kg7 ( 20...Re8 ) 21.Rf2 $1 Ne8 22.f4 $1 22...gf4 23.Rf4 Nd6 24.Ref1 f5 25.Rf5 $1 25...Nf5 26.Qg5 Kh8 27.Rf5 Qc3 ( 27...Qd6 28.Rf7 $1 Rg8 29.Rh7 $1 Kh7 30.Bg8 Kh8 31.Bf7 $1 Kh7 ( 31...Qd1 32.Kh2 Qd6 33.g3 Qf8 34.Qf6 Qg7 ( 34...Kh7 35.Bg6 Kg8 36.Bh7 $18 ) 35.Qh4 Qh7 36.Qd8 Kg7 37.Qe7 $18 ) ) 28.Rf7 Qd4 29.Kh1 Qd1 ( 29...e3 30.Bd3 $1 $18 ) 30.Bf1 Qd4 31.Qh6
+ * 
+
+
+
+[Event "Chapter 1975"]
+[Site "Game 11"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1975"]
+[Black "Game 11"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3R4/2r3pk/1p2q2p/p3Pp2/P2Q3P/8/2P3P1/6K1 w - - 0 34"]
+
+34.Qd6 Rc6 ( 34...Qd6 35.ed6 Rc2 36.Rb8 Rd2 37.Rb6 Rd4 ) 35.Qb8 Kg6 36.Rd3 Kh5 37.Qb7 $1 37...Rc4 $2 ( 37...g6 $1 38.Rd6 Qe5 ( 38...Rd6 39.Qf3 Kh4 40.Qf4 Kh5 41.ed6 ) ) 38.Rd6 $1 Qg8 ( 38...Qe5 39.Qf7 Kh4 40.Qc4 ) ( 38...Qc8 39.Qf7 Kh4 40.Qg7 40...Rg4 41.Qh6 Kg3 42.Qh2 ) 39.Qf3 Rg4 ( 39...Kh4 40.Rg6 ) 40.Qf5 g5 41.Rh6 ( 41.Qf6 41...Qh7 42.Qf3 ) 41...Kh6 42.Qg4
+ * 
+
+
+
+[Event "Chapter 1975"]
+[Site "Game 12"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1975"]
+[Black "Game 12"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r4rk1/pp2pp1p/1qbp2p1/2n5/2P1P3/2N2P2/PP1QB1PP/2R1R2K b - - 0 16"]
+
+16...Rad8 $1 17.Nd5 Bd5 18.ed5 ( 18.cd5 18...a5 ) 18...a5 19.Bf1 Rfe8 20.Re3 20...e5 $1 21.de6 Re6 $1 22.Rce1 ( 22.Re6 fe6 ) 22...Qb4 $1 23.Qf2 Rde8 24.Re6 Re6 25.Rd1 25...Qa4 $1 26.b3 Qb4 $1 27.Kg1 a4 $1 28.ba4 Qa4 29.Rd2 29...Qb4 $1 30.Rb2 Qc3 31.Qd2 Qf6 32.Rb1 h5 33.Re1 33...Re1 34.Qe1 Qe5 $1 35.Qf2 Kf8 36.g3 36...h4 $1 37.gh4 37...Ne6 $1 38.Qd2 ( 38.Qb6 Nc5 $1 ) 38...Nd4 39.Kg2 Nf5 40.Qf2 Qf4 41.Kh3 41...Nh4 $1 42.Qg3 ( 42.Qh4 Qf3 43.Qg3 Qf1 $19 ) 42...Qf6 43.f4 Nf5 44.Qe1 Qd4 45.Kg2
+ * 
+
+
+
+[Event "Chapter 1975"]
+[Site "Game 13"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chapter 1975"]
+[Black "Game 13"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r1b1r1k1/p5p1/2p1p1q1/8/3R4/1Q4B1/5PPP/1N4K1 w - - 0 21"]
+
+21.h3 $1 21...Qf5 22.Nd2 c5 23.Rg4 Re7 ( 23...Qd5 24.Qe3 e5 ( 24...Bb7 25.Be5 ) 25.Rg5 Qd4 26.Qb3 Be6 27.Qb7 Qd7 28.Qb2 ) 24.Bd6 Rf7 25.Qg3 25...Bb7 26.Be5 Qh7 27.Nc4 $5 ( 27.Rh4 Qc2 28.Rg4 Qh7 ) 27...Bd5 28.Nd6 28...Rd7 29.f4 29...c4 30.Kh2 ( 30.Rh4 Qb1 31.Kh2 Qd3 32.Qg5 $1 ) 30...Rb8 31.f5 $2 ( 31.Nf7 31...Rf7 ( 31...Rb3 32.Rg7 Kf8 33.Rh7 Rg3 34.Kg3 Rf7 ( 34...Be4 $1 ) 35.Rh8 Ke7 36.h4 ) 32.Bb8 Qd3 $1 33.Qh4 Qh7 ) 31...Rb3 32.Qf4 ( 32.Bc3 32...Rc3 33.Qc3 Rd6 34.Qf6 $1 34...ef5 35.Qd6 fg4 36.Qd5 Kf8 ) ( 32.Qf2 Qh5 $1 33.Qc5 Bg2 $1 ) 32...Bg2 33.h4 $1 33...Bh3 $2 34.Qc4 34...Bg4 ( 34...Qf5 $1 35.Nf5 Rd2 36.Kh1 Rb1 37.Rg1 Bg2 38.Kh2 Be4 ) 35.Qc8
+ * 
+
+
+
+

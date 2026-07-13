@@ -1,0 +1,183 @@
+﻿[Event "?"]
+[Site "?"]
+[Date "2021.02.10"]
+[Round "?"]
+[White "Introduction"]
+[Black "?"]
+[Result "*"]
+[ECO "A00"]
+[Annotator "Mooren,Albert"]
+[PlyCount "0"]
+[EventDate "2021.02.10"]
+[SourceDate "2021.02.10"]
+
+{Attacking without Sacrificing  Magnus Carlsen    Introduction World Champion
+Magnus Carlsen teaches you how to attack! By going through some of his best
+games, Magnus shows his method of quietly closing in on the opponent's king,
+even without giving up material. Goals - To master the art of attacking
+quietly, ninja-style! - To enjoy some of Magnus' best games and learn from the
+best of the best explaining his own thoughts Additional information about the
+video Magnus Carlsen explains that the real skill is to get positions where
+you can attack without the need to sacrifice anything.}  *
+
+
+[Event "Grand Chess Tour Paris Rapid"]
+[Site "Paris FRA"]
+[Date "2016.06.10"]
+[Round "6"]
+[White "Veselin Topalov"]
+[Black "Magnus Carlsen"]
+[Result "0-1"]
+[ECO "C78"]
+[WhiteElo "2761"]
+[BlackElo "2855"]
+[Annotator "GM Magnus Carlsen"]
+[PlyCount "82"]
+[EventDate "2016.06.08"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 b5 7. Bb3 d6 8. a3
+O-O 9. Nc3 Na5 10. Ba2 Be6 11. d4 Bxa2 12. Rxa2 Nc6 13. d5 Nb8 14. Qe2 Nbd7 15.
+Rd1 Qc8 16. Nh4 {Forcing the next move} g6 17. g3 Ne8 18. Ng2 Ng7 {Preparing a
+possible ...f5. I would love to have a pawn on b7. Because on b5 is a bit of a
+weakness in this situations.} 19. Bh6 Nf6 {Intending a possible ...Ng4} 20. Ne3
+(20. f3 Qh3 21. Be3 {And black could try ...Nd7 & ...f5}) 20... Qh3 21. Bxg7
+Kxg7 22. b4 h5 23. a4 (23. Rb1) 23... a5 $1 24. Rb1 axb4 25. Rxb4 bxa4 26.
+Raxa4 {Black manages to exchange his weaknesses on the queenside.} Ng4 27. Nf1
+(27. Nxg4 hxg4 28. Qf1 Qh6) 27... h4 28. f3 hxg3 29. hxg3 (29. fxg4 gxh2+ {
+With the idea ...Qxc3}) 29... Nf6 {Now we have that situation of attacking
+with equal material!} 30. Qg2 Qh6 31. Qh2 Qg5 32. Qd2 Qh5 33. g4 Qh8 $3 {Now
+the dark squares are decisivedly weakened} 34. Nb5 Nh7 35. Qh2 (35. Nxc7 Ng5)
+35... Rfb8 36. c4 (36. Rxa8 Rxa8 37. Nxc7 Ra1 (37... Ra7 38. Nb5 Ra1) 38. Rb7
+Qd8 $5) 36... Qd8 {With a great position!} 37. Ne3 Bg5 38. Qe2 Bf4 39. Ng2 Bg3
+40. Qe3 Ng5 41. Kf1 Qh8 (41... Qh8 42. Qxg5 Qh1+) 0-1
+
+
+[Event "Bilbao - 9th Masters Final"]
+[Site "Bilbao ESP"]
+[Date "2016.07.15"]
+[Round "3.2"]
+[White "Carlsen, Magnus"]
+[Black "Karjakin, Sergey"]
+[Result "1-0"]
+[ECO "B50"]
+[WhiteElo "2855"]
+[BlackElo "2773"]
+[Annotator "GM Magnus Carlsen"]
+[PlyCount "79"]
+[EventDate "2016.??.??"]
+
+1. e4 c5 2. Nf3 d6 3. c3 Nf6 4. Be2 g6 $1 (4... Nxe4 5. Qa4+) (4... Nc6) (4...
+Nbd7) (4... Bd7) 5. O-O Bg7 6. Bb5+ Nc6 {Is also an excellente move} ({In case
+} 6... Bd7 7. Bxd7+ Qxd7 8. Re1 {It looks like white has lost a tempo. But
+once you get these structures with white goes d4, black takes and then ...d5.
+Then the bishop is misplaced on g7. It also weakens his kingside which also
+makes the h-pawn advance a lot stronger. So there is some point to it.}) ({
+Black has also other ways to play like...} 6... Nfd7 7. d4 O-O {Then ...Nc6
+later on trying to play some Benoni-like structure. Just also not bad for
+black. I won a rapid game against Fressinet.}) 7. d4 Qb6 8. Ba4 cxd4 9. cxd4
+O-O 10. d5 (10. Nc3 Bg4 $1) 10... Nb8 (10... Na5 {Also good for black}) 11. Nc3
+Bg4 $1 (11... Bd7 12. Bc2 {The white bishop is misplaced on a4} Bg4) 12. h3
+Bxf3 13. Qxf3 Nbd7 {It looks armonious for black.} 14. Rb1 Rfc8 15. Bc2 {So I
+decided to go for a kingside attack} Ne5 16. Qe2 Nfd7 17. Bg5 {So I'm asking
+questions} h6 (17... Bf6 {Is fine}) 18. Bh4 (18. Bxe7 f6) 18... g5 19. Bg3 Qa6
+(19... Ng6 {It was the obvious move} 20. Nd1 (20. Kh1 $5) 20... Nf4 21. Bxf4
+gxf4) 20. Qd1 Rc4 (20... Nc4 21. Bd3 Nc5 22. Be2 Bxc3 23. bxc3 Nxe4 24. Qd4 {
+I was not to convinced}) 21. Kh1 (21. f4 Rd4 22. Qxd4 (22. Qe1 Nd3) 22... Nf3+)
+21... Rac8 (21... Ng6 22. Bd3) 22. f4 gxf4 23. Bxf4 Qb6 24. Qh5 Nf6 25. Qf5 Qd8
+{With the idea ...Qd7} 26. Bb3 Rd4 27. Bxe5 dxe5 28. Rbd1 {Challenging the
+rook on d4} Qd7 29. Qf3 {Ready to take on d4} Rb4 {With the idea a5-a4} 30. Rd2
+Rf8 {Preparing ...Ne8-d7} (30... a5 31. Bd1) 31. g4 $1 a5 32. Rg2 Nh7 (32... a4
+33. Bd1 a3 34. bxa3) 33. h4 Rb6 34. g5 Kh8 (34... Rg6 35. Rfg1 hxg5 36. hxg5)
+35. Rfg1 f5 {Trying to muddy the waters} 36. Qh3 Rb4 37. gxh6 Bxh6 38. Qg3 Nf6
+39. Qg6 Ng4 40. Rxg4 (40. Rxg4 Rb6 41. Qxb6 $18 (41. d6 Rxd6)) 1-0
+
+
+[Event "Bilbao Masters"]
+[Site "Bilbao ESP"]
+[Date "2016.07.16"]
+[Round "4"]
+[White "Magnus Carlsen"]
+[Black "Wesley So"]
+[Result "1-0"]
+[ECO "C65"]
+[WhiteElo "2855"]
+[BlackElo "2770"]
+[Annotator "GM Magnus Carlsen"]
+[PlyCount "51"]
+[EventDate "2016.07.13"]
+
+{Can you survive without castling against the Wolrd Champion?} 1. e4 e5 2. Nf3
+Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. Qe2 (6. Nbd2 Bg4 7. h3 Bh5 8. g4 (8.
+Nf1) 8... Bg6 9. Nxe5 Qd4) 6... Qe7 7. Nbd2 Bg4 8. h3 Bh5 9. a3 (9. Nf1 {With
+the idea Nf1-g3. But Qe2 would be a waste in that case of ...Bxf3.}) (9. g4)
+9... Nd7 (9... a5 {black won't be able to castle queenside}) 10. b4 Bd6 (10...
+Bd4 11. Rb1 Bc3 12. O-O Bxd2 13. Bxd2 Bxf3 14. Qxf3 $14) 11. Nc4 f6 12. Ne3 {
+Now the point of a3-b4 is obvious because if the bishop was on c5 he had
+chopped ...Bxe3} a5 13. Nf5 Qf8 (13... Qf7 14. Rb1 axb4 15. axb4 {The a file
+won't be too useful for black}) 14. bxa5 (14. Nxd6+ {This would be a huge a
+strategical concession}) 14... Rxa5 15. O-O {Now is all about time.} Qf7 16. a4
+Nc5 (16... O-O 17. Bh6 $3 gxh6 18. Nxh6+) 17. Qe1 $1 {Attacking Ra5 and
+freeing the Nf3} b6 (17... Rxa4 18. Rxa4 Nxa4 19. Qa5 Nb6 20. Nxd6+) 18. Nd2
+Rxa4 19. Nc4 $1 Bf8 (19... Rxa1 20. Ncxd6+ cxd6 21. Nxd6+) (19... Kd7 20. Rxa4
+Nxa4 21. Ncxd6 cxd6 22. Qb4) (19... Be7 20. Be3 Rxa1 (20... Kd7 21. Rxa4 (21.
+Nxb6+) 21... Nxa4 22. f4) (20... O-O 21. Bh6 (21. Nxe7+ Qxe7 22. Bxc5 {wins a
+piece})) 21. Qxa1 O-O 22. Bh6) 20. Be3 Kd7 (20... Rxa1 21. Qxa1) 21. Qc3 {
+Threatening 22.Nxb6+ cxb6 23.Bxc5 Rxa1 24.Rxa1 winning!} Nxe4 (21... Rxc4 22.
+dxc4 Nxe4 23. Qd3+ Nd6 24. g4 Bg6 25. Rfd1 $16 {The rook on h8 and the bishop
+f8 do not play.}) 22. Nxb6+ $1 (22. dxe4 Qxc4) 22... cxb6 23. dxe4 Qc4 (23...
+Rxa1 24. Rxa1) 24. Qd2+ Kc7 25. g4 Bg6 26. Rfd1 {So I guess the lesson from
+this game is you should castle pretty early on. And sometimes delaying
+development in order to attain some positional goals can be profitable. But
+very often it is very risky. And most of all it forces you to play so
+precisely later on that it is just something that a lot of people want to do.
+You can see from this game that Wesley So is a very good player. So it feels
+like he can't break these rules from time to time because he is so good that
+he knows when to break them and when not to break them. Except sometimes he
+even he gets it wrong like in this game he couldn't really balance development
+and postional things. Actually I'm pretty proud of this game for playing very
+energetically, and you could say I wasn't too brave in this game. I didn't
+have to sacrifice so much material. But then again you don't always have to be.
+Sometimes it is enough to be able to sacrifice one pawn or to sacrifice some
+positional considerations for more time gains that you have to make. If you
+are brave to do it. And you follow it up well playing energetically taking
+your chances of exploiting your tactical opportunities that you have I think
+you can do very well.} 1-0
+
+
+[Event "Tromso Chess Olympiad"]
+[Site "Tromso NOR"]
+[Date "2014.08.05"]
+[Round "4.3"]
+[White "Magnus Carlsen"]
+[Black "Radoslaw Wojtaszek"]
+[Result "1-0"]
+[ECO "B25"]
+[WhiteElo "2877"]
+[BlackElo "2735"]
+[Annotator "GM Magnus Carlsen"]
+[PlyCount "65"]
+[EventDate "2014.08.02"]
+
+{A Closed Sicilian win à la Spassky} 1. e4 c5 2. Nc3 d6 3. g3 (3. d4 cxd4 4.
+Qxd4 Nc6 5. Qd2) 3... Nc6 4. Bg2 g6 5. d3 Bg7 6. Be3 (6. f4) 6... e5 7. Nh3 {
+I was inspired by games of Spassky on putting the knight on h3} Nge7 8. f4 Nd4
+(8... O-O 9. f5 (9. O-O) 9... gxf5 10. Qh5) 9. O-O O-O 10. Qd2 {I want to keep
+the pieces on the board Nd1 and c3} Bd7 {With the idea of ...Qc8. It doesnt\'t
+make a lot of sense} (10... f6 {Trying to solidify the center and ...Be6}) 11.
+Nd1 Qc8 12. Ndf2 Ndc6 13. c3 b5 $6 (13... b6 14. fxe5 (14. Ng5) (14. f5 gxf5
+15. Bh6 f6) 14... dxe5 {Keeping more central control} 15. Ng5 {provoking 15...
+f6 and 16.Nf3}) 14. fxe5 Nxe5 15. Bh6 (15. d4 Nc4) 15... N7c6 {It is really
+hard to find a plan for black.} 16. Bxg7 Kxg7 17. Nf4 Qd8 18. Rad1 Rc8 19. Qe2
+h5 $6 20. d4 cxd4 21. cxd4 Ng4 22. h3 Nxf2 23. Qxf2 {With ideas of Nd5 and Qf4}
+Ne7 24. Rd3 b4 25. Rf3 Qe8 (25... Bb5 26. Nxh5+ (26. Re1) 26... gxh5 27. Rxf7+
+Rxf7 28. Qxf7+ Kh6 (28... Kh8 29. Qxh5+) 29. Rf6+) 26. g4 $1 (26. d5 a5 27. Qb6
+{This was also good. But I did not want to change my plan of central control
+and possible attack on the kingside}) 26... hxg4 27. hxg4 {With the idea Qh4}
+Bb5 (27... Bxg4 28. Rg3 Qd7 29. Bh3 $1) 28. Re1 Qd8 29. g5 Qb6 (29... Nc6 30.
+Rg3 {With the idea Nd5} Qb6 31. Rd1 {And I retain all of the advantafes of my
+position}) 30. Bh3 Rcd8 31. Be6 $1 Be8 (31... fxe6 32. Nxe6+) 32. Nd5 Nxd5 33.
+Bxd5 {Black has no counterplay at all!!!! White threatens Rf1, or Kg2 & Rh1 or
+Rh3 & Qh4.} 1-0
+
+
+

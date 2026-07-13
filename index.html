@@ -240,15 +240,21 @@ try {
                     <h2 class="panel-toggle">🏆 Partidas Maestras <span class="panel-arrow">▲</span></h2>
                     <div class="panel-body">
                     <div class="config-section">
-                        <label>Selecciona un jugador:</label>
-                        <select id="famous-player-select" class="select">
-                            <option value="">— Todos los jugadores —</option>
-                        </select>
-                    </div>
-                    <div class="config-section">
-                        <label>Selecciona una partida:</label>
+                        <label class="famous-section-label">⭐ Partidas Seleccionadas</label>
                         <select id="famous-game-select" class="select">
                             <option value="">— Elegir partida —</option>
+                            <optgroup label="♔ Partidas Inmortales y Clásicas">
+                                <option value="immortal">La Partida Inmortal (Anderssen, 1851) (1-0)</option>
+                                <option value="evergreen">La Siempre Verde (Anderssen, 1852) (1-0)</option>
+                                <option value="opera">La Partida de la Ópera (Morphy, 1858) (1-0)</option>
+                                <option value="game-of-century">La Partida del Siglo (Fischer, 1956) (0-1)</option>
+                                <option value="rubinstein-immortal">La Inmortal de Rubinstein (1907) (0-1)</option>
+                                <option value="najdorf-polish-immortal">La Inmortal Polaca (Najdorf, 1929) (0-1)</option>
+                                <option value="anand-immortal">La Inmortal de Anand (2013) (0-1)</option>
+                                <option value="ding-liren-immortal">La Inmortal de Ding Liren (2017) (0-1)</option>
+                                <option value="nezhmetdinov-chernikov">Nezhmetdinov vs Chernikov (1962) (1-0)</option>
+                                <option value="mcdonell-labourdonnais">McDonnell vs La Bourdonnais (1834) (0-1)</option>
+                            </optgroup>
                             <optgroup label="⚔️ Campeonatos del Mundo">
                                 <option value="steinitz-zukertort-86">Steinitz vs Zukertort, 1886 G1 — Primer campeonato (0-1)</option>
                                 <option value="spassky-fischer-72-g1">Spassky vs Fischer, 1972 G1 (1-0)</option>
@@ -326,18 +332,6 @@ try {
                                 <option value="cand26-esipenko-caruana-r14">Esipenko vs Caruana R14 (0-1)</option>
                                 <option value="cand26-vaishali-lagno-r14">Vaishali vs Lagno R14 (1-0)</option>
                                 <option value="cand26-divya-deshmukh-assaubayeva-r14">Divya Deshmukh vs Assaubayeva R14 (1/2-1/2)</option>
-                            </optgroup>
-                            <optgroup label="♔ Partidas Inmortales y Clásicas">
-                                <option value="immortal">La Partida Inmortal (Anderssen, 1851) (1-0)</option>
-                                <option value="evergreen">La Siempre Verde (Anderssen, 1852) (1-0)</option>
-                                <option value="opera">La Partida de la Ópera (Morphy, 1858) (1-0)</option>
-                                <option value="game-of-century">La Partida del Siglo (Fischer, 1956) (0-1)</option>
-                                <option value="rubinstein-immortal">La Inmortal de Rubinstein (1907) (0-1)</option>
-                                <option value="najdorf-polish-immortal">La Inmortal Polaca (Najdorf, 1929) (0-1)</option>
-                                <option value="anand-immortal">La Inmortal de Anand (2013) (0-1)</option>
-                                <option value="ding-liren-immortal">La Inmortal de Ding Liren (2017) (0-1)</option>
-                                <option value="nezhmetdinov-chernikov">Nezhmetdinov vs Chernikov (1962) (1-0)</option>
-                                <option value="mcdonell-labourdonnais">McDonnell vs La Bourdonnais (1834) (0-1)</option>
                             </optgroup>
                             <optgroup label="👑 Kasparov (11)">
                                 <option value="kasparov-topalov">vs Topalov, Wijk aan Zee 1999 (1-0)</option>
@@ -440,7 +434,20 @@ try {
                             </optgroup>
                         </select>
                     </div>
-                    <button id="load-famous-game" class="btn btn-primary" disabled>Cargar Partida</button>
+                    <div class="famous-panel-divider"><span class="fpd-title">📚 Biblioteca de jugadores</span><span class="fpd-sub">~250 jugadores · ~268.000 partidas</span></div>
+                    <div class="config-section">
+                        <label>Selecciona un jugador:</label>
+                        <select id="famous-player-select" class="select">
+                            <option value="">— Todos los jugadores —</option>
+                        </select>
+                    </div>
+                    <div class="config-section" id="library-game-section" style="display:none">
+                        <label>Selecciona una partida:</label>
+                        <select id="library-game-select" class="select">
+                            <option value="">— Elegir partida —</option>
+                        </select>
+                    </div>
+                    <button id="load-famous-game" class="btn btn-primary" style="display:none" disabled>Cargar Partida</button>
                     </div>
                 </div>
 

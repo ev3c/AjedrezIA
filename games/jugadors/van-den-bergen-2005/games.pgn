@@ -1,0 +1,102 @@
+﻿[Event "BdF JU-E43"]
+[Site "?"]
+[Date "2003.??.??"]
+[Round "?"]
+[White "Jenull, Marco"]
+[Black "Vandenbergen, Nicolas"]
+[Result "1-0"]
+[ECO "B00"]
+[PlyCount "27"]
+[EventDate "2003.??.??"]
+
+1. e4 Nc6 2. d4 d5 3. Nc3 dxe4 4. d5 Ne5 5. Bf4 Ng6 6. Bg3 a6 7. Bc4 f5 8. Nh3
+Nf6 9. O-O h5 10. Nf4 Ne5 11. Ne6 Qd6 12. Bb5+ Kf7 13. Qd4 Nfg4 14. f3 1-0
+
+
+[Event "BdF JU-E43"]
+[Site "?"]
+[Date "2003.??.??"]
+[Round "?"]
+[White "Kölsch, Max"]
+[Black "Vandenbergen, Nicolas"]
+[Result "1-0"]
+[ECO "D07"]
+[PlyCount "77"]
+[EventDate "2003.??.??"]
+
+1. d4 d5 2. c4 Nc6 3. cxd5 Qxd5 4. e3 e5 5. Nc3 Bb4 6. Bd2 Bxc3 7. bxc3 Nf6 8.
+f3 O-O 9. Bd3 exd4 10. cxd4 Nxd4 11. exd4 Qxd4 12. Be2 Bf5 13. Rc1 Rad8 14. Rc4
+Qe5 15. Qc1 Bd3 16. Bc3 Qe6 17. Rd4 Rxd4 18. Bxd4 Re8 19. Qd2 Qc4 20. Bxf6 gxf6
+21. Kf1 Rd8 22. Kf2 Rd5 23. Qe3 Qxa2 24. f4 c5 25. Nf3 c4 26. Rd1 Rd6 27. Rd2
+Qb1 28. Qxa7 Kg7 29. Qc5 Rc6 30. Bxd3 cxd3 31. Qd4 b5 32. Qxd3 Qb4 33. Nd4 Rc5
+34. Rd1 Qa4 35. Re1 b4 36. Nf5+ Kg6 37. Ne7+ Kg7 38. Qg3+ Kf8 39. Qg8# 1-0
+
+
+[Event "BdF JU-E43"]
+[Site "?"]
+[Date "2003.??.??"]
+[Round "?"]
+[White "Jenull, Marco"]
+[Black "Vandenbergen, Nicolas"]
+[Result "1-0"]
+[ECO "B00"]
+[PlyCount "27"]
+[EventDate "2003.??.??"]
+
+1. e4 Nc6 2. d4 d5 3. Nc3 dxe4 4. d5 Ne5 5. Bf4 Ng6 6. Bg3 a6 7. Bc4 f5 8. Nh3
+Nf6 9. O-O h5 10. Nf4 Ne5 11. Ne6 Qd6 12. Bb5+ Kf7 13. Qd4 Nfg4 14. f3 1-0
+
+
+[Event "BdF JU-E43"]
+[Site "?"]
+[Date "2003.??.??"]
+[Round "?"]
+[White "Prill, Daniel"]
+[Black "Vandenbergen, Nicolas"]
+[Result "0-1"]
+[ECO "B03"]
+[PlyCount "56"]
+[EventDate "2003.??.??"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. c4 Nb6 5. exd6 cxd6 6. Nc3 g6 7. Nf3 Bg4 8. h3
+Bxf3 9. Qxf3 Nc6 10. Be3 Bg7 11. Rd1 O-O 12. c5 Nd7 13. cxd6 exd6 14. Bc4 Rc8
+15. Bb3 Qf6 16. Qxf6 Nxf6 17. O-O a6 18. Bf4 Rfd8 19. Rfe1 b5 20. a3 Rd7 21.
+Bg5 Rcc7 22. Nd5 Nxd5 23. Re8+ Bf8 24. Bxd5 Na7 25. Bh6 Rc8 26. Rxc8 Nxc8 27.
+Bxf8 Kxf8 28. Rc1 Ne7 0-1
+
+
+[Event "BdF JU-E43"]
+[Site "?"]
+[Date "2003.??.??"]
+[Round "?"]
+[White "Vandenbergen, Nicolas"]
+[Black "Kölsch, Maximilian"]
+[Result "0-1"]
+[ECO "D44"]
+[PlyCount "46"]
+[EventDate "2003.??.??"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Nf3 e6 5. Bg5 dxc4 6. e4 b5 7. e5 h6 8. Bh4 g5
+9. Nxg5 hxg5 10. Bxg5 Nbd7 11. g3 Bb7 12. exf6 Qb6 13. Bg2 O-O-O 14. O-O c5 15.
+d5 b4 16. Rb1 Qa6 17. dxe6 Bxg2 18. e7 Ba8 19. exd8=Q+ Kxd8 20. Ne2 Kc8 21. Qc2
+Qe6 22. Nf4 Qg4 23. h4 Qxg5 0-1
+
+
+[Event "BdF JU-E43"]
+[Site "?"]
+[Date "2003.??.??"]
+[Round "?"]
+[White "Vandenbergen, Nicolas"]
+[Black "Prill, Daniel"]
+[Result "1-0"]
+[ECO "C15"]
+[PlyCount "47"]
+[EventDate "2003.??.??"]
+
+1. Nc3 e6 2. e4 d5 3. d4 Bb4 4. a3 Bxc3+ 5. bxc3 Ne7 6. Qg4 Ng6 7. e5 c5 8. h4
+h5 9. Qg3 Qa5 10. Bd2 c4 11. Be2 Nc6 12. Qg5 Qb5 13. Bxh5 Nge7 14. Qxg7 Rxh5
+15. g4 Nxd4 16. cxd4 Qb2 17. Rd1 Qxd4 18. gxh5 Qe4+ 19. Kf1 Qxh1 20. h6 Qxh4
+21. h7 Ng6 22. Qg8+ Kd7 23. Qxf7+ Kc6 24. Qxg6 1-0
+
+
+

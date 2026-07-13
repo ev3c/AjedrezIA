@@ -2,6 +2,121 @@
 
 ---
 
+## v3.4.76 — 2026-07-13
+
+### Biblioteca de jugadores — info en separador
+- El separador «📚 Biblioteca de jugadores» muestra ahora «~250 jugadores · ~268.000 partidas».
+
+---
+
+## v3.4.75 — 2026-07-13
+
+### Biblioteca de jugadores — subtítulo en dos líneas
+- El texto «~268.000 partidas» aparece debajo del título del separador como subtítulo independiente.
+
+---
+
+## v3.4.74 — 2026-07-13
+
+### Biblioteca de jugadores — contador de partidas
+- Añadido «~268.000 partidas» debajo del separador «📚 Biblioteca de jugadores».
+
+---
+
+## v3.4.73 — 2026-07-13
+
+### Biblioteca — sin límite de partidas por jugador
+- Eliminado el límite de 3.000 partidas en el selector «Selecciona una partida».
+- Los 24 jugadores que estaban al tope se han regenerado desde la fuente sin límite:
+  - Carlsen: 9.764, Nakamura: 8.699, Korchnoi: 8.153, Anand: 7.734, Grischuk: 5.898, Aronian: 5.382, Caruana: 5.317, Karpov: 4.823, Spassky: 4.667, Tal: 4.606, Wesley So: 4.417, Nepomniachtchi: 4.373, Firouzja: 4.350, Erigaisi: 3.579, Keres: 3.694, Kramnik: 3.334, Kasparov: 3.496, Alekhine: 3.372, Hort: 3.086, Gligoric: 2.916, Ivanchuk anotadas: 2.585, Petrosian: 1.750, Topalov: 1.351, Fischer: 1.377.
+- Total biblioteca: ~268.000 partidas con ~250 jugadores.
+- `index.json` actualizado con recuentos reales.
+
+---
+
+## v3.4.72 — 2026-07-13
+
+### Selector de jugador — número de partidas capeado a 3.000
+- El número entre paréntesis de cada jugador mostraba el total del PGN fuente; ahora refleja el límite real de 3.000 del archivo generado.
+
+---
+
+## v3.4.71 — 2026-07-13
+
+### Biblioteca — sin límite de partidas en el selector
+- Eliminada la constante `MAX_SHOWN = 3000`; ahora se muestran todas las partidas del jugador en «Selecciona una partida».
+
+---
+
+## v3.4.70 — 2026-07-13
+
+### Selector de jugador — sin grupo «Biblioteca de jugadores»
+- Eliminado el `optgroup` «📚 Biblioteca de jugadores» del desplegable; los jugadores aparecen directamente.
+
+---
+
+## v3.4.69 — 2026-07-13
+
+### Selector de jugador — solo biblioteca
+- Eliminado el grupo «⭐ Partidas seleccionadas» del desplegable «Selecciona un jugador»; solo aparecen jugadores de la biblioteca.
+
+---
+
+## v3.4.68 — 2026-07-12
+
+### Partidas Maestras — selects independientes
+- «⭐ Partidas Seleccionadas» y «📚 Biblioteca de jugadores» son ahora completamente independientes.
+- Seleccionar una partida famosa la carga automáticamente (sin botón «Cargar»).
+- La biblioteca tiene su propio selector «Selecciona una partida» (`library-game-select`) que aparece al elegir un jugador.
+- El botón «Cargar Partida» solo es visible en la sección de biblioteca.
+
+---
+
+## v3.4.64 — 2026-07-12
+
+### Safari — Fix tablero 3D
+- Corregido bug de Safari donde las piezas se veían mal en el tablero 3D.
+- Causa: Safari no puede combinar `filter: drop-shadow` en piezas con `transform-style: preserve-3d` en el tablero (crea un nuevo contexto de apilamiento que rompe la perspectiva 3D).
+- Fix: detección de Safari al arrancar (`safari-browser` class en body). En Safari, se desactiva `preserve-3d` en el tablero y se eliminan los `translateZ` de las piezas, manteniendo el efecto de inclinación `rotateX` y aplicando las sombras con `-webkit-filter`.
+
+---
+
+## v3.4.63 — 2026-07-12
+
+### Partidas Maestras — mostrar 3000 partidas
+- El selector de partidas de la biblioteca muestra ahora hasta 3.000 partidas (antes 1.500).
+
+---
+
+## v3.4.62 — 2026-07-12
+
+### Partidas Maestras — Encabezados de grupo más grandes
+- Las etiquetas «⭐ Partidas seleccionadas» y «📚 Biblioteca de jugadores» del selector de jugador se muestran ahora en mayor tamaño y negrita, diferenciándose claramente de los nombres de jugadores.
+
+---
+
+## v3.4.61 — 2026-07-12
+
+### Biblioteca de jugadores ampliada
+- Añadidos 223 jugadores más a la biblioteca de Partidas Maestras a partir de los archivos PGN sueltos de la colección (Quim Fons).
+- Total de la biblioteca: **253 jugadores** con hasta 3.000 partidas cada uno.
+
+---
+
+## v3.4.60 — 2026-07-12
+
+### Biblioteca de jugadores en Partidas Maestras
+- El selector «Selecciona un jugador» ahora muestra dos grupos:
+  - **⭐ Partidas seleccionadas**: las ~100 partidas históricas hardcodeadas (comportamiento anterior).
+  - **📚 Biblioteca de jugadores**: 30 grandes maestros con sus colecciones completas (cargadas bajo demanda desde archivos PGN en el servidor).
+- **253 jugadores** disponibles en la biblioteca, incluyendo: Alekhine, Anand, Aronian, Caruana, Carlsen, Ding Liren, Erigaisi, Firouzja, Fischer, Gligoric, Grischuk, Gukesh, Ivanchuk, Karpov, Kasparov, Korchnoi, Kramnik, Larsen, Lasker, Morphy, Nakamura, Nepomniachtchi, Polgar, Praggnanandhaa, Spassky, Svidler, Tal, Topalov, Wesley So y muchos más clásicos y modernos.
+- Cada jugador incluye hasta 3.000 partidas cargadas en un único fetch al servidor (sin base de datos MySQL). Colecciones muy anotadas se desannotan automáticamente para reducir el tamaño de descarga.
+- Al seleccionar un jugador de la biblioteca, el selector «Selecciona una partida» se puebla automáticamente mostrando hasta 1.500 partidas con formato `♔/♚ vs Oponente ✓/✗ Año — Torneo`.
+- Las partidas se cachean en memoria para que cambiar de selección sea instantáneo.
+- El botón «Cargar» funciona igual que con las partidas seleccionadas y carga la partida en el tablero con título y ELO.
+
+---
+
 ## v3.4.33 — 2026-07-03
 
 ### Aprende Ajedrez — Nuevas categorías Intermedio y Avanzado
