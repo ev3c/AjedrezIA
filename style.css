@@ -4268,7 +4268,11 @@ body.puzzle-mode-active .btn-icon.mini-puzzle-board-btn {
         overflow-y: auto;
     }
 
-    #famous-panel .panel-body {
+    /* Solo visible mientras el panel está abierto: si no, al colapsarlo (overflow:hidden
+       lo anularía este selector por especificidad de ID) el trigger del select seguía
+       ocupando espacio invisible (opacity:0) que bloqueaba los clics en el panel de debajo
+       (p.ej. "Problemas de Ajedrez") en modo smartphone. */
+    #famous-panel:not(.collapsed) .panel-body {
         overflow: visible;
     }
 

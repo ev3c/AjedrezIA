@@ -2,6 +2,26 @@
 
 ---
 
+## v3.5.1 — 2026-07-16
+
+### Fix — panel "Problemas de Ajedrez" no se abría en móvil
+- En modo smartphone, tras abrir el panel «Partidas Maestras» y cerrarlo, el desplegable
+  de selección de partida dejaba un elemento invisible (`opacity:0`) que seguía
+  ocupando espacio fuera de su contenedor y bloqueaba los clics en el panel de
+  debajo (normalmente «Problemas de Ajedrez»).
+- Causa: la regla `#famous-panel .panel-body { overflow: visible; }` (necesaria para
+  que el desplegable no quedara recortado mientras el panel está abierto) tenía
+  más especificidad por ID que la regla genérica `.collapsed .panel-body { overflow:
+  hidden }`, así que seguía aplicándose incluso con el panel colapsado.
+- Corregido: el `overflow: visible` ahora solo se aplica mientras el panel está
+  abierto (`#famous-panel:not(.collapsed) .panel-body`), para que al colapsarlo
+  vuelva a recortarse correctamente como el resto de paneles.
+- Revisados todos los paneles colapsables en modo smartphone (Aperturas, Partidas
+  Maestras, Problemas de Ajedrez, Aprende Ajedrez, Configuración, Acciones,
+  Estadísticas): todos abren y cierran correctamente al pulsar su título.
+
+---
+
 ## v3.5.0 — 2026-07-13
 
 ### Biblioteca de jugadores — info en separador
