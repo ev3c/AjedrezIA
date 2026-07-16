@@ -7596,6 +7596,10 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '3.5.1': [
+        'Corregido: en móvil, el panel «Problemas de Ajedrez» y su desplegable «Categoría» podían quedar bloqueados tras cerrar el panel «Partidas Maestras»',
+        'Revisados todos los paneles colapsables en modo smartphone (Aperturas, Partidas Maestras, Problemas de Ajedrez, Aprende Ajedrez, Configuración, Acciones, Estadísticas)',
+    ],
     '3.5.0': [
         'Partidas Maestras: nueva «📚 Biblioteca de jugadores» con ~250 grandes maestros y ~268.000 partidas',
         'Partidas Maestras: «⭐ Partidas Seleccionadas» y «📚 Biblioteca de jugadores» son completamente independientes',
