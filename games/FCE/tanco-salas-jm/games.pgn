@@ -1,0 +1,99 @@
+[Event "Andorra op"]
+[Site "?"]
+[Date "2006.07.08"]
+[Round "1.22"]
+[White "Ibarra Jerez, JC."]
+[Black "Tanco Salas, JM."]
+[Result "1-0"]
+[ECO "B15"]
+[WhiteElo "2445"]
+[BlackElo "2018"]
+[PlyCount "43"]
+[EventDate "2006.??.??"]
+[EventCountry "AND"]
+
+1. e4 c6 2. Nc3 d5 3. d4 g6 4. Nf3 Bg7 5. h3 Nf6 6. e5 Ne4 7. Nxe4 dxe4 8. Ng5
+c5 9. Bc4 O-O 10. c3 cxd4 11. cxd4 b5 12. Bb3 Bb7 13. Bc2 e3 14. Bxe3 Bxg2 15.
+Rg1 Bd5 16. Qg4 Qd7 17. e6 fxe6 18. Nxh7 Bf3 19. Qxg6 Rf7 20. Ng5 Rf6 21. Qh7+
+Kf8 22. Nxf3 1-0
+
+[Event "Andorra op"]
+[Site "?"]
+[Date "2006.07.09"]
+[Round "2.25"]
+[White "Navarro Cia, M."]
+[Black "Tanco Salas, JM."]
+[Result "1-0"]
+[ECO "B15"]
+[WhiteElo "2332"]
+[BlackElo "2018"]
+[PlyCount "51"]
+[EventDate "2006.??.??"]
+[EventCountry "AND"]
+
+1. e4 c6 2. Nc3 d5 3. Nf3 g6 4. d4 Bg7 5. h3 Nf6 6. e5 Ne4 7. Nxe4 dxe4 8. Ng5
+c5 9. Bc4 O-O 10. c3 cxd4 11. cxd4 Nc6 12. Be3 Qa5+ 13. Kf1 h6 14. Nxe4 Rd8 15.
+Qf3 Be6 16. Bxe6 fxe6 17. Qg4 Qb5+ 18. Kg1 Qxb2 19. Kh2 Nxd4 20. Qxg6 Kh8 21.
+Rhb1 Qc2 22. Rc1 Qb2 23. Bxh6 Bxe5+ 24. Kh1 Rg8 25. Qh5 Nf5 26. Bf8+ 1-0
+
+[Event "Andorra op"]
+[Site "?"]
+[Date "2006.11.07"]
+[Round "4.29"]
+[White "Tanco Salas, JM."]
+[Black "Cabrera Trujillo, J."]
+[Result "0-1"]
+[ECO "A09"]
+[WhiteElo "2018"]
+[BlackElo "2228"]
+[PlyCount "50"]
+[EventDate "2006.??.??"]
+[EventCountry "AND"]
+
+1. Nf3 d5 2. c4 dxc4 3. Qa4+ Nd7 4. Ne5 c6 5. Nxd7 b5 6. Qc2 Qxd7 7. a4 e6 8.
+b3 cxb3 9. Qxb3 a6 10. axb5 cxb5 11. e4 Bb7 12. Nc3 Rd8 13. Nxb5 axb5 14. Ra7
+b4 15. Qe3 Qc6 16. Bb2 Bc5 17. Rxb7 Bxe3 18. Bb5 Bxd2+ 19. Ke2 Qxb5+ 20. Rxb5
+Bc3 21. Rxb4 Rd2+ 22. Ke3 Rxb2 23. Rc4 Be5 24. Rc8+ Kd7 25. Ra8 Bb8 0-1
+
+[Event "Andorra op"]
+[Site "?"]
+[Date "2006.07.13"]
+[Round "6.30"]
+[White "Tanco Salas, JM."]
+[Black "Garcia Paolicchi, R."]
+[Result "0-1"]
+[ECO "A12"]
+[WhiteElo "2018"]
+[BlackElo "2228"]
+[PlyCount "99"]
+[EventDate "2006.??.??"]
+[EventCountry "AND"]
+
+1. Nf3 d5 2. g3 c6 3. b3 Bg4 4. Bg2 Nd7 5. Bb2 Ngf6 6. c4 e6 7. O-O Bd6 8. d3
+O-O 9. Qc2 Qe7 10. Nbd2 a5 11. a3 h6 12. e4 dxe4 13. Nxe4 Nxe4 14. dxe4 Bxf3
+15. Bxf3 Be5 16. Rad1 Bxb2 17. Qxb2 e5 18. Rd2 Nc5 19. Rfd1 Qc7 20. b4 axb4 21.
+axb4 Ne6 22. Rd7 Qb8 23. Bg4 Nd4 24. f4 f6 25. c5 Rd8 26. fxe5 Rxd7 27. Bxd7
+fxe5 28. Rf1 Qd8 29. Bg4 Qg5 30. Bh3 Qe3+ 31. Qf2 Qxf2+ 32. Rxf2 Ra1+ 33. Rf1
+Ra4 34. Rb1 Ra2 35. Bg4 Kf8 36. Rf1+ Kg8 37. Bc8 Rb2 38. Bxb7 Rxb4 39. Ba6 Rb2
+40. Bc4+ Kh7 41. Rf2 Rb1+ 42. Rf1 Rb4 43. Bd3 Rb3 44. Rd1 Rc3 45. Kf2 Rxc5 46.
+Ra1 Kg6 47. Ra7 Kf6 48. h4 Rc3 49. Ke3 Rb3 50. g4 0-1
+
+[Event "Andorra op"]
+[Site "?"]
+[Date "2006.07.16"]
+[Round "9.30"]
+[White "Singh, G."]
+[Black "Tanco Salas, JM."]
+[Result "1-0"]
+[ECO "B15"]
+[WhiteElo "2264"]
+[BlackElo "2018"]
+[PlyCount "53"]
+[EventDate "2006.??.??"]
+[EventCountry "AND"]
+
+1. e4 c6 2. d4 d5 3. Nc3 g6 4. Be3 Bg7 5. Qd2 Nf6 6. e5 Ng4 7. Bf4 f6 8. exf6
+Nxf6 9. Nf3 Bf5 10. h3 Qb6 11. O-O-O Nbd7 12. Kb1 h6 13. Qe1 Ne4 14. Bd3 Nxc3+
+15. Qxc3 Rf8 16. Bxf5 Rxf5 17. Qe3 g5 18. Bg3 e5 19. dxe5 Qxe3 20. fxe3 Nxe5
+21. Nd4 Rf7 22. Rhe1 Ke7 23. e4 Rd8 24. exd5 Rxd5 25. Nf3 Rf5 26. Rxd5 cxd5 27.
+Nxe5 1-0

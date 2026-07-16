@@ -1,0 +1,56 @@
+[Event "Camp. Catalunya eq. ( 1 cat. )"]
+[Site "?"]
+[Date "1932.??.??"]
+[Round "7"]
+[White "Calduch Segura, Joaquim"]
+[Black "Forcada, J."]
+[Result "1-0"]
+[ECO "B12"]
+[PlyCount "47"]
+[EventDate "1932.??.??"]
+[EventType "team"]
+[EventRounds "18"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 e6 3. Nc3 g6 4. d5 cxd5 5. exd5 Bg7 6. Ne4 d6 7. Bb5+ Kf8 8. Qe2
+e5 9. f4 a6 10. Ba4 b5 11. Bb3 h6 12. Nf3 Ne7 13. O-O Nf5 14. fxe5 dxe5 15. d6
+Qb6+ 16. Kh1 Nxd6 17. Be3 Qc7 18. Bc5 Ke7 19. Nxe5 Bf5 20. Rxf5 gxf5 21. Ng6+
+Kd7 22. Bxd6 Qb6 23. Nc5+ Kd8 24. Qe7+ 1-0
+
+[Event "Camp. Catalunya eq. ( 1 cat. )"]
+[Site "?"]
+[Date "1932.03.01"]
+[Round "8"]
+[White "Forcada, J."]
+[Black "Cunillera Cabedo, Ramon"]
+[Result "0-1"]
+[ECO "D10"]
+[PlyCount "76"]
+[EventDate "1932.??.??"]
+[EventType "team"]
+[EventRounds "18"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 c6 3. Nc3 e5 4. a3 e4 5. e3 Be7 6. Bd2 f5 7. Nge2 Nf6 8. Nf4 Bd6
+9. c5 Bc7 10. g3 O-O 11. Qb3 Bxf4 12. exf4 Nbd7 13. Be2 Kh8 14. Nd1 b6 15. Qc2
+bxc5 16. dxc5 d4 17. Qc4 d3 18. Bf1 Qe7 19. b4 Nd5 20. Ne3 N7f6 21. Bh3 Be6 22.
+Qc1 Nxe3 23. fxe3 Nd5 24. Qb2 a5 25. O-O Rab8 26. Rab1 axb4 27. axb4 Rb5 28.
+Qe5 Bd7 29. Qd4 Rfb8 30. Rfd1 Qf6 31. Qc4 Be6 32. Qc1 Nxb4 33. Bxb4 Rxb4 34.
+Rxb4 Rxb4 35. Qa3 Qb2 36. Qa8+ Rb8 37. Qxc6 Qe2 38. Rf1 Rb2 0-1
+
+[Event "Camp. Catalunya eq. ( 1 cat. )"]
+[Site "?"]
+[Date "1932.??.??"]
+[Round "9"]
+[White "Vila, C."]
+[Black "Forcada, J."]
+[Result "1-0"]
+[ECO "C55"]
+[PlyCount "15"]
+[EventDate "1932.??.??"]
+[EventType "team"]
+[EventRounds "18"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Bc4 Nf6 5. e5 Qe7 6. O-O Ne4 $2 7. Re1 Nc5 $4
+8. Bg5 1-0

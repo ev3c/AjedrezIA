@@ -1,0 +1,130 @@
+[Event "Camp. C. E. Barcelona fem."]
+[Site "Barcelona"]
+[Date "1933.02.05"]
+[Round "8"]
+[White "Nacher, Manolita"]
+[Black "Ruiz, Sofía"]
+[Result "0-1"]
+[ECO "D53"]
+[Annotator "Travesset, Joaquim"]
+[PlyCount "102"]
+[EventDate "1932.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. Bg5 Be7 5. Nf3 c6 6. e3 O-O 7. Bd3 Na6 (7...
+Nbd7 {era otra alternativa}) 8. a3 c5 9. cxd5 exd5 10. Bc2 $6 (10. Bxa6 $142)
+10... c4 11. b3 Qc7 12. Bb1 (12. Qd2 $142) 12... Qa5 13. Qc2 Nb4 14. Qb2 $4 {
+Un error de consideración} (14. axb4 $1 Qxa1 15. Nxd5 $3 {Quizás esta es la
+jugada que no vio Nacher, que ganaba} Bxb4+ 16. Ke2 Ne4 17. Qxe4 Qb2+ 18. Qc2 (
+18. Kd1 $18) 18... Qxc2+ 19. Bxc2 cxb3 20. Bxb3 {con gran ventaja}) 14... Nd3+
+15. Bxd3 cxd3 16. O-O Qa6 17. Bxf6 Bxf6 18. Nxd5 Bd8 19. Nb4 Qg6 20. Rfd1 Bh3
+21. g3 Qe4 22. Ne1 Ba5 23. Qd2 $6 (23. Nbxd3 $142) 23... Qg4 24. Qxd3 Rac8 25.
+Ra2 Rc7 26. Qe2 Qe4 27. Qf3 Qg6 28. Nd5 $2 (28. Qd5 $142 Bxb4 29. axb4 a6 30.
+b5 $18) 28... Bg4 29. Nf4 (29. Qf4 Bxd1 30. Nxc7 (30. Qxc7 Bxc7 31. Ne7+ Kh8
+32. Nxg6+ hxg6 33. b4 Bb6 $19) 30... Qb1 $19) 29... Qf5 (29... Bxf3 $142) 30.
+e4 Bxf3 31. exf5 Bxd1 32. b4 Bb6 33. Rd2 Rc1 34. Ne2 Ra1 35. Kg2 Re8 36. Nc2
+Bxc2 (36... Rxe2 $142 37. Rxe2 Bxe2 38. Nxa1 Bd1 $19) 37. Rxc2 Re1 38. Nf4 Bxd4
+39. Nd3 R1e2 40. Rc4 Bb6 41. a4 a5 42. h4 Rd2 43. bxa5 Bxa5 44. Nc5 Bb6 45. Ne4
+Re2 46. Kf3 Rb2 47. Nd6 Rxf2+ 48. Kg4 Ra8 49. Nxb7 Ra2 50. a5 Bxa5 51. Nd6 h6
+0-1
+
+[Event "Camp. C. E. Barcelona fem."]
+[Site "Barcelona"]
+[Date "1932.02.12"]
+[Round "9"]
+[White "Ruiz, Sofia"]
+[Black "Puigcercos, Montserrat"]
+[Result "0-1"]
+[ECO "C53"]
+[Annotator "Travesset, Joaquim"]
+[PlyCount "80"]
+[EventDate "1932.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 d6 5. d4 Bb6 6. Ng5 Nh6 7. Qf3 Qf6 (7...
+Qe7) 8. Qxf6 gxf6 9. Nf3 Ng8 10. d5 Nce7 11. Bb5+ Bd7 12. Bxd7+ Kxd7 13. O-O f5
+14. Ng5 Rf8 15. Nd2 f6 16. Ne6 Rf7 17. Nc4 (17. exf5) 17... fxe4 18. Nxb6+ axb6
+19. c4 c6 20. Rd1 cxd5 21. cxd5 Nxd5 22. Rxd5 Kxe6 23. Rb5 Ne7 24. Rxb6 Nd5 25.
+Rb3 Rc7 26. h3 Rhc8 27. Bh6 f5 28. Rd1 f4 29. Rb5 Nf6 30. Rb6 Ne8 31. Bf8 Rc1
+32. Rxc1 Rxc1+ 33. Kh2 Rc2 34. Rxb7 Nf6 35. a4 (35. Kg1 Rc1+ 36. Kh2 Rf1) 35...
+Rxf2 36. a5 f3 37. Kg1 e3 38. a6 (38. gxf3 Rxf3 39. Kg2 e2) 38... Rxg2+ 39. Kf1
+e2+ 40. Ke1 Rg1+ 0-1
+
+[Event "Camp. C. E. Barcelona fem."]
+[Site "Barcelona"]
+[Date "1933.02.19"]
+[Round "10"]
+[White "Perpiña, Teresa"]
+[Black "Ruiz, Sofia"]
+[Result "1-0"]
+[ECO "C42"]
+[PlyCount "31"]
+[EventDate "1933.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nc3 Bc5 4. Bc4 Ng4 5. d4 Bd6 6. Bg5 f6 7. Bh4 c5 8. h3
+exd4 9. Nb5 Qe7 10. hxg4 Qxe4+ 11. Qe2 Qxe2+ 12. Kxe2 Ke7 13. Rae1 Nc6 14. Kd2+
+Ne5 15. Nxe5 Kd8 16. Nf7# 1-0
+
+[Event "Barcelona sim"]
+[Site "Barcelona"]
+[Date "1935.12.13"]
+[Round "?"]
+[White "Capablanca, Jose Raul"]
+[Black "Ruiz, Sofia"]
+[Result "1-0"]
+[ECO "B10"]
+[PlyCount "33"]
+[EventDate "1935.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2002.11.25"]
+
+1. e4 c6 2. Nc3 d5 3. Nf3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. h4 h6 7. Ne5 Bh7 8.
+Bc4 e6 9. Qh5 g6 10. Qf3 Nf6 11. c3 h5 12. d4 Bg7 13. Bg5 O-O 14. Ne4 Qb6 15.
+Nxf6+ Bxf6 16. Bxf6 Qxb2 17. O-O 1-0
+
+[Event "Camp. Catalunya fem."]
+[Site "?"]
+[Date "1952.??.??"]
+[Round "2"]
+[White "Asencio"]
+[Black "Ruiz, Sofia"]
+[Result "0-1"]
+[ECO "A20"]
+[PlyCount "90"]
+[EventDate "1952.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. c4 e5 2. b3 d6 3. Bb2 Nf6 4. g3 Bd7 5. Bg2 Bc6 6. Nf3 Be7 7. O-O O-O 8. d4
+exd4 9. Bxd4 Nbd7 10. Qc2 h6 11. Nbd2 a6 12. Rad1 Qc8 13. e4 a5 14. Rfe1 Re8
+15. Bc3 Qb8 16. Nd4 Qa7 17. Nxc6 bxc6 18. Nf3 Rad8 19. Nd4 Ne5 20. Nf5 Nfg4 21.
+Nxe7+ Rxe7 22. h3 Nf6 23. Kf1 c5 24. f4 Ned7 25. Bf3 Rb8 26. e5 dxe5 27. fxe5
+Nh7 28. Bc6 Ndf8 29. Qf5 Qb6 30. Bd5 Ng5 31. Bd2 Nge6 32. Qg4 Kh8 33. Qh4 Rbe8
+34. Re4 Ng6 35. Qh5 Kh7 36. Kg2 Nd4 37. Bf4 Nxf4+ 38. gxf4 g6 39. Qg4 c6 40.
+Bxf7 Rxf7 41. e6 Rfe7 42. Rde1 Qb8 43. Re5 Qd6 44. Qd1 Rxe6 45. f5 Rxe5 0-1
+
+[Event "Copa Presidente - Apert. obligada"]
+[Site "Barcelona"]
+[Date "1956.08.28"]
+[Round "8"]
+[White "Ponce Sala, Lorenzo"]
+[Black "Ruiz, Sofia"]
+[Result "1-0"]
+[ECO "B40"]
+[PlyCount "39"]
+[EventDate "1956.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. Nf3 c5 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Nf5 a6 7. Bg5 d6 8. Ne3
+Be7 9. Bc4 Nbd7 10. O-O O-O 11. f4 h6 12. Nf5 $5 hxg5 13. fxg5 Nxe4 $2 (13...
+b5 $142) 14. Nxe4 Nb6 15. Nxe7+ Qxe7 16. Nf6+ gxf6 17. gxf6 Qc7 18. Qh5 Qc5+ (
+18... Qxc4 19. Qg5+) 19. Kh1 e4 20. Qg6+ 1-0

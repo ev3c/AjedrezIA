@@ -1,0 +1,73 @@
+[Event "Lliga Catalana DH"]
+[Site "Mollet del Valles, Spain"]
+[Date "2023.01.21"]
+[Round "1.10"]
+[White "Pinyol Llora, Julia"]
+[Black "Lambert Pont, James"]
+[Result "1-0"]
+[ECO "E01"]
+[WhiteElo "2094"]
+[BlackElo "1750"]
+[PlyCount "128"]
+[EventDate "2023.??.??"]
+[SourceDate "2023.01.21"]
+[TimeControl "90+30"]
+[WhiteClock "0:18:46"]
+[BlackClock "0:01:14"]
+
+1. d4 {[%emt 0:09:07]} d5 {[%emt 0:00:16]} 2. c4 {[%emt 0:00:09]} e6 {[%emt 0:
+00:12]} 3. Nf3 {[%emt 0:00:05]} Nf6 {[%emt 0:00:08]} 4. g3 {[%emt 0:00:04]} c6
+{[%emt 0:00:32]} 5. Bg2 {[%emt 0:00:43]} Bd6 {[%emt 0:00:51]} 6. O-O {[%emt 0:
+00:17]} O-O {[%emt 0:00:26]} 7. Qc2 {[%emt 0:01:20]} h6 {[%emt 0:01:39]} 8.
+Nbd2 {[%emt 0:01:42]} Re8 {[%emt 0:02:04]} 9. e4 {[%emt 0:01:49]} dxe4 {[%emt
+0:07:57]} 10. Nxe4 {[%emt 0:00:14]} Nxe4 {[%emt 0:01:30]} 11. Qxe4 {[%emt 0:00:
+20]} Nd7 {[%emt 0:00:19]} 12. Bf4 {[%emt 0:08:28]} Nf6 {[%emt 0:21:29]} 13. Qe3
+{[%emt 0:03:06]} Bxf4 {[%emt 0:05:46]} 14. Qxf4 {[%emt 0:00:57]} Qb6 {[%emt 0:
+01:36]} 15. b3 {[%emt 0:04:15]} c5 {[%emt 0:05:16]} 16. dxc5 {[%emt 0:04:48]}
+Qxc5 {[%emt 0:00:20]} 17. Ne5 {[%emt 0:02:23]} Re7 {[%emt 0:05:33]} 18. Rad1 {
+[%emt 0:03:13]} Qb6 {[%emt 0:00:38]} 19. Qd4 {[%emt 0:06:41]} Nd7 {[%emt 0:05:
+37]} 20. Nxd7 {[%emt 0:09:04]} Rxd7 {[%emt 0:00:09]} 21. Qxb6 {[%emt 0:04:40]}
+axb6 {[%emt 0:00:18]} 22. a4 {[%emt 0:00:16]} Rxd1 {[%emt 0:02:33]} 23. Rxd1 {
+[%emt 0:00:01]} Kf8 {[%emt 0:00:01]} 24. Rd6 {[%emt 0:01:12]} Ke7 {[%emt 0:03:
+13]} 25. Rxb6 {[%emt 0:01:25]} Kd8 {[%emt 0:00:39]} 26. c5 {[%emt 0:04:26]} Kc7
+{[%emt 0:01:23]} 27. f4 {[%emt 0:03:22]} Ra5 {[%emt 0:05:10]} 28. Rb5 {[%emt 0:
+00:04]} Rxb5 {[%emt 0:00:13]} 29. axb5 {[%emt 0:00:06]} b6 {[%emt 0:00:11]} 30.
+b4 {[%emt 0:00:31]} Bd7 {[%emt 0:02:21]} 31. Bf1 {[%emt 0:00:13]} Be8 {[%emt 0:
+06:17]} 32. Kf2 {[%emt 0:01:39]} Bd7 {[%emt 0:00:51]} 33. Ke3 {[%emt 0:01:05]}
+Bc8 {[%emt 0:00:31]} 34. Kd4 {[%emt 0:09:00]} Bb7 {[%emt 0:01:20]} 35. Ke5 {
+[%emt 0:01:10]} Bd5 {[%emt 0:08:51]} 36. cxb6+ {[%emt 0:04:10]} Kxb6 {[%emt 0:
+00:01]} 37. Kd6 {[%emt 0:00:06]} g5 {[%emt 0:02:17]} 38. f5 {[%emt 0:00:36]} g4
+{[%emt 0:03:39]} 39. Ke5 {[%emt 0:03:46]} Bb3 {[%emt 0:06:29]} 40. Bd3 {[%emt
+0:01:51]} exf5 {[%emt 0:01:48]} 41. Kxf5 {[%emt 0:00:08]} Be6+ {[%emt 0:00:29]}
+42. Kf6 {[%emt 0:00:21]} Kc7 {[%emt 0:00:31]} 43. Kg7 {[%emt 0:00:42]} h5 {
+[%emt 0:00:01]} 44. Kh6 {[%emt 0:00:05]} Bd5 {[%emt 0:00:58]} 45. Kxh5 {[%emt
+0:00:45]} Bf3 {[%emt 0:00:12]} 46. Kg5 {[%emt 0:01:57]} Kb6 {[%emt 0:00:33]}
+47. Bc4 {[%emt 0:00:47]} Bd1 {[%emt 0:00:36]} 48. Kf6 {[%emt 0:00:14]} Bf3 {
+[%emt 0:00:05]} 49. Kxf7 {[%emt 0:00:41]} Kc7 {[%emt 0:00:46]} 50. Kf6 {[%emt
+0:01:52]} Kd6 {[%emt 0:00:37]} 51. Bf7 {[%emt 0:01:25]} Be2 {[%emt 0:00:25]}
+52. Be8 {[%emt 0:00:19]} Kc7 {[%emt 0:00:35]} 53. Kg5 {[%emt 0:00:58]} Kb6 {
+[%emt 0:00:30]} 54. Bd7 {[%emt 0:00:08]} Kc7 {[%emt 0:00:24]} 55. Bxg4 {[%emt
+0:00:13]} Bxb5 {[%emt 0:00:05]} 56. h4 {[%emt 0:00:27]} Kd8 {[%emt 0:00:30]}
+57. Kf6 {[%emt 0:00:16]} Ke8 {[%emt 0:00:49]} 58. Kg7 {[%emt 0:00:08]} Ke7 {
+[%emt 0:00:36]} 59. h5 {[%emt 0:00:16]} Kd6 {[%emt 0:00:30]} 60. Bf5 {[%emt 0:
+00:13]} Ke5 {[%emt 0:00:20]} 61. Bb1 {[%emt 0:00:14]} Kd4 {[%emt 0:00:39]} 62.
+h6 {[%emt 0:00:05]} Kc4 {[%emt 0:00:01]} 63. h7 {[%emt 0:00:10]} Kb3 {[%emt 0:
+00:15]} 64. h8=Q {[%emt 0:00:13]} Ka3 {[%emt 0:00:30]} 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.03.16"]
+[Round "9.10"]
+[White "Lambert Pont, James"]
+[Black "Gonzalez Garcia, Marc"]
+[Result "1/2-1/2"]
+[ECO "D02"]
+[PlyCount "33"]
+[EventDate "2024.04.13"]
+[EventType "team"]
+[EventRounds "11"]
+[EventCountry "CAT"]
+
+1. d4 d5 2. Bf4 Nf6 3. e3 c5 4. Nf3 Nc6 5. Nbd2 Nh5 6. Bg5 h6 7. Bh4 g5 8. Bg3
+Nxg3 9. hxg3 Bg7 10. c3 Qd6 11. Bd3 Bg4 12. Qa4 c4 13. Be2 Bd7 14. Qc2 Rb8 15.
+e4 e6 16. e5 Qe7 17. Nh2 1/2-1/2

@@ -1,0 +1,168 @@
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2013.06.25"]
+[Round "1"]
+[White "Garcia, E."]
+[Black "Gleizerov, E."]
+[Result "1-0"]
+[ECO "C02"]
+[WhiteElo "2254"]
+[BlackElo "2553"]
+[PlyCount "47"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Bd7 6. Be2 Nge7 7. Na3 Nf5 8. Nc2
+cxd4 9. cxd4 Rc8 10. O-O Qb6 11. Kh1 Na5 12. Rb1 Bb5 13. Ne3 Nxe3 14. Bxe3 Be7
+15. Bxb5+ Qxb5 16. Ng5 Bxg5 17. Bxg5 Nc6 18. b4 O-O 19. Rb3 Nxd4 20. Rd3 Rc4
+21. Rg1 Qxb4 22. Qh5 g6 23. Qxh7+ Kxh7 24. Rh3+ 1-0
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2013.06.27"]
+[Round "3"]
+[White "Arribas Robaina, M."]
+[Black "Gleizerov, E."]
+[Result "0-1"]
+[ECO "C01"]
+[WhiteElo "2331"]
+[BlackElo "2553"]
+[PlyCount "47"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. Bd3 c5 5. dxc5 Bxc5 6. Nf3 Nf6 7. O-O O-O 8.
+h3 Nc6 9. c3 Qc7 10. Nbd2 Bxh3 11. gxh3 Qg3+ 12. Kh1 Qxh3+ 13. Kg1 Ng4 14.
+Bxh7+ Qxh7 15. Nb3 Nce5 16. Bf4 Nxf2 17. Rxf2 Bxf2+ 18. Kxf2 Nd3+ 19. Kg3 Qg6+
+20. Ng5 f6 21. Nc5 Nxc5 22. Qxd5+ Rf7 23. Qxc5 fxg5 24. Be5 {ilegible} 0-1
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2013.06.28"]
+[Round "4"]
+[White "Gleizerov, E."]
+[Black "Ducarmon, Q."]
+[Result "1-0"]
+[ECO "A60"]
+[WhiteElo "2553"]
+[BlackElo "2436"]
+[PlyCount "43"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 e6 3. g3 c5 4. d5 b5 5. dxe6 fxe6 6. Bg2 d5 7. cxd5 exd5 8. Nc3
+Bb7 9. Bg5 Be7 10. Nh3 Na6 11. Nf4 Nc7 12. O-O Ng8 13. Bxe7 Nxe7 14. e4 d4 15.
+Qh5+ g6 16. Qe5 Kf7 17. Nxb5 Nxb5 18. Ne6 Qd6 19. Qg7+ Kxe6 20. Bh3+ Nf5 21.
+exf5+ gxf5 22. Rfe1+ 1-0
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2013.06.29"]
+[Round "5"]
+[White "Aloma Vidal, R."]
+[Black "Gleizerov, E."]
+[Result "0-1"]
+[ECO "C06"]
+[WhiteElo "2421"]
+[BlackElo "2553"]
+[PlyCount "82"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 e6 2. e4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 cxd4 8. cxd4
+f6 9. exf6 Qxf6 10. Nf3 h6 11. O-O Bd6 12. Ng3 O-O 13. Bc2 Rf7 14. Nh5 Qe7 15.
+Bg6 Rxf3 16. Qxf3 Nxd4 17. Qg4 Ne5 18. Qxd4 Nxg6 19. Bd2 Qf7 20. f4 Ne7 21. Ng3
+Bd7 22. Rac1 Bb5 23. Rfe1 Nc6 24. Qe3 Re8 25. Qf3 Rf8 26. Qg4 e5 27. f5 e4 28.
+Rxc6 Bxc6 29. Nh5 Be5 30. Rf1 Bb5 31. Rf2 Bd4 32. f6 Bd7 33. Qg3 Bxf2+ 34. Kxf2
+g5 35. Bb4 Re8 36. Qd6 e3+ 37. Ke1 Be6 38. g4 Qg6 39. f7+ Qxf7 40. h3 Qf2+ 41.
+Kd1 e2+ 0-1
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2013.06.30"]
+[Round "6"]
+[White "Gleizerov, E."]
+[Black "Martinez Ramirez, E."]
+[Result "1-0"]
+[ECO "D85"]
+[WhiteElo "2553"]
+[BlackElo "2306"]
+[PlyCount "65"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. Bd2 Bg7 6. e4 Nb6 7. Be3 O-O 8. h3
+e5 9. Nf3 exd4 10. Bxd4 Be6 11. Bxg7 Kxg7 12. Qd4+ f6 13. Be2 Qe7 14. O-O Nc6
+15. Qe3 Rad8 16. b3 Rfe8 17. Rfe1 Qb4 18. Bb5 Bd7 19. Rad1 Ne5 20. Nxe5 Bxb5
+21. Ng4 g5 22. e5 Rxd1 23. Rxd1 h6 24. a3 Qxb3 25. Rb1 Qxa3 26. Nxb5 Qxe3 27.
+exf6+ Kf7 28. Nxe3 Kxf6 29. Nxc7 Rb8 30. Rd1 Rc8 31. Nb5 Nc4 32. Nxa7 Nxe3 33.
+Rd6+ 1-0
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2013.07.01"]
+[Round "7"]
+[White "Ortiz Suarez, IR."]
+[Black "Gleizerov, E."]
+[Result "1/2-1/2"]
+[ECO "C07"]
+[WhiteElo "2612"]
+[BlackElo "2553"]
+[PlyCount "20"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. f4 c5 6. Ngf3 cxd4 7. Nxd4 Nxe5 8.
+Nxe6 Bxe6 9. fxe5 Qh4+ 10. g3 Qd4 1/2-1/2
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2013.07.02"]
+[Round "8"]
+[White "Gleizerov, E."]
+[Black "Cuartas Medina, JA."]
+[Result "1-0"]
+[ECO "D18"]
+[WhiteElo "2553"]
+[BlackElo "2484"]
+[PlyCount "91"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. e3 e6 7. Bxc4 Bb4 8. O-O
+O-O 9. Nh4 Bg4 10. f3 Bh5 11. g4 Nd5 12. Ng2 Bg6 13. Na2 Bd6 14. e4 Nb6 15. Bb3
+c5 16. a5 Nc8 17. d5 Qxa5 18. dxe6 Nc6 19. Be3 Qc7 20. f4 Bxe4 21. Nc3 Bxg2 22.
+exf7+ Kh8 23. Kxg2 Nd8 24. Qd3 Nxf7 25. Bc2 g6 26. Nd5 Qd8 27. Bd2 Rg8 28. Bc3+
+Rg7 29. Bxg7+ Kxg7 30. Rad1 Qh4 31. Qc3+ Kf8 32. g5 b5 33. Qf3 Rb8 34. Nf6 Nb6
+35. Kh1 c4 36. Rd2 b4 37. Rg2 Kg7 38. Rg4 Nxg5 39. Qg2 Qh3 40. fxg5 Qxg2+ 41.
+Kxg2 b3 42. Bb1 Be5 43. Re4 Bxb2 44. Re7+ Kf8 45. Rxh7 Bxf6 46. gxf6 1-0
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2013.07.03"]
+[Round "9"]
+[White "Gleizerov, E."]
+[Black "Flores Rios, M."]
+[Result "1/2-1/2"]
+[ECO "D85"]
+[WhiteElo "2553"]
+[BlackElo "2492"]
+[PlyCount "79"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. Bd2 Bg7 6. e4 Nxc3 7. Bxc3 O-O 8.
+Bc4 c5 9. d5 Bxc3+ 10. bxc3 Qd6 11. Ne2 f5 12. exf5 Bxf5 13. O-O Nd7 14. Ng3
+Nb6 15. Qb3 Qf4 16. Be2 c4 17. Qb5 Qe5 18. Bxc4 Nxc4 19. Qxc4 Rac8 20. Qb5 Qxc3
+21. Nxf5 Rxf5 22. Qxb7 Rc7 23. Qa6 Qf6 24. Qxf6 exf6 25. d6 Rd7 26. Rfd1 Ra5
+27. h4 Kf7 28. Rd2 Ke6 29. Re1+ Re5 30. Red1 Rc5 31. Rd4 Rc6 32. Re4+ Kf7 33.
+Ra4 a6 34. Rad4 Ke6 35. Re4+ Kf7 36. Rb4 Ke6 37. Kh2 Rcxd6 38. Rxd6+ Rxd6 39.
+Rb7 Rd7 40. Rb6+ 1/2-1/2

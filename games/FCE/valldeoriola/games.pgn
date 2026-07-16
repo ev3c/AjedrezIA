@@ -1,0 +1,83 @@
+[Event "Camp. Catalunya eq. ( 2 cat. )"]
+[Site "?"]
+[Date "1931.??.??"]
+[Round "8"]
+[White "Dardos"]
+[Black "Valldeoriola"]
+[Result "1/2-1/2"]
+[ECO "A52"]
+[PlyCount "86"]
+[EventDate "1931.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e5 3. dxe5 Ng4 4. Nf3 Nc6 5. e4 Ngxe5 6. Nbd2 Bb4 7. Be2 Bxd2+
+8. Bxd2 O-O 9. Nxe5 Nxe5 10. O-O d6 11. Bc3 Be6 12. b3 Ng6 13. f4 f5 14. exf5
+Bxf5 15. Qd5+ Kh8 16. Qxb7 Be6 17. Qe4 d5 18. Qd4 Qd7 19. Bd3 dxc4 20. Qxd7
+Bxd7 21. Bxg6 hxg6 22. bxc4 Bg4 23. Rae1 Rae8 24. g3 Be2 25. Rf2 Bxc4 26. Rc1
+Bb5 27. Be5 Rf7 28. Rxc7 Rxc7 29. Bxc7 Rc8 30. Rc2 a6 31. a3 Kg8 32. Rc3 Kf7
+33. Be5 Rxc3 34. Bxc3 Ke6 35. Bxg7 Kf5 36. h3 g5 37. fxg5 Kxg5 38. Be5 Bd7 39.
+Bf4+ Kf5 40. h4 Kg4 41. Kf2 a5 42. Ke3 a4 43. Ke4 Be8 1/2-1/2
+
+[Event "Camp. Catalunya eq. ( 3 cat. )"]
+[Site "?"]
+[Date "1931.10.06"]
+[Round "3"]
+[White "Valldeoriola"]
+[Black "Nellga"]
+[Result "1-0"]
+[ECO "C00"]
+[PlyCount "69"]
+[EventDate "1931.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. Nf3 Nc6 3. d4 Nf6 4. Nc3 Bb4 5. e5 Nd5 6. Bd2 d6 7. Bb5 Bxc3 8.
+Bxc6+ bxc6 9. bxc3 dxe5 10. Nxe5 Ne7 11. Qf3 O-O 12. Nxc6 Nxc6 13. Qxc6 Bd7 14.
+Qa6 c6 15. Qd3 f5 16. O-O Rb8 17. Bf4 Rb7 18. Be5 Qe7 19. Qg3 Rb2 20. Bd6 Qf7
+21. Bxf8 Qxf8 22. Rfb1 Rxc2 $2 (22... f4) 23. Qb8 $4 Be8 $4 (23... Rc1+ $1 $19)
+24. Rb7 h6 25. Qd8 Kh7 26. Re7 Rxc3 27. Rxe8 Qa3 28. Rh8+ Kg6 29. Qe8+ Kf6 30.
+Rf8+ Kg5 31. g3 Rc1+ 32. Rxc1 Qxc1+ 33. Kg2 Qe1 34. h4+ Kg4 35. Qg6# 1-0
+
+[Event "Camp. Catalunya eq. ( 3 cat. )"]
+[Site "?"]
+[Date "1931.??.??"]
+[Round "13"]
+[White "Capdevila, Manuel"]
+[Black "Valldeoriola"]
+[Result "1/2-1/2"]
+[ECO "C00"]
+[PlyCount "120"]
+[EventDate "1931.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. f4 Nc6 3. Nf3 Bc5 4. d4 Bb6 5. c4 d5 6. e5 dxc4 7. Be3 Ba5+ 8. Nbd2
+Nge7 9. Bxc4 Nf5 10. Bf2 Ncxd4 11. Qa4+ Nc6 12. O-O-O O-O 13. Nb3 Qe7 14. Bc5
+Qe8 15. Bxf8 Ne3 16. Nxa5 Kxf8 17. Rd2 Nxa5 18. Bb5 Nc6 19. Nd4 Bd7 20. Nxc6
+Bxc6 21. Bxc6 Qxc6+ 22. Qxc6 bxc6 23. h3 c5 24. Re1 Nd5 25. f5 Ke7 26. g4 Nf4
+27. Rc2 exf5 28. Kb1 fxg4 29. hxg4 Ke6 30. Re4 Nd5 31. Rxc5 Rb8 32. b3 a6 33.
+Rc6+ Ke7 34. Kb2 a5 35. Ra6 Rb4 36. Rxb4 axb4 37. a4 bxa3+ 38. Kxa3 Ne3 39. g5
+Nc2+ 40. Kb2 Nd4 41. Ra7 Kd7 42. Ra8 Nf3 43. Rg8 Nxg5 44. Rxg7 h6 45. Kc3 Ke6
+46. Kc4 Kxe5 47. Kb5 Kd6 48. Rg8 f5 49. b4 Ke6 50. Rg6+ Ke5 51. Rxh6 Ne6 52.
+Kc6 f4 53. Kd7 Nd4 54. Kxc7 f3 55. Rh8 f2 56. Rh1 Ke4 57. Kd6 Kf3 58. Kd5 Ne2
+59. Ra1 Kg2 60. Kc4 Nf4 1/2-1/2
+
+[Event "Camp. Catalunya eq. ( 3 cat. )"]
+[Site "?"]
+[Date "1931.??.??"]
+[Round "15"]
+[White "Trilla, Llorenç"]
+[Black "Valldeoriola"]
+[Result "0-1"]
+[ECO "D00"]
+[PlyCount "56"]
+[EventDate "1931.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 d5 3. Nc3 e6 4. e3 c5 5. b3 Be7 6. Be2 Qa5 7. Bd2 Qc7 8. Nb5
+Qb6 9. c3 Ne4 10. c4 Nxd2 11. Qxd2 a6 12. Nc3 cxd4 13. Nxd4 dxc4 14. Bxc4 O-O
+15. O-O Rd8 16. Qe2 Nc6 17. Nxc6 Qxc6 18. Rad1 b5 19. Rxd8+ Bxd8 20. Bd3 Bb7
+21. Ne4 f5 22. Qf3 fxe4 23. Bxe4 Qxe4 24. Qh3 Bb6 25. Qg3 Rf8 26. Rd1 Rxf2 27.
+Qxf2 Qc2 28. Qe1 Ba5 0-1

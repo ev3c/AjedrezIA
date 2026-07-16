@@ -1,0 +1,184 @@
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1952.??.??"]
+[Round "1"]
+[White "Toran Albero, Roman"]
+[Black "Rossetto, Hector D"]
+[Result "0-1"]
+[ECO "D66"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "134"]
+[EventDate "1952.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 e6 3. c4 Nf6 4. Nc3 Be7 5. Bg5 h6 6. Bh4 O-O 7. e3 Nbd7 8. Rc1
+c6 9. Bd3 dxc4 10. Bxc4 b5 11. Bd3 a6 12. a4 bxa4 13. Nxa4 Qa5+ 14. Nd2 Bb4 15.
+Nc3 c5 16. Nc4 Qd8 17. Ne5 cxd4 18. exd4 Qb6 19. O-O Bb7 20. Bb1 Rfd8 21. Nxd7
+Rxd7 22. Bxf6 gxf6 23. Qg4+ Kf8 24. Ne2 Qb5 25. Ng3 Rad8 26. Rfd1 Qg5 27. Qxg5
+fxg5 28. Ne2 e5 29. Bf5 Rd6 30. Rc7 Ba8 31. Rc8 a5 32. Rxd8+ Rxd8 33. Bc2 exd4
+34. Nxd4 Kg8 35. Nf5 Rxd1+ 36. Bxd1 Bf8 37. Bb3 $6 {Potser no la millor. Vegem:
+El cavall està molt ben situat. Per tant, caldria donar-li suport amb g4 i
+així podrien sostenir la partida.} (37. g4 $1 Be4 38. h4 $1 (38. Kf1 $6 h5 $1
+$15) 38... gxh4 39. Nxh4 Bg7 40. b3 Bf8 41. Nf5 Bd3 42. Kg2 h5 43. Kg3 hxg4 44.
+Kxg4 {I el petit avantatge negre seria suportable.}) 37... Be4 38. Ng3 $2 (38.
+g4 $2 Bf3 39. h3 h5 $15) (38. Ne3 $142) 38... Bd3 39. Bd5 Bg7 40. b3 Kf8 41.
+Ne4 $2 {tercera errada consecutiva. Això portarà a la pèrdua de la partida.} (
+41. Be4 $142 $1 {Per a intentar guanyar el punt f5 pel cavall.} Bxe4 42. Nxe4
+f5 43. Nd2 $1 {I encara que l'alfil és més actiu que el cavall, resultarà molt
+difícil fer valer l'avantatge.}) 41... Ke7 42. Nd2 (42. Nc5 Kd6 43. Nxd3 Kxd5
+$17) 42... f5 43. Nc4 Bc3 44. f3 Bc2 $1 (44... Bd4+ 45. Kh1 $11) 45. Na3 Bd4+
+46. Kf1 Bd3+ 47. Ke1 Kd6 48. Bg8 Bc3+ 49. Kd1 Kc5 50. Nc2 f4 $1 51. Bf7 Bf1 52.
+g3 Be5 53. Ke1 Ba6 54. g4 (54. gxf4 $2 Bxf4 55. h3 Bc8 $19) 54... Bc3+ 55. Kd1
+Bd3 56. Be8 (56. Ne1 $2 Bxe1 $1 (56... Kd4 $2 57. Nxd3 Kxd3 58. Bc4+ Ke3 59.
+Bd5 Kf2 60. Be4 Kg2 61. Ke2 Kxh2 62. Kf1 $11) 57. Kxe1 Kd4 58. Kd2 Bb5 59. Be6
+Bc6 60. Ke2 Kc3 $19) (56. Na3 $142 Kd4 (56... Kb4 $143 57. Nc2+) 57. Nc2+ Ke5
+58. Na3 Bb4 $1 59. Nc2 Kf6 $1 {seguint el mateix pla que a la partida.}) 56...
+Kd6 $1 {La idea és expulsar l'alfil d'aquesta diagonal per tal de poder jugar
+h5.} 57. Bf7 Ke7 58. Bd5 (58. Bh5 $2 Bh7 $1 $19 {i cauria el peó de b3,
+després de Ag8.}) 58... Bg6 $1 59. Bc4 Kd6 {Abans de trencar cal situar millor
+el rei negre.} 60. Bg8 Kc5 61. Be6 h5 $1 62. h3 (62. gxh5 Bxh5 63. Ke2 Bg6 64.
+Kd1 Kd6 65. Bc4 Bf5 66. Bf7 Kc5 67. Bg8 g4 $19) 62... h4 $1 63. Bg8 Bxc2+ $1 {
+Sorpresa!!} (63... Bd3 {semblava millor.} 64. Ne1 Bf1 65. Bh7 Kb4 $19) 64. Kxc2
+Kd4 65. Bd5 Bb4 66. Be4 Ke3 67. Bd5 (67. Kd1 Kf2 68. Bd5 Kg2 69. Ke2 Kxh3 70.
+Kf1 Bc5 71. Be4 Kg3 72. Bd5 h3 $19) 67... Kf2 0-1
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1952.??.??"]
+[Round "6"]
+[White "Sanz Aguado, Jose"]
+[Black "Rossetto, Hector D"]
+[Result "0-1"]
+[ECO "D85"]
+[PlyCount "96"]
+[EventDate "1952.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. cxd5 Nxd5 6. e4 Nxc3 7. bxc3 c5 8.
+Bc4 O-O 9. O-O cxd4 10. cxd4 Nc6 11. Be3 Bg4 12. d5 Ne5 13. Rc1 Rc8 14. Be2 Qa5
+15. Nxe5 Rxc1 16. Bxc1 Bxe2 17. Qxe2 Bxe5 18. Bh6 Rc8 19. Rc1 Rxc1+ 20. Bxc1
+Qc7 21. Bh6 Bxh2+ 22. Kh1 Be5 23. Qb5 Qc8 24. g4 a6 25. Qe2 b5 26. Kg2 a5 27.
+f4 Bd4 28. f5 Qc4 29. Kf1 Be5 30. Qxc4 bxc4 31. a4 Bg7 32. Bf4 h5 33. gxh5 gxh5
+34. Bc7 Bc3 35. Ke2 Kf8 36. Bg3 Ke8 37. Ke3 Kd7 38. e5 Kc8 39. Ke4 f6 40. e6
+Bb4 41. Kd4 c3 42. Kd3 Bd6 43. Be1 Be5 44. Bf2 Kc7 45. Be1 Kd6 46. Ke4 h4 47.
+Bf2 c2 48. Be3 h3 0-1
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1952.??.??"]
+[Round "9"]
+[White "Rossetto, Hector D"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1-0"]
+[ECO "E95"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "85"]
+[EventDate "1952.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Be2 O-O 6. Nf3 Nbd7 7. O-O e5 8. Re1
+Ng4 (8... exd4) 9. d5 f6 $6 (9... f5) 10. h3 Nh6 11. Be3 Nf7 12. Qc2 a5 13. a3
+Nc5 14. b4 axb4 15. axb4 Rxa1 16. Rxa1 Na6 17. Qb3 f5 18. c5 f4 19. Bd2 dxc5
+20. Bxa6 cxb4 21. Bxb7 bxc3 22. Bxc8 cxd2 23. Be6 Kh8 24. Bxf7 Rxf7 25. Nxd2
+Bf8 26. Qb7 Kg7 27. Ra8 Qf6 28. Re8 Bd6 29. Qc6 Re7 30. Rc8 Rf7 31. Kf1 Rf8 32.
+Re8 Rf7 33. Nf3 Re7 34. Qa8 Rxe8 35. Qxe8 h6 36. Qd7+ Kg8 37. Ke2 Kf8 38. Qh7
+Ke8 $2 $16 (38... Qg7 $142) 39. Kf1 (39. Qxh6 $2 Bf8 $1 $13) 39... h5 40. h4
+Be7 $2 (40... Qf7 $142) 41. Kg1 (41. Qg8+ $142) 41... Kd8 $2 (41... Bd6 $142)
+42. Qg8+ Kd7 43. Qxg6 $1 1-0
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1952.??.??"]
+[Round "10"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Rossetto, Hector D"]
+[Result "1-0"]
+[ECO "B09"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "99"]
+[EventDate "1952.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. f4 Bg7 5. Nf3 O-O 6. Bd3 c5 7. d5 e5 8. O-O
+exf4 9. Bxf4 a6 10. a4 Nh5 11. Be3 Nd7 12. Qe1 Ne5 13. Nxe5 Bxe5 14. Kh1 Bd7
+15. a5 b5 16. axb6 Qxb6 17. b3 Rfe8 18. Ra2 Bg7 19. Nb1 Qb7 20. Na3 Bb5 21.
+Nxb5 axb5 22. Rxa8 Rxa8 23. Qh4 Be5 24. g4 Ng7 25. Rf3 c4 26. Be2 f6 27. Rh3
+Ne8 28. g5 Ra1+ 29. Kg2 cxb3 30. cxb3 Ra2 31. Kf1 Rb2 32. Qg4 Ng7 33. Qh4 Ne8
+34. Qg4 f5 35. exf5 Qxd5 $2 (35... Rxb3 $142 36. f6 h5 $16) 36. f6 Rxb3 37. Qd7
+Qf7 38. Qxf7+ Kxf7 39. Rxh7+ Kg8 (39... Kf8) 40. f7+ Kf8 41. fxe8=Q+ Kxe8 42.
+Kf2 d5 43. Bc5 Bf4 44. Rb7 Bxg5 45. Bxb5+ Kd8 46. Bd6 Be3+ 47. Ke2 Ba7 48. Rd7+
+Kc8 49. Rxa7 Rxb5 50. Kd3 1-0
+
+[Event "Tarragona Int"]
+[Site "Tarragona"]
+[Date "1952.??.??"]
+[Round "4"]
+[White "Rossetto, Hector D"]
+[Black "Orbaan, Constant"]
+[Result "1-0"]
+[ECO "D41"]
+[PlyCount "69"]
+[EventDate "1952.09.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 e6 2. Nf3 d5 3. c4 Nf6 4. Nc3 c5 5. e3 Nc6 6. cxd5 Nxd5 7. Bc4 Nxc3 8.
+bxc3 cxd4 9. exd4 Be7 10. O-O O-O 11. Qe2 b6 12. Bd3 Bb7 13. Qe4 g6 14. Bh6 Re8
+15. Rfe1 Rc8 16. Qg4 e5 17. Bf5 Rc7 18. dxe5 Bf8 19. Rad1 Qe7 20. Bxf8 Kxf8 21.
+Bd7 Bc8 22. Bxc8 Rexc8 23. e6 f5 24. Qf4 Kg7 25. h4 $1 Rd8 26. h5 Rcc8 27. h6+
+Kg8 28. Nd4 Nxd4 29. cxd4 Qd6 30. Qg5 Re8 31. d5 Re7 32. Qf6 Rc5 33. Qxe7 $1
+Qxe7 34. d6 Qb7 35. d7 1-0
+
+[Event "Tarragona Int"]
+[Site "Tarragona"]
+[Date "1952.??.??"]
+[Round "7"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Rossetto, Hector D"]
+[Result "0-1"]
+[ECO "C18"]
+[PlyCount "100"]
+[EventDate "1952.09.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Ne7 7. Qg4 Qc7 8. Bd2
+cxd4 9. cxd4 Qxc2 10. Qxg7 Rg8 11. Qh6 Qb2 12. Rc1 Qxd4 13. Bc3 Qe4+ 14. Ne2
+Nbc6 15. f3 Qg6 16. Qd2 Bd7 17. Ng3 Qg5 18. f4 Qh4 19. Qf2 Rg4 20. Bd2 Ng6 21.
+Bb5 Nge7 22. O-O Nf5 23. Nxf5 Qxf2+ 24. Kxf2 exf5 25. h3 Rg8 26. Be3 a6 27. Bd3
+d4 28. Bd2 O-O-O 29. Rc2 Kb8 30. Rb1 Ka7 31. Rcb2 Rb8 32. Be1 Be6 33. g3 h6 34.
+Kf1 Rgd8 35. Bf2 Rd7 36. Rd2 b5 37. Be2 Rbd8 38. Rc2 Na5 39. Rd2 Bc4 40. Kg1
+Bxe2 41. Rxe2 Nc4 42. e6 fxe6 43. Rxe6 Nxa3 44. Rc1 Nc4 45. Rxh6 Kb7 46. Ra1
+Rd6 47. Rh7+ R8d7 48. Rxd7+ Rxd7 49. Kf1 d3 50. Rd1 b4 0-1
+
+[Event "Tarragona Int"]
+[Site "Tarragona"]
+[Date "1952.??.??"]
+[Round "10"]
+[White "Rossetto, Hector D"]
+[Black "Gonzalez, Juan A"]
+[Result "1/2-1/2"]
+[ECO "E17"]
+[PlyCount "128"]
+[EventDate "1952.09.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb7 5. Bg2 Be7 6. O-O O-O 7. Qc2 Be4 8. Qb3
+Nc6 9. Nbd2 d5 10. cxd5 Bxd5 11. Qc2 Nxd4 12. Nxd4 Bxg2 13. Nxe6 fxe6 14. Kxg2
+Bc5 15. Nb3 Qd5+ 16. f3 Bd6 17. e4 Qh5 18. Nd4 Rae8 19. Qb3 Qe5 20. Nc6 Qc5 21.
+Nxa7 Nxe4 22. Be3 Qa5 23. fxe4 Qxa7 24. Rxf8+ Kxf8 25. Bd4 Qa8 26. Qf3+ Kg8 27.
+Qg4 e5 28. Bc3 b5 29. h4 Rf8 30. Qe6+ Kh8 31. Qd5 Qxd5 32. exd5 b4 33. Bd2 Ra8
+34. Kf3 h5 35. Ke4 g6 36. Bc1 Kg8 37. b3 Rf8 38. Be3 Ra8 39. Kd3 Rf8 40. Ke4
+Ra8 41. Bc1 Rb8 42. Rb1 Rf8 43. Be3 Kg7 44. Rc1 Ra8 45. Rc2 Ra5 46. Bg5 Ra8 47.
+Rf2 Kg8 48. Be3 Kg7 49. Rc2 Ra5 50. Bd2 Rb5 51. Rc6 Rb6 52. Rxb6 cxb6 53. Bg5
+Kf7 54. Kf3 b5 55. g4 hxg4+ 56. Kxg4 Ke8 57. Kf3 Kf7 58. Ke4 Kg7 59. Bd2 Kf6
+60. Be1 Kf7 61. Bf2 Kf6 62. Bb6 Kf7 63. Bd8 Kg7 64. Kf3 Kf7 1/2-1/2

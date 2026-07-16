@@ -1,0 +1,195 @@
+[Event "Catalunya Edats - Sub14"]
+[Site "?"]
+[Date "2007.04.01"]
+[Round "3.7"]
+[White "Muñoz Muñoz, R."]
+[Black "Pruja Ramirez de Cartagena, M."]
+[Result "0-1"]
+[ECO "B26"]
+[BlackElo "1949"]
+[PlyCount "92"]
+[EventDate "2007.??.??"]
+
+1. e4 c5 2. Nc3 d6 3. g3 g6 4. Bg2 Bg7 5. d3 Nc6 6. Be3 e6 7. Qd2 Rb8 8. a4
+Nge7 9. Bh6 O-O 10. h4 f6 11. Bxg7 Kxg7 12. Nf3 h5 13. O-O-O e5 14. Bh3 Bxh3
+15. Rxh3 Qd7 16. Rdh1 Nd4 17. Qd1 a6 18. Nd2 b5 19. b3 Nec6 20. Nd5 bxa4 21.
+Nc4 axb3 22. Ndb6 Qd8 23. c3 Nb5 24. g4 Rxb6 25. gxh5 Rb7 26. Qg4 Ne7 27. hxg6
+Rh8 28. h5 Rh6 29. Rf3 Qd7 30. Qh4 Qe6 31. Ne3 Nc7 32. c4 a5 33. Ng4 Ng8 34.
+Ne3 Ne8 35. Nf5+ Kh8 36. Nxh6 Nxh6 37. Rg1 Kg7 38. Rfg3 b2+ 39. Kb1 Qd7 40. f4
+Qa4 41. Qh3 Qa1+ 42. Kc2 b1=Q+ 43. Rxb1 Qxb1+ 44. Kd2 Rb2+ 45. Ke3 Qe1+ 46. Kf3
+Rf2# 0-1
+
+[Event "Ct. Catalunya juvenil"]
+[Site "?"]
+[Date "2011.04.20"]
+[Round "1"]
+[White "Muñoz Muñoz, R."]
+[Black "Bals Hernandez, J."]
+[Result "0-1"]
+[ECO "B26"]
+[WhiteElo "1768"]
+[BlackElo "2061"]
+[PlyCount "64"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[EventRounds "8"]
+
+1. e4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. d3 d6 6. Be3 Nd4 7. Qd2 e5 8. Nge2
+Bg4 9. f4 Bf3 10. O-O Bxg2 11. Kxg2 Ne7 12. Rf2 Qd7 13. Raf1 h5 14. fxe5 Bxe5
+15. Rxf7 Ndf5 16. exf5 Kxf7 17. d4 cxd4 18. Nxd4 Nxf5 19. Nxf5 gxf5 20. Qd5+
+Kg6 21. Ne2 Qc6 22. Qxc6 bxc6 23. Bd4 Rab8 24. b3 h4 25. c4 hxg3 26. hxg3 Rbg8
+27. Nf4+ Kf6 28. Rd1 Rg4 29. c5 Bxd4 30. Rxd4 d5 31. Rd3 Rhg8 32. Re3 Rxf4 0-1
+
+[Event "Ct. Catalunya juvenil"]
+[Site "?"]
+[Date "2011.04.21"]
+[Round "2"]
+[White "Arno Bendicho, X."]
+[Black "Muñoz Muñoz, R."]
+[Result "1/2-1/2"]
+[ECO "A16"]
+[WhiteElo "1630"]
+[BlackElo "1768"]
+[PlyCount "89"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[EventRounds "8"]
+
+1. c4 Nf6 2. Nc3 g6 3. g3 d5 4. cxd5 Nxd5 5. Qa4+ c6 6. Bg2 Be6 7. Qd4 f6 8. e4
+Qb6 9. Nge2 Qxd4 10. Nxd4 Nc7 11. Nxe6 Nxe6 12. Ne2 Bg7 13. O-O Nd7 14. Rd1 Ng5
+15. d4 Nf7 16. Nf4 O-O-O 17. Ne6 Rdg8 18. Nxg7 Rxg7 19. b3 Re8 20. Bb2 Kb8 21.
+Bh3 Nb6 22. f4 g5 23. Kf2 gxf4 24. gxf4 Reg8 25. Rg1 Nd6 26. Rxg7 Rxg7 27. Re1
+Nb5 28. Re3 a5 29. a4 Nc7 30. Rg3 Rxg3 31. hxg3 Nc8 32. Ba3 Nd6 33. Ke3 b5 34.
+Kd3 b4 35. Bb2 Nf7 36. Bf5 h6 37. Bg6 Nd8 38. Bh5 Nde6 39. Bg4 Ng7 40. Bc1 e6
+41. Bf3 h5 42. Bb2 f5 43. Bc1 Kb7 44. Be3 Nd5 45. exd5 1/2-1/2
+
+[Event "Ct. Catalunya juvenil"]
+[Site "?"]
+[Date "2011.04.21"]
+[Round "3"]
+[White "Muñoz Muñoz, R."]
+[Black "Arno Bendicho, A."]
+[Result "0-1"]
+[ECO "B23"]
+[WhiteElo "1768"]
+[BlackElo "1908"]
+[PlyCount "70"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[EventRounds "8"]
+
+1. e4 c5 2. Nc3 d6 3. g3 Nc6 4. Bg2 e5 5. d3 h6 6. h3 Nf6 7. Be3 Be7 8. f4 exf4
+9. Bxf4 O-O 10. g4 Nh7 11. Qf3 Nd4 12. Qf2 Bh4 13. Bg3 Bxg3 14. Qxg3 Nxc2+ 15.
+Kd2 Nxa1 16. Nf3 Ng5 17. Rxa1 Nxf3+ 18. Bxf3 Be6 19. h4 g6 20. Rg1 Kg7 21. Kc1
+a6 22. Rf1 Rb8 23. Nd5 Bxd5 24. exd5 b5 25. Be4 c4 26. d4 Qe7 27. Bc2 Rbe8 28.
+Kb1 a5 29. h5 b4 30. Qf2 c3 31. b3 f5 32. gxf5 g5 33. Bd3 Rf6 34. Bb5 Qe4+ 35.
+Ka1 Re7 0-1
+
+[Event "Ct. Catalunya juvenil"]
+[Site "?"]
+[Date "2011.04.22"]
+[Round "4"]
+[White "Camacho Martinez, C."]
+[Black "Muñoz Muñoz, R."]
+[Result "0-1"]
+[ECO "A15"]
+[BlackElo "1768"]
+[PlyCount "68"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[EventRounds "8"]
+
+1. c4 Nf6 2. g3 e6 3. Bg2 c6 4. Nc3 g6 5. d4 d5 6. cxd5 exd5 7. Nf3 Bg7 8. Bf4
+O-O 9. O-O Re8 10. e3 Nbd7 11. b4 Nb6 12. Nd2 Bf5 13. Re1 Nh5 14. Be5 f6 15. g4
+Bxg4 16. Qxg4 fxe5 17. Nb3 Qe7 18. a3 Rf8 19. Nc5 Rae8 20. Bh3 Rf5 21. Kf1 e4
+22. Qe2 Rf6 23. Qg4 Qd6 24. Nd7 Nxd7 25. Qxd7 Rxf2+ 26. Kxf2 Qxh2+ 27. Bg2 Rf8+
+28. Ke2 Qxg2+ 29. Kd1 Ng3 30. Ra2 Qf3+ 31. Kc2 Nf5 32. Kd2 Nxd4 33. Ne2 Nb3+
+34. Kd1 Qxe3 0-1
+
+[Event "Ct. Catalunya juvenil"]
+[Site "?"]
+[Date "2011.04.22"]
+[Round "5"]
+[White "Muñoz Muñoz, R."]
+[Black "Sabria Batlle, P."]
+[Result "0-1"]
+[ECO "B24"]
+[WhiteElo "1768"]
+[BlackElo "2211"]
+[PlyCount "54"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[EventRounds "8"]
+
+1. e4 c5 2. Nc3 e6 3. g3 Nc6 4. Bg2 Nf6 5. d3 Be7 6. f4 d5 7. e5 Nd7 8. Bd2 O-O
+9. Qg4 Nd4 10. O-O-O b5 11. Nf3 Nxf3 12. Bxf3 b4 13. Ne2 Qa5 14. Kb1 Rb8 15. b3
+Rb6 16. a4 Ra6 17. Kb2 c4 18. dxc4 dxc4 19. Be3 Nc5 20. Bxc5 Qxc5 21. Be4 f5
+22. exf6 Bxf6+ 23. Kb1 Rd6 24. Rxd6 Qxd6 25. Qf3 Ba6 26. f5 Qe5 27. Kc1 cxb3
+0-1
+
+[Event "Ct. Catalunya juvenil"]
+[Site "?"]
+[Date "2011.04.23"]
+[Round "6"]
+[White "Vicente Bessen, K."]
+[Black "Muñoz Muñoz, R."]
+[Result "1/2-1/2"]
+[ECO "D94"]
+[WhiteElo "1690"]
+[BlackElo "1768"]
+[PlyCount "65"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[EventRounds "8"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. e3 c6 5. Nf3 Bg7 6. cxd5 cxd5 7. Bb5+ Bd7 8.
+Bd3 Nc6 9. Qb3 e6 10. O-O O-O 11. Bd2 Qe7 12. Rac1 Rab8 13. Na4 Rfc8 14. Bb5
+Ne4 15. Nc5 Nxd2 16. Nxd2 Be8 17. Nd3 a6 18. Bxc6 Bxc6 19. Nf3 Bb5 20. a4 Bc4
+21. Qd1 Rc6 22. Nde5 Bxe5 23. Nxe5 Bxf1 24. Nxc6 bxc6 25. Qxf1 Qb7 26. h3 Qxb2
+27. Rxc6 a5 28. Rc5 Qa2 29. Rb5 Rxb5 30. Qxb5 Qd2 31. Qb8+ Kg7 32. Qe5+ Kf8 33.
+Qd6+ 1/2-1/2
+
+[Event "Ct. Catalunya juvenil"]
+[Site "?"]
+[Date "2011.04.23"]
+[Round "7"]
+[White "Muñoz Muñoz, R."]
+[Black "Cano Egea, JM."]
+[Result "1/2-1/2"]
+[ECO "C45"]
+[WhiteElo "1768"]
+[BlackElo "1440"]
+[PlyCount "70"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[EventRounds "8"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nxd4 5. Qxd4 d6 6. Nc3 Nf6 7. Bc4 Be7 8.
+Nd5 O-O 9. Nxe7+ Qxe7 10. f3 d5 11. Bd3 dxe4 12. Bxe4 Nxe4 13. Qxe4 Qxe4+ 14.
+fxe4 Re8 15. O-O Rxe4 16. Bf4 Be6 17. Rad1 Re2 18. Rf2 Rxf2 19. Kxf2 c6 20. a3
+Kf8 21. Be3 Ke8 22. b3 b6 23. Rd6 c5 24. h3 Rd8 25. Rxd8+ Kxd8 26. Bf4 h5 27.
+Ke3 Kd7 28. Ke4 g6 29. Ke5 Kc6 30. b4 cxb4 31. axb4 Kb5 32. c3 a5 33. bxa5 bxa5
+34. Kd4 Kc6 35. c4 Bf5 1/2-1/2
+
+[Event "Ct. Catalunya juvenil"]
+[Site "?"]
+[Date "2011.04.24"]
+[Round "8"]
+[White "Jover Font, P."]
+[Black "Muñoz Muñoz, R."]
+[Result "0-1"]
+[ECO "C05"]
+[WhiteElo "1712"]
+[BlackElo "1768"]
+[PlyCount "86"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[EventRounds "8"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ngf3 Qc7 8. O-O
+cxd4 9. cxd4 f6 10. exf6 Nxf6 11. Re1 Bd6 12. Nf1 O-O 13. Bg5 Bd7 14. a3 Rae8
+15. Rc1 Qb6 16. b4 e5 17. dxe5 Nxe5 18. Be2 Bc6 19. Ne3 Neg4 20. Qb3 Nxf2 21.
+Bxf6 Rxf6 22. Kxf2 Bf4 23. Bc4 dxc4 24. Qxc4+ Kh8 25. Qc5 Qxc5 26. Rxc5 Bxh2
+27. Ng4 Rxe1 28. Kxe1 Bg3+ 29. Ke2 Re6+ 30. Kd3 b6 31. Rc1 h5 32. Ne3 Bf4 33.
+Re1 Bxf3 34. gxf3 Rxe3+ 35. Rxe3 Bxe3 36. Kxe3 g5 37. a4 h4 38. a5 bxa5 39.
+bxa5 a6 40. Kf2 Kg7 41. Kg2 Kg6 42. Kf2 Kf5 43. Ke3 Ke5 0-1

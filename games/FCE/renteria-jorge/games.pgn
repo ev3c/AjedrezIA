@@ -1,0 +1,107 @@
+[Event "Figueres op A"]
+[Site "Figueres"]
+[Date "2016.08.11"]
+[Round "1"]
+[White "Serrano Martinez, Francisco Jo"]
+[Black "Renteria, Jorge"]
+[Result "1/2-1/2"]
+[ECO "B21"]
+[WhiteElo "1858"]
+[BlackElo "2264"]
+[PlyCount "31"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. d4 cxd4 3. c3 dxc3 4. Nxc3 e6 5. Nf3 a6 6. Bc4 Qc7 7. Qe2 Nc6 8.
+O-O Nf6 9. Nd5 exd5 10. exd5+ Ne7 11. d6 Qxd6 12. Ng5 b5 13. Bxf7+ Kd8 14. Bb3
+Ke8 15. Bf7+ Kd8 16. Bb3 1/2-1/2
+
+[Event "Figueres op A"]
+[Site "Figueres"]
+[Date "2016.08.12"]
+[Round "2"]
+[White "Renteria, Jorge"]
+[Black "Dave, Dhyani"]
+[Result "1-0"]
+[ECO "B90"]
+[WhiteElo "2264"]
+[BlackElo "2128"]
+[PlyCount "39"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. f3 e5 7. Nb3 Be6 8. Be3
+Be7 9. Qd2 h5 10. Be2 Nbd7 11. O-O Rc8 12. a4 b6 13. Bxa6 Ra8 14. Be2 O-O 15.
+Nd5 Nxd5 16. exd5 Bf5 17. a5 bxa5 18. Nxa5 Qc7 19. Nc6 Bf6 20. g4 1-0
+
+[Event "Figueres op A"]
+[Site "Figueres"]
+[Date "2016.08.13"]
+[Round "3"]
+[White "Ortega Amarelle, Mariano"]
+[Black "Renteria, Jorge"]
+[Result "1-0"]
+[ECO "E69"]
+[WhiteElo "2432"]
+[BlackElo "2264"]
+[PlyCount "43"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 Nf6 2. Nf3 g6 3. g3 Bg7 4. Bg2 O-O 5. O-O d6 6. d4 c6 7. Nc3 Nbd7 8. e4
+e5 9. h3 Qe7 10. Re1 Re8 11. Be3 a6 12. c5 exd4 13. cxd6 Qxd6 14. Bxd4 Qe7 15.
+e5 Nh5 16. Qd2 Bf8 17. Ne4 Qd8 18. Nd6 Bxd6 19. exd6 Rxe1+ 20. Rxe1 Ng7 21. Ng5
+f6 22. Re7 1-0
+
+[Event "Figueres op A"]
+[Site "Figueres"]
+[Date "2016.08.14"]
+[Round "5"]
+[White "Pinsach Gelabert, Alexandre"]
+[Black "Renteria, Jorge"]
+[Result "0-1"]
+[ECO "B90"]
+[WhiteElo "2077"]
+[BlackElo "2264"]
+[PlyCount "102"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Qf3 Bd7 7. Nd5 e6 8.
+Nxf6+ gxf6 9. Be3 Nc6 10. O-O-O h5 11. Be2 Rc8 12. Kb1 Be7 13. Qg3 Nxd4 14.
+Rxd4 Kf8 15. f4 h4 16. Qf2 e5 17. Rd2 Qc7 18. Rg1 b5 19. g4 hxg3 20. Qxg3 Ke8
+21. Bg4 Qc4 22. Bf5 Bxf5 23. exf5 Qe4 24. Re1 Qxf5 25. Qg7 Rh7 26. Qg8+ Bf8 27.
+fxe5 fxe5 28. Rxd6 Qxc2+ 29. Ka1 Rg7 30. Qh8 Qh7 31. Qxh7 Rxh7 32. Rxa6 Be7 33.
+Re2 Rh4 34. Ra7 f6 35. a3 Re4 36. Rxe7+ Kxe7 37. Bc5+ Ke6 38. Rxe4 Rxc5 39. Kb1
+f5 40. b4 Rc3 41. Kb2 Rh3 42. Re2 f4 43. a4 bxa4 44. b5 Rb3+ 45. Ka2 Rxb5 46.
+Ka3 f3 47. Rf2 e4 48. Kxa4 Rb8 49. h4 Ke5 50. h5 Kf4 51. h6 Kg3 0-1
+
+[Event "Figueres op A"]
+[Site "Figueres"]
+[Date "2016.08.17"]
+[Round "8"]
+[White "Renteria, Jorge"]
+[Black "Campos Moreno, Javier B"]
+[Result "0-1"]
+[ECO "C70"]
+[WhiteElo "2264"]
+[BlackElo "2412"]
+[PlyCount "64"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 g6 5. O-O Bg7 6. c3 Nge7 7. d3 O-O 8. Re1
+d6 9. Nbd2 h6 10. Nf1 f5 11. h3 f4 12. d4 Kh7 13. dxe5 Nxe5 14. Nxe5 Bxe5 15.
+Nh2 g5 16. Bd2 Ng6 17. b4 Qf6 18. Ng4 Bxg4 19. hxg4 f3 20. Qxf3 Qxf3 21. gxf3
+Rxf3 22. Re3 Rf6 23. Bd1 Bf4 24. Rf3 Ne5 25. Rxf4 gxf4 26. f3 h5 27. gxh5 Rg8+
+28. Kf2 Rg5 29. Be2 Rxh5 30. Rg1 Rh2+ 31. Rg2 Rh1 32. Bf1 Nxf3 0-1

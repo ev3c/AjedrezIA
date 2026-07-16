@@ -1,0 +1,686 @@
+[Event "Camp. Catalunya juv."]
+[Site "?"]
+[Date "1962.??.??"]
+[Round "?"]
+[White "Montell Zabay, Alberto"]
+[Black "Serrano Blanco, Vicente"]
+[Result "0-1"]
+[ECO "C77"]
+[PlyCount "46"]
+[EventDate "1962.??.??"]
+[EventType "tourn"]
+[EventRounds "6"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Qe2 b5 6. Bb3 Bc5 7. a4 Rb8 8. axb5
+axb5 9. Nc3 O-O 10. d3 Nd4 11. Nxd4 exd4 12. Nd5 Nxd5 13. Bxd5 c6 14. Bb3 d5
+15. O-O Bd6 16. exd5 c5 17. c3 Re8 18. Qf3 Qh4 19. g3 Qh3 20. Bd2 Bg4 21. Qg2
+Qh5 22. Rfe1 Bh3 23. Bd1 Qh6 0-1
+
+[Event "Trofeo "Dicen" I"]
+[Site "Barcelona"]
+[Date "1967.??.??"]
+[Round "?"]
+[White "Carranza Faure, Salvador"]
+[Black "Serrano Blanco, Vicente"]
+[Result "1-0"]
+[ECO "A83"]
+[PlyCount "31"]
+[EventDate "1967.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. d4 f5 2. e4 fxe4 3. Nc3 Nf6 4. Bg5 c6 5. f3 exf3 6. Nxf3 e6 7. Bd3 d6 8. O-O
+Be7 9. Nh4 Nbd7 10. Ne4 O-O 11. Nxf6+ gxf6 12. Bxh7+ Kxh7 13. Qh5+ Kg8 14. Qg6+
+Kh8 15. Nf5 exf5 16. Rf3 1-0
+
+[Event "Camp. Catalunya indiv."]
+[Site "?"]
+[Date "1968.??.??"]
+[Round "?"]
+[White "Serrano Blanco, Vicente"]
+[Black "Puig Pulido, Pedro"]
+[Result "0-1"]
+[ECO "C36"]
+[PlyCount "56"]
+[EventDate "1968.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. f4 exf4 3. Nf3 d5 4. exd5 Nf6 5. Bb5+ c6 6. dxc6 bxc6 7. Bc4 Bg4 8.
+Bxf7+ Kxf7 9. Ne5+ Kg8 10. Nxg4 Qe8+ 11. Kf1 Nbd7 12. d4 Bd6 13. Nc3 Nd5 14.
+Qf3 h5 15. Nf2 Rh6 16. Nxd5 cxd5 17. Qxd5+ Kh8 18. Bd2 Nf6 19. Qf5 Qc6 20. Re1
+Rf8 21. Kg1 Ng4 22. Qe4 Qc7 23. Nh3 f3 24. gxf3 Bxh2+ 25. Kf1 Qg3 26. Bxh6
+Qxh3+ 27. Ke2 Qg2+ 28. Kd1 Nf2+ 0-1
+
+[Event "Barcelona prov. - Barcelona Ciud. m"]
+[Site "Granollers"]
+[Date "1969.??.??"]
+[Round "?"]
+[White "Bordell Rosell, Roman"]
+[Black "Serrano Blanco, Vicente"]
+[Result "1/2-1/2"]
+[ECO "E07"]
+[PlyCount "83"]
+[EventDate "1969.??.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. c4 Nf6 2. Nc3 e6 3. g3 d5 4. Bg2 Be7 5. d4 O-O 6. Nf3 c6 7. O-O Nbd7 8. b3
+b6 9. Bb2 Bb7 10. cxd5 exd5 11. Rc1 Re8 12. e3 Bd6 13. Qc2 Rc8 14. Nh4 g6 15.
+Qd3 Qe7 16. Nd1 Rc7 17. f4 Ne4 18. Nf3 Nb8 19. Re1 Ba6 20. Qb1 f6 21. Nc3 Nd7
+22. Bf1 Bxf1 23. Kxf1 f5 24. Nxe4 fxe4 25. Ne5 Bxe5 26. dxe5 Qe6 27. Ba3 c5 28.
+Qc2 Rf8 29. Kg1 a5 30. Rcd1 b5 31. Qd2 Nb6 32. Bb2 a4 33. Qe2 Qc6 34. g4 d4 35.
+exd4 Rxf4 36. dxc5 Nd5 37. Bd4 h5 38. gxh5 gxh5 39. Kh1 e3 40. Rg1+ Kf8 41. Qg2
+Rg4 42. Rdf1+ 1/2-1/2
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1969.??.??"]
+[Round "?"]
+[White "Llado Lumbera, Jaime"]
+[Black "Serrano Blanco, Vicente"]
+[Result "0-1"]
+[ECO "B40"]
+[PlyCount "87"]
+[EventDate "1969.??.??"]
+[EventType "tourn"]
+[EventRounds "15"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. e4 c5 2. Nf3 e6 3. d3 d5 4. Nbd2 Nc6 5. Be2 g6 6. O-O Bg7 7. Re1 Nge7 8. Bf1
+O-O 9. g3 Qc7 10. Bg2 b5 11. Nf1 Bb7 12. Qe2 d4 13. e5 h6 14. h4 Kh7 15. N1h2
+Rae8 16. Ng4 Nd5 17. a3 f5 18. exf6 Nxf6 19. Nxf6+ Bxf6 20. Nd2 Bg7 21. h5 g5
+22. Ne4 Nd8 23. Bd2 e5 24. b4 c4 25. c3 Ne6 26. Rac1 Rc8 27. Bh3 Qe7 28. Bxe6
+Qxe6 29. cxd4 Qh3 30. Bxg5 exd4 31. Bh4 Rf4 32. gxf4 cxd3 33. Qd2 Rxc1 34. Qxc1
+Qxh4 35. Qd1 d2 36. Qxd2 Qg4+ 37. Kh2 Qxh5+ 38. Kg3 Qg6+ 39. Kf3 h5 40. Ke2
+Qxe4+ 41. Kd1 Qf3+ 42. Qe2 Qb3+ 43. Qc2+ Qxc2+ 44. Kxc2 0-1
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1969.??.??"]
+[Round "?"]
+[White "Perez Gozalbes, Eduardo"]
+[Black "Serrano Blanco, Vicente"]
+[Result "0-1"]
+[ECO "D35"]
+[PlyCount "112"]
+[EventDate "1969.??.??"]
+[EventType "tourn"]
+[EventRounds "15"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. cxd5 exd5 6. Qc2 O-O 7. Bf4 c6 8. e3
+Nbd7 9. Bd3 Re8 10. O-O-O Nf8 11. h3 b5 12. Ne5 Qb6 13. f3 Bb7 14. g4 c5 15.
+Bxb5 Rec8 16. Ba4 cxd4 17. exd4 Bb4 18. Rh2 Ne6 19. Be3 Qa5 20. Kd2 Rc7 21. Rc1
+Rac8 22. Qb3 Ba6 23. a3 Bd6 24. Kd1 Bxe5 25. dxe5 d4 26. Nb5 Rxc1+ 27. Bxc1 Nc5
+28. Qb4 Qxb4 29. axb4 Nxa4 30. Nd6 Ne8 31. Nxc8 Bxc8 32. Rd2 Bb7 33. f4 Nc7 34.
+Rxd4 Nd5 35. Kc2 a6 36. Bd2 Kf8 37. Be1 Ke8 38. Bf2 Kd7 39. Rd1 Ke6 40. Kb3 Bc6
+41. Bc5 g6 42. Rd4 h6 43. Ka3 g5 44. fxg5 hxg5 45. Bd6 Nab6 46. h4 Ne3 47. Rd3
+gxh4 48. Bc5 Nbc4+ 49. Ka2 h3 50. b3 h2 51. Bxe3 Nxe3 52. Rd6+ Kxe5 53. Rxc6
+h1=Q 54. Rxa6 Qc1 55. Ra5+ Kd4 56. Rc5 Nc2 0-1
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1969.??.??"]
+[Round "?"]
+[White "Serrano Blanco, Vicente"]
+[Black "Paredes Prats, Jose"]
+[Result "1-0"]
+[ECO "B95"]
+[PlyCount "83"]
+[EventDate "1969.??.??"]
+[EventType "tourn"]
+[EventRounds "15"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. Bc4 Be7 8. Bb3
+Bd7 9. Qf3 Nc6 10. O-O-O Na5 11. h4 Qc7 12. Kb1 O-O 13. g4 b5 14. h5 h6 15. Bh4
+Nxb3 16. axb3 b4 17. Nce2 a5 18. g5 Nh7 19. gxh6 Bxh4 20. Rxh4 g5 21. Rg4 f6
+22. Nf4 Rfe8 23. e5 dxe5 24. Nfxe6 Bxe6 25. Nxe6 Qe7 26. Qf5 Ra7 27. Qg6+ Kh8
+28. Qg7+ Qxg7 29. hxg7+ Kg8 30. h6 Kf7 31. Nc5 Kg6 32. Rh1 f5 33. Rc4 Nf6 34.
+c3 Kh7 35. cxb4 axb4 36. Rxb4 Rc7 37. Rc4 Rce7 38. b4 Ng8 39. Na6 Ra8 40. Rc6
+Rea7 41. b5 Rb7 42. Rh2 1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1970.??.??"]
+[Round "?"]
+[White "Borrell Vidal, Maximo"]
+[Black "Serrano Blanco, Vicente"]
+[Result "1-0"]
+[ECO "E52"]
+[PlyCount "91"]
+[EventDate "1970.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 O-O 5. e3 b6 6. Bd3 Bb7 7. O-O d5 8. Qe2
+c5 9. cxd5 exd5 10. Ne5 Nc6 11. Nxc6 Bxc6 12. Qf3 Rc8 13. a3 Ba5 14. Bf5 Rc7
+15. Rb1 Qe7 16. Bd2 g6 17. Bc2 Ne4 18. Bxe4 dxe4 19. Qg3 Rd7 20. b4 cxb4 21.
+axb4 Bxb4 22. Nd5 Bxd5 23. Bxb4 Qe6 24. Bxf8 Kxf8 25. Rfc1 Bc4 26. h4 b5 27.
+Qb8+ Kg7 28. Rxb5 Bxb5 29. Qxb5 a6 30. Qa5 Rb7 31. Ra1 Rb6 32. h5 Kh6 33. hxg6
+hxg6 34. Qc5 Kh7 35. d5 Qe5 36. Rd1 Rd6 37. Rd4 f5 38. Qc7+ Kh6 39. Qc5 g5 40.
+Qc4 g4 41. g3 Qf6 42. Kg2 Qd8 43. Rd1 Kg6 44. Ra1 Qb6 45. Qc8 Rf6 46. Qg8+ 1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1970.??.??"]
+[Round "?"]
+[White "Serrano Blanco, Vicente"]
+[Black "Mora Corbera, Jaime"]
+[Result "1-0"]
+[ECO "B06"]
+[PlyCount "85"]
+[EventDate "1970.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 g6 2. d4 Bg7 3. c3 d6 4. Bd3 b6 5. Ne2 c5 6. O-O Nc6 7. Na3 Nf6 8. Nc2
+O-O 9. h3 Bd7 10. Ng3 Qc8 11. Kh2 e5 12. d5 Ne7 13. Bg5 h6 14. Be3 g5 15. Na3
+Ng6 16. Nc4 Qc7 17. a4 Nf4 18. Bxf4 exf4 19. Nh5 Nxh5 20. Qxh5 b5 21. axb5 Bxb5
+22. g3 Bxc4 23. Bxc4 Qe7 24. Rfe1 Qe5 25. Re2 Rfe8 26. Ra6 Re7 27. Kg2 Rb8 28.
+Rc6 Reb7 29. b3 Rd8 30. Qg4 fxg3 31. fxg3 Qxc3 32. Rxd6 Rxd6 33. Qc8+ Kh7 34.
+Qxb7 Rf6 35. e5 Rf3 36. d6 Rxg3+ 37. Kf2 Rxh3 38. d7 Rh2+ 39. Kg1 Qg3+ 40. Rg2
+Rxg2+ 41. Qxg2 Qe1+ 42. Bf1 Qe3+ 43. Kh1 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "Barcelona"]
+[Date "1970.04.12"]
+[Round "?"]
+[White "Ribera Arnal, Angel"]
+[Black "Serrano Blanco, Vicente"]
+[Result "1-0"]
+[ECO "B38"]
+[PlyCount "79"]
+[EventDate "1970.??.??"]
+[EventType "tourn"]
+[EventRounds "16"]
+[EventCountry "ESP"]
+
+1. c4 Nf6 2. Nc3 c5 3. Nf3 g6 4. d4 cxd4 5. Nxd4 Bg7 6. e4 d6 7. Be2 Nc6 8. Be3
+O-O 9. O-O Bd7 10. f4 Rc8 11. Kh1 a6 12. Rc1 Re8 13. Nb3 Na5 14. Nd2 Be6 15.
+Nd5 Nd7 16. b3 Nc6 17. Nf3 Qa5 18. a4 Nc5 19. Ng5 h6 20. Nxe6 fxe6 21. Bd2 Qd8
+22. Nc3 Nd4 23. Rb1 e5 24. Bg4 e6 25. fxe5 dxe5 26. b4 Nd7 27. c5 a5 28. Nb5
+axb4 29. Nd6 Nxc5 30. Nxc8 Qxc8 31. Rxb4 Qc6 32. Qb1 Rd8 33. Be3 h5 34. Bf3 Qa6
+35. Kg1 Nxa4 36. Rxb7 Nc3 37. Qb6 Nde2+ 38. Kh1 Ng3+ 39. hxg3 Qxf1+ 40. Kh2 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "Barcelona"]
+[Date "1970.??.??"]
+[Round "?"]
+[White "Serrano Blanco, Vicente"]
+[Black "Llusa, Francisco"]
+[Result "1-0"]
+[ECO "B71"]
+[PlyCount "73"]
+[EventDate "1970.??.??"]
+[EventType "tourn"]
+[EventRounds "16"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. f4 Nc6 7. Nf3 Qa5 8. Bd3
+Bg7 9. O-O Qc5+ 10. Kh1 Ng4 11. Qe1 O-O 12. h3 Nh6 13. Nd5 Be6 14. Be3 Qa5 15.
+Nxe7+ Kh8 16. Nxc6 Qxe1 17. Raxe1 bxc6 18. Nd4 Bd7 19. f5 gxf5 20. exf5 Rfe8
+21. f6 Bf8 22. g4 c5 23. Nf3 d5 24. b3 Rac8 25. Ba6 Rcd8 26. Bf4 Re6 27. Rxe6
+Bxe6 28. Kg2 c4 29. Nd4 Bc8 30. Bb5 Bb7 31. b4 a6 32. Ba4 Ba8 33. c3 Bd6 34. g5
+Bxf4 35. Rxf4 Ng8 36. h4 Rd6 37. Be8 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "Barcelona"]
+[Date "1970.??.??"]
+[Round "?"]
+[White "Serrano Blanco, Vicente"]
+[Black "Perez Gozalbes, Eduardo"]
+[Result "1/2-1/2"]
+[ECO "B57"]
+[PlyCount "182"]
+[EventDate "1970.??.??"]
+[EventType "tourn"]
+[EventRounds "16"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bc4 Bd7 7. O-O g6 8. b3
+Bg7 9. Bb2 O-O 10. Re1 Nxd4 11. Qxd4 Bc6 12. Nd1 e5 13. Qd3 Nxe4 14. Rxe4 d5
+15. Re1 e4 16. Qe2 dxc4 17. Bxg7 Kxg7 18. Qxc4 Qf6 19. Ne3 Rad8 20. Rad1 Rxd1
+21. Rxd1 Rd8 22. Rxd8 Qxd8 23. g3 h5 24. h4 Qf6 25. c3 Qd6 26. a4 a6 27. Qd4+
+Qxd4 28. cxd4 Kf6 29. Kf1 Ke6 30. Ke2 Bd5 31. b4 Bc6 32. a5 Bb5+ 33. Kd2 Kd6
+34. Kc3 Be2 35. Nc4+ Ke6 36. Nb6 Bb5 37. Kd2 Kd6 38. Ke3 Bc6 39. Nc4+ Ke6 40.
+Nd2 Kf5 41. Nb1 Ba4 42. Nc3 Bc2 43. b5 axb5 44. Nxb5 Ke6 45. Nc3 Kf5 46. Na2
+Bb3 47. Nc3 Bc2 48. Nb5 Ke6 49. Kd2 Ba4 50. Nc3 Bc6 51. Ke3 f5 52. Kf4 Kf6 53.
+d5 Be8 54. Nd1 Bf7 55. Ne3 Bg8 56. d6 Bb3 57. d7 Ke7 58. Kg5 Bf7 59. Ng2 Kxd7
+60. Nf4 Kc6 61. Nxg6 Kb5 62. Kxh5 Kxa5 63. Kg5 b5 64. Ne5 b4 65. Nc6+ Ka4 66.
+Nxb4 Kxb4 67. Kxf5 Kc5 68. Kxe4 Kd6 69. Kf5 Ke7 70. Kg5 Be8 71. g4 Kf7 72. f3
+Kg7 73. Kf5 Bc6 74. Kf4 Ba4 75. Ke5 Bd1 76. Kf4 Ba4 77. Ke4 Bb3 78. Ke5 Bd1 79.
+Ke4 Bb3 80. f4 Bd1 81. Kf5 Be2 82. Kg5 Bd1 83. Kf5 Kf7 84. h5 Bc2+ 85. Kg5 Kg7
+86. Kh4 Bd1 87. g5 Bc2 88. Kg3 Kf7 89. Kf2 Bd1 90. h6 Bc2 91. Ke3 Ke6 1/2-1/2
+
+[Event "Berga op"]
+[Site "Berga"]
+[Date "1971.??.??"]
+[Round "?"]
+[White "Cherta Clos, Pere"]
+[Black "Serrano Blanco, Vicente"]
+[Result "0-1"]
+[ECO "E11"]
+[PlyCount "52"]
+[EventDate "1971.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Bd2 Qe7 5. e3 Bxd2+ 6. Nbxd2 d6 7. e4 e5 8.
+d5 O-O 9. g3 Ng4 10. h3 Nh6 11. g4 Kh8 12. Bd3 a5 13. Nf1 Na6 14. Ne3 f5 15.
+gxf5 Nxf5 16. exf5 e4 17. Nd4 exd3 18. Qxd3 Nb4 19. Qb3 Bxf5 20. O-O-O Bg6 21.
+a3 Rxf2 22. axb4 axb4 23. Nec2 Qe4 24. Kb1 Rd2 25. Rhf1 Qxd4 26. Rc1 Qa7 0-1
+
+[Event "Berga op"]
+[Site "Berga"]
+[Date "1971.??.??"]
+[Round "?"]
+[White "Eppinger, Georg"]
+[Black "Serrano Blanco, Vicente"]
+[Result "0-1"]
+[ECO "C41"]
+[PlyCount "73"]
+[EventDate "1971.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 d6 3. d4 Nd7 4. Bc4 c6 5. O-O Be7 6. dxe5 dxe5 7. Qe2 h6 8. Nc3
+Qc7 9. a3 a5 10. Be3 g5 11. Rad1 Rh7 12. Rd2 Rg7 13. Rfd1 Ngf6 14. Ne1 Kf8 15.
+Nd3 Kg8 16. f3 b6 17. Qf2 Rb8 18. Ne2 Nf8 19. Ng3 h5 20. Nf5 Bxf5 21. exf5 e4
+22. Ne1 exf3 23. Qxf3 Ng4 24. g3 Nxe3 25. f6 Bc5 26. fxg7 Nxc4+ 27. Kh1 Kxg7
+28. Qc3+ Ne5 29. Nf3 f6 30. Re2 Nfg6 31. Nd4 Bxd4 32. Qxd4 c5 33. Qd5 Qb7 34.
+Qxb7+ Rxb7 35. Rd6 Nc4 36. Rd8 Nxb2 37. Ree8 0-1
+
+[Event "Berga op"]
+[Site "Berga"]
+[Date "1971.??.??"]
+[Round "?"]
+[White "Serrano Blanco, Vicente"]
+[Black "Martin Gonzalez, Angel"]
+[Result "0-1"]
+[ECO "C63"]
+[PlyCount "86"]
+[EventDate "1971.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 f5 4. d4 fxe4 5. Nxe5 Nxe5 6. dxe5 c6 7. O-O cxb5 8.
+Bf4 Ne7 9. Nc3 Ng6 10. Bg3 Be7 11. Qd5 Qb6 12. Nxb5 a6 13. Nd6+ Bxd6 14. exd6
+Qc6 15. Qf5 Rf8 16. Qg4 b6 17. h4 Rf7 18. h5 Nf8 19. Rae1 Bb7 20. Re3 Qd5 21.
+Rfe1 O-O-O 22. Rxe4 Ne6 23. Rc4+ Kb8 24. f3 Qf5 25. Qh4 Rc8 26. Re5 Qf6 27.
+Rxc8+ Bxc8 28. Qc4 Kb7 29. a4 Qh6 30. Qd5+ Ka7 31. a5 Qc1+ 32. Kh2 Qxb2 33.
+axb6+ Qxb6 34. Qd2 Ka8 35. Bf2 Qb7 36. Re3 Rf5 37. Rb3 Rxh5+ 38. Kg1 Rb5 39.
+Rxb5 Qxb5 40. Qe3 Qb7 41. g4 h6 42. f4 g5 43. fxg5 hxg5 0-1
+
+[Event "Berga op"]
+[Site "Berga"]
+[Date "1971.??.??"]
+[Round "?"]
+[White "Serrano Blanco, Vicente"]
+[Black "Prins, Lodewijk"]
+[Result "0-1"]
+[ECO "A04"]
+[PlyCount "68"]
+[EventDate "1971.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. Nf3 g6 2. g3 Bg7 3. Bg2 d6 4. O-O e5 5. d3 f5 6. c4 Nf6 7. Nc3 O-O 8. Bd2 c6
+9. Rb1 Re8 10. e4 Nbd7 11. exf5 gxf5 12. d4 Nf8 13. dxe5 dxe5 14. Be3 Qc7 15.
+Bc5 Rd8 16. Qa4 Ne6 17. Ba3 e4 18. Nh4 Nd4 19. Rbd1 Be6 20. Rfe1 Ng4 21. f3
+Nxh2 22. Kxh2 Be5 23. Nxe4 fxe4 24. Rxe4 Bxg3+ 25. Kh1 c5 26. b4 Bd7 27. b5 Re8
+28. Rxe8+ Bxe8 29. Rxd4 cxd4 30. Nf5 Bd7 31. Ne7+ Kh8 32. Bb2 Qf4 33. Nd5 Qh4+
+34. Kg1 Rd8 0-1
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1971.??.??"]
+[Round "?"]
+[White "Serrano Blanco, Vicente"]
+[Black "Anguera Maestro, Jaime"]
+[Result "1-0"]
+[ECO "B00"]
+[PlyCount "53"]
+[EventDate "1971.??.??"]
+[EventType "tourn"]
+[EventRounds "17"]
+[EventCountry "ESP"]
+
+1. e4 b6 2. d4 Bb7 3. Bd3 e6 4. Ne2 g6 5. O-O Bg7 6. Be3 Ne7 7. Qd2 O-O 8. Bh6
+d5 9. Bxg7 Kxg7 10. e5 c5 11. c3 Ba6 12. Na3 Bxd3 13. Qxd3 a6 14. Nc2 c4 15.
+Qh3 Nf5 16. g4 Nh6 17. f4 Ng8 18. f5 exf5 19. gxf5 Qg5+ 20. Ng3 f6 21. Rae1 h5
+22. fxg6 Kxg6 23. Rf5 Qg4 24. Qg2 Nh6 25. Ne3 Nxf5 26. Nxg4 Nh4 27. Qe2 1-0
+
+[Event "Copa Catalana Mem. Agusti Pujol eq"]
+[Site "Barcelona"]
+[Date "1972.??.??"]
+[Round "?"]
+[White "Serrano Blanco, Vicente"]
+[Black "Perez, E."]
+[Result "0-1"]
+[ECO "B57"]
+[PlyCount "64"]
+[EventDate "1972.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bc4 Bd7 7. a3 Rc8 8.
+O-O g6 9. Nxc6 Bxc6 10. Re1 Bg7 11. Bf1 O-O 12. g3 a6 13. Bg2 b5 14. Rb1 Qb6
+15. Qe2 Qb7 16. Bg5 h6 17. Bd2 Kh7 18. h3 Nd7 19. f4 e5 20. f5 gxf5 21. Qh5 f4
+22. gxf4 exf4 23. Bxf4 Ne5 24. Rbd1 Rcd8 25. Re2 f6 26. Kh2 Qc8 27. Rg1 f5 28.
+Bh1 Qe6 29. exf5 Rxf5 30. Qh4 Bxh1 31. Qxd8 Rxf4 32. Rxh1 Rf8 0-1
+
+[Event "UGA op A"]
+[Site "Barcelona"]
+[Date "1972.??.??"]
+[Round "?"]
+[White "Serrano Blanco, Vicente"]
+[Black "Gonzalez"]
+[Result "1-0"]
+[ECO "B42"]
+[PlyCount "53"]
+[EventDate "1972.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Bd3 Nc6 6. Be3 Qc7 7. O-O Nge7 8.
+Nxc6 Nxc6 9. f4 Nb4 10. Nc3 Bc5 11. Bxc5 Qxc5+ 12. Kh1 b5 13. Qg4 O-O 14. f5 f6
+15. Rf3 Nxd3 16. cxd3 b4 17. Ne2 e5 18. Qh4 Qc2 19. Ng3 Qxb2 20. Raf1 Qxa2 21.
+Nh5 Rf7 22. Rg3 Kf8 23. Nxg7 b3 24. Nh5 b2 25. Nxf6 b1=Q 26. Rg8+ Ke7 27. Ne8+
+1-0
+
+[Event "Berga op"]
+[Site "Berga"]
+[Date "1972.??.??"]
+[Round "?"]
+[White "Ingles"]
+[Black "Serrano Blanco, Vicente"]
+[Result "0-1"]
+[ECO "A42"]
+[PlyCount "58"]
+[EventDate "1972.08.??"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+
+1. c4 e5 2. Nc3 d6 3. Nf3 Nd7 4. d4 g6 5. e4 Bg7 6. d5 Ne7 7. g4 h5 8. g5 a5 9.
+h4 O-O 10. Bh3 Nb6 11. Bxc8 Rxc8 12. b3 c6 13. dxc6 bxc6 14. Ba3 c5 15. Bb2 Nc6
+16. Qd2 Nd4 17. Nxd4 exd4 18. Ne2 f5 19. exf5 Rxf5 20. f4 d5 21. cxd5 Nxd5 22.
+O-O-O c4 23. bxc4 Rxc4+ 24. Kb1 Rb4 25. Nxd4 Bxd4 26. Qxd4 Rxd4 27. Rxd4 Rxf4
+28. Re1 Nc3+ 29. Bxc3 Rxd4 0-1
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1974.??.??"]
+[Round "?"]
+[White "Serrano Blanco, Vicente"]
+[Black "Perez Gozalbes, Eduardo"]
+[Result "1/2-1/2"]
+[ECO "B13"]
+[PlyCount "69"]
+[EventDate "1974.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Bd3 Nc6 5. c3 Nf6 6. Bg5 Bg4 7. f3 Bh5 8. Nd2
+e6 9. Nh3 Qc7 10. Qa4 Bd6 11. Bxf6 gxf6 12. g3 Bg6 13. Nf2 O-O-O 14. O-O-O Kb8
+15. Kb1 h5 16. f4 h4 17. Bxg6 fxg6 18. Nf3 hxg3 19. hxg3 Bxf4 20. gxf4 Qxf4 21.
+Rxh8 Rxh8 22. Rd3 e5 23. c4 dxc4 24. dxe5 Nxe5 25. Ra3 a6 26. Qd1 Nc6 27. Qd2
+Qg3 28. Ne4 Rh1+ 29. Kc2 Qg4 30. Qd6+ Ka7 31. Qc5+ Kb8 32. Nd6 Rh2+ 33. Nxh2
+Qe2+ 34. Kc1 Qe1+ 35. Kc2 1/2-1/2
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "1"]
+[White "Pablo Mari, Alexandre"]
+[Black "Serrano Blanco, Vicente"]
+[Result "1-0"]
+[ECO "B99"]
+[PlyCount "57"]
+[EventDate "1982.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Be7 8. Qf3
+Qc7 9. O-O-O Nbd7 10. Bd3 h6 11. h4 b5 12. Bxf6 gxf6 13. e5 Rb8 14. Nd5 exd5
+15. e6 Nc5 16. exf7+ Kxf7 17. Qxd5+ Kf8 18. Bg6 Bd8 19. Rhe1 Kg7 20. Qh5 Rb7
+21. Bf5 Qf7 22. Qg4+ Kf8 23. Bxc8 Rg8 24. Ne6+ Nxe6 25. Qxe6 Qxe6 26. Bxe6 Rxg2
+27. Bd5 Rbg7 28. Bxg2 Rxg2 29. Rxd6 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "3"]
+[White "Serrano Blanco, Vicente"]
+[Black "Illescas Cordoba, Miquel"]
+[Result "0-1"]
+[ECO "B47"]
+[PlyCount "54"]
+[EventDate "1982.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Ndb5 Qb8 7. g3 a6 8.
+Nd4 d6 9. a4 Be7 10. Bg2 Bd7 11. O-O Nf6 12. Nde2 O-O 13. h3 Qc7 14. b3 Rfd8
+15. Bb2 Nb4 16. Nf4 Rac8 17. Rc1 Ne8 18. Nce2 Bf6 19. c3 Nc6 20. Nh5 Be7 21. c4
+Qb6 22. Rb1 Qa5 23. Nc1 b5 24. Bxg7 Nxg7 25. Qg4 Qc3 26. Ne2 Qe5 27. f4 Qxh5
+0-1
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "4"]
+[White "Juanpera Morales, Antoni"]
+[Black "Serrano Blanco, Vicente"]
+[Result "1/2-1/2"]
+[ECO "A21"]
+[PlyCount "131"]
+[EventDate "1982.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+
+1. c4 f5 2. Nc3 Nf6 3. g3 e5 4. Bg2 c6 5. d4 d6 6. Nf3 e4 7. Nd2 d5 8. O-O Be7
+9. a3 O-O 10. b4 dxc4 11. Nxc4 Be6 12. Ne5 a5 13. Rb1 axb4 14. axb4 Nbd7 15.
+Bf4 Nxe5 16. Bxe5 Ng4 17. Bf4 g5 18. Bc1 Bf6 19. e3 Bc4 20. Re1 Qd7 21. f3 exf3
+22. Bxf3 Rae8 23. b5 cxb5 24. Nxb5 Kh8 25. Nc3 b5 26. h3 Nxe3 27. Bxe3 Rxe3 28.
+Rxe3 Qxd4 29. Qxd4 Bxd4 30. Nxb5 Bxe3+ 31. Kh1 Rd8 32. Nc3 Bf2 33. Be2 Bxe2 34.
+Nxe2 Rd2 35. Rb8+ Kg7 36. Re8 Kf7 37. Re5 Kf6 38. Re8 Bc5 39. Nc3 Rd3 40. Ne2
+h6 41. Kg2 Be7 42. Rc8 Re3 43. Kf2 Re5 44. Rc6+ Kg7 45. Nd4 Rd5 46. Rc7 Kf6 47.
+Rc6+ Kf7 48. Nf3 h5 49. Rc7 Ke6 50. Rc2 g4 51. Re2+ Kd6 52. hxg4 hxg4 53. Nd2
+Bf6 54. Nf1 Kc5 55. Kg2 Bg5 56. Ra2 Kc4 57. Rc2+ Kd3 58. Ra2 Bc1 59. Rf2 Re5
+60. Ra2 Rb5 61. Rf2 Ra5 62. Kh2 Rb5 63. Kg2 Bg5 64. Ra2 Bc1 65. Rf2 Ra5 66. Kh2
+1/2-1/2
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "5"]
+[White "Serrano Blanco, Vicente"]
+[Black "Romero Holmes, Alfonso"]
+[Result "1/2-1/2"]
+[ECO "B71"]
+[PlyCount "89"]
+[EventDate "1982.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. f4 Nbd7 7. Bc4 Bg7 8.
+Nf3 Qc7 9. Qe2 O-O 10. O-O Nb6 11. Bd3 e5 12. Kh1 Bd7 13. Nb5 Qb8 14. Nxd6 exf4
+15. e5 Nh5 16. Ng5 Qd8 17. Qxh5 gxh5 18. Bxh7+ Kh8 19. Ndxf7+ Rxf7 20. Nxf7+
+Kxh7 21. Nxd8 Rxd8 22. Bxf4 Re8 23. Rae1 Nc4 24. b3 Na5 25. h3 Nc6 26. Bh2 Kg6
+27. Rd1 Be6 28. Rfe1 Rd8 29. Rd6 Kf7 30. c4 Rxd6 31. exd6 b6 32. Kg1 Bd4+ 33.
+Kf1 Bf5 34. Ke2 Ke6 35. Kf3+ Kd7 36. Kf4 Bc3 37. Rh1 Be6 38. Kg5 Bf7 39. Rd1
+Nd8 40. g4 Ne6+ 41. Kf5 Ng7+ 42. Ke4 Bg6+ 43. Ke3 hxg4 44. hxg4 Ne6 45. Bg3
+1/2-1/2
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "6"]
+[White "Padreny Gutierrez, Josep"]
+[Black "Serrano Blanco, Vicente"]
+[Result "1/2-1/2"]
+[ECO "C62"]
+[PlyCount "88"]
+[EventDate "1982.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 d6 4. O-O Bd7 5. c3 g6 6. d3 Bg7 7. Re1 Nge7 8. Nbd2
+O-O 9. Nf1 h6 10. Nh4 Nc8 11. g3 Nb6 12. Ne3 a6 13. Bxc6 Bxc6 14. c4 Bd7 15.
+Nhg2 Na4 16. Qe2 f5 17. exf5 gxf5 18. f4 Nc5 19. Rf1 c6 20. Rb1 a5 21. Bd2 e4
+22. dxe4 Nxe4 23. Rfd1 Qb6 24. Be1 Rae8 25. Qd3 Re6 26. h3 Kh8 27. Kh2 Qc7 28.
+Nh4 Ref6 29. a3 Bc8 30. b4 axb4 31. axb4 Qe7 32. Rbc1 Re8 33. Neg2 Qf7 34. Nf3
+Rfe6 35. Nd4 R6e7 36. Qa3 Bf6 37. Qd3 Qh7 38. Rb1 Rg8 39. Qf1 Qg7 40. Ne2 Be6
+41. Rbc1 Bb2 42. Rc2 b5 43. Rb1 Bf6 44. cxb5 cxb5 1/2-1/2
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "7"]
+[White "Serrano Blanco, Vicente"]
+[Black "Miralles Sanchez, Josep Antoni"]
+[Result "1/2-1/2"]
+[ECO "B42"]
+[PlyCount "25"]
+[EventDate "1982.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Bd3 Nf6 6. O-O d6 7. c3 Be7 8. Qe2
+O-O 9. a4 Nc6 10. Nxc6 bxc6 11. a5 e5 12. c4 Be6 13. Nc3 1/2-1/2
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "8"]
+[White "Bordell Rosell, Roman"]
+[Black "Serrano Blanco, Vicente"]
+[Result "1-0"]
+[ECO "E80"]
+[PlyCount "148"]
+[EventDate "1982.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+
+1. c4 Nf6 2. Nc3 g6 3. e4 d6 4. d4 Bg7 5. f3 e5 6. Bg5 c6 7. Nge2 Nbd7 8. d5 c5
+9. Qd2 a6 10. g4 h6 11. Be3 h5 12. g5 Nh7 13. h4 O-O 14. Ng3 Re8 15. Bd3 Rb8
+16. a4 Qc7 17. Qg2 Qa5 18. Kd2 Qc7 19. Kc2 Nhf8 20. Rhg1 Nb6 21. Bd2 Nbd7 22.
+b3 Nb6 23. Nd1 Nbd7 24. Qe2 Nh7 25. Bc3 a5 26. Qd2 b6 27. Bb2 Ba6 28. Nc3 Rf8
+29. Qg2 Rfe8 30. Raf1 Rbd8 31. Qd2 Ndf8 32. Rf2 Rd7 33. Rfg2 Qd8 34. Nf1 Rb7
+35. Ne3 Qb8 36. Nb5 Qd8 37. Rg3 Qb8 38. Qc3 Qd8 39. R3g2 Qb8 40. f4 Nd7 41. f5
+Nhf8 42. Rg3 Nh7 43. Qe1 Nhf8 44. Be2 Nh7 45. Rf1 Ndf8 46. Qf2 Rd7 47. Bc1 Rb7
+48. Qe1 Rd8 49. Qd1 Nd7 50. Rf2 Ndf8 51. Rg1 Rdd7 52. Nf1 Qe8 53. Ng3 Rb8 54.
+Nc3 Bc8 55. Qf1 Ba6 56. Nd1 Rbd8 57. Ne3 Ra7 58. Qd1 Rb8 59. Qf1 Bc8 60. Kb2
+Qd8 61. Qg2 Rc7 62. Qf3 Ra7 63. Nxh5 gxh5 64. Qxh5 Rbb7 65. Qf3 Rb8 66. f6 Bh8
+67. h5 Rbb7 68. Qg3 Rc7 69. Qh4 Nd7 70. Nf5 Nb8 71. Nh6+ Kf8 72. Re1 Ke8 73.
+Bg4 Bxg4 74. Nxg4 Nf8 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "9"]
+[White "Serrano Blanco, Vicente"]
+[Black "Martin Gonzalez, Angel"]
+[Result "0-1"]
+[ECO "B51"]
+[PlyCount "62"]
+[EventDate "1982.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. c3 Ngf6 5. Qe2 a6 6. Ba4 b5 7. Bc2 e5 8. a4
+Bb7 9. d3 g6 10. O-O Bg7 11. Re1 O-O 12. Nbd2 d5 13. b3 Qc7 14. Bb2 Rfe8 15. h3
+Bc6 16. axb5 axb5 17. Rxa8 Rxa8 18. Ra1 Rxa1+ 19. Bxa1 Nh5 20. g3 dxe4 21. dxe4
+Qa7 22. Qe1 c4 23. Kh2 Bf8 24. b4 Bd6 25. Bb2 Bc7 26. Kg2 Bb6 27. Kf1 Bxf2 28.
+Qxf2 Qa2 29. Ne1 Qxb2 30. Qe3 Nf8 31. Bd1 Nxg3+ 0-1
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "10"]
+[White "Vehi Bach, Victor Manuel"]
+[Black "Serrano Blanco, Vicente"]
+[Result "1-0"]
+[ECO "A71"]
+[PlyCount "40"]
+[EventDate "1982.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+
+1. d4 c5 2. d5 Nf6 3. c4 e6 4. Nc3 exd5 5. cxd5 d6 6. Nf3 g6 7. e4 Bg7 8. Bg5
+a6 9. Nd2 h6 10. Bh4 Qc7 11. a4 O-O 12. Be2 Re8 13. O-O Nbd7 14. Qc2 Rb8 15.
+Bg3 Rd8 16. Kh1 Ne5 17. f4 Neg4 18. Qd3 Nh5 19. Bh4 g5 20. fxg5 Re8 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "11"]
+[White "Serrano Blanco, Vicente"]
+[Black "Estremera Paños, Sergio"]
+[Result "0-1"]
+[ECO "B97"]
+[PlyCount "52"]
+[EventDate "1982.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Qb6 8. Nb3
+Nbd7 9. Qf3 Qc7 10. Bd3 h6 11. Bh4 Be7 12. Bf2 b5 13. a3 Rb8 14. g4 g5 15. Rg1
+gxf4 16. Qxf4 Ne5 17. Be2 b4 18. axb4 Rxb4 19. Bd4 Nfd7 20. Qg3 Ng6 21. Bf2
+Nde5 22. Qe3 Bg5 23. Qa7 Qxa7 24. Bxa7 Bb7 25. Bd4 Rxd4 26. Nxd4 Be3 0-1
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "12"]
+[White "Fernandez Garcia, Jose Luis"]
+[Black "Serrano Blanco, Vicente"]
+[Result "1-0"]
+[ECO "B30"]
+[PlyCount "63"]
+[EventDate "1982.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nf6 3. Nc3 Nc6 4. Bb5 e6 5. Bxc6 dxc6 6. h3 g6 7. d3 Bg7 8. a4
+a5 9. Be3 b6 10. Qd2 h6 11. g4 h5 12. g5 Nd7 13. Nh4 e5 14. f4 exf4 15. Bxf4
+Ne5 16. Qh2 Qe7 17. O-O-O Ra7 18. Rhe1 f6 19. Nf5 gxf5 20. exf5 O-O 21. Bxe5
+fxe5 22. f6 Bxf6 23. gxf6 Qxf6 24. Rxe5 Rh7 25. Rg1+ Rg7 26. Rxg7+ Kxg7 27. Ne4
+Qf1+ 28. Kd2 Qxh3 29. Rg5+ Kf7 30. Qe5 Be6 31. Rg7+ Ke8 32. Qb8+ 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "13"]
+[White "Serrano Blanco, Vicente"]
+[Black "Rosich Valles, Alfred"]
+[Result "1/2-1/2"]
+[ECO "B03"]
+[PlyCount "32"]
+[EventDate "1982.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+
+1. e4 Nf6 2. e5 Nd5 3. c4 Nb6 4. d4 d6 5. f4 dxe5 6. fxe5 Nc6 7. Be3 Bf5 8. Nc3
+e6 9. Be2 Nb4 10. Rc1 c5 11. Nf3 cxd4 12. Nxd4 Bg6 13. a3 Nc6 14. Nxc6 bxc6 15.
+Qxd8+ Rxd8 16. Bf3 Kd7 1/2-1/2

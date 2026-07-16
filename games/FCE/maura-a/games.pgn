@@ -1,0 +1,98 @@
+[Event "Andorra op"]
+[Site "?"]
+[Date "2006.07.08"]
+[Round "1.13"]
+[White "Maura, A."]
+[Black "Comas Fabrego, L."]
+[Result "0-1"]
+[ECO "B06"]
+[WhiteElo "2149"]
+[BlackElo "2495"]
+[PlyCount "79"]
+[EventDate "2006.??.??"]
+[EventCountry "AND"]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Be3 a6 5. f4 b5 6. a3 Bb7 7. Nf3 Nd7 8. e5 Nh6
+9. Bd3 O-O 10. O-O c5 11. dxc5 Ng4 12. Qe2 Nxe3 13. Qxe3 Nxc5 14. Rad1 Qc7 15.
+Kh1 dxe5 16. Nxe5 Nxd3 17. Rxd3 Rad8 18. h4 Rxd3 19. cxd3 Rd8 20. Rd1 Qd6 21.
+d4 Bh6 22. Ne2 Qd5 23. Qg3 Qe4 24. Rd2 Qf5 25. Kg1 Bg7 26. Kh2 h5 27. Nc3 Bh6
+28. Ne2 Kg7 29. Kg1 Rc8 30. Nd3 Qd5 31. Kh2 Kh7 32. Ne5 Qe6 33. Nc3 Qf5 34. Rf2
+Rd8 35. Ne2 Bg7 36. Qe3 Qf6 37. Qg3 e6 38. Kg1 Qe7 39. Kh2 Bf6 40. Qh3 0-1
+
+[Event "Andorra op"]
+[Site "?"]
+[Date "2006.07.10"]
+[Round "3.23"]
+[White "Maura, A."]
+[Black "Berkovich, MA."]
+[Result "0-1"]
+[ECO "C60"]
+[WhiteElo "2149"]
+[BlackElo "2394"]
+[PlyCount "56"]
+[EventDate "2006.??.??"]
+[EventCountry "AND"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nge7 4. d4 exd4 5. Nxd4 g6 6. Nc3 Bg7 7. Be3 O-O 8.
+O-O a6 9. Be2 d6 10. Nd5 Nxd5 11. exd5 Ne7 12. c4 Nf5 13. Nxf5 Bxf5 14. Bd4 Qh4
+15. Bxg7 Kxg7 16. g4 Bd7 17. f4 Rae8 18. g5 f6 19. gxf6+ Rxf6 20. Qe1 Rxf4 21.
+Qxh4 Rxh4 22. Rf2 Re5 23. Raf1 Rg5+ 24. Kh1 Bf5 25. b3 Rh3 26. Bd1 Be4+ 27. Bf3
+Rxf3 28. Rxf3 h5 0-1
+
+[Event "Andorra op"]
+[Site "?"]
+[Date "2006.07.12"]
+[Round "5.22"]
+[White "Maura, A."]
+[Black "Satyapragyan, S."]
+[Result "0-1"]
+[ECO "B23"]
+[WhiteElo "2149"]
+[BlackElo "2431"]
+[PlyCount "59"]
+[EventDate "2006.??.??"]
+[EventCountry "AND"]
+
+1. e4 c5 2. Nc3 a6 3. f4 b5 4. Nf3 Bb7 5. d3 e6 6. Qe2 Be7 7. g3 d5 8. Bg2 Nf6
+9. e5 Nfd7 10. O-O Nc6 11. f5 Nf8 12. Bh3 exf5 13. Bxf5 b4 14. Na4 g6 15. Bh3
+Bc8 16. Bxc8 Rxc8 17. Be3 Ne6 18. Qf2 O-O 19. Nxc5 d4 20. Bh6 Bxc5 21. Bxf8
+Bxf8 22. Rae1 Bh6 23. Nd2 Qe7 24. Ne4 Be3 25. Rxe3 dxe3 26. Qxe3 Qa7 27. Qxa7
+Nxa7 28. Nd6 Rxc2 29. Rxf7 Nc6 30. Rf2 0-1
+
+[Event "Andorra op"]
+[Site "?"]
+[Date "2006.07.13"]
+[Round "7.23"]
+[White "Maura, A."]
+[Black "Sharma, DK."]
+[Result "0-1"]
+[ECO "B23"]
+[WhiteElo "2149"]
+[BlackElo "2358"]
+[PlyCount "24"]
+[EventDate "2006.??.??"]
+[EventCountry "AND"]
+
+1. e4 c5 2. Nc3 Nc6 3. f4 g6 4. Nf3 Bg7 5. Bc4 e6 6. O-O Nge7 7. d3 d5 8. Bb3
+O-O 9. Qe1 Na5 10. Nd1 c4 11. dxc4 dxc4 12. Bd2 Nec6 0-1
+
+[Event "Andorra op"]
+[Site "?"]
+[Date "2006.07.16"]
+[Round "9.25"]
+[White "Maura, A."]
+[Black "Bruned, Y."]
+[Result "0-1"]
+[ECO "B23"]
+[WhiteElo "2149"]
+[BlackElo "2352"]
+[PlyCount "71"]
+[EventDate "2006.??.??"]
+[EventCountry "AND"]
+
+1. e4 c5 2. Nc3 Nc6 3. f4 g6 4. Nf3 Bg7 5. Bc4 e6 6. d3 Nge7 7. O-O O-O 8. Qe1
+d5 9. Bb3 Na5 10. Bd2 Nxb3 11. axb3 b6 12. Nd1 Nc6 13. Bc3 d4 14. Bd2 f5 15. e5
+a5 16. Nf2 Bb7 17. h3 Bh6 18. Qe2 Nb4 19. Rac1 Nd5 20. g3 a4 21. bxa4 Rxa4 22.
+Ra1 Qa8 23. Rxa4 Qxa4 24. b3 Qc6 25. Ne1 Ra8 26. Kh2 b5 27. Rg1 b4 28. h4 Nc3
+29. Bxc3 bxc3 30. Nh3 Kf7 31. g4 Ke7 32. h5 Rg8 33. Ng2 g5 34. fxg5 Bxg5 35.
+gxf5 exf5 {Irreproducible} 36. Rf1 0-1

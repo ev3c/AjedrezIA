@@ -1,0 +1,583 @@
+[Event "Badalona op B"]
+[Site "Badalona"]
+[Date "2016.08.02"]
+[Round "1"]
+[White "Alsharhan, Musaed"]
+[Black "Ritter Aguilar, Jordi"]
+[Result "0-1"]
+[ECO "D05"]
+[WhiteElo "1656"]
+[BlackElo "1896"]
+[PlyCount "117"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 e6 2. Nf3 c5 3. e3 Nf6 4. Bd3 d5 5. c3 Nc6 6. Nbd2 Bd6 7. Qe2 O-O 8. dxc5
+Bxc5 9. e4 e5 10. O-O Bg4 11. exd5 Nxd5 12. Ne4 Be7 13. h3 Bh5 14. Ng3 Bxf3 15.
+Qxf3 Nf4 16. Bc2 Qc7 17. Nf5 Bf6 18. Bxf4 exf4 19. Nh6+ Kh8 20. Nf5 g6 21. Nh6
+Bg5 22. Ng4 h5 23. Qd5 f6 24. Nh2 Rad8 25. Qc4 Qg7 26. Nf3 Bh6 27. Qe4 f5 28.
+Qe6 Rfe8 29. Qc4 Qf6 30. Rad1 Ne5 31. Nxe5 Qxe5 32. Rxd8 Rxd8 33. Qf7 Qg7 34.
+Qb3 f3 35. g3 f4 36. Be4 fxg3 37. fxg3 Qe5 38. Bxf3 Qxg3+ 39. Bg2 Be3+ 40. Kh1
+Bf4 41. Rxf4 Qxf4 42. c4 b6 43. Kg1 Rd2 44. Kh1 Qf2 45. Qc3+ Kh7 46. Qf3 Qxf3
+47. Bxf3 Rxb2 48. Bd5 Kh6 49. h4 Rxa2 50. Bb7 g5 51. hxg5+ Kxg5 52. Kg1 Kf4 53.
+Kf1 Kg3 54. Bd5 h4 55. Bb7 h3 56. Ke1 h2 57. Kd1 h1=Q+ 58. Bxh1 Ra1+ 59. Kc2
+0-1
+
+[Event "Badalona op B"]
+[Site "Badalona"]
+[Date "2016.08.03"]
+[Round "2"]
+[White "Ritter Aguilar, Jordi"]
+[Black "Martinez Hernandez, Emili"]
+[Result "0-1"]
+[ECO "A16"]
+[WhiteElo "1896"]
+[BlackElo "1789"]
+[PlyCount "41"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 Nf6 2. Nc3 g6 3. g3 Bg7 4. Bg2 O-O 5. e4 d6 6. Nge2 Nbd7 7. d3 c6 8. O-O
+a5 9. a3 e5 10. h3 Ne8 11. f4 Nc5 12. Be3 Ne6 13. b4 Nd4 14. b5 Bd7 15. a4 f5
+16. exf5 exf4 17. gxf4 Nxf5 18. Bd2 Nh4 19. Ng3 Nxg2 20. Kxg2 Qh4 21. Rh1 0-1
+
+[Event "Badalona op B"]
+[Site "Badalona"]
+[Date "2016.08.06"]
+[Round "5"]
+[White "Valarezzo Ricard, Pedro"]
+[Black "Ritter Aguilar, Jordi"]
+[Result "1-0"]
+[ECO "D13"]
+[WhiteElo "1839"]
+[BlackElo "1896"]
+[PlyCount "69"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 c5 2. c3 cxd4 3. cxd4 Nf6 4. Nf3 e6 5. Nc3 d5 6. a3 Nc6 7. Bg5 h6 8. Bf4
+g5 9. Bc1 g4 10. Ne5 Bg7 11. Qa4 Bd7 12. Nxd7 Qxd7 13. e3 O-O 14. Be2 h5 15.
+O-O Ne8 16. Bd2 f5 17. f3 Qe7 18. fxg4 hxg4 19. g3 Nd6 20. Rac1 Qg5 21. Rc2 Qh5
+22. Bd3 a6 23. Ne2 e5 24. dxe5 Nxe5 25. Nf4 Qf7 26. Be2 b5 27. Qb3 Ndc4 28. Bb4
+Rfe8 29. Bc5 Nc6 30. Rd1 Rad8 31. Kf2 Be5 32. Nxd5 Rxd5 33. Rxd5 Qxd5 34. Rxc4
+Na5 35. Rxg4+ 1-0
+
+[Event "Montcada op B"]
+[Site "Montcada i Reixac"]
+[Date "2016.06.25"]
+[Round "1"]
+[White "Serralvo Martinez, Joan"]
+[Black "Ritter Aguilar, Jordi"]
+[Result "0-1"]
+[ECO "C63"]
+[WhiteElo "1543"]
+[BlackElo "1868"]
+[PlyCount "46"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 f5 4. d3 Nf6 5. Bg5 h6 6. Bxf6 Qxf6 7. O-O Bc5 8.
+Nc3 O-O 9. Bxc6 dxc6 10. Qd2 f4 11. h3 Be6 12. Rad1 Rad8 13. Qe2 Bf7 14. Nd2 b5
+15. a3 g5 16. b4 Bd4 17. Ndb1 Qg7 18. a4 a6 19. Kh2 h5 20. g4 f3 21. Qxf3 Be6
+22. Qg2 hxg4 23. hxg4 Rf6 0-1
+
+[Event "Montcada op B"]
+[Site "Montcada i Reixac"]
+[Date "2016.06.26"]
+[Round "2"]
+[White "Ritter Aguilar, Jordi"]
+[Black "Romero Gamez, Francisco Javier"]
+[Result "1-0"]
+[ECO "A27"]
+[WhiteElo "1868"]
+[BlackElo "1669"]
+[PlyCount "45"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 e5 2. Nc3 Nc6 3. Nf3 d6 4. g3 f5 5. d3 Be7 6. Bg2 Nf6 7. O-O O-O 8. Ne1
+h6 9. Nc2 Qe8 10. b4 a6 11. b5 Nb8 12. Rb1 f4 13. d4 Nh5 14. Nd5 Qd7 15. dxe5
+fxg3 16. hxg3 dxe5 17. Nxe7+ Qxe7 18. Ba3 Qg5 19. Bxf8 Kxf8 20. Ne3 axb5 21.
+Rxb5 c6 22. Qd6+ Kg8 23. Rxe5 1-0
+
+[Event "Montcada op B"]
+[Site "Montcada i Reixac"]
+[Date "2016.06.28"]
+[Round "4"]
+[White "Diaz Narvaez, Jose"]
+[Black "Ritter Aguilar, Jordi"]
+[Result "0-1"]
+[ECO "A40"]
+[WhiteElo "1733"]
+[BlackElo "1868"]
+[PlyCount "72"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 e6 2. c4 c5 3. Nf3 cxd4 4. Nxd4 e5 5. Nb5 d6 6. N1c3 a6 7. Na3 Nf6 8. e4
+Be7 9. Be2 Nc6 10. Be3 O-O 11. O-O Be6 12. Rb1 Ne8 13. Nd5 Bxd5 14. cxd5 Nb8
+15. b4 b5 16. Qc2 Nd7 17. Rfc1 Nef6 18. f3 g6 19. Rb3 Nh5 20. Rc3 Nf4 21. Bf1
+f5 22. g3 Nh5 23. Bh3 Bg5 24. Bxg5 Qxg5 25. Qf2 Nb6 26. R1c2 Rac8 27. Rxc8 Nxc8
+28. Qd2 Qf6 29. Rc6 Ne7 30. Rxa6 fxe4 31. fxe4 Qf3 32. Bg2 Qg4 33. Nxb5 Nf4 34.
+Ra3 Nxg2 35. Kxg2 Qxe4+ 36. Kg1 Qb1+ 0-1
+
+[Event "Montcada op B"]
+[Site "Montcada i Reixac"]
+[Date "2016.06.29"]
+[Round "5"]
+[White "Ritter Aguilar, Jordi"]
+[Black "Valarezzo Ricard, Pedro"]
+[Result "1/2-1/2"]
+[ECO "B01"]
+[WhiteElo "1868"]
+[BlackElo "1820"]
+[PlyCount "76"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nf3 Bg4 4. Nc3 Qe6+ 5. Qe2 Qxe2+ 6. Bxe2 c6 7. d4 Nf6
+8. Be3 e6 9. a3 h6 10. O-O Nbd7 11. Rfe1 Bd6 12. Bd3 Bxf3 13. gxf3 O-O-O 14.
+Ne4 Bc7 15. c4 e5 16. d5 cxd5 17. cxd5 Kb8 18. d6 Bb6 19. Bc4 Nxe4 20. fxe4
+Rhf8 21. Rad1 Bxe3 22. Rxe3 Nb6 23. Bf1 f5 24. f3 fxe4 25. Rxe4 Rxf3 26. Rxe5
+Rf6 27. Re7 Rg6+ 28. Bg2 Nd7 29. b4 a6 30. Kh1 Ka7 31. Bh3 Nb8 32. d7 Kb6 33.
+a4 Rf6 34. Re8 Kc7 35. Rxd8 Kxd8 36. Re1 Kc7 37. Re8 Nxd7 38. Re7 Rd6 1/2-1/2
+
+[Event "Montcada op B"]
+[Site "Montcada i Reixac"]
+[Date "2016.06.30"]
+[Round "6"]
+[White "Alcaraz Lopez, Francesc"]
+[Black "Ritter Aguilar, Jordi"]
+[Result "0-1"]
+[ECO "A43"]
+[WhiteElo "1891"]
+[BlackElo "1868"]
+[PlyCount "126"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 e6 2. d4 c5 3. d5 exd5 4. cxd5 d6 5. e4 Ne7 6. Bd3 Ng6 7. Ne2 Be7 8. O-O
+O-O 9. f4 Bf6 10. Nbc3 a6 11. a4 b6 12. h3 Nd7 13. Be3 Re8 14. g4 h6 15. Qd2
+Qc7 16. b3 Bb7 17. Ra2 Rac8 18. Rc2 Qd8 19. Ng3 Nh4 20. Qf2 Qe7 21. Nh5 Bxc3
+22. Rxc3 Bxd5 23. exd5 Qxe3 24. Qxe3 Rxe3 25. Bh7+ Kxh7 26. Rxe3 Ng6 27. Ng3
+Nf6 28. f5 Ne5 29. Rd1 Ne8 30. Ne4 f6 31. Kg2 Kg8 32. Kg3 Kf7 33. h4 Ke7 34. g5
+hxg5 35. hxg5 Nc7 36. Re2 Rh8 37. gxf6+ gxf6 38. Rh2 Rxh2 39. Kxh2 Nf3+ 40. Kg3
+Nd4 41. Kg4 Nxd5 42. Rh1 Ne3+ 43. Kf4 Nd5+ 44. Kg4 Ne3+ 45. Kf4 Nexf5 46. Rh7+
+Ke6 47. Ra7 a5 48. Rb7 Ne7 49. Nc3 f5 50. Rxb6 Ne2+ 51. Nxe2 Nd5+ 52. Kg5 Nxb6
+53. Ng3 d5 54. Nxf5 d4 55. Ng3 Ke5 56. Kg4 Nd5 57. Kf3 d3 58. Nf1 Kd4 59. Nd2
+Kc3 60. Ne4+ Kxb3 61. Nf2 d2 62. Ke4 Nc3+ 63. Ke5 Kxa4 0-1
+
+[Event "Montcada op B"]
+[Site "Montcada i Reixac"]
+[Date "2016.07.01"]
+[Round "7"]
+[White "Ritter Aguilar, Jordi"]
+[Black "Fernandez Felguera, Agustin"]
+[Result "0-1"]
+[ECO "A16"]
+[WhiteElo "1868"]
+[BlackElo "1854"]
+[PlyCount "52"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 Nf6 2. Nc3 g6 3. e4 d6 4. f4 c5 5. Nf3 Bg7 6. Be2 O-O 7. d3 Nc6 8. O-O a6
+9. Kh1 Rb8 10. Bd2 b5 11. Rb1 Nd7 12. Nd5 e6 13. Ne3 bxc4 14. Nxc4 d5 15. Nd6
+Rxb2 16. Rxb2 Bxb2 17. e5 Nd4 18. Ng5 f6 19. exf6 Nxf6 20. Nxc8 Qxc8 21. Re1 h6
+22. Nh3 Re8 23. Bf1 Nc6 24. Qf3 e5 25. Rb1 Bd4 26. g3 e4 0-1
+
+[Event "Montcada op B"]
+[Site "Montcada i Reixac"]
+[Date "2016.07.02"]
+[Round "8"]
+[White "Alcala Cuesta, Miguel"]
+[Black "Ritter Aguilar, Jordi"]
+[Result "1/2-1/2"]
+[ECO "D38"]
+[WhiteElo "1759"]
+[BlackElo "1868"]
+[PlyCount "120"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. cxd5 exd5 5. Bg5 Bb4 6. Nf3 O-O 7. e3 c5 8. a3
+Bxc3+ 9. bxc3 c4 10. Be2 Qa5 11. Bxf6 Qxc3+ 12. Nd2 gxf6 13. O-O Nc6 14. Ra2
+Qa5 15. Qc2 Be6 16. a4 Qc7 17. Qc3 b6 18. e4 Ne7 19. exd5 Nxd5 20. Qf3 c3 21.
+Ne4 Qf4 22. Rc2 Qxf3 23. Bxf3 Rac8 24. Nd6 Rcd8 25. Bxd5 Bxd5 26. Nb5 Bb3 27.
+Rxc3 Bxa4 28. Nxa7 Rxd4 29. Nc6 Rd7 30. h3 Re8 31. Rb1 b5 32. Rf3 Re6 33. Nb4
+Kf8 34. Nd3 Re4 35. Rb4 Rc4 36. Rxc4 bxc4 37. Nc5 Rd1+ 38. Kh2 Bb5 39. Rxf6 c3
+40. Nb3 Bc4 41. Rc6 Bxb3 42. Rxc3 Bd5 43. Kg3 Ke7 44. Rc8 Kf6 45. Rg8 Rd4 46.
+f3 Bc4 47. Kh2 Rd2 48. Rg4 Bd5 49. Kg3 h5 50. Rg8 Rd4 51. h4 Be6 52. Rg5 Rd5
+53. Rg8 Ke5 54. Rb8 f5 55. Rf8 Kd4 56. Rf6 Re5 57. Kf4 Re2 58. Rh6 Kd5 59. g3
+Ra2 60. Rxh5 Ra3 1/2-1/2
+
+[Event "Montcada op B"]
+[Site "Montcada i Reixac"]
+[Date "2016.07.03"]
+[Round "9"]
+[White "Ritter Aguilar, Jordi"]
+[Black "Palacios Pena, Gerardo"]
+[Result "1-0"]
+[ECO "A36"]
+[WhiteElo "1868"]
+[BlackElo "1903"]
+[PlyCount "77"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 Nf6 2. Nc3 c5 3. g3 Nc6 4. Bg2 g6 5. e3 Bg7 6. Nge2 O-O 7. O-O b6 8. d4
+cxd4 9. exd4 Bb7 10. b3 Na5 11. d5 d6 12. h3 Bc8 13. Be3 Bd7 14. g4 Rc8 15. Rc1
+Nb7 16. Ng3 a5 17. Bd4 Nc5 18. Re1 Rc7 19. Qe2 Bc8 20. Nb5 Rd7 21. f4 Ba6 22.
+g5 Ne8 23. Bxg7 Nxg7 24. Nd4 Bb7 25. h4 e5 26. Nc6 Bxc6 27. dxc6 Re7 28. Rcd1
+Rfe8 29. f5 Nxf5 30. Nxf5 gxf5 31. Bh3 Ne4 32. Qf3 Re6 33. Bxf5 Nc5 34. Bxe6
+Rxe6 35. Rf1 Qc7 36. Qd5 Kg7 37. Rf6 Rxf6 38. gxf6+ Kxf6 39. Qxd6+ 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.13"]
+[Round "1"]
+[White "Ferre Navarro, Joan"]
+[Black "Ritter Aguilar, Jordi"]
+[Result "0-1"]
+[ECO "D05"]
+[WhiteElo "1591"]
+[BlackElo "1868"]
+[PlyCount "96"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 e6 2. Nf3 d5 3. e3 Nf6 4. Bd3 c5 5. c3 Be7 6. O-O Nc6 7. Nbd2 O-O 8. dxc5
+Bxc5 9. e4 e5 10. exd5 Nxd5 11. Qc2 h6 12. Ne4 Be7 13. Ng3 Be6 14. Nf5 Bf6 15.
+a3 Rc8 16. Qe2 Qd7 17. Qe4 Bxf5 18. Qxf5 Qxf5 19. Bxf5 Rcd8 20. Be4 Na5 21. Bc2
+Rfe8 22. Re1 b6 23. Ba4 Re7 24. Re4 Nb7 25. Bd2 Nc5 26. Rc4 Nxa4 27. Rxa4 Red7
+28. Re4 Ne7 29. Rd1 Nc6 30. Kf1 Na5 31. Ke1 Nb3 32. Re2 Nc5 33. b4 e4 34. Nd4
+Nd3+ 35. Kf1 Bxd4 36. cxd4 Rxd4 37. Be3 Rc4 38. Red2 Rdc8 39. Ra2 f5 40. g3 g5
+41. Ke2 Kf7 42. Rxd3 exd3+ 43. Kxd3 Ke6 44. f4 g4 45. Bd2 Kd5 46. Be3 Rc3+ 47.
+Kd2 Ke4 48. Ke2 Rxe3+ 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.15"]
+[Round "3"]
+[White "Ritter Aguilar, Jordi"]
+[Black "Pascual Gonzalez-Novelles, David"]
+[Result "1-0"]
+[ECO "C62"]
+[WhiteElo "1868"]
+[BlackElo "1650"]
+[PlyCount "43"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 d6 3. d4 exd4 4. Qxd4 Nc6 5. Bb5 Bd7 6. Bxc6 Bxc6 7. Nc3 Nf6 8.
+Bg5 Be7 9. O-O-O O-O 10. h3 h6 11. Bh4 Re8 12. Rhe1 Nh7 13. Bxe7 Rxe7 14. e5
+Bxf3 15. gxf3 Qe8 16. Nd5 Rd7 17. exd6 Qf8 18. dxc7 Kh8 19. f4 Nf6 20. Qe5 Rd6
+21. Nxf6 Rxf6 22. Qe7 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.16"]
+[Round "4"]
+[White "Sanchez Paz, Josep"]
+[Black "Ritter Aguilar, Jordi"]
+[Result "0-1"]
+[ECO "A00"]
+[WhiteElo "1709"]
+[BlackElo "1868"]
+[PlyCount "46"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. a3 e5 2. c4 Nc6 3. Nc3 f5 4. d3 Be7 5. e3 Nf6 6. g3 d6 7. Bg2 O-O 8. Nd5 Be6
+9. Nxe7+ Qxe7 10. Ne2 Rad8 11. Bxc6 bxc6 12. Qa4 Nd7 13. Qxc6 Nc5 14. d4 Nd3+
+15. Kf1 Nxc1 16. Rxc1 f4 17. gxf4 exf4 18. Nxf4 Rxf4 19. exf4 Bh3+ 20. Kg1 d5
+21. cxd5 Rd6 22. Qa8+ Kf7 23. f5 Qg5# 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.17"]
+[Round "5"]
+[White "Ritter Aguilar, Jordi"]
+[Black "Khachatryan, Tigran V"]
+[Result "1-0"]
+[ECO "A18"]
+[WhiteElo "1868"]
+[BlackElo "1936"]
+[PlyCount "81"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 Nf6 2. Nc3 e6 3. e4 d5 4. cxd5 exd5 5. e5 d4 6. exf6 dxc3 7. bxc3 Qxf6 8.
+Nf3 Bd6 9. d4 O-O 10. Be2 c5 11. Bg5 Qg6 12. O-O cxd4 13. Bd3 Qh5 14. h3 Nc6
+15. cxd4 f5 16. Bc4+ Kh8 17. Bd2 f4 18. Ne5 f3 19. Nxf3 Nxd4 20. Ng5 Qg6 21.
+Be3 Nf5 22. Qd5 h6 23. Nf7+ Kh7 24. Rad1 Bc7 25. Bc5 Re8 26. Rfe1 Be6 27. Ng5+
+Qxg5 28. Rxe6 Red8 29. Qf3 Rxd1+ 30. Qxd1 Qf4 31. Qc2 Kh8 32. Bd3 Qh2+ 33. Kf1
+Nh4 34. Be4 Qh1+ 35. Ke2 Nxg2 36. Rxh6+ gxh6 37. Bd4+ Kg8 38. Bd5+ Kf8 39. Qf5+
+Ke8 40. Qf7+ Kd8 41. Bf6+ 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.18"]
+[Round "6"]
+[White "Palacios Pena, Gerardo"]
+[Black "Ritter Aguilar, Jordi"]
+[Result "1/2-1/2"]
+[ECO "A43"]
+[WhiteElo "1903"]
+[BlackElo "1868"]
+[PlyCount "68"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 e6 2. Nf3 c5 3. c3 cxd4 4. cxd4 g6 5. Nc3 Bg7 6. e3 d6 7. Be2 Ne7 8. O-O
+a6 9. b3 b5 10. a4 b4 11. Nb1 O-O 12. Bb2 Bb7 13. Nbd2 Nd7 14. Rc1 Nb6 15. Nc4
+Rc8 16. Qd2 Nxc4 17. Bxc4 a5 18. Be2 Bd5 19. Qd3 Bxf3 20. Bxf3 d5 21. Be2 Nf5
+22. Qa6 Ra8 23. Qc6 Qg5 24. Qc2 Rac8 25. Qd2 Nd6 26. Bd3 f5 27. f4 Qe7 28. Rxc8
+Rxc8 29. Rc1 Qb7 30. Rc2 Rxc2 31. Qxc2 Qc8 32. Kf2 Kf7 33. Ke2 Ke7 34. Kd2 Kd7
+1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.19"]
+[Round "7"]
+[White "Ritter Aguilar, Jordi"]
+[Black "Ji, Pablo"]
+[Result "0-1"]
+[ECO "A36"]
+[WhiteElo "1868"]
+[BlackElo "1606"]
+[PlyCount "90"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 c5 2. Nc3 Nc6 3. g3 Nf6 4. Bg2 e6 5. e4 e5 6. Nge2 d6 7. h3 Be6 8. Nd5
+Bxd5 9. cxd5 Nd4 10. Nxd4 cxd4 11. O-O Be7 12. d3 O-O 13. f4 b5 14. b4 a5 15.
+bxa5 Rxa5 16. Bd2 Ra4 17. a3 Qd7 18. Bb4 Rc8 19. Rc1 Raa8 20. Rf2 Bd8 21. Rfc2
+Rxc2 22. Qxc2 Ne8 23. fxe5 dxe5 24. Qc5 h6 25. d6 Bf6 26. Kh2 Ra7 27. h4 g5 28.
+Qc8 g4 29. Bf1 h5 30. Be2 Kh7 31. Qc5 Bg7 32. Rf1 f6 33. Rf5 Kg6 34. Qd5 Ra6
+35. Qg8 Rc6 36. Bxg4 Rc2+ 37. Kg1 hxg4 38. Rh5 Qc6 39. Be1 Rc1 40. Kf1 Rxe1+
+41. Kxe1 Qc1+ 42. Ke2 Qe3+ 43. Kd1 Qxd3+ 44. Kc1 Nxd6 45. Rh7 Qc4+ 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.20"]
+[Round "8"]
+[White "Ritter Aguilar, Jordi"]
+[Black "Riera Danes, Manel"]
+[Result "0-1"]
+[ECO "B30"]
+[WhiteElo "1868"]
+[BlackElo "1916"]
+[PlyCount "46"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. c3 Nf6 4. Qc2 e5 5. g3 Be7 6. Bg2 O-O 7. O-O d6 8. h3 h6
+9. d3 Be6 10. Re1 b5 11. Be3 b4 12. Nbd2 d5 13. d4 cxd4 14. cxd4 Rc8 15. Qa4
+exd4 16. Nxd4 Nxd4 17. Bxd4 dxe4 18. Bxf6 Bxf6 19. Nxe4 Bxb2 20. Rad1 Qb6 21.
+Rd6 Qb8 22. Red1 b3 23. a3 Be5 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.21"]
+[Round "9"]
+[White "Valero Recalde, Pablo"]
+[Black "Ritter Aguilar, Jordi"]
+[Result "0-1"]
+[ECO "A43"]
+[WhiteElo "1734"]
+[BlackElo "1868"]
+[PlyCount "76"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 e6 2. c4 c5 3. d5 exd5 4. cxd5 d6 5. e4 Ne7 6. b3 a6 7. a4 Ng6 8. Nf3 Bg4
+9. Bb2 Nd7 10. h3 Bxf3 11. Qxf3 Qg5 12. Qg4 Qe7 13. Bd3 Nde5 14. Bxe5 Nxe5 15.
+Qe2 Qf6 16. Ra2 Be7 17. O-O g5 18. Nd2 h5 19. f3 Ng6 20. Nc4 O-O 21. Qb2 Qf4
+22. Qd2 Qxd2 23. Rxd2 b5 24. Ne3 Rab8 25. a5 Rfd8 26. Rc1 Bf6 27. Nf5 Ne7 28.
+Nxe7+ Bxe7 29. Ra2 Bf6 30. g3 Kf8 31. Rcc2 Ke7 32. f4 gxf4 33. gxf4 Rg8+ 34.
+Rg2 Bc3 35. Rxg8 Rxg8+ 36. Kf2 h4 37. Re2 Rg3 38. Re3 Bd4 0-1
+
+[Event "Ct. Catalunya equips"]
+[Site "?"]
+[Date "2002.??.??"]
+[Round "4"]
+[White "Rechi Perez, F."]
+[Black "Ritter Aguilar, J."]
+[Result "0-1"]
+[ECO "C63"]
+[PlyCount "44"]
+[EventDate "2002.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 f5 4. d3 Nf6 5. Bg5 h6 6. Bxf6 Qxf6 7. Nbd2 Be7 8.
+Qe2 O-O 9. O-O-O d6 10. Bc4+ Be6 11. Rhf1 Bxc4 12. Nxc4 f4 13. d4 exd4 14. Rfe1
+Qf7 15. Nxd4 Nxd4 16. Rxd4 b5 17. Na3 Bf6 18. Rd5 a6 19. Qh5 Qe6 20. Qd1 Be5
+21. Kb1 c6 22. Rd2 b4 0-1
+
+[Event "Ct. Catalunya equips DH"]
+[Site "?"]
+[Date "2004.??.??"]
+[Round "3.10"]
+[White "Pascual Genoves, M."]
+[Black "Ritter Aguilar, J."]
+[Result "1-0"]
+[ECO "C28"]
+[PlyCount "51"]
+[EventDate "2004.??.??"]
+
+1. e4 e5 2. Nc3 Nc6 3. Bc4 Nf6 4. d3 h6 5. Nge2 Be7 6. O-O O-O 7. f4 d6 8. a4
+exf4 9. Nxf4 Ne5 10. Ba2 c6 11. d4 Ned7 12. Ng6 Re8 13. e5 dxe5 14. dxe5 Nd5
+15. Nxd5 cxd5 16. Bxd5 Qb6+ 17. Kh1 Qxg6 18. Bxf7+ Qxf7 19. Rxf7 Kxf7 20. Qd5+
+Kf8 21. Bxh6 Rd8 22. Rf1+ Nf6 23. Qf3 Kg8 24. Bg5 Be6 25. exf6 Rf8 26. Qe2 1-0
+
+[Event "Sants Hostafrancs i La Bordeta op"]
+[Site "?"]
+[Date "2006.??.??"]
+[Round "1.15"]
+[White "Narciso Dublan, M."]
+[Black "Ritter Aguilar, J."]
+[Result "1-0"]
+[ECO "A30"]
+[PlyCount "47"]
+[EventDate "2006.??.??"]
+
+1. c4 c5 2. g3 Nf6 3. Bg2 Nc6 4. Nc3 d6 5. Nf3 Qd7 6. d4 b6 7. Bg5 Bb7 8. Bxf6
+gxf6 9. e3 Bg7 10. O-O O-O 11. Qd3 Rad8 12. Rad1 Qg4 13. Nh4 Nb4 14. Qf5 Qxf5
+15. Nxf5 Rd7 16. Bh3 e6 17. Nxg7 Kxg7 18. d5 f5 19. a3 Na6 20. Nb5 Rfd8 21. e4
+Kf6 22. Rfe1 Nb8 23. Nxd6 exd5 24. e5+ 1-0
+
+[Event "Barbera op B"]
+[Site "?"]
+[Date "2008.07.05"]
+[Round "1"]
+[White "Ritter Aguilar, J."]
+[Black "Demestres Lopez, R."]
+[Result "1-0"]
+[ECO "B50"]
+[WhiteElo "2044"]
+[BlackElo "1873"]
+[PlyCount "65"]
+[EventDate "2008.??.??"]
+
+1. e4 c5 2. Nf3 d6 3. c3 Bg4 4. Be2 Nf6 5. O-O Nc6 6. d4 e6 7. d5 Bxf3 8. Bxf3
+Ne5 9. Be2 Be7 10. f4 Ned7 11. Bf3 e5 12. c4 O-O 13. Nc3 a6 14. g3 Qc7 15. Bg2
+Rfb8 16. a4 b6 17. Qe2 Qb7 18. Bd2 Ra7 19. g4 Ne8 20. g5 Nc7 21. Qg4 Na8 22.
+Rf3 Rf8 23. Qh5 g6 24. Qh6 Rb8 25. Rh3 Nf8 26. f5 f6 27. fxg6 hxg6 28. Rf1 f5
+29. exf5 Bd8 30. Qh8+ Kf7 31. fxg6+ Ke8 32. Qxf8+ Kd7 33. Rh7+ 1-0
+
+[Event "Barbera op B"]
+[Site "?"]
+[Date "2008.07.07"]
+[Round "2"]
+[White "Colom Andres, FX."]
+[Black "Ritter Aguilar, J."]
+[Result "0-1"]
+[ECO "A57"]
+[WhiteElo "1921"]
+[BlackElo "2044"]
+[PlyCount "88"]
+[EventDate "2008.??.??"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. Nc3 axb5 6. e4 d6 7. Bf4 Nbd7 8. Nf3
+g6 9. Bxb5 Bg7 10. O-O O-O 11. h3 Ba6 12. Re1 Nh5 13. Bh2 Bxc3 14. Bxa6 Bxe1
+15. Be2 Ba5 16. e5 Ng7 17. exd6 exd6 18. Bxd6 Bc7 19. Bxf8 Qxf8 20. Bb5 Qd6 21.
+g3 Nf5 22. Qe2 Ne5 23. Nxe5 Qxe5 24. Qxe5 Bxe5 25. Rc1 Bd4 26. g4 Nd6 27. a4
+Rb8 28. b4 cxb4 29. Bd3 Ra8 30. Rc6 Be5 31. Bc2 Rc8 32. Kf1 Rxc6 33. dxc6 Nc4
+34. Ke2 Na5 35. Be4 Kf8 36. Ke3 Ke7 37. f4 Bg7 38. Bd5 Kd6 39. Bxf7 Kxc6 40.
+Kd2 Kc5 41. h4 b3 42. f5 gxf5 43. gxf5 Kb4 44. Kc1 Nc4 0-1
+
+[Event "Barbera op B"]
+[Site "?"]
+[Date "2008.07.08"]
+[Round "3"]
+[White "Ritter Aguilar, J."]
+[Black "Arshad Bakhtiari, F."]
+[Result "0-1"]
+[ECO "B85"]
+[WhiteElo "2044"]
+[PlyCount "70"]
+[EventDate "2008.??.??"]
+
+1. e4 c5 2. f4 Nc6 3. Nc3 a6 4. Nf3 d6 5. Be2 e6 6. O-O Nf6 7. Kh1 Be7 8. d4
+cxd4 9. Nxd4 Qc7 10. Be3 h5 11. f5 Bd7 12. Bf3 Ne5 13. fxe6 fxe6 14. Bg1 g5 15.
+Qd2 g4 16. Be2 b5 17. a3 h4 18. Rad1 O-O-O 19. Qe3 Nh5 20. Bf2 Rdg8 21. Nf5 Bf8
+22. Nxh4 g3 23. Bg1 gxh2 24. Bf2 Bh6 25. Qd4 Ng3+ 26. Bxg3 Rxg3 27. Qxd6 Qxd6
+28. Rxd6 Bf8 29. Rxa6 Kb7 30. Ra5 Bc5 31. Bxb5 Rxh4 32. Bxd7 Nxd7 33. Rf7 Rxg2
+34. Rxd7+ Kc6 35. Rxc5+ Kxd7 0-1
+
+[Event "Barbera op B"]
+[Site "?"]
+[Date "2008.07.09"]
+[Round "4"]
+[White "Mogro Flores, S."]
+[Black "Ritter Aguilar, J."]
+[Result "1-0"]
+[ECO "C63"]
+[WhiteElo "1952"]
+[BlackElo "2044"]
+[PlyCount "79"]
+[EventDate "2008.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 f5 4. O-O Nf6 5. exf5 Nd4 6. Nxd4 exd4 7. Re1+ Be7
+8. Qe2 c6 9. Bd3 Kf7 10. c3 Re8 11. Qf3 d5 12. Bf1 Bd6 13. Be2 Bd7 14. d3 Qc7
+15. h3 Re5 16. g4 c5 17. cxd4 cxd4 18. Nd2 Bb4 19. a3 Ba5 20. b4 Bb6 21. Nf1
+Qc3 22. Bf4 Ree8 23. g5 Rxe2 24. Qxe2 Re8 25. Qd2 Nh5 26. Rxe8 Qxd2 27. Bxd2
+Bxe8 28. Ng3 Nxg3 29. fxg3 Bb5 30. Re1 Bxd3 31. g4 Bc4 32. Kf2 Bb5 33. Kf3 d3
+34. Rc1 Bc6 35. h4 Ke7 36. h5 d4+ 37. Kf2 Bd8 38. g6 h6 39. g5 Bd7 40. f6+ 1-0
+
+[Event "Ct. Catalunya Veterans"]
+[Site "?"]
+[Date "2011.05.17"]
+[Round "5"]
+[White "Ritter Aguilar, J."]
+[Black "Marchador Villalba, J."]
+[Result "0-1"]
+[ECO "A35"]
+[WhiteElo "1989"]
+[BlackElo "2109"]
+[PlyCount "48"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+
+1. c4 c5 2. Nf3 Nc6 3. Nc3 e6 4. e4 a6 5. g3 d6 6. Bg2 Nf6 7. O-O Be7 8. d4
+cxd4 9. Nxd4 Qc7 10. Be3 O-O 11. Rc1 Nxd4 12. Bxd4 Rb8 13. Re1 Nd7 14. b3 b6
+15. Qe2 Bb7 16. f4 Rbd8 17. Qf2 Bf6 18. Be3 Nc5 19. b4 Nd3 20. Bxb6 Qxc4 21.
+Ne2 Qxb4 22. Qe3 Nxc1 23. Nxc1 Rc8 24. Nd3 Qb5 0-1

@@ -1,0 +1,146 @@
+[Event "Salou op"]
+[Site "Salou"]
+[Date "2017.04.29"]
+[Round "1"]
+[White "Laliena Solanes, Luis M"]
+[Black "Dosaiguas Bonne, Jaime Jose"]
+[Result "1-0"]
+[ECO "C10"]
+[WhiteElo "2179"]
+[BlackElo "1566"]
+[PlyCount "67"]
+[EventDate "2017.04.29"]
+[EventType "swiss"]
+[EventRounds "6"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 178 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.06.22"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.06.22"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Nc3 c5 4. exd5 exd5 5. Nf3 c4 6. Be2 Nf6 7. O-O Be7 8. b3
+Qa5 9. Bd2 Bb4 10. Qe1 O-O 11. Ne4 Bxd2 12. Nxf6+ gxf6 13. Nxd2 c3 14. Nb1 Nc6
+15. Qxc3 Qxc3 16. Nxc3 Nxd4 17. Rfd1 Nxe2+ 18. Nxe2 Bf5 19. c3 Rfd8 20. Rd2
+Rac8 21. Rad1 Re8 22. Kf1 Kg7 23. Rxd5 Be4 24. R5d2 Re5 25. f3 Bc6 26. Kf2 Rh5
+27. h3 Rg5 28. Rd8 Rxd8 29. Rxd8 Ra5 30. a4 Re5 31. Nd4 Rd5 32. Nxc6 bxc6 33.
+Rxd5 cxd5 34. Ke3 1-0
+
+[Event "Salou op"]
+[Site "Salou"]
+[Date "2017.04.29"]
+[Round "2"]
+[White "Farre Selma, David"]
+[Black "Laliena Solanes, Luis M"]
+[Result "1-0"]
+[ECO "B16"]
+[WhiteElo "1918"]
+[BlackElo "2179"]
+[PlyCount "91"]
+[EventDate "2017.04.29"]
+[EventType "swiss"]
+[EventRounds "6"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 178 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.06.22"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.06.22"]
+[SourceQuality "1"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Nxf6+ gxf6 6. Nf3 Bg4 7. Be2 Nd7
+8. Be3 Nb6 9. h3 Bf5 10. Bd3 Qd5 11. Bxf5 Qxf5 12. Qe2 e6 13. O-O-O Qd5 14. Kb1
+Nc4 15. Bc1 b5 16. Rhe1 Bb4 17. c3 Bd6 18. Qe4 Rb8 19. Nd2 f5 20. Qxd5 cxd5 21.
+Nxc4 bxc4 22. Kc2 Kd7 23. g3 h5 24. Bg5 Rhg8 25. h4 Rg6 26. b3 f6 27. Be3 Rg4
+28. bxc4 dxc4 29. Rb1 f4 30. gxf4 Bxf4 31. Rxb8 Bxb8 32. Rh1 Kc6 33. Kd2 Kd5
+34. Rb1 Bf4 35. Rb5+ Ke4 36. Ke2 Bxe3 37. f3+ Kf4 38. fxg4 hxg4 39. h5 Ke4 40.
+Ra5 g3 41. Rxa7 f5 42. Re7 f4 43. Rxe6+ Kf5 44. Rxe3 g2 45. Re5+ Kg4 46. Kf2
+1-0
+
+[Event "Salou op"]
+[Site "Salou"]
+[Date "2017.04.30"]
+[Round "4"]
+[White "Romeu de la Cruz, Josep"]
+[Black "Laliena Solanes, Luis M"]
+[Result "0-1"]
+[ECO "A01"]
+[WhiteElo "1786"]
+[BlackElo "2179"]
+[PlyCount "54"]
+[EventDate "2017.04.29"]
+[EventType "swiss"]
+[EventRounds "6"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 178 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.06.22"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.06.22"]
+[SourceQuality "1"]
+
+1. b3 e5 2. Bb2 Nc6 3. e3 Nf6 4. Bb5 Bd6 5. Bxc6 dxc6 6. d3 Qe7 7. Nd2 Bg4 8.
+f3 Be6 9. Ne2 Nd5 10. Kf2 O-O-O 11. Ne4 f5 12. Nxd6+ Qxd6 13. Qc1 Rhe8 14. g3
+Bf7 15. Ba3 Qf6 16. Bb2 Qe6 17. Re1 Nf6 18. d4 e4 19. Nf4 Qd7 20. c4 exf3 21.
+Kxf3 g5 22. Nd3 f4 23. Ne5 Rxe5 24. dxe5 Qg4+ 25. Kg2 Ne4 26. Bc3 f3+ 27. Kh1
+Nf2+ 0-1
+
+[Event "Salou op"]
+[Site "Salou"]
+[Date "2017.05.01"]
+[Round "5"]
+[White "Villa Izquierdo, Roberto"]
+[Black "Laliena Solanes, Luis M"]
+[Result "1/2-1/2"]
+[ECO "D02"]
+[WhiteElo "2080"]
+[BlackElo "2179"]
+[PlyCount "54"]
+[EventDate "2017.04.29"]
+[EventType "swiss"]
+[EventRounds "6"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 178 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.06.22"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.06.22"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 d5 3. Bf4 c5 4. c3 Nc6 5. e3 Qb6 6. Qb3 c4 7. Qxb6 axb6 8. Na3
+Bf5 9. Nh4 Bd7 10. Bc7 Ra6 11. Be2 Na7 12. Be5 Ne4 13. Nc2 e6 14. f3 Nd6 15.
+Bxd6 Bxd6 16. f4 Nc6 17. O-O O-O 18. e4 b5 19. exd5 exd5 20. a3 Re8 21. Rae1
+Raa8 22. g3 Be7 23. Ng2 Bf5 24. Nce3 Be4 25. h4 f5 26. g4 g6 27. Bf3 Rad8
+1/2-1/2
+
+[Event "Salou op"]
+[Site "Salou"]
+[Date "2017.05.01"]
+[Round "6"]
+[White "Laliena Solanes, Luis M"]
+[Black "Catala Ulied, Guillem"]
+[Result "1-0"]
+[ECO "B52"]
+[WhiteElo "2179"]
+[BlackElo "1880"]
+[PlyCount "93"]
+[EventDate "2017.04.29"]
+[EventType "swiss"]
+[EventRounds "6"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 178 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.06.22"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.06.22"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. a4 a6 5. Bc4 Nf6 6. e5 dxe5 7. Nxe5 e6 8. d3
+Nc6 9. Nxd7 Qxd7 10. O-O Be7 11. Nd2 O-O 12. Nf3 Rfd8 13. Qe2 Qc7 14. Bd2 Ng4
+15. g3 Nge5 16. Nxe5 Qxe5 17. Qxe5 Nxe5 18. Ba5 Rd4 19. Bc3 Nxc4 20. Bxd4 Nd2
+21. Bc3 Nxf1 22. Kxf1 f6 23. b3 Kf7 24. Ke2 e5 25. a5 Ke6 26. Rb1 Rc8 27. Bd2
+Bd8 28. Ra1 Be7 29. Ra4 Rc6 30. Rh4 h6 31. Rc4 Kd5 32. g4 Bf8 33. Re4 Re6 34.
+h4 Be7 35. h5 Bf8 36. Be3 Be7 37. f4 Bd6 38. Kf3 Bc7 39. Bd2 exf4 40. c4+ Kd6
+41. Bxf4+ Kd7 42. Rxe6 Bxf4 43. Rb6 Bc7 44. Rxb7 Kc6 45. Rxc7+ Kxc7 46. Ke4 Kd6
+47. d4 1-0

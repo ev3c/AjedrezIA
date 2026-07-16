@@ -1,0 +1,105 @@
+[Event "Barcelona ( Café Cerveceria Munich )"]
+[Site "Barcelona"]
+[Date "1896.08.19"]
+[Round "?"]
+[White "Baquero Vidal, Jose Maria"]
+[Black "Capo Gonzalez, Joan"]
+[Result "1-0"]
+[ECO "B13"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "63"]
+[EventDate "1896.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Nc3 Bf5 5. Nf3 e6 6. Bb5+ Nc6 7. Ne5 Qc7 8.
+O-O Bd6 $1 9. Re1 Nge7 (9... Nf6) 10. Bd3 Nxd4 $1 11. Nb5 Nxb5 12. Bxb5+ Nc6
+13. Nxc6 bxc6 {El negro tiene un mejor posición, con una ventaja notoria.} 14.
+Qxd5 $2 {Esta jugada que parece natural es un error de bulto. Parece increíble
+que Baquero cayera en esta trampa.} O-O $2 {Y Capó no encuentra la mejor,
+cuando tenía la victoria en sus manos.} (14... Kd7 $3 {Hubiera dejado sin
+opciones al blanco y con la partida perdida.}) 15. Qxc6 Qxc6 $6 (15... Bxh2+
+$142 16. Kh1 a6 (16... Bxc2 $143 17. g3 Bxg3 18. fxg3 Qxg3 19. Re3 $13) 17.
+Qxc7 Bxc7 18. Bc6 Rac8 19. c3 Bg3 $36) 16. Bxc6 Rac8 17. Ba4 Bxc2 18. Bb5 Bc5
+19. Be3 e5 (19... Bxe3 $142) 20. Ba6 Rc6 (20... Bxe3 $5 21. Rxe3 (21. Bxc8 Bd4
+$36) 21... Rc6 $11) 21. Bxc5 Rxc5 22. Rac1 Rd8 $2 (22... Rb8 $142) 23. b4 Rc6
+24. Bb5 Rb6 25. Rxe5 a6 26. Bf1 f6 27. Rc5 Ba4 28. Bc4+ Kf8 29. Rc7 Rd7 $4 (
+29... Be8 $142) 30. Rc8+ Ke7 31. Re1+ Kd6 32. Re6# 1-0
+
+[Event "Barcelona ( Café Cerveceria Munich )"]
+[Site "Barcelona"]
+[Date "1896.04.03"]
+[Round "?"]
+[White "Escute, Felix"]
+[Black "Capo Gonzalez, Joan"]
+[Result "1-0"]
+[ECO "C51"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "79"]
+[EventDate "1896.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. b4 {Ya tenemos planteado el gambito Evans.}
+Bxb4 5. c3 Ba5 6. d4 exd4 7. O-O d6 8. cxd4 Bb6 9. Nc3 Na5 10. Bd3 Bg4 11. Be3
+Bxf3 12. Qxf3 Qf6 13. Qd1 Ne7 (13... Bxd4 $4 14. Bxd4 Qxd4 15. Bb5+) 14. e5
+dxe5 15. Ne4 Qe6 16. Ng5 Qd7 17. dxe5 Rd8 $2 (17... Qd5 $142 18. Qa4+ c6 19.
+Rad1 $16) (17... h6 $2 18. Nxf7 $18) 18. Qh5 g6 19. Ne4 $6 (19. Qh6 $142) 19...
+Ng8 $6 (19... gxh5 $4 20. Nf6+ Kf8 21. Bh6#) (19... Qe6 $142 $11) 20. Qf3 $1
+Qe6 (20... Nc6 $142) 21. Bg5 $2 (21. Ng5 $1 Qe7 22. Rad1 $18) 21... Rd5 $2 (
+21... Rd4 $142) 22. Bf6 Rxd3 23. Qxd3 Nxf6 24. Nxf6+ Kf8 25. Kh1 Kg7 26. f4 c6
+$2 (26... Nc6) 27. f5 Qxe5 28. Ng4 Qd4 29. f6+ Kg8 30. Rfe1 (30. Nh6+ $142 Kf8
+31. Qa3+ c5 32. Rad1 $18) 30... h5 31. Qg3 $2 {Escuté pone una trampa. Sin
+embargo esta jugada no es la mejor.} (31. Qe2 $142) 31... Kh7 $2 (31... Nc4
+$142 32. h3 Kh7 $11) (31... Qxg4) (31... Qxg4 $4 {Aquí estaba la celada, que
+Capó no cayó en ella, puesto que había mate en pocas.} 32. Re8+ Kh7 33. Rxh8+
+Kxh8 34. Qb8+ Kh7 35. Qf8 {etc.}) 32. Ne5 Bc7 33. Rad1 Bxe5 34. Qxe5 Qxe5 35.
+Rxe5 Nc4 36. Re7 Rf8 37. Rxb7 Ne3 38. Rdd7 Kg8 39. Rxa7 Rb8 40. h3 1-0
+
+[Event "Barcelona"]
+[Site "Barcelona"]
+[Date "1897.12.10"]
+[Round "?"]
+[White "Capo Gonzalez, Joan"]
+[Black "Escute, Felix"]
+[Result "1-0"]
+[ECO "C41"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "43"]
+[EventDate "1897.??.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 d6 3. d4 f5 4. Bc4 (4. dxe5 $142) 4... fxe4 5. dxe5 $2 (5. Nxe5
+$1 $16) 5... exf3 6. O-O Qh4 (6... fxg2 $142 7. Re1 Ne7 $19) 7. Qd5 Ne7 8. Qf7+
+Kd8 9. exd6 cxd6 10. Rd1 Qf6 $6 (10... Ng6 $142 $1 $19) 11. Qxf6 gxf6 12. Rxd6+
+Bd7 13. Rxf6 Nf5 (13... fxg2) 14. Bg5 Be7 15. Nc3 h6 16. Rd1 hxg5 17. Rxf5 Kc8
+18. Rf7 Re8 $2 (18... Nc6 $142) 19. Nd5 Bc5 $2 (19... Bd8 $142 $15) 20. Nf6 Be6
+21. Nxe8 Bxc4 22. Rc7# 1-0
+
+[Event "Barcelona"]
+[Site "Barcelona"]
+[Date "1897.12.07"]
+[Round "?"]
+[White "Escute, Felix"]
+[Black "Capo Gonzalez, Joan"]
+[Result "0-1"]
+[ECO "C52"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "48"]
+[EventDate "1897.??.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. b4 Bxb4 5. c3 Ba5 6. d4 d6 {Aquí Capó cambia
+con respecto a su partida anterior contra el gambito Evans de Escuté.} (6...
+exd4 $142) 7. dxe5 Qe7 8. O-O $1 Nxe5 9. Nxe5 Qxe5 10. Ba3 $2 (10. Be3 $1)
+10... Nf6 (10... Ne7 $5) 11. f4 Bb6+ (11... Qh5 $142) 12. Kh1 Qh5 13. Be2 $2 (
+13. Qxh5 $142 Nxh5 14. e5 Bg4 15. exd6 O-O-O $36) 13... Bg4 $1 {Diagrama #} 14.
+Qa4+ c6 (14... Kf8 $1 $19 {Aún hubiera sido mejor.}) 15. Bd3 (15. Bf3 $142)
+15... O-O 16. Bxd6 Rad8 (16... Be2 $142 {Sería otra buena posibilidad.}) 17. e5
+(17. Bxf8 Rxd3 $1 18. Ba3 (18. Qb4 Rh3 $1 $19) 18... Rh3 $1 $19) 17... Rfe8 18.
+c4 Rxd6 $1 19. exd6 Be2 $1 (19... Re3 $142 $1) 20. Bxe2 (20. d7 Bxf1 21.
+dxe8=Q+ Nxe8 22. Bxh7+ Qxh7 23. Nd2 Bd3 $19) 20... Rxe2 21. c5 Ng4 22. h3 Bxc5
+{Y contra la posterior ... Dxh3+ no hay nada.} 23. Nc3 (23. Qb3 Be3 (23... Re3
+24. d7 Qh4 $19) 24. d7 Qxh3+ $3 25. gxh3 Rh2#) 23... Qxh3+ 24. gxh3 Rh2# 0-1

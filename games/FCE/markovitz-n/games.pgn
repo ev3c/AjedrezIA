@@ -1,0 +1,49 @@
+[Event "Andorra op"]
+[Site "Erts - La Massana"]
+[Date "2014.07.19"]
+[Round "1.11"]
+[White "Almeida Quintana, O."]
+[Black "Markovitz, N."]
+[Result "1-0"]
+[ECO "E10"]
+[WhiteElo "2492"]
+[BlackElo "1994"]
+[PlyCount "73"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+
+1. d4 Nf6 2. c4 Nc6 3. Nf3 e6 4. a3 d6 5. Nc3 g6 6. g3 Bg7 7. Bg2 O-O 8. O-O
+Qe7 9. e4 e5 10. d5 Nb8 11. Ne1 a5 12. Nd3 Nbd7 13. Be3 Ne8 14. b4 axb4 15.
+axb4 Rxa1 16. Qxa1 f5 17. f3 f4 18. Bf2 fxg3 19. hxg3 Bh6 20. Nb5 Ndf6 21. Qa8
+Bd7 22. Qxb7 Nh5 23. c5 Bxb5 24. Qxb5 Qg5 25. g4 Nhf6 26. Qc4 Qd2 27. Qc1 Qxf2+
+28. Nxf2 Bxc1 29. Rxc1 g5 30. Nd1 h5 31. Ne3 hxg4 32. fxg4 Ng7 33. cxd6 cxd6
+34. Rc6 Nfe8 35. b5 Rf7 36. b6 Rd7 37. Bf1 1-0
+
+[Event "Benasque op 37th"]
+[Site "Benasque"]
+[Date "2017.07.06"]
+[Round "1"]
+[White "Markovitz, Neil"]
+[Black "Kuzubov, Yuriy"]
+[Result "0-1"]
+[ECO "A09"]
+[WhiteElo "1976"]
+[BlackElo "2646"]
+[PlyCount "42"]
+[EventDate "2017.07.06"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. Nf3 d5 2. c4 d4 3. b4 g5 4. Bb2 Bg7 5. Nxg5 e5 6. Ne4 f5 7. Nc5 b6 8. Qa4+
+Kf7 9. Nd3 Ne7 10. h4 Bb7 11. e3 Re8 12. Be2 Nd7 13. Na3 a5 14. b5 Be4 15. exd4
+exd4 16. c5 Bxd3 17. Qb3+ Nd5 18. Qxd5+ Kf8 19. O-O-O Bxe2 20. Qxf5+ Kg8 21.
+Rde1 Nxc5 0-1

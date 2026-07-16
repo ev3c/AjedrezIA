@@ -1,0 +1,444 @@
+[Event "Ciutat de Sabadell op B"]
+[Site "Sabadell"]
+[Date "2016.09.02"]
+[Round "2"]
+[White "Cardenas, Fernando Adrian"]
+[Black "Torralba Brosa, Marc"]
+[Result "1/2-1/2"]
+[ECO "D74"]
+[WhiteElo "1962"]
+[BlackElo "1736"]
+[PlyCount "36"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. g3 O-O 5. Bg2 d5 6. cxd5 Nxd5 7. O-O Bf5 8.
+Nc3 Nxc3 9. bxc3 Be4 10. Ba3 Nd7 11. Qb3 c5 12. Rad1 cxd4 13. cxd4 Nb6 14. Ng5
+Bxg2 15. Kxg2 h6 16. Ne4 Qd5 17. Qxd5 Nxd5 18. e3 Rfd8 1/2-1/2
+
+[Event "Ciutat de Sabadell op B"]
+[Site "Sabadell"]
+[Date "2016.09.04"]
+[Round "4"]
+[White "Oset Teixidor, Guerau"]
+[Black "Torralba Brosa, Marc"]
+[Result "1-0"]
+[ECO "A48"]
+[WhiteElo "1968"]
+[BlackElo "1736"]
+[PlyCount "87"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Bf4 g6 3. Nf3 Bg7 4. e3 d6 5. Be2 O-O 6. O-O c5 7. c3 Nc6 8. Nbd2
+Re8 9. Qb3 e5 10. dxe5 dxe5 11. Bg3 e4 12. Ng5 Qxd2 13. Qxf7+ Kh8 14. Bc4 Rf8
+15. Rad1 Qxd1 16. Rxd1 Rxf7 17. Nxf7+ Kg8 18. Ng5+ Kf8 19. Bd6+ Ne7 20. Bxc5
+Bg4 21. Rd4 Bf5 22. f3 exf3 23. gxf3 Bh6 24. h4 Bxg5 25. hxg5 Nd7 26. Bd6 Nb6
+27. Bb3 Ke8 28. Rh4 Nbc8 29. Ba3 Kd7 30. Rxh7 Be6 31. Ba4+ Kd8 32. e4 Bxa2 33.
+b3 b5 34. Bxe7+ Nxe7 35. Rh8+ Kc7 36. Rxa8 bxa4 37. Rxa7+ Kd6 38. bxa4 Bc4 39.
+Kf2 Nc6 40. Rg7 Ne7 41. f4 Kd7 42. Ke3 Ke8 43. a5 Ba6 44. Rh7 1-0
+
+[Event "Ciutat de Sabadell op B"]
+[Site "Sabadell"]
+[Date "2016.09.07"]
+[Round "7"]
+[White "Torralba Brosa, Marc"]
+[Black "Martinez Perez, Pablo"]
+[Result "1-0"]
+[ECO "B90"]
+[WhiteElo "1736"]
+[BlackElo "1854"]
+[PlyCount "19"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. f3 Qb6 7. Be3 Qxb2 8.
+Na4 Qa3 9. c3 Nbd7 10. Bc1 1-0
+
+[Event "Ciutat de Sabadell op B"]
+[Site "Sabadell"]
+[Date "2016.09.08"]
+[Round "8"]
+[White "Palacios Pena, Gerardo"]
+[Black "Torralba Brosa, Marc"]
+[Result "1-0"]
+[ECO "A48"]
+[WhiteElo "1891"]
+[BlackElo "1736"]
+[PlyCount "41"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 g6 3. Bf4 Bg7 4. e3 d6 5. h3 O-O 6. Be2 c5 7. c3 Nc6 8. Nbd2
+Re8 9. Bh2 e5 10. dxe5 dxe5 11. e4 a6 12. a4 Rb8 13. Qc2 b5 14. axb5 axb5 15.
+O-O Qe7 16. Rfd1 b4 17. Nc4 Nd7 18. Nd6 Rd8 19. Bc4 Nb6 20. Bxf7+ Kf8 21. Nxc8
+1-0
+
+[Event "Montcada op B"]
+[Site "Montcada i Reixac"]
+[Date "2016.06.26"]
+[Round "2"]
+[White "Colom Andres, Xavier"]
+[Black "Torralba Brosa, Marc"]
+[Result "1/2-1/2"]
+[ECO "D87"]
+[WhiteElo "1906"]
+[BlackElo "1741"]
+[PlyCount "59"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 c5 8.
+Ne2 Nc6 9. Be3 O-O 10. O-O Bg4 11. f3 Bd7 12. Qd2 Qa5 13. Bh6 Bxh6 14. Qxh6
+cxd4 15. cxd4 Rac8 16. Bb3 Qb6 17. Rab1 Qa6 18. Qd2 e6 19. f4 Na5 20. Ng3 Nxb3
+21. axb3 f5 22. d5 exd5 23. exf5 Bxf5 24. Nxf5 Rxf5 25. g4 Rf7 26. Qxd5 Qb6+
+27. Kg2 Qc6 28. Rbd1 Qxd5+ 29. Rxd5 Rc2+ 30. Kg3 1/2-1/2
+
+[Event "Montcada op B"]
+[Site "Montcada i Reixac"]
+[Date "2016.06.27"]
+[Round "3"]
+[White "Torralba Brosa, Marc"]
+[Black "De La Fuente Clemente, Constan"]
+[Result "0-1"]
+[ECO "C43"]
+[WhiteElo "1741"]
+[BlackElo "1821"]
+[PlyCount "69"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nf6 3. d4 Nxe4 4. Bd3 d5 5. Nxe5 Nd7 6. Nxf7 Kxf7 7. Qh5+ Ke6
+8. Bxe4 dxe4 9. d5+ Ke7 10. Bg5+ Nf6 11. Nc3 Qd6 12. Nxe4 Qb4+ 13. Nc3 Bg4 14.
+Qh4 Re8 15. O-O Kf7 16. Bxf6 gxf6 17. h3 Bf5 18. Qh5+ Bg6 19. Qf3 Bd6 20. Rfe1
+Qxb2 21. Reb1 Qxc2 22. Nb5 Qxb1+ 23. Rxb1 Bxb1 24. Nxd6+ cxd6 25. Qa3 Rd8 26.
+Qxa7 Rd7 27. Qa4 Rhd8 28. h4 Re7 29. Qb4 Be4 30. Qa5 Rf8 31. g3 Rc8 32. Qd2
+Rec7 33. g4 Rc1+ 34. Kh2 R8c3 35. f3 0-1
+
+[Event "Montcada op B"]
+[Site "Montcada i Reixac"]
+[Date "2016.06.29"]
+[Round "5"]
+[White "Torralba Brosa, Marc"]
+[Black "Rios Torondell, Jaume"]
+[Result "0-1"]
+[ECO "B01"]
+[WhiteElo "1741"]
+[BlackElo "1902"]
+[PlyCount "64"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. Nf3 Bf5 5. d4 Nf6 6. Ne5 e6 7. g4 Bg6 8. h4
+Bb4 9. f3 Nd5 10. Bd2 f6 11. Nxg6 hxg6 12. Bd3 f5 13. Bg5 Qxg5 14. hxg5 Rxh1+
+15. Bf1 Rxf1+ 16. Kxf1 Ne3+ 17. Kf2 Nxd1+ 18. Rxd1 Bxc3 19. bxc3 Nd7 20. Re1
+Kf7 21. Kg3 Re8 22. Kf4 Nb6 23. Rb1 Nd5+ 24. Ke5 b6 25. c4 Ne3 26. Rb3 Nxc4+
+27. Kf4 Rd8 28. Rd3 Rxd4+ 29. Rxd4 e5+ 30. Kg3 exd4 31. Kf4 Ke6 32. gxf5+ gxf5
+0-1
+
+[Event "Montcada op B"]
+[Site "Montcada i Reixac"]
+[Date "2016.07.01"]
+[Round "7"]
+[White "Torralba Brosa, Marc"]
+[Black "Alcaraz Lopez, Francesc"]
+[Result "0-1"]
+[ECO "B35"]
+[WhiteElo "1741"]
+[BlackElo "1891"]
+[PlyCount "108"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. Bc4 O-O 8.
+Bb3 e6 9. f3 d5 10. exd5 exd5 11. Qd2 Nxd4 12. Bxd4 Re8+ 13. Ne2 Qe7 14. Kf2
+Bd7 15. Rhe1 Qd6 16. Kg1 Bc6 17. Nc3 Re6 18. Rxe6 fxe6 19. Re1 a6 20. Kh1 Re8
+21. Bxf6 Bxf6 22. Ne4 Qf8 23. Nxf6+ Qxf6 24. c4 Rd8 25. Qe2 Kf7 26. Qe3 g5 27.
+Qb6 Rd7 28. cxd5 exd5 29. Rd1 Kg7 30. Qf2 d4 31. h3 d3 32. Bc4 Bb5 33. Bxb5
+axb5 34. Qe3 Qf5 35. Kg1 h6 36. Kf2 Kf6 37. Qb6+ Kg7 38. Qe3 h5 39. Qd2 h4 40.
+Qc3+ Kg6 41. Qc8 Qf7 42. Qc3 Qd5 43. Rd2 Kf5 44. Qb4 b6 45. Qg4+ Kf6 46. Kf1
+Rc7 47. Qb4 Qc4 48. Qf8+ Ke5 49. Qe8+ Kf4 50. Qe1 Rc5 51. Qd1 Rd5 52. Qe1 Qd4
+53. Qc1 Qc5 54. Qd1 Qe3 0-1
+
+[Event "Montcada op-B 25th"]
+[Site "Montcada"]
+[Date "2017.06.26"]
+[Round "1"]
+[White "Fabre Massana, Miquel"]
+[Black "Torralba Brosa, Marc"]
+[Result "0-1"]
+[ECO "B22"]
+[WhiteElo "2078"]
+[BlackElo "1852"]
+[PlyCount "126"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nc6 3. c3 Nf6 4. e5 Nd5 5. d4 cxd4 6. cxd4 d6 7. Nc3 Nxc3 8.
+bxc3 dxe5 9. d5 e4 10. dxc6 Qxd1+ 11. Kxd1 exf3 12. cxb7 Bxb7 13. Bb5+ Kd8 14.
+Kc2 Be4+ 15. Kb3 Rb8 16. Rd1+ Kc8 17. Kc4 e5 18. Be3 fxg2 19. a4 Bf3 20. Rd2
+Be7 21. Bxa7 Ra8 22. Bb6 Kb7 23. a5 Rhd8 24. Bxd8 Rxd8 25. Rxd8 Bxd8 26. Bd7
+Bh4 27. Bh3 Bxf2 28. Bxg2 Bxg2 29. Ra2 Bf1+ 30. Kd5 Be1 31. c4 Ka6 32. c5 Bh3
+33. Kxe5 Bxa5 34. Kd6 Kb5 35. Rb2+ Bb4 36. Ke7 f5 37. Kd6 f4 38. Rb3 Bg2 39.
+Ke5 f3 40. c6 f2 41. c7 f1=Q 42. c8=Q Qe2+ 43. Kf4 Qe4+ 44. Kg3 Ka4 45. Rxb4+
+Kxb4 46. Qf8+ Kc4 47. Qf7+ Kd3 48. Qb3+ Kd4 49. Qb2+ Kd5 50. Qxg2 Qxg2+ 51.
+Kxg2 Ke4 52. Kg3 Kf5 53. Kf3 Kg5 54. Kg3 h5 55. Kh3 h4 56. Kg2 Kg4 57. Kf2 Kh3
+58. Kg1 g6 59. Kh1 g5 60. Kg1 g4 61. Kh1 g3 62. hxg3 hxg3 63. Kg1 g2 0-1
+
+[Event "Montcada op-B 25th"]
+[Site "Montcada"]
+[Date "2017.06.27"]
+[Round "2"]
+[White "Torralba Brosa, Marc"]
+[Black "Samrat, Ghorai"]
+[Result "1-0"]
+[ECO "B23"]
+[WhiteElo "1852"]
+[BlackElo "1938"]
+[PlyCount "49"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nc3 Nc6 3. Bb5 Nd4 4. Bc4 g6 5. Nf3 Bg7 6. Nxd4 cxd4 7. Qf3 e6 8.
+Nb5 Be5 9. c3 dxc3 10. d4 a6 11. dxe5 axb5 12. Be2 cxb2 13. Bxb2 Qa5+ 14. Bc3
+b4 15. Bd2 Qxe5 16. O-O Ra3 17. Bd3 Qd6 18. Rac1 Ne7 19. Qf6 Rg8 20. Bg5 Rc3
+21. Rxc3 bxc3 22. Rc1 b5 23. e5 Qb4 24. a3 Qxa3 25. Rxc3 1-0
+
+[Event "Montcada op-B 25th"]
+[Site "Montcada"]
+[Date "2017.06.28"]
+[Round "3"]
+[White "Palacios Pena, Gerardo"]
+[Black "Torralba Brosa, Marc"]
+[Result "1/2-1/2"]
+[ECO "D02"]
+[WhiteElo "2012"]
+[BlackElo "1852"]
+[PlyCount "90"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 e6 3. c3 c5 4. g3 Nc6 5. Bg2 d5 6. O-O Bd6 7. b3 cxd4 8. cxd4
+Qe7 9. Bb2 O-O 10. Nbd2 b6 11. Ne5 Bxe5 12. dxe5 Ng4 13. Nf3 Bb7 14. Rc1 Rac8
+15. Qd2 Qb4 16. Qxb4 Nxb4 17. a3 Na2 18. Rb1 Nc3 19. Bxc3 Rxc3 20. h3 Nh6 21.
+Nd4 Nf5 22. Nxf5 exf5 23. Rfd1 Rd8 24. Rd2 Kf8 25. Kh2 Ke7 26. f4 Ke6 27. Bf3
+Rd7 28. Kg2 f6 29. exf6 Kxf6 30. Kf2 Ke6 31. a4 Kd6 32. b4 Ra3 33. a5 bxa5 34.
+bxa5 Rxa5 35. e4 fxe4 36. Bxe4 g6 37. Bf3 Kc7 38. Rc1+ Kb6 39. h4 Rb5 40. h5 d4
+41. hxg6 hxg6 42. Bxb7 Kxb7 43. Rc4 d3 44. Rc3 Rbd5 45. Ke3 a5 1/2-1/2
+
+[Event "Montcada op-B 25th"]
+[Site "Montcada"]
+[Date "2017.06.29"]
+[Round "4"]
+[White "Torralba Brosa, Marc"]
+[Black "Sumit, Kumar1"]
+[Result "1/2-1/2"]
+[ECO "C54"]
+[WhiteElo "1852"]
+[BlackElo "1975"]
+[PlyCount "37"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 d6 6. Bb3 Bb6 7. Nbd2 Ne7 8. O-O
+O-O 9. Re1 Ng6 10. Nf1 h6 11. Ng3 Re8 12. h3 Be6 13. Bc2 d5 14. exd5 Bxd5 15.
+Ne4 Nxe4 16. dxe4 Bc6 17. Be3 Bxe3 18. Rxe3 Qe7 19. g3 1/2-1/2
+
+[Event "Montcada op-B 25th"]
+[Site "Montcada"]
+[Date "2017.06.30"]
+[Round "5"]
+[White "Vives Cabau, Jordi"]
+[Black "Torralba Brosa, Marc"]
+[Result "0-1"]
+[ECO "B22"]
+[WhiteElo "1930"]
+[BlackElo "1852"]
+[PlyCount "86"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. c3 Nf6 3. e5 Nd5 4. d4 cxd4 5. cxd4 Nc6 6. Nc3 Nxc3 7. bxc3 d6 8.
+f4 g6 9. d5 Nb8 10. Nf3 Bg7 11. Bb5+ Bd7 12. Bxd7+ Qxd7 13. O-O O-O 14. Rb1 Na6
+15. Be3 b6 16. Qd3 Nc5 17. Bxc5 bxc5 18. c4 Rab8 19. Rb3 Rxb3 20. Qxb3 Qc7 21.
+Rb1 dxe5 22. fxe5 Bxe5 23. Qd3 Bf4 24. Qe4 Rb8 25. Re1 Bd6 26. Qh4 f6 27. Qh6
+Rb2 28. Qh3 Rxa2 29. Qe6+ Kg7 30. h4 Qb8 31. Qd7 Qb2 32. Rxe7+ Bxe7 33. Qxe7+
+Kh6 34. Qe3+ Kh5 35. Ne1 Qe5 36. g4+ Kxg4 37. Qf3+ Kxh4 38. Qh1+ Kg4 39. Qf3+
+Kg5 40. Kf1 Qf4 41. d6 Qxd6 42. Qe3+ Qf4+ 43. Nf3+ Kg4 0-1
+
+[Event "Montcada op-B 25th"]
+[Site "Montcada"]
+[Date "2017.07.01"]
+[Round "6"]
+[White "Rodriguez Vega, Blas"]
+[Black "Torralba Brosa, Marc"]
+[Result "1/2-1/2"]
+[ECO "D02"]
+[WhiteElo "2048"]
+[BlackElo "1852"]
+[PlyCount "56"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Bf4 e6 3. e3 c5 4. c3 Qb6 5. Qb3 Nc6 6. Nd2 d5 7. Ngf3 Nh5 8. Qxb6
+axb6 9. Bc7 c4 10. Bxb6 Bd6 11. a4 Nf6 12. b4 cxb3 13. Bb5 Nd7 14. Bc5 Bxc5 15.
+dxc5 Nxc5 16. Nd4 O-O 17. N4xb3 Nxb3 18. Nxb3 Ne5 19. Ke2 Bd7 20. Nd4 Ra5 21.
+f4 Bxb5+ 22. axb5 Rxa1 23. Rxa1 Nd7 24. Nb3 Rc8 25. Kd3 Kf8 26. Ra7 Rc7 27. Kd4
+Rc4+ 28. Kd3 Rc7 1/2-1/2
+
+[Event "Montcada op-B 25th"]
+[Site "Montcada"]
+[Date "2017.07.01"]
+[Round "7"]
+[White "Torralba Brosa, Marc"]
+[Black "Morais Carreras, Javier"]
+[Result "0-1"]
+[ECO "C43"]
+[WhiteElo "1852"]
+[BlackElo "1925"]
+[PlyCount "134"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nf6 3. d4 Nxe4 4. Bd3 d5 5. Nxe5 Nd7 6. Qe2 Nxe5 7. Bxe4 dxe4
+8. dxe5 Qd4 9. Nc3 Qxe5 10. Bd2 Bb4 11. O-O-O O-O 12. f4 Qa5 13. a3 Bxc3 14.
+Bxc3 Qf5 15. Be5 f6 16. Bxc7 Be6 17. g4 Qxg4 18. Qxe4 Rac8 19. Rhg1 Qf5 20.
+Qxf5 Bxf5 21. Rd5 Bxc2 22. Rd7 Rf7 23. Rd8+ Rf8 24. Rd7 Rf7 25. Rd8+ Rxd8 26.
+Bxd8 Bf5 27. Ba5 Re7 28. Bc3 Kf7 29. Re1 Rxe1+ 30. Bxe1 Kg6 31. Kd2 Kh5 32. Ke3
+Kg4 33. h4 h6 34. b4 b5 35. Bf2 Kh3 36. Kf3 Bg4+ 37. Ke4 a6 38. Kd5 Kg2 39. Bc5
+g5 40. hxg5 fxg5 41. Ke5 Be2 42. fxg5 hxg5 43. Kd6 g4 44. Kc6 g3 45. Kb6 Bd1
+46. Kxa6 Ba4 47. Kb6 Kf1 48. Kc6 g2 49. Kd5 g1=Q 50. Bxg1 Kxg1 51. Kd4 Kf2 52.
+Kc3 Ke3 53. Kb2 Kd3 54. Kb1 Kc3 55. Ka2 Kc2 56. Ka1 Kb3 57. Kb1 Kxa3 58. Ka1
+Kxb4 59. Kb2 Kc4 60. Ka2 Kc3 61. Kb1 Bc2+ 62. Ka2 b4 63. Ka1 Bf5 64. Ka2 b3+
+65. Ka1 b2+ 66. Ka2 b1=Q+ 67. Ka3 Qa1# 0-1
+
+[Event "Montcada op-B 25th"]
+[Site "Montcada"]
+[Date "2017.07.02"]
+[Round "8"]
+[White "Torralba Brosa, Marc"]
+[Black "Barragan Hernandez, Manel"]
+[Result "1-0"]
+[ECO "C55"]
+[WhiteElo "1852"]
+[BlackElo "1921"]
+[PlyCount "53"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Be7 5. c3 O-O 6. O-O d6 7. Bb3 Na5 8. Bc2
+c5 9. Re1 Nc6 10. Nbd2 Qc7 11. Nf1 d5 12. exd5 Nxd5 13. Qe2 Bd6 14. Ng3 Nf4 15.
+Bxf4 exf4 16. Ne4 Bg4 17. h3 Bh5 18. Nxd6 Qxd6 19. Qe4 Bg6 20. Qe2 Rad8 21.
+Rad1 Qd5 22. d4 Bxc2 23. Qxc2 cxd4 24. Nxd4 Qxa2 25. Nxc6 Rxd1 26. Ne7+ Kh8 27.
+Rxd1 1-0
+
+[Event "Montcada op-B 25th"]
+[Site "Montcada"]
+[Date "2017.07.03"]
+[Round "9"]
+[White "Martin Barcelo, Carles"]
+[Black "Torralba Brosa, Marc"]
+[Result "1-0"]
+[ECO "B23"]
+[WhiteElo "1871"]
+[BlackElo "1852"]
+[PlyCount "91"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nc3 Nc6 3. Bb5 Nd4 4. Bc4 g6 5. f4 Bg7 6. Nf3 e6 7. O-O Ne7 8. Nxd4
+cxd4 9. Ne2 O-O 10. c3 d5 11. exd5 exd5 12. Bd3 Bg4 13. Qe1 Nc6 14. Qg3 Qd7 15.
+h3 Bf5 16. Bxf5 Qxf5 17. Qf3 Qe4 18. Qf2 d3 19. Ng3 Qe7 20. Qf3 Rad8 21. Qxd3
+d4 22. Qc2 d3 23. Qd1 Qh4 24. Qg4 Qxg4 25. hxg4 Bh6 26. b3 Rfe8 27. Ba3 g5 28.
+Nf5 Bf8 29. Bxf8 Kxf8 30. fxg5 Re2 31. Rad1 Ne5 32. Ne3 Ke7 33. Rf2 Rg8 34.
+Rxe2 dxe2 35. Re1 Nd3 36. Rxe2 Nc1 37. Re1 Nd3 38. Nf5+ Kd7 39. Re7+ Kc6 40.
+Rxf7 Rxg5 41. Rxh7 Rxg4 42. Nd4+ Kb6 43. a4 a5 44. Rh6+ Kc7 45. Nb5+ Kb8 46.
+Rh8+ 1-0

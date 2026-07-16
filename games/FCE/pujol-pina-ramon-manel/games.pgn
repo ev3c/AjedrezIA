@@ -1,0 +1,205 @@
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.01.14"]
+[Round "1"]
+[White "Mollet Soldevila, Eva"]
+[Black "Pujol Pina, Ramon Manel"]
+[Result "0-1"]
+[ECO "C22"]
+[WhiteElo "1336"]
+[BlackElo "1693"]
+[PlyCount "46"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. d4 exd4 3. Qxd4 Nc6 4. Qd1 Nf6 5. Nc3 Bb4 6. Bd3 O-O 7. Nf3 Bxc3+
+8. bxc3 h6 9. O-O d6 10. h3 Be6 11. Nd4 Qd7 12. Nxe6 fxe6 13. Bf4 Nxe4 14. Bxe4
+Rxf4 15. Re1 Raf8 16. Qe2 Qf7 17. Bf3 Ne5 18. Bxb7 Rxf2 19. Qd1 c6 20. Ba6 Qg6
+21. g4 h5 22. Be2 hxg4 23. hxg4 Qh6 0-1
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.01.21"]
+[Round "2"]
+[White "Pujol Pina, Ramon Manel"]
+[Black "Gultresa Boada, Isaac"]
+[Result "0-1"]
+[ECO "C00"]
+[WhiteElo "1693"]
+[BlackElo "1856"]
+[PlyCount "62"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. Nf3 d5 3. e5 c5 4. g3 Nc6 5. Bg2 Qc7 6. Qe2 Nge7 7. O-O Ng6 8. Re1
+Be7 9. b3 O-O 10. Bb2 Bd7 11. c3 f6 12. d4 fxe5 13. dxe5 Rf7 14. Na3 Raf8 15.
+Rad1 a6 16. c4 d4 17. Rf1 Rf5 18. Nb1 Ngxe5 19. Nxe5 Rxe5 20. Qd2 Ref5 21. Be4
+R5f6 22. Bc1 Ne5 23. Qc2 Nf3+ 24. Kg2 h6 25. Nd2 Ng5 26. h4 Nxe4 27. Nxe4 Bc6
+28. Kg1 Rf3 29. Nd2 Rxg3+ 30. Kh2 Rg2+ 31. Kh3 Qh2# 0-1
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.01.28"]
+[Round "3"]
+[White "Gendre Diez, Virginia"]
+[Black "Pujol Pina, Ramon Manel"]
+[Result "0-1"]
+[ECO "D04"]
+[WhiteElo "1344"]
+[BlackElo "1693"]
+[PlyCount "70"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 d5 3. e3 Bg4 4. Nbd2 Nc6 5. b3 e5 6. c3 e4 7. h3 Bh5 8. g4
+Nxg4 9. hxg4 Bxg4 10. Bh3 Bxh3 11. Rxh3 exf3 12. Nxf3 Qd7 13. Rg3 O-O-O 14. Ne5
+Nxe5 15. dxe5 h5 16. Qd4 b6 17. Qd3 h4 18. Rg1 h3 19. Rh1 h2 20. a4 Qg4 21. Qf1
+Qe4 22. a5 b5 23. a6 c6 24. Bd2 Qxe5 25. Rc1 Ba3 26. Rd1 Rh4 27. c4 dxc4 28.
+bxc4 Rxc4 29. Qg2 Rh8 30. Qf3 Qd5 31. e4 Rxe4+ 32. Kf1 Re1+ 33. Kxe1 Qxf3 34.
+Rf1 h1=Q 35. Rxh1 Rxh1# 0-1
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.02.04"]
+[Round "4"]
+[White "Pujol Pina, Ramon Manel"]
+[Black "Pla Carulla, Joaquim"]
+[Result "1-0"]
+[ECO "B00"]
+[WhiteElo "1693"]
+[BlackElo "1745"]
+[PlyCount "64"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. Nc3 b6 3. Nf3 Bb7 4. Bc4 d6 5. O-O Nf6 6. Re1 g6 7. d3 Bg7 8. Bg5
+h6 9. Bxf6 Qxf6 10. d4 Qf4 11. d5 e5 12. Bb5+ Nd7 13. Bxd7+ Kxd7 14. Qd3 a6 15.
+b4 h5 16. Ne2 Qf6 17. c4 g5 18. a4 g4 19. Nd2 h4 20. Rf1 Bh6 21. c5 Bxd2 22.
+c6+ Bxc6 23. dxc6+ Kxc6 24. Qxd2 h3 25. b5+ Kd7 26. Qc3 hxg2 27. Rfc1 Qf3 28.
+Qc6+ Ke7 29. Qxc7+ Ke6 30. Qc4+ Kf6 31. Rc3 Rh3 32. Rxf3+ gxf3 1-0
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.02.11"]
+[Round "5"]
+[White "Prat Rabell, Josep M"]
+[Black "Pujol Pina, Ramon Manel"]
+[Result "1-0"]
+[ECO "A25"]
+[WhiteElo "1926"]
+[BlackElo "1693"]
+[PlyCount "129"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 e5 2. g3 Nc6 3. Bg2 Nf6 4. Nc3 Bc5 5. e3 O-O 6. Nge2 d6 7. O-O Bg4 8. Re1
+Qd7 9. Na4 Bh3 10. d4 exd4 11. exd4 Bxg2 12. Nxc5 dxc5 13. d5 Bxd5 14. cxd5
+Qxd5 15. Bf4 Qxd1 16. Raxd1 Rac8 17. a3 Rfd8 18. Rc1 b6 19. b4 Nd7 20. Red1
+Ncb8 21. bxc5 bxc5 22. Nc3 c6 23. Ne4 Na6 24. Nd6 Rb8 25. Nc4 Rbc8 26. Nd6 Rb8
+27. Nc4 Ra8 28. Na5 Nf8 29. Nxc6 Rxd1+ 30. Rxd1 Ne6 31. Be3 Nac7 32. Rb1 Nd5
+33. Bd2 a6 34. Kf1 Rc8 35. Rb8 Rf8 36. Rxf8+ Kxf8 37. Nb8 Ndc7 38. Ba5 Ke7 39.
+f4 f5 40. Nc6+ Kd6 41. Ne5 Nd5 42. Nc4+ Kc6 43. Bd2 g6 44. h4 Kb5 45. Nb2 Nd4
+46. a4+ Kc6 47. Kf2 Nb3 48. Be1 Nf6 49. Ke2 Kd5 50. Kd3 Ne4 51. Nc4 Nc1+ 52.
+Kc2 Ne2 53. Ne3+ Kd4 54. Nf1 c4 55. Nd2 Nxd2 56. Kxd2 Nc3 57. Bf2+ Kd5 58. Kxc3
+a5 59. Bb6 Ke4 60. Bxa5 Kf3 61. Bd8 Kxg3 62. Bg5 h6 63. Bxh6 Kxh4 64. a5 g5 65.
+Bxg5+ 1-0
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.02.18"]
+[Round "6"]
+[White "Pujol Pina, Ramon Manel"]
+[Black "Cots Valls, Jordi"]
+[Result "1-0"]
+[ECO "B30"]
+[WhiteElo "1693"]
+[BlackElo "1710"]
+[PlyCount "83"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nc3 Nc6 3. Nf3 g6 4. Bb5 Bg7 5. Bxc6 bxc6 6. d4 cxd4 7. Nxd4 Ba6 8.
+Be3 Rb8 9. Rb1 Qa5 10. Qd2 e6 11. Nb3 Qb4 12. Bd4 Bxd4 13. Nxd4 Nf6 14. f3 O-O
+15. a3 Qe7 16. Qg5 Nd5 17. Qxe7 Nxe7 18. Nb3 d6 19. Kf2 f5 20. Rhd1 fxe4 21.
+Nxe4 d5 22. Ng5 e5 23. Re1 e4 24. Kg1 h6 25. Nh3 Rxb3 26. cxb3 Nf5 27. fxe4
+dxe4 28. Nf4 Nh4 29. Ne6 Rf6 30. Nc5 Bd3 31. Nxd3 exd3 32. Re8+ Kf7 33. Rd8 Re6
+34. Rxd3 Re2 35. g3 Nf5 36. Rf3 Ke6 37. Rf2 Re3 38. b4 h5 39. Kf1 Kd5 40. Rd1+
+Kc4 41. Rc1+ Kd5 42. Rc5+ 1-0
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.02.25"]
+[Round "7"]
+[White "Rosich Guberna, Pascual"]
+[Black "Pujol Pina, Ramon Manel"]
+[Result "1-0"]
+[ECO "A25"]
+[WhiteElo "1699"]
+[BlackElo "1693"]
+[PlyCount "81"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 e5 2. Nc3 Nf6 3. g3 Nc6 4. Bg2 Bb4 5. a3 Bxc3 6. bxc3 e4 7. d3 exd3 8.
+exd3 d5 9. cxd5 Nxd5 10. Qb3 Nde7 11. d4 Be6 12. Qa4 Bd5 13. Nf3 O-O 14. O-O
+Re8 15. Bb2 Be4 16. Rfe1 Ng6 17. Re3 Bxf3 18. Bxf3 Rxe3 19. fxe3 Qf6 20. Rf1
+Qe6 21. e4 Qa2 22. Rf2 Qb1+ 23. Kg2 Rb8 24. Qc4 Rf8 25. Qe2 Nce7 26. c4 Qa2 27.
+Qd3 Rd8 28. d5 Nc6 29. Bd1 Nce5 30. Bxe5 Nxe5 31. Qc3 Qxc4 32. Qxe5 Qc5 33. Qf4
+Qe7 34. a4 c5 35. Bb3 Rf8 36. e5 a6 37. d6 Qe8 38. Bd5 Kh8 39. e6 g5 40. Qf6+
+Kg8 41. exf7+ 1-0

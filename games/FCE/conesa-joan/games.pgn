@@ -1,0 +1,59 @@
+[Event "Camp. Catalunya eq. ( 3 cat. )"]
+[Site "?"]
+[Date "1931.10.13"]
+[Round "5"]
+[White "Conesa, Joan"]
+[Black "Sahun, Josep"]
+[Result "0-1"]
+[ECO "C25"]
+[PlyCount "90"]
+[EventDate "1931.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nc3 d5 3. d3 Bb4 4. Nf3 dxe4 5. dxe4 Qxd1+ 6. Kxd1 Bxc3 7. bxc3 Ne7
+8. Bc4 O-O 9. Ke2 Nbc6 10. Rd1 b6 11. Kf1 Ng6 12. Bb5 Na5 13. Ba3 c5 14. Rd6
+Bb7 15. Nd2 Rfd8 16. Rxd8+ Rxd8 17. Nb3 Nxb3 18. cxb3 Bxe4 19. b4 cxb4 20. cxb4
+Bd3+ 21. Bxd3 Rxd3 22. Bb2 Rd7 23. Rc1 f5 24. g3 h6 25. a3 e4 26. h4 Ne7 27.
+Ke1 Kf7 28. Rd1 Rxd1+ 29. Kxd1 b5 30. Ke2 Nd5 31. f3 g6 32. fxe4 fxe4 33. g4 h5
+34. gxh5 gxh5 35. Bd4 a6 36. Be5 Ke6 37. Bb2 Kf5 38. Bd4 Nf4+ 39. Kf2 Ng6 40.
+Kg3 Ne5 41. Bxe5 Kxe5 42. Kf2 Kf4 43. Ke2 Kg4 44. Ke3 Kxh4 45. Kxe4 Kg3 0-1
+
+[Event "Camp. Catalunya eq. ( 3 cat. )"]
+[Site "?"]
+[Date "1931.11.03"]
+[Round "11"]
+[White "Conesa, Joan"]
+[Black "Llorca"]
+[Result "0-1"]
+[ECO "C25"]
+[PlyCount "100"]
+[EventDate "1931.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nc3 Bc5 3. Qe2 Nf6 4. Nf3 d6 5. Qc4 h6 6. d3 Ng4 7. Be3 Nxe3 8.
+fxe3 Bxe3 9. Nd1 Bc5 10. Be2 a6 11. g3 Be6 12. Qc3 Nc6 13. Qd2 Bh3 14. Bf1 Bg4
+15. Bg2 Qe7 16. Nc3 Be6 17. O-O-O O-O-O 18. Nd5 Qd7 19. Rhf1 Rhf8 20. Nh4 Ne7
+21. Nxe7+ Qxe7 22. Qc3 Bd4 23. Qd2 Qd7 24. Nf5 Bxf5 25. exf5 Qb5 26. c3 Bc5 27.
+b4 Ba7 28. d4 exd4 29. cxd4 Qc4+ 30. Qc2 Qxc2+ 31. Kxc2 c5 32. dxc5 dxc5 33.
+bxc5 Bxc5 34. Bh3 Kc7 35. Rxd8 Rxd8 36. a4 Rd4 37. Kb3 Rb4+ 38. Ka3 Rh4+ 39.
+Kb3 Rxh3 40. Rc1 b6 41. a5 Rxh2 42. Kc4 Rg2 43. Rc3 Kb7 44. Rb3 Ra2 45. axb6
+Bxb6 46. Rd3 Ra4+ 47. Kd5 Rd4+ 48. Rxd4 Bxd4 49. Kxd4 Kc7 50. g4 Kd6 0-1
+
+[Event "Camp. Catalunya eq. ( 3 cat. )"]
+[Site "?"]
+[Date "1931.??.??"]
+[Round "13"]
+[White "Garcia"]
+[Black "Conesa, Joan"]
+[Result "1-0"]
+[ECO "C50"]
+[PlyCount "33"]
+[EventDate "1931.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Qe7 4. Nc3 Nf6 5. d4 Nxd4 6. Nxd4 exd4 7. Qxd4 c6 8.
+Bg5 c5 9. Qd3 Qe5 10. Bxf6 Qxf6 11. Nd5 Qd6 12. O-O Be7 13. e5 Qxe5 14. Rae1
+Qh5 15. Rxe7+ Kd8 16. Qg3 Qh6 17. Qc7# 1-0

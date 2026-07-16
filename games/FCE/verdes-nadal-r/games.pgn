@@ -1,0 +1,863 @@
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2006.07.17"]
+[Round "1"]
+[White "Babaev, R."]
+[Black "Verdes Nadal, R."]
+[Result "1-0"]
+[ECO "B06"]
+[WhiteElo "2454"]
+[BlackElo "1962"]
+[PlyCount "97"]
+[EventDate "2006.??.??"]
+
+1. e4 g6 2. d4 d5 3. exd5 Qxd5 4. Nc3 Qd8 5. h3 Bg7 6. Nf3 c6 7. Bc4 Nf6 8. O-O
+O-O 9. Re1 Nbd7 10. Bf4 Nb6 11. Bf1 Bf5 12. Bd3 Bxd3 13. Qxd3 Nbd5 14. Be5 Nxc3
+15. bxc3 Nd7 16. Bxg7 Kxg7 17. Rab1 b6 18. a4 Re8 19. c4 e6 20. a5 Qc7 21. Qc3
+Kg8 22. h4 h5 23. Qe3 Kg7 24. Qg5 Qd8 25. Qf4 Qb8 26. Qg5 Qd8 27. Qf4 Qb8 28.
+Qe3 Qc7 29. axb6 axb6 30. Rbd1 Rad8 31. Qg5 Rb8 32. Rd3 Qd8 33. Qf4 b5 34. c5
+Ra8 35. Ng5 Re7 36. Rf3 Qb8 37. Qe4 Ra4 38. Rxf7+ Rxf7 39. Nxf7 Nxc5 40. Qxc6
+Kxf7 41. dxc5 Qe8 42. Qb7+ Qe7 43. Qxb5 Rxh4 44. Rd1 Qe8 45. c6 Re4 46. Qb7+
+Kf6 47. c7 Rc4 48. Rd8 Qa4 49. Qb2+ 1-0
+
+[Event "Ciutat de Tarragona op"]
+[Site "?"]
+[Date "2006.08.19"]
+[Round "1.7"]
+[White "Timoshenko, G."]
+[Black "Verdes Nadal, R."]
+[Result "1-0"]
+[ECO "B06"]
+[PlyCount "23"]
+[EventDate "2006.??.??"]
+
+1. e4 g6 2. d4 d5 3. exd5 Qxd5 4. Nc3 Qd8 5. Bc4 Bg7 6. Nf3 Nf6 7. O-O c6 8.
+Re1 O-O 9. h3 Nbd7 10. Qe2 Re8 11. Bxf7+ Kxf7 12. Ng5+ 1-0
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2008.07.14"]
+[Round "1.8"]
+[White "Verdes Nadal, R."]
+[Black "Gupta, A."]
+[Result "0-1"]
+[ECO "B88"]
+[WhiteElo "2002"]
+[BlackElo "2551"]
+[PlyCount "46"]
+[EventDate "2008.??.??"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Bc4 e6 7. Bb3 Be7 8.
+O-O O-O 9. Kh1 Qc7 10. Bg5 a6 11. a4 Na5 12. f4 h6 13. Bxf6 Bxf6 14. Nde2 Bd7
+15. Qe1 b5 16. f5 Nxb3 17. cxb3 b4 18. Nd1 Qc2 19. fxe6 fxe6 20. Nc1 Bh4 21.
+Rxf8+ Rxf8 22. g3 Bc6 23. Ne2 Qxe4+ 0-1
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2008.07.16"]
+[Round "3.20"]
+[White "Verdes Nadal, R."]
+[Black "Gomes, MA."]
+[Result "0-1"]
+[ECO "A47"]
+[WhiteElo "2002"]
+[BlackElo "2321"]
+[PlyCount "76"]
+[EventDate "2008.??.??"]
+
+1. Nf3 Nf6 2. g3 b6 3. Bg2 Bb7 4. O-O e6 5. d4 Be7 6. Bg5 O-O 7. Re1 d5 8. c3
+Nbd7 9. Nbd2 c5 10. e3 h6 11. Bxf6 Nxf6 12. Ne5 Bd6 13. e4 cxd4 14. cxd4 Bb4
+15. exd5 Bxd5 16. Bxd5 Qxd5 17. a3 Bxd2 18. Qxd2 Rfd8 19. Red1 Ne4 20. Qe2 Nd6
+21. Qf3 Nf5 22. Rd2 f6 23. Qxd5 Rxd5 24. Nf3 Rc8 25. Kf1 h5 26. h3 g5 27. g4
+hxg4 28. hxg4 Nh6 29. Nh2 e5 30. Rad1 Rcd8 31. Ke2 Rxd4 32. Rxd4 exd4 33. Kd3
+Nf7 34. Nf3 Re8 35. Rc1 Re7 36. Nxd4 Ne5+ 37. Ke4 Nc4+ 38. Kf5 Kf7 0-1
+
+[Event "Ct. Lleida indiv. A"]
+[Site "?"]
+[Date "2010.10.10"]
+[Round "1.10"]
+[White "Degracia Burgues, JA."]
+[Black "Verdes Nadal, R."]
+[Result "1-0"]
+[ECO "B06"]
+[WhiteElo "1867"]
+[BlackElo "2008"]
+[PlyCount "103"]
+[EventDate "2010.??.??"]
+[EventRounds "9"]
+
+1. e4 g6 2. d4 d5 3. exd5 Qxd5 4. c4 Qd8 5. Nc3 Bg7 6. Be3 c6 7. Qd2 Bf5 8.
+Nge2 h5 9. Ng3 Bc8 10. h4 Nh6 11. O-O-O Ng4 12. Bf4 e5 13. Re1 O-O 14. Bg5 Qxd4
+15. Qxd4 exd4 16. Nce4 b6 17. f3 Nh6 18. Nf6+ Bxf6 19. Bxf6 c5 20. Bd3 Nc6 21.
+Be4 Bb7 22. Bd5 Rfe8 23. Bg5 Nf5 24. Ne4 Reb8 25. g4 hxg4 26. fxg4 Ne3 27. Bxe3
+dxe3 28. Nd6 Nd8 29. Nxb7 Nxb7 30. Rxe3 Na5 31. Re7 Rf8 32. Bxa8 Rxa8 33. b3
+Nc6 34. Rc7 Ne5 35. h5 Nxg4 36. hxg6 fxg6 37. Rg1 Ne5 38. Rg5 Re8 39. Rxa7 Re6
+40. Kb1 Nc6 41. Rc7 Nb4 42. Rg1 Nc6 43. Rd1 Nd4 44. b4 Re5 45. bxc5 bxc5 46. a4
+Ne6 47. Rb7 Re4 48. Rd6 Nf8 49. a5 Rxc4 50. a6 Ra4 51. a7 g5 52. Rd8 1-0
+
+[Event "Ct. Lleida indiv. A"]
+[Site "?"]
+[Date "2010.10.17"]
+[Round "2.10"]
+[White "Verdes Nadal, R."]
+[Black "Coll Ortega, C."]
+[Result "1/2-1/2"]
+[ECO "A00"]
+[WhiteElo "2008"]
+[BlackElo "1898"]
+[PlyCount "170"]
+[EventDate "2010.??.??"]
+[EventRounds "9"]
+
+1. a3 g6 2. g3 Bg7 3. Bg2 e5 4. e3 d5 5. d4 exd4 6. exd4 Ne7 7. Ne2 O-O 8. O-O
+Bf5 9. Bg5 c6 10. Re1 Re8 11. Nd2 h6 12. Bxe7 Rxe7 13. c3 Nd7 14. Nf1 Nf6 15.
+Nf4 g5 16. Nh5 Rxe1 17. Nxf6+ Qxf6 18. Qxe1 Kf8 19. Ne3 Re8 20. Qd2 Bg6 21. Re1
+h5 22. Nf1 Rxe1 23. Qxe1 Qf5 24. Qd2 Bf6 25. Ne3 Qd3 26. Qxd3 Bxd3 27. Bh3 g4
+28. Bf1 Be4 29. Be2 Bg5 30. h3 f5 31. hxg4 hxg4 32. Kf1 Ke7 33. Ke1 b6 34. Ba6
+Kd8 35. Ke2 Bf3+ 36. Kd2 f4 37. gxf4 Bxf4 38. Bd3 g3 39. fxg3 Bxg3 40. Bf5 Kc7
+41. Bg6 Bf4 42. Kd3 a6 43. Bf7 Be4+ 44. Kd2 Kd6 45. Ke2 c5 46. Bh5 Bb1 47. Bf3
+Ba2 48. Kd3 Bb3 49. Be2 b5 50. Bh5 Ba2 51. Bd1 Bxe3 52. Kxe3 Bb1 53. b4 cxb4
+54. cxb4 Ba2 55. Kf4 Bb1 56. Bg4 Bg6 57. Bc8 Be8 58. Bb7 Bd7 59. Kg5 Bh3 60.
+Kf6 Bg4 61. Kf7 Be6+ 62. Ke8 Bg4 63. Kd8 Bf5 64. Bxa6 Bd7 65. Bb7 Be6 66. Ba8
+Bf5 67. Ke8 Bd7+ 68. Kf7 Be6+ 69. Kf6 Bh3 70. Bb7 Bg4 71. Ba6 Kc6 72. Ke5 Kb6
+73. Kxd5 Bf3+ 74. Kd6 Kxa6 75. Kc5 Be2 76. Kc6 Bf3+ 77. d5 Ka7 78. Kxb5 Bxd5
+79. a4 Bb3 80. Ka5 Bc4 81. b5 Bxb5 82. axb5 Kb7 83. b6 Kb8 84. Kb5 Kb7 85. Kc5
+Kb8 1/2-1/2
+
+[Event "Ct. Lleida indiv. A"]
+[Site "?"]
+[Date "2010.10.24"]
+[Round "3.10"]
+[White "Arno Bendicho, A."]
+[Black "Verdes Nadal, R."]
+[Result "1/2-1/2"]
+[ECO "A48"]
+[WhiteElo "1907"]
+[BlackElo "2008"]
+[PlyCount "126"]
+[EventDate "2010.??.??"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. Nf3 g6 3. e3 d5 4. Bd3 Bg7 5. O-O O-O 6. h3 b6 7. Nbd2 Ba6 8. Qe2
+Bxd3 9. Qxd3 Nbd7 10. b3 Re8 11. Bb2 Rc8 12. Rac1 c5 13. Rfd1 Qc7 14. c4 dxc4
+15. Nxc4 Qb7 16. Qe2 Red8 17. dxc5 Nxc5 18. Rxd8+ Rxd8 19. Rd1 Rd5 20. Rxd5
+Qxd5 21. Qd2 Qxd2 22. Nfxd2 Nfe4 23. Nxe4 Nxe4 24. Bxg7 Kxg7 25. a4 Kf6 26. Kf1
+Ke6 27. Ke2 Nc5 28. Nd2 Kd5 29. f3 f6 30. Kd1 e5 31. Kc2 e4 32. Kc3 f5 33. Nf1
+Nd3 34. Kd2 h5 35. fxe4+ fxe4 36. h4 Ke5 37. Ng3 Nf2 38. Ke2 Ng4 39. Nf1 Nh6
+40. Kf2 Nf5 41. g3 Nd6 42. Nd2 Kf5 43. Nf1 Kg4 44. Nd2 Kh3 45. b4 Kg4 46. Nb3
+Nf5 47. Nd4 Nxg3 48. Nc6 a6 49. Ne5+ Kxh4 50. Nxg6+ Kg5 51. Nf4 Nf5 52. Nd5 h4
+53. Nxb6 h3 54. Nd5 Kh4 55. b5 axb5 56. axb5 Nd6 57. b6 Kg4 58. Nf6+ Kh4 59.
+Nd7 Nb7 60. Ne5 Nc5 61. Ng6+ Kg5 62. Ne7 Kg4 63. Nd5 Kh4 1/2-1/2
+
+[Event "Ct. Lleida indiv. A"]
+[Site "?"]
+[Date "2010.10.31"]
+[Round "4.10"]
+[White "Verdes Nadal, R."]
+[Black "Biosca Lacasa, J."]
+[Result "1-0"]
+[ECO "E18"]
+[WhiteElo "2008"]
+[BlackElo "1955"]
+[PlyCount "137"]
+[EventDate "2010.??.??"]
+[EventRounds "9"]
+
+1. Nf3 Nf6 2. g3 b6 3. Bg2 Bb7 4. O-O e6 5. d4 Be7 6. c4 O-O 7. Nc3 d5 8. Ne5
+c5 9. Bg5 cxd4 10. Qxd4 Nc6 11. Nxc6 Bxc6 12. Rad1 Qc7 13. cxd5 Nxd5 14. Nxd5
+Bxd5 15. Bxd5 exd5 16. Qxd5 Rfd8 17. Qf5 Bxg5 18. Qxg5 f6 19. Qf5 Qc4 20. Rd7
+Rxd7 21. Qxd7 Qxa2 22. Rc1 Rf8 23. Rc7 Rf7 24. Qc8+ Rf8 25. Qb7 Rf7 26. Qb8+
+Rf8 27. Qb7 Rf7 28. Rxf7 Qxf7 29. Qb8+ Qf8 30. Qxa7 Qd8 31. Qa2+ Kf8 32. Qa3+
+Kf7 33. Qb3+ Ke7 34. Qb4+ Kf7 35. Qc4+ Ke7 36. Kg2 h6 37. h4 Qb8 38. Kf3 b5 39.
+Qc5+ Ke6 40. Qc6+ Ke7 41. b4 f5 42. Qc5+ Kf6 43. Qd4+ Kf7 44. Qf4 Qa8+ 45. e4
+Qa3+ 46. Kg2 Qxb4 47. Qxf5+ Ke7 48. Qe5+ Kf8 49. Qb8+ Kf7 50. Qb7+ Kf8 51. Qc8+
+Kf7 52. Qd7+ Kf8 53. Qd8+ Kf7 54. Qd5+ Kf8 55. e5 Ke7 56. Qb7+ Kf8 57. e6 Qe7
+58. Qa8+ Qe8 59. Qe4 Qe7 60. f4 b4 61. f5 b3 62. Qa8+ Qe8 63. Qa3+ Kg8 64. Qxb3
+Qc6+ 65. Kh3 Kf8 66. Qb8+ Ke7 67. Qa7+ Ke8 68. Qf7+ Kd8 69. e7+ 1-0
+
+[Event "Ct. Lleida indiv. A"]
+[Site "?"]
+[Date "2010.11.14"]
+[Round "6.8"]
+[White "Verdes Nadal, R."]
+[Black "Tuz, N."]
+[Result "0-1"]
+[ECO "E67"]
+[WhiteElo "2008"]
+[PlyCount "96"]
+[EventDate "2010.??.??"]
+[EventRounds "9"]
+
+1. Nf3 Nf6 2. c4 g6 3. Nc3 Bg7 4. g3 O-O 5. Bg2 c6 6. O-O d6 7. d4 Nbd7 8. Bg5
+Qc7 9. Rc1 e5 10. dxe5 dxe5 11. Qc2 Re8 12. Bxf6 Nxf6 13. Rcd1 Be6 14. b3 Bf5
+15. Qc1 Rad8 16. Rxd8 Rxd8 17. Rd1 Rxd1+ 18. Qxd1 h6 19. Nh4 Be6 20. Ne4 Nxe4
+21. Bxe4 Qd7 22. Qxd7 Bxd7 23. e3 f5 24. Bc2 Kf7 25. f4 e4 26. Kf2 Bf6 27. Ng2
+Ke7 28. g4 Kd6 29. gxf5 gxf5 30. Ke2 Kc5 31. Kd2 b5 32. cxb5 cxb5 33. Bd1 Kb4
+34. Kc2 a5 35. Bh5 Be6 36. Bg6 a4 37. bxa4 bxa4 38. Kb1 Ka3 39. Ne1 Bxa2+ 40.
+Kc1 Bb2+ 41. Kc2 Be6 42. Be8 Bf6 43. Bc6 Kb4 44. Kb1 a3 45. Nc2+ Kb3 46. Nd4+
+Bxd4 47. exd4 e3 48. Bf3 Kc3 0-1
+
+[Event "Ct. Lleida indiv. A"]
+[Site "?"]
+[Date "2010.11.21"]
+[Round "7.11"]
+[White "Arnillas Moles, J."]
+[Black "Verdes Nadal, R."]
+[Result "0-1"]
+[ECO "B36"]
+[WhiteElo "1752"]
+[BlackElo "2008"]
+[PlyCount "80"]
+[EventDate "2010.??.??"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 c5 4. Nc3 cxd4 5. Nxd4 Nc6 6. e4 d6 7. f3 Bg7 8. Be3
+O-O 9. Qd2 Nxd4 10. Bxd4 Be6 11. Be2 Rc8 12. b3 Qa5 13. Rd1 Rfe8 14. O-O a6 15.
+f4 Bg4 16. e5 Bxe2 17. Qxe2 Nd7 18. Nd5 e6 19. Nf6+ Nxf6 20. exf6 Bf8 21. Qf2
+Qf5 22. Rfe1 b5 23. cxb5 axb5 24. Rd2 d5 25. Rde2 Bd6 26. Rf1 Rc6 27. h3 h5 28.
+Kh1 Rec8 29. Qf3 Rc1 30. Ref2 R8c2 31. Rxc1 Rxc1+ 32. Kh2 h4 33. Bb2 Re1 34.
+Qc3 Qb1 35. Qc8+ Kh7 36. g4 Rh1+ 37. Kg2 Qg1+ 38. Kf3 Rxh3+ 39. Ke2 Qxg4+ 40.
+Ke1 Bb4+ 0-1
+
+[Event "Ct. Lleida indiv. A"]
+[Site "?"]
+[Date "2010.11.28"]
+[Round "8.9"]
+[White "Verdes Nadal, R."]
+[Black "Dolader Roig, JM."]
+[Result "1-0"]
+[ECO "A07"]
+[WhiteElo "2008"]
+[PlyCount "91"]
+[EventDate "2010.??.??"]
+[EventRounds "9"]
+
+1. Nf3 Nf6 2. g3 d5 3. Bg2 e6 4. d4 Bd6 5. O-O Nbd7 6. Bg5 h6 7. Bxf6 gxf6 8.
+Nbd2 b6 9. e4 c6 10. Re1 Bb7 11. c4 Qc7 12. Rc1 dxe4 13. Nxe4 O-O-O 14. d5 Ne5
+15. Nd4 f5 16. dxc6 Nxc6 17. Nb5 Bb4 18. Nxc7 Rxd1 19. Rexd1 Kxc7 20. Nf6 Bc8
+21. Nd5+ Kb8 22. Nxb6 axb6 23. Bxc6 Kc7 24. Bf3 h5 25. a3 Be7 26. b4 h4 27. c5
+bxc5 28. a4 Kb6 29. bxc5+ Bxc5 30. Rb1+ Ka7 31. Rb5 Bb6 32. Rdb1 Bc7 33. Rb7+
+Bxb7 34. Rxb7+ Ka6 35. Rxc7 Ka5 36. Ra7+ Kb6 37. Rxf7 h3 38. Re7 Ka5 39. Ra7+
+Kb6 40. Ra8 Rh7 41. Re8 Ka5 42. Bc6 Rc7 43. Rxe6 Kb4 44. f4 Kc5 45. Bb5 Kd5 46.
+Re5+ 1-0
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2011.07.17"]
+[Round "1"]
+[White "Verdes Nadal, R."]
+[Black "Berge Sole, JM."]
+[Result "1-0"]
+[ECO "C44"]
+[WhiteElo "1995"]
+[PlyCount "29"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.07.29"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 d6 4. Bc4 h6 5. c3 Nf6 6. Qb3 Na5 7. Bxf7+ Ke7 8. Qa4
+Kxf7 9. Qxa5 Nxe4 10. Qd5+ Ke7 11. Qxe4 Ke6 12. dxe5 d5 13. Qg6+ Kd7 14. Nd4
+Qe7 15. Bf4 1-0
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2011.07.18"]
+[Round "2"]
+[White "Ivanov, J."]
+[Black "Verdes Nadal, R."]
+[Result "1-0"]
+[ECO "B14"]
+[WhiteElo "2398"]
+[BlackElo "1995"]
+[PlyCount "53"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.07.29"]
+
+1. Nf3 Nf6 2. c4 c5 3. Nc3 Nc6 4. e3 g6 5. d4 cxd4 6. exd4 d5 7. cxd5 Nxd5 8.
+Qb3 Nxc3 9. Bc4 e6 10. bxc3 Na5 11. Bb5+ Bd7 12. Qa4 b6 13. Ne5 Bxb5 14. Qxb5+
+Ke7 15. Ba3+ Kf6 16. Bxf8 Rxf8 17. Nd7+ Kg7 18. Nxf8 Kxf8 19. O-O Rc8 20. Rad1
+Qc7 21. Qg5 h5 22. Rd3 Nc4 23. d5 exd5 24. Rxd5 Qe7 25. Qf4 Na5 26. h3 Rxc3 27.
+Qd4 1-0
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2011.07.19"]
+[Round "3"]
+[White "Verdes Nadal, R."]
+[Black "Fumas Fontova, E."]
+[Result "1-0"]
+[ECO "A00"]
+[WhiteElo "1995"]
+[BlackElo "1637"]
+[PlyCount "65"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.07.29"]
+
+1. g3 e6 2. Bg2 c5 3. c4 Nf6 4. Nc3 a6 5. e3 Qc7 6. Nge2 Nc6 7. b3 b6 8. Bb2
+Be7 9. Rc1 Bb7 10. O-O O-O 11. d4 d6 12. Qd2 Rad8 13. Rfd1 Rfe8 14. Nf4 Bf8 15.
+d5 Na7 16. dxe6 fxe6 17. e4 b5 18. Qe2 b4 19. Na4 Bc6 20. e5 Nd7 21. exd6 Bxd6
+22. Nxe6 Nf8 23. Bxc6 Rxe6 24. Bd5 Rde8 25. Qg4 Kh8 26. Bxe6 Rxe6 27. Rd5 h6
+28. Nxc5 Rg6 29. Qh5 Qf7 30. Ne4 Be7 31. Re1 Ne6 32. Qf5 Qe8 33. Nd6 1-0
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2011.07.20"]
+[Round "4"]
+[White "Piasetski, LD."]
+[Black "Verdes Nadal, R."]
+[Result "1-0"]
+[ECO "A39"]
+[WhiteElo "2289"]
+[BlackElo "1995"]
+[PlyCount "93"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.07.29"]
+
+1. Nf3 Nf6 2. c4 c5 3. Nc3 Nc6 4. g3 g6 5. Bg2 Bg7 6. O-O O-O 7. d4 cxd4 8.
+Nxd4 Nxd4 9. Qxd4 d6 10. Qd3 Qc7 11. Bd2 Be6 12. b3 a6 13. Rac1 Rac8 14. a4
+Rfd8 15. Rfd1 Qb6 16. Qb1 Ng4 17. e3 Bf5 18. Nd5 Bxb1 19. Nxb6 Ba2 20. Nxc8
+Rxc8 21. Bxb7 Rc7 22. Bxa6 Bxb3 23. Rf1 Bxa4 24. Bb5 Bb3 25. Ba5 Rc8 26. Bd7
+Ra8 27. Bxg4 Rxa5 28. Bd1 Ba2 29. Be2 h5 30. Rfd1 Bb3 31. Rd3 Ba2 32. Rd2 Bb3
+33. Rb1 Ba2 34. Rb5 Ra7 35. c5 dxc5 36. Rd8+ Kh7 37. Rxc5 Be6 38. h4 Bf6 39.
+Kg2 Ra2 40. Bf3 Kg7 41. Be4 Bg4 42. Rc2 Ra4 43. Bc6 Ra6 44. Ra8 Rb6 45. Bf3 Be6
+46. Ra5 Bf5 47. e4 1-0
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2011.07.22"]
+[Round "6"]
+[White "Verdes Nadal, R."]
+[Black "Coll Ortega, J."]
+[Result "0-1"]
+[ECO "A00"]
+[WhiteElo "1995"]
+[BlackElo "2303"]
+[PlyCount "13"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.07.29"]
+
+1. g3 Nf6 2. Bg2 e5 3. a3 d5 4. d4 exd4 5. Qxd4 c5 6. Qd3 h6 7. Nc3 0-1
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2012.06.16"]
+[Round "1"]
+[White "Verdes Nadal, R."]
+[Black "Sanikidze, T."]
+[Result "0-1"]
+[ECO "E91"]
+[WhiteElo "1979"]
+[BlackElo "2596"]
+[PlyCount "56"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. Nf3 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. d3 O-O 6. Be2 c5 7. d4 Nc6 8. dxc5
+dxc5 9. Qxd8 Rxd8 10. O-O Bg4 11. Bg5 h6 12. Bxf6 Bxf6 13. Rac1 Bxf3 14. Bxf3
+Rd2 15. b3 Bxc3 16. Rxc3 Rxa2 17. e5 Nd4 18. Rd3 Rd8 19. Rfd1 b6 20. Kf1 Rb8
+21. Bg4 Rb2 22. R1d2 Rxd2 23. Rxd2 Nxb3 24. Rd7 e6 25. Bd1 Na5 26. Be2 Rb7 27.
+Rd8+ Kg7 28. h4 Nc6 0-1
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2012.06.17"]
+[Round "2"]
+[White "Solsona Manonelles, J."]
+[Black "Verdes Nadal, R."]
+[Result "1/2-1/2"]
+[ECO "A58"]
+[WhiteElo "1701"]
+[BlackElo "1979"]
+[PlyCount "55"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. bxa6 Bxa6 6. Nc3 d6 7. Qc2 g6 8. g3
+Bg7 9. Nf3 O-O 10. e4 Bxf1 11. Kxf1 Nbd7 12. Kg2 Qb6 13. h3 Rfb8 14. Nd2 Ne8
+15. b3 Nc7 16. Bb2 Na6 17. Na4 Qb5 18. Bxg7 Kxg7 19. a3 Ne5 20. Nc3 Qb7 21. f4
+Nd7 22. Rab1 Nc7 23. Nc4 f5 24. Nd2 Nf6 25. Kh2 fxe4 26. Ndxe4 Nfxd5 27. Ng5 h6
+28. Nge4 1/2-1/2
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2012.06.18"]
+[Round "3"]
+[White "Rius Roca, F."]
+[Black "Verdes Nadal, R."]
+[Result "0-1"]
+[ECO "B06"]
+[WhiteElo "3"]
+[BlackElo "1979"]
+[PlyCount "58"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 g6 2. d4 d5 3. exd5 Nf6 4. Nf3 Qxd5 5. c3 Bg7 6. Be3 Bg4 7. Be2 c6 8. h3
+Bxf3 9. Bxf3 Qb5 10. Qc2 Nd5 11. Qd2 Nd7 12. Be2 Qa5 13. O-O O-O 14. Qc2 Rfe8
+15. Nd2 e5 16. Nb3 Qb6 17. Rad1 Rad8 18. Rfe1 f5 19. dxe5 Nxe3 20. fxe3 Qxe3+
+21. Kh1 Qb6 22. e6 Nf6 23. Rxd8 Qxd8 24. Bc4 Kh8 25. Qe2 Ne4 26. Qe3 b5 27. Bf1
+Rxe6 28. Nd4 Bxd4 29. Qxd4+ Qxd4 0-1
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2012.06.19"]
+[Round "4"]
+[White "Verdes Nadal, R."]
+[Black "Martinez Pla, X."]
+[Result "1/2-1/2"]
+[ECO "A00"]
+[WhiteElo "1979"]
+[BlackElo "5"]
+[PlyCount "78"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. g3 d5 2. Bg2 c6 3. d4 Nf6 4. c3 Bf5 5. Bg5 Nbd7 6. Nd2 h6 7. Bxf6 Nxf6 8.
+Qb3 Qb6 9. Ngf3 e6 10. O-O Be7 11. Rfe1 O-O 12. Qxb6 axb6 13. Ne5 Rfd8 14. e4
+dxe4 15. Nxe4 Bxe4 16. Bxe4 Nxe4 17. Rxe4 Bf6 18. Ng4 Be7 19. Ne3 Kf8 20. Nc2
+Ra5 21. a3 Rad5 22. Rae1 c5 23. Kf1 cxd4 24. Rxd4 Bc5 25. Rxd5 Rxd5 26. Ne3
+Bxe3 27. Rxe3 Ke7 28. Ke2 Kd6 29. Re4 Re5 30. Ke3 f5 31. Rxe5 Kxe5 32. c4 Kd6
+33. b4 e5 34. a4 h5 35. h4 g6 36. Kd3 Kc6 37. Kc3 Kd6 38. Kd2 Kc6 39. Ke3 Kd6
+1/2-1/2
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2012.06.20"]
+[Round "5"]
+[White "Fabrega Ramon, S."]
+[Black "Verdes Nadal, R."]
+[Result "1/2-1/2"]
+[ECO "A16"]
+[WhiteElo "1763"]
+[BlackElo "1979"]
+[PlyCount "104"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. c4 Nf6 2. Nc3 g6 3. e4 d6 4. d3 Bg7 5. Nge2 c6 6. g3 Bg4 7. Bg2 Bxe2 8. Qxe2
+e5 9. O-O h5 10. Kh1 h4 11. h3 hxg3 12. fxg3 Qd7 13. Kg1 Qe6 14. Qf3 Nbd7 15.
+b4 Bh6 16. g4 Bxc1 17. Raxc1 g5 18. Qf5 Nh7 19. b5 Rb8 20. Rb1 Qxf5 21. exf5 c5
+22. Nd5 Nhf6 23. Nxf6+ Nxf6 24. Kf2 b6 25. Rb3 Rc8 26. Kg3 Ke7 27. Ra1 Rhd8 28.
+Re1 Ng8 29. a4 Kf6 30. Rb2 Ne7 31. Rbe2 Rc7 32. a5 Rdd7 33. axb6 axb6 34. Ra2
+Ra7 35. Rea1 Rxa2 36. Rxa2 d5 37. Ra6 Rd6 38. cxd5 Kg7 39. Kh2 Nxd5 40. Bxd5
+Rxd5 41. Rxb6 Rxd3 42. Rc6 Rc3 43. b6 e4 44. b7 Rb3 45. Rxc5 Rxb7 46. Re5 Rb2+
+47. Kg1 Re2 48. Kf1 Re3 49. Kg2 Kf6 50. Re8 Re2+ 51. Kf1 Rh2 52. Rxe4 Rxh3
+1/2-1/2
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2012.06.21"]
+[Round "6"]
+[White "Verdes Nadal, R."]
+[Black "Mohammed Waliul, I."]
+[Result "1-0"]
+[ECO "D02"]
+[WhiteElo "1979"]
+[BlackElo "4"]
+[PlyCount "93"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. Nf3 Nc6 2. d4 d5 3. c3 Nf6 4. g3 e6 5. Bg5 h6 6. Bxf6 Qxf6 7. Nbd2 Bd6 8.
+Bg2 O-O 9. O-O Rb8 10. e4 dxe4 11. Nxe4 Qd8 12. Qa4 a6 13. Rad1 b5 14. Qc2 Bb7
+15. Rfe1 Ne7 16. Nfd2 Kh8 17. Nb3 f5 18. Nec5 Bxg2 19. Nxe6 Qe8 20. Nxf8 Be4
+21. Rxe4 fxe4 22. Ne6 Qf7 23. Qxe4 Ng8 24. Re1 Nf6 25. Qf5 Re8 26. Re3 g6 27.
+Qh3 h5 28. Ng5 Qg8 29. Rxe8 Qxe8 30. Qe6 Qf8 31. Nf7+ Kg7 32. Nxd6 cxd6 33. h3
+d5 34. Nd2 b4 35. c4 dxc4 36. Nxc4 Qd8 37. Ne5 Qe8 38. Qxe8 Nxe8 39. f4 Kf6 40.
+Kf2 Nc7 41. Kf3 Nd5 42. Ke4 Nb6 43. g4 Na4 44. Nc4 g5 45. f5 h4 46. Kd3 Ke7 47.
+Kc2 1-0
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2012.06.22"]
+[Round "7"]
+[White "Trepat Herranz, J."]
+[Black "Verdes Nadal, R."]
+[Result "1-0"]
+[ECO "B05"]
+[WhiteElo "2299"]
+[BlackElo "1979"]
+[PlyCount "51"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. Nf3 Bg4 5. exd6 cxd6 6. Be2 Nc6 7. O-O Nb6 8.
+a4 d5 9. a5 Nc4 10. a6 b5 11. b3 Nd6 12. Bf4 Rb8 13. h3 Bxf3 14. Bxf3 e6 15. c4
+bxc4 16. bxc4 Nxc4 17. Bxb8 Qxb8 18. Nc3 Nb6 19. Na4 Be7 20. Nxb6 Qxb6 21. Qa4
+Kd7 22. Rfc1 Rc8 23. Rab1 Bb4 24. Be2 Qxd4 25. Rxc6 Rxc6 26. Bb5 1-0
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2012.06.23"]
+[Round "8"]
+[White "Verdes Nadal, R."]
+[Black "Monfa Escola, R."]
+[Result "0-1"]
+[ECO "A02"]
+[WhiteElo "1979"]
+[BlackElo "1837"]
+[PlyCount "68"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. f4 d6 2. Nf3 Nf6 3. Nc3 g6 4. e4 Bg7 5. d4 a6 6. a4 b6 7. Bd3 c5 8. Be3 Qc7
+9. Qe2 Bb7 10. O-O e6 11. f5 exf5 12. exf5 O-O 13. fxg6 hxg6 14. Ng5 Nbd7 15.
+dxc5 bxc5 16. Bc4 d5 17. Bf4 Qb6 18. Ba2 Rae8 19. Qd2 c4+ 20. Kh1 Nc5 21. Be3
+Qc6 22. Bd4 Nce4 23. Ncxe4 Nxe4 24. Nxe4 Bxd4 25. Qxd4 Rxe4 26. Qf2 d4 27. b3
+d3 28. Rae1 Rf4 29. Qg3 d2 30. Rd1 Rxf1+ 31. Rxf1 Re8 32. Qf2 Qxg2+ 33. Qxg2
+Bxg2+ 34. Kxg2 Re1 0-1
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2012.06.24"]
+[Round "9"]
+[White "Verdes Nadal, R."]
+[Black "Moline Escartin, X."]
+[Result "1-0"]
+[ECO "A04"]
+[WhiteElo "1979"]
+[BlackElo "1877"]
+[PlyCount "65"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. Nf3 c5 2. g3 Nc6 3. d4 cxd4 4. Nxd4 e5 5. Nxc6 bxc6 6. Bg2 d5 7. c4 Be6 8.
+Nc3 Bb4 9. cxd5 Bxc3+ 10. bxc3 cxd5 11. O-O Nf6 12. Qa4+ Bd7 13. Qa3 Qe7 14. c4
+Qxa3 15. Bxa3 Be6 16. Bb2 O-O-O 17. cxd5 Bxd5 18. Rfc1+ Kb7 19. Bxe5 Bxg2 20.
+Rc7+ Ka8 21. Bxf6 gxf6 22. Kxg2 Rhe8 23. e3 Rd2 24. Kf3 Kb8 25. Rxf7 Rc8 26.
+Rb1+ Ka8 27. a4 Ra2 28. Rb4 a5 29. Rf4 Rcc2 30. Kg2 Ra3 31. R7xf6 Rxe3 32. Ra6+
+Kb7 33. Rxa5 1-0
+
+[Event "Ct. Lleida indiv. Absolut"]
+[Site "Tornabous"]
+[Date "2014.10.05"]
+[Round "1"]
+[White "Gargallo Serrano, D."]
+[Black "Verdes Nadal, R."]
+[Result "0-1"]
+[ECO "D00"]
+[WhiteElo "1888"]
+[BlackElo "2172"]
+[PlyCount "56"]
+[EventDate "2014.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nc3 d5 2. d4 Bf5 3. Nf3 e6 4. Bf4 Nf6 5. a3 a6 6. e3 c5 7. Ne5 Bd6 8. Bd3
+Bxd3 9. Qxd3 Nc6 10. Nxc6 bxc6 11. Bxd6 c4 12. Qe2 Qxd6 13. O-O Rb8 14. Rab1
+O-O 15. Rfd1 Rb7 16. Na4 Nd7 17. f4 Rfb8 18. c3 Rb5 19. Qc2 Qc7 20. f5 Qa5 21.
+fxe6 fxe6 22. Rf1 Rb3 23. Nc5 Nxc5 24. dxc5 Qxc5 25. Rfe1 Qb6 26. Re2 Rxa3 27.
+bxa3 Qxb1+ 28. Kf2 Qxc2 0-1
+
+[Event "Ct. Lleida indiv. Absolut"]
+[Site "Tornabous"]
+[Date "2014.10.12"]
+[Round "2"]
+[White "Verdes Nadal, R."]
+[Black "Arnillas Moles, J."]
+[Result "1-0"]
+[ECO "A05"]
+[WhiteElo "2172"]
+[BlackElo "2041"]
+[PlyCount "87"]
+[EventDate "2014.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. g3 Nc6 3. d4 e6 4. Bg2 d5 5. O-O Be7 6. Bg5 h6 7. Bxf6 Bxf6 8. c3
+O-O 9. Nbd2 Be7 10. e4 dxe4 11. Nxe4 f5 12. Ned2 Bd6 13. Re1 Qf6 14. Nc4 f4 15.
+Qe2 Bd7 16. Nce5 Be8 17. Ng4 Qf7 18. Rf1 Qh5 19. Nfe5 Bxe5 20. Bxc6 Bxc6 21.
+Nf6+ Rxf6 22. Qxh5 Bd6 23. Rac1 Raf8 24. b4 Rf5 25. Qe2 b5 26. Qxe6+ Kh8 27. g4
+R5f6 28. Qe2 f3 29. Qd3 Rf4 30. h3 h5 31. Kh1 a6 32. Rg1 Be4 33. Qe3 Bd5 34.
+Qd3 Be4 35. Qd2 R8f6 36. Rce1 hxg4 37. Rg3 Bc6 38. Re5 gxh3 39. Rh5+ Kg8 40.
+Rhg5 Rf7 41. Rxh3 R7f6 42. a3 Re6 43. Qa2 Rfe4 44. Re5 1-0
+
+[Event "Ct. Lleida indiv. Absolut"]
+[Site "Tornabous"]
+[Date "2014.10.19"]
+[Round "3"]
+[White "Monfa Sole, R."]
+[Black "Verdes Nadal, R."]
+[Result "0-1"]
+[ECO "A00"]
+[WhiteElo "2160"]
+[BlackElo "2172"]
+[PlyCount "56"]
+[EventDate "2014.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d3 g6 2. a3 Bg7 3. e4 d5 4. exd5 Qxd5 5. Be2 c6 6. Nf3 Nf6 7. O-O O-O 8. Nc3
+Qd6 9. Re1 Na6 10. Bg5 Re8 11. Qd2 Nc7 12. Rad1 Bg4 13. Bf4 Qd8 14. Ne5 Bxe2
+15. Qxe2 Ncd5 16. Nxd5 Qxd5 17. d4 Nh5 18. Bc1 Bxe5 19. dxe5 Qe6 20. Rd3 Red8
+21. Rh3 Rd4 22. Qe3 Rad8 23. f3 Rd1 24. g4 Rxe1+ 25. Qxe1 Rd5 26. Qf1 Rxe5 27.
+Bd2 Nf4 28. Rh6 Re2 0-1
+
+[Event "Ct. Lleida indiv. Absolut"]
+[Site "Tornabous"]
+[Date "2014.10.26"]
+[Round "4"]
+[White "Verdes Nadal, R."]
+[Black "Ramon Solans, A."]
+[Result "0-1"]
+[ECO "A00"]
+[WhiteElo "2172"]
+[BlackElo "2400"]
+[PlyCount "50"]
+[EventDate "2014.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. a3 d5 2. d3 e5 3. Nf3 Nc6 4. e4 Nf6 5. exd5 Nxd5 6. Bd2 Bc5 7. Nc3 O-O 8.
+Nxd5 Qxd5 9. Be2 f5 10. b4 Be7 11. O-O e4 12. Ne1 Bf6 13. Rb1 Be6 14. Bf4 Be5
+15. c4 Qd6 16. c5 Qd5 17. Bxe5 Qxe5 18. dxe4 fxe4 19. Nc2 Qg5 20. Kh1 Rad8 21.
+Qe1 Ne5 22. f4 exf3 23. Bxf3 Bc4 24. h4 Qe7 25. Rg1 Rf4 0-1
+
+[Event "Ct. Lleida indiv. Absolut"]
+[Site "Tornabous"]
+[Date "2014.11.02"]
+[Round "5"]
+[White "Biosca Lacasa, J."]
+[Black "Verdes Nadal, R."]
+[Result "0-1"]
+[ECO "A45"]
+[WhiteElo "2048"]
+[BlackElo "2172"]
+[PlyCount "90"]
+[EventDate "2014.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Bf4 g6 3. e3 d5 4. c3 Bg7 5. b4 c6 6. Bd3 O-O 7. Nd2 Re8 8. h3
+Nfd7 9. Ngf3 e5 10. dxe5 Nxe5 11. Bxe5 Bxe5 12. Nxe5 Rxe5 13. Nf3 Re7 14. O-O
+Nd7 15. c4 Nb6 16. c5 Nd7 17. Rc1 Ne5 18. Re1 Nxd3 19. Qxd3 Bf5 20. Qc3 Be4 21.
+Nd4 Qd7 22. f3 Bf5 23. g4 Be6 24. Kf2 Rae8 25. Rh1 Qc7 26. f4 Bc8 27. Rce1 Re4
+28. a3 Qe7 29. Nf3 Rc4 30. Qd3 Qf6 31. Nd4 Qh4+ 32. Kf3 h5 33. f5 Re4 34. Reg1
+g5 35. Nb3 b6 36. cxb6 Ba6 37. bxa7 Rf4+ 38. exf4 Rxf4+ 39. Ke2 Qf2+ 40. Kd1
+Bxd3 41. a8=Q+ Kh7 42. Nd2 Qe2+ 43. Kc1 Rc4+ 44. Kb2 Qxd2+ 45. Ka1 Rc2 0-1
+
+[Event "Ct. Lleida indiv. Absolut"]
+[Site "Tornabous"]
+[Date "2014.11.09"]
+[Round "6"]
+[White "Verdes Nadal, R."]
+[Black "Palau Cabases, A."]
+[Result "1-0"]
+[ECO "A49"]
+[WhiteElo "2172"]
+[BlackElo "2157"]
+[PlyCount "71"]
+[EventDate "2014.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. g3 g6 3. Bg2 Bg7 4. d4 d6 5. O-O O-O 6. c3 c6 7. Re1 Nbd7 8. e4
+e5 9. Bg5 Qc7 10. Na3 Nb6 11. Rc1 Bg4 12. h3 Be6 13. c4 exd4 14. Nxd4 Rfe8 15.
+Bf4 Qd7 16. h4 Rad8 17. b3 Bh3 18. Qd3 Bxg2 19. Kxg2 Ng4 20. Nf3 Bb2 21. Nc2
+Bxc1 22. Bxc1 Ne5 23. Qc3 Nxf3 24. Qxf3 f5 25. Bb2 h6 26. Qc3 Kh7 27. exf5 gxf5
+28. Rxe8 Rxe8 29. Qf6 c5 30. h5 Rg8 31. Ne3 f4 32. Nf5 f3+ 33. Kh2 Re8 34.
+Qxh6+ Kg8 35. Qh8+ Kf7 36. Qg7+ 1-0
+
+[Event "Ct. Lleida indiv. Absolut"]
+[Site "Tornabous"]
+[Date "2014.11.16"]
+[Round "7"]
+[White "Campos Olaya, I."]
+[Black "Verdes Nadal, R."]
+[Result "1-0"]
+[ECO "B06"]
+[WhiteElo "2333"]
+[BlackElo "2172"]
+[PlyCount "113"]
+[EventDate "2014.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 g6 2. d4 Nf6 3. e5 Nd5 4. c4 Nb4 5. Bd2 N4a6 6. Bc3 Bg7 7. d5 d6 8. exd6
+Bxc3+ 9. Nxc3 cxd6 10. Nf3 Nd7 11. Qd4 O-O 12. Be2 Qb6 13. Qd2 Nf6 14. O-O Nc5
+15. b3 Bg4 16. Ng5 Bxe2 17. Qxe2 Ncd7 18. Rad1 Rae8 19. Rd3 Kg7 20. Re3 h6 21.
+Nge4 Nxe4 22. Rxe4 Ne5 23. Na4 Qd8 24. f4 Nd7 25. Re1 Nb6 26. Nc3 Nc8 27. Qb2
+Kh7 28. Nb5 e6 29. Qe2 a6 30. Nd4 Qb6 31. Qf2 Ne7 32. dxe6 f5 33. R4e2 d5 34.
+Rc1 dxc4 35. Rxc4 Rc8 36. Rec2 Rxc4 37. Rxc4 Rd8 38. Qe3 Rd6 39. Qe5 Rc6 40.
+Qf6 Ng8 41. Qf7+ Kh8 42. e7 Rxc4 43. Qxg8+ Kxg8 44. e8=Q+ Kg7 45. Qe5+ Kf8 46.
+bxc4 Qb1+ 47. Kf2 Qxa2+ 48. Qe2 Qa5 49. Kg3 Qc3+ 50. Nf3 g5 51. fxg5 hxg5 52.
+Qe6 f4+ 53. Kg4 Qb2 54. Ne5 Qxg2+ 55. Kh5 Qxh2+ 56. Kg6 Qc2+ 57. Kf6 1-0
+
+[Event "Ct. Lleida indiv. Absolut"]
+[Site "Tornabous"]
+[Date "2014.11.23"]
+[Round "8"]
+[White "Verdes Nadal, R."]
+[Black "Trepat Herranz, J."]
+[Result "0-1"]
+[ECO "A37"]
+[WhiteElo "2172"]
+[BlackElo "2419"]
+[PlyCount "132"]
+[EventDate "2014.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 c5 2. c4 Nc6 3. Nc3 g6 4. g3 Bg7 5. Bg2 e6 6. d3 Nge7 7. Be3 d6 8. Bg5
+h6 9. Bxe7 Qxe7 10. O-O O-O 11. Qd2 a6 12. e3 Rb8 13. d4 b5 14. dxc5 dxc5 15.
+cxb5 axb5 16. Rac1 Rd8 17. Qe2 c4 18. Rfd1 Ba6 19. Rxd8+ Rxd8 20. a3 b4 21.
+axb4 Nxb4 22. Ra1 Qd6 23. Bf1 Nd3 24. Ne1 Nc5 25. Rd1 Qb8 26. Rxd8+ Qxd8 27.
+Qd1 Qc7 28. h4 Be5 29. Bg2 Qb6 30. Qd2 Kg7 31. Nf3 Bf6 32. g4 Nd3 33. g5 hxg5
+34. hxg5 Be7 35. Nd1 Qb5 36. Qc3+ Kg8 37. Bf1 Bb7 38. Bg2 Bxf3 39. Bxf3 Qxg5+
+40. Kf1 Ne5 41. Be2 Qh4 42. Ke1 Bf6 43. Qb4 Kg7 44. Kd2 Qe4 45. Nc3 Qg2 46. Nd1
+Qd5+ 47. Kc2 g5 48. Qd2 Qe4+ 49. Kc1 g4 50. Nc3 Qh1+ 51. Qd1 Qg2 52. Qf1 Qa8
+53. Bxc4 Qc6 54. Be2 Ng6 55. Kc2 Bxc3 56. bxc3 f5 57. Bb5 Qe4+ 58. Qd3 Qf3 59.
+Qe2 Qd5 60. Bc4 Qc6 61. Bb5 Qg2 62. Qf1 Qh2 63. Bc4 g3 64. Qd3 Qxf2+ 65. Kb3 g2
+66. Qd7+ Kh6 0-1
+
+[Event "Ct. Lleida indiv. Absolut"]
+[Site "Tornabous"]
+[Date "2014.11.30"]
+[Round "9"]
+[White "Farre Selma, D."]
+[Black "Verdes Nadal, R."]
+[Result "0-1"]
+[ECO "B02"]
+[WhiteElo "2053"]
+[BlackElo "2172"]
+[PlyCount "140"]
+[EventDate "2014.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 Nf6 2. Bc4 c6 3. Nc3 d5 4. exd5 cxd5 5. Bb5+ Bd7 6. Qe2 Bxb5 7. Qxb5+ Qd7
+8. d4 a6 9. Qe2 e6 10. Nf3 Nc6 11. Ne5 Qc7 12. Nxc6 Qxc6 13. O-O Rc8 14. Bg5
+Be7 15. f4 Qc4 16. Qd2 Ne4 17. Nxe4 dxe4 18. Bxe7 Kxe7 19. c3 f5 20. Qe3 b5 21.
+Rfc1 g6 22. Kf2 Rc7 23. Qe2 Qxe2+ 24. Kxe2 Rhc8 25. Rc2 Rc4 26. Rac1 Kd6 27. b3
+R4c6 28. c4 bxc4 29. Rxc4 Kd5 30. Rxc6 Rxc6 31. Rxc6 Kxc6 32. Ke3 Kd5 33. h3 h6
+34. h4 Kc6 35. Kd2 Kd6 36. Ke2 a5 37. a3 Kd5 38. Ke3 a4 39. b4 Kc4 40. g4 h5
+41. g5 Kd5 42. b5 Kd6 43. Kd2 Kc7 44. Kc3 Kb6 45. Kc4 e3 46. Kd3 Kxb5 47. Ke2
+Kc4 48. Kxe3 Kc3 49. Ke2 Kxd4 50. Kd2 e5 51. fxe5 Kxe5 52. Ke3 Kd5 53. Kf4 Kd4
+54. Kf3 Kc3 55. Kf4 Kb3 56. Ke5 Kxa3 57. Kf6 Kb4 58. Kxg6 a3 59. Kh7 a2 60. g6
+a1=Q 61. g7 Qa7 62. Kh8 Qd4 63. Kh7 Qd7 64. Kh8 Qd8+ 65. Kh7 f4 66. g8=Q Qxg8+
+67. Kxg8 f3 68. Kh7 f2 69. Kh6 f1=Q 70. Kxh5 Qf6 0-1
+
+[Event "Salou op"]
+[Site "Salou"]
+[Date "2017.04.30"]
+[Round "4"]
+[White "Castillo Dalmau, Albert"]
+[Black "Verdes Nadal, Ramon"]
+[Result "1-0"]
+[ECO "A39"]
+[WhiteElo "2141"]
+[BlackElo "2006"]
+[PlyCount "117"]
+[EventDate "2017.04.29"]
+[EventType "swiss"]
+[EventRounds "6"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 178 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.06.22"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.06.22"]
+[SourceQuality "1"]
+
+1. Nf3 Nf6 2. c4 c5 3. Nc3 Nc6 4. g3 g6 5. Bg2 Bg7 6. d4 cxd4 7. Nxd4 O-O 8.
+O-O Nxd4 9. Qxd4 d6 10. Qd3 a6 11. Be3 Bf5 12. Qd2 Qc7 13. Rac1 Rac8 14. b3
+Rfe8 15. Rfd1 Bd7 16. Bd4 Bc6 17. e4 Qa5 18. Qb2 Nh5 19. b4 Qd8 20. Bxg7 Nxg7
+21. c5 Qd7 22. cxd6 exd6 23. Rd2 Qe6 24. Rcd1 Red8 25. Nd5 Bxd5 26. Rxd5 Qe7
+27. Qd2 Ne8 28. e5 Rc6 29. a3 Qe6 30. Rd3 Rc7 31. f4 Rcd7 32. h4 Kg7 33. Kh2 f5
+34. Bd5 Qe7 35. Bb3 d5 36. Qc3 d4 37. Rxd4 Rxd4 38. Rxd4 Rxd4 39. Qxd4 a5 40.
+Kh3 axb4 41. axb4 Kh6 42. Bd1 Qc7 43. Bf3 Qc1 44. Bxb7 Qf1+ 45. Bg2 Qe2 46. Qd8
+Qb5 47. Qe7 Qa4 48. Qc5 Ng7 49. Bf3 Qa3 50. Bd5 Qd3 51. Qc4 Qe3 52. Qb3 Qe2 53.
+Bf3 Qf1+ 54. Bg2 Qe2 55. b5 Nh5 56. b6 Qg4+ 57. Kh2 Nxf4 58. gxf4 Qxf4+ 59. Qg3
+1-0
+
+[Event "Salou op"]
+[Site "Salou"]
+[Date "2017.05.01"]
+[Round "5"]
+[White "Verdes Nadal, Ramon"]
+[Black "Ladron de Guevara, Francisco Javier"]
+[Result "1-0"]
+[ECO "D02"]
+[WhiteElo "2006"]
+[BlackElo "2153"]
+[PlyCount "152"]
+[EventDate "2017.04.29"]
+[EventType "swiss"]
+[EventRounds "6"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 178 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.06.22"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.06.22"]
+[SourceQuality "1"]
+
+1. Nf3 d5 2. g3 Nf6 3. Bg2 e6 4. d4 c6 5. O-O Be7 6. c3 O-O 7. Bg5 Nbd7 8. Nbd2
+b6 9. Re1 Bb7 10. Bxf6 Bxf6 11. e4 Rc8 12. exd5 cxd5 13. Nf1 g6 14. Ne3 Bg7 15.
+Ng4 Nf6 16. Nxf6+ Bxf6 17. Ne5 Qc7 18. h4 h5 19. Qd3 Kg7 20. Bh3 Rce8 21. Qf3
+Ba6 22. Qf4 Rc8 23. Re3 Qe7 24. Nf3 Qc7 25. Ne5 Qd8 26. Qf3 Bxe5 27. Rxe5 b5
+28. a3 Bb7 29. Qd3 Ba6 30. Rae1 Rc6 31. Qb1 Bc8 32. Qd3 Rb6 33. Bf1 a5 34. Qd2
+Bd7 35. Bd3 Qf6 36. Kg2 b4 37. R1e3 bxa3 38. bxa3 Rfb8 39. Rf3 Qe7 40. c4 dxc4
+41. Bxc4 Rb2 42. Qc3 a4 43. d5 f6 44. Ree3 e5 45. Re2 Rxe2 46. Bxe2 Rb3 47. Qc1
+Rxf3 48. Bxf3 Qd6 49. Kh2 f5 50. Qg5 Qf6 51. Qe3 Qd6 52. Bg2 Kh7 53. Qa7 Kg7
+54. Qb7 Kh6 55. Bf1 f4 56. Bg2 Bg4 57. Qa8 Kg7 58. Qxa4 f3 59. Bf1 Qxd5 60.
+Qa7+ Bd7 61. a4 Kh6 62. a5 Qd1 63. Qe3+ Kh7 64. Qd3 Qxd3 65. Bxd3 Bc6 66. Ba6
+e4 67. Kg1 g5 68. Bc8 gxh4 69. gxh4 Bb5 70. a6 Bxa6 71. Bxa6 Kg6 72. Bc8 Kf6
+73. Kf1 Ke5 74. Ke1 Kf4 75. Kd2 e3+ 76. fxe3+ Kg3 1-0
+
+[Event "Salou op"]
+[Site "Salou"]
+[Date "2017.05.01"]
+[Round "6"]
+[White "Kolotilina, Liudmila"]
+[Black "Verdes Nadal, Ramon"]
+[Result "1-0"]
+[ECO "B06"]
+[WhiteElo "2180"]
+[BlackElo "2006"]
+[PlyCount "85"]
+[EventDate "2017.04.29"]
+[EventType "swiss"]
+[EventRounds "6"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 178 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.06.22"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.06.22"]
+[SourceQuality "1"]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 c6 4. Bc4 e6 5. Nf3 d5 6. Bd3 Ne7 7. O-O O-O 8. Bg5
+Qc7 9. Re1 Re8 10. Qd2 b6 11. Bf4 Qd8 12. Bh6 Ba6 13. Qf4 Bxd3 14. cxd3 dxe4
+15. dxe4 Nd7 16. Rad1 Qb8 17. Qh4 Qd8 18. Bg5 f6 19. Bc1 Qc7 20. Bf4 Qc8 21.
+Qh3 Nf8 22. Qg3 Qb7 23. h4 Rad8 24. Bd6 Nc8 25. Ba3 b5 26. b4 a6 27. Bc1 Nb6
+28. h5 gxh5 29. Qh4 Qf7 30. Ne2 Qg6 31. Nf4 Qg4 32. Qh2 h4 33. Nxh4 e5 34. f3
+Qc8 35. dxe5 Rxd1 36. Rxd1 fxe5 37. Nh5 Qc7 38. Nf5 Ne6 39. Nfxg7 Nxg7 40. Nf6+
+Kf8 41. Qxh7 Qf7 42. Nxe8 Kxe8 43. Qh8+ 1-0

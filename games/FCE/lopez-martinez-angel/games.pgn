@@ -1,0 +1,84 @@
+[Event "Ciutat de Sabadell op B"]
+[Site "Sabadell"]
+[Date "2016.09.01"]
+[Round "1"]
+[White "Lopez Martinez, Angel"]
+[Black "Segarra Calderer, Albert"]
+[Result "0-1"]
+[ECO "B01"]
+[WhiteElo "1652"]
+[BlackElo "2060"]
+[PlyCount "102"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nf3 Nf6 4. Nc3 Qa5 5. Bc4 c6 6. O-O Bf5 7. d4 e6 8.
+Bf4 Bb4 9. Ne2 Bg4 10. Qd3 O-O 11. c3 Be7 12. Bb3 Qf5 13. Qxf5 Bxf5 14. Ne5
+Nbd7 15. Rad1 Nxe5 16. dxe5 Nd5 17. Bxd5 cxd5 18. Nd4 Bg6 19. g4 a6 20. a4 Rac8
+21. g5 Rc4 22. Ra1 Bh5 23. f3 b5 24. axb5 axb5 25. Be3 b4 26. Ra4 Rfc8 27. Nb5
+bxc3 28. Rxc4 Rxc4 29. bxc3 Bc5 30. Bxc5 Rxc5 31. Ra1 h6 32. Ra8+ Kh7 33. g6+
+Bxg6 34. Rb8 Bh5 35. Kf2 Rc4 36. Kg3 Ra4 37. Rc8 Ra1 38. h4 Re1 39. f4 Rg1+ 40.
+Kf2 Rg4 41. Ke3 Rxh4 42. c4 Rh3+ 43. Kd4 dxc4 44. Rxc4 Be2 45. Rb4 Bxb5 46.
+Rxb5 Rh1 47. Kc5 Rh4 48. Rb4 g5 49. Rb7 Rxf4 50. Kd6 Kg7 51. Rb3 g4 0-1
+
+[Event "Sant Adria de Besos op 13th"]
+[Site "Sant Adria de Besos"]
+[Date "2017.04.23"]
+[Round "1"]
+[White "Sumelzo Lozano, Jose"]
+[Black "Lopez Martinez, Angel"]
+[Result "1-0"]
+[ECO "B22"]
+[WhiteElo "2076"]
+[BlackElo "1798"]
+[PlyCount "115"]
+[EventDate "2017.04.23"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. c3 Nf6 4. e5 Nd5 5. Bb5+ Bd7 6. Bxd7+ Nxd7 7. exd6 exd6
+8. O-O Be7 9. d4 cxd4 10. Nxd4 N5f6 11. Nf5 O-O 12. Nxe7+ Qxe7 13. Re1 Qd8 14.
+Qxd6 Re8 15. Be3 Qa5 16. Na3 Re6 17. Qd2 Rae8 18. Rad1 Qh5 19. Bf4 Nc5 20. Rxe6
+Nxe6 21. Bg3 Ne4 22. Qd5 Qe2 23. Qb3 Nxg3 24. hxg3 Ng5 25. Qc2 Qg4 26. Qc1 h5
+27. Rd4 Ne4 28. Qd1 Qf5 29. Qf3 Qg6 30. Nc4 Ng5 31. Qd3 Qxd3 32. Rxd3 Re1+ 33.
+Kh2 Re2 34. Rd2 Re7 35. f3 g6 36. Kg1 Re1+ 37. Kf2 Re7 38. Rd5 f6 39. Ne3 Kf7
+40. c4 Ne6 41. b4 Nc7 42. Rd6 a6 43. Nd5 Nxd5 44. Rxd5 Ke6 45. a4 b6 46. Rd4
+Rc7 47. Ke3 f5 48. f4 Rc6 49. Kd3 Kf6 50. Rd5 Ke6 51. Kd4 b5 52. axb5 axb5 53.
+Rxb5 Ra6 54. Re5+ Kf6 55. b5 Ra2 56. b6 Rb2 57. Rb5 Rxb5 58. cxb5 1-0
+
+[Event "Sant Adria de Besos op 13th"]
+[Site "Sant Adria de Besos"]
+[Date "2017.05.14"]
+[Round "4"]
+[White "Lopez Martinez, Angel"]
+[Black "Ceballos Moreno, David"]
+[Result "0-1"]
+[ECO "C79"]
+[WhiteElo "1798"]
+[BlackElo "2092"]
+[PlyCount "60"]
+[EventDate "2017.04.23"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O d6 6. d4 b5 7. Bb3 Bg4 8. h3
+Bh5 9. Bg5 Nxd4 10. Bd5 Bxf3 11. gxf3 c6 12. Bb3 Be7 13. c3 Nxb3 14. Qxb3 O-O
+15. Nd2 h6 16. Bh4 Qd7 17. Kh2 Nxe4 18. Nxe4 Bxh4 19. Rg1 Qe7 20. Rg6 d5 21.
+Rxc6 dxe4 22. Rg1 Kh8 23. fxe4 Bxf2 24. Rg2 Be3 25. Qd1 Bf4+ 26. Kh1 Qh4 27.
+Qf3 Rad8 28. Rg4 Rd1+ 29. Qxd1 Qxh3+ 30. Kg1 Be3# 0-1

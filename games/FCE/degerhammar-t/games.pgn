@@ -1,0 +1,220 @@
+[Event "Ct. Catalunya eq DH"]
+[Site "?"]
+[Date "2013.01.19"]
+[Round "1.8"]
+[White "Degerhammar, T."]
+[Black "Onna Amargant, J."]
+[Result "1-0"]
+[ECO "A39"]
+[WhiteElo "2130"]
+[BlackElo "2105"]
+[PlyCount "87"]
+[EventDate "2013.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+
+1. c4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. Nf3 Nf6 6. d4 cxd4 7. Nxd4 O-O 8.
+O-O Nxd4 9. Qxd4 d6 10. Bg5 Be6 11. Qh4 Qc7 12. b3 Rfe8 13. Rac1 a6 14. e4 Ng4
+15. Nd5 Bxd5 $2 (15... Qd7) 16. cxd5 Qd7 17. Bh3 f5 18. exf5 gxf5 19. Bxg4 fxg4
+20. Rc4 $18 Rac8 21. Rxg4 Kh8 22. Re1 Qf5 23. Bxe7 Rc2 24. Rf4 Qxd5 25. Rfe4
+Qf5 26. Qf4 $2 (26. Rf4 $18) 26... Qxf4 $14 27. gxf4 d5 28. Re6 Rxa2 29. f5 Rc8
+$4 (29... Rg8 $11 30. Kf1 Bd4 31. Bf6+ Bxf6 32. Rxf6 Rb2 33. Rb6 d4 34. Rxb7 d3
+35. f6 d2 36. Rd1 Rd8) 30. f6 $18 Bf8 31. Rb6 $2 (31. Bxf8 Rxf8 32. Re8 Rg8+ (
+32... Kg8 33. R1e7 {#7}) 33. Kf1 $18) 31... Kg8 (31... d4 $16) 32. Rxb7 Re8 $2
+(32... Rac2 $16) 33. f7+ Kxf7 34. Bh4+ Be7 35. Rexe7+ Rxe7 36. Rxe7+ Kg6 37.
+Rd7 Ra5 38. Rd6+ Kf5 39. f3 Kf4 40. Rf6+ Ke3 41. Bf2+ Ke2 42. Kg2 Rb5 43. Rb6
+d4 44. Rxb5 1-0
+
+[Event "Ct. Catalunya eq DH"]
+[Site "?"]
+[Date "2013.02.02"]
+[Round "3.10"]
+[White "Degerhammar, T."]
+[Black "Heredia Tarrats, A."]
+[Result "0-1"]
+[ECO "A16"]
+[WhiteElo "2032"]
+[BlackElo "2129"]
+[PlyCount "98"]
+[EventDate "2013.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+
+1. c4 Nf6 2. Nc3 d5 3. cxd5 Nxd5 4. g3 g6 5. Bg2 Nb6 6. d3 Bg7 7. Bg5 O-O 8.
+Qd2 Nc6 9. Bxc6 bxc6 10. Bh6 c5 11. h4 Bb7 12. Rh2 Qd4 13. h5 Rad8 14. Rh4 Qf6
+15. Qf4 Qxf4 16. Bxf4 e5 17. Bg5 f6 18. Be3 g5 19. Rh2 c4 20. Bxb6 axb6 21.
+dxc4 Rd4 22. b3 Rfd8 23. Rd1 Rxd1+ 24. Nxd1 Bf8 25. Ne3 Bb4+ 26. Kf1 Rd2 27. a4
+Rb2 28. Nd5 Bxd5 29. cxd5 e4 30. g4 Rxb3 31. Rh3 Rb1+ 32. Kg2 Rd1 33. Re3 Rd4
+34. f3 exf3+ 35. exf3 Kf7 36. Ne2 Rxd5 37. Ng3 Rd2+ 38. Kf1 c5 39. Nf5 c4 40.
+Re2 Rd1+ 41. Kg2 c3 42. Ne3 Rd3 43. Nc4 Bc5 44. a5 bxa5 45. Nxa5 Rd2 46. Kf1 c2
+47. Nb3 Rd1+ 48. Re1 Rxe1+ 49. Kxe1 Be3 0-1
+
+[Event "Ct. Catalunya eq DH"]
+[Site "?"]
+[Date "2013.02.09"]
+[Round "4.10"]
+[White "Degerhammar, T."]
+[Black "Subirats Ruiz, S."]
+[Result "0-1"]
+[ECO "D85"]
+[WhiteElo "2130"]
+[BlackElo "2253"]
+[PlyCount "48"]
+[EventDate "2013.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+
+1. c4 Nf6 2. Nc3 d5 3. cxd5 Nxd5 4. d4 g6 5. Bg5 Bg7 6. Qd2 h6 7. Bh4 c5 8.
+dxc5 Nxc3 9. bxc3 Qa5 10. Rc1 Na6 11. c6 bxc6 12. e4 Nc5 13. f3 Ba6 14. c4 Qa3
+15. Bf2 Rd8 16. Qc2 Qb4+ 17. Ke2 Bxc4+ 18. Ke3 Bd4+ 19. Kf4 Be5+ 20. Kg4 Be6+
+21. Kh4 g5+ 22. Kh5 Nd7 23. Qxc6 Kf8 24. h3 Nf6# 0-1
+
+[Event "Ct. Catalunya eq DH"]
+[Site "?"]
+[Date "2013.02.16"]
+[Round "5.9"]
+[White "Degerhammar, T."]
+[Black "Mestre Bellido, H."]
+[Result "0-1"]
+[ECO "A25"]
+[WhiteElo "2130"]
+[BlackElo "2357"]
+[PlyCount "64"]
+[EventDate "2013.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+
+1. c4 e5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. e3 d6 6. Nge2 f5 7. d4 Nf6 8. Bxc6+
+bxc6 9. dxe5 dxe5 10. Qxd8+ Kxd8 11. f3 Be6 12. b3 Bf8 13. O-O Kc8 14. Na4 Nd7
+15. Bb2 Bd6 16. Nf4 Re8 17. Nxe6 Rxe6 18. Kf2 e4 19. f4 Nb6 20. Nc3 Rb8 21.
+Rab1 Bc5 22. Ne2 Rd6 23. Nd4 Bxd4 24. exd4 c5 25. d5 Nxc4 26. Rfd1 Nxb2 27.
+Rxb2 c4 28. Rd4 cxb3 29. Rxb3 Rxb3 30. axb3 Rb6 31. b4 Kd7 32. Ke3 Rb5 0-1
+
+[Event "Ct. Catalunya eq DH"]
+[Site "?"]
+[Date "2013.03.09"]
+[Round "8.9"]
+[White "Rivas Garcia, V."]
+[Black "Degerhammar, T."]
+[Result "1-0"]
+[ECO "B23"]
+[WhiteElo "2320"]
+[BlackElo "2130"]
+[PlyCount "85"]
+[EventDate "2013.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+
+1. e4 c5 2. Nc3 Nc6 3. Bb5 d6 4. Bxc6+ bxc6 5. d3 Rb8 6. f4 g6 7. Nf3 Bg7 8.
+O-O e6 9. Qe1 Ne7 10. e5 d5 11. Qf2 Qa5 12. Bd2 Rxb2 13. Nd1 Rb4 14. a3 Qa4 15.
+Bxb4 cxb4 16. Nb2 Qa5 17. axb4 Qxb4 18. c4 a5 19. Na4 Nf5 20. Rfb1 Qe7 21. Nb6
+O-O 22. Rxa5 f6 23. Qc5 fxe5 24. Qxe7 Nxe7 25. fxe5 Nf5 26. Ra8 Bb7 27. Rxf8+
+Bxf8 28. Nd7 Bc8 29. Nxf8 Kxf8 30. Rb8 Ne7 31. Nd4 Kf7 32. Rb6 Bd7 33. c5 g5
+34. Kf2 Ng6 35. Nxc6 Bxc6 36. Rxc6 Nxe5 37. Rc7+ Kg6 38. d4 Ng4+ 39. Kg3 h5 40.
+c6 e5 41. dxe5 Nxe5 42. Rd7 h4+ 43. Kf2 1-0
+
+[Event "Ct. Catalunya eq DH"]
+[Site "?"]
+[Date "2013.04.06"]
+[Round "10.8"]
+[White "Degerhammar, T."]
+[Black "Gomez Jurado, LA."]
+[Result "0-1"]
+[ECO "A36"]
+[WhiteElo "2130"]
+[BlackElo "2322"]
+[PlyCount "58"]
+[EventDate "2013.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+
+1. c4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. d3 e5 6. Nd5 d6 7. a3 a5 8. Rb1 Nge7
+9. Bg5 h6 10. Bf6 O-O 11. e4 Bxf6 12. Nxf6+ Kg7 13. Nd5 Nxd5 14. exd5 Nd4 15.
+Nf3 Re8 16. Nxd4 exd4+ 17. Kd2 Qf6 18. Qf1 Bg4 19. Re1 Bf3 20. Rg1 b5 21. Bxf3
+Qxf3 22. Qg2 Qf6 23. Rxe8 Rxe8 24. Re1 Rxe1 25. Kxe1 bxc4 26. dxc4 Qf5 27. Kd2
+Qb1 28. Qf3 Qxb2+ 29. Kd1 Qb1+ 0-1
+
+[Event "Ct. Catalunya eq DH"]
+[Site "?"]
+[Date "2013.04.13"]
+[Round "11.10"]
+[White "Muriel Rojas, F."]
+[Black "Degerhammar, T."]
+[Result "1-0"]
+[ECO "A06"]
+[WhiteElo "2130"]
+[BlackElo "2165"]
+[PlyCount "59"]
+[EventDate "2013.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+
+1. Nf3 c5 2. b3 Nc6 3. Bb2 d5 4. e3 Bg4 5. Bb5 a6 6. Bxc6+ bxc6 7. d3 f6 8.
+Nbd2 e5 9. Qe2 Ne7 10. h3 Be6 11. Nh2 Ng6 12. O-O-O Bd6 13. Rdf1 Qd7 14. g4 Rb8
+15. Nhf3 h6 16. Ne1 Rf8 17. Ng2 f5 18. gxf5 Rxf5 19. f4 Ke7 20. fxe5 Bxe5 21.
+Bxe5 Rxe5 22. Nf3 Rf5 23. Nfh4 Rg5 24. Nxg6+ Rxg6 25. Nf4 Rf6 26. Qh5 Bf5 27.
+e4 dxe4 28. dxe4 g6 29. Qxh6 Bxe4 30. Qg7+ 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2015.01.31"]
+[Round "2.9"]
+[White "Degerhammar, T."]
+[Black "Moreno Garcia, EP."]
+[Result "1/2-1/2"]
+[ECO "A10"]
+[WhiteElo "2102"]
+[BlackElo "2132"]
+[PlyCount "33"]
+[EventDate "2015.??.??"]
+[EventType "team"]
+
+1. c4 g6 2. Nc3 Bg7 3. d3 Nf6 4. g3 d6 5. Bg2 c6 6. e4 a5 7. Nge2 Nbd7 8. h3
+Rb8 9. a4 e5 10. Be3 Nc5 11. O-O O-O 12. Rb1 Ne8 13. f4 Ne6 14. d4 exd4 15.
+Nxd4 N8c7 16. Kh2 Qe7 17. Re1 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2015.03.07"]
+[Round "7.9"]
+[White "Garcia Rubio, JA."]
+[Black "Degerhammar, T."]
+[Result "0-1"]
+[ECO "A85"]
+[WhiteElo "2215"]
+[BlackElo "2102"]
+[PlyCount "114"]
+[EventDate "2015.??.??"]
+[EventType "team"]
+
+1. d4 f5 2. Nf3 Nf6 3. c4 e6 4. Nc3 Bb4 5. g3 O-O 6. Bg2 Bxc3+ 7. bxc3 d6 8.
+O-O c6 9. Bg5 h6 10. Bxf6 Qxf6 11. Nd2 e5 12. e3 Nd7 13. a4 a5 14. Rb1 Qf7 15.
+Qb3 g5 16. f4 gxf4 17. exf4 e4 18. Bxe4 fxe4 19. Nxe4 Qg6 20. f5 Rxf5 21. Rxf5
+Qxf5 22. Nxd6 Qe6 23. c5 Qxb3 24. Rxb3 Nf6 25. Nxc8 Rxc8 26. Rxb7 Nd5 27. Ra7
+Nxc3 28. Kf2 Nxa4 29. Rxa5 Nc3 30. Ra6 Nd5 31. Kf3 Kf7 32. Ra7+ Rc7 33. Ra8 Ke6
+34. Re8+ Re7 35. Rd8 Rd7 36. Re8+ Kf6 37. h4 Nb4 38. Ke4 Nc2 39. Rf8+ Kg7 40.
+Rf2 Rxd4+ 41. Ke5 Rd5+ 42. Ke6 Nd4+ 43. Ke7 Rxc5 44. g4 Re5+ 45. Kd6 Re4 46.
+Rg2 Re6+ 47. Kc5 Nf3 48. h5 Ng5 49. Rh2 Kf6 50. Rf2+ Ke5 51. Rf5+ Ke4 52. Rf1
+Nf3 53. Rf2 Kf4 54. g5 hxg5 55. Ra2 g4 56. Ra8 g3 57. Rg8 Ng5 0-1
+
+[Event "Lliga Catalana DH Final B"]
+[Site "?"]
+[Date "2015.04.11"]
+[Round "10.8"]
+[White "Degerhammar, T."]
+[Black "Serrano Aspa, X."]
+[Result "0-1"]
+[ECO "A10"]
+[WhiteElo "2103"]
+[BlackElo "2262"]
+[PlyCount "92"]
+[EventDate "2015.??.??"]
+[EventType "team"]
+
+1. c4 f5 2. Nc3 Nf6 3. d3 e6 4. g3 d5 5. cxd5 exd5 6. e3 c6 7. d4 Bd6 8. Bg2
+O-O 9. a3 a5 10. Rb1 Qe7 11. Nge2 b5 12. Nf4 Ne4 13. Nce2 b4 14. a4 Ba6 15. O-O
+Nd7 16. Nd3 g5 17. f4 Bxd3 18. Qxd3 g4 19. Bxe4 Qxe4 20. Qxe4 dxe4 21. b3 Nb6
+22. Bb2 Nd5 23. Kf2 Kf7 24. Rbc1 Rac8 25. Rfd1 Ke6 26. Rc2 Kd7 27. Ng1 Be7 28.
+Ne2 Rf6 29. Bc1 h5 30. Kg2 Rh6 31. Rh1 Rch8 32. Bd2 h4 33. Rcc1 hxg3 34. Nxg3
+Rf8 35. Nf1 Rh3 36. Ng3 Kc7 37. Rc2 Kb6 38. Rhc1 Rh6 39. Nf1 Rc8 40. Be1 c5 41.
+Bf2 Rhc6 42. Nd2 cxd4 43. Nc4+ Ka6 44. exd4 Nxf4+ 45. Kg3 Bg5 46. Rd1 Rh6 0-1

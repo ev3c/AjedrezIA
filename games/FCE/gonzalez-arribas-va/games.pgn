@@ -1,0 +1,165 @@
+[Event "Andorra op"]
+[Site "?"]
+[Date "2005.07.16"]
+[Round "8.20"]
+[White "Gonzalez Arribas, VA."]
+[Black "Garcia Paolicchi, R."]
+[Result "1-0"]
+[ECO "B38"]
+[WhiteElo "2252"]
+[BlackElo "2258"]
+[PlyCount "141"]
+[EventDate "2005.??.??"]
+
+1. c4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. e4 Bg7 6. Be3 d6 7. Nc3 Nf6 8. Be2
+O-O 9. O-O Bd7 10. Qd2 a6 11. h3 Re8 12. Rfd1 Qa5 13. a3 Rac8 14. b4 Qc7 15.
+Rac1 Qb8 16. Nb3 Be6 17. f3 Nd7 18. Nd5 f5 19. b5 Nd8 20. Nd4 fxe4 21. Nxe6
+Nxe6 22. fxe4 Nec5 23. bxa6 bxa6 24. Bg4 e6 25. Nf4 Nxe4 26. Qd3 Ndc5 27. Qc2
+Rcd8 28. Nxe6 Nxe6 29. Qxe4 Nc7 30. Qd3 Be5 31. Bg5 Qa7+ 32. Be3 Qb7 33. Rb1
+Qa8 34. Bg5 Qa7+ 35. Kh1 Rb8 36. Be3 Qa8 37. Bf3 d5 38. cxd5 Bd6 39. Rxb8 Qxb8
+40. Rb1 Qd8 41. Bg1 Qf6 42. Bh2 Bxh2 43. Kxh2 Nb5 44. d6 Qe5+ 45. Kh1 Nxd6 46.
+Qd5+ Nf7 47. Rb7 Re7 48. Qxe5 Rxe5 49. a4 Ra5 50. Bd1 Nd6 51. Bb3+ Kh8 52. Re7
+Nf5 53. Rd7 Re5 54. Kg1 a5 55. Kf2 Ne7 56. Bc4 Kg7 57. Bb5 Kf6 58. Ra7 h5 59.
+Rxa5 h4 60. Ra6+ Kg5 61. Be8 Kf5 62. Rb6 g5 63. Rb5 Rxb5 64. Bxb5 Nd5 65. a5
+Nc7 66. Bd3+ Kf4 67. Be2 Ke5 68. a6 Kf4 69. a7 Na8 70. Bf3 Nb6 71. Ke2 1-0
+
+[Event "Andorra op"]
+[Site "?"]
+[Date "2006.07.08"]
+[Round "1.5"]
+[White "Gonzalez Arribas, VA."]
+[Black "Peralta, F."]
+[Result "0-1"]
+[ECO "B14"]
+[WhiteElo "2301"]
+[BlackElo "2546"]
+[PlyCount "72"]
+[EventDate "2006.??.??"]
+[EventCountry "AND"]
+
+1. c4 c6 2. e4 d5 3. exd5 cxd5 4. d4 Nf6 5. Nc3 e6 6. Nf3 Bb4 7. cxd5 Nxd5 8.
+Bd2 Nc6 9. Bc4 O-O 10. Nxd5 Bxd2+ 11. Qxd2 exd5 12. Be2 Bg4 13. O-O Qf6 14.
+Rad1 Rfe8 15. h3 Bh5 16. g4 Bg6 17. Rfe1 Re4 18. Kg2 Rae8 19. Bd3 Rxe1 20. Rxe1
+Be4 21. Bxe4 dxe4 22. Ne5 Nxe5 23. dxe5 Qxe5 24. Qd7 h5 25. Qxb7 hxg4 26. hxg4
+Qf4 27. Re3 Qxg4+ 28. Rg3 Qe6 29. Qxa7 Qd5 30. Qa4 e3+ 31. Kf1 exf2 32. Kxf2
+Qd2+ 33. Kf3 Qe2+ 34. Kf4 Qf2+ 35. Kg4 f5+ 36. Kh3 Qf1+ 0-1
+
+[Event "Andorra op"]
+[Site "?"]
+[Date "2006.07.09"]
+[Round "2.27"]
+[White "Espasa Gonzalez, J."]
+[Black "Gonzalez Arribas, VA."]
+[Result "0-1"]
+[ECO "D31"]
+[WhiteElo "1934"]
+[BlackElo "2301"]
+[PlyCount "50"]
+[EventDate "2006.??.??"]
+[EventCountry "AND"]
+
+1. c4 e6 2. d4 d5 3. Nc3 c6 4. cxd5 exd5 5. g3 Nf6 6. Bg2 Bf5 7. e3 Bd6 8. Nge2
+O-O 9. O-O Nbd7 10. Re1 Re8 11. b3 h5 12. h4 Ne4 13. f4 Ndf6 14. Bb2 Bb4 15. a3
+Bxc3 16. Bxc3 Bg4 17. Qc1 Bxe2 18. Rxe2 Nxg3 19. Rc2 Ng4 20. Be1 Nf5 21. Bf3
+Nfxe3 22. Bxg4 Nxc2 23. Qxc2 hxg4 24. Qg2 Qf6 25. Qd2 Re4 0-1
+
+[Event "Andorra op"]
+[Site "?"]
+[Date "2006.07.10"]
+[Round "3.30"]
+[White "Gonzalez Arribas, VA."]
+[Black "Nunes, L."]
+[Result "1-0"]
+[ECO "A29"]
+[WhiteElo "2301"]
+[BlackElo "2054"]
+[PlyCount "41"]
+[EventDate "2006.??.??"]
+[EventCountry "AND"]
+
+1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. g3 d5 5. cxd5 Nxd5 6. Bg2 Nb6 7. O-O Be7 8.
+a3 O-O 9. b4 Be6 10. d3 Nd4 11. Nd2 Nd5 12. Bb2 a6 13. Rc1 Rc8 14. Nce4 Qd7 15.
+Nc5 Bxc5 16. Rxc5 b6 17. Rc1 f6 18. e3 Nc6 19. Qa4 Nb8 20. Qxd7 Nxd7 21. Rc6
+1-0
+
+[Event "Andorra op"]
+[Site "?"]
+[Date "2006.07.11"]
+[Round "4.18"]
+[White "Recuero Guerra, D."]
+[Black "Gonzalez Arribas, VA."]
+[Result "1-0"]
+[ECO "B72"]
+[WhiteElo "2396"]
+[BlackElo "2301"]
+[PlyCount "45"]
+[EventDate "2006.??.??"]
+[EventCountry "AND"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. Nc3 Bg7 6. Be3 Nf6 7. Bc4 O-O 8.
+Bb3 d6 9. f3 a6 10. Qd2 Na5 11. O-O-O b5 12. h4 Bd7 13. h5 Nc4 14. Bxc4 bxc4
+15. Bh6 Qa5 16. g4 Rab8 17. Bxg7 Kxg7 18. hxg6 fxg6 19. Qh6+ Kg8 20. g5 Rf7 21.
+gxf6 exf6 22. Nd5 Qxa2 23. Nxf6+ 1-0
+
+[Event "Andorra op"]
+[Site "?"]
+[Date "2006.07.12"]
+[Round "5.29"]
+[White "Gonzalez Arribas, VA."]
+[Black "Prieto Velasco, R."]
+[Result "1-0"]
+[ECO "A17"]
+[WhiteElo "2301"]
+[BlackElo "1563"]
+[PlyCount "32"]
+[EventDate "2006.??.??"]
+[EventCountry "AND"]
+
+1. c4 Nf6 2. Nc3 e6 3. Nf3 Bb4 4. g3 c5 5. Bg2 O-O 6. O-O Nc6 7. d3 h6 8. Bf4
+d6 9. h3 Nh5 10. Bd2 e5 11. a3 Bxc3 12. Bxc3 f5 13. e3 Rb8 14. Nxe5 dxe5 15.
+Qxh5 Qxd3 16. Rad1 Qxc4 1-0
+
+[Event "Andorra op"]
+[Site "?"]
+[Date "2006.07.13"]
+[Round "6.14"]
+[White "Caruana, F."]
+[Black "Gonzalez Arribas, VA."]
+[Result "1/2-1/2"]
+[ECO "B37"]
+[WhiteElo "2444"]
+[BlackElo "2301"]
+[PlyCount "118"]
+[EventDate "2006.??.??"]
+[EventCountry "AND"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. c4 Bg7 6. Nc2 d6 7. Nc3 Nh6 8. Bd3
+O-O 9. O-O f5 10. Bxh6 Bxh6 11. exf5 Bxf5 12. Bxf5 Rxf5 13. Nd4 Nxd4 14. Qxd4
+Bg7 15. Qd3 Bxc3 16. Qxc3 Rc8 17. Qe3 a6 18. Qe6+ Kf8 19. Rfe1 Rcc5 20. Rad1
+Qc7 21. b3 b5 22. Rd5 bxc4 23. Rxf5+ Rxf5 24. bxc4 Rf7 25. h3 Qc5 26. Re2 a5
+27. Qe4 Qf5 28. Qd4 Qf6 29. Qd2 Qf5 30. Qc3 Rf6 31. Qe3 Rf7 32. h4 Qg4 33. Qc3
+Rf6 34. Qe3 Rf7 35. Qc3 Rf6 36. Qe3 Rf7 37. c5 dxc5 38. Qe5 Qd4 39. Qxd4 cxd4
+40. Re4 d3 41. Rd4 d2 42. Rxd2 Rf4 43. g3 Ra4 44. Kf1 Kf7 45. Ke2 Kf6 46. f3
+Kf5 47. Kf2 e5 48. Rb2 Ra3 49. Re2 Ra4 50. Rb2 h6 51. Rc2 g5 52. hxg5 hxg5 53.
+Rb2 g4 54. Re2 gxf3 55. Kxf3 e4+ 56. Kf2 Kg4 57. Ke3 Kxg3 58. Rb2 Kg4 59. Rb5
+Rxa2 1/2-1/2
+
+[Event "Andorra op"]
+[Site "?"]
+[Date "2006.07.14"]
+[Round "7.20"]
+[White "Gonzalez Arribas, VA."]
+[Black "Sundararajan, K."]
+[Result "0-1"]
+[ECO "D40"]
+[WhiteElo "2301"]
+[BlackElo "2472"]
+[PlyCount "62"]
+[EventDate "2006.??.??"]
+[EventCountry "AND"]
+
+1. c4 e6 2. Nc3 d5 3. d4 c5 4. e3 Nf6 5. Nf3 a6 6. a3 dxc4 7. Bxc4 b5 8. Bb3
+Bb7 9. O-O Nbd7 10. Re1 Qb6 11. Bc2 Be7 12. e4 cxd4 13. Nxd4 Ne5 14. Nd5 exd5
+15. exd5 Nfg4 16. h3 Bc5 17. Qxg4 Bxd4 18. Qxg7 O-O-O 19. Rxe5 Rhg8 20. Qxh7
+Bxe5 21. Qf5+ Rd7 22. Qxe5 Bxd5 23. g3 f6 24. Qf4 Qe6 25. Be3 Qxh3 26. Be4 Rh8
+27. Rc1+ Bc4 28. g4 Rhd8 29. Bf3 Rd1+ 30. Bxd1 Qf1+ 31. Kh2 Rh8+ 0-1

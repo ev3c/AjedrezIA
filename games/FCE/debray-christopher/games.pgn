@@ -1,0 +1,173 @@
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.19"]
+[Round "2"]
+[White "Debray, Christopher"]
+[Black "Orteu Capdevila, Max"]
+[Result "1-0"]
+[ECO "B31"]
+[WhiteElo "2358"]
+[BlackElo "2161"]
+[PlyCount "83"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Na3 g6 3. Nf3 Bg7 4. c3 d6 5. d4 Nf6 6. Bd3 Nc6 7. d5 Nb8 8. h3 O-O
+9. O-O a6 10. c4 e6 11. Re1 exd5 12. exd5 Nh5 13. Bg5 Bf6 14. Qd2 Nd7 15. Bh6
+Re8 16. Rxe8+ Qxe8 17. Re1 Ne5 18. Nxe5 Bxe5 19. g4 Ng7 20. Bf4 f6 21. Bxe5
+fxe5 22. f4 Qd8 23. fxe5 Qh4 24. Bf1 h5 25. e6 hxg4 26. Qf2 g3 27. Qf7+ Kh8 28.
+Nc2 b5 29. Qxg6 bxc4 30. Re4 Qh7 31. Qxh7+ Kxh7 32. Bxc4 Bb7 33. Rh4+ Kg6 34.
+Ne3 Nh5 35. Bd3+ Kg5 36. Rg4+ Kf6 37. Bg6 Nf4 38. Rxf4+ Kxg6 39. Kg2 Rh8 40.
+Rf7 Ba8 41. Kxg3 Rh5 42. Rf8 1-0
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.20"]
+[Round "3"]
+[White "Grigoryan, Karen H"]
+[Black "Debray, Christopher"]
+[Result "1-0"]
+[ECO "B12"]
+[WhiteElo "2570"]
+[BlackElo "2358"]
+[PlyCount "67"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 c6 2. d4 d5 3. e5 c5 4. dxc5 e6 5. Qg4 h5 6. Qg3 h4 7. Qg4 Nh6 8. Bxh6
+Rxh6 9. Nf3 g6 10. Nc3 Bxc5 11. O-O-O Bd7 12. Qf4 Rh5 13. Bd3 Be7 14. Kb1 a6
+15. Rhe1 Qb6 16. Nd4 Ba3 17. Nb3 Be7 18. Be2 Rh8 19. Rxd5 exd5 20. Nxd5 g5 21.
+Nxb6 gxf4 22. Nxa8 Bc6 23. Nd4 Bxg2 24. e6 b5 25. Nc7+ Kd8 26. exf7 Kxc7 27.
+Bf3 Bxf3 28. Rxe7+ Kd8 29. Re8+ Rxe8 30. fxe8=Q+ Kxe8 31. Nxf3 Kf7 32. Kc1 Kf6
+33. Kd2 Kf5 34. h3 1-0
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.22"]
+[Round "5"]
+[White "Campos Olaya, Israel"]
+[Black "Debray, Christopher"]
+[Result "0-1"]
+[ECO "B12"]
+[WhiteElo "2189"]
+[BlackElo "2358"]
+[PlyCount "48"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 c6 2. d4 d5 3. e5 c5 4. dxc5 e6 5. a3 Bxc5 6. b4 Bb6 7. Qg4 Ne7 8. Qxg7
+Rg8 9. Qxh7 Bd4 10. Ra2 Bxe5 11. Nf3 Bf6 12. c4 e5 13. Nc3 Rh8 14. Qc2 Bf5 15.
+Qa4+ Bd7 16. Qb3 e4 17. Ng5 Nf5 18. Nxd5 Bxg5 19. Qc3 Rh6 20. Re2 e3 21. g4 Nh4
+22. Bxe3 Kf8 23. Bc5+ Kg8 24. f4 Bf6 0-1
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.23"]
+[Round "6"]
+[White "Debray, Christopher"]
+[Black "Munoz Pantoja, Miguel Angel"]
+[Result "0-1"]
+[ECO "B01"]
+[WhiteElo "2358"]
+[BlackElo "2497"]
+[PlyCount "98"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d4 Nf6 5. Bd2 Qb6 6. Nf3 Bg4 7. h3 Bxf3 8.
+Qxf3 Nc6 9. d5 Nd4 10. Qd3 e5 11. Na4 Qd6 12. c3 b5 13. cxd4 bxa4 14. Qb5+ Nd7
+15. Qxa4 Qxd5 16. Bc4 Qe4+ 17. Be3 c6 18. dxe5 Nc5 19. Bxf7+ Kxf7 20. Qxe4 Nxe4
+21. Rc1 Re8 22. Rxc6 Bb4+ 23. Ke2 Rxe5 24. Rc7+ Re7 25. Rhc1 a5 26. a3 Bd6 27.
+Rxe7+ Kxe7 28. Rc4 Nf6 29. Ra4 Rb8 30. Rxa5 Rxb2+ 31. Kf3 Rb3 32. a4 Ke6 33.
+Ra7 Bf8 34. Ke2 Nd5 35. Bd2 Nc3+ 36. Bxc3 Rxc3 37. f4 h5 38. Ra5 h4 39. Rg5 Kf6
+40. Rh5 Be7 41. Rxh4 Kf5 42. Rg4 Bf6 43. Kf2 Ra3 44. Kg1 Rxa4 45. Rg3 Ra1+ 46.
+Kh2 Kxf4 47. Rb3 Be5 48. g3+ Ke4 49. h4 Kf5 0-1
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.25"]
+[Round "8"]
+[White "Debray, Christopher"]
+[Black "Haag, Gregor"]
+[Result "1/2-1/2"]
+[ECO "E01"]
+[WhiteElo "2358"]
+[BlackElo "2252"]
+[PlyCount "47"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 dxc4 3. Nf3 Nf6 4. g3 c5 5. Qa4+ Nc6 6. dxc5 e6 7. Qxc4 Qd5 8.
+Nbd2 Bxc5 9. Bg2 O-O 10. O-O Bd7 11. a3 Rac8 12. Qxd5 Nxd5 13. Ne4 Be7 14. Bd2
+f5 15. Nc3 Nb6 16. Rad1 Rfd8 17. Nb5 a6 18. Nbd4 Nxd4 19. Nxd4 Ba4 20. b3 Rxd4
+21. bxa4 Rcd8 22. Rb1 Rxd2 23. Rxb6 Rxe2 24. Bf3 1/2-1/2
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.26"]
+[Round "9"]
+[White "Groetzbach, Julian"]
+[Black "Debray, Christopher"]
+[Result "1-0"]
+[ECO "B18"]
+[WhiteElo "2251"]
+[BlackElo "2358"]
+[PlyCount "79"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. Nh3 e6 7. Nf4 Bd6 8.
+Ngh5 Bxh5 9. Nxh5 g6 10. Ng3 Nf6 11. Bc4 Nbd7 12. Qf3 Qc7 13. Bg5 Qa5+ 14. Bd2
+Qb6 15. O-O-O Qxd4 16. Bg5 Qxc4 17. Rxd6 Qg4 18. Qe3 Nd5 19. Qd2 h6 20. Be3
+N7b6 21. b3 Nc8 22. f3 Qh4 23. Ne4 Nxd6 24. Nxd6+ Ke7 25. Ne4 f5 26. Bc5+ Kf7
+27. Nd6+ Kg7 28. c4 Qf6 29. cxd5 Qa1+ 30. Kc2 Qxa2+ 31. Kc3 Qxd2+ 32. Kxd2 cxd5
+33. Re1 Kh7 34. Rxe6 Rhg8 35. Bd4 g5 36. Nxf5 Rg6 37. Re7+ Kg8 38. Rxb7 Re6 39.
+Rg7+ Kf8 40. Bc5+ 1-0

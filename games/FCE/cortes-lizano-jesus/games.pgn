@@ -1,0 +1,148 @@
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.23"]
+[Round "2"]
+[White "Valsecchi, Alessio"]
+[Black "Cortes Lizano, Jesus"]
+[Result "1-0"]
+[ECO "B05"]
+[WhiteElo "2506"]
+[BlackElo "2204"]
+[PlyCount "47"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. Nf3 Bg4 5. Be2 e6 6. h3 Bh5 7. O-O Be7 8. a4
+O-O 9. a5 c5 10. exd6 Bxd6 11. dxc5 Bxc5 12. Ne5 Bxe2 13. Qxe2 Qc7 14. Nd3 Be7
+15. Ra4 Na6 16. b3 Ndb4 17. Nxb4 Bxb4 18. Bb2 Be7 19. Na3 Rfd8 20. Rg4 Bf8 21.
+Nc4 b5 22. axb6 axb6 23. Bf6 Rd5 24. Rxg7+ 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.03.02"]
+[Round "7.10"]
+[White "Cortés Lizano, Jesús"]
+[Black "Hermán Gamazo, Isaac"]
+[Result "1-0"]
+[ECO "C95"]
+[WhiteElo "2182"]
+[BlackElo "2096"]
+[PlyCount "115"]
+[EventDate "2024.04.13"]
+[EventType "team"]
+[EventRounds "11"]
+[EventCountry "CAT"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3
+O-O 9. h3 Nb8 10. d4 Nbd7 11. Nbd2 Bb7 12. a4 c5 13. g4 Qc7 14. d5 c4 15. Bc2
+Rfb8 16. Nf1 Bf8 17. Ng3 g6 18. g5 Ne8 19. Nh2 bxa4 20. Ng4 Nb6 21. Bxa4 Nxa4
+22. Rxa4 Bg7 23. Nf1 a5 24. Nfe3 Ba6 25. Qf3 Bb5 26. Ra1 Qd8 27. Nh6+ Bxh6 28.
+gxh6 Qf6 29. Qg2 Qe7 30. Qf3 Nf6 31. Kh2 Nd7 32. Rg1 Kf8 33. Ng4 Ke8 34. Ra2 f6
+35. Qg3 Kd8 36. f4 Kc7 37. Rf1 a4 38. Ra1 Rf8 39. fxe5 fxe5 40. Be3 Rf7 41.
+Rxf7 Qxf7 42. Kg1 Rf8 43. Qg2 g5 44. Rf1 Qh5 45. Rxf8 Nxf8 46. Qf3 Bd7 47. Qxf8
+Qxh3 48. Bb6+ Kxb6 49. Qxd6+ Ka5 50. Qc7+ Ka6 51. Qxd7 Qg3+ 52. Kf1 Qd3+ 53.
+Kf2 Qd2+ 54. Kf3 Qd1+ 55. Kg2 Qe2+ 56. Nf2 Ka5 57. Qxh7 g4 58. Qc7+ 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "Barcelona, Spain"]
+[Date "2024.03.09"]
+[Round "8.10"]
+[White "Cortes Lizano, Jesus"]
+[Black "Romeu Viladot, Emili"]
+[Result "0-1"]
+[ECO "B26"]
+[WhiteElo "2182"]
+[BlackElo "1934"]
+[PlyCount "84"]
+[EventDate "2024.??.??"]
+[TimeControl "90+30"]
+[WhiteClock "0:01:17"]
+[BlackClock "0:15:51"]
+
+1. e4 {[%emt 0:00:20]} c5 {[%emt 0:00:27]} 2. Nc3 {[%emt 0:00:15]} e6 {[%emt 0:
+00:45]} 3. g3 {[%emt 0:01:46]} Nc6 {[%emt 0:00:11]} 4. Bg2 {[%emt 0:00:07]} g6
+{[%emt 0:01:10]} 5. d3 {[%emt 0:00:13]} Bg7 {[%emt 0:00:21]} 6. Be3 {[%emt 0:
+00:10]} d6 {[%emt 0:00:06]} 7. Qd2 {[%emt 0:00:11]} Rb8 {[%emt 0:01:49]} 8.
+Nge2 {[%emt 0:00:18]} Nd4 {[%emt 0:00:35]} 9. Nd1 {[%emt 0:11:43]} b5 {[%emt 0:
+01:09]} 10. Nc1 {[%emt 0:04:02]} b4 {[%emt 0:04:22]} 11. c3 {[%emt 0:01:52]}
+bxc3 {[%emt 0:00:36]} 12. bxc3 {[%emt 0:00:07]} Nc6 {[%emt 0:00:29]} 13. O-O {
+[%emt 0:00:37]} Ba6 {[%emt 0:01:17]} 14. f4 {[%emt 0:04:49]} Nce7 {[%emt 0:18:
+10]} 15. h3 {[%emt 0:03:59]} h5 {[%emt 0:01:12]} 16. Rf2 {[%emt 0:16:09]} f5 {
+[%emt 0:00:08]} 17. Nb3 {[%emt 0:21:29]} c4 {[%emt 0:09:14]} 18. Nd4 {[%emt 0:
+02:55]} Qc8 {[%emt 0:08:40]} 19. dxc4 {[%emt 0:03:19]} fxe4 {[%emt 0:03:42]}
+20. Nb5 {[%emt 0:02:57]} Bxb5 {[%emt 0:00:24]} 21. cxb5 {[%emt 0:00:43]} d5 {
+[%emt 0:00:03]} 22. a4 {[%emt 0:00:48]} a6 {[%emt 0:03:21]} 23. Bd4 {[%emt 0:
+04:05]} Nf6 {[%emt 0:00:50]} 24. Rb1 {[%emt 0:03:32]} Nc6 {[%emt 0:06:32]} 25.
+Be5 {[%emt 0:05:02]} Nxe5 {[%emt 0:00:38]} 26. fxe5 {[%emt 0:00:06]} Nd7 {
+[%emt 0:00:35]} 27. Qg5 {[%emt 0:00:14]} Nxe5 {[%emt 0:01:09]} 28. Kh1 {
+[%emt 0:08:58]} Qd8 {[%emt 0:02:12]} 29. Qd2 {[%emt 0:00:54]} axb5 {[%emt 0:01:
+48]} 30. axb5 {[%emt 0:00:18]} Nd3 {[%emt 0:03:46]} 31. Re2 {[%emt 0:00:49]}
+Bh6 {[%emt 0:02:06]} 32. Qc2 {[%emt 0:00:32]} O-O {[%emt 0:00:19]} 33. c4 {
+[%emt 0:02:37]} Qd6 {[%emt 0:00:58]} 34. cxd5 {[%emt 0:01:20]} exd5 {[%emt 0:
+00:22]} 35. Ne3 {[%emt 0:00:11]} Qxg3 {[%emt 0:04:28]} 36. Nxd5 {[%emt 0:00:06]
+} Nf2+ {[%emt 0:00:11]} 37. Rxf2 {[%emt 0:01:19]} Rxf2 {[%emt 0:00:48]} 38.
+Qxe4 {[%emt 0:00:06]} Rf7 {[%emt 0:01:22]} 39. Rg1 {[%emt 0:02:21]} Rbf8 {
+[%emt 0:01:23]} 40. b6 {[%emt 0:00:14]} Bg7 {[%emt 0:00:34]} 41. Re1 {[%emt 0:
+00:20]} Rf2 {[%emt 0:00:53]} 42. Re3 {[%emt 0:04:42]} Rf1+ {[%emt 0:00:14]} 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.04.06"]
+[Round "10.10"]
+[White "Cortes Lizano, Jesus"]
+[Black "Gonzalez Cuervo, Eloy"]
+[Result "1-0"]
+[ECO "D31"]
+[WhiteElo "2194"]
+[BlackElo "2161"]
+[PlyCount "103"]
+[EventDate "2024.04.13"]
+[EventType "team"]
+[EventRounds "11"]
+[EventCountry "CAT"]
+
+1. c4 e6 2. Nf3 d5 3. d4 Be7 4. Nc3 a6 5. e4 dxe4 6. Nxe4 Nf6 7. Bd3 O-O 8. O-O
+Nxe4 9. Bxe4 Nd7 10. Qe2 c5 11. Rd1 cxd4 12. Nxd4 Qc7 13. b3 Nc5 14. Bc2 e5 15.
+Nf5 Bxf5 16. Bxf5 g6 17. Bc2 Ne6 18. Bb2 f6 19. Be4 Kh8 20. Bd5 Nf4 21. Qf3
+Rab8 22. g3 Nh3+ 23. Kg2 Ng5 24. Qe2 Rbe8 25. h4 Nf7 26. Rac1 Bc5 27. Qf3 Nd8
+28. Rc2 Nc6 29. Bxc6 bxc6 30. Rcd2 Rf7 31. Bc3 a5 32. h5 gxh5 33. Qxh5 Rg8 34.
+Bxa5 Qa7 35. Bc3 Rfg7 36. Qf3 Bxf2 37. Rxf2 Rxg3+ 38. Qxg3 Qe3 39. Qxg8+ Kxg8
+40. Rd8+ Kf7 41. Bd2 Qe4+ 42. Kf1 Qh1+ 43. Ke2 Qh5+ 44. Kd3 Ke7 45. Rg8 f5 46.
+Bb4+ Ke6 47. Kc2 f4 48. Bc3 Qf7 49. Rg5 f3 50. Rxe5+ Kd6 51. Re3 Qa7 52. Rd2+
+1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.04.13"]
+[Round "11.10"]
+[White "Dorca Dilme, Ramon"]
+[Black "Cortes Lizano, Jesus"]
+[Result "1/2-1/2"]
+[ECO "A36"]
+[WhiteElo "2044"]
+[BlackElo "2173"]
+[PlyCount "26"]
+[EventDate "2024.04.13"]
+[EventType "team"]
+[EventRounds "11"]
+[EventCountry "CAT"]
+[TimeControl "90+30"]
+[WhiteClock "1:19:47"]
+[BlackClock "0:58:57"]
+
+1. e4 {[%emt 0:00:00]} c5 {[%emt 0:00:18]} 2. c4 {[%emt 0:00:25]} d6 {[%emt 0:
+00:51]} 3. Nc3 {[%emt 0:00:07]} Nc6 {[%emt 0:00:14]} 4. g3 {[%emt 0:00:12]} g6
+{[%emt 0:00:09]} 5. Bg2 {[%emt 0:00:10]} Bg7 {[%emt 0:00:06]} 6. Nge2 {[%emt 0:
+00:14]} e6 {[%emt 0:01:40]} 7. O-O {[%emt 0:00:17]} Nge7 {[%emt 0:00:14]} 8. d3
+{[%emt 0:00:13]} O-O {[%emt 0:00:28]} 9. Be3 {[%emt 0:00:26]} Nd4 {[%emt 0:00:
+27]} 10. Qd2 {[%emt 0:02:34]} Qa5 {[%emt 0:05:36]} 11. Rad1 {[%emt 0:19:28]}
+Nec6 {[%emt 0:01:25]} 12. Nc1 {[%emt 0:09:29]} Re8 {[%emt 0:04:10]} 13. f4 {
+[%emt 0:04:20]} f5 {[%emt 0:01:43]} 1/2-1/2

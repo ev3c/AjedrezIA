@@ -1,0 +1,80 @@
+[Event "Obert Barcelona A"]
+[Site "Barcelona"]
+[Date "2002.10.04"]
+[Round "1"]
+[White "Leiro Giralt, D."]
+[Black "Martinez Torres, F."]
+[Result "0-1"]
+[ECO "B24"]
+[WhiteElo "2265"]
+[BlackElo "2120"]
+[PlyCount "88"]
+[EventDate "2002.??.??"]
+
+1. e4 c5 2. Nc3 e6 3. Nge2 Nf6 4. g3 Nc6 5. Bg2 d5 6. exd5 exd5 7. d4 Be6 8.
+Bg5 cxd4 9. Nxd4 Qb6 10. Bxf6 gxf6 11. Nxe6 fxe6 12. Qh5+ Ke7 13. O-O d4 14.
+Ne4 Qa5 15. Qh4 Bg7 16. Rfe1 h5 17. Qf4 Rad8 18. Qf3 h4 19. Qg4 Kf7 20. Bh3 Qd5
+21. Nd2 Ne5 22. Qe2 d3 23. cxd3 Qxd3 24. f4 Qxd2 25. fxe5 hxg3 26. Bxe6+ Kxe6
+27. exf6+ Qxe2 28. Rxe2+ Kxf6 29. Rf1+ Kg5 30. hxg3 Rh3 31. Rf7 Bd4+ 32. Kg2
+Rdh8 33. Kf3 Rh2 34. Rxh2 Rxh2 35. Rd7 Bb6 36. Rd5+ Kg6 37. Rb5 Bd4 38. b4 Rxa2
+39. Rxb7 Kg5 40. Rb5+ Kg6 41. Rb7 Bb6 42. Re7 Ra3+ 43. Kf4 Rb3 44. Re4 Bc7+ 0-1
+
+[Event "Obert Barcelona A"]
+[Site "Barcelona"]
+[Date "2002.10.25"]
+[Round "4"]
+[White "Martinez Torres, F."]
+[Black "Izuel Samitier, F."]
+[Result "1-0"]
+[ECO "E63"]
+[WhiteElo "2120"]
+[BlackElo "2130"]
+[PlyCount "83"]
+[EventDate "2002.??.??"]
+
+1. d4 Nf6 2. Nf3 g6 3. g3 Bg7 4. Bg2 O-O 5. c4 d6 6. O-O Nc6 7. Nc3 a6 8. e4
+Re8 9. h3 e5 10. d5 Nd4 11. Kh2 Rb8 12. b4 h6 13. Be3 c5 14. dxc6 Nxf3+ 15.
+Bxf3 bxc6 16. Rb1 Be6 17. Qe2 Qc8 18. Bg2 a5 19. a3 axb4 20. axb4 Qa6 21. b5
+Qa5 22. Rfc1 Rec8 23. Bd2 Kh7 24. Nd5 Qd8 25. Nb4 cxb5 26. cxb5 Rxc1 27. Bxc1
+Bd7 28. Nd5 Nxd5 29. exd5 Qa5 30. Bf1 f5 31. Be3 e4 32. Qc4 Rc8 33. Qb4 Qxb4
+34. Rxb4 Bc3 35. Rb1 Rb8 36. Ba7 Rb7 37. b6 Bd4 38. Ba6 Bc8 39. Bxb7 Bxb7 40.
+Rc1 Bc5 41. Rxc5 dxc5 42. d6 1-0
+
+[Event "Ct. Catalunya equips 1 Div."]
+[Site "?"]
+[Date "2004.??.??"]
+[Round "3"]
+[White "Martinez Torres, F."]
+[Black "Porras Mateo, F."]
+[Result "1-0"]
+[ECO "A57"]
+[PlyCount "93"]
+[EventDate "2004.??.??"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. b6 d6 6. Nc3 Nbd7 7. g3 g6 8. Bg2 Bg7
+9. Nf3 O-O 10. O-O Qxb6 11. a4 Rb8 12. Nd2 Qc7 13. a5 e6 14. Nc4 e5 15. e4 Ne8
+16. Ne3 f5 17. exf5 gxf5 18. Bh3 f4 19. Be6+ Kh8 20. Nf5 fxg3 21. fxg3 Ndf6 22.
+Bxc8 Qxc8 23. Ra4 Rb4 24. Ne7 Qh3 25. Nc6 Rd4 26. Nxd4 exd4 27. Nb1 Rg8 28. Rf4
+Nxd5 29. Rh4 Qf5 30. Na3 Nef6 31. Nc4 Ne4 32. Qf1 Qg6 33. Qd3 Bf6 34. Rxe4 Nb4
+35. Rxb4 d5 36. Rb6 dxe4 37. Qf1 Rf8 38. Ne5 Qg7 39. Nd7 Qxd7 40. Rxf6 Rxf6 41.
+Qxf6+ Qg7 42. Qxa6 h6 43. Qc8+ Kh7 44. Qxc5 e3 45. Qf5+ Kh8 46. a6 Qa7 47. Qc8+
+1-0
+
+[Event "Ct. Catalunya equips 1 Div."]
+[Site "?"]
+[Date "2004.??.??"]
+[Round "5"]
+[White "Bravo Barranco, N."]
+[Black "Martinez Torres, F."]
+[Result "1-0"]
+[ECO "B52"]
+[PlyCount "89"]
+[EventDate "2004.??.??"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. a4 Nc6 5. O-O Nf6 6. Re1 e6 7. c3 Be7 8. d4
+cxd4 9. cxd4 a6 10. Bf1 Rc8 11. d5 exd5 12. exd5 Nb4 13. Nc3 Bg4 14. Qb3 a5 15.
+Bb5+ Bd7 16. Bg5 O-O 17. Re2 Bxb5 18. axb5 Re8 19. Rae1 Nd3 20. Rd1 Nc5 21. Qc2
+Qd7 22. Rde1 Bd8 23. Nd4 Rxe2 24. Qxe2 h6 25. Bh4 Kf8 26. h3 g6 27. Qf3 Kg7 28.
+Re3 Nh5 29. Bxd8 Rxd8 30. g4 Nf6 31. Qf4 Re8 32. Nc2 Rxe3 33. Nxe3 Ne8 34. Nc4
+Qd8 35. Qe3 a4 36. Kg2 g5 37. Ne2 Nf6 38. Ng3 Nxd5 39. Qd4+ Nf6 40. Nxd6 Ne6
+41. Qe5 Nf4+ 42. Kh2 b6 43. Ngf5+ Kg6 44. Ne7+ Kg7 45. Ndf5+ 1-0

@@ -1,0 +1,357 @@
+[Event "Lliga Catalana eq. DH gr. 2 "]
+[Site "?"]
+[Date "2016.02.13"]
+[Round "4.3"]
+[White "Stella, Andrea"]
+[Black "Montilla Carrillo, Esteban"]
+[Result "1-0"]
+[ECO "A37"]
+[WhiteElo "2413"]
+[BlackElo "2204"]
+[PlyCount "205"]
+[EventDate "2016.??.??"]
+[EventType "team"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2016.03.03"]
+
+1. Nf3 c5 2. c4 d6 3. Nc3 e5 4. g3 g6 5. Bg2 Bg7 6. O-O Ne7 7. a3 Nbc6 8. b4
+O-O 9. Rb1 h6 10. d3 Rb8 11. Ne1 Be6 12. Nc2 Qd7 13. Nd5 f5 14. b5 Nd8 15.
+Nxe7+ Qxe7 16. Ne3 Kh7 17. Nd5 Bxd5 18. Bxd5 Ne6 19. e3 Nc7 20. Bg2 Ne8 21. Qa4
+b6 22. Qb3 Nf6 23. a4 e4 24. Bb2 Rbd8 25. Bxf6 Bxf6 26. dxe4 fxe4 27. Rbd1 Bg7
+28. Qc2 Rde8 29. Rd5 Rf5 30. Rfd1 Rxd5 31. Rxd5 Qe6 32. h3 Kg8 33. Qd1 Bf8 34.
+a5 h5 35. a6 Qf6 36. Qc2 Qe6 37. Qd1 Qf6 38. g4 h4 39. g5 Qe6 40. Qg4 Qxg4 41.
+hxg4 Kf7 42. Kh2 Re6 43. Kh3 Bg7 44. Kxh4 Re8 45. Bf1 Re6 46. Kg3 Be5+ 47. Kg2
+Bc3 48. Be2 Bb2 49. Bd1 Bc3 50. Bc2 Bb2 51. Kf1 Ba1 52. Ke2 Bb2 53. Rd1 Bc3 54.
+Rh1 Kg7 55. Rd1 Bb2 56. Rd5 Kf7 57. Kd2 Ba1 58. Bd1 Bb2 59. Be2 Ba1 60. Bf1 Bb2
+61. Bg2 Ba1 62. Bf1 Bb2 63. Be2 Ba1 64. Bd1 Bb2 65. Bc2 Ba1 66. Bb1 Bb2 67. Ke2
+Bc3 68. Rd1 Bb2 69. f4 exf3+ 70. Kxf3 Kg7 71. Be4 Bc3 72. Bc6 Be5 73. Ke4 Bg3+
+74. Kd5 Re7 75. Bb7 Bh2 76. Rh1 Bg3 77. Rh3 Be5 78. Bc8 Rc7 79. Bb7 Re7 80. Rf3
+Kg8 81. Bc8 Kg7 82. Be6 Rc7 83. Rf2 Re7 84. Rf1 Rc7 85. Re1 Re7 86. Re2 Rc7 87.
+Rd2 Kf8 88. Rf2+ Kg7 89. Rf1 Re7 90. Rg1 Rc7 91. Re1 Re7 92. Rd1 Rc7 93. Rc1
+Re7 94. Rb1 Rc7 95. Rh1 Re7 96. Rh6 Rc7 97. Rh3 Re7 98. Bc8 Rc7 99. Bb7 Rf7
+100. Ke6 Kf8 101. Rf3 Kg7 102. Kd5 Re7 103. Kc6 1-0
+
+[Event "Catalunya-chT Gp2"]
+[Site "Barcelona"]
+[Date "2017.02.25"]
+[Round "6.6"]
+[White "Stella, Andrea"]
+[Black "Arnaudov, Petar G"]
+[Result "1-0"]
+[ECO "E60"]
+[WhiteElo "2480"]
+[BlackElo "2064"]
+[PlyCount "87"]
+[EventDate "2017.01.21"]
+[EventType "team-tourn"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+[WhiteTeam "Colon Sabadell"]
+[BlackTeam "Barbera"]
+[WhiteTeamCountry "ESP"]
+[BlackTeamCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. g3 O-O 5. Bg2 c5 6. Nc3 cxd4 7. Nxd4 Qc7 8.
+Qd3 Nc6 9. O-O Ne5 10. Qe3 Nxc4 11. Qxe7 Qb6 12. Nc2 d6 13. Ne3 Nxe3 14. Qxe3
+Qa6 15. Rd1 Bf5 16. Qf4 d5 17. Be3 Rac8 18. Bd4 Rc4 19. Nxd5 Nxd5 20. Bxd5 Rxd4
+21. Rxd4 Bxd4 22. Qxd4 Qxe2 23. Bxb7 Rb8 24. Qxa7 Rd8 25. Bd5 Rd7 26. Qb8+ Kg7
+27. Qb3 f6 28. Bf3 Qe5 29. Qc3 Qb8 30. Rc1 g5 31. b4 Kg6 32. g4 Be6 33. Re1 Bf7
+34. a4 Kg7 35. a5 Qf4 36. a6 Rc7 37. Qe3 Qxb4 38. Ra1 Qb2 39. Qe1 Qb6 40. Qa5
+Qd4 41. a7 Rc2 42. Qe1 Rxf2 43. Qxf2 Qxa1+ 44. Kg2 1-0
+
+[Event "Catalunya-chT GpA final"]
+[Site "Barcelona"]
+[Date "2017.04.01"]
+[Round "4.5"]
+[White "Stella, Andrea"]
+[Black "Garriga Cazorla, Pere"]
+[Result "1-0"]
+[ECO "E46"]
+[WhiteElo "2500"]
+[BlackElo "2385"]
+[PlyCount "83"]
+[EventDate "2017.03.11"]
+[EventType "team-tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+[WhiteTeam "Colon Sabadell"]
+[BlackTeam "Mollet"]
+[WhiteTeamCountry "ESP"]
+[BlackTeamCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Nge2 d5 6. a3 Be7 7. Ng3 c5 8. dxc5
+dxc4 9. Qc2 Bxc5 10. Bxc4 a6 11. O-O b5 12. Ba2 Nbd7 13. Nce4 Be7 14. Nxf6+
+Nxf6 15. Rd1 Qb6 16. b4 Bb7 17. e4 a5 18. Bd2 axb4 19. Bxb4 Bxb4 20. axb4 Ra4
+21. e5 Nd5 22. Bxd5 Rxa1 23. Rxa1 Bxd5 24. Qc3 Qb7 25. Nh5 Be4 26. Qd4 h6 27.
+f3 Bg6 28. Nf4 Bf5 29. h3 Rc8 30. Ra7 Qb8 31. Re7 Rc4 32. Qd6 Qc8 33. Nh5 Bg6
+34. Rd7 Kh7 35. Rd8 Qxd8 36. Qxd8 Bxh5 37. Qa5 Bg6 38. Qxb5 Bd3 39. Qd7 Bg6 40.
+b5 Rb4 41. Qc6 Bd3 42. b6 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2018.02.17"]
+[Round "5.4"]
+[White "Moskalenko, Viktor"]
+[Black "Stella, Andrea"]
+[Result "0-1"]
+[ECO "E41"]
+[WhiteElo "2588"]
+[BlackElo "2429"]
+[PlyCount "80"]
+[EventDate "2018.??.??"]
+[WhiteTeam "EEB"]
+[BlackTeam "CCS"]
+
+1. d4 e6 2. c4 Bb4+ 3. Nc3 c5 4. e3 Nc6 5. Nf3 Nf6 6. Bd3 Bxc3+ 7. bxc3 d6 8.
+e4 e5 9. d5 Ne7 10. Nd2 h6 11. Nf1 Qa5 12. Bd2 Bg4 13. Qb3 O-O-O 14. Ne3 Bd7
+15. O-O g5 16. Rfb1 Qc7 17. Rb2 Kb8 18. Rab1 Bc8 19. Nc2 Qa5 20. Ne3 Rhg8 21.
+Qd1 g4 22. Nc2 h5 23. Qc1 Ka8 24. Rb3 Rg6 25. Nd4 exd4 26. cxd4 Qc7 27. e5 dxe5
+28. dxe5 Nfxd5 29. cxd5 Nxd5 30. Bxg6 fxg6 31. e6 Re8 32. Qc2 Rxe6 33. Qc4 Qc6
+34. Re1 b6 35. Rbb1 Nc7 36. Qf4 Bb7 37. Qg3 a5 38. Rxe6 Nxe6 39. Be3 Qe4 40.
+Rc1 h4 0-1
+
+[Event "Lliga Catalana DH "]
+[Site "?"]
+[Date "2018.04.07"]
+[Round "10.2"]
+[White "Arenas Vanegas, David"]
+[Black "Stella, Andrea"]
+[Result "1-0"]
+[ECO "C01"]
+[WhiteElo "2495"]
+[BlackElo "2429"]
+[PlyCount "105"]
+[EventDate "2018.??.??"]
+[WhiteTeam "MLL"]
+[BlackTeam "CCS"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. exd5 exd5 5. Bg5 Be7 6. Qd2 O-O 7. O-O-O c6 8.
+Bd3 b5 9. f3 a5 10. h4 a4 11. Nce2 b4 12. g4 b3 13. a3 bxc2 14. Qxc2 Ba6 15.
+Ng3 Bxd3 16. Rxd3 c5 17. dxc5 Nbd7 18. Nf5 Nxc5 19. Re3 Ne6 20. Kb1 Bc5 21. Rd3
+Rc8 22. Qxa4 Bxg1 23. Rxg1 Nc5 24. Qd4 Nxd3 25. Qxd3 Re8 26. Rd1 h6 27. Be3 Re6
+28. Bd4 Ne8 29. g5 hxg5 30. hxg5 Qxg5 31. Rg1 Qf4 32. Nxg7 Rg6 33. Rxg6 fxg6
+34. Nxe8 Qc1+ 35. Ka2 Qc4+ 36. Qxc4 Rxc4 37. Be5 d4 38. Kb3 d3 39. Nf6+ Kf7 40.
+Ne4 Rc6 41. Bc3 Ke6 42. Nf2 Rd6 43. Bd2 Kd5 44. Nxd3 Rf6 45. f4 Ke4 46. Nc5+
+Kd5 47. Nd3 Ke4 48. Kc4 Rd6 49. Nc5+ Kf3 50. Ba5 Rc6 51. b4 Kxf4 52. b5 Rc8 53.
+b6 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "Barcelona"]
+[Date "2018.04.14"]
+[Round "11.2"]
+[White "Stella, Andrea "]
+[Black "Vila Gazquez, Xavier "]
+[Result "1-0"]
+[ECO "E33"]
+[WhiteElo "2429"]
+[BlackElo "2530"]
+[PlyCount "91"]
+[EventDate "2018.??.??"]
+[WhiteTeam "CCS"]
+[BlackTeam "BAB"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 Nc6 5. Nf3 d5 6. Bg5 h6 7. Bxf6 Qxf6 8. a3
+Bxc3+ 9. Qxc3 O-O 10. e3 a6 11. Be2 Re8 12. O-O dxc4 13. Qxc4 e5 14. dxe5 Nxe5
+15. Qxc7 Nxf3+ 16. Bxf3 Qxb2 17. Rfb1 Qe5 18. Qxe5 Rxe5 19. Bxb7 Bxb7 20. Rxb7
+Rc8 21. Rb4 Ra5 22. g4 h5 23. h3 hxg4 24. hxg4 Rc3 25. a4 Rd5 26. Rab1 Ra3 27.
+Rf4 f6 28. Rb6 Ra5 29. Rbb4 Rc5 30. Rf5 Rc6 31. Ra5 Ra2 32. Kg2 Rcc2 33. Rf4
+Rc6 34. Kg3 Kf7 35. Rb4 Kg6 36. Rf4 Rac2 37. Re4 Ra2 38. Rd5 Rcc2 39. Rf4 Rc6
+40. Rd7 Rc5 41. Rb4 Rc8 42. Ra7 Kh6 43. Rbb7 Rxa4 44. Rxg7 Rh8 45. f4 Ra5 46.
+f5 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2019.01.19"]
+[Round "1.3"]
+[White "Akbarinia, Sayed Arash"]
+[Black "Stella, Andrea"]
+[Result "1/2-1/2"]
+[ECO "D11"]
+[WhiteElo "2372"]
+[BlackElo "2512"]
+[PlyCount "70"]
+[EventDate "2019.01.19"]
+[WhiteTeam "Sant Andreu"]
+[BlackTeam "Colon Sabadell Chessy"]
+
+1. c4 c6 2. Nf3 d5 3. d4 Nf6 4. g3 dxc4 5. Bg2 g6 6. a4 Ne4 7. O-O Bg7 8. Qc2
+Nd6 9. e4 Be6 10. Na3 Na6 11. Bd2 O-O 12. Rfd1 Qc8 13. Be1 Rd8 14. Ng5 Bg4 15.
+f3 h6 16. fxg4 hxg5 17. e5 Ne8 18. h3 Nec7 19. Nxc4 Ne6 20. Bc3 Nac7 21. Ne3
+Rb8 22. b4 a6 23. Rac1 Rd7 24. Nc4 Qe8 25. Nb6 Rdd8 26. Bb2 Na8 27. Nxa8 Rxa8
+28. b5 axb5 29. axb5 c5 30. Bxb7 Qxb5 31. Bxa8 Rxa8 32. d5 Ra2 33. dxe6 Rxb2
+34. exf7+ Kf8 35. Qxg6 Rg2+ 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2019.01.26"]
+[Round "2.3"]
+[White "Stella, Andrea"]
+[Black "Pogorelov, Ruslan"]
+[Result "1-0"]
+[ECO "E39"]
+[WhiteElo "2512"]
+[BlackElo "2357"]
+[PlyCount "38"]
+[EventDate "2019.01.19"]
+[WhiteTeam "Colon Sabadell Chessy"]
+[BlackTeam "Escola Salou"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. Nf3 c5 6. dxc5 Na6 7. g3 Nxc5 8.
+Bg2 b6 9. O-O Bxc3 10. Qxc3 Bb7 11. Be3 Qe7 12. Rfd1 Rac8 13. Qa3 a5 14. Rac1
+d6 15. Bh3 h6 16. Nd4 d5 17. Nb3 dxc4 18. Bxc5 bxc5 19. Rxc4 Nd7 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2019.02.23"]
+[Round "6.2"]
+[White "Stella, Andrea"]
+[Black "Mestre Bellido, Hector"]
+[Result "1/2-1/2"]
+[ECO "D19"]
+[WhiteElo "2512"]
+[BlackElo "2285"]
+[PlyCount "82"]
+[EventDate "2019.01.19"]
+[WhiteTeam "Colon Sabadell Chessy"]
+[BlackTeam "Foment Martinenc"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. e3 e6 7. Bxc4 Bb4 8. O-O
+O-O 9. Qe2 Bg6 10. Ne5 Nbd7 11. Nxg6 hxg6 12. Rd1 Qc7 13. e4 e5 14. d5 Bxc3 15.
+bxc3 cxd5 16. Bxd5 Nxd5 17. Rxd5 Nb6 18. Rb5 Rfd8 19. a5 Qxc3 20. Bb2 Qc4 21.
+Qxc4 Nxc4 22. Bxe5 a6 23. Rc5 Rac8 24. Bc7 Rd7 25. Rxc4 Rdxc7 26. Rxc7 Rxc7 27.
+Rb1 Rc5 28. f3 Rxa5 29. Rxb7 Ra2 30. Rb8+ Kh7 31. h4 f5 32. e5 f4 33. Kf1 Ra5
+34. Re8 g5 35. hxg5 Kg6 36. Rg8 Rxe5 37. Kf2 Rb5 38. Ra8 Rb2+ 39. Kg1 Rb6 40.
+Ra7 Rc6 41. Kh2 Kxg5 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2019.03.16"]
+[Round "9.4"]
+[White "Oms Fuentes, Lluis"]
+[Black "Stella, Andrea"]
+[Result "0-1"]
+[ECO "B23"]
+[WhiteElo "2302"]
+[BlackElo "2512"]
+[PlyCount "90"]
+[EventDate "2019.03.09"]
+[WhiteTeam "Barcelona"]
+[BlackTeam "Colon Sabadell Chessy"]
+
+1. e4 c5 2. Nc3 e6 3. g3 d5 4. Bg2 dxe4 5. Nxe4 Nc6 6. d3 Nf6 7. Nxf6+ Qxf6 8.
+Nf3 Be7 9. O-O O-O 10. Ng5 e5 11. Kh1 Qg6 12. f4 exf4 13. gxf4 h6 14. Ne4 Bg4
+15. Qd2 Rad8 16. Qf2 Nd4 17. Be3 f5 18. Nxc5 Bxc5 19. c3 Qd6 20. cxd4 Bxd4 21.
+Bxd4 Qxd4 22. Bxb7 Qxf2 23. Rxf2 Rxd3 24. Ba6 Re3 25. Bf1 Rfe8 26. h4 Kf7 27.
+Rc1 Kg6 28. Rc7 R8e7 29. Rxe7 Rxe7 30. b4 Kh5 31. Kh2 Kxh4 32. Bg2 g5 33. a4
+Re3 34. fxg5 hxg5 35. b5 f4 36. a5 f3 37. Bf1 Bh5 38. Kg1 Ra3 39. Rh2+ Kg4 40.
+a6 Bg6 41. Rh6 Bd3 42. Bxd3 Rxd3 43. Kf2 Rd2+ 44. Ke3 Re2+ 45. Kd3 Rb2 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2019.03.23"]
+[Round "10.4"]
+[White "Stella, Andrea"]
+[Black "Feher, Adam"]
+[Result "1-0"]
+[ECO "E44"]
+[WhiteElo "2512"]
+[BlackElo "2390"]
+[PlyCount "95"]
+[EventDate "2019.03.09"]
+[WhiteTeam "Colon Sabadell Chessy"]
+[BlackTeam "Escola d'Escacs de Barcelona"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Nge2 d5 6. a3 Be7 7. cxd5 exd5 8.
+Nf4 b6 9. Bd3 Bb7 10. O-O c5 11. Qf3 Nc6 12. Ncxd5 Nxd5 13. Nxd5 Bd6 14. dxc5
+bxc5 15. Qh3 g6 16. e4 Nd4 17. Bc4 Rb8 18. Bh6 Bc8 19. Qe3 Nc2 20. Qc3 Nd4 21.
+Bxf8 Rb3 22. Bxd6 Rxc3 23. bxc3 Nf3+ 24. gxf3 Qxd6 25. Rfe1 Qd8 26. Bf1 Kg7 27.
+Ne3 Qf6 28. Bg2 Qxc3 29. Rec1 Qe5 30. Ra2 Be6 31. Rac2 h5 32. Rxc5 Qd6 33. a4
+h4 34. h3 Qd7 35. a5 Qd2 36. f4 Bb3 37. f5 g5 38. e5 Qd4 39. e6 fxe6 40. fxe6
+Bxe6 41. Rxg5+ Kf6 42. Rgc5 Qd2 43. Rd1 Qa2 44. Rc6 Ke7 45. Rc7+ Kf6 46. Rc6
+Ke7 47. Rc7+ Kf6 48. Rxa7 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "Sabadell"]
+[Date "2020.02.22"]
+[Round "6.2"]
+[White "Torrecillas Martinez, Antonio"]
+[Black "Stella, Andrea"]
+[Result "1/2-1/2"]
+[ECO "A16"]
+[WhiteElo "2313"]
+[BlackElo "2455"]
+[PlyCount "92"]
+[EventDate "2020.??.??"]
+[WhiteTeam "Foment, CE"]
+[BlackTeam "Colon Sabadell Chessy"]
+
+1. Nf3 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. dxc3 Qxd1+ 7. Kxd1 f6
+8. Bc4 e5 9. Be3 Nd7 10. Ke2 Bc5 11. Rhd1 Bxe3 12. Kxe3 Ke7 13. Nd2 Nb6 14. Bb3
+Bg4 15. f3 Bd7 16. Nc4 Nxc4+ 17. Bxc4 Rhd8 18. g3 Ba4 19. b3 Be8 20. f4 Rxd1
+21. Rxd1 Rd8 22. Rxd8 Kxd8 23. b4 Ke7 24. h4 h6 25. a3 Kd6 26. Bd5 b6 27. Bc4
+Bd7 28. Bb3 Bg4 29. Bc4 Bd1 30. Ba2 Bc2 31. Bf7 g5 32. fxg5 fxg5 33. hxg5 hxg5
+34. Bh5 Bb3 35. Bg6 Bd1 36. Be8 Bg4 37. Bb5 Be6 38. Be2 c5 39. Ba6 Kc6 40. Be2
+cxb4 41. cxb4 a5 42. Kd2 axb4 43. axb4 g4 44. Kc3 b5 45. Kd3 Bc4+ 46. Ke3 Bxe2
+1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2020.02.29"]
+[Round "7.3"]
+[White "Sosa, Tomas"]
+[Black "Stella, Andrea"]
+[Result "1/2-1/2"]
+[ECO "B45"]
+[WhiteElo "2508"]
+[BlackElo "2455"]
+[PlyCount "57"]
+[EventDate "2020.??.??"]
+[WhiteTeam "Mollet, CE"]
+[BlackTeam "Colon Sabadell Chessy"]
+
+1. e4 c5 2. Nf3 e6 3. Nc3 Nc6 4. d4 cxd4 5. Nxd4 Nf6 6. Ndb5 Bb4 7. a3 Bxc3+ 8.
+Nxc3 d5 9. Bd3 d4 10. Ne2 e5 11. O-O O-O 12. b4 a6 13. Bb2 Re8 14. Qd2 Nd7 15.
+f4 b5 16. a4 bxa4 17. Rxa4 Rb8 18. f5 Qb6 19. Ba3 f6 20. Ng3 Qc7 21. Bc1 Nb6
+22. Ra3 Qf7 23. Rb3 Kh8 24. Qe2 a5 25. bxa5 Nxa5 26. Rb5 Nc6 27. Rb3 Na5 28.
+Rb5 Nc6 29. Rb3 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2020.03.07"]
+[Round "8.4"]
+[White "Martin Gonzalez, Angel"]
+[Black "Stella, Andrea"]
+[Result "0-1"]
+[ECO "C14"]
+[WhiteElo "2319"]
+[BlackElo "2465"]
+[PlyCount "104"]
+[EventDate "2020.??.??"]
+[WhiteTeam "Barcelona, CE"]
+[BlackTeam "Colon Sabadell Chessy"]
+[WhiteTeamCountry "ESP"]
+[BlackTeamCountry "ITA"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Be7 5. e5 Nfd7 6. Bxe7 Qxe7 7. f4 O-O 8.
+Nf3 c5 9. Nb5 a6 10. Nd6 cxd4 11. Bd3 f6 12. h4 fxe5 13. fxe5 Nxe5 14. Nxc8
+Nxf3+ 15. gxf3 Qb4+ 16. Qd2 Qxd2+ 17. Kxd2 Rxc8 18. Rae1 Rc6 19. Rhg1 Nd7 20.
+Rg4 Rf8 21. Reg1 Rf7 22. Rxd4 Ne5 23. Be2 Nxf3+ 24. Bxf3 Rxf3 25. Rdg4 Rc7 26.
+R1g2 Rcf7 27. Rb4 R3f4 28. Rb6 Re7 29. h5 Rh4 30. Rg5 Kf7 31. Rd6 Rc7 32. c3
+Rh2+ 33. Kc1 g6 34. hxg6+ hxg6 35. Re5 Re7 36. a4 Rf2 37. a5 Rf5 38. Re2 g5 39.
+Rh2 Kf6 40. Rh6+ Ke5 41. Rb6 Rf6 42. Rh5 Kf5 43. Rh1 g4 44. Rb4 Kg5 45. Rh8 Rg7
+46. Kd2 Rf4 47. Rb6 Re4 48. Rd6 g3 49. Rh1 g2 50. Rg1 Kf4 51. Rd8 Kf3 52. Rf8+
+Rf4 0-1

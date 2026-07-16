@@ -1,0 +1,44 @@
+[Event "Tarragona Nacional"]
+[Site "Tarragona"]
+[Date "1951.04.03"]
+[Round "7"]
+[White "Ribera Arnal, Angel"]
+[Black "Escudero, Francisco"]
+[Result "1-0"]
+[ECO "C40"]
+[PlyCount "89"]
+[EventDate "1951.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 f5 3. Nxe5 Qf6 4. d4 d6 5. Nc4 fxe4 6. Nc3 Qg6 7. Be3 Nf6 8.
+Qd2 a6 9. O-O-O b5 10. Na5 d5 11. f3 Bb4 12. Nb3 Nbd7 13. a3 Bd6 14. fxe4 dxe4
+15. Nc5 O-O 16. h3 Nb6 17. Bf4 Nbd5 18. g3 Nxf4 19. gxf4 Qf5 20. Kb1 Bxc5 21.
+dxc5 Qxc5 22. Bg2 Bb7 23. Qe2 Qf5 24. Rhf1 Rad8 25. Rde1 Rfe8 26. Nd1 Rd7 27.
+Ne3 Qe6 28. f5 Qd6 29. Rd1 Qe7 30. Rxd7 Qxd7 31. Ng4 Nxg4 32. hxg4 Qe7 33. Qe3
+c5 34. g5 Rf8 35. Bh3 Qe5 36. Bg4 Bc8 37. Qh3 a5 38. f6 Bxg4 39. Qxg4 e3 40.
+f7+ Kh8 41. g6 h6 42. Rh1 b4 43. axb4 axb4 44. Rh5 Qd6 $4 (44... Qf6 $1) 45.
+Rxh6+ 1-0
+
+[Event "Tarragona Nacional"]
+[Site "Tarragona"]
+[Date "1951.??.??"]
+[Round "9"]
+[White "Argemi, Jose Maria"]
+[Black "Escudero, Francisco"]
+[Result "1-0"]
+[ECO "C40"]
+[PlyCount "41"]
+[EventDate "1951.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 f5 3. Nxe5 Qf6 4. d4 d6 5. Nc4 fxe4 6. Nc3 Qg6 7. f3 exf3 8.
+Qxf3 Qg4 9. Be2 (9. Qf2) (9. Qxg4) 9... Qxd4 $2 (9... Qxf3 $142) 10. Be3 (10.
+Nd5 Na6 (10... Qh4+ 11. g3 Qd8 12. O-O Nf6 13. Qe3+ Kf7 14. Qb3) 11. Be3 Qh4+
+12. g3) 10... Qh4+ (10... Qf6 11. O-O) 11. g3 (11. Bf2 $5 {/\ 0-0}) 11... Qd8
+$2 (11... Qf6 $142) 12. O-O-O $32 Nf6 13. Bg5 Be7 14. Ne5 Nbd7 15. Bxf6 Nxf6
+16. Bc4 Rf8 17. Ne4 b6 (17... Nxe4 $2 18. Bf7+ Rxf7 19. Qxf7#) 18. Qb3 d5 19.
+Nxf6+ Rxf6 20. Bxd5 Rd6 21. Bf7+ 1-0

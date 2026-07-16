@@ -1,0 +1,258 @@
+[Event "Figueres op B"]
+[Site "Figueres"]
+[Date "2016.08.12"]
+[Round "2"]
+[White "Voegeli, Max"]
+[Black "Jurado Coderch, Heribert"]
+[Result "1-0"]
+[ECO "C29"]
+[WhiteElo "1792"]
+[BlackElo "1391"]
+[PlyCount "48"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nc3 Nf6 3. f4 Nc6 4. fxe5 Nxe5 5. d4 Ng6 6. e5 Ng8 7. Nf3 d6 8. Bc4
+dxe5 9. dxe5 Be6 10. Qe2 Bc5 11. Bxe6 fxe6 12. Qb5+ c6 13. Qxc5 N8e7 14. Bg5
+O-O 15. Rd1 Qe8 16. O-O b6 17. Qc4 Nd5 18. Nxd5 exd5 19. Qe2 h6 20. Bd2 Rd8 21.
+Nd4 c5 22. Rxf8+ Qxf8 23. Ne6 Qe7 24. Nxd8 Qxd8 1-0
+
+[Event "Figueres op B"]
+[Site "Figueres"]
+[Date "2016.08.14"]
+[Round "5"]
+[White "Fernandez Molas, Andreu"]
+[Black "Voegeli, Max"]
+[Result "0-1"]
+[ECO "A43"]
+[WhiteElo "1678"]
+[BlackElo "1792"]
+[PlyCount "102"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nc3 c5 3. d5 d6 4. e4 Nbd7 5. f4 g6 6. Bd3 Bg7 7. Bd2 O-O 8. Nf3
+a6 9. Qe2 b5 10. Qf2 c4 11. e5 dxe5 12. fxe5 Ng4 13. Qh4 cxd3 14. Qxg4 Nxe5 15.
+Qg3 Nxf3+ 16. Qxf3 Bb7 17. Qxd3 b4 18. Na4 Bxd5 19. O-O Bc6 20. Nc5 Qxd3 21.
+Nxd3 a5 22. Rae1 e6 23. b3 Bb5 24. Rf3 Rac8 25. Rc1 Rfd8 26. Bg5 Rxd3 27. cxd3
+Bd4+ 28. Kf1 Bc3 29. Bf6 Rc5 30. Bxc3 bxc3 31. Ke1 e5 32. Kd1 f5 33. Kc2 e4 34.
+dxe4 fxe4 35. Rxc3 Rf5 36. Kb2 Bd3 37. Rc8+ Kg7 38. R1c7+ Kh6 39. Kc3 Rf2 40.
+h4 Rxg2 41. Re8 Rc2+ 42. Kd4 Rxc7 43. Ra8 Rd7+ 44. Ke3 Rd5 45. Ra7 Rh5 46. Ra8
+Rxh4 47. Rxa5 Rh3+ 48. Kd2 Rh2+ 49. Ke3 Bb1 50. a3 Rh3+ 51. Kd2 Rxb3 0-1
+
+[Event "Figueres op B"]
+[Site "Figueres"]
+[Date "2016.08.15"]
+[Round "6"]
+[White "Voegeli, Max"]
+[Black "Viñas Serra, Jaume"]
+[Result "0-1"]
+[ECO "B02"]
+[WhiteElo "1792"]
+[BlackElo "1824"]
+[PlyCount "72"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 Nf6 2. Nc3 d5 3. exd5 Nxd5 4. Bc4 Nb6 5. Bb3 Nc6 6. Nf3 Bf5 7. O-O e6 8.
+Re1 Be7 9. Ne4 O-O 10. Ng3 Bg6 11. d3 Bf6 12. Ne4 Bxe4 13. Rxe4 Na5 14. d4 Nxb3
+15. axb3 c5 16. c3 cxd4 17. Nxd4 Qd5 18. Re1 Bxd4 19. cxd4 Rfd8 20. Be3 Nd7 21.
+Qe2 Qxb3 22. Ra3 Qd5 23. Rea1 a6 24. Ra5 Qd6 25. Rg5 Nf6 26. Qf3 Nd5 27. Qg4 g6
+28. Bd2 f5 29. Rxg6+ hxg6 30. Qxg6+ Kf8 31. Bh6+ Ke7 32. Qg7+ Ke8 33. Rc1 Qe7
+34. Qg8+ Kd7 35. Bg5 Rxg8 36. Bxe7 Kxe7 0-1
+
+[Event "Figueres op B"]
+[Site "Figueres"]
+[Date "2016.08.17"]
+[Round "8"]
+[White "Voegeli, Max"]
+[Black "Ruiz De Morales, Jaume"]
+[Result "0-1"]
+[ECO "C00"]
+[WhiteElo "1792"]
+[BlackElo "1522"]
+[PlyCount "64"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d3 d5 3. Nd2 c5 4. Ngf3 Nc6 5. g3 d4 6. Bg2 e5 7. O-O Nf6 8. Nc4
+Qc7 9. Nh4 b5 10. Na3 Rb8 11. f4 Bg4 12. Bf3 Bh3 13. Bg2 Bg4 14. Bf3 Bh3 15.
+Rf2 Bd6 16. Nf5 O-O 17. Nxd6 Qxd6 18. Bg2 Be6 19. fxe5 Nxe5 20. Bf4 Nfd7 21.
+Qh5 f6 22. Bh3 Bf7 23. Qe2 Qc6 24. c4 dxc3 25. bxc3 Rb6 26. d4 cxd4 27. cxd4
+Ng6 28. Bd2 Re8 29. Bg2 a6 30. Rc1 Qd6 31. Bc3 Qxa3 32. Qg4 Qxc1+ 0-1
+
+[Event "Santa Eugenia op 12th"]
+[Site "Santa Eugenia"]
+[Date "2017.08.01"]
+[Round "3"]
+[White "Voegeli, Max"]
+[Black "Gomez, Jose"]
+[Result "0-1"]
+[ECO "B01"]
+[WhiteElo "1738"]
+[BlackElo "1925"]
+[PlyCount "24"]
+[EventDate "2017.07.31"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 d5 2. exd5 Nf6 3. c4 e6 4. Qa4+ Bd7 5. Qb3 Na6 6. dxe6 Bxe6 7. Qxb7 Nb4
+8. Na3 Rb8 9. Qxa7 Ra8 10. Qb7 Bd7 11. Qf3 Rxa3 12. bxa3 Nc2+ 0-1
+
+[Event "Santa Eugenia op 12th"]
+[Site "Santa Eugenia"]
+[Date "2017.08.01"]
+[Round "4"]
+[White "Cros Garcia, Marc"]
+[Black "Voegeli, Max"]
+[Result "0-1"]
+[ECO "B01"]
+[WhiteElo "1528"]
+[BlackElo "1738"]
+[PlyCount "72"]
+[EventDate "2017.07.31"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. d4 Nf6 5. Nf3 c6 6. Bd3 Bg4 7. Be2 e6 8. h3
+Bxf3 9. Bxf3 Nbd7 10. a3 Bd6 11. Ne4 Nxe4 12. Bxe4 Nf6 13. Bd3 O-O 14. Bg5 Be7
+15. O-O h6 16. Bh4 Qb6 17. Qd2 Rad8 18. Rad1 Rd7 19. b4 Nd5 20. Bxe7 Nxe7 21.
+c4 Qc7 22. f4 a6 23. a4 Rfd8 24. Qc3 Qb6 25. c5 Nd5 26. Bh7+ Kh8 27. Qd3 Qxb4
+28. Rb1 Qc3 29. Rb3 Qxd3 30. Bxd3 Nf6 31. f5 Rxd4 32. Bc2 Rd2 33. Bb1 R8d7 34.
+fxe6 fxe6 35. Re3 Rb2 36. Rxe6 Rdd2 0-1
+
+[Event "Santa Eugenia op 12th"]
+[Site "Santa Eugenia"]
+[Date "2017.08.02"]
+[Round "5"]
+[White "Alvarez Serra, Jordi"]
+[Black "Voegeli, Max"]
+[Result "1-0"]
+[ECO "A25"]
+[WhiteElo "1970"]
+[BlackElo "1738"]
+[PlyCount "83"]
+[EventDate "2017.07.31"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. c4 Nf6 2. Nc3 e5 3. g3 Nc6 4. Bg2 Bb4 5. Nd5 Bc5 6. e3 O-O 7. d3 d6 8. Ne2
+a5 9. O-O Be6 10. d4 Ba7 11. Nxf6+ Qxf6 12. d5 Bd7 13. dxc6 Bxc6 14. Nc3 Bxg2
+15. Kxg2 c6 16. Qe2 Qe7 17. b3 f5 18. Ba3 Rf6 19. Rad1 Rh6 20. Rd2 Rf8 21. Rfd1
+Bb8 22. f4 Rff6 23. fxe5 Qxe5 24. Bb2 Rfg6 25. Qf3 d5 26. Rg1 Qf6 27. Kf1 Be5
+28. Nxd5 cxd5 29. Qxd5+ Qf7 30. Qxf7+ Kxf7 31. Bxe5 Re6 32. Bf4 Rh5 33. h4 h6
+34. Rd7+ Re7 35. Rxe7+ Kxe7 36. Kg2 g5 37. hxg5 hxg5 38. Bb8 Rh8 39. Ba7 Rd8
+40. Rf1 Rd2+ 41. Rf2 Rd3 42. Rxf5 1-0
+
+[Event "Santa Eugenia op 12th"]
+[Site "Santa Eugenia"]
+[Date "2017.08.02"]
+[Round "6"]
+[White "Voegeli, Max"]
+[Black "Acevedo Egido, David"]
+[Result "1-0"]
+[ECO "B23"]
+[WhiteElo "1738"]
+[BlackElo "1486"]
+[PlyCount "43"]
+[EventDate "2017.07.31"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nc3 d6 3. f4 e6 4. Nf3 Nc6 5. Bb5 Nge7 6. O-O g6 7. d3 Bg7 8. Qe1
+a6 9. Bxc6+ Nxc6 10. f5 O-O 11. fxg6 fxg6 12. Bg5 Bf6 13. Qh4 b5 14. Bxf6 Rxf6
+15. Ng5 Ra7 16. Rxf6 Qxf6 17. Rf1 Qd4+ 18. Kh1 Rb7 19. Qf4 Qg7 20. Qxd6 Nd4 21.
+Qd8+ Qf8 22. Qxf8# 1-0
+
+[Event "Santa Eugenia op 12th"]
+[Site "Santa Eugenia"]
+[Date "2017.08.03"]
+[Round "7"]
+[White "Rex, Torsten"]
+[Black "Voegeli, Max"]
+[Result "1-0"]
+[ECO "A05"]
+[WhiteElo "2053"]
+[BlackElo "1738"]
+[PlyCount "87"]
+[EventDate "2017.07.31"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. Nf3 b5 2. g3 Bb7 3. Bg2 Nf6 4. O-O e6 5. b3 Be7 6. Bb2 O-O 7. d4 d5 8. c4
+bxc4 9. bxc4 c5 10. Nbd2 Nbd7 11. e3 Rc8 12. Rb1 Rc7 13. Ne5 Nb6 14. dxc5 Bxc5
+15. cxd5 Bxd5 16. Bxd5 Nbxd5 17. Ndc4 Nb6 18. Qe2 Nxc4 19. Nxc4 Be7 20. Ne5 Qc8
+21. Rbc1 Nd5 22. Rxc7 Qxc7 23. Rc1 Qb7 24. e4 Nf6 25. Nc6 Re8 26. Qc2 h6 27. f3
+Nh7 28. Nxe7+ Qxe7 29. Qc3 f6 30. h4 Qd6 31. e5 fxe5 32. Qxe5 Qxe5 33. Bxe5 Kf7
+34. Rc7+ Re7 35. Rxe7+ Kxe7 36. Bxg7 h5 37. Kf2 Kd6 38. Ke3 Kd5 39. Kd3 a6 40.
+a3 Kc5 41. g4 hxg4 42. fxg4 Kb5 43. g5 e5 44. g6 1-0
+
+[Event "Santa Eugenia op 12th"]
+[Site "Santa Eugenia"]
+[Date "2017.08.03"]
+[Round "8"]
+[White "Voegeli, Max"]
+[Black "Horta Gafarot, Biel"]
+[Result "0-1"]
+[ECO "B23"]
+[WhiteElo "1738"]
+[BlackElo "1557"]
+[PlyCount "48"]
+[EventDate "2017.07.31"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nc3 Nc6 3. f4 e6 4. Nf3 d5 5. exd5 exd5 6. Bb5 a6 7. Bxc6+ bxc6 8.
+O-O Nf6 9. d3 Be7 10. b3 O-O 11. Ba3 Bd6 12. Qd2 Qc7 13. g3 Bh3 14. Rfe1 h6 15.
+Qf2 Ng4 16. Qd2 Rad8 17. Na4 c4 18. Bxd6 Qxd6 19. dxc4 Qc7 20. Qb4 dxc4 21.
+Qxc4 Rd5 22. Rad1 Qa7+ 23. Rd4 Rfd8 24. Red1 Ne3 0-1

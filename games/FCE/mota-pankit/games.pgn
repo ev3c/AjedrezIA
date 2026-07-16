@@ -1,0 +1,534 @@
+[Event "Montcada op-A 25th"]
+[Site "Montcada"]
+[Date "2017.06.28"]
+[Round "3"]
+[White "Perpinya Rofes, Lluis Maria"]
+[Black "Mota, Pankit"]
+[Result "1-0"]
+[ECO "C01"]
+[WhiteElo "2352"]
+[BlackElo "1872"]
+[PlyCount "73"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. exd5 exd5 5. Bd3 Nc6 6. a3 Bxc3+ 7. bxc3 Nf6 8.
+Ne2 O-O 9. O-O Re8 10. c4 dxc4 11. Bxc4 Bf5 12. Bb2 Qd6 13. Ng3 Bg4 14. Qd3
+Rad8 15. h3 Bc8 16. Rad1 Qf4 17. Qb3 Re7 18. d5 Na5 19. Qb4 Ree8 20. Rd4 c5 21.
+Qxc5 b6 22. Rxf4 bxc5 23. Bxf6 gxf6 24. Nh5 Re5 25. Nxf6+ Kg7 26. Ng4 Rg5 27.
+Ba2 h5 28. Ne3 Bxh3 29. Rb1 Bd7 30. Nc4 Nxc4 31. Bxc4 Bf5 32. Rb7 Re8 33. d6
+Re4 34. Rxf7+ Kg6 35. Rxe4 Bxe4 36. d7 Bxg2 37. d8=Q 1-0
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.04"]
+[Round "1"]
+[White "Mota, Pankit"]
+[Black "Ahmed, Sk Nasir"]
+[Result "0-1"]
+[ECO "B22"]
+[WhiteElo "1859"]
+[BlackElo "2221"]
+[PlyCount "128"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. c3 g6 3. d4 cxd4 4. cxd4 d5 5. e5 Nh6 6. h3 Bg7 7. g4 f6 8. f4 O-O
+9. Bg2 Nc6 10. Nc3 fxe5 11. fxe5 e6 12. Nf3 b5 13. a3 b4 14. axb4 Nxb4 15. O-O
+Nf7 16. Rf2 a5 17. Ne2 Ba6 18. Nf4 Qb6 19. h4 Nh6 20. Bh3 Rxf4 21. Bxf4 Nd3 22.
+Qd2 Nxf2 23. Kxf2 Bc4 24. b4 Nf7 25. bxa5 Qb3 26. g5 Nd8 27. a6 Bxa6 28. Qa5
+Bb7 29. Qxa8 Bxa8 30. Rxa8 Qb6 31. Bxe6+ Qxe6 32. Rxd8+ Bf8 33. Kg3 Kf7 34. Rb8
+Be7 35. Rb7 Qc6 36. e6+ Kxe6 37. Rc7 Qb6 38. Be5 Qb2 39. Kf4 Qb5 40. Kg3 Qb6
+41. Kf4 Qa6 42. Kg3 Qa8 43. Bf4 Qd8 44. Rc6+ Kf5 45. Rc3 Bd6 46. Bxd6 Qxd6+ 47.
+Ne5 Ke4 48. Rd3 Qa6 49. Rd2 Qf1 50. Rf2 Qg1+ 51. Rg2 Qe3+ 52. Kh2 Kxd4 53. Ng4
+Qf4+ 54. Kh3 Qf3+ 55. Kh2 Kc5 56. Nf6 h5 57. Rc2+ Kd6 58. Rg2 d4 59. Kg1 d3 60.
+Rf2 Qg3+ 61. Kf1 Qxh4 62. Rd2 Qf4+ 63. Ke1 Qe3+ 64. Kf1 Kc6 0-1
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.05"]
+[Round "2"]
+[White "Ventura Bolet, Alexandre"]
+[Black "Mota, Pankit"]
+[Result "1-0"]
+[ECO "D10"]
+[WhiteElo "2080"]
+[BlackElo "1859"]
+[PlyCount "55"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. Nf3 d5 2. c4 c6 3. e3 Nf6 4. Nc3 a6 5. Qc2 g6 6. d4 Bg7 7. Bd3 O-O 8. O-O
+dxc4 9. Bxc4 b5 10. Be2 Bb7 11. e4 b4 12. Na4 Nbd7 13. Bg5 Qa5 14. a3 e5 15.
+axb4 Qxb4 16. Nxe5 Nxe5 17. dxe5 Nxe4 18. Be3 Bxe5 19. Nb6 c5 20. Nxa8 Rxa8 21.
+Bf3 f5 22. Ra4 Qxb2 23. Qxb2 Bxb2 24. Rb1 Bc6 25. Bxe4 fxe4 26. Ra5 Bd4 27. Rb6
+Rc8 28. Bxd4 1-0
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.06"]
+[Round "3"]
+[White "Mota, Pankit"]
+[Black "Alfonso Nogue, Alfonso"]
+[Result "1-0"]
+[ECO "B01"]
+[WhiteElo "1859"]
+[BlackElo "2006"]
+[PlyCount "71"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 d5 2. exd5 Nf6 3. Bb5+ Bd7 4. Be2 Nxd5 5. d4 Bf5 6. a3 e6 7. c4 Nb6 8.
+Nc3 Be7 9. Nf3 O-O 10. O-O c6 11. h3 N8d7 12. b4 Qc7 13. Re1 h6 14. Qb3 Bf6 15.
+Be3 Rfd8 16. Rad1 a5 17. Rc1 axb4 18. axb4 Qb8 19. c5 Nd5 20. Nxd5 exd5 21. b5
+Qa7 22. g4 Bg6 23. Bd3 Bxd3 24. Qxd3 Qa3 25. Rc3 Qa5 26. h4 Re8 27. g5 hxg5 28.
+hxg5 Bd8 29. b6 Re6 30. Kg2 g6 31. Bd2 Rxe1 32. Nxe1 Nf8 33. f4 Qa6 34. Qf3 Ne6
+35. Nc2 Ng7 36. Ra3 1-0
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.07"]
+[Round "4"]
+[White "Ongut, Tamas Gunes"]
+[Black "Mota, Pankit"]
+[Result "1-0"]
+[ECO "A07"]
+[WhiteElo "2114"]
+[BlackElo "1859"]
+[PlyCount "83"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. Nf3 d5 2. g3 Bg4 3. Bg2 Nd7 4. O-O c6 5. d3 e5 6. h3 Bh5 7. Qe1 Bd6 8. e4
+Ne7 9. Nbd2 f6 10. c3 Bf7 11. b4 a5 12. bxa5 Qxa5 13. Rb1 Qc7 14. Ra1 Nc5 15.
+d4 Nxe4 16. Nxe4 dxe4 17. dxe5 fxe5 18. Ng5 Bd5 19. Qe2 b5 20. Bxe4 Bc4 21. Bd3
+Ra4 22. Bxc4 Rxc4 23. a4 O-O 24. Ne6 Qd7 25. Nxf8 Qxh3 26. axb5 Rg4 27. Qf3 Bc5
+28. Be3 Bxe3 29. Qxe3 Nf5 30. Qxe5 Nh4 31. Qe6+ Kh8 32. Ng6+ hxg6 33. Ra8+ Kh7
+34. Qg8+ Kh6 35. Qh8+ Kg5 36. f4+ Rxf4 37. gxf4+ Kg4 38. Qc8+ Nf5 39. Ra2 Qe3+
+40. Raf2 Kh5 41. Qxc6 Nh4 42. Kh2 1-0
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.08"]
+[Round "5"]
+[White "Mota, Pankit"]
+[Black "Amer, Said Salim Al Maash"]
+[Result "1/2-1/2"]
+[ECO "B22"]
+[WhiteElo "1859"]
+[BlackElo "2025"]
+[PlyCount "79"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. c3 d5 3. exd5 Qxd5 4. d4 Nf6 5. Nf3 Bg4 6. dxc5 Qxd1+ 7. Kxd1 e5 8.
+b4 a5 9. h3 Bxf3+ 10. gxf3 axb4 11. cxb4 Nc6 12. Bd2 O-O-O 13. a3 Nd4 14. Bc4
+Nxf3 15. Ke2 Nd4+ 16. Kf1 Ne4 17. Be3 Nc2 18. Ra2 Nxe3+ 19. fxe3 Ng3+ 20. Kg2
+Nxh1 21. Nc3 h5 22. Nd5 Rh6 23. a4 f5 24. Kxh1 g5 25. a5 Kb8 26. Kg2 Rc6 27.
+Nb6 Bxc5 28. bxc5 Rxc5 29. Be6 Rc3 30. a6 bxa6 31. Bxf5 Rxe3 32. Nd7+ Rxd7 33.
+Bxd7 Kc7 34. Be8 g4 35. hxg4 hxg4 36. Rxa6 g3 37. Bh5 Kd7 38. Ra4 Ke6 39. Bf3
+Kf5 40. Kxg3 1/2-1/2
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.09"]
+[Round "6"]
+[White "Van Riemsdijk, Herman Claudius"]
+[Black "Mota, Pankit"]
+[Result "1-0"]
+[ECO "C18"]
+[WhiteElo "2335"]
+[BlackElo "1859"]
+[PlyCount "55"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Qa5 7. Bd2 Qa4 8. h4
+cxd4 9. Qg4 Ne7 10. Bd3 Nbc6 11. Nf3 Bd7 12. cxd4 Ng6 13. O-O O-O-O 14. Bb4 f6
+15. Qg3 a5 16. Rfb1 Nxd4 17. Nxd4 Nxe5 18. Bc5 Nxd3 19. cxd3 e5 20. Bb6 Rdg8
+21. Nb3 g5 22. d4 gxh4 23. Qc3+ Bc6 24. Nxa5 exd4 25. Bxd4 Rg4 26. Nxc6 Qxc6
+27. Qh3 Qe6 28. f3 1-0
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.10"]
+[Round "7"]
+[White "Franco Valencia, Angela Maria"]
+[Black "Mota, Pankit"]
+[Result "1-0"]
+[ECO "C60"]
+[WhiteElo "2214"]
+[BlackElo "1859"]
+[PlyCount "149"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nge7 4. O-O g6 5. c3 a6 6. Ba4 b5 7. Bb3 Bg7 8. d4
+exd4 9. cxd4 O-O 10. d5 Na5 11. d6 cxd6 12. Qxd6 Nxb3 13. axb3 Bb7 14. Nc3 Nc8
+15. Qd3 Re8 16. Bg5 f6 17. Be3 Ne7 18. Rfd1 f5 19. Qxd7 Qxd7 20. Rxd7 Bc6 21.
+Rd6 Bxe4 22. Rdxa6 Rxa6 23. Rxa6 Bxf3 24. gxf3 b4 25. Nb5 Bxb2 26. Re6 Kf7 27.
+Rb6 Be5 28. f4 Bb8 29. Rb7 Kg8 30. Rd7 g5 31. fxg5 f4 32. Bc5 Nc6 33. Nd4 Ne5
+34. Re7 Rd8 35. Ne6 Rd1+ 36. Kg2 f3+ 37. Kh3 Ng6 38. Re8+ Kf7 39. Rxb8 Kxe6 40.
+Rxb4 Kf5 41. Be3 Rg1 42. Rc4 Ne5 43. Rf4+ Ke6 44. Rf6+ Kd5 45. Rf4 Ke6 46. Rh4
+Rg2 47. b4 Nd3 48. b5 Nxf2+ 49. Bxf2 Rxf2 50. b6 Rb2 51. Rf4 Ke7 52. Rf6 f2 53.
+b7 Rxb7 54. Rxf2 Rb6 55. Kg4 Rg6 56. h4 Rg7 57. Kh5 Rg6 58. Kg4 Ra6 59. Rf4 Rb6
+60. h5 Ra6 61. Rc4 Ra7 62. Rc5 Kf7 63. Kf5 Kg7 64. Rd5 Rb7 65. Ke6 Rb1 66. Rd7+
+Kg8 67. Rd8+ Kg7 68. h6+ Kg6 69. Rg8+ Kh5 70. Rg7 Rg1 71. Kf7 Rc1 72. Kg8 Rc8+
+73. Kxh7 Rf8 74. g6 Rf6 75. Ra7 1-0
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.11"]
+[Round "8"]
+[White "Mota, Pankit"]
+[Black "Serrano Campos, Juan Antoni"]
+[Result "0-1"]
+[ECO "B22"]
+[WhiteElo "1859"]
+[BlackElo "1959"]
+[PlyCount "50"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. c3 d5 3. exd5 Qxd5 4. d4 Nf6 5. Nf3 Bg4 6. dxc5 Qxc5 7. Na3 a6 8.
+h3 Bh5 9. Be3 Qc7 10. Qa4+ Nbd7 11. Bf4 Qc8 12. Be2 e6 13. Rd1 Be7 14. g4 Bg6
+15. Ne5 b5 16. Qa5 Nxe5 17. Bxe5 Qb7 18. Rg1 O-O 19. Nb1 Bxb1 20. Bxf6 Bxf6 21.
+Rxb1 Qe4 22. Rd1 Rfd8 23. Rxd8+ Rxd8 24. f3 Bh4+ 25. Kf1 Qe3 0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.13"]
+[Round "1"]
+[White "Gomez Guinovart, Josep Manel"]
+[Black "Mota, Pankit"]
+[Result "0-1"]
+[ECO "D02"]
+[WhiteElo "1601"]
+[BlackElo "1859"]
+[PlyCount "130"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 d5 3. Bf4 e6 4. e3 c5 5. c3 Nc6 6. Bd3 Qb6 7. Qc2 Bd7 8. a3 c4
+9. Be2 Na5 10. Nbd2 Rc8 11. O-O Nb3 12. Rae1 Ba4 13. e4 Qa5 14. Qb1 Be7 15. Bg5
+Nxe4 16. Nxb3 Bxb3 17. Bxe7 Kxe7 18. Qc1 Rhd8 19. Ne5 Qc7 20. Bf3 Nf6 21. Qg5
+Kf8 22. Re3 Bc2 23. Rfe1 Rd6 24. Bh5 Nxh5 25. Qxh5 f6 26. Nf3 Qf7 27. Qh4 Rb6
+28. g4 Qg6 29. Rxe6 Rxe6 30. Rxe6 Qf7 31. Re3 Re8 32. Qg3 Rxe3 33. fxe3 g5 34.
+Kf2 Qd7 35. h3 Be4 36. Qb8+ Kg7 37. Qxa7 h5 38. Qc5 hxg4 39. hxg4 b6 40. Qb4
+Kf7 41. Qxb6 Qxg4 42. Qc7+ Ke8 43. Qc6+ Kf7 44. Qc7+ Kg6 45. Qg3 Qf5 46. Ke2
+Bxf3+ 47. Qxf3 Qc2+ 48. Kf1 Qb1+ 49. Kg2 Qxb2+ 50. Kf1 Qc1+ 51. Kg2 Qd2+ 52.
+Kf1 Qxc3 53. Qxd5 Qd3+ 54. Kf2 Qc2+ 55. Ke1 Qb1+ 56. Ke2 Qd3+ 57. Kf2 Qf5+ 58.
+Qxf5+ Kxf5 59. a4 c3 60. Ke2 g4 61. a5 c2 62. Kd2 c1=Q+ 63. Kxc1 g3 64. a6 g2
+65. a7 g1=Q+ 0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.14"]
+[Round "2"]
+[White "Mota, Pankit"]
+[Black "Moreno Oller, Victor"]
+[Result "1-0"]
+[ECO "B22"]
+[WhiteElo "1859"]
+[BlackElo "1730"]
+[PlyCount "51"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. c3 d5 3. exd5 Qxd5 4. d4 Nc6 5. Nf3 Bf5 6. Be3 Nf6 7. Na3 e6 8. Qa4
+cxd4 9. Nxd4 Bxa3 10. Qxa3 Nxd4 11. Bxd4 a6 12. Be2 h5 13. Rd1 Qc6 14. Bf3 Be4
+15. Bxf6 gxf6 16. Rd6 Bxf3 17. Rxc6 Bxc6 18. f3 Rg8 19. O-O Rd8 20. h3 e5 21.
+Qb4 Bb5 22. Rf2 Bc6 23. Qh4 Rg5 24. Kh2 Kf8 25. f4 exf4 26. Qxf4 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.15"]
+[Round "3"]
+[White "Valero Recalde, Pablo"]
+[Black "Mota, Pankit"]
+[Result "0-1"]
+[ECO "D12"]
+[WhiteElo "1730"]
+[BlackElo "1859"]
+[PlyCount "54"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 Bf5 5. Nc3 e6 6. Nh4 Bg6 7. Bd2 Bh5 8. Nf3
+Nbd7 9. cxd5 exd5 10. Ne2 Qb6 11. Bc3 Ne4 12. Qb3 Bd6 13. Ng3 Nxg3 14. hxg3 Bg6
+15. Qxb6 axb6 16. Be2 b5 17. Nh4 Be4 18. Bf3 b4 19. Bd2 Bd3 20. Be2 Be4 21. Bf3
+g6 22. Bxe4 dxe4 23. g4 O-O 24. f3 Rfe8 25. Ke2 Nf6 26. g5 Nh5 27. g4 Ng3+ 0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.16"]
+[Round "4"]
+[White "Mota, Pankit"]
+[Black "Majumdar, Shankar"]
+[Result "1-0"]
+[ECO "B01"]
+[WhiteElo "1859"]
+[BlackElo "1934"]
+[PlyCount "107"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd6 4. d4 Nf6 5. Nf3 g6 6. Bg5 Bg7 7. Qd2 c6 8.
+Ne5 b5 9. a3 Nbd7 10. f4 a6 11. Be2 c5 12. Bf3 Ra7 13. Bxf6 Bxf6 14. Ne4 Qxd4
+15. Qxd4 cxd4 16. Nxd7 Bxd7 17. Nxf6+ exf6 18. O-O-O O-O 19. Rxd4 f5 20. Rhd1
+Be6 21. Rd8 Rxd8 22. Rxd8+ Kg7 23. Ra8 Rxa8 24. Bxa8 a5 25. Bc6 b4 26. axb4
+axb4 27. Kd2 Kf6 28. Kd3 Ke7 29. Kd4 Kd6 30. Bb5 Bd5 31. g3 f6 32. Bc4 Bf3 33.
+Bg8 h6 34. Bh7 Be4 35. Bxg6 Bxc2 36. Kc4 b3 37. Bf7 Kc6 38. Kc3 Bd1 39. Bxb3
+Bf3 40. Bc2 Bg4 41. Kd4 Bh3 42. Bd3 Bg4 43. b4 Bh3 44. b5+ Kd6 45. b6 Kc6 46.
+b7 Kxb7 47. Kd5 Kb6 48. Ke6 Kc5 49. Bxf5 Bg2 50. Kxf6 h5 51. Kg5 Bf3 52. Bg6
+Kd6 53. Bxh5 Be4 54. Kf6 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.17"]
+[Round "5"]
+[White "Rios Torondell, Jaume"]
+[Black "Mota, Pankit"]
+[Result "0-1"]
+[ECO "A00"]
+[WhiteElo "1881"]
+[BlackElo "1859"]
+[PlyCount "90"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. g4 d5 2. Bg2 c6 3. h3 e5 4. d4 e4 5. c4 Bd6 6. Nc3 Ne7 7. Bg5 f6 8. Bd2 Be6
+9. cxd5 cxd5 10. Nb5 Nbc6 11. Nxd6+ Qxd6 12. e3 g5 13. Ne2 f5 14. gxf5 Nxf5 15.
+Nc3 O-O-O 16. Nb5 Qe7 17. Rc1 Kb8 18. Qb3 Ka8 19. Qa4 Rc8 20. a3 Nh4 21. Bb4
+Qd7 22. Bf1 a6 23. Bc5 Na7 24. Nc3 Qxa4 25. Nxa4 Rc6 26. Be2 Nc8 27. Kd2 Nf3+
+28. Bxf3 exf3 29. Rcg1 h6 30. Kd1 b6 31. Rg3 Bf5 32. Nc3 bxc5 33. Rxf3 Be4 34.
+Nxe4 dxe4 35. d5 Rd6 36. Rf7 Rxd5+ 37. Ke2 Rhd8 38. h4 gxh4 39. Rf4 Rd2+ 40.
+Kf1 Nd6 41. Rhxh4 Rxb2 42. Rxh6 c4 43. Rh7 c3 44. Rf6 c2 45. Rc7 Rb1+ 0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.18"]
+[Round "6"]
+[White "Samrat, Ghorai"]
+[Black "Mota, Pankit"]
+[Result "1-0"]
+[ECO "C15"]
+[WhiteElo "1938"]
+[BlackElo "1859"]
+[PlyCount "83"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. Nge2 dxe4 5. a3 Be7 6. Nxe4 Nf6 7. Nxf6+ Bxf6
+8. Be3 b6 9. Qd2 Bb7 10. O-O-O Nc6 11. Ng3 Ne7 12. Nh5 a6 13. Bg5 Bxg5 14. Qxg5
+Nf5 15. Nxg7+ Kf8 16. Qxd8+ Rxd8 17. Nxf5 exf5 18. f3 Rg8 19. Rd2 Rd6 20. c3
+Rdg6 21. Kd1 h5 22. h4 b5 23. Ke1 Bd5 24. Kf2 c6 25. Rg1 a5 26. Bd3 Rg3 27.
+Rdd1 Be6 28. Rde1 f4 29. Re5 Bd5 30. Be4 f6 31. Rf5 Bxe4 32. fxe4 Rd3 33. Rxf6+
+Ke7 34. Rxc6 Rd2+ 35. Kf3 Rxb2 36. Kxf4 Rg4+ 37. Ke5 Re2 38. Re6+ Kd7 39. Kd5
+Rc2 40. Rb1 Rxc3 41. Rxb5 Rc7 42. Rh6 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.19"]
+[Round "7"]
+[White "Mota, Pankit"]
+[Black "Lopez Manzano, Antonio"]
+[Result "1/2-1/2"]
+[ECO "B06"]
+[WhiteElo "1859"]
+[BlackElo "1898"]
+[PlyCount "70"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 a6 4. Be3 d6 5. Qd2 b5 6. a4 b4 7. Nd5 a5 8. h4 h5 9.
+f3 c6 10. Nf4 Nd7 11. Ngh3 e5 12. dxe5 Bxe5 13. Nd3 Qxh4+ 14. Nhf2 Qe7 15. Nxe5
+dxe5 16. O-O-O Ba6 17. Bxa6 Rxa6 18. Nd3 Ngf6 19. g4 Ra8 20. b3 Rc8 21. Nb2 Nc5
+22. Bxc5 Qxc5 23. g5 Nd5 24. exd5 cxd5 25. Rhe1 Qc7 26. Qh2 O-O 27. Rxd5 Qc3
+28. Qd2 Qxb3 29. Kb1 Rxc2 30. Qxc2 Qxd5 31. Qe4 Qd2 32. Qe3 Qg2 33. Re2 Qf1+
+34. Re1 Qg2 35. Re2 Qf1+ 1/2-1/2
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.20"]
+[Round "8"]
+[White "Mota, Pankit"]
+[Black "Espinosa Cebrian, Carlos"]
+[Result "1/2-1/2"]
+[ECO "B22"]
+[WhiteElo "1859"]
+[BlackElo "1921"]
+[PlyCount "57"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. c3 Nf6 3. e5 Nd5 4. Nf3 Nc6 5. Bc4 Nb6 6. Bb3 d5 7. exd6 Qxd6 8.
+Na3 a6 9. O-O e6 10. Qe2 Be7 11. Rd1 Bf6 12. d3 O-O 13. Nd2 Nd5 14. Ne4 Qe7 15.
+Nc4 b6 16. a4 Rd8 17. Bc2 Bb7 18. Re1 Rac8 19. Be3 Ne5 20. Ncd2 Nxe3 21. Qxe3
+Ng6 22. Nc4 Bxe4 23. Qxe4 b5 24. axb5 axb5 25. Na3 b4 26. Nb5 Qd7 27. Ra5 Qd5
+28. Qxd5 Rxd5 29. Kf1 1/2-1/2
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.21"]
+[Round "9"]
+[White "Del Valle, Clemence"]
+[Black "Mota, Pankit"]
+[Result "0-1"]
+[ECO "C16"]
+[WhiteElo "1759"]
+[BlackElo "1859"]
+[PlyCount "76"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 Qd7 5. a3 Bf8 6. f4 b6 7. Nf3 f6 8. Be2 Nh6
+9. O-O c5 10. Kh1 Ba6 11. Bxa6 Nxa6 12. Qe2 Nc7 13. Nd1 c4 14. Ne3 f5 15. Ng5
+g6 16. Bd2 Nb5 17. Bc3 Be7 18. g4 O-O-O 19. a4 Nxc3 20. bxc3 Bxg5 21. fxg5 Nf7
+22. a5 b5 23. a6 Nxg5 24. Rfb1 Kc7 25. Rb4 Rb8 26. Qe1 f4 27. Nf1 Ne4 28. Qc1
+g5 29. Qa3 Rb6 30. Rab1 Rhb8 31. R4b2 Qe8 32. Qa5 Kc8 33. Qa3 f3 34. Kg1 Qf7
+35. h3 h5 36. gxh5 g4 37. hxg4 Qf4 38. Qe7 Qxg4+ 0-1

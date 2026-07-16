@@ -1,0 +1,730 @@
+[
+  {
+    "canonical": {
+      "id": "lerch-i-gallemi-jose-ma",
+      "name": "Lerch i Gallemi, Jose Ma."
+    },
+    "merged": [
+      {
+        "id": "lerch-gallemi-jose-m",
+        "name": "Lerch Gallemi, Jose M�"
+      },
+      {
+        "id": "lerch-gallemi-jose-ma",
+        "name": "Lerch Gallemi, Jose Ma"
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "lever-erwan",
+      "name": "LEVER, ERWAN."
+    },
+    "merged": [
+      {
+        "id": "lever-erwan-mollet",
+        "name": "Lever, Erwan, (Mollet)"
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "llobera-vilamajor-jm",
+      "name": "Llobera Vilamajor, JM."
+    },
+    "merged": [
+      {
+        "id": "llobera-vilamajor-j",
+        "name": "Llobera Vilamajor, J."
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "lopez-martinez-josep-manuel",
+      "name": "Lopez Martinez, Josep Manuel"
+    },
+    "merged": [
+      {
+        "id": "l-pez-mart-nez-josep-manuel",
+        "name": "L�pez Mart�nez, Josep Manuel"
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "m-a-ortiz-balaguer",
+      "name": "M. A. Ortiz, Balaguer"
+    },
+    "merged": [
+      {
+        "id": "m-ortiz-balaguer",
+        "name": "M. Ortiz, Balaguer"
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "malka-samuel",
+      "name": "MALKA , SAMUEL"
+    },
+    "merged": [
+      {
+        "id": "malka-samuel-mollet",
+        "name": "Malka, Samuel, (Mollet)"
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "marabajan-navas-saul",
+      "name": "MARABAJAN NAVAS, SAUL."
+    },
+    "merged": [
+      {
+        "id": "marabajan-navas-saul-sant-andreu",
+        "name": "Marabajan Navas, Saul, (Sant Andreu)"
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "marches-rios-jm",
+      "name": "Marches Rios, JM."
+    },
+    "merged": [
+      {
+        "id": "marches-rios-j",
+        "name": "Marches Rios, J."
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "maroto-borras-jl",
+      "name": "Maroto Borras, JL."
+    },
+    "merged": [
+      {
+        "id": "maroto-borras-j",
+        "name": "Maroto Borras, J."
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "martin-gonzalez-an",
+      "name": "Martin Gonzalez, An"
+    },
+    "merged": [
+      {
+        "id": "martin-gonzalez-a",
+        "name": "Martin Gonzalez, A."
+      },
+      {
+        "id": "martin-gonzalez-al",
+        "name": "Martin Gonzalez, Al"
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "martinez-lopez-jm",
+      "name": "Martinez Lopez, JM."
+    },
+    "merged": [
+      {
+        "id": "martinez-lopez-j",
+        "name": "Martinez Lopez, J."
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "martinez-villar-ja",
+      "name": "Martinez Villar, JA."
+    },
+    "merged": [
+      {
+        "id": "martinez-villar-j",
+        "name": "Martinez Villar, J."
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "meza-martinez-ai",
+      "name": "Meza Martinez, AI."
+    },
+    "merged": [
+      {
+        "id": "meza-martinez-a",
+        "name": "Meza Martinez, A."
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "montilla-carrillo-esteban",
+      "name": "MONTILLA CARRILLO, ESTEBAN."
+    },
+    "merged": [
+      {
+        "id": "montilla-carrillo-esteban-mollet",
+        "name": "Montilla Carrillo, Esteban, (Mollet)"
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "morato-rovira-j",
+      "name": "Morato Rovira, J."
+    },
+    "merged": [
+      {
+        "id": "morato-rovira-jm",
+        "name": "Morato Rovira, JM."
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "movziszian-karen",
+      "name": "Movziszian, Karen"
+    },
+    "merged": [
+      {
+        "id": "movziszian-karen-sant-andreu",
+        "name": "Movziszian, Karen, (Sant Andreu)"
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "moya-nunez-pau-salvador",
+      "name": "Moya Nunez, Pau Salvador"
+    },
+    "merged": [
+      {
+        "id": "moya-nunes-pau-salvador",
+        "name": "Moya Nunes, Pau Salvador"
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "moyano-morales-fx",
+      "name": "Moyano Morales, FX."
+    },
+    "merged": [
+      {
+        "id": "moyano-morales",
+        "name": "Moyano Morales"
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "mundet-riera-j",
+      "name": "Mundet Riera, J."
+    },
+    "merged": [
+      {
+        "id": "mundet-riera-jo",
+        "name": "Mundet Riera, Jo"
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "ortega-serra-marc",
+      "name": "ORTEGA SERRA, MARC."
+    },
+    "merged": [
+      {
+        "id": "ortega-serra-marc-cerdanyola-v",
+        "name": "Ortega Serra, Marc, (Cerdanyola V)"
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "ortin-blanco-inigo",
+      "name": "ORTIN BLANCO, INIGO."
+    },
+    "merged": [
+      {
+        "id": "orti-n-blanco-inigo",
+        "name": "ORTI�N BLANCO, INIGO."
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "panelo-munoz-marcelo-a",
+      "name": "Panelo Munoz, Marcelo A."
+    },
+    "merged": [
+      {
+        "id": "panelo-munoz-marcelo",
+        "name": "Panelo Muñoz, Marcelo"
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "panelo-munoz-ma",
+      "name": "Panelo Muñoz, MA."
+    },
+    "merged": [
+      {
+        "id": "panelo-munoz-m",
+        "name": "Panelo Muñoz, M."
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "perez-perez-francisco-jose",
+      "name": "Perez Perez, Francisco Jose"
+    },
+    "merged": [
+      {
+        "id": "perez-garcia-francisco-jose",
+        "name": "Perez Garcia, Francisco Jose"
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "perez-lopez-ju",
+      "name": "Perez Lopez, Ju"
+    },
+    "merged": [
+      {
+        "id": "perez-lopez-ja",
+        "name": "Perez Lopez, JA."
+      },
+      {
+        "id": "perez-lopez-j",
+        "name": "Perez Lopez, J."
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "perez-vizcaino-j",
+      "name": "Perez Vizcaino, J."
+    },
+    "merged": [
+      {
+        "id": "perez-vizcaino-jm",
+        "name": "Perez Vizcaino, JM."
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "pinero-fernandez-xavier",
+      "name": "PINERO FERNANDEZ, XAVIER."
+    },
+    "merged": [
+      {
+        "id": "pi-ero-fernandez-xavier",
+        "name": "Pi�ero Fernandez, Xavier"
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "pinyol-llora-julia",
+      "name": "PINYOL LLORA, JULIA."
+    },
+    "merged": [
+      {
+        "id": "pinyol-llora-julia-cerdanyola-v",
+        "name": "Pinyol Llora, Julia, (Cerdanyola V)"
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "prada-villagrasa-pau-manel",
+      "name": "Prada Villagrasa, Pau Manel"
+    },
+    "merged": [
+      {
+        "id": "prada-villagrasa-pau-manel-sabadell",
+        "name": "Prada Villagrasa, Pau Manel, (Sabadell)"
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "prats-rodriguez-jb",
+      "name": "Prats Rodriguez, JB."
+    },
+    "merged": [
+      {
+        "id": "prats-rodriguez-j",
+        "name": "Prats Rodriguez, J."
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "ramirez-carrizo-vj",
+      "name": "Ramirez Carrizo, VJ."
+    },
+    "merged": [
+      {
+        "id": "ramirez-carrizo-v",
+        "name": "Ramirez Carrizo, V."
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "ribes-cabrera-j",
+      "name": "Ribes Cabrera, J."
+    },
+    "merged": [
+      {
+        "id": "ribes-cabrera-jl",
+        "name": "Ribes Cabrera, JL."
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "rivera-hernandez-jj",
+      "name": "Rivera Hernandez, JJ."
+    },
+    "merged": [
+      {
+        "id": "rivera-hernandez-j",
+        "name": "Rivera Hernandez, J."
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "roca-planas-edgar",
+      "name": "ROCA PLANAS, EDGAR."
+    },
+    "merged": [
+      {
+        "id": "roca-planas-edgar-sant-andreu",
+        "name": "Roca Planas, Edgar, (Sant Andreu)"
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "rodriguez-martin-m",
+      "name": "Rodriguez Martin, M."
+    },
+    "merged": [
+      {
+        "id": "rodriguez-martin-ma",
+        "name": "Rodriguez Martin, MA."
+      },
+      {
+        "id": "rodriguez-martin-mm",
+        "name": "Rodriguez Martin, MM."
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "rodriguez-sorribes-ja",
+      "name": "Rodriguez Sorribes, JA."
+    },
+    "merged": [
+      {
+        "id": "rodriguez-sorribes-j",
+        "name": "Rodriguez Sorribes, J."
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "rubio-mejia-li",
+      "name": "Rubio Mejia, LI."
+    },
+    "merged": [
+      {
+        "id": "rubio-mejia-l",
+        "name": "Rubio Mejia, L."
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "ruiz-lupon-neri",
+      "name": "RUIZ LUPON, NERI."
+    },
+    "merged": [
+      {
+        "id": "ruiz-lupon-neri-cerdanyola-v",
+        "name": "Ruiz Lupon, Neri, (Cerdanyola V)"
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "saenz-rebull-j",
+      "name": "Saenz Rebull, J."
+    },
+    "merged": [
+      {
+        "id": "saenz-rebull-jm",
+        "name": "Saenz Rebull, JM."
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "salagran-ferragut-guillem",
+      "name": "Salagran Ferragut, Guillem"
+    },
+    "merged": [
+      {
+        "id": "salagram-ferragut-guillem",
+        "name": "Salagram Ferragut, Guillem"
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "salvat-duch-c",
+      "name": "Salvat Duch, C."
+    },
+    "merged": [
+      {
+        "id": "salvat-duch-ce",
+        "name": "Salvat Duch, CE."
+      },
+      {
+        "id": "salvat-duch-cs",
+        "name": "Salvat Duch, CS."
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "sanchez-botella-l",
+      "name": "Sanchez Botella, L."
+    },
+    "merged": [
+      {
+        "id": "sanchez-botella-lj",
+        "name": "Sanchez Botella, LJ."
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "sanchez-coves-jj",
+      "name": "Sanchez Coves, JJ."
+    },
+    "merged": [
+      {
+        "id": "sanchez-coves-j",
+        "name": "Sanchez Coves, J."
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "sanchez-jerez-e",
+      "name": "Sanchez Jerez, E."
+    },
+    "merged": [
+      {
+        "id": "sanchez-jerez-em",
+        "name": "Sanchez Jerez, EM."
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "sanchez-rodriguez-jm",
+      "name": "Sanchez Rodriguez, JM."
+    },
+    "merged": [
+      {
+        "id": "sanchez-rodriguez-j",
+        "name": "Sanchez Rodriguez, J."
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "sans-arnau-pere",
+      "name": "Sans Arnau, Pere"
+    },
+    "merged": [
+      {
+        "id": "sanz-arnau-pere",
+        "name": "Sanz Arnau, Pere"
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "saurina-suner-francesc-xavier",
+      "name": "Saurina Suner, Francesc Xavier"
+    },
+    "merged": [
+      {
+        "id": "saurina-su-er-francesc-xavier",
+        "name": "Saurina Su�er, Francesc Xavier"
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "segura-riba-jm",
+      "name": "Segura Riba, JM."
+    },
+    "merged": [
+      {
+        "id": "segura-riba-j",
+        "name": "Segura Riba, J."
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "sorroche-martin-josep-m",
+      "name": "Sorroche Martin, Josep M."
+    },
+    "merged": [
+      {
+        "id": "sorroche-martin-josep-ma",
+        "name": "Sorroche Martin, Josep Ma"
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "subirats-ruiz-sergi",
+      "name": "Subirats Ruiz, Sergi"
+    },
+    "merged": [
+      {
+        "id": "subitats-ruiz-sergi",
+        "name": "Subitats Ruiz, Sergi"
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "torner-planell-jr",
+      "name": "Torner Planell, JR."
+    },
+    "merged": [
+      {
+        "id": "torner-planell-j",
+        "name": "Torner Planell, J."
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "torrecillas-martinez-antonio",
+      "name": "Torrecillas Martinez, Antonio"
+    },
+    "merged": [
+      {
+        "id": "torrecillas-martinez-antonio-fom",
+        "name": "Torrecillas Martinez, Antonio (FOM)"
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "travesset-ribera-joaquim",
+      "name": "TRAVESSET RIBERA, JOAQUIM."
+    },
+    "merged": [
+      {
+        "id": "travesset-ribera-joaquim-mollet",
+        "name": "Travesset Ribera, Joaquim, (Mollet)"
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "travesset-sagre-jan",
+      "name": "TRAVESSET SAGRE, JAN."
+    },
+    "merged": [
+      {
+        "id": "travesset-sagre-jan-sant-andreu",
+        "name": "Travesset Sagre, Jan, (Sant Andreu)"
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "valenzuela-gomez-fernando",
+      "name": "Valenzuela Gomez, Fernando"
+    },
+    "merged": [
+      {
+        "id": "valenzuela-gomez-fernando-a",
+        "name": "Valenzuela Gomez, Fernando A"
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "vasquez-schroeder-rodrigo-rafael",
+      "name": "Vasquez Schroeder, Rodrigo Rafael"
+    },
+    "merged": [
+      {
+        "id": "vazquez-schroeder-rodrigo-rafael",
+        "name": "Vazquez Schroeder, Rodrigo Rafael"
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "vilela-de-acuna-jl",
+      "name": "Vilela de Acuña, JL."
+    },
+    "merged": [
+      {
+        "id": "vilela-de-acuna-j",
+        "name": "Vilela de Acuña, J."
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "vinas-racionero-j",
+      "name": "Viñas Racionero, J."
+    },
+    "merged": [
+      {
+        "id": "vinas-racionero-jc",
+        "name": "Viñas Racionero, JC."
+      }
+    ]
+  },
+  {
+    "canonical": {
+      "id": "westerinen-heikki-mj",
+      "name": "Westerinen, Heikki MJ"
+    },
+    "merged": [
+      {
+        "id": "westerinen-heikki",
+        "name": "Westerinen, Heikki"
+      }
+    ]
+  }
+]

@@ -1,0 +1,4602 @@
+[
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 265,
+    "items": [
+      {
+        "id": "cruz-sanchez-c",
+        "name": "Cruz Sanchez, C.",
+        "games": 215
+      },
+      {
+        "id": "cruz-sanchez-f",
+        "name": "Cruz Sanchez, F.",
+        "games": 50
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 228,
+    "items": [
+      {
+        "id": "capellades-subirana-m",
+        "name": "Capellades Subirana, M.",
+        "games": 208
+      },
+      {
+        "id": "capellades-subirana-l",
+        "name": "Capellades Subirana, L.",
+        "games": 20
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 164,
+    "items": [
+      {
+        "id": "vidal-zamora-a",
+        "name": "Vidal Zamora, A.",
+        "games": 105
+      },
+      {
+        "id": "vidal-zamora-c",
+        "name": "Vidal Zamora, C.",
+        "games": 59
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 152,
+    "items": [
+      {
+        "id": "diaz-camallonga-carles",
+        "name": "Diaz Camallonga, Carles",
+        "games": 150
+      },
+      {
+        "id": "diaz-comallonga-carles",
+        "name": "Diaz Comallonga, Carles",
+        "games": 2
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 145,
+    "items": [
+      {
+        "id": "sanchez-ibern-m",
+        "name": "Sanchez Ibern, M.",
+        "games": 120
+      },
+      {
+        "id": "sanchez-ibern-e",
+        "name": "Sanchez Ibern, E.",
+        "games": 25
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 124,
+    "items": [
+      {
+        "id": "pinsach-gelabert-a",
+        "name": "Pinsach Gelabert, A.",
+        "games": 103
+      },
+      {
+        "id": "pinsach-gelabert-g",
+        "name": "Pinsach Gelabert, G.",
+        "games": 21
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 123,
+    "items": [
+      {
+        "id": "coll-ortega-j",
+        "name": "Coll Ortega, J.",
+        "games": 90
+      },
+      {
+        "id": "coll-ortega-c",
+        "name": "Coll Ortega, C.",
+        "games": 33
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 116,
+    "items": [
+      {
+        "id": "cori-tello-j",
+        "name": "Cori Tello, J.",
+        "games": 62
+      },
+      {
+        "id": "cori-tello-d",
+        "name": "Cori Tello, D.",
+        "games": 54
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 113,
+    "items": [
+      {
+        "id": "castany-pampalona-l",
+        "name": "Castany Pampalona, L.",
+        "games": 75
+      },
+      {
+        "id": "castany-pampalona-a",
+        "name": "Castany Pampalona, A.",
+        "games": 38
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 112,
+    "items": [
+      {
+        "id": "llaneza-vega-p",
+        "name": "Llaneza Vega, P.",
+        "games": 92
+      },
+      {
+        "id": "llaneza-vega-m",
+        "name": "Llaneza Vega, M.",
+        "games": 20
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 111,
+    "items": [
+      {
+        "id": "pruja-ramirez-de-cartagena-m",
+        "name": "Pruja Ramirez de Cartagena, M.",
+        "games": 75
+      },
+      {
+        "id": "pruja-ramirez-de-cartagena-e",
+        "name": "Pruja Ramirez de Cartagena, E.",
+        "games": 36
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 111,
+    "items": [
+      {
+        "id": "rojas-keim-la",
+        "name": "Rojas Keim, LA.",
+        "games": 61
+      },
+      {
+        "id": "rojas-keim-l",
+        "name": "Rojas Keim, L.",
+        "games": 50
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 108,
+    "items": [
+      {
+        "id": "cuadras-avellana-jordi",
+        "name": "Cuadras Avellana, Jordi",
+        "games": 107
+      },
+      {
+        "id": "cuadras-avellano-jordi",
+        "name": "Cuadras Avellano, Jordi",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 108,
+    "items": [
+      {
+        "id": "gonzalez-rodriguez-jorge",
+        "name": "GONZALEZ RODRIGUEZ, JORGE.",
+        "games": 107
+      },
+      {
+        "id": "gonz-lez-rodr-guez-jorge",
+        "name": "Gonz�lez Rodr�guez, Jorge",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 105,
+    "items": [
+      {
+        "id": "chalmeta-ugas-r",
+        "name": "Chalmeta Ugas, R.",
+        "games": 70
+      },
+      {
+        "id": "chalmeta-ugas-j",
+        "name": "Chalmeta Ugas, J.",
+        "games": 35
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 103,
+    "items": [
+      {
+        "id": "muratet-carmona-a",
+        "name": "Muratet Carmona, A.",
+        "games": 60
+      },
+      {
+        "id": "muratet-carmona-j",
+        "name": "Muratet Carmona, J.",
+        "games": 43
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 98,
+    "items": [
+      {
+        "id": "fernandez-diaz-cristian",
+        "name": "FERNANDEZ DIAZ, CRISTIAN.",
+        "games": 96
+      },
+      {
+        "id": "fern-ndez-d-az-cristian",
+        "name": "Fern�ndez D�az, Cristian",
+        "games": 2
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 95,
+    "items": [
+      {
+        "id": "arno-bendicho-a",
+        "name": "Arno Bendicho, A.",
+        "games": 49
+      },
+      {
+        "id": "arno-bendicho-x",
+        "name": "Arno Bendicho, X.",
+        "games": 46
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 93,
+    "items": [
+      {
+        "id": "penas-hernandez-y",
+        "name": "Peñas Hernandez, Y.",
+        "games": 60
+      },
+      {
+        "id": "penas-hernandez-x",
+        "name": "Peñas Hernandez, X.",
+        "games": 33
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 92,
+    "items": [
+      {
+        "id": "vidal-zamora-alex",
+        "name": "VIDAL ZAMORA, ALEX.",
+        "games": 91
+      },
+      {
+        "id": "vida-zamora-alex",
+        "name": "Vida Zamora, Alex",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 91,
+    "items": [
+      {
+        "id": "barbero-sendic-alejandro",
+        "name": "Barbero Sendic, Alejandro",
+        "games": 80
+      },
+      {
+        "id": "barbero-senidic-alejandro",
+        "name": "Barbero Senidic, Alejandro",
+        "games": 11
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 4,
+    "totalGames": 89,
+    "items": [
+      {
+        "id": "martinez-lopez-i",
+        "name": "Martinez Lopez, I.",
+        "games": 81
+      },
+      {
+        "id": "martinez-lopez-m",
+        "name": "Martinez Lopez, M.",
+        "games": 4
+      },
+      {
+        "id": "martinez-lopez-d",
+        "name": "Martinez Lopez, D.",
+        "games": 2
+      },
+      {
+        "id": "martinez-lopez-j",
+        "name": "Martinez Lopez, J.",
+        "games": 2
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 88,
+    "items": [
+      {
+        "id": "cervello-tost-f",
+        "name": "Cervello Tost, F.",
+        "games": 56
+      },
+      {
+        "id": "cervello-tost-r",
+        "name": "Cervello Tost, R.",
+        "games": 32
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 87,
+    "items": [
+      {
+        "id": "terrones-launes-m",
+        "name": "Terrones Launes, M.",
+        "games": 61
+      },
+      {
+        "id": "terrones-launes-x",
+        "name": "Terrones Launes, X.",
+        "games": 26
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 85,
+    "items": [
+      {
+        "id": "mayo-casademont-a",
+        "name": "Mayo Casademont, A.",
+        "games": 44
+      },
+      {
+        "id": "mayo-casademont-m",
+        "name": "Mayo Casademont, M.",
+        "games": 41
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 83,
+    "items": [
+      {
+        "id": "gomez-jurado-luis-alberto",
+        "name": "Gomez Jurado, Luis Alberto",
+        "games": 82
+      },
+      {
+        "id": "gomez-jurado-alberto",
+        "name": "Gomez Jurado, Alberto",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 3,
+    "totalGames": 82,
+    "items": [
+      {
+        "id": "panelo-munoz-marcelo-a",
+        "name": "Panelo Munoz, Marcelo A.",
+        "games": 79
+      },
+      {
+        "id": "panelo-munoz-marcelo",
+        "name": "Panelo Muñoz, Marcelo",
+        "games": 2
+      },
+      {
+        "id": "panelo-mu-oz-marcelo-a",
+        "name": "Panelo Mu�oz, Marcelo A",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 77,
+    "items": [
+      {
+        "id": "chalmeta-ugas-jordi",
+        "name": "Chalmeta Ugas, Jordi",
+        "games": 76
+      },
+      {
+        "id": "chalmeta-uagas-jordi",
+        "name": "Chalmeta Uagas, Jordi",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 77,
+    "items": [
+      {
+        "id": "luna-cortes-l",
+        "name": "Luna Cortes, L.",
+        "games": 69
+      },
+      {
+        "id": "luna-cortes-r",
+        "name": "Luna Cortes, R.",
+        "games": 8
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 77,
+    "items": [
+      {
+        "id": "rios-parra-a",
+        "name": "Rios Parra, A.",
+        "games": 73
+      },
+      {
+        "id": "rios-parra-m",
+        "name": "Rios Parra, M.",
+        "games": 4
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 72,
+    "items": [
+      {
+        "id": "avila-jimenez-xavier",
+        "name": "Avila Jimenez, Xavier",
+        "games": 67
+      },
+      {
+        "id": "avila-gimenez-xavier",
+        "name": "Avila Gimenez, Xavier",
+        "games": 5
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 70,
+    "items": [
+      {
+        "id": "montilla-carrillo-esteban",
+        "name": "MONTILLA CARRILLO, ESTEBAN.",
+        "games": 69
+      },
+      {
+        "id": "montila-carrilo-esteban",
+        "name": "Montila Carrilo, Esteban",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 70,
+    "items": [
+      {
+        "id": "pijuan-herranz-m",
+        "name": "Pijuan Herranz, M.",
+        "games": 59
+      },
+      {
+        "id": "pijoan-herranz-m",
+        "name": "Pijoan Herranz, M.",
+        "games": 11
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 68,
+    "items": [
+      {
+        "id": "perez-pinazo-r",
+        "name": "Perez Pinazo, R.",
+        "games": 40
+      },
+      {
+        "id": "perez-pinazo-c",
+        "name": "Perez Pinazo, C.",
+        "games": 28
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 67,
+    "items": [
+      {
+        "id": "bosch-porta-d",
+        "name": "Bosch Porta, D.",
+        "games": 45
+      },
+      {
+        "id": "bosch-porta-c",
+        "name": "Bosch Porta, C.",
+        "games": 22
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 3,
+    "totalGames": 67,
+    "items": [
+      {
+        "id": "mateu-palau-e",
+        "name": "Mateu Palau, E.",
+        "games": 39
+      },
+      {
+        "id": "mateu-palau-x",
+        "name": "Mateu Palau, X.",
+        "games": 25
+      },
+      {
+        "id": "mateu-palau",
+        "name": "Mateu Palau",
+        "games": 3
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 66,
+    "items": [
+      {
+        "id": "colom-andres-xavier",
+        "name": "Colom Andres, Xavier",
+        "games": 63
+      },
+      {
+        "id": "colom-andres-f-xavier",
+        "name": "Colom Andres, F Xavier",
+        "games": 3
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 66,
+    "items": [
+      {
+        "id": "tallo-dominguez-i",
+        "name": "Tallo Dominguez, I.",
+        "games": 57
+      },
+      {
+        "id": "tallo-dominguez-k",
+        "name": "Tallo Dominguez, K.",
+        "games": 9
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 66,
+    "items": [
+      {
+        "id": "travesset-ribera-daniel",
+        "name": "TRAVESSET RIBERA, DANIEL.",
+        "games": 65
+      },
+      {
+        "id": "traveset-ribera-daniel",
+        "name": "Traveset Ribera, Daniel",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 65,
+    "items": [
+      {
+        "id": "garcia-gil-x",
+        "name": "Garcia Gil, X.",
+        "games": 64
+      },
+      {
+        "id": "garcia-gil-j",
+        "name": "Garcia Gil, J.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 65,
+    "items": [
+      {
+        "id": "sole-pijuan-ferran",
+        "name": "Sole Pijuan, Ferran",
+        "games": 63
+      },
+      {
+        "id": "soler-pijuan-ferran",
+        "name": "Soler Pijuan, Ferran",
+        "games": 2
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 63,
+    "items": [
+      {
+        "id": "chalmeta-torredemer-j",
+        "name": "Chalmeta Torredemer, J.",
+        "games": 50
+      },
+      {
+        "id": "chalmeta-torredemer-e",
+        "name": "Chalmeta Torredemer, E.",
+        "games": 13
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 62,
+    "items": [
+      {
+        "id": "silva-rodriguez-j",
+        "name": "Silva Rodriguez, J.",
+        "games": 33
+      },
+      {
+        "id": "silva-rodriguez-f",
+        "name": "Silva Rodriguez, F.",
+        "games": 29
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 61,
+    "items": [
+      {
+        "id": "salagran-ferragut-guillem",
+        "name": "Salagran Ferragut, Guillem",
+        "games": 60
+      },
+      {
+        "id": "salagram-ferragut-guillem",
+        "name": "Salagram Ferragut, Guillem",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 61,
+    "items": [
+      {
+        "id": "salagran-ferragut-g",
+        "name": "Salagran Ferragut, G.",
+        "games": 44
+      },
+      {
+        "id": "salagran-ferragut-e",
+        "name": "Salagran Ferragut, E.",
+        "games": 17
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 61,
+    "items": [
+      {
+        "id": "travesset-ribera-j",
+        "name": "Travesset Ribera, J.",
+        "games": 34
+      },
+      {
+        "id": "travesset-ribera-d",
+        "name": "Travesset Ribera, D.",
+        "games": 27
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 3,
+    "totalGames": 60,
+    "items": [
+      {
+        "id": "muratet-casadevall-a",
+        "name": "Muratet Casadevall, A.",
+        "games": 28
+      },
+      {
+        "id": "muratet-casadevall-e",
+        "name": "Muratet Casadevall, E.",
+        "games": 17
+      },
+      {
+        "id": "muratet-casadevall-j",
+        "name": "Muratet Casadevall, J.",
+        "games": 15
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 60,
+    "items": [
+      {
+        "id": "porras-mateo-f",
+        "name": "Porras Mateo, F.",
+        "games": 39
+      },
+      {
+        "id": "porras-mateo-a",
+        "name": "Porras Mateo, A.",
+        "games": 21
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 58,
+    "items": [
+      {
+        "id": "castelltort-fernandez-a",
+        "name": "Castelltort Fernandez, A.",
+        "games": 57
+      },
+      {
+        "id": "castelltort-fernandez-j",
+        "name": "Castelltort Fernandez, J.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 58,
+    "items": [
+      {
+        "id": "juan-bartroli-p",
+        "name": "Juan Bartroli, P.",
+        "games": 50
+      },
+      {
+        "id": "juan-bartroli-m",
+        "name": "Juan Bartroli, M.",
+        "games": 8
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 58,
+    "items": [
+      {
+        "id": "travesset-sagre-jan",
+        "name": "TRAVESSET SAGRE, JAN.",
+        "games": 57
+      },
+      {
+        "id": "traveset-sagre-jan",
+        "name": "Traveset Sagre, Jan",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 57,
+    "items": [
+      {
+        "id": "garcia-castellote-o",
+        "name": "Garcia Castellote, O.",
+        "games": 36
+      },
+      {
+        "id": "garcia-castellote-d",
+        "name": "Garcia Castellote, D.",
+        "games": 21
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 56,
+    "items": [
+      {
+        "id": "cervello-tost-ferran",
+        "name": "CERVELLO TOST, FERRAN.",
+        "games": 55
+      },
+      {
+        "id": "cervell-tost-ferran",
+        "name": "Cervell Tost, Ferran",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 55,
+    "items": [
+      {
+        "id": "alfonso-nogue-b",
+        "name": "Alfonso Nogue, B.",
+        "games": 49
+      },
+      {
+        "id": "alfonso-nogue-a",
+        "name": "Alfonso Nogue, A.",
+        "games": 6
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 55,
+    "items": [
+      {
+        "id": "fernandez-aguilar-francisco",
+        "name": "Fernandez Aguilar, Francisco",
+        "games": 54
+      },
+      {
+        "id": "fernandez-aguillar-francisco",
+        "name": "Fernandez Aguillar, Francisco",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 55,
+    "items": [
+      {
+        "id": "fernandez-perez-d",
+        "name": "Fernandez Perez, D.",
+        "games": 32
+      },
+      {
+        "id": "fernandez-perez-j",
+        "name": "Fernandez Perez, J.",
+        "games": 23
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 55,
+    "items": [
+      {
+        "id": "garcia-orus-francisco",
+        "name": "Garcia Orus, Francisco",
+        "games": 54
+      },
+      {
+        "id": "garcia-tore-francisco",
+        "name": "Garcia Tore, Francisco",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 55,
+    "items": [
+      {
+        "id": "sabria-batlle-pol",
+        "name": "SABRIA BATLLE, POL.",
+        "games": 54
+      },
+      {
+        "id": "sabri-batlle-pol",
+        "name": "Sabri� Batlle, Pol",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 4,
+    "totalGames": 55,
+    "items": [
+      {
+        "id": "vives-font-r",
+        "name": "Vives Font, R.",
+        "games": 31
+      },
+      {
+        "id": "vives-font-d",
+        "name": "Vives Font, D.",
+        "games": 14
+      },
+      {
+        "id": "vivas-font-f",
+        "name": "Vivas Font, F.",
+        "games": 9
+      },
+      {
+        "id": "vives-font-x",
+        "name": "Vives Font, X.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 53,
+    "items": [
+      {
+        "id": "castillo-escario-y",
+        "name": "Castillo Escario, Y.",
+        "games": 48
+      },
+      {
+        "id": "castillo-escario-m",
+        "name": "Castillo Escario, M.",
+        "games": 5
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 53,
+    "items": [
+      {
+        "id": "valarezo-ricard-pedro",
+        "name": "Valarezo Ricard, Pedro",
+        "games": 29
+      },
+      {
+        "id": "valarezzo-ricard-pedro",
+        "name": "Valarezzo Ricard, Pedro",
+        "games": 24
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 52,
+    "items": [
+      {
+        "id": "garcia-garcia-l",
+        "name": "Garcia Garcia, L.",
+        "games": 48
+      },
+      {
+        "id": "garcia-garcia-m",
+        "name": "Garcia Garcia, M.",
+        "games": 4
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 51,
+    "items": [
+      {
+        "id": "bruned-segura-mario",
+        "name": "Bruned Segura, Mario",
+        "games": 50
+      },
+      {
+        "id": "brunded-segura-mario",
+        "name": "Brunded Segura, Mario",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 50,
+    "items": [
+      {
+        "id": "chalmeta-ugas-jordi-ramon",
+        "name": "Chalmeta Ugas, Jordi Ramon",
+        "games": 27
+      },
+      {
+        "id": "chalmeta-ugas-ramon",
+        "name": "Chalmeta Ugas, Ramon",
+        "games": 23
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 50,
+    "items": [
+      {
+        "id": "moreno-sanchis-j",
+        "name": "Moreno Sanchis, J.",
+        "games": 43
+      },
+      {
+        "id": "moreno-sanchis-a",
+        "name": "Moreno Sanchis, A.",
+        "games": 7
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 49,
+    "items": [
+      {
+        "id": "martin-canfran-r",
+        "name": "Martin Canfran, R.",
+        "games": 44
+      },
+      {
+        "id": "martin-canfran-i",
+        "name": "Martin Canfran, I.",
+        "games": 5
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 49,
+    "items": [
+      {
+        "id": "romero-funieles-rafael-de-jesus",
+        "name": "Romero Funieles, Rafael de Jesus",
+        "games": 33
+      },
+      {
+        "id": "romero-funieles-r-de-jesus",
+        "name": "Romero Funieles, R de Jesus",
+        "games": 16
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 48,
+    "items": [
+      {
+        "id": "aloma-vidal-robert",
+        "name": "ALOMA VIDAL, ROBERT.",
+        "games": 47
+      },
+      {
+        "id": "alomka-vidal-robert",
+        "name": "Alomka Vidal, Robert",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 48,
+    "items": [
+      {
+        "id": "garcia-jimenez-francisco-javier",
+        "name": "Garcia Jimenez, Francisco Javier",
+        "games": 47
+      },
+      {
+        "id": "garcia-jimenez-fco-javier",
+        "name": "Garcia Jimenez, Fco. Javier",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 48,
+    "items": [
+      {
+        "id": "ventura-bolet-m",
+        "name": "Ventura Bolet, M.",
+        "games": 31
+      },
+      {
+        "id": "ventura-bolet-a",
+        "name": "Ventura Bolet, A.",
+        "games": 17
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 47,
+    "items": [
+      {
+        "id": "marcet-bisbal-a",
+        "name": "Marcet Bisbal, A.",
+        "games": 45
+      },
+      {
+        "id": "marcet-bisbal-d",
+        "name": "Marcet Bisbal, D.",
+        "games": 2
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 47,
+    "items": [
+      {
+        "id": "rivas-garcia-victor",
+        "name": "Rivas Garcia, Victor",
+        "games": 46
+      },
+      {
+        "id": "rivasgarcia-victor",
+        "name": "RivasGarcia, Victor",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 3,
+    "totalGames": 46,
+    "items": [
+      {
+        "id": "losada-carrera-fj",
+        "name": "Losada Carrera, FJ.",
+        "games": 30
+      },
+      {
+        "id": "losada-cabrera-fj",
+        "name": "Losada Cabrera, FJ.",
+        "games": 15
+      },
+      {
+        "id": "losada-carreras-fj",
+        "name": "Losada Carreras, FJ.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 46,
+    "items": [
+      {
+        "id": "rechi-perez-f",
+        "name": "Rechi Perez, F.",
+        "games": 36
+      },
+      {
+        "id": "rechi-perez-j",
+        "name": "Rechi Perez, J.",
+        "games": 10
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 3,
+    "totalGames": 45,
+    "items": [
+      {
+        "id": "martin-sanchez-a",
+        "name": "Martin Sanchez, A.",
+        "games": 27
+      },
+      {
+        "id": "martin-sanchez-e",
+        "name": "Martin Sanchez, E.",
+        "games": 17
+      },
+      {
+        "id": "martinez-sanchez-f",
+        "name": "Martinez Sanchez, F.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 45,
+    "items": [
+      {
+        "id": "valarezzo-ricard-p",
+        "name": "Valarezzo Ricard, P.",
+        "games": 28
+      },
+      {
+        "id": "valarezo-ricard-p",
+        "name": "Valarezo Ricard, P.",
+        "games": 17
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 42,
+    "items": [
+      {
+        "id": "lopez-martinez-josep-manuel",
+        "name": "Lopez Martinez, Josep Manuel",
+        "games": 33
+      },
+      {
+        "id": "lopez-martinez-jose-manuel",
+        "name": "Lopez Martinez, Jose Manuel",
+        "games": 9
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 42,
+    "items": [
+      {
+        "id": "serrano-aspa-x",
+        "name": "Serrano Aspa, X.",
+        "games": 33
+      },
+      {
+        "id": "serrano-aspa-p",
+        "name": "Serrano Aspa, P.",
+        "games": 9
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 42,
+    "items": [
+      {
+        "id": "tallo-dominguez-imar",
+        "name": "Tallo Dominguez, Imar",
+        "games": 41
+      },
+      {
+        "id": "tall-dom-nguez-imar",
+        "name": "Tall� Dom�nguez, Imar",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 3,
+    "totalGames": 41,
+    "items": [
+      {
+        "id": "bernado-lopez-roger",
+        "name": "Bernado Lopez, Roger",
+        "games": 38
+      },
+      {
+        "id": "bernad-l-pez-roger",
+        "name": "Bernad� L�pez, Roger",
+        "games": 2
+      },
+      {
+        "id": "bernardo-l-pez-roger",
+        "name": "Bernardo L�pez, Roger",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 41,
+    "items": [
+      {
+        "id": "camacho-collados-j",
+        "name": "Camacho Collados, J.",
+        "games": 24
+      },
+      {
+        "id": "camacho-collados-m",
+        "name": "Camacho Collados, M.",
+        "games": 17
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 4,
+    "totalGames": 41,
+    "items": [
+      {
+        "id": "garriga-lopez-j",
+        "name": "Garriga Lopez, J.",
+        "games": 22
+      },
+      {
+        "id": "garcia-lopez-n",
+        "name": "Garcia Lopez, N.",
+        "games": 9
+      },
+      {
+        "id": "garcia-lopez-a",
+        "name": "Garcia Lopez, A.",
+        "games": 7
+      },
+      {
+        "id": "garcia-lopez-o",
+        "name": "Garcia Lopez, O.",
+        "games": 3
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 40,
+    "items": [
+      {
+        "id": "clara-esteve-p",
+        "name": "Clara Esteve, P.",
+        "games": 24
+      },
+      {
+        "id": "clara-esteve-s",
+        "name": "Clara Esteve, S.",
+        "games": 16
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 39,
+    "items": [
+      {
+        "id": "campos-cayuelas-a",
+        "name": "Campos Cayuelas, A.",
+        "games": 24
+      },
+      {
+        "id": "campos-cayuelas-m",
+        "name": "Campos Cayuelas, M.",
+        "games": 15
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 39,
+    "items": [
+      {
+        "id": "palau-albet-jaume",
+        "name": "Palau Albet, Jaume",
+        "games": 38
+      },
+      {
+        "id": "palau-albert-jaume",
+        "name": "Palau Albert, Jaume",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 39,
+    "items": [
+      {
+        "id": "pares-vives-j",
+        "name": "Pares Vives, J.",
+        "games": 31
+      },
+      {
+        "id": "pares-vives-n",
+        "name": "Pares Vives, N.",
+        "games": 8
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 39,
+    "items": [
+      {
+        "id": "salinas-tomas-daniel",
+        "name": "Salinas Tomas, Daniel",
+        "games": 37
+      },
+      {
+        "id": "salinas-tom-s-daniel",
+        "name": "Salinas Tom�s, Daniel",
+        "games": 2
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 38,
+    "items": [
+      {
+        "id": "martin-perez-l",
+        "name": "Martin Perez, L.",
+        "games": 26
+      },
+      {
+        "id": "martin-perez-j",
+        "name": "Martin Perez, J.",
+        "games": 12
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 38,
+    "items": [
+      {
+        "id": "ramoneda-rumi-a",
+        "name": "Ramoneda Rumi, A.",
+        "games": 32
+      },
+      {
+        "id": "ramoneda-rumi-g",
+        "name": "Ramoneda Rumi, G.",
+        "games": 6
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 37,
+    "items": [
+      {
+        "id": "carol-querol-s",
+        "name": "Carol Querol, S.",
+        "games": 31
+      },
+      {
+        "id": "carol-querol-a",
+        "name": "Carol Querol, A.",
+        "games": 6
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 37,
+    "items": [
+      {
+        "id": "cespedes-llaverias-llibert",
+        "name": "Cespedes Llaverias, Llibert",
+        "games": 36
+      },
+      {
+        "id": "cespedes-llaveries-llibert",
+        "name": "Cespedes Llaveries, Llibert",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 37,
+    "items": [
+      {
+        "id": "llobet-reus-p",
+        "name": "Llobet Reus, P.",
+        "games": 24
+      },
+      {
+        "id": "llobet-reus-j",
+        "name": "Llobet Reus, J.",
+        "games": 13
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 37,
+    "items": [
+      {
+        "id": "pascual-gonzalez-novelles-c",
+        "name": "Pascual Gonzalez-Novelles, C.",
+        "games": 19
+      },
+      {
+        "id": "pascual-gonzalez-novelles-d",
+        "name": "Pascual Gonzalez-Novelles, D.",
+        "games": 18
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 37,
+    "items": [
+      {
+        "id": "ramirez-carrizo-victor-jose",
+        "name": "Ramirez Carrizo, Victor Jose",
+        "games": 36
+      },
+      {
+        "id": "ramirez-carrizo-v-ctor-jose",
+        "name": "Ramirez Carrizo, V�ctor Jose",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 36,
+    "items": [
+      {
+        "id": "lerch-gallemi-jose-maria",
+        "name": "Lerch Gallemi, Jose Maria",
+        "games": 34
+      },
+      {
+        "id": "lerch-gallemi-josep-maria",
+        "name": "Lerch Gallemi, Josep Maria",
+        "games": 2
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 35,
+    "items": [
+      {
+        "id": "jareno-badenas-aleix",
+        "name": "Jareno Badenas, Aleix",
+        "games": 34
+      },
+      {
+        "id": "jare-o-bade-as-aleix",
+        "name": "Jare�o Bade�as, Aleix",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 35,
+    "items": [
+      {
+        "id": "ventura-bolet-alexandre",
+        "name": "VENTURA BOLET, ALEXANDRE.",
+        "games": 34
+      },
+      {
+        "id": "ventrura-bolet-alexandre",
+        "name": "Ventrura Bolet, Alexandre",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 34,
+    "items": [
+      {
+        "id": "moya-nunez-pau-salvador",
+        "name": "Moya Nunez, Pau Salvador",
+        "games": 33
+      },
+      {
+        "id": "moya-nunes-pau-salvador",
+        "name": "Moya Nunes, Pau Salvador",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 34,
+    "items": [
+      {
+        "id": "pablo-marin-alejandro",
+        "name": "Pablo Marin, Alejandro",
+        "games": 33
+      },
+      {
+        "id": "pablo-mari-alejandro",
+        "name": "Pablo Mari, Alejandro",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 34,
+    "items": [
+      {
+        "id": "sanchez-urpi-o",
+        "name": "Sanchez Urpi, O.",
+        "games": 25
+      },
+      {
+        "id": "sanchez-urpi-x",
+        "name": "Sanchez Urpi, X.",
+        "games": 9
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 34,
+    "items": [
+      {
+        "id": "vargas-drechsler-c",
+        "name": "Vargas Drechsler, C.",
+        "games": 33
+      },
+      {
+        "id": "vargas-drechsler-m",
+        "name": "Vargas Drechsler, M.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 33,
+    "items": [
+      {
+        "id": "julian-ortin-e",
+        "name": "Julian Ortin, E.",
+        "games": 28
+      },
+      {
+        "id": "julian-ortin-r",
+        "name": "Julian Ortin, R.",
+        "games": 5
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 33,
+    "items": [
+      {
+        "id": "moreno-martin-daniel",
+        "name": "Moreno Martin, Daniel",
+        "games": 32
+      },
+      {
+        "id": "moreno-mart-n-daniel",
+        "name": "Moreno Mart�n, Daniel",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 33,
+    "items": [
+      {
+        "id": "valenzuela-gomez-fernando",
+        "name": "Valenzuela Gomez, Fernando",
+        "games": 32
+      },
+      {
+        "id": "valenzuela-gomez-fernando-a",
+        "name": "Valenzuela Gomez, Fernando A",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 32,
+    "items": [
+      {
+        "id": "aalbersberg-kroon-p",
+        "name": "Aalbersberg Kroon, P.",
+        "games": 30
+      },
+      {
+        "id": "aalsbersberg-kroon-p",
+        "name": "Aalsbersberg Kroon, P.",
+        "games": 2
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 32,
+    "items": [
+      {
+        "id": "fernandez-martin-j",
+        "name": "Fernandez Martin, J.",
+        "games": 22
+      },
+      {
+        "id": "fernandez-martin-l",
+        "name": "Fernandez Martin, L.",
+        "games": 10
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 32,
+    "items": [
+      {
+        "id": "martin-dinares-s",
+        "name": "Martin Dinares, S.",
+        "games": 17
+      },
+      {
+        "id": "martin-dinares-l",
+        "name": "Martin Dinares, L.",
+        "games": 15
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 32,
+    "items": [
+      {
+        "id": "monfa-escola-r",
+        "name": "Monfa Escola, R.",
+        "games": 26
+      },
+      {
+        "id": "monfa-escola-j",
+        "name": "Monfa Escola, J.",
+        "games": 6
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 32,
+    "items": [
+      {
+        "id": "ortin-blanco-inigo",
+        "name": "ORTIN BLANCO, INIGO.",
+        "games": 31
+      },
+      {
+        "id": "orti-n-blanco-inigo",
+        "name": "ORTI�N BLANCO, INIGO.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 31,
+    "items": [
+      {
+        "id": "corominas-garrido-a",
+        "name": "Corominas Garrido, A.",
+        "games": 17
+      },
+      {
+        "id": "corominas-garrido-j",
+        "name": "Corominas Garrido, J.",
+        "games": 14
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 31,
+    "items": [
+      {
+        "id": "subirats-ruiz-sergi",
+        "name": "Subirats Ruiz, Sergi",
+        "games": 30
+      },
+      {
+        "id": "subitats-ruiz-sergi",
+        "name": "Subitats Ruiz, Sergi",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 30,
+    "items": [
+      {
+        "id": "martinez-hernandez-e",
+        "name": "Martinez Hernandez, E.",
+        "games": 27
+      },
+      {
+        "id": "martinez-hernandez-n",
+        "name": "Martinez Hernandez, N.",
+        "games": 3
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 30,
+    "items": [
+      {
+        "id": "sayrol-clols-jm",
+        "name": "Sayrol Clols, JM.",
+        "games": 17
+      },
+      {
+        "id": "sayrol-clos-jm",
+        "name": "Sayrol Clos, JM.",
+        "games": 13
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 29,
+    "items": [
+      {
+        "id": "barroso-martinez-f",
+        "name": "Barroso Martinez, F.",
+        "games": 18
+      },
+      {
+        "id": "barbosa-martinez-m",
+        "name": "Barbosa Martinez, M.",
+        "games": 11
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 29,
+    "items": [
+      {
+        "id": "serrat-rifa-ernest",
+        "name": "SERRAT RIFA, ERNEST.",
+        "games": 28
+      },
+      {
+        "id": "serra-rifa-ernest",
+        "name": "Serra Rifa, Ernest",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 3,
+    "totalGames": 28,
+    "items": [
+      {
+        "id": "garriga-sole-j",
+        "name": "Garriga Sole, J.",
+        "games": 19
+      },
+      {
+        "id": "garriga-sole-p",
+        "name": "Garriga Sole, P.",
+        "games": 8
+      },
+      {
+        "id": "garriga-sole-f",
+        "name": "Garriga Sole, F.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 28,
+    "items": [
+      {
+        "id": "gonzalez-alonso-f",
+        "name": "Gonzalez Alonso, F.",
+        "games": 19
+      },
+      {
+        "id": "gonzalez-alonso-m",
+        "name": "Gonzalez Alonso, M.",
+        "games": 9
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 28,
+    "items": [
+      {
+        "id": "masip-tresserra-o",
+        "name": "Masip Tresserra, O.",
+        "games": 21
+      },
+      {
+        "id": "masip-tresserra-j",
+        "name": "Masip Tresserra, J.",
+        "games": 7
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 28,
+    "items": [
+      {
+        "id": "otero-salgas-c",
+        "name": "Otero Salgas, C.",
+        "games": 26
+      },
+      {
+        "id": "otero-salgas-j",
+        "name": "Otero Salgas, J.",
+        "games": 2
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 28,
+    "items": [
+      {
+        "id": "van-arkel-j",
+        "name": "Van Arkel, J.",
+        "games": 24
+      },
+      {
+        "id": "van-arkel-h",
+        "name": "Van Arkel, H.",
+        "games": 4
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 27,
+    "items": [
+      {
+        "id": "corriguelas-armillas-f",
+        "name": "Corrigüelas Armillas, F.",
+        "games": 26
+      },
+      {
+        "id": "corrigueelas-armillas-f",
+        "name": "Corrigueelas Armillas, F.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 27,
+    "items": [
+      {
+        "id": "riu-lopez-s",
+        "name": "Riu Lopez, S.",
+        "games": 17
+      },
+      {
+        "id": "riu-lopez-d",
+        "name": "Riu Lopez, D.",
+        "games": 10
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 26,
+    "items": [
+      {
+        "id": "alejo-alvarez-r",
+        "name": "Alejo Alvarez, R.",
+        "games": 20
+      },
+      {
+        "id": "alejo-alvarez-t",
+        "name": "Alejo Alvarez, T.",
+        "games": 6
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 26,
+    "items": [
+      {
+        "id": "crespo-ribilla-jm",
+        "name": "Crespo Ribilla, JM.",
+        "games": 19
+      },
+      {
+        "id": "crespo-revilla-jm",
+        "name": "Crespo Revilla, JM.",
+        "games": 7
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 26,
+    "items": [
+      {
+        "id": "flores-munoz-d",
+        "name": "Flores Muñoz, D.",
+        "games": 25
+      },
+      {
+        "id": "flores-munoz-r",
+        "name": "Flores Muñoz, R.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 26,
+    "items": [
+      {
+        "id": "jover-font-p",
+        "name": "Jover Font, P.",
+        "games": 21
+      },
+      {
+        "id": "jove-font-p",
+        "name": "Jove Font, P.",
+        "games": 5
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 26,
+    "items": [
+      {
+        "id": "martorell-aguado-j",
+        "name": "Martorell Aguado, J.",
+        "games": 23
+      },
+      {
+        "id": "martorell-aguado-a",
+        "name": "Martorell Aguado, A.",
+        "games": 3
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 26,
+    "items": [
+      {
+        "id": "spraggett-kevin",
+        "name": "Spraggett, Kevin",
+        "games": 25
+      },
+      {
+        "id": "spragget-kevin",
+        "name": "Spragget, Kevin",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 25,
+    "items": [
+      {
+        "id": "borras-camarasa-m",
+        "name": "Borras Camarasa, M.",
+        "games": 14
+      },
+      {
+        "id": "borras-camarasa-j",
+        "name": "Borras Camarasa, J.",
+        "games": 11
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 25,
+    "items": [
+      {
+        "id": "triquell-sanchez-m",
+        "name": "Triquell Sanchez, M.",
+        "games": 17
+      },
+      {
+        "id": "triquell-sanchez-j",
+        "name": "Triquell Sanchez, J.",
+        "games": 8
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 25,
+    "items": [
+      {
+        "id": "vega-gutierrez-s",
+        "name": "Vega Gutierrez, S.",
+        "games": 18
+      },
+      {
+        "id": "vega-gutierrez-b",
+        "name": "Vega Gutierrez, B.",
+        "games": 7
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 24,
+    "items": [
+      {
+        "id": "alvarez-albiol-v",
+        "name": "Alvarez Albiol, V.",
+        "games": 15
+      },
+      {
+        "id": "alvarez-albiol-d",
+        "name": "Alvarez Albiol, D.",
+        "games": 9
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 24,
+    "items": [
+      {
+        "id": "baron-isanta-josep-maria",
+        "name": "Baron Isanta, Josep Maria",
+        "games": 15
+      },
+      {
+        "id": "baron-isanta-jose-maria",
+        "name": "Baron Isanta, Jose Maria",
+        "games": 9
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 24,
+    "items": [
+      {
+        "id": "porta-tovar-o",
+        "name": "Porta Tovar, O.",
+        "games": 13
+      },
+      {
+        "id": "porta-tovar-g",
+        "name": "Porta Tovar, G.",
+        "games": 11
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 24,
+    "items": [
+      {
+        "id": "rodriguez-garcia-v",
+        "name": "Rodriguez Garcia, V.",
+        "games": 20
+      },
+      {
+        "id": "rodriguez-garcia-a",
+        "name": "Rodriguez Garcia, A.",
+        "games": 4
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 24,
+    "items": [
+      {
+        "id": "veciana-coronado-p",
+        "name": "Veciana Coronado, P.",
+        "games": 15
+      },
+      {
+        "id": "veciana-coronado-b",
+        "name": "Veciana Coronado, B.",
+        "games": 9
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 23,
+    "items": [
+      {
+        "id": "benseny-martinez-guerau",
+        "name": "Benseny Martinez, Guerau",
+        "games": 22
+      },
+      {
+        "id": "benseny-marin-guerau",
+        "name": "Benseny Marin, Guerau",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 23,
+    "items": [
+      {
+        "id": "pinol-clapera-david",
+        "name": "Pinol Clapera, David",
+        "games": 12
+      },
+      {
+        "id": "pinyol-clapera-david",
+        "name": "PINYOL CLAPERA, DAVID.",
+        "games": 11
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 23,
+    "items": [
+      {
+        "id": "rovira-ruiz-e",
+        "name": "Rovira Ruiz, E.",
+        "games": 15
+      },
+      {
+        "id": "rovira-ruiz-m",
+        "name": "Rovira Ruiz, M.",
+        "games": 8
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 22,
+    "items": [
+      {
+        "id": "casset-bello-e",
+        "name": "Casset Bello, E.",
+        "games": 16
+      },
+      {
+        "id": "casset-bello-h",
+        "name": "Casset Bello, H.",
+        "games": 6
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 22,
+    "items": [
+      {
+        "id": "segarra-calderer-a",
+        "name": "Segarra Calderer, A.",
+        "games": 14
+      },
+      {
+        "id": "segarra-calderer-m",
+        "name": "Segarra Calderer, M.",
+        "games": 8
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 21,
+    "items": [
+      {
+        "id": "aranda-gonzalez-j",
+        "name": "Aranda Gonzalez, J.",
+        "games": 20
+      },
+      {
+        "id": "arance-gonzalez-l",
+        "name": "Arance Gonzalez, L.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 21,
+    "items": [
+      {
+        "id": "domingo-garcia-j",
+        "name": "Domingo Garcia, J.",
+        "games": 20
+      },
+      {
+        "id": "domingo-garcia-a",
+        "name": "Domingo Garcia, A.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 21,
+    "items": [
+      {
+        "id": "girona-masdeu-g",
+        "name": "Girona Masdeu, G.",
+        "games": 17
+      },
+      {
+        "id": "girona-masdeu-j",
+        "name": "Girona Masdeu, J.",
+        "games": 4
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 21,
+    "items": [
+      {
+        "id": "izeta-txabarri-felix",
+        "name": "Izeta Txabarri, Felix",
+        "games": 20
+      },
+      {
+        "id": "izeta-txbarri-felix",
+        "name": "Izeta Txbarri, Felix",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 21,
+    "items": [
+      {
+        "id": "lillo-ferrer-josep-maria",
+        "name": "Lillo Ferrer, Josep Maria",
+        "games": 12
+      },
+      {
+        "id": "lillo-ferrer-jose-maria-m",
+        "name": "Lillo Ferrer, Jose Maria M",
+        "games": 9
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 3,
+    "totalGames": 21,
+    "items": [
+      {
+        "id": "mallol-descarrega-g",
+        "name": "Mallol Descarrega, G.",
+        "games": 11
+      },
+      {
+        "id": "mallol-descarrega-j",
+        "name": "Mallol Descarrega, J.",
+        "games": 8
+      },
+      {
+        "id": "mallol-descarrega-a",
+        "name": "Mallol Descarrega, A.",
+        "games": 2
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 21,
+    "items": [
+      {
+        "id": "mestieri-farre-g",
+        "name": "Mestieri Farre, G.",
+        "games": 12
+      },
+      {
+        "id": "mestieri-farre-x",
+        "name": "Mestieri Farre, X.",
+        "games": 9
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 21,
+    "items": [
+      {
+        "id": "miralles-brugues-r",
+        "name": "Miralles Brugues, R.",
+        "games": 11
+      },
+      {
+        "id": "miralles-brugues-j",
+        "name": "Miralles Brugues, J.",
+        "games": 10
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 21,
+    "items": [
+      {
+        "id": "pueyo-burrel-david",
+        "name": "Pueyo Burrel, David",
+        "games": 14
+      },
+      {
+        "id": "pueyo-burrell-david",
+        "name": "Pueyo Burrell, David",
+        "games": 7
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 20,
+    "items": [
+      {
+        "id": "las-heras-aixandri-s",
+        "name": "Las Heras Aixandri, S.",
+        "games": 15
+      },
+      {
+        "id": "las-heras-aixandri-g",
+        "name": "Las Heras Aixandri, G.",
+        "games": 5
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 20,
+    "items": [
+      {
+        "id": "munoz-munoz-t",
+        "name": "Muñoz Muñoz, T.",
+        "games": 11
+      },
+      {
+        "id": "munoz-munoz-r",
+        "name": "Muñoz Muñoz, R.",
+        "games": 9
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 20,
+    "items": [
+      {
+        "id": "perez-lopez-a",
+        "name": "Perez Lopez, A.",
+        "games": 18
+      },
+      {
+        "id": "perez-lopez-j",
+        "name": "Perez Lopez, J.",
+        "games": 2
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 19,
+    "items": [
+      {
+        "id": "moreno-sanchis-jordi",
+        "name": "Moreno Sanchís, Jordi",
+        "games": 18
+      },
+      {
+        "id": "moreno-sanch-s-jordi",
+        "name": "Moreno Sanch�s, Jordi",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 19,
+    "items": [
+      {
+        "id": "roose-jan",
+        "name": "Roose, Jan",
+        "games": 12
+      },
+      {
+        "id": "rooze-jan",
+        "name": "Rooze, Jan",
+        "games": 7
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 19,
+    "items": [
+      {
+        "id": "shatko-danil",
+        "name": "SHATKO, DANIL.",
+        "games": 18
+      },
+      {
+        "id": "shakto-danil",
+        "name": "Shakto, Danil",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 19,
+    "items": [
+      {
+        "id": "simon-del-sol-s",
+        "name": "Simon Del Sol, S.",
+        "games": 10
+      },
+      {
+        "id": "simon-del-sol-j",
+        "name": "Simon del Sol, J.",
+        "games": 9
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 19,
+    "items": [
+      {
+        "id": "vela-villares-h",
+        "name": "Vela Villares, H.",
+        "games": 13
+      },
+      {
+        "id": "vela-villares-i",
+        "name": "Vela Villares, I.",
+        "games": 6
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 18,
+    "items": [
+      {
+        "id": "capallera-guirado-f",
+        "name": "Capallera Guirado, F.",
+        "games": 10
+      },
+      {
+        "id": "capallera-guirado-i",
+        "name": "Capallera Guirado, I.",
+        "games": 8
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 18,
+    "items": [
+      {
+        "id": "layola-barrionuevo-j",
+        "name": "Layola Barrionuevo, J.",
+        "games": 12
+      },
+      {
+        "id": "layola-barrionuevo-o",
+        "name": "Layola Barrionuevo, O.",
+        "games": 6
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 18,
+    "items": [
+      {
+        "id": "martin-garcia-c",
+        "name": "Martin Garcia, C.",
+        "games": 16
+      },
+      {
+        "id": "martinez-garcia-l",
+        "name": "Martinez Garcia, L.",
+        "games": 2
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 18,
+    "items": [
+      {
+        "id": "petrosyan-tigran-s",
+        "name": "Petrosyan, Tigran S",
+        "games": 15
+      },
+      {
+        "id": "petrosian-tigran-v",
+        "name": "Petrosian, Tigran V",
+        "games": 3
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 3,
+    "totalGames": 18,
+    "items": [
+      {
+        "id": "vazquez-gonzalez-m",
+        "name": "Vazquez Gonzalez, M.",
+        "games": 8
+      },
+      {
+        "id": "vazquez-gonzalez-f",
+        "name": "Vazquez Gonzalez, F.",
+        "games": 5
+      },
+      {
+        "id": "vazquez-gonzalez-j",
+        "name": "Vazquez Gonzalez, J.",
+        "games": 5
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 17,
+    "items": [
+      {
+        "id": "castellet-menchon-d",
+        "name": "Castellet Menchon, D.",
+        "games": 11
+      },
+      {
+        "id": "castellet-menchon-c",
+        "name": "Castellet Menchon, C.",
+        "games": 6
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 3,
+    "totalGames": 17,
+    "items": [
+      {
+        "id": "jane-besora-e",
+        "name": "Jane Besora, E.",
+        "games": 8
+      },
+      {
+        "id": "jane-besora-r",
+        "name": "Jane Besora, R.",
+        "games": 6
+      },
+      {
+        "id": "jane-besora-j",
+        "name": "Jane Besora, J.",
+        "games": 3
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 17,
+    "items": [
+      {
+        "id": "martinez-torras-p",
+        "name": "Martinez Torras, P.",
+        "games": 16
+      },
+      {
+        "id": "martin-torras-c",
+        "name": "Martin Torras, C.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 17,
+    "items": [
+      {
+        "id": "molina-tabernero-jordi",
+        "name": "Molina Tabernero, Jordi",
+        "games": 9
+      },
+      {
+        "id": "molina-taberner-jordi",
+        "name": "Molina Taberner, Jordi",
+        "games": 8
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 17,
+    "items": [
+      {
+        "id": "rosell-cabezas-a",
+        "name": "Rosell Cabezas, A.",
+        "games": 9
+      },
+      {
+        "id": "rosell-cabezas-c",
+        "name": "Rosell Cabezas, C.",
+        "games": 8
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 17,
+    "items": [
+      {
+        "id": "salvador-lopez-d",
+        "name": "Salvador Lopez, D.",
+        "games": 14
+      },
+      {
+        "id": "salgado-lopez-i",
+        "name": "Salgado Lopez, I.",
+        "games": 3
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 16,
+    "items": [
+      {
+        "id": "alves-garcia-eric",
+        "name": "Alves Garcia, Eric",
+        "games": 15
+      },
+      {
+        "id": "alves-garc-a-eric",
+        "name": "Alves Garc�a, Eric",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 16,
+    "items": [
+      {
+        "id": "flores-linan-josep-luis",
+        "name": "Flores Linan, Josep Luis",
+        "games": 10
+      },
+      {
+        "id": "flores-linan-jose-luis",
+        "name": "Flores Linan, Jose Luis",
+        "games": 6
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 16,
+    "items": [
+      {
+        "id": "perales-galindo-eduard",
+        "name": "Perales Galindo, Eduard",
+        "games": 15
+      },
+      {
+        "id": "perales-galino-eduard",
+        "name": "Perales Galino, Eduard",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 16,
+    "items": [
+      {
+        "id": "rodriguez-martin-j",
+        "name": "Rodriguez Martin, J.",
+        "games": 10
+      },
+      {
+        "id": "rodriguez-martin-m",
+        "name": "Rodriguez Martin, M.",
+        "games": 6
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 15,
+    "items": [
+      {
+        "id": "benaiges-fontanet-g",
+        "name": "Benaiges Fontanet, G.",
+        "games": 14
+      },
+      {
+        "id": "benaiges-fontanet-j",
+        "name": "Benaiges Fontanet, J.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 15,
+    "items": [
+      {
+        "id": "gutierrez-anso-j",
+        "name": "Gutierrez Anso, J.",
+        "games": 9
+      },
+      {
+        "id": "gutierrez-anso-x",
+        "name": "Gutierrez Anso, X.",
+        "games": 6
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 15,
+    "items": [
+      {
+        "id": "leiva-velasco-d",
+        "name": "Leiva Velasco, D.",
+        "games": 12
+      },
+      {
+        "id": "leiva-velasco-a",
+        "name": "Leiva Velasco, A.",
+        "games": 3
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 15,
+    "items": [
+      {
+        "id": "lopez-rodriguez-a",
+        "name": "Lopez Rodriguez, A.",
+        "games": 8
+      },
+      {
+        "id": "lopez-rodriguez-j",
+        "name": "Lopez Rodriguez, J.",
+        "games": 7
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 3,
+    "totalGames": 15,
+    "items": [
+      {
+        "id": "martinez-martinez-p",
+        "name": "Martinez Martinez, P.",
+        "games": 12
+      },
+      {
+        "id": "martinez-martinez-s",
+        "name": "Martinez Martinez, S.",
+        "games": 2
+      },
+      {
+        "id": "martinez-martinez-r",
+        "name": "Martinez Martinez, R.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 15,
+    "items": [
+      {
+        "id": "pescador-serrano-x",
+        "name": "Pescador Serrano, X.",
+        "games": 8
+      },
+      {
+        "id": "pescador-serrano-j",
+        "name": "Pescador Serrano, J.",
+        "games": 7
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 15,
+    "items": [
+      {
+        "id": "rodriguez-guerrero-e",
+        "name": "Rodriguez Guerrero, E.",
+        "games": 9
+      },
+      {
+        "id": "rodriguez-guerrero-m",
+        "name": "Rodriguez Guerrero, M.",
+        "games": 6
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 14,
+    "items": [
+      {
+        "id": "delgado-comerma-r",
+        "name": "Delgado Comerma, R.",
+        "games": 13
+      },
+      {
+        "id": "delgado-comerma-a",
+        "name": "Delgado Comerma, A.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 14,
+    "items": [
+      {
+        "id": "fontgivell-dalmau-c",
+        "name": "Fontgivell Dalmau, C.",
+        "games": 13
+      },
+      {
+        "id": "fongivell-dalmau-c",
+        "name": "Fongivell Dalmau, C.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 14,
+    "items": [
+      {
+        "id": "gual-pascual-antoni",
+        "name": "Gual Pascual, Antoni",
+        "games": 13
+      },
+      {
+        "id": "gual-pacual-antoni",
+        "name": "Gual Pacual, Antoni",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 14,
+    "items": [
+      {
+        "id": "lorda-ximenez-t",
+        "name": "Lorda Ximenez, T.",
+        "games": 8
+      },
+      {
+        "id": "lorda-ximenez-j",
+        "name": "Lorda Ximenez, J.",
+        "games": 6
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 14,
+    "items": [
+      {
+        "id": "saiz-rodrigo-josep-fernando",
+        "name": "Saiz Rodrigo, Josep Fernando",
+        "games": 8
+      },
+      {
+        "id": "saiz-rodrigo-fernando",
+        "name": "Saiz Rodrigo, Fernando",
+        "games": 6
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 13,
+    "items": [
+      {
+        "id": "fernandez-fuentes-fco-javier",
+        "name": "Fernandez Fuentes, Fco. Javier",
+        "games": 7
+      },
+      {
+        "id": "fernandez-fuentes-francisco-javier",
+        "name": "Fernandez Fuentes, Francisco Javier",
+        "games": 6
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 13,
+    "items": [
+      {
+        "id": "lemeshev-ilya",
+        "name": "LEMESHEV, ILYA.",
+        "games": 12
+      },
+      {
+        "id": "lemishev-ilya",
+        "name": "Lemishev, Ilya",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 13,
+    "items": [
+      {
+        "id": "lerch-i-gallemi-jose-ma",
+        "name": "Lerch i Gallemi, Jose Ma.",
+        "games": 12
+      },
+      {
+        "id": "lerch-gallemi-jose-ma",
+        "name": "Lerch Gallemi, Jose Ma",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 13,
+    "items": [
+      {
+        "id": "martinez-fernandez-adrian",
+        "name": "Martinez Fernandez, Adrian",
+        "games": 12
+      },
+      {
+        "id": "martinez-fernando-adrian",
+        "name": "Martinez Fernando, Adrian",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 13,
+    "items": [
+      {
+        "id": "nunez-colome-d",
+        "name": "Nuñez Colome, D.",
+        "games": 12
+      },
+      {
+        "id": "nunez-colome-x",
+        "name": "Nuñez Colome, X.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 13,
+    "items": [
+      {
+        "id": "saurina-suner-francesc-xavier",
+        "name": "Saurina Suner, Francesc Xavier",
+        "games": 12
+      },
+      {
+        "id": "saurina-su-er-francesc-xavier",
+        "name": "Saurina Su�er, Francesc Xavier",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 12,
+    "items": [
+      {
+        "id": "camacho-cateura-m",
+        "name": "Camacho Cateura, M.",
+        "games": 8
+      },
+      {
+        "id": "camacho-cateura-d",
+        "name": "Camacho Cateura, D.",
+        "games": 4
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 12,
+    "items": [
+      {
+        "id": "gonzales-perez-ja",
+        "name": "Gonzales Perez, JA.",
+        "games": 11
+      },
+      {
+        "id": "gonzalez-perez-ja",
+        "name": "Gonzalez Perez, JA.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 12,
+    "items": [
+      {
+        "id": "lopez-jose-manuel",
+        "name": "Lopez, Jose Manuel",
+        "games": 11
+      },
+      {
+        "id": "lopez-josep-manuel",
+        "name": "Lopez, Josep Manuel",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 12,
+    "items": [
+      {
+        "id": "rechi-montes-x",
+        "name": "Rechi Montes, X.",
+        "games": 7
+      },
+      {
+        "id": "rechi-montes-a",
+        "name": "Rechi Montes, A.",
+        "games": 5
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 12,
+    "items": [
+      {
+        "id": "sorroche-martin-jose-maria",
+        "name": "Sorroche Martin, Jose Maria",
+        "games": 10
+      },
+      {
+        "id": "sorroche-martin-josep-maria",
+        "name": "Sorroche Martin, Josep Maria",
+        "games": 2
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 12,
+    "items": [
+      {
+        "id": "vilalta-vidal-x",
+        "name": "Vilalta Vidal, X.",
+        "games": 9
+      },
+      {
+        "id": "vilalta-vidal-j",
+        "name": "Vilalta Vidal, J.",
+        "games": 3
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 11,
+    "items": [
+      {
+        "id": "cassas-garriga-j",
+        "name": "Cassas Garriga, J.",
+        "games": 6
+      },
+      {
+        "id": "casas-garriga-j",
+        "name": "Casas Garriga, J.",
+        "games": 5
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 11,
+    "items": [
+      {
+        "id": "masip-tressera-oriol",
+        "name": "Masip Tressera, Oriol",
+        "games": 10
+      },
+      {
+        "id": "masip-tresserra-oriol",
+        "name": "Masip Tresserra, Oriol",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 11,
+    "items": [
+      {
+        "id": "ortega-lopez-m",
+        "name": "Ortega Lopez, M.",
+        "games": 10
+      },
+      {
+        "id": "ortega-lopez-a",
+        "name": "Ortega Lopez, A.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 11,
+    "items": [
+      {
+        "id": "rodriguez-rodriguez-a",
+        "name": "Rodriguez Rodriguez, A.",
+        "games": 7
+      },
+      {
+        "id": "rodriguez-rodriguez-t",
+        "name": "Rodriguez Rodriguez, T.",
+        "games": 4
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 10,
+    "items": [
+      {
+        "id": "borges-ayats-joaquim",
+        "name": "Borges Ayats, Joaquim",
+        "games": 8
+      },
+      {
+        "id": "borges-ayas-joaquim",
+        "name": "Borges Ayas, Joaquim",
+        "games": 2
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 10,
+    "items": [
+      {
+        "id": "fernandez-carballo-c",
+        "name": "Fernandez Carballo, C.",
+        "games": 5
+      },
+      {
+        "id": "fernandez-carballo-s",
+        "name": "Fernandez Carballo, S.",
+        "games": 5
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 10,
+    "items": [
+      {
+        "id": "gala-martinez-r",
+        "name": "Gala Martinez, R.",
+        "games": 9
+      },
+      {
+        "id": "gala-martinez-v",
+        "name": "Gala Martinez, V.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 10,
+    "items": [
+      {
+        "id": "ibanez-aullana-ramon",
+        "name": "Ibanez Aullana, Ramon",
+        "games": 8
+      },
+      {
+        "id": "ibanez-aullana-jose-ramon",
+        "name": "Ibanez Aullana, Jose Ramon",
+        "games": 2
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 10,
+    "items": [
+      {
+        "id": "llaveria-borras-s",
+        "name": "Llaveria Borras, S.",
+        "games": 9
+      },
+      {
+        "id": "llaberia-borras-s",
+        "name": "Llaberia Borras, S.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 10,
+    "items": [
+      {
+        "id": "martinez-rodriguez-p",
+        "name": "Martinez Rodriguez, P.",
+        "games": 9
+      },
+      {
+        "id": "martin-rodriguez-p",
+        "name": "Martin Rodriguez, P.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 10,
+    "items": [
+      {
+        "id": "martinez-torres-e",
+        "name": "Martinez Torres, E.",
+        "games": 6
+      },
+      {
+        "id": "martinez-torres-f",
+        "name": "Martinez Torres, F.",
+        "games": 4
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 10,
+    "items": [
+      {
+        "id": "pacheco-bubi-r",
+        "name": "Pacheco Bubi, R.",
+        "games": 8
+      },
+      {
+        "id": "pacheco-bubi-i",
+        "name": "Pacheco Bubi, I.",
+        "games": 2
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 10,
+    "items": [
+      {
+        "id": "sanchez-marcos-j",
+        "name": "Sanchez Marcos, J.",
+        "games": 5
+      },
+      {
+        "id": "sanchez-marcos-n",
+        "name": "Sanchez Marcos, N.",
+        "games": 5
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 9,
+    "items": [
+      {
+        "id": "balcells-soriguera-m",
+        "name": "Balcells Soriguera, M.",
+        "games": 7
+      },
+      {
+        "id": "balcells-soriguera-t",
+        "name": "Balcells Soriguera, T.",
+        "games": 2
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 9,
+    "items": [
+      {
+        "id": "cruz-sanchez-jonathan-esteban",
+        "name": "Cruz Sanchez, Jonathan Esteban",
+        "games": 8
+      },
+      {
+        "id": "cruz-sanchez-jonatan-esteban",
+        "name": "Cruz Sanchez, Jonatan Esteban",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 9,
+    "items": [
+      {
+        "id": "gallego-eraso-f",
+        "name": "Gallego Eraso, F.",
+        "games": 8
+      },
+      {
+        "id": "gallego-eraso-p",
+        "name": "Gallego Eraso, P.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 9,
+    "items": [
+      {
+        "id": "ramirez-carrizo-victor",
+        "name": "Ramirez Carrizo, Victor",
+        "games": 8
+      },
+      {
+        "id": "ramirez-carizo-victor",
+        "name": "Ramirez Carizo, Victor",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 9,
+    "items": [
+      {
+        "id": "romero-sanchez-f",
+        "name": "Romero Sanchez, F.",
+        "games": 7
+      },
+      {
+        "id": "romero-sanchez-j",
+        "name": "Romero Sanchez, J.",
+        "games": 2
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 9,
+    "items": [
+      {
+        "id": "torrecillas-martinez-antoni",
+        "name": "TORRECILLAS MARTINEZ, ANTONI.",
+        "games": 8
+      },
+      {
+        "id": "torrecilla-martinez-antoni",
+        "name": "Torrecilla Martinez, Antoni",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 8,
+    "items": [
+      {
+        "id": "albert-mach-joan",
+        "name": "Albert Mach, Joan",
+        "games": 7
+      },
+      {
+        "id": "albert-march-joan",
+        "name": "Albert March, Joan",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 8,
+    "items": [
+      {
+        "id": "arza-garcia-m",
+        "name": "Arza Garcia, M.",
+        "games": 6
+      },
+      {
+        "id": "arza-garcia-r",
+        "name": "Arza Garcia, R.",
+        "games": 2
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 3,
+    "totalGames": 8,
+    "items": [
+      {
+        "id": "ioseliani-irina",
+        "name": "Ioseliani, Irina",
+        "games": 6
+      },
+      {
+        "id": "ioselani-irina",
+        "name": "Ioselani, Irina",
+        "games": 1
+      },
+      {
+        "id": "ioselliani-irina",
+        "name": "Ioselliani, Irina",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 8,
+    "items": [
+      {
+        "id": "llos-casadella-a",
+        "name": "Llos Casadella, A.",
+        "games": 5
+      },
+      {
+        "id": "llos-casadella-b",
+        "name": "Llos Casadella, B.",
+        "games": 3
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 8,
+    "items": [
+      {
+        "id": "pijuan-herranz-manel",
+        "name": "Pijuan Herranz , Manel",
+        "games": 7
+      },
+      {
+        "id": "pijuan-herraz-manel",
+        "name": "Pijuan Herraz, Manel",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 8,
+    "items": [
+      {
+        "id": "uber-gracia-hugo",
+        "name": "Uber Gracia, Hugo",
+        "games": 7
+      },
+      {
+        "id": "uber-garcia-hugo",
+        "name": "Uber Garcia, Hugo",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 8,
+    "items": [
+      {
+        "id": "zamarreno-cuerda-e",
+        "name": "Zamarreño Cuerda, E.",
+        "games": 7
+      },
+      {
+        "id": "zamareno-cuerda-e",
+        "name": "Zamareño Cuerda, E.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 7,
+    "items": [
+      {
+        "id": "llovera-pujol-r",
+        "name": "Llovera Pujol, R.",
+        "games": 4
+      },
+      {
+        "id": "llobera-pujol-r",
+        "name": "Llobera Pujol, R.",
+        "games": 3
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 7,
+    "items": [
+      {
+        "id": "maitia-petros-d",
+        "name": "Maitia Petros, D.",
+        "games": 6
+      },
+      {
+        "id": "maiti-petros-d",
+        "name": "Maiti Petros, D.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 7,
+    "items": [
+      {
+        "id": "pau-plana-a",
+        "name": "Pau Plana, A.",
+        "games": 6
+      },
+      {
+        "id": "pau-plana-j",
+        "name": "Pau Plana, J.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 6,
+    "items": [
+      {
+        "id": "bechini-fj",
+        "name": "Bechini, FJ.",
+        "games": 5
+      },
+      {
+        "id": "becking-fj",
+        "name": "Becking, FJ.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 6,
+    "items": [
+      {
+        "id": "eguia-cambero-i",
+        "name": "Eguia Cambero, I.",
+        "games": 5
+      },
+      {
+        "id": "eguia-cambero-j",
+        "name": "Eguia Cambero, J.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 6,
+    "items": [
+      {
+        "id": "iglesias-santos-d",
+        "name": "Iglesias Santos, D.",
+        "games": 3
+      },
+      {
+        "id": "iglesias-santos-r",
+        "name": "Iglesias Santos, R.",
+        "games": 3
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 6,
+    "items": [
+      {
+        "id": "llobera-vilamajor-jm",
+        "name": "Llobera Vilamajor, JM.",
+        "games": 4
+      },
+      {
+        "id": "llobera-vilamajo-jm",
+        "name": "Llobera Vilamajo, JM.",
+        "games": 2
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 6,
+    "items": [
+      {
+        "id": "sola-cortada-i",
+        "name": "Sola Cortada, I.",
+        "games": 5
+      },
+      {
+        "id": "sola-cortada-m",
+        "name": "Sola Cortada, M.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 6,
+    "items": [
+      {
+        "id": "sorroche-martin-josep-m",
+        "name": "Sorroche Martin, Josep M.",
+        "games": 5
+      },
+      {
+        "id": "sorroche-matin-josep-m",
+        "name": "Sorroche Matin, Josep M",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 5,
+    "items": [
+      {
+        "id": "ben-porat-o",
+        "name": "Ben Porat, O.",
+        "games": 4
+      },
+      {
+        "id": "ben-porat-z",
+        "name": "Ben Porat, Z.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 5,
+    "items": [
+      {
+        "id": "busquets-prat-rafel",
+        "name": "Busquets Prat, Rafel",
+        "games": 4
+      },
+      {
+        "id": "busquets-prats-rafel",
+        "name": "Busquets Prats, Rafel",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 5,
+    "items": [
+      {
+        "id": "ferret-soler-c",
+        "name": "Ferret Soler, C.",
+        "games": 4
+      },
+      {
+        "id": "ferret-soler-a",
+        "name": "Ferret Soler, A.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 5,
+    "items": [
+      {
+        "id": "gutierrez-marin-genis",
+        "name": "GUTIERREZ MARIN, GENIS.",
+        "games": 4
+      },
+      {
+        "id": "gutierez-marin-genis",
+        "name": "Gutierez Marin, Genis",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 5,
+    "items": [
+      {
+        "id": "vedmediuc-serghei",
+        "name": "Vedmediuc, Serghei",
+        "games": 4
+      },
+      {
+        "id": "vedemiuch-serghei",
+        "name": "Vedemiuch, Serghei",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 4,
+    "items": [
+      {
+        "id": "blanco-sanchez-jf",
+        "name": "Blanco Sanchez, JF.",
+        "games": 3
+      },
+      {
+        "id": "blasco-sanchez-jf",
+        "name": "Blasco Sanchez, JF.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 4,
+    "items": [
+      {
+        "id": "garcia-menchon-j",
+        "name": "Garcia Menchon, J.",
+        "games": 3
+      },
+      {
+        "id": "garcia-menchon-m",
+        "name": "Garcia Menchon, M.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 4,
+    "items": [
+      {
+        "id": "hernandez-funes-h",
+        "name": "Hernandez Funes, H.",
+        "games": 2
+      },
+      {
+        "id": "hernandez-funes-r",
+        "name": "Hernandez Funes, R.",
+        "games": 2
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 4,
+    "items": [
+      {
+        "id": "hernando-pertierra-jose-carlos",
+        "name": "Hernando Pertierra, Jose Carlos",
+        "games": 3
+      },
+      {
+        "id": "hernando-perterra-jose-carlos",
+        "name": "Hernando Perterra, Jose Carlos",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 4,
+    "items": [
+      {
+        "id": "jareno-aleix",
+        "name": "Jareno, Aleix",
+        "games": 2
+      },
+      {
+        "id": "jare-o-aleix",
+        "name": "Jare�o, Aleix",
+        "games": 2
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 4,
+    "items": [
+      {
+        "id": "m-a-ortiz-balaguer",
+        "name": "M. A. Ortiz, Balaguer",
+        "games": 3
+      },
+      {
+        "id": "m-ortiz-balaguer",
+        "name": "M. Ortiz, Balaguer",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 4,
+    "items": [
+      {
+        "id": "march-jm",
+        "name": "March, JM.",
+        "games": 3
+      },
+      {
+        "id": "marca-jm",
+        "name": "Marca, JM.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 3,
+    "totalGames": 4,
+    "items": [
+      {
+        "id": "movziszian-karen",
+        "name": "Movziszian, Karen",
+        "games": 2
+      },
+      {
+        "id": "movszizian-karen",
+        "name": "Movszizian, Karen",
+        "games": 1
+      },
+      {
+        "id": "movzsisian-karen",
+        "name": "Movzsisian, Karen",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 4,
+    "items": [
+      {
+        "id": "sobrerroca-basaganas-josep",
+        "name": "Sobrerroca Basaganas, Josep",
+        "games": 3
+      },
+      {
+        "id": "sobrerroca-basaga-as-josep",
+        "name": "Sobrerroca Basaga�as, Josep",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 3,
+    "items": [
+      {
+        "id": "j-l-maroto-sitges",
+        "name": "J. L. Maroto, Sitges",
+        "games": 2
+      },
+      {
+        "id": "j-j-marti-sitges",
+        "name": "J. J. Marti, Sitges",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 3,
+    "items": [
+      {
+        "id": "albet-serra-jordi",
+        "name": "Albet Serra, Jordi",
+        "games": 2
+      },
+      {
+        "id": "albert-serra-jordi",
+        "name": "Albert Serra, Jordi",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 3,
+    "items": [
+      {
+        "id": "galego-luis",
+        "name": "Galego, Luis",
+        "games": 2
+      },
+      {
+        "id": "gallego-luis",
+        "name": "Gallego, Luis",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 3,
+    "items": [
+      {
+        "id": "j-cubas-st-adria",
+        "name": "J. Cubas, St.Adrià",
+        "games": 2
+      },
+      {
+        "id": "j-cubas-sant-adria",
+        "name": "J. Cubas, Sant Adrià",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 3,
+    "items": [
+      {
+        "id": "lorente-mu-oz-raul",
+        "name": "Lorente Mu�oz, Raul",
+        "games": 2
+      },
+      {
+        "id": "lorente-munoz-raul",
+        "name": "Lorente Munoz, Raul",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 3,
+    "items": [
+      {
+        "id": "rodriguez-marin-jose",
+        "name": "Rodriguez Marin, Jose",
+        "games": 2
+      },
+      {
+        "id": "rodriguez-marcos-jose-r",
+        "name": "Rodriguez Marcos, Jose R",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 3,
+    "items": [
+      {
+        "id": "sanchez-rodriguez-j",
+        "name": "Sanchez Rodriguez, J.",
+        "games": 2
+      },
+      {
+        "id": "sanchez-rodriguez-m",
+        "name": "Sanchez Rodriguez, M.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 3,
+    "items": [
+      {
+        "id": "sans-arnau-pere",
+        "name": "Sans Arnau, Pere",
+        "games": 2
+      },
+      {
+        "id": "sanz-arnau-pere",
+        "name": "Sanz Arnau, Pere",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 3,
+    "items": [
+      {
+        "id": "spasov-liuben",
+        "name": "Spasov, Liuben",
+        "games": 2
+      },
+      {
+        "id": "spassov-liuben",
+        "name": "Spassov, Liuben",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 3,
+    "items": [
+      {
+        "id": "torras-gonzalez-r",
+        "name": "Torras Gonzalez, R.",
+        "games": 2
+      },
+      {
+        "id": "torres-gonzalez-p",
+        "name": "Torres Gonzalez, P.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 2,
+    "items": [
+      {
+        "id": "alonso-gomez-antonio",
+        "name": "Alonso Gomez, Antonio",
+        "games": 1
+      },
+      {
+        "id": "alonso-jose-antonio",
+        "name": "Alonso, Jose Antonio",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 2,
+    "items": [
+      {
+        "id": "cavalle-monne-j",
+        "name": "Cavalle Monne, J.",
+        "games": 1
+      },
+      {
+        "id": "cavalle-monne-s",
+        "name": "Cavalle Monne, S.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 2,
+    "items": [
+      {
+        "id": "garcia-daniel",
+        "name": "Garcia, Daniel",
+        "games": 1
+      },
+      {
+        "id": "garc-a-daniel",
+        "name": "Garc�a, Daniel",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 2,
+    "items": [
+      {
+        "id": "garcia-vidal-j",
+        "name": "Garcia Vidal, J.",
+        "games": 1
+      },
+      {
+        "id": "garcia-vidal-s",
+        "name": "Garcia Vidal, S.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 2,
+    "items": [
+      {
+        "id": "martin-tarrio-david",
+        "name": "Martin Tarrio, David",
+        "games": 1
+      },
+      {
+        "id": "martin-tarro-david",
+        "name": "Martin Tarro, David",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 2,
+    "items": [
+      {
+        "id": "p-diaz-st-andreu-b",
+        "name": "P.  Diaz, St.Andreu B",
+        "games": 1
+      },
+      {
+        "id": "p-diaz-sant-andreu-b",
+        "name": "P. Diaz, Sant Andreu B",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 2,
+    "items": [
+      {
+        "id": "romero-calderon-c",
+        "name": "Romero Calderon, C.",
+        "games": 1
+      },
+      {
+        "id": "romero-calderon-j",
+        "name": "Romero Calderon, J.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 2,
+    "items": [
+      {
+        "id": "van-splunter-a",
+        "name": "Van Splunter, A.",
+        "games": 1
+      },
+      {
+        "id": "van-splunter-n",
+        "name": "Van Splunter, N.",
+        "games": 1
+      }
+    ]
+  },
+  {
+    "reason": "nombre muy parecido",
+    "players": 2,
+    "totalGames": 2,
+    "items": [
+      {
+        "id": "vila-jimenez-x",
+        "name": "Vila Jimenez, X.",
+        "games": 1
+      },
+      {
+        "id": "villa-jimenez-c",
+        "name": "Villa Jimenez, C.",
+        "games": 1
+      }
+    ]
+  }
+]

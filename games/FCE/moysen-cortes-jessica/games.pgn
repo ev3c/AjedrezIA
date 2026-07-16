@@ -1,0 +1,253 @@
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.13"]
+[Round "1"]
+[White "Cassi Gimeno, Jordi"]
+[Black "Moysen Cortes, Jessica"]
+[Result "0-1"]
+[ECO "B01"]
+[BlackElo "1740"]
+[PlyCount "136"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d4 e5 5. a3 exd4 6. Qxd4 Nc6 7. Qf4 Bd6 8.
+Qg5 Be5 9. Nge2 h6 10. Qe3 Nf6 11. Bd2 Ng4 12. Qe4 Qb6 13. Be3 Nxe3 14. Qxe3
+Qxe3 15. fxe3 Bf5 16. O-O-O Ke7 17. g3 Bg4 18. Nd5+ Ke8 19. Rg1 Rd8 20. Rd2 Na5
+21. b3 c6 22. Ndc3 Rxd2 23. Kxd2 Ke7 24. h3 Rd8+ 25. Ke1 Bh5 26. g4 Bg6 27. e4
+b6 28. Bg2 Nb7 29. Rf1 Nc5 30. b4 Ne6 31. Rf3 f6 32. Rd3 Nd4 33. Nxd4 Rxd4 34.
+Rxd4 Bxd4 35. Nb1 Bf7 36. Kd2 Kd6 37. Kd3 Be5 38. Nc3 b5 39. a4 Bxc3 40. Kxc3
+bxa4 41. Kb2 Bc4 42. Ka3 Bb5 43. Bf3 Ke5 44. c4 Bxc4 45. Kxa4 Bd3 46. Ka5 a6
+47. Kb6 Bb5 48. Kc5 Kf4 49. Bd1 Kxe4 50. Bb3 Kd3 51. Be6 Kc3 52. Bd7 Kb3 53.
+Be8 Kc3 54. Bd7 Kd3 55. Be8 Kc3 56. Bd7 Bf1 57. Bxc6 Bxh3 58. Bb7 Bf1 59. Bc8
+g6 60. Bb7 Be2 61. Bc8 h5 62. gxh5 gxh5 63. Bf5 h4 64. Bh3 Bd3 65. Bc8 f5 66.
+Be6 h3 67. Bd5 Be4 68. Bc4 Bb7 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.14"]
+[Round "2"]
+[White "Moysen Cortes, Jessica"]
+[Black "Fernandez Egea, Andres"]
+[Result "1/2-1/2"]
+[ECO "C47"]
+[WhiteElo "1740"]
+[BlackElo "1886"]
+[PlyCount "136"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. d4 exd4 5. Nxd4 d6 6. Nxc6 bxc6 7. Bd3 Be7 8.
+O-O O-O 9. Bf4 Ng4 10. h3 Ne5 11. Bxe5 dxe5 12. Bc4 Bd6 13. Qf3 Rb8 14. Bb3 Qe7
+15. Ne2 Ba6 16. Rfe1 c5 17. c4 f5 18. Nc3 fxe4 19. Qxe4 Qg5 20. Bc2 g6 21. b3
+Bb7 22. Nd5 Rf4 23. Qe3 Bxd5 24. cxd5 Qf6 25. Be4 Rb4 26. f3 Qe7 27. Rac1 c4
+28. Qc3 Bc5+ 29. Kh2 Bd4 30. Qc2 c3 31. Qe2 Qd6 32. Rc2 Rf6 33. Qd3 a5 34. Rec1
+Rf8 35. h4 Kg7 36. g3 a4 37. bxa4 Ra8 38. h5 gxh5 39. Kg2 Rb2 40. Rh1 Rxa4 41.
+Rxh5 h6 42. Rh4 Raxa2 43. Qd1 Rxc2+ 44. Bxc2 Qa3 45. Qd3 Rxc2+ 46. Qxc2 Qb2 47.
+Qxb2 cxb2 48. Rh1 Kf6 49. Re1 Ke7 50. Kf1 Kd6 51. Ke2 Kxd5 52. Kd3 c5 53. Kc2
+c4 54. Rh1 c3 55. Rxh6 Be3 56. Rh1 Bd2 57. Rh4 Be3 58. Rb4 Bc5 59. Re4 Bd4 60.
+g4 Ke6 61. Re1 Kf6 62. Rh1 Kg5 63. Rh5+ Kg6 64. Rf5 Kh6 65. Rf6+ Kg5 66. Rf5+
+Kg6 67. Rh5 Kf6 68. Rf5+ Kg6 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.15"]
+[Round "3"]
+[White "Flores Mendoza, Jose Antonio"]
+[Black "Moysen Cortes, Jessica"]
+[Result "1-0"]
+[ECO "E34"]
+[WhiteElo "1877"]
+[BlackElo "1740"]
+[PlyCount "93"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 d5 5. Bg5 dxc4 6. e3 Bxc3+ 7. Qxc3 b5 8.
+a4 c6 9. Nf3 Nbd7 10. b3 cxb3 11. axb5 cxb5 12. Qxb3 Bb7 13. Bxb5 Bxf3 14. gxf3
+Qb6 15. Bxf6 gxf6 16. Qa4 Qd6 17. Ke2 Ke7 18. Bc6 Rac8 19. Bxd7 Qxd7 20. Qxd7+
+Kxd7 21. Rxa7+ Rc7 22. Rha1 Rhc8 23. f4 Rxa7 24. Rxa7+ Ke8 25. Kf3 Kf8 26. f5
+exf5 27. Kf4 Rc2 28. f3 Rxh2 29. Kxf5 Kg7 30. d5 Rh5+ 31. Ke4 Re5+ 32. Kd4 Re8
+33. d6 h5 34. e4 h4 35. f4 Kg6 36. Kd5 Rc8 37. d7 Rd8 38. Kd6 h3 39. Ke7 h2 40.
+Ra1 Ra8 41. Rh1 Ra7 42. Ke8 Rxd7 43. Kxd7 f5 44. e5 Kg7 45. Ke7 f6 46. exf6+
+Kg6 47. f7 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.16"]
+[Round "4"]
+[White "Moysen Cortes, Jessica"]
+[Black "Jimenez Rimblas, Raul"]
+[Result "1-0"]
+[ECO "B06"]
+[WhiteElo "1740"]
+[PlyCount "77"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 g6 2. d4 Bg7 3. Be3 d6 4. h3 Nf6 5. Nc3 O-O 6. Nf3 Nbd7 7. Qd2 c5 8. d5
+Nb6 9. Bh6 e6 10. Bxg7 Kxg7 11. dxe6 fxe6 12. O-O-O d5 13. exd5 exd5 14. Nh2
+Bf5 15. Ng4 Bxg4 16. hxg4 Nxg4 17. f3 Nf6 18. Qh6+ Kg8 19. g4 Qd7 20. Be2 Qg7
+21. Qg5 Rad8 22. Rh2 Rfe8 23. Rdh1 Re7 24. Bd3 Rde8 25. Kd1 Re5 26. Qd2 d4 27.
+Ne4 Nxe4 28. fxe4 h5 29. gxh5 Rxh5 30. Rxh5 gxh5 31. Qe2 c4 32. Bxc4+ Nxc4 33.
+Qxc4+ Qf7 34. Rg1+ Kf8 35. Rf1 Qxf1+ 36. Qxf1+ Ke7 37. Qb5 Rg8 38. Qxb7+ Kd6
+39. Qd5+ 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.17"]
+[Round "5"]
+[White "Carrey Abellan, Enric"]
+[Black "Moysen Cortes, Jessica"]
+[Result "1-0"]
+[ECO "E32"]
+[WhiteElo "1911"]
+[BlackElo "1740"]
+[PlyCount "77"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 b6 5. Bg5 Bb7 6. a3 Bxc3+ 7. Qxc3 O-O 8.
+f3 d5 9. e3 Nbd7 10. Bd3 c5 11. Ne2 cxd4 12. exd4 dxc4 13. Qxc4 Rc8 14. Qa4 a5
+15. Rd1 h6 16. Bh4 g5 17. Bf2 Nd5 18. O-O N7f6 19. Rc1 Qe7 20. Qb3 Nh5 21. Rfe1
+Qd6 22. Be4 f5 23. Bb1 Ndf6 24. Nc3 Nd5 25. Nxd5 Bxd5 26. Qb5 Bc6 27. Qxb6 g4
+28. Ba2 Rf6 29. Rc3 g3 30. hxg3 Nxg3 31. Re5 f4 32. Qxa5 Rb8 33. b4 Rg6 34. Qa6
+Qxe5 35. dxe5 Rd8 36. Rd3 Ne2+ 37. Kf1 Rxd3 38. Qxd3 Nc1 39. Qxg6+ 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.18"]
+[Round "6"]
+[White "Moysen Cortes, Jessica"]
+[Black "De Figueiredo Coutinho, Rocco"]
+[Result "1-0"]
+[ECO "C47"]
+[WhiteElo "1740"]
+[BlackElo "1474"]
+[PlyCount "47"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. d4 exd4 5. Nxd4 d6 6. h3 Be7 7. Be3 O-O 8.
+Nxc6 bxc6 9. Bd3 Nd7 10. O-O Ne5 11. Be2 f5 12. f4 Ng6 13. Qd2 Be6 14. exf5
+Bxf5 15. g4 Bd7 16. Ne4 c5 17. Bc4+ Kh8 18. Ng3 Bf6 19. Rab1 Bh4 20. Nh5 Bf6
+21. g5 Bxg5 22. fxg5 Ne5 23. Bd5 Rb8 24. Rxf8+ 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.19"]
+[Round "7"]
+[White "Andreu Termes, Frederic"]
+[Black "Moysen Cortes, Jessica"]
+[Result "1-0"]
+[ECO "A13"]
+[WhiteElo "1870"]
+[BlackElo "1740"]
+[PlyCount "107"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 Nf6 2. g3 e6 3. Bg2 d5 4. Nf3 dxc4 5. Qa4+ Nbd7 6. Qxc4 a6 7. O-O b5 8.
+Qc2 Bb7 9. b3 Be7 10. Bb2 O-O 11. d3 c5 12. Nbd2 Rc8 13. Rac1 Qb6 14. Qb1 Rc7
+15. e4 Rfc8 16. Ne5 Nxe5 17. Bxe5 Rd7 18. Rfd1 Ng4 19. Ba1 c4 20. d4 Ba3 21.
+Bb2 Bxb2 22. Qxb2 c3 23. Rxc3 Rxd4 24. Rxc8+ Bxc8 25. Rc1 Rd8 26. Nf3 Bb7 27.
+h3 Nf6 28. e5 Ne4 29. Qe2 Nxg3 30. Qc2 Nf5 31. Qc7 Qxc7 32. Rxc7 Rb8 33. Ng5
+Bxg2 34. Kxg2 f6 35. exf6 gxf6 36. Nxh7 Ng7 37. Nxf6+ Kh8 38. Ra7 Rf8 39. Ng4
+Nh5 40. Rxa6 Nf4+ 41. Kg3 Ne2+ 42. Kh2 Nd4 43. Rd6 Nf3+ 44. Kg3 Ng5 45. Kg2 Rf4
+46. Rb6 b4 47. Rb7 Nf7 48. Kg3 Rf5 49. Rxb4 Kg7 50. a4 Ng5 51. f4 Nf7 52. Rb7
+Kg6 53. Rxf7 Kxf7 54. Nh6+ 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.20"]
+[Round "8"]
+[White "Madrid Sole, Antonio"]
+[Black "Moysen Cortes, Jessica"]
+[Result "1-0"]
+[ECO "D25"]
+[WhiteElo "1865"]
+[BlackElo "1740"]
+[PlyCount "113"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 d5 3. e3 Bg4 4. c4 dxc4 5. Bxc4 e6 6. Nbd2 Nbd7 7. O-O c6 8.
+h3 Bh5 9. Qb3 Qc7 10. Re1 Be7 11. e4 h6 12. e5 Nh7 13. Ne4 Nb6 14. Nd6+ Kd7 15.
+Be2 Ng5 16. Bf4 Nd5 17. Bg3 Qb6 18. Qxb6 axb6 19. Nxg5 hxg5 20. Bxh5 Rxh5 21.
+Nxf7 Nb4 22. Re4 Rxa2 23. Rxa2 Nxa2 24. Nd6 Bxd6 25. exd6 Nb4 26. Be5 g6 27.
+Re3 Rh7 28. Rf3 Nd5 29. Rf8 c5 30. dxc5 bxc5 31. Rg8 Nf4 32. Rb8 Kc6 33. Rc8+
+Kd5 34. Bxf4 gxf4 35. Rc7 Rh8 36. d7 Rd8 37. Rxb7 Kc6 38. Ra7 Kb6 39. Ra4 Rxd7
+40. Rxf4 Rd8 41. Kh2 Rd2 42. b4 cxb4 43. Rxb4+ Kc5 44. Re4 Kd5 45. f3 Rd4 46.
+Rxd4+ Kxd4 47. g4 g5 48. Kg3 Ke3 49. h4 gxh4+ 50. Kxh4 Kxf3 51. g5 e5 52. g6 e4
+53. g7 e3 54. g8=Q e2 55. Qg1 Ke4 56. Qe1 Kf3 57. Kh3 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.21"]
+[Round "9"]
+[White "Moysen Cortes, Jessica"]
+[Black "Castillo Dalmau, Arnau"]
+[Result "0-1"]
+[ECO "B49"]
+[WhiteElo "1740"]
+[BlackElo "1418"]
+[PlyCount "74"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Be2 Nf6 8. a3
+Be7 9. O-O O-O 10. f4 d6 11. Kh1 b5 12. Nxc6 Qxc6 13. Bf3 e5 14. Qe1 Bb7 15. f5
+Rac8 16. Qg3 Kh8 17. Qf2 Qc4 18. Be2 Qc6 19. Rad1 Ba8 20. Bg5 Qd7 21. Bxf6 Bxf6
+22. Rd3 Be7 23. Bg4 f6 24. Qh4 Bd8 25. Rh3 h6 26. Qe1 Ba5 27. b4 Bb6 28. Qd2
+Bd4 29. Nd5 Bxd5 30. exd5 Rc7 31. c3 Bb6 32. Rff3 e4 33. Rf1 e3 34. Qd3 Rfc8
+35. Rc1 Rc4 36. Bf3 Qc7 37. g4 Rxc3 0-1
+
+[Event "Barcelona Tres Peons op 19th"]
+[Site "Barcelona"]
+[Date "2017.02.08"]
+[Round "5"]
+[White "Van Keulen, Onno"]
+[Black "Moysen Cortes, Jessica"]
+[Result "1-0"]
+[ECO "D15"]
+[WhiteElo "1936"]
+[BlackElo "1736"]
+[PlyCount "111"]
+[EventDate "2017.01.11"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 c6 3. Nc3 d5 4. Nf3 Bf5 5. cxd5 Nxd5 6. g3 e6 7. Bg2 Bb4 8. Qb3
+a5 9. O-O Bxc3 10. bxc3 b5 11. Ba3 Nxc3 12. Qxc3 b4 13. Bxb4 axb4 14. Qxb4 Be4
+15. Rfc1 Qe7 16. Qxe7+ Kxe7 17. Ne5 Bxg2 18. Kxg2 Rc8 19. a4 f6 20. Nd3 Nd7 21.
+a5 Kd6 22. Rcb1 Ra7 23. e4 Rca8 24. Nb2 Kc7 25. Nc4 Rb7 26. Rxb7+ Kxb7 27. Rb1+
+Ka6 28. f4 Rb8 29. Rxb8 Nxb8 30. Kf3 Kb5 31. Nd6+ Kxa5 32. Ne8 Nd7 33. Nxg7 e5
+34. dxe5 fxe5 35. Ne6 Kb4 36. f5 c5 37. Nc7 c4 38. Nd5+ Kc5 39. Ke3 Kd6 40. g4
+Nc5 41. h4 Na4 42. g5 c3 43. h5 Nc5 44. Nxc3 Ke7 45. Nd5+ Kf7 46. h6 Nd7 47.
+Kf3 Nc5 48. Nf6 Nd3 49. Nxh7 Nf4 50. g6+ Nxg6 51. fxg6+ Kxg6 52. Ng5 Kxh6 53.
+Nf7+ Kg6 54. Nxe5+ Kf6 55. Ng4+ Ke6 56. Ne3 1-0

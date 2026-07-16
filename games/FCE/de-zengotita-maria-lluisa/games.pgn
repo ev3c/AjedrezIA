@@ -1,0 +1,51 @@
+[Event "Camp. C. E. Barcelona fem."]
+[Site "Barcelona"]
+[Date "1932.12.18"]
+[Round "1"]
+[White "Nacher, Manolita"]
+[Black "De Zengotita, Maria Lluïsa"]
+[Result "0-1"]
+[ECO "D43"]
+[Annotator "Travesset, Joaquim"]
+[PlyCount "58"]
+[EventDate "1932.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 c6 3. Nc3 e6 4. Nf3 Nf6 5. Bg5 Be7 (5... Nbd7) 6. e3 O-O 7. Bd3
+h6 8. Bxf6 Bxf6 9. Bc2 {Una jugada que no se entiende. Dc2 parece la justa.}
+Be7 (9... dxc4 $142) 10. Qd3 f5 11. cxd5 {parece mejor 0-0} exd5 (11... cxd5
+$142) 12. O-O Na6 13. Ne5 Nb4 14. Qd2 Nxc2 15. Qxc2 Bf6 (15... f4 {ésta se iba
+de las manos y es mejor que la textual.}) 16. Ng6 Re8 17. Rfe1 {Diagrama #} (
+17. Ne2 {era interesante para entrar en ayuda del otro caballo.} Qb6 18. Nef4
+$13) 17... Qd7 18. Qb3 Qf7 19. Nf4 b6 20. Qd1 Bd7 21. Nh5 {Diagrama #} Re6 (
+21... Bxd4 $1 {Esta jugada se le escapó a la campeona.} 22. Qxd4 (22. exd4
+Rxe1+ 23. Qxe1 Qxh5 $15) 22... Qxh5 $15) 22. Nxf6+ Qxf6 23. b4 {continuaba
+siendo mejor Ce2} Rae8 24. Qf3 $2 {Diagrama # Un error que Zengotita castigará
+rápidamente.} (24. Ne2 $142 $11) 24... Qxd4 $1 25. Ne2 Qxb4 26. Qxf5 Qd6 (26...
+Rxe3 $142 {era más contundente} 27. Qxd7 Rxe2 $19) 27. g3 $2 {Debía retirarse
+la dama, aunque la posición blanca ya era inferior.} Rxe3 $1 28. Qf4 Qxf4 29.
+gxf4 Rxe2 {Y las blancas abandonaron algunas jugadas más tarde.} 0-1
+
+[Event "C. E. Barcelona blind sim"]
+[Site "Barcelona"]
+[Date "1934.02.17"]
+[Round "?"]
+[White "Llorens Llorens, Rafael"]
+[Black "De Zengotita, Maria Lluïsa"]
+[Result "0-1"]
+[ECO "C10"]
+[PlyCount "92"]
+[EventDate "1934.02.17"]
+[EventType "simul"]
+[EventCountry "ESP"]
+
+1. d4 e6 2. e4 d5 3. Nc3 Bb4 4. exd5 Qxd5 5. Nf3 c5 6. Bb5+ Bd7 7. O-O Bxc3 8.
+Bxd7+ Nxd7 9. bxc3 c4 10. Ba3 Ne7 11. Rb1 b5 $6 12. Re1 a6 13. Ne5 f6 14. Nxd7
+Qxd7 15. Qe2 $6 Kf7 $2 16. f4 $2 Nd5 17. Qf3 h6 18. Re2 Rhe8 19. Rbe1 Qc7 $2
+20. Bc1 $2 Qa5 $2 21. Bd2 Nc7 $2 22. Qh5+ $2 Kg8 $2 23. f5 Qb6 24. Qg6 Kf8 25.
+Bxh6 gxh6 26. Qxf6+ Kg8 27. Qg6+ Kf8 28. Qxh6+ Kf7 29. Qh7+ Kf6 30. Qh4+ Kf7
+31. fxe6+ Rxe6 32. Rf1+ Ke8 33. Ref2 Kd7 34. Rf7+ Kc6 35. Qf4 $4 Rae8 $4 36.
+Qf3+ $4 Nd5 37. g4 Re3 38. Rf6+ R3e6 39. Qg2 $2 Kd6 40. Rxe6+ Rxe6 41. Qg3+ $2
+Ke7 $2 42. g5 $2 Ne3 43. Rf2 Qc6 44. h4 Re4 45. Rf4 $4 Rxf4 46. Qxe3+ Qe4 0-1

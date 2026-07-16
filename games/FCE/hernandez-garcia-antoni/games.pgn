@@ -1,0 +1,85 @@
+[Event "Camp. Barcelona"]
+[Site "Barcelona"]
+[Date "1977.??.??"]
+[Round "4"]
+[White "Prada Bengosa, Francisco Javier"]
+[Black "Hernandez Garcia, Antoni"]
+[Result "1-0"]
+[ECO "A42"]
+[PlyCount "74"]
+[EventDate "1977.??.??"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+
+1. d4 g6 2. c4 Bg7 3. Nc3 d6 4. e4 Nc6 5. Be3 e5 6. d5 Nd4 7. Nge2 Nxe2 8. Bxe2
+f5 9. exf5 Bxf5 10. g4 Bd7 11. h4 Nh6 12. Ne4 Nf7 13. Qd2 Qe7 14. h5 c5 15. b4
+b6 16. a4 O-O 17. Kf1 g5 18. Kg2 h6 19. a5 Rfb8 20. Ra2 Bc8 21. Rha1 Qb7 22. f3
+Bd7 23. Bd1 Qc8 24. Be2 Qb7 25. Bd3 Kf8 26. axb6 axb6 27. Qb2 Rxa2 28. Rxa2 Ra8
+29. Rxa8+ Qxa8 30. bxc5 bxc5 31. Bd2 Qa7 32. Bc3 Ke7 33. Ng3 Bf8 34. Bf5 Bg7
+35. Bxd7 Qxd7 36. Nf5+ Kf6 37. Qb8 Bf8 1-0
+
+[Event "Copa Catalana Mem. Agusti Pujol eq."]
+[Site "?"]
+[Date "1977.??.??"]
+[Round "?"]
+[White "Gomila Pons, Alvaro"]
+[Black "Hernandez Garcia, Antoni"]
+[Result "1-0"]
+[ECO "B66"]
+[PlyCount "101"]
+[EventDate "1977.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bg5 e6 7. Qd2 a6 8.
+O-O-O h6 9. Bf4 Bd7 10. Bg3 b5 11. Bxb5 axb5 12. Ndxb5 Ne5 13. Nxd6+ Bxd6 14.
+Qxd6 Nc4 15. Qb4 Qc8 16. Rd4 Na5 17. Nb5 Bxb5 18. Qxb5+ Qc6 19. Qb4 Qb7 20.
+Rhd1 Qxb4 21. Rxb4 O-O 22. f3 Rfc8 23. a4 Nc4 24. Bf2 Kf8 25. b3 Na5 26. Kb2
+Ke8 27. Rb5 Nd7 28. c4 Nb8 29. Kc3 Nac6 30. Rb7 Nd8 31. Rb6 Ndc6 32. Rb7 Nd8
+33. Ra7 Nbc6 34. Rxa8 Rxa8 35. Bb6 Nb7 36. c5 e5 37. Ra1 Nd4 38. b4 Kd7 39. Kc4
+Ke6 40. a5 Nd8 41. b5 f6 42. a6 Nf7 43. Ra2 Kd7 44. Rd2 Kc8 45. Ra2 Nd8 46.
+Bxd8 Kxd8 47. b6 Nc6 48. Rd2+ Ke7 49. Rd6 Nb8 50. a7 Na6 51. Kb5 1-0
+
+[Event "Costa Brava op"]
+[Site "Calella de Palafrugell"]
+[Date "1977.??.??"]
+[Round "5"]
+[White "Hernandez Garcia, Antoni"]
+[Black "Ribas Bonet, Angel"]
+[Result "1-0"]
+[ECO "E67"]
+[PlyCount "83"]
+[EventDate "1977.??.??"]
+[EventType "swiss"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+
+1. c4 Nf6 2. Nf3 g6 3. g3 Bg7 4. Bg2 d6 5. Nc3 O-O 6. O-O c6 7. d4 Nbd7 8. h3
+e5 9. Be3 e4 10. Nd2 d5 11. b4 a6 12. a4 Re8 13. b5 axb5 14. axb5 Rxa1 15. Qxa1
+Nf8 16. bxc6 bxc6 17. c5 Bd7 18. Na4 Ne6 19. Nb6 Nh5 20. Nb3 Bc8 21. Qa8 Qc7
+22. Ra1 Bd7 23. Qa7 Qxa7 24. Rxa7 Bc8 25. Ra8 Bd7 26. Ra7 Bc8 27. g4 Nhf4 28.
+Bxf4 Nxf4 29. e3 Ne6 30. Na5 Nxd4 31. exd4 Bxd4 32. Rc7 e3 33. fxe3 Bxe3+ 34.
+Kh1 Ba6 35. Rxc6 d4 36. Nbc4 Bb5 37. Rd6 Bf4 38. Bc6 Rb8 39. Rxd4 Bc7 40. Rd7
+Bf4 41. Bxb5 Rxb5 42. c6 1-0
+
+[Event "Ruy López-Lleidata op"]
+[Site "Barcelona"]
+[Date "1977.??.??"]
+[Round "7"]
+[White "Ponce Navalon, Josep"]
+[Black "Hernandez Garcia, Antoni"]
+[Result "0-1"]
+[ECO "B31"]
+[PlyCount "72"]
+[EventDate "1977.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. O-O Bg7 5. c3 Nf6 6. Re1 O-O 7. e5 Nd5 8. d4
+cxd4 9. cxd4 Nc7 10. Bf1 d6 11. Nbd2 dxe5 12. dxe5 b6 13. Qa4 Bb7 14. b3 Ne6
+15. Ba3 Qd7 16. Rad1 Rfd8 17. Qh4 h6 18. Ne4 Qxd1 19. Rxd1 Rxd1 20. Nc3 Rd7 21.
+Qg3 Rad8 22. h4 Ncd4 23. Nxd4 Nxd4 24. e6 Nxe6 25. Bc4 Nd4 26. Qxg6 e6 27. Qg4
+Kh8 28. Bb2 Nf5 29. Bf1 Rd2 30. Ba1 R8d4 31. Qh5 Kg8 32. g4 Bf3 33. Bh3 Rd1+
+34. Nxd1 Rxd1+ 35. Bf1 Bxa1 36. a3 Be5 0-1

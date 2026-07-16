@@ -1,0 +1,120 @@
+[Event "Ct. Catalunya equips"]
+[Site "?"]
+[Date "1993.??.??"]
+[Round "3"]
+[White "Canti Nicolas, C."]
+[Black "Rahal, MA."]
+[Result "1/2-1/2"]
+[ECO "C01"]
+[WhiteElo "2170"]
+[BlackElo "2360"]
+[PlyCount "99"]
+[EventDate "1993.??.??"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. exd5 exd5 5. Bg5 Be7 6. Nf3 O-O 7. Qd2 Ne4 8.
+Nxe4 dxe4 9. Bxe7 Qxe7 10. Ne5 Nd7 11. Nxd7 Bxd7 12. Bc4 Rad8 13. O-O-O b5 14.
+Bb3 c5 15. c3 cxd4 16. cxd4 Bf5 17. Qf4 Bg6 18. Bc2 Rc8 19. Rd2 Qc7 20. Qxc7
+Rxc7 21. Re1 Rfc8 22. Re3 f5 23. g3 Bf7 24. b3 Bd5 25. h4 b4 26. Kb2 Rc3 27.
+Bd1 Kf7 28. Rc2 Rxc2+ 29. Bxc2 Kf6 30. Bd1 Bb7 31. Re2 Rd8 32. Rd2 g6 33. Be2
+h6 34. Kc2 g5 35. hxg5+ hxg5 36. Bc4 f4 37. Kd1 Kf5 38. Ke2 a5 39. Rd1 Re8 40.
+gxf4 gxf4 41. Rg1 e3 42. f3 Rh8 43. Bd3+ Ke6 44. Rg6+ Kd7 45. Rg7+ Kc8 46. Bf5+
+Kb8 47. Rg2 Rd8 48. Be4 Bxe4 49. fxe4 Rxd4 50. Kf3 1/2-1/2
+
+[Event "Ciutat de Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "1"]
+[White "Subirachs Mancebo, G."]
+[Black "Canti Nicolas, C."]
+[Result "0-1"]
+[ECO "C54"]
+[WhiteElo "1755"]
+[BlackElo "2175"]
+[PlyCount "65"]
+[EventDate "1996.??.??"]
+[EventType "rapid"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. cxd4 Bb4+ 7. Nc3 Nxe4 8.
+O-O Bxc3 9. bxc3 d5 10. Bb5 O-O 11. Bxc6 bxc6 12. Ne5 Qf6 13. Qf3 Qxf3 14. gxf3
+Nxc3 15. Nxc6 Re8 16. Bd2 Ne2+ 17. Kh1 Bh3 18. Rfe1 Re6 19. Ne5 Nxd4 20. Rac1
+f6 21. Nd3 Nxf3 22. Rxe6 Bxe6 23. Be3 d4 24. Bf4 Bd5 25. Nb4 Be4 26. Rxc7 g5
+27. Bg3 Rd8 28. Rxa7 d3 29. Nxd3 Rxd3 30. Kg2 h5 31. Ra6 Kg7 32. Ra7+ Kg6 33.
+h4 0-1
+
+[Event "Ciutat de Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "2"]
+[White "Canti Nicolas, C."]
+[Black "Narciso Dublan, M."]
+[Result "0-1"]
+[ECO "B42"]
+[BlackElo "2470"]
+[PlyCount "41"]
+[EventDate "1996.??.??"]
+[EventType "rapid"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Bd3 Ne7 6. Nc3 Nec6 7. Nb3 Be7 8.
+O-O O-O 9. f4 d6 10. f5 Ne5 11. Qh5 Nbc6 12. Kh1 Bd7 13. g4 Rc8 14. g5 exf5 15.
+exf5 Nxd3 16. cxd3 Ne5 17. Nd4 Nxd3 18. Nd5 Rc5 19. Qf3 Ne5 20. Nxe7+ Qxe7 21.
+f6 $22 0-1
+
+[Event "Ciutat de Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "3"]
+[White "Turon Gimeno, J."]
+[Black "Canti Nicolas, C."]
+[Result "0-1"]
+[ECO "A81"]
+[WhiteElo "2000"]
+[BlackElo "2175"]
+[PlyCount "53"]
+[EventDate "1996.??.??"]
+[EventType "rapid"]
+
+1. d4 f5 2. g3 Nf6 3. Bg2 g6 4. Nh3 Bg7 5. O-O O-O 6. c3 d6 7. Bg5 c6 8. Nd2 a5
+9. e4 Nxe4 10. Nxe4 fxe4 11. Be3 d5 12. Qd2 Bg4 13. Bh6 Qd7 14. Bxg7 Kxg7 15.
+Nf4 g5 16. h3 gxf4 17. hxg4 Qxg4 18. Kh2 Rf6 19. Rh1 Rh6+ 20. Kg1 Rxh1+ 21.
+Kxh1 f3 22. Bf1 Nd7 23. Qf4 Qxf4 24. gxf4 a4 25. a3 b5 26. Bh3 Nf6 27. Be6 $138
+0-1
+
+[Event "Ciutat de Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "7"]
+[White "Canti Nicolas, C."]
+[Black "Verdier, P."]
+[Result "0-1"]
+[ECO "B33"]
+[BlackElo "2280"]
+[PlyCount "70"]
+[EventDate "1996.??.??"]
+[EventType "rapid"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Bg5 a6 8.
+Na3 b5 9. Nd5 Qa5+ 10. Bd2 Qd8 11. Bg5 Be7 12. Bxf6 Bxf6 13. c3 O-O 14. g3 Rb8
+15. Nc2 Bg5 16. Bg2 Ne7 17. O-O Nxd5 18. exd5 a5 19. f4 exf4 20. gxf4 Bf6 21.
+a3 Bf5 22. Kh1 Re8 23. Nd4 Bxd4 24. Qxd4 Re2 25. b4 a4 26. Bf3 Re8 27. Rg1 g6
+28. Rg5 f6 29. Rxf5 gxf5 30. Rg1+ Kh8 31. Rg5 Rb7 32. Rxf5 Rg7 33. h4 Qe7 34.
+Qxf6 Qe1+ 35. Kh2 Qf2+ 0-1
+
+[Event "Ciutat de Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "8"]
+[White "Canti Nicolas, C."]
+[Black "Garcia Martinez, Jo"]
+[Result "1-0"]
+[ECO "C13"]
+[BlackElo "2035"]
+[PlyCount "72"]
+[EventDate "1996.??.??"]
+[EventType "rapid"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Be7 5. e5 Nfd7 6. h4 Bxg5 7. hxg5 Qxg5 8.
+Nh3 Qe7 9. Qd2 a6 10. f4 c5 11. Ng5 cxd4 12. Ne2 Nc6 13. Nxh7 Kd8 14. Rh3 f6
+15. Nxd4 Kc7 16. O-O-O fxe5 17. Nxc6 bxc6 18. Qa5+ Nb6 19. fxe5 Bd7 20. Rb3
+Rab8 21. Bd3 Qh4 22. Kb1 Rxh7 23. Bxh7 Qxh7 24. Qc5 Qf5 25. Qd6+ Kc8 26. Rf3
+Nc4 27. Rxf5 Nxd6 28. Rf8+ Kb7 29. Rxb8+ Kxb8 30. exd6 c5 31. c4 d4 32. b4 e5
+33. bxc5 d3 34. Re1 Bf5 35. Kc1 e4 36. c6 Kc8 $138 1-0

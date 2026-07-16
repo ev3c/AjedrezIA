@@ -1,0 +1,66 @@
+[Event "Catalunya - IT Bucharest m"]
+[Site "Platja d'Aro"]
+[Date "1980.??.??"]
+[Round "1.1"]
+[White "Gheorghiu, Florin"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1-0"]
+[ECO "D11"]
+[PlyCount "97"]
+[EventDate "1980.09.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Qb3 Qb6 5. Nc3 Na6 6. c5 Qxb3 7. axb3 Ne4 8. e3
+f6 9. Bxa6 bxa6 10. Nxe4 dxe4 11. Nd2 Rb8 12. Ra3 e5 13. Nxe4 exd4 14. exd4 Rb4
+15. Be3 f5 16. Nd2 f4 17. Bxf4 Rxd4 18. Be3 Rb4 19. O-O Be7 20. Nc4 Rb5 21. Rc1
+Rf8 22. Bd4 Rf5 23. Nd6+ Bxd6 24. cxd6 Rbd5 25. Bxg7 Rxd6 26. Bc3 Rfd5 27. Raa1
+Kf7 28. f3 Re6 29. Kf2 c5 30. b4 c4 31. Re1 Rdd6 32. Ra5 Rxe1 33. Kxe1 Rc6 34.
+Kf2 Bb7 35. h4 h6 36. Rf5+ Ke7 37. h5 Bc8 38. Rf4 Bd7 39. Bd4 Be8 40. g4 Bf7
+41. Bxa7 Kf8 42. Bc5+ Kg8 43. Rd4 Re6 44. f4 Re8 45. f5 Rb8 46. Rd6 a5 47. Rxh6
+axb4 48. Bd4 Be8 49. g5 1-0
+
+[Event "Catalunya - IT Bucharest m"]
+[Site "Platja d'Aro"]
+[Date "1980.??.??"]
+[Round "2.1"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Gheorghiu, Florin"]
+[Result "1/2-1/2"]
+[ECO "A31"]
+[PlyCount "37"]
+[EventDate "1980.09.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. Nf3 c5 2. c4 Nf6 3. d4 cxd4 4. Nxd4 b6 5. Nc3 Bb7 6. e3 e6 7. b3 Bb4 8. Bb2
+O-O 9. a3 Be7 10. Nf3 d6 11. Be2 Nbd7 12. O-O a6 13. Nd4 Qc7 14. Bf3 Rfc8 15.
+Rc1 Nc5 16. Bxb7 Qxb7 17. Qc2 Rc7 18. Rfd1 Rac8 19. a4 1/2-1/2
+
+[Event "Badalona op"]
+[Site "Badalona"]
+[Date "1982.??.??"]
+[Round "8"]
+[White "Illescas Cordoba, Miquel"]
+[Black "Gheorghiu, Florin"]
+[Result "0-1"]
+[ECO "A40"]
+[Annotator "Gheorghiu,F"]
+[PlyCount "80"]
+[EventDate "1982.08.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. Nf3 c5 2. g3 g6 3. Bg2 Bg7 4. d4 cxd4 5. Nxd4 Nc6 6. Nxc6 bxc6 7. O-O Rb8 8.
+Nd2 $1 Nf6 $1 $13 9. Nb3 (9. c4) 9... Qc7 (9... O-O 10. Bf4 $1 $16) 10. Bd2 d6
+11. Ba5 Qd7 12. Qd2 $5 (12. Nc5 $1 Qf5 $1 $13 (12... dxc5 $2 13. Bxc6 $1 $18))
+12... O-O 13. Rfd1 (13. Rfe1 Ng4 14. Bc3 $14 {Gutman,L}) 13... c5 $1 14. Bc3
+Qe6 $1 {[/\ Ne4-/+]} 15. Qf4 $6 (15. f3 $1 $13) 15... Qf5 $1 $17 16. Bf3 (16.
+Qxf5 gxf5 $1 $17 (16... Bxf5 $17)) 16... Qxf4 17. gxf4 Bf5 18. Bxf6 $1 Bxf6 19.
+e4 Be6 $5 (19... Bh3 $1 $17) 20. e5 dxe5 21. Nxc5 exf4 22. Nxe6 fxe6 23. Rab1
+Bxb2 24. Rd7 $1 Rfc8 $1 25. Be4 Rb4 (25... Rc4 26. Bd3 Ra4 27. Rxe7 $13) 26.
+Bd3 Kf7 27. Rxa7 f3 $3 $19 28. c4 Rd8 29. Be4 Rd2 30. Bxf3 Rxc4 31. Rd1 Rcc2 $1
+(31... Rxd1+ $2 32. Bxd1 Rc1 33. Rd7 $13) 32. Rxd2 Rxd2 33. Ra4 Bd4 34. Bg4 h5
+35. Bh3 g5 36. Bf1 Bxf2+ 37. Kh1 Bd4 38. Ra6 g4 39. a4 h4 40. Ra8 h3 $1 {[/\
+41...Be5, 41...Rd1]} 0-1

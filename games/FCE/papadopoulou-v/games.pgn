@@ -1,0 +1,157 @@
+[Event "Sants Hostafrancs i La Bordeta op A"]
+[Site "?"]
+[Date "2010.??.??"]
+[Round "2"]
+[White "Parligras, M."]
+[Black "Papadopoulou, V."]
+[Result "1-0"]
+[ECO "B99"]
+[PlyCount "63"]
+[EventDate "2010.??.??"]
+[EventRounds "10"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Be7 8. Qf3
+Nbd7 9. O-O-O Qc7 10. g4 b5 11. Bxf6 Bxf6 12. g5 Be7 13. f5 Bxg5+ 14. Kb1 Ne5
+15. Qh5 Bf6 16. Nxe6 Bxe6 17. fxe6 O-O 18. Nd5 Qd8 19. Bh3 fxe6 20. Bxe6+ Kh8
+21. c3 g6 22. Qe2 Bh4 23. Rhf1 Re8 24. Bh3 Rc8 25. Bxc8 Qxc8 26. Qe3 a5 27. Qb6
+Qc4 28. Qxd6 Qxe4+ 29. Ka1 Qe2 30. Nf4 Qxh2 31. Ne6 Be7 32. Qxe7 1-0
+
+[Event "Sitges op"]
+[Site "?"]
+[Date "2011.07.24"]
+[Round "3"]
+[White "Alarcon Casellas, R."]
+[Black "Papadopoulou, V."]
+[Result "1/2-1/2"]
+[ECO "B01"]
+[WhiteElo "2453"]
+[BlackElo "2210"]
+[PlyCount "130"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.08.04"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd6 4. Bc4 Nf6 5. Nf3 c6 6. Qe2 Bf5 7. d3 e6 8. h3
+Nbd7 9. Ne4 Qc7 10. Nxf6+ Nxf6 11. Bd2 O-O-O 12. O-O-O Bd6 13. g4 Bg6 14. Bc3
+Rhe8 15. Kb1 e5 16. Nh4 Nd5 17. Bd2 f6 18. Nxg6 hxg6 19. Qe4 Qf7 20. Bb3 f5 21.
+gxf5 gxf5 22. Qa4 Bc5 23. Be3 Qe7 24. Bxd5 Rxd5 25. Rhg1 Bxe3 26. fxe3 Kb8 27.
+Rdf1 e4 28. d4 Rf8 29. c4 Rd7 30. Qc2 Qd6 31. c5 Qc7 32. a3 a6 33. Rg5 Rdf7 34.
+Rf4 Ka7 35. h4 Qa5 36. Qb3 Qe1+ 37. Ka2 Qe2 38. Rg1 Ka8 39. Rc1 Rd7 40. Rc3 Qh5
+41. Qa4 g5 42. hxg5 Qxg5 43. Qd1 Qg8+ 44. Ka1 Rg7 45. Rf1 Rg2 46. Rc2 Rg3 47.
+Qe1 Rg5 48. Qh4 Rg1 49. Rcc1 Rxf1 50. Rxf1 Qf7 51. Qh6 Rg8 52. Qh3 Rf8 53. Qg3
+Ka7 54. Qd6 Rg8 55. Qf4 Rf8 56. Kb1 Qc4 57. Rd1 Qd5 58. Rc1 Qf7 59. Qe5 Re8 60.
+Qh2 Rf8 61. Qc2 Qd5 62. Rf1 Qe6 63. Qe2 Qf7 64. Qd2 Qd5 65. Qb4 Qf7 1/2-1/2
+
+[Event "Sitges op"]
+[Site "?"]
+[Date "2011.07.25"]
+[Round "4"]
+[White "Papadopoulou, V."]
+[Black "Asis Gargatagli, H."]
+[Result "1/2-1/2"]
+[ECO "D87"]
+[WhiteElo "2210"]
+[BlackElo "2431"]
+[PlyCount "73"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.08.04"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 c5 8.
+Ne2 O-O 9. O-O Nc6 10. Be3 Bg4 11. f3 Bd7 12. Rc1 Rc8 13. Qd2 Qa5 14. Qb2 b6
+15. Rfd1 Rfd8 16. a3 Be8 17. e5 cxd4 18. cxd4 Nxe5 19. dxe5 Rxd1+ 20. Rxd1 Rxc4
+21. f4 Rc8 22. Qb4 Qa4 23. Rd2 Kf8 24. Kf2 Qxb4 25. axb4 Bb5 26. Nd4 Bd7 27. b5
+Ke8 28. Kf3 e6 29. Ra2 Rc7 30. g4 Bf8 31. Nc6 a5 32. Bxb6 Bxc6+ 33. bxc6 Rxc6
+34. Rxa5 Rxb6 35. Ra8+ Ke7 36. Ra7+ Ke8 37. Ra8+ 1/2-1/2
+
+[Event "Ct. Catalunya eq DH"]
+[Site "?"]
+[Date "2012.02.25"]
+[Round "5.9"]
+[White "Bofill Mas, A."]
+[Black "Papadopoulou, V."]
+[Result "1-0"]
+[ECO "A24"]
+[WhiteElo "2406"]
+[BlackElo "2244"]
+[PlyCount "81"]
+[EventDate "2012.??.??"]
+[EventType "team"]
+[EventRounds "11"]
+
+1. c4 Nf6 2. g3 g6 3. Bg2 Bg7 4. Nc3 d6 5. e4 e5 6. Nge2 O-O 7. O-O Be6 8. d3
+Qd7 9. f4 Bh3 10. f5 Bxg2 11. Kxg2 c6 12. h3 Na6 13. g4 h6 14. g5 hxg5 15. Bxg5
+Nc7 16. Ng3 b5 17. Qf3 Rab8 18. b3 b4 19. Nce2 d5 20. Rf2 dxc4 21. dxc4 c5 22.
+Raf1 Rb6 23. Qe3 Qc6 24. Kh2 Nce8 25. Ng1 a5 26. Nf3 Qc7 27. Bh6 Ra6 28. Nh4
+Kh7 29. Bxg7 Kxg7 30. fxg6 fxg6 31. Qg5 Nh7 32. Nh5+ Kg8 33. Rxf8+ Nxf8 34. Qh6
+Qe7 35. Nf5 Qh7 36. Qg5 Qxh5 37. Nh6+ Kh7 38. Qe7+ Ng7 39. Ng4 Nd7 40. Rf7 Rd6
+41. Qxd6 1-0
+
+[Event "Ct. Catalunya eq DH"]
+[Site "?"]
+[Date "2012.03.17"]
+[Round "8.9"]
+[White "Asensio Liñan, T."]
+[Black "Papadopoulou, V."]
+[Result "1/2-1/2"]
+[ECO "B01"]
+[WhiteElo "2301"]
+[BlackElo "2244"]
+[PlyCount "91"]
+[EventDate "2012.??.??"]
+[EventType "team"]
+[EventRounds "11"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd6 4. d4 Nf6 5. Nf3 c6 6. Bd3 Bg4 7. O-O e6 8.
+Ne4 Nxe4 9. Bxe4 Nd7 10. Bg5 Nf6 11. Bxf6 gxf6 12. Qd2 Rg8 13. Qe3 f5 14. Bd3
+f4 15. Qe4 f5 16. Qe2 O-O-O 17. Kh1 Rg6 18. Bc4 Bg7 19. Rad1 Rh6 20. Rfe1 Kb8
+21. Bxe6 Re8 22. d5 cxd5 23. Qb5 Rexe6 24. Rxd5 Rxe1+ 25. Nxe1 Qe7 26. Nd3 Rb6
+27. Qc4 a6 28. Qxf4+ Ka7 29. h3 Bh5 30. a4 Bg6 31. Nc5 Be8 32. b3 Rc6 33. b4 b6
+34. Nxa6 Qb7 35. Rd8 Re6 36. Qc4 Re1+ 37. Kh2 Qxa6 38. Ra8+ Kxa8 39. Qxa6+ Kb8
+40. Qxb6+ Kc8 41. Qc5+ Kd8 42. Qd6+ Kc8 43. Qa6+ Kd8 44. Qd6+ Kc8 45. Qa6+ Kd8
+46. Qd3+ 1/2-1/2
+
+[Event "Ct. Catalunya eq DH"]
+[Site "?"]
+[Date "2012.03.24"]
+[Round "9.10"]
+[White "Pinsach Gelabert, A."]
+[Black "Papadopoulou, V."]
+[Result "0-1"]
+[ECO "B01"]
+[WhiteElo "2122"]
+[BlackElo "2244"]
+[PlyCount "42"]
+[EventDate "2012.??.??"]
+[EventType "team"]
+[EventRounds "11"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd6 4. d4 Nf6 5. Nf3 c6 6. g3 Bg4 7. Bg2 e6 8. O-O
+Be7 9. Bf4 Qd8 10. Qd2 Nbd7 11. Ng5 Nb6 12. b3 O-O 13. h3 Bf5 14. Nce4 Nbd5 15.
+c3 Nxf4 16. Qxf4 Nd5 17. Qd2 h6 18. c4 Nc7 19. g4 Bg6 20. f4 hxg5 21. fxg5 Bxe4
+0-1
+
+[Event "Sitges op"]
+[Site "?"]
+[Date "2012.07.28"]
+[Round "9"]
+[White "Papadopoulou, V."]
+[Black "Sequera Paolini, J."]
+[Result "0-1"]
+[ECO "D31"]
+[WhiteElo "2189"]
+[BlackElo "2407"]
+[PlyCount "82"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c6 4. e3 f5 5. Bd3 Nh6 6. Nf3 Bd6 7. Qc2 O-O 8. Bd2
+Nd7 9. O-O-O a6 10. Kb1 b5 11. c5 Bb8 12. Ne2 a5 13. Nf4 Qe7 14. Rc1 b4 15. h3
+e5 16. Nxe5 Bxe5 17. dxe5 Nxe5 18. Be2 Ba6 19. Bxa6 Rxa6 20. g4 fxg4 21. hxg4
+Nexg4 22. Rcg1 Qe4 23. Rh4 g5 24. Rhxg4 Nxg4 25. Rxg4 h6 26. Qxe4 dxe4 27. Be1
+Rf5 28. Nh5 Ra8 29. Rxe4 Rd8 30. Rd4 Rxd4 31. exd4 g4 32. Ng3 Rd5 33. Bd2 h5
+34. Be3 h4 35. Nf1 Rf5 36. Nh2 g3 37. fxg3 hxg3 38. Ng4 Rf3 39. Kc2 g2 40. Bg1
+Rf1 41. Be3 Re1 0-1

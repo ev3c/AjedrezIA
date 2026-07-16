@@ -1,0 +1,391 @@
+[Event "Badalona op B"]
+[Site "Badalona"]
+[Date "2016.08.03"]
+[Round "2"]
+[White "Garcia Guardiola, Joan"]
+[Black "Fernandez Egea, Andres"]
+[Result "0-1"]
+[ECO "C80"]
+[WhiteElo "1784"]
+[BlackElo "1885"]
+[PlyCount "88"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Nxe4 6. Re1 b5 7. Bb3 d5 8. d3
+Nf6 9. Nxe5 Nxe5 10. Rxe5+ Be6 11. Bg5 c6 12. Qf3 Be7 13. c4 Nd7 14. Bxe7 Nxe5
+15. Bxd8 Nxf3+ 16. gxf3 Rxd8 17. cxb5 axb5 18. a4 b4 19. Nd2 Ke7 20. d4 Kd6 21.
+Rc1 g5 22. Rc5 h5 23. a5 h4 24. Bc2 h3 25. a6 Rh4 26. Nb3 Rxd4 27. Rxc6+ Kxc6
+28. Nxd4+ Kc5 29. Nxe6+ fxe6 30. Kf1 Kb6 31. Bd3 Rc8 32. Ke2 Rc1 33. f4 Rh1 34.
+f5 exf5 35. Bxf5 Rxh2 36. Kf3 Rh1 37. Kg3 Kxa6 38. Be6 d4 39. Bd5 Rc1 40. b3 d3
+41. Kf3 h2 42. Ke3 h1=Q 43. Bxh1 Rxh1 44. Kxd3 Kb5 0-1
+
+[Event "Badalona op B"]
+[Site "Badalona"]
+[Date "2016.08.04"]
+[Round "3"]
+[White "Fernandez Egea, Andres"]
+[Black "Colom Andres, Xavier"]
+[Result "0-1"]
+[ECO "B12"]
+[WhiteElo "1885"]
+[BlackElo "1790"]
+[PlyCount "86"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. f3 e6 4. Be3 Nd7 5. Nd2 c5 6. exd5 exd5 7. Bd3 Qb6 8. dxc5
+Bxc5 9. Bxc5 Nxc5 10. Qe2+ Qe6 11. Bb5+ Bd7 12. O-O-O O-O-O 13. Bxd7+ Rxd7 14.
+Nb3 Nxb3+ 15. axb3 Ne7 16. Qd2 Nc6 17. Ne2 d4 18. Rhe1 Qd6 19. Qf4 Qc5 20. Ng3
+Nb4 21. Qf5 Qxf5 22. Nxf5 Rhd8 23. Re4 g6 24. Ng3 f5 25. Re5 d3 26. c4 d2+ 27.
+Kb1 Nd3 28. Re2 Nc1 29. Rf2 Nxb3 30. Nf1 Na5 31. Rfxd2 Nxc4 32. Rxd7 Rxd7 33.
+Rc1 Rc7 34. b3 Ne5 35. Ne3 Nd3 36. Rxc7+ Kxc7 37. g3 Kc6 38. h4 Kc5 39. Nc2 a5
+40. Ka2 Nb4+ 41. Kb2 Nxc2 42. Kxc2 Kd4 43. Kd2 b5 0-1
+
+[Event "Badalona op B"]
+[Site "Badalona"]
+[Date "2016.08.07"]
+[Round "6"]
+[White "Flores Linan, Jose Luis"]
+[Black "Fernandez Egea, Andres"]
+[Result "0-1"]
+[ECO "A57"]
+[WhiteElo "1824"]
+[BlackElo "1885"]
+[PlyCount "88"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. b6 Qxb6 6. Nc3 g6 7. e4 d6 8. Nf3
+Nbd7 9. Be2 Bg7 10. O-O O-O 11. a4 a5 12. Bb5 Ba6 13. Nd2 Bxb5 14. Nxb5 Ne5 15.
+Qc2 Nfd7 16. Ra3 Rfc8 17. b3 c4 18. Nxc4 Nxc4 19. bxc4 Qc5 20. Bg5 Rab8 21. Ra2
+f6 22. Be3 Qxc4 23. Rc1 Qb4 24. Qd1 Qxe4 25. Rac2 Rxc2 26. Rxc2 f5 27. Rc7 Nf6
+28. Ba7 Re8 29. f3 Qxd5 30. Qe1 e5 31. Nc3 Qd3 32. Nb5 e4 33. Rc3 Qd5 34. Nc7
+Qb7 35. Bd4 Re7 36. Qc1 Nd5 37. Nxd5 Bxd4+ 38. Ne3 Bxc3 39. Qxc3 exf3 40. Qc4+
+Kf8 41. Qd4 Kg8 42. Nd5 Re5 43. Nf6+ Kg7 44. Ne8+ Kf8 0-1
+
+[Event "Badalona op B"]
+[Site "Badalona"]
+[Date "2016.08.08"]
+[Round "7"]
+[White "Fernandez Egea, Andres"]
+[Black "Palacios Pena, Gerardo"]
+[Result "1/2-1/2"]
+[ECO "B01"]
+[WhiteElo "1885"]
+[BlackElo "1900"]
+[PlyCount "110"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d4 Nf6 5. Bc4 c6 6. Bb3 Bf5 7. Bd2 e6 8.
+Nge2 Qd8 9. Ng3 Bg6 10. Bf4 Bd6 11. Qd2 Qc7 12. Bxd6 Qxd6 13. O-O Nbd7 14. f3
+O-O 15. Nce4 Qc7 16. c4 Rad8 17. Qe3 b6 18. Rfd1 c5 19. d5 exd5 20. cxd5 Rfe8
+21. Rd2 Kh8 22. Ba4 a6 23. Rad1 b5 24. Bc2 Nxe4 25. fxe4 f5 26. d6 Qc6 27. h4
+h6 28. Rd5 fxe4 29. Nf5 Bxf5 30. Rxf5 Re6 31. g4 Rxd6 32. Rdf1 Re8 33. Qf4 Rf6
+34. g5 Rxf5 35. Qxf5 Rf8 36. Bxe4 Rxf5 37. Bxc6 Rxf1+ 38. Kxf1 Ne5 39. Bb7 a5
+40. gxh6 gxh6 41. Ke2 Kg7 42. b3 Kf6 43. Ke3 Kf5 44. Bc8+ Kf6 45. Ke4 c4 46.
+bxc4 Nxc4 47. Kd4 Nd6 48. Ba6 Ke7 49. Kc5 b4 50. Bd3 Kd7 51. Bc2 Kc7 52. Bb3
+Nb7+ 53. Kb5 Kd6 54. Kb6 Nd8 55. Kxa5 Kc5 1/2-1/2
+
+[Event "Badalona op B"]
+[Site "Badalona"]
+[Date "2016.08.09"]
+[Round "8"]
+[White "Casset Bello, Elena"]
+[Black "Fernandez Egea, Andres"]
+[Result "1/2-1/2"]
+[ECO "E97"]
+[WhiteElo "1926"]
+[BlackElo "1885"]
+[PlyCount "76"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 d6 5. e4 O-O 6. Be2 e5 7. O-O Nc6 8. d5
+Ne7 9. b4 Nh5 10. Re1 a5 11. bxa5 Rxa5 12. Rb1 Nf4 13. Bf1 b6 14. Rb5 Ra8 15.
+a4 f5 16. Bxf4 exf4 17. Rb3 Bd7 18. e5 dxe5 19. Nxe5 Be8 20. Nb5 Nc8 21. Rd3
+Bxb5 22. cxb5 Re8 23. Nc6 Qd7 24. Rxe8+ Qxe8 25. Nd4 Qe4 26. Ne6 Be5 27. Ra3
+Ne7 28. Nxc7 Bxc7 29. d6 Bd8 30. dxe7 Bxe7 31. Ra2 Rd8 32. Qb3+ Kg7 33. a5 bxa5
+34. Rxa5 Qb4 35. Qxb4 Bxb4 36. Ra6 Rd2 37. Re6 Bc5 38. Re2 Rxe2 1/2-1/2
+
+[Event "Badalona op B"]
+[Site "Badalona"]
+[Date "2016.08.10"]
+[Round "9"]
+[White "Valarezzo Ricard, Pedro"]
+[Black "Fernandez Egea, Andres"]
+[Result "0-1"]
+[ECO "A46"]
+[WhiteElo "1839"]
+[BlackElo "1885"]
+[PlyCount "100"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 e6 3. Bg5 Be7 4. h3 b6 5. Nbd2 Bb7 6. e3 d6 7. Bd3 Nbd7 8. Qe2
+a5 9. e4 h6 10. Be3 c5 11. c3 c4 12. Bxc4 Nxe4 13. Nxe4 Bxe4 14. O-O O-O 15.
+Nd2 Bb7 16. Bd3 Nf6 17. Bf4 Qd7 18. Bh2 Rfc8 19. f4 Nd5 20. f5 Bg5 21. fxe6
+fxe6 22. Qe4 Nf6 23. Qg6 Qf7 24. Rxf6 Be3+ 25. Kh1 Qxf6 26. Qh7+ Kf7 27. Rf1
+Bf2 28. Bg3 Rh8 29. Qg6+ Qxg6 30. Rxf2+ Qf6 31. Rxf6+ gxf6 32. Bxd6 Rhg8 33.
+Bf1 b5 34. Kh2 Bd5 35. a3 Ra6 36. Bf4 h5 37. Bxb5 Rxg2+ 38. Kh1 Rxd2+ 39. Kg1
+Rd1+ 40. Kf2 Rb6 41. a4 Rb1 42. c4 Rxb2+ 43. Kg3 R6xb5 44. cxb5 Ra2 45. Kh4 Kg6
+46. Bc7 Rxa4 47. Bb6 e5 48. Kg3 exd4 49. Bc7 d3 50. Kf2 Ra2+ 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.13"]
+[Round "1"]
+[White "Fernandez Egea, Andres"]
+[Black "Hinarejos Montano, Andres"]
+[Result "1-0"]
+[ECO "C41"]
+[WhiteElo "1886"]
+[BlackElo "1620"]
+[PlyCount "61"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 d6 3. d4 exd4 4. Bc4 Be7 5. Nxd4 Nf6 6. Nc3 O-O 7. f3 c5 8.
+Nde2 Be6 9. Nd5 Nc6 10. Nef4 Bxd5 11. Bxd5 Qc7 12. c3 Ne5 13. Be3 Rab8 14. O-O
+b5 15. Qe2 a6 16. a4 h6 17. axb5 axb5 18. Ra6 Kh7 19. Rfa1 g5 20. Ra7 Qd8 21.
+Nh3 Nxd5 22. exd5 Ng6 23. f4 Bf6 24. fxg5 hxg5 25. Nxg5+ Bxg5 26. Qh5+ Kg7 27.
+Bxg5 Rh8 28. Qg4 Qe8 29. Rf1 Rf8 30. Bf6+ Kg8 31. Qg5 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.14"]
+[Round "2"]
+[White "Moysen Cortes, Jessica"]
+[Black "Fernandez Egea, Andres"]
+[Result "1/2-1/2"]
+[ECO "C47"]
+[WhiteElo "1740"]
+[BlackElo "1886"]
+[PlyCount "136"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. d4 exd4 5. Nxd4 d6 6. Nxc6 bxc6 7. Bd3 Be7 8.
+O-O O-O 9. Bf4 Ng4 10. h3 Ne5 11. Bxe5 dxe5 12. Bc4 Bd6 13. Qf3 Rb8 14. Bb3 Qe7
+15. Ne2 Ba6 16. Rfe1 c5 17. c4 f5 18. Nc3 fxe4 19. Qxe4 Qg5 20. Bc2 g6 21. b3
+Bb7 22. Nd5 Rf4 23. Qe3 Bxd5 24. cxd5 Qf6 25. Be4 Rb4 26. f3 Qe7 27. Rac1 c4
+28. Qc3 Bc5+ 29. Kh2 Bd4 30. Qc2 c3 31. Qe2 Qd6 32. Rc2 Rf6 33. Qd3 a5 34. Rec1
+Rf8 35. h4 Kg7 36. g3 a4 37. bxa4 Ra8 38. h5 gxh5 39. Kg2 Rb2 40. Rh1 Rxa4 41.
+Rxh5 h6 42. Rh4 Raxa2 43. Qd1 Rxc2+ 44. Bxc2 Qa3 45. Qd3 Rxc2+ 46. Qxc2 Qb2 47.
+Qxb2 cxb2 48. Rh1 Kf6 49. Re1 Ke7 50. Kf1 Kd6 51. Ke2 Kxd5 52. Kd3 c5 53. Kc2
+c4 54. Rh1 c3 55. Rxh6 Be3 56. Rh1 Bd2 57. Rh4 Be3 58. Rb4 Bc5 59. Re4 Bd4 60.
+g4 Ke6 61. Re1 Kf6 62. Rh1 Kg5 63. Rh5+ Kg6 64. Rf5 Kh6 65. Rf6+ Kg5 66. Rf5+
+Kg6 67. Rh5 Kf6 68. Rf5+ Kg6 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.15"]
+[Round "3"]
+[White "Fernandez Egea, Andres"]
+[Black "Olivas Montoya, Albert"]
+[Result "1/2-1/2"]
+[ECO "A08"]
+[WhiteElo "1886"]
+[BlackElo "1746"]
+[PlyCount "67"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d3 d5 3. Nd2 Nf6 4. Ngf3 c5 5. g3 Nc6 6. Bg2 Qc7 7. O-O d4 8. a4 e5
+9. h3 Be6 10. Ng5 Bd7 11. Nc4 h6 12. Nf3 Be6 13. Nfd2 g5 14. b3 Be7 15. Ba3
+O-O-O 16. Qf3 g4 17. Qe2 gxh3 18. Bf3 h5 19. Kh2 Rdg8 20. Bb2 Rg5 21. a5 h4 22.
+gxh4 Rxh4 23. Rg1 Rxg1 24. Rxg1 Nxa5 25. Na3 Qd7 26. Nf1 a6 27. Bc1 Rh8 28. Bg5
+Nc6 29. Nc4 Kc7 30. Bd2 b5 31. Nb2 Qc8 32. Kh1 Rg8 33. Ng3 Bg4 34. Nd1 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.16"]
+[Round "4"]
+[White "Nandhini, Saripalli"]
+[Black "Fernandez Egea, Andres"]
+[Result "0-1"]
+[ECO "D73"]
+[WhiteElo "1716"]
+[BlackElo "1886"]
+[PlyCount "44"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 g6 3. g3 Bg7 4. Bg2 d5 5. c4 c5 6. O-O cxd4 7. cxd5 O-O 8.
+Nxd4 Nxd5 9. Nb5 a6 10. Bxd5 axb5 11. Qb3 Nc6 12. e3 Bf5 13. Bg2 b4 14. Rd1 Qc7
+15. Bxc6 Qxc6 16. Qxb4 Bh3 17. e4 Ra4 18. Qd2 Rxe4 19. f3 Bd4+ 20. Kh1 Re1+ 21.
+Rxe1 Qxf3+ 22. Qg2 Bxg2# 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.17"]
+[Round "5"]
+[White "Fernandez Egea, Andres"]
+[Black "Martinez Balaguer, Josep"]
+[Result "1-0"]
+[ECO "B32"]
+[WhiteElo "1886"]
+[BlackElo "1834"]
+[PlyCount "51"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Bc4 e6 5. c3 dxc3 6. Nxc3 Nf6 7. e5 Ng4 8.
+Qe2 Qa5 9. Bf4 Bb4 10. Rc1 h5 11. O-O a6 12. Rfd1 Nh6 13. a3 Be7 14. Ne4 Nf5
+15. Nd6+ Nxd6 16. exd6 Bf6 17. Rc2 b5 18. Bd5 Bb7 19. Be4 O-O 20. Rc5 g6 21.
+Bh6 Bg7 22. Bxg7 Kxg7 23. Rg5 f5 24. Bxc6 Bxc6 25. Ne5 Rf6 26. Qxh5 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.18"]
+[Round "6"]
+[White "Minko, Dmitry"]
+[Black "Fernandez Egea, Andres"]
+[Result "1-0"]
+[ECO "C47"]
+[WhiteElo "1884"]
+[BlackElo "1886"]
+[PlyCount "99"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bb4+ 5. Nc3 Nf6 6. Nxc6 bxc6 7. Bd3 d5
+8. exd5 cxd5 9. O-O O-O 10. Bg5 h6 11. Bxf6 Qxf6 12. Nxd5 Qd6 13. Nxb4 Qxb4 14.
+b3 Bb7 15. Re1 Rad8 16. Qe2 Rd4 17. Qe7 Qb6 18. Re3 g6 19. Rae1 Rf4 20. Qe5 Rf6
+21. Qb5 c6 22. Qxb6 axb6 23. Re7 Ba8 24. f3 c5 25. Rd7 Bc6 26. Rc7 Rd8 27. Ree7
+Be8 28. a4 Kf8 29. Kf2 Rdd6 30. Ra7 g5 31. Rec7 Bc6 32. h3 h5 33. Kg1 Rd4 34.
+a5 b5 35. Rc8+ Kg7 36. Rac7 c4 37. Bxc4 bxc4 38. Rxc6 g4 39. Rxf6 g3 40. Kf1
+Kxf6 41. Rxc4 Rd1+ 42. Ke2 Rg1 43. f4 Rxg2+ 44. Kf3 Rg1 45. h4 g2 46. Ra4 Rc1
+47. Kxg2 Rxc2+ 48. Kf1 Rc1+ 49. Ke2 Rc3 50. a6 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.19"]
+[Round "7"]
+[White "Fernandez Egea, Andres"]
+[Black "Grasa Solanas, Oscar"]
+[Result "1-0"]
+[ECO "D00"]
+[WhiteElo "1886"]
+[BlackElo "1637"]
+[PlyCount "51"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 d5 2. d4 dxe4 3. Nc3 Nf6 4. f3 exf3 5. Nxf3 e6 6. Bd3 Bb4 7. O-O O-O 8.
+Bg5 Bxc3 9. bxc3 c5 10. Qe1 h6 11. Bh4 Nbd7 12. Rd1 Qc7 13. Ne5 cxd4 14. Bxf6
+Nxf6 15. Rxf6 Qe7 16. Rf4 dxc3 17. Qxc3 b6 18. Rc4 Qg5 19. Rg4 Qe7 20. Rc4 Qg5
+21. Rc7 f5 22. Be2 Qf6 23. Bf3 Rb8 24. Rxa7 b5 25. Qc7 Ba6 26. Rxa6 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.20"]
+[Round "8"]
+[White "Cardenas, Fernando Adrian"]
+[Black "Fernandez Egea, Andres"]
+[Result "1-0"]
+[ECO "E62"]
+[WhiteElo "1943"]
+[BlackElo "1886"]
+[PlyCount "63"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. d4 g6 3. g3 Bg7 4. Bg2 d6 5. O-O O-O 6. c4 c6 7. Nc3 a6 8. a4 a5
+9. e4 Nfd7 10. Be3 Na6 11. Qe2 Nb4 12. Rad1 Qc7 13. Nh4 e5 14. d5 c5 15. Nb5
+Qb8 16. f4 exf4 17. gxf4 f6 18. Bh3 Re8 19. Be6+ Kf8 20. f5 Ne5 21. fxg6 Bxe6
+22. dxe6 hxg6 23. Rxd6 b6 24. Bf4 Kg8 25. Bxe5 fxe5 26. Nxg6 Ra7 27. Qg4 Nc2
+28. e7 Rexe7 29. Nxe7+ Rxe7 30. Rf3 Nd4 31. Rg3 Nxb5 32. Rg6 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.21"]
+[Round "9"]
+[White "Fernandez Egea, Andres"]
+[Black "Grindbakken, Erik"]
+[Result "1-0"]
+[ECO "B12"]
+[WhiteElo "1886"]
+[BlackElo "1610"]
+[PlyCount "41"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. f3 Nf6 4. e5 Nfd7 5. Bd3 e6 6. Ne2 c5 7. c3 Nc6 8. O-O Qb6
+9. Bc2 cxd4 10. cxd4 Ndxe5 11. Nbc3 Nc4 12. Rb1 Nxd4 13. Nxd4 Bc5 14. Na4 Bxd4+
+15. Kh1 Qa6 16. Qxd4 Na3 17. Bd3 Nc2 18. Qc3 Qxa4 19. Bxc2 Qb5 20. Bh6 Rg8 21.
+Bxh7 1-0
+
+[Event "Sitges op"]
+[Site "?"]
+[Date "2008.07.22"]
+[Round "1"]
+[White "Czakon, J."]
+[Black "Fernandez Egea, A."]
+[Result "1-0"]
+[ECO "E90"]
+[WhiteElo "2510"]
+[BlackElo "2040"]
+[PlyCount "58"]
+[EventDate "2008.??.??"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. h3 c5 7. d5 Bd7 8. Bd3 Na6
+9. O-O Nb4 10. Bb1 Rb8 11. Qe2 e5 12. Ne1 Nh5 13. a3 Na6 14. Nd3 Nc7 15. g4 Nf6
+16. f4 b5 17. fxe5 Nfe8 18. b3 bxc4 19. bxc4 Rb3 20. Bd2 h5 21. Bc2 Rxc3 22.
+Bxc3 hxg4 23. hxg4 Qh4 24. Rae1 Bxg4 25. Qh2 Qg5 26. Bd2 Qe7 27. Bf4 dxe5 28.
+Nxe5 f5 29. Nxg6 Bd4+ 1-0
+
+[Event "Sants op Hostafrancs i La Bordeta op"]
+[Site "Barcelona"]
+[Date "2014.08.22"]
+[Round "1.33"]
+[White "Fernandez Egea, A."]
+[Black "Muñoz Pantoja, M."]
+[Result "0-1"]
+[ECO "B01"]
+[WhiteElo "1985"]
+[BlackElo "2451"]
+[PlyCount "60"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[Source "Mark Crowther"]
+[SourceDate "2014.09.01"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d4 Nf6 5. Nf3 Bg4 6. Bd2 Nc6 7. Nb5 Qb6 8.
+Be2 Bxf3 9. gxf3 a6 10. Nc3 Nxd4 11. Be3 O-O-O 12. Bd3 Qxb2 13. Na4 Qa3 14.
+Bxd4 Qxa4 15. Bc3 Nd5 16. Bd2 e6 17. Rb1 Bb4 18. O-O Bxd2 19. Qxd2 Qf4 20. Qe1
+Rd6 21. c4 Nf6 22. Rb3 Rhd8 23. Qb1 Qxf3 24. Bc2 Qg4+ 25. Rg3 Qxc4 26. Rxg7 Qh4
+27. Qb3 Ne4 28. Qe3 Qf6 29. Rg4 Nd2 30. Rc1 Qb2 0-1

@@ -1,0 +1,241 @@
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.13"]
+[Round "1"]
+[White "Hapala, L."]
+[Black "Gomez Ledo, RC."]
+[Result "0-1"]
+[ECO "B07"]
+[WhiteElo "2068"]
+[BlackElo "2429"]
+[PlyCount "140"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 e5 4. dxe5 dxe5 5. Qxd8+ Kxd8 6. Bg5 Be6 7. O-O-O+
+Nbd7 8. f4 exf4 9. Nf3 Kc8 10. Bxf4 Nh5 11. Be3 Bd6 12. Ng5 Bf4 13. Bxf4 Nxf4
+14. g3 Ng6 15. Nxe6 fxe6 16. Bh3 Re8 17. Rd2 a5 18. Rhd1 Nge5 19. Ne2 Ra6 20.
+Nf4 Kd8 21. Nh5 Rg8 22. Nf4 Ke7 23. Nd3 Rf8 24. Nxe5 Nxe5 25. Rf1 Rxf1+ 26.
+Bxf1 Ra8 27. Rf2 Rd8 28. c3 Rd3 29. Kc2 Rd8 30. Be2 Nd7 31. Bf1 Nc5 32. Bg2 Nd3
+33. Re2 Ne5 34. Rd2 Rxd2+ 35. Kxd2 Nc4+ 36. Kc1 Ne3 37. Bh3 Kd6 38. Kd2 Nc4+
+39. Kc1 Ke5 40. b3 Nd6 41. Kc2 Nxe4 42. Bg2 b6 43. Kd3 Nd6 44. a4 c5 45. Bc6
+Kf5 46. Bd7 Nf7 47. Bc8 h6 48. Ke2 Kf6 49. Bb7 Ke5 50. Kd3 g5 51. Bc6 Nd6 52.
+Ke3 Kf6 53. Kd3 Kf5 54. Bd7 Nf7 55. Bc8 Kf6 56. Ke2 Nd6 57. Bd7 c4 58. bxc4
+Nxc4 59. Bb5 Nd6 60. Bc6 Ke5 61. Kd3 h5 62. Bf3 h4 63. gxh4 gxh4 64. Bg4 Kd5
+65. Bf3+ Kc5 66. Bg4 e5 67. Be6 Nb7 68. Bc8 Kc6 69. Bxb7+ Kxb7 70. Ke4 b5 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.14"]
+[Round "2"]
+[White "Paragliola, G."]
+[Black "Hapala, L."]
+[Result "0-1"]
+[ECO "D10"]
+[WhiteElo "1560"]
+[BlackElo "2068"]
+[PlyCount "50"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Bg5 dxc4 5. Bxf6 exf6 6. e4 b5 7. a4 b4 8. Na2
+Ba6 9. Nf3 Qa5 10. Nd2 b3 11. Nc3 Bb4 12. Qf3 O-O 13. Bxc4 Bxc4 14. Nxc4 Qa6
+15. Nd2 Re8 16. Qe2 Qb6 17. Qc4 f5 18. e5 c5 19. Nd5 Bxd2+ 20. Kxd2 Qh6+ 21. f4
+Na6 22. g3 Rad8 23. dxc5 Qe6 24. Kc3 Rxd5 25. c6 Rc5 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.15"]
+[Round "3"]
+[White "Hapala, L."]
+[Black "Koganov, M."]
+[Result "0-1"]
+[ECO "B07"]
+[WhiteElo "2068"]
+[PlyCount "54"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 c6 4. f4 Qa5 5. e5 Ne4 6. Qf3 d5 7. Bd3 Na6 8. Bxe4
+dxe4 9. Qxe4 g6 10. Qe2 Nb4 11. Nf3 Bf5 12. O-O Nxc2 13. Bd2 Nxa1 14. Rxa1 Qd8
+15. d5 Bg7 16. e6 fxe6 17. dxe6 Qd3 18. Qe1 O-O 19. Rd1 Rad8 20. Ne5 Bxe5 21.
+Qxe5 Bg4 22. Ne4 Qd4+ 23. Qxd4 Rxd4 24. Re1 Bf5 25. Nf6+ Rxf6 26. Bc3 c5 27.
+Bxd4 cxd4 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.16"]
+[Round "4"]
+[White "Porras Mateo, F."]
+[Black "Hapala, L."]
+[Result "1/2-1/2"]
+[ECO "D11"]
+[WhiteElo "2243"]
+[BlackElo "2068"]
+[PlyCount "66"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. c4 c6 2. d4 d5 3. e3 Nf6 4. Nf3 Bg4 5. Nbd2 e6 6. Bd3 Nbd7 7. O-O Bd6 8. h3
+Bh5 9. b3 O-O 10. Bb2 Qe7 11. Re1 Ba3 12. Bxa3 Qxa3 13. Qc2 Bg6 14. Bxg6 hxg6
+15. c5 Qa5 16. a3 Qc7 17. e4 Nxe4 18. Nxe4 dxe4 19. Qxe4 Rad8 20. b4 Nf6 21.
+Qe5 Qc8 22. Rab1 a6 23. a4 Nd5 24. Rb3 Rd7 25. b5 axb5 26. axb5 Nc7 27. bxc6
+bxc6 28. Qe4 Rd5 29. Qh4 Rh5 30. Qe4 Rd5 31. Qh4 Rh5 32. Qe4 Rd5 33. Qh4 Rh5
+1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.17"]
+[Round "5"]
+[White "Hapala, L."]
+[Black "Ryan, J."]
+[Result "1-0"]
+[ECO "B15"]
+[WhiteElo "2068"]
+[BlackElo "2285"]
+[PlyCount "97"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 c6 4. h3 d5 5. Nf3 dxe4 6. Nxe4 Nd7 7. Bc4 Ngf6 8.
+Nxf6+ Nxf6 9. O-O O-O 10. c3 Qc7 11. Re1 b6 12. Ne5 Bb7 13. Bf4 Qd8 14. Qd2 c5
+15. Rad1 cxd4 16. Qxd4 Qxd4 17. Rxd4 e6 18. Nxf7 Rxf7 19. Bxe6 Raf8 20. Bb3 Bc6
+21. Re7 Bd5 22. Rxd5 Rxe7 23. Rd7+ Ref7 24. Rxa7 Ne4 25. f3 g5 26. Bh2 Nc5 27.
+Bd5 Bxc3 28. bxc3 Kg7 29. Be5+ Kg6 30. Bxf7+ Rxf7 31. Rxf7 Kxf7 32. Bd4 Nd7 33.
+c4 h5 34. g3 Ke6 35. Kf2 Kf5 36. Ke3 g4 37. hxg4+ hxg4 38. f4 Ke6 39. Ke4 Kd6
+40. Kf5 Kc6 41. Kxg4 b5 42. cxb5+ Kxb5 43. Kf5 Kc4 44. Be5 Kd5 45. g4 Nb6 46.
+g5 Nc4 47. g6 Ne3+ 48. Kf6 Ng4+ 49. Kg5 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.18"]
+[Round "6"]
+[White "Hapala, L."]
+[Black "Matsenko, A."]
+[Result "0-1"]
+[ECO "B19"]
+[WhiteElo "2068"]
+[BlackElo "2294"]
+[PlyCount "144"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. Nf3 Nd7 7. h4 h6 8. h5
+Bh7 9. Bd3 Bxd3 10. Qxd3 e6 11. Bd2 Ngf6 12. O-O-O Be7 13. Kb1 Qb6 14. Rhe1 O-O
+15. Nf5 Bb4 16. Nxh6+ gxh6 17. Bxh6 Bxe1 18. Rxe1 Qb5 19. Qd2 Qxh5 20. Ne5 Rfd8
+21. g4 Nxg4 22. Nxg4 Qxg4 23. Qc1 Qf5 24. Rg1+ Kh7 25. Rg7+ Kh8 26. Qh1 Nf8 27.
+Rg5 Ng6 28. Rxf5 exf5 29. Bg5+ Kg8 30. Bxd8 Rxd8 31. c3 Kg7 32. Qe1 Rh8 33. a4
+f4 34. Kc2 Rh2 35. Qg1 Rh5 36. Qg2 Rd5 37. b4 a5 38. b5 f5 39. bxc6 bxc6 40. c4
+Rd6 41. Kc3 Kf6 42. Qh1 Re6 43. d5 cxd5 44. Qxd5 Re5 45. Qd6+ Kg5 46. c5 Re2
+47. c6 Ne7 48. c7 Kg4 49. Qd1 f3 50. Qg1+ Kf4 51. Qg3+ Ke4 52. Qd6 Nd5+ 53. Kb3
+Nxc7 54. Qxc7 Rxf2 55. Qxa5 Re2 56. Qb4+ Ke3 57. Qc3+ Ke4 58. Qc4+ Ke3 59. Kc3
+Kf2 60. Qd4+ Kg2 61. Qg7+ Kf1 62. Qg3 f2 63. Kd3 Ra2 64. Qf4 Ke1 65. Qe5+ Kf1
+66. Qf4 Ra3+ 67. Kd2 Kg2 68. Qg5+ Rg3 69. Qxf5 f1=Q 70. Qe4+ Qf3 71. Qxf3+ Rxf3
+72. Kc2 Ra3 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.19"]
+[Round "7"]
+[White "Andersen, AR."]
+[Black "Hapala, L."]
+[Result "1-0"]
+[ECO "C45"]
+[WhiteElo "2214"]
+[BlackElo "2068"]
+[PlyCount "109"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 bxc6 6. e5 Qe7 7. Qe2 Nd5 8.
+c4 Ba6 9. g3 g6 10. b3 Bg7 11. Bb2 O-O-O 12. Bg2 Rhe8 13. O-O Bxe5 14. Qxe5
+Qxe5 15. Bxe5 Rxe5 16. cxd5 Bxf1 17. Kxf1 cxd5 18. Nc3 c6 19. Rd1 Rde8 20. Bf3
+a5 21. h4 h5 22. Ne2 Kc7 23. Nf4 Ra8 24. Rd4 Rae8 25. Rd1 Ra8 26. Nd3 Re7 27.
+Rc1 Kb6 28. Rc2 Rae8 29. Kg2 Ra8 30. Nc5 Rae8 31. Na4+ Kb7 32. Nc5+ Kb6 33. Nd3
+Ra8 34. Kf1 Rae8 35. Be2 Kc7 36. f3 Rh8 37. Kf2 Re6 38. Nf4 Re5 39. Nd3 Re6 40.
+f4 Rhe8 41. Ne5 R6e7 42. Bf3 Kb7 43. Nd3 f5 44. Ne5 Re6 45. Nxd7 Rd6 46. Ne5
+Kb6 47. Ke3 c5 48. Kd3 Ra8 49. Kc3 Kb5 50. a4+ Kb6 51. Rd2 Rc8 52. Nc4+ Kc7 53.
+Nxd6 Kxd6 54. Rxd5+ Ke6 55. Kc4 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.20"]
+[Round "8"]
+[White "Masferrer Niubo, E."]
+[Black "Hapala, L."]
+[Result "1/2-1/2"]
+[ECO "B23"]
+[WhiteElo "1996"]
+[BlackElo "2068"]
+[PlyCount "91"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. e4 c5 2. Nc3 e6 3. g3 d5 4. exd5 exd5 5. d4 cxd4 6. Qxd4 Nf6 7. Be3 Nc6 8.
+Bb5 Bd7 9. Bxc6 Bxc6 10. Nge2 Be7 11. Nf4 Qa5 12. O-O-O O-O 13. Rhe1 Rfe8 14.
+Nd3 Ne4 15. Bd2 Nxd2 16. Rxd2 Bf6 17. Ne5 Rad8 18. Rde2 Re6 19. f4 Rde8 20. Qd3
+Qb6 21. Nxd5 Bxd5 22. Qxd5 Rd8 23. Qb3 Bxe5 24. Qxb6 Rxb6 25. Rxe5 Kf8 26. b3
+Rbd6 27. Re7 R6d7 28. Rxd7 Rxd7 29. c4 Rd3 30. Kc2 Rf3 31. Re2 h5 32. b4 h4 33.
+c5 hxg3 34. hxg3 Rxg3 35. Re4 Rh3 36. a4 a6 37. b5 axb5 38. axb5 Rh5 39. Rc4
+Ke7 40. Kd3 Kd7 41. Rd4+ Kc7 42. Kc4 Rh1 43. b6+ Kc8 44. Kd5 Re1 45. Kc4 Rh1
+46. Kd5 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.21"]
+[Round "9"]
+[White "Hapala, L."]
+[Black "Magallanes, GJ."]
+[Result "1-0"]
+[ECO "B33"]
+[WhiteElo "2068"]
+[BlackElo "1969"]
+[PlyCount "105"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Ndb5 d6 7. Bf4 e5 8.
+Bg5 a6 9. Na3 b5 10. Nd5 Be6 11. c4 b4 12. Nc2 a5 13. Bxf6 gxf6 14. Nce3 Nd4
+15. Bd3 Bh6 16. Qh5 Bg7 17. O-O Rb8 18. Ng4 Rb7 19. Qh4 Bxd5 20. cxd5 f5 21.
+Qxd8+ Kxd8 22. exf5 h5 23. Ne3 a4 24. Rac1 Kd7 25. Rc4 Bf6 26. Rfc1 Rg8 27. Kf1
+Rgb8 28. Nc2 Bg5 29. Ra1 Nxc2 30. Bxc2 b3 31. axb3 axb3 32. Bd1 Rb4 33. Ra7+
+R8b7 34. Rxb7+ Rxb7 35. Rc3 Bd2 36. Rxb3 Rxb3 37. Bxb3 Bc1 38. Ba4+ Kc7 39. b3
+f6 40. h4 Kb6 41. Ke2 Kc5 42. Bc6 Kb4 43. Be8 Kxb3 44. Kd3 Kb4 45. Bxh5 Kc5 46.
+Bf7 Bh6 47. Ke4 Kc4 48. Kf3 Kd4 49. Kg4 Kd3 50. Kh5 Bc1 51. Kg6 Ke2 52. h5 Kxf2
+53. h6 1-0

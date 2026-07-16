@@ -1,0 +1,251 @@
+[Event "Barcelona sim"]
+[Site "Barcelona"]
+[Date "1935.12.14"]
+[Round "?"]
+[White "Capablanca, Jose Raul"]
+[Black "Llusa, Francisco"]
+[Result "1-0"]
+[ECO "D30"]
+[PlyCount "43"]
+[EventDate "1935.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2002.11.25"]
+
+1. d4 e6 2. c4 Nf6 3. Nf3 d5 4. Bg5 Nbd7 5. e3 Be7 6. Nbd2 c6 7. Bd3 O-O 8. O-O
+Re8 9. Qe2 Nh5 10. Bxe7 Qxe7 11. Ne5 Nhf6 12. f4 c5 13. Rac1 cxd4 14. exd4 dxc4
+15. Ndxc4 Nd5 16. Nxf7 Rf8 17. Ng5 Nxf4 18. Qe4 Qxg5 19. Qxh7+ Kf7 20. Rxf4+
+Qxf4 21. Rf1 Qxf1+ 22. Bxf1 1-0
+
+[Event "Camp. Catalunya indiv. Pref."]
+[Site "?"]
+[Date "1969.??.??"]
+[Round "?"]
+[White "Llusa, Francisco"]
+[Black "Padros Simon, Antonio"]
+[Result "1-0"]
+[ECO "A37"]
+[PlyCount "97"]
+[EventDate "1969.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. c4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. Nf3 e6 6. O-O Nge7 7. b3 O-O 8. Bb2
+a6 9. Qc1 d6 10. e3 Rb8 11. Ne2 e5 12. d3 b5 13. Nc3 b4 14. Nd5 Nxd5 15. cxd5
+Ne7 16. Nd2 Bg4 17. Qc4 Bd7 18. Qc2 Bb5 19. Nc4 f5 20. f4 exf4 21. Bxg7 Kxg7
+22. Qb2+ Kf7 23. Rxf4 Bxc4 24. dxc4 Kg8 25. Raf1 Qc7 26. Bh3 Rf7 27. g4 Rbf8
+28. g5 Nc8 29. e4 Qe7 30. exf5 Qxg5+ 31. Kh1 Qf6 32. fxg6 Qxb2 33. gxf7+ Kh8
+34. Bxc8 Rxc8 35. f8=Q+ Rxf8 36. Rxf8+ Kg7 37. R8f7+ Kg6 38. R7f2 Qe5 39. Rf4
+a5 40. Kg2 Qe2+ 41. R1f2 Qe5 42. Kf3 Qc3+ 43. Kg4 Qe5 44. Rf6+ Kg7 45. Rf7+ Kg8
+46. R7f5 Qe4+ 47. Kh3 Kg7 48. R5f4 Qe5 49. Rg2+ 1-0
+
+[Event "Camp. Catalunya indiv. Pref."]
+[Site "?"]
+[Date "1969.??.??"]
+[Round "?"]
+[White "Masque Tort, Valentin"]
+[Black "Llusa, Francisco"]
+[Result "1-0"]
+[ECO "E19"]
+[PlyCount "109"]
+[EventDate "1969.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. c4 b6 3. g3 e6 4. Bg2 Bb7 5. O-O Be7 6. Nc3 O-O 7. d4 Ne4 8. Qc2
+Nxc3 9. Qxc3 Be4 10. Rd1 d5 11. Bf4 Bd6 12. Bxd6 Qxd6 13. Rac1 c6 14. c5 Qe7
+15. a4 f6 16. b4 bxc5 17. Qxc5 Qxc5 18. Rxc5 Na6 19. Rxc6 Nxb4 20. Rxe6 Kf7 21.
+Bh3 Bc2 22. Rc1 Rfe8 23. Rxe8 Rxe8 24. e3 a5 25. Ne1 Bxa4 26. Ra1 Bc6 27. Rxa5
+Re7 28. Rc5 Ra7 29. Nc2 Nxc2 30. Rxc2 Bd7 31. Bxd7 Rxd7 32. Kg2 Ke7 33. h4 h5
+34. Kf3 Ke6 35. Kf4 g6 36. Rc6+ Ke7 37. e4 dxe4 38. Kxe4 Kf7 39. d5 Ke7 40. f4
+Kf7 41. Kd4 Ke7 42. Kc5 Kf7 43. Re6 Rc7+ 44. Kd4 Rc1 45. Re3 Rd1+ 46. Kc5 Rc1+
+47. Kb6 Rb1+ 48. Kc7 Rd1 49. d6 Rc1+ 50. Kd8 Rd1 51. d7 Rc1 52. Ra3 Rc2 53. Ra7
+Rc3 54. Rc7 Ra3 55. Rc4 1-0
+
+[Event "Barcelona prov. - Barcelona Ciud. m."]
+[Site "Malgrat de Mar"]
+[Date "1970.??.??"]
+[Round "?"]
+[White "Llusa, Francisco"]
+[Black "Simon Padros, Emilio"]
+[Result "0-1"]
+[ECO "E61"]
+[PlyCount "82"]
+[EventDate "1970.??.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. c4 Nf6 2. g3 g6 3. Nc3 Bg7 4. Bg2 O-O 5. e3 d6 6. Nge2 e5 7. O-O c6 8. d4
+Qe7 9. b4 e4 10. a4 Bf5 11. c5 d5 12. b5 h5 13. a5 h4 14. Qb3 h3 15. Bh1 Bg4
+16. bxc6 bxc6 17. a6 Bc8 18. Bd2 Nxa6 19. Qa4 Qe8 20. Qa5 Rb8 21. Rfb1 Rxb1+
+22. Rxb1 Ng4 23. Na2 Qe7 24. Nb4 Qf6 25. Be1 Nxb4 26. Rxb4 Bh6 27. Rb3 Nxe3 28.
+fxe3 Bg4 29. Qd2 a5 30. Nc3 Kg7 31. Na4 Re8 32. Qf2 Bd1 33. Ra3 Bxa4 34. Rxa4
+Rb8 35. Ra2 Rb3 36. Re2 a4 37. Bd2 a3 38. Bc1 Rb1 39. Qe1 Bxe3+ 40. Rxe3 a2 41.
+Ra3 a1=Q 0-1
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1970.??.??"]
+[Round "4"]
+[White "Llusa, Francisco"]
+[Black "Ribera Arnal, Angel"]
+[Result "1-0"]
+[ECO "A10"]
+[PlyCount "107"]
+[EventDate "1970.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. c4 f5 2. Nc3 Nf6 3. g3 d6 4. Bg2 e5 5. Nf3 c6 6. d3 Be7 7. O-O O-O 8. a3 Qe8
+9. b4 Qh5 10. Qc2 Ng4 11. h3 Nh6 12. c5 Nd7 13. cxd6 Bxd6 14. b5 Nf6 15. bxc6
+bxc6 16. Ng5 Bd7 17. Qa4 Rac8 18. Qc4+ Kh8 19. Ne6 Rfe8 20. Ng5 Be7 21. Nf3 Nf7
+22. d4 exd4 23. Nxd4 Ne4 24. Nxe4 fxe4 25. g4 Qg6 26. Nf5 Bf6 27. Rb1 h5 28.
+Bxe4 Rxe4 29. Qxe4 Re8 30. Qg2 Bxf5 31. gxf5 Qxf5 32. Be3 Re6 33. Kh1 Be5 34.
+Rg1 Nd6 35. Rb8+ Kh7 36. Rb4 Nb5 37. Rf4 Qc2 38. Qe4+ Qxe4+ 39. Rxe4 Nc3 40.
+Rxe5 Rxe5 41. Bd4 Rxe2 42. Bxc3 Rxf2 43. Rxg7+ Kh6 44. Rxa7 Rf3 45. Bg7+ Kg6
+46. Kg2 Rd3 47. Bf8 Rd2+ 48. Kg3 Rd3+ 49. Kf4 Rxh3 50. Ke5 h4 51. Rg7+ Kh5 52.
+Kf4 Rg3 53. Rxg3 hxg3 54. a4 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "Barcelona"]
+[Date "1970.??.??"]
+[Round "?"]
+[White "Monedero Gonzalez, Jose"]
+[Black "Llusa, Francisco"]
+[Result "0-1"]
+[ECO "A58"]
+[PlyCount "82"]
+[EventDate "1970.??.??"]
+[EventType "tourn"]
+[EventRounds "16"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. bxa6 Bxa6 6. g3 d6 7. Bg2 g6 8. Nh3
+Bg7 9. O-O O-O 10. Nc3 Nbd7 11. Re1 Qc7 12. Bg5 Rfb8 13. Rb1 Rb4 14. a3 Rbb8
+15. Qc1 Rb3 16. e4 Ne5 17. Nf4 Rab8 18. Nd1 Qb7 19. Re3 Nc4 20. Rxb3 Qxb3 21.
+Qc3 Qa2 22. Qc1 Qb3 23. Nc3 h6 24. Bxf6 Bxf6 25. Nfe2 Nxb2 26. Qe3 Qxa3 27. Bf1
+Rb3 28. Qc1 Qb4 29. Ra1 Bxe2 30. Qxh6 Ra3 31. Rxa3 Qxa3 32. Nxe2 Qb4 33. Qe3
+Nc4 34. Qd3 Nd2 35. Bg2 c4 36. Qc2 c3 37. h4 Qb2 38. Qd3 Nb3 39. h5 gxh5 40.
+Bf3 c2 41. Bxh5 Nd4 0-1
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "Barcelona"]
+[Date "1970.??.??"]
+[Round "?"]
+[White "Serrano Blanco, Vicente"]
+[Black "Llusa, Francisco"]
+[Result "1-0"]
+[ECO "B71"]
+[PlyCount "73"]
+[EventDate "1970.??.??"]
+[EventType "tourn"]
+[EventRounds "16"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. f4 Nc6 7. Nf3 Qa5 8. Bd3
+Bg7 9. O-O Qc5+ 10. Kh1 Ng4 11. Qe1 O-O 12. h3 Nh6 13. Nd5 Be6 14. Be3 Qa5 15.
+Nxe7+ Kh8 16. Nxc6 Qxe1 17. Raxe1 bxc6 18. Nd4 Bd7 19. f5 gxf5 20. exf5 Rfe8
+21. f6 Bf8 22. g4 c5 23. Nf3 d5 24. b3 Rac8 25. Ba6 Rcd8 26. Bf4 Re6 27. Rxe6
+Bxe6 28. Kg2 c4 29. Nd4 Bc8 30. Bb5 Bb7 31. b4 a6 32. Ba4 Ba8 33. c3 Bd6 34. g5
+Bxf4 35. Rxf4 Ng8 36. h4 Rd6 37. Be8 1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1971.??.??"]
+[Round "?"]
+[White "Llusa, Francisco"]
+[Black "Fernandez, C."]
+[Result "1-0"]
+[ECO "E65"]
+[PlyCount "49"]
+[EventDate "1971.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. g3 c5 2. Bg2 Nc6 3. c4 Nf6 4. Nc3 g6 5. Nf3 Bg7 6. O-O O-O 7. e3 d6 8. d4
+Bg4 9. h3 Bxf3 10. Bxf3 cxd4 11. exd4 Nd7 12. Be3 e5 13. Nb5 Nb6 14. Rc1 a6 15.
+d5 Ne7 16. Nxd6 Qxd6 17. c5 Qd7 18. cxb6 Rac8 19. Rc7 Rxc7 20. bxc7 Nf5 21. d6
+e4 22. Bxe4 Nxe3 23. fxe3 Be5 24. Bxb7 Qxh3 25. Qf3 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1971.??.??"]
+[Round "?"]
+[White "Llusa, Francisco"]
+[Black "Borrell Vidal, Maximo"]
+[Result "0-1"]
+[ECO "A10"]
+[PlyCount "124"]
+[EventDate "1971.??.??"]
+[EventType "tourn"]
+[EventRounds "17"]
+[EventCountry "ESP"]
+
+1. Nf3 f5 2. g3 Nf6 3. Bg2 e6 4. O-O Be7 5. c4 O-O 6. b3 d6 7. Bb2 Qe8 8. Nc3
+Nc6 9. d4 e5 10. dxe5 dxe5 11. Nd5 Bd8 12. Ba3 Rf7 13. Ng5 Rd7 14. Nxf6+ Bxf6
+15. Qxd7 Qxd7 16. Bd5+ Qxd5 17. cxd5 Nd4 18. Ne6 Bxe6 19. dxe6 Nc2 20. Rac1
+Nxa3 21. Rxc7 Nb5 22. Rxb7 Nd4 23. e3 Nxe6 24. Rd1 f4 25. exf4 exf4 26. Rd6 Nc5
+27. Rb5 Ne4 28. Rd7 fxg3 29. hxg3 a6 30. Rf5 Rc8 31. Rf4 Nc3 32. Kg2 Rb8 33.
+Ra7 Nxa2 34. Rxa6 Nc1 35. Rg4 h5 36. Rf4 Kf7 37. g4 Nd3 38. Rc4 hxg4 39. Rxg4
+Rxb3 40. Ra7+ Kg8 41. Ra6 Kh7 42. Ra2 Be5 43. Re4 Nf4+ 44. Kf1 Rh3 45. Kg1 Ng6
+46. Ra5 Bf6 47. Kf1 Rb3 48. Rh5+ Kg8 49. Ra5 Rb7 50. Rh5 Kf7 51. Kg2 Ne7 52.
+Ra5 Kg6 53. Rg4+ Kh6 54. Rga4 Ng6 55. Ra2 Nh4+ 56. Kh2 Rb3 57. R2a4 Be5+ 58. f4
+Bb8 59. Rc5 Ng6 60. Rc6 Kh7 61. Rcc4 Nxf4 62. Rcb4 Nd5+ 0-1
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1972.??.??"]
+[Round "?"]
+[White "Llusa, Francisco"]
+[Black "Montell Zabay, Alberto"]
+[Result "1-0"]
+[ECO "A16"]
+[PlyCount "77"]
+[EventDate "1972.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. c4 Nf6 2. g3 g6 3. Bg2 Bg7 4. Nc3 O-O 5. e3 c5 6. Nge2 Nc6 7. O-O a6 8. d4
+d6 9. h3 Qc7 10. Nd5 Nxd5 11. cxd5 Na5 12. Qc2 b5 13. b4 Nb7 14. bxc5 dxc5 15.
+e4 Bd7 16. Ba3 Qc8 17. Rac1 c4 18. Bxe7 Re8 19. d6 Bxh3 20. a4 Bxg2 21. Kxg2
+Na5 22. axb5 axb5 23. Rb1 Nb3 24. Rxb3 cxb3 25. Qxc8 Rexc8 26. d7 Rd8 27. Bxd8
+Rxd8 28. Rb1 Rxd7 29. Rxb3 Rb7 30. e5 b4 31. f4 Kf8 32. Kf3 h5 33. Ke4 Ke8 34.
+Nc1 Bf8 35. d5 Ra7 36. d6 Ra1 37. Nd3 f5+ 38. Kd5 Rd1 39. Ke6 1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1972.??.??"]
+[Round "?"]
+[White "Servat Fontanillas, Pablo"]
+[Black "Llusa, Francisco"]
+[Result "0-1"]
+[ECO "B47"]
+[PlyCount "62"]
+[EventDate "1972.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. g3 a6 7. Bg2 Nge7 8.
+Nb3 b5 9. O-O Bb7 10. Re1 Ne5 11. Qe2 f6 12. f4 Nc4 13. a3 h5 14. Nd2 Nb6 15.
+Nf3 Ng6 16. f5 Ne5 17. fxe6 dxe6 18. Nxe5 Qxe5 19. Bf4 Qc5+ 20. Be3 Qc6 21. Bf3
+O-O-O 22. Bxb6 Qxb6+ 23. Kg2 h4 24. Nd1 hxg3 25. hxg3 Bd6 26. Ne3 Qc7 27. Nf1
+g5 28. c4 Qh7 29. b4 g4 30. Bxg4 f5 31. Bf3 fxe4 0-1
+
+[Event "Trofeo "Dicen" VI"]
+[Site "Barcelona"]
+[Date "1972.??.??"]
+[Round "?"]
+[White "Llusa, Francisco"]
+[Black "Duz"]
+[Result "1-0"]
+[ECO "A37"]
+[PlyCount "51"]
+[EventDate "1972.??.??"]
+[EventType "k.o."]
+[EventCountry "ESP"]
+
+1. c4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. Nf3 e6 6. O-O Nge7 7. d3 d5 8. cxd5
+exd5 9. Bg5 Be6 10. e4 d4 11. Ne2 f6 12. Bd2 a5 13. Qc1 Qb6 14. Bh6 Bxh6 15.
+Qxh6 Qxb2 16. Nf4 Bxa2 17. Qg7 Rf8 18. Nd5 Bxd5 19. exd5 Nf5 20. Qxh7 Nce7 21.
+Rab1 Qa2 22. Rxb7 Rf7 23. Qh3 Rd8 24. Re1 Kf8 25. g4 Qxd5 26. Ng5 1-0

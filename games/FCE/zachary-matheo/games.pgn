@@ -1,0 +1,173 @@
+[Event "Sitges op 43rd"]
+[Site "Sitges"]
+[Date "2017.07.24"]
+[Round "3"]
+[White "Chernikov, Vladimir"]
+[Black "Zachary, Matheo"]
+[Result "0-1"]
+[ECO "D00"]
+[WhiteElo "2079"]
+[BlackElo "2306"]
+[PlyCount "62"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Nc3 Nf6 3. Bf4 a6 4. f3 c5 5. dxc5 Nc6 6. e4 d4 7. Na4 e5 8. Bd2
+Be6 9. Nb6 Rb8 10. b4 Nxe4 11. fxe4 Qh4+ 12. g3 Qxe4+ 13. Qe2 Qxh1 14. O-O-O d3
+15. cxd3 Qxg1 16. Be3 Nd4 17. Qd2 Nf3 18. Qe2 Qxh2 19. Bg2 Bh3 20. Bxf3 Qxe2
+21. Bxe2 Be7 22. g4 Bg2 23. d4 exd4 24. Bxd4 Rd8 25. Bxg7 Rxd1+ 26. Kxd1 Rg8
+27. Be5 Bh3 28. Kc2 Bxg4 29. Bd3 Rg5 30. Bf4 Rh5 31. Be4 Bf5 0-1
+
+[Event "Sitges op 43rd"]
+[Site "Sitges"]
+[Date "2017.07.25"]
+[Round "4"]
+[White "Zachary, Matheo"]
+[Black "Oliva Castaneda, Kevel"]
+[Result "0-1"]
+[ECO "B50"]
+[WhiteElo "2306"]
+[BlackElo "2497"]
+[PlyCount "52"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. c3 Nf6 4. h3 Nbd7 5. Bd3 b6 6. O-O Bb7 7. Re1 Rc8 8. b3
+g6 9. Bc2 Bg7 10. Bb2 Qc7 11. d3 O-O 12. Nbd2 e5 13. Rc1 d5 14. exd5 Nxd5 15.
+d4 Nf4 16. dxe5 Nxe5 17. Nxe5 Nxg2 18. Nef3 Nxe1 19. Qxe1 Rfe8 20. Qf1 Bh6 21.
+Re1 Bxd2 22. Nxd2 Qf4 23. Rxe8+ Rxe8 24. Nc4 Qg5+ 25. Kh2 Re1 26. f4 Qh4 0-1
+
+[Event "Sitges op 43rd"]
+[Site "Sitges"]
+[Date "2017.07.27"]
+[Round "6"]
+[White "Zachary, Matheo"]
+[Black "Henriquez Villagra, Cristobal"]
+[Result "1/2-1/2"]
+[ECO "B53"]
+[WhiteElo "2306"]
+[BlackElo "2532"]
+[PlyCount "86"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Qxd4 Nc6 5. Bb5 Bd7 6. Bxc6 Bxc6 7. Nc3 Nf6 8.
+Bg5 e6 9. Qd3 Be7 10. Nd4 a6 11. O-O-O Rc8 12. f4 O-O 13. f5 Ng4 14. Bxe7 Qxe7
+15. Qg3 Nf6 16. Rhe1 e5 17. Nxc6 Rxc6 18. Nd5 Nxd5 19. Rxd5 Rfc8 20. c3 Rc4 21.
+Rf1 Qf6 22. Rfd1 R4c6 23. Kb1 Kf8 24. Qd3 Ke7 25. g4 g5 26. h4 h6 27. h5 R8c7
+28. a4 Rc8 29. a5 R8c7 30. Kc2 Rc8 31. b3 Rd8 32. c4 Ke8 33. b4 b6 34. axb6
+Rxb6 35. Kc3 Qe7 36. c5 Rc6 37. Kb3 Rb8 38. Rxd6 Rxc5 39. Qxa6 Qc7 40. Rd8+
+Rxd8 41. Rxd8+ Kxd8 42. bxc5 Qxc5 43. Qxh6 Qb5+ 1/2-1/2
+
+[Event "Sitges op 43rd"]
+[Site "Sitges"]
+[Date "2017.07.28"]
+[Round "7"]
+[White "Zachary, Matheo"]
+[Black "Beltran Rueda, Santiago"]
+[Result "1-0"]
+[ECO "B42"]
+[WhiteElo "2306"]
+[BlackElo "2362"]
+[PlyCount "110"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Bd3 Nc6 6. Nxc6 bxc6 7. O-O d5 8.
+c4 Nf6 9. Nc3 Be7 10. cxd5 cxd5 11. exd5 exd5 12. Qa4+ Bd7 13. Qd4 Be6 14. Bf4
+O-O 15. Rac1 Nh5 16. Be5 f6 17. Bg3 Nxg3 18. hxg3 Re8 19. Bc2 f5 20. Rcd1 Bf6
+21. Qf4 g5 22. Qf3 g4 23. Qf4 Bg5 24. Qa4 Qf6 25. Nxd5 Qf7 26. Nf4 Bc4 27. Rd7
+Re7 28. Rxe7 Bxe7 29. Re1 Bd6 30. Bxf5 Bxf4 31. gxf4 Bxa2 32. Bxg4 Bc4 33. Qxc4
+Qxc4 34. Be6+ Qxe6 35. Rxe6 Rb8 36. Rxa6 Rxb2 37. Ra7 Rc2 38. g3 Rb2 39. Kg2
+Rc2 40. g4 Rc3 41. f3 Rc1 42. f5 Rc3 43. Kg3 Rc4 44. f6 h6 45. f4 Rc3+ 46. Kf2
+Rc6 47. g5 hxg5 48. fxg5 Rc5 49. Rg7+ Kh8 50. Rg6 Kh7 51. Rh6+ Kg8 52. Rh5 Rc2+
+53. Ke3 Kf7 54. Rh7+ Ke6 55. Re7+ Kd5 1-0
+
+[Event "Sitges op 43rd"]
+[Site "Sitges"]
+[Date "2017.07.29"]
+[Round "8"]
+[White "Garriga Cazorla, Pere"]
+[Black "Zachary, Matheo"]
+[Result "1-0"]
+[ECO "D18"]
+[WhiteElo "2400"]
+[BlackElo "2306"]
+[PlyCount "89"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. e3 e6 7. Bxc4 Bb4 8. O-O
+Nbd7 9. Nh4 Bg4 10. f3 Bh5 11. g4 Bg6 12. Qe2 Nd5 13. Nxg6 hxg6 14. Bd2 Bd6 15.
+f4 g5 16. Ne4 N7f6 17. Nxg5 Qc7 18. Rf2 O-O-O 19. Raf1 Rh4 20. h3 Nh7 21. Nxh7
+Rxh7 22. Rf3 Rdh8 23. Qg2 Qb6 24. b3 g6 25. a5 Qd8 26. e4 Nb4 27. Bc3 Qxa5 28.
+e5 Bf8 29. f5 gxf5 30. gxf5 Rg7 31. Rg3 Rhg8 32. Rg4 Qa2 33. fxe6 Qxg2+ 34.
+Kxg2 Nc2 35. Kf3 Rxg4 36. hxg4 Rh8 37. Ke4 Rh3 38. Bd2 Rh4 39. Rxf7 Rxg4+ 40.
+Kf5 Rg8 41. e7 Bxe7 42. Rxe7 Nxd4+ 43. Ke4 Rd8 44. Bg5 c5 45. Rxb7 1-0
+
+[Event "Sitges op 43rd"]
+[Site "Sitges"]
+[Date "2017.07.29"]
+[Round "9"]
+[White "Zachary, Matheo"]
+[Black "Angskog, Kent"]
+[Result "0-1"]
+[ECO "B27"]
+[WhiteElo "2306"]
+[BlackElo "2139"]
+[PlyCount "48"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 g6 3. c3 Bg7 4. d4 cxd4 5. cxd4 d5 6. e5 Bg4 7. Nc3 Nc6 8. Be3
+Nh6 9. Qb3 Bxf3 10. Qxb7 Rc8 11. gxf3 O-O 12. Bd3 e6 13. h4 f6 14. f4 Rf7 15.
+Qb5 fxe5 16. fxe5 Ng4 17. O-O-O Nxe3 18. fxe3 Bh6 19. Rde1 Nxd4 20. Qa6 Rc6 21.
+Qa4 Qb6 22. h5 Rf2 23. Qa3 Bf8 24. Qxf8+ Kxf8 0-1

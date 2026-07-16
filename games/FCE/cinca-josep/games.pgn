@@ -1,0 +1,75 @@
+[Event "Camp. Catalunya eq. ( 2 cat. )"]
+[Site "?"]
+[Date "1931.12.15"]
+[Round "7"]
+[White "Cinca, Josep"]
+[Black "Trilla, Llorenç"]
+[Result "0-1"]
+[ECO "C00"]
+[PlyCount "82"]
+[EventDate "1931.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 Ne7 3. Nc3 c6 4. Nf3 d5 5. e5 h6 6. Bd3 g6 7. Ne2 b6 8. Be3 Bb7
+9. Qd2 Qc7 10. O-O Nd7 11. Rac1 O-O-O 12. c4 f5 13. exf6 Nxf6 14. Bf4 Qd7 15.
+Ne5 Qe8 16. f3 dxc4 17. Nxc4 Nfd5 18. Nd6+ Rxd6 19. Bxd6 Bg7 20. Rfe1 Qd7 21.
+Bxe7 Nxe7 22. Bc4 e5 23. d5 c5 24. Nc3 a6 25. Red1 Nf5 26. Ne4 Nd4 27. b4 Bxd5
+28. Bxa6+ Kd8 29. bxc5 b5 30. Qa5+ Ke7 31. Nd6 Ne2+ 32. Kf2 Nxc1 33. Rxd5 Qc6
+34. Bb7 Qd7 35. c6 (35. Nc8+) 35... Qe6 36. Qc7+ Kf6 37. Ne4+ Kf5 38. Ke3 h5
+39. Rd6 (39. Qxg7 $1 $18) 39... Bh6+ 40. f4 $2 (40. Kf2 $1 $18) 40... exf4+ 41.
+Kd4 $4 (41. Kf2 $142 $18) 41... Qc4# 0-1
+
+[Event "Camp. Catalunya eq. ( 3 cat. )"]
+[Site "?"]
+[Date "1931.??.??"]
+[Round "4"]
+[White "Sastre, Amalio"]
+[Black "Cinca, Josep"]
+[Result "1-0"]
+[ECO "D31"]
+[PlyCount "53"]
+[EventDate "1931.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Bb4 4. cxd5 exd5 5. Qa4+ Nc6 6. Nf3 Be7 7. Ne5 Bd7 8.
+Qb3 Nxe5 9. dxe5 Bc6 10. Bf4 Qd7 11. O-O-O d4 12. e3 Bc5 13. Bb5 Rd8 14. Rd2 a6
+15. Bxc6 Qxc6 16. Qd1 Bb4 17. Rxd4 Rxd4 18. Qxd4 Be7 19. Qe4 Qxe4 20. Nxe4 b6
+21. e6 c6 22. exf7+ Kxf7 23. Rd1 Nf6 24. Nxf6 Kxf6 25. Rd7 g5 26. Bxg5+ Kxg5
+27. Rxe7 1-0
+
+[Event "Camp. Catalunya eq. ( 3 cat. )"]
+[Site "?"]
+[Date "1931.??.??"]
+[Round "5"]
+[White "Cabre, Juan"]
+[Black "Cinca, Josep"]
+[Result "1-0"]
+[ECO "C41"]
+[PlyCount "45"]
+[EventDate "1931.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 d6 3. h3 Nf6 4. Nc3 c6 5. Bc4 h6 6. d3 a5 7. a4 Nbd7 8. Be3 Be7
+9. d4 Nb6 10. Bb3 Qc7 11. Qd3 Bd7 12. dxe5 dxe5 13. Bxb6 Qxb6 14. Nxe5 O-O-O
+15. Nxf7 Rhf8 16. Nxd8 Bxd8 17. O-O-O Qxf2 18. Rhf1 Qc5 19. Rde1 Re8 20. Rf4 g5
+21. Rff1 Qe5 22. Rd1 Re7 23. Rf5 1-0
+
+[Event "Camp. Catalunya eq. ( 3 cat. )"]
+[Site "?"]
+[Date "1931.??.??"]
+[Round "12"]
+[White "March, JM."]
+[Black "Cinca, Josep"]
+[Result "1-0"]
+[ECO "D02"]
+[PlyCount "37"]
+[EventDate "1931.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. Nf3 d5 2. d4 e6 3. e3 c5 4. c3 a6 5. Bd3 Nc6 6. Nbd2 h6 7. O-O Qc7 8. e4
+cxd4 9. exd5 dxc3 10. dxc6 cxd2 11. Bxd2 bxc6 12. Rc1 Bb7 13. Bc3 f6 14. Re1 e5
+15. Bg6+ Ke7 16. Bb4+ Ke6 17. Nd4+ Kd7 18. Nb5+ Kc8 19. Nxc7 1-0

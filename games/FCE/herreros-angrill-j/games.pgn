@@ -1,0 +1,488 @@
+[Event "Lleida indiv. B ch"]
+[Site "?"]
+[Date "2009.10.11"]
+[Round "1.18"]
+[White "Clua Guardia, M."]
+[Black "Herreros Angrill, J."]
+[Result "0-1"]
+[ECO "B07"]
+[WhiteElo "1710"]
+[BlackElo "1872"]
+[PlyCount "63"]
+[EventDate "2009.??.??"]
+
+1. e4 d6 2. Nc3 e5 3. h3 Nf6 4. Nf3 c6 5. Bc4 b5 6. Bb3 b4 7. Na4 Nxe4 8. O-O
+Be7 9. d3 Ng5 10. Nxg5 Bxg5 11. Bxg5 Qxg5 12. Qf3 O-O 13. Rae1 Be6 14. c4 Qe7
+15. a3 a5 16. Nb6 Ra6 17. Qe3 c5 18. Nd5 Qb7 19. Qg5 Bxd5 20. cxd5 bxa3 21. Bc2
+axb2 22. d4 cxd4 23. Qh4 g6 24. Bd3 Rb6 25. Qh6 f5 26. Rb1 Qxd5 27. Rbd1 Qc5
+28. Rfe1 Nc6 29. Kh1 e4 30. Bb1 d3 31. f3 e3 32. Ba2+ {irreproduible} 0-1
+
+[Event "Lleida indiv. B ch"]
+[Site "?"]
+[Date "2009.10.18"]
+[Round "2.13"]
+[White "Herreros Angrill, J."]
+[Black "Solani Nuñez, Joel"]
+[Result "0-1"]
+[ECO "D02"]
+[WhiteElo "1872"]
+[BlackElo "1700"]
+[PlyCount "35"]
+[EventDate "2009.??.??"]
+
+1. d4 d5 2. Nf3 Bg4 3. Nbd2 Nf6 4. e3 Ne4 5. Be2 e6 6. Nxe4 dxe4 7. Ne5 Bxe2 8.
+Qxe2 Bd6 9. Nc4 O-O 10. Nd2 f5 11. b3 Be7 12. Bb2 Bf6 13. f3 c5 14. Qc4 Qd5 15.
+Qxd5 exd5 16. O-O-O cxd4 17. fxe4 dxe3 18. exd5 {irreproduible} 0-1
+
+[Event "Lleida indiv. B ch"]
+[Site "?"]
+[Date "2009.10.25"]
+[Round "3.19"]
+[White "Mirchov Tsvetkov, I."]
+[Black "Herreros Angrill, J."]
+[Result "0-1"]
+[ECO "C01"]
+[WhiteElo "1700"]
+[BlackElo "1872"]
+[PlyCount "50"]
+[EventDate "2009.??.??"]
+
+1. e4 e6 2. d4 d5 3. Bd3 c5 4. Be3 c4 5. Be2 Nc6 6. e5 Qc7 7. Nf3 f6 8. c3 Bd7
+9. b3 b5 10. b4 fxe5 11. Nxe5 Nf6 12. Bf4 Bd6 13. g3 Nxe5 14. dxe5 Bxe5 15.
+Bxe5 Qxe5 16. O-O O-O 17. Re1 Ne4 18. f4 Qf6 19. Qc2 e5 20. Bf3 exf4 21. Bxe4
+dxe4 22. Rf1 Qb6+ 23. Kg2 f3+ 24. Kh1 Bh3 25. Nd2 Bg2# 0-1
+
+[Event "Ct. Lleida indiv. B"]
+[Site "?"]
+[Date "2010.10.17"]
+[Round "2.5"]
+[White "Herreros Angrill, J."]
+[Black "Escur Hereu, J."]
+[Result "1-0"]
+[ECO "A35"]
+[BlackElo "1709"]
+[PlyCount "89"]
+[EventDate "2010.??.??"]
+[EventRounds "9"]
+
+1. c4 c5 2. Nf3 Nc6 3. Nc3 e6 4. g3 Nf6 5. Bg2 Be7 6. O-O O-O 7. e4 d6 8. d3
+Nd4 9. h3 Rb8 10. a4 b6 11. Re1 e5 12. Nxd4 cxd4 13. Ne2 Ne8 14. Bd2 Nc7 15. f4
+Ne6 16. b4 a6 17. f5 Nc7 18. Kh2 Bg5 19. Ng1 Bxd2 20. Qxd2 Ne8 21. Nf3 f6 22.
+g4 Kf7 23. g5 Rg8 24. a5 b5 25. cxb5 Rxb5 26. Rac1 Bd7 27. Rg1 Qb8 28. Rb1 d5
+29. Kh1 Qd6 30. Nh4 fxg5 31. Qxg5 Qf6 32. Qh5+ g6 33. Qxh7+ Qg7 34. fxg6+ Ke6
+35. Qxg7 Rxg7 36. exd5+ Kd6 37. Rgf1 Nc7 38. Kh2 Nxd5 39. Bxd5 Rxd5 40. Rf6+
+Ke7 41. Rxa6 e4 42. dxe4 Re5 43. Nf5+ Bxf5 44. exf5 Rxf5 45. Re1+ 1-0
+
+[Event "Ct. Lleida indiv. B"]
+[Site "?"]
+[Date "2010.10.24"]
+[Round "3.4"]
+[White "Sole Castañe, J."]
+[Black "Herreros Angrill, J."]
+[Result "1-0"]
+[ECO "B07"]
+[WhiteElo "1635"]
+[PlyCount "103"]
+[EventDate "2010.??.??"]
+[EventRounds "9"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Bc4 Bg7 5. Be3 O-O 6. Nge2 c6 7. O-O b5 8. Bd3
+e5 9. dxe5 dxe5 10. Ng3 Nbd7 11. a4 b4 12. Na2 a5 13. Nc1 Qc7 14. Nb3 c5 15.
+Bb5 c4 16. Nd2 Ba6 17. Bxa6 Rxa6 18. Qe2 Rc6 19. Rfd1 c3 20. bxc3 Rxc3 21. Nb3
+Rc8 22. Qa6 Rc6 23. Qxa5 Qxa5 24. Nxa5 Rxc2 25. Rdb1 Bf8 26. f3 Bc5 27. Bxc5
+R8xc5 28. Nb3 Rc8 29. Nf1 Nb6 30. Nfd2 Nfd7 31. a5 Nc4 32. Nxc4 R8xc4 33. Rc1
+Rxc1+ 34. Rxc1 Rxc1+ 35. Nxc1 Nc5 36. Nb3 Na4 37. Kf1 Kf8 38. Ke2 Ke7 39. Kd3
+Kd6 40. Kc4 Kc6 41. Na1 f5 42. Nc2 fxe4 43. fxe4 Nc5 44. Nxb4+ Kd6 45. a6 Nd7
+46. Kb5 Kc7 47. Nd5+ Kb8 48. Kc6 Nf8 49. Kd6 g5 50. Kxe5 Ka7 51. Nb4 Nd7+ 52.
+Kf5 1-0
+
+[Event "Ct. Lleida indiv. B"]
+[Site "?"]
+[Date "2010.11.07"]
+[Round "5.5"]
+[White "Herreros Angrill, J."]
+[Black "Aldoma Pubill, R."]
+[Result "1/2-1/2"]
+[ECO "A01"]
+[BlackElo "1663"]
+[PlyCount "62"]
+[EventDate "2010.??.??"]
+[EventRounds "9"]
+
+1. b3 d5 2. Bb2 Nc6 3. e3 e5 4. Bb5 Bd6 5. c4 Nf6 6. Nc3 Be6 7. cxd5 Nxd5 8.
+Nf3 f6 9. d4 Nxc3 10. Bxc3 exd4 11. Nxd4 Bd7 12. Qh5+ g6 13. Qf3 Nxd4 14. Bxd7+
+Qxd7 15. exd4 O-O 16. O-O c6 17. d5 cxd5 18. Qxd5+ Kg7 19. Rfd1 Rad8 20. Qf3
+Qc7 21. Rac1 Bxh2+ 22. Kh1 Rxd1+ 23. Qxd1 Qd6 24. g3 Bxg3 25. fxg3 Qxg3 26.
+Qd7+ Rf7 27. Bxf6+ Kh6 28. Qxf7 Qh3+ 29. Kg1 Qg3+ 30. Kf1 Qf3+ 31. Ke1 Qe3+
+1/2-1/2
+
+[Event "Ct. Lleida indiv. B"]
+[Site "?"]
+[Date "2010.11.14"]
+[Round "6.7"]
+[White "Casas Torres, P."]
+[Black "Herreros Angrill, J."]
+[Result "1-0"]
+[ECO "B30"]
+[WhiteElo "1633"]
+[PlyCount "69"]
+[EventDate "2010.??.??"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 Nc6 3. Nc3 e6 4. d3 d5 5. exd5 exd5 6. Bf4 Nf6 7. Qd2 a6 8.
+O-O-O Be6 9. h3 Be7 10. g4 d4 11. Ne4 Qd5 12. b3 b5 13. Re1 Rc8 14. Bg2 c4 15.
+Nxf6+ gxf6 16. dxc4 bxc4 17. Kb1 c3 18. Qd3 Qa5 19. a4 Qc5 20. Qxa6 Qa3 21. Bc1
+Qd6 22. Rd1 Qb8 23. Nxd4 Nxd4 24. Rxd4 O-O 25. Ka2 Qe5 26. Re4 Qc5 27. Qe2 Ra8
+28. Kb1 Bd5 29. Rxe7 Qb4 30. Bxd5 Rxa4 31. Bxf7+ Rxf7 32. Re8+ Kg7 33. Qe3 Qf4
+34. Qxf4 Rxf4 35. Bxf4 1-0
+
+[Event "Ct. Lleida indiv. B"]
+[Site "?"]
+[Date "2010.11.28"]
+[Round "8.7"]
+[White "Pages Jane, J."]
+[Black "Herreros Angrill, J."]
+[Result "0-1"]
+[ECO "B08"]
+[WhiteElo "1748"]
+[PlyCount "68"]
+[EventDate "2010.??.??"]
+[EventRounds "9"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Bc4 Bg7 5. Nf3 O-O 6. O-O a6 7. Be3 b5 8. Bd3
+Bb7 9. Nd2 Nbd7 10. f4 c5 11. dxc5 Nxc5 12. Qf3 Qc7 13. f5 Nfd7 14. Qh3 Ne5 15.
+Bf4 b4 16. Nd5 Bxd5 17. exd5 Ncxd3 18. cxd3 Qc5+ 19. Be3 Qxd5 20. d4 Nc6 21.
+fxg6 fxg6 22. Nf3 Nxd4 23. Ng5 h6 24. Nf3 Nxf3+ 25. gxf3 Qf5 26. Qh4 a5 27.
+Rac1 g5 28. Qc4+ Kh7 29. Qc7 Rac8 30. Qxe7 Rce8 31. Qxd6 Rxe3 32. Rc7 Rxf3 33.
+Rxf3 Qxf3 34. Qd2 Qf1# 0-1
+
+[Event "Ct. Lleida indiv. B"]
+[Site "?"]
+[Date "2010.12.05"]
+[Round "9.4"]
+[White "Herreros Angrill, J."]
+[Black "Pareja Guerrero, FJ."]
+[Result "1-0"]
+[ECO "C00"]
+[PlyCount "51"]
+[EventDate "2010.??.??"]
+[EventRounds "9"]
+
+1. e4 e6 2. d3 b6 3. Nd2 Bb7 4. Ngf3 g6 5. g3 Bg7 6. Bg2 Ne7 7. O-O c5 8. Re1
+O-O 9. Nf1 d5 10. e5 Nec6 11. Bf4 Nd7 12. c3 Re8 13. h4 f6 14. d4 fxe5 15. dxe5
+Ba6 16. N1h2 Qc7 17. Ng4 Kh8 18. Nf6 Rf8 19. Ng5 Nd8 20. Nfxh7 Rf7 21. h5 Bxe5
+22. hxg6 Rxf4 23. gxf4 Bxf4 24. Qh5 Ne5 25. Nf6+ Kg7 26. Ne8+ 1-0
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2011.07.18"]
+[Round "2"]
+[White "Butt, I."]
+[Black "Herreros Angrill, J."]
+[Result "0-1"]
+[ECO "B07"]
+[BlackElo "1727"]
+[PlyCount "52"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.07.29"]
+
+1. e4 d6 2. d4 g6 3. Nf3 Bg7 4. Bc4 Nf6 5. Nbd2 O-O 6. c3 a5 7. a4 Bd7 8. Qb3
+b6 9. O-O h6 10. e5 dxe5 11. Nxe5 e6 12. Rd1 c6 13. Ndf3 Ne8 14. Be3 Nd6 15. d5
+Nxc4 16. Qxc4 cxd5 17. Qb3 Ra6 18. c4 Nc6 19. Nxd7 Qxd7 20. cxd5 exd5 21. Rxd5
+Qe6 22. Re1 Nb4 23. Qd1 Qxd5 24. Qxd5 Nxd5 25. g3 Nxe3 26. fxe3 Bxb2 0-1
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2011.07.19"]
+[Round "3"]
+[White "Herreros Angrill, J."]
+[Black "Codina Garcia, J."]
+[Result "0-1"]
+[ECO "A06"]
+[WhiteElo "1727"]
+[BlackElo "2133"]
+[PlyCount "26"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.07.29"]
+
+1. Nf3 d5 2. b4 Bf5 3. Bb2 e6 4. e3 Nf6 5. c4 dxc4 6. Qa4+ c6 7. b5 Be7 8. bxc6
+Nxc6 9. Nd4 Qb6 10. Nb5 O-O 11. Ba3 Bxa3 12. N5xa3 Qb2 13. Nxc4 Qxa1 0-1
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2011.07.20"]
+[Round "4"]
+[White "Bedoya Ribo, J."]
+[Black "Herreros Angrill, J."]
+[Result "1/2-1/2"]
+[ECO "A56"]
+[WhiteElo "1915"]
+[BlackElo "1727"]
+[PlyCount "37"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.07.29"]
+
+1. d4 Nf6 2. c4 c5 3. e3 e6 4. Nc3 Be7 5. Nf3 O-O 6. Bd3 d5 7. O-O dxc4 8. Bxc4
+a6 9. Qe2 b5 10. Bb3 Bb7 11. dxc5 Qc7 12. Rd1 Nbd7 13. Bd2 Qxc5 14. Rac1 Qh5
+15. Nd4 Qxe2 16. Ncxe2 Rac8 17. Rxc8 Rxc8 18. Rc1 Nc5 19. Bd1 1/2-1/2
+
+[Event "Ct. Lleida indiv. Absolut B"]
+[Site "?"]
+[Date "2011.10.12"]
+[Round "2.9"]
+[White "Martinez Velazquez, A."]
+[Black "Herreros Angrill, J."]
+[Result "1-0"]
+[ECO "E61"]
+[BlackElo "1708"]
+[PlyCount "103"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+
+1. d4 Nf6 2. c4 c5 3. e3 g6 4. Nf3 Bg7 5. Nc3 cxd4 6. exd4 d6 7. Be2 O-O 8. Bg5
+Bg4 9. Qd2 Nc6 10. Bh6 Rb8 11. Bxg7 Kxg7 12. h3 Bxf3 13. Bxf3 Qb6 14. Rd1 e5
+15. d5 Nd4 16. Bg4 Ng8 17. Ne2 Nxe2 18. Bxe2 f5 19. O-O Nf6 20. Kh1 Ne4 21. Qe1
+Qxb2 22. Bd3 Nf6 23. Qd2 Qb6 24. f3 Nh5 25. Kh2 f4 26. Rb1 Qc7 27. Rb3 b6 28.
+Rc1 Ng3 29. Qc2 Rf6 30. Rcb1 g5 31. Bxh7 Rh8 32. Be4 Rfh6 33. Bf5 Nxf5 34. Qxf5
+Qe7 35. a4 Rf8 36. Qe4 Qd7 37. Kg1 Qxa4 38. c5 Qxe4 39. fxe4 dxc5 40. Kf2 Rd6
+41. Ra3 Ra8 42. Ra6 Kf6 43. Rba1 Rd7 44. Rxb6+ axb6 45. Rxa8 Rb7 46. Ke2 c4 47.
+Kd2 Ke7 48. Kc3 Kd6 49. Kxc4 Rc7+ 50. Kd3 Rf7 51. Ke2 Rb7 52. Kf3 1-0
+
+[Event "Ct. Lleida indiv. Absolut B"]
+[Site "?"]
+[Date "2011.10.23"]
+[Round "4.10"]
+[White "Bonet Verdu, M."]
+[Black "Herreros Angrill, J."]
+[Result "1/2-1/2"]
+[ECO "A22"]
+[BlackElo "1708"]
+[PlyCount "69"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+
+1. c4 e5 2. g3 Nf6 3. Nc3 Bc5 4. Bg2 O-O 5. e3 d6 6. a3 a5 7. Nge2 Be6 8. d3 c6
+9. Rb1 Qc8 10. h3 Na6 11. Bd2 Ba7 12. b4 axb4 13. axb4 d5 14. cxd5 Nxd5 15.
+Nxd5 cxd5 16. g4 f5 17. g5 b5 18. Nc3 Nc7 19. Rc1 Qd8 20. h4 Rc8 21. O-O d4 22.
+exd4 Qxd4 23. Be3 Qxh4 24. Bxa7 Qxg5 25. Qf3 f4 26. Ne4 Qg6 27. Nc5 Bg4 28. Qe4
+Qg5 29. Bb6 f3 30. Bxc7 fxg2 31. Qxg2 Qh5 32. Ne4 Bf3 33. Qh2 Qg6+ 34. Qg3 Qh6
+35. Qh2 1/2-1/2
+
+[Event "Ct. Lleida indiv. Absolut B"]
+[Site "?"]
+[Date "2011.11.01"]
+[Round "5.8"]
+[White "Herreros Angrill, J."]
+[Black "Sole Monistrol, F."]
+[Result "0-1"]
+[ECO "B21"]
+[WhiteElo "1708"]
+[BlackElo "1863"]
+[PlyCount "100"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+
+1. e4 c5 2. d4 cxd4 3. c3 dxc3 4. Nxc3 d6 5. Nf3 Bg4 6. Bc4 e6 7. O-O Ne7 8.
+Bf4 Ng6 9. Bg3 a6 10. Qe2 Be7 11. h3 Bh5 12. Bh2 Bxf3 13. Qxf3 O-O 14. Rfd1 Qc7
+15. Bb3 Nc6 16. Rac1 Rad8 17. Ne2 Qb6 18. Qd3 Nce5 19. Qd4 Qxd4 20. Rxd4 Rc8
+21. Rdd1 Rxc1 22. Nxc1 Rc8 23. f4 Nc4 24. Nd3 Na5 25. Rc1 Rxc1+ 26. Nxc1 Nxb3
+27. Nxb3 b6 28. Nd2 b5 29. Nf3 d5 30. exd5 exd5 31. f5 Nf8 32. Kf1 Nd7 33. Ke2
+Bf6 34. b3 Kf8 35. Ne1 Ke7 36. Nd3 a5 37. Nf4 Kd6 38. Ne6+ Kc6 39. Nc7 a4 40.
+bxa4 bxa4 41. Ne8 Bb2 42. g4 Nc5 43. Nd6 Ne4 44. Nxf7 Nc3+ 45. Kd3 Nxa2 46.
+Ne5+ Kb5 47. Kc2 a3 48. Nf3 Ka4 49. Nd2 Nb4+ 50. Kb1 Bc3 0-1
+
+[Event "Ct. Lleida indiv. Absolut"]
+[Site "Tornabous"]
+[Date "2014.10.12"]
+[Round "2"]
+[White "Cosialls Ris, R."]
+[Black "Herreros Angrill, J."]
+[Result "1/2-1/2"]
+[ECO "C63"]
+[WhiteElo "1932"]
+[BlackElo "1926"]
+[PlyCount "124"]
+[EventDate "2014.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 f5 4. exf5 e4 5. Bxc6 dxc6 6. Qe2 Qe7 7. Nd4 Nf6 8.
+O-O c5 9. Ne6 Bxe6 10. fxe6 O-O-O 11. Nc3 Qxe6 12. d3 Qc6 13. dxe4 Be7 14. Bg5
+h6 15. Bh4 g5 16. Bg3 a6 17. Rad1 Rde8 18. Nd5 Nxd5 19. Rxd5 Bf6 20. Qg4+ Re6
+21. Rxc5 Qxe4 22. Qxe4 Rxe4 23. Rxc7+ Kd8 24. Rd1+ Ke8 25. Rc8+ Kf7 26. Rxh8
+Bxh8 27. f3 Re2 28. Rd7+ Kg6 29. Rxb7 Rxc2 30. Rb6+ Kh7 31. Rxa6 Rxb2 32. h3
+Bd4+ 33. Kh2 Rb1 34. Bc7 Bf2 35. a4 h5 36. g4 Rb2 37. Kh1 h4 38. a5 Bd4 39. Re6
+Rb1+ 40. Kg2 Rb2+ 41. Kf1 Rf2+ 42. Ke1 Rxf3 43. Bb6 Bxb6 44. axb6 Rxh3 45. Re5
+Rg3 46. Rb5 Re3+ 47. Kf2 Re8 48. b7 Rb8 49. Rb6 Kg7 50. Kf3 Kf7 51. Ke4 Kg7 52.
+Kf3 Kf7 53. Ke4 Kg7 54. Kf5 h3 55. Kxg5 h2 56. Rh6 Rxb7 57. Rxh2 Rb5+ 58. Kh4
+Kg6 59. Re2 Rb6 60. Re5 Ra6 61. Rg5+ Kh6 62. Rh5+ Kg6 1/2-1/2
+
+[Event "Ct. Lleida indiv. Absolut"]
+[Site "Tornabous"]
+[Date "2014.10.19"]
+[Round "3"]
+[White "Herreros Angrill, J."]
+[Black "Fabrega Ramon, S."]
+[Result "0-1"]
+[ECO "B21"]
+[WhiteElo "1926"]
+[BlackElo "2057"]
+[PlyCount "54"]
+[EventDate "2014.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. d4 cxd4 3. c3 dxc3 4. Nxc3 Nc6 5. Nf3 d6 6. Bc4 e6 7. Bf4 Nf6 8.
+O-O Be7 9. Qe2 Nh5 10. Be3 a6 11. Rfd1 Bd7 12. Nd4 Nxd4 13. Bxd4 Nf6 14. Bxf6
+gxf6 15. Qh5 Qc7 16. Rac1 Qxc4 17. Nd5 exd5 18. Rxc4 dxc4 19. Qd5 Bc6 20. Qxc4
+Rg8 21. g3 Rg5 22. f4 Rc5 23. Qe2 Rc8 24. Qg4 Bxe4 25. Qg8+ Kd7 26. Qxf7 Bg6
+27. Qb3 Bc2 0-1
+
+[Event "Ct. Lleida indiv. Absolut"]
+[Site "Tornabous"]
+[Date "2014.10.26"]
+[Round "4"]
+[White "Barbero Sendic, A."]
+[Black "Herreros Angrill, J."]
+[Result "1-0"]
+[ECO "C41"]
+[WhiteElo "2415"]
+[BlackElo "1926"]
+[PlyCount "103"]
+[EventDate "2014.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 d6 3. d4 exd4 4. Nxd4 Nf6 5. Nc3 g6 6. g3 Bg7 7. Bg2 O-O 8. O-O
+Nbd7 9. Re1 Re8 10. b3 Ne5 11. Bb2 Bg4 12. f3 Bd7 13. f4 Bg4 14. Qd2 c5 15.
+fxe5 cxd4 16. exf6 dxc3 17. Qxc3 Bh8 18. e5 Rc8 19. Qd4 Bf5 20. exd6 Rxc2 21.
+Re7 Re2 22. Qc4 R8xe7 23. fxe7 Qb6+ 24. Kh1 Qf2 25. e8=Q+ Rxe8 26. Bxh8 Re2 27.
+Rg1 Kxh8 28. Qc3+ Kg8 29. Qf3 Qxf3 30. Bxf3 Rd2 31. Bxb7 Rxd6 32. Re1 Re6 33.
+Rd1 Be4+ 34. Bxe4 Rxe4 35. Kg1 Kf8 36. Rd8+ Re8 37. Rd5 Re1+ 38. Kf2 Rh1 39.
+Kg2 Rc1 40. Ra5 Rc7 41. Kf3 Ke7 42. Ra6 f6 43. b4 h5 44. a3 Rc3+ 45. Ke4 Rc7
+46. b5 Kf7 47. a4 g5 48. Kd5 Re7 49. a5 h4 50. Rd6 hxg3 51. hxg3 g4 52. Kc6 1-0
+
+[Event "Ct. Lleida indiv. Absolut"]
+[Site "Tornabous"]
+[Date "2014.11.09"]
+[Round "6"]
+[White "Aribau Rivas, MA."]
+[Black "Herreros Angrill, J."]
+[Result "0-1"]
+[ECO "A14"]
+[WhiteElo "2150"]
+[BlackElo "1926"]
+[PlyCount "67"]
+[EventDate "2014.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. c4 c5 3. g3 b6 4. Bg2 Bb7 5. O-O e6 6. Nc3 Be7 7. b3 d5 8. cxd5
+exd5 9. d4 a6 10. Bb2 O-O 11. Rc1 Nbd7 12. e3 Rc8 13. a4 Ne4 14. Nxe4 dxe4 15.
+Nd2 f5 16. g4 Bd6 17. h3 Bb8 18. Re1 Qc7 19. Nf1 a5 20. gxf5 Rxf5 21. Qg4 Rcf8
+22. Rc2 h6 23. h4 h5 24. Qg6 R8f6 25. Qe8+ Nf8 26. d5 Rg6 27. Ng3 Rxg3 28. Qxe4
+Bxd5 29. Qxf5 Rxg2+ 30. Kf1 Be6 31. Qf3 Rg6 32. e4 Qh2 33. Qe3 Bh3+ 34. Ke2 0-1
+
+[Event "Ct. Lleida indiv. Absolut"]
+[Site "Tornabous"]
+[Date "2014.11.16"]
+[Round "7"]
+[White "Herreros Angrill, J."]
+[Black "Arno Bendicho, X."]
+[Result "1-0"]
+[ECO "B29"]
+[WhiteElo "1926"]
+[BlackElo "1987"]
+[PlyCount "53"]
+[EventDate "2014.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nf6 3. d3 d5 4. e5 Ng8 5. Bf4 Nc6 6. Nbd2 g6 7. g3 Bg7 8. Bg2
+e6 9. O-O Nge7 10. Re1 O-O 11. h4 f6 12. exf6 Bxf6 13. Rb1 Nf5 14. Nf1 Re8 15.
+N1h2 e5 16. Ng4 Nfd4 17. Nfxe5 Bxg4 18. Nxg4 Rxe1+ 19. Qxe1 Bg7 20. c3 Nf5 21.
+Qe6+ Kh8 22. Bxd5 Nfe7 23. Bc4 Qf8 24. Re1 h5 25. Ne5 Nxe5 26. Bxe5 Nf5 27.
+Qxg6 1-0
+
+[Event "Ct. Lleida indiv. Absolut"]
+[Site "Tornabous"]
+[Date "2014.11.23"]
+[Round "8"]
+[White "Argerich Farras, J."]
+[Black "Herreros Angrill, J."]
+[Result "1-0"]
+[ECO "D02"]
+[WhiteElo "2171"]
+[BlackElo "1926"]
+[PlyCount "65"]
+[EventDate "2014.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. d4 d5 3. Bf4 e6 4. e3 Bd6 5. Bg5 h6 6. Bh4 Nbd7 7. Nbd2 O-O 8. c3
+c6 9. Qb3 a5 10. c4 Re8 11. Be2 e5 12. cxd5 cxd5 13. dxe5 Bxe5 14. Nxe5 Rxe5
+15. Rc1 g5 16. Bg3 Re6 17. Nf3 a4 18. Qb4 Rb6 19. Qa3 Rc6 20. O-O Ne4 21. Nd4
+Rf6 22. Bc7 Qf8 23. Qxf8+ Nxf8 24. f3 Nd2 25. Rfd1 Nc4 26. Bxc4 dxc4 27. Rxc4
+Ne6 28. Be5 Rg6 29. Nf5 Kh7 30. Ne7 Ra5 31. Bc3 Rc5 32. Rxc5 Nxc5 33. Nxc8 1-0
+
+[Event "Ct. Lleida indiv. Absolut"]
+[Site "Tornabous"]
+[Date "2014.11.30"]
+[Round "9"]
+[White "Herreros Angrill, J."]
+[Black "Alba Tarradelles, J."]
+[Result "1-0"]
+[ECO "C00"]
+[WhiteElo "1926"]
+[BlackElo "2019"]
+[PlyCount "69"]
+[EventDate "2014.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. Nf3 d5 3. exd5 exd5 4. g3 Bg4 5. Qe2+ Qe7 6. Qxe7+ Nxe7 7. Bg2 Nd7
+8. O-O O-O-O 9. d4 f6 10. b4 Nf5 11. c3 Nb6 12. a4 g5 13. a5 Nc4 14. Nbd2 Nfd6
+15. Re1 h5 16. Nxc4 Nxc4 17. Nxg5 fxg5 18. Bxg5 Rd6 19. Re8+ Kd7 20. Rae1 Be6
+21. Rd8+ Kc6 22. Rxe6 Rh7 23. Bf4 Be7 24. Bxd6 Bxd8 25. Bc5+ Nd6 26. Bxa7 Re7
+27. Rxe7 Bxe7 28. Bc5 Bf6 29. Bxd6 Kxd6 30. Bf1 c6 31. h4 Bg7 32. Be2 Ke6 33.
+Bxh5 Kf5 34. Kf1 Ke4 35. Ke2 1-0
+
+[Event "Vallfogona rapid op 25th"]
+[Site "Vallfogona de Balague"]
+[Date "2017.09.17"]
+[Round "1"]
+[White "Cuartas, Jaime Alexander"]
+[Black "Herreros Angrill, Jaume"]
+[Result "1-0"]
+[ECO "C51"]
+[WhiteElo "2503"]
+[BlackElo "1725"]
+[PlyCount "49"]
+[EventDate "2017.09.17"]
+[EventType "swiss (rapid)"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. b4 Bxb4 5. c3 Be7 6. d4 exd4 7. Qb3 d6 8.
+Bxf7+ Kf8 9. cxd4 Bf6 10. Be3 Qe7 11. Bd5 Nd8 12. Nbd2 c6 13. Bxg8 Rxg8 14. O-O
+Nf7 15. Rab1 b6 16. a4 Ba6 17. Rfc1 Rc8 18. a5 b5 19. e5 dxe5 20. dxe5 Bxe5 21.
+Nxe5 Qxe5 22. Bc5+ Nd6 23. Ne4 Rd8 24. Nxd6 Rxd6 25. Qb4 1-0

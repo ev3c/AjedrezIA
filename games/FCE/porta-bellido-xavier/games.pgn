@@ -1,0 +1,238 @@
+[Event "Barcelona Paredes Memorial 19th"]
+[Site "Barcelona"]
+[Date "2017.04.22"]
+[Round "1"]
+[White "Porta Bellido, Xavier"]
+[Black "Garcia Ramos, Daniel"]
+[Result "0-1"]
+[ECO "C45"]
+[WhiteElo "1907"]
+[BlackElo "2208"]
+[PlyCount "62"]
+[EventDate "2017.04.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5 5. Be3 Qf6 6. Nb5 Bxe3 7. fxe3 Kd8
+8. N1c3 Nge7 9. Qd2 a6 10. Nd4 d6 11. Be2 Ne5 12. Rf1 Qh4+ 13. Rf2 Qxh2 14.
+O-O-O Qg3 15. Rdf1 Bd7 16. Nf5 Nxf5 17. exf5 Bc6 18. e4 Re8 19. Qd4 Nd7 20. Bf3
+Qe5 21. Qd2 b5 22. g4 Nb6 23. Qg5+ Kc8 24. Nd5 Nc4 25. c3 Bxd5 26. exd5 h6 27.
+Qh4 Qf4+ 28. Kc2 Ne3+ 29. Kb1 Nxf1 30. Rxf1 Kb7 31. Bg2 Qd2 0-1
+
+[Event "Barcelona Paredes Memorial 19th"]
+[Site "Barcelona"]
+[Date "2017.05.06"]
+[Round "3"]
+[White "Cabot Muntane, Jordi"]
+[Black "Porta Bellido, Xavier"]
+[Result "1-0"]
+[ECO "A48"]
+[WhiteElo "1854"]
+[BlackElo "1907"]
+[PlyCount "79"]
+[EventDate "2017.04.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 g6 3. Bf4 d6 4. e3 Bg7 5. Be2 O-O 6. h3 c5 7. c3 Nbd7 8. O-O
+a6 9. a4 b6 10. Nbd2 Bb7 11. Qc2 Nd5 12. Bh2 cxd4 13. exd4 Rc8 14. Qb3 N7f6 15.
+c4 Nc7 16. Qxb6 Rb8 17. Qa5 Bxf3 18. Nxf3 Rxb2 19. Bd3 Qd7 20. Rab1 Rfb8 21.
+Rxb2 Rxb2 22. Rb1 Rxb1+ 23. Bxb1 Qc6 24. Bd3 Nd7 25. c5 Ne6 26. cxd6 exd6 27.
+Qxa6 Qc1+ 28. Bf1 Nxd4 29. Nxd4 Bxd4 30. Bxd6 Qc2 31. Bg3 Nc5 32. Qa8+ Kg7 33.
+Qd5 Ne6 34. Be5+ Bxe5 35. Qxe5+ Kf8 36. a5 Nc5 37. a6 Ne4 38. Qd4 Nd2 39. a7
+Nxf1 40. a8=Q+ 1-0
+
+[Event "Barcelona Paredes Memorial 19th"]
+[Site "Barcelona"]
+[Date "2017.05.13"]
+[Round "4"]
+[White "Brunet Gil, Pol"]
+[Black "Porta Bellido, Xavier"]
+[Result "1-0"]
+[ECO "B07"]
+[WhiteElo "1772"]
+[BlackElo "1907"]
+[PlyCount "51"]
+[EventDate "2017.04.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 d6 2. d4 g6 3. Nc3 Bg7 4. Be3 Nf6 5. f3 O-O 6. Qd2 e5 7. O-O-O exd4 8.
+Bxd4 Nc6 9. Be3 Be6 10. Bh6 Ne5 11. h4 Nh5 12. Bxg7 Kxg7 13. Qf2 Qf6 14. Nge2
+Nc6 15. Qe3 Qe5 16. g4 Ng3 17. Nxg3 Qxg3 18. h5 Rh8 19. Be2 h6 20. hxg6 fxg6
+21. Rhg1 Qh3 22. Rh1 Qg3 23. Rhg1 Qh3 24. Qf2 Raf8 25. Rdf1 Ne5 26. Rh1 1-0
+
+[Event "Barcelona Paredes Memorial 19th"]
+[Site "Barcelona"]
+[Date "2017.05.20"]
+[Round "5"]
+[White "Porta Bellido, Xavier"]
+[Black "Bes Alvarez, Alex"]
+[Result "1-0"]
+[ECO "B22"]
+[WhiteElo "1907"]
+[BlackElo "1735"]
+[PlyCount "53"]
+[EventDate "2017.04.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. d4 cxd4 3. c3 Nf6 4. e5 Nd5 5. cxd4 Nc6 6. Nf3 e6 7. Bc4 Nb6 8. Bb3
+d6 9. O-O dxe5 10. dxe5 Be7 11. Qe2 O-O 12. Nc3 Qc7 13. Nb5 Qb8 14. Bf4 Bd7 15.
+Rac1 a6 16. Nbd4 Nxd4 17. Nxd4 Nc8 18. Rc3 Rd8 19. Qg4 Be8 20. Nxe6 fxe6 21.
+Qxe6+ Bf7 22. Qxf7+ Kh8 23. Rg3 g6 24. Qxh7+ Kxh7 25. Rh3+ Kg7 26. Bh6+ Kh7 27.
+Bf8+ 1-0
+
+[Event "Barcelona Paredes Memorial 19th"]
+[Site "Barcelona"]
+[Date "2017.05.27"]
+[Round "6"]
+[White "Aguadero Casado, Jorge Ignacio"]
+[Black "Porta Bellido, Xavier"]
+[Result "0-1"]
+[ECO "E65"]
+[WhiteElo "1678"]
+[BlackElo "1907"]
+[PlyCount "66"]
+[EventDate "2017.04.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. Nf3 Nf6 2. g3 g6 3. Bg2 Bg7 4. O-O O-O 5. d4 d6 6. c4 c5 7. Nc3 Nc6 8. e4
+cxd4 9. Nxd4 Ne5 10. b3 Ne8 11. Bb2 Qb6 12. Nd5 Qd8 13. f4 Nc6 14. f5 e6 15.
+fxg6 exd5 16. gxf7+ Rxf7 17. Rxf7 Kxf7 18. Qh5+ Kg8 19. Nf5 Bxf5 20. exf5 Bxb2
+21. Bxd5+ Kh8 22. Qf7 Ng7 23. Re1 Qb6+ 24. Kg2 Ne5 25. Qe7 Qd8 26. f6 Qxe7 27.
+fxe7 Nd7 28. Bf7 Ne8 29. Be6 Ndf6 30. c5 Be5 31. cxd6 Bxd6 32. Bc4 Rc8 33. Re6
+Rc7 0-1
+
+[Event "Barcelona Paredes Memorial 19th"]
+[Site "Barcelona"]
+[Date "2017.06.03"]
+[Round "7"]
+[White "Porta Bellido, Xavier"]
+[Black "Povill Claros, Laura"]
+[Result "1/2-1/2"]
+[ECO "B24"]
+[WhiteElo "1907"]
+[BlackElo "1818"]
+[PlyCount "152"]
+[EventDate "2017.04.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. d3 e6 6. f4 Nge7 7. Nf3 O-O 8. O-O
+d5 9. Rb1 Qa5 10. Bd2 Qc7 11. a3 b6 12. Nh4 Qd8 13. Ne2 Rb8 14. Qe1 dxe4 15.
+dxe4 Ba6 16. Nf3 Nd4 17. Nfxd4 Bxd4+ 18. Kh1 Bg7 19. Rf3 Nc6 20. c3 Bd3 21. Rc1
+Bxe4 22. Rf2 Bxg2+ 23. Rxg2 Na5 24. Rd1 Nc4 25. Bc1 Qc7 26. Ng1 Rbd8 27. Rxd8
+Rxd8 28. Qe2 Na5 29. Nf3 Rd5 30. Qe4 Qd8 31. Rd2 Rxd2 32. Bxd2 Nb3 33. Be3 Qd1+
+34. Bg1 Qd5 35. Qe3 Nd2 36. Qxd2 Qxf3+ 37. Qg2 Qxg2+ 38. Kxg2 Kf8 39. Kf3 Ke7
+40. Be3 Kd6 41. Ke4 f5+ 42. Kd3 b5 43. b3 Kd5 44. c4+ bxc4+ 45. bxc4+ Kd6 46.
+Bf2 e5 47. fxe5+ Bxe5 48. Ke2 Bd4 49. Be1 Ke5 50. Kd3 f4 51. gxf4+ Kxf4 52.
+Bg3+ Kf3 53. Bb8 a6 54. Kc2 Kg2 55. Kb3 Bg1 56. Bd6 Bxh2 57. Bxc5 Bc7 58. Be3
+h5 59. Bg5 Kg3 60. c5 h4 61. Be7 h3 62. Bd6+ Bxd6 63. cxd6 h2 64. d7 h1=Q 65.
+d8=Q Qb7+ 66. Kc2 Qc6+ 67. Kb3 Qb5+ 68. Kc3 g5 69. Qd6+ Kh3 70. Qh6+ Kg2 71.
+Qe6 Qc5+ 72. Kb3 Qb5+ 73. Kc3 Qa5+ 74. Kb3 Qb5+ 75. Kc3 Kf3 76. Qf6+ Kg3
+1/2-1/2
+
+[Event "Barcelona Paredes Memorial 19th"]
+[Site "Barcelona"]
+[Date "2017.06.10"]
+[Round "8"]
+[White "Rodriguez Saez, Gerard"]
+[Black "Porta Bellido, Xavier"]
+[Result "1-0"]
+[ECO "B00"]
+[WhiteElo "1802"]
+[BlackElo "1907"]
+[PlyCount "65"]
+[EventDate "2017.04.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 b6 3. Nc3 Bb7 4. Nf3 Bb4 5. Bd3 Nf6 6. Qe2 c5 7. O-O Bxc3 8.
+bxc3 c4 9. Bxc4 Nxe4 10. Ba3 d6 11. Qd3 O-O 12. d5 Ng5 13. Nd2 h6 14. f4 Nh7
+15. dxe6 fxe6 16. Bxe6+ Kh8 17. Nc4 Qf6 18. Rae1 Nc6 19. Nxd6 Rad8 20. Qc4 Ba8
+21. Nf7+ Rxf7 22. Bxf7 Na5 23. Qc7 Nf8 24. Re8 Rxe8 25. Bxe8 Kh7 26. Bd6 Ne6
+27. Qc8 Bb7 28. Qd7 Bc6 29. Qf7 Bxe8 30. Qxe8 Nc4 31. Re1 Nxf4 32. Bxf4 Qxf4
+33. Qe4+ 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "Spain"]
+[Date "2026.02.21"]
+[Round "6.10"]
+[White "PORTA LARA, XAVIER"]
+[Black "OLCINA MONELLS, JORDI"]
+[WhiteElo "2014"]
+[BlackElo "2122"]
+[Result "0-1"]
+[EventDate "2026.01.17"]
+
+1. e4 e5 2. Bc4 Nf6 3. d3 Bc5 4. Nc3 c6 5. Bb3 O-O 6. Nge2 Ng4 7. d4 exd4 8. Na4 Bb4+ 9. Bd2 Bxd2+ 10. Qxd2 b5 11. Nc5 d6 12. Nd3 Nf6 13. Nxd4 Nxe4 14. Qf4 Qa5+ 15. c3 Nc5 16. Bc2 Re8+ 17. Ne2 Qd8 18. Rd1 Qe7 19. Qd2 Ne4 20. Qe3 Nf6 21. Qd2 Nd5 22. Bb3 Bg4 23. f3 Bxf3 24. gxf3 Qh4+ 25. Nf2 Nf4 26. Kf1 Rxe2 27. Qd4 c5 0-1
+
+[Event "Fincas Mediterranea op"]
+[Site "?"]
+[Date "2006.??.??"]
+[Round "1.2"]
+[White "Porta Bellido, X."]
+[Black "Del Rio Angelis, SG."]
+[Result "0-1"]
+[ECO "C01"]
+[WhiteElo "1943"]
+[BlackElo "2514"]
+[PlyCount "64"]
+[EventDate "2006.??.??"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. Nf3 Nc6 5. c4 Bb4+ 6. Nc3 Qe7+ 7. Qe2 dxc4 8.
+Qxe7+ Ngxe7 9. Bxc4 Be6 10. Bxe6 fxe6 11. O-O Rd8 12. Bf4 Nxd4 13. Nxd4 Rxd4
+14. Bxc7 Bxc3 15. bxc3 Rc4 16. Be5 Kf7 17. Rfd1 Nd5 18. g3 Rhc8 19. Rab1 b6 20.
+Rb3 g5 21. Rd3 Kg6 22. Bd4 Ra4 23. Rd2 h5 24. Kg2 Rc6 25. Kf1 Rac4 26. Rd3 g4
+27. Ke1 Kf5 28. Rb5 a6 29. Rb3 b5 30. f3 b4 31. fxg4+ hxg4 32. cxb4 Nxb4 0-1

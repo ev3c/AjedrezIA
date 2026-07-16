@@ -1,0 +1,142 @@
+[Event "Camp. Catalunya eq. ( 1 cat. )"]
+[Site "?"]
+[Date "1930.??.??"]
+[Round "15"]
+[White "Vilardebo Picurena, Josep"]
+[Black "Gil, Carlos"]
+[Result "0-1"]
+[ECO "D51"]
+[PlyCount "82"]
+[EventDate "1930.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 Bb4 6. cxd5 exd5 7. Qb3 Bxc3+ 8.
+bxc3 c6 9. c4 Qa5+ 10. Kd1 dxc4 11. Bxc4 Qxg5 12. Bxf7+ Kf8 13. Nf3 Qb5 14.
+Qxb5 cxb5 15. Bb3 h6 16. Rc1 a5 17. a3 Nb6 18. Ne5 Bf5 19. Rc7 Rh7 20. Rxb7
+Nbd7 21. f3 Rb8 22. Rc7 Nxe5 23. dxe5 g5 24. Rxh7 Nxh7 25. e4 Bc8 26. h4 a4 27.
+Ba2 g4 28. Kd2 b4 29. axb4 Rxb4 30. Kc3 Rb7 31. f4 Rc7+ 32. Kd4 Rc2 33. Bd5
+Rxg2 34. Rc1 Ba6 35. Rc7 Rd2+ 36. Kc3 Rxd5 37. exd5 g3 38. d6 g2 39. Rg7 Kxg7
+40. d7 g1=Q 41. d8=Q Qc1+ 0-1
+
+[Event "Barcelona sim"]
+[Site "Barcelona"]
+[Date "1930.??.??"]
+[Round "?"]
+[White "Ribera Arnal, Angel"]
+[Black "Gil, Carlos"]
+[Result "0-1"]
+[ECO "C44"]
+[PlyCount "36"]
+[EventDate "1930.02.07"]
+[EventType "simul"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Bc4 Be7 5. O-O h6 6. e5 d6 7. Re1 Bg4 8. exd6
+Qxd6 9. b3 Qf6 10. Bd5 O-O-O 11. Bxc6 Qxc6 12. Nbd2 Bb4 13. Re4 Nf6 14. Rxd4
+Rxd4 15. Nxd4 Qc3 16. N4f3 Qxa1 17. h3 Bxf3 18. Nxf3 Ba3 0-1
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1946.09.29"]
+[Round "4"]
+[White "Albardane, Amadeu"]
+[Black "Gil, Carlos"]
+[Result "1-0"]
+[ECO "D00"]
+[PlyCount "41"]
+[EventDate "1946.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. e3 Nf6 3. Bd3 c6 4. Nd2 Qc7 5. Ngf3 Nbd7 6. e4 e5 7. O-O Bd6 8. Re1
+O-O 9. c3 exd4 10. cxd4 dxe4 11. Nxe4 Nxe4 12. Rxe4 Nf6 13. Rh4 h6 14. h3 Re8
+15. g4 Be6 16. g5 hxg5 17. Bxg5 Bd5 18. Bxf6 gxf6 19. Ne5 fxe5 20. Qg4+ Kf8 21.
+Qg5 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "Barcelona"]
+[Date "1947.??.??"]
+[Round "3"]
+[White "Llorens Llorens, Rafael"]
+[Black "Gil, Carlos"]
+[Result "1-0"]
+[ECO "D61"]
+[PlyCount "79"]
+[EventDate "1947.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. Bg5 c6 5. e3 Be7 6. Qc2 Nbd7 7. Nf3 O-O 8. Rd1
+h6 9. Bh4 Ne8 10. Bxe7 Qxe7 11. a3 Nd6 12. c5 Ne8 13. Bd3 e5 14. Nxe5 Nxe5 15.
+dxe5 Qxe5 16. O-O Nf6 17. h3 Re8 18. Ne2 h5 19. Nd4 g6 20. Rde1 Ne4 21. f3 Ng3
+22. Rf2 h4 23. Qd1 Bd7 24. b4 Re7 25. f4 Qf6 26. Qa1 Rae8 27. Nf5 Bxf5 28. Qxf6
+Bxd3 29. Qxh4 Nf5 30. Qg5 Kg7 31. Rd2 f6 32. Qg4 Bc4 33. Qd1 Nxe3 34. Qa1 Re4
+35. Qc3 Kf7 36. g4 Bb5 37. g5 fxg5 38. fxg5 R8e5 39. Kh1 Ke6 40. Rd4 $138 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "Barcelona"]
+[Date "1947.06.23"]
+[Round "11"]
+[White "Gil, Carlos"]
+[Black "Medina Garcia, Antonio"]
+[Result "0-1"]
+[ECO "A48"]
+[PlyCount "96"]
+[EventDate "1947.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 g6 3. Nbd2 d5 4. c4 Bg7 5. e3 O-O 6. b3 c5 7. Bb2 Nbd7 8. Bd3
+b6 9. O-O Bb7 10. Rc1 e6 11. Re1 cxd4 12. Bxd4 Re8 13. Ne5 Nc5 14. Bb1 a5 15.
+Ng4 Rc8 16. Nxf6+ Bxf6 17. Bxf6 Qxf6 18. e4 d4 19. e5 Qf4 20. g3 Qg5 21. f4 Qe7
+22. Be4 Red8 23. Qf3 Nxe4 24. Nxe4 Bxe4 25. Qxe4 d3 26. Rcd1 Qc5+ 27. Qe3 d2
+28. Re2 Rd4 29. Kf1 Rcd8 30. Qf2 Qb4 31. Kg2 a4 32. Kh3 Qc3 33. bxa4 Qc2 34.
+Qf1 Qxc4 35. Rf2 Qxa4 36. a3 Qxa3 37. Qb5 Qe3 38. Rff1 Rd3 39. Qb4 h5 40. Qe7
+Qe2 41. Qf6 b5 42. Qe7 Qg4+ 43. Kg2 h4 44. Qxh4 Qxh4 45. gxh4 b4 46. Kf2 b3 47.
+Ke2 b2 48. Rb1 d1=Q+ 0-1
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "Barcelona"]
+[Date "1947.07.01"]
+[Round "13"]
+[White "Gil, Carlos"]
+[Black "Ribera Arnal, Angel"]
+[Result "0-1"]
+[ECO "D04"]
+[PlyCount "72"]
+[EventDate "1947.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 Nf6 3. e3 Nbd7 4. Nbd2 c5 5. c4 e6 6. b3 Bd6 7. Bb2 O-O 8. Bd3
+Qe7 9. Ne5 cxd4 10. exd4 b6 11. O-O Bb7 12. Re1 Rfd8 13. f4 Rac8 14. f5 Nf8 15.
+Ng4 Kh8 16. Nxf6 Qxf6 17. Rf1 dxc4 18. bxc4 Qh4 19. Nf3 Bxf3 20. Rxf3 Bxh2+ 21.
+Kf1 Bg3 22. Ke2 exf5 23. Qf1 Ne6 24. d5 Nc5 25. Kd2 Na4 26. Ba3 Qd4 27. Rc1 f4
+28. Be7 Re8 29. d6 Qb2+ 30. Rc2 Qb4+ 31. Kc1 Rxe7 32. dxe7 Qxe7 33. Qe2 Qa3+
+34. Kd2 Rd8 35. Qe4 f5 36. Qxf5 Qb4+ 0-1
+
+[Event "Camp. Catalunya Veterans prev."]
+[Site "?"]
+[Date "1986.??.??"]
+[Round "?"]
+[White "Gil, Carlos"]
+[Black "Ribera Arnal, Angel"]
+[Result "1-0"]
+[ECO "A08"]
+[PlyCount "135"]
+[EventDate "1986.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. d3 d5 4. Nbd2 Nc6 5. g3 Nf6 6. Bg2 Be7 7. O-O O-O 8. Re1
+Qc7 9. c3 Rd8 10. Qe2 b6 11. e5 Nd7 12. Nf1 Ba6 13. h4 Rac8 14. Bf4 Nf8 15. h5
+b5 16. a3 Qb6 17. b4 d4 18. bxc5 Bxc5 19. cxd4 Bxd4 20. Be3 Qa5 21. Nxd4 Nxd4
+22. Qg4 Nf5 23. Be4 Nxe3 24. Nxe3 Rd7 25. h6 g6 26. Qf3 Qd8 27. Ng4 Rdc7 28.
+Nf6+ Kh8 29. Qe3 Nd7 30. Nxd7 Qxd7 31. Rac1 Kg8 32. Qg5 Rxc1 33. Rxc1 Rxc1+ 34.
+Qxc1 f5 35. exf6 Kf7 36. Qc5 Kxf6 37. f4 Kf7 38. Qe5 Kg8 39. Qb8+ Bc8 40. Qe5
+a6 41. Bc6 Qe7 42. d4 Qf8 43. Qc7 Kh8 44. Kg2 Kg8 45. d5 e5 46. Qxe5 Qxh6 47.
+d6 Qh3+ 48. Kf2 Qh2+ 49. Bg2 Bh3 50. Qd5+ Kf8 51. Qa8+ Kg7 52. Qb7+ Kh6 53. d7
+Bxd7 54. Qxd7 Qh5 55. Qh3 Qxh3 56. Bxh3 a5 57. Bf1 b4 58. axb4 axb4 59. g4 Kg7
+60. Kg3 Kf6 61. Bd3 h6 62. Kh4 Kg7 63. f5 h5 64. fxg6 hxg4 65. Kxg4 b3 66. Kg5
+b2 67. Bb1 Kg8 68. Kh6 1-0

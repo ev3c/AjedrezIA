@@ -1,0 +1,200 @@
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.01.20"]
+[Round "1.5"]
+[White "Ribera Veganzones, Josep Maria"]
+[Black "Bagheri, Amir"]
+[Result "1/2-1/2"]
+[ECO "B12"]
+[WhiteElo "2182"]
+[BlackElo "2381"]
+[PlyCount "38"]
+[EventDate "2024.??.??"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 Nd7 6. O-O Ne7 7. c3 h6 8. Na3 a5
+9. Nc2 a4 10. Ne3 b5 11. Ne1 Be4 12. f3 Bg6 13. Bd3 Bxd3 14. Qxd3 h5 15. f4 g6
+16. g3 Qb6 17. Nf3 c5 18. Bd2 Nf5 19. Kg2 Be7 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "Barcelona"]
+[Date "2024.02.03"]
+[Round "3.3"]
+[White "Dominguez Pons, Eric"]
+[Black "Bagheri, Amir"]
+[Result "1/2-1/2"]
+[ECO "E11"]
+[WhiteElo "2381"]
+[BlackElo "2396"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "64"]
+[EventDate "2024.??.??"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Nbd2 O-O 5. a3 Bxd2+ 6. Qxd2 b6 7. e3 Bb7 8.
+Be2 d6 9. b4 Ne4 10. Qc2 f5 11. O-O Rf6 12. d5 Rh6 13. Bb2 Nd7 14. Rac1 c5 15.
+dxc6 Bxc6 16. Rfd1 Qe7 17. a4 e5 18. a5 Rf8 19. axb6 axb6 20. Bf1 Ng5 21. Nxg5
+Qxg5 22. c5 bxc5 23. bxc5 dxc5 24. Bc4+ Kh8 25. Bd5 Qe7 26. Ba3 Bxd5 27. Rxd5
+Rc6 28. Rcd1 Rc7 29. h3 h6 30. Kh1 e4 31. Qc3 Kh7 32. Qa5 Rb7 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.02.10"]
+[Round "4.3"]
+[White "Bagheri, Amir"]
+[Black "Pozanco Romasanta, Marc"]
+[Result "1-0"]
+[ECO "D02"]
+[WhiteElo "2378"]
+[BlackElo "2024"]
+[PlyCount "87"]
+[EventDate "2024.??.??"]
+
+1. d4 d5 2. Nf3 e6 3. Bf4 Nf6 4. e3 c5 5. Nbd2 Nc6 6. Bb5 Bd7 7. c3 a6 8. Bd3
+b5 9. O-O Nh5 10. Bg5 Be7 11. Bxe7 Qxe7 12. a4 Rb8 13. axb5 axb5 14. Ne5 Nxe5
+15. dxe5 g6 16. Ra7 O-O 17. b4 Rfd8 18. Qb1 Ra8 19. Rb7 Rdb8 20. Rxb8+ Rxb8 21.
+Rc1 Rc8 22. Rd1 Bc6 23. bxc5 Qxc5 24. Rc1 Qa3 25. Rc2 Bd7 26. Nb3 Ra8 27. Nd4
+b4 28. g4 b3 29. Rb2 Ng7 30. Rxb3 Qf8 31. f4 h5 32. h3 Qd8 33. Kg2 hxg4 34.
+hxg4 Qh4 35. Be2 Rc8 36. Qf1 Qd8 37. Qe1 Qa5 38. Qd2 Qa1 39. Bd3 Ba4 40. Nc2
+Qa2 41. Ra3 Qb2 42. Rxa4 Rxc3 43. Ra8+ Kh7 44. Kg3 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "Barcelona"]
+[Date "2024.02.17"]
+[Round "5.6"]
+[White "BAGHERI, AMIR."]
+[Black "VILLA TORNERO, ALEX."]
+[Result "1-0"]
+[ECO "D02"]
+[WhiteElo "2378"]
+[BlackElo "2343"]
+[PlyCount "65"]
+[EventDate "2024.??.??"]
+[TimeControl "90+30"]
+[WhiteClock "0:06:55"]
+[BlackClock "0:06:58"]
+
+1. d4 {[%emt 4:27:40]} Nf6 {[%emt 0:03:53]} 2. Nf3 {[%emt 0:00:20]} e6 {
+[%emt 0:00:11]} 3. Bf4 {[%emt 0:00:14]} d5 {[%emt 0:00:21]} 4. e3 {[%emt 0:00:
+08]} Bd6 {[%emt 0:00:06]} 5. Bg3 {[%emt 0:00:30]} O-O {[%emt 0:01:22]} 6. Nbd2
+{[%emt 0:00:05]} c5 {[%emt 0:00:08]} 7. c3 {[%emt 0:00:25]} Qc7 {[%emt 0:12:54]
+} 8. Bd3 {[%emt 0:01:54]} Nbd7 {[%emt 0:03:22]} 9. O-O {[%emt 0:04:46]} e5 {
+[%emt 0:01:07]} 10. e4 {[%emt 0:07:26]} exd4 {[%emt 0:06:18]} 11. cxd4 {
+[%emt 0:11:58]} Bxg3 {[%emt 0:11:58]} 12. hxg3 {[%emt 0:00:35]} dxe4 {[%emt 0:
+00:16]} 13. Bxe4 {[%emt 0:04:01]} cxd4 {[%emt 0:10:25]} 14. Rc1 {[%emt 0:02:57]
+} Qa5 {[%emt 0:01:08]} 15. Bb1 {[%emt 0:09:44]} Ne5 {[%emt 0:04:31]} 16. Nxe5 {
+[%emt 0:02:32]} Qxe5 {[%emt 0:03:33]} 17. Nf3 {[%emt 0:00:04]} Qh5 {[%emt 0:05:
+21]} 18. Qxd4 {[%emt 0:00:32]} Bg4 {[%emt 0:00:56]} 19. Rc5 {[%emt 0:03:17]}
+Qh6 {[%emt 0:04:47]} 20. Ne5 {[%emt 0:04:17]} Be2 {[%emt 0:03:51]} 21. Re1 {
+[%emt 0:01:36]} b6 {[%emt 0:05:35]} 22. Rc6 {[%emt 0:03:22]} Rad8 {[%emt 0:02:
+05]} 23. Rd6 {[%emt 0:02:45]} Rc8 {[%emt 0:14:10]} 24. f4 {[%emt 0:03:27]} Rfe8
+{[%emt 0:09:35]} 25. Bf5 {[%emt 0:00:36]} Rc5 {[%emt 0:03:30]} 26. b4 {[%emt 0:
+01:17]} Rc7 {[%emt 0:01:04]} 27. Ng4 {[%emt 0:03:26]} Qh5 {[%emt 0:03:12]} 28.
+Rd8 {[%emt 0:05:24]} Rce7 {[%emt 0:01:39]} 29. Nxf6+ {[%emt 0:01:36]} gxf6 {
+[%emt 0:00:10]} 30. Rxe8+ {[%emt 0:00:04]} Rxe8 {[%emt 0:00:03]} 31. Qxf6 {
+[%emt 0:00:18]} Bb5 {[%emt 0:01:43]} 32. Rxe8+ {[%emt 0:00:10]} Bxe8 {[%emt 0:
+00:01]} 33. g4 {[%emt 0:00:07]} 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "Barcelona"]
+[Date "2024.02.24"]
+[Round "6.5"]
+[White "Bagheri, Amir"]
+[Black "Ventrura Bolet, Alexandre"]
+[Result "0-1"]
+[ECO "A07"]
+[WhiteElo "2378"]
+[BlackElo "2247"]
+[PlyCount "118"]
+[EventDate "2024.??.??"]
+[TimeControl "90+30"]
+[WhiteClock "0:06:53"]
+[BlackClock "0:01:12"]
+
+1. Nf3 {[%emt 0:00:07]} d5 {[%emt 0:01:59]} 2. g3 {[%emt 0:02:06]} c6 {[%emt 0:
+00:55]} 3. Bg2 {[%emt 0:00:09]} Bg4 {[%emt 0:00:51]} 4. O-O {[%emt 0:01:03]}
+Nd7 {[%emt 0:00:06]} 5. c4 {[%emt 0:02:28]} Bxf3 {[%emt 0:02:41]} 6. Bxf3 {
+[%emt 0:00:40]} Ne5 {[%emt 0:01:39]} 7. cxd5 {[%emt 0:01:33]} Nxf3+ {[%emt 0:
+00:19]} 8. exf3 {[%emt 0:00:07]} Qxd5 {[%emt 0:00:59]} 9. d4 {[%emt 0:05:42]}
+e6 {[%emt 0:02:07]} 10. Nc3 {[%emt 0:01:02]} Qd7 {[%emt 0:03:14]} 11. Be3 {
+[%emt 0:09:38]} Nf6 {[%emt 0:01:05]} 12. Qb3 {[%emt 0:08:29]} Be7 {[%emt 0:01:
+09]} 13. Rfd1 {[%emt 0:00:29]} O-O {[%emt 0:00:10]} 14. a4 {[%emt 0:18:52]} a5
+{[%emt 0:04:54]} 15. Ne4 {[%emt 0:07:10]} Nd5 {[%emt 0:05:30]} 16. Nd2 {
+[%emt 0:03:10]} b5 {[%emt 0:04:35]} 17. Rac1 {[%emt 0:04:42]} Rfb8 {[%emt 0:00:
+37]} 18. axb5 {[%emt 0:05:51]} cxb5 {[%emt 0:00:23]} 19. Ne4 {[%emt 0:01:51]}
+a4 {[%emt 0:01:09]} 20. Qc2 {[%emt 0:01:51]} b4 {[%emt 0:02:31]} 21. Nc5 {
+[%emt 0:01:49]} Qe8 {[%emt 0:02:43]} 22. Ra1 {[%emt 0:05:54]} g6 {[%emt 0:06:
+52]} 23. Bh6 {[%emt 0:02:46]} b3 {[%emt 0:06:09]} 24. Qd2 {[%emt 0:02:04]} Nb4
+{[%emt 0:02:46]} 25. Qf4 {[%emt 0:01:44]} Nd5 {[%emt 0:02:44]} 26. Qd2 {
+[%emt 0:00:09]} Bf6 {[%emt 0:01:17]} 27. h4 {[%emt 0:01:49]} Rb4 {[%emt 0:04:
+04]} 28. Be3 {[%emt 0:03:25]} Rc4 {[%emt 0:04:39]} 29. Rdc1 {[%emt 0:01:08]}
+Rxc1+ {[%emt 0:01:30]} 30. Qxc1 {[%emt 0:01:14]} Qb5 {[%emt 0:01:43]} 31. Qd1 {
+[%emt 0:01:18]} Nb6 {[%emt 0:03:16]} 32. Ne4 {[%emt 0:02:56]} Bg7 {[%emt 0:00:
+48]} 33. Rb1 {[%emt 0:00:56]} Nc4 {[%emt 0:04:43]} 34. Qd3 {[%emt 0:02:19]} Na3
+{[%emt 0:00:48]} 35. Qxb5 {[%emt 0:00:25]} Nxb5 {[%emt 0:00:05]} 36. Rd1 {
+[%emt 0:00:39]} a3 {[%emt 0:08:38]} 37. bxa3 {[%emt 0:00:07]} Nxa3 {[%emt 0:01:
+27]} 38. Kg2 {[%emt 0:00:53]} b2 {[%emt 0:02:53]} 39. Nd2 {[%emt 0:00:08]} Bf8
+{[%emt 0:02:34]} 40. Nb1 {[%emt 0:00:33]} Bb4 {[%emt 0:01:01]} 41. d5 {[%emt 0:
+01:20]} exd5 {[%emt 0:05:45]} 42. Bd4 {[%emt 0:00:12]} Nc4 {[%emt 0:00:06]} 43.
+Rd3 {[%emt 0:00:47]} Bf8 {[%emt 0:02:03]} 44. Bxb2 {[%emt 0:00:33]} Nxb2 {
+[%emt 0:00:06]} 45. Rxd5 {[%emt 0:00:02]} Bb4 {[%emt 0:00:58]} 46. Nd2 {
+[%emt 0:00:52]} Bxd2 {[%emt 0:00:07]} 47. Rxd2 {[%emt 0:00:04]} Nc4 {[%emt 0:
+00:05]} 48. Rd4 {[%emt 0:00:31]} Ne5 {[%emt 0:00:26]} 49. Rd5 {[%emt 0:00:49]}
+f6 {[%emt 0:00:45]} 50. f4 {[%emt 0:00:44]} Ng4 {[%emt 0:00:33]} 51. Rd2 {
+[%emt 0:00:09]} Kg7 {[%emt 0:00:41]} 52. Re2 {[%emt 0:00:26]} f5 {[%emt 0:00:
+51]} 53. Rb2 {[%emt 0:00:49]} Ra7 {[%emt 0:00:11]} 54. Re2 {[%emt 0:00:24]} Kf7
+{[%emt 0:00:11]} 55. Rb2 {[%emt 0:00:29]} Ke6 {[%emt 0:00:14]} 56. f3 {[%emt 0:
+00:37]} Ne3+ {[%emt 0:00:28]} 57. Kh3 {[%emt 0:00:36]} Ra1 {[%emt 0:01:13]} 58.
+g4 {[%emt 0:00:23]} Rh1+ {[%emt 0:00:28]} 59. Kg3 {[%emt 0:00:02]} Nf1+ {
+[%emt 0:00:06]} 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "Barbera del Valles"]
+[Date "2024.03.16"]
+[Round "9.6"]
+[White "Bagheri, Amir"]
+[Black "Alonso Moyano, Jonathan"]
+[Result "0-1"]
+[ECO "A47"]
+[WhiteElo "2386"]
+[BlackElo "2335"]
+[PlyCount "120"]
+[EventDate "2024.??.??"]
+[TimeControl "90+30"]
+[WhiteClock "0:04:41"]
+[BlackClock "0:12:44"]
+
+1. d4 {[%emt 0:00:50]} Nf6 {[%emt 0:00:10]} 2. Nf3 {[%emt 0:00:05]} e6 {
+[%emt 0:00:08]} 3. Bf4 {[%emt 0:00:06]} c5 {[%emt 0:00:40]} 4. e3 {[%emt 0:04:
+28]} b6 {[%emt 0:00:33]} 5. h3 {[%emt 0:00:37]} Be7 {[%emt 0:00:16]} 6. Nbd2 {
+[%emt 0:00:44]} Bb7 {[%emt 0:02:34]} 7. c3 {[%emt 0:02:48]} O-O {[%emt 0:02:58]
+} 8. Bd3 {[%emt 0:02:07]} cxd4 {[%emt 0:06:07]} 9. cxd4 {[%emt 0:01:22]} Ba6 {
+[%emt 0:09:12]} 10. Bxa6 {[%emt 0:01:02]} Nxa6 {[%emt 0:00:05]} 11. O-O {
+[%emt 0:00:04]} Qc8 {[%emt 0:04:18]} 12. Rc1 {[%emt 0:03:19]} Qb7 {[%emt 0:00:
+15]} 13. a3 {[%emt 0:00:55]} Rfc8 {[%emt 0:01:20]} 14. Qa4 {[%emt 0:01:09]} b5
+{[%emt 0:05:16]} 15. Qb3 {[%emt 0:01:42]} d6 {[%emt 0:09:11]} 16. Qd3 {[%emt 0:
+10:24]} Nc7 {[%emt 0:13:12]} 17. Bg5 {[%emt 0:01:43]} Nce8 {[%emt 0:02:45]} 18.
+e4 {[%emt 0:02:44]} a6 {[%emt 0:00:56]} 19. Rfe1 {[%emt 0:01:07]} h6 {[%emt 0:
+02:58]} 20. Bh4 {[%emt 0:01:37]} Rxc1 {[%emt 0:05:22]} 21. Rxc1 {[%emt 0:00:41]
+} Rc8 {[%emt 0:00:02]} 22. Rc2 {[%emt 0:04:24]} Rc7 {[%emt 0:05:51]} 23. Ne1 {
+[%emt 0:01:01]} Rxc2 {[%emt 0:03:00]} 24. Qxc2 {[%emt 0:04:58]} Nxe4 {[%emt 0:
+00:39]} 25. Bxe7 {[%emt 0:00:51]} Nxd2 {[%emt 0:00:11]} 26. Bxd6 {[%emt 0:00:
+16]} Nxd6 {[%emt 0:04:52]} 27. Qxd2 {[%emt 0:00:13]} Nc4 {[%emt 0:00:09]} 28.
+Qc2 {[%emt 0:01:31]} Qd5 {[%emt 0:00:47]} 29. Qc3 {[%emt 0:21:02]} Qe4 {
+[%emt 0:04:04]} 30. Nc2 {[%emt 0:00:05]} Qe2 {[%emt 0:00:14]} 31. d5 {[%emt 0:
+09:52]} Qd1+ {[%emt 0:03:53]} 32. Kh2 {[%emt 0:00:22]} Qxd5 {[%emt 0:00:21]}
+33. Ne3 {[%emt 0:02:16]} Qe5+ {[%emt 0:00:40]} 34. Qxe5 {[%emt 0:00:06]} Nxe5 {
+[%emt 0:00:04]} 35. Kg1 {[%emt 0:00:31]} Kf8 {[%emt 0:05:18]} 36. Kf1 {[%emt 0:
+00:09]} Ke7 {[%emt 0:00:22]} 37. b3 {[%emt 0:01:31]} Nd3 {[%emt 0:01:53]} 38.
+b4 {[%emt 0:00:30]} Kd6 {[%emt 0:01:50]} 39. Ke2 {[%emt 0:00:52]} Nf4+ {
+[%emt 0:00:31]} 40. Kf3 {[%emt 0:02:25]} Nd5 {[%emt 0:00:16]} 41. Nc2 {[%emt 0:
+00:20]} Ke5 {[%emt 0:00:53]} 42. h4 {[%emt 0:00:49]} f5 {[%emt 0:00:43]} 43. g3
+{[%emt 0:00:15]} g5 {[%emt 0:00:54]} 44. hxg5 {[%emt 0:00:04]} hxg5 {[%emt 0:
+00:01]} 45. Ke2 {[%emt 0:01:14]} Nc3+ {[%emt 0:01:00]} 46. Ke3 {[%emt 0:01:06]}
+Kd5 {[%emt 0:00:29]} 47. Kd3 {[%emt 0:01:07]} Nd1 {[%emt 0:01:18]} 48. f3 {
+[%emt 0:01:16]} f4 {[%emt 0:01:36]} 49. gxf4 {[%emt 0:00:16]} gxf4 {[%emt 0:00:
+01]} 50. Na1 {[%emt 0:04:19]} Nb2+ {[%emt 0:01:02]} 51. Kc3 {[%emt 0:00:35]}
+Nc4 {[%emt 0:00:01]} 52. Nc2 {[%emt 0:00:23]} e5 {[%emt 0:01:47]} 53. Kd3 {
+[%emt 0:00:16]} Nd6 {[%emt 0:00:48]} 54. Na1 {[%emt 0:01:30]} Nf5 {[%emt 0:00:
+21]} 55. Nb3 {[%emt 0:01:05]} Nd4 {[%emt 0:00:13]} 56. Nc5 {[%emt 0:00:25]}
+Nxf3 {[%emt 0:00:23]} 57. Nxa6 {[%emt 0:00:09]} e4+ {[%emt 0:00:04]} 58. Kc3 {
+[%emt 0:00:39]} e3 {[%emt 0:00:35]} 59. Kd3 {[%emt 0:00:24]} Ne5+ {[%emt 0:00:
+07]} 60. Ke2 {[%emt 0:00:05]} Kd4 {[%emt 0:00:11]} 0-1

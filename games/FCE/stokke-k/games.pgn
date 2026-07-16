@@ -1,0 +1,100 @@
+[Event "Sants op A"]
+[Site "?"]
+[Date "2012.08.19"]
+[Round "3"]
+[White "Rakhmanov, A."]
+[Black "Stokke, K."]
+[Result "1-0"]
+[ECO "E97"]
+[PlyCount "81"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 O-O 5. Nf3 d6 6. Be2 e5 7. O-O Nc6 8. d5
+Ne7 9. Nd2 a5 10. a3 Bd7 11. b3 Nc8 12. Rb1 Nb6 13. Qc2 Qe7 14. b4 axb4 15.
+axb4 Na4 16. Nxa4 Bxa4 17. Qd3 c6 18. Nb3 cxd5 19. cxd5 h5 20. Bg5 Qd7 21. Nd2
+Rfc8 22. Rfc1 Rxc1+ 23. Rxc1 Rc8 24. Nb1 Rxc1+ 25. Bxc1 Qc8 26. Qc3 Qd7 27. Qc4
+Ne8 28. Nc3 f5 29. exf5 Bc2 30. fxg6 Bxg6 31. Be3 Qf5 32. h3 Nf6 33. b5 e4 34.
+Qc7 Qe5 35. b6 Ne8 36. Qxb7 Qxc3 37. Qc6 Qb2 38. Qb5 Qa1+ 39. Bf1 Bd4 40. b7
+Bxe3 41. fxe3 1-0
+
+[Event "Sants op A"]
+[Site "?"]
+[Date "2012.08.22"]
+[Round "6"]
+[White "Stokke, K."]
+[Black "Escobar Forero, A."]
+[Result "1/2-1/2"]
+[ECO "D93"]
+[PlyCount "111"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Qc2 g6 5. Bf4 Bg7 6. e3 O-O 7. Nc3 Na6 8. a3 c5
+9. Be5 Bg4 10. Qb3 cxd4 11. Bxd4 Bxf3 12. gxf3 dxc4 13. Qxb7 Qd6 14. Qb5 Rfc8
+15. Bxc4 Nc5 16. Rd1 Bf8 17. Bxc5 Qxc5 18. Qxc5 Rxc5 19. b3 e6 20. Ke2 Rac8 21.
+Ne4 Nxe4 22. fxe4 Be7 23. f4 a5 24. a4 Kf8 25. e5 Rd8 26. Kf3 Rcc8 27. e4 Rxd1
+28. Rxd1 Rd8 29. Rf1 Bb4 30. f5 Bc3 31. fxe6 fxe6 32. Ke3+ Kg7 33. Bxe6 Bd4+
+34. Ke2 Rf8 35. Rxf8 Kxf8 36. b4 axb4 37. a5 Bxe5 38. a6 Bb8 39. e5 Ke7 40. Bd5
+Kd7 41. Kd3 Kc7 42. Kd4 Kb6 43. e6 Bd6 44. Be4 Kxa6 45. Kd5 Bf8 46. Kc6 b3 47.
+Bb1 h5 48. Bxg6 h4 49. h3 b2 50. Bb1 Ka5 51. Kd7 Kb6 52. e7 Bxe7 53. Kxe7 Kc6
+54. Kf6 Kd7 55. Bg6 Kd8 56. Kg5 1/2-1/2
+
+[Event "Sants op A"]
+[Site "?"]
+[Date "2012.08.23"]
+[Round "7"]
+[White "Lillo Castany, V."]
+[Black "Stokke, K."]
+[Result "0-1"]
+[ECO "B10"]
+[PlyCount "80"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+
+1. e4 c6 2. Nc3 d5 3. Nf3 Nf6 4. e5 Ne4 5. Ne2 Qb6 6. d4 e6 7. Ng3 c5 8. Bd3
+Nxg3 9. hxg3 cxd4 10. Ng5 Nc6 11. f4 Bd7 12. a3 Be7 13. Qg4 h6 14. Nf3 g6 15.
+Ke2 Na5 16. b3 Bb5 17. Rd1 h5 18. Qh3 Rc8 19. Ne1 Rc3 20. Qh1 O-O 21. Bb2 Bxd3+
+22. Rxd3 Rxd3 23. Nxd3 Nc4 24. Bc1 Ne3 25. Bxe3 dxe3 26. Qc1 Rc8 27. Qb2 d4 28.
+Rd1 Rc3 29. a4 Qc6 30. Ne1 Qe4 31. Rd3 Bb4 32. Nf3 a5 33. Rxc3 Bxc3 34. Qc1 Qf5
+35. Nh2 g5 36. Kf3 g4+ 37. Ke2 h4 38. gxh4 Qxf4 39. Qf1 Qxh2 40. Qf6 Qxe5 0-1
+
+[Event "Sants op A"]
+[Site "?"]
+[Date "2012.08.24"]
+[Round "8"]
+[White "Stokke, K."]
+[Black "Muñoz Pantoja, M."]
+[Result "1/2-1/2"]
+[ECO "B31"]
+[PlyCount "29"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. Bxc6 dxc6 5. d3 Bg7 6. h3 e5 7. Be3 b6 8. Nbd2
+h6 9. a4 a5 10. Nc4 Qc7 11. b4 cxb4 12. Bxb6 Qe7 13. Qe2 Nf6 14. Qe3 Nd7 15.
+Bc7 1/2-1/2
+
+[Event "Sants op A"]
+[Site "?"]
+[Date "2012.08.25"]
+[Round "9"]
+[White "Laxman, RR."]
+[Black "Stokke, K."]
+[Result "1-0"]
+[ECO "E94"]
+[PlyCount "73"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+
+1. Nf3 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 O-O 5. d4 d6 6. Be2 e5 7. O-O exd4 8. Nxd4
+Re8 9. f3 Nc6 10. Be3 Nh5 11. Nxc6 bxc6 12. Qd2 f5 13. Bg5 Bf6 14. Bxf6 Nxf6
+15. exf5 Bxf5 16. Bd3 Bxd3 17. Qxd3 Qe7 18. Qd4 Qe5 19. Qf2 Qf4 20. b3 Re3 21.
+Qd2 Nh5 22. Nd5 cxd5 23. Qxd5+ Kg7 24. Qxa8 Re2 25. Qxa7 Qe5 26. Rad1 Nf4 27.
+Qd4 Qxd4+ 28. Rxd4 g5 29. h4 Rc2 30. Kh1 h5 31. Re4 Kf6 32. hxg5+ Kxg5 33. Ra1
+h4 34. a4 Ne2 35. Rg4+ Kh5 36. a5 Ng3+ 37. Rxg3 1-0

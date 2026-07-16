@@ -1,0 +1,238 @@
+[Event "Barbera op"]
+[Site "Barbera del Valles"]
+[Date "2013.07.04"]
+[Round "1"]
+[White "Raghavi, N."]
+[Black "Rios, CC."]
+[Result "1/2-1/2"]
+[ECO "B40"]
+[WhiteElo "2097"]
+[BlackElo "2360"]
+[PlyCount "42"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 e6 3. g3 Nc6 4. Bg2 Nf6 5. Qe2 d5 6. d3 b6 7. e5 Nd7 8. c4 Be7
+9. Nc3 d4 10. Nb5 Bb7 11. Bg5 Qb8 12. Bxe7 Kxe7 13. Nd6 Ncxe5 14. Nxb7 Qxb7 15.
+O-O Nc6 16. Ng5 Nf6 17. Rae1 Rac8 18. Nxf7 Kxf7 19. Qxe6+ Kf8 20. Qd6+ Kf7 21.
+Qe6+ Kf8 1/2-1/2
+
+[Event "Barbera op"]
+[Site "Barbera del Valles"]
+[Date "2013.07.05"]
+[Round "2"]
+[White "Martynov, P."]
+[Black "Raghavi, N."]
+[Result "1/2-1/2"]
+[ECO "C84"]
+[WhiteElo "2321"]
+[BlackElo "2097"]
+[PlyCount "104"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 b5 7. Bb3 d6 8. a4 b4
+9. a5 O-O 10. Nbd2 Kh8 11. Nc4 Rb8 12. h3 Ng8 13. Ne3 Nd4 14. Nxd4 exd4 15. Nd5
+f5 16. Nf4 Rf6 17. Qh5 Rb5 18. Nd5 fxe4 19. dxe4 Rg6 20. Qf3 Bg5 21. Bxg5 Rxg5
+22. Qd3 Nf6 23. f4 Rh5 24. Qxd4 c5 25. Qd1 Rh6 26. Nxf6 Qxf6 27. e5 Qf8 28. Re1
+Bxh3 29. exd6 Bd7 30. Qf3 Rxd6 31. Rad1 Bc6 32. Qe3 Rf6 33. Bd5 c4 34. Bxc6
+Rxc6 35. Rd7 Rxa5 36. Qa7 Rc8 37. Rf7 Qc5+ 38. Qxc5 Raxc5 39. Ree7 Rg8 40. f5
+h5 41. Kh2 Kh7 42. Kh3 Kh6 43. Kh4 c3 44. b3 Rd5 45. Re6+ g6 46. Rxa6 Rd4+ 47.
+Kh3 Rd2 48. Rff6 Rxc2 49. fxg6 Rg7 50. Rab6 Rb2 51. Rxb4 c2 52. Rc6 Rxg6
+1/2-1/2
+
+[Event "Barbera op"]
+[Site "Barbera del Valles"]
+[Date "2013.07.06"]
+[Round "3"]
+[White "Raghavi, N."]
+[Black "Plukkel, S."]
+[Result "1-0"]
+[ECO "B51"]
+[WhiteElo "2097"]
+[BlackElo "2314"]
+[PlyCount "87"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nc6 4. O-O Bd7 5. Re1 e5 6. c3 a6 7. Bxc6 Bxc6 8. d4
+cxd4 9. cxd4 Qc7 10. Nc3 Nf6 11. Nd5 Nxd5 12. exd5 Bxd5 13. Bf4 e4 14. Ng5 f5
+15. f3 Be7 16. fxe4 fxe4 17. Qh5+ g6 18. Qh6 Qb6 19. Rad1 O-O-O 20. Nxe4 Qxb2
+21. Qh3+ Kb8 22. Nc3 Bf6 23. Nxd5 Bxd4+ 24. Kh1 Bc5 25. Qb3 Qxb3 26. axb3 Rhf8
+27. Re7 Rf5 28. g4 Rff8 29. Rxh7 Rde8 30. Bg3 a5 31. Re7 Rxe7 32. Nxe7 Kc7 33.
+Kg2 g5 34. Nf5 Rf6 35. h4 gxh4 36. Bxh4 Rg6 37. Kf3 b5 38. Ra1 Bb4 39. Ne7 Rh6
+40. Nd5+ Kc6 41. Nxb4+ axb4 42. Bg3 Kd5 43. Rd1+ Kc5 44. Bxd6+ 1-0
+
+[Event "Barbera op"]
+[Site "Barbera del Valles"]
+[Date "2013.07.07"]
+[Round "4"]
+[White "Gagare, S."]
+[Black "Raghavi, N."]
+[Result "1-0"]
+[ECO "A20"]
+[WhiteElo "2419"]
+[BlackElo "2097"]
+[PlyCount "75"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. c4 e5 2. g3 Nf6 3. Bg2 c6 4. d4 Bb4+ 5. Bd2 Bxd2+ 6. Qxd2 d6 7. Nc3 O-O 8.
+e3 Be6 9. b3 exd4 10. Qxd4 Na6 11. Nge2 Nb4 12. Qd2 Qa5 13. O-O Rad8 14. Rfd1
+Qe5 15. h3 d5 16. Nf4 Rd7 17. Nce2 Na6 18. cxd5 Bxd5 19. Nxd5 Nxd5 20. Qa5 Rfd8
+21. Bxd5 cxd5 22. Rac1 Qf5 23. h4 h6 24. b4 Qg4 25. Nd4 g5 26. hxg5 h5 27. Nc6
+bxc6 28. Qxa6 d4 29. Rxd4 Rxd4 30. exd4 h4 31. Rc3 Rxd4 32. Qxc6 hxg3 33. Qe8+
+Kg7 34. Qe5+ Kh7 35. Rxg3 Qd1+ 36. Kg2 Rh4 37. g6+ Kh6 38. Qh8# 1-0
+
+[Event "Barbera op"]
+[Site "Barbera del Valles"]
+[Date "2013.07.08"]
+[Round "5"]
+[White "Raghavi, N."]
+[Black "Sequera Paolini, J."]
+[Result "0-1"]
+[ECO "B40"]
+[WhiteElo "2097"]
+[BlackElo "2394"]
+[PlyCount "76"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 e6 3. g3 Nc6 4. Bg2 d5 5. exd5 exd5 6. d4 Bg4 7. O-O Nxd4 8.
+Qe1+ Be7 9. Nxd4 cxd4 10. Qe5 Nf6 11. Qxd4 O-O 12. Nc3 Be6 13. Be3 Qa5 14. Rfd1
+Rfd8 15. Qd3 Rac8 16. Ne2 Bg4 17. f3 Bh5 18. Nf4 d4 19. Bf2 Bg6 20. Nxg6 hxg6
+21. Qb3 Bc5 22. Bh3 Rc7 23. Bf1 Rd6 24. Qb5 Qxb5 25. Bxb5 Rb6 26. Ba4 Rxb2 27.
+Bxd4 Rb4 28. Bxc5 Rxa4 29. Rd8+ Kh7 30. Bd4 Rxc2 31. Bxf6 gxf6 32. Rd7 b5 33.
+Rxf7+ Kh6 34. Rxf6 b4 35. Rf4 a5 36. a3 Rxa3 37. Rd1 b3 38. h4 b2 0-1
+
+[Event "Barbera op"]
+[Site "Barbera del Valles"]
+[Date "2013.07.12"]
+[Round "9"]
+[White "Raghavi, N."]
+[Black "Fluvia Poyatos, Jordi"]
+[Result "0-1"]
+[ECO "C00"]
+[WhiteElo "2097"]
+[BlackElo "2445"]
+[PlyCount "60"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e6 2. d3 d5 3. Qe2 dxe4 4. dxe4 b6 5. Nf3 Ba6 6. c4 Nc6 7. e5 Nge7 8. a3
+Nf5 9. b4 Bb7 10. Bb2 a5 11. b5 Ncd4 12. Nxd4 Nxd4 13. Qd3 Bc5 14. h4 Nf5 15.
+Qxd8+ Rxd8 16. Rh3 Bd4 17. Bc3 h5 18. g3 Ke7 19. Be2 g6 20. a4 Be4 21. Bxd4
+Nxd4 22. Na3 Nxe2 23. Kxe2 Rd3 24. Nc2 Rhd8 25. Ne3 Rd2+ 26. Ke1 Bf3 27. g4
+hxg4 28. Rg3 R8d4 29. c5 bxc5 30. Rc1 c4 0-1
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.06.26"]
+[Round "2"]
+[White "Ni, H."]
+[Black "Raghavi, N."]
+[Result "1-0"]
+[ECO "B30"]
+[WhiteElo "2653"]
+[BlackElo "2227"]
+[PlyCount "71"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 e6 4. Bxc6 bxc6 5. d3 Ne7 6. Qe2 f6 7. Nh4 d6 8. f4
+g6 9. b3 Bg7 10. Bb2 O-O 11. O-O Rb8 12. Nd2 e5 13. f5 gxf5 14. exf5 d5 15. c4
+Rf7 16. Qh5 Bd7 17. Rf3 Bf8 18. Rg3+ Rg7 19. Qf3 Qa5 20. Nf1 Rxg3 21. Qxg3+ Kf7
+22. Qf3 Bg7 23. Qe2 Kg8 24. g4 Be8 25. Ng3 Bf7 26. Nf3 e4 27. dxe4 dxc4 28. e5
+c3 29. e6 Be8 30. Bc1 Rxb3 31. Ne4 c2 32. axb3 Qxa1 33. Qxc2 Nd5 34. Kg2 h6 35.
+Nd6 Kf8 36. Qxc5 1-0
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.06.28"]
+[Round "4"]
+[White "Ghosh, D."]
+[Black "Raghavi, N."]
+[Result "1-0"]
+[ECO "E00"]
+[WhiteElo "2487"]
+[BlackElo "2227"]
+[PlyCount "125"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. d4 Nf6 2. c4 e6 3. g3 Bb4+ 4. Bd2 a5 5. Bg2 O-O 6. Nf3 d6 7. O-O Bxd2 8.
+Qxd2 Nbd7 9. Nc3 e5 10. Rfd1 Qe7 11. dxe5 dxe5 12. Nd5 Nxd5 13. cxd5 Nf6 14. d6
+cxd6 15. Qxd6 Qxd6 16. Rxd6 Re8 17. Rc1 Be6 18. Nxe5 Bxa2 19. f4 Re7 20. Ra1
+Be6 21. Rb6 h6 22. Rb5 a4 23. Bxb7 Rb8 24. Bc6 Rxb5 25. Bxb5 Rb7 26. Bd3 Rb4
+27. Nc6 Rxb2 28. Rxa4 g6 29. Ra7 Ra2 30. Rxa2 Bxa2 31. Ne5 g5 32. fxg5 hxg5 33.
+Nf3 g4 34. Ne5 Be6 35. Kf2 Kg7 36. Bc4 Bxc4 37. Nxc4 Ne4+ 38. Ke3 f5 39. Kf4
+Kf6 40. Ne3 Nd6 41. Nd5+ Ke6 42. Nc3 Ne8 43. e4 fxe4 44. Nxe4 Kf7 45. Kxg4 Kg6
+46. h4 Ng7 47. Kf4 Kh5 48. Nf6+ Kg6 49. Nd5 Kh5 50. Kf3 Kh6 51. g4 Ne6 52. Nf4
+Nd8 53. g5+ Kg7 54. Kg4 Nf7 55. Ne6+ Kh7 56. h5 Nd6 57. Nd4 Ne8 58. g6+ Kg8 59.
+h6 Kh8 60. Ne6 Nd6 61. Nf4 Kg8 62. Nd5 Kh8 63. g7+ 1-0
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.06.29"]
+[Round "5"]
+[White "Raghavi, N."]
+[Black "Burmakin, V."]
+[Result "0-1"]
+[ECO "B12"]
+[WhiteElo "2227"]
+[BlackElo "2592"]
+[PlyCount "103"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. e4 c6 2. d4 g6 3. Nc3 Bg7 4. Nf3 d5 5. h3 Nh6 6. Bf4 dxe4 7. Nxe4 Nf5 8. c3
+O-O 9. Qd2 Re8 10. Bd3 Nd6 11. O-O Nxe4 12. Bxe4 Nd7 13. Rad1 Nf6 14. Bc2 a5
+15. c4 a4 16. Rfe1 Qa5 17. Qc1 Nd7 18. Bd6 Qd8 19. Bb4 b6 20. b3 axb3 21. Bxb3
+e6 22. Qf4 Bb7 23. Ng5 Nf6 24. Bc3 Qe7 25. Qh4 Nh5 26. Nf3 Qxh4 27. Nxh4 c5 28.
+Re3 Nf4 29. Kf1 Red8 30. dxc5 Rxd1+ 31. Bxd1 bxc5 32. Bxg7 Kxg7 33. Bb3 g5 34.
+Nf3 f6 35. h4 g4 36. Ne1 e5 37. g3 Ne6 38. Bd1 h5 39. a3 Nd4 40. Nd3 Rc8 41.
+Nb2 Kf7 42. Be2 Ke6 43. Bd3 Bc6 44. Ke1 Rb8 45. Nd1 Rb6 46. Kd2 Kd6 47. Bc2 Bf3
+48. Nc3 Rb2 49. Nb5+ Kc6 50. Nxd4+ cxd4 51. Rb3 Ra2 52. Kc1 0-1
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.07.03"]
+[Round "9"]
+[White "Raghavi, N."]
+[Black "Ruiz C, JD."]
+[Result "0-1"]
+[ECO "B53"]
+[WhiteElo "2227"]
+[BlackElo "2387"]
+[PlyCount "68"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Qxd4 Nc6 5. Bb5 Bd7 6. Bxc6 Bxc6 7. Nc3 e6 8.
+Bg5 Nf6 9. O-O-O Be7 10. Rhe1 Qa5 11. e5 Bxf3 12. gxf3 dxe5 13. Rxe5 Qb4 14.
+Qe3 Qc4 15. Kb1 O-O 16. Ne4 Rfc8 17. c3 Nd5 18. Qd4 Qxd4 19. Rxd4 Bf8 20. Bh4
+b5 21. Nd2 Bc5 22. Rd3 Bd6 23. Rexd5 exd5 24. Rxd5 Bf4 25. Ne4 a6 26. h3 Rc6
+27. Bg3 Bxg3 28. fxg3 Rf8 29. Kc2 f5 30. Nd6 g6 31. b4 Rb8 32. c4 bxc4 33. Kc3
+Kf8 34. a4 Rd8 0-1

@@ -1,0 +1,25 @@
+[Event "Tortosa Nacional"]
+[Site "Tortosa"]
+[Date "1958.??.??"]
+[Round "?"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Cartes"]
+[Result "0-1"]
+[ECO "C82"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "76"]
+[EventDate "1948.09.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O b5 6. Bb3 Nxe4 7. d4 d5 8. dxe5
+Be6 9. c3 Bc5 10. Qe2 O-O 11. Be3 Na5 12. Bxc5 Nxc5 13. Bc2 Nc6 14. Nd4 Nxd4
+15. cxd4 Nd7 16. a4 b4 17. Nd2 c5 18. f4 f5 19. dxc5 Nxc5 20. Nb3 Ne4 21. Nd4
+Qb6 22. Qe3 Rac8 23. a5 Qa7 24. Bb3 Rf7 25. Rfe1 Nc5 26. Ba2 b3 27. Rac1 $4 (
+27. Bxb3 Nxb3 28. Nxb3 Rc4 29. Rad1 $16) 27... bxa2 28. b4 Ne4 $1 29. Kf1 (29.
+Nxe6 $2 Qxe3+ 30. Rxe3 Rxc1+ 31. Re1 Rxe1#) (29. Rxc8+ $2 Bxc8 $19) 29... Rfc7
+(29... Rxc1 $142 30. Rxc1 Rb7 $19) 30. Rcd1 Rc3 31. Qe2 R3c4 (31... a1=Q $5 32.
+Rxa1 Qxd4 $19) 32. Nxe6 Nc3 (32... Rc2 $142) 33. Qd2 Nxd1 34. Qxd1 (34. Rxd1
+Rc2 35. Qe1 Rb2 $19) 34... Rc2 35. Nc5 R8xc5 36. bxc5 Qxc5 37. Qf3 Qc4+ 38. Kg1
+Qd4+ 0-1

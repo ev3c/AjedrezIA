@@ -1,0 +1,259 @@
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.13"]
+[Round "1"]
+[White "Bermejo Cuadra, Robert"]
+[Black "Flemming, Klaus"]
+[Result "0-1"]
+[ECO "C02"]
+[WhiteElo "1312"]
+[BlackElo "1766"]
+[PlyCount "50"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. Nf3 d5 3. e5 c5 4. d4 cxd4 5. Nxd4 Nc6 6. Bb5 Bd7 7. f4 Bc5 8. Nxc6
+Bxc6 9. Bxc6+ bxc6 10. Qg4 Ne7 11. Rf1 Nf5 12. c3 a5 13. Rf3 Qb6 14. a4 O-O 15.
+Qh3 Be7 16. g4 Nh4 17. Rg3 d4 18. g5 Nf5 19. Rd3 Rfd8 20. Na3 dxc3 21. Rxd8+
+Rxd8 22. Nc4 Qd4 23. Ne3 cxb2 24. Bxb2 Qxb2 25. Rd1 Qc3+ 0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.14"]
+[Round "2"]
+[White "Flemming, Klaus"]
+[Black "Gallego Montes, Antonio"]
+[Result "1/2-1/2"]
+[ECO "A84"]
+[WhiteElo "1766"]
+[BlackElo "1908"]
+[PlyCount "58"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. Nf3 e6 2. c4 b6 3. g3 Bb7 4. Bg2 f5 5. O-O Nf6 6. d4 d5 7. Qa4+ Qd7 8. Qxd7+
+Nbxd7 9. Ng5 Ke7 10. Nc3 h6 11. Nh3 g5 12. f4 g4 13. Nf2 Kf7 14. Nd3 c6 15. b3
+Rc8 16. Bb2 Ba6 17. cxd5 Nxd5 18. Nxd5 cxd5 19. Rfc1 Bd6 20. Rxc8 Rxc8 21. Rc1
+Rxc1+ 22. Nxc1 Nb8 23. e3 Bb4 24. Kf2 Nc6 25. Bf1 Bxf1 26. Kxf1 Ke8 27. Ke2 Kd7
+28. Nd3 Bd6 29. Kd2 Nb4 1/2-1/2
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.15"]
+[Round "3"]
+[White "Flemming, Klaus"]
+[Black "Morais Carreras, Javier"]
+[Result "0-1"]
+[ECO "D36"]
+[WhiteElo "1766"]
+[BlackElo "1925"]
+[PlyCount "88"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. Nc3 Be7 5. Bg5 O-O 6. e3 c6 7. Bd3 Nbd7 8. cxd5
+exd5 9. O-O Re8 10. Qc2 Nf8 11. h3 Ng6 12. h4 Nh5 13. Bxe7 Qxe7 14. Bf5 Qf6 15.
+Bxg6 fxg6 16. Qb3 Kh8 17. Rae1 b6 18. Qa4 Rf8 19. Ne5 b5 20. Qb4 a5 21. Qc5 b4
+22. Ne2 Ba6 23. Nd7 Qf7 24. Nxf8 Rxf8 25. Qxa5 Bxe2 26. Rxe2 Ng3 27. Ree1 Nxf1
+28. Rxf1 Qe7 29. a3 Qxh4 30. Qxb4 Qf6 31. Qd2 g5 32. Rc1 g4 33. Rc5 g3 34. Rc2
+h5 35. Qe1 h4 36. f4 Re8 37. Qc1 Re6 38. Rc3 Qf5 39. Qd1 h3 40. gxh3 Qxh3 41.
+Qf3 Qh2+ 42. Kf1 Qxb2 43. Rd3 Rh6 44. Qg2 Qb1+ 0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.16"]
+[Round "4"]
+[White "Valdes Centurion, Mario Alberto"]
+[Black "Flemming, Klaus"]
+[Result "1-0"]
+[ECO "C01"]
+[BlackElo "1766"]
+[PlyCount "75"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. c4 c6 5. Nc3 Nf6 6. Nf3 Be7 7. cxd5 Nxd5 8.
+Bd3 Nd7 9. O-O N7f6 10. Re1 O-O 11. Bg5 h6 12. Nxd5 Nxd5 13. Bxe7 Nxe7 14. Qb3
+Nd5 15. Rac1 Nb6 16. Bb1 Qd6 17. Ne5 g6 18. Nxg6 Be6 19. Qd3 Rfd8 20. Nf4 Qxf4
+21. Qh7+ Kf8 22. Qh8+ Ke7 23. Qh7 Rh8 24. Qc2 Qd6 25. Qd2 Kd7 26. b3 Nd5 27.
+Re5 h5 28. Rce1 Kc7 29. Qg5 Rag8 30. Qd2 Kb8 31. Bf5 Bxf5 32. Rxf5 f6 33. Qa5
+Rg5 34. Rxg5 fxg5 35. Qd2 Qf4 36. Qe2 a6 37. Qe5+ Ka7 38. Qxh8 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.17"]
+[Round "5"]
+[White "Flemming, Klaus"]
+[Black "Riera Mestres, Josep"]
+[Result "1/2-1/2"]
+[ECO "A39"]
+[WhiteElo "1766"]
+[BlackElo "1579"]
+[PlyCount "112"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 c5 2. Nc3 g6 3. g3 a6 4. Bg2 Bg7 5. Nf3 Nf6 6. O-O O-O 7. d4 cxd4 8. Nxd4
+Nc6 9. e4 Qc7 10. Nxc6 dxc6 11. Be3 Be6 12. Qe2 Ng4 13. Bd2 Ne5 14. b3 Rad8 15.
+Rad1 Rd6 16. Nb1 Rfd8 17. Bb4 Rxd1 18. Rxd1 Bf6 19. h3 Kg7 20. Bc3 h5 21. c5
+Qc8 22. Rxd8 Qxd8 23. f4 Qd3 24. Kf2 Qxb1 25. fxe5 Bg5 26. h4 Bh6 27. Bf3 Qc1
+28. Bd4 Bg4 29. Qb2 Qxb2+ 30. Bxb2 Bc8 31. Bd4 Be6 32. Be3 Bxe3+ 33. Kxe3 Kf8
+34. Be2 Bh3 35. Bc4 Bg4 36. Kf4 Kg7 37. b4 Bd1 38. Ke3 Ba4 39. Kd4 Kf8 40. Kc3
+Bd1 41. Kb2 Bf3 42. Ka3 Bxe4 43. Ka4 Ke8 44. Ka5 Bd5 45. Be2 Kd8 46. Kb6 Kc8
+47. a4 e6 48. g4 hxg4 49. Bxg4 Be4 50. h5 gxh5 51. Bxh5 Bg6 52. Bf3 Bc2 53. a5
+Bd3 54. Bh5 Bg6 55. Be2 Be4 56. Bh5 Bg6 1/2-1/2
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.18"]
+[Round "6"]
+[White "Sagar, Siya"]
+[Black "Flemming, Klaus"]
+[Result "1-0"]
+[ECO "C06"]
+[WhiteElo "1608"]
+[BlackElo "1766"]
+[PlyCount "93"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 cxd4 8. cxd4
+f6 9. exf6 Nxf6 10. Nf3 Bd6 11. O-O O-O 12. Bf4 Bxf4 13. Nxf4 Qd6 14. Ne2 e5
+15. dxe5 Nxe5 16. Nxe5 Qxe5 17. Nc3 b6 18. Be2 Bb7 19. Bf3 Rad8 20. Re1 Ne4 21.
+Qb3 Kh8 22. Nxe4 dxe4 23. Qb4 Qf4 24. Bxe4 Qxf2+ 25. Kh1 Bxe4 26. Qxe4 h6 27.
+b3 Rd2 28. a3 a5 29. Rg1 Re2 30. Qc4 Rf4 31. Qd3 Rd2 32. Qb5 Re2 33. Rad1 Rf6
+34. Rd8+ Kh7 35. Qd3+ Rg6 36. h3 Re3 37. Qb1 Qg3 38. Qc2 Rc3 39. Qf5 Rxb3 40.
+Re8 Qd6 41. Qc8 Rgg3 42. Rh8+ Kg6 43. Qc2+ Qd3 44. Qc6+ Kh5 45. Qe8+ g6 46.
+Qe5+ Rg5 47. g4+ 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.19"]
+[Round "7"]
+[White "Rodriguez Batuecas, Jordi"]
+[Black "Flemming, Klaus"]
+[Result "1/2-1/2"]
+[ECO "C01"]
+[WhiteElo "1551"]
+[BlackElo "1766"]
+[PlyCount "88"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. Nf3 Bd6 5. Be2 Ne7 6. Be3 Bf5 7. O-O O-O 8.
+Qd2 c6 9. c3 Nd7 10. Bf4 Qc7 11. Bxd6 Qxd6 12. Na3 Ng6 13. Rfe1 Rfe8 14. Bf1
+Bg4 15. Rxe8+ Rxe8 16. Re1 Re6 17. Rxe6 fxe6 18. Qe3 Qf4 19. Bd3 Qxe3 20. fxe3
+Ne7 21. Kf2 Bxf3 22. Kxf3 e5 23. e4 g6 24. exd5 exd4 25. dxc6 Nxc6 26. Bb5 dxc3
+27. Bxc6 bxc6 28. bxc3 Kf7 29. Nc4 Ke6 30. Ke4 c5 31. Ne3 Nf6+ 32. Kf4 Nd5+ 33.
+Nxd5 Kxd5 34. Ke3 Kc4 35. Kd2 a5 36. Kc2 a4 37. Kd2 Kd5 38. Kd3 c4+ 39. Ke3 Ke5
+40. g4 g5 41. h3 a3 42. Kf3 Kd5 43. Ke3 Ke5 44. Kf3 Kd5 1/2-1/2
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.20"]
+[Round "8"]
+[White "Flemming, Klaus"]
+[Black "Rodriguez Monago, Juan Antonio"]
+[Result "0-1"]
+[ECO "A15"]
+[WhiteElo "1766"]
+[BlackElo "1468"]
+[PlyCount "36"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. Nf3 Nf6 2. c4 b6 3. d4 d5 4. cxd5 Qxd5 5. g3 Bb7 6. Bg2 Qd8 7. O-O e6 8. b3
+Be7 9. Bb2 O-O 10. Nc3 Nbd7 11. Rc1 Rc8 12. Qd2 c5 13. Rfd1 cxd4 14. Qxd4 Nc5
+15. Qf4 Qe8 16. b4 Na4 17. Ba1 Nxc3 18. Bxc3 Nd5 0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.21"]
+[Round "9"]
+[White "Espuna Fontcuberta, Aleix"]
+[Black "Flemming, Klaus"]
+[Result "1-0"]
+[ECO "C02"]
+[BlackElo "1766"]
+[PlyCount "75"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Qb6 5. Nf3 Bd7 6. a3 cxd4 7. cxd4 Ne7 8. Nc3
+a5 9. Na4 Bxa4 10. Qxa4+ Nec6 11. Be2 Be7 12. O-O O-O 13. Rd1 Nd7 14. Qc2 Rfc8
+15. Qd3 f6 16. exf6 Bxf6 17. Qe3 Nf8 18. Qf4 Qc7 19. Qg4 Qf7 20. Bd3 Re8 21.
+Bb5 Re7 22. Bf4 Qg6 23. Qh3 Qf5 24. Qxf5 exf5 25. Rac1 Ng6 26. Bd6 Re6 27. Bc5
+Nf4 28. Re1 Rae8 29. Rxe6 Rxe6 30. Kf1 Re4 31. g3 Ne6 32. Bd3 Nexd4 33. Bxe4
+dxe4 34. Nxd4 Nxd4 35. Bxd4 Bxd4 36. Rc8+ Kf7 37. Rc7+ Kf6 38. Rxb7 1-0

@@ -1,0 +1,79 @@
+[Event "Sabadell Int"]
+[Site "Sabadell"]
+[Date "1945.08.03"]
+[Round "2"]
+[White "Muñoz Ungria, Andres"]
+[Black "Valles Bergada, Vicente"]
+[Result "0-1"]
+[ECO "C88"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "78"]
+[EventDate "1945.08.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. a4
+Rb8 9. axb5 axb5 10. Nc3 d6 11. Qe2 b4 12. Nd5 Bg4 13. Qc4 $1 (13. h3 $2 Bxf3
+$11 (13... Nd4 $2 14. Nxd4 $1 Bxe2 15. Nc6 Qd7 16. Ncxe7+ Kh8 17. Rxe2 $36))
+13... Bxf3 14. Qxc6 Nxd5 15. Qxd5 Bg4 16. Qd3 Kh8 17. h3 Bd7 18. Qe2 f5 19.
+exf5 Bxf5 20. d4 Qd7 (20... Bf6 $142 $11) 21. dxe5 dxe5 22. g4 $6 Bg6 23. Be3 (
+23. Qxe5 Bd6 24. Qe6 $4 Rbe8 $1 25. Qxd7 Rxe1+ 26. Kg2 Be4+ 27. f3 Rxf3 $19)
+23... Bd6 24. Red1 (24. Rad1 Qe7 25. g5 Qd7 26. Qg4 Bf5 27. Qh4 Bxh3) 24... Qe7
+25. g5 Qd7 26. Qg4 Bf5 27. Qh4 Bxh3 28. Ra7 Qf5 29. Bd5 Bg4 30. Re1 e4 (30...
+Bf3 $142) 31. Bd4 $2 (31. Ra5 $142) 31... Qxd5 32. Bxg7+ Kxg7 33. Qxg4 Qc5 34.
+Qh4 Qxa7 35. Qh6+ Kh8 36. Re3 Qa1+ 37. Kg2 Rxf2+ 38. Kxf2 Rf8+ 39. Ke2 Qf1+ 0-1
+
+[Event "Sabadell Int"]
+[Site "Sabadell"]
+[Date "1945.08.10"]
+[Round "9"]
+[White "Alekhine, Alexander"]
+[Black "Muñoz Ungria, Andres"]
+[Result "1-0"]
+[ECO "D39"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "31"]
+[EventDate "1945.08.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+{Andreu Muñoz es el jugador que jugó muchos años en el Sant Pere de Terrassa,
+en el Egara y en el Terrassa. Pero estoy convencido totalmente que esta
+partida no es la que jugó él contra Alekhine en este torneo. Es posible que se
+trate de una confusión de quién la publicó.} 1. d4 d5 2. c4 e6 3. Nf3 Nf6 4.
+Bg5 Bb4+ 5. Nc3 dxc4 6. e4 c5 7. Bxc4 {Esta variante ya la introdujo Kotov, en
+su partida contra Judovitch, Camp. URSS 1939. Por cierto, me enfrenté a Andreu
+Muñoz en tres ocasiones. en dos de ellas el llevaba negras y en ninguna de las
+dos optó por la Defensa Vienesa. En una hizo una Holandesa y en la otra una
+Tarrasch.} cxd4 8. Nxd4 Qa5 9. Bxf6 Bxc3+ 10. bxc3 {hasta aquí exactamente
+igual que la citada partida Kotov-Judovitch.} Qxc3+ (10... gxf6 11. O-O Nd7 (
+11... O-O $143 {(Rabinovitch)} 12. Nb5 Nd7 13. Qg4+ $16) 12. Kh1 Nb6 13. Bb3
+Bd7 14. Qf3 Ke7 15. Qe3 $14 {Kotov-Judovitch}) 11. Kf1 {hasta aquí, todo de
+libro.} (11. Qd2 $143 Qxd2+ $1 (11... Qxa1+ $4 12. Ke2 Qxd4 (12... Qxh1 13.
+Nxe6 $1 Nc6 14. Nxg7+ Kf8 15. Qd6+ Kg8 16. Qg3 $18) 13. Bxd4 $18) 12. Kxd2 gxf6
+13. Nb5 Na6 14. Nd6+ Ke7 15. Nxc8+ Raxc8 16. Bxa6 bxa6 17. Rhc1 Kd6 $36) 11...
+Qxc4+ (11... gxf6 12. Rc1 Qa5 13. Nb5 $6 {(Belavenetz)} (13. Bb5+ Nd7 14. Rxc8+
+Rxc8 15. Bxd7+ Ke7 16. Bxc8 Rxc8 17. Ke2 $16 (17. Ne2 $2 Qxa2 (17... Rd8 $142
+18. Qb3 Qxa2 19. Qb4+ Ke8 20. Qb5+ Rd7 $11) 18. h4 Rc7 19. Rh3 b5 20. Rc3 $2 (
+20. Rd3 $142 $18) 20... Rxc3 $13)) 13... Na6 $2 (13... a6 $11) 14. Qd4 (14. h4
+$1 $16) 14... Ke7 15. Qd6+ Ke8 16. e5 $18) 12. Kg1 O-O (12... gxf6 $2 13. Rc1
+$18) (12... Nd7 $142 13. Rc1 Qa6 14. Bxg7 Rg8 15. Bh6 Nf6 16. e5 Nd5 17. h4 $14
+) (12... Bd7 $143 13. Rc1 Qb4 (13... Qa6 14. Nxe6 fxe6 15. Rc8+ Kf7 16. Rxh8
+gxf6 17. Qh5+ Ke7 18. Qc5+ Kf7 19. Rf8+ Kg7 20. Qe7+ {1-0 Alekhine/Frank,
+H-Bogoljubow,E/Pfaffenroth/Warsaw 1941}) 14. Bxg7 Rg8 15. Bf6 Nc6 16. Rb1 $16)
+13. Qg4 g6 14. e5 $14 {Esto ya lo había analizado Znosko-Borovski en 1946, ver
+Ajedrez Español num.51, pág. 87, no continuando con más comentarios que los de:
+ganando. ?Conocía Znosko-Borovski los análisis y comentarios de Alekhine, de
+1941, en el num.23 de Deutsche Schachblätter? Quizás no, porque en sus
+comentarios sobre la Defensa Vienesa únicamente entran Kotov, Belavenetz,
+Judovich y Rabinovich y supongo que tiene en cuenta la partida Kotov-Judovich,
+URSS-1939. Por lo que parece, Alekhine conocía bien esta posición y, bien la
+aplicó a su posible partida contra Ros, bien la hizo circular en su momento
+para lavar un poco su maltrecha imagen. ?Quién puede saber ahora esto?} (14.
+Qf4 {(Kotov)} Nd7 15. e5 Nxf6 16. exf6 Kh8 17. Rc1 Qd5 {(?) Yo creo que es
+mala.} (17... Qb4 $142 $1) 18. Qh6 Rg8 19. Nf3 {ganando. Pero como indico
+antes, creo que Kotov parte de una jugada errónea del negro: 17. ... Dd5} Qh5 (
+19... g5 20. h4 Rg6 21. Qf8+ Rg8 22. Qxf7 $18) 20. Ng5 $3) 14... Nc6 $4 {
+gravísimo error.} (14... Re8 $142) 15. Nf5 $1 {y el negro abandonó. Seguiría...
+} (15. Nxc6 $1 {Tan buena como la principal.} Qxc6 16. Qg5 {etc.}) 15... exf5 (
+15... Qxg4 16. Nh6#) 16. Qxc4 $18 1-0

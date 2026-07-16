@@ -1,0 +1,5034 @@
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "1"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Medina Garcia, Antonio"]
+[Result "0-1"]
+[ECO "C99"]
+[PlyCount "88"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3
+O-O 9. h3 Na5 10. Bc2 c5 11. d4 Qc7 12. Nbd2 cxd4 13. cxd4 Nc6 14. Nb3 Nb4 15.
+Bb1 a5 16. a3 Nc6 17. Be3 a4 18. Nbd2 Bd7 19. Bd3 Qb8 20. Qe2 Na5 21. Rac1 Re8
+22. Rc2 Bd8 23. Rec1 b4 24. axb4 Qxb4 25. dxe5 dxe5 26. Nc4 Nxc4 27. Rxc4 Qb7
+28. Rc5 Nxe4 29. Rxe5 Nf6 30. Rxe8+ Bxe8 31. Bd4 Bc6 32. Bxf6 Bxf6 33. Qc2 Bxf3
+34. gxf3 Qxb2 $2 35. Qc8+ Bd8 36. Qxa8 $4 (36. Re1) 36... Qxc1+ 37. Kh2 Qf4+
+38. Kh1 Qh4 39. Bf1 g6 40. Kh2 Kg7 41. Qa7 Bf6 42. Bg2 Be5+ 43. Kh1 Qb4 44. Bf1
+Qf4 0-1
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "2"]
+[White "Llorens Llorens, Rafael"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "D56"]
+[PlyCount "81"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 h6 7. Bh4 Ne4 8. Bxe7
+Qxe7 9. Qc2 c6 10. Bd3 f5 11. Ne5 Rf6 12. O-O Nd7 13. f3 Nxc3 14. Qxc3 Nxe5 15.
+dxe5 Rf7 16. c5 Bd7 17. a4 b6 18. cxb6 axb6 19. a5 Qd8 20. b4 Be8 21. f4 Rfa7
+22. Qd4 bxa5 23. Ra3 Rb7 24. bxa5 Rxa5 25. Rxa5 Qxa5 26. Ra1 Qb6 27. Rb1 Qxd4
+28. exd4 Rxb1+ 29. Bxb1 Kf7 30. Kf2 Ke7 31. Ke3 Kd7 32. Kd3 g5 33. g3 Bh5 34.
+Bc2 Kc7 35. Kc3 gxf4 36. gxf4 Bf3 37. Kb4 Kb6 38. Bd3 Bd1 39. Bf1 Bf3 40. Bd3
+Bd1 41. Bf1 1/2-1/2
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "3"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Wade, Robert G"]
+[Result "1-0"]
+[ECO "D38"]
+[PlyCount "93"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 d5 5. e3 c5 6. Bd2 Nc6 7. a3 cxd4 8. exd4
+Be7 9. c5 Ne4 10. Bd3 Nxd2 11. Qxd2 e5 12. Nxe5 Nxe5 13. dxe5 d4 14. Ne4 O-O
+15. O-O f6 16. Bc4+ Kh8 17. f4 b5 18. Ba2 Bg4 19. Nd6 Qc7 20. Qxd4 Be2 21. Rfe1
+Bh5 22. b4 Rad8 23. Re3 fxe5 24. fxe5 Bg5 25. Rh3 Rf4 26. Qd3 g6 27. Rf1 Rdf8
+28. Rxf4 Rxf4 29. Qd5 Qg7 30. Nf7+ Rxf7 31. Qxf7 Qxf7 32. Bxf7 Kg7 33. Be8 Be2
+34. Kf2 Bc4 35. Bd7 h5 36. c6 Bd8 37. Ke3 Bd5 38. Kd4 Bxg2 39. Rg3 Bb6+ 40. Kd3
+Bd5 41. Bf5 Bc4+ 42. Ke4 Bf7 43. e6 Be8 44. Kd5 Bc7 45. e7 Kf6 46. Bxg6 Bxg3
+47. hxg3 1-0
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "4"]
+[White "Cherta Clos, Pere"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "D37"]
+[PlyCount "83"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. d4 Nf6 2. Nf3 d5 3. c4 e6 4. Nc3 Nbd7 5. cxd5 Nxd5 6. e4 Nxc3 7. bxc3 c5 8.
+Bd2 Be7 9. Bd3 b6 10. Qe2 O-O 11. O-O Bb7 12. Bf4 Qc8 13. Rac1 Rd8 14. Rfd1 Nf8
+15. h4 Ng6 16. Bg3 Bd6 17. e5 Be7 18. h5 Nf8 19. h6 Ng6 20. hxg7 Kxg7 21. Nh2
+Qc6 22. f3 Rg8 23. Ng4 h5 24. Ne3 Kf8 25. d5 exd5 26. Nxd5 Qxd5 27. Be4 Qe6 28.
+Bxb7 Rd8 29. Rxd8+ Bxd8 30. Rd1 Bc7 31. Bd5 Qe7 32. f4 Nxe5 33. fxe5 Rxg3 34.
+Qxh5 Bxe5 35. Rf1 Rg7 36. Qh8+ Rg8 37. Qh6+ Bg7 38. Qh3 Rh8 39. Qc8+ Qe8 40.
+Rxf7+ Kg8 41. Qxe8+ Kh7 42. Rxg7+ 1-0
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "5"]
+[White "Pomar Salamanca, Arturo"]
+[Black "O' Kelly de Galway, Alberic"]
+[Result "0-1"]
+[ECO "E43"]
+[PlyCount "82"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 b6 5. e3 Bb7 6. Bd3 Bxc3+ 7. bxc3 d6 8.
+O-O O-O 9. Qe2 Re8 10. Rd1 Qe7 11. e4 e5 12. d5 Nfd7 13. Bg5 f6 14. Be3 Nf8 15.
+Nh4 Bc8 16. g4 g6 17. Ng2 g5 18. h4 Ng6 19. f3 Nf4 20. Nxf4 gxf4 21. Qd2 Nd7
+22. Kf2 Nc5 23. Rh1 Kh8 24. Bc2 Bd7 25. Rag1 Rg8 26. Ke1 Rg7 27. Bb3 Rag8 28.
+Qh2 h5 29. gxh5 f5 30. Bc2 fxe4 31. Rxg7 Qxg7 32. Bxe4 Nxe4 33. fxe4 Qh7 34.
+Qe2 Rg3 35. Kf2 Bg4 36. Qe1 Bxh5 37. Rg1 Qg6 38. Rxg3 Qxg3+ 39. Kf1 Qh3+ 40.
+Kf2 Bg4 41. Kg1 Bf3 0-1
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "6"]
+[White "Golmayo de la Torriente, Manuel"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "A29"]
+[PlyCount "127"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. g3 d5 5. cxd5 Nxd5 6. d3 Be7 7. Bg2 Be6 8.
+O-O O-O 9. Bd2 h6 10. Nxd5 Bxd5 11. Bc3 Nd4 12. e4 Nxf3+ 13. Bxf3 Bc6 14. Bxe5
+Bf6 15. Bc3 Bd4 16. Qb3 Qf6 17. Be2 Rad8 18. Rac1 Rfe8 19. Bxd4 Rxd4 20. Rc5 b6
+21. Rc3 Ba4 22. Qa3 c5 23. Rfc1 Bb5 24. b3 a5 25. Qb2 Red8 26. Qc2 Qe6 27. f3
+Qc6 28. Rd1 h5 29. Qc1 Qf6 30. Qf4 Qxf4 31. gxf4 Kf8 32. Kf2 Ke7 33. f5 Kf6 34.
+Ke3 Rg8 35. Rg1 g6 36. fxg6 Rxg6 37. Rcc1 Rd8 38. Rxg6+ fxg6 39. h4 Bc6 40. f4
+Ra8 41. d4 cxd4+ 42. Kxd4 Rc8 43. Ke3 Bd7 44. Rxc8 Bxc8 45. Kd4 Be6 46. Bc4 Bd7
+47. Bd3 Ke6 48. Bc4+ Ke7 49. Ke5 a4 50. bxa4 Bxa4 51. f5 gxf5 52. exf5 b5 53.
+f6+ Kf8 54. Bb3 Ke8 55. Bxa4 bxa4 56. a3 Kf7 57. Kf5 Kf8 58. Kg6 Kg8 59. Kxh5
+Kf7 60. Kg5 Kf8 61. Kg6 Kg8 62. f7+ Kf8 63. h5 Ke7 64. Kg7 1-0
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "7"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Guimard, Carlos E"]
+[Result "0-1"]
+[ECO "C14"]
+[PlyCount "84"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Be7 5. e5 Nfd7 6. Bxe7 Qxe7 7. f4 a6 8. Nf3
+c5 9. dxc5 Nc6 10. Ne2 Qxc5 11. Qd2 b5 12. Ned4 Nxd4 13. Nxd4 Nb6 14. Nb3 Qc7
+15. Qd4 O-O 16. Bd3 Nc4 17. O-O Qa7 18. Bxc4 dxc4 19. Nc5 Bb7 20. Rfd1 Bd5 21.
+b4 Qe7 22. c3 a5 23. a3 Rfd8 24. Qf2 f5 25. Qg3 Ra7 26. Qe3 Rda8 27. Rab1 axb4
+28. axb4 Ra2 29. Rd2 Rxd2 30. Qxd2 Ra3 31. h3 Qa7 32. h4 Qe7 33. Qb2 Qa7 34.
+Qd2 h6 35. Rb2 Ra1+ 36. Kh2 Rf1 37. Ra2 Qe7 38. Kg3 Rh1 39. Kf2 Qxh4+ 40. Ke2
+Rg1 41. Ke3 Qg3+ 42. Kd4 Rxg2 0-1
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "8"]
+[White "Vilardebo Picurena, Josep"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "D35"]
+[PlyCount "84"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c6 5. Bg5 Nbd7 6. cxd5 exd5 7. e3 Bd6 8.
+Bd3 O-O 9. Qc2 h6 10. h4 Re8 11. O-O-O Qe7 12. Rde1 hxg5 13. hxg5 Ne4 14. Rh4
+f5 15. Reh1 Nf8 16. g4 Ng6 17. gxf5 Bxf5 18. Nxe4 Bxe4 19. Rxe4 dxe4 20. Qb3+
+Kf8 21. Ne5 Bxe5 22. Bxe4 Qe6 23. Qxe6 Rxe6 24. Bxg6 Rd8 25. Bf5 Ree8 26. Rh8+
+Kf7 27. Rxe8 Rxe8 28. dxe5 Rxe5 29. g6+ Kf6 30. e4 Rxf5 31. exf5 Kxf5 32. Kd2
+Kxg6 33. Ke3 Kf5 34. b4 g5 35. a4 g4 36. a5 Ke5 37. a6 b6 38. Kd3 Kf4 39. Ke2
+Ke4 40. Kf1 Kf3 41. Ke1 c5 42. bxc5 bxc5 0-1
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "9"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Yanofsky, Daniel A"]
+[Result "0-1"]
+[ECO "D12"]
+[PlyCount "82"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 c6 4. e3 Bf5 5. cxd5 cxd5 6. Ne5 Nbd7 7. Nc3 e6 8.
+Qb3 Rb8 9. Bd2 a6 10. Nxd7 Nxd7 11. e4 dxe4 12. Bf4 e5 13. Bxe5 Nxe5 14. dxe5
+Bc5 15. Bb5+ Kf8 16. Bc4 e3 17. fxe3 Bxe3 18. Qb4+ Ke8 19. Nd5 Ba7 20. O-O-O
+Qg5+ 21. Rd2 Rc8 22. h4 b5 23. b3 Bc5 24. Qxb5+ axb5 25. Bxb5+ Kf8 26. hxg5
+Ba3+ 27. Kd1 Rc1+ 28. Ke2 Rxh1 29. Nc7 g6 30. Rd8+ Kg7 31. Ne8+ Rxe8 32. Rxe8
+Ra1 33. Bc4 Rxa2+ 34. Kf3 Bd7 35. Rd8 Bc6+ 36. Bd5 Be7 37. b4 Bxd8 38. Bxc6
+Bxg5 39. b5 Bd8 40. Bd5 Rb2 41. Bc6 Bc7 0-1
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "10"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Wood, Gabriel"]
+[Result "0-1"]
+[ECO "E94"]
+[PlyCount "98"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 Nbd7 6. Be2 O-O 7. O-O e5 8. d5
+Nc5 9. Qc2 a5 10. Be3 Ng4 11. Bxc5 dxc5 12. h3 Nh6 13. Rad1 Ra6 14. Rd2 f5 15.
+Rfd1 Nf7 16. Ne1 Rf6 17. Nd3 Bh6 18. f4 Bxf4 19. Nxf4 exf4 20. Rf1 g5 21. Bd3
+Ne5 22. Re2 f3 23. gxf3 f4 24. Rh2 Rh6 25. Kg2 g4 26. fxg4 Qh4 27. Kh1 Qg3 28.
+Be2 Rxh3 29. Bd1 f3 30. Rg1 Rxh2+ 31. Qxh2 Qxh2+ 32. Kxh2 Bxg4 33. Kg3 h5 34.
+b3 Kg7 35. Rf1 Kg6 36. Nb5 Rf7 37. Kf2 Kg5 38. Ke3 h4 39. Nc3 h3 40. Nb1 Kh4
+41. Nd2 h2 42. Kf2 Bh3 43. Rh1 Ng4+ 44. Ke1 f2+ 45. Ke2 f1=Q+ 46. Nxf1 Rxf1 47.
+e5 Rxh1 48. d6 Rxd1 49. dxc7 h1=Q 0-1
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "11"]
+[White "Albareda Creus, Miguel"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "D55"]
+[PlyCount "49"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 d5 4. Nc3 Be7 5. Bg5 O-O 6. e3 Ne4 7. Bxe7 Qxe7 8.
+Qc2 c6 9. Bd3 f5 10. O-O Nd7 11. a3 b6 12. b4 Ba6 13. b5 cxb5 14. Nxb5 Rfc8 15.
+Qa4 dxc4 16. Qxa6 cxd3 17. Qb7 a6 18. Na7 Re8 19. Rfc1 Nd6 20. Qc7 Nf6 21. Qxe7
+Rxe7 22. Nc6 Rc7 23. Nce5 Rac8 24. Nxd3 Kf8 25. Nfe5 1/2-1/2
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "12"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "0-1"]
+[ECO "C05"]
+[PlyCount "64"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. Bd3 c5 5. e5 Nfd7 6. c3 b6 7. f4 Ba6 8. Ndf3
+cxd4 9. Nxd4 Bxd3 10. Qxd3 Nc5 11. Qc2 Qc7 12. Ngf3 g6 13. Be3 Nc6 14. O-O Rc8
+15. Rac1 Be7 16. c4 Nb4 17. Qe2 Ncd3 18. cxd5 Nxc1 19. Rxc1 Qxc1+ 20. Bxc1
+Rxc1+ 21. Kf2 Nxd5 22. Qb5+ Kf8 23. Qa6 Kg7 24. Qxa7 Rb1 25. b3 Rc8 26. Kg3 Rc3
+27. h3 Rd1 28. Nb5 Rc2 29. Nd6 Bxd6 30. exd6 Ne3 31. Ng5 Nf5+ 32. Kf3 Rd3+ 0-1
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "13"]
+[White "Najdorf, Miguel"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "A05"]
+[PlyCount "163"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. Nf3 Nf6 2. b3 b6 3. Bb2 Bb7 4. e3 e6 5. d4 d5 6. Bd3 Bd6 7. O-O O-O 8. Ne5
+Nbd7 9. c4 c5 10. Nd2 Ne4 11. Nxd7 Qxd7 12. cxd5 exd5 13. dxc5 Bxc5 14. Qh5 Qc6
+15. Nf3 Qg6 16. Qh4 Bd6 17. Nd4 f5 18. f3 Nc5 19. Bc2 Ba6 20. Rfd1 Rae8 21. b4
+Nd7 22. g4 Qf6 23. Qxf6 Nxf6 24. Nxf5 Bxb4 25. g5 Nh5 26. Rxd5 Bc5 27. Rd7
+Bxe3+ 28. Kh1 Rxf5 29. Bxf5 Bc8 30. g6 hxg6 31. Bxg6 Bxd7 32. Bxe8 Bxe8 33. Re1
+Bf7 34. Rxe3 Bxa2 35. Ra3 Bd5 36. Rxa7 Bxf3+ 37. Kg1 b5 38. Kf2 Bd5 39. Rd7 Bc4
+40. Kf3 Kh7 41. Rc7 Kg6 42. Rc6+ Nf6 43. Kf4 Bd3 44. Bxf6 gxf6 45. Rc3 Bc4 46.
+Rg3+ Kh7 47. Kf5 b4 48. Kxf6 b3 49. Rg7+ Kh8 50. Rb7 Kg8 51. h4 Bd5 52. Rb5 Bc4
+53. Rb4 Bd5 54. Rd4 Bc6 55. Rd3 Ba4 56. Rd8+ Kh7 57. Rb8 Bc6 58. Rxb3 Kh6 59.
+Rb8 Kh7 60. Kg5 Bd5 61. Rc8 Ba2 62. Rc7+ Kh8 63. Kh6 Bd5 64. Rh7+ Kg8 65. Rd7
+Be4 66. Rd8+ Kf7 67. Rd4 Bb1 68. Rg4 Bc2 69. Rg7+ Kf8 70. Rg2 Bd3 71. Rg7 Bb1
+72. Rg5 Kf7 73. Kh5 Bc2 74. Kg4 Bb1 75. h5 Bc2 76. h6 Bg6 77. Kf4 Bc2 78. Rg7+
+Kf8 79. Kg5 Bb3 80. Kf6 Bg8 81. Rb7 Bf7 82. h7 1-0
+
+[Event "C. A. Tarrasa-Real Madrid C. F. m"]
+[Site "Terrassa"]
+[Date "1947.??.??"]
+[Round "1.1"]
+[White "Bordell Rosell, Roman"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "A13"]
+[PlyCount "109"]
+[EventDate "1947.??.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. c4 e6 3. g3 d5 4. Bg2 c5 5. cxd5 Nxd5 6. Nc3 Nxc3 7. bxc3 Nc6 8.
+O-O e5 9. d3 Be7 10. Ne1 Qc7 11. Nc2 Be6 12. Ne3 Rd8 13. c4 O-O 14. Nd5 Qd7 15.
+Rb1 b6 16. Bb2 Bd6 17. Bc3 Bh3 18. Qd2 Bxg2 19. Kxg2 f5 20. f4 Qe6 21. fxe5
+Bxe5 22. Bxe5 Nxe5 23. h3 Rd7 24. Rf2 Nxc4 25. dxc4 Qe4+ 26. Rf3 Qxb1 27. Nf6+
+Rxf6 28. Qxd7 h6 29. Re3 f4 30. Re8+ Kh7 31. g4 Qe1 32. Qd3+ Rg6 33. a4 Qg3+
+34. Qxg3 fxg3 35. Kxg3 Rd6 36. Re7 a5 37. Rb7 Kg6 38. h4 Kf6 39. h5 Re6 40. Kf4
+g6 41. hxg6 Kxg6 42. e4 Kf6 43. Rb8 Kg6 44. e5 Rc6 45. Rd8 Kf7 46. Kf5 Ke7 47.
+Rh8 Kd7 48. Rh7+ Ke8 49. e6 Rd6 50. Kf6 Kd8 51. Rh8+ Kc7 52. Ke5 Rd1 53. e7
+Re1+ 54. Kf6 Kd7 55. Rd8+ 1-0
+
+[Event "Sitges Nacional"]
+[Site "Sitges"]
+[Date "1948.??.??"]
+[Round "3"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Bordell Rosell, Roman"]
+[Result "0-1"]
+[ECO "A11"]
+[PlyCount "150"]
+[EventDate "1948.07.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 d5 2. b3 Nf6 3. Bb2 g6 4. c4 c6 5. g3 Bg7 6. Bg2 O-O 7. O-O Nbd7 8. Qc2
+Re8 9. Ne5 Nxe5 10. Bxe5 Bf5 11. Qb2 Qd7 12. cxd5 cxd5 13. Nc3 Bh3 14. Na4 Bxg2
+15. Kxg2 Qg4 16. d3 Bh6 17. Qd4 Qxd4 18. Bxd4 e5 19. Bb2 d4 20. Bc1 Bf8 21. Bg5
+Nd5 22. Nb2 Bb4 23. e4 dxe3 24. Bxe3 Bc3 25. Rab1 Nxe3+ 26. fxe3 Bxb2 27. Rxb2
+Rac8 28. Kf3 Rc3 29. Ke2 Rec8 30. Kd2 Kf8 31. g4 h6 32. Rd1 Ke7 33. Ke2 Ke6 34.
+Rbd2 Rd8 35. d4 exd4 36. Rxd4 Rxd4 37. Rxd4 Rc2+ 38. Kd3 Rxa2 39. Re4+ Kf6 40.
+Rf4+ Kg7 41. Rc4 Rxh2 42. Rc7 Rg2 43. Rxb7 Rxg4 44. Rxa7 h5 45. Ra6 Rg1 46. b4
+Rd1+ 47. Kc2 Rd5 48. Ra1 h4 49. Rb1 Rb5 50. Kd3 g5 51. Ke4 Kg6 52. Kf3 Kh5 53.
+e4 f6 54. Rb3 Kg6 55. Kg4 Kf7 56. Rb1 Ke6 57. Rb2 Ke5 58. Kf3 Kd4 59. Rd2+ Kc4
+60. Rd6 Rxb4 61. Rxf6 Rb3+ 62. Kf2 Kd4 63. Re6 g4 64. e5 Rb2+ 65. Kg1 Ke4 66.
+Rg6 Kf3 67. Rf6+ Kg3 68. Rf1 Re2 69. Ra1 h3 70. Kh1 h2 71. Ra3+ Kh4 72. Ra6 Kh3
+73. Ra1 g3 74. Rg1 hxg1=Q+ 75. Kxg1 Re1# 0-1
+
+[Event "Sitges Int"]
+[Site "Sitges"]
+[Date "1949.??.??"]
+[Round "?"]
+[White "Chaudé de Silans, Chantal"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "D48"]
+[PlyCount "79"]
+[EventDate "1949.11.??"]
+[EventType "tourn"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. Nf3 c6 5. e3 Nbd7 6. Bd3 dxc4 7. Bxc4 b5 8. Bd3
+a6 9. e4 c5 10. d5 c4 11. Bc2 b4 12. dxe6 fxe6 13. Ne2 Qb6 14. Ned4 Bb7 15. e5
+Ng4 16. h3 Ngxe5 17. Nxe5 Nxe5 18. Qh5+ Nf7 19. Ba4+ Ke7 20. Be3 g6 21. Qh4+ g5
+22. Qg3 Kf6 23. Nc6 Bc5 24. Bxg5+ Nxg5 25. Qf4+ Kg7 26. Qxg5+ Kf8 27. Qf6+ Kg8
+28. Qxe6+ Kg7 29. O-O-O Bxc6 30. Bxc6 Rad8 31. Qg4+ Kf6 32. Qf4+ Kg7 33. Qg5+
+Kf7 34. Qf5+ Kg7 35. Rd7+ Rxd7 36. Qxd7+ Kh6 37. Re1 Rg8 38. Qd2+ Kg6 39. Re6+
+Kf7 40. Qd7+ 1-0
+
+[Event "Sitges Int"]
+[Site "Sitges"]
+[Date "1949.11.06"]
+[Round "2"]
+[White "Bernstein, Ossip"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "B02"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "90"]
+[EventDate "1949.11.??"]
+[EventType "tourn"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. e4 Nf6 2. e5 Nd5 3. c4 Nb6 4. c5 Nd5 5. Nc3 Nxc3 6. dxc3 e6 7. Qg4 (7. Bd3 {
+era otra alternativa, que ya había jugado Alekhine contra Engholm.}) 7... Nc6
+8. Bg5 h5 $1 (8... Nxe5 $143 9. Qh5 $14) 9. Qh4 $6 (9. Qf4 Be7 10. Nf3 Bxg5 11.
+Nxg5 f6 $11) (9. Bxd8 $142 hxg4 10. Bxc7 Bxc5 11. Be2 $11) 9... Be7 10. Bxe7
+Qxe7 11. Qxe7+ Kxe7 {El negro no tiene ningún problema y su estructura de
+peones es mucho mejor.} 12. Nf3 b6 13. Bb5 Bb7 14. cxb6 axb6 {Con sencillez,
+Pomar va mejorando su posición.} 15. O-O Ba6 (15... Na7 16. Be2 Bd5 {era otra
+posibilidad.}) 16. Bxc6 $6 (16. a4 $142 $11) 16... dxc6 17. Rfd1 $6 {Esto no
+puede ser bueno. La estructura de peones blancos quedará muy debilitada.} Be2
+$1 18. Rd2 Bxf3 19. gxf3 Rhd8 (19... g5 $5 {Esta parecía mejor, pero Pomar
+sigue con su idea.}) 20. Rxd8 Rxd8 21. a4 Rd5 22. f4 Kd7 $1 23. b4 Kc8 24. a5
+Kb7 {Ya tenemos al rey negro donde más se le necesitaba, mientras que el
+blanco está en la lejanía.} 25. a6+ (25. Kf1 $142) 25... Ka7 26. Kf1 Rd3 (26...
+b5 {para seguir con b5, era mejor.}) 27. Ke2 Rxc3 28. Rd1 {No hay otra
+alternativa. El blanco no puede estar esperando.} Rc4 29. Ke3 Rc3+ 30. Ke2 {No
+hay otra} Kxa6 {Ya la ventaja es considerable.} 31. Rd7 c5 $1 32. b5+ $2 (32.
+bxc5 $142 {pero tampoco solucionará nada.}) 32... Kxb5 33. Rxf7 Kc6 $1 34. Re7
+(34. Kd2 Rh3 $19) 34... Kd5 35. f3 b5 36. Rxc7 b4 37. Rd7+ Kc4 38. f5 exf5 39.
+f4 (39. e6) 39... b3 40. Rb7 Kd5 ({Pomar no tiene interés en ganar más peones.
+} 40... Rc2+ 41. Kf3 Rxh2 42. e6 Rh1 43. Kf2 Ra1 $19) 41. Rd7+ Ke4 42. Kd2 (42.
+e6 b2 43. e7 Re3+ $19 ({o aún mejor...} 43... b1=Q 44. e8=Q+ Kxf4 {etc.}))
+42... Rc2+ 43. Kd1 Rc4 (43... Rxh2 $142 $19) 44. e6 b2 45. Rb7 Rc1+ {Y
+Bernstein claudicó.} 0-1
+
+[Event "Sitges Int"]
+[Site "Sitges"]
+[Date "1949.11.08"]
+[Round "4"]
+[White "Medina Garcia, Antonio"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "B13"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "70"]
+[EventDate "1949.11.??"]
+[EventType "tourn"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. c4 Nf6 5. Nc3 Nc6 6. Bg5 Bg4 7. f3 Be6 8. c5
+a6 9. Nge2 g6 10. Qd2 Bg7 11. Rc1 O-O 12. g3 Ne8 13. Na4 f6 14. Be3 Nc7 15. Nb6
+Rb8 16. Bg2 Na8 17. Nxa8 Rxa8 18. b4 Bf7 19. O-O e5 $11 20. Rfd1 Qe7 21. a4
+exd4 22. Nxd4 Ne5 23. Bf4 Nc4 24. Rxc4 $2 dxc4 25. Bd6 Qd7 26. Bxf8 Rxf8 27. f4
+f5 (27... Rd8 $142) 28. c6 $2 {error grave.} (28. Nc2 {Esto era mejor, pero la
+posición blanca es inferior..}) 28... bxc6 29. Nxc6 Qxd2 30. Rxd2 c3 31. Rc2
+Bb3 32. Bd5+ {Un último recurso, pero insuficiente.} Bxd5 33. Ne7+ Kf7 34. Nxd5
+Rd8 35. Nc7 (35. Nxc3 Rc8 36. Rd2 Bxc3 $19) 35... Rd2 0-1
+
+[Event "Tarragona sim"]
+[Site "Tarragona"]
+[Date "1950.05.27"]
+[Round "?"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Vericat Lluis, Isidoro"]
+[Result "0-1"]
+[ECO "C58"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "82"]
+[EventDate "1950.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Ng5 d5 5. exd5 Na5 6. Bb5+ c6 7. dxc6 bxc6 8.
+Qf3 Bd7 9. Bd3 h6 10. Ne4 Be7 11. Nbc3 Nb7 12. Nxf6+ Bxf6 13. Bf5 Bxf5 14. Qxf5
+Nd6 15. Qf3 Qd7 16. d3 Be7 17. Be3 O-O 18. O-O f5 19. Qh5 f4 20. Bd2 Rf5 (20...
+f3) 21. Qf3 Raf8 22. Ne4 Nxe4 23. dxe4 Rg5 24. Rad1 Qc8 25. Qb3+ Kh7 26. f3 $4
+(26. Kh1 $14) 26... Qh3 $1 27. Rf2 Bc5 28. Kh1 Qh4 29. g3 Rxg3 30. Be1 Bxf2 31.
+Bxf2 Qh3 32. Rg1 (32. Bxg3 $2 fxg3 $19) 32... Rxf3 33. Qb7 Rg8 34. Qxa7 Qh5 35.
+Be1 Re3 36. Bf2 Rh3 37. Rg2 f3 38. Bg3 fxg2+ 39. Kxg2 Rxg3+ 40. hxg3 Qe2+ 41.
+Kh3 Qxe4 0-1
+
+[Event "Tortosa Nacional"]
+[Site "Tortosa"]
+[Date "1950.??.??"]
+[Round "?"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Saborido Carre, Rafael"]
+[Result "1-0"]
+[ECO "B54"]
+[PlyCount "62"]
+[EventDate "1950.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Bd3 Nc6 6. c3 e5 7. Nxc6 bxc6 8.
+Bg5 Be7 9. Nd2 d5 10. Qe2 O-O 11. O-O Rb8 12. b3 Re8 13. Rad1 Bg4 14. f3 Bh5
+15. Bb1 Qa5 16. c4 dxe4 17. Nxe4 Nxe4 18. Bxe7 Nc3 19. Qe1 Rxe7 20. Kh1 Qb4 21.
+Rd3 Bg6 22. Rxc3 Bxb1 23. a3 Qxa3 24. Qxb1 Rd7 25. Rcc1 Rbd8 26. Qe4 Qxc1 27.
+Rxc1 Rd1+ 28. Qe1 Rxe1+ 29. Rxe1 Rd3 30. h3 f6 31. b4 Rb3 1-0
+
+[Event "Berga Tancat"]
+[Site "Berga"]
+[Date "1950.??.??"]
+[Round "6"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Albareda Creus, Miguel"]
+[Result "1-0"]
+[ECO "C47"]
+[PlyCount "59"]
+[EventDate "1950.08.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. d4 exd4 5. Nxd4 Be7 6. Nxc6 bxc6 7. Bd3 d5 8.
+exd5 cxd5 9. O-O O-O 10. Bg5 c6 11. Qf3 Bd7 12. Rfe1 Be6 13. Ne2 Qd7 $2 ({
+debió jugarse} 13... c5 {dominando la casilla central d4}) 14. Nd4 $1 Rfe8 (
+14... Bg4 $2 15. Rxe7 Qxe7 16. Bxf6 Qxf6 17. Qxg4) 15. Nxe6 fxe6 16. Qh3 $1 Bd6
+17. Re3 Re7 18. Rae1 Rae8 19. Qh4 $1 Rf7 (19... Rf8 20. Bxf6 (20. Rh3 h6 21.
+Bxh6 gxh6 22. Qxh6 Rg7 23. Bg6 Nh7 24. Rxe6 Bc5) 20... gxf6 21. Rxe6) 20. Rh3
+h6 21. Bg6 $1 Ne4 22. Be3 Rf6 23. Bxe8 Qxe8 24. f3 Nc5 25. Qh5 Qe7 26. Bd4 $1
+Rf4 (26... Rf5 27. Qxf5) (26... Rf7 27. Qg6) 27. Bxg7 $1 Kxg7 28. Qxh6+ Kf7 29.
+Qh5+ $1 {el complemento de 27.Bxg7 ya que se impide la huida} Kf6 30. Qh8+ 1-0
+
+[Event "Berga Tancat"]
+[Site "Berga"]
+[Date "1950.08.21"]
+[Round "7"]
+[White "Ribera Arnal, Angel"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "A52"]
+[PlyCount "108"]
+[EventDate "1950.08.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e5 3. dxe5 Ng4 4. e4 Nxe5 5. f4 Ng6 6. Be3 Bb4+ 7. Nc3 d6 8.
+Bd3 O-O 9. Qc2 f5 10. O-O-O $2 (10. Nge2 $142) 10... Bxc3 11. bxc3 Qe7 12. Re1
+Qf7 13. Ne2 Nc6 14. exf5 Bxf5 15. Bxf5 Qxf5 16. Qxf5 Rxf5 17. Kc2 Na5 18. Kd3
+Re8 19. Bd2 (19. Nd4 $142 Nxf4+ 20. Bxf4 Rxe1 21. Rxe1 Rxf4 22. Re7 c5 23.
+Rxg7+ Kxg7 24. Ne6+ Kf6 25. Nxf4 $13) 19... Kf8 20. Nd4 Rf6 21. g3 a6 22. Nb3
+Nc6 23. Rxe8+ Kxe8 24. Re1+ Kd7 25. Nd4 Nd8 26. Nf3 Ne6 27. Be3 Ne7 28. Bd4 Rf5
+29. Re2 Nc6 30. Rb2 b6 31. Re2 h6 32. Nh4 Ra5 33. f5 Nexd4 34. cxd4 Rxa2 35.
+Rxa2 Nb4+ 36. Kd2 (36. Kc3 $142) 36... Nxa2 37. Ng6 c6 38. Nf8+ Ke7 39. Ne6 g6
+40. g4 gxf5 41. gxf5 Kf6 42. Nd8 c5 43. Nb7 cxd4 44. Nxd6 Nb4 45. Nc8 Kxf5 46.
+Nxb6 Ke4 47. Na4 d3 48. Kc3 a5 49. Nb2 Ke3 50. c5 Ke2 51. Kc4 d2 52. Kb5 Nd3
+53. c6 Nxb2 54. c7 Nc4 0-1
+
+[Event "Tarragona Nacional"]
+[Site "Tarragona"]
+[Date "1951.??.??"]
+[Round "4"]
+[White "Medina Garcia, Antonio"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "B10"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "84"]
+[EventDate "1951.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. Nc3 d5 3. Nf3 Nf6 4. e5 Ne4 5. d4 Bg4 6. h3 Nxc3 7. bxc3 Bf5 8. Bd3
+Bxd3 9. Qxd3 (9. cxd3) 9... e6 10. O-O Nd7 11. Rb1 b5 12. Nh2 Qa5 13. a3 Nb6
+14. f4 g6 15. f5 gxf5 16. g4 Nc4 17. gxf5 O-O-O 18. fxe6 fxe6 19. Kh1 Qc7 20.
+a4 bxa4 21. Rf6 a3 22. Rxe6 a2 23. Ra1 Qb7 24. Bg5 Ba3 (24... Qb2 $5) 25. Bxd8
+Qb1+ 26. Qf1 $6 (26. Qd1 $142 $1 Qxd1+ 27. Rxd1 Bb2 28. Bf6 $16) 26... Nd2 27.
+Rxb1 axb1=Q 28. Qxb1 Nxb1 29. Ba5 Kb7 {Medina todavía conserva una cierta
+ventaja... pero debe realizar 16 jugadas en un minuto!} 30. Ng4 Bb2 31. Re7+
+Ka6 32. Bb4 Nxc3 33. Rf7 (33. e6) 33... Re8 34. Nf6 Re6 35. Nd7 Kb5 36. Nc5 Re8
+37. Rb7+ Kc4 38. e6 Nb5 39. Be1 Bxd4 40. Nb3 Rxe6 41. Bg3 h6 42. Nxd4 Nxd4 0-1
+
+[Event "Tarragona Nacional"]
+[Site "Tarragona"]
+[Date "1951.??.??"]
+[Round "6"]
+[White "Saborido Carre, Rafael"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "D31"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "98"]
+[EventDate "1951.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 c6 3. Nc3 e6 4. e3 Nd7 5. Nf3 Bd6 6. Bd3 f5 7. cxd5 cxd5 8. Bd2
+a6 9. Ne2 Ngf6 10. Nf4 Qe7 11. Rc1 Ne4 12. h4 Ndf6 13. Bb1 Ng4 14. Nd3 Bd7 15.
+a4 O-O 16. Bc2 Qf6 17. Kf1 Rac8 18. g3 b5 19. Kg2 Bc6 20. Re1 Qg6 (20... b4)
+21. Nfe5 Bxe5 22. Nxe5 Nxe5 23. dxe5 d4 24. Bxe4 fxe4 (24... Bxe4+ 25. f3 Bd5
+$15) 25. axb5 dxe3 26. Bxe3 Bxb5 27. Bc5 (27. Rxc8 $142) 27... Rf3 28. Ba3 Re8
+29. Qd4 Qf5 30. Kg1 e3 31. Rxe3 Rxf2 32. Ree1 Rf3 33. Kh2 h6 34. Rg1 $2 (34.
+Kg2 $142) 34... Bd3 $2 (34... Bf1 $3) 35. Rce1 Rc8 36. Bc5 Bb5 $2 (36... Bf1 $3
+) 37. Rg2 Rd3 38. Qf2 Qg4 39. b4 Bc6 40. Rgg1 Rc7 41. Qf8+ Kh7 42. Qf4 Qg6 43.
+Rd1 Rf7 44. Qc4 $2 (44. Qxf7 $1 Qxf7 45. Rxd3 $13) 44... Rff3 45. Rxd3 Rxd3 46.
+Qf4 Ra3 47. Rf1 Ra2+ 48. Rf2 Qb1 $1 49. Kh3 h5 0-1
+
+[Event "Camp. España indiv. Final"]
+[Site "Barcelona"]
+[Date "1951.09.??"]
+[Round "?"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Saborido Carre, Rafael"]
+[Result "1-0"]
+[ECO "A15"]
+[PlyCount "127"]
+[EventDate "1951.09.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. Nf3 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5 5. cxd5 Nxd5 6. O-O Nb6 7. a4 a5 8. Nc3
+O-O 9. d3 Na6 10. Be3 c6 11. Qd2 Re8 12. Bh6 Bh8 13. Ng5 Qc7 14. e3 Qd8 15. Qd1
+Nc5 16. d4 Ne6 17. Nce4 Nxg5 18. Nxg5 Nd5 19. Qb3 e6 20. Ne4 Qb6 21. Qxb6 Nxb6
+22. Bg5 Bd7 23. Nf6+ Bxf6 24. Bxf6 Nd5 25. Be5 Ra6 26. Rfc1 Rb6 27. e4 Ne7 28.
+Rab1 Rb4 29. b3 b5 30. axb5 Rxb5 31. Bf1 Rb7 32. Bf4 Ra8 33. Ra1 Nc8 34. Ra3
+Kf8 35. Rca1 Rba7 36. Bc4 Ke7 37. Bd2 Nd6 38. Bxa5 Ke8 39. Bd3 Nb5 40. Ra4 Nxd4
+41. Bb6 Rxa4 42. bxa4 c5 43. a5 Nf3+ 44. Kg2 Ne5 45. Be2 Bc6 46. f3 Nd7 47. Bc7
+Rc8 48. Bd6 f5 49. e5 Bd5 50. Kf2 c4 51. a6 c3 52. Ke3 Nc5 53. Bxc5 Rxc5 54.
+Bd3 Kd7 55. f4 Rc8 56. Rc1 Bb3 57. a7 Bd5 58. Kd4 Ra8 59. Ra1 Kc7 60. Kxc3 Kb6
+61. Bc4 Rc8 62. Ra4 Bxc4 63. a8=Q Ba6+ 64. Qxc8 1-0
+
+[Event "Camp. España indiv. Final"]
+[Site "Barcelona"]
+[Date "1951.09.18"]
+[Round "3"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Diez del Corral Rivas, Jesus Maria"]
+[Result "0-1"]
+[ECO "C03"]
+[PlyCount "56"]
+[EventDate "1951.09.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. e4 e6 2. d4 d5 3. Nd2 f5 4. exf5 exf5 5. Bd3 Nc6 6. c3 Nf6 7. Ne2 Bd6 8. Qc2
+Ne4 9. Nf1 O-O 10. f3 Qh4+ 11. g3 Qh5 12. fxe4 fxe4 13. Bxe4 dxe4 14. Nf4 Qf3
+15. Rg1 g5 16. Nd5 Be6 17. Nfe3 Bxd5 18. Nxd5 e3 19. Nxe3 Nxd4 20. Qd2 Rae8 21.
+Qxd4 Qf2+ 22. Kd1 Qxg1+ 23. Kc2 Be5 24. Qd5+ Kh8 25. Ng4 Bg7 26. Rb1 Rd8 27.
+Qxd8 Rxd8 28. Bxg5 Qg2+ 0-1
+
+[Event "Camp. España indiv. Final"]
+[Site "Barcelona"]
+[Date "1951.09.26"]
+[Round "10"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Toran Albero, Roman"]
+[Result "0-1"]
+[ECO "A15"]
+[PlyCount "85"]
+[EventDate "1951.09.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. Nf3 Nf6 2. c4 g6 3. b3 Bg7 4. Bb2 c5 5. Nc3 O-O 6. d4 cxd4 7. Qxd4 Nc6 8.
+Qd2 b6 9. e3 Bb7 10. Be2 Rc8 11. O-O d6 12. Rfd1 Nb8 13. Ne1 Nbd7 14. f3 Bh6
+15. Nc2 a6 16. Qe1 Ne8 17. e4 e6 18. Qf2 Qc7 19. Qh4 Bg7 20. Na4 b5 21. Bxg7
+Nxg7 22. Nb2 bxc4 23. Nxc4 d5 24. N4e3 dxe4 25. fxe4 Ne5 26. Nc4 Nxc4 27. Bxc4
+Qe5 28. Ne3 h5 29. Bd3 f5 30. Nc4 Qd4+ 31. Kh1 fxe4 32. Bf1 Qc5 33. Nd2 Rcd8
+34. Nxe4 Rxd1 35. Rxd1 Qd5 36. Qe1 Qxe4 37. Qg3 Kh7 38. Bc4 Bd5 39. Bxa6 Nf5
+40. Qg5 Rf7 41. Bd3 Qe3 42. Qd8 Qf2 43. Qe8 0-1
+
+[Event "Camp. España indiv."]
+[Site "Barcelona"]
+[Date "1956.??.??"]
+[Round "?"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Perez Gozalbes, Eduardo"]
+[Result "1-0"]
+[ECO "B17"]
+[PlyCount "63"]
+[EventDate "1956.09.??"]
+[EventType "tourn"]
+[EventRounds "14"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. Nc3 d5 3. d4 dxe4 4. Nxe4 Nd7 5. Nf3 Ngf6 6. Ng3 e6 7. Bd3 Be7 8.
+O-O O-O 9. b3 b6 10. Bb2 Bb7 11. Qe2 Qc7 12. Ne5 Rad8 13. Nh5 c5 14. d5 Bxd5
+15. Nxd7 Rxd7 16. Be5 Qb7 17. Nxf6+ Bxf6 18. Bxf6 gxf6 19. Qg4+ Kh8 20. Qh4 f5
+21. Qf6+ Kg8 22. Rae1 Bxg2 23. Re3 Bf3 24. Be2 Bxe2 25. Rg3+ Bg4 26. f3 Qd5 27.
+fxg4 Qd4+ 28. Qxd4 Rxd4 29. gxf5+ Kh8 30. fxe6 f5 31. e7 Re8 32. Rxf5 1-0
+
+[Event "Camp. España indiv."]
+[Site "Barcelona"]
+[Date "1956.??.??"]
+[Round "11"]
+[White "Llado Lumbera, Jaime"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "B02"]
+[PlyCount "65"]
+[EventDate "1956.09.??"]
+[EventType "tourn"]
+[EventRounds "14"]
+[EventCountry "ESP"]
+
+1. e4 Nf6 2. e5 Nd5 3. c4 Nb6 4. d4 d6 5. exd6 Qxd6 6. Be3 Qg6 7. Nc3 e5 8. c5
+exd4 9. Qxd4 Nc6 10. Qd2 Nd7 11. Nd5 Bxc5 12. Bxc5 Nxc5 13. Qe3+ Ne6 14. Bd3
+Qxg2 15. Nxc7+ Kd8 16. Be4 Qg4 17. Nxa8 Re8 18. h3 Qh5 19. Ne2 Qa5+ 20. Nc3 Nc5
+21. O-O-O+ Bd7 22. Qf4 Nxe4 23. Nxe4 Qe5 24. Qxe5 Nxe5 25. Nd6 Re7 26. f4 Ng6
+27. Rhe1 Rxe1 28. Rxe1 Nxf4 29. Nxf7+ Kc8 30. Nd6+ Kb8 31. Re7 Nd3+ 32. Kd2 Nc5
+33. b4 1-0
+
+[Event "Camp. España eq. Final"]
+[Site "Barcelona"]
+[Date "1960.??.??"]
+[Round "1"]
+[White "Prado, Jose E"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "D04"]
+[PlyCount "70"]
+[EventDate "1960.09.??"]
+[EventType "team"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 Nf6 3. e3 Bg4 4. c3 Nc6 5. Qa4 Bxf3 6. gxf3 a6 7. f4 Ne4 8. Nd2
+f5 9. Nxe4 fxe4 10. Bd2 e6 11. c4 Be7 12. Rc1 O-O 13. Qb3 Rb8 14. Bh3 Rf6 15.
+Rg1 Kh8 16. Rg2 b5 17. cxd5 exd5 18. Ke2 Qd6 19. Rc5 Qxf4 20. exf4 Nxd4+ 21.
+Kd1 Nxb3 22. Rxd5 Nxd2 23. Rxd2 Rxf4 24. Rg4 Bd6 25. Re2 Rd8 26. Kc2 h5 27. Rg5
+Rh4 28. Bg2 Rxh2 29. Bxe4 Rf8 30. Rf5 Rxf5 31. Bxf5 g5 32. Kd3 Kg7 33. Bc8 g4
+34. Bxa6 b4 35. Ke4 Kf6 0-1
+
+[Event "Camp. España eq. Final"]
+[Site "Barcelona"]
+[Date "1960.??.??"]
+[Round "4"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Albareda Creus, Miguel"]
+[Result "1/2-1/2"]
+[ECO "B66"]
+[PlyCount "65"]
+[EventDate "1960.09.??"]
+[EventType "team"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bg5 e6 7. Qd2 a6 8.
+O-O-O h6 9. Bf4 Bd7 10. Nxc6 Bxc6 11. f3 d5 12. e5 Nd7 13. Ne2 Qc7 14. Qc3 g5
+15. Bg3 Bg7 16. Nd4 Rc8 17. Re1 Ba4 18. Qxc7 Rxc7 19. h4 Nb8 20. hxg5 hxg5 21.
+Rxh8+ Bxh8 22. Bd3 Nd7 23. c3 Rc8 24. Kd2 Bg7 25. b3 Bc6 26. a4 Ke7 27. Bc2 Nb8
+28. b4 Bd7 29. b5 Be8 30. Rb1 axb5 31. axb5 Nd7 32. Re1 Ra8 33. Bb3 1/2-1/2
+
+[Event "Camp. España eq. Final"]
+[Site "Barcelona"]
+[Date "1960.??.??"]
+[Round "7"]
+[White "Toran Albero, Roman"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "D35"]
+[PlyCount "88"]
+[EventDate "1960.09.??"]
+[EventType "team"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+
+1. d4 e6 2. c4 d5 3. Nc3 c6 4. Nf3 Nf6 5. cxd5 exd5 6. Qc2 Na6 7. a3 Nc7 8. Bg5
+Ne6 9. Bh4 Qa5 10. Bxf6 gxf6 11. g3 b5 12. Rd1 Rb8 13. Bg2 b4 14. axb4 Qxb4 15.
+O-O Qxb2 16. Qd3 Bb4 17. Na4 Qa3 18. Qc2 Be7 19. Ra1 Qb3 20. Qxc6+ Bd7 21. Qa6
+O-O 22. Nc5 Bxc5 23. dxc5 Bb5 24. Qxa7 Bxe2 25. Rfe1 Bxf3 26. Re3 Qc2 27. Bxf3
+Ra8 28. Qxa8 Rxa8 29. Rxa8+ Kg7 30. Ra7 Ng5 31. Kg2 d4 32. Ree7 d3 33. Bg4 Kg6
+34. h4 Ne6 35. Bxe6 fxe6 36. g4 d2 37. Rxh7 f5 38. g5 Qe4+ 39. f3 Qe2+ 40. Kg3
+f4+ 41. Kg4 Qg2+ 42. Kxf4 Qh2+ 43. Kg4 Qg1+ 44. Kf4 e5+ 0-1
+
+[Event "Camp. Europa eq. sf. España-Suiza m"]
+[Site "Barcelona"]
+[Date "1961.??.??"]
+[Round "?"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Keller, Dieter"]
+[Result "1-0"]
+[ECO "E16"]
+[PlyCount "81"]
+[EventDate "1961.02.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb7 5. Bg2 Bb4+ 6. Nbd2 O-O 7. O-O Qc8 8. a3
+Be7 9. Qc2 c5 10. e4 cxd4 11. Nxd4 Nc6 12. N2f3 Nxd4 13. Nxd4 Ne8 14. Be3 Nd6
+15. Rac1 f5 16. e5 $1 Nf7 17. f4 g5 18. Rfd1 gxf4 19. Bxf4 $1 Bxg2 20. Qxg2 Ng5
+21. Kh1 Kh8 22. Nb5 Ne4 23. Nc3 $1 Nxc3 24. Rxc3 Rd8 25. a4 Qc6 26. b3 Qxg2+
+27. Kxg2 Rab8 28. Rcd3 Rb7 29. Kf3 Kg7 30. g4 fxg4+ $1 31. Kxg4 Kf7 32. Kf3 a6
+33. Ke4 b5 34. cxb5 axb5 35. a5 $1 Ra7 36. Be3 $1 Raa8 37. Bb6 Rg8 38. Rxd7 Ke8
+39. Rb7 Rg4+ 40. Kf3 Rh4 41. Rdd7 1-0
+
+[Event "C. A. Barcelona Social"]
+[Site "Barcelona"]
+[Date "1964.??.??"]
+[Round "?"]
+[White "Medina Garcia, Antonio"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "D45"]
+[PlyCount "72"]
+[EventDate "1964.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. e3 Nbd7 6. Qc2 Bd6 7. Bd2 O-O 8.
+O-O-O c5 9. Kb1 cxd4 10. Nxd4 Nc5 11. cxd5 exd5 12. Ncb5 Qe7 13. Bb4 Nce4 14.
+Bxd6 Qxd6 15. f3 Nc5 16. Bd3 Bd7 {Se amenaza 17...Tfc8 y si 18 Cc3 Ca4!} 17.
+Nc3 Rac8 18. Qd2 Rfe8 19. Rhe1 Ne6 20. g4 $2 (20. Bc2) 20... Nxd4 21. exd4 Qc7
+22. Qf2 $2 (22. Re2 Rxe2 23. Nxe2 Re8 24. Ng3 h6 25. Nf5 $11) 22... Rxe1 (22...
+Qf4 23. Qg3) 23. Rxe1 Qf4 24. h3 h6 25. Re5 (25. a3) 25... Bxg4 26. hxg4 Nxg4
+27. Qh4 (27. Qe1 Nxe5 28. dxe5 Re8 $15) 27... Qxd4 (27... Qxf3 28. Be2 $18) 28.
+Qxg4 $2 (28. Bf5 Qxe5 29. Bxc8 Ne3 30. Qe1) 28... Qxd3+ 29. Ka1 Rxc3 (29...
+Qd1+ 30. Nb1) 30. Re8+ Kh7 31. bxc3 Qf1+ 32. Kb2 Qb5+ 33. Kc2 Qxe8 34. Qf5+ g6
+35. Qxd5 Qe2+ 36. Kc1 Qe7 {Rev. "El Ajedrez Español" n 97} 0-1
+
+[Event "Camp. España eq."]
+[Site "Barcelona"]
+[Date "1964.??.??"]
+[Round "1"]
+[White "Mora Corbera, Jaime"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "D11"]
+[PlyCount "69"]
+[EventDate "1964.08.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. g3 dxc4 5. Bg2 b5 6. O-O Bb7 7. a4 Nbd7 8. b3
+cxb3 9. axb5 cxb5 10. Qxb3 Qb6 11. Nc3 a6 12. Ne5 e6 13. Nc4 Qc7 14. Bf4 Qc8
+15. Bxb7 Qxb7 16. Nxb5 axb5 17. Qxb5 Qe4 18. Nd2 Rxa1 19. Nxe4 Rxf1+ 20. Kxf1
+Nxe4 21. Qc6 g5 22. Qa8+ Ke7 23. Bc7 Nd2+ 24. Ke1 Kf6 25. Qd8+ Kg6 26. Qxd7 Bb4
+27. Qa4 Bc3 28. Qc2+ Ne4+ 29. Kf1 f5 30. f3 Nd2+ 31. Kg2 Bb4 32. Qb2 Rc8 33.
+Qxb4 Nxf3 34. Qb7 Ne1+ 35. Kf1 1-0
+
+[Event "Camp. España eq."]
+[Site "Barcelona"]
+[Date "1964.08.22"]
+[Round "2"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Bordell Rosell, Roman"]
+[Result "1-0"]
+[ECO "E16"]
+[PlyCount "97"]
+[EventDate "1964.08.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb7 5. Bg2 Bb4+ 6. Bd2 Be7 7. O-O c5 8. Nc3
+O-O 9. d5 exd5 10. Nh4 d6 11. Nf5 Nbd7 12. Bf4 Ne5 13. Nxd5 Nxd5 14. Bxd5 Bxd5
+15. Qxd5 Qc7 16. Rfd1 Rfd8 17. Rd2 Kf8 18. Rad1 Rab8 19. Qe4 f6 20. Bxe5 dxe5
+21. Nxe7 Qxe7 22. Qxh7 Kf7 23. Rd3 Rd4 24. e3 Rxd3 25. Qxd3 Qe6 26. Qd7+ Qe7
+27. Qc6 Rd8 28. Rxd8 Qxd8 29. Qd5+ Qxd5 30. cxd5 e4 31. f3 f5 32. g4 fxg4 33.
+fxe4 Kf6 34. d6 Ke6 35. e5 b5 36. Kf2 a5 37. b3 Kd7 38. Ke2 Kc6 39. a4 bxa4 40.
+bxa4 Kd7 41. Kd3 Kc6 42. Kc4 g6 43. Kc3 Kd7 44. Kd3 Kc6 45. Kc4 g5 46. e4 g3
+47. hxg3 g4 48. Kc3 Kd7 49. Kd3 1-0
+
+[Event "Camp. España eq."]
+[Site "Barcelona"]
+[Date "1964.??.??"]
+[Round "3"]
+[White "Ulvestad, Olaf"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "A08"]
+[PlyCount "80"]
+[EventDate "1964.08.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2003.08.27"]
+
+1. Nf3 c5 2. g3 Nc6 3. Bg2 d5 4. d3 e5 5. Nbd2 Nf6 6. e4 Be7 7. exd5 Nxd5 8.
+Nc4 f6 9. Nh4 O-O 10. O-O Nb6 11. Nxb6 axb6 12. c3 Be6 13. b3 f5 14. Nf3 e4 15.
+Ne1 c4 16. bxc4 Bxc4 17. d4 Bxf1 18. Qb3+ Kh8 19. Bxf1 Bg5 20. Ng2 Bxc1 21.
+Rxc1 Qe7 22. a4 f4 23. Re1 e3 24. gxf4 exf2+ 25. Kxf2 Qc7 26. Kg1 Rac8 27. Re3
+Na5 28. Qe6 Nc4 29. Rh3 Qf7 30. Qe4 Qf5 31. Qxf5 Rxf5 32. Bd3 Rf6 33. Rxh7+ Kg8
+34. Rh3 Nd6 35. Bc2 Rh6 36. Rd3 Kf8 37. Bb3 Re8 38. Re3 Rxe3 39. Nxe3 Ne4 40.
+c4 Rh3 0-1
+
+[Event "Camp. España eq."]
+[Site "Barcelona"]
+[Date "1964.??.??"]
+[Round "4"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Menvielle Lacourrelle, Augusto"]
+[Result "1-0"]
+[ECO "A85"]
+[PlyCount "105"]
+[EventDate "1964.08.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 c6 3. Nf3 e6 4. Nc3 f5 5. Bf4 Nf6 6. e3 Nbd7 7. Bd3 Ne4 8. Ne5
+Ndf6 9. O-O Bd6 10. Na4 g5 11. Bxe4 gxf4 12. Bf3 fxe3 13. Bh5+ Ke7 14. fxe3 Qc7
+15. Be2 Rg8 16. Qd3 Bxe5 17. dxe5 Qxe5 18. cxd5 exd5 19. Rf4 b6 20. Raf1 Bd7
+21. Nc3 Rae8 22. Nd1 Kd8 23. Qa6 Qc7 24. Ra4 c5 25. Ra3 Bc6 26. Qxa7 Bb7 27.
+Rxf5 Rg6 28. Bf3 Reg8 29. Rd3 Ke7 30. Rxf6 Kxf6 31. Nc3 Ke5 32. Rxd5+ Kf6 33.
+Rd2 Qe5 34. Qxb6+ Kf5 35. e4+ Bxe4 36. Bxe4+ Qxe4 37. Qxg6+ Rxg6 38. Nxe4 Kxe4
+39. Rc2 Kd4 40. Rd2+ Ke3 41. Rc2 Rg5 42. h4 Rd5 43. Kh2 Kd3 44. Rc3+ Ke2 45.
+Kh3 c4 46. Rxc4 Rd3+ 47. g3 Rd2 48. Rc7 Kf3 49. Rf7+ Ke2 50. Rxh7 Rxb2 51. a4
+Kf2 52. Rf7+ Ke2 53. Rf4 1-0
+
+[Event "Camp. España eq."]
+[Site "Barcelona"]
+[Date "1964.08.??"]
+[Round "6"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Palacios de la Prida, Ernesto"]
+[Result "0-1"]
+[ECO "D25"]
+[PlyCount "64"]
+[EventDate "1964.08.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 dxc4 3. Nf3 Nf6 4. e3 Bg4 5. Bxc4 e6 6. h3 Bh5 7. Qb3 Bxf3 8.
+gxf3 Nbd7 9. Qxb7 c5 10. Nc3 Be7 11. d5 exd5 12. Nxd5 O-O 13. Bd2 Rb8 14. Nxe7+
+Qxe7 15. Qxa7 Rxb2 16. Bb3 Ne4 17. O-O-O Ne5 18. Qa6 Qa7 19. Bc4 Qb8 20. Bb3
+Qa8 21. Kxb2 Qxa6 22. fxe4 Nd3+ 23. Kc3 Nxf2 24. Rhf1 Qd3+ 25. Kb2 Nxd1+ 26.
+Rxd1 Rb8 27. Bb4 Qe2+ 28. Rd2 Qxe3 29. Bc3 c4 30. Rg2 cxb3 31. Rxg7+ Kf8 32.
+axb3 Qxc3+ 0-1
+
+[Event "Camp. España eq."]
+[Site "Barcelona"]
+[Date "1964.08.??"]
+[Round "8"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Toran Albero, Roman"]
+[Result "1/2-1/2"]
+[ECO "A32"]
+[PlyCount "47"]
+[EventDate "1964.08.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 c5 4. g3 cxd4 5. Nxd4 Bb4+ 6. Nd2 Nc6 7. Nc2 Be7 8.
+Bg2 O-O 9. Ne4 d6 10. O-O Qc7 11. Bf4 Rd8 12. Nc3 a6 13. Rc1 Ne5 14. Nd4 Rb8
+15. b3 b6 16. h3 Bb7 17. e4 Rbc8 18. Be3 Qb8 19. f4 Nc6 20. f5 Nxd4 21. Bxd4
+Bc6 22. g4 Nd7 23. g5 Ne5 24. f6 1/2-1/2
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1965.05.02"]
+[Round "10"]
+[White "Anguera Maestro, Jaime"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "E11"]
+[PlyCount "82"]
+[EventDate "1965.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Bd2 Qe7 5. a3 Bxd2+ 6. Nbxd2 d6 7. e3 e5 8.
+d5 a5 9. Qc2 a4 10. Bd3 Nbd7 11. Bf5 Nc5 12. Bxc8 Rxc8 13. O-O O-O 14. b4 axb3
+15. Nxb3 Nfe4 16. Nfd2 Nxd2 17. Nxd2 Ra8 18. Nb3 Na4 19. Rfc1 b6 20. Rcb1 f5
+21. f3 Qh4 22. Rc1 Ra6 23. Ra2 Qg5 24. Qd2 Rfa8 25. Qe2 Qf6 26. Qd2 Kh8 27. Qd3
+f4 28. exf4 Qxf4 29. Re1 Nc5 30. Nxc5 bxc5 31. a4 Rxa4 32. Rxa4 Rxa4 33. Qb3
+Rb4 34. Qa3 h6 35. Qa8+ Kh7 36. Qc8 Rxc4 37. Qxc7 Rc1 38. Rxc1 Qxc1+ 39. Kf2
+Qd2+ 40. Kg3 Qxd5 41. Qd7 Qd3 0-1
+
+[Event "Copa Catalana Mem. Agusti Pujol eq."]
+[Site "Barcelona"]
+[Date "1965.01.17"]
+[Round "2"]
+[White "Mora Corbera, Jaime"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "B18"]
+[PlyCount "68"]
+[EventDate "1965.??.??"]
+[EventType "k.o."]
+[EventRounds "6"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. Bc4 e6 7. Nf3 Nd7 8.
+O-O Ngf6 9. Re1 Be7 10. c3 Nd5 11. Ne5 Nxe5 12. Rxe5 O-O 13. Qf3 Bd6 14. Re1
+Qf6 15. Qxf6 Nxf6 16. Bg5 h6 17. Bxf6 gxf6 18. Ne4 Be7 19. Rad1 Rad8 20. f4 Kh7
+21. Rd3 b5 22. Bb3 c5 23. Bc2 cxd4 24. cxd4 Rd7 25. g4 f5 26. Ng3 fxg4 27. f5
+exf5 28. Re5 Bf6 29. Rxb5 Rc8 30. Rd2 Rxd4 31. Re2 f4 32. Nh5 Bg5 33. h4 gxh3
+34. Bxg6+ Kxg6 0-1
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1965.??.??"]
+[Round "?"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Medina Garcia, Antonio"]
+[Result "1-0"]
+[ECO "D35"]
+[PlyCount "68"]
+[EventDate "1965.12.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. e3 Be7 5. Nf3 O-O 6. Bd3 c5 7. O-O Nc6 8. dxc5
+Bxc5 9. a3 Qe7 10. b4 Bb6 11. Bb2 Rd8 12. Qb3 Bd7 13. Rfd1 dxc4 14. Bxc4 Be8
+15. Na4 Bc7 16. Nc5 b6 17. Nd3 e5 18. Nd2 a6 19. Qc2 e4 20. Nf4 Be5 21. Bxe5
+Nxe5 22. Be2 Rac8 23. Qb2 Nd3 (23... g5 24. Nh3 Nd3 25. Bxd3 Rxd3 26. Nxg5 Rcd8
+$17 {Medina,A}) 24. Bxd3 exd3 25. Nf3 Qe4 26. Nd4 Bb5 27. Rac1 g5 28. Rxc8 Rxc8
+29. Nxb5 axb5 30. Nxd3 Rd8 31. Qxf6 Rxd3 32. Rc1 Qc4 33. Qb2 Rb3 34. Qa1 Qe6
+1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1967.03.02"]
+[Round "5"]
+[White "Medina Garcia, Antonio"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "B65"]
+[PlyCount "42"]
+[EventDate "1967.??.??"]
+[EventType "tourn"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 Nf6 4. Nc3 cxd4 5. Nxd4 Nc6 6. Bg5 e6 7. Qd2 Be7 8.
+O-O-O O-O 9. f4 Nxd4 10. Qxd4 Qa5 11. Bc4 Rd8 12. Rhf1 h6 13. Bh4 e5 14. Qd3
+Bg4 15. Rd2 exf4 16. Bxf6 Bxf6 17. Nd5 Bg5 18. Kb1 b5 19. Bxb5 Rab8 20. Bc4 Be6
+21. c3 Qc5 1/2-1/2
+
+[Event "Berga op"]
+[Site "Berga"]
+[Date "1968.??.??"]
+[Round "?"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Medina Garcia, Antonio"]
+[Result "1-0"]
+[ECO "E20"]
+[PlyCount "91"]
+[EventDate "1968.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. g3 O-O 6. Bg2 dxc4 7. O-O Nbd7 8. a3
+Be7 9. e4 Nb6 10. Be3 Bd7 11. Ne5 Rc8 12. a4 a5 13. Qe2 Bb4 14. Nxc4 Bxc3 15.
+bxc3 Nxa4 16. Qc2 b5 17. Nxa5 c6 18. Nb3 Ra8 19. Rfd1 Nb6 20. Nc5 Rxa1 21. Rxa1
+Bc8 22. Ra7 Nfd7 23. Bf4 Nc4 24. Bc7 Qe7 25. Nd3 e5 26. Bxe5 Ncxe5 27. Nxe5 Qd6
+28. Nxd7 Bxd7 29. e5 Qe6 30. Qa2 Qxa2 31. Rxa2 Rc8 32. Ra7 Be8 33. f4 Kf8 34.
+Kf2 c5 35. Ra8 Rxa8 36. Bxa8 cxd4 37. cxd4 b4 38. Ke3 Bb5 39. Bd5 Ba4 40. Kd3
+Bb5+ 41. Bc4 Ba4 42. d5 Ke7 43. d6+ Ke8 44. f5 h5 45. e6 fxe6 46. fxe6 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1968.??.??"]
+[Round "?"]
+[White "Damjanovic, Mato"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "D32"]
+[PlyCount "73"]
+[EventDate "1968.02.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. c4 Nf6 5. Nc3 e6 6. Nf3 Be7 7. cxd5 exd5 8.
+Bd3 O-O 9. h3 Nc6 10. O-O Re8 11. Bf4 Be6 12. Re1 Rc8 13. Ng5 Bd6 14. Be5 g6
+15. Qf3 Bxe5 16. dxe5 Nd7 17. Qg3 Ndxe5 18. Nxe6 fxe6 19. Rxe5 Nxe5 20. Qxe5
+Qc7 21. Qe2 Qc5 22. Rd1 a6 23. h4 e5 24. Bc2 d4 25. Bb3+ Kg7 26. Ne4 Qe7 27. h5
+Red8 28. g3 Rc6 29. Kg2 Qd7 30. Ng5 Qf5 31. h6+ Kf8 32. Nxh7+ Ke7 33. Qd2 e4
+34. Qg5+ Ke8 35. Qxf5 gxf5 36. Ng5 Rd7 37. Rh1 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1968.??.??"]
+[Round "?"]
+[White "Lehmann, Heinz"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "B00"]
+[Annotator "Van Reek, Jan"]
+[PlyCount "63"]
+[EventDate "1968.02.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nc6 2. Nf3 d6 3. e4 g6 4. d5 Ne5 5. Nxe5 dxe5 6. Bb5+ Bd7 7. Bxd7+ $5 ({
+Known is} 7. Qd3) 7... Qxd7 8. c4 {White has a plus in the Nimzowitsch Defence.
+} e6 9. O-O Bg7 10. Qb3 b6 11. Rd1 f5 $2 ({Preferable is} 11... exd5 12. cxd5
+Nf6) 12. Nc3 $1 Nf6 13. c5 exd5 14. Nxd5 Nxd5 15. Rxd5 Qe6 16. Qa4+ b5 $5 (
+16... Ke7 17. Bg5+ Bf6 18. f4 {wins for White.}) 17. Qxb5+ c6 18. Qb7 O-O 19.
+Rd6 $6 (19. Rd7 $1 Bf6 20. Bh6 {decides the game quickly.}) 19... Rad8 20. Bg5
+$2 (20. Qxc6 {wins easily.}) 20... Rxd6 21. cxd6 Qxd6 22. Be7 Qb8 $1 23. Qxc6
+Qxb2 $1 24. Qe6+ $5 Kh8 $2 (24... Rf7 25. Rd1 Bf8 {defends well.}) 25. Rf1 Rb8
+26. exf5 gxf5 27. Bf6 f4 $2 (27... Rf8 28. Bxg7+ Kxg7 29. Qe7+ Rf7 {tries to
+survive.}) 28. h4 Qd4 29. Rc1 Rf8 30. Rc8 Qb4 31. Bxg7+ Kxg7 32. Rc7+ {Pomar
+diverted from solid style.} 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1968.??.??"]
+[Round "?"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Medina Garcia, Antonio"]
+[Result "1-0"]
+[ECO "E99"]
+[Annotator "Van Reek, Jan"]
+[PlyCount "81"]
+[EventDate "1968.02.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5
+Ne7 9. Ne1 Nd7 10. Be3 f5 11. f3 f4 12. Bf2 g5 13. Nd3 Ng6 14. c5 Nf6 15. Rc1
+Rf7 16. Qc2 $5 ({Usual is} 16. cxd6 cxd6 17. Nb5) 16... g4 $1 17. fxg4 $5 Bxg4
+18. Bf3 Bf8 19. cxd6 cxd6 20. Nb5 $2 Rg7 $2 {They miss a tactical point.} (
+20... Bxf3 21. gxf3 Qd7 22. a4 a6 {wins for Black.}) 21. Bxg4 Nxg4 22. Nc7 Rc8
+23. Ne6 $1 Rxc2 24. Nxd8 Rgc7 25. Bxa7 {White has an extra pawn, but Black
+attacks.} Nf6 26. Bb6 $5 Rxc1 27. Rxc1 Rxc1+ 28. Nxc1 Nxe4 29. Nxb7 Ne7 $1 30.
+a4 Nxd5 31. a5 $1 Nxb6 $2 (31... Be7 32. Bd8 Bxd8 33. Nxd8 Nc7 {keeps the
+equality.}) 32. axb6 {The doubled pawns become strong.} d5 33. Nd3 Nd6 $5 34.
+Nd8 e4 $5 35. Nxf4 Nc4 36. b7 Bd6 37. Nxd5 Ne5 38. b4 Kf8 39. b5 Ke8 40. Nc6
+Nd7 41. Ndb4 {Pomar has two extra pawns and will queen soon.} 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1969.??.??"]
+[Round "1"]
+[White "Calvo Minguez, Ricardo"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "B18"]
+[PlyCount "78"]
+[EventDate "1969.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. Bc4 e6 7. N1e2 Bd6 8.
+h4 h6 9. Nf4 Bxf4 10. Bxf4 Nf6 11. h5 Bh7 12. Qd2 Nbd7 13. Bb3 Qe7 14. O-O Nd5
+15. c4 Nxf4 16. Qxf4 O-O 17. Rfe1 Rfe8 18. Ne4 Nf6 19. Nxf6+ Qxf6 20. Qxf6 gxf6
+21. d5 e5 22. dxc6 bxc6 23. Rad1 Red8 24. Ba4 c5 25. Rd5 Rxd5 26. cxd5 Rd8 27.
+Bc6 c4 28. Re3 Bd3 29. b3 Kf8 30. bxc4 Bxc4 31. Ra3 a6 32. Ra4 Bxd5 33. Rxa6
+Bxc6 34. Rxc6 Rd1+ 35. Kh2 Rd2 36. Rxf6 Rxa2 37. Kg3 Kg7 38. Rd6 Ra3+ 39. Kg4
+Ra4+ 1/2-1/2
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1969.??.??"]
+[Round "2"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Toran Albero, Roman"]
+[Result "1-0"]
+[ECO "A65"]
+[PlyCount "69"]
+[EventDate "1969.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e6 4. Nc3 exd5 5. cxd5 d6 6. e4 g6 7. Bd3 Bg7 8. Nge2
+O-O 9. O-O Na6 10. f3 Rb8 11. Be3 Re8 12. Qd2 Nc7 13. Rab1 b5 14. b4 cxb4 15.
+Rxb4 a5 16. Rxb5 Nxb5 17. Nxb5 Ba6 18. Ned4 Ra8 19. a4 Bxb5 20. Bxb5 Nd7 21.
+Nc6 Qc7 22. Rc1 Nc5 23. Bxc5 dxc5 24. d6 Qb6 25. d7 Red8 26. e5 Qc7 27. Nxd8
+Rxd8 28. f4 g5 29. Qd5 gxf4 30. Rxc5 Qb6 31. Kh1 Bf8 32. Rc3 Qf2 33. Rf3 Qe1+
+34. Rf1 Qe3 35. e6 $138 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1969.??.??"]
+[Round "3"]
+[White "Bosch Codina, Joaquin"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "B83"]
+[PlyCount "56"]
+[EventDate "1969.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. e4 c5 2. Nf3 d6 3. d4 Nf6 4. Nc3 cxd4 5. Nxd4 Nc6 6. Be2 e6 7. O-O Be7 8.
+Nb3 O-O 9. Be3 b6 10. Qd2 Bb7 11. Rad1 Rc8 12. f3 Qc7 13. Qe1 Rfd8 14. a3 Ne5
+15. Nd2 d5 16. exd5 Nxd5 17. Nxd5 Rxd5 18. f4 Ng6 19. c4 Rdd8 20. Nf3 Nxf4 21.
+Bxf4 Qxf4 22. Qc3 Bf6 23. Rxd8+ Rxd8 24. Qc2 Qe3+ 25. Kh1 Be4 26. Qc1 Qxe2 27.
+Re1 Bxf3 28. Rxe2 Bxe2 0-1
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1969.??.??"]
+[Round "4"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Ivkov, Borislav"]
+[Result "1/2-1/2"]
+[ECO "E54"]
+[PlyCount "26"]
+[EventDate "1969.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Bd3 d5 6. Nf3 c5 7. O-O dxc4 8. Bxc4
+Qe7 9. a3 Ba5 10. Qe2 Nc6 11. Bd2 Bc7 12. Rac1 a6 13. Rfd1 Rd8 1/2-1/2
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1969.??.??"]
+[Round "5"]
+[White "Marovic, Drazen"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "D43"]
+[PlyCount "69"]
+[EventDate "1969.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. Bg5 h6 6. Bh4 dxc4 7. e3 b5 8. a4 a6
+9. Bxf6 gxf6 10. axb5 cxb5 11. Nxb5 axb5 12. Rxa8 Bb4+ 13. Nd2 Bb7 14. Ra1 Rg8
+15. Be2 Rxg2 16. Kf1 Bxd2 17. Qxd2 Qd5 18. f3 Qg5 19. h4 Qg6 20. d5 Nd7 21.
+dxe6 fxe6 22. Rd1 Bc6 23. Bd3 cxd3 24. Qxg2 Qf5 25. Kf2 Ne5 26. Rh3 h5 27. Qg8+
+Ke7 28. Rg1 Qxh3 29. Rg7+ Kd6 30. Qf8+ Kd5 31. Qd8+ Bd7 32. Rxd7+ Nxd7 33.
+Qxd7+ Kc5 34. Qc7+ Kd5 35. e4+ 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1969.??.??"]
+[Round "6"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Ulvestad, Olaf"]
+[Result "1-0"]
+[ECO "A56"]
+[PlyCount "71"]
+[EventDate "1969.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e5 4. Nc3 d6 5. e4 Be7 6. Bd3 Nbd7 7. Nge2 Nf8 8. f3
+a6 9. Be3 Ng6 10. Qd2 Bd7 11. a3 Rb8 12. b4 b5 13. bxc5 dxc5 14. O-O Qc7 15.
+Rfb1 b4 16. axb4 cxb4 17. Na4 Bxa4 18. Rxa4 a5 19. Rba1 Ra8 20. Nc1 Nd7 21. Nb3
+Nc5 22. Nxc5 Bxc5 23. Bxc5 Qxc5+ 24. Qf2 Qc7 25. Rxb4 O-O 26. Rb5 Nf4 27. Bf1
+a4 28. g3 Nh5 29. c5 Rfd8 30. c6 f5 31. Rb7 Qd6 32. Qb6 Nf6 33. c7 Qxb6+ 34.
+Rxb6 Rdc8 35. d6 Nd7 36. Ra6 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1969.??.??"]
+[Round "7"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "B13"]
+[PlyCount "99"]
+[EventDate "1969.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Bd3 Nc6 5. c3 Nf6 6. Bf4 g6 7. Nf3 Bg7 8.
+Nbd2 O-O 9. h3 Re8 10. Ne5 Nh5 11. Bh2 Nxe5 12. dxe5 Bh6 13. Qf3 d4 14. Ne4
+dxc3 15. O-O cxb2 16. Rad1 Bc1 17. Bc4 Bf5 18. Rxd8 Raxd8 19. Nc3 Rc8 20. Bxf7+
+Kxf7 21. g4 Rxc3 22. e6+ Kg8 23. Qxc3 b1=Q 24. Rxc1 Qd3 25. Qxd3 Bxd3 26. gxh5
+Kg7 27. Be5+ Kh6 28. hxg6 Kxg6 29. Rc5 Bf5 30. Rc7 Be4 31. Rc5 Rd8 32. f4 Bc6
+33. Bc3 Rd5 34. Rc4 Kf5 35. Bb4 Rd1+ 36. Kf2 Kxe6 37. Rc5 Rd5 38. Rxd5 Bxd5 39.
+a4 b6 40. a5 bxa5 41. Bxa5 Bc6 42. Ke3 Kd5 43. f5 Bd7 44. Kf4 e5+ 45. fxe6 Bxe6
+46. h4 Kc4 47. Ke3 Kb5 48. Be1 a5 49. Kd2 Kb4 50. Kc1+ 1/2-1/2
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1969.??.??"]
+[Round "8"]
+[White "Pardo, Nestor"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "E17"]
+[PlyCount "72"]
+[EventDate "1969.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb7 5. Bg2 Be7 6. Nc3 Ne4 7. O-O Nxc3 8.
+bxc3 d6 9. Re1 Nd7 10. e4 O-O 11. Ba3 Rc8 12. Qe2 c5 13. d5 e5 14. Bh3 Ba6 15.
+Nd2 Rb8 16. f4 Bf6 17. Rac1 b5 18. cxb5 Bxb5 19. c4 Ba6 20. Rc2 exf4 21. gxf4
+Re8 22. Nf3 Nf8 23. e5 Ng6 24. Qe3 dxe5 25. Qxc5 Nxf4 26. Bf1 e4 27. Qd6 Qb6+
+28. Qxb6 axb6 29. Nd2 Bd4+ 30. Kh1 Nd3 31. Rb1 f5 32. Bd6 Rbc8 33. Nb3 Be3 34.
+c5 bxc5 35. Na5 c4 36. Rb6 Bxb6 0-1
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1969.??.??"]
+[Round "9"]
+[White "Pomar Salamanca, Arturo"]
+[Black "O' Kelly de Galway, Alberic"]
+[Result "1/2-1/2"]
+[ECO "E56"]
+[PlyCount "94"]
+[EventDate "1969.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 c5 5. Bd3 O-O 6. Nf3 d5 7. O-O dxc4 8. Bxc4
+Nc6 9. a3 Ba5 10. Qd3 a6 11. Rd1 b5 12. Ba2 Bb7 13. Bd2 Bb6 14. Be1 cxd4 15.
+exd4 Qe7 16. Rac1 Rfd8 17. Ne2 Rac8 18. Bc3 Nb8 19. Ng3 Bc7 20. Re1 Bf4 21.
+Rcd1 Bd5 22. Bb1 Nbd7 23. Ba5 Bxg3 24. Bxd8 Bxf2+ 25. Kxf2 Qxd8 26. Rc1 Rxc1
+27. Rxc1 g6 28. Qc3 Bb7 29. Qc7 Qa8 30. Rc3 Kg7 31. Kg1 Bxf3 32. Rxf3 Qd5 33.
+Qf4 h5 34. h3 g5 35. Qe3 g4 36. hxg4 hxg4 37. Rf1 Qh5 38. Ba2 Qg6 39. Qf4 Nh5
+40. Qd6 Qe4 41. Qxd7 Qe3+ 42. Kh2 Qg3+ 43. Kg1 Qe3+ 44. Kh2 Qg3+ 45. Kh1 Nf4
+46. Rxf4 Qxf4 47. Bxe6 g3 1/2-1/2
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1970.??.??"]
+[Round "?"]
+[White "Llaverias Sanmarti, Liberto"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "A08"]
+[PlyCount "109"]
+[EventDate "1970.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. Nf3 c5 2. g3 Nc6 3. Bg2 d5 4. O-O Nf6 5. d3 e5 6. c4 Be7 7. cxd5 Nxd5 8. b3
+Be6 9. Bb2 f6 10. Nbd2 O-O 11. Rc1 Rc8 12. Ne4 Nd4 13. e3 Nxf3+ 14. Bxf3 Nb4
+15. d4 cxd4 16. Rxc8 Qxc8 17. exd4 Rd8 18. a3 Nd5 19. Qa1 exd4 20. Bxd4 Qc2 21.
+b4 Qd3 22. Bg2 Nf4 23. Rd1 Ne2+ 24. Kh1 Qb3 25. Nd2 Qc2 26. Nf1 Nxd4 27. Rxd4
+Qxf2 28. Rxd8+ Bxd8 29. Qd1 Bb6 30. Nd2 Bg4 31. Nf3 h5 32. a4 Kh7 33. a5 Be3
+34. h3 Bxf3 35. Bxf3 Kh6 36. Bxh5 Qxg3 37. Bg4 g6 38. Qa1 Kh7 39. Qf1 f5 40.
+Bf3 Bf4 41. Qg2 Qe1+ 42. Qg1 Qh4 43. Qf1 b5 44. axb6 axb6 45. b5 g5 46. Be2 Kg6
+47. Qf3 Bd6 48. Kg2 Qh8 49. Qd5 Qf6 50. Qf3 Qe7 51. Qh5+ Kg7 52. Bd3 Kf6 53.
+Qh8+ Kg6 54. Qg8+ Kf6 55. Qh8+ 1/2-1/2
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1970.??.??"]
+[Round "?"]
+[White "Hartoch, Robert"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "A12"]
+[PlyCount "117"]
+[EventDate "1970.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 c6 2. Nf3 d5 3. b3 Nf6 4. g3 Bf5 5. Bg2 Nbd7 6. Bb2 e6 7. O-O Qb6 8. Qc1
+Be7 9. d3 O-O 10. Nbd2 Rac8 11. Bc3 Rfd8 12. Qb2 c5 13. Qc2 d4 14. Bb2 h6 15.
+e4 dxe3 16. fxe3 Nb8 17. Ne5 Nc6 18. Bxc6 bxc6 19. Ndf3 a5 20. Kg2 Ra8 21. Bc3
+Ra7 22. h3 Bh7 23. e4 Rda8 24. g4 Ne8 25. Nd2 Nd6 26. Nef3 a4 27. bxa4 Rxa4 28.
+Rf2 Qa6 29. Nb3 Ne8 30. Qc1 f6 31. Qe3 Qa7 32. Re2 e5 33. Be1 Nc7 34. Bg3 Ne6
+35. Nh4 Ra3 36. Rb2 Rb8 37. Qc1 Bd6 38. Nf3 Qa4 39. Ne1 Qa7 40. Nc2 Ra4 41. Nd2
+Rd8 42. Rab1 Bc7 43. Ne1 Ba5 44. Kg1 Bb4 45. Qd1 Rxa2 46. Bf2 Rxb2 47. Rxb2 Qa3
+48. Qb1 Nf4 49. Ra2 Qc1 50. Qxc1 Ne2+ 51. Kf1 Nxc1 52. Rb2 Nxd3 53. Nxd3 Rxd3
+54. Nb3 Rf3 55. Ke2 Bxe4 56. Nd2 Bxd2 57. Rxd2 Rxh3 58. Rd8+ Kh7 59. g5 0-1
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1970.??.??"]
+[Round "?"]
+[White "Westerinen, Heikki MJ"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "B18"]
+[PlyCount "65"]
+[EventDate "1970.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. Bc4 Nf6 7. N1e2 e6 8.
+O-O Nbd7 9. Bb3 Nb6 10. Nf4 Bd6 11. Re1 Nbd5 12. Nd3 O-O 13. Ne5 c5 14. Bg5 Qc7
+15. c3 Rac8 16. Qf3 b5 17. Nxg6 hxg6 18. dxc5 Bxc5 19. Rad1 Qb6 20. Ne4 Nxe4
+21. Rxe4 Rfe8 22. Kf1 b4 23. Rh4 Qc6 24. Qh3 f6 25. c4 Nc7 26. Bxf6 Rf8 27.
+Rh8+ Kf7 28. Bxg7 Kxg7 29. Rd7+ Kf6 30. Qh4+ Ke5 31. Qg5+ Rf5 32. f4+ Ke4 33.
+Bc2+ 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1970.??.??"]
+[Round "4"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Tatai, Stefano"]
+[Result "1-0"]
+[ECO "A33"]
+[PlyCount "49"]
+[EventDate "1970.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 c5 3. Nf3 cxd4 4. Nxd4 Nc6 5. Nc3 e6 6. g3 Bb4 7. Bg2 Qa5 8.
+O-O a6 9. Nb3 Qh5 10. Bf4 O-O 11. Bd6 Bxd6 12. Qxd6 Ng4 13. h4 Nge5 14. c5 f5
+15. f4 Nc4 16. Qd3 Nxb2 17. Qc2 Nc4 18. Nd5 Na3 19. Qb2 Nb5 20. a4 Nba7 21. Nb6
+Rb8 22. Rad1 Nd8 23. Na5 Qe8 24. Qe5 Qe7 25. Kh2 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1970.02.28"]
+[Round "8"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Medina Garcia, Antonio"]
+[Result "1-0"]
+[ECO "A39"]
+[PlyCount "117"]
+[EventDate "1970.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. Nf3 O-O 5. g3 c5 6. Bg2 cxd4 7. Nxd4 Nc6 8.
+O-O Nxd4 9. Qxd4 d6 10. Qd3 Bf5 11. e4 Be6 12. Bd2 Qd7 13. Rac1 Rfc8 14. b3 Bh3
+15. Rfd1 Bxg2 16. Kxg2 a6 17. a4 b6 18. Be3 Rab8 19. h3 h5 20. Kh2 Qe8 21. Bd4
+Nd7 22. Bxg7 Kxg7 23. Nd5 Kh7 24. Qe3 Rb7 25. Rc3 Qf8 26. g4 e6 27. Nf4 hxg4
+28. hxg4 Kg8 29. Kg2 Nf6 30. g5 Ne8 31. Rh1 Qg7 32. Ne2 Rc5 33. b4 Rc8 34. Rhc1
+Rcb8 35. Nd4 Rc7 36. b5 Ra8 37. Nc6 axb5 38. axb5 Rb7 39. Ra3 Rxa3 40. Qxa3 Rc7
+41. Qa8 Kf8 42. Ra1 f6 43. Qd8 Qd7 44. gxf6 Qxd8 45. Nxd8 Rxc4 46. f7 Ng7 47.
+Ra8 Rc3 48. Rb8 Nh5 49. Rxb6 Nf4+ 50. Kg1 d5 51. exd5 exd5 52. Rf6 Nh3+ 53. Kg2
+Ng5 54. b6 Rb3 55. b7 d4 56. f4 Rb2+ 57. Kf1 Nh7 58. Rc6 d3 59. Ke1 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1971.??.??"]
+[Round "?"]
+[White "Hecht, Hans Joachim"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "B12"]
+[PlyCount "162"]
+[EventDate "1971.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bd3 Bxd3 6. Qxd3 e6 7. Nf3 Nh6 8. Bg5
+Be7 9. Nbd2 Nd7 10. O-O Nf5 11. g3 Qb6 12. Bxe7 Kxe7 13. c4 dxc4 14. Qa3+ c5
+15. Nxc4 Qb4 16. Qxb4 cxb4 17. Na5 Rhc8 18. Rfc1 Rab8 19. Rxc8 Rxc8 20. Nxb7
+Rc2 21. Rb1 Nb6 22. Na5 Kd7 23. Ne1 Rc7 24. Nb3 Ke7 25. Nd3 Nd5 26. Rc1 Rxc1+
+27. Ndxc1 Kd7 28. Kf1 Kc6 29. Ke2 Nb6 30. Nd3 Kb5 31. Nf4 g6 32. Kd3 Nc4 33.
+Kc2 a5 34. Ne2 a4 35. Nbc1 Nb6 36. b3 a3 37. Kd3 Nd5 38. Ke4 Nfe7 39. Nf4 Nc3+
+40. Kd3 Nf5 41. Nh3 Nh6 42. Ng5 Nd1 43. Ke2 Nc3+ 44. Kd3 Nd1 45. Ne4 Nb2+ 46.
+Kc2 Kc6 47. Ne2 Kd5 48. Nf6+ Kc6 49. f3 Nf5 50. Kd2 Kb5 51. Ne4 Kc6 52. Nf2 Ne7
+53. Nd3 Nxd3 54. Kxd3 Kb5 55. Nf4 Nf5 56. Ne2 Ne7 57. Nf4 Nf5 58. g4 hxg4 59.
+fxg4 Nxh4 60. Ke4 Kc6 61. Nd3 Kb5 62. Kf4 g5+ 63. Kxg5 Nf3+ 64. Kf6 Nxd4 65.
+Ne1 Kc5 66. Kxf7 Nxb3 67. axb3 Kd4 68. g5 Kc3 69. g6 a2 70. g7 a1=Q 71. g8=Q
+Qxe1 72. Qc8+ Kxb3 73. Qxe6+ Kb2 74. Qf6 b3 75. e6+ Kc2 76. Qf5+ Kc1 77. e7 b2
+78. Qc5+ Kd1 79. Qd4+ Kc2 80. Qc4+ Kd1 81. Qd3+ Kc1 1/2-1/2
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1971.??.??"]
+[Round "?"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Andersson, Ulf"]
+[Result "1-0"]
+[ECO "D77"]
+[PlyCount "89"]
+[EventDate "1971.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. d4 Nf6 2. Nf3 g6 3. g3 Bg7 4. Bg2 O-O 5. O-O d5 6. c4 dxc4 7. Na3 Nc6 8.
+Nxc4 Be6 9. b3 Bd5 10. Bb2 a5 11. Rc1 a4 12. bxa4 Ra6 13. Nfe5 Bxg2 14. Kxg2
+Qa8 15. Kg1 Rxa4 16. a3 Ra6 17. Qc2 Rd8 18. Rfd1 e6 19. e3 Ne8 20. Qe2 Qc8 21.
+Qf3 f6 22. Nd3 Na5 23. Nxa5 Rxa5 24. Nf4 Nd6 25. d5 e5 26. Ne6 Rd7 27. Bc3 Ra8
+28. Bb4 Ne8 29. e4 Rf7 30. Qb3 Qd7 31. Bc5 b6 32. Bb4 Bh6 33. Rc6 Ra7 34. Qc4
+f5 35. exf5 gxf5 36. Bc3 Nd6 37. Qh4 Bg7 38. Nxg7 Rxg7 39. Bxe5 Rg6 40. Rdc1 h6
+41. Bb2 Kh7 42. Qd4 Rg8 43. Qf6 Re8 44. R1c4 Qe7 45. Rxd6 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1971.03.06"]
+[Round "?"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Medina Garcia, Antonio"]
+[Result "1/2-1/2"]
+[ECO "A49"]
+[PlyCount "28"]
+[EventDate "1971.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. g3 g6 3. Bg2 Bg7 4. Nf3 O-O 5. O-O d6 6. Nbd2 Nc6 7. Nc4 Bf5 8. d5
+Nb4 9. Nd4 Be4 10. Bxe4 Nxe4 11. Ne3 c6 12. dxc6 Nxc6 13. Nb3 Rc8 14. c3 e6
+1/2-1/2
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1971.??.??"]
+[Round "?"]
+[White "Quinteros, Miguel Angel"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "A03"]
+[PlyCount "86"]
+[EventDate "1971.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. g3 d5 2. Bg2 Nf6 3. f4 Nc6 4. Nf3 Bg4 5. O-O Bxf3 6. Rxf3 e5 7. fxe5 Nxe5 8.
+Rf5 Neg4 9. c4 Qd7 10. Qf1 dxc4 11. Bxb7 Rb8 12. Bg2 h5 13. Rf4 Bd6 14. Rxc4
+Qe6 15. Rc3 h4 16. h3 Nh6 17. g4 Qe5 18. Bc6+ Kf8 19. Qg2 Nhxg4 20. Kf1 Rb4 21.
+e3 Ne4 22. Bxe4 Rxe4 23. Ke2 Rh6 24. d3 Rxe3+ 25. Bxe3 Nxe3 26. Qa8+ Ke7 27.
+Qe4 Re6 28. Qxe5 Bxe5 29. Kd2 Bxc3+ 30. Nxc3 f5 31. Rg1 Kf6 32. Nb5 f4 33. Nd4
+Rd6 34. Nf3 Rc6 35. Nd4 Rc5 36. b4 Rd5 37. Nf3 Nc4+ 38. Ke2 Ne5 39. Rg5 c6 40.
+d4 Nxf3 41. Rxd5 Ng1+ 42. Kf1 cxd5 43. Kxg1 Kf5 0-1
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1971.??.??"]
+[Round "?"]
+[White "Rogoff, Kenneth"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "B10"]
+[PlyCount "123"]
+[EventDate "1971.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. e4 c6 2. d3 d5 3. Nd2 e5 4. Ngf3 Bg4 5. c3 Nd7 6. Be2 Ngf6 7. O-O Bd6 8. Re1
+O-O 9. Qc2 Nh5 10. h3 Bxf3 11. Nxf3 Qf6 12. g3 Qe6 13. Ng5 Qg6 14. Bg4 Be7 15.
+Bf5 Qd6 16. Bxh7+ Kh8 17. Bf5 g6 18. Bg4 Ng7 19. Bxd7 Qxd7 20. Kg2 f5 21. Nf3
+fxe4 22. dxe4 Rxf3 23. Kxf3 Qxh3 24. Bf4 Nh5 25. Rh1 Qe6 26. Bh6 Kh7 27. Be3
+Rf8+ 28. Kg2 Kg8 29. f3 Nf6 30. exd5 Nxd5 31. Bf2 Qf6 32. Qe4 Qg5 33. Rae1 Bd6
+34. Be3 Rf4 35. Bc1 Kg7 36. Rhg1 b5 37. Kf1 Rxe4 38. Bxg5 Rc4 39. Re4 Rc5 40.
+Be3 Nxe3+ 41. Rxe3 Rd5 42. Re2 Bc5 43. Rh1 Kf6 44. Kg2 a5 45. Rh7 a4 46. Rc7
+Rd6 47. a3 Bb6 48. Rb7 Bc5 49. Kh3 Rd3 50. Rc7 Rd6 51. Kg4 Bb6 52. Rb7 Bc5 53.
+Rh7 Rd3 54. Rc7 Rd6 55. Rc8 Re6 56. f4 e4 57. Rxe4 Rxe4 58. Rxc6+ Re6 59. Rxc5
+Rb6 60. Rd5 Ke6 61. Re5+ Kf6 62. Rc5 1-0
+
+[Event "Camp. España eq. prev."]
+[Site "Igualada"]
+[Date "1971.09.20"]
+[Round "1"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Huguet, Bernard"]
+[Result "1-0"]
+[ECO "A44"]
+[PlyCount "69"]
+[EventDate "1971.09.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 c5 2. d5 e5 3. e4 d6 4. Nc3 Ne7 5. Bd3 Ng6 6. Nge2 Be7 7. Be3 Bg5 8. Qd2
+Bxe3 9. fxe3 O-O 10. Ng3 Na6 11. O-O Nc7 12. Nf5 Ne7 13. g4 g6 14. Nxe7+ Qxe7
+15. Qg2 Qg5 16. h3 Qxe3+ 17. Kh2 Qg5 18. Rf3 Bd7 19. Raf1 f6 20. Qf2 Kg7 21.
+Nd1 Ne8 22. Ne3 Qh6 23. h4 Kg8 24. g5 Qg7 25. gxf6 Qf7 26. Qg3 Kh8 27. Qg5 b5
+28. R3f2 Nc7 29. Be2 c4 30. Bg4 Na6 31. Bxd7 Qxd7 32. f7 Qd8 33. Rf6 Nc5 34.
+Qh6 Qe7 35. h5 1-0
+
+[Event "Camp. España eq. prev."]
+[Site "Igualada"]
+[Date "1971.09.22"]
+[Round "3"]
+[White "Menvielle Lacourrelle, Augusto"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "B22"]
+[PlyCount "104"]
+[EventDate "1971.09.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. c3 Nf6 3. e5 Nd5 4. d4 cxd4 5. cxd4 d6 6. Nf3 Nc6 7. Nc3 e6 8. Bb5
+Nxc3 9. bxc3 Bd7 10. exd6 Bxd6 11. O-O O-O 12. Bd3 h6 13. Qe2 Qc7 14. Re1 Rfe8
+15. Ne5 Nxe5 16. dxe5 Bf8 17. Qe4 g6 18. Bd2 Bc6 19. Qf4 Rad8 20. Bc2 Bg7 21.
+Rad1 Rd7 22. c4 Red8 23. Bc3 Rxd1 24. Rxd1 Rxd1+ 25. Bxd1 b5 26. cxb5 Bxb5 27.
+Qd4 Bc6 28. Bf3 Bxf3 29. gxf3 a6 30. Kg2 Kh7 31. Qe3 Qc4 32. a3 Qd5 33. Qe4 Qc5
+34. Qb4 Qxb4 35. axb4 g5 36. f4 Kg6 37. Kf3 Kf5 38. Bd2 Bf8 39. fxg5 hxg5 40.
+h3 Bg7 41. Ke3 Bxe5 42. Kd3 f6 43. f3 Bd6 44. Kc4 e5 45. Kd5 Be7 46. Kc6 e4 47.
+fxe4+ Kxe4 48. Kd7 Bf8 49. Ke6 f5 50. Kf6 f4 51. Kxg5 f3 52. Be1 Bxb4 0-1
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1972.10.29"]
+[Round "1"]
+[White "Ribera Arnal, Angel"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "E11"]
+[PlyCount "91"]
+[EventDate "1972.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 Bb4+ 4. Bd2 Bxd2+ 5. Nbxd2 d5 6. e3 Nbd7 7. Rc1 O-O
+8. Qc2 b6 9. cxd5 Nxd5 10. e4 Nb4 11. Qa4 a5 12. a3 Na6 13. Qc6 Ra7 14. Bb5
+Nac5 15. dxc5 Nb8 16. cxb6 Nxc6 17. bxa7 Nxa7 18. Be2 Bb7 19. O-O Nc8 20. Rc5
+Nd6 21. Rfc1 Nxe4 22. Nxe4 Bxe4 23. Rxc7 Qb8 24. Ne5 Qxb2 25. Nd7 Qxe2 26. Rc8
+g5 27. Nxf8 Kg7 28. h3 Bb7 29. R8c7 Qe4 30. Nxe6+ Kf6 31. Rxb7 Qxb7 32. Nc5 Qb2
+33. Rc3 Kg7 34. Na4 Qb5 35. Nc5 Qb2 36. Na4 Qd2 37. Rc4 Qe1+ 38. Kh2 Qxf2 39.
+Nc5 Qe2 40. Re4 Qd2 41. Nb3 Qd6+ 42. g3 Qxa3 43. Nd4 Qb2+ 44. Ne2 a4 45. g4 a3
+46. Re8 0-1
+
+[Event "Copa Catalana Mem. Agusti Pujol eq"]
+[Site "Barcelona"]
+[Date "1972.??.??"]
+[Round "?"]
+[White "Monedero Gonzalez, Jose"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "D47"]
+[PlyCount "80"]
+[EventDate "1972.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 c6 3. e3 Nf6 4. Nc3 e6 5. Nf3 Nbd7 6. Bd3 dxc4 7. Bxc4 b5 8. Bd3
+b4 9. Na4 c5 10. O-O Bb7 11. dxc5 Bxc5 12. Nxc5 Nxc5 13. Bb5+ Ke7 14. Qe2 Qb6
+15. b3 Nce4 16. Bb2 Rhc8 17. Bc4 Nc3 18. Bxc3 bxc3 19. Rac1 Ne4 20. Ne5 Qc5 21.
+f4 Rd8 22. Qh5 Qxe3+ 23. Kh1 Rf8 24. Qh4+ g5 25. fxg5 Qxg5 26. Qxg5+ Nxg5 27.
+Rxc3 f6 28. Rg3 Rg8 29. Nd3 Ne4 30. Rxg8 Rxg8 31. Re1 Rd8 32. Kg1 e5 33. Re3
+Rd4 34. Nf2 Nd6 35. Rh3 e4 36. Rxh7+ Kd8 37. Rh8+ Kc7 38. Rh7+ Kb6 39. Be2 Rd2
+40. Kf1 e3 1/2-1/2
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1972.??.??"]
+[Round "?"]
+[White "Ljubojevic, Ljubomir"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "A03"]
+[PlyCount "33"]
+[EventDate "1972.03.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. b3 d5 2. Bb2 Nf6 3. f4 c5 4. e3 Nc6 5. Nf3 g6 6. Bb5 Bd7 7. Nc3 d4 8. Na4
+Qa5 9. Qe2 Nb4 10. Bxd7+ Nxd7 11. O-O Bg7 12. exd4 Nxc2 13. Rac1 Nxd4 14. Nxd4
+cxd4 15. Ba3 Bf6 16. Qe4 O-O 17. Qxb7 1/2-1/2
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1972.??.??"]
+[Round "?"]
+[White "Mariotti, Sergio"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "B11"]
+[PlyCount "95"]
+[EventDate "1972.03.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. e4 c6 2. Nc3 d5 3. Nf3 Bg4 4. h3 Bxf3 5. Qxf3 e6 6. d3 Nd7 7. a3 Bd6 8. Qe2
+Ne7 9. f4 Ng6 10. g3 Qe7 11. h4 h5 12. Bh3 Ngf8 13. O-O g6 14. Bd2 f5 15. Rae1
+dxe4 16. dxe4 O-O-O 17. b4 a6 18. e5 Bc7 19. Bg2 Nb6 20. Be3 Nd5 21. Bc5 Bb6
+22. Na4 Bxc5+ 23. bxc5 Qc7 24. c4 Ne7 25. Rd1 Rxd1 26. Rxd1 Nd7 27. Qb2 Qa5 28.
+Qb4 Qxb4 29. axb4 Rd8 30. Rd6 Nf8 31. Kf2 Kc7 32. Nb6 Re8 33. Ke3 Nc8 34. Nxc8
+Kxc8 35. Kd4 Rd8 36. Bf3 Rd7 37. b5 axb5 38. cxb5 cxb5 39. Be2 b4 40. Kc4 Rxd6
+41. cxd6 Nd7 42. Kxb4 Nb6 43. Bc4 Kd7 44. Bb5+ Kd8 45. Kc5 Nc8 46. Ba4 b6+ 47.
+Kc6 b5 48. Bxb5 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1972.??.??"]
+[Round "?"]
+[White "Pfleger, Helmut"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "B13"]
+[PlyCount "73"]
+[EventDate "1972.03.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Bd3 Nc6 5. c3 Nf6 6. Bf4 Bg4 7. Qb3 Qd7 8.
+Nd2 e6 9. Ngf3 Bxf3 10. Nxf3 Nh5 11. Bd2 Bd6 12. O-O Nf4 13. Bxf4 Bxf4 14. Rfe1
+O-O 15. g3 Bd6 16. Re2 a6 17. Rae1 Rfe8 18. Qc2 h6 19. Qd2 Rad8 20. Bb1 Bf8 21.
+Qd3 g6 22. h4 f5 23. a4 Bg7 24. b4 Rc8 25. Ba2 Nd8 26. b5 axb5 27. axb5 Qc7 28.
+Bxd5 Qxc3 29. Qxc3 Rxc3 30. Kg2 Kf7 31. Ba2 Rc7 32. d5 Bc3 33. dxe6+ Kf6 34.
+Rd1 Nxe6 35. Kf1 Rce7 36. Rc2 Bb4 37. b6 1/2-1/2
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1972.??.??"]
+[Round "?"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Robatsch, Karl"]
+[Result "1/2-1/2"]
+[ECO "A49"]
+[PlyCount "44"]
+[EventDate "1972.03.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. d4 Nf6 2. Nf3 g6 3. g3 b5 4. a4 b4 5. Bg2 Bb7 6. c3 Na6 7. O-O Bg7 8. Bd2
+bxc3 9. bxc3 Rb8 10. Na3 Be4 11. Ne5 Bxg2 12. Kxg2 Qc8 13. f3 c6 14. Rb1 Rxb1
+15. Qxb1 d6 16. Nd3 O-O 17. Qb2 Qe6 18. Nf4 Qd7 19. Nd3 Qe6 20. Nf4 Qd7 21. Nd3
+Qe6 22. Nf4 Qd7 1/2-1/2
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1972.03.21"]
+[Round "5"]
+[White "Medina Garcia, Antonio"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "B45"]
+[PlyCount "19"]
+[EventDate "1972.03.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e6 5. Nc3 Nf6 6. Be3 d5 7. Bb5 Bd7 8.
+exd5 exd5 9. Qf3 a6 10. Bxc6 1/2-1/2
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1973.??.??"]
+[Round "?"]
+[White "Bukic, Enver"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "B92"]
+[PlyCount "37"]
+[EventDate "1973.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 Nbd7 7. f4 Nc5 8.
+Bf3 Qb6 9. Nb3 Nxb3 10. axb3 g6 11. e5 dxe5 12. fxe5 Nd7 13. Nd5 Qd8 14. Bg5 h6
+15. Bh4 g5 16. Bg3 Bg7 17. e6 Ne5 18. exf7+ Kxf7 19. Bh5+ 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1973.??.??"]
+[Round "?"]
+[White "Gaprindashvili, Nona"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "B19"]
+[PlyCount "92"]
+[EventDate "1973.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. Nf3 Nd7 7. h4 h6 8. h5
+Bh7 9. Bd3 Bxd3 10. Qxd3 Qc7 11. Bd2 e6 12. Qe2 Ngf6 13. O-O-O O-O-O 14. Ne5
+Nb6 15. Rh4 Bd6 16. Ba5 Rhe8 17. Nf1 Bxe5 18. dxe5 Rxd1+ 19. Kxd1 Nfd7 20. Re4
+Rd8 21. Kc1 Nc5 22. Rg4 f5 23. exf6 gxf6 24. b4 Nca4 25. Qxe6+ Kb8 26. g3 a6
+27. Ne3 Rd6 28. Rg8+ Ka7 29. Qe8 Rd7 30. Qe6 Rd6 31. Qe8 Rd7 32. Qe6 Rd6 33.
+Qb3 Qe7 34. Bxb6+ Nxb6 35. a4 Qe5 36. a5 Nc4 37. Nxc4 Qa1+ 38. Qb1 Rd1+ 39.
+Kxd1 Qxb1+ 40. Kd2 Qxb4+ 41. Kd3 Qc5 42. Re8 Qxh5 43. Re3 Qf5+ 44. Kc3 Qxf2 45.
+Re8 Qxg3+ 46. Kb2 Qg5 0-1
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1973.??.??"]
+[Round "?"]
+[White "Gipslis, Aivars"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "B19"]
+[PlyCount "72"]
+[EventDate "1973.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. h4 h6 7. Nf3 Nd7 8. h5
+Bh7 9. Bd3 Bxd3 10. Qxd3 Qc7 11. Bd2 e6 12. Qe2 Ngf6 13. O-O-O O-O-O 14. Ne5
+Nb6 15. Ba5 Rd5 16. Bxb6 axb6 17. c4 Rd8 18. Ne4 Nxe4 19. Qxe4 Bd6 20. f4 f5
+21. Qe2 Bxe5 22. Qxe5 Qxe5 23. dxe5 Rhg8 24. Rh3 g5 25. hxg6 Rxg6 26. g3 Rdg8
+27. Rd3 h5 28. Kd2 Rg4 29. Ke2 h4 30. gxh4 Rxf4 31. h5 Rg2+ 32. Ke3 Rff2 33.
+Rd1 Re2+ 34. Kf3 Ref2+ 35. Ke3 Re2+ 36. Kf3 Ref2+ 1/2-1/2
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1973.??.??"]
+[Round "?"]
+[White "Medina Garcia, Antonio"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "B13"]
+[PlyCount "69"]
+[EventDate "1973.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Bd3 Nc6 5. c3 Nf6 6. Bf4 Bg4 7. Qb3 Qd7 8.
+Nd2 e6 9. h3 Bf5 10. Bxf5 exf5 11. Ngf3 Bd6 12. Bxd6 Qxd6 13. O-O O-O 14. Qxb7
+Rab8 15. Qa6 Rxb2 16. Rfb1 Rxb1+ 17. Rxb1 Qe6 18. Ng5 Qd6 19. Rb7 h6 20. Ngf3
+Qe6 21. Ne5 Nxd4 22. Qxe6 Nxe6 23. Rxa7 Rc8 24. c4 Ne4 25. Nxe4 dxe4 26. Rxf7
+Rc5 27. Rxf5 Kh7 28. g4 Nd4 29. Nd7 Rxc4 30. Rf7 Nf3+ 31. Kg2 Ne1+ 32. Kf1 Nf3
+33. Kg2 Ne1+ 34. Kf1 Nf3 35. Kg2 1/2-1/2
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1973.??.??"]
+[Round "?"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Kurajica, Bojan"]
+[Result "1/2-1/2"]
+[ECO "D54"]
+[PlyCount "59"]
+[EventDate "1973.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 h6 6. Bh4 O-O 7. Rc1 c6 8. Nf3
+Ne4 9. Bxe7 Qxe7 10. Qc2 Nxc3 11. Qxc3 Nd7 12. Bd3 dxc4 13. Bxc4 b6 14. O-O Bb7
+15. Rfd1 c5 16. Be2 Rfc8 17. h3 cxd4 18. Qxd4 Rxc1 19. Rxc1 e5 20. Qg4 Nf6 21.
+Qa4 g6 22. Qb5 Re8 23. a4 Nd5 24. Rd1 Nf6 25. b4 e4 26. Nh2 h5 27. Nf1 Qc7 28.
+Ng3 Re5 29. Qc4 Qe7 30. Bf1 1/2-1/2
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1973.??.??"]
+[Round "?"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Martin Gonzalez, Angel"]
+[Result "1-0"]
+[ECO "A31"]
+[PlyCount "37"]
+[EventDate "1973.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+
+1. d4 Nf6 2. c4 c5 3. Nf3 cxd4 4. Nxd4 e5 5. Nb5 Bc5 6. Nd6+ Ke7 7. Nxc8+ Qxc8
+8. Nc3 h6 9. e3 Bb4 10. Bd2 Na6 11. Be2 Rd8 12. Rc1 Qc6 13. O-O d5 14. cxd5
+Nxd5 15. Bxa6 Bxc3 16. Bd3 Nb4 17. Rxc3 Qd7 18. Rc7 Qxc7 19. Bxb4+ 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1973.??.??"]
+[Round "?"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Pujals, Esteban"]
+[Result "1-0"]
+[ECO "D52"]
+[PlyCount "57"]
+[EventDate "1973.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+
+1. d4 d5 2. c4 Nf6 3. Nc3 e6 4. Bg5 Nbd7 5. e3 c6 6. Nf3 Qa5 7. Nd2 dxc4 8.
+Bxf6 Nxf6 9. Nxc4 Qg5 10. f4 Qh6 11. Be2 Bb4 12. O-O O-O 13. Qb3 Bxc3 14. bxc3
+Nd5 15. Rf3 f5 16. Ne5 Qf6 17. c4 Nb6 18. a4 Rd8 19. a5 Nd7 20. c5 Nxe5 21.
+fxe5 Qe7 22. Rxf5 Kh8 23. Rf4 Qc7 24. Raf1 Bd7 25. Qb1 Rg8 26. Qxh7+ Kxh7 27.
+Rh4+ Kg6 28. Bd3+ Kg5 29. Rff4 1-0
+
+[Event "Berga op"]
+[Site "Berga"]
+[Date "1973.??.??"]
+[Round "?"]
+[White "Bernstein, Ossip"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "B14"]
+[PlyCount "92"]
+[EventDate "1973.08.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. c4 Nf6 5. Nc3 e6 6. c5 Nc6 7. Nf3 Ne4 8. Bb5
+Bd7 9. Bxc6 Bxc6 10. Qc2 f6 11. O-O Be7 12. b4 Qd7 13. Be3 a5 14. a3 O-O 15.
+Rab1 Nxc3 16. Qxc3 a4 17. Rfe1 Rae8 18. Rbc1 g5 19. Rc2 Bd8 20. Bc1 Bc7 21. Qa1
+g4 22. Nh4 e5 23. Bb2 e4 24. Bc1 f5 25. g3 f4 26. Bxf4 Bxf4 27. gxf4 Rxf4 28.
+Qc1 Ref8 29. Re3 Qg7 30. Qb2 Bb5 31. Rg3 h5 32. Ng2 R4f5 33. h4 Qf6 34. Rd2 Rf3
+35. Rc2 Kh8 36. Rd2 Qd8 37. Rc2 Bd3 38. Rd2 Qc7 39. Kh2 Rxg3 40. fxg3 Rf3 41.
+Nf4 Rxf4 42. gxf4 Qxf4+ 43. Kg1 Qe3+ 44. Kh1 Qe1+ 45. Kg2 Bf1+ 46. Kh2 g3+ 0-1
+
+[Event "Berga op"]
+[Site "Berga"]
+[Date "1973.??.??"]
+[Round "?"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Gonzalez Mestres, Luis"]
+[Result "1-0"]
+[ECO "D27"]
+[PlyCount "73"]
+[EventDate "1973.08.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. d4 d5 3. c4 dxc4 4. e3 e6 5. Bxc4 c5 6. O-O a6 7. dxc5 Qxd1 8.
+Rxd1 Bxc5 9. a3 b5 10. Be2 Bb7 11. b4 Be7 12. Bb2 Nbd7 13. Nbd2 Rc8 14. Rac1
+O-O 15. Nb3 Bd5 16. Na5 Nb6 17. Ne5 Rxc1 18. Rxc1 Rc8 19. Rxc8+ Nxc8 20. f3 Bd8
+21. e4 Bxa5 22. bxa5 Bb7 23. Kf2 Kf8 24. Ke3 Ke7 25. a4 bxa4 26. Ba3+ Ke8 27.
+Bd1 Na7 28. Bxa4+ Nb5 29. Nc4 Bc6 30. Nd6+ Kd7 31. Bxb5 Bxb5 32. Nxf7 Bf1 33.
+g4 Ke8 34. Nd6+ Kd7 35. Kf4 Ke7 36. Nb7+ Kf7 37. Nd8+ 1-0
+
+[Event "Berga op"]
+[Site "Berga"]
+[Date "1973.??.??"]
+[Round "?"]
+[White "Rupp"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "E07"]
+[PlyCount "74"]
+[EventDate "1973.08.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. c4 Nf6 2. g3 e6 3. Bg2 d5 4. Nf3 Be7 5. O-O O-O 6. d4 Nbd7 7. Qd3 b6 8. cxd5
+Nxd5 9. Nc3 Bb7 10. Nxd5 exd5 11. b3 c5 12. Bb2 Bf6 13. Rac1 Re8 14. Ba3 a5 15.
+dxc5 Nxc5 16. Bxc5 Ba6 17. Bxb6 Qxb6 18. Qxd5 Rad8 19. Qc5 Qxc5 20. Rxc5 Bxe2
+21. Re1 Re7 22. Nd2 h6 23. Ne4 Bd4 24. Rxa5 Bd3 25. Ra4 f5 26. Rxd4 Rxd4 27.
+Nf6+ Kf8 28. Rxe7 Kxe7 29. Nd5+ Kd6 30. Ne3 g5 31. Bf1 Ke6 32. Nc4 Bb1 33. a4
+Bc2 34. Na5 Rd1 35. Kg2 g4 36. Bc4+ Kd6 37. Nb7+ Kc6 0-1
+
+[Event "Camp. España eq. Final A"]
+[Site "Barcelona"]
+[Date "1973.09.??"]
+[Round "5"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Calvo Minguez, Ricardo"]
+[Result "0-1"]
+[ECO "E63"]
+[PlyCount "116"]
+[EventDate "1973.09.??"]
+[EventType "team"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. d4 g6 3. c4 Bg7 4. Nc3 d6 5. g3 O-O 6. Bg2 Nc6 7. O-O a6 8. a3
+Bg4 9. h3 Bxf3 10. Bxf3 Qd7 11. Kg2 Rae8 12. Bf4 e6 13. Rc1 d5 14. c5 Re7 15.
+Qd2 Ne8 16. Be3 f5 17. Rcd1 Ref7 18. Na2 Nf6 19. Nb4 Ne4 20. Bxe4 fxe4 21. Nxc6
+Qxc6 22. f3 exf3+ 23. Rxf3 Rxf3 24. exf3 e5 25. Bf2 Qf6 26. Qe2 c6 27. dxe5
+Qxe5 28. Qxe5 Bxe5 29. Bd4 Bxd4 30. Rxd4 Re8 31. Kf2 Kf7 32. b4 Re7 33. a4 Kf6
+34. a5 Re6 35. h4 Re5 36. g4 Re6 37. Rf4+ Ke5 38. Rf7 Kd4 39. Rxh7 Kc3 40. h5
+gxh5 41. Rxh5 d4 42. f4 d3 43. f5 Re4 44. Kf3 d2 45. Kxe4 d1=Q 46. Kf4 Qd2+ 47.
+Kg3 Qe3+ 48. Kg2 Qf4 49. Rh3+ Kxb4 50. Rg3 Kxc5 51. g5 Qxf5 52. g6 Kb4 53. g7
+Qd5+ 54. Kf2 Qg8 55. Ke3 c5 56. Kd2 c4 57. Kc2 Kxa5 58. Kc3 b5 0-1
+
+[Event "Camp. España eq. Final A"]
+[Site "Barcelona"]
+[Date "1973.??.??"]
+[Round "7"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Toran Albero, Roman"]
+[Result "1-0"]
+[ECO "E61"]
+[PlyCount "53"]
+[EventDate "1973.09.??"]
+[EventType "team"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. c4 g6 3. Nc3 Bg7 4. d4 O-O 5. Bg5 c5 6. e3 d6 7. Be2 Nbd7 8. O-O
+h6 9. Bh4 g5 10. Bg3 Nh5 11. h3 Nxg3 12. fxg3 e6 13. g4 Nf6 14. Bd3 Qe7 15. Bc2
+Rd8 16. Qd3 d5 17. Ne5 dxc4 18. Qxc4 cxd4 19. exd4 Qd6 20. Nb5 Qd5 21. Qb4 Bf8
+22. Qc3 Qxb5 23. Rxf6 Bg7 24. Raf1 Qd5 25. Rxf7 Qxd4+ 26. Qxd4 Rxd4 27. Rxg7+
+1-0
+
+[Event "Costa Brava"]
+[Site "San Feliu de Guixols"]
+[Date "1973.??.??"]
+[Round "1"]
+[White "Pachman, Ludek"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "E14"]
+[WhiteElo "2515"]
+[BlackElo "2435"]
+[PlyCount "88"]
+[EventDate "1973.09.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Nbd2 b6 5. e3 Bb7 6. Bd3 O-O 7. O-O d5 8. a3
+Bxd2 9. Qxd2 Nbd7 10. Qe2 c5 11. cxd5 exd5 12. b3 a5 13. a4 Ne4 14. Bb2 f5 15.
+Rfd1 Qe7 16. Rac1 Rae8 17. Bb5 f4 18. Rc2 Rf5 19. exf4 Rxf4 20. Qe3 Ref8 21.
+Bxd7 Qxd7 22. Ne5 Qf5 23. f3 Ng5 24. Qd3 Ne6 25. Qxf5 R8xf5 26. dxc5 Nxc5 27.
+Nd3 Nxd3 28. Rxd3 Ba6 29. Rd4 Re4 30. Kf2 Re6 31. Rdd2 h5 32. h4 Bb7 33. Rc7
+Rf7 34. Rdc2 Ba6 35. Rxf7 Kxf7 36. Rc7+ Re7 37. Rxe7+ Kxe7 38. Bxg7 Bd3 39. Bd4
+Bc2 40. Bxb6 Bxb3 41. Bxa5 Bxa4 42. Ke3 Kf6 43. g4 Kg6 44. Bc3 Bd1 1/2-1/2
+
+[Event "Costa Brava"]
+[Site "San Feliu de Guixols"]
+[Date "1973.09.24"]
+[Round "5"]
+[White "Medina Garcia, Antonio"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "B19"]
+[WhiteElo "2395"]
+[BlackElo "2435"]
+[PlyCount "46"]
+[EventDate "1973.09.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. h4 h6 7. Nf3 Nd7 8. h5
+Bh7 9. Bd3 Bxd3 10. Qxd3 Qc7 11. Bd2 e6 12. Qe2 Ngf6 13. O-O-O O-O-O 14. Ne5
+Nb6 15. Rh4 Bd6 16. Ba5 Kb8 17. f4 c5 18. dxc5 Bxc5 19. Ne4 Nxe4 20. Qxe4 Rxd1+
+21. Kxd1 Qd8+ 22. Nd3 Qxh4 23. Qe5+ Ka8 0-1
+
+[Event "Costa Brava"]
+[Site "San Feliu de Guixols"]
+[Date "1973.??.??"]
+[Round "8"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Robatsch, Karl"]
+[Result "1-0"]
+[ECO "A31"]
+[WhiteElo "2435"]
+[BlackElo "2430"]
+[PlyCount "43"]
+[EventDate "1973.09.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+
+1. d4 Nf6 2. c4 c5 3. Nf3 cxd4 4. Nxd4 b6 5. Nc3 Bb7 6. f3 Nc6 7. e4 Nxd4 8.
+Qxd4 e6 9. Be3 Bc5 10. Qd2 O-O 11. O-O-O Bxe3 12. Qxe3 e5 13. g4 a6 14. h4 b5
+15. h5 b4 16. Na4 Bc6 17. Nb6 Rb8 18. c5 Qc7 19. g5 Ne8 20. g6 f5 21. Bc4+ Kh8
+22. h6 1-0
+
+[Event "Costa Brava"]
+[Site "San Feliu de Guixols"]
+[Date "1973.09.30"]
+[Round "9"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Westerinen, Heikki M J"]
+[Result "0-1"]
+[ECO "A43"]
+[WhiteElo "2435"]
+[BlackElo "2435"]
+[Annotator "Visier, Fernando"]
+[PlyCount "68"]
+[EventDate "1973.09.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+
+1. d4 c5 2. e3 ({En lugar de esta tímida jugada de contención se recomienda} 2.
+d5 Nf6 3. Nc3 $1) 2... Nf6 3. Nf3 b6 4. c4 g6 ({Eligiendo un esquema elástico,
+de doble fianchetto. Más enérgico es} 4... cxd4 5. exd4 Bb7 6. Nc3 e6 7. Bg5 $1
+({Si} 7. Bd3 d5 $1) 7... Be7 {; y si ahora} 8. d5 $5 Nxd5 $5 9. cxd5 Bxg5 10.
+Nb5 $5 {, con juego complicado donde parece que las mejores posibilidades
+están de parte de las negras.}) 5. Nc3 Bb7 6. d5 {[Así se transforma la
+partida en una defensa india de rey, con la particularidad de que ambos
+contendientes han efectuado jugadas que no responden al espíritu de la
+apertura. Pomar deberá avanzar su peón de rey en dos tiempos y Westerinen
+tendrá algunos problemas para justificar su fianchetto de dama. ]} Bg7 7. Bd3 {
+[Bien jugado. Al no estar en su sitio normal el alfil de dama negro, Pomar
+aprovecha ese detalle para establecer un esquema de ataque, dado que la pieza
+negra que hacíamos referencia suele mostrarse muy eficaz para la defensa
+actuando en la diagonal "h3-c8". ]} O-O 8. e4 d6 9. h3 e5 ({Si} 9... e6 10. O-O
+exd5 {; y ahora las blancas podrían elegir entre} 11. cxd5 ({O bien} 11. exd5 {
+, siendo ésta última la más segura.})) 10. Bg5 h6 11. Be3 Nh5 12. Qd2 Kh7 13.
+Ne2 $1 Nd7 14. g4 Nf4 {[No hay más remedio que sacrificar un peón, ante las
+perspectivas de "morir por asfixia", en caso de retroceder con el caballo.
+Esta entrega del peón es temática, pero en la presente posición no debe estar
+suficientemente compensada. ]} 15. Nxf4 exf4 16. Bxf4 Qf6 {[Decíamos que no
+debe haber buena compensación porque "el movimiento reflejo" de las negras
+ante el anterior sacrificio suele ser peón a f5, y en la presente partida tal
+jugada puede apreciarse que es francamente mala. ]} 17. O-O-O $2 ({La jugada
+natural; sin embargo, permitirá reaccionar inmediatamente a las negras. A
+considerar era} 17. Rb1 {, seguido de peón a "f4"!, dado que a las negras no
+le sirve} g5 $4 {por} 18. e5+ {.}) 17... b5 $1 18. Rhe1 ({Ya no hay tiempo para
+} 18. h4 bxc4 19. Bxc4 Nb6 {,}) ({pero merecía atención} 18. h4 bxc4 19. Bb1 $5
+) 18... Rfe8 19. Re2 ({Si} 19. g5 hxg5 20. Nxg5+ Kg8 {y las blancas no han
+logrado nada.}) ({Si} 19. g5 hxg5 20. Bxg5 $6 Qxf3 21. Re3 Qh5 $1 ({Si} 21...
+Qg2 22. Rg3 Qh2 23. Rdg1) 22. h4 Ne5 $1 23. Be2 Nxc4 {y ganan.}) 19... bxc4 20.
+Bxc4 Rab8 ({Si} 20... g5 $2 21. Nxg5+ hxg5 22. Bxg5 Qg6 {y las blancas tienen
+excelente juego.} ({Si} 22... Qd4 $2 23. Qc2 Qe5 24. f4)) 21. Bb5 Bc8 22. Bxd7
+Bxd7 23. e5 dxe5 24. Nxe5 Bb5 25. Ree1 ({La posición blancas es muy difícil.} 
+25. Re4 {, tendría el inconveniente de dejar clavada la torre aunque, de
+cualquier forma, parece mejor que la del texto.}) 25... Ba4 26. b3 Bxb3 $1 {
+[Con este sacrificio se abre la columna "b", por donde las torres negras
+impondrán su ley. ]} 27. axb3 Rxb3 28. Kc2 ({Si} 28. Re3 Rb4 $1 ({O quizás} 
+28... Qxf4 29. Rxb3 Qxe5 {.})) 28... Reb8 29. Rb1 Qb6 $1 30. Nd7 ({Si} 30. Rxb3
+Qxb3+ 31. Kc1 Qb1#) ({Si} 30. Qc1 Qb4 31. Bd2 ({O bien} 31. Rxb3 Qxb3+ {, con
+ataque ganador.}) 31... Qa4) 30... Qb5 {[Ahora amenaza 31...Dc4+ ]} 31. Qe2 Qa4
+32. Rxb3 Qxb3+ 33. Kc1 Qc3+ 34. Qc2 Rb1+ $1 0-1
+
+[Event "Ciudad de Hospitalet"]
+[Site "Hospitalet de Llobregat"]
+[Date "1973.10.21"]
+[Round "1"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Lengyel, Levente"]
+[Result "1/2-1/2"]
+[ECO "D65"]
+[WhiteElo "2435"]
+[BlackElo "2450"]
+[PlyCount "46"]
+[EventDate "1973.10.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. Bg5 Be7 5. e3 O-O 6. Rc1 Nbd7 7. Nf3 a6 8. cxd5
+exd5 9. Bd3 c6 10. Qc2 Re8 11. O-O Nf8 12. Ne5 Ng4 13. Bf4 Bd6 14. Nxg4 Bxg4
+15. Bxd6 Qxd6 16. f3 Bh5 17. Qf2 Bg6 18. Bxg6 hxg6 19. e4 f6 20. exd5 cxd5 21.
+Qc2 Qb6 22. Rfd1 Rad8 23. Kh1 g5 1/2-1/2
+
+[Event "Ciudad de Hospitalet"]
+[Site "Hospitalet de Llobregat"]
+[Date "1973.10.22"]
+[Round "2"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Kurajica, Bojan"]
+[Result "1/2-1/2"]
+[ECO "A42"]
+[WhiteElo "2435"]
+[BlackElo "2475"]
+[PlyCount "76"]
+[EventDate "1973.10.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. c4 g6 2. Nc3 Bg7 3. d4 d6 4. Nf3 c6 5. e4 Qc7 6. Be2 Nd7 7. Be3 Ngf6 8. h3
+O-O 9. Qd2 e5 10. Bh6 exd4 11. Nxd4 Re8 12. Nf5 Bxh6 13. Nxh6+ Kg7 14. Ng4 Nxe4
+15. Qd4+ Nef6 16. O-O-O Re6 17. Bf3 Qa5 18. Ne4 h5 19. Ngxf6 Nxf6 20. Nxd6 Qxa2
+21. Ne4 c5 22. Qc3 Qa1+ 23. Kd2 Qa6 24. Kc1 Qb6 25. g4 Qb4 26. g5 Qxc3+ 27.
+Nxc3 Nh7 28. h4 Re8 29. Rhe1 Rxe1 30. Rxe1 Be6 31. Bxb7 Rb8 32. Bd5 Nf8 33. Ne4
+Rd8 34. Nf6 Bxd5 35. Nxd5 Ne6 36. Kc2 Nd4+ 37. Kc3 Rb8 38. b4 Nf3 1/2-1/2
+
+[Event "Ciudad de Hospitalet"]
+[Site "Hospitalet de Llobregat"]
+[Date "1973.10.23"]
+[Round "3"]
+[White "Diez del Corral Rivas, Jesus Maria"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "B18"]
+[WhiteElo "2495"]
+[BlackElo "2435"]
+[PlyCount "43"]
+[EventDate "1973.10.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. h4 h6 7. Bc4 Nf6 8. Nh3
+e6 9. Nf4 Bh7 10. O-O Bd6 11. Ngh5 O-O 12. Nxf6+ Qxf6 13. Nh5 Qxh4 14. g3 Qh3
+15. Re1 Bg6 16. Nf4 Bxf4 17. Bxf4 Nd7 18. Re3 Nf6 19. Bf1 Qf5 20. Bd3 Qh3 21.
+Bf1 Qf5 22. Bd3 1/2-1/2
+
+[Event "Ciudad de Hospitalet"]
+[Site "Hospitalet de Llobregat"]
+[Date "1973.10.24"]
+[Round "4"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Medina Garcia, Antonio"]
+[Result "1-0"]
+[ECO "A25"]
+[WhiteElo "2435"]
+[BlackElo "2395"]
+[PlyCount "67"]
+[EventDate "1973.10.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. g3 e5 2. c4 Nc6 3. Bg2 g6 4. Nc3 Bg7 5. e3 d6 6. Nge2 Be6 7. d4 Bxc4 8. d5
+Bxe2 9. Qxe2 Nce7 10. Qb5+ Kf8 11. Qxb7 Nf6 12. O-O h5 13. Bd2 Qb8 14. Qb3 h4
+15. Rac1 Qxb3 16. axb3 Rb8 17. Na4 Ne8 18. b4 f5 19. Rfd1 hxg3 20. hxg3 e4 21.
+Be1 Rb5 22. Bf1 Rxd5 23. Bd2 f4 24. exf4 Rdh5 25. Bg2 d5 26. Be3 a6 27. Nc5 Kf7
+28. Nxa6 Bxb2 29. Rc2 Bg7 30. Nxc7 Nf6 31. b5 Ng4 32. Bc5 d4 33. Bxe7 Kxe7 34.
+Bxe4 1-0
+
+[Event "Ciudad de Hospitalet"]
+[Site "Hospitalet de Llobregat"]
+[Date "1973.10.26"]
+[Round "5"]
+[White "Westerinen, Heikki MJ"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "B13"]
+[WhiteElo "2435"]
+[BlackElo "2435"]
+[PlyCount "107"]
+[EventDate "1973.10.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. c3 Nf6 5. Bd3 Nc6 6. Bf4 Bg4 7. Qb3 Qd7 8.
+Nd2 e6 9. Ngf3 Bxf3 10. Nxf3 Nh5 11. Be3 Bd6 12. g3 f5 13. O-O-O O-O-O 14. Ne5
+Qc7 15. Rhe1 Nf6 16. Bb5 Na5 17. Qa4 Kb8 18. f3 a6 19. Bxa6 bxa6 20. Qxa5 Bxe5
+21. Qb4+ Qb7 22. Qxb7+ Kxb7 23. dxe5 Nd7 24. Bf2 Rc8 25. Rd4 Rc6 26. Kc2 Rhc8
+27. Rb4+ Ka8 28. Rh4 h6 29. Bd4 Nf8 30. Bg1 Rc4 31. Rxc4 Rxc4 32. b3 Rc7 33.
+Bb6 Rc8 34. Kd3 Kb7 35. Ba5 Nd7 36. Bb4 h5 37. Bd6 Rg8 38. Kd4 g5 39. h3 Rg7
+40. c4 dxc4 41. bxc4 g4 42. fxg4 fxg4 43. h4 Rf7 44. Re3 Rf2 45. Rb3+ Kc6 46.
+Ra3 Kb7 47. c5 Rc2 48. Rc3 Rxc3 49. Kxc3 Kc6 50. Kc4 Kb7 51. Kb4 Kc6 52. a4 Kb7
+53. Ka5 Ka8 54. c6 1-0
+
+[Event "Ciudad de Hospitalet"]
+[Site "Hospitalet de Llobregat"]
+[Date "1973.10.27"]
+[Round "6"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Dominguez, Julio"]
+[Result "1/2-1/2"]
+[ECO "D01"]
+[WhiteElo "2435"]
+[BlackElo "2200"]
+[PlyCount "90"]
+[EventDate "1973.10.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. Nc3 d5 2. d4 Nf6 3. Bg5 Bf5 4. e3 Nbd7 5. Bd3 Bxd3 6. cxd3 c6 7. e4 Qb6 8.
+Nge2 e6 9. O-O h6 10. Bh4 Be7 11. Rb1 Qc7 12. Qc2 Qd8 13. b4 Rc8 14. b5 c5 15.
+exd5 Nxd5 16. Bxe7 Nxe7 17. Ne4 O-O 18. dxc5 f5 19. Nd6 Rxc5 20. Qb3 Re5 21.
+Nxb7 Qb6 22. Nf4 Nd5 23. Ng6 Qxb7 24. Qb2 Qb8 25. Nxf8 Nxf8 26. Rfe1 Rxe1+ 27.
+Rxe1 Qf4 28. Qc1 Qg4 29. h3 Qd4 30. Qc4 Qc3 31. Re2 Qa1+ 32. Kh2 Qf6 33. a4 Qd8
+34. g3 Qb6 35. d4 f4 36. Qc5 Qb8 37. a5 fxg3+ 38. fxg3 h5 39. h4 Nf6 40. a6 Nd5
+41. Rxe6 Nxe6 42. Qxd5 Qb6 43. Kh3 Kf8 44. Qf5+ Kg8 45. d5 Nf8 1/2-1/2
+
+[Event "Ciudad de Hospitalet"]
+[Site "Hospitalet de Llobregat"]
+[Date "1973.10.29"]
+[Round "7"]
+[White "Collado Galarza, Jose"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "B64"]
+[WhiteElo "2200"]
+[BlackElo "2435"]
+[PlyCount "66"]
+[EventDate "1973.10.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. e4 c5 2. Nf3 d6 3. d4 Nf6 4. Nc3 cxd4 5. Nxd4 Nc6 6. Bg5 e6 7. Qd2 Be7 8.
+O-O-O O-O 9. f4 h6 10. Bxf6 Bxf6 11. Ndb5 Qb6 12. Na4 Qd8 13. Nxd6 e5 14. g3
+Bg4 15. Re1 Nd4 16. Nb5 Qe8 17. Nxd4 Qxa4 18. Nb3 exf4 19. Kb1 fxg3 20. Qf4 Be6
+21. Qxg3 Rfd8 22. Rg1 g6 23. Bd3 Bxb3 24. axb3 Qd4 25. e5 Bh4 26. Qg2 Bxe1 27.
+e6 Bh4 28. exf7+ Kf8 29. Qxg6 Bf6 30. Qg8+ Ke7 31. Re1+ Be5 32. f8=Q+ Rxf8 33.
+Qg7+ Kd6 0-1
+
+[Event "Ciudad de Hospitalet"]
+[Site "Hospitalet de Llobregat"]
+[Date "1973.10.30"]
+[Round "8"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Van Seters, Frits"]
+[Result "1/2-1/2"]
+[ECO "E12"]
+[WhiteElo "2435"]
+[BlackElo "2325"]
+[PlyCount "73"]
+[EventDate "1973.10.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. Nf3 Nf6 2. d4 b6 3. c4 e6 4. Nc3 Bb7 5. g3 Bb4 6. Bg2 O-O 7. O-O Bxc3 8.
+bxc3 d6 9. a4 Nbd7 10. a5 Qe7 11. Qa4 c5 12. Rd1 Rab8 13. h3 Be4 14. Be3 Rfc8
+15. a6 Rd8 16. Nd2 Bxg2 17. Kxg2 Rbc8 18. Rac1 Nb8 19. Nb1 d5 20. Na3 Nc6 21.
+dxc5 bxc5 22. Nb5 Ne5 23. cxd5 exd5 24. Bg5 Nc4 25. Qc2 Rb8 26. Rb1 Qd7 27.
+Bxf6 gxf6 28. e4 Rxb5 29. Rxd5 Qxd5 30. exd5 Na3 31. Qa4 Rxb1 32. Qxa3 Rxd5 33.
+c4 Re5 34. Qf3 Re6 35. Qa8+ Kg7 36. Qxa7 Reb6 37. Qc7 1/2-1/2
+
+[Event "Ciudad de Hospitalet"]
+[Site "Hospitalet de Llobregat"]
+[Date "1973.10.31"]
+[Round "9"]
+[White "Hamann, Svend"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "A07"]
+[WhiteElo "2475"]
+[BlackElo "2435"]
+[PlyCount "40"]
+[EventDate "1973.10.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. Nf3 d5 2. g3 Nf6 3. Bg2 c6 4. O-O Bg4 5. d3 Nbd7 6. Nbd2 e6 7. e4 dxe4 8.
+dxe4 Ne5 9. Qe2 Bc5 10. h3 Bh5 11. Nb3 Nxf3+ 12. Bxf3 Bxf3 13. Qxf3 Be7 14. Rd1
+Qc7 15. Bf4 e5 16. Bg5 O-O 17. Bxf6 Bxf6 18. Rd3 Rad8 19. Rad1 Rxd3 20. Rxd3
+Rd8 1/2-1/2
+
+[Event "Ciudad de Hospitalet"]
+[Site "Hospitalet de Llobregat"]
+[Date "1973.11.02"]
+[Round "10"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Smejkal, Jan"]
+[Result "1/2-1/2"]
+[ECO "D90"]
+[WhiteElo "2435"]
+[BlackElo "2595"]
+[PlyCount "82"]
+[EventDate "1973.10.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. Nf3 Nf6 2. d4 g6 3. c4 Bg7 4. Nc3 d5 5. cxd5 Nxd5 6. Bd2 O-O 7. Rc1 Nb6 8.
+e3 Nc6 9. Bb5 Bd7 10. O-O e5 11. dxe5 Nxe5 12. Nxe5 Bxe5 13. Bxd7 Qxd7 14. Qe2
+Qe6 15. Rfd1 c6 16. e4 Rfe8 17. f3 Rad8 18. Bg5 Bd4+ 19. Be3 Bxe3+ 20. Qxe3 Qe7
+21. Rd4 Rxd4 22. Qxd4 Rd8 23. Qf2 Qb4 24. h3 a5 25. Rd1 Rxd1+ 26. Nxd1 Nc4 27.
+a3 Qd6 28. Ne3 Ne5 29. Ng4 Nd7 30. Qh4 Qd4+ 31. Kh1 h5 32. Nh6+ Kg7 33. Qg5 Qf6
+34. Nf5+ Kf8 35. Qd2 gxf5 36. Qxd7 fxe4 37. fxe4 b5 38. e5 Qxe5 39. Qxc6 Qxb2
+40. Qa8+ Kg7 41. Qxa5 Kg6 1/2-1/2
+
+[Event "Ciudad de Hospitalet"]
+[Site "Hospitalet de Llobregat"]
+[Date "1973.11.03"]
+[Round "11"]
+[White "Hug, Werner"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "B13"]
+[WhiteElo "2440"]
+[BlackElo "2435"]
+[PlyCount "21"]
+[EventDate "1973.10.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Bd3 Nc6 5. c3 Nf6 6. Bf4 g6 7. Nd2 Bf5 8.
+Bxf5 gxf5 9. Ne2 e6 10. Nf3 Bd6 11. Qb3 1/2-1/2
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1974.??.??"]
+[Round "?"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Albareda Creus, Miguel"]
+[Result "1-0"]
+[ECO "A04"]
+[PlyCount "101"]
+[EventDate "1974.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. g3 f5 2. Bg2 Nf6 3. Nf3 e6 4. O-O d5 5. c4 c6 6. b3 Be7 7. Bb2 O-O 8. d3 Qe8
+9. Nbd2 Nbd7 10. Qc2 Qh5 11. e4 dxe4 12. dxe4 Bc5 13. Rae1 f4 14. gxf4 Ng4 15.
+Qc3 Qh6 16. h3 Nxf2 17. Rxf2 Rxf4 18. Nf1 Bxf2+ 19. Kxf2 Rf7 20. Rd1 b6 21. Ne3
+Bb7 22. Ng4 Qh5 23. Rxd7 Rxd7 24. Qxg7+ Rxg7 25. Nf6+ Kf8 26. Nxh5 Rxg2+ 27.
+Kxg2 c5 28. Nf6 Ke7 29. Nxh7 Bxe4 30. Nhg5 Bb1 31. h4 Bxa2 32. Nd2 Rd8 33. Nge4
+Rd3 34. h5 Bxb3 35. h6 Bc2 36. Nf3 e5 37. Bxe5 Ke6 38. h7 Rd8 39. Neg5+ Ke7 40.
+h8=Q Rxh8 41. Bxh8 a6 42. Kf2 b5 43. Ke3 bxc4 44. Ne4 a5 45. Nxc5 a4 46. Nd4
+Bg6 47. Nxa4 Kd6 48. Nc3 Kc5 49. Ne6+ Kd6 50. Nf4 Bf5 51. Kd4 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1974.03.17"]
+[Round "1"]
+[White "Ghitescu, Theodor"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "E16"]
+[WhiteElo "2455"]
+[BlackElo "2435"]
+[PlyCount "63"]
+[EventDate "1974.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Bd2 Qe7 5. g3 b6 6. Bg2 Bb7 7. O-O Bxd2 8.
+Qxd2 d6 9. Nc3 Ne4 10. Qe3 Nxc3 11. Qxc3 O-O 12. Rad1 Nd7 13. Ne1 Bxg2 14. Nxg2
+Rae8 15. Qf3 f5 16. e4 fxe4 17. Qxe4 e5 18. dxe5 Nxe5 19. f4 Ng4 20. Qd5+ Qf7
+21. Qxf7+ Rxf7 22. Rfe1 Rfe7 23. Rxe7 Rxe7 24. h3 Nf6 25. Kf2 c6 26. Ne3 Ne4+
+27. Kf3 Nxg3 28. Rd3 Ne4 29. Rd4 Ng3 30. Rd3 Ne4 31. Rd4 Ng3 32. Rd3 1/2-1/2
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1974.03.18"]
+[Round "2"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Martin Gonzalez, Angel"]
+[Result "1/2-1/2"]
+[ECO "A36"]
+[WhiteElo "2435"]
+[BlackElo "2275"]
+[PlyCount "43"]
+[EventDate "1974.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. g3 c5 2. Bg2 Nc6 3. c4 g6 4. Nc3 Bg7 5. b3 d6 6. Bb2 e5 7. e3 Nge7 8. Nge2
+O-O 9. Nd5 Nxd5 10. cxd5 Nb4 11. O-O Bf5 12. e4 Bd7 13. d3 Bb5 14. Nc1 f5 15.
+a3 Na6 16. f4 fxe4 17. Bxe4 exf4 18. Bxg7 Kxg7 19. gxf4 Qf6 20. Ne2 Bd7 21. Kh1
+Nc7 22. Ng3 1/2-1/2
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1974.03.19"]
+[Round "3"]
+[White "Bartrina Mas, Modesto"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "D02"]
+[BlackElo "2435"]
+[PlyCount "66"]
+[EventDate "1974.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. d4 d5 2. Nf3 Nf6 3. Nbd2 Bf5 4. e3 e6 5. Bd3 Bg6 6. O-O c5 7. Bb5+ Nc6 8.
+Ne5 Qc7 9. c3 Bd6 10. f4 a6 11. Be2 Rc8 12. a4 Bxe5 13. fxe5 Ne4 14. Nxe4 Bxe4
+15. Bd3 Bg6 16. Rf4 O-O 17. Qe2 Qb6 18. Bd2 Qxb2 19. Rb1 Qa2 20. Rxb7 c4 21.
+Bxg6 fxg6 22. h4 Rxf4 23. exf4 Rf8 24. f5 Qa1+ 25. Kh2 Rxf5 26. Kg3 Qxa4 27.
+Bg5 Qa3 28. Qe3 Qf8 29. Rc7 Qe8 30. Bf6 gxf6 31. Qh6 Ne7 32. exf6 Rxf6 33. h5
+Nf5+ 0-1
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1974.03.20"]
+[Round "4"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Cuadras Avellana, Jordi"]
+[Result "0-1"]
+[ECO "D93"]
+[WhiteElo "2435"]
+[PlyCount "100"]
+[EventDate "1974.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Bf4 Bg7 5. e3 O-O 6. Rc1 c6 7. Nf3 Be6 8. b3
+Nbd7 9. Be2 h6 10. Ne5 Ne4 11. Nxe4 dxe4 12. Nxd7 Qa5+ 13. Qd2 Qxd2+ 14. Kxd2
+Bxd7 15. Rhd1 Rae8 16. Ke1 e5 17. dxe5 Bc8 18. c5 g5 19. Bg3 Bxe5 20. b4 Bxg3
+21. hxg3 Rd8 22. a4 a6 23. Rd2 Rxd2 24. Kxd2 f5 25. Kc3 Rd8 26. b5 axb5 27.
+axb5 cxb5 28. Bxb5 Kg7 29. Ra1 Rd5 30. Kb4 Rd2 31. Ra8 Rb2+ 32. Kc3 Rxb5 33.
+Rxc8 b6 34. Rc7+ Kg8 35. Kd4 Rxc5 36. Rxc5 bxc5+ 37. Kxc5 h5 38. Kd5 Kf7 39.
+Ke5 Kg6 40. Ke6 g4 41. Kd5 Kf6 42. Kd6 f4 43. Kd5 h4 44. Kxe4 f3 45. gxf3 h3
+46. fxg4 h2 47. f3 h1=Q 48. Kf4 Qh6+ 49. Ke4 Qg5 50. Kd4 Qe5+ 0-1
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1974.03.22"]
+[Round "5"]
+[White "Quinteros, Miguel Angel"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "E00"]
+[WhiteElo "2520"]
+[BlackElo "2435"]
+[PlyCount "63"]
+[EventDate "1974.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. c4 Nf6 2. d4 e6 3. g3 Bb4+ 4. Nd2 Ne4 5. Bg2 d5 6. Ngf3 O-O 7. O-O Nc6 8. e3
+Nxd2 9. Bxd2 Bxd2 10. Qxd2 Bd7 11. Rac1 Qe7 12. cxd5 exd5 13. Rc5 Be6 14. Rfc1
+Rac8 15. Qc3 Rfd8 16. b4 Qe8 17. Ng5 a6 18. Qd3 g6 19. b5 Bf5 20. Qd1 Nb4 21.
+g4 Be4 22. Bxe4 dxe4 23. Rxc7 Nxa2 24. Nxe4 Rxc7 25. Nf6+ Kh8 26. Rxc7 Qe6 27.
+Qf3 Nb4 28. Rxb7 axb5 29. Ne4 Nd3 30. Ng5 Qa6 31. Qxf7 Qa1+ 32. Kg2 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1974.03.23"]
+[Round "6"]
+[White "Ostojic, Predrag"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "B10"]
+[WhiteElo "2440"]
+[BlackElo "2435"]
+[PlyCount "53"]
+[EventDate "1974.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. e4 c6 2. d3 d5 3. Nd2 g6 4. Ngf3 Bg7 5. c3 Nd7 6. exd5 cxd5 7. d4 Nh6 8. Bd3
+O-O 9. O-O Nf6 10. Re1 Bf5 11. Bf1 Ne4 12. h3 Qd6 13. Ne5 f6 14. Nxe4 Bxe4 15.
+Nc4 Qc7 16. Ne3 Rad8 17. Qb3 f5 18. Bd2 e5 19. dxe5 Qxe5 20. f3 Kh8 21. fxe4
+dxe4 22. Nc4 Qg3 23. Be3 Rde8 24. Qxb7 Nf7 25. Bf2 Qf4 26. Qxa7 Ne5 27. Qe3 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1974.03.24"]
+[Round "7"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1/2-1/2"]
+[ECO "A04"]
+[WhiteElo "2435"]
+[BlackElo "2400"]
+[PlyCount "35"]
+[EventDate "1974.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. Nf3 c5 2. e3 g6 3. d4 Bg7 4. c4 b6 5. Nc3 Bb7 6. Bd3 cxd4 7. exd4 Bxf3 8.
+Qxf3 Nc6 9. d5 Ne5 10. Qe2 Nh6 11. O-O Nxd3 12. Qxd3 O-O 13. Re1 Nf5 14. Bf4
+Rc8 15. Rad1 Re8 16. b3 Bxc3 17. Qxc3 d6 18. a4 1/2-1/2
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1974.03.25"]
+[Round "8"]
+[White "Lombardy, William J"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "A11"]
+[WhiteElo "2520"]
+[BlackElo "2435"]
+[PlyCount "45"]
+[EventDate "1974.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. c4 c6 2. Nf3 d5 3. g3 Nf6 4. Bg2 Bg4 5. h3 Bxf3 6. Bxf3 Nbd7 7. cxd5 cxd5 8.
+O-O e6 9. Nc3 Be7 10. d3 O-O 11. Bg2 Rc8 12. Be3 Ne5 13. f4 Nc6 14. Bf2 d4 15.
+Nb5 Bc5 16. Qa4 Nd5 17. Rac1 Qb6 18. Na3 Ne3 19. Nc4 Qb4 20. Qxb4 Nxb4 21. a3
+Nbd5 22. Bxe3 dxe3 23. Rc2 1/2-1/2
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1974.03.27"]
+[Round "9"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Adorjan, Andras"]
+[Result "0-1"]
+[ECO "A35"]
+[WhiteElo "2435"]
+[BlackElo "2515"]
+[PlyCount "60"]
+[EventDate "1974.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. d4 g6 2. Nf3 Bg7 3. c4 c5 4. Nc3 cxd4 5. Nxd4 Nc6 6. e3 Nf6 7. Be2 O-O 8.
+O-O d6 9. b3 d5 10. Bf3 Nxd4 11. exd4 dxc4 12. bxc4 Be6 13. d5 Bf5 14. Be3 Rc8
+15. Qe2 Nd7 16. Rac1 Ne5 17. Be4 Rxc4 18. Bxf5 gxf5 19. f4 Ng4 20. Bd2 Qb6+ 21.
+Kh1 Rfc8 22. h3 Bxc3 23. Rxc3 Rxc3 24. hxg4 Rc2 25. gxf5 Qd4 26. Rd1 Qxf4 27.
+Qd3 Qh4+ 28. Kg1 R8c4 29. Be1 Qg4 30. Bf2 Qxd1+ 0-1
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1974.03.28"]
+[Round "10"]
+[White "Martz, William E"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "D10"]
+[WhiteElo "2395"]
+[BlackElo "2435"]
+[PlyCount "63"]
+[EventDate "1974.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. c4 c6 2. d4 d5 3. Nc3 Nf6 4. cxd5 cxd5 5. Bf4 Nc6 6. e3 Bf5 7. Qb3 Qb6 8.
+Qxb6 axb6 9. Nf3 e6 10. Nh4 Bg6 11. Nxg6 hxg6 12. Bd3 Kd7 13. h3 Ne8 14. Kd2
+Bd6 15. Bxd6 Nxd6 16. Nb5 Nb4 17. Nxd6 Kxd6 18. a3 Nxd3 19. Kxd3 Rhc8 20. Rac1
+b5 21. Rxc8 Rxc8 22. h4 b4 23. axb4 Rc4 24. b3 Rxb4 25. Kc3 Rb6 26. h5 gxh5 27.
+Rxh5 Rc6+ 28. Kb2 f6 29. Rh8 e5 30. Rd8+ Ke6 31. Re8+ Kd6 32. Rd8+ 1/2-1/2
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1974.03.29"]
+[Round "11"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Iskov, Gert"]
+[Result "1/2-1/2"]
+[ECO "C36"]
+[WhiteElo "2435"]
+[BlackElo "2380"]
+[PlyCount "60"]
+[EventDate "1974.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. e4 e5 2. f4 d5 3. exd5 exf4 4. Nf3 Nf6 5. Nc3 Bd6 6. Bb5+ c6 7. dxc6 bxc6 8.
+Bc4 O-O 9. O-O Nbd7 10. d4 Nb6 11. Bb3 a5 12. a4 Bg4 13. Qd3 Qc8 14. Kh1 Ra7
+15. Ng5 Bf5 16. Nge4 Nxe4 17. Nxe4 Bb8 18. Bxf4 Re7 19. Be5 Bxe5 20. dxe5 Rxe5
+21. Qd4 Rxe4 22. Qxb6 Re5 23. Rae1 Rfe8 24. Rxe5 Rxe5 25. Rd1 Qe8 26. h3 Re1+
+27. Rxe1 Qxe1+ 28. Kh2 Qe5+ 29. Kh1 Qe1+ 30. Kh2 Qe5+ 1/2-1/2
+
+[Event "Costa Brava"]
+[Site "San Feliu de Guixols"]
+[Date "1974.09.13"]
+[Round "6"]
+[White "Kurajica, Bojan"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "B05"]
+[PlyCount "71"]
+[EventDate "1974.09.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "8"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. c4 Nb6 5. exd6 exd6 6. Be2 Be7 7. Nf3 Bg4 8.
+O-O O-O 9. Nc3 Nc6 10. b3 Bf6 11. Be3 Re8 12. h3 Bh5 13. Qd2 h6 14. Rad1 a5 15.
+a4 Nb4 16. g4 Bg6 17. Ne1 Qe7 18. Rc1 Bg5 19. Ng2 Bxe3 20. Nxe3 f5 21. gxf5
+Qg5+ 22. Bg4 Bh7 23. f4 Qh4 24. Kh2 Re7 25. c5 Nd7 26. Ncd5 Nxd5 27. Nxd5 Rf7
+28. cxd6 cxd6 29. Qe1 Qxe1 30. Rfxe1 Nf6 31. Bf3 Kf8 32. Nxf6 gxf6 33. Bd5 Rg7
+34. Re6 Bg8 35. Rxf6+ Ke7 36. Rxh6 1-0
+
+[Event "Costa Brava"]
+[Site "San Feliu de Guixols"]
+[Date "1974.09.15"]
+[Round "7"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Hamann, Svend"]
+[Result "1-0"]
+[ECO "E91"]
+[Annotator "Toran, Roman"]
+[PlyCount "57"]
+[EventDate "1974.09.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "8"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 c5 {[Para llegar a una especie de defensa
+Indo-Benoni, después de 4.d5 e6. Las principales alternativas son 3...Ag7
+--defensa India de Rey-- y 3...d5 --defensa Grunfeld--. ]} 4. Nf3 {
+[Manteniéndose la tensión central, reservándose el citado avance 4.d5; esto
+invita a las negras a derivar el planteo hacia una defensa Siciliana, con la
+variante "fianchetto" acelerado, después de 4...cxd4 5.Cxd4 Cc5 6.e4, etcétera.
+]} Bg7 5. e4 d6 6. Be2 O-O 7. O-O Na6 ({[Las negras también optan por mantener
+la tensión central. Con} 7... cxd4 8. Nxd4 Nc6 {, se llegaría al esquema
+citado en el comentario anterior.}) ({En el match Kárpov - Spassky se ensayó} 
+7... Bg4 {, pero las blancas consiguieron ventaja de espacio tras el avance} 8.
+d5) 8. e5 $1 (8. e5 $1 {Fuerte ruptura central, aprovechando que el caballo
+del flanco dama negro está alejado del punto c6 y, después de} dxe5 9. dxe5 Ng4
+10. Bf4 {, las blancas sostendrían su punto de avanzada de "e5" sin
+dificultades, asegurándose clava ventaja de espacio.}) 8... Ne8 ({Si} 8... Ng4
+9. exd6 exd6 10. Bg5 $1 {, sería favorable para las blancas, pero esta
+retirada deja a las negras con un juego muy restringido.}) 9. Be3 b6 $2 ({
+Pasivo; se imponía} 9... cxd4 10. Bxd4 dxe5 11. Nxe5 Nd6 {, amenazando ...Cf5,
+con lo que se liberaría bastante el juego negro.}) 10. Nd5 $1 Bb7 11. Bg5 $1
+Bxd5 ({Después de} 11... f6 12. exf6 exf6 13. Bf4 {, las blancas tendrían
+clara superioridad.}) 12. cxd5 Nac7 13. Qb3 f6 ({Es evidente que, si} 13...
+dxe5 14. dxe5 Qxd5 ({Si} 14... Nxd5 15. Rad1 Nec7 16. Bc4 {, gana.}) 15. Bxe7 {
+, ganaría la calidad.}) 14. Bh4 g5 15. Bg3 g4 {[Intento de reacción, que
+debilita seriamente el enroque, pero era difícil ya hallar un plan
+satisfactorio para las negras, ante la presión posicional de Pomar. ]} 16. Nh4
+f5 ({No servía} 16... dxe5 {, por} 17. d6+ {.}) 17. f4 Kh8 18. Rad1 Qc8 19. Bd3
+$1 {[Se inicia así un fuerte ataque sobre el peón f5 y se sacrifica un peón
+para abrir la columna "c". ]} cxd4 20. Rc1 $1 e6 {[Ante peón e6, las negras
+tienen que abrir la posición, lo que, mejor desarrolladas, permitirá a las
+blancas obtener las mejores posibilidades de ataque. ]} 21. Qc2 $1 dxe5 22.
+fxe5 Bh6 23. dxe6 $1 {[Excelente sacrificio de la calidad, con el que se
+logrará dar la máxima actividad a los alfiles, especulando con las debilidades
+que presenta el enroque negro. ]} Bxc1 24. Qxc1 $1 Qxe6 {[Ante Dh6! ]} 25. Bxf5
+Qe7 26. e6 $1 Rxf5 ({Si} 26... Nd5 27. Qh6 Kg8 {-ante Cg6 jaque-} 28. Bxh7+ {
+, decidiría.}) 27. Nxf5 Qxe6 ({O} 27... Qd8 28. Be5+ {y gana, puesto que si}
+Nf6 ({Y si} 28... Kg8 29. Nh6#) 29. e7) 28. Bxc7 Rc8 29. Be5+ (29. Be5+ $1 {Y
+las negras abandonaron, ya que, a} Qxe5 ({Si} 29... Kg8 30. Qxc8 $1 Qxc8 31.
+Ne7#) 30. Qxc8 {, gana.}) 1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1975.??.??"]
+[Round "?"]
+[White "Llanes Ferrer, Francisco"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "B88"]
+[PlyCount "60"]
+[EventDate "1975.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 Nf6 4. Nc3 cxd4 5. Nxd4 Nc6 6. Bc4 e6 7. Bb3 Be7 8.
+O-O O-O 9. Kh1 Na5 10. f3 a6 11. Be3 Qc7 12. Qe1 Nc4 13. Bxc4 Qxc4 14. Rd1 b5
+15. a3 Bb7 16. Nb3 a5 17. Nc5 b4 18. b3 Qxc3 19. Qxc3 bxc3 20. Nxb7 Ra6 21. e5
+dxe5 22. Bc5 Bxc5 23. Nxc5 Rc6 24. Nd7 Nxd7 25. Rxd7 g5 26. Rfd1 Rc5 27. Kg1
+Kg7 28. Kf2 h5 29. Ke3 Kf6 30. Ra7 g4 1/2-1/2
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1975.??.??"]
+[Round "?"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Garcia Conesa, Gregorio"]
+[Result "1/2-1/2"]
+[ECO "B22"]
+[PlyCount "53"]
+[EventDate "1975.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. c3 g6 3. d4 cxd4 4. cxd4 d5 5. exd5 Nf6 6. Bb5+ Bd7 7. Bc4 Bg7 8.
+Nc3 O-O 9. Nf3 a6 10. a4 Bg4 11. h3 Bxf3 12. Qxf3 Qb6 13. Qd3 Ne8 14. Bg5 Nd6
+15. O-O Qxd4 16. Qxd4 Bxd4 17. Ba2 f6 18. Bf4 Bxc3 19. bxc3 Nd7 20. Rfe1 Rfe8
+21. Bxd6 exd6 22. Re6 Rxe6 23. dxe6 Nc5 24. Rd1 Kf8 25. Rxd6 Ke7 26. Rd4 a5 27.
+Rh4 1/2-1/2
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1975.01.04"]
+[Round "11"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Medina Garcia, Antonio"]
+[Result "1/2-1/2"]
+[ECO "A33"]
+[PlyCount "43"]
+[EventDate "1975.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. c4 c5 3. Nc3 Nc6 4. d4 cxd4 5. Nxd4 e6 6. e3 Be7 7. Be2 O-O 8.
+O-O Qc7 9. b3 b6 10. Bb2 Bb7 11. Rc1 Rac8 12. Qd2 Rfd8 13. Rfd1 Qb8 14. h3 d5
+15. cxd5 Nxd5 16. Nxd5 Rxd5 17. Bf3 Rd6 18. Bxc6 Bxc6 19. Nxc6 Rcxc6 20. Rxc6
+Rxc6 21. Qd4 Bf8 22. Qd7 1/2-1/2
+
+[Event "Copa Catalana Mem. Agusti Pujol eq."]
+[Site "?"]
+[Date "1975.??.??"]
+[Round "?"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Martin"]
+[Result "1-0"]
+[ECO "A31"]
+[PlyCount "75"]
+[EventDate "1975.??.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 c5 3. c4 cxd4 4. Nxd4 b6 5. Nc3 Bb7 6. f3 e6 7. e4 d6 8. Be2
+Be7 9. O-O O-O 10. Be3 Nbd7 11. Kh1 Re8 12. Qd2 a6 13. Rfd1 Rc8 14. Rac1 Qc7
+15. Bf1 Qb8 16. Bf2 Bf8 17. Nc2 Ne5 18. Ne3 Red8 19. a4 Nc6 20. b3 Nb4 21. Nc2
+Nxc2 22. Qxc2 Bc6 23. Qb2 Be7 24. b4 Nd7 25. Qa2 Bb7 26. a5 Qc7 27. axb6 Nxb6
+28. b5 a5 29. Na4 Nd7 30. Be3 Nc5 31. b6 Qc6 32. Nxc5 dxc5 33. Qxa5 Rxd1 34.
+Rxd1 Ra8 35. Qb5 Ra3 36. Bf2 Kf8 37. Rd7 Ra6 38. Rc7 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1975.??.??"]
+[Round "?"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "B19"]
+[PlyCount "99"]
+[EventDate "1975.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. h4 h6 7. Nf3 Nd7 8. h5
+Bh7 9. Bd3 Bxd3 10. Qxd3 Qc7 11. Rh4 e6 12. Bf4 Bd6 13. Bxd6 Qxd6 14. Ne4 Qe7
+15. Qa3 Qxa3 16. bxa3 Ke7 17. Rb1 Rb8 18. Nc5 Nxc5 19. dxc5 a5 20. Ne5 Nf6 21.
+Rd4 Rhc8 22. Rb3 Rc7 23. g4 Rd8 24. Rxb7 Rxd4 25. Nxc6+ Kd7 26. Nxd4 Rxb7 27.
+c6+ Kc7 28. cxb7 Nxg4 29. Nc6 Kxb7 30. Nxa5+ Kc7 31. Nc4 f5 32. f4 Nf6 33. Ne5
+Nxh5 34. Ng6 Nf6 35. Kd2 h5 36. Ke3 Kd6 37. Kd4 Nd5 38. c4 h4 39. c5+ Kc6 40.
+Nxh4 Nxf4 41. Nf3 Nh3 42. Kc4 g5 43. Nd4+ Kd7 44. a4 Nf4 45. a5 Nd5 46. Nxf5 g4
+47. Ng3 Kc6 48. Kd4 Ne7 49. a6 Nf5+ 50. Nxf5 1/2-1/2
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1975.??.??"]
+[Round "?"]
+[White "Csom, Itsvan"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "E17"]
+[PlyCount "147"]
+[EventDate "1975.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. Nf3 Nf6 2. g3 b6 3. Bg2 Bb7 4. c4 e6 5. O-O Be7 6. Nc3 O-O 7. Re1 d5 8. cxd5
+exd5 9. d4 Ne4 10. Qb3 Nxc3 11. Qxc3 a5 12. Qc2 Nd7 13. Bf4 Bd6 14. Bxd6 cxd6
+15. Rac1 Rc8 16. Qb3 Nf6 17. Nd2 Rc7 18. Nf1 Ba6 19. Rxc7 Qxc7 20. Ne3 Re8 21.
+Bxd5 Nxd5 22. Nxd5 Qd7 23. Qxb6 Bxe2 24. Qc7 Qb5 25. Nc3 Bf3 26. Re3 Rxe3 27.
+fxe3 Qe8 28. Kf2 Bh1 29. Qxa5 h6 30. Qf5 Qc6 31. d5 Qc4 32. Ke1 Qb4 33. Qc8+
+Kh7 34. Qf5+ Kg8 35. Qc8+ Kh7 36. Qf5+ Kg8 37. Qc2 Bxd5 38. a3 Qc5 39. Qd3 Be6
+40. Kd2 Qh5 41. Qe2 Bg4 42. Qf2 Be6 43. Qg2 g6 44. Qf2 Qg4 45. Qe2 Qf5 46. b4
+Bb3 47. Kc1 f6 48. a4 Qe5 49. Qd3 Kg7 50. a5 d5 51. Kb2 Bc4 52. Qd4 Qh5 53. Qd2
+Qf5 54. Ka3 Qf1 55. Kb2 Qf5 56. Na4 Qe5+ 57. Qd4 Qh5 58. Qd2 Qe5+ 59. Qd4 Qh5
+60. Kc3 Qxh2 61. Qa7+ Kg8 62. Qb8+ Kh7 63. Qb7+ Kh8 64. Qc8+ Kh7 65. Qc7+ Kh8
+66. Qd8+ Kh7 67. Qd7+ Kh8 68. Qe8+ Kh7 69. Qf7+ Kh8 70. Qxf6+ Kh7 71. Qf7+ Kh8
+72. Qxg6 Qh1 73. Qe8+ Kh7 74. Kd4 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1975.??.??"]
+[Round "?"]
+[White "Filip, Miroslav"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "E54"]
+[PlyCount "97"]
+[EventDate "1975.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Bd3 d5 6. Nf3 c5 7. O-O dxc4 8. Bxc4
+Nc6 9. Bd3 Qe7 10. Ne4 Nxe4 11. Bxe4 f5 12. Bxc6 bxc6 13. Bd2 Ba6 14. Re1 Bxd2
+15. Qxd2 cxd4 16. exd4 Bc4 17. Ne5 Bd5 18. Rac1 Bxa2 19. Nxc6 Qd6 20. Qb4 Qxb4
+21. Nxb4 Bd5 22. Rc5 Rab8 23. Nxd5 exd5 24. Re7 Rf7 25. Rxf7 Kxf7 26. Rxd5 Ke6
+27. Re5+ Kf6 28. Re2 Rb4 29. Rd2 Ke6 30. g3 Kd5 31. Re2 Rb7 32. Re5+ Kxd4 33.
+Rxf5 Kc4 34. Rf3 a5 35. Rc3+ Kb4 36. h4 a4 37. Kg2 Rd7 38. Rc8 Rd3 39. Rb8+ Kc4
+40. Rb7 Rb3 41. Rxg7 h5 42. Rc7+ Kd3 43. Rc5 Rxb2 44. Rxh5 a3 45. Ra5 Rb3 46.
+h5 Kc2 47. h6 Kb2 48. g4 a2 49. h7 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1975.??.??"]
+[Round "?"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Cordovil, Joao Maria"]
+[Result "0-1"]
+[ECO "A43"]
+[PlyCount "82"]
+[EventDate "1975.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. d4 c5 2. e3 cxd4 3. exd4 g6 4. Nf3 Bg7 5. Bd3 Nc6 6. Be3 Qb6 7. Nc3 Nxd4 8.
+O-O Qxb2 9. Nxd4 Qxc3 10. Nb5 Qc6 11. Nxa7 Rxa7 12. Bxa7 Bxa1 13. Qxa1 Nf6 14.
+Re1 Qd6 15. Bb8 Qb4 16. a3 Qb6 17. Bf4 h6 18. h3 Kf8 19. Qc1 g5 20. Be3 Qc6 21.
+Bd4 d6 22. f4 Rg8 23. f5 Nd5 24. Be4 Qc4 25. Qd2 Nf4 26. g3 Nxh3+ 27. Kh2 g4
+28. Bd5 Ng5 29. Qe3 Qc7 30. Bb6 Qxc2+ 31. Re2 Qxf5 32. Qxe7+ Kg7 33. Bd4+ Kh7
+34. Qxd6 Nf3+ 35. Kg2 Qh5 36. Be4+ Bf5 37. Bxf5+ Qxf5 38. Be3 Qh5 39. Bg1 Qh3+
+40. Kf2 Qh1 41. Qd3+ Rg6 0-1
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1975.??.??"]
+[Round "?"]
+[White "Romanishin, Oleg M"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "B11"]
+[PlyCount "111"]
+[EventDate "1975.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. e4 c6 2. Nc3 d5 3. Nf3 Bg4 4. h3 Bxf3 5. Qxf3 e6 6. d3 Bb4 7. exd5 cxd5 8.
+Qg4 Bf8 9. d4 Nf6 10. Qg3 Nc6 11. Bb5 a6 12. Bxc6+ bxc6 13. O-O g6 14. Bg5 Nh5
+15. Qe3 Qc7 16. g4 h6 17. gxh5 hxg5 18. hxg6 Qf4 19. gxf7+ Kxf7 20. Ne2 Qf5 21.
+Kg2 Bd6 22. Rh1 Rh4 23. Qf3 Rb8 24. b3 Qxf3+ 25. Kxf3 Rbh8 26. Kg2 Re4 27. Rae1
+g4 28. h4 Be7 29. h5 Bg5 30. Kf1 Rh6 31. Rd1 Rf6 32. Rd3 Kg7 33. Rg1 Kh6 34.
+Rg2 Bh4 35. Rh2 Kg5 36. c3 e5 37. dxe5 Rxe5 38. Ng3 Rfe6 39. Kg2 Rf6 40. Rd2
+Bxg3 41. Kxg3 Rf3+ 42. Kg2 Kh6 43. Rh4 Rxc3 44. Rxg4 Rg5 45. Rxg5 Kxg5 46. Rd4
+Rc5 47. Ra4 a5 48. Kf3 Rb5 49. h6 Kxh6 50. Kf4 Rb4+ 51. Rxb4 axb4 52. Ke5 Kg5
+53. f4+ Kg6 54. Ke6 Kg7 55. Ke7 Kg6 56. Ke6 1/2-1/2
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1975.??.??"]
+[Round "?"]
+[White "Sanz Alonso, Francisco Javier"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "A11"]
+[PlyCount "84"]
+[EventDate "1975.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. c4 c6 2. Nf3 d5 3. e3 Nf6 4. Nc3 Bg4 5. Qb3 Qb6 6. Qxb6 axb6 7. cxd5 Bxf3 8.
+gxf3 cxd5 9. Bb5+ Nc6 10. b3 e6 11. Bb2 Nd7 12. Ke2 Be7 13. Na4 Bf6 14. Bxf6
+gxf6 15. Rhc1 Rc8 16. Rg1 Kf8 17. h4 Rg8 18. Rxg8+ Kxg8 19. Rg1+ Kf8 20. f4 f5
+21. d4 Ke7 22. Kd2 h6 23. f3 Ra8 24. Kc3 Ra5 25. Bxc6 bxc6 26. Rg8 b5 27. Kb4
+Ra7 28. Nc3 Rb7 29. Rc8 Kd6 30. Rh8 Nb8 31. h5 Na6+ 32. Ka5 Nc7 33. b4 Ra7+ 34.
+Kb6 Ra8 35. Rxh6 Rb8+ 36. Ka7 Rg8 37. Kb7 Ne8 38. Rh7 Ke7 39. a4 Nd6+ 40. Ka7
+Kd7 41. a5 Kc7 42. h6 Rb8 0-1
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1975.03.10"]
+[Round "2"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Medina Garcia, Antonio"]
+[Result "1-0"]
+[ECO "D53"]
+[PlyCount "75"]
+[EventDate "1975.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+
+1. c4 Nf6 2. Nc3 e6 3. d4 d5 4. Bg5 Be7 5. Nf3 O-O 6. Rc1 h6 7. Bh4 b6 8. cxd5
+Nxd5 9. Nxd5 exd5 10. Bxe7 Qxe7 11. g3 Ba6 12. Bg2 Nd7 13. O-O Rfe8 14. Qa4
+Bxe2 15. Rfe1 Qd8 16. Qc6 Nf6 17. Ne5 Ba6 18. Qxc7 Re7 19. Qxd8+ Rxd8 20. Nc6
+Rxe1+ 21. Rxe1 Rd6 22. Nxa7 Kf8 23. Rc1 Re6 24. Nc6 Bc4 25. Nb4 Re2 26. b3 Rb2
+27. bxc4 Rxb4 28. c5 Ke7 29. c6 Rc4 30. Rxc4 dxc4 31. Kf1 Kd6 32. Ke2 Ne8 33.
+Kd2 b5 34. Kc3 Nc7 35. Kb4 Ne6 36. d5 Nd4 37. Be4 f5 38. Bb1 1-0
+
+[Event "Camp. España eq. 1 Div."]
+[Site "Barcelona"]
+[Date "1975.??.??"]
+[Round "1"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Ochoa de Echaguen, Francisco Javier"]
+[Result "1/2-1/2"]
+[ECO "E61"]
+[PlyCount "56"]
+[EventDate "1975.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 c5 2. e3 g6 3. Nf3 Bg7 4. c4 Nf6 5. Nc3 O-O 6. Be2 b6 7. O-O d6 8. b3 Nc6
+9. Bb2 Nd7 10. Rc1 Bb7 11. d5 Nce5 12. Ne1 g5 13. f4 gxf4 14. exf4 Ng6 15. Nd3
+e6 16. Nb5 Nf6 17. dxe6 fxe6 18. Bf3 Bxf3 19. Qxf3 a6 20. Nc3 Ra7 21. Ne4 Nh4
+22. Qe2 Nxe4 23. Qxe4 Bxb2 24. Nxb2 Qf6 25. Nd3 Nf5 26. Rce1 Nd4 27. Nc1 Rg7
+28. Ne2 Nf5 1/2-1/2
+
+[Event "Camp. España eq. 1 Div."]
+[Site "Barcelona"]
+[Date "1975.??.??"]
+[Round "2"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Larsen, Bent"]
+[Result "1-0"]
+[ECO "A80"]
+[PlyCount "40"]
+[EventDate "1975.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 f5 2. Nc3 d5 3. f3 c5 4. e4 e5 5. Bb5+ Bd7 6. Bxd7+ Nxd7 7. Nxd5 cxd4 8.
+Ne2 fxe4 9. fxe4 Ngf6 10. Bg5 Qa5+ 11. Bd2 Qc5 12. Nxf6+ Nxf6 13. Ng3 h5 14.
+Qf3 h4 15. Ne2 Qxc2 16. Qf5 Qxe4 17. Qe6+ Be7 18. Bb4 Nd5 19. Bxe7 Nf4 20. Qc4
+Kxe7 1-0
+
+[Event "Mollet sim"]
+[Site "Mollet"]
+[Date "1975.07.??"]
+[Round "?"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Blanco, Joan"]
+[Result "1-0"]
+[ECO "B07"]
+[PlyCount "59"]
+[EventDate "1975.07.20"]
+[EventType "simul"]
+[EventCountry "ESP"]
+
+1. e4 d6 2. d4 e5 3. dxe5 dxe5 4. Qxd8+ Kxd8 5. Nf3 Nc6 6. Nc3 Nf6 7. Ng5 Be6
+8. Nxe6+ fxe6 9. Bc4 Bb4 10. Bg5 Nd4 11. O-O-O c6 12. Bxe6 Kc7 13. Bxf6 gxf6
+14. Bh3 Rad8 15. Rd3 Bxc3 16. bxc3 Nb5 17. Rhd1 Rd6 $4 18. a4 Rhd8 19. axb5
+cxb5 20. Rxd6 Rxd6 21. Rxd6 Kxd6 22. Bf5 h6 23. g3 a5 24. f4 exf4 25. gxf4 b4
+26. cxb4 axb4 27. Kb2 b6 28. Kb3 h5 29. Kxb4 Kc6 30. h4 1-0
+
+[Event "Costa Brava"]
+[Site "San Feliu de Guixols"]
+[Date "1975.09.03"]
+[Round "1"]
+[White "Garcia Martinez, Silvino"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "E57"]
+[Annotator "Toran, Roman"]
+[PlyCount "49"]
+[EventDate "1975.09.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 ({Román Toran: La defensa Nimzoindia. Las
+alternativas son:} 3... c5 4. d5 exd5 5. cxd5 d6 6. Nf3 g6 {, conduciría a la
+defensa Indo-Benoni;}) ({O bien} 3... d5 {, con lo que se llegaría al gambito
+de dama, con la defensa Ortodoxa.}) 4. e3 O-O 5. Bd3 c5 6. Nf3 d5 7. O-O dxc4 (
+{Román Torán: Estamos en la variante Rubinstein, que es la más que se ha
+practicado. contra esta defensa, en los últimos treinta años. En este momento,
+otra posibilidad es} 7... Nc6 {, manteniendo temporalmente la presión central.}
+) 8. Bxc4 Nc6 ({Román Torán: El campeón mundial, Kárpov, está jugando
+actualmente} 8... b6 {, con gran frecuencia.}) ({También son interesantes las
+continuaciones} 8... Nbd7 {;}) ({Y, la más compleja,} 8... Qe7 {.}) 9. Bd3 ({
+Con} 9. a3 Bxc3 10. bxc3 Qc7 {, se llegaría a la famosa "variante Zurich", que
+tantas veces se jugó en el Torneo de Candidatos de 1953, en la citada ciudad
+suiza.}) 9... cxd4 10. exd4 Be7 $6 ({Es evidente que no se puede capturar el
+peón, ya que si} 10... Nxd4 $2 11. Nxd4 Qxd4 12. Bxh7+ {, ganaría la dama.
+Ahora las blancas tienen un juego más brillante y ventaja de espacio, mientras
+que las negras, como única compensación, cuentan con la debilidad teórica del
+peón central blanco <<aislado>>, sin protección de otros peones, pero tienen
+dificultades para completar su desarrollo de piezas y poder ejercer una
+presión fuerte sobre el mismo.}) 11. a3 {[Evita un eventual . ..Cb4, ante las
+maniobra que se realizará en las jugadas 13 y 14. ]} b6 12. Re1 Bb7 13. Bc2 Rc8
+14. Qd3 {[Román Torán: Así queda montado el <<tren>>, ataque temático en este
+tipo de posiciones sobre el enroque, que deja latente múltiples amenazas, como
+Ag5 y la que veremos en la partida. ]} Re8 $2 ({Es absolutamente necesario
+jugar inmediatamente} 14... g6 {, interceptando la acción de la dama y el
+alfil enemigos sobre el punto "h7" y, a} 15. Bh6 Re8 {. Este mismo error fue
+cometido por el gran maestro Balashov, en una partida contra Petrosian, en el
+último Campeonato Soviético por equipos.}) 15. d5 $1 {[Este sacrificio de peón
+da al ataque blanco un notable impulso, al abrir importantes vías de
+penetración a las piezas sobre el ala de rey, especulando en que, no es
+posible 15...Cxd5, por la amenaza citada sobre "h7". ]} exd5 16. Bg5 $1 Ne4 ({
+Ahora ya no sirve} 16... g6 {, que es la defensa natural contra <<el tren>>, a
+causa de la maniobra} 17. Rxe7 $1 Qxe7 18. Nxd5 {, que gana de forma
+fulminante. Pomar elige la mejor defensa ante la amenaza 17.Axf6, seguido de
+la penetración de la dama blanca.}) 17. Nxe4 dxe4 18. Qxe4 g6 19. Qh4 $1 {
+[Ahora el enroque negro está muy debilitado y mal defendido contra la
+superioridad numérica con que cuentan las blancas en el flanco de rey. ]} Qc7
+20. Bb3 $1 {[Plantea la amenaza directa 21.Axf7+ Rxf7 22.Dxh7+ Rf8 23.Ah6 mate,
+lo que obliga a crear nuevas debilidades , especulando con la clavada del pen
+el enroque negro. ]} h5 21. Qe4 Kg7 22. Bxf7 $1 Kxf7 23. Bh6 $1 {[La clave de
+la maniobra al amenazar De6 y Dd5, mate. ]} Bd6 ({No hay defensa, al no ser
+posible la retirada} 23... Kg8 {, por} 24. Qxg6+ {, seguido de mate.}) 24. Ng5+
+Kf6 25. Nh7+ (25. Nh7+ $1 {. Y las negras abandonaron ya que si} Kf7 {,
+seguiría} 26. Qd5+ {y mate a la jugada siguiente.}) 1-0
+
+[Event "Costa Brava"]
+[Site "San Feliu de Guixols"]
+[Date "1975.??.??"]
+[Round "7"]
+[White "Vaganian, Rafael"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "D46"]
+[PlyCount "49"]
+[EventDate "1975.09.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. c4 Nf6 2. Nc3 c6 3. Nf3 d5 4. e3 e6 5. d4 Nbd7 6. Bd3 Be7 7. O-O O-O 8. e4
+dxe4 9. Nxe4 c5 10. Nxc5 Bxc5 11. dxc5 Nxc5 12. Bc2 Qxd1 13. Rxd1 b6 14. Ne5
+Bb7 15. b4 Be4 16. Bxe4 Ncxe4 17. Bb2 h6 18. f3 Ng5 19. Nc6 Ngh7 20. a4 Rfe8
+21. a5 Kf8 22. b5 Rec8 23. axb6 axb6 24. Rxa8 Rxa8 25. c5 1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1976.??.??"]
+[Round "?"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Bordell Rosell, Roman"]
+[Result "1-0"]
+[ECO "D02"]
+[PlyCount "87"]
+[EventDate "1976.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. g3 c5 2. Nf3 d5 3. Bg2 Nc6 4. d4 Nf6 5. O-O cxd4 6. Nxd4 g6 7. c4 Nxd4 8.
+Qxd4 Be6 9. cxd5 Bxd5 10. Qa4+ Qd7 11. Qxd7+ Kxd7 12. Rd1 Kc6 13. f3 e5 14. Bg5
+Bc5+ 15. Kh1 Nh5 16. Nc3 h6 17. Bd2 Nf6 18. Rac1 a5 19. Nxd5 Nxd5 20. f4 Rhd8
+21. Be3 b6 22. b3 e4 23. Bxe4 Rd6 24. Bxc5 bxc5 25. Rd3 Rad8 26. Rcd1 a4 27.
+Bf3 R6d7 28. Kg2 h5 29. Kh3 f6 30. Kh4 axb3 31. axb3 Rd6 32. f5 gxf5 33. Rxd5
+Rxd5 34. Kxh5 f4+ 35. Kg4 fxg3 36. Kxg3 Rg8+ 37. Kf4 Rgg5 38. Rxd5 Rxd5 39. h4
+Kd6 40. Bxd5 Kxd5 41. h5 Ke6 42. h6 Kf7 43. Kf5 Kg8 44. Kxf6 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1976.??.??"]
+[Round "?"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "B19"]
+[PlyCount "56"]
+[EventDate "1976.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. h4 h6 7. Nf3 Nd7 8. h5
+Bh7 9. Bd3 Bxd3 10. Qxd3 Qc7 11. Rh4 e6 12. Bf4 Bd6 13. Bxd6 Qxd6 14. Ne4 Qe7
+15. Qa3 Qxa3 16. bxa3 Ke7 17. Rb1 Rb8 18. Nc5 Nxc5 19. dxc5 a5 20. Ne5 Nf6 21.
+Rd4 Rhc8 22. Rb3 Rc7 23. g4 Rd8 24. Rxb7 Rxd4 25. Nxc6+ Kd7 26. Nxd4 Rxb7 27.
+c6+ Kc7 28. cxb7 Nxg4 1/2-1/2
+
+[Event "Costa Brava"]
+[Site "Blanes - Malgrat de Mar"]
+[Date "1976.10.03"]
+[Round "1"]
+[White "Larsen, Bent"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "D42"]
+[WhiteElo "2625"]
+[BlackElo "2430"]
+[Annotator "Larsen, Bent"]
+[PlyCount "75"]
+[EventDate "1976.10.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. c4 Nf6 5. Nc3 e6 6. Nf3 Be7 7. cxd5 Nxd5 (
+7... exd5 8. Bb5+ Bd7 9. Qb3 $14) 8. Bd3 Nc6 9. O-O O-O 10. Re1 Bd7 11. Bc2 $5
+(11. Nxd5 exd5 12. Ne5) 11... Bf6 $6 (11... Ncb4 $5 12. Be4 (12. Bb1 Nf6) (12.
+Bb3 Nf6) 12... Bc6) 12. Qd3 g6 13. Bb3 $16 Rc8 14. Bh6 Bg7 15. Bxg7 Kxg7 16. h4
+$5 (16. Bxd5) 16... Qa5 17. Ne4 Qc7 18. Rac1 Rfd8 19. Bxd5 (19. h5 Be8 $1)
+19... exd5 20. Nc3 Bf5 21. Qd2 Qd6 22. Ne5 Qf6 23. h5 gxh5 24. Ne2 Bg6 (24...
+Nxe5 25. dxe5 Qh6 26. Qd4 {/\ Nf4}) 25. Nf4 Nxe5 $6 26. dxe5 Qf5 27. Rxc8 Rxc8
+28. e6 f6 $2 (28... fxe6 29. Nxe6+ Kg8 30. Qd4 $16) 29. Qb4 $18 Re8 30. Qxb7+
+Kh6 31. Nxg6 Qxg6 (31... hxg6 32. Qf7) 32. Qxa7 Qg5 33. a4 $5 (33. Qe3) 33...
+f5 (33... Rg8 34. Qe3) 34. Qd4 f4 35. Re5 Qg4 36. e7 Rg8 37. Qxd5 f3 38. Qe6+
+1-0
+
+[Event "Costa Brava"]
+[Site "Blanes - Malgrat de Mar"]
+[Date "1976.??.??"]
+[Round "2"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Castro Rojas, Oscar H"]
+[Result "1/2-1/2"]
+[ECO "A16"]
+[WhiteElo "2430"]
+[BlackElo "2380"]
+[PlyCount "82"]
+[EventDate "1976.10.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. c4 Nf6 2. Nc3 d5 3. d4 dxc4 4. e4 e5 5. Nf3 exd4 6. Qxd4 Qxd4 7. Nxd4 Bb4 8.
+f3 a6 9. Bxc4 O-O 10. Be3 Re8 11. Kf2 Nbd7 12. Rhd1 Bf8 13. Rac1 Ne5 14. Be2 c5
+15. Nf5 b5 16. a4 Bd7 17. axb5 axb5 18. g4 h6 19. h4 b4 20. Nd5 Nxd5 21. Rxd5
+Ra2 22. Rd2 Be6 23. Bxc5 Rc8 24. Bxf8 Rxc1 25. Bxg7 Nxg4+ 26. fxg4 Bxf5 27. Bf6
+Bxe4 28. Rd8+ Kh7 29. h5 Ra8 30. Bd3 Bxd3 31. Rxa8 Rf1+ 32. Ke3 Rxf6 33. Kxd3
+Rf4 34. Rc8 Rxg4 35. Rc4 Rg3+ 36. Kd4 Rh3 37. Rxb4 Rh4+ 38. Kc3 Rxh5 39. Rg4
+Rh1 40. b4 f5 41. Rg2 h5 1/2-1/2
+
+[Event "Costa Brava"]
+[Site "Blanes - Malgrat de Mar"]
+[Date "1976.??.??"]
+[Round "3"]
+[White "Ortega Adan, Manuel"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "B72"]
+[BlackElo "2430"]
+[PlyCount "63"]
+[EventDate "1976.10.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. e4 c5 2. Nf3 d6 3. d4 Nf6 4. Nc3 cxd4 5. Nxd4 Nc6 6. Be2 g6 7. Be3 Bg7 8.
+Qd2 Ng4 9. Bxg4 Bxg4 10. f3 Bd7 11. Nxc6 bxc6 12. Bd4 f6 13. h4 h5 14. O-O-O
+Rb8 15. f4 c5 16. Be3 Bg4 17. Rde1 Qa5 18. Qd5 Qb6 19. Qb3 Qd8 20. Qa3 O-O 21.
+Bd2 e6 22. Nd1 f5 23. e5 dxe5 24. fxe5 Qd5 25. Bc3 Rfd8 26. Nf2 Qxg2 27. Nxg4
+hxg4 28. Qxc5 Qd5 29. Qa3 g3 30. Kb1 f4 31. Qa4 f3 32. Qg4 0-1
+
+[Event "Costa Brava"]
+[Site "Blanes - Malgrat de Mar"]
+[Date "1976.??.??"]
+[Round "4"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Garcia Conesa, Gregorio"]
+[Result "1/2-1/2"]
+[ECO "A00"]
+[WhiteElo "2430"]
+[PlyCount "36"]
+[EventDate "1976.10.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. Nc3 d5 2. Nf3 g6 3. h4 h5 4. e4 d4 5. Ne2 c5 6. c3 Nc6 7. cxd4 cxd4 8. d3 e5
+9. g3 Bg7 10. Bg2 Bg4 11. O-O Qd7 12. Bd2 Nge7 13. Rc1 O-O 14. Ng5 f6 15. f3
+fxg5 16. fxg4 Rxf1+ 17. Bxf1 gxh4 18. gxh5 gxh5 1/2-1/2
+
+[Event "Costa Brava"]
+[Site "Blanes - Malgrat de Mar"]
+[Date "1976.10.07"]
+[Round "5"]
+[White "Sanz Alonso, Francisco Javier"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "A03"]
+[WhiteElo "2345"]
+[BlackElo "2430"]
+[Annotator "Pomar, Arturo"]
+[PlyCount "48"]
+[EventDate "1976.10.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. g3 d5 2. Bg2 Nf6 3. f4 {[Planteando una defensa holandesa, con colores
+cambiados. ]} g6 ({En una partida contra Quinteros jugué} 3... Nc6 {, a lo que
+siguió} 4. Nf3 ({Algo mejor es} 4. d4) 4... Bg4 5. O-O Bxf3 6. Rxf3 e5 7. fxe5
+Nxe5 8. Rf5 Bd6 {, con algunas posibilidades de ataque para el negro.}) 4. Nf3
+Bg7 5. d3 b6 6. Nc3 Bb7 7. e4 ({Una jugada de "doble filo" que es natural en
+esta posición. No era bueno} 7. O-O {, debido a} d4 8. Nxd4 Bxg2 {.}) 7... dxe4
+8. Ng5 {[En este momento pensé mucho la jugada 8...h6, pero preferí completar
+el desarrollo. ]} Nbd7 9. O-O ({Contra} 9. Ngxe4 {una continuación podría ser}
+Nc5 10. Nxf6+ Bxf6 11. Bxb7 Nxb7 12. Qf3 Nc5 13. Qc6+ Kf8 {con igualdad.}) 9...
+Nc5 ({Más activa y ambiciosa que} 9... O-O {.}) 10. d4 $6 ({Natural era
+capturar el peón de rey. Aunque las blancas consiguen una buena formación de
+peones, retrasan peligrosamente el desarrollo. Está claro que no servía} 10. b4
+{, a causa de} Qd4+ {.}) 10... Ne6 11. Nxe6 fxe6 12. Nb1 ({Tratando de
+reforzar la defensa del peón de dama, pero nuevamente se pierden importantes
+tiempos. Tal vez era preferible} 12. Re1 {.}) ({Otro plan factible era} 12. Kh1
+{, seguido de 13.Ae3.}) 12... Qd6 13. c3 O-O-O 14. Qa4 ({Con} 14. b4 {, para
+impedir ...c5, el negro continuaría} h5 {, y su ataque se mostraría mucho más
+rápido.}) 14... h5 15. h4 ({Si} 15. Qxa7 h4 {.}) ({Y si} 15. h3 h4 16. g4 Nxg4
+17. hxg4 h3 {, y en ambos casos las negras tendrían un poderoso ataque.}) 15...
+Ng4 ({Muy fuerte era también} 15... c5 {.}) 16. Nd2 Bc6 17. Qxa7 (17. Qa6+ Kb8
+18. Nxe4 Bxd4+ 19. Kh1 ({Tampoco sirve} 19. cxd4 {, debido a} Bxe4 20. Bxe4
+Qxd4+ {, etc.}) 19... Qd5 {, con múltiples amenazas, entre otras ...Dxe4 y ...
+Ab5.}) 17... Bxd4+ $1 {[Se inicia así una combinación ganadora en todas las
+variantes. ]} 18. cxd4 Qxd4+ 19. Kh1 Qd3 $1 ({Más efectiva que} 19... g5 $2 20.
+fxg5 Qe5 21. Nc4 Qxg3 22. Bf4 {y ganarían las blancas.}) 20. Qa3 Qe2 {[Amenaza
+...Txd2 y ...Td3. ]} 21. Qc3 Bd5 ({[Ahora la amenaza es ...e3. Un error sería} 
+21... Rd3 $2 22. Qxc6 $1 Rxg3 23. Qxe6+ {y las blancas se defienden
+satisfactoriamente.}) ({En cambio si era jugable} 21... Kb7 22. Qc4 Rd3 23.
+Nxe4 {(el sacrificio de dama es incorrecto)} Bd5 24. Qb4 Rxg3 {, con ataque
+decisivo.}) 22. Nc4 ({No hay nada mejor. Si, por ejemplo,} 22. b3 e3 23. Rg1
+exd2 24. Bxd2 Nf2+ 25. Kh2 Ne4 {, ganando material.}) 22... Bxc4 23. Re1 Qf2 ({
+Dudoso es} 23... Rd1 {.}) 24. b3 ({Algo mejor era} 24. f5 {, si bien las
+negras ganaban con} e3) 24... Bd3 {Nada puede hacerse contra la amenaza ...
+Dxg3.} 0-1
+
+[Event "Costa Brava"]
+[Site "Blanes - Malgrat de Mar"]
+[Date "1976.??.??"]
+[Round "6"]
+[White "Zwaig, Arne"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "A29"]
+[WhiteElo "2475"]
+[BlackElo "2430"]
+[PlyCount "81"]
+[EventDate "1976.10.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. g3 e5 2. c4 Nf6 3. Bg2 d5 4. cxd5 Nxd5 5. Nc3 Nb6 6. Nf3 Nc6 7. O-O Be7 8.
+a3 a5 9. d3 O-O 10. Be3 Be6 11. Rc1 f5 12. Na4 Nxa4 13. Qxa4 Bf6 14. Rc5 g5 15.
+Nd2 f4 16. Rxc6 bxc6 17. Bc5 Bd5 18. Bxf8 Qxf8 19. Rc1 Qf7 20. Rxc6 Bxc6 21.
+Qxc6 Rd8 22. Ne4 Be7 23. Qxc7 g4 24. h4 f3 25. exf3 gxf3 26. Bxf3 Bxh4 27.
+Qxf7+ Kxf7 28. gxh4 Rxd3 29. Be2 Rd4 30. f3 a4 31. Kf2 Kg6 32. Ke3 Kf5 33. Bd3
+Kg6 34. f4 Rd8 35. fxe5 Kf5 36. Nd6+ Ke6 37. Bc4+ Ke7 38. b4 axb3 39. Bxb3 Ra8
+40. a4 Rb8 41. Bc4 1-0
+
+[Event "Costa Brava"]
+[Site "Blanes - Malgrat de Mar"]
+[Date "1976.??.??"]
+[Round "7"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Marovic, Drazen"]
+[Result "1/2-1/2"]
+[ECO "D10"]
+[WhiteElo "2430"]
+[BlackElo "2485"]
+[PlyCount "32"]
+[EventDate "1976.10.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. d4 d5 2. c4 c6 3. cxd5 cxd5 4. Nc3 Nf6 5. Bf4 Nc6 6. e3 Bf5 7. Qb3 Na5 8.
+Bb5+ Bd7 9. Qa4 Nc6 10. Nf3 a6 11. Bxc6 Bxc6 12. Qb3 e6 13. Ne5 Bd6 14. O-O O-O
+15. Rac1 Bxe5 16. Bxe5 Ne4 1/2-1/2
+
+[Event "Costa Brava"]
+[Site "Blanes - Malgrat de Mar"]
+[Date "1976.??.??"]
+[Round "8"]
+[White "Visier Segovia, Fernando"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "E54"]
+[WhiteElo "2350"]
+[BlackElo "2430"]
+[PlyCount "94"]
+[EventDate "1976.10.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Bd3 d5 6. Nf3 c5 7. O-O dxc4 8. Bxc4
+Nc6 9. Bd3 Qe7 10. Ne4 Nxe4 11. Bxe4 Rd8 12. a3 Ba5 13. Qa4 Bb6 14. dxc5 Qxc5
+15. Bd2 Bd7 16. Bc3 Rac8 17. Bc2 Qh5 18. Qe4 Qg6 19. Qxg6 hxg6 20. Rfd1 Ba5 21.
+b4 Bb6 22. Ba4 Ne5 23. Bxd7 Nxd7 24. Rac1 Nf6 25. Rxd8+ Bxd8 26. Bb2 Rxc1+ 27.
+Bxc1 Kf8 28. Kf1 Ke7 29. Ne5 Bc7 30. Bb2 Nh7 31. Ke2 Nf8 32. Bd4 Bxe5 33. Bxe5
+f6 34. Bd4 a6 35. Bc5+ Ke8 36. Bxf8 Kxf8 37. Kd3 Ke7 38. Kd4 Kd6 39. f4 Kc6 40.
+a4 f5 41. e4 Kd7 42. e5 Kc6 43. Kc4 b5+ 44. axb5+ axb5+ 45. Kd4 Kb6 46. Ke3 Kc6
+47. Kd4 Kb6 1/2-1/2
+
+[Event "Costa Brava"]
+[Site "Blanes - Malgrat de Mar"]
+[Date "1976.??.??"]
+[Round "9"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Szabo, Laszlo"]
+[Result "0-1"]
+[ECO "C03"]
+[WhiteElo "2430"]
+[BlackElo "2525"]
+[PlyCount "60"]
+[EventDate "1976.10.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. e4 e6 2. d4 d5 3. Nd2 a6 4. Bd3 c5 5. exd5 exd5 6. dxc5 Bxc5 7. Nb3 Ba7 8.
+Nf3 Nf6 9. O-O O-O 10. Bg5 h6 11. Bh4 Nc6 12. h3 Qd6 13. Re1 g5 14. Nxg5 hxg5
+15. Bxg5 Qg3 16. Be3 Qg7 17. Kh2 d4 18. Bf4 Be6 19. Qd2 Bb8 20. Bxb8 Raxb8 21.
+Nc5 Bd5 22. f3 Rfd8 23. Qf4 Nd7 24. Ne4 Qe5 25. Qxe5 Ndxe5 26. f4 Nxd3 27. cxd3
+Nb4 28. Nf6+ Kg7 29. Nxd5 Rxd5 30. Red1 Re8 0-1
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1977.??.??"]
+[Round "?"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Medina Garcia, Antonio"]
+[Result "1/2-1/2"]
+[ECO "A12"]
+[PlyCount "27"]
+[EventDate "1977.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. g3 d5 2. Nf3 c6 3. Bg2 Bg4 4. c4 e6 5. b3 Nd7 6. Bb2 Ngf6 7. O-O Be7 8. d3
+O-O 9. Nbd2 a5 10. Ne5 Nxe5 11. Bxe5 Bd6 12. Bxd6 Qxd6 13. Bf3 Bxf3 14. Nxf3
+1/2-1/2
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1977.??.??"]
+[Round "?"]
+[White "Rodriguez Vargas, Orestes"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "E19"]
+[PlyCount "47"]
+[EventDate "1977.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb7 5. Bg2 Be7 6. O-O O-O 7. Nc3 Ne4 8. Qc2
+Nxc3 9. Qxc3 d6 10. Rd1 Be4 11. b3 Nd7 12. Bb2 Bf6 13. Nd2 Bxg2 14. Kxg2 Qe7
+15. Qf3 Rac8 16. e3 c6 17. a4 a5 18. Ba3 c5 19. Ne4 Rfd8 20. Ra2 Nb8 21. Rad2
+Nc6 22. dxc5 dxc5 23. Nxf6+ gxf6 24. Qxc6 1-0
+
+[Event "Vila de Premia"]
+[Site "Premia de Mar"]
+[Date "1977.??.??"]
+[Round "?"]
+[White "Castro Rojas, Oscar H"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "C11"]
+[PlyCount "60"]
+[EventDate "1977.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "5"]
+
+1. Nc3 d5 2. d4 Nf6 3. Bg5 e6 4. e4 dxe4 5. Nxe4 Be7 6. Bxf6 Bxf6 7. Nf3 Nd7 8.
+Qe2 b6 9. O-O-O O-O 10. g4 Bb7 11. Bg2 c5 12. Ne5 Bg5+ 13. Kb1 Nxe5 14. dxe5
+Qe7 15. Rhg1 Bf4 16. g5 Rad8 17. Nf6+ Kh8 18. Rxd8 Rxd8 19. Be4 Bxe5 20. Bxh7
+Bxf6 21. gxf6 Qxf6 22. Bd3 g6 23. Rg3 Kg7 24. a3 Rd4 25. f3 Rf4 26. Be4 Bxe4
+27. fxe4 Rf1+ 28. Ka2 Rf2 29. Qe3 Rxc2 30. e5 Qf2 0-1
+
+[Event "Vila de Premia"]
+[Site "Premia de Mar"]
+[Date "1977.??.??"]
+[Round "?"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Sanchez Riera, Xavier"]
+[Result "1-0"]
+[ECO "A51"]
+[PlyCount "61"]
+[EventDate "1977.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "5"]
+
+1. d4 Nf6 2. c4 e5 3. Nf3 exd4 4. Nxd4 Bb4+ 5. Bd2 Bxd2+ 6. Qxd2 O-O 7. Nc3 d5
+8. e3 dxc4 9. Bxc4 c5 10. Ndb5 Qxd2+ 11. Kxd2 Nc6 12. Ke2 Na5 13. Bd3 a6 14.
+Nd6 Be6 15. Rhd1 Rfd8 16. Nde4 Nxe4 17. Bxe4 Kf8 18. Na4 Rxd1 19. Rxd1 Rc8 20.
+Nb6 Rc7 21. Rd8+ Ke7 22. Rg8 Nc4 23. Nd5+ Bxd5 24. Bxd5 Nxb2 25. Rxg7 Kf6 26.
+Rxh7 c4 27. f4 c3 28. g4 c2 29. g5+ Kf5 30. Rh6 c1=N+ 31. Kf3 1-0
+
+[Event "Ciutat de Barcelona"]
+[Site "Barcelona"]
+[Date "1977.??.??"]
+[Round "1"]
+[White "Cebalo, Misha"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "A14"]
+[PlyCount "68"]
+[EventDate "1977.07.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+
+1. c4 e6 2. Nf3 Nf6 3. g3 b6 4. Bg2 Bb7 5. O-O Be7 6. b3 O-O 7. Bb2 d5 8. d3 c5
+9. Nbd2 Nc6 10. a3 a5 11. Ne5 Qc7 12. Nxc6 Bxc6 13. cxd5 Bxd5 14. Bxd5 Nxd5 15.
+Qc2 Rac8 16. Nf3 Bf6 17. Bxf6 Nxf6 18. Rfc1 Qb7 19. Qb2 h6 20. Rc2 Rc7 21. Rac1
+Rfc8 22. Qe5 Qd5 23. b4 axb4 24. axb4 Qb3 25. bxc5 Rxc5 26. Rxc5 Rxc5 27. Qb8+
+Kh7 28. Rxc5 Qd1+ 29. Kg2 bxc5 30. Qb2 Nd5 31. h4 f6 32. Qd2 Qb1 33. Qa5 Qc2
+34. Qd2 Qb1 1/2-1/2
+
+[Event "Ciutat de Barcelona"]
+[Site "Barcelona"]
+[Date "1977.??.??"]
+[Round "2"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Palau Albet, Jaume"]
+[Result "1/2-1/2"]
+[ECO "E57"]
+[PlyCount "39"]
+[EventDate "1977.07.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 d5 5. e3 O-O 6. Bd3 c5 7. O-O Nc6 8. a3
+cxd4 9. exd4 Bxc3 10. bxc3 dxc4 11. Bxc4 Qa5 12. Qb3 Qc7 13. Qc2 h6 14. Re1 b6
+15. Bd3 Bb7 16. Be3 Ng4 17. h3 Nxe3 18. fxe3 Rac8 19. Rac1 Qd6 20. Qb2 1/2-1/2
+
+[Event "Ciutat de Barcelona"]
+[Site "Barcelona"]
+[Date "1977.??.??"]
+[Round "3"]
+[White "Buxade Roca, Guillermo"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "A13"]
+[PlyCount "41"]
+[EventDate "1977.07.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+
+1. c4 e6 2. g3 Nf6 3. Bg2 d5 4. Nf3 c5 5. cxd5 Nxd5 6. O-O Nc6 7. Nc3 Be7 8. b3
+O-O 9. Bb2 b6 10. Nxd5 exd5 11. d4 Be6 12. Rc1 a5 13. Ne5 Nxe5 14. dxe5 Qd7 15.
+e4 Rfd8 16. exd5 Bxd5 17. Bxd5 Qxd5 18. Qxd5 Rxd5 19. Rfd1 Rad8 20. Rxd5 Rxd5
+21. Rc2 1/2-1/2
+
+[Event "Ciutat de Barcelona"]
+[Site "Barcelona"]
+[Date "1977.??.??"]
+[Round "4"]
+[White "Medina Garcia, Antonio"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "B13"]
+[PlyCount "42"]
+[EventDate "1977.07.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Bd3 Nc6 5. c3 Nf6 6. Bf4 Bg4 7. Qb3 Qd7 8.
+Nd2 e6 9. h3 Bh5 10. Ngf3 Bg6 11. Bxg6 hxg6 12. O-O Be7 13. Rfe1 O-O 14. Re2
+Rfd8 15. Ng5 Nh7 16. Nxh7 Kxh7 17. Nf3 a6 18. Rae1 b5 19. a3 Kg8 20. h4 Rac8
+21. Bg5 Bf6 1/2-1/2
+
+[Event "Ciutat de Barcelona"]
+[Site "Barcelona"]
+[Date "1977.??.??"]
+[Round "5"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Jakobsen, Ole"]
+[Result "1/2-1/2"]
+[ECO "A32"]
+[PlyCount "36"]
+[EventDate "1977.07.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+
+1. d4 Nf6 2. Nf3 c5 3. c4 cxd4 4. Nxd4 e6 5. Nc3 Bb4 6. Bd2 Nc6 7. e3 O-O 8.
+Qb3 Bc5 9. Nf3 d5 10. Be2 a6 11. cxd5 exd5 12. O-O Qd6 13. Na4 Ba7 14. Nb6 Rb8
+15. Nxc8 Rfxc8 16. Rfd1 Rd8 17. Rac1 Ne4 18. Be1 Qe6 1/2-1/2
+
+[Event "Ciutat de Barcelona"]
+[Site "Barcelona"]
+[Date "1977.??.??"]
+[Round "6"]
+[White "Debarnot, Roberto"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "D14"]
+[PlyCount "30"]
+[EventDate "1977.07.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+
+1. d4 d5 2. c4 c6 3. cxd5 cxd5 4. Nc3 Nf6 5. Nf3 Nc6 6. Bf4 Bf5 7. e3 e6 8. Bd3
+Bxd3 9. Qxd3 Bd6 10. Bxd6 Qxd6 11. O-O O-O 12. Rfc1 Rfc8 13. Na4 Rc7 14. a3
+Rac8 15. Rc2 Na5 1/2-1/2
+
+[Event "Ciutat de Barcelona"]
+[Site "Barcelona"]
+[Date "1977.??.??"]
+[Round "7"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Paredes Prats, Jose"]
+[Result "1-0"]
+[ECO "A89"]
+[PlyCount "71"]
+[EventDate "1977.07.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+
+1. c4 g6 2. Nc3 Bg7 3. g3 f5 4. Bg2 Nf6 5. Nf3 d6 6. d4 O-O 7. O-O Nc6 8. b3
+Ne4 9. Bb2 e5 10. dxe5 Nxc3 11. Bxc3 dxe5 12. Qd5+ Kh8 13. Qxd8 Rxd8 14. Ng5
+Re8 15. Rad1 h6 16. Nf7+ Kh7 17. Bxc6 bxc6 18. Nd8 f4 19. Nxc6 Bh3 20. Rfe1 Re6
+21. Nb4 fxg3 22. hxg3 Re7 23. Rd5 e4 24. Bxg7 Kxg7 25. Rc5 Rf7 26. Nd5 Rc8 27.
+Rd1 Bg4 28. Rd2 Rd8 29. Rc6 Bc8 30. Rxg6+ Kh7 31. Rf6 Rfd7 32. Rd4 Bb7 33. Re6
+Bxd5 34. cxd5 Rxd5 35. Rdxe4 Rd2 36. Ra4 1-0
+
+[Event "Ciutat de Barcelona"]
+[Site "Barcelona"]
+[Date "1977.07.??"]
+[Round "8"]
+[White "Martin Gonzalez, Angel"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "B19"]
+[PlyCount "52"]
+[EventDate "1977.07.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. Nf3 Nd7 7. h4 h6 8. h5
+Bh7 9. Bd3 Bxd3 10. Qxd3 Qc7 11. Bd2 e6 12. O-O-O O-O-O 13. Qe2 Bd6 14. Ne4 Bf4
+15. Ne5 Nxe5 16. Bxf4 Nd3+ 17. Rxd3 Qxf4+ 18. Kb1 Nf6 19. Nxf6 Qxf6 20. Rf3 Qe7
+21. Qe5 f6 22. Qe4 Rhe8 23. Re3 Rd5 24. c4 Rd6 25. f4 Qd7 26. Rd1 Rd8 1/2-1/2
+
+[Event "Ciutat de Barcelona"]
+[Site "Barcelona"]
+[Date "1977.??.??"]
+[Round "9"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Eslon, Jaan"]
+[Result "1-0"]
+[ECO "A49"]
+[PlyCount "65"]
+[EventDate "1977.07.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+
+1. Nf3 Nf6 2. d4 g6 3. g3 Bg7 4. Bg2 O-O 5. O-O d6 6. b3 c5 7. Bb2 cxd4 8. Nxd4
+d5 9. c4 e5 10. Nf3 e4 11. Nd4 dxc4 12. bxc4 Nc6 13. Na3 Nxd4 14. Bxd4 Qa5 15.
+Qb3 Qh5 16. Qb2 Ng4 17. h3 Ne5 18. Nb5 Rd8 19. Rfd1 Bxh3 20. Bxh3 Rxd4 21. Nxd4
+Qxh3 22. Qxb7 Re8 23. Qxe4 h5 24. Rac1 Qc8 25. c5 Ng4 26. Qf3 Bh6 27. Rc2 Rd8
+28. c6 Bg7 29. e3 Ne5 30. Qg2 Qg4 31. Rdc1 Rc8 32. f3 Qg5 33. f4 1-0
+
+[Event "Ciutat de Barcelona"]
+[Site "Barcelona"]
+[Date "1977.??.??"]
+[Round "10"]
+[White "Borrell Vidal, Maximo"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "E14"]
+[PlyCount "25"]
+[EventDate "1977.07.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+
+1. c4 Nf6 2. Nc3 e6 3. e3 b6 4. Nf3 Bb7 5. d4 Be7 6. Bd3 c5 7. O-O cxd4 8. exd4
+O-O 9. d5 exd5 10. cxd5 d6 11. Re1 Nbd7 12. Nd4 Re8 13. Bb5 1/2-1/2
+
+[Event "Ciutat de Barcelona"]
+[Site "Barcelona"]
+[Date "1977.??.??"]
+[Round "11"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Rodriguez Vargas, Orestes"]
+[Result "1/2-1/2"]
+[ECO "A33"]
+[PlyCount "21"]
+[EventDate "1977.07.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+
+1. c4 Nf6 2. Nf3 e6 3. d4 c5 4. Nc3 cxd4 5. Nxd4 Nc6 6. e3 Be7 7. Be2 O-O 8.
+O-O d6 9. b3 a6 10. Bb2 Bd7 11. Qd2 1/2-1/2
+
+[Event "Camp. España eq. 1 Div."]
+[Site "Centelles"]
+[Date "1978.??.??"]
+[Round "5"]
+[White "Larsen, Bent"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "D41"]
+[PlyCount "45"]
+[EventDate "1978.08.??"]
+[EventType "team"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. c4 Nf6 5. Nc3 e6 6. Nf3 Be7 7. cxd5 Nxd5 8.
+Bd3 O-O 9. O-O b6 10. Nxd5 exd5 11. Ne5 Ba6 12. Bxa6 Nxa6 13. Qa4 Qc8 14. Bf4
+Qb7 15. Qc6 Rab8 16. Rfc1 Nb4 17. Qd7 Na6 18. Rc3 Bf6 19. Qf5 Rfe8 20. Rh3 h6
+21. Bxh6 Qc8 22. Nd7 Re6 23. Bxg7 1-0
+
+[Event "Costa Catalana"]
+[Site "Barcelona"]
+[Date "1979.??.??"]
+[Round "1"]
+[White "Ochoa de Echaguen, Francisco Javier"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "B60"]
+[PlyCount "24"]
+[EventDate "1979.10.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. e4 c5 2. Nf3 d6 3. d4 Nf6 4. Nc3 cxd4 5. Nxd4 Nc6 6. Bg5 Qa5 7. Bxf6 gxf6 8.
+Nb3 Qd8 9. Qh5 e6 10. O-O-O a6 11. f4 Qb6 12. Kb1 Qe3 1/2-1/2
+
+[Event "Costa Catalana"]
+[Site "Barcelona"]
+[Date "1979.??.??"]
+[Round "2"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Gonzalez Mestres, Luis"]
+[Result "1/2-1/2"]
+[ECO "A20"]
+[PlyCount "39"]
+[EventDate "1979.10.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. g3 e5 2. c4 Nc6 3. Bg2 f5 4. Nc3 g6 5. e3 Bg7 6. Nge2 Nf6 7. d4 e4 8. a3 d5
+9. cxd5 Nxd5 10. Qb3 Nce7 11. Bd2 c6 12. h4 Qb6 13. Qc2 h5 14. Nxd5 Nxd5 15. f3
+exf3 16. Bxf3 Be6 17. e4 fxe4 18. Qxe4 Kf7 19. O-O Bf5 20. Bg2 1/2-1/2
+
+[Event "Costa Catalana"]
+[Site "Barcelona"]
+[Date "1979.??.??"]
+[Round "3"]
+[White "Dominguez Rueda, Juan"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "B03"]
+[PlyCount "56"]
+[EventDate "1979.10.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. e4 Nf6 2. e5 Nd5 3. c4 Nb6 4. d4 d6 5. f4 g5 6. exd6 Qxd6 7. fxg5 Nc6 8. d5
+Ne5 9. Qc2 Qc5 10. Nd2 Nxd5 11. Nb3 Nb4 12. Qc3 Qd6 13. c5 Qe6 14. Be2 Bg7 15.
+Nd4 Ned3+ 16. Kf1 Qe4 17. Ngf3 Bf5 18. a3 Nxc1 19. Qxb4 Nxe2 20. Nxf5 Qxf5 21.
+Kxe2 O-O-O 22. Qc4 e5 23. g4 Qg6 24. h4 e4 25. Nh2 h5 26. Rhf1 hxg4 27. Qxf7
+Qa6+ 28. Ke1 Bxb2 0-1
+
+[Event "Costa Catalana"]
+[Site "Barcelona"]
+[Date "1979.??.??"]
+[Round "4"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Rodriguez Cespedes, Amador"]
+[Result "0-1"]
+[ECO "E12"]
+[PlyCount "76"]
+[EventDate "1979.10.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. d4 Nf6 2. Nf3 b6 3. c4 e6 4. Nc3 Bb7 5. g3 Bb4 6. Bg2 O-O 7. O-O Bxc3 8.
+bxc3 d6 9. a4 Nc6 10. c5 Na5 11. Be3 Qe7 12. Qb1 Be4 13. Qb5 dxc5 14. dxc5 Nd5
+15. cxb6 axb6 16. Bd2 c6 17. Qb2 Nc4 18. Qb3 Qc5 19. Be1 b5 20. Ra2 Ra5 21.
+axb5 Rxb5 22. Qd1 e5 23. Qa4 Bb1 24. Ra1 Ra5 25. Qxa5 Nxa5 26. Rxb1 Nc4 27. Ng5
+Qe7 28. e4 Nde3 29. fxe3 Qxg5 30. Rf3 g6 31. h4 Qg4 32. Rb4 Qxe4 33. Kh2 Qd3
+34. e4 Qe2 35. Rb1 Ne3 36. Rf2 Ng4+ 37. Kg1 Qe3 38. c4 f5 0-1
+
+[Event "Costa Catalana"]
+[Site "Barcelona"]
+[Date "1979.??.??"]
+[Round "5"]
+[White "Barczay, Laszlo"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "E12"]
+[PlyCount "93"]
+[EventDate "1979.10.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. Nc3 Bb7 5. a3 Ne4 6. Nxe4 Bxe4 7. Bf4 d6 8. e3
+Nd7 9. Bd3 Bxd3 10. Qxd3 Be7 11. O-O O-O 12. e4 Re8 13. Rad1 Nf8 14. b4 Ng6 15.
+Be3 e5 16. d5 a5 17. Qc2 axb4 18. axb4 Qd7 19. Ra1 Nf4 20. h3 g5 21. c5 Rxa1
+22. Rxa1 g4 23. cxb6 cxb6 24. Bxf4 exf4 25. hxg4 Bf6 26. Rc1 Qxg4 27. Qc6 Rxe4
+28. Qxd6 Kg7 29. Qxb6 h5 30. Qb8 h4 31. Qc8 Qxc8 32. Rxc8 Rxb4 33. Rc2 Kg6 34.
+d6 Rb1+ 35. Kh2 Rd1 36. Rd2 Rxd2 37. Nxd2 Kf5 38. Kh3 Bd8 39. f3 Ke6 40. Ne4
+Bb6 41. Ng5+ Kxd6 42. Nxf7+ Ke6 43. Nh6 Kf6 44. Kg4 Bc7 45. Nf5 Be5 46. Nxh4
+Bc7 47. Kh5 1/2-1/2
+
+[Event "Costa Catalana"]
+[Site "Barcelona"]
+[Date "1979.??.??"]
+[Round "6"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Gufeld, Eduard"]
+[Result "1/2-1/2"]
+[ECO "A36"]
+[PlyCount "20"]
+[EventDate "1979.10.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. c4 g6 2. g3 Bg7 3. Bg2 c5 4. Nc3 Nc6 5. e3 e6 6. Nge2 Nge7 7. O-O O-O 8. d4
+cxd4 9. Nxd4 d5 10. cxd5 Nxd5 1/2-1/2
+
+[Event "Costa Catalana"]
+[Site "Barcelona"]
+[Date "1979.??.??"]
+[Round "7"]
+[White "Martin Gonzalez, Angel"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "B19"]
+[PlyCount "88"]
+[EventDate "1979.10.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. Nf3 Nd7 7. h4 h6 8. h5
+Bh7 9. Bd3 Bxd3 10. Qxd3 Qc7 11. Bd2 e6 12. O-O-O Ngf6 13. Ne4 O-O-O 14. g3
+Nxe4 15. Qxe4 Bd6 16. c4 c5 17. Bc3 Rhe8 18. Kb1 f5 19. Qe2 Nf6 20. dxc5 Bxc5
+21. Rxd8+ Qxd8 22. Be5 Qb6 23. Rd1 Qc6 24. Nd4 Qe4+ 25. Qxe4 Nxe4 26. f3 Nf6
+27. g4 fxg4 28. fxg4 Re7 29. Nb3 Be3 30. Bxf6 gxf6 31. Re1 Bb6 32. Nd2 Ba5 33.
+Re2 Bc7 34. Kc2 Kd7 35. Ne4 Be5 36. Rf2 Rf7 37. Nc5+ Kd6 38. Ne4+ Ke7 39. Kd3
+Rg7 40. Rg2 f5 41. Nf2 Bxb2 42. Nd1 Ba3 43. Ne3 Kf6 44. Rf2 Bc5 0-1
+
+[Event "Costa Catalana"]
+[Site "Barcelona"]
+[Date "1979.??.??"]
+[Round "8"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Chiburdanidze, Maia"]
+[Result "0-1"]
+[ECO "D77"]
+[Annotator "Chiburdanidze,M"]
+[PlyCount "108"]
+[EventDate "1979.10.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. Nf3 Nf6 2. d4 g6 3. g3 Bg7 4. Bg2 O-O 5. O-O d5 6. c4 dxc4 7. Na3 c3 8. bxc3
+c5 9. Nc4 Nc6 10. Nfe5 $6 (10. Nce5) (10. Ba3 $5) 10... Be6 11. Nxc6 bxc6 12.
+Ne5 Nd5 13. Bb2 (13. Nxc6 Qc7) 13... Qc7 14. e4 $2 Nxc3 $1 15. Bxc3 cxd4 16.
+Bxd4 (16. Qxd4 c5) 16... Bxe5 17. Bxe5 Qxe5 $17 18. f4 (18. Qc2 $5) 18... Qc5+
+19. Kh1 Rfd8 20. Qf3 (20. Qc1 $5) 20... Rd2 21. Rac1 Rc2 22. Rxc2 Qxc2 23. Qa3
+$1 Re8 (23... Qxa2 $6 24. Qxe7 {/\ f5}) (23... Rb8 24. Qxe7 Rb2 25. Rg1 (25.
+Qd8+ Kg7 26. Qd4+ {/\ Qg1}) 25... Bh3 26. Qe8+ Kg7 27. Qe5+ f6 28. Qe7+ Kh6 29.
+Qf8+ Kh5 30. g4+ $1 Bxg4 {(/\ Qg2)} 31. h3) 24. Qxa7 (24. Rc1 Qxa2 25. Qxa2
+Bxa2 26. Rxc6 a5 27. Ra6 Rc8 {/\ Rc5}) 24... Qxa2 25. Qc7 (25. Qxa2 Bxa2 26.
+Rc1 Rb8 27. e5 c5 {/\ Rc8}) 25... Qc4 26. h4 Qc5 27. Kh2 Rc8 28. Qb7 Rd8 29.
+Ra1 Kg7 30. Qb2+ $1 Qd4 31. Qc1 $15 c5 32. Ra7 (32. f5 gxf5 33. Qg5+ Kh8) (32.
+Ra5 $5 {/\ f5}) 32... Rd7 33. Ra8 Rb7 34. Ra5 (34. f5 Rb2 35. fxe6 Rxg2+ {/\
+Qe4+-+}) 34... Bc4 35. f5 Rb2 36. Ra7 (36. h5 Qf2 37. Qg1 Qxg1+ {/\ Bb5}) 36...
+Qf2 37. Qc3+ $2 Kh6 $2 (37... f6 $1 38. Rxe7+ Bf7 $19) 38. Qc1+ Kg7 39. Qc3+
+Qd4 40. Qc1 Qd2 41. Qxd2 (41. Qg1 gxf5 $19) 41... Rxd2 42. Kh3 $2 (42. Kg1 Bd3
+43. Rxe7 c4 44. Rc7 Rc2 {/\ c3, Rc1, c2}) 42... Bd3 43. Rxe7 (43. fxg6 c4 $1)
+43... gxf5 $19 44. e5 c4 45. Rd7 (45. Rc7 Kf8 $19) 45... Kf8 46. h5 h6 47. Rc7
+Be2 48. g4 f4 49. e6 fxe6 50. g5 hxg5 51. h6 Bd3 52. h7 Bf5+ 53. Kh2 Bxh7 54.
+Rxh7 f3 0-1
+
+[Event "Costa Catalana"]
+[Site "Barcelona"]
+[Date "1979.??.??"]
+[Round "9"]
+[White "Tatai, Stefano"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "E12"]
+[Annotator "Tatai,S"]
+[PlyCount "73"]
+[EventDate "1979.10.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. a3 Bb7 5. Nc3 Ne4 6. Nxe4 Bxe4 7. e3 Be7 8. Bd3
+Bxd3 9. Qxd3 d5 (9... d6) 10. O-O O-O 11. b4 $5 (11. cxd5 Qxd5 {/\ c5=}) 11...
+c6 $1 12. e4 (12. cxd5 cxd5 $11) 12... a5 13. Bd2 Nd7 14. bxa5 bxa5 15. exd5
+exd5 16. c5 $5 (16. cxd5 $1 cxd5 17. a4 $1 Rb8 (17... Bb4 18. Bxb4 axb4 19. Qb5
+$16) 18. Rfb1 {(/\ Rb5)} Bb4 19. Bxb4 axb4 20. a5 $16) 16... a4 $1 17. Rab1 Bf6
+18. Rb7 Re8 19. Qf5 Re7 (19... Re6 $5) 20. Bg5 Bxg5 21. Qxg5 f6 22. Qf5 Rb8 (
+22... Ne5 $5 23. Nxe5 $1 Rxb7 24. Nxc6 Qd7 25. Qxd7 Rxd7 26. Nb4 Re8 27. f3 $1
+(27. Rc1 Re4 $1 $17) 27... Re2 28. c6 Rc7 29. Rc1 $16) 23. Rfb1 Rxb7 24. Rxb7
+Nf8 (24... Ne5 $2 25. Rxe7 Nxf3+ 26. gxf3 Qxe7 27. Qc8+ Kf7 28. Qxc6) 25. Qb1
+$1 g5 26. h3 h5 27. Rb8 Qc7 28. Qg6+ Rg7 29. Qe8 Rf7 30. Rc8 Qf4 31. Qe3 Qf5
+32. Rxc6 g4 33. Nh4 Qb1+ 34. Kh2 gxh3 35. Qxh3 Qe4 36. Nf5 h4 37. Qg4+ $1 1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1980.??.??"]
+[Round "7"]
+[White "Medina Garcia, Antonio"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "B19"]
+[PlyCount "91"]
+[EventDate "1980.??.??"]
+[EventType "team"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. h4 h6 7. Nf3 Nd7 8. h5
+Bh7 9. Bd3 Bxd3 10. Qxd3 Qc7 11. Bd2 e6 12. O-O-O Ngf6 13. Ne4 O-O-O 14. g3
+Nxe4 15. Qxe4 Bd6 16. Kb1 Rhe8 17. c4 c5 18. Bc3 f5 19. Qc2 Nf6 20. d5 Ne4 21.
+dxe6 Rxe6 22. Rd5 Qf7 23. Nh4 f4 24. g4 Be7 25. Nf5 Nxc3+ 26. Qxc3 Bf6 27.
+Rxd8+ Kxd8 28. Rd1+ Kc8 29. Qd2 Qc7 30. Nd6+ Kb8 31. Nb5 Qb6 32. Qxf4+ Kc8 33.
+Qf5 Kb8 34. Qf4+ Kc8 35. Rd6 Re1+ 36. Kc2 Qa5 37. Nc3 a6 38. Rd5 Qb6 39. Na4
+Qe6 40. Rxc5+ Kd7 41. Rd5+ Ke8 42. Nc5 Qc6 43. Qb8+ Kf7 44. Qxb7+ Qxb7 45. Nxb7
+Re2+ 46. Rd2 1-0
+
+[Event "Catalunya - IT Bucharest m"]
+[Site "Platja d'Aro"]
+[Date "1980.??.??"]
+[Round "1.2"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Ciocaltea, Victor"]
+[Result "1/2-1/2"]
+[ECO "A41"]
+[PlyCount "45"]
+[EventDate "1980.09.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. c4 g6 2. Nc3 Bg7 3. Nf3 d6 4. g3 e5 5. d4 Nd7 6. Bg2 Nh6 7. O-O O-O 8. e3 f5
+9. dxe5 dxe5 10. b3 Nf7 11. Bb2 c6 12. Qd2 e4 13. Nd4 Re8 14. Rad1 Nde5 15. h3
+Qg5 16. Nce2 Qh6 17. Bc3 Ng5 18. h4 Ngf7 19. f3 exf3 20. Nxf3 Nxf3+ 21. Rxf3
+Be6 22. Bxg7 Qxg7 23. Rf4 1/2-1/2
+
+[Event "Catalunya - IT Bucharest m"]
+[Site "Platja d'Aro"]
+[Date "1980.??.??"]
+[Round "2.1"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Gheorghiu, Florin"]
+[Result "1/2-1/2"]
+[ECO "A31"]
+[PlyCount "37"]
+[EventDate "1980.09.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. Nf3 c5 2. c4 Nf6 3. d4 cxd4 4. Nxd4 b6 5. Nc3 Bb7 6. e3 e6 7. b3 Bb4 8. Bb2
+O-O 9. a3 Be7 10. Nf3 d6 11. Be2 Nbd7 12. O-O a6 13. Nd4 Qc7 14. Bf3 Rfc8 15.
+Rc1 Nc5 16. Bxb7 Qxb7 17. Qc2 Rc7 18. Rfd1 Rac8 19. a4 1/2-1/2
+
+[Event "Ciutat de Calella-Costa del Maresme op"]
+[Site "Calella de Mar"]
+[Date "1980.??.??"]
+[Round "5"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Llopis de Aysa, Manel"]
+[Result "1-0"]
+[ECO "A90"]
+[PlyCount "85"]
+[EventDate "1980.10.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. g3 e6 2. Bg2 f5 3. d4 Nf6 4. c4 Bb4+ 5. Bd2 Qe7 6. a3 Bxd2+ 7. Qxd2 O-O 8.
+Nc3 d6 9. Nf3 Nbd7 10. O-O e5 11. Rae1 e4 12. Nh4 Ne8 13. Nd5 Qd8 14. f3 g5 15.
+Nxf5 Rxf5 16. fxe4 Rxf1+ 17. Rxf1 c6 18. e5 cxd5 19. Bxd5+ Kh8 20. e6 Ndf6 21.
+Qxg5 Qe7 22. Qf5 Rb8 23. e4 b6 24. e5 dxe5 25. Qxe5 Qd6 26. Qxd6 Nxd6 27. Rxf6
+Kg7 28. Rf4 Bb7 29. Bxb7 Rxb7 30. d5 Rc7 31. b3 b5 32. cxb5 Nxb5 33. Rc4 Rxc4
+34. bxc4 Nxa3 35. c5 Kf6 36. Kf2 Nb5 37. Ke3 Ke7 38. Kd3 Nc7 $4 39. d6+ Kxe6
+40. dxc7 Kd7 41. g4 Kxc7 42. h4 Kc6 43. Kc4 1-0
+
+[Event "Ciutat de Calella-Costa del Maresme op"]
+[Site "Calella de Mar"]
+[Date "1980.??.??"]
+[Round "6"]
+[White "Castro Rojas, Oscar H"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "E17"]
+[PlyCount "33"]
+[EventDate "1980.10.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. Nf3 d5 2. c4 e6 3. g3 Nf6 4. Bg2 Be7 5. O-O O-O 6. d4 Nbd7 7. b3 b6 8. Bb2
+Bb7 9. Nbd2 c5 10. e3 Rc8 11. Qe2 Qc7 12. Rac1 Qb8 13. cxd5 Nxd5 14. e4 N5f6
+15. d5 exd5 16. e5 Ne4 17. Bh3 1/2-1/2
+
+[Event "Ciutat de Calella-Costa del Maresme op"]
+[Site "Calella de Mar"]
+[Date "1980.??.??"]
+[Round "9"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Correa Garrido, Francisco"]
+[Result "1/2-1/2"]
+[ECO "D78"]
+[PlyCount "44"]
+[EventDate "1980.10.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. d4 g6 3. g3 Bg7 4. Bg2 O-O 5. O-O d5 6. Nbd2 c6 7. c4 Nbd7 8. b3
+dxc4 9. bxc4 e5 10. e3 exd4 11. exd4 Nb6 12. Bb2 Be6 13. Rc1 Re8 14. a4 Bf5 15.
+Qb3 Ne4 16. Nxe4 Bxe4 17. Rfe1 Nd7 18. Qa3 Bf8 19. Qc3 Bg7 20. Qd2 Qf6 21. Ng5
+Bxg2 22. Kxg2 Nc5 1/2-1/2
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1981.11.15"]
+[Round "4"]
+[White "Medina Garcia, Antonio"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "B05"]
+[PlyCount "32"]
+[EventDate "1981.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. Nf3 Bg4 5. Be2 e6 6. O-O Be7 7. c4 Nb6 8. Nc3
+O-O 9. Be3 Nc6 10. exd6 cxd6 11. d5 exd5 12. Nxd5 Nxd5 13. Qxd5 Qd7 14. Rad1
+Qe6 15. h3 Bf5 16. Qxe6 Bxe6 1/2-1/2
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1981.??.??"]
+[Round "11"]
+[White "Rodriguez Vargas, Orestes"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "A47"]
+[PlyCount "82"]
+[EventDate "1981.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 b6 3. Bg5 Bb7 4. Nbd2 e6 5. e4 h6 6. Bxf6 Qxf6 7. Bd3 g6 8. c3
+Bg7 9. Qe2 d6 10. O-O-O Nd7 11. Kb1 d5 12. Rhe1 O-O 13. e5 Qe7 14. h4 Rfc8 15.
+h5 Nf8 16. hxg6 fxg6 17. g4 Bc6 18. g5 h5 19. Rh1 Be8 20. Rh4 c5 21. dxc5 bxc5
+22. c4 Rab8 23. Rf4 Rb4 24. Rf6 Rcb8 25. b3 a5 26. Kc2 a4 27. Rb1 axb3+ 28.
+axb3 Qb7 29. Qe3 Ba4 30. Bf1 dxc4 31. Bxc4 Bb5 32. Rf4 Bxc4 33. Rxc4 Nd7 34.
+Qd3 Qd5 35. Qxg6 Nxe5 36. Nxe5 Qxe5 37. Ne4 Kf8 38. f4 Qd5 39. Nf6 Qg2+ 40. Kc3
+Rd8 41. Rd1 Qf3+ 0-1
+
+[Event "Copa Catalana Mem. Agusti Pujol eq."]
+[Site "?"]
+[Date "1981.??.??"]
+[Round "?"]
+[White "Rodriguez Vargas, Orestes"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "A40"]
+[PlyCount "55"]
+[EventDate "1981.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nc6 2. d5 Ne5 3. Nf3 Nxf3+ 4. exf3 e6 5. Nc3 Nf6 6. dxe6 dxe6 7. Bd3 Nd5
+8. Bd2 Be7 9. Qe2 Bg5 10. Bxg5 Qxg5 11. h4 Qe7 12. Qe5 Qf6 13. Qxf6 Nxf6 14.
+Nb5 Kd8 15. O-O-O Bd7 16. Be4 Nxe4 17. fxe4 Ke7 18. Nc3 Bc6 19. Kd2 Rhd8+ 20.
+Ke3 Rxd1 21. Rxd1 Rd8 22. Rd3 Rxd3+ 23. cxd3 e5 24. f4 f6 25. g3 Kd6 26. d4
+exd4+ 27. Kxd4 a5 28. a3 1/2-1/2
+
+[Event "Camp. España eq. 1 Div."]
+[Site "Calella de Mar"]
+[Date "1981.??.??"]
+[Round "9"]
+[White "Castro Rojas, Oscar H"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "B12"]
+[PlyCount "56"]
+[EventDate "1981.09.??"]
+[EventType "team"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nc3 e6 5. g4 Bg6 6. Nge2 Be7 7. Be3 Nd7 8. Qd2
+c5 9. f4 f5 10. exf6 Ngxf6 11. f5 exf5 12. Nf4 Nxg4 13. Ne6 Bh4+ 14. Kd1 Qb6
+15. Nxd5 Qxb2 16. Rc1 Kf7 17. Nef4 Rhe8 18. dxc5 Nxe3+ 19. Nxe3 Ne5 20. Bg2
+Rad8 21. Bd5+ Kf8 22. c4 Qa3 23. Rf1 Qxc5 24. Nxf5 Bxf5 25. Ne2 Bf6 26. Rxf5
+Ng4 27. Rc3 Ne3+ 28. Rxe3 Qxe3 0-1
+
+[Event "Catalunya - Moscu m"]
+[Site "Platja d'Aro"]
+[Date "1981.??.??"]
+[Round "1.1"]
+[White "Yussupov, Artur"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "A40"]
+[PlyCount "93"]
+[EventDate "1981.09.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2009.11.30"]
+
+1. d4 Nc6 2. e4 e5 3. d5 Nce7 4. c4 d6 5. Bd3 g6 6. Nc3 Bg7 7. Nge2 Nf6 8. f3
+h5 9. Be3 c5 10. Qd2 Bd7 11. h3 a6 12. O-O Qc8 13. Rf2 h4 14. f4 Nh5 15. Rf3
+exf4 16. Nxf4 Be5 17. Nxh5 Rxh5 18. Raf1 Rh7 19. Bf4 Bd4+ 20. Kh1 Qc7 21. Ne2
+Bh8 22. Bg5 Be5 23. Nf4 Bc8 24. Ne6 Bxe6 25. dxe6 f6 26. Bxf6 Bxf6 27. Rxf6
+O-O-O 28. Rf7 Rxf7 29. exf7 Rf8 30. Qh6 Qd8 31. Be2 Nc6 32. Qxg6 Ne5 33. Qe6+
+Kb8 34. b4 Nc6 35. bxc5 Nd4 36. Qxd6+ Qxd6 37. cxd6 Nxe2 38. e5 Nd4 39. Rf6 Kc8
+40. e6 Nxe6 41. Rxe6 Rxf7 42. Re8+ Kd7 43. Re7+ Rxe7 44. dxe7 Kxe7 45. g3 hxg3
+46. Kg2 Kf6 47. Kxg3 1-0
+
+[Event "Catalunya - Moscu m"]
+[Site "Platja d'Aro"]
+[Date "1981.??.??"]
+[Round "2.1"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Yussupov, Artur"]
+[Result "1/2-1/2"]
+[ECO "E11"]
+[PlyCount "20"]
+[EventDate "1981.09.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. d4 e6 3. c4 Bb4+ 4. Bd2 a5 5. a3 Bxd2+ 6. Nbxd2 O-O 7. e3 d6 8.
+Bd3 Qe7 9. Ne4 Nxe4 10. Bxe4 f5 1/2-1/2
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "?"]
+[White "Armengol Navarro, Salvador"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "A40"]
+[PlyCount "82"]
+[EventDate "1982.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nc6 2. c4 e5 3. d5 Bb4+ 4. Bd2 Bxd2+ 5. Qxd2 Nce7 6. d6 cxd6 7. Qxd6 Ng6
+8. Nc3 N8e7 9. g3 O-O 10. Bg2 f5 11. Nf3 e4 12. Ng5 h6 13. Nh3 Rf6 14. Qd2 d6
+15. Rd1 Be6 16. b3 Bf7 17. O-O Qb6 18. Na4 Qc7 19. f3 exf3 20. Rxf3 Ne5 21.
+Rff1 g5 22. e4 Bh5 23. Rc1 Raf8 24. c5 fxe4 25. Rxf6 Rxf6 26. Nxg5 d5 27. Nh3
+Nd3 28. Rf1 Qe5 29. Nf4 Nxf4 30. gxf4 Qe6 31. Nc3 Bg4 32. Qd4 Rg6 33. Kh1 Bh3
+34. Rg1 Bxg2+ 35. Rxg2 Rxg2 36. Kxg2 Qg4+ 37. Kh1 Qxf4 38. Kg1 Kf7 39. b4 Ke6
+40. Qh8 e3 41. Qh7 Qf2+ 0-1
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "?"]
+[White "Illescas Cordoba, Miquel"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "B05"]
+[PlyCount "39"]
+[EventDate "1982.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. Nf3 Bg4 5. Be2 e6 6. O-O Be7 7. c4 Nb6 8. Nc3
+O-O 9. Be3 N8d7 10. exd6 cxd6 11. b3 Rc8 12. Rc1 Nf6 13. h3 Bh5 14. Ne1 Bxe2
+15. Qxe2 Re8 16. Nd3 a6 17. Rfd1 Qc7 18. f3 Nbd7 19. Qf2 b6 20. d5 1/2-1/2
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "?"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Baixauli Cullare, Julio"]
+[Result "1/2-1/2"]
+[ECO "A42"]
+[PlyCount "49"]
+[EventDate "1982.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 g6 2. d4 Bg7 3. c4 d6 4. Nc3 Nc6 5. Nge2 e5 6. Be3 Nf6 7. d5 Ne7 8. h3
+O-O 9. g3 Nd7 10. Bg2 f5 11. Qd2 fxe4 12. Nxe4 Nf6 13. g4 Nxe4 14. Bxe4 Kh8 15.
+O-O-O Ng8 16. g5 Ne7 17. h4 Bg4 18. Rdg1 Qd7 19. Ng3 Bf3 20. Bxf3 Rxf3 21. h5
+Kg8 22. Ne4 gxh5 23. Rxh5 Rh3 24. Rxh3 Qxh3 25. Qd3 1/2-1/2
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "?"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Rodriguez Vargas, Orestes"]
+[Result "1/2-1/2"]
+[ECO "D02"]
+[PlyCount "47"]
+[EventDate "1982.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. g3 d5 2. Bg2 Nf6 3. Nf3 c6 4. O-O Bf5 5. d4 e6 6. b3 Be7 7. Bb2 h6 8. Nbd2
+a5 9. a4 O-O 10. Re1 Nbd7 11. Rc1 c5 12. Ne5 cxd4 13. Bxd4 Nc5 14. Nd3 Rc8 15.
+Nxc5 Bxc5 16. Bxc5 Rxc5 17. c4 Qe7 18. cxd5 exd5 19. Rxc5 Qxc5 20. e4 dxe4 21.
+Nxe4 Bxe4 22. Bxe4 Nxe4 23. Rxe4 Rc8 24. Rc4 1/2-1/2
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "?"]
+[White "Pomes Marcet, Joan"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "A47"]
+[PlyCount "138"]
+[EventDate "1982.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 b6 3. Bf4 Bb7 4. h3 e6 5. e3 d5 6. Nbd2 Bd6 7. Ne5 O-O 8. Bd3
+Nbd7 9. c3 Ne4 10. O-O f6 11. Nxd7 Qxd7 12. Bxd6 Nxd6 13. f4 Rae8 14. Qh5 Ne4
+15. Nxe4 dxe4 16. Bb5 Bc6 17. a4 a5 18. c4 Bxb5 19. Qxb5 Qd6 20. Rad1 Rb8 21.
+f5 c6 22. Qb3 Kh8 23. fxe6 Qxe6 24. d5 Qd6 25. dxc6 Qxc6 26. Rf5 h6 27. Rfd5
+Qc7 28. Qc3 Qg3 29. Qe1 Qc7 30. b3 Rbd8 31. Qd2 Rxd5 32. Qxd5 Re8 33. Qd7 Qb8
+34. Rd5 Kh7 35. Qd6 Qb7 36. Rb5 Qc8 37. Rxb6 Rd8 38. Qf4 Qc5 39. Rb5 Qe7 40. h4
+Rd1+ 41. Kh2 g5 42. hxg5 hxg5 43. Qf5+ Kg7 44. Rd5 Qc7+ 45. g3 Rxd5 46. Qxd5
+Qb8 47. c5 Qb4 48. c6 Qe1 49. Qxe4 Qe2+ 50. Qg2 Qd3 51. Qb2 Qh7+ 52. Kg1 Qh3
+53. Qg2 Qf5 54. Qd2 Qf3 55. Qd7+ Kg6 56. c7 Qxg3+ 57. Kf1 Qf3+ 58. Ke1 Qxe3+
+59. Kd1 Qxb3+ 60. Kd2 Qb4+ 61. Kd3 Qb3+ 62. Kd2 Qb2+ 63. Kd3 Qb3+ 64. Ke4 Qc4+
+65. Ke3 Qc1+ 66. Ke2 Qc2+ 67. Ke1 Qc1+ 68. Ke2 Qc2+ 69. Ke3 Qc1+ 1/2-1/2
+
+[Event "Catalunya-França m"]
+[Site "Platja d'Aro"]
+[Date "1982.??.??"]
+[Round "1.2"]
+[White "Andruet, Gilles"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "B00"]
+[PlyCount "51"]
+[EventDate "1982.09.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. d4 Nc6 2. Nf3 d6 3. e4 g6 4. Bb5 Bd7 5. O-O Bg7 6. Nc3 Nf6 7. Qe2 e5 8. Bxc6
+bxc6 9. dxe5 Ng4 10. exd6 cxd6 11. h3 Ne5 12. Nxe5 dxe5 13. Be3 O-O 14. Na4 f5
+15. Nc5 f4 16. Rad1 fxe3 17. Rxd7 exf2+ 18. Rxf2 Qb6 19. Ne6 Bh6 20. Nxf8 Rxf8
+21. Kf1 Bf4 22. g3 Qxb2 23. Qc4+ Kh8 24. gxf4 exf4 25. Kg2 Qe5 26. Qd4 1-0
+
+[Event "Catalunya-França m"]
+[Site "Platja d'Aro"]
+[Date "1982.??.??"]
+[Round "2.2"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Andruet, Gilles"]
+[Result "1/2-1/2"]
+[ECO "A32"]
+[PlyCount "14"]
+[EventDate "1982.09.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 c5 4. Nc3 cxd4 5. Nxd4 Bb4 6. Bd2 Nc6 7. e3 O-O
+1/2-1/2
+
+[Event "Catalunya-França m"]
+[Site "Platja d'Aro"]
+[Date "1982.09.??"]
+[Round "3.2"]
+[White "Andruet, Gilles"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "E19"]
+[PlyCount "44"]
+[EventDate "1982.09.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb7 5. Bg2 Be7 6. Nc3 Ne4 7. Qc2 Nxc3 8.
+Qxc3 O-O 9. O-O c5 10. Rd1 d6 11. b3 Bf6 12. Bb2 Nc6 13. Qd2 Qe7 14. d5 exd5
+15. Bxf6 Qxf6 16. Qxd5 Rad8 17. Ng5 Na5 18. Qd2 Bxg2 19. Kxg2 Rfe8 20. f3 Nc6
+21. Ne4 Qe5 22. Qd5 Nb4 1/2-1/2
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1983.??.??"]
+[Round "?"]
+[White "Piqueres Pla, Enric"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "E12"]
+[PlyCount "41"]
+[EventDate "1983.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. a3 Bb7 5. Nc3 Ne4 6. Nxe4 Bxe4 7. e3 c5 8. Bd3
+Bxd3 9. Qxd3 Be7 10. O-O O-O 11. d5 Bf6 12. Rb1 e5 13. b4 d6 14. bxc5 bxc5 15.
+Bd2 Nd7 16. Rb5 Rb8 17. Rfb1 Rxb5 18. Rxb5 Qa8 19. e4 a6 20. Rb3 Rb8 21. Qb1
+1/2-1/2
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1983.??.??"]
+[Round "9"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Illescas Cordoba, Miquel"]
+[Result "1/2-1/2"]
+[ECO "A32"]
+[PlyCount "52"]
+[EventDate "1983.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. d4 Nf6 2. Nf3 c5 3. c4 cxd4 4. Nxd4 e6 5. e3 Nc6 6. Be2 Be7 7. O-O O-O 8.
+Nc3 b6 9. b3 Bb7 10. Bb2 Rc8 11. Rc1 Qc7 12. Qd2 Qb8 13. Rfd1 Rfd8 14. h3 Qa8
+15. Nxc6 dxc6 16. Qc2 c5 17. Bf1 Ne4 18. Rxd8+ Rxd8 19. Rd1 Nxc3 20. Bxc3 Rxd1
+21. Qxd1 Qd8 22. Qxd8+ Bxd8 23. f3 Bc7 24. Kf2 f6 25. Bd3 Kf7 26. Ke2 h6
+1/2-1/2
+
+[Event "Copa Catalana"]
+[Site "?"]
+[Date "1984.06.03"]
+[Round "?"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Medina Garcia, Antonio"]
+[Result "1/2-1/2"]
+[ECO "D59"]
+[PlyCount "52"]
+[EventDate "1984.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. c4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Be7 5. e3 h6 6. Bh4 O-O 7. Nf3 b6 8. cxd5
+Nxd5 9. Nxd5 exd5 10. Bxe7 Qxe7 11. Rc1 Be6 12. Qa4 Rc8 13. Be2 c5 14. Qa3 Kf8
+15. dxc5 bxc5 16. O-O a5 17. Rc2 Nd7 18. Rfc1 Rcb8 19. Ne1 c4 20. Qxe7+ Kxe7
+21. Nf3 a4 22. Nd4 Rb6 23. e4 Ne5 24. exd5 Bxd5 25. Rd2 Kf6 26. Nc2 Be6 1/2-1/2
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1984.??.??"]
+[Round "?"]
+[White "Chekhov, Valery A"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "A40"]
+[WhiteElo "2535"]
+[BlackElo "2405"]
+[PlyCount "61"]
+[EventDate "1984.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. d4 Nc6 2. Nf3 d6 3. c4 e5 4. d5 Nce7 5. e4 f5 6. Nc3 Nf6 7. Bd3 fxe4 8. Nxe4
+Nxe4 9. Bxe4 Bf5 10. Qd3 Qd7 11. O-O Bxe4 12. Qxe4 Qf5 13. Qe2 h6 14. Re1 c5
+15. b4 b6 16. bxc5 bxc5 17. Qb2 Ng6 18. Qb7 Rd8 19. Qxa7 Be7 20. Qa4+ Kf7 21.
+Qd1 Ra8 22. Nd2 Qd3 23. Qg4 Qc3 24. Rb1 Nf4 25. Rb3 Qc2 26. Ne4 g5 27. Bxf4
+gxf4 28. Qe6+ Kf8 29. Rb7 Rh7 30. Rxe7 Rxe7 31. Qf6+ 1-0
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1984.??.??"]
+[Round "?"]
+[White "Fernandez Garcia, Jose Luis"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "B03"]
+[WhiteElo "2440"]
+[BlackElo "2405"]
+[PlyCount "92"]
+[EventDate "1984.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. c4 Nb6 5. f4 dxe5 6. fxe5 Nc6 7. Be3 Bf5 8. Nc3
+e6 9. Nf3 Be7 10. Be2 O-O 11. O-O f6 12. exf6 Bxf6 13. Qd2 Rf7 14. Rad1 Rd7 15.
+c5 Nd5 16. Nxd5 exd5 17. Ne5 Bxe5 18. Rxf5 Bf6 19. Kh1 Qe8 20. Bh5 Qe7 21. Rdf1
+Rf8 22. Bf3 Qf7 23. Bh5 Qe7 24. Bg5 Rdd8 25. Bxf6 Rxf6 26. Rxf6 gxf6 27. Re1
+Qg7 28. Re3 Kh8 29. Rg3 Qe7 30. h3 Rg8 31. Rxg8+ Kxg8 32. Bf3 Qe6 33. Qf4 b6
+34. Qxc7 Nxd4 35. Qd8+ Kg7 36. Qxd5 Qxd5 37. Bxd5 bxc5 38. Kg1 f5 39. g3 Kf6
+40. Kf2 Ke5 41. Bg8 h6 42. Ke3 Nb5 43. Bc4 Nd6 44. Bd3 a5 45. b3 Nf7 46. Bf1
+Nd6 1/2-1/2
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1984.??.??"]
+[Round "?"]
+[White "Gomez Esteban, Juan Mario"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "E11"]
+[WhiteElo "2430"]
+[BlackElo "2405"]
+[PlyCount "119"]
+[EventDate "1984.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Bd2 Bxd2+ 5. Qxd2 b6 6. Nc3 Bb7 7. Qc2 d5 8.
+cxd5 exd5 9. e3 O-O 10. Be2 Nbd7 11. b4 Qe7 12. Rb1 c6 13. O-O a5 14. bxa5 Rxa5
+15. a4 Rfa8 16. Nd2 Ba6 17. Nb3 Bxe2 18. Nxe2 Rxa4 19. Qxc6 Qe6 20. Qb5 Rc4 21.
+Nd2 Rc2 22. Nf4 Qc6 23. Qxc6 Rxc6 24. Rfc1 Rac8 25. Rxc6 Rxc6 26. f3 g5 27. Nh3
+h6 28. Kf1 Kf8 29. Ke2 Rc3 30. Nf2 Ke7 31. Rb2 Kd6 32. e4 Kc6 33. Nd3 Kb7 34.
+h3 Nh5 35. Ke3 Nf4 36. Rb3 Nxg2+ 37. Kf2 Rc2 38. Kxg2 Rxd2+ 39. Kg3 dxe4 40.
+fxe4 Nf6 41. Kf3 h5 42. e5 Nd5 43. Ke4 Kc6 44. Nb4+ Nxb4 45. Rxb4 Re2+ 46. Kf5
+Re3 47. Kxg5 Rxh3 48. Kf6 Rf3+ 49. Kg5 b5 50. Kxh5 Rc3 51. Kg5 Rc4 52. d5+ Kxd5
+53. Rxb5+ Ke6 54. Ra5 Re4 55. Ra6+ Kxe5 56. Rf6 Rg4+ 57. Kxg4 Kxf6 58. Kf4 Ke6
+59. Ke4 f6 60. Kf4 1/2-1/2
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1984.??.??"]
+[Round "?"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Hernandez Onna, Roman"]
+[Result "1/2-1/2"]
+[ECO "A49"]
+[WhiteElo "2405"]
+[BlackElo "2460"]
+[PlyCount "40"]
+[EventDate "1984.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. d4 Nf6 2. Nf3 g6 3. g3 Bg7 4. Bg2 O-O 5. O-O c6 6. b3 d5 7. Bb2 Ne4 8. Nbd2
+Bf5 9. Nh4 Nxd2 10. Qxd2 Be6 11. e4 dxe4 12. Bxe4 Nd7 13. c4 a5 14. Rad1 Nf6
+15. Bg2 a4 16. Rfe1 axb3 17. axb3 Qb6 18. Qc3 Ra2 19. Ra1 Rxa1 20. Bxa1 Nd7
+1/2-1/2
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1984.??.??"]
+[Round "?"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Pisa Ferrer, Josep"]
+[Result "1/2-1/2"]
+[ECO "D58"]
+[WhiteElo "2405"]
+[BlackElo "2310"]
+[PlyCount "16"]
+[EventDate "1984.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. d4 e6 2. c4 d5 3. Nc3 Be7 4. Nf3 Nf6 5. Bg5 h6 6. Bh4 O-O 7. e3 b6 8. Bd3
+Bb7 1/2-1/2
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1984.??.??"]
+[Round "?"]
+[White "Sunye Neto, Jaime"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "E16"]
+[WhiteElo "2470"]
+[BlackElo "2405"]
+[PlyCount "79"]
+[EventDate "1984.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. c4 e6 2. Nf3 Nf6 3. g3 b6 4. Bg2 Bb7 5. d4 Bb4+ 6. Bd2 Bxd2+ 7. Qxd2 O-O 8.
+O-O d6 9. Qd3 Nc6 10. Nc3 Nb4 11. Qd2 c5 12. Rac1 Ne4 13. Nxe4 Bxe4 14. b3 Qe7
+15. Ne1 Bxg2 16. Nxg2 Rad8 17. d5 exd5 18. cxd5 Qe5 19. Ne3 f5 20. a3 f4 21.
+Nc4 Qxd5 22. axb4 Qh5 23. Qd3 d5 24. Nd2 cxb4 25. Nf3 a5 26. Rc6 Rb8 27. Qd4 b5
+28. Rc7 Rf7 29. Rxf7 Qxf7 30. Ra1 fxg3 31. hxg3 Qc7 32. Qxd5+ Kh8 33. Qe5 Qxe5
+34. Nxe5 a4 35. Nc6 Rc8 36. bxa4 Rxc6 37. axb5 Rc8 38. b6 b3 39. b7 Rg8 40. Ra8
+1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1985.??.??"]
+[Round "9"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Illescas Cordoba, Miquel"]
+[Result "0-1"]
+[ECO "A46"]
+[PlyCount "104"]
+[EventDate "1985.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. Nf3 Nf6 2. d4 d6 3. g3 Nbd7 4. Bg2 e5 5. dxe5 dxe5 6. O-O Bc5 7. Nc3 c6 8.
+Ng5 Qc7 9. Nge4 Nxe4 10. Nxe4 Be7 11. Qd3 O-O 12. Rd1 Nc5 13. Qc3 Ne6 14. Be3
+b6 15. Qb3 Kh8 16. Nc3 f5 17. Bh3 Rf6 18. Qc4 b5 19. Qd3 f4 20. gxf4 exf4 21.
+Bd2 f3 22. Bf1 Nc5 23. Qd4 Be6 24. exf3 Rd8 25. Qe3 Rdf8 26. Bg2 Nd7 27. Ne4
+Rg6 28. Re1 Bd5 29. Ng3 Bc5 30. Qe2 Rxf3 31. Qxf3 Bxf3 32. Re8+ Nf8 33. Be3 Qf7
+34. Bxc5 Qxe8 35. Bxf3 Ne6 36. Re1 Qf7 37. Bxc6 h5 38. Re5 Nxc5 39. Rxh5+ Rh6
+40. Rxc5 Qe7 41. b4 Qe1+ 42. Kg2 Rf6 43. Bf3 Qxb4 44. Rh5+ Kg8 45. Bd5+ Kf8 46.
+Rh8+ Ke7 47. Rg8 Qg4 48. h3 Qg5 49. Bb3 a5 50. c4 Qf4 51. h4 Qxf2+ 52. Kh3 Rg6
+0-1
+
+[Event "Vila de Gracia"]
+[Site "Barcelona"]
+[Date "1985.??.??"]
+[Round "?"]
+[White "Illescas Cordoba, Miquel"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "D42"]
+[WhiteElo "2320"]
+[BlackElo "2375"]
+[PlyCount "37"]
+[EventDate "1985.04.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. e4 c6 2. c4 d5 3. cxd5 cxd5 4. exd5 Nf6 5. Nc3 Nxd5 6. Nf3 Nc6 7. d4 e6 8.
+Bd3 Be7 9. O-O O-O 10. a3 Bd7 11. Bc2 Bf6 12. Ne4 Qb6 13. Qd3 Qa6 14. Qd1 Rfd8
+15. Nxf6+ Nxf6 16. Bg5 Ne7 17. Bxf6 gxf6 18. Qd2 Qd6 19. Rad1 1/2-1/2
+
+[Event "Vila de Gracia"]
+[Site "Barcelona"]
+[Date "1985.??.??"]
+[Round "?"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Gil Gonzalez, Jose Manuel"]
+[Result "0-1"]
+[ECO "A20"]
+[WhiteElo "2375"]
+[BlackElo "2240"]
+[PlyCount "60"]
+[EventDate "1985.04.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. c4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. e3 Be7 6. Nc3 O-O 7. Be2 Nxd4 8.
+Qxd4 d6 9. O-O Be6 10. Rd1 c6 11. e4 Qa5 12. b3 Rfd8 13. Bb2 Bf8 14. Qd2 Qe5
+15. f3 Qh5 16. Na4 Be7 17. Rac1 Qg6 18. Qe3 Re8 19. Ba3 Rad8 20. Bd3 Nh5 21. f4
+f5 22. Nc3 Bf6 23. Bb1 c5 24. Bb2 Qh6 25. g3 g5 26. fxg5 Bxg5 27. Qd3 Be3+ 28.
+Kg2 fxe4 29. Nxe4 Nf4+ 30. gxf4 Qh3+ 0-1
+
+[Event "Vila de Gracia"]
+[Site "Barcelona"]
+[Date "1985.??.??"]
+[Round "?"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Renet, Olivier"]
+[Result "0-1"]
+[ECO "E15"]
+[WhiteElo "2375"]
+[BlackElo "2375"]
+[PlyCount "90"]
+[EventDate "1985.04.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+
+1. Nf3 Nf6 2. d4 e6 3. c4 b6 4. g3 Ba6 5. Nbd2 Bb7 6. Bg2 c5 7. O-O cxd4 8.
+Nxd4 Bxg2 9. Kxg2 Qc8 10. b3 Nc6 11. Bb2 Nxd4 12. Bxd4 Qb7+ 13. Nf3 Be7 14. Qc2
+Rc8 15. Qb2 O-O 16. Rac1 d6 17. Rfd1 e5 18. Bc3 Ne4 19. Kg1 f5 20. a4 Rf6 21.
+Qc2 Rcf8 22. Bb4 Rh6 23. Qd3 Kh8 24. Qd5 Qc7 25. a5 g5 26. a6 g4 27. Nd2 Ng5
+28. Nf1 f4 29. Qb7 Nh3+ 30. Kg2 f3+ 31. exf3 gxf3+ 32. Kh1 Nxf2+ 33. Kg1 Qxb7
+34. axb7 Nxd1 35. Rxd1 Rb8 36. Ne3 Rxb7 37. Nd5 Bf8 38. h4 b5 39. Kf2 bxc4 40.
+bxc4 Rg6 41. Kxf3 Rf7+ 42. Kg2 Rg4 43. Rc1 h5 44. Bd2 Kh7 45. Bg5 Bh6 0-1
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1985.??.??"]
+[Round "?"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Cramling, Dan"]
+[Result "0-1"]
+[ECO "A41"]
+[PlyCount "54"]
+[EventDate "1985.07.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. Nf3 g6 2. d4 Bg7 3. g3 d6 4. Bg2 Nd7 5. b3 e5 6. Bb2 e4 7. Nfd2 d5 8. c4 c6
+9. f3 exf3 10. Bxf3 Ne7 11. Nc3 dxc4 12. Nxc4 Nb6 13. e3 O-O 14. Qd3 Nf5 15.
+O-O-O Re8 16. Rhe1 Bh6 17. Ne4 Nd5 18. g4 Nh4 19. Qf1 Bxg4 20. Bxg4 Rxe4 21.
+Bf3 Nxe3 22. Nxe3 Rxe3 23. Rxe3 Bxe3+ 24. Kb1 Qf6 25. Be2 Qxf1 26. Rxf1 Nf5 27.
+Bd3 Bxd4 0-1
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1985.??.??"]
+[Round "?"]
+[White "Rodriguez Vargas, Orestes"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "A40"]
+[PlyCount "103"]
+[EventDate "1985.07.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. d4 Nc6 2. Nf3 f6 3. e4 e6 4. d5 Nce7 5. dxe6 dxe6 6. Bd2 Nc6 7. Bc4 Bd6 8.
+Nc3 Nge7 9. Qe2 a6 10. a4 Ng6 11. Rd1 Qe7 12. O-O O-O 13. Be3 Bd7 14. Nd4 Nxd4
+15. Rxd4 Bc6 16. Rdd1 Kh8 17. Rfe1 Rad8 18. Bb3 Be5 19. Qc4 Rxd1 20. Nxd1 Re8
+21. Nc3 Bf4 22. Bd4 Be5 23. Be3 Bf4 24. h3 Bxe3 25. Rxe3 Ne5 26. Qe2 Rd8 27. f4
+Ng6 28. Qf2 e5 29. f5 Nf8 30. Bd5 Qc5 31. Rd3 Qxf2+ 32. Kxf2 Rd6 33. b4 b6 34.
+Ke3 g6 35. g4 Kg7 36. Kd2 h5 37. Bxc6 Rxc6 38. Rd8 hxg4 39. hxg4 Nh7 40. Kd3
+gxf5 41. gxf5 Ng5 42. Nd5 Nh3 43. Rd7+ Kh6 44. Rxc7 Nf4+ 45. Kd2 Rd6 46. c4 b5
+47. axb5 axb5 48. c5 Rd8 49. c6 Rd6 50. Ke1 Nxd5 51. exd5 Rxd5 52. Rd7 1-0
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1986.??.??"]
+[Round "1"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Martin Gonzalez, Angel"]
+[Result "0-1"]
+[ECO "A30"]
+[PlyCount "112"]
+[EventDate "1986.07.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+[Source "ChessBase"]
+[SourceDate "2001.11.25"]
+
+1. Nf3 c5 2. c4 Nc6 3. d4 cxd4 4. Nxd4 g6 5. e3 Bg7 6. b3 Nxd4 7. exd4 d5 8.
+Bb2 Nh6 9. c5 O-O 10. Be2 b6 11. cxb6 Qxb6 12. Na3 Nf5 13. Nc2 Ba6 14. Bxa6
+Qxa6 15. Qe2 Qb6 16. Qd3 Rfc8 17. O-O e6 18. Rfd1 Rc6 19. Ne3 Rac8 20. h3 Nxe3
+21. fxe3 Rc2 22. Rac1 Qc7 23. a4 Bf8 24. Rf1 Bb4 25. Rfd1 Bd6 26. Qf1 Qb8 27.
+Qa6 R8c6 28. Qb5 Bh2+ 29. Kh1 Qg3 30. Qf1 Rc7 31. Ba3 Rf2 32. Qxf2 Qxf2 33.
+Kxh2 Qxe3 34. Rxc7 Qf4+ 35. Kh1 Qxc7 36. Bc5 a5 37. b4 axb4 38. Rb1 e5 39. Rxb4
+e4 40. Kg1 e3 41. Rb2 Qa5 42. Re2 Qc3 43. a5 Qc1+ 44. Kh2 Qd2 45. Rxd2 exd2 46.
+a6 d1=Q 47. a7 Qa4 48. Kg3 f6 49. Kf4 Kf7 50. Kf3 h5 51. g4 h4 52. Kf2 Ke6 53.
+Ke2 f5 54. Kf3 g5 55. Kg2 fxg4 56. hxg4 Qa2+ 0-1
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1986.??.??"]
+[Round "2"]
+[White "Gil Reguera, Juan Carlos"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "D36"]
+[WhiteElo "2380"]
+[PlyCount "69"]
+[EventDate "1986.07.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+[Source "ChessBase"]
+[SourceDate "2001.11.25"]
+
+1. c4 e6 2. Nc3 d5 3. cxd5 exd5 4. d4 Nf6 5. Bg5 Be7 6. e3 c6 7. Qc2 O-O 8. Bd3
+h6 9. Bf4 Bd6 10. Nge2 Bxf4 11. Nxf4 Re8 12. O-O-O Nbd7 13. g4 Nf8 14. Rdg1 Ne6
+15. Nxe6 Bxe6 16. g5 hxg5 17. Rxg5 Ne4 18. Rg2 Nxc3 19. Qxc3 Qf6 20. Rhg1 Rac8
+21. Kb1 b6 22. Bc2 Kf8 23. Rxg7 Qxg7 24. Rxg7 Kxg7 25. e4 Rg8 26. a3 Kf8 27. e5
+Rg4 28. Qd2 Ke7 29. f4 Rcg8 30. f5 Bd7 31. Qh6 Rg1+ 32. Ka2 R1g2 33. Qf6+ Ke8
+34. e6 fxe6 35. fxe6 1-0
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1986.??.??"]
+[Round "3"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Campos Moreno, Javier B"]
+[Result "1/2-1/2"]
+[ECO "D27"]
+[BlackElo "2405"]
+[PlyCount "107"]
+[EventDate "1986.07.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+[Source "ChessBase"]
+[SourceDate "2001.11.25"]
+
+1. d4 d5 2. c4 dxc4 3. e3 Nf6 4. Bxc4 e6 5. Nf3 c5 6. O-O a6 7. dxc5 Bxc5 8.
+Qxd8+ Kxd8 9. Rd1+ Nbd7 10. a3 b5 11. Be2 Ke7 12. b4 Bd6 13. Bb2 Bb7 14. Nbd2
+Rhc8 15. Rac1 e5 16. Rxc8 Rxc8 17. Rc1 Rxc1+ 18. Bxc1 g6 19. Bb2 e4 20. Nd4 Ne5
+21. f3 h5 22. Kf2 Bd5 23. h3 h4 24. Bc3 Bb7 25. Bb2 Ned7 26. Bd1 Nb6 27. Bc2
+Bg3+ 28. Ke2 exf3+ 29. gxf3 Nfd7 30. Ne4 Nc4 31. Bc1 Be5 32. a4 bxa4 33. Bxa4
+Bxe4 34. fxe4 Bd6 35. Nc6+ Kf6 36. Bb3 Nde5 37. Nxe5 Nxe5 38. Bd2 Nc6 39. e5+
+Kxe5 40. Bxf7 Bxb4 41. Bxg6 Bxd2 42. Kxd2 Ne7 43. Bc2 Nd5 44. Ke2 Nb4 45. Bg6
+a5 46. Be8 Ke4 47. Ba4 Nd5 48. Bc6 Ke5 49. Kf3 Nf6 50. Bb5 Kf5 51. Bc4 Kg5 52.
+Ke2 Nd7 53. Kd3 a4 54. Kc3 1/2-1/2
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1986.??.??"]
+[Round "4"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "A45"]
+[WhiteElo "2430"]
+[PlyCount "108"]
+[EventDate "1986.07.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+[Source "ChessBase"]
+[SourceDate "2001.11.25"]
+
+1. d4 Nf6 2. Bg5 e6 3. Nd2 d5 4. e3 Be7 5. Bd3 Nbd7 6. f4 b6 7. Qf3 Bb7 8. Nh3
+c5 9. c3 Qc7 10. Nf2 a5 11. O-O O-O 12. Qh3 Rfe8 13. Nf3 Ba6 14. Bxa6 Rxa6 15.
+Ne5 Raa8 16. g4 Ne4 17. Nxe4 dxe4 18. Bxe7 Rxe7 19. g5 b5 20. Qg2 Qb7 21. Rad1
+c4 22. Ng4 Kh8 23. f5 exf5 24. Rxf5 g6 25. Rf4 Qd5 26. Nf6 Nxf6 27. gxf6 Re6
+28. Rdf1 Rg8 29. Qh3 g5 30. Rf5 Qd7 31. Qh6 Ree8 32. Kh1 Rg6 33. Qh5 Reg8 34.
+R1f2 b4 35. Rxa5 bxc3 36. bxc3 Qb7 37. Qe2 g4 38. Rh5 Qb6 39. Qxc4 Rxf6 40. Qf1
+Rf3 41. Rxf3 gxf3 42. Rh3 Rg2 43. Rg3 Rxg3 44. hxg3 Qh6+ 45. Kg1 Qxe3+ 46. Qf2
+Qc1+ 47. Kh2 Qd1 48. g4 e3 49. Qg3 Qc2+ 50. Kh3 Qe4 51. Qd6 Kg7 52. g5 e2 53.
+Qf6+ Kf8 54. d5 e1=Q 0-1
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1986.??.??"]
+[Round "5"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Vehi Bach, Victor Manuel"]
+[Result "1/2-1/2"]
+[ECO "E21"]
+[BlackElo "2355"]
+[PlyCount "51"]
+[EventDate "1986.07.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+[Source "ChessBase"]
+[SourceDate "2001.11.25"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 b6 4. Nc3 Bb4 5. Bd2 Bb7 6. g3 Nc6 7. a3 Bxc3 8. Bxc3
+Ne4 9. Qd3 Nxc3 10. Qxc3 Qf6 11. Rd1 Ne7 12. Bg2 c5 13. O-O Rc8 14. Ne5 Bxg2
+15. Kxg2 d6 16. Ng4 Qg6 17. Ne3 O-O 18. Qd3 Qh5 19. Rd2 Nc6 20. dxc5 dxc5 21.
+Rfd1 Qe5 22. Ng4 Qg5 23. h3 Rfd8 24. Qe3 Qe7 25. Ne5 Nd4 26. Nf3 1/2-1/2
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1986.??.??"]
+[Round "6"]
+[White "Fernandez Garcia, Jose Luis"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "B85"]
+[WhiteElo "2455"]
+[PlyCount "112"]
+[EventDate "1986.07.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+[Source "ChessBase"]
+[SourceDate "2001.11.25"]
+
+1. e4 c5 2. Nf3 d6 3. d4 Nf6 4. Nc3 cxd4 5. Nxd4 Nc6 6. Be2 e6 7. O-O Be7 8. f4
+a6 9. Kh1 Qc7 10. Bf3 Bd7 11. a4 Rc8 12. Nb3 O-O 13. Be3 Na5 14. Nxa5 Qxa5 15.
+Qe1 Qc7 16. Qg3 Bc6 17. e5 dxe5 18. fxe5 Nd7 19. Bxc6 bxc6 20. Bf4 Rfd8 21. Ne4
+Nf8 22. Nd6 Bxd6 23. exd6 Qb6 24. Rad1 Rd7 25. Be5 Ng6 26. Bc3 c5 27. h4 h5 28.
+Rd2 Qc6 29. Rf4 Rcd8 30. Rc4 Rxd6 31. Rxd6 Rxd6 32. b4 Rd5 33. b5 Rd1+ 34. Kh2
+Qd5 35. Rf4 axb5 36. axb5 Rb1 37. b6 Qd1 38. Qg5 Rxb6 39. Ra4 Qd6+ 40. Kh3 e5
+41. Ra8+ Rb8 42. Rxb8+ Qxb8 43. g3 Qb1 44. Qd8+ Kh7 45. Qd5 Qxc2 46. Qxc5 f5
+47. Qe3 f4 48. Qf3 Qf5+ 49. g4 hxg4+ 50. Qxg4 Qd3+ 51. Kh2 Qxc3 52. Qh5+ Kg8
+53. Qxg6 Qg3+ 54. Qxg3 fxg3+ 55. Kxg3 Kf7 56. h5 Ke6 0-1
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1986.??.??"]
+[Round "7"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Cramling, Dan"]
+[Result "1/2-1/2"]
+[ECO "A41"]
+[BlackElo "2420"]
+[PlyCount "56"]
+[EventDate "1986.07.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+[Source "ChessBase"]
+[SourceDate "2001.11.25"]
+
+1. d4 g6 2. Nf3 Bg7 3. g3 d6 4. Bg2 Nd7 5. O-O e5 6. dxe5 dxe5 7. e4 Ngf6 8.
+Nbd2 O-O 9. b3 Nc5 10. Ba3 Nfd7 11. Nc4 Re8 12. Re1 b6 13. Qe2 Bb7 14. Rad1
+Nxe4 15. Qe3 Qc8 16. Bb2 f5 17. h4 a5 18. a4 Re7 19. Ng5 Nec5 20. Bh3 Qf8 21.
+Ba3 h6 22. Nf3 Rae8 23. Bg2 f4 24. Qc3 e4 25. Nd4 Rf7 26. gxf4 Rxf4 27. Qg3 Qf6
+28. Nb5 Rf8 1/2-1/2
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1986.??.??"]
+[Round "8"]
+[White "Cramling, Pia"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "C01"]
+[WhiteElo "2400"]
+[PlyCount "63"]
+[EventDate "1986.07.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+[Source "ChessBase"]
+[SourceDate "2001.11.25"]
+
+1. e4 c6 2. c4 e6 3. d4 d5 4. exd5 exd5 5. Nc3 Nf6 6. Nf3 Be7 7. h3 O-O 8. Be2
+Nbd7 9. cxd5 Nxd5 10. Nxd5 cxd5 11. O-O Qb6 12. Qb3 Qxb3 13. axb3 Nf6 14. Bf4
+Bf5 15. Rfc1 Bd8 16. Bc7 a6 17. Ne5 Be7 18. g4 Be6 19. Nd3 Rfc8 20. Bf4 Nd7 21.
+b4 g5 22. Bd2 Rc4 23. b3 Rxc1+ 24. Rxc1 Bf6 25. Be3 a5 26. Rc7 b6 27. f4 gxf4
+28. Nxf4 Nf8 29. Bf3 axb4 30. Nxd5 Ra1+ 31. Kg2 Bg7 32. Nxb6 1/2-1/2
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1986.??.??"]
+[Round "9"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Rodriguez Vargas, Orestes"]
+[Result "1/2-1/2"]
+[ECO "D56"]
+[PlyCount "30"]
+[EventDate "1986.07.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+[Source "ChessBase"]
+[SourceDate "2001.11.25"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 e6 4. Nc3 Be7 5. Bg5 O-O 6. e3 h6 7. Bh4 Ne4 8. Bxe7
+Qxe7 9. Rc1 c6 10. Bd3 Nxc3 11. Rxc3 Nd7 12. O-O dxc4 13. Bxc4 e5 14. dxe5 Nxe5
+15. Nxe5 Qxe5 1/2-1/2
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1989.01.28"]
+[Round "11"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Medina Garcia, Antonio"]
+[Result "1/2-1/2"]
+[ECO "D56"]
+[PlyCount "22"]
+[EventDate "1989.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 d5 3. c4 e6 4. Nc3 Be7 5. Bg5 O-O 6. e3 h6 7. Bh4 Ne4 8. Bxe7
+Qxe7 9. Qc2 Nxc3 10. Qxc3 dxc4 11. Bxc4 b6 1/2-1/2
+
+[Event "Sant Cugat op"]
+[Site "Sant Cugat"]
+[Date "1991.??.??"]
+[Round "?"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Canti"]
+[Result "1-0"]
+[ECO "A81"]
+[PlyCount "87"]
+[EventDate "1991.03.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. Nf3 f5 2. d4 Nf6 3. g3 g6 4. Bg2 Bg7 5. O-O O-O 6. b3 d6 7. Bb2 Ne4 8. Nbd2
+c5 9. e3 Nc6 10. Qe2 Kh8 11. Rfd1 e6 12. Rac1 d5 13. c4 cxd4 14. Nxd4 Qe7 15.
+cxd5 exd5 16. Nxc6 bxc6 17. Bxg7+ Qxg7 18. Nxe4 dxe4 19. Rxc6 Bb7 20. Rcc1 Rfd8
+21. h3 Rac8 22. Rxc8 Rxc8 23. Qd2 h6 24. Qd4 Qxd4 25. Rxd4 Ba6 26. Rd6 Bd3 27.
+Rxg6 Rc1+ 28. Kh2 Rc2 29. g4 f4 30. exf4 e3 31. Rxh6+ Kg7 32. Re6 exf2 33. Kg3
+Rxa2 34. f5 f1=Q 35. Bxf1 Bxf1 36. h4 Ra3 37. Kf4 a5 38. Re7+ Kf8 39. Ra7 Be2
+40. g5 Bd1 41. g6 Bxb3 42. h5 Ra1 43. h6 Rh1 44. h7 1-0
+
+[Event "Ct. Catalunya equips"]
+[Site "?"]
+[Date "1993.??.??"]
+[Round "1"]
+[White "Pomar Salamanca, A."]
+[Black "Magem Badals, J."]
+[Result "1/2-1/2"]
+[ECO "A34"]
+[WhiteElo "2260"]
+[BlackElo "2470"]
+[PlyCount "37"]
+[EventDate "1993.??.??"]
+
+1. c4 c5 2. Nf3 Nf6 3. Nc3 d5 4. cxd5 Nxd5 5. e3 e6 6. Bb5+ Bd7 7. Bxd7+ Qxd7
+8. Ne5 Qc7 9. Qa4+ Nd7 10. Nxd7 Qxd7 11. Qxd7+ Kxd7 12. b3 Nxc3 13. dxc3 Be7
+14. Bb2 Bf6 15. O-O-O+ Kc6 16. c4 Bxb2+ 17. Kxb2 Rhd8 18. Kc3 a5 19. a4 1/2-1/2
+
+[Event "C. A. Condal sim"]
+[Site "Barcelona"]
+[Date "1943.05.14"]
+[Round "?"]
+[White "Pomar Salamanca, A."]
+[Black "Bover"]
+[Result "1-0"]
+[ECO "C10"]
+[PlyCount "55"]
+[EventDate "1943.05.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nd7 4. Nf3 Bb4 5. Bd3 Ne7 6. O-O Ng6 7. Re1 Be7 8. Be3
+O-O 9. Qe2 c5 10. exd5 cxd4 11. Nxd4 Nc5 12. dxe6 Nxe6 13. Nxe6 Bxe6 14. Rad1
+Bd7 15. Bxg6 fxg6 16. Bxa7 Rxa7 17. Qxe7 Qxe7 18. Rxe7 Bc6 19. b4 Ra3 20. b5
+Be8 21. Rc7 h5 22. h3 Bf7 23. Rdd7 b6 24. Ne4 Rxa2 25. Nd6 Ra1+ 26. Kh2 Rf1 27.
+Nxf7 Rxf2 28. Ng5 1-0
+
+[Event "Barcelona sim"]
+[Site "?"]
+[Date "1970.??.??"]
+[Round "?"]
+[White "Pomar Salamanca, A."]
+[Black "Planas"]
+[Result "1-0"]
+[ECO "B92"]
+[PlyCount "53"]
+[EventDate "1970.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 Qc7 7. Be3 Nc6 8.
+Qd2 b5 9. O-O-O e6 10. a3 Be7 11. g4 Bb7 12. g5 Nd7 13. f4 Nc5 14. Bf3 O-O 15.
+h4 Rac8 16. Nxc6 Bxc6 17. h5 Qa5 18. Kb1 Na4 19. Nd5 Qd8 20. Nxe7+ Qxe7 21.
+Qxd6 Qxd6 22. Rxd6 Bb7 23. Rhd1 Rc4 24. R1d4 Rc7 25. Rd7 Rxd7 26. Rxd7 Bc8 27.
+Rc7 1-0

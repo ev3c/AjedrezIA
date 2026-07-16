@@ -1,0 +1,54 @@
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.01.14"]
+[Round "1"]
+[White "Moreno Lopez, Maximiliano"]
+[Black "Clanchet Olle, Josep"]
+[Result "0-1"]
+[ECO "C44"]
+[WhiteElo "1368"]
+[BlackElo "1701"]
+[PlyCount "58"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. c4 Bc5 4. Qe2 Nf6 5. Nc3 Ng4 6. Nd1 d6 7. d3 Be6 8. h3
+Nf6 9. Be3 Qd7 10. a3 Nd4 11. Nxd4 Bxd4 12. Qf3 Bxe3 13. Nxe3 b5 14. Be2 bxc4
+15. dxc4 Rb8 16. Qg3 O-O 17. b4 Nxe4 18. Qh4 Nc3 19. Bd3 e4 20. Be2 f5 21. g4
+f4 22. Nf5 Bxf5 23. gxf5 Qxf5 24. Qe7 Rf7 25. Qh4 Rbf8 26. Kd2 Qe5 27. Rhg1 e3+
+28. Kc1 Ne4 29. f3 Qxa1+ 0-1
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.01.21"]
+[Round "2"]
+[White "Llorens Rubio, Joan"]
+[Black "Moreno Lopez, Maximiliano"]
+[Result "1-0"]
+[ECO "C50"]
+[WhiteElo "1616"]
+[BlackElo "1368"]
+[PlyCount "41"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Bc4 Nf6 3. Nc3 Nc6 4. Nf3 Bc5 5. O-O O-O 6. d3 h6 7. a3 Nd4 8. Nxe5
+d6 9. Nf3 c6 10. h3 b5 11. Ba2 d5 12. exd5 cxd5 13. Nxd4 Bxd4 14. Nxb5 a6 15.
+Nxd4 Bb7 16. c3 Re8 17. Nf3 Qb6 18. d4 Bc8 19. Ne5 Ne4 20. Bxd5 Ra7 21. Bxe4
+1-0

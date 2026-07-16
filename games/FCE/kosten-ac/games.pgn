@@ -1,0 +1,97 @@
+[Event "La Pobla de Lillet op"]
+[Site "?"]
+[Date "2005.??.??"]
+[Round "1.3"]
+[White "Parayre Soguero, J."]
+[Black "Kosten, AC."]
+[Result "0-1"]
+[ECO "E94"]
+[WhiteElo "1997"]
+[BlackElo "2522"]
+[PlyCount "64"]
+[EventDate "2005.??.??"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 O-O 5. e4 d6 6. Be2 Nbd7 7. O-O e5 8. d5
+Nc5 9. Qc2 a5 10. Nd2 Nfd7 11. Nb3 f5 12. Nxc5 Nxc5 13. Be3 f4 14. Bxc5 $6 dxc5
+15. a3 g5 16. Qd1 Ra6 17. Na4 Qe7 18. Bg4 Bxg4 19. Qxg4 f3 $1 20. g3 Rg6 21.
+Rfd1 b6 22. Rd3 Rgf6 23. Rad1 h5 $1 24. Qxh5 $6 Qd7 $1 25. d6 Qxa4 26. dxc7
+R6f7 27. Rd8 Rxc7 28. Qxg5 $2 Rcf7 29. Rxf8+ Rxf8 30. Rd6 $2 Qc2 31. h4 Qb1+
+32. Kh2 Qf1 0-1
+
+[Event "La Pobla de Lillet op"]
+[Site "?"]
+[Date "2005.??.??"]
+[Round "3.2"]
+[White "Ayza Ballester, J."]
+[Black "Kosten, AC."]
+[Result "0-1"]
+[ECO "B90"]
+[WhiteElo "2300"]
+[BlackElo "2522"]
+[PlyCount "50"]
+[EventDate "2005.??.??"]
+
+1. e4 c5 2. Nf3 d6 3. d4 Nf6 4. Nc3 cxd4 5. Nxd4 a6 6. Bd3 e5 7. Nb3 Be7 8. O-O
+O-O 9. f4 Nbd7 10. Kh1 b5 11. a4 Bb7 12. Qe2 b4 13. Nd1 d5 14. Nf2 Qc7 15. fxe5
+Qxe5 16. exd5 Qxd5 17. Nh3 Bd6 18. Bf4 Rfe8 19. Qd2 Ne5 20. Bxe5 Qxe5 21. Qf4
+Qd5 22. Qd2 Qh5 23. Nf4 Qh6 24. Kg1 Ng4 25. h3 Ne3 0-1
+
+[Event "La Pobla de Lillet op"]
+[Site "?"]
+[Date "2005.??.??"]
+[Round "4.1"]
+[White "Kosten, AC."]
+[Black "Alonso Moyano, J."]
+[Result "1/2-1/2"]
+[ECO "A04"]
+[WhiteElo "2522"]
+[BlackElo "2406"]
+[PlyCount "35"]
+[EventDate "2005.??.??"]
+
+1. Nf3 f5 2. d3 d6 3. e4 e5 4. Nc3 Nf6 5. exf5 Bxf5 6. d4 Nbd7 7. Nh4 Be6 8. d5
+Bf7 9. g3 c6 10. dxc6 bxc6 11. Bg2 d5 12. O-O Be7 13. Nf5 O-O 14. Nxe7+ Qxe7
+15. b3 Rfe8 16. Bb2 Bh5 17. Qd2 e4 18. Ne2 1/2-1/2
+
+[Event "La Pobla de Lillet op"]
+[Site "?"]
+[Date "2005.??.??"]
+[Round "5.2"]
+[White "Moskalenko, V."]
+[Black "Kosten, AC."]
+[Result "0-1"]
+[ECO "E25"]
+[WhiteElo "2534"]
+[BlackElo "2522"]
+[PlyCount "84"]
+[EventDate "2005.??.??"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. f3 d5 5. a3 Bxc3+ 6. bxc3 c5 7. cxd5 Nxd5 8.
+dxc5 Qa5 9. e4 Ne7 10. Be3 O-O 11. Qb3 Qc7 12. Bb5 Nec6 13. f4 Na5 14. Qc2 Nd7
+15. Nf3 Nxc5 16. e5 b6 17. Ng5 f5 18. O-O h6 19. Nf3 Rd8 20. Rad1 Bb7 21. Rxd8+
+Rxd8 22. Rd1 Ne4 23. Rxd8+ Qxd8 24. Bf1 Qc8 25. Nd4 Bd5 26. Nb5 Bc4 27. Bd3
+Bxb5 28. Bxb5 Nc4 29. Bxc4 Qxc4 30. Bd4 b5 31. g4 a5 32. gxf5 exf5 33. Qb2 Qd3
+34. Qa2+ Kh7 35. Qf7 Nd2 36. h4 Qf1+ 37. Kh2 Qxf4+ 38. Kg2 Qf3+ 39. Kg1 Qf1+
+40. Kh2 Qe2+ 41. Kh3 Qg4+ 42. Kh2 Nf3+ 0-1
+
+[Event "Olot op"]
+[Site "Olot"]
+[Date "1990.??.??"]
+[Round "?"]
+[White "Kosten, Anthony C"]
+[Black "Johansson, Jan"]
+[Result "1-0"]
+[ECO "B08"]
+[PlyCount "81"]
+[EventDate "1990.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Nf3 Nf6 5. Be2 O-O 6. O-O Bg4 7. Be3 Nc6 8. Nd2
+Bxe2 9. Qxe2 Qc8 10. h3 e5 11. d5 Ne7 12. Nc4 Nh5 13. Rad1 Qe8 14. g4 Nf4 15.
+Bxf4 exf4 16. e5 dxe5 17. Rfe1 f6 18. Ne4 Qb5 19. d6 cxd6 20. Nexd6 Qc6 21. Na5
+Qc7 22. Ndxb7 Rab8 23. Qb5 Nc8 24. Rd7 Qb6 25. Qd5+ Kh8 26. Nc4 Qb4 27. c3 Nb6
+28. Nxb6 Qxb6 29. b4 h6 30. Rd1 f5 31. Nd6 fxg4 32. hxg4 f3 33. Qe6 Rf6 34. Qe7
+Rg8 35. Nf7+ Kh7 36. R1d6 Rxd6 37. Nxd6 Qa6 38. Ne8 Kh8 39. Nxg7 Qe2 40. Qh4 h5
+41. Nxh5 1-0

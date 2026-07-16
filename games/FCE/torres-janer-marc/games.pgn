@@ -1,0 +1,86 @@
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.01.14"]
+[Round "1"]
+[White "Torres Janer, Marc"]
+[Black "Jimenez Sanchez, Juan Rafael"]
+[Result "1-0"]
+[ECO "B18"]
+[WhiteElo "1482"]
+[BlackElo "1740"]
+[PlyCount "73"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Be6 6. Nf3 Bg4 7. Be2 e6 8.
+Bf4 Nf6 9. h3 Bxf3 10. Bxf3 Bd6 11. Bxd6 Qxd6 12. c3 Nbd7 13. Qb3 Rb8 14. O-O
+O-O 15. Rfe1 b5 16. Qc2 a5 17. b3 Rbc8 18. Be4 c5 19. dxc5 Nxc5 20. Rad1 Qc7
+21. Bd3 g6 22. Bf1 Nd5 23. c4 bxc4 24. Bxc4 Nb4 25. Qe2 Rfd8 26. Rxd8+ Rxd8 27.
+Qe5 Qc6 28. Nh5 gxh5 29. Qg5+ Kf8 30. Qxd8+ Kg7 31. Rd1 Nd5 32. Bxd5 exd5 33.
+Qg5+ Kf8 34. Qxd5 Qb6 35. Qd8+ Qxd8 36. Rxd8+ Ke7 37. Rd5 1-0
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.01.21"]
+[Round "2"]
+[White "De Paz San Martin, Jose Angel"]
+[Black "Torres Janer, Marc"]
+[Result "1-0"]
+[ECO "B21"]
+[WhiteElo "1964"]
+[BlackElo "1482"]
+[PlyCount "37"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 c5 2. Nf3 cxd4 3. c3 dxc3 4. Nxc3 Nf6 5. e4 d6 6. e5 dxe5 7. Qxd8+ Kxd8
+8. Bc4 e6 9. Nxe5 Ke8 10. Nb5 Bb4+ 11. Bd2 Bxd2+ 12. Kxd2 Na6 13. Nd6+ Ke7 14.
+Ndxf7 Rf8 15. Ng5 h6 16. Ng6+ Kd6 17. Nxf8 hxg5 18. f3 e5 19. h4 1-0
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.01.28"]
+[Round "3"]
+[White "Torres Janer, Marc"]
+[Black "Cots Valls, Jordi"]
+[Result "0-1"]
+[ECO "B28"]
+[WhiteElo "1482"]
+[BlackElo "1710"]
+[PlyCount "106"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 e6 3. d4 a6 4. c3 b6 5. Be3 Bb7 6. Nbd2 d5 7. e5 c4 8. Be2 b5
+9. O-O h6 10. Kh1 f5 11. exf6 Qxf6 12. Ne5 Ne7 13. Ng4 Qf5 14. Ne5 Nd7 15. Bh5+
+g6 16. Bg4 Qf6 17. Qf3 Nf5 18. Bf4 Bd6 19. Nxd7 Kxd7 20. Bxd6 Kxd6 21. Qf4+ e5
+22. dxe5+ Qxe5 23. Qxe5+ Kxe5 24. Rae1+ Kf6 25. Bxf5 gxf5 26. Re2 Rhg8 27. Rfe1
+Raf8 28. Re6+ Kg7 29. Re7+ Rf7 30. R1e6 h5 31. Nf3 d4 32. cxd4 Bxf3 33. gxf3
+Rd8 34. Rxf7+ Kxf7 35. Rxa6 Rxd4 36. Rb6 Rd5 37. Kg2 Ke7 38. Kg3 Kd7 39. a3 Kc7
+40. Rf6 Rd2 41. Rxf5 Kc6 42. Rf6+ Kb7 43. Rf7+ Kb6 44. Rf6+ Ka5 45. Kf4 Rxb2
+46. Ke3 Ka4 47. Ra6+ Kb3 48. f4 c3 49. Rc6 Rb1 50. Kd3 Rd1+ 51. Ke2 c2 52. f5
+c1=Q 53. Rxc1 Rxc1 0-1

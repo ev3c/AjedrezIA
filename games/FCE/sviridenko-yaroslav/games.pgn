@@ -1,0 +1,36 @@
+[Event "Lliga Catalana DH"]
+[Site "Barcelona"]
+[Date "2025.02.08"]
+[Round "4.10"]
+[White "Nadal Fajardo, Ricard"]
+[Black "Sviridenko, Yaroslav"]
+[Result "1-0"]
+[ECO "D35"]
+[WhiteElo "2115"]
+[BlackElo "2232"]
+[PlyCount "65"]
+[GameId "2151339904535417"]
+[EventDate "2025.??.??"]
+[TimeControl "90+30"]
+[WhiteClock "1:01:33"]
+[BlackClock "0:43:14"]
+
+1. d4 {[%emt 0:00:38]} Nf6 {[%emt 0:00:46]} 2. c4 {[%emt 0:00:26]} e6 {[%emt 0:00:07]} 3. Nf3 {[%emt 0:01:05]} d5 {[%emt 0:00:07]} 4. cxd5 {[%emt 0:01:49]} exd5 {[%emt 0:00:08]} 5. Nc3 {[%emt 0:00:07]} c6 {[%emt 0:00:08]} 6. Bf4 {[%emt 0:01:18]} Bf5 {[%emt 0:00:23]} 7. e3 {[%emt 0:01:06]} Nbd7 {[%emt 0:00:25]} 8. Bd3 {[%emt 0:00:53]} Bxd3 {[%emt 0:00:17]} 9. Qxd3 {[%emt 0:00:06]} Be7 {[%emt 0:00:06]} 10. h3 {[%emt 0:01:34]} O-O {[%emt 0:00:34]} 11. O-O {[%emt 0:00:23]} Re8 {[%emt 0:00:24]} 12. a3 {[%emt 0:01:36]} a5 {[%emt 0:00:22]} 13. Rab1 {[%emt 0:00:48]} b5 {[%emt 0:08:22]} 14. Rfc1 {[%emt 0:01:00]} Nb6 {[%emt 0:06:23]} 15. Nxb5 {[%emt 0:02:55]} cxb5 {[%emt 0:00:50]} 16. Bc7 {[%emt 0:00:07]} Qc8 {[%emt 0:02:14]} 17. Bxb6 {[%emt 0:00:40]} Qe6 {[%emt 0:02:05]} 18. Bc5 {[%emt 0:05:49]} b4 {[%emt 0:02:54]} 19. axb4 {[%emt 0:03:38]} axb4 {[%emt 0:00:07]} 20. Bxe7 {[%emt 0:05:43]} Qxe7 {[%emt 0:00:20]} 21. Ne5 {[%emt 0:00:50]} Ne4 {[%emt 0:00:17]} 22. Rc2 {[%emt 0:02:45]} f6 {[%emt 0:07:13]} 23. Nf3 {[%emt 0:14:34]} Qb7 {[%emt 0:00:50]} 24. Rbc1 {[%emt 0:00:38]} Rec8 {[%emt 0:00:15]} 25. Nd2 {[%emt 0:03:45]} Nxd2 {[%emt 0:00:48]} 26. Qxd2 {[%emt 0:00:14]} b3 {[%emt 0:02:49]} 27. Rc5 {[%emt 0:01:18]} Rxc5 {[%emt 0:00:29]} 28. dxc5 {[%emt 0:01:01]} Qc6 {[%emt 0:01:30]} 29. Qb4 {[%emt 0:00:31]} Qa4 {[%emt 0:00:46]} 30. Qb7 {[%emt 0:03:56]} Qa2 {[%emt 0:01:08]} 31. c6 {[%emt 0:01:13]} Re8 {[%emt 0:02:03]} 32. c7 {[%emt 0:00:37]} Qxb2 {[%emt 0:00:05]} 33. c8=Q {[%emt 0:00:23]} 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "https://lichess.org/broadcast/"]
+[Date "2026.02.21"]
+[Round "6.10"]
+[White "Perez Manas, Benjamin"]
+[Black "Sviridenko, Yaroslav"]
+[Result "1-0"]
+[ECO "B15"]
+[WhiteElo "2195"]
+[BlackElo "2246"]
+[PlyCount "39"]
+[EventDate "2026.01.17"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Nxf6+ exf6 6. c3 Bd6 7. Bd3 O-O 8.
+Qc2 Re8+ 9. Ne2 h5 10. O-O Nd7 11. Bf4 Rxe2 12. Qxe2 Bxf4 13. Qe4 Qc7 14. Qh7+
+Kf8 15. Rae1 Bxh2+ 16. Kh1 Be5 17. Qh8+ Ke7 18. Qxg7 Nf8 19. dxe5 fxe5 20.
+Qxe5+ 1-0

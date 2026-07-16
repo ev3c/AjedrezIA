@@ -1,0 +1,279 @@
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.04"]
+[Round "1"]
+[White "Liu, Chang"]
+[Black "Segarra Calderer, Albert"]
+[Result "1-0"]
+[ECO "B01"]
+[WhiteElo "2361"]
+[BlackElo "2029"]
+[PlyCount "67"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d4 Nf6 5. Nf3 Bf5 6. Bc4 c6 7. O-O e6 8. h3
+Bb4 9. Ne2 Bd6 10. Bf4 Bxf4 11. Nxf4 Qc7 12. Nd3 Nbd7 13. Nde5 Nxe5 14. dxe5
+Nd7 15. Re1 O-O-O 16. Qe2 Nb6 17. c3 Nxc4 18. Qxc4 Rd5 19. Rad1 Rhd8 20. Rxd5
+Rxd5 21. Qf4 Qd7 22. Kh2 h6 23. Qg3 g5 24. h4 g4 25. Nd4 c5 26. Nxf5 exf5 27.
+Qe3 Qe6 28. h5 Kb8 29. b3 b6 30. Kg3 Kb7 31. f3 f6 32. fxg4 fxe5 33. gxf5 Qxf5
+34. Qe4 1-0
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.05"]
+[Round "2"]
+[White "Segarra Calderer, Albert"]
+[Black "Villar Reymundo, Juan Antonio"]
+[Result "1-0"]
+[ECO "A34"]
+[WhiteElo "2029"]
+[BlackElo "2165"]
+[PlyCount "117"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 Nf6 2. Nc3 d5 3. cxd5 Nxd5 4. Nf3 g6 5. g3 Bg7 6. Bg2 Nxc3 7. bxc3 O-O 8.
+O-O c5 9. Re1 Nc6 10. Qa4 Rb8 11. Qb5 Qa5 12. Qxa5 Nxa5 13. d4 Bd7 14. Bf4 Rbc8
+15. Ne5 Ba4 16. Rab1 b6 17. Bh3 Rcd8 18. dxc5 g5 19. Bxg5 Bxe5 20. Bxe7 bxc5
+21. Bxf8 Kxf8 22. Rec1 Rd2 23. Kf1 Ke7 24. Bf5 h6 25. Bd3 c4 26. Be4 Bc7 27.
+Ke1 Rxa2 28. Ra1 Rxa1 29. Rxa1 Bb3 30. h4 Kd6 31. g4 Kc5 32. e3 f6 33. f4 Kb6
+34. Kd2 Nb7 35. Bxb7 Kxb7 36. g5 fxg5 37. fxg5 hxg5 38. hxg5 Kb6 39. g6 Be5 40.
+Rf1 a5 41. Rf5 Bh8 42. Rf8 Be5 43. Re8 Bg7 44. Re7 Bh8 45. g7 Bxg7 46. Rxg7 a4
+47. Kc1 a3 48. Kb1 Kc6 49. Rg5 Kd6 50. Ra5 a2+ 51. Kb2 Ke6 52. Kc1 Kd6 53. Kd2
+Ke6 54. e4 Kd6 55. Ke3 Ke6 56. Kd4 Kd6 57. Ra3 Ke6 58. e5 Ke7 59. Kd5 1-0
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.07"]
+[Round "4"]
+[White "Segarra Calderer, Albert"]
+[Black "Salagran Ferragut, Guillem"]
+[Result "1/2-1/2"]
+[ECO "A39"]
+[WhiteElo "2029"]
+[BlackElo "2196"]
+[PlyCount "37"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 Nf6 2. Nc3 c5 3. g3 g6 4. Bg2 Bg7 5. Nf3 Nc6 6. O-O O-O 7. d4 cxd4 8.
+Nxd4 Qa5 9. e4 d6 10. Nxc6 bxc6 11. e5 dxe5 12. Bxc6 Rb8 13. Qa4 Qc7 14. Be3
+Bh3 15. Rfd1 Rfc8 16. Bf3 a5 17. Nb5 Bd7 18. Rac1 e4 19. Be2 1/2-1/2
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.08"]
+[Round "5"]
+[White "Vassallo Barroche, Mauricio"]
+[Black "Segarra Calderer, Albert"]
+[Result "0-1"]
+[ECO "D35"]
+[WhiteElo "2389"]
+[BlackElo "2029"]
+[PlyCount "92"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bf4 Bd6 5. Bg3 Bxg3 6. hxg3 c5 7. cxd5 exd5 8.
+e3 Nc6 9. Nf3 O-O 10. dxc5 Qa5 11. Rc1 Bg4 12. Be2 Rad8 13. O-O Qxc5 14. Qb3
+Qe7 15. Rfd1 d4 16. exd4 Bxf3 17. Bxf3 Nxd4 18. Qxb7 Nxf3+ 19. Qxf3 Qb4 20. b3
+h6 21. Nd5 Nxd5 22. Rxd5 Rxd5 23. Qxd5 Qa3 24. Rc2 Qe7 25. Kh2 Rd8 26. Qb5 Qe4
+27. Re2 Qg6 28. Re8+ Rxe8 29. Qxe8+ Kh7 30. Qd7 Qh5+ 31. Kg1 Qa5 32. Qxf7 Qxa2
+33. g4 a5 34. Qd5 Qb2 35. g3 Qa2 36. Kg2 Qb2 37. Qc4 Qa2 38. Kf3 Qa1 39. Qc2+
+Kh8 40. Ke4 Qe1+ 41. Kd5 Qe8 42. Qc5 Qf7+ 43. Ke4 Qxb3 44. Qxa5 Qb7+ 45. Qd5
+Qb1+ 46. Kf3 Qh1+ 0-1
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.09"]
+[Round "6"]
+[White "Patil, Pratik"]
+[Black "Segarra Calderer, Albert"]
+[Result "1-0"]
+[ECO "B01"]
+[WhiteElo "2219"]
+[BlackElo "2029"]
+[PlyCount "89"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d4 Nf6 5. Bd2 c6 6. Bc4 Bf5 7. Nd5 Qd8 8.
+Nxf6+ exf6 9. Nf3 Bd6 10. O-O O-O 11. Nh4 Bg6 12. Nxg6 hxg6 13. Qg4 g5 14. h4
+Bf4 15. Bxf4 Qxd4 16. hxg5 fxg5 17. Bxf7+ Rxf7 18. Qc8+ Rf8 19. Qe6+ Kh7 20.
+Bxg5 Qd5 21. Qxd5 cxd5 22. Rfd1 Rf5 23. f4 Nc6 24. g4 Rf7 25. Rxd5 Re8 26. Kf2
+Nb4 27. Rd2 Nc6 28. Re1 Rc8 29. c4 a5 30. b3 a4 31. Kg3 axb3 32. axb3 Ra8 33.
+Rh1+ Kg8 34. Rdh2 Rff8 35. Rh8+ Kf7 36. Rxf8+ Rxf8 37. Rd1 Ke6 38. f5+ Ke5 39.
+Rd7 Ke4 40. Rxg7 Ra8 41. Rxb7 Ra1 42. f6 Rg1+ 43. Kf2 Rxg4 44. f7 Rxg5 45. f8=Q
+1-0
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.10"]
+[Round "7"]
+[White "Segarra Calderer, Albert"]
+[Black "Niraj, Saripalli"]
+[Result "0-1"]
+[ECO "A10"]
+[WhiteElo "2029"]
+[BlackElo "2140"]
+[PlyCount "64"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 b6 2. g3 Bb7 3. Nf3 Bxf3 4. exf3 c5 5. d4 cxd4 6. Qxd4 Nc6 7. Qd1 g6 8.
+Nc3 Bg7 9. Be3 Rc8 10. h4 Ne5 11. c5 bxc5 12. f4 Nc6 13. h5 Rb8 14. hxg6 hxg6
+15. Rxh8 Bxh8 16. Bc4 Rxb2 17. Ne4 Nd4 18. f5 d5 19. fxg6 fxg6 20. Qg4 Nc2+ 21.
+Kf1 Nxe3+ 22. fxe3 dxc4 23. Rd1 Qb6 24. Qc8+ Kf7 25. Ng5+ Kg7 26. Ne6+ Kh7 27.
+Ng5+ Kh6 28. Qh3+ Kxg5 29. Qh4+ Kf5 30. Qxh8 Qf6 31. Qh3+ Ke4+ 32. Kg1 Qf2+ 0-1
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.11"]
+[Round "8"]
+[White "Perez Garcia, Adria"]
+[Black "Segarra Calderer, Albert"]
+[Result "0-1"]
+[ECO "B01"]
+[WhiteElo "1984"]
+[BlackElo "2029"]
+[PlyCount "54"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d4 Nf6 5. Nf3 Bf5 6. Ne5 c6 7. g4 Bg6 8. h4
+Nbd7 9. Nc4 Qc7 10. h5 Be4 11. Nxe4 Nxe4 12. Qf3 Nd6 13. Bf4 O-O-O 14. Bxd6
+exd6 15. Qxf7 Be7 16. Ne3 Bf6 17. O-O-O Rde8 18. Qb3 Bg5 19. Qa3 Kb8 20. Kb1
+Nf6 21. Rg1 Ne4 22. Re1 Nd2+ 23. Kc1 Nf3 24. Bg2 Nxg1 25. Rxg1 Rhf8 26. Kd1
+Rxf2 27. Nf1 Qe7 0-1
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.12"]
+[Round "9"]
+[White "Segarra Calderer, Albert"]
+[Black "Dardha, Daniel"]
+[Result "1/2-1/2"]
+[ECO "A13"]
+[WhiteElo "2029"]
+[BlackElo "2035"]
+[PlyCount "129"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 e6 2. g3 Nf6 3. Bg2 d5 4. Nf3 d4 5. O-O c5 6. d3 Nc6 7. Na3 Bd6 8. Nc2
+O-O 9. a3 a5 10. Rb1 e5 11. Bd2 Qe7 12. e3 dxe3 13. Nxe3 h6 14. Re1 Be6 15. Bc3
+Qc7 16. Nd2 Ne7 17. b4 axb4 18. axb4 cxb4 19. Bxb4 Bxb4 20. Rxb4 Nc6 21. Rb5
+Rad8 22. Qb1 Bc8 23. Ne4 Nxe4 24. Bxe4 Nd4 25. Rd5 Kh8 26. Nc2 Ne6 27. Qb2 Nc5
+28. Qxe5 Qxe5 29. Rxe5 Nxd3 30. Bxd3 Rxd3 31. Re8 Kg8 32. Nb4 Rd8 33. Rxd8 Rxd8
+34. Nd5 Be6 35. Rb1 Rb8 36. Ne3 Rc8 37. Rxb7 Bxc4 38. Nxc4 Rxc4 39. Kg2 g6 40.
+h4 h5 41. Ra7 Rc6 42. Rb7 Rc5 43. Kf3 Rc3+ 44. Kg2 Rc4 45. Re7 Kf8 46. Re3 Kg7
+47. Kf3 Rc6 48. Re8 Rc3+ 49. Re3 Rxe3+ 50. Kxe3 f6 51. Kf4 Kf7 52. f3 Kf8 53.
+g4 hxg4 54. fxg4 g5+ 55. hxg5 fxg5+ 56. Kxg5 Kg7 57. Kf5 Kf7 58. g5 Kg7 59. g6
+Kg8 60. Kf6 Kf8 61. Kf5 Kg7 62. Kg5 Kg8 63. Kh6 Kh8 64. g7+ Kg8 65. Kg6 1/2-1/2
+
+[Event "Ciutat de Sabadell op B"]
+[Site "Sabadell"]
+[Date "2016.09.01"]
+[Round "1"]
+[White "Lopez Martinez, Angel"]
+[Black "Segarra Calderer, Albert"]
+[Result "0-1"]
+[ECO "B01"]
+[WhiteElo "1652"]
+[BlackElo "2060"]
+[PlyCount "102"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nf3 Nf6 4. Nc3 Qa5 5. Bc4 c6 6. O-O Bf5 7. d4 e6 8.
+Bf4 Bb4 9. Ne2 Bg4 10. Qd3 O-O 11. c3 Be7 12. Bb3 Qf5 13. Qxf5 Bxf5 14. Ne5
+Nbd7 15. Rad1 Nxe5 16. dxe5 Nd5 17. Bxd5 cxd5 18. Nd4 Bg6 19. g4 a6 20. a4 Rac8
+21. g5 Rc4 22. Ra1 Bh5 23. f3 b5 24. axb5 axb5 25. Be3 b4 26. Ra4 Rfc8 27. Nb5
+bxc3 28. Rxc4 Rxc4 29. bxc3 Bc5 30. Bxc5 Rxc5 31. Ra1 h6 32. Ra8+ Kh7 33. g6+
+Bxg6 34. Rb8 Bh5 35. Kf2 Rc4 36. Kg3 Ra4 37. Rc8 Ra1 38. h4 Re1 39. f4 Rg1+ 40.
+Kf2 Rg4 41. Ke3 Rxh4 42. c4 Rh3+ 43. Kd4 dxc4 44. Rxc4 Be2 45. Rb4 Bxb5 46.
+Rxb5 Rh1 47. Kc5 Rh4 48. Rb4 g5 49. Rb7 Rxf4 50. Kd6 Kg7 51. Rb3 g4 0-1
+
+[Event "Ciutat de Sabadell op B"]
+[Site "Sabadell"]
+[Date "2016.09.02"]
+[Round "2"]
+[White "Segarra Calderer, Albert"]
+[Black "Cabrera Marmol, Manuel"]
+[Result "0-1"]
+[ECO "A29"]
+[WhiteElo "2060"]
+[BlackElo "1813"]
+[PlyCount "76"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 e5 2. Nc3 Nf6 3. g3 d5 4. cxd5 Nxd5 5. Bg2 Nb6 6. Nf3 Nc6 7. O-O Be7 8.
+a3 Bf5 9. d3 h5 10. b4 Bf6 11. Bb2 Qd7 12. Ne4 Bh3 13. Rc1 Bxg2 14. Kxg2 h4 15.
+d4 hxg3 16. fxg3 O-O-O 17. Kg1 exd4 18. b5 Ne5 19. a4 Qh3 20. Rf2 Ng4 21. Qc2
+Nd5 22. Qc5 Nxf2 23. Nxf2 Qe6 24. Qc2 Rd7 25. a5 Nc3 26. Bxc3 dxc3 27. a6 Qb6
+28. axb7+ Qxb7 29. Kg2 Rd2 30. Qf5+ Kb8 31. Kf1 Rd5 32. Qc2 Rxb5 33. Ne4 Rb2
+34. Qd3 Rd8 35. Qc4 Rb1 36. Rxb1 Qxb1+ 37. Kf2 c2 38. Nc5 c1=Q 0-1
+
+[Event "Ciutat de Sabadell op B"]
+[Site "Sabadell"]
+[Date "2016.09.06"]
+[Round "6"]
+[White "Segarra Calderer, Albert"]
+[Black "Pla Carulla, Joaquim"]
+[Result "1-0"]
+[ECO "D41"]
+[WhiteElo "2060"]
+[BlackElo "1748"]
+[PlyCount "46"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 c5 2. Nf3 Nc6 3. g3 Nf6 4. Bg2 e6 5. O-O Be7 6. Nc3 O-O 7. d4 d5 8. cxd5
+Nxd5 9. Nxd5 Qxd5 10. Ne5 Qxd4 11. Nxc6 bxc6 12. Be3 Qd7 13. Qc2 Rb8 14. Rfd1
+Qc7 15. b3 Ba6 16. Bf3 c4 17. bxc4 Rb4 18. c5 Rc4 19. Qd3 Rd8 20. Qa3 Bb5 21.
+Rxd8+ Bxd8 22. Rc1 Rxc1+ 23. Qxc1 a5 1-0
+
+[Event "Ciutat de Sabadell op B"]
+[Site "Sabadell"]
+[Date "2016.09.07"]
+[Round "7"]
+[White "Colom Andres, F Xavier"]
+[Black "Segarra Calderer, Albert"]
+[Result "0-1"]
+[ECO "A84"]
+[WhiteElo "1844"]
+[BlackElo "2060"]
+[PlyCount "46"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 e6 3. Nc3 f5 4. Nf3 Nf6 5. Bg5 c6 6. e3 Be7 7. Bd3 Ne4 8. Bxe7
+Qxe7 9. Qc2 O-O 10. a3 Nd7 11. cxd5 exd5 12. b4 Ndf6 13. Ne5 Nd7 14. Nf3 g5 15.
+O-O g4 16. Ne1 Rf6 17. Bxe4 fxe4 18. g3 Nf8 19. Ng2 Ne6 20. Ne1 Ng5 21. Kg2 Qf7
+22. Ne2 Qh5 23. Nf4 Rxf4 0-1

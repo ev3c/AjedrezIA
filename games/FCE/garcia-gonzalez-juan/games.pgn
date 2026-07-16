@@ -1,0 +1,207 @@
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.01.12"]
+[Round "1"]
+[White "Garcia Gonzalez, Juan"]
+[Black "Martorell Aguado, Joan"]
+[Result "0-1"]
+[ECO "D00"]
+[WhiteElo "1802"]
+[BlackElo "2242"]
+[PlyCount "74"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Bf4 c5 3. e3 d5 4. Bxb8 Rxb8 5. Bb5+ Bd7 6. Bxd7+ Qxd7 7. Nf3 Qb5
+8. Qc1 e6 9. Nbd2 cxd4 10. exd4 Rc8 11. a4 Qa6 12. c3 Bd6 13. Qd1 O-O 14. Qe2
+Qb6 15. Rb1 Qa5 16. Qb5 Qc7 17. h3 Ne4 18. O-O f5 19. Qe2 a6 20. Rfc1 Qd7 21.
+Ra1 b5 22. axb5 axb5 23. Ne5 Bxe5 24. dxe5 Qc7 25. Nb3 Qb6 26. Nd4 Rc4 27. Ra2
+b4 28. Rca1 bxc3 29. Nf3 c2 30. Rc1 Qb3 31. Raa1 Qxb2 32. Nd2 Nxd2 33. Qxd2 Rb8
+34. Qg5 Qxe5 35. Qe7 h6 36. Re1 Re4 37. Rec1 Qxa1 0-1
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.01.26"]
+[Round "3"]
+[White "Molina Tabernero, Jordi"]
+[Black "Garcia Gonzalez, Juan"]
+[Result "0-1"]
+[ECO "D00"]
+[WhiteElo "1490"]
+[BlackElo "1802"]
+[PlyCount "170"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 e6 2. e3 d5 3. f4 Nf6 4. Bd3 Nbd7 5. Nf3 c5 6. c3 Be7 7. O-O O-O 8. Nbd2
+a6 9. a4 Rb8 10. Ne5 Qc7 11. Rf3 b5 12. axb5 axb5 13. Rh3 g6 14. g4 cxd4 15.
+cxd4 b4 16. g5 Ne8 17. Qe1 Kg7 18. Qh4 Rh8 19. Qh6+ Kg8 20. Nxg6 fxg6 21. Bxg6
+Nf8 22. Bxe8 e5 23. Qh5 Be6 24. f5 Bd6 25. fxe6 Nxe6 26. Bg6 exd4 27. Bf5 Qe7
+28. Bxe6+ Qxe6 29. Nf1 Rf8 30. g6 Qe7 31. Qxd5+ Kg7 32. Rxh7+ Rxh7 33. gxh7 Qf6
+34. Ra7+ Kh8 35. Qxd4 Be5 36. Qd1 Qf2+ 37. Kh1 Qxf1+ 38. Qxf1 Rxf1+ 39. Kg2
+Rxc1 40. Re7 Rc2+ 41. Kf3 Bxh2 42. b3 Rc3 43. Rd7 Bg1 44. Re7 Rxb3 45. Ke2 Bh2
+46. e4 Bf4 47. Kd1 Re3 48. Kc2 b3+ 49. Kb2 Bh6 50. Rb7 Bg7+ 51. Kb1 b2 52. Kc2
+Rxe4 53. Kb1 Kxh7 54. Rd7 Rc4 55. Rd1 Rc6 56. Rh1+ Rh6 57. Rd1 Rh5 58. Rf1 Kg6
+59. Rg1+ Rg5 60. Rd1 Be5 61. Re1 Kf5 62. Rf1+ Ke6 63. Re1 Rg4 64. Rh1 Kd5 65.
+Rd1+ Rd4 66. Rh1 Rd3 67. Rf1 Ke4 68. Rh1 Bd4 69. Rh4+ Ke3 70. Rh3+ Ke2 71. Rh2+
+Ke1 72. Rh1+ Kd2 73. Rh2+ Kc3 74. Rc2+ Kb3 75. Rxb2+ Kc4 76. Rc2+ Kd5 77. Rc1
+Rb3+ 78. Ka2 Rb2+ 79. Ka3 Rb7 80. Rh1 Bc5+ 81. Ka2 Bd4 82. Rh5+ Kc4 83. Rh2
+Ra7+ 84. Kb1 Ra1+ 85. Kc2 Ra2+ 0-1
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.02.02"]
+[Round "4"]
+[White "Garcia Gonzalez, Juan"]
+[Black "Torres Martinez, Jordi"]
+[Result "1-0"]
+[ECO "A45"]
+[WhiteElo "1802"]
+[BlackElo "1657"]
+[PlyCount "49"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. e3 e6 3. Bd3 c5 4. c3 cxd4 5. exd4 Be7 6. Nf3 O-O 7. O-O b6 8.
+Nbd2 Ba6 9. Qe2 d5 10. Bxa6 Nxa6 11. Qxa6 Bd6 12. Re1 Qc7 13. h3 Rfe8 14. Qd3
+Nh5 15. Nf1 Re7 16. Bd2 f5 17. Ne5 Bxe5 18. Rxe5 g5 19. Bxg5 Rg7 20. Qe3 Rg6
+21. Rxe6 Qf7 22. Rxg6+ Qxg6 23. Re1 Kh8 24. Qe5+ Ng7 25. Bf6 1-0
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.02.16"]
+[Round "6"]
+[White "Alcaraz Salas, Ricard"]
+[Black "Garcia Gonzalez, Juan"]
+[Result "1/2-1/2"]
+[ECO "A26"]
+[WhiteElo "1617"]
+[BlackElo "1802"]
+[PlyCount "72"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 e5 2. Nc3 Nf6 3. g3 Nc6 4. Bg2 g6 5. d3 Bg7 6. Nf3 d6 7. O-O O-O 8. a3 a5
+9. Rb1 Re8 10. Re1 e4 11. dxe4 Nxe4 12. Nxe4 Rxe4 13. Nd2 Re8 14. e4 f5 15.
+exf5 Bxf5 16. Rxe8+ Qxe8 17. Ra1 Qe7 18. Nf3 h6 19. Nh4 Qd7 20. Nxf5 Qxf5 21.
+Qd5+ Qxd5 22. Bxd5+ Kf8 23. Rb1 Re8 24. Be3 Nd8 25. c5 c6 26. Bf3 d5 27. Bd2
+Ne6 28. b4 axb4 29. axb4 Nd4 30. Kg2 Nxf3 31. Kxf3 g5 32. b5 Kf7 33. bxc6 bxc6
+34. h3 Bd4 35. Be3 Bxe3 36. fxe3 h5 1/2-1/2
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.02.23"]
+[Round "7"]
+[White "Garcia Gonzalez, Juan"]
+[Black "Masferrer Andreu, Josep Miquel"]
+[Result "1/2-1/2"]
+[ECO "A47"]
+[WhiteElo "1802"]
+[BlackElo "1661"]
+[PlyCount "73"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 e6 3. Bf4 b6 4. e3 Bb7 5. h3 d5 6. Bd3 c5 7. c3 Nbd7 8. Nbd2
+Be7 9. O-O Qc8 10. Bh2 Ba6 11. Qe2 Bxd3 12. Qxd3 c4 13. Qe2 Nf8 14. e4 dxe4 15.
+Nxe4 Nxe4 16. Qxe4 Ng6 17. Rfe1 O-O 18. Ne5 Bf6 19. Nxg6 hxg6 20. Be5 Bxe5 21.
+Qxe5 Rd8 22. Qe4 Rd5 23. Re3 Qd8 24. Rae1 Rc8 25. Qg4 Rg5 26. Qe2 Qc7 27. Re5
+Rxe5 28. Qxe5 Qxe5 29. Rxe5 Rd8 30. f4 Rd5 31. Kf2 Kf8 32. Ke3 Ke7 33. g4 b5
+34. h4 Kd6 35. Ke4 f5+ 36. Kf3 Rxe5 37. dxe5+ 1/2-1/2
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.03.02"]
+[Round "8"]
+[White "Demestres Lopez, Ricardo"]
+[Black "Garcia Gonzalez, Juan"]
+[Result "1/2-1/2"]
+[ECO "B06"]
+[WhiteElo "1646"]
+[BlackElo "1802"]
+[PlyCount "73"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 g6 2. d4 Bg7 3. Be3 d6 4. c3 Nd7 5. Nd2 a6 6. a4 b6 7. Bd3 Ngf6 8. h3 Bb7
+9. Ne2 c5 10. O-O O-O 11. d5 e6 12. c4 exd5 13. exd5 a5 14. Qc2 Ne5 15. Nc3
+Nxd3 16. Qxd3 Qd7 17. Bf4 Ne8 18. b3 Bc8 19. Rae1 Qd8 20. Nb5 Bf5 21. Qg3 Qd7
+22. Nxd6 Nxd6 23. Bxd6 Rfe8 24. Rxe8+ Rxe8 25. Bf4 Bf6 26. f3 Re2 27. Re1 Qe8
+28. Rxe2 Qxe2 29. Bh6 Be5 30. Bf4 Bc3 31. Bh6 Be5 32. Bf4 Bc3 33. Bh6 Be5 34.
+Bf4 Bd4+ 35. Kh2 Qd1 36. Be3 Bxe3 37. Qb8+ 1/2-1/2
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.03.09"]
+[Round "9"]
+[White "Garcia Gonzalez, Juan"]
+[Black "Serentill Tost, Eduard"]
+[Result "1/2-1/2"]
+[ECO "A48"]
+[WhiteElo "1802"]
+[BlackElo "1700"]
+[PlyCount "62"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 g6 3. Bf4 Bg7 4. e3 d6 5. h3 O-O 6. Be2 Nbd7 7. O-O Re8 8. c3
+b6 9. Nbd2 Bb7 10. a4 a5 11. Bh2 e5 12. dxe5 dxe5 13. e4 Nxe4 14. Nxe4 Bxe4 15.
+Bc4 Nc5 16. Qxd8 Raxd8 17. Ng5 Bd5 18. Bxd5 Rxd5 19. Rfd1 Red8 20. Rxd5 Rxd5
+21. Nf3 f6 22. Kf1 Nb3 23. Re1 Nd2+ 24. Nxd2 Rxd2 25. Re2 Bh6 26. Rxd2 Bxd2 27.
+Ke2 Bc1 28. b3 Kf7 29. f4 Bxf4 30. Bxf4 exf4 31. Kf3 g5 1/2-1/2

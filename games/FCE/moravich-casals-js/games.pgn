@@ -1,0 +1,151 @@
+[Event "Ct. Catalunya eq DH"]
+[Site "?"]
+[Date "2013.02.09"]
+[Round "4.10"]
+[White "Obregon Pantebre, M."]
+[Black "Moravich Casals, JS."]
+[Result "0-1"]
+[ECO "A08"]
+[WhiteElo "1829"]
+[BlackElo "2129"]
+[PlyCount "50"]
+[EventDate "2013.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+
+1. e4 e6 2. d3 d5 3. Nd2 c5 4. Ngf3 Nc6 5. g3 g6 6. Bg2 Bg7 7. O-O Nge7 8. c3
+b6 9. Nb3 a5 10. a4 O-O 11. Re1 h6 12. d4 dxe4 13. Rxe4 cxd4 14. cxd4 Bb7 15.
+Re1 Nb4 16. Be3 Rc8 17. Rc1 Bc6 18. Ra1 Bxf3 19. Bxf3 Nc2 20. Rb1 Nxe1 21. Qxe1
+Nd5 22. Bd2 Qd7 23. h4 Qxa4 24. Nc1 Qxd4 25. Be3 Nxe3 0-1
+
+[Event "Ct. Catalunya eq DH"]
+[Site "?"]
+[Date "2013.04.06"]
+[Round "10.10"]
+[White "Moravich Casals, JS."]
+[Black "Travesset Ribera, D."]
+[Result "1-0"]
+[ECO "B32"]
+[WhiteElo "2129"]
+[BlackElo "2238"]
+[PlyCount "51"]
+[EventDate "2013.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 d5 5. Nxc6 bxc6 6. Nc3 d4 7. Bc4 e5 8.
+Ne2 Nf6 9. O-O Be7 10. f4 O-O 11. fxe5 Ng4 12. e6 Bc5 13. exf7+ Kh8 14. Bd3 Qh4
+15. h3 Ne3 16. Bxe3 dxe3 17. Qe1 Qe7 18. Qc3 Be6 19. Bc4 Bb6 20. Qe5 Rxf7 21.
+Qxe6 Rxf1+ 22. Rxf1 Qg5 23. Qf5 Qe7 24. e5 Rd8 25. Bd3 g6 26. Qf6+ 1-0
+
+[Event "Lliga Catalana eq. DH"]
+[Site "?"]
+[Date "2014.03.29"]
+[Round "?"]
+[White "De la Fuente Clemente, C."]
+[Black "Moravich Casals, JS."]
+[Result "1/2-1/2"]
+[ECO "B52"]
+[WhiteElo "1975"]
+[BlackElo "2116"]
+[PlyCount "116"]
+[EventDate "2014.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Qxd7 5. c4 Nc6 6. O-O g6 7. Nc3 Bg7 8.
+b3 e6 9. Bb2 Nge7 10. Rb1 O-O 11. Ne2 Bxb2 12. Rxb2 d5 13. cxd5 exd5 14. e5
+Rfe8 15. d4 cxd4 16. Nexd4 Nxd4 17. Nxd4 Nf5 18. Nxf5 Qxf5 19. Qxd5 Qxe5 20.
+Qxe5 Rxe5 21. Rc2 Rae8 22. Rc7 R8e7 23. Rxe7 Rxe7 24. f3 Kg7 25. Rf2 Kf6 26.
+Rc2 h5 27. Kf2 Kf5 28. Rc4 g5 29. Rc5+ Kg6 30. Ra5 b6 31. Rd5 Rc7 32. Ke3 Rc2
+33. Rd2 Rxd2 34. Kxd2 Kf5 35. Kd3 Ke5 36. Kc4 a6 37. a4 f5 38. b4 h4 39. a5
+bxa5 40. bxa5 g4 41. fxg4 fxg4 42. Kc5 Ke4 43. Kb6 Ke3 44. Kxa6 Kf2 45. Kb5
+Kxg2 46. a6 Kxh2 47. a7 g3 48. a8=Q g2 49. Qb8+ Kh1 50. Qb7 h3 51. Qf3 h2 52.
+Kc4 Kg1 53. Qd1+ Kf2 54. Qd2+ Kf3 55. Qd3+ Kf2 56. Qd4+ Kf3 57. Qd5+ Kf2 58.
+Qc5+ Ke2 1/2-1/2
+
+[Event "Lliga Catalana eq. DH"]
+[Site "?"]
+[Date "2014.02.01"]
+[Round "2.8"]
+[White "Moravich Casals, JS."]
+[Black "Castellet Giralt, G."]
+[Result "0-1"]
+[ECO "A85"]
+[WhiteElo "2108"]
+[BlackElo "2284"]
+[PlyCount "76"]
+[EventDate "2014.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 e6 2. c4 f5 3. Nc3 Nf6 4. Qc2 Bb4 5. Bg5 h6 6. Bd2 Bxc3 7. Bxc3 d6 8. e3
+b6 9. Ne2 O-O 10. Nf4 Qe8 11. O-O-O c6 12. Bd3 a5 13. f3 Na6 14. g4 e5 15. dxe5
+dxe5 16. Nh5 Nxh5 17. gxh5 Nb4 18. Bxb4 axb4 19. c5 b5 20. h3 Qxh5 21. Rhg1 Ra7
+22. Qg2 Be6 23. Bb1 e4 24. f4 Bd5 25. Qg3 Qf7 26. Rd2 Qe7 27. Rc2 Qf6 28. Qg6
+Qh4 29. Rcg2 Qf6 30. Qxf6 Rxf6 31. Rd1 Kf7 32. Rd4 Rg6 33. Rxg6 Kxg6 34. Kd2
+Kh5 35. Ke1 Kh4 36. Kf2 g5 37. fxg5 hxg5 38. Rxb4 Rh7 0-1
+
+[Event "Lliga Catalana eq. DH"]
+[Site "?"]
+[Date "2014.03.15"]
+[Round "8.7"]
+[White "Moravich Casals, JS."]
+[Black "Martinez Ramirez, E."]
+[Result "0-1"]
+[ECO "D70"]
+[WhiteElo "2116"]
+[BlackElo "2372"]
+[PlyCount "64"]
+[EventDate "2014.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Bd2 Bg7 5. cxd5 Nxd5 6. e4 Nb6 7. Be3 O-O 8. f4
+Nc6 9. d5 Na5 10. Bd4 e5 11. Bxe5 Bxe5 12. fxe5 Re8 13. Nf3 Bg4 14. Be2 Nac4
+15. Qd4 Bxf3 16. Bxf3 Qh4+ 17. g3 Qg5 18. O-O Rxe5 19. Rf2 Rae8 20. Nb5 R5e7
+21. a4 a6 22. Nc3 Qe5 23. Qd3 Qd6 24. Bg2 Ne5 25. Qd2 Qc5 26. Kh1 Nbc4 27. Qe2
+Nxb2 28. Nd1 Nxd1 29. Rxd1 Ng4 30. Rf4 Ne3 31. Qf2 Qb6 32. a5 Nxd1 0-1
+
+[Event "Lliga Catalana eq. DH"]
+[Site "?"]
+[Date "2014.04.05"]
+[Round "11.5"]
+[White "Lillo Castany, V."]
+[Black "Moravich Casals, JS."]
+[Result "1-0"]
+[ECO "C06"]
+[WhiteElo "2359"]
+[BlackElo "2116"]
+[PlyCount "65"]
+[EventDate "2014.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ngf3 cxd4 8.
+cxd4 f6 9. exf6 Nxf6 10. O-O Bd6 11. b3 O-O 12. Bb2 Qb6 13. Ne5 Nxd4 14. Ndc4
+dxc4 15. Nxc4 Bxh2+ 16. Kxh2 Qc7+ 17. Kg1 Nc6 18. Rc1 Qf4 19. Ne3 e5 20. Rc4
+Qg5 21. Bc1 Qh5 22. Ba3 Qxd1 23. Rxd1 Re8 24. Rcc1 Be6 25. Bb5 Nd4 26. Bxe8
+Ne2+ 27. Kf1 Nxc1 28. Rxc1 Rxe8 29. Rc7 Rd8 30. Rxb7 Rd2 31. Nc4 Rxa2 32. Rb8+
+Kf7 33. Nxe5# 1-0
+
+[Event "Lliga Catalana DH Final A"]
+[Site "?"]
+[Date "2015.03.14"]
+[Round "8.8"]
+[White "Moravich Casais, JS."]
+[Black "Gutierrez Clares, J."]
+[Result "0-1"]
+[ECO "B40"]
+[WhiteElo "2147"]
+[BlackElo "2328"]
+[PlyCount "70"]
+[EventDate "2015.??.??"]
+[EventType "team"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Qb6 5. Nc3 Bc5 6. Be3 Nc6 7. Ndb5 Bxe3 8.
+fxe3 Qxe3+ 9. Be2 Kf8 10. Rf1 Nge7 11. Rf3 Qg1+ 12. Bf1 Qxh2 13. Nd6 Ne5 14.
+Rf2 Qg3 15. Be2 h5 16. Qd2 Rh6 17. Qf4 Qxf4 18. Rxf4 g5 19. Rf2 N7g6 20. g3 h4
+21. Rh2 Kg7 22. gxh4 Rxh4 23. Rxh4 Nxh4 24. Kf2 f6 25. a4 Kf8 26. Rd1 b6 27. b4
+Rb8 28. a5 Bb7 29. a6 Bc6 30. b5 Ba8 31. Bh5 Ke7 32. Ne2 Rh8 33. Be8 Bxe4 34.
+Ng3 Bd5 35. Bxd7 Ng4+ 0-1

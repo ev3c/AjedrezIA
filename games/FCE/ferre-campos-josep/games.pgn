@@ -1,0 +1,500 @@
+[Event "Badalona op B"]
+[Site "Badalona"]
+[Date "2016.08.02"]
+[Round "1"]
+[White "Fernandez Pintado, Xavier"]
+[Black "Ferre Campos, Josep"]
+[Result "0-1"]
+[ECO "A56"]
+[WhiteElo "1684"]
+[BlackElo "1936"]
+[PlyCount "68"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e5 4. Nc3 d6 5. e4 Be7 6. Bd3 Na6 7. a3 Nc7 8. Nge2 a6
+9. a4 b6 10. O-O Bg4 11. h3 Bh5 12. Qe1 Bg6 13. Ng3 Nh5 14. Nf5 Bxf5 15. exf5
+Bg5 16. Bxg5 Qxg5 17. Ne4 Qe7 18. g3 g6 19. Qe2 a5 20. f4 O-O-O 21. fxg6 fxg6
+22. Qg4+ Kb8 23. Rae1 exf4 24. Qd1 Qg7 25. g4 Nf6 26. Rxf4 Nxe4 27. Rfxe4 Rhe8
+28. Qf3 Rxe4 29. Bxe4 Rf8 30. Qg3 Qxb2 31. Kh1 Qf2 32. Qc3 Re8 33. Rb1 Rxe4 34.
+Rxb6+ Kc8 0-1
+
+[Event "Badalona op B"]
+[Site "Badalona"]
+[Date "2016.08.03"]
+[Round "2"]
+[White "Ferre Campos, Josep"]
+[Black "Alshourfaa, Hazaa"]
+[Result "0-1"]
+[ECO "D02"]
+[WhiteElo "1936"]
+[BlackElo "1796"]
+[PlyCount "90"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 Nf6 3. Bf4 Bf5 4. h3 e6 5. e3 c5 6. c3 a6 7. Nbd2 Be7 8. Nh4
+Bg6 9. Nxg6 hxg6 10. Bd3 Nc6 11. Nf3 Nd7 12. a4 g5 13. Bg3 g4 14. Ng1 gxh3 15.
+Rxh3 Rxh3 16. Nxh3 Nf6 17. Ng5 Bd6 18. Bxd6 Qxd6 19. Qf3 Qe7 20. Qh3 Kd7 21.
+dxc5 Ne5 22. Be2 Qxc5 23. f4 Ng6 24. Nxf7 Qe7 25. Ne5+ Nxe5 26. fxe5 Ne4 27.
+Bf3 Nc5 28. Ke2 Kc7 29. Qg3 Rh8 30. b4 Nd7 31. Bxd5 exd5 32. e6+ Kc8 33. exd7+
+Qxd7 34. Qf4 Re8 35. Qd4 Re4 36. Qc5+ Kb8 37. Rf1 Re8 38. Rf4 Qxa4 39. Rf7 Qc2+
+40. Kf1 Qd1+ 41. Kf2 Qd2+ 42. Kf3 Qd1+ 43. Kg3 Qe1+ 44. Kg4 Qe2+ 45. Rf3 Qxg2+
+0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.13"]
+[Round "1"]
+[White "Herrera Reyes, Jose Antonio"]
+[Black "Ferre Campos, Josep"]
+[Result "1-0"]
+[ECO "B06"]
+[WhiteElo "2253"]
+[BlackElo "1970"]
+[PlyCount "57"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 g6 2. h4 h5 3. d3 d6 4. c3 c5 5. Nf3 Bg4 6. Be2 Nf6 7. Nbd2 Nc6 8. Nf1
+Rc8 9. Bg5 Bg7 10. Qd2 Qa5 11. Ne3 Be6 12. O-O b5 13. a3 Qb6 14. b4 Ng4 15. Bf4
+f6 16. d4 cxd4 17. cxd4 Nxe3 18. Bxe3 d5 19. Bd3 Kf7 20. Rfe1 a6 21. Rac1 Nb8
+22. Rc5 Qb7 23. Qc2 Bg4 24. exd5 Bh6 25. Bxg6+ Kg7 26. Bxh6+ Kxh6 27. Bf7 Kg7
+28. Qg6+ Kf8 29. Be6 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.14"]
+[Round "2"]
+[White "Ferre Campos, Josep"]
+[Black "Capellades Subirana, Marc"]
+[Result "0-1"]
+[ECO "C68"]
+[WhiteElo "1970"]
+[BlackElo "2153"]
+[PlyCount "36"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. O-O Bg4 6. d3 h5 7. Nbd2 h4 8. h3
+Bh5 9. Qe1 Qf6 10. Qe3 Be7 11. d4 exd4 12. Qxd4 Rd8 13. Qxf6 Bxf6 14. e5 Be7
+15. Nc4 Bxf3 16. gxf3 Nh6 17. Na5 Rd5 18. Nxb7 Rb5 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.15"]
+[Round "3"]
+[White "Pistol, Mats-Erik"]
+[Black "Ferre Campos, Josep"]
+[Result "0-1"]
+[ECO "B06"]
+[WhiteElo "1810"]
+[BlackElo "1970"]
+[PlyCount "92"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 g6 2. d4 Bg7 3. f4 d6 4. Nf3 Bg4 5. Be2 c5 6. c3 Qb6 7. d5 Nd7 8. O-O Nh6
+9. h3 Bxf3 10. Bxf3 f5 11. Nd2 O-O 12. Kh2 Rae8 13. Qc2 Qa6 14. b3 fxe4 15.
+Bxe4 Nf5 16. Rf3 Nh4 17. Rf2 b5 18. Nf3 Nxf3+ 19. Bxf3 c4 20. b4 Qb6 21. Re2
+Qb7 22. Bg4 Nb6 23. Be6+ Kh8 24. Qd2 Na4 25. Bb2 Nxb2 26. Qxb2 Rxf4 27. Rf2
+Rxf2 28. Qxf2 Rf8 29. Qe3 Qb8 30. a4 a6 31. axb5 axb5 32. Ra7 Rf1 33. g3 Qf8
+34. Kg2 Rd1 35. Qf2 Qxf2+ 36. Kxf2 Bxc3 37. Kf3 Bxb4 38. Kg4 Rd4+ 39. Kf3 c3
+40. g4 g5 41. Rxe7 c2 42. Re8+ Kg7 43. Re7+ Kf6 44. Rf7+ Kg6 45. Rc7 Rf4+ 46.
+Kg3 Bc5 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.16"]
+[Round "4"]
+[White "Ferre Campos, Josep"]
+[Black "Martin Capitan, Feliciano"]
+[Result "0-1"]
+[ECO "D02"]
+[WhiteElo "1970"]
+[BlackElo "2124"]
+[PlyCount "100"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 Nf6 3. Bf4 c5 4. c3 Qb6 5. Qb3 c4 6. Qxb6 axb6 7. Nfd2 Bf5 8.
+f3 e6 9. e4 Bg6 10. a4 Be7 11. Na3 O-O 12. Nb5 Nc6 13. Bg5 h6 14. Bh4 Rfc8 15.
+e5 Ne8 16. Bxe7 Nxe7 17. Be2 Bc2 18. Bd1 Bd3 19. Be2 Bxe2 20. Kxe2 Ra5 21. Ra3
+Nc6 22. Rha1 Na7 23. Nxa7 Rxa7 24. Nb1 Rca8 25. Kd2 Nc7 26. Kc2 f6 27. f4 fxe5
+28. fxe5 Rf8 29. Nd2 Rf2 30. Rg1 Kh7 31. Raa1 Ra8 32. Raf1 Raf8 33. Rxf2 Rxf2
+34. Rf1 Rxg2 35. Rf7 Na6 36. Rxb7 Rxh2 37. Rxb6 Nc7 38. Rc6 Na8 39. Rxe6 h5 40.
+Re8 Nc7 41. Re7 Na8 42. Rf7 h4 43. Kd1 h3 44. Rf1 Nc7 45. a5 Kh6 46. Ke1 g5 47.
+Rf2 Rh1+ 48. Nf1 g4 49. Ke2 Kg5 50. Ng3 Rg1 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.17"]
+[Round "5"]
+[White "Hernando Rodrigo, Julio Antoni"]
+[Black "Ferre Campos, Josep"]
+[Result "1-0"]
+[ECO "D85"]
+[WhiteElo "2333"]
+[BlackElo "1970"]
+[PlyCount "55"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 c5 7. Nf3 Bg7 8.
+Rb1 O-O 9. Be2 cxd4 10. cxd4 Qa5+ 11. Bd2 Qxa2 12. O-O Qe6 13. Qc2 Qd6 14. Bb4
+Qd8 15. d5 b6 16. Qa2 Bb7 17. Qa3 Re8 18. Bb5 a5 19. Bxe8 axb4 20. Bxf7+ Kxf7
+21. Qxb4 Ra6 22. Ng5+ Kg8 23. Ne6 Qd6 24. Qxd6 exd6 25. Rfc1 Bf6 26. g3 Ra7 27.
+Rxb6 Nd7 28. Rxd6 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.18"]
+[Round "6"]
+[White "Ferre Campos, Josep"]
+[Black "Varela Cuadrado, Cesar"]
+[Result "1-0"]
+[ECO "E92"]
+[WhiteElo "1970"]
+[BlackElo "1753"]
+[PlyCount "119"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. Nc3 O-O 5. e4 d6 6. Be2 e5 7. dxe5 dxe5 8.
+Qxd8 Rxd8 9. Bg5 Re8 10. O-O-O c6 11. Rd6 Nbd7 12. Rhd1 h6 13. Bh4 g5 14. Bg3
+Bf8 15. R6d2 Bb4 16. Bd3 g4 17. Ne1 Nc5 18. f3 Nh5 19. Be2 Nxg3 20. hxg3 Be6
+21. Kc2 f5 22. Nd3 fxe4 23. Nxb4 a5 24. Nbd5 cxd5 25. cxd5 Bf5 26. fxe4 Nxe4
+27. Nxe4 Bxe4+ 28. Kb3 h5 29. Bb5 Red8 30. Re1 Bxd5+ 31. Rxd5 Rxd5 32. Bc4 Rad8
+33. Rxe5 Kg7 34. Rxd5 Re8 35. Rxh5 Re3+ 36. Ka4 Rxg3 37. Bd5 b6 38. Re5 Rd3 39.
+Bc4 Rd4 40. b3 Rd2 41. Re2 Rd4 42. Kb5 Rd6 43. Re7+ Kf8 44. Rf7+ Ke8 45. Rg7
+Rd2 46. Rxg4 Rxa2 47. Kxb6 Ke7 48. Bb5 Rb2 49. Ba4 Rd2 50. Kxa5 Rd6 51. b4 Kd8
+52. Rc4 Rg6 53. g4 Rg5+ 54. b5 Ke7 55. Ka6 Kd6 56. b6 Kd5 57. Bb5 Rg6 58. Ka7
+Rg7+ 59. b7 Re7 60. Ka8 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.19"]
+[Round "7"]
+[White "Ferre Campos, Josep"]
+[Black "Prieto, Ernesto"]
+[Result "0-1"]
+[ECO "A45"]
+[WhiteElo "1970"]
+[BlackElo "2064"]
+[PlyCount "92"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Bg5 g6 3. c4 Bg7 4. Nc3 O-O 5. e4 d6 6. Qd2 c5 7. Nf3 cxd4 8. Nxd4
+Nc6 9. Nc2 Qa5 10. f3 Be6 11. Nd5 Qxd2+ 12. Bxd2 Rac8 13. Bc3 Nd7 14. Bxg7 Kxg7
+15. Be2 Bxd5 16. cxd5 Nce5 17. Kd2 Nc4+ 18. Bxc4 Rxc4 19. Ne3 Rb4 20. b3 f5 21.
+exf5 gxf5 22. Rac1 f4 23. Nd1 Rd4+ 24. Ke2 Rf5 25. Re1 Rfxd5 26. Nc3 Re5+ 27.
+Kf1 Rxe1+ 28. Kxe1 Nf8 29. Ke2 a6 30. Rb1 b5 31. b4 Nd7 32. Rb2 Nb6 33. Ke1 Nc4
+34. Rb1 Ne3 35. Rb2 Rd3 36. Rb3 Nxg2+ 37. Ke2 Re3+ 38. Kf2 Nh4 39. Nd5 Rxb3 40.
+axb3 e5 41. Nc7 Nf5 42. Nxa6 Nd4 43. Nc7 Kf7 44. Kg2 Ke7 45. Kf2 h6 46. Kg2 Kd7
+0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.20"]
+[Round "8"]
+[White "Magallanes, Gustavo"]
+[Black "Ferre Campos, Josep"]
+[Result "1-0"]
+[ECO "B50"]
+[WhiteElo "1989"]
+[BlackElo "1970"]
+[PlyCount "97"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. c3 Nf6 4. Bc4 e6 5. d3 a6 6. a4 b6 7. O-O Nbd7 8. Re1 Qc7
+9. Bf4 Ne5 10. Nxe5 dxe5 11. Bg3 Bd6 12. Nd2 Bb7 13. Rc1 g6 14. d4 Nh5 15. d5
+exd5 16. exd5 Nxg3 17. hxg3 O-O-O 18. b4 f5 19. Qe2 Kb8 20. Nf3 e4 21. Ng5 Qe7
+22. Ne6 Rd7 23. bxc5 Bxc5 24. Nxc5 Qxc5 25. Bxa6 Rxd5 26. Rb1 Qa5 27. Bxb7 Kxb7
+28. Rb4 Rc8 29. Qb2 Rdc5 30. Rb1 R8c6 31. c4 Rxc4 32. Rb5 Qa6 33. a5 Rc1+ 34.
+Rxc1 Rxc1+ 35. Kh2 Rc6 36. Qg7+ Rc7 37. Qe5 Rc6 38. Qe7+ Rc7 39. Qe8 Rc6 40.
+Qd7+ Rc7 41. Qd5+ Kc8 42. Qe6+ Rd7 43. Qc6+ Kd8 44. axb6 Qb7 45. Qf6+ Re7 46.
+Qd4+ Ke8 47. Rd5 Kf7 48. Rd6 Qc8 49. Qf6+ 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.21"]
+[Round "9"]
+[White "Ferre Campos, Josep"]
+[Black "Nepveu, Manuel"]
+[Result "0-1"]
+[ECO "C01"]
+[WhiteElo "1970"]
+[BlackElo "1910"]
+[PlyCount "80"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. c4 Nf6 5. Nc3 c6 6. Nf3 Be7 7. Bf4 O-O 8. Bd3
+dxc4 9. Bxc4 Nbd7 10. O-O Nb6 11. Bd3 Bg4 12. Be5 h6 13. Qe2 Bh5 14. h3 Nfd5
+15. Rad1 Nxc3 16. bxc3 Nd5 17. Rc1 Bf6 18. g4 Bg6 19. Bxg6 fxg6 20. c4 Bxe5 21.
+cxd5 Bf4 22. Rc5 Bd6 23. Rc3 cxd5 24. Ne5 Bxe5 25. dxe5 Rf4 26. Qd3 Kh7 27. Re1
+Qb6 28. Re2 Raf8 29. Rb3 Qc6 30. Rc2 Rc4 31. Rd2 d4 32. Rd1 b5 33. Re1 Rc1 34.
+Rb1 Rxb1 35. Rxb1 Rf3 36. Qxb5 Qe4 37. Qb7 Qf4 38. Rb2 Rxh3 39. Qg2 Qc1+ 40.
+Qf1 Rh1+ 0-1
+
+[Event "Sant Adria de Besos op 13th"]
+[Site "Sant Adria de Besos"]
+[Date "2017.04.23"]
+[Round "1"]
+[White "Casares Bonals, Ainhoa"]
+[Black "Ferre Campos, Josep"]
+[Result "0-1"]
+[ECO "B06"]
+[WhiteElo "1800"]
+[BlackElo "2076"]
+[PlyCount "84"]
+[EventDate "2017.04.23"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 a6 4. Be3 d6 5. Qd2 Nd7 6. f3 b5 7. O-O-O Nb6 8. g4
+h5 9. gxh5 Rxh5 10. Be2 c6 11. f4 Nc4 12. Bxc4 bxc4 13. f5 Qa5 14. fxg6 fxg6
+15. Nge2 Rb8 16. Rdg1 Qb4 17. b3 cxb3 18. cxb3 Qa3+ 19. Kd1 Rh7 20. Rxg6 Nf6
+21. Rhg1 Bf8 22. R6g2 Bh3 23. Rg3 c5 24. Nf4 Bd7 25. Ng6 Rf7 26. Nxf8 Rxf8 27.
+h4 c4 28. Bg5 Nh5 29. Bh6 Nxg3 30. Bxf8 cxb3 31. axb3 Bg4+ 32. Ke1 Rxb3 33.
+Rxg3 Qa1+ 34. Nd1 Rxg3 35. Kf2 Ra3 36. Ke1 Bxd1 37. Qxd1 Re3+ 38. Kd2 Qxd4+ 39.
+Kc1 Rc3+ 40. Kb1 Qxd1+ 41. Ka2 Qd2+ 42. Kb1 Rc1# 0-1
+
+[Event "Sant Adria de Besos op 13th"]
+[Site "Sant Adria de Besos"]
+[Date "2017.05.07"]
+[Round "3"]
+[White "Ferre Campos, Josep"]
+[Black "Fernandez Aguilar, Francisco"]
+[Result "1/2-1/2"]
+[ECO "D02"]
+[WhiteElo "2076"]
+[BlackElo "2245"]
+[PlyCount "150"]
+[EventDate "2017.04.23"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Nf3 Nf6 3. Bf4 e6 4. e3 c5 5. c3 Nc6 6. Nbd2 Bd6 7. Bxd6 Qxd6 8.
+Bd3 O-O 9. O-O e5 10. dxe5 Nxe5 11. Nxe5 Qxe5 12. Nf3 Qe7 13. h3 Bd7 14. a3 Bc6
+15. b4 b6 16. Qe2 Ne4 17. Rac1 Rad8 18. Rfd1 Qf6 19. Qc2 Rfe8 20. Rf1 g6 21.
+Nd2 Nxd2 22. Qxd2 Qg5 23. f4 Qe7 24. Rce1 Qd7 25. Qf2 f5 26. Rd1 Bb5 27. Rfe1
+Bxd3 28. Rxd3 Qe6 29. Qf3 Qe4 30. Red1 Qxf3 31. gxf3 c4 32. Rd4 Rxe3 33. Rxc4
+dxc4 34. Rxd8+ Kf7 35. Rd7+ Ke6 36. Rxa7 Rxf3 37. Ra6 Rxh3 38. Rxb6+ Kd7 39. a4
+Kc7 40. a5 Rxc3 41. b5 Rb3 42. Rc6+ Kd7 43. Rb6 c3 44. Rb7+ Kc8 45. Rb6 c2 46.
+Rc6+ Kd7 47. Rxc2 Rxb5 48. Ra2 Rb7 49. Kf2 Ra7 50. Kg3 Ra6 51. Kh4 h6 52. Rb2
+Kc6 53. Re2 Kd5 54. Kg3 Kd6 55. Re5 Rc6 56. Rb5 Rc5 57. Rb6+ Rc6 58. Rb5 Ke6
+59. Re5+ Kd7 60. Rb5 Kc7 61. Kg2 Rc4 62. Kg3 Rc3+ 63. Kg2 Rc2+ 64. Kf3 Rh2 65.
+Kg3 Rh1 66. Kf3 Rf1+ 67. Kg3 Rg1+ 68. Kf3 Rg4 69. a6 Rg1 70. Rb7+ Kc6 71. Rg7
+g5 72. fxg5 hxg5 73. a7 g4+ 74. Kf4 Rf1+ 75. Ke5 Ra1 1/2-1/2
+
+[Event "Sant Adria de Besos op 13th"]
+[Site "Sant Adria de Besos"]
+[Date "2017.05.14"]
+[Round "4"]
+[White "Moreno Oller, Victor"]
+[Black "Ferre Campos, Josep"]
+[Result "1/2-1/2"]
+[ECO "A41"]
+[WhiteElo "1925"]
+[BlackElo "2076"]
+[PlyCount "41"]
+[EventDate "2017.04.23"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d6 2. c4 e5 3. d5 f5 4. Nc3 Nf6 5. g3 Be7 6. Bg2 O-O 7. e3 a5 8. Nge2 Na6
+9. O-O Kh8 10. f3 Qe8 11. e4 Nc5 12. Be3 b6 13. Bxc5 bxc5 14. f4 Ng4 15. Qd2
+exf4 16. Nxf4 Bf6 17. Nb5 Bd8 18. exf5 Qe3+ 19. Qxe3 Nxe3 20. Rfc1 Ba6 21. Ne6
+1/2-1/2
+
+[Event "Sant Adria de Besos op 13th"]
+[Site "Sant Adria de Besos"]
+[Date "2017.05.21"]
+[Round "5"]
+[White "Ferre Campos, Josep"]
+[Black "Garcia Punzano, Josep Lluis"]
+[Result "1-0"]
+[ECO "A45"]
+[WhiteElo "2076"]
+[BlackElo "1935"]
+[PlyCount "69"]
+[EventDate "2017.04.23"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Bg5 d6 3. Bxf6 exf6 4. e3 Be7 5. Bd3 Nc6 6. a3 Be6 7. c4 d5 8.
+cxd5 Qxd5 9. Nf3 Bg4 10. Nbd2 O-O 11. Qc2 h6 12. h3 Bxf3 13. Nxf3 Qa5+ 14. Ke2
+Rfe8 15. Rhd1 Bd6 16. Kf1 Qh5 17. b4 g5 18. Bb5 g4 19. Bxc6 bxc6 20. hxg4 Qxg4
+21. Qxc6 Rad8 22. Nd2 Kh8 23. Qf3 Qxf3 24. Nxf3 Kg7 25. Nh4 Bf8 26. Rdc1 Re4
+27. Nf5+ Kg6 28. Ng3 Re7 29. Rc6 Rd6 30. Rac1 Rxc6 31. Rxc6 Rd7 32. Ne2 Bd6 33.
+Ra6 c5 34. dxc5 Bxc5 35. Nf4+ 1-0
+
+[Event "Sant Adria de Besos op 13th"]
+[Site "Sant Adria de Besos"]
+[Date "2017.05.28"]
+[Round "6"]
+[White "Marches Rios, Joan Manuel"]
+[Black "Ferre Campos, Josep"]
+[Result "1/2-1/2"]
+[ECO "B06"]
+[WhiteElo "2186"]
+[BlackElo "2076"]
+[PlyCount "25"]
+[EventDate "2017.04.23"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. Nf3 d6 2. d4 g6 3. e4 Bg7 4. Nc3 a6 5. a4 b6 6. Bc4 e6 7. O-O Bb7 8. Bf4 Ne7
+9. Qd2 h6 10. Be3 Nd7 11. Rfe1 Nf6 12. Bd3 Ng4 13. Bf4 1/2-1/2
+
+[Event "Sant Adria de Besos op 13th"]
+[Site "Sant Adria de Besos"]
+[Date "2017.06.04"]
+[Round "7"]
+[White "Ferre Campos, Josep"]
+[Black "Costa Trave, Jaume"]
+[Result "1-0"]
+[ECO "D00"]
+[WhiteElo "2076"]
+[BlackElo "2099"]
+[PlyCount "94"]
+[EventDate "2017.04.23"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Bg5 Bf5 3. e3 a6 4. c4 Nc6 5. a3 Nf6 6. Bxf6 gxf6 7. Nc3 dxc4 8.
+Bxc4 Qd7 9. Nge2 h5 10. b4 h4 11. Qb3 Rh7 12. Nf4 Bh6 13. g3 b5 14. Be2 Rb8 15.
+Nd3 Bxd3 16. Bxd3 Rh8 17. Ne4 Rb6 18. Nc5 Qd6 19. Be4 Nd8 20. Qd5 Qxd5 21. Bxd5
+e6 22. Bf3 Bf8 23. Ne4 f5 24. Nd2 Bd6 25. Nb3 Kd7 26. O-O-O Rb8 27. Kb1 Ke7 28.
+Rc1 Rb6 29. Rc2 Kf6 30. Nc5 Ke7 31. Ka2 Bxc5 32. Rxc5 c6 33. Kb3 Kd6 34. Rg1
+hxg3 35. hxg3 Rh2 36. Rc2 Rb7 37. Rh1 Rxh1 38. Bxh1 f6 39. Bf3 Rh7 40. Kc3 Rh2
+41. Kb2 e5 42. Rd2 e4 43. Bd1 Rg2 44. Bb3 Ne6 45. d5 Ng5 46. dxc6+ Kxc6 47.
+Rc2+ Kd6 1-0
+
+[Event "Sant Adria de Besos op 13th"]
+[Site "Sant Adria de Besos"]
+[Date "2017.06.11"]
+[Round "8"]
+[White "Minguez Rodriguez, Raul"]
+[Black "Ferre Campos, Josep"]
+[Result "1-0"]
+[ECO "B96"]
+[WhiteElo "2306"]
+[BlackElo "2076"]
+[PlyCount "55"]
+[EventDate "2017.04.23"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nf6 3. Nc3 d6 4. d4 cxd4 5. Nxd4 a6 6. Bg5 e6 7. f4 b5 8. e5
+dxe5 9. fxe5 Qc7 10. exf6 Qe5+ 11. Be2 Qxg5 12. O-O Ra7 13. Qd3 Rd7 14. Ne4 Qe5
+15. Nf3 Qc7 16. Qe3 g6 17. c4 b4 18. Kh1 Bb7 19. Rad1 Qc6 20. Qf4 Qc7 21. Ne5
+Bh6 22. Qxh6 Qxe5 23. Qf4 Qxf4 24. Rxf4 Bxe4 25. Rxe4 Rxd1+ 26. Bxd1 Nd7 27.
+Ba4 e5 28. Rxe5+ 1-0
+
+[Event "Sant Adria de Besos op 13th"]
+[Site "Sant Adria de Besos"]
+[Date "2017.06.18"]
+[Round "9"]
+[White "Ferre Campos, Josep"]
+[Black "Alcala Valiente, Juan Carlos"]
+[Result "0-1"]
+[ECO "A80"]
+[WhiteElo "2076"]
+[BlackElo "2143"]
+[PlyCount "120"]
+[EventDate "2017.04.23"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 f5 2. Bg5 g6 3. Nc3 Bg7 4. e4 fxe4 5. Nxe4 d5 6. Ng3 Nh6 7. Nh5 gxh5 8.
+Bxh6 Bg4 9. Qd2 Bxh6 10. Qxh6 Qd6 11. Qxd6 exd6 12. h3 Bf5 13. O-O-O Nc6 14.
+Bb5 Kd7 15. Ne2 Raf8 16. h4 a6 17. Ba4 b5 18. Bb3 Be6 19. Rdf1 Rhg8 20. g3 Bg4
+21. Nf4 Bf3 22. Bxd5 Bxd5 23. Nxd5 Nxd4 24. Nf4 Rf5 25. Re1 Rg4 26. Re3 Nc6 27.
+Rhe1 Ne5 28. R1e2 Rg7 29. b3 Rgf7 30. Kd1 Ng6 31. Nh3 Ne5 32. Nf4 Ng6 33. Nh3
+Ne5 34. Ke1 Ng4 35. Re4 Ne5 36. Kf1 Nf3 37. Kg2 c5 38. Ng1 Nd4 39. Rd2 b4 40.
+f4 Rg7 41. Nf3 Ne6 42. Kf2 Nd8 43. Re5 Rgf7 44. Rxf5 Rxf5 45. Ke3 Nc6 46. Ke4
+Ne7 47. Ng5 h6 48. Nf3 Ke6 49. Kd3 Nc6 50. Re2+ Kd7 51. Ke3 Rf7 52. Rd2 Ke6 53.
+Ke4 Ne7 54. Ke3 Nf5+ 55. Kf2 Rg7 56. Re2+ Kd7 57. Rd2 Nxg3 58. Ne5+ Ke6 59. Rd3
+Nh1+ 60. Kf3 dxe5 0-1

@@ -1,0 +1,205 @@
+[Event "Barbera op"]
+[Site "Barberá del Valles"]
+[Date "2014.07.05"]
+[Round "2"]
+[White "Gomez Garrido, C."]
+[Black "Leroy, D."]
+[Result "0-1"]
+[ECO "C61"]
+[WhiteElo "2495"]
+[BlackElo "2319"]
+[PlyCount "116"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.18"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nd4 4. Nxd4 exd4 5. O-O Bc5 6. d3 h5 7. Nd2 c6 8.
+Bc4 d5 9. exd5 cxd5 10. Re1+ Ne7 11. Bb5+ Kf8 12. Nf3 Qa5 13. c4 dxc3 14. Ba4
+Bg4 15. Bc2 Rc8 16. Rb1 Nf5 17. d4 Nxd4 18. b4 Bxf3 19. gxf3 Qxa2 20. bxc5 Nxc2
+21. Rxb7 Nxe1 22. Qxe1 d4 23. c6 Qe6 24. Kf1 Qc4+ 25. Kg2 Kg8 26. c7 Rxc7 27.
+Qe8+ Kh7 28. Qe4+ g6 29. Rxc7 Qxc7 30. Qxd4 Rd8 31. Qf6 Rd6 32. Qe5 Rc6 33. Qd4
+c2 34. h4 f6 35. Qe3 Qg7 36. Qe4 Rc7 37. Qd3 Qf7 38. Qe3 Kg7 39. Kg3 Kg8 40.
+Kg2 Qf8 41. Qf4 Qe7 42. Qd4 Qe5 43. Qd8+ Kh7 44. Qd2 Qf5 45. Qd6 Rf7 46. Qc6 g5
+47. Qe8 Qd5 48. Qc8 Qd3 49. Qe8 Qb3 50. Qe4+ f5 51. Qc6 gxh4 52. Kh2 Qb6 53.
+Qd5 Qxf2+ 54. Kh1 Qe1+ 55. Kh2 Qe7 56. Kh3 Qc7 57. Bf4 c1=Q 58. Bxc1 Qg3# 0-1
+
+[Event "Barbera op"]
+[Site "Barberá del Valles"]
+[Date "2014.07.06"]
+[Round "3"]
+[White "Leroy, D."]
+[Black "Oliva Castaneda, K."]
+[Result "0-1"]
+[ECO "A54"]
+[WhiteElo "2319"]
+[BlackElo "2419"]
+[PlyCount "44"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.18"]
+
+1. d4 Nf6 2. c4 d6 3. Nc3 e5 4. Nf3 e4 5. Nd2 Bf5 6. e3 g6 7. Qc2 Qe7 8. Nd5
+Nxd5 9. cxd5 c6 10. Bc4 Bg7 11. a4 O-O 12. a5 Rc8 13. Qb3 c5 14. dxc5 Rxc5 15.
+O-O Rc7 16. Rb1 Nd7 17. Qa2 Ne5 18. Be2 Rac8 19. Nb3 Bg4 20. Bxg4 Nxg4 21. Nd4
+Qh4 22. h3 Nxf2 0-1
+
+[Event "Barbera op"]
+[Site "Barberá del Valles"]
+[Date "2014.07.07"]
+[Round "4"]
+[White "Gomez Ledo, RC."]
+[Black "Leroy, D."]
+[Result "1-0"]
+[ECO "A50"]
+[WhiteElo "2429"]
+[BlackElo "2319"]
+[PlyCount "81"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.18"]
+
+1. d4 Nf6 2. c4 c6 3. Nf3 d6 4. Nc3 Bf5 5. Nh4 Bg6 6. Nxg6 hxg6 7. e4 e5 8. Be3
+Be7 9. Be2 Nbd7 10. Qc2 Nh7 11. Qb3 Qb6 12. d5 c5 13. Qxb6 Nxb6 14. h4 f5 15.
+g3 Nf6 16. b3 a5 17. Bd3 f4 18. gxf4 Ng4 19. Ke2 a4 20. fxe5 Nxe3 21. Kxe3 dxe5
+22. Rab1 Bxh4 23. Ke2 g5 24. b4 Nd7 25. a3 O-O 26. Rh2 cxb4 27. axb4 Nf6 28. c5
+Ng4 29. Rg2 Nxf2 30. Bc4 Kh7 31. b5 g4 32. c6 a3 33. d6 a2 34. Nxa2 bxc6 35.
+bxc6 Nxe4 36. Rxg4 Ng3+ 37. Rxg3 Bxg3 38. Rh1+ Kg6 39. Rg1 Ra3 40. c7 e4 41. d7
+1-0
+
+[Event "Barbera op"]
+[Site "Barberá del Valles"]
+[Date "2014.07.08"]
+[Round "5"]
+[White "Leroy, D."]
+[Black "Coimbra, M."]
+[Result "1/2-1/2"]
+[ECO "A00"]
+[WhiteElo "2319"]
+[BlackElo "2071"]
+[PlyCount "93"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.18"]
+
+1. g3 d5 2. Bg2 c6 3. d3 e5 4. Nf3 Bd6 5. e4 Nf6 6. Nh4 O-O 7. O-O Be6 8. Nc3
+dxe4 9. dxe4 Bc5 10. Qe2 Nbd7 11. Nd1 Qc7 12. b3 Rad8 13. Bb2 Bg4 14. Nf3 Rfe8
+15. h3 Bxf3 16. Bxf3 Nf8 17. c3 Ne6 18. Bc1 a5 19. a3 b5 20. b4 Bb6 21. h4 Ra8
+22. Rb1 Red8 23. Ne3 Rd7 24. Ng4 Nxg4 25. Bxg4 Rd6 26. Rb2 Rad8 27. Rd2 Rxd2
+28. Bxd2 Rd6 29. Ra1 Qd8 30. Ra2 h6 31. Kg2 a4 32. Bc1 Ba7 33. Rd2 Rxd2 34.
+Qxd2 Qxd2 35. Bxd2 Kf8 36. Bxe6 fxe6 37. h5 Bb6 38. Kf3 Kf7 39. Be3 Bd8 40. Kg4
+Kf6 41. Bc5 Bc7 42. f4 Kf7 43. f5 Kf6 44. fxe6 Kxe6 45. Bf8 Kf7 46. Bc5 Ke6 47.
+Bf8 1/2-1/2
+
+[Event "Barbera op"]
+[Site "Barberá del Valles"]
+[Date "2014.07.09"]
+[Round "6"]
+[White "Rojano Alfonso, C."]
+[Black "Leroy, D."]
+[Result "1-0"]
+[ECO "D70"]
+[WhiteElo "2213"]
+[BlackElo "2319"]
+[PlyCount "91"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.18"]
+
+1. d4 Nf6 2. c4 g6 3. f3 d5 4. cxd5 Nxd5 5. e4 Nb6 6. Nc3 Bg7 7. Be3 O-O 8. Qd2
+Nc6 9. O-O-O e5 10. d5 Nd4 11. f4 Bg4 12. Re1 c5 13. h3 Bd7 14. Nf3 f6 15. h4
+Bg4 16. Nh2 Qd7 17. Nxg4 Qxg4 18. g3 Qxg3 19. Be2 exf4 20. Bxf4 Nxe2+ 21. Nxe2
+Qf3 22. Qe3 Qxe3+ 23. Bxe3 f5 24. Kb1 Rac8 25. Nf4 fxe4 26. Ne6 Rf3 27. Bxc5
+Nxd5 28. Rxe4 b6 29. Bd4 Bxd4 30. Rxd4 Nf6 31. Rhd1 Rh3 32. Rf1 Rh2 33. Rdf4
+Nd7 34. Rf7 Rd2 35. h5 Re8 36. h6 Rd6 37. Ng5 Ne5 38. Rg7+ Kh8 39. Rxh7+ Kg8
+40. Rg7+ Kh8 41. Re7 Rdd8 42. Rxe5 Rxe5 43. Nf7+ Kh7 44. Nxe5 Rd5 45. Ng4 Rf5
+46. Re1 1-0
+
+[Event "Barbera op"]
+[Site "Barberá del Valles"]
+[Date "2014.07.10"]
+[Round "7"]
+[White "Leroy, D."]
+[Black "Garcia Ramos, D."]
+[Result "1/2-1/2"]
+[ECO "A81"]
+[WhiteElo "2319"]
+[BlackElo "1975"]
+[PlyCount "88"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.18"]
+
+1. d4 f5 2. g3 Nf6 3. Bg2 e6 4. Nf3 d6 5. O-O Be7 6. a4 O-O 7. a5 a6 8. Qd3 Nc6
+9. Qb3 Kh8 10. Nc3 Qe8 11. Re1 e5 12. dxe5 dxe5 13. e4 Bd6 14. Bg5 Be6 15. Qa4
+Nxe4 16. Nxe4 fxe4 17. Qxe4 Bf5 18. Qc4 Qf7 19. Qxf7 Rxf7 20. c3 Raf8 21. Be3
+Be7 22. Nd2 Rd8 23. Ne4 Bg4 24. Ng5 Rff8 25. h3 Bc8 26. g4 h6 27. Ne4 g5 28. b4
+Kg7 29. Ng3 Bf6 30. Be4 Ne7 31. Bc5 Rfe8 32. Rad1 Nc6 33. f3 Rxd1 34. Rxd1 Rd8
+35. Rxd8 Nxd8 36. Nf5+ Bxf5 37. Bxf5 e4 38. fxe4 Bxc3 39. Bc8 Nc6 40. Bxb7 Bxb4
+41. Bxb4 Nxb4 42. Kf2 Kf6 43. Ke3 Ke5 44. Kd2 Kd4 1/2-1/2
+
+[Event "Barbera op"]
+[Site "Barberá del Valles"]
+[Date "2014.07.11"]
+[Round "8"]
+[White "Fabre Massana, M."]
+[Black "Leroy, D."]
+[Result "1-0"]
+[ECO "A42"]
+[WhiteElo "2116"]
+[BlackElo "2319"]
+[PlyCount "93"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.18"]
+
+1. e4 g6 2. d4 Bg7 3. c4 d6 4. Nc3 e5 5. dxe5 dxe5 6. Qxd8+ Kxd8 7. Be3 c6 8.
+O-O-O+ Nd7 9. Bd3 Ngf6 10. f3 Ne8 11. Nge2 Nc7 12. Rd2 Ne6 13. Rhd1 h5 14. Kb1
+a5 15. Bc2 h4 16. Na4 Ke7 17. h3 Ra6 18. Nc1 Bh6 19. Bxh6 Rxh6 20. Bd3 b6 21.
+Bf1 Ra7 22. b3 Rh5 23. Ne2 Rg5 24. Rd6 Rc7 25. R6d2 Bb7 26. Kb2 Nec5 27. Nxc5
+Nxc5 28. Rd8 Rh5 29. a3 Rd7 30. R8xd7+ Nxd7 31. Nc3 Rg5 32. b4 f5 33. Rd2 Rg3
+34. Ne2 Rg5 35. Nc3 axb4 36. axb4 c5 37. Nd5+ Bxd5 38. cxd5 fxe4 39. d6+ Kd8
+40. Kc3 exf3 41. Ra2 Ke8 42. gxf3 Rf5 43. Bb5 Rxf3+ 44. Kc4 Rxh3 45. Ra7 Rf3
+46. Bxd7+ Kf8 47. Be6 1-0
+
+[Event "Barbera op"]
+[Site "Barberá del Valles"]
+[Date "2014.07.12"]
+[Round "9.29"]
+[White "Garcia Acosta, R."]
+[Black "Leroy, D."]
+[Result "1/2-1/2"]
+[ECO "B08"]
+[WhiteElo "2054"]
+[BlackElo "2319"]
+[PlyCount "60"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 c6 4. Nf3 d6 5. Be3 Nf6 6. Qd2 Ng4 7. Bf4 e5 8. dxe5
+dxe5 9. Qxd8+ Kxd8 10. Bg3 f6 11. O-O-O+ Ke7 12. h3 Nh6 13. a4 Nf7 14. Nd2 Bh6
+15. f3 Rd8 16. Bf2 Be6 17. Bd3 Nd6 18. Kb1 Nd7 19. h4 Kf7 20. g4 Bf8 21. Be3 a6
+22. a5 Nb5 23. Na4 c5 24. c3 Rac8 25. Nc4 Rc6 26. Nab6 Nxb6 27. Nxb6 Rcd6 28.
+Bc2 Rxd1+ 29. Rxd1 Rxd1+ 30. Bxd1 f5 1/2-1/2

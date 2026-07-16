@@ -1,0 +1,112 @@
+[Event "Lliga Catalana DH"]
+[Site "Barcelona"]
+[Date "2024.02.03"]
+[Round "3.9"]
+[White "Molina Gil, Noah"]
+[Black "Herman Gamazo, Isaac"]
+[Result "0-1"]
+[ECO "C88"]
+[WhiteElo "2088"]
+[BlackElo "2291"]
+[PlyCount "104"]
+[EventDate "2024.??.??"]
+[TimeControl "90+30"]
+[WhiteClock "0:11:17"]
+[BlackClock "0:03:24"]
+
+1. e4 {[%emt 0:00:01]} e5 {[%emt 0:00:36]} 2. Nf3 {[%emt 0:00:50]} Nc6 {
+[%emt 0:00:08]} 3. Bb5 {[%emt 0:01:06]} a6 {[%emt 0:00:06]} 4. Ba4 {[%emt 0:00:
+06]} Nf6 {[%emt 0:00:05]} 5. d3 {[%emt 0:00:22]} b5 {[%emt 0:01:23]} 6. Bb3 {
+[%emt 0:00:14]} Be7 {[%emt 0:01:33]} 7. O-O {[%emt 0:00:36]} d6 {[%emt 0:00:19]
+} 8. c3 {[%emt 0:00:47]} O-O {[%emt 0:00:27]} 9. Re1 {[%emt 0:00:59]} Nb8 {
+[%emt 0:00:58]} 10. a4 {[%emt 0:04:29]} Bb7 {[%emt 0:02:16]} 11. Nbd2 {[%emt 0:
+02:27]} Nbd7 {[%emt 0:00:23]} 12. Nf1 {[%emt 0:01:39]} c5 {[%emt 0:02:31]} 13.
+Ng3 {[%emt 0:04:08]} Rc8 {[%emt 0:03:30]} 14. Bc2 {[%emt 0:06:31]} Re8 {
+[%emt 0:02:53]} 15. d4 {[%emt 0:03:46]} Bf8 {[%emt 0:00:40]} 16. dxe5 {[%emt 0:
+02:55]} dxe5 {[%emt 0:01:29]} 17. Nf5 {[%emt 0:02:22]} Qc7 {[%emt 0:00:24]} 18.
+Qe2 {[%emt 0:05:07]} c4 {[%emt 0:00:46]} 19. Bg5 {[%emt 0:06:01]} h6 {[%emt 0:
+04:44]} 20. Bh4 {[%emt 0:04:19]} g6 {[%emt 0:01:42]} 21. Bxf6 {[%emt 0:02:46]}
+Nxf6 {[%emt 0:00:13]} 22. Ng3 {[%emt 0:01:18]} Bc5 {[%emt 0:02:18]} 23. b4 {
+[%emt 0:03:29]} cxb3 {[%emt 0:10:03]} 24. Bxb3 {[%emt 0:00:09]} Bc6 {[%emt 0:
+00:51]} 25. axb5 {[%emt 0:02:23]} axb5 {[%emt 0:00:40]} 26. h3 {[%emt 0:02:07]}
+Ra8 {[%emt 0:02:30]} 27. Rad1 {[%emt 0:04:10]} Red8 {[%emt 0:09:57]} 28. Rd2 {
+[%emt 0:08:55]} Rd7 {[%emt 0:07:30]} 29. Red1 {[%emt 0:02:01]} Rad8 {[%emt 0:
+02:36]} 30. Rxd7 {[%emt 0:01:51]} Rxd7 {[%emt 0:00:36]} 31. Rxd7 {[%emt 0:00:
+37]} Nxd7 {[%emt 0:00:08]} 32. Ne1 {[%emt 0:02:39]} Bf8 {[%emt 0:02:36]} 33.
+Nd3 {[%emt 0:03:20]} Nc5 {[%emt 0:02:34]} 34. Nxc5 {[%emt 0:01:03]} Bxc5 {
+[%emt 0:00:12]} 35. Qg4 {[%emt 0:00:58]} Qd6 {[%emt 0:01:29]} 36. Nf5 {[%emt 0:
+01:27]} Qf6 {[%emt 0:01:20]} 37. Ne3 {[%emt 0:04:33]} Kg7 {[%emt 0:04:34]} 38.
+Bd5 {[%emt 0:01:33]} Bxd5 {[%emt 0:09:03]} 39. exd5 {[%emt 0:00:13]} e4 {
+[%emt 0:00:08]} 40. Qxe4 {[%emt 0:02:22]} Qxc3 {[%emt 0:00:10]} 41. Nd1 {
+[%emt 0:03:07]} Qd2 {[%emt 0:02:40]} 42. Qe5+ {[%emt 0:01:35]} Kh7 {[%emt 0:01:
+08]} 43. Ne3 {[%emt 0:01:25]} Qe1+ {[%emt 0:07:21]} 44. Kh2 {[%emt 0:00:16]}
+Qxf2 {[%emt 0:00:24]} 45. Ng4 {[%emt 0:01:31]} Qf5 {[%emt 0:01:49]} 46. Qc7 {
+[%emt 0:02:53]} Bd4 {[%emt 0:03:38]} 47. d6 {[%emt 0:03:06]} Qf4+ {[%emt 0:00:
+21]} 48. Kh1 {[%emt 0:00:42]} Qf1+ {[%emt 0:00:49]} 49. Kh2 {[%emt 0:00:10]}
+Bg1+ {[%emt 0:00:33]} 50. Kg3 {[%emt 0:00:05]} Qd3+ {[%emt 0:00:15]} 51. Kf4 {
+[%emt 0:00:52]} g5+ {[%emt 0:00:18]} 52. Ke5 {[%emt 0:00:31]} Qd4+ {[%emt 0:00:
+05]} 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.02.10"]
+[Round "4.9"]
+[White "Pares Vives, Natalia"]
+[Black "Molina Gil, Noah"]
+[Result "1-0"]
+[ECO "A07"]
+[WhiteElo "2136"]
+[BlackElo "1906"]
+[PlyCount "61"]
+[EventDate "2024.??.??"]
+
+1. Nf3 d5 2. g3 Nf6 3. Bg2 Bf5 4. d3 e6 5. O-O Be7 6. Nbd2 O-O 7. c3 Nbd7 8. h3
+h6 9. Re1 Bh7 10. a4 Re8 11. a5 a6 12. b4 c5 13. Qb3 cxb4 14. cxb4 b6 15. Bb2
+bxa5 16. bxa5 Rb8 17. Qa2 Bb4 18. Reb1 Rb5 19. Nb3 Nc5 20. Nfd4 Nxb3 21. Qxb3
+Rb7 22. Ba3 Bxa3 23. Qxb7 Bc5 24. Nb3 Bd6 25. Qxa6 e5 26. Qb5 e4 27. a6 e3 28.
+f4 Qa8 29. a7 Re7 30. Bxd5 Nxd5 31. Qxd5 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.02.24"]
+[Round "6.9"]
+[White "GOMEZ ANADON, DANIEL."]
+[Black "MOLINA GIL, NOAH."]
+[Result "1-0"]
+[ECO "B01"]
+[WhiteElo "2253"]
+[BlackElo "2088"]
+[Annotator "User"]
+[PlyCount "77"]
+[EventDate "2024.??.??"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd6 4. g3 Nf6 5. Bg2 a6 6. Nge2 Nc6 7. d3 Bg4 8.
+h3 Bh5 9. Be3 e5 10. Qd2 O-O-O 11. O-O-O Nd4 12. g4 Bg6 13. f4 Nxe2+ 14. Nxe2
+h5 15. f5 Bh7 16. Nc3 hxg4 17. hxg4 Be7 18. Qe2 Qb4 19. g5 Nd7 20. Nd5 Qd6 21.
+Qf3 c6 22. Nxe7+ Qxe7 23. Rh4 Nc5 24. f6 gxf6 25. gxf6 Qd6 26. Bxc5 Qxc5 27.
+Rxh7 Rxh7 28. Qf5+ Kb8 29. Qxh7 Qe3+ 30. Kb1 Qe2 31. Qh1 Rg8 32. Be4 Ka7 33.
+Rg1 Rd8 34. Rg7 Rh8 35. Qg1+ Kb8 36. Rg8+ Rxg8 37. Qxg8+ Ka7 38. Qg1+ Kb8 39.
+a3 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.04.13"]
+[Round "11.9"]
+[White "Molina Gil, Noah"]
+[Black "Fernandez Goyanes, Francesc X"]
+[Result "0-1"]
+[ECO "C47"]
+[WhiteElo "1938"]
+[BlackElo "2037"]
+[PlyCount "73"]
+[EventDate "2024.04.13"]
+[EventType "team"]
+[EventRounds "11"]
+[EventCountry "CAT"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. a3 d6 5. d4 exd4 6. Nxd4 Be7 7. Bc4 O-O 8.
+O-O Ne5 9. Ba2 c5 10. Nde2 Ng6 11. Re1 Bd7 12. Bf4 Bc6 13. f3 b5 14. Bd5 Qb6
+15. Bxc6 Qxc6 16. Bg5 b4 17. axb4 cxb4 18. Na4 h6 19. Nd4 Qd7 20. Bd2 Rab8 21.
+Nf5 Rfe8 22. c3 d5 23. Nxe7+ Rxe7 24. Nc5 Qc6 25. cxb4 dxe4 26. fxe4 Rbe8 27.
+Qa4 Qc8 28. Bc3 Nh5 29. Qd1 Nhf4 30. Qf3 Qc6 31. Bd2 Ne6 32. Nxe6 Qxe6 33. Bc3
+Qc4 34. Ra5 Rd8 35. Qe3 Rdd7 36. Rc5 Qb3 37. Qg3 0-1

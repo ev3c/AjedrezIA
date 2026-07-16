@@ -1,0 +1,115 @@
+[Event "Badalona op B"]
+[Site "Badalona"]
+[Date "2016.08.04"]
+[Round "3"]
+[White "Alonso Gomez, Raul"]
+[Black "Arroyo Mateo, Jose Miguel"]
+[Result "1/2-1/2"]
+[ECO "B20"]
+[WhiteElo "1876"]
+[BlackElo "1736"]
+[PlyCount "66"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. b4 e5 3. Bb2 cxb4 4. a3 Nf6 5. Bd3 Nc6 6. Nf3 d5 7. Nxe5 Nxe5 8.
+Bxe5 dxe4 9. Bb5+ Bd7 10. Bxf6 gxf6 11. Qe2 f5 12. axb4 Bxb4 13. Qc4 Be7 14.
+Qd5 Bxb5 15. Qxb5+ Qd7 16. Qe5 f6 17. Qf4 Bd6 18. Qh6 Be5 19. Nc3 a6 20. Qh5+
+Ke7 21. Rb1 Bf4 22. O-O Rag8 23. d3 Rg5 24. Qe2 Qc7 25. Nxe4 fxe4 26. Qxe4+ Kf8
+27. g3 b5 28. Qa8+ Kg7 29. Qxa6 Bxg3 30. hxg3 Rxg3+ 31. fxg3 Qxg3+ 32. Kh1 Qh3+
+33. Kg1 Qg3+ 1/2-1/2
+
+[Event "Badalona op B"]
+[Site "Badalona"]
+[Date "2016.08.06"]
+[Round "5"]
+[White "Alonso Gomez, Raul"]
+[Black "Colom Andres, Xavier"]
+[Result "0-1"]
+[ECO "A03"]
+[WhiteElo "1876"]
+[BlackElo "1790"]
+[PlyCount "46"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. g3 d5 2. f4 Nf6 3. Bg2 c5 4. Nf3 Nc6 5. d3 Bg4 6. Nbd2 Qc7 7. c3 e5 8. fxe5
+Nxe5 9. O-O Bd6 10. Qc2 O-O 11. Nxe5 Bxe5 12. Nf3 Bd6 13. Bg5 Nd7 14. Rae1 h6
+15. Bc1 Rae8 16. Nh4 c4 17. Bxd5 Qc5+ 18. d4 Qxd5 19. e4 Qc6 20. e5 Be7 21. Nf5
+Bg5 22. Nd6 Bh3 23. Rf2 Qxd6 0-1
+
+[Event "Badalona op B"]
+[Site "Badalona"]
+[Date "2016.08.08"]
+[Round "7"]
+[White "Alonso Gomez, Raul"]
+[Black "Cano Sevila, Ivan"]
+[Result "1-0"]
+[ECO "B26"]
+[WhiteElo "1876"]
+[BlackElo "1890"]
+[PlyCount "79"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nc3 g6 3. g3 Bg7 4. Bg2 Nc6 5. d3 d6 6. Be3 Nf6 7. Qd2 a6 8. Bh6
+O-O 9. Bxg7 Kxg7 10. Nge2 Rb8 11. O-O Bd7 12. Nf4 e6 13. h4 h6 14. Nd1 b5 15.
+Ne3 a5 16. c3 a4 17. d4 cxd4 18. cxd4 Qb6 19. d5 Ne5 20. Rfd1 Nc4 21. Nxc4 bxc4
+22. dxe6 Bxe6 23. Nxe6+ fxe6 24. Rab1 Ng4 25. Rf1 Kh7 26. Bh3 Ne5 27. Bg2 Qc5
+28. Kh1 a3 29. b4 cxb3 30. axb3 Qb4 31. Qe3 Nc4 32. bxc4 Qxb1 33. Rxb1 Rxb1+
+34. Kh2 Ra8 35. e5 a2 36. Bxa8 a1=Q 37. Be4 Re1 38. Qf4 Qxe5 39. Qf7+ Qg7 40.
+Bxg6+ 1-0
+
+[Event "Badalona op B"]
+[Site "Badalona"]
+[Date "2016.08.09"]
+[Round "8"]
+[White "Palacios Pena, Gerardo"]
+[Black "Alonso Gomez, Raul"]
+[Result "0-1"]
+[ECO "A83"]
+[WhiteElo "1900"]
+[BlackElo "1876"]
+[PlyCount "27"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 f5 2. e4 fxe4 3. Nc3 Nf6 4. Bg5 Nc6 5. f3 e5 6. dxe5 Nxe5 7. Nxe4 Be7 8.
+Qd4 Nxe4 9. Qxe5 Nxg5 10. Qxg7 Bf6 11. Qh6 Qe7+ 12. Be2 d6 13. h4 Nf7 14. Qh5
+0-1
+
+[Event "Badalona op B"]
+[Site "Badalona"]
+[Date "2016.08.10"]
+[Round "9"]
+[White "Petit Montes, Marc"]
+[Black "Alonso Gomez, Raul"]
+[Result "0-1"]
+[ECO "A01"]
+[WhiteElo "1770"]
+[BlackElo "1876"]
+[PlyCount "132"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. b3 d5 2. e3 c6 3. Bb2 e6 4. f4 Nf6 5. Nf3 a5 6. a4 Nbd7 7. Be2 Qb6 8. Ne5
+Be7 9. Bf3 Nf8 10. Qe2 Ng6 11. O-O Nxf4 12. Qf2 Ng6 13. d3 Bd6 14. Ng4 Nxg4 15.
+Bxg4 O-O 16. Nd2 Qc7 17. h3 Be5 18. d4 Bd6 19. c4 e5 20. Bxc8 Raxc8 21. Rac1
+Qe7 22. Qf5 Nh4 23. Qd3 Qg5 24. Qe2 e4 25. Rfd1 Qg3 26. Nf1 Qg5 27. Bc3 b6 28.
+c5 bxc5 29. dxc5 Bc7 30. Rc2 Nf3+ 31. Kh1 Ne5 32. Qa6 Ra8 33. Qb7 Rfc8 34. Rf2
+Nd3 35. Rc2 Qf5 36. Qxc6 Nf2+ 37. Rxf2 Qxf2 38. Qxd5 Rd8 39. Qg5 f6 40. Qg4 Rd3
+41. Bd4 Rxd1 42. Qxd1 Rb8 43. Nd2 Qg3 44. Nf1 Qf2 45. Nd2 Rd8 46. Nxe4 Qh4 47.
+Nd6 Bxd6 48. cxd6 Rxd6 49. Qc2 Rd8 50. Qc4+ Kh8 51. Qc7 Qe1+ 52. Kh2 Rg8 53.
+Bc3 Qxe3 54. Qxa5 Qf4+ 55. Kg1 Rc8 56. Bd2 Qe4 57. Qb6 h5 58. Bb4 Rc2 59. Qb8+
+Kh7 60. Qg3 Rc1+ 61. Kh2 Qxb4 62. Qd3+ Kg8 63. Qd8+ Kf7 64. Qd5+ Ke7 65. Qf3
+Qd6+ 66. g3 Qd2+ 0-1

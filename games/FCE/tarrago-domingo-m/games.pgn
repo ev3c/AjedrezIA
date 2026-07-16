@@ -1,0 +1,723 @@
+[Event "Ct. Catalunya Absolut"]
+[Site "Barcelona"]
+[Date "2002.03.29"]
+[Round "6.17"]
+[White "Centeno Ortiz, A."]
+[Black "Tarrago Domingo, M."]
+[Result "1/2-1/2"]
+[ECO "C31"]
+[WhiteElo "2048"]
+[BlackElo "2117"]
+[PlyCount "60"]
+[EventDate "2002.??.??"]
+[EventRounds "9"]
+
+1. e4 e5 2. f4 d5 3. exd5 c6 4. Nc3 exf4 5. Nf3 Nf6 6. d4 Nxd5 7. Nxd5 Qxd5 8.
+Bxf4 Qe4+ 9. Qe2 Bf5 10. Qxe4+ Bxe4 11. O-O-O Bxf3 12. gxf3 Be7 13. Re1 Kf8 14.
+Bd3 Nd7 15. Re2 g5 16. Bd2 h5 17. Rg1 Nb6 18. Bxg5 Bxg5+ 19. Rxg5 Re8 20. Rge5
+Rxe5 21. Rxe5 f6 22. Ra5 Nc8 23. Rf5 Ke7 24. Kd2 Nd6 25. Rf4 b6 26. Rh4 f5 27.
+Ke3 Kf6 28. Kf4 Rh7 29. c4 c5 30. d5 Rh8 1/2-1/2
+
+[Event "Ct. Catalunya Absolut"]
+[Site "Barcelona"]
+[Date "2002.04.01"]
+[Round "9.19"]
+[White "Tarrago Domingo, M."]
+[Black "Raineri de Luca, P."]
+[Result "1-0"]
+[ECO "B24"]
+[WhiteElo "2117"]
+[BlackElo "2172"]
+[PlyCount "85"]
+[EventDate "2002.??.??"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. Nge2 e6 6. O-O Nge7 7. d3 d6 8. Be3
+Nd4 9. f4 O-O 10. Bf2 e5 11. fxe5 dxe5 12. Nd5 Nxd5 13. exd5 Bg4 14. Bxd4 cxd4
+15. Qd2 h5 16. c4 Rc8 17. Kh1 Kh7 18. Ng1 Bh6 19. Qb4 b6 20. a4 h4 21. Qe1 hxg3
+22. Qxe5 gxh2 23. Nf3 Bf5 24. Qxd4 Bg7 25. Qe3 Bxb2 26. Ng5+ Kg7 27. Ra2 Re8
+28. Be4 Bf6 29. Rxf5 gxf5 30. Rg2 Bxg5 31. Rxg5+ Kf8 32. Rxf5 Qd6 33. Qf2 Rc7
+34. Rf6 Qe5 35. Qh4 Qa1+ 36. Kxh2 Rxe4 37. Qh8+ Ke7 38. d6+ Kd7 39. Rxf7+ Kxd6
+40. Qd8+ Kc5 41. Qxc7+ Kb4 42. dxe4 Qe1 43. Qd6+ 1-0
+
+[Event "Ct. Catalunya equips DH"]
+[Site "?"]
+[Date "2004.??.??"]
+[Round "7.6"]
+[White "Bofill Mas, A."]
+[Black "Tarrago Domingo, M."]
+[Result "1-0"]
+[ECO "A24"]
+[PlyCount "59"]
+[EventDate "2004.??.??"]
+
+1. c4 Nf6 2. g3 g6 3. Bg2 Bg7 4. Nc3 e5 5. e4 Nc6 6. Nge2 d6 7. O-O Nh5 8. d3
+O-O 9. Be3 f5 10. exf5 gxf5 11. f4 Nf6 12. h3 Be6 13. Qd2 Qd7 14. b3 Rae8 15.
+d4 exd4 16. Nxd4 Nxd4 17. Bxd4 h5 18. Rae1 Qf7 19. Bxb7 c5 20. Bxf6 Qxf6 21.
+Nb5 Qg6 22. Kh2 Bf7 23. Qxd6 Bf6 24. Bd5 Rxe1 25. Rxe1 h4 26. gxh4 Rd8 27. Rg1
+Qxg1+ 28. Kxg1 Rxd6 29. Nxd6 Bxd5 30. cxd5 1-0
+
+[Event "Ct. Catalunya equips DH"]
+[Site "?"]
+[Date "2004.??.??"]
+[Round "8.8"]
+[White "Tarrago Domingo, M."]
+[Black "Vall de Vilamaro, J."]
+[Result "1/2-1/2"]
+[ECO "D77"]
+[PlyCount "30"]
+[EventDate "2004.??.??"]
+
+1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. g3 d5 5. Bg2 O-O 6. O-O dxc4 7. Na3 Nc6 8.
+Nxc4 Be6 9. b3 Bd5 10. Bb2 a5 11. a4 Qb8 12. Rc1 Rd8 13. Nfe5 Bxg2 14. Kxg2
+Nxe5 15. Nxe5 Nd7 1/2-1/2
+
+[Event "Ct. Catalunya equips DH"]
+[Site "?"]
+[Date "2004.??.??"]
+[Round "9.9"]
+[White "Tarrago Domingo, M."]
+[Black "Ramirez Gonzalez, JA."]
+[Result "1/2-1/2"]
+[ECO "E15"]
+[PlyCount "86"]
+[EventDate "2004.??.??"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6 5. b3 Bb4+ 6. Bd2 Be7 7. Nc3 d5 8. Bg2
+c6 9. cxd5 cxd5 10. O-O Nbd7 11. Re1 O-O 12. Bc1 Rc8 13. Bb2 Bb4 14. Rc1 Ne4
+15. Nxe4 Rxc1 16. Bxc1 Bxe1 17. Nxe1 dxe4 18. Bxe4 Nf6 19. Bg2 Nd5 20. Bb2 Qc7
+21. Qd2 Rd8 22. Bf3 Nf6 23. e4 e5 24. d5 Ne8 25. Nc2 Bb7 26. Ne3 f6 27. Ba3 Nd6
+28. Qd3 Bc8 29. Be2 Bd7 30. Nc4 Bb5 31. Bxd6 Rxd6 32. Bg4 Qc5 33. Be6+ Kf8 34.
+Qe2 Bxc4 35. bxc4 g6 36. Qf3 Kg7 37. Qb3 Qa5 38. Qc2 Rd8 39. Kg2 Qa3 40. h3 a5
+41. Qb1 Qb4 42. Qd3 a4 43. h4 a3 1/2-1/2
+
+[Event "Ciutat de Balaguer op"]
+[Site "?"]
+[Date "2005.07.18"]
+[Round "1"]
+[White "Mamedov, N."]
+[Black "Tarrago Domingo, M."]
+[Result "1-0"]
+[ECO "B28"]
+[WhiteElo "2463"]
+[BlackElo "2069"]
+[PlyCount "37"]
+[EventDate "2005.??.??"]
+
+1. e4 c5 2. Nf3 a6 3. Nc3 Nc6 4. d4 cxd4 5. Nxd4 e5 6. Nf5 d6 7. Bc4 Bxf5 8.
+exf5 Nf6 9. Bg5 Be7 10. Bxf6 Bxf6 11. Ne4 Be7 12. c3 O-O 13. Bd5 Rb8 14. Qh5
+Na7 15. g4 Qa5 16. Rd1 Qd8 17. g5 Nb5 18. Rd3 Nc7 19. Rh3 1-0
+
+[Event "Ciutat de Balaguer op"]
+[Site "?"]
+[Date "2005.07.21"]
+[Round "4"]
+[White "Tarrago Domingo, M."]
+[Black "Muñoz, L."]
+[Result "0-1"]
+[ECO "A12"]
+[WhiteElo "2069"]
+[BlackElo "2342"]
+[PlyCount "62"]
+[EventDate "2005.??.??"]
+
+1. Nf3 Nf6 2. c4 c6 3. g3 d5 4. b3 dxc4 5. bxc4 e5 6. Bg2 Bc5 7. O-O Ng4 8. Nc3
+f5 9. h3 e4 10. hxg4 exf3 11. exf3 O-O 12. gxf5 Bxf5 13. d4 Bxd4 14. Bb2 Bd3
+15. Re1 Bxf2+ 16. Kxf2 Qb6+ 17. c5 Qxb2+ 18. Ne2 Rd8 19. Qc1 Qf6 20. Qc3 Qxc3
+21. Nxc3 Nd7 22. Ne4 Bxe4 23. Rxe4 Nxc5 24. Rc4 b6 25. f4 Rd6 26. a4 Re8 27. a5
+Nb3 28. Bxc6 Rxc6 29. Rxc6 Nxa1 30. axb6 axb6 31. Rxb6 Nc2 0-1
+
+[Event "Ciutat de Balaguer op"]
+[Site "?"]
+[Date "2005.07.24"]
+[Round "7"]
+[White "Van Riemsdijk, HC."]
+[Black "Tarrago Domingo, M."]
+[Result "1-0"]
+[ECO "B10"]
+[WhiteElo "2397"]
+[BlackElo "2069"]
+[PlyCount "63"]
+[EventDate "2005.??.??"]
+
+1. e4 c6 2. c4 d5 3. exd5 cxd5 4. cxd5 Nf6 5. Nc3 g6 6. Bc4 Bg7 7. Nf3 Nbd7 8.
+Qb3 a6 9. a4 O-O 10. O-O Nc5 11. Qa3 Nce4 12. Re1 Nd6 13. d3 b6 14. Bf4 Bb7 15.
+Rxe7 Qxe7 16. Bxd6 Qd8 17. Bxf8 Bxf8 18. Qb3 b5 19. Rd1 Rb8 20. axb5 axb5 21.
+Nxb5 Bxd5 22. Nfd4 Bc5 23. Bxd5 Qxd5 24. Qxd5 Nxd5 25. Rc1 Bxd4 26. Nxd4 Rxb2
+27. g3 Rd2 28. Nf3 Rxd3 29. Ne5 Rc3 30. Rd1 Rc5 31. Nd7 Ra5 32. Rxd5 1-0
+
+[Event "Valles op B"]
+[Site "?"]
+[Date "2006.07.05"]
+[Round "1"]
+[White "Tarrago Domingo, M."]
+[Black "Urbano Cabrera, M."]
+[Result "1/2-1/2"]
+[ECO "A13"]
+[WhiteElo "2075"]
+[BlackElo "1779"]
+[PlyCount "90"]
+[EventDate "2006.??.??"]
+
+1. Nf3 d5 2. c4 e6 3. g3 g6 4. Bg2 Bg7 5. O-O Nf6 6. d4 O-O 7. b3 c6 8. Bb2 Ne4
+9. Nfd2 f5 10. f3 Nf6 11. e3 Nbd7 12. f4 Ne4 13. Nc3 Ndf6 14. Nf3 Bd7 15. Ne5
+Nxc3 16. Bxc3 Ne4 17. Bxe4 dxe4 18. Nxd7 Qxd7 19. Qc2 Rfd8 20. Rfd1 Qe7 21. Rd2
+Rd7 22. Rad1 Rad8 23. b4 Qd6 24. Qa4 Qc7 25. Qb3 Qd6 26. a4 Qe7 27. Rb1 a6 28.
+c5 Kh8 29. b5 e5 30. bxc6 bxc6 31. Ba5 Ra8 32. dxe5 Rxd2 33. Bxd2 Qxc5 34. Qc3
+Qd5 35. Qd4 Rd8 36. Qxd5 Rxd5 37. Rb8+ Bf8 38. Bb4 c5 39. Bxc5 Rxc5 40. Rxf8+
+Kg7 41. Ra8 Ra5 42. Ra7+ Kg8 43. e6 Kf8 44. Rxh7 Rxa4 45. Ra7 Ra2 1/2-1/2
+
+[Event "Valles op B"]
+[Site "?"]
+[Date "2006.07.07"]
+[Round "3"]
+[White "Ayza Casamitjana, A."]
+[Black "Tarrago Domingo, M."]
+[Result "1/2-1/2"]
+[ECO "B10"]
+[WhiteElo "2002"]
+[BlackElo "2075"]
+[PlyCount "85"]
+[EventDate "2006.??.??"]
+
+1. e4 c6 2. Nc3 d5 3. Qf3 dxe4 4. Nxe4 Nf6 5. Bc4 e6 6. Ne2 Nxe4 7. Qxe4 Nd7 8.
+O-O Nf6 9. Qf3 Be7 10. d4 O-O 11. Bf4 b5 12. Bxb5 Bb7 13. Bxc6 Bxc6 14. Qxc6
+Rc8 15. Qa4 Qb6 16. Rab1 Nd5 17. Bd2 Qc7 18. c3 Rb8 19. a3 Rb7 20. Rfc1 Nb6 21.
+Qc2 Rc8 22. Nf4 Bd6 23. g3 Nc4 24. Nd3 Rcb8 25. Be3 a5 26. Re1 Rb3 27. Nc5 Bxc5
+28. dxc5 Nxe3 29. Rxe3 Qxc5 30. Rd3 g6 31. Rd8+ Rxd8 32. Qxb3 Rd2 33. Qb8+ Kg7
+34. Qf4 Rc2 35. Qd4+ Qxd4 36. cxd4 a4 37. b4 Rc3 38. Ra1 Kf6 39. Kg2 Ke7 40. b5
+Kd6 41. Kf1 Kd5 42. Ke2 Rb3 43. Rc1 1/2-1/2
+
+[Event "Valles op B"]
+[Site "?"]
+[Date "2006.07.08"]
+[Round "4"]
+[White "Tarrago Domingo, M."]
+[Black "Hernandez Funes, H."]
+[Result "1-0"]
+[ECO "A13"]
+[WhiteElo "2075"]
+[BlackElo "1974"]
+[PlyCount "109"]
+[EventDate "2006.??.??"]
+
+1. Nf3 Nf6 2. c4 e6 3. g3 d5 4. b3 Nbd7 5. Bb2 Bd6 6. Bg2 c6 7. O-O O-O 8. Nc3
+e5 9. cxd5 cxd5 10. d3 Qe7 11. Nh4 Nb6 12. Nb5 Bb8 13. Ba3 Qe8 14. Bxf8 Kxf8
+15. Nc3 e4 16. dxe4 dxe4 17. Qd4 Be5 18. Qb4+ Kg8 19. Nxe4 Bxa1 20. Rxa1 Nfd5
+21. Qd2 h6 22. Nd6 Qe5 23. Rd1 Nc3 24. Nf3 Qxe2 25. Re1 Qxd2 26. Re8+ Kh7 27.
+Nxd2 Be6 28. Rxa8 Nxa8 29. Bxb7 Nc7 30. a3 N7b5 31. Nxb5 Nxb5 32. a4 Nd6 33.
+Ba6 Bd5 34. Kf1 g5 35. Bc4 Nxc4 36. Nxc4 Kg6 37. Ke2 Kf6 38. Kd3 Ke6 39. Kd4 f6
+40. b4 Ba8 41. b5 Bb7 42. a5 Kd7 43. Kc5 Be4 44. b6 axb6+ 45. Nxb6+ Kc7 46.
+Nd5+ Kb7 47. Nxf6 Bd3 48. Nd5 Be4 49. Nb4 h5 50. f4 g4 51. Kd4 Bg6 52. Ke5 Kc7
+53. f5 Bf7 54. Kf6 Be8 55. Ke7 1-0
+
+[Event "Valles op B"]
+[Site "?"]
+[Date "2006.07.09"]
+[Round "5"]
+[White "Escofet Martins, D."]
+[Black "Tarrago Domingo, M."]
+[Result "0-1"]
+[ECO "B12"]
+[WhiteElo "2014"]
+[BlackElo "2075"]
+[PlyCount "66"]
+[EventDate "2006.??.??"]
+
+1. e4 c6 2. d4 d5 3. f3 g6 4. Nc3 Bg7 5. Be3 dxe4 6. fxe4 Nf6 7. Nf3 Nbd7 8.
+Be2 O-O 9. O-O Ng4 10. Bg5 h6 11. Bh4 Ne3 12. Qd2 Nxf1 13. Rxf1 Nf6 14. e5 Nd5
+15. Ne4 f5 16. Ng3 Qe8 17. c4 Nb6 18. d5 cxd5 19. cxd5 e6 20. d6 Bd7 21. Be7
+Rf7 22. Bh4 Bc6 23. Re1 Nd7 24. Qf4 g5 25. Nxg5 Bxe5 26. Qd2 hxg5 27. Qxg5+ Rg7
+28. Qd2 Bxg3 29. hxg3 Rh7 30. Bc4 Be4 31. Be7 Rxe7 32. dxe7 Qxe7 33. Qh6 Qc5+
+0-1
+
+[Event "Valles op B"]
+[Site "?"]
+[Date "2006.07.10"]
+[Round "6"]
+[White "Tarrago Domingo, M."]
+[Black "Fabre Massana, M."]
+[Result "1/2-1/2"]
+[ECO "A11"]
+[WhiteElo "2075"]
+[BlackElo "2124"]
+[PlyCount "27"]
+[EventDate "2006.??.??"]
+
+1. Nf3 d5 2. c4 c6 3. e3 Nf6 4. cxd5 cxd5 5. Nc3 e6 6. d4 Be7 7. Bd3 Nc6 8. O-O
+a6 9. Bd2 b5 10. a3 Bb7 11. b4 Rc8 12. Qb3 O-O 13. Rfc1 Ne4 14. Be1 1/2-1/2
+
+[Event "Valles op B"]
+[Site "?"]
+[Date "2006.07.11"]
+[Round "7"]
+[White "Tarrago Domingo, M."]
+[Black "Ruiz Arenas, C."]
+[Result "1/2-1/2"]
+[ECO "E65"]
+[WhiteElo "2075"]
+[BlackElo "1953"]
+[PlyCount "64"]
+[EventDate "2006.??.??"]
+
+1. Nf3 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 O-O 5. Nc3 d6 6. O-O Nbd7 7. d4 c5 8. e3
+Rb8 9. b3 b6 10. Bb2 Bb7 11. d5 a6 12. a4 Qc7 13. Qd2 Rbd8 14. Rad1 Rfe8 15.
+Rfe1 Nf8 16. e4 e5 17. dxe6 Nxe6 18. Nd5 Nxd5 19. exd5 Nf8 20. Bxg7 Kxg7 21.
+Qb2+ f6 22. Bh3 h6 23. Rd3 Bc8 24. Bxc8 Qxc8 25. Rde3 Kf7 26. Qd2 h5 27. Kg2
+Rxe3 28. Rxe3 Re8 29. Qe2 Rxe3 30. Qxe3 Qf5 31. Nd2 a5 32. Ne4 Qe5 1/2-1/2
+
+[Event "Valles op B"]
+[Site "?"]
+[Date "2006.07.12"]
+[Round "8"]
+[White "Dominguez Escalona, AJ."]
+[Black "Tarrago Domingo, M."]
+[Result "0-1"]
+[ECO "B10"]
+[WhiteElo "2120"]
+[BlackElo "2075"]
+[PlyCount "134"]
+[EventDate "2006.??.??"]
+
+1. e4 c6 2. Ne2 d5 3. e5 c5 4. d4 Nc6 5. c3 cxd4 6. cxd4 Bf5 7. Nbc3 e6 8. Ng3
+Bg6 9. Bb5 Qb6 10. O-O Nge7 11. Be3 a6 12. Bxc6+ Nxc6 13. Qe2 Be7 14. Rad1 O-O
+15. Nh1 f6 16. exf6 Bxf6 17. b3 Qb4 18. Qd2 Rad8 19. Ng3 Rc8 20. Nge2 Kh8 21.
+f3 Ne7 22. Bf2 Rc6 23. Rc1 Rfc8 24. Rfd1 h6 25. h3 e5 26. g4 exd4 27. Bxd4
+Bxd4+ 28. Qxd4 Qxd4+ 29. Rxd4 Bf7 30. Rdd1 Kg8 31. Na4 Kf8 32. Rxc6 Nxc6 33.
+Rc1 Re8 34. Kf2 Nb4 35. Rc7 Re7 36. Rxe7 Kxe7 37. Nac3 Nc6 38. Ke3 Kd6 39. Nd4
+Be6 40. a3 Bd7 41. f4 Bc8 42. b4 h5 43. Nxc6 bxc6 44. f5 hxg4 45. hxg4 c5 46.
+bxc5+ Kxc5 47. Kd3 Bd7 48. Kd2 Kd4 49. Nd1 Ke4 50. Ne3 Bb5 51. g5 d4 52. Nc2
+Kxf5 53. Nxd4+ Kxg5 54. Ke3 Kf6 55. Ke4 g5 56. Nb3 Bc6+ 57. Ke3 Ke5 58. Nc5 Bb5
+59. a4 Bf1 60. Ne4 g4 61. Nd2 Bg2 62. Kf2 Bd5 63. Kg3 Be6 64. Kf2 Kd4 65. Ke1
+Bd7 66. a5 Bb5 67. Kd1 Kc3 0-1
+
+[Event "Valles op B"]
+[Site "?"]
+[Date "2006.07.13"]
+[Round "9"]
+[White "Tarrago Domingo, M."]
+[Black "Sanchez Lopez, JM."]
+[Result "0-1"]
+[ECO "A89"]
+[WhiteElo "2075"]
+[BlackElo "2119"]
+[PlyCount "72"]
+[EventDate "2006.??.??"]
+
+1. Nf3 f5 2. c4 Nf6 3. Nc3 g6 4. g3 Bg7 5. Bg2 O-O 6. O-O d6 7. d4 Nc6 8. d5
+Ne5 9. Nxe5 dxe5 10. e4 f4 11. gxf4 Nh5 12. f5 a6 13. Be3 Qe8 14. a4 gxf5 15.
+exf5 Bxf5 16. f4 Qg6 17. Kh1 exf4 18. Bd4 Bd3 19. Bxg7 Bxf1 20. Be4 Bg2+ 21.
+Bxg2 Nxg7 22. Be4 Qh5 23. Bf3 Qh4 24. Qe2 Rf6 25. Rg1 Rg6 26. d6 Rxg1+ 27. Kxg1
+exd6 28. Bxb7 Re8 29. Bd5+ Kh8 30. Ne4 Nf5 31. b4 Re7 32. Qf2 Qg4+ 33. Kh1 Rg7
+34. Nc3 Qh3 35. Ne2 Qe3 36. Qf3 Qd2 0-1
+
+[Event "Ct. Catalunya eq. DH"]
+[Site "?"]
+[Date "2009.03.01"]
+[Round "5"]
+[White "Tarrago Domingo, M."]
+[Black "Gonzalez Rodriguez, RO."]
+[Result "0-1"]
+[ECO "A04"]
+[WhiteElo "2071"]
+[BlackElo "2342"]
+[PlyCount "48"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. Nf3 g6 2. c4 Bg7 3. g3 f5 4. Nc3 Nf6 5. Bg2 d6 6. O-O e5 7. e4 O-O 8. d3 Nc6
+9. Nd5 fxe4 10. Nxf6+ Qxf6 11. dxe4 Bg4 12. Qd5+ Be6 13. Qd3 h6 14. Be3 g5 15.
+a3 b6 16. b4 Rad8 17. Qc2 Bg4 18. Ne1 Nd4 19. Bxd4 exd4 20. Qd3 c5 21. f4 Be6
+22. fxg5 Qxg5 23. Nc2 b5 24. Rxf8+ Rxf8 0-1
+
+[Event "Sant Marti op A"]
+[Site "?"]
+[Date "2012.07.13"]
+[Round "1"]
+[White "Perpinya Rofes, LM."]
+[Black "Tarrago Domingo, M."]
+[Result "1/2-1/2"]
+[ECO "B15"]
+[WhiteElo "2401"]
+[BlackElo "2046"]
+[PlyCount "98"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Nxf6+ exf6 6. c3 g6 7. Bc4 Bg7 8.
+Qe2+ Qe7 9. Qxe7+ Kxe7 10. Nf3 Be6 11. Be2 Re8 12. O-O Kf8 13. Be3 Nd7 14. c4
+Nb6 15. b3 Rad8 16. Rfd1 Kg8 17. Rd2 Bf8 18. a3 Kg7 19. Ne1 f5 20. Bf3 Be7 21.
+Nc2 f6 22. Rad1 Bf7 23. d5 cxd5 24. c5 f4 25. Bd4 Nd7 26. b4 a5 27. Bc3 axb4
+28. axb4 Ne5 29. Bxd5 Bxd5 30. Rxd5 Kf7 31. Kf1 Ke6 32. R5d4 g5 33. Ra1 Nc6 34.
+Re4+ Kf5 35. Rae1 Rd3 36. Ba1 Rd2 37. Nd4+ Nxd4 38. Bxd4 Rd8 39. Bc3 Rc2 40.
+Rxe7 Rxc3 41. Rxb7 Rd2 42. Kg1 Rcc2 43. Rf1 h5 44. Rb6 g4 45. g3 h4 46. gxh4
+Rb2 47. c6 Rdc2 48. b5 g3 49. hxg3 Kg4 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "?"]
+[Date "2012.07.14"]
+[Round "2"]
+[White "Tarrago Domingo, M."]
+[Black "Venkatesh, MR."]
+[Result "0-1"]
+[ECO "E67"]
+[WhiteElo "2046"]
+[BlackElo "2506"]
+[PlyCount "60"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. Nf3 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d6 5. d4 O-O 6. Nc3 Nbd7 7. O-O e5 8. dxe5
+dxe5 9. Bg5 h6 10. Bxf6 Qxf6 11. Nd5 Qd6 12. e4 c6 13. Ne3 Qe7 14. Qc2 a5 15.
+Rad1 Nc5 16. Rd2 Ne6 17. Qd3 Rd8 18. Qe2 Nd4 19. Nxd4 exd4 20. Nc2 Qc5 21. b3
+b5 22. cxb5 cxb5 23. Ne1 b4 24. Nd3 Qb6 25. Rc1 Ba6 26. Rdc2 Bb5 27. Qd2 Ra7
+28. Rc8 Rxc8 29. Rxc8+ Kh7 30. f3 Qa6 0-1
+
+[Event "Sant Marti op A"]
+[Site "?"]
+[Date "2012.07.15"]
+[Round "3"]
+[White "Aranda Gonzalez, J."]
+[Black "Tarrago Domingo, M."]
+[Result "1-0"]
+[ECO "B10"]
+[WhiteElo "2245"]
+[BlackElo "2046"]
+[PlyCount "95"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c6 2. Nc3 d5 3. Nf3 dxe4 4. Nxe4 Nf6 5. Qe2 Nxe4 6. Qxe4 Qd5 7. Qe3 Bf5
+8. d3 e6 9. Be2 Be7 10. Bd2 Bf6 11. c4 Qd6 12. d4 Nd7 13. O-O O-O 14. Rad1 Bc2
+15. Rc1 Bg6 16. Rfd1 Rfe8 17. Bc3 Rac8 18. Ne5 Qe7 19. g3 Bxe5 20. dxe5 b6 21.
+Rd6 Nc5 22. Bf3 Red8 23. Rcd1 Nb7 24. Rxd8+ Rxd8 25. Rxd8+ Nxd8 26. b4 Qd7 27.
+Bd4 Nb7 28. Kg2 Qc7 29. c5 b5 30. Qa3 Nd8 31. Be3 h6 32. Qc3 Kf8 33. Qd4 Nb7
+34. h4 Ke7 35. g4 a5 36. a3 a4 37. h5 Bc2 38. g5 hxg5 39. Bxg5+ Kf8 40. h6 gxh6
+41. Bxh6+ Ke8 42. Bg5 Bb3 43. Qh4 Kd7 44. Qh8 Nd8 45. Bxd8 Qxd8 46. Bxc6+ Kc7
+47. Qxd8+ Kxd8 48. Bxb5 1-0
+
+[Event "Sant Marti op A"]
+[Site "?"]
+[Date "2012.07.16"]
+[Round "4"]
+[White "Tarrago Domingo, M."]
+[Black "De Azua Arpi, R."]
+[Result "1-0"]
+[ECO "D02"]
+[WhiteElo "2046"]
+[BlackElo "1952"]
+[PlyCount "117"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. Nf3 d5 2. d4 Nf6 3. Bf4 Bf5 4. e3 e6 5. c4 c6 6. Nc3 Nbd7 7. Rc1 Qb6 8. Qb3
+Qxb3 9. axb3 Bb4 10. Be2 h6 11. O-O Nh5 12. Bg3 Nxg3 13. hxg3 O-O 14. Rfd1 Rfe8
+15. Nh4 Bh7 16. Bd3 Bxd3 17. Rxd3 Nf6 18. Nf3 Ne4 19. Na2 Bd6 20. Nc3 Rad8 21.
+Nd2 f5 22. Ne2 g5 23. f4 Re7 24. c5 Bb8 25. Nxe4 fxe4 26. Rdd1 Rg7 27. Kf2 Rf8
+28. Rh1 e5 29. dxe5 Bxe5 30. Rxh6 Bxb2 31. Rch1 Ba3 32. Nd4 Re8 33. Nf5 Ree7
+34. Rh8+ Kf7 35. Nxg7 Kxg7 36. R1h7+ Kf6 37. fxg5+ Ke6 38. g6 Bb2 39. Rxe7+
+Kxe7 40. Rh7+ Kf6 41. Rxb7 Kxg6 42. Rxa7 d4 43. exd4 Bxd4+ 44. Ke2 Bxc5 45. Ra6
+Bd4 46. Rxc6+ Kg5 47. b4 Kg4 48. Rc4 Bb6 49. Rxe4+ Kxg3 50. Re6 Bc7 51. Rg6+
+Kf4 52. Kd3 Ke5 53. Kc4 Kf5 54. Rc6 Bg3 55. b5 Ke4 56. b6 Bf2 57. Re6+ Kf5 58.
+Kd5 Bg3 59. b7 1-0
+
+[Event "Sant Marti op A"]
+[Site "?"]
+[Date "2012.07.17"]
+[Round "5"]
+[White "Montalban Galvez, A."]
+[Black "Tarrago Domingo, M."]
+[Result "1/2-1/2"]
+[ECO "A39"]
+[WhiteElo "2204"]
+[BlackElo "2046"]
+[PlyCount "146"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. Nf3 Nf6 2. c4 c5 3. g3 g6 4. Bg2 Bg7 5. O-O O-O 6. d4 cxd4 7. Nxd4 Nc6 8.
+Nc3 Nxd4 9. Qxd4 d6 10. Qd3 Rb8 11. Bd2 Bd7 12. b3 Qc7 13. Rac1 Rfc8 14. h3 Bc6
+15. e4 b6 16. Rfe1 Qb7 17. Nd5 b5 18. Nb4 bxc4 19. Rxc4 e6 20. Rec1 Be8 21. e5
+Nd5 22. Nxd5 exd5 23. Bxd5 Qd7 24. Rxc8 Rxc8 25. Rxc8 Qxc8 26. exd6 Qxh3 27.
+Qc4 h5 28. Bg2 Qd7 29. Qc7 Be5 30. Be3 a6 31. Qxd7 Bxd7 32. Bc5 Bc3 33. Bd5 Kf8
+34. Kg2 Ke8 35. Kf3 Be6 36. Bc6+ Bd7 37. Bb7 a5 38. Ke3 g5 39. Kd3 Be1 40. Ke2
+Bc3 41. Bd5 h4 42. gxh4 gxh4 43. Kf3 Bb4 44. Bb6 a4 45. bxa4 Bxa4 46. Kg4 Bxd6
+47. Kxh4 Ke7 48. Kg4 Ba3 49. Kf4 Bc2 50. Ke3 f5 51. Kd2 Ba4 52. Bc7 Bc5 53. f4
+Bd4 54. Be5 Bc5 55. Kc3 Ba3 56. Kc4 Kd7 57. Bd4 Bc6 58. Bg8 Be4 59. Be5 Bc2 60.
+Kd4 Kc6 61. Ke3 Be4 62. Kf2 Bd5 63. Bh7 Be6 64. Kg3 Kd5 65. Kf3 Kc4 66. Kg3 Kd3
+67. Kh4 Ke4 68. Kg5 Be7+ 69. Bf6 Bd6 70. Be5 Bxe5 71. fxe5 Kxe5 72. a4 Bc8 73.
+a5 Kd6 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "?"]
+[Date "2012.07.18"]
+[Round "6"]
+[White "Tarrago Domingo, M."]
+[Black "Minguez Rodriguez, R."]
+[Result "0-1"]
+[ECO "A26"]
+[WhiteElo "2046"]
+[BlackElo "2237"]
+[PlyCount "102"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. Nf3 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 O-O 5. Nc3 d6 6. O-O e5 7. d3 Nc6 8. e4
+Ne8 9. Nd5 Ne7 10. d4 c6 11. Nxe7+ Qxe7 12. dxe5 dxe5 13. Qe2 Bg4 14. h3 Bxf3
+15. Qxf3 Nc7 16. Rd1 Ne6 17. b3 Nd4 18. Qd3 Rfd8 19. Bb2 a5 20. Bxd4 Rxd4 21.
+Qc2 Qa3 22. Rxd4 exd4 23. Rd1 a4 24. Bf1 axb3 25. axb3 c5 26. Bd3 Qb4 27. Rb1
+Ra3 28. Kg2 Bh6 29. Rb2 Qc3 30. Kf3 Qa5 31. Ke2 Qb6 32. Kf3 Bg5 33. Kg2 Bd8 34.
+Be2 Qb4 35. Bd1 Bf6 36. e5 Bxe5 37. Qe2 Bg7 38. Ra2 Rxa2 39. Qxa2 d3 40. Qa8+
+Bf8 41. Qc8 Kg7 42. Qd7 Qc3 43. Qxb7 Bd6 44. Qd5 Be5 45. Qxc5 Bd4 46. Qd5 Qb2
+47. Qf3 Qd2 48. h4 Bxf2 49. Kh3 Bg1 50. h5 Qh2+ 51. Kg4 Qxh5+ 0-1
+
+[Event "Sant Marti op A"]
+[Site "?"]
+[Date "2012.07.19"]
+[Round "7"]
+[White "Vilalta Vidal, X."]
+[Black "Tarrago Domingo, M."]
+[Result "1/2-1/2"]
+[ECO "C45"]
+[WhiteElo "1942"]
+[BlackElo "2046"]
+[PlyCount "20"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5 5. Nxc6 Qf6 6. Qf3 Qxf3 7. gxf3 dxc6
+8. Be3 Bxe3 9. fxe3 Ne7 10. Nc3 Be6 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "?"]
+[Date "2012.07.20"]
+[Round "8"]
+[White "Tarrago Domingo, M."]
+[Black "Franch Guiral, R."]
+[Result "1/2-1/2"]
+[ECO "E68"]
+[WhiteElo "2046"]
+[BlackElo "1948"]
+[PlyCount "53"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. Nf3 d6 2. d4 Nf6 3. g3 g6 4. Bg2 Bg7 5. c4 c6 6. O-O O-O 7. Nc3 Nbd7 8. e4
+e5 9. dxe5 Nxe5 10. Nxe5 dxe5 11. Qe2 Be6 12. Rd1 Qc7 13. f3 Rad8 14. Be3 b6
+15. Bf1 Rxd1 16. Rxd1 Rd8 17. Rd2 Ne8 18. Qd1 Rxd2 19. Qxd2 f5 20. Bf2 Qf7 21.
+Qd3 Bf6 22. b3 h5 23. h4 Qe7 24. Bh3 Ng7 25. Ne2 Kf8 26. Kh2 Qd7 27. Qxd7
+1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.13"]
+[Round "1"]
+[White "Tarrago Domingo, M."]
+[Black "Anurag, M."]
+[Result "0-1"]
+[ECO "A37"]
+[WhiteElo "2034"]
+[BlackElo "2418"]
+[PlyCount "72"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. Nf3 c5 2. c4 g6 3. Nc3 Bg7 4. g3 Nc6 5. Bg2 e5 6. d3 Nge7 7. e4 d6 8. O-O
+O-O 9. Be3 f5 10. Bg5 f4 11. Nd5 h6 12. Bxe7 Nxe7 13. Nxe7+ Qxe7 14. h3 h5 15.
+Nh2 Bh6 16. g4 f3 17. Bxf3 Bf4 18. Bg2 Qg5 19. Nf3 Qh6 20. g5 Bxg5 21. Nxg5
+Qxg5 22. Qc1 Rf4 23. Qe3 Be6 24. Rae1 Kh7 25. Kh2 Raf8 26. Re2 Qd8 27. Rg1 Qf6
+28. f3 g5 29. Rh1 g4 30. hxg4 hxg4 31. Kg1+ Kg7 32. fxg4 Rf1+ 33. Bxf1 Qxf1+
+34. Kh2 Rh8+ 35. Kg3 Rxh1 36. Qg5+ Kh7 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.14"]
+[Round "2"]
+[White "Andersen, G."]
+[Black "Tarrago Domingo, M."]
+[Result "0-1"]
+[ECO "D11"]
+[WhiteElo "1772"]
+[BlackElo "2034"]
+[PlyCount "128"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 g6 5. Bd3 Bg7 6. O-O O-O 7. Nbd2 Nbd7 8. Qc2
+Re8 9. Rb1 e5 10. dxe5 Nxe5 11. Nxe5 Rxe5 12. Nf3 Re8 13. c5 Ne4 14. b4 a6 15.
+a4 Qe7 16. Bb2 Bxb2 17. Qxb2 a5 18. Bxe4 Qxe4 19. Qd4 Bf5 20. Rb2 axb4 21. Rxb4
+Qxd4 22. Nxd4 Bd3 23. Ra1 Re7 24. Rb2 Ra5 25. Nb3 Ra8 26. Nd4 Bc4 27. a5 Rc8
+28. Rab1 Rcc7 29. Rb6 Kf8 30. g4 Kg7 31. h4 Ba6 32. Kg2 Re5 33. R1b3 Re4 34.
+Kg3 Ree7 35. h5 Re5 36. f4 Re4 37. hxg6 hxg6 38. Kf3 Re8 39. f5 Kf6 40. fxg6
+fxg6 41. Nb5 Bxb5 42. R3xb5 Ra8 43. a6 bxa6 44. Ra5 Ke5 45. Raxa6 Rxa6 46. Rxa6
+d4 47. Ra8 Rf7+ 48. Ke2 dxe3 49. Rd8 Ke4 50. Re8+ Kd5 51. Kxe3 Rf6 52. Rg8 Kxc5
+53. Ke4 Re6+ 54. Kf4 Kd4 55. Rd8+ Kc4 56. Kg5 c5 57. Kf4 Kc3 58. g5 c4 59. Rf8
+Kd3 60. Rf6 Re4+ 61. Kf3 c3 62. Rc6 Rc4 63. Rd6+ Rd4 64. Rxg6 c2 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.16"]
+[Round "4"]
+[White "Tarrago Domingo, M."]
+[Black "Vargas Drechsler, C."]
+[Result "1/2-1/2"]
+[ECO "A34"]
+[WhiteElo "2034"]
+[BlackElo "1903"]
+[PlyCount "40"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. Nf3 Nf6 2. c4 e6 3. g3 c5 4. Bg2 Be7 5. O-O O-O 6. Nc3 a6 7. d4 cxd4 8. Nxd4
+Qc7 9. Qd3 d6 10. b3 Nbd7 11. Bb2 Ne5 12. Qd2 Bd7 13. Rac1 Rac8 14. Rfd1 Rfd8
+15. Ne4 Nxe4 16. Bxe4 Nc6 17. Nxc6 Bxc6 18. Bxc6 Qxc6 19. Qf4 Qe8 20. Qg4 Bf8
+1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.17"]
+[Round "5"]
+[White "Tahay, A."]
+[Black "Tarrago Domingo, M."]
+[Result "1/2-1/2"]
+[ECO "B15"]
+[WhiteElo "1944"]
+[BlackElo "2034"]
+[PlyCount "77"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Nf6 5. Nxf6+ exf6 6. Nf3 Bd6 7. Bd3 O-O
+8. O-O Re8 9. c4 Nd7 10. Qc2 Nf8 11. Be3 Bg4 12. Nd2 Bh5 13. Ne4 Bg6 14. Nxd6
+Bxd3 15. Qxd3 Qxd6 16. g3 Rad8 17. Rad1 Ng6 18. Rfe1 Re7 19. d5 cxd5 20. Qxd5
+Qxd5 21. cxd5 b6 22. Rd4 Red7 23. Red1 Ne7 24. d6 Nf5 25. Rd5 Rxd6 26. Rxd6
+Rxd6 27. Rxd6 Nxd6 28. Kf1 Kf8 29. Ke2 Ke7 30. Kd3 Ke6 31. Bf4 Kd5 32. Bxd6
+Kxd6 33. Kc4 a6 34. a4 f5 35. f4 f6 36. b4 g5 37. h4 h6 38. b5 axb5+ 39. axb5
+1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.18"]
+[Round "6"]
+[White "Tarrago Domingo, M."]
+[Black "Gullaksen, E."]
+[Result "0-1"]
+[ECO "E91"]
+[WhiteElo "2034"]
+[BlackElo "2380"]
+[PlyCount "70"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. Nf3 g6 2. c4 Bg7 3. Nc3 d6 4. d4 Nf6 5. e4 O-O 6. Be2 Na6 7. O-O e5 8. dxe5
+dxe5 9. Qxd8 Rxd8 10. Bg5 Re8 11. Rad1 c6 12. Ne1 Nc5 13. f3 Ne6 14. Be3 Nd4
+15. Bd3 Be6 16. b3 Nd7 17. Nc2 a5 18. Ne2 Nxc2 19. Bxc2 a4 20. Nc3 axb3 21.
+axb3 Bf8 22. Na4 b5 23. cxb5 cxb5 24. Nb6 Nxb6 25. Bxb6 Ra2 26. Rf2 Rb8 27. Be3
+Rxc2 28. Rxc2 Bxb3 29. Rdd2 Bxc2 30. Rxc2 b4 31. Kf2 b3 32. Rb2 Ba3 33. Rb1 b2
+34. Ke2 Rc8 35. Bd2 Rc1 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.19"]
+[Round "7"]
+[White "De Azua Arpi, R."]
+[Black "Tarrago Domingo, M."]
+[Result "0-1"]
+[ECO "D10"]
+[WhiteElo "1943"]
+[BlackElo "2034"]
+[PlyCount "114"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Bg5 dxc4 5. a4 Qa5 6. Bxf6 exf6 7. e4 Bb4 8.
+Rc1 Be6 9. Nge2 Nd7 10. g3 Nb6 11. Bg2 Nxa4 12. Qc2 Nxc3 13. bxc3 Bd6 14. O-O
+O-O 15. Rb1 Qc7 16. f4 a5 17. f5 Bd7 18. Nf4 Bxf4 19. Rxf4 a4 20. Qd2 a3 21.
+Rg4 Kh8 22. Rh4 a2 23. Ra1 Qb6 24. Qe1 Qb2 25. Rf4 Ra3 26. Rf3 Rb3 27. g4 Qxa1
+28. Qxa1 Rb1+ 29. Rf1 Rxa1 30. Rxa1 Ra8 31. Kf2 Kg8 32. Ke2 Kf8 33. Kd2 Ke7 34.
+Bf1 b5 35. Kc2 Ra3 36. Kb2 Rb3+ 37. Kc2 Rb1 38. Rxb1 axb1=Q+ 39. Kxb1 Kd6 40.
+Kb2 c5 41. Ka3 Kc6 42. Be2 Kb6 43. Kb2 Bc6 44. d5 Bd7 45. Kc2 Kc7 46. Kd2 Kd6
+47. Ke3 Ke5 48. Bd1 b4 49. Bc2 b3 50. Bb1 Ba4 51. h3 h6 52. Kf3 b2 53. Ke3 Bd1
+54. Kf2 h5 55. Kg3 hxg4 56. hxg4 Be2 57. Kh4 Bd3 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.20"]
+[Round "8"]
+[White "Tarrago Domingo, M."]
+[Black "Forsaa, E."]
+[Result "0-1"]
+[ECO "A87"]
+[WhiteElo "2034"]
+[BlackElo "2293"]
+[PlyCount "80"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 f5 2. Nf3 Nf6 3. g3 g6 4. Bg2 Bg7 5. c4 O-O 6. Nc3 d6 7. O-O Qe8 8. Qc2
+e5 9. dxe5 dxe5 10. Rd1 c6 11. e3 Na6 12. a3 e4 13. Ne1 Be6 14. b3 Ng4 15. Bb2
+Nc5 16. Ne2 Ne5 17. Bxe5 Bxe5 18. Nd4 a5 19. Nxe6 Nxe6 20. Rab1 Qe7 21. a4 Rfd8
+22. Bf1 Nc5 23. Rxd8+ Rxd8 24. Rd1 Kf7 25. Be2 Qc7 26. Rxd8 Qxd8 27. Qd1 Qb6
+28. g4 fxg4 29. Bxg4 Ke7 30. f4 Bf6 31. Bc8 Qxb3 32. Qxb3 Nxb3 33. Bxb7 Kd7 34.
+Nc2 Nc5 35. Ba8 Nxa4 36. Nd4 Bxd4 37. exd4 Nb6 38. Bb7 Nxc4 39. d5 c5 40. Kf2
+Kd6 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.21"]
+[Round "9"]
+[White "Real Pereyra, DC."]
+[Black "Tarrago Domingo, M."]
+[Result "1-0"]
+[ECO "C25"]
+[WhiteElo "2076"]
+[BlackElo "2034"]
+[PlyCount "53"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nc3 Nc6 3. Bc4 d6 4. d3 Be6 5. Nd5 Na5 6. Nf3 c6 7. Ne3 Nxc4 8.
+dxc4 Nf6 9. Qd3 Qc7 10. O-O Be7 11. b3 O-O 12. Bb2 Nd7 13. Nf5 Bxf5 14. exf5 f6
+15. Ba3 Rfd8 16. Rad1 Nc5 17. Qe3 b6 18. b4 Nb7 19. Qb3 Kh8 20. Nh4 a5 21. Rd3
+axb4 22. Qxb4 Nc5 23. Rh3 Ra4 24. Qc3 Ne4 25. Qb3 Rda8 26. c5 Ng5 27. Ng6# 1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1970.10.25"]
+[Round "?"]
+[White "Tarrago Domingo, Miguel"]
+[Black "Ribera Arnal, Angel"]
+[Result "1/2-1/2"]
+[ECO "B43"]
+[PlyCount "143"]
+[EventDate "1970.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Nc3 Qc7 6. Be3 b5 7. a3 Bb7 8. Qd2
+Nf6 9. Bd3 Nc6 10. Nf3 Be7 11. Bf4 d6 12. O-O O-O 13. Rad1 Rfd8 14. Rfe1 Ng4
+15. h3 Nge5 16. Nxe5 Nxe5 17. Bxe5 dxe5 18. Na2 Bc5 19. Qc3 Rac8 20. Kf1 Qb6
+21. Qd2 Kf8 22. b4 Be7 23. Qe3 Qc6 24. Rb1 h6 25. Rb3 Bg5 26. Qe2 Qb6 27. g3
+Rd4 28. h4 Bd8 29. Qe3 Qd6 30. Qe2 Bb6 31. Rc3 Rxc3 32. Nxc3 Qc6 33. Na2 f5 34.
+f3 f4 35. g4 Rd7 36. Rb1 Qd6 37. Kg2 Rc7 38. Kf1 Rc8 39. Kg2 Qd4 40. Qe1 Rc6
+41. Rb3 Qd8 42. Rb1 Bd4 43. Rb3 Qc7 44. Qd2 Be3 45. Qe2 Bc8 46. Qd1 Bd7 47. Qe2
+Be8 48. Kf1 Bb6 49. Rb1 Qe7 50. Qe1 Bd8 51. Kg2 Qxh4 52. Qxh4 Bxh4 53. Rh1 Be7
+54. Rb1 Bd8 55. Rb3 Bb6 56. Rc3 Rxc3 57. Nxc3 Bd4 58. Nb1 h5 59. Kh3 g5 60. c3
+Be3 61. Be2 h4 62. Kg2 Bc1 63. Bf1 Ke7 64. Kf2 Kd6 65. Ke2 Kc6 66. Kd3 Kb6 67.
+Kc2 Be3 68. Kd3 Bc6 69. Bg2 a5 70. Bh3 axb4 71. axb4 Kc7 72. Na3 1/2-1/2

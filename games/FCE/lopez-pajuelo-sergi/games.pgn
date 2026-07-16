@@ -1,0 +1,496 @@
+[Event "Ciutat de Sabadell op B"]
+[Site "Sabadell"]
+[Date "2016.09.03"]
+[Round "3"]
+[White "Lopez Pajuelo, Sergi"]
+[Black "Gonzalez Garcia, Sergi"]
+[Result "1-0"]
+[ECO "A52"]
+[WhiteElo "1885"]
+[BlackElo "1743"]
+[PlyCount "29"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e5 3. dxe5 Ng4 4. Nf3 Nc6 5. e3 Bb4+ 6. Bd2 Qe7 7. Be2 Ngxe5 8.
+Nxe5 Nxe5 9. O-O O-O 10. Nc3 c6 11. a3 Bd6 12. Ne4 Nxc4 13. Nxd6 Nxb2 14. Nxc8
+Qe5 15. Qc2 1-0
+
+[Event "Ciutat de Sabadell op B"]
+[Site "Sabadell"]
+[Date "2016.09.04"]
+[Round "4"]
+[White "Bielecki, Pawel"]
+[Black "Lopez Pajuelo, Sergi"]
+[Result "1-0"]
+[ECO "C06"]
+[WhiteElo "2042"]
+[BlackElo "1885"]
+[PlyCount "55"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 cxd4 8. cxd4
+f6 9. exf6 Nxf6 10. O-O Bd6 11. Nf3 O-O 12. Bf4 Bxf4 13. Nxf4 Ne4 14. g3 Ng5
+15. Ne5 Nxe5 16. dxe5 Qb6 17. Qg4 Ne4 18. Bxe4 dxe4 19. Nh5 Rf7 20. Rad1 Kh8
+21. Rd6 Qc7 22. Nf4 Bd7 23. Qh5 Kg8 24. Rfd1 Raf8 25. Qg4 Qc8 26. h4 Kh8 27. h5
+Rg8 28. Ng6+ 1-0
+
+[Event "Ciutat de Sabadell op B"]
+[Site "Sabadell"]
+[Date "2016.09.05"]
+[Round "5"]
+[White "Brunet Gil, Pol"]
+[Black "Lopez Pajuelo, Sergi"]
+[Result "0-1"]
+[ECO "C01"]
+[WhiteElo "1712"]
+[BlackElo "1885"]
+[PlyCount "50"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. Nf3 Bd6 5. Bd3 Nc6 6. O-O Nge7 7. Re1 Bg4 8.
+c3 Qd7 9. Nbd2 f6 10. Nf1 g5 11. b4 O-O-O 12. Ne3 Bf5 13. Nxf5 Nxf5 14. Qa4 Kb8
+15. b5 Nce7 16. Ba3 Bxa3 17. Qxa3 Ng6 18. Qb2 Nf4 19. Qc2 Nd6 20. a4 Qg4 21.
+Bf1 Ne4 22. Kh1 h5 23. Ng1 Qf5 24. Rad1 Nd3 25. Nh3 Nxe1 0-1
+
+[Event "Ciutat de Sabadell op B"]
+[Site "Sabadell"]
+[Date "2016.09.06"]
+[Round "6"]
+[White "Lopez Pajuelo, Sergi"]
+[Black "Carbo Hors, David"]
+[Result "1-0"]
+[ECO "A82"]
+[WhiteElo "1885"]
+[BlackElo "1860"]
+[PlyCount "71"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 f5 2. e4 d6 3. Nc3 g6 4. Be2 Bg7 5. h4 Nf6 6. Nf3 Nc6 7. d5 fxe4 8. dxc6
+exf3 9. Bxf3 bxc6 10. Bxc6+ Bd7 11. Bxa8 Qxa8 12. O-O Bc6 13. f3 Nh5 14. Ne2
+Qc8 15. c3 e5 16. Be3 Qd8 17. Qe1 h6 18. g4 Nf6 19. Qg3 O-O 20. Bxa7 Qa8 21.
+Be3 Nd5 22. Bd2 Qa7+ 23. Qf2 Qb7 24. b3 e4 25. f4 Qc8 26. Qg3 e3 27. Be1 Nf6
+28. Nd4 Bb7 29. f5 Ne4 30. Qxe3 Be5 31. Ne6 Rf6 32. Qxh6 Qd7 33. g5 gxf5 34.
+gxf6 Bxf6 35. Qg6+ Kh8 36. Rxf5 1-0
+
+[Event "Ciutat de Sabadell op B"]
+[Site "Sabadell"]
+[Date "2016.09.09"]
+[Round "9"]
+[White "Lopez Pajuelo, Sergi"]
+[Black "Oset Teixidor, Guerau"]
+[Result "1-0"]
+[ECO "A66"]
+[WhiteElo "1885"]
+[BlackElo "1968"]
+[PlyCount "41"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e6 4. Nc3 exd5 5. cxd5 g6 6. e4 d6 7. f4 Bg7 8. e5 Ng4
+9. Bb5+ Kf8 10. Nf3 dxe5 11. fxe5 Nxe5 12. Be3 Qe7 13. Ne4 b6 14. d6 Nxf3+ 15.
+Qxf3 Qh4+ 16. Nf2 Qb4+ 17. Bd2 Qxb5 18. Qxa8 Qxb2 19. O-O Bd4 20. Bh6+ Ke8 21.
+Rae1+ 1-0
+
+[Event "Montcada op B"]
+[Site "Montcada i Reixac"]
+[Date "2016.06.30"]
+[Round "6"]
+[White "Lopez Pajuelo, Sergi"]
+[Black "Valarezzo Ricard, Pedro"]
+[Result "1-0"]
+[ECO "A56"]
+[WhiteElo "1813"]
+[BlackElo "1820"]
+[PlyCount "90"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e5 4. Bg5 d6 5. Nc3 Be7 6. Bxf6 Bxf6 7. e4 Nd7 8. Bd3
+a6 9. Nge2 Bg5 10. O-O O-O 11. Ng3 g6 12. a3 a5 13. Rb1 Qf6 14. b4 axb4 15.
+axb4 cxb4 16. Rxb4 Nc5 17. Na4 Nxa4 18. Rxa4 Bd7 19. Rb4 Rfb8 20. Qb3 Bd2 21.
+Rxb7 Rxb7 22. Qxb7 Qd8 23. Rb1 Bg4 24. h3 Bd7 25. Qb6 Qe7 26. Qc7 Rc8 27. Qa7
+Bc3 28. Rb7 Rd8 29. Ne2 Bd2 30. c5 Qe8 31. c6 Bc8 32. Rb8 Bxh3 33. Rxd8 Qxd8
+34. gxh3 Bg5 35. Qd7 Qf6 36. c7 Be3 37. c8=Q+ Kg7 38. Qg4 Qxf2+ 39. Kh1 Qf1+
+40. Kh2 h5 41. Qg2 Qd1 42. Ng3 h4 43. Nf5+ Kh7 44. Qf8 Qg1+ 45. Qxg1 Bxg1+ 1-0
+
+[Event "Montcada op B"]
+[Site "Montcada i Reixac"]
+[Date "2016.07.01"]
+[Round "7"]
+[White "Palacios Pena, Gerardo"]
+[Black "Lopez Pajuelo, Sergi"]
+[Result "0-1"]
+[ECO "A46"]
+[WhiteElo "1903"]
+[BlackElo "1813"]
+[PlyCount "100"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 c5 3. c3 g6 4. Bf4 Bg7 5. e3 O-O 6. h3 d6 7. Nbd2 Nc6 8. Bc4
+Bf5 9. O-O a6 10. Qe2 b5 11. Bd3 Bxd3 12. Qxd3 Rc8 13. Rfd1 Qb6 14. d5 c4 15.
+Qc2 Nxd5 16. Nxc4 Qc5 17. Rxd5 Qxc4 18. Qd3 Qxd3 19. Rxd3 e5 20. Bg3 e4 21.
+Rxd6 exf3 22. gxf3 Rfd8 23. Rad1 Rxd6 24. Rxd6 Bf8 25. Rd7 Bg7 26. Kf1 Be5 27.
+Ke2 Bxg3 28. fxg3 Kf8 29. Rd5 Ke7 30. Kd3 Rd8 31. Rxd8 Nxd8 32. c4 b4 33. c5
+Ke6 34. Kc4 Nc6 35. f4 f6 36. e4 g5 37. a3 bxa3 38. bxa3 h5 39. Kd3 Ne7 40. Kd4
+Nc6+ 41. Kd3 Na5 42. Kd4 Nb3+ 43. Kc4 Nd2+ 44. Kd3 Nf1 45. Kd4 Nxg3 46. f5+ Kd7
+47. Kd5 g4 48. h4 Nxf5 49. exf5 g3 50. c6+ Kc7 0-1
+
+[Event "Montcada op B"]
+[Site "Montcada i Reixac"]
+[Date "2016.07.02"]
+[Round "8"]
+[White "Lopez Pajuelo, Sergi"]
+[Black "Rios Torondell, Jaume"]
+[Result "1-0"]
+[ECO "A32"]
+[WhiteElo "1813"]
+[BlackElo "1902"]
+[PlyCount "157"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 c5 4. g3 cxd4 5. Nxd4 Nc6 6. Nxc6 bxc6 7. Bg2 Bc5 8.
+O-O O-O 9. Nc3 d5 10. Qc2 Be7 11. Rd1 Ba6 12. b3 Qc8 13. cxd5 cxd5 14. Bb2 Rb8
+15. Rac1 Rb7 16. Nxd5 Qxc2 17. Nxe7+ Rxe7 18. Rxc2 Ree8 19. Ba3 Rc8 20. Rdc1
+Rxc2 21. Rxc2 Rc8 22. Rd2 Nd5 23. Bxd5 exd5 24. e3 Bb7 25. Kf1 f6 26. Ke2 Kf7
+27. Kd1 Ke6 28. Rd4 Bc6 29. Kd2 g6 30. Bc5 a6 31. Rb4 Bd7 32. Rb6+ Rc6 33.
+Rxc6+ Bxc6 34. a4 f5 35. f4 Kd7 36. Kc3 Bb7 37. Kd4 Kc6 38. Bb4 Ba8 39. Ke5 Kd7
+40. Kf6 d4 41. exd4 Bd5 42. Bc5 Bxb3 43. a5 Bc4 44. Kg7 Ke8 45. Kxh7 Kf7 46.
+Kh6 Bd5 47. Kg5 Bf3 48. h3 Bg2 49. Kh4 Be4 50. g4 fxg4 51. hxg4 Kf6 52. Bd6 Bf3
+53. Be5+ Kf7 54. Kg5 Be4 55. f5 gxf5 56. gxf5 Bg2 57. Kf4 Ke7 58. Bg7 Kf7 59.
+f6 Ke6 60. Kg5 Be4 61. Bf8 Kf7 62. Be7 Ke6 63. Kf4 Bd5 64. Kg4 Be4 65. Kg5 Kf7
+66. Kf4 Bd5 67. Ke5 Bc4 68. d5 Bb3 69. Kd6 Ba2 70. Kc6 Ke8 71. d6 Be6 72. Kc7
+Bf5 73. f7+ Kxf7 74. d7 Bxd7 75. Kxd7 Kg7 76. Kc7 Kf7 77. Kb7 Kxe7 78. Kxa6 Kd8
+79. Kb7 1-0
+
+[Event "Montcada op B"]
+[Site "Montcada i Reixac"]
+[Date "2016.07.03"]
+[Round "9"]
+[White "Garcia Ruiz, Adrian"]
+[Black "Lopez Pajuelo, Sergi"]
+[Result "1-0"]
+[ECO "C13"]
+[WhiteElo "1875"]
+[BlackElo "1813"]
+[PlyCount "63"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Be7 5. e5 Nfd7 6. h4 Nc6 7. Qg4 f6 8. exf6
+Nxf6 9. Qd1 O-O 10. Nf3 h6 11. Bxf6 Bxf6 12. Qd2 a5 13. O-O-O b6 14. Bb5 Qd6
+15. Kb1 Ba6 16. g4 Be7 17. Qe3 Bxb5 18. Nxb5 Qd7 19. g5 h5 20. Rde1 Bd6 21.
+Nxd6 Qxd6 22. g6 Rf6 23. Ne5 Re8 24. Qe2 Rf5 25. Qb5 Ref8 26. Nxc6 Rxf2 27. Ne5
+c5 28. Rhf1 cxd4 29. Rxf2 Rxf2 30. Rf1 Qc5 31. Qe8+ Rf8 32. Qxe6+ 1-0
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.04"]
+[Round "1"]
+[White "Ayats Llobera, Gerard"]
+[Black "Lopez Pajuelo, Sergi"]
+[Result "1-0"]
+[ECO "E61"]
+[WhiteElo "2261"]
+[BlackElo "1947"]
+[PlyCount "63"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. Bg5 d6 5. e3 c6 6. Nf3 O-O 7. Be2 Qc7 8. O-O
+Nbd7 9. Qc2 e5 10. Rfd1 Re8 11. Bh4 Nb6 12. dxe5 dxe5 13. Bxf6 Bxf6 14. Ne4 Be7
+15. c5 Nd5 16. Nd6 Bxd6 17. cxd6 Qxd6 18. e4 Nb4 19. Qc3 Qe7 20. a3 Na6 21.
+Bxa6 bxa6 22. Nd2 Bb7 23. Nc4 Qc7 24. Rd6 Re7 25. Rad1 Rae8 26. f3 Ba8 27. h4
+h5 28. Qe3 Kg7 29. Qg5 Qc8 30. Ne3 Kh7 31. Nf5 Kg8 32. Nxe7+ 1-0
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.05"]
+[Round "2"]
+[White "Lopez Pajuelo, Sergi"]
+[Black "Rodriguez Izquierdo, Luis"]
+[Result "0-1"]
+[ECO "A56"]
+[WhiteElo "1947"]
+[BlackElo "2088"]
+[PlyCount "124"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e5 4. Nc3 d6 5. Bg5 Be7 6. Bxf6 Bxf6 7. Nf3 O-O 8. e3
+g6 9. Be2 Bg7 10. h4 h6 11. Nd2 f5 12. Qc2 Na6 13. O-O-O Nc7 14. Rdg1 a6 15. g4
+Bd7 16. gxf5 gxf5 17. Rg2 Kh7 18. Rhg1 Rg8 19. Bh5 Qf6 20. Bg6+ Kh8 21. Qd1
+Raf8 22. Qh5 Qe7 23. Nf3 Be8 24. Ng5 Rf6 25. Bxe8 Qxe8 26. Qxe8 Nxe8 27. Ne6
+Rf7 28. Rg6 Kh7 29. a3 Nf6 30. Nxg7 Rgxg7 31. Rxg7+ Rxg7 32. Rxg7+ Kxg7 33. b4
+Kg6 34. bxc5 dxc5 35. Ne2 Kh5 36. Ng3+ Kg4 37. d6 Nd7 38. Kd2 f4 39. exf4 exf4
+40. Ne2 f3 41. Ng1 Ne5 42. Kc3 b6 43. a4 a5 44. Kc2 Kxh4 45. Nxf3+ Nxf3 46. d7
+Nd4+ 47. Kd3 Nc6 48. Ke4 Kg5 49. Kd5 Nd8 50. Kd6 Kf6 51. Kc7 Ne6+ 52. Kxb6 h5
+53. Kxa5 Ke7 54. Kb6 Kxd7 55. a5 h4 56. a6 h3 57. f4 h2 58. f5 Nd8 59. f6 h1=Q
+60. f7 Nxf7 61. Ka7 Qb1 62. Ka8 Kc7 0-1
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.06"]
+[Round "3"]
+[White "Amer, Said Salim Al Maash"]
+[Black "Lopez Pajuelo, Sergi"]
+[Result "1/2-1/2"]
+[ECO "C14"]
+[WhiteElo "2025"]
+[BlackElo "1947"]
+[PlyCount "90"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Be7 5. e5 Nfd7 6. h4 Nc6 7. Nf3 f6 8. exf6
+Nxf6 9. Bb5 O-O 10. Qe2 h6 11. Bxc6 bxc6 12. Ne5 c5 13. dxc5 Bxc5 14. O-O-O Bd6
+15. f4 c5 16. Rh3 Qe8 17. Bxf6 Rxf6 18. Ne4 Bxe5 19. fxe5 Rf4 20. Nxc5 Qc6 21.
+Rc3 d4 22. Rc4 Ba6 23. Nxa6 Qxa6 24. Kb1 Rxh4 25. b3 Rb8 26. g3 Rh3 27. Qd3
+Rxg3 28. Qxg3 Qxc4 29. Qf4 Qc3 30. Qxd4 Qxd4 31. Rxd4 g5 32. c4 h5 33. Kc2 Kf7
+34. Kd3 Kg6 35. Ke4 Rf8 36. c5 Rf4+ 37. Ke3 Rxd4 38. Kxd4 Kf7 39. c6 Ke7 40. b4
+g4 41. Ke3 g3 42. b5 h4 43. a4 Kd8 44. Kf3 Kc7 45. Kg2 a6 1/2-1/2
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.07"]
+[Round "4"]
+[White "Lopez Pajuelo, Sergi"]
+[Black "Rojano Cano, Francisco Jose"]
+[Result "0-1"]
+[ECO "E16"]
+[WhiteElo "1947"]
+[BlackElo "2071"]
+[PlyCount "134"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb4+ 5. Bd2 Qe7 6. Bg2 Bb7 7. O-O Bxd2 8.
+Qxd2 O-O 9. Nc3 d6 10. d5 c5 11. Nh4 exd5 12. cxd5 Qd7 13. e4 b5 14. Nf5 b4 15.
+Qg5 Ne8 16. Ne2 f6 17. Qd2 g6 18. Nh6+ Kh8 19. Nf4 Ng7 20. Bh3 Qe7 21. Ne6 Bc8
+22. Rfd1 Re8 23. Bg2 a5 24. f4 Ra6 25. f5 Ra7 26. Qf4 g5 27. Qg4 Nd7 28. h4 Ne5
+29. Qh3 g4 30. Nxg4 Nxg4 31. Qxg4 Rg8 32. Nxg7 Rxg7 33. Qf4 Ba6 34. Bf1 Bxf1
+35. Rxf1 Ra8 36. Rf3 Rag8 37. Re1 Rg4 38. Qe3 Qe5 39. Kf2 Qxb2+ 40. Re2 Qe5 41.
+Qd3 c4 42. Qe3 a4 43. Re1 c3 44. Rb1 Rxe4 45. Qh6 Qd4+ 46. Kf1 c2 47. Rc1 Reg4
+48. Kg2 Rxh4 49. Qe3 Qxe3 50. Rxe3 Rc4 51. Re7 h6 52. Rb7 Rg7 53. Rb6 Re7 54.
+Kf3 Rc3+ 55. Kf2 b3 56. axb3 axb3 57. Kg2 h5 58. Kh3 Kg7 59. Kh4 Kh6 60. Rb8
+Re4+ 61. Kh3 Kg5 62. Kg2 Rd4 63. Rg8+ Kxf5 64. Rf1+ Ke4 65. Re8+ Kd3 66. Rf3+
+Kd2 67. Rf2+ Kc1 0-1
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.08"]
+[Round "5"]
+[White "Jul Perez, Alberto"]
+[Black "Lopez Pajuelo, Sergi"]
+[Result "1-0"]
+[ECO "C18"]
+[WhiteElo "2020"]
+[BlackElo "1947"]
+[PlyCount "165"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Nc6 7. Qg4 Kf8 8. Nf3
+Qa5 9. Bd2 Qa4 10. Ra2 c4 11. Be2 Nge7 12. O-O b5 13. Ng5 h6 14. Nh3 Rb8 15.
+Rfa1 Qa5 16. Qf4 Ng6 17. Qe3 Nce7 18. f4 Qc7 19. Bh5 a5 20. g4 Nc6 21. Bxg6
+fxg6 22. Rf1 Kg8 23. Qf3 Qf7 24. Raa1 Bd7 25. Nf2 b4 26. Nd1 b3 27. cxb3 Rxb3
+28. Ne3 Ne7 29. Rfb1 a4 30. Nc2 Kh7 31. Nb4 Ra8 32. Qd1 g5 33. Qc2+ Kg8 34.
+fxg5 Qf3 35. Qd1 Qh3 36. Qf1 Qxg4+ 37. Qg2 Qxg2+ 38. Kxg2 Nf5 39. gxh6 gxh6 40.
+Rg1 Kh7 41. Kf2 Rf8 42. Ke2 Bb5 43. Kd1 Nh4 44. Kc2 Rf2 45. Raf1 Rf3 46. Rxf3
+Nxf3 47. Rf1 Nxd2 48. Kxd2 Rxa3 49. Rf7+ Kg8 50. Re7 Rb3 51. Rxe6 a3 52. Rb6
+Be8 53. Rb8 Kf8 54. Ra8 Rb2+ 55. Ke3 Rxh2 56. Nxd5 a2 57. Nf6 Kf7 58. Nxe8 Rh3+
+59. Ke4 Rxc3 60. Nd6+ Ke7 61. Ra7+ Kd8 62. Rxa2 Rc1 63. Rh2 c3 64. Kd3 h5 65.
+Rxh5 c2 66. Kd2 Rd1+ 67. Kxc2 Rxd4 68. Kc3 Rd5 69. Kc4 Rd1 70. Nf5 Re1 71. Kd5
+Ra1 72. Rh8+ Kc7 73. Ke6 Re1 74. Rh7+ Kd8 75. Rd7+ Ke8 76. Ra7 Kd8 77. Kf6 Rc1
+78. e6 Rc6 79. Ra8+ Kc7 80. Rc8+ Kxc8 81. Ne7+ Kd8 82. Nxc6+ Ke8 83. e7 1-0
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.09"]
+[Round "6"]
+[White "Cespedes Llaverias, Llibert"]
+[Black "Lopez Pajuelo, Sergi"]
+[Result "1/2-1/2"]
+[ECO "C15"]
+[WhiteElo "1996"]
+[BlackElo "1947"]
+[PlyCount "68"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. Nge2 Nc6 5. a3 Ba5 6. Be3 Nge7 7. g3 e5 8. Bg2
+dxe4 9. Bxe4 Bxc3+ 10. bxc3 O-O 11. O-O Bh3 12. Re1 f5 13. Bh1 Nd5 14. Bg5 Qxg5
+15. Bxd5+ Kh8 16. f4 exf4 17. Nxf4 Bg4 18. Qd3 Nd8 19. Re5 Qh6 20. Qe3 g5 21.
+Re8 Nc6 22. Rxa8 Rxa8 23. Bxc6 gxf4 24. Qe5+ Qg7 25. Qxg7+ Kxg7 26. Bxb7 Rb8
+27. Bd5 fxg3 28. hxg3 Re8 29. Rb1 Re3 30. Kf2 Rxc3 31. Bb3 Bf3 32. Re1 Be4 33.
+Re3 Rc6 34. c4 Rh6 1/2-1/2
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.10"]
+[Round "7"]
+[White "Lopez Pajuelo, Sergi"]
+[Black "Ros Alonso, Joana"]
+[Result "1-0"]
+[ECO "D93"]
+[WhiteElo "1947"]
+[BlackElo "1966"]
+[PlyCount "133"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Bf4 Bg7 5. e3 O-O 6. Nf3 c5 7. dxc5 Qa5 8. Rc1
+dxc4 9. Bxc4 Qxc5 10. Qd4 Qa5 11. Qe5 Nc6 12. Qxa5 Nxa5 13. Be2 Be6 14. O-O
+Rac8 15. Rfd1 Bc4 16. Ne5 Bxe2 17. Nxe2 Nh5 18. Nd7 Nxf4 19. Nxf4 Rxc1 20. Rxc1
+Rd8 21. b4 Nc6 22. b5 Rxd7 23. bxc6 bxc6 24. g3 e5 25. Ne2 Rc7 26. Nc3 Bf8 27.
+Nd5 Rc8 28. Nf6+ Kg7 29. Nd7 f6 30. Rb1 Rc7 31. Nb8 c5 32. Na6 Rd7 33. Nb8 Rc7
+34. Na6 Rc8 35. Rb7+ Kh6 36. Rc7 Rxc7 37. Nxc7 Kg7 38. Kf1 Kf7 39. Ke2 Bd6 40.
+Nb5 Bb8 41. Kd3 a6 42. Nc3 Ke6 43. Kc4 Ba7 44. Ne4 f5 45. Nxc5+ Kd6 46. Nxa6 f4
+47. exf4 Bxf2 48. fxe5+ Kxe5 49. Nc5 Bg1 50. a4 Kd6 51. Ne4+ Ke5 52. Ng5 Kf5
+53. Nf3 Ba7 54. Nd4+ Kg4 55. Nc6 Bf2 56. a5 Kf5 57. Kd5 h5 58. Nd4+ Kg4 59. a6
+Bxg3 60. hxg3 Kxg3 61. a7 h4 62. a8=Q h3 63. Ke5 Kh2 64. Qf3 g5 65. Ne2 g4 66.
+Qg3+ Kh1 67. Qg1# 1-0
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.11"]
+[Round "8"]
+[White "Lopez Pajuelo, Sergi"]
+[Black "Salagran Ferragut, Guillem"]
+[Result "1/2-1/2"]
+[ECO "E15"]
+[WhiteElo "1947"]
+[BlackElo "2201"]
+[PlyCount "150"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6 5. Qa4 Bb7 6. Bg2 c5 7. dxc5 bxc5 8. O-O
+Be7 9. Nc3 O-O 10. Rd1 Qb6 11. Bf4 d6 12. Rab1 Ne4 13. Nd2 Bc6 14. Qc2 Nxd2 15.
+Rxd2 Bxg2 16. Kxg2 Nc6 17. Rbd1 Nd4 18. Qb1 f5 19. Be3 Bf6 20. Bxd4 cxd4 21.
+Nb5 Qc6+ 22. Kg1 Qxc4 23. Nxd4 Bxd4 24. Rxd4 Qxe2 25. Rxd6 f4 26. R1d2 Qh5 27.
+Qe4 f3 28. Qxe6+ Kh8 29. h4 Rae8 30. Qh3 h6 31. Qf1 Qa5 32. b3 Qf5 33. Rd7 Re2
+34. Qa1 Rg8 35. R2d6 Kh7 36. Qc1 Qh5 37. Qb1+ Kh8 38. Rd8 Rge8 39. Qd1 Kh7 40.
+Qd3+ Kh8 41. Rxe8+ Rxe8 42. Rd8 Rxd8 43. Qxd8+ Kh7 44. Qd3+ Kh8 45. Qe4 Qf7 46.
+Kh2 g5 47. Qd4+ Kh7 48. Qe4+ Kg7 49. hxg5 hxg5 50. Qe5+ Kg6 51. g4 Qh7+ 52. Kg3
+Qh4+ 53. Kxf3 Qh1+ 54. Ke2 Qg2 55. Qf5+ Kh6 56. Qf6+ Kh7 57. Qf3 Qg1 58. Qf5+
+Kh8 59. Qf6+ Kh7 60. Qxg5 Qa1 61. Qe7+ Kg6 62. Qe4+ Kf6 63. Qf5+ Kg7 64. g5
+Qxa2+ 65. Kf1 Qxb3 66. Qf6+ Kg8 67. g6 Qd1+ 68. Kg2 Qd7 69. Kg3 a5 70. f4 a4
+71. f5 a3 72. Qh4 Qd3+ 73. Kg2 Qc2+ 74. Kg1 Qd1+ 75. Kf2 Qd2+ 1/2-1/2
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.12"]
+[Round "9"]
+[White "Monroy Garzon, Nataly Alejandra"]
+[Black "Lopez Pajuelo, Sergi"]
+[Result "1-0"]
+[ECO "E94"]
+[WhiteElo "1947"]
+[BlackElo "1947"]
+[PlyCount "79"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. Nf3 O-O 5. e4 d6 6. Be2 Nbd7 7. O-O e5 8. Be3
+Re8 9. d5 a5 10. Nd2 b6 11. a3 Bb7 12. b4 c6 13. dxc6 Bxc6 14. Nd5 Bxd5 15.
+cxd5 Qb8 16. Bb5 axb4 17. axb4 Rc8 18. Qb3 Qc7 19. Rxa8 Rxa8 20. f3 Qa7 21. Nc4
+Qa2 22. Qxa2 Rxa2 23. Nxb6 Nxb6 24. Bxb6 Nh5 25. Rf2 Ra1+ 26. Bf1 Rb1 27. b5
+Nf4 28. Rc2 Nd3 29. Be3 f5 30. Rc8+ Kf7 31. Rc7+ Kf6 32. Rc3 Nf4 33. Rc1 Rb3
+34. Bf2 Bh6 35. Ra1 Nd3 36. Bxd3 Rxd3 37. Rb1 Ra3 38. b6 Ra8 39. b7 Rb8 40. Ba7
+1-0

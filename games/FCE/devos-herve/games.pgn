@@ -1,0 +1,80 @@
+[Event "Badalona op B"]
+[Site "Badalona"]
+[Date "2016.08.03"]
+[Round "2"]
+[White "Petit Montes, Marc"]
+[Black "Devos, Herve"]
+[Result "1-0"]
+[ECO "A01"]
+[WhiteElo "1770"]
+[BlackElo "1885"]
+[PlyCount "84"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. b3 e5 2. Bb2 Nc6 3. e3 Bb4 4. Bb5 d6 5. Ne2 Nge7 6. O-O O-O 7. Bxc6 Nxc6 8.
+d4 Qg5 9. Nd2 Bh3 10. Ng3 Bg4 11. Nf3 Qg6 12. h3 Bxf3 13. gxf3 exd4 14. Bxd4
+Nxd4 15. Qxd4 Bc5 16. Qd3 f5 17. f4 Rae8 18. Kh2 c6 19. Rad1 Rd8 20. b4 Bb6 21.
+a4 Qf7 22. b5 d5 23. Qc3 Rd6 24. Ne2 Qh5 25. Rg1 Rg6 26. Rxg6 Qxg6 27. Rg1 Qf6
+28. Qd3 Kf7 29. c4 Rd8 30. Rd1 Qe6 31. Nd4 Bxd4 32. Qxd4 Qd7 33. Qxa7 Qc8 34.
+Qb6 cxb5 35. axb5 Rd7 36. Rxd5 Rxd5 37. cxd5 Ke7 38. Qd4 Kf7 39. Qe5 Qd7 40. b6
+h6 41. Kg3 Qe7 42. Qxf5+ Kg8 1-0
+
+[Event "Badalona op B"]
+[Site "Badalona"]
+[Date "2016.08.09"]
+[Round "8"]
+[White "Flores Linan, Jose Luis"]
+[Black "Devos, Herve"]
+[Result "1/2-1/2"]
+[ECO "A52"]
+[WhiteElo "1824"]
+[BlackElo "1885"]
+[PlyCount "178"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e5 3. dxe5 Ng4 4. Nf3 Bc5 5. e3 Nc6 6. Nc3 O-O 7. Bd2 Re8 8.
+Be2 Ngxe5 9. O-O Nxf3+ 10. Bxf3 Ne5 11. Be2 Ng6 12. a3 a5 13. Qc2 b6 14. Bf3
+Rb8 15. Ne4 Bf8 16. g3 d6 17. Nc3 Ne5 18. Be2 Bh3 19. Rfc1 Qd7 20. Nd5 Re6 21.
+Qe4 Rbe8 22. Nf4 Rh6 23. Qh1 g5 24. Nxh3 Qxh3 25. Qg2 g4 26. Qxh3 gxh3 27. f4
+Nd7 28. b4 Bg7 29. Ra2 Bd4 30. Kf2 Bf6 31. Bg4 Re7 32. e4 Bd4+ 33. Kf3 Rg6 34.
+Bxd7 Rxd7 35. f5 Rg7 36. Bh6 f6 37. Bxg7 Rxg7 38. Rd2 Be5 39. c5 bxc5 40. bxc5
+h5 41. Rb1 Kh7 42. c6 a4 43. Rb8 Bc3 44. Rc2 Ba5 45. Rc4 Re7 46. Rd8 Re5 47.
+Rd7+ Kh6 48. Rf7 Kg5 49. Rg7+ Kh6 50. Rg6+ Kh7 51. Rxf6 Rb5 52. Rxa4 Rb3+ 53.
+Ke2 Rb2+ 54. Kd3 Rxh2 55. Rxa5 Rd2+ 56. Kxd2 h2 57. Ra7 h1=Q 58. Rxc7+ Kg8 59.
+Rg6+ Kf8 60. Rxd6 Qg2+ 61. Kc1 Qg1+ 62. Rd1 Qc5+ 63. Kd2 Qd6+ 64. Ke2 Qxc7 65.
+Rc1 Ke8 66. Kf3 Kd8 67. a4 Kc8 68. Rh1 Qf7 69. Kf4 Kc7 70. e5 Qc4+ 71. Kg5 Qe4
+72. Rxh5 Qxe5 73. g4 Qg7+ 74. Kf4 Qd4+ 75. Kg3 Qg1+ 76. Kh4 Qf2+ 77. Kg5 Qe3+
+78. Kg6 Qe8+ 79. Kg5 Qe3+ 80. Kf6 Qd4+ 81. Kg5 Qe3+ 82. Kg6 Qe8+ 83. Kg7 Qe7+
+84. Kg8 Qe8+ 85. Kh7 Qf7+ 86. Kh8 Qf8+ 87. Kh7 Qf7+ 88. Kh6 Qf6+ 89. Kh7 Qf7+
+1/2-1/2
+
+[Event "Badalona op B"]
+[Site "Badalona"]
+[Date "2016.08.10"]
+[Round "9"]
+[White "Devos, Herve"]
+[Black "Colome Rovira, Oscar"]
+[Result "1/2-1/2"]
+[ECO "B01"]
+[WhiteElo "1885"]
+[BlackElo "1845"]
+[PlyCount "101"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d4 Nf6 5. Nf3 Bf5 6. Bc4 e6 7. Bd2 c6 8.
+Nd5 Qd8 9. Nxf6+ Qxf6 10. Bb3 Nd7 11. Qe2 Nb6 12. O-O-O h6 13. h4 a5 14. c3 a4
+15. Bc2 a3 16. b3 Bxc2 17. Kxc2 Bd6 18. g3 c5 19. dxc5 Qf5+ 20. Qd3 Qxd3+ 21.
+Kxd3 Bxc5 22. Be3 O-O-O+ 23. Kc2 Bxe3 24. Rxd8+ Rxd8 25. fxe3 Nd5 26. Re1 b5
+27. e4 Ne7 28. b4 Kb7 29. Nd2 Nc8 30. Nb1 Nb6 31. Nxa3 Ra8 32. Nxb5 Rxa2+ 33.
+Kb3 Rg2 34. Re3 Kc6 35. Nd4+ Kb7 36. b5 Rb2+ 37. Kxb2 Nc4+ 38. Kb3 Nxe3 39. Kb4
+Nf1 40. Ne2 e5 41. Kc5 Nd2 42. Kd5 Kb6 43. c4 f6 44. Nc3 Nf1 45. c5+ Kc7 46.
+b6+ Kb7 47. Kd6 Ne3 48. Kd7 Nc4 49. c6+ Kxb6 50. c7 Kc5 51. Nd5 1/2-1/2

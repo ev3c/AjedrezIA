@@ -1,0 +1,326 @@
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.04"]
+[Round "1"]
+[White "Jul Perez, Alberto"]
+[Black "Van Riemsdijk, Herman Claudius"]
+[Result "0-1"]
+[ECO "C31"]
+[WhiteElo "2020"]
+[BlackElo "2335"]
+[PlyCount "68"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. f4 d5 3. exd5 c6 4. d4 exd4 5. Qxd4 cxd5 6. Nc3 Nf6 7. Nf3 Be7 8.
+Bb5+ Nc6 9. Ne5 Bd7 10. Bxc6 bxc6 11. Nxd7 Qxd7 12. O-O O-O 13. f5 Rab8 14. a3
+c5 15. Qd3 c4 16. Qf3 d4 17. Ne4 Nxe4 18. Qxe4 Rfe8 19. Qf3 Bf6 20. Rd1 Qa4 21.
+g4 Qxc2 22. Bf4 Rxb2 23. Rac1 Qa4 24. g5 Bd8 25. g6 Qd7 26. gxh7+ Kh8 27. Bg3
+Rb5 28. Rxc4 Rxf5 29. Qd3 Bb6 30. h4 Rf6 31. Kh2 Qg4 32. Rg1 Rf3 33. Qd2 Rxg3
+34. Rxg3 Re2+ 0-1
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.05"]
+[Round "2"]
+[White "Vergara Jofre, Felipe Andres"]
+[Black "Jul Perez, Alberto"]
+[Result "1-0"]
+[ECO "B38"]
+[WhiteElo "2234"]
+[BlackElo "2020"]
+[PlyCount "25"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. f3 Nc6 6. c4 g6 7. Be3 Bg7 8. Nc3
+O-O 9. Be2 Qb6 10. Qd2 Qc7 11. O-O a6 12. Rac1 b6 13. Nd5 1-0
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.06"]
+[Round "3"]
+[White "Jul Perez, Alberto"]
+[Black "Anuj, Shrivatri"]
+[Result "1/2-1/2"]
+[ECO "C10"]
+[WhiteElo "2020"]
+[BlackElo "1920"]
+[PlyCount "85"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Bd7 5. Nf3 Bc6 6. Bd3 Nd7 7. Be3 Ngf6 8.
+Nxf6+ Qxf6 9. Be2 h6 10. Qd2 Be4 11. O-O-O Bd6 12. Ne1 c6 13. f3 Bh7 14. g4 Qe7
+15. Bd3 Bxd3 16. Nxd3 Nb6 17. Bf4 Bxf4 18. Qxf4 Qg5 19. h4 Qxf4+ 20. Nxf4 g6
+21. Rhe1 O-O-O 22. b3 Nd5 23. Nxd5 Rxd5 24. Re5 Rhd8 25. c3 g5 26. hxg5 hxg5
+27. Rxd5 Rxd5 28. Kc2 c5 29. Kd3 cxd4 30. cxd4 Kd7 31. Ke4 Ra5 32. Rd2 Kd6 33.
+Rh2 b6 34. Kd3 f5 35. Kc4 Ke7 36. a4 Kf6 37. Rh6+ Kf7 38. Rh7+ Kf6 39. Rd7 e5
+40. Rd6+ Ke7 41. Rd5 Rxd5 42. Kxd5 fxg4 43. fxg4 1/2-1/2
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.07"]
+[Round "4"]
+[White "Martinez Perez, Pablo"]
+[Black "Jul Perez, Alberto"]
+[Result "1-0"]
+[ECO "B52"]
+[WhiteElo "1900"]
+[BlackElo "2020"]
+[PlyCount "69"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Qxd7 5. O-O e5 6. Qe2 Nf6 7. c3 Nc6 8.
+Rd1 Be7 9. d4 Qc7 10. Na3 a6 11. Nc2 O-O 12. dxe5 Nxe5 13. Nxe5 dxe5 14. Bg5
+Ne8 15. Bxe7 Qxe7 16. Rd3 Nf6 17. Rad1 Rad8 18. Ne3 g6 19. f3 b5 20. Qd2 Ra8
+21. Nd5 Nxd5 22. Rxd5 c4 23. Rd6 Qa7+ 24. Kf1 Qc5 25. Qg5 Rfe8 26. Qf6 b4 27.
+R6d5 Qe7 28. Qxe7 Rxe7 29. cxb4 Rb7 30. a3 a5 31. b5 f6 32. a4 Raa7 33. Rc5 Rc7
+34. b6 Rxc5 35. Rd8+ 1-0
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.08"]
+[Round "5"]
+[White "Jul Perez, Alberto"]
+[Black "Lopez Pajuelo, Sergi"]
+[Result "1-0"]
+[ECO "C18"]
+[WhiteElo "2020"]
+[BlackElo "1947"]
+[PlyCount "165"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Nc6 7. Qg4 Kf8 8. Nf3
+Qa5 9. Bd2 Qa4 10. Ra2 c4 11. Be2 Nge7 12. O-O b5 13. Ng5 h6 14. Nh3 Rb8 15.
+Rfa1 Qa5 16. Qf4 Ng6 17. Qe3 Nce7 18. f4 Qc7 19. Bh5 a5 20. g4 Nc6 21. Bxg6
+fxg6 22. Rf1 Kg8 23. Qf3 Qf7 24. Raa1 Bd7 25. Nf2 b4 26. Nd1 b3 27. cxb3 Rxb3
+28. Ne3 Ne7 29. Rfb1 a4 30. Nc2 Kh7 31. Nb4 Ra8 32. Qd1 g5 33. Qc2+ Kg8 34.
+fxg5 Qf3 35. Qd1 Qh3 36. Qf1 Qxg4+ 37. Qg2 Qxg2+ 38. Kxg2 Nf5 39. gxh6 gxh6 40.
+Rg1 Kh7 41. Kf2 Rf8 42. Ke2 Bb5 43. Kd1 Nh4 44. Kc2 Rf2 45. Raf1 Rf3 46. Rxf3
+Nxf3 47. Rf1 Nxd2 48. Kxd2 Rxa3 49. Rf7+ Kg8 50. Re7 Rb3 51. Rxe6 a3 52. Rb6
+Be8 53. Rb8 Kf8 54. Ra8 Rb2+ 55. Ke3 Rxh2 56. Nxd5 a2 57. Nf6 Kf7 58. Nxe8 Rh3+
+59. Ke4 Rxc3 60. Nd6+ Ke7 61. Ra7+ Kd8 62. Rxa2 Rc1 63. Rh2 c3 64. Kd3 h5 65.
+Rxh5 c2 66. Kd2 Rd1+ 67. Kxc2 Rxd4 68. Kc3 Rd5 69. Kc4 Rd1 70. Nf5 Re1 71. Kd5
+Ra1 72. Rh8+ Kc7 73. Ke6 Re1 74. Rh7+ Kd8 75. Rd7+ Ke8 76. Ra7 Kd8 77. Kf6 Rc1
+78. e6 Rc6 79. Ra8+ Kc7 80. Rc8+ Kxc8 81. Ne7+ Kd8 82. Nxc6+ Ke8 83. e7 1-0
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.09"]
+[Round "6"]
+[White "Bhagwat, Vinod"]
+[Black "Jul Perez, Alberto"]
+[Result "1/2-1/2"]
+[ECO "D43"]
+[WhiteElo "2177"]
+[BlackElo "2020"]
+[PlyCount "119"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 c6 5. b3 Bb4 6. Bb2 O-O 7. e3 Nbd7 8. a3
+Bxc3+ 9. Bxc3 Ne4 10. Bb2 f5 11. Bd3 Ndf6 12. Ne5 dxc4 13. Bxc4 Ng4 14. O-O Qh4
+15. Nxg4 fxg4 16. Qc2 Ng5 17. f4 gxf3 18. gxf3 Nxf3+ 19. Kh1 Bd7 20. Qg2 Ng5
+21. Rf4 Rxf4 22. exf4 Qxf4 23. Bc1 Qxd4 24. Bb2 Qe4 25. Rg1 g6 26. Rd1 Qxg2+
+27. Kxg2 Bc8 28. Rd8+ Kf7 29. Rh8 b5 30. h4 Bb7 31. hxg5 Rxh8 32. Bxe6+ Kxe6
+33. Bxh8 Kf5 34. Bf6 h6 35. Kg3 c5 36. Be7 h5 37. Bxc5 Kxg5 38. Be3+ Kf5 39.
+Bxa7 g5 40. a4 bxa4 41. bxa4 h4+ 42. Kf2 g4 43. Bb8 Ke4 44. Bc7 Kd3 45. a5 Kc4
+46. Bb8 Kb5 47. Bc7 Bd5 48. Bb8 Kxa5 49. Bc7+ Kb5 50. Bb8 Kc4 51. Bc7 Kd3 52.
+Bb8 Ke4 53. Bd6 Bc4 54. Bc7 Bb3 55. Bd6 Bd1 56. Bc7 Be2 57. Bb8 Bf3 58. Bc7 g3+
+59. Bxg3 hxg3+ 60. Kxg3 1/2-1/2
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.10"]
+[Round "7"]
+[White "Jul Perez, Alberto"]
+[Black "Gil Quilez, Sonia"]
+[Result "1-0"]
+[ECO "B19"]
+[WhiteElo "2020"]
+[BlackElo "2158"]
+[PlyCount "101"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. h4 h6 7. h5 Bh7 8. Nf3
+Nd7 9. Bd3 Bxd3 10. Qxd3 Ngf6 11. c4 e6 12. Bd2 Bd6 13. Ne4 Nxe4 14. Qxe4 Nf6
+15. Qe2 O-O 16. O-O-O Qc7 17. Ne5 c5 18. Ng4 Nxg4 19. Qxg4 Kh8 20. dxc5 Qxc5
+21. Be3 Qc7 22. Kb1 Be5 23. Qe2 Bf6 24. g4 Rfc8 25. Rc1 Qe5 26. Rhe1 Rc6 27. f4
+Qe4+ 28. Ka1 Bd4 29. g5 Qxe3 30. Qxe3 Bxe3 31. Rxe3 Rd8 32. b3 hxg5 33. fxg5
+Rd2 34. Rf3 Kg8 35. Rcf1 Rc5 36. g6 f5 37. Re3 Rc6 38. Rxf5 Ra6 39. a4 Rad6 40.
+Rc5 Rf2 41. Rc8+ Rf8 42. Rxf8+ Kxf8 43. Rf3+ Kg8 44. Rf7 Rb6 45. Kb2 a5 46. Kc3
+e5 47. Re7 Kf8 48. Rxe5 Rf6 49. Rxa5 Ke7 50. Ra7 Rb6 51. a5 1-0
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.11"]
+[Round "8"]
+[White "Jul Perez, Alberto"]
+[Black "Romero Echeverria, Abigail"]
+[Result "1-0"]
+[ECO "B40"]
+[WhiteElo "2020"]
+[BlackElo "2109"]
+[PlyCount "87"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Bb4 6. Bd3 Nc6 7. Nxc6 dxc6 8.
+O-O e5 9. Ne2 Bc5 10. h3 Qe7 11. Ng3 h6 12. a3 Be6 13. c3 Rd8 14. Qe2 b5 15. b4
+Bb6 16. a4 Qd7 17. Bc2 Bc4 18. Qf3 Bxf1 19. Kxf1 Ng8 20. a5 Bc7 21. Be3 Bd6 22.
+Rd1 g6 23. Bb3 Rh7 24. h4 h5 25. Bg5 Qc7 26. Bxd8 Qxd8 27. Qe3 Qc7 28. Rxd6
+Qxd6 29. Qxa7 Qd3+ 30. Kg1 Nf6 31. Qb8+ Qd8 32. Qxe5+ Qe7 33. Qb8+ Qd8 34. Qb7
+Qd7 35. Qa8+ Ke7 36. a6 Ne8 37. a7 f6 38. Qb8 Nc7 39. Qg8 Kd6 40. e5+ Kxe5 41.
+Qb8 Qd6 42. Qb6 f5 43. Qe3+ Kf6 44. Qg5+ 1-0
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.12"]
+[Round "9"]
+[White "Franco Valencia, Angela Maria"]
+[Black "Jul Perez, Alberto"]
+[Result "1-0"]
+[ECO "B84"]
+[WhiteElo "2214"]
+[BlackElo "2020"]
+[PlyCount "85"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e6 7. O-O Be7 8. a4
+O-O 9. f4 e5 10. Nf5 Bxf5 11. exf5 Nc6 12. g4 Qb6+ 13. Kh1 Nd4 14. g5 Qc6+ 15.
+Bf3 Nxf3 16. Qxf3 Qxf3+ 17. Rxf3 Nd7 18. Nd5 Bd8 19. f6 Nb6 20. Nc3 Re8 21.
+fxg7 Kxg7 22. f5 e4 23. f6+ Kg8 24. Re3 d5 25. a5 Nc4 26. Re2 Re5 27. Bf4 Rf5
+28. Nxd5 Rxd5 29. Rxe4 Bxa5 30. Rxc4 Re8 31. Ra3 Bd2 32. Bxd2 Rxd2 33. Re3 Red8
+34. Rc7 h6 35. gxh6 Rf2 36. Rg3+ Kh8 37. Rxf7 Rxc2 38. Rgg7 Rd1+ 39. Rg1 Rd8
+40. Rxb7 Rf2 41. f7 a5 42. h7 Rdd2 43. Rg8+ 1-0
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.18"]
+[Round "1"]
+[White "Jul Perez, Alberto"]
+[Black "Perez Mitjans, Orelvis"]
+[Result "1/2-1/2"]
+[ECO "B48"]
+[WhiteElo "2030"]
+[BlackElo "2399"]
+[PlyCount "67"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Be3 Nf6 6. Nc3 Qc7 7. a3 Nc6 8. Bd3
+Ne5 9. h3 b5 10. f4 Nxd3+ 11. cxd3 Bb7 12. Rc1 Qd8 13. O-O d6 14. Ndxb5 axb5
+15. Nxb5 Be7 16. Nc7+ Kf8 17. Bb6 Qb8 18. Nxa8 Bxa8 19. Be3 g6 20. f5 Kg7 21.
+fxe6 fxe6 22. b4 d5 23. Qa4 Rd8 24. Qa6 Re8 25. Bf4 e5 26. Bg5 Nh5 27. Bxe7
+Rxe7 28. Rc8 Qa7+ 29. Qxa7 Rxa7 30. Rff8 Bb7 31. Rg8+ Kf7 32. Rgf8+ Ke7 33.
+Rfe8+ Kd7 34. Red8+ 1/2-1/2
+
+[Event "Sants op Hostafrancs i La Bordeta op"]
+[Site "Barcelona"]
+[Date "2014.08.22"]
+[Round "1.65"]
+[White "Jul Perez, A."]
+[Black "Pogan, N."]
+[Result "0-1"]
+[ECO "C41"]
+[WhiteElo "1928"]
+[BlackElo "2313"]
+[PlyCount "70"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[Source "Mark Crowther"]
+[SourceDate "2014.09.01"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 e5 4. Nf3 Nbd7 5. Be3 Be7 6. Be2 a6 7. a4 b6 8. O-O
+O-O 9. Nd2 Bb7 10. f4 exd4 11. Bxd4 c5 12. Bxf6 Bxf6 13. Bf3 Re8 14. Re1 Bd4+
+15. Kh1 Re6 16. Nc4 Rh6 17. h3 Nf8 18. Ne3 Bxe3 19. Rxe3 Ne6 20. Ne2 Qh4 21.
+Qe1 Nxf4 22. Qxh4 Rxh4 23. Ng3 Rh6 24. Rd1 Rd8 25. Bg4 Bc6 26. Nf5 Re6 27. Ng3
+Re5 28. Rf3 Ng6 29. Rfd3 d5 30. exd5 Rexd5 31. Rxd5 Rxd5 32. Rxd5 Bxd5 33. Nf5
+Kf8 34. Kg1 Be6 35. Kf2 h5 0-1

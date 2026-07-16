@@ -1,0 +1,637 @@
+[Event "Montcada op"]
+[Site "?"]
+[Date "2009.06.26"]
+[Round "1"]
+[White "Costa Trave, J."]
+[Black "Arun Prasad, S."]
+[Result "0-1"]
+[ECO "D00"]
+[WhiteElo "1949"]
+[BlackElo "2552"]
+[PlyCount "74"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. d4 d5 2. Nc3 Nf6 3. Bf4 c6 4. e3 g6 5. Be2 Bg7 6. h4 h6 7. g4 Nbd7 8. f3 b5
+9. a3 Nb6 10. Nh3 Nfd7 11. Qd2 e5 12. Bg3 Qe7 13. O-O-O a5 14. Nb1 b4 15. f4
+exd4 16. exd4 Nf6 17. Nf2 O-O 18. h5 Ne4 19. Nxe4 dxe4 20. hxg6 fxg6 21. Qe3
+Nd5 22. Qf2 Nxf4 23. Bc4+ Nd5 24. Qh2 Bxg4 25. Rde1 Rae8 26. Be5 Bxe5 27. dxe5
+Qxe5 28. Qxh6 Qf4+ 29. Qxf4 Rxf4 30. Nd2 e3 31. Bxd5+ cxd5 32. Nb3 bxa3 33.
+bxa3 d4 34. Nxa5 Rc8 35. Rh2 Bf5 36. Reh1 Kg7 37. Kb2 Rf2 0-1
+
+[Event "Montcada op"]
+[Site "?"]
+[Date "2009.06.27"]
+[Round "2"]
+[White "Arun Prasad, S."]
+[Black "Lorenzo de la Riva, L."]
+[Result "1-0"]
+[ECO "E00"]
+[WhiteElo "2552"]
+[BlackElo "2343"]
+[PlyCount "86"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. Nf3 e6 3. g3 d5 4. c4 c6 5. Qc2 Ne4 6. Bg2 Bd6 7. O-O Nd7 8. b3 f5
+9. Ba3 Bb8 10. Nfd2 Ndf6 11. Nxe4 Nxe4 12. e3 h5 13. Nc3 h4 14. Nxe4 fxe4 15.
+f4 Bd6 16. Bxd6 Qxd6 17. Rf2 Bd7 18. g4 h3 19. Bf1 g5 20. Be2 gxf4 21. Rxf4
+O-O-O 22. cxd5 exd5 23. Qc5 Qxc5 24. dxc5 Rdf8 25. Raf1 Rxf4 26. Rxf4 b6 27. b4
+bxc5 28. bxc5 Kd8 29. Kf2 Ke7 30. Kg3 Ke6 31. g5 Ke5 32. Rf7 Be8 33. Re7+ Kf5
+34. Rxa7 Kxg5 35. Ra8 Kf5 36. Bg4+ Ke5 37. Rd8 Rg8 38. a4 Kf6 39. a5 Ke7 40.
+Rb8 Kf8 41. Kf4 Rg7 42. a6 Rf7+ 43. Ke5 Ra7 1-0
+
+[Event "Montcada op"]
+[Site "?"]
+[Date "2009.06.28"]
+[Round "3"]
+[White "Asis Gargatagli, H."]
+[Black "Arun Prasad, S."]
+[Result "1-0"]
+[ECO "A34"]
+[WhiteElo "2430"]
+[BlackElo "2552"]
+[PlyCount "73"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. c4 c5 2. Nf3 Nf6 3. Nc3 d5 4. cxd5 Nxd5 5. g3 Nc6 6. Bg2 Nc7 7. a3 e5 8. b4
+f6 9. bxc5 Bxc5 10. Qc2 O-O 11. Rb1 Kh8 12. Na4 Bd6 13. O-O Qe7 14. e3 f5 15.
+d4 e4 16. Nd2 Na5 17. f3 Nd5 18. Nxe4 fxe4 19. fxe4 Rxf1+ 20. Bxf1 Nc7 21. e5
+Bxa3 22. Bd2 Nc6 23. Bg2 Qe8 24. d5 Qxe5 25. dxc6 b5 26. Qd3 Bd6 27. Bc3 Qe6
+28. Qd4 Bf8 29. Rf1 Qg8 30. Nc5 b4 31. Ba1 Ne6 32. Nxe6 Bxe6 33. c7 Rc8 34. Qd8
+h5 35. Bb7 Bc5 36. Bxg7+ Kxg7 37. Qf6+ 1-0
+
+[Event "Montcada op"]
+[Site "?"]
+[Date "2009.06.29"]
+[Round "4"]
+[White "Arun Prasad, S."]
+[Black "Dominguez Pons, E."]
+[Result "1-0"]
+[ECO "D30"]
+[WhiteElo "2552"]
+[BlackElo "2210"]
+[PlyCount "61"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 e6 5. b3 Nbd7 6. Bb2 Bd6 7. Bd3 O-O 8. O-O
+Ne4 9. Qc2 f5 10. Ba3 Bxa3 11. Nxa3 Qe7 12. Nb1 g5 13. Ne1 e5 14. f3 exd4 15.
+exd4 Nd6 16. c5 Qe3+ 17. Qf2 Qxf2+ 18. Rxf2 Ne8 19. Nc3 b5 20. Nc2 a5 21. b4
+axb4 22. Nxb4 Bb7 23. Ncxd5 cxd5 24. c6 Ra4 25. Rb2 Nd6 26. cxb7 Rb8 27. Bc2
+Rxb7 28. Bxa4 bxa4 29. Nd3 Rc7 30. Rc1 Rc4 31. Rb4 1-0
+
+[Event "Montcada op"]
+[Site "?"]
+[Date "2009.06.30"]
+[Round "5"]
+[White "Sachdev, T."]
+[Black "Arun Prasad, S."]
+[Result "1-0"]
+[ECO "D27"]
+[WhiteElo "2423"]
+[BlackElo "2552"]
+[PlyCount "91"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 dxc4 3. Nf3 Nf6 4. e3 e6 5. Bxc4 c5 6. O-O a6 7. Bb3 b5 8. a4 b4
+9. Nbd2 Bb7 10. e4 Be7 11. Bc2 cxd4 12. e5 Nfd7 13. Nc4 Nc6 14. Bf4 Rc8 15. Rc1
+O-O 16. Nxd4 Nxd4 17. Qxd4 Bc5 18. Qd3 g6 19. Nd6 Bxd6 20. Qxd6 Nc5 21. Be3 Qa5
+22. Bxg6 hxg6 23. Bxc5 Qxa4 24. Qb6 Bd5 25. Bxf8 Rxf8 26. Qd4 a5 27. Rfe1 Qb5
+28. Re3 Qb7 29. Rg3 Rc8 30. Rxc8+ Qxc8 31. h4 Qc1+ 32. Kh2 Kh7 33. h5 g5 34.
+Qa7 Qf4 35. Qxa5 g4 36. Qa7 Be4 37. Qd4 b3 38. Qd1 Bf5 39. Qxb3 Qxf2 40. Qc3
+Qf1 41. Qe3 Qb5 42. b3 Qb8 43. Qf4 Qd8 44. h6 Kg6 45. b4 Qd5 46. Rxg4+ 1-0
+
+[Event "Montcada op"]
+[Site "?"]
+[Date "2009.07.02"]
+[Round "7"]
+[White "Van Riemsdijk, H."]
+[Black "Arun Prasad, S."]
+[Result "0-1"]
+[ECO "B86"]
+[WhiteElo "2375"]
+[BlackElo "2552"]
+[PlyCount "56"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bc4 e6 7. Bb3 Nbd7 8. f4
+Nc5 9. f5 b5 10. fxe6 fxe6 11. Qf3 Bd7 12. O-O Be7 13. Kh1 O-O 14. Bg5 b4 15.
+Nce2 Nfxe4 16. Bxe7 Qxe7 17. Qe3 d5 18. c3 a5 19. Bc2 e5 20. Nb3 Bb5 21. Kg1
+Bxe2 22. Qxe2 bxc3 23. bxc3 Nxb3 24. Bxb3 Qc5+ 25. Kh1 Kh8 26. Rxf8+ Rxf8 27.
+Rf1 Nxc3 28. Qe1 e4 0-1
+
+[Event "Montcada op"]
+[Site "?"]
+[Date "2009.07.03"]
+[Round "8"]
+[White "Arun Prasad, S."]
+[Black "Mihailovs, J."]
+[Result "1-0"]
+[ECO "A30"]
+[WhiteElo "2552"]
+[BlackElo "2405"]
+[PlyCount "67"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. Nf3 c5 2. c4 b6 3. g3 Bb7 4. Bg2 g6 5. O-O Bg7 6. Nc3 d6 7. Re1 Nd7 8. e4 e5
+9. Nb5 Nb8 10. Rb1 Nc6 11. a3 Nge7 12. b4 O-O 13. d3 Qd7 14. Nc3 f5 15. bxc5
+dxc5 16. Nd5 fxe4 17. dxe4 Nd4 18. Nxd4 cxd4 19. a4 Nxd5 20. cxd5 Ba6 21. Ba3
+Rfc8 22. Bf3 Rc4 23. Bb4 Bf8 24. Bg4 Qe8 25. Qd2 Bc8 26. Be2 Bxb4 27. Rxb4 Rc3
+28. Rc1 Rxc1+ 29. Qxc1 Bh3 30. Rc4 Rc8 31. g4 Rxc4 32. Qxc4 Qd7 33. f3 Kf7 34.
+Kf2 1-0
+
+[Event "Montcada op"]
+[Site "?"]
+[Date "2009.07.04"]
+[Round "9"]
+[White "Panchanathan, MC."]
+[Black "Arun Prasad, S."]
+[Result "1/2-1/2"]
+[ECO "E04"]
+[WhiteElo "2462"]
+[BlackElo "2552"]
+[PlyCount "27"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. Nf3 d5 2. g3 Nf6 3. Bg2 c5 4. O-O Nc6 5. d4 e6 6. c4 dxc4 7. Qa4 Bd7 8. Qxc4
+cxd4 9. Nxd4 Rc8 10. Nxc6 Bxc6 11. Bxc6+ Rxc6 12. Qa4 Bc5 13. Nc3 O-O 14. Bg5
+1/2-1/2
+
+[Event "Sitges op"]
+[Site "?"]
+[Date "2009.07.22"]
+[Round "1"]
+[White "Chalmeta Torredemer, E."]
+[Black "Arun Prasad, S."]
+[Result "1/2-1/2"]
+[ECO "B26"]
+[WhiteElo "2015"]
+[BlackElo "2556"]
+[PlyCount "108"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nc3 d6 3. g3 Nc6 4. Bg2 g6 5. d3 Bg7 6. Be3 e5 7. Qd2 Nd4 8. Nce2
+Ne7 9. c3 h6 10. f4 exf4 11. Nxf4 Ndc6 12. Nf3 O-O 13. O-O Kh7 14. d4 cxd4 15.
+Nxd4 Ne5 16. Rad1 Nc4 17. Qe2 Nxe3 18. Qxe3 Qb6 19. Qf2 Bd7 20. Rd2 Rad8 21.
+Rfd1 Bg4 22. Nf3 Qa6 23. a3 g5 24. Nd5 Nxd5 25. Rxd5 Be6 26. R5d2 Bb3 27. Rf1
+f5 28. Nd4 Bc4 29. Rfd1 f4 30. g4 Bxd4 31. Rxd4 Be2 32. Bf1 f3 33. R1d2 Bxf1
+34. Qxf1 Qb6 35. Qd3 Kg7 36. Rf2 a5 37. b4 axb4 38. Rxb4 Qa7 39. Qd4+ Qxd4 40.
+cxd4 Rd7 41. h3 Rf4 42. Kh2 Rxe4 43. Rxf3 Kg6 44. Kg3 h5 45. gxh5+ Kxh5 46.
+Rfb3 Kg6 47. Rxb7 Rxb7 48. Rxb7 Rxd4 49. Rd7 Kf5 50. a4 Rd3+ 51. Kg2 Kf4 52.
+Rf7+ Ke5 53. Rg7 Kf6 54. Rd7 Ke6 1/2-1/2
+
+[Event "Sitges op"]
+[Site "?"]
+[Date "2009.07.25"]
+[Round "4"]
+[White "Arun Prasad, S."]
+[Black "Fernandez Aguado, E."]
+[Result "1-0"]
+[ECO "D30"]
+[WhiteElo "2556"]
+[BlackElo "2340"]
+[PlyCount "59"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. Nf3 d5 2. d4 Nf6 3. c4 c6 4. e3 e6 5. Bd3 Nbd7 6. b3 Bb4+ 7. Nbd2 O-O 8. Bb2
+Re8 9. O-O b6 10. a3 Bf8 11. Ne5 dxc4 12. Ndxc4 Bb7 13. Qf3 b5 14. Nxd7 Nxd7
+15. Nd2 f5 16. Rfd1 Rb8 17. e4 c5 18. dxc5 Bxc5 19. Bxb5 fxe4 20. Qg3 Re7 21.
+Nxe4 Bxe4 22. Rxd7 Qf8 23. Rxe7 Bxe7 24. Bxg7 Qxg7 25. Qxb8+ Kf7 26. Be8+ Kg8
+27. Bb5+ Kf7 28. Qf4+ Bf6 29. g3 Bd5 30. Rc1 1-0
+
+[Event "Sitges op"]
+[Site "?"]
+[Date "2009.07.26"]
+[Round "5"]
+[White "Cruz Estrada, F."]
+[Black "Arun Prasad, S."]
+[Result "0-1"]
+[ECO "D47"]
+[WhiteElo "2415"]
+[BlackElo "2556"]
+[PlyCount "116"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. c4 c6 2. d4 d5 3. Nf3 Nf6 4. Nc3 e6 5. e3 Nbd7 6. Bd3 dxc4 7. Bxc4 b5 8. Bd3
+Bd6 9. e4 e5 10. O-O O-O 11. Ne2 c5 12. d5 c4 13. Bc2 Nc5 14. Ng3 Ne8 15. h3 a5
+16. Be3 Qe7 17. Re1 g6 18. Qd2 a4 19. Nh2 a3 20. Reb1 axb2 21. Rxb2 Bd7 22. Re1
+Ra3 23. Bh6 Ng7 24. Re3 Rfa8 25. Rxa3 Rxa3 26. Qc1 Na6 27. Bb1 Bc5 28. Kh1 Ne8
+29. Nhf1 Nb4 30. Rd2 Na6 31. Be3 c3 32. Rd1 Bd6 33. Nh2 b4 34. Re1 Nc5 35. Qd1
+Ng7 36. Bc1 Ra8 37. Ng4 h5 38. Ne3 Bb5 39. Ngf1 Qa7 40. Nh2 Qa4 41. Qf3 Bd3 42.
+Neg4 hxg4 43. Nxg4 Bxb1 44. Nf6+ Kf8 45. Bh6 Nd7 46. Rxb1 Be7 47. Ng4 Qxa2 48.
+Rc1 Ra6 49. Qe3 c2 50. f4 b3 51. Kh2 Qb2 52. Qd3 Ra8 53. f5 gxf5 54. d6 fxg4
+55. dxe7+ Ke8 56. Qd5 g3+ 57. Kxg3 Rc8 58. Bg5 Ne6 0-1
+
+[Event "Sitges op"]
+[Site "?"]
+[Date "2009.07.27"]
+[Round "6"]
+[White "Arun Prasad, S."]
+[Black "Beltran Rueda, S."]
+[Result "1/2-1/2"]
+[ECO "D94"]
+[WhiteElo "2556"]
+[BlackElo "2404"]
+[PlyCount "80"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 g6 5. Nc3 Bg7 6. Bd3 O-O 7. O-O dxc4 8. Bxc4
+Bg4 9. h3 Bxf3 10. Qxf3 Nbd7 11. Rd1 e5 12. d5 e4 13. Nxe4 Nxe4 14. Qxe4 Nb6
+15. Bb3 cxd5 16. Qf3 Qe7 17. Rb1 Rad8 18. Bd2 Rd7 19. Ba5 d4 20. exd4 Bxd4 21.
+a3 Rc8 22. Bb4 Qf6 23. Qxf6 Bxf6 24. a4 Rcd8 25. Rxd7 Rxd7 26. a5 Nc8 27. Re1
+Kg7 28. Re8 Nd6 29. Ra8 a6 30. Ba4 Nb5 31. Bf8+ Kg8 32. Be7+ Kg7 33. Bf8+ Kg8
+34. Bxb5 axb5 35. Be7+ Kg7 36. Bf8+ Kg8 37. Bc5+ Kg7 38. Bf8+ Kg8 39. Be7+ Kg7
+40. Bf8+ Kg8 1/2-1/2
+
+[Event "Sitges op"]
+[Site "?"]
+[Date "2009.07.28"]
+[Round "7"]
+[White "Karlsson, L."]
+[Black "Arun Prasad, S."]
+[Result "1-0"]
+[ECO "A06"]
+[WhiteElo "2468"]
+[BlackElo "2556"]
+[PlyCount "47"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. Nf3 Nf6 2. b3 d5 3. Bb2 c6 4. e3 g6 5. Be2 Bg7 6. O-O O-O 7. c4 Nbd7 8. a3
+Re8 9. d4 b6 10. b4 a5 11. Nc3 Bb7 12. Qb3 e6 13. Rfd1 Qb8 14. Rab1 axb4 15.
+axb4 dxc4 16. Bxc4 c5 17. d5 Nxd5 18. Nxd5 b5 19. Bxg7 bxc4 20. Qc3 Bxd5 21. e4
+Bxe4 22. Rxd7 Bxb1 23. Qf6 Rf8 24. Bh6 1-0
+
+[Event "Sitges op"]
+[Site "?"]
+[Date "2009.07.29"]
+[Round "8"]
+[White "Arun Prasad, S."]
+[Black "Douriet Duany, A."]
+[Result "1-0"]
+[ECO "E62"]
+[WhiteElo "2556"]
+[BlackElo "2306"]
+[PlyCount "97"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. g3 O-O 5. Bg2 d6 6. O-O c6 7. Nc3 Qa5 8. h3
+Be6 9. Nd2 Qa6 10. b3 d5 11. c5 Nfd7 12. Ndb1 Bf5 13. Bb2 e5 14. e4 exd4 15.
+Nxd5 cxd5 16. exf5 Nc6 17. fxg6 hxg6 18. Bxd5 Nxc5 19. Ba3 Rad8 20. Bxc5 Rxd5
+21. Bxf8 Kxf8 22. Nd2 d3 23. Rc1 Qxa2 24. Qf3 Rd8 25. Rcd1 Qb2 26. Kg2 Qd4 27.
+Rfe1 Qd5 28. Qxd5 Rxd5 29. f4 a5 30. Nf3 Bc3 31. Re3 Nb4 32. Kf1 f6 33. Ne1
+Bxe1 34. Rexe1 Kf7 35. Re4 Nc2 36. Kf2 b5 37. g4 b4 38. Rc4 Ke6 39. Rc6+ Ke7
+40. Ra6 Na3 41. Ke3 Nc2+ 42. Kf2 Na3 43. h4 Nc2 44. h5 gxh5 45. gxh5 Kf7 46.
+Ra7+ Kg8 47. h6 a4 48. Rg1+ Kh8 49. Rgg7 1-0
+
+[Event "Sitges op"]
+[Site "?"]
+[Date "2009.07.30"]
+[Round "9"]
+[White "Sundararajan, K."]
+[Black "Arun Prasad, S."]
+[Result "1/2-1/2"]
+[ECO "D45"]
+[WhiteElo "2506"]
+[BlackElo "2556"]
+[PlyCount "90"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. e3 Nbd7 6. Qc2 Bd6 7. b3 O-O 8. Be2
+e5 9. cxd5 cxd5 10. Nb5 Bb4+ 11. Bd2 Bxd2+ 12. Nxd2 exd4 13. Nxd4 Ne5 14. O-O
+Bd7 15. Rac1 Rc8 16. Qb2 Qe7 17. N2f3 Nxf3+ 18. Bxf3 Bg4 19. Rxc8 Rxc8 20. Rc1
+Qd7 21. Bxg4 Nxg4 22. Rxc8+ Qxc8 23. h3 Nf6 24. Qa3 a6 25. Qe7 h5 26. Qe5 Qc1+
+27. Kh2 Qb2 28. Qb8+ Kh7 29. Qf4 Qxa2 30. Qg5 Qxf2 31. Nf5 Ne8 32. Qxh5+ Kg8
+33. Ne7+ Kf8 34. Nxd5 Nf6 35. Qg5 Qd2 36. Nxf6 gxf6 37. Qc5+ Kg7 38. b4 Qd8 39.
+Kg3 b6 40. Qc6 a5 41. bxa5 bxa5 42. Qa4 Qd6+ 43. Kf3 Qd5+ 44. Kf2 Qd2+ 45. Kf3
+Qd5+ 1/2-1/2
+
+[Event "Badalona op"]
+[Site "?"]
+[Date "2012.08.01"]
+[Round "1"]
+[White "Arun Prasad, S."]
+[Black "Webb, LE."]
+[Result "1-0"]
+[ECO "A25"]
+[WhiteElo "2531"]
+[BlackElo "2269"]
+[PlyCount "71"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. c4 e5 2. g3 Nc6 3. Bg2 f5 4. Nc3 Nf6 5. d3 Bb4 6. Bd2 O-O 7. a3 Bxc3 8. Bxc3
+d6 9. Nf3 Qe8 10. b4 Qh5 11. b5 Nd8 12. a4 Kh8 13. a5 Rb8 14. e3 f4 15. gxf4
+exf4 16. e4 Bh3 17. Bxh3 Qxh3 18. Kd2 Ne6 19. Nd4 Nc5 20. f3 Ng4 21. Qf1 Qxf1
+22. Rhxf1 Ne5 23. Kc2 Nexd3 24. b6 axb6 25. axb6 cxb6 26. Nf5 Ne5 27. Nxd6 Ncd7
+28. Rad1 Kg8 29. Rd5 Ng6 30. Rg1 Nc5 31. h4 Ne6 32. Nf5 Rfe8 33. h5 Ne7 34. Rd2
+Kf8 35. Nxg7 Nxg7 36. Rxg7 1-0
+
+[Event "Badalona op"]
+[Site "?"]
+[Date "2012.08.02"]
+[Round "2"]
+[White "Kiewra, KF."]
+[Black "Arun Prasad, S."]
+[Result "1-0"]
+[ECO "B99"]
+[WhiteElo "2364"]
+[BlackElo "2531"]
+[PlyCount "111"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Be7 8. Qf3
+h6 9. Bh4 Nbd7 10. O-O-O Qc7 11. Be2 Rb8 12. Qg3 Rg8 13. Bxf6 Nxf6 14. Rhf1 g5
+15. f5 e5 16. Nb3 Bd7 17. Nd5 Nxd5 18. exd5 Rc8 19. Bd3 Bf6 20. Nd2 e4 21. Rde1
+Kd8 22. Nxe4 Be5 23. Qf2 Qa5 24. Kb1 Qxd5 25. Qb6+ Rc7 26. Rd1 Qc6 27. Qb3 Ke7
+28. Rde1 Kf8 29. g3 Be8 30. Nd2 b5 31. f6 g4 32. Rxe5 dxe5 33. Ne4 Rg6 34. Qa3+
+Kg8 35. Nd6 Rg5 36. Be4 Qd7 37. Qxa6 Qd8 38. Nxb5 Rd7 39. a4 Rh5 40. Rf2 Rd1+
+41. Ka2 Bd7 42. Nc3 Rd6 43. Qa7 Qc8 44. Qb7 Be6+ 45. b3 Qd8 46. Qe7 Qb8 47. Nb5
+Ra6 48. Rd2 Rxa4+ 49. Kb2 Rxe4 50. Rd8+ Qxd8 51. Qxd8+ Kh7 52. Nd6 Rd4 53. Qf8
+Rg5 54. Nxf7 Bxf7 55. Qxf7+ Kh8 56. Qe8+ 1-0
+
+[Event "Badalona op"]
+[Site "?"]
+[Date "2012.08.07"]
+[Round "7"]
+[White "Arun Prasad, S."]
+[Black "Palit, S."]
+[Result "1-0"]
+[ECO "D07"]
+[WhiteElo "2531"]
+[BlackElo "2435"]
+[PlyCount "109"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 Nc6 3. Nc3 dxc4 4. Nf3 Bg4 5. d5 Bxf3 6. exf3 Ne5 7. Bf4 Qd6 8.
+Qd4 f6 9. Bxc4 g5 10. Bg3 Nh6 11. Bb5+ Kd8 12. Ne4 Qb6 13. Qxb6 axb6 14. Bxe5
+fxe5 15. Nxg5 Rg8 16. Ne6+ Kc8 17. Rc1 Nf5 18. Bd3 Nh4 19. Bxh7 Rh8 20. Rxc7+
+Kb8 21. d6 Nxg2+ 22. Kf1 Nf4 23. Nxf4 exf4 24. Be4 exd6 25. Rxb7+ Kc8 26. a3
+Ra4 27. Rf7 d5 28. Bxd5 Rd4 29. Bb7+ Kb8 30. Ke2 Bc5 31. Be4 Rhd8 32. Rc1 Rd2+
+33. Ke1 R8d7 34. Rxd7 Rxd7 35. Ke2 Rg7 36. b4 Bd4 37. Rc2 Rg2 38. Kd3 Be5 39.
+h3 Rg1 40. Bd5 Ra1 41. Ke4 Bd6 42. Ba2 Rh1 43. Be6 Ra1 44. Rc3 Re1+ 45. Kf5
+Re5+ 46. Kf6 Re2 47. Rd3 Kc7 48. h4 Rxf2 49. h5 Rh2 50. Kg6 Bf8 51. b5 Re2 52.
+Bf5 Bd6 53. h6 Rg2+ 54. Bg4 Rb2 55. Rxd6 1-0
+
+[Event "Badalona op"]
+[Site "?"]
+[Date "2012.08.08"]
+[Round "8"]
+[White "Fernandez Cardoso, A."]
+[Black "Arun Prasad, S."]
+[Result "0-1"]
+[ECO "B90"]
+[WhiteElo "2449"]
+[BlackElo "2531"]
+[PlyCount "94"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nb3 Be6 8. h3
+h5 9. Qf3 Nbd7 10. O-O-O Rc8 11. Nd5 Nxd5 12. exd5 Bg4 13. hxg4 hxg4 14. Rxh8
+gxf3 15. gxf3 Qf6 16. Bh3 Qg6 17. c3 f5 18. f4 Qf6 19. fxe5 dxe5 20. f4 g5 21.
+Rh5 exf4 22. Bd4 Qg6 23. Rh8 Kf7 24. Bf1 b5 25. Re1 Re8 26. Rxe8 Kxe8 27. Nc5
+Qd6 28. Ne6 f3 29. Bd3 Qg3 30. Ng7+ Kf7 31. Nxf5 Qe1+ 32. Kc2 f2 33. Rh7+ Ke8
+34. Ng3 Ne5 35. d6 Bxd6 36. Rh8+ Kf7 37. Bf1 g4 38. Rh6 Ng6 39. Bd3 Bxg3 40.
+Bxg6+ Ke7 41. Bc5+ Bd6 42. Bxd6+ Kxd6 43. Bd3+ Ke5 44. Rh5+ Kf4 45. Rf5+ Kg3
+46. a4 bxa4 47. c4 Qb4 0-1
+
+[Event "Badalona op"]
+[Site "?"]
+[Date "2012.08.09"]
+[Round "9"]
+[White "Arun Prasad, S."]
+[Black "Perez Mitjans, O."]
+[Result "1-0"]
+[ECO "E97"]
+[WhiteElo "2531"]
+[BlackElo "2504"]
+[PlyCount "73"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5
+Ne7 9. b4 Ne8 10. Nd2 f5 11. c5 Kh8 12. a4 Ng8 13. Ba3 Ngf6 14. b5 Bh6 15. Bd3
+Nh5 16. Nc4 Nf4 17. f3 Nxd3 18. Qxd3 f4 19. a5 g5 20. h3 Rg8 21. b6 cxb6 22.
+axb6 axb6 23. cxd6 Bg7 24. Nb5 Bd7 25. Nc7 Ra4 26. Nxb6 Rd4 27. Qc3 g4 28. hxg4
+h5 29. Bc5 hxg4 30. fxg4 Bxg4 31. Nxe8 Qxe8 32. Kf2 Rf8 33. d7 Bxd7 34. Bxf8
+Bxf8 35. Ra8 Qh5 36. Nxd7 Rxe4 37. Qh3 1-0
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.06.25"]
+[Round "1"]
+[White "Arun Prasad, S."]
+[Black "Sardana, R."]
+[Result "0-1"]
+[ECO "D06"]
+[WhiteElo "2472"]
+[BlackElo "2316"]
+[PlyCount "82"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. d4 d5 2. c4 c6 3. e3 Nf6 4. Nc3 a6 5. Nf3 Bf5 6. Ne5 Nbd7 7. Qb3 Ra7 8. Nxd7
+Qxd7 9. cxd5 cxd5 10. Na4 e6 11. Bd2 b5 12. Ba5 Bd6 13. Nc5 Qe7 14. Rc1 O-O 15.
+Be2 e5 16. dxe5 Qxe5 17. Bc3 Qe7 18. Nd3 Bxd3 19. Bxd3 Be5 20. Bb4 Bd6 21. Bc3
+Be5 22. Bb4 Bd6 23. Bxd6 Qxd6 24. Rd1 Rc7 25. O-O g6 26. a3 Rfc8 27. h3 Kg7 28.
+Rfe1 Qe5 29. Qa2 Rc5 30. Qb1 h5 31. Re2 Qc7 32. Qa2 Qe5 33. Qb3 Qc7 34. Qb4 Qe5
+35. Qe1 Qg5 36. Bb1 Qe5 37. Red2 Rc4 38. Qe2 R8c7 39. Ba2 R4c5 40. Bb3 a5 41.
+Rd4 a4 0-1
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.06.27"]
+[Round "3"]
+[White "Arun Prasad, S."]
+[Black "Martorell Aguado, J."]
+[Result "1-0"]
+[ECO "A56"]
+[WhiteElo "2472"]
+[BlackElo "2110"]
+[PlyCount "77"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e5 4. Nc3 d6 5. e4 Be7 6. h3 Nbd7 7. Nf3 O-O 8. Bd3
+Ne8 9. g4 g6 10. Bh6 Ng7 11. Qe2 Kh8 12. O-O-O Nf6 13. Rdg1 a6 14. Nd2 Ng8 15.
+Be3 Bg5 16. h4 Bxe3 17. Qxe3 h6 18. f4 exf4 19. Qxf4 Qf6 20. Qg3 Qe7 21. g5 h5
+22. Re1 Bd7 23. e5 dxe5 24. Nf3 Bf5 25. Nxe5 Bxd3 26. Qxd3 Qd6 27. Rhf1 Rae8
+28. Qg3 Nf5 29. Rxf5 gxf5 30. Nxf7+ Rxf7 31. Qxd6 Rxe1+ 32. Kd2 Re8 33. Qg6
+Ree7 34. d6 Rd7 35. Nd5 b5 36. Qxh5+ Rh7 37. Qe8 bxc4 38. Qe5+ Rhg7 39. h5 1-0
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.06.28"]
+[Round "4"]
+[White "Cortes Orihuela, J."]
+[Black "Arun Prasad, S."]
+[Result "1/2-1/2"]
+[ECO "A64"]
+[WhiteElo "2155"]
+[BlackElo "2472"]
+[PlyCount "74"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. d4 Nf6 2. c4 e6 3. g3 c5 4. d5 exd5 5. cxd5 d6 6. Nc3 g6 7. Bg2 Bg7 8. Nf3
+O-O 9. O-O a6 10. a4 Nbd7 11. Nd2 Re8 12. Ra2 Rb8 13. a5 b5 14. axb6 Nxb6 15.
+b3 Ng4 16. Bb2 f5 17. Qc2 Ne5 18. Nd1 Bd7 19. Ne3 Bb5 20. Re1 Qe7 21. Ba1 Ned7
+22. Bxg7 Qxg7 23. Ndc4 Qf6 24. Na5 Rxe3 25. fxe3 Re8 26. Qc1 Ne5 27. Rc2 Ng4
+28. Rc3 Qg5 29. Nc4 Bxc4 30. bxc4 Nxe3 31. Rf1 Qe7 32. Rf4 Qe5 33. Rf3 Nxg2 34.
+Kxg2 Qxe2+ 35. Rf2 Qe4+ 36. Rff3 Qe2+ 37. Rf2 Qe4+ 1/2-1/2
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.06.29"]
+[Round "5"]
+[White "Arun Prasad, S."]
+[Black "Teh, EWA."]
+[Result "1/2-1/2"]
+[ECO "A46"]
+[WhiteElo "2472"]
+[BlackElo "2228"]
+[PlyCount "75"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. d4 Nf6 2. Nf3 e6 3. Bg5 h6 4. Bxf6 Qxf6 5. e4 d6 6. Nc3 Nd7 7. Qd2 Qd8 8.
+O-O-O Be7 9. Bd3 a6 10. e5 d5 11. Ne2 c5 12. dxc5 Nxc5 13. Nfd4 Bd7 14. f4 Qc7
+15. Kb1 O-O-O 16. Qe3 Kb8 17. Rhe1 Rc8 18. c3 f5 19. g4 fxg4 20. Rg1 Nxd3 21.
+Rxd3 Rcf8 22. Rxg4 g5 23. Rd1 Qc8 24. Rgg1 Be8 25. Rdf1 Bg6+ 26. Ka1 Be4 27.
+Qh3 Bc5 28. fxg5 hxg5 29. Rxf8 Qxf8 30. Qg3 Qh6 31. Qxg5 Qxh2 32. a3 Bd3 33.
+Nf4 Bc4 34. Nfxe6 Bxa3 35. Rg2 Qh1+ 36. Rg1 Qh2 37. Rg2 Qh1+ 38. Rg1 1/2-1/2
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.06.30"]
+[Round "6"]
+[White "Akshat, Kh"]
+[Black "Arun Prasad, S."]
+[Result "0-1"]
+[ECO "A61"]
+[WhiteElo "2367"]
+[BlackElo "2472"]
+[PlyCount "64"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. d4 e6 2. c4 Nf6 3. Nc3 c5 4. d5 exd5 5. cxd5 d6 6. Nf3 g6 7. Bf4 a6 8. Nd2
+b5 9. a4 b4 10. Nce4 Nh5 11. Bg5 f6 12. Bh4 g5 13. e3 Ng7 14. Qf3 gxh4 15.
+Nxf6+ Ke7 16. Nc4 Bf5 17. Qf4 Nd7 18. Nxd7 Kxd7 19. Be2 Kc7 20. e4 Bg6 21. O-O
+Be7 22. Qe3 Re8 23. f4 Bf8 24. Bd3 Kb8 25. Qf3 Ra7 26. f5 Bh5 27. Qf4 Qf6 28.
+Kh1 Bf7 29. Rae1 Nh5 30. Qf3 Qh6 31. Rf2 Bxd5 32. Ne3 Bc6 0-1
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.07.01"]
+[Round "7"]
+[White "Arun Prasad, S."]
+[Black "Perpinya Rofes, LM."]
+[Result "1/2-1/2"]
+[ECO "A48"]
+[WhiteElo "2472"]
+[BlackElo "2400"]
+[PlyCount "97"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. d4 Nf6 2. Nf3 g6 3. Bg5 Bg7 4. Nbd2 O-O 5. c3 d6 6. e4 c5 7. dxc5 dxc5 8.
+Bc4 Nc6 9. Qe2 h6 10. Bh4 Nh5 11. Qe3 Na5 12. Be2 Qc7 13. e5 Nc6 14. O-O b6 15.
+Rad1 Be6 16. h3 Bxe5 17. Nxe5 Qxe5 18. Qxe5 Nxe5 19. f4 Nc6 20. f5 Bxa2 21. Bf3
+Rac8 22. Bxh5 gxh5 23. Ra1 Rfd8 24. Be1 Rxd2 25. Bxd2 Bc4 26. Rf4 Rd8 27. Be3
+Bd3 28. Rd1 Rd6 29. b4 c4 30. Rh4 a5 31. bxa5 bxa5 32. Rxh5 Kg7 33. Bc5 Rd7 34.
+Rh4 Rd5 35. Be3 Rxf5 36. Bxh6+ Kg6 37. Bc1 f6 38. Rh8 Rb5 39. Rc8 Ne5 40. Be3
+a4 41. Ra8 Be4 42. Ra7 Nc6 43. Ra6 Rb2 44. Rd2 Rb1+ 45. Kh2 Ra1 46. Bc5 Rc1 47.
+Rxa4 Rxc3 48. Ra1 e5 49. Rf2 1/2-1/2
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.07.02"]
+[Round "8"]
+[White "Oliva Castaneda, K."]
+[Black "Arun Prasad, S."]
+[Result "1-0"]
+[ECO "A09"]
+[WhiteElo "2427"]
+[BlackElo "2472"]
+[PlyCount "57"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. Nf3 d5 2. c4 d4 3. b4 f6 4. e3 e5 5. b5 c5 6. Bd3 Bd6 7. Qc2 Ne7 8. exd4
+exd4 9. O-O f5 10. Re1 O-O 11. Bf1 h6 12. d3 Qc7 13. a4 a5 14. Qb3 Kh7 15. Ra2
+Ng6 16. Rae2 Nd7 17. Ba3 b6 18. Nbd2 Nf6 19. g3 Bd7 20. Bg2 Rad8 21. Rf1 Rf7
+22. Nxd4 f4 23. Ne6 Bxe6 24. Rxe6 Ne5 25. d4 Qd7 26. Rxe5 Bxe5 27. dxe5 Qxd2
+28. exf6 Rxf6 29. Bc1 1-0
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.07.03"]
+[Round "9"]
+[White "Arun Prasad, S."]
+[Black "Vehi Bach, VM."]
+[Result "1-0"]
+[ECO "B80"]
+[WhiteElo "2472"]
+[BlackElo "2313"]
+[PlyCount "63"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Be3 Be7 7. f3 Nc6 8. Qd2
+a6 9. O-O-O O-O 10. g4 Nd7 11. h4 Nde5 12. Qf2 Bd7 13. Nxc6 bxc6 14. Qg3 c5 15.
+g5 Qb6 16. f4 Nc6 17. Kb1 Rfb8 18. Bc1 Nd4 19. h5 Ra7 20. g6 fxg6 21. hxg6 h6
+22. b3 Bf8 23. f5 Qd8 24. Ne2 Nxe2 25. Bxe2 Bb5 26. Bg5 Qe8 27. Bxb5 axb5 28.
+Bxh6 gxh6 29. f6 Qd8 30. f7+ Kg7 31. Rxh6 Kxh6 32. g7 1-0

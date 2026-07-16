@@ -1,0 +1,99 @@
+[Event "Ciutat de Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "1"]
+[White "Perez Pinazo, C."]
+[Black "Ziatdinov, R."]
+[Result "0-1"]
+[ECO "C52"]
+[WhiteElo "2005"]
+[BlackElo "2475"]
+[PlyCount "42"]
+[EventDate "1996.??.??"]
+[EventType "rapid"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. b4 Bxb4 5. c3 Ba5 6. d4 Bb6 7. Qb3 Na5 8. Qb5
+Nxc4 9. Qxc4 exd4 10. cxd4 Ne7 11. O-O d5 12. exd5 Qxd5 13. Qd3 Bf5 14. Qc3 O-O
+15. Ba3 Rfe8 16. Nbd2 Ng6 17. Nb3 Nf4 18. Nc1 Be4 19. Bb2 Nxg2 20. Kxg2 Qg5+
+21. Kh1 Qg4 0-1
+
+[Event "Ciutat de Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "2"]
+[White "Ziatdinov, R."]
+[Black "Borras Pardo, A."]
+[Result "1-0"]
+[ECO "B92"]
+[WhiteElo "2475"]
+[BlackElo "2175"]
+[PlyCount "57"]
+[EventDate "1996.??.??"]
+[EventType "rapid"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e5 7. Nb3 Be7 8. O-O
+Be6 9. Kh1 Nbd7 10. f4 Qc7 11. g4 h6 12. g5 hxg5 13. fxg5 Ng8 14. Nd5 Bxd5 15.
+Qxd5 O-O-O 16. Bd2 f6 17. Ba5 Nb6 18. Qd3 d5 19. Qc3 Qxc3 20. bxc3 Rd6 21. Bxb6
+Rxb6 22. exd5 e4 23. Bg4+ Kb8 24. Rae1 fxg5 25. Rxe4 Bd6 26. Re8+ Ka7 27. h3
+Be7 28. Rf7 Bf6 29. Rff8 1-0
+
+[Event "Ciutat de Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "4"]
+[White "Ziatdinov, R."]
+[Black "Torrecillas Martinez, A."]
+[Result "1-0"]
+[ECO "B03"]
+[WhiteElo "2475"]
+[BlackElo "2355"]
+[PlyCount "62"]
+[EventDate "1996.??.??"]
+[EventType "rapid"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. c4 Nb6 5. exd6 exd6 6. h3 Be7 7. Nf3 O-O 8. Be2
+Bf5 9. Nc3 Nc6 10. O-O d5 11. c5 Nc8 12. Qb3 Bf6 13. Be3 N8e7 14. Rad1 Qd7 15.
+Bb5 Rfd8 16. Bf4 a6 17. Ba4 Rab8 18. Rfe1 b5 19. cxb6 Rxb6 20. Qa3 Rdb8 21. b3
+Be6 22. Rc1 Ng6 23. Ne2 Be7 24. Qb2 Bxh3 25. Rxc6 Rxc6 26. Bxc6 Qxc6 27. gxh3
+Qf6 28. Qc1 Bd6 29. Bxd6 Qxf3 30. Bg3 h5 31. Qe3 Qf5 1-0
+
+[Event "Ciutat de Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "5"]
+[White "Gual Pascual, A."]
+[Black "Ziatdinov, R."]
+[Result "1-0"]
+[ECO "D35"]
+[WhiteElo "2430"]
+[BlackElo "2475"]
+[PlyCount "71"]
+[EventDate "1996.??.??"]
+[EventType "rapid"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. cxd5 exd5 5. Bg5 Be7 6. e3 O-O 7. Bd3 Nbd7 8.
+Nge2 Re8 9. O-O Nf8 10. b4 a6 11. a4 Bxb4 12. Bxf6 gxf6 13. Qb3 Bxc3 14. Nxc3
+c6 15. a5 Re7 16. Na4 Ne6 17. Qc2 Ng5 18. Nc5 Re8 19. f4 Ne4 20. Bxe4 dxe4 21.
+f5 Kh8 22. Rf4 Qc7 23. Rb1 Qd8 24. Qf2 Rf8 25. Qh4 Rg8 26. Nxe4 Rg7 27. Nxf6
+Qxa5 28. Nh5 Bxf5 29. Qf6 Rag8 30. Nxg7 Rxg7 31. Qxf5 Qd2 32. Qe4 b5 33. Rf2
+Qc3 34. Qe8+ Rg8 35. Qe5+ Rg7 36. Rxf7 1-0
+
+[Event "Ciutat de Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "6"]
+[White "Ziatdinov, R."]
+[Black "Castellet Giralt, G."]
+[Result "1-0"]
+[ECO "B35"]
+[WhiteElo "2475"]
+[BlackElo "2280"]
+[PlyCount "63"]
+[EventDate "1996.??.??"]
+[EventType "rapid"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. Nc3 Bg7 6. Be3 Nf6 7. Bc4 O-O 8.
+Bb3 a5 9. a4 Ng4 10. Qxg4 Nxd4 11. Bxd4 Bxd4 12. O-O-O Bg7 13. Rd3 d6 14. Qh4
+Bf6 15. Qh6 Bg7 16. Qd2 Be6 17. Nd5 Bxd5 18. Rxd5 Qc7 19. h4 h6 20. f4 Kh7 21.
+Kb1 Bf6 22. g4 Bh8 23. h5 g5 24. fxg5 hxg5 25. Rxg5 Be5 26. Rxe5 dxe5 27. g5
+Rh8 28. Bxf7 Kg7 29. Qf2 Ra6 30. h6+ Rhxh6 31. gxh6+ Rxh6 32. Rg1+ 1-0

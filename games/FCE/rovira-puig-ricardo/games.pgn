@@ -1,0 +1,450 @@
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.13"]
+[Round "1"]
+[White "Rovira Puig, Ricardo"]
+[Black "Gomez Guinovart, Josep Manel"]
+[Result "0-1"]
+[ECO "C11"]
+[BlackElo "1733"]
+[PlyCount "98"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. Bb5 a6 6. Bd3 c5 7. Nf3 cxd4 8. Nxd4
+Nxe5 9. Be2 Bb4 10. Bd2 Nbc6 11. Nxc6 Nxc6 12. O-O Bd7 13. a3 Ba5 14. Bf3 O-O
+15. Ne2 Bxd2 16. Qxd2 Ne5 17. Qf4 Ng6 18. Qg3 Rc8 19. Nd4 Qc7 20. Qg5 Qe5 21.
+Qxe5 Nxe5 22. Be2 Ng6 23. Rac1 Rc7 24. c4 dxc4 25. f4 b5 26. Rc3 Rfc8 27. Bg4
+h6 28. Ne2 Bc6 29. f5 Ne5 30. Bh5 Nd3 31. Rc2 exf5 32. Nd4 g6 33. Be2 Be4 34.
+Rc3 Nxb2 35. Rg3 Kh7 36. h4 Bd3 37. Rf2 Re8 38. Bf3 Re1+ 39. Kh2 Nd1 40. Bxd1
+Rxd1 41. Rh3 Be4 42. Nf3 c3 43. h5 Bxf3 44. hxg6+ fxg6 45. Rfxf3 c2 46. Rf4
+c1=Q 47. Rfh4 Rh1+ 48. Kg3 Rxh3+ 49. Rxh3 Rc3+ 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.14"]
+[Round "2"]
+[White "Grindbakken, Erik"]
+[Black "Rovira Puig, Ricardo"]
+[Result "1-0"]
+[ECO "A21"]
+[WhiteElo "1610"]
+[PlyCount "59"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 e5 2. Nc3 g6 3. Nf3 d6 4. d4 Bg7 5. dxe5 Ne7 6. exd6 cxd6 7. Bd2 Be6 8.
+g3 Nbc6 9. b3 Rb8 10. Rc1 a6 11. Bg2 Qd7 12. Bf4 Nf5 13. O-O h6 14. c5 Ncd4 15.
+Nxd4 Bxd4 16. e4 Nxg3 17. Qxd4 Ne2+ 18. Nxe2 Rh7 19. Qxd6 Qxd6 20. cxd6 Rd8 21.
+e5 g5 22. Bg3 h5 23. Bxb7 h4 24. Rc7 Kf8 25. Nd4 Bd7 26. e6 hxg3 27. fxg3 Ke8
+28. exd7+ Rxd7 29. Rc8+ Rd8 30. Bc6+ 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.15"]
+[Round "3"]
+[White "Rovira Puig, Ricardo"]
+[Black "Pascual Duran, Pau"]
+[Result "0-1"]
+[ECO "D00"]
+[BlackElo "1480"]
+[PlyCount "70"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nc3 d5 3. Nf3 e6 4. a3 c5 5. e3 Nc6 6. Ne2 Bd6 7. g3 O-O 8. Bg2
+Re8 9. O-O Ne4 10. Ne1 f5 11. f4 Rf8 12. Nd3 b6 13. b3 Rf6 14. Bb2 Rh6 15. Ne5
+Bxe5 16. dxe5 Ba6 17. c4 dxc4 18. Qxd8+ Rxd8 19. Bxe4 fxe4 20. Rf2 Rd3 21. b4
+cxb4 22. axb4 Nxb4 23. Bd4 Rg6 24. f5 exf5 25. Rxf5 Re6 26. Raf1 Re8 27. Rf7
+Nc6 28. e6 Nxd4 29. exd4 Rf3 30. R1xf3 exf3 31. Nf4 c3 32. Nd5 c2 33. Rc7 Rc8
+34. e7 c1=Q+ 35. Kf2 Qxc7 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.16"]
+[Round "4"]
+[White "Molina Taberner, Jordi"]
+[Black "Rovira Puig, Ricardo"]
+[Result "1-0"]
+[ECO "A45"]
+[WhiteElo "1529"]
+[PlyCount "67"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Bf4 d6 3. e3 c5 4. c3 Bd7 5. Nd2 a6 6. Bd3 Nc6 7. Ngf3 Nh5 8. Ng5
+g6 9. g4 Nxf4 10. exf4 Bg7 11. Qb3 O-O 12. d5 Na5 13. Qc2 Bxg4 14. f3 Bh5 15.
+Nge4 e6 16. dxe6 fxe6 17. Ng3 Qh4 18. Qa4 Nc6 19. Qe4 Rae8 20. O-O-O Rxf4 21.
+Qe2 Qg5 22. Rdg1 Bxf3 23. Nxf3 Re4+ 24. Nxg5 Rxe2 25. Nxe2 Ne5 26. Nf4 Bh6 27.
+h4 c4 28. Be2 b5 29. h5 Rf8 30. Nfh3 Nf7 31. hxg6 Nxg5 32. gxh7+ Kxh7 33. Nxg5+
+Kh8 34. Rxh6+ 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.17"]
+[Round "5"]
+[White "Rovira Puig, Ricardo"]
+[Black "Arias Aranda, Guillem"]
+[Result "0-1"]
+[ECO "C55"]
+[PlyCount "78"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 d6 5. O-O Bg4 6. Nbd2 Nd4 7. c3 Nxf3+ 8.
+Nxf3 Qd7 9. Qb3 Bxf3 10. gxf3 Rb8 11. Be3 b6 12. d4 b5 13. Be2 exd4 14. cxd4 c5
+15. dxc5 dxc5 16. Rad1 Qb7 17. Bf4 Rc8 18. Qe3 Be7 19. Kh1 O-O 20. Rg1 Rfd8 21.
+Rdf1 Rd7 22. Rg2 g6 23. e5 Nd5 24. Qc1 Nxf4 25. Qxf4 Qc6 26. Bd1 Rcd8 27. Bc2
+Rd2 28. Be4 Qa6 29. Rfg1 Rd1 30. h4 Rxg1+ 31. Rxg1 Kf8 32. Qh6+ Kg8 33. h5 Qe6
+34. hxg6 Qxe5 35. gxh7+ Kh8 36. Rg8+ Rxg8 37. hxg8=Q+ Kxg8 38. Qh7+ Kf8 39.
+Qg8+ Kxg8 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.19"]
+[Round "7"]
+[White "Costa Frers, Octavi"]
+[Black "Rovira Puig, Ricardo"]
+[Result "0-1"]
+[ECO "B07"]
+[PlyCount "84"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 a6 4. Nf3 Bg4 5. Be3 c6 6. Bd3 b5 7. d5 c5 8. h3 Bd7
+9. b3 g6 10. Qd2 h5 11. O-O-O Bg7 12. Rdg1 b4 13. Nd1 Qa5 14. c3 bxc3 15. Nxc3
+e6 16. Ne2 Qb6 17. e5 Nxd5 18. Ng5 Bxe5 19. Be4 Bc6 20. g4 Nd7 21. f4 Bg7 22.
+gxh5 gxh5 23. Nh7 Bf6 24. Rg2 O-O-O 25. Nc3 Bxc3 26. Qd3 Bb5 27. Qc2 Qa5 28.
+Rg3 Qa3+ 29. Kb1 Bb4 30. Bc1 Nc3+ 31. Rxc3 Qa5 32. Rf3 f5 33. Bxf5 Bc6 34. Be4
+d5 35. Bg6 h4 36. Rd1 Rhg8 37. Bf7 Rg3 38. Rxg3 hxg3 39. Rg1 e5 40. Rxg3 e4 41.
+Rg6 Bb5 42. Bxd5 Bd3 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.20"]
+[Round "8"]
+[White "Rovira Puig, Ricardo"]
+[Black "Martinez Navarro, Miquel"]
+[Result "0-1"]
+[ECO "D00"]
+[BlackElo "1587"]
+[PlyCount "120"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. e3 g6 3. c4 dxc4 4. Bxc4 Bg7 5. Nf3 Nc6 6. Bxf7+ Kxf7 7. Ng5+ Ke8
+8. Qb3 Nh6 9. O-O Qd6 10. Nc3 e6 11. Nce4 Qd5 12. Qd1 Kd8 13. a3 b6 14. b4 Bd7
+15. Qd3 Ne5 16. Qc2 Nef7 17. Nh3 Bc6 18. f3 a6 19. Bb2 Nf5 20. Rae1 Qd7 21. Nf4
+Kc8 22. Rf2 Kb7 23. Nd3 Rhe8 24. Ndc5+ bxc5 25. Nxc5+ Kc8 26. Nxd7 Bxd7 27. e4
+Nxd4 28. Qc1 c6 29. Qf4 Re7 30. Qh4 Kd8 31. Qxh7 Nd6 32. e5 Bxe5 33. Qxg6 Rg7
+34. Qh5 Bf6 35. Bc1 Ke7 36. Qc5 Nb3 37. Qc2 Nxc1 38. Rd2 Bg5 39. Rd4 Rag8 40.
+Qc5 Bf4 41. g4 Nb3 42. Rxe6+ Kxe6 43. Qc3 Nxd4 44. Qxd4 Be5 45. Qe3 Rf8 46. h3
+Rgf7 47. Qh6+ Rf6 48. Qe3 Rxf3 49. Qh6+ R3f6 50. Qe3 Rf1+ 51. Kg2 R8f2+ 52.
+Qxf2 Rxf2+ 53. Kxf2 Kf6 54. Kf3 Kg5 55. a4 Bc3 56. b5 axb5 57. axb5 cxb5 58.
+Kg3 b4 59. h4+ Kg6 60. g5 b3 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.21"]
+[Round "9"]
+[White "Orts Gonzalez, Rafael"]
+[Black "Rovira Puig, Ricardo"]
+[Result "1-0"]
+[ECO "A45"]
+[WhiteElo "1191"]
+[PlyCount "95"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Bf4 e6 3. a3 d5 4. Bg3 Nbd7 5. Nc3 c5 6. Nb5 Qa5+ 7. Nc3 Be7 8. e3
+O-O 9. Bd3 cxd4 10. exd4 Nb6 11. Nge2 Na4 12. Qc1 Nxc3 13. Nxc3 a6 14. O-O Bd7
+15. Re1 Qd8 16. b4 Ng4 17. Qd1 f5 18. Ne2 Bh4 19. h3 Nf6 20. Bxh4 Qe8 21. Ng3
+Qc8 22. Rc1 Ne8 23. Qh5 Qc3 24. Be7 Rf7 25. Bc5 a5 26. b5 a4 27. Ne2 Qa5 28.
+Rb1 b6 29. Bb4 Qa7 30. c4 Rf6 31. cxd5 Rh6 32. Qf3 Qb7 33. Nf4 Nf6 34. Bc4 Ne4
+35. dxe6 Kh8 36. e7 Rc8 37. Bf7 Qc7 38. Rbc1 Qb8 39. g4 Ng5 40. Qg3 fxg4 41.
+Ng6+ hxg6 42. Rxc8+ Qxc8 43. e8=Q+ Qxe8 44. Bxe8 Bf5 45. Bc6 Rxh3 46. Re8+ Kh7
+47. Qb8 Kh6 48. Bd2 1-0
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.01.12"]
+[Round "1"]
+[White "Rovira Puig, Ricardo"]
+[Black "Costa Trave, Jaume"]
+[Result "0-1"]
+[ECO "C00"]
+[WhiteElo "1166"]
+[BlackElo "1826"]
+[PlyCount "76"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. Nf3 d5 3. e5 c5 4. c4 d4 5. d3 Bd7 6. Bf4 Bc6 7. Be2 Ne7 8. O-O Ng6
+9. Bg3 Nd7 10. Nbd2 Qc7 11. Ng5 Ndxe5 12. f4 h6 13. Nge4 Nd7 14. Bh5 Ne7 15.
+Bxf7+ Kxf7 16. Qh5+ Kg8 17. Qg4 Nf5 18. Qg6 Nxg3 19. Qxe6+ Kh7 20. Nxg3 Qd6 21.
+Qf5+ Qg6 22. Qxg6+ Kxg6 23. Rae1 Bd6 24. f5+ Kf7 25. Re6 Bxg3 26. hxg3 Rae8 27.
+Rf4 Rxe6 28. fxe6+ Kxe6 29. Nf1 Rf8 30. Rg4 g5 31. Nh2 Ne5 32. b3 Nxg4 33. Nxg4
+h5 34. Nf2 Rxf2 35. Kxf2 Kf5 36. a3 Kg4 37. a4 a5 38. Kg1 Kxg3 0-1
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.01.19"]
+[Round "2"]
+[White "Torres Martinez, Jordi"]
+[Black "Rovira Puig, Ricardo"]
+[Result "1-0"]
+[ECO "C47"]
+[WhiteElo "1657"]
+[BlackElo "1166"]
+[PlyCount "85"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. d4 d5 5. Bb5 a6 6. Ba4 b5 7. Bb3 Bb4 8. O-O
+Bxc3 9. bxc3 Nxe4 10. Qd3 Bf5 11. dxe5 Be6 12. Ba3 Na5 13. Nd4 c5 14. Nxe6 fxe6
+15. Qh3 Qe7 16. f3 Ng5 17. Qh5+ g6 18. Qg4 h5 19. Qg3 h4 20. Qg4 Rh6 21. f4 Ne4
+22. Rae1 O-O-O 23. Rxe4 Nxb3 24. axb3 dxe4 25. Ra1 Kb7 26. Qe2 Kb6 27. Qxe4 g5
+28. h3 Rf8 29. fxg5 Qxg5 30. Bc1 Qg6 31. Qe2 Rh7 32. Be3 a5 33. b4 Kc6 34. Rxa5
+Rb7 35. Ra6+ Rb6 36. Rxb6+ Kc7 37. Qxb5 Qe4 38. Qxc5+ Kd7 39. Rd6+ Ke8 40.
+Rxe6+ Kf7 41. Rf6+ Ke8 42. Qxf8+ Kd7 43. Qg7+ 1-0
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.01.26"]
+[Round "3"]
+[White "Rovira Puig, Ricardo"]
+[Black "Ferrer Ache, Jesus"]
+[Result "0-1"]
+[ECO "C41"]
+[WhiteElo "1166"]
+[BlackElo "1519"]
+[PlyCount "90"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 d6 3. Be2 Nc6 4. c3 Be7 5. d4 exd4 6. Nxd4 Bf6 7. Be3 Bd7 8.
+Na3 Nge7 9. Nac2 Ng6 10. O-O O-O 11. f4 Re8 12. Qd3 Qc8 13. f5 Nge5 14. Qd2 Ne7
+15. Nb4 c5 16. Nd5 Nxd5 17. exd5 cxd4 18. Bxd4 Bxf5 19. Rf2 Bg6 20. b3 Qd8 21.
+Raf1 Bg5 22. Be3 Bxe3 23. Qxe3 Ng4 24. Qf3 Nxf2 25. Rxf2 Qe7 26. Bb5 Rf8 27.
+Re2 Qc7 28. Qe3 h6 29. Rf2 a6 30. Bf1 Rae8 31. Qd4 Re5 32. c4 Qe7 33. h3 Re4
+34. Qd2 Re8 35. Kh2 Qe5+ 36. g3 Re3 37. Rg2 f5 38. Qf2 Rf8 39. Qf4 b6 40. Rf2
+Rf6 41. Rf3 Rxf3 42. Qxf3 Qe4 43. Qc3 f4 44. Bg2 fxg3+ 45. Kg1 Qb1+ 0-1
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.02.02"]
+[Round "4"]
+[White "Avila Lopez, Juan"]
+[Black "Rovira Puig, Ricardo"]
+[Result "0-1"]
+[ECO "D40"]
+[WhiteElo "1348"]
+[BlackElo "1166"]
+[PlyCount "75"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 e6 2. c4 Nf6 3. Nc3 d5 4. Nf3 c5 5. e3 Be7 6. Bd3 Nc6 7. O-O Qc7 8. Re1
+a6 9. dxc5 Bxc5 10. h3 O-O 11. cxd5 exd5 12. e4 Be6 13. e5 Nh5 14. g4 Qb6 15.
+Kg2 Rae8 16. Na4 Qa7 17. Nxc5 Qxc5 18. gxh5 Nb4 19. Be3 Qc8 20. Rc1 Bxh3+ 21.
+Kh2 Nc6 22. Bc5 Qg4 23. Rg1 Qxh5 24. Ng5 Bg4+ 25. Kg3 Bxd1 26. Rcxd1 Qxg5+ 27.
+Kh2 Qxe5+ 28. Kg2 Ne7 29. Rge1 Qg5+ 30. Kf1 Nf5 31. Bxf8 Rxf8 32. Re5 Ng3+ 33.
+fxg3 Qxe5 34. b3 b5 35. Kg2 f5 36. Rf1 Rf6 37. Rh1 Rh6 38. Rc1 0-1
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.02.09"]
+[Round "5"]
+[White "Rovira Puig, Ricardo"]
+[Black "Cervera Lopez, Miguel"]
+[Result "0-1"]
+[ECO "B23"]
+[WhiteElo "1166"]
+[BlackElo "1642"]
+[PlyCount "54"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Bc4 Nc6 3. Nc3 a6 4. Nf3 b5 5. Bxf7+ Kxf7 6. Ng5+ Ke8 7. Nd5 e6 8.
+Qf3 Ne5 9. Qf4 Bd6 10. Qh4 exd5 11. exd5 Nf6 12. Qg3 h6 13. Nh3 Nf7 14. Qf3 Ng5
+15. Nxg5 hxg5 16. h3 g4 17. Qf5 Kf7 18. d3 Qe7+ 19. Kd1 g6 20. Qg5 Rh5 21. Qd2
+Nxd5 22. Re1 Qf6 23. Qa5 gxh3 24. gxh3 Rxh3 25. Bd2 Bb7 26. Bc1 Qf3+ 27. Kd2
+Bf4+ 0-1
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.02.16"]
+[Round "6"]
+[White "Gomez Fernandez, Miquel"]
+[Black "Rovira Puig, Ricardo"]
+[Result "1-0"]
+[ECO "A65"]
+[WhiteElo "1559"]
+[BlackElo "1166"]
+[PlyCount "85"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 e6 2. c4 c5 3. d5 exd5 4. cxd5 Nf6 5. Nc3 d6 6. e4 Nbd7 7. Nf3 g6 8. Bd3
+Bg7 9. O-O Ne5 10. Nxe5 dxe5 11. Bg5 O-O 12. Qd2 Re8 13. Be2 Bd7 14. Rad1 Qa5
+15. Qc2 a6 16. b3 b5 17. a4 b4 18. Nb1 Bg4 19. Bxf6 Bxe2 20. Qxe2 Bxf6 21. Nd2
+Qd8 22. Nc4 Ra7 23. Qe3 Qc8 24. Nd6 Qd7 25. Nxe8 Qxe8 26. Qxc5 Rd7 27. Qxb4 h5
+28. Rc1 Bd8 29. Rc6 a5 30. Qc4 Kg7 31. d6 Rb7 32. Rc8 Rb4 33. Qd5 Qd7 34. Rc4
+Rxb3 35. Qxe5+ Bf6 36. Qd5 Qg4 37. Rc7 Kh6 38. Qxb3 h4 39. Qf3 Qg5 40. Rxf7 Be5
+41. Qe3 Bxd6 42. Rh7+ Kxh7 43. Qxg5 1-0
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.02.23"]
+[Round "7"]
+[White "Rovira Puig, Ricardo"]
+[Black "Climent Vidal, Pere"]
+[Result "0-1"]
+[ECO "C00"]
+[WhiteElo "1166"]
+[BlackElo "1576"]
+[PlyCount "56"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. c4 d5 3. e5 c5 4. Nf3 d4 5. d3 Be7 6. Na3 Nc6 7. Bd2 f6 8. Bf4 fxe5
+9. Bg3 Qc7 10. Nb5 Qd8 11. Be2 Nf6 12. O-O a6 13. Na3 e4 14. Ne1 O-O 15. Nac2
+e5 16. h3 Bd6 17. Bh4 Qe8 18. Kh1 Bf5 19. Bxf6 Rxf6 20. Qd2 Qf7 21. a3 exd3 22.
+Bh5 Qxh5 23. Qd1 Qxd1 24. Rxd1 dxc2 25. Ra1 d3 26. Nf3 e4 27. Nd2 Raf8 28. Rac1
+Bf4 0-1
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.03.02"]
+[Round "8"]
+[White "Guinjoan Fradera, Joan"]
+[Black "Rovira Puig, Ricardo"]
+[Result "1-0"]
+[ECO "C01"]
+[WhiteElo "1528"]
+[BlackElo "1166"]
+[PlyCount "137"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. Nf3 h6 5. h3 Nf6 6. Bd3 Be6 7. O-O Bd6 8. Re1
+Nbd7 9. Be3 c6 10. Nbd2 b5 11. b3 a5 12. c4 b4 13. c5 Be7 14. Bf4 O-O 15. Ne5
+Rc8 16. a3 Ne8 17. axb4 Bf6 18. bxa5 Bg5 19. Bxg5 Qxg5 20. Ndf3 Qh5 21. Nxd7
+Bxd7 22. Ne5 Qxd1 23. Raxd1 Be6 24. a6 Nc7 25. f4 f5 26. Nxc6 Rf7 27. Ra1 Bd7
+28. Ne5 Re7 29. b4 Bb5 30. Bxb5 Nxb5 31. Ng6 Rxe1+ 32. Rxe1 Kh7 33. Ne5 Nxd4
+34. a7 Nc2 35. Rb1 Na3 36. Rb3 Nb5 37. Rd3 Nxa7 38. Rxd5 Rb8 39. Rd7 Ra8 40.
+Rb7 Nc8 41. c6 Nd6 42. Rb6 Rc8 43. b5 h5 44. Ra6 Nxb5 45. Kf2 Nc7 46. Ra5 Ne6
+47. Kg3 Nd4 48. Rc5 Ne2+ 49. Kf3 Nd4+ 50. Ke3 Ne6 51. Rc1 Kh6 52. Nf7+ Kg6 53.
+Ne5+ Kf6 54. Rd1 g5 55. g3 h4 56. Nd7+ Kg6 57. Ne5+ Kf6 58. Nd7+ Kg6 59. fxg5
+Rxc6 60. Ne5+ Kxg5 61. Nxc6 f4+ 62. gxf4+ Nxf4 63. Rg1+ Kf5 64. Nd4+ Ke5 65.
+Nf3+ Kf5 66. Nxh4+ Ke5 67. Ng6+ Nxg6 68. Rxg6 Kf5 69. Rg1 1-0
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.03.09"]
+[Round "9"]
+[White "Rovira Puig, Ricardo"]
+[Black "Molina Tabernero, Jordi"]
+[Result "0-1"]
+[ECO "B06"]
+[WhiteElo "1166"]
+[BlackElo "1490"]
+[PlyCount "84"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 g6 2. d4 d6 3. c3 Bg7 4. Bc4 e6 5. Be3 b6 6. Nf3 Bb7 7. Nbd2 Nf6 8. Ng5
+h6 9. Ngf3 Nxe4 10. Nxe4 Bxe4 11. O-O O-O 12. Nd2 Bb7 13. Be2 Nd7 14. Bf3 Bxf3
+15. Nxf3 f5 16. Bd2 Nf6 17. Nh4 Kh7 18. f4 Ne4 19. Be1 Bf6 20. Nf3 Rg8 21. d5
+e5 22. Nd2 Nc5 23. Rf3 e4 24. Rh3 Nd3 25. Nc4 Nxf4 26. Rxh6+ Kxh6 27. Bg3 Bg5
+28. Ne3 Nd3 29. Nc4 Bh4 30. Qd2+ Bg5 31. Ne3 Kg7 32. Be1 Rh8 33. g3 Ne5 34. Qd4
+Bf6 35. Qd1 Nf3+ 36. Kf2 Rxh2+ 37. Ng2 Qh8 38. Qa4 Ne5 39. Rd1 Qh3 40. Ke3 Qxg2
+41. Kd4 Qe2 42. Bd2 Qd3# 0-1

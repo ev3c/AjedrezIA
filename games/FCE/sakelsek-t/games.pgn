@@ -1,0 +1,80 @@
+[Event "Andorra op"]
+[Site "?"]
+[Date "2005.07.10"]
+[Round "2.4"]
+[White "Peralta, F."]
+[Black "Sakelsek, T."]
+[Result "1-0"]
+[ECO "E54"]
+[WhiteElo "2553"]
+[BlackElo "2395"]
+[PlyCount "85"]
+[EventDate "2005.??.??"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Bd3 d5 6. Nf3 c5 7. O-O cxd4 8. exd4
+dxc4 9. Bxc4 a6 10. a3 Bxc3 11. bxc3 b5 12. Bd3 Nc6 13. Bg5 Ne7 14. a4 Bd7 15.
+Ne5 Rc8 16. axb5 axb5 17. Ra7 Rc7 18. Bxf6 gxf6 19. Qh5 Ng6 20. Rxc7 Qxc7 21.
+Nxd7 Qxd7 22. Qxb5 Qc7 23. Qb2 Rc8 24. Rc1 f5 25. Bf1 Qd6 26. c4 e5 27. dxe5
+Nxe5 28. Qc2 Ng4 29. g3 Rc5 30. Rd1 Qf6 31. Qd2 Ne5 32. Qe3 Rc8 33. Rd5 Ng6 34.
+Qd4 Qxd4 35. Rxd4 Kg7 36. f4 Kf6 37. Rd6+ Kg7 38. Bd3 Rc5 39. Kf2 Nf8 40. Ke3
+Ra5 41. Rd5 Rxd5 42. cxd5 Kf6 43. Kd4 1-0
+
+[Event "Andorra op"]
+[Site "?"]
+[Date "2005.07.11"]
+[Round "3.20"]
+[White "Sakelsek, T."]
+[Black "Riera Sola, L."]
+[Result "1-0"]
+[ECO "B33"]
+[WhiteElo "2395"]
+[BlackElo "2067"]
+[PlyCount "75"]
+[EventDate "2005.??.??"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Nd5 Nxd5 8.
+exd5 Nb8 9. a4 a6 10. Na3 b6 11. Nc4 Be7 12. a5 Nd7 13. axb6 Nxb6 14. Na5 Qc7
+15. Be3 Bb7 16. c4 Nd7 17. Be2 f5 18. f3 Bh4+ 19. g3 f4 20. Bf2 Bg5 21. Qb3 Rb8
+22. Ba7 O-O 23. Bxb8 Rxb8 24. Qa3 fxg3 25. hxg3 Ba8 26. O-O Qb6+ 27. Kg2 Be3
+28. Nc6 Bxc6 29. dxc6 Nf6 30. c7 Rc8 31. Qxa6 Qxc7 32. b4 d5 33. cxd5 Rd8 34.
+Qe6+ Kh8 35. d6 Rxd6 36. Ra8+ Rd8 37. Rxd8+ Qxd8 38. Qxe5 1-0
+
+[Event "Andorra op"]
+[Site "?"]
+[Date "2005.07.14"]
+[Round "6.18"]
+[White "Tejero Royo, F."]
+[Black "Sakelsek, T."]
+[Result "0-1"]
+[ECO "B22"]
+[WhiteElo "2185"]
+[BlackElo "2395"]
+[PlyCount "94"]
+[EventDate "2005.??.??"]
+
+1. e4 c5 2. c3 Nf6 3. d3 Nc6 4. f4 d5 5. e5 Nd7 6. Nf3 e6 7. a3 a5 8. a4 f6 9.
+d4 Qb6 10. Bb5 cxd4 11. cxd4 Bb4+ 12. Bd2 Nxd4 13. Bxb4 Nxf3+ 14. Qxf3 axb4 15.
+exf6 gxf6 16. Qh5+ Ke7 17. Qe2 Qd4 18. Nd2 Nc5 19. Nf3 Qe4 20. Qxe4 Nxe4 21.
+O-O Bd7 22. Bxd7 Kxd7 23. Rfd1 Nd6 24. Rd4 b3 25. Rb4 Rhc8 26. Nd2 b5 27. a5
+Rc4 28. Rxb3 Rd4 29. Nf1 Rxf4 30. Rh3 e5 31. Rxh7+ Ke6 32. b3 Rb4 33. Ra3 d4
+34. a6 e4 35. Kf2 e3+ 36. Kf3 Nf7 37. Ke2 Ng5 38. Rb7 Ne4 39. Kf3 Nc3 40. Nxe3
+dxe3 41. Kxe3 Re4+ 42. Kf3 Kf5 43. a7 Rf4+ 44. Ke3 Nd5+ 45. Kd2 Rd4+ 46. Ke2
+Re8+ 47. Kf2 Rf4+ 0-1
+
+[Event "Andorra op"]
+[Site "?"]
+[Date "2005.07.16"]
+[Round "8.11"]
+[White "Fluvia Poyatos, Jordi"]
+[Black "Sakelsek, T."]
+[Result "1-0"]
+[ECO "A08"]
+[WhiteElo "2448"]
+[BlackElo "2395"]
+[PlyCount "45"]
+[EventDate "2005.??.??"]
+
+1. g3 Nf6 2. Bg2 e6 3. d3 d5 4. Nf3 c5 5. O-O Nc6 6. Nbd2 b6 7. e4 dxe4 8. dxe4
+e5 9. c3 Qc7 10. Nc4 Be6 11. Nfxe5 Nxe5 12. Nxe5 Qxe5 13. Bf4 Qh5 14. e5 Qxd1
+15. Raxd1 Nd5 16. Bxd5 O-O-O 17. c4 Be7 18. h4 Rd7 19. Rd2 Rhd8 20. Rfd1 Bg4
+21. f3 Rxd5 22. cxd5 Bxf3 23. d6 1-0

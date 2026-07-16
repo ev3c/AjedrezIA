@@ -1,0 +1,256 @@
+[Event "Barbera op"]
+[Site "?"]
+[Date "2011.07.04"]
+[Round "1"]
+[White "Gonzalez Perez, A."]
+[Black "Trujillo Villega, PA."]
+[Result "1-0"]
+[ECO "E15"]
+[WhiteElo "2490"]
+[BlackElo "2173"]
+[PlyCount "89"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.07.29"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6 5. Qc2 d5 6. Ne5 Nfd7 7. Qa4 f6 8. Nc6
+Nxc6 9. Qxc6 Bxc4 10. Qxe6+ Qe7 11. Qc6 Rd8 12. Nc3 Qd6 13. Qa4 b5 14. Nxb5
+Bxb5 15. Qxb5 Rb8 16. Qa4 Rb4 17. Qd1 c5 18. dxc5 Qxc5 19. Bh3 Rd4 20. Qb3 Qa5+
+21. Kf1 Nc5 22. Qe3+ Re4 23. Qf3 Ne6 24. Bxe6 Rxe6 25. Kg2 Qb5 26. Be3 Qxb2 27.
+Qxd5 Rxe3 28. Rab1 Qe5 29. Qc6+ Kf7 30. Rb7+ Be7 31. fxe3 Qxe3 32. Qd5+ Kg6 33.
+Qd3+ Qxd3 34. exd3 Bc5 35. Rc1 Bb6 36. Rc4 h5 37. Rd7 Re8 38. Re4 Rc8 39. Re2
+Rc1 40. Kf3 Rd1 41. Ree7 Rd2 42. h3 Rxa2 43. Rxg7+ Kf5 44. g4+ hxg4+ 45. hxg4+
+1-0
+
+[Event "Barbera op"]
+[Site "?"]
+[Date "2011.07.05"]
+[Round "2"]
+[White "Trujillo Villega, PA."]
+[Black "Georgieva, E."]
+[Result "1-0"]
+[ECO "B10"]
+[WhiteElo "2173"]
+[BlackElo "1975"]
+[PlyCount "59"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.07.29"]
+
+1. e4 c6 2. Nc3 d5 3. Nf3 e6 4. d4 Bb4 5. e5 c5 6. a3 Bxc3+ 7. bxc3 c4 8. g3
+Qa5 9. Bd2 Bd7 10. Bh3 h6 11. Qb1 Bc6 12. O-O Na6 13. Nh4 g5 14. Ng2 O-O-O 15.
+f4 g4 16. Bxg4 f5 17. exf6 Nxf6 18. Bxe6+ Bd7 19. Bxd7+ Rxd7 20. Nh4 Ne4 21.
+Qd1 Qd8 22. Ng6 Rg8 23. f5 h5 24. Bf4 h4 25. Qf3 hxg3 26. hxg3 Rf7 27. Rae1
+Rxf5 28. Qg4 Qd7 29. Qxf5 Qxf5 30. Ne7+ 1-0
+
+[Event "Barbera op"]
+[Site "?"]
+[Date "2011.07.06"]
+[Round "3"]
+[White "Vehi Bach, VM."]
+[Black "Trujillo Villega, PA."]
+[Result "1/2-1/2"]
+[ECO "B45"]
+[WhiteElo "2403"]
+[BlackElo "2173"]
+[PlyCount "78"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.07.29"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e6 6. Ndb5 Bb4 7. a3 Bxc3+ 8.
+Nxc3 d5 9. exd5 exd5 10. Bd3 O-O 11. O-O d4 12. Ne2 Bg4 13. f3 Bh5 14. Nf4 Bg6
+15. Nxg6 hxg6 16. f4 Ne7 17. f5 Nxf5 18. Bxf5 gxf5 19. Rxf5 Qb6 20. Qd3 Rac8
+21. Rb1 Qc7 22. Rf2 Ng4 23. Rf4 Ne5 24. Qe2 Rfd8 25. Re4 f6 26. Bf4 Qxc2 27.
+Qxc2 Rxc2 28. Bxe5 Re8 29. Rxd4 Rxe5 30. b4 Rg5 31. g3 Re5 32. Rd3 Ree2 33. h4
+Rg2+ 34. Kf1 Rh2 35. Kg1 Rcg2+ 36. Kf1 Ra2 37. Kg1 Rag2+ 38. Kf1 Ra2 39. Kg1
+Rag2+ 1/2-1/2
+
+[Event "Barbera op"]
+[Site "?"]
+[Date "2011.07.07"]
+[Round "4"]
+[White "Kashtanov, R."]
+[Black "Trujillo Villega, PA."]
+[Result "1-0"]
+[ECO "B36"]
+[WhiteElo "2360"]
+[BlackElo "2173"]
+[PlyCount "81"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.07.29"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. c4 Nf6 6. Nc3 Nxd4 7. Qxd4 d6 8.
+Bg5 Bg7 9. Qd2 O-O 10. Rc1 a5 11. b3 Be6 12. Bd3 Qb6 13. O-O Rfc8 14. Na4 Qd8
+15. Rfe1 Nd7 16. Nc3 Bf6 17. Be3 Nc5 18. Bb1 a4 19. b4 Nd7 20. Nd5 Bxd5 21.
+exd5 Ne5 22. c5 dxc5 23. bxc5 b5 24. Qb4 Nc4 25. Bf4 Qxd5 26. Be4 Qd4 27. Bxa8
+Qxf4 28. Bb7 Rc7 29. Qxb5 Nd6 30. Qb6 Rxb7 31. Qd8+ Kg7 32. g3 Qd2 33. Rcd1
+Qxa2 34. cxd6 exd6 35. Qxd6 Rb2 36. Ra1 Qb3 37. Ra3 Qc2 38. Rf3 Bc3 39. Re7
+Rb1+ 40. Kg2 Qd1 41. Rfxf7+ 1-0
+
+[Event "Barbera op"]
+[Site "?"]
+[Date "2011.07.08"]
+[Round "5"]
+[White "Trujillo Villega, PA."]
+[Black "Guix Torres, D."]
+[Result "1-0"]
+[ECO "C45"]
+[WhiteElo "2173"]
+[BlackElo "2019"]
+[PlyCount "51"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.07.29"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 bxc6 6. Bd3 d5 7. e5 Ng4 8.
+O-O Qh4 9. h3 h5 10. Nd2 Bc5 11. Qe2 Qg3 12. Nf3 Be6 13. b4 Bb6 14. a4 a6 15.
+a5 Ba7 16. c3 Kd7 17. Ra2 Raf8 18. Kh1 Nxf2+ 19. Rxf2 Bxf2 20. Qxf2 Qxf2 21.
+Rxf2 f6 22. Bxa6 fxe5 23. Nxe5+ Kd6 24. Nf3 Rf7 25. Be3 Bc8 26. Bc5+ 1-0
+
+[Event "Barbera op"]
+[Site "?"]
+[Date "2011.07.09"]
+[Round "6"]
+[White "Trujillo Villega, PA."]
+[Black "Cruz Ravina, FJ."]
+[Result "0-1"]
+[ECO "A53"]
+[WhiteElo "2173"]
+[BlackElo "2399"]
+[PlyCount "120"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.07.29"]
+
+1. d4 Nf6 2. c4 d6 3. Nc3 e5 4. dxe5 dxe5 5. Qxd8+ Kxd8 6. Bg5 Be7 7. Nf3 Nc6
+8. O-O-O+ Ke8 9. e3 Be6 10. Be2 Ng4 11. Bxe7 Kxe7 12. Nd5+ Bxd5 13. cxd5 Nb8
+14. Rhf1 Nd7 15. Nh4 Nh6 16. g4 g5 17. Ng2 f6 18. h4 Nf7 19. hxg5 fxg5 20. f4
+h6 21. Ne1 Nd6 22. Nf3 exf4 23. exf4 gxf4 24. Nd4 Nb6 25. Bf3 Kd7 26. Bh1 Raf8
+27. Ne6 Rf6 28. Rxf4 Rxf4 29. Nxf4 Rg8 30. Bg2 Rf8 31. Ne6 Rf2 32. Nc5+ Ke7 33.
+Re1+ Kf7 34. Bh1 Nbc4 35. Nd3 Rh2 36. Be4 Rh3 37. Nf4 Re3 38. Bg6+ Ke7 39. Rh1
+Kf6 40. Bc2 Nf7 41. Rf1 Nfe5 42. Ne6+ Rf3 43. Rxf3+ Nxf3 44. Nxc7 Nd4 45. Bd3
+Ne5 46. Be4 Ke7 47. Kd2 Kd7 48. Kc3 Kxc7 49. Kxd4 Nxg4 50. Bf3 Nf6 51. Ke5 Ne8
+52. Ke6 Nd6 53. b3 a5 54. Bh5 b6 55. Bg6 b5 56. Ke5 b4 57. Ke6 Nb5 58. Ke7 Nd6
+59. Bh5 Nf5+ 60. Ke6 Ng7+ 0-1
+
+[Event "Barbera op"]
+[Site "?"]
+[Date "2011.07.10"]
+[Round "7"]
+[White "Duran, R."]
+[Black "Trujillo Villega, PA."]
+[Result "1/2-1/2"]
+[ECO "A17"]
+[WhiteElo "2098"]
+[BlackElo "2173"]
+[PlyCount "63"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.07.29"]
+
+1. c4 Nf6 2. Nc3 e6 3. g3 d5 4. Bg2 c6 5. d3 Be7 6. Qc2 O-O 7. e3 b6 8. Nge2
+Bb7 9. Rb1 c5 10. a3 Nbd7 11. O-O Rc8 12. cxd5 exd5 13. d4 cxd4 14. Nxd4 Ne4
+15. Bd2 Ndf6 16. Rfd1 Nxd2 17. Qxd2 Ne4 18. Bxe4 dxe4 19. Nf5 Bf6 20. Nd6 Bxc3
+21. bxc3 Rc7 22. Rb4 Qe7 23. Nb5 Rc5 24. Nxa7 Ba6 25. Qd7 Qxd7 26. Rxd7 Rxc3
+27. Rxe4 Rxa3 28. Rb4 Be2 29. Kg2 g5 30. h3 Ra8 31. Nc6 h5 32. Ne5 1/2-1/2
+
+[Event "Barbera op"]
+[Site "?"]
+[Date "2011.07.11"]
+[Round "8"]
+[White "Trujillo Villega, PA."]
+[Black "Garcia de Lomas Guerrero, C."]
+[Result "1-0"]
+[ECO "A39"]
+[WhiteElo "2173"]
+[BlackElo "1980"]
+[PlyCount "67"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.07.29"]
+
+1. d4 Nf6 2. c4 c5 3. Nf3 cxd4 4. Nxd4 Nc6 5. g3 g6 6. Bg2 Bg7 7. Nc3 O-O 8.
+O-O Qb6 9. Nc2 d6 10. b3 Be6 11. Bd2 Qc5 12. Rc1 Qh5 13. e4 Qxd1 14. Rfxd1 Nd7
+15. Nd5 Rfc8 16. Be3 b6 17. Nf4 Nd8 18. Nxe6 Nxe6 19. e5 Nxe5 20. Bxa8 Rxa8 21.
+h3 Rc8 22. Kg2 Nc5 23. Nb4 Kf8 24. f4 Ned7 25. Nd5 Nf6 26. Nxf6 Bxf6 27. Bd4
+Bxd4 28. Rxd4 Rc7 29. b4 Ne6 30. Rd5 Rc6 31. a4 Nc7 32. b5 Nxd5 33. bxc6 Nc7
+34. a5 1-0
+
+[Event "Barbera op"]
+[Site "?"]
+[Date "2011.07.12"]
+[Round "9"]
+[White "Bystrov, SM."]
+[Black "Trujillo Villega, PA."]
+[Result "1/2-1/2"]
+[ECO "B20"]
+[WhiteElo "2300"]
+[BlackElo "2173"]
+[PlyCount "104"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.07.29"]
+
+1. e4 c5 2. d3 g6 3. g3 Bg7 4. Bg2 Nc6 5. f4 e6 6. Nf3 Nge7 7. c3 d5 8. e5 d4
+9. c4 Rb8 10. Nbd2 b5 11. Ne4 O-O 12. b3 bxc4 13. bxc4 Nf5 14. O-O Ne3 15. Bxe3
+dxe3 16. Re1 Nd4 17. Rxe3 Nxf3+ 18. Rxf3 Qd4+ 19. Kh1 Rb2 20. Qg1 Rd8 21. Qxd4
+Rxd4 22. Rf2 Rxf2 23. Nxf2 f6 24. Rb1 fxe5 25. Rb8 Rd8 26. Kg1 Rf8 27. Bh3 Kh8
+28. Ne4 exf4 29. gxf4 Bd4+ 30. Kg2 Kg7 31. Ra8 a5 32. Ra7+ Kh6 33. Rxa5 Rxf4
+34. Ra7 Rf8 35. Rc7 Rd8 36. Bg4 Bd7 37. Nxc5 Bxc5 38. Rxc5 Ra8 39. Rc7 Rxa2+
+40. Kg3 Ba4 41. Ra7 e5 42. Bd1 Bb3 43. Rxa2 Bxa2 44. c5 Kg5 45. c6 h5 46. h4+
+Kf6 47. Bf3 Be6 48. Kf2 Ke7 49. Ke3 Kd6 50. d4 exd4+ 51. Kxd4 Bb3 52. Be4 Ba4
+1/2-1/2
+
+[Event "Ciutat de Sabadell op"]
+[Site "?"]
+[Date "2011.08.10"]
+[Round "1"]
+[White "Trujillo Villega, PA."]
+[Black "Almeida Quintana, O."]
+[Result "0-1"]
+[ECO "B06"]
+[WhiteElo "2173"]
+[BlackElo "2548"]
+[PlyCount "44"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.09.01"]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Bg5 Nd7 5. Qd2 a6 6. a4 c5 7. Nf3 Ngf6 8. Bh6
+Bxh6 9. Qxh6 cxd4 10. Nxd4 Qb6 11. O-O-O Nc5 12. Qg7 Rf8 13. Bc4 Be6 14. Nxe6
+Nxe6 15. Bxe6 fxe6 16. Rd2 Qa5 17. Re1 Qh5 18. e5 Rg8 19. g4 Qxh2 20. exf6 Rxg7
+21. fxg7 Kf7 22. Ne4 Qf4 0-1
+
+[Event "Sitges op"]
+[Site "?"]
+[Date "2011.07.22"]
+[Round "1"]
+[White "Moskalenko, V."]
+[Black "Trujillo Villega, PA."]
+[Result "1-0"]
+[ECO "E25"]
+[WhiteElo "2591"]
+[BlackElo "2173"]
+[PlyCount "65"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.08.04"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. f3 d5 5. a3 Bxc3+ 6. bxc3 c5 7. cxd5 exd5 8.
+e3 O-O 9. Bd3 b6 10. Ne2 Bb7 11. O-O Nc6 12. Ra2 Rc8 13. g4 Re8 14. Ng3 Na5 15.
+g5 Nd7 16. e4 cxd4 17. cxd4 Nf8 18. e5 Ne6 19. Nf5 Nc4 20. f4 Rc7 21. Qe1 Kh8
+22. Nxg7 Nxg7 23. Qh4 h5 24. f5 Rxe5 25. dxe5 Nxe5 26. f6 Nxd3 27. fxg7+ Kxg7
+28. Qd4+ Kf8 29. Qh8+ Ke7 30. Re2+ Kd7 31. Rxf7+ Kc8 32. Re8 Rxc1+ 33. Rf1 1-0

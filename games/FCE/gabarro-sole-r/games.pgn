@@ -1,0 +1,728 @@
+[Event "La Pobla de Lillet op"]
+[Site "La Pobla de Lillet"]
+[Date "2016.08.03"]
+[Round "2.4"]
+[White "Gonzalez Rodriguez, JA."]
+[Black "Gabarro Sole, R."]
+[Result "1-0"]
+[ECO "A01"]
+[WhiteElo "2306"]
+[BlackElo "2058"]
+[PlyCount "71"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. b3 d5 2. Bb2 Bf5 3. e3 e6 4. g3 Nf6 5. Bg2 Nbd7 6. d3 Be7 7. Ne2 c6 8. Nd2
+Qa5 9. a3 O-O 10. e4 dxe4 11. b4 Qc7 12. dxe4 Bg6 13. Nf4 a5 14. c3 Rfd8 15.
+Qe2 e5 16. Nxg6 hxg6 17. O-O Nh5 18. Nc4 b6 19. Rfd1 Nhf6 20. Rab1 Nf8 21. h4
+Rxd1+ 22. Rxd1 Rd8 23. Rb1 a4 24. Bc1 b5 25. Na5 c5 26. Be3 c4 27. Rd1 Rd6 28.
+f3 Ra6 29. Bh3 Rxa5 30. bxa5 Bxa3 31. a6 Bc5 32. Bxc5 Qxc5+ 33. Qf2 Qc6 34. a7
+Ne6 35. Bxe6 fxe6 36. Rd8+ 1-0
+
+[Event "La Pobla de Lillet op"]
+[Site "La Pobla de Lillet"]
+[Date "2016.08.05"]
+[Round "4.5"]
+[White "Mellado Triviño, J."]
+[Black "Gabarro Sole, R."]
+[Result "1-0"]
+[ECO "C50"]
+[WhiteElo "2427"]
+[BlackElo "2058"]
+[PlyCount "61"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Be7 4. O-O Nf6 5. d4 d6 6. d5 Nb8 7. Nc3 O-O 8. a4
+Nbd7 9. a5 a6 10. b4 Nh5 11. b5 axb5 12. Bxb5 f5 13. exf5 Ndf6 14. Ng5 Bxf5 15.
+Bd3 Qd7 16. Bxf5 Qxf5 17. Ra4 e4 18. Ngxe4 Rae8 19. Ng5 Qe5 20. Qd4 Nd7 21.
+Qxe5 dxe5 22. Ne6 Nc5 23. Nxc5 Bxc5 24. Ne4 Ba7 25. Be3 Bxe3 26. fxe3 Nf6 27.
+Nxf6+ Rxf6 28. Rxf6 gxf6 29. Kf2 Ra8 30. e4 b5 31. axb6 1-0
+
+[Event "La Pobla de Lillet op"]
+[Site "La Pobla de Lillet"]
+[Date "2016.08.07"]
+[Round "6.7"]
+[White "Travesset Ribera, D."]
+[Black "Gabarro Sole, R."]
+[Result "1-0"]
+[ECO "A37"]
+[WhiteElo "2139"]
+[BlackElo "2058"]
+[PlyCount "111"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 c5 2. c4 Nc6 3. Nc3 g6 4. g3 Bg7 5. Bg2 Nh6 6. h4 d6 7. d3 Bg4 8. Bd2
+Rb8 9. Qc1 Ng8 10. Nd5 Bxf3 11. Bxf3 Nd4 12. Bg2 h5 13. Bc3 e6 14. Nf4 Nf6 15.
+b4 O-O 16. e3 Nc6 17. b5 Ne5 18. O-O Qe7 19. Qc2 Rfd8 20. a4 Neg4 21. Rac1 Rbc8
+22. Qa2 Kh8 23. Qb2 d5 24. Rfd1 b6 25. a5 Kg8 26. axb6 axb6 27. Ra1 dxc4 28.
+dxc4 e5 29. Nd5 Nxd5 30. Bxd5 g5 31. hxg5 Qxg5 32. Bf3 f6 33. Qe2 f5 34. Rxd8+
+Rxd8 35. Rd1 Rxd1+ 36. Qxd1 Nxe3 37. Qd2 f4 38. fxe3 fxe3 39. Qd5+ Kf8 40. Qd6+
+Kg8 41. Qb8+ Kh7 42. Be4+ Kh6 43. Qd6+ Bf6 44. Qf8+ Bg7 45. Qd6+ Bf6 46. Be1 e2
+47. Qd2 h4 48. Qxg5+ Kxg5 49. Bf3 hxg3 50. Bxg3 e1=Q+ 51. Bxe1 Kf4 52. Kg2 e4
+53. Bd2+ e3 54. Be1 Bd8 55. Bg3+ Kf5 56. Kf1 1-0
+
+[Event "La Pobla de Lillet op"]
+[Site "La Pobla de Lillet"]
+[Date "2016.08.08"]
+[Round "7.10"]
+[White "Gabarro Sole, R."]
+[Black "Masague Artero, G."]
+[Result "0-1"]
+[ECO "B35"]
+[WhiteElo "2058"]
+[BlackElo "1747"]
+[PlyCount "134"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. Nc3 g6 4. d4 cxd4 5. Nxd4 Bg7 6. Be3 Nf6 7. Bc4 Ng4 8.
+Qxg4 Nxd4 9. O-O-O d5 10. Qh4 dxc4 11. Bxd4 Bxd4 12. e5 Qa5 13. Rxd4 Be6 14.
+Re1 b5 15. a3 Rb8 16. Kd2 b4 17. axb4 Rxb4 18. b3 Rb5 19. bxc4 Rb2 20. Qe4 O-O
+21. g4 Rc8 22. h3 Rb4 23. Re3 Rbxc4 24. Rxc4 Rxc4 25. Qh1 Rd4+ 26. Rd3 Qc5 27.
+Qe1 Bc4 28. Rxd4 Qxd4+ 29. Kc1 Kg7 30. g5 Be6 31. h4 Qxh4 32. Qe3 h5 33. gxh6+
+Qxh6 34. f4 Qh1+ 35. Kb2 Qb7+ 36. Kc1 Qb4 37. Ne4 Qc4 38. Ng3 a5 39. Kb2 Qb5+
+40. Kc1 a4 41. f5 Bxf5 42. Nxf5+ gxf5 43. Qg5+ Kf8 44. Qxf5 f6 45. Qc8+ Kf7 46.
+e6+ Kg7 47. Qd7 Qb4 48. Qd5 a3 49. Qg2+ Kh6 50. Qh1+ Kg5 51. Qg2+ Kf4 52. Qh2+
+Kf5 53. Qh3+ Ke5 54. c3 Qb2+ 55. Kd1 Qb1+ 56. Kd2 Qf5 57. Qe3+ Qe4 58. Qa7 Qg2+
+59. Kd3 Qd5+ 60. Kc2 a2 61. Kb2 Kxe6 62. Qe3+ Kf7 63. Qh6 Qg2+ 64. Ka1 Qg6 65.
+Qc1 Qb1+ 66. Qxb1 axb1=Q+ 67. Kxb1 Ke6 0-1
+
+[Event "La Pobla de Lillet op"]
+[Site "La Pobla de Lillet"]
+[Date "2016.08.10"]
+[Round "9.9"]
+[White "Gabarro Sole, R."]
+[Black "Collell Rodriguez, V."]
+[Result "1/2-1/2"]
+[ECO "A43"]
+[WhiteElo "2058"]
+[BlackElo "1860"]
+[PlyCount "83"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 c5 3. d5 d6 4. Nc3 a6 5. a4 g6 6. e4 Bg7 7. h3 O-O 8. Bd3 e6
+9. O-O exd5 10. exd5 Re8 11. Bf4 b6 12. Qd2 Bb7 13. Bg5 Qc7 14. Rfe1 Nbd7 15.
+Bc4 Rad8 16. Rxe8+ Rxe8 17. Qd3 Qc8 18. Rd1 Qa8 19. Bf4 Bf8 20. g4 Qc8 21. g5
+Nh5 22. Bh2 Ng7 23. h4 Nf5 24. Ne4 Bg7 25. c3 Ne5 26. Bxe5 Bxe5 27. Nxe5 Rxe5
+28. Nf6+ Kg7 29. Ng4 Re7 30. h5 Qe8 31. hxg6 Re1+ 32. Rxe1 Qxe1+ 33. Kh2 hxg6
+34. Qe2 Qxe2 35. Bxe2 Kf8 36. Nf6 Ke7 37. Bd3 Bc8 38. Kg2 Ng7 39. Kf3 Ne8 40.
+Nxe8 Kxe8 41. b4 cxb4 42. cxb4 1/2-1/2
+
+[Event "Obert Barcelona A"]
+[Site "?"]
+[Date "1993.??.??"]
+[Round "?"]
+[White "Crespo Ribilla, JM."]
+[Black "Gabarro Sole, R."]
+[Result "1-0"]
+[ECO "B23"]
+[PlyCount "63"]
+[EventDate "1993.??.??"]
+
+1. e4 c5 2. Nc3 e6 3. Nf3 d5 4. exd5 exd5 5. Bb5+ Nc6 6. O-O Nf6 7. d4 Be6 8.
+h3 h6 9. Ne2 Qb6 10. Bxc6+ bxc6 11. Nf4 Bd6 12. Nxe6 fxe6 13. Qe2 Kf7 14. Ne5+
+Bxe5 15. dxe5 Nh7 16. Qh5+ Ke7 17. a4 Raf8 18. Ra3 Rf7 19. Rb3 Qc7 20. f4 Rb8
+21. Rbf3 Rb4 22. f5 Re4 23. fxe6 Rxf3 24. Qxf3 Kd8 25. Qf5 g5 26. Qg6 Qxe5 27.
+Qg8+ Kc7 28. Rf7+ Kb6 29. Qd8+ Ka6 30. Qc8+ Kb6 31. Qb7+ Ka5 32. Bd2+ 1-0
+
+[Event "Obert Barcelona A"]
+[Site "?"]
+[Date "1993.??.??"]
+[Round "?"]
+[White "Delgado"]
+[Black "Gabarro Sole, R."]
+[Result "1-0"]
+[ECO "C40"]
+[PlyCount "97"]
+[EventDate "1993.??.??"]
+
+1. e4 e5 2. Nf3 f5 3. d3 Nf6 4. Nc3 Bb4 5. Bd2 Nc6 6. Be2 O-O 7. O-O d5 8. Nxd5
+Nxd5 9. exd5 Qxd5 10. Bxb4 Nxb4 11. d4 exd4 12. Qxd4 Qxd4 13. Nxd4 c5 14. Bc4+
+Kh8 15. a3 cxd4 16. axb4 Rd8 17. Rfd1 b5 18. Bxb5 Rb8 19. Bc4 Rxb4 20. b3 Rb7
+21. Ra5 g6 22. Rda1 Rdd7 23. Kf1 Re7 24. Re1 Kg7 25. Ba6 Rxe1+ 26. Kxe1 Re7+
+27. Kd2 Bd7 28. Bb5 Kf6 29. Ra6+ Re6 30. Rxe6+ Bxe6 31. f4 Bd5 32. g3 Be4 33.
+c3 dxc3+ 34. Kxc3 h6 35. Kd4 g5 36. Bc4 h5 37. h4 gxh4 38. gxh4 Bf3 39. Kc5 Ke7
+40. Bd3 Kf6 41. b4 Bg4 42. Bc4 Ke7 43. Kc6 Bf3+ 44. Kc7 Be4 45. Be2 Ke6 46.
+Bxh5 Kd5 47. Bf7+ Kd4 48. h5 Ke3 49. h6 1-0
+
+[Event "Ciutat de Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "1"]
+[White "Ciurana Roig, J."]
+[Black "Gabarro Sole, R."]
+[Result "0-1"]
+[ECO "A43"]
+[WhiteElo "1815"]
+[BlackElo "2270"]
+[PlyCount "134"]
+[EventDate "1996.??.??"]
+[EventType "rapid"]
+
+1. d4 c5 2. c3 e6 3. Nf3 Nf6 4. e3 b6 5. Nbd2 Bb7 6. Bb5 Be7 7. O-O O-O 8. Re1
+d5 9. Bd3 Nbd7 10. a3 Qc7 11. h3 Rac8 12. b4 e5 13. dxe5 Nxe5 14. Nxe5 Qxe5 15.
+Bb2 Rfd8 16. Nf3 Qb8 17. Qe2 c4 18. Bf5 Rc7 19. Nd4 a6 20. Bc2 Bc8 21. Qd1 Bd6
+22. Bf5 g6 23. Bxc8 Qxc8 24. Qf3 Ne4 25. Qd1 Be5 26. Nf3 Bxc3 27. Bxc3 Nxc3 28.
+Qc2 Ne4 29. Rad1 a5 30. b5 Nc5 31. Nd4 Nd3 32. Re2 Re8 33. Nf3 Qd7 34. Nd4 f5
+35. Nf3 Qxb5 36. Nd4 Qc5 37. Nf3 Qxa3 38. Nd4 Qe7 39. Nf3 b5 40. Nd4 b4 41. Kf1
+b3 42. Nxb3 Nxf2 43. Kxf2 cxb3 44. Qxb3 Rd7 45. Rxd5 Qf7 46. Rd3 Rxd3 47. Qxd3
+a4 48. Qa3 Qb3 49. Qxb3+ axb3 50. Rb2 Rb8 51. Ke2 Kf7 52. Kd3 Ke6 53. Kc3 Ke5
+54. g4 Ke4 55. gxf5 gxf5 56. Kd2 h5 57. Ke2 h4 58. Kd2 Kf3 59. Kd3 Kg3 60. Kd4
+Kxh3 61. Ke5 Rb5+ 62. Kf4 Rb8 63. Kxf5 Kg3 64. e4 h3 65. e5 h2 66. Rb1 Kg2 67.
+e6 h1=Q 0-1
+
+[Event "Ciutat de Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "2"]
+[White "Gabarro Sole, R."]
+[Black "Ortega Lopez, M."]
+[Result "1-0"]
+[ECO "E91"]
+[WhiteElo "2270"]
+[PlyCount "75"]
+[EventDate "1996.??.??"]
+[EventType "rapid"]
+
+1. Nf3 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. d4 O-O 6. Be2 c6 7. O-O Nbd7 8. Bg5
+Re8 9. Qd2 e5 10. dxe5 dxe5 11. Rfd1 Qc7 12. Qd6 Qxd6 13. Rxd6 h6 14. Bxf6 Nxf6
+15. Rad1 Be6 16. a3 Nh5 17. b4 Nf4 18. Bf1 Bg4 19. c5 Bxf3 20. gxf3 Ne6 21. Bc4
+Nd4 22. Kg2 Rad8 23. Rxg6 Nxf3 24. Kxf3 b5 25. cxb6 Rxd1 26. Nxd1 Rd8 27. bxa7
+Kh7 28. Rxc6 Ra8 29. Ra6 Rc8 30. a8=Q Rxc4 31. Qd5 Rd4 32. Qxf7 Rd3+ 33. Ne3
+Rd8 34. Rg6 Rg8 35. Nf5 Kh8 36. Rxh6+ Bxh6 37. Qf6+ Bg7 38. Qh4+ 1-0
+
+[Event "Ciutat de Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "3"]
+[White "Vidarte Morales, A."]
+[Black "Gabarro Sole, R."]
+[Result "1-0"]
+[ECO "D34"]
+[WhiteElo "2340"]
+[BlackElo "2270"]
+[PlyCount "58"]
+[EventDate "1996.??.??"]
+[EventType "rapid"]
+
+1. c4 c5 2. Nf3 e6 3. Nc3 d5 4. cxd5 exd5 5. d4 Nf6 6. g3 Nc6 7. Bg2 Be7 8. O-O
+O-O 9. Bg5 c4 10. b3 Qa5 11. Qc2 b5 12. Bxf6 Bxf6 13. Nxd5 Bxd4 14. Nxd4 Nxd4
+15. Qe4 Nc6 16. bxc4 bxc4 17. Qxc4 Bd7 18. Rab1 Rac8 19. Rb5 Qa3 20. Qb3 Qa6
+21. Qb1 Rfe8 22. Rb7 Bf5 23. e4 Rxe4 24. Bxe4 Bxe4 25. Qxe4 Qxb7 26. Rc1 Kh8
+27. Rc5 Qd7 28. Qc4 h6 29. Kg2 Rd8 1-0
+
+[Event "Ciutat de Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "4"]
+[White "Gabarro Sole, R."]
+[Black "Creixans Pons, JM."]
+[Result "1-0"]
+[ECO "B02"]
+[WhiteElo "2235"]
+[BlackElo "2065"]
+[PlyCount "55"]
+[EventDate "1996.??.??"]
+[EventType "rapid"]
+
+1. e4 Nf6 2. e5 Nd5 3. c4 Nb6 4. b3 d6 5. exd6 Qxd6 6. Bb2 Nc6 7. d4 Bf5 8. c5
+Qe6+ 9. Be2 Nb4 10. cxb6 Nc2+ 11. Kf1 axb6 12. Nc3 Nxa1 13. Nb5 Qc6 14. Qxa1
+Ra5 15. a4 e6 16. d5 exd5 17. Nf3 Bc2 18. Nfd4 Qg6 19. Nxc7+ Kd7 20. Ncb5 Bc5
+21. Qc1 Be4 22. Nf3 f6 23. b4 Rc8 24. bxc5 Rxc5 25. Qf4 Rc6 26. Nbd4 Rd6 27.
+Ba3 Rc5 28. Nh4 1-0
+
+[Event "Ciutat de Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "5"]
+[White "Rohl, J."]
+[Black "Gabarro Sole, R."]
+[Result "1-0"]
+[ECO "B10"]
+[WhiteElo "2395"]
+[BlackElo "2235"]
+[PlyCount "51"]
+[EventDate "1996.??.??"]
+[EventType "rapid"]
+
+1. e4 c6 2. c4 d5 3. exd5 cxd5 4. cxd5 Qxd5 5. Nc3 Qd8 6. d4 g6 7. Bc4 Bg7 8.
+Qb3 e6 9. d5 exd5 10. Bxd5 Qe7+ 11. Nge2 Nf6 12. O-O O-O 13. Bg5 Nbd7 14. Nd4
+Qc5 15. Ndb5 Nxd5 16. Nxd5 a6 17. Nbc7 Rb8 18. Be7 Qd4 19. Bxf8 Nxf8 20. Ne7+
+Kh8 21. Qxf7 Be6 22. Nxe6 Nxe6 23. Qxe6 Qxb2 24. Rab1 Qf6 25. Qxf6 Bxf6 26. Nd5
+1-0
+
+[Event "Ciutat de Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "6"]
+[White "Gabarro Sole, R."]
+[Black "Navarro Gomis, J."]
+[Result "1-0"]
+[ECO "B09"]
+[WhiteElo "2235"]
+[BlackElo "2045"]
+[PlyCount "57"]
+[EventDate "1996.??.??"]
+[EventType "rapid"]
+
+1. Nc3 Nf6 2. e4 d6 3. f4 g6 4. d4 Bg7 5. Nf3 O-O 6. e5 dxe5 7. fxe5 Nd5 8. Bc4
+c6 9. O-O Be6 10. Bb3 Na6 11. Ne4 Ndc7 12. Qe1 Bxb3 13. axb3 Ne6 14. c3 c5 15.
+Neg5 Nxg5 16. Bxg5 h6 17. Qh4 Re8 18. Bxh6 f6 19. Bxg7 Kxg7 20. Rae1 Qb6 21.
+Qh3 Nc7 22. exf6+ exf6 23. Qd7+ Kg8 24. Ne5 Qe6 25. Qxc7 fxe5 26. Rxe5 Qc6 27.
+Qf7+ Kh8 28. Rf6 Rf8 29. Qxg6 1-0
+
+[Event "Ciutat de Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "8"]
+[White "Gabarro Sole, R."]
+[Black "Gracia Vergara, F."]
+[Result "1-0"]
+[ECO "E01"]
+[WhiteElo "2235"]
+[BlackElo "2080"]
+[PlyCount "86"]
+[EventDate "1996.??.??"]
+[EventType "rapid"]
+
+1. Nf3 d5 2. g3 c5 3. Bg2 Nc6 4. c4 e6 5. O-O Nf6 6. d4 Be7 7. dxc5 Bxc5 8. a3
+O-O 9. b4 Be7 10. c5 a6 11. Bb2 b6 12. cxb6 Qxb6 13. Nc3 Bd7 14. Qd3 Rac8 15.
+Rab1 Na7 16. Ne5 Bb5 17. Nxb5 Nxb5 18. a4 Nd6 19. Bd4 Qb7 20. Bc5 Nfe4 21. Bxe4
+Nxe4 22. Bxe7 Qxe7 23. f3 Nd6 24. Qxa6 Ra8 25. Qd3 Rxa4 26. Rfc1 Qb7 27. b5 f6
+28. Nc6 Rfa8 29. Qe3 Kf7 30. Qc5 Nc4 31. e4 Nd2 32. exd5 Nxf3+ 33. Kg2 Ng5 34.
+d6 Ne4 35. Qh5+ Kf8 36. Rc2 Nxd6 37. Qc5 Ra2 $138 38. Qxd6+ Kf7 39. Rbb2 Rxb2
+40. Rxb2 Ra1 41. Kh3 Qa8 42. Qe7+ Kg6 43. Qxe6 Rg1 1-0
+
+[Event "Ciutat de Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "8"]
+[White "Rodriguez, Am"]
+[Black "Gabarro Sole, R."]
+[Result "1-0"]
+[ECO "B54"]
+[WhiteElo "2565"]
+[BlackElo "2235"]
+[PlyCount "69"]
+[EventDate "1996.??.??"]
+[EventType "rapid"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. f3 Nc6 6. Nc3 Qb6 7. Nb3 g6 8. Qe2
+Bg7 9. Be3 Qd8 10. O-O-O Be6 11. g4 Bxb3 12. cxb3 Qa5 13. Kb1 Nd7 14. Rc1 Nb4
+15. Qb5 Qxb5 16. Bxb5 a6 17. Bxd7+ Kxd7 18. Na4 Ke6 19. Nb6 Rad8 20. Rc7 h5 21.
+g5 Rb8 22. Rhc1 Rhe8 23. R1c4 Nc6 24. Nd5 f6 25. Rc1 Kf7 26. Nb6 Ne5 27. f4 Ng4
+28. Bg1 fxg5 29. fxg5 Ne5 30. Nd5 Nc6 31. Be3 Rec8 32. Rf1+ Ke8 33. Ba7 Ra8 34.
+Bb6 Rab8 35. Nf4 1-0
+
+[Event "Obert Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "?"]
+[White "Chalmeta Torredemer, J."]
+[Black "Gabarro Sole, R."]
+[Result "1-0"]
+[ECO "A99"]
+[PlyCount "89"]
+[EventDate "1996.??.??"]
+
+1. d4 e6 2. c4 f5 3. Nc3 Nf6 4. Nf3 Be7 5. g3 O-O 6. Bg2 d6 7. O-O Qe8 8. b3 a5
+9. a4 Na6 10. Re1 Ne4 11. Bb2 Qh5 12. e3 Nb4 13. Na2 Nxa2 14. Rxa2 b6 15. Nd2
+Qf7 16. f3 Nxd2 17. Qxd2 Bb7 18. Bc3 Bc6 19. e4 f4 20. Qxf4 Qxf4 21. gxf4 Bh4
+22. Rf1 Rxf4 23. Bd2 Rf6 24. d5 Be8 25. f4 Rd8 26. Bc3 Rg6 27. Kh1 exd5 28.
+cxd5 Rh6 29. Bf3 Bh5 30. Bxh5 Rxh5 31. Rg2 g6 32. Rg4 Kf7 33. f5 g5 34. Bd4 Re8
+35. Rc1 Re7 36. Kg2 Rh6 37. Kf3 Rf6 38. Bxf6 Kxf6 39. Rg2 h5 40. h3 Rg7 41. Rc4
+Ke5 42. Rg1 Kf6 43. e5+ dxe5 44. Ke4 Bf2 45. Rc6+ 1-0
+
+[Event "Obert Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "?"]
+[White "Gabarro Sole, R."]
+[Black "Miquel Jaureguibeitia, X."]
+[Result "1-0"]
+[ECO "C74"]
+[PlyCount "91"]
+[EventDate "1996.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 d6 5. c3 f5 6. exf5 Bxf5 7. O-O Bd3 8. Re1
+Be7 9. Bc2 e4 10. Bxd3 exd3 11. Qb3 d5 12. Qxb7 Na5 13. Qb4 c6 14. Qg4 Nf6 15.
+Qxg7 Rf8 16. Ng5 Qd6 17. Nxh7 Nxh7 18. Qxh7 Qf6 19. f3 Kd7 20. Qxd3 Bc5+ 21.
+Re3 Rg8 22. Qh7+ Rg7 23. Qh3+ Kc7 24. d4 Bd6 25. Re6 Qf7 26. Rxd6 Kxd6 27. Qh6+
+Kd7 28. Bf4 Rg6 29. Qh3+ Re6 30. Be5 Nc4 31. Na3 Nxe5 32. dxe5 Qf4 33. Nc2 c5
+34. Rd1 Qxe5 35. Re1 Qf6 36. b4 Rae8 37. Rxe6 Rxe6 38. Qh7+ Re7 39. Qd3 Qe6 40.
+bxc5 Kc7 41. Kf2 a5 42. a4 Qh6 43. Ne3 Qh4+ 44. Kf1 Rd7 45. Nxd5+ Kd8 46. c6
+1-0
+
+[Event "Ciutat de Banyoles op"]
+[Site "?"]
+[Date "2005.08.17"]
+[Round "1.3"]
+[White "Ermenkov, E."]
+[Black "Gabarro Sole, R."]
+[Result "1/2-1/2"]
+[ECO "A19"]
+[WhiteElo "2478"]
+[BlackElo "2060"]
+[PlyCount "93"]
+[EventDate "2005.??.??"]
+
+1. c4 Nf6 2. Nc3 e6 3. e4 c5 4. e5 Ng8 5. Nf3 d5 6. exd6 Bxd6 7. d4 cxd4 8.
+Qxd4 Nf6 9. Bf4 Bxf4 10. Qxf4 O-O 11. Be2 Nc6 12. O-O Qb6 13. b3 Qa5 14. Nb5 a6
+15. Nbd4 Nxd4 16. Qxd4 Rd8 17. Qe5 Qb4 18. Qe3 Bd7 19. a3 Qa5 20. Ne5 Be8 21.
+Bf3 Qc7 22. Rfd1 Rab8 23. b4 Ba4 24. Rxd8+ Rxd8 25. c5 Nd5 26. Bxd5 exd5 27.
+Qd4 Re8 28. Re1 Bc6 29. Re3 Re6 30. f3 f6 31. Nd3 Rxe3 32. Qxe3 Kf7 33. h3 Qd7
+34. Qd4 Qf5 35. Kf2 g5 36. Ke3 Bb5 37. g4 Qe6+ 38. Kd2 h6 39. Qe3 d4 40. Qxd4
+Qa2+ 41. Ke3 Qxa3 42. Qd5+ Kf8 43. Qd6+ Kf7 44. Qd5+ Kf8 45. Qd6+ Kf7 46. Qd5+
+Kf8 47. Qd6+ 1/2-1/2
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2008.07.19"]
+[Round "6.17"]
+[White "Van Riemsdijk, HC."]
+[Black "Gabarro Sole, R."]
+[Result "1/2-1/2"]
+[ECO "B06"]
+[WhiteElo "2398"]
+[BlackElo "2113"]
+[PlyCount "166"]
+[EventDate "2008.??.??"]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d5 4. exd5 Nf6 5. Bb5+ Nbd7 6. Nf3 O-O 7. O-O Nb6 8.
+Re1 Nbxd5 9. Nxd5 Nxd5 10. Bg5 h6 11. Bh4 c6 12. Bc4 Be6 13. Ne5 Bxe5 14. Rxe5
+Kg7 15. Qd2 Qd7 16. Rae1 Rfe8 17. a4 Nc7 18. Bf1 f6 19. R5e3 Rad8 20. Bg3 Bf7
+21. c4 e5 22. Rb3 b5 23. axb5 cxb5 24. Qa5 exd4 25. Rd1 Re7 26. Bxc7 Qxc7 27.
+Rxb5 Qxa5 28. Rxa5 d3 29. b3 Rb7 30. Rxd3 Rxd3 31. Bxd3 Rxb3 32. Bf1 Rb1 33.
+Rxa7 Kf8 34. Rc7 Rc1 35. g3 Be6 36. Kg2 Bd5+ 37. f3 Rc2+ 38. Kg1 Bxf3 39. Bd3
+Rg2+ 40. Kf1 g5 41. Bg6 Rxh2 42. Rf7+ Kg8 43. Rxf6 g4 44. Bf5 Kg7 45. Rg6+ Kf7
+46. Rb6 Be2+ 47. Kg1 Rh3 48. Kg2 h5 49. c5 Bf3+ 50. Kf2 h4 51. gxh4 Rxh4 52. c6
+Bxc6 53. Rxc6 Rh3 54. Bxg4 Ra3 55. Bf3 Ke7 56. Kg3 Ra4 57. Be2 Rd4 58. Kf3 Rh4
+59. Ke3 Rb4 60. Bd3 Rb3 61. Kd4 Ra3 62. Be4 Ra1 63. Ke5 Kd7 64. Rh6 Kc7 65. Bd5
+Re1+ 66. Kd4 Rc1 67. Bf3 Ra1 68. Ke5 Ra5+ 69. Bd5 Ra1 70. Rh7+ Kb6 71. Rb7+ Kc5
+72. Rc7+ Kb4 73. Rc4+ Kb3 74. Kd4 Rd1+ 75. Kc5 Kb2 76. Rb4+ Kc3 77. Rb3+ Kd2
+78. Bf3 Ra1 79. Bc6 Rc1+ 80. Kd5 Ra1 81. Kd4 Rd1 82. Rb2+ Kc1+ 83. Kc3 Rd3+
+1/2-1/2
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2008.07.20"]
+[Round "7.19"]
+[White "Gabarro Sole, R."]
+[Black "Ramon Perez, JL."]
+[Result "1/2-1/2"]
+[ECO "B27"]
+[WhiteElo "2113"]
+[BlackElo "2311"]
+[PlyCount "87"]
+[EventDate "2008.??.??"]
+
+1. Nf3 g6 2. e4 Bg7 3. d4 c5 4. Nc3 Qa5 5. Be2 Nc6 6. d5 Nd4 7. Bd2 d6 8. O-O
+Nf6 9. a4 O-O 10. Nb5 Nxf3+ 11. Bxf3 Qd8 12. Bc3 a6 13. Na3 e5 14. dxe6 Bxe6
+15. e5 dxe5 16. Bxe5 Nd5 17. Bxg7 Kxg7 18. c4 Nb4 19. Bxb7 Ra7 20. Be4 Rd7 21.
+Qf3 Kg8 22. Rad1 f5 23. Bb1 Qf6 24. Qe3 Rd4 25. Rxd4 cxd4 26. Qd2 a5 27. b3 d3
+28. Nb5 f4 29. Re1 f3 30. Qe3 Bf5 31. Nd4 d2 32. Qxd2 Bxb1 33. Nxf3 Bc2 34. Qe3
+Nd3 35. Re2 Qa1+ 36. Ne1 Nxe1 37. Rxe1 Qf6 38. Rc1 Rd8 39. h3 Qd6 40. Rxc2 Qd1+
+41. Kh2 Qxc2 42. Qe6+ Kf8 43. Qf6+ Ke8 44. Qe6+ 1/2-1/2
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2008.07.21"]
+[Round "8.19"]
+[White "Djingarova, E."]
+[Black "Gabarro Sole, R."]
+[Result "1-0"]
+[ECO "A30"]
+[WhiteElo "2305"]
+[BlackElo "2113"]
+[PlyCount "119"]
+[EventDate "2008.??.??"]
+
+1. Nf3 c5 2. c4 g6 3. g3 Bg7 4. Bg2 Nh6 5. d4 cxd4 6. Nxd4 Nc6 7. Nxc6 dxc6 8.
+Qa4 O-O 9. O-O Bg4 10. Nc3 Qc8 11. Qb4 Re8 12. Bg5 Bf8 13. c5 f6 14. Be3 Nf7
+15. f3 Be6 16. b3 Bg7 17. Rad1 Rd8 18. Bd4 a5 19. Qa3 Bh3 20. Na4 Bxg2 21. Kxg2
+Ng5 22. Nb6 Qh3+ 23. Kg1 Rab8 24. Qa4 e5 25. Qc4+ Ne6 26. Be3 h5 27. Nd7 Ra8
+28. Rd6 Kh7 29. Nxf6+ Bxf6 30. Qxe6 Qxe6 31. Rxe6 Kg7 32. Rd6 Be7 33. Rdd1 Rd5
+34. Kg2 Kf6 35. Rc1 a4 36. b4 Rad8 37. Rc3 Kf5 38. Ra3 Ra8 39. h3 Ke6 40. f4
+exf4 41. Bxf4 Rd4 42. Re3+ Kd7 43. Be5 Rd5 44. Bg7 Rf5 45. Rd1+ Ke8 46. Be5 Rd8
+47. Bd6 Rd7 48. Rf1 Rxf1 49. Kxf1 Kf7 50. Bxe7 Rxe7 51. Rxe7+ Kxe7 52. Kf2 Kf6
+53. Ke3 Ke5 54. Kd3 g5 55. e3 a3 56. e4 Kf6 57. Kd4 g4 58. e5+ Kg5 59. hxg4
+hxg4 60. Ke4 1-0
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2010.07.19"]
+[Round "1"]
+[White "Melkumyan, H."]
+[Black "Gabarro Sole, R."]
+[Result "1-0"]
+[ECO "A43"]
+[WhiteElo "2606"]
+[BlackElo "2159"]
+[PlyCount "79"]
+[EventDate "2010.??.??"]
+[EventRounds "10"]
+
+1. d4 c5 2. d5 f5 3. Nc3 Nf6 4. g3 g6 5. Bg2 d6 6. e4 Bg7 7. Nge2 O-O 8. O-O
+Na6 9. Re1 Nc7 10. Nf4 b5 11. exf5 Bxf5 12. Qe2 b4 13. Nd1 Qc8 14. Ne3 Bd7 15.
+Nc4 Qa6 16. a4 Rae8 17. Ne6 Nxe6 18. dxe6 Bc6 19. Nxd6 Qxe2 20. Rxe2 Rd8 21.
+Bxc6 Rxd6 22. Bf3 Ne8 23. Kg2 Rd1 24. Re4 Rd4 25. Re1 Rc4 26. Re2 Nd6 27. g4 h5
+28. h3 hxg4 29. hxg4 b3 30. c3 Rb8 31. Bg5 Kf8 32. Rd1 Rb6 33. a5 Ra6 34. Red2
+Ra4 35. Rd5 R4xa5 36. Be4 Ne8 37. Bxg6 Rxe6 38. Rf5+ Bf6 39. Bh6+ Kg8 40. Rd8
+1-0
+
+[Event "Sants Hostafrancs i La Bordeta op A"]
+[Site "Barcelona"]
+[Date "2013.08.23"]
+[Round "1"]
+[White "Spraggett, K."]
+[Black "Gabarro Sole, R."]
+[Result "1-0"]
+[ECO "A30"]
+[PlyCount "63"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+
+1. c4 e6 2. Nf3 c5 3. Nc3 b6 4. g3 Bb7 5. Bg2 Nf6 6. O-O Be7 7. Re1 O-O 8. e4
+d6 9. d3 Nbd7 10. h3 a6 11. Nh2 Qc7 12. f4 Rfe8 13. Nf3 g6 14. Qe2 d5 15. e5
+Nh5 16. g4 Ng7 17. Bd2 Bc6 18. cxd5 exd5 19. d4 Nf8 20. Be3 c4 21. Qf2 b5 22.
+Nh2 Qd7 23. f5 b4 24. Ne2 gxf5 25. Rf1 c3 26. gxf5 cxb2 27. Rab1 f6 28. Ng4 Nh5
+29. Qh4 Bb5 30. Qxh5 Bxe2 31. Nh6+ Kh8 32. Qf7 1-0
+
+[Event "La Pobla de Lillet op"]
+[Site "La Pobla de Lillet"]
+[Date "2014.08.04"]
+[Round "3.7"]
+[White "Sayrol Clols, JM."]
+[Black "Gabarro Sole, R."]
+[Result "0-1"]
+[ECO "B06"]
+[WhiteElo "2134"]
+[BlackElo "2071"]
+[PlyCount "60"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 g6 2. d4 Bg7 3. f4 c5 4. c3 d5 5. e5 cxd4 6. cxd4 Nc6 7. Nc3 Nh6 8. Be2
+O-O 9. Bf3 e6 10. Be3 Nf5 11. Qd2 b5 12. Nge2 Qa5 13. O-O b4 14. Nd1 Ba6 15. g4
+Nxe3 16. Nxe3 Qb6 17. Rfd1 Bxe2 18. Bxe2 f6 19. Kh1 fxe5 20. fxe5 Rf2 21. Qd3
+Nxd4 22. Bf1 Bxe5 23. Bg2 Raf8 24. g5 R8f4 25. Rac1 Rh4 26. Rc8+ Kg7 27. h3 Ne2
+28. Ng4 Rxg2 29. Nxe5 Rg1+ 30. Kh2 Qf2# 0-1
+
+[Event "La Pobla de Lillet op"]
+[Site "La Pobla de Lillet"]
+[Date "2014.08.05"]
+[Round "4.9"]
+[White "Gabarro Sole, R."]
+[Black "Jover Font, P."]
+[Result "1-0"]
+[ECO "C46"]
+[WhiteElo "2071"]
+[BlackElo "2005"]
+[PlyCount "79"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Bc5 4. g3 Nf6 5. Bg2 a6 6. O-O d6 7. a3 Be6 8. d3
+Qd7 9. b4 Ba7 10. Be3 O-O 11. Bxa7 Rxa7 12. Ng5 Nd4 13. Nxe6 fxe6 14. Ne2 a5
+15. c3 Nxe2+ 16. Qxe2 Rfa8 17. Qb2 Qb5 18. c4 Qb6 19. b5 Rf8 20. Bh3 Kf7 21. c5
+Qxc5 22. Rac1 Qb6 23. Rxc7+ Qxc7 24. b6 Qb8 25. bxa7 Qxa7 26. Rb1 Rb8 27. Qb3
+d5 28. Qc3 Nd7 29. exd5 Qc5 30. dxe6+ Ke7 31. Qd2 Nf6 32. Rc1 Qd6 33. Qxa5 b6
+34. Qa7+ Kd8 35. Qxg7 Ne8 36. Qg5+ Qe7 37. Qxe5 Rc8 38. Qd5+ Nd6 39. Rxc8+ Kxc8
+40. Qxd6 1-0
+
+[Event "La Pobla de Lillet op"]
+[Site "La Pobla de Lillet"]
+[Date "2014.08.06"]
+[Round "5.6"]
+[White "Garcia Castellote, O."]
+[Black "Gabarro Sole, R."]
+[Result "1/2-1/2"]
+[ECO "B16"]
+[WhiteElo "2058"]
+[BlackElo "2071"]
+[PlyCount "89"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Nxf6+ gxf6 6. c3 Bf5 7. Nf3 Nd7 8.
+g3 Qc7 9. Bg2 O-O-O 10. O-O e6 11. b4 Bd6 12. Qb3 h5 13. Nh4 Bh7 14. c4 Be7 15.
+Re1 Qd6 16. b5 Qb4 17. Be3 Nb8 18. bxc6 Nxc6 19. d5 Na5 20. Qxb4 Bxb4 21. Red1
+Bc3 22. Rac1 Bb2 23. Bxa7 Bxc1 24. Rxc1 Kc7 25. c5 Ra8 26. Bb6+ Kc8 27. c6 bxc6
+28. dxc6 Ra6 29. Be3 Bd3 30. a4 Nc4 31. Rc3 Nxe3 32. fxe3 Rd8 33. c7 Rg8 34.
+Rxd3 Rxa4 35. Rb3 Kxc7 36. Rb7+ Kd6 37. Rxf7 Ra1+ 38. Kf2 f5 39. Rb7 Ra2+ 40.
+Kf3 Rc8 41. Kf4 Rc4+ 42. Kg5 Rxh4 43. Rb6+ Kc7 44. Rb7+ Kd6 45. Rb6+ 1/2-1/2
+
+[Event "La Pobla de Lillet op"]
+[Site "La Pobla de Lillet"]
+[Date "2014.??.??"]
+[Round "6.3"]
+[White "Gabarro Sole, R."]
+[Black "Renteria Becerra, J."]
+[Result "0-1"]
+[ECO "A30"]
+[WhiteElo "2071"]
+[BlackElo "2306"]
+[PlyCount "58"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 c5 2. c4 Nf6 3. g3 b6 4. Bg2 Bb7 5. O-O g6 6. Nc3 Bg7 7. Re1 Ne4 8. Nxe4
+Bxe4 9. d3 Bb7 10. Rb1 O-O 11. Bg5 d6 12. Qd2 Nd7 13. Bh6 Rb8 14. Bxg7 Kxg7 15.
+b4 d5 16. cxd5 Bxd5 17. e4 Ba8 18. d4 cxd4 19. e5 Bxf3 20. Bxf3 f6 21. e6 Ne5
+22. Bg2 Qd6 23. Re4 Rfd8 24. Rd1 d3 25. Rh4 h5 26. h3 Rbc8 27. Rc1 Rxc1+ 28.
+Qxc1 d2 29. Qd1 Rc8 0-1
+
+[Event "La Pobla de Lillet op"]
+[Site "La Pobla de Lillet"]
+[Date "2014.??.??"]
+[Round "7.8"]
+[White "Guasch Murtra, JM."]
+[Black "Gabarro Sole, R."]
+[Result "0-1"]
+[ECO "B07"]
+[WhiteElo "1992"]
+[BlackElo "2071"]
+[PlyCount "64"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 g6 2. d4 Bg7 3. c3 d6 4. Nf3 Nf6 5. Bd3 O-O 6. h3 e5 7. Be3 d5 8. Nxe5
+Nxe4 9. Nd2 f5 10. Qb3 Nc5 11. dxc5 Bxe5 12. Bg5 Bf6 13. Bxf6 Rxf6 14. O-O-O
+Na6 15. Bxa6 bxa6 16. Nf3 c6 17. Rhe1 Bd7 18. Ne5 Be8 19. Qb7 a5 20. Nc4 Rf7
+21. Qa6 Qg5+ 22. Ne3 f4 23. Ng4 f3+ 24. Kb1 fxg2 25. Qe2 Bd7 26. Ne5 Re7 27. f4
+Bf5+ 28. Ka1 Qxf4 29. Nxg6 Rxe2 30. Nxf4 Rf2 31. Re2 Rxf4 32. Rxg2+ Bg6 0-1
+
+[Event "La Pobla de Lillet op"]
+[Site "La Pobla de Lillet"]
+[Date "2014.??.??"]
+[Round "8.5"]
+[White "Capellades Subirana, M."]
+[Black "Gabarro Sole, R."]
+[Result "1/2-1/2"]
+[ECO "B72"]
+[WhiteElo "2188"]
+[BlackElo "2071"]
+[PlyCount "163"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. Be2 O-O 8.
+Qd2 Nc6 9. Rd1 Bd7 10. O-O a6 11. a4 Rc8 12. Nxc6 Bxc6 13. f3 Qc7 14. Bd4 Rfd8
+15. Qe3 Nd7 16. Bxg7 Kxg7 17. Rd2 Nf6 18. Rfd1 Be8 19. Kh1 Qc5 20. Qd4 Qxd4 21.
+Rxd4 Rc5 22. f4 Rdc8 23. Bf3 b5 24. axb5 axb5 25. Kg1 Rb8 26. Rb4 g5 27. g3 g4
+28. Bg2 Rc4 29. Rd4 Rxd4 30. Rxd4 b4 31. Na2 b3 32. cxb3 Rxb3 33. Rb4 Rxb4 34.
+Nxb4 e5 35. Nd5 Nxd5 36. exd5 exf4 37. gxf4 h5 38. Kf2 Bb5 39. Be4 Bc4 40. Kg3
+Bb3 41. h3 gxh3 42. Kxh3 f6 43. Kh4 Bd1 44. b4 Be2 45. Kg3 Bc4 46. Kh4 Be2 47.
+Bf5 Kf7 48. Bd7 Ke7 49. Be6 Ke8 50. Kg3 Kd8 51. Kf2 Bd1 52. Kg3 Kc7 53. Kh4 Kb6
+54. Bd7 Be2 55. Be8 Bf3 56. Bxh5 Bxd5 57. Be2 Be4 58. Kg3 d5 59. Kf2 d4 60. Bc4
+Kc6 61. Ke2 Kd6 62. Kd2 Bf5 63. Kc1 Kc6 64. Kb2 Bg4 65. Kc2 Bf5+ 66. Kb3 Bg4
+67. Bd3 Be6+ 68. Ka3 Kb6 69. Kb2 Bd7 70. Kc2 Kc6 71. Be4+ Kb5 72. Kd3 Kxb4 73.
+Kxd4 Kb5 74. Bd5 Kb6 75. Bb3 Bc6 76. Bc2 Kc7 77. Kc5 Bf3 78. Ba4 Bg2 79. Bb5
+Bf3 80. Ba4 Bg2 81. Bb5 Bf3 82. Ba4 1/2-1/2
+
+[Event "La Pobla de Lillet op"]
+[Site "La Pobla de Lillet"]
+[Date "2014.08.10"]
+[Round "9.3"]
+[White "Gabarro Sole, R."]
+[Black "Mellado Triviño, J."]
+[Result "0-1"]
+[ECO "B23"]
+[WhiteElo "2071"]
+[BlackElo "2443"]
+[PlyCount "64"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nc3 a6 3. g3 b5 4. Bg2 Bb7 5. Nh3 b4 6. Na4 e5 7. c4 d6 8. d3 Be7
+9. O-O h5 10. b3 g5 11. f4 gxf4 12. gxf4 Nd7 13. a3 a5 14. Ra2 Ngf6 15. Kh1 Ng4
+16. axb4 axb4 17. fxe5 Ndxe5 18. d4 cxd4 19. Qxd4 Bf6 20. Qd2 Bc6 21. Qxb4 Nd3
+22. Qd2 Nxc1 23. Qxc1 Be5 24. Nc3 Rxa2 25. Nxa2 Qa5 26. Qb1 Ne3 27. b4 Qa8 28.
+Re1 Nxg2 29. Kxg2 Rg8+ 30. Kf1 Qa3 31. Nf2 Bd4 32. Qd3 Rg1+ 0-1
+
+[Event "Camp. Catalunya indiv. sf."]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "?"]
+[White "Gabarro Sole, Ramon"]
+[Black "Illescas Cordoba, Miquel"]
+[Result "0-1"]
+[ECO "B44"]
+[PlyCount "64"]
+[EventDate "1982.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nb5 d6 6. Bf4 e5 7. Be3 a6 8. N5c3
+Nf6 9. Be2 Be6 10. Nd5 Bxd5 11. exd5 Qa5+ 12. Nc3 Ne7 13. O-O Nexd5 14. Bb5+
+axb5 15. Nxd5 Nxd5 16. Qxd5 Qc7 17. Qxb5+ Qc6 18. Qb3 Be7 19. Rfd1 O-O 20. Rd5
+Rfd8 21. Rb5 Rd7 22. Rb6 Qc7 23. Rd1 d5 24. Rxd5 Rxd5 25. Qxd5 Rd8 26. Qf3 Qxc2
+27. g3 e4 28. Qf5 Rd1+ 29. Kg2 Qe2 30. Qb5 Qf3+ 31. Kh3 Rg1 32. Bg5 h5 0-1
+
+[Event "Vulca op A"]
+[Site "Barcelona"]
+[Date "1985.??.??"]
+[Round "?"]
+[White "Gabarro Sole, Ramon"]
+[Black "Vehi Bach, Victor Manuel"]
+[Result "0-1"]
+[ECO "B42"]
+[PlyCount "48"]
+[EventDate "1985.??.??"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Bd3 Nf6 6. Be3 d6 7. Nc3 Qc7 8. a4
+b6 9. O-O Bb7 10. f4 Nbd7 11. Qe2 g6 12. f5 gxf5 13. exf5 e5 14. Ne6 Qc6 15.
+Nxf8 Rxf8 16. Rad1 Rg8 17. Rd2 d5 18. Bf4 O-O-O 19. Bg3 d4 20. Bb5 axb5 21.
+Nxb5 Qc5 22. Kh1 Ne4 23. c3 Rxg3 24. cxd4 Nxd2 0-1
+
+[Event "Barcelona op"]
+[Site "Barcelona"]
+[Date "1991.??.??"]
+[Round "?"]
+[White "Gabarro Sole, Ramon"]
+[Black "Lara"]
+[Result "0-1"]
+[ECO "B01"]
+[PlyCount "57"]
+[EventDate "1991.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d4 Nf6 5. Nf3 Nc6 6. d5 Nb4 7. Bb5+ Bd7 8.
+Bxd7+ Nxd7 9. O-O Nf6 10. Bg5 Nbxd5 11. Nxd5 Qxd5 12. Qe2 e6 13. Rad1 Qa5 14.
+Qd3 Bd6 15. Bxf6 gxf6 16. b4 Qh5 17. Qd4 Ke7 18. c4 Rad8 19. Qe4 Bxh2+ 20. Kh1
+Bd6+ 21. Kg1 Rhg8 22. g3 c6 23. c5 Bc7 24. Rxd8 Rxd8 25. Kg2 Qg6 26. Qh4 Rd3
+27. Re1 Qf5 28. Nd4 Qd5+ 29. Re4 0-1

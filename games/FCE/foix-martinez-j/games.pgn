@@ -1,0 +1,205 @@
+[Event "Lleida indiv. B ch"]
+[Site "?"]
+[Date "2009.10.18"]
+[Round "2.32"]
+[White "Monfa Escola, J."]
+[Black "Foix Martinez, J."]
+[Result "1-0"]
+[ECO "A00"]
+[WhiteElo "1758"]
+[BlackElo "1700"]
+[PlyCount "93"]
+[EventDate "2009.??.??"]
+
+1. d3 e5 2. Nf3 Nf6 3. Nxe5 Bd6 4. Nf3 Nc6 5. g3 h6 6. Bg2 O-O 7. O-O Bc5 8. e3
+d5 9. d4 Bd6 10. Nbd2 Bg4 11. h3 Bf5 12. a3 Ne4 13. Nxe4 dxe4 14. Nd2 Ne7 15.
+c4 c6 16. c5 Bc7 17. Nxe4 Bxe4 18. Bxe4 b6 19. b4 Nd5 20. Bb2 Qe8 21. Bg2 Nf6
+22. Qc2 Nd5 23. e4 Nf6 24. e5 Nd7 25. Bxc6 Bd8 26. Bxa8 bxc5 27. bxc5 Qe6 28.
+Bg2 Qa6 29. Rfe1 Ba5 30. Bf1 Bxe1 31. Bxa6 Ba5 32. Bc3 Bc7 33. Bb4 Bd8 34. c6
+Nb8 35. Bxf8 Kxf8 36. c7 Bxc7 37. Qxc7 Nxa6 38. Qc8+ Ke7 39. Qxa6 f6 40. Qd6+
+Kf7 41. Qd7+ Kg6 42. Qg4+ Kf7 43. Rc1 fxe5 44. Qf5+ Ke8 45. Qxe5+ Kf8 46. Rc7
+Kg8 47. Qxg7# 1-0
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2012.06.16"]
+[Round "1"]
+[White "Foix Martinez, J."]
+[Black "Westerinen, H."]
+[Result "0-1"]
+[ECO "C00"]
+[WhiteElo "1671"]
+[BlackElo "2345"]
+[PlyCount "42"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e6 2. d4 d5 3. Bb5+ Bd7 4. Bxd7+ Qxd7 5. exd5 exd5 6. Nf3 Bd6 7. Nc3 Ne7
+8. Qe2 c6 9. Bg5 Na6 10. Ne5 Qe6 11. O-O O-O 12. Bxe7 Qxe7 13. Rad1 Rfe8 14.
+Rfe1 Qc7 15. Rd3 f6 16. Qh5 fxe5 17. Rh3 g6 18. Rg3 Qg7 19. Qf3 exd4 20. Rxe8+
+Rxe8 21. Ne2 Bxg3 0-1
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2012.06.17"]
+[Round "2"]
+[White "Farre Selma, D."]
+[Black "Foix Martinez, J."]
+[Result "1-0"]
+[ECO "C50"]
+[WhiteElo "1868"]
+[BlackElo "1671"]
+[PlyCount "47"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. Nc3 Nf6 5. d3 h6 6. O-O d6 7. h3 Nd4 8. Be3
+Nxf3+ 9. Qxf3 Bxe3 10. fxe3 O-O 11. Rf2 Be6 12. Bb3 Qe7 13. Raf1 a5 14. Qg3
+Bxb3 15. axb3 Nh5 16. Qg4 Nf6 17. Rxf6 Kh8 18. Nd5 Qd8 19. Qh5 c6 20. Rxh6+
+gxh6 21. Qxh6+ Kg8 22. Nf6+ Qxf6 23. Rxf6 Rfe8 24. Rf3 1-0
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2012.06.18"]
+[Round "3"]
+[White "Foix Martinez, J."]
+[Black "Fernandez Alvarez, J."]
+[Result "1/2-1/2"]
+[ECO "B21"]
+[WhiteElo "1671"]
+[BlackElo "1371"]
+[PlyCount "21"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. d4 cxd4 3. Qxd4 Nc6 4. Qd1 e5 5. Bc4 Nf6 6. Nc3 Bb4 7. Nge2 Nxe4 8.
+Qd5 Bxc3+ 9. Nxc3 Qe7 10. Qxe4 O-O 11. Be3 1/2-1/2
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2012.06.19"]
+[Round "4"]
+[White "Casas Torres, P."]
+[Black "Foix Martinez, J."]
+[Result "1-0"]
+[ECO "C65"]
+[WhiteElo "1611"]
+[BlackElo "1671"]
+[PlyCount "21"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Bc5 5. d3 h6 6. Bxc6 dxc6 7. Nxe5 Qd4 8.
+Nf3 Qd6 9. e5 Qe6 10. exf6 gxf6 11. Re1 1-0
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2012.06.20"]
+[Round "5"]
+[White "Foix Martinez, J."]
+[Black "Marti Trilla, A."]
+[Result "0-1"]
+[ECO "B21"]
+[WhiteElo "1671"]
+[BlackElo "1378"]
+[PlyCount "68"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. d4 cxd4 3. Qxd4 Nc6 4. Qd5 Nf6 5. Qd3 d5 6. exd5 Qxd5 7. Nc3 Qxd3
+8. Bxd3 e5 9. f4 Bb4 10. fxe5 Nxe5 11. Bb5+ Bd7 12. Bxd7+ Nfxd7 13. Nge2 O-O
+14. O-O Bxc3 15. Nxc3 Rac8 16. Rf2 Rfe8 17. Nb5 Ng6 18. Nd6 Re1+ 19. Rf1 Rxf1+
+20. Kxf1 Rxc2 21. Nxb7 Nde5 22. b3 Nd3 23. Ba3 Ngf4 24. g3 Rf2+ 25. Kg1 Nh3+
+26. Kh1 h6 27. Rd1 Ne5 28. Bc5 Rxa2 29. Rf1 Ng4 30. Bg1 Nxg1 31. Kxg1 Nxh2 32.
+Rd1 Nf3+ 33. Kf1 Nd2+ 34. Ke1 Nxb3 0-1
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2012.06.21"]
+[Round "6"]
+[White "Juan Bartroli, M."]
+[Black "Foix Martinez, J."]
+[Result "0-1"]
+[ECO "D00"]
+[WhiteElo "1"]
+[BlackElo "1671"]
+[PlyCount "76"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d5 2. e3 Nc6 3. c3 e5 4. f4 exf4 5. exf4 Be6 6. Bd3 Qe7 7. Qe2 Bg4 8.
+Qxe7+ Bxe7 9. Ne2 Nf6 10. h3 Bxe2 11. Bxe2 O-O 12. O-O Ne4 13. Bf3 b5 14. Re1
+f5 15. Nd2 b4 16. c4 Nxd4 17. Bd1 Bh4 18. Rf1 Ng3 19. Rf3 Nxf3+ 20. Nxf3 Rfe8
+21. Nxh4 Re1+ 22. Kf2 Rxd1 23. Kxg3 dxc4 24. Nxf5 Re8 25. b3 Ree1 26. Ne3 Rxc1
+27. Rxc1 Rxc1 28. Nxc4 Rc2 29. a4 bxa3 30. Nxa3 Rc3+ 31. Kg4 Rxb3 32. Nc4 h6
+33. Kf5 a5 34. Ke6 a4 35. Nd2 Rb2 36. Nc4 Rxg2 37. Kd7 Rg3 38. Kxc7 Rc3 0-1
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2012.06.22"]
+[Round "7"]
+[White "Foix Martinez, J."]
+[Black "Sole Pijuan, F."]
+[Result "0-1"]
+[ECO "C48"]
+[WhiteElo "1671"]
+[BlackElo "1539"]
+[PlyCount "70"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bb5 d6 5. h3 a6 6. Bxc6+ bxc6 7. d4 exd4 8.
+Nxd4 Bb7 9. Bg5 h6 10. Bxf6 Qxf6 11. Nf5 d5 12. Ng3 Bc5 13. O-O d4 14. e5 Qd8
+15. Nce4 Bb6 16. c4 c5 17. Qa4+ Qd7 18. Qc2 O-O 19. Qd3 Rfe8 20. Nh5 Bxe4 21.
+Qxe4 Qe6 22. Rfe1 f6 23. Qg6 Re7 24. exf6 Qf7 25. Rxe7 Qxg6 26. Rxg7+ Qxg7 27.
+fxg7 Ba5 28. f4 d3 29. f5 d2 30. f6 Re8 31. Rf1 Kf7 32. Nf4 Re1 33. g8=Q+ Kxg8
+34. f7+ Kxf7 35. Nd3+ Rxf1+ 0-1
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2012.06.23"]
+[Round "8"]
+[White "Foix Martinez, J."]
+[Black "Font Moreno, S."]
+[Result "0-1"]
+[ECO "B13"]
+[WhiteElo "1671"]
+[PlyCount "66"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Bb5+ Bd7 5. Bd3 Nf6 6. Nf3 Bg4 7. h3 Bh5 8.
+Bb5+ Nc6 9. Nc3 e6 10. Qe2 Bb4 11. Bd2 O-O 12. Bxc6 bxc6 13. O-O-O Qb6 14. g4
+Bg6 15. g5 Ne4 16. Nxe4 Bxe4 17. Bxb4 Qxb4 18. Rhg1 Rab8 19. c3 Bxf3 20. cxb4
+Bxe2 21. Rd2 Bh5 22. Rc2 Rfc8 23. a3 Rc7 24. Re1 Bg6 25. Rc3 Rb5 26. f4 a5 27.
+Rf3 Rc8 28. Rfe3 axb4 29. axb4 Rxb4 30. h4 Bf5 31. h5 Rc4+ 32. Kd2 Rxd4+ 33.
+Kc3 Rxf4 0-1
+
+[Event "Ct. Lleida indiv. Absolut"]
+[Site "Tornabous"]
+[Date "2014.10.05"]
+[Round "1"]
+[White "Monfa Sole, R."]
+[Black "Foix Martinez, J."]
+[Result "1-0"]
+[ECO "A00"]
+[WhiteElo "2160"]
+[BlackElo "1877"]
+[PlyCount "51"]
+[EventDate "2014.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d3 e6 2. a3 d5 3. g3 Nf6 4. Bg2 c5 5. c4 Nc6 6. cxd5 exd5 7. Nf3 Be7 8. O-O
+O-O 9. b3 Be6 10. Bb2 Rc8 11. Nbd2 Qb6 12. Rb1 Rfd8 13. Qc2 Na5 14. Bc3 d4 15.
+Nc4 Qa6 16. Bxa5 b6 17. Bd2 b5 18. Na5 b4 19. axb4 cxb4 20. Nc4 Nd5 21. Nxd4
+Nc3 22. Bxc3 bxc3 23. Ra1 Qb7 24. Bxb7 Rc7 25. Nxe6 fxe6 26. Be4 1-0

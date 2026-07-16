@@ -1,0 +1,200 @@
+[Event "Obert Barcelona A"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "1"]
+[White "Triquell Sanchez, M."]
+[Black "Prat Ferrer, D."]
+[Result "1/2-1/2"]
+[ECO "A48"]
+[WhiteElo "2080"]
+[PlyCount "72"]
+[EventDate "1998.??.??"]
+
+1. d4 Nf6 2. Nf3 g6 3. Bf4 Bg7 4. e3 O-O 5. h3 d6 6. Bc4 c6 7. c3 Nbd7 8. O-O
+Qc7 9. Nbd2 e5 10. Bh2 h6 11. Be2 Re8 12. Nc4 Bf8 13. a4 Nd5 14. a5 e4 15. Ne1
+f5 16. Qb3 Re6 17. Nd2 N7f6 18. c4 Ne7 19. Nc2 Qd7 20. Nb4 d5 21. Rac1 Kh7 22.
+cxd5 Nexd5 23. Nxd5 Nxd5 24. Bc4 Bd6 25. Bxd5 Bxh2+ 26. Kxh2 Qd6+ 27. Kg1 cxd5
+28. Rc5 b6 29. Rxd5 Qe7 30. Qb5 a6 31. Qb3 Bb7 32. Re5 Rxe5 33. dxe5 b5 34. Rc1
+Rd8 35. Nf1 Rd5 36. Qc3 Rxe5 1/2-1/2
+
+[Event "Obert Barcelona A"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "2"]
+[White "Prat Ferrer, D."]
+[Black "Ruiz Bravo, A."]
+[Result "0-1"]
+[ECO "B23"]
+[BlackElo "2090"]
+[PlyCount "72"]
+[EventDate "1998.??.??"]
+
+1. e4 c5 2. Nc3 Nc6 3. Nge2 g6 4. g3 Bg7 5. Bg2 e6 6. d3 a6 7. O-O Nge7 8. Be3
+Nd4 9. Nf4 O-O 10. Qd2 Rb8 11. Nd1 d6 12. c3 Ndc6 13. Kh1 b5 14. h4 Bb7 15. h5
+Ne5 16. f3 Rc8 17. g4 d5 18. Qe2 d4 19. cxd4 cxd4 20. Bg1 N7c6 21. Nf2 Qe7 22.
+N2h3 g5 23. h6 Bxh6 24. Nh5 f5 25. exf5 exf5 26. Rfc1 Qd7 27. gxf5 Qxf5 28. Rc5
+Qg6 29. Ng3 Nxd3 30. Rxc6 Bxc6 31. Rd1 Nf4 32. Nxf4 Rxf4 33. Bxd4 g4 34. fxg4
+Rxg4 35. Bxc6 Qxc6+ 36. Kh2 Qg6 0-1
+
+[Event "Obert Barcelona A"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "3"]
+[White "Martinez Talavera, J."]
+[Black "Prat Ferrer, D."]
+[Result "1-0"]
+[ECO "A45"]
+[WhiteElo "2060"]
+[PlyCount "107"]
+[EventDate "1998.??.??"]
+
+1. d4 Nf6 2. Bf4 c5 3. c3 b6 4. e3 Bb7 5. Nf3 g6 6. Be2 Bg7 7. h3 O-O 8. O-O d6
+9. Nbd2 Nbd7 10. Rc1 a6 11. a4 Re8 12. Qb3 Bd5 13. c4 Bc6 14. d5 Bb7 15. e4 Nf8
+16. e5 dxe5 17. Bxe5 N8d7 18. Bh2 e5 19. dxe6 Rxe6 20. Rfe1 Bh6 21. Rcd1 Qe7
+22. Bf1 Re8 23. Rxe6 Qxe6 24. Re1 Qc6 25. Rxe8+ Nxe8 26. Qd1 Nc7 27. Bd3 Nf6
+28. Bf1 Ne6 29. Ne5 Qe8 30. Ndf3 Bf8 31. Qb3 Nd7 32. Nxd7 Qxd7 33. Ne5 Qe7 34.
+Qxb6 Nd4 35. b4 f6 36. Nd3 Qe4 37. Qxf6 Ne2+ 38. Kh1 Be7 39. Qe5 Qxe5 40. Bxe5
+Nd4 41. Bxd4 cxd4 42. b5 axb5 43. axb5 Be4 44. f3 Bxd3 45. Bxd3 Bc5 46. Kg1 Kf7
+47. Kf2 Ke6 48. h4 Kd6 49. h5 gxh5 50. Bxh7 h4 51. Bd3 Ke5 52. g3 hxg3+ 53.
+Kxg3 Bb6 54. f4+ 1-0
+
+[Event "Obert Barcelona A"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "4"]
+[White "Albero Figueras, E."]
+[Black "Prat Ferrer, D."]
+[Result "0-1"]
+[ECO "D00"]
+[WhiteElo "2135"]
+[PlyCount "90"]
+[EventDate "1998.??.??"]
+
+1. d4 d5 2. e3 Nf6 3. Bd3 c6 4. Nd2 g6 5. f4 Bf5 6. Ngf3 e6 7. O-O Nbd7 8. Ne5
+c5 9. Bxf5 exf5 10. c4 dxc4 11. Ndxc4 b5 12. Na3 a6 13. Nc2 Bd6 14. a4 b4 15.
+Nc4 Nb6 16. Nxd6+ Qxd6 17. a5 Nbd5 18. dxc5 Qxc5 19. Nd4 O-O 20. Bd2 Rfe8 21.
+Qc2 Qxc2 22. Nxc2 Rab8 23. Rfe1 Ne4 24. Bc1 Nc5 25. Rd1 Nb3 26. Ra4 Nxc1 27.
+Rxd5 b3 28. Nb4 Rxe3 29. Rd1 Ne2+ 30. Kf2 Re4 31. g3 Nxg3 32. hxg3 Rexb4 33.
+Ra3 Rc8 34. Rd2 Rc6 35. Ke3 Kf8 36. Rd3 Rc5 37. Rdxb3 Rxb3+ 38. Rxb3 Rxa5 39.
+Rb6 Rb5 40. Rxa6 Rxb2 41. Kf3 Rb3+ 42. Kf2 h5 43. Ra7 Rb4 44. Kf3 Re4 45. Rc7
+Re7 0-1
+
+[Event "Obert Barcelona A"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "5"]
+[White "Prat Ferrer, D."]
+[Black "Mateu Cama, J."]
+[Result "1-0"]
+[ECO "D02"]
+[BlackElo "2210"]
+[PlyCount "43"]
+[EventDate "1998.??.??"]
+
+1. d4 Nc6 2. Nf3 d5 3. g3 Bf5 4. Bg2 e6 5. O-O Be7 6. c3 h5 7. Qa4 Qd7 8. b4 a6
+9. Ba3 b5 10. Qb3 h4 11. Bc1 hxg3 12. fxg3 Nf6 13. a4 Rd8 14. axb5 axb5 15. Na3
+Ne4 16. Nxb5 Rb8 17. Na3 e5 18. b5 Qe6 19. Be3 Bh3 20. Qc2 Bxg2 21. Kxg2 Qh3+
+22. Kg1 {..32} 1-0
+
+[Event "Obert Barcelona A"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "6"]
+[White "Colom Andres, FX."]
+[Black "Prat Ferrer, D."]
+[Result "1/2-1/2"]
+[ECO "E97"]
+[WhiteElo "2070"]
+[PlyCount "93"]
+[EventDate "1998.??.??"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Be2 O-O 6. Nf3 e5 7. O-O Nc6 8. d5
+Ne7 9. b4 a5 10. Ba3 Ne8 11. Nd2 f5 12. c5 f4 13. bxa5 Rxa5 14. Bb4 Ra8 15. f3
+g5 16. cxd6 cxd6 17. Qb3 h5 18. Nc4 Kh7 19. a4 g4 20. a5 gxf3 21. Bxf3 Bg4 22.
+Nb5 Rf6 23. Rfc1 Rg6 24. Nb6 Rb8 25. Be1 Ng8 26. Rc2 Qg5 27. Kh1 Ngf6 28. Nc7
+Nxc7 29. Rxc7 h4 30. Bf2 h3 31. gxh3 Bxh3 32. Rg1 Ng4 33. Bxg4 Bxg4 34. Rc3 Qh5
+35. Qa3 Rh6 36. h4 Bf6 37. Rg2 Bxh4 38. Rh2 Qg5 39. Qb2 Bg3 40. Bxg3 fxg3 41.
+Rxg3 Rf8 42. Rxh6+ Kxh6 43. Qc3 Kg6 44. Qe3 Rf4 45. Nc4 Qf6 46. Kg2 Kh5 47. Nd2
+1/2-1/2
+
+[Event "Obert Barcelona A"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "8"]
+[White "Prat Ferrer, D."]
+[Black "Fernandez Perez, J."]
+[Result "0-1"]
+[ECO "A04"]
+[BlackElo "2140"]
+[PlyCount "68"]
+[EventDate "1998.??.??"]
+
+1. Nf3 e6 2. g3 d5 3. Bg2 c5 4. O-O Nf6 5. d3 Be7 6. Nbd2 Nc6 7. c3 O-O 8. Re1
+e5 9. Qc2 h6 10. e4 d4 11. c4 Be6 12. a3 Qd7 13. Nf1 Bh3 14. Bxh3 Qxh3 15. Nh4
+Rfe8 16. Bd2 Nh7 17. Nf5 Bf8 18. Qc1 g6 19. Nh4 h5 20. f3 Be7 21. Ng2 f5 22. f4
+fxe4 23. Rxe4 Nf6 24. Re2 Qf5 25. Qc2 exf4 26. Bxf4 g5 27. g4 Nxg4 28. Ng3 Qg6
+29. Bc7 Rac8 30. Bf4 h4 31. h3 hxg3 32. hxg4 gxf4 33. Nxf4 Qxg4 34. Rf1 Bg5 0-1
+
+[Event "Camp. España eq."]
+[Site "Barcelona"]
+[Date "1964.??.??"]
+[Round "5"]
+[White "Prat Ferrer, Dionisio"]
+[Black "Morera Grane, Amadeo"]
+[Result "1-0"]
+[ECO "C85"]
+[PlyCount "81"]
+[EventDate "1964.08.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Bxc6 dxc6 7. Nc3 Bg4 8.
+h3 Bxf3 9. Qxf3 O-O 10. d3 Nd7 11. Ne2 Bf6 12. Ng3 g6 13. Bh6 Bg7 14. Bxg7 Kxg7
+15. Qe3 Qe7 16. Kh1 Nf6 17. f4 exf4 18. Qxf4 Ne8 19. Rae1 Kg8 20. e5 Ng7 21.
+Ne4 Nh5 22. Qh6 f5 23. exf6 Qd7 24. g4 Rae8 25. Rf3 Rxe4 26. Rxe4 Rxf6 27. Qe3
+Rxf3 28. Qxf3 Ng7 29. Qf6 Qf7 30. g5 Qxf6 31. gxf6 Nf5 32. Re8+ Kf7 33. Rc8 h5
+34. Rxc7+ Kxf6 35. Rxb7 Kg5 36. Rb6 Kh4 37. Kh2 g5 38. Rxc6 Ne3 39. Re6 Nf1+
+40. Kg2 Ng3 41. c4 1-0
+
+[Event "Camp. España eq."]
+[Site "Barcelona"]
+[Date "1964.??.??"]
+[Round "6"]
+[White "Prat Ferrer, Dionisio"]
+[Black "Garcia Orus, Francisco"]
+[Result "1-0"]
+[ECO "C85"]
+[PlyCount "95"]
+[EventDate "1964.08.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Bxc6 dxc6 7. Nc3 Nd7 8.
+Ne2 f6 9. Ng3 Nc5 10. d4 exd4 11. Nxd4 Ne6 12. Nxe6 Bxe6 13. Qe2 Bd6 14. f4 O-O
+15. Be3 Qe7 16. Qf2 Rfe8 17. Rfe1 Rad8 18. h4 c5 19. Qf3 Bd7 20. h5 h6 21. Rad1
+Qf7 22. a3 Re7 23. Bd2 Rde8 24. Bc3 b5 25. e5 fxe5 26. fxe5 Qxf3 27. gxf3 Rxe5
+28. Bxe5 Rxe5 29. Rxe5 Bxe5 30. Rxd7 Bxg3 31. b3 c4 32. bxc4 Bd6 33. cxb5 axb5
+34. Kf2 Bxa3 35. Rxc7 Bd6 36. Rb7 b4 37. Ke3 Kh7 38. Kd4 Kg8 39. Kd5 Bf8 40. f4
+Kh7 41. f5 Kg8 42. Kc4 Bd6 43. Rxb4 Bxb4 44. Kxb4 Kf7 45. c4 Kf6 46. c5 Kxf5
+47. c6 Ke6 48. Kb5 1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1976.??.??"]
+[Round "?"]
+[White "Lopez Moreno, Jesus Enric"]
+[Black "Prat Ferrer, Dionisio"]
+[Result "0-1"]
+[ECO "E16"]
+[PlyCount "84"]
+[EventDate "1976.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb7 5. Bg2 Bb4+ 6. Bd2 Bxd2+ 7. Nbxd2 O-O 8.
+Qc2 d6 9. O-O Nbd7 10. e4 e5 11. Rfe1 Qe7 12. b4 a5 13. c5 bxc5 14. bxc5 Ba6
+15. c6 Nb6 16. a4 exd4 17. Nxd4 Ng4 18. f4 Qf6 19. Qc3 Rfe8 20. Bf3 Bc8 21. e5
+dxe5 22. Nb5 Re7 23. h3 Nh6 24. Ne4 Qg6 25. Nxc7 Rb8 26. Qc5 Nf5 27. Red1 h6
+28. Rd8+ Kh7 29. Bg4 Nd4 30. Rxd4 Rxc7 31. Qxe5 Qxc6 32. Rd6 Qc4 33. Bf5+ Bxf5
+34. Qxf5+ g6 35. Nf6+ Kh8 36. Qxa5 Qb3 37. Qe5 Qxg3+ 38. Kf1 Qxh3+ 39. Ke1 Qh1+
+40. Ke2 Qg2+ 41. Ke1 Nc4 42. Qc3 Re7+ 0-1

@@ -1,0 +1,207 @@
+[Event "Vilafranca del Penedes op 11th"]
+[Site "Vilafranca del Penedes"]
+[Date "2017.03.31"]
+[Round "1"]
+[White "Mas Mestres, Jordi"]
+[Black "Lerch Gallemi, Jose Maria"]
+[Result "0-1"]
+[ECO "C41"]
+[WhiteElo "1912"]
+[BlackElo "2320"]
+[PlyCount "118"]
+[EventDate "2017.03.31"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Qe7 3. Nc3 c6 4. d4 d6 5. a4 h6 6. b3 Nf6 7. dxe5 dxe5 8. Ba3
+Qc7 9. Bxf8 Kxf8 10. Qd3 Be6 11. Be2 Na6 12. O-O-O Nc5 13. Qe3 b6 14. h3 Ke7
+15. Nd2 Rhe8 16. Bc4 Kf8 17. Bxe6 Nxe6 18. Nc4 Rab8 19. Nd6 Red8 20. Nf5 a6 21.
+g3 Nd7 22. Rhf1 b5 23. f4 Ndc5 24. Rxd8+ Rxd8 25. b4 Nxa4 26. Nxa4 bxa4 27. Qc3
+exf4 28. gxf4 c5 29. bxc5 Qxc5 30. Qxc5+ Nxc5 31. e5 Ne4 32. Rf3 h5 33. Ra3 g6
+34. Nd6 Nxd6 35. exd6 Rxd6 36. Rxa4 Ke7 37. Ra5 Kd7 38. Rc5 Rf6 39. Rc4 Rc6 40.
+Re4 Re6 41. Rc4 Kd6 42. Ra4 Kc5 43. Kd2 Kb5 44. Ra3 Re4 45. Rf3 Rd4+ 46. Kc3
+Rd5 47. Kb3 Rc5 48. Re3 a5 49. Re7 Rf5 50. Re4 Rf6 51. Re5+ Kb6 52. Re1 Re6 53.
+Rxe6+ fxe6 54. Kc4 Kc6 55. h4 Kb6 56. Kd4 Kb5 57. Kc3 a4 58. Kd3 Kb4 59. c3+
+Kb3 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "https://lichess.org/study/nEg"]
+[Date "2023.02.04"]
+[Round "3.10"]
+[White "Mas Mestres, Jordi"]
+[Black "Escriba Castelltort, Josep"]
+[Result "1-0"]
+[ECO "C55"]
+[WhiteElo "2064"]
+[BlackElo "2025"]
+[PlyCount "79"]
+[EventDate "2023.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 h6 5. Bb3 Bc5 6. c3 d6 7. Nbd2 O-O 8. Nf1
+Ng4 9. Ne3 Nxe3 10. Bxe3 Bxe3 11. fxe3 Be6 12. O-O Qd7 13. Nh4 Kh7 14. Qe1 Bxb3
+15. axb3 g6 16. Qg3 Ne7 17. b4 a6 18. d4 exd4 19. exd4 f5 20. exf5 g5 21. f6
+Rg8 22. f7 Rgf8 23. Qd3+ Kg7 24. Nf5+ Nxf5 25. Rxf5 Rxf7 26. Rxf7+ Qxf7 27. Rf1
+Qg6 28. Qf3 Rb8 29. Qd5 c6 30. Qa5 Rc8 31. Qb6 Qe6 32. Qxb7+ Kg6 33. Qxa6 Qe3+
+34. Kh1 Rc7 35. Qa1 Re7 36. Qb1+ Kh5 37. Qf5 Qe2 38. h3 Qxb2 39. Qf3+ Kg6 40.
+Qf6+ 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "Valls"]
+[Date "2023.02.11"]
+[Round "4.10"]
+[White "Mas Mestres, Jordi"]
+[Black "Ano Pla, Gerard"]
+[Result "0-1"]
+[WhiteElo "1818"]
+[BlackElo "2143"]
+[PlyCount "93"]
+[EventDate "2023.??.??"]
+[TimeControl "90+30"]
+
+1. e4 {[%emt 0:00:02]} c5 {[%emt 0:00:53]} 2. Nf3 {[%emt 0:01:00]} Nc6 {[%emt
+0:00:05]} 3. d4 {[%emt 0:01:45]} cxd4 {[%emt 0:00:08]} 4. Nxd4 {[%emt 0:00:25]}
+Nf6 {[%emt 0:00:07]} 5. Nc3 {[%emt 0:00:57]} e5 {[%emt 0:00:07]} 6. Ndb5 {
+[%emt 0:03:16]} d6 {[%emt 0:00:06]} 7. Bg5 {[%emt 0:01:43]} a6 {[%emt 0:00:08]}
+8. Na3 {[%emt 0:01:56]} b5 {[%emt 0:00:05]} 9. Bxf6 {[%emt 0:02:41]} gxf6 {
+[%emt 0:00:09]} 10. Nd5 {[%emt 0:01:18]} Bg7 {[%emt 0:04:57]} 11. g3 {[%emt 0:
+04:15]} Ne7 {[%emt 0:11:49]} 12. Nxe7 {[%emt 0:08:53]} Qxe7 {[%emt 0:00:06]}
+13. Qd5 {[%emt 0:00:10]} Bb7 {[%emt 0:00:37]} 14. Qd3 {[%emt 0:02:56]} f5 {
+[%emt 0:03:44]} 15. Bg2 {[%emt 0:00:23]} Rd8 {[%emt 0:02:59]} 16. O-O {[%emt 0:
+03:24]} fxe4 {[%emt 0:01:31]} 17. Bxe4 {[%emt 0:01:10]} d5 {[%emt 0:00:41]} 18.
+Bg2 {[%emt 0:02:29]} e4 {[%emt 0:00:20]} 19. Qb3 {[%emt 0:00:21]} O-O {[%emt 0:
+00:07]} 20. c3 {[%emt 0:01:36]} Qc5 {[%emt 0:03:03]} 21. Rad1 {[%emt 0:04:17]}
+Kh8 {[%emt 0:00:54]} 22. Nc2 {[%emt 0:01:50]} f5 {[%emt 0:01:24]} 23. Nd4 {
+[%emt 0:01:24]} Bc8 {[%emt 0:04:14]} 24. Ne2 {[%emt 0:07:48]} Be5 {[%emt 0:01:
+53]} 25. Kh1 {[%emt 0:07:56]} Be6 {[%emt 0:05:58]} 26. Nd4 {[%emt 0:01:18]}
+Bxd4 {[%emt 0:11:54]} 27. Rxd4 {[%emt 0:00:50]} Rd6 {[%emt 0:09:30]} 28. Qd1 {
+[%emt 0:03:48]} a5 {[%emt 0:01:57]} 29. Qd2 {[%emt 0:00:27]} Rb6 {[%emt 0:02:
+20]} 30. b4 {[%emt 0:13:51]} axb4 {[%emt 0:00:37]} 31. Rxb4 {[%emt 0:00:44]}
+Rc8 {[%emt 0:02:19]} 32. Rc1 {[%emt 0:02:48]} Rbc6 {[%emt 0:02:22]} 33. Bf1 {
+[%emt 0:00:24]} Rb6 {[%emt 0:08:32]} 34. Qf4 {[%emt 0:02:08]} Qd6 {[%emt 0:02:
+28]} 35. Qe3 {[%emt 0:08:57]} Qc5 {[%emt 0:05:16]} 36. Qf4 {[%emt 0:00:07]} Qc7
+{[%emt 0:00:18]} 37. Qe3 {[%emt 0:00:36]} Rc6 {[%emt 0:05:40]} 38. Qd4+ {[%emt
+0:01:30]} Qg7 {[%emt 0:00:11]} 39. Qxg7+ {[%emt 0:01:32]} Kxg7 40. Bxb5 {[%emt
+0:00:16]} Rxc3 {[%emt 0:00:04]} 41. Rxc3 {[%emt 0:00:21]} Rxc3 42. a4 {[%emt 0:
+00:06]} Ra3 {[%emt 0:00:04]} 43. Bc6 {[%emt 0:03:31]} Kf6 {[%emt 0:00:26]} 44.
+Kg2 {[%emt 0:00:35]} Ke5 {[%emt 0:00:05]} 45. Rb5 {[%emt 0:00:11]} f4 {[%emt 0:
+00:14]} 46. gxf4+ {[%emt 0:00:07]} Kxf4 {[%emt 0:00:01]} 47. Bxd5 {[%emt 0:01:
+20]} 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.02.25"]
+[Round "6.10"]
+[White "Mas Mestres, Jordi"]
+[Black "Moya Nunez, Pau Salvador"]
+[Result "0-1"]
+[ECO "B34"]
+[WhiteElo "1818"]
+[BlackElo "2154"]
+[PlyCount "58"]
+[EventDate "2023.01.21"]
+[WhiteTeam "Lira Vendrellenca"]
+[BlackTeam "Foment Martinenc"]
+
+1. e4 c5 2. Nf3 g6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Be3 Bg7 7. f3 O-O 8.
+Qd2 d5 9. Nxc6 bxc6 10. e5 Nd7 11. f4 e6 12. Na4 Nxe5 13. Bc5 Re8 14. O-O-O Nd7
+15. h4 Nxc5 16. Nxc5 e5 17. fxe5 Rxe5 18. Be2 Qf8 19. Nd3 Re4 20. Kb1 Bh6 21.
+Qc3 Rxe2 22. Qxc6 Be6 23. h5 g5 24. Rhe1 Rc8 25. Qa6 Rcxc2 26. Rf1 Bg7 27. h6
+Rxb2+ 28. Nxb2 Rxb2+ 29. Ka1 Rb6+ 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.03.25"]
+[Round "10.10"]
+[White "Mas Mestres, Jordi"]
+[Black "Chiva Perez, Ferran"]
+[Result "1/2-1/2"]
+[WhiteElo "1831"]
+[BlackElo "1985"]
+[PlyCount "63"]
+[EventDate "2023.??.??"]
+
+1. e4 e6 2. d3 d5 3. Nd2 Nf6 4. Ngf3 c5 5. g3 Be7 6. Bg2 O-O 7. O-O Nc6 8. e5
+Nd7 9. Re1 b5 10. h4 a5 11. a3 Bb7 12. Nf1 b4 13. N1h2 c4 14. d4 c3 15. bxc3
+bxc3 16. h5 h6 17. Ng4 Re8 18. Qd3 Ba6 19. Qxc3 Rc8 20. Qe3 Bf8 21. Qf4 f5 22.
+Ne3 Be7 23. Nxf5 exf5 24. Qxf5 Bf8 25. Qg6 Kh8 26. Bg5 Be7 27. Bxh6 gxh6 28.
+Qxh6+ Kg8 29. Qg6+ Kh8 30. Qh6+ Kg8 31. Qg6+ Kh8 32. Qh6+ 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "Barcelona"]
+[Date "2023.04.15"]
+[Round "11.10"]
+[White "Mas Mestres, Jordi"]
+[Black "Pinyol i Llora, Julia"]
+[Result "1-0"]
+[ECO "C00"]
+[WhiteElo "1818"]
+[BlackElo "1924"]
+[Annotator "Daniel"]
+[PlyCount "47"]
+[EventDate "2023.??.??"]
+[TimeControl "90+30"]
+[WhiteClock "0:13:28"]
+[BlackClock "0:45:19"]
+
+1. e4 {[%emt 0:00:02]} c5 {[%emt 0:00:10]} 2. Nf3 {[%emt 0:00:42]} e6 {[%emt 0:
+00:29]} 3. d3 {[%emt 0:02:06]} Nc6 {[%emt 0:03:05]} 4. g3 {[%emt 0:02:06]} Nf6
+{[%emt 0:01:38]} 5. Bg2 {[%emt 0:01:28]} d5 {[%emt 0:00:58]} 6. Nbd2 {[%emt 0:
+02:02]} Be7 {[%emt 0:01:33]} 7. O-O {[%emt 0:01:09]} O-O {[%emt 0:01:40]} 8. e5
+{[%emt 0:04:10]} Nd7 {[%emt 0:00:33]} 9. Re1 {[%emt 0:01:23]} b5 {[%emt 0:06:
+36]} 10. h4 {[%emt 0:01:53]} a5 {[%emt 0:04:28]} 11. a3 {[%emt 0:03:22]} Bb7 {
+[%emt 0:03:44]} 12. Nf1 {[%emt 0:03:52]} b4 {[%emt 0:04:45]} 13. N1h2 {[%emt 0:
+03:28]} bxa3 {[%emt 0:09:17]} 14. bxa3 {[%emt 0:00:38]} Nb6 {[%emt 0:04:13]}
+15. Bf4 {[%emt 0:04:26]} d4 {[%emt 0:03:29]} 16. Ng5 {[%emt 0:04:19]} Nd5 {
+[%emt 0:04:04]} 17. Qh5 {[%emt 0:05:22]} h6 {[%emt 0:03:18]} 18. Ng4 {[%emt 0:
+00:58]} hxg5 {[%emt 0:12:23]} 19. hxg5 {[%emt 0:01:55]} Qe8 {[%emt 0:10:52]}
+20. Be4 {[%emt 0:03:08]} g6 {[%emt 0:02:03]} 21. Qh4 {[%emt 0:00:32]} Bxg5 {
+[%emt 0:07:24]} 22. Bxg5 {[%emt 0:06:15]} Nce7 {[%emt 0:01:34]} 23. Nf6+ {
+[%emt 0:01:25]} Nxf6 {[%emt 0:00:30]} 24. Bxf6 {[%emt 0:00:16]} 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "Spain"]
+[Date "2025.02.08"]
+[Round "4.10"]
+[White "Mas Mestres, Jordi"]
+[Black "Olcina Monells, Jordi"]
+[Result "0-1"]
+[ECO "C54"]
+[WhiteElo "1859"]
+[BlackElo "1925"]
+[PlyCount "58"]
+[GameId "2151339904465735"]
+[EventDate "2025.??.??"]
+[TimeControl "90+30"]
+[WhiteClock "0:15:12"]
+[BlackClock "0:13:30"]
+
+1. e4 {[%emt 3:33:45]} e5 {[%emt 0:00:08]} 2. Nf3 {[%emt 0:00:41]} Nc6 {[%emt 0:00:08]} 3. Bc4 {[%emt 0:02:17]} Bc5 {[%emt 0:00:14]} 4. c3 {[%emt 0:02:00]} Nf6 {[%emt 0:00:23]} 5. d4 {[%emt 0:03:43]} exd4 {[%emt 0:00:07]} 6. b4 {[%emt 0:00:14]} Be7 {[%emt 0:12:08]} 7. e5 {[%emt 0:05:11]} Ne4 {[%emt 0:01:43]} 8. Bd5 {[%emt 0:03:25]} Nxc3 {[%emt 0:03:55]} 9. Nxc3 {[%emt 0:01:10]} Bxb4 {[%emt 0:10:57]} 10. O-O {[%emt 0:03:52]} Bxc3 {[%emt 0:04:51]} 11. Bxf7+ {[%emt 0:18:31]} Kxf7 {[%emt 0:03:06]} 12. Ng5+ {[%emt 0:04:19]} Ke8 {[%emt 0:00:17]} 13. f4 {[%emt 0:08:45]} d6 {[%emt 0:14:11]} 14. Qh5+ {[%emt 0:09:49]} g6 {[%emt 0:00:10]} 15. Qh6 {[%emt 0:00:26]} Qe7 {[%emt 0:12:22]} 16. Ba3 {[%emt 0:02:27]} Bxa1 {[%emt 0:03:25]} 17. Ne4 {[%emt 0:02:56]} Bc3 {[%emt 0:04:51]} 18. Nf6+ {[%emt 0:01:08]} Kd8 {[%emt 0:01:26]} 19. Nd5 {[%emt 0:02:25]} Qe6 {[%emt 0:09:22]} 20. Qg7 {[%emt 0:01:47]} Qxd5 {[%emt 0:00:19]} 21. Qxh8+ {[%emt 0:05:47]} Kd7 {[%emt 0:00:53]} 22. exd6 {[%emt 0:01:27]} cxd6 {[%emt 0:01:12]} 23. Qxh7+ {[%emt 0:00:43]} Ne7 {[%emt 0:00:15]} 24. Qh3+ {[%emt 0:01:00]} Nf5 {[%emt 0:00:54]} 25. Qh7+ {[%emt 0:01:43]} Kc6 {[%emt 0:00:16]} 26. Qxg6 {[%emt 0:00:15]} Be6 {[%emt 0:00:08]} 27. g4 {[%emt 0:01:16]} Rg8 {[%emt 0:01:03]} 28. Qh5 {[%emt 0:02:44]} Bf7 {[%emt 0:00:42]} 29. Qh3 {[%emt 0:01:17]} Ne3 {[%emt 0:01:47]} 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.04.11"]
+[Round "11.10"]
+[White "Mas Mestres, Jordi"]
+[Black "Pascual Sauch, Angel"]
+[Result "1/2-1/2"]
+[ECO "A04"]
+[WhiteElo "1907"]
+[BlackElo "2162"]
+[PlyCount "98"]
+[EventDate "2026.??.??"]
+
+1. e4 c5 2. Nf3 Nc6 3. d3 g6 4. g3 Bg7 5. Bg2 d6 6. O-O Rb8 7. Re1 e6 8. Nbd2
+Nge7 9. Nf1 O-O 10. h4 h6 11. N1h2 e5 12. Kh1 Be6 13. Rg1 Qd7 14. Be3 Kh7 15.
+Qd2 Bh3 16. Bxh3 Qxh3 17. g4 Nd4 18. Bxd4 exd4 19. Rg3 Qxg3 20. fxg3 Nc6 21.
+Rf1 Rbe8 22. Kg2 a5 23. g5 h5 24. g4 b6 25. gxh5 gxh5 26. Qf4 Re6 27. Qf5+ Kg8
+28. Ne1 Ne5 29. Nef3 Ng6 30. Rf2 Rd8 31. Nf1 Re5 32. Nxe5 Nxh4+ 33. Kh3 Nxf5
+34. Nxf7 Kxf7 35. Rxf5+ Kg6 36. Kh4 Be5 37. Nd2 b5 38. Nf3 Bg7 39. Kg3 Rd7 40.
+Kh4 a4 41. b3 axb3 42. axb3 Ra7 43. Rd5 Ra6 44. Kg3 Bf8 45. Nh4+ Kg7 46. Kf4
+Ra1 47. Nf5+ Kg6 48. Nh4+ Kg7 49. Nf5+ Kg6 1/2-1/2

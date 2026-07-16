@@ -1,0 +1,140 @@
+[Event "Sant Marti op B"]
+[Site "?"]
+[Date "2012.07.15"]
+[Round "3"]
+[White "Beaskoa Estany, G."]
+[Black "Dayan Sutton, I."]
+[Result "0-1"]
+[ECO "C45"]
+[WhiteElo "1809"]
+[BlackElo "1891"]
+[PlyCount "102"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5 5. Nxc6 Qf6 6. Qf3 dxc6 7. Qxf6 Nxf6
+8. f3 Be6 9. Nc3 h6 10. Bd2 O-O-O 11. a3 Bf2+ 12. Ke2 Bd4 13. Be3 Bxc3 14. bxc3
+Bc4+ 15. Kf2 Bxf1 16. Rhxf1 Rd7 17. Rfd1 Rhd8 18. Rxd7 Rxd7 19. Ke2 Ne8 20. Bd4
+b6 21. a4 c5 22. Be5 Kb7 23. h4 Kc6 24. g4 Re7 25. Bg3 Rd7 26. g5 h5 27. Be5
+Kb7 28. Ke3 Ka6 29. Bg3 Ka5 30. e5 g6 31. Be1 c4 32. Ke4 Ng7 33. f4 c6 34. Kf3
+Rd5 35. Ke4 Ka6 36. Ke3 Kb7 37. Ke4 Kc7 38. Rb1 Nf5 39. Rb4 Rd1 40. Bf2 Rf1 41.
+Kf3 Nxh4+ 42. Ke2 Rh1 43. Rxc4 Nf5 44. Re4 Kd7 45. a5 Ra1 46. axb6 axb6 47.
+Bxb6 Ng3+ 48. Kf3 Nxe4 49. Kxe4 Rf1 50. Ke3 h4 51. Ke2 Rxf4 0-1
+
+[Event "Sant Marti op B"]
+[Site "?"]
+[Date "2012.07.16"]
+[Round "4"]
+[White "Dayan Sutton, I."]
+[Black "Calderon Alzate, IA."]
+[Result "1-0"]
+[ECO "B90"]
+[WhiteElo "1891"]
+[BlackElo "1764"]
+[PlyCount "29"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nb3 Be7 8. f3
+Be6 9. Qd2 Nbd7 10. O-O-O b5 11. g4 Nb6 12. Kb1 Rc8 13. g5 b4 14. gxf6 gxf6 15.
+Nd5 1-0
+
+[Event "Sant Marti op B"]
+[Site "?"]
+[Date "2012.07.17"]
+[Round "5"]
+[White "Gonzalez Martin, F."]
+[Black "Dayan Sutton, I."]
+[Result "1/2-1/2"]
+[ECO "E67"]
+[WhiteElo "1925"]
+[BlackElo "1891"]
+[PlyCount "38"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. g3 d6 5. Bg2 O-O 6. O-O c6 7. Nc3 Nbd7 8. b3
+e5 9. Bb2 a5 10. Qd2 exd4 11. Nxd4 Nc5 12. Rac1 a4 13. Rfd1 axb3 14. axb3 Qb6
+15. Qc2 Ng4 16. Na4 Nxa4 17. bxa4 c5 18. Nb5 Bxb2 19. Qxb2 Rxa4 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "?"]
+[Date "2012.07.18"]
+[Round "6"]
+[White "Dayan Sutton, I."]
+[Black "Vargas Ramirez, AM."]
+[Result "1-0"]
+[ECO "B40"]
+[WhiteElo "1891"]
+[BlackElo "1831"]
+[PlyCount "61"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 e6 3. d3 d5 4. Qe2 dxe4 5. dxe4 Nc6 6. g3 e5 7. Bg2 Bg4 8. c3
+Nf6 9. h3 Be6 10. O-O h6 11. Rd1 Qc7 12. Nh2 Be7 13. Na3 O-O 14. b3 Rad8 15.
+Bb2 Qc8 16. h4 a6 17. Nc4 b5 18. Nb6 Qb8 19. Nd5 Rd7 20. Nf1 Ng4 21. Rd2 Kh8
+22. Rad1 Rfd8 23. Bh3 Nxf2 24. Bxe6 Nxd1 25. Bxd7 Nxc3 26. Nxc3 Nd4 27. Qg4 Qc7
+28. Bf5 g6 29. Bxg6 Rg8 30. Nd5 Rxg6 31. Qxg6 1-0
+
+[Event "Sant Marti op B"]
+[Site "?"]
+[Date "2012.07.19"]
+[Round "7"]
+[White "Gisbert Mir, A."]
+[Black "Dayan Sutton, I."]
+[Result "0-1"]
+[ECO "E87"]
+[WhiteElo "1788"]
+[BlackElo "1891"]
+[PlyCount "44"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 e5 7. d5 a5 8. Qd2 Na6
+9. Bd3 b6 10. Nge2 Nc5 11. Bc2 Bd7 12. O-O Ne8 13. Rad1 f5 14. exf5 gxf5 15.
+Bg5 Nf6 16. Ng3 f4 17. Nge4 Nfxe4 18. Bxd8 Nxd2 19. Bxc7 Nxc4 20. b3 Ne3 21.
+Be4 Nxf1 22. Kxf1 Rfc8 0-1
+
+[Event "Sant Marti op B"]
+[Site "?"]
+[Date "2012.07.20"]
+[Round "8"]
+[White "Dayan Sutton, I."]
+[Black "Perez Garcia, JM."]
+[Result "1/2-1/2"]
+[ECO "A08"]
+[WhiteElo "1891"]
+[BlackElo "1967"]
+[PlyCount "32"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 e6 3. d3 d5 4. Nbd2 Nc6 5. g3 Nf6 6. Bg2 Be7 7. O-O O-O 8. Re1
+Qc7 9. Nf1 b5 10. h4 Bb7 11. N1h2 Rfd8 12. e5 Nd7 13. Bf4 Nd4 14. Ng5 h6 15.
+Ngf3 Bf8 16. g4 f6 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "?"]
+[Date "2012.07.21"]
+[Round "9"]
+[White "Pariente Lopez, E."]
+[Black "Dayan Sutton, I."]
+[Result "1/2-1/2"]
+[ECO "B07"]
+[WhiteElo "1954"]
+[BlackElo "1891"]
+[PlyCount "29"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Be2 Bg7 5. Be3 Nbd7 6. Qd2 c5 7. dxc5 Nxc5 8.
+Bxc5 dxc5 9. Qxd8+ Kxd8 10. O-O-O+ Nd7 11. Nf3 Bxc3 12. bxc3 Kc7 13. Ng5 h6 14.
+Nxf7 Rf8 15. Bc4 1/2-1/2

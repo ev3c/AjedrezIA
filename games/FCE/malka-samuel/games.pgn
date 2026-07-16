@@ -1,0 +1,158 @@
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.01.28"]
+[Round "2.4"]
+[White "Malka, Samuel"]
+[Black "Kozlov, Gennady"]
+[Result "0-1"]
+[ECO "A11"]
+[WhiteElo "2265"]
+[BlackElo "2380"]
+[PlyCount "102"]
+[EventDate "2023.??.??"]
+
+1. Nf3 Nf6 2. c4 c6 3. g3 d5 4. Bg2 Bf5 5. O-O e6 6. Qb3 Qb6 7. d3 Nbd7 8. Be3
+Bc5 9. Bxc5 Nxc5 10. Qc3 O-O 11. b4 Na6 12. Nbd2 Qxb4 13. Qxb4 Nxb4 14. Rab1
+Nxa2 15. Rxb7 Nc3 16. Nd4 dxc4 17. Nxf5 Nxe2+ 18. Kh1 exf5 19. Nxc4 Nd4 20. Ne5
+Rfb8 21. Rfb1 Rxb7 22. Rxb7 Re8 23. f4 Ng4 24. Bxc6 Nxc6 25. Nxc6 g6 26. Rxa7
+Re2 27. d4 Rxh2+ 28. Kg1 Rd2 29. Rd7 Nf6 30. Rd8+ Kg7 31. Ne5 Ng4 32. Rd7 Nxe5
+33. fxe5 Kf8 34. Kf1 Ke8 35. Rd6 Ke7 36. Kg1 f6 37. Rxf6 Rxd4 38. Ra6 Rd5 39.
+Ra7+ Rd7 40. Ra6 Kf8 41. Kf2 Re7 42. Ra5 Kf7 43. Ke3 g5 44. g4 fxg4 45. Ke4 Kg6
+46. Ra6+ Kh5 47. e6 g3 48. Kf5 g2 49. Ra3 Kh4 50. Ra4+ Kh3 51. Ra3+ Kh2 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.02.04"]
+[Round "3.5"]
+[White "MALKA , SAMUEL"]
+[Black "PI PARES, ALBERT"]
+[Result "0-1"]
+[WhiteElo "2265"]
+[BlackElo "2368"]
+[WhiteTeam "MLL"]
+[BlackTeam "FIG"]
+
+1. d4 d5 2. c4 e6 3. Nf3 Nf6
+4. g3 h6 5. Bg2 
+Bd6 6. O-O O-O 7.
+Nc3 Nc6 8. c5 Be7 
+9. a3 Ne4 10. Qc2 f5
+11. b4 Bf6 12. e3 
+Bd7 13. Ne2 g5 14.
+Bb2 Bg7 15. Ne1 Ne7 
+16. a4 Be8 17. Nd3 
+Bg6 18. f3 Nf6 19. Ne5 
+Bh7 20. Qb3 Ng6 21.
+c6 b6 22. a5 b5 
+23. a6 Ne8 24. Nd7 
+Nd6 25. Nxf8 Bxf8 26. e4
+Nc4 27. exf5 exf5 
+28. f4 Ne7 29. Nc3 
+Bg6 30. Rae1 Nd2 31. Qa2
+Nxf1 32. Rxf1 Bf7 
+33. fxg5 hxg5 34. Bc1 
+Bg7 35. Kh1 Bxd4 36.
+Bxg5 Bxc3 37. Qe2 Bxb4 
+38. Rxf5 Qf8 39. Bf6 
+Nxf5 40. Qg4+ Ng7 41. h4
+Be7 42. Bd4 Be6 
+43. Qe2 Bf6 44. Bf2 
+b4 45. h5 Re8 46. Bxa7 
+b3 47. h6 b2 48. Qc2
+Nf5 49. h7+ Kh8 
+50. g4 Ng3+ 51. Kh2 
+Ne2 52. Qg6 Nf4 53. Qc2 
+Qh6+ 54. Kg1 Qxh7 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "Sabadell, Spain"]
+[Date "2023.02.18"]
+[Round "5.4"]
+[White "Malka, Samuel"]
+[Black "Fernandez Aguado, Enrique"]
+[Result "1-0"]
+[TimeControl "90'+30''"]
+[WhiteTitle "FM"]
+[BlackTitle "IM"]
+[WhiteElo "2236"]
+[BlackElo "2276"]
+
+1. d4 {[%clk 01:30:53]} {[%emt 00:00:07]} Nf6 {[%clk 01:29:59]} {[%emt
+00:01:01]} 2. c4 {[%clk 01:31:15]} {[%emt 00:00:08]} e6 {[%clk 01:29:44]}
+{[%emt 00:00:44]} 3. Nf3 {[%clk 01:31:43]} {[%emt 00:00:03]} b6 {[%clk
+01:29:51]} {[%emt 00:00:22]} 4. g3 {[%clk 01:32:11]} {[%emt 00:00:04]} Ba6
+{[%clk 01:29:24]} {[%emt 00:00:56]} 5. b3 {[%clk 01:31:18]} {[%emt 00:01:24]}
+Bb4+ {[%clk 01:29:35]} {[%emt 00:00:17]} 6. Bd2 {[%clk 01:31:11]} {[%emt
+00:00:38]} Be7 {[%clk 01:29:56]} {[%emt 00:00:08]} 7. Nc3 {[%clk 01:28:16]}
+{[%emt 00:03:26]} d5 {[%clk 01:28:47]} {[%emt 00:01:39]} 8. cxd5 {[%clk
+01:27:52]} {[%emt 00:00:55]} exd5 {[%clk 01:27:39]} {[%emt 00:01:37]} 9. Bg2
+{[%clk 01:27:56]} {[%emt 00:00:26]} O-O {[%clk 01:27:10]} {[%emt 00:00:59]} 10.
+O-O {[%clk 01:22:06]} {[%emt 00:06:19]} Re8 {[%clk 01:27:20]} {[%emt 00:00:20]}
+11. Re1 {[%clk 01:14:20]} {[%emt 00:08:17]} h6 {[%clk 01:21:17]} {[%emt
+00:06:34]} 12. Qc2 {[%clk 01:09:47]} {[%emt 00:05:02]} Bb7 {[%clk 01:16:09]}
+{[%emt 00:05:37]} 13. Bf4 {[%clk 01:03:11]} {[%emt 00:07:08]} Na6 {[%clk
+01:16:18]} {[%emt 00:00:19]} 14. a3 {[%clk 01:00:39]} {[%emt 00:03:02]} c5
+{[%clk 01:09:23]} {[%emt 00:07:26]} 15. Red1 {[%clk 00:45:39]} {[%emt
+00:15:30]} Qc8 {[%clk 01:03:53]} {[%emt 00:06:00]} 16. Rac1 {[%clk 00:36:40]}
+{[%emt 00:09:27]} Bf8 {[%clk 00:56:38]} {[%emt 00:07:48]} 17. dxc5 {[%clk
+00:30:55]} {[%emt 00:06:15]} Nxc5 {[%clk 00:48:24]} {[%emt 00:08:42]} 18. Nb5
+{[%clk 00:29:20]} {[%emt 00:02:05]} g5 {[%clk 00:25:29]} {[%emt 00:23:26]} 19.
+Nd6 {[%clk 00:24:40]} {[%emt 00:05:11]} Bxd6 {[%clk 00:24:00]} {[%emt
+00:01:58]} 20. Bxd6 {[%clk 00:25:07]} {[%emt 00:00:03]} Nfe4 {[%clk 00:23:51]}
+{[%emt 00:00:38]} 21. b4 {[%clk 00:20:54]} {[%emt 00:04:43]} Ne6 {[%clk
+00:19:22]} {[%emt 00:04:59]} 22. Be5 {[%clk 00:19:16]} {[%emt 00:02:09]} g4
+{[%clk 00:14:45]} {[%emt 00:05:07]} 23. Nh4 {[%clk 00:18:33]} {[%emt 00:01:13]}
+N6g5 {[%clk 00:13:45]} {[%emt 00:01:30]} 24. Ba1 {[%clk 00:11:44]} {[%emt
+00:07:18]} Qe6 {[%clk 00:11:05]} {[%emt 00:03:10]} 25. Qb2 {[%clk 00:11:18]}
+{[%emt 00:00:57]} f6 {[%clk 00:10:02]} {[%emt 00:01:32]} 26. Rc7 {[%clk
+00:09:51]} {[%emt 00:01:58]} Ba6 {[%clk 00:06:04]} {[%emt 00:04:27]} 27. b5
+{[%clk 00:08:40]} {[%emt 00:01:41]} Bc8 {[%clk 00:05:20]} {[%emt 00:01:14]} 28.
+Ng6 {[%clk 00:07:42]} {[%emt 00:01:29]} Nxf2 {[%clk 00:03:54]} {[%emt
+00:01:56]} 29. Kxf2 {[%clk 00:04:42]} {[%emt 00:03:30]} Qe3+ {[%clk 00:04:10]}
+{[%emt 00:00:14]} 30. Kf1 {[%clk 00:04:22]} {[%emt 00:00:50]} Nf3 {[%clk
+00:04:19]} {[%emt 00:00:20]} 31. Rg7+ {[%clk 00:04:23]} {[%emt 00:00:29]} 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.02.25"]
+[Round "6.5"]
+[White "MALKA, SAMUEL."]
+[Black "MOLINA CARRETERO, DANIEL."]
+[Result "0-1"]
+[WhiteElo "2265"]
+[BlackElo "2350"]
+[PlyCount "64"]
+[EventDate "2023.??.??"]
+[WhiteTeam "MLL"]
+[BlackTeam "MOL"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6 5. b3 Bb4+ 6. Bd2 Be7 7. Nc3 d5 8. cxd5
+exd5 9. Bg2 O-O 10. O-O c6 11. Qc2 Nbd7 12. Rfe1 Rc8 13. Rad1 Bd6 14. Bf4 Qc7
+15. Bxd6 Qxd6 16. e4 dxe4 17. Nxe4 Nxe4 18. Qxe4 Rcd8 19. Bh3 Nf6 20. Qc2 Rfe8
+21. Rc1 Rxe1+ 22. Rxe1 h6 23. Bg2 Nd5 24. Ne5 Nb4 25. Qf5 f6 26. Nc4 Qd7 27.
+Qg6 Qf7 28. Qg4 Nc2 29. Re4 Qd7 30. Qh5 Nxd4 31. Bh3 Qf7 32. Qh4 Nf3+ 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "Sant Andreu-Mollet"]
+[Date "2023.03.04"]
+[Round "7.5"]
+[White "Roca Planas, Edgar, (Sant Andreu)"]
+[Black "Malka, Samuel, (Mollet)"]
+[Result "1/2-1/2"]
+[ECO "C91"]
+[WhiteElo "2377"]
+[BlackElo "2265"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "78"]
+[EventDate "2023.03.04"]
+[EventType "team-tourn"]
+[EventRounds "7"]
+[EventCountry "CAT"]
+[EventCategory "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3
+O-O 9. d4 Bg4 10. d5 Nb8 11. h3 Bc8 12. a4 Bb7 13. Bg5 Nfd7 14. Be3 c5 15. dxc6
+Nxc6 16. axb5 axb5 17. Rxa8 Qxa8 18. Na3 Na5 19. Bc2 Nc4 20. Nxc4 bxc4 21. Qa1
+f5 22. Qxa8 Rxa8 23. exf5 Bxf3 24. gxf3 Rb8 25. Bc1 Kf8 26. Kg2 h6 27. Be4 Nc5
+28. Re2 Bg5 29. f4 Bxf4 30. Bxf4 exf4 31. Kf3 Na4 32. Bd5 Rxb2 33. Re6 Nxc3 34.
+Bxc4 d5 35. Bd3 Nd1 36. Be2 Nc3 37. Bd3 Nd1 38. Be2 Nc3 39. Bd3 Nd1 1/2-1/2

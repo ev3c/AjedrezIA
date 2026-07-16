@@ -1,0 +1,318 @@
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "1"]
+[White "Wood, Gabriel"]
+[Black "Najdorf, Miguel"]
+[Result "0-1"]
+[ECO "D45"]
+[PlyCount "64"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. e3 a6 6. c5 b6 7. cxb6 Nbd7 8. Na4
+Nxb6 9. Bd2 Nbd7 10. Rc1 Bb7 11. Bd3 Bd6 12. O-O Qe7 13. Qc2 O-O 14. Bc3 a5 15.
+Ne5 h6 16. f4 c5 17. Qe2 c4 18. Bb1 Bb4 19. Be1 Bxe1 20. Rcxe1 Rab8 21. Qc2 Ne4
+22. Nc3 Nxe5 23. fxe5 f5 24. exf6 Nxf6 25. Qg6 Bc6 26. Re2 e5 27. dxe5 Qxe5 28.
+Rf5 Qe7 29. e4 dxe4 30. h3 Qd6 31. Rxa5 Bd7 32. Kh1 Ng4 0-1
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "2"]
+[White "Medina Garcia, Antonio"]
+[Black "Wood, Gabriel"]
+[Result "1-0"]
+[ECO "C82"]
+[PlyCount "81"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Nxe4 6. d4 b5 7. Bb3 d5 8. dxe5
+Be6 9. c3 Bc5 10. Nbd2 O-O 11. Bc2 f5 12. Nb3 Bb6 13. Nfd4 Nxd4 14. Nxd4 Qd7
+15. f3 Nc5 16. Kh1 a5 17. b4 axb4 18. cxb4 Na4 19. Bb3 c6 20. Be3 f4 21. Bf2
+Bc7 22. Re1 Nb2 23. Qe2 Nc4 24. Rac1 Ra6 25. g3 Bd8 26. a4 Be7 27. axb5 cxb5
+28. Ra1 Rfa8 29. Rxa6 Rxa6 30. gxf4 g6 31. Rg1 Kh8 32. Be1 Bf8 33. Qf2 Be7 34.
+Bc3 Qa7 35. Qg3 Qd7 36. Bc2 Bf8 37. f5 gxf5 38. Bxf5 Qf7 39. Nxe6 Rxe6 40. Qh3
+Rxe5 41. Be6 1-0
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "3"]
+[White "Wood, Gabriel"]
+[Black "Llorens Llorens, Rafael"]
+[Result "0-1"]
+[ECO "D45"]
+[PlyCount "116"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. e3 Nbd7 6. Qc2 Bd6 7. b3 Qe7 8. Be2
+O-O 9. O-O dxc4 10. bxc4 e5 11. Re1 Re8 12. Bb2 e4 13. Nd2 Nf8 14. Nf1 Bf5 15.
+f4 exf3 16. Qxf5 fxe2 17. Rxe2 Qe6 18. Qxe6 Nxe6 19. Rd1 Rad8 20. g3 Ng5 21.
+Kg2 Nfe4 22. Nxe4 Nxe4 23. Nd2 f5 24. Nxe4 Rxe4 25. Kf3 Be7 26. Rd3 Kf7 27. Rb3
+Rd7 28. Rc2 g5 29. Bc1 Bd6 30. Rcb2 b6 31. Rc2 c5 32. d5 h5 33. a4 h4 34. a5
+Bc7 35. Ba3 hxg3 36. hxg3 Rg4 37. axb6 Rxg3+ 38. Kf2 axb6 39. Rxb6 Rh3 40. Rbb2
+Bd6 41. Re2 Ra7 42. Rb3 Ra4 43. Rb7+ Ke8 44. Bb2 Rxc4 45. Ke1 Re4 46. Bc1 f4
+47. Ra2 Rh1+ 48. Ke2 Rh2+ 49. Kf3 Rxe3+ 50. Bxe3 Rxa2 51. Bc1 Rc2 52. Bb2 Rd2
+53. Ke4 Re2+ 54. Kf3 Re3+ 55. Kf2 Rd3 56. Bf6 g4 57. Rg7 g3+ 58. Ke2 c4 0-1
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "4"]
+[White "Wade, Robert G"]
+[Black "Wood, Gabriel"]
+[Result "0-1"]
+[ECO "C30"]
+[PlyCount "80"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. e4 e5 2. Bc4 Nf6 3. d3 Bc5 4. Nc3 d6 5. f4 Nc6 6. Nf3 Bg4 7. Na4 Bxf3 8.
+Qxf3 Nd4 9. Qg3 Nxc2+ 10. Kd1 Nxa1 11. Nxc5 dxc5 12. Qxg7 Qd7 13. Qxh8+ Ke7 14.
+Qg7 Rf8 15. Be3 b6 16. f5 Qa4+ 17. b3 Qxa2 18. Bg5 Qb1+ 19. Ke2 Qxh1 20. Qxf6+
+Kd7 21. Qe7+ Kc6 22. Bd5+ Kb5 23. Qd7+ Kb4 24. Qa4+ Kc3 25. Be3 Qxg2+ 26. Bf2
+Qg4+ 27. Kf1 Qh3+ 28. Kg1 Rg8+ 29. Bg3 Rxg3+ 30. hxg3 Qxg3+ 31. Kh1 Qh3+ 32.
+Kg1 Qg3+ 33. Kh1 Qh3+ 34. Kg1 Nc2 35. Bxf7 Qg3+ 36. Kh1 Qh3+ 37. Kg1 Qe3+ 38.
+Kh2 Qh6+ 39. Kg3 Qg7+ 40. Kh4 Qxf7 0-1
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "5"]
+[White "Wood, Gabriel"]
+[Black "Cherta Clos, Pere"]
+[Result "1/2-1/2"]
+[ECO "B74"]
+[PlyCount "44"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be2 Bg7 7. Be3 O-O 8.
+O-O Nc6 9. Nb3 a5 10. a4 Be6 11. Nd4 Qc8 12. Nxe6 Qxe6 13. f3 d5 14. Nxd5 Nxd5
+15. Qxd5 Qxd5 16. exd5 Nb4 17. Rad1 Nxc2 18. Bc5 Bf6 19. Rd2 Rfc8 20. Rxc2 Rxc5
+21. Rxc5 Bd4+ 22. Kh1 Bxc5 1/2-1/2
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "6"]
+[White "O' Kelly de Galway, Alberic"]
+[Black "Wood, Gabriel"]
+[Result "1-0"]
+[ECO "E49"]
+[PlyCount "55"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. f3 d5 5. a3 Bxc3+ 6. bxc3 c5 7. cxd5 exd5 8.
+e3 O-O 9. Bd3 b6 10. Ne2 Ba6 11. Bxa6 Nxa6 12. O-O Re8 13. Ng3 Qd7 14. Qd3 Nb8
+15. e4 c4 16. Qc2 Re6 17. e5 Ne8 18. f4 b5 19. a4 a5 20. axb5 Qxb5 21. Rb1 Qd7
+22. f5 Rea6 23. Ba3 a4 24. e6 Qc7 25. Rb5 Ra5 26. Rxa5 Rxa5 27. f6 g6 28. Qc1
+1-0
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "7"]
+[White "Wood, Gabriel"]
+[Black "Golmayo de la Torriente, Manuel"]
+[Result "1/2-1/2"]
+[ECO "D52"]
+[PlyCount "98"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. Bg5 Nbd7 5. e3 c6 6. Nf3 h6 7. Bh4 Be7 8. Rc1
+Ne4 9. Bxe7 Qxe7 10. Qc2 f5 11. Bd3 O-O 12. O-O g5 13. Nd2 Ndf6 14. f3 Nxd2 15.
+Qxd2 Bd7 16. e4 dxe4 17. fxe4 Qd6 18. Bb1 fxe4 19. Rxf6 Rxf6 20. Nxe4 Qf8 21.
+Nxf6+ Qxf6 22. Rf1 Qg7 23. c5 Be8 24. Re1 Bf7 25. Re5 Rd8 26. Qe3 Qf6 27. g3
+Kf8 28. Bc2 Ke7 29. b4 Rd5 30. Bb3 Rxe5 31. dxe5 Qh8 32. Qd4 Qd8 33. Qd6+ Qxd6
+34. exd6+ Kf6 35. Kf2 Be8 36. Ke3 Ke5 37. Bc2 b5 38. Bb3 Kf6 39. Bc2 Bd7 40.
+Bh7 Kg7 41. Bc2 Kf6 42. Bd1 Be8 43. Kd4 Bd7 44. Ke4 Be8 45. Be2 Bg6+ 46. Kd4
+Be8 47. Bf3 Bd7 48. Be4 e5+ 49. Ke3 g4 1/2-1/2
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "8"]
+[White "Guimard, Carlos E"]
+[Black "Wood, Gabriel"]
+[Result "1/2-1/2"]
+[ECO "D39"]
+[PlyCount "72"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Bg5 Bb4+ 5. Nc3 dxc4 6. Qa4+ Nc6 7. e4 h6 8.
+Bxf6 Qxf6 9. Bxc4 O-O 10. O-O Bxc3 11. bxc3 e5 12. Rab1 Bg4 13. Nxe5 Nxe5 14.
+dxe5 Qxe5 15. Rxb7 Qg5 16. Qb5 Qg6 17. f3 Bh3 18. Qb2 c6 19. Rd1 Qg5 20. f4
+Qc5+ 21. Rd4 Bc8 22. Rc7 Be6 23. Qb4 Qxb4 24. cxb4 Bxc4 25. Rxc4 Rfd8 26. a4 a5
+27. bxa5 Rxa5 28. R7xc6 Rd2 29. R6c5 Rxc5 30. Rxc5 Rd4 31. a5 Rxe4 32. a6 Ra4
+33. Rc6 Kh7 34. f5 Ra2 35. g4 f6 36. h3 h5 1/2-1/2
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "9"]
+[White "Wood, Gabriel"]
+[Black "Vilardebo Picurena, Josep"]
+[Result "1-0"]
+[ECO "D35"]
+[PlyCount "178"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. d4 d5 2. Nf3 e6 3. c4 Nf6 4. Bg5 Nbd7 5. cxd5 exd5 6. Nc3 c6 7. e3 Bd6 8.
+Bd3 O-O 9. Qc2 h6 10. Bh4 Re8 11. O-O Qc7 12. Bg3 Bxg3 13. hxg3 Qd6 14. Rfb1
+Nf8 15. b4 a6 16. a4 Bd7 17. a5 Rad8 18. Na4 Bc8 19. Nc5 Re7 20. Ne5 Ng4 21.
+Nxg4 Bxg4 22. Bf5 Bxf5 23. Qxf5 Nh7 24. Rb2 Rde8 25. Rc1 Ng5 26. Qf4 Qg6 27.
+Rbc2 Ne4 28. Rb2 Nf6 29. Qh4 Ng4 30. Re1 h5 31. Rd2 f6 32. Nd3 Qf7 33. Ree2 g5
+34. Qh1 Qg6 35. Kf1 Rh7 36. Re1 h4 37. Qh3 Qe4 38. Nc5 Qf5 39. f3 Nh6 40. g4
+Qc8 41. e4 Rhe7 42. Qh2 Nf7 43. g3 hxg3 44. Qxg3 Kg7 45. Rh2 Qd8 46. Rd1 Qd6
+47. Qf2 Nh8 48. Kg2 Ng6 49. Rdh1 Rh8 50. Rxh8 Nxh8 51. Qe3 Nf7 52. Qd2 Qf4 53.
+Qxf4 gxf4 54. Re1 Kg6 55. Nd3 Kg5 56. e5 f5 57. gxf5 Kxf5 58. Rh1 Ng5 59. Nc5
+Ne6 60. Nxe6 Kxe6 61. Rh6+ Kf5 62. Rf6+ Kg5 63. Rf8 Rh7 64. Rg8+ Kf5 65. Rf8+
+Kg5 66. Rf6 Re7 67. Rd6 Kf5 68. Rf6+ Kg5 69. Rd6 Kf5 70. Rd8 Kg5 71. Rh8 Rf7
+72. Kh3 Rg7 73. Rh4 Kf5 74. Rg4 Rh7+ 75. Rh4 Rg7 76. Rh5+ Ke6 77. Rh6+ Ke7 78.
+Kh2 Rf7 79. Kh1 Kf8 80. Rg6 Rf5 81. Kg2 Kf7 82. Rg4 Ke6 83. Rg6+ Kf7 84. Rg4
+Ke6 85. Kh3 Rh5+ 86. Rh4 Rg5 87. Rg4 Rh5+ 88. Kg2 Kf5 89. Rg7 Rh6 1-0
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "10"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Wood, Gabriel"]
+[Result "0-1"]
+[ECO "E94"]
+[PlyCount "98"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 Nbd7 6. Be2 O-O 7. O-O e5 8. d5
+Nc5 9. Qc2 a5 10. Be3 Ng4 11. Bxc5 dxc5 12. h3 Nh6 13. Rad1 Ra6 14. Rd2 f5 15.
+Rfd1 Nf7 16. Ne1 Rf6 17. Nd3 Bh6 18. f4 Bxf4 19. Nxf4 exf4 20. Rf1 g5 21. Bd3
+Ne5 22. Re2 f3 23. gxf3 f4 24. Rh2 Rh6 25. Kg2 g4 26. fxg4 Qh4 27. Kh1 Qg3 28.
+Be2 Rxh3 29. Bd1 f3 30. Rg1 Rxh2+ 31. Qxh2 Qxh2+ 32. Kxh2 Bxg4 33. Kg3 h5 34.
+b3 Kg7 35. Rf1 Kg6 36. Nb5 Rf7 37. Kf2 Kg5 38. Ke3 h4 39. Nc3 h3 40. Nb1 Kh4
+41. Nd2 h2 42. Kf2 Bh3 43. Rh1 Ng4+ 44. Ke1 f2+ 45. Ke2 f1=Q+ 46. Nxf1 Rxf1 47.
+e5 Rxh1 48. d6 Rxd1 49. dxc7 h1=Q 0-1
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "11"]
+[White "Wood, Gabriel"]
+[Black "Yanofsky, Daniel A"]
+[Result "0-1"]
+[ECO "D17"]
+[PlyCount "80"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. Ne5 e6 7. f3 Bb4 8. Bg5
+c5 9. e4 cxd4 10. Bxc4 O-O 11. O-O dxc3 12. Qxd8 Rxd8 13. exf5 cxb2 14. Rad1
+Rxd1 15. Rxd1 Nc6 16. Nd3 Rd8 17. Nxb2 Rxd1+ 18. Nxd1 Nd5 19. fxe6 fxe6 20. Kf2
+Kf7 21. Ke2 Nb6 22. Bb5 Ne7 23. Nb2 Ned5 24. Bd2 a6 25. Bd3 Bc3 26. Nc4 Bxd2
+27. Kxd2 Nxc4+ 28. Bxc4 Ke7 29. g3 Kd6 30. Bd3 h6 31. Bg6 Kc5 32. Bf7 Nb6 33.
+Bxe6 Nxa4 34. f4 b5 35. g4 Kd6 36. Ba2 Nc5 37. h4 a5 38. g5 b4 39. Bc4 a4 40.
+Kc2 Ne6 0-1
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "12"]
+[White "Wood, Gabriel"]
+[Black "Albareda Creus, Miguel"]
+[Result "1-0"]
+[ECO "C14"]
+[PlyCount "129"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Be7 5. e5 Nfd7 6. Bxe7 Qxe7 7. Qd2 a6 8. f4
+c5 9. Nf3 Nc6 10. g3 cxd4 11. Nxd4 Nxd4 12. Qxd4 Qc5 13. Rd1 Qxd4 14. Rxd4 b6
+15. Bg2 Bb7 16. Kd2 Ke7 17. Re1 Rhd8 18. f5 Nc5 19. g4 Rac8 20. Re3 Nd7 21. Ne2
+Nb8 22. g5 exf5 23. Nf4 Rc4 24. c3 Rxd4+ 25. cxd4 h6 26. gxh6 g5 27. Nh5 Rh8
+28. Ng7 Bc8 29. e6 f4 30. Re1 fxe6 31. Bxd5 Kf6 32. Bxe6 Bb7 33. Nf5 Nc6 34.
+Bd7 Nd8 35. Re8 Nf7 36. Rxh8 Nxh8 37. Nd6 Bd5 38. Bf5 Bxa2 39. Bd3 Bd5 40. Ne8+
+Ke7 41. Nc7 Bf3 42. Nxa6 Nf7 43. h7 Kf6 44. Nb8 Kg7 45. Nd7 b5 46. Ne5 Nxe5 47.
+dxe5 Bg4 48. Ke1 Be6 49. Kf2 g4 50. Be4 b4 51. Ke2 Kh8 52. Kd3 Kg7 53. Kd4 f3
+54. Ke3 Kh8 55. Bd3 Kg7 56. Kf4 f2 57. Kg3 Bf5 58. Be2 Kxh7 59. Kxf2 Kg6 60.
+Kg3 Kg5 61. Bc4 Bc2 62. Be6 Bd1 63. Bc8 Be2 64. Kf2 Bd1 65. Ke3 1-0
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "13"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Wood, Gabriel"]
+[Result "1/2-1/2"]
+[ECO "D90"]
+[PlyCount "96"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. c4 Nf6 2. Nc3 c6 3. d4 d5 4. Nf3 g6 5. cxd5 Nxd5 6. e4 Nb6 7. Be2 Bg7 8. O-O
+Bg4 9. Be3 O-O 10. h3 Bxf3 11. Bxf3 Nc4 12. Qe2 Nxe3 13. fxe3 Nd7 14. e5 Nb6
+15. Ne4 Nd5 16. Ng5 Bh6 17. h4 Qb6 18. Rac1 f6 19. Bxd5+ cxd5 20. Nf3 Rac8 21.
+exf6 exf6 22. Rxc8 Rxc8 23. Nh2 f5 24. Nf3 Qa6 25. Re1 Qa4 26. Ne5 Bg7 27. b3
+Qe8 28. Qf3 Qe6 29. Nd3 Qe4 30. Nf4 Rc2 31. Nxd5 Qxh4 32. Rd1 Qe4 33. Nb4 Qxf3
+34. gxf3 Re2 35. Rd3 Bf8 36. Nd5 Kf7 37. Nc3 Rc2 38. e4 h5 39. e5 f4 40. d5
+Bc5+ 41. Kh1 g5 42. Ne4 g4 43. e6+ Ke7 44. Nxc5 Rxc5 45. d6+ Kd8 46. Kg2 Re5
+47. e7+ Kd7 48. Rd2 Re3 1/2-1/2

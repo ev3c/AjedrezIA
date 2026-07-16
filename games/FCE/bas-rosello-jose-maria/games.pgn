@@ -1,0 +1,826 @@
+[Event "Camp. Catalunya indiv."]
+[Site "?"]
+[Date "1943.??.??"]
+[Round "?"]
+[White "Medina Garcia, Antonio"]
+[Black "Bas Rosello, Jose Maria"]
+[Result "0-1"]
+[ECO "C43"]
+[PlyCount "64"]
+[EventDate "1943.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nf6 3. d4 Nxe4 4. Bd3 d5 5. Nxe5 Bd6 6. O-O O-O 7. c4 c6 8. Nc3
+Nxc3 9. bxc3 Bxe5 10. Qh5 Bxh2+ 11. Kxh2 Qd6+ 12. g3 g6 13. Qh4 Be6 14. Bh6 Qd8
+15. Bxf8 Qxh4+ 16. gxh4 dxc4 17. Bxg6 hxg6 18. Bd6 Nd7 19. Rae1 Nf6 20. f3 Nd5
+21. h5 Nxc3 22. hxg6 Nxa2 23. Re4 Rd8 24. Be7 Rd5 25. Ra1 Rh5+ 26. Rh4 Rxh4+
+27. Bxh4 c3 28. gxf7+ Kxf7 29. Be1 c2 30. Bd2 b5 31. Bc1 b4 32. Bb2 a5 0-1
+
+[Event "Torneo Primeras figuras regionales"]
+[Site "Barcelona"]
+[Date "1943.02.04"]
+[Round "?"]
+[White "Ribera Arnal, Angel"]
+[Black "Bas Rosello, Jose Maria"]
+[Result "1-0"]
+[ECO "D13"]
+[PlyCount "53"]
+[EventDate "1943.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 c6 3. cxd5 cxd5 4. Nc3 e6 5. Nf3 Nf6 6. Bf4 Bd6 7. Bxd6 Qxd6 8.
+e3 O-O 9. Bd3 a6 10. Ne5 Nbd7 11. f4 b5 12. O-O Bb7 13. Qf3 Rac8 14. a3 Nb6 15.
+Rf2 Rc7 16. g4 Nfd7 17. Qh3 g6 18. Nxd7 Nxd7 19. f5 exf5 20. gxf5 Nf6 21. Raf1
+Ne4 22. Bxe4 dxe4 23. f6 h5 24. Qh4 Re8 25. Rg2 Kh7 26. Rf5 $1 Qf8 27. Rxh5+
+1-0
+
+[Event "Camp. Catalunya indiv. sf. gr. 3"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "?"]
+[White "Comas, Joan"]
+[Black "Bas Rosello, Jose Maria"]
+[Result "0-1"]
+[ECO "C02"]
+[PlyCount "40"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 e6 2. e4 d5 3. e5 c5 4. c3 Ne7 5. Nf3 Nec6 6. a3 c4 7. g3 Be7 8. Nbd2 O-O
+9. b4 f6 10. Bg2 fxe5 11. Nxe5 Nxe5 12. dxe5 a5 13. Bb2 Qc7 14. Qe2 Nc6 15. f4
+axb4 16. axb4 Rxa1+ 17. Bxa1 Qb6 18. Nf3 (18. Qf2 $2 Qxf2+ 19. Kxf2 Nxe5) 18...
+Bd7 19. Bb2 Nxb4 $1 20. cxb4 Bxb4+ 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1947.??.??"]
+[Round "?"]
+[White "Bas Rosello, Jose Maria"]
+[Black "Vilardebo Picurena, Josep"]
+[Result "1-0"]
+[ECO "D64"]
+[PlyCount "63"]
+[EventDate "1947.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. Bg5 Nbd7 5. Nf3 Be7 6. Qc2 c6 7. e3 O-O 8. Rc1
+dxc4 9. Bxc4 b5 10. Bd3 Bb7 11. O-O a6 12. Ne5 h6 13. Bh4 c5 14. Nxd7 Nxd7 15.
+Bg3 cxd4 16. exd4 Rc8 17. Qe2 Nf6 18. Rcd1 Qd7 19. Be5 b4 20. Nb1 Qd5 21. f4
+Qxa2 22. f5 a5 23. Nd2 Qd5 24. Bc4 Qd7 25. fxe6 Qd8 26. exf7+ Kh8 27. Be6 Rc2
+28. Qd3 Rxb2 29. Qg6 Bd5 30. Rxf6 Rxf7 31. Qxh6+ gxh6 32. Rxh6+ 1-0
+
+[Event "Torneo inaugural C. A. Condal Final"]
+[Site "Barcelona"]
+[Date "1947.11.22"]
+[Round "?"]
+[White "Bas Rosello, Jose Maria"]
+[Black "Ribera Arnal, Angel"]
+[Result "0-1"]
+[ECO "B73"]
+[PlyCount "74"]
+[EventDate "1947.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. Be2 O-O 8.
+O-O Nc6 9. f4 Qb6 10. Bb5 Ng4 11. Nd5 Bxd4 12. Nxb6 Nxe3 13. Qd3 Nxf1+ 14. Kxf1
+Bxb6 15. f5 Ne5 16. Qg3 Bd7 17. Be2 Kh8 18. Qh4 Bd8 19. g4 f6 20. a4 Rc8 21.
+Bd3 Kg7 22. a5 Rc5 23. b4 Rc8 24. Ke2 Nxd3 25. Kxd3 Bb5+ 26. Kd2 Rc4 27. g5
+fxg5 28. Qxg5 e5 29. Qe3 a6 30. Rg1 Bc6 31. Qb3 Rd4+ 32. Kc1 Bxe4 33. Rg4 Rxf5
+34. Qe6 Rf7 35. Rxe4 Rxe4 36. Qxd6 Be7 37. Qd5 Rxb4 0-1
+
+[Event "Trofeo Bofill y Pitchot"]
+[Site "Barcelona"]
+[Date "1947.??.??"]
+[Round "?"]
+[White "Simon, R."]
+[Black "Bas Rosello, Jose Maria"]
+[Result "0-1"]
+[ECO "B03"]
+[PlyCount "64"]
+[EventDate "1947.??.??"]
+[EventCountry "ESP"]
+
+1. e4 Nf6 2. e5 Nd5 3. c4 Nb6 4. d4 d6 5. exd6 exd6 6. Nf3 d5 7. c5 N6d7 8. Nc3
+Nf6 9. Bd3 Be7 10. O-O O-O 11. h3 Re8 12. Qc2 c6 13. b4 Nbd7 14. Bf4 Nf8 15.
+Rfe1 Ne6 16. Bh2 g6 17. Ne2 Nh5 18. b5 Bg5 19. bxc6 bxc6 20. Bd6 Bd7 21. g3 Be7
+22. Bxe7 Qxe7 23. Rab1 Qf6 24. Ne5 Ng5 25. Nxd7 Nxh3+ 26. Kh1 Qf3+ 27. Kh2
+Qxf2+ 28. Kxh3 Rxe2 29. Nf6+ Kh8 30. Nxh5 Qh2+ 31. Kg4 Qxh5+ 32. Kf4 g5+ 0-1
+
+[Event "C. A. Español Torneo Primavera"]
+[Site "Barcelona"]
+[Date "1948.??.??"]
+[Round "?"]
+[White "Bas Rosello, Jose Maria"]
+[Black "Vilardebo Picurena, Josep"]
+[Result "1-0"]
+[ECO "C39"]
+[PlyCount "33"]
+[EventDate "1948.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. f4 exf4 3. Nf3 g5 4. h4 g4 5. Ne5 h5 6. Bc4 Rh7 7. d4 Bh6 8. Nc3
+Nf6 9. Nd5 Nc6 10. Qd3 Na5 11. Bxf4 Bxf4 12. Nxf4 d6 13. Bxf7+ Rxf7 14. Nxf7
+Kxf7 15. e5 dxe5 16. Qg6+ Kf8 17. dxe5 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1948.05.??"]
+[Round "10"]
+[White "Llado Lumbera, Jaime"]
+[Black "Bas Rosello, Jose Maria"]
+[Result "0-1"]
+[ECO "D02"]
+[PlyCount "90"]
+[EventDate "1948.??.??"]
+[EventType "tourn"]
+[EventRounds "17"]
+[EventCountry "ESP"]
+
+1. Nf3 d5 2. d4 Nf6 3. g3 g6 4. Bg2 Bg7 5. O-O O-O 6. Nbd2 c5 7. c3 cxd4 8.
+cxd4 Nc6 9. b3 Qb6 10. Bb2 Bf5 11. e3 Rac8 12. Ne5 Rfd8 13. h3 Rc7 14. g4 Bc2
+15. Qe2 Nxe5 16. dxe5 Ne4 17. Bd4 Nc3 18. Qe1 Qa6 19. Kh2 Bd3 20. Rh1 Ne2 21.
+f4 Rc2 22. Nf3 Rdc8 23. Qb4 Be4 24. Ne1 Nxd4 25. Qxd4 Qe2 26. Rg1 Rd2 27. Qxa7
+Rcc2 28. Qb6 Bxg2 29. Qd8+ Bf8 30. Rxg2 Qf3 31. Qxd5 Rxd5 32. Nxc2 Rd1 33. Rxd1
+Qxd1 34. Nd4 Qd3 35. Nc2 e6 36. Kg3 Bc5 37. Kf3 Qf1+ 38. Kg3 Bb4 39. Nxb4 Qe1+
+40. Rf2 Qxe3+ 41. Rf3 Qg1+ 42. Kh4 Qe1+ 43. Kg5 h6+ 44. Kf6 Qxb4 45. f5 Kf8 0-1
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1948.??.??"]
+[Round "12"]
+[White "Ribera Arnal, Angel"]
+[Black "Bas Rosello, Jose Maria"]
+[Result "1-0"]
+[ECO "B03"]
+[PlyCount "91"]
+[EventDate "1948.??.??"]
+[EventType "tourn"]
+[EventRounds "17"]
+[EventCountry "ESP"]
+
+1. e4 Nf6 2. e5 Nd5 3. c4 Nb6 4. d4 d6 5. exd6 exd6 6. Bd3 Nc6 7. Be3 Be7 8.
+Nc3 O-O 9. a3 Bf6 10. Nge2 Re8 11. O-O Bg4 12. Qc2 g6 13. Rfe1 d5 14. c5 Nc8
+15. h3 Be6 16. b4 N8e7 17. b5 Na5 18. Nf4 Nf5 19. Bxf5 Bxf5 20. Qa4 c6 21. bxc6
+bxc6 22. g4 Bd7 23. Rab1 Nc4 24. Ng2 Bg5 25. Rb7 Bxe3 26. fxe3 Qc8 27. Rxa7
+Rxa7 28. Qxa7 Nd2 29. Re2 Nf3+ 30. Kf2 Ng5 31. Kg3 h5 32. h4 Ne4+ 33. Nxe4 Rxe4
+34. gxh5 gxh5 35. Rb2 Be8 36. Qb8 Qg4+ 37. Kh2 Qf5 38. Qg3+ Rg4 39. Qf2 Qe6 40.
+a4 Bd7 41. a5 Kh7 42. a6 Rg8 43. a7 Ra8 44. Rb7 Qh3+ 45. Kg1 Be6 46. Qf6 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1949.03.??"]
+[Round "10"]
+[White "Bas Rosello, Jose Maria"]
+[Black "Bordell Rosell, Roman"]
+[Result "0-1"]
+[ECO "B84"]
+[PlyCount "80"]
+[EventDate "1949.??.??"]
+[EventType "tourn"]
+[EventRounds "17"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 Nf6 4. Nc3 cxd4 5. Nxd4 a6 6. Be2 Qc7 7. Be3 e6 8. O-O
+b5 9. a3 Bb7 10. Bd3 Nbd7 11. Nb3 Be7 12. Qe2 O-O 13. f4 Rac8 14. h3 Rfd8 15.
+Qf2 Nc5 16. Nd2 d5 17. e5 Nfe4 18. Ndxe4 Nxe4 19. Bxe4 dxe4 20. Bb6 Bc5 21.
+Bxc7 Rxc7 22. Rad1 Bxf2+ 23. Kxf2 Rcd7 24. Rxd7 Rxd7 25. Rd1 e3+ 26. Kxe3 Rxd1
+27. Nxd1 Bxg2 28. h4 f6 29. Kd4 Kf7 30. Kc5 h5 31. Kb6 g5 32. fxg5 fxg5 33.
+hxg5 h4 34. Ne3 h3 35. Ng4 Kg6 36. Kxa6 Kxg5 37. Nh2 Kf4 38. Kxb5 Kg3 39. c4
+Kxh2 40. c5 Kg3 0-1
+
+[Event "C. A. Ruy López - C. A. Barcelona"]
+[Site "Barcelona"]
+[Date "1950.09.27"]
+[Round "?"]
+[White "Bas Rosello, Jose Maria"]
+[Black "Ribera Arnal, Angel"]
+[Result "0-1"]
+[ECO "C31"]
+[PlyCount "42"]
+[EventDate "1950.??.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. f4 d5 3. Nf3 dxe4 4. Nxe5 Be6 5. d4 exd3 6. Bxd3 Bc5 7. Qe2 Qe7 8.
+Nc3 Nd7 9. Nxd7 Bxd7 10. Be4 O-O-O 11. Nd5 Qd6 12. f5 Qe5 13. Bf4 Qxb2 14. Rd1
+Nf6 15. Nxf6 gxf6 16. Qc4 Rhe8 17. Qxc5 Rxe4+ 18. Be3 b6 19. Qd5 Qc3+ 20. Rd2
+Qxe3+ 21. Kd1 Qxd2+ 0-1
+
+[Event "C. A. Ruy López Tívoli - Xadrez Lisboa "]
+[Site "Barcelona"]
+[Date "1951.??.??"]
+[Round "?"]
+[White "Bas Rosello, Jose Maria"]
+[Black "Durao, Joaquim"]
+[Result "1-0"]
+[ECO "C05"]
+[PlyCount "45"]
+[EventDate "1951.08.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. Bd3 c5 5. dxc5 dxe4 6. Bxe4 Bxc5 7. Qe2 Qc7 8.
+Qb5+ Nbd7 9. Ngf3 a6 10. Qe2 Ng4 11. O-O Ndf6 12. h3 h5 13. hxg4 hxg4 14. Ne5
+Bd7 15. Ndc4 Bb5 16. Bf4 Nh5 17. g3 g5 18. Be3 Nxg3 19. fxg3 Bxc4 20. Qf2 Qxe5
+21. Bxc5 Qxe4 22. Qxf7+ Kd8 23. Bb6+ 1-0
+
+[Event "C. A. Barcelona Social"]
+[Site "Barcelona"]
+[Date "1955.06.27"]
+[Round "?"]
+[White "Bas Rosello, Jose Maria"]
+[Black "Ribera Arnal, Angel"]
+[Result "1/2-1/2"]
+[ECO "A46"]
+[PlyCount "46"]
+[EventDate "1955.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 c5 3. dxc5 e6 4. a3 Bxc5 5. b4 Be7 6. g3 d5 7. Bg2 Nbd7 8. O-O
+Nb6 9. Ne5 O-O 10. Bb2 Qc7 11. Bd4 Rd8 12. Nd2 Nfd7 13. f4 Nxe5 14. fxe5 Bd7
+15. e3 Nc4 16. Nxc4 Qxc4 17. Rf4 Qc7 18. Bf1 Ba4 19. Bd3 Rac8 20. Bxh7+ Kxh7
+21. Qh5+ Kg8 22. Qxf7+ Kh8 23. Qh5+ Kg8 1/2-1/2
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "Barcelona"]
+[Date "1956.05.09"]
+[Round "10"]
+[White "Ribera Arnal, Angel"]
+[Black "Bas Rosello, Jose Maria"]
+[Result "1-0"]
+[ECO "A40"]
+[PlyCount "69"]
+[EventDate "1956.??.??"]
+[EventType "tourn"]
+[EventRounds "15"]
+[EventCountry "ESP"]
+
+1. d4 b5 2. e4 Bb7 3. f3 a6 4. Be3 e6 5. Bd3 Be7 6. Ne2 Bh4+ 7. Ng3 Ne7 8. Nd2
+Nbc6 9. c3 f5 10. O-O O-O 11. Ne2 Ng6 12. g3 Bg5 13. f4 Bf6 14. exf5 exf5 15.
+Bxf5 Qe7 16. Bf2 Bxd4 17. Nxd4 Nxd4 18. Re1 Ne6 19. Be4 Bxe4 20. Nxe4 Qf7 21.
+a4 Rab8 22. axb5 Rxb5 23. b4 Rf5 24. Rxa6 d5 25. Nc5 Ng5 26. Ne6 Nh3+ 27. Kg2
+Nxf2 28. Kxf2 Re8 29. Kg2 Rf6 30. Ng5 Rxe1 31. Qxe1 Qe7 32. Ra8+ Rf8 33. Qxe7
+Nxe7 34. Rxf8+ Kxf8 35. Ne6+ 1-0
+
+[Event "La Pobla de Lillet Nacional"]
+[Site "La Pobla de Lillet"]
+[Date "1956.08.03"]
+[Round "7"]
+[White "Bas Rosello, Jose Maria"]
+[Black "Ribera Arnal, Angel"]
+[Result "1/2-1/2"]
+[ECO "B21"]
+[PlyCount "43"]
+[EventDate "1956.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. f4 d5 3. e5 e6 4. Nf3 Nc6 5. Be2 Be7 6. O-O Nh6 7. d3 O-O 8. c3 Bd7
+9. Na3 Rc8 10. Nc2 Qb6 11. Qe1 f6 12. exf6 Bxf6 13. h3 Nf7 14. Ne3 Qc7 15. Bd2
+Rce8 16. Ng4 Be7 17. Be3 e5 18. Ngxe5 Nfxe5 19. fxe5 Nxe5 20. d4 Nxf3+ 21. Bxf3
+Bf6 22. Qd2 1/2-1/2
+
+[Event "Trofeo Fundador Domecq"]
+[Site "Barcelona"]
+[Date "1956.07.21"]
+[Round "?"]
+[White "Ribera Arnal, Angel"]
+[Black "Bas Rosello, Jose Maria"]
+[Result "1-0"]
+[ECO "D95"]
+[PlyCount "85"]
+[EventDate "1956.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 c6 4. e3 g6 5. Nc3 Bg7 6. Qb3 O-O 7. Bd2 dxc4 8. Bxc4
+b5 9. Be2 Be6 10. Qc2 b4 11. Na4 Bf5 12. Bd3 Bxd3 13. Qxd3 Nd5 14. O-O Nd7 15.
+Rfc1 e5 16. Rxc6 exd4 17. Rd6 N5b6 18. Nxb6 axb6 19. Bxb4 Qc7 20. exd4 Rfd8 21.
+Qc3 Qa7 22. Rc6 Qb7 23. Rc7 Qd5 24. a3 Nf8 25. Bxf8 Kxf8 26. Rd1 Kg8 27. Qc4
+Qf5 28. h3 Rac8 29. Rxc8 Rxc8 30. Qb3 b5 31. d5 Rc2 32. Qxb5 Bxb2 33. Qe8+ Kg7
+34. d6 Qc5 35. Qe3 Qxe3 36. fxe3 Rc1 37. Rxc1 Bxc1 38. d7 Bxe3+ 39. Kf1 Bb6 40.
+Ne5 Kf6 41. Nc6 Ke6 42. d8=Q Bxd8 43. Nxd8+ 1-0
+
+[Event "C. A. Barcelona Social"]
+[Site "Barcelona"]
+[Date "1962.04.06"]
+[Round "?"]
+[White "Bas Rosello, Jose Maria"]
+[Black "Ponce Sala, Lorenzo"]
+[Result "0-1"]
+[ECO "D94"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "54"]
+[EventDate "1957.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 d5 5. cxd5 Nxd5 6. e3 O-O 7. Bc4 Nxc3 8.
+bxc3 c5 9. O-O Nc6 10. Rb1 Bf5 11. Bd3 Bxd3 12. Qxd3 cxd4 13. cxd4 b6 14. Ba3
+Qd5 15. Rfc1 Rac8 16. e4 Qxa2 17. d5 Rfd8 18. Qe3 Nd4 19. Bxe7 $2 (19. Nxd4
+Bxd4 20. Qxd4 Qxa3 $15) 19... Ne2+ 20. Kf1 Nxc1 21. Rxc1 Rxc1+ 22. Qxc1 Qa6+
+23. Kg1 Rc8 24. Qd1 Qa4 (24... Bh6 $142 $1) 25. Qe1 Bc3 (25... Bh6 $142) 26.
+Qb1 Bb2 27. Bg5 Rc1+ 0-1
+
+[Event "C. A. Barcelona Social"]
+[Site "Barcelona"]
+[Date "1957.??.??"]
+[Round "?"]
+[White "Bas Rosello, Jose Maria"]
+[Black "Ribera Arnal, Angel"]
+[Result "0-1"]
+[ECO "B20"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "82"]
+[EventDate "1957.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. b3 {Bas se aparta de su preferida 2. f4} Nc6 3. Bb2 e6 4. Nc3 d5 5.
+Bb5 d4 6. Nce2 (6. Bxc6+ $142) 6... Bd7 7. f4 a6 8. Bxc6 Bxc6 9. d3 (9. Nf3
+$143 Bxe4) 9... Nf6 (9... Qh4+ $5) 10. Nf3 Ng4 $1 11. Bc1 f5 12. Ng3 Bd6 13. h3
+Nh6 14. O-O O-O 15. Ne5 $2 {Parece mejor De2 o bien Cg5} Be8 (15... Bxe5 {daba
+una cierta ventaja al negro, pero parece que Ribera tiene otros objetivos.})
+16. Bd2 Bc7 17. Qf3 Nf7 18. Nxf7 (18. exf5 $142) 18... Rxf7 19. exf5 $2 exf5
+20. Rae1 Bc6 21. Qf2 Rf6 22. Re2 Rg6 23. Qe1 $2 {Esto ya es un error.} (23.
+Rfe1 $142) 23... Qd5 24. Kh2 Rf8 25. Rff2 Bd8 26. Re5 Bh4 $3 {Parece
+definitiva.} (26... Qd7 {parecía más acorde con el posicionalismo de Ribera.})
+27. Rxd5 Bxg3+ {Y ahora parece que la suerte está echada.} 28. Kg1 Bxd5 29. Qe5
+Bxf2+ 30. Kxf2 Rxg2+ 31. Kf1 Bc6 32. Qe6+ Kh8 33. Be1 Rxc2 34. Bh4 Bb5 35. Be7
+Bxd3+ 36. Kg1 Rg8 37. Qe5 Be4 38. Kf1 d3 39. Bf6 Bg2+ 40. Kg1 Rc1+ 41. Kf2 (41.
+Kxg2 $2 gxf6+) 41... Rf1+ 0-1
+
+[Event "La Pobla de Lillet Nacional"]
+[Site "La Pobla de Lillet"]
+[Date "1957.07.20"]
+[Round "1"]
+[White "Farre Mallofre, Miguel"]
+[Black "Bas Rosello, Jose Maria"]
+[Result "1-0"]
+[ECO "A30"]
+[PlyCount "84"]
+[EventDate "1957.07.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. c4 c5 3. g3 g6 4. Bg2 Bg7 5. O-O O-O 6. d4 cxd4 7. Qxd4 Nc6 8.
+Qh4 d6 9. Nc3 Bg4 10. Bg5 Bxf3 11. Bxf3 Ne5 12. Bg2 Rc8 13. b3 Qa5 14. Rac1
+Neg4 15. Bxb7 Rc5 16. Nd5 Nxd5 17. cxd5 Rxc1 18. Rxc1 Bb2 19. Rf1 Nf6 20. Qc4
+Qxa2 21. Qc2 Qa3 22. Bd2 Bd4 23. e3 Qb2 24. Qd3 Bb6 25. b4 Qe5 26. f3 h5 27.
+Kg2 Nd7 28. Bc6 Rd8 29. f4 Qg7 30. Bc3 f6 31. e4 Nb8 32. Ba4 Rc8 33. e5 Kh7 34.
+exf6 exf6 35. Re1 Bd8 36. Re6 Be7 37. Bc2 Nd7 38. Qe3 Bf8 39. Ba4 Nb6 40. Bc6
+Qc7 41. Bxf6 Nd7 42. Be7 Qb6 $138 1-0
+
+[Event "La Pobla de Lillet Nacional"]
+[Site "La Pobla de Lillet"]
+[Date "1957.07.25"]
+[Round "6"]
+[White "Ribera Arnal, Angel"]
+[Black "Bas Rosello, Jose Maria"]
+[Result "1/2-1/2"]
+[ECO "D17"]
+[PlyCount "40"]
+[EventDate "1957.07.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. Ne5 Nbd7 7. Nxc4 e6 8. g3
+Nb6 9. Nxb6 axb6 10. Bg2 b5 11. e3 b4 12. Ne2 Qc7 13. O-O Rd8 14. Bd2 e5 15.
+dxe5 Ne4 16. Nd4 Qxe5 17. Qc1 Nxd2 18. Qxd2 Be7 19. Qc1 O-O 20. Nxf5 Qxf5
+1/2-1/2
+
+[Event "Tarragona Int"]
+[Site "Tarragona"]
+[Date "1957.12.14"]
+[Round "2"]
+[White "Bas Rosello, Jose Maria"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "1-0"]
+[ECO "B21"]
+[PlyCount "107"]
+[EventDate "1957.12.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. f4 e6 3. Nf3 d5 4. Bb5+ Bd7 5. Bxd7+ Nxd7 6. exd5 exd5 7. O-O Bd6
+8. d4 Ne7 9. Nc3 O-O 10. Nb5 Qb6 11. Nxd6 Qxd6 12. c3 c4 13. Ne5 f6 14. Ng4 Nf5
+15. Qf3 Rfe8 16. Nf2 Qe6 17. g4 Nd6 18. f5 Qf7 19. Bf4 Ne4 20. Rfe1 Nb6 21.
+Nxe4 dxe4 22. Rxe4 Rxe4 23. Qxe4 Re8 24. Qf3 Qd5 25. Rf1 Re4 26. Kf2 h5 27. h3
+hxg4 28. hxg4 Re8 29. Qxd5+ Nxd5 30. Bd2 Kf7 31. Kf3 b5 32. Re1 Rxe1 33. Bxe1
+Ke7 34. Ke4 Kd6 35. Bd2 a5 36. a3 Kc6 37. Kf3 Ne7 38. Ke4 Nd5 39. g5 fxg5 40.
+Bxg5 b4 41. axb4 axb4 42. cxb4 Nxb4 43. Bd2 Nd3 44. d5+ Kd6 45. Bc3 Nf2+ 46.
+Kf3 Nd3 47. Ke4 Nf2+ 48. Ke3 Ng4+ 49. Kf3 Nh2+ 50. Ke4 Nf1 51. Be5+ Kd7 52. Bf4
+Ke7 53. Kf3 Kf6 54. d6 1-0
+
+[Event "C. A. Barcelona tematico"]
+[Site "Barcelona"]
+[Date "1959.01.14"]
+[Round "?"]
+[White "Bas Rosello, Jose Maria"]
+[Black "Torralba de Damas, Sebastian"]
+[Result "1-0"]
+[ECO "A84"]
+[PlyCount "55"]
+[EventDate "1959.01.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. d4 e6 2. c4 f5 3. g4 fxg4 4. e4 Qh4 5. Bf4 Bb4+ 6. Nc3 Nf6 7. Bg2 O-O 8. Qd2
+d5 9. cxd5 exd5 10. Bg5 Qh5 11. Bxf6 gxf6 12. Nge2 dxe4 13. Bxe4 Nc6 14. O-O-O
+Qg5 15. f4 Qa5 16. Qd3 f5 17. Bd5+ Kh8 18. Bb3 Bd7 19. d5 Nd8 20. h3 Qc5 21.
+hxg4 Re8 22. Rh3 a6 23. Rdh1 Re7 24. Nd4 Bxc3 25. bxc3 Qd6 26. Nxf5 Qxf4+ 27.
+Ne3 Kg8 28. d6+ 1-0
+
+[Event "C. A. Barcelona Social"]
+[Site "Barcelona"]
+[Date "1960.10.04"]
+[Round "?"]
+[White "Bas Rosello, Jose Maria"]
+[Black "Ribera Arnal, Angel"]
+[Result "1-0"]
+[ECO "B21"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "143"]
+[EventDate "1960.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. f4 e6 3. Nf3 d5 4. e5 Nc6 5. Be2 Be7 6. O-O Nh6 7. d3 O-O 8. c3 Bd7
+9. Na3 Rc8 10. Nc2 d4 11. Nd2 f6 12. exf6 Bxf6 13. c4 e5 14. Ne4 Be7 15. Ne1
+Nf5 16. Nf3 exf4 17. Bxf4 Ne3 18. Bxe3 dxe3 19. d4 cxd4 20. Nxd4 Rxf1+ 21. Kxf1
+Qb6 (21... Qf8+) 22. Nf3 Be6 23. Qb3 Qc7 $6 (23... Qxb3 $142) 24. Qxe3 Ne5 (
+24... Rf8 $142) 25. Nf2 Bd6 26. Nd3 Bf7 27. Ndxe5 Re8 28. Rd1 Bxe5 29. Nxe5
+Rxe5 30. Rd8+ $1 Qxd8 31. Qxe5 g6 32. Qc3 Qc7 33. g3 Be6 34. b4 Bh3+ 35. Kf2
+Be6 36. a3 Qf7+ 37. Ke1 Qf5 38. Qd3 Qe5 39. Kf2 Kg7 40. Qe3 Qf6+ 41. Kg2 Qf5
+42. Qf3 (42. g4) 42... Qh3+ 43. Kg1 b6 44. Qb7+ Kh6 45. Qxa7 Qf5 46. Qxb6 Qb1+
+47. Bf1 Bh3 48. Qf6 Bf5 49. h4 Qe1 50. Qg5+ Kg7 51. Qf4 Bh3 52. Qd4+ Kg8 53.
+Qf2 Qa1 54. c5 Bxf1 55. Qxf1 Qxa3 56. Qc4+ Kg7 57. Kh2 Qb2+ 58. Kh3 Qb1 59. c6
+h5 60. Kg2 Qb2+ 61. Kf3 Qf6+ 62. Ke4 Qf5+ 63. Kd4 Qf2+ 64. Kd5 Qf5+ 65. Kd6
+Qf8+ 66. Kc7 Qa8 67. Kd7 Qa4 68. Ke7 Qa7+ 69. c7 Qe3+ 70. Qe6 Qa7 71. Kd8 Qd4+
+72. Qd7+ 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1961.??.??"]
+[Round "?"]
+[White "Bas Rosello, Jose Maria"]
+[Black "Ponce Sala, Lorenzo"]
+[Result "1-0"]
+[ECO "B21"]
+[PlyCount "75"]
+[EventDate "1961.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. d4 cxd4 3. c3 dxc3 4. Nxc3 d6 5. Bc4 e6 6. Nf3 Nc6 7. O-O Be7 8.
+Bf4 Nf6 9. Qe2 O-O 10. Rfd1 Ne8 11. Nb5 f6 12. Nbd4 Nxd4 13. Nxd4 Nc7 14. Nf5
+Ne8 15. Nxe7+ Qxe7 16. Qd3 Kf7 17. Qh3 Kg8 18. Qg3 Kh8 19. Bxd6 Nxd6 20. Qxd6
+Qxd6 21. Rxd6 Re8 22. Bb5 Rf8 23. f4 Kg8 24. Rc1 Rb8 25. Rc7 e5 26. f5 a6 27.
+Bc4+ Kh8 28. Rf7 Re8 29. Bd5 b5 30. b4 h5 31. Kf2 Kh7 32. Rdxf6 h4 33. Rg6 Rg8
+34. Re7 Bxf5 35. exf5 Rgf8 36. Rgxg7+ Kh6 37. Rg6+ Kh5 38. Rh7# 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1961.??.??"]
+[Round "?"]
+[White "Francino Vallet, Luciano"]
+[Black "Bas Rosello, Jose Maria"]
+[Result "1-0"]
+[ECO "B04"]
+[PlyCount "41"]
+[EventDate "1961.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. Nf3 g6 5. Ng5 e6 6. c4 Nb6 7. Qf3 Qe7 8. Ne4
+Bg7 9. Bg5 Qf8 10. Nbc3 dxe5 11. Nf6+ Bxf6 12. Qxf6 Kd7 13. dxe5 c6 14. Bh6 Qe8
+15. Be3 Kc7 16. Bc5 Bd7 17. Bd6+ Kc8 18. Ne4 h6 19. Be7 Kc7 20. Nd6 Qg8 21.
+Nxf7 1-0
+
+[Event "Camp. Catalunya indiv. ( prev. '66 )"]
+[Site "?"]
+[Date "1965.??.??"]
+[Round "?"]
+[White "Bautista Sanchez, Juan"]
+[Black "Bas Rosello, Jose Maria"]
+[Result "1-0"]
+[ECO "B04"]
+[PlyCount "49"]
+[EventDate "1965.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. Nf3 Nc6 5. c4 Nb6 6. e6 fxe6 7. Nc3 Nd7 8. Ng5
+Nf6 9. d5 exd5 10. cxd5 Ne5 11. f4 Nf7 12. Bb5+ Bd7 13. Ne6 Qc8 14. Bxd7+ Qxd7
+15. g4 c6 16. O-O Nxd5 17. Nxd5 cxd5 18. Qxd5 Nd8 19. f5 Nxe6 20. fxe6 Qc6 21.
+Qd3 d5 22. Qf5 Rc8 23. Bf4 Qb6+ 24. Kh1 Rc6 25. Bc7 1-0
+
+[Event "Camp. Catalunya indiv. ( prev. '66 )"]
+[Site "?"]
+[Date "1965.??.??"]
+[Round "?"]
+[White "Simon Padros, Emilio"]
+[Black "Bas Rosello, Jose Maria"]
+[Result "1-0"]
+[ECO "C60"]
+[PlyCount "59"]
+[EventDate "1965.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 g6 4. d4 exd4 5. Nxd4 Bg7 6. Be3 Nge7 7. Nc3 O-O 8.
+O-O a6 9. Be2 d6 10. Qd2 Bd7 11. Rad1 b5 12. a3 Ne5 13. f4 Ng4 14. Bxg4 Bxg4
+15. Rde1 c5 16. Nb3 Qc7 17. f5 gxf5 18. h3 Bh5 19. exf5 f6 20. Bh6 Bf7 21. Re4
+Bxb3 22. cxb3 Rf7 23. Re6 Rd8 24. Ne4 d5 25. Nxf6+ Rxf6 26. Bxg7 Rxf5 27. Rxf5
+Nxf5 28. Be5 Qd7 29. Qg5+ Ng7 30. Rd6 1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1967.??.??"]
+[Round "3"]
+[White "Ingelmo Iglesias, Agustin"]
+[Black "Bas Rosello, Jose Maria"]
+[Result "0-1"]
+[ECO "D90"]
+[PlyCount "66"]
+[EventDate "1967.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Nf3 g6 5. Bf4 dxc4 6. a4 Bg7 7. e4 O-O 8. Bxc4
+Bg4 9. Be2 Nh5 10. Be3 Qc7 11. h3 Bc8 12. e5 Bh8 13. Nd2 Ng7 14. f4 Nf5 15. Bf2
+Rd8 16. Nde4 a6 17. g4 Nxd4 18. Bxd4 c5 19. Nxc5 Nc6 20. Bf2 Rxd1+ 21. Rxd1 g5
+22. Nd5 Qa5+ 23. b4 Nxb4 24. Nb3 Nd3+ 25. Kf1 Qxd5 26. Rg1 Qxb3 27. Rxd3 Qxa4
+28. Rd8+ Kg7 29. f5 b5 30. f6+ exf6 31. exf6+ Kh6 32. Rxh8 Qa1+ 33. Kg2 Bb7+
+0-1
+
+[Event "Berga op"]
+[Site "Berga"]
+[Date "1969.??.??"]
+[Round "?"]
+[White "Seelen, SO."]
+[Black "Bas Rosello, Jose Maria"]
+[Result "1-0"]
+[ECO "B04"]
+[PlyCount "25"]
+[EventDate "1969.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. c4 Nb6 5. Nf3 Nc6 6. e6 fxe6 7. Ng5 Bd7 8. Bd3
+g6 9. Nxh7 Rg8 10. Be3 Bc8 11. Bxg6+ Kd7 12. Bf7 Bg7 13. d5 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1969.??.??"]
+[Round "?"]
+[White "Segura Vila, Juan"]
+[Black "Bas Rosello, Jose Maria"]
+[Result "1-0"]
+[ECO "B02"]
+[PlyCount "49"]
+[EventDate "1969.??.??"]
+[EventType "tourn"]
+[EventRounds "15"]
+[EventCountry "ESP"]
+
+1. e4 Nf6 2. e5 Nd5 3. c4 Nb6 4. c5 Nd5 5. Bc4 e6 6. Nc3 Nxc3 7. dxc3 Nc6 8.
+Bf4 Bxc5 9. Qg4 Kf8 10. O-O-O Qe7 11. Bg5 Qe8 12. Nf3 d5 13. Bd3 Be7 14. h4 a6
+15. Rh3 h5 16. Qf4 b5 17. Rg3 Rb8 18. Nd4 Nd8 19. Bf6 Bxf6 20. exf6 g6 21. Qxc7
+Ra8 22. Qd6+ Kg8 23. Qe7 Qd7 24. Bxg6 Rh6 25. Bxf7+ 1-0
+
+[Event "Copa Catalana Mem. Agusti Pujol eq."]
+[Site "?"]
+[Date "1970.??.??"]
+[Round "?"]
+[White "Llaverias Duch, Jose"]
+[Black "Bas Rosello, Jose Maria"]
+[Result "1-0"]
+[ECO "D08"]
+[PlyCount "77"]
+[EventDate "1970.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 e5 3. dxe5 d4 4. Nf3 Nc6 5. Nbd2 Bf5 6. a3 f6 7. e6 Bxe6 8. g3
+Qd7 9. Bg2 Nh6 10. b4 O-O-O 11. b5 Ne5 12. Qa4 Kb8 13. Nxe5 fxe5 14. O-O Bh3
+15. Ne4 Bxg2 16. Kxg2 Nf7 17. Bd2 c5 18. bxc6 Qxc6 19. Qxc6 bxc6 20. c5 Rd5 21.
+Rab1+ Ka8 22. Rbc1 Be7 23. f4 Rf8 24. Rf3 exf4 25. Bxf4 Ng5 26. Bxg5 Rxf3 27.
+Kxf3 Bxg5 28. Nxg5 Rxg5 29. Ke4 Rd5 30. Rc4 Rh5 31. Kxd4 Rxh2 32. e4 Ra2 33.
+Rc3 Kb7 34. Ke5 Kc7 35. Ke6 Rd2 36. Rf3 Rd7 37. Rf7 Rxf7 38. Kxf7 g5 39. e5 1-0
+
+[Event "Camp. España eq. prev."]
+[Site "Igualada"]
+[Date "1971.09.22"]
+[Round "3"]
+[White "Bas Rosello, Jose Maria"]
+[Black "Fernandez, Angel"]
+[Result "0-1"]
+[ECO "B10"]
+[PlyCount "64"]
+[EventDate "1971.09.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. f4 d5 3. e5 e6 4. Nf3 Ne7 5. d3 Nf5 6. c3 c5 7. Be2 Nc6 8. O-O h5
+9. g3 b6 10. Na3 Be7 11. Nc2 d4 12. c4 Bb7 13. Bd2 Qd7 14. Qe1 Rh6 15. Ng5 Bxg5
+16. fxg5 Nxe5 17. Bf3 Nxf3+ 18. Rxf3 Bxf3 19. gxh6 gxh6 20. Qf2 Bb7 21. Re1 Qc6
+22. Kf1 O-O-O 23. Ke2 Rg8 24. Kd1 Qf3+ 25. Qxf3 Bxf3+ 26. Kc1 h4 27. gxh4 Rg2
+28. Bf4 Be2 29. Rh1 Rf2 30. Bd2 Bxd3 31. b3 Nxh4 32. Rg1 Bxc2 0-1
+
+[Event "Berga op"]
+[Site "Berga"]
+[Date "1972.??.??"]
+[Round "?"]
+[White "Vilageliu Ceballos, Jose Maria"]
+[Black "Bas Rosello, Jose Maria"]
+[Result "0-1"]
+[ECO "A25"]
+[PlyCount "62"]
+[EventDate "1972.08.??"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+
+1. c4 e5 2. Nc3 Nc6 3. g3 f5 4. Bg2 Nf6 5. e3 Be7 6. Nge2 O-O 7. d4 d6 8. O-O
+Qe8 9. Rb1 Qh5 10. b4 g5 11. b5 Nd8 12. dxe5 dxe5 13. Nd5 Nxd5 14. Bxd5+ Be6
+15. Bxe6+ Nxe6 16. Qd5 Rf6 17. Qxb7 Raf8 18. Nc3 Rh6 19. Qg2 g4 20. f4 gxf3 21.
+Rxf3 Ng5 22. Rf1 e4 23. Nd5 Bd6 24. Bb2 Nf3+ 25. Rxf3 exf3 26. Qd2 f4 27. Nxf4
+Rxf4 28. exf4 Bc5+ 29. Kh1 Rd6 30. Qc2 Be3 31. Bc3 Qh3 0-1
+
+[Event "Copa Barcinona"]
+[Site "Barcelona"]
+[Date "1973.03.01"]
+[Round "?"]
+[White "Ribera Arnal, Angel"]
+[Black "Bas Rosello, Jose Maria"]
+[Result "1/2-1/2"]
+[ECO "D94"]
+[PlyCount "52"]
+[EventDate "1973.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 c6 4. Nc3 g6 5. e3 Bg7 6. Bd3 O-O 7. b3 Nbd7 8. cxd5
+Nxd5 9. Nxd5 cxd5 10. O-O Nc5 11. Bc2 Ne4 12. Bxe4 dxe4 13. Nd2 e5 14. Ba3 Re8
+15. dxe5 Bxe5 16. Rc1 Bf5 17. Nc4 Qxd1 18. Rfxd1 Bc7 19. Bd6 Bd8 20. Bf4 Be7
+21. Na5 b6 22. Nc6 Ba3 23. Rc4 b5 24. Rcd4 Rec8 25. Bd6 Rxc6 26. Bxa3 Rc2
+1/2-1/2
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1974.??.??"]
+[Round "?"]
+[White "Boada Llompart, Jorge"]
+[Black "Bas Rosello, Jose Maria"]
+[Result "1-0"]
+[ECO "C43"]
+[PlyCount "35"]
+[EventDate "1974.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nf6 3. d4 exd4 4. e5 Ne4 5. Qxd4 d5 6. exd6 Nxd6 7. Bd3 Nc6 8.
+Qf4 Be7 9. Nc3 Be6 10. Bd2 Qd7 11. O-O O-O-O 12. Qa4 Kb8 13. Be3 Nf5 14. Ne5
+Qe8 15. Nxc6+ bxc6 16. Bxa7+ Kc8 17. Qa6+ Kd7 18. Be4 1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1975.10.19"]
+[Round "1"]
+[White "Ribera Arnal, Angel"]
+[Black "Bas Rosello, Jose Maria"]
+[Result "1/2-1/2"]
+[ECO "D94"]
+[PlyCount "71"]
+[EventDate "1975.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 g6 5. e3 Bg7 6. Bd2 O-O 7. Rc1 e6 8. Be2
+Nbd7 9. O-O Re8 10. Qc2 dxc4 11. Bxc4 Nb6 12. Bb3 Nbd5 13. Ne2 Nd7 14. e4 Nc7
+15. Rfd1 Nb6 16. Bf4 Qe7 17. Qd2 Rd8 18. Qe3 Ne8 19. h4 Nf6 20. Bg5 Qf8 21. Qf4
+Nh5 22. Qh2 Re8 23. g4 Nf6 24. Qf4 Nfd7 25. Qg3 Bf6 26. Bf4 Be7 27. h5 Nf6 28.
+Nc3 Qg7 29. h6 Qf8 30. Kg2 Nxg4 31. Qxg4 e5 32. Qg3 exf4 33. Qxf4 Be6 34. Bc2
+Bd6 35. e5 Be7 36. Be4 1/2-1/2
+
+[Event "Camp. Barcelona"]
+[Site "Barcelona"]
+[Date "1976.??.??"]
+[Round "?"]
+[White "Fernandez"]
+[Black "Bas Rosello, Jose Maria"]
+[Result "1-0"]
+[ECO "C42"]
+[PlyCount "77"]
+[EventDate "1976.??.??"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. d4 d5 6. Bd3 Be7 7. O-O O-O 8.
+Nbd2 Nf6 9. Ne5 Nbd7 10. Ndf3 c5 11. c3 Nxe5 12. dxe5 Ne4 13. Qc2 f5 14. exf6
+Nxf6 15. Bg5 h6 16. Bh4 c4 17. Bg6 Ne8 18. Bxe7 Qxe7 19. Rfe1 Qd8 20. Ne5 Nf6
+21. Rad1 Qc7 22. Rxd5 Nxd5 23. Bh7+ Kh8 24. Ng6+ Kxh7 25. Nxf8+ Kg8 26. Re8 Bf5
+27. Rxa8 Bxc2 28. Ne6+ Kf7 29. Nxc7 Nxc7 30. Rxa7 Be4 31. f3 Bd5 32. Kf2 Ke6
+33. Ke3 Kd6 34. h4 g5 35. hxg5 hxg5 36. g3 Bc6 37. Ra5 Bb5 38. a4 b6 39. Rxb5
+1-0
+
+[Event "Camp. Catalunya indiv. Pref. esp."]
+[Site "?"]
+[Date "1976.??.??"]
+[Round "1"]
+[White "Palau Albet, Jaume"]
+[Black "Bas Rosello, Jose Maria"]
+[Result "1-0"]
+[ECO "B04"]
+[PlyCount "63"]
+[EventDate "1976.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. Nf3 e6 5. Bd3 Nb4 6. Bb5+ Bd7 7. Be2 d5 8. c3
+N4a6 9. b4 c6 10. O-O Nc7 11. a4 Be7 12. Ne1 O-O 13. f4 f5 14. exf6 Bxf6 15.
+Bd3 g6 16. Nf3 Be8 17. Nbd2 Nd7 18. Ne5 Nxe5 19. fxe5 Be7 20. Nf3 Rf7 21. Ra2
+Bd7 22. Raf2 Ne8 23. Qc2 Ng7 24. g4 Be8 25. Bh6 Bh4 26. Rg2 Be7 27. Rg3 Rf8 28.
+Rh3 Rc8 29. Qd2 Rf7 30. Bxg6 hxg6 31. Bxg7 Bg5 32. Nxg5 1-0
+
+[Event "Camp. Catalunya indiv. Pref. esp."]
+[Site "?"]
+[Date "1977.??.??"]
+[Round "5"]
+[White "Buxade Roca, Guillermo"]
+[Black "Bas Rosello, Jose Maria"]
+[Result "1-0"]
+[ECO "A14"]
+[PlyCount "69"]
+[EventDate "1977.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. c4 e6 3. b3 Be7 4. Bb2 b6 5. g3 Bb7 6. Bg2 O-O 7. O-O d5 8. Na3
+c5 9. cxd5 exd5 10. d4 Re8 11. Nc2 Nbd7 12. Ne3 Nf8 13. Nf5 Ne6 14. Nxe7+ Rxe7
+15. dxc5 Nxc5 16. Bxf6 gxf6 17. Nd4 Rc7 18. e3 Bc8 19. Qh5 Be6 20. Rfd1 Qc8 21.
+h3 Ne4 22. Nxe6 fxe6 23. Bxe4 dxe4 24. Qg4+ Kf7 25. Qxe4 f5 26. Qh4 Qg8 27. Rd6
+Re8 28. Rad1 Rce7 29. e4 Qg6 30. R1d4 Kg8 31. exf5 Qxf5 32. Rg4+ Rg7 33. Rxg7+
+Kxg7 34. Rd7+ Kg8 35. Qh6 1-0
+
+[Event "Camp. Catalunya indiv. Pref. Barcelona"]
+[Site "?"]
+[Date "1979.05.06"]
+[Round "10"]
+[White "Ribera Arnal, Angel"]
+[Black "Bas Rosello, Jose Maria"]
+[Result "1/2-1/2"]
+[ECO "A22"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "69"]
+[EventDate "1979.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. c4 e5 2. Nc3 Nf6 3. g3 d5 4. cxd5 Nxd5 5. Bg2 Nxc3 6. bxc3 c6 7. Nf3 Bd6 8.
+O-O O-O 9. d3 Nd7 10. Rb1 f5 11. Bd2 Nf6 12. Qa4 Kh8 13. c4 Nd7 14. Bc3 Nc5 15.
+Qc2 Qe7 16. Nd2 f4 17. Nb3 Nxb3 18. Rxb3 Qc7 19. Qb2 b6 20. Rb1 Rb8 21. c5 Bxc5
+22. Bxe5 Bd6 23. gxf4 c5 24. d4 cxd4 25. Qxd4 Bxe5 26. fxe5 Be6 27. Rc3 Qf7 28.
+a3 Rbd8 29. Qe3 Bd5 30. Rbc1 Bxg2 31. Kxg2 Qd5+ 32. Kg1 Rfe8 33. f4 g5 34. Rd3
+Qe6 35. Rf1 1/2-1/2
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1981.02.08"]
+[Round "?"]
+[White "Ribera Arnal, Angel"]
+[Black "Bas Rosello, Jose Maria"]
+[Result "1/2-1/2"]
+[ECO "A21"]
+[PlyCount "95"]
+[EventDate "1981.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. c4 e5 2. Nc3 f5 3. d4 e4 4. e3 Nf6 5. Nh3 d6 6. Be2 Be7 7. b3 c6 8. Bb2 d5
+9. O-O O-O 10. Rc1 Be6 11. Qc2 Kh8 12. Kh1 Bd6 13. cxd5 Nxd5 14. g3 Nd7 15. Na4
+N7f6 16. Nc5 Bc8 17. Nf4 Qe7 18. Ng2 g5 19. f4 g4 20. Rfd1 h5 21. Qd2 b6 22.
+Na4 Bb7 23. Nc3 Bb4 24. Nh4 Qh7 25. Bc4 Rac8 26. Qe2 Bxc3 27. Bxc3 Nxc3 28.
+Rxc3 Nd5 29. Bxd5 cxd5 30. Rdc1 Rxc3 31. Rxc3 Rc8 32. Qc2 Qd7 33. Ng6+ Kg7 34.
+Ne5 Rxc3 35. Qxc3 Qc8 36. Qb2 Kf6 37. Qa3 Ke6 38. Qb2 b5 39. b4 Qc7 40. Kg2 a5
+41. bxa5 Qxa5 42. a3 Qe1 43. Qxb5 Qd2+ 44. Kf1 Qc1+ 45. Kf2 Qc2+ 46. Qe2 Qb3
+47. a4 Qxa4 48. Qb2 1/2-1/2

@@ -1,0 +1,372 @@
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.03.19"]
+[Round "9.5"]
+[White "Moreno Sanchís, Jordi"]
+[Black "Gutierrez Clares, Joaquím"]
+[Result "1/2-1/2"]
+[WhiteElo "2345"]
+[BlackElo "2330"]
+[PlyCount "33"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+[WhiteTeam "Ateneu Colon"]
+[BlackTeam "Platja D'Aro"]
+
+1. Nf3 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 O-O 5. O-O d6 6. d4 c6 7. Nc3 Qb6 8. h3
+Qa6 9. e4 Qxc4 10. Re1 Rd8 11. Bg5 h6 12. Bf4 Qb4 13. Qd2 g5 14. Be3 Qa5 15.
+Rad1 Na6 16. h4 Ng4 17. hxg5 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "Barcelona"]
+[Date "2023.01.21"]
+[Round "1.7"]
+[White "Moreno Sanchis, Jordi"]
+[Black "Fernandez Serrano, Pau"]
+[Result "1/2-1/2"]
+[WhiteElo "2260"]
+[BlackElo "2075"]
+[PlyCount "41"]
+[EventDate "2023.??.??"]
+[SourceDate "2023.01.21"]
+[TimeControl "90+30"]
+[WhiteClock "0:09:44"]
+[BlackClock "0:28:56"]
+
+1. Nf3 {[%emt 0:00:08]} g6 {[%emt 0:00:10]} 2. d4 {[%emt 0:03:22]} Bg7 {[%emt
+0:00:12]} 3. e4 {[%emt 0:00:39]} d6 {[%emt 0:00:32]} 4. Nc3 {[%emt 0:01:54]} a6
+{[%emt 0:00:39]} 5. a4 {[%emt 0:04:46]} b6 {[%emt 0:00:25]} 6. Bc4 {[%emt 0:06:
+51]} e6 {[%emt 0:00:16]} 7. h4 {[%emt 0:11:22]} h6 {[%emt 0:00:37]} 8. Bf4 {
+[%emt 0:05:40]} Ne7 {[%emt 0:08:53]} 9. Qe2 {[%emt 0:02:12]} Bb7 {[%emt 0:01:
+55]} 10. Rd1 {[%emt 0:10:06]} Nd7 {[%emt 0:01:28]} 11. g4 {[%emt 0:02:13]} Nf6
+{[%emt 0:23:18]} 12. g5 {[%emt 0:06:10]} Nh5 {[%emt 0:06:26]} 13. Bc1 {[%emt 0:
+03:39]} Ng8 {[%emt 0:08:11]} 14. Rg1 {[%emt 0:05:37]} Qe7 {[%emt 0:05:41]} 15.
+Nh2 {[%emt 0:10:08]} hxg5 {[%emt 0:06:50]} 16. hxg5 {[%emt 0:01:56]} Qd7 {
+[%emt 0:00:45]} 17. Ng4 {[%emt 0:03:35]} Ne7 {[%emt 0:02:18]} 18. e5 {[%emt 0:
+03:49]} d5 {[%emt 0:01:27]} 19. Bd3 {[%emt 0:04:00]} c5 {[%emt 0:01:22]} 20.
+dxc5 {[%emt 0:02:11]} bxc5 {[%emt 0:00:17]} 21. Be4 {[%emt 0:00:50]} 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.02.04"]
+[Round "3.6"]
+[White "Gomez Anadon, Daniel"]
+[Black "Moreno Sanchis, Jordi"]
+[Result "1/2-1/2"]
+[ECO "C41"]
+[WhiteElo "2294"]
+[BlackElo "2368"]
+[PlyCount "24"]
+[EventDate "2023.??.??"]
+[WhiteTeam "AD"]
+
+1. e4 e5 2. Nf3 d6 3. d4 exd4 4. Nxd4 g6 5. Nc3 Bg7 6. Be3 Nf6 7. Be2 O-O 8.
+Qd2 Re8 9. Bg5 Nc6 10. Nxc6 bxc6 11. O-O Rb8 12. Rab1 Qe7 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.02.18"]
+[Round "5.7"]
+[White "Moreno Sanchis, Jordi"]
+[Black "Perez Manas, Benjamin"]
+[Result "0-1"]
+[ECO "D37"]
+[WhiteElo "2368"]
+[BlackElo "2313"]
+[PlyCount "46"]
+[EventDate "2023.??.??"]
+
+1. Nf3 d5 2. c4 e6 3. d4 Nf6 4. Nc3 dxc4 5. e3 a6 6. Bxc4 b5 7. Bd3 Bb7 8. a3
+c5 9. dxc5 Bxc5 10. b4 Be7 11. O-O Nbd7 12. Bb2 O-O 13. Qe2 Qb8 14. Rfd1 Bd6
+15. h3 h6 16. Rac1 Rd8 17. e4 Ne5 18. Nxe5 Bxe5 19. a4 Bc6 20. axb5 axb5 21.
+Bb1 Qb7 22. Rxd8+ Rxd8 23. f3 Nh5 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.04.15"]
+[Round "11.7"]
+[White "Moreno Sanchis, Jordi"]
+[Black "Pinsach Gelabert, Alexandre"]
+[Result "0-1"]
+[ECO "B07"]
+[WhiteElo "2368"]
+[BlackElo "2317"]
+[PlyCount "78"]
+[SourceVersionDate "2022.12.30"]
+
+1. g3 Nf6 2. Bg2 g6 3. e4 d6 4. d4 Bg7 5. Nc3 O-O 6. Nge2 Nbd7 7. h3 c5 8. Be3
+cxd4 9. Bxd4 Qa5 10. O-O Rb8 11. a4 Nc5 12. f4 Be6 13. Qe1 Bc4 14. Rf2 Qb4 15.
+e5 dxe5 16. Bxe5 Rbd8 17. b3 Ba6 18. g4 Rd7 19. g5 Nh5 20. Bxg7 Kxg7 21. Nd5
+Qxe1+ 22. Rxe1 e6 23. Ndc3 Rfd8 24. Bf3 Rd2 25. Rc1 h6 26. b4 Bxe2 27. Bxe2 Na6
+28. b5 Nc5 29. Bxh5 gxh5 30. Rcf1 R8d4 31. gxh6+ Kxh6 32. f5 e5 33. a5 Kg5 34.
+Ne2 Rc4 35. c3 Ne4 36. Rg2+ Kf6 37. Rf3 Ra2 38. Ng3 Ra1+ 39. Kh2 Nxg3 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.02.03"]
+[Round "3.9"]
+[White "Moreno Sanchis, Jordi"]
+[Black "Serra Pages, Jordi"]
+[Result "1/2-1/2"]
+[ECO "A00"]
+[WhiteElo "2328"]
+[BlackElo "2300"]
+[PlyCount "43"]
+[EventDate "2024.??.??"]
+
+1. g3 Nf6 2. Bg2 d5 3. d3 g6 4. b3 Bg7 5. Bb2 O-O 6. Nf3 b6 7. c4 Bb7 8. cxd5
+Nxd5 9. Qd2 Nc6 10. Bxg7 Kxg7 11. Qb2+ Kg8 12. Nbd2 e6 13. a3 Qe7 14. d4 Rfd8
+15. O-O Qf8 16. e4 Nde7 17. h4 Qg7 18. e5 Nd5 19. Ne4 Nce7 20. Qd2 h6 21. b4 f5
+22. Nc3 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "Barcelona"]
+[Date "2024.02.10"]
+[Round "4.9"]
+[White "Fernandez Goyanes, Francesc"]
+[Black "Moreno Sanchis, Jordi"]
+[Result "0-1"]
+[ECO "D00"]
+[WhiteElo "2047"]
+[BlackElo "2216"]
+[PlyCount "76"]
+[EventDate "2024.??.??"]
+[TimeControl "90+30"]
+[WhiteClock "0:07:19"]
+[BlackClock "0:20:27"]
+
+1. d4 {[%emt 0:00:10]} Nf6 {[%emt 0:02:51]} 2. Nc3 {[%emt 0:00:17]} d5 {
+[%emt 0:01:51]} 3. Bf4 {[%emt 0:00:09]} Bf5 {[%emt 0:02:23]} 4. f3 {[%emt 0:00:
+35]} e6 {[%emt 0:02:40]} 5. g4 {[%emt 0:01:29]} Bg6 {[%emt 0:01:03]} 6. h4 {
+[%emt 0:00:08]} h6 {[%emt 0:05:31]} 7. e3 {[%emt 0:00:17]} Bd6 {[%emt 0:02:42]}
+8. Nge2 {[%emt 0:04:41]} Nbd7 {[%emt 0:22:12]} 9. Bxd6 {[%emt 0:03:11]} cxd6 {
+[%emt 0:00:15]} 10. Nf4 {[%emt 0:00:14]} Bh7 {[%emt 0:02:03]} 11. Bd3 {[%emt 0:
+14:57]} Qb6 {[%emt 0:00:28]} 12. Rb1 {[%emt 0:11:13]} O-O-O {[%emt 0:03:36]}
+13. Bxh7 {[%emt 0:06:42]} Rxh7 {[%emt 0:00:54]} 14. Qd3 {[%emt 0:00:52]} Rhh8 {
+[%emt 0:01:34]} 15. h5 {[%emt 0:02:28]} Qc6 {[%emt 0:03:18]} 16. Kf2 {[%emt 0:
+03:39]} Rhe8 {[%emt 0:05:40]} 17. Qb5 {[%emt 0:09:28]} Qc7 {[%emt 0:03:07]} 18.
+Nce2 {[%emt 0:03:28]} Nb6 {[%emt 0:02:00]} 19. b3 {[%emt 0:01:02]} e5 {[%emt 0:
+01:03]} 20. Ng2 {[%emt 0:06:27]} e4 {[%emt 0:02:26]} 21. c4 {[%emt 0:02:38]}
+Qe7 {[%emt 0:07:24]} 22. Ng3 {[%emt 0:04:05]} exf3 {[%emt 0:06:00]} 23. Kxf3 {
+[%emt 0:00:50]} Qe6 {[%emt 0:00:27]} 24. Rh4 {[%emt 0:00:59]} Ne4 {[%emt 0:06:
+32]} 25. Rbh1 {[%emt 0:06:59]} Qf6+ {[%emt 0:01:09]} 26. Nf5 {[%emt 0:01:33]}
+g6 {[%emt 0:01:53]} 27. hxg6 {[%emt 0:00:34]} fxg6 {[%emt 0:00:02]} 28. Rxh6 {
+[%emt 0:00:32]} Qf7 {[%emt 0:00:04]} 29. Rh7 {[%emt 0:00:41]} Ng5+ {[%emt 0:00:
+09]} 30. Kg3 {[%emt 0:01:18]} Nxh7 {[%emt 0:00:14]} 31. Rxh7 {[%emt 0:00:23]}
+Qxh7 {[%emt 0:00:35]} 32. Nxd6+ {[%emt 0:00:16]} Rxd6 {[%emt 0:00:43]} 33.
+Qxe8+ {[%emt 0:00:27]} Rd8 {[%emt 0:00:06]} 34. Qe6+ {[%emt 0:00:35]} Qd7 {
+[%emt 0:01:25]} 35. Qxd7+ {[%emt 0:01:10]} Kxd7 {[%emt 0:00:29]} 36. c5 {
+[%emt 0:00:09]} Nc8 {[%emt 0:00:07]} 37. Nf4 {[%emt 0:00:34]} Ne7 {[%emt 0:00:
+03]} 38. Nd3 {[%emt 0:00:36]} Ke6 {[%emt 0:00:30]} 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.02.17"]
+[Round "5.8"]
+[White "Garcia Marin, Guillem"]
+[Black "Moreno Sanchis, Jordi"]
+[Result "1/2-1/2"]
+[ECO "A48"]
+[WhiteElo "2203"]
+[BlackElo "2328"]
+[PlyCount "52"]
+[EventDate "2024.??.??"]
+
+1. d4 g6 2. Nf3 Bg7 3. c3 Nf6 4. Bg5 b6 5. e3 Bb7 6. Nbd2 d6 7. Be2 Nbd7 8. O-O
+O-O 9. h3 e5 10. dxe5 dxe5 11. Nc4 Qe7 12. Qc2 h6 13. Bh4 g5 14. Bg3 Ne4 15.
+Bh2 f5 16. Nfd2 Nec5 17. Rfe1 Rae8 18. Rad1 Qf7 19. b4 Ne6 20. Nf3 g4 21. Rxd7
+Qxd7 22. Ncxe5 Bxe5 23. Nxe5 Qg7 24. hxg4 h5 25. Bc4 hxg4 26. Rd1 Bc8 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.03.09"]
+[Round "8.10"]
+[White "Travesset Ribera, Daniel"]
+[Black "Moreno Sanchis, Jordi"]
+[Result "1-0"]
+[ECO "A21"]
+[WhiteElo "2252"]
+[BlackElo "2328"]
+[PlyCount "45"]
+[EventDate "2024.04.13"]
+[EventType "team"]
+[EventRounds "11"]
+[EventCountry "CAT"]
+
+1. Nf3 g6 2. c4 Bg7 3. g3 e5 4. Nc3 f5 5. d4 e4 6. Bg5 Nf6 7. Ng1 h6 8. Bxf6
+Qxf6 9. e3 c5 10. Nd5 Qd8 11. Ne2 Nc6 12. Nef4 Kf7 13. Be2 cxd4 14. exd4 Nxd4
+15. O-O d6 16. f3 exf3 17. Bxf3 Bd7 18. Bg2 Rc8 19. Nc3 Bc6 20. Nfd5 Be8 21. h4
+Ne6 22. h5 f4 23. Ne4 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.02.28"]
+[Round "7.7"]
+[White "Calvo Bures, Marc"]
+[Black "Moreno Sanchis, Jordi"]
+[Result "1/2-1/2"]
+[ECO "C46"]
+[PlyCount "56"]
+[EventDate "2026.01.27"]
+
+1. e4 e5 2. Nf3 d6 3. d4 exd4 4. Nxd4 g6 5. Nc3 Bg7 6. Be3 Nf6 7. f3 O-O 8. Qd2
+Nc6 9. O-O-O d5 10. exd5 Nxd5 11. Nxc6 bxc6 12. Bd4 Be6 13. Bxg7 Kxg7 14. Qd4+
+Qf6 15. Ne4 Qxd4 16. Rxd4 Ne3 17. g4 Rad8 18. Rxd8 Rxd8 19. Be2 Bd5 20. Nc3 Be6
+21. b3 f5 22. Re1 Kf6 23. Bd3 Ng2 24. g5+ Kf7 25. Re5 Bd5 26. Bc4 Bxc4 27. bxc4
+Nh4 28. f4 Ng2 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "1988.??.??"]
+[Round "?"]
+[White "Moreno Sanchis, Jordi"]
+[Black "Julian"]
+[Result "1-0"]
+[ECO "C72"]
+[PlyCount "45"]
+[EventDate "1988.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 d6 5. O-O Bg4 6. h3 h5 7. d4 b5 8. Bb3
+Nxd4 9. hxg4 hxg4 10. Ng5 Nh6 11. f4 c5 12. Bd5 Ra7 13. c3 Ne6 14. Bc6+ Ke7 15.
+Nxe6 Qb6 16. fxe5 Qxc6 17. Nxf8 Kxf8 18. Qxd6+ Qxd6 19. exd6 Rd7 20. Bf4 g5 21.
+Bg3 f5 22. exf5 Nf7 23. Nd2 1-0
+
+[Event "C. E. Catalunya Club op"]
+[Site "Barcelona"]
+[Date "1988.??.??"]
+[Round "?"]
+[White "Melchor Muñoz, Alejandro"]
+[Black "Moreno Sanchis, Jordi"]
+[Result "0-1"]
+[ECO "B44"]
+[PlyCount "36"]
+[EventDate "1988.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+[Source " during import"]
+[SourceDate "2555904.??.??"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Be3 Qc7 6. Nb5 Qb8 7. c4 Nf6 8.
+N5c3 Be7 9. Be2 O-O 10. O-O a6 11. Nd2 Qc7 12. Na4 d6 13. Qb3 Rb8 14. Bb6 Qd7
+15. Rad1 Bd8 16. c5 Nd4 17. Qc4 Nxe2+ 18. Kh1 Nf4 0-1
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1991.??.??"]
+[Round "?"]
+[White "Simon Padros, Emilio"]
+[Black "Moreno Sanchis, Jordi"]
+[Result "0-1"]
+[ECO "C63"]
+[PlyCount "60"]
+[EventDate "1991.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 f5 4. d3 fxe4 5. dxe4 Nf6 6. Bg5 Bb4+ 7. c3 Bc5 8.
+Qe2 d6 9. b4 Bb6 10. Bc4 Qe7 11. O-O h6 12. Bh4 g5 13. Bg3 Nh5 14. Kh1 Bg4 15.
+Nbd2 Nf4 16. Bxf4 exf4 17. Bd5 Bd7 18. Bxc6 Bxc6 19. Nd4 Bd7 20. Nc4 g4 21.
+Rae1 Bxd4 22. cxd4 Rf8 23. Qd3 O-O-O 24. Rc1 Kb8 25. Rfe1 Qh4 26. g3 Qh3 27.
+Qc3 fxg3 28. Qxg3 Qh5 29. Rc3 Qg5 30. Rec1 Rf3 0-1
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1991.??.??"]
+[Round "?"]
+[White "Vidarte Morales, Arturo"]
+[Black "Moreno Sanchis, Jordi"]
+[Result "1-0"]
+[ECO "B01"]
+[PlyCount "41"]
+[EventDate "1991.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. Nf3 Nf6 5. Bc4 Nc6 6. h3 Ne5 7. Bb5+ c6 8.
+Nxe5 cxb5 9. Qe2 a6 10. O-O g6 11. b4 Qc7 12. a4 bxa4 13. Rxa4 Bf5 14. b5 Bxc2
+15. Rc4 Qb6 16. bxa6 Bb3 17. Nb5 Nd5 18. Qd3 Bxc4 19. Nxc4 Qc6 20. Ne5 Qe6 21.
+axb7 1-0
+
+[Event "Camp. Catalunya juv."]
+[Site "Malgrat de Mar"]
+[Date "1991.??.??"]
+[Round "?"]
+[White "Moreno Sanchis, Jordi"]
+[Black "Guzman, Josep Lluis"]
+[Result "0-1"]
+[ECO "D07"]
+[PlyCount "44"]
+[EventDate "1991.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 Nc6 3. Nc3 Nf6 4. e3 dxc4 5. Bxc4 e5 6. d5 Nb8 7. Nge2 Nbd7 8.
+O-O Nb6 9. Bb3 Bb4 10. e4 O-O 11. f4 Ng4 12. Qe1 f5 13. exf5 Rxf5 14. h3 Bc5+
+15. Kh1 Rh5 16. Ng3 Rxh3+ 17. gxh3 Qh4 18. Kg2 Nf2 19. Rxf2 Bxh3+ 20. Kf3 Qg4+
+21. Ke4 Qxg3 22. Be3 Bf5+ 0-1
+
+[Event "Foment op"]
+[Site "Barcelona"]
+[Date "1991.??.??"]
+[Round "?"]
+[White "Gil Gonzalez, Jose Manuel"]
+[Black "Moreno Sanchis, Jordi"]
+[Result "1-0"]
+[ECO "C10"]
+[PlyCount "81"]
+[EventDate "1991.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 e6 2. e4 d5 3. Nc3 a6 4. exd5 exd5 5. Bd3 Nf6 6. Nge2 Nc6 7. O-O Be7 8.
+h3 Nb4 9. Ng3 Nxd3 10. Qxd3 O-O 11. Bg5 h6 12. Bd2 Re8 13. Rae1 c6 14. Kh1 Bd6
+15. Qf3 Rxe1 16. Rxe1 Bd7 17. Nce2 Nh7 18. Bf4 Qe7 19. Bxd6 Qxd6 20. Qb3 Qc7
+21. Nc1 Re8 22. Rxe8+ Bxe8 23. Nd3 Bd7 24. Nc5 Bc8 25. Qe3 Kf8 26. c3 Ng5 27.
+f4 Nh7 28. b4 Nf6 29. a4 Qe7 30. Qe5 Qxe5 31. dxe5 Nd7 32. Nxd7+ Bxd7 33. a5 g6
+34. Kg1 Ke7 35. Kf2 Ke6 36. Ke3 g5 37. fxg5 hxg5 38. Kd4 Bc8 39. Nh5 Kf5 40.
+g4+ Ke6 41. Nf6 1-0
+
+[Event "Foment op"]
+[Site "Barcelona"]
+[Date "1991.??.??"]
+[Round "?"]
+[White "Molina"]
+[Black "Moreno Sanchis, Jordi"]
+[Result "0-1"]
+[ECO "A46"]
+[PlyCount "62"]
+[EventDate "1991.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 e6 3. Bg5 Be7 4. c4 b6 5. g3 Bb7 6. Nc3 Ne4 7. Bxe7 Qxe7 8.
+Nxe4 Bxe4 9. Qd2 a5 10. Bg2 Qb4 11. Rd1 Qxc4 12. Ne5 Qd5 13. Qf4 Bxg2 14. Qxf7+
+Kd8 15. Qxg7 Re8 16. Rg1 Be4 17. f3 Bg6 18. h4 Re7 19. Qf8+ Be8 20. e4 Qxa2 21.
+Rg2 d6 22. d5 exd5 23. Qf6 dxe4 24. Rgd2 Bd7 25. Qf8+ Re8 26. Nf7+ Kc8 27. Qg7
+exf3+ 28. Kf1 Qe6 29. Rc1 Bb5+ 30. Kg1 Qe3+ 31. Kh1 Qxd2 0-1
+
+[Event "El Vendrell op"]
+[Site "El Vendrell"]
+[Date "1991.??.??"]
+[Round "?"]
+[White "Ionescu, Constantin"]
+[Black "Moreno Sanchis, Jordi"]
+[Result "1-0"]
+[ECO "A42"]
+[PlyCount "67"]
+[EventDate "1991.09.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. d4 g6 2. c4 Bg7 3. e4 d6 4. Nc3 e5 5. d5 Ne7 6. Bd3 Nd7 7. Nge2 O-O 8. O-O
+f5 9. exf5 gxf5 10. f4 e4 11. Bc2 Nf6 12. Be3 c6 13. h3 c5 14. Rb1 b6 15. Ba4
+Ba6 16. b3 Kh8 17. Rf2 Rg8 18. Bc1 Ng6 19. Bc6 Rc8 20. Qd2 Qe7 21. Nd1 Nh5 22.
+Ne3 Nh4 23. Kf1 Bf6 24. g4 Nf3 25. Qd1 Ng7 26. g5 Bd4 27. Rxf3 exf3 28. Nxd4
+cxd4 29. Qxd4 b5 30. cxb5 Rxc6 31. dxc6 Bxb5+ 32. Kf2 Bxc6 33. Bb2 h6 34. Qf6
+1-0

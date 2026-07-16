@@ -1,0 +1,1389 @@
+[Event "Salou op"]
+[Site "Salou"]
+[Date "2017.04.29"]
+[Round "1"]
+[White "Plasencia Martinez, Victor"]
+[Black "Alvarez Albiol, Daniel"]
+[Result "1-0"]
+[ECO "C02"]
+[WhiteElo "2153"]
+[BlackElo "1553"]
+[PlyCount "77"]
+[EventDate "2017.04.29"]
+[EventType "swiss"]
+[EventRounds "6"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 178 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.06.22"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.06.22"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 e6 3. c3 Nc6 4. d4 cxd4 5. cxd4 d5 6. e5 Bb4+ 7. Bd2 Bxd2+ 8.
+Qxd2 Nge7 9. Bd3 Ng6 10. Nc3 a6 11. O-O O-O 12. Rac1 Bd7 13. Rfe1 Na5 14. b3
+Rc8 15. g3 Bc6 16. h4 b5 17. Qe2 Ne7 18. Kg2 h6 19. Nd1 Bd7 20. Ne3 Nac6 21.
+Bb1 h5 22. Ng5 g6 23. Qd2 Kg7 24. Kh2 f6 25. exf6+ Rxf6 26. Ng2 Qf8 27. Nf4 Qg8
+28. Re2 Nd8 29. Rce1 Rc6 30. Re5 Bc8 31. Kg1 Bd7 32. Qe2 Bc8 33. Kg2 Bd7 34.
+Qd2 Bc8 35. Nf3 Bd7 36. Rg5 Kh7 37. Rxh5+ Kg7 38. Rg5 Nf5 39. Nh5+ 1-0
+
+[Event "Salou op"]
+[Site "Salou"]
+[Date "2017.04.29"]
+[Round "2"]
+[White "Rodriguez Marcos, Jose Ramon"]
+[Black "Plasencia Martinez, Victor"]
+[Result "1/2-1/2"]
+[ECO "C79"]
+[WhiteElo "1914"]
+[BlackElo "2153"]
+[PlyCount "55"]
+[EventDate "2017.04.29"]
+[EventType "swiss"]
+[EventRounds "6"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 178 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.06.22"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.06.22"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 d6 5. O-O Bd7 6. c3 g6 7. Re1 Bg7 8. d4 b5
+9. Bb3 Nf6 10. Nbd2 O-O 11. Nf1 h6 12. Ng3 Qe7 13. h3 Na5 14. Bc2 c5 15. a4
+cxd4 16. cxd4 Nc6 17. Be3 Kh7 18. Qd2 Rfb8 19. axb5 axb5 20. d5 Nd8 21. b4 Ne8
+22. Bd3 Nc7 23. Rec1 Rxa1 24. Rxa1 f5 25. Ra7 Nxd5 26. exf5 Nc6 27. fxg6+ Kh8
+28. Nf5 1/2-1/2
+
+[Event "Salou op"]
+[Site "Salou"]
+[Date "2017.04.30"]
+[Round "3"]
+[White "Plasencia Martinez, Victor"]
+[Black "Farre Selma, David"]
+[Result "1/2-1/2"]
+[ECO "B07"]
+[WhiteElo "2153"]
+[BlackElo "1918"]
+[PlyCount "65"]
+[EventDate "2017.04.29"]
+[EventType "swiss"]
+[EventRounds "6"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 178 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.06.22"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.06.22"]
+[SourceQuality "1"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 c6 4. f4 Qa5 5. Bd3 e5 6. Nf3 Bg4 7. Be3 Nbd7 8. O-O
+exd4 9. Bxd4 Be7 10. a3 O-O 11. h3 Bxf3 12. Qxf3 c5 13. Be3 a6 14. g4 h6 15.
+Qg2 Nh7 16. Nd5 Qd8 17. c4 Nb6 18. Nc3 Bf6 19. e5 dxe5 20. Qc2 g6 21. Bxc5 Be7
+22. Bxe7 Qxe7 23. b4 exf4 24. Rae1 Qh4 25. Qg2 Ng5 26. Kh2 Rad8 27. Nd5 Nxd5
+28. cxd5 f3 29. Qg3 Qxg3+ 30. Kxg3 Rxd5 31. Bb1 Rfd8 32. h4 Nh7 33. Kxf3
+1/2-1/2
+
+[Event "Salou op"]
+[Site "Salou"]
+[Date "2017.04.30"]
+[Round "4"]
+[White "Subarroca Blanch, Francesco"]
+[Black "Plasencia Martinez, Victor"]
+[Result "0-1"]
+[ECO "B30"]
+[WhiteElo "1744"]
+[BlackElo "2153"]
+[PlyCount "54"]
+[EventDate "2017.04.29"]
+[EventType "swiss"]
+[EventRounds "6"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 178 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.06.22"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.06.22"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bc4 e6 4. c3 d5 5. exd5 exd5 6. Bb3 Bg4 7. h3 Qe7+ 8.
+Qe2 Bxf3 9. gxf3 Qxe2+ 10. Kxe2 O-O-O 11. f4 c4 12. Bc2 d4 13. d3 dxc3 14. bxc3
+cxd3+ 15. Bxd3 Nf6 16. Be3 Bd6 17. Kf3 Rhe8 18. c4 g6 19. a3 Bxf4 20. Bxg6 Bxe3
+21. Bf5+ Kb8 22. fxe3 Ne5+ 23. Kf4 Nxc4 24. e4 Rd3 25. Re1 h6 26. Re2 Ne5 27.
+Nd2 Nh5# 0-1
+
+[Event "Salou op"]
+[Site "Salou"]
+[Date "2017.05.01"]
+[Round "5"]
+[White "Plasencia Martinez, Victor"]
+[Black "Suarez Roa, Jose Francisco"]
+[Result "1-0"]
+[ECO "B30"]
+[WhiteElo "2153"]
+[BlackElo "2052"]
+[PlyCount "107"]
+[EventDate "2017.04.29"]
+[EventType "swiss"]
+[EventRounds "6"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 178 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.06.22"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.06.22"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 Na5 4. c3 a6 5. Ba4 b5 6. Bc2 d6 7. h3 Nf6 8. O-O e6
+9. Re1 Be7 10. d4 Bb7 11. Nbd2 Rc8 12. Nf1 Qc7 13. Bd3 cxd4 14. cxd4 Nc6 15. a3
+e5 16. d5 Nb8 17. a4 bxa4 18. Rxa4 O-O 19. Ng3 Nbd7 20. Be3 g6 21. Bxa6 Bxa6
+22. Rxa6 Qb7 23. Qe2 Ra8 24. Rxa8 Rxa8 25. Rc1 Ra4 26. Qc2 Rb4 27. Rb1 Bd8 28.
+Bd2 Rb3 29. Bc3 Nc5 30. Bxe5 dxe5 31. Qxc5 Nd7 32. Qc2 Bb6 33. Kh2 Ba7 34. Nd2
+Rb4 35. Nf3 Qb5 36. Qc8+ Kg7 37. Qe8 Bxf2 38. Ng5 Bxg3+ 39. Kxg3 Qd3+ 40. Kh2
+Qxb1 41. Qxf7+ Kh6 42. h4 Nf6 43. Qxf6 Rb7 44. Qf8+ Kh5 45. Qf3+ Kh6 46. Qf8+
+Kh5 47. Qf3+ Kh6 48. Ne6 Qc1 49. Qf8+ Kh5 50. Qf3+ Kh6 51. Qf6 Rxb2 52. Qg7+
+Kh5 53. Qxh7+ Qh6 54. Ng7+ 1-0
+
+[Event "Salou op"]
+[Site "Salou"]
+[Date "2017.05.01"]
+[Round "6"]
+[White "Pribeanu, Mihai Dacian"]
+[Black "Plasencia Martinez, Victor"]
+[Result "0-1"]
+[ECO "B25"]
+[WhiteElo "2119"]
+[BlackElo "2153"]
+[PlyCount "58"]
+[EventDate "2017.04.29"]
+[EventType "swiss"]
+[EventRounds "6"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 178 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.06.22"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.06.22"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nc3 Nc6 3. d3 g6 4. g3 d6 5. Bg2 Bd7 6. f4 Bg7 7. Nf3 Qc8 8. h3 Rb8
+9. a4 a6 10. Be3 Nd4 11. g4 e6 12. O-O Ne7 13. a5 Qc7 14. Nd2 O-O 15. Nc4 Bc6
+16. Qd2 f5 17. e5 d5 18. Nd6 Nxc2 19. Qxc2 d4 20. Qb3 Qd7 21. Na4 Bxa4 22. Qxa4
+Qxa4 23. Rxa4 dxe3 24. g5 b5 25. Raa1 Nd5 26. Rac1 Nxf4 27. Rxf4 Bxe5 28. Rf3
+Bxd6 29. Rxe3 Bf4 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2019.01.19"]
+[Round "1.6"]
+[White "Morros Faura, Ricard"]
+[Black "Plasencia Martinez, Victor"]
+[Result "1-0"]
+[ECO "C45"]
+[WhiteElo "2189"]
+[BlackElo "2177"]
+[PlyCount "57"]
+[EventDate "2019.01.19"]
+[WhiteTeam "Mollet"]
+[BlackTeam "Escola Salou"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 bxc6 6. Bd3 d5 7. e5 Ng4 8.
+O-O Bc5 9. Bf4 O-O 10. h3 Nxf2 11. Rxf2 Bxf2+ 12. Kxf2 Qh4+ 13. Bg3 Qd4+ 14.
+Kf1 Qxb2 15. Nd2 f5 16. Rb1 Qxa2 17. Nb3 Ba6 18. Bxa6 Qxa6+ 19. Kg1 Qc4 20. Bf2
+a5 21. Bd4 Rfb8 22. Ra1 a4 23. Nc5 Ra5 24. c3 Rxc5 25. Qh5 g6 26. Qh6 Re8 27.
+e6 Re7 28. Re1 Rb5 29. Qg5 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2019.02.02"]
+[Round "3.8"]
+[White "Parals Marce, Luis"]
+[Black "Plasencia Martinez, Victor"]
+[Result "1/2-1/2"]
+[ECO "A38"]
+[WhiteElo "2049"]
+[BlackElo "2177"]
+[PlyCount "73"]
+[EventDate "2019.01.19"]
+[WhiteTeam "Figueres"]
+[BlackTeam "Escola Salou"]
+
+1. Nf3 Nf6 2. c4 c5 3. b3 g6 4. Bb2 Bg7 5. g3 O-O 6. Bg2 Nc6 7. O-O d6 8. Nc3
+Bd7 9. h3 a6 10. Nd5 Nxd5 11. Bxg7 Ne3 12. dxe3 Kxg7 13. Nd2 Rb8 14. Qc2 Kg8
+15. Rfd1 Qc8 16. Kh2 b5 17. cxb5 axb5 18. Qe4 Ne5 19. Qh4 f6 20. f4 Nf7 21. g4
+Bc6 22. Qg3 Qb7 23. Nf3 Qb6 24. h4 Kh8 25. g5 f5 26. h5 Rg8 27. h6 Rgd8 28. Qe1
+e5 29. Qc3 b4 30. Qd2 Kg8 31. Ne1 e4 32. Qb2 Kf8 33. Qg7+ Ke7 34. Nc2 Bb5 35.
+Qf6+ Kf8 36. Qg7+ Ke7 37. Qf6+ 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2019.02.09"]
+[Round "4.7"]
+[White "Arias Boo, Guillermo"]
+[Black "Plasencia Martinez, Victor"]
+[Result "1/2-1/2"]
+[ECO "C47"]
+[WhiteElo "2250"]
+[BlackElo "2177"]
+[PlyCount "85"]
+[EventDate "2019.01.19"]
+[WhiteTeam "Foment Martinenc"]
+[BlackTeam "Escola Salou"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. d4 exd4 5. Nxd4 Bb4 6. Nxc6 bxc6 7. Bd3 d5 8.
+exd5 cxd5 9. O-O O-O 10. Bg5 c6 11. Qf3 Bd6 12. h3 Rb8 13. b3 Be5 14. Bf4 Bxc3
+15. Bxb8 Bxa1 16. Rxa1 Bg4 17. hxg4 Qxb8 18. Re1 Re8 19. Rxe8+ Qxe8 20. Kf1 Qe5
+21. Qf5 Qa1+ 22. Ke2 g6 23. Qf4 Nd7 24. a4 Kg7 25. g5 Qc3 26. Qd2 Qe5+ 27. Qe3
+f6 28. f4 Qxe3+ 29. Kxe3 fxg5 30. fxg5 Kf7 31. b4 Ke7 32. a5 Kd6 33. c3 Ke5 34.
+Ba6 Kd6 35. Bc8 Ne5 36. g3 Nf7 37. Kf4 Ne5 38. Bh3 Nd3+ 39. Ke3 Ne5 40. Bf1
+Ng4+ 41. Kf4 Ne5 42. Be2 Ke6 43. Bf1 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2019.02.16"]
+[Round "5.9"]
+[White "Plasencia Martinez, Victor"]
+[Black "Guso Llorca, Jordi"]
+[Result "1/2-1/2"]
+[ECO "B12"]
+[WhiteElo "2177"]
+[BlackElo "2079"]
+[PlyCount "107"]
+[EventDate "2019.01.19"]
+[WhiteTeam "Escola Salou"]
+[BlackTeam "Gerunda"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bd3 Bxd3 6. Qxd3 e6 7. Bg5 Be7 8. Nf3
+Nd7 9. O-O Nh6 10. Nbd2 Nf5 11. g3 Qc7 12. Bxe7 Nxe7 13. c4 Qb6 14. a4 Nf5 15.
+a5 Qd8 16. cxd5 cxd5 17. Qb5 O-O 18. Qxb7 Qe7 19. Rfc1 Nxe5 20. Qxe7 Nxf3+ 21.
+Nxf3 Nxe7 22. Rc7 Nf5 23. Rac1 Nd6 24. R1c6 Rfc8 25. Rxc8+ Nxc8 26. Rc7 f6 27.
+Rd7 Kf8 28. a6 Ne7 29. Kf1 Nc6 30. Rc7 Nb4 31. Rb7 Nxa6 32. Ne1 Nb8 33. Rc7 Na6
+34. Rc6 Nb4 35. Rxe6 Kf7 36. Re3 Rc8 37. Ra3 Rc7 38. Ra5 a6 39. Ke2 Rc6 40. Ra4
+Rb6 41. Kd2 Ke6 42. Kc3 Nc6 43. Nd3 a5 44. Nf4+ Kd6 45. Nxh5 Rb7 46. Nf4 g5 47.
+hxg5 fxg5 48. Nd3 Re7 49. Ne5 Nxe5 50. dxe5+ Rxe5 51. Kd3 Rf5 52. Ke3 Kc6 53.
+b3 Kb5 54. f4 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2019.02.23"]
+[Round "6.9"]
+[White "Travesset Ribera, Daniel"]
+[Black "Plasencia Martinez, Victor"]
+[Result "1/2-1/2"]
+[ECO "A39"]
+[WhiteElo "2118"]
+[BlackElo "2177"]
+[PlyCount "51"]
+[EventDate "2019.01.19"]
+[WhiteTeam "Sant Andreu"]
+[BlackTeam "Escola Salou"]
+
+1. Nf3 Nf6 2. c4 c5 3. g3 g6 4. Bg2 Bg7 5. Nc3 O-O 6. O-O Nc6 7. d4 cxd4 8.
+Nxd4 Nxd4 9. Qxd4 d6 10. Qd3 Bf5 11. e4 Be6 12. b3 Nd7 13. Bb2 Nc5 14. Qd2 a5
+15. Nb5 Bxb2 16. Qxb2 Bd7 17. Nd4 Qb6 18. Qd2 Rac8 19. Rfe1 a4 20. e5 axb3 21.
+Nxb3 Nxb3 22. axb3 Qxb3 23. exd6 exd6 24. Qxd6 Bc6 25. Bxc6 Rxc6 26. Qd7
+1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2019.03.02"]
+[Round "7.8"]
+[White "Codina Garcia, Jose"]
+[Black "Plasencia Martinez, Victor"]
+[Result "1/2-1/2"]
+[ECO "D01"]
+[WhiteElo "2081"]
+[BlackElo "2177"]
+[PlyCount "47"]
+[EventDate "2019.01.19"]
+[WhiteTeam "Lleida"]
+[BlackTeam "Escola Salou"]
+
+1. d4 Nf6 2. Nc3 d5 3. Bg5 Nbd7 4. e3 e6 5. Nf3 Be7 6. Bd3 O-O 7. O-O c5 8. Re1
+c4 9. Bf1 b5 10. a3 h6 11. Bxf6 Nxf6 12. e4 b4 13. e5 Nh7 14. Nb1 Qb6 15. axb4
+Qxb4 16. Ra2 Bd7 17. Nc3 a5 18. Qa1 Rfb8 19. h4 a4 20. Re3 Qb6 21. g3 g5 22.
+hxg5 Nxg5 23. Qd1 Qd8 24. Nb1 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2019.03.16"]
+[Round "9.7"]
+[White "Hernandez, Cristian Andres"]
+[Black "Plasencia Martinez, Victor"]
+[Result "1-0"]
+[ECO "A56"]
+[WhiteElo "2320"]
+[BlackElo "2177"]
+[PlyCount "117"]
+[EventDate "2019.03.09"]
+[WhiteTeam "Barbera"]
+[BlackTeam "Escola Salou"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e5 4. Nc3 d6 5. e4 Be7 6. Nf3 Nbd7 7. Be2 Nf8 8. h4 h5
+9. Ng5 Ng6 10. g3 Bd7 11. Bd2 a6 12. a3 Rb8 13. a4 b6 14. Rb1 a5 15. b3 Qc8 16.
+Nb5 Rb7 17. Na3 Nf8 18. Nc2 N8h7 19. Nxh7 Rxh7 20. Bd3 g6 21. Bc3 Ng4 22. f3
+Nh6 23. f4 exf4 24. gxf4 Qd8 25. Kd2 Bxh4 26. Ne3 Ng4 27. Nxg4 Bxg4 28. Qg1 f5
+29. e5 Kf8 30. Kc2 Rhf7 31. Rf1 Rh7 32. Qh2 Be7 33. Rhg1 Kg8 34. Re1 Rd7 35.
+Re3 Bh4 36. Rh1 Be7 37. Rg3 Bf8 38. Kb1 Rdf7 39. Re1 Be7 40. Rgg1 Bh4 41. Re3
+Rd7 42. Ba1 Be7 43. Rge1 Bh4 44. Rg1 Be7 45. Bc3 Bh4 46. Ka2 Be7 47. Be1 Ra7
+48. Qc2 Kf8 49. Bc3 Rf7 50. exd6 Bxd6 51. Re6 Bxf4 52. Rxg6 Be3 53. Re1 f4 54.
+Rh6 Ke7 55. Qh2 Ke8 56. Rh8+ Rf8 57. Qxf4 Rxh8 58. Rxe3+ Re7 59. Bxh8 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2019.03.23"]
+[Round "10.6"]
+[White "Varela La Madrid, Tilsia Carolina"]
+[Black "Plasencia Martinez, Victor"]
+[Result "1/2-1/2"]
+[ECO "C55"]
+[WhiteElo "2086"]
+[BlackElo "2177"]
+[PlyCount "240"]
+[EventDate "2019.03.09"]
+[WhiteTeam "Mollet"]
+[BlackTeam "Escola Salou"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Be7 5. c3 O-O 6. Bb3 d6 7. Nbd2 Na5 8. Bc2
+c5 9. h3 Qc7 10. Nf1 Re8 11. Ne3 Nc6 12. g4 Be6 13. Nf5 Nd7 14. Ng5 Bxg5 15.
+Bxg5 Nf8 16. Qf3 f6 17. Bd2 Qd7 18. g5 fxg5 19. Bxg5 Ng6 20. Qg4 Kh8 21. h4
+Nge7 22. Bxe7 Bxf5 23. exf5 Nxe7 24. Rg1 Nxf5 25. O-O-O Rf8 26. h5 Qf7 27. Kb1
+d5 28. d4 cxd4 29. cxd4 e4 30. Rg2 Rad8 31. Rdg1 Nxd4 32. Qxg7+ Qxg7 33. Rxg7
+Rg8 34. h6 Nf5 35. Rxg8+ Rxg8 36. Rd1 Ne7 37. Bb3 Rg5 38. Rc1 Kg8 39. Rc7 Kf8
+40. Rxb7 Rg1+ 41. Kc2 Rf1 42. Kc3 Rxf2 43. Kd4 Rf5 44. Ba4 Kf7 45. Rxa7 Rh5 46.
+Bb3 Kf8 47. Rd7 Ke8 48. Ba4 Kf7 49. Bb3 Ke6 50. Rb7 Nc6+ 51. Kc5 e3 52. Bd1 Rh1
+53. Bg4+ Ke5 54. Kxc6 Rc1+ 55. Kb5 d4 56. Re7+ Kf4 57. Be2 Rc2 58. Bd3 Rxb2+
+59. Kc4 Rxa2 60. Kxd4 Ra4+ 61. Kc3 Ra3+ 62. Kc2 Ra2+ 63. Kb3 Rd2 64. Kc3 Rh2
+65. Re6 Kg5 66. Rxe3 Rxh6 67. Re7 Kf6 68. Ra7 Rh3 69. Kd4 Rh4+ 70. Be4 Rh2 71.
+Bxh7 Re2 72. Be4 Rd2+ 73. Ke3 Rd6 74. Kf4 Rb6 75. Rh7 Rb5 76. Rh6+ Kg7 77. Rc6
+Kf7 78. Bf5 Rb4+ 79. Kg5 Rb7 80. Rh6 Rb2 81. Rh7+ Ke8 82. Kf6 Rb6+ 83. Be6 Kd8
+84. Ra7 Rb2 85. Ke5 Re2+ 86. Kd6 Rd2+ 87. Bd5 Rc2 88. Rh7 Re2 89. Rg7 Re1 90.
+Bb3 Re3 91. Bc4 Re1 92. Bd3 Ke8 93. Bc4 Rd1+ 94. Bd5 Rf1 95. Ra7 Kf8 96. Ra8+
+Kg7 97. Rg8+ Kh7 98. Rg3 Re1 99. Be6 Kh6 100. Ke7 Rf1 101. Bc4 Rf4 102. Bf7
+Re4+ 103. Kf8 Ra4 104. Rg6+ Kh7 105. Rg3 Kh6 106. Be6 Rf4+ 107. Ke7 Rf2 108.
+Kd6 Re2 109. Bc4 Re1 110. Bd3 Kh5 111. Kd5 Kh6 112. Be4 Rf1 113. Ke5 Rf8 114.
+Bf5 Rb8 115. Kf6 Rf8+ 116. Ke5 Rb8 117. Rg6+ Kh5 118. Rg7 Rb6 119. Kf4 Rb4+
+120. Be4 Rb6 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2020.01.18"]
+[Round "1.4"]
+[White "Luna Cortes, Luis"]
+[Black "Plasencia Martinez, Victor"]
+[Result "0-1"]
+[ECO "B72"]
+[WhiteElo "2219"]
+[BlackElo "2143"]
+[PlyCount "42"]
+[EventDate "2020.??.??"]
+[WhiteTeam "Ateneu Colon, CE"]
+[BlackTeam "Salauris, CE"]
+[WhiteTeamCountry "CAT"]
+[BlackTeamCountry "CAT"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. h3 Bg7 7. Be3 Nc6 8. Qd2
+O-O 9. O-O-O d5 10. Nxc6 bxc6 11. exd5 Nxd5 12. Nxd5 cxd5 13. Qxd5 Qc7 14. Qxa8
+Bf5 15. Qxf8+ Kxf8 16. c4 h5 17. Rd2 Kg8 18. Be2 Qb7 19. Rg1 Qa6 20. a3 Qa4 21.
+g4 Be4 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2020.02.01"]
+[Round "3.6"]
+[White "Delisau Gil, Oriol"]
+[Black "Plasencia Martinez, Victor"]
+[Result "1-0"]
+[ECO "A56"]
+[WhiteElo "2216"]
+[BlackElo "2143"]
+[PlyCount "79"]
+[EventDate "2020.??.??"]
+[WhiteTeam "Sant Andreu, CE"]
+[BlackTeam "Salauris, CE"]
+[WhiteTeamCountry "CAT"]
+[BlackTeamCountry "CAT"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e5 4. Nc3 d6 5. e4 Be7 6. g3 h5 7. h4 Na6 8. a3 Bg4 9.
+f3 Bd7 10. Be3 O-O 11. Nh3 Qa5 12. Rb1 Nh7 13. Qd2 f5 14. Be2 g6 15. Nf2 Qd8
+16. b4 b6 17. Bh6 Rf7 18. exf5 Bxf5 19. Nce4 Kh8 20. O-O Qd7 21. Bd3 Rg8 22.
+Kg2 Nc7 23. bxc5 bxc5 24. Rb7 Bf8 25. Rxa7 Qd8 26. Rb1 Bxh6 27. Qxh6 Rgg7 28.
+Rbb7 Kg8 29. Ng5 Nxg5 30. Qxg5 Qf8 31. Rxc7 Rxc7 32. Rxc7 Rxc7 33. Bxf5 Rg7 34.
+Be6+ Kh7 35. Ne4 Rb7 36. Nf6+ Kg7 37. Nxh5+ Kh7 38. Nf6+ Kg7 39. h5 Rb2+ 40.
+Kh3 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2020.02.08"]
+[Round "4.5"]
+[White "Fernandez Soriano, Ruben"]
+[Black "Plasencia Martinez, Victor"]
+[Result "1/2-1/2"]
+[ECO "A45"]
+[WhiteElo "2181"]
+[BlackElo "2143"]
+[PlyCount "50"]
+[WhiteTeam "Valls, CE"]
+[BlackTeam "Salauris, CE"]
+
+1. d4 Nf6 2. Bg5 Ne4 3. Bf4 c5 4. f3 Nf6 5. d5 Nh5 6. Bc1 e5 7. Nh3 d6 8. Nf2
+Be7 9. e3 Nf6 10. c4 O-O 11. Nc3 Bf5 12. Bd3 Bxd3 13. Qxd3 Ne8 14. O-O Qd7 15.
+e4 h6 16. g3 Na6 17. Bd2 Nec7 18. f4 Nb4 19. Qb1 Bf6 20. a3 Nba6 21. f5 Kh7 22.
+Qd1 Qe7 23. h4 Rh8 24. Qh5 Kg8 25. Kh2 Rb8 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2020.02.22"]
+[Round "6.6"]
+[White "Plasencia Martinez, Victor"]
+[Black "Gomez Jurado, Luis Alberto"]
+[Result "1-0"]
+[ECO "B12"]
+[WhiteElo "2143"]
+[BlackElo "2221"]
+[PlyCount "57"]
+[EventDate "2020.??.??"]
+[WhiteTeam "Salauris, CE"]
+[BlackTeam "Barcelona, CE"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h6 5. g4 Bd7 6. Be3 e6 7. Nc3 c5 8. dxc5 Nc6
+9. f4 h5 10. gxh5 Nh6 11. Nb5 Nf5 12. Bf2 d4 13. Nd6+ Bxd6 14. cxd6 Qa5+ 15.
+Qd2 Nb4 16. c3 dxc3 17. bxc3 Nd5 18. Bg2 Nxf4 19. Bxb7 Rb8 20. Rb1 Qxe5+ 21.
+Ne2 Ng2+ 22. Kf1 Nge3+ 23. Bxe3 Nxe3+ 24. Kf2 Ng4+ 25. Ke1 O-O 26. Rg1 f5 27.
+Rb3 Ba4 28. Rb4 a5 29. Rb6 {[%emt 0:00:41] ILEGIBLE HASTA LA JUGADA 41} 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2020.02.29"]
+[Round "7.7"]
+[White "Plasencia Martinez, Victor"]
+[Black "Fernandez Perez, Didier"]
+[Result "0-1"]
+[ECO "B01"]
+[WhiteElo "2143"]
+[BlackElo "2209"]
+[PlyCount "90"]
+[EventDate "2020.??.??"]
+[WhiteTeam "Salauris, CE"]
+[BlackTeam "Figueres, CE"]
+[WhiteTeamCountry "CAT"]
+[BlackTeamCountry "CAT"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd6 4. d4 Nf6 5. Nf3 c6 6. Ne5 Nbd7 7. Nc4 Qc7 8.
+a4 Nd5 9. Nxd5 cxd5 10. Ne3 e6 11. Bd3 Bd6 12. h3 O-O 13. c4 dxc4 14. Nxc4 Nb6
+15. Nxd6 Qxd6 16. O-O Nd5 17. Qh5 f5 18. Qh4 Bd7 19. Re1 Nb4 20. Bb1 Bc6 21.
+Ra3 Rf6 22. Rg3 Rg6 23. Rxg6 hxg6 24. Qg5 Kf7 25. Re3 Qd8 26. Qg3 Qxd4 27. Kh2
+Rd8 28. Rc3 Rd7 29. Be3 Qd1 30. Rc1 Qxa4 31. Qe5 Qb5 32. Rc5 Qf1 33. f3 Qxb1
+34. Bd4 Rxd4 35. Qxd4 Nd5 36. h4 Qe1 37. b4 a6 38. h5 gxh5 39. Rxc6 bxc6 40.
+Qa7+ Kg6 41. Qxa6 Qh4+ 42. Kg1 Qxb4 43. Qc8 Nf4 44. Qe8+ Kh7 45. Kh2 Qe1 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2020.03.07"]
+[Round "8.7"]
+[White "Lerch i Gallemi, Jose Ma."]
+[Black "Plasencia Martinez, Victor"]
+[Result "1-0"]
+[ECO "B23"]
+[WhiteElo "2113"]
+[BlackElo "2143"]
+[PlyCount "83"]
+[EventDate "2020.??.??"]
+[WhiteTeam "Sant Cugat, CE"]
+[BlackTeam "Salauris, CE"]
+
+1. e4 c5 2. Nc3 Nc6 3. f4 e6 4. Nf3 d5 5. Bb5 Nf6 6. Bxc6+ bxc6 7. Qe2 Be7 8.
+d3 O-O 9. O-O Ba6 10. b3 Rb8 11. e5 Nd7 12. Rd1 Qc7 13. Na4 c4 14. dxc4 Rfd8
+15. Be3 c5 16. Nd2 Nf8 17. Nb2 f6 18. Nd3 d4 19. Bf2 f5 20. Nf3 Ng6 21. c3 dxc3
+22. Be3 Bb7 23. Nf2 Nh4 24. Ne1 Qc6 25. Rxd8+ Rxd8 26. Nd1 g5 27. Nxc3 gxf4 28.
+Bxf4 Rd4 29. Bg3 Rg4 30. Rd1 h5 31. Rd3 Qe8 32. Qf2 Nxg2 33. Nxg2 h4 34. Ne2
+Qc6 35. Nef4 hxg3 36. Rxg3 Bg5 37. h3 Bxf4 38. Qxf4 Rxg3 39. Qxg3+ Kf7 40. Nf4
+Qh1+ 41. Kf2 Be4 42. Qg6+ 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.01.28"]
+[Round "2.4"]
+[White "Tallo Dominguez, Imar"]
+[Black "Plasencia Martinez, Victor"]
+[Result "1-0"]
+[WhiteElo "2287"]
+[BlackElo "2162"]
+[PlyCount "93"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2
+Nc6 9. O-O-O d5 10. exd5 Nxd5 11. Nxc6 bxc6 12. Bd4 e5 13. Bc5 Be6 14. Ne4 Re8
+15. h4 h6 16. h5 g5 17. g4 Qc7 18. Bc4 Red8 19. Qf2 Nf4 20. Bxe6 Nxe6 21. Bd6
+Qa5 22. Kb1 Rd7 23. c3 Rad8 24. Rd2 Qb5 25. Rhd1 a5 26. Qf1 Qxf1 27. Rxf1 a4
+28. Rfd1 f5 29. gxf5 Nf4 30. f6 Bf8 31. Bxe5 Rxd2 32. Rxd2 Rxd2 33. Nxd2 Nxh5
+34. b3 axb3 35. a4 Bc5 36. a5 Nf4 37. Ne4 Ne6 38. Bd4 Nxd4 39. Nxc5 Nb5 40. Kb2
+Kf7 41. Ne4 Nc7 42. Kxb3 Na6 43. Kc4 h5 44. Kd4 g4 45. fxg4 hxg4 46. Ke5 Nb8
+47. Kf5 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "https://lichess.org/study/nEg"]
+[Date "2023.02.04"]
+[Round "3.3"]
+[White "Campins Machado, Francesc Miquel"]
+[Black "Plasencia Martinez, Victor"]
+[Result "1/2-1/2"]
+[ECO "A56"]
+[WhiteElo "2278"]
+[BlackElo "2315"]
+[PlyCount "48"]
+[EventDate "2023.??.??"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e5 4. Nc3 d6 5. e4 Be7 6. Bd3 Nbd7 7. Nge2 O-O 8. h3
+Ne8 9. Be3 Bg5 10. Qd2 Bxe3 11. Qxe3 a6 12. O-O Rb8 13. Kh2 g6 14. g3 Ng7 15.
+a3 f5 16. f4 Qe7 17. Rae1 fxe4 18. Qxe4 Nf5 19. b4 b6 20. Qf3 cxb4 21. axb4 a5
+22. bxa5 bxa5 23. Bxf5 gxf5 24. Nd4 e4 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "Olot, Spain"]
+[Date "2023.03.18"]
+[Round "9.4"]
+[White "Plasencia Martinez, Victor"]
+[Black "Triadu Cassa, Jordi"]
+[Result "1/2-1/2"]
+[WhiteElo "2159"]
+[WhiteTeam "La Lira Vendrellenca"]
+[ECO "C55"]
+[BlackElo "2179"]
+[BlackTeam "Olot"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Be7 5. c3 d6 6. Bb3 O-O 7. O-O Na5 8. Bc2
+c5 9. Nbd2 Nc6 10. Re1 Re8 11. Nf1 h6 12. Ng3 Bf8 13. h3 Be6 14. d4 cxd4 15.
+cxd4 exd4 16. Nxd4 Nxd4 17. Qxd4 d5 18. e5 Nd7 19. Qd3 g6 20. f4 Qh4 21. Kh2
+Rac8 22. Be3 Bg7 23. Ba4 Nxe5 24. fxe5 Qxa4 25. b3 Qa5 26. Bd4 a6 27. Rf1 Rc6
+28. Rf2 Qc7 29. Re1 Rc8 30. Ree2 Qe7 31. Bb2 Qg5 32. Qd4 h5 33. Nf1 Bf8 34. Qd3
+Qh4 35. Nd2 Bh6 36. Nf1 Bf4+ 37. Kg1 Bc1 38. Bd4 Ba3 39. Qe3 Kg7 40. Rf4 Qe7 41.
+Ref2 Bc5 42. Rxf7+ Qxf7 43. Rxf7+ Kxf7 44. Qf3+ Ke8 45. Bxc5 Rxc5 46. Qf6 Kd7
+47. Qg7+ Kc6 48. Qe7 Bf5 49. Qd6+ Kb5 50. a4+ Kb4 51. Ne3 Rc6 52. Qe7 d4 53.
+Nxf5 gxf5 54. Qxb7+ Kc3 55. b4 Rc4 56. b5 axb5 57. axb5 R6c5 58. e6 Re5 59. Qd7
+1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.03.25"]
+[Round "10.3"]
+[White "Plasencia Martinez, Victor"]
+[Black "Dominguez Pons, Eric"]
+[Result "1/2-1/2"]
+[WhiteElo "2163"]
+[BlackElo "2335"]
+[PlyCount "71"]
+[EventDate "2023.??.??"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d4 Nf6 5. Nf3 Bg4 6. h3 Bh5 7. g4 Bg6 8.
+Ne5 c6 9. h4 Nbd7 10. Nc4 Qc7 11. h5 Be4 12. Nxe4 Nxe4 13. Qf3 Nd6 14. Bf4 Nb6
+15. Ne5 Nd5 16. Nxf7 Nxf4 17. Nxh8 Qa5+ 18. c3 Qd5 19. Qxd5 cxd5 20. g5 Ne6 21.
+g6 h6 22. Bg2 Nf4 23. Bf3 e6 24. O-O-O Be7 25. Rhe1 Kd7 26. Nf7 Nxf7 27. gxf7
+Rf8 28. Bg4 Rxf7 29. Kb1 Bh4 30. Rd2 Rf6 31. c4 Kd6 32. cxd5 Nxd5 33. Rde2 Nf4
+34. Rd2 Nd5 35. Rde2 Nf4 36. Rd2 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "Vendrell"]
+[Date "2023.03.11"]
+[Round "8.5"]
+[White "Plasencia Martinez, Victor"]
+[Black "Montilla Carrillo, Esteban"]
+[Result "1/2-1/2"]
+[WhiteElo "2171"]
+[BlackElo "2121"]
+[PlyCount "48"]
+[EventDate "2023.??.??"]
+[TimeControl "90+30"]
+[WhiteClock "0:22:46"]
+[BlackClock "0:35:44"]
+
+1. e4 {[%emt 0:00:06]} e5 {[%emt 0:00:10]} 2. Nf3 {[%emt 0:00:20]} Nc6 {[%emt
+0:00:09]} 3. Bc4 {[%emt 0:00:18]} Bc5 {[%emt 0:00:20]} 4. c3 {[%emt 0:00:45]}
+Nf6 {[%emt 0:00:37]} 5. d3 {[%emt 0:00:12]} O-O {[%emt 0:01:12]} 6. Bb3 {[%emt
+0:00:41]} h6 {[%emt 0:03:17]} 7. O-O {[%emt 0:01:07]} d6 {[%emt 0:02:00]} 8.
+Nbd2 {[%emt 0:02:35]} a6 {[%emt 0:04:28]} 9. h3 {[%emt 0:03:11]} Re8 {[%emt 0:
+02:46]} 10. Re1 {[%emt 0:01:26]} Ba7 {[%emt 0:02:16]} 11. Nf1 {[%emt 0:01:33]}
+Ne7 {[%emt 0:01:54]} 12. Ng3 {[%emt 0:06:19]} Ng6 {[%emt 0:02:02]} 13. Be3 {
+[%emt 0:08:57]} Bxe3 {[%emt 0:04:56]} 14. Rxe3 {[%emt 0:01:30]} d5 {[%emt 0:07:
+08]} 15. Qc2 {[%emt 0:04:39]} dxe4 {[%emt 0:07:07]} 16. dxe4 {[%emt 0:02:12]}
+c5 {[%emt 0:03:42]} 17. Rd1 {[%emt 0:03:30]} Qc7 {[%emt 0:00:22]} 18. Bd5 {
+[%emt 0:03:41]} Rb8 {[%emt 0:04:13]} 19. c4 {[%emt 0:14:47]} Nf4 {[%emt 0:02:
+29]} 20. Nh4 {[%emt 0:10:35]} g6 {[%emt 0:02:30]} 21. Rd2 {[%emt 0:06:33]} Qe7
+{[%emt 0:09:59]} 22. Nf3 {[%emt 0:01:34]} Kg7 {[%emt 0:02:11]} 23. Ne2 {[%emt
+0:02:41]} N6h5 {[%emt 0:07:00]} 24. Nxf4 Nxf4 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "Barcelona"]
+[Date "2023.04.15"]
+[Round "11.4"]
+[White "Plasencia Martinez, Victor"]
+[Black "Ortega Serra, Marc"]
+[Result "0-1"]
+[ECO "C00"]
+[WhiteElo "2171"]
+[BlackElo "2313"]
+[Annotator "Daniel"]
+[PlyCount "84"]
+[EventDate "2023.??.??"]
+[TimeControl "90+30"]
+[WhiteClock "0:17:26"]
+[BlackClock "0:00:40"]
+
+1. e4 {[%emt 0:00:03]} e6 {[%emt 0:00:14]} 2. d3 {[%emt 0:00:18]} d5 {[%emt 0:
+00:17]} 3. Nd2 {[%emt 0:00:21]} Nc6 {[%emt 0:01:06]} 4. Ngf3 {[%emt 0:01:34]}
+e5 {[%emt 0:01:38]} 5. Be2 {[%emt 0:02:48]} Nf6 {[%emt 0:06:04]} 6. O-O {
+[%emt 0:03:56]} Be7 {[%emt 0:01:02]} 7. c3 {[%emt 0:02:38]} a5 {[%emt 0:05:04]}
+8. a4 {[%emt 0:04:20]} O-O {[%emt 0:00:50]} 9. Re1 {[%emt 0:02:52]} Re8 {
+[%emt 0:07:05]} 10. Qc2 {[%emt 0:03:44]} h6 {[%emt 0:02:37]} 11. h3 {[%emt 0:
+05:33]} Bc5 {[%emt 0:02:27]} 12. Bf1 {[%emt 0:07:21]} dxe4 {[%emt 0:00:48]} 13.
+dxe4 {[%emt 0:02:50]} Nh5 {[%emt 0:00:54]} 14. Nb3 {[%emt 0:17:04]} Bb6 {
+[%emt 0:00:32]} 15. Be3 {[%emt 0:02:23]} Bxe3 {[%emt 0:02:17]} 16. Rxe3 {
+[%emt 0:00:33]} Nf4 {[%emt 0:00:14]} 17. Kh2 {[%emt 0:01:39]} Qf6 {[%emt 0:03:
+32]} 18. g3 {[%emt 0:02:04]} Ne6 {[%emt 0:01:15]} 19. Rd1 {[%emt 0:03:50]} Ng5
+{[%emt 0:02:30]} 20. Nxg5 {[%emt 0:05:00]} hxg5 {[%emt 0:00:20]} 21. Bg2 {
+[%emt 0:04:12]} Qh6 {[%emt 0:01:47]} 22. Qe2 {[%emt 0:00:59]} b6 {[%emt 0:08:
+26]} 23. Nc1 {[%emt 0:01:50]} Be6 {[%emt 0:02:00]} 24. g4 {[%emt 0:08:09]} Ne7
+{[%emt 0:01:32]} 25. f3 {[%emt 0:02:24]} Qf6 {[%emt 0:02:17]} 26. Qf2 {[%emt 0:
+01:27]} Rad8 {[%emt 0:05:26]} 27. Ree1 {[%emt 0:03:00]} Ng6 {[%emt 0:00:33]}
+28. Qe3 {[%emt 0:01:22]} Nf4 {[%emt 0:04:34]} 29. Bf1 {[%emt 0:01:47]} g6 {
+[%emt 0:00:30]} 30. Bb5 {[%emt 0:02:34]} Qh8 {[%emt 0:03:03]} 31. Bf1 {[%emt 0:
+00:02]} Qh4 {[%emt 0:02:04]} 32. Ne2 {[%emt 0:01:14]} Bb3 {[%emt 0:02:47]} 33.
+Rxd8 {[%emt 0:03:02]} Rxd8 {[%emt 0:00:07]} 34. Ng1 {[%emt 0:00:38]} Bxa4 {
+[%emt 0:01:54]} 35. b4 {[%emt 0:00:59]} Bb3 {[%emt 0:02:29]} 36. bxa5 {[%emt 0:
+00:40]} bxa5 {[%emt 0:00:00]} 37. Rb1 {[%emt 0:00:51]} a4 {[%emt 0:00:07]} 38.
+Rb2 {[%emt 0:01:35]} Rd1 {[%emt 0:12:01]} 39. Bg2 {[%emt 0:01:08]} Qe1 {
+[%emt 0:00:44]} 40. Qa7 {[%emt 0:00:44]} Rd2 {[%emt 0:00:26]} 41. Qb8+ {
+[%emt 0:00:34]} Kh7 {[%emt 0:00:18]} 42. Qxc7 {[%emt 0:00:54]} Rxb2 {[%emt 0:
+00:08]} 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "lichess.org"]
+[Date "2025.01.18"]
+[Round "1.8"]
+[White "Serra Canals, Oriol"]
+[Black "Plasencia Martinez, Victor"]
+[Result "1/2-1/2"]
+[ECO "E63"]
+[WhiteElo "2118"]
+[BlackElo "2149"]
+[PlyCount "70"]
+[GameId "2151339903773299"]
+[EventDate "18.??.??"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. g3 O-O 5. Bg2 d6 6. Nc3 Nc6 7. O-O a6 8. d5 Na5 9. b3 c5 10. dxc6 Nxc6 11. Bb2 Qa5 12. Qc1 h6 13. Rd1 Be6 14. e3 Rac8 15. Ne2 b5 16. Bc3 Qb6 17. Nf4 Bg4 18. Bxf6 Bxf6 19. Nd5 Qb8 20. Nxf6+ exf6 21. h3 Bxf3 22. Bxf3 Ne5 23. Bd5 bxc4 24. bxc4 Qc7 25. Qc2 Kg7 26. Rab1 Rb8 27. Qa4 a5 28. Qa3 h5 29. h4 Nd7 30. Qc3 Nc5 31. Qc2 a4 32. Rxb8 Rxb8 33. Rb1 Rb6 34. Rb5 Rb8 35. Qb2 Rc8 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "lichess.org"]
+[Date "2025.02.15"]
+[Round "5.9"]
+[White "Plasencia Martinez, Victor"]
+[Black "Clotet Mas, Dan"]
+[Result "*"]
+[ECO "B18"]
+[WhiteElo "2148"]
+[BlackElo "2009"]
+[PlyCount "76"]
+[GameId "2151339904723862"]
+[EventDate "2025.??.??"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. Nh3 Nf6 7. Nf4 e5 8. Nxg6 hxg6 9. Be3 Bd6 10. dxe5 Qa5+ 11. Bd2 Qxe5+ 12. Qe2 Nbd7 13. O-O-O Qxe2 14. Bxe2 O-O-O 15. h3 Nc5 16. Bc4 Nd5 17. Bxd5 cxd5 18. Be3 Bxg3 19. Bxc5 Bf4+ 20. Kb1 b6 21. Bd4 f6 22. Rhe1 Rhe8 23. c3 Kc7 24. Kc2 g5 25. a4 a5 26. Kd3 Bd6 27. Rb1 Kb7 28. Be3 Re4 29. Bd4 Rde8 30. Rxe4 Rxe4 31. f3 Re8 32. b4 axb4 33. cxb4 Rc8 34. a5 b5 35. a6+ Ka8 36. a7 Rc4 37. Re1 Rc8 38. Rb1 Rc4 *
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.02.22"]
+[Round "6.9"]
+[White "Plasencia Martinez, Victor"]
+[Black "Sinfreu Sobre, David"]
+[Result "1-0"]
+[ECO "C42"]
+[WhiteElo "2148"]
+[BlackElo "1895"]
+[PlyCount "63"]
+[GameId "2150544446444267"]
+[EventDate "2025.02.15"]
+[WhiteTeam "Lira Vendrellenca"]
+[BlackTeam "Andorra"]
+[BlackTeamCountry "AND"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nxf7 Kxf7 5. d4 c5 6. Nc3 Be7 7. Bc4+ Be6 8. d5 Bd7 9. a4 Rf8 10. O-O Kg8 11. h3 Kh8 12. e5 Ng8 13. e6 Be8 14. Qe2 a5 15. f4 Na6 16. g4 Nb4 17. Ne4 Nf6 18. Nxf6 Bxf6 19. c3 Na6 20. g5 Be7 21. Bd3 Nc7 22. c4 Na6 23. h4 Nb4 24. Bb1 b6 25. b3 Ra7 26. Bb2 Bg6 27. f5 Bxg5 28. hxg5 Qxg5+ 29. Qg2 Qe3+ 30. Rf2 Bxf5 31. Qf3 Qg5+ 32. Rg2 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.03.01"]
+[Round "7.9"]
+[White "Plasencia Martinez, Victor"]
+[Black "Marcet Bisbal, Antoni"]
+[Result "1/2-1/2"]
+[ECO "B76"]
+[WhiteElo "2148"]
+[BlackElo "2160"]
+[PlyCount "47"]
+[GameId "2153827569176769"]
+[EventDate "2025.02.15"]
+[WhiteTeam "Lira Vendrellenca"]
+[BlackTeam "Barcelona"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 Nc6 8. Qd2 O-O 9. g4 Be6 10. Nxe6 fxe6 11. O-O-O Ne5 12. Be2 Rc8 13. Kb1 Nfd7 14. f4 Nc4 15. Bxc4 Rxc4 16. e5 Nb6 17. b3 Rc6 18. Nb5 Nd5 19. c4 Nxe3 20. Qxe3 Qb6 21. Qxb6 Rxb6 22. exd6 exd6 23. Rxd6 Rxf4 24. Rd8+ 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.03.08"]
+[Round "8.9"]
+[White "Gutierrez Clares, Joaquim"]
+[Black "Plasencia Martinez, Victor"]
+[Result "1/2-1/2"]
+[ECO "E11"]
+[WhiteElo "2164"]
+[BlackElo "2148"]
+[PlyCount "38"]
+[GameId "2155320604013253"]
+[EventDate "2025.02.15"]
+[WhiteTeam "Cor de Marina"]
+[BlackTeam "Lira Vendrellenca"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Bd2 Qe7 5. g3 O-O 6. Bg2 Nc6 7. O-O Bxd2 8. Nbxd2 d6 9. Qc2 e5 10. d5 Nb4 11. Qc3 a5 12. a3 Na6 13. b4 e4 14. Nd4 Re8 15. e3 Bd7 16. N2b3 a4 17. Nd2 Qe5 18. Ne2 Qe7 19. Rac1 h5 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.01.31"]
+[Round "3.9"]
+[White "Gonzalez Cuervo, Eloy"]
+[Black "Plasencia Martinez, Victor"]
+[Result "1/2-1/2"]
+[ECO "B21"]
+[WhiteElo "2165"]
+[BlackElo "2259"]
+[PlyCount "146"]
+[EventDate "2026.??.??"]
+[EventRounds "3"]
+[SourceDate "2026.01.31"]
+
+1. e4 c5 2. f4 d5 3. e5 Nc6 4. Nf3 Bf5 5. Nh4 Bg6 6. Nxg6 hxg6 7. e6 fxe6 8.
+Qg4 Kf7 9. Bd3 Rh6 10. O-O c4 11. Be2 Qb6+ 12. Kh1 Nf6 13. Qg3 Ne4 14. Qe1 Nd4
+15. Bd1 Nf5 16. Rf3 Rc8 17. g3 Nd4 18. Rf1 Nf5 19. Kg2 Qc6 20. Nc3 b5 21. Bf3
+Nf6 22. Ne2 Qc5 23. d4 Nxd4 24. Nxd4 Qxd4 25. c3 Qb6 26. Be3 Qb7 27. Bd4 Rd8
+28. Qe5 Nd7 29. Qg5 Qc6 30. Rae1 Nc5 31. Bg4 Ne4 32. Qe5 Qd6 33. h4 Rc8 34. Bf3
+Nd2 35. Rf2 Nxf3 36. Rxf3 a5 37. Kh3 Rh5 38. Qe2 Rf5 39. Be5 Qd7 40. g4 Rf6 41.
+g5 Rf5 42. Qe3 Rc6 43. Qd4 Kg8 44. Rff1 Qb7 45. Rb1 Qc8 46. Rfc1 Kf7 47. Kg4
+Qd7 48. Kf3 Qc8 49. Ke3 Qd7 50. Ra1 Rc8 51. Rcb1 Qc6 52. Kd2 Kg8 53. a4 bxa4
+54. Ra2 Qb5 55. Kc1 Rc6 56. Rba1 Rb6 57. Qd1 d4 58. cxd4 Qc6 59. Ra3 Qg2 60.
+Qd2 Qh1+ 61. Kc2 Qe4+ 62. Kc1 Qh1+ 63. Qd1 Qg2 64. R1a2 Rb3 65. Rxb3 axb3 66.
+Rxa5 Qf2 67. Rc5 Qe3+ 68. Qd2 Qg1+ 69. Qd1 Qe3+ 70. Kb1 Qe4+ 71. Kc1 Qe3+ 72.
+Qd2 Qg1+ 73. Qd1 Qe3+ 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.02.14"]
+[Round "5.9"]
+[White "Plasencia Martinez, Victor"]
+[Black "Prada Villagrasa, Pau Manel"]
+[Result "1-0"]
+[ECO "B12"]
+[WhiteElo "2122"]
+[BlackElo "2206"]
+[PlyCount "66"]
+[EventDate "2026.??.??"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. c4 e6 5. Nc3 Nd7 6. cxd5 exd5 7. Bd3 Bxd3 8.
+Qxd3 Bb4 9. Nf3 Nf8 10. Bg5 Qd7 11. O-O Ne6 12. a3 Be7 13. Bd2 h5 14. Ne1 g6
+15. b4 Rd8 16. Nc2 Kf8 17. Rae1 b6 18. Ne2 c5 19. bxc5 bxc5 20. f4 Nh6 21. Ne3
+Ng7 22. Kh1 Nhf5 23. dxc5 Bxc5 24. Nxf5 Nxf5 25. Bb4 Bxb4 26. axb4 d4 27. Ra1
+h4 28. h3 Kg7 29. Kh2 Ne3 30. Rf3 Nf5 31. Ra3 Rb8 32. Qa6 Rb7 33. Rfd3 Rc8 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.02.21"]
+[Round "6.10"]
+[White "Plasencia Martinez, Victor"]
+[Black "Yepes Martinez, Eduard"]
+[Result "0-1"]
+[ECO "C02"]
+[WhiteElo "2122"]
+[BlackElo "2136"]
+[PlyCount "88"]
+[EventDate "2026.01.17"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Bd7 6. dxc5 Bxc5 7. Bd3 f6 8. b4 Bb6 9. b5 Nxe5 10. Nxe5 fxe5 11. Qh5+ Kf8 12. Qxe5 Qf6 13. Qg3 Ne7 14. Bg5 Qf7 15. O-O Rc8 16. Qd6 Ke8 17. Qb4 Ng6 18. Nd2 Bc5 19. Qb3 Nf4 20. c4 Nxd3 21. Qxd3 Qf5 22. Qxf5 exf5 23. Rfe1+ Kf7 24. Nf3 Bd6 25. Red1 Bb8 26. cxd5 h6 27. Be3 Bxb5 28. Rab1 a6 29. Nd4 f4 30. Bc1 Rc5 31. Ne6 Rc4 32. Rd4 Rhc8 33. Rxc4 Rxc4 34. Bb2 g5 35. Nd8+ Ke7 36. Nxb7 Ba7 37. Bg7 Rc2 38. Bxh6 Rxf2 39. Bxg5+ Kd7 40. Kh1 Bf1 41. Kg1 Bxg2 42. h4 Rb2+ 43. Kh2 Rxb1 44. Kxg2 Rxb7 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.03.07"]
+[Round "8.8"]
+[White "Mompel Ferruz, Xavier"]
+[Black "Plasencia Martinez, Victor"]
+[Result "1-0"]
+[ECO "B72"]
+[WhiteElo "2346"]
+[BlackElo "2102"]
+[PlyCount "75"]
+[EventDate "2026.??.??"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. Be2 O-O 8.
+Qd2 Nc6 9. O-O-O Nxd4 10. Bxd4 Be6 11. Kb1 Qa5 12. f3 Rfc8 13. a3 Rab8 14. Bxf6
+Bxf6 15. Nd5 Qxd2 16. Nxf6+ Kg7 17. Nh5+ Kh6 18. Rxd2 Kxh5 19. f4+ Kh6 20. g4
+g5 21. f5 Bc4 22. Bf3 f6 23. h4 Bg8 24. Bd1 gxh4 25. Rxh4+ Kg5 26. Rh5+ Kf4 27.
+g5 fxg5 28. Rf2+ Ke5 29. Rxg5 Kf6 30. Rh5 Rc4 31. Bf3 b5 32. c3 a5 33. Rh6+ Kg7
+34. Rh4 Kf6 35. Rg2 b4 36. Rxg8 Rxg8 37. e5+ Kxe5 38. Rxc4 1-0
+
+[Event "Ct. Catalunya juvenil"]
+[Site "Salou"]
+[Date "2005.03.22"]
+[Round "1"]
+[White "Cholbi Navarro, A."]
+[Black "Plasencia Martinez, V."]
+[Result "0-1"]
+[ECO "A48"]
+[WhiteElo "1840"]
+[BlackElo "2060"]
+[PlyCount "68"]
+[EventDate "2005.??.??"]
+
+1. d4 Nf6 2. Nf3 g6 3. Bg5 Bg7 4. Nbd2 h6 5. Bh4 O-O 6. e3 d6 7. Bd3 c6 8. O-O
+Qc7 9. c3 Nbd7 10. Re1 e5 11. Qb3 Kh7 12. Qc2 Re8 13. Bxf6 Nxf6 14. Ne4 Nxe4
+15. Bxe4 d5 16. Bxg6+ fxg6 17. Nh4 e4 18. f3 g5 19. fxe4 gxh4 20. exd5+ Kh8 21.
+Qg6 Rd8 22. dxc6 Qxc6 23. Qxc6 bxc6 24. h3 Re8 25. e4 Ba6 26. b4 Bc4 27. e5 Bf8
+28. a3 Be7 29. Rac1 Bg5 30. Rc2 Rf8 31. Rb2 Rf5 32. e6 Re8 33. Rbb1 Bd2 34. Re4
+Bd3 0-1
+
+[Event "Ct. Catalunya juvenil"]
+[Site "Salou"]
+[Date "2005.03.23"]
+[Round "2"]
+[White "Plasencia Martinez, V."]
+[Black "Chalmeta Ugas, R."]
+[Result "1/2-1/2"]
+[ECO "B78"]
+[WhiteElo "2060"]
+[BlackElo "2300"]
+[PlyCount "72"]
+[EventDate "2005.??.??"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2
+Nc6 9. Bc4 Bd7 10. O-O-O Rc8 11. Bb3 Ne5 12. Kb1 Nc4 13. Bxc4 Rxc4 14. h4 b5
+15. g4 b4 16. Nce2 Qb8 17. Bh6 d5 18. Bxg7 Kxg7 19. h5 dxe4 20. hxg6 fxg6 21.
+Qh6+ Kg8 22. g5 Rf7 23. gxf6 exf3 24. Rdg1 Bh3 25. Rxh3 fxe2 26. Rxg6+ Kh8 27.
+Nxe2 Qf8 28. Qxf8+ Rxf8 29. fxe7 Rf1+ 30. Nc1 Re4 31. c3 Ree1 32. e8=Q+ Rxe8
+33. cxb4 Rc8 34. a3 Rcxc1+ 35. Ka2 Rf2 36. Ra6 Rc7 1/2-1/2
+
+[Event "Ct. Catalunya juvenil"]
+[Site "Salou"]
+[Date "2005.??.??"]
+[Round "3"]
+[White "Farran Martos, J."]
+[Black "Plasencia Martinez, V."]
+[Result "1/2-1/2"]
+[ECO "B36"]
+[WhiteElo "2220"]
+[BlackElo "2060"]
+[PlyCount "83"]
+[EventDate "2005.??.??"]
+
+1. e4 c5 2. Nf3 d6 3. c4 Nc6 4. d4 cxd4 5. Nxd4 Nf6 6. Nc3 g6 7. Be2 Nxd4 8.
+Qxd4 Bg7 9. Be3 O-O 10. Qd2 Be6 11. f3 a6 12. b3 Qa5 13. Rc1 Rfc8 14. Nd5 Qxd2+
+15. Kxd2 Bxd5 16. cxd5 Nd7 17. Rxc8+ Rxc8 18. Rc1 Rxc1 19. Kxc1 Kf8 20. Kc2 Ke8
+21. b4 Kd8 22. Kb3 Kc7 23. a4 Kb8 24. f4 Kc7 25. h3 h5 26. g3 Ba1 27. f5 Be5
+28. fxg6 fxg6 29. g4 hxg4 30. hxg4 Bg7 31. a5 Kb8 32. g5 Ne5 33. b5 axb5 34.
+Kb4 Nc4 35. Bf2 Nd2 36. Bd3 Nf3 37. Be3 Bd4 38. Bc1 Bf2 39. Be2 Ne5 40. Bxb5
+Bh4 41. Bf4 Nf3 42. Be8 1/2-1/2
+
+[Event "Ct. Catalunya juvenil"]
+[Site "Salou"]
+[Date "2005.03.24"]
+[Round "4"]
+[White "Plasencia Martinez, V."]
+[Black "Farran Martos, FX."]
+[Result "0-1"]
+[ECO "B49"]
+[WhiteElo "2060"]
+[BlackElo "2210"]
+[PlyCount "46"]
+[EventDate "2005.??.??"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Be2 b5 8. O-O
+Nf6 9. Nxc6 dxc6 10. Bf3 Bb7 11. a3 Rd8 12. Qe2 Bd6 13. g3 O-O 14. Rad1 c5 15.
+Bc1 Be5 16. Nb1 Qc6 17. Nd2 c4 18. c3 Rd3 19. Bg2 Bc7 20. f4 Bb6+ 21. Kh1 Re3
+22. Qf2 Ng4 23. Qg1 Re2 0-1
+
+[Event "Ct. Catalunya juvenil"]
+[Site "Salou"]
+[Date "2005.03.25"]
+[Round "5"]
+[White "Riera Morilla, E."]
+[Black "Plasencia Martinez, V."]
+[Result "1-0"]
+[ECO "B74"]
+[WhiteElo "2015"]
+[BlackElo "2060"]
+[PlyCount "47"]
+[EventDate "2005.??.??"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. Be2 O-O 8.
+O-O Nc6 9. Nb3 Be6 10. f4 Qd7 11. h3 Rfc8 12. Qe1 Nb4 13. Rc1 Bc4 14. Bxc4 Rxc4
+15. Nd2 Rcc8 16. a3 Nc6 17. f5 Na5 18. fxg6 fxg6 19. Bg5 h6 20. Bf4 Nh5 21. Be3
+Nc4 22. Nxc4 Rxc4 23. Qd2 g5 24. Qd5+ 1-0
+
+[Event "Ct. Catalunya juvenil"]
+[Site "Salou"]
+[Date "2005.03.26"]
+[Round "6"]
+[White "Plasencia Martinez, V."]
+[Black "Mayo Casademont, A."]
+[Result "1-0"]
+[ECO "B33"]
+[WhiteElo "2060"]
+[BlackElo "1985"]
+[PlyCount "121"]
+[EventDate "2005.??.??"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Bg5 a6 8.
+Na3 b5 9. Bxf6 gxf6 10. Nd5 f5 11. Bd3 Be6 12. Qh5 Bg7 13. c3 O-O 14. f3 fxe4
+15. fxe4 f5 16. O-O f4 17. Nc2 Ne7 18. Kh1 Bf7 19. Qh3 Bg6 20. Qe6+ Rf7 21.
+Ncb4 Kh8 22. a4 a5 23. axb5 Rc8 24. Nc2 Nxd5 25. Qxd5 Rc5 26. Qa2 d5 27. Qxa5
+Qxa5 28. Rxa5 dxe4 29. Be2 f3 30. Bd1 Bh6 31. Nb4 f2 32. Ra8+ Kg7 33. Be2 e3
+34. b6 Be4 35. Ra7 Rxa7 36. bxa7 Ra5 37. Na6 Ra2 38. Nc5 Ba8 39. Ne6+ Kf6 40.
+Nc7 Rxa7 41. Nxa8 Rxa8 42. g3 Rd8 43. Kg2 Rd2 44. Ba6 e2 45. Rxf2+ Ke6 46. Rxe2
+Rxe2+ 47. Bxe2 Bc1 48. b3 Bd2 49. c4 Kd6 50. Kf3 Kc5 51. Ke4 Bc3 52. Bd1 Bd4
+53. g4 Bg1 54. h3 Bh2 55. g5 Bg3 56. Bc2 Kb4 57. Kd5 Bh4 58. Kxe5 Bxg5 59. Bxh7
+Kxb3 60. Bg8 Kb4 61. Kf5 1-0
+
+[Event "Ct. Catalunya juvenil"]
+[Site "Salou"]
+[Date "2005.03.27"]
+[Round "7"]
+[White "Coll Ortega, J."]
+[Black "Plasencia Martinez, V."]
+[Result "0-1"]
+[ECO "B70"]
+[WhiteElo "2080"]
+[BlackElo "2060"]
+[PlyCount "68"]
+[EventDate "2005.??.??"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be2 Bg7 7. O-O O-O 8.
+Re1 Nc6 9. Nb3 Be6 10. Bg5 h6 11. Bh4 Rc8 12. Bf1 a6 13. Nd5 Bxd5 14. exd5 Ne5
+15. c3 Re8 16. a4 Nc4 17. Rb1 g5 18. Bg3 Nb6 19. Nd4 Nbxd5 20. Nf5 Bf8 21. h4
+e6 22. hxg5 hxg5 23. Nd4 Qd7 24. Bd3 e5 25. Bf5 Qc7 26. Bxc8 Qxc8 27. Nf3 Qf5
+28. Qd2 Nf4 29. Rbd1 Re6 30. Qe3 Ng4 31. Qb6 Rh6 32. Qxb7 Qh7 33. Nh4 Rxh4 34.
+Bxh4 Qxh4 0-1
+
+[Event "Ct. Catalunya juvenil"]
+[Site "Salou"]
+[Date "2005.??.??"]
+[Round "8"]
+[White "Plasencia Martinez, V."]
+[Black "Picart Armada, S."]
+[Result "1/2-1/2"]
+[ECO "C47"]
+[WhiteElo "2060"]
+[BlackElo "1955"]
+[PlyCount "33"]
+[EventDate "2005.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nc3 Bb4 6. Nxc6 bxc6 7. Bd3 d5 8.
+e5 d4 9. a3 Bxc3+ 10. bxc3 Ng4 11. Be4 Nxe5 12. cxd4 f5 13. Bf4 fxe4 14. dxe5
+O-O 15. Qxd8 Rxd8 16. O-O Bf5 17. Rab1 1/2-1/2
+
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2005.04.23"]
+[Round "2.21"]
+[White "Falco Segarra, L."]
+[Black "Plasencia Martinez, V."]
+[Result "1/2-1/2"]
+[ECO "B78"]
+[BlackElo "2048"]
+[PlyCount "52"]
+[EventDate "2005.??.??"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2
+Nc6 9. Bc4 Bd7 10. O-O-O Rc8 11. Bb3 Ne5 12. Bg5 Nc4 13. Bxc4 Rxc4 14. Nb3 a5
+15. e5 a4 16. exf6 exf6 17. Bh6 axb3 18. axb3 Rc6 19. Bxg7 Kxg7 20. Ne4 Be6 21.
+Qb4 Qc7 22. Nc3 Ra8 23. Kb1 Rca6 24. Kc1 Rc6 25. Kb1 Rca6 26. Kc1 Rc6 1/2-1/2
+
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2005.04.30"]
+[Round "3.19"]
+[White "Plasencia Martinez, V."]
+[Black "Royo Soler, A."]
+[Result "1-0"]
+[ECO "B86"]
+[WhiteElo "2048"]
+[PlyCount "83"]
+[EventDate "2005.??.??"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nd7 5. Nc3 e6 6. Bc4 a6 7. O-O Ngf6 8. a4
+Be7 9. Bxe6 O-O 10. Bc4 Nc5 11. f3 Re8 12. Kh1 Qc7 13. Bd5 Bd7 14. Be3 Rab8 15.
+Qe2 Rec8 16. Rfc1 Ne6 17. Nf5 Bf8 18. a5 Bc6 19. Bb6 Qd7 20. Ne3 Nf4 21. Qd2
+N4xd5 22. Nexd5 Nxd5 23. Nxd5 Bxd5 24. Qxd5 Qe6 25. c3 Rc6 26. Rd1 Be7 27. Rd2
+Bf6 28. Rad1 Be5 29. Qxe6 fxe6 30. g3 g5 31. Be3 h6 32. f4 Bf6 33. Rxd6 Rxd6
+34. Rxd6 Re8 35. e5 Bd8 36. Bb6 Bxb6 37. axb6 Re7 38. Rd8+ Kf7 39. Rc8 Rd7 40.
+Rc7 Ke7 41. fxg5 hxg5 42. h4 1-0
+
+[Event "Ct. Catalunya juvenil"]
+[Site "?"]
+[Date "2008.03.19"]
+[Round "1.17"]
+[White "Plasencia Martinez, V."]
+[Black "Molinero Gomez, S."]
+[Result "1-0"]
+[ECO "B29"]
+[WhiteElo "2062"]
+[BlackElo "1800"]
+[PlyCount "31"]
+[EventDate "2008.??.??"]
+
+1. e4 c5 2. Nf3 Nf6 3. e5 Nd5 4. d4 e6 5. c4 Nb6 6. Nc3 cxd4 7. Qxd4 Nc6 8. Qg4
+d6 9. Bg5 Qd7 10. O-O-O d5 11. Bf4 a6 12. c5 h5 13. Qg5 Bxc5 14. Qxg7 Rf8 15.
+Ne4 Kd8 16. Nxc5 1-0
+
+[Event "Ct. Catalunya juvenil"]
+[Site "?"]
+[Date "2008.03.20"]
+[Round "2.3"]
+[White "Alonso Rosell, A."]
+[Black "Plasencia Martinez, V."]
+[Result "1/2-1/2"]
+[ECO "E66"]
+[WhiteElo "2365"]
+[BlackElo "2062"]
+[PlyCount "37"]
+[EventDate "2008.??.??"]
+
+1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. g3 O-O 5. Bg2 d6 6. O-O Nc6 7. Nc3 a6 8. d5
+Na5 9. Nd2 c5 10. Qc2 Rb8 11. Rb1 b5 12. b3 Bh6 13. f4 e6 14. Bb2 bxc4 15. bxc4
+e5 16. e3 Bg7 17. Ba1 Rxb1 18. Rxb1 exf4 19. exf4 1/2-1/2
+
+[Event "Ct. Catalunya juvenil"]
+[Site "?"]
+[Date "2008.03.20"]
+[Round "3.7"]
+[White "Plasencia Martinez, V."]
+[Black "Perez Campos, A."]
+[Result "1/2-1/2"]
+[ECO "B28"]
+[WhiteElo "2062"]
+[BlackElo "2247"]
+[PlyCount "51"]
+[EventDate "2008.??.??"]
+
+1. e4 c5 2. Nf3 a6 3. c3 d5 4. exd5 Qxd5 5. d4 g6 6. Be2 Bg7 7. c4 Qd6 8. d5
+Nf6 9. Nc3 O-O 10. O-O b5 11. cxb5 Bb7 12. Bc4 Nbd7 13. bxa6 Bxa6 14. Bxa6 Qxa6
+15. Bf4 Nb6 16. Rc1 Rfd8 17. Bc7 Rd7 18. Bxb6 Qxb6 19. Ne5 Rc7 20. b3 Rd8 21.
+Qf3 Qb7 22. Rfd1 Rf8 23. Nc4 Rd8 24. Ne5 Rf8 25. Nc4 Rd8 26. d6 1/2-1/2
+
+[Event "Ct. Catalunya juvenil"]
+[Site "?"]
+[Date "2008.03.21"]
+[Round "4.8"]
+[White "Barbero Senidic, A."]
+[Black "Plasencia Martinez, V."]
+[Result "0-1"]
+[ECO "A00"]
+[WhiteElo "2148"]
+[BlackElo "2062"]
+[PlyCount "94"]
+[EventDate "2008.??.??"]
+
+1. Na3 g6 2. e4 c5 3. Nc4 Nc6 4. d3 Bg7 5. f4 b5 6. Ne3 d6 7. Nf3 e6 8. Be2 Nd4
+9. O-O Ne7 10. c3 Nxe2+ 11. Qxe2 O-O 12. Bd2 Qb6 13. Qf2 f5 14. Qh4 Qc7 15.
+Rae1 Bd7 16. exf5 gxf5 17. c4 Ng6 18. Qg3 b4 19. h4 Kh8 20. h5 Ne7 21. h6 Bxb2
+22. Ne5 Ng6 23. Nxg6+ hxg6 24. Qxg6 Rg8 25. Qh5 Qc8 26. Nd1 Bd4+ 27. Be3 Bf6
+28. Qh3 Qe8 29. Re2 Qg6 30. Rd2 Bc6 31. Rff2 Bd4 32. Bxd4+ cxd4 33. Qh4 Qf7 34.
+c5 Rg4 35. Qh3 dxc5 36. Nb2 Bd5 37. Na4 Rag8 38. Kf1 Qe7 39. Qh2 Rh4 40. Qg1
+Rg3 41. Nxc5 Qxc5 42. Rc2 Qb5 43. Rfd2 Rxf4+ 44. Ke1 Qb8 45. Re2 b3 46. axb3
+Qb4+ 47. Red2 Re3+ 0-1
+
+[Event "Ct. Catalunya juvenil"]
+[Site "?"]
+[Date "2008.03.22"]
+[Round "5.3"]
+[White "Plasencia Martinez, V."]
+[Black "Vila Gazquez, X."]
+[Result "1/2-1/2"]
+[ECO "B01"]
+[WhiteElo "2062"]
+[BlackElo "2428"]
+[PlyCount "145"]
+[EventDate "2008.??.??"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d4 Nf6 5. Nf3 Bg4 6. h3 Bh5 7. g4 Bg6 8.
+Ne5 e6 9. Bg2 c6 10. O-O Bb4 11. Bd2 Qd8 12. a3 Be7 13. Bf4 Nbd7 14. Qe2 Nxe5
+15. dxe5 Nd7 16. Ne4 Bxe4 17. Bxe4 O-O 18. Rad1 h6 19. c3 Qc7 20. Bb1 Rfd8 21.
+Bg3 Nf8 22. Rxd8 Rxd8 23. Rd1 Rxd1+ 24. Qxd1 Qb6 25. Qe2 Bg5 26. Qc2 Ng6 27. b4
+Bf4 28. Bxf4 Nxf4 29. Qh7+ Kf8 30. Qh8+ Ke7 31. Qxg7 Nxh3+ 32. Kg2 Qxf2+ 33.
+Kxh3 Qe3+ 34. Kg2 Qd2+ 35. Kg1 Qc1+ 36. Kg2 Qb2+ 37. Kh3 Qxc3+ 38. Kg2 Qb2+ 39.
+Kg3 Qxb1 40. Qf6+ Ke8 41. Qh8+ Kd7 42. Qb8 Qe1+ 43. Kf3 Qc3+ 44. Kg2 Qb2+ 45.
+Kg1 Qd4+ 46. Kf1 Qf4+ 47. Ke1 Qe3+ 48. Kf1 Qf4+ 49. Ke1 Qe3+ 50. Kf1 Qb6 51.
+Qf8 Qb5+ 52. Kf2 Qxe5 53. Qxf7+ Kc8 54. Qf8+ Kc7 55. Qxh6 Qd4+ 56. Kg3 Qc3+ 57.
+Kh4 Qe1+ 58. Kh5 e5 59. g5 e4 60. Qg7+ Kb6 61. Qd4+ Kb5 62. g6 Qh1+ 63. Kg5
+Qg2+ 64. Kf6 Qf3+ 65. Ke6 Qg4+ 66. Kf6 Qf4+ 67. Ke6 Qg4+ 68. Kf6 Qh4+ 69. Ke6
+Qh3+ 70. Kf6 Qh4+ 71. Ke6 Qh3+ 72. Kf6 Qh4+ 73. Ke6 1/2-1/2
+
+[Event "Ct. Catalunya juvenil"]
+[Site "?"]
+[Date "2008.03.22"]
+[Round "6.6"]
+[White "Mestre Bellido, H."]
+[Black "Plasencia Martinez, V."]
+[Result "1-0"]
+[ECO "B74"]
+[WhiteElo "2321"]
+[BlackElo "2062"]
+[PlyCount "83"]
+[EventDate "2008.??.??"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be2 Bg7 7. O-O O-O 8.
+Nb3 Nc6 9. Be3 Be6 10. f4 Rc8 11. Nd4 Qb6 12. Na4 Qa5 13. Nc3 Qb6 14. Na4 Qa5
+15. Nxe6 fxe6 16. Nc3 Qb4 17. a3 Qxb2 18. Na4 Qxa1 19. Qxa1 Ng4 20. Bxg4 Bxa1
+21. Bxe6+ Kg7 22. Bxc8 Bd4 23. Bxd4+ Nxd4 24. Bxb7 Nxc2 25. Rf3 e5 26. fxe5
+Rxf3 27. gxf3 dxe5 28. Nc5 Nxa3 29. Nd7 g5 30. Nxe5 Kf6 31. Nc6 Nc4 32. Nxa7
+Ke5 33. Kf2 h5 34. Nc6+ Kf4 35. Nb4 Nb2 36. Ba6 Nd1+ 37. Ke2 Nc3+ 38. Kd2 Na4
+39. Be2 Ke5 40. Ke3 Nb6 41. Nd3+ Kf6 42. Kd4 1-0
+
+[Event "Ct. Catalunya juvenil"]
+[Site "?"]
+[Date "2008.03.23"]
+[Round "7.11"]
+[White "Plasencia Martinez, V."]
+[Black "Bardera Gil, S."]
+[Result "1-0"]
+[ECO "B31"]
+[WhiteElo "2062"]
+[BlackElo "2017"]
+[PlyCount "83"]
+[EventDate "2008.??.??"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. O-O Bg7 5. Re1 e5 6. c3 Nge7 7. d3 O-O 8. Be3
+Qa5 9. Na3 d6 10. h3 h6 11. Nd2 f5 12. f3 Kh7 13. Rc1 Be6 14. Bc4 d5 15. Nb3
+Qd8 16. Nxc5 Bc8 17. exd5 Nxd5 18. Bxd5 Qxd5 19. Qb3 Rd8 20. Qxd5 Rxd5 21. Rcd1
+b6 22. Nb3 Ba6 23. d4 exd4 24. Nxd4 Rad8 25. Nac2 Bf6 26. Kf2 R8d7 27. a3 g5
+28. g3 R5d6 29. f4 Bc4 30. Rc1 Ne7 31. Nf3 Kg6 32. Ncd4 Rd5 33. fxg5 hxg5 34.
+Ne6 Rd3 35. Nf8+ Kh5 36. Nxd7 Rxd7 37. Rcd1 Bd5 38. Bd4 Bxf3 39. Kxf3 g4+ 40.
+hxg4+ fxg4+ 41. Kg2 Bg5 42. Re6 1-0
+
+[Event "Ct. Catalunya juvenil"]
+[Site "?"]
+[Date "2008.03.24"]
+[Round "8.7"]
+[White "Mateos Rozas, MA."]
+[Black "Plasencia Martinez, V."]
+[Result "1/2-1/2"]
+[ECO "C11"]
+[WhiteElo "2112"]
+[BlackElo "2062"]
+[PlyCount "23"]
+[EventDate "2008.??.??"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6 7. Be3 Qb6 8. Na4
+Qa5+ 9. c3 cxd4 10. b4 Nxb4 11. cxb4 Bxb4+ 12. Bd2 1/2-1/2
+
+[Event "La Pobla de Lillet op"]
+[Site "?"]
+[Date "2010.??.??"]
+[Round "3.3"]
+[White "Martinez Duany, LS."]
+[Black "Plasencia Martinez, V."]
+[Result "1-0"]
+[ECO "B06"]
+[WhiteElo "2510"]
+[BlackElo "2156"]
+[PlyCount "37"]
+[EventDate "2010.??.??"]
+[EventRounds "9"]
+
+1. Nf3 g6 2. d4 Bg7 3. e4 c5 4. dxc5 Qa5+ 5. c3 Qxc5 6. Na3 Bxc3+ 7. bxc3 Qxc3+
+8. Qd2 Qxa1 9. Nb5 Na6 10. Bc4 d5 11. exd5 Bd7 12. O-O Qg7 13. Re1 Kf8 14. Ba3
+f6 15. d6 e5 16. Nc7 Re8 17. Qd5 g5 18. Nxe8 Kxe8 19. Qxb7 1-0
+
+[Event "Ct. Tarragona indiv. Absolut"]
+[Site "L'Hospitalet de l'Infant"]
+[Date "2013.10.06"]
+[Round "1"]
+[White "Garustowitz Ramirez, N."]
+[Black "Plasencia Martinez, V."]
+[Result "0-1"]
+[ECO "C20"]
+[WhiteElo "1820"]
+[BlackElo "2191"]
+[PlyCount "88"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e5 2. b3 Nf6 3. Nc3 Bc5 4. h3 O-O 5. Nf3 Nc6 6. d3 d5 7. Bd2 Bd4 8. Rb1
+Re8 9. exd5 Nxd5 10. Ne2 Qe7 11. Ng3 Nc3 12. Bxc3 Bxc3+ 13. Nd2 e4 14. dxe4 Nb4
+15. a3 Rd8 16. axb4 Rxd2 17. Qxd2 Bxd2+ 18. Kxd2 Qxb4+ 19. Kd1 Qd4+ 20. Ke2 Qc3
+21. Kd1 Be6 22. Bd3 Rd8 23. Ke2 g6 24. Rhd1 h5 25. Kf1 h4 26. Ne2 Qe5 27. f4
+Qc5 28. f5 gxf5 29. exf5 Bxf5 30. b4 Qe5 31. Ng1 Bxd3+ 32. cxd3 Qf5+ 33. Nf3
+Rxd3 34. Ke2 Qe4+ 35. Kf2 Rxd1 36. Rxd1 Qxb4 37. Rd8+ Kg7 38. Rd4 Qc5 39. Ke3
+a5 40. Ke4 a4 41. Nxh4 a3 42. Nf5+ Kf6 43. g4 a2 44. h4 Qe5+ 0-1
+
+[Event "Ct. Tarragona indiv. Absolut"]
+[Site "L'Hospitalet de l'Infant"]
+[Date "2013.10.13"]
+[Round "2"]
+[White "Plasencia Martinez, V."]
+[Black "Ribes Cabrera, J."]
+[Result "1-0"]
+[ECO "B12"]
+[WhiteElo "2191"]
+[BlackElo "1972"]
+[PlyCount "29"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c6 2. d4 d6 3. Nc3 e6 4. f4 Nf6 5. Nf3 Be7 6. Bd3 Nbd7 7. e5 Nd5 8. Ne4
+N7b6 9. c4 Nb4 10. exd6 Nxd3+ 11. Qxd3 Bh4+ 12. g3 Bf6 13. O-O O-O 14. Bd2 g6
+15. Ba5 1-0
+
+[Event "Ct. Tarragona indiv. Absolut"]
+[Site "L'Hospitalet de l'Infant"]
+[Date "2013.10.20"]
+[Round "3"]
+[White "Rodriguez Marcos, JR."]
+[Black "Plasencia Martinez, V."]
+[Result "0-1"]
+[ECO "B76"]
+[WhiteElo "1985"]
+[BlackElo "2191"]
+[PlyCount "53"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2
+Nc6 9. g4 Nxd4 10. Bxd4 Be6 11. h4 Qa5 12. h5 Rfc8 13. hxg6 hxg6 14. g5 Nh5 15.
+Bxg7 Nxg7 16. Bh3 Rc5 17. f4 Qb4 18. Bxe6 fxe6 19. O-O-O Rac8 20. Rh3 R8c6 21.
+Rdh1 Rb6 22. Nd1 Qxe4 23. Rh8+ Kf7 24. R1h7 Rc4 25. Rb8 Rd4 26. Rhh8 e5 27. Ne3
+0-1
+
+[Event "Ct. Tarragona indiv. Absolut"]
+[Site "L'Hospitalet de l'Infant"]
+[Date "2013.10.27"]
+[Round "4"]
+[White "Plasencia Martinez, V."]
+[Black "Ordobas Martinez, V."]
+[Result "1/2-1/2"]
+[ECO "C86"]
+[WhiteElo "2191"]
+[BlackElo "2074"]
+[PlyCount "41"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Qe2 b5 6. Bb3 Be7 7. O-O O-O 8. c3
+d5 9. exd5 Nxd5 10. Nxe5 Nf4 11. Qe4 Nxe5 12. Qxf4 Bd6 13. Qe4 Rb8 14. d4 Bb7
+15. Qf5 Qd7 16. Bc2 Qxf5 17. Bxf5 Ng6 18. Nd2 Bxg2 19. Kxg2 Nh4+ 20. Kg1 Nxf5
+21. Ne4 1/2-1/2
+
+[Event "Ct. Tarragona indiv. Absolut"]
+[Site "L'Hospitalet de l'Infant"]
+[Date "2013.11.03"]
+[Round "5"]
+[White "Fernandez Alonso, MA."]
+[Black "Plasencia Martinez, V."]
+[Result "1-0"]
+[ECO "E71"]
+[WhiteElo "2087"]
+[BlackElo "2191"]
+[PlyCount "134"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 g6 2. c4 Nf6 3. Nc3 Bg7 4. e4 d6 5. h3 O-O 6. Be3 e5 7. d5 a5 8. g4 Na6
+9. Nge2 c6 10. Ng3 cxd5 11. cxd5 Bd7 12. Be2 Nc5 13. f3 a4 14. Qd2 Ne8 15. O-O
+Kh8 16. Bb5 Nc7 17. Bxd7 Qxd7 18. Rac1 b5 19. Nd1 N7a6 20. Nf2 Rfc8 21. h4 Bf8
+22. Bg5 Be7 23. Bxe7 Qxe7 24. h5 Rg8 25. Kg2 Rac8 26. Rh1 g5 27. Nf5 Qd8 28.
+Qe2 Qd7 29. Rc3 b4 30. Rc4 Rc7 31. Rhc1 f6 32. Nd3 Rb8 33. Qd2 b3 34. a3 Rb5
+35. Nb4 Nb8 36. Qe3 Kg8 37. Qc3 Kf7 38. Kh2 Kf8 39. Ne3 Ke7 40. Ng2 Rbb7 41.
+Ne1 Nba6 42. Nc6+ Kf7 43. Ng2 Rb5 44. Ne3 Nb8 45. Nb4 Qc8 46. Nf5 Qd7 47. Kg3
+Kf8 48. h6 Rbb7 49. Nxd6 Qxd6 50. Rxc5 Rxc5 51. Qxc5 Qxc5 52. Rxc5 Rxb4 53.
+axb4 a3 54. Rc1 a2 55. b5 Nd7 56. Kg2 Nb6 57. Kf1 Na4 58. Ke2 Nc3+ 59. Kd3 Nb1
+60. Rc8+ Ke7 61. Ra8 Kd6 62. Kc4 Nd2+ 63. Kc3 Nxf3 64. b6 Kd7 65. b7 a1=Q 66.
+Rxa1 Kc7 67. Ra8 Kxb7 1-0
+
+[Event "Ct. Tarragona indiv. Absolut"]
+[Site "L'Hospitalet de l'Infant"]
+[Date "2013.11.10"]
+[Round "6"]
+[White "Plasencia Martinez, V."]
+[Black "Cabrera Royo, R."]
+[Result "1-0"]
+[ECO "B22"]
+[WhiteElo "2191"]
+[BlackElo "1935"]
+[PlyCount "33"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 Nc6 3. c3 d5 4. exd5 Qxd5 5. d4 Bg4 6. Be2 O-O-O 7. dxc5 Qe4 8.
+Nbd2 Bxf3 9. gxf3 Qg6 10. Qa4 Nf6 11. Bb5 Qg2 12. Rf1 Ne5 13. Qxa7 Nxf3+ 14.
+Nxf3 Qxf3 15. Be3 Nd5 16. c6 bxc6 17. Ba6# 1-0
+
+[Event "Ct. Tarragona indiv. Absolut"]
+[Site "L'Hospitalet de l'Infant"]
+[Date "2013.11.17"]
+[Round "7"]
+[White "Reig Pinol, A."]
+[Black "Plasencia Martinez, V."]
+[Result "1-0"]
+[ECO "D00"]
+[WhiteElo "2031"]
+[BlackElo "2191"]
+[PlyCount "33"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. Nf3 g6 3. Nc3 d5 4. Bf4 Bg7 5. e3 O-O 6. Be2 Bg4 7. Ne5 Bxe2 8.
+Qxe2 c6 9. h4 Qa5 10. O-O-O h6 11. h5 g5 12. Bxg5 hxg5 13. h6 Bh8 14. h7+ Kg7
+15. Rh5 Rd8 16. Rxg5+ Kf8 17. Qh5 1-0
+
+[Event "Ct. Tarragona indiv. Absolut"]
+[Site "L'Hospitalet de l'Infant"]
+[Date "2013.11.24"]
+[Round "8"]
+[White "Plasencia Martinez, V."]
+[Black "Regue Farran, E."]
+[Result "1-0"]
+[ECO "B53"]
+[WhiteElo "2191"]
+[BlackElo "2053"]
+[PlyCount "59"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Qxd4 Nc6 5. Bb5 Bd7 6. Bxc6 Bxc6 7. Nc3 Nf6 8.
+Bg5 Qb6 9. Bxf6 gxf6 10. Qxb6 axb6 11. Nd4 Rg8 12. O-O Bh6 13. Nd5 Bxd5 14.
+exd5 Rg5 15. c4 Rc8 16. f4 Rg4 17. Nf5 Bxf4 18. h3 Bh2+ 19. Kxh2 Rgxc4 20. Rae1
+Kf8 21. Rxe7 Rc2 22. Rxb7 Rxb2 23. Rxf7+ Kxf7 24. Nxd6+ Kg7 25. Nxc8 Rxa2 26.
+Nxb6 Rb2 27. Nd7 Rd2 28. Nxf6 Kg6 29. Rf4 Rd3 30. h4 1-0
+
+[Event "Ct. Tarragona indiv. Absolut"]
+[Site "L'Hospitalet de l'Infant"]
+[Date "2013.12.01"]
+[Round "9"]
+[White "Vicient Calvo, R."]
+[Black "Plasencia Martinez, V."]
+[Result "1-0"]
+[ECO "A54"]
+[WhiteElo "1932"]
+[BlackElo "2191"]
+[PlyCount "91"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d6 2. c4 Nf6 3. Nc3 Nbd7 4. Nf3 e5 5. dxe5 dxe5 6. Bg5 Be7 7. e3 O-O 8.
+Bd3 Re8 9. Qc2 h6 10. Bxf6 Bxf6 11. O-O-O c6 12. g4 Qe7 13. Ne4 Nc5 14. Nxc5
+Qxc5 15. Rdg1 Qe7 16. Be4 g6 17. g5 hxg5 18. h4 g4 19. h5 g5 20. Nh2 Kh8 21.
+Nxg4 Bxg4 22. Rxg4 Rad8 23. Qe2 Rd7 24. Qf3 Rg8 25. Qf5 Kg7 26. h6+ Kf8 27. h7
+Rh8 28. Rh6 Qd6 29. Rg1 Qd2+ 30. Kb1 Bg7 31. Qxg5 f5 32. Re6 fxe4 33. Qh5 Qd3+
+34. Ka1 Rf7 35. Rd1 Qxd1+ 36. Qxd1 Bf6 37. Qd6+ Kg7 38. a3 Rxh7 39. Re8 a6 40.
+Qe6 Rh4 41. Qc8 Kg6 42. Rg8+ Bg7 43. Qe6+ Rf6 44. Qe7 Rh7 45. Qxe5 Rxf2 46.
+Qg3+ 1-0

@@ -1,0 +1,78 @@
+[Event "Montcada op"]
+[Site "?"]
+[Date "2012.06.25"]
+[Round "1"]
+[White "Wilschut, P."]
+[Black "Peralta, F."]
+[Result "0-1"]
+[ECO "A13"]
+[WhiteElo "2233"]
+[BlackElo "2590"]
+[PlyCount "100"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. c4 e6 2. Nc3 d5 3. e3 Nf6 4. Nf3 c5 5. Qc2 Nc6 6. Be2 d4 7. exd4 cxd4 8. Ne4
+Nxe4 9. Qxe4 Be7 10. Ne5 Nxe5 11. Qxe5 O-O 12. d3 Bb4+ 13. Bd2 f6 14. Qb5 Bxd2+
+15. Kxd2 Bd7 16. Qb4 Bc6 17. Rag1 a5 18. Qc5 a4 19. Bf3 Ra5 20. Qb4 Qc7 21. Kc2
+Rf5 22. Re1 e5 23. Rhf1 Bxf3 24. gxf3 Qc6 25. Rg1 Rf7 26. Rg3 Rxf3 27. Re2 b6
+28. Rxf3 Qxf3 29. Kd2 Qc6 30. Re4 g5 31. h4 h6 32. Ke2 Kg7 33. h5 Qc5 34. Qxc5
+bxc5 35. Kf3 Rb7 36. Re2 Kf7 37. Kg4 Ke6 38. f3 f5+ 39. Kg3 Kf6 40. Kh3 Ra7 41.
+Kg3 Rg7 42. Re1 g4 43. b3 a3 44. Rb1 f4+ 45. Kg2 gxf3+ 46. Kxf3 Rg3+ 47. Ke4
+Ke6 48. Re1 f3 49. b4 f2 50. Ra1 Re3# 0-1
+
+[Event "Montcada op"]
+[Site "?"]
+[Date "2012.06.27"]
+[Round "3"]
+[White "Wilschut, P."]
+[Black "Cruz Sanchez, F."]
+[Result "1-0"]
+[ECO "A34"]
+[WhiteElo "2233"]
+[BlackElo "2404"]
+[PlyCount "147"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. c4 c5 2. Nc3 b6 3. e4 e6 4. g3 Bb7 5. Bg2 d6 6. Nge2 a6 7. O-O Nf6 8. a3 Qc7
+9. d3 Be7 10. b4 cxb4 11. axb4 Nbd7 12. b5 a5 13. Na4 O-O 14. h3 Rfe8 15. Bf4
+Ne5 16. Be3 Nfd7 17. Rc1 Rac8 18. f4 Ng6 19. Nd4 Nc5 20. f5 exf5 21. Nxf5 Bf6
+22. Nh6+ gxh6 23. Rxf6 Nxa4 24. Qxa4 d5 25. Bxb6 Qxg3 26. Rf3 Qg5 27. Be3 Qe7
+28. cxd5 Rxc1+ 29. Bxc1 Bxd5 30. Qd4 Bb7 31. Bb2 Ne5 32. Rg3+ Kh8 33. Qe3 Qf6
+34. Bxe5 Qxe5 35. d4 Qc7 36. e5 Rg8 37. Rxg8+ Kxg8 38. d5 Qc4 39. e6 fxe6 40.
+Qxe6+ Kg7 41. Qe7+ Kg8 42. Qxb7 Qd4+ 43. Kf1 Qf4+ 44. Ke2 Qe5+ 45. Kd3 Qg3+ 46.
+Kd4 Qxg2 47. Qc8+ Kf7 48. Qe6+ Kf8 49. Qxh6+ Ke8 50. Qe3+ Kd7 51. Qe6+ Kd8 52.
+Kc5 a4 53. Qf6+ Kd7 54. Qf5+ Kd8 55. Kc6 Qg7 56. Qf4 Qc3+ 57. Kb6 a3 58. Qf8+
+Kd7 59. Qf7+ Kd8 60. Qg8+ Kd7 61. Qe6+ Kd8 62. Qd6+ Kc8 63. Qe6+ Kd8 64. d6 Qg7
+65. h4 h5 66. Ka6 Qd7 67. Qg8+ Qe8 68. Qd5 Qd7 69. Kb6 a2 70. Qg8+ Qe8 71. Qxa2
+Qe3+ 72. Ka6 Kd7 73. Qd5 Qa3+ 74. Kb7 1-0
+
+[Event "Montcada op"]
+[Site "?"]
+[Date "2012.06.28"]
+[Round "4"]
+[White "Palit, S."]
+[Black "Wilschut, P."]
+[Result "1-0"]
+[ECO "C00"]
+[WhiteElo "2393"]
+[BlackElo "2233"]
+[PlyCount "139"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e6 2. Qe2 Be7 3. g3 d5 4. Bg2 Nf6 5. e5 Nfd7 6. Nf3 c5 7. d3 Nc6 8. c3 b5
+9. h4 c4 10. d4 b4 11. Ng5 h6 12. Nh3 bxc3 13. bxc3 Nb6 14. Qg4 Bf8 15. Nf4 g6
+16. Ba3 h5 17. Qd1 Ne7 18. Nd2 Bd7 19. Nf3 Nf5 20. Bxf8 Kxf8 21. Bh3 Na4 22.
+Bxf5 gxf5 23. Rc1 Nb2 24. Qd2 Rb8 25. O-O Na4 26. Rb1 Rb6 27. Qc2 Qe7 28. Rxb6
+axb6 29. Rb1 b5 30. Rb4 Ke8 31. Nd2 Kd8 32. Nb1 Rg8 33. Kf1 Rg4 34. Nxh5 f4 35.
+Nxf4 Rxf4 36. gxf4 Qxh4 37. Rxa4 bxa4 38. Nd2 Qxf4 39. Ke1 Qh4 40. Qb1 Qh1+ 41.
+Nf1 Kc7 42. Qc2 Qf3 43. Qb2 Be8 44. Qb4 f6 45. Qd6+ Kc8 46. Qxe6+ Bd7 47. Qa6+
+Kb8 48. Qb6+ Kc8 49. Ne3 Qe4 50. Qc5+ Kb8 51. Qd6+ Kc8 52. Qxd5 Qb1+ 53. Ke2
+Bg4+ 54. f3 Qxa2+ 55. Ke1 Qa1+ 56. Kf2 Qb2+ 57. Kg3 a3 58. Nxc4 Qc1 59. Kxg4
+Qg1+ 60. Kf5 Qg5+ 61. Ke4 Qg6+ 62. Ke3 Qg3 63. Ke2 Qg2+ 64. Kd3 Qg6+ 65. Kd2
+Qg2+ 66. Kc1 Qg5+ 67. Kc2 Qg6+ 68. Kb3 Qg1 69. Kxa3 Qa1+ 70. Kb4 1-0

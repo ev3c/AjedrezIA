@@ -1,0 +1,98 @@
+[Event "Camp. C. E. Barcelona fem."]
+[Site "Barcelona"]
+[Date "1932.12.18"]
+[Round "1"]
+[White "Nacher, Manolita"]
+[Black "De Zengotita, Maria Lluïsa"]
+[Result "0-1"]
+[ECO "D43"]
+[Annotator "Travesset, Joaquim"]
+[PlyCount "58"]
+[EventDate "1932.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 c6 3. Nc3 e6 4. Nf3 Nf6 5. Bg5 Be7 (5... Nbd7) 6. e3 O-O 7. Bd3
+h6 8. Bxf6 Bxf6 9. Bc2 {Una jugada que no se entiende. Dc2 parece la justa.}
+Be7 (9... dxc4 $142) 10. Qd3 f5 11. cxd5 {parece mejor 0-0} exd5 (11... cxd5
+$142) 12. O-O Na6 13. Ne5 Nb4 14. Qd2 Nxc2 15. Qxc2 Bf6 (15... f4 {ésta se iba
+de las manos y es mejor que la textual.}) 16. Ng6 Re8 17. Rfe1 {Diagrama #} (
+17. Ne2 {era interesante para entrar en ayuda del otro caballo.} Qb6 18. Nef4
+$13) 17... Qd7 18. Qb3 Qf7 19. Nf4 b6 20. Qd1 Bd7 21. Nh5 {Diagrama #} Re6 (
+21... Bxd4 $1 {Esta jugada se le escapó a la campeona.} 22. Qxd4 (22. exd4
+Rxe1+ 23. Qxe1 Qxh5 $15) 22... Qxh5 $15) 22. Nxf6+ Qxf6 23. b4 {continuaba
+siendo mejor Ce2} Rae8 24. Qf3 $2 {Diagrama # Un error que Zengotita castigará
+rápidamente.} (24. Ne2 $142 $11) 24... Qxd4 $1 25. Ne2 Qxb4 26. Qxf5 Qd6 (26...
+Rxe3 $142 {era más contundente} 27. Qxd7 Rxe2 $19) 27. g3 $2 {Debía retirarse
+la dama, aunque la posición blanca ya era inferior.} Rxe3 $1 28. Qf4 Qxf4 29.
+gxf4 Rxe2 {Y las blancas abandonaron algunas jugadas más tarde.} 0-1
+
+[Event "Camp. C. E. Barcelona fem."]
+[Site "Barcelona"]
+[Date "1933.01.08"]
+[Round "4"]
+[White "Nacher, Manolita"]
+[Black "Puigcercos, Montserrat"]
+[Result "1/2-1/2"]
+[ECO "D31"]
+[Annotator "Travesset, Joaquim"]
+[PlyCount "128"]
+[EventDate "1932.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. Nf3 Nc6 5. Bf4 Nf6 6. e3 Bb4 7. a3 Bxc3+ 8.
+bxc3 Ne4 9. cxd5 exd5 (9... Nxc3 $5 10. Qc2 Nxd5 11. Bg3 O-O 12. Bd3 {y el
+blanco, a pesar de la entrega de peón está mejor.}) 10. Qb3 Ne7 11. c4 b6 12.
+cxd5 Qxd5 13. Qxd5 Nxd5 14. Bc4 c6 $6 (14... Nxf4 $142) 15. Be5 O-O 16. O-O f6
+17. Bf4 b5 18. Ba2 Bg4 (18... Be6 $142) 19. Rfc1 Rac8 $2 (19... Bd7 $142) 20.
+Rxc6 $1 Nec3 (20... Rxc6 21. Bxd5+ Re6 22. h3 $18) 21. Rxc8 Bxc8 22. Bg3 Kh8
+23. Bxd5 Nxd5 24. Bd6 Rd8 25. Rc1 h6 26. h3 Nb6 $2 27. Bc7 Re8 28. Rc5 Nc4 29.
+Rxb5 (29. a4 $142) 29... Nxa3 30. Ra5 Re7 31. Bd6 Nc4 $1 32. Bxe7 Nxa5 33. Nd2
+Nc6 (33... Be6) 34. Ba3 a5 35. d5 Nb8 (35... Nb4) 36. Nc4 Bb7 37. d6 a4 38. Nb2
+Bc6 39. Kf1 Kg8 40. Ke2 Kf7 (40... Bxg2 $142 $11) 41. Kd3 Ke6 42. Kd4 Nd7 (
+42... Bxg2 $142 $11) 43. Nd3 Ne5 44. Nxe5 $6 (44. Nc5+ $142) (44. Kc5) 44...
+fxe5+ 45. Kc5 Bd7 (45... Bxg2 $142) 46. f4 e4 47. Kd4 Bc6 48. g3 h5 49. g4 g6
+50. Kc5 Bd7 51. Kb6 hxg4 52. hxg4 Kd5 $4 {Este error podría haber costado la
+partida.} (52... Kf7 $142 53. Kc7 Ke8 54. g5 Be6 $11) (52... Be8 $142 53. Kc7
+Bb5 54. f5+ gxf5 55. gxf5+ (55. g5 f4 $1 $11) 55... Kxf5 56. d7 Bxd7 57. Kxd7
+Kg4 58. Ke6 Kf3 59. Bc5 a3 $11) 53. Kc7 (53. g5 Ke6 54. Kc7 $11) 53... Bxg4 54.
+d7 Bxd7 55. Kxd7 Kc4 56. Ke6 Kd3 57. Bc5 a3 58. Bxa3 $4 {Nacher pierde una
+oportunidad única para ganar.} (58. Bd4 $3 a2 59. Kf6 a1=Q 60. Bxa1 Kxe3 61.
+Be5 Kf3 62. Kxg6 e3 63. f5 $18) 58... Kxe3 59. Ke5 Kf3 60. Bc5 e3 61. Bb4 e2
+62. Bd2 Kf2 63. Ke4 (63. Kf6 Kf3 64. Kg5 Ke4 $11) 63... e1=Q+ 64. Bxe1+ Kxe1
+$11 1/2-1/2
+
+[Event "Camp. C. E. Barcelona fem."]
+[Site "Barcelona"]
+[Date "1933.02.05"]
+[Round "8"]
+[White "Nacher, Manolita"]
+[Black "Ruiz, Sofía"]
+[Result "0-1"]
+[ECO "D53"]
+[Annotator "Travesset, Joaquim"]
+[PlyCount "102"]
+[EventDate "1932.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. Bg5 Be7 5. Nf3 c6 6. e3 O-O 7. Bd3 Na6 (7...
+Nbd7 {era otra alternativa}) 8. a3 c5 9. cxd5 exd5 10. Bc2 $6 (10. Bxa6 $142)
+10... c4 11. b3 Qc7 12. Bb1 (12. Qd2 $142) 12... Qa5 13. Qc2 Nb4 14. Qb2 $4 {
+Un error de consideración} (14. axb4 $1 Qxa1 15. Nxd5 $3 {Quizás esta es la
+jugada que no vio Nacher, que ganaba} Bxb4+ 16. Ke2 Ne4 17. Qxe4 Qb2+ 18. Qc2 (
+18. Kd1 $18) 18... Qxc2+ 19. Bxc2 cxb3 20. Bxb3 {con gran ventaja}) 14... Nd3+
+15. Bxd3 cxd3 16. O-O Qa6 17. Bxf6 Bxf6 18. Nxd5 Bd8 19. Nb4 Qg6 20. Rfd1 Bh3
+21. g3 Qe4 22. Ne1 Ba5 23. Qd2 $6 (23. Nbxd3 $142) 23... Qg4 24. Qxd3 Rac8 25.
+Ra2 Rc7 26. Qe2 Qe4 27. Qf3 Qg6 28. Nd5 $2 (28. Qd5 $142 Bxb4 29. axb4 a6 30.
+b5 $18) 28... Bg4 29. Nf4 (29. Qf4 Bxd1 30. Nxc7 (30. Qxc7 Bxc7 31. Ne7+ Kh8
+32. Nxg6+ hxg6 33. b4 Bb6 $19) 30... Qb1 $19) 29... Qf5 (29... Bxf3 $142) 30.
+e4 Bxf3 31. exf5 Bxd1 32. b4 Bb6 33. Rd2 Rc1 34. Ne2 Ra1 35. Kg2 Re8 36. Nc2
+Bxc2 (36... Rxe2 $142 37. Rxe2 Bxe2 38. Nxa1 Bd1 $19) 37. Rxc2 Re1 38. Nf4 Bxd4
+39. Nd3 R1e2 40. Rc4 Bb6 41. a4 a5 42. h4 Rd2 43. bxa5 Bxa5 44. Nc5 Bb6 45. Ne4
+Re2 46. Kf3 Rb2 47. Nd6 Rxf2+ 48. Kg4 Ra8 49. Nxb7 Ra2 50. a5 Bxa5 51. Nd6 h6
+0-1

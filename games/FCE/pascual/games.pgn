@@ -1,0 +1,94 @@
+[Event "Ct. Catalunya equips"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "?"]
+[White "Pascual"]
+[Black "Sumelzo, J."]
+[Result "1-0"]
+[ECO "D04"]
+[PlyCount "95"]
+[EventDate "1996.??.??"]
+
+1. Nf3 d5 2. d4 Nf6 3. e3 Bf5 4. Bd3 Bxd3 5. Qxd3 c6 6. Nbd2 e6 7. Ne5 Nbd7 8.
+f4 Nxe5 9. fxe5 Ng4 10. Nf3 h5 11. Bd2 Qb6 12. b3 Nh6 13. O-O Be7 14. c4 dxc4
+15. bxc4 O-O-O 16. Rab1 Qc7 17. Qb3 c5 18. Rfc1 f6 19. d5 fxe5 20. e4 Rd6 21.
+Ba5 b6 22. Bc3 Nf7 23. Nxe5 Bf6 24. Nxf7 Qxf7 25. e5 Rd7 26. exf6 gxf6 27. Rf1
+Rh6 28. dxe6 Qxe6 29. Rbe1 Qc6 30. Qc2 Rg7 31. Qe4 Qxe4 32. Rxe4 Rf7 33. Re6
+Rg6 34. Rexf6 Rfxf6 35. Rxf6 Rg4 36. Rf8+ Kb7 37. Rf7+ Ka6 38. Be5 Rxc4 39. Bb8
+Rc1+ 40. Kf2 Kb5 41. Rxa7 c4 42. Be5 c3 43. Rc7 Kb4 44. Bxc3+ Rxc3 45. Rxc3
+Kxc3 46. g3 b5 47. h3 Kb2 48. g4 1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1974.??.??"]
+[Round "?"]
+[White "Pascual"]
+[Black "Martinez"]
+[Result "0-1"]
+[ECO "C43"]
+[PlyCount "14"]
+[EventDate "1974.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nf6 3. d4 exd4 4. e5 Ne4 5. Qxd4 d5 6. Nc3 Bc5 7. Qxd5 Bxf2+
+0-1
+
+[Event "Camp. Catalunya eq. Lleida"]
+[Site "?"]
+[Date "1979.??.??"]
+[Round "?"]
+[White "Garcia"]
+[Black "Pascual"]
+[Result "1/2-1/2"]
+[ECO "A00"]
+[PlyCount "76"]
+[EventDate "1979.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. c3 Nf6 2. Nf3 b6 3. d4 Bb7 4. Bf4 e6 5. Nbd2 Be7 6. e3 Nh5 7. Bg3 d6 8. e4
+Nd7 9. Bd3 c5 10. Bb5 a6 11. Bxd7+ Qxd7 12. e5 Nxg3 13. hxg3 cxd4 14. cxd4 dxe5
+15. dxe5 Qd3 16. Qb3 Qxb3 17. Nxb3 Bb4+ 18. Nbd2 O-O 19. a3 Bxd2+ 20. Kxd2
+Rfd8+ 21. Ke3 h6 22. Rad1 Bd5 23. g4 Rac8 24. g5 hxg5 25. Nxg5 f6 26. exf6 gxf6
+27. Nh7 Kg7 28. Rh3 Bc4 29. Rd4 Rxd4 30. Kxd4 e5+ 31. Ke4 Bg8 32. Nxf6 Kxf6 33.
+Rh6+ Ke7 34. Rxb6 Rc5 35. Rxa6 Rc2 36. b4 Rxf2 37. Kxe5 Rxg2 38. Ra7+ Kd8
+1/2-1/2
+
+[Event "Camp. Catalunya indiv. Pref. Lleida"]
+[Site "?"]
+[Date "1979.??.??"]
+[Round "?"]
+[White "Gensana, Joan"]
+[Black "Pascual"]
+[Result "1-0"]
+[ECO "B00"]
+[PlyCount "47"]
+[EventDate "1979.??.??"]
+[EventType "tourn"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+
+1. e4 b6 2. d4 Bb7 3. Nc3 e6 4. a3 Nf6 5. Bd3 c5 6. Nf3 Be7 7. O-O O-O 8. d5 h6
+9. d6 Bxd6 10. e5 Bxe5 11. Nxe5 d5 12. Re1 a6 13. Ng4 Nh7 14. Bxh7+ Kxh7 15.
+Qd3+ Kh8 16. Qh3 Nd7 17. Nxh6 gxh6 18. Qxh6+ Kg8 19. Bg5 Qc7 20. Be7 d4 21. Ne4
+Bxe4 22. Rxe4 f5 23. Qg6+ Kh8 24. Rh4# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1985.??.??"]
+[Round "?"]
+[White "Pascual"]
+[Black "Adserias Sans, Joan"]
+[Result "1-0"]
+[ECO "C47"]
+[PlyCount "31"]
+[EventDate "1985.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. d4 Bb4 5. Nxe5 Nxe4 6. Qg4 Nxc3 7. Qxg7 Rf8
+8. a3 Nxd4 9. axb4 Nxc2+ 10. Kd2 Nxa1 11. Kxc3 a5 12. Bc4 Qe7 13. Re1 Qxb4+ 14.
+Kd3 d5 15. Nxf7+ Qxe1 16. Nd6+ 1-0

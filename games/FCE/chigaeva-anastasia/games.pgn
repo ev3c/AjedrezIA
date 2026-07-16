@@ -1,0 +1,186 @@
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.01.20"]
+[Round "1.10"]
+[White "Chigaeva, Anastasia"]
+[Black "Gonzalez Garcia, Marc"]
+[Result "1/2-1/2"]
+[ECO "D28"]
+[WhiteElo "2106"]
+[BlackElo "2125"]
+[PlyCount "94"]
+[EventDate "2024.??.??"]
+
+1. d4 d5 2. c4 e6 3. Nf3 dxc4 4. e3 Nf6 5. Bxc4 a6 6. O-O c5 7. Qe2 Nc6 8. Rd1
+b5 9. Bb3 c4 10. Bc2 Nb4 11. a4 Nxc2 12. Qxc2 Bb7 13. Ne5 Be7 14. Nc3 b4 15.
+Ne2 Rc8 16. f3 Qc7 17. e4 Bd6 18. a5 Bxe5 19. dxe5 Qc5+ 20. Kh1 Nd7 21. Bf4 Bc6
+22. Nd4 Bb5 23. Nxb5 axb5 24. Qd2 Rc7 25. Be3 Qe7 26. a6 O-O 27. a7 Ra8 28. f4
+f6 29. Ra5 Rb7 30. Qd6 Qxd6 31. exd6 Kf7 32. Ra6 Ke8 33. Rc6 Kd8 34. Kg1 Nf8
+35. Bb6+ Ke8 36. Rc7 Rxb6 37. d7+ Nxd7 38. Rdxd7 c3 39. Rxg7 Kf8 40. Rxh7 Kg8
+41. Rhg7+ Kf8 42. bxc3 bxc3 43. Rh7 Kg8 44. Rhg7+ Kh8 45. Rh7+ Kg8 46. Rcg7+
+Kf8 47. Rc7 Kg8 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "Platja d Aro"]
+[Date "2024.01.27"]
+[Round "2.10"]
+[White "Martin Gonzalez, Angel"]
+[Black "Chigaeva, Anastasia"]
+[Result "1-0"]
+[ECO "E57"]
+[WhiteElo "2195"]
+[BlackElo "2106"]
+[PlyCount "51"]
+[EventDate "2024.??.??"]
+[TimeControl "90"]
+[WhiteClock "0:02:46"]
+[BlackClock "0:41:04"]
+
+1. e4 {[%emt 0:00:03]} e6 {[%emt 0:00:16]} 2. d4 {[%emt 0:00:07]} d5 {[%emt 0:
+00:08]} 3. Nd2 {[%emt 0:00:11]} c5 {[%emt 0:00:17]} 4. c3 {[%emt 0:00:37]} cxd4
+{[%emt 0:03:29]} 5. cxd4 {[%emt 0:00:20]} dxe4 {[%emt 0:03:32]} 6. Nxe4 {
+[%emt 0:00:10]} Bb4+ {[%emt 0:02:07]} 7. Nc3 {[%emt 0:00:08]} Nc6 {[%emt 0:00:
+53]} 8. Nf3 {[%emt 0:00:11]} Nf6 {[%emt 0:00:55]} 9. Bd3 {[%emt 0:00:17]} O-O {
+[%emt 0:04:45]} 10. O-O {[%emt 0:01:22]} b6 {[%emt 0:09:54]} 11. Re1 {[%emt 0:
+09:34]} Bb7 {[%emt 0:02:03]} 12. a3 {[%emt 0:00:12]} Be7 {[%emt 0:01:45]} 13.
+Bc2 {[%emt 0:02:34]} Rc8 {[%emt 0:08:49]} 14. Qd3 {[%emt 0:01:33]} h6 {[%emt 0:
+13:17]} 15. Bf4 {[%emt 0:13:52]} Re8 {[%emt 0:03:29]} 16. Rad1 {[%emt 0:02:48]}
+a6 {[%emt 0:08:23]} 17. Ne5 {[%emt 0:05:29]} Nxe5 {[%emt 0:07:41]} 18. Bxe5 {
+[%emt 0:00:21]} Bd6 {[%emt 0:08:04]} 19. Bxf6 {[%emt 0:10:47]} Qxf6 {[%emt 0:
+02:18]} 20. d5 {[%emt 0:00:08]} Bc5 {[%emt 0:06:32]} 21. Qh7+ {[%emt 0:02:00]}
+Kf8 {[%emt 0:00:01]} 22. Ne4 {[%emt 0:00:10]} Qxb2 {[%emt 0:06:27]} 23. Nxc5 {
+[%emt 0:07:04]} Rxc5 {[%emt 0:01:42]} 24. dxe6 {[%emt 0:00:29]} fxe6 {[%emt 0:
+03:06]} 25. Rd7 {[%emt 0:01:51]} Re7 {[%emt 0:00:24]} 26. Rd8+ {[%emt 0:00:07]}
+1-0
+
+[Event "Lliga Catalana DH"]
+[Site "Barcelona"]
+[Date "2024.02.03"]
+[Round "3.8"]
+[White "Chigaeva, Anastasia"]
+[Black "Travesset Sagré, Jan"]
+[Result "1/2-1/2"]
+[ECO "D10"]
+[WhiteElo "2106"]
+[BlackElo "2347"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "70"]
+[EventDate "2024.??.??"]
+
+1. d4 d5 2. c4 c6 3. cxd5 cxd5 4. Bf4 Nf6 5. e3 Nc6 6. Nc3 Bf5 7. Qb3 Na5 8.
+Qa4+ Bd7 9. Bb5 e6 10. Nf3 a6 11. Bxd7+ Nxd7 12. O-O b5 13. Qc2 Rc8 14. Qd3 Be7
+15. a4 b4 16. Ne2 Qb6 17. b3 O-O 18. Rac1 h6 19. h3 Nb7 20. Rc2 Rxc2 21. Qxc2
+Bd6 22. Rc1 Bxf4 23. exf4 Na5 24. Ne5 Nb8 25. g3 Rd8 26. Kg2 Qd6 27. Qd3 Qe7
+28. g4 Re8 29. Ng3 f6 30. Ng6 Qd6 31. Nh5 Nd7 32. Nh4 Nf8 33. Ng6 Nd7 34. Nh4
+Nf8 35. Ng6 Nd7 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "Barcelona"]
+[Date "2024.02.17"]
+[Round "5.10"]
+[White "CHIGAEVA, ANASTASIA."]
+[Black "BOSQUE ORTEGA, XAVIER."]
+[Result "0-1"]
+[ECO "D13"]
+[WhiteElo "2099"]
+[BlackElo "2166"]
+[PlyCount "164"]
+[EventDate "2024.??.??"]
+[TimeControl "90+30"]
+
+1. d4 {[%emt 4:27:31]} d5 {[%emt 0:11:25]} 2. c4 {[%emt 0:00:15]} c6 {[%emt 0:
+00:16]} 3. cxd5 {[%emt 0:00:10]} cxd5 {[%emt 0:00:11]} 4. Bf4 {[%emt 0:00:07]}
+Nc6 {[%emt 0:00:29]} 5. e3 {[%emt 0:00:13]} Nf6 {[%emt 0:00:52]} 6. Nc3 {
+[%emt 0:00:17]} e6 {[%emt 0:04:34]} 7. Nf3 {[%emt 0:04:26]} Be7 {[%emt 0:17:41]
+} 8. Be2 {[%emt 0:07:36]} O-O {[%emt 0:00:45]} 9. O-O {[%emt 0:04:51]} Nh5 {
+[%emt 0:04:00]} 10. Be5 {[%emt 0:02:08]} f6 {[%emt 0:05:14]} 11. Bg3 {[%emt 0:
+00:31]} Nxg3 {[%emt 0:00:13]} 12. hxg3 {[%emt 0:00:08]} f5 {[%emt 0:03:02]} 13.
+Rc1 {[%emt 0:04:59]} Bd7 {[%emt 0:02:18]} 14. a3 {[%emt 0:06:06]} g5 {[%emt 0:
+10:25]} 15. b4 {[%emt 0:10:48]} g4 {[%emt 0:03:46]} 16. Ne5 {[%emt 0:02:49]}
+Bd6 {[%emt 0:12:55]} 17. Nxc6 {[%emt 0:28:05]} Bxc6 {[%emt 0:06:11]} 18. Bxg4 {
+[%emt 0:06:56]} fxg4 {[%emt 0:00:11]} 19. Qxg4+ {[%emt 0:00:02]} Kh8 {[%emt 0:
+00:12]} 20. Qxe6 {[%emt 0:02:12]} Rf6 {[%emt 0:00:12]} 21. Qh3 {[%emt 0:02:03]}
+Qe8 {[%emt 0:11:56]} 22. g4 {[%emt 0:08:59]} Rg6 {[%emt 0:02:24]} 23. f4 {
+[%emt 0:03:26]} a6 {[%emt 0:00:15]} 24. g5 {[%emt 0:01:54]} Qg8 {[%emt 0:01:09]
+} 25. Rf3 {[%emt 0:03:27]} Re8 {[%emt 0:00:35]} 26. Kf2 {[%emt 0:00:29]} Qg7 {
+[%emt 0:00:30]} 27. Rh1 {[%emt 0:00:39]} Rge6 {[%emt 0:01:14]} 28. f5 {[%emt 0:
+00:44]} Re4 {[%emt 0:00:25]} 29. f6 {[%emt 0:00:20]} Qg6 {[%emt 0:00:18]} 30.
+f7 {[%emt 0:00:31]} Rf8 {[%emt 0:00:08]} 31. Nxe4 {[%emt 0:00:40]} Qxe4 {
+[%emt 0:00:11]} 32. Re1 {[%emt 0:00:33]} Qg6 {[%emt 0:00:35]} 33. Qf5 {[%emt 0:
+00:27]} Kg7 {[%emt 0:00:54]} 34. Rh1 {[%emt 0:00:17]} Qxf5 {[%emt 0:00:57]} 35.
+Rxf5 {[%emt 0:00:02]} Be7 {[%emt 0:00:36]} 36. Ke2 {[%emt 0:01:15]} Kg6 {
+[%emt 0:00:17]} 37. Rf2 {[%emt 0:00:31]} Bxg5 {[%emt 0:00:19]} 38. Kd2 {
+[%emt 0:00:27]} Bf6 {[%emt 0:00:52]} 39. Rhf1 {[%emt 0:00:28]} Rxf7 {[%emt 0:
+00:11]} 40. Rf4 {[%emt 0:00:16]} Bd7 {[%emt 0:00:38]} 41. R1f3 {[%emt 0:00:28]}
+h5 {[%emt 0:00:27]} 42. Rf1 {[%emt 0:00:50]} Bb5 {[%emt 0:00:27]} 43. R1f3 {
+[%emt 0:00:15]} Bd7 {[%emt 0:00:22]} 44. Rf1 {[%emt 0:00:06]} Bg4 {[%emt 0:00:
+29]} 45. R1f2 {[%emt 0:00:16]} Be6 {[%emt 0:00:21]} 46. Rf1 {[%emt 0:00:36]}
+Bd8 {[%emt 0:00:47]} 47. Rxf7 {[%emt 0:00:26]} Bxf7 {[%emt 0:00:01]} 48. Kd3 {
+[%emt 0:01:18]} Kg7 {[%emt 0:00:24]} 49. Rc1 {[%emt 0:00:33]} Bg6+ {[%emt 0:00:
+19]} 50. Ke2 {[%emt 0:00:10]} Bf5 {[%emt 0:00:18]} 51. Kf3 {[%emt 0:00:39]}
+Be4+ {[%emt 0:01:06]} 52. Kg3 {[%emt 0:00:43]} Kf7 {[%emt 0:00:38]} 53. Rc8 {
+[%emt 0:00:27]} Ke7 {[%emt 0:00:14]} 54. Kf2 {[%emt 0:00:28]} Kd7 {[%emt 0:00:
+17]} 55. Rc1 {[%emt 0:00:07]} Bh4+ {[%emt 0:00:43]} 56. g3 {[%emt 0:00:53]} Be7
+{[%emt 0:00:27]} 57. Rc3 {[%emt 0:00:25]} Bd6 {[%emt 0:00:17]} 58. Rc1 {
+[%emt 0:00:39]} Bf5 {[%emt 0:00:23]} 59. Rc3 {[%emt 0:00:22]} Ke7 {[%emt 0:00:
+34]} 60. Rc1 {[%emt 0:00:27]} Kf6 {[%emt 0:00:10]} 61. Rc3 {[%emt 0:00:32]} Kg5
+{[%emt 0:00:36]} 62. e4 {[%emt 0:00:41]} dxe4 {[%emt 0:00:37]} 63. Re3 {
+[%emt 0:00:29]} Kf6 {[%emt 0:00:46]} 64. Rc3 {[%emt 0:00:33]} Bd7 {[%emt 0:00:
+27]} 65. Rc1 {[%emt 0:00:23]} Bc6 {[%emt 0:00:38]} 66. Rf1 {[%emt 0:00:25]} Ke6
+{[%emt 0:00:41]} 67. Rg1 {[%emt 0:00:20]} Kd5 {[%emt 0:00:38]} 68. Ke3 {
+[%emt 0:00:10]} Bd7 {[%emt 0:00:56]} 69. Rg2 {[%emt 0:01:09]} Bf8 {[%emt 0:00:
+20]} 70. Rc2 {[%emt 0:00:36]} Bh6+ {[%emt 0:00:18]} 71. Ke2 {[%emt 0:00:18]}
+Kxd4 {[%emt 0:00:41]} 72. Rc7 {[%emt 0:00:02]} Bb5+ {[%emt 0:00:37]} 73. Ke1 {
+[%emt 0:00:25]} Ke3 {[%emt 0:00:31]} 74. Rh7 {[%emt 0:00:49]} Bg5 {[%emt 0:00:
+20]} 75. Rxh5 {[%emt 0:00:39]} Bf6 {[%emt 0:00:02]} 76. Rc5 {[%emt 0:00:45]}
+Bd4 {[%emt 0:00:19]} 77. Rc7 {[%emt 0:00:22]} Be5 {[%emt 0:00:17]} 78. Rc5 {
+[%emt 0:00:40]} Bxg3+ {[%emt 0:00:24]} 79. Kd1 {[%emt 0:00:06]} Kd4 {[%emt 0:
+00:35]} 80. Rc8 {[%emt 0:00:48]} e3 {[%emt 0:00:35]} 81. Rd8+ {[%emt 0:00:23]}
+Kc3 {[%emt 0:00:31]} 82. Rc8+ {[%emt 0:00:32]} Kb3 {[%emt 0:00:16]} 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "Barcelona"]
+[Date "2024.02.24"]
+[Round "6.9"]
+[White "Martinez Lopez, Carlos"]
+[Black "Chigaeva, Anastasia"]
+[Result "1/2-1/2"]
+[ECO "B38"]
+[WhiteElo "2004"]
+[BlackElo "2099"]
+[PlyCount "43"]
+[EventDate "2024.??.??"]
+[TimeControl "90+30"]
+[WhiteClock "1:08:26"]
+[BlackClock "0:57:03"]
+
+1. e4 {[%emt 0:00:05]} c5 {[%emt 0:00:15]} 2. Nf3 {[%emt 0:00:02]} Nc6 {
+[%emt 0:00:15]} 3. d4 {[%emt 0:00:06]} cxd4 {[%emt 0:00:09]} 4. Nxd4 {[%emt 0:
+00:05]} g6 {[%emt 0:00:15]} 5. c4 {[%emt 0:00:25]} Bg7 {[%emt 0:00:16]} 6. Be3
+{[%emt 0:00:02]} Nf6 {[%emt 0:00:28]} 7. Nc3 {[%emt 0:00:13]} d6 {[%emt 0:00:
+28]} 8. Be2 {[%emt 0:02:20]} O-O {[%emt 0:00:44]} 9. O-O {[%emt 0:01:38]} Bd7 {
+[%emt 0:00:13]} 10. f3 {[%emt 0:08:20]} Nxd4 {[%emt 0:02:25]} 11. Bxd4 {
+[%emt 0:00:56]} Bc6 {[%emt 0:00:11]} 12. Qd2 {[%emt 0:03:08]} a5 {[%emt 0:00:
+24]} 13. b3 {[%emt 0:08:28]} Nd7 {[%emt 0:00:18]} 14. Bxg7 {[%emt 0:00:19]}
+Kxg7 {[%emt 0:00:09]} 15. Qd4+ {[%emt 0:00:23]} Kg8 {[%emt 0:01:43]} 16. a3 {
+[%emt 0:02:45]} Qb6 {[%emt 0:08:34]} 17. Qxb6 {[%emt 0:01:40]} Nxb6 {[%emt 0:
+00:02]} 18. Nd5 {[%emt 0:03:49]} Bxd5 {[%emt 0:03:56]} 19. cxd5 {[%emt 0:04:07]
+} Rfc8 {[%emt 0:02:38]} 20. Rfc1 {[%emt 0:02:50]} g5 {[%emt 0:06:39]} 21. Bb5 {
+[%emt 0:02:08]} Kg7 {[%emt 0:02:28]} 22. Kf2 {[%emt 0:00:41]} 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.03.02"]
+[Round "7.9"]
+[White "Chigaeva, Anastasia"]
+[Black "de la Riva Aguado, Jordi"]
+[Result "1/2-1/2"]
+[ECO "E74"]
+[WhiteElo "2091"]
+[BlackElo "2178"]
+[PlyCount "35"]
+[EventDate "2024.??.??"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Be2 O-O 6. Bg5 h6 7. Be3 c5 8. d5 e6
+9. Qd2 exd5 10. exd5 Kh7 11. h3 Re8 12. Nf3 Bf5 13. O-O Ne4 14. Nxe4 Bxe4 15.
+Rad1 Nd7 16. Rfe1 Bxf3 17. Bxf3 Qh4 18. b3 1/2-1/2

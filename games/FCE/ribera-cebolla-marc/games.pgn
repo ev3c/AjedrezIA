@@ -1,0 +1,76 @@
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.02.03"]
+[Round "3.10"]
+[White "TOQUERO GRACIA, PAU."]
+[Black "RIBERA CEBOLLA, MARC."]
+[Result "1/2-1/2"]
+[ECO "B22"]
+[WhiteElo "2150"]
+[BlackElo "2241"]
+[PlyCount "108"]
+[EventDate "2024.??.??"]
+
+1. e4 c5 2. c3 d5 3. exd5 Qxd5 4. d4 Nf6 5. Nf3 Nc6 6. Be2 cxd4 7. cxd4 e6 8.
+O-O Be7 9. Nc3 Qd6 10. h3 O-O 11. Be3 b6 12. Qd2 Bb7 13. Rfd1 Nd5 14. Rac1 Rfd8
+15. Ne4 Qb8 16. Qc2 Ncb4 17. Qb1 Nxe3 18. fxe3 Bxe4 19. Qxe4 Nxa2 20. Bd3 g6
+21. Rc6 Bd6 22. Ng5 Nb4 23. Rf1 Bh2+ 24. Kh1 Nxd3 25. Nxf7 Rf8 26. Nh6+ Kg7 27.
+Rxf8 Qxf8 28. Qxd3 Bg3 29. Ng4 Qb4 30. Rc1 Rf8 31. e4 Bf4 32. Rd1 Qxb2 33. Rf1
+h5 34. Nh2 Qb4 35. Nf3 g5 36. e5 Qe7 37. g4 hxg4 38. hxg4 Rh8+ 39. Kg2 Qb7 40.
+Rh1 Rxh1 41. Kxh1 b5 42. Kg2 b4 43. Qb3 Qd5 44. Qxb4 Kf7 45. Qd6 Qxd6 46. exd6
+Bxd6 47. Nxg5+ Ke7 48. Ne4 a5 49. Nc3 Bb4 50. Na2 Bd2 51. Kf2 Kd6 52. Ke2 Bg5
+53. Kd3 a4 54. Kc4 Bd2 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "lichess.org"]
+[Date "2025.01.25"]
+[Round "2.8"]
+[White "Travesset Ribera, Joaquin"]
+[Black "Ribera Cebolla, Marc"]
+[Result "1/2-1/2"]
+[ECO "A45"]
+[WhiteElo "2123"]
+[BlackElo "2110"]
+[PlyCount "72"]
+[GameId "2151339903842981"]
+[EventDate "2025.??.??"]
+
+1. d4 Nf6 2. Bf4 g6 3. Nc3 Bg7 4. Qd2 c5 5. dxc5 Qa5 6. e4 Qxc5 7. f3 d6 8. Be3 Qa5 9. Nb5 Qxd2+ 10. Kxd2 Na6 11. Bxa7 O-O 12. Bd4 d5 13. e5 Bh6+ 14. Be3 Bxe3+ 15. Kxe3 Nd7 16. f4 f6 17. Nf3 g5 18. exf6 gxf4+ 19. Kxf4 Rxf6+ 20. Kg3 Rg6+ 21. Kf2 e5 22. c4 d4 23. Re1 Rf6 24. Kg1 Nb4 25. Nxe5 Nxe5 26. Rxe5 d3 27. h3 Rxa2 28. Re8+ Kf7 29. Rxc8 Ra1 30. Kh2 Rfxf1 31. Rxf1+ Rxf1 32. Rd8 Ke7 33. Rd4 Rf2 34. Nc3 Rxb2 35. Nd5+ Nxd5 36. Rxd5 Rc2 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.02.22"]
+[Round "6.6"]
+[White "Ribera Cebolla, Marc"]
+[Black "Ayas Fernandez, Antonio"]
+[Result "1/2-1/2"]
+[ECO "C02"]
+[WhiteElo "2110"]
+[BlackElo "2183"]
+[PlyCount "45"]
+[GameId "2150544295158480"]
+[EventDate "2025.02.15"]
+[WhiteTeam "Andorra"]
+[BlackTeam "Lira Vendrellenca"]
+[WhiteTeamCountry "AND"]
+
+1. e4 c5 2. Nf3 e6 3. c3 d5 4. e5 Nc6 5. d4 Nh6 6. Bxh6 gxh6 7. a3 cxd4 8. cxd4 Bg7 9. b4 f6 10. b5 Ne7 11. exf6 Bxf6 12. Bd3 Qa5+ 13. Qd2 Qxd2+ 14. Nbxd2 Ng6 15. g3 Bd7 16. Nb3 Rc8 17. Kd2 Ke7 18. Rhe1 Rhf8 19. Re2 Bg5+ 20. Nxg5 hxg5 21. a4 Rf3 22. Rc1 Rxc1 23. Nxc1 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.03.01"]
+[Round "7.8"]
+[White "Comellas Martos, Lidia"]
+[Black "Ribera Cebolla, Marc"]
+[Result "0-1"]
+[ECO "C00"]
+[WhiteElo "1993"]
+[BlackElo "2112"]
+[PlyCount "88"]
+[GameId "2152740062700168"]
+[EventDate "2025.02.15"]
+[WhiteTeam "Cor de Marina"]
+[BlackTeam "Andorra"]
+[BlackTeamCountry "AND"]
+
+1. e4 c5 2. Nf3 e6 3. Qe2 Nf6 4. g3 Be7 5. Bg2 d5 6. d3 Nc6 7. c3 b5 8. O-O O-O 9. e5 Nd7 10. h4 a5 11. Bf4 Ba6 12. Nbd2 Qc7 13. Rfe1 Nb6 14. g4 b4 15. c4 Rad8 16. Bg5 dxc4 17. dxc4 Nd4 18. Nxd4 Rxd4 19. b3 Bxg5 20. hxg5 Rfd8 21. Nf1 Qe7 22. Qf3 Qxg5 23. Qc6 Nd7 24. Qxa6 Nxe5 25. Nh2 h5 26. gxh5 Rd2 27. Qb7 Qf4 28. Rf1 Re2 29. Rae1 Rdd2 30. Rxe2 Rxe2 31. Qc8+ Kh7 32. Qxc5 Rxa2 33. Rd1 a4 34. bxa4 b3 35. Rf1 b2 36. Qb4 Nxc4 37. Qc3 Nd2 38. Rd1 b1=Q 39. Rxb1 Nxb1 40. Qd3+ f5 41. Nf3 Nd2 42. Qc3 Ne4 43. Qe3 Ra1+ 44. Bf1 Qg4+ 0-1

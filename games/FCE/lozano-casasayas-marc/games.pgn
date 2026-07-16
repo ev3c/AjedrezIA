@@ -1,0 +1,176 @@
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.01.27"]
+[Round "2.10"]
+[White "Bautista Sánchez, Joan"]
+[Black "Lozano Casasayas, Marc"]
+[Result "0-1"]
+[ECO "A13"]
+[WhiteElo "2059"]
+[BlackElo "2046"]
+[PlyCount "78"]
+[EventDate "2024.??.??"]
+
+1. Nf3 d5 2. c4 e6 3. e3 Nf6 4. Be2 Be7 5. b3 c5 6. Bb2 Nc6 7. d4 cxd4 8. exd4
+O-O 9. O-O b6 10. Nc3 Bb7 11. Ne5 Bd6 12. Nb5 Bb8 13. Rc1 a6 14. Na3 Ne7 15.
+Bf3 Ng6 16. g3 Qe7 17. cxd5 Nxe5 18. dxe5 Nxd5 19. Nc4 b5 20. Na5 Rd8 21. Nxb7
+Qxb7 22. Qc2 Ba7 23. Qc6 Qe7 24. Rfd1 Nb4 25. Qb7 Qxb7 26. Bxb7 Rab8 27. Rxd8+
+Rxd8 28. a3 Nd3 29. Rd1 Bxf2+ 30. Kf1 Bb6 31. Bc1 Nc5 32. Rxd8+ Bxd8 33. Bc8
+Nxb3 34. Be3 a5 35. Bd7 Be7 36. Bxb5 Bxa3 37. Ba4 Bc5 38. Bxb3 Bxe3 39. Ke2 Bd4
+0-1
+
+[Event "Lliga Catalana DH"]
+[Site "Upf"]
+[Date "2024.02.10"]
+[Round "4.10"]
+[White "Lozano Casasayas, Marc"]
+[Black "Catala Ulied, Bernat"]
+[Result "1/2-1/2"]
+[ECO "C54"]
+[WhiteElo "2199"]
+[BlackElo "2038"]
+[Annotator "Daniel"]
+[PlyCount "74"]
+[EventDate "2024.??.??"]
+[WhiteTeam "Barbera"]
+[BlackTeam "Vila Olimpica"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. e5 d5 7. Bb5 Ne4 8. cxd4
+Bb4+ 9. Bd2 Nxd2 10. Nbxd2 Bd7 11. O-O Ne7 12. Bxd7+ Qxd7 13. Nb3 Ng6 14. a3
+Be7 15. Qd2 O-O 16. Nc1 a5 17. Nd3 Ra6 18. Rac1 Rfa8 19. Rfe1 Nf8 20. Qe3 Ne6
+21. Nd2 Rc6 22. f4 Rxc1 23. Rxc1 Ra6 24. Nf3 Rc6 25. f5 Rxc1+ 26. Qxc1 Nf8 27.
+Qf4 b6 28. h4 c5 29. g4 c4 30. Nf2 c3 31. bxc3 Bxa3 32. g5 a4 33. Ng4 Qc7 34.
+Nf6+ Kh8 35. Nxd5 Qc6 36. Qe4 Bb2 37. Nd2 a3 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.04.13"]
+[Round "11.10"]
+[White "Lozano Casasayas, Marc"]
+[Black "Marabajan Navas, Saul"]
+[Result "1-0"]
+[ECO "B30"]
+[WhiteElo "2199"]
+[BlackElo "2174"]
+[PlyCount "81"]
+[EventDate "2024.04.13"]
+[EventType "team"]
+[EventRounds "11"]
+[EventCountry "CAT"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 e5 4. O-O Bd6 5. d4 cxd4 6. c3 Nge7 7. cxd4 exd4 8.
+Nxd4 Qc7 9. h3 Bc5 10. Nb3 Bb6 11. Nc3 a6 12. Be2 Ba7 13. Nd5 Nxd5 14. exd5 Bb8
+15. g3 Ne7 16. Bf4 d6 17. Rc1 Qd8 18. Bg4 Bxg4 19. Qxg4 O-O 20. Bg5 f6 21. Bf4
+f5 22. Qf3 Ba7 23. Rfe1 Nc8 24. Re6 a5 25. Qc3 a4 26. Nd4 Bc5 27. Re2 Bxd4 28.
+Qxd4 Ne7 29. Bg5 Nc6 30. Qd2 Nd4 31. Kg2 Nxe2 32. Bxd8 Nxc1 33. Be7 Rfe8 34.
+Bxd6 Rac8 35. Bf4 Re2 36. Qd4 Re4 37. Qd1 Ne2 38. Be3 f4 39. d6 Rce8 40. d7 f3+
+41. Kxf3 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.01.25"]
+[Round "2.10"]
+[White "Lozano Casasayas, Marc"]
+[Black "Menac Comas, Joan Ramon"]
+[Result "1-0"]
+[ECO "B28"]
+[WhiteElo "2143"]
+[BlackElo "2030"]
+[PlyCount "105"]
+[GameId "2151339903908559"]
+[EventDate "2025.01.18"]
+
+1. e4 c5 2. Nf3 g6 3. c3 a6 4. d4 cxd4 5. cxd4 d5 6. e5 Bg4 7. Nbd2 Nc6 8. Bd3 Nh6 9. h3 Bf5 10. Nb3 Bg7 11. a3 Qb6 12. Bxf5 Nxf5 13. g4 Nh6 14. Be3 f6 15. Nc5 O-O 16. exf6 exf6 17. Nd7 Qxb2 18. Nxf8 Qc3+ 19. Kf1 Rxf8 20. Kg2 f5 21. Qc1 Qxc1 22. Rhxc1 fxg4 23. hxg4 Nxg4 24. Rab1 Na5 25. Rc5 Nc4 26. Bc1 Nxf2 27. Rxb7 Ng4 28. Rcc7 Nge3+ 29. Bxe3 Nxe3+ 30. Kg1 Bh6 31. Nh2 Nf5 32. Ng4 Bg7 33. Ne5 Re8 34. Rd7 Bh6 35. Ng4 Bg7 36. Rxg7+ Nxg7 37. Nf6+ Kf8 38. Nxh7+ Kg8 39. Nf6+ Kf8 40. Nxe8 Nxe8 41. Rb6 Nc7 42. Rxg6 Nb5 43. Rxa6 Nxd4 44. Rb6 Ke7 45. Kf2 Kd7 46. Rb2 Kc6 47. Ke3 Ne6 48. Kd3 Kc5 49. a4 Nf4+ 50. Kc3 d4+ 51. Kd2 Nd5 52. a5 Nb4 53. Rxb4 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "Barbera del Valles"]
+[Date "2025.02.15"]
+[Round "5.10"]
+[White "Dominguez Laguna, Didac"]
+[Black "Lozano Casasayas, Marc"]
+[Result "0-1"]
+[ECO "B13"]
+[WhiteElo "1813"]
+[BlackElo "2143"]
+[PlyCount "62"]
+[GameId "2151339904789449"]
+[EventDate "2025.??.??"]
+[TimeControl "90+30"]
+
+1. e4 {[%emt 0:00:17]} c6 {[%emt 0:00:10]} 2. d4 {[%emt 0:00:31]} d5 {[%emt 0:00:06]} 3. exd5 {[%emt 0:00:24]} cxd5 {[%emt 0:00:06]} 4. Bd3 {[%emt 0:00:42]} Nc6 {[%emt 0:00:05]} 5. c3 {[%emt 0:00:16]} g6 {[%emt 0:00:37]} 6. Bf4 {[%emt 0:01:37]} Bg7 {[%emt 0:00:06]} 7. Nf3 {[%emt 0:00:56]} f6 {[%emt 0:02:30]} 8. Qe2 {[%emt 0:09:12]} Nh6 {[%emt 0:00:54]} 9. Nbd2 {[%emt 0:17:49]} Nf7 {[%emt 0:01:49]} 10. Bb5 {[%emt 0:02:18]} O-O {[%emt 0:00:23]} 11. Bxc6 {[%emt 0:01:07]} bxc6 {[%emt 0:00:01]} 12. O-O {[%emt 0:05:27]} Re8 {[%emt 0:01:48]} 13. Rfe1 {[%emt 0:05:57]} Bd7 {[%emt 0:05:59]} 14. Nb3 {[%emt 0:07:20]} e5 {[%emt 0:02:33]} 15. dxe5 {[%emt 0:02:58]} fxe5 {[%emt 0:00:01]} 16. Be3 {[%emt 0:04:44]} e4 {[%emt 0:06:04]} 17. Nfd2 {[%emt 0:09:38]} Ne5 {[%emt 0:02:31]} 18. Nf1 {[%emt 0:06:09]} Bg4 {[%emt 0:02:12]} 19. Qc2 {[%emt 0:03:27]} Qh4 {[%emt 0:04:20]} 20. Bd4 {[%emt 0:08:59]} Bh6 {[%emt 0:09:15]} 21. Bxe5 {[%emt 0:04:10]} Rxe5 {[%emt 0:00:17]} 22. Ng3 {[%emt 0:01:55]} Bf4 {[%emt 0:07:19]} 23. Nd2 {[%emt 0:01:26]} Rf8 {[%emt 0:05:09]} 24. Ndf1 {[%emt 0:00:35]} Qf6 {[%emt 0:00:52]} 25. Ne3 {[%emt 0:00:57]} Bd7 {[%emt 0:02:13]} 26. Rad1 {[%emt 0:00:28]} h5 {[%emt 0:09:31]} 27. Qe2 {[%emt 0:01:21]} h4 {[%emt 0:19:16]} 28. Ngf1 {[%emt 0:00:05]} Re7 {[%emt 0:04:39]} 29. c4 {[%emt 0:01:04]} d4 {[%emt 0:00:34]} 30. Ng4 {[%emt 0:02:18]} Qe6 {[%emt 0:00:49]} 31. h3 {[%emt 0:00:47]} d3 {[%emt 0:00:20]} 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.03.08"]
+[Round "8.10"]
+[White "Bernado Lopez, Roger"]
+[Black "Lozano Casasayas, Marc"]
+[Result "1-0"]
+[ECO "D24"]
+[WhiteElo "2172"]
+[BlackElo "2130"]
+[PlyCount "51"]
+[GameId "2153948618564037"]
+[EventDate "2025.02.15"]
+[WhiteTeam "Colon Sabadell IoneHipotecas.com"]
+[BlackTeam "Barbera"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 e6 4. Nc3 dxc4 5. e4 a6 6. Bxc4 c5 7. e5 cxd4 8. Nxd4 Qc7 9. Qe2 Nfd7 10. Bf4 Nc5 11. Rc1 b5 12. Ncxb5 axb5 13. Bxb5+ Bd7 14. b4 g5 15. Bxg5 Qb7 16. O-O Nca6 17. Rfd1 Rg8 18. f4 Bxb4 19. Kh1 Bc5 20. Nxe6 Be7 21. Rxd7 Nxd7 22. Bxa6 Rxa6 23. Qxa6 Qxa6 24. Nc7+ Kd8 25. Bxe7+ Kxe7 26. Nxa6 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.03.15"]
+[Round "9.10"]
+[White "Lozano Casasayas, Marc"]
+[Black "Arasa Bufi, Pere"]
+[Result "1/2-1/2"]
+[ECO "C54"]
+[WhiteElo "2130"]
+[BlackElo "2098"]
+[PlyCount "99"]
+[GameId "2157543217558352"]
+[EventDate "2025.02.15"]
+[WhiteTeam "Barbera"]
+[BlackTeam "Mollet"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. e5 d5 7. Bb5 Ne4 8. cxd4 Bb4+ 9. Bd2 Nxd2 10. Nbxd2 O-O 11. Bxc6 bxc6 12. O-O c5 13. a3 Bxd2 14. Qxd2 c4 15. Qe3 Rb8 16. b4 c6 17. h3 a5 18. Qc3 axb4 19. axb4 Qe7 20. Rfb1 Bf5 21. Rb2 Rb6 22. Ra4 Rfb8 23. Qa3 h6 24. Ne1 Qg5 25. Qc3 Be4 26. Rba2 Qe7 27. Rb2 f6 28. exf6 Qxf6 29. Re2 c5 30. bxc5 Rb3 31. Qa1 Rb1 32. Qc3 R1b3 33. Qa1 Bd3 34. Re3 Rb2 35. Rf3 Qxd4 36. Ra8 Qxc5 37. Qxb2 Rxa8 38. Nxd3 cxd3 39. Rxd3 Re8 40. Qd2 Re5 41. g3 Qc6 42. Rd4 Qe6 43. Kg2 Kh8 44. Qd3 Kg8 45. h4 Kh8 46. Rb4 Qd6 47. Ra4 Qc6 48. Rd4 Qe6 49. Rf4 Kg8 50. Rd4 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "Barcelona ESP"]
+[Date "2026.01.24"]
+[Round "2.10"]
+[White "Lozano Casasayas, Marc"]
+[Black "Escudero Ribo, Eloi"]
+[Result "0-1"]
+
+1. e4 c5 2. Nf3 e6 3. g3 d5 4. exd5 exd5 5. d4 Nc6 6. Bg2 Bg4 7. O-O Nxd4 8. Qe1+
+Ne6 9. Ne5 Bf5 10. c4 Ne7 11. Nc3 d4 12. Nd5 Nc6 13. g4 Bc2 14. Nxc6 bxc6 15. Nb4
+cxb4 16. Bxc6+ Ke7 17. Qxb4+ Kf6 18. g5+ Kg6 19. Qb7 Rb8 20. Be4+ f5 21. Qd5 Qxd5
+22. Bxd5 Nxg5 23. f3 Bd6 24. Re1 Rhe8 25. Bd2 Nh3+ 26. Kh1 Nf2+ 27. Kg2 Nd3 28. Rg1
+h6 29. Kh1+ Kh7 30. Bf7 Re2 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.01.31"]
+[Round "3.10"]
+[White "Gil Jimenez, David"]
+[Black "Lozano Casasayas, Marc"]
+[Result "1/2-1/2"]
+[ECO "D35"]
+[WhiteElo "2095"]
+[BlackElo "2196"]
+[PlyCount "150"]
+[SourceVersionDate "2026.02.02"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. cxd5 exd5 5. Bg5 c6 6. e3 h6 7. Bh4 Be7 8. Bd3
+O-O 9. Nge2 Nbd7 10. O-O b5 11. Bxf6 Nxf6 12. Ng3 Re8 13. Nce2 Bd7 14. Bf5 g6
+15. Bxd7 Qxd7 16. Nf4 Bd6 17. Nge2 Rac8 18. Rc1 Ne4 19. Nd3 Qe7 20. Nef4 Bb8
+21. Qg4 Nf6 22. Qh3 Kg7 23. Rc2 Qd6 24. Nc5 Qe7 25. Ncd3 Qe4 26. Rcc1 Bd6 27.
+Nc5 Qe7 28. Nfd3 a5 29. Nb3 Qd8 30. Ndc5 Bc7 31. Nb7 Qe7 32. N7xa5 Bxa5 33.
+Nxa5 c5 34. dxc5 Rxc5 35. Nb3 Rc4 36. Nd4 Ne4 37. Qg4 Qc5 38. Rxc4 bxc4 39. Qd7
+Re7 40. Qa4 Ra7 41. Qc2 Rxa2 42. f3 Nf6 43. Rb1 Qe7 44. Qc3 Ra8 45. h3 Kh7 46.
+b3 Re8 47. bxc4 dxc4 48. Qxc4 Qxe3+ 49. Kh1 Re7 50. Nc6 Rd7 51. Nb8 Re7 52. Nc6
+Rc7 53. Qd4 Qe6 54. Ne5 Re7 55. Ng4 Nh5 56. Qf2 f5 57. Nh2 Qd6 58. Nf1 Qe5 59.
+Rd1 Nf6 60. Nd2 Rd7 61. Re1 Qf4 62. Nf1 g5 63. Qe3 Qd6 64. Qe6 Qxe6 65. Rxe6
+Nh5 66. Re1 f4 67. Kh2 Kg7 68. h4 Kf6 69. hxg5+ hxg5 70. Ra1 Ng7 71. Kg1 Nf5
+72. Ra6+ Kf7 73. Ra5 Kg6 74. Ra6+ Kh5 75. Ra5 Kg6 1/2-1/2

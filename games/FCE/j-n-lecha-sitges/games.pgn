@@ -1,0 +1,72 @@
+[Event "Ct. Catalunya equips"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "3"]
+[White "R. Villa, Barberà"]
+[Black "J. N. Lecha, Sitges"]
+[Result "1-0"]
+[ECO "E11"]
+[PlyCount "99"]
+[EventDate "2008.??.??"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 Bb4+ 4. Bd2 Qe7 5. Qc2 Bxd2+ 6. Nbxd2 d6 7. c5 dxc5
+8. dxc5 e5 9. e4 O-O 10. b4 Bg4 11. Be2 Nc6 12. b5 Nd8 13. Nb3 Ne6 14. O-O Nf4
+15. Kh1 N6h5 16. g3 Nxe2 17. Qxe2 Qe6 18. Qe3 Nf6 19. Nfd2 Qd7 20. a4 Be6 21.
+f3 Rfd8 22. Qc3 Qd3 23. Rac1 h5 24. h4 a6 25. bxa6 Rxa6 26. a5 Qb5 27. Rb1 Rd3
+28. Qc2 Qd7 29. Kh2 Bxb3 30. Nxb3 Rxa5 31. Rf2 Rb5 32. Nc1 Re3 33. Rxb5 Qxb5
+34. Qd2 Qxc5 35. Nd3 Qd4 36. Nxe5 Qxd2 37. Rxd2 Rc3 38. Rd8+ Kh7 39. Nxf7 g6
+40. Ng5+ Kg7 41. e5 Ng8 42. Rd7+ Kf8 43. Rd8+ Kg7 44. Rd7+ Kf8 45. e6 Ke8 46.
+Rg7 Ne7 47. Rh7 Nd5 48. Rh8+ Ke7 49. Rh7+ Kd6 50. Ne4+ 1-0
+
+[Event "Ct. Catalunya equips"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "5"]
+[White "J. N. Lecha, Sitges"]
+[Black "M. Gonzalez, Tres Peons"]
+[Result "0-1"]
+[ECO "B00"]
+[PlyCount "81"]
+[EventDate "2008.??.??"]
+
+1. e4 Nc6 2. d4 d5 3. e5 Bf5 4. c3 e6 5. Ne2 Nge7 6. Ng3 Bg6 7. h4 h6 8. h5 Bh7
+9. Bd3 Bxd3 10. Qxd3 Qd7 11. Nd2 O-O-O 12. Nf3 f6 13. Bf4 Qe8 14. Qe3 f5 15. b4
+Kb8 16. a4 Nc8 17. Nd2 Be7 18. Nb3 Nb6 19. b5 Nc4 20. Qd3 N6a5 21. Nxa5 Nxa5
+22. Nf1 c5 23. Be3 cxd4 24. cxd4 Rc8 25. Nd2 Bg5 26. Nf3 b6 27. Qe2 Rc4 28. Qd1
+Qd7 29. Nh4 Bxh4 30. Rxh4 Qf7 31. Rh3 g5 32. hxg6 Qxg6 33. g3 h5 34. Rh4 Rcc8
+35. Qb1 Qf7 36. Kf1 Rcg8 37. Qb4 Rg4 38. Qd6+ Kb7 39. Rxg4 fxg4 40. Rc1 Nc4 41.
+Qb4 0-1
+
+[Event "Ct. Catalunya equips"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "6"]
+[White "J. N. Lecha, Sitges"]
+[Black "J. Mundet, Figueres"]
+[Result "1-0"]
+[ECO "C41"]
+[PlyCount "76"]
+[EventDate "2008.??.??"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 e5 4. Nf3 Nbd7 5. Bc4 Be7 6. O-O O-O 7. a4 c6 8. Ba2
+Qc7 9. Re1 b6 10. d5 Bb7 11. dxc6 Bxc6 12. Bg5 h6 13. Bh4 Rac8 14. h3 Qb7 15.
+Qe2 Nc5 16. Bxf6 Bxf6 17. Bd5 Bd8 18. Rad1 a6 19. Qd2 Re8 20. Bxc6 Rxc6 21. b4
+Ne6 22. Nd5 b5 23. axb5 axb5 24. Ra1 Bg5 25. Nxg5 hxg5 26. c3 Nf4 27. Ne3 g6
+28. g3 Nxh3+ 29. Kg2 Qc8 30. Nd5 Kg7 31. Qe2 Rh8 32. Qf3 Qe6 33. Ra7 g4 34. Qd3
+Rc4 35. Re7 Qc8 36. Ra1 Rc6 37. Raa7 Rf8 38. Red7 Rc4 1-0
+
+[Event "Ct. Catalunya equips"]
+[Site "?"]
+[Date "2008.??.??"]
+[Round "9"]
+[White "J. N. Lecha, Sitges"]
+[Black "M. Ubach, Terrassa"]
+[Result "1/2-1/2"]
+[ECO "B19"]
+[PlyCount "45"]
+[EventDate "2008.??.??"]
+
+1. e4 c6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. h4 h6 7. Nf3 Nd7 8. h5
+Bh7 9. Bd3 Bxd3 10. Qxd3 e6 11. Bf4 Ngf6 12. O-O-O Be7 13. Ne5 Nxe5 14. Bxe5
+Ng4 15. Qe2 Nxe5 16. dxe5 Qa5 17. Kb1 Rd8 18. f4 O-O 19. Ne4 Rxd1+ 20. Rxd1 Rd8
+21. Rh1 Rd4 22. c3 Rd7 23. Rd1 1/2-1/2

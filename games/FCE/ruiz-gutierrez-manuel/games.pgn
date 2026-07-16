@@ -1,0 +1,145 @@
+[Event "Camp. España eq. 2 Div."]
+[Site "Barcelona"]
+[Date "1975.06.25"]
+[Round "1"]
+[White "Ribera Arnal, Angel"]
+[Black "Ruiz Gutierrez, Manuel"]
+[Result "0-1"]
+[ECO "A54"]
+[PlyCount "84"]
+[EventDate "1975.06.??"]
+[EventType "team"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 e5 2. Nc3 Nf6 3. g3 d6 4. Bg2 Be7 5. Nf3 O-O 6. d4 Nbd7 7. O-O c6 8. Qc2
+Qc7 9. b3 Re8 10. Bb2 Bf8 11. dxe5 dxe5 12. Rad1 a5 13. h3 Nc5 14. e4 Be6 15.
+Ne2 Nfd7 16. Ng5 f6 17. Nxe6 Nxe6 18. h4 Bc5 19. Bh3 Ndf8 20. Rd3 Qb6 21. Kg2
+Rad8 22. Nc1 Bd4 23. Ba3 c5 24. Ne2 Qc6 25. f3 b6 26. Rfd1 Kf7 27. Bc1 Ke7 28.
+Nc3 Bxc3 29. Rxd8 Rxd8 30. Rxd8 Kxd8 31. Qxc3 Nd4 32. Kf2 Nfe6 33. Be3 Ke7 34.
+Bg2 Qd6 35. Qd2 Nd8 36. f4 N8c6 37. fxe5 Nxe5 38. Bxd4 cxd4 39. Bf3 h6 40. Bd1
+Qc5 41. Kg2 d3 42. Bf3 $4 Qg1+ $1 0-1
+
+[Event "Camp. España eq. 2 Div."]
+[Site "Barcelona"]
+[Date "1975.??.??"]
+[Round "7"]
+[White "Ruiz Gutierrez, Manuel"]
+[Black "Llado Lumbera, Jaime"]
+[Result "0-1"]
+[ECO "B07"]
+[PlyCount "80"]
+[EventDate "1975.06.??"]
+[EventType "team"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d6 2. e4 Nf6 3. Nc3 e5 4. dxe5 dxe5 5. Qxd8+ Kxd8 6. Nf3 Bd6 7. Bg5 c6 8.
+O-O-O Kc7 9. Bc4 Rf8 10. Rd2 Ne8 11. Rhd1 f6 12. Bh4 Nd7 13. Bg3 Nb6 14. Bb3
+Bg4 15. Rd3 Nd7 16. h3 Bh5 17. Bh2 Nc5 18. Re3 a5 19. g4 Bg6 20. Nh4 b5 21.
+Nxg6 hxg6 22. a4 b4 23. Ne2 g5 24. Bg3 Rh8 25. Rh1 Nxb3+ 26. cxb3 Bc5 27. Rd3
+Nd6 28. f3 Rh7 29. Rdd1 Rah8 30. Ng1 Nb7 31. Kc2 Bxg1 32. Rdxg1 Rxh3 33. Rxh3
+Rxh3 34. Kd3 Nc5+ 35. Kc4 Ne6 36. Rg2 Rh1 37. Rh2 Rxh2 38. Bxh2 Nd4 39. Bg3
+Nxf3 40. Kc5 Nd4 0-1
+
+[Event "Camp. España indiv."]
+[Site "Salou"]
+[Date "1987.??.??"]
+[Round "1"]
+[White "Rodriguez Aguilera, A."]
+[Black "Ruiz Gutierrez, Manuel"]
+[Result "1-0"]
+[ECO "B40"]
+[PlyCount "111"]
+[EventDate "1987.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. Nf3 c5 2. e4 e6 3. Nc3 Nf6 4. g3 Nc6 5. Bg2 g6 6. O-O Bg7 7. d3 O-O 8. h3
+Rb8 9. Be3 b5 10. Qd2 b4 11. Ne2 e5 12. Bh6 Ne8 13. Bxg7 Nxg7 14. Qh6 Ne6 15.
+h4 Qf6 16. Kh2 Ncd4 17. Nexd4 cxd4 18. Nd2 Qg7 19. Qxg7+ Kxg7 20. Nc4 Rd8 21.
+Bh3 Rb5 22. b3 d5 23. exd5 Rdxd5 24. a3 a5 25. Rfe1 Kf6 26. axb4 axb4 27. Re2
+Bd7 28. Bg2 Rdc5 29. Ra7 Rc7 30. Ra6 Bc8 31. Ra8 Bb7 32. Bxb7 Rcxb7 33. Nd6 Rb8
+34. Ra7 Nd8 35. Nxb5 Rxb5 36. Rc7 Ne6 37. Rc4 Nc5 38. Re1 Kf5 39. Kg2 h5 40.
+Kf3 Nb7 41. Ra1 Nd6 42. Rc7 f6 43. Ra6 e4+ 44. Kg2 Rd5 45. Rcc6 exd3 46. cxd3
+Ke5 47. Rab6 g5 48. Rxb4 gxh4 49. gxh4 Nf5 50. Kh3 Ne7 51. Rc1 Ng6 52. Re1+ Kf5
+53. Re4 Nf4+ 54. Kg3 Ne6 55. Rb6 Re5 56. Rxe6 1-0
+
+[Event "Camp. España indiv."]
+[Site "Salou"]
+[Date "1987.??.??"]
+[Round "2"]
+[White "Ruiz Gutierrez, Manuel"]
+[Black "Ros, E."]
+[Result "1-0"]
+[ECO "D40"]
+[PlyCount "98"]
+[EventDate "1987.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. d4 Nf6 2. c4 c5 3. e3 e6 4. Nf3 d5 5. Nc3 Nc6 6. a3 a6 7. dxc5 Bxc5 8. b4
+Bd6 9. cxd5 exd5 10. Bb2 O-O 11. Be2 Be6 12. O-O Bc7 13. Na4 Ne4 14. Rc1 Rc8
+15. Nc5 Nxc5 16. Rxc5 Bb6 17. Rc2 Qe7 18. Rd2 Rfd8 19. Qa1 f6 20. Rfd1 Bf7 21.
+Bd4 Bc7 22. Nh4 Be6 23. Bc5 Qf7 24. Qb1 g6 25. Nf3 Be5 26. Bd4 Qc7 27. Bxe5
+Nxe5 28. Nd4 Bf7 29. Rc2 Qe7 30. Rdc1 Rxc2 31. Qxc2 Nc4 32. Qc3 Qd7 33. Nb3 Kg7
+34. Nc5 Qc6 35. Rd1 b6 36. Nb3 Rc8 37. Nd4 Qa4 38. Ra1 Nd6 39. Qd3 Nc4 40. h4
+Re8 41. Qc3 Rc8 42. Bg4 Re8 43. g3 h5 44. Bh3 Re7 45. Bc8 Rc7 46. Be6 Qe8 47.
+Bxf7 Qxf7 48. a4 Ne5 49. Qxc7 Nf3+ 1-0
+
+[Event "Camp. España indiv."]
+[Site "Salou"]
+[Date "1987.??.??"]
+[Round "3"]
+[White "Sanz Alonso, Francisco Javier"]
+[Black "Ruiz Gutierrez, Manuel"]
+[Result "0-1"]
+[ECO "B53"]
+[PlyCount "92"]
+[EventDate "1987.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Qxd4 Nc6 5. Bb5 Bd7 6. Bxc6 Bxc6 7. c4 Nf6 8.
+Nc3 g6 9. O-O Bg7 10. Re1 O-O 11. Qd2 Rc8 12. Nd4 Bd7 13. b3 a6 14. Bb2 Ne8 15.
+Rad1 Nc7 16. Qe2 Qe8 17. Nd5 Ne6 18. Nb6 Rd8 19. Qe3 Nxd4 20. Bxd4 Bc6 21. Bxg7
+Kxg7 22. Rd2 f6 23. a4 Qf7 24. b4 Qe6 25. f3 Be8 26. Red1 Rb8 27. c5 dxc5 28.
+Qxc5 Kf7 29. h4 h6 30. b5 axb5 31. axb5 g5 32. Rd5 Kg7 33. hxg5 hxg5 34. Qd4
+Kf7 35. Rc1 Bc6 36. Rf5 Rfd8 37. Qe3 Be8 38. f4 gxf4 39. Rxf4 Bxb5 40. e5 Rd3
+41. Qc5 Rg8 42. Rf2 Qc6 43. e6+ Qxe6 44. Qxb5 Rxg2+ 45. Rxg2 Qe3+ 46. Kh2 Qh6+
+0-1
+
+[Event "Camp. España indiv."]
+[Site "Salou"]
+[Date "1987.??.??"]
+[Round "4"]
+[White "Ruiz Gutierrez, Manuel"]
+[Black "Izeta Txabarri, Felix"]
+[Result "1/2-1/2"]
+[ECO "E61"]
+[PlyCount "111"]
+[EventDate "1987.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. d4 Nf6 2. Nf3 c5 3. e3 g6 4. c4 Bg7 5. Nc3 O-O 6. Be2 d6 7. O-O e6 8. b3 b6
+9. Bb2 Bb7 10. Qc2 Nc6 11. Rad1 Qe7 12. Rfe1 e5 13. d5 Nb4 14. Qb1 Nd7 15. a3
+Na6 16. e4 f5 17. exf5 gxf5 18. g3 Nc7 19. Nh4 Qf7 20. Kh1 a6 21. a4 Ne6 22.
+Ne4 fxe4 23. dxe6 Qxe6 24. Kg1 Rf6 25. Bc1 Bh6 26. Bxh6 Rxh6 27. Qc1 Rf8 28.
+Bg4 Qf7 29. Rf1 Rf6 30. Qg5+ Kh8 31. Bxd7 Qxd7 32. Qxe5 Qc6 33. Qe7 R8f7 34.
+Qd8+ Rf8 35. Qe7 R8f7 36. Qd8+ Kg7 37. Rd5 h6 38. g4 Qc8 39. Nf5+ Kh7 40. Qxc8
+Bxc8 41. Nxd6 Bxg4 42. Nxf7 Rxf7 43. Re1 Bf3 44. Kf1 Rf4 45. Re3 Rh4 46. a5
+Rxh2 47. Ke1 bxa5 48. Rxc5 h5 49. Rxf3 exf3 50. Rf5 a4 51. bxa4 Rh4 52. c5 Rxa4
+53. Rxf3 Rc4 54. Ra3 h4 55. Kf1 Rxc5 56. Rxa6 1/2-1/2

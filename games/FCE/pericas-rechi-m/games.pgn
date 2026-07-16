@@ -1,0 +1,72 @@
+[Event "Ct. Catalunya eq DH"]
+[Site "?"]
+[Date "2013.04.13"]
+[Round "11.9"]
+[White "Yepes Martinez, E."]
+[Black "Pericas Rechi, M."]
+[Result "1-0"]
+[ECO "A40"]
+[WhiteElo "2231"]
+[BlackElo "1753"]
+[PlyCount "83"]
+[EventDate "2013.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+
+1. d4 g6 2. e4 Nf6 3. e5 Nd5 4. c4 Nb6 5. c5 Nd5 6. Bc4 e6 7. Nd2 d6 8. Ne4 f5
+9. Bg5 Be7 10. Bxe7 Qxe7 11. cxd6 Qh4 12. Bxd5 fxe4 13. g3 Qd8 14. Bxe4 cxd6
+15. f4 d5 16. Bd3 Nc6 17. Nf3 Qb6 18. O-O Nxd4 19. Bxg6+ hxg6 20. Qxd4 Qc7 21.
+Rac1 Qh7 22. Rf2 Bd7 23. Qb4 Bc6 24. Nd4 Qd7 25. Rfc2 Rc8 26. Nb5 Kd8 27. Nxa7
+Rc7 28. Qb6 Qh7 29. Nb5 Bxb5 30. Qxc7+ Qxc7 31. Rxc7 Bc6 32. Rg7 Rh6 33. h4 Ke8
+34. Kf2 Kf8 35. Rc7 Rh5 36. Ke3 Rf5 37. Kd4 Rf7 38. Rxf7+ Kxf7 39. a4 Ke7 40.
+b4 Kd8 41. Rxc6 bxc6 42. g4 1-0
+
+[Event "Lliga Catalana eq. DH"]
+[Site "?"]
+[Date "2014.03.08"]
+[Round "7.8"]
+[White "Pericas Rechi, M."]
+[Black "Yepes Martinez, E."]
+[Result "1-0"]
+[ECO "B31"]
+[WhiteElo "1963"]
+[BlackElo "2320"]
+[PlyCount "79"]
+[EventDate "2014.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 Nf6 4. Qe2 g6 5. c3 Bg7 6. O-O O-O 7. Rd1 d5 8. e5
+Ne8 9. Bxc6 bxc6 10. d4 cxd4 11. cxd4 f6 12. h3 fxe5 13. Nxe5 c5 14. Nc6 Qd6
+15. Nxe7+ Kh8 16. dxc5 Qxc5 17. Nxd5 Bb7 18. Be3 Qa5 19. Nbc3 Nd6 20. Bd4 Bxd4
+21. Rxd4 Rae8 22. Qc2 Qc5 23. Rad1 Re5 24. Nf4 Nf7 25. Rd7 Bc6 26. Nd3 Qb6 27.
+Nxe5 Nxe5 28. R7d6 Qc7 29. Re6 Ba8 30. Re1 Nf7 31. Re8 Kg7 32. Rxf8 Kxf8 33.
+Qe2 Qc6 34. Qe4 Qc8 35. Qe7+ Kg7 36. Qxa7 Qc6 37. Qd4+ Kg8 38. Qe4 Qa6 39. Qd4
+Qc6 40. f3 1-0
+
+[Event "Lliga Catalana eq. DH"]
+[Site "?"]
+[Date "2014.03.29"]
+[Round "10"]
+[White "Pericas Rechi, M."]
+[Black "Benet Morant, D."]
+[Result "1-0"]
+[ECO "B40"]
+[WhiteElo "2168"]
+[BlackElo "1963"]
+[PlyCount "127"]
+[EventDate "2014.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. b3 d5 4. exd5 exd5 5. Bb5+ Nd7 6. O-O a6 7. Re1+ Be7 8.
+Bxd7+ Bxd7 9. d4 Nf6 10. Qe2 Ne4 11. Nbd2 Bf5 12. c4 O-O 13. cxd5 Nxd2 14. Qxd2
+Bf6 15. Ba3 Qxd5 16. Bxc5 Rfd8 17. Be7 Bxe7 18. Rxe7 Bg4 19. Ne5 Be6 20. Rc1
+Kf8 21. Qb4 Kg8 22. h3 b5 23. Rcc7 Qe4 24. Nxf7 Rxd4 25. Nh6+ Kh8 26. Qc3 Rd1+
+27. Kh2 Qf4+ 28. Qg3 Qxg3+ 29. Kxg3 Bxb3 30. Rxg7 Bc2 31. Ng4 Rd6 32. Rgf7 Bg6
+33. Rf6 Rxf6 34. Nxf6 b4 35. Rb7 a5 36. h4 Rf8 37. Ng4 Bb1 38. a3 Rg8 39. Rb5
+Bd3 40. Rd5 Be2 $6 (40... Bc4 $19) 41. f3 b3 42. Rd2 h5 43. Rxe2 hxg4 44. fxg4
+a4 45. h5 Rc8 46. Re1 Rc2 47. g5 Kg7 48. Re7+ Kf8 49. Rb7 Rc3+ 50. Kf2 Rc5 51.
+Rb8+ Ke7 52. g4 Rxg5 53. Kg3 Kf6 54. Kf4 Rc5 55. g5+ Kg7 56. Rb7+ Kg8 57. h6
+Rc6 58. Rg7+ Kh8 59. Rb7 Kg8 60. Kg4 Rd6 61. Kh5 Rd5 62. h7+ Kh8 63. Kh6 Rd8
+64. g6 1-0

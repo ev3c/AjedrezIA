@@ -1,0 +1,78 @@
+[Event "Badalona op"]
+[Site "?"]
+[Date "2008.08.04"]
+[Round "4"]
+[White "Cuartas, JA."]
+[Black "Rios Parra, M."]
+[Result "1-0"]
+[ECO "B22"]
+[WhiteElo "2495"]
+[BlackElo "2349"]
+[PlyCount "89"]
+[EventDate "2008.??.??"]
+
+1. e4 c5 2. c3 Nf6 3. e5 Nd5 4. d4 cxd4 5. cxd4 d6 6. Nf3 Nc6 7. Bc4 e6 8. O-O
+Nb6 9. Bb5 Bd7 10. Nc3 a6 11. Be2 d5 12. Bd3 Be7 13. a3 Rc8 14. Ne2 Na5 15. b3
+Na8 16. Bd2 Qb6 17. b4 Nc4 18. Bc3 Qc6 19. Qb1 h5 20. Nd2 Nxd2 21. Bxd2 Nb6 22.
+f4 Nc4 23. Bc3 Qb6 24. Kh1 g6 25. Rf3 Ba4 26. Be1 Qc6 27. Nc3 Nb6 28. b5 Qc7
+29. Nxa4 Nxa4 30. bxa6 bxa6 31. Bxa6 Rb8 32. Bb5+ Kf8 33. Rb3 Nb6 34. Bd3 Qa7
+35. Bxg6 fxg6 36. Qxg6 Rg8 37. Qh6+ Kf7 38. Qxh5+ Kf8 39. f5 exf5 40. Rf3 Rg5
+41. Qh7 Ke8 42. Bd2 Rg4 43. Qxf5 Rxd4 44. Bg5 Nc8 45. Qf7+ 1-0
+
+[Event "Badalona op"]
+[Site "?"]
+[Date "2008.08.09"]
+[Round "9"]
+[White "Rios Parra, M."]
+[Black "Vehi Bach, VM."]
+[Result "1/2-1/2"]
+[ECO "B44"]
+[WhiteElo "2349"]
+[BlackElo "2411"]
+[PlyCount "107"]
+[EventDate "2008.??.??"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nb5 d6 6. Bf4 e5 7. Be3 a6 8. N5c3
+Nf6 9. Nd2 d5 10. exd5 Nxd5 11. Nxd5 Qxd5 12. Nc4 Qxd1+ 13. Rxd1 Be6 14. a3 Rd8
+15. Rxd8+ Kxd8 16. Be2 Nd4 17. Bxd4 exd4 18. Ne5 f6 19. Bc4 fxe5 20. Bxe6 Kc7
+21. Bd5 Be7 22. Be4 b6 23. Ke2 g5 24. Rd1 h6 25. Rd3 Rd8 26. Rf3 Rf8 27. Rxf8
+Bxf8 28. Kf3 Kd6 29. Bb7 a5 30. Ke4 h5 31. Kf5 Be7 32. h4 gxh4 33. Kg6 Ke6 34.
+Be4 b5 35. Kxh5 b4 36. a4 Bd8 37. Kg4 Be7 38. Kf3 Bg5 39. Kg4 Bd8 40. g3 hxg3
+41. fxg3 Be7 42. Kh5 Bf6 43. g4 Kf7 44. g5 Bd8 45. Kg4 Be7 46. Kf5 Bd8 47. g6+
+Kg7 48. Ke6 Bg5 49. Kxe5 Bf6+ 50. Kd6 Bg5 51. Kc5 Bf6 52. Kb5 Bd8 53. Bd3 Kf8
+54. Kc4 1/2-1/2
+
+[Event "Sants Hostafrancs i La Bordeta op"]
+[Site "?"]
+[Date "2008.??.??"]
+[Round "3"]
+[White "Rios Parra, M."]
+[Black "Lafuente, P."]
+[Result "1/2-1/2"]
+[ECO "B19"]
+[PlyCount "63"]
+[EventDate "2008.??.??"]
+
+1. e4 c6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. h4 h6 7. Nf3 Nd7 8. h5
+Bh7 9. Bd3 Bxd3 10. Qxd3 e6 11. Bd2 Ngf6 12. O-O-O Be7 13. Kb1 O-O 14. c4 b5
+15. cxb5 cxb5 16. Qxb5 Rb8 17. Qa5 Qc8 18. Rc1 Qb7 19. Rc2 Nb6 20. b3 Bd6 21.
+Rhc1 Ne4 22. Nxe4 Qxe4 23. Ka1 Nd5 24. Qa6 Bb4 25. Be3 Be7 26. Re2 Bf6 27. Rd2
+Nxe3 28. fxe3 Qxe3 29. Qe2 Qf4 30. Ne5 Rbd8 31. Qf2 Qg4 32. Rdd1 1/2-1/2
+
+[Event "Sitges op"]
+[Site "?"]
+[Date "2008.07.24"]
+[Round "3"]
+[White "Rios Parra, M."]
+[Black "Grigore, GG."]
+[Result "0-1"]
+[ECO "B32"]
+[WhiteElo "2349"]
+[BlackElo "2517"]
+[PlyCount "45"]
+[EventDate "2008.??.??"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e5 5. Nb5 d6 6. N1c3 a6 7. Na3 b5 8. Nd5
+Nf6 9. Nxf6+ Qxf6 10. c4 Qg6 11. Qd5 Bb7 12. cxb5 Nd8 13. Qb3 Qxe4+ 14. Be3 d5
+15. Nc2 a5 16. f3 Qg6 17. O-O-O a4 18. Qd3 Ne6 19. Qd2 d4 20. Bf2 Be7 21. Bg3
+O-O 22. Kb1 Bg5 23. Qe1 0-1

@@ -1,0 +1,622 @@
+[Event "Sort op"]
+[Site "?"]
+[Date "2008.06.26"]
+[Round "3"]
+[White "Adhiban, B."]
+[Black "Mamedov, Nid"]
+[Result "1-0"]
+[ECO "B63"]
+[WhiteElo "2421"]
+[BlackElo "2577"]
+[PlyCount "73"]
+[EventDate "2008.??.??"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Bg5 e6 7. Qd2 Qb6 8.
+O-O-O Qxd4 9. Qxd4 Nxd4 10. Rxd4 a6 11. f3 Rb8 12. Rd2 Nd7 13. Be2 Ne5 14. Rhd1
+b5 15. Bh4 h5 16. h3 f6 17. f4 Ng6 18. Bg3 Kf7 19. f5 exf5 20. Bxd6 Bxd6 21.
+Rxd6 Nf4 22. Bf3 b4 23. Nd5 fxe4 24. Bxe4 Nxd5 25. R1xd5 Re8 26. Bf3 g6 27. Rc5
+Ke7 28. Rcc6 Rf8 29. Rd4 Rb5 30. Rc7+ Ke6 31. Rdc4 Rb8 32. Rg7 Kf5 33. Be4+ Ke5
+34. Bxg6 Be6 35. Re4+ Kd6 36. Bxh5 Rg8 37. Rxe6+ 1-0
+
+[Event "Sort op"]
+[Site "?"]
+[Date "2008.06.26"]
+[Round "4"]
+[White "Rotstein, A."]
+[Black "Adhiban, B."]
+[Result "1-0"]
+[ECO "E04"]
+[WhiteElo "2528"]
+[BlackElo "2421"]
+[PlyCount "125"]
+[EventDate "2008.??.??"]
+
+1. d4 Nf6 2. c4 e6 3. g3 d5 4. Bg2 Nc6 5. Nf3 dxc4 6. Qa4 Bb4+ 7. Bd2 Nd5 8.
+Bxb4 Ndxb4 9. O-O Rb8 10. Na3 O-O 11. Qb5 b6 12. Qxc4 Ba6 13. Nb5 Qd5 14. Qxd5
+exd5 15. Nc3 Rfe8 16. Rac1 Ne7 17. Rfd1 Rbd8 18. Rd2 Bb7 19. a3 Na6 20. b4 c6
+21. Ne5 Nc7 22. e3 f6 23. Nd3 Nf5 24. a4 Nd6 25. Rdc2 Ra8 26. h4 a5 27. b5 cxb5
+28. axb5 Rad8 29. Nf4 Nf5 30. Na4 Na8 31. Bh3 g6 32. h5 Kf7 33. hxg6+ hxg6 34.
+Bxf5 gxf5 35. Kf1 Ke7 36. Ke2 Kd6 37. Kd3 Rg8 38. Rh1 Rh8 39. Rcc1 Rb8 40. Kd2
+Rbg8 41. Rh4 Rc8 42. Rxc8 Rxc8 43. Rh6 Rf8 44. Rh7 Bc8 45. Ra7 Bd7 46. Nc3 Rb8
+47. Nfxd5 Bxb5 48. Nxb5+ Kxd5 49. Rxa8 Rxa8 50. Nc7+ Kc6 51. Nxa8 b5 52. d5+
+Kxd5 53. Nb6+ Kc5 54. Nd7+ Kc4 55. Kc2 b4 56. Nb6+ Kb5 57. Nc8 a4 58. Nd6+ Kc5
+59. Nxf5 Kc4 60. Nd4 b3+ 61. Kb2 Kd3 62. g4 Ke4 63. Kc3 1-0
+
+[Event "Sort op"]
+[Site "?"]
+[Date "2008.06.29"]
+[Round "7"]
+[White "Adhiban, B."]
+[Black "Movsziszian, K."]
+[Result "1/2-1/2"]
+[ECO "B07"]
+[WhiteElo "2421"]
+[BlackElo "2536"]
+[PlyCount "65"]
+[EventDate "2008.??.??"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Be3 c6 5. Qd2 b5 6. Bd3 Nbd7 7. Nf3 e5 8. O-O
+Bb7 9. a4 b4 10. Ne2 exd4 11. Bxd4 c5 12. Bxf6 Qxf6 13. Bb5 Bxe4 14. Ng3 Bxf3
+15. gxf3 Kd8 16. Rfe1 Qxf3 17. Re3 Qb7 18. Ne4 a6 19. Bc4 Kc7 20. Rd1 Ne5 21.
+Nxd6 Nf3+ 22. Rxf3 Qxf3 23. Ne8+ Kb6 24. Qd7 Qb7 25. a5+ Ka7 26. Qxb7+ Kxb7 27.
+Bd5+ Ka7 28. Bxa8 Kxa8 29. Rd7 Bh6 30. Rd8+ Ka7 31. Rd7+ Kb8 32. Rd8+ Ka7 33.
+Rd7+ 1/2-1/2
+
+[Event "Sort op"]
+[Site "?"]
+[Date "2008.07.01"]
+[Round "9"]
+[White "Adhiban, B."]
+[Black "Burmakin, V."]
+[Result "1-0"]
+[ECO "B00"]
+[WhiteElo "2421"]
+[BlackElo "2615"]
+[PlyCount "129"]
+[EventDate "2008.??.??"]
+
+1. e4 b6 2. d4 Bb7 3. Bd3 e6 4. Nf3 c5 5. Nc3 Nf6 6. O-O Be7 7. dxc5 bxc5 8. e5
+Nd5 9. Ne4 Nb4 10. Bg5 O-O 11. Nxc5 Bc6 12. Bxe7 Qxe7 13. Ne4 f5 14. exf6 gxf6
+15. Re1 f5 16. Ng3 Qg7 17. Bf1 Nd5 18. Qd4 Nf6 19. Ne5 Bd5 20. c4 Nc6 21. Qc3
+Ne4 22. Nxe4 Bxe4 23. Nxd7 Qxd7 24. Rad1 Qg7 25. Qxg7+ Kxg7 26. f3 Bc2 27. Rd2
+Ba4 28. b3 Rfd8 29. Rxd8 Rxd8 30. bxa4 Kf6 31. c5 Rc8 32. Bb5 Nd4 33. Rc1 e5
+34. Kf2 Ne6 35. c6 Rd8 36. Rc2 Nc7 37. Bc4 Rd4 38. Bb3 Ke7 39. Ke2 Rd6 40. Rc5
+Kf6 41. g3 h6 42. Ke3 Rd8 43. Rc1 Rd6 44. Rc2 Kg5 45. Rc5 Kf6 46. a5 Rd8 47. h3
+Rd6 48. f4 e4 49. g4 Rd3+ 50. Ke2 Rxh3 51. Rxf5+ Ke7 52. Rf7+ Kd6 53. Ba4 Rh2+
+54. Kf1 Rxa2 55. Rd7+ Kc5 56. Rxc7 Rxa4 57. Rxa7 Kxc6 58. Ke2 Ra3 59. a6 Kb5
+60. f5 Rg3 61. Re7 Kxa6 62. Rxe4 Kb5 63. f6 Rg2+ 64. Kf3 Rg1 65. Kf2 1-0
+
+[Event "Sort op"]
+[Site "?"]
+[Date "2008.07.02"]
+[Round "10"]
+[White "Baklan, V."]
+[Black "Adhiban, B."]
+[Result "1/2-1/2"]
+[ECO "C91"]
+[WhiteElo "2647"]
+[BlackElo "2421"]
+[PlyCount "144"]
+[EventDate "2008.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3
+O-O 9. d4 Bg4 10. d5 Na5 11. Bc2 Qc8 12. h3 Bd7 13. Nbd2 c6 14. dxc6 Qxc6 15.
+Nf1 Rac8 16. Re2 Rfe8 17. Ng3 Nc4 18. a4 Be6 19. Ng5 Bd7 20. Qe1 Bf8 21. b3 Nb6
+22. a5 Na8 23. Bd2 Nc7 24. Rc1 h6 25. Nf3 Ne6 26. Nf5 Nh5 27. g3 Nc5 28. N3h4
+d5 29. exd5 Qxd5 30. c4 bxc4 31. bxc4 Qe6 32. Be3 Bc6 33. Kh2 Nf6 34. Bxc5 Bxc5
+35. Qc3 e4 36. Rd1 Qe5 37. Qxe5 Rxe5 38. f4 Ree8 39. Nd6 Bxd6 40. Rxd6 Nd7 41.
+Nf5 Nc5 42. Nd4 Ba4 43. Bxa4 Nxa4 44. Rxa6 Rxc4 45. Nf5 Nc3 46. Re1 Rb8 47. Rb6
+Rxb6 48. axb6 Rb4 49. Rc1 Rb2+ 50. Kh1 Ne2 51. Rc8+ Kh7 52. Rc7 Rxb6 53. Rxf7
+Kg6 54. Rf8 Rb1+ 55. Kg2 Rb2 56. Kf1 h5 57. Ke1 Nc1 58. Ne7+ Kh7 59. Rf5 Nd3+
+60. Kf1 Kh6 61. g4 hxg4 62. hxg4 g6 63. Rf7 Rf2+ 64. Kg1 Rxf4 65. Rxf4 Nxf4 66.
+Kf2 Nd3+ 67. Ke3 Nc5 68. Kf4 Kg7 69. Nd5 Kf7 70. Nc3 Ke6 71. Nxe4 Nxe4 72. Kxe4
+g5 1/2-1/2
+
+[Event "Sants Hostafrans i La Bordeta op"]
+[Site "?"]
+[Date "2011.08.19"]
+[Round "1"]
+[White "Carre, S."]
+[Black "Adhiban, B."]
+[Result "1/2-1/2"]
+[ECO "A48"]
+[WhiteElo "2108"]
+[BlackElo "2542"]
+[PlyCount "96"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.09.10"]
+
+1. d4 Nf6 2. Nf3 g6 3. Bf4 Bg7 4. e3 d6 5. Be2 O-O 6. O-O Nfd7 7. h3 e5 8. Bh2
+Nc6 9. c4 f5 10. Nc3 h6 11. b4 Nxb4 12. Qb3 c5 13. dxc5 dxc5 14. Rad1 Qe7 15.
+Nd5 Nxd5 16. cxd5 Qd6 17. Nd2 Nb6 18. a4 Bd7 19. Nc4 Nxc4 20. Bxc4 b6 21. Rb1
+f4 22. e4 f3 23. Bb5 Rac8 24. Rfc1 g5 25. Bxd7 Qxd7 26. d6+ Kh7 27. Qd5 fxg2
+28. a5 Qxh3 29. axb6 Rxf2 30. Kxf2 Rf8+ 31. Ke2 Qxh2 32. Kd3 g1=Q 33. Rxg1 axb6
+34. Kc4 Qa2+ 35. Kb5 Qa5+ 36. Kc6 Rc8+ 37. Kd7 Rb8 38. Ke7 Qa7+ 39. d7 Qc7 40.
+Rgf1 b5 41. Rf7 Qd8+ 42. Kd6 Rb6+ 43. Kxc5 Qc7+ 44. Kb4 Rd6 45. Rxg7+ Kxg7 46.
+Qxe5+ Kg6 47. Qf5+ Kg7 48. Qe5+ Kg6 1/2-1/2
+
+[Event "Sants Hostafrans i La Bordeta op"]
+[Site "?"]
+[Date "2011.08.22"]
+[Round "4"]
+[White "Mirzoev, A."]
+[Black "Adhiban, B."]
+[Result "1/2-1/2"]
+[ECO "D47"]
+[WhiteElo "2415"]
+[BlackElo "2542"]
+[PlyCount "80"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.09.10"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c6 4. e3 Nf6 5. Nf3 Nbd7 6. Bd3 dxc4 7. Bxc4 b5 8. Bd3
+Bd6 9. Ne4 Nxe4 10. Bxe4 Bb7 11. O-O O-O 12. Bd2 b4 13. Rc1 Rc8 14. Qe2 Qb6 15.
+Rfd1 Rfd8 16. Be1 Nf6 17. Bd3 c5 18. dxc5 Rxc5 19. Rxc5 Bxc5 20. h3 h6 21. Bc4
+a5 22. Rxd8+ Qxd8 23. b3 Be4 24. Nd2 Bg6 25. Qf3 Nd5 26. Nf1 Nc3 27. a3 Nb1 28.
+axb4 axb4 29. Nd2 Na3 30. Bf1 Nc2 31. Qd1 Qf6 32. Bc4 Nxe1 33. Qxe1 Qc3 34. Nf3
+Bc2 35. Qc1 g5 36. Ne1 Be4 37. Qd1 Kg7 38. Nd3 Be7 39. Ne1 Bf6 40. Nd3 Be7
+1/2-1/2
+
+[Event "Sants Hostafrans i La Bordeta op"]
+[Site "?"]
+[Date "2011.08.23"]
+[Round "5"]
+[White "Adhiban, B."]
+[Black "Trepat Herranz, J."]
+[Result "1/2-1/2"]
+[ECO "D27"]
+[WhiteElo "2542"]
+[BlackElo "2352"]
+[PlyCount "104"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.09.10"]
+
+1. d4 d5 2. c4 dxc4 3. Nf3 Nf6 4. e3 e6 5. Bxc4 c5 6. O-O a6 7. Bb3 Nc6 8. Nc3
+Be7 9. dxc5 Qxd1 10. Rxd1 Bxc5 11. Bd2 Bd7 12. Rac1 Ba7 13. Be1 Ke7 14. Na4
+Rhd8 15. Nc5 Bxc5 16. Rxc5 Be8 17. Rdc1 Ne4 18. R5c2 f6 19. Nd4 Nxd4 20. Bb4+
+Nd6 21. exd4 a5 22. Bc5 a4 23. Bc4 b5 24. Be2 Kf7 25. Bf3 Rac8 26. g4 f5 27. g5
+Ne4 28. h4 Nxc5 29. Rxc5 Rxc5 30. dxc5 Rc8 31. b4 axb3 32. axb3 b4 33. c6 Ke7
+34. Rc4 Kd6 35. Rxb4 Bxc6 36. Bxc6 Rxc6 37. Rb7 Rc7 38. Rxc7 Kxc7 39. Kf1 e5
+40. Ke2 Kc6 41. f3 Kc5 42. Kd3 Kb4 43. Kc2 g6 44. Kb2 Kb5 45. Kc3 Kc5 46. b4+
+Kb5 47. Kb3 e4 48. fxe4 fxe4 49. Kc3 e3 50. Kd3 Kxb4 51. Kxe3 Kc5 52. Ke4 Kd6
+1/2-1/2
+
+[Event "Sants Hostafrans i La Bordeta op"]
+[Site "?"]
+[Date "2011.08.25"]
+[Round "7"]
+[White "Matnadze, A."]
+[Black "Adhiban, B."]
+[Result "1/2-1/2"]
+[ECO "A46"]
+[WhiteElo "2428"]
+[BlackElo "2542"]
+[PlyCount "44"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.09.10"]
+
+1. d4 Nf6 2. Nf3 c5 3. dxc5 e6 4. e3 Bxc5 5. c4 O-O 6. Be2 Nc6 7. O-O b6 8. a3
+Bb7 9. b4 Be7 10. Bb2 a5 11. b5 Nb8 12. Nd4 Ne4 13. Bf3 Ra7 14. Qc2 Nc5 15. Nd2
+Qc8 16. Rac1 Bxf3 17. N2xf3 Rc7 18. Nb3 Na4 19. Be5 d6 20. Bd4 e5 21. Nbd2 exd4
+22. exd4 Nc5 1/2-1/2
+
+[Event "Sants Hostafrans i La Bordeta op"]
+[Site "?"]
+[Date "2011.08.27"]
+[Round "9"]
+[White "Kunte, A."]
+[Black "Adhiban, B."]
+[Result "1/2-1/2"]
+[ECO "A09"]
+[WhiteElo "2528"]
+[BlackElo "2542"]
+[PlyCount "36"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.09.10"]
+
+1. Nf3 d5 2. c4 d4 3. g3 c5 4. b4 cxb4 5. a3 f6 6. Bg2 e5 7. O-O Nc6 8. d3 a5
+9. e3 Bc5 10. exd4 Bxd4 11. Nxd4 Qxd4 12. Ra2 Nge7 13. Be3 Qd6 14. Nd2 Bf5 15.
+axb4 Nxb4 16. Ra3 O-O 17. Bxb7 Bxd3 18. Bxa8 Rxa8 1/2-1/2
+
+[Event "Sants Hostafrans i La Bordeta op"]
+[Site "?"]
+[Date "2011.08.28"]
+[Round "10"]
+[White "Adhiban, B."]
+[Black "Blomqvist, E."]
+[Result "1-0"]
+[ECO "B77"]
+[WhiteElo "2542"]
+[BlackElo "2438"]
+[PlyCount "77"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.09.10"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. f3 Bg7 7. Be3 Nc6 8. Qd2
+O-O 9. Bc4 Rb8 10. O-O-O Bd7 11. g4 Na5 12. Bb3 b5 13. Bh6 Bxh6 14. Qxh6 b4 15.
+Nd5 Nxb3+ 16. Nxb3 Nxd5 17. exd5 Rb6 18. h4 e5 19. Nd2 Qe7 20. Ne4 f5 21. gxf5
+gxf5 22. Rhg1+ Kh8 23. Rg6 fxe4 24. Rdg1 Qf7 25. Kb1 exf3 26. Rg7 Bf5 27. Rxf7
+Rxf7 28. Rf1 Be4 29. Qe6 Bg6 30. Kc1 Kg7 31. Kd2 Rf4 32. Ke3 Rf6 33. Qd7+ Rf7
+34. Qh3 Bxc2 35. Rg1+ Bg6 36. h5 f2 37. Rf1 Bc2 38. h6+ Kg6 39. Qg4+ 1-0
+
+[Event "Figueres op A"]
+[Site "?"]
+[Date "2012.08.09"]
+[Round "1"]
+[White "Adhiban, B."]
+[Black "Vinardell Cruañas, S."]
+[Result "1-0"]
+[ECO "C91"]
+[WhiteElo "2553"]
+[BlackElo "2124"]
+[PlyCount "81"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3
+O-O 9. d4 Bg4 10. d5 Nb8 11. h3 Bc8 12. Nbd2 c6 13. dxc6 Nxc6 14. Nf1 Na5 15.
+Bc2 h6 16. Ng3 Re8 17. Nh4 Bf8 18. Nhf5 Kh7 19. Ne3 g6 20. b4 Nc4 21. Nxc4 bxc4
+22. f4 exf4 23. Bxf4 Qb6+ 24. Be3 Qc7 25. e5 Rxe5 26. Qf3 Nd5 27. Bd4 Be6 28.
+Be4 Rd8 29. Rad1 Nb6 30. Qf2 Nd7 31. Bxe5 dxe5 32. Bd5 Bg7 33. Bxe6 fxe6 34.
+Qf7 Qb6+ 35. Kh2 Nf6 36. Ne4 Nxe4 37. Rxd8 Qxd8 38. Rxe4 Qd3 39. Qf3 Qd2 40.
+Rxc4 Qxa2 41. Rc7 1-0
+
+[Event "Figueres op A"]
+[Site "?"]
+[Date "2012.08.10"]
+[Round "2"]
+[White "Ramiro Ovejero, JL."]
+[Black "Adhiban, B."]
+[Result "1/2-1/2"]
+[ECO "A08"]
+[WhiteElo "2349"]
+[BlackElo "2553"]
+[PlyCount "105"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 e6 3. d3 Nc6 4. g3 d5 5. Nbd2 Bd6 6. Bg2 Nge7 7. O-O O-O 8. Re1
+b6 9. c3 Bc7 10. exd5 Nxd5 11. Nc4 Bb7 12. a4 a6 13. Ng5 h6 14. Ne4 Rb8 15. a5
+b5 16. Ne3 Qe7 17. Nxd5 exd5 18. Nd2 Qd7 19. Nb3 Bd6 20. d4 c4 21. Nc5 Bxc5 22.
+dxc5 d4 23. Bf4 Rbe8 24. Rxe8 Rxe8 25. cxd4 Nb4 26. Bxb7 Qxb7 27. d5 Nxd5 28.
+Qf3 Qc6 29. Rd1 Nb4 30. Qxc6 Nxc6 31. Kf1 Nxa5 32. Ra1 Nb3 33. Rxa6 Nxc5 34.
+Rb6 Nd3 35. Rxb5 Re1+ 36. Kg2 Re2 37. Rb8+ Kh7 38. Be3 Nxb2 39. Rc8 Rc2 40. Bd4
+Nd3 41. g4 Nf4+ 42. Kf3 Ne6 43. Be3 Kg6 44. Rc6 h5 45. h3 hxg4+ 46. hxg4 Kf6
+47. Ke4 g5 48. Kd5 c3 49. Ke4 Ra2 50. Rxc3 Ra4+ 51. Kf3 Nd4+ 52. Bxd4+ Rxd4 53.
+Rc6+ 1/2-1/2
+
+[Event "Figueres op A"]
+[Site "?"]
+[Date "2012.08.11"]
+[Round "3"]
+[White "Adhiban, B."]
+[Black "Antoli Royo, JM."]
+[Result "1/2-1/2"]
+[ECO "B56"]
+[WhiteElo "2553"]
+[BlackElo "2398"]
+[PlyCount "36"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Bd7 6. Bg5 e6 7. Ndb5 Bc6 8.
+Bxf6 gxf6 9. Qh5 a6 10. Nd4 Bd7 11. O-O-O Nc6 12. Nxc6 bxc6 13. Bc4 Rb8 14.
+Rhf1 Qb6 15. b3 Rg8 16. Qh3 Qa5 17. Rfe1 Qa3+ 18. Kb1 Qc5 1/2-1/2
+
+[Event "Figueres op A"]
+[Site "?"]
+[Date "2012.08.12"]
+[Round "4"]
+[White "Serra Pages, J."]
+[Black "Adhiban, B."]
+[Result "0-1"]
+[ECO "D43"]
+[WhiteElo "2224"]
+[BlackElo "2553"]
+[PlyCount "72"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. Nc3 c6 5. Bg5 h6 6. Bxf6 Qxf6 7. e3 g6 8. Be2
+Bg7 9. O-O O-O 10. Qc2 Nd7 11. Rad1 dxc4 12. Bxc4 b6 13. e4 Bb7 14. e5 Qe7 15.
+Qe2 a6 16. Rfe1 b5 17. Bd3 c5 18. Be4 Bxe4 19. Qxe4 cxd4 20. Qxd4 Rfd8 21. Qe3
+Rac8 22. Qa7 Kf8 23. Qxa6 b4 24. Na4 Nxe5 25. Nxe5 Bxe5 26. Qb5 Bd4 27. Nb6 Rc5
+28. Qxb4 Bxf2+ 29. Kh1 Bxe1 30. Rxd8+ Kg7 31. Qd4+ e5 32. Qd1 Qf6 33. Qxe1 Qxd8
+34. Na4 Qh4 35. Qg1 Rc2 36. b3 Qf4 0-1
+
+[Event "Figueres op A"]
+[Site "?"]
+[Date "2012.08.12"]
+[Round "5"]
+[White "Adhiban, B."]
+[Black "Dourerassou, J."]
+[Result "1/2-1/2"]
+[ECO "B30"]
+[WhiteElo "2553"]
+[BlackElo "2460"]
+[PlyCount "65"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 Nc6 3. Nc3 e5 4. Bc4 Be7 5. d3 Nf6 6. Ng5 O-O 7. f4 d6 8. O-O
+exf4 9. Bxf4 Bg4 10. Qd2 Nd4 11. h3 Bh5 12. g4 Bg6 13. Nf3 Qd7 14. Nxd4 cxd4
+15. Nd5 Nxd5 16. Bxd5 Rac8 17. Rf2 Bf6 18. Qb4 Be5 19. Bxe5 dxe5 20. Qxb7 Qxb7
+21. Bxb7 Rb8 22. Bd5 Rxb2 23. Bb3 Kh8 24. Raf1 f6 25. g5 Bf7 26. Kg2 a5 27. Kg3
+a4 28. Bxf7 Rxf7 29. gxf6 Rxf6 30. Rxf6 gxf6 31. Rxf6 Rxc2 32. Kg4 Rxa2 33. Ra6
+1/2-1/2
+
+[Event "Figueres op A"]
+[Site "?"]
+[Date "2012.08.13"]
+[Round "6"]
+[White "Guilleux, F."]
+[Black "Adhiban, B."]
+[Result "0-1"]
+[ECO "A16"]
+[WhiteElo "2439"]
+[BlackElo "2553"]
+[PlyCount "45"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. Nf3 Nf6 2. c4 g6 3. Nc3 d5 4. Qa4+ Bd7 5. Qb3 dxc4 6. Qxc4 a6 7. e4 b5 8.
+Qe2 c5 9. a4 Nc6 10. axb5 axb5 11. Rxa8 Qxa8 12. Nxb5 Qa1 13. Qc4 Na5 14. Qc2
+Nb3 15. Qxb3 Qxc1+ 16. Qd1 Qxd1+ 17. Kxd1 Nxe4 18. Ke1 Bg7 19. Nc7+ Kd8 20. Na6
+Bc8 21. Bd3 f5 22. Ke2 c4 23. Ke1 0-1
+
+[Event "Figueres op A"]
+[Site "?"]
+[Date "2012.08.14"]
+[Round "7"]
+[White "Adhiban, B."]
+[Black "Forcen Esteban, D."]
+[Result "1-0"]
+[ECO "A67"]
+[WhiteElo "2553"]
+[BlackElo "2440"]
+[PlyCount "49"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e6 4. Nc3 exd5 5. cxd5 d6 6. e4 g6 7. f4 Bg7 8. Bb5+
+Nfd7 9. Nf3 O-O 10. O-O a6 11. Bd3 b5 12. a3 Bb7 13. Kh1 Nb6 14. f5 N8d7 15.
+Bg5 Bf6 16. h4 Qe7 17. Qd2 Ne5 18. Nxe5 Qxe5 19. Bxf6 Qxf6 20. Rf3 Qe5 21. Raf1
+Nd7 22. h5 gxh5 23. f6 Kh8 24. Rf5 Qg3 25. R1f3 1-0
+
+[Event "Figueres op A"]
+[Site "?"]
+[Date "2012.08.15"]
+[Round "8"]
+[White "Mirzoev, A."]
+[Black "Adhiban, B."]
+[Result "1/2-1/2"]
+[ECO "A43"]
+[WhiteElo "2545"]
+[BlackElo "2553"]
+[PlyCount "18"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. Nf3 c5 3. d5 b5 4. Bg5 Ne4 5. Bh4 Bb7 6. Qd3 f5 7. Nbd2 c4 8. Qd4
+Qb6 9. Nxe4 fxe4 1/2-1/2
+
+[Event "Figueres op A"]
+[Site "?"]
+[Date "2012.08.16"]
+[Round "9"]
+[White "Adhiban, B."]
+[Black "Martinez Duany, LS."]
+[Result "1/2-1/2"]
+[ECO "E94"]
+[WhiteElo "2553"]
+[BlackElo "2476"]
+[PlyCount "75"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 d6 3. Nc3 Nbd7 4. Nf3 g6 5. e4 e5 6. d5 Bg7 7. Be2 O-O 8. O-O
+Re8 9. Be3 Nh5 10. g3 Bf6 11. Ne1 Ng7 12. Nd3 Bg5 13. Bxg5 Qxg5 14. Kh1 f5 15.
+Bf3 Qe7 16. Qd2 Rf8 17. Rae1 Nf6 18. Bg2 fxe4 19. Nxe4 Nxe4 20. Bxe4 Bh3 21.
+Bg2 Qd7 22. f4 Bxg2+ 23. Kxg2 exf4 24. Nxf4 Rae8 25. b3 Rxe1 26. Rxe1 Re8 27.
+Re3 b6 28. Qe2 Rxe3 29. Qxe3 Kf7 30. Ne2 Nf5 31. Qf3 Kg8 32. Qe4 g5 33. Kg1 Qf7
+34. Nc3 a6 35. Nd1 Kg7 36. Nf2 Qf6 37. Kg2 h5 38. Qf3 1/2-1/2
+
+[Event "Sants Hostafrancs i La Bordeta op A"]
+[Site "Barcelona"]
+[Date "2013.08.23"]
+[Round "1"]
+[White "Balague Camps, M."]
+[Black "Adhiban, B."]
+[Result "0-1"]
+[ECO "A34"]
+[PlyCount "24"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+
+1. Nf3 Nf6 2. c4 c5 3. Nc3 Nc6 4. g3 d5 5. cxd5 Nxd5 6. Bg2 Nc7 7. O-O e5 8. d3
+Be7 9. e4 O-O 10. Ne1 Be6 11. f4 f6 12. b3 Qd4+ 0-1
+
+[Event "Sants Hostafrancs i La Bordeta op A"]
+[Site "Barcelona"]
+[Date "2013.08.24"]
+[Round "2"]
+[White "Adhiban, B."]
+[Black "Pedini, D."]
+[Result "1/2-1/2"]
+[ECO "C60"]
+[PlyCount "82"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nge7 4. Nc3 d6 5. d4 Bd7 6. d5 Nb8 7. Be2 a5 8. Be3
+Na6 9. Nd2 f5 10. g3 g6 11. Bg5 Bg7 12. exf5 Bxf5 13. g4 Bd7 14. Nde4 h6 15.
+Be3 a4 16. a3 b6 17. Qd2 Nc5 18. O-O-O Ra5 19. Nxc5 bxc5 20. Ne4 Ra7 21. Rhg1
+Rb7 22. g5 h5 23. Nf6+ Kf7 24. Bc4 Nf5 25. Ne4 Nd4 26. c3 Nb3+ 27. Bxb3 Rxb3
+28. Qe2 Qb8 29. Rd2 Rf8 30. Rc2 Bf5 31. f3 Qb7 32. Qc4 Qb5 33. Qxb5 Rxb5 34.
+Rf1 Ke7 35. Rff2 Rb3 36. Kd1 Bxe4 37. fxe4 Rxf2 38. Rxf2 c4 39. Bc1 Rb8 40. Ke2
+Rb5 41. Rf1 Rb8 1/2-1/2
+
+[Event "Sants Hostafrancs i La Bordeta op A"]
+[Site "Barcelona"]
+[Date "2013.08.26"]
+[Round "4"]
+[White "Adhiban, B."]
+[Black "Godart, F."]
+[Result "1-0"]
+[ECO "B07"]
+[PlyCount "53"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 Nc6 4. Nf3 g6 5. Bb5 a6 6. Bxc6+ bxc6 7. O-O Bg7 8.
+h3 Rb8 9. Rb1 O-O 10. Be3 Nd7 11. Qd2 Nb6 12. Bh6 f5 13. e5 Nc4 14. Qc1 c5 15.
+b3 Nb6 16. dxc5 dxc5 17. Bxg7 Kxg7 18. Qe3 c4 19. bxc4 Nxc4 20. Qc5 Rxb1 21.
+Rxb1 Nd2 22. Nxd2 Qxd2 23. Nd5 Rf7 24. Nxc7 Qd8 25. Rb8 Kh6 26. Kh2 f4 27. Ne8
+1-0
+
+[Event "Sants Hostafrancs i La Bordeta op A"]
+[Site "Barcelona"]
+[Date "2013.08.27"]
+[Round "5"]
+[White "Huerga Leache, M."]
+[Black "Adhiban, B."]
+[Result "1/2-1/2"]
+[ECO "C95"]
+[PlyCount "130"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3
+O-O 9. h3 Nb8 10. d4 Nbd7 11. Nbd2 Bb7 12. Bc2 Re8 13. Nf1 Bf8 14. Ng3 g6 15.
+a4 Bg7 16. d5 Qb8 17. axb5 axb5 18. Bg5 Rxa1 19. Qxa1 c6 20. dxc6 Bxc6 21. Qa2
+Qb7 22. Bxf6 Nxf6 23. Ra1 Bh6 24. Qa7 Ra8 25. Qxa8+ Qxa8 26. Rxa8+ Bxa8 27. Bd3
+Bc6 28. Nh2 Bc1 29. b3 h5 30. f3 Be3+ 31. Kf1 Bf4 32. Kf2 d5 33. exd5 Nxd5 34.
+c4 bxc4 35. Bxc4 Be3+ 36. Ke1 Bg1 37. Nhf1 Nf4 38. Nd2 Nxg2+ 39. Kf1 Be3 40.
+Bxf7+ Kxf7 41. Nc4 Ke6 42. Kxg2 Bg5 43. Ne4 Be7 44. Ne3 Bb5 45. Nc4 Ba6 46. Ne3
+Be2 47. Nc3 Bd3 48. Ne4 Ba6 49. Kg3 Bb7 50. Kg2 Bc6 51. Kg3 Bb4 52. Ng5+ Kf6
+53. Ne4+ Ke7 54. Kf2 Ke6 55. Kg2 Be7 56. Kg3 Bb5 57. Kf2 Bd3 58. Kg2 Bb5 59.
+Kf2 g5 60. Ng3 Be8 61. Ne4 Bc6 62. Ng3 Be8 63. Ne4 Bg6 64. Kg3 Bh7 65. Kg2 Bg6
+1/2-1/2
+
+[Event "Sants Hostafrancs i La Bordeta op A"]
+[Site "Barcelona"]
+[Date "2013.08.28"]
+[Round "6"]
+[White "Adhiban, B."]
+[Black "Prasca, R."]
+[Result "1-0"]
+[ECO "B48"]
+[PlyCount "65"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qd2 Nf6 8.
+O-O-O Be7 9. f3 b5 10. g4 Nxd4 11. Bxd4 b4 12. Ne2 Bb7 13. g5 Nxe4 14. fxe4
+Bxe4 15. Rg1 Rc8 16. c3 d5 17. Bg2 Bg6 18. Bxg7 Rg8 19. Bf6 bxc3 20. Nxc3 Bd6
+21. Rgf1 Qc4 22. Qe3 Qxa2 23. Bxd5 Qb1+ 24. Kd2 Qxb2+ 25. Ke1 Qxh2 26. Rf2 Qg3
+27. Bf3 Bh5 28. Rxd6 Qxd6 29. Bxh5 Qc6 30. Bf3 Qc7 31. Rd2 h6 32. gxh6 Qg3+ 33.
+Kd1 1-0
+
+[Event "Sants Hostafrancs i La Bordeta op A"]
+[Site "Barcelona"]
+[Date "2013.08.29"]
+[Round "7"]
+[White "Filippov, A."]
+[Black "Adhiban, B."]
+[Result "1/2-1/2"]
+[ECO "B85"]
+[PlyCount "65"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be2 Nf6 7. O-O a6 8.
+Be3 Be7 9. f4 d6 10. Qe1 O-O 11. Qg3 Nxd4 12. Bxd4 b5 13. a3 Bb7 14. Bd3 Rad8
+15. Rae1 Rd7 16. Kh1 Re8 17. Re3 g6 18. e5 dxe5 19. Bxe5 Qd8 20. f5 Nh5 21. Qh3
+exf5 22. Bxf5 Rd2 23. Be4 Bxe4 24. Rxe4 f5 25. Ree1 Bh4 26. Bc7 Rxe1 27. Rxe1
+Qxc7 28. Qxh4 Qc6 29. Qg5 Nf4 30. Nd5 Qxd5 31. Re8+ Kg7 32. Re7+ Kg8 33. Re8+
+1/2-1/2
+
+[Event "Sants Hostafrancs i La Bordeta op A"]
+[Site "Barcelona"]
+[Date "2013.08.30"]
+[Round "8"]
+[White "Adhiban, B."]
+[Black "Bailet, P."]
+[Result "1-0"]
+[ECO "C88"]
+[PlyCount "79"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. a4
+Bb7 9. d3 d6 10. Nbd2 Nb8 11. axb5 axb5 12. Rxa8 Bxa8 13. Nf1 Nbd7 14. Ng3 Nc5
+15. Ba2 Bb7 16. Nf5 Bc8 17. Nxe7+ Qxe7 18. c3 Be6 19. Bb1 Ra8 20. d4 Bb3 21.
+Qd2 Ra1 22. dxc5 Rxb1 23. Qd3 Ba2 24. Qc2 dxc5 25. Nd2 Ra1 26. b3 c4 27. Qb2
+Rxc1 28. Rxc1 cxb3 29. Nxb3 Bxb3 30. Qxb3 c6 31. Qb4 Qd8 32. Qc5 Qe8 33. Rd1 h6
+34. f3 Kh7 35. Rd6 Qa8 36. Qxe5 Qa1+ 37. Kf2 Qb2+ 38. Kg3 Qc1 39. Qf5+ Kh8 40.
+Rd8+ 1-0
+
+[Event "Sants Hostafrancs i La Bordeta op A"]
+[Site "Barcelona"]
+[Date "2013.08.31"]
+[Round "9"]
+[White "Hillarp Persson, T."]
+[Black "Adhiban, B."]
+[Result "0-1"]
+[ECO "E83"]
+[PlyCount "56"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 Nc6 7. Nge2 a6 8. Qd2
+Na5 9. Nc1 Nd7 10. Rb1 c5 11. d5 e6 12. dxe6 Ne5 13. exf7+ Rxf7 14. Bg5 Qf8 15.
+Nd5 Naxc4 16. Bxc4 Nxc4 17. Qe2 b5 18. Nd3 Bb7 19. Ne3 h6 20. Bh4 d5 21. Nxc4
+bxc4 22. Nf2 Bd4 23. O-O Re8 24. Kh1 dxe4 25. Nxe4 Bxe4 26. fxe4 Rxe4 27. Qxc4
+Rxh4 28. Qxa6 Kh7 0-1
+
+[Event "Sants Hostafrancs i La Bordeta op A"]
+[Site "Barcelona"]
+[Date "2013.09.01"]
+[Round "10"]
+[White "Adhiban, B."]
+[Black "Burmakin, V."]
+[Result "1-0"]
+[ECO "B12"]
+[PlyCount "45"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 Ne7 6. O-O h6 7. c3 Nd7 8. Na3 Bh7
+9. Nc2 c5 10. dxc5 Nc6 11. b4 Bxc2 12. Qxc2 Ndxe5 13. Nxe5 Nxe5 14. c4 Nxc4 15.
+Bxc4 dxc4 16. Rd1 Qc7 17. Bb2 h5 18. Qxc4 h4 19. Be5 Qc6 20. b5 Qxc5 21. Qd3
+Be7 22. Qd7+ Kf8 23. Rac1 1-0

@@ -1,0 +1,716 @@
+[Event "Platja d'Aro op 5th"]
+[Site "Platja d'Aro"]
+[Date "2017.06.25"]
+[Round "1"]
+[White "Rovira Vila, Jaume"]
+[Black "Ayats Llobera, Gerard"]
+[Result "0-1"]
+[ECO "C00"]
+[WhiteElo "1907"]
+[BlackElo "2261"]
+[PlyCount "126"]
+[EventDate "2017.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. Qe2 c5 3. f4 Ne7 4. Nf3 g6 5. d3 Bg7 6. c3 Nbc6 7. g3 b6 8. Bg2 Bb7
+9. O-O O-O 10. Na3 a6 11. Be3 Qc7 12. Nc2 Na5 13. Bf2 Rad8 14. Rad1 d6 15. h3
+e5 16. d4 cxd4 17. cxd4 exf4 18. gxf4 Qc4 19. Qxc4 Nxc4 20. b3 Bxe4 21. Nb4 a5
+22. bxc4 axb4 23. Rfe1 d5 24. c5 bxc5 25. dxc5 Nc6 26. Nd4 Bxd4 27. Bxd4 f5 28.
+Re2 Rf7 29. Rb2 Ra7 30. Rdd2 Kf7 31. Bf1 Ra5 32. Kh2 Ke6 33. Kg3 Rb8 34. Bf2
+Ra3+ 35. Kh2 Rf3 36. Bg2 Rd3 37. Rxd3 Bxd3 38. Kg3 Ra8 39. Be1 Ra4 40. Kh4 h6
+41. Bf3 Bc4 42. Bd1 Rxa2 43. Rb1 Ra5 44. Bf2 Ra3 45. Be1 Bf1 46. Rb3 Rxb3 47.
+Bxb3 Bc4 48. Ba4 b3 49. Bc3 d4 50. Bb2 Kd5 51. Bxc6+ Kxc6 52. Bxd4 Kd5 53. Be5
+Kxc5 54. Kg3 Kb4 55. Bb2 Bf1 56. h4 Kc4 57. Kf2 Kd3 58. Kxf1 Kc2 59. Be5 b2 60.
+Bxb2 Kxb2 61. Ke2 Kc3 62. Ke3 Kc4 63. Kf3 Kd4 0-1
+
+[Event "Platja d'Aro op 5th"]
+[Site "Platja d'Aro"]
+[Date "2017.06.26"]
+[Round "2"]
+[White "Saurina Suner, Francesc Xavier"]
+[Black "Rovira Vila, Jaume"]
+[Result "1-0"]
+[ECO "B34"]
+[WhiteElo "1990"]
+[BlackElo "1907"]
+[PlyCount "70"]
+[EventDate "2017.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. Be3 Bg7 6. Nc3 Nf6 7. Nxc6 bxc6 8.
+e5 Nd5 9. Nxd5 cxd5 10. Qxd5 Rb8 11. Bc4 O-O 12. O-O-O d6 13. Bxa7 Be6 14. Qd3
+Ra8 15. Bd4 dxe5 16. Bxe6 fxe6 17. Bc3 Qc8 18. Kb1 e4 19. Qe3 Bxc3 20. Qxc3
+Qxc3 21. bxc3 Rfb8+ 22. Ka1 Ra3 23. Rb1 Rba8 24. Rb2 Rxc3 25. Re1 Rd8 26. Re2
+Kf7 27. Rb3 Rc6 28. Kb2 g5 29. Rb4 Ra8 30. Rbxe4 Ra5 31. a4 Rac5 32. c4 Rf5 33.
+f3 h5 34. h3 Rf4 35. Kc3 Kf6 1-0
+
+[Event "Platja d'Aro op 5th"]
+[Site "Platja d'Aro"]
+[Date "2017.06.28"]
+[Round "4"]
+[White "Rovira Vila, Jaume"]
+[Black "Garcia Busquets, Jordi"]
+[Result "1/2-1/2"]
+[ECO "B01"]
+[WhiteElo "1907"]
+[BlackElo "2024"]
+[PlyCount "28"]
+[EventDate "2017.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd6 4. d4 Nf6 5. Nf3 a6 6. Bc4 b5 7. Bb3 Bb7 8.
+Ne5 e6 9. Bf4 Qd8 10. O-O c5 11. dxc5 Qxd1 12. Raxd1 Bxc5 13. Nd3 Be7 14. Ne2
+Nbd7 1/2-1/2
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.18"]
+[Round "1"]
+[White "Rovira Vila, Jaume"]
+[Black "Garriga Cazorla, Pere"]
+[Result "0-1"]
+[ECO "C47"]
+[WhiteElo "2038"]
+[BlackElo "2405"]
+[PlyCount "104"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. d4 exd4 5. Nxd4 Bb4 6. Nxc6 bxc6 7. Bd3 O-O
+8. O-O d5 9. exd5 cxd5 10. Bg5 c6 11. Qf3 Bd6 12. h3 h6 13. Bxf6 Qxf6 14. Qxf6
+gxf6 15. Na4 Rb8 16. b3 Be6 17. Rab1 Rfd8 18. Nb2 Be5 19. Nd1 a5 20. Ne3 Kf8
+21. Nf5 h5 22. f4 Bc7 23. Ng3 h4 24. Nf5 Bxf5 25. Bxf5 Rb4 26. Bd3 Rxf4 27.
+Rxf4 Bxf4 28. Re1 Be5 29. a4 Ke7 30. Kf1 Kd6 31. Ke2 Rg8 32. Kf1 Kc5 33. Re2
+Kb4 34. Ke1 Kc3 35. Kd1 Rg3 36. Rf2 Rg8 37. Bf1 Kb4 38. Rf5 Rh8 39. Be2 c5 40.
+Rh5 Re8 41. Rxh4+ Kc3 42. Rh7 Re7 43. Rh8 c4 44. Rc8 Bc7 45. bxc4 dxc4 46. Rg8
+f5 47. Rg5 Rd7+ 48. Ke1 Rd4 49. Rxf5 Bg3+ 50. Kf1 Kxc2 51. Rxa5 c3 52. Rg5 Kd2
+0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2018.02.03"]
+[Round "3.8"]
+[White "Rovira Vila, Jaume"]
+[Black "Carrasco Rodriguez, Jesus"]
+[Result "1-0"]
+[ECO "A00"]
+[WhiteElo "2176"]
+[BlackElo "2285"]
+[PlyCount "65"]
+[EventDate "2018.??.??"]
+[WhiteTeam "GER"]
+[BlackTeam "BAB"]
+
+1. g4 d5 2. Bg2 Bxg4 3. c4 c6 4. Qb3 Qb6 5. Qxb6 axb6 6. cxd5 Nf6 7. Nc3 e6 8.
+h3 Bf5 9. e4 Bg6 10. dxe6 fxe6 11. Nge2 Nbd7 12. O-O Be7 13. d4 Bf7 14. Be3 O-O
+15. f4 b5 16. e5 Nd5 17. Nxd5 exd5 18. f5 Nb6 19. Nf4 Nc4 20. Bc1 b4 21. Bf3
+Bd8 22. Re1 Bb6 23. Kg2 Be8 24. Nxd5 cxd5 25. Bxd5+ Bf7 26. e6 Nd6 27. Bf4 Nxf5
+28. exf7+ Kh8 29. Kh1 Rad8 30. Bc4 Bxd4 31. Be6 Nh6 32. Bc7 Nxf7 33. Bxf7 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2018.03.03"]
+[Round "7.10"]
+[White "Garcia Acosta, Roger"]
+[Black "Rovira Vila, Jaume"]
+[Result "1-0"]
+[ECO "B38"]
+[WhiteElo "2220"]
+[BlackElo "2177"]
+[PlyCount "79"]
+[EventDate "2018.03.05"]
+[WhiteTeam "PEC"]
+[BlackTeam "GER"]
+
+1. e4 c5 2. Nf3 g6 3. d4 cxd4 4. Nxd4 Nc6 5. c4 Bg7 6. Be3 Nh6 7. Nc3 O-O 8.
+Be2 f5 9. Qd2 f4 10. Bxf4 Bxd4 11. Bxh6 Bxf2+ 12. Kd1 Rf7 13. Rf1 d6 14. Rc1
+Be6 15. Kc2 Qb6 16. Kb1 Bd4 17. Nd5 Bxd5 18. exd5 Ne5 19. Rxf7 Nxf7 20. Bf4 Bf6
+21. Bg4 Ne5 22. Be6+ Kh8 23. h4 Bxh4 24. Bxe5+ dxe5 25. Qh6 Qd4 26. Rh1 Qd3+
+27. Ka1 g5 28. g3 Qf3 29. Rg1 Qf2 30. Rh1 Qf3 31. Rb1 Bxg3 32. Qxg5 e4 33. Qxe7
+e3 34. d6 e2 35. Bd5 Qf2 36. Be4 Kg8 37. Qxh7+ Kf8 38. Qe7+ Kg8 39. Bd5+ Kh8
+40. Rh1+ 1-0
+
+[Event "Lliga Catalana DH "]
+[Site "?"]
+[Date "2018.03.10"]
+[Round "8.9"]
+[White "Codina Garcia, Josep"]
+[Black "Rovira Vila, Jaume"]
+[Result "0-1"]
+[ECO "D02"]
+[WhiteElo "2189"]
+[BlackElo "2179"]
+[PlyCount "128"]
+[EventDate "2018.??.??"]
+[SourceDate "2018.01.21"]
+[WhiteTeam "LLE"]
+[BlackTeam "GER"]
+
+1. d4 d5 2. Nf3 e6 3. c4 c6 4. e3 f5 5. Nc3 Nf6 6. Bd3 Bd6 7. O-O O-O 8. c5 Bc7
+9. b4 Ne4 10. Qc2 Nd7 11. Ne1 e5 12. f4 exd4 13. exd4 Qf6 14. Nf3 a5 15. Ba3
+Bxf4 16. Rae1 Qh6 17. b5 Be3+ 18. Rxe3 Qxe3+ 19. Kh1 Qh6 20. Bc1 Qh5 21. Kg1
+Ndf6 22. b6 Be6 23. Ne2 Qe8 24. Nf4 Bf7 25. Ne5 Nd7 26. Nf3 Bh5 27. Qb3 a4 28.
+Qc2 Bxf3 29. Rxf3 Ndf6 30. Ne2 g6 31. Bf4 Qe6 32. Bc1 Rfe8 33. Bf4 Qe7 34. Bc1
+Ng4 35. Bf4 Ngf6 36. Bc1 Nh5 37. Rf1 Ng7 38. a3 Ne6 39. Qb2 Rf8 40. Nf4 Rfe8
+41. Ne2 Qg7 42. Rf3 h6 43. Rf1 Kh7 44. Rf3 Rf8 45. Rf1 Kg8 46. Rf3 g5 47. Rf1
+Rf7 48. Rf3 Nf4 49. Ng3 Nxg3 50. hxg3 Ne6 51. Rxf5 Rxf5 52. Bxf5 Nxd4 53. Bd3
+Ne6 54. Qe2 Nxc5 55. Bb2 Qf7 56. Qe5 Kf8 57. Qd6+ Kg8 58. Qxh6 Qd7 59. Qxg5+
+Kf8 60. Bf5 Qf7 61. Qh6+ Ke7 62. Qg5+ Kf8 63. Be5 Ne4 64. Bg6 Nxg5 0-1
+
+[Event "Lliga Catalana DH "]
+[Site "?"]
+[Date "2018.03.17"]
+[Round "9.10"]
+[White "De La Riva Aguado, Jordi"]
+[Black "Rovira Vila, Jaume"]
+[Result "1/2-1/2"]
+[ECO "D02"]
+[WhiteElo "2309"]
+[BlackElo "2177"]
+[PlyCount "77"]
+[EventDate "2018.??.??"]
+[SourceDate "2015.07.10"]
+[WhiteTeam "FOM"]
+[BlackTeam "GER"]
+
+1. d4 d5 2. Nf3 e6 3. e3 c6 4. Bd3 f5 5. O-O Nf6 6. Ne5 Bd6 7. b3 Qe7 8. Bb2
+O-O 9. Nd2 Nbd7 10. f3 a5 11. a4 Kh8 12. Kh1 Qe8 13. Qe1 Be7 14. e4 Nh5 15.
+exf5 Nxe5 16. dxe5 exf5 17. f4 c5 18. Be2 Be6 19. Qd1 g6 20. Nb1 Ng7 21. Nc3
+Rd8 22. Nb5 Qd7 23. Qd2 Kg8 24. Qxa5 Ra8 25. Qd2 Rfd8 26. Rad1 h5 27. Bf3 Ne8
+28. Qf2 Kf7 29. Rfe1 Nc7 30. Nd6+ Bxd6 31. exd6 Qxd6 32. Be5 Qb6 33. Qh4 Ne8
+34. Qg5 d4 35. Qh6 Bd5 36. Qh7+ Kf8 37. Qh8+ Kf7 38. Qh7+ Kf8 39. Qh8+ 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2018.04.14"]
+[Round "11.8"]
+[White "Serrat Rifa, Ernest"]
+[Black "Rovira Vila, Jaume"]
+[Result "1/2-1/2"]
+[ECO "B73"]
+[WhiteElo "2269"]
+[BlackElo "2192"]
+[PlyCount "72"]
+[EventDate "2018.??.??"]
+[WhiteTeam "OLO"]
+[BlackTeam "GER"]
+
+1. e4 c5 2. Nf3 g6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Bg7 6. Be3 Nf6 7. Be2 O-O 8.
+O-O d6 9. h3 Bd7 10. Qd2 Nxd4 11. Bxd4 Bc6 12. Bf3 Nd7 13. Be3 Qa5 14. Nd5 Qd8
+15. c4 Rc8 16. Rac1 a5 17. Bg4 Ra8 18. Bxd7 Bxd5 19. Qxd5 Qxd7 20. Rfd1 Rfd8
+21. Bb6 Rdc8 22. Bxa5 e6 23. Qd2 Bxb2 24. Rc2 Bg7 25. Bb4 Qa4 26. a3 Ra6 27.
+Rdc1 Rac6 28. Bxd6 Rxc4 29. Rxc4 Rxc4 30. Bb4 Rxc1+ 31. Qxc1 Qd7 32. Qc5 h5 33.
+Qd6 Qxd6 34. Bxd6 Bf8 35. Bb4 Bxb4 36. axb4 b5 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2019.01.26"]
+[Round "2.8"]
+[White "Rovira Vila, Jaume"]
+[Black "Llaneza Vega, Patricia"]
+[Result "1/2-1/2"]
+[ECO "B01"]
+[WhiteElo "2074"]
+[BlackElo "2139"]
+[PlyCount "87"]
+[EventDate "2019.01.19"]
+[WhiteTeam "Gerunda"]
+[BlackTeam "Foment Martinenc"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d4 Nf6 5. a3 e5 6. Nf3 exd4 7. Nxd4 Bg4 8.
+Be2 Qe5 9. Be3 Bxe2 10. Qxe2 Nc6 11. Nxc6 bxc6 12. Qc4 Qe6 13. Qxe6+ fxe6 14.
+O-O-O Bd6 15. f3 O-O 16. Kb1 Nd5 17. Bd2 Rab8 18. Ka2 Bf4 19. Bxf4 Nxc3+ 20.
+bxc3 Rxf4 21. Rb1 Rb5 22. Rhd1 Rd5 23. Rd3 Rc4 24. Rb8+ Kf7 25. Kb3 Rh4 26. h3
+Ke7 27. Rb4 Rxb4+ 28. cxb4 Re5 29. Rd2 Re3+ 30. c3 a6 31. Kc4 Re5 32. a4 g5 33.
+a5 h5 34. Kd4 Rd5+ 35. Ke3 Rb5 36. Kd3 c5 37. Kc4 cxb4 38. cxb4 Re5 39. Rb2 Kd6
+40. Rd2+ Ke7 41. Rc2 Kd6 42. Kd4 Rd5+ 43. Ke4 Re5+ 44. Kd4 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2019.03.16"]
+[Round "9.8"]
+[White "Rovira Vila, Jaume"]
+[Black "Vehi Bach, Victor Manuel"]
+[Result "1/2-1/2"]
+[ECO "B22"]
+[WhiteElo "2074"]
+[BlackElo "2306"]
+[PlyCount "80"]
+[EventDate "2019.03.09"]
+[WhiteTeam "Gerunda"]
+[BlackTeam "Escola d'Escacs de Barcelona"]
+
+1. e4 c5 2. c3 Nf6 3. e5 Nd5 4. Nf3 e6 5. g3 Nc6 6. Bg2 d6 7. exd6 Bxd6 8. O-O
+O-O 9. d4 cxd4 10. Nxd4 Nxd4 11. Qxd4 Qc7 12. Nd2 Bd7 13. Ne4 Be7 14. c4 Nb6
+15. b3 e5 16. Qe3 f5 17. Nc3 Bc5 18. Qe2 Bc6 19. Bb2 Rae8 20. Nd5 Bxd5 21. cxd5
+Qd6 22. a3 Nd7 23. b4 Bb6 24. a4 a6 25. a5 Ba7 26. b5 Bc5 27. Rac1 e4 28. Kh1
+Bb4 29. bxa6 bxa6 30. Rc6 Qxd5 31. Qxa6 Nb8 32. Qa7 Re7 33. Rc7 Nc6 34. Rxe7
+Bxe7 35. Qc7 Rf7 36. Qc8+ Bf8 37. a6 Na7 38. Qb8 Nc6 39. Qc8 Na7 40. Qb8 Nc6
+1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2019.03.23"]
+[Round "10.6"]
+[White "Gomez Jurado, Luis Alberto"]
+[Black "Rovira Vila, Jaume"]
+[Result "1-0"]
+[ECO "A37"]
+[WhiteElo "2201"]
+[BlackElo "2074"]
+[PlyCount "63"]
+[EventDate "2019.03.09"]
+[WhiteTeam "Barcelona"]
+[BlackTeam "Gerunda"]
+
+1. c4 c5 2. Nf3 g6 3. g3 Bg7 4. Bg2 Nc6 5. Nc3 e5 6. d3 Nge7 7. Nd2 d6 8. Nf1
+Be6 9. Ne3 O-O 10. Ned5 Qd7 11. O-O Bh3 12. Ne4 Nxd5 13. Bxh3 Qxh3 14. cxd5 Ne7
+15. Nxd6 Qd7 16. Ne4 Qxd5 17. Be3 b6 18. a4 Nf5 19. a5 Nd4 20. Bxd4 exd4 21.
+Qa4 Rab8 22. axb6 axb6 23. Qb5 f5 24. Nd2 Rfe8 25. Rfe1 Re7 26. Ra6 Rbe8 27.
+Rxb6 Rxe2 28. Qxe8+ Rxe8 29. Rxe8+ Kf7 30. Rc8 Qd7 31. Nc4 Qa4 32. Nd6+ 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2020.02.22"]
+[Round "6.10"]
+[White "Malonda Rey, Albert"]
+[Black "Rovira Vila, Jaume"]
+[Result "1-0"]
+[ECO "B23"]
+[WhiteElo "1842"]
+[BlackElo "2030"]
+[PlyCount "61"]
+[WhiteTeam "Mollet, CE"]
+[BlackTeam "Gerunda, CE"]
+
+1. e4 c5 2. Nc3 g6 3. f4 Bg7 4. Nf3 Nc6 5. Bb5 Nd4 6. Bd3 e6 7. O-O Ne7 8. Nxd4
+cxd4 9. Nb5 d6 10. c3 Qb6 11. Kh1 dxc3 12. dxc3 O-O 13. Qe2 a6 14. Be3 Qd8 15.
+Nd4 d5 16. Rad1 Qc7 17. e5 Bd7 18. h4 Rac8 19. h5 Qd8 20. Rf3 Nc6 21. Rh3 b5
+22. a3 Na5 23. g4 Nc4 24. Bc1 Qe7 25. Qh2 Na5 26. hxg6 hxg6 27. g5 Nc6 28. Be3
+Rfd8 29. Kg2 Nxd4 30. Bxd4 Rc4 31. Rh1 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.02.11"]
+[Round "4.10"]
+[White "ROVIRA VILA, JAUME."]
+[Black "CARO MARTINEZ, RAMON."]
+[Result "1-0"]
+[WhiteElo "2138"]
+[BlackElo "1917"]
+[PlyCount "123"]
+[EventDate "2023.??.??"]
+[WhiteTeam "BAR"]
+[BlackTeam "MLL"]
+
+1. Nf3 d5 2. b3 Nf6 3. Bb2 Bf5 4. d3 Nc6 5. Nbd2 e6 6. g3 Bb4 7. Bg2 h6 8. a3
+Bd6 9. c4 O-O 10. b4 Rc8 11. O-O Re8 12. Re1 Bh7 13. Qb3 Be7 14. Rac1 a5 15. b5
+Nb8 16. c5 Nbd7 17. d4 Ne4 18. Nxe4 Bxe4 19. Bh3 Nf6 20. Ne5 Ra8 21. a4 g5 22.
+Ba3 Nd7 23. Nd3 Bxd3 24. Qxd3 Bf6 25. Red1 Bg7 26. Rc2 Qf6 27. Bb2 c6 28. Bc3
+Qg6 29. Qd2 cxb5 30. axb5 Nf6 31. Bg2 h5 32. Ra2 a4 33. Rda1 g4 34. Qd1 h4 35.
+gxh4 Qh6 36. Rxa4 Rxa4 37. Rxa4 Qxh4 38. Qd3 Nh5 39. e3 f5 40. Bd2 Rf8 41. c6
+bxc6 42. bxc6 e5 43. Bxd5+ Kh8 44. c7 e4 45. Qf1 f4 46. Ra8 g3 47. Rxf8+ Bxf8
+48. fxg3 Qg4 49. Bb7 fxg3 50. Qxf8+ Kh7 51. Qe7+ Kh6 52. Qd6+ Kg7 53. Qe5+ Kh6
+54. c8=Q Qd1+ 55. Kg2 Qxd2+ 56. Kh3 Qxh2+ 57. Kg4 Qe2+ 58. Kf5 Qf3+ 59. Ke6
+Ng7+ 60. Ke7 g2 61. Qh8+ Kg6 62. Qhxg7# 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "Olot, Spain"]
+[Date "2023.03.04"]
+[Round "7.8"]
+[White "Rovira Vila, Jaume"]
+[Black "Garcia Caro, Juan Alber"]
+[Result "1-0"]
+[ECO "A06"]
+[WhiteElo "2071"]
+[BlackElo "1994"]
+[PlyCount "101"]
+[EventDate "2023.??.??"]
+[WhiteTeam "Barcelona"]
+[BlackTeam "Olot"]
+
+1. Nf3 d5 2. b3 Nf6 3. Bb2 e6 4. c4 Be7 5. e3 O-O 6. Nc3 c5 7. cxd5 exd5 8. d4
+Bf5 9. Be2 Nc6 10. O-O Rc8 11. Rc1 cxd4 12. Nxd4 Bg6 13. Nxc6 bxc6 14. Bd3 Qa5
+15. Bxg6 hxg6 16. Qf3 Ba3 17. Bxa3 Qxa3 18. Rc2 Nd7 19. Na4 Ne5 20. Qd1 Qb4 21.
+Nc5 Rfe8 22. h3 g5 23. Nd3 Qh4 24. Nxe5 Rxe5 25. Qf3 Re6 26. Rfc1 Qb4 27. Qf5
+Qe7 28. Rc5 Rc7 29. b4 a6 30. a3 g4 31. Qxg4 Rg6 32. Qf4 Rf6 33. Qh4 Qe5 34.
+Qg3 Qxg3 35. fxg3 Re6 36. R1c3 Kf8 37. g4 Ke7 38. Rxd5 cxd5 39. Rxc7+ Kf6 40.
+Kf2 Rb6 41. Rc5 Ke5 42. Ke2 g6 43. Kd3 f5 44. gxf5 gxf5 45. g4 fxg4 46. hxg4
+Rh6 47. g5 Rh3 48. Rc6 a5 49. bxa5 Rg3 50. g6 d4 51. Rc5+ 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "Valls"]
+[Date "2023.03.25"]
+[Round "10.9"]
+[White "Garcia Jimenez, Francisco Javier"]
+[Black "Rovira Vila, Jaume"]
+[Result "1-0"]
+[WhiteElo "2244"]
+[BlackElo "2064"]
+[PlyCount "41"]
+[EventDate "2023.??.??"]
+[TimeControl "90+30"]
+
+1. e4 {[%emt 0:00:58]} c6 {[%emt 0:02:18]} 2. Nf3 {[%emt 0:01:32]} d5 {[%emt 0:
+00:10]} 3. exd5 {[%emt 0:01:07]} cxd5 {[%emt 0:00:15]} 4. d4 {[%emt 0:00:12]}
+Nf6 {[%emt 0:05:22]} 5. Ne5 {[%emt 0:00:14]} g6 {[%emt 0:10:33]} 6. Bd3 {[%emt
+0:00:52]} Bg7 {[%emt 0:00:28]} 7. c3 {[%emt 0:00:43]} Nc6 {[%emt 0:02:37]} 8.
+f4 {[%emt 0:00:47]} O-O {[%emt 0:02:35]} 9. O-O {[%emt 0:00:04]} Bf5 {[%emt 0:
+03:39]} 10. Bxf5 {[%emt 0:00:05]} gxf5 {[%emt 0:00:09]} 11. Rf3 {[%emt 0:00:03]
+} e6 {[%emt 0:09:07]} 12. Rh3 {[%emt 0:01:06]} Rc8 {[%emt 0:14:36]} 13. Nd2 {
+[%emt 0:00:41]} Ne7 {[%emt 0:13:31]} 14. Nf1 {[%emt 0:02:30]} Ng6 {[%emt 0:08:
+32]} 15. Ng3 {[%emt 0:02:50]} Nxe5 {[%emt 0:04:42]} 16. fxe5 {[%emt 0:00:02]}
+Ng4 {[%emt 0:00:08]} 17. Nh5 {[%emt 0:00:06]} f6 {[%emt 0:02:31]} 18. Rg3 {
+[%emt 0:02:36]} fxe5 {[%emt 0:01:28]} 19. h3 {[%emt 0:01:17]} exd4 {[%emt 0:04:
+10]} 20. Nxg7 {[%emt 0:04:58]} Qd6 {[%emt 0:06:38]} 21. Nh5 {[%emt 0:01:01]}
+1-0
+
+[Event "Lliga Catalana DH"]
+[Site "Barcelona"]
+[Date "2024.01.20"]
+[Round "1.8"]
+[White "Obon Temprano, Sergi"]
+[Black "Rovira Vila, Jaume"]
+[Result "1/2-1/2"]
+[ECO "A06"]
+[WhiteElo "2194"]
+[BlackElo "2074"]
+[PlyCount "89"]
+[EventDate "2024.??.??"]
+[TimeControl "90+30"]
+[WhiteClock "0:08:05"]
+[BlackClock "0:01:30"]
+
+1. Nf3 {[%emt 0:03:04]} d5 {[%emt 0:00:06]} 2. e3 {[%emt 0:00:22]} e6 {[%emt 0:
+02:35]} 3. b3 {[%emt 0:01:39]} Nf6 {[%emt 0:01:00]} 4. Bb2 {[%emt 0:00:20]} c5
+{[%emt 0:01:42]} 5. d4 {[%emt 0:02:01]} Nc6 {[%emt 0:03:56]} 6. Be2 {[%emt 0:
+05:16]} Bd6 {[%emt 0:03:11]} 7. O-O {[%emt 0:02:02]} O-O {[%emt 0:00:27]} 8.
+Nbd2 {[%emt 0:04:31]} b6 {[%emt 0:03:20]} 9. Ne5 {[%emt 0:05:34]} Bb7 {[%emt 0:
+02:30]} 10. f4 {[%emt 0:01:45]} Ne7 {[%emt 0:05:51]} 11. g4 {[%emt 0:10:09]}
+Ne4 {[%emt 0:14:16]} 12. Bd3 {[%emt 0:07:50]} Nxd2 {[%emt 0:05:58]} 13. Qxd2 {
+[%emt 0:00:10]} f6 {[%emt 0:00:15]} 14. Nf3 {[%emt 0:00:59]} a5 {[%emt 0:01:24]
+} 15. a4 {[%emt 0:03:41]} Qc7 {[%emt 0:03:13]} 16. c3 {[%emt 0:17:06]} Ba6 {
+[%emt 0:01:41]} 17. c4 {[%emt 0:06:41]} Rad8 {[%emt 0:12:45]} 18. Qc2 {[%emt 0:
+04:17]} h6 {[%emt 0:03:11]} 19. Rac1 {[%emt 0:03:31]} Bb7 {[%emt 0:06:36]} 20.
+Qe2 {[%emt 0:03:03]} Qd7 {[%emt 0:04:36]} 21. h3 {[%emt 0:02:59]} Nc6 {[%emt 0:
+04:35]} 22. cxd5 {[%emt 0:05:48]} exd5 {[%emt 0:00:31]} 23. Nh4 {[%emt 0:00:32]
+} Ne7 {[%emt 0:01:15]} 24. Bb1 {[%emt 0:01:56]} Bc8 {[%emt 0:02:20]} 25. Rf2 {
+[%emt 0:03:57]} Qe6 {[%emt 0:00:50]} 26. Rg2 {[%emt 0:01:53]} g5 {[%emt 0:00:
+34]} 27. Nf5 {[%emt 0:03:51]} Nxf5 {[%emt 0:02:34]} 28. gxf5 {[%emt 0:00:06]}
+Qe7 {[%emt 0:00:16]} 29. Re1 {[%emt 0:00:51]} Rf7 {[%emt 0:01:11]} 30. h4 {
+[%emt 0:01:03]} Rg7 {[%emt 0:01:19]} 31. fxg5 {[%emt 0:00:41]} hxg5 {[%emt 0:
+00:09]} 32. dxc5 {[%emt 0:00:44]} Bxc5 {[%emt 0:02:03]} 33. hxg5 {[%emt 0:00:
+48]} Rxg5 {[%emt 0:00:13]} 34. Rxg5+ {[%emt 0:00:16]} fxg5 {[%emt 0:00:08]} 35.
+Qh5 {[%emt 0:00:41]} Bxe3+ {[%emt 0:00:28]} 36. Kg2 {[%emt 0:00:46]} d4 {
+[%emt 0:00:05]} 37. Qg6+ {[%emt 0:00:41]} Kf8 {[%emt 0:00:06]} 38. f6 {[%emt 0:
+00:21]} Bb7+ {[%emt 0:01:05]} 39. Kf1 {[%emt 0:00:13]} Ba6+ {[%emt 0:00:01]}
+40. Kg2 {[%emt 0:00:07]} Bb7+ {[%emt 0:00:51]} 41. Kf1 {[%emt 0:00:52]} Ba6+ {
+[%emt 0:00:09]} 42. Kg2 Qf7 {[%emt 0:00:01]} 43. Qh6+ {[%emt 0:00:03]} Kg8 {
+[%emt 0:00:05]} 44. Bc2 {[%emt 0:00:15] Kf8} Qg6 {[%emt 0:00:02] Ke8 [%emt 00:
+00:02]} 45. Ba3 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "Platja d Aro"]
+[Date "2024.01.27"]
+[Round "2.8"]
+[White "Rovira Vila, Jaume"]
+[Black "Nadal Fajardo, Ricard"]
+[Result "1/2-1/2"]
+[ECO "A13"]
+[WhiteElo "2074"]
+[BlackElo "2025"]
+[PlyCount "82"]
+[EventDate "2024.??.??"]
+[TimeControl "90"]
+[WhiteClock "0:01:48"]
+[BlackClock "0:02:14"]
+
+1. Nf3 {[%emt 0:00:02]} Nf6 {[%emt 0:00:15]} 2. b3 {[%emt 0:00:27]} e6 {
+[%emt 0:02:30]} 3. Bb2 {[%emt 0:01:23]} d5 {[%emt 0:00:37]} 4. c4 {[%emt 0:00:
+19]} Be7 {[%emt 0:00:38]} 5. e3 {[%emt 0:01:45]} O-O {[%emt 0:00:33]} 6. Nc3 {
+[%emt 0:02:32]} b6 {[%emt 0:01:01]} 7. cxd5 {[%emt 0:03:06]} Nxd5 {[%emt 0:01:
+23]} 8. Nxd5 {[%emt 0:01:43]} Qxd5 {[%emt 0:03:00]} 9. Bc4 {[%emt 0:13:40]} Qd8
+{[%emt 0:11:07]} 10. Qc2 {[%emt 0:08:00]} Bb7 {[%emt 0:11:42]} 11. Bd3 {
+[%emt 0:08:39]} h6 {[%emt 0:04:16]} 12. Bh7+ {[%emt 0:00:36]} Kh8 {[%emt 0:00:
+20]} 13. Be4 {[%emt 0:00:08]} Bxe4 {[%emt 0:03:15]} 14. Qxe4 {[%emt 0:00:05]}
+Nd7 {[%emt 0:01:18]} 15. Qf4 {[%emt 0:15:28]} Bf6 {[%emt 0:01:34]} 16. Bxf6 {
+[%emt 0:01:29]} Qxf6 {[%emt 0:13:43]} 17. Qxf6 {[%emt 0:00:48]} gxf6 {[%emt 0:
+03:37]} 18. b4 {[%emt 0:09:26]} c5 {[%emt 0:00:49]} 19. a3 {[%emt 0:05:05]} a6
+{[%emt 0:19:29]} 20. Ke2 {[%emt 0:04:39]} b5 {[%emt 0:02:10]} 21. Rhc1 {
+[%emt 0:03:24]} Rfc8 {[%emt 0:04:27]} 22. d3 {[%emt 0:01:37]} a5 {[%emt 0:04:
+29]} 23. bxc5 {[%emt 0:03:18]} Nxc5 {[%emt 0:01:00]} 24. Nd4 {[%emt 0:08:48]}
+Rab8 {[%emt 0:00:21]} 25. Rab1 {[%emt 0:00:21]} Na4 {[%emt 0:03:26]} 26. Kd2 {
+[%emt 0:02:31]} Rxc1 {[%emt 0:00:50]} 27. Rxc1 {[%emt 0:00:16]} b4 {[%emt 0:00:
+25]} 28. axb4 {[%emt 0:03:34]} axb4 {[%emt 0:01:23]} 29. Rb1 {[%emt 0:00:50]}
+Rb6 {[%emt 0:02:14]} 30. Nb3 {[%emt 0:00:30]} Nc3 {[%emt 0:01:46]} 31. Ra1 {
+[%emt 0:00:13]} Kg7 {[%emt 0:00:14]} 32. Nc1 {[%emt 0:00:51]} Nd5 {[%emt 0:00:
+53]} 33. Nb3 {[%emt 0:00:21]} f5 {[%emt 0:01:16]} 34. d4 {[%emt 0:00:49]} Nc3 {
+[%emt 0:00:31]} 35. f3 {[%emt 0:00:06]} Nd5 {[%emt 0:00:31]} 36. g3 {[%emt 0:
+00:14]} Rc6 {[%emt 0:00:10]} 37. Rc1 {[%emt 0:01:08]} Ra6 {[%emt 0:00:27]} 38.
+Ra1 {[%emt 0:00:04]} Rc6 {[%emt 0:00:20]} 39. Rc1 {[%emt 0:00:09]} Ra6 {
+[%emt 0:00:14]} 40. Ra1 {[%emt 0:00:06]} Rc6 {[%emt 0:00:12]} 41. Nc5 {[%emt 0:
+00:39]} e5 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.02.10"]
+[Round "4.8"]
+[White "Rovira Vila, Jaume"]
+[Black "Gonzalez Garcia, Marc"]
+[Result "1/2-1/2"]
+[ECO "A06"]
+[WhiteElo "2257"]
+[BlackElo "2252"]
+[PlyCount "47"]
+[EventDate "2024.??.??"]
+
+1. Nf3 d5 2. b3 Bg4 3. Bb2 Bxf3 4. exf3 e6 5. g3 Nf6 6. Bg2 g6 7. Qe2 c6 8. O-O
+Bg7 9. d3 O-O 10. f4 c5 11. Nd2 Nc6 12. Nf3 Rc8 13. c4 dxc4 14. dxc4 Qc7 15.
+Rfd1 Rfd8 16. Bc3 Ne8 17. Ne5 Nxe5 18. fxe5 b6 19. f4 Rxd1+ 20. Rxd1 Rd8 21.
+Rd3 Rxd3 22. Qxd3 f6 23. exf6 Bxf6 24. Bf3 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.02.03"]
+[Round "3.8"]
+[White "Chalmeta Ugas, Jordi"]
+[Black "Rovira Vila, Jaume"]
+[Result "1/2-1/2"]
+[ECO "A90"]
+[WhiteElo "2297"]
+[BlackElo "2257"]
+[PlyCount "75"]
+[EventDate "2024.??.??"]
+
+1. d4 d5 2. c4 e6 3. Nf3 c6 4. Nbd2 f5 5. g3 Nf6 6. Bg2 Bd6 7. Ne5 O-O 8. O-O
+Nfd7 9. Nd3 Qe7 10. Qc2 b6 11. cxd5 cxd5 12. Nf3 Bb7 13. Bf4 Nc6 14. Bxd6 Qxd6
+15. e3 Ba6 16. Rfc1 Rfc8 17. Qd1 Bxd3 18. Qxd3 Ne7 19. Qd2 Rxc1+ 20. Rxc1 Rc8
+21. Bf1 Rxc1 22. Qxc1 Qc6 23. Qxc6 Nxc6 24. Bb5 Ndb8 25. Ng5 Nd8 26. h4 h6 27.
+Nh3 Kf7 28. Kf1 a6 29. Be2 Ndc6 30. Ke1 b5 31. Kd2 Ke7 32. Kc3 Kd6 33. Nf4 g5
+34. hxg5 hxg5 35. Nd3 Nd7 36. f3 e5 37. dxe5+ Ndxe5 38. f4 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.02.17"]
+[Round "5.7"]
+[White "Rovira Vila, Jaume"]
+[Black "Cano Sevilla, Ivan"]
+[Result "1/2-1/2"]
+[ECO "A06"]
+[WhiteElo "2257"]
+[BlackElo "2253"]
+[Annotator "https://lichess.org/@/Trust_None"]
+[PlyCount "55"]
+[EventDate "2024.04.13"]
+[EventType "team"]
+[EventRounds "11"]
+[EventCountry "CAT"]
+
+1. b3 d5 2. Bb2 c5 3. e3 Nf6 4. Nf3 Bf5 5. c4 dxc4 6. Bxc4 e6 7. O-O Be7 8. d4
+O-O 9. Nc3 Nc6 10. dxc5 Bxc5 11. h3 a6 12. Qe2 b5 13. Rfd1 Qb6 14. Bd3 Bxd3 15.
+Rxd3 Rfd8 16. Rad1 Rxd3 17. Rxd3 Rd8 18. Ng5 Rxd3 19. Qxd3 Ne5 20. Qe2 Qd6 21.
+Nge4 Nxe4 22. Nxe4 Qd3 23. Qxd3 Nxd3 24. Nxc5 Nxc5 25. Bc3 Ne4 26. Bb4 f5 27.
+f3 Nf6 28. Kf2 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.02.24"]
+[Round "6.8"]
+[White "Travesset Sagre, Jan"]
+[Black "Rovira Vila, Jaume"]
+[Result "1/2-1/2"]
+[ECO "D30"]
+[WhiteElo "2347"]
+[BlackElo "2257"]
+[Annotator "Abreu,Leonel"]
+[PlyCount "61"]
+[EventDate "2024.??.??"]
+
+1. d4 d5 2. c4 e6 3. Nf3 c6 4. Nbd2 f5 5. g3 Nd7 6. Bg2 Nh6 7. O-O Nf7 8. b3 g5
+9. Qc2 h5 10. Bb2 Bd6 11. cxd5 cxd5 12. Rac1 Nf6 13. Ne5 h4 14. Nxf7 Kxf7 15.
+Nf3 hxg3 16. hxg3 g4 17. Ne5+ Kg7 18. Qd2 Nh7 19. f3 gxf3 20. exf3 Ng5 21. f4
+Nh7 22. Bf3 Nf6 23. Kg2 Bd7 24. Rh1 Qe7 25. Rxh8 Rxh8 26. Rh1 Be8 27. Rxh8 Kxh8
+28. Qe2 Qg7 29. Qc2 Qc7 30. Qxc7 Bxc7 31. Ba3 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.03.02"]
+[Round "7.7"]
+[White "Boix Redorta, Roc"]
+[Black "Rovira Vila, Jaume"]
+[Result "1/2-1/2"]
+[ECO "B57"]
+[WhiteElo "1957"]
+[BlackElo "2076"]
+[PlyCount "141"]
+[EventDate "2024.??.??"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Bc4 Qb6 7. Nxc6 bxc6 8.
+O-O g6 9. h3 Bg7 10. Qd3 Nd7 11. Be3 Ne5 12. Qe2 Qa5 13. f4 Nxc4 14. Qxc4 Qa6
+15. Qd3 O-O 16. Rfd1 Rb8 17. Rab1 Qxd3 18. cxd3 Rb7 19. d4 Bd7 20. b3 Rfb8 21.
+Rbc1 a6 22. e5 Bf8 23. Kh2 f6 24. g4 dxe5 25. dxe5 fxe5 26. fxe5 Bg7 27. Bf4
+Rf8 28. Bg3 Be6 29. Ne4 Bd5 30. Nc5 Ra7 31. Rf1 Rxf1 32. Rxf1 a5 33. Re1 h6 34.
+h4 Ra8 35. Bf4 Rb8 36. Kg3 Rb5 37. Na4 Be6 38. g5 hxg5 39. hxg5 Bf5 40. Nc3 Rc5
+41. Re3 Kf7 42. Ne2 Rd5 43. Kf3 c5 44. Bg3 Rd3 45. Rxd3 Bxd3 46. e6+ Ke8 47.
+Nf4 Bb1 48. a4 Bc2 49. Be1 Bxb3 50. Bxa5 Bxa4 51. Nxg6 Bb3 52. Nf4 Be5 53. Nd3
+Bd5+ 54. Ke2 Bd6 55. Ke3 Bxe6 56. Bc3 Bf5 57. Nf4 Kf7 58. Nd5 Kg6 59. Nb6 Be6
+60. Ke4 Kxg5 61. Bd2+ Kg4 62. Be3 Kg3 63. Na4 c4 64. Nc3 Bf7 65. Bd4 Bg6+ 66.
+Kd5 Bf7+ 67. Ke4 Bg6+ 68. Kd5 Bd3 69. Nd1 Bf4 70. Nb2 Kf3 71. Nxc4 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "Sabadell"]
+[Date "2024.03.09"]
+[Round "8.7"]
+[White "Fernandez Aguado, Enrique"]
+[Black "Rovira Vila, Jaume"]
+[Result "1-0"]
+[ECO "A13"]
+[WhiteElo "2280"]
+[BlackElo "2076"]
+[PlyCount "53"]
+[EventDate "2024.03.16"]
+[TimeControl "90+30"]
+[WhiteClock "0:01:05"]
+[BlackClock "0:34:41"]
+
+1. Nf3 {[%emt 0:00:02]} d5 {[%emt 0:02:06]} 2. c4 {[%emt 0:00:12]} e6 {[%emt 0:
+00:32]} 3. g3 {[%emt 0:01:11]} d4 {[%emt 0:00:30]} 4. Bg2 {[%emt 0:00:22]} Nc6
+{[%emt 0:00:16]} 5. O-O {[%emt 0:01:02]} Bc5 {[%emt 0:00:08]} 6. d3 {[%emt 0:
+01:02]} Nf6 {[%emt 0:00:10]} 7. Na3 {[%emt 0:03:22]} O-O {[%emt 0:00:00]} 8.
+Nc2 {[%emt 0:00:00]} a5 {[%emt 0:02:42]} 9. a3 {[%emt 0:00:59]} a4 {[%emt 0:05:
+01]} 10. Bd2 {[%emt 0:00:40]} Qd6 {[%emt 0:03:04]} 11. Nb4 {[%emt 0:14:25]} Bd7
+{[%emt 0:10:04]} 12. b3 {[%emt 0:07:14]} axb3 {[%emt 0:18:50]} 13. Qxb3 {
+[%emt 0:00:43]} e5 {[%emt 0:00:39]} 14. Nd5 {[%emt 0:06:41]} Ra7 {[%emt 0:22:
+35]} 15. Ng5 {[%emt 0:03:30]} Rfa8 {[%emt 0:03:37]} 16. f4 {[%emt 0:03:19]}
+Rxa3 {[%emt 0:09:03]} 17. Rxa3 {[%emt 0:00:00]} Rxa3 {[%emt 0:00:00]} 18. Qxb7
+{[%emt 0:00:00]} Ra7 {[%emt 0:00:00]} 19. Qb5 {[%emt 0:00:00]} Nxd5 {[%emt 0:
+00:00]} 20. Nxf7 {[%emt 0:00:00]} Nd8 {[%emt 0:00:00]} 21. Nxd6 {[%emt 0:00:00]
+} Bxb5 {[%emt 0:00:00]} 22. Bxd5+ {[%emt 0:00:00]} Kh8 {[%emt 0:00:00]} 23.
+Nxb5 {[%emt 0:00:00]} Ra2 {[%emt 0:42:20]} 24. fxe5 {[%emt 0:01:55]} Rxd2 {
+[%emt 0:00:34]} 25. Nd6 {[%emt 0:00:22]} g5 {[%emt 0:01:55]} 26. Rf8+ {[%emt 0:
+00:18]} Kg7 {[%emt 0:00:03]} 27. Rg8+ {[%emt 0:00:16]} 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.03.16"]
+[Round "9.7"]
+[White "ROVIRA VILA, JAUME."]
+[Black "HERNANDO RODRIGO, JULIO ANTONIO."]
+[Result "1/2-1/2"]
+[ECO "A06"]
+[WhiteElo "2257"]
+[BlackElo "2298"]
+[PlyCount "94"]
+[EventDate "2024.04.13"]
+[EventType "team"]
+[EventRounds "11"]
+[EventCountry "CAT"]
+
+1. Nf3 d5 2. b3 Nf6 3. Bb2 Bf5 4. d3 c5 5. Nbd2 Nc6 6. g3 Qc7 7. Nh4 Bg4 8. h3
+Bh5 9. g4 Bg6 10. Bg2 e6 11. e3 Be7 12. Qe2 d4 13. Bxc6+ Qxc6 14. Ndf3 Nd5 15.
+Nxg6 hxg6 16. a4 g5 17. Kd2 Nc3 18. Bxc3 dxc3+ 19. Ke1 O-O-O 20. Kf1 f5 21. Kg2
+Rhf8 22. e4 fxg4 23. hxg4 Qc7 24. Ng1 Bf6 25. Rf1 Bd4 26. Nh3 Qe5 27. f3 Rh8
+28. Qe1 Qf6 29. Qc1 Be5 30. Qe3 b6 31. Nf2 Bf4 32. Qe2 Rh6 33. Rh3 e5 34. Rfh1
+Bd2 35. Nd1 Rdh8 36. Ne3 Rxh3 37. Rxh3 Rxh3 38. Kxh3 Bxe3 39. Qxe3 Qf4 40. Qxf4
+exf4 41. Kg2 Kd7 42. Kf2 Kd6 43. d4 cxd4 44. Ke2 a6 45. Kd3 Ke5 46. Ke2 Kd6 47.
+Kd3 Ke5 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.04.13"]
+[Round "11.7"]
+[White "ROVIRA VILA, JAUME."]
+[Black "HAPALA, ELISABETH."]
+[Result "1/2-1/2"]
+[ECO "A01"]
+[WhiteElo "2257"]
+[BlackElo "2181"]
+[PlyCount "82"]
+[EventDate "2024.04.13"]
+[EventType "team"]
+[EventRounds "11"]
+[EventCountry "CAT"]
+
+1. b3 e5 2. Bb2 Nc6 3. c4 Nf6 4. e3 d5 5. cxd5 Nxd5 6. a3 Bd6 7. Nc3 Be6 8. Nf3
+O-O 9. Qc2 Kh8 10. h4 f5 11. Ng5 Bg8 12. Nxd5 Bxd5 13. Bc4 Bxc4 14. Qxc4 Qe7
+15. g4 Rae8 16. b4 a5 17. b5 Nb8 18. gxf5 Rxf5 19. Qg4 Ref8 20. Qh5 g6 21. Qg4
+Nd7 22. Rh2 Nf6 23. Qc4 e4 24. Rg2 Be5 25. Bxe5 Rxe5 26. Rc1 Qxa3 27. Qxc7 Re7
+28. Qc4 Rd8 29. Rc2 Qa1+ 30. Ke2 Rf8 31. Ne6 Rfe8 32. Nf4 Re5 33. Qf7 R5e7 34.
+Qc4 Re5 35. Rc3 Kg7 36. Qd4 R8e7 37. Rg5 Nd7 38. Rxe5 Nxe5 39. Nd5 Qh1 40. Nxe7
+Qf3+ 41. Ke1 Qh1+ 1/2-1/2
+
+[Event "Ct. Girona indiv. Absolut"]
+[Site "Sant Gregori/Girona/Blanes"]
+[Date "2014.10.12"]
+[Round "2"]
+[White "Rovira Vila, J."]
+[Black "Diaz Muñoz, S."]
+[Result "0-1"]
+[ECO "B48"]
+[WhiteElo "1949"]
+[BlackElo "2172"]
+[PlyCount "72"]
+[EventDate "2014.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qd2 Bb4 8. a3
+Bxc3 9. Qxc3 Nf6 10. f3 O-O 11. O-O-O d5 12. Nxc6 bxc6 13. Bc5 Rd8 14. e5 Nd7
+15. Bd6 Qb6 16. Qb3 Qxb3 17. cxb3 f6 18. f4 Kf7 19. g3 a5 20. Kb1 Bb7 21. Bg2
+Rdc8 22. Rc1 c5 23. Rhd1 a4 24. bxa4 Rxa4 25. Re1 Ba6 26. Bh3 Bd3+ 27. Ka1 Be4
+28. f5 exf5 29. exf6 Kxf6 30. g4 Rc6 31. Bg3 g6 32. gxf5 gxf5 33. Rf1 Ne5 34.
+Rxf5+ Bxf5 35. Rf1 Ng4 36. Bh4+ Kg6 0-1
+
+[Event "Ct. Girona indiv. Absolut"]
+[Site "Sant Gregori/Girona/Blanes"]
+[Date "2014.11.09"]
+[Round "6"]
+[White "Gonzalez Escudero, J."]
+[Black "Rovira Vila, J."]
+[Result "1-0"]
+[ECO "B27"]
+[WhiteElo "1992"]
+[BlackElo "1949"]
+[PlyCount "49"]
+[EventDate "2014.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 g6 3. d4 cxd4 4. c3 Bg7 5. Bc4 dxc3 6. Nxc3 h6 7. O-O Nc6 8. e5
+Nxe5 9. Nxe5 Bxe5 10. Qd5 Bxh2+ 11. Kxh2 e6 12. Qd4 Rh7 13. Kg1 h5 14. Ne4 d5
+15. Bb5+ Bd7 16. Bg5 Qb8 17. Bxd7+ Kxd7 18. Nc5+ Ke8 19. Rfe1 b6 20. Nxe6 fxe6
+21. Rxe6+ Kf8 22. Qxd5 Qb7 23. Bh6+ Nxh6 24. Rf6+ Rf7 25. Qxb7 1-0

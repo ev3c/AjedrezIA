@@ -1,0 +1,592 @@
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.17"]
+[Round "5"]
+[White "Monroy Garzon, Nataly Alejandra"]
+[Black "Ventura Bolet, Maxim"]
+[Result "0-1"]
+[ECO "D28"]
+[WhiteElo "1947"]
+[BlackElo "2262"]
+[PlyCount "132"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 dxc4 3. Nf3 Nf6 4. e3 e6 5. Bxc4 a6 6. Qe2 b5 7. Bd3 Bb7 8. O-O
+c5 9. dxc5 Nc6 10. Rd1 Qc7 11. a3 Bxc5 12. b4 Bd6 13. Bb2 Ng4 14. h3 Nge5 15.
+Nxe5 Nxe5 16. Nd2 Nxd3 17. Qxd3 Rd8 18. Qc3 Qxc3 19. Bxc3 Rc8 20. Rac1 Ke7 21.
+e4 Bf4 22. g3 Bxd2 23. Bxd2 Bxe4 24. Re1 Bd5 25. Be3 Rc4 26. Bc5+ Kd7 27. Rxc4
+bxc4 28. f4 Kc6 29. Kf2 h6 30. Ke3 f5 31. Bd4 Rg8 32. Re2 Kb5 33. Bc5 g5 34.
+Rc2 Rd8 35. Rc3 Rg8 36. Bd6 a5 37. bxa5 Kxa5 38. Be5 Ka4 39. Bd6 Rd8 40. Be5
+Rd7 41. Bb8 Rb7 42. Bd6 Rb2 43. Bf8 gxf4+ 44. gxf4 h5 45. Bd6 Rb7 46. Bf8 Rb8
+47. Bc5 Rg8 48. Bd6 Rg7 49. Bc5 Kb5 50. Bf8 Rg8 51. Bd6 Be4 52. Be7 Bd3 53. Bg5
+Kc5 54. Kf3 Rg6 55. Ke3 Kd5 56. h4 e5 57. fxe5 Kxe5 58. a4 Kd5 59. a5 Re6+ 60.
+Kd2 Re2+ 61. Kd1 Ra2 62. Bd8 f4 63. Bb6 f3 64. Ke1 Ke4 65. Rc1 Kf4 66. Bf2 Re2+
+0-1
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.18"]
+[Round "6"]
+[White "Ventura Bolet, Maxim"]
+[Black "Deaconu, Mihai Ionut"]
+[Result "1/2-1/2"]
+[ECO "E63"]
+[WhiteElo "2262"]
+[BlackElo "1965"]
+[PlyCount "93"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. Nf3 g6 2. g3 Bg7 3. d4 Nf6 4. Bg2 O-O 5. c4 d6 6. Nc3 Nc6 7. O-O a6 8. d5
+Na5 9. b3 c5 10. dxc6 Nxc6 11. Bb2 Rb8 12. Rc1 Bf5 13. Nh4 Be6 14. Qd2 Qa5 15.
+Rfd1 Rfc8 16. Na4 Qxd2 17. Rxd2 g5 18. Nf3 Ne4 19. Rdd1 b5 20. cxb5 axb5 21.
+Nc3 g4 22. Ne1 Nxc3 23. Bxc3 Bxc3 24. Rxc3 Nb4 25. Rxc8+ Rxc8 26. a3 Nc2 27. a4
+Bxb3 28. axb5 Nxe1 29. Rxe1 d5 30. Rb1 Bc4 31. e4 Bd3 32. Re1 dxe4 33. Bxe4
+Bxb5 34. Bf5 Rc4 35. Bd3 Rb4 36. Bxb5 Rxb5 37. Rxe7 Kg7 38. Kg2 Kg6 39. h3 h5
+40. Re4 Kg5 41. Ra4 Rf5 42. h4+ Kg6 43. Ra8 Kg7 44. Ra6 Rb5 45. Kf1 Re5 46. Rb6
+f6 47. Kg2 1/2-1/2
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.19"]
+[Round "7"]
+[White "Amer, Said Salim Al Maash"]
+[Black "Ventura Bolet, Maxim"]
+[Result "1-0"]
+[ECO "B28"]
+[WhiteElo "2025"]
+[BlackElo "2262"]
+[PlyCount "65"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 a6 3. g3 b5 4. Bg2 Bb7 5. Qe2 e6 6. O-O d6 7. d4 cxd4 8. Nxd4
+Nd7 9. a4 b4 10. c3 bxc3 11. Nxc3 Be7 12. Rd1 Qb8 13. Nd5 exd5 14. exd5 Kf8 15.
+Nc6 Qc7 16. Be3 a5 17. Rac1 Nc5 18. Rxc5 dxc5 19. Nxe7 Nf6 20. d6 Qd7 21. Bxb7
+Qxb7 22. Bxc5 Qd7 23. Nc6 Kg8 24. Ne5 Qe6 25. Qf3 Rd8 26. Nc6 Rd7 27. Ne7+ Kf8
+28. Qa8+ Ne8 29. Nd5 Qe2 30. Rd4 Qf3 31. Qc8 Qf5 32. Nc7 g6 33. Nxe8 1-0
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.20"]
+[Round "8"]
+[White "Ventura Bolet, Maxim"]
+[Black "Advait, Bagri"]
+[Result "1-0"]
+[ECO "A17"]
+[WhiteElo "2262"]
+[BlackElo "1772"]
+[PlyCount "51"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. Nf3 Nf6 2. c4 e6 3. Nc3 d5 4. e3 a6 5. Qc2 c6 6. b3 Bd6 7. d4 b5 8. Bd3 Bb7
+9. O-O Nbd7 10. Bb2 O-O 11. c5 Bc7 12. b4 h6 13. Rfe1 Re8 14. a4 e5 15. Nxe5
+Bxe5 16. dxe5 Nxe5 17. Ne2 Qc7 18. h3 Rad8 19. Nd4 Nc4 20. Nf5 Nxb2 21. Qxb2
+Qe5 22. Qxe5 Rxe5 23. Nd6 Ba8 24. axb5 axb5 25. Ra7 Rf8 26. Rea1 1-0
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.21"]
+[Round "9.43"]
+[White "Garcia Espelta, Josep"]
+[Black "Ventura Bolet, Maxim"]
+[Result "1/2-1/2"]
+[ECO "B12"]
+[WhiteElo "2052"]
+[BlackElo "2262"]
+[PlyCount "75"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c6 2. d4 d5 3. e5 g6 4. c3 Bg7 5. Bf4 a5 6. Bd3 Qb6 7. Qb3 Qc7 8. Ne2 e6
+9. Nd2 Ne7 10. O-O Nd7 11. c4 Qd8 12. c5 f6 13. exf6 Bxf6 14. Nf3 O-O 15. Bd6
+Bg7 16. Nf4 Rf6 17. Ng5 Nf8 18. Be5 Rxf4 19. Bxf4 Bxd4 20. Bd6 Nf5 21. Nf3 Nxd6
+22. Nxd4 Nf7 23. f4 Qe7 24. Qc3 Nd7 25. Rac1 e5 26. fxe5 Ndxe5 27. Rce1 Qg5 28.
+Nf3 Nxf3+ 29. Rxf3 Bg4 30. Rfe3 Rf8 31. Re7 Bf3 32. Bf1 Be4 33. Rxb7 Ne5 34.
+Qg3 Qd2 35. Re2 Qc1 36. Re1 Qd2 37. Re2 Qc1 38. Re1 1/2-1/2
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.19"]
+[Round "2"]
+[White "Ventura Bolet, Maxim"]
+[Black "Rios, Cristhian Camilo"]
+[Result "1/2-1/2"]
+[ECO "A13"]
+[WhiteElo "2228"]
+[BlackElo "2475"]
+[PlyCount "137"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. Nf3 Nf6 2. c4 e6 3. g3 a6 4. Bg2 b5 5. O-O bxc4 6. Ne5 d5 7. Nxc4 c5 8. d3
+Be7 9. Qa4+ Bd7 10. Qa5 Nc6 11. Qxd8+ Bxd8 12. Nca3 Nd4 13. e3 Ne2+ 14. Kh1
+Nxc1 15. Rxc1 Rb8 16. b3 Be7 17. h3 a5 18. Nc2 a4 19. Nd2 O-O 20. Rab1 axb3 21.
+axb3 Bb5 22. Bf1 Nd7 23. d4 Bxf1 24. Rxf1 cxd4 25. Nxd4 Rb6 26. Rfc1 Nc5 27.
+Kg2 Rfb8 28. N2f3 f6 29. b4 Nd3 30. Rc3 Nxb4 31. Rcb3 Kf7 32. Nc2 Bc5 33. Nxb4
+Bxb4 34. Nd4 e5 35. Ne2 Bc5 36. Rxb6 Bxb6 37. Nc1 Ke6 38. Nd3 Kd6 39. g4 Rb7
+40. Rb2 Kc6 41. Rc2+ Kb5 42. Rc8 Bc7 43. Kf1 Kc6 44. h4 Kd6 45. Kg2 h6 46. h5
+Ke7 47. Rg8 Kf7 48. Rc8 Bd6 49. Rd8 Ke7 50. Rg8 Ke6 51. Re8+ Be7 52. Nc5+ Kf7
+53. Nxb7 Kxe8 54. Na5 Kf7 55. Nb3 f5 56. Kg3 fxg4 57. Kxg4 Kf6 58. e4 d4 59.
+Nc1 g6 60. Nd3 gxh5+ 61. Kxh5 Bf8 62. Ne1 Ke6 63. Nd3 Kf6 64. Ne1 Kf7 65. Nd3
+Ke6 66. Kg6 Kd6 67. Kf5 Bg7 68. Kg6 Bf8 69. Kf5 1/2-1/2
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.20"]
+[Round "3"]
+[White "Ventura Bolet, Maxim"]
+[Black "Ramesh, R."]
+[Result "1/2-1/2"]
+[ECO "A13"]
+[WhiteElo "2228"]
+[BlackElo "2470"]
+[PlyCount "60"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. Nf3 Nf6 2. c4 e6 3. g3 d5 4. Bg2 d4 5. O-O c5 6. e3 Nc6 7. exd4 cxd4 8. d3
+Bd6 9. Bg5 h6 10. Bxf6 Qxf6 11. Nbd2 Qd8 12. Re1 O-O 13. a3 a5 14. Rc1 e5 15.
+c5 Bc7 16. Nc4 Re8 17. b4 axb4 18. axb4 Nxb4 19. Nfxe5 Na2 20. Ra1 Bxe5 21.
+Nxe5 Nc3 22. Qh5 g6 23. Nxg6 Rxa1 24. Rxa1 Qg5 25. Nf4 Ne2+ 26. Kh1 Nxf4 27.
+Qxg5+ hxg5 28. gxf4 gxf4 29. Be4 Kg7 30. Kg2 Re5 1/2-1/2
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.21"]
+[Round "4"]
+[White "Collins, Sam E"]
+[Black "Ventura Bolet, Maxim"]
+[Result "1/2-1/2"]
+[ECO "D20"]
+[WhiteElo "2443"]
+[BlackElo "2228"]
+[PlyCount "184"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 dxc4 3. e4 Nf6 4. e5 Nd5 5. Bxc4 Nb6 6. Bb3 Nc6 7. Ne2 Bf5 8.
+Nbc3 e6 9. O-O Be7 10. Be3 O-O 11. a3 Qd7 12. Bc2 Bg6 13. Bxg6 hxg6 14. Qc2 Nc4
+15. Ne4 Nxe3 16. fxe3 Rac8 17. Rad1 Nb8 18. N2c3 c6 19. Rf3 Qe8 20. g4 c5 21.
+g5 cxd4 22. exd4 Qd8 23. Qg2 Rc4 24. Rfd3 Nc6 25. b3 Rxc3 26. Nxc3 Bxg5 27. Ne4
+Bh6 28. Nd6 Qh4 29. Kh1 Ne7 30. Nxb7 Nd5 31. Qg3 Qe4+ 32. Qf3 Qh4 33. Qg3 Qe4+
+34. Qf3 Qh4 35. Nd6 Nf4 36. Qg3 Qd8 37. Rf3 Qa8 38. h4 Qc6 39. Rdf1 Qd5 40. Kh2
+Ne2 41. Qf2 Nxd4 42. Rxf7 Qxe5+ 43. Kh3 Nf5 44. Rxf8+ Kxf8 45. Nc4 Qe4 46. Re1
+Qd3+ 47. Kg2 Kg8 48. Ne5 Qd5+ 49. Nf3 Qxb3 50. Qxa7 Qb2+ 51. Kh3 Qb3 52. Qa8+
+Kh7 53. a4 Nd4 54. Kg4 Nxf3 55. Qxf3 Qxa4+ 56. Qe4 Qxe4+ 57. Rxe4 Bd2 58. Rxe6
+Bc3 59. Re8 Bf6 60. Rf8 Bc3 61. Kg5 Bf6+ 62. Kg4 Bc3 63. Rc8 Bf6 64. Rc4 Bb2
+65. Rc6 Bd4 66. Ra6 Bc3 67. Ra3 Bb2 68. Rh3 Bf6 69. Rh1 Bc3 70. h5 gxh5+ 71.
+Rxh5+ Kg6 72. Rg5+ Kf7 73. Kf5 Bf6 74. Rg6 Ke7 75. Rg2 Kf7 76. Rg4 Kf8 77. Kg6
+Ke7 78. Re4+ Kf8 79. Re3 Bd4 80. Rd3 Bf6 81. Rd7 Ke8 82. Rb7 Kf8 83. Rf7+ Ke8
+84. Rb7 Kf8 85. Rc7 Ke8 86. Kf5 Kf8 87. Kg6 Ke8 88. Rf7 Bc3 89. Ra7 Bf6 90. Kh7
+Kf8 91. Rb7 Be5 92. Kg6 Bf6 1/2-1/2
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.22"]
+[Round "5"]
+[White "Ventura Bolet, Maxim"]
+[Black "Schroeder, Jan Christian"]
+[Result "0-1"]
+[ECO "A13"]
+[WhiteElo "2228"]
+[BlackElo "2539"]
+[PlyCount "86"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. Nf3 d5 2. e3 Nf6 3. c4 e6 4. b3 b6 5. Bb2 Bb7 6. Nc3 Nbd7 7. cxd5 exd5 8. d4
+Bd6 9. g3 O-O 10. Bg2 Ba6 11. Bf1 Bxf1 12. Kxf1 c6 13. Kg2 Qe7 14. Qc2 Rac8 15.
+Rhd1 Rfe8 16. Rac1 Qe6 17. a3 Ne4 18. Qe2 Ndf6 19. Rc2 Nxf2 20. Qxf2 Ng4 21.
+Qe2 Nxe3+ 22. Kg1 Qg6 23. Rcd2 Bxg3 24. hxg3 Qxg3+ 25. Kh1 Nxd1 26. Qxd1 Re3
+27. Ng1 Re1 28. Rg2 Qh3+ 29. Rh2 Rxd1 30. Rxh3 Rxd4 31. Nf3 Rd3 32. Rg3 Re8 33.
+Na4 g6 34. Kg2 Re2+ 35. Kf1 Ree3 36. Kf2 Rxb3 37. Bd4 Red3 38. Nb2 Rxd4 39.
+Nxd4 Rxb2+ 40. Kf1 c5 41. Nc6 d4 42. Nxa7 c4 43. Nc6 c3 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.01.20"]
+[Round "1.4"]
+[White "Ventura Bolet, Maxim"]
+[Black "Garrido Fernandez, Daniel"]
+[Result "1/2-1/2"]
+[ECO "A37"]
+[WhiteElo "2233"]
+[BlackElo "2278"]
+[PlyCount "77"]
+[EventDate "2024.??.??"]
+[WhiteTeam "Vila Olímpica"]
+[BlackTeam "Foment A"]
+
+1. Nf3 c5 2. c4 g6 3. g3 Bg7 4. Bg2 Nc6 5. Nc3 e6 6. d4 cxd4 7. Nb5 d5 8. cxd5
+exd5 9. Nbxd4 Nge7 10. O-O O-O 11. b3 Bg4 12. Bb2 Qd7 13. Qd2 Rfe8 14. Rfe1
+Rac8 15. Rad1 Nb8 16. Qd3 Na6 17. Qb1 Nc5 18. Nd2 Nf5 19. Nxf5 Bxf5 20. Qa1 Bh6
+21. Nc4 Ne4 22. Ne5 Qe6 23. Nf3 Bg4 24. Qb1 Nc3 25. Bxc3 Rxc3 26. Nd4 Qd7 27.
+Rd3 Rec8 28. Rxc3 Rxc3 29. Qb2 Rc5 30. e3 Bg7 31. Rc1 b6 32. b4 Rc4 33. Bf1
+Bxd4 34. exd4 Rxc1 35. Qxc1 Qa4 36. Qf4 Be6 37. Qb8+ Kg7 38. Qe5+ Kg8 39. Qb8+
+1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.01.27"]
+[Round "2.3"]
+[White "Ventura Bolet, Maxim"]
+[Black "Sanchez Aguilar, Arnau"]
+[Result "1/2-1/2"]
+[ECO "A13"]
+[WhiteElo "2350"]
+[BlackElo "2320"]
+[Annotator "Daniel"]
+[PlyCount "111"]
+[EventDate "2024.??.??"]
+[WhiteTeam "Vila Olímpica"]
+[BlackTeam "Llinars"]
+
+1. Nf3 e6 2. c4 d5 3. e3 Nf6 4. b3 Bd6 5. Bb2 O-O 6. Nc3 a6 7. Be2 b6 8. O-O
+Bb7 9. Qc2 Nbd7 10. Rac1 Rc8 11. Rfd1 Qe7 12. d3 c5 13. cxd5 exd5 14. d4 cxd4
+15. exd4 Ne4 16. Bf1 Bf4 17. Rb1 Ndf6 18. g3 Bd6 19. Bh3 Rc7 20. Qd3 Ba3 21.
+Ne2 Bc8 22. Bxc8 Rfxc8 23. Ne5 Bxb2 24. Rxb2 Qa3 25. Qb1 h6 26. f3 Nc3 27. Nxc3
+Rxc3 28. Nd3 Qe7 29. Re1 Qc7 30. Qd1 a5 31. Kf2 Qd7 32. Rd2 h5 33. Re5 h4 34.
+Kg2 h3+ 35. Kf2 a4 36. bxa4 Ra3 37. Rc2 Rxc2+ 38. Qxc2 Rxa4 39. Qb2 Qc6 40. Nf4
+Qc4 41. Ne2 Rxa2 42. Qxb6 Ne4+ 43. Rxe4 dxe4 44. Qd8+ Kh7 45. Qh4+ Kg6 46.
+Qxe4+ f5 47. Qe8+ Qf7 48. Qe3 Qc4 49. Qe8+ Qf7 50. Qe3 Kh7 51. Qd3 Qd5 52. Qe3
+Qc4 53. Qe5 Qd3 54. g4 fxg4 55. Qh5+ Kg8 56. Qe8+ 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.02.03"]
+[Round "3.3"]
+[White "RIBERA VEGANZONES, SERNI."]
+[Black "VENTURA BOLET, MAXIM."]
+[Result "1-0"]
+[ECO "B40"]
+[WhiteElo "2429"]
+[BlackElo "2350"]
+[Annotator "User"]
+[PlyCount "85"]
+[EventDate "2024.??.??"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Qb6 5. Nc3 Bc5 6. Na4 Qa5+ 7. c3 Bxd4 8.
+Qxd4 Nf6 9. Nc5 Nc6 10. Qe3 b6 11. Nb3 Qa4 12. Nd2 Ba6 13. b3 Qa5 14. Bxa6 Qxa6
+15. Bb2 O-O 16. c4 e5 17. O-O d6 18. Nb1 Rfe8 19. Nc3 Nd4 20. Rad1 Rad8 21. f4
+Qc8 22. Kh1 Ne6 23. f5 Nc5 24. b4 Nb7 25. Qd3 Rd7 26. Nd5 Nxd5 27. cxd5 f6 28.
+Rc1 Rc7 29. Rxc7 Qxc7 30. Rc1 Qd7 31. Qc4 Kf7 32. Qc6 Ke7 33. Rc3 Rd8 34. h3
+Kf8 35. Bc1 Qf7 36. Be3 Qe7 37. Ra3 Rb8 38. Rxa7 Nd8 39. Qa4 Rb7 40. Bxb6 Rxa7
+41. Qxa7 Nb7 42. Qb8+ Kf7 43. Bc7 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.02.10"]
+[Round "4.3"]
+[White "Ventura Bolet, Maxim"]
+[Black "Lorenzo De la Riva, Lazaro"]
+[Result "1-0"]
+[ECO "A85"]
+[WhiteElo "2350"]
+[BlackElo "2477"]
+[Annotator "Daniel"]
+[PlyCount "77"]
+[EventDate "2024.??.??"]
+[WhiteTeam "Vila Olimpica"]
+[BlackTeam "Barbera"]
+
+1. Nf3 b6 2. g3 Bb7 3. Bg2 f5 4. O-O Nf6 5. c4 g6 6. d4 Bg7 7. d5 O-O 8. Nc3
+Qe8 9. Bf4 Na6 10. Rb1 h6 11. b4 g5 12. Be5 c5 13. b5 Nb8 14. d6 e6 15. e3 a6
+16. Nd2 Bxg2 17. Kxg2 h5 18. Nf3 Qg6 19. h4 gxh4 20. Nxh4 Qf7 21. Qf3 Ra7 22.
+a4 Ng4 23. Bxg7 Qxg7 24. a5 axb5 25. axb6 Ra3 26. Nxb5 Ra4 27. Nc7 Rxc4 28.
+Rfc1 Nxe3+ 29. Qxe3 Rxh4 30. Rxc5 Rg4 31. Nxe6 dxe6 32. Qxe6+ Kh7 33. Rc7 Re4
+34. Rxg7+ Kxg7 35. Qd5 Ree8 36. b7 Nd7 37. Rc1 Kg6 38. Rc8 Nf6 39. Qc6 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.02.17"]
+[Round "5.4"]
+[White "Ventura Bolet, Maxim"]
+[Black "Jimenez Ruano, Adrian"]
+[Result "1-0"]
+[ECO "A13"]
+[WhiteElo "2350"]
+[BlackElo "2416"]
+[Annotator "https://lichess.org/@/Trust_None"]
+[PlyCount "127"]
+[EventDate "2024.04.13"]
+[EventType "team"]
+[EventRounds "11"]
+[EventCountry "CAT"]
+
+1. Nf3 d5 2. e3 Nf6 3. c4 e6 4. b3 Bd6 5. Bb2 O-O 6. Nc3 a6 7. g3 c5 8. Bg2 Nc6
+9. cxd5 Nb4 10. d4 Nbxd5 11. Nxd5 Nxd5 12. O-O cxd4 13. Qxd4 f6 14. a3 Qe7 15.
+Rfd1 Bc5 16. Qd3 Bb6 17. e4 Nc7 18. a4 Bc5 19. Rac1 e5 20. Nh4 g6 21. Qc4+ Ne6
+22. Nf5 Qc7 23. b4 gxf5 24. exf5 Bb6 25. Qb3 Qe7 26. Bd5 Re8 27. Rxc8 Raxc8 28.
+Bxe6+ Kh8 29. Bxc8 Rxc8 30. Qe6 Qxe6 31. fxe6 Kg8 32. Bc1 Bd4 33. Be3 Rc4 34.
+Bxd4 exd4 35. Rb1 Kf8 36. f4 f5 37. a5 d3 38. Rd1 Rxb4 39. Rxd3 Ke7 40. Rd7+
+Kxe6 41. Rxh7 Rb5 42. h4 Kf6 43. h5 Rb2 44. Rc7 Rb1+ 45. Kg2 Rb2+ 46. Kh3 Rb1
+47. Kg2 Rb2+ 48. Kf3 Rb3+ 49. Kg2 Rb2+ 50. Kf1 Rb3 51. Ke2 Ra3 52. Rxb7 Rxa5
+53. Kd3 Ra3+ 54. Kd4 a5 55. Rb6+ Kg7 56. Rg6+ Kh7 57. Ke5 Re3+ 58. Kxf5 a4 59.
+g4 a3 60. Ra6 Rb3 61. Ra7+ Kg8 62. g5 Rb5+ 63. Kg4 Rb3 64. h6 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "Barcelona"]
+[Date "2024.02.24"]
+[Round "6.3"]
+[White "Barseghyan, Harutyun"]
+[Black "Ventura Bolet, Maxim"]
+[Result "1-0"]
+[ECO "D02"]
+[WhiteElo "2430"]
+[BlackElo "2231"]
+[PlyCount "91"]
+[EventDate "2024.??.??"]
+[TimeControl "90+30"]
+[WhiteClock "0:00:35"]
+[BlackClock "0:12:06"]
+
+1. d4 {[%emt 0:00:04]} d5 {[%emt 0:00:07]} 2. Nf3 {[%emt 0:00:08]} e6 {[%emt 0:
+00:49]} 3. Bf4 {[%emt 0:02:41]} Nf6 {[%emt 0:00:32]} 4. e3 {[%emt 0:00:12]} c5
+{[%emt 0:00:17]} 5. c3 {[%emt 0:02:15]} Nc6 {[%emt 0:00:39]} 6. Nbd2 {[%emt 0:
+00:08]} cxd4 {[%emt 0:00:42]} 7. exd4 {[%emt 0:00:07]} Nh5 {[%emt 0:00:05]} 8.
+Bg3 {[%emt 0:02:44]} g6 {[%emt 0:04:19]} 9. Ne5 {[%emt 0:05:58]} Bg7 {[%emt 0:
+04:37]} 10. Bb5 {[%emt 0:06:02]} Bd7 {[%emt 0:04:33]} 11. Bxc6 {[%emt 0:02:15]}
+Bxc6 {[%emt 0:00:58]} 12. O-O {[%emt 0:00:19]} Nxg3 {[%emt 0:01:29]} 13. hxg3 {
+[%emt 0:00:34]} Rc8 {[%emt 0:05:54]} 14. Re1 {[%emt 0:02:41]} O-O {[%emt 0:01:
+17]} 15. f4 {[%emt 0:05:32]} Be8 {[%emt 0:11:35]} 16. Ndf3 {[%emt 0:04:53]} Qd6
+{[%emt 0:04:39]} 17. Re3 {[%emt 0:05:23]} a5 {[%emt 0:07:23]} 18. Qd2 {[%emt 0:
+01:37]} b6 {[%emt 0:05:40]} 19. Rae1 {[%emt 0:00:19]} Bb5 {[%emt 0:01:34]} 20.
+g4 {[%emt 0:12:58]} f6 {[%emt 0:07:00]} 21. Nd3 {[%emt 0:00:43]} Rce8 {[%emt 0:
+01:10]} 22. g5 {[%emt 0:10:10]} Bxd3 {[%emt 0:05:47]} 23. Rxd3 {[%emt 0:00:22]}
+fxg5 {[%emt 0:01:55]} 24. fxg5 {[%emt 0:00:06]} Rf5 {[%emt 0:04:08]} 25. Qf2 {
+[%emt 0:08:28]} h6 {[%emt 0:11:13]} 26. Qh4 {[%emt 0:02:15]} Qf4 {[%emt 0:04:
+36]} 27. Qxf4 {[%emt 0:00:45]} Rxf4 {[%emt 0:00:02]} 28. Rde3 {[%emt 0:00:29]}
+Kf7 {[%emt 0:01:33]} 29. g3 {[%emt 0:02:49]} Rf5 {[%emt 0:00:58]} 30. Kg2 {
+[%emt 0:04:43]} h5 {[%emt 0:01:52]} 31. Kh3 {[%emt 0:02:05]} Re7 {[%emt 0:05:
+36]} 32. g4 {[%emt 0:01:00]} hxg4+ 33. Kxg4 {[%emt 0:00:02]} Re8 {[%emt 0:00:
+55]} 34. Nh4 {[%emt 0:01:16]} Rf2 {[%emt 0:00:09]} 35. R3e2 {[%emt 0:01:22]}
+Rxe2 {[%emt 0:00:26]} 36. Rxe2 {[%emt 0:00:01]} Rg8 {[%emt 0:01:35]} 37. Rf2+ {
+[%emt 0:00:12]} Ke8 {[%emt 0:00:01]} 38. Nxg6 {[%emt 0:01:33]} Bxd4 {[%emt 0:
+00:43]} 39. cxd4 {[%emt 0:00:04]} Rxg6 {[%emt 0:00:02]} 40. Kh5 {[%emt 0:00:20]
+} Rg8 {[%emt 0:00:03]} 41. g6 {[%emt 0:00:10]} e5 {[%emt 0:02:17]} 42. dxe5 {
+[%emt 0:00:17]} Ke7 {[%emt 0:00:12]} 43. Rf6 {[%emt 0:02:15]} d4 {[%emt 0:00:
+37]} 44. Kg5 {[%emt 0:02:17]} d3 {[%emt 0:01:09]} 45. Rd6 {[%emt 0:00:03]} Rd8
+{[%emt 0:00:34]} 46. Rxd8 {[%emt 0:00:35]} 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "Barcelona"]
+[Date "2024.03.02"]
+[Round "7.4"]
+[White "Ventura Bolet, Maxim"]
+[Black "Adan Bermudez, Sergio"]
+[Result "1-0"]
+[ECO "A09"]
+[WhiteElo "2247"]
+[BlackElo "2303"]
+[PlyCount "57"]
+[EventDate "2024.??.??"]
+[TimeControl "90+30"]
+[WhiteClock "0:00:33"]
+[BlackClock "0:04:47"]
+
+1. Nf3 {[%emt 0:00:06]} d5 {[%emt 0:00:35]} 2. e3 {[%emt 0:00:26]} c5 {[%emt 0:
+00:17]} 3. c4 {[%emt 0:00:27]} d4 {[%emt 0:00:08]} 4. b4 {[%emt 0:00:08]} f6 {
+[%emt 0:05:18]} 5. exd4 {[%emt 0:02:37]} cxd4 {[%emt 0:00:09]} 6. c5 {[%emt 0:
+01:04]} e5 {[%emt 0:07:40]} 7. Bc4 {[%emt 0:01:18]} a5 {[%emt 0:02:52]} 8. Qb3
+{[%emt 0:14:48]} Nh6 {[%emt 0:06:47]} 9. d3 {[%emt 0:12:36]} axb4 {[%emt 0:00:
+00]} 10. Bxh6 {[%emt 0:00:00]} gxh6 11. Bf7+ {[%emt 0:03:02]} Ke7 {[%emt 0:00:
+00]} 12. Bg8 {[%emt 0:26:09]} Qe8 {[%emt 0:00:00]} 13. O-O {[%emt 0:07:07]} Bg7
+14. Bd5 {[%emt 0:04:00]} Qa4 {[%emt 0:00:52]} 15. Qb2 {[%emt 0:00:00]} Rd8 {
+[%emt 0:07:32]} 16. Bb3 {[%emt 0:04:24]} Qb5 17. Qe2 {[%emt 0:23:49]} Na6 {
+[%emt 0:00:00]} 18. Bc4 {[%emt 0:18:41]} Qc6 {[%emt 0:00:00]} 19. Nbd2 {
+[%emt 0:00:00]} Nxc5 20. Rac1 {[%emt 0:02:19]} Na4 {[%emt 0:00:00]} 21. Nh4 Nc3
+{[%emt 0:00:00]} 22. Qh5 Qe8 {[%emt 0:00:00]} 23. Qf3 {[%emt 0:00:00]} h5 {
+[%emt 0:00:00]} 24. Rce1 {[%emt 0:00:00]} Kf8 {[%emt 0:00:00]} 25. h3 {[%emt 0:
+00:00]} Ra5 {[%emt 0:00:00]} 26. Ne4 {[%emt 0:25:26]} Qe7 {[%emt 0:08:43]} 27.
+Qxh5 {[%emt 0:00:52]} Be6 {[%emt 0:01:44]} 28. Qxh7 {[%emt 0:00:57]} Bf7 {
+[%emt 0:01:08]} 29. Ng6+ {[%emt 0:00:36]} 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.03.09"]
+[Round "8.4"]
+[White "Ventura Bolet, Maxim"]
+[Black "Vidal Zamora, Alex"]
+[Result "1/2-1/2"]
+[ECO "A14"]
+[WhiteElo "2247"]
+[BlackElo "2394"]
+[PlyCount "76"]
+[EventDate "2024.04.13"]
+[EventType "team"]
+[EventRounds "11"]
+[EventCountry "CAT"]
+
+1. Nf3 Nf6 2. c4 e6 3. b3 b6 4. g3 Bb7 5. Bg2 Be7 6. O-O O-O 7. Bb2 c5 8. Nc3
+d5 9. e3 dxc4 10. bxc4 Nc6 11. Qe2 Rc8 12. d3 Qc7 13. Ne1 Nb4 14. a3 Bxg2 15.
+Nxg2 Nc6 16. g4 e5 17. g5 Ne8 18. Nd5 Qd7 19. h4 Nc7 20. Nxc7 Rxc7 21. f4 f6
+22. fxe5 fxe5 23. Rxf8+ Bxf8 24. Rf1 Qe6 25. Qf3 Rf7 26. Qe4 g6 27. Rxf7 Kxf7
+28. Ne1 Ke7 29. Nf3 Kd6 30. Kf2 Be7 31. Kg3 Bd8 32. Nh2 Be7 33. Ng4 Bd8 34. Kg2
+Be7 35. Bc3 Bd8 36. Bb2 Be7 37. Bc3 Bd8 38. Bb2 Be7 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.03.16"]
+[Round "9.4"]
+[White "Boix Moreno, Daniel"]
+[Black "Ventura Bolet, Maxim"]
+[Result "1/2-1/2"]
+[ECO "B50"]
+[WhiteElo "2353"]
+[BlackElo "2350"]
+[PlyCount "24"]
+[EventDate "2024.04.13"]
+[EventType "team"]
+[EventRounds "11"]
+[EventCountry "CAT"]
+
+1. e4 c5 2. Nf3 e6 3. Nc3 a6 4. g3 d6 5. Bg2 Nf6 6. O-O Be7 7. Re1 O-O 8. e5
+dxe5 9. Nxe5 Ra7 10. a4 b6 11. d3 Bb7 12. Bxb7 Rxb7 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "Mollet del Vallès, Spain"]
+[Date "2024.04.06"]
+[Round "10.4"]
+[White "Ventura Bolet, Maxim"]
+[Black "Lever, Erwan"]
+[Result "0-1"]
+[ECO "A13"]
+[WhiteElo "2262"]
+[BlackElo "2254"]
+[PlyCount "76"]
+[EventDate "2024.??.??"]
+[TimeControl "90+30"]
+[WhiteClock "0:25:06"]
+[BlackClock "0:00:32"]
+
+1. Nf3 {[%emt 0:00:02]} Nf6 {[%emt 0:00:10]} 2. c4 {[%emt 0:00:27]} e6 {
+[%emt 0:00:05]} 3. b3 {[%emt 0:00:44]} d5 {[%emt 0:00:06]} 4. Bb2 {[%emt 0:00:
+27]} dxc4 {[%emt 0:00:31]} 5. bxc4 {[%emt 0:00:08]} b6 {[%emt 0:00:21]} 6. g3 {
+[%emt 0:03:41]} Bb7 {[%emt 0:00:06]} 7. Bg2 {[%emt 0:00:07]} Be7 {[%emt 0:00:
+23]} 8. O-O {[%emt 0:00:34]} O-O {[%emt 0:00:05]} 9. d3 {[%emt 0:12:17]} Nbd7 {
+[%emt 0:01:17]} 10. Nc3 {[%emt 0:00:49]} Nc5 {[%emt 0:01:12]} 11. Qc2 {[%emt 0:
+02:53]} Qc8 {[%emt 0:01:12]} 12. e4 {[%emt 0:03:58]} Rd8 {[%emt 0:19:36]} 13.
+e5 {[%emt 0:09:48]} Ng4 {[%emt 0:01:12]} 14. d4 {[%emt 0:03:11]} Na6 {[%emt 0:
+00:32]} 15. Qe2 {[%emt 0:08:08]} c5 {[%emt 0:06:09]} 16. d5 {[%emt 0:02:46]}
+exd5 {[%emt 0:05:45]} 17. cxd5 {[%emt 0:00:08]} Nb4 {[%emt 0:08:39]} 18. d6 {
+[%emt 0:04:43]} Bf8 {[%emt 0:00:22]} 19. Qc4 {[%emt 0:17:36]} Bxf3 {[%emt 0:05:
+25]} 20. Bxf3 {[%emt 0:08:38]} Nxe5 {[%emt 0:00:07]} 21. Qe4 {[%emt 0:00:07]}
+Nxf3+ {[%emt 0:00:14]} 22. Qxf3 {[%emt 0:00:04]} Rxd6 {[%emt 0:02:24]} 23. Ne4
+{[%emt 0:04:45]} Qc6 {[%emt 0:04:40]} 24. Qf5 {[%emt 0:13:26]} Rd5 {[%emt 0:03:
+12]} 25. Qh3 {[%emt 0:01:13]} Nc2 {[%emt 0:02:10]} 26. Rac1 {[%emt 0:01:18]}
+Nd4 {[%emt 0:00:45]} 27. Bxd4 {[%emt 0:00:39]} Rxd4 {[%emt 0:00:06]} 28. Nc3 {
+[%emt 0:00:39]} g6 {[%emt 0:01:33]} 29. Rfe1 {[%emt 0:00:28]} Rad8 {[%emt 0:00:
+28]} 30. Qf1 {[%emt 0:00:35]} Bh6 {[%emt 0:01:41]} 31. Ne2 {[%emt 0:01:00]} Rd2
+{[%emt 0:01:22]} 32. Red1 {[%emt 0:00:36]} Qa4 {[%emt 0:04:08]} 33. Rxd2 {
+[%emt 0:00:26]} Rxd2 {[%emt 0:00:04]} 34. Nc3 {[%emt 0:00:32]} Qd4 {[%emt 0:01:
+22]} 35. Nb5 {[%emt 0:00:26]} Qd7 {[%emt 0:05:18]} 36. a4 {[%emt 0:00:33]} a6 {
+[%emt 0:01:03]} 37. Nc3 {[%emt 0:00:19]} Qd4 {[%emt 0:00:07]} 38. Ne2 {[%emt 0:
+00:49]} Rxe2 {[%emt 0:00:29]} 0-1
+
+[Event "Lliga Catalana 2024"]
+[Site "?"]
+[Date "2024.04.13"]
+[Round "11.4"]
+[White "Sort Sererols, Josep"]
+[Black "Ventura Bolet, Maxim"]
+[Result "1/2-1/2"]
+[ECO "C00"]
+[WhiteElo "2224"]
+[BlackElo "2350"]
+[PlyCount "29"]
+[EventDate "2024.??.??"]
+
+1. e4 c5 2. Nf3 e6 3. d3 Nc6 4. g3 d5 5. Qe2 Nf6 6. Bg2 Be7 7. O-O O-O 8. e5
+Nd7 9. c4 a6 10. Rd1 b5 11. h4 bxc4 12. dxc4 Nb6 13. Nbd2 a5 14. a4 Ba6 15. b3
+1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "lichess.org"]
+[Date "2025.01.18"]
+[Round "1.6"]
+[White "Ventura Bolet, Maxim"]
+[Black "Ayas Fernandez, Antonio"]
+[Result "1-0"]
+[ECO "A13"]
+[WhiteElo "2246"]
+[BlackElo "2188"]
+[PlyCount "33"]
+[GameId "2151339903769201"]
+[EventDate "18.??.??"]
+
+1. Nf3 d5 2. e3 Nf6 3. c4 e6 4. b3 c5 5. Bb2 Nc6 6. cxd5 Nxd5 7. a3 a6 8. Qc2 Nf6 9. Nc3 b6 10. Be2 Bb7 11. Rc1 Be7 12. Qb1 O-O 13. h4 e5 14. Bd3 h5 15. Ne4 Qd5 16. Nfg5 Rad8 17. Bc4 1-0

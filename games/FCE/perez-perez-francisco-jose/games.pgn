@@ -1,0 +1,1802 @@
+[Event "Terrassa Nacional"]
+[Site "Terrassa"]
+[Date "1945.06.??"]
+[Round "1"]
+[White "Albareda Creus, Miguel"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "1-0"]
+[ECO "C87"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "99"]
+[EventDate "1945.06.??"]
+[EventType "tourn"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 d6 5. c3 Bd7 6. d4 Nf6 7. O-O Be7 8. Re1
+O-O 9. Nbd2 Re8 10. d5 Nb8 11. Bb3 a5 12. Nf1 Na6 13. Ng3 Nc5 14. Bc2 a4 15.
+Be3 b6 16. b4 axb3 17. axb3 g6 18. b4 Nb7 19. h3 Bf8 20. Qe2 Bg7 21. Ra6 Rf8
+22. Rea1 Rb8 23. Ra7 Ne8 24. Qa6 Qc8 25. Ra8 f5 26. exf5 gxf5 27. Rxb8 Qxb8 28.
+Nh5 Nf6 29. Nxf6+ Bxf6 30. Bg5 Kg7 $2 31. Bxf6+ Kxf6 32. Qc4 $1 h6 33. Qh4+ Kg7
+34. Qg3+ Kf6 35. Nh4 Rg8 36. Qf3 Rg5 37. Nxf5 Bxf5 38. g4 h5 39. Bxf5 hxg4 40.
+hxg4 (40. Bxg4+ $143) 40... Ke7 41. Qh3 Nd8 42. Qh8 Qb7 43. Qh7+ Kf8 44. Qh6+
+Rg7 45. Qh8+ Rg8 46. Qf6+ Nf7 47. Be6 Rg7 48. Bxf7 Rxg4+ (48... Rxf7 49. Ra8+
+$1 Qxa8 50. Qh8+ $18) 49. Kf1 Rf4 50. Ra8+ $1 $18 1-0
+
+[Event "Terrassa Nacional"]
+[Site "Terrassa"]
+[Date "1945.07.??"]
+[Round "5"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Masso Castells, Agustin"]
+[Result "1-0"]
+[ECO "A11"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "123"]
+[EventDate "1945.06.??"]
+[EventType "tourn"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+
+1. Nf3 d5 2. c4 c6 3. g3 Nf6 4. Bg2 Nbd7 5. O-O e5 6. b3 Bd6 7. Bb2 Qe7 8. cxd5
+cxd5 9. Nc3 a6 10. a4 O-O 11. Nh4 Qe6 12. f4 $2 exf4 13. gxf4 Qg4 (13... d4 $1
+$17) 14. Qe1 Bxf4 15. e3 Bb8 (15... Bc7) 16. Nf5 Nc5 17. h3 Qg5 18. h4 Qg4 19.
+Ne7+ Kh8 20. Rxf6 $1 Nd3 21. Qf1 Qxh4 22. Qxd3 Bh2+ 23. Kh1 Be5+ 24. Kg1 Qh2+
+25. Kf1 Bxf6 26. Nexd5 (26. Nxc8 $142) 26... Bh3 27. Bxh3 Qxh3+ 28. Ke1 Rfd8 $2
+(28... Rad8 $142 $1 $19) 29. Qe4 Re8 30. Qf4 Be5 31. Qf1 Qxf1+ $4 (31... Qg4
+$17) 32. Kxf1 Rad8 33. d4 Bb8 34. Ke2 Re6 35. Kd3 h6 36. Rf1 Kg8 37. e4 Kf8 38.
+Nd1 Rg6 39. N1e3 h5 40. e5 Ke8 41. Ba3 Rg3 42. Ke4 Rc8 43. e6 f6 44. a5 h4 45.
+Nxf6+ gxf6 46. Rxf6 Rg8 47. Nf5 h3 48. Rh6 Rc3 49. Ng7+ Kd8 (49... Rxg7 $4 50.
+Rh8+) 50. e7+ Kd7 51. e8=Q+ Rxe8+ 52. Nxe8 Rxb3 53. Nf6+ Kc6 54. Bc5 Kb5 55.
+Bb6 Rg3 56. Nd7 Bd6 57. Rxd6 Rg4+ 58. Kd3 Rh4 59. Bc7 h2 60. Rb6+ Ka4 61. Nc5+
+Ka3 62. Bxh2 1-0
+
+[Event "Terrassa Nacional"]
+[Site "Terrassa"]
+[Date "1945.07.??"]
+[Round "6"]
+[White "Medina Garcia, Antonio"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "1/2-1/2"]
+[ECO "C17"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "44"]
+[EventDate "1945.06.??"]
+[EventType "tourn"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 Ne7 5. Qg4 c5 6. a3 Qa5 7. Bd2 cxd4 8. Qxd4
+Nbc6 9. Qd3 Nxe5 10. Qg3 d4 (10... N7g6 $142) 11. Bb5+ N5c6 12. Qxg7 Rg8 13.
+Qxd4 Qxb5 14. Nxb5 Nxd4 15. Nxd4 Bxd2+ 16. Kxd2 Rxg2 $15 {Y aquí se firmaron
+tablas, cuando el negro tiene mejores posibilidades. Veamos...} 17. Ke3 b6 18.
+Ngf3 Nd5+ 19. Ke2 Ba6+ 20. Ke1 Nf4 21. Rd1 Rd8 22. Rd2 Bb7 $17 1/2-1/2
+
+[Event "Terrassa Nacional"]
+[Site "Terrassa"]
+[Date "1945.07.??"]
+[Round "7"]
+[White "Ubach, Manuel"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "0-1"]
+[ECO "B43"]
+[PlyCount "120"]
+[EventDate "1945.06.??"]
+[EventType "tourn"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+
+{(Travesset, J)} {Tengo dudas de que ésta sea realmente la partida jugada en
+dicho torneo. La he encontrado en una base que no es propia. En primer lugar
+porque los colores están cambiados y después, según se desprende de los
+comentarios de Pérez sobre esta partida en los cuales indica que tuvo que
+contrarrestar un contraataque de su rival como consecuencia de un sacrificio
+de calidad. Y yo no veo ninguna entrega.} 1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4
+a6 5. Nc3 Qc7 6. a3 b5 7. f4 Bb7 8. Be2 Nf6 9. Bf3 d6 10. Be3 Nbd7 11. O-O Be7
+12. Kh1 O-O 13. Nb3 Nb6 14. Na5 Nc4 15. Nxc4 Qxc4 16. Be2 Qc7 17. Bd3 Rad8 18.
+Qe2 d5 19. exd5 Nxd5 20. Nxd5 Bxd5 21. f5 Qe5 22. Qf2 exf5 23. Rae1 Be4 24. Bb6
+Bd6 25. Qh4 Rde8 26. Bxe4 fxe4 27. c3 f5 28. Bd4 Qe7 29. Qh3 Qe6 30. Rd1 Rf7
+31. Rde1 f4 32. Qh5 Qf5 33. Qd1 Re6 34. Qc2 Rfe7 35. a4 Qh5 36. axb5 axb5 37.
+Bg1 e3 38. Rf3 Qg6 39. Qb3 Qg5 40. h3 h6 41. Bh2 Kh8 42. Re2 Qc5 43. Qd1 Bc7
+44. Qf1 Rf6 45. Bg1 Qe5 46. Bh2 Ref7 47. Re1 b4 48. cxb4 Qxb2 49. b5 Qd4 50.
+Rd1 Qe5 51. Qe2 Rf5 52. Rb1 R7f6 53. Rff1 Qe4 54. Kg1 f3 55. gxf3 Rxf3 56. Rxf3
+Rxf3 57. Rf1 Bxh2+ 58. Kxh2 Qf4+ 59. Kg1 Qg3+ 60. Kh1 Qxh3+ 0-1
+
+[Event "Sabadell Int"]
+[Site "Sabadell"]
+[Date "1945.08.09"]
+[Round "8"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Valles Bergada, Vicente"]
+[Result "1/2-1/2"]
+[ECO "E17"]
+[PlyCount "53"]
+[EventDate "1945.08.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb7 5. Bg2 Be7 6. O-O d6 7. Nc3 Ne4 8. Qc2
+Nxc3 9. Qxc3 Be4 10. Ne1 Bxg2 11. Nxg2 O-O 12. e4 c5 13. Be3 Bf6 14. e5 cxd4
+15. Bxd4 dxe5 16. Bxe5 Bxe5 17. Qxe5 Nc6 18. Qe4 Qc7 19. Nf4 Rad8 20. Rad1 Rd6
+21. Rxd6 Qxd6 22. Kg2 g5 23. Nh5 f5 24. Qe3 f4 25. gxf4 gxf4 26. Qf3 e5 27. Kh1
+1/2-1/2
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "1"]
+[White "Albareda Creus, Miguel"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "1/2-1/2"]
+[ECO "B66"]
+[PlyCount "68"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bg5 e6 7. Qd2 a6 8. Be2
+Bd7 9. Rd1 Rc8 10. O-O Be7 11. Nb3 O-O 12. Bf4 Ne5 13. Bg3 b5 14. a3 Qb6 15.
+Qd4 Qb8 16. Nd2 Rfd8 17. Kh1 Ng6 18. Qe3 Bc6 19. f4 Qa8 20. Bf3 d5 21. exd5
+Nxd5 22. Nxd5 Bxd5 23. c3 h5 24. Bxd5 Rxd5 25. Nf3 h4 26. Rxd5 Qxd5 27. Bf2 h3
+28. g3 e5 29. f5 Bg5 30. Qe2 Ne7 31. Rd1 Qb7 32. Re1 Nxf5 33. Qe4 Qxe4 34. Rxe4
+Bf6 1/2-1/2
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "2"]
+[White "Yanofsky, Daniel A"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "1-0"]
+[ECO "C82"]
+[PlyCount "57"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Nxe4 6. d4 b5 7. Bb3 d5 8. dxe5
+Be6 9. c3 Bc5 10. Nbd2 O-O 11. Bc2 f5 12. Nb3 Bb6 13. Nbd4 Nxd4 14. Nxd4 Bxd4
+15. cxd4 f4 16. f3 Ng3 17. hxg3 fxg3 18. Qd3 Bf5 19. Qxf5 Rxf5 20. Bxf5 Qh4 21.
+Bh3 Qxd4+ 22. Kh1 Qxe5 23. Bd2 c5 24. Rfe1 (24. Rad1 $142) 24... Qh5 (24...
+Qxb2) 25. Bf4 Qh4 $6 (25... Rf8 $5) 26. Bd6 $1 c4 (26... Rc8 $2 27. Bxg3) 27.
+Rad1 b4 $2 (27... Qf6 $142) 28. Bxb4 Rd8 $4 (28... Rb8 29. Ba3 $16) 29. Be7 1-0
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "3"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Najdorf, Miguel"]
+[Result "0-1"]
+[ECO "E68"]
+[PlyCount "82"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. Nf3 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 O-O 5. O-O d6 6. d4 Nbd7 7. Nc3 e5 8. e4
+exd4 9. Nxd4 Re8 10. h3 Nc5 11. Re1 c6 12. Bf4 Ne6 13. Be3 Bd7 14. Qd2 Qc7 15.
+Rad1 Rad8 16. Nc2 Bc8 17. Bh6 Bh8 18. f4 Qb6+ 19. Ne3 Nc5 20. Bg5 h6 21. Bxf6
+Bxf6 22. Ned5 Bxc3 23. Nxc3 Nxe4+ 24. Qe3 Nxg3 25. Qxb6 Rxe1+ 26. Rxe1 axb6 27.
+Na4 Be6 28. Nxb6 Nh5 29. Re4 Kf8 30. a4 Bf5 31. Rd4 c5 32. Rd2 Nxf4 33. a5 Nxg2
+34. Kxg2 Be4+ 35. Kg3 f5 36. h4 Kf7 37. b4 cxb4 38. Rb2 Bc6 39. Rxb4 Re8 40. c5
+dxc5 41. Rc4 Re5 0-1
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "4"]
+[White "Medina Garcia, Antonio"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "1-0"]
+[ECO "B74"]
+[PlyCount "63"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Be2 g6 7. Be3 Bg7 8.
+Nb3 a5 9. a4 O-O 10. O-O Be6 11. f4 Rc8 12. Bf3 Nb4 13. Nd4 Bc4 14. Rf2 d5 15.
+e5 Nd7 16. g4 Nc5 17. g5 Ba6 18. Bg4 e6 19. Qf3 Qd7 20. h4 b6 21. h5 Ne4 22.
+Nxe4 dxe4 23. Qh3 Nd5 24. hxg6 hxg6 25. Nxe6 Nxe3 26. Rh2 fxe6 27. Bxe6+ Qxe6
+28. Qxe6+ Rf7 29. Qxb6 Rxf4 30. Qxa6 Rcf8 31. Qe6+ R8f7 32. Rh3 1-0
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "5"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Llorens Llorens, Rafael"]
+[Result "1-0"]
+[ECO "D44"]
+[PlyCount "81"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. Nf3 Nf6 2. c4 c6 3. d4 d5 4. Nc3 e6 5. Bg5 dxc4 6. e4 b5 7. e5 h6 8. Bh4 g5
+9. Nxg5 Nd5 10. Nxf7 Qxh4 11. Nxh8 Bb4 12. Qd2 c5 13. a3 Ba5 14. O-O-O cxd4 15.
+Qxd4 Qg5+ 16. f4 Nxf4 17. Kb1 Bxc3 18. bxc3 Nd7 19. g3 Nd5 20. Bh3 Nxe5 21. Kb2
+Qe3 22. Bg2 Nd3+ 23. Ka1 Qe2 24. Rxd3 cxd3 25. Bxd5 exd5 26. Qxd5 Be6 27. Qxa8+
+Ke7 28. Qxa7+ Ke8 29. Qb8+ Ke7 30. Qa7+ Ke8 31. Qb8+ Ke7 32. Ng6+ Kf6 33. Qe5+
+Qxe5 34. Nxe5 Kxe5 35. Re1+ Kd5 36. Kb2 Bg4 37. Kc1 Be2 38. Kd2 Kc4 39. Rb1 h5
+40. h3 Kc5 41. g4 1-0
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "6"]
+[White "Wade, Robert G"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "1/2-1/2"]
+[ECO "D09"]
+[PlyCount "118"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. d4 d5 2. c4 e5 3. dxe5 d4 4. Nf3 Nc6 5. g3 Be6 6. Nbd2 Nge7 7. Bg2 Ng6 8.
+O-O Qd7 9. Nb3 Bh3 10. Nfxd4 Bxg2 11. Kxg2 O-O-O 12. e3 Ncxe5 13. Qe2 c5 14.
+Nb5 h5 15. h3 a6 16. Nc3 Qe6 17. Nd2 h4 18. g4 f5 19. gxf5 Qxf5 20. f4 Nd3 21.
+Nde4 Be7 22. Qg4 Qxg4+ 23. hxg4 h3+ 24. Kh2 Bh4 25. Nd5 Rhe8 26. Ng3 Bf6 27.
+Rb1 Nb4 28. g5 Be7 29. e4 Nxa2 30. Bd2 Nb4 31. Bc3 Bf8 32. Kxh3 Bd6 33. e5 Rh8+
+34. Kg4 Rh4+ 35. Kf3 Nxd5 36. cxd5 Rxf4+ 37. Ke3 Rxf1 38. Rxf1 Bxe5 39. Bxe5
+Nxe5 40. Nf5 g6 41. Ng7 Nc4+ 42. Kd3 Nxb2+ 43. Ke4 Nc4 44. Rf6 a5 45. Ne6 Nd2+
+46. Ke3 Nc4+ 47. Ke4 Re8 48. Rxg6 a4 49. Rf6 a3 50. Rf2 Kd7 51. g6 Nd6+ 52. Kd3
+c4+ 53. Kd4 b5 54. Rf1 b4 55. Kc5 b3 56. Nf8+ Rxf8 57. Rxf8 a2 58. g7 a1=Q 59.
+g8=Q Qa5+ 1/2-1/2
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "7"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Cherta Clos, Pere"]
+[Result "1-0"]
+[ECO "A12"]
+[PlyCount "69"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. Nf3 d5 2. c4 c6 3. b3 Nf6 4. Bb2 Bf5 5. g3 e6 6. Bg2 Nbd7 7. O-O Bd6 8. Nc3
+O-O 9. d3 Qe7 10. Qc2 h6 11. Rad1 Rfd8 12. Qb1 Ba3 13. Qa1 a5 14. Rfe1 Qb4 15.
+Nd4 Bxb2 16. Qxb2 Bg6 17. Nc2 Qe7 18. Rc1 Nb6 19. cxd5 Nbxd5 20. Na4 b5 21. Nc3
+Rab8 22. Nd4 Nb4 23. Nxc6 Nxc6 24. Bxc6 b4 25. Na4 Nd5 26. Rc2 Qg5 27. Rec1 Bh5
+28. Rc5 Qg4 29. R1c2 Rbc8 30. R5c4 Qg6 31. Bxd5 Rxd5 32. Rxc8+ Kh7 33. Nb6 Rxd3
+34. exd3 Qxd3 35. Rd2 1-0
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "8"]
+[White "O' Kelly de Galway, Alberic"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "1/2-1/2"]
+[ECO "D49"]
+[PlyCount "120"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. e3 Nbd7 6. Bd3 dxc4 7. Bxc4 b5 8. Bd3
+a6 9. e4 c5 10. e5 cxd4 11. Nxb5 axb5 12. exf6 Qb6 13. O-O gxf6 14. Be4 Bb7 15.
+Bxb7 Qxb7 16. Nxd4 Rg8 17. Qf3 Qxf3 18. Nxf3 Rg4 19. Rd1 Bc5 20. a3 Ke7 21. Be3
+Bxe3 22. fxe3 Rc8 23. Rd4 Ne5 24. Nxe5 Rxd4 25. exd4 fxe5 26. dxe5 Rc2 27. b3
+Rb2 28. a4 Rxb3 29. a5 Rc3 30. a6 Rc8 31. Kf2 b4 32. Ke3 b3 33. Rb1 Rb8 34. Kf4
+f6 35. a7 Ra8 36. Rxb3 Rxa7 37. Rh3 Ra4+ 38. Kg3 Ra3+ 39. Kh4 Rxh3+ 40. Kxh3
+fxe5 41. Kg4 Kf6 42. Kf3 Kf5 43. g4+ Kg5 44. Kg3 Kh6 45. h4 Kg6 46. Kf3 h5 47.
+g5 Kf5 48. Ke3 e4 49. Kd4 Kf4 50. g6 e3 51. g7 e2 52. g8=Q e1=Q 53. Qg5+ Kf3
+54. Qxh5+ Kg3 55. Qg5+ Kh3 56. h5 Qb4+ 57. Kd3 Qb3+ 58. Ke2 Qc4+ 59. Kf2 Qc2+
+60. Kf3 Qc6+ 1/2-1/2
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "9"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Golmayo de la Torriente, Manuel"]
+[Result "0-1"]
+[ECO "B50"]
+[PlyCount "70"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. e4 c5 2. Nf3 d6 3. b4 Nf6 4. bxc5 dxc5 5. e5 Nd5 6. Bc4 e6 7. O-O Nc6 8. Qe2
+Be7 9. Nc3 Nxc3 10. dxc3 a6 11. Re1 Qc7 12. Bg5 Bxg5 13. Nxg5 h6 14. Qh5 g6 15.
+Qh4 b5 16. Bd3 Nxe5 17. Rad1 Nxd3 18. Rxd3 Qe7 19. Qe4 Bb7 20. Qe5 O-O 21. Nh3
+Rad8 22. Rg3 Rd5 23. Qe3 Kh7 24. Nf4 Rf5 25. Nd3 Rd8 26. Ne5 h5 27. f4 Qd6 28.
+Rg5 f6 29. Rxf5 gxf5 30. Qe2 fxe5 31. Qxh5+ Kg7 32. Qg5+ Kf8 33. Qf6+ Ke8 34.
+Rxe5 Qd1+ 35. Kf2 Rd2+ 0-1
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "10"]
+[White "Guimard, Carlos E"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "1/2-1/2"]
+[ECO "E64"]
+[PlyCount "83"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. g3 O-O 5. Bg2 c5 6. d5 d6 7. Nc3 Nbd7 8. O-O
+Nb6 9. Qd3 Bg4 10. h3 Bxf3 11. exf3 Nfd7 12. f4 Rb8 13. Be3 Na8 14. f5 Nab6 15.
+fxg6 hxg6 16. Qe4 Ne5 17. b3 Nexc4 18. bxc4 Bxc3 19. Rac1 Bg7 20. f4 Nd7 21. f5
+Ne5 22. Bf4 Qe8 23. Bxe5 Bxe5 24. fxg6 fxg6 25. Rxf8+ Kxf8 26. Qg4 Kg7 27. Be4
+Qf7 28. Rf1 Bf6 29. h4 b5 30. h5 g5 31. Bg6 Qf8 32. cxb5 Rxb5 33. Bd3 Rb4 34.
+h6+ Kh8 35. Qxg5 Qg8 36. Qxg8+ Kxg8 37. h7+ Kg7 38. Rb1 a5 39. Kg2 a4 40. Kf3
+Rxb1 41. Bxb1 a3 42. g4 1/2-1/2
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "11"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Vilardebo Picurena, Josep"]
+[Result "1-0"]
+[ECO "D52"]
+[PlyCount "87"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. Bg5 Nbd7 6. e3 Bd6 7. Bd3 h6 8. Bh4
+a6 9. O-O O-O 10. Bg3 Qc7 11. cxd5 exd5 12. Rc1 Re8 13. Qb3 Bxg3 14. hxg3 Qd6
+15. Na4 Ne4 16. Rc2 f5 17. Rfc1 Rb8 18. Nb6 Ndf6 19. Ne5 Be6 20. Na4 Ng4 21.
+Nxg4 fxg4 22. Nc5 Nxc5 23. Rxc5 Re7 24. Qc2 Rf8 25. b4 Ref7 26. a4 Bd7 27. b5
+axb5 28. axb5 g5 29. bxc6 bxc6 30. Qb2 Kg7 31. Bb1 Qf6 32. Rf1 Qe7 33. Qc2 Bf5
+34. Qb2 Bxb1 35. Qxb1 Rf6 36. Qc2 Qd7 37. Rc1 Rc8 38. e4 dxe4 39. d5 Rcf8 40.
+dxc6 Qd3 41. Qb2 e3 42. fxe3 Qxe3+ 43. Kh2 Qe8 44. c7 1-0
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "12"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "0-1"]
+[ECO "C05"]
+[PlyCount "64"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. Bd3 c5 5. e5 Nfd7 6. c3 b6 7. f4 Ba6 8. Ndf3
+cxd4 9. Nxd4 Bxd3 10. Qxd3 Nc5 11. Qc2 Qc7 12. Ngf3 g6 13. Be3 Nc6 14. O-O Rc8
+15. Rac1 Be7 16. c4 Nb4 17. Qe2 Ncd3 18. cxd5 Nxc1 19. Rxc1 Qxc1+ 20. Bxc1
+Rxc1+ 21. Kf2 Nxd5 22. Qb5+ Kf8 23. Qa6 Kg7 24. Qxa7 Rb1 25. b3 Rc8 26. Kg3 Rc3
+27. h3 Rd1 28. Nb5 Rc2 29. Nd6 Bxd6 30. exd6 Ne3 31. Ng5 Nf5+ 32. Kf3 Rd3+ 0-1
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1946.??.??"]
+[Round "13"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Wood, Gabriel"]
+[Result "1/2-1/2"]
+[ECO "D90"]
+[PlyCount "96"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. c4 Nf6 2. Nc3 c6 3. d4 d5 4. Nf3 g6 5. cxd5 Nxd5 6. e4 Nb6 7. Be2 Bg7 8. O-O
+Bg4 9. Be3 O-O 10. h3 Bxf3 11. Bxf3 Nc4 12. Qe2 Nxe3 13. fxe3 Nd7 14. e5 Nb6
+15. Ne4 Nd5 16. Ng5 Bh6 17. h4 Qb6 18. Rac1 f6 19. Bxd5+ cxd5 20. Nf3 Rac8 21.
+exf6 exf6 22. Rxc8 Rxc8 23. Nh2 f5 24. Nf3 Qa6 25. Re1 Qa4 26. Ne5 Bg7 27. b3
+Qe8 28. Qf3 Qe6 29. Nd3 Qe4 30. Nf4 Rc2 31. Nxd5 Qxh4 32. Rd1 Qe4 33. Nb4 Qxf3
+34. gxf3 Re2 35. Rd3 Bf8 36. Nd5 Kf7 37. Nc3 Rc2 38. e4 h5 39. e5 f4 40. d5
+Bc5+ 41. Kh1 g5 42. Ne4 g4 43. e6+ Ke7 44. Nxc5 Rxc5 45. d6+ Kd8 46. Kg2 Re5
+47. e7+ Kd7 48. Rd2 Re3 1/2-1/2
+
+[Event "Mataro Nacional"]
+[Site "Mataro"]
+[Date "1948.10.29"]
+[Round "1"]
+[White "Xaudaro, Camilo"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "0-1"]
+[ECO "E13"]
+[PlyCount "64"]
+[EventDate "1948.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. d4 b6 3. c4 Bb7 4. Nc3 e6 5. Bg5 Bb4 6. e3 h6 7. Bh4 Bxc3+ 8.
+bxc3 d6 9. Bd3 Nbd7 10. O-O Qe7 11. Qe2 e5 12. Bf5 g5 13. Bg3 Be4 14. Bxd7+
+Nxd7 15. Nd2 Bb7 16. Rfe1 O-O-O 17. f4 $2 (17. e4 $142) 17... h5 18. fxe5 dxe5
+19. h3 f5 20. e4 f4 21. Bf2 Rdg8 22. Rf1 g4 23. Kh1 f3 24. Qd3 g3 25. Nxf3 gxf2
+26. Rxf2 Rg3 27. Qe2 exd4 28. cxd4 Qxe4 29. Qd2 Rhg8 30. Kh2 Nf6 31. Re1 Qg6
+32. Nh4 Rxh3+ 0-1
+
+[Event "Mataro Nacional"]
+[Site "Mataro"]
+[Date "1948.10.30"]
+[Round "2"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Medina Garcia, Antonio"]
+[Result "1-0"]
+[ECO "C91"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "93"]
+[EventDate "1948.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. d4
+d6 9. c3 Bg4 10. Be3 exd4 11. cxd4 Na5 12. Bc2 Nc4 13. Bc1 c5 14. b3 Nb6 15.
+Bb2 Nfd7 16. h3 Bh5 17. dxc5 Nxc5 18. Nc3 Bf6 19. Qd2 Bxf3 20. gxf3 Ne6 21. f4
+Rc8 22. Bd3 Nxf4 23. Qxf4 Bxc3 24. Bxc3 Rxc3 25. Rad1 Qc7 (25... Qe7 $142) 26.
+Bf1 Rd8 27. Rd4 Nc8 28. e5 d5 29. Bd3 Rc6 (29... Ne7 $142 $1) 30. Qg5 Ne7 31.
+Rg4 Ng6 $17 32. f4 h6 $6 (32... Rc1 $1 $19 {con gran ventaja. ?Cómo Medina
+pudo perder esta partida? ?Apuros de reloj?}) 33. Qh5 Rc1 34. Rf1 Qc5+ 35. Kg2
+Rxf1 36. Bxf1 Qc1 37. Qf5 Rc8 (37... h5 $1 $19) 38. e6 Rc2+ $4 (38... Nh4+ $3
+39. Rxh4 Rc2+ {ganando}) 39. Kg1 Qe3+ 40. Kh1 Qe4+ 41. Qxe4 dxe4 42. f5 Rf2 43.
+fxg6 Rxf1+ 44. Kg2 Rf6 45. gxf7+ Kf8 46. Rxe4 Ke7 47. Re3 1-0
+
+[Event "Mataro Nacional"]
+[Site "Mataro"]
+[Date "1948.10.31"]
+[Round "3"]
+[White "Golmayo de la Torriente, Manuel"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "0-1"]
+[ECO "D30"]
+[PlyCount "74"]
+[EventDate "1948.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 e6 4. e3 c6 5. cxd5 exd5 6. Qc2 Bd6 7. h3 Ne4 8. Bd3
+f5 9. O-O Nd7 10. b3 Qe7 11. Nfd2 O-O 12. f3 Ng3 13. Re1 f4 14. Nf1 Nxf1 15.
+Kxf1 fxe3 16. Bxe3 Qh4 17. Bf5 Nf6 18. Bxc8 Raxc8 19. Qf5 Rce8 20. Qg5 Qxg5 21.
+Bxg5 Ne4 22. Bh4 g5 23. Bf2 h5 24. Rd1 g4 25. hxg4 hxg4 26. Rd3 Nxf2 27. Kxf2
+g3+ 28. Kf1 Rf6 29. Nc3 Rh6 30. Ne2 Bf4 31. Ng1 Rh1 32. Rdd1 Be3 33. Ke2 Rxg1
+34. Rxg1 Bxg1+ 35. Kd3 Bf2 36. Rh1 Re3+ 37. Kd2 Rxf3 $1 0-1
+
+[Event "Mataro Nacional"]
+[Site "Mataro"]
+[Date "1948.??.??"]
+[Round "4"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Saborido Carre, Rafael"]
+[Result "1-0"]
+[ECO "C91"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "67"]
+[EventDate "1948.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3
+O-O 9. d4 Bg4 10. d5 Na5 11. Bc2 c6 12. dxc6 Qc7 13. Nbd2 Rfd8 14. h3 Be6 15.
+Ng5 Bc8 16. b4 Nxc6 (16... Nc4 $5) 17. Bb3 Rf8 18. a4 Rb8 19. axb5 axb5 20. Nf1
+h6 21. Nf3 Be6 22. Ng3 Rfd8 23. Bxe6 fxe6 24. Qb3 d5 25. exd5 exd5 26. Be3 Bf8
+(26... Ra8 $142) 27. Red1 Ra8 $2 28. Rxa8 Rxa8 29. Ne4 $1 Kh8 (29... Nxe4 30.
+Qxd5+) 30. Nxf6 gxf6 31. Rxd5 (31. Qxd5 $142) 31... Qf7 32. Qd1 Ra1 $2 (32...
+Nd4 $1 33. Rxd4 exd4 34. Bxd4 $13) 33. Qxa1 Qxd5 34. Qa8 $1 1-0
+
+[Event "Mataro Nacional"]
+[Site "Mataro"]
+[Date "1948.11.02"]
+[Round "5"]
+[White "Valls Tona, Martin"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "0-1"]
+[ECO "E30"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "80"]
+[EventDate "1948.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Bg5 c5 5. Nf3 cxd4 6. Qxd4 Nc6 7. Qd3 h6 8.
+Bxf6 Qxf6 9. Rc1 $6 (9. O-O-O $142) 9... d5 10. a3 Bxc3+ 11. Qxc3 d4 12. Qb3
+O-O 13. g3 e5 14. Nd2 Qg5 15. Bg2 f5 16. Rd1 e4 17. O-O Be6 18. Qxb7 Rfc8 19.
+Qa6 Rab8 20. b4 $14 Qh5 21. c5 (21. b5 $1 Rb6 22. Qa4 Ne5 23. Qxa7 $16) 21...
+Qf7 22. Qa4 $6 (22. Rc1 $142) 22... Ne5 23. Rb1 Ba2 24. Rb2 a5 25. Qc2 axb4 26.
+axb4 Bc4 27. Nxc4 Nxc4 28. Rfb1 Na3 29. Qc1 Nxb1 30. Qxb1 Qc4 31. f3 d3 32.
+fxe4 Qd4+ 33. Kh1 dxe2 34. Rxe2 Rxb4 35. Qa2+ Kh8 36. h4 f4 37. Qa6 Rb1+ 38.
+Kh2 fxg3+ 39. Kxg3 Qe5+ 40. Kh3 Rb3+ 0-1
+
+[Event "Mataro Nacional"]
+[Site "Mataro"]
+[Date "1948.11.03"]
+[Round "6"]
+[White "Valls Boixeda, Arcadio"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "1-0"]
+[ECO "A47"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "67"]
+[EventDate "1948.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 b6 3. e3 Bb7 4. Bd3 c5 5. c3 Nc6 6. Nbd2 e6 7. O-O Qc7 8. Qe2
+Nd5 9. a3 cxd4 10. cxd4 f5 $6 (10... Be7 {Parecía más consecuente con la
+posición.}) 11. Nc4 Be7 12. Bd2 O-O 13. b4 g5 $2 {Jugada que va con el
+espíritu aventurero de Pérez, pero que no es lo mejor. Aa6 parecía mejor, para
+intentar el cambio de uno de los caballos blancos.} 14. Nfe5 (14. b5 $142 $1)
+14... Bf6 15. Rac1 a6 16. Qh5 $1 d6 17. Nxc6 Bxc6 18. e4 $1 {La posición
+blanca es mucho mejor.} Nf4 (18... fxe4) 19. Bxf4 $1 gxf4 20. exf5 Qg7 $2 {De
+nuevo Pérez incurre en un error que Valls castigará jugando con serenidad y
+sin ningún tipo de alegrías.} (20... exf5 {Era menos mala que la de la partida.
+}) 21. Qh3 $1 Bxd4 22. Nxd6 Bd5 23. fxe6 f3 24. g3 Rad8 25. Nf7 (25. Rfe1 {aún
+era más fuerte.} Rxd6 26. e7 Re8 (26... Bxf2+ 27. Kxf2 Qd4+ 28. Re3 $18) 27.
+Rc8 $18) 25... Bxe6 26. Qxe6 $6 {No es la mejor. Se imponía Ch6+} (26. Nh6+ Kh8
+27. Qxe6 Rf6 28. Rc8 $1 $18) 26... Qxf7 27. Qxf7+ Kxf7 28. Rc7+ Kf6 29. Bxa6
+Bb2 (29... Ra8 $142) 30. a4 Rd2 31. Bb7 Bd4 32. Bxf3 Ke5 33. Kg2 Kd6 34. Rcc1 {
+Valls juega sobre seguro. Piensa que con tres peones de más el negro no tiene
+ninguna oportunidad.} (34. Rxh7 $142) 1-0
+
+[Event "Mataro Nacional"]
+[Site "Mataro"]
+[Date "1948.11.04"]
+[Round "7"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Pujol, Ramon"]
+[Result "1-0"]
+[ECO "C07"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "79"]
+[EventDate "1948.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nd2 c5 4. Ngf3 Nf6 5. exd5 Nxd5 6. dxc5 Bxc5 7. Ne4 Be7 8.
+g3 O-O 9. Bg2 Nd7 10. O-O Re8 11. c4 N5f6 12. Nd6 Bxd6 13. Qxd6 Qe7 14. Qd1 Nf8
+15. b3 b6 16. Nd4 Bb7 17. Bb2 Bxg2 18. Kxg2 Qb7+ 19. f3 Rad8 20. Qc2 Rd7 21.
+Rad1 Red8 22. Nb5 Rxd1 $2 (22... Ng6 $11) 23. Rxd1 Rxd1 24. Qxd1 N6d7 25. Qd6
+a6 26. Nc7 Qb8 27. Qd4 e5 28. Qd6 a5 29. Qc6 Qc8 30. Qd6 Qb8 31. Ba3 Qb7 32.
+Nd5 Kh8 33. Qe7 Kg8 34. Qe8 g6 35. Nf6+ Kg7 36. Bxf8+ (36. Qe7 h5 37. Ne8+ Kg8
+38. Nd6) 36... Nxf8 37. Qxe5 Kh8 38. Nd5+ f6 39. Qxf6+ Qg7 40. Qg5 1-0
+
+[Event "Mataro Nacional"]
+[Site "Mataro"]
+[Date "1948.11.05"]
+[Round "8"]
+[White "Recoder, Jaime"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "0-1"]
+[ECO "E29"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "40"]
+[EventDate "1948.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. a3 Bxc3+ 6. bxc3 c5 7. Bd3 Nc6 8.
+Qc2 b6 9. Ne2 Ba6 10. e4 d6 11. O-O Qd7 12. Bg5 Ne8 13. Qa4 Qc8 14. d5 Ne5 15.
+Rad1 f6 16. Bc1 exd5 17. exd5 Nc7 18. Nf4 Re8 19. Qc2 g6 20. Rfe1 Qd7 $15 {
+Posiblemente en esta partida quedaron jugadas por anotar. Pérez está mejor,
+pero no para que el blanco abandone.} 0-1
+
+[Event "Mataro Nacional"]
+[Site "Mataro"]
+[Date "1948.11.06"]
+[Round "9"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Toran Albero, Roman"]
+[Result "0-1"]
+[ECO "C42"]
+[PlyCount "96"]
+[EventDate "1948.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. d4 d5 6. Bd3 Bd6 7. O-O O-O 8. c4
+c6 9. Nc3 Nxc3 10. bxc3 Bg4 11. Rb1 dxc4 12. Bxc4 b6 13. Qd3 Bh5 14. Rb2 Nd7
+15. Bg5 Qc7 16. Re2 Rae8 17. Rfe1 Bg6 18. Qd2 Qb8 19. Be7 Bxe7 20. Rxe7 Qd8 21.
+Qg5 Rxe7 22. Qxe7 b5 23. Bb3 a5 24. a3 Qc8 25. Ne5 Nxe5 26. Rxe5 Kh8 27. h3 h6
+28. Rc5 Qb8 29. Rxc6 Re8 30. Rb6 Qc8 31. Qc5 Qd8 32. Rxb5 Qh4 33. Qd6 Re1+ 34.
+Kh2 Qxf2 35. Bd5 Qg1+ 36. Kg3 Re3+ 37. Bf3 Rxf3+ 38. Kxf3 Qf1+ 39. Kg3 Qxb5 40.
+Qc7 Qe2 41. Kh2 Be4 42. Qg3 f5 43. h4 Kh7 44. Kh3 Qd3 45. Kh2 Qe2 46. Kh3 Qc2
+47. h5 f4 48. Qh2 Bf5+ 0-1
+
+[Event "Lerida Nacional"]
+[Site "Lerida"]
+[Date "1948.05.09"]
+[Round "2"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Golmayo de la Torriente, Manuel"]
+[Result "0-1"]
+[ECO "D51"]
+[PlyCount "76"]
+[EventDate "1948.05.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 e6 2. d4 Nf6 3. Nc3 d5 4. Bg5 Nbd7 5. e3 c6 6. Qc2 Qa5 7. Bxf6 Nxf6 8.
+Bd3 Bb4 9. Nge2 dxc4 10. Bxc4 e5 11. O-O exd4 12. Ne4 Be7 13. exd4 O-O 14. N2g3
+Nxe4 15. Qxe4 Bf6 16. Rad1 Bd7 17. d5 Rae8 18. Qf3 Qb4 19. b3 cxd5 20. Nh5 Bb2
+21. a3 Qxa3 22. Bxd5 b6 23. Rd2 Be6 24. Rfd1 Qb4 25. h3 Bxd5 26. Qxd5 Bc3 27.
+Rd3 g6 28. Rg3 Bh8 29. Rg5 Re1+ 30. Kh2 Rxd1 31. Qxd1 Qe7 32. Qc1 Re8 33. Rg4
+Be5+ 34. f4 Bh8 35. Ng3 Qe3 36. Qc6 Bd4 37. Nf5 Qg1+ 38. Kg3 Qe1+ 0-1
+
+[Event "Lerida Nacional"]
+[Site "Lerida"]
+[Date "1948.05.14"]
+[Round "7"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Puig Fabregat, Jose"]
+[Result "1-0"]
+[ECO "C82"]
+[PlyCount "49"]
+[EventDate "1948.05.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Nxe4 6. d4 b5 7. Bb3 d5 8. dxe5
+Be6 9. c3 Bc5 10. Nbd2 O-O 11. Bc2 Nxf2 12. Rxf2 f6 13. exf6 Bxf2+ 14. Kxf2
+Qxf6 15. Nf1 Rae8 16. Be3 Ne5 17. Bd4 Qh4+ 18. Kg1 Nxf3+ 19. gxf3 Bh3 20. Ng3
+Rf7 21. Qd3 c6 22. Kh1 Re6 23. Rg1 Rh6 24. Qe2 Bd7 $4 25. Nf5 1-0
+
+[Event "Tortosa Nacional"]
+[Site "Tortosa"]
+[Date "1958.??.??"]
+[Round "?"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Cartes"]
+[Result "0-1"]
+[ECO "C82"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "76"]
+[EventDate "1948.09.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O b5 6. Bb3 Nxe4 7. d4 d5 8. dxe5
+Be6 9. c3 Bc5 10. Qe2 O-O 11. Be3 Na5 12. Bxc5 Nxc5 13. Bc2 Nc6 14. Nd4 Nxd4
+15. cxd4 Nd7 16. a4 b4 17. Nd2 c5 18. f4 f5 19. dxc5 Nxc5 20. Nb3 Ne4 21. Nd4
+Qb6 22. Qe3 Rac8 23. a5 Qa7 24. Bb3 Rf7 25. Rfe1 Nc5 26. Ba2 b3 27. Rac1 $4 (
+27. Bxb3 Nxb3 28. Nxb3 Rc4 29. Rad1 $16) 27... bxa2 28. b4 Ne4 $1 29. Kf1 (29.
+Nxe6 $2 Qxe3+ 30. Rxe3 Rxc1+ 31. Re1 Rxe1#) (29. Rxc8+ $2 Bxc8 $19) 29... Rfc7
+(29... Rxc1 $142 30. Rxc1 Rb7 $19) 30. Rcd1 Rc3 31. Qe2 R3c4 (31... a1=Q $5 32.
+Rxa1 Qxd4 $19) 32. Nxe6 Nc3 (32... Rc2 $142) 33. Qd2 Nxd1 34. Qxd1 (34. Rxd1
+Rc2 35. Qe1 Rb2 $19) 34... Rc2 35. Nc5 R8xc5 36. bxc5 Qxc5 37. Qf3 Qc4+ 38. Kg1
+Qd4+ 0-1
+
+[Event "Tortosa Nacional"]
+[Site "Tortosa"]
+[Date "1948.??.??"]
+[Round "1"]
+[White "Saborido Carre, Rafael"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "1/2-1/2"]
+[ECO "D36"]
+[PlyCount "75"]
+[EventDate "1948.09.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 c6 3. Nc3 e6 4. Nf3 Nf6 5. cxd5 exd5 6. Bg5 Be7 7. Qc2 Bg4 8.
+Ne5 Bh5 9. e3 Nbd7 10. Bf4 Nxe5 11. Bxe5 O-O 12. Bd3 Bg6 13. Bxg6 hxg6 14. O-O
+Qd7 15. Rab1 Ng4 16. Bg3 Bd6 17. Ne2 g5 18. h3 Nf6 19. Bxd6 Qxd6 20. Ng3 g6 21.
+b4 Kg7 22. b5 g4 23. bxc6 bxc6 24. Rfc1 Rac8 25. h4 Rh8 26. Rb7 Rxh4 27. Qc5
+Ne4 28. Qxd6 Nxd6 29. Rxa7 Rhh8 30. Rd7 Nc4 31. e4 Rhd8 32. Rxd8 Rxd8 33. exd5
+cxd5 34. Ne2 Ra8 35. Nc3 Nd6 36. Rb1 Nf5 37. Rb4 Ra3 38. Rb3 1/2-1/2
+
+[Event "Berga Tancat"]
+[Site "Berga"]
+[Date "1951.08.21"]
+[Round "7"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Ribera Arnal, Angel"]
+[Result "0-1"]
+[ECO "B86"]
+[PlyCount "48"]
+[EventDate "1951.08.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bc4 e6 7. Bb3 Be7 8. O-O
+O-O 9. Be3 Nc6 10. Kh1 Qc7 11. f4 b5 12. f5 b4 13. Nce2 e5 14. Nxc6 Qxc6 15.
+Bd5 Nxd5 16. exd5 Qc4 17. b3 Qg4 18. h3 Qh5 19. a3 Bxf5 20. Qd2 Be4 21. Ng1
+Rac8 22. Rfc1 Qg6 23. Ra2 Rc3 24. Bb6 Bg5 0-1
+
+[Event "Berga Tancat"]
+[Site "Berga"]
+[Date "1951.08.24"]
+[Round "10"]
+[White "O' Kelly de Galway, Alberic"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "1-0"]
+[ECO "A93"]
+[PlyCount "77"]
+[EventDate "1951.08.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+
+1. d4 f5 2. g3 Nf6 3. Bg2 e6 4. c4 Be7 5. Nf3 O-O 6. O-O d5 7. b3 Qe8 8. Ne5 c6
+9. Nd2 Nbd7 10. Nd3 Ne4 11. Nf3 Kh8 12. Bb2 Bd6 13. e3 Qh5 14. Nfe5 Qh6 15. Qe2
+Ndf6 16. f3 Ng5 17. Bc1 Qh5 18. Bd2 Bd7 19. Rae1 Qe8 20. Bb4 Bxb4 21. Nxb4 Rd8
+22. Nbd3 Qe7 23. Qd2 Bc8 24. Qa5 a6 25. cxd5 exd5 26. Rc1 Nh5 27. b4 Rd6 28. a4
+f4 29. Nxf4 Nxf4 30. gxf4 Nh3+ 31. Kh1 Rh6 32. Qc5 Qe8 33. b5 axb5 34. axb5 Kg8
+35. Bxh3 Bxh3 36. Rg1 Qh5 37. Qe7 Rg6 38. bxc6 bxc6 39. Rxc6 1-0
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1952.??.??"]
+[Round "3"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Bernstein, Ossip"]
+[Result "0-1"]
+[ECO "D36"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "70"]
+[EventDate "1952.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Be7 5. cxd5 exd5 6. Bg5 c6 7. Qc2 O-O 8. e3
+Ne4 9. Bxe7 Qxe7 10. Bd3 f5 11. Ne5 Nd7 12. f4 Nxe5 13. fxe5 $2 (13. dxe5 $142
+$11) 13... Qh4+ 14. g3 Qh6 15. O-O-O (15. Bxe4 fxe4 16. Qd2 Rf3 $17) 15...
+Qxe3+ 16. Kb1 Nf2 17. Rhe1 Qxd4 18. Rd2 Nxd3 19. Rxd3 Qc5 20. Qd2 Be6 21. Qf4
+Rad8 22. Red1 h6 23. h4 Qa5 24. a3 Kh8 25. Kc1 c5 26. Qf2 d4 27. Ne2 Bc4 28.
+Nf4 Bxd3 29. e6 Be4 30. e7 Qa6 31. Re1 Qc4+ 32. Kd1 Kh7 33. g4 Qa2 34. Qd2 Qb3+
+35. Kc1 Qc4+ 0-1
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1952.??.??"]
+[Round "5"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Gonzalez, Juan A"]
+[Result "0-1"]
+[ECO "B51"]
+[PlyCount "80"]
+[EventDate "1952.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. O-O Ngf6 5. Re1 a6 6. Bxd7+ Bxd7 7. d4 cxd4
+8. Qxd4 g6 9. Bg5 Bg7 10. c4 O-O 11. Nc3 Be6 12. Rac1 h6 13. Bxf6 Bxf6 14. Qe3
+Bg7 15. Nd5 Rc8 16. b3 Re8 17. Nf4 Bg4 18. h3 Bxf3 19. Qxf3 Qa5 20. Qe2 b5 21.
+cxb5 axb5 22. Nd5 Kf8 23. Red1 e6 24. Ne3 Qb4 25. Qd3 Rxc1 26. Rxc1 Ra8 27. Rc2
+Kg8 28. g3 h5 29. Kg2 Qd4 30. Qxb5 Qxe4+ 31. Kg1 Bd4 32. Qc4 d5 33. Qc6 Rxa2
+34. Qe8+ Kg7 35. Rc8 Qb1+ 36. Kg2 Qe4+ 37. Kg1 Ra1+ 38. Nf1 Bxf2+ 39. Kh2 Bxg3+
+40. Kxg3 h4+ 0-1
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1952.??.??"]
+[Round "10"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Rossetto, Hector D"]
+[Result "1-0"]
+[ECO "B09"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "99"]
+[EventDate "1952.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. f4 Bg7 5. Nf3 O-O 6. Bd3 c5 7. d5 e5 8. O-O
+exf4 9. Bxf4 a6 10. a4 Nh5 11. Be3 Nd7 12. Qe1 Ne5 13. Nxe5 Bxe5 14. Kh1 Bd7
+15. a5 b5 16. axb6 Qxb6 17. b3 Rfe8 18. Ra2 Bg7 19. Nb1 Qb7 20. Na3 Bb5 21.
+Nxb5 axb5 22. Rxa8 Rxa8 23. Qh4 Be5 24. g4 Ng7 25. Rf3 c4 26. Be2 f6 27. Rh3
+Ne8 28. g5 Ra1+ 29. Kg2 cxb3 30. cxb3 Ra2 31. Kf1 Rb2 32. Qg4 Ng7 33. Qh4 Ne8
+34. Qg4 f5 35. exf5 Qxd5 $2 (35... Rxb3 $142 36. f6 h5 $16) 36. f6 Rxb3 37. Qd7
+Qf7 38. Qxf7+ Kxf7 39. Rxh7+ Kg8 (39... Kf8) 40. f7+ Kf8 41. fxe8=Q+ Kxe8 42.
+Kf2 d5 43. Bc5 Bf4 44. Rb7 Bxg5 45. Bxb5+ Kd8 46. Bd6 Be3+ 47. Ke2 Ba7 48. Rd7+
+Kc8 49. Rxa7 Rxb5 50. Kd3 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1952.??.??"]
+[Round "13"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Llado Lumbera, Jaime"]
+[Result "0-1"]
+[ECO "B07"]
+[PlyCount "90"]
+[EventDate "1952.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Bg5 Bg7 5. Qd2 h6 6. Be3 c6 7. f3 Qc7 8. O-O-O
+b5 9. e5 b4 10. Nb5 cxb5 11. exf6 Bxf6 12. Bxb5+ Bd7 13. Bd3 Qa5 14. Bc4 d5 15.
+Bb3 Nc6 16. Ne2 Qb5 17. Nf4 e6 18. Rhe1 O-O 19. Qe2 Qxe2 20. Nxe2 Kg7 21. Ba4
+Nb8 22. Bxd7 Nxd7 23. Bf4 Rfc8 24. Kb1 Rc6 25. Nc1 Rac8 26. Re2 a5 27. Be5 Bxe5
+28. dxe5 g5 29. Nb3 a4 30. Nd4 Rb6 31. g3 Nc5 32. h4 a3 33. b3 g4 34. Rf1 gxf3
+35. Rxf3 Ne4 36. Rg2 Rc3 37. Rd3 Rc7 38. g4 Rb8 39. g5 hxg5 40. Nf3 f6 41. hxg5
+fxe5 42. Nxe5 Rf8 43. Rg1 Rf5 44. Ng4 Rxg5 45. Rg2 Rf7 0-1
+
+[Event "Tarragona Int"]
+[Site "Tarragona"]
+[Date "1952.??.??"]
+[Round "7"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Rossetto, Hector D"]
+[Result "0-1"]
+[ECO "C18"]
+[PlyCount "100"]
+[EventDate "1952.09.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Ne7 7. Qg4 Qc7 8. Bd2
+cxd4 9. cxd4 Qxc2 10. Qxg7 Rg8 11. Qh6 Qb2 12. Rc1 Qxd4 13. Bc3 Qe4+ 14. Ne2
+Nbc6 15. f3 Qg6 16. Qd2 Bd7 17. Ng3 Qg5 18. f4 Qh4 19. Qf2 Rg4 20. Bd2 Ng6 21.
+Bb5 Nge7 22. O-O Nf5 23. Nxf5 Qxf2+ 24. Kxf2 exf5 25. h3 Rg8 26. Be3 a6 27. Bd3
+d4 28. Bd2 O-O-O 29. Rc2 Kb8 30. Rb1 Ka7 31. Rcb2 Rb8 32. Be1 Be6 33. g3 h6 34.
+Kf1 Rgd8 35. Bf2 Rd7 36. Rd2 b5 37. Be2 Rbd8 38. Rc2 Na5 39. Rd2 Bc4 40. Kg1
+Bxe2 41. Rxe2 Nc4 42. e6 fxe6 43. Rxe6 Nxa3 44. Rc1 Nc4 45. Rxh6 Kb7 46. Ra1
+Rd6 47. Rh7+ R8d7 48. Rxd7+ Rxd7 49. Kf1 d3 50. Rd1 b4 0-1
+
+[Event "C. A. Condal - Eckbauer EV Berlin m"]
+[Site "Barcelona"]
+[Date "1953.??.??"]
+[Round "1"]
+[White "Lehmann, Heinz"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "0-1"]
+[ECO "B68"]
+[PlyCount "82"]
+[EventDate "1953.??.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bg5 e6 7. Qd2 a6 8.
+O-O-O Bd7 9. f4 Be7 10. Nf3 Qc7 11. e5 dxe5 12. fxe5 Nd5 13. Bxe7 Ncxe7 14. Ne4
+O-O 15. Kb1 b5 16. Bd3 Ng6 17. Qg5 b4 18. h4 Bb5 19. h5 Bxd3 20. cxd3 h6 21.
+Qg3 Nge7 22. Rc1 Qb6 23. Nf6+ Kh8 24. Nd7 Qb5 25. Nxf8 Nc3+ 26. Ka1 Nxa2 27.
+Kxa2 Qa4+ 28. Kb1 b3 29. Rc5 Qa2+ 30. Kc1 Qa1+ 31. Kd2 Qxb2+ 32. Kd1 Qb1+ 33.
+Ke2 Qxh1 34. Nd7 Nf5 35. Qg4 b2 36. Nd2 Qg1 37. Rc4 Qe3+ 38. Kd1 Qxd3 39. Ke1
+Rd8 40. Qe4 Qxd7 41. Nb1 Qa7 0-1
+
+[Event "España - Suiza m"]
+[Site "Barcelona"]
+[Date "1953.??.??"]
+[Round "1.2"]
+[White "Lob, Paulin"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "1/2-1/2"]
+[ECO "D02"]
+[PlyCount "117"]
+[EventDate "1953.??.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 g6 3. Bf4 Bg7 4. Nbd2 d5 5. e3 O-O 6. Bd3 c5 7. c3 Nc6 8. h4
+Bg4 9. Qa4 a6 10. dxc5 Nd7 11. Nb3 b5 12. cxb6 Qxb6 13. Be2 e5 14. Bg3 f5 15.
+Rd1 Qc7 16. Qa3 f4 17. Bh2 Rf6 18. Nc5 Bf8 19. Nxd7 Qxd7 20. Qa4 Kh8 21. exf4
+exf4 22. O-O Re8 23. Rfe1 Rfe6 24. Qxf4 Re4 25. Qd2 Qe6 26. Kf1 Bh6 27. Qc2
+Bxf3 28. gxf3 Rxh4 29. Bxa6 Qd7 30. Rxe8+ Qxe8 31. Bg3 Rh1+ 32. Kg2 Rh5 33. Rh1
+Rxh1 34. Kxh1 Qf7 35. Qe2 Bg7 36. Bb5 Ne7 37. Bd7 h5 38. Kg2 d4 39. cxd4 Nd5
+40. Qe8+ Qxe8 41. Bxe8 Bxd4 42. b3 Kg7 43. Bd7 g5 44. Bd6 Nf4+ 45. Kf1 Nd3 46.
+b4 Ne5 47. Be8 h4 48. Bh5 Nd3 49. Bg4 Nxf2 50. Bd7 Nd3 51. a4 Ne5 52. Bc8 Nxf3
+53. a5 Ne5 54. a6 Nc6 55. Bc5 Bxc5 56. bxc5 Kf6 57. Bb7 Na7 58. Bf3 Ke5 59. Kg2
+1/2-1/2
+
+[Event "Catalunya - Castilla m"]
+[Site "Barcelona"]
+[Date "1953.??.??"]
+[Round "?"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Diez del Corral Rivas, Jesus Maria"]
+[Result "1-0"]
+[ECO "C02"]
+[PlyCount "67"]
+[EventDate "1953.03.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. Nf3 Nc6 5. Bd3 Qb6 6. O-O cxd4 7. c3 Nge7 8. cxd4
+Bd7 9. Be3 Qxb2 10. Nbd2 Qa3 11. Nb3 Nf5 12. Bxf5 exf5 13. Ng5 Be6 14. Qh5 g6
+15. Qf3 Be7 16. Nh3 a5 17. Rfc1 Rc8 18. Nf4 a4 19. Nc5 Bxc5 20. Rxc5 b6 21.
+Rxd5 Bxd5 22. Nxd5 h6 23. h4 Qb2 24. Rd1 Kf8 25. h5 Kg7 26. hxg6 fxg6 27. Nf4
+Qxa2 28. d5 Nxe5 29. Bd4 Qb3 30. Bxe5+ Kf7 31. Rd3 Rc1+ 32. Kh2 Qb1 33. d6 Rh1+
+34. Kg3 1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1954.10.12"]
+[Round "1"]
+[White "Ribera Arnal, Angel"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "1-0"]
+[ECO "D85"]
+[PlyCount "83"]
+[EventDate "1954.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Ba3 O-O 8.
+Bc4 b6 9. Ne2 Bb7 10. f3 Nc6 11. O-O Na5 12. Bd3 Rc8 13. Rb1 c5 14. d5 Qd7 15.
+c4 e5 16. Bc1 Ba6 17. Qc2 Rce8 18. Bd2 Nb7 19. a4 Nd6 20. a5 Qc7 21. axb6 axb6
+22. Rb2 Bc8 23. Rfb1 b5 24. cxb5 c4 25. b6 Qc5+ 26. Kh1 Ba6 27. Ng3 Rc8 28. Be2
+f5 29. Bc3 f4 30. Nf1 Rfd8 31. Qa4 Bb7 32. Qb4 Qf2 33. Be1 Qd4 34. Bc3 Qf2 35.
+Bd3 Qxb2 36. Bxb2 cxd3 37. Qa3 d2 38. Nxd2 Rc2 39. Qd3 Rdc8 40. h3 g5 41. Kh2
+h5 42. Nb3 1-0
+
+[Event "Tarragona Int"]
+[Site "Tarragona"]
+[Date "1954.??.??"]
+[Round "6"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Prins, Lodewijk"]
+[Result "0-1"]
+[ECO "C11"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "90"]
+[EventDate "1954.01.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. d4 e6 2. e4 d5 3. Nc3 Nf6 4. e5 Ng8 5. Nf3 c5 6. dxc5 Bxc5 7. Bd3 Bd7 8. O-O
+Ne7 9. Bf4 Nbc6 10. a3 a6 11. Bg3 Qc7 12. Ne2 Ba7 13. Nf4 g6 14. Re1 h6 15. Rc1
+Na5 16. Nd2 Nc4 17. Nxd5 $5 (17. Nxc4) 17... exd5 18. e6 Bxf2+ $1 19. Kxf2 Qc5+
+20. Kf1 fxe6 21. Bf2 O-O 22. Nf3 Qc7 23. Rb1 e5 24. Kg1 e4 25. Bxc4 Qxc4 26.
+Ne5 Qc7 27. Nxd7 Qxd7 28. Rxe4 Rxf2 $1 29. Rxe7 Qxe7 30. Kxf2 Qc5+ 31. Kg3 Re8
+32. h3 Re3+ 33. Kh2 Qd6+ 34. Kh1 Qe6 35. Qd4 Qe4 36. Rd1 Rxh3+ 37. Kg1 Qxd4+
+38. Rxd4 Rh5 39. c4 $2 {Pérez se equivoca} (39. Rb4 $1 b5 40. a4 $11) 39...
+dxc4 40. Rd8+ Kf7 41. Rd7+ Ke6 42. Rxb7 Rb5 43. Rg7 Rxb2 44. Rxg6+ Kd5 45. Rxh6
+c3 0-1
+
+[Event "Camp. España indiv."]
+[Site "Tarragona / Reus / Valls"]
+[Date "1954.??.??"]
+[Round "13"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Mora Corbera, Jaime"]
+[Result "1-0"]
+[ECO "E29"]
+[PlyCount "65"]
+[EventDate "1954.07.??"]
+[EventType "tourn"]
+[EventRounds "17"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 c5 5. Bd3 Nc6 6. a3 Bxc3+ 7. bxc3 O-O 8.
+Ne2 b6 9. e4 Ne8 10. Be3 d6 11. O-O Ba6 12. Ng3 Qc8 13. Qe2 Rb8 14. f4 f5 15.
+d5 Na5 16. dxe6 Qxe6 17. Nxf5 Bxc4 18. Rae1 Rb7 19. Ng3 Nf6 20. f5 Qf7 21. Bf4
+Rd7 22. Rd1 Re8 23. Rf3 Nxe4 24. Nxe4 d5 25. Bxc4 Nxc4 26. Rfd3 Rxe4 27. Qxe4
+dxe4 28. Rxd7 Qxf5 29. Rb7 h5 30. Bh6 Kh7 31. Bxg7 e3 32. Rf1 Qe4 33. Be5+ 1-0
+
+[Event "Berga Tancat"]
+[Site "Berga"]
+[Date "1954.08.10"]
+[Round "2"]
+[White "Ribera Arnal, Angel"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "1/2-1/2"]
+[ECO "D25"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "73"]
+[EventDate "1954.08.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 dxc4 3. Nf3 Nf6 4. e3 g6 5. Bxc4 Bg7 6. Qb3 O-O 7. O-O Nc6 8.
+Ne5 Nxe5 9. dxe5 Ng4 10. Rd1 Qe8 11. e6 f5 12. f4 g5 13. h3 Nf6 14. fxg5 Ne4
+15. Nc3 Nxg5 16. Nd5 Be5 17. e4 Nxe4 18. Bh6 c6 19. Bxf8 Qxf8 20. Ne3 b5 21.
+Be2 Qf6 22. Rd8+ Kg7 23. Rf1 Bxe6 24. Nxf5+ Bxf5 25. Rxa8 Bd4+ 26. Kh1 e6 27.
+Bg4 $2 (27. g4 $5) (27. Rf4 $142) 27... Qe5 $1 28. Bxf5 Nf2+ $2 (28... Ng3+
+$142 $1 29. Qxg3+ Qxg3 30. Bxe6 Kh6 $1 $19) 29. Rxf2 Qe1+ 30. Kh2 Be5+ 31. g3
+Qxf2+ 32. Kh1 Qf1+ 33. Kh2 Qe2+ 34. Kh1 Bd4 35. Rg8+ Kxg8 36. Qxe6+ Qxe6 37.
+Bxe6+ $11 1/2-1/2
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "Barcelona"]
+[Date "1956.04.15"]
+[Round "2"]
+[White "Ribera Arnal, Angel"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "0-1"]
+[ECO "D45"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "84"]
+[EventDate "1956.??.??"]
+[EventType "tourn"]
+[EventRounds "15"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 e6 4. Nc3 c6 5. e3 Nbd7 6. Qc2 Bd6 7. b3 O-O 8. Be2
+Qe7 9. O-O dxc4 10. bxc4 e5 11. Re1 Re8 12. Bb2 e4 13. Nd2 Nf8 14. f4 Ng6 15.
+Nf1 h5 16. a4 h4 17. h3 Bf5 18. Nd1 Rad8 19. Nf2 Qd7 20. Qc3 a6 21. Nh2 Nh7 22.
+Nhg4 f6 23. a5 Qe7 24. Ba3 Bxa3 25. Rxa3 c5 26. d5 Nh8 27. Rb3 Nf7 28. Reb1 Nd6
+29. Rb6 Nf8 30. Nd1 Nd7 31. R6b2 Kf7 32. Qe1 (32. Ngf2 $142) 32... Bxg4 33.
+Bxg4 f5 34. Be2 Rh8 35. Nc3 g5 36. fxg5 Qxg5 37. Bf1 Ne5 38. Kh1 (38. Qf2)
+38... Rd7 39. Na4 Rc7 40. Qc3 Qg3 41. Rb6 $4 (41. Nxc5 $1 Rxc5 42. Rxb7+ Nxb7
+43. Rxb7+ Kg6 44. Re7 $13) 41... Nf3 $1 42. gxf3 Rg8 0-1
+
+[Event "Tarragona Int"]
+[Site "Tarragona"]
+[Date "1957.12.14"]
+[Round "2"]
+[White "Bas Rosello, Jose Maria"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "1-0"]
+[ECO "B21"]
+[PlyCount "107"]
+[EventDate "1957.12.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. f4 e6 3. Nf3 d5 4. Bb5+ Bd7 5. Bxd7+ Nxd7 6. exd5 exd5 7. O-O Bd6
+8. d4 Ne7 9. Nc3 O-O 10. Nb5 Qb6 11. Nxd6 Qxd6 12. c3 c4 13. Ne5 f6 14. Ng4 Nf5
+15. Qf3 Rfe8 16. Nf2 Qe6 17. g4 Nd6 18. f5 Qf7 19. Bf4 Ne4 20. Rfe1 Nb6 21.
+Nxe4 dxe4 22. Rxe4 Rxe4 23. Qxe4 Re8 24. Qf3 Qd5 25. Rf1 Re4 26. Kf2 h5 27. h3
+hxg4 28. hxg4 Re8 29. Qxd5+ Nxd5 30. Bd2 Kf7 31. Kf3 b5 32. Re1 Rxe1 33. Bxe1
+Ke7 34. Ke4 Kd6 35. Bd2 a5 36. a3 Kc6 37. Kf3 Ne7 38. Ke4 Nd5 39. g5 fxg5 40.
+Bxg5 b4 41. axb4 axb4 42. cxb4 Nxb4 43. Bd2 Nd3 44. d5+ Kd6 45. Bc3 Nf2+ 46.
+Kf3 Nd3 47. Ke4 Nf2+ 48. Ke3 Ng4+ 49. Kf3 Nh2+ 50. Ke4 Nf1 51. Be5+ Kd7 52. Bf4
+Ke7 53. Kf3 Kf6 54. d6 1-0
+
+[Event "Tarragona Int"]
+[Site "Tarragona"]
+[Date "1957.12.15"]
+[Round "3"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Puig Pulido, Pedro"]
+[Result "1-0"]
+[ECO "E88"]
+[PlyCount "81"]
+[EventDate "1957.12.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 d6 3. Nc3 g6 4. e4 Bg7 5. f3 c6 6. Be3 e5 7. Qd2 O-O 8. d5 cxd5
+9. cxd5 Ne8 10. O-O-O f5 11. Kb1 Nd7 12. g4 a6 13. gxf5 gxf5 14. Nh3 Qh4 15.
+Rg1 fxe4 16. Nxe4 Ndf6 17. Nxf6+ Nxf6 18. Qg2 Ne8 19. Ng5 Bf5+ 20. Bd3 Bxd3+
+21. Rxd3 Rf6 22. Ne4 Rf7 23. Rc3 Qh5 24. Bg5 Kh8 25. Rgc1 h6 26. Rc8 Rxc8 27.
+Rxc8 Rc7 28. Qg4 $1 Qf7 29. Bxh6 (29. Nxd6 $1) 29... Bxh6 30. Nxd6 Qh7+ 31. Ka1
+Bf8 32. Nxe8 Rxc8 33. Qxc8 Qd3 34. Qh3+ Kg8 35. Qe6+ Kh8 36. Qxe5+ Kg8 37. Qe6+
+Kh8 38. Qh3+ Kg8 39. Qe6+ Kh8 40. Qe1 Qxd5 41. Qh4+ 1-0
+
+[Event "Tarragona Int"]
+[Site "Tarragona"]
+[Date "1957.12.16"]
+[Round "4"]
+[White "D'Eucher, Marc"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "0-1"]
+[ECO "B08"]
+[PlyCount "50"]
+[EventDate "1957.12.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Nf3 Bg7 5. h3 O-O 6. Be3 c6 7. Qd2 Re8 8. O-O-O
+b5 9. Bd3 Qa5 10. Kb1 b4 11. Ne2 Na6 12. g4 e5 13. Ng3 Be6 14. b3 Nc7 15. Bh6
+Bh8 16. dxe5 Nd7 17. exd6 Nc5 18. dxc7 Na4 19. Ne2 c5 20. Ng5 c4 21. Bxc4 Bxc4
+22. bxc4 Nb6 23. a3 Qxa3 24. c3 bxc3 25. Qa2 c2+ 0-1
+
+[Event "Tarragona Int"]
+[Site "Tarragona"]
+[Date "1957.??.??"]
+[Round "5"]
+[White "Perez Perez, Francisco Jose"]
+[Black "O' Kelly de Galway, Alberic"]
+[Result "0-1"]
+[ECO "B93"]
+[PlyCount "97"]
+[EventDate "1957.12.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. f4 e5 7. Nf3 Nbd7 8. Bc4
+Be7 9. a4 O-O 10. O-O b6 11. Qe2 Bb7 12. Kh1 Qc7 13. fxe5 dxe5 14. Bg5 Bb4 15.
+Bxf6 Nxf6 16. Nd5 Nxd5 17. Bxd5 Bxd5 18. exd5 Bd6 19. c4 a5 20. h3 Rae8 21.
+Rae1 Qd8 22. g4 g6 23. Qe3 e4 24. Ng5 Bc5 25. Qf4 f5 26. Ne6 Rxe6 27. dxe6 Qd3
+28. Qh6 e3 29. gxf5 e2 30. Rf4 Qg3 31. Qh4 Qxh4 32. Rxh4 Bf2 33. e7 Re8 34.
+Rxe2 Bxh4 35. Re4 Bf6 36. Re6 Kf7 37. Rxb6 gxf5 38. Rb5 Kg6 39. Rxa5 Bxb2 40.
+Rb5 Bf6 41. a5 Rxe7 42. a6 Rc7 43. c5 Bd4 44. Rb6+ Kg5 45. Rb5 Bxc5 46. Ra5 Kf4
+47. Kg2 Ke3 48. Rb5 f4 49. Rb3+ 0-1
+
+[Event "Tarragona Int"]
+[Site "Tarragona"]
+[Date "1957.??.??"]
+[Round "6"]
+[White "Rossolimo, Nicolas"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "1-0"]
+[ECO "E80"]
+[PlyCount "81"]
+[EventDate "1957.12.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 e5 6. Nge2 Nbd7 7. d5 Nh5 8. Be3
+f5 9. Qc2 O-O 10. O-O-O a5 11. exf5 gxf5 12. Ng3 Ndf6 13. Bd3 e4 14. Nxh5 Nxh5
+15. fxe4 f4 16. Bd2 Be5 17. Be2 Ng7 18. Kb1 Bd7 19. Rdf1 a4 20. a3 c6 21. Qd1
+Qb6 22. Qc1 cxd5 23. Nxd5 Qd4 24. Qc2 Ne6 25. Bc3 Qc5 26. Bg4 Rf7 27. Bxe6 Bxe6
+28. Bxe5 dxe5 29. Rc1 Bg4 30. Qc3 Re8 31. Qb4 Qd4 32. c5 Be2 33. Nc3 Bd3+ 34.
+Ka1 Rg7 35. Rhd1 Rxg2 36. Qxb7 Rf8 37. c6 Kh8 38. c7 Rgg8 39. Nd5 Rc8 40. Ne7
+Bxe4 41. Qxc8 1-0
+
+[Event "Tarragona Int"]
+[Site "Tarragona"]
+[Date "1957.12.21"]
+[Round "9"]
+[White "Llado Lumbera, Jaime"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "1-0"]
+[ECO "B90"]
+[PlyCount "137"]
+[EventDate "1957.12.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 a6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. a4 e5 7. Nde2 Be7 8. g3
+Bg4 9. Bg2 Qd7 10. O-O Nc6 11. f3 Be6 12. Nd5 Bxd5 13. exd5 Nb4 14. f4 e4 15.
+Nc3 O-O 16. Nxe4 Nbxd5 17. c4 Nb6 18. b3 d5 19. Nxf6+ Bxf6 20. Rb1 Rfd8 21. c5
+Nc8 22. b4 Ne7 23. Be3 Rac8 24. Bf2 d4 25. Qb3 Nd5 26. Bxd5 Qxd5 27. Qxd5 Rxd5
+28. Rfd1 h5 29. a5 Re8 30. Re1 Kf8 31. Kg2 d3 32. Red1 Re2 33. Rb3 Rb2 34. Rxb2
+Bxb2 35. Be1 Rd4 36. Kf3 d2 37. Rxd2 Rxb4 38. Rc2 Rb3+ 39. Ke4 Bf6 40. c6 bxc6
+41. Rxc6 Rb2 42. Kf3 Rb3+ 43. Ke2 Rb2+ 44. Bd2 Ra2 45. Kd3 Ra3+ 46. Kc2 Ra2+
+47. Kd1 Ra1+ 48. Ke2 Ra2 49. Ke3 Ra3+ 50. Ke2 Ra2 51. Kd3 Ra3+ 52. Kc4 Ra2 53.
+Bb4+ Ke8 54. Rxa6 Rxh2 55. Ra8+ Kd7 56. Kd5 Kc7 57. Ra7+ Kb8 58. Rxf7 Rg2 59.
+Kc6 Rc2+ 60. Bc5 Kc8 61. Rf8+ Bd8 62. a6 Ra2 63. Bb6 Rc2+ 64. Kd5 Rd2+ 65. Ke4
+Re2+ 66. Kf3 Rd2 67. Rxd8+ Rxd8 68. Bxd8 Kxd8 69. a7 1-0
+
+[Event "Torneo entrenamiento Olimp. Munich"]
+[Site "Barcelona"]
+[Date "1958.08.??"]
+[Round "?"]
+[White "Menvielle Lacourrelle, Augusto"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "0-1"]
+[ECO "A04"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "82"]
+[EventDate "1958.08.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. d3 g6 4. g3 Bg7 5. Bg2 Nf6 6. O-O O-O 7. c3 d6 8. Nbd2
+Ne8 9. Nc4 Nc7 10. Qe2 b5 11. Ne3 Rb8 12. Rd1 b4 13. d4 bxc3 14. bxc3 cxd4 15.
+cxd4 Ba6 16. Qd2 Ne6 17. Bb2 Nc5 18. Rab1 Bd3 19. dxc5 Bxb1 20. Rxb1 dxc5 21.
+Qc1 Qd3 22. Nd2 (22. Bf1 Qxe4 23. Nd2 $11) 22... Bxb2 23. Rxb2 Rxb2 24. Qxb2
+Rb8 25. Nb3 Nd4 26. Nxc5 Ne2+ 27. Kh1 Rxb2 28. Nxd3 Rxa2 29. Bf1 Nc3 30. e5 Ne4
+31. Kg2 a5 32. Nd5 Kf8 33. Kf3 Nd2+ 34. Ke2 Nxf1+ 35. Kxf1 Rd2 36. N5f4 a4 37.
+Ke1 Rb2 $3 38. Kd1 a3 39. Kc1 Rb5 40. Ne1 a2 41. Nc2 Rc5 (41... Rb1+ 42. Kd2
+Rb2 $19) 0-1
+
+[Event "Camp. España Selecc. Regionales"]
+[Site "Barcelona"]
+[Date "1958.09.??"]
+[Round "?"]
+[White "Romero Rios, Antonio"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "0-1"]
+[ECO "A02"]
+[PlyCount "60"]
+[EventDate "1958.09.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. f4 e5 2. d3 d5 3. fxe5 Nc6 4. Nf3 Bg4 5. Bf4 d4 6. Nbd2 Nge7 7. e4 Ng6 8.
+Bg3 Ngxe5 9. Be2 Bxf3 10. Nxf3 Nxf3+ 11. Bxf3 Bb4+ 12. Kf2 Qg5 13. Qe2 Bd2 14.
+Rhd1 Be3+ 15. Kf1 O-O-O 16. Bf2 Rd6 17. c3 Ne5 18. Bxe3 dxe3 19. Kg1 Qf4 20. d4
+Rh6 21. h3 Rxh3 22. Bg4+ Nxg4 23. gxh3 Nf2 24. Qf1 Qg3+ 25. Qg2 Nxh3+ 26. Kh1
+Nf2+ 27. Kg1 Qf4 28. Qxg7 Re8 29. Qxh7 e2 30. Rd3 Rxe4 0-1
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1960.01.24"]
+[Round "8"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Llado Lumbera, Jaime"]
+[Result "0-1"]
+[ECO "B07"]
+[PlyCount "88"]
+[EventDate "1960.??.??"]
+[EventType "tourn"]
+[EventRounds "14"]
+[EventCountry "ESP"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 e5 4. dxe5 dxe5 5. Qxd8+ Kxd8 6. Bc4 Ke8 7. Nf3 Bd6
+8. Bg5 Nbd7 9. O-O-O a6 10. Nh4 h6 11. Bd2 Nc5 12. f3 g6 13. Rhe1 Be7 14. g3 c6
+15. Ng2 b5 16. Bf1 Be6 17. Kb1 a5 18. Ne3 Nfd7 19. Bg2 f6 20. f4 Nb6 21. fxe5
+fxe5 22. Ncd5 Bd8 23. Nxb6 Bxb6 24. Bc3 Bc7 25. Nd5 Bb8 26. b3 Rf8 27. Rd2 Ra7
+28. Ne3 Bc7 29. Red1 Nd7 30. Rf1 Bb6 31. Rxf8+ Kxf8 32. Nd1 Bc5 33. Nf2 Ke7 34.
+Nd3 Bd6 35. Rf2 c5 36. Kc1 c4 37. Ne1 cxb3 38. cxb3 a4 39. b4 Rc7 40. Kb2 a3+
+41. Kc2 Bxb4 42. Rf3 Bxa2 43. Bf1 Be6 44. Bxb5 a2 0-1
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1960.02.21"]
+[Round "14"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Serra Margalef, Joaquin"]
+[Result "0-1"]
+[ECO "E91"]
+[PlyCount "58"]
+[EventDate "1960.??.??"]
+[EventType "tourn"]
+[EventRounds "14"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Be2 O-O 6. Nf3 Nc6 7. d5 Nb4 8. O-O
+Na6 9. Nd4 Nc5 10. f3 a5 11. Be3 a4 12. b4 axb3 13. axb3 Rxa1 14. Qxa1 e5 15.
+dxe6 fxe6 16. b4 Na6 17. Qa3 Nh5 18. Rd1 Qh4 19. Bf2 Qg5 20. Kh1 Be5 21. Bf1
+Qh6 22. Nce2 g5 23. b5 Bxh2 24. g4 Nf4 25. Ng1 Bg3+ 26. Nh3 Bxf2 27. bxa6 Nxh3
+28. Kg2 Qh4 29. Ne2 Nf4+ 0-1
+
+[Event "Llagostera"]
+[Site "Llagostera"]
+[Date "1960.??.??"]
+[Round "1"]
+[White "Perez Perez, Francisco Jose"]
+[Black "O' Kelly de Galway, Alberic"]
+[Result "0-1"]
+[ECO "A14"]
+[PlyCount "82"]
+[EventDate "1960.??.??"]
+[EventType "tourn"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+
+1. g3 Nf6 2. Bg2 d5 3. Nf3 e6 4. O-O Be7 5. c4 c6 6. b3 O-O 7. Bb2 b6 8. d3 Bb7
+9. Nbd2 Nbd7 10. Rc1 a5 11. Qc2 Qb8 12. a3 Rc8 13. e4 b5 14. Rb1 Qa7 15. e5 Ne8
+16. Rfe1 a4 17. b4 c5 18. bxc5 bxc4 19. d4 Bc6 20. h4 Rab8 21. Ng5 Nf8 22. Bc3
+Rb3 23. Nxb3 axb3 24. Qd2 Nc7 25. Bh3 Nb5 26. Bb4 Bd8 27. f4 h6 28. Nf3 Qa4 29.
+f5 Rb8 30. Ra1 c3 31. Qe3 Ba5 32. f6 b2 33. Rab1 Bxb4 34. fxg7 Kxg7 35. axb4
+Qxb4 36. Qf4 c2 37. Qf6+ Kg8 38. Qxh6 Nxd4 39. Qg5+ Ng6 40. Nxd4 Qxd4+ 41. Kh1
+cxb1=Q 0-1
+
+[Event "Tarragona Int."]
+[Site "Tarragona"]
+[Date "1960.06.12"]
+[Round "1"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Jimeno, Angel"]
+[Result "1-0"]
+[ECO "C02"]
+[PlyCount "67"]
+[EventDate "1960.06.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2005.11.24"]
+
+1. d4 e6 2. e4 d5 3. e5 c5 4. Nf3 Nc6 5. Bd3 Nxd4 6. Nxd4 cxd4 7. O-O Ne7 8. f4
+g6 9. Nd2 Bd7 10. Nf3 Qb6 11. a3 Bg7 12. b4 Nf5 13. Bxf5 d3+ 14. Kh1 gxf5 15.
+cxd3 Rc8 16. Bb2 Qd8 17. Bd4 b6 18. Bf2 O-O 19. Bh4 Qc7 20. Ra2 Qc3 21. Rg1 f6
+22. exf6 Bxf6 23. Bxf6 Rxf6 24. Ne5 Be8 25. b5 Bxb5 26. g4 d4 27. gxf5+ Kf8 28.
+Qg4 Bc6+ 29. Rag2 Bxg2+ 30. Qxg2 Rxf5 31. Qg7+ Ke8 32. Qd7+ Kf8 33. Qxe6 Rxe5
+34. Rg8# 1-0
+
+[Event "Tarragona Int."]
+[Site "Tarragona"]
+[Date "1960.06.13"]
+[Round "2"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Lehmann, Heinz"]
+[Result "1-0"]
+[ECO "A05"]
+[PlyCount "64"]
+[EventDate "1960.06.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2005.11.24"]
+
+1. Nf3 Nf6 2. g3 g6 3. Bg2 Bg7 4. O-O O-O 5. c4 d5 6. d3 Nc6 7. cxd5 Nxd5 8.
+Nbd2 b6 9. Rb1 Bb7 10. Nc4 Qd7 11. Bd2 a5 12. Qc1 Rfe8 13. Bh6 e5 14. Bxg7 Kxg7
+15. a3 f6 16. e3 a4 17. Rd1 Red8 18. Qc2 Nde7 19. d4 Qe6 20. dxe5 fxe5 21. Ng5
+Qf6 22. f4 exf4 23. Ne4 Qe6 24. Qc3+ Kh6 25. gxf4 Nd5 26. Qe1 Nf6 27. Qh4+ Kg7
+28. f5 gxf5 29. Nxf6 Qxf6 30. Qg3+ Kf8 31. Qxc7 Qe7 32. Qf4 Qf6 1-0
+
+[Event "Tarragona Int."]
+[Site "Tarragona"]
+[Date "1960.06.14"]
+[Round "3"]
+[White "Bjelica, Dimitrije"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "0-1"]
+[ECO "B52"]
+[PlyCount "90"]
+[EventDate "1960.06.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2005.11.24"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Qxd7 5. c3 Nf6 6. d3 Nc6 7. O-O e6 8.
+Re1 Be7 9. d4 cxd4 10. cxd4 d5 11. e5 Ne4 12. Nc3 Nxc3 13. bxc3 Na5 14. Ng5 Nc4
+15. Qh5 Bxg5 16. Qxg5 O-O 17. Qg3 f5 18. a4 Rf7 19. Re2 Rc8 20. Rea2 Qe8 21. a5
+a6 22. Ra4 Qd8 23. h3 Rb8 24. Ba3 Rc8 25. Bb4 f4 26. Qg4 Rf5 27. R4a2 Rc7 28.
+Qf3 Rcf7 29. Kf1 Rg5 30. Ke1 Qe8 31. Kd1 Rff5 32. Kc2 Qg6 33. Rg1 Rxg2 34. Rxg2
+Rg5+ 35. Qd3 Rxg2 36. Qxg6 hxg6 37. Kd1 Rh2 38. Ke2 Rxh3 39. Ra1 f3+ 40. Kd3
+Rh2 41. Rf1 g5 42. Be7 Rg2 43. Rb1 Rxf2 44. Bxg5 Re2 45. Rf1 Nb2# 0-1
+
+[Event "Tarragona Int."]
+[Site "Tarragona"]
+[Date "1960.06.15"]
+[Round "4"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Serra Margalef, Joaquin"]
+[Result "1-0"]
+[ECO "E81"]
+[PlyCount "91"]
+[EventDate "1960.06.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2005.11.24"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 a5 7. Nge2 Nc6 8. Qd2
+e5 9. d5 Ne7 10. g4 Ne8 11. h4 f5 12. gxf5 gxf5 13. O-O-O f4 14. Bf2 Kh8 15.
+Ng1 Bf6 16. Bh3 Rg8 17. Bxc8 Rxc8 18. Nh3 Qd7 19. Kb1 Ng7 20. Ng5 Rcf8 21. c5
+Bxg5 22. hxg5 Ne8 23. Rh5 Rf7 24. Qd3 dxc5 25. Bxc5 b6 26. Ba3 Rg6 27. b3 Rfg7
+28. Qb5 Qxb5 29. Nxb5 Nc8 30. Bb2 Re7 31. Rc1 Kg8 32. Rc2 Ng7 33. Rh6 Rxh6 34.
+gxh6 Ne8 35. Rg2+ Kf7 36. Rg5 Ned6 37. Nxc7 Kf6 38. Rg7 Nxe4 39. fxe4 f3 40.
+Rg3 Rxc7 41. Rxf3+ Kg6 42. Bxe5 Re7 43. d6 Rd7 44. Rf8 Na7 45. Bf4 Nc6 46. e5
+1-0
+
+[Event "Tarragona Int."]
+[Site "Tarragona"]
+[Date "1960.06.16"]
+[Round "5"]
+[White "O' Kelly de Galway, Alberic"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "1-0"]
+[ECO "B63"]
+[PlyCount "91"]
+[EventDate "1960.06.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2005.11.24"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bg5 e6 7. Qd2 Be7 8.
+O-O-O O-O 9. Nb3 Qb6 10. f3 Rd8 11. Be3 Qc7 12. Qf2 d5 13. exd5 Nxd5 14. Nxd5
+exd5 15. g4 Be6 16. Nd4 Rac8 17. Kb1 Qa5 18. h3 Nb4 19. a3 Na6 20. Nb3 Qa4 21.
+f4 d4 22. Rxd4 Bxb3 23. Rxa4 Rd1+ 24. Bc1 Bxa4 25. Bg2 Rxc2 26. Qxc2 Bxc2+ 27.
+Kxc2 Rxh1 28. Bxh1 b6 29. b4 Kf8 30. Be3 Bd6 31. Kb3 Ke7 32. Be4 g6 33. Kc4 Nc7
+34. a4 Ke6 35. Bc6 f5 36. b5 Ke7 37. gxf5 gxf5 38. a5 bxa5 39. Bxa7 Bxf4 40. b6
+Na6 41. Bb5 Nb8 42. Kd5 Bg3 43. Bd3 Kf6 44. Bc2 Be5 45. b7 h6 46. Bb6 1-0
+
+[Event "Tarragona Int."]
+[Site "Tarragona"]
+[Date "1960.06.17"]
+[Round "6"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Cherta Clos, Pere"]
+[Result "1-0"]
+[ECO "D36"]
+[PlyCount "91"]
+[EventDate "1960.06.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2005.11.24"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. cxd5 exd5 5. Bg5 Be7 6. e3 c6 7. Qc2 Nbd7 8.
+Bd3 Nf8 9. Nf3 Ne6 10. Bh4 g6 11. O-O O-O 12. Rab1 Ng7 13. b4 Bf5 14. b5 Bxd3
+15. Qxd3 Nf5 16. Bg3 Nxg3 17. hxg3 Bd6 18. bxc6 bxc6 19. Qa6 Qc8 20. Qa5 Qd7
+21. Rfd1 Rfd8 22. Rb2 Rab8 23. Rxb8 Bxb8 24. Rc1 Qe8 25. Nd1 Rc8 26. Nd2 Kg7
+27. Nb3 h5 28. Nd2 Nd7 29. Nf3 Nb6 30. Qa6 Nc4 31. Rb1 Rc7 32. Qa4 Re7 33. Qb3
+Bd6 34. Qd3 a5 35. Nd2 Nxd2 36. Qxd2 Bb4 37. Qd3 Qd7 38. Qc2 Re6 39. Nb2 h4 40.
+gxh4 Re4 41. g3 Bd6 42. Kg2 g5 43. hxg5 Qg4 44. Qxc6 Re6 45. Qxd5 Bxg3 46. Qf3
+1-0
+
+[Event "Tarragona Int."]
+[Site "Tarragona"]
+[Date "1960.06.18"]
+[Round "7"]
+[White "Durao, Joaquim"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "1-0"]
+[ECO "B56"]
+[PlyCount "73"]
+[EventDate "1960.06.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2005.11.24"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. f3 e6 7. Be3 Be7 8. Qd2
+a6 9. O-O-O Bd7 10. g4 O-O 11. h4 b5 12. h5 Nxd4 13. Bxd4 b4 14. Ne2 e5 15. Be3
+Qa5 16. Kb1 d5 17. g5 d4 18. Bf2 Be6 19. Nc1 Nd7 20. Nb3 Qc7 21. g6 h6 22. f4
+f6 23. f5 Bc4 24. Be3 Rfc8 25. Bxh6 gxh6 26. Qxh6 Nf8 27. Qd2 Bxf1 28. Rdxf1
+Qc6 29. h6 Nxg6 30. Rfg1 Qxe4 31. fxg6 Qe3 32. Qg2 Qg5 33. Qb7 Qf5 34. g7 Kh7
+35. g8=Q+ Rxg8 36. Qxe7+ Kh8 37. Qg7+ 1-0
+
+[Event "Tarragona Int."]
+[Site "Tarragona"]
+[Date "1960.06.19"]
+[Round "8"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Del Hoyo, Venancio"]
+[Result "1-0"]
+[ECO "B88"]
+[PlyCount "53"]
+[EventDate "1960.06.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2005.11.24"]
+
+1. e4 c5 2. Nf3 d6 3. d4 Nf6 4. Nc3 cxd4 5. Nxd4 Nc6 6. Bc4 e6 7. O-O a6 8. Bb3
+Be7 9. Be3 O-O 10. f4 Qc7 11. Kh1 b5 12. f5 Nxd4 13. Bxd4 b4 14. Na4 Nxe4 15.
+Nb6 Rb8 16. Nxc8 Qxc8 17. fxe6 f5 18. Qh5 Qe8 19. Qf7+ Qxf7 20. exf7+ Kh8 21.
+Rxf5 Bf6 22. Rd1 Rfd8 23. g4 h6 24. Bxf6 Nxf6 25. g5 hxg5 26. Rxg5 Rb5 27. Rxd6
+1-0
+
+[Event "Tarragona Int."]
+[Site "Tarragona"]
+[Date "1960.06.20"]
+[Round "9"]
+[White "Catalan Homedes, Enrique"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "0-1"]
+[ECO "A04"]
+[PlyCount "72"]
+[EventDate "1960.06.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2005.11.24"]
+
+1. Nf3 g6 2. g3 Bg7 3. Bg2 f5 4. c4 Nf6 5. d3 O-O 6. Nc3 d6 7. Bg5 c6 8. Qd2 a5
+9. Bh6 Na6 10. Bxg7 Kxg7 11. Rb1 Nc5 12. O-O e5 13. d4 Nce4 14. Qc1 Nxc3 15.
+bxc3 e4 16. Ne1 Rf7 17. Nc2 Be6 18. Na3 Qg8 19. Rd1 Rd7 20. d5 cxd5 21. cxd5
+Bxd5 22. c4 Rc8 23. Qf4 Bxc4 24. Rxd6 Rcd8 25. Nxc4 Qxc4 26. Rdb6 Qxe2 27. Bf1
+Qxa2 28. Qe5 Qf7 29. Qxa5 Qe7 30. Qc3 Rd2 31. Qa1 R2d6 32. R6b5 e3 33. fxe3
+Qxe3+ 34. Kh1 Rd2 35. Bg2 Rxg2 36. Rb6 Rxh2+ 0-1
+
+[Event "Camp. Europa eq. sf. España-Suiza m"]
+[Site "Barcelona"]
+[Date "1961.??.??"]
+[Round "?"]
+[White "Bhend, Edwin"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "0-1"]
+[ECO "B52"]
+[PlyCount "67"]
+[EventDate "1961.02.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Qxd7 5. c4 Nf6 6. Nc3 Nc6 7. O-O g6 8.
+d4 cxd4 9. Nxd4 Bg7 10. Nde2 O-O 11. f3 a6 12. Be3 Ne5 13. b3 b5 14. cxb5 axb5
+15. Qd2 Qb7 16. Nf4 Rfc8 17. Rac1 e6 18. Rfd1 Rc6 19. Nfe2 b4 20. Na4 Rac8 21.
+Nb6 Rxc1 22. Nxc1 Rc3 23. Bd4 Rxf3 24. Qxb4 Qxe4 25. Qxd6 Nfg4 26. Qd8+ Bf8 27.
+Bc5 h5 28. Qxf8+ Kh7 29. Qd8 Qc2 30. Nc4 Rf2 31. Kh1 Rxg2 32. Rd2 Rxh2+ 33. Kg1
+Nf3+ 34. Kf1 0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.13"]
+[Round "1"]
+[White "Rodriguez Batuecas, Jordi"]
+[Black "Perez Garcia, Francisco Jose"]
+[Result "0-1"]
+[ECO "B43"]
+[WhiteElo "1551"]
+[BlackElo "1814"]
+[PlyCount "54"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Nc3 Qc7 6. Bd3 Nf6 7. O-O Be7 8.
+Qf3 O-O 9. Bg5 d6 10. Qg3 Nbd7 11. Kh1 b5 12. Bxf6 Bxf6 13. Nce2 Bb7 14. Qh3
+Ne5 15. Rac1 Qb6 16. f4 Nxd3 17. Qxd3 Rac8 18. b3 Rc7 19. Rf3 Rfc8 20. Rh3 Bxd4
+21. e5 g6 22. Qxd4 Qxd4 23. Nxd4 dxe5 24. fxe5 Rd8 25. Nf3 Bxf3 26. Rxf3 Rxc2
+27. Rcf1 Rdd2 0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.14"]
+[Round "2"]
+[White "Perez Garcia, Francisco Jose"]
+[Black "Torres Julian, Marc"]
+[Result "1-0"]
+[ECO "A25"]
+[WhiteElo "1814"]
+[BlackElo "1723"]
+[PlyCount "99"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 e5 2. e3 Nf6 3. Nc3 Nc6 4. a3 a5 5. Nf3 Be7 6. Be2 O-O 7. O-O d5 8. cxd5
+Nxd5 9. Qc2 Bg4 10. Ng5 Bxg5 11. Bxg4 Nce7 12. Ne4 Ng6 13. Nxg5 Qxg5 14. Bf3 c6
+15. g3 Qe7 16. b3 Rad8 17. Bb2 Nf6 18. d4 e4 19. Bg2 Rfe8 20. Qc3 Qc7 21. Rac1
+Nd5 22. Qc5 h5 23. b4 axb4 24. axb4 Qb6 25. Qxb6 Nxb6 26. Rc5 Na4 27. Rc2 Nxb2
+28. Rxb2 f5 29. b5 Rd5 30. bxc6 bxc6 31. Rc1 Rc8 32. Rb7 Nf8 33. Ra1 Rd7 34.
+Rb4 c5 35. Rc4 Rdc7 36. Rac1 Ne6 37. d5 Ng5 38. h4 Nf7 39. f3 Ne5 40. d6 Nxc4
+41. dxc7 Nxe3 42. Rxc5 Nxg2 43. Kxg2 exf3+ 44. Kxf3 g6 45. Kf4 Kf7 46. Kg5 Kg7
+47. Rc3 Kf7 48. Rc6 Kg7 49. Rxg6+ Kh7 50. Rc6 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.15"]
+[Round "3"]
+[White "Majumdar, Shankar"]
+[Black "Perez Garcia, Francisco Jose"]
+[Result "1-0"]
+[ECO "A47"]
+[WhiteElo "1934"]
+[BlackElo "1814"]
+[PlyCount "47"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 e6 3. Bf4 c5 4. e3 Nc6 5. c3 Be7 6. Bd3 O-O 7. h3 b6 8. Nbd2
+Bb7 9. O-O cxd4 10. exd4 Qc8 11. Re1 Ba6 12. Bc2 Qb7 13. Rc1 Nd5 14. Bg5 d6 15.
+c4 Ndb4 16. Bb1 Nxd4 17. Bxe7 Nxf3+ 18. Nxf3 Qxe7 19. Qa4 Bb7 20. Qxb4 Bxf3 21.
+gxf3 Qg5+ 22. Kf1 Qh4 23. Qc3 Qxh3+ 24. Ke2 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.16"]
+[Round "4"]
+[White "Perez Garcia, Francisco Jose"]
+[Black "Vicente Soriano, Josep"]
+[Result "1-0"]
+[ECO "D78"]
+[WhiteElo "1814"]
+[BlackElo "1698"]
+[PlyCount "63"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 Nf6 2. Nf3 g6 3. Nc3 Bg7 4. g3 e6 5. Bg2 d5 6. d4 O-O 7. O-O c6 8. Qc2
+Nbd7 9. Ne5 dxc4 10. Rd1 Nb6 11. Na4 Nfd7 12. Nxc4 Nxc4 13. Qxc4 Nb6 14. Qc2
+Nxa4 15. Qxa4 Qb6 16. Rb1 e5 17. d5 cxd5 18. Bxd5 a5 19. Be3 Qf6 20. b4 Bf5 21.
+Rbc1 axb4 22. Qxb4 Be6 23. Qxb7 Rab8 24. Qa6 Bxd5 25. Qxf6 Bxf6 26. Rxd5 Rb2
+27. Rd2 Rfb8 28. Rcc2 Rb1+ 29. Kg2 g5 30. Rd6 Be7 31. Rd7 Kf8 32. Rcc7 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.17"]
+[Round "5"]
+[White "Pena Mor, David"]
+[Black "Perez Garcia, Francisco Jose"]
+[Result "1-0"]
+[ECO "A50"]
+[WhiteElo "1764"]
+[BlackElo "1814"]
+[PlyCount "67"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 b6 4. e4 d6 5. Bg5 Be7 6. Nf3 O-O 7. Bd3 Nfd7 8. Bxe7
+Qxe7 9. e5 Bb7 10. O-O dxe5 11. dxe5 Rd8 12. Re1 Nc6 13. Qb1 h6 14. a3 Na5 15.
+Be4 Bxe4 16. Qxe4 Qc5 17. Rac1 Qxc4 18. b4 Qxe4 19. Nxe4 Nb7 20. Rxc7 Rab8 21.
+h4 a5 22. Rd1 Nf8 23. Rxd8 Nxd8 24. Nd6 axb4 25. axb4 Ng6 26. g3 Kf8 27. h5 Ne7
+28. Nd4 Nd5 29. Rc4 Ke7 30. b5 Kd7 31. Nc6 Nxc6 32. bxc6+ Kc7 33. Nb5+ Kc8 34.
+c7 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.18"]
+[Round "6"]
+[White "Perez Garcia, Francisco Jose"]
+[Black "Salazar Navas, Josep"]
+[Result "0-1"]
+[ECO "A31"]
+[WhiteElo "1814"]
+[BlackElo "1733"]
+[PlyCount "34"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 c5 3. Nf3 cxd4 4. Nxd4 e5 5. Nb5 d5 6. cxd5 Bc5 7. e3 O-O 8.
+Bc4 a6 9. N5c3 e4 10. Nd2 Qe7 11. Qc2 Bf5 12. a3 Rd8 13. b4 Bd6 14. f3 exf3 15.
+Qxf5 Qxe3+ 16. Ne2 fxe2 17. Ne4 Qxe4 0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.19"]
+[Round "7"]
+[White "Valero Recalde, Pablo"]
+[Black "Perez Garcia, Francisco Jose"]
+[Result "0-1"]
+[ECO "D73"]
+[WhiteElo "1730"]
+[BlackElo "1814"]
+[PlyCount "58"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. g3 O-O 5. Bg2 d5 6. Nc3 c6 7. b3 dxc4 8. bxc4
+Nbd7 9. O-O Nb6 10. Qd3 Be6 11. Nd2 Qc7 12. a4 a5 13. Rb1 Rad8 14. Ba3 Rfe8 15.
+Rfc1 Nfd7 16. f4 Nf6 17. d5 Bc8 18. e4 Nbd7 19. e5 Ng4 20. d6 Qb8 21. c5 exd6
+22. Bh3 Nxc5 23. Bxc5 dxc5 24. Qe2 Nxe5 25. Bxc8 Rxd2 26. Qe3 Qxc8 27. fxe5 Qd7
+28. Rd1 Rxd1+ 29. Rxd1 Qe7 0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.20"]
+[Round "8"]
+[White "Perez Garcia, Francisco Jose"]
+[Black "Grasa Solanas, Oscar"]
+[Result "0-1"]
+[ECO "A21"]
+[WhiteElo "1814"]
+[BlackElo "1676"]
+[PlyCount "148"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 e5 2. e3 Nf6 3. Nc3 Bb4 4. Qc2 O-O 5. a3 Bxc3 6. Qxc3 d5 7. cxd5 Nxd5 8.
+Qc2 f5 9. Bc4 f4 10. e4 c6 11. exd5 cxd5 12. Ba2 e4 13. Ne2 f3 14. Ng3 fxg2 15.
+Rg1 Nc6 16. Ne2 Bh3 17. d3 Ne5 18. dxe4 Nf3+ 19. Kd1 Nxg1 20. Nxg1 Bg4+ 21. Ke1
+Be6 22. Be3 Kh8 23. Rd1 Rc8 24. Qe2 Qh4 25. exd5 Bg4 26. Rd4 Qxh2 27. f3 Bf5
+28. d6 Rc1+ 29. Rd1 Rxd1+ 30. Qxd1 Qg3+ 31. Ke2 Rd8 32. Qd5 Qg6 33. Bf4 Qf6 34.
+Be5 Re8 35. f4 Qh4 36. Qf7 Bg4+ 37. Nf3 Bxf3+ 38. Kd3 Be4+ 39. Kc4 Rc8+ 40. Kb4
+Qh6 41. Qd7 Ra8 42. Qg4 a5+ 43. Kb5 Bc6+ 44. Kc4 b5+ 45. Kc3 Bb7 46. Bb1 Rc8+
+47. Kd2 Rd8 48. Bf5 Rxd6+ 49. Bd3 Rd8 50. Ke3 g1=Q+ 51. Qxg1 Qh3+ 52. Kf2 Qh4+
+53. Ke2 Qh5+ 54. Kd2 Rxd3+ 55. Kxd3 Qf3+ 56. Kc2 Be4+ 57. Kc1 Bg6 58. Qd4 Qc6+
+59. Kd2 Qc2+ 60. Ke3 Qc1+ 61. Kf2 Qc2+ 62. Kg3 Qb3+ 63. Kh4 Qg8 64. Qa7 a4 65.
+Kg5 Qd8+ 66. Kg4 Qd1+ 67. Kg3 Qd3+ 68. Kh4 Qd8+ 69. Kg4 h5+ 70. Kf3 Qd3+ 71.
+Qe3 Be4+ 72. Kf2 Qc2+ 73. Kg3 Qg2+ 74. Kh4 Qg4# 0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.21"]
+[Round "9"]
+[White "Serentill Tost, Eduard"]
+[Black "Perez Garcia, Francisco Jose"]
+[Result "1-0"]
+[ECO "B43"]
+[WhiteElo "1639"]
+[BlackElo "1814"]
+[PlyCount "85"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. a3 Qc7 6. Be2 Nf6 7. Nc3 Be7 8. O-O
+O-O 9. Be3 b5 10. Bf3 Bb7 11. Qd3 Nc6 12. Nxc6 dxc6 13. Qd4 c5 14. Qd2 Rfd8 15.
+Qe2 b4 16. axb4 cxb4 17. Na4 Qe5 18. Nb6 Rab8 19. Nc4 Qb5 20. Ra5 Qd7 21. Bf4
+Rbc8 22. Nb6 Qd4 23. Nxc8 Rxc8 24. b3 Nxe4 25. Bxe4 Bxe4 26. Be3 Qd8 27. Ra2
+Qd5 28. f3 Bf5 29. Rd1 Qe5 30. Rd2 h6 31. Bd4 Qf4 32. Qe5 Qxe5 33. Bxe5 Bc5+
+34. Kf1 Be3 35. Re2 Bg5 36. Bd6 Rd8 37. Bxb4 Bf4 38. g3 Rd1+ 39. Re1 Bd2 40.
+Rxd1 Bxb4 41. Rd8+ Kh7 42. Ra8 a5 43. R8xa5 1-0

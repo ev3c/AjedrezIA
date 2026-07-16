@@ -1,0 +1,62 @@
+[Event "C. E. Barcelona - Penya Gracienca m"]
+[Site "Barcelona"]
+[Date "1928.??.??"]
+[Round "?"]
+[White "Munne, JA."]
+[Black "Sasot, Victori"]
+[Result "1-0"]
+[ECO "C45"]
+[PlyCount "81"]
+[EventDate "1928.??.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 d6 5. Bb5 Bd7 6. O-O Be7 7. Be3 Nf6 8.
+Nc3 O-O 9. Bd3 Ne5 10. f4 Ng6 11. f5 Ne5 12. Be2 c5 13. Nf3 Bc6 14. Bd3 Qc7 15.
+Qe2 a6 16. b3 b5 17. Nxe5 dxe5 18. Bg5 Qb7 19. Rab1 b4 20. Bxf6 Bxf6 21. Nd1
+Bd8 22. Nf2 Bb6 23. Kh1 a5 24. Ng4 f6 25. Rf3 Rad8 26. Rh3 Be8 27. Rf1 Qe7 28.
+Rff3 Bf7 29. Rfg3 Kh8 30. Rh4 Qd6 31. Ne3 h6 32. Rgh3 Bg8 33. Nd5 Rd7 34. Bb5
+Ra7 35. Bc4 Rd8 36. Qg4 Rdd7 37. Rd3 Qb8 38. Nxb6 Rxd3 39. cxd3 Qxb6 40. Rxh6+
+Bh7 41. Rxh7+ 1-0
+
+[Event "C. E. Barcelona - Penya Gracienca m"]
+[Site "Barcelona"]
+[Date "1928.??.??"]
+[Round "?"]
+[White "Vilardebo Picurena, Josep"]
+[Black "Munne, JA."]
+[Result "0-1"]
+[ECO "B13"]
+[PlyCount "60"]
+[EventDate "1928.??.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Bd3 Nf6 5. h3 Nc6 6. c3 e6 7. Nf3 Bd6 8. O-O
+Bd7 9. Re1 Qc7 10. Bg5 O-O-O 11. b4 h6 12. Be3 Rde8 13. a4 Ne4 14. a5 Ne7 15.
+b5 Kb8 16. Qb3 Qc8 17. Rc1 Nf5 18. c4 Nxe3 19. fxe3 Bg3 20. Bxe4 dxe4 21. Nfd2
+e5 22. Nxe4 exd4 23. Nxg3 Rxe3 24. Qb4 Rxg3 25. Na3 Qc7 26. b6 Rxg2+ 27. Kxg2
+Bc6+ 28. Kf1 Qf4+ 29. Ke1 Qe3+ 30. Kd1 Qd3+ 0-1
+
+[Event "Barcelona sim"]
+[Site "Barcelona"]
+[Date "1928.??.??"]
+[Round "?"]
+[White "Alekhine, Alexander"]
+[Black "Munne, JA."]
+[Result "1-0"]
+[ECO "B15"]
+[PlyCount "85"]
+[EventDate "1928.01.24"]
+[EventType "simul"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 e5 6. Nf3 Bg4 7. dxe5 Nd5 8.
+a3 Nd7 9. c4 N5b6 10. Bd3 Bd6 11. e6 fxe6 12. Bg6+ hxg6 13. Qxd6 Nf6 14. Qxd8+
+Rxd8 15. Ne5 Bf5 16. Be3 Nfd7 17. Nxd7 Nxd7 18. O-O-O e5 19. Bg5 Nf6 20. h3 Kf7
+21. Rhe1 Rd4 22. b3 Rhd8 23. Rxd4 exd4 24. Kd2 c5 25. Re5 b6 26. Nxf5 gxf5 27.
+Rxf5 Ke6 28. Bxf6 Rf8 29. g4 Rxf6 30. Rxf6+ Kxf6 31. f4 g5 32. fxg5+ Kxg5 33.
+Kd3 Kf4 34. b4 a5 35. bxc5 bxc5 36. a4 Kg5 37. Ke4 Kf6 38. h4 Kf7 39. Kf4 Kg6
+40. g5 Kg7 41. h5 Kg8 42. g6 Kg7 43. Kg5 1-0

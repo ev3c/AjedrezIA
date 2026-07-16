@@ -1,0 +1,216 @@
+[Event "Mataro Nacional"]
+[Site "Mataro"]
+[Date "1948.10.29"]
+[Round "1"]
+[White "Xaudaro, Camilo"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "0-1"]
+[ECO "E13"]
+[PlyCount "64"]
+[EventDate "1948.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. d4 b6 3. c4 Bb7 4. Nc3 e6 5. Bg5 Bb4 6. e3 h6 7. Bh4 Bxc3+ 8.
+bxc3 d6 9. Bd3 Nbd7 10. O-O Qe7 11. Qe2 e5 12. Bf5 g5 13. Bg3 Be4 14. Bxd7+
+Nxd7 15. Nd2 Bb7 16. Rfe1 O-O-O 17. f4 $2 (17. e4 $142) 17... h5 18. fxe5 dxe5
+19. h3 f5 20. e4 f4 21. Bf2 Rdg8 22. Rf1 g4 23. Kh1 f3 24. Qd3 g3 25. Nxf3 gxf2
+26. Rxf2 Rg3 27. Qe2 exd4 28. cxd4 Qxe4 29. Qd2 Rhg8 30. Kh2 Nf6 31. Re1 Qg6
+32. Nh4 Rxh3+ 0-1
+
+[Event "Mataro Nacional"]
+[Site "Mataro"]
+[Date "1948.10.30"]
+[Round "2"]
+[White "Pujol, Ramon"]
+[Black "Xaudaro, Camilo"]
+[Result "0-1"]
+[ECO "C01"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "72"]
+[EventDate "1948.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. Bf4 Bd6 5. Bxd6 Qxd6 6. Bd3 Nf6 7. c3 O-O 8.
+Nf3 Re8+ 9. Be2 Qe7 10. Na3 Bf5 11. Ne5 Nbd7 12. f4 Nxe5 13. fxe5 Ne4 14. O-O
+Qg5 15. Qd3 Re6 16. Qf3 Rg6 17. g3 (17. h4 $1 $11) 17... Be6 18. Qf4 Qe7 19.
+Nc2 Bh3 20. Rfe1 Rf8 21. Bf3 f5 22. Ne3 c6 23. a3 Rh6 24. Bg2 g5 25. Qf1 $4 (
+25. Qf3 {daba un poco más de vida.}) 25... f4 $1 26. Bxh3 fxe3 27. Bf5 Nf2 28.
+g4 Nxg4 29. Qg2 (29. Bxg4 Rxf1+ 30. Rxf1 Rh4 {tampoco daba nada al blanco.})
+29... Nxh2 30. Rxe3 Rxf5 31. Rh3 Rxh3 32. Qxh3 Nf3+ 33. Kh1 Rf4 34. Qc8+ Kg7
+35. e6 g4 36. Kg2 Re4 0-1
+
+[Event "Mataro Nacional"]
+[Site "Mataro"]
+[Date "1948.10.31"]
+[Round "3"]
+[White "Xaudaro, Camilo"]
+[Black "Recoder, Jaime"]
+[Result "1-0"]
+[ECO "D02"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "59"]
+[EventDate "1948.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 g6 3. g3 Bg7 4. Bg2 O-O 5. O-O d5 6. Re1 Nc6 7. c3 Ne8 8. Nbd2
+f5 9. b4 Nd6 10. Qb3 e6 11. e3 Qe7 12. Bb2 g5 13. Re2 g4 14. Ne1 h5 15. Nd3 h4
+16. Nf4 h3 17. Bh1 Kh7 18. a3 b6 $2 (18... a5) 19. c4 dxc4 20. Nxc4 Ba6 $2 (
+20... Bd7 $142) 21. Nxd6 Bxe2 22. Bxc6 Rad8 (22... cxd6 23. Bxa8 Rxa8 24. Nxe2
+$18) 23. Nb7 Rd6 24. Nxd6 Qxd6 25. Qxe6 Qxe6 26. Nxe6 Rg8 27. Rc1 Bf6 28. Nxc7
+Rd8 29. Nd5 Bg7 30. Nf4 1-0
+
+[Event "Mataro Nacional"]
+[Site "Mataro"]
+[Date "1948.11.01"]
+[Round "4"]
+[White "Toran Albero, Roman"]
+[Black "Xaudaro, Camilo"]
+[Result "1-0"]
+[ECO "C10"]
+[PlyCount "47"]
+[EventDate "1948.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Nd7 5. Nf3 Ngf6 6. Bd3 Be7 7. O-O O-O 8.
+Qe2 b6 9. Nxf6+ Nxf6 10. Rd1 Bb7 11. c4 Kh8 12. Bc2 Qc8 13. b3 Re8 14. Bg5 c5
+$6 15. Ne5 Kg8 $2 16. Bxf6 Bxf6 17. Bxh7+ Kxh7 $4 18. Qh5+ Kg8 19. Qxf7+ Kh7
+20. Rd3 Bxg2 21. Kxg2 Qd8 22. Rh3+ Bh4 23. Qh5+ Kg8 24. Rxh4 1-0
+
+[Event "Mataro Nacional"]
+[Site "Mataro"]
+[Date "1948.11.02"]
+[Round "5"]
+[White "Xaudaro, Camilo"]
+[Black "Valls Boixeda, Arcadio"]
+[Result "1/2-1/2"]
+[ECO "D37"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "129"]
+[EventDate "1948.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 d5 4. Nc3 Nbd7 5. e3 b6 6. Qc2 Bb4 7. Bd2 Bb7 8. cxd5
+Bxc3 9. Bxc3 Bxd5 10. Ne5 Nxe5 11. dxe5 Ne4 12. Bd3 Nc5 13. e4 Bc6 14. Rd1 Qh4
+15. O-O Nxd3 16. Qxd3 Qxe4 17. Qg3 Qg6 18. Qh3 O-O 19. Rd4 Be4 $6 (19... Rad8
+$142) 20. Re1 Bf5 21. Qh4 c5 22. Rd7 Qg4 23. Qxg4 Bxg4 24. f3 Bf5 25. Red1 Bc2
+26. R1d6 (26. R1d2) 26... Ba4 27. Rc7 Rfc8 28. Rxc8+ Rxc8 29. Kf2 Bc6 30. g4
+Kf8 31. h4 Ke7 32. Ke3 Bd5 33. a3 h6 34. f4 f6 35. g5 hxg5 36. hxg5 fxg5 37.
+fxg5 Rf8 38. g6 Rf5 (38... Rf3+ $1 39. Ke2 Rg3 40. a4 Rxg6 $17) 39. a4 Rf3+ 40.
+Kd2 Bb7 41. b4 c4 42. Rd4 Bd5 43. Rg4 Rf2+ 44. Ke3 Rf3+ 45. Kd2 Rd3+ 46. Kc2
+Re3 47. Kd2 Re4 48. Rg1 Rf4 49. b5 Rf2+ 50. Ke3 Rf3+ 51. Kd2 Rd3+ 52. Kc2 Be4
+53. Kb2 Rf3 54. Rg4 Rf2+ 55. Ka3 Bd5 56. Bb4+ Ke8 57. Rg3 Kd7 58. Bc3 Be4 59.
+Rg4 Bd5 60. Rg1 Rf3 61. Kb2 Kc7 62. Rg4 Kb7 63. Rg1 a6 64. Rg4 Rf2+ 65. Kb1
+1/2-1/2
+
+[Event "Mataro Nacional"]
+[Site "Mataro"]
+[Date "1948.11.03"]
+[Round "6"]
+[White "Xaudaro, Camilo"]
+[Black "Medina Garcia, Antonio"]
+[Result "0-1"]
+[ECO "D46"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "76"]
+[EventDate "1948.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 d5 4. Nc3 c6 5. e3 Nbd7 6. Qc2 Bd6 7. Bd3 O-O 8. O-O
+Qe7 9. Re1 dxc4 10. Bxc4 e5 11. e4 exd4 12. Nxd4 Bxh2+ $6 (12... Ne5) 13. Kf1
+$2 (13. Kxh2 Qe5+ (13... Ng4+ 14. Kg1 $18) 14. Kg1 Qxd4 15. Be2 Ne5 16. Rd1 $36
+) 13... Qe5 14. Nce2 $2 (14. Rd1) 14... Qh5 15. Nf3 Ne5 16. Nxe5 Bxe5 17. f3
+Qh1+ 18. Kf2 Qh4+ 19. Kf1 Nh5 20. Be3 Bh3 (20... Ng3+ $142 21. Kg1 (21. Nxg3
+Bxg3 $19) 21... Qh1+ 22. Kf2 Qh2 $19) 21. Rec1 Rad8 22. Bf2 Bxg2+ 23. Kxg2 Qg5+
+$2 (23... Qh2+ $1 24. Kf1 Qh3+ 25. Ke1 (25. Kg1 Bh2+ $19) 25... Qh1+ 26. Ng1
+Bh2 $19 (26... Bg3 $144)) 24. Kf1 Rd2 25. Qb3 Rxb2 26. Qe3 Nf4 27. Nxf4 Bxf4
+28. Qc3 Be5 29. Qe3 Qh5 30. f4 Qh1+ 31. Bg1 Bxf4 (31... Qg2+ $1 32. Ke1 Bf6 $19
+) 32. Qxf4 Qg2+ 33. Ke1 Qxg1+ 34. Bf1 Re8 35. Rc4 b5 36. Rxc6 Rxe4+ 37. Qxe4
+Qf2+ 38. Kd1 Qd2# 0-1
+
+[Event "Mataro Nacional"]
+[Site "Mataro"]
+[Date "1948.11.04"]
+[Round "7"]
+[White "Golmayo de la Torriente, Manuel"]
+[Black "Xaudaro, Camilo"]
+[Result "1-0"]
+[ECO "A22"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "85"]
+[EventDate "1948.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 e5 2. Nc3 d6 3. g3 Nd7 4. Bg2 Ngf6 5. Nf3 Nc5 6. O-O Be7 7. d4 exd4 8.
+Nxd4 O-O 9. e4 c6 10. h3 Qb6 11. Rb1 Ne6 12. Nf5 Qc7 13. Nxe7+ Qxe7 14. b3 Re8
+15. Re1 Nd7 (15... a5 $142) (15... Nc5 16. Bf4 Rd8 17. Rb2 Ne8 $14) 16. Qd2
+Ndf8 17. f4 h6 18. Ba3 Rd8 19. Rbd1 c5 20. Nd5 Qd7 21. Bb2 Nh7 22. f5 Nc7 23.
+Qc3 f6 24. Nf4 Nf8 25. Bf3 Qe7 26. Bh5 Bd7 27. Nd5 Nxd5 28. exd5 Ne6 29. dxe6
+Bc6 30. Bf3 Rac8 31. Bc1 Kh7 32. Bf4 a6 33. Kf2 b5 34. Bxc6 Rxc6 35. Rd5 bxc4
+36. Qxc4 Rb6 37. Red1 g5 38. fxg6+ Kxg6 39. Qe4+ Kg7 40. Bxh6+ Kxh6 41. Qh4+
+Kg7 42. Rh5 Qxe6 43. Rh7+ 1-0
+
+[Event "Mataro Nacional"]
+[Site "Mataro"]
+[Date "1948.11.05"]
+[Round "8"]
+[White "Xaudaro, Camilo"]
+[Black "Saborido Carre, Rafael"]
+[Result "0-1"]
+[ECO "A47"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "96"]
+[EventDate "1948.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 e6 3. e3 b6 4. g3 Bb7 5. Bg2 Be7 6. O-O O-O 7. Nbd2 c5 8. c3
+Qc7 9. Re1 d5 10. Ne5 Bd6 11. f4 Ne8 12. Qg4 Kh8 13. Qh3 Qe7 14. Ndf3 Kg8 15.
+Ng5 h6 16. Ngf3 Nf6 17. g4 Ne4 18. Qh5 Nd7 19. g5 Bxe5 20. dxe5 hxg5 21. fxg5
+g6 22. Qg4 Kg7 23. Qf4 Rh8 24. h4 Rh7 25. Bf1 Bc6 26. Be2 a6 27. Kg2 Bb5 28. c4
+Bc6 29. Bd3 (29. Nd2) 29... b5 30. Bxe4 dxe4 31. Nd2 Nb6 32. b3 Rd8 33. Kg3
+Rhh8 34. Rh1 Rb8 35. Rh2 (35. Qf6+ Qxf6 36. exf6+ Kh7 37. Ba3 $14 (37. Kf4 Rhe8
+$11)) 35... Qd7 36. Nxe4 Bxe4 37. Qxe4 bxc4 38. Rd2 Qb7 39. Qf4 $2 (39. Qxb7
+Rxb7 40. e4 cxb3 41. axb3 c4 $13) 39... Nd5 40. Qxc4 Nxe3 41. Qd3 Nf5+ 42. Kf2
+Rxh4 43. Bb2 Rh2+ 44. Ke1 Qh1+ 45. Qf1 Qxf1+ 46. Kxf1 Rxd2 47. Bc3 Rc2 48. Ba5
+Rh8 0-1
+
+[Event "Mataro Nacional"]
+[Site "Mataro"]
+[Date "1948.11.06"]
+[Round "9"]
+[White "Valls Tona, Martin"]
+[Black "Xaudaro, Camilo"]
+[Result "0-1"]
+[ECO "E90"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "94"]
+[EventDate "1948.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 d6 3. Nc3 g6 4. e4 Nbd7 5. Nf3 Bg7 6. a3 O-O 7. Be3 b6 8. Qd2
+Bb7 9. Bd3 c5 10. d5 e5 11. dxe6 fxe6 12. Bc2 Qb8 13. Rd1 Ne5 14. Nxe5 dxe5 15.
+O-O Ba6 16. b3 Rf7 17. Qd6 Qe8 18. Qd2 Rd7 19. Qe2 Rad8 20. Bg5 h6 21. Bh4 Rd4
+22. Bxf6 Bxf6 23. Qg4 Kg7 24. Qe2 Bg5 25. Nb1 R8d6 26. g3 Qd7 27. f4 $2 (27. h4
+$142) 27... Rxd1 28. Bxd1 exf4 29. h4 Rd3 $5 (29... Be7 $142) 30. hxg5 Rxg3+
+31. Kh1 e5 $2 (31... hxg5 $1 $17 32. Rf3 Rxf3 33. Qxf3 Qd4 34. Nc3 g4 $17) 32.
+gxh6+ Kxh6 33. Rf2 Bb7 34. Nd2 Qd4 (34... Re3 $142) 35. Bc2 Bc8 36. Qf1 $2 (36.
+Nf3 $142 $11) 36... Bh3 (36... Rh3+ $1 $19) 37. Rh2 Qc3 38. Bd1 (38. Bb1) 38...
+Kg7 39. Qf2 Qa1 40. Qe1 Bg4 41. Re2 Qc1 42. Nf1 Bf3+ 43. Kh2 Bxe2 44. Qxe2 f3
+45. Qe3 Rg2+ 46. Kh3 Qxd1 47. Ng3 Qd7+ 0-1

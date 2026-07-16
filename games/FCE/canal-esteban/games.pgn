@@ -1,0 +1,363 @@
+[Event "?"]
+[Site "Barcelona"]
+[Date "1935.??.??"]
+[Round "?"]
+[White "NN"]
+[Black "Canal, Esteban"]
+[Result "0-1"]
+[ECO "C20"]
+[PlyCount "18"]
+[EventDate "1935.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Ne2 d5 3. exd5 Qxd5 4. Nbc3 Qa5 5. d4 Nc6 6. d5 Nb4 7. Bd2 Bf5 8.
+Rc1 Bxc2 9. Rxc2 Nd3# 0-1
+
+[Event "Reus Int"]
+[Site "Reus"]
+[Date "1936.??.??"]
+[Round "1"]
+[White "Canal, Esteban"]
+[Black "Sanz Aguado, Jose"]
+[Result "1-0"]
+[ECO "C13"]
+[PlyCount "67"]
+[EventDate "1936.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 e6 2. e4 d5 3. Nc3 Nf6 4. Bg5 Be7 5. e5 Nfd7 6. h4 h6 7. Bxe7 Qxe7 8. Bd3
+a6 9. Qg4 O-O 10. Qh5 c5 11. f4 cxd4 12. Nce2 Qb4+ 13. Kf2 f6 14. Nf3 fxe5 15.
+fxe5 Qd2 16. Qg6 Qe3+ 17. Ke1 Nxe5 18. Qh7+ Kf7 19. Nxe5+ Qxe5 20. Rf1+ Ke7 21.
+Rxf8 Kxf8 22. Qh8+ Ke7 23. Qxc8 Qh2 24. Qxb7+ Nd7 25. Qxa8 Qh1+ 26. Kd2 Qxa1
+27. Qb7 Qf1 28. Bxa6 Kd6 29. Qb4+ Kc7 30. Qa5+ Kd6 31. Bb5 Nf6 32. Qd8+ Kc5 33.
+Qc7+ Kxb5 34. Nxd4+ 1-0
+
+[Event "Reus Int"]
+[Site "Reus"]
+[Date "1936.06.22"]
+[Round "2"]
+[White "Grob, Henry"]
+[Black "Canal, Esteban"]
+[Result "0-1"]
+[ECO "D11"]
+[PlyCount "82"]
+[EventDate "1936.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Qc2 Bg4 5. Ne5 Bh5 6. e3 e6 7. Bd3 Nbd7 8. O-O
+Nxe5 9. dxe5 Nd7 10. f4 Nc5 11. cxd5 Nxd3 12. Qxd3 cxd5 13. Nc3 Be7 14. f5 O-O
+15. e4 dxe4 16. Qh3 Bc5+ 17. Be3 Bxe3+ 18. Qxe3 exf5 19. Rxf5 Bg6 20. Rf2 Qd3
+21. Qg5 Qd8 22. Qg3 Qa5 23. Rd1 Rad8 24. Rfd2 Rd3 25. Qf4 Rfd8 26. h4 Qc5+ 27.
+Kh1 Qd4 28. Rxd3 exd3 29. Qg3 d2 30. Rf1 Bh5 31. e6 fxe6 32. Qg5 d1=Q 33. Nxd1
+Bxd1 34. Qe7 Bh5 35. Qxe6+ Kh8 36. Qe7 h6 37. Rf8+ Rxf8 38. Qxf8+ Kh7 39. Qf5+
+Bg6 40. Qh3 Qxb2 41. a3 Be4 0-1
+
+[Event "Reus Int"]
+[Site "Reus"]
+[Date "1936.06.24"]
+[Round "4"]
+[White "Ribera Arnal, Angel"]
+[Black "Canal, Esteban"]
+[Result "1/2-1/2"]
+[ECO "D18"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "71"]
+[EventDate "1936.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 c6 4. Nc3 dxc4 5. a4 Bf5 6. e3 e6 7. Bxc4 Bb4 8. O-O
+O-O 9. Nh4 Bg4 10. Be2 Bxe2 11. Qxe2 Nd5 12. Nf3 Nd7 (12... Nxc3 13. bxc3 Bxc3
+14. Rb1) 13. Bd2 Qa5 14. Nxd5 cxd5 15. Bxb4 Qxb4 16. Qd2 Qxd2 17. Nxd2 Rfc8 18.
+Rfc1 Kf8 19. Kf1 Ke7 20. Ke2 Kd6 21. Kd3 Rc6 22. Rxc6+ bxc6 23. Nb3 e5 (23...
+Rb8 24. Kc3 e5 25. Rc1) 24. Rc1 Rb8 25. Kc3 exd4+ 26. exd4 Re8 27. Kd3 Rb8 28.
+Kc3 Nf6 29. f3 Re8 30. Kd3 Rb8 31. Kc3 Nd7 32. Re1 Rc8 33. Kd3 c5 34. dxc5+
+Nxc5+ 35. Nxc5 Rxc5 36. b3 1/2-1/2
+
+[Event "Reus Int"]
+[Site "Reus"]
+[Date "1936.06.27"]
+[Round "7"]
+[White "Canal, Esteban"]
+[Black "Cherta Clos, Pere"]
+[Result "1-0"]
+[ECO "D27"]
+[PlyCount "83"]
+[EventDate "1936.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. c4 d5 3. cxd5 cxd5 4. exd5 Qxd5 5. Nc3 Qd8 6. d4 e6 7. Bc4 Nf6 8.
+Nf3 Be7 9. O-O O-O 10. Qe2 a6 11. a4 Nc6 12. Rd1 Nb4 13. Ne5 Nbd5 14. Bg5 Nxc3
+15. bxc3 Nd5 16. Bd2 Bd7 17. f4 Be8 18. Qf3 f6 19. Ng4 Rc8 20. Bb3 h5 21. Ne3
+Bf7 22. f5 Nxe3 23. fxe6 Be8 24. Qxe3 g5 25. h4 Kg7 26. Rf1 Bg6 27. hxg5 fxg5
+28. Rxf8 Qxf8 29. Rf1 Qe8 30. Qe5+ Kh6 31. Rf6 Bxf6 32. Qxf6 b5 33. Qxg5+ Kh7
+34. Qh6+ Kg8 35. e7+ Rc4 36. axb5 axb5 37. Qg5 Kh7 38. Bxc4 bxc4 39. Bf4 Kg8
+40. Qf6 Qf7 41. e8=Q+ Qxe8 42. Be5 1-0
+
+[Event "Reus Int"]
+[Site "Reus"]
+[Date "1936.06.28"]
+[Round "8"]
+[White "Silberman, Heinrich"]
+[Black "Canal, Esteban"]
+[Result "0-1"]
+[ECO "C13"]
+[Annotator "Travesset,Joaquim"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[PlyCount "38"]
+[EventDate "1936.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 c6 4. Nc3 dxc4 5. a4 Bf5 6. Ne5 Na6 7. f3 Nd7 8. Nxc4
+e5 9. e4 exd4 10. Qxd4 Nb4 11. Na3 Be6 12. Bc4 Bxc4 13. Qxc4 Ne5 14. Qb3 Ned3+
+15. Kf1 Nxc1 16. Rxc1 Qd3+ 17. Kf2 Qd2+ 18. Ne2 Nd3+ 19. Kg3 Qxe2 (19... Qg5+
+$142) 0-1
+
+[Event "Reus Int"]
+[Site "Reus"]
+[Date "1936.06.30"]
+[Round "10"]
+[White "Canal, Esteban"]
+[Black "Koblenz, Aleksandrs"]
+[Result "0-1"]
+[ECO "C11"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "102"]
+[EventDate "1936.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 dxe4 5. Nxe4 Be7 6. Bxf6 gxf6 7. Nf3 c6 8.
+Qd2 Nd7 9. O-O-O b6 10. Qf4 Nf8 11. c4 Ng6 12. Qe3 Bb7 13. Kb1 a6 14. Be2 Qc7
+15. d5 cxd5 16. cxd5 Qf4 17. Nc3 Bc5 18. Qd3 Rd8 19. g3 Qc7 20. Qc4 Qc8 21.
+dxe6 Rxd1+ 22. Rxd1 Qxe6 23. Nd4 Qxc4 24. Bxc4 O-O 25. Bd5 Bc8 26. Ne4 Bxd4 27.
+Rxd4 Kg7 28. Nd6 Ne7 29. Bc4 b5 30. Nxc8 Rxc8 31. Bd3 Rc5 32. Rd6 a5 33. Rb6 b4
+34. Rb5 $6 Rg5 35. Kc2 Nc6 36. Rxg5+ fxg5 37. Kb3 f5 38. Ka4 Kf6 39. Kb5 Ne5
+40. Be2 {Hasta aquí Canal ha jugado muy bien. La posición le es del todo
+favorable. ?Qué pasó para que Canal realizara diversas jugadas malas a partir
+de este momento?} f4 41. h3 $2 {Aquí empieza el tormento para Canal.} (41. Kxa5
+$1) 41... f3 42. Bf1 Ke6 43. Kxa5 Nc6+ 44. Kb5 (44. Ka4 $142) 44... Kd5 45.
+Bc4+ $2 {No es la mejor jugada.} (45. g4 $1 {Con esta sencilla jugada el negro
+no tiene opciones.}) 45... Kd4 46. Bg8 $2 {Esto ya es un error.} (46. b3 $142)
+46... Ne5 47. Kxb4 $2 {Y este es otro error de consideración. Canal está
+tirando por la borda todo su buena trabajo en la partida.} Nd3+ 48. Kb3 Nxf2
+49. Kc2 Ne4 50. b3 Nxg3 51. Bxh7 $2 {Y este ya es imperdonable. ?Qué le pasó a
+Canal? ?Exceso de confianza?} Ke3 0-1
+
+[Event "Reus Int"]
+[Site "Reus"]
+[Date "1936.07.01"]
+[Round "11"]
+[White "Maristany, Josep"]
+[Black "Canal, Esteban"]
+[Result "1/2-1/2"]
+[ECO "D02"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "77"]
+[EventDate "1936.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 e6 3. e3 Nd7 4. Nbd2 f5 5. g3 Bd6 6. Bg2 Ngf6 7. O-O O-O 8. c4
+c6 9. cxd5 exd5 10. Qb3 Kh8 11. Ng5 Qe8 12. f4 Ng4 13. Ndf3 h6 14. Nh3 Ndf6 15.
+Nf2 Nxf2 16. Rxf2 Ne4 17. Rf1 b6 18. Ne5 Be6 19. Qd1 c5 20. Bd2 Bxe5 21. fxe5
+Nxd2 22. Qxd2 c4 23. Rf4 Qe7 24. Raf1 g5 25. R4f2 Kg7 26. g4 $5 (26. Bh3) 26...
+f4 27. exf4 gxf4 28. Rxf4 Rxf4 29. Qxf4 Rf8 30. Qxf8+ Qxf8 31. Rxf8 Kxf8 32.
+Bf3 b5 33. Kf2 b4 34. Ke3 a5 35. Kd2 Ke7 36. h4 Kf7 37. Bd1 Bd7 38. Bf3 Be6 39.
+Be2 1/2-1/2
+
+[Event "C. E. Barcelona Int"]
+[Site "Barcelona"]
+[Date "1936.??.??"]
+[Round "1"]
+[White "Canal, Esteban"]
+[Black "Catala Vallve, Xavier"]
+[Result "1-0"]
+[ECO "D24"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "31"]
+[EventDate "1936.07.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 dxc4 3. Nf3 Nf6 4. Nc3 a6 5. a4 c5 6. d5 e6 7. e4 exd5 8. e5 $1
+d4 $2 (8... Nbd7 $142 $1 9. exf6 Nxf6 $36) 9. Bxc4 Ng8 (9... dxc3 $4 10. Bxf7+)
+10. Qb3 Be7 11. Bxf7+ Kf8 12. Ne4 Nc6 13. Bxg8 Rxg8 14. Neg5 Bxg5 15. Nxg5 c4
+16. Qf3+ 1-0
+
+[Event "C. E. Barcelona Int"]
+[Site "Barcelona"]
+[Date "1936.??.??"]
+[Round "2"]
+[White "Canal, Esteban"]
+[Black "Calduch Segura, Joaquim"]
+[Result "1-0"]
+[ECO "E23"]
+[PlyCount "61"]
+[EventDate "1936.07.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qb3 c5 5. dxc5 Nc6 6. Nf3 Ne4 7. Bd2 Nxd2 8.
+Nxd2 Nd4 9. Qa4 Bxc3 10. bxc3 Nc6 11. e3 f5 12. Be2 O-O 13. O-O Qc7 14. Nb3 Qe5
+15. Rad1 f4 16. Rd3 Qg5 17. exf4 Rxf4 18. Qa3 Rb8 19. Qc1 b6 20. g3 Rf5 21. f4
+Qe7 22. Bg4 Rf6 23. cxb6 axb6 24. Qd2 Na5 25. Rd4 g6 26. Rb1 Nc6 27. Rd6 Ra8
+28. c5 bxc5 29. Nxc5 Rxa2 30. Qxa2 Qxd6 31. Ne4 1-0
+
+[Event "C. E. Barcelona Int"]
+[Site "Barcelona"]
+[Date "1936.??.??"]
+[Round "3"]
+[White "Llorens Llorens, Rafael"]
+[Black "Canal, Esteban"]
+[Result "0-1"]
+[ECO "A51"]
+[PlyCount "60"]
+[EventDate "1936.07.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e5 3. dxe5 Ne4 4. Nd2 Bb4 5. a3 Qh4 6. g3 Nxd2 $4 (6... Bxd2+)
+7. axb4 Qxc4 8. Qxd2 Nc6 9. Qc3 $2 Qe4 10. Nf3 Nxb4 11. Kd1 O-O 12. Bh3 $2 (12.
+Bg2 $142) 12... d6 13. Bxc8 Rfxc8 14. e6 fxe6 15. h4 c5 16. h5 e5 17. Rh4 Qd5+
+18. Bd2 b5 19. e4 Qd3 20. Ne1 Qf1 21. Qb3+ Kh8 22. Bxb4 cxb4 23. Rh2 Rc4 24. f3
+Qg1 25. Rg2 Qc5 26. Rc2 d5 27. Qd3 Qb6 28. Ke2 dxe4 29. fxe4 Qg1 30. Rxa7 $4
+Qxa7 0-1
+
+[Event "C. E. Barcelona Int"]
+[Site "Barcelona"]
+[Date "1936.??.??"]
+[Round "4"]
+[White "Canal, Esteban"]
+[Black "Silberman, Heinrich"]
+[Result "1-0"]
+[ECO "C11"]
+[PlyCount "121"]
+[EventDate "1936.07.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 dxe4 5. Nxe4 Nbd7 6. Nf3 Be7 7. Nxf6+ Bxf6
+8. Qd2 Bxg5 9. Nxg5 Nf6 10. O-O-O Qd6 11. Nf3 a6 12. Bd3 Bd7 13. Ne5 Qxd4 14.
+Nxf7 Rf8 15. Ng5 O-O-O 16. Rhe1 Qd5 17. Kb1 Qxg2 18. Qe3 Kb8 19. Qg3 Qxg3 20.
+fxg3 Rde8 21. Nxh7 Nxh7 22. Bxh7 Re7 23. Rd2 g5 24. Bg6 g4 25. Kc1 Bc6 26. Rd4
+Bf3 27. Rf4 Rh8 28. h4 e5 29. Rf7 Re6 30. Be4 Rg8 31. Bxf3 gxf3 32. Rxf3 Reg6
+33. Rh1 Rxg3 34. Rxg3 Rxg3 35. h5 Rg7 36. h6 Rh7 37. Kd2 Kc8 38. Ke3 Kd7 39.
+Ke4 Ke6 40. c4 Kd6 41. b4 Ke6 42. a4 Kf6 43. a5 c6 44. Rh2 Ke6 45. Rh5 Kf6 46.
+Rf5+ Kg6 47. Kxe5 Re7+ 48. Kd6 Re4 49. Rc5 Kxh6 50. b5 cxb5 51. cxb5 axb5 52.
+Rxb5 Kg6 53. Kc7 Kf6 54. Rb6+ Ke7 55. Kxb7 Rd4 56. a6 Rd7+ 57. Kc6 Rd6+ 58. Kc5
+Rd1 59. a7 Ra1 60. Rb7+ Ke6 61. Kc6 1-0
+
+[Event "C. E. Barcelona Int"]
+[Site "Barcelona"]
+[Date "1936.??.??"]
+[Round "5"]
+[White "Koblenz, Aleksandrs"]
+[Black "Canal, Esteban"]
+[Result "0-1"]
+[ECO "D11"]
+[PlyCount "84"]
+[EventDate "1936.07.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. c4 c6 2. d4 d5 3. Nf3 Nf6 4. e3 a6 5. cxd5 cxd5 6. Bd3 g6 7. O-O Bg7 8. Nc3
+O-O 9. Bd2 b5 10. a4 b4 11. Na2 a5 12. Qe2 Ne4 13. Nc1 Bg4 14. Nb3 Ng5 15. e4
+Nxf3+ 16. gxf3 Bh3 17. Rfc1 e5 18. f4 f5 19. exf5 e4 20. fxg6 hxg6 21. Qe3 Qh4
+22. Bf1 Bxf1 23. Rxf1 Nc6 24. Kh1 g5 25. Qg3 Qxg3 26. hxg3 Nxd4 27. Nxd4 Bxd4
+28. Rab1 Rac8 29. Be3 Bxe3 30. fxe3 gxf4 31. Rxf4 Rxf4 32. gxf4 Rc2 33. Rg1+
+Kf7 34. Rg2 b3 35. Kh2 Ke6 36. Kh1 d4 37. exd4 e3 38. Rg3 e2 39. Re3+ Kd5 40.
+Kg1 Kxd4 41. Re8 Rxb2 42. f5 Rb1+ 0-1
+
+[Event "C. E. Barcelona Int"]
+[Site "Barcelona"]
+[Date "1936.??.??"]
+[Round "7"]
+[White "Calduch Segura, Joaquim"]
+[Black "Canal, Esteban"]
+[Result "0-1"]
+[ECO "C50"]
+[PlyCount "50"]
+[EventDate "1936.07.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Bc5 5. Nc3 d6 6. h3 h6 7. O-O g5 8. Be3 g4
+9. hxg4 Bxg4 10. Nd5 Nxd5 11. Bxd5 Qf6 12. Re1 O-O-O 13. c3 Rdg8 14. Kf1 Bh5
+15. Bxc5 dxc5 16. Re3 Nd4 17. cxd4 cxd4 18. Qd2 dxe3 19. Qxe3 Kb8 20. Ne1 Bg4
+21. Rc1 h5 22. Rc3 h4 23. Rb3 c6 24. Ra3 b6 25. Bc4 h3 0-1
+
+[Event "C. E. Barcelona Int"]
+[Site "Barcelona"]
+[Date "1936.??.??"]
+[Round "8"]
+[White "Canal, Esteban"]
+[Black "Llorens Llorens, Rafael"]
+[Result "0-1"]
+[ECO "C48"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "112"]
+[EventDate "1936.07.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. Bb5 Nd4 5. Ba4 (5. Nxe5 Qe7 6. f4 Nxb5 7.
+Nxb5 d6 8. Nf3 Qxe4+ 9. Kf2 Ng4+ 10. Kg3 Qg6 11. Nh4 Qh6 12. Nxc7+ Kd8 13. Nxa8
+g5) 5... Bc5 6. Nxe5 O-O 7. Nd3 (7. d3 d5 8. Bg5 c6 9. Qd2 Re8 10. f4 b5 11.
+Bb3 h6 12. Bh4 Nxe4 13. Bxd8 Nxd2 14. Kxd2 Rxd8 {Tarrasch-Rubinstein, St.
+Sebastián, 1912}) 7... Bb6 8. Nf4 d5 9. d3 (9. Nfxd5 Nxe4) 9... Bg4 10. f3 Nh5
+$5 11. Nxh5 (11. fxg4) (11. h4) 11... Bxh5 12. Nxd5 Qh4+ 13. g3 Nxf3+ 14. Qxf3
+Bxf3 15. gxh4 Bxh1 16. Ke2 c6 17. Nf4 Rfe8 18. Bb3 Bxe4 19. dxe4 Rxe4+ 20. Kf1
+(20. Kf3) 20... Rd8 21. Nd3 Rd6 22. Kg2 Rg4+ 23. Kf3 Rg1 24. a4 Rf6+ 25. Ke4
+Rg4+ 26. Bf4 Rxh4 27. Rf1 g5 28. Ke5 Rfxf4 29. Nxf4 Bc7+ 30. Kf6 Bxf4 31. Rd1
+Rh6+ 32. Kf5 Kg7 33. Rd7 Rf6+ 34. Kg4 Kg6 35. Rxb7 h5+ 36. Kh3 g4+ 37. Kg2 Be3
+38. Re7 Rf2+ 39. Kg3 Rf3+ 40. Kg2 h4 41. Bc4 Rf2+ 42. Kh1 Bc5 43. Re1 Bd6 44.
+Re2 Rxe2 45. Bxe2 Kg5 46. Bc4 f5 47. Be6 a5 48. b3 Be5 49. h3 gxh3 50. Bd7 c5
+51. Bc8 Kg4 52. Bb7 Kg3 53. Kg1 f4 54. Bh1 f3 55. Kf1 Bd4 56. Ke1 Kh2 {Según
+Koblenz,una de las mejores partidas jugada por los jugadores catalanes en los
+últimos tiempos.} (56... Bc3+ $144) 0-1
+
+[Event "C. E. Barcelona Int"]
+[Site "Barcelona"]
+[Date "1936.??.??"]
+[Round "9"]
+[White "Silberman, Heinrich"]
+[Black "Canal, Esteban"]
+[Result "0-1"]
+[ECO "D47"]
+[PlyCount "76"]
+[EventDate "1936.07.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 c6 3. e3 Nf6 4. Nc3 e6 5. Nf3 Nbd7 6. Bd3 dxc4 7. Bxc4 b5 8. Bd3
+b4 9. Na4 Qa5 10. O-O Ba6 11. Bxa6 Qxa6 12. Bd2 Be7 13. Qb3 Qb5 14. Rfc1 O-O
+15. Rc4 a5 16. Rac1 Ra6 17. Qc2 Rc8 18. b3 Ne8 19. Nc5 Nxc5 20. dxc5 Rd8 21. e4
+Ra7 22. Be3 Rad7 23. h3 Qb8 24. Rd4 Bf6 25. Rxd7 Rxd7 26. Rd1 Qd8 27. Rxd7 Qxd7
+28. Qd2 Qc8 29. a4 bxa3 30. Qxa5 Bb2 31. Nd2 Nc7 32. Nc4 Qa8 33. Qxa8+ Nxa8 34.
+Bd4 Bxd4 35. Nxa3 Bxc5 36. Nc4 Bd4 37. b4 Bc3 38. Na5 c5 0-1
+
+[Event "C. E. Barcelona Int"]
+[Site "Barcelona"]
+[Date "1936.??.??"]
+[Round "10"]
+[White "Canal, Esteban"]
+[Black "Koblenz, Aleksandrs"]
+[Result "1-0"]
+[ECO "A28"]
+[PlyCount "57"]
+[EventDate "1936.07.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. d4 exd4 5. Nxd4 Bb4 6. Nxc6 Bxc3+ 7. bxc3
+dxc6 8. Qxd8+ Kxd8 9. f3 Be6 10. e4 Nd7 11. Be3 c5 12. Be2 Ke7 13. Kf2 b6 14.
+Bf4 Rhc8 15. Bg3 f6 16. f4 Nb8 17. f5 Bd7 18. Bf3 Nc6 19. e5 fxe5 20. Rad1 Be8
+21. Bh4+ Kf8 22. Bd5 Rab8 23. Be6 Rd8 24. Bxd8 Rxd8 25. Rxd8 Nxd8 26. Re1 Nf7
+27. g4 Ng5 28. h4 Nf7 29. g5 1-0

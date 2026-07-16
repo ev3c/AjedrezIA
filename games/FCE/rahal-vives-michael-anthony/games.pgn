@@ -1,0 +1,209 @@
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.01.18"]
+[Round "1.4"]
+[White "Rahal  Vives, Michael Anthony"]
+[Black "Milliet, Sophie"]
+[Result "0-1"]
+[ECO "D35"]
+[WhiteElo "2302"]
+[BlackElo "2361"]
+[PlyCount "106"]
+[GameId "2151339903695431"]
+[EventDate "2025.01.18"]
+
+1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. g3 Bd6 5. Bg2 O-O 6. O-O h6 7. Nc3 Nc6 8. cxd5 exd5 9. Nb5 Re8 10. Nxd6 cxd6 11. Bd2 Bg4 12. Bc3 Qd7 13. b4 Ne4 14. Be1 Rac8 15. b5 Ne7 16. Qd3 Ng6 17. a4 Rc4 18. Qa3 Bh3 19. Bb4 Bxg2 20. Kxg2 Qg4 21. Kh1 Rc2 22. Ng1 Qf5 23. Ra2 Rxa2 24. Qxa2 Nxf2+ 25. Kg2 Qe4+ 26. Kxf2 Qxd4+ 27. Kg2 Qxb4 28. Qxd5 Qe4+ 29. Qxe4 Rxe4 30. Rd1 Rxa4 31. Rxd6 Rb4 32. Rd5 Rb2 33. Kf2 Nf8 34. Nf3 Ne6 35. Ne5 Rc2 36. Nd3 Kf8 37. Ke3 Ke7 38. h4 Nc7 39. Re5+ Kd6 40. Rf5 f6 41. Kf3 Rc3 42. g4 Rb3 43. g5 hxg5 44. hxg5 Rxb5 45. Rxb5 Nxb5 46. gxf6 gxf6 47. Kf4 a5 48. e4 a4 49. Kf5 a3 50. Nb4 Kc5 51. Na2 Nd6+ 52. Kxf6 Nxe4+ 53. Ke5 Nd2 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "Barcelona"]
+[Date "2025.01.25"]
+[Round "2.4"]
+[White "Gual Pascual, Antonio"]
+[Black "Rahal  Vives, Michael Anthony"]
+[Result "1/2-1/2"]
+[ECO "A37"]
+[WhiteElo "2283"]
+[BlackElo "2283"]
+[PlyCount "149"]
+[GameId "2151339903781497"]
+[EventDate "2025.??.??"]
+[TimeControl "90+30"]
+
+1. c4 {[%emt 0:00:07]} c5 {[%emt 0:01:46]} 2. Nf3 {[%emt 0:00:15]} g6 {[%emt 0:00:40]} 3. g3 {[%emt 0:00:11]} Bg7 {[%emt 0:00:05]} 4. Bg2 {[%emt 0:00:11]} Nc6 {[%emt 0:00:06]} 5. Nc3 {[%emt 0:00:22]} d6 {[%emt 0:00:28]} 6. O-O {[%emt 0:00:43]} e6 {[%emt 0:00:44]} 7. e3 {[%emt 0:02:16]} Nge7 {[%emt 0:00:38]} 8. d4 {[%emt 0:01:00]} cxd4 {[%emt 0:02:10]} 9. exd4 {[%emt 0:00:07]} d5 {[%emt 0:00:28]} 10. cxd5 {[%emt 0:07:45]} exd5 {[%emt 0:00:28]} 11. Ne5 {[%emt 0:06:59]} O-O {[%emt 0:05:03]} 12. Bg5 {[%emt 0:04:44]} h6 {[%emt 0:06:59]} 13. Nxc6 {[%emt 0:00:44]} bxc6 {[%emt 0:00:05]} 14. Bxe7 {[%emt 0:00:46]} Qxe7 {[%emt 0:00:42]} 15. Qa4 {[%emt 0:00:40]} Bd7 {[%emt 0:07:12]} 16. Rfe1 {[%emt 0:00:41]} Qd6 {[%emt 0:00:18]} 17. Rad1 {[%emt 0:00:25]} Rfb8 {[%emt 0:02:59]} 18. Rd2 {[%emt 0:00:50]} Rb4 {[%emt 0:04:45]} 19. Qd1 {[%emt 0:03:37]} Qf6 {[%emt 0:02:25]} 20. Ne2 {[%emt 0:00:36]} Rab8 {[%emt 0:03:39]} 21. Qc1 {[%emt 0:03:33]} h5 {[%emt 0:01:15]} 22. Rc2 {[%emt 0:04:55]} h4 {[%emt 0:04:40]} 23. b3 {[%emt 0:07:12]} a5 {[%emt 0:00:50]} 24. Rc3 {[%emt 0:00:50]} h3 {[%emt 0:01:44]} 25. Bf1 {[%emt 0:00:25]} a4 {[%emt 0:03:41]} 26. bxa4 {[%emt 0:08:08]} Rxa4 {[%emt 0:01:28]} 27. a3 {[%emt 0:02:13]} Rba8 {[%emt 0:03:54]} 28. Qb2 {[%emt 0:00:54]} Bf8 {[%emt 0:01:08]} 29. Ra1 {[%emt 0:02:13]} Bd6 {[%emt 0:01:24]} 30. Rb3 {[%emt 0:02:39]} R4a5 {[%emt 0:03:23]} 31. Qc3 {[%emt 0:05:52]} Qe7 {[%emt 0:07:25]} 32. Qf3 {[%emt 0:13:04]} Rxa3 {[%emt 0:02:30]} 33. Raxa3 {[%emt 0:02:46]} Rxa3 {[%emt 0:00:40]} 34. Rxa3 {[%emt 0:01:41]} Bxa3 {[%emt 0:00:06]} 35. g4 {[%emt 0:00:26]} Bd6 {[%emt 0:03:21]} 36. Bxh3 {[%emt 0:00:57]} Qh4 {[%emt 0:04:22]} 37. Kg2 {[%emt 0:01:00]} Kg7 {[%emt 0:00:59]} 38. Ng3 {[%emt 0:02:09]} Qg5 {[%emt 0:03:09]} 39. Qe3 {[%emt 0:02:11]} Kh6 {[%emt 0:04:07]} 40. Qe2 {[%emt 0:00:41]} Be6 {[%emt 0:00:49]} 41. f3 {[%emt 0:01:35]} Kg7 {[%emt 0:02:01]} 42. Nf1 {[%emt 0:02:32]} c5 {[%emt 0:02:08]} 43. dxc5 {[%emt 0:00:41]} Bxc5 {[%emt 0:00:25]} 44. Qb2+ {[%emt 0:00:12]} Kh7 {[%emt 0:01:52]} 45. Qd2 {[%emt 0:01:49]} Qe5 {[%emt 0:01:07]} 46. Ng3 {[%emt 0:00:12]} Be3 {[%emt 0:02:05]} 47. Qe1 {[%emt 0:02:54]} Qb2+ {[%emt 0:01:57]} 48. Kh1 {[%emt 0:00:22]} Bf2 {[%emt 0:02:30]} 49. Qe2 {[%emt 0:02:20]} Qxe2 {[%emt 0:01:15]} 50. Nxe2 {[%emt 0:00:05]} d4 {[%emt 0:00:33]} 51. Bf1 {[%emt 0:00:22]} d3 {[%emt 0:01:45]} 52. Nc3 {[%emt 0:00:14]} Be1 {[%emt 0:01:20]} 53. Nb1 {[%emt 0:00:09]} Bc4 {[%emt 0:01:26]} 54. Kg2 {[%emt 0:00:08]} g5 {[%emt 0:01:27]} 55. f4 {[%emt 0:00:17]} Bd5+ {[%emt 0:00:42]} 56. Kh3 {[%emt 0:00:17]} Be4 {[%emt 0:00:50]} 57. fxg5 {[%emt 0:00:30]} Bb4 {[%emt 0:00:37]} 58. Kg3 {[%emt 0:00:38]} d2 {[%emt 0:00:58]} 59. Nxd2 {[%emt 0:00:11]} Bxd2 {[%emt 0:00:02]} 60. h4 {[%emt 0:00:10]} Kg7 {[%emt 0:01:33]} 61. Bc4 {[%emt 0:00:08]} Bc6 {[%emt 0:00:27]} 62. Bd3 {[%emt 0:00:37]} Bd5 {[%emt 0:00:36]} 63. Bb5 {[%emt 0:00:37]} Be1+ {[%emt 0:00:45]} 64. Kh3 {[%emt 0:00:16]} Bd2 {[%emt 0:00:09]} 65. Kg3 {[%emt 0:00:22]} Be4 {[%emt 0:00:16]} 66. Bc4 {[%emt 0:00:11]} Kf8 {[%emt 0:00:25]} 67. Bb5 {[%emt 0:00:13]} Ke7 {[%emt 0:01:07]} 68. Bc4 {[%emt 0:00:09]} Bc6 {[%emt 0:00:37]} 69. Bd3 {[%emt 0:00:11]} Be8 {[%emt 0:00:40]} 70. Kf3 {[%emt 0:02:04]} Kd6 {[%emt 0:00:46]} 71. Ke4 {[%emt 0:00:44]} Bd7 {[%emt 0:00:40]} 72. Kf3 {[%emt 0:00:53]} Be8 {[%emt 0:00:31]} 73. Ke4 {[%emt 0:00:07]} Bd7 {[%emt 0:00:19]} 74. Kf3 {[%emt 0:00:08]} Be8 {[%emt 0:00:30]} 75. Ke4 {[%emt 0:00:33]} 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "Barcelona"]
+[Date "2025.02.01"]
+[Round "3.4"]
+[White "Rahal  Vives, Michael Anthony"]
+[Black "Ventura Bolet, Alexandre"]
+[Result "1-0"]
+[ECO "E60"]
+[WhiteElo "2283"]
+[BlackElo "2271"]
+[PlyCount "63"]
+[GameId "2151339903916755"]
+[EventDate "2025.??.??"]
+[TimeControl "90+30"]
+[WhiteClock "0:00:32"]
+[BlackClock "0:22:29"]
+
+1. Nf3 {[%emt 0:00:14]} Nf6 {[%emt 0:00:35]} 2. c4 {[%emt 0:00:11]} g6 {[%emt 0:00:19]} 3. b3 {[%emt 0:00:27]} Bg7 {[%emt 0:00:16]} 4. Bb2 {[%emt 0:00:05]} O-O {[%emt 0:01:04]} 5. g3 {[%emt 0:00:07]} d6 {[%emt 0:03:49]} 6. d4 {[%emt 0:00:08]} e5 {[%emt 0:01:46]} 7. dxe5 {[%emt 0:02:33]} Ng4 {[%emt 0:00:38]} 8. Bg2 {[%emt 0:04:02]} Nxe5 {[%emt 0:03:15]} 9. Nc3 {[%emt 0:04:53]} Nxf3+ {[%emt 0:06:24]} 10. Bxf3 {[%emt 0:01:41]} Nc6 {[%emt 0:01:22]} 11. Bg2 {[%emt 0:02:52]} h5 {[%emt 0:06:52]} 12. Qd2 {[%emt 0:04:21]} h4 {[%emt 0:03:58]} 13. O-O {[%emt 0:02:55]} hxg3 {[%emt 0:02:26]} 14. hxg3 {[%emt 0:00:35]} Ne5 {[%emt 0:04:22]} 15. Nd5 {[%emt 0:02:14]} c6 {[%emt 0:05:31]} 16. Nc3 {[%emt 0:03:17]} Qb6 {[%emt 0:08:17]} 17. Rad1 {[%emt 0:07:12]} Be6 {[%emt 0:09:53]} 18. Na4 {[%emt 0:08:42]} Qa6 {[%emt 0:04:39]} 19. f4 {[%emt 0:02:23]} Bxc4 {[%emt 0:17:25]} 20. fxe5 {[%emt 0:05:58]} Bxe2 {[%emt 0:00:19]} 21. exd6 {[%emt 0:05:45]} Bxd1 {[%emt 0:04:38]} 22. Bxg7 {[%emt 0:02:43]} Kxg7 {[%emt 0:00:26]} 23. Qd4+ {[%emt 0:03:08]} Kg8 {[%emt 0:03:46]} 24. Rxd1 {[%emt 0:01:10]} Rad8 {[%emt 0:03:20]} 25. Nc5 {[%emt 0:01:51]} Qxa2 {[%emt 0:02:59]} 26. Nxb7 {[%emt 0:02:10]} Rde8 {[%emt 0:02:24]} 27. d7 {[%emt 0:04:26]} Qxb3 {[%emt 0:02:08]} 28. dxe8=Q {[%emt 0:02:32]} Rxe8 {[%emt 0:00:06]} 29. Nc5 {[%emt 0:01:31]} Qb6 {[%emt 0:01:41]} 30. Bf1 {[%emt 0:02:19]} Kh7 {[%emt 0:00:32]} 31. Bc4 {[%emt 0:00:43]} f5 {[%emt 0:00:31]} 32. Kg2 {[%emt 0:00:38]} 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.02.08"]
+[Round "4.4"]
+[White "Rahal  Vives, Michael Anthony"]
+[Black "Benedetti, Julio"]
+[Result "1/2-1/2"]
+[ECO "B24"]
+[WhiteElo "2283"]
+[BlackElo "2250"]
+[PlyCount "54"]
+[GameId "2151339904473931"]
+[EventDate "2025.01.18"]
+
+1. g3 c5 2. Bg2 Nc6 3. e4 Nf6 4. Nc3 e5 5. d3 h6 6. f4 Be7 7. Nf3 d6 8. O-O O-O 9. h3 Re8 10. Kh2 Bf8 11. fxe5 dxe5 12. Be3 Be6 13. b3 Qe7 14. Nh4 g6 15. Qd2 Kh7 16. Rf2 Bg7 17. Raf1 Nd4 18. Nd5 Bxd5 19. exd5 e4 20. c4 Rf8 21. b4 b6 22. bxc5 bxc5 23. Bxd4 cxd4 24. dxe4 Rac8 25. Re2 Nd7 26. Nf3 Rxc4 27. Rc1 Rfc8 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "Barcelona"]
+[Date "2025.02.15"]
+[Round "5.4"]
+[White "Moskalenko, Viktor"]
+[Black "Rahal  Vives, Michael Anthony"]
+[Result "1/2-1/2"]
+[ECO "A80"]
+[WhiteElo "2408"]
+[BlackElo "2283"]
+[PlyCount "75"]
+[GameId "2151339904699271"]
+[EventDate "2025.??.??"]
+
+1. d4 e6 2. Nf3 f5 3. e3 Nf6 4. Bd3 Be7 5. c4 O-O 6. Qc2 b6 7. Nbd2 Bb7 8. O-O c5 9. a3 cxd4 10. exd4 d5 11. Re1 Ne4 12. cxd5 exd5 13. Ne5 Bd6 14. Ndf3 Nd7 15. Bf4 Ndf6 16. h3 Qe8 17. Bf1 Nh5 18. Bd2 Qe7 19. Bb4 Rfc8 20. Bxd6 Qxd6 21. Qd1 g6 22. Nd3 Ng7 23. Rc1 Ne6 24. Rxc8+ Rxc8 25. Qa4 a5 26. Rc1 Rxc1 27. Nxc1 Qc6 28. Qd1 Kg7 29. Nd3 Qc7 30. Nde5 Nd6 31. h4 b5 32. Ng5 Nxg5 33. hxg5 Nc4 34. Qc1 Qe7 35. Nd3 a4 36. Qf4 Qd6 37. Qc1 Qe7 38. f3 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.02.22"]
+[Round "6.4"]
+[White "Rahal  Vives, Michael Anthony"]
+[Black "Johnson, Joshua"]
+[Result "0-1"]
+[ECO "D02"]
+[WhiteElo "2283"]
+[BlackElo "2267"]
+[PlyCount "54"]
+[GameId "2150544910488351"]
+[EventDate "2025.02.15"]
+[WhiteTeam "Ateneu Colon"]
+[BlackTeam "Cor de Marina"]
+
+1. d4 d5 2. Bf4 c5 3. e3 Nc6 4. Nf3 Nf6 5. Nbd2 Qb6 6. dxc5 Qxb2 7. Rb1 Qc3 8. Bb5 g6 9. e4 dxe4 10. Be5 Qa5 11. Bxf6 exf6 12. O-O exf3 13. Qxf3 Qd8 14. Bxc6+ bxc6 15. Qxc6+ Bd7 16. Rfe1+ Be7 17. Qxf6 Rg8 18. c6 Be6 19. Rxe6 fxe6 20. Qxe6 Rf8 21. Ne4 Rf7 22. Ng5 Rf6 23. Qg8+ Rf8 24. Qxh7 Qd6 25. Re1 O-O-O 26. h4 Rfe8 27. Qg7 Qf6 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.03.01"]
+[Round "7.3"]
+[White "Rahal Vives, Michael Anthony"]
+[Black "Mellado Trivino, Juan"]
+[Result "1-0"]
+[ECO "A07"]
+[WhiteElo "2291"]
+[BlackElo "2304"]
+[PlyCount "97"]
+[GameId "2152740742537928"]
+[EventDate "2025.02.15"]
+[WhiteTeam "Ateneu Colon"]
+[BlackTeam "Escacs Catalònia"]
+
+1. Nf3 d5 2. g3 Bg4 3. Bg2 Nd7 4. d4 c6 5. O-O e6 6. Nbd2 f5 7. c4 Ngf6 8. cxd5 exd5 9. Ne5 Bd6 10. Nxg4 fxg4 11. e4 dxe4 12. Qb3 Qe7 13. Re1 Bb4 14. Re2 Bxd2 15. Bxd2 O-O-O 16. Bb4 Qe8 17. Rae1 Qh5 18. Be7 Rde8 19. Qa3 Qf7 20. Bxf6 Nxf6 21. Qxa7 Rhf8 22. Rc1 Qc7 23. b4 Kd7 24. b5 Ra8 25. Qc5 Qd6 26. Qg5 g6 27. bxc6+ bxc6 28. Bxe4 Nxe4 29. Qxg4+ Qe6 30. Qxe6+ Kxe6 31. Rxe4+ Kd5 32. Re2 Rf3 33. Kg2 Rd3 34. Re7 Rd2 35. Rd7+ Ke6 36. Rxh7 Rf8 37. Rf1 Rxd4 38. Re1+ Kd6 39. Re2 c5 40. Rg7 Rf6 41. Rg8 Kd5 42. Rc8 c4 43. f4 Re6 44. Kf2 Rd3 45. Rxe6 Kxe6 46. Rxc4 Rd2+ 47. Kf3 Rxh2 48. Rc6+ Kf7 49. Ra6 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.03.08"]
+[Round "8.4"]
+[White "Mompel Ferruz, Xavier"]
+[Black "Rahal Vives, Michael Anthony"]
+[Result "1/2-1/2"]
+[ECO "B27"]
+[WhiteElo "2330"]
+[BlackElo "2291"]
+[PlyCount "50"]
+[GameId "2155319657820717"]
+[EventDate "2025.02.15"]
+[WhiteTeam "Barcelona"]
+[BlackTeam "Ateneu Colon"]
+
+1. e4 c5 2. Nf3 g6 3. c3 Bg7 4. d4 cxd4 5. cxd4 d5 6. e5 a6 7. Bd3 Nc6 8. h3 f6 9. Qe2 Nb4 10. O-O Nxd3 11. Qxd3 fxe5 12. dxe5 Nh6 13. Nc3 e6 14. Bg5 Qd7 15. a4 Nf7 16. Bf4 Qe7 17. Ne2 Bd7 18. Rfc1 O-O 19. Rc7 Rab8 20. Qb3 Bxa4 21. Rxe7 Bxb3 22. Ned4 Bc4 23. b3 Nd8 24. Bg5 Bb5 25. Rc1 Nc6 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.01.24"]
+[Round "2.3"]
+[White "Gonz�lez Garc�a, Jos�"]
+[Black "Rahal Vives, Michael Anthony"]
+[Result "1/2-1/2"]
+[ECO "A64"]
+[WhiteElo "2524"]
+[BlackElo "2405"]
+[WhiteFideId "-1"]
+[WhiteFideId "-1"]
+[PlyCount "39"]
+[GameId "2270565566223230"]
+[EventDate "2026.??.??"]
+[SourceVersionDate "2026.01.26"]
+[WhiteTeam "Colon Sabadell"]
+[BlackTeam "Ateneu Colon"]
+
+1. Nf3 Nf6 2. d4 g6 3. c4 Bg7 4. Nc3 d6 5. g3 O-O 6. Bg2 c5 7. d5 e6 8. O-O Re8 9. Nd2 exd5 10. cxd5 a6 11. a4 Nbd7 12. h3 Rb8 13. Nc4 Ne5 14. Na3 Nh5 15. Kh2 Bd7 16. Ne4 Bf5 17. Nc3 Bd7 18. Ne4 Bf5 19. Nc3 Bd7 20. Ne4 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "https://lichess.org/broadcast/"]
+[Date "2026.01.31"]
+[Round "3.4"]
+[White "Beltran Rueda, Santiago"]
+[Black "Rahal Vives, Michael Anthony"]
+[Result "1/2-1/2"]
+[ECO "A36"]
+[WhiteElo "2278"]
+[BlackElo "2297"]
+[PlyCount "55"]
+[EventDate "2026.??.??"]
+[WhiteTeam "Foment Martinenc"]
+[BlackTeam "Ateneu Colon"]
+
+1. c4 c5 2. Nc3 g6 3. g3 Bg7 4. Bg2 Nc6 5. e3 e6 6. Nge2 Nge7 7. O-O O-O 8. d4
+cxd4 9. Nxd4 Nxd4 10. exd4 d5 11. cxd5 Nxd5 12. Qb3 Bxd4 13. Nxd5 exd5 14. Bh6
+Bg7 15. Bxg7 Kxg7 16. Bxd5 Bh3 17. Rfd1 Qe7 18. Re1 Qf6 19. Qxb7 Rab8 20. Qxa7
+Rxb2 21. Bg2 Bxg2 22. Kxg2 Ra8 23. Qe3 Ra3 24. Qc5 Rc3 25. Qa7 Rc7 26. Qe3 Rcc2
+27. Rf1 Rxa2 28. Rxa2 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.02.07"]
+[Round "4.5"]
+[White "BALAGUE CAMPS, MARC"]
+[WhiteElo "2350"]
+[WhiteTeam "OLOT"]
+[Black "RAHAL VIVES, MICHAEL ANTHONY"]
+[BlackElo "2405"]
+[BlackTeam "ATENEU COLON"]
+[Result "0-1"]
+
+1. d4 e6 2. c4 Bb4+ 3. Nc3 f5 4. Bd2 Nf6 5. e3 O-O 6. Bd3 b6 7. Nf3 Bb7 8. O-O Bxc3 9. Bxc3 Ne4 10. Be1 c5 11. b4 d6 12. bxc5 dxc5 13. a4 Nc6 14. Bxe4 fxe4 15. Ne5 Nxe5 16. dxe5 Qxd1 17. Rxd1 Ba6 18. Rc1 Rad8 19. a5 b5 20. f3 b4 21. fxe4 Rxf1+ 22. Kxf1 Rd3 23. Bh4 b3 24. Ke1 Bxc4 25. Rb1 Kf7 26. Rb2 Ke8 27. Rf2 Bb5 28. Rb2 c4 29. Ke2 a6 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "Spain"]
+[Date "2026.02.21"]
+[Round "6.3"]
+[White "Rahal Vives, Michael Anthony"]
+[Black "Fernandez Guillen, Ernesto J"]
+[Result "1/2-1/2"]
+[WhiteElo "2299"]
+[BlackElo "2465"]
+[PlyCount "37"]
+[EventDate "2026.01.17"]
+
+1. Nf3 Nf6 2. c4 e6 3. Nc3 d5 4. d4 Be7 5. Bg5 Nbd7 6. e3 O-O 7. Rc1 c6 8. Qc2
+h6 9. Bh4 dxc4 10. Bxc4 b5 11. Be2 Bb7 12. O-O Rc8 13. Rfd1 a6 14. Qb1 Nd5 15.
+Bxe7 Qxe7 16. Nxd5 cxd5 17. Rxc8 Rxc8 18. Rc1 Qd8 19. Bd3 1/2-1/2

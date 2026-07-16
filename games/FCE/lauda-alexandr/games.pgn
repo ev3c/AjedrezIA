@@ -1,0 +1,125 @@
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.01.18"]
+[Round "1.6"]
+[White "Fernandez Climent, Albert"]
+[Black "Lauda, Alexandr"]
+[Result "1-0"]
+[ECO "B11"]
+[WhiteElo "2234"]
+[BlackElo "2285"]
+[PlyCount "67"]
+[SourceVersionDate "2026.01.21"]
+
+1. e4 c6 2. Nf3 d5 3. Nc3 Bg4 4. d4 e6 5. Be2 Bb4 6. e5 Nd7 7. O-O h6 8. Nb1
+Bf8 9. c3 Ne7 10. Na3 Qc7 11. Nc2 g5 12. b4 O-O-O 13. a4 f6 14. exf6 Ng6 15.
+Ne5 Bxe2 16. Qxe2 Ndxe5 17. dxe5 Nxe5 18. f4 gxf4 19. Bxf4 Bd6 20. Rae1 Nc4 21.
+Qxe6+ Kb8 22. Bxd6 Rxd6 23. Qf5 Rf8 24. Re7 Qb6+ 25. Nd4 Rdxf6 26. Qxf6 Rxf6
+27. Re8+ Kc7 28. Rxf6 Kd7 29. Rfe6 a5 30. Kh1 axb4 31. Nf5 Qd8 32. R6e7+ Qxe7
+33. Rxe7+ Kd8 34. cxb4 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.02.07"]
+[Round "4.7"]
+[White "Mompel Ferruz, Xavier"]
+[Black "Lauda, Alexandr"]
+[Result "1-0"]
+[TimeControl "90min + 30sec"]
+[WhiteTitle "FM"]
+[BlackTitle "CM"]
+[WhiteElo "2323"]
+[BlackElo "2223"]
+
+1. e4 {[%clk 01:30:58]} {[%emt 00:00:02]} c6 {[%clk 01:30:53]} {[%emt
+00:00:08]} 2. d4 {[%clk 01:31:24]} {[%emt 00:00:04]} d5 {[%clk 01:31:20]}
+{[%emt 00:00:03]} 3. e5 {[%clk 01:31:45]} {[%emt 00:00:10]} Bf5 {[%clk
+01:31:45]} {[%emt 00:00:04]} 4. Nd2 {[%clk 01:32:09]} {[%emt 00:00:05]} e6
+{[%clk 01:31:57]} {[%emt 00:00:19]} 5. Nb3 {[%clk 01:32:34]} {[%emt 00:00:05]}
+Nd7 {[%clk 01:32:13]} {[%emt 00:00:14]} 6. Nf3 {[%clk 01:32:59]} {[%emt
+00:00:05]} h6 {[%clk 01:32:19]} {[%emt 00:00:24]} 7. Be2 {[%clk 01:32:29]}
+{[%emt 00:00:59]} Ne7 {[%clk 01:32:26]} {[%emt 00:00:24]} 8. a4 {[%clk
+01:31:44]} {[%emt 00:01:15]} Qc7 {[%clk 01:32:05]} {[%emt 00:00:51]} 9. a5
+{[%clk 01:30:40]} {[%emt 00:01:35]} a6 {[%clk 01:32:14]} {[%emt 00:00:20]} 10.
+c3 {[%clk 01:23:12]} {[%emt 00:07:58]} O-O-O {[%clk 01:30:39]} {[%emt
+00:02:05]} 11. O-O {[%clk 01:16:26]} {[%emt 00:07:15]} g5 {[%clk 01:30:08]}
+{[%emt 00:01:02]} 12. Ne1 {[%clk 01:09:56]} {[%emt 00:06:59]} f6 {[%clk
+01:29:03]} {[%emt 00:01:36]} 13. exf6 {[%clk 01:01:11]} {[%emt 00:09:16]} Ng6
+{[%clk 01:23:37]} {[%emt 00:05:55]} 14. g4 {[%clk 00:59:59]} {[%emt 00:01:42]}
+Be4 {[%clk 01:23:25]} {[%emt 00:00:42]} 15. f3 {[%clk 00:59:13]} {[%emt
+00:01:16]} h5 {[%clk 01:23:37]} {[%emt 00:00:18]} 16. fxe4 {[%clk 00:58:21]}
+{[%emt 00:01:22]} hxg4 {[%clk 01:23:02]} {[%emt 00:01:04]} 17. e5 {[%clk
+00:53:40]} {[%emt 00:05:11]} Ndxe5 {[%clk 01:20:57]} {[%emt 00:02:36]} 18. dxe5
+{[%clk 00:44:44]} {[%emt 00:09:26]} Rxh2 {[%clk 00:39:49]} {[%emt 00:41:38]} 19.
+Bxg4 {[%clk 00:34:19]} {[%emt 00:10:55]} Qxe5 {[%clk 00:19:08]} {[%emt
+00:21:11]} 20. Qf3 {[%clk 00:32:36]} {[%emt 00:02:13]} Nh4 {[%clk 00:08:14]}
+{[%emt 00:11:24]} 21. Qe3 {[%clk 00:32:32]} {[%emt 00:00:34]} Qc7 {[%clk
+00:07:32]} {[%emt 00:01:12]} 22. f7 {[%clk 00:25:00]} {[%emt 00:08:02]} Bd6
+{[%clk 00:05:47]} {[%emt 00:02:14]} 23. Nd4 {[%clk 00:20:06]} {[%emt 00:05:25]}
+Kb8 {[%clk 00:02:36]} {[%emt 00:03:41]} 24. Nxe6 {[%clk 00:16:15]} {[%emt
+00:04:21]} Qd7 {[%clk 00:01:04]} {[%emt 00:02:03]} 25. Qxg5 {[%clk 00:16:28]}
+{[%emt 00:00:16]} Bc5+ {[%clk 00:00:33]} {[%emt 00:01:02]} 26. Nxc5 {[%clk
+00:16:43]} {[%emt 00:00:14]} 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.02.14"]
+[Round "5.7"]
+[White "Lauda, Alexandr"]
+[Black "Chavez Suarez, Carlos Alberto"]
+[Result "1/2-1/2"]
+[ECO "E12"]
+[WhiteElo "2223"]
+[BlackElo "2338"]
+[PlyCount "57"]
+[EventDate "2026.??.??"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. a3 Bb7 5. Nc3 Be7 6. d5 exd5 7. cxd5 O-O 8. e4
+Re8 9. Be2 d6 10. O-O c6 11. Re1 Nbd7 12. dxc6 Bxc6 13. Nd4 Bb7 14. Bb5 Rc8 15.
+Nf5 a6 16. Bxd7 Qxd7 17. Bg5 Qe6 18. Qd4 d5 19. Nxe7+ Rxe7 20. Bxf6 gxf6 21.
+Nxd5 Bxd5 22. Qxd5 Qxd5 23. exd5 Rd7 24. Rad1 Rcd8 25. Kf1 Rxd5 26. Rxd5 Rxd5
+27. Re8+ Kg7 28. Ke2 a5 29. Re3 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.02.21"]
+[Round "6.7"]
+[White "Lauda, Alexandr"]
+[Black "Delisau Gil, Oriol"]
+[Result "1-0"]
+[ECO "E62"]
+[WhiteElo "2223"]
+[BlackElo "2214"]
+[PlyCount "61"]
+[EventDate "2026.01.17"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. g3 O-O 5. Bg2 d6 6. Nf3 c6 7. O-O Bf5 8. Ne1
+Be6 9. b3 d5 10. cxd5 cxd5 11. Bb2 Nc6 12. Nc2 Rc8 13. Ne3 Nxd4 14. Qxd4 Ng4
+15. Qxa7 Nxe3 16. fxe3 Bxc3 17. Bxc3 Rxc3 18. Rfc1 Qc7 19. Rxc3 Qxc3 20. Qd4
+Qc2 21. Bf3 Ra8 22. Kf2 Qf5 23. h4 h5 24. a4 Rc8 25. a5 Qc2 26. Qb4 Qb2 27. Rd1
+Rc7 28. a6 bxa6 29. Bxd5 Rc2 30. Bf3 Rc8 31. Qxe7 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.03.21"]
+[Round "10.5"]
+[White "Salinas Tomas, Daniel"]
+[Black "Lauda, Alexander"]
+[Result "1-0"]
+[ECO "E05"]
+[WhiteElo "2414"]
+[BlackElo "2285"]
+[PlyCount "85"]
+[EventDate "2024.07.02"]
+[EventType "swiss"]
+[EventRounds "11"]
+[WhiteTeam "Colon Sabadell"]
+[BlackTeam "Platja d'Aro"]
+
+1. d4 Nf6 2. c4 e6 3. g3 d5 4. Bg2 Be7 5. Nf3 O-O 6. O-O dxc4 7. Qc2 b5 8. a4
+b4 9. Nfd2 Nd5 10. Nxc4 c5 11. e4 Nb6 12. Nxb6 axb6 13. d5 exd5 14. exd5 Bf6
+15. Be3 Ba6 16. Rd1 Nd7 17. Nd2 g6 18. d6 Rc8 19. Ne4 Bg7 20. Bg5 f6 21. Bf4 g5
+22. Bc1 h6 23. g4 Ne5 24. Ng3 Qd7 25. Nf5 Bb7 26. f4 b3 27. Qe2 gxf4 28. Ne7+
+Kh8 29. Bxf4 Bxg2 30. Qxg2 Nxg4 31. Nxc8 Rxc8 32. a5 bxa5 33. Rxa5 f5 34. Ra8
+Bd4+ 35. Rxd4 cxd4 36. Rxc8+ Qxc8 37. h3 Nf6 38. Be5 Kh7 39. Bxf6 Qc1+ 40. Qf1
+Qc5 41. Qf2 Qc1+ 42. Kh2 Qc2 43. Bxd4 1-0

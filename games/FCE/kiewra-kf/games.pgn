@@ -1,0 +1,492 @@
+[Event "Badalona op"]
+[Site "?"]
+[Date "2012.08.02"]
+[Round "2"]
+[White "Kiewra, KF."]
+[Black "Arun Prasad, S."]
+[Result "1-0"]
+[ECO "B99"]
+[WhiteElo "2364"]
+[BlackElo "2531"]
+[PlyCount "111"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Be7 8. Qf3
+h6 9. Bh4 Nbd7 10. O-O-O Qc7 11. Be2 Rb8 12. Qg3 Rg8 13. Bxf6 Nxf6 14. Rhf1 g5
+15. f5 e5 16. Nb3 Bd7 17. Nd5 Nxd5 18. exd5 Rc8 19. Bd3 Bf6 20. Nd2 e4 21. Rde1
+Kd8 22. Nxe4 Be5 23. Qf2 Qa5 24. Kb1 Qxd5 25. Qb6+ Rc7 26. Rd1 Qc6 27. Qb3 Ke7
+28. Rde1 Kf8 29. g3 Be8 30. Nd2 b5 31. f6 g4 32. Rxe5 dxe5 33. Ne4 Rg6 34. Qa3+
+Kg8 35. Nd6 Rg5 36. Be4 Qd7 37. Qxa6 Qd8 38. Nxb5 Rd7 39. a4 Rh5 40. Rf2 Rd1+
+41. Ka2 Bd7 42. Nc3 Rd6 43. Qa7 Qc8 44. Qb7 Be6+ 45. b3 Qd8 46. Qe7 Qb8 47. Nb5
+Ra6 48. Rd2 Rxa4+ 49. Kb2 Rxe4 50. Rd8+ Qxd8 51. Qxd8+ Kh7 52. Nd6 Rd4 53. Qf8
+Rg5 54. Nxf7 Bxf7 55. Qxf7+ Kh8 56. Qe8+ 1-0
+
+[Event "Badalona op"]
+[Site "?"]
+[Date "2012.08.03"]
+[Round "3"]
+[White "Panelo Muñoz, MA."]
+[Black "Kiewra, KF."]
+[Result "1/2-1/2"]
+[ECO "E70"]
+[WhiteElo "2444"]
+[BlackElo "2364"]
+[PlyCount "87"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. Nf3 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 O-O 5. d4 c6 6. Bd3 d6 7. O-O Bg4 8. Be2
+a6 9. h3 Bxf3 10. Bxf3 Nfd7 11. Be3 c5 12. dxc5 Nxc5 13. Bd4 Bxd4 14. Qxd4 Nc6
+15. Qe3 e5 16. Rad1 Nd4 17. Bg4 Nce6 18. Bxe6 fxe6 19. Ne2 Nxe2+ 20. Qxe2 Qb6
+21. b3 a5 22. Rd3 Qc5 23. Rfd1 Ra6 24. Rf3 Raa8 25. Rfd3 Ra6 26. a4 Rc6 27.
+R1d2 Kg7 28. h4 Rf4 29. g3 Rf7 30. Qg4 Rf6 31. Kg2 h6 32. Qd1 Rf7 33. Qg4 Rf6
+34. h5 g5 35. Rf3 Rc7 36. Rxf6 Kxf6 37. Rd3 Rf7 38. Qd1 Rd7 39. Qd2 Kg7 40. Qe2
+b6 41. f3 Re7 42. Qd2 Rd7 43. Qe2 Re7 44. Qd2 1/2-1/2
+
+[Event "Badalona op"]
+[Site "?"]
+[Date "2012.08.04"]
+[Round "4"]
+[White "Kiewra, KF."]
+[Black "Hernandez Carmenates, H."]
+[Result "1-0"]
+[ECO "D13"]
+[WhiteElo "2364"]
+[BlackElo "2566"]
+[PlyCount "61"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 c6 3. Nc3 d5 4. cxd5 cxd5 5. Nf3 a6 6. Bf4 Nc6 7. e3 Bg4 8. Be2
+e6 9. Ne5 Bxe2 10. Qxe2 Nxe5 11. Bxe5 Bb4 12. O-O O-O 13. Bxf6 Qxf6 14. Rac1
+Rad8 15. Qd3 Qe7 16. Rc2 f5 17. Ne2 Bd6 18. f4 h6 19. Nc1 g5 20. Qe2 Qf6 21.
+Nd3 gxf4 22. Nxf4 Kh7 23. Qf2 Rg8 24. Rfc1 Rd7 25. Rc8 Rg4 26. h3 Rg5 27. Re8
+Bxf4 28. exf4 Rxg2+ 29. Qxg2 Rg7 30. Rc7 Qxd4+ 31. Kh1 1-0
+
+[Event "Badalona op"]
+[Site "?"]
+[Date "2012.08.05"]
+[Round "5"]
+[White "Obregon Rivero, JC."]
+[Black "Kiewra, KF."]
+[Result "0-1"]
+[ECO "B78"]
+[WhiteElo "2497"]
+[BlackElo "2364"]
+[PlyCount "188"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 d6 3. d4 Nf6 4. Nc3 cxd4 5. Nxd4 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2
+Nc6 9. Bc4 Bd7 10. h4 Rc8 11. Bb3 h5 12. O-O-O Ne5 13. Kb1 Re8 14. g4 hxg4 15.
+h5 Nxh5 16. Bh6 e6 17. Rdg1 Qf6 18. Bxg7 Kxg7 19. fxg4 Qf4 20. Qg2 Nf6 21. g5
+Nfg4 22. Rf1 Qxg5 23. Nf3 Qe7 24. Nxe5 Nxe5 25. Qf2 a6 26. Qb6 Bc6 27. Rh2 Rh8
+28. Rhf2 Rh4 29. Qd4 f5 30. exf5 Rxd4 31. f6+ Kf7 32. fxe7+ Kxe7 33. Rh2 d5 34.
+Re2 Nc4 35. Bxc4 dxc4 36. Rfe1 Rd6 37. Rh2 Rf8 38. a4 Rf7 39. a5 g5 40. Nd1 Rd4
+41. Rh6 Re4 42. Rg1 Re5 43. Rg6 Bf3 44. Nc3 g4 45. b4 cxb3 46. cxb3 Rxa5 47.
+Re1 Rf6 48. Rg7+ Kd6 49. Ne4+ Bxe4+ 50. Rxe4 Rb5 51. Rexg4 Rxb3+ 52. Kc2 Rb5
+53. Rd4+ Kc6 54. Rdd7 Rf2+ 55. Kc3 Rfb2 56. Rd8 R2b3+ 57. Kc2 R3b4 58. Kc3 a5
+59. Rc8+ Kb6 60. Re8 Rc5+ 61. Kd3 e5 62. Ra8 e4+ 63. Kd2 a4 64. Re7 Rh5 65. Kc3
+Rhb5 66. Kd2 Rc4 67. Re6+ Kc5 68. Rc8+ Kb4 69. Rxc4+ Kxc4 70. Rxe4+ Kb3 71. Kc1
+Rh5 72. Re3+ Kb4 73. Re4+ Ka5 74. Kb1 b5 75. Re8 Rh2 76. Re3 Rh4 77. Re2 a3 78.
+Ka2 Ka4 79. Re8 Rh2+ 80. Kb1 b4 81. Re4 Rh3 82. Ka1 Kb3 83. Re1 Rd3 84. Rh1 Kc4
+85. Rc1+ Rc3 86. Rh1 b3 87. Rh4+ Kb5 88. Kb1 Re3 89. Rh5+ Kc4 90. Rh1 Kc3 91.
+Rd1 Re2 92. Ka1 Re5 93. Rb1 Kc2 94. Rh1 Kd2 0-1
+
+[Event "Badalona op"]
+[Site "?"]
+[Date "2012.08.06"]
+[Round "6"]
+[White "Kiewra, KF."]
+[Black "Barrientos Chavarriada, S."]
+[Result "1/2-1/2"]
+[ECO "E39"]
+[WhiteElo "2364"]
+[BlackElo "2500"]
+[PlyCount "157"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 c5 5. dxc5 O-O 6. Nf3 Bxc5 7. Bg5 Nc6 8.
+e4 h6 9. Bh4 Be7 10. Be2 Nh5 11. Bg3 Nxg3 12. hxg3 Qc7 13. O-O a6 14. Rfd1 Rb8
+15. Nd5 exd5 16. cxd5 Bf6 17. Rac1 Re8 18. dxc6 dxc6 19. Nd2 Be6 20. b3 Rbd8
+21. Nc4 Bd4 22. Bf3 b5 23. Nb2 c5 24. Nd3 Rc8 25. Nf4 Qe5 26. Ne2 g5 27. Nxd4
+cxd4 28. Qd2 Rc3 29. Be2 Qxe4 30. Bd3 Qe5 31. Re1 Qf6 32. Re4 Rec8 33. Rce1 Kg7
+34. Re5 R8c5 35. f4 Rxe5 36. Rxe5 b4 37. Ra5 gxf4 38. gxf4 Qh4 39. Re5 Qg3 40.
+Be2 d3 41. Bd1 Bg4 42. Re3 Qxf4 43. Bxg4 Qxg4 44. Rxd3 Rxd3 45. Qxd3 a5 46. Qd5
+Qg5 47. Qd4+ Kh7 48. Qd7 Qc1+ 49. Kh2 Qf4+ 50. Kg1 Kg7 51. Qd5 Qg5 52. Qd4+ Kg6
+53. Qd6+ Kh7 54. Qd3+ Kg8 55. Qd7 h5 56. Qe8+ Kg7 57. Qd7 Qe5 58. Qd8 f6 59.
+Qd2 Kg6 60. Kh1 h4 61. Qd3+ Kg5 62. Qd2+ Kg6 63. Qd3+ f5 64. Qa6+ Kg5 65. Qa8
+Qa1+ 66. Kh2 Qe5+ 67. Kh1 Qc5 68. Qd8+ Kg4 69. Qd1+ Kf4 70. Qd2+ Qe3 71. Qd6+
+Kg4 72. Qg6+ Qg5 73. Qc6 Kh5 74. Qe8+ Qg6 75. Qh8+ Qh6 76. Qe8+ Kg5 77. Qe3+
+Kh5 78. Qe2+ Kg6 79. Qe5 1/2-1/2
+
+[Event "Badalona op"]
+[Site "?"]
+[Date "2012.08.07"]
+[Round "7"]
+[White "Alarcon Casellas, R."]
+[Black "Kiewra, KF."]
+[Result "0-1"]
+[ECO "A45"]
+[WhiteElo "2471"]
+[BlackElo "2364"]
+[PlyCount "218"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. Bg5 Ne4 3. Bf4 c5 4. d5 Qb6 5. Nd2 Nxd2 6. Bxd2 Qxb2 7. e4 g6 8.
+Rb1 Qe5 9. Bd3 Bg7 10. h4 h6 11. Qe2 Qc7 12. f4 h5 13. Nf3 d6 14. Bb5+ Kf8 15.
+f5 gxf5 16. O-O a6 17. Bd3 Nd7 18. c4 b5 19. exf5 Nf6 20. Ng5 bxc4 21. Bxc4 Bd7
+22. Bc3 Bb5 23. Bxb5 axb5 24. Rxb5 Qa7 25. Qb2 Qa4 26. g3 Kg8 27. Rb7 Qg4 28.
+Rf3 Re8 29. Qb5 Kf8 30. Kg2 Nxd5 31. Ne6+ fxe6 32. fxe6+ Kg8 33. Qxe8+ Kh7 34.
+Qf7 Nxc3 35. Rf4 Qg6 36. Rxe7 Nd5 37. Rd7 Nxf4+ 38. Qxf4 Qxe6 39. Rxd6 Qxa2+
+40. Kh3 Rf8 41. Qe4+ Kg8 42. Rd5 Qf2 43. Qe6+ Qf7 44. Qxf7+ Kxf7 45. Rxc5 Kg6
+46. Rg5+ Kh6 47. Kg2 Rf6 48. Rb5 Rc6 49. Rd5 Bf6 50. Rd3 Kg6 51. Kh3 Rc4 52.
+Rd5 Re4 53. Kg2 Re5 54. Rd3 Rc5 55. Kh3 Rc4 56. Rd5 Re4 57. Kg2 Re3 58. Kf2 Rc3
+59. Kg2 Be7 60. Re5 Bd8 61. Rd5 Bc7 62. Rg5+ Kf6 63. Rxh5 Rxg3+ 64. Kf2 Ra3 65.
+Kg2 Bf4 66. Rb5 Be5 67. h5 Rg3+ 68. Kf1 Rh3 69. h6 Kf5 70. Rb6 Bf6 71. Kg2 Rxh6
+72. Rb3 Bd4 73. Rh3 Ra6 74. Rh4 Be3 75. Rh8 Kg4 76. Rg8+ Bg5 77. Rf8 Ra3 78.
+Rf7 Bf4 79. Rg7+ Kf5 80. Rg8 Ke4 81. Re8+ Be5 82. Rf8 Ra2+ 83. Rf2 Ra3 84. Rf8
+Rg3+ 85. Kf2 Rh3 86. Rg8 Ra3 87. Kg2 Ra2+ 88. Kh1 Kf3 89. Rg2 Ra1+ 90. Rg1 Ra8
+91. Rg8 Ra1+ 92. Rg1 Ra7 93. Rf1+ Kg3 94. Rg1+ Kh3 95. Rg2 Bf4 96. Rh2+ Kg3 97.
+Rg2+ Kf3 98. Rf2+ Kg4 99. Rg2+ Bg3 100. Rb2 Ra3 101. Kg2 Bf4 102. Rc2 Rg3+ 103.
+Kh1 Kf3 104. Rh2 Be5 105. Rh7 Rg6 106. Rh3+ Bg3 107. Rh8 Ra6 108. Rf8+ Bf4 109.
+Rg8 Rh6+ 0-1
+
+[Event "Badalona op"]
+[Site "?"]
+[Date "2012.08.08"]
+[Round "8"]
+[White "Jimenez Fraga, PA."]
+[Black "Kiewra, KF."]
+[Result "1/2-1/2"]
+[ECO "A04"]
+[WhiteElo "2446"]
+[BlackElo "2364"]
+[PlyCount "20"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 d6 3. g3 Nc6 4. Bg2 g6 5. O-O Bg7 6. c3 e5 7. d3 Nge7 8. a3 O-O
+9. b4 h6 10. Re1 Be6 1/2-1/2
+
+[Event "Badalona op"]
+[Site "?"]
+[Date "2012.08.09"]
+[Round "9"]
+[White "Kiewra, KF."]
+[Black "Ortiz Suarez, IR."]
+[Result "1/2-1/2"]
+[ECO "B48"]
+[WhiteElo "2364"]
+[BlackElo "2569"]
+[PlyCount "96"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 Nf6 7. f3 a6 8. Qd2
+b5 9. Nxc6 dxc6 10. O-O-O Be7 11. g4 e5 12. h4 Be6 13. Bh3 Rd8 14. Qf2 Rxd1+
+15. Rxd1 h5 16. Bb6 Qb7 17. g5 Bxh3 18. gxf6 Bxf6 19. Bc5 Be6 20. b4 Be7 21.
+Qg3 Bxc5 22. bxc5 O-O 23. Qxe5 Bc4 24. Rg1 f6 25. Qxh5 Qc7 26. Qg4 Rf7 27. f4
+f5 28. exf5 Qe7 29. Nd1 Bxa2 30. Rg3 Qf6 31. Qg5 Qa1+ 32. Kd2 Rd7+ 33. Rd3
+Rxd3+ 34. cxd3 Bb3 35. Nf2 Qb2+ 36. Ke3 Qc1+ 37. Kd4 Qa1+ 38. Ke3 Qe1+ 39. Kf3
+Bd5+ 40. Ne4 b4 41. f6 Bxe4+ 42. dxe4 Qc3+ 43. Ke2 Qc2+ 44. Ke3 Qc1+ 45. Kd3
+Qc3+ 46. Ke2 Qc2+ 47. Ke3 Qc1+ 48. Kd3 Qc3+ 1/2-1/2
+
+[Event "Sants op A"]
+[Site "?"]
+[Date "2012.08.19"]
+[Round "3"]
+[White "Escobar Forero, A."]
+[Black "Kiewra, KF."]
+[Result "0-1"]
+[ECO "B78"]
+[PlyCount "92"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+
+1. e4 c5 2. Nf3 d6 3. d4 Nf6 4. Nc3 cxd4 5. Nxd4 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2
+Nc6 9. Bc4 Bd7 10. O-O-O Rc8 11. Bb3 Nxd4 12. Bxd4 b5 13. h4 a5 14. h5 a4 15.
+Bxf6 Bxf6 16. hxg6 e6 17. Rxh7 axb3 18. Rdh1 fxg6 19. axb3 Be8 20. Kb1 Rf7 21.
+Rxf7 Kxf7 22. Qf4 Kg8 23. Ne2 Qc7 24. c3 Bg7 25. Rd1 Be5 26. Qe3 b4 27. c4 Qc5
+28. Qd2 Qf2 29. Nc1 Qxd2 30. Rxd2 Rb8 31. Nd3 Bf6 32. e5 dxe5 33. Re2 Kg7 34.
+Nxe5 Bxe5 35. Rxe5 Kf6 36. Ra5 g5 37. Kc1 Bg6 38. Ra7 Rh8 39. Rb7 Rh2 40. Rxb4
+Rxg2 41. Kd1 Rxb2 42. c5 Bc2+ 43. Kd2 Be4+ 44. Kc1 Rb1+ 45. Kd2 Bxf3 46. Rb8 g4
+0-1
+
+[Event "Sants op A"]
+[Site "?"]
+[Date "2012.08.20"]
+[Round "4"]
+[White "Aroshidze, L."]
+[Black "Kiewra, KF."]
+[Result "1/2-1/2"]
+[ECO "B78"]
+[PlyCount "52"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+
+1. e4 c5 2. Nf3 d6 3. d4 Nf6 4. Nc3 cxd4 5. Nxd4 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2
+Nc6 9. Bc4 Bd7 10. O-O-O Rc8 11. Bb3 Nxd4 12. Bxd4 b5 13. h4 a5 14. h5 a4 15.
+Bxf6 Bxf6 16. hxg6 e6 17. e5 Bg5 18. f4 axb3 19. fxg5 b4 20. Rxh7 bxc3 21. Qf4
+bxa2 22. Rh8+ Kg7 23. Rh7+ Kg8 24. gxf7+ Kxh7 25. Qh4+ Kg6 26. Qh6+ Kf5 1/2-1/2
+
+[Event "Sants op A"]
+[Site "?"]
+[Date "2012.08.21"]
+[Round "5"]
+[White "Kiewra, KF."]
+[Black "Ibarra Jerez, JC."]
+[Result "1/2-1/2"]
+[ECO "D20"]
+[PlyCount "32"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+
+1. d4 d5 2. c4 dxc4 3. e4 Nc6 4. d5 Ne5 5. Qd4 Nd3+ 6. Bxd3 cxd3 7. Nc3 c6 8.
+Qxd3 e6 9. Nf3 Nf6 10. Bg5 exd5 11. Bxf6 Qxf6 12. exd5 Bf5 13. Qe3+ Be7 14.
+dxc6 bxc6 15. Nd4 O-O 16. Nxf5 Qxf5 1/2-1/2
+
+[Event "Sants op A"]
+[Site "?"]
+[Date "2012.08.22"]
+[Round "6"]
+[White "Kiewra, KF."]
+[Black "Fernandez Garcia, JL."]
+[Result "1-0"]
+[ECO "D71"]
+[PlyCount "69"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+
+1. Nf3 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5 5. cxd5 Nxd5 6. O-O Nc6 7. d4 Nb6 8.
+Nc3 Nxd4 9. Nxd4 Qxd4 10. a4 Qxd1 11. Rxd1 c6 12. a5 Nc4 13. Ra4 Nd6 14. a6 O-O
+15. Bg5 f6 16. Bf4 f5 17. Rb4 Bd7 18. axb7 Rab8 19. Bxd6 exd6 20. Rxd6 Rf7 21.
+Rxd7 Rxd7 22. Bxc6 Rd6 23. Bf3 Rb6 24. Rxb6 axb6 25. Na4 Bd4 26. b4 Kf8 27. b5
+Ke7 28. e3 Bc5 29. Nc3 Rf8 30. Bc6 g5 31. Nd5+ Ke6 32. Kg2 h6 33. Kf3 g4+ 34.
+Ke2 Kd6 35. Nf6 1-0
+
+[Event "Sants op A"]
+[Site "?"]
+[Date "2012.08.23"]
+[Round "7"]
+[White "Oms Pallisse, J."]
+[Black "Kiewra, KF."]
+[Result "1-0"]
+[ECO "E70"]
+[PlyCount "149"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+
+1. Nf3 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 O-O 5. d4 c6 6. Be2 d5 7. e5 Ne4 8. O-O
+Nxc3 9. bxc3 dxc4 10. Bxc4 c5 11. Qe2 Nc6 12. e6 Bxe6 13. Bxe6 fxe6 14. Qxe6+
+Kh8 15. dxc5 Bxc3 16. Rb1 Nd4 17. Nxd4 Bxd4 18. Be3 Bxe3 19. Qe5+ Kg8 20. fxe3
+Qd7 21. Rfd1 Qc6 22. Qxe7 Rae8 23. Qxb7 Qxc5 24. Qb3+ Kg7 25. Rd3 Qf5 26. Qb2+
+Kh6 27. Rbd1 Re5 28. Qe2 Qg5 29. e4 Rf7 30. Rh3+ Kg7 31. Qe3 Qe7 32. Qd4 Rf4
+33. Re3 h5 34. g3 Rf7 35. Rf1 Rxf1+ 36. Kxf1 Kh7 37. Kg2 Kh6 38. Re2 Kh7 39.
+Qe3 a5 40. Qd4 Qe6 41. Rb2 Qe7 42. Rb8 Qg7 43. Ra8 Re7 44. Qxg7+ Kxg7 45. Kf3
+Re5 46. Kf4 Rc5 47. h4 Kf7 48. Ra6 Rb5 49. a3 Rc5 50. Ra7+ Ke6 51. Ra6+ Kf7 52.
+a4 Kg7 53. Ra7+ Kf6 54. e5+ Ke6 55. Ra6+ Kf7 56. Ra7+ Ke6 57. Kg5 Rxe5+ 58.
+Kxg6 Re3 59. Ra6+ Ke7 60. Rxa5 Rxg3+ 61. Kxh5 Rg8 62. Rb5 Kf6 63. a5 Rg1 64. a6
+Ra1 65. Rb6+ Kg7 66. Kg5 Kf7 67. Rb7+ Ke6 68. a7 Ra5+ 69. Kg6 Ra1 70. h5 Rg1+
+71. Kh6 Ra1 72. Kg7 Rg1+ 73. Kf8 Rf1+ 74. Kg8 Rg1+ 75. Rg7 1-0
+
+[Event "Sants op A"]
+[Site "?"]
+[Date "2012.08.24"]
+[Round "8"]
+[White "Kiewra, KF."]
+[Black "Palit, S."]
+[Result "1/2-1/2"]
+[ECO "D74"]
+[PlyCount "115"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+
+1. c4 Nf6 2. Nf3 g6 3. g3 Bg7 4. Bg2 O-O 5. O-O d5 6. cxd5 Nxd5 7. d4 Nb6 8.
+Nc3 c6 9. e3 N8d7 10. Qe2 e5 11. dxe5 Nxe5 12. Nxe5 Bxe5 13. f4 Bg7 14. e4 Be6
+15. Rd1 Qe7 16. Be3 Rfd8 17. Qf2 Rxd1+ 18. Rxd1 Rd8 19. Re1 Nc4 20. Bc5 Qc7 21.
+f5 Bc8 22. f6 Bh6 23. Qe2 Ne5 24. Rd1 Bg4 25. Rxd8+ Qxd8 26. Qf2 Nd3 27. Qd4
+Qxd4+ 28. Bxd4 c5 29. Bf2 Bc1 30. b3 Kf8 31. Nd5 Nxf2 32. Kxf2 Bb2 33. Bf3 Bxf3
+34. Kxf3 Ke8 35. Kf4 Kd7 36. e5 h5 37. Ke4 b5 38. h3 c4 39. bxc4 bxc4 40. Ne3
+c3 41. Nc2 Bc1 42. Kd5 Bg5 43. a4 Bd2 44. g4 hxg4 45. hxg4 Bg5 46. a5 a6 47.
+Nb4 Bd2 48. Kd4 c2 49. Nxc2 Bxa5 50. Kd5 Bb6 51. Na3 a5 52. Nc4 Bc7 53. Nb2 Bb6
+54. Na4 Ba7 55. Nb2 Bg1 56. Na4 Ba7 57. Nc3 Bg1 58. Na4 1/2-1/2
+
+[Event "Sants op A"]
+[Site "?"]
+[Date "2012.08.25"]
+[Round "9"]
+[White "Jimenez Fraga, PA."]
+[Black "Kiewra, KF."]
+[Result "1-0"]
+[ECO "A04"]
+[PlyCount "71"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+
+1. e4 c5 2. Nf3 d6 3. g3 Nc6 4. Bg2 g6 5. O-O Bg7 6. c3 e5 7. d3 Nge7 8. a3 O-O
+9. b4 h6 10. Bb2 f5 11. Nbd2 Be6 12. Re1 Qd7 13. b5 Na5 14. a4 a6 15. c4 f4 16.
+Bc3 b6 17. Bxa5 bxa5 18. Nb3 g5 19. Nxa5 Ng6 20. Nd2 g4 21. Rb1 axb5 22. Rxb5
+Ra7 23. Nab3 h5 24. Rb6 Bh6 25. d4 cxd4 26. c5 fxg3 27. fxg3 Bxd2 28. Qxd2 Bxb3
+29. Rxb3 dxc5 30. Rb6 Nh8 31. Bf1 d3 32. Bxd3 Qd4+ 33. Kh1 c4 34. Rd6 Qc5 35.
+Rc1 Rf2 36. Bxc4+ 1-0
+
+[Event "Sitges op"]
+[Site "?"]
+[Date "2012.07.22"]
+[Round "3"]
+[White "Kiewra, KF."]
+[Black "Hauge, LO."]
+[Result "1/2-1/2"]
+[ECO "E97"]
+[WhiteElo "2361"]
+[BlackElo "2112"]
+[PlyCount "94"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. Nf3 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. d4 O-O 6. Be2 e5 7. O-O Nc6 8. d5
+Ne7 9. b4 Nh5 10. Re1 f5 11. Ng5 Nf6 12. Bf3 c6 13. b5 h6 14. Ne6 Bxe6 15. dxe6
+fxe4 16. Nxe4 Nxe4 17. Bxe4 d5 18. cxd5 cxd5 19. Ba3 dxe4 20. Qxd8 Rfxd8 21.
+Bxe7 Re8 22. Bc5 Rxe6 23. Be3 Rc8 24. Rac1 Rxc1 25. Rxc1 a6 26. Rc8+ Kf7 27.
+Rb8 Re7 28. bxa6 bxa6 29. Kf1 Re6 30. a4 Bf8 31. a5 g5 32. g4 Rc6 33. Ra8 Bb4
+34. Bb6 Ke6 35. Kg2 Be1 36. h4 gxh4 37. Kh3 Kd5 38. Rd8+ Kc4 39. Rd1 Bc3 40.
+Rc1 Kd5 41. Be3 Bxa5 42. Rd1+ Kc4 43. Kxh4 Bb6 44. Rc1+ Kd5 45. Rd1+ Kc4 46.
+Rc1+ Kd5 47. Rd1+ Kc4 1/2-1/2
+
+[Event "Sitges op"]
+[Site "?"]
+[Date "2012.07.24"]
+[Round "5"]
+[White "Kiewra, KF."]
+[Black "Jimenez Fraga, PA."]
+[Result "1-0"]
+[ECO "E90"]
+[WhiteElo "2361"]
+[BlackElo "2446"]
+[PlyCount "75"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. c4 Nf6 2. Nc3 g6 3. e4 d6 4. d4 Bg7 5. Nf3 O-O 6. h3 a6 7. d5 c6 8. Be3 b5
+9. Bd3 Bb7 10. O-O bxc4 11. Bxc4 cxd5 12. exd5 Nbd7 13. Qe2 Nb6 14. Rad1 Nxc4
+15. Qxc4 Qd7 16. Rfe1 Rfc8 17. Qh4 Rxc3 18. bxc3 Bxd5 19. Nd2 Rc8 20. c4 Qa4
+21. Bh6 Bxc4 22. Rc1 d5 23. Rxe7 Bxh6 24. Qxh6 Qxa2 25. Rce1 Bb5 26. Qf4 Qb2
+27. Nf3 Rf8 28. Ne5 Kg7 29. Re3 Qc1+ 30. Kh2 Qc5 31. Nf3 Qb6 32. Nd4 Kg8 33.
+Rf3 Nh5 34. Qe5 Qd8 35. Rc3 Qb6 36. Ne6 fxe6 37. Rcc7 Rf6 38. Rc8+ 1-0
+
+[Event "Sitges op"]
+[Site "?"]
+[Date "2012.07.25"]
+[Round "6"]
+[White "Mirzoev, A."]
+[Black "Kiewra, KF."]
+[Result "1/2-1/2"]
+[ECO "D76"]
+[WhiteElo "2545"]
+[BlackElo "2361"]
+[PlyCount "77"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. g3 O-O 5. Bg2 d5 6. cxd5 Nxd5 7. O-O Nb6 8.
+Nc3 Nc6 9. d5 Na5 10. Qc2 c6 11. dxc6 Nxc6 12. Rd1 Bf5 13. e4 Bd7 14. Bf4 e5
+15. Bg5 Qc8 16. Nd5 Nxd5 17. exd5 Nd4 18. Nxd4 exd4 19. Qb3 Bg4 20. Re1 Re8 21.
+d6 Qd7 22. Be7 Be6 23. Qxb7 Rab8 24. Qxd7 Bxd7 25. Rac1 Rb6 26. h4 Bf8 27. Bd5
+d3 28. Rcd1 Bf5 29. b3 Bg7 30. Re3 Bf8 31. g4 Bxg4 32. Rdxd3 Kg7 33. Rc3 Bxe7
+34. Rxe7 Rxd6 35. Rxf7+ Kh6 36. Rcc7 Rh8 37. Bc4 a6 38. Rfe7 Bf5 39. a4 1/2-1/2
+
+[Event "Sitges op"]
+[Site "?"]
+[Date "2012.07.26"]
+[Round "7"]
+[White "Kiewra, KF."]
+[Black "Alarcon Casellas, R."]
+[Result "0-1"]
+[ECO "C05"]
+[WhiteElo "2361"]
+[BlackElo "2436"]
+[PlyCount "120"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. c3 c5 6. Bd3 Nc6 7. Ne2 Rb8 8. O-O
+b5 9. f4 Qb6 10. Nf3 g6 11. g4 c4 12. Bc2 Be7 13. Kg2 h5 14. h3 Bb7 15. Ng5
+hxg4 16. hxg4 Bxg5 17. fxg5 Ncxe5 18. Bf4 Rc8 19. Rh1 Ke7 20. a4 Rxh1 21. Qxh1
+bxa4 22. Qb1 Nd3 23. Bxd3 cxd3 24. Qxd3 Ba6 25. Qd2 Bxe2 26. Qxe2 Rc4 27. Kg3
+Qb3 28. Kh4 Rc6 29. Qf2 Rc8 30. Rf1 Rh8+ 31. Kg3 a3 32. Be5 Rh7 33. Bf6+ Ke8
+34. bxa3 Qxc3+ 35. Qf3 Nxf6 36. gxf6 Qxd4 37. Qb3 Qe5+ 38. Rf4 g5 39. Qb5+ Kd8
+40. Qa5+ Qc7 41. Qxc7+ Kxc7 42. Ra4 Kb6 43. Rb4+ Kc6 44. Ra4 Rh6 45. Rxa7 Rxf6
+46. a4 Rf1 47. a5 Ra1 48. a6 Kd6 49. Rxf7 Rxa6 50. Rg7 Ra3+ 51. Kf2 Ke5 52.
+Rxg5+ Kf4 53. Rg8 Ra2+ 54. Kf1 Kf3 55. Ke1 e5 56. g5 d4 57. g6 Ke3 58. Kf1 Rf2+
+59. Kg1 Rf6 60. Kh2 e4 0-1
+
+[Event "Sitges op"]
+[Site "?"]
+[Date "2012.07.27"]
+[Round "8"]
+[White "Palit, S."]
+[Black "Kiewra, KF."]
+[Result "0-1"]
+[ECO "A43"]
+[WhiteElo "2393"]
+[BlackElo "2361"]
+[PlyCount "114"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nc3 g6 3. d4 Bg7 4. d5 d6 5. f4 a6 6. a4 e6 7. dxe6 Bxe6 8. Nf3 Nc6
+9. Ng5 Nd4 10. Nxe6 fxe6 11. Ne2 Nh6 12. Nxd4 cxd4 13. Bd3 O-O 14. O-O Rc8 15.
+Qe2 Qh4 16. Bc4 Rfe8 17. Ra3 d5 18. exd5 exd5 19. Bxd5+ Kh8 20. Qd1 Qe7 21. Rh3
+Qc5 22. Bxb7 d3+ 23. Kh1 dxc2 24. Qd5 a5 25. Qxc5 Rxc5 26. Ba6 Nf5 27. g4 Nd4
+28. Rc3 Rxc3 29. bxc3 Nb3 30. Bd3 Na1 31. Kg2 Rd8 32. Be4 Bxc3 33. Rf3 Bg7 34.
+Rf1 Rd1 35. Ba3 Bd4 36. Bf3 Rxf1 37. Kxf1 Nb3 38. Ke2 c1=Q 39. Bxc1 Nxc1+ 40.
+Kd2 Nb3+ 41. Kd3 Bg7 42. Bd1 Nc1+ 43. Kc2 Na2 44. Kb3 Nb4 45. Kc4 Bh6 46. Kb5
+Bxf4 47. Kxa5 Nd5 48. Bf3 Nf6 49. Kb5 Kg7 50. a5 Kh6 51. a6 Be3 52. Kc6 Kg5 53.
+Kb7 Nxg4 54. a7 Bxa7 55. Kxa7 Kf4 56. Bb7 Nf2 57. Kb6 h5 0-1
+
+[Event "Sitges op"]
+[Site "?"]
+[Date "2012.07.28"]
+[Round "9"]
+[White "Laxman, RR."]
+[Black "Kiewra, KF."]
+[Result "1-0"]
+[ECO "E91"]
+[WhiteElo "2422"]
+[BlackElo "2361"]
+[PlyCount "91"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. Nf3 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 O-O 5. d4 d6 6. Be2 Bg4 7. Ng1 Bxe2 8.
+Ngxe2 Nfd7 9. Be3 c5 10. d5 Na6 11. O-O Nc7 12. a4 a6 13. a5 Rb8 14. b3 b5 15.
+axb6 Rxb6 16. Ra3 Qa8 17. f4 e6 18. dxe6 fxe6 19. e5 d5 20. Na4 Rc6 21. Nc1 Rd8
+22. Nd3 Nb5 23. Ra2 dxc4 24. bxc4 Nd4 25. Bxd4 cxd4 26. c5 Bf8 27. Qg4 Qc8 28.
+h4 Nxc5 29. Naxc5 Bxc5 30. h5 Kg7 31. Rf3 Be7 32. hxg6 h5 33. Qh3 Rf8 34. g4
+Rc2 35. Rxc2 Qxc2 36. gxh5 Qd1+ 37. Kg2 Qc2+ 38. Kg1 Qd1+ 39. Rf1 Qe2 40. Re1
+Qa2 41. Rf1 Kh6 42. Rf2 Qb1+ 43. Kh2 Rf5 44. g7 Kxg7 45. Qg4+ Kf8 46. Rb2 1-0

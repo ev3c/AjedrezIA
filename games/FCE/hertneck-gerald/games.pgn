@@ -1,0 +1,270 @@
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.18"]
+[Round "1"]
+[White "Gurrutxaga Telleria, Jose Luis"]
+[Black "Hertneck, Gerald"]
+[Result "0-1"]
+[ECO "A57"]
+[WhiteElo "2098"]
+[BlackElo "2498"]
+[PlyCount "30"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. Nc3 axb5 6. e4 b4 7. Nb5 d6 8. Bf4 g6
+9. e5 Nh5 10. exd6 exd6 11. Qe2+ Kd7 12. g3 Nxf4 13. gxf4 Qe7 14. Bh3+ f5 15.
+Qe6+ Kd8 0-1
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.19"]
+[Round "2"]
+[White "Hertneck, Gerald"]
+[Black "Roig Aguilar, Alejandro"]
+[Result "1-0"]
+[ECO "D03"]
+[WhiteElo "2498"]
+[BlackElo "2243"]
+[PlyCount "87"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. Nf3 g6 2. d4 Nf6 3. Bg5 Bg7 4. Nbd2 d5 5. c3 O-O 6. e3 c5 7. dxc5 Qc7 8. Nb3
+Nbd7 9. Bb5 Rd8 10. Bf4 e5 11. Bg3 Ne4 12. Bxd7 Nxg3 13. Bxc8 Nxh1 14. Bh3 e4
+15. Nfd4 Qxh2 16. Ke2 Nxf2 17. Kxf2 Qe5 18. Ke2 a5 19. a4 Ra6 20. Kd2 Bh6 21.
+Qe2 Rf6 22. Nc2 Ra8 23. Nbd4 Qc7 24. Qb5 Raa6 25. Rd1 Bf8 26. b4 Rf2+ 27. Kc1
+Raf6 28. Nb3 Qe5 29. Rd4 axb4 30. cxb4 Bh6 31. Qxb7 Qg3 32. Qxd5 Bxe3+ 33. Kb2
+Bxd4+ 34. Nbxd4 Qd3 35. Qe5 e3 36. c6 Rxc6 37. Qe8+ Kg7 38. Qxc6 Qxd4+ 39. Qc3
+Qxc3+ 40. Kxc3 e2 41. Kd2 f5 42. a5 Kf6 43. a6 Ke7 44. Ne1 1-0
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.20"]
+[Round "3"]
+[White "Morales, Jhon Alexander"]
+[Black "Hertneck, Gerald"]
+[Result "0-1"]
+[ECO "C18"]
+[WhiteElo "2343"]
+[BlackElo "2498"]
+[PlyCount "68"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Qa5 7. Bd2 Qa4 8. Qg4
+Kf8 9. Nf3 Nc6 10. Qf4 Qxc2 11. dxc5 Nge7 12. Be2 Ng6 13. Qe3 Qe4 14. Qxe4 dxe4
+15. Ng5 Ncxe5 16. Nxe4 Bd7 17. O-O Bc6 18. Nd6 Nd7 19. Be3 Nh4 20. Rab1 Nxg2
+21. Bb5 Nxe3 22. fxe3 f6 23. Bxc6 bxc6 24. Rb7 Nxc5 25. Rf7+ Kg8 26. Rc7 h5 27.
+Kh1 Kh7 28. Rg1 Rhg8 29. Rxc6 Nd3 30. c4 Rad8 31. c5 Nf2+ 32. Kg2 Ng4 33. e4
+Rb8 34. h4 Rb2+ 0-1
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.21"]
+[Round "4"]
+[White "Hertneck, Gerald"]
+[Black "Petrosyan, Tigran S"]
+[Result "1/2-1/2"]
+[ECO "D58"]
+[WhiteElo "2498"]
+[BlackElo "2430"]
+[PlyCount "135"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. Nf3 Nf6 2. c4 e6 3. Nc3 d5 4. d4 Be7 5. Bg5 h6 6. Bh4 O-O 7. e3 b6 8. Bd3
+Bb7 9. Rc1 Nbd7 10. cxd5 exd5 11. O-O c5 12. b3 Rc8 13. dxc5 bxc5 14. Bf5 g6
+15. Bxf6 Bxf6 16. Bh3 Bxc3 17. Rxc3 f5 18. g3 Nf6 19. Bg2 Ne4 20. Rc2 Rc7 21.
+Ne5 Qd6 22. Qa1 Re7 23. f4 Kh7 24. Rd1 Qb6 25. Qc1 Rc8 26. Qa3 Rec7 27. Bf3 a6
+28. Rdc1 h5 29. Kg2 Nf6 30. b4 c4 31. Rd1 Qe6 32. Qc3 Ng4 33. Rcd2 Nxe5 34.
+fxe5 Rd8 35. Kf2 Re7 36. Rd4 Qxe5 37. Rxc4 dxc4 38. Qxe5 Rxe5 39. Rxd8 Bxf3 40.
+Kxf3 Rb5 41. Kf4 c3 42. Rc8 Kh6 43. a3 a5 44. Rxc3 axb4 45. Rb3 g5+ 46. Kf3 Kg6
+47. h4 Ra5 48. axb4 Rb5 49. Ke2 Kf6 50. Kd3 gxh4 51. gxh4 Ke6 52. Ke2 Kf6 53.
+Kf3 Ke5 54. Rb1 Kf6 55. Kf4 Ke6 56. Kg5 Ke5 57. Kxh5 Kf6 58. e4 fxe4+ 59. Kg4
+e3 60. Kf3 Rh5 61. Rh1 Rb5 62. Rb1 Rh5 63. Kxe3 Rxh4 64. Kd3 Ke6 65. b5 Kd7 66.
+Rc1 Rb4 67. Rc5 Kd6 68. Rh5 1/2-1/2
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.22"]
+[Round "5"]
+[White "Mascaro March, Pedro"]
+[Black "Hertneck, Gerald"]
+[Result "1-0"]
+[ECO "A48"]
+[WhiteElo "2387"]
+[BlackElo "2498"]
+[PlyCount "99"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 g6 3. Bf4 d6 4. h3 c5 5. e3 Qb6 6. Qc1 Bg7 7. c3 O-O 8. Be2
+Nbd7 9. Nbd2 cxd4 10. exd4 Nd5 11. Bh2 e5 12. Nc4 Qc6 13. O-O b5 14. Ncd2 N5b6
+15. dxe5 dxe5 16. Bd3 f5 17. Bc2 Bb7 18. Re1 Rae8 19. Nb3 Nc4 20. Bd3 Qb6 21.
+Nfd2 Bd5 22. Bf1 Bh6 23. Nxc4 bxc4 24. Qxh6 cxb3 25. axb3 Bxb3 26. Ra6 Qb8 27.
+Rea1 Bf7 28. b4 Qc8 29. Bb5 Re7 30. Rxa7 Qxc3 31. Rc1 Qxb4 32. Rxd7 f4 33. Rxe7
+Qxe7 34. Bf1 Qa3 35. Rc7 Qd6 36. Ra7 Qc5 37. Rd7 Qc6 38. Re7 Rd8 39. Rxf7 Kxf7
+40. Qxh7+ Ke6 41. Qxg6+ Kd7 42. Qxc6+ Kxc6 43. Be2 Kd5 44. g4 Ke4 45. Kg2 Rd2
+46. Bf3+ Kd3 47. g5 e4 48. Bxf4 exf3+ 49. Kxf3 Rd1 50. g6 1-0
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.23"]
+[Round "6"]
+[White "Hertneck, Gerald"]
+[Black "Mordechai, Hanan"]
+[Result "1/2-1/2"]
+[ECO "E97"]
+[WhiteElo "2498"]
+[BlackElo "2326"]
+[PlyCount "90"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 O-O 5. e4 d6 6. Be2 e5 7. O-O Nc6 8. d5
+Ne7 9. b4 a5 10. Ba3 axb4 11. Bxb4 b6 12. a4 Re8 13. Qd2 c5 14. Ba3 Rf8 15.
+Rfb1 Ne8 16. Bc1 Ra6 17. Rb3 f5 18. Qb2 Bd7 19. Ng5 Nc8 20. a5 bxa5 21. Rba3 h6
+22. Nf3 f4 23. h3 g5 24. Nh2 Nf6 25. Qa2 h5 26. Rxa5 Rb6 27. f3 Bh6 28. Ra8 Qe7
+29. Rb1 Rb4 30. Rb8 Rxb8 31. Rxb8 Qg7 32. Rb7 g4 33. hxg4 hxg4 34. Nxg4 Nxg4
+35. fxg4 f3 36. Bxh6 f2+ 37. Kf1 Qxh6 38. Bf3 Qh1+ 39. Kxf2 Bxg4 40. Qd2 Rxf3+
+41. gxf3 Qxf3+ 42. Kg1 Qg3+ 43. Qg2 Qe1+ 44. Qf1 Qg3+ 45. Qg2 Qe1+ 1/2-1/2
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.24"]
+[Round "7"]
+[White "Escalante Ramirez, Brian Sebastian"]
+[Black "Hertneck, Gerald"]
+[Result "0-1"]
+[ECO "C10"]
+[WhiteElo "2326"]
+[BlackElo "2498"]
+[PlyCount "88"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nc6 4. Nf3 Nf6 5. e5 Ne4 6. Bd3 Bb4 7. O-O Nxc3 8.
+bxc3 Bxc3 9. Rb1 h6 10. Ba3 a5 11. Bb5 Bd7 12. Ba4 Bb4 13. Bc1 b6 14. a3 Bf8
+15. c3 Na7 16. Bc2 Nb5 17. Qd3 Nxa3 18. Bxa3 Bxa3 19. c4 Bb4 20. cxd5 exd5 21.
+e6 Bxe6 22. Ne5 Bd6 23. Ng6 fxg6 24. Qxg6+ Kd7 25. Rfe1 Re8 26. Ba4+ c6 27.
+Rbc1 Rc8 28. Rxc6 Rxc6 29. Rc1 Bc5 30. dxc5 b5 31. Bxb5 Qe7 32. Qb1 Rec8 33.
+Bxc6+ Rxc6 34. Qb7+ Rc7 35. Qb5+ Kd8 36. Qxa5 Ke8 37. h3 Kf7 38. Qc3 Qf6 39.
+Qa5 Qe5 40. Rc3 d4 41. Rc1 d3 42. Qd2 Qg5 43. f4 Qd5 44. Kh2 Bf5 0-1
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.25"]
+[Round "8"]
+[White "Hertneck, Gerald"]
+[Black "Pfreundt, Jakob"]
+[Result "1/2-1/2"]
+[ECO "D63"]
+[WhiteElo "2498"]
+[BlackElo "2388"]
+[PlyCount "85"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 e6 4. Nc3 Be7 5. Bg5 h6 6. Bh4 O-O 7. e3 Nbd7 8. Rc1
+c5 9. cxd5 Nxd5 10. Bxe7 Nxe7 11. Bb5 cxd4 12. Qxd4 Nf6 13. O-O Qxd4 14. Nxd4
+a6 15. Be2 Bd7 16. Bf3 Rab8 17. Ne4 Nxe4 18. Bxe4 Rfc8 19. Rxc8+ Nxc8 20. Nb3
+Nd6 21. Bf3 Kf8 22. Nc5 Ke7 23. Nxd7 Kxd7 24. Rd1 a5 25. h4 b6 26. b4 axb4 27.
+Rb1 Rc8 28. Rxb4 Rc1+ 29. Kh2 b5 30. Rb2 g5 31. hxg5 hxg5 32. a4 bxa4 33. Ra2
+Rc4 34. Bd1 Rh4+ 35. Kg1 f5 36. Bxa4+ Ke7 37. Bc6 Rc4 38. Ra7+ Kf6 39. Ra6 g4
+40. Kh2 Ke5 41. Ra5+ Kf6 42. Ra6 Ke5 43. Ra5+ 1/2-1/2
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.26"]
+[Round "9"]
+[White "Plazuelo Pascual, Juan"]
+[Black "Hertneck, Gerald"]
+[Result "1/2-1/2"]
+[ECO "D30"]
+[WhiteElo "2356"]
+[BlackElo "2498"]
+[PlyCount "97"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. e3 c5 5. cxd5 exd5 6. Bb5+ Nc6 7. O-O a6 8.
+Bxc6+ bxc6 9. dxc5 Bxc5 10. Qc2 Qd6 11. b3 O-O 12. Bb2 Re8 13. Nbd2 Ba7 14.
+Rac1 c5 15. Ba3 Nd7 16. Rfd1 Qe6 17. b4 c4 18. Bb2 Nb6 19. Nd4 Qg6 20. Qxg6
+hxg6 21. Nc6 Na4 22. Ba1 Bb6 23. Nb1 Bd7 24. Ne5 Be6 25. Nc3 Nxc3 26. Bxc3 Rec8
+27. a4 Kh7 28. Nf3 f6 29. Ra1 Rab8 30. Nd4 Bxd4 31. Rxd4 g5 32. f3 Kg6 33. Kf2
+Kf7 34. Rd2 Rb7 35. Rb1 Bf5 36. Rbb2 Bd3 37. b5 axb5 38. Rxb5 Rxb5 39. axb5 Rb8
+40. Rb2 Ke6 41. Bd4 Kd6 42. b6 Bf5 43. Ke1 Bc8 44. Ra2 Bb7 45. h3 Rf8 46. Ra5
+Rf7 47. Rc5 Bc6 48. Ra5 Bb7 49. Rc5 1/2-1/2

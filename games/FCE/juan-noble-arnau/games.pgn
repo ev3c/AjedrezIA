@@ -1,0 +1,61 @@
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.02.07"]
+[Round "4.10"]
+[White "Juan Noble, Arnau"]
+[Black "Martinez Perez, Pablo"]
+[Result "1-0"]
+[WhiteElo "1831"]
+[WhiteTeam "Terrassa"]
+[WhiteFideId "94742235"]
+[BlackElo "2003"]
+[BlackTeam "Colon Sabadell ionehipotecas.com"]
+[BlackFideId "32041993"]
+[TimeControl "90+30"]
+[Variant "Standard"]
+[ECO "C41"]
+[Opening "Philidor Defense: Exchange Variation"]
+[UTCDate "2026.02.07"]
+[UTCTime "15:21:25"]
+[BroadcastName "Lliga Catalana DH"]
+[BroadcastURL "https://lichess.org/broadcast/lliga-catalana-dh/r4-colon-sabadell-ionehipotecascom-vs-terrassa/ZdEM6VIa"]
+[GameURL "https://lichess.org/broadcast/lliga-catalana-dh/r4-colon-sabadell-ionehipotecascom-vs-terrassa/ZdEM6VIa/0v4XWPH1"]
+
+1. e4 e5 2. Nf3 d6 3. d4 exd4 4. Nf6 5. Nc3 Be7 6. g3 Bg4 7. f3 Bd7 8. Be3 O-O 9. Qd2 Re8 10. O-O-O Nc6 11. Kb1 Bf8 12. Qf2?! { [%eval 1.0] } { Inaccuracy. g4 was best. } { [%clk 0:42:05] } 12... a6 { [%eval 1.5] [%clk 0:36:44] } 13. g4 { [%eval 1.72] [%clk 0:27:49] } 13... Nxd4 { [%eval 1.72] [%clk 0:33:41] } 14. Bxd4 { [%eval 1.57] [%clk 0:27:07] } 14... c5 { [%eval 1.84] [%clk 0:30:31] } 15. Be3 { [%eval 1.64] [%clk 0:26:09] } 15... Be6?! { [%eval 2.27] } { Inaccuracy. b5 was best. } { [%clk 0:20:41] } 16. g5 { [%eval 2.18] [%clk 0:16:18] } 16... Nd7 { [%eval 2.07] [%clk 0:21:02] } 17. Nd5 { [%eval 1.53] [%clk 0:15:49] } 17... b5 { [%eval 1.96] [%clk 0:16:42] } 18. f4?! { [%eval 1.35] } { Inaccuracy. Nf4 was best. } { [%clk 0:11:12] } 18... Bxd5 { [%eval 1.47] [%clk 0:16:16] } 19. exd5 { [%eval 1.44] [%clk 0:10:06] } 19... Nb6 { [%eval 1.53] [%clk 0:16:02] } 20. h4 { [%eval 1.64] [%clk 0:08:37] } 20... Ra7 { [%eval 1.99] [%clk 0:14:07] } 21. h5 { [%eval 2.02] [%clk 0:07:51] } 21... Qe7?! { [%eval 2.75] } { Inaccuracy. Na4 was best. } { [%clk 0:12:25] } 22. Bc1 { [%eval 2.64] [%clk 0:08:01] } 22... Qe4 { [%eval 3.33] [%clk 0:09:43] } 23. Bd3 { [%eval 3.31] [%clk 0:07:11] } 23... Qa4 { [%eval 3.42] [%clk 0:08:59] } 24. g6 { [%eval 3.17] [%clk 0:04:00] } 24... Rae7 { [%eval 3.87] [%clk 0:07:01] } 25. gxh7+ { [%eval 3.71] [%clk 0:03:21] } 25... Kh8 { [%eval 3.7] [%clk 0:07:21] } 26. h6 { [%eval 3.32] [%clk 0:03:21] } 26... g6? { [%eval 5.91] } { Mistake. Nxd5 was best. } { [%clk 0:07:15] } 27. b3 { [%eval 6.05] [%clk 0:03:38] } 27... Qd4 { [%eval 5.88] [%clk 0:06:45] } 28. Bb2 { [%eval 5.47] [%clk 0:03:43] } 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.02.14"]
+[Round "5.10"]
+[White "Llaneza Vega, Patricia"]
+[Black "Juan Noble, Arnau"]
+[Result "1-0"]
+[ECO "B12"]
+[WhiteElo "2257"]
+[BlackElo "1963"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 h6 6. O-O Ne7 7. c3 Nd7 8. Na3 Bh7
+9. Nc2 Ng6 10. a4 c5 11. c4 dxc4 12. Bxc4 cxd4 13. Ncxd4 Bc5 14. Nb3 Bb4 15.
+Qd4 Qe7 16. Bb5 Rd8 17. Qxa7 O-O 18. Qe3 Nh4 19. Nxh4 Qxh4 20. a5 Qe4 21. Qxe4
+Bxe4 22. Ra4 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "Manresa"]
+[Date "2026.04.11"]
+[Round "11.10"]
+[White "Juan Noble, Arnau"]
+[Black "Marabajan Navas, Saul"]
+[Result "0-1"]
+[ECO "B22"]
+[WhiteElo "1962"]
+[BlackElo "2185"]
+[PlyCount "52"]
+[EventDate "2026.04.11"]
+[EventRounds "11"]
+[EventCountry "CAT"]
+[EventCategory "1"]
+
+1. e4 c5 2. c3 d5 3. exd5 Nf6 4. d4 Nxd5 5. Nf3 cxd4 6. cxd4 e6 7. Nc3 Be7 8.
+Bd3 O-O 9. O-O b6 10. Re1 Bb7 11. Ne5 Nd7 12. Bb5 Nxe5 13. dxe5 Nxc3 14. bxc3
+Qc7 15. Qg4 Rfd8 16. Bh6 g6 17. Rac1 Rd5 18. Qe2 Rad8 19. c4 Rd4 20. f3 g5 21.
+g3 Rd2 22. Qf1 Qc5+ 23. Kh1 Rf2 24. Qh3 Bxf3+ 25. Kg1 Re2+ 26. Kf1 Qf2# 0-1

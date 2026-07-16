@@ -1,0 +1,801 @@
+[Event "Lliga Catalana eq. DH Final B"]
+[Site "?"]
+[Date "2016.04.02"]
+[Round "2.1"]
+[White "Gonzalez, Raul Omar"]
+[Black "Gonzalez Verges, Alex"]
+[Result "1-0"]
+[ECO "A45"]
+[WhiteElo "2269"]
+[BlackElo "2206"]
+[PlyCount "49"]
+[EventDate "2016.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2016.04.22"]
+
+1. d4 Nf6 2. Nc3 g6 3. Bf4 Bg7 4. Qd2 O-O 5. Bh6 Bxh6 6. Qxh6 c5 7. e3 cxd4 8.
+exd4 Nc6 9. Nf3 d6 10. Ng5 Qa5 11. O-O-O Nb4 12. Nce4 Nbd5 13. Bc4 Bf5 14. Bxd5
+Bxe4 15. Bxe4 Qxa2 16. c3 a5 17. Bb1 Qc4 18. Rd3 Rfc8 19. Re1 e5 20. Nxh7 Ng4
+21. Qh4 Kg7 22. Qxg4 Kxh7 23. Qh4+ Kg7 24. Rf3 exd4 25. Qf6+ 1-0
+
+[Event "Lliga Catalana eq. DH gr 1"]
+[Site "?"]
+[Date "2016.02.13"]
+[Round "4.4"]
+[White "Castellet Giralt, Gabriel"]
+[Black "Gonzalez, Raul Omar"]
+[Result "1/2-1/2"]
+[ECO "A57"]
+[WhiteElo "2196"]
+[BlackElo "2269"]
+[PlyCount "84"]
+[EventDate "2016.??.??"]
+[EventType "team"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2016.03.03"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 g6 5. Nc3 Bg7 6. Nf3 O-O 7. g3 a6 8. bxa6
+d6 9. Bg2 Nxa6 10. O-O Bf5 11. Nh4 Bg4 12. h3 Bd7 13. Be3 Qa5 14. Bd2 Rfb8 15.
+Rb1 Ra7 16. b3 Nb4 17. a4 Qd8 18. e4 Qc8 19. Kh2 Rab7 20. f4 Ne8 21. Nf3 c4 22.
+Qe2 Bxc3 23. Bxc3 cxb3 24. Rxb3 Bxa4 25. Rxb4 Rxb4 26. Bxb4 Rxb4 27. Qd2 Rc4
+28. f5 Nf6 29. e5 dxe5 30. Nxe5 Rc2 31. Qb4 Be8 32. fxg6 hxg6 33. Qxe7 Nxd5 34.
+Nxg6 Kg7 35. Qe4 fxg6 36. Qxd5 Qc6 37. Qd4+ Kg8 38. Rf2 Rxf2 39. Qxf2 Qd6 40.
+Qf4 Qxf4 41. gxf4 Kg7 42. Kg3 Kf6 1/2-1/2
+
+[Event "Lliga Catalana eq. DH gr 1"]
+[Site "?"]
+[Date "2016.02.20"]
+[Round "5.2"]
+[White "Garcia de Blas, Esteban"]
+[Black "Gonzalez, Raul Omar"]
+[Result "1/2-1/2"]
+[ECO "E61"]
+[WhiteElo "2105"]
+[BlackElo "2269"]
+[PlyCount "100"]
+[EventDate "2016.??.??"]
+[EventType "team"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2016.03.03"]
+
+1. d4 Nf6 2. c4 c5 3. e3 g6 4. Nc3 Bg7 5. Nf3 O-O 6. d5 d6 7. Be2 Nbd7 8. O-O
+Re8 9. h3 h6 10. e4 b5 11. cxb5 a6 12. Qc2 axb5 13. Bxb5 Ba6 14. a4 Bxb5 15.
+Nxb5 Qb6 16. Be3 Qb7 17. Nd2 Nb6 18. b3 Nfd7 19. Rac1 Rec8 20. Na3 Qa6 21. f4
+Rab8 22. Rf3 Na8 23. g4 Nc7 24. h4 Rb4 25. Nac4 Rcb8 26. Kf2 Nf6 27. Kg3 Re8
+28. Rd1 h5 29. g5 Ng4 30. Bg1 Rd8 31. Rd3 Rbb8 32. Re1 Bd4 33. Ne3 Qc8 34. Qd1
+Bxe3 35. Bxe3 Nxe3 36. Rexe3 Qd7 37. Nc4 Na6 38. Rc3 Nb4 39. Qf3 Qb7 40. Re2
+Qd7 41. Rd2 f6 42. f5 fxg5 43. fxg6 gxh4+ 44. Kxh4 Qg4+ 45. Qxg4 hxg4 46. Kxg4
+Rf8 47. Rh2 Rf1 48. Rch3 Rbf8 49. Rh8+ Kg7 50. R8h7+ Kg8 1/2-1/2
+
+[Event "Sabadell Coral Colon"]
+[Site "Sabadell"]
+[Date "2017.02.03"]
+[Round "1"]
+[White "Munoz Pantoja, Miguel Angel"]
+[Black "Gonzalez, Raul Omar"]
+[Result "1-0"]
+[ECO "C22"]
+[WhiteElo "2481"]
+[BlackElo "2204"]
+[PlyCount "51"]
+[EventDate "2017.02.03"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "3"]
+[SourceTitle "CBM 177 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.04.27"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.04.27"]
+[SourceQuality "1"]
+
+1. e4 e5 2. d4 exd4 3. Qxd4 Qf6 4. Qe3 b6 5. Nc3 Bc5 6. Qg3 Ne7 7. Bf4 Na6 8.
+Nf3 O-O 9. Bxa6 Bxa6 10. Bxc7 d6 11. O-O-O Bb4 12. Bxd6 Bxc3 13. bxc3 Ng6 14.
+e5 Qe6 15. Bxf8 Rxf8 16. Kb2 Qc4 17. Nd4 Ne7 18. Rhe1 Rc8 19. e6 fxe6 20. Nxe6
+Nf5 21. Qe5 Qg4 22. Rd7 h5 23. h3 Qg6 24. g4 hxg4 25. hxg4 Qxg4 26. Qxf5 1-0
+
+[Event "Sabadell Coral Colon"]
+[Site "Sabadell"]
+[Date "2017.02.10"]
+[Round "2"]
+[White "Gonzalez, Raul Omar"]
+[Black "Aguero Jimenez, Luis Lazaro"]
+[Result "0-1"]
+[ECO "A06"]
+[WhiteElo "2204"]
+[BlackElo "2439"]
+[PlyCount "57"]
+[EventDate "2017.02.03"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "3"]
+[SourceTitle "CBM 177 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.04.27"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.04.27"]
+[SourceQuality "1"]
+
+1. Nf3 d5 2. e3 Nf6 3. b3 g6 4. Bb2 Bg7 5. Bd3 c5 6. O-O O-O 7. Nc3 b6 8. Ne2
+Bb7 9. Ng3 Nc6 10. h4 Qc7 11. Ng5 e5 12. h5 h6 13. Nh3 e4 14. Be2 Nxh5 15. Bxh5
+Bxb2 16. f4 Bxa1 17. Qxa1 gxh5 18. Qf6 Qe7 19. Qxh6 Qe6 20. Qxh5 Qg6 21. Qh4 f6
+22. f5 Qh7 23. Nh5 Qh6 24. Qg3+ Kh8 25. Rf4 Rg8 26. Qh4 Rg5 27. Kh1 Ne5 28. g4
+Ba6 29. Ng1 0-1
+
+[Event "Sabadell Coral Colon"]
+[Site "Sabadell"]
+[Date "2017.02.17"]
+[Round "3"]
+[White "Pozanco Romasanta, Marc"]
+[Black "Gonzalez, Raul Omar"]
+[Result "1/2-1/2"]
+[ECO "E43"]
+[WhiteElo "2065"]
+[BlackElo "2204"]
+[PlyCount "57"]
+[EventDate "2017.02.03"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "3"]
+[SourceTitle "CBM 177 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.04.27"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.04.27"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 c5 5. Nf3 O-O 6. Bd3 d5 7. O-O b6 8. a3
+Bxc3 9. bxc3 Bb7 10. Bb2 cxd4 11. cxd4 dxc4 12. Bxc4 Nc6 13. Qe2 Na5 14. Ba2
+Bd5 15. Bxd5 Qxd5 16. Ne5 Nb3 17. Rad1 Rfc8 18. f3 Na5 19. e4 Qb3 20. Rd2 Rc7
+21. Rfd1 Rd8 22. Qf2 Nd7 23. Qg3 Nxe5 24. Qxe5 Re7 25. d5 f6 26. Qg3 e5 27. Bc1
+Rc7 28. Qe1 Rdc8 29. Rd3 1/2-1/2
+
+[Event "Sabadell Coral Colon"]
+[Site "Sabadell"]
+[Date "2017.02.24"]
+[Round "4"]
+[White "Gonzalez, Raul Omar"]
+[Black "Villar, Juan"]
+[Result "1-0"]
+[ECO "A15"]
+[WhiteElo "2204"]
+[BlackElo "2203"]
+[PlyCount "94"]
+[EventDate "2017.02.03"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "3"]
+[SourceTitle "CBM 177 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.04.27"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.04.27"]
+[SourceQuality "1"]
+
+1. Nf3 Nf6 2. c4 b6 3. Nc3 Bb7 4. d3 d5 5. cxd5 Nxd5 6. e4 Nxc3 7. bxc3 g6 8.
+Bf4 Nd7 9. e5 Nc5 10. d4 Ne6 11. Be3 Bg7 12. Bb5+ c6 13. Bc4 Nc7 14. Ng5 O-O
+15. Qg4 Ba6 16. Bxa6 Nxa6 17. h4 Qc8 18. Qe2 Nc7 19. h5 h6 20. Nh3 Nd5 21. Bd2
+c5 22. f4 cxd4 23. cxd4 Qd7 24. Rd1 Rac8 25. O-O e6 26. Nf2 Rc2 27. Qe4 Rxa2
+28. hxg6 fxg6 29. Qxg6 Qf7 30. Qb1 Ra4 31. Bc1 Rc8 32. Ne4 Nc3 33. Nxc3 Rxc3
+34. Bb2 Rg3 35. Qe4 Ra2 36. Rd2 Bf8 37. Qb1 Ra5 38. Qc2 Qg6 39. f5 exf5 40.
+Rxf5 Rg5 41. Rdf2 Bg7 42. Rxg5 Qxg5 43. Qe4 Rb5 44. Qc2 a6 45. Bc3 Qd8 46. Qg6
+Qd5 47. Bd2 Qe4 1-0
+
+[Event "Sabadell Coral Colon"]
+[Site "Sabadell"]
+[Date "2017.03.03"]
+[Round "5"]
+[White "Cruz, Filemon"]
+[Black "Gonzalez, Raul Omar"]
+[Result "1/2-1/2"]
+[ECO "D02"]
+[WhiteElo "2346"]
+[BlackElo "2204"]
+[PlyCount "28"]
+[EventDate "2017.02.03"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "3"]
+[SourceTitle "CBM 177 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.04.27"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.04.27"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Nf3 Nf6 3. c3 Bf5 4. Qb3 Qc8 5. Bf4 c6 6. Nbd2 Nbd7 7. h3 e6 8. e3
+Be7 9. Be2 h6 10. a4 a5 11. Ne5 Nxe5 12. Bxe5 O-O 13. O-O Ne4 14. Nxe4 Bxe4
+1/2-1/2
+
+[Event "Sabadell Coral Colon"]
+[Site "Sabadell"]
+[Date "2017.03.10"]
+[Round "6"]
+[White "Gonzalez, Raul Omar"]
+[Black "Becerra, Juan David"]
+[Result "1/2-1/2"]
+[ECO "D69"]
+[WhiteElo "2204"]
+[BlackElo "2341"]
+[PlyCount "32"]
+[EventDate "2017.02.03"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "3"]
+[SourceTitle "CBM 177 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.04.27"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.04.27"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. Nf3 O-O 6. e3 Nbd7 7. Bd3 c6 8. O-O
+dxc4 9. Bxc4 Nd5 10. Bxe7 Qxe7 11. Rc1 Nxc3 12. Rxc3 e5 13. dxe5 Nxe5 14. Nxe5
+Qxe5 15. f4 Qe4 16. Qf3 Bf5 1/2-1/2
+
+[Event "Sabadell Coral Colon"]
+[Site "Sabadell"]
+[Date "2017.03.17"]
+[Round "7"]
+[White "Diaz Camallonga, Carles"]
+[Black "Gonzalez, Raul Omar"]
+[Result "1-0"]
+[ECO "B41"]
+[WhiteElo "2432"]
+[BlackElo "2204"]
+[PlyCount "53"]
+[EventDate "2017.02.03"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "3"]
+[SourceTitle "CBM 177 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.04.27"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.04.27"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 a6 3. c4 e6 4. d4 cxd4 5. Nxd4 Ne7 6. Nc3 g6 7. Be3 Bg7 8. Qd2
+O-O 9. Bh6 Nbc6 10. Nf3 Qa5 11. Bxg7 Kxg7 12. Qd6 Rb8 13. a3 Qd8 14. b4 Ra8 15.
+h4 h5 16. Be2 Ng8 17. O-O Nh6 18. Rfd1 f6 19. Nd4 Nxd4 20. Qxd4 Nf7 21. Na4 e5
+22. Qe3 Re8 23. Nb6 Rb8 24. c5 Qc7 25. Bc4 Nd8 26. Rd6 Ne6 27. Rad1 1-0
+
+[Event "Sant Boi Chalmeta Memorial"]
+[Site "Sant Boi"]
+[Date "2017.04.21"]
+[Round "1"]
+[White "Ros Alonso, Jaume"]
+[Black "Gonzalez, Raul Omar"]
+[Result "0-1"]
+[ECO "B80"]
+[WhiteElo "2211"]
+[BlackElo "2205"]
+[PlyCount "72"]
+[EventDate "2017.04.21"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "2"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e6 7. f3 Nbd7 8. Qd2
+b5 9. Bd3 Bb7 10. O-O-O Rc8 11. Kb1 Nb6 12. g4 Nfd7 13. Qf2 Rxc3 14. bxc3 Na4
+15. Bd2 Qc7 16. f4 Nxc3+ 17. Bxc3 Qxc3 18. Nb3 Be7 19. g5 O-O 20. Rhf1 Nc5 21.
+Nxc5 dxc5 22. Qd2 Qa3 23. Qc1 Qa5 24. Qb2 Bc6 25. f5 c4 26. g6 hxg6 27. fxg6
+cxd3 28. gxf7+ Rxf7 29. cxd3 Be8 30. Rxf7 Bxf7 31. Rg1 Bf8 32. h4 e5 33. Ka1
+Bc5 34. Rxg7+ Kh8 35. Qg2 Qc3+ 36. Kb1 Qxd3+ 0-1
+
+[Event "Sant Boi Chalmeta Memorial"]
+[Site "Sant Boi"]
+[Date "2017.04.28"]
+[Round "2"]
+[White "Ryan, Joseph"]
+[Black "Gonzalez, Raul Omar"]
+[Result "1-0"]
+[ECO "A43"]
+[WhiteElo "2258"]
+[BlackElo "2205"]
+[PlyCount "77"]
+[EventDate "2017.04.21"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "2"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 c5 2. d5 Nf6 3. Nc3 g6 4. e4 d6 5. Bb5+ Bd7 6. a4 Bg7 7. h3 O-O 8. Nf3
+Na6 9. Bc4 Nc7 10. Qe2 e5 11. dxe6 Nxe6 12. O-O Nh5 13. Be3 Nd4 14. Qd1 Be6 15.
+Nd5 Nxf3+ 16. Qxf3 f5 17. exf5 Rxf5 18. Qe4 Re5 19. Qd3 Nf6 20. Nxf6+ Qxf6 21.
+Bxe6+ Qxe6 22. Rfd1 Rd8 23. c3 g5 24. Rd2 h5 25. Rad1 a6 26. c4 h4 27. Qe2 Bf6
+28. Rd5 Kg7 29. b3 Rxd5 30. Rxd5 Qe4 31. Qd1 Kg6 32. Qc1 Be5 33. Bxg5 Rg8 34.
+f3 Qf5 35. f4 Bd4+ 36. Kh1 Qd3 37. Rxd6+ Kf7 38. Qe1 Re8 39. Rd7+ 1-0
+
+[Event "Sant Boi Chalmeta Memorial"]
+[Site "Sant Boi"]
+[Date "2017.05.05"]
+[Round "3"]
+[White "Gonzalez, Raul Omar"]
+[Black "Moreno Martin, Daniel"]
+[Result "1-0"]
+[ECO "A14"]
+[WhiteElo "2205"]
+[BlackElo "2194"]
+[PlyCount "121"]
+[EventDate "2017.04.21"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "2"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. Nf3 d5 2. c4 e6 3. g3 Nf6 4. Bg2 Be7 5. O-O O-O 6. b3 c5 7. Bb2 Nc6 8. e3 b6
+9. Qe2 Bb7 10. Rd1 Qc7 11. Nc3 Rad8 12. Rac1 Qb8 13. d4 dxc4 14. bxc4 cxd4 15.
+exd4 Rfe8 16. Rd2 Na5 17. Ne5 Bxg2 18. Kxg2 Qb7+ 19. f3 Bd6 20. Nd1 Qc7 21. f4
+Bxe5 22. fxe5 Nd7 23. Nf2 Qc6+ 24. Kg1 Qa4 25. Ba1 Rc8 26. Rdc2 b5 27. cxb5
+Rxc2 28. Rxc2 Nb6 29. Rc7 Nbc4 30. Bc3 Qxb5 31. Bxa5 Qb1+ 32. Be1 Nb6 33. Rxa7
+Nd5 34. Qd1 Qf5 35. Qa4 Rf8 36. Ra8 h5 37. Rxf8+ Kxf8 38. Qa8+ Ke7 39. Bb4+
+Nxb4 40. Qb7+ Ke8 41. Qxb4 h4 42. gxh4 Qg6+ 43. Kf1 Qc2 44. a4 Qc1+ 45. Kg2 g5
+46. Qb8+ Ke7 47. Qh8 Qc6+ 48. d5 Qxd5+ 49. Kg3 Qb3+ 50. Kg2 Qb7+ 51. Kf1 Qb1+
+52. Ke2 Qc2+ 53. Kf3 Qb3+ 54. Kg4 Qxa4+ 55. Kxg5 Qc2 56. Qf6+ Ke8 57. Ng4 Qd2+
+58. Qf4 Qc2 59. h5 Kf8 60. Qb4+ Kg8 61. Nf6+ 1-0
+
+[Event "Sant Boi Chalmeta Memorial"]
+[Site "Sant Boi"]
+[Date "2017.05.12"]
+[Round "4"]
+[White "Quirhuayo Chumbe, German Gonzalo"]
+[Black "Gonzalez, Raul Omar"]
+[Result "1-0"]
+[ECO "B75"]
+[WhiteElo "2291"]
+[BlackElo "2205"]
+[PlyCount "97"]
+[EventDate "2017.04.21"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "2"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 h5 8. Qd2
+Bd7 9. O-O-O Nc6 10. Bc4 O-O 11. Rhe1 Rc8 12. Bb3 Qa5 13. Kb1 Rfe8 14. h3 Ne5
+15. g4 Nc4 16. Bxc4 Rxc4 17. Nb3 Qa6 18. e5 dxe5 19. g5 Bxh3 20. gxf6 exf6 21.
+Ne4 Bf5 22. Nbc5 Qc6 23. b3 Rxe4 24. fxe4 Bg4 25. Rc1 b6 26. Nd3 Qxe4 27. Bxb6
+Qb7 28. Bg1 f5 29. Qa5 e4 30. Nc5 Qc6 31. Qa4 Qxa4 32. Nxa4 f4 33. Bxa7 e3 34.
+a3 Bh6 35. Nc3 Bf3 36. b4 h4 37. b5 g5 38. b6 g4 39. Nb5 h3 40. Nd6 Re5 41. c4
+g3 42. c5 h2 43. c6 Bxc6 44. Rxc6 g2 45. Rcc1 Rg5 46. b7 g1=Q 47. b8=Q+ Kh7 48.
+Nxf7 Rg7 49. Qh8+ 1-0
+
+[Event "Sant Boi Chalmeta Memorial"]
+[Site "Sant Boi"]
+[Date "2017.05.19"]
+[Round "5"]
+[White "Gonzalez, Raul Omar"]
+[Black "Chalmeta Ugas, Ramon"]
+[Result "1/2-1/2"]
+[ECO "A05"]
+[WhiteElo "2205"]
+[BlackElo "2276"]
+[PlyCount "93"]
+[EventDate "2017.04.21"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "2"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. Nf3 Nf6 2. g3 g6 3. b4 d5 4. Bb2 Bg7 5. Bg2 O-O 6. O-O Nbd7 7. d3 c6 8. Nbd2
+Re8 9. c4 e5 10. e4 dxe4 11. dxe4 c5 12. b5 Qc7 13. Qc2 Nf8 14. a4 a5 15. h3
+N6d7 16. Nb1 Ne6 17. Nc3 Nb6 18. Nd5 Nxd5 19. cxd5 Nd4 20. Nxd4 exd4 21. Rfd1
+Qd6 22. f4 b6 23. Rac1 Bb7 24. Qf2 Qd7 25. g4 f5 26. gxf5 gxf5 27. e5 Kh8 28.
+d6 Bxg2 29. Kxg2 Rg8 30. Kh2 Qe6 31. Rg1 Qd5 32. Rg3 Bh6 33. Rcg1 Rad8 34. Bc1
+c4 35. Rxg8+ Rxg8 36. Qh4 Bg7 37. Qe7 d3 38. d7 d2 39. Rxg7 Qh1+ 40. Kxh1
+dxc1=Q+ 41. Kg2 Rxg7+ 42. Qxg7+ Kxg7 43. d8=Q Qxf4 44. Qf6+ Kg8 45. Qe6+ Kg7
+46. Qf6+ Kg8 47. Qe6+ 1/2-1/2
+
+[Event "Sant Boi Chalmeta Memorial"]
+[Site "Sant Boi"]
+[Date "2017.05.26"]
+[Round "6"]
+[White "Lorenzo de la Riva, Lazaro"]
+[Black "Gonzalez, Raul Omar"]
+[Result "1-0"]
+[ECO "A97"]
+[WhiteElo "2379"]
+[BlackElo "2205"]
+[PlyCount "71"]
+[EventDate "2017.04.21"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "2"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. Nf3 e6 2. g3 f5 3. Bg2 Nf6 4. O-O Be7 5. c4 O-O 6. d4 d6 7. Nc3 Qe8 8. Re1
+Qg6 9. e4 fxe4 10. Nxe4 Nxe4 11. Rxe4 Nc6 12. Re2 e5 13. d5 Nb4 14. a3 Nd3 15.
+Ne1 Bf5 16. Nxd3 Bxd3 17. Re3 Bxc4 18. Rc3 Ba6 19. Rxc7 Bd8 20. Rc3 Bf6 21. Be3
+e4 22. Rb3 b6 23. Rb4 Bd3 24. Qa4 Rfc8 25. Re1 Be5 26. Bh3 b5 27. Qa6 Rc2 28.
+Bf1 Bxb2 29. Rb1 Be5 30. Bxd3 exd3 31. Rxb5 h5 32. R5b3 Bc3 33. Qc6 Rf8 34.
+Rxc3 Rcxf2 35. Bxf2 Rxf2 36. Kxf2 1-0
+
+[Event "Sant Boi Chalmeta Memorial"]
+[Site "Sant Boi"]
+[Date "2017.06.02"]
+[Round "7"]
+[White "Gonzalez, Raul Omar"]
+[Black "Morros Faura, Ricard"]
+[Result "0-1"]
+[ECO "B07"]
+[WhiteElo "2205"]
+[BlackElo "2256"]
+[PlyCount "106"]
+[EventDate "2017.04.21"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "2"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 g6 2. Nc3 d6 3. Bf4 Nf6 4. Qd2 c6 5. e4 Nbd7 6. f3 e5 7. Be3 Bg7 8. Nh3
+O-O 9. Nf2 b5 10. Be2 b4 11. Ncd1 c5 12. dxc5 dxc5 13. a3 a5 14. O-O Ba6 15.
+axb4 cxb4 16. Nd3 Qc7 17. N1f2 Rfb8 18. Rfc1 Bf8 19. g4 Ne8 20. Kg2 Nd6 21. b3
+Nb5 22. h4 Rc8 23. h5 Na3 24. hxg6 hxg6 25. Bh6 Be7 26. f4 Qc3 27. fxe5 Qxd2
+28. Bxd2 Nxe5 29. c4 Nc6 30. g5 Nd4 31. Bd1 Bb7 32. Ra2 Ne6 33. Bg4 Rd8 34.
+Bxe6 fxe6 35. Re1 Kg7 36. Bc1 Ra6 37. Bb2+ Kg8 38. Kg3 Nc2 39. Rh1 Nd4 40. Rh6
+e5 41. Nxe5 Bxg5 42. Rxg6+ Rxg6 43. Nxg6 Nxb3 44. Kg4 Rd2 45. Nh3 Bd8 46. e5
+Bc8+ 47. Kg3 Rd3+ 48. Kf4 Rxh3 49. Ba1 Kg7 50. e6+ Kxg6 51. Rg2+ Kh6 52. Bg7+
+Kh7 53. Kf5 Nc5 0-1
+
+[Event "Sant Boi Chalmeta Memorial"]
+[Site "Sant Boi"]
+[Date "2017.06.09"]
+[Round "8"]
+[White "Cruz, Filemon"]
+[Black "Gonzalez, Raul Omar"]
+[Result "1/2-1/2"]
+[ECO "D02"]
+[WhiteElo "2346"]
+[BlackElo "2205"]
+[PlyCount "31"]
+[EventDate "2017.04.21"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "2"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Nf3 Nf6 3. Bf4 Bf5 4. e3 c6 5. Bd3 e6 6. O-O Nbd7 7. Bxf5 exf5 8.
+Nbd2 Be7 9. Ne5 O-O 10. c3 Re8 11. Ndf3 Bf8 12. Qc2 g6 13. a3 Nh5 14. Nd3 Nxf4
+15. Nxf4 Bd6 16. Nd3 1/2-1/2
+
+[Event "Sant Boi Chalmeta Memorial"]
+[Site "Sant Boi"]
+[Date "2017.06.16"]
+[Round "9"]
+[White "Gonzalez, Raul Omar"]
+[Black "Cruz, Jonathan"]
+[Result "0-1"]
+[ECO "A46"]
+[WhiteElo "2205"]
+[BlackElo "2433"]
+[PlyCount "112"]
+[EventDate "2017.04.21"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "2"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 e6 3. Bg5 c5 4. Nc3 cxd4 5. Qxd4 Nc6 6. Qh4 Be7 7. O-O-O h6 8.
+Ne4 Nxe4 9. Bxe7 Qxe7 10. Qxe4 d5 11. Qf4 e5 12. Qh4 O-O 13. Rxd5 Be6 14. Rd2
+Nb4 15. a3 Na2+ 16. Kd1 b5 17. Qe4 Qxa3 18. bxa3 Nc3+ 19. Ke1 Nxe4 20. Rd1 Rfd8
+21. Rxd8+ Rxd8 22. Nxe5 Nc3 23. f3 Rd1+ 24. Kf2 Nb1 25. Nc6 Nxa3 26. Nxa7 b4
+27. g3 Nxc2 28. Bg2 Rxh1 29. Bxh1 Bd7 30. f4 b3 31. Be4 Na3 32. Ke3 b2 33. Kd2
+b1=Q 34. Bxb1 Nxb1+ 35. Kc2 Na3+ 36. Kb3 Nb5 37. Nxb5 Bxb5 38. e3 f5 39. Kb4
+Bc6 40. Kc5 Bf3 41. Kd6 Kf7 42. Ke5 g6 43. Kd6 Kf6 44. Kd7 g5 45. Ke8 g4 46.
+Kd7 h5 47. Kd6 h4 48. Kd7 hxg3 49. hxg3 Kf7 50. Kd6 Ke8 51. Ke6 Be4 52. Kd6 Kd8
+53. Ke6 Kc7 54. Ke7 Kc6 55. Ke6 Kc5 56. Ke5 Kc4 0-1
+
+[Event "Vallfogona rapid op 25th"]
+[Site "Vallfogona de Balague"]
+[Date "2017.09.17"]
+[Round "3"]
+[White "Cori Tello, Jorge Moise"]
+[Black "Gonzalez, Raul Omar"]
+[Result "1-0"]
+[ECO "A57"]
+[WhiteElo "2648"]
+[BlackElo "2196"]
+[PlyCount "33"]
+[EventDate "2017.09.17"]
+[EventType "swiss (rapid)"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 c5 3. d5 b5 4. c4 bxc4 5. Nc3 g6 6. e4 Qa5 7. Nd2 Ba6 8. e5
+Nh5 9. Nxc4 Bxc4 10. Bxc4 Ng7 11. Bd2 Qc7 12. d6 exd6 13. Qf3 Nc6 14. Nb5 Qb6
+15. Nxd6+ Bxd6 16. Bxf7+ Kf8 17. Bxg6+ 1-0
+
+[Event "Vallfogona rapid op 25th"]
+[Site "Vallfogona de Balague"]
+[Date "2017.09.17"]
+[Round "4"]
+[White "Gonzalez, Raul Omar"]
+[Black "Angles Roca, Joel"]
+[Result "1-0"]
+[ECO "D53"]
+[WhiteElo "2196"]
+[BlackElo "1779"]
+[PlyCount "41"]
+[EventDate "2017.09.17"]
+[EventType "swiss (rapid)"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Bd3 h6 7. Bh4 dxc4 8. Bxc4
+b6 9. Qf3 c6 10. Nge2 Bb7 11. Bd3 Nbd7 12. Rd1 Qc7 13. O-O c5 14. Qh3 cxd4 15.
+Nxd4 Nc5 16. Bg3 Qd7 17. Bb1 Nd5 18. Nf5 Bf6 19. Nxd5 exd5 20. b4 Ne6 21. Nxh6+
+1-0
+
+[Event "Vallfogona rapid op 25th"]
+[Site "Vallfogona de Balague"]
+[Date "2017.09.17"]
+[Round "5"]
+[White "Lopez Sanchez, Xavier"]
+[Black "Gonzalez, Raul Omar"]
+[Result "0-1"]
+[ECO "A48"]
+[WhiteElo "2081"]
+[BlackElo "2196"]
+[PlyCount "112"]
+[EventDate "2017.09.17"]
+[EventType "swiss (rapid)"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 c5 3. e3 g6 4. Be2 Bg7 5. c3 b6 6. Nbd2 Ba6 7. O-O O-O 8. b4
+Bxe2 9. Qxe2 cxb4 10. cxb4 Nc6 11. Ba3 a6 12. Rac1 Nd5 13. Qc4 e6 14. Qb3 Re8
+15. Nc4 Bf8 16. Nce5 Ndxb4 17. Bxb4 Nxb4 18. e4 f6 19. a3 fxe5 20. axb4 exd4
+21. Nxd4 b5 22. Rfd1 Qb6 23. Nf3 Rad8 24. h4 Bg7 25. h5 gxh5 26. Rc5 Qb7 27.
+Qb1 d6 28. Rxh5 h6 29. Rh4 Qf7 30. Rg4 Re7 31. Nd4 Rc8 32. Rc1 Rec7 33. Rxc7
+Rxc7 34. Qd1 Kh8 35. Nf3 d5 36. exd5 exd5 37. Qd2 Rc4 38. Ne5 Qe6 39. Ng6+ Kg8
+40. Rxc4 dxc4 41. Qd8+ Kh7 42. Nf8+ Bxf8 43. Qxf8 c3 44. Qc5 Qc4 45. Qe7+ Kg6
+46. Qe8+ Kf6 47. Qd8+ Ke5 48. Qb8+ Ke4 49. Qe8+ Kd3 50. Qg6+ Kd2 51. Qxh6+ Kc2
+52. Qxa6 Kb2 53. Qf6 Kb3 54. Qf3 Kxb4 55. g4 c2 56. Qf8+ Kb3 0-1
+
+[Event "Vallfogona rapid op 25th"]
+[Site "Vallfogona de Balague"]
+[Date "2017.09.17"]
+[Round "6"]
+[White "Panelo Munoz, Marcelo A"]
+[Black "Gonzalez, Raul Omar"]
+[Result "0-1"]
+[ECO "A85"]
+[WhiteElo "2388"]
+[BlackElo "2196"]
+[PlyCount "94"]
+[EventDate "2017.09.17"]
+[EventType "swiss (rapid)"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. Nf3 e6 2. d4 f5 3. c4 Nf6 4. Nc3 Bb4 5. Qb3 a5 6. a3 a4 7. Qc2 Bxc3+ 8. Qxc3
+d6 9. g3 Nc6 10. Bg2 O-O 11. O-O Qe7 12. b4 axb3 13. Qxb3 Kh8 14. Bb2 Bd7 15.
+d5 Na5 16. Qc2 e5 17. Nh4 Ng4 18. e4 f4 19. Nf5 Qg5 20. h3 Bxf5 21. exf5 Nh6
+22. g4 Nxf5 23. Be4 Nh4 24. f3 b6 25. c5 bxc5 26. Rab1 Ng6 27. Bc1 c4 28. Bd2
+Nb3 29. Be1 Ra4 30. Bf2 Rfa8 31. Rb2 Kg8 32. Rfb1 Qf6 33. Qe2 Nh4 34. Bc2 Rxa3
+35. Be4 R3a4 36. Qc2 g6 37. Qe2 Nd4 38. Rb8+ Kg7 39. Qd1 Rxb8 40. Rxb8 Ra2 41.
+Rb7 Ra3 42. Rxc7+ Kh6 43. Bxd4 exd4 44. Rxc4 d3 45. Bxd3 Ra1 46. Bb1 Qb2 47.
+Rc2 Rxb1 0-1
+
+[Event "Vallfogona rapid op 25th"]
+[Site "Vallfogona de Balague"]
+[Date "2017.09.17"]
+[Round "7"]
+[White "Gonzalez, Raul Omar"]
+[Black "Vidarte Morales, Arturo"]
+[Result "1/2-1/2"]
+[ECO "D05"]
+[WhiteElo "2196"]
+[BlackElo "2336"]
+[PlyCount "88"]
+[EventDate "2017.09.17"]
+[EventType "swiss (rapid)"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 e6 3. e3 d5 4. Bd3 Be7 5. O-O O-O 6. Nbd2 c5 7. c3 Qc7 8. Qe2
+Nc6 9. dxc5 Bxc5 10. e4 h6 11. e5 Ng4 12. Nb3 Bb6 13. Bf4 f6 14. Bg3 Ngxe5 15.
+Nxe5 Nxe5 16. Rae1 Bd7 17. Bb1 Be8 18. Nd4 Qe7 19. Kh1 Bxd4 20. cxd4 Nc6 21.
+Qxe6+ Qxe6 22. Rxe6 Bf7 23. Re3 Nxd4 24. Rd1 Nc6 25. Rb3 Na5 26. Rb5 b6 27. Bf5
+Rfe8 28. h4 Nc4 29. b3 Na5 30. Rb4 Re2 31. Ra4 Rae8 32. b4 Nc4 33. Rxa7 g6 34.
+Bd7 Re1+ 35. Rxe1 Rxe1+ 36. Kh2 Nd2 37. Ra8+ Kg7 38. Bd6 Nf1+ 39. Kg1 Nd2+ 40.
+Kh2 Nf1+ 41. Kg1 Nd2+ 42. Kh2 Nf1+ 43. Kg1 Nd2+ 44. Kh2 Nf1+ 1/2-1/2
+
+[Event "Vallfogona rapid op 25th"]
+[Site "Vallfogona de Balague"]
+[Date "2017.09.17"]
+[Round "8"]
+[White "Gonzalez, Raul Omar"]
+[Black "Cruz, Filemon"]
+[Result "1-0"]
+[ECO "B08"]
+[WhiteElo "2196"]
+[BlackElo "2335"]
+[PlyCount "61"]
+[EventDate "2017.09.17"]
+[EventType "swiss (rapid)"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 d6 2. d4 g6 3. Nf3 Bg7 4. h3 Nf6 5. Nc3 c6 6. a4 O-O 7. Be3 Qc7 8. Qd2 a5
+9. Be2 Na6 10. O-O Nb4 11. Rfd1 b6 12. Rac1 Be6 13. Bh6 Rad8 14. Qg5 d5 15. e5
+Ne4 16. Qh4 Nxc3 17. bxc3 Na2 18. Ng5 Nxc1 19. Rxc1 Bh8 20. Bxf8 Kxf8 21. Qxh7
+Bg7 22. Nxe6+ fxe6 23. Qxg6 Qd7 24. Bh5 Kg8 25. Bg4 Qe8 26. Bxe6+ Kh8 27. Bf7
+Qf8 28. Rd1 Bh6 29. Rd3 Qg7 30. Rg3 Rf8 31. Qh5 1-0
+
+[Event "Vallfogona rapid op 25th"]
+[Site "Vallfogona de Balague"]
+[Date "2017.09.17"]
+[Round "9"]
+[White "Perez Mitjans, Orelvis"]
+[Black "Gonzalez, Raul Omar"]
+[Result "1-0"]
+[ECO "B75"]
+[WhiteElo "2403"]
+[BlackElo "2196"]
+[PlyCount "81"]
+[EventDate "2017.09.17"]
+[EventType "swiss (rapid)"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 a6 7. f3 Bg7 8. Qd2
+h5 9. O-O-O Nbd7 10. h3 Qc7 11. Rg1 Ne5 12. g4 hxg4 13. hxg4 Be6 14. g5 Nh7 15.
+f4 Nc4 16. Bxc4 Qxc4 17. f5 Bd7 18. Kb1 gxf5 19. Nd5 Rd8 20. b3 Qc8 21. exf5
+Bxf5 22. Nb6 Bxc2+ 23. Nxc2 Qf5 24. Qd3 Qxd3 25. Rxd3 Nf8 26. Nd4 e6 27. Bc1
+Ng6 28. Rdd1 Rh4 29. Bb2 Ne5 30. g6 Nxg6 31. Nxe6 fxe6 32. Bxg7 Kf7 33. Bb2 e5
+34. Bc1 Nf4 35. Nd5 Nxd5 36. Rxd5 Ke6 37. Rdd1 d5 38. Bg5 Rdh8 39. Bxh4 Rxh4
+40. Rg8 e4 41. Re8+ 1-0
+
+[Event "Sant Adria op"]
+[Site "Sant Adria de Besos"]
+[Date "1986.??.??"]
+[Round "?"]
+[White "Gonzalez, Raul Omar"]
+[Black "Romero Holmes, Alfonso"]
+[Result "0-1"]
+[ECO "E94"]
+[PlyCount "66"]
+[EventDate "1986.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 Nbd7 7. O-O e5 8. Be3
+h6 9. dxe5 dxe5 10. Ne1 Nh7 11. Nc2 Ng5 12. Qd2 c6 13. h4 Ne6 14. g3 Kh7 15.
+Qd6 f5 16. h5 Rf6 17. hxg6+ Kh8 18. Qd1 f4 19. Bc1 Rxg6 20. Bh5 Rg5 21. Ne1 Nd4
+22. Nf3 Rxh5 23. Nxd4 Nf6 24. Nf3 Qe8 25. Nh2 Qe6 26. Qf3 Qh3 27. Qg2 Qxg2+ 28.
+Kxg2 Bh3+ 29. Kg1 Bf8 30. Re1 Bc5 31. Na4 fxg3 32. Nxc5 gxh2+ 33. Kxh2 Rg8 0-1
+
+[Event "?"]
+[Site "Barcelona"]
+[Date "1991.??.??"]
+[Round "?"]
+[White "Gonzalez, Raul Omar"]
+[Black "Sorin, Ariel"]
+[Result "0-1"]
+[ECO "A65"]
+[PlyCount "80"]
+[EventDate "1991.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Bg5 c5 7. d5 h6 8. Be3 e6
+9. Qd2 exd5 10. cxd5 h5 11. Nge2 Nbd7 12. Nc1 Ne5 13. Be2 Nh7 14. O-O f5 15.
+Nb3 b6 16. Kh1 Qf6 17. exf5 Bxf5 18. Ne4 Bxe4 19. fxe4 Qh4 20. Bf4 Rf7 21. Qe3
+Raf8 22. Bg3 Qe7 23. Nd2 Nd7 24. Nc4 Ne5 25. Nxe5 Bxe5 26. Rxf7 Rxf7 27. Rf1
+Rxf1+ 28. Bxf1 Bxb2 29. h3 Be5 30. Be1 Qg5 31. Qxg5 Nxg5 32. Bd3 Kf7 33. Bd2
+Nh7 34. Kg1 Bg3 35. Kf1 Kf6 36. Ke2 Be5 37. Kf3 Nf8 38. g4 hxg4+ 39. Kxg4 Nd7
+40. Bb5 Nf8 0-1

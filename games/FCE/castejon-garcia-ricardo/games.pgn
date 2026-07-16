@@ -1,0 +1,210 @@
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.13"]
+[Round "1"]
+[White "Castejon Garcia, Ricardo"]
+[Black "Perez Cuadrado, Eduardo"]
+[Result "0-1"]
+[ECO "B01"]
+[BlackElo "1751"]
+[PlyCount "90"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 d5 2. exd5 Nf6 3. Nf3 Nxd5 4. d4 g6 5. c4 Nb6 6. Bd3 Bg7 7. Be3 Nc6 8. c5
+Nd5 9. Bb5 O-O 10. O-O Bf5 11. Bxc6 bxc6 12. Qd2 Rb8 13. b3 Be4 14. Ne5 Nxe3
+15. Qxe3 Bd5 16. Nc3 f6 17. Nc4 Bxc4 18. bxc4 Rb4 19. Rab1 Rxb1 20. Rxb1 Qc8
+21. d5 cxd5 22. cxd5 f5 23. Ne2 Qd7 24. Nf4 Bh6 25. Qe6+ Qxe6 26. Nxe6 Rc8 27.
+c6 Bd2 28. Rb7 Ba5 29. Rxa7 Bb6 30. Ra3 h6 31. g3 Kf7 32. Kg2 g5 33. f3 Kf6 34.
+f4 Rg8 35. Ra4 gxf4 36. Nxf4 Ke5 37. Kf3 Kd6 38. Ra3 Kc5 39. Rc3+ Kd6 40. Rc2
+Ra8 41. Re2 Bd4 42. Re6+ Kc5 43. Rxe7 Ra3+ 44. Kg2 Rxa2+ 45. Kf3 Rf2# 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.14"]
+[Round "2"]
+[White "Grasa Solanas, Oscar"]
+[Black "Castejon Garcia, Ricardo"]
+[Result "1/2-1/2"]
+[ECO "A38"]
+[WhiteElo "1637"]
+[PlyCount "91"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 c5 2. Nc3 Nc6 3. Nf3 Nf6 4. g3 g6 5. Bg2 Bg7 6. O-O O-O 7. Rb1 Rb8 8. a3
+a6 9. b4 cxb4 10. axb4 b5 11. cxb5 axb5 12. d3 d6 13. Bg5 Be6 14. Qd2 Nd5 15.
+Nxd5 Bxd5 16. Bh6 Qd7 17. Bxg7 Kxg7 18. Qg5 Be6 19. Qh4 f6 20. Rfc1 Rfc8 21.
+Nd4 Nxd4 22. Qxd4 Rc7 23. Rxc7 Qxc7 24. Qe3 Qd7 25. Ra1 Rc8 26. Ra7 Rc1+ 27.
+Qxc1 Qxa7 28. Qb2 Qa4 29. Qb1 Qa3 30. h4 Qc3 31. Kf1 Ba2 32. Qe1 Qd4 33. Bc6
+Be6 34. Kg1 Qe5 35. Kh2 Bb3 36. Qd2 Ba4 37. Kg2 d5 38. e4 d4 39. Bd5 Qd6 40.
+Ba2 Qc7 41. Kf1 Qc3 42. Ke1 Qa1+ 43. Ke2 Qc3 44. Bd5 e5 45. g4 h6 46. Be6
+1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.15"]
+[Round "3"]
+[White "Castejon Garcia, Ricardo"]
+[Black "Vicente Soriano, Josep"]
+[Result "1/2-1/2"]
+[ECO "B23"]
+[BlackElo "1757"]
+[PlyCount "46"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nc3 Nc6 3. Bb5 e6 4. Bxc6 bxc6 5. d3 d5 6. Nf3 Nf6 7. Bg5 Be7 8.
+O-O h6 9. Bh4 Nd7 10. Bxe7 Qxe7 11. Re1 d4 12. Ne2 e5 13. Ng3 O-O 14. Nd2 Nb6
+15. Qh5 Qg5 16. Qxg5 hxg5 17. Nf5 Bxf5 18. exf5 f6 19. Ne4 c4 20. Red1 Rab8 21.
+b3 c3 22. h3 Nd7 23. Re1 Kf7 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.16"]
+[Round "4"]
+[White "Demestres Lopez, Ricard"]
+[Black "Castejon Garcia, Ricardo"]
+[Result "1-0"]
+[ECO "C53"]
+[WhiteElo "1643"]
+[PlyCount "135"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 d6 5. d4 exd4 6. cxd4 Bb4+ 7. Nc3 Nf6 8.
+Qc2 O-O 9. O-O Bg4 10. a3 Ba5 11. d5 Ne5 12. Nxe5 dxe5 13. f3 Bb6+ 14. Kh1 Bh5
+15. Bg5 a6 16. Ne2 Qd6 17. Rad1 Bg6 18. Bd3 Nd7 19. b4 Rac8 20. Qb3 f5 21. Be7
+Qxe7 22. d6+ Bf7 23. dxe7 Bxb3 24. exf8=Q+ Rxf8 25. Rc1 c6 26. exf5 Rd8 27.
+Bc4+ Bxc4 28. Rxc4 Nf6 29. Rcc1 Rd2 30. Ng3 Nd5 31. Ne4 Ra2 32. Ra1 Re2 33. g3
+Bd4 34. Rad1 Re3 35. Nd6 Rxa3 36. Rb1 b5 37. Rfc1 Bc3 38. Kg2 Bxb4 39. Rxc6
+Bxd6 40. Rxd6 Nc3 41. Re1 b4 42. Rxe5 b3 43. Rd7 Ra2+ 44. Kh3 Re2 45. Rc5 Re8
+46. Rxc3 Rb8 47. Rc1 a5 48. Ra7 b2 49. Rb1 Rb5 50. g4 h6 51. Kg3 Kh7 52. Kf2 h5
+53. h3 Kh6 54. h4 hxg4 55. fxg4 Kh7 56. Kg3 Kh6 57. Ra6+ Kh7 58. Kf4 Rb4+ 59.
+Kg5 a4 60. Ra7 Kh8 61. h5 Kh7 62. f6 a3 63. f7 Rb8 64. Rxa3 Kh8 65. Rf3 Rb5+
+66. Rf5 Rxf5+ 67. Kxf5 Kh7 68. Rxb2 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.17"]
+[Round "5"]
+[White "Riera Mestres, Josep"]
+[Black "Castejon Garcia, Ricardo"]
+[Result "0-1"]
+[ECO "D00"]
+[WhiteElo "1530"]
+[PlyCount "126"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Bf4 Nf6 3. e3 Bf5 4. Nf3 e6 5. c4 Be7 6. Nc3 c6 7. Qb3 Qc8 8. Rc1
+Nbd7 9. cxd5 Nxd5 10. Nxd5 exd5 11. Be2 O-O 12. O-O Nf6 13. h3 Ne4 14. Qd1 Rd8
+15. Ne5 f6 16. Ng4 Bd6 17. Bxd6 Rxd6 18. Bf3 Qe8 19. Bxe4 Bxe4 20. f3 Bf5 21.
+Rc3 Re6 22. Qe1 Qe7 23. Qg3 Bg6 24. Re1 Re8 25. f4 f5 26. Ne5 Bf7 27. h4 Rh6
+28. Nf3 Bh5 29. Ne5 Bg6 30. Qg5 Rxh4 31. Qxe7 Rxe7 32. g3 Rh6 33. b4 Be8 34.
+Rec1 a6 35. R1c2 Rd6 36. Rh2 g6 37. Kf2 Rg7 38. Kf3 Kf8 39. Rc1 h5 40. Rch1 Ke7
+41. Nd3 b6 42. Rc1 Kd7 43. Rhc2 Kc7 44. Ne5 Kb7 45. a4 Rc7 46. Nd3 Rd8 47. a5
+Rb8 48. axb6 Kxb6 49. Nc5 Ra7 50. Ra1 Kc7 51. Nxa6+ Kb6 52. b5 cxb5 53. Nxb8
+Rxa1 54. Rc8 Bf7 55. Rf8 Ra7 56. Rd8 Kc7 57. Rf8 Be6 58. Re8 Bc8 59. Nc6 Bd7
+60. Nxa7 Bxe8 61. e4 dxe4+ 62. Ke3 b4 63. Kd2 Kb7 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.18"]
+[Round "6"]
+[White "Castejon Garcia, Ricardo"]
+[Black "Serentill Tost, Eduard"]
+[Result "1-0"]
+[ECO "A08"]
+[BlackElo "1650"]
+[PlyCount "105"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d3 d5 3. Nd2 Nf6 4. g3 c5 5. Bg2 Nc6 6. Ngf3 Be7 7. O-O O-O 8. Re1
+b6 9. e5 Nd7 10. Nf1 Bb7 11. h4 Qc7 12. Bf4 Rfe8 13. N1h2 Bf8 14. Qe2 Ne7 15.
+Ng5 h6 16. Ngf3 d4 17. Ng4 Nd5 18. Bd2 f5 19. exf6 N5xf6 20. Bf4 Bd6 21. Nge5
+Nxe5 22. Bxe5 Bxe5 23. Qxe5 Qxe5 24. Nxe5 Bxg2 25. Kxg2 Nd5 26. Re2 Rac8 27.
+Rae1 Nc7 28. Nc4 Rcd8 29. a3 g6 30. Ne5 Kg7 31. Re4 h5 32. Rf4 Rf8 33. Rfe4 Rf6
+34. R1e2 Rd6 35. Nf3 Kf7 36. Ng5+ Kg7 37. Kf1 Rc6 38. Ke1 Kg8 39. Kd1 Kg7 40.
+c3 dxc3 41. bxc3 b5 42. a4 a6 43. axb5 axb5 44. d4 cxd4 45. Rxd4 Kg8 46. f4 Nd5
+47. Rd3 Nc7 48. Re4 Rf8 49. Red4 Re8 50. Rd6 Rxd6 51. Rxd6 Re7 52. Rc6 Kg7 53.
+Rxc7 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.19"]
+[Round "7"]
+[White "Valero Recalde, Pablo"]
+[Black "Castejon Garcia, Ricardo"]
+[Result "1-0"]
+[ECO "A58"]
+[WhiteElo "1734"]
+[PlyCount "93"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 c5 2. d5 Nf6 3. c4 b5 4. cxb5 a6 5. bxa6 Bxa6 6. Nc3 d6 7. g3 g6 8. Bg2
+Bg7 9. Nf3 O-O 10. O-O Nbd7 11. Rb1 Qa5 12. Bd2 Rfb8 13. Qc2 Ng4 14. b3 Nge5
+15. a4 Nxf3+ 16. Bxf3 Ne5 17. Bg2 Bc8 18. Be4 Rb7 19. e3 Bf5 20. Kg2 Bd7 21.
+Nb5 Qd8 22. Na3 f5 23. Bd3 Nxd3 24. Qxd3 Rab8 25. Nc4 Be8 26. f3 Ra7 27. Bc3
+Bxc3 28. Qxc3 Bf7 29. e4 fxe4 30. fxe4 Be8 31. Nd2 Bd7 32. Qe3 Raa8 33. Qh6 Qa5
+34. Nf3 Qc3 35. Ng5 Qg7 36. Qxg7+ Kxg7 37. Rf7+ Kg8 38. Rxe7 Bxa4 39. Rf1 Bxb3
+40. Rff7 Re8 41. Rg7+ Kh8 42. Rxh7+ Kg8 43. Reg7+ Kf8 44. Ne6+ Rxe6 45. dxe6
+Bxe6 46. Rxg6 Re8 47. Rh8+ 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.20"]
+[Round "8"]
+[White "Castejon Garcia, Ricardo"]
+[Black "Gomez Parla, Josep"]
+[Result "0-1"]
+[ECO "B06"]
+[BlackElo "1876"]
+[PlyCount "52"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 g6 3. c4 Bg7 4. Be3 d6 5. Nc3 Nf6 6. Bd3 Ng4 7. Qd2 Nxe3 8. Qxe3
+Qb6 9. Nge2 Qxb2 10. O-O Qa3 11. Rab1 Nd7 12. Rb3 Qa5 13. f4 Nf6 14. f5 a6 15.
+a4 c5 16. d5 Ng4 17. Qf4 Ne5 18. fxg6 hxg6 19. Qd2 Rb8 20. Rfb1 Qc7 21. Ra3 Qd7
+22. h3 Rxh3 23. Nf4 Qg4 24. Be2 Nf3+ 25. Bxf3 Rxf3 26. Rf1 Bd4+ 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.21"]
+[Round "9"]
+[White "Palomero Galvez, Antonio"]
+[Black "Castejon Garcia, Ricardo"]
+[Result "0-1"]
+[ECO "D02"]
+[WhiteElo "1593"]
+[PlyCount "68"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 d5 2. d4 e6 3. g3 Be7 4. Bg2 Nf6 5. O-O O-O 6. Nbd2 Nbd7 7. Re1 b6 8. c4
+Bb7 9. cxd5 exd5 10. Rb1 c5 11. dxc5 Nxc5 12. Nd4 Qd7 13. f3 Rac8 14. Nf1 Rfe8
+15. g4 Ne6 16. Nf5 Bc5+ 17. Kh1 Bf2 18. Bh6 Bxe1 19. Bxg7 Nxg7 20. Nh6+ Kh8 21.
+Qxe1 Rc2 22. Qh4 Ng8 23. Ng3 Nxh6 24. Qxh6 Qe6 25. Qh4 Qg6 26. Re1 Rxb2 27. f4
+f5 28. g5 Rxa2 29. Rc1 Rc8 30. Rxc8+ Bxc8 31. Bxd5 Rd2 32. Bf3 a5 33. Nh5 Bb7
+34. Bxb7 Qxh5 0-1

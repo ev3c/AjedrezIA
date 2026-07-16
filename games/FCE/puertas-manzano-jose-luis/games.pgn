@@ -1,0 +1,505 @@
+[Event "Barcelona La Lira op 35th"]
+[Site "Barcelona"]
+[Date "2017.01.20"]
+[Round "1"]
+[White "Romero Funieles, Rafael de Jesus"]
+[Black "Puertas Manzano, Jose Luis"]
+[Result "0-1"]
+[ECO "C01"]
+[WhiteElo "1733"]
+[BlackElo "2220"]
+[PlyCount "180"]
+[EventDate "2017.01.20"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 e6 3. Be2 d5 4. exd5 exd5 5. O-O Bd6 6. d4 Ne7 7. dxc5 Bxc5 8.
+Bg5 Be6 9. b4 Bb6 10. a4 O-O 11. Bd3 Nbc6 12. c3 f6 13. Bh4 Bf5 14. Na3 a6 15.
+Re1 Bxd3 16. Qxd3 Ng6 17. Bg3 f5 18. h3 f4 19. Bh2 Kh8 20. Rad1 Nce7 21. Ng5
+Qd7 22. c4 Qf5 23. Ne6 Rf6 24. Qxf5 Rxf5 25. c5 Bd8 26. f3 h6 27. Nc2 Nc6 28.
+Ncd4 Rf6 29. Nxc6 bxc6 30. Rd4 Rf7 31. Bxf4 Bf6 32. Rd3 Bh4 33. g3 Nxf4 34.
+Nxf4 Bxg3 35. Ng6+ Kh7 36. Re6 Rf6 37. Rxf6 gxf6 38. Ne7 a5 39. Nxc6 axb4 40.
+Nxb4 Rxa4 41. Nxd5 Be5 42. c6 Rc4 43. Ne7 Kg7 44. Rd7 Kf7 45. Rb7 Ke6 46. Kg2
+Rc2+ 47. Kf1 Bd6 48. Ng8 Rxc6 49. Nxh6 Rc1+ 50. Ke2 Rh1 51. Nf7 Be7 52. Nh6
+Rh2+ 53. Ke3 Rxh3 54. Ng8 Bd6 55. Ke2 Rh8 56. Rg7 Bc5 57. Kd3 Rh3 58. Ke4 f5+
+59. Kd3 Rxf3+ 60. Kc4 Bf8 61. Rb7 Rg3 62. Rb6+ Bd6 63. Nh6 f4 64. Kd4 Rg6 65.
+Rxd6+ Kxd6 66. Nf5+ Ke6 67. Ke4 Rf6 68. Nd4+ Kd6 69. Nf3 Kc5 70. Nd2 Kb4 71.
+Kf3 Rf8 72. Nf1 Kc3 73. Nh2 Kd4 74. Ng4 Kd3 75. Nf2+ Kd4 76. Ng4 Rf7 77. Nf2
+Ke5 78. Ng4+ Ke6 79. Nf2 Rf8 80. Ng4 Kf5 81. Nf2 Re8 82. Ng4 Re6 83. Nf2 Re3+
+84. Kg2 Re2 85. Kf3 Rd2 86. Nh1 Rd3+ 87. Ke2 Ra3 88. Kf2 Kg4 89. Kg1 Ra1+ 90.
+Kg2 Rxh1 0-1
+
+[Event "Barcelona La Lira op 35th"]
+[Site "Barcelona"]
+[Date "2017.01.27"]
+[Round "2"]
+[White "Puertas Manzano, Jose Luis"]
+[Black "Montalban Colell, Bernat"]
+[Result "1-0"]
+[ECO "C66"]
+[WhiteElo "2220"]
+[BlackElo "1783"]
+[PlyCount "41"]
+[EventDate "2017.01.20"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nc3 Nc6 4. d4 exd4 5. Nxd4 d6 6. Bb5 Bd7 7. O-O Be7 8.
+Re1 O-O 9. Bg5 Nxd4 10. Qxd4 Bxb5 11. Nxb5 a6 12. Nc3 h6 13. Bh4 g5 14. Bg3 Nh5
+15. Nd5 Nxg3 16. hxg3 c6 17. Ne3 Bf6 18. Qb4 b5 19. Rad1 c5 20. Qd2 Bxb2 21. c3
+1-0
+
+[Event "Barcelona La Lira op 35th"]
+[Site "Barcelona"]
+[Date "2017.02.03"]
+[Round "3"]
+[White "Puertas Manzano, Jose Luis"]
+[Black "Garcia Riera, Josep"]
+[Result "1-0"]
+[ECO "D44"]
+[WhiteElo "2220"]
+[BlackElo "1949"]
+[PlyCount "43"]
+[EventDate "2017.01.20"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 c6 4. Nc3 e6 5. Bg5 dxc4 6. e4 b5 7. e5 h6 8. Bh4 g5
+9. exf6 gxh4 10. Ne5 Qxf6 11. a4 Nd7 12. Nxc6 Bb7 13. axb5 Bxc6 14. bxc6 Nb6
+15. g3 O-O-O 16. Bxc4 Rxd4 17. Ba6+ Kb8 18. c7+ Ka8 19. Bd3 Bc5 20. Nb5 Ra4 21.
+O-O hxg3 22. Be4+ 1-0
+
+[Event "Barcelona La Lira op 35th"]
+[Site "Barcelona"]
+[Date "2017.02.10"]
+[Round "4"]
+[White "Porras Mateo, Felipe"]
+[Black "Puertas Manzano, Jose Luis"]
+[Result "1-0"]
+[ECO "A24"]
+[WhiteElo "2298"]
+[BlackElo "2220"]
+[PlyCount "91"]
+[EventDate "2017.01.20"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. Nf3 Nf6 2. g3 g6 3. Bg2 Bg7 4. O-O O-O 5. c4 d6 6. Nc3 e5 7. d3 c6 8. Rb1 a5
+9. a3 h6 10. b4 axb4 11. axb4 Be6 12. b5 Nfd7 13. bxc6 bxc6 14. Bd2 Nc5 15. Qc1
+Kh7 16. Ne1 Qd7 17. f4 Nba6 18. fxe5 dxe5 19. Be3 Rab8 20. Nc2 Rxb1 21. Qxb1
+Rb8 22. Qa2 Bf8 23. Ne4 Be7 24. Nf6+ Bxf6 25. Rxf6 Qb7 26. Rf1 Qb2 27. Ra1 e4
+28. Qxb2 Rxb2 29. Nd4 Bd7 30. dxe4 Nb4 31. Ra7 Rb1+ 32. Kf2 Rb2 33. h3 Kg7 34.
+Nf5+ Kh7 35. Bd4 Nbd3+ 36. Kg1 Rxe2 37. Nd6 Re1+ 38. Kh2 g5 39. Ra8 f6 40. Bxf6
+Re2 41. Bc3 Rc2 42. Rh8+ Kg6 43. Rg8+ Kh5 44. Nf5 Bxf5 45. exf5 Nf4 46. g4+ 1-0
+
+[Event "Barcelona La Lira op 35th"]
+[Site "Barcelona"]
+[Date "2017.02.17"]
+[Round "5"]
+[White "Puertas Manzano, Jose Luis"]
+[Black "Saiz Rodrigo, Josep Fernando"]
+[Result "1-0"]
+[ECO "A60"]
+[WhiteElo "2220"]
+[BlackElo "1863"]
+[PlyCount "119"]
+[EventDate "2017.01.20"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 c5 2. d5 Nf6 3. c4 e6 4. Nc3 exd5 5. cxd5 d6 6. Nf3 Be7 7. e4 Bg4 8. Be2
+Nbd7 9. O-O Bxf3 10. Bxf3 O-O 11. Be3 a6 12. a4 Rb8 13. Be2 b5 14. axb5 axb5
+15. Nxb5 Nxe4 16. Qc2 Nef6 17. Na7 Qb6 18. Nc6 Nxd5 19. Nxb8 Rxb8 20. Bc1 Nb4
+21. Qe4 Bf6 22. Ra8 d5 23. Rxb8+ Qxb8 24. Qf5 Qb7 25. Bg4 Ne5 26. Re1 Qe7 27.
+Bd2 Nbd3 28. f4 Nxe1 29. fxe5 Bxe5 30. Qc8+ Qf8 31. Qxf8+ Kxf8 32. Bxe1 Bxb2
+33. Bf3 d4 34. Bd5 Ke7 35. Bc4 f6 36. Kf1 Kd6 37. Bg3+ Kc6 38. Ke2 Bc1 39. Kd3
+f5 40. Be6 f4 41. Be1 Kd6 42. Bg8 h6 43. Bd2 Bb2 44. Bxf4+ Ke7 45. Kc4 Ba3 46.
+Bh7 Bb4 47. Be4 Ke6 48. Bc7 Ba3 49. Bb6 Kd6 50. Bg6 Bb4 51. Ba7 Ba3 52. Bb8+
+Ke6 53. Be4 g5 54. g4 Bb4 55. Bf5+ Ke7 56. Kd5 Kf6 57. Bd6 h5 58. h3 hxg4 59.
+hxg4 Ba3 60. Bxc5 1-0
+
+[Event "Barcelona La Lira op 35th"]
+[Site "Barcelona"]
+[Date "2017.02.24"]
+[Round "6"]
+[White "Barcelo Sola, David"]
+[Black "Puertas Manzano, Jose Luis"]
+[Result "0-1"]
+[ECO "B53"]
+[WhiteElo "2025"]
+[BlackElo "2220"]
+[PlyCount "94"]
+[EventDate "2017.01.20"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Qxd4 Nc6 5. Bb5 Bd7 6. Bxc6 Bxc6 7. c4 Nf6 8.
+Nc3 g6 9. Bg5 Bg7 10. Nd5 O-O 11. Bxf6 exf6 12. O-O f5 13. e5 dxe5 14. Nxe5 Re8
+15. Rfe1 Qd6 16. f4 Rad8 17. Rad1 a6 18. Qd2 Bxd5 19. Qxd5 Qb6+ 20. c5 Rxd5 21.
+cxb6 Rxd1 22. Rxd1 Bxe5 23. fxe5 Re6 24. Rd8+ Kg7 25. Kf2 Rxb6 26. b3 Re6 27.
+Rd5 g5 28. Kf3 Kg6 29. b4 b5 30. h4 h6 31. hxg5 hxg5 32. Rc5 f6 33. exf6 Kxf6
+34. Rc8 Rd6 35. Rf8+ Ke5 36. Ke3 f4+ 37. Ke2 Kd4 38. Rg8 Kc3 39. Rxg5 Kxb4 40.
+Rg4 Ka3 41. Rxf4 Kxa2 42. g4 a5 43. Rf5 Rb6 44. Kd3 a4 45. Kc3 b4+ 46. Kc4 b3
+47. Rf2+ b2 0-1
+
+[Event "Barcelona La Lira op 35th"]
+[Site "Barcelona"]
+[Date "2017.03.03"]
+[Round "7"]
+[White "Puertas Manzano, Jose Luis"]
+[Black "Capellades Subirana, Marc"]
+[Result "0-1"]
+[ECO "A64"]
+[WhiteElo "2220"]
+[BlackElo "2259"]
+[PlyCount "50"]
+[EventDate "2017.01.20"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 e6 3. g3 c5 4. d5 exd5 5. cxd5 d6 6. Nc3 g6 7. Nf3 Bg7 8. Bg2
+O-O 9. O-O Re8 10. h3 a6 11. a4 Nbd7 12. Nd2 Nh5 13. Nc4 Ne5 14. Na3 f5 15. Kh2
+g5 16. e4 g4 17. h4 f4 18. Rh1 Rf8 19. gxf4 Nxf4 20. Bxf4 Rxf4 21. Kg1 Qf6 22.
+Qc2 Bd7 23. Rf1 Nf3+ 24. Bxf3 gxf3 25. Rh2 Rxh4 0-1
+
+[Event "Barcelona La Lira op 35th"]
+[Site "Barcelona"]
+[Date "2017.03.10"]
+[Round "8"]
+[White "Asensio Linan, Teodoro"]
+[Black "Puertas Manzano, Jose Luis"]
+[Result "0-1"]
+[ECO "B51"]
+[WhiteElo "2113"]
+[BlackElo "2220"]
+[PlyCount "102"]
+[EventDate "2017.01.20"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 d6 4. Bxc6+ bxc6 5. O-O e5 6. d3 f5 7. exf5 Bxf5 8.
+Re1 Be7 9. Nbd2 Nf6 10. Ne4 Nxe4 11. dxe4 Bg4 12. Qd3 O-O 13. Nd2 Qe8 14. Nc4
+Qg6 15. Rf1 Bf3 16. Ne3 Bxe4 17. Qb3+ d5 18. Kh1 Rf3 19. Qb7 Raf8 20. Qxe7 Rxe3
+21. Qxf8+ Kxf8 22. fxe3+ Kg8 23. Rf2 h5 24. Bd2 h4 25. Kg1 h3 26. g3 Bg2 27.
+Ba5 d4 28. Re1 e4 29. b4 Qd6 30. Rd2 Qd5 31. a3 Qc4 32. bxc5 dxe3 33. Rd8+ Kh7
+34. Bb4 Qxc2 35. Rxe3 Bf3 36. Bd2 Qd1+ 37. Re1 Qc2 38. Rc1 Qa2 39. Rc3 Qb1+ 40.
+Rc1 Qb5 41. Bf4 e3 42. Bxe3 Qe2 43. Bf2 Bd5 44. Rxd5 cxd5 45. c6 Qf3 46. Kf1
+Qh1+ 47. Bg1 Qg2+ 48. Ke1 Qxg1+ 49. Kd2 Qxh2+ 50. Kd1 Qxg3 51. c7 Qxc7 0-1
+
+[Event "Hospitalet de Llobregat Ponce 3rd"]
+[Site "Hospitalet de Llobregat"]
+[Date "2017.04.01"]
+[Round "1"]
+[White "Puertas Manzano, Jose Luis"]
+[Black "Saez Ortega, Jose"]
+[Result "1-0"]
+[ECO "E91"]
+[WhiteElo "2102"]
+[BlackElo "1622"]
+[PlyCount "71"]
+[EventDate "2017.04.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 Bg4 6. Be3 Nc6 7. Be2 O-O 8. Qd2
+Rb8 9. d5 Bxf3 10. gxf3 Nb4 11. a3 Na6 12. Bxa7 Ra8 13. Be3 Nd7 14. Bh6 Ndc5
+15. Bxg7 Kxg7 16. Qc2 e5 17. h4 Qf6 18. O-O-O Qf4+ 19. Kb1 h5 20. Rdg1 Kh8 21.
+Nd1 Nd7 22. Ne3 Kh7 23. Rg5 Nac5 24. Ng2 Qf6 25. Rg1 Rg8 26. Ne3 Raf8 27. Nf5
+Re8 28. Ng3 Kh6 29. Nxh5 Qe7 30. Qd2 Kh7 31. Ng3 Nf6 32. h5 Ncd7 33. Rh1 Qd8
+34. hxg6+ Kg7 35. Nf5+ Kf8 36. g7+ 1-0
+
+[Event "Hospitalet de Llobregat Ponce 3rd"]
+[Site "Hospitalet de Llobregat"]
+[Date "2017.04.08"]
+[Round "2"]
+[White "Madrid Sole, Antonio"]
+[Black "Puertas Manzano, Jose Luis"]
+[Result "1/2-1/2"]
+[ECO "D94"]
+[WhiteElo "1817"]
+[BlackElo "2102"]
+[PlyCount "135"]
+[EventDate "2017.04.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 d5 3. e3 g6 4. c4 Bg7 5. Nc3 O-O 6. Be2 dxc4 7. Bxc4 c5 8. O-O
+cxd4 9. Nxd4 Qc7 10. Be2 a6 11. Bd2 e5 12. Nf3 Re8 13. Qc1 Nc6 14. e4 Nd4 15.
+Re1 Be6 16. Bg5 Rec8 17. h3 Qa5 18. Qd2 Rd8 19. Qc1 Rac8 20. Qb1 Rd7 21. Be3
+Nh5 22. Ng5 Nf4 23. Nxe6 Nfxe6 24. Bg4 h5 25. Bxe6 Nxe6 26. Nd5 Nd4 27. Bxd4
+exd4 28. Qd3 Re8 29. b4 Qd8 30. a4 Qg5 31. Rac1 Kh7 32. a5 f5 33. f3 fxe4 34.
+fxe4 Qh4 35. Re2 Re6 36. Rf1 Be5 37. Qf3 Qg3 38. Qxg3 Bxg3 39. Nf6+ Rxf6 40.
+Rxf6 d3 41. Rd2 Be1 42. Rd1 Bxb4 43. Rf3 d2 44. Kf1 Bxa5 45. Ke2 Bb4 46. Rdf1
+Kg7 47. e5 Re7 48. Re3 Re6 49. Rf4 a5 50. Rc4 b6 51. Rc7+ Kh6 52. h4 g5 53.
+hxg5+ Kxg5 54. Rf7 Kg6 55. Rff3 a4 56. Re4 Ba5 57. Rg3+ Kf5 58. Ree3 Rxe5 59.
+Rxe5+ Kxe5 60. Rg5+ Kf4 61. Rxh5 Kg3 62. Rg5+ Kf4 63. Rh5 a3 64. Rh3 a2 65. Ra3
+Bc3 66. Rxa2 b5 67. Rxd2 Bxd2 68. Kxd2 1/2-1/2
+
+[Event "Hospitalet de Llobregat Ponce 3rd"]
+[Site "Hospitalet de Llobregat"]
+[Date "2017.04.22"]
+[Round "3"]
+[White "Puertas Manzano, Jose Luis"]
+[Black "Valbuena Castro, Gregorio"]
+[Result "1-0"]
+[ECO "E74"]
+[WhiteElo "2102"]
+[BlackElo "1728"]
+[PlyCount "59"]
+[EventDate "2017.04.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 c5 2. d5 d6 3. c4 Nf6 4. Nc3 g6 5. e4 Bg7 6. Be2 O-O 7. Bg5 a6 8. Qd2 Re8
+9. h4 Nbd7 10. h5 gxh5 11. Bh6 Bxh6 12. Qxh6 Kh8 13. Bxh5 Nxh5 14. Qxh5 Nf6 15.
+Qh4 Rg8 16. Nf3 Rg4 17. Qh2 b5 18. e5 dxe5 19. Nxe5 Rg7 20. O-O-O Qg8 21. d6
+Rxg2 22. Nxf7+ Qxf7 23. Qxg2 Rb8 24. Qg3 Bb7 25. dxe7 Rg8 26. Qe5 Bxh1 27. Rxh1
+h5 28. Nd5 Rg6 29. Nxf6 Rxf6 30. e8=Q+ 1-0
+
+[Event "Hospitalet de Llobregat Ponce 3rd"]
+[Site "Hospitalet de Llobregat"]
+[Date "2017.04.29"]
+[Round "4"]
+[White "Rodriguez Regull, German"]
+[Black "Puertas Manzano, Jose Luis"]
+[Result "0-1"]
+[ECO "B40"]
+[WhiteElo "2018"]
+[BlackElo "2102"]
+[PlyCount "76"]
+[EventDate "2017.04.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nf6 5. Bd3 Nc6 6. Nxc6 bxc6 7. O-O Qc7 8.
+c4 Bd6 9. h3 h5 10. Nc3 Ng4 11. Be2 Bh2+ 12. Kh1 Bg1 13. f4 Nf2+ 14. Rxf2 Bxf2
+15. e5 Bc5 16. Ne4 Be7 17. Be3 c5 18. Bxh5 Bb7 19. Bf3 Bxe4 20. Bxe4 Rb8 21. b3
+d6 22. exd6 Bxd6 23. Qf3 Rd8 24. f5 exf5 25. Qxf5 Kf8 26. Rf1 f6 27. Bd5 Re8
+28. Qg6 Qe7 29. Bg5 Be5 30. Be3 Bd4 31. Bf4 Rd8 32. Qg3 Rh5 33. Bc7 Rd7 34. Bf4
+Rhxd5 35. cxd5 Rxd5 36. Re1 Qd7 37. Qg6 Bf2 38. Rf1 Rd1 0-1
+
+[Event "Hospitalet de Llobregat Ponce 3rd"]
+[Site "Hospitalet de Llobregat"]
+[Date "2017.05.06"]
+[Round "5"]
+[White "Puertas Manzano, Jose Luis"]
+[Black "Lopez Baena, David"]
+[Result "1-0"]
+[ECO "B01"]
+[WhiteElo "2102"]
+[BlackElo "2028"]
+[PlyCount "94"]
+[EventDate "2017.04.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. d4 Nf6 5. Nf3 c6 6. Bc4 Bf5 7. Ne5 e6 8. g4
+Be4 9. Nxe4 Nxe4 10. Qf3 Nd6 11. Bb3 Be7 12. c3 Nd7 13. Bd2 Nxe5 14. dxe5 Nb5
+15. O-O-O Qb6 16. Be3 Qa5 17. c4 Nc7 18. Qe4 Na6 19. Kb1 Nc5 20. Bxc5 Qxc5 21.
+f4 O-O 22. f5 Rfd8 23. f6 Bf8 24. Bc2 g6 25. h4 b5 26. cxb5 Rd5 27. Rxd5 cxd5
+28. Qf4 Qxb5 29. h5 Ba3 30. Bb3 Qd3+ 31. Ka1 Bf8 32. hxg6 Qxg6 33. Rc1 Bh6 34.
+Qf1 Bxc1 35. Qxc1 Qxg4 36. a3 h5 37. Bd1 Qg1 38. Qd2 Rc8 39. Ka2 Rc4 40. Bc2
+Rg4 41. Qh6 Rg6 42. Qxh5 Qg5 43. Bxg6 Qxg6 44. Qe2 d4 45. Qd2 Qe4 46. Kb3 Qf3+
+47. Kc4 Qf4 1-0
+
+[Event "Hospitalet de Llobregat Ponce 3rd"]
+[Site "Hospitalet de Llobregat"]
+[Date "2017.05.13"]
+[Round "6"]
+[White "Capellades Subirana, Marc"]
+[Black "Puertas Manzano, Jose Luis"]
+[Result "1-0"]
+[ECO "B32"]
+[WhiteElo "2181"]
+[BlackElo "2102"]
+[PlyCount "25"]
+[EventDate "2017.04.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e5 5. Nb5 a6 6. N5c3 Bc5 7. Bc4 d6 8.
+O-O Qh4 9. Be3 Nd4 10. Nd5 Ne6 11. Bxc5 dxc5 12. Nb6 Qxe4 13. Bd5 1-0
+
+[Event "Hospitalet de Llobregat Ponce 3rd"]
+[Site "Hospitalet de Llobregat"]
+[Date "2017.05.20"]
+[Round "7"]
+[White "Puertas Manzano, Jose Luis"]
+[Black "Aracil Campoy, Manuel"]
+[Result "0-1"]
+[ECO "D31"]
+[WhiteElo "2102"]
+[BlackElo "1934"]
+[PlyCount "66"]
+[EventDate "2017.04.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Nf3 c6 3. c4 e6 4. Nc3 dxc4 5. a4 Bb4 6. g3 Nf6 7. Qc2 Nbd7 8. Bg2
+Nd5 9. e4 N5f6 10. O-O h6 11. Qe2 Bxc3 12. bxc3 b5 13. Ba3 Bb7 14. Nd2 Nb6 15.
+e5 Nfd5 16. Ne4 Nc8 17. Qg4 Rg8 18. Nf6+ Nxf6 19. exf6 a6 20. fxg7 Ne7 21. Rfe1
+Qd7 22. Qh5 Rxg7 23. Qxh6 Rg6 24. Qh4 Ng8 25. Be4 Rg7 26. Rad1 Qd8 27. Qf4 Nf6
+28. Bf5 Nd5 29. Qe5 Qf6 30. Qd6 Rd8 31. Qf8+ Kd7 32. Qd6+ Kc8 33. Rxe6 Qxf5 0-1
+
+[Event "Hospitalet de Llobregat Ponce 3rd"]
+[Site "Hospitalet de Llobregat"]
+[Date "2017.05.27"]
+[Round "8"]
+[White "Pallares Gurrea, Aitor Alexander"]
+[Black "Puertas Manzano, Jose Luis"]
+[Result "0-1"]
+[ECO "E92"]
+[WhiteElo "1825"]
+[BlackElo "2102"]
+[PlyCount "69"]
+[EventDate "2017.04.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 O-O 5. e4 d6 6. Be2 e5 7. Bg5 h6 8. Bh4
+exd4 9. Nxd4 Nc6 10. O-O g5 11. Nxc6 bxc6 12. Bg3 Re8 13. Qc2 Qe7 14. f3 Nh5
+15. Bf2 Nf4 16. Rad1 Bxc3 17. bxc3 c5 18. Rfe1 Qf6 19. Bf1 Re7 20. e5 Rxe5 21.
+Rxe5 Qxe5 22. Re1 Qf6 23. Qe4 Rb8 24. Qe8+ Kg7 25. g3 Nh3+ 26. Bxh3 Bxh3 27.
+Qxb8 Qxf3 28. Bd4+ cxd4 29. Qb2 dxc3 30. Qf2 Qd3 31. Qe2 Qd4+ 32. Kh1 Bg4 33.
+Qf1 c2 34. Rc1 Qe4+ 35. Kg1 0-1
+
+[Event "Hospitalet de Llobregat Ponce 3rd"]
+[Site "Hospitalet de Llobregat"]
+[Date "2017.06.03"]
+[Round "9"]
+[White "Layola Barrionuevo, Javier"]
+[Black "Puertas Manzano, Jose Luis"]
+[Result "1/2-1/2"]
+[ECO "C77"]
+[WhiteElo "2012"]
+[BlackElo "2102"]
+[PlyCount "66"]
+[EventDate "2017.04.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. d3 b5 6. Bb3 Bc5 7. c3 d6 8. Nbd2
+O-O 9. Nf1 Ne7 10. Ng3 Ng6 11. O-O Ba7 12. Re1 h6 13. a4 Re8 14. axb5 axb5 15.
+Be3 c5 16. d4 Bb7 17. d5 Ng4 18. c4 Nxe3 19. fxe3 bxc4 20. Bxc4 Bb6 21. Rxa8
+Qxa8 22. Nf5 Bc7 23. N3h4 Nxh4 24. Nxh4 Qd8 25. Nf5 Bc8 26. Qf3 Bxf5 27. Qxf5
+Qg5 28. Qxg5 hxg5 29. Ra1 g6 30. Ra7 Re7 31. Bd3 Kg7 32. g4 Bd8 33. Rxe7 Bxe7
+1/2-1/2

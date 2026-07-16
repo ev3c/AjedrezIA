@@ -1,0 +1,192 @@
+[Event "Andorra op"]
+[Site "Erts - La Massana"]
+[Date "2014.07.20"]
+[Round "2.8"]
+[White "Navrotescu, AC."]
+[Black "Narciso Dublan, M."]
+[Result "1/2-1/2"]
+[ECO "A20"]
+[WhiteElo "2181"]
+[BlackElo "2523"]
+[PlyCount "59"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+
+1. c4 e5 2. g3 Nf6 3. Bg2 h6 4. Nc3 Bb4 5. Nf3 Bxc3 6. dxc3 d6 7. O-O Nc6 8. e4
+Be6 9. Qd3 Nd7 10. Be3 Nc5 11. Bxc5 dxc5 12. Qe2 Bg4 13. Qe3 Bxf3 14. Bxf3 Qe7
+15. Rad1 O-O 16. Rd5 b6 17. Rfd1 Rfd8 18. Qd3 Qf6 19. Rd2 Rxd5 20. cxd5 Na5 21.
+b4 Nb7 22. Qa6 Qxf3 23. Qxb7 Rf8 24. Qxc7 Qxe4 25. Kf1 Qc4+ 26. Ke1 Qe4+ 27.
+Kd1 Qb1+ 28. Ke2 Qe4+ 29. Kd1 Qb1+ 30. Ke2 1/2-1/2
+
+[Event "Andorra op"]
+[Site "Erts - La Massana"]
+[Date "2014.07.21"]
+[Round "3.16"]
+[White "Navrotescu, AC."]
+[Black "Glud, JV."]
+[Result "0-1"]
+[ECO "D37"]
+[WhiteElo "2181"]
+[BlackElo "2538"]
+[PlyCount "76"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. Nf3 Nf6 5. Bf4 O-O 6. e3 Nbd7 7. c5 Nh5 8. Bd3
+c6 9. O-O Nxf4 10. exf4 Qc7 11. Ne5 Nxe5 12. fxe5 Bd7 13. f4 f5 14. b4 b6 15.
+a3 Kh8 16. Kh1 bxc5 17. dxc5 g5 18. g3 a5 19. Ne2 Rg8 20. Rg1 Qb8 21. Qd2 Qf8
+22. Nd4 Qh6 23. Rac1 gxf4 24. gxf4 Qh3 25. Rxg8+ Rxg8 26. bxa5 Be8 27. Bf1 Qxa3
+28. Qc3 Qa2 29. Nxe6 Qf2 30. Bh3 Bh5 31. Rf1 Bf3+ 32. Qxf3 Rg1+ 33. Rxg1 Qxf3+
+34. Bg2 Qa3 35. Rb1 Kg8 36. Nd4 Qd3 37. Rb8+ Kf7 38. e6+ Kf6 0-1
+
+[Event "Andorra op"]
+[Site "Erts - La Massana"]
+[Date "2014.07.24"]
+[Round "6.17"]
+[White "Navrotescu, AC."]
+[Black "Jolly, JF."]
+[Result "1-0"]
+[ECO "A45"]
+[WhiteElo "2181"]
+[BlackElo "2376"]
+[PlyCount "73"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+
+1. d4 Nf6 2. Bg5 c5 3. d5 Ne4 4. Bf4 Qb6 5. Qc1 g6 6. f3 Bg7 7. c3 Nf6 8. e4
+O-O 9. Na3 d6 10. Nc4 Qc7 11. a4 Rd8 12. g4 e6 13. Nxd6 Rxd6 14. e5 Rxd5 15.
+exf6 e5 16. Bc4 Rd8 17. Bg5 Bh8 18. h4 e4 19. Bf4 Qc6 20. g5 exf3 21. Kf2 Bg4
+22. Qe3 Qd7 23. Rd1 Qe8 24. Qxe8+ Rxe8 25. Nxf3 Nd7 26. Bb5 Nxf6 27. gxf6 Re6
+28. Kg3 Bh5 29. Rd7 Rxf6 30. Re1 Bg7 31. Ne5 h6 32. Bc4 Rf8 33. Ng4 Rb6 34.
+Nxh6+ Kh7 35. Nxf7 Rf6 36. Ng5+ Kh6 37. Rxg7 1-0
+
+[Event "Andorra op"]
+[Site "Erts - La Massana"]
+[Date "2014.07.25"]
+[Round "7.11"]
+[White "Kogan, A."]
+[Black "Navrotescu, AC."]
+[Result "1-0"]
+[ECO "B31"]
+[WhiteElo "2548"]
+[BlackElo "2181"]
+[PlyCount "45"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 Nf6 4. Qe2 g6 5. c3 Bg7 6. O-O O-O 7. Rd1 Qb6 8. Na3
+a6 9. Ba4 Qc7 10. e5 Nd5 11. d4 cxd4 12. Bb3 e6 13. cxd4 b5 14. Bxd5 exd5 15.
+Bf4 Nd8 16. Rac1 Qb6 17. Qd2 Ne6 18. Bh6 d6 19. Nc2 Bb7 20. Bxg7 Kxg7 21. Ne3
+Rac8 22. Ng4 Kh8 23. Nf6 1-0
+
+[Event "Andorra op"]
+[Site "Erts - La Massana"]
+[Date "2014.07.26"]
+[Round "8.19"]
+[White "Navrotescu, AC."]
+[Black "Delabaca, R."]
+[Result "1/2-1/2"]
+[ECO "A20"]
+[WhiteElo "2181"]
+[BlackElo "2314"]
+[PlyCount "10"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+
+1. c4 e5 2. g3 Nf6 3. Bg2 c6 4. d4 e4 5. d5 Bc5 1/2-1/2
+
+[Event "Andorra op"]
+[Site "Erts - La Massana"]
+[Date "2014.07.27"]
+[Round "9.19"]
+[White "Berthelot, Y."]
+[Black "Navrotescu, AC."]
+[Result "1-0"]
+[ECO "B76"]
+[WhiteElo "2278"]
+[BlackElo "2181"]
+[PlyCount "119"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 Nc6 8. Qd2
+O-O 9. g4 Be6 10. Nxe6 fxe6 11. O-O-O Qa5 12. Bc4 Nd8 13. Bh6 Nd7 14. Bxg7 Kxg7
+15. f4 Rc8 16. Bb3 Nc5 17. h4 Nxb3+ 18. axb3 Nf7 19. g5 b5 20. h5 b4 21. Na4
+Qc7 22. Rh2 d5 23. Rdh1 Rh8 24. exd5 exd5 25. Qxb4 gxh5 26. Nc3 Qc5 27. Qxc5
+Rxc5 28. Rxh5 e6 29. Ne2 Ra5 30. Kb1 h6 31. Nd4 Ra6 32. gxh6+ Rxh6 33. Rxh6
+Nxh6 34. c3 Kg6 35. Re1 Kf6 36. Kc2 Nf5 37. Nf3 Rb6 38. Ne5 Rb7 39. Ng4+ Kf7
+40. b4 Ke7 41. Ra1 Rc7 42. Ne5 Ne3+ 43. Kd2 Ng2 44. Rxa7 Rxa7 45. Nc6+ Kd7 46.
+Nxa7 Nxf4 47. Nb5 e5 48. Na3 Kc6 49. Nc2 Ne6 50. Ne1 Kb5 51. Nc2 Kc6 52. Ne3 d4
+53. Ng4 Kd5 54. Nf6+ Kc4 55. Kc2 d3+ 56. Kd2 Nf4 57. b3+ Kb5 58. Ne4 Kb6 59.
+Nc5 Nd5 60. Nd7+ 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2020.02.08"]
+[Round "4.7"]
+[White "Navrotescu, Andreea Cristiana"]
+[Black "Moro Adame, Antonio"]
+[Result "1-0"]
+[ECO "E67"]
+[WhiteElo "2244"]
+[BlackElo "2085"]
+[PlyCount "47"]
+[WhiteTeam "Valls, CE"]
+[BlackTeam "Salauris, CE"]
+
+1. Nf3 Nf6 2. c4 d6 3. d4 g6 4. g3 Bg7 5. Bg2 O-O 6. O-O Nbd7 7. Nc3 c5 8. e4
+cxd4 9. Nxd4 Rb8 10. h3 a6 11. Be3 Ne5 12. b3 Nc6 13. Nxc6 bxc6 14. Qd2 Qc7 15.
+Rad1 a5 16. Rfe1 Nd7 17. Na4 c5 18. f4 Bb7 19. e5 Bxg2 20. Kxg2 Nb6 21. Nxb6
+Qxb6 22. exd6 Rfd8 23. Qd5 exd6 24. Bf2 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2020.02.15"]
+[Round "5.8"]
+[White "Navrotescu, Andreea Cristiana"]
+[Black "Garzon Sanchez, Jose Manuel"]
+[Result "0-1"]
+[ECO "A65"]
+[WhiteElo "2247"]
+[BlackElo "2191"]
+[PlyCount "97"]
+[WhiteTeam "Valls, CE"]
+[BlackTeam "Ateneu Colon, CE"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nge2 O-O 6. Ng3 c5 7. d5 e6 8. Be2
+exd5 9. cxd5 a6 10. a4 Re8 11. O-O Nbd7 12. Bg5 Qa5 13. Qd2 Qb4 14. f3 Rb8 15.
+Rfb1 b5 16. axb5 axb5 17. Ra7 c4 18. Kh1 Bb7 19. Be3 Nc5 20. Qc1 Nb3 21. Qg1
+Na5 22. Bb6 Nb3 23. Na2 Qd2 24. Be3 Nxe4 25. fxe4 Bd4 26. Bxd4 Qxd4 27. Qxd4
+Nxd4 28. Bf3 f5 29. Nb4 f4 30. Nf1 Nb3 31. Nc6 Bxc6 32. dxc6 Rbc8 33. Rd1 Rxc6
+34. e5 Rb6 35. exd6 Rbb8 36. Kg1 Nc5 37. d7 Red8 38. Rc7 Nd3 39. b3 Ne5 40.
+bxc4 bxc4 41. Bb7 Kf8 42. Rc8 Ke7 43. Rxb8 Rxb8 44. Bc8 Nc6 45. Re1+ Kd8 46.
+Nd2 c3 47. Nc4 Rb4 48. Na5 Ne7 49. Rxe7 0-1
+
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.03.10"]
+[Round "?"]
+[White "Navrotescu, Andreea Cristiana"]
+[Black "Colls Gelaberto, Emilio"]
+[Result "1-0"]
+[ECO "A34"]
+[PlyCount "22"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+
+1. c4 Nf6 2. Nc3 c5 3. Nf3 d5 4. cxd5 Nxd5 5. a3 Nc6 6. e3 e6 7. Bb5 Bd7 8. O-O
+Be7 9. Qc2 O-O 10. Rd1 Rc8 11. Bf1 Qc7 {NO ES POT LLEGIR} 1-0

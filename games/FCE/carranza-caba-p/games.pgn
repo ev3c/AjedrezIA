@@ -1,0 +1,126 @@
+[Event "Ct. Catalunya Baix Llobr."]
+[Site "?"]
+[Date "2000.??.??"]
+[Round "1"]
+[White "Carranza Caba, P."]
+[Black "Cuxart Taltavull, A."]
+[Result "0-1"]
+[ECO "B45"]
+[PlyCount "88"]
+[EventDate "2000.??.??"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e6 6. Ndb5 Bb4 7. Nd6+ Ke7 8.
+Bf4 e5 9. Bg5 Bxd6 10. Nd5+ Ke8 11. Nxf6+ gxf6 12. Qxd6 fxg5 13. O-O-O Qe7 14.
+Qh6 f6 15. Be2 a5 16. Bh5+ Kd8 17. Bg4 d6 18. Qh3 h5 19. Bxc8 Rxc8 20. Qa3 Kc7
+21. Rd5 b6 22. Rhd1 Rhd8 23. Qe3 Kb7 24. Kb1 Nb4 25. Rb5 Qc7 26. c3 Qc6 27. Qe2
+Na6 28. Rbd5 Nc7 29. R5d2 Ne6 30. Qxh5 Qxe4+ 31. Ka1 Qxg2 32. f3 Nf4 33. Qf7+
+Rc7 34. Qxf6 Qxf3 35. Qxd8 e4 36. Qxg5 e3 37. Rxd6 e2 38. Re1 Qf2 39. Qg3 Qf1
+40. Rf6 Rd7 41. a3 Qxe1+ 42. Qxe1 Rd1+ 43. Ka2 Rxe1 44. Rxf4 Rf1 0-1
+
+[Event "Ct. Catalunya Baix Llobr."]
+[Site "?"]
+[Date "2000.??.??"]
+[Round "2"]
+[White "Faura Diaz, C."]
+[Black "Carranza Caba, P."]
+[Result "0-1"]
+[ECO "B50"]
+[PlyCount "44"]
+[EventDate "2000.??.??"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 d6 3. Be2 Nc6 4. O-O g6 5. b3 Bg7 6. c3 a6 7. Bb5 axb5 8. Na3
+b4 9. Nb1 e6 10. Qe2 Nge7 11. Re1 O-O 12. cxb4 Bxa1 13. bxc5 dxc5 14. d3 b5 15.
+Qe3 Nd4 16. Qh6 Nxf3+ 17. gxf3 Qxd3 18. Bg5 Bg7 19. Qh3 e5 20. Bxe7 Bxh3 21.
+Bxf8 Qxf3 22. Bxg7 Qg2# 0-1
+
+[Event "Ct. Catalunya Baix Llobr."]
+[Site "?"]
+[Date "2000.??.??"]
+[Round "4"]
+[White "Carranza Caba, P."]
+[Black "Romero Forero, M."]
+[Result "1-0"]
+[ECO "C42"]
+[PlyCount "105"]
+[EventDate "2000.??.??"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nxf7 Kxf7 5. Bc4+ Be6 6. Bxe6+ Kxe6 7. O-O
+Be7 8. d4 Kf7 9. Qf3 Nbd7 10. Qb3+ Ke8 11. Re1 Rb8 12. e5 dxe5 13. dxe5 Ng8 14.
+Qf3 c6 15. h4 Qa5 16. Bd2 Qd5 17. Qf4 h6 18. Nc3 Qe6 19. Qg3 g5 20. hxg5 hxg5
+21. Bxg5 Qg6 22. e6 Nb6 23. Ne4 Bxg5 24. Qxg5 Qxg5 25. Nxg5 Ke7 26. Rad1 Nf6
+27. b3 Rh5 28. Nf7 Rd5 29. Rxd5 cxd5 30. f3 Rc8 31. Re2 a5 32. a4 Na8 33. g4
+Nc7 34. g5 Rg8 35. Kf2 Nfe8 36. f4 Nd6 37. Nxd6 Kxd6 38. e7 Ne8 39. Kf3 Rg7 40.
+Kg4 Rxe7 41. Rxe7 Kxe7 42. f5 Kf7 43. Kf4 Nc7 44. Ke5 d4 45. Kxd4 b5 46. axb5
+Nxb5+ 47. Ke5 Na3 48. g6+ Kg8 49. f6 Nxc2 50. Ke6 Kf8 51. g7+ Kg8 52. Ke7 Nd4
+53. f7+ 1-0
+
+[Event "Ct. Catalunya Baix Llobr."]
+[Site "?"]
+[Date "2000.??.??"]
+[Round "5"]
+[White "Carranza Caba, P."]
+[Black "Chalmeta Ugas, R."]
+[Result "1/2-1/2"]
+[ECO "C54"]
+[PlyCount "15"]
+[EventDate "2000.??.??"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. cxd4 Bb4+ 7. Nc3 Nxe4 8.
+O-O 1/2-1/2
+
+[Event "Ct. Catalunya Baix Llobr."]
+[Site "?"]
+[Date "2000.??.??"]
+[Round "7"]
+[White "Carranza Caba, P."]
+[Black "Gamez Navas, J."]
+[Result "1-0"]
+[ECO "B80"]
+[PlyCount "95"]
+[EventDate "2000.??.??"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e6 6. Bg5 Be7 7. Ndb5 a6 8.
+Bxf6 gxf6 9. Nd4 Qc7 10. Qh5 Nc6 11. O-O-O Bd7 12. f4 Nxd4 13. Rxd4 Qc5 14.
+Qxc5 dxc5 15. Rd3 O-O-O 16. Be2 Bc6 17. Rhd1 Kc7 18. Bh5 Rhf8 19. Rh3 Bd6 20.
+g3 b5 21. Bf3 Rh8 22. Rh6 b4 23. Ne2 Be7 24. Rxd8 Kxd8 25. c4 Ke8 26. Ng1 Kf8
+27. e5 Bxf3 28. exf6 Bxf6 29. Nxf3 Kg7 30. Rh5 Rd8 31. Rxc5 Rd3 32. Ne5 Re3 33.
+Kd2 Bxe5 34. Kxe3 Bxb2 35. Ra5 Kf6 36. Rxa6 Kf5 37. Kf3 f6 38. g4+ Kg6 39. Rxe6
+Kf7 40. f5 Be5 41. Ke4 Bxh2 42. Kd5 Bf4 43. Kc6 Be5 44. c5 Kg7 45. Kd7 Kh6 46.
+c6 Kg5 47. Rxe5 fxe5 48. c7 1-0
+
+[Event "Ct. Catalunya Baix Llobr."]
+[Site "?"]
+[Date "2000.??.??"]
+[Round "9"]
+[White "Carranza Caba, P."]
+[Black "Chalmeta Ugas, J."]
+[Result "0-1"]
+[ECO "C02"]
+[PlyCount "34"]
+[EventDate "2000.??.??"]
+[EventRounds "9"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. dxc5 Bxc5 5. Qg4 Ne7 6. Qxg7 Rg8 7. Qxh7 Qb6 8.
+Nh3 Nbc6 9. f4 Bd7 10. c3 O-O-O 11. b4 Nxb4 12. cxb4 Bxb4+ 13. Bd2 Qe3+ 14. Be2
+Rxg2 15. Qh5 Bb5 16. Nf2 Qxf2+ 17. Kd1 Bxe2+ 0-1
+
+[Event "Fincas Mediterranea op"]
+[Site "?"]
+[Date "2005.08.17"]
+[Round "1.11"]
+[White "Hernando Rodrigo, JM."]
+[Black "Carranza Caba, P."]
+[Result "1-0"]
+[ECO "A52"]
+[WhiteElo "2351"]
+[BlackElo "1864"]
+[PlyCount "18"]
+[EventDate "2005.??.??"]
+
+1. d4 Nf6 2. c4 e5 3. dxe5 Ng4 4. e6 fxe6 5. e4 Qh4 6. g3 Qh5 7. Be2 Bb4+ 8.
+Bd2 Bxd2+ 9. Nxd2 Nxf2 1-0

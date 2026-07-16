@@ -1,0 +1,162 @@
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.01.14"]
+[Round "1"]
+[White "Sola Sendra, Francesco"]
+[Black "Tarifa Garcia, Jose"]
+[Result "0-1"]
+[ECO "E60"]
+[WhiteElo "1790"]
+[BlackElo "1527"]
+[PlyCount "104"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. Nf3 g6 2. d4 Bg7 3. c4 d6 4. g3 a6 5. Bg2 Nf6 6. O-O O-O 7. Re1 b5 8. Nfd2
+c6 9. e4 Bb7 10. a4 Qb6 11. d5 cxd5 12. exd5 Re8 13. Nc3 b4 14. a5 Qc5 15. Nce4
+Nxe4 16. Bxe4 Nd7 17. Bd3 Nf6 18. Nb3 Qc7 19. Ra4 e6 20. Rxb4 exd5 21. Rxe8+
+Rxe8 22. Bf4 dxc4 23. Rxc4 Qe7 24. Be3 d5 25. Rc2 Qb4 26. Nc5 Bc8 27. Bd2 Qg4
+28. Qxg4 Nxg4 29. h3 Ne5 30. Bf1 Nf3+ 31. Kg2 Re1 32. Nd3 Bxh3+ 33. Kxh3 Rxf1
+34. Kg2 Nxd2 35. Rxd2 Ra1 36. b4 Bc3 37. Rc2 d4 38. Kf3 Rb1 39. Ke4 Bxb4 40.
+Kxd4 Bxa5 41. Ra2 Bb6+ 42. Ke5 a5 43. Kf6 Bd4+ 44. Kg5 Rb5+ 45. Kf4 Kg7 46. Ke4
+Bb6 47. f3 f5+ 48. Kf4 Bc7+ 49. Kg5 f4+ 50. Kg4 fxg3 51. f4 Rb3 52. Rd2 g2 0-1
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.01.21"]
+[Round "2"]
+[White "Riera Escayola, Josep"]
+[Black "Sola Sendra, Francesco"]
+[Result "1/2-1/2"]
+[ECO "B12"]
+[WhiteElo "1558"]
+[BlackElo "1790"]
+[PlyCount "81"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. h3 h5 6. Bd3 Ne7 7. Bg5 Bxd3 8. Qxd3
+Qb6 9. b3 Ng6 10. O-O Nd7 11. Nc3 a5 12. Na4 Qc7 13. Rac1 Ba3 14. Rb1 b5 15.
+Nb2 Ndf8 16. Nh4 Nxh4 17. Bxh4 Ng6 18. Bg3 Ne7 19. Nd1 Nf5 20. Bh2 g5 21. Ne3
+Nh4 22. Bg3 Ng6 23. f4 gxf4 24. Bxf4 O-O-O 25. Bg5 Rdf8 26. Rf3 Be7 27. Bf6
+Rhg8 28. Rbf1 Kb7 29. c4 Bxf6 30. Rxf6 b4 31. c5 Rg7 32. Qe2 Rh8 33. Qf2 Rhh7
+34. Kh1 Qe7 35. h4 Qe8 36. g3 Qg8 37. Kh2 Nf8 38. Ng2 Nd7 39. Rf4 Nb8 40. Rf6
+Nd7 41. Rf3 1/2-1/2
+
+[Event "Vilafranca del Penedes op 11th"]
+[Site "Vilafranca del Penedes"]
+[Date "2017.04.07"]
+[Round "2"]
+[White "Martinez Gutierrez, Bernat"]
+[Black "Sola Sendra, Francesco"]
+[Result "1-0"]
+[ECO "A33"]
+[WhiteElo "2172"]
+[BlackElo "1969"]
+[PlyCount "33"]
+[EventDate "2017.03.31"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 Nf6 2. g3 e6 3. Bg2 c5 4. Nc3 Nc6 5. e4 Be7 6. Nge2 O-O 7. O-O a6 8. d4
+cxd4 9. Nxd4 Qc7 10. b3 Bc5 11. Nc2 Rd8 12. Bf4 e5 13. Bg5 Qd6 14. Nd5 Nd4 15.
+b4 Nxc2 16. bxc5 Qxc5 17. Qxc2 1-0
+
+[Event "Vilafranca del Penedes op 11th"]
+[Site "Vilafranca del Penedes"]
+[Date "2017.05.12"]
+[Round "6"]
+[White "Barberans Sola, Sebastian"]
+[Black "Sola Sendra, Francesco"]
+[Result "1-0"]
+[ECO "A40"]
+[WhiteElo "2061"]
+[BlackElo "1969"]
+[PlyCount "115"]
+[EventDate "2017.03.31"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 g6 2. Bf4 Bg7 3. e3 c5 4. c3 Qb6 5. Na3 d6 6. Nc4 Qc7 7. dxc5 Qxc5 8.
+Bxd6 exd6 9. Nxd6+ Ke7 10. Ne4 Qc6 11. Nd2 Be6 12. Ngf3 Nd7 13. Nd4 Bxd4 14.
+exd4 Ngf6 15. Be2 Rhe8 16. O-O Nb6 17. c4 Qc8 18. Qb3 Kf8 19. a4 Rb8 20. a5 Na8
+21. Qa3+ Kg8 22. Rfe1 Qd7 23. Qc5 b6 24. Qe5 Ng4 25. Qf4 f5 26. d5 Bf7 27. Bxg4
+fxg4 28. Ne4 Qf5 29. Nf6+ Kg7 30. Nxe8+ Rxe8 31. Qd4+ Qf6 32. Qxf6+ Kxf6 33.
+Rxe8 Bxe8 34. axb6 Nxb6 35. b3 Nc8 36. Ra6+ Ke7 37. Kf1 Bd7 38. Ke1 Bf5 39. Kd2
+Kd7 40. Kc3 Kc7 41. c5 Be4 42. d6+ Kd7 43. Ra4 Bf5 44. g3 Kc6 45. b4 Kb5 46.
+Ra5+ Kc6 47. Kd4 Be6 48. b5+ Kd7 49. Ke5 Bf5 50. Ra4 h6 51. c6+ Kd8 52. d7 Bxd7
+53. Rd4 Kc7 54. Rxd7+ Kb6 55. Rb7+ Kc5 56. Rb8 Nb6 57. Rxb6 Kxb6 58. Kd6 1-0
+
+[Event "Ct. Tarragona indiv."]
+[Site "L'Ampolla-Salou-L'Hospitalet"]
+[Date "2016.04.16"]
+[Round "1"]
+[White "Zurano Lopez, Pedro"]
+[Black "Sola Sendra, Francesc"]
+[Result "1-0"]
+[ECO "E06"]
+[WhiteElo "2297"]
+[BlackElo "1833"]
+[PlyCount "47"]
+[EventDate "2016.??.??"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. g3 e6 3. Bg2 d5 4. Nf3 Be7 5. c4 c6 6. O-O dxc4 7. Ne5 O-O 8. Nxc4
+Nbd7 9. b3 Nb6 10. Bb2 Qc7 11. Nbd2 Nxc4 12. Nxc4 b5 13. Ne5 Nd5 14. Rc1 Bb7
+15. e4 Nb6 16. Nxc6 Bxc6 17. d5 exd5 18. exd5 Rfd8 19. Rxc6 Qxc6 20. dxc6 Rxd1
+21. Rxd1 Rc8 22. Rc1 f6 23. c7 Bd6 24. Rc6 1-0
+
+[Event "Ct. Tarragona indiv."]
+[Site "L'Ampolla-Salou-L'Hospitalet"]
+[Date "2016.06.04"]
+[Round "8"]
+[White "Llort Puig, Joan"]
+[Black "Sola Sendra, Francesc"]
+[Result "0-1"]
+[ECO "B80"]
+[WhiteElo "1861"]
+[BlackElo "1833"]
+[PlyCount "68"]
+[EventDate "2016.??.??"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e6 7. a4 Be7 8. Be2
+O-O 9. O-O Nbd7 10. Qd2 Qc7 11. f3 Ne5 12. b4 Nc4 13. Bxc4 Qxc4 14. b5 Bd7 15.
+Qd3 Rfc8 16. Qxc4 Rxc4 17. Nde2 Rac8 18. Bd2 d5 19. e5 Ne8 20. bxa6 bxa6 21.
+Rfb1 Bc5+ 22. Kf1 Bc6 23. Rb2 Ba7 24. a5 Nc7 25. Nd1 d4 26. c3 Bb5 27. cxd4 Nd5
+28. Ne3 Nxe3+ 29. Bxe3 Rc2 30. Rxc2 Rxc2 31. Re1 h6 32. Kf2 Bb8 33. d5 Bxe5 34.
+Bb6 Bc3 0-1

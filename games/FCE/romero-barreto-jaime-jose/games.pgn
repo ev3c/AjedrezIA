@@ -1,0 +1,230 @@
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.01.17"]
+[Round "1.3"]
+[White "Romero Barreto, Jaime Jose"]
+[Black "Duran Albareda, Xavier"]
+[Result "1/2-1/2"]
+[ECO "B13"]
+[WhiteElo "2371"]
+[BlackElo "2327"]
+[PlyCount "142"]
+[EventDate "2026.??.??"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Bd3 Nc6 5. c3 Nf6 6. Nf3 Bg4 7. h3 Bh5 8. O-O
+e6 9. Bf4 Bd6 10. Bxd6 Qxd6 11. Re1 O-O 12. Nbd2 Rab8 13. a4 Rfc8 14. a5 b6 15.
+axb6 Rxb6 16. b4 Bxf3 17. Nxf3 Nb8 18. Qd2 Qc7 19. Ra3 Rc6 20. Rc1 Nbd7 21. b5
+Rb6 22. c4 Ne4 23. Qb2 e5 24. Bxe4 dxe4 25. Nxe5 Nxe5 26. dxe5 Re6 27. Qd4 Qxe5
+28. Qxa7 Qb2 29. Qe3 f5 30. Qc3 Qe2 31. Ra7 Rg6 32. b6 e3 33. Qxe3 Qxe3 34.
+fxe3 Rxb6 35. Rd1 h6 36. Rdd7 Rg6 37. Rac7 Rb8 38. Rd2 Rb3 39. Kf2 Rc3 40. c5
+h5 41. g3 Re6 42. Rdd7 Rg6 43. Kf3 Rc4 44. Rd4 Rc2 45. Rd6 Kh7 46. Rd5 Rf6 47.
+Rdd7 Rg6 48. Rf7 Rc1 49. Rxf5 Rf1+ 50. Ke4 Rxf5 51. Kxf5 Rxg3 52. Re7 Rxh3 53.
+c6 Rh2 54. c7 Rc2 55. e4 h4 56. Kg4 Kg6 57. Kxh4 Kf6 58. Rd7 Ke5 59. Kg5 Kxe4
+60. Kg6 Ke5 61. Kf7 g5 62. Ke8 g4 63. Kd8 g3 64. c8=Q Rxc8+ 65. Kxc8 Kf4 66.
+Rg7 Kf3 67. Kd7 Kf2 68. Rf7+ Ke2 69. Ke6 g2 70. Rg7 Kf2 71. Rxg2+ Kxg2 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "https://lichess.org/broadcast/lliga-catalana-dh/r2-lira-vendrellenca-vs-mollet/vFZ12Gk0/XaNrl692"]
+[Date "2026.01.24"]
+[Round "2.4"]
+[White "Romero Barreto, Jaime Jose"]
+[Black "Valenzuela Gomez, Fernando"]
+[Result "1/2-1/2"]
+[WhiteElo "2321"]
+[WhiteTitle "IM"]
+[WhiteTeam "Mollet"]
+[WhiteFideId "3902498"]
+[BlackElo "2328"]
+[BlackTitle "IM"]
+[BlackTeam "Lira Vendrellenca"]
+[BlackFideId "3409392"]
+[TimeControl "90+30"]
+[Variant "Standard"]
+[ECO "C07"]
+[Opening "French Defense: Tarrasch Variation, Open System, Euwe-Keres Line"]
+[UTCDate "2026.01.24"]
+[UTCTime "15:30:46"]
+[BroadcastName "Lliga Catalana DH"]
+[BroadcastURL "https://lichess.org/broadcast/lliga-catalana-dh/r2-lira-vendrellenca-vs-mollet/vFZ12Gk0"]
+[GameURL "https://lichess.org/broadcast/lliga-catalana-dh/r2-lira-vendrellenca-vs-mollet/vFZ12Gk0/XaNrl692"]
+
+1. e4 { [%clk 1:23:42] } 1... e6 { [%clk 1:30:38] } 2. d4 { [%clk 1:23:33] } 2... d5 { [%clk 1:30:58] } 3. Nd2 { [%clk 1:23:38] } 3... c5 { [%clk 1:30:56] } 4. Ngf3 { [%clk 1:23:00] } 4... cxd4 { [%clk 1:30:15] } 5. exd5 { [%clk 1:21:53] } 5... Qxd5 { [%clk 1:30:11] } 6. Bc4 { [%clk 1:22:09] } 6... Qd6 { [%clk 1:30:25] } 7. O-O { [%clk 1:20:41] } 7... Nf6 { [%clk 1:30:46] } 8. Nb3 { [%clk 1:20:32] } 8... Nc6 { [%clk 1:30:20] } 9. Nbxd4 { [%clk 1:16:33] } 9... Nxd4 { [%clk 1:30:39] } 10. Nxd4 { [%clk 1:11:37] } 10... Be7 { [%clk 1:29:41] } 11. c3 { [%clk 1:11:20] } 11... O-O { [%clk 1:30:03] } 12. Qf3 { [%clk 1:07:55] } 12... Qc7 { [%clk 1:30:15] } 13. Bd3 { [%clk 1:07:50] } 13... e5 { [%clk 1:28:05] } 14. Nf5 { [%clk 1:00:34] } 14... Bxf5 { [%clk 1:28:27] } 15. Qxf5 { [%clk 1:00:59] } 15... g6 { [%clk 1:27:44] } 16. Qf3 { [%clk 0:58:10] } 16... Kg7 { [%clk 1:26:26] } 17. Bc2 { [%clk 0:56:41] } 17... a5 { [%clk 1:25:44] } 18. Re1 { [%clk 0:55:02] } 18... Rfe8 { [%clk 1:22:57] } 19. Ba4 { [%clk 0:49:55] } 19... Red8 { [%clk 1:21:31] } 20. Qe3 { [%clk 0:47:41] } 20... Bc5 { [%clk 1:05:36] } 21. Qh6+ { [%clk 0:46:43] } 21... Kg8 { [%clk 1:04:43] } 22. h3 { [%clk 0:43:16] } 22... Nh5 { [%clk 0:42:41] } 23. Qg5 { [%clk 0:39:27] } 23... b5 { [%clk 0:36:54] } 24. Bd1 { [%clk 0:34:11] } 24... Qb6 { [%clk 0:26:45] } 25. Be3 { [%clk 0:29:27] } 25... Bxe3 { [%clk 0:22:19] } 26. Qxe3 { [%clk 0:26:55] } 26... Qxe3 { [%clk 0:22:02] } 27. Rxe3 { [%clk 0:27:19] } 27... Rd2 { [%clk 0:18:23] } 28. Rxe5 { [%clk 0:09:16] } 28... Rxb2 { [%clk 0:18:13] } 29. Bf3 { [%clk 0:08:39] } 29... Rc8 { [%clk 0:14:12] } 30. a4 { [%clk 0:07:47] } 30... bxa4 { [%clk 0:14:17] } 31. Bxh5 { [%clk 0:07:39] } 31... gxh5 { [%clk 0:14:36] } 32. Rxa4 { [%clk 0:07:24] } 32... Rxc3 { [%clk 0:14:50] } 33. Rg5+ { [%clk 0:07:37] } 33... Kf8 { [%clk 0:14:58] } 34. Rf5 { [%clk 0:07:59] } 34... h6 { [%clk 0:09:15] } 35. Raxa5 { [%clk 0:06:56] } 35... Rc7 { [%clk 0:08:23] } 36. Rf4 { [%clk 0:05:43] } 36... Rb6 { [%clk 0:08:28] } 37. Rxh5 { [%clk 0:05:53] } 37... Kg7 { [%clk 0:08:34] } 38. Rhf5 { [%clk 0:06:10] } 38... Rg6 { [%clk 0:08:32] } 39. h4 { [%clk 0:05:46] } 39... Rgc6 { [%clk 0:08:41] } 40. g3 { [%clk 0:04:40] } 40... Rc5 { [%clk 0:08:14] } 41. Rf6 { [%clk 0:04:09] } 41... R5c6 { [%clk 0:08:20] } 42. R6f5 { [%clk 0:04:32] } 42... Rc5 { [%clk 0:08:42] } 43. Rg4+ { [%clk 0:04:51] } 43... Kh7 { [%clk 0:08:45] } 44. Rf3 { [%clk 0:05:07] } 44... Rc3 { [%clk 0:08:21] } 45. Rf5 { [%clk 0:05:12] } 45... R3c5 { [%clk 0:08:35] } 46. Rf3 { [%clk 0:05:38] } 46... Rc3 { [%clk 0:08:51] } 47. Rff4 { [%clk 0:05:42] } 47... R3c5 { [%clk 0:08:55] } 48. Rb4 { [%clk 0:04:37] } 48... Rf5 { [%clk 0:08:32] } 49. Rb2 { [%clk 0:04:59] } 49... Rfc5 { [%clk 0:08:12] } 50. Rd4 { [%clk 0:04:49] } 50... Rc4 { [%clk 0:07:50] } 51. Rd3 { [%clk 0:05:13] } 51... Rc3 { [%clk 0:08:06] } 52. Rd8 { [%clk 0:05:16] } 52... Rc8 { [%clk 0:08:07] } 53. Rdd2 { [%clk 0:05:33] } 53... R8c7 { [%clk 0:08:21] } 54. Kg2 { [%clk 0:05:53] } 54... Kg7 { [%clk 0:08:42] } 55. Ra2 { [%clk 0:04:58] } 55... R3c4 { [%clk 0:08:30] } 56. Ra6 { [%clk 0:04:39] } 56... R4c6 { [%clk 0:08:44] } 57. Ra8 { [%clk 0:05:01] } 57... Rc8 { [%clk 0:09:02] } 58. Raa2 { [%clk 0:05:17] } 58... R8c7 { [%clk 0:09:17] } 59. g4 { [%clk 0:04:14] } 59... Rc4 { [%clk 0:09:35] } 60. Kg3 { [%clk 0:04:23] } 60... Rc1 { [%clk 0:09:31] } 61. f3 { [%clk 0:03:40] } 61... R1c5 { [%clk 0:09:01] } 62. Rd8 { [%clk 0:03:36] } 62... Rc8 { [%clk 0:09:20] } 63. Rxc8 { [%clk 0:03:44] } 63... Rxc8 { [%clk 0:09:46] } 64. Ra6 { [%clk 0:04:10] } 64... Rc5 { [%clk 0:09:43] } 65. Ra4 { [%clk 0:03:17] } 65... Rc1 { [%clk 0:07:17] } 66. Ra5 { [%clk 0:02:52] } 66... Rg1+ { [%clk 0:07:22] } 67. Kh2 { [%clk 0:02:33] } 67... Rb1 { [%clk 0:07:34] } 68. g5 { [%clk 0:02:31] } 68... hxg5 { [%clk 0:06:23] } 69. hxg5 { [%clk 0:02:56] } 69... f6 { [%clk 0:06:09] } 70. Kg3 { [%clk 0:02:41] } 70... fxg5 { [%clk 0:06:08] } 71. Rxg5+ { [%clk 0:02:45] } 71... Kf6 { [%clk 0:06:29] } 72. Ra5 { [%clk 0:03:12] } 72... Rb4 { [%clk 0:06:50] } 73. Ra6+ { [%clk 0:03:38] } 73... Ke5 { [%clk 0:07:03] } 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.02.07"]
+[Round "4.4"]
+[White "Romero Barreto, Jaime Jose"]
+[Black "Beltran Rueda, Santiago"]
+[Result "1-0"]
+[ECO "C44"]
+[WhiteElo "2320"]
+[BlackElo "2278"]
+[WhiteFideId "-1"]
+[BlackFideId "-1"]
+[PlyCount "35"]
+[GameId "2275322082123968"]
+[EventDate "2026.01.17"]
+[WhiteTeam "Mollet"]
+[BlackTeam "Foment Martinenc"]
+
+1. e4 e5 2. Nf3 Nf6 3. d3 Nc6 4. Be2 d5 5. Nbd2 Bc5 6. O-O O-O 7. c3 a5 8. b3 Re8 9. a3 d4 10. c4 Bf8 11. Ne1 Nd7 12. g3 Nc5 13. f4 exf4 14. gxf4 f5 15. Bf3 fxe4 16. Nxe4 Bh3 17. Ng5 Be6 18. f5 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "Spain"]
+[Date "2026.02.14"]
+[Round "5.4"]
+[White "Triadu Cassa, Jordi"]
+[Black "Romero Barreto, Jaime Jose"]
+[Result "1/2-1/2"]
+[WhiteElo "2090"]
+[BlackElo "2320"]
+[PlyCount "67"]
+[EventDate "2026.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. c3
+d6 9. h3 Na5 10. Bc2 c5 11. d4 Qc7 12. Nbd2 Nc6 13. d5 Nd8 14. a4 Rb8 15. axb5
+axb5 16. b3 Ne8 17. Nf1 g6 18. Bh6 Ng7 19. g4 f6 20. Ng3 Nf7 21. Be3 Bd7 22.
+Kh2 Ra8 23. Qe2 Qb7 24. Bd3 Ra6 25. Rxa6 Qxa6 26. Rb1 Ra8 27. Qb2 Bd8 28. Qc1
+Qa3 29. Qxa3 Rxa3 30. Bc1 Ra2 31. Rb2 Ra1 32. Rb1 Ra2 33. Rb2 Ra1 34. Rb1
+1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "Spain"]
+[Date "2026.02.21"]
+[Round "6.4"]
+[White "Romero Barreto, Jaime Jose"]
+[Black "Ramirez Garcia, Jorge Alberto"]
+[Result "0-1"]
+[WhiteElo "2320"]
+[BlackElo "2203"]
+[PlyCount "106"]
+[EventDate "2026.01.17"]
+
+1. e4 c5 2. c3 d5 3. exd5 Qxd5 4. d4 cxd4 5. cxd4 Nc6 6. Nf3 e5 7. Nc3 Bb4 8.
+Bd2 Bxc3 9. Bxc3 e4 10. Ne5 Nxe5 11. dxe5 Ne7 12. Qa4+ Bd7 13. Qa3 Qe6 14. Rd1
+O-O 15. Be2 Bc6 16. h3 Ng6 17. Bg4 Qc4 18. Be2 Qa4 19. Qxa4 Bxa4 20. b3 Bc6 21.
+Bg4 Rfe8 22. Bd7 Bxd7 23. Rxd7 Rac8 24. Kd2 b5 25. Rc1 Nf4 26. Bd4 Rxc1 27.
+Kxc1 h5 28. Bxa7 Nxg2 29. a4 bxa4 30. bxa4 Rxe5 31. Bb6 e3 32. fxe3 Nxe3 33.
+Bc7 Rc5+ 34. Kb2 Nd5 35. Bd6 Ra5 36. Kb3 Nb6 37. Rd8+ Kh7 38. Bc7 Ra6 39. Rd6
+Nxa4 40. Rxa6 Nc5+ 41. Kc4 Nxa6 42. Bd6 Kg6 43. Kb5 Kf5 44. Kxa6 g5 45. Kb5 Ke4
+46. Kc4 f5 47. Kc3 Ke3 48. Bc5+ Kf3 49. Kd2 h4 50. Ke1 Kg2 51. Be7 g4 52. hxg4
+h3 53. Bd6 fxg4 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.02.28"]
+[Round "7.5"]
+[White "Romero Barreto, Jaime Jose"]
+[Black "Pinsach Gelabert, Alexandre"]
+[Result "1-0"]
+[ECO "A00"]
+[WhiteElo "2311"]
+[BlackElo "2196"]
+[PlyCount "99"]
+[EventDate "2026.01.27"]
+
+1. g3 d5 2. Bg2 Nf6 3. c4 d4 4. d3 c5 5. Nf3 Nc6 6. O-O e5 7. e3 Be7 8. exd4
+exd4 9. Bf4 O-O 10. Ne5 Nxe5 11. Bxe5 Bd6 12. Bxf6 Qxf6 13. Nd2 Bf5 14. Ne4
+Bxe4 15. Bxe4 Rab8 16. Re1 g6 17. Qa4 a6 18. Re2 Bc7 19. Bd5 Qd6 20. Rae1 b5
+21. Qa3 Kg7 22. b3 Bd8 23. Re4 Bf6 24. h4 h5 25. Qa5 Bd8 26. Qd2 Qd7 27. f4 Bf6
+28. Qe2 Qh3 29. Qf2 Qf5 30. Qf3 Qg4 31. Qg2 Qf5 32. Qf3 Qg4 33. Qxg4 hxg4 34.
+cxb5 axb5 35. Rc1 Rbc8 36. a4 Rfd8 37. Bb7 Rb8 38. Bc6 c4 39. Bxb5 cxb3 40. Rb1
+Rdc8 41. Rxb3 Bd8 42. Rb2 Rc1+ 43. Kg2 Rbc8 44. Bc4 Ba5 45. Re7 R8xc4 46. dxc4
+d3 47. Rbb7 d2 48. Rxf7+ Kg8 49. Rfd7 d1=Q 50. Rb8+ 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.03.07"]
+[Round "8.3"]
+[White "Romero Barreto, Jaime Jose"]
+[Black "Kozlov, Gennady"]
+[Result "1-0"]
+[ECO "A07"]
+[WhiteElo "2311"]
+[BlackElo "2413"]
+[PlyCount "115"]
+[EventDate "2026.??.??"]
+[WhiteTeam "MOLLET"]
+[BlackTeam "Platja D'Aro"]
+
+1. Nf3 d5 2. g3 c6 3. Bg2 Nf6 4. O-O Bf5 5. d3 h6 6. b3 e6 7. Bb2 Be7 8. Nbd2
+O-O 9. Qe1 Bh7 10. Ne5 Nbd7 11. Nxd7 Qxd7 12. e4 dxe4 13. Nxe4 Nxe4 14. Bxe4
+Qd8 15. Rd1 Bf6 16. Bxf6 Qxf6 17. Bxh7+ Kxh7 18. Qb4 Rab8 19. Qe4+ Kg8 20. d4
+Rfd8 21. Rd3 Rd5 22. Rfd1 Rbd8 23. Kg2 Rf5 24. R1d2 h5 25. h4 Qg6 26. Rf3 Rxf3
+27. Qxf3 Rd5 28. Qf4 Kh7 29. Rd3 Rf5 30. Qd2 Qg4 31. c4 Qg6 32. Rf3 Rxf3 33.
+Kxf3 Qg4+ 34. Kg2 Qe4+ 35. Kh2 f6 36. a4 Kg6 37. Qd1 Kh6 38. Qd2+ Kg6 39. Qd1
+a6 40. a5 Qf5 41. Qe1 Qf3 42. b4 Kf7 43. Qe3 Qd1 44. Kg2 Qc2 45. Qf3 Kg6 46. c5
+Qc4 47. Qe4+ Kf7 48. Qh7 Qd5+ 49. Kg1 Qf3 50. Qh8 Kg6 51. Qc8 Kf5 52. Qxb7 Kg4
+53. Qxa6 Qd1+ 54. Qf1 Qxd4 55. Qe2+ Kf5 56. Qxh5+ g5 57. hxg5 fxg5 58. Qf7+ 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "Spain"]
+[Date "2026.03.21"]
+[Round "10.4"]
+[White "Villa Tornero, Alex"]
+[Black "Romero Barreto, Jaime Jose"]
+[Result "0-1"]
+[WhiteElo "2423"]
+[BlackElo "2311"]
+[PlyCount "102"]
+[EventDate "2026.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 f5 4. d3 fxe4 5. dxe4 Nf6 6. Nc3 Bc5 7. Bg5 d6 8.
+Nd5 Bxf2+ 9. Kf1 Bb6 10. Nxe5 O-O 11. Nf3 Ne5 12. Ke1 c6 13. Nxb6 Qxb6 14. Nxe5
+Qxb5 15. Bxf6 Qb4+ 16. c3 Qxe4+ 17. Qe2 Qxe2+ 18. Kxe2 Rxf6 19. Nd3 Bf5 20.
+Rhf1 Raf8 21. Nf2 Be6 22. b3 Bd5 23. Ng4 Rxf1 24. Rxf1 Bxg2 25. Nh6+ gxh6 26.
+Rg1 Rf5 27. Rxg2+ Kf7 28. Ke3 d5 29. a4 a5 30. c4 b6 31. cxd5 Rxd5 32. Rg3 Rh5
+33. h3 Rd5 34. Ke4 Ke6 35. Rf3 Re5+ 36. Kd4 Rf5 37. Rg3 Rf4+ 38. Kd3 Kd5 39.
+Re3 Rf5 40. Rg3 Kc5 41. Kc3 h5 42. h4 h6 43. Re3 Kd5 44. Rd3+ Ke5 45. Re3+ Kf6
+46. Re8 Rf3+ 47. Kc2 Rf4 48. Rb8 Rb4 49. Rh8 Kg6 50. Rd8 Kf5 51. Rd6 c5 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "https://lichess.org/broadcast/"]
+[Date "2026.04.11"]
+[Round "11.2"]
+[White "Romero Barreto, Jaime Jose"]
+[Black "Alonso Garcia, Aaron"]
+[Result "0-1"]
+[ECO "C00"]
+[WhiteElo "2327"]
+[BlackElo "2432"]
+[PlyCount "107"]
+[EventDate "2026.??.??"]
+[WhiteTeam "C.E.Mollet"]
+[BlackTeam "C.E.Barcelona"]
+
+1. e4 e6 2. Nf3 d5 3. Nc3 d4 4. Ne2 c5 5. c3 Nf6 6. e5 Nfd7 7. cxd4 cxd4 8.
+Nexd4 Nxe5 9. Bb5+ Nec6 10. O-O Bd7 11. Nb3 Bd6 12. d4 Nb4 13. Be2 O-O 14. Bg5
+f6 15. Bd2 N8c6 16. Nc5 b6 17. Bxb4 Nxb4 18. Nxd7 Qxd7 19. Qb3 Nd5 20. Rfe1 Bb4
+21. Rec1 a5 22. a3 a4 23. Qc4 Be7 24. Qc6 Rfd8 25. Qxd7 Rxd7 26. Rc6 Kf7 27.
+Bc4 b5 28. Ba2 Raa7 29. Re1 Bd6 30. Nd2 Rac7 31. Bxd5 exd5 32. Rec1 Rb7 33. Ra6
+Bf4 34. Rd1 Rd6 35. Rxd6 Bxd6 36. Nb1 b4 37. axb4 Bxb4 38. Rc1 Ba5 39. Rc2 Rb4
+40. Kf1 Rxd4 41. Ke2 Rc4 42. Na3 Rb4 43. Kd3 Bb6 44. Re2 Rb3+ 45. Kc2 Bd4 46.
+Kc1 Bxb2+ 47. Rxb2 Rxa3 48. Rb7+ Kg6 49. Kd2 Ra2+ 50. Ke3 d4+ 51. Kf3 d3 52.
+Rd7 Rb2 53. Ke3 d2 54. Kd4 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.01.31"]
+[Round "3.4"]
+[White "MOSKALENKO, VIKTOR."]
+[Black "ROMERO BARRETO, JAIME JOS�."]
+[Result "1-0"]
+[ECO "D02"]
+[PlyCount "131"]
+[EventDate "2026.??.??"]
+[WhiteTeam "Sabadell"]
+[BlackTeam "Mollet"]
+
+1. d4 d5 2. Nf3 Nf6 3. Bf4 e6 4. e3 c5 5. c3 Bd6 6. Bb5+ Nc6 7. Bxc6+ bxc6 8.
+Bxd6 Qxd6 9. Qa4 Nd7 10. Nbd2 O-O 11. Qa3 Qb8 12. O-O Qb6 13. b4 c4 14. Rfb1 f6
+15. e4 a6 16. Re1 g5 17. h3 h6 18. Qc1 Rf7 19. Nf1 e5 20. Ng3 dxe4 21. Nxe4
+exd4 22. Nxd4 c5 23. Nf5 Rh7 24. Nfd6 cxb4 25. cxb4 Qc6 26. Qc3 Bb7 27. Rad1
+Rf8 28. Nxb7 Qxb7 29. Qxc4+ Kh8 30. Qd4 Qc7 31. a4 Re7 32. Nc5 Ne5 33. Nxa6 Qc8
+34. b5 Rfe8 35. Rf1 g4 36. hxg4 Nxg4 37. Qc5 Qe6 38. Nc7 Qc8 39. b6 Re5 40. Rd5
+Rg8 41. Rxe5 Nxe5 42. Qd5 Qg4 43. f4 Nc4 44. Qf3 Qd7 45. Qd5 Qg4 46. Qf3 Qd7
+47. Rd1 Qxa4 48. b7 Qa5 49. Nd5 Qa7+ 50. Qf2 Qxb7 51. Rd4 Qa6 52. Ne7 Re8 53.
+Nf5 Qe6 54. Nxh6 Qe1+ 55. Qxe1 Rxe1+ 56. Kf2 Rc1 57. g4 Rc2+ 58. Kg3 Ne3 59.
+Rd7 Rc3 60. Kf2 Nc2 61. Nf5 Nb4 62. Ne3 Kg8 63. Ke2 Ra3 64. Nf5 Ra5 65. Kf3 Nd5
+66. Rxd5 {1-0 White wins.} 1-0

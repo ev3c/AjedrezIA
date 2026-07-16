@@ -1,0 +1,160 @@
+[Event "C. E. Sabadell-C. E. Manresa m amistos"]
+[Site "Sabadell"]
+[Date "1933.02.??"]
+[Round "?"]
+[White "Perez Aguirre, J."]
+[Black "Ros, Fernando"]
+[Result "1-0"]
+[ECO "D02"]
+[PlyCount "53"]
+[EventDate "1933.02.25"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 e6 3. e3 c5 4. c3 a6 5. Nbd2 Nf6 6. Bd3 Nc6 7. O-O c4 8. Bc2
+Bd7 9. Re1 b5 10. e4 dxe4 11. Nxe4 Be7 12. Bf4 O-O 13. Nxf6+ Bxf6 14. Be4 Rc8
+15. Qc2 g6 16. Ne5 Nxe5 17. Bxe5 Bxe5 18. dxe5 Bc6 19. Rad1 Bxe4 20. Qxe4 Qa5
+21. a3 Rcd8 22. h4 Rxd1 23. Rxd1 Rd8 24. Rd6 Rxd6 25. exd6 Qb6 26. Qa8+ Kg7 27.
+d7 1-0
+
+[Event "Sabadell Int"]
+[Site "Sabadell"]
+[Date "1945.08.07"]
+[Round "6"]
+[White "Ros, Fernando"]
+[Black "Valles Bergada, Vicente"]
+[Result "1/2-1/2"]
+[ECO "C88"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "80"]
+[EventDate "1945.08.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. a4
+Bb7 9. Nc3 b4 (9... Nd4 $142) 10. Nd5 Na5 11. c3 (11. Nxe5 $2 Nxb3 12. cxb3
+Nxd5 13. exd5 Bxd5 $15) (11. Ba2) 11... c5 $2 (11... bxc3 $142 12. bxc3 Nxb3
+13. Qxb3 Rb8 $11) 12. Nxe5 d6 13. Nc4 $2 (13. Nxf6+ $1 Bxf6 14. Ng4 $14) 13...
+Bxd5 (13... Nxb3 $142 14. Nxe7+ Qxe7 15. Qxb3 d5 $13) 14. Nxa5 Bxe4 15. d3 Qxa5
+16. cxb4 cxb4 $2 (16... Qxb4 $142) 17. dxe4 Rfe8 18. Bf4 Bf8 19. Qd3 Rac8 20.
+Bc4 Rc6 21. b3 Nd7 22. Rac1 Rec8 23. Qd5 Qxd5 24. Bxd5 Rxc1 25. Rxc1 Rxc1+ 26.
+Bxc1 $16 Be7 27. Be3 Bd8 28. Kf1 Kf8 29. Ke2 Ke7 30. Bd4 f6 31. f4 a5 32. Kd3
+Bb6 33. Bc6 (33. Bb2 $142) 33... Bxd4 34. Kxd4 Nb6 35. g4 h6 36. h4 Ke6 37. h5
+Ke7 38. Bb5 Ke6 39. Bc6 Ke7 40. Bb5 Ke6 1/2-1/2
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "Barcelona"]
+[Date "1946.04.09"]
+[Round "5"]
+[White "Ros, Fernando"]
+[Black "Ribera Arnal, Angel"]
+[Result "0-1"]
+[ECO "D44"]
+[PlyCount "80"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 e6 3. c4 c6 4. Nc3 Nf6 5. Bg5 dxc4 6. a4 Bb4 7. Qc2 b5 8. e3
+Bb7 9. axb5 cxb5 10. b3 Qc8 11. bxc4 Ne4 12. Ra3 Nxc3 13. Rxc3 bxc4 14. Be2 O-O
+15. O-O Bxc3 16. Qxc3 Nd7 17. Qc2 Qc6 18. Ne1 Rfc8 19. f4 f6 20. Bh4 f5 21. Rf3
+Qb5 22. Rg3 Be4 23. Qc1 Rab8 24. Qa3 Qb4 25. Qxa7 Rb7 26. Qa6 Nf8 27. Rg5 Qb6
+28. Bxc4 Rc6 29. Qa2 Qb2 30. Qxb2 Rxb2 31. Bf1 h6 32. Rh5 g6 33. Rxh6 Kg7 34.
+Bg5 Rc1 35. Nf3 Bd3 36. h4 Rxf1+ 37. Kh2 Rxf3 38. h5 Rff2 39. hxg6 Rxg2+ 40.
+Kh3 Rh2+ 0-1
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "Barcelona"]
+[Date "1946.04.29"]
+[Round "13"]
+[White "Ros, Fernando"]
+[Black "Llorens Llorens, Rafael"]
+[Result "0-1"]
+[ECO "D02"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "100"]
+[EventDate "1946.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. d4 d5 3. Nbd2 g6 4. g3 Bg7 5. Bg2 O-O 6. O-O c6 7. c3 Bf5 8. Nh4
+Be6 9. Re1 Nbd7 10. e4 dxe4 11. Nxe4 Nxe4 12. Bxe4 Bd5 13. Bxd5 cxd5 14. Qb3
+Nb6 15. Bd2 Nc4 16. Rad1 b6 17. Bc1 Qd7 18. Kg2 Rac8 19. Nf3 Qb7 20. Re2 a5 21.
+Rde1 Rfe8 22. Kg1 e6 23. Bf4 b5 24. Ne5 Nxe5 25. Bxe5 Rc4 26. Bxg7 Kxg7 27. a3
+Rec8 28. Re3 R8c7 29. Rd1 b4 30. axb4 axb4 31. Rdd3 bxc3 32. Qxb7 c2 $5 (32...
+Rxb7 33. bxc3 Rb2 34. Kf1 $15) 33. Qb3 c1=Q+ 34. Rd1 Qc2 35. Qxc2 Rxc2 36. b3
+Rb2 37. Rdd3 h5 38. h4 Rcc2 39. Rf3 Rc1+ 40. Kg2 Rbb1 41. Rfe3 Rb2 42. Rf3 Kf8
+43. Rf6 $2 Rbb1 44. Kf3 $2 (44. Re3 $142) 44... Ke7 {Y el blanco abandonó (?).
+Podía seguir...} 45. Rf4 f6 46. Re3 (46. Ke2 $2 Rc2+ 47. Rd2 Rxd2+ 48. Kxd2
+Rxb3 $17) 46... Rd1 47. g4 g5 $1 48. hxg5 fxg5 49. Rf5 hxg4+ 50. Kxg4 Rxd4+ $17
+0-1
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1948.03.28"]
+[Round "4"]
+[White "Ribera Arnal, Angel"]
+[Black "Ros, Fernando"]
+[Result "1-0"]
+[ECO "A92"]
+[PlyCount "109"]
+[EventDate "1948.??.??"]
+[EventType "tourn"]
+[EventRounds "17"]
+[EventCountry "ESP"]
+
+1. d4 f5 2. Nf3 e6 3. g3 Nf6 4. Bg2 Be7 5. O-O O-O 6. c4 d5 7. Nc3 Qe8 8. Qb3
+c6 9. Bf4 h6 10. Rad1 g5 11. Bxb8 Rxb8 12. Ne5 Kg7 13. f3 f4 14. e4 fxe3 15.
+Ne2 c5 16. Qxe3 b6 17. f4 cxd4 18. Nxd4 g4 19. Qe2 h5 20. cxd5 exd5 21. Nec6
+Rb7 22. Rfe1 Bc5 23. Qxe8 Rxe8 24. Rxe8 Nxe8 25. b4 Bxd4+ 26. Rxd4 Nf6 27. Bxd5
+Bf5 28. Bg2 Rc7 29. b5 h4 30. gxh4 Bd7 31. Ra4 Bxc6 32. bxc6 Kf7 33. f5 Ke7 34.
+Rd4 Rc8 35. Kf2 b5 36. Kg3 a5 37. a3 Rb8 38. Rd1 b4 39. axb4 axb4 40. c7 Rc8
+41. Rc1 Kd6 42. Rc6+ Ke7 43. Kf4 b3 44. Rc3 b2 45. Rb3 Rxc7 46. Rxb2 Rc4+ 47.
+Kg5 Nh7+ 48. Kg6 Nf8+ 49. Kg7 Nd7 50. f6+ Ke6 51. Re2+ Ne5 52. f7 Rc7 53. Rxe5+
+Kxe5 54. h5 Ke6 55. Kg8 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1948.03.29"]
+[Round "5"]
+[White "Ros, Fernando"]
+[Black "Llorens Llorens, Rafael"]
+[Result "0-1"]
+[ECO "E06"]
+[PlyCount "132"]
+[EventDate "1948.??.??"]
+[EventType "tourn"]
+[EventRounds "17"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 c5 5. cxd5 Nxd5 6. Bg2 Nc6 7. O-O Be7 8.
+dxc5 Bxc5 9. a3 O-O 10. Qc2 Be7 11. Rd1 Bd7 12. Nc3 Rc8 13. Bd2 Qe8 14. Qd3
+Nxc3 15. Bxc3 Rd8 16. Rd2 Bc8 17. Qc2 Rxd2 18. Qxd2 Qd7 19. Rd1 Qxd2 20. Rxd2
+f6 21. Ne1 Kf7 22. Nc2 Bc5 23. Kf1 e5 24. Bd5+ Be6 25. Bxe6+ Kxe6 26. e3 Rd8
+27. Rxd8 Nxd8 28. e4 Kd6 29. Ke2 Ne6 30. Ne3 g6 31. Nc2 Kc6 32. b4 Bb6 33. a4
+a6 34. h4 g5 35. f3 Ba7 36. Bb2 Kd7 37. Bc3 Kc6 38. Ne3 Bd4 39. Nd5 Bxc3 40.
+Nxc3 Nd4+ 41. Kf2 Kd6 42. Nd5 Ke6 43. Nc7+ Kd7 44. Nd5 Kd6 45. Ke3 Ke6 46. Kf2
+gxh4 47. gxh4 f5 48. Ke3 Nc6 49. b5 f4+ 50. Kf2 axb5 51. axb5 Ne7 52. Nc7+ Kd7
+53. b6 Kc6 54. Ne8 Kxb6 55. Nf6 Ng6 56. Nxh7 Nxh4 57. Nf6 Kc6 58. Ng4 Kd6 59.
+Ke2 b5 60. Nf6 Kc5 61. Nd7+ Kd4 62. Nb8 b4 63. Nc6+ Kc3 64. Nxe5 b3 65. Nd3
+Nxf3 66. Nc5 Ne5 0-1
+
+[Event "Camp. Catalunya indiv. ( 1 cat. )"]
+[Site "?"]
+[Date "1970.??.??"]
+[Round "?"]
+[White "Ros, Fernando"]
+[Black "Casanovas"]
+[Result "1-0"]
+[ECO "E80"]
+[PlyCount "73"]
+[EventDate "1970.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 Nc6 6. Be3 e5 7. d5 Ne7 8. g4 h6
+9. h4 Nh7 10. Qd2 Ng8 11. Bd3 Qe7 12. O-O-O Bd7 13. Nge2 f6 14. Ng3 b6 15. Kb1
+Qf8 16. Rc1 Kf7 17. Qe2 Qc8 18. Rcg1 Ne7 19. Qd2 Nf8 20. g5 Ng8 21. f4 exf4 22.
+Bxf4 hxg5 23. hxg5 Rxh1 24. Rxh1 Qd8 25. Nge2 Bg4 26. Nd4 Nd7 27. Nc6 Qc8 28.
+e5 dxe5 29. Bxe5 Qe8 30. Bxc7 Qc8 31. Bd6 Bf8 32. Bxf8 Qxf8 33. gxf6 Ngxf6 34.
+Qg5 Bf5 35. Bxf5 gxf5 36. Qxf5 Kg8 37. Rg1+ 1-0

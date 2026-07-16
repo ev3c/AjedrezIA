@@ -1,0 +1,304 @@
+[Event "Catalunya-chT Gp2"]
+[Site "Barcelona"]
+[Date "2017.01.21"]
+[Round "1.1"]
+[White "Aroshidze, Levan"]
+[Black "Jobava, Baadur"]
+[Result "0-1"]
+[ECO "B12"]
+[WhiteElo "2517"]
+[BlackElo "2701"]
+[PlyCount "88"]
+[EventDate "2017.01.21"]
+[EventType "team-tourn"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 176 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.03.02"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.03.02"]
+[SourceQuality "1"]
+[WhiteTeam "Banyoles"]
+[BlackTeam "Barceloan Escola"]
+[WhiteTeamCountry "ESP"]
+[BlackTeamCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 f6 6. O-O fxe5 7. dxe5 Bc5 8. c4
+Ne7 9. Nc3 O-O 10. Na4 b6 11. Bd2 Ng6 12. cxd5 exd5 13. Nxc5 bxc5 14. Qa4 Qb6
+15. Be3 Nd7 16. b4 Qxb4 17. Qxc6 d4 18. Qd5+ Kh8 19. Bd2 Qb6 20. a4 Rae8 21. a5
+Qb2 22. Rae1 Ngxe5 23. Bf4 Be6 24. Qe4 Ng6 25. Bd6 Bc4 26. Qc6 Bxe2 27. Bxf8
+Ngxf8 28. Ng5 Qa2 29. Ra1 Qg8 30. Rfe1 d3 31. Qd6 h6 32. Nf3 Re6 33. Qd5 Rf6
+34. Qxg8+ Kxg8 35. Nd2 Ne6 36. Rab1 Nd8 37. f3 Rf4 38. Rec1 Kf7 39. Ne4 Rxe4
+40. fxe4 d2 41. Rd1 Bxd1 42. Rxd1 Ke6 43. Rxd2 Nc6 44. a6 Nb4 0-1
+
+[Event "Catalunya-chT Gp2"]
+[Site "Barcelona"]
+[Date "2017.01.28"]
+[Round "2.1"]
+[White "Jobava, Baadur"]
+[Black "Lopez Martinez, Josep Manuel"]
+[Result "1-0"]
+[ECO "C15"]
+[WhiteElo "2701"]
+[BlackElo "2552"]
+[PlyCount "35"]
+[EventDate "2017.01.21"]
+[EventType "team-tourn"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 176 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.03.02"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.03.02"]
+[SourceQuality "1"]
+[WhiteTeam "Barceloan Escola"]
+[BlackTeam "Barbera"]
+[WhiteTeamCountry "ESP"]
+[BlackTeamCountry "ESP"]
+
+1. d4 e6 2. e4 d5 3. Nc3 Bb4 4. Nge2 dxe4 5. a3 Be7 6. Nxe4 Nf6 7. Nxf6+ Bxf6
+8. Be3 b6 9. Nf4 Bb7 10. Qg4 g6 11. Bb5+ c6 12. Bc4 Qd6 13. O-O-O Nd7 14. Nxe6
+fxe6 15. Bf4 Qe7 16. Rhe1 O-O-O 17. Rxe6 Qf8 18. Rxc6+ 1-0
+
+[Event "Catalunya-chT Gp2"]
+[Site "Barcelona"]
+[Date "2017.02.04"]
+[Round "3.1"]
+[White "Lupulescu, Constantin"]
+[Black "Jobava, Baadur"]
+[Result "1/2-1/2"]
+[ECO "E70"]
+[WhiteElo "2625"]
+[BlackElo "2701"]
+[PlyCount "69"]
+[EventDate "2017.01.21"]
+[EventType "team-tourn"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 176 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.03.02"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.03.02"]
+[SourceQuality "1"]
+[WhiteTeam "Colon Sabadell"]
+[BlackTeam "Barceloan Escola"]
+[WhiteTeamCountry "ESP"]
+[BlackTeamCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 O-O 5. Be3 c6 6. f3 d5 7. e5 Ne8 8. f4 Nc7
+9. Nf3 dxc4 10. Bxc4 Nd7 11. Bb3 Nb6 12. h4 Ncd5 13. Qd2 h5 14. Ne4 a5 15. a3
+a4 16. Ba2 Bf5 17. Ng3 e6 18. Nxf5 exf5 19. Bf2 Nc7 20. O-O Nbd5 21. Rac1 Ne6
+22. g3 Re8 23. Rfd1 Re7 24. Qc2 Rd7 25. Rd2 Bf8 26. Rcd1 Be7 27. Ne1 Qa5 28.
+Nd3 Rad8 29. Nc5 Bxc5 30. dxc5 Kf8 31. Rd3 Ke7 32. Kh2 Ke8 33. Kg1 Ke7 34. Kh2
+Ke8 35. Kg1 1/2-1/2
+
+[Event "Magistral Casino Ciutat de Barcelona"]
+[Site "?"]
+[Date "2008.10.30"]
+[Round "1"]
+[White "Narciso Dublan, Marc"]
+[Black "Jobava, Baadur"]
+[Result "0-1"]
+[ECO "B18"]
+[WhiteElo "2511"]
+[BlackElo "2664"]
+[PlyCount "115"]
+[EventDate "2008.??.??"]
+[EventRounds "9"]
+[EventCategory "14"]
+
+1. e4 c6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Bf5 5. Nc5 Qc8 6. Bd3 Bg6 7. Nf3 Nf6 8.
+Ne5 e6 9. Bf4 Bxc5 10. dxc5 O-O 11. Nxg6 hxg6 12. Bd6 Re8 13. h4 e5 14. h5 gxh5
+15. Rxh5 e4 16. Bc4 Nbd7 17. Rf5 e3 18. Qd4 Nb6 19. Bd3 Nbd5 20. O-O-O Qe6 21.
+Re5 Qg4 22. fxe3 Rxe5 23. Bxe5 Re8 24. Qxg4 Nxg4 25. Bd4 Ndxe3 26. Re1 Re6 27.
+Re2 Nf5 28. Bg1 Ng3 29. Rxe6 fxe6 30. Kd2 Kf7 31. Bd4 Nf5 32. c3 Kg6 33. b4 e5
+34. Bg1 Kg5 35. b5 Nf6 36. b6 a5 37. Bc4 Ne7 38. Be6 Nfd5 39. g3 Kf6 40. Bd7
+Kf7 41. Kd3 Nf6 42. Bh3 g5 43. Bf2 g4 44. Bg2 Nf5 45. a4 Ng7 46. Bf1 Ne6 47.
+Be2 Kg6 48. Bd1 Kf5 49. Bc2 e4+ 50. Kc4 Ng5 51. Be3 Nf3 52. Kb3 Nh5 53. Bf2
+Nd2+ 54. Kb2 Nf1 55. Bb3 e3 56. Be1 Nfxg3 57. Bf7 Nf6 58. Be8 0-1
+
+[Event "Magistral Casino Ciutat de Barcelona"]
+[Site "?"]
+[Date "2008.10.31"]
+[Round "2"]
+[White "Jobava, Baadur"]
+[Black "Hernandez, Holden"]
+[Result "1-0"]
+[ECO "B96"]
+[WhiteElo "2664"]
+[BlackElo "2580"]
+[PlyCount "69"]
+[EventDate "2008.??.??"]
+[EventRounds "9"]
+[EventCategory "14"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Nbd7 8. Qe2
+Qc7 9. g4 b5 10. Bxf6 gxf6 11. O-O-O b4 12. Nd5 exd5 13. exd5+ Be7 14. Re1 Nb8
+15. h4 Ra7 16. g5 f5 17. Rh3 Qc5 18. Nb3 Qxd5 19. Re3 Be6 20. Rd1 Qb7 21. Nd4
+Bc8 22. Bg2 Qb6 23. Bd5 Rf8 24. h5 Kd8 25. h6 a5 26. Kb1 a4 27. Qh5 Qc5 28.
+Bxf7 Nc6 29. Nxc6+ Qxc6 30. g6 hxg6 31. Qxg6 Rc7 32. Re2 d5 33. Rxd5+ Bd7 34.
+Qg7 Qf6 35. Qxf8+ 1-0
+
+[Event "Magistral Casino Ciutat de Barcelona"]
+[Site "?"]
+[Date "2008.11.01"]
+[Round "3"]
+[White "Lopez Martinez, Jose Manuel"]
+[Black "Jobava, Baadur"]
+[Result "0-1"]
+[ECO "B63"]
+[WhiteElo "2548"]
+[BlackElo "2664"]
+[PlyCount "88"]
+[EventDate "2008.??.??"]
+[EventRounds "9"]
+[EventCategory "14"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Bg5 e6 7. Qd2 Qb6 8.
+O-O-O Qxd4 9. Qxd4 Nxd4 10. Rxd4 a6 11. f3 Be7 12. Rd2 Bd7 13. Bf4 Nh5 14. Be3
+Bc6 15. Ne2 Nf6 16. Nd4 d5 17. Nxc6 bxc6 18. Bd3 Nd7 19. c4 d4 20. Bxd4 Bg5 21.
+c5 e5 22. Bf2 Ke7 23. Kc2 Bxd2 24. Kxd2 Rhd8 25. Rc1 Nf8 26. Rc3 Ne6 27. g3 a5
+28. Ra3 h5 29. Be3 h4 30. g4 Nd4 31. Bxd4 Rxd4 32. Rc3 a4 33. Ra3 Ra5 34. Rc3
+Ra7 35. Ra3 Kf6 36. Ke3 Ra5 37. b3 Rb4 38. f4 exf4+ 39. Kxf4 g5+ 40. Ke3 Ke5
+41. h3 f6 42. Kd2 Kd4 43. Bc2 Rxc5 44. bxa4 Rb2 0-1
+
+[Event "Magistral Casino Ciutat de Barcelona"]
+[Site "?"]
+[Date "2008.11.02"]
+[Round "4"]
+[White "Jobava, Baadur"]
+[Black "Dreev, Alexey"]
+[Result "0-1"]
+[ECO "B66"]
+[WhiteElo "2664"]
+[BlackElo "2670"]
+[PlyCount "50"]
+[EventDate "2008.??.??"]
+[EventRounds "9"]
+[EventCategory "14"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bg5 e6 7. Qd2 a6 8.
+O-O-O Be7 9. f4 Nxd4 10. Qxd4 b5 11. Bxf6 gxf6 12. Be2 Rb8 13. Bh5 b4 14. Ne2
+Qa5 15. f5 Qxa2 16. fxe6 Bxe6 17. Nf4 O-O 18. Kd2 Qa5 19. Nd5 Bxd5 20. exd5 f5
+21. h4 Qd8 22. Qd3 Bf6 23. Kc1 Bg7 24. Qxf5 Qa5 25. Kd2 Rbe8 0-1
+
+[Event "Magistral Casino Ciutat de Barcelona"]
+[Site "?"]
+[Date "2008.11.03"]
+[Round "5"]
+[White "Georgiev, Kiril"]
+[Black "Jobava, Baadur"]
+[Result "1-0"]
+[ECO "A37"]
+[WhiteElo "2645"]
+[BlackElo "2664"]
+[PlyCount "119"]
+[EventDate "2008.??.??"]
+[EventRounds "9"]
+[EventCategory "14"]
+
+1. Nf3 c5 2. c4 Nc6 3. Nc3 e5 4. g3 g6 5. Bg2 Bg7 6. a3 Nge7 7. b4 d5 8. bxc5
+O-O 9. O-O dxc4 10. Rb1 Na5 11. d3 cxd3 12. exd3 Bg4 13. h3 Bd7 14. Bg5 h6 15.
+Be3 Bc6 16. Qe2 Nf5 17. Bd2 Re8 18. Ne4 b5 19. cxb6 axb6 20. Rfc1 Bd5 21. Qd1
+Bb7 22. Bc3 Nc4 23. Nc5 Bc6 24. dxc4 Qxd1+ 25. Rxd1 bxc5 26. Nh4 Bxg2 27. Nxf5
+gxf5 28. Kxg2 Rxa3 29. Bd2 Ra4 30. Rbc1 Bf8 31. Be3 Rc8 32. Rd7 h5 33. h4 Kg7
+34. Rb1 Rb4 35. Ra1 f4 36. gxf4 exf4 37. Bxf4 Rxc4 38. Be5+ Kg8 39. Raa7 Rg4+
+40. Kf3 Re8 41. Bg3 c4 42. Rac7 f5 43. Rd5 Re7 44. Rc8 Rf7 45. Bf4 Rxh4 46.
+Rdd8 Rh3+ 47. Ke2 Rd3 48. Bd6 Rxd6 49. Rxd6 Kh7 50. Rdc6 Bg7 51. Rxc4 Kg6 52.
+Kf3 Bh6 53. R4c6+ Rf6 54. Kg3 Bg5 55. Rg8+ Kf7 56. Rcc8 Bd2 57. Kh4 Be1 58.
+Rcf8+ Ke7 59. Re8+ Kf7 60. Rgf8+ 1-0
+
+[Event "Magistral Casino Ciutat de Barcelona"]
+[Site "?"]
+[Date "2008.11.04"]
+[Round "6"]
+[White "Jobava, Baadur"]
+[Black "Kogan, Arthur"]
+[Result "1/2-1/2"]
+[ECO "D44"]
+[WhiteElo "2664"]
+[BlackElo "2561"]
+[PlyCount "63"]
+[EventDate "2008.??.??"]
+[EventRounds "9"]
+[EventCategory "14"]
+
+1. d4 Nf6 2. c4 c6 3. Nc3 d5 4. Nf3 e6 5. Bg5 h6 6. Bh4 dxc4 7. e4 b5 8. e5 g5
+9. Nxg5 hxg5 10. Bxg5 Nbd7 11. exf6 Bb7 12. g3 c5 13. d5 Nxf6 14. Bg2 Be7 15.
+O-O Nxd5 16. Bxe7 Kxe7 17. Nxb5 Qb6 18. Na3 Rh4 19. Qd2 Nf4 20. Nxc4 Qa6 21.
+Rfc1 Rg8 22. Bxb7 Qxb7 23. Qd6+ Kf6 24. Qe5+ Ke7 25. Qxc5+ Kf6 26. Qe5+ Ke7 27.
+Qd6+ Kf6 28. Qd4+ Ke7 29. Qc5+ Kf6 30. Qd4+ Ke7 31. Qc5+ Kf6 32. Qd6 1/2-1/2
+
+[Event "Magistral Casino Ciutat de Barcelona"]
+[Site "?"]
+[Date "2008.11.05"]
+[Round "7"]
+[White "Corrales Jimenez, Fidel"]
+[Black "Jobava, Baadur"]
+[Result "1/2-1/2"]
+[ECO "B07"]
+[WhiteElo "2552"]
+[BlackElo "2664"]
+[PlyCount "159"]
+[EventDate "2008.??.??"]
+[EventRounds "9"]
+[EventCategory "14"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 e5 4. dxe5 dxe5 5. Qxd8+ Kxd8 6. Bc4 Be6 7. Bxe6 fxe6
+8. f3 Nbd7 9. Be3 Bc5 10. Bxc5 Nxc5 11. O-O-O+ Ke7 12. Nh3 g5 13. Nf2 Rag8 14.
+Nd3 Ncd7 15. Rd2 h5 16. Rhd1 g4 17. f4 exf4 18. e5 Nh7 19. Nxf4 Nhf8 20. Nb5
+Nxe5 21. Nxc7 Rh6 22. Rd8 g3 23. hxg3 Rxg3 24. Re8+ Kf7 25. Rb8 b6 26. Rb7 Ned7
+27. Nb5 e5 28. Nd3 Kg8 29. Ne1 a6 30. Nd6 Re6 31. Ra7 a5 32. Nf5 Rg5 33. Ne3
+Rg7 34. Nf3 Nf6 35. Ra8 Rd7 36. Rf1 N6h7 37. Ng5 Rf6 38. Rxf6 Nxf6 39. Ne6 Rf7
+40. Nf5 Ng4 41. Nh4 Rf6 42. Ng5 Ne3 43. g3 Nc4 44. c3 Rf1+ 45. Kc2 Rf2+ 46. Kd3
+Nxb2+ 47. Ke4 Na4 48. Kxe5 Nc5 49. a3 Kg7 50. Ne4 Nfd7+ 51. Kd4 Nxe4 52. Kxe4
+Kf7 53. Kd5 Nf6+ 54. Ke5 Ng4+ 55. Ke4 Ra2 56. Ra7+ Ke6 57. Ng6 Rxa3 58. Ra6
+Nf6+ 59. Kd4 Rb3 60. Ne5 Nd5 61. c4 Ne3 62. Nc6 Nf5+ 63. Ke4 Nd6+ 64. Kf4 Rb1
+65. c5 Rf1+ 66. Kg5 Rf5+ 67. Kg6 bxc5 68. Nxa5 Rd5 69. Nc4 Rd4 70. Nb2 h4 71.
+gxh4 Rxh4 72. Kg5 Rd4 73. Na4 c4 74. Nc3 Rd3 75. Na4 Ke5 76. Ra5+ Kd4 77. Nb2
+Rg3+ 78. Kf4 c3 79. Ra4+ Kc5 80. Ra2 1/2-1/2
+
+[Event "Magistral Casino Ciutat de Barcelona"]
+[Site "?"]
+[Date "2008.11.06"]
+[Round "8"]
+[White "Stefanova, Antoaneta"]
+[Black "Jobava, Baadur"]
+[Result "1/2-1/2"]
+[ECO "B96"]
+[WhiteElo "2547"]
+[BlackElo "2664"]
+[PlyCount "50"]
+[EventDate "2008.??.??"]
+[EventRounds "9"]
+[EventCategory "14"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Nbd7 8. Qf3
+Qc7 9. O-O-O b5 10. e5 Bb7 11. Qh3 dxe5 12. Nxe6 fxe6 13. Qxe6+ Be7 14. Bxb5
+axb5 15. Nxb5 Qc6 16. Nd6+ Kd8 17. fxe5 Kc7 18. Qxe7 Rxa2 19. exf6 Ra1+ 20. Kd2
+Qd5+ 21. Kc3 Qa5+ 22. Kd3 Qd5+ 23. Kc3 Qa5+ 24. Kd3 Qd5+ 25. Kc3 Qa5+ 1/2-1/2
+
+[Event "Magistral Casino Ciutat de Barcelona"]
+[Site "?"]
+[Date "2008.11.07"]
+[Round "9"]
+[White "Jobava, Baadur"]
+[Black "Gulko, Boris"]
+[Result "1-0"]
+[ECO "B65"]
+[WhiteElo "2664"]
+[BlackElo "2552"]
+[PlyCount "65"]
+[EventDate "2008.??.??"]
+[EventRounds "9"]
+[EventCategory "14"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Bg5 e6 7. Qd2 Be7 8.
+O-O-O O-O 9. f4 h6 10. Bh4 Nxd4 11. Qxd4 Qa5 12. Qe3 b5 13. Bxb5 Rb8 14. Ba4
+Ba6 15. Bb3 Rfc8 16. Qe1 Qc7 17. g4 Nxg4 18. Rg1 Nf6 19. Qg3 Ne8 20. f5 Bc4 21.
+f6 Bxb3 22. fxe7 Bxa2 23. Bf6 g6 24. Qf4 Qb6 25. Qxh6 Nxf6 26. Rxg6+ fxg6 27.
+Qxg6+ Kh8 28. Rd3 Rxc3 29. Rxc3 Qxb2+ 30. Kd2 Nh7 31. e8=Q+ Rxe8 32. Qxe8+ Kg7
+33. Qe7+ 1-0

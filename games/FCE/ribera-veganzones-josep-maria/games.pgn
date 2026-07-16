@@ -1,0 +1,695 @@
+[Event "Salou op"]
+[Site "Salou"]
+[Date "2017.04.29"]
+[Round "1"]
+[White "Ribera Veganzones, Josep Maria"]
+[Black "Ladron de Guevara, Francisco Javier"]
+[Result "0-1"]
+[ECO "C77"]
+[WhiteElo "1526"]
+[BlackElo "2153"]
+[PlyCount "50"]
+[EventDate "2017.04.29"]
+[EventType "swiss"]
+[EventRounds "6"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 178 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.06.22"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.06.22"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. d3 d6 6. c3 Be7 7. O-O O-O 8. Nbd2
+Nd7 9. Re1 Nb6 10. Bb3 Kh8 11. h3 f5 12. exf5 Bxf5 13. Ne4 h6 14. Ng3 Bg6 15.
+Be3 Nd7 16. Qd2 Kh7 17. Qe2 Kh8 18. Qd2 Qe8 19. Bxh6 gxh6 20. Qxh6+ Bh7 21. Nh5
+Qg6 22. Qxg6 Bxg6 23. g4 Bxh5 24. gxh5 Rxf3 25. Re4 Nc5 0-1
+
+[Event "Salou op"]
+[Site "Salou"]
+[Date "2017.05.01"]
+[Round "6"]
+[White "Villa Izquierdo, Roberto"]
+[Black "Ribera Veganzones, Josep Maria"]
+[Result "1-0"]
+[ECO "D00"]
+[WhiteElo "2080"]
+[BlackElo "1526"]
+[PlyCount "29"]
+[EventDate "2017.04.29"]
+[EventType "swiss"]
+[EventRounds "6"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 178 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.06.22"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.06.22"]
+[SourceQuality "1"]
+
+1. d4 d5 2. e3 c6 3. Bd3 Nf6 4. Nd2 e6 5. f4 c5 6. c3 Nc6 7. Ngf3 Bd6 8. Ne5
+Bd7 9. O-O a6 10. a4 Rc8 11. Qf3 O-O 12. g4 Ne8 13. g5 f6 14. Bxh7+ Kh8 15. Qh5
+1-0
+
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.01.29"]
+[Round "2.6"]
+[White "Ribera Veganzones, Josep Maria"]
+[Black "Almeida Toledano, Daniel"]
+[Result "0-1"]
+[ECO "C10"]
+[WhiteElo "2228"]
+[BlackElo "2241"]
+[PlyCount "116"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+[WhiteTeam "Andorra"]
+[BlackTeam "Foment Martinenc"]
+[WhiteTeamCountry "AND"]
+
+1. e4 e6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Nd7 5. g3 Ngf6 6. Nxf6+ Nxf6 7. Bg2 c5 8.
+Ne2 Be7 9. O-O O-O 10. c4 Qb6 11. dxc5 Bxc5 12. Nc3 Rd8 13. Qc2 Bd7 14. Bg5 Be7
+15. Ne4 Bc6 16. Nxf6+ Bxf6 17. Bxf6 gxf6 18. Bxc6 Qxc6 19. Qc3 Kg7 20. Rfd1
+Rac8 21. Rxd8 Rxd8 22. Rc1 a6 23. a3 e5 24. b4 Rd4 25. c5 Qd5 26. Qc2 Qf3 27.
+Qa2 h5 28. h4 Re4 29. Rf1 f5 30. Qd5 f4 31. Qd8 Qg4 32. Rd1 fxg3 33. Qg5+ Qxg5
+34. hxg5 gxf2+ 35. Kxf2 a5 36. b5 Rc4 37. Rd5 e4 38. Ke3 h4 39. c6 bxc6 40.
+bxc6 h3 41. Rd6 Rc1 42. Rh6 f6 43. Kxe4 fxg5 44. Rxh3 Rxc6 45. Kf5 Rc5+ 46. Kg4
+Kg6 47. Rd3 Rc4+ 48. Kg3 a4 49. Kf3 g4+ 50. Kg3 Kf5 51. Re3 Rc1 52. Kg2 Rc2+
+53. Kg3 Rb2 54. Kh4 Rb3 55. Rg3 Rxg3 56. Kxg3 Kg5 57. Kg2 Kf4 58. Kf2 Ke4 0-1
+
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.02.05"]
+[Round "3.8"]
+[White "Rojano Cano, Francisco Jose"]
+[Black "Ribera Veganzones, Josep Maria"]
+[Result "0-1"]
+[ECO "B30"]
+[PlyCount "64"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+
+{[%evp 0,64,36,36,56,50,50,66,40,16,25,18,21,5,2,-9,-7,-20,-18,-11,-4,-48,-49,
+-51,-59,-55,-55,-52,-67,-88,-73,-73,-74,-75,-55,-61,-66,-61,-67,-75,-57,-119,
+-121,-154,-144,-113,-131,-123,-122,-152,-106,-169,-78,-158,-158,-235,-156,-156,
+-151,-309,-329,-330,-330,-330,-327,-327,-336]} 1. e4 c5 2. Nf3 Nc6 3. Nc3 e5 4.
+Be2 d6 5. O-O Be7 6. Nd5 Nf6 7. Nxf6+ Bxf6 8. d3 O-O 9. Be3 Be7 10. Ne1 d5 11.
+exd5 Qxd5 12. Bf3 Qd6 13. Bxc6 Qxc6 14. f4 exf4 15. Bxf4 Bf6 16. c3 Bf5 17. Qf3
+Qxf3 18. Rxf3 Bg6 19. g4 Rfe8 20. Be3 Re5 21. d4 Re4 22. dxc5 Rae8 23. Ng2 Rxg4
+24. Rg3 Rge4 25. c6 b6 26. Rd1 Be5 27. Bf4 Bxf4 28. Nxf4 Rxf4 29. Re3 Rfe4 30.
+Rxe4 Bxe4 31. c7 Bf5 32. Rd8 Kf8 0-1
+
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.02.12"]
+[Round "4.5"]
+[White "Delisau Gil, Oriol"]
+[Black "Ribera Veganzones, Josep Maria"]
+[Result "0-1"]
+[ECO "E97"]
+[WhiteElo "2337"]
+[BlackElo "2233"]
+[PlyCount "80"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5
+Ne7 9. b4 a5 10. Ba3 axb4 11. Bxb4 b6 12. a4 Ne8 13. Nb5 f5 14. Nd2 Nf6 15. a5
+bxa5 16. Rxa5 Ba6 17. Qc2 Bxb5 18. Rxa8 Qxa8 19. cxb5 fxe4 20. Qxc7 Nexd5 21.
+Qxd6 Rd8 22. Qe6+ Kh8 23. Rc1 Nxb4 24. Nc4 Qd5 25. Qe7 Nd3 26. Nb6 Qd4 27.
+Qxd8+ Qxd8 28. Rc8 Qxc8 29. Nxc8 Bf8 30. Kf1 Bc5 31. f3 Nd5 32. fxe4 Ne3+ 33.
+Kg1 Ng4+ 34. Kh1 Ngf2+ 35. Kg1 Nxe4+ 36. Kh1 Ndf2+ 37. Kg1 Ng4+ 38. Kh1 Nef2+
+39. Kg1 Nh3+ 40. Kf1 Ne3+ 0-1
+
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.03.05"]
+[Round "?"]
+[White "Ribera Veganzones, Josep Maria"]
+[Black "Lerch Gallemi, Jose Maria"]
+[Result "1/2-1/2"]
+[ECO "C40"]
+[PlyCount "85"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Qe7 3. Bc4 h6 4. O-O d6 5. d4 Nf6 6. Nc3 c6 7. a4 Bg4 8. d5 a5
+9. h3 Bh5 10. Be3 g5 11. g4 Bg6 12. Nd2 Nfd7 13. Kg2 Nc5 14. Bxc5 dxc5 15. dxc6
+bxc6 16. Bb3 Qc7 17. Nc4 Nd7 18. Qf3 Be7 19. Rad1 Nb6 20. Rd3 Nxc4 21. Bxc4 O-O
+22. Rfd1 Rad8 23. Ne2 Rxd3 24. Rxd3 Rd8 25. Ng3 Rd4 26. b3 Qd7 27. c3 Rxd3 28.
+Qxd3 Qxd3 29. Bxd3 f6 30. Nf5 Bxf5 31. gxf5 h5 32. Be2 h4 33. Kf3 Kf7 34. Kg4
+Bd8 35. Kh5 Kg7 36. Bc4 Bc7 37. Be6 Bb6 38. Kg4 Kf8 39. Bc4 Bc7 40. Bf1 Bd6 41.
+Kh5 Kg7 42. Ba6 Be7 43. Bc4 1/2-1/2
+
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.03.12"]
+[Round "8.7"]
+[White "Ribera Veganzones, Josep Maria"]
+[Black "Jimenez Ruano, Adrian"]
+[Result "0-1"]
+[ECO "B07"]
+[WhiteElo "2233"]
+[BlackElo "2333"]
+[PlyCount "66"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. g3 Nf6 5. Bg2 O-O 6. Nge2 e5 7. O-O c6 8. a4
+Qc7 9. h3 Re8 10. Be3 Na6 11. Qd2 exd4 12. Bxd4 Nc5 13. e5 Nfd7 14. exd6 Qxd6
+15. Rad1 Bxd4 16. Qxd4 Qxd4 17. Rxd4 Nf8 18. b4 Nxa4 19. Nxa4 Rxe2 20. Rd8 Kg7
+21. Ra1 Ne6 22. Re8 Nf4 23. Rxc8 Rxc8 24. gxf4 Rxc2 25. Nc5 a5 26. Nxb7 axb4
+27. Rb1 c5 28. Bd5 c4 29. Rxb4 c3 30. Rb1 Rd2 31. Bb3 Rb2 32. Rxb2 cxb2 33. Ba2
+Ra8 0-1
+
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.03.19"]
+[Round "9.8"]
+[White "Ribera Veganzones, Josep Maria"]
+[Black "Hapala, Elisabeth"]
+[Result "1-0"]
+[WhiteElo "2116"]
+[BlackElo "2152"]
+[PlyCount "147"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+[TimeControl "90+30"]
+
+1. e4 {[%emt 0:00:00]} c5 {[%emt 0:00:00]} 2. Nf3 {[%emt 0:00:00]} e6 {[%emt 0:
+00:00]} 3. b3 {[%emt 0:00:00]} a6 {[%emt 0:00:00]} 4. c4 {[%emt 0:00:00]} Nc6 {
+[%emt 0:00:00]} 5. Bb2 {[%emt 0:00:00]} Qc7 {[%emt 0:00:00]} 6. Be2 {[%emt 0:
+00:00]} Nf6 {[%emt 0:00:00]} 7. Nc3 {[%emt 0:00:00]} Nd4 {[%emt 0:00:00]} 8.
+O-O {[%emt 0:00:00]} Bd6 {[%emt 0:00:00]} 9. h3 {[%emt 0:00:00]} Nxf3+ {
+[%emt 0:00:00]} 10. Bxf3 {[%emt 0:00:00]} Be5 {[%emt 0:00:00]} 11. g3 {[%emt 0:
+00:00]} Bd4 {[%emt 0:00:00]} 12. Na4 {[%emt 0:00:00]} Qxg3+ {[%emt 0:00:00]}
+13. Bg2 {[%emt 0:00:00]} Qf4 {[%emt 0:00:00]} 14. Bxd4 {[%emt 0:00:00]} cxd4 {
+[%emt 0:00:00]} 15. Nc5 {[%emt 0:00:00]} Qg5 {[%emt 0:00:00]} 16. b4 {[%emt 0:
+00:00]} d6 {[%emt 0:00:00]} 17. f4 {[%emt 0:00:00]} Qg6 {[%emt 0:00:00]} 18. f5
+{[%emt 0:00:00]} Qg5 {[%emt 0:00:00]} 19. e5 {[%emt 0:00:00]} dxe5 {[%emt 0:00:
+00]} 20. Qa4+ {[%emt 0:00:00]} Ke7 {[%emt 0:00:00]} 21. Rae1 {[%emt 0:00:00]}
+Bd7 {[%emt 0:00:37]} 22. Nxd7 {[%emt 0:00:00]} Nxd7 {[%emt 0:00:05]} 23. fxe6 {
+[%emt 0:00:00]} fxe6 {[%emt 0:02:07]} 24. Rf7+ {[%emt 0:00:00]} Kxf7 {[%emt 0:
+00:02]} 25. Qxd7+ {[%emt 0:00:00]} Kg6 {[%emt 0:00:11]} 26. h4 {[%emt 0:00:00]}
+Rad8 {[%emt 0:08:11]} 27. Qxb7 {[%emt 0:00:00]} Qxh4 {[%emt 0:02:34]} 28. Rxe5
+{[%emt 0:00:00]} Rde8 {[%emt 0:01:22]} 29. Re4 {[%emt 0:00:00]} Qf6 {[%emt 0:
+00:04]} 30. Qc7 {[%emt 0:00:00]} h5 {[%emt 0:01:06]} 31. Rf4 {[%emt 0:00:00]}
+Qe7 {[%emt 0:00:26]} 32. Qe5 {[%emt 0:00:00]} Rhf8 {[%emt 0:00:37]} 33. Rxd4 {
+[%emt 0:00:00]} Kh6 {[%emt 0:00:26]} 34. c5 {[%emt 0:00:00]} Rf5 {[%emt 0:00:
+29]} 35. Qe4 {[%emt 0:00:00]} g6 {[%emt 0:00:38]} 36. c6 {[%emt 0:00:00]} Ref8
+{[%emt 0:00:30]} 37. Rd7 {[%emt 0:00:00]} Qf6 {[%emt 0:00:31]} 38. c7 {[%emt 0:
+00:00]} Rf4 {[%emt 0:00:26]} 39. Qe3 {[%emt 0:01:30]} g5 {[%emt 0:00:34]} 40.
+d4 {[%emt 0:00:24]} Qf5 {[%emt 0:00:27]} 41. Qe1 {[%emt 0:05:41]} Rf2 {[%emt 0:
+00:08]} 42. Qe4 {[%emt 0:09:27]} Rxg2+ {[%emt 0:00:54]} 43. Qxg2 {[%emt 0:00:
+05]} Qb1+ {[%emt 0:00:18]} 44. Kh2 {[%emt 0:00:06]} Qe1 {[%emt 0:00:38]} 45.
+Rf7 {[%emt 0:02:01]} Rxf7 {[%emt 0:00:32]} 46. c8=Q {[%emt 0:00:21]} Qh4+ {
+[%emt 0:00:05]} 47. Kg1 {[%emt 0:01:19]} Qe1+ {[%emt 0:00:02]} 48. Kh2 {
+[%emt 0:00:07]} Qh4+ {[%emt 0:00:02]} 49. Kg1 {[%emt 0:00:09]} Qxd4+ {[%emt 0:
+00:13]} 50. Kh2 {[%emt 0:00:37]} Qh4+ {[%emt 0:01:30]} 51. Kg1 {[%emt 0:00:16]}
+Qe1+ {[%emt 0:00:01]} 52. Kh2 {[%emt 0:00:06]} Qe5+ {[%emt 0:00:56]} 53. Kh1 {
+[%emt 0:00:54]} Rc7 {[%emt 0:01:08]} 54. Qf8+ {[%emt 0:00:17]} Kh7 {[%emt 0:00:
+37]} 55. Qff1 {[%emt 0:00:25]} Rc3 {[%emt 0:00:32]} 56. Qd1 {[%emt 0:02:37]}
+Kg6 {[%emt 0:00:24]} 57. Qdd2 {[%emt 0:02:07]} Rg3 {[%emt 0:00:27]} 58. Qge2 {
+[%emt 0:00:38]} Rh3+ {[%emt 0:00:31]} 59. Kg1 {[%emt 0:00:12]} Rg3+ {[%emt 0:
+00:37]} 60. Kf2 {[%emt 0:00:38]} Qxe2+ {[%emt 0:00:31]} 61. Qxe2 {[%emt 0:00:
+09]} h4 {[%emt 0:00:09]} 62. Qxe6+ {[%emt 0:00:16]} Kh5 {[%emt 0:00:09]} 63.
+Qe2+ {[%emt 0:00:13]} Kg6 {[%emt 0:00:03]} 64. Qxa6+ {[%emt 0:00:08]} Kf5 {
+[%emt 0:00:01]} 65. b5 {[%emt 0:00:28]} Rg4 {[%emt 0:00:23]} 66. Qc8+ {[%emt 0:
+00:17]} Kf4 {[%emt 0:00:01]} 67. Qc7+ {[%emt 0:00:40]} Kf5 {[%emt 0:00:07]} 68.
+Qd7+ {[%emt 0:00:08]} Kf4 {[%emt 0:00:02]} 69. b6 {[%emt 0:00:17]} h3 {[%emt 0:
+00:05]} 70. Qd4+ {[%emt 0:00:09]} Kf5 {[%emt 0:00:10]} 71. Qd3+ {[%emt 0:00:05]
+} Re4 {[%emt 0:00:52]} 72. Qxh3+ {[%emt 0:00:12]} g4 {[%emt 0:00:03]} 73. Qh7+
+{[%emt 0:00:07]} Kf4 {[%emt 0:00:04]} 74. Qxe4+ {[%emt 0:00:05]} 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.01.28"]
+[Round "2.5"]
+[White "Ribera Veganzones, Josep Maria"]
+[Black "Lerch Gallemi, Jose Maria"]
+[Result "1-0"]
+[ECO "C40"]
+[WhiteElo "2284"]
+[BlackElo "2292"]
+[PlyCount "63"]
+[EventDate "2023.??.??"]
+[SourceDate "2023.01.29"]
+
+1. e4 e5 2. Nf3 Qe7 3. Bc4 d6 4. O-O h6 5. Re1 Nf6 6. c3 g6 7. d4 Bg7 8. Nbd2
+O-O 9. a4 Nh5 10. Nf1 c6 11. a5 Bg4 12. dxe5 dxe5 13. h3 Be6 14. Qb3 Nf4 15.
+Be3 g5 16. Ng3 g4 17. hxg4 Bxg4 18. Nf5 Bxf5 19. exf5 Qc7 20. Nd2 Nd7 21. Bxf4
+exf4 22. Re7 Qd6 23. Rxf7 Rxf7 24. Bxf7+ Kh8 25. Nf3 Nc5 26. Qc4 Rf8 27. Nh4
+Rd8 28. Ng6+ Kh7 29. Nxf4 Nd7 30. Bg6+ Kh8 31. Ne6 Ne5 32. Nxd8 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.02.04"]
+[Round "3.4"]
+[White "Ribera Veganzones, Josep Maria"]
+[Black "Piñero Fernandez, Xavier"]
+[Result "1-0"]
+[ECO "B29"]
+[WhiteElo "2284"]
+[BlackElo "2384"]
+[PlyCount "109"]
+[EventDate "2023.??.??"]
+
+1. e4 c5 2. Nf3 Nf6 3. e5 Nd5 4. Nc3 e6 5. Nxd5 exd5 6. d4 Nc6 7. c3 d6 8. Bb5
+Be7 9. exd6 Qxd6 10. O-O O-O 11. dxc5 Qxc5 12. Be2 Bf5 13. Be3 Qd6 14. Qd2 Qg6
+15. Rfd1 Be4 16. Bf4 Rad8 17. Bg3 f5 18. Ne1 d4 19. Bc4+ Kh8 20. f3 Bd5 21.
+Bxd5 Rxd5 22. c4 Rdd8 23. Nd3 Bg5 24. Bf4 Bf6 25. Re1 Qf7 26. b3 Rfe8 27. Rxe8+
+Rxe8 28. Re1 h6 29. Kf1 g5 30. Bg3 Kg7 31. Re2 f4 32. Bf2 Re3 33. Nc5 Qe7 34.
+Ne4 Rxe2 35. Kxe2 Be5 36. Be1 Qa3 37. h4 Bf6 38. Bf2 Qe7 39. Kf1 a5 40. c5 Qe5
+41. a3 Qd5 42. Qd3 Be7 43. h5 Kf8 44. Qc2 a4 45. bxa4 Ne5 46. Qb2 Bxc5 47. Nxc5
+Qxc5 48. Bxd4 Qc4+ 49. Kg1 Nf7 50. Qb4+ Qxb4 51. axb4 Ke7 52. Bg7 Kd6 53. Kf2
+Kd5 54. Ke2 Kc4 55. Bf8 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.02.11"]
+[Round "4.4"]
+[White "Fern�ndez Madrid, Carles"]
+[Black "Ribera Veganzones, Josep Maria"]
+[Result "0-1"]
+[ECO "A49"]
+[WhiteElo "2230"]
+[BlackElo "2284"]
+[PlyCount "70"]
+[EventDate "2023.??.??"]
+[SourceDate "2023.02.11"]
+
+1. d4 Nf6 2. g3 g6 3. Bg2 Bg7 4. Nf3 O-O 5. O-O d6 6. a4 a5 7. Na3 d5 8. Bf4 c6
+9. Qc1 Bf5 10. c4 Na6 11. c5 Be4 12. Be5 Nd7 13. Bxg7 Kxg7 14. Qc3 Qc7 15. Nb1
+Bxf3 16. exf3 e5 17. Re1 exd4 18. Qxd4+ Kg8 19. Nd2 Naxc5 20. f4 Rfe8 21. f5
+Qd6 22. Nc4 Qf8 23. Rxe8 Qxe8 24. fxg6 dxc4 25. gxh7+ Kxh7 26. Qxc4 Qe6 27.
+Qh4+ Kg7 28. Bh3 Qf6 29. Qg4+ Kf8 30. Rd1 Ne5 31. Qh5 Ned3 32. Bf5 Rd8 33. Qh7
+Qg7 34. Qh4 Rd5 35. Qh3 Nxf2 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "https://lichess.org/study/MVq"]
+[Date "2023.03.04"]
+[Round "7.5"]
+[White "Ribera Veganzones, Josep Maria"]
+[Black "Beltran Rueda, Santiago"]
+[Result "1-0"]
+[ECO "C42"]
+[WhiteElo "2284"]
+[BlackElo "2365"]
+[PlyCount "61"]
+[EventDate "2023.??.??"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. d4 Be7 6. Bd3 Nf6 7. O-O O-O 8.
+h3 Nbd7 9. c4 c6 10. Nc3 Re8 11. Bg5 Nf8 12. Qc2 g6 13. Rfe1 Ne6 14. Bh4 d5 15.
+Bg3 Ng7 16. cxd5 Nxd5 17. Nxd5 Qxd5 18. Bc4 Qd8 19. Qb3 Ne6 20. Bxe6 fxe6 21.
+Rad1 Qd5 22. Qe3 Qxa2 23. Be5 Bd7 24. h4 Rf8 25. h5 g5 26. Nxg5 Rf5 27. Ne4
+Raf8 28. Ra1 Qxb2 29. Qg3+ Kf7 30. Qg7+ Ke8 31. Rxa7 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.03.18"]
+[Round "9.4"]
+[White "RIBERA VEGANZONES, JOSEP MARIA."]
+[Black "ORTI�N BLANCO, INIGO."]
+[Result "1/2-1/2"]
+[WhiteElo "2284"]
+[BlackElo "2290"]
+[PlyCount "90"]
+[EventDate "2023.??.??"]
+[WhiteTeam "AND"]
+[BlackTeam "MLL"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bg5 Bd7 7. Qd2 a6 8.
+O-O-O e6 9. f4 Be7 10. Nf3 b5 11. Bxf6 gxf6 12. f5 Qb6 13. Kb1 O-O-O 14. a3 Kb8
+15. Bd3 h5 16. Rhe1 Na5 17. Qe3 Qxe3 18. Rxe3 Rc8 19. g3 Nc4 20. Bxc4 Rxc4 21.
+e5 d5 22. exf6 Bxf6 23. Ne5 Bxe5 24. Rxe5 h4 25. fxe6 fxe6 26. Ne2 hxg3 27.
+hxg3 Kc7 28. Nf4 Kd6 29. Re2 Rg8 30. Rde1 Rxg3 31. Nxe6 Re4 32. Nd8 Bf5 33.
+Nf7+ Ke6 34. Ne5 Rg2 35. Nd3 Rgxe2 36. Rxe2 Rxe2 37. Nf4+ Ke5 38. Nxe2 d4 39.
+Kc1 d3 40. cxd3 Bxd3 41. Kd2 Bxe2 42. Kxe2 Kd4 43. Kd2 Kc4 44. Kc2 a5 45. a4
+bxa4 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "https://lichess.org/study/jBG"]
+[Date "2023.03.11"]
+[Round "8.4"]
+[White "ORTEGA SERRA, MARC."]
+[Black "RIBERA VEGANZONES, JOSEP MARIA."]
+[Result "1-0"]
+[ECO "E76"]
+[WhiteElo "2392"]
+[BlackElo "2284"]
+[PlyCount "103"]
+[EventDate "2023.??.??"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f4 O-O 6. Nf3 Na6 7. Bd3 e5 8. fxe5
+dxe5 9. d5 Nc5 10. O-O Ne8 11. b4 Nxd3 12. Qxd3 c6 13. Be3 f5 14. Nd2 f4 15.
+Bf2 g5 16. c5 Kh8 17. Nc4 g4 18. Rad1 Qg5 19. b5 g3 20. hxg3 Bg4 21. bxc6 bxc6
+22. d6 f3 23. Be3 Qh5 24. d7 Nf6 25. gxf3 Bxf3 26. Rxf3 Qxf3 27. Bf2 Nxd7 28.
+Qxf3 Rxf3 29. Rxd7 Rxc3 30. Nd6 Bf8 31. Nf7+ Kg8 32. Nxe5 Bxc5 33. Bxc5 Rxc5
+34. Ng4 Rf8 35. e5 Ra5 36. Nf6+ Rxf6 37. exf6 Rxa2 38. Rg7+ Kf8 39. Rxh7 a5 40.
+Ra7 c5 41. Kf1 Kg8 42. g4 Ra4 43. g5 Rg4 44. Rg7+ Kf8 45. Ke2 a4 46. Kf3 Rg1
+47. Kf4 c4 48. Kf5 a3 49. Ra7 Re1 50. g6 Rf1+ 51. Ke6 Re1+ 52. Kd5 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.01.20"]
+[Round "1.5"]
+[White "Ribera Veganzones, Josep Maria"]
+[Black "Bagheri, Amir"]
+[Result "1/2-1/2"]
+[ECO "B12"]
+[WhiteElo "2182"]
+[BlackElo "2381"]
+[PlyCount "38"]
+[EventDate "2024.??.??"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 Nd7 6. O-O Ne7 7. c3 h6 8. Na3 a5
+9. Nc2 a4 10. Ne3 b5 11. Ne1 Be4 12. f3 Bg6 13. Bd3 Bxd3 14. Qxd3 h5 15. f4 g6
+16. g3 Qb6 17. Nf3 c5 18. Bd2 Nf5 19. Kg2 Be7 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.01.27"]
+[Round "2.4"]
+[White "Ribera Veganzones, Josep Maria"]
+[Black "Mestre Bellido, Hector"]
+[Result "1-0"]
+[ECO "C54"]
+[WhiteElo "2182"]
+[BlackElo "2286"]
+[PlyCount "69"]
+[EventDate "2024.??.??"]
+[WhiteTeam "Andorra"]
+[BlackTeam "Foment A"]
+[WhiteTeamCountry "AND"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 a6 6. O-O d6 7. a4 O-O 8. Re1
+Ba7 9. h3 d5 10. exd5 Nxd5 11. Nxe5 Nxe5 12. Rxe5 Bxf2+ 13. Kxf2 Qf6+ 14. Qf3
+Qxe5 15. Bxd5 c6 16. Bc4 Be6 17. d4 Qc7 18. Bd3 Rae8 19. Bf4 Qe7 20. Nd2 Bd5
+21. Qg3 f5 22. Nc4 Rf6 23. Bg5 c5 24. Bxf6 Qxf6 25. Qd6 Be6 26. d5 Qh4+ 27. g3
+Qxh3 28. dxe6 f4 29. gxf4 Qh4+ 30. Ke3 Rd8 31. e7 Re8 32. Kd2 Rxe7 33. Qd8+ Kf7
+34. Nd6+ Kf6 35. Qxe7+ 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.02.03"]
+[Round "3.4"]
+[White "VENTURA BOLET, ALEXANDRE."]
+[Black "RIBERA VEGANZONES, JOSEP MARIA."]
+[Result "1-0"]
+[ECO "A13"]
+[WhiteElo "2377"]
+[BlackElo "2306"]
+[PlyCount "53"]
+[EventDate "2024.??.??"]
+
+1. Nf3 d5 2. e3 Nf6 3. c4 e6 4. b3 Be7 5. Bb2 O-O 6. Nc3 c5 7. cxd5 Nxd5 8. Qc2
+Nc6 9. a3 b6 10. h4 h6 11. g4 Bb7 12. Rh3 e5 13. g5 Nxc3 14. Bxc3 Qd6 15. Bc4
+Bc8 16. Rg3 h5 17. g6 Be6 18. gxf7+ Rxf7 19. Rg6 Bf6 20. Bxe6 Qxe6 21. Ng5 Qd5
+22. Nxf7 Kxf7 23. O-O-O e4 24. Rdg1 Ne5 25. Bxe5 Qxe5 26. Qc3 Qe7 27. Rxg7+ 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.02.10"]
+[Round "4.4"]
+[White "Jimenez Ruano, Adrian"]
+[Black "RIbera Veganzones, Josep Maria"]
+[Result "1/2-1/2"]
+[ECO "D35"]
+[WhiteElo "2416"]
+[BlackElo "2306"]
+[PlyCount "49"]
+[EventDate "2024.??.??"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. cxd5 exd5 5. Bg5 c6 6. e3 h6 7. Bh4 Be6 8. Bd3
+Nbd7 9. Nge2 g5 10. Bg3 Nh5 11. Qc2 Nxg3 12. Nxg3 h5 13. O-O-O h4 14. Nge2 Qf6
+15. e4 Nb6 16. exd5 Nxd5 17. Nxd5 Bxd5 18. Nc3 O-O-O 19. Nxd5 Rxd5 20. Be4 Rxd4
+21. Rxd4 Qxd4 22. Rd1 Qc5 23. Bf5+ Kc7 24. Rd7+ Kb6 25. Rxf7 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.02.17"]
+[Round "5.4"]
+[White "Ribera Veganzones, Josep maria"]
+[Black "Adan Bermudez, Sergio"]
+[Result "1/2-1/2"]
+[ECO "B54"]
+[WhiteElo "2429"]
+[BlackElo "2330"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "92"]
+[EventDate "2024.??.??"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 e5 5. Nf3 Nf6 6. Nc3 Be7 7. Bc4 O-O 8.
+O-O a6 9. Be3 Nbd7 10. a4 b6 11. Nh4 Bb7 12. Nf5 Rc8 13. Qd3 a5 14. b3 Nc5 15.
+Bxc5 Rxc5 16. Rad1 Ne8 17. Nb5 Ba6 18. Nbxd6 Nxd6 19. Nxd6 Qxd6 20. Qxd6 Bxd6
+21. Bxa6 Rd8 22. Rd2 Kf8 23. Rfd1 Ke7 24. Bb5 g6 25. Kf1 Rcc8 26. Ke2 f5 27. f3
+fxe4 28. fxe4 h6 29. Ba6 Ra8 30. Bb5 Rac8 31. c3 Rb8 32. Rd3 Rbc8 33. Ba6 Ra8
+34. Bb5 Rac8 35. Kf3 Rf8+ 36. Kg3 Rcd8 37. Rd5 Rf4 38. Bc6 h5 39. h3 h4+ 40.
+Kh2 Rf6 41. R5d2 Rc8 42. Bd5 Rxc3 43. Rd3 Bb4 44. Rxc3 Bxc3 45. Rd3 Be1 46. Rf3
+Rxf3 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.02.24"]
+[Round "6.4"]
+[White "POZANCO ROMASANTA, MARC."]
+[Black "RIBERA VEGANZONES, JOSEP MARIA."]
+[Result "1/2-1/2"]
+[ECO "D35"]
+[WhiteElo "2197"]
+[BlackElo "2306"]
+[Annotator "User"]
+[PlyCount "97"]
+[EventDate "2024.??.??"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. cxd5 exd5 5. Bg5 c6 6. e3 h6 7. Bh4 Be6 8. Bd3
+Nbd7 9. Nf3 Bd6 10. Qc2 O-O 11. Rb1 a5 12. a3 Re8 13. Na4 Qb8 14. Nc5 Bg4 15.
+Bf5 Bxf5 16. Qxf5 Qc7 17. Nxd7 Nxd7 18. O-O Re4 19. Bg3 Bxg3 20. hxg3 g6 21.
+Qh3 h5 22. Rfc1 Kg7 23. Nd2 Rg4 24. Nf1 Qd6 25. f3 Rg5 26. Qh4 Rf5 27. g4 hxg4
+28. Qxg4 Nb6 29. Ng3 Rf6 30. Nh5+ Kg8 31. Nxf6+ Qxf6 32. Qf4 Qxf4 33. exf4 Nc4
+34. Rc2 Ra6 35. Re1 Rb6 36. Re8+ Kg7 37. Ra8 Rb3 38. Ra7 Nxb2 39. Rxa5 Nc4 40.
+Ra8 Nxa3 41. Re2 Nb5 42. Re7 Rb4 43. Rxb7 Rxd4 44. g3 Rd2 45. Rd8 Nd4 46. Rdd7
+Nxf3+ 47. Kf1 Nh2+ 48. Ke1 Nf3+ 49. Kf1 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.03.02"]
+[Round "7.3"]
+[White "Lorenzo De La Riva, Lázaro"]
+[Black "Ribera Veganzones, Josep Maria"]
+[Result "1-0"]
+[ECO "D05"]
+[WhiteElo "2422"]
+[BlackElo "2192"]
+[PlyCount "45"]
+[EventDate "2024.04.13"]
+[EventType "team"]
+[EventRounds "11"]
+[EventCountry "CAT"]
+
+1. d4 d5 2. Nf3 Nf6 3. e3 e6 4. Bd3 b6 5. Nbd2 Bb7 6. O-O Nbd7 7. Qe2 c5 8. b3
+Be7 9. Bb2 O-O 10. c4 Rc8 11. Rac1 Ne4 12. Rfd1 f5 13. cxd5 exd5 14. Ba6 Bxa6
+15. Qxa6 Rc7 16. dxc5 Ndxc5 17. Qe2 Ne6 18. Nxe4 fxe4 19. Nd4 Rxc1 20. Rxc1 Nc5
+21. b4 Nd3 22. Ne6 Nxc1 23. Qg4 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.03.16"]
+[Round "9.4"]
+[White "Lacasa Diaz, Josep Anton"]
+[Black "Ribera Veganzones, Josep Maria"]
+[Result "1/2-1/2"]
+[ECO "B51"]
+[WhiteElo "2400"]
+[BlackElo "2306"]
+[PlyCount "116"]
+[EventDate "2024.04.13"]
+[EventType "team"]
+[EventRounds "11"]
+[EventCountry "CAT"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. d4 cxd4 5. Qxd4 e6 6. Nc3 a6 7. Bxd7+ Bxd7 8.
+Bg5 f6 9. Be3 Qc7 10. O-O-O b5 11. Kb1 Ne7 12. Qb6 Qxb6 13. Bxb6 Nc8 14. Ba5 h5
+15. Nd4 Rb8 16. a3 h4 17. f4 Nb6 18. Bxb6 Rxb6 19. f5 e5 20. Nd5 Rb7 21. Nb3
+Be7 22. Rd3 Bd8 23. Rhd1 Rh5 24. Nc3 Be7 25. Nd5 Bd8 26. Rh3 Rb8 27. g4 Rh6 28.
+Rhd3 h3 29. Nd2 Rc8 30. b3 Ba5 31. Nf3 Bc6 32. b4 Bd8 33. Kb2 Bb7 34. Rg1 Rc4
+35. Nd2 Rc6 36. Rgg3 Rh4 37. Nf3 Rh6 38. Kb3 Bb6 39. g5 fxg5 40. Nxg5 Bd8 41.
+Ne6 Rc4 42. Rxg7 Bxd5 43. exd5 e4 44. Rg8+ Kf7 45. Rdg3 Bf6 46. Rf8+ Ke7 47.
+Ra8 Be5 48. Re3 Bxh2 49. Ng5 Bf4 50. Ra7+ Kf6 51. Nxe4+ Rxe4 52. Rxe4 h2 53.
+Re6+ Kg5 54. Rg7+ Kxf5 55. Rf7+ Kg5 56. Rg7+ Kf5 57. Rf7+ Kg5 58. Rg7+ Kf5
+1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "lichess.org"]
+[Date "2025.01.25"]
+[Round "2.3"]
+[White "Ribera Veganzones, Josep Maria"]
+[Black "Sanchez, Sebastian Felipe"]
+[Result "0-1"]
+[ECO "B12"]
+[WhiteElo "2138"]
+[BlackElo "2423"]
+[PlyCount "90"]
+[GameId "2151339903834784"]
+[EventDate "2025.??.??"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 a6 6. O-O Bg6 7. c3 c5 8. Be3 Nd7 9. Nbd2 Nh6 10. Bxh6 gxh6 11. Nb3 c4 12. Nbd2 b5 13. Ne1 Nb6 14. f4 Na4 15. Qc1 Qa5 16. a3 Rg8 17. Kh1 h5 18. g3 Be7 19. Ng2 O-O-O 20. Rf2 f6 21. Nh4 f5 22. Ndf3 Kd7 23. Ng2 Rb8 24. Nfh4 Rgc8 25. Bf3 Qd8 26. Qd1 Qe8 27. Qe2 a5 28. Ne3 Nb6 29. Rff1 Kd8 30. Ra2 Rc7 31. Bg2 Ra8 32. Nf3 Rca7 33. Rfa1 Qd7 34. Qc2 b4 35. axb4 axb4 36. Rxa7 Rxa7 37. Rxa7 Qxa7 38. cxb4 Qa1+ 39. Bf1 Bxb4 40. Kg2 Qa2 41. Nd1 Na4 42. Qf2 Qb3 43. Ng5 Qxd1 44. Nxe6+ Kd7 45. Ng5 Be1 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.02.01"]
+[Round "3.3"]
+[White "Mompel Ferruz, Xavier"]
+[Black "Ribera Veganzones, Josep Maria"]
+[Result "1-0"]
+[ECO "B90"]
+[WhiteElo "2309"]
+[BlackElo "2138"]
+[PlyCount "99"]
+[GameId "2142370662965302"]
+[EventDate "2025.01.18"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Nb3 g6 7. Bg5 Bg7 8. Qd2 Nc6 9. O-O-O O-O 10. h4 b5 11. f3 Ne5 12. Bh6 Be6 13. Bxg7 Kxg7 14. Nd4 Qa5 15. Nxe6+ fxe6 16. Kb1 Rac8 17. Bd3 Rc5 18. Qe3 Nh5 19. Ne2 Qc7 20. Nd4 Qd7 21. Ne2 b4 22. Rdf1 Nxd3 23. cxd3 e5 24. Rc1 Rb5 25. d4 Nf4 26. Nxf4 exf4 27. Qd3 d5 28. e5 Qf5 29. Qxf5 Rxf5 30. Rc6 a5 31. Rhc1 Rh5 32. R6c5 Rb7 33. Rxa5 Rxh4 34. Rxd5 Rh2 35. Rg1 b3 36. axb3 Rxb3 37. Ka2 Rd3 38. Rd7 Kf7 39. Rc1 Rxg2 40. Rcc7 Rdd2 41. Rxe7+ Kf8 42. Rxh7 Rxb2+ 43. Ka1 Kg8 44. Rhg7+ Kh8 45. Rgd7 Rb8 46. e6 Rg1+ 47. Ka2 Rg2+ 48. Ka3 Rg1 49. Rh7+ Kg8 50. Rcg7+ 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.02.08"]
+[Round "4.3"]
+[White "Ribera Veganzones, Josep Maria"]
+[Black "Capellades Subirana, Marc"]
+[Result "0-1"]
+[ECO "C50"]
+[WhiteElo "2287"]
+[BlackElo "2301"]
+[PlyCount "80"]
+[GameId "2151339904506728"]
+[EventDate "2025.01.18"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d3 Nf6 5. Bg5 h6 6. Bh4 d6 7. c3 Bb6 8. a4 a6 9. Nbd2 Qe7 10. b4 Nd8 11. h3 g5 12. Bg3 Nh5 13. Bh2 Nf4 14. Bxf4 gxf4 15. O-O Rg8 16. Kh2 Ne6 17. Bxe6 Bxe6 18. d4 f6 19. a5 Ba7 20. d5 Bd7 21. Qe2 O-O-O 22. c4 Rg7 23. b5 Rdg8 24. Rg1 Qe8 25. Rab1 Qh5 26. Qf1 Bc5 27. Kh1 f5 28. bxa6 bxa6 29. Rb3 Kd8 30. Rb8+ Ke7 31. Rxg8 Rxg8 32. Qe2 Bb4 33. exf5 Bxd2 34. Qxd2 Bxf5 35. Kh2 Be4 36. Ne1 Rb8 37. Nd3 Rb3 38. Nxf4 exf4 39. Re1 Qe5 40. f3 Rb2 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.02.15"]
+[Round "5.3"]
+[White "Barseghyan, Harutyun"]
+[Black "Ribera Veganzones, Josep Maria"]
+[Result "1-0"]
+[ECO "D02"]
+[WhiteElo "2433"]
+[BlackElo "2138"]
+[PlyCount "65"]
+[GameId "2151339904727962"]
+[EventDate "2025.01.18"]
+
+1. d4 d5 2. Nf3 Nf6 3. Bf4 e6 4. e3 c5 5. c3 Nc6 6. Nbd2 Bd6 7. Bg3 O-O 8. Bb5 a6 9. Bxc6 bxc6 10. Qa4 Bxg3 11. hxg3 Qb6 12. Qc2 a5 13. Ne5 Rb8 14. Rb1 g6 15. O-O Ba6 16. Rfc1 Rfd8 17. g4 Nd7 18. Nxd7 Rxd7 19. Nb3 c4 20. Nc5 Re7 21. b3 Qa7 22. bxc4 Bxc4 23. Rxb8+ Qxb8 24. Rb1 Qd6 25. Qa4 e5 26. Qxa5 Kg7 27. Qa8 Qf6 28. Rb8 exd4 29. cxd4 Be2 30. Rh8 Kh6 31. Qf8+ Kg5 32. Rxh7 Kxg4 33. Qh6 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.03.01"]
+[Round "7.3"]
+[White "Ribera Veganzones, Josep Maria"]
+[Black "Vidarte Morales, Arturo"]
+[Result "0-1"]
+[ECO "B38"]
+[WhiteElo "2121"]
+[BlackElo "2180"]
+[PlyCount "200"]
+[GameId "2152739753304667"]
+[EventDate "2025.02.15"]
+[WhiteTeam "Andorra"]
+[BlackTeam "Cor de Marina"]
+[WhiteTeamCountry "AND"]
+
+1. e4 c5 2. Nf3 g6 3. d4 cxd4 4. Nxd4 Bg7 5. c4 Nc6 6. Be3 Nf6 7. Nc3 d6 8. Be2 O-O 9. O-O Bd7 10. h3 Nxd4 11. Bxd4 Bc6 12. Qc2 a5 13. Rfd1 a4 14. c5 Qa5 15. cxd6 exd6 16. Be3 Rfe8 17. Bf3 Rac8 18. Qd2 b5 19. a3 Qa8 20. Nd5 Qb7 21. Qb4 Nxd5 22. exd5 Bd7 23. Qxd6 Bxb2 24. Rab1 Be5 25. Qb4 Qb8 26. Bc5 Bf5 27. Rbc1 Bh2+ 28. Kh1 Bf4 29. Ra1 Be5 30. Bd4 Rc4 31. Bxe5 Rxe5 32. Qa5 Bd7 33. d6 Qe8 34. Re1 Kg7 35. Rad1 Rcc5 36. Qb4 h5 37. Qd4 Kg8 38. Qb4 Kg7 39. Kg1 Qe6 40. Qd4 Kg8 41. Kf1 Qf6 42. Rxe5 Qxe5 43. Qxe5 Rxe5 44. Re1 Re6 45. Rd1 Kg7 46. h4 Re5 47. Bd5 Kf8 48. g3 Ke8 49. Rd2 Be6 50. Bc6+ Kd8 51. Rc2 Bb3 52. Rc3 Bc4+ 53. Kg1 Re6 54. Kg2 Rxd6 55. Be4 Rd4 56. Kf3 Kd7 57. Ke3 Rd6 58. Bc2 Ra6 59. Kd4 Rd6+ 60. Kc5 Rd5+ 61. Kb4 Rd2 62. Bxa4 Rb2+ 63. Kc5 Bf1 64. Bc2 Be2 65. f4 Bf1 66. f5 gxf5 67. Bxf5+ Ke7 68. Bc2 Bh3 69. Bd1 Bg4 70. Bc2 Bd7 71. Re3+ Kf6 72. Bb3 Be6 73. Bd1 Bg4 74. Rb3 Ra2 75. Bxg4 hxg4 76. Kxb5 Ke5 77. a4 f5 78. a5 f4 79. a6 fxg3 80. h5 g2 81. Re3+ Kf4 82. Re1 Kf3 83. h6 Re2 84. Rxe2 g1=Q 85. Rb2 Qa7 86. Ka5 Qc7+ 87. Ka4 g3 88. Rb7 Qc6+ 89. Ka5 Qxh6 90. a7 Qd2+ 91. Rb4 Qd8+ 92. Ka6 g2 93. Rb8 Qd3+ 94. Rb5 Qa3+ 95. Kb7 Qe7+ 96. Ka6 Qd6+ 97. Kb7 Qd7+ 98. Ka6 Qc6+ 99. Rb6 Qe4 100. Rb8 g1=Q 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.03.08"]
+[Round "8.3"]
+[White "Mellado Trivino, Juan"]
+[Black "Ribera Veganzones, Josep Maria"]
+[Result "1-0"]
+[ECO "A00"]
+[WhiteElo "2304"]
+[BlackElo "2121"]
+[PlyCount "135"]
+[GameId "2155321155708166"]
+[EventDate "2025.02.15"]
+[WhiteTeam "Escacs Catalònia"]
+[BlackTeam "Andorra"]
+[BlackTeamCountry "AND"]
+
+1. Nc3 d5 2. e4 d4 3. Nce2 c5 4. Ng3 e5 5. Bc4 g6 6. d3 Bg7 7. f4 exf4 8. Bxf4 Ne7 9. Nf3 Nbc6 10. O-O Na5 11. Bb5+ Nac6 12. Qd2 O-O 13. Bh6 Be6 14. Bxg7 Kxg7 15. Qg5 h6 16. Qxc5 Qa5 17. Nxd4 a6 18. b4 Qxb4 19. Qxb4 Nxb4 20. Ba4 b5 21. Nxe6+ fxe6 22. Bb3 Rac8 23. Rxf8 Kxf8 24. Rf1+ Ke8 25. Rf2 Kd7 26. e5 Nbc6 27. d4 Nf5 28. c3 b4 29. Nxf5 gxf5 30. cxb4 Nxb4 31. Rd2 Ke7 32. g3 Rc3 33. Kg2 Nd3 34. Kh3 Nc1 35. Kh4 a5 36. Kh5 Nxb3 37. axb3 Rxb3 38. Ra2 Rb5 39. Kxh6 Kf7 40. Kg5 Kg7 41. Ra3 Rd5 42. Ra4 Rb5 43. Ra3 Kf7 44. h4 Rd5 45. Ra4 Rb5 46. h5 Rb3 47. Kf4 Rb5 48. g4 fxg4 49. Kxg4 Rb1 50. Rxa5 Rg1+ 51. Kf4 Rf1+ 52. Kg5 Rg1+ 53. Kh6 Rg4 54. Ra7+ Kf8 55. Rd7 Rg1 56. Kh7 Rg5 57. h6 Rg4 58. d5 exd5 59. Rxd5 Rg5 60. Ra5 Ke7 61. Ra7+ Ke6 62. Ra6+ Kf7 63. Rf6+ Ke7 64. Rg6 Rf5 65. Rg1 Kf7 66. e6+ Kf6 67. Rg6+ Ke7 68. Kg7 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.03.15"]
+[Round "9.2"]
+[White "Narciso Dublan, Marc"]
+[Black "Ribera Veganzones, Josep Maria"]
+[Result "1-0"]
+[ECO "B25"]
+[WhiteElo "2379"]
+[BlackElo "2121"]
+[PlyCount "95"]
+[GameId "2156190500898984"]
+[EventDate "2025.02.15"]
+[WhiteTeam "Ateneu Colon"]
+[BlackTeam "Andorra"]
+[BlackTeamCountry "AND"]
+
+1. e4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. d3 d6 6. Be3 e5 7. f4 Nge7 8. Nf3 Nd4 9. O-O Bg4 10. Qd2 O-O 11. Rf2 exf4 12. Bxf4 Nxf3+ 13. Bxf3 Bxf3 14. Rxf3 d5 15. Raf1 Qd7 16. Bh6 Rac8 17. Bxg7 Kxg7 18. Qf2 f5 19. exf5 Rxf5 20. g4 Rxf3 21. Qxf3 Qe6 22. Nb5 g5 23. Nxa7 Rd8 24. Nb5 Ng6 25. Nc7 Qe5 26. Qf7+ Kh6 27. Ne6 Rd6 28. Nf8 Qd4+ 29. Kh1 Qg7 30. Nxg6 Rxg6 31. Qxd5 Qxb2 32. Qxc5 Rf6 33. Rxf6+ Qxf6 34. Kg2 Qe6 35. Qf8+ Kg6 36. Qf5+ Qxf5 37. gxf5+ Kxf5 38. Kf3 h5 39. c4 g4+ 40. Kg3 Kg5 41. d4 h4+ 42. Kf2 Kf4 43. a4 Ke4 44. d5 Ke5 45. a5 Kd6 46. Ke2 Ke5 47. Ke3 h3 48. Kf2 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.04.15"]
+[Round "11.2"]
+[White "Ribera Verganzones, Josep Maria"]
+[Black "Barbero Sendic, Alejandro"]
+[Result "1/2-1/2"]
+[ECO "C11"]
+[WhiteElo "2284"]
+[BlackElo "2455"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "62"]
+[EventDate "2023.??.??"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 dxe4 5. Nxe4 Be7 6. Bxf6 Bxf6 7. Nf3 Nd7 8.
+Bd3 c5 9. Nxf6+ Nxf6 10. Bb5+ Bd7 11. Bxd7+ Nxd7 12. O-O cxd4 13. Qxd4 O-O 14.
+Rfd1 Nf6 15. h3 Qa5 16. Qe5 Qxe5 17. Nxe5 Rfd8 18. Kf1 Kf8 19. Ke2 Ke7 20. c4
+Ne4 21. Ke3 Nd6 22. Rac1 f6 23. Nd3 a5 24. g4 Rac8 25. b3 h5 26. f3 e5 27. Nf2
+b6 28. f4 hxg4 29. fxe5 fxe5 30. hxg4 Ke6 31. a4 Rh8 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.01.21"]
+[Round "1.4"]
+[White "Ribera Veganzones, Josep"]
+[Black "Rizouk, Aimen"]
+[Result "1/2-1/2"]
+[ECO "C54"]
+[WhiteElo "2308"]
+[BlackElo "2543"]
+[PlyCount "74"]
+[EventDate "2023.01.22"]
+[SourceDate "2023.01.21"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 d6 6. O-O a6 7. a4 Ba7 8. Re1
+O-O 9. Nbd2 Ng4 10. Re2 Kh8 11. h3 Nh6 12. Nf1 f5 13. Bg5 Qe8 14. Bxh6 gxh6 15.
+exf5 Bxf5 16. Bd5 Ne7 17. Bxb7 Rb8 18. Be4 Bxe4 19. Rxe4 Rxb2 20. Re2 Rxe2 21.
+Qxe2 Nd5 22. d4 Nxc3 23. Qd3 exd4 24. Qxa6 Bc5 25. N1d2 Ne2+ 26. Kh2 Nf4 27. g3
+Nd5 28. Re1 Qf7 29. Re4 Qd7 30. a5 Nc3 31. Rg4 Qa4 32. Kg2 Qa2 33. Qc6 h5 34.
+Rg5 Qf7 35. a6 Bb6 36. g4 hxg4 37. hxg4 Qe7 1/2-1/2

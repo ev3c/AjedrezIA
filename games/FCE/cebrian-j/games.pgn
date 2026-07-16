@@ -1,0 +1,53 @@
+[Event "Camp. Catalunya eq. ( 2 cat. )"]
+[Site "?"]
+[Date "1931.12.01"]
+[Round "3"]
+[White "Gausachs Sagi, Jose"]
+[Black "Cebrian, J."]
+[Result "0-1"]
+[ECO "D08"]
+[PlyCount "44"]
+[EventDate "1931.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 e5 3. e3 Nc6 4. Nc3 exd4 5. exd4 Nf6 6. Nf3 Bg4 7. Be2 dxc4 8.
+O-O Bxf3 9. Bxf3 Nxd4 10. Bxb7 Rb8 11. Ba6 Bd6 12. Re1+ Kf8 13. Bxc4 h5 14. h3
+Bc5 15. b3 Qd6 16. Qd3 Rd8 17. Bb2 Qf4 18. Rad1 Ng4 19. hxg4 hxg4 20. Qg3 Qxg3
+21. fxg3 Ne2+ 22. Kf1 Nxg3# 0-1
+
+[Event "Camp. Catalunya eq. ( 1 cat. )"]
+[Site "?"]
+[Date "1932.03.01"]
+[Round "8"]
+[White "Cebrian, J."]
+[Black "Catala Vallve, Xavier"]
+[Result "0-1"]
+[ECO "C02"]
+[PlyCount "32"]
+[EventDate "1932.??.??"]
+[EventType "team"]
+[EventRounds "18"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Be3 Qb6 6. b3 cxd4 7. cxd4 Bb4+ 8. Ke2
+Be7 9. f4 Nh6 10. Kf2 Nf5 11. Nf3 Bd7 12. a3 Rc8 13. Nc3 Nxe3 14. Kxe3 Nxd4 15.
+Nxd4 Rxc3+ 16. Bd3 Bc5 0-1
+
+[Event "Camp. Catalunya eq. ( 1 cat. )"]
+[Site "?"]
+[Date "1932.??.??"]
+[Round "8"]
+[White "Cebrian, J."]
+[Black "Catalan, Agustin"]
+[Result "0-1"]
+[ECO "C02"]
+[PlyCount "32"]
+[EventDate "1932.??.??"]
+[EventType "team"]
+[EventRounds "18"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Be3 Qb6 6. b3 cxd4 7. cxd4 Bb4+ 8. Ke2
+Be7 9. f4 Nh6 10. Kf2 Nf5 11. Nf3 Bd7 12. a3 Rc8 13. Nc3 Nxe3 14. Kxe3 Nxd4 15.
+Nxd4 Rxc3+ 16. Bd3 Bc5 0-1

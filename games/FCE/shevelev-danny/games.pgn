@@ -1,0 +1,194 @@
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.24"]
+[Round "3"]
+[White "Comas Fabrego, Luis"]
+[Black "Shevelev, Danny"]
+[Result "1-0"]
+[ECO "A05"]
+[WhiteElo "2481"]
+[BlackElo "2283"]
+[PlyCount "75"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. Nf3 Nf6 2. b3 a5 3. c4 e6 4. Nc3 d5 5. e3 c5 6. Bb2 Nc6 7. cxd5 exd5 8. Bb5
+d4 9. exd4 cxd4 10. Ne2 d3 11. Ned4 Qe7+ 12. Kf1 Bd7 13. Nxc6 Bxc6 14. Bxc6+
+bxc6 15. Ne5 Ne4 16. Qe1 Qh4 17. f3 Qxe1+ 18. Rxe1 Nxd2+ 19. Kf2 Bc5+ 20. Kg3
+O-O-O 21. Nxf7 Bb4 22. Nxh8 Rxh8 23. Re3 Rd8 24. Rd1 Rd5 25. Bc1 Nb1 26. Rexd3
+Nc3 27. Rxd5 cxd5 28. Rd2 d4 29. Bb2 Nxa2 30. Rxd4 g6 31. Kg4 Be7 32. f4 Nb4
+33. Bc3 Nc2 34. Rc4+ Kd7 35. Bxa5 Ne3+ 36. Kf3 Nxc4 37. bxc4 Kc6 38. Ke4 1-0
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.25"]
+[Round "4"]
+[White "Shevelev, Danny"]
+[Black "Tahay, Romain"]
+[Result "1-0"]
+[ECO "D00"]
+[WhiteElo "2283"]
+[BlackElo "2052"]
+[PlyCount "51"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 g6 3. Nc3 d5 4. Bf4 Bg7 5. Qd2 O-O 6. Bh6 c6 7. Bxg7 Kxg7 8.
+e3 b5 9. Bd3 Nbd7 10. a4 Qa5 11. b4 Qxb4 12. axb5 c5 13. Ra4 Qb2 14. Nd1 Qb1
+15. c4 Ne4 16. Bxb1 Nxd2 17. Nxd2 Nb6 18. Ra5 cxd4 19. c5 dxe3 20. cxb6 exd2+
+21. Kxd2 a6 22. Bd3 Rb8 23. bxa6 Rxb6 24. a7 Bb7 25. Ne3 Ra8 26. Rb1 1-0
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.26"]
+[Round "5"]
+[White "Zoler, Dan"]
+[Black "Shevelev, Danny"]
+[Result "1-0"]
+[ECO "D16"]
+[WhiteElo "2499"]
+[BlackElo "2283"]
+[PlyCount "65"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 e6 6. e3 c5 7. Bxc4 cxd4 8. Nxd4
+Bd7 9. O-O Nc6 10. Nf3 Bb4 11. e4 Qa5 12. Qe2 Ne5 13. Nxe5 Qxe5 14. f4 Qh5 15.
+Qxh5 Nxh5 16. e5 Rc8 17. Bb5 Bxc3 18. bxc3 g6 19. Ba3 Rxc3 20. Rac1 Rc6 21.
+Bxc6 Bxc6 22. g4 Ng7 23. Rxc6 bxc6 24. Rb1 Kd7 25. Rb7+ Kc8 26. Rxf7 Ne8 27.
+Rxa7 h5 28. g5 Rg8 29. Bc5 Rg7 30. Ra8+ Kd7 31. Bb6 c5 32. a5 Nc7 33. Bxc7 1-0
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.27"]
+[Round "6"]
+[White "Shevelev, Danny"]
+[Black "Elguezabal Selioutin, Dario"]
+[Result "1-0"]
+[ECO "D05"]
+[WhiteElo "2283"]
+[BlackElo "1871"]
+[PlyCount "77"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Nf3 Nf6 3. e3 c5 4. b3 Nc6 5. Bb2 e6 6. Bd3 Bd6 7. Ne5 O-O 8. a3
+Ne7 9. Nd2 b6 10. Qf3 Bb7 11. Qh3 Ng6 12. Ndf3 Ne4 13. Nxg6 hxg6 14. dxc5 Nxc5
+15. Qg4 Nxd3+ 16. cxd3 Ba6 17. h4 Bc8 18. Be5 Bxe5 19. Nxe5 Qc7 20. Qd4 Qc5 21.
+Kd2 Qxd4 22. exd4 Ba6 23. f4 Rfc8 24. Rac1 Rxc1 25. Rxc1 Rc8 26. Rxc8+ Bxc8 27.
+Nc6 Bd7 28. Nxa7 Kh7 29. b4 b5 30. a4 bxa4 31. b5 a3 32. Kc3 a2 33. Kb2 a1=Q+
+34. Kxa1 Bxb5 35. Nxb5 Kh6 36. g4 f5 37. g5+ Kh5 38. Nc7 Kxh4 39. Nxe6 1-0
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.28"]
+[Round "7"]
+[White "Dvirnyy, Danyyil"]
+[Black "Shevelev, Danny"]
+[Result "1-0"]
+[ECO "B12"]
+[WhiteElo "2558"]
+[BlackElo "2283"]
+[PlyCount "63"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. Bd3 Bxd3 6. Qxd3 e6 7. Bg5 Qa5+ 8. Nd2
+Qa6 9. c4 Bb4 10. b3 c5 11. Ngf3 Nc6 12. dxc5 dxc4 13. bxc4 Nge7 14. O-O Bxd2
+15. Qxd2 Qxc4 16. Bxe7 Nxe7 17. Rab1 Nd5 18. Rxb7 O-O 19. Qg5 Qxc5 20. Rc1 Qa3
+21. Nd4 Rfb8 22. Nxe6 Qxc1+ 23. Qxc1 Rxb7 24. Qc6 Rb1+ 25. Kh2 Nb6 26. Ng5 Re1
+27. Qf3 Rxe5 28. Qxf7+ Kh8 29. Qxh5+ Kg8 30. Qh7+ Kf8 31. Qh8+ Ke7 32. Qxg7+
+1-0
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.29"]
+[Round "8"]
+[White "Shevelev, Danny"]
+[Black "Sokolinsky, Yaakov"]
+[Result "1-0"]
+[ECO "D02"]
+[WhiteElo "2283"]
+[BlackElo "1827"]
+[PlyCount "37"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Nf3 Nf6 3. g3 Bf5 4. Bg2 h6 5. c4 e6 6. cxd5 exd5 7. Qb3 Qc8 8. Nc3
+c6 9. Ne5 Bd6 10. Bf4 Bxe5 11. Bxe5 O-O 12. Bxf6 gxf6 13. O-O Bg6 14. Rac1 Kg7
+15. e4 dxe4 16. Nxe4 Bxe4 17. Bxe4 Qg4 18. Qxb7 Qxe4 19. Qxa8 1-0
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.30"]
+[Round "9"]
+[White "Riff, Jean Noel"]
+[Black "Shevelev, Danny"]
+[Result "1-0"]
+[ECO "B18"]
+[WhiteElo "2493"]
+[BlackElo "2283"]
+[PlyCount "51"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. Nh3 e6 7. Bc4 Bd6 8.
+O-O Qc7 9. f4 Ne7 10. Ng5 h6 11. N5e4 Nd7 12. c3 Nf6 13. Nxd6+ Qxd6 14. a4 h5
+15. b3 h4 16. Ba3 Qd7 17. Nh1 h3 18. g3 Ned5 19. Qe1 Be4 20. Nf2 Bg2 21. Nd3
+Ne4 22. Ne5 Qc7 23. f5 Bxf1 24. fxe6 f5 25. Qxf1 g6 26. Bxd5 1-0

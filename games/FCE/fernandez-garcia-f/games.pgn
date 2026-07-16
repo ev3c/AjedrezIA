@@ -1,0 +1,238 @@
+[Event "Figueres op"]
+[Site "Figueres"]
+[Date "2014.08.11"]
+[Round "1.4"]
+[White "Oliva, K."]
+[Black "Fernandez Garcia, F."]
+[Result "1/2-1/2"]
+[ECO "E65"]
+[WhiteElo "2446"]
+[BlackElo "2070"]
+[PlyCount "62"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 g6 2. c4 Bg7 3. d4 Nf6 4. Nc3 d6 5. g3 O-O 6. Bg2 c5 7. O-O Nc6 8. dxc5
+dxc5 9. Be3 Ng4 10. Bf4 Be6 11. Nd5 Nge5 12. Nd2 Rc8 13. Rc1 h6 14. h3 Qd7 15.
+Kh2 Rfd8 16. b3 b6 17. Nb1 Bxd5 18. cxd5 Nb4 19. Nc3 e6 20. dxe6 Qxe6 21. Qe1
+Rd7 22. Be3 Rcd8 23. a3 Nbd3 24. exd3 Nxd3 25. Qd1 Nxc1 26. Qxc1 Qxb3 27. Ne4
+Rd1 28. Rxd1 Rxd1 29. Nxc5 Rxc1 30. Nxb3 Rc3 31. Bd5 b5 1/2-1/2
+
+[Event "Figueres op"]
+[Site "Figueres"]
+[Date "2014.08.12"]
+[Round "2.10"]
+[White "Fernandez Garcia, F."]
+[Black "Kohlweyer, B."]
+[Result "0-1"]
+[ECO "A37"]
+[WhiteElo "2070"]
+[BlackElo "2422"]
+[PlyCount "110"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 g6 2. g3 Bg7 3. Bg2 c5 4. Nc3 Nc6 5. Nf3 b6 6. e3 Bb7 7. O-O Bxc3 8. bxc3
+d6 9. a4 Qd7 10. d3 e6 11. e4 h6 12. Qe2 Nge7 13. Re1 O-O-O 14. Nd2 Na5 15. Qd1
+Kb8 16. Nb3 Nec6 17. Nxa5 Nxa5 18. Ra2 Bc6 19. Qc2 f6 20. Be3 Kc7 21. Rea1 g5
+22. Bf1 Qh7 23. f4 gxf4 24. Bxf4 e5 25. Be3 f5 26. exf5 Qxf5 27. Bg2 Bxg2 28.
+Kxg2 d5 29. Rf1 Qe6 30. Qf2 dxc4 31. Qf7+ Qxf7 32. Rxf7+ Rd7 33. Rxd7+ Kxd7 34.
+dxc4 Nxc4 35. Bf2 Ke6 36. a5 Nxa5 37. Bxc5 Rh7 38. Kf3 Nc4 39. Be3 h5 40. Ra4
+Kd5 41. Ra1 Rf7+ 42. Ke2 Ke4 43. Bf2 Rc7 44. Ra4 Kd5 45. h3 a5 46. Ra1 b5 47.
+Rd1+ Ke4 48. Rd8 Na3 49. Be1 Nc2 50. Bd2 b4 51. cxb4 axb4 52. Rb8 b3 53. g4
+Nd4+ 54. Kd1 hxg4 55. hxg4 Ra7 0-1
+
+[Event "Figueres op"]
+[Site "Figueres"]
+[Date "2014.08.13"]
+[Round "3.14"]
+[White "Vinardell Cruañas, S."]
+[Black "Fernandez Garcia, F."]
+[Result "1/2-1/2"]
+[ECO "B35"]
+[WhiteElo "2167"]
+[BlackElo "2070"]
+[PlyCount "80"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 g6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Bg7 6. Be3 Nf6 7. Bc4 O-O 8.
+Bb3 a5 9. O-O d6 10. f3 Nd7 11. Qd2 Nxd4 12. Bxd4 Nc5 13. Rfd1 Bxd4+ 14. Qxd4
+Be6 15. Bxe6 Nxe6 16. Qe3 Qb8 17. a4 Qa7 18. Qxa7 Rxa7 19. Nd5 Re8 20. c3 Nc5
+21. Re1 Kf8 22. Re3 Rc8 23. e5 e6 24. Nf6 dxe5 25. Rxe5 Ke7 26. Ne4 b6 27. Nxc5
+bxc5 28. Rd1 Rd7 29. Rxd7+ Kxd7 30. Re2 Rc6 31. Kf2 Rd6 32. Ke3 Kc6 33. b3 Rd5
+34. Rd2 f6 35. Rd3 e5 36. Ke4 f5+ 37. Ke3 Rxd3+ 38. Kxd3 Kd5 39. Ke3 Kd6 40.
+Kd3 Kd5 1/2-1/2
+
+[Event "Figueres op"]
+[Site "Figueres"]
+[Date "2014.08.14"]
+[Round "4.14"]
+[White "Fernandez Garcia, F."]
+[Black "Serra Canals, O."]
+[Result "1/2-1/2"]
+[ECO "A13"]
+[WhiteElo "2070"]
+[BlackElo "1892"]
+[PlyCount "73"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 e6 2. g3 d5 3. Bg2 Nf6 4. Nf3 dxc4 5. Na3 Bxa3 6. bxa3 c3 7. d3 O-O 8.
+Qc2 Nc6 9. Qxc3 Nd5 10. Qc2 e5 11. O-O Bg4 12. Bb2 f6 13. Rac1 Kh8 14. e3 Re8
+15. h3 Bh5 16. Nd2 Bg6 17. Ne4 Nce7 18. Nc5 Qc8 19. e4 Nb6 20. a4 Nc6 21. Rfd1
+Nd7 22. Nb3 Bf7 23. d4 Nb4 24. Qb1 c6 25. d5 c5 26. a3 Na6 27. Na5 b6 28. Nc4
+Qd8 29. Bc3 Nc7 30. Qc2 Rb8 31. Rb1 Rf8 32. Rb3 Ne8 33. Rbb1 Qc7 34. a5 Nd6 35.
+axb6 axb6 36. Bd2 Bg6 37. g4 1/2-1/2
+
+[Event "Figueres op"]
+[Site "Figueres"]
+[Date "2014.08.15"]
+[Round "5.12"]
+[White "Parals Marce, L."]
+[Black "Fernandez Garcia, F."]
+[Result "1/2-1/2"]
+[ECO "A48"]
+[WhiteElo "1962"]
+[BlackElo "2070"]
+[PlyCount "22"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 g6 3. Bf4 Bg7 4. h3 c5 5. e3 O-O 6. c3 b6 7. Nbd2 Bb7 8. Bd3
+d6 9. Qe2 Re8 10. Bb5 Nbd7 11. Rd1 a6 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2015.01.31"]
+[Round "2.10"]
+[White "Subirachs Mancebo, G."]
+[Black "Fernandez Garcia, F."]
+[Result "1-0"]
+[ECO "B26"]
+[WhiteElo "2212"]
+[BlackElo "2238"]
+[PlyCount "37"]
+[EventDate "2015.??.??"]
+[EventType "team"]
+
+1. Nc3 c5 2. e4 g6 3. g3 Bg7 4. Bg2 Nc6 5. d3 d6 6. Be3 Rb8 7. Qd2 b5 8. Nf3 b4
+9. Nd1 a5 10. O-O Nf6 11. Bh6 O-O 12. Bxg7 Kxg7 13. Ne3 e6 14. Nh4 d5 15. exd5
+exd5 16. f4 h6 17. Rae1 Qd6 18. h3 Bb7 19. Nhf5+ 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2015.02.14"]
+[Round "4.10"]
+[White "Fernandez Garcia, F."]
+[Black "Fernandez Serrano, P."]
+[Result "1/2-1/2"]
+[ECO "A26"]
+[WhiteElo "2238"]
+[BlackElo "2256"]
+[PlyCount "77"]
+[EventDate "2015.??.??"]
+[EventType "team"]
+
+1. c4 g6 2. g3 Bg7 3. Bg2 d6 4. Nc3 Nc6 5. e4 e5 6. d3 Be6 7. Nge2 Qd7 8. Nd5
+Nd8 9. Nec3 c6 10. Ne3 Bh3 11. Bxh3 Qxh3 12. Qg4 Qxg4 13. Nxg4 Ne6 14. h4 h5
+15. Ne3 Bh6 16. Nc2 f5 17. f3 Nf6 18. Bxh6 Rxh6 19. Ne2 Rd8 20. O-O-O Rh7 21.
+exf5 gxf5 22. Ne3 e4 23. fxe4 fxe4 24. Rhf1 exd3 25. Rxd3 Nc5 26. Rd4 Re7 27.
+Rxf6 Rxe3 28. Nf4 Rxg3 29. Nxh5 Rg1+ 30. Kc2 Rg2+ 31. Kc1 Ke7 32. Rf1 Rh2 33.
+Ng3 Rg8 34. Nf5+ Kd7 35. Rxd6+ Kc7 36. Rd2 Rxd2 37. Kxd2 Rg2+ 38. Kc3 Rh2 39.
+b4 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2015.02.21"]
+[Round "5.10"]
+[White "Lluis Alavedra, A."]
+[Black "Fernandez Garcia, F."]
+[Result "0-1"]
+[ECO "B70"]
+[WhiteElo "2201"]
+[BlackElo "2238"]
+[PlyCount "92"]
+[EventDate "2015.??.??"]
+[EventType "team"]
+
+1. e4 c5 2. Nf3 g6 3. d4 cxd4 4. Nxd4 Bg7 5. Nc3 Nc6 6. Nde2 Nf6 7. g3 d6 8.
+Bg2 O-O 9. O-O Bd7 10. h3 Rc8 11. a4 Ne8 12. Nd5 e6 13. Ne3 Ne5 14. Ra2 Nc4 15.
+b3 Nxe3 16. Bxe3 a6 17. c4 Bc6 18. Bd4 Qc7 19. Bxg7 Nxg7 20. Nd4 e5 21. Nxc6
+Qxc6 22. Rd2 Rcd8 23. f4 Ne6 24. f5 Nd4 25. f6 Qb6 26. a5 Qxb3 27. Qg4 Qe3+ 28.
+Rff2 h5 29. Qh4 Ne6 30. g4 hxg4 31. hxg4 Qg5 32. Qxg5 Nxg5 33. Rd5 Ne6 34. Rb2
+Rd7 35. Bf1 Ng5 36. Bd3 Rc8 37. Rb6 Rc6 38. c5 Rxb6 39. axb6 Nh7 40. g5 Nxg5
+41. Bxa6 Nxe4 42. Bb5 Nxf6 43. Bxd7 Nxd5 44. c6 Nxb6 45. c7 Kf8 46. Kf2 Ke7 0-1
+
+[Event "Lliga Catalana DH Final A"]
+[Site "?"]
+[Date "2015.03.14"]
+[Round "8.9"]
+[White "Fernandez Garcia, F."]
+[Black "Carrasco Rodriguez, J."]
+[Result "0-1"]
+[ECO "A29"]
+[WhiteElo "2238"]
+[BlackElo "2272"]
+[PlyCount "104"]
+[EventDate "2015.??.??"]
+[EventType "team"]
+
+1. c4 e5 2. g3 Nc6 3. Nc3 Bc5 4. Bg2 Nf6 5. Nf3 d6 6. d3 O-O 7. O-O h6 8. a3 a6
+9. b4 Ba7 10. Bb2 Be6 11. Rc1 Qd7 12. e3 Rfe8 13. b5 axb5 14. Nxb5 Bb6 15. d4
+e4 16. Nd2 Bh3 17. c5 Ba5 18. Nb3 d5 19. Nc3 Qf5 20. Qe2 Bg4 21. f3 exf3 22.
+Bxf3 Bxc3 23. Rxc3 Bxf3 24. Qxf3 Qxf3 25. Rxf3 Ne4 26. Rd3 f6 27. Rf1 Ra4 28.
+Nc1 Na5 29. Ne2 Nc4 30. Rb1 Ned2 31. Ra1 Rxe3 32. Rxe3 Nxe3 33. Bc1 Nb3 34. Rb1
+Nxc1 35. Nxc1 Rxd4 36. Ne2 Rc4 37. Rxb7 Rxc5 38. Nd4 Rc1+ 39. Kf2 Ng4+ 40. Kg2
+Rc4 41. Ne6 Rc2+ 42. Kg1 Nxh2 43. Nxc7 d4 44. Ne6 d3 45. Rxg7+ Kh8 46. Rd7 d2
+47. Nf4 Rc1+ 48. Kxh2 d1=Q 49. Rxd1 Rxd1 50. Nh5 f5 51. Kg2 Kh7 52. Kf3 Rd3+
+0-1
+
+[Event "Lliga Catalana DH Final A"]
+[Site "?"]
+[Date "2015.04.11"]
+[Round "10.8"]
+[White "Moreno Garcia, EP."]
+[Black "Fernandez Garcia, F."]
+[Result "1/2-1/2"]
+[ECO "A45"]
+[WhiteElo "2158"]
+[BlackElo "2235"]
+[PlyCount "45"]
+[EventDate "2015.??.??"]
+[EventType "team"]
+
+1. d4 Nf6 2. Bg5 c5 3. Nf3 h6 4. Bxf6 gxf6 5. c3 cxd4 6. cxd4 d6 7. d5 Bg7 8.
+Nc3 Qa5 9. e3 O-O 10. Bd3 f5 11. Qb3 Nd7 12. O-O Nc5 13. Qc2 Nxd3 14. Qxd3 Qb4
+15. Rab1 Bd7 16. a3 Qg4 17. Ne2 Rac8 18. Nf4 Be5 19. h3 Qg7 20. Nh5 Qg6 21. Nf4
+Qg7 22. Nh5 Qg6 23. Nf4 1/2-1/2
+
+[Event "Lliga Catalana DH Final A"]
+[Site "?"]
+[Date "2015.04.18"]
+[Round "11.9"]
+[White "Tallo Dominguez, I."]
+[Black "Fernandez Garcia, F."]
+[Result "1-0"]
+[ECO "B72"]
+[WhiteElo "2339"]
+[BlackElo "2235"]
+[PlyCount "54"]
+[EventDate "2015.??.??"]
+[EventType "team"]
+
+1. e4 c5 2. Nf3 g6 3. d4 cxd4 4. Nxd4 Bg7 5. Nc3 Nc6 6. Be3 Nf6 7. Bc4 O-O 8.
+Bb3 d6 9. h3 Bd7 10. O-O Nxd4 11. Bxd4 Bc6 12. Qd3 Nd7 13. Bxg7 Kxg7 14. Rad1
+Kg8 15. f4 a5 16. Kh1 Qb6 17. Bd5 Nc5 18. Qd4 Nd7 19. Qd3 Nc5 20. Qf3 e6 21.
+Bxc6 Qxc6 22. f5 Nd7 23. Qf4 Ne5 24. Qh6 gxf5 25. exf5 f6 26. fxe6 Ng6 27. Nd5
+f5 1-0

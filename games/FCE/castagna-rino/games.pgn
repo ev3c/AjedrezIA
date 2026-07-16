@@ -1,0 +1,86 @@
+[Event "Camp. Europa eq. sf. España-Suiza m"]
+[Site "Barcelona"]
+[Date "1961.??.??"]
+[Round "?"]
+[White "Castagna, Rino"]
+[Black "Perez Gozalbes, Eduardo"]
+[Result "1-0"]
+[ECO "E16"]
+[PlyCount "65"]
+[EventDate "1961.02.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. d4 Nf6 2. Nf3 e6 3. g3 b6 4. c4 Bb7 5. Bg2 Bb4+ 6. Bd2 Be7 7. Nc3 c5 8. d5
+exd5 9. Nh4 O-O 10. cxd5 d6 11. Nf5 Bc8 12. Qc2 Ne8 13. O-O Bf6 14. Bh3 Kh8 15.
+Ne4 g6 16. Nfxd6 Nxd6 17. Nxf6 Bxh3 18. Bc3 Nf5 19. Rfd1 Ng7 20. Qe4 Nd7 21.
+Qh4 Nxf6 22. Bxf6 Qc8 23. Qh6 Rg8 24. e4 Bd7 25. Rac1 Qa6 26. Rd2 Qxa2 27. f4
+Qa4 28. Re1 Rae8 29. e5 Qb4 30. f5 Bxf5 31. e6 fxe6 32. dxe6 Rxe6 33. Qxg7+ 1-0
+
+[Event "Camp. Europa eq. sf. España-Suiza m"]
+[Site "Barcelona"]
+[Date "1961.??.??"]
+[Round "?"]
+[White "Perez Gozalbes, Eduardo"]
+[Black "Castagna, Rino"]
+[Result "1-0"]
+[ECO "E81"]
+[Annotator "Travesset Barba,Joaquim"]
+[PlyCount "87"]
+[EventDate "1961.02.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Nge2 (6. Be3) 6... e5 7.
+Bg5 Nbd7 8. d5 Nc5 9. Qd2 Re8 10. O-O-O Bd7 11. g4 a6 12. Ng3 b5 13. h4 b4 14.
+Nb1 Ba4 15. Re1 (15. b3 $4 Bxb3 $19) 15... Bb3 16. Qxb4 $1 Bxa2 17. Nd2 Rb8 18.
+Qa3 Bb3 19. Re3 Ba4 (19... h6 $142) 20. b4 $1 Rxb4 21. Qxb4 c6 22. Ra3 a5 23.
+Qc3 Qc7 (23... cxd5) 24. Bxf6 Bxf6 25. g5 Bg7 26. Qa1 Rb8 27. Rxa4 Nxa4 28.
+Qxa4 Qb6 29. Bd3 Qe3 30. Kc2 cxd5 31. Rb1 (31. exd5 $2 e4) 31... Rxb1 32. Nxb1
+Qxf3 33. c5 $1 Qf2+ 34. Ne2 Qxc5+ 35. Nbc3 dxe4 36. Bxe4 Qc8 37. Qxa5 h6 38.
+Qd5 hxg5 39. Bxg6 gxh4 40. Qxf7+ Kh8 41. Bf5 Qf8 42. Qg6 Kg8 43. Ne4 d5 44.
+Be6+ 1-0
+
+[Event "Camp. Europa eq. prel. gr. 1"]
+[Site "Barcelona"]
+[Date "1967.??.??"]
+[Round "1.5"]
+[White "Albareda Creus, Miguel"]
+[Black "Castagna, Rino"]
+[Result "0-1"]
+[ECO "E83"]
+[PlyCount "90"]
+[EventDate "1967.09.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 Nc6 7. Nge2 a6 8. Qd2
+Bd7 9. Bh6 e5 10. Bxg7 Kxg7 11. d5 Na5 12. Nc1 b6 13. g4 h5 14. h3 hxg4 15.
+fxg4 Rh8 16. Rh2 b5 17. cxb5 axb5 18. b4 Nc4 19. Bxc4 bxc4 20. a3 Rh4 21. Ra2
+Nh7 22. Nd1 Ng5 23. Qe3 f5 24. exf5 gxf5 25. Nf2 f4 26. Qc3 c6 27. dxc6 Bxc6
+28. Kf1 Nf3 29. Rg2 Qb6 30. Ne2 Nd4 31. Rg1 Nxe2 32. Kxe2 Qd4 33. Qxd4 exd4 34.
+Rd1 d3+ 35. Kd2 Bg2 36. Kc3 d5 37. a4 Rhh8 38. a5 Rhd8 39. Kd4 Bf3 40. Rb1 Rac8
+41. a6 d2 42. Rxd2 c3 43. Ra2 Re8 44. b5 c2 45. Rc1 Rc4+ 0-1
+
+[Event "Camp. Europa eq. prel. gr. 1"]
+[Site "Barcelona"]
+[Date "1967.09.16"]
+[Round "2"]
+[White "Castagna, Rino"]
+[Black "De Bruycker, Bernard"]
+[Result "1-0"]
+[ECO "E62"]
+[PlyCount "81"]
+[EventDate "1967.09.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 g6 3. g3 Bg7 4. Bg2 O-O 5. c4 d6 6. Nc3 Nc6 7. d5 Na5 8. b3 c5
+9. Bb2 a6 10. Nd2 Bg4 11. O-O Bh6 12. Qe1 Bd7 13. Nde4 Ne8 14. e3 b5 15. Ne2 f5
+16. Nd2 Rb8 17. Bc3 b4 18. Bb2 g5 19. f4 g4 20. e4 Ng7 21. e5 e6 22. exd6 Rb6
+23. Nc1 Rxd6 24. Be5 Rb6 25. Nd3 Qc8 26. Qf2 Nb7 27. a3 a5 28. axb4 axb4 29.
+Ra7 exd5 30. Bxd5+ Ne6 31. Nxc5 Nbxc5 32. Rc7 Qa6 33. Qxc5 Rf7 34. Bxe6 Bxe6
+35. Ra1 Bf8 36. Qd4 Rd6 37. Bxd6 Qxd6 38. Qxd6 Bxd6 39. Rc6 Rd7 40. Raa6 Bf8
+41. Rxe6 1-0

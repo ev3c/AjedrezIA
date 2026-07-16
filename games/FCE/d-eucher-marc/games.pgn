@@ -1,0 +1,106 @@
+[Event "Tarragona Int"]
+[Site "Tarragona"]
+[Date "1957.12.13"]
+[Round "1"]
+[White "D'Eucher, Marc"]
+[Black "Ridameya Tatche, Jose"]
+[Result "0-1"]
+[ECO "C32"]
+[PlyCount "83"]
+[EventDate "1957.12.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. f4 d5 3. exd5 e4 4. d3 Nf6 5. Qe2 Bg4 6. Nf3 Qxd5 7. Nc3 Bb4 8. Bd2
+Bxc3 9. Bxc3 O-O 10. Bxf6 exf3 11. Qe5 Qc6 12. Qg5 Qxf6 13. Qxf6 gxf6 14. g3
+Nc6 15. Kf2 Rad8 16. h3 Be6 17. c3 f5 18. Rh2 Nb8 19. Kxf3 c5 20. a3 a5 21. g4
+Nc6 22. Be2 Kh8 23. Rg1 f6 24. g5 fxg5 25. fxg5 Ne5+ 26. Kf4 Ng6+ 27. Kf3 Bd5+
+28. Kf2 Nf4 29. Bf1 Bc6 30. Rg3 Rfe8 31. h4 Nh5 32. Re3 Rxe3 33. Kxe3 f4+ 34.
+Kf2 Ng3 35. h5 Nxf1 36. Kxf1 Rxd3 37. g6 f3 38. Rh4 hxg6 39. hxg6+ Kg7 40. Rh5
+Rd2 41. Rxc5 Rxb2 42. Rb5 0-1
+
+[Event "Tarragona Int"]
+[Site "Tarragona"]
+[Date "1957.12.14"]
+[Round "2"]
+[White "D'Eucher, Marc"]
+[Black "O' Kelly de Galway, Alberic"]
+[Result "0-1"]
+[ECO "A49"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "90"]
+[EventDate "1957.12.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. b3 d6 3. d4 g6 4. Bb2 Bg7 5. g3 O-O 6. Bg2 Nbd7 7. O-O e5 8. dxe5
+Ng4 9. Qc1 Ngxe5 10. Nxe5 Nxe5 11. f4 Ng4 12. Bxg7 Kxg7 13. h3 Nf6 14. e4 a5
+15. c4 Nd7 16. Qb2+ f6 17. Nc3 Nc5 18. Rad1 Be6 19. Kh2 Qd7 20. Rd2 $6 (20. e5
+$1 $16) 20... Kh8 21. Rfd1 Qg7 22. Nd5 Rae8 23. Nxc7 $2 Qxc7 24. Rxd6 Kg8 25.
+Qd4 Re7 26. f5 Bf7 27. Rxf6 Rd7 28. Rd6 Rxd6 29. Qxd6 Qxd6 30. Rxd6 Re8 31. Rd4
+Kg7 32. g4 Kf6 33. Kg3 Ke5 34. Rd1 Re7 35. fxg6 hxg6 36. Rf1 Rd7 37. g5 Ne6 38.
+h4 Rd3+ 39. Kg4 Nf4 40. Rxf4 Be6+ 41. Rf5+ gxf5+ 42. exf5 Bxf5+ 43. Kh5 Rd8 44.
+g6 Kf6 45. g7 Rg8 0-1
+
+[Event "Tarragona Int"]
+[Site "Tarragona"]
+[Date "1957.12.15"]
+[Round "3"]
+[White "Rossolimo, Nicolas"]
+[Black "D'Eucher, Marc"]
+[Result "1-0"]
+[ECO "A55"]
+[PlyCount "65"]
+[EventDate "1957.12.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 d6 3. Nc3 e5 4. Nf3 Nbd7 5. e4 Be7 6. Be2 O-O 7. O-O c6 8. Qc2
+Qc7 9. Be3 Re8 10. Nd2 Nf8 11. f4 Ne6 12. Nb3 Bf8 13. fxe5 dxe5 14. d5 Nf4 15.
+h3 N4h5 16. Bxh5 Nxh5 17. Qf2 g6 18. Bxa7 f5 19. Rad1 Nf6 20. exf5 gxf5 21. Bc5
+Kh8 22. Rfe1 Qg7 23. Bxf8 Rxf8 24. Nc5 Rg8 25. a3 Ne4 26. N3xe4 fxe4 27. Re3
+Bxh3 28. Rxh3 Qg4 29. Qf6+ Rg7 30. Rd2 Rag8 31. dxc6 e3 32. Rxe3 Qxc4 33. Rc3
+1-0
+
+[Event "Tarragona Int"]
+[Site "Tarragona"]
+[Date "1957.12.16"]
+[Round "4"]
+[White "D'Eucher, Marc"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "0-1"]
+[ECO "B08"]
+[PlyCount "50"]
+[EventDate "1957.12.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Nf3 Bg7 5. h3 O-O 6. Be3 c6 7. Qd2 Re8 8. O-O-O
+b5 9. Bd3 Qa5 10. Kb1 b4 11. Ne2 Na6 12. g4 e5 13. Ng3 Be6 14. b3 Nc7 15. Bh6
+Bh8 16. dxe5 Nd7 17. exd6 Nc5 18. dxc7 Na4 19. Ne2 c5 20. Ng5 c4 21. Bxc4 Bxc4
+22. bxc4 Nb6 23. a3 Qxa3 24. c3 bxc3 25. Qa2 c2+ 0-1
+
+[Event "Tarragona Int"]
+[Site "Tarragona"]
+[Date "1957.12.21"]
+[Round "9"]
+[White "Puig Pulido, Pedro"]
+[Black "D'Eucher, Marc"]
+[Result "1-0"]
+[ECO "B02"]
+[PlyCount "69"]
+[EventDate "1957.12.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 Nf6 2. e5 Nd5 3. Bc4 e6 4. d4 d6 5. Nh3 Nc6 6. exd6 Qxd6 7. O-O Bd7 8.
+Nc3 Nb6 9. Nb5 Qe7 10. Nxc7+ Kd8 11. Nxa8 Nxc4 12. d5 exd5 13. Re1 Qc5 14. Ng5
+N4e5 15. b4 Qc4 16. f4 Bg4 17. Nxf7+ Nxf7 18. Qxg4 Bxb4 19. Rd1 Nh6 20. Qh3 Qe4
+21. Bb2 Nf5 22. Kh1 Re8 23. Rab1 Kc8 24. Be5 Nxe5 25. fxe5 Rxe5 26. Qb3 Ne3 27.
+Rg1 Ng4 28. Rgf1 Rh5 29. Rf8+ Kd7 30. Qa4+ Ke7 31. Qe8+ Kd6 32. Qxh5 Qxc2 33.
+Rd8+ Ke7 34. Qe8+ Kf6 35. Rf1+ 1-0

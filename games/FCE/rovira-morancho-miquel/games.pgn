@@ -1,0 +1,170 @@
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.01.14"]
+[Round "1"]
+[White "Rovira Morancho, Miquel"]
+[Black "Mestre Costas, Jordi"]
+[Result "0-1"]
+[ECO "B21"]
+[WhiteElo "1683"]
+[BlackElo "1289"]
+[PlyCount "100"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. c3 Nf6 5. Bc4 e6 6. Bg5 Be7 7. Qd3 Nc6 8. O-O
+dxc3 9. Bxf6 Bxf6 10. Nxc3 a6 11. e5 Nxe5 12. Nxe5 Bxe5 13. Rad1 O-O 14. f4
+Bxc3 15. bxc3 d5 16. Bb3 b5 17. Bc2 f5 18. Rde1 Bd7 19. Kh1 Rc8 20. g4 Qa5 21.
+gxf5 Rxc3 22. fxe6 Rxd3 23. exd7 Qd8 24. Bxd3 Qxd7 25. Rf3 g6 26. Rfe3 d4 27.
+Re4 Qd5 28. Kg1 Qxa2 29. Rxd4 Qa3 30. Ree4 Qc5 31. Kg2 Qc6 32. Kg3 a5 33. Re7
+Qf6 34. Re5 Kg7 35. Bxb5 Qb6 36. Red5 Rf5 37. Rd7+ Kh6 38. Bc4 Qb8 39. Be2 Qb3+
+40. Rd3 Qb6 41. Bf3 Qg1+ 42. Bg2 Qe1+ 43. Kf3 Qh4 44. Ke2 Qg4+ 45. Bf3 Qxf4 46.
+R7d4 Qe5+ 47. Re4 Qb2+ 48. Ke3 Qb6+ 49. Rdd4 Qb3+ 50. Rd3 Rxf3+ 0-1
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.01.21"]
+[Round "2"]
+[White "Vilaprinyo Fornell, Lluis"]
+[Black "Rovira Morancho, Miquel"]
+[Result "0-1"]
+[ECO "A45"]
+[WhiteElo "1459"]
+[BlackElo "1683"]
+[PlyCount "50"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Bf4 e6 3. e3 c5 4. dxc5 Bxc5 5. Nf3 Nc6 6. Be2 a6 7. O-O b5 8. c3
+O-O 9. b4 Bb6 10. a3 Bb7 11. Ra2 d5 12. Ne5 Nxe5 13. Bxe5 Nd7 14. Bg3 Qe7 15.
+Bf3 Rfd8 16. Rd2 Nf6 17. Re1 Bc7 18. Bh4 h6 19. Bxf6 Qxf6 20. g3 Rab8 21. e4
+dxe4 22. Rxd8+ Rxd8 23. Nd2 exf3 24. Qc2 Qf5 25. Qb2 Qh3 0-1
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.01.28"]
+[Round "3"]
+[White "Rovira Morancho, Miquel"]
+[Black "Aguilera Diaz, Jose Manuel"]
+[Result "1-0"]
+[ECO "C50"]
+[WhiteElo "1683"]
+[BlackElo "1146"]
+[PlyCount "65"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. d4 exd4 3. Nf3 Nc6 4. Bc4 h6 5. O-O d6 6. Nxd4 Nf6 7. Nxc6 bxc6 8.
+e5 dxe5 9. Bxf7+ Ke7 10. Qxd8+ Kxd8 11. Re1 Bd6 12. Bg6 Be6 13. Nc3 Rf8 14. Ne4
+Rb8 15. Nxd6 cxd6 16. f4 Nd7 17. fxe5 Nxe5 18. b3 Bd5 19. c4 Bxc4 20. Ba3 c5
+21. Rxe5 dxe5 22. bxc4 Rf6 23. Be4 Rf4 24. Bd5 Rd4 25. Bxc5 Rd2 26. Bd6 Rb6 27.
+Bxe5 Rg6 28. a4 h5 29. Rb1 h4 30. h3 Rg5 31. Bf4 Rdxg2+ 32. Bxg2 Rxg2+ 33. Kxg2
+1-0
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.02.04"]
+[Round "4"]
+[White "Llacuna Fabregat, Josep Maria"]
+[Black "Rovira Morancho, Miquel"]
+[Result "1-0"]
+[ECO "D00"]
+[WhiteElo "1750"]
+[BlackElo "1683"]
+[PlyCount "53"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 g6 3. Bg5 Bg7 4. Nc3 d5 5. Qd2 O-O 6. Bh6 Ne4 7. Nxe4 dxe4 8.
+Bxg7 Kxg7 9. Ng5 Qd5 10. h4 h6 11. Nh3 Nc6 12. e3 Qd6 13. Be2 e5 14. c3 a5 15.
+Qc2 exd4 16. exd4 e3 17. Bf3 Re8 18. O-O-O Bxh3 19. Rxh3 Qf4 20. Kb1 e2 21. Re1
+Re7 22. Rxe2 Rae8 23. Rxe7 Rxe7 24. Rh1 Nd8 25. Qd3 c6 26. g3 Qd6 27. Rd1 1-0
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.02.18"]
+[Round "6"]
+[White "Soidan Parcerisas, Manel"]
+[Black "Rovira Morancho, Miquel"]
+[Result "0-1"]
+[ECO "B12"]
+[WhiteElo "1851"]
+[BlackElo "1683"]
+[PlyCount "58"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c6 2. d4 d5 3. f3 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. e6 fxe6 8. Qc2
+Nf6 9. dxc5 Ne5 10. Nh3 Nxd3+ 11. Qxd3 e5 12. Ng5 g6 13. Nxh7 Rxh7 14. Qxg6+
+Rf7 15. h4 Qc7 16. h5 e4 17. Be3 exf3 18. O-O Bg4 19. h6 Qe5 20. Qd3 O-O-O 21.
+c6 bxc6 22. Qa6+ Kd7 23. Bxa7 Qe2 24. Qb7+ Ke8 25. Qxc6+ Bd7 26. Rf2 Qe1+ 27.
+Rf1 Qxf1+ 28. Kxf1 fxg2+ 29. Kxg2 Bxc6 0-1
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.02.25"]
+[Round "7"]
+[White "Rovira Morancho, Miquel"]
+[Black "Algarte Cortes, Serafin Ramon"]
+[Result "0-1"]
+[ECO "C50"]
+[WhiteElo "1683"]
+[BlackElo "1704"]
+[PlyCount "68"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Bc4 Be7 5. O-O d6 6. Nxd4 Bd7 7. Nc3 Nf6 8.
+Nd5 O-O 9. Re1 Nxd4 10. Nxe7+ Qxe7 11. Qxd4 Bc6 12. Bg5 Qe5 13. Bxf6 gxf6 14.
+c3 a6 15. f4 Qxf4 16. Re3 Rae8 17. Rf1 Qe5 18. Qd1 Qc5 19. Qe2 Rxe4 20. Rff3
+Rxc4 21. Rg3+ Kh8 22. Qf2 f5 23. b4 Qd5 24. Rd3 Qe5 25. Rg5 Re4 26. Rd1 Re2 27.
+Qh4 Qe4 28. Qg3 Rxg2+ 29. Qxg2 Qe3+ 30. Qf2 Qxg5+ 31. Kf1 Rg8 32. Qd4+ Qg7 33.
+Qe3 Qg2+ 34. Ke1 Re8 0-1

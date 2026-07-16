@@ -1,0 +1,216 @@
+[Event "Barcelona-Paris m"]
+[Site "Barcelona"]
+[Date "1949.10.30"]
+[Round "1.1"]
+[White "Bernstein, Ossip"]
+[Black "Medina Garcia, Antonio"]
+[Result "1-0"]
+[ECO "C68"]
+[PlyCount "117"]
+[EventDate "1949.10.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+[SourceDate "2008.03.13"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. O-O Bg4 6. h3 Bh5 7. d3 Qf6 8.
+Be3 Bxf3 9. Qxf3 Qxf3 10. gxf3 Bd6 11. Kg2 f6 12. h4 Ne7 13. Nc3 Ng6 14. Kh3
+Nf8 15. Rg1 Ne6 16. Ne2 c5 17. Rg2 Kf7 18. Rag1 Rag8 19. c3 g6 20. d4 cxd4 21.
+cxd4 exd4 22. Nxd4 Nxd4 23. Bxd4 Rg7 24. Be3 Re8 25. Rd1 Rgg8 26. Rd3 Re6 27.
+Rg1 b5 28. Rd5 Re5 29. Rxe5 Bxe5 30. b3 Rd8 31. Rc1 Rd3 32. Rc6 a5 33. Rc5 b4
+34. Rxa5 Rd1 35. Kg2 Rb1 36. Bc5 Rb2 37. Bxb4 Bd4 38. Bc5 Rxf2+ 39. Kg3 Bxc5
+40. Rxc5 Rxa2 41. Rxc7+ Ke6 42. Rc6+ Ke5 43. Rc5+ Ke6 44. Rb5 Ra1 45. Kf4 Rh1
+46. Rb6+ Ke7 47. Kg3 Kf7 48. b4 g5 49. hxg5 fxg5 50. b5 Rg1+ 51. Kh2 Re1 52.
+Rb8 g4 53. b6 gxf3 54. b7 Rb1 55. Kg3 Kg7 56. Kxf3 Rb3+ 57. Kg2 h5 58. e5 Rb2+
+59. Kh3 1-0
+
+[Event "Sitges Int"]
+[Site "Sitges"]
+[Date "1949.11.06"]
+[Round "2"]
+[White "Bernstein, Ossip"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "B02"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "90"]
+[EventDate "1949.11.??"]
+[EventType "tourn"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. e4 Nf6 2. e5 Nd5 3. c4 Nb6 4. c5 Nd5 5. Nc3 Nxc3 6. dxc3 e6 7. Qg4 (7. Bd3 {
+era otra alternativa, que ya había jugado Alekhine contra Engholm.}) 7... Nc6
+8. Bg5 h5 $1 (8... Nxe5 $143 9. Qh5 $14) 9. Qh4 $6 (9. Qf4 Be7 10. Nf3 Bxg5 11.
+Nxg5 f6 $11) (9. Bxd8 $142 hxg4 10. Bxc7 Bxc5 11. Be2 $11) 9... Be7 10. Bxe7
+Qxe7 11. Qxe7+ Kxe7 {El negro no tiene ningún problema y su estructura de
+peones es mucho mejor.} 12. Nf3 b6 13. Bb5 Bb7 14. cxb6 axb6 {Con sencillez,
+Pomar va mejorando su posición.} 15. O-O Ba6 (15... Na7 16. Be2 Bd5 {era otra
+posibilidad.}) 16. Bxc6 $6 (16. a4 $142 $11) 16... dxc6 17. Rfd1 $6 {Esto no
+puede ser bueno. La estructura de peones blancos quedará muy debilitada.} Be2
+$1 18. Rd2 Bxf3 19. gxf3 Rhd8 (19... g5 $5 {Esta parecía mejor, pero Pomar
+sigue con su idea.}) 20. Rxd8 Rxd8 21. a4 Rd5 22. f4 Kd7 $1 23. b4 Kc8 24. a5
+Kb7 {Ya tenemos al rey negro donde más se le necesitaba, mientras que el
+blanco está en la lejanía.} 25. a6+ (25. Kf1 $142) 25... Ka7 26. Kf1 Rd3 (26...
+b5 {para seguir con b5, era mejor.}) 27. Ke2 Rxc3 28. Rd1 {No hay otra
+alternativa. El blanco no puede estar esperando.} Rc4 29. Ke3 Rc3+ 30. Ke2 {No
+hay otra} Kxa6 {Ya la ventaja es considerable.} 31. Rd7 c5 $1 32. b5+ $2 (32.
+bxc5 $142 {pero tampoco solucionará nada.}) 32... Kxb5 33. Rxf7 Kc6 $1 34. Re7
+(34. Kd2 Rh3 $19) 34... Kd5 35. f3 b5 36. Rxc7 b4 37. Rd7+ Kc4 38. f5 exf5 39.
+f4 (39. e6) 39... b3 40. Rb7 Kd5 ({Pomar no tiene interés en ganar más peones.
+} 40... Rc2+ 41. Kf3 Rxh2 42. e6 Rh1 43. Kf2 Ra1 $19) 41. Rd7+ Ke4 42. Kd2 (42.
+e6 b2 43. e7 Re3+ $19 ({o aún mejor...} 43... b1=Q 44. e8=Q+ Kxf4 {etc.}))
+42... Rc2+ 43. Kd1 Rc4 (43... Rxh2 $142 $19) 44. e6 b2 45. Rb7 Rc1+ {Y
+Bernstein claudicó.} 0-1
+
+[Event "Sitges Int"]
+[Site "Sitges"]
+[Date "1949.11.08"]
+[Round "4"]
+[White "Bernstein, Ossip"]
+[Black "Raizman, Maurice"]
+[Result "1-0"]
+[ECO "B58"]
+[PlyCount "85"]
+[EventDate "1949.11.??"]
+[EventType "tourn"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceDate "2008.03.13"]
+
+1. e4 c5 2. Nf3 Nc6 3. Nc3 d6 4. d4 cxd4 5. Nxd4 Nf6 6. Be2 e5 7. Nf3 h6 8. O-O
+Be7 9. b3 O-O 10. Bb2 Bg4 11. h3 Bxf3 12. Bxf3 Nd4 13. Nb1 Nxf3+ 14. Qxf3 b5
+15. Nd2 Nd7 16. Qd3 Qb6 17. c4 b4 18. Rfd1 Nc5 19. Qd5 Kh8 20. Nf1 Ne6 21. Ne3
+Nf4 22. Qd2 Qb7 23. Qc2 Rfd8 24. Nd5 Ne6 25. Qe2 a5 26. Rd3 a4 27. Qe1 Rdb8 28.
+Rf3 Bg5 29. bxa4 Rxa4 30. g3 Rba8 31. h4 Rxa2 32. Rxa2 Rxa2 33. Qb1 Rxb2 34.
+Qxb2 Nd4 35. Rd3 Bc1 36. Qxb4 Qd7 37. Kg2 h5 38. c5 Nc2 39. Qa5 f5 40. Qa8+ Kh7
+41. c6 Qf7 42. Qb7 Qe6 43. Qd7 1-0
+
+[Event "Sitges Int"]
+[Site "Sitges"]
+[Date "1949.11.15"]
+[Round "11"]
+[White "Bernstein, Ossip"]
+[Black "De Rafael Domenech, Eduardo"]
+[Result "1-0"]
+[ECO "B73"]
+[PlyCount "87"]
+[EventDate "1949.11.??"]
+[EventType "tourn"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceDate "2008.03.13"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Be2 g6 7. O-O Bg7 8.
+Be3 O-O 9. Qd2 Ng4 10. Bxg4 Bxg4 11. Nxc6 bxc6 12. Bh6 Qb6 13. Bxg7 Kxg7 14. b3
+Rad8 15. Na4 Qc7 16. c4 Bc8 17. Rfe1 f6 18. Rac1 Qb8 19. Qf4 e5 20. Qd2 f5 21.
+f4 fxe4 22. fxe5 d5 23. Qd4 Rf5 24. cxd5 Rxd5 25. Qxe4 Rfxe5 26. Qf3 Bf5 27.
+Qc3 Bd7 28. Re3 Kh6 29. Rce1 Rh5 30. h3 Qd6 31. Re7 Rd4 32. Qe3+ g5 33. Qf3 Qf4
+34. Rxh7+ Kxh7 35. Qxh5+ Kg7 36. Nc5 Rd2 37. Ne4 Rd5 38. Rf1 Qe3+ 39. Kh1 Bf5
+40. Qxg5+ Qxg5 41. Nxg5 Kg6 42. Nf3 Be4 43. Kh2 Bxf3 44. Rxf3 1-0
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1952.??.??"]
+[Round "3"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Bernstein, Ossip"]
+[Result "0-1"]
+[ECO "D36"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "70"]
+[EventDate "1952.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Be7 5. cxd5 exd5 6. Bg5 c6 7. Qc2 O-O 8. e3
+Ne4 9. Bxe7 Qxe7 10. Bd3 f5 11. Ne5 Nd7 12. f4 Nxe5 13. fxe5 $2 (13. dxe5 $142
+$11) 13... Qh4+ 14. g3 Qh6 15. O-O-O (15. Bxe4 fxe4 16. Qd2 Rf3 $17) 15...
+Qxe3+ 16. Kb1 Nf2 17. Rhe1 Qxd4 18. Rd2 Nxd3 19. Rxd3 Qc5 20. Qd2 Be6 21. Qf4
+Rad8 22. Red1 h6 23. h4 Qa5 24. a3 Kh8 25. Kc1 c5 26. Qf2 d4 27. Ne2 Bc4 28.
+Nf4 Bxd3 29. e6 Be4 30. e7 Qa6 31. Re1 Qc4+ 32. Kd1 Kh7 33. g4 Qa2 34. Qd2 Qb3+
+35. Kc1 Qc4+ 0-1
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1952.??.??"]
+[Round "5"]
+[White "Toran Albero, Roman"]
+[Black "Bernstein, Ossip"]
+[Result "0-1"]
+[ECO "A11"]
+[PlyCount "114"]
+[EventDate "1952.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. g3 d5 3. Bg2 Bf5 4. c4 c6 5. cxd5 cxd5 6. Qb3 Qc8 7. Nc3 e6 8. d3
+Nc6 9. Bf4 Nd7 10. d4 Be7 11. O-O O-O 12. Rac1 Nb6 13. Qd1 Qd7 14. Na4 Nxa4 15.
+Qxa4 a6 16. Bd2 Be4 17. e3 Bd3 18. Rfe1 a5 19. Bf1 b5 20. Qd1 Bc4 21. b3 Bxf1
+22. Rxf1 Qb7 23. Qe2 a4 24. e4 Rfd8 25. e5 axb3 26. axb3 Ra2 27. Qd3 h6 28. Rc2
+Rxc2 29. Qxc2 Qb6 30. Qd3 Ba3 31. Bc1 b4 32. Be3 Bb2 33. Rd1 Bc3 34. Nh4 Ra8
+35. f4 Qa6 36. Qxa6 Rxa6 37. Nf3 Ra3 38. Rb1 Na5 39. Nd2 Kf8 40. Kf2 Ke8 41.
+Ke2 Kd7 42. Kd3 Kc6 43. Kc2 Kb5 44. g4 Ra2+ 45. Kd3 Nc6 46. Nf3 Rg2 47. h3 g6
+48. g5 h5 49. h4 Ra2 50. Bg1 Ne7 51. Be3 Nf5 52. Bg1 Ng3 53. Be3 Ne4 54. Ng1
+Nd2 55. Bxd2 Rxd2+ 56. Ke3 Rxd4 57. Ne2 Rd2 0-1
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1952.??.??"]
+[Round "7"]
+[White "Medina Garcia, Antonio"]
+[Black "Bernstein, Ossip"]
+[Result "0-1"]
+[ECO "C66"]
+[PlyCount "26"]
+[EventDate "1952.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O d6 5. d4 Bd7 6. Nc3 Be7 7. b3 $6 (7. Re1
+$142) 7... O-O 8. Re1 Nxd4 9. Nxd4 exd4 10. Qxd4 Bxb5 11. Nxb5 Nd7 $1 {[%csl
+Ra1,Rd4][%cal Ge7f6,Gf6a1]} 12. Qc4 Bf6 13. Nc3 $2 b5 $1 0-1
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1952.??.??"]
+[Round "9"]
+[White "Grob, Henry"]
+[Black "Bernstein, Ossip"]
+[Result "1-0"]
+[ECO "C50"]
+[PlyCount "51"]
+[EventDate "1952.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d3 d6 5. Nc3 Bg4 6. h3 Bh5 7. Be3 Bb6 8. a3
+Nf6 9. g4 Bxe3 10. fxe3 Bg6 11. Nh4 Nxe4 12. Nxg6 Nxc3 13. Qf3 d5 14. Nxh8 Qh4+
+15. Kd2 f6 16. Bb3 e4 17. Qf5 Ne7 18. Qe6 Nb5 19. Rae1 exd3 20. cxd3 c6 21. Nf7
+Qg3 22. Rhg1 Qh2+ 23. Kc1 Rb8 24. Rh1 Qg3 25. a4 Nc7 26. Nd6+ 1-0
+
+[Event "Berga op"]
+[Site "Berga"]
+[Date "1973.??.??"]
+[Round "?"]
+[White "Bernstein, Ossip"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "B14"]
+[PlyCount "92"]
+[EventDate "1973.08.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. c4 Nf6 5. Nc3 e6 6. c5 Nc6 7. Nf3 Ne4 8. Bb5
+Bd7 9. Bxc6 Bxc6 10. Qc2 f6 11. O-O Be7 12. b4 Qd7 13. Be3 a5 14. a3 O-O 15.
+Rab1 Nxc3 16. Qxc3 a4 17. Rfe1 Rae8 18. Rbc1 g5 19. Rc2 Bd8 20. Bc1 Bc7 21. Qa1
+g4 22. Nh4 e5 23. Bb2 e4 24. Bc1 f5 25. g3 f4 26. Bxf4 Bxf4 27. gxf4 Rxf4 28.
+Qc1 Ref8 29. Re3 Qg7 30. Qb2 Bb5 31. Rg3 h5 32. Ng2 R4f5 33. h4 Qf6 34. Rd2 Rf3
+35. Rc2 Kh8 36. Rd2 Qd8 37. Rc2 Bd3 38. Rd2 Qc7 39. Kh2 Rxg3 40. fxg3 Rf3 41.
+Nf4 Rxf4 42. gxf4 Qxf4+ 43. Kg1 Qe3+ 44. Kh1 Qe1+ 45. Kg2 Bf1+ 46. Kh2 g3+ 0-1

@@ -1,0 +1,344 @@
+[Event "Ciudad de Hospitalet"]
+[Site "Hospitalet de Llobregat"]
+[Date "1973.10.21"]
+[Round "1"]
+[White "Medina Garcia, Antonio"]
+[Black "Hamann, Svend"]
+[Result "0-1"]
+[ECO "B07"]
+[WhiteElo "2395"]
+[BlackElo "2475"]
+[PlyCount "56"]
+[EventDate "1973.10.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. e4 d6 2. Nc3 g6 3. g3 Bg7 4. Bg2 Nf6 5. d3 O-O 6. f4 Nc6 7. Nf3 e5 8. O-O
+Bg4 9. h3 Bxf3 10. Qxf3 exf4 11. Bxf4 Nh5 12. Be3 f5 13. Bf2 f4 14. g4 Ne5 15.
+Qd1 f3 16. Be3 Qh4 17. Bf2 fxg2 18. Bxh4 gxf1=Q+ 19. Qxf1 Rxf1+ 20. Rxf1 Rf8
+21. Rxf8+ Bxf8 22. Bd8 Nf4 23. Bxc7 Nxh3+ 24. Kg2 Nf4+ 25. Kg3 Ne6 26. Nd5 Kf7
+27. Ba5 Nd4 28. c3 Ndc6 0-1
+
+[Event "Ciudad de Hospitalet"]
+[Site "Hospitalet de Llobregat"]
+[Date "1973.10.22"]
+[Round "2"]
+[White "Hamann, Svend"]
+[Black "Westerinen, Heikki MJ"]
+[Result "1-0"]
+[ECO "C87"]
+[WhiteElo "2475"]
+[BlackElo "2435"]
+[PlyCount "145"]
+[EventDate "1973.10.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 d6 5. c3 Bd7 6. d4 Nf6 7. O-O Be7 8. Re1
+O-O 9. Nbd2 Re8 10. a3 a5 11. Nf1 h6 12. Ng3 Bf8 13. h3 g6 14. Bb3 a4 15. Bc2
+Bg7 16. Be3 b5 17. dxe5 dxe5 18. Qe2 Na5 19. Rad1 Nc4 20. Bc1 Qb8 21. Nd2 Nd6
+22. Ndf1 Bc6 23. f3 Qb7 24. Ne3 Kh7 25. Bd3 Rad8 26. Kh2 Qb8 27. Nc2 Nd7 28.
+Be3 Ba8 29. Qf2 Nf8 30. Nb4 Bb7 31. Nf1 Ne6 32. Nd2 Rd7 33. c4 bxc4 34. Nxc4
+Nb5 35. Na5 Nbd4 36. Bb5 c6 37. Naxc6 Qc7 38. Na7 Nxb5 39. Nxb5 Qd8 40. Nc3
+Ree7 41. Ncd5 Re8 42. Bb6 Qc8 43. Ba5 Bxd5 44. Nxd5 Rb7 45. Bb4 Qc6 46. Rc1 Qa6
+47. Rc3 Reb8 48. Rec1 Nd4 49. Rc4 h5 50. R1c3 Qe6 51. Qh4 Rd7 52. Rc7 Rb7 53.
+Rxb7 Rxb7 54. Qd8 Rd7 55. Qb6 Ne2 56. Qxe6 fxe6 57. Rc7 Rxc7 58. Nxc7 Nf4 59.
+Na8 Bh6 60. Nb6 Ne2 61. g4 Bf4+ 62. Kg2 Be3 63. Nxa4 Nf4+ 64. Kh2 h4 65. Bc5
+Bd4 66. b4 Nd3 67. Bxd4 exd4 68. b5 g5 69. b6 Ne5 70. b7 Nc6 71. Nc5 Kg8 72.
+Kg2 Kf7 73. Nd7 1-0
+
+[Event "Ciudad de Hospitalet"]
+[Site "Hospitalet de Llobregat"]
+[Date "1973.10.23"]
+[Round "3"]
+[White "Dominguez, Julio"]
+[Black "Hamann, Svend"]
+[Result "0-1"]
+[ECO "B99"]
+[WhiteElo "2200"]
+[BlackElo "2475"]
+[PlyCount "67"]
+[EventDate "1973.10.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Be7 8. Qf3
+Qc7 9. O-O-O Nbd7 10. Bd3 b5 11. g4 b4 12. Nce2 Bb7 13. Kb1 Rc8 14. h4 Qb6 15.
+h5 h6 16. Bh4 Nc5 17. Ng3 Nxd3 18. Rxd3 Rc4 19. Rhd1 Nxe4 20. Nxe4 Bxh4 21.
+Nxd6+ Qxd6 22. Qxb7 O-O 23. Nf5 Qxf4 24. Nxh4 Qf2 25. Qg2 Qxh4 26. Rg3 Qg5 27.
+Qd2 Rfc8 28. Rd3 Qxd2 29. R3xd2 Rxg4 30. b3 Rg5 31. Rd6 a5 32. Rh1 Rcc5 33.
+Rd8+ Kh7 34. Rd7 0-1
+
+[Event "Ciudad de Hospitalet"]
+[Site "Hospitalet de Llobregat"]
+[Date "1973.10.24"]
+[Round "4"]
+[White "Hamann, Svend"]
+[Black "Collado Galarza, Jose"]
+[Result "1-0"]
+[ECO "B34"]
+[WhiteElo "2475"]
+[BlackElo "2200"]
+[PlyCount "95"]
+[EventDate "1973.10.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. Nc3 Bg7 6. Be3 Nf6 7. Nb3 O-O 8.
+Be2 a5 9. a4 Nb4 10. O-O d5 11. e5 Ne4 12. f4 Nxc3 13. bxc3 Nc6 14. Bf3 e6 15.
+Bc5 Re8 16. Nd4 f6 17. Nxc6 bxc6 18. Qd4 Ba6 19. Rf2 Rb8 20. Re1 fxe5 21. fxe5
+Bf8 22. Bxf8 Rxf8 23. Bg4 Qe7 24. Rf6 c5 25. Qe3 d4 26. Qg5 Rbe8 27. h4 Kg7 28.
+cxd4 cxd4 29. Rxe6 Qxg5 30. hxg5 Rxe6 31. Bxe6 Bc8 32. Bb3 Re8 33. e6 h6 34.
+gxh6+ Kxh6 35. Re5 Kg7 36. Kf2 Re7 37. Kg3 Re8 38. Rxa5 Bxe6 39. Re5 Bf7 40.
+Rxe8 Bxe8 41. Kf4 Kf6 42. Ke4 Bc6+ 43. Kxd4 Bxg2 44. Bd5 Bh3 45. a5 Bc8 46. Bc4
+g5 47. a6 Ke7 48. a7 1-0
+
+[Event "Ciudad de Hospitalet"]
+[Site "Hospitalet de Llobregat"]
+[Date "1973.10.26"]
+[Round "5"]
+[White "Van Seters, Frits"]
+[Black "Hamann, Svend"]
+[Result "0-1"]
+[ECO "A65"]
+[WhiteElo "2325"]
+[BlackElo "2475"]
+[PlyCount "88"]
+[EventDate "1973.10.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e6 4. Nc3 exd5 5. cxd5 d6 6. e4 g6 7. Bd3 Bg7 8. Nge2
+O-O 9. O-O Na6 10. Ng3 Nc7 11. h3 Rb8 12. a4 a6 13. a5 b5 14. axb6 Rxb6 15. Na4
+Rb8 16. Bd2 Nb5 17. Bc4 Re8 18. Re1 Nd7 19. Rc1 Qh4 20. Qg4 Qxg4 21. hxg4 Nb6
+22. Nxb6 Rxb6 23. b4 cxb4 24. Bxb4 Bxg4 25. Bxb5 axb5 26. Rc6 Rxc6 27. dxc6 Rc8
+28. Bxd6 Rxc6 29. e5 h5 30. Ra1 Bh6 31. Ne4 Rc1+ 32. Rxc1 Bxc1 33. Nf6+ Kg7 34.
+Nxg4 hxg4 35. Kf1 g5 36. Ke2 Kg6 37. Kd3 Kf5 38. Kd4 Bb2+ 39. Kd5 Bc3 40. Be7
+Bxe5 41. Kc5 f6 42. Kxb5 Bd4 43. Bc5 Bxc5 44. Kxc5 Ke4 0-1
+
+[Event "Ciudad de Hospitalet"]
+[Site "Hospitalet de Llobregat"]
+[Date "1973.10.27"]
+[Round "6"]
+[White "Lengyel, Levente"]
+[Black "Hamann, Svend"]
+[Result "0-1"]
+[ECO "D45"]
+[WhiteElo "2450"]
+[BlackElo "2475"]
+[PlyCount "34"]
+[EventDate "1973.10.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. e3 Nbd7 6. Qc2 Bd6 7. b3 O-O 8. Be2
+e5 9. cxd5 Nxd5 10. Nxd5 cxd5 11. dxe5 Nxe5 12. O-O Nxf3+ 13. Bxf3 Qh4 14. g3
+Qf6 15. Bxd5 Bf5 16. e4 Bh3 17. Rd1 Be5 0-1
+
+[Event "Ciudad de Hospitalet"]
+[Site "Hospitalet de Llobregat"]
+[Date "1973.10.29"]
+[Round "7"]
+[White "Hamann, Svend"]
+[Black "Smejkal, Jan"]
+[Result "1/2-1/2"]
+[ECO "C68"]
+[WhiteElo "2475"]
+[BlackElo "2595"]
+[PlyCount "9"]
+[EventDate "1973.10.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. Nc3 1/2-1/2
+
+[Event "Ciudad de Hospitalet"]
+[Site "Hospitalet de Llobregat"]
+[Date "1973.10.30"]
+[Round "8"]
+[White "Hug, Werner"]
+[Black "Hamann, Svend"]
+[Result "1/2-1/2"]
+[ECO "B80"]
+[WhiteElo "2440"]
+[BlackElo "2475"]
+[PlyCount "37"]
+[EventDate "1973.10.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. e4 c5 2. Nf3 e6 3. Nc3 a6 4. g3 Nc6 5. Bg2 d6 6. O-O Nf6 7. d4 cxd4 8. Nxd4
+Bd7 9. a4 Be7 10. Nde2 O-O 11. h3 Rb8 12. Be3 b5 13. axb5 axb5 14. b3 b4 15.
+Na4 Qc7 16. Qd2 Rfd8 17. Nf4 Be8 18. Rfd1 Ne5 19. Nd3 1/2-1/2
+
+[Event "Ciudad de Hospitalet"]
+[Site "Hospitalet de Llobregat"]
+[Date "1973.10.31"]
+[Round "9"]
+[White "Hamann, Svend"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "A07"]
+[WhiteElo "2475"]
+[BlackElo "2435"]
+[PlyCount "40"]
+[EventDate "1973.10.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. Nf3 d5 2. g3 Nf6 3. Bg2 c6 4. O-O Bg4 5. d3 Nbd7 6. Nbd2 e6 7. e4 dxe4 8.
+dxe4 Ne5 9. Qe2 Bc5 10. h3 Bh5 11. Nb3 Nxf3+ 12. Bxf3 Bxf3 13. Qxf3 Be7 14. Rd1
+Qc7 15. Bf4 e5 16. Bg5 O-O 17. Bxf6 Bxf6 18. Rd3 Rad8 19. Rad1 Rxd3 20. Rxd3
+Rd8 1/2-1/2
+
+[Event "Ciudad de Hospitalet"]
+[Site "Hospitalet de Llobregat"]
+[Date "1973.11.02"]
+[Round "10"]
+[White "Kurajica, Bojan"]
+[Black "Hamann, Svend"]
+[Result "1-0"]
+[ECO "B47"]
+[WhiteElo "2475"]
+[BlackElo "2475"]
+[PlyCount "79"]
+[EventDate "1973.10.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. f4 a6 7. Nb3 d6 8. Be3
+b5 9. Bd3 g6 10. O-O Bg7 11. Qd2 Nf6 12. Bxb5 axb5 13. Nxb5 Qb8 14. Nxd6+ Kf8
+15. c4 h5 16. e5 Ng4 17. Bc5 Kg8 18. Nd4 Nxd4 19. Qxd4 h4 20. h3 Nh6 21. a4 Bb7
+22. b4 Nf5 23. Nxf5 gxf5 24. b5 Rh6 25. a5 Rg6 26. Rf2 Be4 27. a6 Qc8 28. Bd6
+Kh7 29. Re1 Bh6 30. Rxe4 fxe4 31. Qxe4 Bf8 32. c5 Kg7 33. Qb7 Rg3 34. Qxc8 Rxc8
+35. b6 Ra3 36. b7 Rd8 37. Bxf8+ Kxf8 38. c6 Ra1+ 39. Rf1 Rxa6 40. c7 1-0
+
+[Event "Ciudad de Hospitalet"]
+[Site "Hospitalet de Llobregat"]
+[Date "1973.11.03"]
+[Round "11"]
+[White "Hamann, Svend"]
+[Black "Diez del Corral Rivas, Jesus Maria"]
+[Result "1/2-1/2"]
+[ECO "E64"]
+[WhiteElo "2475"]
+[BlackElo "2495"]
+[PlyCount "15"]
+[EventDate "1973.10.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. c4 Nf6 2. Nc3 g6 3. g3 Bg7 4. Bg2 d6 5. d4 O-O 6. Nf3 c5 7. dxc5 dxc5 8.
+Qxd8 1/2-1/2
+
+[Event "Costa Brava"]
+[Site "San Feliu de Guixols"]
+[Date "1974.09.08"]
+[Round "2"]
+[White "Hamann, Svend"]
+[Black "Quinteros, Miguel Angel"]
+[Result "0-1"]
+[ECO "B51"]
+[PlyCount "70"]
+[EventDate "1974.09.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "8"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. O-O Ngf6 5. Re1 a6 6. Bxd7+ Nxd7 7. d4 cxd4
+8. Qxd4 e5 9. Qd1 h6 10. a4 Be7 11. Nc3 Nf6 12. a5 b5 13. axb6 Qxb6 14. Qd3 O-O
+15. Be3 Qc6 16. Ra4 Rb8 17. b3 Bb7 18. Nd2 Rfc8 19. Rc4 Qd7 20. f3 Qe6 21. Ra1
+Rxc4 22. bxc4 Nd7 23. Nd5 Bd8 24. Nb3 Rc8 25. Na5 Ba8 26. Nb3 Bb7 27. Na5 Bxa5
+28. Rxa5 Nc5 29. Qa3 f5 30. exf5 Qf7 31. Bxc5 Bxd5 32. Bxd6 Rxc4 33. Bxe5 Qa7+
+34. Kf1 Rxc2 35. Bg3 Bc4+ 0-1
+
+[Event "Costa Brava"]
+[Site "San Feliu de Guixols"]
+[Date "1974.09.15"]
+[Round "7"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Hamann, Svend"]
+[Result "1-0"]
+[ECO "E91"]
+[Annotator "Toran, Roman"]
+[PlyCount "57"]
+[EventDate "1974.09.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "8"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 c5 {[Para llegar a una especie de defensa
+Indo-Benoni, después de 4.d5 e6. Las principales alternativas son 3...Ag7
+--defensa India de Rey-- y 3...d5 --defensa Grunfeld--. ]} 4. Nf3 {
+[Manteniéndose la tensión central, reservándose el citado avance 4.d5; esto
+invita a las negras a derivar el planteo hacia una defensa Siciliana, con la
+variante "fianchetto" acelerado, después de 4...cxd4 5.Cxd4 Cc5 6.e4, etcétera.
+]} Bg7 5. e4 d6 6. Be2 O-O 7. O-O Na6 ({[Las negras también optan por mantener
+la tensión central. Con} 7... cxd4 8. Nxd4 Nc6 {, se llegaría al esquema
+citado en el comentario anterior.}) ({En el match Kárpov - Spassky se ensayó} 
+7... Bg4 {, pero las blancas consiguieron ventaja de espacio tras el avance} 8.
+d5) 8. e5 $1 (8. e5 $1 {Fuerte ruptura central, aprovechando que el caballo
+del flanco dama negro está alejado del punto c6 y, después de} dxe5 9. dxe5 Ng4
+10. Bf4 {, las blancas sostendrían su punto de avanzada de "e5" sin
+dificultades, asegurándose clava ventaja de espacio.}) 8... Ne8 ({Si} 8... Ng4
+9. exd6 exd6 10. Bg5 $1 {, sería favorable para las blancas, pero esta
+retirada deja a las negras con un juego muy restringido.}) 9. Be3 b6 $2 ({
+Pasivo; se imponía} 9... cxd4 10. Bxd4 dxe5 11. Nxe5 Nd6 {, amenazando ...Cf5,
+con lo que se liberaría bastante el juego negro.}) 10. Nd5 $1 Bb7 11. Bg5 $1
+Bxd5 ({Después de} 11... f6 12. exf6 exf6 13. Bf4 {, las blancas tendrían
+clara superioridad.}) 12. cxd5 Nac7 13. Qb3 f6 ({Es evidente que, si} 13...
+dxe5 14. dxe5 Qxd5 ({Si} 14... Nxd5 15. Rad1 Nec7 16. Bc4 {, gana.}) 15. Bxe7 {
+, ganaría la calidad.}) 14. Bh4 g5 15. Bg3 g4 {[Intento de reacción, que
+debilita seriamente el enroque, pero era difícil ya hallar un plan
+satisfactorio para las negras, ante la presión posicional de Pomar. ]} 16. Nh4
+f5 ({No servía} 16... dxe5 {, por} 17. d6+ {.}) 17. f4 Kh8 18. Rad1 Qc8 19. Bd3
+$1 {[Se inicia así un fuerte ataque sobre el peón f5 y se sacrifica un peón
+para abrir la columna "c". ]} cxd4 20. Rc1 $1 e6 {[Ante peón e6, las negras
+tienen que abrir la posición, lo que, mejor desarrolladas, permitirá a las
+blancas obtener las mejores posibilidades de ataque. ]} 21. Qc2 $1 dxe5 22.
+fxe5 Bh6 23. dxe6 $1 {[Excelente sacrificio de la calidad, con el que se
+logrará dar la máxima actividad a los alfiles, especulando con las debilidades
+que presenta el enroque negro. ]} Bxc1 24. Qxc1 $1 Qxe6 {[Ante Dh6! ]} 25. Bxf5
+Qe7 26. e6 $1 Rxf5 ({Si} 26... Nd5 27. Qh6 Kg8 {-ante Cg6 jaque-} 28. Bxh7+ {
+, decidiría.}) 27. Nxf5 Qxe6 ({O} 27... Qd8 28. Be5+ {y gana, puesto que si}
+Nf6 ({Y si} 28... Kg8 29. Nh6#) 29. e7) 28. Bxc7 Rc8 29. Be5+ (29. Be5+ $1 {Y
+las negras abandonaron, ya que, a} Qxe5 ({Si} 29... Kg8 30. Qxc8 $1 Qxc8 31.
+Ne7#) 30. Qxc8 {, gana.}) 1-0

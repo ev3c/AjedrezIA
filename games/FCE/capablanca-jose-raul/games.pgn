@@ -1,0 +1,708 @@
+[Event "Barcelona sim ( en consulta )"]
+[Site "Barcelona"]
+[Date "1920.02.20"]
+[Round "?"]
+[White "Puig/Ardevol/Puntas"]
+[Black "Capablanca, Jose Raul"]
+[Result "0-1"]
+[ECO "B12"]
+[PlyCount "68"]
+[EventDate "1920.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2002.11.25"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Bd3 Bxd3 5. Qxd3 e6 6. Ne2 Qb6 7. O-O c5 8. c3
+Nc6 9. f4 cxd4 10. cxd4 Nh6 11. Nd2 Nf5 12. Nf3 h5 13. Bd2 a5 14. a3 Qa6 15.
+Qxa6 Rxa6 16. Rac1 Kd7 17. Rc2 Be7 18. Rfc1 Bd8 19. Kf2 Bb6 20. Be3 a4 21. Rd1
+Rc8 22. Nc3 Na5 23. Ke2 Nc4 24. Bc1 Bd8 25. Kd3 Rb8 26. Rg1 b5 27. g4 hxg4 28.
+Rxg4 b4 29. axb4 Rxb4 30. Nd1 Rc6 31. h4 g6 32. Bd2 Nxd2 33. Rxd2 Rb3+ 34. Ke2
+Ba5 0-1
+
+[Event "Barcelona sim"]
+[Site "Barcelona"]
+[Date "1920.02.20"]
+[Round "?"]
+[White "Capablanca, Jose Raul"]
+[Black "Coll, M."]
+[Result "1-0"]
+[ECO "D00"]
+[PlyCount "39"]
+[EventDate "1920.02.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2002.11.25"]
+
+1. d4 d5 2. e3 Nf6 3. Bd3 Bg4 4. Ne2 e6 5. O-O Be7 6. Nd2 O-O 7. f3 Bh5 8. e4
+dxe4 9. Nxe4 Nd5 10. c3 c6 11. Bd2 Nd7 12. f4 Bxe2 13. Qxe2 Re8 14. Rae1 N5f6
+15. Ng5 h6 16. Nxf7 Qc7 17. Qxe6 Bf8 18. Nxh6+ Kh8 19. Qg8+ Nxg8 20. Nf7# 1-0
+
+[Event "Barcelona sim"]
+[Site "Barcelona"]
+[Date "1920.02.20"]
+[Round "?"]
+[White "Capablanca, Jose Raul"]
+[Black "Marin i Llovet, Valenti"]
+[Result "0-1"]
+[ECO "D07"]
+[PlyCount "58"]
+[EventDate "1920.02.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2002.11.25"]
+
+1. d4 d5 2. c4 Nc6 3. Nf3 Bg4 4. e3 e6 5. Qb3 Bb4+ 6. Nc3 Bxf3 7. gxf3 Nge7 8.
+Bd2 O-O 9. O-O-O Rb8 10. h4 dxc4 11. Bxc4 b5 12. Bd3 Bxc3 13. Bxc3 Nd5 14. Bd2
+Rb6 15. Kb1 a5 16. Rc1 Qa8 17. Rc5 a4 18. Qc2 b4 19. Qd1 Rfb8 20. Ka1 Na5 21.
+Bc4 Nb3+ 22. Bxb3 axb3 23. Qxb3 Ra6 24. Rb1 Rbb6 25. Rxd5 exd5 26. Re1 Rxa2+
+27. Qxa2 Ra6 28. Qxa6 Qxa6+ 29. Kb1 Qd3+ 0-1
+
+[Event "Exposició Barcelona"]
+[Site "Barcelona"]
+[Date "1929.??.??"]
+[Round "1"]
+[White "Capablanca, Jose Raul"]
+[Black "Colle, Edgar"]
+[Result "1-0"]
+[ECO "B36"]
+[PlyCount "59"]
+[EventDate "1929.??.??"]
+[EventType "tourn"]
+[EventRounds "14"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.11.16"]
+
+1. c4 Nf6 2. Nf3 c5 3. Nc3 Nc6 4. d4 cxd4 5. Nxd4 Nxd4 $2 6. Qxd4 g6 7. e4 d6
+8. Be3 Bg7 9. f3 Qa5 10. Qd2 $1 a6 11. Be2 Be6 12. Rc1 Rc8 13. b3 Nd7 14. O-O
+O-O 15. Nd5 Qd8 16. Qb4 $1 Bxd5 17. cxd5 Rxc1 18. Rxc1 Qb8 19. Qc4 Bb2 20. Rc2
+Bf6 21. f4 Rd8 22. Qc7 Qa8 23. Bg4 Nc5 24. e5 $1 Bg7 25. Qxe7 h5 26. e6 $1 hxg4
+27. exf7+ Kh7 28. Qh4+ Bh6 29. f5 g5 30. Bxg5 1-0
+
+[Event "Exposició Barcelona"]
+[Site "Barcelona"]
+[Date "1929.??.??"]
+[Round "2"]
+[White "Font Lambert, Josep Maria"]
+[Black "Capablanca, Jose Raul"]
+[Result "0-1"]
+[ECO "C50"]
+[PlyCount "72"]
+[EventDate "1929.??.??"]
+[EventType "tourn"]
+[EventRounds "14"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.11.16"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 d6 4. Nc3 Na5 5. Bb3 Nxb3 6. axb3 c5 7. Qe2 Ne7 8.
+d3 h6 9. Nd2 Nc6 10. O-O Nd4 11. Qd1 Be7 12. Ne2 O-O 13. Ng3 f5 14. exf5 Bxf5
+15. f4 Qd7 16. Nxf5 Rxf5 17. fxe5 Raf8 18. c3 Nc6 19. Qe2 Rxe5 20. Rxf8+ Bxf8
+21. Qd1 Re8 22. Nf3 Qf5 23. Ra4 d5 24. Qf1 d4 25. Bd2 Bd6 26. Ra1 Qf7 27. Qd1
+Qh5 28. g3 g5 29. Ne1 Re2 30. Kf1 Rxh2 31. Qxh5 Rxh5 32. Kg2 g4 33. Nc2 Rh3 34.
+Be1 h5 35. Bf2 h4 36. Rh1 Bxg3 0-1
+
+[Event "Exposició Barcelona"]
+[Site "Barcelona"]
+[Date "1929.??.??"]
+[Round "3"]
+[White "Capablanca, Jose Raul"]
+[Black "Golmayo de la Torriente, Manuel"]
+[Result "1-0"]
+[ECO "D30"]
+[PlyCount "103"]
+[EventDate "1929.??.??"]
+[EventType "tourn"]
+[EventRounds "14"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.11.16"]
+
+1. Nf3 Nf6 2. c4 e6 3. d4 d5 4. Bg5 Be7 5. e3 Nbd7 6. Nbd2 Ne4 7. Bxe7 Qxe7 8.
+Bd3 f5 9. O-O O-O 10. Rc1 c6 11. a3 a5 12. Ne1 Kh8 13. f3 Nxd2 14. Qxd2 Nf6 15.
+Bb1 Rd8 16. Nd3 Rf8 17. Qe1 Re8 18. f4 g6 19. Rf3 Rg8 20. Qh4 Rg7 21. Ne5 Kg8
+22. Qe1 Bd7 23. cxd5 exd5 24. Rc5 Qd8 25. Qh4 Qe7 26. h3 Bc8 27. Qe1 Qd8 28.
+Rc1 Be6 29. Kh2 Nd7 30. Nd3 Qb6 31. Rf2 Re7 32. Qc3 Rae8 33. b4 axb4 34. axb4
+Bf7 35. Ne5 Nxe5 36. dxe5 Be6 37. Rb2 Rc8 38. Qd4 Qd8 39. Bd3 Rec7 40. Rbc2 Qe7
+41. Qb6 Kf7 42. Rc5 Kg7 43. b5 Qd7 44. Be2 h5 45. Qa5 Qe8 46. Qc3 Kh7 47. Bd1
+Bf7 48. Ba4 Qe6 49. Qa5 Kh6 50. Qb6 Qd7 51. bxc6 bxc6 52. Rxc6 1-0
+
+[Event "Exposició Barcelona"]
+[Site "Barcelona"]
+[Date "1929.??.??"]
+[Round "4"]
+[White "Marin i Llovet, Valenti"]
+[Black "Capablanca, Jose Raul"]
+[Result "0-1"]
+[ECO "C46"]
+[PlyCount "50"]
+[EventDate "1929.??.??"]
+[EventType "tourn"]
+[EventRounds "14"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.11.16"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 g6 4. Bb5 Bg7 5. O-O Nge7 6. d3 O-O 7. Bc4 Na5 8.
+Bb3 Nxb3 9. axb3 d5 10. h3 d4 11. Ne2 f5 12. exf5 Nxf5 13. Ng3 Qd5 14. Ne4 Nd6
+15. Qe2 b6 16. Nh2 Nxe4 17. Qxe4 Qxe4 18. dxe4 a5 19. b4 Ba6 20. Re1 axb4 21.
+f3 c5 22. Bd2 Bb5 23. Ng4 h5 24. Nf2 Kf7 25. Nd3 b3 0-1
+
+[Event "Exposició Barcelona"]
+[Site "Barcelona"]
+[Date "1929.??.??"]
+[Round "5"]
+[White "Capablanca, Jose Raul"]
+[Black "Menchik, Vera"]
+[Result "1-0"]
+[ECO "B02"]
+[PlyCount "71"]
+[EventDate "1929.??.??"]
+[EventType "tourn"]
+[EventRounds "14"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.11.16"]
+
+1. e4 Nf6 2. e5 Nd5 3. Nf3 d6 4. Bc4 e6 5. O-O Nb6 6. Bb3 c5 7. c3 Nc6 8. exd6
+Bxd6 9. d4 c4 10. Bc2 Qc7 11. Nbd2 Bd7 12. Qe2 Ne7 13. Ne4 Rc8 14. Nxd6+ Qxd6
+15. Ne5 Ng6 16. f4 O-O 17. Rf3 Bc6 18. Rh3 Nd7 19. Nxc4 Qd5 20. Ne3 Qd6 21. Nc4
+Qd5 22. Ne5 Bb5 23. Qe1 Ndxe5 24. fxe5 f5 25. Qd1 Bc6 26. Qe2 Rfe8 27. Bg5 Nf8
+28. Rg3 b5 29. h4 Rc7 30. h5 b4 31. Bb3 Qa5 32. Rc1 Be4 33. Qd2 Rec8 34. Bf6
+Qb6 35. Qg5 Qb7 36. Kh2 1-0
+
+[Event "Exposició Barcelona"]
+[Site "Barcelona"]
+[Date "1929.??.??"]
+[Round "6"]
+[White "Monticelli, Mario"]
+[Black "Capablanca, Jose Raul"]
+[Result "0-1"]
+[ECO "A47"]
+[Annotator "Tartakower,S"]
+[PlyCount "66"]
+[EventDate "1929.??.??"]
+[EventType "tourn"]
+[EventRounds "14"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.11.16"]
+
+1. d4 Nf6 2. Nf3 b6 3. g3 Bb7 4. Bg2 c5 5. dxc5 bxc5 6. c4 g6 $1 7. b3 Bg7 8.
+Bb2 O-O 9. O-O d6 10. Nc3 Ne4 $1 11. Qc1 Nxc3 12. Bxc3 Bxc3 13. Qxc3 a5 14.
+Rfd1 Nd7 15. Qe3 Kg7 16. h3 Nf6 17. g4 h6 18. Ne1 Qc7 19. Nd3 Bxg2 $1 20. Kxg2
+a4 21. Nf4 Rfb8 $1 22. f3 axb3 23. axb3 Rxa1 24. Rxa1 e5 $1 25. Nd5 Nxd5 26.
+cxd5 Rb4 $1 (26... Qb7 $2 27. Qd3 Qxb3 28. Qxb3 Rxb3 29. Ra6) 27. Qd3 Qb7 28.
+Qa6 Qxd5 29. Qc8 Qb7 30. Qd8 Qb8 31. Qd7 Rb7 $1 (31... Rxb3 $2 32. Ra7) 32. Qc6
+Rxb3 33. Ra6 Rb2 0-1
+
+[Event "Exposició Barcelona"]
+[Site "Barcelona"]
+[Date "1929.??.??"]
+[Round "7"]
+[White "Capablanca, Jose Raul"]
+[Black "Rey Ardid, Ramon"]
+[Result "1-0"]
+[ECO "A31"]
+[PlyCount "41"]
+[EventDate "1929.??.??"]
+[EventType "tourn"]
+[EventRounds "14"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.11.16"]
+
+1. Nf3 Nf6 2. c4 c5 3. d4 b6 4. Nc3 Bb7 5. d5 d6 6. e4 Nbd7 7. Bf4 g6 8. Qd2
+Bg7 9. Bh6 O-O 10. h4 Ng4 11. Bxg7 Kxg7 12. h5 h6 13. Be2 Rh8 14. Nh4 Ngf6 15.
+f4 Bc8 16. hxg6 fxg6 17. Qd3 Nf8 18. e5 dxe5 19. fxe5 Ne8 20. e6 Bb7 21. Qe3
+1-0
+
+[Event "Exposició Barcelona"]
+[Site "Barcelona"]
+[Date "1929.10.03"]
+[Round "8"]
+[White "Ribera Arnal, Angel"]
+[Black "Capablanca, Jose Raul"]
+[Result "0-1"]
+[ECO "E12"]
+[Annotator "Samarian, F"]
+[PlyCount "68"]
+[EventDate "1929.??.??"]
+[EventType "tourn"]
+[EventRounds "14"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 b6 4. Nc3 Bb7 5. Bg5 Be7 6. e3 Ne4 7. Bxe7 Qxe7 8.
+Nxe4 Bxe4 9. Bd3 (9. Be2) 9... Bb7 $146 (9... f5) 10. O-O d6 11. Re1 Nd7 12. e4
+O-O 13. e5 Rad8 14. Qe2 dxe5 15. dxe5 Nc5 16. Bc2 (16. Rad1 Nxd3 17. Rxd3 Rxd3
+18. Qxd3 Rd8 19. Qe2 Qd7) 16... Bxf3 $1 17. Qxf3 (17. gxf3 Qg5+) 17... Rd2 18.
+Qc3 (18. Re2 Rd4 $14) 18... Rfd8 19. Rad1 (19. b4 Qh4 20. g3 Qd4 21. Qxd4 R8xd4
+22. Rad1 (22. Bxh7+ Kxh7 23. bxc5 Rxc4 24. cxb6 axb6 25. Rac1 Rcc2 $19) 22...
+Rxd1 23. Rxd1 Rxd1+ 24. Bxd1 Nd3 $19) 19... Ne4 $1 20. Qe3 (20. Rxe4 Rxd1+ 21.
+Bxd1 Rxd1+ 22. Re1 Qd8 $15) (20. Qb3 Qc5) 20... Rxc2 21. Qxe4 Rxb2 $19 22. a3
+Rdd2 (22... Rbd2 $5 23. Rxd2 Rxd2 $17) 23. Rxd2 (23. Qa8+ $5 Qf8 24. Rxd2 Rxd2
+25. Qxa7) 23... Rxd2 24. h3 (24. Qa8+ Qd8 25. Qxa7 h6 26. h3 Qd4) 24... c5 25.
+Re3 Rd4 26. Qa8+ Rd8 27. Qf3 Qd7 28. Kh2 Qd4 29. Re4 Qd3 30. Qg4 h6 31. Re3 Qd4
+32. Qe2 Qd1 33. Qb2 Qd2 (33... Rd2 34. Qc3 $19) 34. Qc3 (34. Qxd2 $142 Rxd2 35.
+Kg3 $19) 34... Qxf2 (34... Qxf2 35. Rf3 Qh4 $19) 0-1
+
+[Event "Exposició Barcelona"]
+[Site "Barcelona"]
+[Date "1929.??.??"]
+[Round "9"]
+[White "Capablanca, Jose Raul"]
+[Black "Soler Bordas, Placid"]
+[Result "1-0"]
+[ECO "A30"]
+[PlyCount "63"]
+[EventDate "1929.??.??"]
+[EventType "tourn"]
+[EventRounds "14"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.11.16"]
+
+1. Nf3 Nf6 2. c4 e6 3. Nc3 b6 4. g3 Bb7 5. Bg2 c5 6. O-O Nc6 7. d4 cxd4 8. Nxd4
+Bc5 9. Ndb5 O-O 10. Bg5 Be7 11. Nd6 Bxd6 12. Qxd6 Qb8 13. Rfd1 Na5 14. Bxf6
+Bxg2 15. Qxb8 Raxb8 16. Be5 Bc6 17. Bxb8 Rxb8 18. b3 Kf8 19. Rd4 Nb7 20. Nb5
+Bxb5 21. cxb5 d5 22. Rc1 Nd6 23. a4 Rb7 24. f3 f5 25. Kf2 Ke7 26. h4 h5 27. Rd2
+Kd7 28. Ke3 Rb8 29. Kf4 g6 30. Ke5 Rf8 31. Rdc2 Ne8 32. f4 1-0
+
+[Event "Exposició Barcelona"]
+[Site "Barcelona"]
+[Date "1929.??.??"]
+[Round "10"]
+[White "Tartakower, Saviely"]
+[Black "Capablanca, Jose Raul"]
+[Result "1/2-1/2"]
+[ECO "C75"]
+[PlyCount "53"]
+[EventDate "1929.??.??"]
+[EventType "tourn"]
+[EventRounds "14"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.11.16"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 d6 5. c3 Bd7 6. d3 g6 7. Bg5 f6 8. Be3 Bg7
+9. b4 Qe7 10. Qd2 f5 11. Bg5 Bf6 12. Bb3 h6 13. Bxf6 Nxf6 14. Qe2 g5 15. Na3 f4
+16. Nc2 a5 17. a3 Be6 18. Nd2 Bxb3 19. Nxb3 Qf7 20. Nd2 axb4 21. axb4 Rxa1+ 22.
+Nxa1 Qa2 23. Ndb3 Qb1+ 24. Qd1 Qxd1+ 25. Kxd1 Kd7 26. f3 Ra8 27. Nc2 1/2-1/2
+
+[Event "Exposició Barcelona"]
+[Site "Barcelona"]
+[Date "1929.??.??"]
+[Round "11"]
+[White "Capablanca, Jose Raul"]
+[Black "Torres Caravaca, Joaquin"]
+[Result "1-0"]
+[ECO "A31"]
+[PlyCount "35"]
+[EventDate "1929.??.??"]
+[EventType "tourn"]
+[EventRounds "14"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.11.16"]
+
+1. Nf3 Nf6 2. c4 c5 3. d4 cxd4 4. Nxd4 e5 5. Nb5 Bb4+ 6. Bd2 Bxd2+ 7. Qxd2 O-O
+8. N1c3 Na6 9. g3 Nc5 10. Bg2 a6 11. Nd6 Qa5 12. O-O Rb8 13. Rfd1 b5 14. cxb5
+axb5 15. Qg5 Na4 16. Nf5 Ne8 17. Nh6+ Kh8 18. Qe7 1-0
+
+[Event "Exposició Barcelona"]
+[Site "Barcelona"]
+[Date "1929.??.??"]
+[Round "12"]
+[White "Vilardebo Picurena, Josep"]
+[Black "Capablanca, Jose Raul"]
+[Result "0-1"]
+[ECO "E12"]
+[PlyCount "144"]
+[EventDate "1929.??.??"]
+[EventType "tourn"]
+[EventRounds "14"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.11.16"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 b6 4. Bg5 Bb7 5. e3 Be7 6. Nc3 Ne4 7. Bxe7 Qxe7 8.
+Bd3 Nxc3 9. bxc3 d6 10. e4 Nd7 11. O-O e5 12. Nd2 c5 13. d5 g5 14. a4 a5 15.
+Nb1 h5 16. Na3 O-O-O 17. Rb1 Kc7 18. Rb2 Ba6 19. Nc2 f5 20. f3 f4 21. Na3 Rdg8
+22. Nb5+ Kb7 23. Kh1 g4 24. Be2 Nf6 25. Qb1 Qd8 26. Qc2 Rh6 27. Rfb1 Nd7 28.
+Rb3 Rhg6 29. Qb2 Ka8 30. Qc1 R8g7 31. Na3 Bc8 32. R1b2 Qf6 33. Qb1 Kb8 34. Rb5
+Kc7 35. R5b3 Kd8 36. Nb5 Bb7 37. Na7 Ke8 38. Nc6 Bc8 39. Rxb6 Nxb6 40. Rxb6 Qh4
+41. Rb8 Rc7 42. Na7 Rxa7 43. Rxc8+ Kf7 44. Kg1 Qe7 45. Qb8 Rb7 46. Rf8+ Qxf8
+47. Qxb7+ Qe7 48. Qc8 Kg7 49. fxg4 Qh4 50. Qd7+ Kh6 51. h3 Qe1+ 52. Kh2 Qg3+
+53. Kh1 f3 54. Bxf3 hxg4 55. hxg4 Qf4 56. Qc8 Kg5 57. Kg1 Qe3+ 58. Kf1 Kf4 59.
+Qh8 Qc1+ 60. Kf2 Qd2+ 61. Kg1 Qe1+ 62. Kh2 Qg3+ 63. Kg1 Ke3 64. Qh5 Rf6 65.
+Qg5+ Rf4 66. Qh6 Kd3 67. Kh1 Rf7 68. Qc1 Rh7+ 69. Kg1 Qh2+ 70. Kf2 Qh4+ 71. g3
+Qh2+ 72. Kf1 Rf7 0-1
+
+[Event "Exposició Barcelona"]
+[Site "Barcelona"]
+[Date "1929.??.??"]
+[Round "13"]
+[White "Capablanca, Jose Raul"]
+[Black "Yates, Frederick"]
+[Result "1-0"]
+[ECO "A15"]
+[PlyCount "63"]
+[EventDate "1929.??.??"]
+[EventType "tourn"]
+[EventRounds "14"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.11.16"]
+
+1. Nf3 Nf6 2. c4 g6 3. b3 Bg7 4. Bb2 O-O 5. g3 d6 6. Bg2 Nc6 7. O-O e5 8. d4
+Nd7 9. dxe5 Ndxe5 10. Nc3 Re8 11. Nxe5 Nxe5 12. Qd2 a5 13. Rac1 Rb8 14. h3 Bd7
+15. Nd5 b6 16. f4 Nc6 17. Bxg7 Kxg7 18. Qb2+ f6 19. g4 Nb4 20. g5 Nxd5 21. cxd5
+Rc8 22. e4 c6 23. dxc6 Rxc6 24. gxf6+ Kf7 25. e5 Rxc1 26. Rxc1 dxe5 27. fxe5
+Qb8 28. Qd4 Bf5 29. Bd5+ Kf8 30. Qf4 Rxe5 31. Qh6+ Ke8 32. f7+ 1-0
+
+[Event "Exposició Barcelona"]
+[Site "Barcelona"]
+[Date "1929.??.??"]
+[Round "14"]
+[White "Aguilera Bernabe, Jose"]
+[Black "Capablanca, Jose Raul"]
+[Result "0-1"]
+[ECO "E23"]
+[PlyCount "66"]
+[EventDate "1929.??.??"]
+[EventType "tourn"]
+[EventRounds "14"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.11.16"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qb3 c5 5. dxc5 Nc6 6. Nf3 Qa5 7. Bd2 Qxc5 8.
+a3 Bxc3 9. Bxc3 Na5 10. Bxa5 Qxa5+ 11. Qb4 Qc7 12. e3 b6 13. g3 Bb7 14. Bg2 a5
+15. Qc3 Rc8 16. Rc1 d5 17. cxd5 Qxc3+ 18. Rxc3 Rxc3 19. bxc3 Bxd5 20. Nh4 Bc4
+21. Kd2 g5 22. Bc6+ Ke7 23. Ng2 Rc8 24. Bb7 Rc7 25. Ba8 Rc8 26. Bb7 Rb8 27. Bc6
+Rd8+ 28. Kc2 Rd6 29. Ba4 Bd5 30. Rg1 Ne4 31. Kb2 Nxf2 32. Ne1 Ng4 33. Bc2 Nxe3
+0-1
+
+[Event "Barcelona blind sim"]
+[Site "Barcelona"]
+[Date "1935.11.17"]
+[Round "?"]
+[White "Capablanca, Jose Raul"]
+[Black "Domenech Guerrero, Rafael"]
+[Result "0-1"]
+[ECO "C05"]
+[PlyCount "62"]
+[EventDate "1935.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. e4 e6 2. d4 d5 3. Nd2 c5 4. Ngf3 Nf6 5. e5 Nfd7 6. c3 Nc6 7. Bd3 Qb6 8. O-O
+cxd4 9. cxd4 f6 10. exf6 Nxf6 11. Nb3 Bd6 12. Re1 O-O 13. Bg5 Ng4 14. h3 Nxf2
+15. Kxf2 e5 16. Kg1 e4 17. Bxe4 dxe4 18. Rxe4 Bf5 19. Re3 h6 20. Bh4 Nb4 21.
+Ne1 Rac8 22. Rc3 Nd5 23. Rxc8 Bxc8 24. Qd3 Nf4 25. Qd2 Bb8 26. Rc1 Qg6 27. Kh1
+Nxh3 28. Rxc8 Rxc8 29. gxh3 Qe4+ 30. Ng2 Rc2 31. Nc5 Qg6 0-1
+
+[Event "Barcelona blind sim"]
+[Site "Barcelona"]
+[Date "1935.12.13"]
+[Round "?"]
+[White "Capablanca, Jose Raul"]
+[Black "Miranda, E."]
+[Result "0-1"]
+[ECO "A02"]
+[PlyCount "96"]
+[EventDate "1935.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2002.11.25"]
+
+1. f4 e5 2. fxe5 d6 3. Nf3 dxe5 4. e4 Bg4 5. h3 Bxf3 6. Qxf3 Nf6 7. Bc4 c6 8.
+d3 Nbd7 9. O-O Bc5+ 10. Kh2 h6 11. Nc3 a5 12. a4 Qe7 13. Nd1 O-O 14. Be3 Ne8
+15. Bxc5 Nxc5 16. Ne3 Nd6 17. Nf5 Nxf5 18. Qxf5 Rad8 19. Rf3 Rd6 20. Raf1 Rf6
+21. Qh5 Rxf3 22. Rxf3 Nxa4 23. Bb3 Nc5 24. Ba2 Nd7 25. g4 Nf6 26. Qh4 Nd5 27.
+Qxe7 Nxe7 28. Kg3 b5 29. h4 c5 30. g5 hxg5 31. hxg5 Kh7 32. Bxf7 g6 33. Be6
+Rxf3+ 34. Kxf3 Kg7 35. Bd7 b4 36. c3 Kf8 37. Be6 Nc6 38. Ke2 Ke7 39. Bd5 Nd8
+40. Kd2 Kd6 41. Bc4 Kc6 42. Bg8 Kb5 43. c4+ Ka4 44. Kc2 Nc6 45. b3+ Ka3 46. Bf7
+Nd4+ 47. Kb1 Kxb3 48. Bxg6 Ne6 0-1
+
+[Event "Barcelona sim"]
+[Site "Barcelona"]
+[Date "1935.??.??"]
+[Round "?"]
+[White "Calduch Segura, Joaquim"]
+[Black "Capablanca, Jose Raul"]
+[Result "0-1"]
+[ECO "A47"]
+[PlyCount "82"]
+[EventDate "1935.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 e6 3. e3 b6 4. Bd3 Bb7 5. Nbd2 c5 6. c3 Nc6 7. a3 Qc7 8. Qe2
+d5 9. O-O Bd6 10. e4 cxd4 11. cxd4 dxe4 12. Nxe4 Nxe4 13. Bxe4 Ne7 14. Bd2 Bxe4
+15. Qxe4 Qc6 16. Qe2 O-O 17. Rac1 Qd5 18. Rfd1 Rfc8 19. g3 Rxc1 20. Rxc1 Rc8
+21. Rxc8+ Nxc8 22. Qa6 Ne7 23. Qxa7 Qxf3 24. Bb4 $2 Nc6 $2 25. Qa8+ Bb8 26. Bd6
+h5 27. Bxb8 Kh7 28. Bc7 b5 29. a4 bxa4 30. Qxa4 Qe4 31. Bb6 Ne5 32. Qd1 Nf3+
+33. Kf1 $2 Nxh2+ 34. Kg1 Nf3+ 35. Kf1 $2 g5 36. Qe2 Qb1+ 37. Kg2 g4 38. Qf1 Qe4
+39. Kh1 f5 40. b4 Nxd4+ 41. Qg2 Nf3 0-1
+
+[Event "Barcelona sim"]
+[Site "Barcelona"]
+[Date "1935.12.??"]
+[Round "?"]
+[White "Capablanca, Jose Raul"]
+[Black "De la Fuente, F."]
+[Result "1-0"]
+[ECO "A00"]
+[PlyCount "47"]
+[EventDate "1935.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+
+1. e3 d5 2. b3 e5 3. Bb2 Bd6 4. f4 Nd7 5. Nf3 Qe7 6. c4 Ngf6 7. fxe5 Nxe5 8.
+Nc3 c6 9. cxd5 cxd5 10. Bb5+ Bd7 11. Bxd7+ Nexd7 12. Nd4 O-O 13. Nf5 Qe6 14.
+Nxd6 Qxd6 15. Nb5 Qb6 16. Nd4 Qa6 17. Qe2 Qxe2+ 18. Kxe2 Rac8 19. Rac1 Rxc1 20.
+Rxc1 a6 21. Rc7 b5 22. Nf5 h6 23. Ne7+ Kh7 24. Nxd5 1-0
+
+[Event "Barcelona sim"]
+[Site "Barcelona"]
+[Date "1935.12.14"]
+[Round "?"]
+[White "Capablanca, Jose Raul"]
+[Black "Llusa, Francisco"]
+[Result "1-0"]
+[ECO "D30"]
+[PlyCount "43"]
+[EventDate "1935.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2002.11.25"]
+
+1. d4 e6 2. c4 Nf6 3. Nf3 d5 4. Bg5 Nbd7 5. e3 Be7 6. Nbd2 c6 7. Bd3 O-O 8. O-O
+Re8 9. Qe2 Nh5 10. Bxe7 Qxe7 11. Ne5 Nhf6 12. f4 c5 13. Rac1 cxd4 14. exd4 dxc4
+15. Ndxc4 Nd5 16. Nxf7 Rf8 17. Ng5 Nxf4 18. Qe4 Qxg5 19. Qxh7+ Kf7 20. Rxf4+
+Qxf4 21. Rf1 Qxf1+ 22. Bxf1 1-0
+
+[Event "Barcelona sim"]
+[Site "Barcelona"]
+[Date "1935.12.??"]
+[Round "?"]
+[White "Capablanca, Jose Raul"]
+[Black "Ribera Arnal, Angel"]
+[Result "1-0"]
+[ECO "B17"]
+[Annotator "González,JA"]
+[PlyCount "41"]
+[EventDate "1935.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+
+{La siguiente partida constituye un ejemplo adecuado y bien caracteristico de
+los ataques contra el enroque cuando el bando defensor descuida dicho sector,
+alejando del mismo las piezas mas necesarias para su custodia.} 1. e4 c6 2. Nc3
+{Lo vemos a Capablanca jugando la denominada "Variante Moderna" de la Defensa
+Caro Kann.} d5 3. Nf3 dxe4 4. Nxe4 Nd7 5. d4 {Capablanca pasa asi a la
+variante principal.} ({Otra posibilidad era} 5. Bc4 {aunque frecuentemente se
+traspone a lineas con el peon d4, por ejemplo:} e6 6. d4 Ngf6 7. Nxf6+ Nxf6 8.
+O-O Qc7 9. Ne5 Bd6 10. Bf4 O-O 11. Qe2 b6 {con posicion equilibrada,
+Gligoric-Luckis, Mar del Plata 1950}) 5... Ngf6 6. Ng3 e6 7. Bd3 Be7 ({Algo
+mas activo parece} 7... c5) 8. O-O O-O 9. Qe2 c5 10. Rd1 ({Es a considerar} 10.
+c3 $5) ({Otra posibilidad es} 10. dxc5 Nxc5 11. Bc4 b6 12. Rd1 Qc7 13. Ne5 Bb7
+14. Bf4 Qc8 $14 {y las blancas tienen ventaja posicional}) 10... Qc7 11. Bg5 ({
+Actualmente se considera mejor} 11. c4 Re8 12. dxc5 Nxc5 13. Bc2 Ncd7 14. Ne4
+b6 15. Ba4 Rd8 {aunque queda una posicion equilibrada, Tal-Ciric, Budva 1967})
+11... b6 $2 ({Era mejor jugar} 11... h6 $11 12. Bxf6 Nxf6 13. Ne4 cxd4 14. Nxd4
+Bd7 15. Nxf6+ Bxf6 16. Qe4 $11 {1/2-1/2 Quigley-Rossell, email 1999}) (11...
+cxd4 $142 12. Nxd4 h6 $14) (11... Re8 12. c3 $14) 12. d5 $1 {Elegante jugada
+que tiene por objeto preparar el campo para un ataque tipico contra el enroque
+negro. El objetivo es desviar al Nf6 de su funcion defensiva.} Nxd5 ({En caso
+de} 12... exd5 13. Qxe7 Re8 14. Bxf6 Rxe7 15. Bxe7 {y las blancas tendrian
+tres piezas a cambio de la dama, lo que seria decisiva ventaja}) 13. Bxe7 Nxe7
+{# Y tenemos aqui una posicion tipica, en la que se produce el conocido ataque
+contra el enroque con el sacrificio del alfil en h7. Sin embargo, lo
+instructivo es como las blancas crearon esta escenografia, desviando al Nf6 de
+su tarea defensiva mediante el sacrificio 12.d5!.} 14. Bxh7+ $1 Kxh7 ({Si} 
+14... Kh8 {se gana con} 15. Be4 {seguido de 16.Ng5, por ejemplo:}) 15. Ng5+ ({
+Veinte anos despues de que se jugara esta partida, Boleslavsky tuvo la curiosa
+fortuna de que un rival de peso cayera en esta misma posicion. Uno podria
+suponer que el gran Isaak seguramente conocia la partida de Capablanca, y
+probablemente quiso mejorar el orden del ataque jugando} 15. Rxd7 {pero tras}
+Qxd7 16. Ng5+ Kg8 17. Qh5 Rd8 18. Qxf7+ Kh8 {se arribo a la misma posicion de
+Capablanca, aunque luego Boleslavsky vario con} 19. h3 {y ya veremos por que
+razon}) 15... Kg8 ({Si} 15... Kg6 16. Qh5+ Kf6 17. Nh7#) 16. Rxd7 $1 {
+Eliminando la unica pieza que ahora podria proporcionar al rey negro alguna
+defensa.} Qxd7 17. Qh5 Rd8 18. Qxf7+ Kh8 19. h4 ({La partida "gemela" a la que
+nos referiamos, siguio con} 19. h3 Qe8 (19... Nd5 20. Nh5 Ba6 21. Qg6 Kg8 22.
+Re1 $18) (19... Nf5 20. Qg6 $18) 20. Nh5 (20. N3e4 $1 Qxf7 21. Nxf7+ Kg8 22.
+Nxd8 $16) 20... Qxf7 21. Nxf7+ Kg8 22. Nxd8 Bd7 23. Nb7 Nf5 24. Ng3 Nxg3 25.
+fxg3 Bc6 26. Nd6 Rd8 27. Rd1 Kf8 28. Rd2 Ke7 29. Nc4 Rd4 30. b3 Bd5 31. c3 Re4
+32. Na3 Re3 33. c4 Bc6 34. Kf2 Rc3 35. Nc2 a5 36. Ne3 Be4 37. h4 Rc1 38. Rd1
+Rc3 39. g4 Bc6 40. g5 Be4 41. h5 a4 42. bxa4 Ra3 43. Rd2 Rxa4 44. Kg3 Bb1 45.
+h6 gxh6 46. gxh6 Kf6 47. Rd6 Bxa2 48. Rxb6 Bxc4 49. Nxc4 Rxc4 50. Rxe6+ Kg5 {
+1/2-1/2 Boleslavsky,I-Veresov,G/Belorussia-ch 1955 (50)}) (19. Nh5 $4 Qd1+ 20.
+Rxd1 Rxd1#) 19... Nf5 $2 ({En caso de} 19... Qe8 {(como jugo Veresov), sigue}
+20. Nh5 ({o quizas mejor} 20. N3e4 $1 Qxf7 21. Nxf7+ Kg8 22. Nxd8 Bd7 23. Nb7
+Bc6 24. Nbd6 {y los caballos se conjugan, facilitando a las blancas realizar
+su ventaja}) 20... Qf8 $2 (20... Qxf7 21. Nxf7+ Kg8 22. Nxd8 {y queda una
+posicion poco clara, ya que luego de} Bd7 23. Nb7 Nf5 {el caballo blanco tiene
+dificultades para volver a la lucha, como en la partida arribacitada}) 21. Nf6
+Ng8 22. Qh5+ $18) (19... Nd5 $3 {Aquesta era la bona, que donava igualtat.} 20.
+Qh5+ (20. Nh5 g6 $1 21. Qxg6 Rf8 $11) 20... Kg8 21. Qh7+ Kf8 22. c4 Nf6 23.
+Qh8+ Ng8 24. Nh7+ Kf7 25. Ng5+ Kf8 $11) 20. Nh5 {Los comentarios de viejas
+publicaciones de hace mas de medio siglo hablan de una "elegante jugada de
+Capablanca". Pero en realidad, este movimiento es un error, y debio costarle
+al cubano una derrota en estas simultaneas.} ({Por supuesto que las blancas
+podian jugar sencillamente} 20. Nxf5 Qxf7 (20... exf5 $2 21. Qg6 Kg8 22. Re1
+Kf8 23. Nh7+ Kg8 24. Nf6+ $18) 21. Nxf7+ Kg8 22. Nxd8 exf5 23. Nc6 $16) ({Pero
+lo mas fuerte es la inmediatamente ganadora} 20. Qg6 Kg8 21. Nxf5 exf5 22. Re1
+$18) 20... Qe8 $4 {Esto pierde.} ({En una vieja revista "Ajedrez" (Buenos
+Aires, editorial Sopena) del año 1957, se dice que "la unica forma de
+prolongar la resistencia era} 20... Qxf7 $1 {Pero... ! lo cierto es que las
+negras ganan!. Veamos:} 21. Nxf7+ Kg8 22. Nxd8 Bd7 $1 23. Nb7 Bc6 24. g4 Nxh4
+$19 (24... Nd4 $144 $19)) ({Sin embargo, lo mas contundente a disposicion de
+las negras es} 20... Nxh4 $1 $19 {con sangre fria y sin angustiarse por la
+caballeria blanca sobre el propio rey. El caballo negro controla la casilla g6
+(de lo contrario 21.Qg6 seria ganadora), y el caso es que las blancas no
+tienen manera de continuar su ataque... Investigue el lector personalmente...
+Vemos la razon, entonces, por la que Boleslavsky no juega 19.h4 como
+Capablanca, sino 19.h3 (al menos para no regalar el peon extra). !El ruso
+conocia muy bien la partida del cubano!... Una pena que Ribera no viese esta
+jugada.} 21. Ng3 Qxf7 22. Nxf7+ Kg8 23. Nxd8 Bd7 24. Nb7 Bc6 25. Nd6 Bxg2 {Y
+el negro tiene ventaja para ganar.}) 21. Nf6 $1 1-0
+
+[Event "Barcelona sim"]
+[Site "Barcelona"]
+[Date "1935.12.13"]
+[Round "?"]
+[White "Capablanca, Jose Raul"]
+[Black "Ruiz, Sofia"]
+[Result "1-0"]
+[ECO "B10"]
+[PlyCount "33"]
+[EventDate "1935.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2002.11.25"]
+
+1. e4 c6 2. Nc3 d5 3. Nf3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. h4 h6 7. Ne5 Bh7 8.
+Bc4 e6 9. Qh5 g6 10. Qf3 Nf6 11. c3 h5 12. d4 Bg7 13. Bg5 O-O 14. Ne4 Qb6 15.
+Nxf6+ Bxf6 16. Bxf6 Qxb2 17. O-O 1-0
+
+[Event "Barcelona sim"]
+[Site "Barcelona"]
+[Date "1935.12.13"]
+[Round "?"]
+[White "Capablanca, Jose Raul"]
+[Black "Vilaro, Emili"]
+[Result "1-0"]
+[ECO "D02"]
+[PlyCount "99"]
+[EventDate "1935.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2002.11.25"]
+
+1. d4 Nf6 2. Bf4 d5 3. Nf3 e6 4. e3 Nbd7 5. h3 c5 6. c3 Qb6 7. Qc2 Bd6 8. Ne5
+Qc7 9. Qa4 O-O 10. Nxd7 Bxd7 11. Bxd6 Qxd6 12. Qa3 Rfc8 13. Nd2 Qc7 14. Nf3 c4
+15. Ne5 Bc6 16. Be2 a5 17. O-O b6 18. b3 b5 19. Qc5 Ne4 20. Qxc6 Qxc6 21. Nxc6
+Rxc6 22. bxc4 Nxc3 23. Bf3 Rxc4 24. Rfc1 Rac8 25. Kf1 Ne4 26. Rxc4 Nd2+ 27. Ke2
+Nxc4 28. Kd3 f5 29. Rb1 Na3 30. Rb2 b4 31. Bd1 Rc3+ 32. Ke2 g5 33. Bb3 h5 34.
+Rd2 Kf7 35. Rd1 Nc4 36. g4 hxg4 37. hxg4 Kg6 38. gxf5+ Kxf5 39. Rh1 Nb2 40. Rb1
+Nc4 41. Rh1 Nb6 42. Rh6 Rc6 43. Kd1 a4 44. Bc2+ Kg4 45. Kd2 Nc4+ 46. Ke2 Nb2
+47. Bg6 b3 48. axb3 axb3 49. Kf1 Kf3 50. Rh3+ 1-0
+
+[Event "Barcelona sim"]
+[Site "Barcelona"]
+[Date "1935.12.14"]
+[Round "?"]
+[White "Llado Lumbera, Jaime"]
+[Black "Capablanca, Jose Raul"]
+[Result "0-1"]
+[ECO "E91"]
+[PlyCount "50"]
+[EventDate "1935.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2002.11.25"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 O-O 5. Nf3 c5 6. Be2 d6 7. O-O Bg4 8. Be3
+Nc6 9. h3 Bxf3 10. Bxf3 Nd7 11. d5 Nd4 12. Be2 e5 13. Bd3 f5 14. f4 fxe4 15.
+Bxe4 Bh6 16. Bxd4 cxd4 17. Nb5 Nc5 18. Bc2 exf4 19. Kh1 f3 20. Rxf3 Rxf3 21.
+Qxf3 Qh4 22. Rf1 Rf8 23. Qe2 Rxf1+ 24. Qxf1 d3 25. Bxd3 Bf4 0-1
+
+[Event "Barcelona sim"]
+[Site "Barcelona"]
+[Date "1935.12.14"]
+[Round "?"]
+[White "Llorens Llorens, Rafael"]
+[Black "Capablanca, Jose Raul"]
+[Result "1-0"]
+[ECO "E22"]
+[PlyCount "91"]
+[EventDate "1935.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2002.11.25"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qb3 Qe7 5. e3 b6 6. Bd3 Bb7 7. f3 c5 8. a3
+Bxc3+ 9. bxc3 Nc6 10. Ne2 Na5 11. Qa2 e5 12. e4 d6 13. Bd2 O-O-O 14. a4 Nd7 15.
+Ng3 g6 16. h4 h5 17. d5 Ba6 18. Ne2 Rdf8 19. O-O-O f5 20. Bg5 Qe8 21. exf5 gxf5
+22. Ng3 e4 23. fxe4 Qe5 24. Nxf5 Qxc3+ 25. Kb1 Rxf5 26. exf5 Bxc4 27. Bxc4 Nxc4
+28. Rh3 Qb4+ 29. Rb3 Qa5 30. f6 Rf8 31. Rc1 Nde5 32. Rb5 Qa6 33. Rxc4 Nxc4 34.
+Qxc4 Kb7 35. Qf4 Kc7 36. f7 Qb7 37. Qf6 Qxd5 38. Qe7+ Kc6 39. Qxf8 Qd3+ 40. Kc1
+Qf1+ 41. Kc2 Qxg2+ 42. Bd2 Qe4+ 43. Kc1 Qc4+ 44. Kb2 Qd4+ 45. Bc3 Qf2+ 46. Ka3
+1-0
+
+[Event "Manresa sim"]
+[Site "Manresa"]
+[Date "1935.12.15"]
+[Round "?"]
+[White "Capablanca, Jose Raul"]
+[Black "Claret Tournier, JL."]
+[Result "1-0"]
+[ECO "C78"]
+[PlyCount "77"]
+[EventDate "1935.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O b5 6. Bb3 Be7 7. a4 Bb7 8. Qe2
+b4 9. a5 O-O 10. c3 d6 11. d4 bxc3 12. bxc3 exd4 13. cxd4 Nd7 14. Nc3 Bf6 15.
+Be3 Ne7 16. Rfd1 c5 17. e5 Bxf3 18. Qxf3 dxe5 19. dxc5 e4 20. Nxe4 Bxa1 21.
+Rxa1 Rb8 22. Bf4 Rb5 23. Bd6 h6 24. Qc3 Nc6 25. Bxf8 Qxf8 26. Bc4 Rb8 27. Bxa6
+Qe7 28. Nd6 Qe5 29. Qxe5 Ncxe5 30. Bb7 Nxc5 31. a6 Nxb7 32. axb7 Kf8 33. f4 Nd7
+34. Re1 Nc5 35. Re5 Nxb7 36. Rb5 Nxd6 37. Rxb8+ Ke7 38. Kf2 g5 39. Rh8 1-0
+
+[Event "Tarrega sim"]
+[Site "?"]
+[Date "1935.??.??"]
+[Round "?"]
+[White "Capablanca, Jose Raul"]
+[Black "Callejo"]
+[Result "1-0"]
+[ECO "A03"]
+[PlyCount "81"]
+[EventDate "1935.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+
+1. f4 d5 2. Nf3 c5 3. e3 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. b3 Nc6 7. Bb2 a6 8. a3
+d4 9. g4 h6 10. Bg2 Rb8 11. O-O e6 12. c3 Be7 13. Qf2 Qb6 14. b4 a5 15. exd4
+cxd4 16. d3 Rd8 17. Nd2 Qa7 18. c4 axb4 19. axb4 Qb6 20. b5 Nb4 21. Qf3 Nc2 22.
+Qxb7 Qxb7 23. Bxb7 Nxa1 24. Rxa1 Bd6 25. Bc6+ Nd7 26. Bxd4 O-O 27. Be3 Nc5 28.
+d4 Nd3 29. Rf1 Nb4 30. Be4 f5 31. Bb1 fxg4 32. hxg4 Bxf4 33. Rxf4 Rxf4 34. Bxf4
+Rxd4 35. Be4 Nd3 36. Be3 Rd7 37. b6 Nb4 38. b7 Na6 39. c5 e5 40. c6 Rc7 41. Bb6
+1-0

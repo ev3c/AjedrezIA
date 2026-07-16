@@ -1,0 +1,56 @@
+[Event "Lliga Catalana DH"]
+[Site "Barbera de Valles"]
+[Date "2023.02.04"]
+[Round "3.1"]
+[White "Alsina Leal, Daniel"]
+[Black "Romain, Edouard"]
+[Result "1/2-1/2"]
+[WhiteElo "2520"]
+[BlackElo "2537"]
+[PlyCount "63"]
+[EventDate "2023.??.??"]
+[TimeControl "90+30"]
+[WhiteClock "0:03:29"]
+[BlackClock "0:46:05"]
+
+1. e4 {[%emt 0:01:08]} c5 {[%emt 0:00:20]} 2. Nf3 {[%emt 0:00:14]} d6 {[%emt 0:
+00:14]} 3. d4 {[%emt 0:00:10]} cxd4 {[%emt 0:00:22]} 4. Nxd4 {[%emt 0:00:07]}
+Nf6 {[%emt 0:00:00]} 5. Nc3 {[%emt 0:00:06]} Nc6 {[%emt 0:00:04]} 6. Bg5 {
+[%emt 0:00:17]} g6 {[%emt 0:00:05]} 7. Bxf6 {[%emt 0:00:25]} exf6 {[%emt 0:00:
+48]} 8. Bb5 {[%emt 0:00:13]} Bd7 {[%emt 0:02:16]} 9. Qd2 {[%emt 0:00:02]} Bg7 {
+[%emt 0:00:56]} 10. O-O-O {[%emt 0:00:11]} O-O {[%emt 0:00:02]} 11. Nb3 {[%emt
+0:07:37]} a6 {[%emt 0:12:36]} 12. Be2 {[%emt 0:05:38]} Qb6 {[%emt 0:03:10]} 13.
+Qxd6 {[%emt 0:02:14]} Be6 {[%emt 0:05:24]} 14. Qc5 {[%emt 0:00:29]} Qc7 {[%emt
+0:09:17]} 15. Nd5 {[%emt 0:01:24]} Qe5 {[%emt 0:02:21]} 16. Nb6 {[%emt 0:00:48]
+} Qf4+ {[%emt 0:11:09]} 17. Nd2 {[%emt 0:00:38]} Rad8 {[%emt 0:00:22]} 18. g3 {
+[%emt 0:00:25]} Qb8 {[%emt 0:05:39]} 19. Bc4 {[%emt 0:01:23]} Rfe8 {[%emt 0:02:
+33]} 20. Bxe6 {[%emt 0:02:04]} Rxe6 {[%emt 0:00:08]} 21. Nd5 {[%emt 0:02:44]}
+f5 {[%emt 0:03:13]} 22. f3 {[%emt 0:22:54]} b5 {[%emt 0:02:18]} 23. Nf4 {[%emt
+0:02:11]} Red6 {[%emt 0:05:57]} 24. Nb3 {[%emt 0:03:21]} Nd4 {[%emt 0:03:24]}
+25. Nxd4 {[%emt 0:01:44]} Bxd4 {[%emt 0:00:04]} 26. Qa3 {[%emt 0:02:39]} fxe4 {
+[%emt 0:00:32]} 27. fxe4 {[%emt 0:00:17]} R6d7 {[%emt 0:02:32]} 28. Qf3 {[%emt
+0:10:43]} Bg7 {[%emt 0:09:37]} 29. Rxd7 {[%emt 0:01:14]} Rxd7 {[%emt 0:00:00]}
+30. Rd1 {[%emt 0:00:31]} Re7 {[%emt 0:00:09]} 31. Nd5 {[%emt 0:02:13]} Re6 {
+[%emt 0:00:15]} 32. Rf1 {[%emt 0:01:04]} 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.04.06"]
+[Round "10.1"]
+[White "Romain, Edouard"]
+[Black "jerez Perez, Alfonso"]
+[Result "1-0"]
+[ECO "A05"]
+[WhiteElo "2597"]
+[BlackElo "2398"]
+[PlyCount "58"]
+[EventDate "2024.04.13"]
+[EventType "team"]
+[EventRounds "11"]
+[EventCountry "CAT"]
+
+1. Nf3 Nf6 2. g3 g6 3. Bg2 Bg7 4. c4 c6 5. O-O O-O 6. b3 d5 7. Bb2 Re8 8. d3 a5
+9. a3 Na6 10. Qc2 dxc4 11. Qxc4 Be6 12. Qc2 Qb6 13. Nbd2 Qc5 14. Nc4 Qh5 15. h4
+h6 16. Nfe5 g5 17. Bf3 g4 18. Bg2 Nb8 19. e4 b5 20. Ne3 Nxe4 21. N5xg4 Bxb2 22.
+Qxb2 Nxg3 23. fxg3 Bxg4 24. Nxg4 Qxg4 25. Kh2 Qg7 26. Qe2 Ra7 27. Rac1 Rd7 28.
+Rf4 Rd6 29. Re4 Kf8 1-0

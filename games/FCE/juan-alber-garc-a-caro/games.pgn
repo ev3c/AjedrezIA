@@ -1,0 +1,54 @@
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.01.24"]
+[White "Juan Alber Garc�a Caro"]
+[Black "Francisco Fern�ndez Aguilar"]
+[Round "2.8"]
+[Result "1/2-1/2"]
+[ECO "D15"]
+[Date "2026.01.27"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. e4 b5 6. Be2 g6 7. 0-0 Bg7 8. a4 b4 9. 
+e5 Nd5 10. Ne4 c3 11. bxc3 Bf5 12. Ng3 Nxc3 13. Nxf5 gxf5 14. Qc2 Nxe2+ 15. Qxe2 
+e6 16. a5 Qd5 17. Bd2 Qb5 18. Qe3 h6 19. Ne1 Na6 20. Nd3 Bf8 21. Rfc1 Rd8 22. Nf4 
+Nc7 23. Nh5 Be7  1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "Barcelona"]
+[Date "2024.01.20"]
+[Round "1.5"]
+[White "Ortega Serra, Marc"]
+[Black "Juan Albert, Garcia Caro"]
+[Result "1-0"]
+[ECO "B07"]
+[WhiteElo "2353"]
+[BlackElo "2348"]
+[PlyCount "77"]
+[EventDate "2024.??.??"]
+[TimeControl "90+30"]
+[WhiteClock "0:00:31"]
+[BlackClock "0:09:13"]
+
+1. d4 {[%emt 0:03:40]} Nf6 {[%emt 0:03:17]} 2. Nf3 {[%emt 0:01:17]} g6 {
+[%emt 0:03:11]} 3. g3 {[%emt 0:00:08]} Bg7 {[%emt 0:01:25]} 4. Bg2 {[%emt 0:00:
+08]} O-O {[%emt 0:00:43]} 5. O-O {[%emt 0:00:07]} d6 {[%emt 0:05:12]} 6. a4 {
+[%emt 0:00:22]} Nbd7 {[%emt 0:02:39]} 7. a5 {[%emt 0:02:40]} c6 {[%emt 0:02:56]
+} 8. Nc3 {[%emt 0:01:20]} Qc7 {[%emt 0:03:55]} 9. e4 {[%emt 0:03:03]} e5 {
+[%emt 0:06:23]} 10. h3 {[%emt 0:00:49]} Re8 {[%emt 0:04:06]} 11. dxe5 {[%emt 0:
+06:44]} dxe5 {[%emt 0:03:33]} 12. Be3 {[%emt 0:00:07]} Bf8 {[%emt 0:05:00]} 13.
+Nd2 {[%emt 0:06:16]} Nh5 {[%emt 0:18:06]} 14. Nc4 {[%emt 0:12:29]} Nc5 {
+[%emt 0:03:51]} 15. Na4 {[%emt 0:07:46]} Nxa4 {[%emt 0:07:27]} 16. Rxa4 {
+[%emt 0:01:02]} Be6 {[%emt 0:00:32]} 17. Qe2 {[%emt 0:00:11]} c5 {[%emt 0:02:
+26]} 18. Rfa1 {[%emt 0:03:06]} Rad8 {[%emt 0:02:18]} 19. Bd2 {[%emt 0:15:57]}
+f6 {[%emt 0:04:52]} 20. Bc3 {[%emt 0:00:36]} Bd7 {[%emt 0:03:40]} 21. R4a3 {
+[%emt 0:01:40]} Qc8 {[%emt 0:02:07]} 22. Kh2 {[%emt 0:00:30]} Bb5 {[%emt 0:00:
+07]} 23. Bf1 {[%emt 0:00:24]} Kh8 {[%emt 0:04:46]} 24. Qf3 {[%emt 0:06:08]} Bc6
+{[%emt 0:01:28]} 25. g4 {[%emt 0:04:15]} Ng7 {[%emt 0:04:46]} 26. Qxf6 {
+[%emt 0:00:47]} Bxe4 {[%emt 0:01:23]} 27. Nxe5 {[%emt 0:02:22]} Rd4 {[%emt 0:
+03:07]} 28. Bxd4 {[%emt 0:09:06]} cxd4 {[%emt 0:00:21]} 29. Bc4 {[%emt 0:01:42]
+} Rxe5 {[%emt 0:00:54]} 30. Qxe5 {[%emt 0:00:01]} Qc6 {[%emt 0:00:30]} 31. Qb5
+{[%emt 0:00:35]} Qc7+ {[%emt 0:00:30]} 32. Rg3 {[%emt 0:00:26]} a6 {[%emt 0:00:
+34]} 33. Qb3 {[%emt 0:00:22]} h5 {[%emt 0:00:07]} 34. Kg1 {[%emt 0:02:00]} h4 {
+[%emt 0:00:14]} 35. Rf3 {[%emt 0:00:10]} Bd6 {[%emt 0:00:34]} 36. Bd5 {[%emt 0:
+00:13]} Bxf3 {[%emt 0:01:01]} 37. Bxf3 {[%emt 0:00:51]} Bh2+ {[%emt 0:00:31]}
+38. Kf1 {[%emt 0:00:50]} Qf4 {[%emt 0:00:35]} 39. Re1 {[%emt 0:00:28]} 1-0

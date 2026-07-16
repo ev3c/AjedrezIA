@@ -1,0 +1,169 @@
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.01.21"]
+[Round "2"]
+[White "Valls Anton, Lluis Felip"]
+[Black "Diaz Soro, Josep Lluis"]
+[Result "0-1"]
+[ECO "B40"]
+[WhiteElo "1513"]
+[BlackElo "1700"]
+[PlyCount "50"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nf6 5. Bg5 Qa5+ 6. Qd2 Qe5 7. f3 Bc5 8.
+Bxf6 Qxf6 9. c3 a6 10. a4 O-O 11. Na3 d5 12. exd5 exd5 13. Nac2 Re8+ 14. Be2
+Be6 15. O-O Nc6 16. Kh1 Rad8 17. b4 Ba7 18. b5 Ne5 19. Na3 Nc4 20. Nxc4 dxc4
+21. Rfd1 a5 22. Qb2 Bb6 23. Nxe6 Rxd1+ 24. Rxd1 Qxe6 25. Qa2 Qxe2 0-1
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.01.28"]
+[Round "3"]
+[White "Diaz Soro, Josep Lluis"]
+[Black "Tarifa Garcia, Jose"]
+[Result "1-0"]
+[ECO "A02"]
+[WhiteElo "1700"]
+[BlackElo "1527"]
+[PlyCount "63"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. f4 b6 2. Nf3 Bb7 3. e3 g6 4. d4 Bg7 5. Bd3 Nf6 6. c3 d6 7. O-O Nbd7 8. Re1
+c5 9. e4 O-O 10. Na3 a6 11. Nc2 b5 12. e5 dxe5 13. dxe5 Nd5 14. Be4 e6 15. Qe2
+N7b6 16. Bd2 Nc4 17. b3 Nxd2 18. Qxd2 Qb6 19. c4 bxc4 20. bxc4 Ne7 21. Rab1 Qd8
+22. Rxb7 Qxd2 23. Nxd2 Rad8 24. Nf3 Nf5 25. Reb1 Nd4 26. Ncxd4 cxd4 27. Rd1 Rb8
+28. c5 f5 29. exf6 Bxf6 30. Nxd4 Bxd4+ 31. Rxd4 Rxf4 32. Rxb8+ 1-0
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.02.04"]
+[Round "4"]
+[White "Valarezo Ricard, Pedro"]
+[Black "Diaz Soro, Josep Lluis"]
+[Result "0-1"]
+[ECO "A80"]
+[WhiteElo "1891"]
+[BlackElo "1700"]
+[PlyCount "74"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 f5 2. Nf3 Nf6 3. Bf4 e6 4. h4 Bd6 5. Bg5 O-O 6. Ne5 Be7 7. e3 d6 8. Nf3
+Ne4 9. Bxe7 Qxe7 10. Nbd2 b6 11. Bd3 Bb7 12. Qe2 Nd7 13. O-O-O d5 14. g4 f4 15.
+g5 c5 16. c3 Rac8 17. Bc2 c4 18. Rdg1 Bc6 19. Nxe4 dxe4 20. Nd2 f3 21. Qxc4 Bd5
+22. Qa4 b5 23. Qa5 Nb6 24. Kb1 Qd7 25. Bxe4 Nc4 26. Bxh7+ Kxh7 27. Nxc4 bxc4
+28. g6+ Kh6 29. Rg4 Rf5 30. e4 Bxe4+ 31. Rxe4 Rxa5 32. Rg1 Rh5 33. Rg3 Rf8 34.
+a4 Qd6 35. Rh3 Rf4 36. Re3 Rfxh4 37. Rhxf3 Rf4 0-1
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.02.11"]
+[Round "5"]
+[White "Diaz Soro, Josep Lluis"]
+[Black "Llacuna Fabregat, Josep Maria"]
+[Result "1/2-1/2"]
+[ECO "A03"]
+[WhiteElo "1700"]
+[BlackElo "1750"]
+[PlyCount "93"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. f4 d5 2. e3 Nf6 3. Nf3 Bf5 4. Be2 e6 5. O-O Bc5 6. d4 Bb6 7. Na3 Nbd7 8. c4
+c6 9. c5 Bc7 10. Bd2 Ne4 11. Nc2 Nxd2 12. Nxd2 Qh4 13. Nf3 Qh6 14. b4 a6 15.
+Bd3 Bxd3 16. Qxd3 Nf6 17. Ng5 Qh5 18. Rf3 Qg6 19. Qxg6 hxg6 20. Rh3 Ke7 21.
+Rxh8 Rxh8 22. a4 Nd7 23. Na3 f6 24. Nf3 e5 25. g3 e4 26. Nh4 Kf7 27. b5 f5 28.
+Rb1 Rb8 29. b6 Bd8 30. Ng2 g5 31. Nc2 gxf4 32. exf4 Bf6 33. Nge3 Ke6 34. h4 Rh8
+35. Kg2 g6 36. Nf1 Kf7 37. Nd2 e3 38. Nb3 Re8 39. Re1 Re4 40. Kf3 Nf8 41. Rxe3
+Ne6 42. Rxe4 dxe4+ 43. Ke3 Nd8 44. Nb4 Ke6 45. Na5 Kd7 46. Nb3 Ke6 47. Na5
+1/2-1/2
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.02.18"]
+[Round "6"]
+[White "Diaz Soro, Josep Lluis"]
+[Black "Prat Rabell, Josep M"]
+[Result "0-1"]
+[ECO "A02"]
+[WhiteElo "1700"]
+[BlackElo "1926"]
+[PlyCount "60"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. f4 e5 2. fxe5 d6 3. exd6 Bxd6 4. Nf3 g5 5. g3 h5 6. e4 g4 7. Nh4 Be7 8. Nf5
+Bxf5 9. exf5 Qd5 10. Rg1 Nc6 11. Bg2 Qe5+ 12. Qe2 Qxe2+ 13. Kxe2 Nd4+ 14. Kd1
+O-O-O 15. Rf1 h4 16. c3 Nf3 17. Bxf3 gxf3 18. g4 h3 19. d4 c5 20. Be3 Nf6 21.
+g5 Ng4 22. Bf4 f2 23. Nd2 Bd6 24. Bxd6 Rxd6 25. Ne4 Rd5 26. Ke2 cxd4 27. cxd4
+Rxd4 28. Rfc1+ Kb8 29. Nxf2 Re8+ 30. Kf1 Rf4 0-1
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.02.25"]
+[Round "7"]
+[White "Pla Carulla, Joaquim"]
+[Black "Diaz Soro, Josep Lluis"]
+[Result "1-0"]
+[ECO "A80"]
+[WhiteElo "1745"]
+[BlackElo "1700"]
+[PlyCount "45"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 f5 2. Bg5 Nf6 3. Nc3 Nc6 4. e3 g6 5. h4 Bg7 6. Bc4 Na5 7. Bd3 d5 8. Nf3
+Nc6 9. Bb5 a6 10. Bxc6+ bxc6 11. Ne5 Bd7 12. h5 h6 13. Bxf6 Bxf6 14. hxg6 Bg7
+15. Nf7 Qc8 16. Nxh8 Be6 17. Nf7 Bxf7 18. gxf7+ Kxf7 19. Qh5+ Kf6 20. Ne2 Qe8
+21. Nf4 e6 22. Qxe8 Rxe8 23. Nh5+ 1-0

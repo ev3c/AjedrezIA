@@ -1,0 +1,109 @@
+[Event "Platja d'Aro op 5th"]
+[Site "Platja d'Aro"]
+[Date "2017.06.25"]
+[Round "1"]
+[White "Krylov, Mikhail"]
+[Black "Fluvia Frigola, Joan"]
+[Result "1-0"]
+[ECO "D85"]
+[WhiteElo "2485"]
+[BlackElo "2033"]
+[PlyCount "68"]
+[EventDate "2017.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Nf3 c5 8.
+Rb1 O-O 9. Be2 cxd4 10. cxd4 Qa5+ 11. Bd2 Qxa2 12. O-O Bg4 13. Bg5 Nc6 14. d5
+Bxf3 15. Bxf3 h6 16. Bh4 Ne5 17. Bxe7 Rfe8 18. Rxb7 Qa6 19. Qb3 Nxf3+ 20. gxf3
+Bf6 21. Bc5 Be5 22. d6 Re6 23. Rd1 Qc6 24. Rc7 Qa6 25. Qb7 Qxb7 26. Rxb7 Rd8
+27. d7 a5 28. Bb6 Rxb6 29. Rxb6 Kf8 30. Ra6 Bc3 31. f4 f6 32. Kg2 g5 33. Kf3
+gxf4 34. Kxf4 Be5+ 1-0
+
+[Event "Platja d'Aro op 5th"]
+[Site "Platja d'Aro"]
+[Date "2017.06.26"]
+[Round "2"]
+[White "Zolotukhin, Valery"]
+[Black "Krylov, Mikhail"]
+[Result "0-1"]
+[ECO "B48"]
+[WhiteElo "2317"]
+[BlackElo "2485"]
+[PlyCount "48"]
+[EventDate "2017.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qf3 Bd6 8.
+O-O-O Be5 9. g3 Nf6 10. Qe2 O-O 11. f4 Bxd4 12. Bxd4 Nxd4 13. Rxd4 e5 14. Rc4
+Qd6 15. a3 b5 16. Rb4 Bb7 17. g4 exf4 18. g5 Ne8 19. Bh3 Qe5 20. Rg1 Nd6 21.
+Qd3 Nc4 22. Qxd7 f3 23. Qxb7 Qxh2 24. Rd1 Qxh3 0-1
+
+[Event "Platja d'Aro op 5th"]
+[Site "Platja d'Aro"]
+[Date "2017.06.27"]
+[Round "3"]
+[White "Krylov, Mikhail"]
+[Black "Kasparov, Sergey"]
+[Result "1/2-1/2"]
+[ECO "D04"]
+[WhiteElo "2485"]
+[BlackElo "2474"]
+[PlyCount "52"]
+[EventDate "2017.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Nf3 Nf6 3. e3 c6 4. Bd3 Bg4 5. h3 Bh5 6. c4 e6 7. Nbd2 Nbd7 8. b3
+Bb4 9. Qc2 Bxf3 10. gxf3 c5 11. a3 Bxd2+ 12. Bxd2 cxd4 13. exd4 dxc4 14. bxc4
+O-O 15. Rg1 Kh8 16. Rg5 Rc8 17. Qb2 Qc7 18. Be3 Rfe8 19. Ke2 e5 20. Rag1 g6 21.
+Kf1 Kg8 22. h4 e4 23. fxe4 Nxe4 24. R5g4 Nef6 25. Rg5 Ne4 26. R5g4 Nef6 1/2-1/2
+
+[Event "Platja d'Aro op 5th"]
+[Site "Platja d'Aro"]
+[Date "2017.06.28"]
+[Round "4"]
+[White "Gutenev, Alexander"]
+[Black "Krylov, Mikhail"]
+[Result "1/2-1/2"]
+[ECO "B85"]
+[WhiteElo "2455"]
+[BlackElo "2485"]
+[PlyCount "51"]
+[EventDate "2017.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be2 a6 7. O-O Nf6 8.
+Be3 Be7 9. f4 d6 10. Qe1 O-O 11. Kh1 Nxd4 12. Bxd4 b5 13. a3 Bb7 14. Qg3 Bc6
+15. Rae1 Qb7 16. Bd3 b4 17. axb4 Qxb4 18. Ne2 Qb7 19. e5 Nh5 20. Qh3 g6 21. Ng3
+dxe5 22. Bxe5 Nxg3+ 23. hxg3 Bb5 24. Be4 Bc6 25. Bd3 Bb5 26. Be4 1/2-1/2

@@ -1,0 +1,1187 @@
+[Event "Sitges op"]
+[Site "Sitges"]
+[Date "2016.07.22"]
+[Round "1"]
+[White "Forcen Esteban, Daniel"]
+[Black "Harikrishnan.A.Ra"]
+[Result "0-1"]
+[ECO "D30"]
+[WhiteElo "2565"]
+[BlackElo "2138"]
+[PlyCount "152"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 e6 3. e3 d5 4. c4 c5 5. cxd5 exd5 6. Bb5+ Bd7 7. Bxd7+ Nbxd7
+8. dxc5 Nxc5 9. O-O Be7 10. Bd2 O-O 11. Bc3 Nfe4 12. Bd4 Ne6 13. Nc3 Nxd4 14.
+Nxd4 Nxc3 15. bxc3 Rc8 16. Qb3 Qd7 17. Rfd1 Rfd8 18. Rd3 Bf6 19. Ne2 Qc6 20.
+Rad1 Qc4 21. Qa3 Qc5 22. Qa4 b5 23. Qa5 g6 24. g3 h5 25. h4 Kg7 26. Kf1 Qc4 27.
+Kg2 Qe4+ 28. f3 Qc4 29. Qa6 Qc5 30. Rb1 Qc4 31. Rbd1 Qc5 32. Kf2 Rd7 33. Rb1
+Rb8 34. Nf4 b4 35. Qa4 Rdb7 36. Rxd5 Qxc3 37. Rd3 Qc4 38. Rbd1 Be5 39. Ne2 Qe6
+40. f4 Bf6 41. Rd6 Qh3 42. Qb3 Qh2+ 43. Kf3 Be7 44. R6d2 Qh3 45. Ng1 Qg4+ 46.
+Kf2 Rc7 47. Nf3 Rc3 48. Qd5 Rd8 49. Qe4 Rxd2+ 50. Rxd2 Qe6 51. Qxe6 fxe6 52.
+Rd7 Rc2+ 53. Kf1 Kf6 54. e4 Rxa2 55. Nd4 b3 56. Nxb3 e5 57. Rd5 exf4 58. gxf4
+Kf7 59. Nd2 Bxh4 60. Ke2 Bg3 61. Ke3 Ra3+ 62. Kd4 Bxf4 63. Nc4 Ra1 64. Rd7+ Ke6
+65. Rh7 Rd1+ 66. Kc5 Rd7 67. Rh8 Bc7 68. Rg8 Kf7 69. Rh8 Ke6 70. Rg8 Kf7 71.
+Rh8 Bb6+ 72. Kb5 Re7 73. e5 Bd4 74. Rh7+ Ke6 75. Rh6 Kf5 76. Nd6+ Kg5 0-1
+
+[Event "Sitges op"]
+[Site "Sitges"]
+[Date "2016.07.25"]
+[Round "4"]
+[White "Vea, Odin Blikra"]
+[Black "Forcen Esteban, Daniel"]
+[Result "0-1"]
+[ECO "B45"]
+[WhiteElo "2266"]
+[BlackElo "2565"]
+[PlyCount "96"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Be3 Nf6 6. Nc3 Bb4 7. Bd3 d5 8.
+Nxc6 bxc6 9. e5 d4 10. exf6 dxc3 11. b3 Qxf6 12. Qg4 Be7 13. h4 a5 14. Rd1 e5
+15. Qe4 h6 16. g4 Ba6 17. Bxa6 Rxa6 18. Qd3 Ra8 19. Qd7+ Kf8 20. Qb7 Re8 21.
+Rd7 Kg8 22. Rc7 Bd6 23. Rxc6 Rd8 24. Rc4 Qg6 25. Qe4 Qxe4 26. Rxe4 h5 27. g5 f5
+28. Rc4 Bb4 29. Ke2 Kh7 30. Rc6 f4 31. Bc1 Rd5 32. g6+ Kh6 33. a3 Bc5 34. Rg1
+Rhd8 35. b4 axb4 36. axb4 Bxb4 37. Rc4 Rd4 38. Rxd4 Rxd4 39. Rg5 Bd6 40. f3 Bc7
+41. Ke1 Ra4 42. Ke2 Rd4 43. Ke1 Bd8 44. Rxe5 Bxh4+ 45. Ke2 Bg5 46. Rc5 h4 47.
+Rxc3 h3 48. Rc8 Kxg6 0-1
+
+[Event "Sitges op"]
+[Site "Sitges"]
+[Date "2016.07.26"]
+[Round "5"]
+[White "Forcen Esteban, Daniel"]
+[Black "Gedajlovic, Max"]
+[Result "1/2-1/2"]
+[ECO "C10"]
+[WhiteElo "2565"]
+[BlackElo "2302"]
+[PlyCount "172"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nc3 h6 4. Be3 Bb4 5. exd5 exd5 6. a3 Bxc3+ 7. bxc3 Ne7 8.
+Bd3 Bf5 9. Qf3 Qd7 10. h3 O-O 11. Ne2 Bxd3 12. cxd3 Qf5 13. Qxf5 Nxf5 14. Bf4
+c6 15. h4 h5 16. f3 Re8 17. Kd2 Nd7 18. g4 Ne7 19. gxh5 Nf5 20. Rag1 Kh7 21.
+Rg5 Nh6 22. Rhg1 Rg8 23. Rb1 b6 24. c4 Nf6 25. Rbg1 Rad8 26. a4 Rd7 27. Be3 Ne8
+28. cxd5 cxd5 29. Bf4 f6 30. Rg6 Nf5 31. R6g4 Nc7 32. Rc1 Ne6 33. Bh2 Nh6 34.
+Rg6 Nf5 35. Rg4 Nh6 36. Rg2 Nf5 37. Bg1 Nxh4 38. Rg3 Ng5 39. Rf1 Rc8 40. f4 Nf7
+41. Rh3 Nf5 42. Rc1 Rxc1 43. Kxc1 Nd8 44. Rh1 Ne6 45. Kd2 Kh6 46. Be3 Rc7 47.
+Rh3 a6 48. Bf2 Rd7 49. Kc3 b5 50. axb5 axb5 51. Kb4 Rc7 52. Nc3 Rd7 53. Ne2 Ra7
+54. Kxb5 Ra2 55. Ng3 Nxg3 56. Bxg3 Rc2 57. Kb6 Nxd4 58. Be1 Ne6 59. Rh4 Re2 60.
+Bb4 Rb2 61. Ka5 Rb3 62. f5 Nd8 63. Bd2+ Kh7 64. Rh3 Nf7 65. Bf4 d4 66. Ka4 Rb7
+67. Rh4 Rd7 68. Kb4 Ne5 69. Bxe5 fxe5 70. Re4 Rd5 71. Kc4 Ra5 72. Rg4 Ra3 73.
+Rg6 Rc3+ 74. Kd5 Rxd3 75. h6 gxh6 76. Rd6 Ra3 77. Ke6 Ra7 78. Kxe5 Kg7 79. Rg6+
+Kf7 80. Rxh6 Re7+ 81. Kf4 Re1 82. Rd6 Rd1 83. Ke5 Re1+ 84. Kxd4 Rd1+ 85. Ke5
+Rxd6 86. Kxd6 Kf6 1/2-1/2
+
+[Event "Sitges op"]
+[Site "Sitges"]
+[Date "2016.07.27"]
+[Round "6"]
+[White "Larsson, Anders"]
+[Black "Forcen Esteban, Daniel"]
+[Result "1-0"]
+[ECO "D04"]
+[WhiteElo "2226"]
+[BlackElo "2565"]
+[PlyCount "53"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 c5 3. e3 d5 4. Bb5+ Nbd7 5. O-O e6 6. b3 a6 7. Be2 b5 8. c4
+dxc4 9. bxc4 b4 10. a3 Bb7 11. axb4 cxb4 12. Qa4 Qc7 13. c5 Nd5 14. e4 N5f6 15.
+Ne5 Bxe4 16. Nd2 Bd5 17. Ndc4 Ra7 18. Nb6 Bxc5 19. Nbxd7 Nxd7 20. Be3 Bd6 21.
+Rfc1 Qd8 22. Nc6 Qh4 23. h3 Ra8 24. Nxb4 Be4 25. Nxa6 Ke7 26. Qb5 Rhd8 27. Bg5+
+1-0
+
+[Event "Llucmajor op 6th"]
+[Site "Llucmajor"]
+[Date "2017.05.14"]
+[Round "1"]
+[White "Baltrunas, Arvydas"]
+[Black "Forcen Esteban, Daniel"]
+[Result "0-1"]
+[ECO "A25"]
+[WhiteElo "1893"]
+[BlackElo "2545"]
+[PlyCount "82"]
+[EventDate "2017.05.14"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 178 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.06.22"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.06.22"]
+[SourceQuality "1"]
+
+1. c4 e5 2. Nc3 Nc6 3. Nf3 f5 4. d3 Nf6 5. g3 Bb4 6. a3 Bxc3+ 7. bxc3 O-O 8.
+Bg2 d6 9. O-O Qe8 10. Rb1 b6 11. Qb3 Kh8 12. Ne1 Bd7 13. Nc2 Na5 14. Qb2 c6 15.
+Bd2 Qh5 16. Bf3 Ng4 17. Bxg4 fxg4 18. Ne3 Rf6 19. Ng2 c5 20. e4 g5 21. Qc1 Rg8
+22. Rb2 Rgg6 23. Be3 Rh6 24. Nh4 gxh4 25. Bxh6 Rxh6 26. Qe3 Rf6 27. Rd1 Ba4 28.
+Re1 Kg7 29. Rf1 Rf3 30. Qe2 Nc6 31. Rd2 Nd8 32. d4 Nf7 33. dxc5 dxc5 34. Rd3
+Ng5 35. Rd5 Bc6 36. a4 Bxd5 37. exd5 e4 38. a5 Rd3 39. f4 gxf3 40. Qe1 e3 41.
+gxh4 f2+ 0-1
+
+[Event "Llucmajor op 6th"]
+[Site "Llucmajor"]
+[Date "2017.05.14"]
+[Round "2"]
+[White "Forcen Esteban, Daniel"]
+[Black "Martinez Lopez, Ivan"]
+[Result "1-0"]
+[ECO "B01"]
+[WhiteElo "2545"]
+[BlackElo "2209"]
+[PlyCount "61"]
+[EventDate "2017.05.14"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 178 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.06.22"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.06.22"]
+[SourceQuality "1"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd6 4. d4 Nf6 5. Nf3 c6 6. Ne5 Nbd7 7. f4 e6 8. g4
+Qc7 9. Bd3 Nd5 10. O-O Nxc3 11. bxc3 Bd6 12. g5 g6 13. Qe1 Be7 14. Rf3 b6 15.
+Bc4 Nxe5 16. fxe5 Bb7 17. Qf2 O-O 18. Rh3 c5 19. Be2 Kg7 20. Be3 cxd4 21. cxd4
+Rac8 22. c4 Qc6 23. Bf3 Qd7 24. Rc1 Ba3 25. Rf1 Bxf3 26. Rxf3 Rxc4 27. Qh4 h5
+28. gxh6+ Kh7 29. Qf6 Rg8 30. Qxf7+ Qxf7 31. Rxf7+ 1-0
+
+[Event "Llucmajor op 6th"]
+[Site "Llucmajor"]
+[Date "2017.05.15"]
+[Round "3"]
+[White "Roeder, Mathias"]
+[Black "Forcen Esteban, Daniel"]
+[Result "1-0"]
+[ECO "E94"]
+[WhiteElo "2397"]
+[BlackElo "2545"]
+[PlyCount "79"]
+[EventDate "2017.05.14"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 178 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.06.22"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.06.22"]
+[SourceQuality "1"]
+
+1. Nf3 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. d4 O-O 6. Be2 Nbd7 7. O-O e5 8. Be3
+Re8 9. d5 Nh5 10. g3 Bf8 11. Ne1 Ng7 12. Nd3 Be7 13. Qd2 f5 14. f3 Nf6 15. Bh6
+fxe4 16. fxe4 Ng4 17. Bxg4 Bxg4 18. Kg2 Qc8 19. Nf2 Bd7 20. h3 Rf8 21. g4 Bh4
+22. Bg5 Bxg5 23. Qxg5 Qd8 24. Qxd8 Raxd8 25. Nd3 h5 26. Kg3 c5 27. a4 a6 28. a5
+hxg4 29. hxg4 Ne8 30. Rxf8+ Kxf8 31. Rb1 Rc8 32. g5 Ng7 33. b4 cxb4 34. Rxb4
+Ke7 35. c5 Nh5+ 36. Kf3 dxc5 37. Rxb7 Kd6 38. Rb6+ Kc7 39. Nxe5 Rf8+ 40. Ke3
+1-0
+
+[Event "Llucmajor op 6th"]
+[Site "Llucmajor"]
+[Date "2017.05.16"]
+[Round "4"]
+[White "Forcen Esteban, Daniel"]
+[Black "Hall, John"]
+[Result "1-0"]
+[ECO "A43"]
+[WhiteElo "2545"]
+[BlackElo "2176"]
+[PlyCount "83"]
+[EventDate "2017.05.14"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 178 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.06.22"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.06.22"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 c5 3. d5 g6 4. Nc3 Bg7 5. e4 d6 6. Bb5+ Nbd7 7. a4 O-O 8. O-O
+a6 9. Be2 Rb8 10. Re1 Ne8 11. Bf4 Nc7 12. a5 b5 13. axb6 Nxb6 14. Qd2 Bg4 15.
+Bh6 Bxf3 16. Bxg7 Kxg7 17. gxf3 e6 18. b3 exd5 19. exd5 Re8 20. Ne4 f5 21. Ng5
+Qf6 22. Ne6+ Nxe6 23. dxe6 Rxe6 24. Rxa6 Rb7 25. f4 Nc8 26. Rd1 Ree7 27. Ra8
+Nb6 28. Ra5 Nc8 29. Ba6 Rbc7 30. Bxc8 Rxc8 31. Qxd6 Qxd6 32. Rxd6 c4 33. b4 c3
+34. b5 Rc4 35. Kf1 Rxf4 36. b6 Re3 37. b7 Ref3 38. Kg1 Rg4+ 39. Kf1 Rgf4 40.
+Ra1 Rb4 41. Rd7+ Kf6 42. Ra4 1-0
+
+[Event "Llucmajor op 6th"]
+[Site "Llucmajor"]
+[Date "2017.05.17"]
+[Round "5"]
+[White "Carstensen, Jacob"]
+[Black "Forcen Esteban, Daniel"]
+[Result "0-1"]
+[ECO "B30"]
+[WhiteElo "2366"]
+[BlackElo "2545"]
+[PlyCount "136"]
+[EventDate "2017.05.14"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 178 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.06.22"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.06.22"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 e6 4. O-O Nge7 5. c3 a6 6. Ba4 b5 7. Bc2 d5 8. e5
+Ng6 9. d4 Be7 10. a4 b4 11. h4 cxd4 12. cxd4 Nxh4 13. Nxh4 Bxh4 14. Be3 Be7 15.
+Nd2 Na5 16. Bd3 h5 17. Rc1 Bb7 18. b3 Qb6 19. Qf3 Rc8 20. Rxc8+ Bxc8 21. Rc1
+Bb7 22. Qe2 g6 23. Bc2 Nc6 24. Nf3 Kd7 25. Bd3 Rc8 26. Qb2 Rc7 27. Rd1 Na5 28.
+Bd2 Kc8 29. Rc1 Nc6 30. Be3 Kb8 31. Rc2 Bc8 32. Qc1 Bd7 33. Kf1 Rc8 34. Qd2 Kb7
+35. Qe2 Rg8 36. a5 Qa7 37. Ra2 Rc8 38. Qd2 Be8 39. Ne1 Ka8 40. Nc2 Qb7 41. Qe2
+Ka7 42. Bd2 Bd7 43. Ke1 Rb8 44. Kd1 Bc8 45. Ra4 Qc7 46. Qe1 Bd7 47. Ra2 h4 48.
+Qe2 Bc8 49. Qf3 Nxa5 50. Qxf7 Nxb3 51. Be1 a5 52. Qxg6 Bd7 53. Qf7 Qd8 54. f4
+Qe8 55. Qh7 Rb7 56. Bxh4 Bxh4 57. Qxh4 a4 58. Qe1 Qh5+ 59. Be2 Qg6 60. Qf2 Na5
+61. Qe1 Nc4 62. Bxc4 dxc4 63. Kc1 c3 64. d5 exd5 65. e6 Be8 66. Qe3+ Ka8 67.
+Qe5 Qd3 68. Qe1 b3 0-1
+
+[Event "Llucmajor op 6th"]
+[Site "Llucmajor"]
+[Date "2017.05.18"]
+[Round "6"]
+[White "Forcen Esteban, Daniel"]
+[Black "Kunin, Vitaly L"]
+[Result "0-1"]
+[ECO "C41"]
+[WhiteElo "2545"]
+[BlackElo "2551"]
+[PlyCount "66"]
+[EventDate "2017.05.14"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 178 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.06.22"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.06.22"]
+[SourceQuality "1"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 e5 4. Nf3 Nbd7 5. Bc4 Be7 6. O-O O-O 7. a4 c6 8. h3
+Qc7 9. Re1 h6 10. Be3 Re8 11. a5 exd4 12. Nxd4 Ne5 13. Bb3 Bf8 14. f4 Ned7 15.
+Qf3 Nc5 16. Bf2 Nxb3 17. Nxb3 Bd7 18. Bd4 Nh7 19. Qf2 Qb8 20. Rad1 c5 21. Bxc5
+dxc5 22. Rxd7 c4 23. Nd2 Nf6 24. Rd4 Bc5 25. e5 Qd8 26. Rxd8 Bxf2+ 27. Kxf2
+Raxd8 28. Re2 Nd5 29. Nxd5 Rxd5 30. Nxc4 Rd4 31. Nd6 Re7 32. a6 b6 33. Ke3 Rxd6
+0-1
+
+[Event "Llucmajor op 6th"]
+[Site "Llucmajor"]
+[Date "2017.05.19"]
+[Round "7"]
+[White "Alonso Garcia, Rene Marcial"]
+[Black "Forcen Esteban, Daniel"]
+[Result "1/2-1/2"]
+[ECO "E94"]
+[WhiteElo "2346"]
+[BlackElo "2545"]
+[PlyCount "153"]
+[EventDate "2017.05.14"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 178 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.06.22"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.06.22"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 O-O 5. e4 d6 6. Be2 Nbd7 7. O-O e5 8. Qc2
+Re8 9. Rd1 c6 10. d5 c5 11. Ne1 Kh8 12. a3 Ng8 13. b4 b6 14. Nb5 Nf8 15. bxc5
+bxc5 16. Qa4 Re7 17. Nd3 f5 18. Bg5 Bf6 19. Bxf6+ Nxf6 20. exf5 gxf5 21. f4 e4
+22. Ne1 h5 23. g3 h4 24. Ng2 Ng6 25. Qc2 Rg7 26. Nc3 h3 27. Ne3 Nxf4 28. Rf1
+Nxe2+ 29. Nxe2 Rg5 30. Nf4 Ng4 31. Nxg4 fxg4 32. Qxe4 Bf5 33. Qe3 Qf6 34. Ra2
+Qe5 35. Re2 Qxe3+ 36. Rxe3 Rb8 37. Ne6 Rh5 38. Nc7 Rb2 39. Ne8 Rg2+ 40. Kh1 Rc2
+41. Nxd6 Bg6 42. Re7 Kg8 43. Re6 Kg7 44. Ree1 a6 45. Re7+ Kg8 46. Re6 Kg7 47.
+Re7+ Kh6 48. Ree1 Ra2 49. Re7 Rxa3 50. Nf7+ Bxf7 51. Rexf7 Re5 52. Kg1 a5 53.
+Rd1 Ree3 54. d6 Rad3 55. Rff1 Rf3 56. Rfe1 Rfe3 57. Kf2 Rf3+ 58. Kg1 Rxd1 59.
+Rxd1 Rf8 60. Rd5 Rd8 61. Kf2 a4 62. Ke3 a3 63. Rxc5 Rxd6 64. Ra5 Rf6 65. Ke4
+Rf3 66. c5 Rxg3 67. Kf4 Rg2 68. Rxa3 Kh5 69. c6 Rxh2 70. c7 Rc2 71. Ra8 Rc4+
+72. Kf5 Rc5+ 73. Kf4 Rxc7 74. Rh8+ Kg6 75. Kxg4 Rh7 76. Rxh7 Kxh7 77. Kxh3
+1/2-1/2
+
+[Event "Llucmajor op 6th"]
+[Site "Llucmajor"]
+[Date "2017.05.20"]
+[Round "8"]
+[White "Forcen Esteban, Daniel"]
+[Black "Galiana Salom, Juan Ramon"]
+[Result "1-0"]
+[ECO "A80"]
+[WhiteElo "2545"]
+[BlackElo "2273"]
+[PlyCount "61"]
+[EventDate "2017.05.14"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 178 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.06.22"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.06.22"]
+[SourceQuality "1"]
+
+1. d4 f5 2. Bg5 d6 3. e3 g6 4. Nc3 Bg7 5. Bc4 c6 6. Nge2 d5 7. Bb3 Nf6 8. Nf4
+Qd6 9. h4 Ng4 10. Nd3 h6 11. Bf4 e5 12. Bg3 Qe7 13. Kd2 Nd7 14. Qg1 e4 15. Nf4
+Nf8 16. Nfxd5 cxd5 17. Nxd5 Qd8 18. Nc7+ Ke7 19. Nxa8 Be5 20. Bxe5 Nxe5 21. Nc7
+Qxc7 22. dxe5 Qxe5 23. Qh2 Qxb2 24. Qc7+ Nd7 25. Rhd1 Qe5 26. Qc4 Qa5+ 27. Qc3
+Qxc3+ 28. Kxc3 Nf6 29. Rd4 Bd7 30. Rad1 Bc6 31. Rd6 1-0
+
+[Event "Llucmajor op 6th"]
+[Site "Llucmajor"]
+[Date "2017.05.21"]
+[Round "9"]
+[White "Houska, Jovanka"]
+[Black "Forcen Esteban, Daniel"]
+[Result "1-0"]
+[ECO "E68"]
+[WhiteElo "2377"]
+[BlackElo "2545"]
+[PlyCount "83"]
+[EventDate "2017.05.14"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 178 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.06.22"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.06.22"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 g6 3. g3 Bg7 4. Bg2 O-O 5. c4 d6 6. O-O Nbd7 7. Nc3 e5 8. h3
+Re8 9. e4 exd4 10. Nxd4 Nc5 11. Re1 Bd7 12. Bf4 h6 13. Qc2 Nfxe4 14. Nxe4 Bxd4
+15. Nxc5 dxc5 16. Rxe8+ Qxe8 17. Bxh6 c6 18. Qd2 Qe6 19. Bf1 Re8 20. Rd1 Qf6
+21. Qf4 Qh8 22. b4 Be6 23. bxc5 Bxc5 24. h4 Bf5 25. h5 Qb2 26. hxg6 Bxg6 27.
+Rd7 Qa1 28. Kg2 Re4 29. Qf3 Re6 30. Rd8+ Kh7 31. Bg5 Qe5 32. Bd3 Kg7 33. Bxg6
+Rxg6 34. Bd2 Qe6 35. Bc3+ f6 36. Qd3 Be7 37. Rd7 Rh6 38. Kg1 Kf8 39. Rxb7 a6
+40. Bd2 Rh8 41. Qg6 Qc8 42. Bh6+ 1-0
+
+[Event "Benasque op 37th"]
+[Site "Benasque"]
+[Date "2017.07.09"]
+[Round "4"]
+[White "Forcen Esteban, Daniel"]
+[Black "Minko, Vladimir"]
+[Result "1-0"]
+[ECO "B49"]
+[WhiteElo "2536"]
+[BlackElo "2406"]
+[PlyCount "53"]
+[EventDate "2017.07.06"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Be2 Nf6 8.
+O-O Bb4 9. Nxc6 bxc6 10. f4 d5 11. e5 Nd7 12. Na4 O-O 13. c4 Qb8 14. Rc1 Be7
+15. Bd3 g6 16. Bf2 c5 17. cxd5 exd5 18. b3 Qb4 19. Be1 Qa3 20. Nc3 c4 21. bxc4
+dxc4 22. Bxc4 Nb6 23. Nb1 Qc5+ 24. Bf2 Qa5 25. Bb3 Bf5 26. Qd2 Bb4 27. Qd4 1-0
+
+[Event "Benasque op 37th"]
+[Site "Benasque"]
+[Date "2017.07.10"]
+[Round "5"]
+[White "Movsziszian, Karen"]
+[Black "Forcen Esteban, Daniel"]
+[Result "1/2-1/2"]
+[ECO "A03"]
+[WhiteElo "2485"]
+[BlackElo "2536"]
+[PlyCount "202"]
+[EventDate "2017.07.06"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. g3 Nf6 2. Bg2 d5 3. d3 c5 4. f4 Nc6 5. Nf3 g6 6. O-O Bg7 7. c3 O-O 8. Na3
+Re8 9. Nh4 e5 10. f5 Qb6 11. e4 c4+ 12. Kh1 cxd3 13. exd5 Ne7 14. fxg6 hxg6 15.
+Qxd3 e4 16. Qb5 Nexd5 17. Qxb6 axb6 18. Re1 Bd7 19. Nc4 Bc6 20. Kg1 Bf8 21. Ne3
+Bc5 22. h3 Red8 23. a3 b5 24. Rb1 Bd7 25. Kh2 Nxe3 26. Bxe3 Bxe3 27. Rxe3 g5
+28. Rf1 Nd5 29. Rxe4 gxh4 30. Rd1 hxg3+ 31. Kxg3 Nf6 32. Red4 Kf8 33. Bxb7 Rab8
+34. Bc6 Ke7 35. Bxd7 Rxd7 36. Rxd7+ Nxd7 37. Kf4 f6 38. h4 Ne5 39. h5 Rh8 40.
+Rh1 Ke6 41. Rh2 Rh7 42. h6 Ng6+ 43. Kg4 Nf8 44. Rh5 Kf7 45. Rxb5 Rxh6 46. a4
+Rh1 47. a5 Ra1 48. b4 Nd7 49. Kf5 Ke7 50. Ke4 Ke6 51. Rh5 f5+ 52. Kd4 f4 53.
+Rh2 f3 54. a6 Rxa6 55. Ke3 Ra3 56. Kxf3 Rxc3+ 57. Ke4 Rc4+ 58. Ke3 Rxb4 59. Ra2
+Nc5 60. Rh2 Nd7 61. Ra2 Nf6 62. Kd3 Rh4 63. Ra6+ Ke5 64. Ra8 Rd4+ 65. Ke3 Nd5+
+66. Ke2 Nf4+ 67. Ke3 Rd3+ 68. Kf2 Rb3 69. Ra7 Nd5 70. Ra4 Nf6 71. Ra8 Kf4 72.
+Ke2 Re3+ 73. Kd2 Ne4+ 74. Kc2 Rc3+ 75. Kb2 Rc7 76. Rh8 Ke3 77. Rh3+ Kd4 78. Rh8
+Rg7 79. Rh4 Kd3 80. Rh3+ Kc4 81. Rh2 Rg4 82. Kc2 Ng5 83. Kb2 Ne6 84. Rc2+ Kb4
+85. Rc8 Nc5 86. Rb8+ Kc4 87. Rc8 Rg3 88. Kc2 Rg2+ 89. Kd1 Rh2 90. Rd8 Nb3 91.
+Ke1 Nd4 92. Kf1 Kd3 93. Ra8 Rb2 94. Rd8 Ra2 95. Rf8 Ke3 96. Re8+ Kf4 97. Rf8+
+Nf5 98. Rf7 Ke4 99. Rf8 Ng3+ 100. Kg1 Ke3 101. Rf3+ Kxf3 1/2-1/2
+
+[Event "Benasque op 37th"]
+[Site "Benasque"]
+[Date "2017.07.11"]
+[Round "6"]
+[White "Forcen Esteban, Daniel"]
+[Black "Garcia Trobat, Francisco"]
+[Result "1-0"]
+[ECO "B78"]
+[WhiteElo "2536"]
+[BlackElo "2219"]
+[PlyCount "75"]
+[EventDate "2017.07.06"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 Nc6 8. Qd2
+O-O 9. Bc4 Bd7 10. O-O-O Ne5 11. Bb3 Rc8 12. Kb1 Nc4 13. Bxc4 Rxc4 14. g4 Qb8
+15. b3 Rc5 16. Nde2 Rfc8 17. Bxc5 Rxc5 18. g5 Ne8 19. Nd5 Qd8 20. h4 a5 21. Rc1
+e6 22. Ne3 h6 23. f4 hxg5 24. hxg5 Nc7 25. Ng4 Nb5 26. a4 Na3+ 27. Ka2 Nc4 28.
+Qd3 b5 29. Nf6+ Bxf6 30. gxf6 Qxf6 31. e5 Qg7 32. bxc4 Rxc4 33. Qxd6 Rxa4+ 34.
+Kb3 Rb4+ 35. Kc3 Rc4+ 36. Kd2 Be8 37. Qe7 Rc8 38. Nd4 1-0
+
+[Event "Benasque op 37th"]
+[Site "Benasque"]
+[Date "2017.07.12"]
+[Round "7"]
+[White "Prohaszka, Peter"]
+[Black "Forcen Esteban, Daniel"]
+[Result "1-0"]
+[ECO "E68"]
+[WhiteElo "2601"]
+[BlackElo "2536"]
+[PlyCount "159"]
+[EventDate "2017.07.06"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. g3 O-O 5. Bg2 d6 6. Nc3 Nbd7 7. O-O e5 8. e4
+exd4 9. Nxd4 Re8 10. h3 Nc5 11. Re1 Bd7 12. Rb1 h6 13. Kh2 a5 14. Nb3 Na4 15.
+Bd2 Nb6 16. Bf1 a4 17. Nd4 a3 18. b3 Ng4+ 19. hxg4 Bxd4 20. Qf3 Re6 21. Nd1 Qe7
+22. Qd3 Bg7 23. Nc3 Re8 24. Bg2 Qd8 25. Nd5 Bc6 26. Nxb6 cxb6 27. Bb4 h5 28.
+gxh5 gxh5 29. Rbd1 h4 30. Bxd6 hxg3+ 31. Bxg3 Qxd3 32. Rxd3 Bxe4 33. Bxe4 Rxe4
+34. Rxe4 Rxe4 35. Re3 Rd4 36. Re8+ Kh7 37. Ra8 b5 38. cxb5 Rb4 39. Rxa3 Rxb5
+40. Ra4 Bf8 41. Kg2 Kg6 42. Kf3 Rc5 43. Ra8 Be7 44. Re8 Bf6 45. Rb8 b5 46. Ke4
+Be7 47. Rb6+ f6 48. Rb7 Bf8 49. Kd4 Rf5 50. Ke4 Rh5 51. Bf4 Rc5 52. Be3 Rh5 53.
+Rd7 Rh1 54. Rd5 b4 55. Rd2 f5+ 56. Kd5 Rc1 57. f4 Rc8 58. Rg2+ Kf7 59. Bb6 Rb8
+60. Bc7 Rb5+ 61. Kd4 Rc5 62. Be5 Rc8 63. Rg5 Rc2 64. Rxf5+ Ke8 65. Rh5 Rxa2 66.
+Rh7 Rd2+ 67. Kc4 Rc2+ 68. Kd5 Rc5+ 69. Ke4 Rc1 70. Rb7 Rb1 71. Kd5 Rxb3 72. Ke6
+Rd3 73. f5 Rd8 74. f6 Ra8 75. Bc7 Bc5 76. Bf4 Ra6+ 77. Kf5 Rc6 78. Bg5 Kf8 79.
+Bh6+ Kg8 80. Kg6 1-0
+
+[Event "Benasque op 37th"]
+[Site "Benasque"]
+[Date "2017.07.13"]
+[Round "8"]
+[White "Forcen Esteban, Daniel"]
+[Black "Santos Ruiz, Miguel"]
+[Result "0-1"]
+[ECO "B90"]
+[WhiteElo "2536"]
+[BlackElo "2469"]
+[PlyCount "126"]
+[EventDate "2017.07.06"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. h3 e5 7. Nb3 Be6 8. f4
+b5 9. Qf3 Nc6 10. f5 Bxb3 11. axb3 Nb4 12. Bd3 Be7 13. O-O O-O 14. Rd1 Rc8 15.
+Qe2 Qc7 16. Bg5 Rfe8 17. Rd2 d5 18. Bxf6 Bxf6 19. exd5 e4 20. Bxe4 Qc5+ 21. Qf2
+Qxf2+ 22. Rxf2 Rxc3 23. bxc3 Bxc3 24. Rd1 Rxe4 25. Kf1 Kf8 26. Rf3 Bf6 27. c3
+Na2 28. d6 Ke8 29. Ra1 Nxc3 30. Rxa6 Kd7 31. Ra7+ Kxd6 32. Ra6+ Kc5 33. Rxf6
+gxf6 34. Rxc3+ Kb4 35. Rf3 Ka3 36. Kg1 b4 37. Rd3 Kb2 38. g4 Re7 39. Kf2 Kc2
+40. Rd6 Kxb3 41. Rxf6 Rc7 42. Rb6 Kc3 43. Kg3 b3 44. Kh4 Rc4 45. Kg5 Rb4 46.
+Rd6 b2 47. Rd1 Ra4 48. Rb1 Ra6 49. Kh5 Kc2 50. Rf1 b1=Q 51. Rxb1 Kxb1 52. g5
+Kc2 53. f6 Kd3 54. Kh6 Ke4 55. Kxh7 Kf5 56. h4 Ra7 57. Kg7 Rb7 58. Kh6 Ke6 59.
+Kg7 Rb4 60. h5 Rg4 61. g6 Rg2 62. Kh6 Kxf6 63. g7 Rg1 0-1
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.22"]
+[Round "1"]
+[White "Forcen Esteban, Daniel"]
+[Black "Revaliente Montoya, Ciro"]
+[Result "1-0"]
+[ECO "B29"]
+[WhiteElo "2536"]
+[BlackElo "1992"]
+[PlyCount "107"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nf6 3. e5 Nd5 4. Nc3 e6 5. Nxd5 exd5 6. d4 Nc6 7. dxc5 Bxc5 8.
+Qxd5 Qb6 9. Bc4 Bxf2+ 10. Kd1 O-O 11. Ng5 Qd4+ 12. Qxd4 Bxd4 13. Rf1 Nxe5 14.
+Bd5 h6 15. Ne4 d6 16. c3 Bb6 17. Bf4 Be6 18. Bxb7 Rab8 19. Ba6 Bc4 20. Bxc4
+Nxc4 21. b3 Ne3+ 22. Bxe3 Bxe3 23. Ke2 d5 24. Kxe3 Rbe8 25. Rf4 g5 26. Rf5
+Rxe4+ 27. Kd3 Rfe8 28. Rd1 Re2 29. Rd2 R2e3+ 30. Kd4 R3e4+ 31. Kxd5 Rd8+ 32.
+Kxe4 Rxd2 33. c4 Rxa2 34. c5 Kf8 35. Kd5 Ke7 36. Re5+ Kd7 37. c6+ Kd8 38. Kd6
+Rd2+ 39. Rd5 Rxg2 40. Ra5 Rd2+ 41. Kc5 Rxh2 42. Rxa7 Rb2 43. b4 g4 44. Rxf7 g3
+45. Rg7 g2 46. b5 Re2 47. b6 Re7 48. Rg8+ Re8 49. Rxg2 Kc8 50. Ra2 Kb8 51. c7+
+Kb7 52. Ra7+ Kc8 53. Kd6 h5 54. b7# 1-0
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.23"]
+[Round "2"]
+[White "Serra Pages, Jordi"]
+[Black "Forcen Esteban, Daniel"]
+[Result "0-1"]
+[ECO "D31"]
+[WhiteElo "2232"]
+[BlackElo "2536"]
+[PlyCount "122"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c6 4. cxd5 exd5 5. Bf4 Qb6 6. Qd2 Nf6 7. a3 Be7 8. e3
+Bf5 9. h3 Nbd7 10. Nf3 Ne4 11. Nxe4 Bxe4 12. Be2 a5 13. O-O a4 14. Ne5 Nxe5 15.
+Bxe5 O-O 16. Rac1 Rfe8 17. Bg3 Bf8 18. Rc3 h6 19. Rfc1 Bg6 20. Kh1 Be7 21. Bd3
+Bxd3 22. Rxd3 Ra5 23. Rc2 Rb5 24. Qe2 Bf8 25. Rdd2 Qd8 26. Qf3 Qg5 27. Bf4 Qg6
+28. Qg3 Qe6 29. Qf3 Rb3 30. Qd1 Qf5 31. Rc1 g5 32. Bg3 Ra8 33. Qc2 Qxc2 34.
+Rcxc2 Ra5 35. Kg1 Rab5 36. Be5 Be7 37. Bc7 Kf8 38. Kf1 Ke8 39. g4 Kd7 40. Be5
+f6 41. Bb8 Bd8 42. Ba7 Ba5 43. Re2 b6 44. Bb8 c5 45. Bg3 Rd3 46. Rc1 c4 47. e4
+Rxd4 48. e5 fxe5 49. Bxe5 Rd2 50. Rxd2 Bxd2 51. Rc2 Bf4 52. Bg7 Rb3 53. Kg2 b5
+54. Re2 b4 55. axb4 Rxb4 56. Bxh6 d4 57. Re4 d3 58. Bf8 Rxb2 59. Rxc4 d2 60.
+Rd4+ Ke6 61. Kf3 Rb1 0-1
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.24"]
+[Round "3"]
+[White "Forcen Esteban, Daniel"]
+[Black "Farran Martos, Francesco Xavier"]
+[Result "1-0"]
+[ECO "E10"]
+[WhiteElo "2536"]
+[BlackElo "2412"]
+[PlyCount "54"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 c5 3. d5 e6 4. c4 b5 5. dxe6 fxe6 6. cxb5 Be7 7. Nc3 d5 8. e4
+d4 9. Na4 Nxe4 10. Bd3 Nf6 11. O-O O-O 12. Re1 Bd6 13. Ng5 Qc7 14. Qf3 h6 15.
+Nxe6 Bxe6 16. Rxe6 Nbd7 17. Qh3 Rae8 18. Bc4 Rxe6 19. Bxe6+ Kh8 20. Bd2 Bf4 21.
+Be1 Ne5 22. Bf5 Qd6 23. Rd1 Qd5 24. Nc3 Qd6 25. Ne2 Nf7 26. Nxf4 Qxf4 27. Bd2
+Ng5 1-0
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.25"]
+[Round "4"]
+[White "Caspi, Israel"]
+[Black "Forcen Esteban, Daniel"]
+[Result "1-0"]
+[ECO "B90"]
+[WhiteElo "2487"]
+[BlackElo "2536"]
+[PlyCount "125"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. f3 e5 7. Nb3 Be6 8. Be3
+Be7 9. Qd2 O-O 10. O-O-O Nbd7 11. g4 b5 12. g5 Nh5 13. Nd5 Bxd5 14. exd5 f6 15.
+gxf6 Bxf6 16. Na5 Qe8 17. Nc6 Nf4 18. Bxf4 exf4 19. Bh3 Ne5 20. Rhe1 Qh5 21.
+Be6+ Kh8 22. Nxe5 Bxe5 23. Qg2 b4 24. Re4 a5 25. Rg1 Ra7 26. Qh3 Qe8 27. Rc4
+Qe7 28. Bf5 g6 29. Bxg6 Qf6 30. Be4 Bxb2+ 31. Kd1 Re7 32. Rg6 Qf7 33. Rxd6 Bc3
+34. Rc8 Rxc8 35. Qxc8+ Re8 36. Rd7 Qxd5+ 37. Bxd5 Rxc8 38. Be4 h6 39. Ke2 a4
+40. Rh7+ Kg8 41. Rxh6 Rd8 42. Bd3 Re8+ 43. Be4 Rd8 44. Bd3 Re8+ 45. Kf2 Re1 46.
+Ra6 a3 47. Kg2 Bd4 48. h4 Rg1+ 49. Kh2 Rg3 50. h5 Rxf3 51. h6 Re3 52. Ra8+ Kf7
+53. h7 b3 54. axb3 Re1 55. Rxa3 f3 56. Ra7+ Ke6 57. Ra8 Be5+ 58. Kh3 Rh1+ 59.
+Kg4 f2 60. Re8+ Kd5 61. Kf3 Bd4 62. Rd8+ Kc5 63. b4+ 1-0
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.26"]
+[Round "5"]
+[White "Forcen Esteban, Daniel"]
+[Black "Akash Pc, Iyer"]
+[Result "1-0"]
+[ECO "C54"]
+[WhiteElo "2536"]
+[BlackElo "2300"]
+[PlyCount "53"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. e5 d5 7. Bb5 Ne4 8. cxd4
+Bb6 9. Nc3 O-O 10. Be3 Bg4 11. h3 Bh5 12. Qc2 Bg6 13. Qb3 Ne7 14. O-O c6 15.
+Bd3 Nf5 16. Rfe1 Nxe3 17. Rxe3 Nxc3 18. Bxg6 hxg6 19. bxc3 Qe7 20. Rae1 Rfe8
+21. h4 Rad8 22. g3 c5 23. Kg2 Qd7 24. Qb1 Qg4 25. e6 Rxe6 26. Rxe6 fxe6 27. Re5
+1-0
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.27"]
+[Round "6"]
+[White "Llaneza Vega, Marcos"]
+[Black "Forcen Esteban, Daniel"]
+[Result "0-1"]
+[ECO "C02"]
+[WhiteElo "2416"]
+[BlackElo "2536"]
+[PlyCount "88"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Nge7 6. a3 Nf5 7. b4 cxd4 8. cxd4
+Bd7 9. Be3 b5 10. Nc3 a5 11. Nxb5 axb4 12. Bd3 bxa3 13. O-O Be7 14. Bc1 Nb4 15.
+Bxa3 O-O 16. Nd6 Bxd6 17. exd6 Ba4 18. Qd2 Nxd3 19. Qxd3 Nxd6 20. Ng5 Qxg5 21.
+Bxd6 Rfc8 22. Qg3 Qxg3 23. hxg3 Rc4 24. Bc5 h5 25. Rfc1 Rxc1+ 26. Rxc1 Bb5 27.
+Rd1 Kh7 28. f3 Ra2 29. Bb4 Rb2 30. Ba5 g5 31. Rd2 Rb1+ 32. Kf2 Bc4 33. Rc2 Kg6
+34. Bd2 f6 35. Ke3 Kf5 36. Bc1 e5 37. Bb2 Re1+ 38. Kf2 Rd1 39. dxe5 fxe5 40.
+g4+ hxg4 41. Kg3 gxf3 42. gxf3 Rd3 43. Kg2 Bb3 44. Re2 d4 0-1
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.28"]
+[Round "7"]
+[White "Forcen Esteban, Daniel"]
+[Black "Riff, Jean Noel"]
+[Result "1-0"]
+[ECO "B90"]
+[WhiteElo "2536"]
+[BlackElo "2493"]
+[PlyCount "83"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. h3 e5 7. Nb3 Be6 8. f4
+g6 9. Be2 Nbd7 10. g4 Rc8 11. f5 Bxb3 12. axb3 Rxc3 13. bxc3 Nxe4 14. O-O Qh4
+15. Bf3 gxf5 16. Bxe4 fxe4 17. Kh2 Be7 18. Rf5 Rg8 19. Be3 Nf6 20. g5 h5 21.
+Bf2 Ng4+ 22. Qxg4 Qxf2+ 23. Rxf2 hxg4 24. h4 f6 25. Kg3 fxg5 26. h5 Kd7 27.
+Kxg4 Ke6 28. c4 b5 29. cxb5 axb5 30. h6 Rh8 31. Rh2 e3 32. h7 d5 33. Ra6+ Kf7
+34. Kf5 d4 35. Kxe5 g4 36. Kf4 Bf6 37. Kxg4 Be5 38. Rh5 Bg7 39. Kf3 Rc8 40.
+Rf5+ Ke7 41. Ra7+ Ke6 42. Rxg7 1-0
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.29"]
+[Round "8"]
+[White "Suarez Gomez, Julio"]
+[Black "Forcen Esteban, Daniel"]
+[Result "1/2-1/2"]
+[ECO "D11"]
+[WhiteElo "2474"]
+[BlackElo "2536"]
+[PlyCount "43"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 d5 3. c4 c6 4. e3 Bg4 5. h3 Bh5 6. Nc3 e6 7. g4 Bg6 8. Ne5
+Nbd7 9. Nxg6 hxg6 10. Bd2 Be7 11. g5 Ne4 12. Nxe4 dxe4 13. Bg2 Bxg5 14. Bxe4 e5
+15. dxe5 Nxe5 16. Qe2 Bf6 17. O-O-O Qe7 18. f4 Nd7 19. Bc2 O-O-O 20. e4 Bd4 21.
+Kb1 Nb6 22. Bc1 1/2-1/2
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.30"]
+[Round "9"]
+[White "Forcen Esteban, Daniel"]
+[Black "Pena Gomez, Manuel"]
+[Result "1-0"]
+[ECO "A70"]
+[WhiteElo "2536"]
+[BlackElo "2468"]
+[PlyCount "137"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 c5 4. d5 exd5 5. cxd5 d6 6. Nc3 g6 7. Bf4 Bg7 8. e4
+O-O 9. Nd2 Re8 10. Be2 Bf8 11. Qc2 Na6 12. O-O Nc7 13. Rfe1 Bg4 14. f3 Bd7 15.
+a4 Nh5 16. Be3 Qf6 17. Nc4 b5 18. axb5 Nxb5 19. Nxb5 Bxb5 20. Qd2 Bxc4 21. Bxc4
+Reb8 22. b3 Qd8 23. Bg5 Be7 24. Bxe7 Qxe7 25. e5 Rd8 26. exd6 Qf6 27. Qe3 Qxd6
+28. Ra6 Qf8 29. Qe7 Re8 30. Qxf8+ Kxf8 31. Rxe8+ Kxe8 32. Bb5+ Kf8 33. Rc6 Rd8
+34. Bc4 Ke7 35. Rxc5 Nf6 36. Ra5 Rd7 37. Kf2 Rc7 38. Ra6 Ne8 39. Ke3 Nd6 40.
+Kd4 f6 41. g4 h5 42. h3 hxg4 43. hxg4 g5 44. Ra2 Kf8 45. Bd3 Rb7 46. Kc5 Ke7
+47. Re2+ Kd7 48. Re6 Rb6 49. Kd4 Rb4+ 50. Kc5 Rb6 51. Kd4 Rb4+ 52. Bc4 Rb6 53.
+Re1 Rb7 54. Re2 Kd8 55. Rh2 Ke7 56. Rh7+ Kd8 57. Rh8+ Ke7 58. Ra8 Kd7 59. Ba6
+Rc7 60. Rh8 Ke7 61. Rb8 Kd7 62. Bb5+ Ke7 63. Bc6 Rc8 64. Rb4 Rc7 65. Ra4 Kd8
+66. Ra1 Nf7 67. Kc5 Ne5 68. Rh1 Rf7 69. Rh8+ 1-0
+
+[Event "Vila de Sort op"]
+[Site "?"]
+[Date "2006.06.26"]
+[Round "1.13"]
+[White "Forcen Esteban, D."]
+[Black "Sundararajan, K."]
+[Result "0-1"]
+[ECO "B80"]
+[WhiteElo "2062"]
+[BlackElo "2495"]
+[PlyCount "72"]
+[EventDate "2006.??.??"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e6 6. f3 a6 7. Be3 b5 8. Qd2
+b4 9. Na4 Nbd7 10. O-O-O Qa5 11. b3 Bb7 12. g4 Nc5 13. a3 Nxa4 14. bxa4 Qc7 15.
+axb4 Nd7 16. b5 Be7 17. g5 O-O 18. h4 Nc5 19. Qb4 d5 20. Qb2 Nxa4 21. Qa1 Qc3
+22. Qxc3 Nxc3 23. bxa6 Nxd1 24. axb7 Ra1+ 25. Kd2 Nxe3 26. Kxe3 Bc5 27. e5 Rb8
+28. c3 Rxb7 29. Bg2 Rxh1 30. Bxh1 Rb3 31. Kd3 Bxd4 32. Kxd4 Rb1 33. Bg2 Rg1 34.
+Bh3 Rh1 35. Bg2 Rh2 36. Bf1 Rf2 0-1
+
+[Event "Figueres op A"]
+[Site "?"]
+[Date "2012.08.09"]
+[Round "1"]
+[White "Forcen Esteban, D."]
+[Black "Diaz Muñoz, S."]
+[Result "1-0"]
+[ECO "B77"]
+[WhiteElo "2440"]
+[BlackElo "2011"]
+[PlyCount "87"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nc3 g6 3. Nf3 Bg7 4. d4 cxd4 5. Nxd4 Nc6 6. Be3 Nf6 7. Bc4 O-O 8.
+Bb3 d6 9. f3 Bd7 10. Qd2 Nxd4 11. Bxd4 b5 12. h4 a5 13. h5 a4 14. Bd5 b4 15.
+Bxf6 exf6 16. Ne2 f5 17. hxg6 hxg6 18. exf5 Bxf5 19. Bxa8 Qxa8 20. Rd1 Re8 21.
+O-O Bxb2 22. Qxb4 Rxe2 23. Qxb2 Qa7+ 24. Qd4 Qe7 25. Rb1 Qe3+ 26. Qxe3 Rxe3 27.
+Rb2 Be6 28. Rd1 a3 29. Rb8+ Kg7 30. Rd3 Rxd3 31. cxd3 Bxa2 32. Ra8 Kf6 33. Rxa3
+Be6 34. Kf2 Ke5 35. Ke3 g5 36. Ra5+ d5 37. g3 f6 38. Rc5 Bf7 39. Ra5 Be6 40.
+d4+ Kd6 41. Kd2 Bh3 42. Ra1 Ke6 43. g4 f5 44. Rg1 1-0
+
+[Event "Figueres op A"]
+[Site "?"]
+[Date "2012.08.10"]
+[Round "2"]
+[White "Vilar Lopez, M."]
+[Black "Forcen Esteban, D."]
+[Result "0-1"]
+[ECO "B15"]
+[WhiteElo "2154"]
+[BlackElo "2440"]
+[PlyCount "56"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c6 2. d4 d5 3. Nc3 b5 4. e5 a6 5. Bd3 e6 6. Nf3 c5 7. dxc5 Bxc5 8. O-O
+Nc6 9. Bf4 Nge7 10. Qe2 Ng6 11. Bg3 O-O 12. a3 Bb7 13. h4 h6 14. h5 Nge7 15.
+Rad1 Qc7 16. Kh1 Nd4 17. Nxd4 Bxd4 18. f4 Bxc3 19. bxc3 Qxc3 20. Rf3 Qc6 21. f5
+Nxf5 22. Bxf5 exf5 23. Rxf5 Rac8 24. Rf2 Qe6 25. Rd3 Rc4 26. Rf4 Re8 27. Rxc4
+dxc4 28. Rd2 Qh3+ 0-1
+
+[Event "Figueres op A"]
+[Site "?"]
+[Date "2012.08.11"]
+[Round "3"]
+[White "Forcen Esteban, D."]
+[Black "Simacek, P."]
+[Result "1-0"]
+[ECO "B22"]
+[WhiteElo "2440"]
+[BlackElo "2478"]
+[PlyCount "67"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 Nc6 3. c3 e6 4. d4 d5 5. exd5 exd5 6. Be3 cxd4 7. Nxd4 Bd6 8.
+Nd2 Nge7 9. N2b3 Ne5 10. Be2 O-O 11. O-O a6 12. Nd2 Qc7 13. h3 Bd7 14. N2f3 Nc4
+15. Bc1 Ng6 16. Bd3 Rfe8 17. Ng5 Nce5 18. Bc2 Bc5 19. Qh5 Bxd4 20. Qxh7+ Kf8
+21. cxd4 Qxc2 22. dxe5 Rxe5 23. b3 Rae8 24. Ba3+ R8e7 25. Rae1 Qc3 26. Bxe7+
+Rxe7 27. Rxe7 Kxe7 28. Qg8 Ne5 29. f4 Qe3+ 30. Kh1 Qe2 31. Rg1 Qe3 32. Qxg7
+Qxf4 33. Re1 Kd6 34. Qxe5+ 1-0
+
+[Event "Figueres op A"]
+[Site "?"]
+[Date "2012.08.12"]
+[Round "4"]
+[White "Aroshidze, L."]
+[Black "Forcen Esteban, D."]
+[Result "1/2-1/2"]
+[ECO "B90"]
+[WhiteElo "2568"]
+[BlackElo "2440"]
+[PlyCount "38"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. f3 e5 7. Nb3 Be6 8. Be3
+Be7 9. Qd2 O-O 10. O-O-O Nbd7 11. g4 b5 12. g5 Nh5 13. Nd5 Bxd5 14. exd5 f6 15.
+gxf6 Bxf6 16. Na5 Qe8 17. Nb7 Qb8 18. Na5 Qe8 19. Nb7 Qb8 1/2-1/2
+
+[Event "Figueres op A"]
+[Site "?"]
+[Date "2012.08.12"]
+[Round "5"]
+[White "Das, A."]
+[Black "Forcen Esteban, D."]
+[Result "1/2-1/2"]
+[ECO "C44"]
+[WhiteElo "2479"]
+[BlackElo "2440"]
+[PlyCount "36"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 Nf6 2. d3 d5 3. Nd2 e5 4. Ngf3 Nc6 5. Be2 Bc5 6. O-O O-O 7. c3 a5 8. b3
+Re8 9. a3 Bf8 10. Bb2 b6 11. b4 Bb7 12. Re1 axb4 13. axb4 Rxa1 14. Qxa1 Qa8 15.
+Bf1 dxe4 16. dxe4 Nb8 17. Bc4 Qxa1 18. Bxa1 Nbd7 1/2-1/2
+
+[Event "Figueres op A"]
+[Site "?"]
+[Date "2012.08.13"]
+[Round "6"]
+[White "Forcen Esteban, D."]
+[Black "Rakhmanov, A."]
+[Result "1/2-1/2"]
+[ECO "C13"]
+[WhiteElo "2440"]
+[BlackElo "2588"]
+[PlyCount "71"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Be7 5. e5 Nfd7 6. h4 Nc6 7. Nf3 h6 8. Be3
+Na5 9. Rh3 a6 10. Rg3 Bf8 11. Qd2 b6 12. O-O-O Bb7 13. h5 c5 14. Bf4 c4 15. Ne2
+b5 16. c3 Nc6 17. Qc2 Qa5 18. Kb1 Qc7 19. Bd2 Nb6 20. Nh4 Be7 21. Rg4 O-O-O 22.
+f4 Bxh4 23. Rxh4 Kb8 24. g4 a5 25. f5 b4 26. fxe6 fxe6 27. Nf4 Bc8 28. Ng6 Rhg8
+29. g5 hxg5 30. Bxg5 Rde8 31. Rf4 Qb7 32. Ka1 Nd8 33. Qf2 Na4 34. Qc2 Nb6 35.
+Qf2 Na4 36. Qc2 1/2-1/2
+
+[Event "Figueres op A"]
+[Site "?"]
+[Date "2012.08.14"]
+[Round "7"]
+[White "Adhiban, B."]
+[Black "Forcen Esteban, D."]
+[Result "1-0"]
+[ECO "A67"]
+[WhiteElo "2553"]
+[BlackElo "2440"]
+[PlyCount "49"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e6 4. Nc3 exd5 5. cxd5 d6 6. e4 g6 7. f4 Bg7 8. Bb5+
+Nfd7 9. Nf3 O-O 10. O-O a6 11. Bd3 b5 12. a3 Bb7 13. Kh1 Nb6 14. f5 N8d7 15.
+Bg5 Bf6 16. h4 Qe7 17. Qd2 Ne5 18. Nxe5 Qxe5 19. Bxf6 Qxf6 20. Rf3 Qe5 21. Raf1
+Nd7 22. h5 gxh5 23. f6 Kh8 24. Rf5 Qg3 25. R1f3 1-0
+
+[Event "Figueres op A"]
+[Site "?"]
+[Date "2012.08.15"]
+[Round "8"]
+[White "Forcen Esteban, D."]
+[Black "Roy Chowdhury, S."]
+[Result "0-1"]
+[ECO "B30"]
+[WhiteElo "2440"]
+[BlackElo "2391"]
+[PlyCount "102"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nc3 Nc6 3. Nf3 e5 4. Bc4 d6 5. d3 Be7 6. Nd2 Nf6 7. Nf1 Bg4 8. f3
+Be6 9. Ne3 O-O 10. O-O a6 11. a4 Nb4 12. Qe2 Ne8 13. Ncd5 Nxd5 14. Bxd5 Bxd5
+15. Nxd5 Nc7 16. Nb6 Rb8 17. f4 exf4 18. Bxf4 Ne6 19. Nd5 Bg5 20. Bg3 Bh4 21.
+Qg4 Bxg3 22. Qxg3 Kh8 23. Rf5 f6 24. Raf1 Nd4 25. R5f2 Qd7 26. c3 Ne6 27. Rf5
+Rfe8 28. Nb6 Qc6 29. a5 Rbd8 30. Rh5 Nf8 31. Rh4 Qc7 32. Nc4 Re6 33. Rf5 Qf7
+34. Qh3 h6 35. Rg4 Nh7 36. Qg3 g5 37. Qf3 Qe8 38. Rd5 Qa4 39. h4 Qe8 40. Qf5
+Qe7 41. Rg3 Rf8 42. Qg4 f5 43. Rxf5 Rxf5 44. Qxf5 Rf6 45. Qd5 Qf8 46. hxg5 Rf1+
+47. Kh2 Qf2 48. Rf3 Qh4+ 49. Rh3 Qf4+ 50. Rg3 Qh4+ 51. Rh3 Qe1 0-1
+
+[Event "Figueres op A"]
+[Site "?"]
+[Date "2012.08.16"]
+[Round "9"]
+[White "Sorroche Martin, JM."]
+[Black "Forcen Esteban, D."]
+[Result "1/2-1/2"]
+[ECO "A31"]
+[WhiteElo "2164"]
+[BlackElo "2440"]
+[PlyCount "35"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. c4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Qb6 6. Nb3 e6 7. a3 d5 8. Be3
+Qd8 9. cxd5 exd5 10. g3 Be6 11. Bg2 Be7 12. O-O O-O 13. Nd4 Rc8 14. Rc1 Ng4 15.
+Nxe6 fxe6 16. Bf4 Nge5 17. Bh3 Kf7 18. Nxd5 1/2-1/2
+
+[Event "Figueres op"]
+[Site "Figueres"]
+[Date "2013.08.12"]
+[Round "2"]
+[White "Forcen Esteban, D."]
+[Black "Tjiam, D."]
+[Result "1-0"]
+[ECO "E91"]
+[WhiteElo "2503"]
+[BlackElo "2377"]
+[PlyCount "75"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 d6 5. e4 O-O 6. Be2 Bg4 7. Ng1 Bxe2 8.
+Ngxe2 c5 9. dxc5 dxc5 10. Qxd8 Rxd8 11. e5 Ne8 12. f4 Nc6 13. Be3 b6 14. Kf2 f6
+15. exf6 exf6 16. Rad1 f5 17. Kf3 Kf7 18. b3 Nc7 19. g4 fxg4+ 20. Kxg4 Bxc3 21.
+Nxc3 Ne7 22. Ne4 Nf5 23. Ng5+ Kg8 24. Bc1 h6 25. Nf3 Ne6 26. Ne5 Ne7 27. Bb2
+h5+ 28. Kf3 Rf8 29. Rhe1 Rxf4+ 30. Kg2 Raf8 31. Nd3 Rg4+ 32. Kh1 Nf5 33. Rxe6
+Rd8 34. Ree1 Nh4 35. Ne5 Rxd1 36. Rxd1 Re4 37. Rd8+ Kh7 38. Nf3 1-0
+
+[Event "Figueres op"]
+[Site "Figueres"]
+[Date "2013.08.13"]
+[Round "3"]
+[White "Cuadras Avellana, J."]
+[Black "Forcen Esteban, D."]
+[Result "0-1"]
+[ECO "C03"]
+[WhiteElo "2321"]
+[BlackElo "2503"]
+[PlyCount "64"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Be7 4. Ngf3 Nf6 5. e5 Nfd7 6. c3 c5 7. Bd3 Nc6 8. O-O
+Qb6 9. dxc5 Qc7 10. Re1 Ndxe5 11. Nxe5 Nxe5 12. Bb5+ Bd7 13. Bxd7+ Nxd7 14. b4
+b6 15. cxb6 axb6 16. Qb3 Ne5 17. Nf1 O-O 18. a4 Rfc8 19. Be3 Nd7 20. Rec1 Bf6
+21. Ra3 Ne5 22. Qd1 Nc4 23. Ra2 Nxe3 24. Nxe3 d4 25. Ng4 Bg5 26. Rcc2 dxc3 27.
+Qf3 Qd6 28. g3 Qxb4 29. h4 Rxa4 30. Rxa4 Qxa4 31. Qe2 Be7 32. Ne5 b5 0-1
+
+[Event "Figueres op"]
+[Site "Figueres"]
+[Date "2013.08.14"]
+[Round "4"]
+[White "Forcen Esteban, D."]
+[Black "Narciso Dublan, M."]
+[Result "1-0"]
+[ECO "C45"]
+[WhiteElo "2503"]
+[BlackElo "2505"]
+[PlyCount "125"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 bxc6 6. e5 Qe7 7. Qe2 Nd5 8.
+c4 Ba6 9. Nd2 g6 10. Nf3 Qb4+ 11. Kd1 Bg7 12. Qc2 Ne7 13. a3 Qb8 14. h4 d6 15.
+exd6 cxd6 16. h5 d5 17. cxd5 Bxf1 18. Rxf1 Qd6 19. Ke2 Qxd5 20. Rd1 Qb5+ 21.
+Qd3 Qxd3+ 22. Rxd3 O-O 23. Rb1 Rfe8 24. Bd2 Nd5+ 25. Kf1 Re4 26. h6 Bf6 27. Rc1
+Re6 28. b4 a6 29. a4 Nb6 30. Bc3 Nd5 31. Bxf6 Rxf6 32. b5 axb5 33. axb5 Ne7 34.
+Rd7 Kf8 35. b6 Rf5 36. b7 Rb8 37. Rcd1 Nd5 38. Re1 Rh5 39. Kg1 Rxh6 40. Ne5 g5
+41. Nxf7 Rh4 42. Nxg5 Rb4 43. Ne6+ Kg8 44. Nd8 Nf6 45. Rd6 Ne4 46. Rxc6 Rxd8
+47. Rc8 Rf8 48. Rxe4 Rxb7 49. Rg4+ Rg7 50. Rxg7+ Kxg7 51. Rxf8 Kxf8 52. Kh2 Kg7
+53. Kg3 Kg6 54. Kg4 Kf6 55. Kh5 Kg7 56. Kg5 Kf7 57. Kh6 Kg8 58. f4 Kh8 59. g4
+Kg8 60. f5 Kh8 61. f6 Kg8 62. g5 Kh8 63. g6 1-0
+
+[Event "Figueres op"]
+[Site "Figueres"]
+[Date "2013.08.15"]
+[Round "5"]
+[White "Antoli Royo, JM."]
+[Black "Forcen Esteban, D."]
+[Result "1/2-1/2"]
+[ECO "C03"]
+[WhiteElo "2409"]
+[BlackElo "2503"]
+[PlyCount "21"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Be7 4. Ngf3 Nf6 5. Bd3 c5 6. dxc5 dxe4 7. Nxe4 Nxe4 8.
+Bxe4 Qxd1+ 9. Kxd1 Bxc5 10. Ke2 Nc6 11. Bxc6+ 1/2-1/2
+
+[Event "Figueres op"]
+[Site "Figueres"]
+[Date "2013.08.15"]
+[Round "6"]
+[White "Forcen Esteban, D."]
+[Black "Cruz Sanchez, C."]
+[Result "0-1"]
+[ECO "C11"]
+[WhiteElo "2503"]
+[BlackElo "2498"]
+[PlyCount "108"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 dxe4 5. Nxe4 Be7 6. Bxf6 gxf6 7. Nf3 b6 8.
+Bb5+ c6 9. Be2 Bb7 10. Qd3 Nd7 11. c4 Qc7 12. O-O O-O-O 13. Rfd1 Kb8 14. Qc2 f5
+15. Nc3 Rhg8 16. Rab1 Rg6 17. Bf1 Rdg8 18. Qe2 Nf6 19. b4 Nh5 20. Qe3 Nf4 21.
+g3 Nh5 22. c5 Bf6 23. Qe1 f4 24. Ne4 Be7 25. Ne5 R6g7 26. Kh1 f6 27. Nc4 b5 28.
+Ncd2 f5 29. Be2 fxe4 30. Bxh5 e3 31. Ne4 e5 32. Bf3 Bc8 33. gxf4 exf4 34. fxe3
+Be6 35. Nc3 Rg1+ 36. Qxg1 Rxg1+ 37. Rxg1 fxe3 38. Rg7 Qf4 39. Bxc6 Bf6 40. Rb7+
+Kc8 41. Bg2 Bc4 42. Nxb5 Bxb5 43. Rxb5 e2 44. c6 Qh4 45. Rf5 e1=Q+ 46. Rxe1
+Qxe1+ 47. Rf1 Qe7 48. d5 Be5 49. Bh3+ Kd8 50. Be6 Qxb4 51. Kg2 Qe4+ 52. Rf3 h5
+53. h4 Bd4 54. Kg3 Qe1+ 0-1
+
+[Event "Figueres op"]
+[Site "Figueres"]
+[Date "2013.08.16"]
+[Round "7"]
+[White "Ynojosa, FJ."]
+[Black "Forcen Esteban, D."]
+[Result "1/2-1/2"]
+[ECO "C01"]
+[WhiteElo "2405"]
+[BlackElo "2503"]
+[PlyCount "118"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. Nf3 Nc6 5. Bb5 Bd6 6. O-O a6 7. Re1+ Nge7 8.
+Bf1 O-O 9. Nbd2 h6 10. a3 Nf5 11. c3 Qf6 12. g3 Bd7 13. Bg2 Rfe8 14. Rxe8+ Rxe8
+15. Qb3 g5 16. Qxd5 g4 17. Ne5 Nxe5 18. dxe5 Qxe5 19. Qxe5 Rxe5 20. Kf1 a5 21.
+b3 a4 22. b4 Ne7 23. Bxb7 Bf5 24. Ba6 Rd5 25. Bc4 Bd3+ 26. Kg2 Bxc4 27. Nxc4
+Rd3 28. Nb2 Rxc3 29. Nxa4 Rc2 30. Bxh6 Nf5 31. Bg5 Be5 32. Rd1 f6 33. Rd2 Rc4
+34. Be3 Nxe3+ 35. fxe3 Kf7 36. Kf2 Rc1 37. Nb2 Bc3 38. Re2 Ke6 39. Na4 Be5 40.
+Nc5+ Kd5 41. Kg2 Ra1 42. h3 gxh3+ 43. Kxh3 Rxa3 44. Kg4 Ra1 45. Nd7 Rb1 46. e4+
+Kd4 47. Kf5 Rf1+ 48. Ke6 Kd3 49. Rg2 Bc3 50. e5 fxe5 51. Nxe5+ Ke4 52. Re2+ Kd4
+53. Kd7 Kd5 54. Nc6 Rf7+ 55. Ne7+ Kc4 56. Kxc7 Kd3 57. Re6 Bxb4 58. Kd8 Bxe7+
+59. Rxe7 Rxe7 1/2-1/2
+
+[Event "Figueres op"]
+[Site "Figueres"]
+[Date "2013.08.17"]
+[Round "8"]
+[White "Aroshidze, L."]
+[Black "Forcen Esteban, D."]
+[Result "1-0"]
+[ECO "B27"]
+[WhiteElo "2565"]
+[BlackElo "2503"]
+[PlyCount "43"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 g6 3. c3 Bg7 4. d4 cxd4 5. cxd4 d5 6. e5 Nh6 7. Bb5+ Nc6 8.
+Bxc6+ bxc6 9. O-O O-O 10. Nbd2 c5 11. dxc5 Ng4 12. Re1 Qc7 13. Nb3 Nxe5 14. Bf4
+Nxf3+ 15. Qxf3 Qb7 16. Rad1 Bxb2 17. Nd4 Re8 18. Rb1 Qb4 19. Be5 Qa3 20. Qxd5
+Bxd4 21. Bxd4 Bf5 22. Rxe7 1-0

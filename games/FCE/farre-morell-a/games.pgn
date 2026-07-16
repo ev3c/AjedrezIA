@@ -1,0 +1,89 @@
+[Event "Ct. Lleida indiv. Absolut"]
+[Site "Lleida"]
+[Date "2013.10.13"]
+[Round "2"]
+[White "Farre Morell, A."]
+[Black "Palau Cabases, A."]
+[Result "1/2-1/2"]
+[ECO "E60"]
+[WhiteElo "1738"]
+[BlackElo "1961"]
+[PlyCount "38"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. Nf3 g6 3. g3 Bg7 4. Bg2 O-O 5. c4 c5 6. e3 cxd4 7. exd4 d5 8. O-O
+Nc6 9. b3 Bg4 10. Bb2 dxc4 11. bxc4 Qb6 12. Qb3 Nd7 13. Nbd2 Nxd4 14. Qxb6 Ne2+
+15. Kh1 Nxb6 16. Bxg7 Kxg7 17. Rfe1 Nc3 18. Rxe7 Bxf3 19. Bxf3 Rab8 {
+irreproduible} 1/2-1/2
+
+[Event "Ct. Lleida indiv. Absolut"]
+[Site "Lleida"]
+[Date "2013.10.20"]
+[Round "3"]
+[White "Pera Lucas, E."]
+[Black "Farre Morell, A."]
+[Result "1-0"]
+[ECO "B01"]
+[WhiteElo "1934"]
+[BlackElo "1738"]
+[PlyCount "85"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 d5 2. exd5 Nf6 3. Bb5+ c6 4. dxc6 bxc6 5. Be2 e5 6. d3 Bc5 7. Be3 Bxe3 8.
+fxe3 Qb6 9. Nd2 Qxe3 10. Nc4 Qc5 11. Nf3 Ba6 12. d4 exd4 13. Qxd4 Qxd4 14. Nxd4
+O-O 15. O-O Re8 16. Rfe1 Rxe2 17. Rxe2 Bxc4 18. Re7 Bd5 19. Rae1 Na6 20. c4
+Bxc4 21. Nxc6 Bxa2 22. Ra1 Bc4 23. Ne5 Bb5 24. Rb7 Rb8 25. Rxb8+ Nxb8 26. Rxa7
+Ne8 27. Rb7 Ba6 28. Rxb8 Kf8 29. b4 f6 30. Nd7+ Ke7 31. Nc5 Bc4 32. Kf2 Nd6 33.
+Ke3 h5 34. g3 f5 35. Kd4 g5 36. Nb7 Be2 37. Nxd6 Kxd6 38. Rb6+ Kc7 39. Rg6 f4
+40. Rxg5 f3 41. Ke3 Bd1 42. Kf2 h4 43. gxh4 1-0
+
+[Event "Ct. Lleida indiv. Absolut"]
+[Site "Lleida"]
+[Date "2013.11.03"]
+[Round "5"]
+[White "Alba Tarradelles, J."]
+[Black "Farre Morell, A."]
+[Result "1/2-1/2"]
+[ECO "E73"]
+[WhiteElo "1888"]
+[BlackElo "1738"]
+[PlyCount "137"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Be2 O-O 6. Bg5 c6 7. Qd2 e5 8. d5 Qa5
+9. O-O-O cxd5 10. Bxf6 Bxf6 11. Nxd5 Qxd2+ 12. Rxd2 Bd8 13. Nf3 Bg4 14. h3 Bxf3
+15. gxf3 Nc6 16. Rg1 Nd4 17. f4 Rc8 18. b3 b5 19. fxe5 dxe5 20. f4 bxc4 21.
+fxe5 cxb3+ 22. Kb1 Nxe2 23. Rxe2 bxa2+ 24. Kxa2 Rc6 25. Rf1 Bg5 26. Rg1 Ra6+
+27. Kb3 Rb8+ 28. Kc4 Rc6+ 29. Kd4 Bd8 30. Rf1 Ra6 31. Ref2 Rb7 32. Nf6+ Kg7 33.
+Ne8+ Kf8 34. Nd6 Bb6+ 35. Kd3 Ra3+ 36. Kd2 Ba5+ 37. Kc2 Ra2+ 38. Kc1 Ra1+ 39.
+Kc2 Ra2+ 40. Kc1 Rc7+ 41. Kb1 Rxf2 42. Rxf2 Bc3 43. e6 f6 44. Ra2 Ke7 45. Nb5
+Rb7 46. Rxa7 Rxa7 47. Nxa7 Kxe6 48. Kc2 Be1 49. Kd3 Ba5 50. Nc6 Bb6 51. Ke2 Kd6
+52. Nb4 Ke5 53. Kf3 h5 54. Nd3+ Ke6 55. Nf4+ Kf7 56. Nd5 Ba7 57. Kf4 Bb8+ 58.
+Kf3 Ke6 59. Nb4 Bd6 60. Nd5 f5 61. exf5+ Kxd5 62. fxg6 Ke6 63. h4 Kf6 64. Kg2
+Kxg6 65. Kh1 Bg3 66. Kg2 Bxh4 67. Kh2 Kf5 68. Kg2 Kg4 69. Kh2 1/2-1/2
+
+[Event "Ct. Lleida indiv. Absolut"]
+[Site "Lleida"]
+[Date "2013.11.17"]
+[Round "7"]
+[White "Sanuy Moncasi, A."]
+[Black "Farre Morell, A."]
+[Result "1/2-1/2"]
+[ECO "B07"]
+[WhiteElo "1945"]
+[BlackElo "1738"]
+[PlyCount "46"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. Nf3 g6 3. Nbd2 Bg7 4. e4 d6 5. c3 O-O 6. Bc4 Nxe4 7. Nxe4 d5 8.
+Bd3 dxe4 9. Bxe4 Nd7 10. Bf4 Nf6 11. Bc2 Nd5 12. Bg3 c6 13. Ne5 Qb6 14. Bb3 a5
+15. Qe2 a4 16. Bxd5 cxd5 17. a3 Bf5 18. O-O Rae8 19. Rad1 f6 20. Nd3 Rf7 21.
+Nb4 Qa5 22. Rfe1 Be4 23. f3 Bf5 1/2-1/2

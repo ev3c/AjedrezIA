@@ -1,0 +1,447 @@
+[Event "Ct. Catalunya equips"]
+[Site "?"]
+[Date "2002.??.??"]
+[Round "1"]
+[White "Pages Ruiz, E."]
+[Black "Pascual Gonzalez-Novelles, C."]
+[Result "1/2-1/2"]
+[ECO "C02"]
+[WhiteElo "2025"]
+[BlackElo "2060"]
+[PlyCount "86"]
+[EventDate "2002.??.??"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. Bd3 Nh6 7. dxc5 Bxc5 8. O-O
+Ng4 9. Qe2 Qc7 10. Bf4 f6 11. Bb5 Bd7 12. Bxc6 bxc6 13. h3 h5 14. hxg4 hxg4 15.
+Nd4 g5 16. Qxg4 O-O-O 17. Bg3 f5 18. Qxg5 Rdg8 19. Qe3 Be8 20. b4 Qh7 21. f4
+Bb6 22. Nd2 Rg7 23. Kf2 Rhg8 24. Rh1 Bh5 25. Rh3 Qg6 26. Rah1 Bg4 27. Rh6 Qf7
+28. Rf6 Qd7 29. Rhh6 Bd1 30. Nf1 c5 31. bxc5 Bxc5 32. Qd3 Qa4 33. Rxe6 Qxa2+
+34. Kg1 Be2 35. Qxf5 Kb8 36. Reg6 Bxf1 37. Kxf1 Qc4+ 38. Kf2 Qxc3 39. Rxg7
+Qxd4+ 40. Ke2 Qe3+ 41. Kd1 Qd4+ 42. Ke2 Qe3+ 43. Kd1 Qd4+ 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.13"]
+[Round "1"]
+[White "Ferre Navarro, J."]
+[Black "Pascual Gonzalez-Novelles, C."]
+[Result "0-1"]
+[ECO "C02"]
+[WhiteElo "1609"]
+[BlackElo "1873"]
+[PlyCount "69"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. Be2 Nh6 7. O-O cxd4 8. cxd4
+Nf5 9. Kh1 Nfxd4 10. Nxd4 Qxd4 11. f4 Bd7 12. Qb3 Qb4 13. Qd1 Bc5 14. Nc3 Bd4
+15. a3 Qa5 16. Nb5 Bc5 17. Bd2 Qb6 18. b4 Be7 19. Bc3 O-O 20. Rc1 a6 21. Nd4
+Rac8 22. Qd2 Na7 23. Bb2 f6 24. Nb3 fxe5 25. fxe5 Rxc1 26. Rxc1 Nc6 27. Bf3 Rf5
+28. Qe2 Qd8 29. Nc5 Bxc5 30. Rxc5 Qf8 31. Kg1 a5 32. b5 Qxc5+ 33. Kf1 Nd4 34.
+Qe3 Bxb5+ 35. Kf2 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.14"]
+[Round "2"]
+[White "Pascual Gonzalez-Novelles, C."]
+[Black "Garcia Punzano, JL."]
+[Result "0-1"]
+[ECO "B23"]
+[WhiteElo "1873"]
+[BlackElo "1744"]
+[PlyCount "74"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nc3 d6 3. g3 Nf6 4. Bg2 e6 5. f4 Nc6 6. d3 Be7 7. Nf3 Qb6 8. h3 Nh5
+9. Ne2 Bd7 10. Bd2 Nd4 11. Nfxd4 cxd4 12. O-O O-O 13. Kh2 Nf6 14. g4 Bc6 15. b4
+e5 16. g5 Nd7 17. f5 f6 18. g6 Rfc8 19. gxh7+ Kxh7 20. Nf4 exf4 21. Qh5+ Kg8
+22. Rxf4 Bf8 23. Rh4 Ne5 24. Bf4 Be8 25. Qh7+ Kf7 26. Bxe5 dxe5 27. Rg4 Rxc2
+28. h4 Qxb4 29. h5 Qd2 30. Rg6 Ke7 31. Rxg7+ Bxg7 32. Qxg7+ Bf7 33. Rb1 b6 34.
+Rb5 Rg8 35. Rxe5+ fxe5 36. Qxe5+ Kd7 37. Qxd4+ Kc8 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.15"]
+[Round "3"]
+[White "Harutian, AW."]
+[Black "Pascual Gonzalez-Novelles, C."]
+[Result "0-1"]
+[ECO "C01"]
+[WhiteElo "1517"]
+[BlackElo "1873"]
+[PlyCount "52"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. Bd3 Bd6 5. Ne2 Nf6 6. O-O O-O 7. Bf4 Bg4 8.
+f3 Bh5 9. Nd2 c6 10. c3 Re8 11. Bxd6 Qxd6 12. Ng3 Bg6 13. Qc2 Nbd7 14. Nf5 Qc7
+15. Rae1 Nf8 16. Ne3 Re7 17. Ng4 Nxg4 18. Rxe7 Qxe7 19. fxg4 Qe3+ 20. Rf2 Bxd3
+21. Qd1 Re8 22. Nf3 Nd7 23. g5 f6 24. gxf6 Nxf6 25. Ne5 Rxe5 26. dxe5 Ng4 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.16"]
+[Round "4"]
+[White "Pascual Gonzalez-Novelles, C."]
+[Black "Muratet Casadevall, J."]
+[Result "1-0"]
+[ECO "C55"]
+[WhiteElo "1873"]
+[BlackElo "1734"]
+[PlyCount "119"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Be7 5. c3 d6 6. h3 h6 7. Be3 O-O 8. O-O
+Bd7 9. b4 a6 10. a4 Qc8 11. Nbd2 Re8 12. d4 exd4 13. cxd4 Nxb4 14. Qb3 d5 15.
+exd5 b5 16. d6 bxc4 17. Qxb4 Bxd6 18. Qxc4 Be6 19. Qc2 Nd5 20. Nc4 Nxe3 21.
+fxe3 Bxc4 22. Qxc4 Rxe3 23. Ne5 Bxe5 24. Rxf7 Bh2+ 25. Kxh2 Qe6 26. Qxe6 Rxe6
+27. Rxc7 Rd6 28. Re1 Rxd4 29. Ree7 Rxa4 30. Rxg7+ Kh8 31. Rh7+ Kg8 32. Rxh6 a5
+33. Rch7 Rf8 34. Ra7 Rf7 35. Rha6 Rxa7 36. Rxa7 Ra3 37. h4 a4 38. g3 Ra2+ 39.
+Kh3 a3 40. Kg4 Ra1 41. Kg5 a2 42. Kg6 Kf8 43. g4 Rg1 44. Rxa2 Rxg4+ 45. Kh5 Rg1
+46. Kh6 Kf7 47. Ra6 Rg8 48. Ra7+ Kf6 49. Kh7 Rf8 50. Ra6+ Kf7 51. h5 Re8 52. h6
+Rd8 53. Ra7+ Kf6 54. Rg7 Rf8 55. Rg8 Rf7+ 56. Kh8 Kf5 57. h7 Kf6 58. Ra8 Ke7
+59. Kg8 Rf3 60. Ra7+ 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.17"]
+[Round "5"]
+[White "Argemi Camp, J."]
+[Black "Pascual Gonzalez-Novelles, C."]
+[Result "0-1"]
+[ECO "C00"]
+[WhiteElo "1639"]
+[BlackElo "1873"]
+[PlyCount "150"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e6 2. g3 d5 3. exd5 exd5 4. Bg2 Nf6 5. Nf3 Bf5 6. O-O Be7 7. d3 O-O 8.
+Nbd2 c5 9. a4 Nc6 10. Nh4 Bg4 11. Nhf3 Re8 12. c3 Qd7 13. Qb3 Rac8 14. Qc2 h6
+15. Qb3 b6 16. d4 c4 17. Qc2 Bf5 18. Qd1 Bd3 19. Re1 Bd6 20. Nf1 Rxe1 21. Qxe1
+Re8 22. Be3 Ne4 23. Qd1 Nf6 24. Ne1 Be4 25. Nf3 Na5 26. Ne5 Bxe5 27. dxe5 Bxg2
+28. Kxg2 Rxe5 29. Bd4 Re6 30. Be3 Nb3 31. Ra2 Re5 32. Bf4 Rh5 33. Qf3 Qh3+ 34.
+Kg1 Rf5 35. Qg2 Qg4 36. Ne3 Qg6 37. Nxf5 Qxf5 38. Qf1 Qc2 39. Be5 Ne4 40. Kg2
+Ned2 41. Qe1 Qd3 42. Bf4 Qf3+ 43. Kg1 h5 44. Bxd2 h4 45. Be3 h3 46. Qf1 Qe4 47.
+a5 b5 48. Ra3 g5 49. Qxh3 Qb1+ 50. Kg2 Qe4+ 51. Kg1 Qb1+ 52. Qf1 Qxb2 53. Bc5
+Nxc5 54. Qa1 Qe2 55. Ra2 Qf3 56. Qe1 Ne4 57. Rc2 a6 58. Qe2 Qxe2 59. Rxe2 Nxc3
+60. Re8+ Kg7 61. Ra8 b4 62. Rxa6 b3 63. Rb6 Na4 64. Rb5 b2 65. a6 c3 66. a7 c2
+67. a8=Q b1=Q+ 68. Rxb1 cxb1=Q+ 69. Kg2 Qe4+ 70. Kg1 Nc3 71. Qa1 d4 72. h3 Qf3
+73. Qa5 Ne2+ 74. Kf1 Nxg3+ 75. Kg1 Qh1# 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.18"]
+[Round "6"]
+[White "Pascual Gonzalez-Novelles, C."]
+[Black "Blesa Fernandez, F."]
+[Result "0-1"]
+[ECO "C11"]
+[WhiteElo "1873"]
+[BlackElo "1951"]
+[PlyCount "72"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6 7. Ne2 Be7 8. c3
+cxd4 9. cxd4 Nb6 10. Nc3 Bd7 11. Be2 O-O 12. O-O f6 13. a3 Rc8 14. Bd3 f5 15.
+Kh1 Be8 16. Ne2 Bh5 17. Qe1 Kh8 18. Bd2 Rg8 19. Qf2 a5 20. Ng5 Bxg5 21. fxg5
+Bxe2 22. Bxe2 Nc4 23. Bxc4 dxc4 24. g6 Qxd4 25. Qe2 Qg4 26. Qxg4 fxg4 27. gxh7
+Rgf8 28. Rae1 Nxe5 29. Bc3 Nd3 30. Rb1 a4 31. Kg1 Kxh7 32. Rxf8 Rxf8 33. Rf1
+Rxf1+ 34. Kxf1 Kg6 35. Ke2 e5 36. Ke3 Kg5 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.19"]
+[Round "7"]
+[White "Delgado Lozano, IM."]
+[Black "Pascual Gonzalez-Novelles, C."]
+[Result "1-0"]
+[ECO "D78"]
+[WhiteElo "1765"]
+[BlackElo "1873"]
+[PlyCount "69"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. Nf3 Nf6 2. g3 d5 3. d4 g6 4. Bg2 Bg7 5. O-O O-O 6. c4 c6 7. Nc3 dxc4 8. Ne5
+Nbd7 9. Nxc4 Nb6 10. Ne5 Nbd5 11. e4 Nxc3 12. bxc3 Qa5 13. Qb3 c5 14. Ba3 cxd4
+15. cxd4 Qd8 16. Rfd1 Nd7 17. Nc4 Rb8 18. e5 b5 19. Ne3 b4 20. Bb2 Bb7 21. Bxb7
+Rxb7 22. Rac1 a5 23. Qd5 Qa8 24. e6 Nf6 25. Qc6 Rbb8 26. d5 fxe6 27. Qxe6+ Rf7
+28. Be5 Re8 29. Rc7 Kf8 30. Rdc1 a4 31. d6 b3 32. axb3 axb3 33. Rc8 Qa3 34.
+dxe7+ Rfxe7 35. Bd6 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.20"]
+[Round "8"]
+[White "Pascual Gonzalez-Novelles, C."]
+[Black "Monteagudo Aguilera, M."]
+[Result "1-0"]
+[ECO "B24"]
+[WhiteElo "1873"]
+[BlackElo "1779"]
+[PlyCount "77"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nc3 Nc6 3. g3 d6 4. Bg2 Nf6 5. f4 e6 6. d3 Be7 7. Nf3 a6 8. O-O Qc7
+9. a4 Rb8 10. h3 b5 11. axb5 axb5 12. g4 h6 13. Ne2 Bb7 14. c3 b4 15. Bd2 Nd7
+16. Ng3 bxc3 17. Bxc3 Bf6 18. Qe1 Nd4 19. Nxd4 Bxd4+ 20. Bxd4 cxd4 21. Qf2 Qb6
+22. f5 e5 23. Nh5 f6 24. Nxg7+ Ke7 25. Qd2 Nc5 26. Ra3 Ba6 27. Rfa1 Rb7 28. b4
+Nd7 29. Rxa6 Qxb4 30. Qxb4 Rxb4 31. Ra7 Rhb8 32. R1a2 Rb2 33. Rxb2 Rxb2 34. Ne6
+Rd2 35. Bf1 Ke8 36. Nc7+ Kd8 37. Nd5 Nc5 38. Ra8+ Kd7 39. Nxf6+ 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.21"]
+[Round "9"]
+[White "Ayats Llobera, G."]
+[Black "Pascual Gonzalez-Novelles, C."]
+[Result "1-0"]
+[ECO "C11"]
+[WhiteElo "1708"]
+[BlackElo "1873"]
+[PlyCount "59"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e6 2. Nc3 d5 3. Nf3 Nf6 4. e5 Nfd7 5. d4 c5 6. Bb5 Nc6 7. Bxc6 bxc6 8.
+O-O cxd4 9. Qxd4 h5 10. Qa4 Qc7 11. Re1 Be7 12. Bg5 Bxg5 13. Nxg5 O-O 14. Qh4
+g6 15. Qf4 Nc5 16. Nf3 f5 17. Nh4 Qg7 18. Qg5 Kh7 19. Nxg6 Qxg6 20. Qe7+ Rf7
+21. Qxc5 Rg7 22. g3 h4 23. Qd4 hxg3 24. hxg3 c5 25. Qh4+ Kg8 26. Qd8+ Kf7 27.
+Nb5 Rg8 28. Nd6+ Kg7 29. Qe7+ Kh6 30. Kg2 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.13"]
+[Round "1.67"]
+[White "Perez Ramirez, P."]
+[Black "Pascual Gonzalez-Novelles, C."]
+[Result "0-1"]
+[ECO "C02"]
+[WhiteElo "1800"]
+[BlackElo "2010"]
+[PlyCount "74"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. a3 cxd4 7. cxd4 Nh6 8. Be2
+Nf5 9. O-O Nfxd4 10. Nxd4 Nxd4 11. Nc3 Bd7 12. Rb1 Bc5 13. Na4 Nxe2+ 14. Kh1
+Bxa4 15. Qxe2 Bb5 16. Qe1 Bxf1 17. Qxf1 Bxf2 18. Qe2 Rc8 19. Bf4 Rc4 20. g3 O-O
+21. Rf1 Bd4 22. b4 Qc6 23. h4 Rc2 24. Qg4 f5 25. exf6 Bxf6 26. h5 d4+ 27. Rf3
+Rf2 28. Kg1 Qxf3 29. Qxe6+ Kh8 30. Qh3 Be5 31. h6 Bxf4 32. hxg7+ Kxg7 33. Qd7+
+Kg8 34. Qe6+ Kh8 35. Qh3 Qd1+ 36. Kxf2 Be3+ 37. Kg2 Rf2# 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.14"]
+[Round "2.27"]
+[White "Pascual Gonzalez-Novelles, C."]
+[Black "Flores Mendoza, JA."]
+[Result "0-1"]
+[ECO "B15"]
+[WhiteElo "2010"]
+[BlackElo "1905"]
+[PlyCount "44"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 c6 2. d4 d5 3. Nc3 e6 4. Nf3 Nf6 5. Bd3 Bb4 6. Bg5 Qa5 7. O-O Bxc3 8.
+Bxf6 gxf6 9. bxc3 Qxc3 10. exd5 cxd5 11. Rb1 b6 12. Re1 Bd7 13. Rb3 Qc7 14. Qd2
+h5 15. Nh4 Nc6 16. Ba6 Ne7 17. Rf3 b5 18. Nf5 Nxf5 19. Rxf5 Qb6 20. Rxd5 Qxa6
+21. Qf4 Qa5 22. Re2 Qxa2 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.15"]
+[Round "3.34"]
+[White "Ferre Navarro, J."]
+[Black "Pascual Gonzalez-Novelles, C."]
+[Result "0-1"]
+[ECO "D80"]
+[WhiteElo "1846"]
+[BlackElo "2010"]
+[PlyCount "126"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. c5 Bg7 5. e3 b6 6. b4 O-O 7. Bb2 c6 8. Nf3 Ba6
+9. Be2 Bxe2 10. Qxe2 a5 11. a3 b5 12. O-O axb4 13. axb4 Na6 14. Ba3 Nd7 15. Ra2
+Qc7 16. Rfa1 Qb7 17. Qd2 e5 18. Ne2 e4 19. Ne1 Ra7 20. Nc1 Rfa8 21. Nb3 Bf6 22.
+Na5 Qc8 23. Bb2 Bd8 24. Bc3 Nf8 25. Nc2 Ne6 26. Qe2 Ng7 27. f3 exf3 28. Qxf3 f5
+29. Qf4 Bc7 30. Qg5 Qe6 31. Bd2 Nb8 32. Be1 Nd7 33. Bg3 Bxg3 34. Qxg3 Nf6 35.
+Qg5 Ne4 36. Qf4 Nc3 37. Kf2 Nxa2 38. Rxa2 Nh5 39. Qf3 Nf6 40. Ra3 Ne4+ 41. Ke2
+Ng5 42. Qf4 Qe4 43. Qxe4 fxe4 44. Ra1 Rc7 45. Rf1 Rf8 46. Rf4 Kg7 47. Rxf8 Kxf8
+48. Ne1 Ke7 49. g3 Kf6 50. Ng2 Nf3 51. h4 Kf5 52. Nf4 Kg4 53. Kf2 Nd2 54. Ne6
+Rc8 55. Nf4 Nc4 56. Nxc6 Rxc6 57. Nxd5 Nb2 58. Nf4 Rf6 59. d5 Nd3+ 60. Kg2 Nxb4
+61. c6 Rxf4 62. c7 Rf8 63. d6 Nd5 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.16"]
+[Round "4.27"]
+[White "Pascual Gonzalez-Novelles, C."]
+[Black "Collell Rodriguez, V."]
+[Result "1-0"]
+[ECO "C54"]
+[WhiteElo "2010"]
+[BlackElo "1911"]
+[PlyCount "63"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Bc5 5. c3 d6 6. O-O Be6 7. Bb5 a6 8. Ba4
+b5 9. Bc2 Ba7 10. h3 O-O 11. Be3 d5 12. exd5 Bxd5 13. Bxa7 Rxa7 14. Re1 Re8 15.
+Nbd2 Nd7 16. Nf1 f6 17. Ne3 Be6 18. Nh4 Kh8 19. d4 exd4 20. cxd4 Bf7 21. Nhf5
+Nb6 22. Qg4 Bg6 23. h4 Bxf5 24. Nxf5 Rxe1+ 25. Rxe1 g6 26. Qe4 gxf5 27. Qxc6
+Qxd4 28. Qe8+ Kg7 29. Re7+ Kh6 30. Bxf5 Qd1+ 31. Kh2 Qd6+ 32. Kh3 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.17"]
+[Round "5.17"]
+[White "Roche Peris, E."]
+[Black "Pascual Gonzalez-Novelles, C."]
+[Result "1-0"]
+[ECO "D94"]
+[WhiteElo "1925"]
+[BlackElo "2010"]
+[PlyCount "59"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. c4 Nf6 2. Nc3 g6 3. d4 d5 4. Nf3 Bg7 5. e3 O-O 6. Be2 c6 7. O-O Nbd7 8. Bd2
+dxc4 9. Bxc4 Nb6 10. Be2 Nbd5 11. Rc1 Qb6 12. Na4 Qd8 13. Qc2 Bf5 14. Bd3 Bxd3
+15. Qxd3 Nd7 16. Rfd1 e5 17. Nc5 exd4 18. Nxd4 Nxc5 19. Rxc5 Qe7 20. Rdc1 Rfe8
+21. b4 Rad8 22. h3 Nc7 23. Qc4 Qd6 24. Bc3 a6 25. a4 Bf8 26. Nxc6 Rd7 27. Ne5
+Rde7 28. Ng4 Bg7 29. Bxg7 Kxg7 30. Rxc7 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.18"]
+[Round "6.22"]
+[White "Pascual Gonzalez-Novelles, C."]
+[Black "Clifford, N."]
+[Result "0-1"]
+[ECO "C40"]
+[WhiteElo "2010"]
+[BlackElo "1923"]
+[PlyCount "64"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 e5 2. Nf3 f5 3. exf5 e4 4. Nd4 Nf6 5. Be2 Bc5 6. Nb3 Bb6 7. Bh5+ Kf8 8.
+Nc3 d5 9. d3 exd3 10. cxd3 Qe7+ 11. Be2 Bxf5 12. Bg5 c6 13. O-O Nbd7 14. Re1
+Qd6 15. Bf3 Kf7 16. d4 Rhe8 17. Qd2 Qf8 18. Na4 h6 19. Bf4 g5 20. Be5 g4 21.
+Qf4 Kg6 22. Be2 Nh5 23. Qd2 Nxe5 24. Nxb6 axb6 25. dxe5 Rxe5 26. Nd4 Rae8 27.
+h3 gxh3 28. Nxf5 Qxf5 29. g4 h2+ 30. Kh1 Qe4+ 31. f3 Ng3+ 32. Kxh2 Qxe2+ 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.19"]
+[Round "7.36"]
+[White "Solis Calancha, J."]
+[Black "Pascual Gonzalez-Novelles, C."]
+[Result "0-1"]
+[ECO "D80"]
+[WhiteElo "1810"]
+[BlackElo "2010"]
+[PlyCount "76"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Bg5 Ne4 5. Nxe4 dxe4 6. e3 Bg7 7. Ne2 c5 8. d5
+Qa5+ 9. Qd2 Qxd2+ 10. Kxd2 Bxb2 11. Rb1 Bg7 12. Ng3 f5 13. Ne2 Nd7 14. f3 exf3
+15. gxf3 Ne5 16. Ng1 b6 17. h3 h6 18. Bh4 g5 19. Bg3 e6 20. f4 Nf7 21. Bg2 Bb7
+22. e4 O-O-O 23. Kc2 fxe4 24. dxe6 Nd6 25. Bf1 Nf5 26. Ne2 e3 27. Rh2 Be4+ 28.
+Kc1 Bxb1 29. Be1 Bd3 30. Ng3 Nxg3 31. Bxd3 gxf4 32. Bg6 Bf6 33. a4 Nf1 34. Ra2
+f3 35. a5 Nd2 36. Bg3 f2 37. axb6 f1=Q+ 38. Kc2 Qb1# 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.20"]
+[Round "8.26"]
+[White "Pascual Gonzalez-Novelles, C."]
+[Black "Mamontova, A."]
+[Result "0-1"]
+[ECO "B25"]
+[WhiteElo "2010"]
+[BlackElo "1858"]
+[PlyCount "75"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. d3 d6 6. f4 f5 7. Nf3 Rb8 8. O-O b5
+9. Ne2 c4 10. dxc4 bxc4 11. Kh1 fxe4 12. Qd5 exf3 13. Qxc6+ Qd7 14. Bxf3 Qxc6
+15. Bxc6+ Kd8 16. c3 Nf6 17. Nd4 Ng4 18. Bd5 Bxd4 19. cxd4 Bb7 20. Bxb7 Rxb7
+21. h3 Nf6 22. Kg2 Kd7 23. f5 gxf5 24. Rxf5 Ke6 25. Rf2 Rhb8 26. Kf3 Kd5 27.
+Ke3 Rg8 28. Rf5+ Ke6 29. g4 h5 30. Kf3 hxg4+ 31. hxg4 Nxg4 32. Rg5 Nf6 33. d5+
+Kf7 34. Rf5 Rg1 35. Kf2 Rd1 36. Rf4 Rc7 37. b4 cxb3 38. axb3 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.21"]
+[Round "9.35"]
+[White "Valbuena Castro, G."]
+[Black "Pascual Gonzalez-Novelles, C."]
+[Result "0-1"]
+[ECO "C02"]
+[WhiteElo "1851"]
+[BlackElo "2010"]
+[PlyCount "46"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. Bd3 Bd7 7. O-O cxd4 8. cxd4
+Nxd4 9. Nxd4 Qxd4 10. Nc3 Ne7 11. Nb5 Qxe5 12. Re1 Qb8 13. Qf3 Bxb5 14. Bxb5+
+Nc6 15. Qxd5 Qd6 16. Qc4 a6 17. Bxa6 Rxa6 18. Bf4 Qb4 19. Rxe6+ fxe6 20. Qxe6+
+Be7 21. Qc8+ Nd8 22. Be5 O-O 23. a3 Qc5 0-1

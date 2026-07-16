@@ -1,0 +1,90 @@
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1975.??.??"]
+[Round "?"]
+[White "Cordovil, Joao Maria"]
+[Black "Jurado Campos, Juan"]
+[Result "1-0"]
+[ECO "B30"]
+[PlyCount "41"]
+[EventDate "1975.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 Qc7 4. O-O g6 5. Nc3 e6 6. Re1 Nge7 7. Bxc6 Nxc6 8.
+d4 cxd4 9. Nxd4 a6 10. Nd5 exd5 11. Nxc6 d4 12. Qxd4 Rg8 13. Nb4 Bxb4 14. Qxb4
+Qe5 15. Bd2 b5 16. Bc3 Qe7 17. Qd4 Bb7 18. a4 Bc6 19. axb5 axb5 20. Rxa8+ Bxa8
+21. Bb4 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1975.03.19"]
+[Round "9"]
+[White "Jurado Campos, Juan"]
+[Black "Medina Garcia, Antonio"]
+[Result "1/2-1/2"]
+[ECO "C93"]
+[PlyCount "145"]
+[EventDate "1975.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. c3
+d6 9. h3 h6 10. d4 Re8 11. Nbd2 Bf8 12. Nf1 Bd7 13. Ng3 Na5 14. Bc2 c5 15. b3
+cxd4 16. cxd4 Nc6 17. Bb2 Qb6 18. Rc1 Rad8 19. Bb1 g6 20. Qd2 Bg7 21. d5 Na5
+22. Re3 Rb8 23. Ree1 h5 24. Bd3 b4 25. Qe2 Ra8 26. Rc2 Bh6 27. Bc1 Bxc1 28.
+Rexc1 Nb7 29. Nd2 h4 30. Ngf1 Nh5 31. Qe3 Qd8 32. Nc4 Nf4 33. Kh2 Bb5 34. Nfd2
+Nxd3 35. Qxd3 Rc8 36. Qe3 Qf6 37. Qf3 Qg5 38. Qe3 Qf6 39. Qf3 Qe7 40. Qg4 Bd7
+41. Qf3 Rc5 42. Ne3 Kg7 43. Ndc4 Rf8 44. g4 hxg3+ 45. fxg3 Rh8 46. g4 Rcc8 47.
+Nb6 Rxc2+ 48. Rxc2 Bb5 49. Nbc4 Nc5 50. Ng2 Ra8 51. Nb6 Rb8 52. Nc4 Rc8 53. Ne1
+Rc7 54. Kg3 Rc8 55. h4 Nb7 56. Ne3 Rxc2 57. N3xc2 a5 58. g5 Nc5 59. Ne3 Bd7 60.
+Nc4 a4 61. Nc2 axb3 62. axb3 Bb5 63. Nxb4 Qc7 64. Kh2 Bxc4 65. bxc4 Qa5 66. Nc6
+Qd2+ 67. Kg3 Kf8 68. Qf6 Qe3+ 69. Kh2 Qd2+ 70. Kh3 Qd3+ 71. Kh2 Qc2+ 72. Kh3
+Qd3+ 73. Kh2 1/2-1/2
+
+[Event "UGA op"]
+[Site "Barcelona"]
+[Date "1983.??.??"]
+[Round "?"]
+[White "Illescas Cordoba, Miquel"]
+[Black "Jurado Campos, Juan"]
+[Result "1-0"]
+[ECO "C02"]
+[PlyCount "87"]
+[EventDate "1983.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. Nf3 Nc6 5. Bd3 Bd7 6. O-O cxd4 7. Bf4 Qb6 8. a3
+f6 9. Nbd2 fxe5 10. Nxe5 Nf6 11. Ndf3 Nxe5 12. Bxe5 Bd6 13. Bxd4 Qc7 14. Qe2
+O-O 15. Ne5 Rae8 16. f4 Bc5 17. Bxc5 Qxc5+ 18. Kh1 a6 19. a4 Bc6 20. Rf3 Ne4
+21. Raf1 Bxa4 22. Rh3 Rf6 23. Bxe4 dxe4 24. b3 Bc6 25. Qh5 h6 26. Nd7 Qxh5 27.
+Nxf6+ gxf6 28. Rxh5 Rd8 29. Rxh6 Kg7 30. Rh3 Rd2 31. c4 e3 32. Rg1 Re2 33. Rg3+
+Kf7 34. h4 e5 35. fxe5 f5 36. Rf1 Rf2 37. e6+ Kf6 38. Re1 e2 39. Kg1 f4 40.
+Kxf2 fxg3+ 41. Kxg3 Kxe6 42. Rxe2+ Kf5 43. Rf2+ Ke4 44. Rf4+ 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1989.??.??"]
+[Round "?"]
+[White "Jurado Campos, Juan"]
+[Black "Garcia Ilundain, David"]
+[Result "0-1"]
+[ECO "E35"]
+[PlyCount "72"]
+[EventDate "1989.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 d5 5. cxd5 exd5 6. Bg5 h6 7. Bd2 O-O 8.
+Nf3 c5 9. e3 Nc6 10. Be2 cxd4 11. Nxd4 Bg4 12. Nxc6 bxc6 13. Bxg4 Nxg4 14. Qf5
+Qh4 15. h3 Bxc3 16. bxc3 Nf6 17. O-O Ne4 18. Rfd1 Rab8 19. Be1 Qe7 20. Qf4 Qc5
+21. Qe5 Qc4 22. Rd4 Qe2 23. Rb4 Rbe8 24. Qc7 Re6 25. Qxa7 Rg6 26. Qc7 Ng5 27.
+Kh2 d4 28. Qg3 c5 29. Rb7 d3 30. Qg4 Qf1 31. c4 h5 32. Qxh5 d2 33. Rbb1 dxe1=Q
+34. Rxe1 Qxf2 35. Rf1 Qxe3 36. Rae1 Qd2 0-1

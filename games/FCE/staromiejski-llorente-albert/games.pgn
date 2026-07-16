@@ -1,0 +1,33 @@
+[Event "Lliga Catalana DH"]
+[Site "Sant Cugat del Valles"]
+[Date "2023.02.18"]
+[Round "5.5"]
+[White "Congiu, Mathilde"]
+[Black "Staromiejski Llorente, Albert"]
+[Result "1-0"]
+[WhiteElo "2201"]
+[BlackElo "1734"]
+[PlyCount "67"]
+[EventDate "2023.??.??"]
+[TimeControl "90+30"]
+
+1. e4 {[%emt 0:00:18]} Nc6 {[%emt 0:00:26]} 2. Nc3 {[%emt 0:00:27]} e6 {[%emt
+0:01:54]} 3. d4 {[%emt 0:00:33]} d5 {[%emt 0:03:56]} 4. Nf3 {[%emt 0:00:46]}
+Bb4 {[%emt 0:01:26]} 5. e5 {[%emt 0:00:50]} f6 {[%emt 0:06:11]} 6. a3 {[%emt 0:
+01:38]} Ba5 {[%emt 0:10:13]} 7. b4 {[%emt 0:00:17]} Bb6 {[%emt 0:04:00]} 8. Na4
+{[%emt 0:05:00]} Nge7 {[%emt 0:09:52]} 9. exf6 gxf6 10. Bb2 {[%emt 0:02:32]}
+Ng6 {[%emt 0:06:14]} 11. h4 {[%emt 0:10:25]} Bd7 {[%emt 0:04:16]} 12. h5 {
+[%emt 0:00:35]} Nge7 {[%emt 0:04:46]} 13. Nxb6 {[%emt 0:02:19]} axb6 {[%emt 0:
+01:11]} 14. Bd3 {[%emt 0:00:45]} Na7 {[%emt 0:03:45]} 15. Qe2 {[%emt 0:00:42]}
+c5 {[%emt 0:03:38]} 16. dxc5 {[%emt 0:00:21]} e5 {[%emt 0:03:58]} 17. Nxe5 {
+[%emt 0:00:11]} fxe5 {[%emt 0:04:26]} 18. Qxe5 {[%emt 0:00:27]} Rf8 {[%emt 0:
+02:09]} 19. Bxh7 {[%emt 0:00:09]} Qc8 {[%emt 0:02:32]} 20. Bg6+ {[%emt 0:00:26]
+} Kd8 {[%emt 0:00:31]} 21. Qg7 {[%emt 0:02:10]} Rg8 {[%emt 0:01:19]} 22. Qh7 {
+[%emt 0:01:11]} Qc6 {[%emt 0:02:16]} 23. O-O-O {[%emt 0:03:06]} Nb5 {[%emt 0:
+01:10]} 24. Rhe1 {[%emt 0:02:18]} Be6 {[%emt 0:01:16]} 25. Bf6 {[%emt 0:01:04]}
+Qd7 {[%emt 0:02:39]} 26. Bxe7+ {[%emt 0:02:14]} Kc7 {[%emt 0:04:51]} 27. Rxe6 {
+[%emt 0:00:48]} Qxe6 {[%emt 0:00:20]} 28. Bf5 {[%emt 0:01:10]} Rg7 {[%emt 0:05:
+54]} 29. Qxg7 {[%emt 0:01:21]} Qxf5 {[%emt 0:01:05]} 30. cxb6+ {[%emt 0:01:55]}
+Kd7 {[%emt 0:00:23]} 31. Bc5+ {[%emt 0:00:46]} Kc6 {[%emt 0:00:12]} 32. Qh6+ {
+[%emt 0:00:09]} Kd7 {[%emt 0:01:19]} 33. Re1 {[%emt 0:01:13]} Rd8 {[%emt 0:02:
+02]} 34. a4 {[%emt 0:02:55]} 1-0

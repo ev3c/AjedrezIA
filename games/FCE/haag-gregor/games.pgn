@@ -1,0 +1,139 @@
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.19"]
+[Round "2"]
+[White "Vera Siguenas, Deivy Anthoni"]
+[Black "Haag, Gregor"]
+[Result "1-0"]
+[ECO "C00"]
+[WhiteElo "2525"]
+[BlackElo "2252"]
+[PlyCount "77"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 e6 3. g3 Nc6 4. Bg2 Nf6 5. d3 d5 6. Qe2 Be7 7. O-O O-O 8. e5
+Nd7 9. c4 d4 10. h4 Rb8 11. Bf4 a6 12. h5 b5 13. Nbd2 Bb7 14. cxb5 axb5 15. Ne4
+Nb4 16. h6 g6 17. Rfc1 Nd5 18. Bg5 Nxe5 19. Bxe7 Nxf3+ 20. Bxf3 Qxe7 21. Nxc5
+Qg5 22. Nxb7 Rxb7 23. Rc5 Rd8 24. Bxd5 exd5 25. Qf3 Qxh6 26. Rxd5 Rbb8 27. Re1
+Qf8 28. a3 b4 29. a4 b3 30. Rc1 Qe7 31. a5 Qe6 32. Rxd8+ Rxd8 33. Kg2 Rd7 34.
+Rc6 Qd5 35. a6 Kg7 36. Rb6 Qe5 37. Rb7 Qe6 38. Rxd7 Qxd7 39. Qb7 1-0
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.22"]
+[Round "5"]
+[White "Haag, Gregor"]
+[Black "Konguvel, Ponnuswamy"]
+[Result "1/2-1/2"]
+[ECO "D85"]
+[WhiteElo "2252"]
+[BlackElo "2383"]
+[PlyCount "44"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 d5 5. cxd5 Nxd5 6. e4 Nxc3 7. bxc3 c5 8.
+Rb1 O-O 9. Be2 b6 10. O-O Qc7 11. Bg5 e6 12. Qd2 Bb7 13. Qe3 Nd7 14. Bf4 e5 15.
+Bg3 cxd4 16. cxd4 exd4 17. Qxd4 Qxg3 18. Qxd7 Qb8 19. Ng5 Bc8 20. Qd5 Bb7 21.
+Qd7 Bc8 22. Qd5 Bb7 1/2-1/2
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.23"]
+[Round "6"]
+[White "Perez Mitjans, Orelvis"]
+[Black "Haag, Gregor"]
+[Result "0-1"]
+[ECO "B47"]
+[WhiteElo "2399"]
+[BlackElo "2252"]
+[PlyCount "56"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. g3 a6 7. Bg2 d6 8. O-O
+Bd7 9. Nxc6 Bxc6 10. Re1 Be7 11. Qg4 h5 12. Qd1 h4 13. a4 hxg3 14. hxg3 Nf6 15.
+Bf4 Rc8 16. Qe2 Kf8 17. a5 Ne8 18. Red1 Bf6 19. Rd3 Be5 20. Be3 Qe7 21. f4 Bf6
+22. Rad1 g5 23. f5 Kg8 24. Qd2 Qc7 25. b4 Bd7 26. Bb6 Qc6 27. Rb1 Bd8 28. Bxd8
+Rxd8 0-1
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.25"]
+[Round "8"]
+[White "Debray, Christopher"]
+[Black "Haag, Gregor"]
+[Result "1/2-1/2"]
+[ECO "E01"]
+[WhiteElo "2358"]
+[BlackElo "2252"]
+[PlyCount "47"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 dxc4 3. Nf3 Nf6 4. g3 c5 5. Qa4+ Nc6 6. dxc5 e6 7. Qxc4 Qd5 8.
+Nbd2 Bxc5 9. Bg2 O-O 10. O-O Bd7 11. a3 Rac8 12. Qxd5 Nxd5 13. Ne4 Be7 14. Bd2
+f5 15. Nc3 Nb6 16. Rad1 Rfd8 17. Nb5 a6 18. Nbd4 Nxd4 19. Nxd4 Ba4 20. b3 Rxd4
+21. bxa4 Rcd8 22. Rb1 Rxd2 23. Rxb6 Rxe2 24. Bf3 1/2-1/2
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.26"]
+[Round "9"]
+[White "Haag, Gregor"]
+[Black "Duran Vega, Sergio"]
+[Result "0-1"]
+[ECO "E16"]
+[WhiteElo "2252"]
+[BlackElo "2389"]
+[PlyCount "70"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 b6 4. g3 Bb4+ 5. Bd2 Be7 6. Bg2 Bb7 7. O-O c6 8. Qc2
+d5 9. Bg5 Nbd7 10. Nc3 O-O 11. e4 dxe4 12. Nxe4 c5 13. Bxf6 Nxf6 14. Nxf6+ Bxf6
+15. dxc5 bxc5 16. Rad1 Qc7 17. Rd2 Rab8 18. b3 a5 19. Rfd1 Bc6 20. Ne1 a4 21.
+Bxc6 Qxc6 22. Rd6 axb3 23. axb3 Qb7 24. Nd3 Rfc8 25. Nc1 Bd4 26. Ne2 e5 27.
+Nxd4 exd4 28. Rb1 Qf3 29. b4 h5 30. bxc5 h4 31. Qd1 Rxb1 32. Qxb1 h3 33. Qf1
+Re8 34. c6 Re1 35. c7 Qg2# 0-1

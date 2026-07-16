@@ -1,0 +1,82 @@
+[Event "Camp. Catalunya eq. ( 2 cat. )"]
+[Site "?"]
+[Date "1931.12.01"]
+[Round "3"]
+[White "Cañizares"]
+[Black "Noto Florit, Enric"]
+[Result "1-0"]
+[ECO "B13"]
+[PlyCount "81"]
+[EventDate "1931.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Bf4 e6 5. Bd3 Nc6 6. Nf3 Nf6 7. Nc3 Bb4 8.
+O-O a6 9. Ne2 Bd7 10. c3 Be7 11. Ng3 Rc8 12. Ng5 h6 13. Nf3 Qb6 14. Rb1 Nd8 15.
+Ne5 Bb5 16. Nh5 Nxh5 17. Qxh5 Bxd3 18. Nxd3 Bf6 19. Ne5 g6 20. Qf3 Bg7 21. Rfe1
+Nc6 22. Nxf7 O-O 23. Nd6 Rc7 24. Rxe6 g5 25. Qxd5 Rxf4 26. Rxh6+ Rff7 27. Nxf7
+Rxf7 28. Qxg5 Qc7 29. Re1 Qd7 30. Ree6 Ne7 31. g4 Kf8 32. Rd6 Qc7 33. Rhe6 Kg8
+34. h4 Kf8 35. h5 Bh8 36. f4 Rg7 37. Qf6+ Ke8 38. g5 Rg8 39. Qh6 Bg7 40. Qg6+
+Kf8 41. Rf6+ 1-0
+
+[Event "Camp. Catalunya eq. ( 3 cat. )"]
+[Site "?"]
+[Date "1931.??.??"]
+[Round "14"]
+[White "Fajertag Laforga, Enric"]
+[Black "Cañizares"]
+[Result "0-1"]
+[ECO "B13"]
+[PlyCount "64"]
+[EventDate "1931.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. c4 Bf5 5. cxd5 Qxd5 6. Nc3 Qa5 7. a3 Nf6 8.
+Bd2 e6 9. Bb5+ Nbd7 10. Nd5 Qd8 11. Nxf6+ gxf6 12. Qa4 e5 13. dxe5 fxe5 14. Nf3
+f6 15. O-O a6 16. Bxd7+ Bxd7 17. Qb3 Qc7 18. Rac1 Bc6 19. Qe6+ Be7 20. Bb4 Qd7
+21. Qxd7+ Kxd7 22. Rfd1+ Ke6 23. Nd2 Rhg8 24. f3 Bxb4 25. axb4 Rad8 26. Nf1
+Rxd1 27. Rxd1 Bxf3 28. Rd2 Bc6 29. Ng3 Rg4 30. Rc2 Rxb4 31. Nh5 f5 32. Ng7+ Kf6
+0-1
+
+[Event "Camp. Catalunya eq. ( 3 cat. )"]
+[Site "?"]
+[Date "1931.??.??"]
+[Round "15"]
+[White "Espla, Francisco"]
+[Black "Cañizares"]
+[Result "0-1"]
+[ECO "D51"]
+[PlyCount "94"]
+[EventDate "1931.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. Nf3 c5 6. e3 Qa5 7. Bxf6 Nxf6 8.
+Qa4+ Qxa4 9. Nxa4 cxd4 10. exd4 Bb4+ 11. Nc3 Ne4 12. Rc1 Bd7 13. Bd3 Nd6 14.
+cxd5 exd5 15. O-O O-O 16. Nxd5 Ba5 17. a3 Rfe8 18. b4 Bd8 19. Nc7 Bxc7 20. Rxc7
+Bc6 21. Ne5 Rac8 22. Rxc8 Rxc8 23. Rc1 Ba4 24. Rxc8+ Nxc8 25. f4 Nb6 26. Be4 f6
+27. Nf3 Bc6 28. Bxc6 bxc6 29. Nd2 Kf7 30. Kf2 Ke6 31. g3 Kd5 32. Ke3 Nc4+ 33.
+Nxc4 Kxc4 34. Ke4 g6 35. g4 Kb3 36. h4 Kxa3 37. b5 cxb5 38. d5 b4 39. d6 b3 40.
+d7 b2 41. d8=Q b1=Q+ 42. Kf3 Qf1+ 43. Kg3 Qg1+ 44. Kh3 Qe3+ 45. Kg2 Qxf4 46.
+Qa5+ Kb3 47. Qb5+ Kc3 0-1
+
+[Event "Camp. Barcelona Pref. B"]
+[Site "Barcelona"]
+[Date "1990.??.??"]
+[Round "3"]
+[White "Rodriguez, M."]
+[Black "Cañizares"]
+[Result "1-0"]
+[ECO "D58"]
+[PlyCount "47"]
+[EventDate "1990.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. Nf3 O-O 6. e3 h6 7. Bh4 b6 8. Bd3
+Bb7 9. O-O Nbd7 10. Rc1 c5 11. cxd5 exd5 12. Re1 Ne4 13. Bxe7 Qxe7 14. Nd2 Rac8
+15. f3 Nxc3 16. bxc3 Rfe8 17. e4 cxd4 18. cxd4 Qb4 19. Nb3 a5 20. e5 a4 21. Qd2
+Qa3 22. Na1 Nf8 23. Qe3 Ba6 24. Bh7+ 1-0

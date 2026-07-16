@@ -1,0 +1,83 @@
+[Event "Obert Barcelona A"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "2"]
+[White "De Simon Arasti, E."]
+[Black "Fichter, H."]
+[Result "1-0"]
+[ECO "C02"]
+[WhiteElo "2115"]
+[BlackElo "2055"]
+[PlyCount "119"]
+[EventDate "1998.??.??"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Bd7 6. Be2 cxd4 7. cxd4 Rc8 8. O-O
+Nge7 9. Na3 Nf5 10. Nc2 Nb4 11. Ne3 Nxe3 12. fxe3 Be7 13. a3 Nc6 14. b4 f5 15.
+exf6 Bxf6 16. Bb2 O-O 17. Rc1 Qb6 18. Qd2 Ne7 19. g4 g6 20. Ne1 Qd6 21. Nd3 b6
+22. Rf2 Rxc1+ 23. Qxc1 Nc6 24. Qf1 Bg7 25. Bf3 Ne7 26. Ne5 Ba4 27. Qa6 Bb3 28.
+Qxa7 Bh6 29. Bc1 Rc8 30. Bd2 Rc2 31. Qa8+ Rc8 32. Qa6 Bg7 33. Qd3 Ba4 34. Bc3
+Be8 35. Bb2 Ba4 36. Bd1 Bxd1 37. Qxd1 Bxe5 38. dxe5 Qb8 39. Qf3 Rf8 40. Qxf8+
+Qxf8 41. Rxf8+ Kxf8 42. Bd4 Nc8 43. a4 Ke8 44. Kg2 Kd7 45. Kf3 Kc6 46. Kf4 Ne7
+47. h4 h6 48. h5 g5+ 49. Kf3 Kb7 50. Ke2 Ka6 51. Kd3 Kb7 52. b5 Kc7 53. Bc3 Kb7
+54. Bb4 Ng8 55. Bd6 Ka7 56. Kc3 Kb7 57. Kb4 Ka7 58. a5 Kb7 59. axb6 Kxb6 60.
+Bf8 1-0
+
+[Event "Obert Barcelona A"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "3"]
+[White "Catalan Escale, E."]
+[Black "De Simon Arasti, E."]
+[Result "1-0"]
+[ECO "B22"]
+[WhiteElo "2190"]
+[BlackElo "2115"]
+[PlyCount "84"]
+[EventDate "1998.??.??"]
+
+1. e4 c5 2. c3 d5 3. exd5 Qxd5 4. d4 e5 5. dxe5 Qxd1+ 6. Kxd1 Nc6 7. f4 Bf5 8.
+Nf3 O-O-O+ 9. Ke1 f6 10. Bb5 Be7 11. Kf2 Nh6 12. Re1 Ng4+ 13. Kg1 h5 14. Na3 a6
+15. Bxc6 bxc6 16. Nc4 Bd3 17. exf6 Bxf6 18. Nce5 Nxe5 19. fxe5 Be7 20. b3 c4
+21. b4 Rd5 22. Be3 Rf8 23. a4 Kb7 24. h4 Rxf3 25. gxf3 Bxh4 26. Bf2 Bg5 27. e6
+Rd8 28. e7 Re8 29. Bd4 g6 30. b5 Rxe7 31. Rxe7+ Bxe7 32. Re1 Bd8 33. Re8 Bh4
+34. b6 Bg3 35. a5 h4 36. Re7+ Kb8 37. Be5+ Bxe5 38. Rxe5 Bf5 39. f4 Bd3 40.
+Re8+ Kb7 41. Rh8 c5 42. Rh7+ Kc8 1-0
+
+[Event "Obert Barcelona A"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "4"]
+[White "De Simon Arasti, E."]
+[Black "Leiro Giralt, D."]
+[Result "0-1"]
+[ECO "C30"]
+[WhiteElo "2115"]
+[BlackElo "2280"]
+[PlyCount "56"]
+[EventDate "1998.??.??"]
+
+1. e4 e5 2. f4 Qh4+ 3. g3 Qe7 4. fxe5 d6 5. Nc3 dxe5 6. Bc4 Nf6 7. Bb3 Bg4 8.
+Nf3 Nc6 9. Ba4 Qc5 10. Bxc6+ Qxc6 11. d3 Bb4 12. Bd2 Bxc3 13. Bxc3 Nxe4 14.
+dxe4 Qxe4+ 15. Kf2 Rd8 16. Qe2 Qxe2+ 17. Kxe2 e4 18. Kf2 Bxf3 19. Rhe1 O-O 20.
+g4 Rd5 21. Re3 Rfd8 22. Rae1 f6 23. h4 Kf7 24. Rg1 Rd1 25. Be1 Rb1 26. b3 Rb2
+27. Rc3 c6 28. a4 Bd1 0-1
+
+[Event "Obert Barcelona A"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "5"]
+[White "Sopena Torra, JA."]
+[Black "De Simon Arasti, E."]
+[Result "1-0"]
+[ECO "B86"]
+[WhiteElo "2090"]
+[BlackElo "2115"]
+[PlyCount "77"]
+[EventDate "1998.??.??"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bc4 e6 7. Bb3 Be7 8. Qf3
+Qc7 9. O-O O-O 10. Qg3 b5 11. a3 Bb7 12. Bh6 Ne8 13. Bxe6 Kh8 14. Nd5 Qd8 15.
+Nxe7 gxh6 16. Qh4 Ng7 17. Bxf7 h5 18. Bd5 Ra7 19. Bxb7 Rxb7 20. Nef5 Qxh4 21.
+Nxh4 Rbf7 22. Nhf5 Ne8 23. Ne6 Rg8 24. Rad1 Rf6 25. Nf4 h4 26. Nd5 Re6 27. Rfe1
+Nc6 28. f4 h3 29. g3 h5 30. Nd4 Nxd4 31. Rxd4 h4 32. Kf2 Ng7 33. Rg1 Rge8 34.
+Kf3 Rg6 35. f5 Rf8 36. Nf4 Rh6 37. g4 Ne6 38. Nxe6 Rxe6 39. g5 1-0

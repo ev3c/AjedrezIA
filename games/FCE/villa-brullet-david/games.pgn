@@ -1,0 +1,103 @@
+[Event "Ciutat de Sabadell op B"]
+[Site "Sabadell"]
+[Date "2016.09.02"]
+[Round "2"]
+[White "Villa Brullet, David"]
+[Black "Fernandez Aguilar, Francisco"]
+[Result "0-1"]
+[ECO "D15"]
+[WhiteElo "1761"]
+[BlackElo "2051"]
+[PlyCount "58"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. e3 b5 6. Qc2 Bb7 7. g3 e6 8. Bg2
+Nbd7 9. O-O Be7 10. Nd2 a6 11. a4 Qb6 12. b3 cxb3 13. Qxb3 O-O 14. a5 Qa7 15.
+Ba3 c5 16. Nce4 Nxe4 17. Nxe4 Bd5 18. Qb1 b4 19. Bc1 c4 20. Nd2 Bxg2 21. Kxg2
+Qb7+ 22. f3 Rfc8 23. e4 Rab8 24. Rf2 b3 25. Ba3 b2 26. Ra2 c3 27. Bxb2 cxb2 28.
+Nf1 Ba3 29. Rxa3 Rc1 0-1
+
+[Event "Ciutat de Sabadell op B"]
+[Site "Sabadell"]
+[Date "2016.09.05"]
+[Round "5"]
+[White "Valarezzo Ricard, Pedro"]
+[Black "Villa Brullet, David"]
+[Result "0-1"]
+[ECO "D02"]
+[WhiteElo "1892"]
+[BlackElo "1761"]
+[PlyCount "68"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 Nf6 3. c3 Nbd7 4. Bf4 g6 5. Qc1 Nb6 6. Bh6 Bf5 7. Bxf8 Rxf8 8.
+Nbd2 Qd6 9. Nh4 Be6 10. a4 Qf4 11. g3 Qh6 12. Bg2 g5 13. Nhf3 Bh3 14. O-O Bxg2
+15. Kxg2 g4 16. Nh4 Nh5 17. Nb3 Qg7 18. Nc5 O-O-O 19. Nf5 Qf6 20. Ne3 Nd7 21.
+Nxg4 Qg7 22. Nxd7 Rxd7 23. Ne5 Rd6 24. e3 f6 25. Qd1 fxe5 26. Qxh5 Rh6 27. Qxe5
+Qg4 28. f3 Qh3+ 29. Kf2 Qxh2+ 30. Ke1 Qxb2 31. Qg7 Qxa1+ 32. Kf2 Qb2+ 33. Ke1
+Qc1+ 34. Kf2 Qd2+ 0-1
+
+[Event "Ciutat de Sabadell op B"]
+[Site "Sabadell"]
+[Date "2016.09.06"]
+[Round "6"]
+[White "Villa Brullet, David"]
+[Black "Costa Trave, Jaume"]
+[Result "0-1"]
+[ECO "D11"]
+[WhiteElo "1761"]
+[BlackElo "1917"]
+[PlyCount "35"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 c6 3. Nf3 a6 4. Nc3 Nf6 5. e3 Bf5 6. cxd5 cxd5 7. Qb3 Ra7 8. Na4
+e6 9. Bd2 Bd6 10. Rc1 O-O 11. Qb6 Qxb6 12. Nxb6 Nc6 13. a3 Ne4 14. Be2 g5 15.
+h3 f6 16. O-O h5 17. Rfd1 Bc7 18. Ba5 0-1
+
+[Event "Ciutat de Sabadell op B"]
+[Site "Sabadell"]
+[Date "2016.09.07"]
+[Round "7"]
+[White "Carbo Hors, David"]
+[Black "Villa Brullet, David"]
+[Result "1-0"]
+[ECO "A03"]
+[WhiteElo "1860"]
+[BlackElo "1761"]
+[PlyCount "52"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. f4 d5 2. Nf3 c5 3. e3 Nf6 4. b3 Nc6 5. Bb2 Bf5 6. Bb5 Qb6 7. Nc3 d4 8. Bxc6+
+Qxc6 9. Ne2 dxe3 10. d3 g6 11. O-O Bg7 12. Ng3 Bg4 13. Qe1 Bxf3 14. Rxf3 O-O
+15. f5 g5 16. Qxe3 h6 17. Qe2 Rae8 18. Raf1 e6 19. Bxf6 Bxf6 20. Ne4 Bd4+ 21.
+Kh1 exf5 22. Rxf5 Qg6 23. Qg4 f6 24. Nxc5 h5 25. Qf3 g4 26. Qg3 Kh7 1-0
+
+[Event "Catalunya Edats - Sub14"]
+[Site "?"]
+[Date "2007.04.03"]
+[Round "7.7"]
+[White "Canti Sendra, X."]
+[Black "Villa Brullet, D."]
+[Result "1-0"]
+[ECO "C02"]
+[PlyCount "75"]
+[EventDate "2007.??.??"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Qb6 5. Nf3 Nc6 6. Be2 Nh6 7. Na3 Nf5 8. Nc2
+Be7 9. Rb1 Bd7 10. O-O f6 11. Bf4 O-O-O 12. Re1 fxe5 13. Bxe5 Nxe5 14. Nxe5
+Rhf8 15. Nxd7 Kxd7 16. Bg4 Rf6 17. Qe2 Qa6 18. Qxa6 bxa6 19. Bxf5 Rxf5 20. Ne3
+Rf7 21. Ng4 cxd4 22. Ne5+ Ke8 23. Nxf7 Kxf7 24. cxd4 Rb8 25. b3 Ba3 26. Re3 Rc8
+27. Kf1 a5 28. Rbe1 Rc6 29. g3 Bb2 30. Rd1 Kf6 31. Re2 Ba3 32. Rdd2 g5 33. Rc2
+Rd6 34. Rc7 h6 35. Rxa7 Rc6 36. Rxa5 Rc1+ 37. Kg2 Be7 38. Ra6 1-0

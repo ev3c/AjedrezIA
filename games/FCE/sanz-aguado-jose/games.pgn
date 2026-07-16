@@ -1,0 +1,443 @@
+[Event "?"]
+[Site "Barcelona"]
+[Date "1934.??.??"]
+[Round "?"]
+[White "Sanz Aguado, Jose"]
+[Black "Ribera Arnal, Angel"]
+[Result "0-1"]
+[ECO "D02"]
+[PlyCount "76"]
+[EventDate "1934.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 e6 3. Bg5 Be7 4. Bf4 Nf6 5. h3 O-O 6. e3 c5 7. c3 Nc6 8. Bd3
+Qb6 9. b3 Bd7 10. Nbd2 Rac8 11. O-O Rfd8 12. Qe2 Be8 13. a4 a5 14. Rfb1 Nh5 15.
+Bh2 g6 16. Ne5 cxd4 17. Nxc6 Rxc6 18. cxd4 Rc3 19. g4 Ng7 20. Bg3 Rdc8 21. f4
+Bd7 22. Be1 h5 23. Nc4 dxc4 24. bxc4 Rb3 25. Rxb3 Qxb3 26. c5 Bxa4 27. Bxa5 Bd8
+28. Be1 hxg4 29. hxg4 e5 30. fxe5 Bg5 31. Kf2 Ne6 32. Bd2 Bh4+ 33. Kg1 Bc6 34.
+Be1 (34. Bc1 Nxd4 35. Qf1 (35. exd4 Qd5 $19) 35... Qxd3 36. Qxd3 Nf3+ 37. Kg2 (
+37. Kf1 Nxe5 $16 (37... Rd8 $16))) 34... Nxd4 35. Qf1 Qxd3 36. Qxd3 Nf3+ 37.
+Kg2 Nxe1+ 38. Kh3 Nxd3 0-1
+
+[Event "Reus Int"]
+[Site "Reus"]
+[Date "1936.??.??"]
+[Round "1"]
+[White "Canal, Esteban"]
+[Black "Sanz Aguado, Jose"]
+[Result "1-0"]
+[ECO "C13"]
+[PlyCount "67"]
+[EventDate "1936.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 e6 2. e4 d5 3. Nc3 Nf6 4. Bg5 Be7 5. e5 Nfd7 6. h4 h6 7. Bxe7 Qxe7 8. Bd3
+a6 9. Qg4 O-O 10. Qh5 c5 11. f4 cxd4 12. Nce2 Qb4+ 13. Kf2 f6 14. Nf3 fxe5 15.
+fxe5 Qd2 16. Qg6 Qe3+ 17. Ke1 Nxe5 18. Qh7+ Kf7 19. Nxe5+ Qxe5 20. Rf1+ Ke7 21.
+Rxf8 Kxf8 22. Qh8+ Ke7 23. Qxc8 Qh2 24. Qxb7+ Nd7 25. Qxa8 Qh1+ 26. Kd2 Qxa1
+27. Qb7 Qf1 28. Bxa6 Kd6 29. Qb4+ Kc7 30. Qa5+ Kd6 31. Bb5 Nf6 32. Qd8+ Kc5 33.
+Qc7+ Kxb5 34. Nxd4+ 1-0
+
+[Event "Reus Int"]
+[Site "Reus"]
+[Date "1936.06.22"]
+[Round "2"]
+[White "Sanz Aguado, Jose"]
+[Black "Cherta Clos, Pere"]
+[Result "0-1"]
+[ECO "D10"]
+[PlyCount "37"]
+[EventDate "1936.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. c4 c6 2. Nc3 d5 3. d4 e5 4. cxd5 cxd5 5. dxe5 d4 6. Ne4 Qa5+ 7. Nd2 Nc6 8.
+Ngf3 Bf5 9. g3 Nb4 10. Nxd4 Rc8 11. e4 Nc2+ 12. Nxc2 Bxe4 13. Qg4 Rc5 14. b4
+Qc7 15. bxc5 Bxh1 16. Bb5+ Kd8 17. Nc4 a6 18. Bg5+ f6 19. O-O-O+ 0-1
+
+[Event "Reus Int"]
+[Site "Reus"]
+[Date "1936.06.??"]
+[Round "3"]
+[White "Silberman, Heinrich"]
+[Black "Sanz Aguado, Jose"]
+[Result "1/2-1/2"]
+[ECO "A85"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "100"]
+[EventDate "1936.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 e6 2. Nf3 f5 3. c4 Nf6 4. Nc3 Be7 5. Qc2 O-O 6. e4 fxe4 7. Nxe4 Nxe4 8.
+Qxe4 d5 9. Qc2 Nc6 10. Bd2 e5 11. dxe5 Bf5 12. Qb3 d4 13. Bd3 Qd7 14. O-O-O a5
+15. Rhe1 a4 16. Qc2 a3 17. b3 Bxd3 18. Qxd3 Nb4 19. Bxb4 Bxb4 20. Re4 c5 21.
+Rh4 g6 22. Qe4 Rad8 23. Ng5 Qf5 24. f4 h5 25. Qxb7 Rd7 26. Qe4 d3 27. Qxf5 Rxf5
+28. Ne4 Rd4 29. Nf6+ Kf7 30. Nd5 Rxe5 31. fxe5 Rxh4 32. Rxd3 Rxh2 33. Nf4 g5
+34. Rh3 Rxh3 35. Nxh3 g4 (35... Ke6 $142) 36. Nf4 h4 37. Kd1 Bc3 38. e6+ Ke8 $1
+39. Ke2 Be5 40. Ng6 h3 $1 41. gxh3 (41. Nxe5 $4 h2 $19) 41... gxh3 42. Kf2 h2
+43. Kg2 Bg3 44. Kh1 Bd6 45. Nh4 Ke7 46. Nf5+ Kxe6 47. Ne3 Ke5 48. Nc2 Ke4 49.
+Nxa3 Kd3 50. Nb5 Bb8 $11 1/2-1/2
+
+[Event "Reus Int"]
+[Site "Reus"]
+[Date "1936.06.25"]
+[Round "5"]
+[White "Maristany, Josep"]
+[Black "Sanz Aguado, Jose"]
+[Result "0-1"]
+[ECO "A95"]
+[PlyCount "60"]
+[EventDate "1936.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 f5 2. c4 Nf6 3. Nc3 e6 4. g3 Be7 5. Bg2 O-O 6. Nf3 d5 7. O-O c6 8. c5 Ne4
+9. Ne1 Nd7 10. f3 Nef6 11. Nd3 Nh5 12. g4 Nhf6 13. h3 b6 14. Nf4 Kf7 15. e4 e5
+16. exd5 cxd5 17. Nfxd5 exd4 18. Nxe7 Qxe7 19. Re1 Qxc5 20. Qb3+ Kg6 21. gxf5+
+Qxf5 22. Ne2 Nc5 23. Qd1 d3 24. Nf4+ Kf7 25. b4 g5 26. bxc5 gxf4 27. cxb6 Rg8
+28. Qb3+ Be6 29. Rxe6 Qxe6 30. Qxd3 Qe1+ 0-1
+
+[Event "Reus Int"]
+[Site "Reus"]
+[Date "1936.06.27"]
+[Round "7"]
+[White "Sanz Aguado, Jose"]
+[Black "Grob, Henry"]
+[Result "1/2-1/2"]
+[ECO "A20"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "98"]
+[EventDate "1936.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. c4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bb4+ 5. Nc3 Qe7 6. Ndb5 d6 7. Bd2 Ne5 8.
+e3 c6 9. Qa4 d5 10. a3 Bxc3 11. Bxc3 Nf6 12. Nxa7 Qe6 13. O-O-O Neg4 14. cxd5
+Nxd5 15. Bc4 Bd7 16. e4 b5 17. exd5 Qh6+ 18. Bd2 bxa4 19. Rhe1+ Kf8 20. Bxh6
+cxd5 21. Be3 Nxe3 22. Rxe3 Rxa7 23. Rxd5 g6 24. Bb5 Be6 25. Rd8+ Kg7 26. Rxh8
+Kxh8 27. Re4 Bb3 28. Kd2 Rc7 29. Bxa4 Rc2+ 30. Ke3 Bxa4 31. Rxa4 Rxb2 32. Rb4
+Ra2 33. Rb3 h5 34. g3 Kg7 35. h3 Kh6 36. f4 Rh2 37. h4 Ra2 38. Kd4 f6 39. Kd5
+g5 40. Ke6 gxh4 41. gxh4 Rf2 42. f5 Kg7 43. Rb7+ $2 (43. Rg3+ $3 $18) 43... Kh6
+44. Kxf6 $4 {Ay! los apuros de tiempo} Rxf5+ 45. Ke6 (45. Kxf5 $4 $11) 45...
+Ra5 46. Rb3 Ra4 47. Rh3 Kg6 48. Ke5 Ra5+ 49. Ke6 Ra4 $11 {Grob se encontró con
+medio punto.} 1/2-1/2
+
+[Event "Reus Int"]
+[Site "Reus"]
+[Date "1936.08.29"]
+[Round "9"]
+[White "Sanz Aguado, Jose"]
+[Black "Ribera Arnal, Angel"]
+[Result "1-0"]
+[ECO "D17"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "79"]
+[EventDate "1936.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. c4 c6 2. d4 d5 3. Nc3 Nf6 4. Nf3 dxc4 5. a4 Bf5 6. Ne5 Nbd7 7. Nxc4 Qc7 8.
+f3 e5 $5 9. dxe5 Nxe5 10. Bf4 Nxf3+ 11. exf3 Qxf4 $17 12. Bd3 O-O-O 13. g3 Qg5
+(13... Re8+ $142) 14. f4 Qg6 15. Ne5 Rxd3 $19 16. Qe2 Qh5 $2 {Aquí empieza a
+escapársele la partida a Ribera que, hasta el momento, había jugado de forma
+muy correcta, obteniendo una gran ventaja.} (16... Bc5 $3 17. Nxg6 hxg6 $19)
+17. Nxd3 Bg4 $2 (17... Bxd3 $1 18. Qxd3 Bc5 $19) 18. Qe5 Qh3 19. Nb5 $1 cxb5
+20. Rc1+ Kd8 21. Qc7+ Ke8 22. Qb8+ Ke7 23. Qxb7+ Nd7 (23... Bd7) 24. Nf2 Qh5
+25. Nxg4 Qxg4 26. O-O f6 27. Rfe1+ Kf7 28. Rc7 Kg6 29. Rxd7 bxa4 30. Kg2 Kh6
+31. Rd5 a3 32. h3 Qg6 33. f5 Qg5 34. bxa3 Rg8 35. Qf7 Bd6 36. Rxd6 Rc8 37. Qb3
+Qxf5 38. Qe3+ g5 39. Rf1 Rc2+ 40. Kg1 1-0
+
+[Event "C. A. Tarrasa-Real Madrid C. F. m"]
+[Site "Terrassa"]
+[Date "1947.??.??"]
+[Round "1.2"]
+[White "Masso Castells, Agustin"]
+[Black "Sanz Aguado, Jose"]
+[Result "1-0"]
+[ECO "E90"]
+[PlyCount "131"]
+[EventDate "1947.??.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 O-O 5. e4 d6 6. h3 Nbd7 7. Be3 e5 8. dxe5
+dxe5 9. Qa4 c6 10. Rd1 Qc7 11. c5 h6 12. Be2 Re8 13. O-O Nh5 14. Nd2 Nf4 15.
+Nc4 Nxe2+ 16. Nxe2 g5 17. Ng3 Nf6 18. Nd6 Rd8 19. Ngf5 Be6 20. Qc2 Nh7 21. Qe2
+Bxf5 22. Nxf5 Rxd1 23. Rxd1 Rd8 24. Rd6 Bf8 25. Nxh6+ Bxh6 26. Rxh6 Qd7 27. Rd6
+Qe7 28. Qd2 Rb8 29. g3 f6 30. Qb4 Qf7 31. b3 Ra8 32. Qd2 Nf8 33. Qe2 Qg6 34.
+Qg4 Re8 35. h4 gxh4 36. Qxh4 Kf7 37. f3 Ne6 38. Kf2 Rd8 39. Rxd8 Nxd8 40. Qh6
+Qg8 41. f4 exf4 42. gxf4 Ne6 43. f5 Nc7 44. Bd4 Ne8 45. Qh5+ Kf8 46. Qh6+ Ke7
+47. Kf3 a5 48. Qg6 Qh8 49. Qg2 Qh5+ 50. Ke3 Qh6+ 51. Kd3 Qh5 52. Qe2 Qh3+ 53.
+Kc2 Nc7 54. a4 Na6 55. Qc4 Nb4+ 56. Kd2 Qh2+ 57. Qe2 Qf4+ 58. Qe3 Qh2+ 59. Qf2
+Qh6+ 60. Be3 Qh1 61. Qf4 Qb1 62. Qd6+ Ke8 63. Qe6+ Kd8 64. Qxf6+ Kc8 65. Qf8+
+Kd7 66. Qf7+ 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1950.??.??"]
+[Round "7"]
+[White "Sanz Aguado, Jose"]
+[Black "Pujol, Jesus"]
+[Result "1-0"]
+[ECO "C17"]
+[PlyCount "55"]
+[EventDate "1950.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 cxd4 6. Qxd4 Nc6 7. Bb5 Ba5 8. Qg4
+Bxc3+ 9. bxc3 Kf8 10. Qg3 Qc7 11. Nf3 Qa5 12. Rb1 Qxc3+ 13. Bd2 Qxc2 14. O-O
+Qg6 15. Bxc6 bxc6 16. Qh4 Ne7 17. Bb4 f6 18. Nd4 Bd7 19. Bd6 Kf7 20. Rb7 Ke8
+21. Bxe7 Kxe7 22. Nxc6+ Ke8 23. Qb4 Qf7 24. Rb8+ Bc8 25. Rxa8 Qd7 26. Rxc8+ Kf7
+27. Rxh8 Qxc6 28. Qf8+ 1-0
+
+[Event "C. A. Barcelona Social"]
+[Site "Barcelona"]
+[Date "1951.??.??"]
+[Round "?"]
+[White "Llorens Llorens, Rafael"]
+[Black "Sanz Aguado, Jose"]
+[Result "1-0"]
+[ECO "A21"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "67"]
+[EventDate "1951.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. c4 e5 2. Nc3 f5 3. d4 e4 (3... exd4 $142) 4. f3 $5 Bb4 5. Bd2 Nf6 6. Nxe4 $5
+{Otra jugada complicada que, como reputado teórico, a Llorens no le venía de
+nuevo hacerlas.} Nxe4 $1 7. fxe4 Nc6 $6 (7... Qh4+ $5 8. g3 Qxe4 9. Bxb4 $5 (9.
+Nf3 Nc6 10. d5 Nd4 11. Nxd4 Qxh1 12. Nf3 $14) 9... Qxh1 10. Nf3 $16 {Supongo
+que esto es lo que estaría buscando Llorens. Esta posición me recuerda una
+variante de la defensa nimzoíndia donde el blanco también entrega una calidad
+para crear una gran superioridad en el desarrollo ante la mala situación de la
+dama negra.}) (7... Bxd2+ 8. Qxd2 Qh4+ (8... fxe4 9. Nh3 $36) 9. g3 Qxe4 10.
+Nf3 O-O 11. Bg2 $14) 8. d5 Qh4+ 9. g3 Qxe4 10. dxc6 $1 Qxh1 11. Nf3 Bd6 $2 (
+11... a5 12. Bxb4 axb4 13. Qd4 $14) 12. Qb3 dxc6 (12... Bxg3+ $2 13. hxg3 dxc6
+14. Qe3+ $18) 13. Bf4 $6 (13. Qe3+ $142 Kf7 14. O-O-O $18) 13... Bxf4 14. gxf4
+O-O 15. c5+ Kh8 16. O-O-O $1 Be6 {Sanz no sabe qué hacer. Ve perdida su dama y
+se decida a devolver material.} 17. Qxe6 Rad8 18. Re1 Rfe8 19. Qb3 a5 20. Bh3
+a4 (20... Qxe1+ 21. Nxe1 Rxe2 22. Nf3 $18) 21. Qc3 Qxe1+ 22. Qxe1 {Una vez más,
+Sanz no abandona pese a estar prácticamente perdido.} Rd5 23. Qf2 Re4 24. Ne5
+Red4 25. Nd3 Rc4+ 26. Kd2 b6 27. cxb6 cxb6 28. Qxb6 h6 29. b3 axb3 30. axb3
+Rcd4 31. Bxf5 Rd8 32. Kc3 R4d6 33. Ne5 Kg8 34. Be6+ {Y el excampeón de España
+recibidó una tremenda lección.} 1-0
+
+[Event "Berga Tancat"]
+[Site "Berga"]
+[Date "1951.08.??"]
+[Round "?"]
+[White "Medina Garcia, Antonio"]
+[Black "Sanz Aguado, Jose"]
+[Result "0-1"]
+[ECO "B91"]
+[PlyCount "92"]
+[EventDate "1951.08.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nf6 3. Nc3 d6 4. d4 cxd4 5. Nxd4 a6 6. g3 Bg4 7. Qd3 Nbd7 8.
+Bg2 Ne5 9. Qe3 Nc4 10. Qd3 Ne5 11. Qe3 Nc4 12. Qd3 Ne5 13. Qf1 Qb6 14. Nce2
+Qb4+ 15. Bd2 Qxb2 16. Bc3 Bxe2 17. Bxb2 Bxf1 18. Rxf1 Nc4 19. Rb1 e5 20. Ne2 b5
+21. Bc1 Be7 22. Nc3 Bd8 23. Ke2 Ba5 24. Kd3 Bxc3 25. Kxc3 Rc8 26. Kd3 Nd7 27.
+Ke2 Nc5 28. Rd1 Ke7 29. f4 f6 30. fxe5 dxe5 31. Kf3 Rhd8 32. Rd5 Rxd5 33. exd5
+Kd6 34. Kf2 e4 35. Bf4+ Kxd5 36. Rd1+ Ke6 37. a4 g5 38. Bxg5 Nxa4 39. Bh3+ f5
+40. g4 Nd6 41. Rd2 e3+ 42. Bxe3 Ne4+ 43. Ke1 Nxd2 44. gxf5+ Ke5 45. Kxd2 Nc5
+46. c3 Ne4+ 0-1
+
+[Event "Camp. España indiv. Final"]
+[Site "Barcelona"]
+[Date "1951.09.29"]
+[Round "13"]
+[White "Sanz Aguado, Jose"]
+[Black "Ribera Arnal, Angel"]
+[Result "0-1"]
+[ECO "D04"]
+[PlyCount "104"]
+[EventDate "1951.09.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 Nf6 3. e3 c5 4. c3 Nbd7 5. Ne5 e6 6. Bd3 Qc7 7. f4 Be7 8. Qf3
+O-O 9. Nd2 b6 10. g4 Bb7 11. g5 Nxe5 12. dxe5 Nd7 13. Rg1 g6 14. Rg4 Kg7 15. h4
+c4 16. Bc2 d4 17. Be4 Bxe4 18. Nxe4 dxc3 19. bxc3 Qc6 20. Nd2 Qxf3 21. Nxf3 Nc5
+22. Nd4 Ne4 23. Bb2 h5 24. Rg2 a6 25. O-O-O Bc5 26. Re1 Rfc8 27. Kd1 b5 28. a3
+Rab8 29. Rc2 Bf8 30. Ke2 Nc5 31. Kf3 Nd3 32. Ra1 Rb7 33. e4 a5 34. Kg3 Bc5 35.
+Nf3 Be3 36. f5 Bf4+ 37. Kg2 Bxe5 38. fxe6 fxe6 39. Bc1 Rf8 40. Be3 Kg8 41. Nxe5
+Nxe5 42. Bd4 Nd3 43. Bf6 Ra8 44. Kf3 e5 45. Ke3 Kf7 46. Rd1 Ke6 47. a4 b4 48.
+Rb1 b3 49. Rd2 Rd7 50. Rdd1 Ra6 51. Rf1 Nc5 52. Bh8 Rd3+ 0-1
+
+[Event "Camp. España indiv. sf."]
+[Site "Barcelona"]
+[Date "1951.09.13"]
+[Round "4"]
+[White "Sanz Aguado, Jose"]
+[Black "Ribera Arnal, Angel"]
+[Result "1/2-1/2"]
+[ECO "D05"]
+[PlyCount "61"]
+[EventDate "1951.09.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 Nf6 3. e3 e6 4. Bd3 c5 5. c3 Nc6 6. Ne5 cxd4 7. exd4 Nxe5 8.
+dxe5 Nd7 9. Qe2 Nc5 10. Bc2 b6 11. O-O Ba6 12. Ba4+ Nxa4 13. Qxa6 Nc5 14. Qb5+
+Qd7 15. a4 Qxb5 16. axb5 Nd3 17. Be3 Bc5 18. Bxc5 Nxc5 19. f4 Ke7 20. Nd2 Rhc8
+21. Nf3 Nb7 22. Nd4 Nd8 23. Ra2 Rc7 24. Rfa1 Kd7 25. Kf2 Kc8 26. Ke3 Kb7 27. g4
+h6 28. h4 f6 29. Rf1 Rac8 30. Rfa1 Kb8 31. Rf1 1/2-1/2
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1952.??.??"]
+[Round "6"]
+[White "Sanz Aguado, Jose"]
+[Black "Rossetto, Hector D"]
+[Result "0-1"]
+[ECO "D85"]
+[PlyCount "96"]
+[EventDate "1952.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. cxd5 Nxd5 6. e4 Nxc3 7. bxc3 c5 8.
+Bc4 O-O 9. O-O cxd4 10. cxd4 Nc6 11. Be3 Bg4 12. d5 Ne5 13. Rc1 Rc8 14. Be2 Qa5
+15. Nxe5 Rxc1 16. Bxc1 Bxe2 17. Qxe2 Bxe5 18. Bh6 Rc8 19. Rc1 Rxc1+ 20. Bxc1
+Qc7 21. Bh6 Bxh2+ 22. Kh1 Be5 23. Qb5 Qc8 24. g4 a6 25. Qe2 b5 26. Kg2 a5 27.
+f4 Bd4 28. f5 Qc4 29. Kf1 Be5 30. Qxc4 bxc4 31. a4 Bg7 32. Bf4 h5 33. gxh5 gxh5
+34. Bc7 Bc3 35. Ke2 Kf8 36. Bg3 Ke8 37. Ke3 Kd7 38. e5 Kc8 39. Ke4 f6 40. e6
+Bb4 41. Kd4 c3 42. Kd3 Bd6 43. Be1 Be5 44. Bf2 Kc7 45. Be1 Kd6 46. Ke4 h4 47.
+Bf2 c2 48. Be3 h3 0-1
+
+[Event "Berga Tancat"]
+[Site "Berga"]
+[Date "1952.10.??"]
+[Round "3"]
+[White "Sanz Aguado, Jose"]
+[Black "Toran Albero, Roman"]
+[Result "1-0"]
+[ECO "E81"]
+[PlyCount "65"]
+[EventDate "1952.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Bg5 c5 7. d5 Na6 8. Qd2 Nc7
+9. Bh6 a6 10. Bxg7 Kxg7 11. g4 h6 12. h4 Rh8 13. Nge2 e5 14. Ng3 h5 15. g5 Nh7
+16. Be2 Nf8 17. f4 exf4 18. Qxf4 Qe7 19. O-O-O Nd7 20. Bxh5 Rxh5 21. Nxh5+ gxh5
+22. Qf3 Ne5 23. Qxh5 Kg8 24. Rhg1 Bd7 25. Rdf1 Ne8 26. Qe2 b5 27. h5 bxc4 28.
+g6 fxg6 29. hxg6 Rb8 30. Qh5 Qg7 31. Rf7 Nd3+ 32. Kb1 Rxb2+ 33. Ka1 1-0
+
+[Event "Berga Tancat"]
+[Site "Berga"]
+[Date "1952.10.??"]
+[Round "10"]
+[White "Sanz Aguado, Jose"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1-0"]
+[ECO "E70"]
+[PlyCount "87"]
+[EventDate "1952.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Bg5 O-O 6. Qd2 Re8 7. f3 c6 8. Nge2
+Qa5 9. h4 Nbd7 10. a3 a6 11. Bh6 Bh8 12. b4 Qc7 13. h5 e5 14. hxg6 hxg6 15. d5
+Nb6 16. Qg5 Nh7 17. Qh4 Bf6 18. Qh2 Nxc4 19. g4 g5 20. Ng3 Ne3 21. Bg7 Bxg7 22.
+Qxh7+ Kf8 23. Nh5 f6 24. Nxf6 Qf7 25. Nxe8 Kxe8 26. Ra2 Nxf1 27. Rxf1 Ke7 28.
+Qh1 Bd7 29. Rh2 a5 30. Ke2 axb4 31. axb4 Ra3 32. Rc1 Rb3 33. Rh7 Rb2+ 34. Kd3
+Rxb4 35. Ra1 c5 36. Kc2 Qf6 37. Ra8 Be8 38. Rc8 Kd7 39. Ra8 Qe7 40. Qa1 Bg6 41.
+Rh3 Qf7 42. Qa5 Bf6 43. Rhh8 Qe7 44. Rhc8 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1952.03.29"]
+[Round "9"]
+[White "Vallve Piñol, Josep"]
+[Black "Sanz Aguado, Jose"]
+[Result "0-1"]
+[ECO "E91"]
+[PlyCount "80"]
+[EventDate "1952.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 Nbd7 7. h3 e5 8. d5
+Nc5 9. Qc2 a5 10. Be3 b6 11. Nd2 Nfd7 12. g4 Na6 13. a3 Ndc5 14. O-O-O f5 15.
+gxf5 gxf5 16. exf5 Nb4 17. axb4 axb4 18. Nce4 Ra1+ 19. Nb1 b3 20. Qc3 Nxe4 21.
+Qxb3 Bxf5 22. Bd3 Qd7 23. Rhg1 Kh8 24. Rg2 Nc5 25. Bxc5 bxc5 26. Rdg1 Bh6+ 27.
+Kd1 Rxb1+ 28. Bxb1 Bxb1 29. Ke2 Qf5 30. f3 Ba2 31. Qc3 Qf4 32. Rg4 Qf5 33. Re4
+Qxh3 34. Reg4 Bxc4+ 35. Rxc4 Qh2+ 36. Kf1 Qh3+ 37. Ke2 Qh2+ 38. Kf1 Bd2 39. Qd3
+Ra8 40. Qb1 Be3 0-1
+
+[Event "Torneo Primavera C. A. Barcelona"]
+[Site "Barcelona"]
+[Date "1952.04.15"]
+[Round "?"]
+[White "Sanz Aguado, Jose"]
+[Black "Ribera Arnal, Angel"]
+[Result "0-1"]
+[ECO "A13"]
+[PlyCount "86"]
+[EventDate "1952.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. c4 e6 2. Nf3 d5 3. g3 Nf6 4. Bg2 c6 5. O-O Nbd7 6. Qc2 Be7 7. b3 O-O 8. Bb2
+b6 9. d3 Bb7 10. e4 c5 11. Nbd2 Qc7 12. exd5 exd5 13. Rae1 Bd6 14. Nh4 Be5 15.
+Bxe5 Nxe5 16. f4 Nc6 17. Nf5 Rfe8 18. Qb1 d4 19. Ne4 Nxe4 20. dxe4 Ne7 21. Nh4
+Ng6 22. Nf3 f6 23. h4 Rad8 24. Qd3 Nh8 25. e5 fxe5 26. fxe5 Ng6 27. h5 Nxe5 28.
+Nxe5 Bxg2 29. Rf7 Qxf7 30. Nxf7 Rxe1+ 31. Kxg2 Kxf7 32. Qxh7 Re6 33. Qf5+ Rf6
+34. Qe5 Rfd6 35. h6 gxh6 36. Qf5+ Rf6 37. Qh5+ Kg7 38. Qe5 Rdf8 39. g4 Kg8 40.
+Qd5+ R8f7 41. Kh3 Rg6 42. Kh4 Kg7 43. Qe5+ Rgf6 0-1
+
+[Event "España - Suiza m"]
+[Site "Barcelona"]
+[Date "1953.??.??"]
+[Round "1.3"]
+[White "Sanz Aguado, Jose"]
+[Black "Kupper, Josef"]
+[Result "1-0"]
+[ECO "E70"]
+[PlyCount "81"]
+[EventDate "1953.??.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. c4 Nf6 2. Nc3 g6 3. d4 Bg7 4. e4 d6 5. Bg5 h6 6. Bf4 O-O 7. Qd2 Kh7 8. O-O-O
+c6 9. f3 Qa5 10. Kb1 a6 11. Nge2 b5 12. Nc1 bxc4 13. Bxc4 Qb4 14. Bb3 Nbd7 15.
+g4 Ne8 16. h4 c5 17. Nd3 Qa5 18. dxc5 dxc5 19. Na4 Qxd2 20. Rxd2 Bd4 21. Rc2 e5
+22. Bd2 f5 23. Bd5 Rb8 24. h5 fxg4 25. hxg6+ Kxg6 26. Rxh6+ Kg7 27. fxg4 Nef6
+28. Rh4 Nxd5 29. Bh6+ Kg6 30. Bxf8 Nxf8 31. exd5 Bb7 32. Ndxc5 Bxd5 33. Nxa6
+Rd8 34. N4c5 Nd7 35. b4 Rf8 36. Rch2 Rf1+ 37. Kc2 Nb6 38. Rh6+ Kg5 39. Rxb6 Ra1
+40. Kd3 Rd1+ 41. Ke2 $138 1-0
+
+[Event "C. A. Barcelona - San Francisco m"]
+[Site "Barcelona"]
+[Date "1953.04.23"]
+[Round "5"]
+[White "Colby, K."]
+[Black "Sanz Aguado, Jose"]
+[Result "0-1"]
+[ECO "A04"]
+[PlyCount "70"]
+[EventDate "1953.04.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. Nf3 f5 2. g3 Nf6 3. Bg2 e6 4. O-O d5 5. d3 Bd6 6. Nc3 e5 7. e4 d4 8. Nb5
+fxe4 9. dxe4 O-O 10. Nbxd4 exd4 11. e5 Nc6 12. exd6 Qxd6 13. Bf4 Qc5 14. a3 Bg4
+15. Qd3 Nd5 16. b4 Nxf4 17. Qb3+ Qd5 18. gxf4 Qxb3 19. cxb3 Rxf4 20. Nd2 Raf8
+21. Rae1 d3 22. f3 Bf5 23. Re3 Nd4 24. Re7 Rc8 25. Kf2 Kf8 26. Re5 Re8 27.
+Rxe8+ Kxe8 28. Ke3 g5 29. Rc1 Nc2+ 30. Kf2 Kd8 31. Bf1 Nxa3 32. Rc5 c6 33. Nc4
+Nxc4 34. bxc4 d2 35. Ke2 Rd4 0-1

@@ -1,0 +1,802 @@
+[Event "Badalona op B"]
+[Site "Badalona"]
+[Date "2016.08.09"]
+[Round "8"]
+[White "Romeu Perulles, Jaume"]
+[Black "Lozano Ruiz, David"]
+[Result "0-1"]
+[ECO "C02"]
+[WhiteElo "1937"]
+[BlackElo "1834"]
+[PlyCount "68"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Qb6 5. Qg4 Nh6 6. Qf4 cxd4 7. Bd3 Nc6 8. Nf3
+Be7 9. O-O Bd7 10. Re1 O-O-O 11. Nxd4 Nxd4 12. cxd4 f5 13. Nc3 g5 14. Qf3 Kb8
+15. a4 Rhg8 16. Qd1 Nf7 17. Bb5 Bc6 18. Bxc6 Qxc6 19. Nb5 a6 20. Na3 h5 21. Bd2
+b6 22. b4 Qb7 23. Qb3 h4 24. Rec1 g4 25. Rc3 Bg5 26. Bxg5 Nxg5 27. Rac1 Nf3+
+28. gxf3 gxf3+ 29. Kf1 Rg1+ 30. Kxg1 Qg7+ 31. Kf1 Qg2+ 32. Ke1 Qg1+ 33. Kd2
+Qxf2+ 34. Kd3 Qe2# 0-1
+
+[Event "Badalona op B"]
+[Site "Badalona"]
+[Date "2016.08.10"]
+[Round "9"]
+[White "Lozano Ruiz, David"]
+[Black "Rios Torondell, Jaume"]
+[Result "1-0"]
+[ECO "A22"]
+[WhiteElo "1834"]
+[BlackElo "1876"]
+[PlyCount "101"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 e5 2. Nc3 Nf6 3. g3 d5 4. cxd5 Nxd5 5. Bg2 Be6 6. Nf3 f6 7. O-O Qd7 8. d3
+Nc6 9. Bd2 O-O-O 10. Nxd5 Bxd5 11. a3 g5 12. Qa4 Kb8 13. Be3 Nd4 14. Qd1 g4 15.
+Nxd4 Bxg2 16. Kxg2 exd4 17. Bf4 h5 18. Rc1 Bd6 19. Qd2 h4 20. Bxd6 Qxd6 21. Qf4
+Qxf4 22. gxf4 Rhe8 23. Rc2 Rd7 24. h3 f5 25. Re1 Rde7 26. Rc5 Rxe2 27. Rxe2
+Rxe2 28. Rxf5 gxh3+ 29. Kxh3 b6 30. Rd5 Rxb2 31. Rxd4 Rxf2 32. Kxh4 a5 33. Kg3
+Ra2 34. f5 Re2 35. Rd8+ Kb7 36. f6 Re3+ 37. Kg4 Re1 38. f7 Rg1+ 39. Kh3 Rf1 40.
+f8=Q Rxf8 41. Rxf8 b5 42. Rf6 c5 43. Kg3 a4 44. Kf3 b4 45. Ke4 bxa3 46. Kd5 a2
+47. Rf1 Kb6 48. Ra1 Kb5 49. Rxa2 Kb4 50. Rxa4+ Kxa4 51. Kxc5 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.13"]
+[Round "1"]
+[White "Lozano Ruiz, David"]
+[Black "Martimpe Burgues, Xavier"]
+[Result "1-0"]
+[ECO "D00"]
+[WhiteElo "1796"]
+[BlackElo "1219"]
+[PlyCount "81"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Bf4 Nc6 3. e3 Nf6 4. Nd2 Bf5 5. c3 e6 6. Ngf3 Bd6 7. Ne5 Bxe5 8.
+dxe5 Ne4 9. f3 Nc5 10. Nb3 Na4 11. Qd2 O-O 12. O-O-O Qe7 13. g4 Bg6 14. h4 h6
+15. h5 Bh7 16. Bd3 Bxd3 17. Qxd3 f6 18. exf6 Qxf6 19. Rdf1 Rac8 20. Qb5 Nb6 21.
+Nc5 a6 22. Qe2 Nc4 23. Nd7 Qf7 24. Nxf8 Qxf8 25. Rhg1 e5 26. Bg3 b5 27. Be1 Qc5
+28. Bd2 b4 29. cxb4 Nxb4 30. Bxb4 Qxb4 31. b3 Qa3+ 32. Kb1 Rb8 33. Rg2 a5 34.
+Qd3 a4 35. Qxd5+ Kh8 36. Qxc4 axb3 37. Ka1 b2+ 38. Kb1 Qxe3 39. Rxb2 Rd8 40.
+Qe4 Rd4 41. Qxe3 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.14"]
+[Round "2"]
+[White "Riera Danes, Manel"]
+[Black "Lozano Ruiz, David"]
+[Result "1/2-1/2"]
+[ECO "C07"]
+[WhiteElo "1916"]
+[BlackElo "1796"]
+[PlyCount "37"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nd2 c5 4. exd5 Qxd5 5. Ngf3 cxd4 6. Bc4 Qd6 7. O-O Nf6 8.
+Nb3 Nc6 9. Nbxd4 Nxd4 10. Nxd4 Be7 11. Nb5 Qc6 12. Qe2 O-O 13. Bf4 Bd7 14. Rad1
+a6 15. Nd4 Qb6 16. Be5 Bc6 17. Nxc6 Qxc6 18. Bb3 Rfd8 19. c3 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.15"]
+[Round "3"]
+[White "Lozano Ruiz, David"]
+[Black "Cardenas, Fernando Adrian"]
+[Result "0-1"]
+[ECO "E81"]
+[WhiteElo "1796"]
+[BlackElo "1943"]
+[PlyCount "164"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 Nf6 2. Nc3 g6 3. d4 Bg7 4. e4 d6 5. f3 O-O 6. Bd3 c6 7. Nge2 a6 8. Be3 b5
+9. a3 bxc4 10. Bxc4 d5 11. Bd3 dxe4 12. Nxe4 Nd5 13. Qd2 Nxe3 14. Qxe3 Qb6 15.
+b4 e5 16. Nc5 exd4 17. Qf4 a5 18. Na4 Qd8 19. O-O axb4 20. axb4 Na6 21. Rab1
+Rb8 22. b5 cxb5 23. Bxb5 Rxb5 24. Rxb5 Qe8 25. Rbb1 Qxa4 26. Rfd1 Qc2 27. Nxd4
+Qc5 28. Rbc1 Qb6 29. Rb1 Qa7 30. Kh1 Nc5 31. Nc6 Ne6 32. Qb4 Qa8 33. Qe4 Qa6
+34. Nb4 Qa4 35. Qc2 Qxc2 36. Nxc2 Nf4 37. Nb4 Bf5 38. Rbc1 Bh6 39. Rc7 Ne6 40.
+Rc6 Nd8 41. Rb6 Bf4 42. Nd5 Bg5 43. Re1 Be6 44. Nc7 Bf4 45. Nxe6 Nxe6 46. Reb1
+Rc8 47. g3 Be5 48. f4 Bd4 49. Rb8 Rxb8 50. Rxb8+ Kg7 51. Kg2 h5 52. h3 h4 53.
+f5 gxf5 54. gxh4 Bf6 55. Rb4 f4 56. h5 Kh6 57. Rb5 Bg5 58. Rf5 f6 59. Ra5 Kxh5
+60. Ra8 Nd4 61. Rd8 Nf5 62. Kf3 Nh4+ 63. Kf2 Ng6 64. Kg2 Ne5 65. Rh8+ Bh6 66.
+Kf2 Ng6 67. Rh7 Kg5 68. Kf3 Bf8 69. Rb7 Ne5+ 70. Kg2 Bc5 71. Rb3 Be3 72. Kf1
+Kh4 73. Kg2 f3+ 74. Kh2 Bf4+ 75. Kg1 Kxh3 76. Rb7 Kg3 77. Kf1 Ng4 78. Rg7 Bd2
+79. Rg8 Bg5 80. Kg1 f2+ 81. Kf1 Kf3 82. Rxg5 Nh2# 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.16"]
+[Round "4"]
+[White "Martinez Medina, Jose Juan"]
+[Black "Lozano Ruiz, David"]
+[Result "0-1"]
+[ECO "C02"]
+[WhiteElo "1534"]
+[BlackElo "1796"]
+[PlyCount "80"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Qb6 5. Nf3 Nc6 6. Bd3 cxd4 7. cxd4 Bd7 8. O-O
+Nxd4 9. Nxd4 Qxd4 10. Nc3 a6 11. Re1 Ne7 12. Qf3 Nc6 13. Bf4 Be7 14. Rad1 Qb4
+15. Rb1 O-O 16. Qg3 Kh8 17. Qh3 g6 18. Qg3 Rg8 19. h4 h5 20. a3 Qb6 21. b4 Nd4
+22. Qe3 Qa7 23. g3 Nf5 24. Qxa7 Rxa7 25. Bxf5 gxf5 26. Be3 Raa8 27. Kh2 Rg4 28.
+f4 Rc8 29. Rbc1 Rgg8 30. Ne2 Bc6 31. Bd4 Ra8 32. Bb6 Rgc8 33. Rc3 Bb5 34. Rxc8+
+Rxc8 35. Rc1 Rxc1 36. Nxc1 Bc4 37. Bd4 a5 38. bxa5 Bxa3 39. Be3 Bb4 40. Bb6 Bd2
+0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.17"]
+[Round "5"]
+[White "Lozano Ruiz, David"]
+[Black "Grindbakken, Erik"]
+[Result "1/2-1/2"]
+[ECO "D02"]
+[WhiteElo "1796"]
+[BlackElo "1610"]
+[PlyCount "59"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 d5 3. c3 Bf5 4. Bf4 e6 5. e3 a6 6. Be2 Nbd7 7. h3 h6 8. Nbd2
+c5 9. Ne5 Rc8 10. O-O Be7 11. Ndf3 Ne4 12. Nxd7 Qxd7 13. Ne5 Qd8 14. f3 Nf6 15.
+Bd3 Bxd3 16. Qxd3 Nd7 17. Rae1 O-O 18. Bh2 Nxe5 19. Bxe5 Bd6 20. Bxd6 Qxd6 21.
+f4 c4 22. Qc2 b5 23. a3 a5 24. e4 f6 25. e5 fxe5 26. fxe5 Qe7 27. Qe2 Rxf1+ 28.
+Rxf1 Rf8 29. Rf2 Rxf2 30. Qxf2 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.18"]
+[Round "6"]
+[White "Khachatryan, Tigran V"]
+[Black "Lozano Ruiz, David"]
+[Result "1-0"]
+[ECO "C11"]
+[WhiteElo "1936"]
+[BlackElo "1796"]
+[PlyCount "69"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 dxe4 5. Nxe4 Be7 6. Bxf6 gxf6 7. Nf3 f5 8.
+Ng3 c5 9. Bb5+ Bd7 10. Bxd7+ Qxd7 11. O-O cxd4 12. Nxd4 Nc6 13. Nxc6 Qxc6 14.
+Qd4 Rg8 15. Rad1 a6 16. Rfe1 Rd8 17. Qe5 Bd6 18. Qf6 f4 19. Ne4 Be7 20. Rxd8+
+Bxd8 21. Qxf4 Kf8 22. Qh6+ Rg7 23. Qd2 Be7 24. g3 h5 25. Qf4 f5 26. Nc3 h4 27.
+Qh6 Kf7 28. Ne2 hxg3 29. hxg3 Bg5 30. Qh5+ Kg8 31. Nd4 Qd5 32. Rxe6 Be7 33. Rh6
+Rxg3+ 34. fxg3 Qxd4+ 35. Kf1 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.19"]
+[Round "7"]
+[White "Lozano Ruiz, David"]
+[Black "Molina Taberner, Jordi"]
+[Result "1-0"]
+[ECO "B06"]
+[WhiteElo "1796"]
+[BlackElo "1529"]
+[PlyCount "93"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 g6 2. e4 Bg7 3. Nc3 d6 4. f4 e6 5. Nf3 b6 6. Bd3 Bb7 7. Be3 Ne7 8. Qd2 h6
+9. O-O Nd7 10. e5 d5 11. Nb5 a6 12. Nc3 b5 13. Ne2 Nb6 14. Bf2 Nc4 15. Qc1 Rc8
+16. b3 Nb6 17. g4 h5 18. gxh5 Rxh5 19. Ng3 Rh6 20. Ng5 Nf5 21. Nxf5 gxf5 22.
+Qe1 Rg6 23. Kh1 Bh6 24. Bh4 Bxg5 25. Bxg5 Rxg5 26. fxg5 Qxg5 27. Qg3 Qxg3 28.
+hxg3 Ke7 29. Kg1 Rg8 30. Kf2 Nd7 31. Be2 Nf8 32. c4 c6 33. cxb5 axb5 34. b4 Nh7
+35. a4 Ra8 36. axb5 cxb5 37. Rxa8 Bxa8 38. Bxb5 Ng5 39. Ra1 Ne4+ 40. Kg2 Nc3
+41. Ra7+ Kd8 42. Rxa8+ Kc7 43. Be8 Kb7 44. Ra5 Nd1 45. Ra3 Nb2 46. Bxf7 Nc4 47.
+Rc3 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.20"]
+[Round "8"]
+[White "Martinez Balaguer, Josep"]
+[Black "Lozano Ruiz, David"]
+[Result "0-1"]
+[ECO "A85"]
+[WhiteElo "1834"]
+[BlackElo "1796"]
+[PlyCount "102"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 f5 2. Nc3 Nf6 3. Nf3 e6 4. d4 d5 5. cxd5 exd5 6. Bf4 c6 7. e3 Be7 8. Ne5
+Nbd7 9. Be2 O-O 10. Nd3 b6 11. b4 Bb7 12. Rc1 Ne4 13. Qb3 Kh8 14. a4 Ndf6 15.
+h3 Bd6 16. Ne5 Qe7 17. Nd3 Bxf4 18. Nxf4 g5 19. Nd3 f4 20. Nxe4 Nxe4 21. exf4
+gxf4 22. Ne5 Rac8 23. Rc2 c5 24. bxc5 bxc5 25. O-O c4 26. Qb5 Rf6 27. Rb1 Rb6
+28. Qxb6 axb6 29. Rxb6 Ra8 30. Ra2 Nc3 31. Rc2 Nxa4 32. Rh6 Ra6 33. Rh5 Rf6 34.
+Bg4 Qe8 35. Kh2 Bc8 36. Bf3 Nb6 37. Ra2 Nd7 38. Ra7 Re6 39. Bg4 Re7 40. Ra8
+Rxe5 41. Rxe5 Nxe5 42. Bxc8 Qe7 43. dxe5 Qxe5 44. Bg4+ Kg7 45. Ra7+ Kf6 46.
+Ra6+ Ke7 47. Ra7+ Kd6 48. Rxh7 c3 49. Rd7+ Kc6 50. Rd8 c2 51. Rc8+ Qc7 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.21"]
+[Round "9"]
+[White "Lozano Ruiz, David"]
+[Black "Molina Hernandez, Albert"]
+[Result "1-0"]
+[ECO "A38"]
+[WhiteElo "1796"]
+[BlackElo "1908"]
+[PlyCount "51"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 Nf6 2. Nc3 c5 3. Nf3 d5 4. Nxd5 Nxd5 5. cxd5 Qxd5 6. g3 g6 7. Bg2 Bg7 8.
+O-O O-O 9. d3 Nc6 10. a3 Rd8 11. Qc2 Be6 12. Be3 Rac8 13. Rab1 Qb3 14. Qxb3
+Bxb3 15. Nd2 Ba2 16. Rbc1 Bd5 17. Rxc5 Bxg2 18. Kxg2 Bxb2 19. Rb5 Bxa3 20. Rxb7
+a5 21. Nc4 Bb4 22. Ra1 Kf8 23. Nb6 Rb8 24. Nd7+ Rxd7 25. Rxd7 Bd6 26. Bf4 1-0
+
+[Event "Barcelona Paredes Memorial 19th"]
+[Site "Barcelona"]
+[Date "2017.04.22"]
+[Round "1"]
+[White "Blasco Benito, Albert"]
+[Black "Lozano Ruiz, David"]
+[Result "1-0"]
+[ECO "C01"]
+[WhiteElo "2085"]
+[BlackElo "1835"]
+[PlyCount "47"]
+[EventDate "2017.04.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bg5 h6 6. Bxf6 Qxf6 7. Nf3 c5 8.
+O-O Nc6 9. Nc3 a6 10. d5 Nd4 11. Nxd4 cxd4 12. dxe6 dxc3 13. Bxb7 Bxe6 14. Bc6+
+Ke7 15. Bxa8 Qf4 16. bxc3 Kf6 17. Qd4+ Qxd4 18. cxd4 Bc4 19. Rfd1 Bb4 20. Bf3
+Re8 21. a3 Bc3 22. Rab1 Ba2 23. Rb6+ Kg5 24. g3 1-0
+
+[Event "Barcelona Paredes Memorial 19th"]
+[Site "Barcelona"]
+[Date "2017.04.29"]
+[Round "2"]
+[White "Lozano Ruiz, David"]
+[Black "Povill Batlle, Ramon"]
+[Result "0-1"]
+[ECO "A36"]
+[WhiteElo "1835"]
+[BlackElo "1921"]
+[PlyCount "64"]
+[EventDate "2017.04.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 c5 2. g3 Nc6 3. Nc3 g6 4. Bg2 Bg7 5. e4 e5 6. Nge2 Nge7 7. O-O d6 8. d3
+O-O 9. a3 f5 10. exf5 Bxf5 11. f4 Qd7 12. Be4 Bh3 13. Rf2 Rae8 14. b4 exf4 15.
+Bxf4 Nd4 16. Rb1 g5 17. Be3 Rxf2 18. Bxf2 Rf8 19. Bg2 Bxg2 20. Kxg2 Qc6+ 21.
+Ne4 Nef5 22. b5 Qd7 23. Ng1 b6 24. g4 Nh4+ 25. Bxh4 gxh4 26. h3 d5 27. Ng5 Qd6
+28. Qe1 dxc4 29. dxc4 Qf4 30. Ne6 Nxe6 31. Qxe6+ Kh8 32. Qe1 Be5 0-1
+
+[Event "Barcelona Paredes Memorial 19th"]
+[Site "Barcelona"]
+[Date "2017.05.06"]
+[Round "3"]
+[White "Alvarez Albiol, Victor"]
+[Black "Lozano Ruiz, David"]
+[Result "0-1"]
+[ECO "C01"]
+[WhiteElo "2082"]
+[BlackElo "1835"]
+[PlyCount "164"]
+[EventDate "2017.04.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bf3 c5 6. Ne2 Nc6 7. Be3 cxd4 8.
+Nxd4 Ne5 9. Nc3 Be7 10. Qe2 Nxf3+ 11. Qxf3 O-O 12. O-O-O Qa5 13. Nb3 Qc7 14.
+Nb5 Qb8 15. Bf4 e5 16. Qe2 Nd7 17. Rhe1 a6 18. Nc3 Re8 19. Kb1 Bb4 20. Qc4 Bxc3
+21. Qxc3 f6 22. Qc4+ Kh8 23. Be3 Nf8 24. Nc5 b6 25. Ne4 Be6 26. Qc6 b5 27. Nd6
+Re7 28. Bb6 Bd7 29. Qc7 Qxc7 30. Bxc7 Bg4 31. Rd4 Be6 32. Bd8 Rd7 33. Nf7+ Bxf7
+34. Rxd7 Nxd7 35. Ba5 Nf8 36. Rd1 Ne6 37. c3 Nf4 38. g3 Bg6+ 39. Ka1 Nd3 40.
+Rd2 Re8 41. h4 h5 42. Bb6 e4 43. Be3 Rc8 44. Kb1 Kg8 45. Bd4 Kf7 46. Bb6 Ke6
+47. Be3 b4 48. Bd4 bxc3 49. bxc3 Rb8+ 50. Ka1 Ne1 51. Re2 Nf3 52. Be3 Rd8 53.
+Kb2 Ne5 54. Bd4 Nd3+ 55. Ka1 Kf5 56. Rd2 Bf7 57. Be3 Rd5 58. Rc2 Nc5 59. Bd4
+Nd3 60. Be3 Ra5 61. Re2 Bc4 62. Rc2 Bb3 63. Re2 Bd1 64. Rd2 Bb3 65. Re2 Bc4 66.
+Rc2 g5 67. Bd4 gxh4 68. gxh4 Ra4 69. Kb1 Ra5 70. Ka1 Rb5 71. Rd2 Rb7 72. a3 Rg7
+73. Rd1 Rg4 74. Rh1 Rg2 75. Rf1 Rh2 76. f3 e3 77. Bxe3 Rxh4 78. Bd4 Rh2 79. Rg1
+h4 80. Rf1 h3 81. f4 Re2 82. Rh1 Re1+ 0-1
+
+[Event "Barcelona Paredes Memorial 19th"]
+[Site "Barcelona"]
+[Date "2017.05.13"]
+[Round "4"]
+[White "Lozano Ruiz, David"]
+[Black "Povill Claros, Laura"]
+[Result "0-1"]
+[ECO "A37"]
+[WhiteElo "1835"]
+[BlackElo "1818"]
+[PlyCount "102"]
+[EventDate "2017.04.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 c5 2. g3 Nc6 3. Nc3 g6 4. Bg2 Bg7 5. Nf3 d6 6. O-O Nh6 7. e4 O-O 8. d3
+Rb8 9. h3 f5 10. Ng5 Nf7 11. Rb1 e6 12. h4 Nfe5 13. a3 a6 14. Ne2 h6 15. Nh3
+Qc7 16. b3 b5 17. Bf4 Ng4 18. f3 Nf6 19. Qd2 Kh7 20. Be3 Bb7 21. Nef4 Qd7 22.
+Rf2 Ne5 23. cxb5 axb5 24. d4 cxd4 25. Bxd4 Nxf3+ 26. Bxf3 e5 27. Bxe5 dxe5 28.
+Qxd7 Nxd7 29. Ne6 Rf6 30. Nxg7 Kxg7 31. exf5 Bxf3 32. Rxf3 gxf5 33. Rd3 Nb6 34.
+Rbd1 Rg6 35. Kf2 Rc8 36. Ng1 Rc2+ 37. R1d2 Rxd2+ 38. Rxd2 Rc6 39. Ne2 Kf7 40.
+Kf3 Kg6 41. g4 fxg4+ 42. Kxg4 Kf6 43. Kf3 Ke7 44. Ke4 Rc5 45. Rd3 Ke6 46. Nc3
+Nd7 47. Rf3 Nf6+ 48. Rxf6+ Kxf6 49. Kd3 Kf5 50. b4 e4+ 51. Nxe4 Rd5+ 0-1
+
+[Event "Barcelona Paredes Memorial 19th"]
+[Site "Barcelona"]
+[Date "2017.05.20"]
+[Round "5"]
+[White "Catala Ulied, Guillem"]
+[Black "Lozano Ruiz, David"]
+[Result "0-1"]
+[ECO "A08"]
+[WhiteElo "1880"]
+[BlackElo "1835"]
+[PlyCount "74"]
+[EventDate "2017.04.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d3 d5 3. Nd2 c5 4. Ngf3 Nc6 5. g3 Bd6 6. Bg2 Nge7 7. O-O O-O 8. Re1
+Qc7 9. Qe2 f6 10. h4 Bd7 11. Nf1 d4 12. Bd2 e5 13. Red1 Bg4 14. N1h2 Bh5 15.
+Qe1 b5 16. Rdc1 Qd7 17. Qf1 Bf7 18. Ne1 c4 19. f4 Kh8 20. a3 Rac8 21. Bh3 Be6
+22. f5 Bf7 23. Nef3 cxd3 24. cxd3 Nb8 25. Rxc8 Qxc8 26. Rc1 Qb7 27. g4 Na6 28.
+g5 b4 29. axb4 Bxb4 30. Bxb4 Nxb4 31. Ng4 Ng8 32. h5 Bxh5 33. Rd1 Nc2 34. Qf2
+Bxg4 35. Qxc2 Bxf3 36. Rf1 Bh5 37. Qh2 Be8 0-1
+
+[Event "Barcelona Paredes Memorial 19th"]
+[Site "Barcelona"]
+[Date "2017.05.27"]
+[Round "6"]
+[White "Lozano Ruiz, David"]
+[Black "Silva Pena, Angel David"]
+[Result "1-0"]
+[ECO "A22"]
+[WhiteElo "1835"]
+[BlackElo "1784"]
+[PlyCount "141"]
+[EventDate "2017.04.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 Nf6 2. g3 e5 3. Bg2 d5 4. cxd5 Nxd5 5. Nc3 Be6 6. Qb3 Nb4 7. Qd1 c6 8.
+Nf3 Nd7 9. O-O Be7 10. a3 Nd5 11. e4 N5f6 12. d4 exd4 13. Nxd4 Bg4 14. f3 Bh5
+15. Be3 O-O 16. b4 c5 17. Nf5 cxb4 18. Nxe7+ Qxe7 19. Nd5 Nxd5 20. Qxd5 Nf6 21.
+Qb5 bxa3 22. Bc5 Qe5 23. f4 Qb2 24. Rfb1 Qxb5 25. Rxb5 Rfe8 26. e5 Nd7 27. Bxa3
+Nb6 28. Bxb7 Rad8 29. Bc5 h6 30. Bxb6 axb6 31. Rxb6 Rb8 32. Bc6 Rxb6 33. Bxe8
+Kf8 34. Bd7 f6 35. Ra8+ Ke7 36. Ra7 Kf8 37. exf6 Rxf6 38. Ra5 Bg6 39. Ra2 Rd6
+40. Bg4 Ke7 41. Kf2 Kf6 42. Re2 Bh7 43. Bh3 g5 44. Kf3 gxf4 45. Kxf4 Rd4+ 46.
+Ke3 Re4+ 47. Kd2 Rxe2+ 48. Kxe2 Bf5 49. Bxf5 Kxf5 50. Kf3 Kg5 51. h3 Kf5 52.
+Ke3 Kg5 53. Ke4 Kh5 54. Kf4 Kg6 55. g4 Kf6 56. h4 Kg7 57. Kf5 Kf7 58. Ke5 Ke7
+59. Kd5 Kf7 60. Ke5 Ke7 61. Kf5 Kf7 62. h5 Kg7 63. Ke6 Kg8 64. Kf6 Kh7 65. Kf7
+Kh8 66. Kg6 Kg8 67. Kxh6 Kh8 68. g5 Kg8 69. Kg6 Kh8 70. Kf7 Kh7 71. g6+ 1-0
+
+[Event "Barcelona Paredes Memorial 19th"]
+[Site "Barcelona"]
+[Date "2017.06.03"]
+[Round "7"]
+[White "Nadal Fajardo, Ricard"]
+[Black "Lozano Ruiz, David"]
+[Result "1-0"]
+[ECO "B22"]
+[WhiteElo "2015"]
+[BlackElo "1835"]
+[PlyCount "41"]
+[EventDate "2017.04.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Nd2 c5 4. dxc5 Bxc5 5. exd5 exd5 6. Ngf3 Nf6 7. Bd3 O-O 8.
+O-O Nc6 9. c3 Re8 10. h3 h6 11. Nb3 Bb6 12. Nbd4 Ne4 13. Bf4 a6 14. Qc2 Qf6 15.
+Be3 Bc7 16. Rae1 Nc5 17. Bh7+ Kh8 18. Nxc6 bxc6 19. Bxc5 Rxe1 20. Rxe1 g6 21.
+Bd4 1-0
+
+[Event "Barcelona Paredes Memorial 19th"]
+[Site "Barcelona"]
+[Date "2017.06.10"]
+[Round "8"]
+[White "Lozano Ruiz, David"]
+[Black "Pera Muntasell, Marc"]
+[Result "1/2-1/2"]
+[ECO "E17"]
+[WhiteElo "1835"]
+[BlackElo "1735"]
+[PlyCount "72"]
+[EventDate "2017.04.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 e6 2. g3 d5 3. Bg2 Nf6 4. Nf3 Be7 5. O-O O-O 6. b3 b6 7. Bb2 Bb7 8. d4
+Nbd7 9. Nbd2 c5 10. e3 Rc8 11. Rc1 Ne4 12. Nxe4 dxe4 13. Nd2 f5 14. f3 exf3 15.
+Nxf3 Bf6 16. Qe2 Qc7 17. Rcd1 Rcd8 18. Ne1 g6 19. Bf3 Rfe8 20. Qg2 Bxf3 21.
+Nxf3 Bg7 22. Rfe1 Nf6 23. Kh1 Ne4 24. Re2 Rd6 25. g4 Kh8 26. g5 Red8 27. h4
+R6d7 28. Kg1 a6 29. Qh3 Qg3+ 30. Qxg3 Nxg3 31. Red2 Ne4 32. Rd3 Kg8 33. Ne1 Kf7
+34. Ng2 cxd4 35. exd4 Nc5 36. R3d2 Ne4 1/2-1/2
+
+[Event "Barcelona Paredes Memorial 19th"]
+[Site "Barcelona"]
+[Date "2017.06.17"]
+[Round "9"]
+[White "Delgadillo Torrico, Felipe"]
+[Black "Lozano Ruiz, David"]
+[Result "1/2-1/2"]
+[ECO "B40"]
+[WhiteElo "1937"]
+[BlackElo "1835"]
+[PlyCount "84"]
+[EventDate "2017.04.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Nd2 c5 4. Ngf3 cxd4 5. Nxd4 Nf6 6. Bd3 Nc6 7. Nxc6 bxc6 8.
+O-O Bd6 9. Re1 Qc7 10. h3 O-O 11. c3 e5 12. Qc2 a5 13. Nf1 Ba6 14. Ng3 g6 15.
+Bg5 Nd7 16. Rad1 Nb6 17. Bh6 Rfe8 18. Be3 Bb7 19. h4 h5 20. Nf1 Nc4 21. Bxc4
+dxc4 22. Nd2 Ba6 23. Nf3 Bf8 24. Bc1 f6 25. Re2 Bc8 26. Nh2 Be6 27. Nf1 Red8
+28. Rxd8 Rxd8 29. Rd2 Rd7 30. Qd1 Qd8 31. Rxd7 Qxd7 32. Qxd7 Bxd7 33. Be3 a4
+34. a3 f5 35. exf5 gxf5 36. f4 exf4 37. Bxf4 Kf7 38. Kf2 Kf6 39. Nd2 Be6 40.
+Nf3 Bd5 41. g3 Bxf3 42. Kxf3 Ke6 1/2-1/2
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.13"]
+[Round "1"]
+[White "Pascual Gonzalez, Novelles David"]
+[Black "Lozano Ruiz, David"]
+[Result "1/2-1/2"]
+[ECO "C01"]
+[WhiteElo "1593"]
+[BlackElo "1844"]
+[PlyCount "53"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. Nf3 Bd6 5. Nc3 Ne7 6. Bd3 Bg4 7. h3 Bh5 8. g4
+Bg6 9. Be3 Bxd3 10. Qxd3 c6 11. O-O-O Qc7 12. h4 Nd7 13. Rde1 O-O-O 14. Ng5
+Rdf8 15. Kb1 h6 16. Nh3 Re8 17. f4 Ng6 18. f5 Nxh4 19. Bd2 g5 20. fxg6 fxg6 21.
+Rxe8+ Rxe8 22. Bxh6 Qd8 23. Bg5 Be7 24. Bxh4 Bxh4 25. Qxg6 Rg8 26. Qe6 Re8 27.
+Qf5 1/2-1/2
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.14"]
+[Round "2"]
+[White "Lozano Ruiz, David"]
+[Black "Martinez Torras, Pol"]
+[Result "0-1"]
+[ECO "A37"]
+[WhiteElo "1844"]
+[BlackElo "1631"]
+[PlyCount "84"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 c5 2. g3 g6 3. Bg2 Nc6 4. Nc3 Bg7 5. Nf3 d6 6. O-O e5 7. d3 Nge7 8. Bd2
+O-O 9. a3 Be6 10. Ng5 Qd7 11. Nxe6 Qxe6 12. Nd5 Qd7 13. Rb1 Nxd5 14. Bxd5 Ne7
+15. Bg2 Rab8 16. b4 b6 17. Qb3 h6 18. b5 f5 19. e3 g5 20. f4 Rbd8 21. a4 Kh7
+22. Bc3 exf4 23. gxf4 Bxc3 24. Qxc3 d5 25. a5 d4 26. Qd2 dxe3 27. Qxe3 Qd4 28.
+Rbe1 Ng6 29. fxg5 hxg5 30. axb6 axb6 31. Bd5 Qxe3+ 32. Rxe3 Nf4 33. Re5 Nxd5
+34. cxd5 Kg6 35. Rfe1 Rf6 36. Kf2 Rfd6 37. Re6+ Kg7 38. Rxd6 Rxd6 39. Re6 Rxe6
+40. dxe6 Kf6 41. h4 gxh4 42. Kf3 Kxe6 0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.15"]
+[Round "3"]
+[White "Landsverk, Ida"]
+[Black "Lozano Ruiz, David"]
+[Result "0-1"]
+[ECO "C07"]
+[WhiteElo "1439"]
+[BlackElo "1844"]
+[PlyCount "128"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Nd2 c5 4. exd5 Qxd5 5. Ngf3 cxd4 6. Bc4 Qd6 7. O-O Nf6 8.
+Nb3 Nc6 9. Nbxd4 Nxd4 10. Nxd4 Be7 11. c3 O-O 12. Qf3 Qb6 13. Bb3 a5 14. Be3
+Bc5 15. Rab1 e5 16. Nc2 Bg4 17. Qg3 a4 18. Bc4 Qd6 19. Bxc5 Qxc5 20. Na3 Rfd8
+21. Rfe1 e4 22. h3 Bh5 23. Qe3 Qc6 24. g4 Bg6 25. Bf1 h5 26. g5 Nd7 27. Bg2 Re8
+28. Nc2 Qc4 29. Ra1 Ne5 30. Nd4 Nd3 31. Bf1 Qc8 32. Bxd3 exd3 33. Qf3 Qd7 34.
+Rad1 Ra5 35. h4 Rae5 36. Rxe5 Rxe5 37. Rxd3 Bxd3 38. Qxd3 Re1+ 39. Kh2 Qd6+ 40.
+Kg2 Qd5+ 41. f3 Qe5 42. Kf2 Qe8 43. Qd2 Re5 44. Qd3 b5 45. a3 g6 46. Kg3 Kg7
+47. Kf2 f6 48. gxf6+ Kxf6 49. f4 Rd5 50. Kf3 Qc8 51. Kg3 Qg4+ 52. Kf2 Qxh4+ 53.
+Ke2 Qxf4 54. Qh3 Re5+ 55. Kd3 Qe4+ 56. Kd2 Qe1+ 57. Kc2 Qf2+ 58. Kd3 Qf4 59.
+Qg2 Qe3+ 60. Kc2 Qe4+ 61. Qxe4 Rxe4 62. Nxb5 h4 63. Nd4 Rxd4 64. cxd4 h3 0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.16"]
+[Round "4"]
+[White "Lozano Ruiz, David"]
+[Black "Aguilera Campana, Antonio"]
+[Result "0-1"]
+[ECO "A23"]
+[WhiteElo "1844"]
+[BlackElo "1674"]
+[PlyCount "136"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 e5 2. g3 Bc5 3. Bg2 Nf6 4. e3 O-O 5. Nc3 c6 6. Nge2 d5 7. d4 exd4 8. exd4
+Bb4 9. Qb3 Bxc3+ 10. Qxc3 Re8 11. Bg5 Bg4 12. f3 Be6 13. c5 Nbd7 14. O-O h6 15.
+Bf4 Bf5 16. Rfe1 Nf8 17. Bd6 Qd7 18. g4 Bh7 19. Nf4 a5 20. Bh3 Qd8 21. a4 Ne6
+22. Nxe6 fxe6 23. Re3 Nd7 24. Rae1 Qh4 25. Kg2 Qf6 26. Qd2 g5 27. Bc7 Nf8 28.
+b3 Ng6 29. Kg1 Nh4 30. Bg2 Re7 31. Be5 Qf7 32. Bd6 Ree8 33. Qe2 Rac8 34. Rxe6
+Rxe6 35. Qxe6 Qxe6 36. Rxe6 Bc2 37. Re3 Ng6 38. Kf2 Nf4 39. Bf1 Rd8 40. Bc7 Ra8
+41. Ke1 Kf7 42. h4 Re8 43. Rxe8 Kxe8 44. hxg5 hxg5 45. Bxa5 Bxb3 46. Bd2 Bxa4
+47. Bxf4 gxf4 48. Kd2 Kf7 49. Be2 Kf6 50. Kc3 Ke7 51. Kd2 Kf6 52. Bd3 Kg5 53.
+Ke1 Kh4 54. Kf2 Kg5 55. Ke1 Kh4 56. Kd2 Kg5 57. Kc3 Bd1 58. Bf5 Bxf3 59. Bc8
+Bxg4 60. Bxb7 Bd7 61. Ba6 Kg4 62. Kd2 f3 63. Ke3 Kg3 64. Bf1 f2 65. Ke2 Bf5 66.
+Ke3 Be4 67. Kd2 Kh2 68. Ke2 Kg1 0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.17"]
+[Round "5"]
+[White "Serentill Tost, Eduard"]
+[Black "Lozano Ruiz, David"]
+[Result "0-1"]
+[ECO "C13"]
+[WhiteElo "1639"]
+[BlackElo "1844"]
+[PlyCount "84"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 dxe4 5. Nxe4 Be7 6. Nxf6+ Bxf6 7. Bxf6 Qxf6
+8. Nf3 O-O 9. Bd3 c5 10. O-O Nc6 11. c3 cxd4 12. cxd4 Rd8 13. Qc2 g6 14. Rad1
+Nb4 15. Qc4 Nxd3 16. Rxd3 b6 17. Rfd1 Bb7 18. Qc3 Rac8 19. Qa3 Bxf3 20. Rxf3
+Qxd4 21. Re1 Rc1 22. Rfe3 Qd2 23. Kf1 Rxe1+ 24. Rxe1 Qd3+ 25. Qxd3 Rxd3 26. Re2
+Rd1+ 27. Re1 Rxe1+ 28. Kxe1 Kf8 29. Kd2 Ke7 30. Kd3 Kd6 31. Kd4 e5+ 32. Kc4 a6
+33. a4 f5 34. f3 g5 35. g3 h5 36. h3 g4 37. hxg4 fxg4 38. fxg4 hxg4 39. b3 Kc6
+40. b4 Kd6 41. b5 a5 42. Kd3 Kd5 0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.18"]
+[Round "6"]
+[White "Lozano Ruiz, David"]
+[Black "Vicente Soriano, Josep"]
+[Result "1/2-1/2"]
+[ECO "A37"]
+[WhiteElo "1844"]
+[BlackElo "1698"]
+[PlyCount "106"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 c5 2. g3 Nc6 3. Bg2 g6 4. Nc3 Bg7 5. Nf3 d6 6. O-O e5 7. d3 Nge7 8. Nh4
+O-O 9. f4 Rb8 10. e4 f5 11. Be3 Nd4 12. Ne2 Bd7 13. fxe5 dxe5 14. Nxd4 cxd4 15.
+Bg5 Bf6 16. Bh6 Bg7 17. Bd2 Qb6 18. b3 fxe4 19. Bxe4 Bc6 20. Qg4 Bxe4 21. Qxe4
+Qc6 22. Rxf8+ Rxf8 23. Qxc6 Nxc6 24. Re1 Kf7 25. Kg2 Ke6 26. Nf3 h6 27. g4 g5
+28. b4 Rd8 29. h4 gxh4 30. Nxh4 Ne7 31. a4 Bf6 32. Nf3 Bg7 33. b5 Ng6 34. Kg3
+b6 35. a5 bxa5 36. Bxa5 Rd7 37. Bd2 Bf8 38. Ra1 Bd6 39. Kh3 Rf7 40. Ne1 Nf4+
+41. Kg3 Ne2+ 42. Kh4 Rf1 43. Bxh6 Be7+ 44. Kh5 Kf7 45. g5 Nf4+ 46. Kg4 Nxd3 47.
+Nc2 Rxa1 48. Nxa1 Kg6 49. Nb3 e4 50. Nxd4 Ne5+ 51. Kf4 Nxc4 52. Kxe4 Nd6+ 53.
+Kd5 Nxb5 1/2-1/2
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.19"]
+[Round "7"]
+[White "Mercader Rubio, Luis"]
+[Black "Lozano Ruiz, David"]
+[Result "0-1"]
+[ECO "C01"]
+[WhiteElo "1747"]
+[BlackElo "1844"]
+[PlyCount "70"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. c4 Bb4+ 5. Nc3 Nf6 6. Nf3 O-O 7. cxd5 Nxd5 8.
+Bd2 Re8+ 9. Ne2 Be7 10. Qb3 c6 11. O-O-O a5 12. Ne5 Bf6 13. f4 a4 14. Qf3 Nd7
+15. Nc3 Nxe5 16. dxe5 Be7 17. Bd3 g6 18. g4 Qc7 19. h4 h6 20. f5 Qxe5 21. Rhe1
+Qd4 22. Re4 Qc5 23. fxg6 fxg6 24. Rc4 Qd6 25. Bxh6 Bf8 26. Bd2 b5 27. Re4 Be6
+28. h5 Nxc3 29. Bxc3 Bd5 30. Qe3 Bxe4 31. Bxe4 Qe7 32. Re1 Qc5 33. a3 Qxe3+ 34.
+Rxe3 Bh6 35. Kd2 Rxe4 0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.20"]
+[Round "8"]
+[White "Lozano Ruiz, David"]
+[Black "Roche Peris, Eduard"]
+[Result "1/2-1/2"]
+[ECO "A39"]
+[WhiteElo "1844"]
+[BlackElo "1758"]
+[PlyCount "54"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 c5 2. g3 Nc6 3. Bg2 Nf6 4. Nc3 g6 5. Nf3 Bg7 6. d4 cxd4 7. Nxd4 O-O 8.
+O-O Nxd4 9. Qxd4 d6 10. Qd3 a6 11. Bd2 Qc7 12. Rac1 Rb8 13. Nd5 Nxd5 14. cxd5
+Qd8 15. Bc3 Bf5 16. Qe3 b5 17. Bxg7 Kxg7 18. Rc6 a5 19. Rfc1 Bd7 20. Rc7 Rc8
+21. Qc3+ Kg8 22. a3 Rxc7 23. Qxc7 Qc8 24. b4 axb4 25. axb4 Rd8 26. Qc3 Qxc3 27.
+Rxc3 Rc8 1/2-1/2
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.21"]
+[Round "9"]
+[White "Lozano Ruiz, David"]
+[Black "Moreno Oller, Victor"]
+[Result "1/2-1/2"]
+[ECO "A26"]
+[WhiteElo "1844"]
+[BlackElo "1730"]
+[PlyCount "35"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 e5 2. g3 g6 3. Bg2 Bg7 4. Nc3 Nc6 5. e4 d6 6. Nge2 Nge7 7. d3 O-O 8. O-O
+f5 9. Nd5 h6 10. Be3 Nb8 11. Qd2 Kh7 12. d4 c6 13. Nxe7 Qxe7 14. Rac1 fxe4 15.
+Bxe4 exd4 16. Qd3 dxe3 17. Bxg6+ Kh8 18. fxe3 1/2-1/2

@@ -1,0 +1,87 @@
+[Event "Lleida indiv. B ch"]
+[Site "?"]
+[Date "2009.10.11"]
+[Round "1.27"]
+[White "Escoda Rodriguez, D."]
+[Black "Pareja Guerrero, J."]
+[Result "1-0"]
+[ECO "A85"]
+[WhiteElo "1831"]
+[BlackElo "1700"]
+[PlyCount "113"]
+[EventDate "2009.??.??"]
+
+1. d4 e6 2. c4 f5 3. Nc3 Nf6 4. Bg5 Be7 5. Bxf6 Bxf6 6. e3 O-O 7. Nf3 c6 8. g3
+d5 9. cxd5 cxd5 10. Bd3 Be7 11. O-O Nd7 12. a3 Nf6 13. Ne5 Bd7 14. Qb3 Rb8 15.
+Rac1 Ne4 16. Bxe4 fxe4 17. Nxd5 Bd6 18. Nf4 Re8 19. Rfd1 Re7 20. Nc4 Bxf4 21.
+exf4 Bc6 22. Ne3 Bd5 23. Nxd5 exd5 24. Rc5 Rd7 25. Re1 b6 26. Rc3 Kf8 27. f3
+Qf6 28. Qb4+ Qe7 29. Qxe7+ Rxe7 30. fxe4 dxe4 31. Rce3 Rbe8 32. g4 Kf7 33. Kg2
+Kf6 34. h4 g6 35. Rc1 Rd8 36. Rc4 Rd5 37. a4 h6 38. b4 Kf7 39. Kg3 Kg7 40. g5
+h5 41. b5 Kf7 42. Kf2 Kg7 43. Re1 Kf7 44. Ke3 Ke8 45. Rc6 Kf7 46. Rec1 Rf5 47.
+Rc7 Rd5 48. Rxe7+ Kxe7 49. Kxe4 Ke6 50. Rc6+ Rd6 51. d5+ Kd7 52. Ke5 Rxc6 53.
+dxc6+ Kc7 54. Kf6 a6 55. Kxg6 axb5 56. axb5 Kd6 57. f5 1-0
+
+[Event "Lleida indiv. B ch"]
+[Site "?"]
+[Date "2009.10.18"]
+[Round "2.7"]
+[White "Ruiz Garcia, L."]
+[Black "Escoda Rodriguez, D."]
+[Result "1-0"]
+[ECO "C00"]
+[WhiteElo "1891"]
+[BlackElo "1831"]
+[PlyCount "42"]
+[EventDate "2009.??.??"]
+
+1. e4 e6 2. Nc3 c6 3. d4 d5 4. a3 dxe4 5. Nxe4 Nf6 6. Bg5 Be7 7. Nc5 Qd5 8. Nf3
+Nbd7 9. c4 Qd6 10. Bxf6 Bxf6 11. Ne4 Qe7 12. c5 O-O 13. Be2 b6 14. b4 Rd8 15.
+O-O Ne5 16. Nxf6+ gxf6 17. Qe1 Nxf3+ 18. Bxf3 Ba6 19. Bxc6 Rac8 20. b5 bxc5 21.
+d5 Rxc6 {irreproduible} 1-0
+
+[Event "Lleida indiv. B ch"]
+[Site "?"]
+[Date "2009.10.25"]
+[Round "3.23"]
+[White "Escoda Rodriguez, D."]
+[Black "Ros Pane, C."]
+[Result "1-0"]
+[ECO "D10"]
+[WhiteElo "1831"]
+[BlackElo "1700"]
+[PlyCount "69"]
+[EventDate "2009.??.??"]
+
+1. d4 d5 2. c4 Nf6 3. Nc3 c6 4. e3 Bf5 5. cxd5 cxd5 6. Bd3 Be6 7. Nf3 h6 8. O-O
+Nc6 9. Qb3 Qb8 10. Bb5 Qd6 11. Bxc6+ bxc6 12. Qb7 Rd8 13. Qxa7 g5 14. Qc5 Qc7
+15. Ne5 Bd7 16. Ne2 Ng4 17. Nxg4 Bxg4 18. f3 Bd7 19. Bd2 Qb8 20. Qc3 e6 21. e4
+f6 22. exd5 cxd5 23. b3 h5 24. f4 g4 25. Qg3 Bd6 26. Qd3 h4 27. Qg6+ Ke7 28.
+Qg7+ Ke8 29. Qxh8+ Ke7 30. Qxh4 e5 31. Qh7+ Ke8 32. fxe5 f5 33. Qg8+ Bf8 34.
+Qg6+ Ke7 35. Bg5# 1-0
+
+[Event "Vallfogona rapid op 25th"]
+[Site "Vallfogona de Balague"]
+[Date "2017.09.17"]
+[Round "1"]
+[White "Escoda Rodriguez, David"]
+[Black "Panelo Munoz, Marcelo A"]
+[Result "0-1"]
+[ECO "E21"]
+[WhiteElo "1675"]
+[BlackElo "2388"]
+[PlyCount "50"]
+[EventDate "2017.09.17"]
+[EventType "swiss (rapid)"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Bd2 O-O 5. Nf3 b6 6. g3 Bb7 7. Bg2 c5 8. O-O
+cxd4 9. Nxd4 Bxg2 10. Kxg2 Qc7 11. Bf4 e5 12. Ndb5 Qb7+ 13. f3 exf4 14. gxf4
+Bxc3 15. Nxc3 Na6 16. Qd4 Nc5 17. Rad1 Rac8 18. Nd5 Nxd5 19. Qxd5 Qxd5 20. Rxd5
+Ne6 21. Rxd7 Nxf4+ 22. Kf2 Rxc4 23. Rxa7 Rc2 24. Re1 Rxb2 25. a4 Nd3+ 0-1

@@ -1,0 +1,179 @@
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.01.14"]
+[Round "1"]
+[White "Febrero Perez, Lluis"]
+[Black "Llacuna Fabregat, Josep Maria"]
+[Result "0-1"]
+[ECO "B01"]
+[WhiteElo "1525"]
+[BlackElo "1750"]
+[PlyCount "110"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 d5 2. exd5 Qxd5 3. c4 Qd8 4. Nc3 Nf6 5. Nf3 Nc6 6. d4 Bf5 7. b3 Nb4 8.
+Nh4 Qd7 9. Nxf5 Qxf5 10. Rb1 Ne4 11. Nxe4 Qxe4+ 12. Be3 Nxa2 13. Rb2 Nb4 14.
+Qd2 e6 15. f3 Qc6 16. Be2 Be7 17. O-O a5 18. f4 Qd7 19. Bg4 Bf6 20. f5 e5 21.
+d5 O-O 22. Qc3 b6 23. Re2 Rfe8 24. Qd2 Rad8 25. Rf3 e4 26. Rh3 Nd3 27. Bg5 Qd6
+28. Rg3 Bxg5 29. Qxg5 Qf4 30. Qxf4 Nxf4 31. Rf2 Nd3 32. Rd2 f6 33. Re3 Nb4 34.
+Bh3 Re5 35. g4 Kf7 36. Bg2 Rde8 37. h4 g6 38. fxg6+ hxg6 39. Kh2 f5 40. gxf5
+gxf5 41. Kg3 Rg8+ 42. Kf4 Nd3+ 43. Rdxd3 exd3 44. Rxe5 Rxg2 45. Rxf5+ Kg7 46.
+Ke3 d2 47. Rf1 Rh2 48. Rd1 Rxh4 49. Rxd2 Rh3+ 50. Kd4 Rxb3 51. Ra2 Rb4 52. Ra3
+Kf6 53. Kc3 Ke5 54. Kd3 Kd6 55. Kd4 a4 0-1
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.01.28"]
+[Round "3"]
+[White "Llacuna Fabregat, Josep Maria"]
+[Black "Gil Fernandez, Lluis Antoni"]
+[Result "1-0"]
+[ECO "C60"]
+[WhiteElo "1750"]
+[BlackElo "1702"]
+[PlyCount "65"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nge7 4. Nc3 a6 5. Bc4 b5 6. Bb3 h6 7. d3 Bb7 8. a3
+d6 9. Be3 Na5 10. Ba2 Ng6 11. Qd2 Be7 12. Nd5 O-O 13. Qxa5 Rc8 14. Nxe7+ Qxe7
+15. Qd2 c5 16. c4 Rfd8 17. O-O Bc6 18. h3 Bd7 19. Nh2 Kh7 20. f4 exf4 21. Bxf4
+Rf8 22. b4 Rcd8 23. cxb5 axb5 24. Bd5 Rc8 25. Rac1 Rc7 26. bxc5 dxc5 27. Bxc7
+Bxh3 28. Bg3 Bc8 29. Bf2 Qd7 30. Bxc5 Re8 31. Rxf7 Qd8 32. Qc3 Ne5 33. Rf8 1-0
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.02.04"]
+[Round "4"]
+[White "Llacuna Fabregat, Josep Maria"]
+[Black "Rovira Morancho, Miquel"]
+[Result "1-0"]
+[ECO "D00"]
+[WhiteElo "1750"]
+[BlackElo "1683"]
+[PlyCount "53"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 g6 3. Bg5 Bg7 4. Nc3 d5 5. Qd2 O-O 6. Bh6 Ne4 7. Nxe4 dxe4 8.
+Bxg7 Kxg7 9. Ng5 Qd5 10. h4 h6 11. Nh3 Nc6 12. e3 Qd6 13. Be2 e5 14. c3 a5 15.
+Qc2 exd4 16. exd4 e3 17. Bf3 Re8 18. O-O-O Bxh3 19. Rxh3 Qf4 20. Kb1 e2 21. Re1
+Re7 22. Rxe2 Rae8 23. Rxe7 Rxe7 24. Rh1 Nd8 25. Qd3 c6 26. g3 Qd6 27. Rd1 1-0
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.02.11"]
+[Round "5"]
+[White "Diaz Soro, Josep Lluis"]
+[Black "Llacuna Fabregat, Josep Maria"]
+[Result "1/2-1/2"]
+[ECO "A03"]
+[WhiteElo "1700"]
+[BlackElo "1750"]
+[PlyCount "93"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. f4 d5 2. e3 Nf6 3. Nf3 Bf5 4. Be2 e6 5. O-O Bc5 6. d4 Bb6 7. Na3 Nbd7 8. c4
+c6 9. c5 Bc7 10. Bd2 Ne4 11. Nc2 Nxd2 12. Nxd2 Qh4 13. Nf3 Qh6 14. b4 a6 15.
+Bd3 Bxd3 16. Qxd3 Nf6 17. Ng5 Qh5 18. Rf3 Qg6 19. Qxg6 hxg6 20. Rh3 Ke7 21.
+Rxh8 Rxh8 22. a4 Nd7 23. Na3 f6 24. Nf3 e5 25. g3 e4 26. Nh4 Kf7 27. b5 f5 28.
+Rb1 Rb8 29. b6 Bd8 30. Ng2 g5 31. Nc2 gxf4 32. exf4 Bf6 33. Nge3 Ke6 34. h4 Rh8
+35. Kg2 g6 36. Nf1 Kf7 37. Nd2 e3 38. Nb3 Re8 39. Re1 Re4 40. Kf3 Nf8 41. Rxe3
+Ne6 42. Rxe4 dxe4+ 43. Ke3 Nd8 44. Nb4 Ke6 45. Na5 Kd7 46. Nb3 Ke6 47. Na5
+1/2-1/2
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.02.18"]
+[Round "6"]
+[White "Llacuna Fabregat, Josep Maria"]
+[Black "Marimon Torrens, Jordi"]
+[Result "0-1"]
+[ECO "D03"]
+[WhiteElo "1750"]
+[BlackElo "1838"]
+[PlyCount "120"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 g6 3. Bg5 Bg7 4. e3 d5 5. Bd3 c5 6. c3 c4 7. Bc2 O-O 8. Nbd2
+b5 9. e4 Bb7 10. e5 Ne4 11. Nxe4 dxe4 12. Nd2 e3 13. Nf3 exf2+ 14. Kxf2 f6 15.
+exf6 exf6 16. Bf4 Nc6 17. Re1 Qd7 18. Qd2 Rfe8 19. Rxe8+ Rxe8 20. Re1 Rxe1 21.
+Qxe1 Ne7 22. Be4 Nd5 23. Bxd5+ Bxd5 24. a3 g5 25. Bc1 Kf7 26. Qe2 Qf5 27. Kg1
+Bf8 28. Qf2 Kg6 29. Ne1 Qg4 30. h3 Qe6 31. Qe3 Qd7 32. Nf3 h6 33. Qd2 Bd6 34.
+Qc2+ Kg7 35. Kf2 Bc7 36. Qe2 Qd6 37. Ke1 Qg3+ 38. Qf2 Bxf3 39. gxf3 Qxh3 40.
+Ke2 Bg3 41. Qf1 Qh2+ 42. Kd1 h5 43. Qe2 Qxe2+ 44. Kxe2 h4 45. Kf1 Kg6 46. Kg2
+Kf5 47. Be3 Kg6 48. Kh3 Kh5 49. Kg2 f5 50. Kg1 Bd6 51. Kg2 g4 52. f4 Kg6 53.
+Kh2 Kf7 54. Kg2 Ke6 55. Kf2 Kd5 56. Kg2 Ke4 57. Bc1 Bxf4 58. Bxf4 Kxf4 59. Kh2
+g3+ 60. Kg2 Ke4 0-1
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.02.25"]
+[Round "7"]
+[White "Meyer, Kuno"]
+[Black "Llacuna Fabregat, Josep Maria"]
+[Result "0-1"]
+[ECO "B01"]
+[WhiteElo "1577"]
+[BlackElo "1750"]
+[PlyCount "75"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 d5 2. exd5 Qxd5 3. Qf3 Qc5 4. c3 Nc6 5. Qe3 Qd6 6. d4 Nf6 7. Nf3 Bf5 8.
+Qf4 e6 9. Bb5 Qd5 10. Qe5 Bd6 11. Qxd5 Nxd5 12. O-O O-O 13. Bg5 Nce7 14. Re1 a6
+15. Bf1 Ng6 16. Nh4 Nxh4 17. Bxh4 Bf4 18. Bg3 Bxg3 19. hxg3 Rad8 20. f4 h5 21.
+Nd2 Rfe8 22. Nf3 Ne7 23. Ne5 f6 24. Nf3 Nd5 25. Kf2 Bg4 26. Be2 Kf7 27. Nh4
+Bxe2 28. Rxe2 f5 29. Nf3 Kf6 30. Rae1 Rd6 31. Rh1 g6 32. Rhe1 c6 33. Ng5 Re7
+34. Nf3 Nc7 35. Ng5 Rd5 36. Re5 Rb5 37. Rxb5 cxb5 38. Nf3 0-1

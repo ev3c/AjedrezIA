@@ -1,0 +1,244 @@
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.13"]
+[Round "1"]
+[White "Millan Hernandez, M."]
+[Black "Olleta Tanya, J."]
+[Result "1-0"]
+[ECO "C50"]
+[WhiteElo "1806"]
+[BlackElo "1527"]
+[PlyCount "57"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Be7 4. c3 Nf6 5. d3 h6 6. b4 a6 7. Be3 d6 8. Qb3 O-O
+9. a4 Bg4 10. Nbd2 Bh5 11. h3 Qd7 12. O-O g5 13. Nh2 Kg7 14. d4 Bg6 15. Bd3 Nh5
+16. b5 Nd8 17. Rfe1 Ne6 18. Rad1 Nef4 19. Bf1 d5 20. dxe5 Qe6 21. Bd4 dxe4 22.
+Bc4 Nxh3+ 23. gxh3 Qxh3 24. Bf1 Qh4 25. Re3 Nf4 26. Rde1 Bf5 27. Nxe4 Bh3 28.
+Ng3 Bxf1 29. Nf5+ 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.14"]
+[Round "2"]
+[White "Labad Ameneda, R."]
+[Black "Millan Hernandez, M."]
+[Result "0-1"]
+[ECO "C02"]
+[BlackElo "1806"]
+[PlyCount "68"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. Nf3 cxd4 5. Nxd4 Ne7 6. Be3 Nbc6 7. Nxc6 Nxc6 8.
+f4 Bd7 9. Nc3 Rc8 10. Qd2 Bb4 11. O-O-O Qa5 12. Kb1 Ne7 13. Bd4 Nf5 14. a3 Bxa3
+15. bxa3 Nxd4 16. Qxd4 Rxc3 17. Rd3 Rxa3 18. Rxa3 Qxa3 19. Be2 O-O 20. Rd1 Rc8
+21. Rd3 Qa5 22. Rb3 b6 23. Bd1 Qe1 24. Ra3 Rc7 25. f5 Bb5 26. Kc1 h6 27. fxe6
+fxe6 28. Re3 Qf2 29. Kb1 Ba4 30. Qd3 Qxg2 31. Re2 Qf1 32. Kc1 Rxc2+ 33. Kb1
+Rxe2 34. Qxe2 Qxd1+ 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.15"]
+[Round "3"]
+[White "Millan Hernandez, M."]
+[Black "Aguilera Bonaque, J."]
+[Result "0-1"]
+[ECO "B45"]
+[WhiteElo "1806"]
+[BlackElo "1957"]
+[PlyCount "106"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e6 5. Nc3 Nf6 6. Ndb5 Bb4 7. a3 Bxc3+ 8.
+Nxc3 O-O 9. Bg5 h6 10. Bh4 g5 11. Bg3 e5 12. Qd6 Re8 13. Nd5 Re6 14. Nxf6+ Qxf6
+15. Qd2 Rd6 16. Bd3 b6 17. Qe3 Nd4 18. O-O-O Rc6 19. h4 g4 20. h5 Qe6 21. Kb1
+d6 22. f3 Qf6 23. fxg4 Bxg4 24. Rdf1 Qg5 25. Bf4 exf4 26. Qxd4 Rd8 27. Bc4 Qe5
+28. Qd3 Rdc8 29. Bb3 Be6 30. Rh4 Bxb3 31. cxb3 Rc2 32. Rg4+ Kf8 33. Qxc2 Rxc2
+34. Kxc2 Qxe4+ 35. Kd1 Qd3+ 36. Ke1 Qe3+ 37. Kd1 Qxb3+ 38. Ke1 Qe3+ 39. Kd1
+Qd3+ 40. Ke1 Qe3+ 41. Kd1 Qb3+ 42. Ke1 Qxb2 43. Rgxf4 Qxa3 44. Rxf7+ Ke8 45.
+Rc7 Qa5+ 46. Kf2 Kd8 47. Rb7 Qc5+ 48. Kg3 Qe5+ 49. Kh4 Qe4+ 50. Kg3 Qxb7 51.
+Rf8+ Ke7 52. Rh8 Qe4 53. Rxh6 Qe3+ 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.16"]
+[Round "4"]
+[White "Muratet Carmona, A."]
+[Black "Millan Hernandez, M."]
+[Result "0-1"]
+[ECO "C01"]
+[WhiteElo "1705"]
+[BlackElo "1806"]
+[PlyCount "122"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. Bd3 Nc6 5. c3 Bd6 6. Nf3 Bg4 7. h3 Bh5 8. g4
+Bg6 9. Bxg6 hxg6 10. Qe2+ Qe7 11. Qxe7+ Ngxe7 12. Ng5 f6 13. Ne6 Kf7 14. Nf4
+Rae8 15. Kd1 g5 16. Ng2 Ng6 17. Be3 Nh4 18. Ne1 Bf4 19. Bxf4 gxf4 20. Nd2 Re6
+21. Nd3 g5 22. Nc5 Re7 23. Nxb7 Rb8 24. Nc5 Rbe8 25. Nd3 Na5 26. b3 Nb7 27. Re1
+Rxe1+ 28. Nxe1 Rh8 29. Kc2 Ng6 30. Nd3 Rxh3 31. Nb4 Ne7 32. c4 Rh2 33. f3 dxc4
+34. bxc4 Nd6 35. Kd3 a5 36. Na6 c6 37. Nc5 f5 38. gxf5 Nexf5 39. Ndb3 Rf2 40.
+Nd2 Nh4 41. Rf1 Rxf1 42. Nxf1 Nxf3 43. Ne4 Ne1+ 44. Ke2 Nxe4 45. Kxe1 Ke6 46.
+Nh2 Kf5 47. a3 Nd6 48. c5 Nb5 49. Nf3 Nxa3 50. d5 cxd5 51. Nd4+ Kf6 52. c6 Nc4
+53. Kf2 g4 54. Nb5 Ke6 55. c7 Nb6 56. Na7 Kd7 57. Nb5 a4 58. Nd4 a3 59. Nb3
+Kxc7 60. Nd4 a2 61. Nb3 Kd6 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.17"]
+[Round "5"]
+[White "Millan Hernandez, M."]
+[Black "Aprea, D."]
+[Result "1/2-1/2"]
+[ECO "C04"]
+[WhiteElo "1806"]
+[BlackElo "1945"]
+[PlyCount "57"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nc6 4. Ngf3 Nf6 5. e5 Nd7 6. c3 f6 7. exf6 Qxf6 8. Bd3
+Bd6 9. Nf1 h6 10. Ne3 Qf7 11. Ng4 e5 12. Ngxe5 Ndxe5 13. dxe5 Nxe5 14. Nxe5
+Bxe5 15. Be3 Bf5 16. Qa4+ Qd7 17. Qxd7+ Bxd7 18. Bg6+ Ke7 19. O-O-O c6 20. Bc5+
+Kf6 21. Bc2 Bf5 22. Rhe1 Bxc2 23. Kxc2 Rhe8 24. g3 b6 25. Be3 Kf7 26. f4 Bf6
+27. Bf2 Rxe1 28. Rxe1 Re8 29. Rxe8 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.18"]
+[Round "6"]
+[White "Molano Lafuente, I."]
+[Black "Millan Hernandez, M."]
+[Result "1-0"]
+[ECO "A03"]
+[WhiteElo "1943"]
+[BlackElo "1806"]
+[PlyCount "107"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. f4 Nf6 2. Nf3 d5 3. e3 c5 4. d4 Nc6 5. c3 cxd4 6. exd4 Bg4 7. Be2 Bxf3 8.
+Bxf3 e6 9. O-O Qb6 10. Qe2 g6 11. Be3 Bg7 12. Na3 O-O 13. g4 Rad8 14. Rf2 a6
+15. h4 Ne4 16. Bxe4 dxe4 17. d5 Nd4 18. Bxd4 Bxd4 19. cxd4 exd5 20. Qe3 Rc8 21.
+Rd1 Rc7 22. Nb1 Rfc8 23. Nc3 Qd6 24. f5 Qd7 25. Rdf1 Qd6 26. f6 Rd7 27. Qh6 Qf8
+28. Qxf8+ Kxf8 29. Rd1 h6 30. g5 h5 31. Kf1 Rc4 32. Re2 Rd6 33. Ke1 b5 34. a3
+Rd7 35. Na2 a5 36. Rc1 Ke8 37. Rxc4 bxc4 38. Kd1 Kd8 39. Kc2 Kc7 40. b3 Kb6 41.
+bxc4 Rc7 42. c5+ Kb5 43. Kc3 Ka4 44. Rb2 Rd7 45. Nc1 Rc7 46. Ne2 Rd7 47. c6 Rc7
+48. Rb6 Kxa3 49. Nf4 e3 50. Nxd5 e2 51. Kd2 a4 52. Nxc7 Ka2 53. Nd5 a3 54. Nc3+
+1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.19"]
+[Round "7"]
+[White "Millan Hernandez, M."]
+[Black "Llados Clos, J."]
+[Result "0-1"]
+[ECO "C53"]
+[WhiteElo "1806"]
+[BlackElo "1568"]
+[PlyCount "106"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Qe7 5. O-O d6 6. d4 Bb6 7. Ng5 Nh6 8. Be3
+O-O 9. h3 Kh8 10. Nf3 Ng8 11. Na3 Nf6 12. Bd3 exd4 13. cxd4 Nxe4 14. Nc4 d5 15.
+Nxb6 axb6 16. a3 Nf6 17. Re1 Qd6 18. Rc1 Ne7 19. Bd2 Nc6 20. Bb1 Bd7 21. Qc2 h6
+22. Qd3 Ne4 23. Be3 Bf5 24. Nh4 Bh7 25. Qe2 Rfe8 26. Qf1 Na5 27. Ba2 Nc6 28. g3
+Nxg3 29. fxg3 Qxg3+ 30. Ng2 Be4 31. Bf2 Qxh3 32. Bb1 Bf3 33. Bd3 Bxg2 34. Qxg2
+Qxd3 35. Qxd5 Qg6+ 36. Kh2 Qd6+ 37. Qxd6 cxd6 38. Kg2 d5 39. Rcd1 Kg8 40. Kf3
+Kf8 41. Rg1 Re6 42. Rg4 Rf6+ 43. Kg2 Re8 44. Rd2 Ree6 45. Kh2 Rg6 46. Rh4 Ne7
+47. Rh3 Re4 48. Rc3 Nc6 49. Rb3 Na5 50. Rb5 Rg5 51. Rc2 Kg8 52. Rxb6 Reg4 53.
+Rd6 Rh5+ 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.20"]
+[Round "8"]
+[White "Fungueiriño Pique, D."]
+[Black "Millan Hernandez, M."]
+[Result "0-1"]
+[ECO "D04"]
+[WhiteElo "1694"]
+[BlackElo "1806"]
+[PlyCount "76"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d5 2. Nf3 Nf6 3. e3 Bf5 4. Bd3 Bxd3 5. Qxd3 c6 6. Nbd2 Nbd7 7. O-O g6 8.
+Re1 Bg7 9. Nf1 O-O 10. Ng3 Re8 11. Ne5 h5 12. Nxg6 fxg6 13. Qxg6 Nf8 14. Qf5
+Qd7 15. Qf3 Qg4 16. h3 Qxf3 17. gxf3 Ng6 18. Nf5 Bf8 19. e4 e6 20. Bg5 Nh7 21.
+Nh6+ Bxh6 22. Bxh6 Nh4 23. Re3 e5 24. dxe5 Rxe5 25. f4 Re6 26. Rg3+ Rg6 27.
+Rxg6+ Nxg6 28. Kh2 Kf7 29. e5 Ne7 30. Re1 Nf5 31. Bg5 Nxg5 32. fxg5 Ke6 33. f4
+Nd4 34. Kg3 Nxc2 35. Rg1 Nd4 36. Kh4 Nf3+ 37. Kxh5 Nxg1 38. h4 Kf5 0-1
+
+[Event "Sant Adria de Besos op 13th"]
+[Site "Sant Adria de Besos"]
+[Date "2017.05.21"]
+[Round "5"]
+[White "Millan Hernandez, Marc"]
+[Black "Seijas Castro, Pedro"]
+[Result "1-0"]
+[ECO "C53"]
+[WhiteElo "2004"]
+[BlackElo "1894"]
+[PlyCount "65"]
+[EventDate "2017.04.23"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d4 exd4 5. c3 Qe7 6. O-O Ne5 7. Nxe5 Qxe5 8.
+g3 d6 9. Bf4 Qe7 10. cxd4 Bb6 11. e5 Kf8 12. exd6 cxd6 13. Re1 Qc7 14. Qf3 Nf6
+15. Na3 Bd7 16. Rac1 Bg4 17. Qd3 Rd8 18. Nb5 Qb8 19. Qa3 Ne8 20. Rxe8+ Kxe8 21.
+Bxd6 Rxd6 22. Nxd6+ Kd7 23. Bb5+ Ke6 24. Re1+ Kf6 25. Nxf7 Kxf7 26. Qe7+ Kg6
+27. Bd3+ Kh6 28. Qh4+ Bh5 29. g4 g6 30. gxh5 Bd8 31. Qh3 Kg7 32. h6+ Kf8 33.
+Qf3+ 1-0
+
+[Event "Sant Adria de Besos op 13th"]
+[Site "Sant Adria de Besos"]
+[Date "2017.05.28"]
+[Round "6"]
+[White "Serrano Pertinez, Miquel"]
+[Black "Millan Hernandez, Marc"]
+[Result "1-0"]
+[ECO "A01"]
+[WhiteElo "2250"]
+[BlackElo "2004"]
+[PlyCount "89"]
+[EventDate "2017.04.23"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. b3 e5 2. Bb2 Nc6 3. e3 a6 4. c4 Nf6 5. Nf3 d6 6. Nc3 Bg4 7. h3 Bh5 8. g4 Bg6
+9. Nh4 Be7 10. Nxg6 hxg6 11. Bg2 Qd7 12. Qf3 O-O 13. g5 e4 14. Qe2 Nh5 15. Nxe4
+f5 16. gxf6 gxf6 17. Bf3 Ng7 18. Rg1 Ne5 19. Bg2 f5 20. Nc5 dxc5 21. Bxe5 c6
+22. O-O-O a5 23. d4 a4 24. dxc5 Qe6 25. Bd4 axb3 26. axb3 f4 27. Bf3 Nf5 28.
+Bg4 Qf7 29. Bxf5 Qxf5 30. Qg4 Kh7 31. Qxf5 Rxf5 32. Rg4 fxe3 33. Bxe3 Ra1+ 34.
+Kd2 Rxd1+ 35. Kxd1 Bxc5 36. Kd2 Kg7 37. h4 Kf6 38. f4 Bb4+ 39. Kd3 Ra5 40. Ke4
+Ra3 41. Bd4+ Kf7 42. Rg3 Be7 43. h5 gxh5 44. Rg7+ Kf8 45. Rxe7 1-0

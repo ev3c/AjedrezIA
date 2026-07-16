@@ -1,0 +1,81 @@
+[Event "Camp. Catalunya eq. ( 2 cat. )"]
+[Site "?"]
+[Date "1931.12.01"]
+[Round "3"]
+[White "Masferrer"]
+[Black "Payrot, Vicenç"]
+[Result "1-0"]
+[ECO "C30"]
+[PlyCount "55"]
+[EventDate "1931.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. f4 d6 3. Nf3 Nc6 4. Bc4 Be6 5. Bb5 Nf6 6. Bxc6+ bxc6 7. d3 exf4 8.
+O-O d5 9. e5 Nd7 10. Bxf4 Be7 11. d4 c5 12. Kh1 c4 13. Nc3 a6 14. Qd2 c5 15.
+Bg5 cxd4 16. Ne2 Bxg5 17. Nxg5 Nxe5 18. Nxe6 fxe6 19. Nxd4 Qd6 20. Rae1 Kd7 21.
+Qg5 Ng6 22. Rxe6 Rhf8 23. Rxd6+ Kxd6 24. Nf5+ Kc6 25. Nd4+ Kd6 26. Qg3+ Ne5 27.
+Qa3+ Kd7 28. Rxf8 1-0
+
+[Event "Camp. Catalunya eq. ( 2 cat. )"]
+[Site "?"]
+[Date "1931.12.04"]
+[Round "4"]
+[White "Payrot, Vicenç"]
+[Black "Abos, J."]
+[Result "0-1"]
+[ECO "D51"]
+[PlyCount "96"]
+[EventDate "1931.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 e6 3. Nf3 Nd7 4. Nc3 c6 5. Bf4 Ngf6 6. Bg5 Bb4 7. e3 Qa5 8. Qb3
+dxc4 9. Bxc4 Ne4 10. O-O Bxc3 11. bxc3 Nxg5 12. Nxg5 Qxg5 13. f4 Qe7 14. f5 Nb6
+15. fxe6 Bxe6 16. Bxe6 Qxe6 17. Qb4 Qe7 18. Qb2 Qxe3+ 19. Kh1 O-O 20. Rae1 Qg5
+21. Re5 Nc4 22. Rxg5 Nxb2 23. Rb1 Rae8 24. h3 Re2 25. Re5 Rc2 26. Re7 Nc4 27.
+Rexb7 Rxc3 28. Rxa7 Ra3 29. Rxa3 Nxa3 30. Rc1 Nb5 31. Rxc6 Nxd4 32. Ra6 g6 33.
+a4 Ne6 34. g4 Kg7 35. Kg2 Rc8 36. Ra7 Nd4 37. a5 Rc2+ 38. Kg3 Ra2 39. a6 Nc6
+40. Ra8 Nb4 41. a7 Nc6 42. Rc8 Nxa7 43. Ra8 Ra3+ 44. Kh4 Nb5 45. Rb8 Nd6 46.
+Rb6 Ne4 47. g5 Ra4 48. Rb7 Nxg5+ 0-1
+
+[Event "Camp. Catalunya eq. ( 2 cat. )"]
+[Site "?"]
+[Date "1931.12.04"]
+[Round "4"]
+[White "Payrot, Vicenç"]
+[Black "Martinez"]
+[Result "0-1"]
+[ECO "A52"]
+[PlyCount "99"]
+[EventDate "1931.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e5 3. dxe5 Ng4 4. Nf3 Bb4+ 5. Bd2 Bc5 6. e3 Qe7 7. h3 Nxe5 8.
+Nxe5 Qxe5 9. Bc3 Qe7 10. Bxg7 Rg8 11. Bd4 Bxd4 12. Qxd4 Nc6 13. Qd3 h6 14. a3
+d6 15. Nc3 Be6 16. Nd5 Bxd5 17. cxd5 Ne5 18. Qb5+ c6 19. dxc6 bxc6 20. Qb4 Rxg2
+$1 21. O-O-O Rxf2 22. Qxd6 Qxd6 23. Rxd6 Rb8 24. Rd2 Rxd2 25. Kxd2 Rxb2+ 26.
+Kc3 Rb1 27. Kc2 Re1 28. Kd2 Ra1 29. Bg2 Ra2+ 30. Kc3 Rxg2 31. Kd4 f6 32. Rb1
+Rd2+ 33. Ke4 c5 34. Rb8+ Rd8 35. Rb7 a6 36. Rc7 c4 37. Kf5 Rd7 38. Rc8+ Kf7 39.
+Rh8 Kg7 40. Rc8 Nf7 41. Rc6 Rd5+ 42. Ke4 Ra5 43. Kd4 Rxa3 44. Rxc4 a5 45. Rc5
+Nd8 46. Ke4 a4 47. Kf5 Rxe3 48. Rc7+ Nf7 49. h4 h5 50. Ra7 0-1
+
+[Event "Camp. Catalunya eq. ( 2 cat. )"]
+[Site "?"]
+[Date "1931.12.08"]
+[Round "5"]
+[White "Payrot, Vicenç"]
+[Black "Paya, Ramon"]
+[Result "1-0"]
+[ECO "D00"]
+[PlyCount "61"]
+[EventDate "1931.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. g3 Nf6 3. Bg2 e6 4. Nf3 Bd6 5. O-O O-O 6. Bg5 Re8 7. e3 e5 8. dxe5
+Bxe5 9. Nxe5 Rxe5 10. Bxf6 Qxf6 11. Bxd5 c6 12. Bg2 Nd7 13. Nc3 Nc5 14. e4 Be6
+15. f4 Rxe4 16. Nxe4 Nxe4 17. Bxe4 Rd8 18. Qf3 Bh3 19. Rfd1 g6 20. c3 Re8 21.
+Re1 Rd8 22. Rad1 Re8 23. Qf2 b6 24. Bg2 Rxe1+ 25. Rxe1 Bd7 26. Qd4 Qd8 27. h4
+Qc7 28. Kh2 h5 29. Re7 c5 30. Qxd7 Qxd7 31. Rxd7 1-0

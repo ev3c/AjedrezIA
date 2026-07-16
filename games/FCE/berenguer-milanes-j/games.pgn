@@ -1,0 +1,102 @@
+[Event "Ct. Lleida indiv. B"]
+[Site "?"]
+[Date "2010.10.17"]
+[Round "2.6"]
+[White "Berenguer Milanes, J."]
+[Black "Rodriguez Moles, J."]
+[Result "1/2-1/2"]
+[ECO "C62"]
+[BlackElo "1669"]
+[PlyCount "78"]
+[EventDate "2010.??.??"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 d6 4. d4 exd4 5. Nxd4 Bd7 6. O-O Nxd4 7. Bxd7+ Qxd7
+8. Qxd4 Nf6 9. Nd2 Be7 10. Nf3 O-O 11. e5 dxe5 12. Qxe5 Bd6 13. Qc3 Rfe8 14.
+Be3 Nd5 15. Qb3 Nxe3 16. fxe3 b6 17. Rad1 h6 18. Qd5 Qe6 19. Qc6 Qxe3+ 20. Kh1
+Qc5 21. Qd7 Rad8 22. Qa4 a5 23. Qb3 Re3 24. c3 Qh5 25. h3 Qg6 26. Nh4 Qg3 27.
+Qxf7+ Kh8 28. Rxd6 Qxh4 29. Qxc7 Rde8 30. Rdd1 Re1 31. Qxb6 Rxd1 32. Rxd1 Re1+
+33. Rxe1 Qxe1+ 34. Qg1 Qd2 35. Qb1 a4 36. c4 Qd4 37. b3 a3 38. Qc2 Qb2 39. Qd1
+Qxa2 1/2-1/2
+
+[Event "Ct. Lleida indiv. B"]
+[Site "?"]
+[Date "2010.10.24"]
+[Round "3.10"]
+[White "Molano Gonzalez, A."]
+[Black "Berenguer Milanes, J."]
+[Result "1-0"]
+[ECO "D45"]
+[WhiteElo "1590"]
+[PlyCount "48"]
+[EventDate "2010.??.??"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 c6 4. Nc3 d5 5. e3 Bb4 6. Bd2 O-O 7. Bd3 Nbd7 8. Rc1
+Bd6 9. cxd5 exd5 10. O-O Qc7 11. e4 dxe4 12. Nxe4 Nxe4 13. Bxe4 Nf6 14. Qc2 Bg4
+15. g3 Nxe4 16. Qxe4 f5 17. Qe6+ Kh8 18. Qb3 Rae8 19. Rfe1 f4 20. Rxe8 Rxe8 21.
+Ne5 Bxe5 22. dxe5 Rxe5 23. Bxf4 Qe7 24. Bxe5 Qxe5 1-0
+
+[Event "Ct. Lleida indiv. Absolut B"]
+[Site "?"]
+[Date "2011.10.09"]
+[Round "1.3"]
+[White "Berenguer Milanes, J."]
+[Black "Sole Monistrol, F."]
+[Result "0-1"]
+[ECO "B50"]
+[BlackElo "1863"]
+[PlyCount "94"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+
+1. e4 c5 2. Nf3 d6 3. Bc4 e6 4. O-O Nf6 5. d3 Be7 6. Bg5 O-O 7. e5 dxe5 8. Nxe5
+Qd4 9. Nd2 Qxe5 10. Ne4 h6 11. Bh4 Nxe4 12. Bxe7 Re8 13. dxe4 Nc6 14. Bd6 Qxe4
+15. Bd3 Qb4 16. b3 Rd8 17. Bg3 b5 18. Qf3 Bb7 19. a3 Qa5 20. Qe4 g6 21. Qe3 h5
+22. Qh6 Qc3 23. Bxb5 Qg7 24. Qe3 Nd4 25. Bd3 Rd7 26. Rad1 Rad8 27. Be5 Qf8 28.
+Bf6 Rc8 29. Rfe1 Kh7 30. Qh3 Qh6 31. Re5 Kg8 32. Bg5 Qg7 33. Ree1 f6 34. Be3 e5
+35. f4 e4 36. Bc4+ Kh7 37. Bb5 Rd6 38. Bc4 Rdd8 39. Bxd4 cxd4 40. f5 Rc5 41.
+Be6 Qh6 42. g4 Rxc2 43. fxg6+ Kg7 44. gxh5 Qg5+ 45. Qg3 Qxh5 46. Bf7 e3 47. Rd3
+Rg2+ 0-1
+
+[Event "Ct. Lleida indiv. Absolut B"]
+[Site "?"]
+[Date "2011.10.23"]
+[Round "4.9"]
+[White "Pages Janer, J."]
+[Black "Berenguer Milanes, J."]
+[Result "1-0"]
+[ECO "C70"]
+[WhiteElo "1712"]
+[PlyCount "91"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 b5 5. Bb3 d6 6. Nc3 Be7 7. d3 Nf6 8. O-O
+O-O 9. h3 Na5 10. Bg5 Nxb3 11. axb3 Bb7 12. Re1 h6 13. Bh4 Nh7 14. Bxe7 Qxe7
+15. Nd5 Qd8 16. Qd2 f5 17. c4 Bxd5 18. exd5 f4 19. Ra5 bxc4 20. bxc4 Ng5 21.
+Nxg5 Qxg5 22. f3 Rf6 23. Rea1 Rg6 24. Rxa6 Rxa6 25. Rxa6 Qd8 26. b4 Qc8 27. b5
+Qxh3 28. Qf2 Qc8 29. Rc6 Rg5 30. b6 Qa8 31. Qb2 cxb6 32. Rxb6 Qa7 33. Kf1 Rh5
+34. Ke2 Rh2 35. Kf2 Qe7 36. Kf1 Rh1+ 37. Ke2 Qh4 38. Kd2 Rg1 39. Kc3 Qe1+ 40.
+Kb3 Qa5 41. Rxd6 Qc7 42. Qxe5 Qb7+ 43. Kc3 Rc1+ 44. Kd2 Rxc4 45. Qe8+ Kh7 46.
+Qg6+ 1-0
+
+[Event "Ct. Lleida indiv. Absolut B"]
+[Site "?"]
+[Date "2011.12.11"]
+[Round "9.10"]
+[White "Font Garcia, X."]
+[Black "Berenguer Milanes, J."]
+[Result "1-0"]
+[ECO "C52"]
+[WhiteElo "1745"]
+[PlyCount "67"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. b4 Bxb4 5. c3 Ba5 6. O-O Nf6 7. Qb3 O-O 8.
+Ng5 Qe7 9. d4 h6 10. Nf3 exd4 11. Re1 d6 12. e5 dxe5 13. Ba3 Qd8 14. Bxf8 Qxf8
+15. Nxe5 Nxe5 16. Rxe5 Bb6 17. Nd2 dxc3 18. Ne4 Nxe4 19. Bxf7+ Kh7 20. Rxe4 Bf5
+21. Rf4 Qc5 22. Bc4 Qe5 23. Rf3 Re8 24. Qd1 c2 25. Qf1 Rd8 26. Rc1 Ba5 27. Bb3
+Rd2 28. Re3 Qc5 29. h3 Bb6 30. Qe1 Qd6 31. Re2 Rd3 32. Bxc2 Rxh3 33. Bxf5+ Kg8
+34. Bxh3 1-0

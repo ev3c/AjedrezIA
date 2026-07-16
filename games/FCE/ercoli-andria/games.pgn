@@ -1,0 +1,138 @@
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.01.18"]
+[Round "1.10"]
+[White "Ercoli, Andria"]
+[Black "Colls Gelaberto, Emili"]
+[Result "1-0"]
+[ECO "D10"]
+[WhiteElo "1914"]
+[BlackElo "2030"]
+[PlyCount "43"]
+[GameId "2151339903691331"]
+[EventDate "2025.01.18"]
+
+1. d4 d5 2. c4 c6 3. cxd5 cxd5 4. Bf4 Nc6 5. e3 Bf5 6. Nc3 e6 7. Qb3 Qd7 8. Nf3 f6 9. Be2 Bd6 10. Bxd6 Qxd6 11. Qxb7 Rb8 12. Qxg7 Nge7 13. Qxh8+ Kf7 14. Ng5+ fxg5 15. Bh5+ Bg6 16. Qxh7+ Kf6 17. Bxg6 Nxg6 18. Qh3 Rxb2 19. O-O Nh4 20. Qg3 Qb4 21. Rfc1 Nf5 22. Nxd5+ 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.03.08"]
+[Round "8.10"]
+[White "Ercoli, Andria"]
+[Black "Menac Comas, Joan Ramon"]
+[Result "1/2-1/2"]
+[ECO "B14"]
+[WhiteElo "1932"]
+[BlackElo "2040"]
+[PlyCount "92"]
+[GameId "2155321499678021"]
+[EventDate "2025.02.15"]
+[WhiteTeam "Andorra"]
+[BlackTeam "Escacs Catalònia"]
+[WhiteTeamCountry "AND"]
+
+1. d4 d5 2. c4 c5 3. e3 cxd4 4. exd4 Nf6 5. Nc3 g6 6. Nf3 Bg7 7. Qa4+ Nbd7 8. Bf4 O-O 9. c5 Nh5 10. Be3 e5 11. O-O-O e4 12. g4 Nhf6 13. Ne1 Nb8 14. h3 Be6 15. Bf4 Nc6 16. Nc2 a6 17. b4 Qd7 18. Qb3 Rfc8 19. Na4 Bxg4 20. Nb6 Qf5 21. hxg4 Qxf4+ 22. Qe3 g5 23. Nxa8 Rxa8 24. Qxf4 gxf4 25. Rg1 f3 26. a4 Ne8 27. g5 Nc7 28. b5 axb5 29. axb5 Nxd4 30. Rxd4 Bxd4 31. Nxd4 Ra1+ 32. Kd2 Ra2+ 33. Ke3 Ne6 34. Nxe6 fxe6 35. Bh3 e5 36. Bf1 Rc2 37. g6 h6 38. Rh1 Kg7 39. Rh5 Rc1 40. Rxe5 Rxf1 41. Re7+ Kxg6 42. Rxb7 Kf5 43. c6 Rd1 44. Rf7+ Ke5 45. Re7+ Kf5 46. Rf7+ Ke5 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.03.15"]
+[Round "9.9"]
+[White "Ercoli, Andria"]
+[Black "Minguez Rodriguez, Raul"]
+[Result "0-1"]
+[ECO "D35"]
+[WhiteElo "1932"]
+[BlackElo "2187"]
+[PlyCount "86"]
+[GameId "2156191350364382"]
+[EventDate "2025.02.15"]
+[WhiteTeam "Andorra"]
+[BlackTeam "Ateneu Colon"]
+[WhiteTeamCountry "AND"]
+
+1. d4 d5 2. c4 e6 3. cxd5 exd5 4. Nc3 Be7 5. Bf4 Nf6 6. e3 Bf5 7. Qb3 Nc6 8. Nf3 Nb4 9. Rc1 O-O 10. a3 Nd3+ 11. Bxd3 Bxd3 12. Nd1 Ba6 13. Bxc7 Qd7 14. Bg3 Rac8 15. Nc3 Ne4 16. Ne5 Qe6 17. Rd1 Nxc3 18. bxc3 f6 19. Nd3 Qf5 20. Nf4 Rfd8 21. f3 Kh8 22. Kf2 Rc6 23. Rhe1 Rb6 24. Qa2 Bc4 25. Qd2 Bxa3 26. e4 dxe4 27. fxe4 Qa5 28. Rb1 Rxb1 29. Rxb1 Rxd4 30. Qxd4 Bc5 31. Rd1 g5 32. Ne2 Qa2 33. Re1 Bxd4+ 34. cxd4 Qc2 35. d5 Qxe4 36. d6 Bb5 37. Nc3 Qc2+ 38. Ne2 Kg7 39. Ke3 Qd3+ 40. Kf2 Qd2 41. h4 h6 42. Kf3 Kg6 43. Bh2 Qxe1 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.01.17"]
+[Round "1.10"]
+[White "Fernández Goyanes, Francesc J."]
+[Black "Ercoli, Andria"]
+[Result "1/2-1/2"]
+[ECO "B13"]
+[WhiteElo "2214"]
+[BlackElo "1903"]
+[PlyCount "111"]
+
+ 1. d4 d5 2. Nc3 Nf6 3. Bf4 c5 4. e3 cxd4 5. exd4 Bg4 6. f3 Bd7 7. Bd3 Nc6 8. Nge2 Qb6 9. Bb5 a6 10. Ba4 e6 11. a3 Rc8 12. Bxc6 Bxc6 13. Rb1 Be7 14. Qd2 Bb5 15. Nxb5 Qxb5 16. O-O O-O 17. c3 a5 18. Bg5 Qd7 19. Bxf6 Bxf6 20. Nc1 Be7 21. Nd3 b5 22. b4 Rc7 23. Nc5 Bxc5 24. bxc5 Rb8 25. f4 Rcb7 26. Rf3 b4 27. cxb4 Qa4 28. Rfb3 Kf8 29. Qc3 axb4 30. axb4 Qb5 31. Rc1 Ke7 32. h3 Ra7 33. Qg3 Qe2 34. Qe1 Qxe1+ 35. Rxe1 Rab7 36. Reb1 Rb5 37. Kf2 Ra8 38. R1b2 Ra1 39. Rc2 Kd7 40. Ke3 Re1+ 41. Re2 Rc1 42. Ra2 Re1+ 43. Kf3 Rf1+ 44. Ke3 Re1+ 45. Re2 Ra1 46. Rd2 Ra4 47. Rdb2 Ra1 48. Kd2 Rg1 49. Rg3 g6 50. Kc2 Rf1 51. Rf3 Rg1 52. Kb3 Re1 53. Kc3 Rc1+ 54. Kb3 Rd1 55. Kc3 Rc1+ 56. Kb3 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.01.24"]
+[Round "2.10"]
+[White "Shatko, Daniil"]
+[Black "Ercoli, Andria"]
+[Result "0-1"]
+[PlyCount "130"]
+[EventDate "2026.??.??"]
+
+1. d4 d5 2. Nc3 Nf6 3. Bf4 c5 4. e4 e6 5. Nb5 Na6 6. e5 Nd7 7. c3 Qb6 8. Nf3
+Ndb8 9. a4 Bd7 10. b3 Bxb5 11. Bxb5+ Nc6 12. O-O Nc7 13. dxc5 Qxc5 14. b4 Qe7
+15. Qe2 Qd7 16. Rfd1 a6 17. Bd3 Be7 18. b5 axb5 19. axb5 Nb8 20. Rxa8 Nxa8 21.
+c4 dxc4 22. Bxc4 Qc7 23. Rc1 Qd7 24. Rd1 Qc7 25. Bd3 Nb6 26. Be4 O-O 27. h4 Rd8
+28. Rc1 Qd7 29. Bg5 h6 30. Bxe7 Qxe7 31. Qc2 Qd7 32. Qc7 Rc8 33. Qxb6 Rxc1+ 34.
+Kh2 Qc7 35. Qe3 Rc5 36. Bxb7 Rxb5 37. Be4 Nd7 38. Qd3 Ra5 39. Qd6 Qxd6 40. exd6
+Ra6 41. g3 Rxd6 42. Kg2 Rb6 43. Bd3 Kf8 44. Be4 Rb4 45. Bc6 Ke7 46. Bxd7 Kxd7
+47. Ne5+ Ke8 48. Nd3 Ra4 49. Ne5 Ke7 50. Kf3 f6 51. Ng6+ Kf7 52. Nh8+ Ke7 53.
+Ng6+ Kd6 54. Nf4 e5 55. Nh5 Ra7 56. g4 Kd5 57. Ng3 g6 58. h5 gxh5 59. Nxh5 Ra3+
+60. Ke2 Ke6 61. Ng7+ Kf7 62. Nf5 Kg6 63. Ne3 Kg5 64. f3 e4 65. fxe4 Rxe3+ 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "lichess.org"]
+[Date "2026.01.31"]
+[Round "3.10"]
+[White "Ercoli, Andria"]
+[Black "Castillo Fernandez, Carles"]
+[Result "1/2-1/2"]
+[ECO "A46"]
+[WhiteElo "1924"]
+[BlackElo "2032"]
+[PlyCount "51"]
+[EventDate "2026.01.31"]
+
+1. d4 d6 2. Nf3 Nf6 3. Bg5 Nbd7 4. Nbd2 e5 5. Ne4 Be7 6.
+Nxf6+ Bxf6 7. Bxf6 Qxf6 8. e3 O-O 9. c3 Re8 10. Be2 c6 11. O-O exd4 12. Qxd4
+Qxd4 13. Nxd4 Nb6 14. Rfd1 d5 15. Nb3 Na4 16. Rd2 Kf8 17. Rad1 a5 18. c4 Be6
+19. Nd4 g6 20. cxd5 Bxd5 21. Nb5 Re7 22. b3 Nc5 23. Nc3 Be6 24. Bf3 Rd7 25. Rd4
+Rad8 26. Rxd7 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.02.07"]
+[Round "4.10"]
+[White "Pinero Reinaldo, Adolfo"]
+[Black "Ercoli, Andria"]
+[Result "1/2-1/2"]
+[PlyCount "34"]
+[EventDate "2026.??.??"]
+
+1. d4 d5 2. Nc3 Nf6 3. Bf4 c5 4. e4 Nxe4 5. Nxe4 dxe4 6. dxc5 Qxd1+ 7. Rxd1 Bd7
+8. f3 exf3 9. Nxf3 f6 10. Be2 e5 11. Be3 a5 12. Nd2 Na6 13. Ne4 Nb4 14. Bh5+
+Ke7 15. Rd2 Bf5 16. Bf3 Rd8 17. c3 Nd5 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "Catalunya, Spain"]
+[Date "2026.03.07"]
+[Round "8.9"]
+[White "DORCA DILME, RAMON."]
+[Black "ERCOLI, ANDRIA."]
+[Result "0-1"]
+[WhiteElo "2146"]
+[BlackElo "1903"]
+[PlyCount "22"]
+[EventDate "2026.??.??"]
+[WhiteTeam "OLOT"]
+[BlackTeam "GEVA-CEA"]
+
+1. Nf3 c5 2. e3 Nf6 3. b3 e6 4. h3 Nc6 5. a3 Bd6 6. Qe2 O-O 7. g4 Ne5 8. Nh4 g5
+9. Nf5 exf5 10. f4 Qe7 11. a4 h5 0-1

@@ -1,0 +1,382 @@
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.13"]
+[Round "1"]
+[White "Corbera Garcia, E."]
+[Black "Torras Chicon, A."]
+[Result "0-1"]
+[ECO "B35"]
+[BlackElo "1753"]
+[PlyCount "140"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. Bc4 Bg7 6. Be3 Nf6 7. Nc3 Qa5 8.
+O-O O-O 9. h3 Qb4 10. Bb3 Nxe4 11. Nxe4 Nxd4 12. c3 Ne2+ 13. Qxe2 Qxe4 14. Qd2
+d6 15. Bh6 Bd7 16. Rfe1 Bxh6 17. Qxh6 Qf5 18. Rxe7 Rae8 19. Rae1 Rxe7 20. Rxe7
+Bc6 21. Qd2 Qb1+ 22. Re1 Qf5 23. Qxd6 Qg5 24. f3 Bxf3 25. g3 Rd8 26. Qc7 Bd5
+27. Rf1 Bxb3 28. axb3 Qe3+ 29. Kh1 Qe4+ 30. Kg1 Rf8 31. Qa5 Qe3+ 32. Kg2 Re8
+33. Qd5 Re7 34. Qd6 Qe6 35. Qd8+ Re8 36. Qc7 Re7 37. Qb8+ Kg7 38. Qxa7 Qc6+ 39.
+Kg1 Re2 40. Qd4+ f6 41. Rf2 Re1+ 42. Rf1 Re2 43. Rf2 Re1+ 44. Rf1 Rxf1+ 45.
+Kxf1 Qf3+ 46. Qf2 Qd1+ 47. Qe1 Qxb3 48. Qe7+ Qf7 49. Qxf7+ Kxf7 50. Kf2 Ke6 51.
+Kf3 Kd5 52. Kf4 Kc4 53. Ke4 b5 54. Ke3 Kb3 55. Kd4 Kxb2 56. Kc5 Kxc3 57. Kxb5
+Kd4 58. Kc6 Ke5 59. Kd7 f5 60. Ke7 g5 61. Kf7 f4 62. gxf4+ gxf4 63. Kg7 f3 64.
+Kxh7 f2 65. h4 f1=Q 66. h5 Kf6 67. Kh8 Kf7 68. h6 Qf4 69. Kh7 Qg5 70. Kh8 Qg8#
+0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.14"]
+[Round "2"]
+[White "Torras Chicon, A."]
+[Black "Navarro Gutierrez, AC."]
+[Result "1-0"]
+[ECO "D04"]
+[WhiteElo "1753"]
+[BlackElo "1909"]
+[PlyCount "23"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d5 2. Nf3 Nf6 3. e3 Bf5 4. Bd3 Bxd3 5. cxd3 e6 6. Nc3 Nbd7 7. e4 c5 8.
+dxc5 dxe4 9. dxe4 Nxc5 10. O-O Ncxe4 11. Nxe4 Qxd1 12. Nxf6+ 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.15"]
+[Round "3"]
+[White "Torras Chicon, A."]
+[Black "Carballo Cancela, M."]
+[Result "1/2-1/2"]
+[ECO "A40"]
+[WhiteElo "1753"]
+[BlackElo "1850"]
+[PlyCount "73"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Na6 2. e4 c6 3. Nf3 Nc7 4. c4 d6 5. Nc3 g6 6. Be2 Bg7 7. Be3 Bg4 8. O-O
+Nf6 9. Qd2 O-O 10. h3 Bxf3 11. Bxf3 Re8 12. Rad1 Nd7 13. Be2 Rb8 14. f4 b6 15.
+f5 c5 16. fxg6 hxg6 17. Rf2 cxd4 18. Bxd4 Bxd4 19. Qxd4 Ne6 20. Qd2 Kg7 21. Bg4
+Ne5 22. Bxe6 fxe6 23. Rdf1 Qc7 24. b3 Rf8 25. Ne2 Qc5 26. Nd4 Rxf2 27. Rxf2 Qc8
+28. Qg5 Qd7 29. Qf4 Rg8 30. h4 Kh7 31. Qg5 a6 32. h5 b5 33. Rf4 Qa7 34. hxg6+
+Rxg6 35. Qh4+ Kg7 36. Qf2 Qc5 37. cxb5 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.16"]
+[Round "4"]
+[White "Catalan Escale, E."]
+[Black "Torras Chicon, A."]
+[Result "1-0"]
+[ECO "A45"]
+[WhiteElo "1988"]
+[BlackElo "1753"]
+[PlyCount "35"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. Nd2 d5 3. e3 e6 4. Bd3 c5 5. c3 Nc6 6. f4 cxd4 7. exd4 Be7 8. Ngf3
+Bd7 9. Ne5 O-O 10. O-O Rc8 11. Rf3 b5 12. Rh3 b4 13. Bxh7+ Kh8 14. Bg6+ Kg8 15.
+Bxf7+ Rxf7 16. Rh8+ Kxh8 17. Nxf7+ Kg8 18. Nxd8 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.17"]
+[Round "5"]
+[White "Torras Chicon, A."]
+[Black "Molano Lafuente, I."]
+[Result "0-1"]
+[ECO "D07"]
+[WhiteElo "1753"]
+[BlackElo "1943"]
+[PlyCount "80"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d5 2. Nf3 Nc6 3. c4 Bg4 4. e3 e6 5. h3 Bxf3 6. Qxf3 Nf6 7. Nc3 Bb4 8. Bd2
+Bxc3 9. Bxc3 Ne4 10. Bd3 Nxc3 11. bxc3 O-O 12. h4 dxc4 13. Bc2 Qd5 14. e4 Qa5
+15. O-O e5 16. d5 Ne7 17. h5 Rad8 18. Qg3 f6 19. f4 exf4 20. Rxf4 Qb6+ 21. Rf2
+Qd6 22. Qg4 Qe5 23. Raf1 c6 24. Bb1 b5 25. a3 cxd5 26. exd5 Nxd5 27. Re2 Qg5
+28. Qe6+ Kh8 29. Qe4 f5 30. Qe5 Qf6 31. Qg3 Nxc3 32. Ref2 Nxb1 33. Rxf5 Qd4+
+34. Kh1 Rxf5 35. Rxf5 Nd2 36. h6 Ne4 37. hxg7+ Qxg7 38. Qf3 Ng3+ 39. Kg1 Nxf5
+40. Qxf5 Rg8 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.18"]
+[Round "6"]
+[White "Boixader Arbo, X."]
+[Black "Torras Chicon, A."]
+[Result "0-1"]
+[ECO "B22"]
+[WhiteElo "1546"]
+[BlackElo "1753"]
+[PlyCount "132"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. c3 d5 3. exd5 Qxd5 4. d4 Nf6 5. Be3 Ng4 6. c4 Nxe3 7. fxe3 Qe4 8.
+Qf3 Qxf3 9. Nxf3 g6 10. Nc3 Bg7 11. Rd1 Nc6 12. h3 O-O 13. a3 Rd8 14. Ne2 Bf5
+15. Rd2 Be4 16. d5 Bxf3 17. gxf3 Ne5 18. Rc2 Nxf3+ 19. Kf2 Ne5 20. Nf4 Rd6 21.
+Nd3 Nxd3+ 22. Bxd3 Rb6 23. Rb1 Rb3 24. Bf1 Rd8 25. Bg2 Rd6 26. Bf3 Rdb6 27. Ke2
+Rxa3 28. bxa3 Rxb1 29. Ra2 Be5 30. Be4 Rg1 31. Kf2 Rc1 32. Bd3 Rc3 33. Ke2 Rc1
+34. Kf2 Kg7 35. a4 Ra1 36. Rxa1 Bxa1 37. Kf3 Kf6 38. e4 Ke5 39. Ke3 Bb2 40. Bc2
+Bc1+ 41. Kd3 Kf4 42. Bd1 Kg3 43. Bg4 h5 44. Bc8 g5 45. Ke2 Kf4 46. Kd3 g4 47.
+hxg4 h4 48. g5 Kg3 49. e5 Bxg5 50. Bxb7 h3 51. d6 exd6 52. exd6 Kf2 53. Ke4 h2
+54. Ke5 Kg1 55. Be4 h1=Q 56. Bxh1 Kxh1 57. Kd5 Kg2 58. Kxc5 f5 59. Kb5 f4 60.
+c5 f3 61. c6 f2 62. c7 f1=Q+ 63. Kc6 Qf5 64. Kb7 Qd7 65. Kxa7 Bf4 66. Kb8 Bxd6
+0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.19"]
+[Round "7"]
+[White "Torras Chicon, A."]
+[Black "Liarte Genoves, S."]
+[Result "1-0"]
+[ECO "A45"]
+[WhiteElo "1753"]
+[BlackElo "1880"]
+[PlyCount "55"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. Bg5 e6 3. e4 Be7 4. Nc3 O-O 5. Nf3 d6 6. Qd2 Nbd7 7. Bc4 a6 8. O-O
+Nxe4 9. Nxe4 d5 10. Bd3 dxe4 11. Bxe4 f6 12. Bf4 g5 13. Bg3 f5 14. Bd3 f4 15.
+Rae1 fxg3 16. fxg3 Nb6 17. Kh1 h6 18. Ne5 Rxf1+ 19. Rxf1 Bf6 20. Qd1 Bxe5 21.
+Qh5 Bf6 22. Qg6+ Kf8 23. Rxf6+ Ke7 24. Rf7+ Kd6 25. Qe4 Nd7 26. c4 c6 27. c5+
+Kc7 28. Qe5# 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.13"]
+[Round "1.34"]
+[White "Torras Chicon, A."]
+[Black "Negreira Rodriguez, D."]
+[Result "1-0"]
+[ECO "C49"]
+[WhiteElo "1996"]
+[BlackElo "1786"]
+[PlyCount "77"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nc3 Nc6 4. Bb5 Bb4 5. O-O d6 6. Re1 O-O 7. h3 Nd4 8. Bc4
+Bc5 9. d3 Be6 10. Bxe6 fxe6 11. Nxd4 Bxd4 12. Nb5 Bb6 13. Be3 c5 14. c4 d5 15.
+Bg5 a6 16. Na3 Ba7 17. Nc2 b5 18. b3 Qc7 19. Bxf6 Rxf6 20. Ne3 dxe4 21. dxe4
+Qb7 22. f3 Rg6 23. Qd6 Bb8 24. Qd8+ Kf7 25. Rad1 Ra7 26. Rd3 bxc4 27. Nxc4 Rf6
+28. Red1 Kg6 29. Rd7 Qb5 30. Qe8+ Kh6 31. Ne3 Rg6 32. Qe7 Rg5 33. Qxe6+ Rg6 34.
+Ng4+ Kh5 35. Qf5+ Kh4 36. g3+ Kxg3 37. R7d2 c4 38. h4 Qc5+ 39. Kh1 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.14"]
+[Round "2.31"]
+[White "Riu Lopez, S."]
+[Black "Torras Chicon, A."]
+[Result "0-1"]
+[ECO "C87"]
+[WhiteElo "1882"]
+[BlackElo "1996"]
+[PlyCount "104"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. c3 b5 7. Bc2 d6 8. h3
+O-O 9. Re1 Re8 10. d4 Bf8 11. Bg5 h6 12. Bh4 Bb7 13. Nbd2 Nb8 14. Bxf6 Qxf6 15.
+Nf1 Nd7 16. Ng3 g6 17. Qd2 Rad8 18. Rad1 Nb6 19. b3 c5 20. h4 cxd4 21. cxd4 Bc8
+22. Qa5 Nd7 23. h5 Nb8 24. hxg6 fxg6 25. dxe5 dxe5 26. Rxd8 Rxd8 27. Nxe5 Bc5
+28. Nf3 Bb6 29. Qa3 Nc6 30. e5 Qf7 31. Qb2 Nd4 32. Bd1 Bb7 33. Nxd4 Bxd4 34.
+Qc2 Re8 35. Bg4 Rxe5 36. Rxe5 Bxe5 37. Qe2 Qf4 38. Be6+ Kg7 39. Qd3 Bd6 40.
+Qc3+ Be5 41. Qc5 Kf6 42. Qb6 Qc1+ 43. Kh2 Qc7 44. Qxc7 Bxc7 45. Bg4 h5 46. Be2
+h4 47. Bf3 Bxf3 48. gxf3 Ke6 49. Kg2 hxg3 50. fxg3 Kd5 51. Kf2 Kd4 52. g4 Kc3
+0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.15"]
+[Round "3.3"]
+[White "Torras Chicon, A."]
+[Black "Garcia Espelta, J."]
+[Result "1-0"]
+[ECO "B41"]
+[WhiteElo "1996"]
+[BlackElo "2072"]
+[PlyCount "113"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nb5 d6 6. c4 a6 7. Nd4 Nf6 8. Nc3
+Be7 9. Be3 O-O 10. Be2 Qc7 11. O-O Ne5 12. Rc1 b6 13. f4 Ned7 14. Bf3 Bb7 15.
+Qd3 Rac8 16. b3 Qb8 17. Rfd1 Qa8 18. b4 Rc7 19. Nb3 Rfc8 20. Nd2 a5 21. Nb5 Rc6
+22. e5 dxe5 23. Bxc6 Bxc6 24. Qe2 exf4 25. Bxf4 Bxb4 26. Nf3 Ne4 27. Nfd4 Bc5
+28. Kf1 e5 29. Nxc6 Qxc6 30. Na7 Qb7 31. Nxc8 exf4 32. Rd5 Qxc8 33. Qxe4 Nf6
+34. Qxf4 Nxd5 35. cxd5 h6 36. d6 Qc6 37. Rd1 Qb5+ 38. Ke1 Bb4+ 39. Kf2 Bc5+ 40.
+Kg3 Qd7 41. Qe5 Kf8 42. Qd5 Kg8 43. Kf3 g6 44. h3 Kf8 45. Ke4 Kg7 46. Qe5+ f6
+47. Qd5 Qa4+ 48. Kf3 Qd7 49. g4 g5 50. Qf5 Qc6+ 51. Qd5 Qd7 52. Ke4 Qa4+ 53.
+Kf5 Qd7+ 54. Qe6 Qa4 55. Qe7+ Kg8 56. Kg6 Qc2+ 57. Kxh6 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.16"]
+[Round "4.3"]
+[White "Torras Chicon, A."]
+[Black "Cardenas, FA."]
+[Result "0-1"]
+[ECO "B31"]
+[WhiteElo "1996"]
+[BlackElo "2060"]
+[PlyCount "96"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. O-O Bg7 5. c3 Nf6 6. Re1 O-O 7. d4 Qb6 8. Na3
+cxd4 9. cxd4 d5 10. e5 Ne4 11. h3 f6 12. exf6 exf6 13. Be3 Be6 14. Rc1 Rac8 15.
+Bxc6 Rxc6 16. Rxc6 Qxc6 17. Qb3 Re8 18. Rc1 Qd7 19. Qb5 Rc8 20. Rc2 Rxc2 21.
+Qxd7 Rc1+ 22. Bxc1 Bxd7 23. Nc2 g5 24. Nb4 Be6 25. Nd3 Bf8 26. Nd2 Kf7 27. f3
+Ng3 28. Kf2 Nf5 29. Nb3 b6 30. Bd2 a5 31. Bc3 Bd7 32. Ne1 Bd6 33. Nc1 Bg3+ 34.
+Ke2 Bb5+ 35. Kd2 Bf4+ 36. Kc2 Ne3+ 37. Kb1 Bf1 38. Ncd3 Bg3 39. b4 Nxg2 40.
+bxa5 Nxe1 41. Nxe1 bxa5 42. Bxa5 Bxh3 43. a4 Bd7 44. Nc2 Bxa4 45. Ne3 Ke6 46.
+Kb2 Bf2 47. Bd2 h5 48. Kc3 Bb5 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.17"]
+[Round "5.18"]
+[White "Gama Corral, C."]
+[Black "Torras Chicon, A."]
+[Result "1-0"]
+[ECO "C56"]
+[WhiteElo "1784"]
+[BlackElo "1996"]
+[PlyCount "37"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Bc4 Nf6 5. e5 d5 6. Bb5 Ne4 7. Nxd4 Bd7 8.
+Nf3 Be6 9. O-O Bc5 10. Qe2 g5 11. Nbd2 g4 12. Ne1 Nxd2 13. Bxd2 Qh4 14. Nd3 Bb6
+15. Nb4 g3 16. hxg3 Qxg3 17. Nxc6 Rg8 18. Nd4+ c6 19. fxg3 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.18"]
+[Round "6.26"]
+[White "Fuentes Barrientos, C."]
+[Black "Torras Chicon, A."]
+[Result "0-1"]
+[ECO "C56"]
+[WhiteElo "1915"]
+[BlackElo "1996"]
+[PlyCount "64"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d4 exd4 5. O-O Be7 6. e5 Ne4 7. Re1 d5 8.
+exd6 Nxd6 9. Bd5 Nb4 10. Bb3 c5 11. Bg5 Nc6 12. Bxe7 Nxe7 13. Ng5 O-O 14. Qh5
+h6 15. Nf3 Bf5 16. Nbd2 b5 17. g4 c4 18. gxf5 Nexf5 19. Nxc4 g6 20. Qh3 bxc4
+21. Ba4 Qa5 22. Bd7 Rfd8 23. Re5 Qb6 24. Bxf5 Nxf5 25. Qg4 Qxb2 26. Rxf5 Qxa1+
+27. Kg2 d3 28. Ne5 Qd4 29. Qg3 Qe4+ 30. Rf3 d2 31. Nxf7 d1=Q 32. Nxh6+ Kh7 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.19"]
+[Round "7.17"]
+[White "Torras Chicon, A."]
+[Black "Calafell Marques, J."]
+[Result "1-0"]
+[ECO "B51"]
+[WhiteElo "1996"]
+[BlackElo "1950"]
+[PlyCount "49"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. O-O Ngf6 5. Re1 a6 6. Bf1 Qc7 7. c3 Ne5 8. h3
+Rb8 9. d4 Nxf3+ 10. Qxf3 cxd4 11. cxd4 Qa5 12. Nc3 Qh5 13. Qxh5 Nxh5 14. e5
+dxe5 15. dxe5 g6 16. Be3 e6 17. g4 Ng7 18. Ne4 Bb4 19. Nf6+ Ke7 20. Rec1 Ne8
+21. a3 Ba5 22. Bc5+ Kd8 23. Rd1+ Kc7 24. Nxe8+ Kc6 25. Rac1 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.20"]
+[Round "8.8"]
+[White "Fuertes Buisac, B."]
+[Black "Torras Chicon, A."]
+[Result "0-1"]
+[ECO "A29"]
+[WhiteElo "2082"]
+[BlackElo "1996"]
+[PlyCount "84"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. c4 e5 2. g3 Nf6 3. Bg2 Nc6 4. Nf3 d5 5. cxd5 Nxd5 6. Nc3 Be6 7. O-O Be7 8.
+d4 exd4 9. Nxd4 Nxd4 10. Qxd4 Bf6 11. Qa4+ c6 12. Nxd5 Bxd5 13. Rd1 b5 14. Qc2
+Qc8 15. Bxd5 cxd5 16. Qxc8+ Rxc8 17. Rxd5 a6 18. Rd6 Ke7 19. Rxa6 Rhd8 20. Be3
+Bxb2 21. Rb1 Rc2 22. Bc5+ Ke8 23. e4 Rc8 24. Be3 b4 25. Rd1 Ba3 26. Rd4 Rd8 27.
+Rxd8+ Kxd8 28. Ra7 Ke8 29. Ra8+ Ke7 30. Ra7+ Ke6 31. f4 Rxa2 32. Bc5 Rc2 33.
+Bf8 Rc4 34. Re7+ Kf6 35. e5+ Kg6 36. e6 b3 37. Rxf7 Bxf8 38. Rxf8 b2 39. e7
+b1=Q+ 40. Kf2 Qb6+ 41. Kf1 Rc1+ 42. Kg2 Qb7+ 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.21"]
+[Round "9.6"]
+[White "Torras Chicon, A."]
+[Black "Barragan Hernandez, M."]
+[Result "0-1"]
+[ECO "B51"]
+[WhiteElo "1996"]
+[BlackElo "1990"]
+[PlyCount "52"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. O-O a6 5. Be2 Ngf6 6. d3 g6 7. a4 Bg7 8. Nc3
+O-O 9. a5 Ng4 10. Nd2 Nge5 11. f4 Nc6 12. Nc4 Nd4 13. Nd5 Nf6 14. Ndb6 Rb8 15.
+c3 Nxe2+ 16. Qxe2 Bd7 17. Nxd7 Qxd7 18. Be3 Qc6 19. Rab1 Nd7 20. Qf3 b5 21.
+axb6 Nxb6 22. Nxb6 Rxb6 23. d4 cxd4 24. cxd4 Rb3 25. Rfc1 Qb6 26. Qf2 Rxe3 0-1

@@ -1,0 +1,146 @@
+[Event "Sitges op"]
+[Site "?"]
+[Date "2006.??.??"]
+[Round "8"]
+[White "Cruz, F."]
+[Black "Gonzalez Fuente, C."]
+[Result "1/2-1/2"]
+[ECO "A48"]
+[WhiteElo "2397"]
+[BlackElo "2255"]
+[PlyCount "25"]
+[EventDate "2006.??.??"]
+
+1. d4 Nf6 2. Nf3 c5 3. e3 g6 4. Be2 Bg7 5. O-O O-O 6. b3 d5 7. Bb2 cxd4 8. exd4
+Nc6 9. Nbd2 Qb6 10. c4 Rd8 11. c5 Qc7 12. a3 a5 13. Bd3 1/2-1/2
+
+[Event "Sitges op"]
+[Site "?"]
+[Date "2006.??.??"]
+[Round "9"]
+[White "Gonzalez Fuente, C."]
+[Black "Vidarte Morales, A."]
+[Result "0-1"]
+[ECO "D94"]
+[WhiteElo "2255"]
+[BlackElo "2403"]
+[PlyCount "60"]
+[EventDate "2006.??.??"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 d5 5. e3 O-O 6. Bd3 c5 7. O-O cxd4 8. exd4
+Nc6 9. h3 b6 10. Re1 Bb7 11. Bg5 Nb4 12. cxd5 Nbxd5 13. Ne5 Rc8 14. Qd2 e6 15.
+Rad1 Qd6 16. Bb1 a6 17. Ne2 Ne7 18. Ng3 Nf5 19. Nxf5 exf5 20. Bh6 Ne4 21. Bxe4
+Bxe4 22. Bxg7 Kxg7 23. Ng4 Bxg2 24. Qh6+ Kg8 25. Kxg2 fxg4 26. hxg4 Qd5+ 27.
+Kg3 f5 28. gxf5 Rxf5 29. f4 Rh5 30. Re5 Qxe5 0-1
+
+[Event "Barbera op"]
+[Site "Barbera del Valles"]
+[Date "2013.07.04"]
+[Round "1"]
+[White "Narciso Dublan, M."]
+[Black "Gonzalez Fuente, C."]
+[Result "1-0"]
+[ECO "E38"]
+[WhiteElo "2536"]
+[BlackElo "2269"]
+[PlyCount "99"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 c5 5. dxc5 Na6 6. a3 Bxc3+ 7. Qxc3 Nxc5 8.
+f3 d6 9. Nh3 e5 10. Nf2 Be6 11. e4 O-O 12. Be2 b5 13. Be3 Rc8 14. b3 bxc4 15.
+bxc4 Rc6 16. O-O Qc7 17. Rfc1 Rc8 18. Rab1 h6 19. Qe1 Nfd7 20. Nd1 f5 21. Nc3
+fxe4 22. Nb5 Qb8 23. Nd4 Rb6 24. Nxe6 Nxe6 25. Bxb6 Nxb6 26. fxe4 Nd4 27. Bf1
+Rc5 28. Qh4 Qc7 29. h3 Ra5 30. Rc3 Qc5 31. Kh1 Rxa3 32. Rxa3 Qxa3 33. Qe1 Qc5
+34. Qb4 Qc6 35. Bd3 Kh7 36. Ra1 Nc8 37. Qa4 Qc5 38. Qd7 a5 39. Rf1 Nb6 40. Qf7
+Qa3 41. Rf6 Qc1+ 42. Bf1 Qg5 43. Rxd6 Na4 44. Ra6 Nc5 45. Rxa5 Nce6 46. Qf2 Nf4
+47. Kh2 Qe7 48. g3 Nfe6 49. Rxe5 Nc6 50. Qf5+ 1-0
+
+[Event "Barbera op"]
+[Site "Barbera del Valles"]
+[Date "2013.07.05"]
+[Round "2"]
+[White "Gonzalez Fuente, C."]
+[Black "Sayrol Clols, JM."]
+[Result "1-0"]
+[ECO "D03"]
+[WhiteElo "2269"]
+[BlackElo "2117"]
+[PlyCount "69"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. Nf3 e6 3. Bg5 d5 4. e3 c5 5. Nbd2 Be7 6. c3 b6 7. Bd3 O-O 8. Ne5
+Bb7 9. Qe2 Ne4 10. Bxe7 Qxe7 11. Nxe4 dxe4 12. Bc2 f6 13. Nc4 Nd7 14. O-O-O
+Rac8 15. dxc5 Nxc5 16. Nd6 Ba6 17. Nxc8 Rxc8 18. Qd2 Bd3 19. Kb1 b5 20. f3 f5
+21. Bxd3 Nxd3 22. g4 a5 23. Rhg1 b4 24. cxb4 axb4 25. gxf5 exf5 26. fxe4 fxe4
+27. Rg4 Rc4 28. Rdg1 g6 29. h4 Qe5 30. Rg5 Qg7 31. h5 Rc6 32. hxg6 hxg6 33. Qg2
+Kf7 34. Rd5 Rc7 35. Rf1+ 1-0
+
+[Event "Barbera op"]
+[Site "Barbera del Valles"]
+[Date "2013.07.08"]
+[Round "5"]
+[White "Valdes Romero, L."]
+[Black "Gonzalez Fuente, C."]
+[Result "1/2-1/2"]
+[ECO "A24"]
+[WhiteElo "2444"]
+[BlackElo "2269"]
+[PlyCount "58"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. Nf3 Nf6 2. g3 g6 3. Bg2 Bg7 4. c4 O-O 5. O-O d6 6. Nc3 e5 7. d3 a5 8. a3 Na6
+9. Rb1 Nc5 10. b4 axb4 11. axb4 Ne6 12. Bb2 Nh5 13. Ra1 Rxa1 14. Qxa1 f5 15. b5
+g5 16. Nd2 g4 17. Qa8 b6 18. Bb7 Bxb7 19. Qxb7 Nc5 20. Qd5+ Kh8 21. Ra1 Bh6 22.
+Ncb1 f4 23. Ne4 fxg3 24. hxg3 Be3 25. fxe3 Nxe4 26. Qxe4 Rf1+ 27. Kh2 Rf2+ 28.
+Kg1 Rf1+ 29. Kh2 Rf2+ 1/2-1/2
+
+[Event "Barbera op"]
+[Site "Barbera del Valles"]
+[Date "2013.07.09"]
+[Round "6"]
+[White "Gonzalez Fuente, C."]
+[Black "Grigoryan, KH."]
+[Result "0-1"]
+[ECO "D99"]
+[WhiteElo "2269"]
+[BlackElo "2550"]
+[PlyCount "88"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 d5 5. Qb3 dxc4 6. Qxc4 O-O 7. e4 Nfd7 8.
+Be3 Nb6 9. Qb3 Bg4 10. Rd1 Nc6 11. d5 Ne5 12. Be2 Nxf3+ 13. gxf3 Bh3 14. Rg1
+Qb8 15. f4 c6 16. dxc6 bxc6 17. Rg3 Be6 18. Qb4 Nc4 19. Bc5 Qxb4 20. Bxb4 Nxb2
+21. Rb1 c5 22. Rxb2 cxb4 23. Rxb4 Rab8 24. a3 Rfc8 25. Rxb8 Rxb8 26. Nb5 Bd7
+27. a4 a6 28. Nc3 Rb3 29. Nd5 Rb1+ 30. Kd2 Rb2+ 31. Ke1 e6 32. Ne3 Rb6 33. a5
+Bc3+ 34. Kf1 Bxa5 35. Nc4 Rb1+ 36. Kg2 Bc7 37. e5 Bc6+ 38. Bf3 Bb5 39. Nd2 Re1
+40. h4 a5 41. h5 a4 42. Ne4 Bd8 43. Nd6 Bf1+ 44. Kh2 Bh4 0-1
+
+[Event "Barbera op"]
+[Site "Barbera del Valles"]
+[Date "2013.07.10"]
+[Round "7"]
+[White "Gonzalez Fuente, C."]
+[Black "Lopez Martinez, JM."]
+[Result "0-1"]
+[ECO "B41"]
+[WhiteElo "2269"]
+[BlackElo "2547"]
+[PlyCount "76"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 e6 2. Nf3 c5 3. c4 cxd4 4. Nxd4 a6 5. Nc3 Nf6 6. e4 Bb4 7. Bd3 Nc6 8.
+Nxc6 dxc6 9. O-O e5 10. Bg5 h6 11. Bh4 Be6 12. Qc2 Be7 13. Rfd1 O-O 14. Rac1
+Qa5 15. a3 Rfd8 16. Nb1 Rd4 17. b4 Qd8 18. f3 a5 19. Bf2 axb4 20. axb4 Bxb4 21.
+Bxd4 Qxd4+ 22. Kh1 Nd7 23. Bf1 Qa7 24. Nd2 Qe3 25. Nb3 Ra3 26. Rd3 Qa7 27. Qd1
+Nb6 28. Rd8+ Kh7 29. Re8 Na4 30. h4 Qb6 31. Ra1 Nc3 32. Qc1 Rxa1 33. Qxa1 Qf2
+34. h5 Qh4+ 35. Kg1 Qxh5 36. Qa8 Nd1 37. Rd8 Be1 38. Rxd1 Bg3 0-1

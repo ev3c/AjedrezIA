@@ -1,0 +1,421 @@
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.13"]
+[Round "1"]
+[White "Cano Vila, Eduard"]
+[Black "Franzoni Ladron, Enric"]
+[Result "0-1"]
+[ECO "B23"]
+[WhiteElo "1353"]
+[BlackElo "1811"]
+[PlyCount "50"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nc3 Nc6 3. f4 g6 4. Nf3 Bg7 5. Bc4 e6 6. O-O Nge7 7. d3 O-O 8. Qe1
+d5 9. Bb3 b6 10. Qh4 Nd4 11. Nxd4 cxd4 12. Ne2 dxe4 13. dxe4 Ba6 14. f5 exf5
+15. Bg5 Qd7 16. Bxe7 Rfe8 17. Bf6 Rxe4 18. Qxe4 fxe4 19. Bxg7 Bxe2 20. Rxf7
+Qxf7 21. Bxf7+ Kxg7 22. Bd5 Re8 23. Re1 d3 24. Bc4 d2 25. Rxe2 d1=Q+ 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.15"]
+[Round "3"]
+[White "Franzoni Ladron, Enric"]
+[Black "Grindbakken, Erik"]
+[Result "0-1"]
+[ECO "B15"]
+[WhiteElo "1811"]
+[BlackElo "1610"]
+[PlyCount "86"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. Nc3 h6 4. Be2 dxe4 5. Nxe4 Bf5 6. Ng3 Bh7 7. Nf3 e6 8. a4
+Bd6 9. O-O Nd7 10. Bd3 Bxd3 11. Qxd3 Ngf6 12. c4 O-O 13. Bd2 c5 14. Rfe1 cxd4
+15. b4 b6 16. Nxd4 a6 17. Nxe6 fxe6 18. Qxd6 e5 19. Rad1 Qc8 20. Qe6+ Kh8 21.
+Be3 Re8 22. Qf7 Rf8 23. Qg6 Qxc4 24. Bxh6 gxh6 25. Qxh6+ Kg8 26. Rxd7 Nxd7 27.
+Qg6+ Kh8 28. Re4 Qc1+ 29. Nf1 Rf4 30. Qh6+ Kg8 31. Re3 Qc4 32. Rh3 Kf7 33. Rg3
+Ke7 34. Rg7+ Rf7 35. Qg5+ Ke8 36. Rg8+ Rf8 37. Rg6 Rc8 38. g3 Qf7 39. f4 exf4
+40. gxf4 Qf5 41. Qh6 Qxf4 42. Re6+ Kd8 43. Qh3 Rc1 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.16"]
+[Round "4"]
+[White "Franzoni Ladron, Enric"]
+[Black "Ferre Navarro, Joan"]
+[Result "1-0"]
+[ECO "C51"]
+[WhiteElo "1811"]
+[BlackElo "1591"]
+[PlyCount "107"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. b4 Bxb4 5. c3 Be7 6. d4 exd4 7. cxd4 d6 8.
+O-O Nf6 9. Nc3 O-O 10. Ba3 Bg4 11. Be2 a6 12. h3 Bd7 13. Rb1 b5 14. Qd3 Rb8 15.
+d5 Na5 16. Qd4 c5 17. dxc6 Nxc6 18. Qe3 b4 19. Bb2 bxc3 20. Bxc3 Rxb1 21. Rxb1
+a5 22. Nd2 Be6 23. Nc4 Bxc4 24. Bxc4 Qc7 25. Bb5 Rc8 26. Rc1 Nb4 27. Bd2 Qb7
+28. Bc4 d5 29. exd5 Nfxd5 30. Qb3 Rxc4 31. Rxc4 h6 32. a3 a4 33. Qxa4 Nb6 34.
+Qe8+ Kh7 35. Bxb4 Nxc4 36. Qxe7 Qd5 37. Qe2 Ne5 38. Qc2+ Qd3 39. Qxd3+ Nxd3 40.
+Kf1 g6 41. Ke2 Ne5 42. f4 Nc6 43. Kd3 Kg7 44. Kc4 Kf6 45. Kd5 Nb8 46. Bd6 Na6
+47. g4 h5 48. Kc6 Ke6 49. Kb6 Kxd6 50. Kxa6 Kc6 51. f5 hxg4 52. hxg4 gxf5 53.
+gxf5 f6 54. a4 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.17"]
+[Round "5"]
+[White "Serentill Tost, Eduard"]
+[Black "Franzoni Ladron, Enric"]
+[Result "0-1"]
+[ECO "B92"]
+[WhiteElo "1650"]
+[BlackElo "1811"]
+[PlyCount "24"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e5 7. Nf3 h6 8. h3
+Be6 9. Be3 Be7 10. Qd2 Nbd7 11. O-O-O b5 12. Bd3 b4 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.18"]
+[Round "6"]
+[White "Franzoni Ladron, Enric"]
+[Black "Brunet Gil, Pol"]
+[Result "0-1"]
+[ECO "B32"]
+[WhiteElo "1811"]
+[BlackElo "1524"]
+[PlyCount "100"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e5 5. Nb5 a6 6. Nd6+ Bxd6 7. Qxd6 Qf6 8.
+Qd1 Qg6 9. Nc3 d5 10. Nxd5 Qxe4+ 11. Ne3 Qd4 12. Bd2 Be6 13. Bd3 Nge7 14. Bc3
+Qd7 15. O-O O-O 16. Qe2 Rfd8 17. Rfd1 Qc7 18. h3 Rd7 19. Nc4 f6 20. f4 Nd5 21.
+Bd2 Nd4 22. Qf2 Nxf4 23. Bxf4 Bxc4 24. Bxc4+ Qxc4 25. Be3 Rad8 26. Rd2 Nc6 27.
+Rxd7 Rxd7 28. b3 Qc3 29. Rf1 Nb4 30. a3 Nc6 31. Re1 Nd4 32. Rd1 Kf7 33. Bxd4
+Rxd4 34. Rxd4 Qxd4 35. Qxd4 exd4 36. Kf2 Ke6 37. Ke2 Ke5 38. Kd3 Kd5 39. a4 a5
+40. h4 h5 41. c4+ dxc3 42. Kxc3 Kc5 43. g3 g5 44. Kd3 Kb4 45. Ke4 Kxb3 46. Kf5
+gxh4 47. gxh4 Kxa4 48. Kxf6 Kb5 49. Kg5 a4 50. Kxh5 a3 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.19"]
+[Round "7"]
+[White "Gonzalez Canovas, Sebastia"]
+[Black "Franzoni Ladron, Enric"]
+[Result "0-1"]
+[ECO "A24"]
+[WhiteElo "1659"]
+[BlackElo "1811"]
+[PlyCount "134"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 Nf6 2. Nc3 g6 3. g3 Bg7 4. Bg2 O-O 5. d3 d6 6. Nf3 e5 7. O-O h6 8. a3 a5
+9. Bd2 c6 10. Ne1 Na6 11. b4 Bd7 12. bxa5 Nc5 13. Ra2 Qc7 14. Na4 Nxa4 15. Qxa4
+b6 16. axb6 Qxb6 17. Qb4 Qc7 18. Qb1 Rfb8 19. Qc1 Kh7 20. Nc2 Ra4 21. Nb4 Ng8
+22. f4 f5 23. Qc2 Rba8 24. Bc1 Ne7 25. Kh1 Qa7 26. Qd2 Rb8 27. Nc2 exf4 28.
+Qxf4 Qc7 29. Qe3 Re8 30. Qf2 Qb8 31. e3 c5 32. Ne1 Nc6 33. Nf3 Qa7 34. Re1 Nb4
+35. Rd2 Bc3 36. axb4 cxb4 37. Bb2 Bxd2 38. Qxd2 Rb8 39. Nd4 Ra2 40. Rc1 Qa3 41.
+Rc2 Qa4 42. Bd5 b3 43. Rc3 Qa3 44. Bxa3 Rxd2 45. Rxb3 Rxb3 46. Nxb3 Rxd3 47.
+Nc5 dxc5 48. Bxc5 Bb5 49. Bd4 Ba4 50. Kg2 Bb3 51. Kf3 Rd2 52. h4 Rc2 53. g4
+fxg4+ 54. Kxg4 Bxc4 55. Be4 Be6+ 56. Kf4 Rf2+ 57. Kg3 Rf7 58. h5 Bf5 59. hxg6+
+Bxg6 60. Bxg6+ Kxg6 61. Kg4 h5+ 62. Kg3 Kf5 63. Kh4 Rh7 64. Bb6 Rh6 65. Bd4 Rh7
+66. Bc5 Kg6 67. e4 Rc7 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.20"]
+[Round "8"]
+[White "Franzoni Ladron, Enric"]
+[Black "Valbuena Castro, Gregorio"]
+[Result "0-1"]
+[ECO "C42"]
+[WhiteElo "1811"]
+[BlackElo "1724"]
+[PlyCount "60"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nc3 Bb4 4. d3 d5 5. exd5 Qxd5 6. Bd2 Bxc3 7. Bxc3 Nc6 8.
+Be2 Nd4 9. O-O O-O 10. Nxd4 exd4 11. Bf3 Qd6 12. Bd2 c6 13. Re1 Bf5 14. h3 Rfe8
+15. a3 Rxe1+ 16. Bxe1 Re8 17. Bb4 c5 18. Bd2 b6 19. Qc1 Nd5 20. b4 Nc3 21. Bxc3
+dxc3 22. bxc5 Qxc5 23. Qf4 Qb5 24. Qh4 Qe5 25. Be4 Bxe4 26. Re1 a5 27. Qxe4
+Qxe4 28. Rxe4 Rxe4 29. dxe4 b5 30. Kf1 b4 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.21"]
+[Round "9"]
+[White "Mas Sayos, Lluis"]
+[Black "Franzoni Ladron, Enric"]
+[Result "1/2-1/2"]
+[ECO "B90"]
+[WhiteElo "1643"]
+[BlackElo "1811"]
+[PlyCount "23"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. h3 e5 7. Nb3 Be6 8. g4
+h6 9. Bg2 Be7 10. Be3 Nbd7 11. Qd2 Qc7 12. O-O-O 1/2-1/2
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.13"]
+[Round "1"]
+[White "Franzoni Ladron, Enric"]
+[Black "Minko, Uliana"]
+[Result "1-0"]
+[ECO "C10"]
+[WhiteElo "1764"]
+[BlackElo "1293"]
+[PlyCount "97"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bd7 5. Nf3 Bc6 6. Bd3 Nd7 7. O-O Ngf6 8.
+Ng3 Bd6 9. Re1 h6 10. Nf5 Rg8 11. Nxd6+ cxd6 12. Bf4 Qc7 13. h4 O-O-O 14. c4
+Nh5 15. Bh2 g5 16. hxg5 hxg5 17. c5 Nf4 18. cxd6 Qxd6 19. Rc1 Kb8 20. Rxc6 Qxc6
+21. Be4 Qb6 22. Nxg5 e5 23. Nxf7 Rdf8 24. Bxf4 exf4 25. Ne5 Nxe5 26. dxe5 Qxb2
+27. Qd6+ Ka8 28. Rb1 Qxb1+ 29. Bxb1 f3 30. Be4 Rd8 31. Bxb7+ Kxb7 32. Qb4+ Ka6
+33. Qa3+ Kb6 34. Qxf3 Rc8 35. Qe3+ Ka6 36. f4 Rb8 37. Qe2+ Ka5 38. e6 Rb1+ 39.
+Kh2 Rh8+ 40. Kg3 Rbb8 41. e7 Rbe8 42. f5 Rh7 43. f6 Rf7 44. Qe5+ Kb4 45. Qd4+
+Ka3 46. Qc3+ Ka4 47. Qc4+ Ka5 48. Qxf7 Rc8 49. e8=Q 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.14"]
+[Round "2"]
+[White "Fabregas Fontanet, Antonio"]
+[Black "Franzoni Ladron, Enric"]
+[Result "1-0"]
+[ECO "B92"]
+[WhiteElo "1903"]
+[BlackElo "1764"]
+[PlyCount "89"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e5 7. Nb3 Be6 8. f4
+Qc7 9. Be3 Be7 10. O-O Nbd7 11. Nd2 exf4 12. Bxf4 Ne5 13. Nf3 O-O 14. Nd4 Bd7
+15. Bg5 Qc5 16. Kh1 h6 17. Bxf6 Bxf6 18. Nd5 Bg5 19. b4 Qa7 20. Nf5 Bxf5 21.
+Rxf5 g6 22. Rf1 Rad8 23. a4 b6 24. Qd4 Rb8 25. a5 Nc6 26. Qf2 b5 27. Qg3 Ne5
+28. h4 Bd8 29. h5 Bg5 30. Rad1 Rbd8 31. Nb6 Qc7 32. Qb3 Kg7 33. Qb2 Qe7 34. Nd5
+Qe6 35. Rd3 gxh5 36. Bxh5 f6 37. Rf5 Rc8 38. Bd1 Rc4 39. Rd4 Rfc8 40. Nb6 Rxd4
+41. Qxd4 Rc7 42. c3 Nc4 43. Nd5 Rc8 44. Bg4 Ne5 45. Rxg5+ 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.15"]
+[Round "3"]
+[White "Franzoni Ladron, Enric"]
+[Black "Kyrkjebo, Eirik"]
+[Result "1-0"]
+[ECO "A50"]
+[WhiteElo "1764"]
+[BlackElo "1611"]
+[PlyCount "67"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 b6 2. d4 Bb7 3. Bd3 e6 4. Nf3 Nf6 5. Qe2 d6 6. c4 Be7 7. Nc3 O-O 8. O-O
+Nbd7 9. h3 c5 10. d5 e5 11. Nh2 Bc8 12. Bd2 Ne8 13. Rae1 Bg5 14. f4 exf4 15. e5
+Nxe5 16. Bc2 g6 17. Bxf4 Bxf4 18. Rxf4 Qg5 19. Ref1 Bxh3 20. Ne4 Qxg2+ 21. Qxg2
+Bxg2 22. Kxg2 f5 23. Ng5 Ng7 24. b3 h6 25. Ngf3 g5 26. Nxe5 gxf4 27. Ng6 Rfe8
+28. Nxf4 Kf7 29. Nf3 Rg8 30. Kf2 Rae8 31. Nh4 Kf6 32. Rg1 a6 33. Rg6+ Ke5 34.
+Ke3 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.16"]
+[Round "4"]
+[White "Lopez Manzano, Antonio"]
+[Black "Franzoni Ladron, Enric"]
+[Result "1-0"]
+[ECO "E73"]
+[WhiteElo "1898"]
+[BlackElo "1764"]
+[PlyCount "139"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Be2 O-O 6. Be3 e5 7. d5 c5 8. g4 Qa5
+9. Bd2 Qa6 10. h4 Bd7 11. b3 b5 12. cxb5 Qb7 13. h5 gxh5 14. gxh5 h6 15. Nf3 a6
+16. bxa6 Nxa6 17. Nh4 Kh7 18. Nf5 Bxf5 19. exf5 Nc7 20. Qc2 e4 21. O-O-O Ncxd5
+22. Nxe4 Rxa2 23. Qxa2 Nxe4 24. f6 Bxf6 25. Qc2 Nb4 26. Bxb4 cxb4 27. Qxe4+
+Qxe4 28. Bd3 Qxd3 29. Rxd3 Ra8 30. Rhh3 Ra2 31. Rhf3 Kg7 32. Rxd6 Bg5+ 33. Kd1
+Ra7 34. Rb6 Rd7+ 35. Ke1 Bd2+ 36. Ke2 Bc3 37. Rc6 Rd5 38. Rg3+ Kh7 39. Rc7 Re5+
+40. Re3 Rxh5 41. Rxf7+ Kg6 42. Rff3 Rd5 43. Rg3+ Kf7 44. Ref3+ Ke7 45. Rd3 Ra5
+46. Rh3 h5 47. f4 Ra3 48. Rxh5 Rxb3 49. Kf3 Rb1 50. Ke4 Re1+ 51. Kf5 Re2 52.
+Rh7+ Ke8 53. Rb7 Re1 54. Rd6 Rb1 55. Ra6 Rd1 56. Ra8+ Rd8 57. Rxd8+ Kxd8 58.
+Ke6 Kc8 59. Rb5 Kc7 60. Rh5 Kb6 61. Kd5 Kb5 62. Rh3 Bf6 63. f5 Bc3 64. Rg3 Bf6
+65. Rf3 Ka4 66. Kc4 Ka5 67. Rf2 Be7 68. f6 Bf8 69. f7 Kb6 70. Re2 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.17"]
+[Round "5"]
+[White "Franzoni Ladron, Enric"]
+[Black "Bes Alvarez, Alex"]
+[Result "1-0"]
+[ECO "B77"]
+[WhiteElo "1764"]
+[BlackElo "1620"]
+[PlyCount "47"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. Bc4 O-O 8. f3
+Nc6 9. Qd2 Bd7 10. h4 h5 11. Nxc6 Bxc6 12. Bh6 Rb8 13. Bxg7 Kxg7 14. O-O-O b5
+15. Bb3 a5 16. Qd4 a4 17. Bd5 Bd7 18. e5 dxe5 19. Qxe5 Qe8 20. Rhe1 e6 21. Ne4
+Qe7 22. g4 exd5 23. Qxe7 dxe4 24. g5 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.19"]
+[Round "7"]
+[White "Sagar, Siya"]
+[Black "Franzoni Ladron, Enric"]
+[Result "0-1"]
+[ECO "B90"]
+[WhiteElo "1608"]
+[BlackElo "1764"]
+[PlyCount "88"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. f3 e5 7. Nb3 Be6 8. Be3
+Be7 9. Qd2 Qc7 10. O-O-O Nbd7 11. Be2 O-O 12. g4 b5 13. g5 b4 14. Nd5 Nxd5 15.
+exd5 Bf5 16. h4 a5 17. Bd3 Bxd3 18. Qxd3 a4 19. Nd2 Rfc8 20. h5 Bxg5 21. Bxg5
+Nc5 22. Qc4 b3 23. Kb1 Qb7 24. c3 a3 25. Nxb3 Ra4 26. Qe2 Nxb3 27. axb3 Qxb3
+28. Rc1 Rca8 29. Qc2 Qxd5 30. Rhd1 Qb7 31. Rxd6 f6 32. Bh4 axb2 33. Qxb2 Ra1+
+34. Kc2 R1a2 35. Qxa2+ Rxa2+ 36. Kd3 Qxf3+ 37. Kc4 Qf4+ 38. Kc5 Qxc1 39. Rd8+
+Kf7 40. Rd7+ Ke8 41. Rxg7 Qxc3+ 42. Kd5 Ra5+ 43. Ke6 Ra6+ 44. Kd5 Qc6# 0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.20"]
+[Round "8"]
+[White "Vives Cabau, Jordi"]
+[Black "Franzoni Ladron, Enric"]
+[Result "1-0"]
+[ECO "B22"]
+[WhiteElo "1930"]
+[BlackElo "1764"]
+[PlyCount "81"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. c3 g6 3. d4 cxd4 4. cxd4 Bg7 5. Bc4 Nc6 6. Ne2 e6 7. Nbc3 Nge7 8.
+d5 Na5 9. Bd3 exd5 10. exd5 b6 11. O-O d6 12. Bg5 O-O 13. b4 Nb7 14. Ba6 f6 15.
+Bf4 g5 16. Bd2 Ng6 17. f4 Rf7 18. fxg5 Ne5 19. gxf6 Bxf6 20. Qb3 Na5 21. bxa5
+Bxa6 22. axb6 Rb8 23. Rf5 Rxb6 24. Qd1 Bd3 25. Rf2 Nc4 26. Nf4 Bd4 27. Nxd3 Kh8
+28. Ne2 Bxf2+ 29. Nxf2 Nxd2 30. Qxd2 Rxf2 31. Kxf2 Qf6+ 32. Qf4 Qe7 33. Rc1 Rb8
+34. Qd4+ Kg8 35. Qg4+ Kh8 36. Rc8+ Rxc8 37. Qxc8+ Kg7 38. Qg4+ Kh8 39. Qf4 Kg7
+40. Nd4 Kh8 41. Ne6 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.21"]
+[Round "9"]
+[White "Franzoni Ladron, Enric"]
+[Black "Riera Mestres, Josep"]
+[Result "1-0"]
+[ECO "B07"]
+[WhiteElo "1764"]
+[BlackElo "1579"]
+[PlyCount "51"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 g6 2. d4 Bg7 3. Nf3 d6 4. h3 Nf6 5. Bd3 Nbd7 6. c4 c5 7. e5 dxe5 8. dxe5
+Ng8 9. Qe2 e6 10. Nc3 a6 11. Bf4 Ne7 12. Ne4 Nf5 13. g4 Nd4 14. Nxd4 cxd4 15.
+Nd6+ Ke7 16. O-O f6 17. exf6+ Bxf6 18. Rfe1 e5 19. c5 Kf8 20. Bh6+ Bg7 21. Qf3+
+Qf6 22. Rxe5 Bxh6 23. Rae1 Bg5 24. Re8+ Kg7 25. R1e7+ Kh6 26. Nf7+ 1-0

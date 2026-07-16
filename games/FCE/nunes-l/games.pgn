@@ -1,0 +1,97 @@
+[Event "Andorra op"]
+[Site "?"]
+[Date "2006.07.08"]
+[Round "1.20"]
+[White "De la Villa Garcia, JM."]
+[Black "Nunes, L."]
+[Result "1-0"]
+[ECO "B90"]
+[WhiteElo "2452"]
+[BlackElo "2054"]
+[PlyCount "35"]
+[EventDate "2006.??.??"]
+[EventCountry "AND"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nf3 Be7 8. Bc4
+Be6 9. Bxe6 fxe6 10. Ng5 Qd7 11. Qf3 d5 12. O-O-O d4 13. Bxd4 exd4 14. e5 Qc6
+15. Nce4 Nxe4 16. Qf7+ Kd7 17. Rxd4+ Kc8 18. Nxe4 1-0
+
+[Event "Andorra op"]
+[Site "?"]
+[Date "2006.07.10"]
+[Round "3.30"]
+[White "Gonzalez Arribas, VA."]
+[Black "Nunes, L."]
+[Result "1-0"]
+[ECO "A29"]
+[WhiteElo "2301"]
+[BlackElo "2054"]
+[PlyCount "41"]
+[EventDate "2006.??.??"]
+[EventCountry "AND"]
+
+1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. g3 d5 5. cxd5 Nxd5 6. Bg2 Nb6 7. O-O Be7 8.
+a3 O-O 9. b4 Be6 10. d3 Nd4 11. Nd2 Nd5 12. Bb2 a6 13. Rc1 Rc8 14. Nce4 Qd7 15.
+Nc5 Bxc5 16. Rxc5 b6 17. Rc1 f6 18. e3 Nc6 19. Qa4 Nb8 20. Qxd7 Nxd7 21. Rc6
+1-0
+
+[Event "Andorra op"]
+[Site "?"]
+[Date "2006.07.12"]
+[Round "5.25"]
+[White "Gopal, GN."]
+[Black "Nunes, L."]
+[Result "1/2-1/2"]
+[ECO "B90"]
+[WhiteElo "2343"]
+[BlackElo "2054"]
+[PlyCount "58"]
+[EventDate "2006.??.??"]
+[EventCountry "AND"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nb3 Be6 8. f3
+Be7 9. Qd2 Nbd7 10. O-O-O O-O 11. g4 b5 12. g5 b4 13. Ne2 Ne8 14. f4 a5 15. f5
+a4 16. Nbd4 exd4 17. Nxd4 b3 18. Kb1 bxc2+ 19. Nxc2 Bb3 20. axb3 axb3 21. Na3
+Ne5 22. h4 Nc7 23. Qc3 Qb8 24. f6 gxf6 25. gxf6 Bxf6 26. Bg5 Rxa3 27. bxa3 Bxg5
+28. hxg5 Ne6 29. Qh3 Nxg5 1/2-1/2
+
+[Event "Andorra op"]
+[Site "?"]
+[Date "2006.07.13"]
+[Round "6.24"]
+[White "Nunes, L."]
+[Black "Sanz Alonso, FJ."]
+[Result "0-1"]
+[ECO "C79"]
+[WhiteElo "2054"]
+[BlackElo "2400"]
+[PlyCount "72"]
+[EventDate "2006.??.??"]
+[EventCountry "AND"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 d6 5. O-O Bd7 6. d4 Nf6 7. Re1 b5 8. Bb3
+Nxd4 9. Nxd4 exd4 10. e5 dxe5 11. Rxe5+ Be7 12. Qe2 c5 13. c4 h6 14. Nd2 Kf8
+15. Ne4 Nxe4 16. Rxe4 Bc6 17. Rf4 b4 18. Qe6 Qe8 19. Bd2 Kg8 20. Rxf7 Qxf7 21.
+Qxc6 Kh7 22. Re1 Rhf8 23. f3 Bf6 24. Qxc5 d3 25. Bxb4 Rfd8 26. Kf1 Bxb2 27. Re7
+Qf4 28. Qe3 Qxh2 29. Qe4+ Kh8 30. Ba5 Bd4 31. Qxd3 Qg1+ 32. Ke2 Qf2+ 33. Kd1
+Bb6 34. Rd7 Rxd7 35. Qxd7 Rd8 36. Qxd8+ Bxd8 0-1
+
+[Event "Andorra op"]
+[Site "?"]
+[Date "2006.07.15"]
+[Round "8.25"]
+[White "Nunes, L."]
+[Black "Roktim, B."]
+[Result "0-1"]
+[ECO "B00"]
+[WhiteElo "2054"]
+[BlackElo "2365"]
+[PlyCount "52"]
+[EventDate "2006.??.??"]
+[EventCountry "AND"]
+
+1. e4 Nc6 2. Nf3 d6 3. d4 Nf6 4. Nc3 Bg4 5. Be2 g6 6. Bg5 Bg7 7. Qd2 Bxf3 8.
+Bxf3 Nd7 9. Be3 e5 10. d5 Nd4 11. Ne2 Nxf3+ 12. gxf3 Qf6 13. f4 exf4 14. Bd4
+Ne5 15. O-O-O h5 16. Qb4 O-O 17. Qxb7 Rab8 18. Qa6 Qe7 19. Kb1 Rfc8 20. Nxf4
+Qh4 21. Ne2 Qxe4 22. f4 c5 23. dxc6 Rxc6 24. Qxa7 Rxc2 25. Ka1 Nc6 26. Qc7
+Rbxb2 0-1

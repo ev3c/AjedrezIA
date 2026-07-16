@@ -1,0 +1,90 @@
+[Event "Costa Catalana"]
+[Site "Malgrat de Mar - Calella de P"]
+[Date "1978.09.??"]
+[Round "1"]
+[White "Vadasz, Laszlo"]
+[Black "Garriga Nualart, Josep"]
+[Result "1-0"]
+[ECO "E66"]
+[PlyCount "112"]
+[EventDate "1978.09.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "8"]
+
+1. Nf3 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 O-O 5. O-O d6 6. d4 Nc6 7. Nc3 a6 8. d5
+Na5 9. Nd2 c5 10. Qc2 Rb8 11. b3 b5 12. Bb2 e5 13. dxe6 Bxe6 14. cxb5 axb5 15.
+Rad1 Qe7 16. Nde4 Bf5 17. Nxf6+ Qxf6 18. Qd2 Qd4 19. Qc1 Qe5 20. Rd2 Qe6 21.
+Nd5 Nc6 22. Rfd1 Rfd8 23. Bxg7 Kxg7 24. Nf4 Qe8 25. Qb2+ f6 26. Rxd6 Nd4 27.
+Rxd8 Rxd8 28. e3 Bg4 29. Rf1 Nf3+ 30. Bxf3 Bxf3 31. h4 h6 32. Qc3 g5 33. Nh3
+gxh4 34. Qxc5 Qd7 35. Kh2 Rc8 36. Qd4 hxg3+ 37. Kxg3 Qxd4 38. exd4 Be2 39. Re1
+Bh5 40. Nf4 Bf7 41. d5 Rc2 42. Rd1 Rxa2 43. d6 Ra8 44. b4 Bc4 45. Ng2 Kf7 46.
+Kf4 Ke6 47. Ne3 h5 48. Nf5 Kd7 49. Re1 Be6 50. Ng7 Bg4 51. f3 Rg8 52. fxg4 Rxg7
+53. gxh5 Kxd6 54. Rc1 Rb7 55. Kf5 Ke7 56. Kg6 Rd7 1-0
+
+[Event "Costa Catalana"]
+[Site "Malgrat de Mar - Calella de P"]
+[Date "1978.09.??"]
+[Round "2"]
+[White "Andersson, Ulf"]
+[Black "Vadasz, Laszlo"]
+[Result "1-0"]
+[ECO "D41"]
+[PlyCount "61"]
+[EventDate "1978.09.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "8"]
+
+1. c4 Nf6 2. Nc3 e6 3. Nf3 d5 4. d4 c5 5. cxd5 Nxd5 6. g3 cxd4 7. Nxd5 Qxd5 8.
+Qxd4 Nc6 9. Qxd5 exd5 10. Bg2 Be7 11. Bg5 Bc5 12. O-O Be6 13. Rfd1 O-O 14. Rac1
+Bb6 15. Bf4 Rad8 16. Ne5 Nxe5 17. Bxe5 d4 18. Bc7 Rd7 19. Bxb6 axb6 20. b3 Ra8
+21. Rd2 Kf8 22. f4 Ke7 23. Kf2 h6 24. h4 Kf6 25. Bf3 g5 26. hxg5+ hxg5 27. Rh1
+gxf4 28. gxf4 Rc8 29. Rh6+ Kf5 30. Rh5+ Kxf4 31. Rxd4+ 1-0
+
+[Event "Costa Catalana"]
+[Site "Malgrat de Mar - Calella de P"]
+[Date "1978.??.??"]
+[Round "4"]
+[White "Rodriguez Vargas, Orestes"]
+[Black "Vadasz, Laszlo"]
+[Result "1/2-1/2"]
+[ECO "B08"]
+[PlyCount "24"]
+[EventDate "1978.09.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "8"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Nf3 Bg7 5. Be2 O-O 6. O-O Bg4 7. Be3 Nc6 8. Qd2
+e5 9. dxe5 dxe5 10. Rad1 Qc8 11. Qc1 Rd8 12. Rxd8+ Qxd8 1/2-1/2
+
+[Event "Costa Catalana"]
+[Site "Malgrat de Mar - Calella de P"]
+[Date "1978.09.??"]
+[Round "8"]
+[White "Zechkovsky, Vitaly"]
+[Black "Vadasz, Laszlo"]
+[Result "1-0"]
+[ECO "B09"]
+[Annotator "Matanovic, Alexander"]
+[PlyCount "51"]
+[EventDate "1978.09.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "8"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. f4 Bg7 5. Nf3 O-O 6. Be3 Na6 7. e5 (7. h3) 7...
+Ng4 8. Bg1 c5 9. h3 cxd4 10. Qxd4 Nh6 11. O-O-O Qa5 (11... Nf5 12. Qf2 {/\ g4+/
+-}) 12. g4 Bd7 (12... Be6 13. Qa4 Qxa4 14. Nxa4 $16) 13. Nd5 Qxa2 14. Nxe7+ Kh8
+15. Qxd6 Qa1+ (15... Rfd8 16. Bxa6 bxa6 17. Qa3 $16) 16. Kd2 Qa5+ 17. Ke3 Bxg4
+(17... Rad8 18. Rd5 b5 19. Qa3 Qb6+ 20. Nd4 $16) (17... Rfd8 $5 18. Rd5 b5 19.
+Nc6 Bxc6 20. Qxc6 Nb4 $132) 18. hxg4 Rad8 19. Rd5 $1 Qa4 (19... Nxg4+ 20. Ke2
+Qa4 21. Rxh7+ Kxh7 22. Ng5+ {/\ Nf7+-}) 20. Qxd8 Nxg4+ 21. Kd3 (21. Ke2 $2 Qe4+
+) 21... Nb4+ 22. Ke2 Nc6 (22... Qa6+ 23. Ke1 Qa1+ (23... Nxc2+ 24. Kd2 Qxf1 25.
+Kxc2 $18) 24. Rd1 Nxc2+ 25. Ke2 $18) 23. Ng5 h5 24. Nxf7+ Kh7 25. Ng5+ Kh6 26.
+Ng8+ 1-0

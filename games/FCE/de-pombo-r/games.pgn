@@ -1,0 +1,154 @@
+[Event "Camp. C. E. Barcelona"]
+[Site "Barcelona"]
+[Date "1929.??.??"]
+[Round "?"]
+[White "De Pombo, R."]
+[Black "Garcia Castella, Antonio"]
+[Result "1-0"]
+[ECO "E30"]
+[PlyCount "65"]
+[EventDate "1929.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Bg5 c5 5. d5 Qa5 6. Bxf6 gxf6 7. Qc2 b5 8. e4
+Ba6 9. cxb5 Bxb5 10. Bxb5 Qxb5 11. Nge2 d6 12. O-O Bxc3 13. Nxc3 Qa5 14. Qb3
+Qb6 15. Qc4 Ke7 16. Rfd1 e5 17. Rab1 Na6 18. a3 Rac8 19. Rd3 Nc7 20. Na4 Qb5
+21. Qc2 Qa6 22. Nxc5 dxc5 23. d6+ Ke6 24. dxc7 Rxc7 25. Rbd1 Ke7 26. Qd2 Qc8
+27. Qh6 Qg4 28. Rd6 Qg5 29. Qh3 f5 30. exf5 f6 31. Qd3 Rhc8 32. Rd7+ Kf8 33.
+Qd6+ 1-0
+
+[Event "Camp. Catalunya eq. ( 1 cat. )"]
+[Site "?"]
+[Date "1932.??.??"]
+[Round "5"]
+[White "De Pombo, R."]
+[Black "Campama, J."]
+[Result "1-0"]
+[ECO "D07"]
+[PlyCount "39"]
+[EventDate "1932.??.??"]
+[EventType "team"]
+[EventRounds "18"]
+[EventCountry "ESP"]
+
+1. Nf3 Nc6 2. d4 d5 3. c4 e6 4. Nc3 Bb4 5. e3 Nf6 6. Bd2 Ne4 7. cxd5 exd5 8.
+Bb5 Bd7 9. Nxd5 Bxd2+ 10. Nxd2 Qg5 11. Nxc7+ Kf8 12. Nxe4 Qxg2 13. Ng3 Rc8 14.
+Bf1 Qxh1 15. Nxh1 Rxc7 16. Rc1 g6 17. d5 Kg7 18. dxc6 bxc6 19. Qd6 Rhc8 20. Ba6
+1-0
+
+[Event "Camp. Catalunya eq. ( 1 cat. )"]
+[Site "?"]
+[Date "1932.??.??"]
+[Round "10"]
+[White "De Pombo, R."]
+[Black "Caballero Verino, Ernest"]
+[Result "0-1"]
+[ECO "E30"]
+[PlyCount "52"]
+[EventDate "1932.??.??"]
+[EventType "team"]
+[EventRounds "18"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Bg5 Bxc3+ 5. bxc3 h6 6. Bh4 g5 7. Bg3 Ne4 8.
+Qc2 Nxg3 9. fxg3 b6 10. Nf3 Bb7 11. e4 Nc6 12. Be2 Ne7 13. O-O d6 14. d5 e5 15.
+Rab1 c6 16. c5 cxd5 17. cxd6 Qxd6 18. exd5 O-O 19. c4 Rac8 20. Qe4 Ng6 21. Qf5
+Rc7 22. Bd3 Bc8 23. Qe4 f5 24. Qe3 e4 25. Bxe4 fxe4 26. Qxe4 Bf5 0-1
+
+[Event "Camp. Catalunya eq. ( 1 cat. )"]
+[Site "?"]
+[Date "1932.03.22"]
+[Round "11"]
+[White "Calduch Segura, Joaquim"]
+[Black "De Pombo, R."]
+[Result "1-0"]
+[ECO "B03"]
+[PlyCount "67"]
+[EventDate "1932.??.??"]
+[EventType "team"]
+[EventRounds "18"]
+[EventCountry "ESP"]
+
+1. e4 Nf6 2. e5 Nd5 3. c4 Nb6 4. d4 d6 5. f4 Bf5 6. Nc3 a6 7. Nf3 e6 8. Be2 Nc6
+9. O-O Ne7 10. Be3 d5 11. c5 Nd7 12. Qe1 Bg4 13. h3 Nf5 14. Bf2 Bxf3 15. Bxf3
+Be7 16. Rd1 c6 17. Rd3 b6 18. g4 Nh4 19. f5 Nxf3+ 20. Rxf3 bxc5 21. fxe6 fxe6
+22. Bg3 cxd4 23. Ne2 c5 24. Nf4 Nf8 25. Nh5 g6 26. Ng7+ Kd7 27. Rf7 Kc6 28. Qd1
+Rc8 29. Qa4+ Kb7 30. Bh4 Rc7 31. Ne8 g5 32. Bxg5 Ng6 33. Nd6+ Kb6 34. R1f3 1-0
+
+[Event "Camp. Catalunya eq. ( 1 cat. )"]
+[Site "?"]
+[Date "1932.04.12"]
+[Round "14"]
+[White "Borras, J.Crisanto"]
+[Black "De Pombo, R."]
+[Result "0-1"]
+[ECO "C26"]
+[PlyCount "52"]
+[EventDate "1932.??.??"]
+[EventType "team"]
+[EventRounds "18"]
+[EventCountry "ESP"]
+
+1. e4 Nf6 2. Nc3 e5 3. Bc4 Bc5 4. Nf3 d6 5. a3 Nc6 6. h3 a6 7. d3 Be6 8. Bxe6
+fxe6 9. Na4 Ba7 10. O-O O-O 11. Be3 Nd4 12. c3 Nxf3+ 13. Qxf3 Bxe3 14. Qxe3 b5
+15. Nc5 dxc5 16. Qxc5 Qd6 17. Qe3 c5 18. f4 exf4 19. Rxf4 e5 20. Rf3 Nh5 21.
+Raf1 Rxf3 22. Rxf3 Rf8 23. Rxf8+ Qxf8 24. d4 Qf4 25. Qxf4 Nxf4 26. dxe5 Kf7 0-1
+
+[Event "Camp. Catalunya eq. ( 1 cat. )"]
+[Site "?"]
+[Date "1932.??.??"]
+[Round "14"]
+[White "Moya, Jaume"]
+[Black "De Pombo, R."]
+[Result "0-1"]
+[ECO "C26"]
+[PlyCount "50"]
+[EventDate "1932.??.??"]
+[EventType "team"]
+[EventRounds "18"]
+[EventCountry "ESP"]
+
+1. e4 Nf6 2. Nc3 e5 3. Bc4 Bc5 4. Nf3 d6 5. a3 Nc6 6. h3 a6 7. d3 Be6 8. Bxe6
+fxe6 9. Na4 Ba7 10. O-O O-O 11. Be3 Nd4 12. c3 Nxf3+ 13. Qxf3 Bxe3 14. Qxe3 b5
+15. Nc5 dxc5 16. Qxc5 Qd6 17. Qe3 c5 18. f4 exf4 19. Rxf4 Nh5 20. Raf1 Rxf4 21.
+Rxf4 Rf8 22. Rxf8+ Qxf8 23. d4 Qf4 24. Qxf4 Nxf4 25. dxc5 Kf7 0-1
+
+[Event "Camp. Catalunya eq. ( 1 cat. )"]
+[Site "?"]
+[Date "1932.04.19"]
+[Round "15"]
+[White "De Pombo, R."]
+[Black "Pi, Salvador"]
+[Result "1-0"]
+[ECO "D05"]
+[PlyCount "75"]
+[EventDate "1932.??.??"]
+[EventType "team"]
+[EventRounds "18"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 Nf6 3. e3 e6 4. Bd3 b6 5. Ne5 Bb7 6. O-O Bd6 7. f4 Nbd7 8. b3
+Qe7 9. a4 c5 10. Qf3 cxd4 11. exd4 O-O 12. Nc3 Bb4 13. Ne2 Ne4 14. c3 Bd6 15.
+Ng3 f5 16. c4 Ndf6 17. Qd1 Nxg3 18. hxg3 Ne4 19. Qe1 Rf6 20. Nf3 Rh6 21. Bxe4
+dxe4 22. Ng5 Qe8 23. Be3 a5 24. Kf2 Be7 25. Nh3 Bb4 26. Qe2 Qg6 27. Rh1 Rd8 28.
+Rad1 Rd7 29. c5 bxc5 30. Qb5 Re7 31. dxc5 Bd5 32. c6 Qe8 33. Rxd5 exd5 34.
+Qxd5+ Kh8 35. Qxf5 Rxc6 36. Ng5 Rc2+ 37. Kf1 h6 38. Qh7# 1-0
+
+[Event "Camp. Catalunya eq. ( 1 cat. )"]
+[Site "?"]
+[Date "1932.??.??"]
+[Round "16"]
+[White "Vilardebo Picurena, Josep"]
+[Black "De Pombo, R."]
+[Result "1-0"]
+[ECO "D51"]
+[PlyCount "40"]
+[EventDate "1932.??.??"]
+[EventType "team"]
+[EventRounds "18"]
+[EventCountry "ESP"]
+
+1. d4 c6 2. c4 d5 3. Nc3 Nf6 4. Nf3 e6 5. Bg5 Nbd7 6. a3 Be7 7. e3 a6 8. cxd5
+Nxd5 9. Ne4 Qa5+ 10. b4 Nxb4 11. Bxe7 Nc2+ 12. Ke2 Nxa1 13. Bb4 Qd5 14. Nd6+
+Kd8 15. Qxa1 Rf8 16. e4 Qh5 17. g4 Qg6 18. Ne5 Nxe5 19. dxe5 Kc7 20. Qd4 a5 1-0

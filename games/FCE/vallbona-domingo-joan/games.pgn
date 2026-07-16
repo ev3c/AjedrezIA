@@ -1,0 +1,887 @@
+[Event "Ct. Catalunya Veterans"]
+[Site "Vila-Seca"]
+[Date "2016.05.21"]
+[Round "1"]
+[White "Bautista Sanchez, Joan"]
+[Black "Vallbona Domingo, Joan"]
+[Result "1-0"]
+[ECO "E06"]
+[WhiteElo "2186"]
+[BlackElo "1934"]
+[PlyCount "56"]
+[EventDate "2016.05.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. c4 b6 3. g3 Bb7 4. Bg2 e6 5. Nc3 Be7 6. d4 d5 7. Ne5 O-O 8. O-O
+c6 9. cxd5 exd5 10. Be3 Bd6 11. Nd3 Nbd7 12. Bf4 Bxf4 13. Nxf4 Re8 14. Rc1 Nf8
+15. e3 Qd6 16. Re1 Ne6 17. Nd3 Nf8 18. a3 a5 19. Qc2 N8d7 20. Red1 Rac8 21. Nf4
+Ba6 22. Bf3 Bc4 23. h4 h6 24. b3 Ba6 25. Qb2 Ra8 26. h5 Qe7 27. Nb1 Rec8 28.
+Nd2 Bd3 1-0
+
+[Event "Ct. Catalunya Veterans"]
+[Site "Vila-Seca"]
+[Date "2016.05.25"]
+[Round "5"]
+[White "Lluverol Torrents, Salvador"]
+[Black "Vallbona Domingo, Joan"]
+[Result "1-0"]
+[ECO "E20"]
+[WhiteElo "2001"]
+[BlackElo "1934"]
+[PlyCount "80"]
+[EventDate "2016.05.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. f3 d5 5. a3 Bxc3+ 6. bxc3 c6 7. Bg5 Nbd7 8. e3
+Qa5 9. Qd2 O-O 10. Nh3 b6 11. cxd5 cxd5 12. c4 Qxd2+ 13. Kxd2 Ba6 14. cxd5 Bxf1
+15. Rhxf1 exd5 16. Rac1 Rac8 17. Rxc8 Rxc8 18. Rc1 Rxc1 19. Kxc1 a6 20. Bxf6
+Nxf6 21. Nf2 Kf8 22. Kc2 Ke7 23. Kb3 Kd6 24. Nd3 Nd7 25. e4 dxe4 26. fxe4 Nb8
+27. e5+ Kd5 28. Kc3 g5 29. Nb4+ Ke6 30. Kc4 a5 31. Nd3 Ke7 32. d5 Nd7 33. Kd4
+Nb8 34. Nf2 Nd7 35. Ne4 Nf8 36. g4 Nd7 37. a4 b5 38. axb5 a4 39. Nxg5 Nb6 40.
+d6+ Ke8 1-0
+
+[Event "Ct. Catalunya Veterans"]
+[Site "Vila-Seca"]
+[Date "2016.05.27"]
+[Round "7"]
+[White "Franquet Escriba, Joan"]
+[Black "Vallbona Domingo, Joan"]
+[Result "1/2-1/2"]
+[ECO "B43"]
+[WhiteElo "2067"]
+[BlackElo "1934"]
+[PlyCount "37"]
+[EventDate "2016.05.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Nc3 Qc7 6. Bd3 Nc6 7. Nxc6 dxc6 8.
+a4 e5 9. Bc4 Bb4 10. O-O Nf6 11. Qe2 O-O 12. Bg5 Nd7 13. Nd1 Qa5 14. c3 Bc5 15.
+Ne3 Nb6 16. Bb3 Be6 17. Nc4 Nxc4 18. Bxc4 Bxc4 19. Qxc4 1/2-1/2
+
+[Event "Ct. Catalunya Veterans"]
+[Site "Vila-Seca"]
+[Date "2016.05.29"]
+[Round "9"]
+[White "Buxade Roca, Guillermo"]
+[Black "Vallbona Domingo, Joan"]
+[Result "1/2-1/2"]
+[ECO "A05"]
+[WhiteElo "2052"]
+[BlackElo "1934"]
+[PlyCount "41"]
+[EventDate "2016.05.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. g3 b6 3. Bg2 Bb7 4. d4 e6 5. O-O Be7 6. b3 O-O 7. Bb2 c5 8. c3 d6
+9. Nbd2 Nbd7 10. Re1 Nd5 11. Rc1 Qb8 12. Qc2 h6 13. Qb1 a5 14. a4 Ra7 15. Ba3
+Ba8 16. Rc2 Rc8 17. Rec1 Rac7 18. e3 Bb7 19. Bf1 Qa8 20. Ra2 Ba6 21. Ne1
+1/2-1/2
+
+[Event "Barcelona Tres Peons op 19th"]
+[Site "Barcelona"]
+[Date "2017.01.18"]
+[Round "2"]
+[White "Vallbona Domingo, Joan"]
+[Black "Guirao Galcera, Marc"]
+[Result "1/2-1/2"]
+[ECO "A88"]
+[WhiteElo "1892"]
+[BlackElo "2094"]
+[PlyCount "96"]
+[EventDate "2017.01.11"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. Nf3 f5 2. g3 Nf6 3. c4 g6 4. b3 Bg7 5. Bb2 O-O 6. Bg2 d6 7. d4 c6 8. O-O Na6
+9. Nc3 Qc7 10. d5 e5 11. dxe6 Bxe6 12. Nd4 Bf7 13. Qd2 Rfe8 14. Rad1 Rad8 15.
+e3 Nc5 16. Qc1 Nce4 17. Nxe4 Nxe4 18. Ne2 Bxb2 19. Qxb2 d5 20. cxd5 Rxd5 21.
+Nc3 Nxc3 22. Qxc3 Rd7 23. Rxd7 Qxd7 24. Bf3 Re6 25. Rd1 Rd6 26. Rxd6 Qxd6 27.
+h4 h6 28. Be2 Bd5 29. Bc4 Bxc4 30. Qxc4+ Kg7 31. Qc3+ Kh7 32. Kf1 Qd1+ 33. Kg2
+Qd6 34. Qc2 h5 35. Kf1 Kg7 36. Qc3+ Qf6 37. Qd2 Kf7 38. Qd7+ Qe7 39. Qd4 b6 40.
+Ke2 c5 41. Qd3 Ke6 42. Kf3 Qd6 43. Qa6 Qd1+ 44. Kg2 Qd5+ 45. Kf1 Qd7 46. Qc4+
+Qd5 47. Qa6 Qd7 48. Qc4+ Qd5 1/2-1/2
+
+[Event "Barcelona Tres Peons op 19th"]
+[Site "Barcelona"]
+[Date "2017.01.25"]
+[Round "3"]
+[White "Serrano Pertinez, Miquel"]
+[Black "Vallbona Domingo, Joan"]
+[Result "1-0"]
+[ECO "A01"]
+[WhiteElo "2089"]
+[BlackElo "1892"]
+[PlyCount "143"]
+[EventDate "2017.01.11"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. b3 e5 2. Bb2 Nc6 3. e3 Nf6 4. Bb5 Bd6 5. Na3 Na5 6. Be2 Be7 7. c4 O-O 8. Nc2
+Nc6 9. Nf3 e4 10. Nfd4 Nxd4 11. Nxd4 Re8 12. Nf5 Bf8 13. Qc2 b6 14. Qc3 g6 15.
+Qxf6 Qxf6 16. Bxf6 gxf5 17. O-O-O d6 18. f3 Bg7 19. Bxg7 Kxg7 20. Rhg1 Re6 21.
+Rdf1 Rg6 22. Kb2 Kf8 23. fxe4 fxe4 24. Rf4 Rg7 25. Rxe4 Bb7 26. Rg4 Re8 27.
+Rxg7 Kxg7 28. Kc3 a5 29. Bf3 Bc8 30. Bd5 Re5 31. Rf1 f6 32. Rf3 Rg5 33. Rf4 Bd7
+34. Re4 Kf8 35. Rh4 Kg7 36. Be4 h6 37. d4 Be6 38. Bf3 Bd7 39. a3 Be6 40. b4 Bd7
+41. Rf4 Kf7 42. h4 axb4+ 43. axb4 Rg8 44. Bh5+ Ke7 45. Re4+ Kd8 46. Bf3 Rg3 47.
+Rf4 Ke7 48. c5 bxc5 49. dxc5 dxc5 50. bxc5 Be6 51. Ra4 Rg8 52. Ra7 Rc8 53. Rb7
+Kd7 54. Rb4 Rg8 55. Rd4+ Ke7 56. Re4 Kd7 57. Rb4 Ke7 58. Rb7 Kd7 59. Kd4 Rd8
+60. Ke4 Re8 61. Kf4 Rg8 62. Rb4 Ke7 63. Rd4 Rg7 64. g4 Rg8 65. Be2 Ra8 66. Bc4
+Bc8 67. Re4+ Kf8 68. Be6 Bb7 69. Rd4 Ke7 70. Kf5 Bc6 71. Bd5 Ra5 72. Bxc6 1-0
+
+[Event "Barcelona Tres Peons op 19th"]
+[Site "Barcelona"]
+[Date "2017.02.01"]
+[Round "4"]
+[White "Barragan Hernandez, Manel"]
+[Black "Vallbona Domingo, Joan"]
+[Result "1-0"]
+[ECO "A04"]
+[WhiteElo "1879"]
+[BlackElo "1892"]
+[PlyCount "81"]
+[EventDate "2017.01.11"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. Nf3 c5 2. g3 b6 3. Bg2 Bb7 4. O-O g6 5. d3 Bg7 6. e4 Nc6 7. Nc3 d6 8. Nd5 e6
+9. Ne3 Nge7 10. c3 e5 11. Nh4 Qd7 12. Bd2 O-O 13. f4 exf4 14. gxf4 Ba6 15. Be1
+Rae8 16. f5 f6 17. Rf2 g5 18. Nf3 Ne5 19. Rd2 Bh6 20. Nxe5 dxe5 21. Qh5 Bg7 22.
+Rad1 Rd8 23. Ng4 Nc6 24. Bf2 Qf7 25. Qxf7+ Rxf7 26. Ne3 Rfd7 27. Nd5 Kf7 28. d4
+cxd4 29. cxd4 exd4 30. Bxd4 Nxd4 31. Rxd4 Bf8 32. b4 Bd6 33. Nc7 Bc8 34. Ne6
+Ke7 35. Nxd8 Rxd8 36. Rd5 Bb7 37. Rxd6 Rxd6 38. Rxd6 Kxd6 39. e5+ Kc7 40. Bxb7
+Kxb7 41. exf6 1-0
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.01.12"]
+[Round "1"]
+[White "Vallbona Domingo, Joan"]
+[Black "Ferrer Ache, Jesus"]
+[Result "1-0"]
+[ECO "D07"]
+[WhiteElo "1892"]
+[BlackElo "1519"]
+[PlyCount "85"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. Nf3 d5 2. e3 Nc6 3. d4 e6 4. c4 Bb4+ 5. Bd2 a5 6. b3 Nge7 7. a3 Bxd2+ 8.
+Nbxd2 b6 9. Qc2 Ba6 10. Rc1 O-O 11. Bd3 Nf5 12. cxd5 Qxd5 13. Bxa6 Rxa6 14.
+Qxc6 Qd6 15. O-O Ra7 16. Qxd6 cxd6 17. Rc6 b5 18. Rfc1 Raa8 19. h3 Rfd8 20. Kf1
+g6 21. Ke2 Kg7 22. Rc7 h6 23. g4 Nxd4+ 24. Nxd4 Re8 25. Nxb5 Rad8 26. Ra7 d5
+27. Rcc7 Rf8 28. Nd4 Rd6 29. N2f3 Kf6 30. Rxa5 g5 31. Raa7 e5 32. Nf5 Re6 33.
+b4 Rb6 34. Nxh6 d4 35. exd4 exd4 36. Nxd4 Rd6 37. Nhf5 Re8+ 38. Kf3 Rd5 39.
+Ra6+ Ke5 40. Nc6+ Kf6 41. Nce7+ Ke5 42. Nxd5 Kxd5 43. Rc5# 1-0
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.01.19"]
+[Round "2"]
+[White "Garcia Gil, Javier"]
+[Black "Vallbona Domingo, Joan"]
+[Result "1-0"]
+[ECO "A48"]
+[WhiteElo "2170"]
+[BlackElo "1892"]
+[PlyCount "61"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Bf4 g6 3. Nf3 Bg7 4. e3 c5 5. c3 b6 6. Be2 d6 7. h3 Bb7 8. Nbd2
+Nbd7 9. O-O O-O 10. Bh2 Qc7 11. Re1 Rac8 12. Bf1 a6 13. a4 Rfd8 14. Qb3 h6 15.
+Bc4 Rf8 16. Rac1 Nb8 17. Qa3 Qd7 18. dxc5 Rxc5 19. Be2 Ne4 20. Nxe4 Bxe4 21. b4
+Rc7 22. Nd2 Ba8 23. b5 Qc8 24. c4 a5 25. e4 Nd7 26. Bf4 Nc5 27. Be3 f5 28. exf5
+Qxf5 29. Bg4 Qd3 30. Bxc5 Qxd2 31. Be3 1-0
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.01.26"]
+[Round "3"]
+[White "Vallbona Domingo, Joan"]
+[Black "Serentill Tost, Eduard"]
+[Result "1-0"]
+[ECO "A05"]
+[WhiteElo "1892"]
+[BlackElo "1700"]
+[PlyCount "61"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. Nf3 Nf6 2. c4 g6 3. b4 Bg7 4. Bb2 d6 5. g3 O-O 6. Bg2 e5 7. O-O Nc6 8. b5
+Ne7 9. d3 Bd7 10. Nc3 Qc8 11. Re1 Nh5 12. Qb3 h6 13. a4 c6 14. Ba3 c5 15. a5 f5
+16. Nd2 Rb8 17. Bb2 Bf6 18. a6 bxa6 19. Qa2 axb5 20. cxb5+ Kh8 21. Nc4 Qc7 22.
+Qxa7 Qxa7 23. Rxa7 Bxb5 24. Nxb5 Rxb5 25. Ba1 Rd8 26. h3 f4 27. g4 Ng7 28. Ra6
+Nc8 29. Bd5 Be7 30. Bc3 Ne8 31. Ba5 1-0
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.02.02"]
+[Round "4"]
+[White "Flores de Paco, David"]
+[Black "Vallbona Domingo, Joan"]
+[Result "1/2-1/2"]
+[ECO "B22"]
+[WhiteElo "2094"]
+[BlackElo "1892"]
+[PlyCount "85"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. d4 cxd4 3. c3 Nf6 4. e5 Nd5 5. Qxd4 e6 6. Nf3 b6 7. Bc4 Bb7 8. O-O
+Nc6 9. Qd3 Na5 10. Bxd5 Bxd5 11. Nbd2 Rc8 12. b3 Be7 13. c4 Ba8 14. Ne4 Bxe4
+15. Qxe4 f6 16. Rd1 Nc6 17. Qg4 O-O 18. Bh6 Rf7 19. exf6 Bxf6 20. Bg5 Qe7 21.
+Rac1 Rcf8 22. Be3 Ne5 23. Nxe5 Bxe5 24. c5 Bf4 25. cxb6 axb6 26. Bxf4 Rxf4 27.
+Qg3 d5 28. Qe3 Qd6 29. g3 Rxf2 30. Qxf2 Rxf2 31. Kxf2 Kf7 32. Rc2 d4 33. Rc4 e5
+34. Rdc1 h6 35. Rc7+ Kg8 36. R1c6 Qf8+ 37. Kg2 Qf5 38. Rxb6 e4 39. Rbb7 Qf3+
+40. Kg1 Qd1+ 41. Kg2 Qe2+ 42. Kg1 Qd1+ 43. Kg2 1/2-1/2
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.02.09"]
+[Round "5"]
+[White "Vallbona Domingo, Joan"]
+[Black "Prats Rodriguez, Juan Bosco"]
+[Result "0-1"]
+[ECO "A12"]
+[WhiteElo "1892"]
+[BlackElo "1937"]
+[PlyCount "89"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. Nf3 d5 2. g3 Bf5 3. Bg2 Nf6 4. c4 e6 5. O-O c6 6. b3 Be7 7. d3 O-O 8. Nh4
+Bg4 9. h3 Bh5 10. Bb2 Nfd7 11. Nf3 Bf6 12. Nc3 Ne5 13. Nh2 Re8 14. Qd2 h6 15.
+Rad1 Qc7 16. Rc1 Qe7 17. d4 Ned7 18. e4 dxe4 19. Nxe4 Rd8 20. Rfe1 Qf8 21. Ng4
+Be7 22. Nc3 Bb4 23. Ne3 Nf6 24. Nc2 Be7 25. Qe3 Re8 26. Bf3 Bxf3 27. Qxf3 Nbd7
+28. Rcd1 Rad8 29. Kg2 Nb6 30. Rd3 Rd7 31. Red1 Red8 32. a4 a5 33. Ne4 Nxe4 34.
+Qxe4 Ra8 35. Bc3 Nc8 36. Qe1 Bd8 37. Ne3 Qa3 38. Bd2 Qe7 39. Bc3 Bc7 40. c5 Qg5
+41. h4 Qg6 42. Nc4 Ne7 43. Rf3 Nf5 44. Qe4 Rad8 45. Kf1 0-1
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.02.16"]
+[Round "6"]
+[White "Salazar Navas, Josep"]
+[Black "Vallbona Domingo, Joan"]
+[Result "0-1"]
+[ECO "B40"]
+[WhiteElo "1730"]
+[BlackElo "1892"]
+[PlyCount "76"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. Nc3 c5 3. Nf3 a6 4. g3 b5 5. Bg2 Bb7 6. d3 d6 7. O-O Nf6 8. e5 Nfd7
+9. Bf4 d5 10. d4 Nc6 11. Ne2 Rc8 12. c3 Be7 13. Qd2 b4 14. Bg5 O-O 15. Bxe7
+Qxe7 16. a3 Rc7 17. Qg5 Qxg5 18. Nxg5 bxc3 19. bxc3 Rfc8 20. f4 g6 21. Bh3 Nd8
+22. Rac1 Bc6 23. dxc5 Bb5 24. Rfe1 Nxc5 25. Rb1 h6 26. Nf3 Bd3 27. Rb4 a5 28.
+Rb6 Na4 29. Rd6 Bxe2 30. Rxe2 Nxc3 31. Rc2 Kf8 32. Nd4 Ke7 33. Ra6 Rc4 34. Ra7+
+Ke8 35. Nb3 Nb5 36. Rxc4 dxc4 37. Rxa5 Nc3 38. Bf1 cxb3 0-1
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.02.23"]
+[Round "7"]
+[White "Vallbona Domingo, Joan"]
+[Black "Montoliu Delgado, Isaac"]
+[Result "1/2-1/2"]
+[ECO "A11"]
+[WhiteElo "1892"]
+[BlackElo "2003"]
+[PlyCount "79"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 c6 2. Nf3 d5 3. e3 f5 4. Nc3 Nf6 5. Qc2 e6 6. b3 Be7 7. Bb2 O-O 8. Be2
+Ne4 9. d3 Nxc3 10. Bxc3 Bf6 11. g3 Bxc3+ 12. Qxc3 Qf6 13. Qxf6 gxf6 14. cxd5
+cxd5 15. Rc1 Nc6 16. d4 Bd7 17. Bb5 Rfc8 18. Bxc6 Rxc6 19. Rxc6 Bxc6 20. Kd2
+Kf7 21. Rc1 Ke7 22. Ne1 Kd6 23. f4 a5 24. a3 a4 25. b4 Bb5 26. Rc3 Bc4 27. Kc1
+b5 28. Kd2 Rg8 29. Rc1 Rg7 30. Nf3 Rc7 31. Rc3 Rg7 32. Ke1 Rc7 33. Kf2 Rg7 34.
+Nh4 Rc7 35. h3 Rg7 36. Rc1 Rg8 37. Nf3 Rg7 38. Nh2 h5 39. Nf3 Rg8 40. Rc3
+1/2-1/2
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.03.02"]
+[Round "8"]
+[White "Mas Recorda, Pere"]
+[Black "Vallbona Domingo, Joan"]
+[Result "1/2-1/2"]
+[ECO "A03"]
+[WhiteElo "1962"]
+[BlackElo "1892"]
+[PlyCount "50"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. f4 d5 2. e3 c5 3. Nf3 Bg4 4. Bb5+ Nd7 5. O-O a6 6. Bxd7+ Qxd7 7. Qe1 Bxf3 8.
+Rxf3 Nf6 9. d3 g6 10. b3 Bg7 11. Bb2 O-O-O 12. Nd2 Nh5 13. Qc1 Kb8 14. Bxg7
+Nxg7 15. Qb2 Nf5 16. b4 cxb4 17. Qxb4 Rc8 18. Qb2 Rhd8 19. Rb1 Rc7 20. Nf1 Qc6
+21. Rf2 f6 22. Qb3 Qc5 23. Rd2 e5 24. fxe5 fxe5 25. Qa4 Qc6 1/2-1/2
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.03.09"]
+[Round "9"]
+[White "Vallbona Domingo, Joan"]
+[Black "Colom Andres, Xavier"]
+[Result "1/2-1/2"]
+[ECO "D90"]
+[WhiteElo "1892"]
+[BlackElo "1937"]
+[PlyCount "72"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. Nf3 d5 2. c4 Nf6 3. cxd5 Nxd5 4. Nc3 c6 5. d4 g6 6. e4 Nf6 7. h3 Bg7 8. Be3
+Nbd7 9. Qd2 Nb6 10. Be2 Be6 11. b3 Bd7 12. O-O O-O 13. Rfd1 e6 14. Rac1 Qe7 15.
+Ne5 Rfc8 16. Nd3 Re8 17. Bf3 Qf8 18. Ne2 Rad8 19. g4 Bc8 20. Qa5 Nfd7 21. Qxa7
+f5 22. Qa5 fxe4 23. Bxe4 Nd5 24. Bg5 Bf6 25. Qd2 Qe7 26. Bxf6 Qxf6 27. f4 Rf8
+28. Rf1 Qh4 29. Bg2 Qe7 30. Ng3 N7f6 31. Rcd1 Qd6 32. Nc5 b6 33. Nce4 Nxe4 34.
+Nxe4 Qc7 35. g5 Kg7 36. Qc1 Rxf4 1/2-1/2
+
+[Event "Catalunya-chT Gp1"]
+[Site "Barcelona"]
+[Date "2017.03.04"]
+[Round "7.10"]
+[White "Masague Artero, Guerau"]
+[Black "Vallbona Domingo, Joan"]
+[Result "0-1"]
+[ECO "E15"]
+[WhiteElo "1979"]
+[BlackElo "1892"]
+[PlyCount "92"]
+[EventDate "2017.01.21"]
+[EventType "team-tourn"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+[WhiteTeam "Lleida"]
+[BlackTeam "Tres Peons"]
+[WhiteTeamCountry "ESP"]
+[BlackTeamCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6 5. b3 Bb4+ 6. Bd2 Be7 7. Bg2 Bb7 8. O-O
+c5 9. Nc3 cxd4 10. Nxd4 Bxg2 11. Kxg2 Nc6 12. Bf4 a6 13. Nc2 O-O 14. Bd6 Qc8
+15. f3 Rd8 16. e4 Bxd6 17. Qxd6 Qb8 18. Rfd1 Qxd6 19. Rxd6 Ne8 20. Rd2 d6 21.
+Ne3 Kf8 22. Rad1 Ke7 23. f4 Rab8 24. Re1 Kf8 25. a4 Rbc8 26. Nc2 Na5 27. Rb1
+Nf6 28. Nb4 Ra8 29. Kf3 Ke7 30. Ne2 Nd7 31. Nd4 Nb8 32. g4 Rc8 33. g5 Nbc6 34.
+Ndxc6+ Nxc6 35. Nxc6+ Rxc6 36. Rbd1 Ra7 37. Kg4 f6 38. Rd3 fxg5 39. fxg5 Ra8
+40. e5 Rd8 41. exd6+ Rcxd6 42. Rxd6 Rxd6 43. Rxd6 Kxd6 44. Kf4 e5+ 45. Kf5 a5
+46. c5+ bxc5 0-1
+
+[Event "Catalunya-chT GpA final"]
+[Site "Barcelona"]
+[Date "2017.03.11"]
+[Round "1.10"]
+[White "Moreno Garcia, Elizabeth Paola"]
+[Black "Vallbona Domingo, Joan"]
+[Result "0-1"]
+[ECO "A00"]
+[WhiteElo "2024"]
+[BlackElo "1891"]
+[PlyCount "0"]
+[EventDate "2017.03.11"]
+[EventType "team-tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+[WhiteTeam "Barceloan Escola"]
+[BlackTeam "Tres Peons"]
+[WhiteTeamCountry "ESP"]
+[BlackTeamCountry "ESP"]
+
+ 0-1
+
+[Event "Barcelona Primavera La Lira op 10th"]
+[Site "Barcelona"]
+[Date "2017.04.20"]
+[Round "1"]
+[White "Tortosa Moros, Joan"]
+[Black "Vallbona Domingo, Joan"]
+[Result "0-1"]
+[ECO "B42"]
+[WhiteElo "1590"]
+[BlackElo "1866"]
+[PlyCount "64"]
+[EventDate "2017.04.20"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Bd3 Bc5 6. Nb3 Be7 7. O-O d6 8. c4
+Nf6 9. Qe2 Nbd7 10. f4 Qc7 11. Nc3 b6 12. Be3 Bb7 13. Rad1 O-O 14. Bf2 Rfe8 15.
+h3 Rac8 16. Rc1 g6 17. g4 Nc5 18. Nxc5 dxc5 19. Bg3 Rcd8 20. Rcd1 Rd4 21. Bf2
+Rd7 22. Bh4 Nxe4 23. Bxe4 Rxd1 24. Qxd1 Bxh4 25. Bxb7 Qxb7 26. g5 f5 27. Qe2
+Kf7 28. Qe5 Qe7 29. Rd1 h6 30. gxh6 Bf6 31. Qd6 Bd4+ 32. Kh2 Qxd6 0-1
+
+[Event "Barcelona Primavera La Lira op 10th"]
+[Site "Barcelona"]
+[Date "2017.04.27"]
+[Round "2"]
+[White "Vallbona Domingo, Joan"]
+[Black "Minguez Rodriguez, Raul"]
+[Result "0-1"]
+[ECO "A38"]
+[WhiteElo "1866"]
+[BlackElo "2199"]
+[PlyCount "62"]
+[EventDate "2017.04.20"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 Nf6 2. Nc3 g6 3. g3 Bg7 4. Bg2 O-O 5. d3 c5 6. Rb1 Nc6 7. a3 d6 8. Nf3
+Bd7 9. O-O Rb8 10. b4 b6 11. Bd2 e6 12. b5 Nd4 13. e3 Nf5 14. e4 Nd4 15. Nxd4
+cxd4 16. Ne2 e5 17. h3 Ne8 18. Kh2 f5 19. f4 Nc7 20. Qb3 Ne6 21. exf5 Nc5 22.
+Bd5+ Kh8 23. Qc2 Bxf5 24. Nc1 Qe7 25. Re1 Qf6 26. Be4 Bxe4 27. dxe4 exf4 28.
+gxf4 Qh4 29. Nd3 Rbe8 30. Nb4 Qf2+ 31. Kh1 Nxe4 0-1
+
+[Event "Barcelona Primavera La Lira op 10th"]
+[Site "Barcelona"]
+[Date "2017.05.11"]
+[Round "4"]
+[White "Gonzalez Canovas, Sebastian"]
+[Black "Vallbona Domingo, Joan"]
+[Result "1/2-1/2"]
+[ECO "A05"]
+[WhiteElo "1661"]
+[BlackElo "1866"]
+[PlyCount "157"]
+[EventDate "2017.04.20"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. Nf3 c5 2. g3 b6 3. Bg2 Bb7 4. O-O Nf6 5. d3 d6 6. Re1 g6 7. c3 Bg7 8. e4 O-O
+9. Nbd2 Qc7 10. Nf1 Nbd7 11. Rb1 Rac8 12. b3 b5 13. c4 b4 14. Bb2 e5 15. a3 a5
+16. axb4 axb4 17. Ra1 Ra8 18. Qe2 Rxa1 19. Rxa1 Ra8 20. Qd1 Ra5 21. Rxa5 Qxa5
+22. Qa1 Qxa1 23. Bxa1 Bh6 24. Bb2 Nb8 25. h3 Nc6 26. Ne3 Na5 27. Nd2 Nh5 28.
+Nef1 Kf8 29. Bf3 Ng7 30. Bd1 Ke7 31. Ne3 Ne6 32. Nf3 Bxe3 33. fxe3 Bc8 34. Kg2
+f6 35. d4 Bb7 36. d5 Ng7 37. Nh4 Bc8 38. g4 Bd7 39. Kf3 Kf7 40. Bc2 h5 41. Bc1
+hxg4+ 42. hxg4 Ne8 43. Bd2 Nc7 44. Kg3 Na8 45. Nf3 g5 46. Be1 Nb6 47. Nd2 Nc8
+48. Nf3 Ne7 49. Bd2 Ng8 50. Bd1 Nh6 51. Nh2 Ke7 52. Bc2 Kd8 53. Kf3 Kc7 54. Be1
+Bc8 55. Kg3 Ba6 56. Kf3 Nf7 57. Nf1 Bc8 58. Nh2 Bd7 59. Bd2 Nh6 60. Be1 Be8 61.
+Kg3 Bg6 62. Kf3 Kd7 63. Bd2 Ke7 64. Be1 Bh7 65. Nf1 Nb7 66. Ng3 Nd8 67. Nf5+
+Nxf5 68. exf5 e4+ 69. Bxe4 Nf7 70. Bg3 Nh6 71. Bc2 Ng8 72. Bd3 Kd7 73. Bc2 Ne7
+74. Bd3 Nc8 75. Bh2 Ke7 76. Bg3 Nb6 77. Bh2 Nd7 78. Bc2 Ne5+ 79. Bxe5 1/2-1/2
+
+[Event "Barcelona Primavera La Lira op 10th"]
+[Site "Barcelona"]
+[Date "2017.05.18"]
+[Round "5"]
+[White "Vallbona Domingo, Joan"]
+[Black "Falomir Ballega, Sergi"]
+[Result "1-0"]
+[ECO "A84"]
+[WhiteElo "1866"]
+[BlackElo "1674"]
+[PlyCount "59"]
+[EventDate "2017.04.20"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Bf4 e6 3. e3 f5 4. Nf3 c6 5. c4 Nf6 6. Nc3 Bd6 7. Ne5 Qe7 8. Rc1
+O-O 9. Bd3 Ne4 10. h3 Nd7 11. Nxd7 Bxd7 12. Bxd6 Nxd6 13. c5 Ne4 14. O-O Qh4
+15. Ne2 g5 16. f4 g4 17. Bxe4 fxe4 18. Qe1 Qh5 19. Qg3 Kh8 20. hxg4 Qg6 21. g5
+Rg8 22. Qh4 Raf8 23. Rf2 Qe8 24. Ng3 Qe7 25. Nh5 Be8 26. Nf6 Rg6 27. g3 Qg7 28.
+Rg2 Bf7 29. Nh5 Qg8 30. Rh2 1-0
+
+[Event "Barcelona Primavera La Lira op 10th"]
+[Site "Barcelona"]
+[Date "2017.05.25"]
+[Round "6"]
+[White "Massanet Miret, Pere"]
+[Black "Vallbona Domingo, Joan"]
+[Result "0-1"]
+[ECO "A47"]
+[WhiteElo "1730"]
+[BlackElo "1866"]
+[PlyCount "84"]
+[EventDate "2017.04.20"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Bf4 c5 3. c3 b6 4. Nf3 Ba6 5. Nbd2 e6 6. e3 Bxf1 7. Nxf1 Be7 8. h3
+Nc6 9. N1d2 d6 10. O-O Qd7 11. Qc2 O-O 12. Rfd1 cxd4 13. exd4 Rac8 14. Qa4 Qb7
+15. Re1 b5 16. Qd1 Rfd8 17. Qe2 Na5 18. Nb3 Nc4 19. a3 Qb6 20. Rab1 Rc6 21. Ng5
+d5 22. Nf3 a5 23. Bh2 b4 24. axb4 axb4 25. Ne5 Rcc8 26. Nd3 Ra8 27. Nbc5 bxc3
+28. bxc3 Qc6 29. Ra1 Rxa1 30. Rxa1 Ne4 31. Na4 Ra8 32. Qc2 Nxc3 33. Qxc3 Rxa4
+34. g4 h6 35. Rb1 Ra3 36. Rb3 Qa4 37. Rxa3 Bxa3 38. Nc5 Qd1+ 39. Kg2 Bb2 40.
+Qb3 Qxd4 41. Nd3 Bc3 42. Nb4 Bxb4 0-1
+
+[Event "Barcelona Primavera La Lira op 10th"]
+[Site "Barcelona"]
+[Date "2017.06.01"]
+[Round "7"]
+[White "Vallbona Domingo, Joan"]
+[Black "Salvany Rius, Joaquim"]
+[Result "1/2-1/2"]
+[ECO "A44"]
+[WhiteElo "1866"]
+[BlackElo "1807"]
+[PlyCount "66"]
+[EventDate "2017.04.20"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 c5 2. d5 Nf6 3. Nc3 e5 4. e4 d6 5. Be2 Be7 6. a4 O-O 7. Nf3 Ne8 8. O-O g6
+9. Nd2 f5 10. Nc4 f4 11. Bg4 Bxg4 12. Qxg4 Ng7 13. f3 g5 14. Qh3 Rf6 15. g3 Qd7
+16. Qxd7 Nxd7 17. a5 Kf7 18. Bd2 h5 19. Kg2 Rh6 20. Rh1 Rg8 21. a6 b6 22. Nb5
+Ra8 23. Rag1 Ne8 24. g4 Bd8 25. h3 Ke7 26. Ra1 Nc7 27. Nxc7 Bxc7 28. Na3 Nf6
+29. Nb5 Ne8 30. Rhb1 Bd8 31. b4 Nc7 32. bxc5 Nxb5 33. Rxb5 dxc5 1/2-1/2
+
+[Event "Barcelona Primavera La Lira op 10th"]
+[Site "Barcelona"]
+[Date "2017.06.08"]
+[Round "8"]
+[White "Palmero Castillo, Marcelino"]
+[Black "Vallbona Domingo, Joan"]
+[Result "1-0"]
+[ECO "B41"]
+[WhiteElo "1672"]
+[BlackElo "1866"]
+[PlyCount "153"]
+[EventDate "2017.04.20"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. c4 Nf6 6. Nc3 Bb4 7. Qd3 O-O 8. Be2
+Nc6 9. O-O b6 10. Bg5 Be7 11. Rfd1 h6 12. Bh4 Bb7 13. Nf3 Nb4 14. Qb1 g5 15.
+Bg3 Nh5 16. Bd6 Bxd6 17. Rxd6 Qc7 18. Qd1 Nf4 19. Bf1 Rad8 20. Ne5 Nfd5 21.
+Rxd7 Rxd7 22. Nxd7 Nxc3 23. bxc3 Rd8 24. Nf6+ Kg7 25. Qf3 Qe5 26. Ng4 Qd6 27.
+Qf6+ Kf8 28. Qxh6+ Ke7 29. Qf6+ Kf8 30. cxb4 Bxe4 31. Qh6+ Ke7 32. Qxg5+ Kf8
+33. Qh6+ Ke7 34. Qf6+ Kf8 35. c5 bxc5 36. bxc5 Qc7 37. Qe5 Qc6 38. Ne3 Rd2 39.
+Rd1 Rxa2 40. Qd6+ Qxd6 41. cxd6 Ke8 42. h4 Kd7 43. Bd3 Bc6 44. h5 Ra5 45. h6
+Rh5 46. Ng4 Rh4 47. h7 Kxd6 48. Bxa6+ Ke7 49. Ne5 Ba4 50. Ra1 Bc2 51. Bd3 Bxd3
+52. Nxd3 Rxh7 53. g3 Rh5 54. Kg2 Rd5 55. Nf4 Rd2 56. Kf3 Kf6 57. Re1 Rb2 58.
+Re2 Rb3+ 59. Kg2 Ra3 60. Kh3 Rb3 61. Kh4 Rb4 62. Kh5 Rb5+ 63. Kh6 Rb7 64. Nh5+
+Ke7 65. Kg7 Rb5 66. Kh6 Rb7 67. Re3 Rb5 68. Rf3 Rd5 69. g4 Rc5 70. g5 Rb5 71.
+g6 fxg6 72. Kxg6 Rb2 73. Rf7+ Kd6 74. Ng3 Rb5 75. Ne4+ Ke5 76. f3 Rb2 77. Rf6
+1-0
+
+[Event "Barcelona Primavera La Lira op 10th"]
+[Site "Barcelona"]
+[Date "2017.06.15"]
+[Round "9"]
+[White "Vallbona Domingo, Joan"]
+[Black "Niubo Calvo, Juan"]
+[Result "0-1"]
+[ECO "A25"]
+[WhiteElo "1866"]
+[BlackElo "1782"]
+[PlyCount "88"]
+[EventDate "2017.04.20"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. d4 exd4 5. Nxd4 Be7 6. g3 O-O 7. Bg2 Rb8 8.
+O-O d6 9. Nxc6 bxc6 10. Bxc6 Bh3 11. Bg2 Qc8 12. b3 Re8 13. Bb2 c5 14. Qd3 Bxg2
+15. Kxg2 a6 16. f3 Qe6 17. e4 Bf8 18. Rad1 Qe5 19. Rf2 Qg5 20. Ne2 Nd7 21. h4
+Qe7 22. Nf4 Nb6 23. Qc3 f6 24. Rfd2 Qf7 25. h5 Nd7 26. g4 Ne5 27. Nd5 Qd7 28.
+Ne3 Rbd8 29. Qa5 Qb7 30. Rd5 Nc6 31. Qa3 Nb4 32. R5d2 Re6 33. Bc3 Rde8 34. Nd5
+Nxd5 35. Rxd5 Qc8 36. Qc1 Rxe4 37. Kg3 Re2 38. R1d2 Qe6 39. Qf1 Re3 40. R5d3
+Re1 41. Qf2 f5 42. Rd5 fxg4 43. fxg4 Re3+ 44. Kg2 Qxg4+ 0-1
+
+[Event "Camp. Barcelona"]
+[Site "Barcelona"]
+[Date "1978.??.??"]
+[Round "3"]
+[White "Fernandez Garcia, Jose Luis"]
+[Black "Vallbona Domingo, Joan"]
+[Result "1-0"]
+[ECO "B42"]
+[PlyCount "39"]
+[EventDate "1978.??.??"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Bd3 Qc7 6. O-O Bd6 7. Kh1 Ne7 8. f4
+e5 9. fxe5 Bxe5 10. Nf3 Bf4 11. Nc3 O-O 12. e5 Bxc1 13. Rxc1 Nbc6 14. Bxh7+
+Kxh7 15. Ng5+ Kg6 16. Qd3+ Kxg5 17. Ne4+ Kh6 18. Qh3+ Kg6 19. Qg4+ Kh6 20. Qh4+
+1-0
+
+[Event "Ct. Catalunya Veterans"]
+[Site "Barcelona"]
+[Date "2014.05.19"]
+[Round "3"]
+[White "Anguera Maestro, J."]
+[Black "Vallbona Domingo, J."]
+[Result "1-0"]
+[ECO "A56"]
+[WhiteElo "2263"]
+[BlackElo "2122"]
+[PlyCount "81"]
+[EventDate "2014.05.17"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.06.06"]
+
+1. d4 Nf6 2. c4 c5 3. e3 g6 4. Nc3 Bg7 5. d5 O-O 6. e4 d6 7. Be2 e6 8. Nf3 exd5
+9. exd5 Re8 10. O-O Ne4 11. Nxe4 Rxe4 12. Bd3 Re8 13. h3 Nd7 14. Bf4 Ne5 15.
+Nxe5 Bxe5 16. Bxe5 Rxe5 17. f4 Re8 18. f5 Qg5 19. fxg6 hxg6 20. Qf3 Qe3+ 21.
+Kh1 Qxf3 22. Rxf3 Kg7 23. g4 Re7 24. Raf1 a5 25. Kg2 Bd7 26. g5 Rd8 27. Rf6 Bc8
+28. R1f3 Bd7 29. Kf2 Be8 30. h4 Re5 31. Re3 Rxe3 32. Kxe3 Kf8 33. Bxg6 Kg7 34.
+Bd3 Rd7 35. h5 Re7+ 36. Kf4 Rd7 37. h6+ Kg8 38. g6 fxg6 39. Bxg6 Bxg6 40. Rxg6+
+Kf8 41. Kf5 1-0
+
+[Event "Ct. Catalunya Veterans"]
+[Site "Barcelona"]
+[Date "2014.05.21"]
+[Round "5"]
+[White "Colom Andres, FX."]
+[Black "Vallbona Domingo, J."]
+[Result "1-0"]
+[ECO "A30"]
+[WhiteElo "2052"]
+[BlackElo "2122"]
+[PlyCount "75"]
+[EventDate "2014.05.17"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.06.06"]
+
+1. Nf3 Nf6 2. c4 c5 3. g3 g6 4. Bg2 Bg7 5. O-O b6 6. Nc3 Bb7 7. d3 O-O 8. a3 e6
+9. Bf4 d6 10. Rb1 e5 11. Bd2 Re8 12. Ng5 Bxg2 13. Kxg2 d5 14. cxd5 Nxd5 15. Qb3
+Nxc3 16. Qxf7+ Kh8 17. bxc3 Re7 18. Qf3 e4 19. Nf7+ Kg8 20. Qxe4 Rxe4 21. Nxd8
+Rxe2 22. Rfe1 Rxe1 23. Rxe1 Nd7 24. Nc6 Bf6 25. c4 Kf7 26. Bf4 a6 27. Ne5+ Nxe5
+28. Bxe5 Re8 29. f4 g5 30. Kf3 Bxe5 31. fxe5 Ke6 32. Rb1 Rb8 33. Ke4 b5 34. h3
+b4 35. axb4 Rxb4 36. Rf1 a5 37. Rf6+ Ke7 38. Rc6 1-0
+
+[Event "Ct. Catalunya Veterans"]
+[Site "Barcelona"]
+[Date "2014.05.24"]
+[Round "8"]
+[White "Vallbona Domingo, J."]
+[Black "Duran Vallverdu, J."]
+[Result "1-0"]
+[ECO "D77"]
+[WhiteElo "2122"]
+[BlackElo "2117"]
+[PlyCount "61"]
+[EventDate "2014.05.17"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.06.06"]
+
+1. Nf3 d5 2. c4 e6 3. g3 g6 4. Bg2 Bg7 5. O-O Nf6 6. d4 O-O 7. Qc2 Nc6 8. Rd1
+a5 9. Nc3 dxc4 10. a3 Nd5 11. Nb5 Nb6 12. Bf4 Nd5 13. Qxc4 Nxf4 14. gxf4 Bd7
+15. Ne5 Na7 16. Nxa7 Rxa7 17. Rac1 c6 18. a4 Qe7 19. Qc3 Rc8 20. Qd2 Be8 21. b3
+Rd8 22. Qe3 Raa8 23. Qc3 Qb4 24. Qxb4 axb4 25. e3 Bf8 26. Rf1 Ra6 27. Rfe1 f6
+28. Nd3 b5 29. axb5 cxb5 30. Ra1 Rda8 31. Bxa8 1-0
+
+[Event "Ct. Catalunya Veterans"]
+[Site "Barcelona"]
+[Date "2014.05.25"]
+[Round "9"]
+[White "Franquet Escriva, J."]
+[Black "Vallbona Domingo, J."]
+[Result "1/2-1/2"]
+[ECO "B42"]
+[WhiteElo "2193"]
+[BlackElo "2122"]
+[PlyCount "30"]
+[EventDate "2014.05.17"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.06.06"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Bd3 Bc5 6. Nb3 Ba7 7. Nc3 Nc6 8.
+Qe2 d6 9. Be3 b5 10. Bxa7 Rxa7 11. Qe3 Nf6 12. Rd1 Rd7 13. O-O O-O 14. a3 Bb7
+15. Kh1 Ne5 1/2-1/2
+
+[Event "Andorra op"]
+[Site "Erts - La Massana"]
+[Date "2014.07.19"]
+[Round "1.7"]
+[White "Gretarsson, HS."]
+[Black "Vallbona Domingo, J."]
+[Result "1-0"]
+[ECO "A38"]
+[WhiteElo "2535"]
+[BlackElo "2014"]
+[PlyCount "49"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+
+1. c4 Nf6 2. Nc3 c5 3. g3 Nc6 4. Bg2 g6 5. Nf3 Bg7 6. O-O O-O 7. d4 cxd4 8.
+Nxd4 a6 9. Nc2 d6 10. b3 Be6 11. Bb2 Rc8 12. Qd2 Qa5 13. Rad1 Qh5 14. e4 Bh3
+15. Bxh3 Qxh3 16. f3 h5 17. Ne3 Bh6 18. Qe2 Rfd8 19. f4 Bg7 20. f5 h4 21. g4
+Ne5 22. Ned5 Nxd5 23. Nxd5 Bf8 24. Bxe5 dxe5 25. Rd3 1-0

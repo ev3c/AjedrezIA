@@ -1,0 +1,231 @@
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.13"]
+[Round "1.8"]
+[White "Aprea, D."]
+[Black "Maltsev, A."]
+[Result "1-0"]
+[ECO "A48"]
+[WhiteElo "2077"]
+[BlackElo "1867"]
+[PlyCount "119"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. d4 Nf6 2. Nf3 g6 3. Bf4 Bg7 4. e3 d6 5. h3 Nbd7 6. Be2 O-O 7. O-O c6 8. c4
+Qc7 9. c5 Nh5 10. cxd6 exd6 11. Bh2 f5 12. Ng5 Ndf6 13. g4 Bh6 14. Qb3+ Nd5 15.
+gxh5 Bxg5 16. hxg6 hxg6 17. Nc3 Be6 18. Bc4 Qf7 19. Bxd5 cxd5 20. Bxd6 Rfd8 21.
+Be5 Qh7 22. f4 Bh6 23. Rf2 Rd7 24. Rh2 g5 25. fxg5 Bxg5 26. Rg2 Qh6 27. h4 Qxh4
+28. Bf6 Rg7 29. Bxg5 Rxg5 30. Qxb7 Rxg2+ 31. Kxg2 Rf8 32. Rg1 Rf7 33. Qb8+ Kh7
+34. Qh2 Rg7+ 35. Kh1 Rxg1+ 36. Kxg1 Qxh2+ 37. Kxh2 Bf7 38. Kg3 Kg6 39. Kf4 Kf6
+40. b4 a6 41. a4 Ke6 42. Kg5 Be8 43. b5 a5 44. Nb1 Bf7 45. Nd2 Bg8 46. Nb3 f4
+47. exf4 Bh7 48. f5+ Bxf5 49. b6 Bc2 50. b7 Bxb3 51. b8=Q Bxa4 52. Qb6+ Kd7 53.
+Qxa5 Bc6 54. Kf5 Kd6 55. Qb6 Kd7 56. Ke5 Ke7 57. Qxc6 Kd8 58. Qb7 Ke8 59. Kf6
+Kf8 60. Qa8# 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.14"]
+[Round "2.53"]
+[White "Maltsev, A."]
+[Black "Palomero Galvez, A."]
+[Result "1-0"]
+[ECO "A07"]
+[WhiteElo "1867"]
+[BlackElo "1750"]
+[PlyCount "33"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. g3 d5 2. Nf3 Nf6 3. Bg2 Bf5 4. c4 Nbd7 5. cxd5 Nxd5 6. Nd4 Be6 7. Nxe6 fxe6
+8. d4 c6 9. e4 Nc7 10. e5 Nb6 11. Nc3 Qd7 12. Ne4 O-O-O 13. Be3 Qe8 14. Nc5 Qf7
+15. Qb3 g6 16. a4 a5 17. Qxb6 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.15"]
+[Round "3.29"]
+[White "Catarineu Rabell, M."]
+[Black "Maltsev, A."]
+[Result "1-0"]
+[ECO "E81"]
+[WhiteElo "2071"]
+[BlackElo "1867"]
+[PlyCount "97"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 Ne8 7. Qd2 f5 8. O-O-O
+b6 9. h4 h5 10. Nge2 Nf6 11. Bh6 fxe4 12. fxe4 Ng4 13. Bxg7 Kxg7 14. Rg1 Nd7
+15. Nf4 Ndf6 16. Bd3 e5 17. dxe5 Nxe5 18. Be2 Qe7 19. g3 Bg4 20. Rgf1 Rae8 21.
+Nfd5 Nxd5 22. exd5 Bxe2 23. Qxe2 Ng4 24. Qxe7+ Rxe7 25. Rxf8 Kxf8 26. Rf1+ Ke8
+27. Kd2 a6 28. Rf3 Re5 29. a4 g5 30. hxg5 Rxg5 31. b3 Ne5 32. Re3 Rg4 33. Ne4
+Kf7 34. Nf2 Rg6 35. Nh3 Rg4 36. Nf2 Rg7 37. Nh3 Kf6 38. Nf4 Kf5 39. Nxh5 Rh7
+40. Nf4 Ng4 41. Re2 Ne5 42. Ne6 Kg4 43. Kc3 Kxg3 44. Nd4 Rh4 45. Nf5+ Kf3 46.
+Rxe5 Rf4 47. Nd4+ Rxd4 48. Kxd4 dxe5+ 49. Kxe5 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.16"]
+[Round "4.53"]
+[White "Maltsev, A."]
+[Black "Ballve Monte, A."]
+[Result "1-0"]
+[ECO "A23"]
+[WhiteElo "1867"]
+[BlackElo "1750"]
+[PlyCount "61"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. g3 e5 2. c4 Nf6 3. Bg2 Bc5 4. Nc3 c6 5. e4 d6 6. Nge2 Bg4 7. h3 Be6 8. b3
+Na6 9. d4 Bb4 10. Bb2 exd4 11. Nxd4 Qa5 12. Qc2 Bc5 13. Rd1 Nb4 14. Qb1 d5 15.
+a3 Na6 16. b4 Nxb4 17. axb4 Bxb4 18. Nde2 dxe4 19. O-O Bxc4 20. Nxe4 Bd5 21.
+Nxf6+ gxf6 22. Bxd5 cxd5 23. Bxf6 Rg8 24. Qxh7 Kd7 25. Qxf7+ Kc6 26. Rc1+ Bc5
+27. Nd4+ Kb6 28. Qe6+ Kc7 29. Qe7+ Kb6 30. Rxc5 Qxc5 31. Rb1+ 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.17"]
+[Round "5.35"]
+[White "Serra Vilaro, A."]
+[Black "Maltsev, A."]
+[Result "1/2-1/2"]
+[ECO "A45"]
+[WhiteElo "2013"]
+[BlackElo "1867"]
+[PlyCount "68"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. d4 Nf6 2. c3 g6 3. Nd2 Bg7 4. e4 d6 5. f4 O-O 6. Ngf3 Bg4 7. Bd3 e5 8. fxe5
+dxe5 9. d5 c6 10. c4 cxd5 11. cxd5 Nbd7 12. O-O Nc5 13. Bc2 Qb6 14. Nc4 Bxf3
+15. Qxf3 Qb4 16. b3 Nfd7 17. a4 Nxe4 18. Ba3 Qc3 19. Qxe4 f5 20. Qd3 Qxd3 21.
+Bxd3 e4 22. Be2 Bxa1 23. Rxa1 Rfd8 24. g4 Nf6 25. gxf5 Nxd5 26. fxg6 hxg6 27.
+Ne5 Nf4 28. Bc4+ Kh7 29. Rf1 g5 30. h4 Rd2 31. hxg5 Nh3+ 32. Kh1 Nf2+ 33. Kg1
+Nh3+ 34. Kh1 Nf2+ 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.18"]
+[Round "6.37"]
+[White "Maltsev, A."]
+[Black "Riera Danes, M."]
+[Result "0-1"]
+[ECO "A38"]
+[WhiteElo "1867"]
+[BlackElo "2048"]
+[PlyCount "78"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. g3 Nf6 2. Nf3 g6 3. Bg2 Bg7 4. c4 c5 5. Nc3 Nc6 6. d4 cxd4 7. Nxd4 O-O 8.
+Nb3 d6 9. e4 Be6 10. Nd2 Ne5 11. Qe2 Rc8 12. b3 Nfd7 13. Bb2 Nc5 14. O-O Ned3
+15. Ndb1 Nxb2 16. Qxb2 Qb6 17. Qc2 Qa5 18. a3 Nxb3 19. Qxb3 Bxc4 20. Qxb7 Bxf1
+21. Bxf1 Bxc3 22. Nxc3 Qxc3 23. Rd1 Rc7 24. Qa6 Rb8 25. Rd5 Rb2 26. Rd3 Qe1 27.
+Rf3 Qxe4 28. Rf4 Qc6 29. Qa5 Rb1 30. h4 Qc1 31. Qa6 e5 32. Ra4 d5 33. Kg2 Qd1
+34. g4 Rcc1 35. Qxa7 Qxf1+ 36. Kf3 Rb3+ 37. Qe3 Rcc3 38. Ra8+ Kg7 39. h5 Rxe3#
+0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.19"]
+[Round "7.53"]
+[White "Garcia Extremera, M."]
+[Black "Maltsev, A."]
+[Result "0-1"]
+[ECO "D90"]
+[WhiteElo "1759"]
+[BlackElo "1867"]
+[PlyCount "58"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. b3 c5 6. e3 Bg4 7. Bb2 cxd4 8. exd4
+Nc6 9. cxd5 Nxd5 10. Bb5 O-O 11. Nxd5 Qxd5 12. Bc4 Qd6 13. O-O Bxf3 14. Qxf3
+Bxd4 15. Rad1 e5 16. Bc1 Rad8 17. Bh6 e4 18. Qxe4 Rfe8 19. Qh4 Qc5 20. Rc1 Qb6
+21. Bg5 Rd7 22. Bf6 Ne5 23. Bxe5 Rxe5 24. Qg3 Rde7 25. Rcd1 Rh5 26. Qb8+ Kg7
+27. Rd2 Be5 28. Qd8 Bxh2+ 29. Kh1 Bc7+ 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.20"]
+[Round "8.34"]
+[White "Maltsev, A."]
+[Black "Pujal Moncho, J."]
+[Result "1-0"]
+[ECO "A07"]
+[WhiteElo "1867"]
+[BlackElo "1997"]
+[PlyCount "109"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. g3 d5 2. Nf3 Nf6 3. Bg2 c6 4. O-O e6 5. d3 Bd6 6. Bg5 Nbd7 7. e4 h6 8. Bxf6
+Qxf6 9. Nc3 d4 10. Nb1 e5 11. Nbd2 Nb6 12. c3 c5 13. cxd4 cxd4 14. Nb3 O-O 15.
+Nfd2 Qe7 16. f4 f6 17. Nf3 Bg4 18. h3 Bxf3 19. Rxf3 Rac8 20. f5 Rc7 21. g4 Rfc8
+22. Nd2 Rc2 23. Nc4 R2xc4 24. dxc4 Nxc4 25. Qb3 Kh7 26. Rf2 Ne3 27. Qd3 Qc7 28.
+Re1 Bb4 29. Rb1 Qb6 30. a3 Be7 31. Bf3 Rc5 32. Bd1 Qc7 33. Bb3 Bd6 34. Qe2 Qb6
+35. Be6 Rc2 36. Qd3 Rc7 37. h4 Nxg4 38. Qg3 h5 39. Rg2 d3+ 40. Kh1 Qd4 41. Rd1
+Qxe4 42. Bb3 Qe3 43. Rxd3 Rc1+ 44. Bd1 Qxg3 45. Rgxg3 Nf2+ 46. Kg2 Nxd3 47.
+Rxd3 Bc5 48. Rd7 Bd4 49. Bxh5 Rc2+ 50. Kg3 Rxb2 51. Bg6+ Kh6 52. Rd8 Bf2+ 53.
+Kf3 Bxh4 54. Rh8+ Kg5 55. Rh5# 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.21"]
+[Round "9.28"]
+[White "Torres Julian, M."]
+[Black "Maltsev, A."]
+[Result "0-1"]
+[ECO "B78"]
+[WhiteElo "1959"]
+[BlackElo "1867"]
+[PlyCount "98"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Bc4
+Nc6 9. Qd2 Bd7 10. O-O-O Rc8 11. Bb3 Ne5 12. Bh6 Nc4 13. Bxc4 Rxc4 14. Bxg7
+Kxg7 15. h4 h5 16. Kb1 Qa5 17. Nb3 Qc7 18. g4 Rc8 19. gxh5 Nxh5 20. Nd5 Qd8 21.
+c3 f5 22. Ne3 fxe4 23. Nxc4 Rxc4 24. fxe4 Rxe4 25. Rde1 Bf5 26. Ka1 Rf4 27.
+Ref1 Rg4 28. Rhg1 Ng3 29. Rf3 Ne4 30. Qe3 Qb6 31. Qxb6 axb6 32. Rxg4 Bxg4 33.
+Rf4 Bf5 34. Nd4 Kf6 35. Nxf5 gxf5 36. Rf1 e5 37. Re1 Ng3 38. Kb1 f4 39. Rg1 e4
+40. Kc2 f3 41. Rxg3 f2 42. Rg8 Kf7 43. Rb8 f1=Q 44. Rxb7+ Ke6 45. Rb8 Qf2+ 46.
+Kb3 Qxh4 47. Rxb6 e3 48. Rb8 e2 49. Re8+ Qe7 0-1

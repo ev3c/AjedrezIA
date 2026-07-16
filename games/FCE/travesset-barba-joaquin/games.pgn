@@ -1,0 +1,947 @@
+[Event "Lliga Catalana DH"]
+[Site "Barcelona"]
+[Date "2024.03.02"]
+[Round "7.10"]
+[White "Martinez Lopez, Carlos"]
+[Black "Travesset Barba, Joaquin"]
+[Result "1-0"]
+[ECO "B01"]
+[WhiteElo "2018"]
+[BlackElo "2136"]
+[PlyCount "84"]
+[EventDate "2024.??.??"]
+[TimeControl "90+30"]
+[BlackClock "0:35:34"]
+
+1. e4 {[%emt 0:00:01]} d5 {[%emt 0:00:02]} 2. exd5 {[%emt 0:00:08]} Nf6 {
+[%emt 0:00:01]} 3. Bb5+ {[%emt 0:00:09]} Bd7 {[%emt 0:00:10]} 4. Be2 {[%emt 0:
+00:06]} Nxd5 {[%emt 0:00:03]} 5. d4 {[%emt 0:01:28]} Bf5 {[%emt 0:00:29]} 6. a3
+{[%emt 0:01:28]} e6 {[%emt 0:00:08]} 7. Nf3 {[%emt 0:00:23]} c6 {[%emt 0:00:17]
+} 8. c4 {[%emt 0:00:56]} Nf6 {[%emt 0:01:40]} 9. Nc3 {[%emt 0:01:27]} Be7 {
+[%emt 0:00:17]} 10. Bf4 {[%emt 0:00:54]} O-O {[%emt 0:02:23]} 11. O-O {[%emt 0:
+00:22]} Nbd7 {[%emt 0:01:41]} 12. Nh4 {[%emt 0:06:06]} Bg6 {[%emt 0:00:45]} 13.
+Nxg6 {[%emt 0:00:16]} hxg6 {[%emt 0:00:02]} 14. b4 {[%emt 0:13:14]} a6 {
+[%emt 0:01:52]} 15. Bf3 {[%emt 0:01:40]} Nb6 {[%emt 0:01:55]} 16. Qd3 {[%emt 0:
+02:26]} Qd7 {[%emt 0:13:08]} 17. Rfd1 {[%emt 0:00:18]} Rfd8 {[%emt 0:02:11]}
+18. Qe2 {[%emt 0:01:07]} Rac8 {[%emt 0:03:26]} 19. Rab1 {[%emt 0:01:29]} Na8 {
+[%emt 0:04:40]} 20. a4 {[%emt 0:05:36]} Bd6 {[%emt 0:08:45]} 21. Bg5 {[%emt 0:
+04:01]} Re8 {[%emt 0:06:42]} 22. Qa2 {[%emt 0:03:40]} Qc7 {[%emt 0:08:05]} 23.
+g3 {[%emt 0:00:55]} Nh7 {[%emt 0:06:58]} 24. Be3 {[%emt 0:01:01]} Qe7 {[%emt 0:
+00:26]} 25. Qb3 {[%emt 0:01:43]} Ng5 {[%emt 0:12:08]} 26. Bg2 {[%emt 0:00:28]}
+Qf6 {[%emt 0:02:58]} 27. f4 {[%emt 0:01:33]} Nh7 {[%emt 0:00:34]} 28. Ne4 {
+[%emt 0:00:16]} Qe7 {[%emt 0:00:16]} 29. Nxd6 {[%emt 0:01:59]} Qxd6 {[%emt 0:
+00:03]} 30. d5 {[%emt 0:00:35]} cxd5 {[%emt 0:04:06]} 31. cxd5 {[%emt 0:00:25]}
+exd5 {[%emt 0:03:20]} 32. Bxd5 {[%emt 0:01:59]} Qe7 {[%emt 0:04:43]} 33. Re1 {
+[%emt 0:01:31]} Nf6 {[%emt 0:00:29]} 34. Bf2 {[%emt 0:01:05]} Qd7 {[%emt 0:00:
+19]} 35. Bf3 {[%emt 0:01:11]} Rxe1+ {[%emt 0:00:14]} 36. Rxe1 {[%emt 0:00:02]}
+b5 {[%emt 0:02:06]} 37. axb5 {[%emt 0:01:52]} Qxb5 {[%emt 0:00:47]} 38. Re7 {
+[%emt 0:02:33]} Rc1+ {[%emt 0:01:00]} 39. Be1 {[%emt 0:00:59]} Rxe1+ {[%emt 0:
+08:23]} 40. Rxe1 {[%emt 0:00:02]} Nb6 {[%emt 0:00:13]} 41. Re5 {[%emt 0:05:48]}
+Qd7 {[%emt 0:00:24]} 42. Qc3 {[%emt 0:02:48]} Qa7 {[%emt 0:02:45]} 1-0
+
+[Event "Camp. Barcelona inf."]
+[Site "Barcelona"]
+[Date "1956.05.01"]
+[Round "2"]
+[White "Travesset Barba, Joaquin"]
+[Black "Puget, Antonio"]
+[Result "1/2-1/2"]
+[ECO "E81"]
+[PlyCount "81"]
+[EventDate "1956.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Bg5 Nbd7 7. Qd2 e5 8. d5
+Nc5 9. b4 Na6 10. a3 c5 11. b5 Nc7 12. a4 b6 13. Bd3 a6 14. Ra2 Bb7 15. Nge2
+axb5 16. axb5 Rxa2 17. Qxa2 Qa8 18. O-O Qxa2 19. Nxa2 h6 20. Be3 Ra8 21. Ra1
+Nh5 22. Nec3 f5 23. Bc1 Bc8 24. Bb2 Kf7 25. Nc1 Rxa1 26. Bxa1 Ke7 27. Na4 Na8
+28. Ne2 f4 29. g3 g5 30. g4 Nf6 31. h3 h5 32. Kf2 Kf7 33. Bb2 Kg6 34. Nac3 Ng8
+35. Nb1 Nh6 36. Nec3 Nf7 37. Bc2 Nc7 38. Nd2 Nd8 39. Nb3 Nb7 40. Na4 Na8 41.
+Bd1 1/2-1/2
+
+[Event "C. A. Sant Andreu Social"]
+[Site "Barcelona"]
+[Date "1963.09.20"]
+[Round "?"]
+[White "Ribera Arnal, Angel"]
+[Black "Travesset Barba, Joaquin"]
+[Result "1/2-1/2"]
+[ECO "D39"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "49"]
+[EventDate "1963.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. Nf3 Bb4 5. Bg5 dxc4 6. e4 h6 7. Bxf6 Qxf6 8.
+Bxc4 c5 9. O-O cxd4 10. Nb5 Qe7 11. Qxd4 O-O 12. Nxa7 Bc5 13. Nxc8 Rxc8 14. Qd3
+Nc6 15. e5 Qc7 16. Qe4 Ra5 17. Bd3 g6 18. h4 Bf8 19. Rac1 Bg7 20. h5 Bxe5 21.
+hxg6 Bf4 (21... Bxb2) 22. gxf7+ Qxf7 23. Rc4 Rf8 (23... Rf5 24. Nd4) 24. Re1
+Ne5 25. Qxf4 $16 1/2-1/2
+
+[Event "Camp. Catalunya indiv. ( 1 cat. )"]
+[Site "?"]
+[Date "1964.12.13"]
+[Round "?"]
+[White "Pi, Joaquin"]
+[Black "Travesset Barba, Joaquin"]
+[Result "0-1"]
+[ECO "C40"]
+[PlyCount "62"]
+[EventDate "1964.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 f5 3. Nxe5 Qf6 4. d4 d6 5. Nc4 fxe4 6. Nc3 Qg6 7. Ne3 Nf6 8.
+Be2 c6 9. d5 Be7 10. f3 O-O 11. Qd4 c5 12. Qc4 exf3 13. Bxf3 Nbd7 14. O-O Ne5
+15. Qe2 Bd7 16. b3 Rae8 17. Qd1 Nxf3+ 18. Rxf3 Bg4 19. Nxg4 Nxg4 20. h3 Ne5 21.
+Re3 Bh4 22. Ne4 Rf4 23. Qe2 Nf3+ (23... Ref8) 24. Kh1 Rexe4 25. gxf3 Rxe3 26.
+Bxe3 Qe8 $5 (26... Rf8 $19) 27. Rg1 Rf5 28. Rg4 Re5 29. Rxh4 $2 (29. Re4) 29...
+Rxe3 30. Qc4 Re1+ 31. Kg2 Qe3 0-1
+
+[Event "Berga Tancat"]
+[Site "Berga"]
+[Date "1965.09.??"]
+[Round "4"]
+[White "Travesset Barba, Joaquin"]
+[Black "Cherta Clos, Pere"]
+[Result "1-0"]
+[ECO "E79"]
+[Annotator "Travesset,J"]
+[PlyCount "61"]
+[EventDate "1965.09.??"]
+[EventType "tourn"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f4 {Jugant contra Cherta, un
+especialista amb l'india de rei, i fent f4, tot un atreviment.} O-O (5... c5)
+6. Be2 c5 7. Nf3 cxd4 8. Nxd4 Nc6 9. Be3 Nd7 10. Qd2 Nc5 11. O-O (11. Rd1 {
+Potser mes consistent que 0-0}) 11... Bd7 12. Rad1 (12. f5 {era una altra
+alternativa}) 12... Qc8 (12... b6) 13. Ndb5 (13. e5 {semblava molt forta})
+13... Rd8 (13... a6 14. Nd4 $14 (14. Nxd6 exd6 15. Qxd6 b6 16. Bxc5 bxc5 17.
+Qxd7 Bd4+ 18. Rxd4 Nxd4 19. Qxc8 Raxc8 $44 {i el blanc te forca compensacio
+per la qualitat})) 14. e5 $18 a6 15. exd6 $1 axb5 16. Bxc5 exd6 17. Bb6 $1 b4
+18. Nb5 Rxa2 19. Bxd8 Qxd8 20. Qxd6 Qe8 21. Qxd7 Qxe2 22. Nd6 (22. Qxb7 $1)
+22... Rxb2 23. Qxf7+ Kh8 24. Qd5 $1 Bc3 25. Nf7+ (25. Ra1 $1 Kg7 26. Rae1 $3
+Qxg2+ (26... Bxe1 27. Qf7+ Kh6 (27... Kh8 28. Qf8#) 28. Nf5+ gxf5 (28... Kh5
+29. Qxh7+ Kg4 30. Qxg6#) 29. Qf6+ Kh5 30. Qg5#) 27. Qxg2 Rxg2+ 28. Kxg2 Bxe1
+29. Rxe1 {guanyant}) 25... Kg7 26. Ng5 Qe7 (26... Kh8) 27. Ne6+ Kh8 28. f5 $1
+Re2 29. Qf3 (29. Qd7) 29... Re5 (29... Rxe6 30. fxe6 Qxe6 31. Rd7 Ne7 32. Qxb7
+$18) 30. f6 (30. Rd7 Bd4+ 31. Kh1 Qxd7 32. fxg6 $18) 30... Qf7 (30... Qxe6 31.
+f7 Rf5 32. Qxf5 gxf5 33. f8=Q+ Qg8 34. Qxf5 $18) 31. Qxc6 $3 {Una de les meves
+millors partides en quan a joc d'atac.} 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1971.02.07"]
+[Round "?"]
+[White "Artigas Isart, Miguel"]
+[Black "Travesset Barba, Joaquin"]
+[Result "0-1"]
+[ECO "B02"]
+[PlyCount "86"]
+[EventDate "1971.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. e4 d5 2. exd5 Nf6 3. Nc3 Nxd5 4. Bc4 c6 5. Qf3 e6 6. Nh3 Nd7 7. d4 Qf6 8.
+Qe4 Bb4 9. Bd2 Qg6 10. Qxg6 hxg6 11. Nxd5 Bxd2+ 12. Kxd2 cxd5 13. Bb5 Ke7 14.
+Bxd7 Bxd7 15. Rae1 Rh4 16. c3 Rah8 17. f3 f6 18. Re2 g5 19. Rhe1 Kd6 20. b3 Rc8
+21. Rh1 b5 22. b4 Rch8 23. Rhe1 Re8 24. a3 Reh8 25. Kc1 g4 26. fxg4 Rxg4 27.
+Nf2 Rxg2 28. Ne4+ dxe4 29. Rxg2 g5 30. Kd2 Bc6 31. Re3 Rh5 32. Ke1 Kd5 33. Reg3
+Kc4 34. Rf2 f5 35. Rfg2 g4 36. h3 Rxh3 37. Rxh3 gxh3 38. Rh2 Kxc3 39. Rxh3+
+Kxd4 40. Rh7 Bd5 41. Rxa7 Bb3 42. Rb7 Bc4 43. Ra7 f4 0-1
+
+[Event "Berga op"]
+[Site "Berga"]
+[Date "1971.08.??"]
+[Round "?"]
+[White "Creus Lladors, Antonio"]
+[Black "Travesset Barba, Joaquin"]
+[Result "0-1"]
+[ECO "B01"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "72"]
+[EventDate "1971.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. e4 d5 2. exd5 Nf6 3. d4 Nxd5 4. c4 Nb6 5. Nc3 e5 6. d5 Bb4 7. a3 (7. Nf3)
+7... Bxc3+ 8. bxc3 O-O 9. Be3 Bf5 10. Qf3 Qd7 11. h4 $15 (11. a4) (11. Qg3)
+11... c6 12. Be2 cxd5 13. cxd5 e4 14. Qg3 Nxd5 15. Bh6 Bg6 $1 16. h5 gxh6 17.
+hxg6 hxg6 $5 18. Rxh6 Qc7 $1 19. Qxc7 Nxc7 20. Nh3 Nd7 21. Ng5 Nf6 22. O-O-O
+Kg7 23. Rdh1 Rae8 24. R6h4 Ncd5 25. Kd2 Rd8 26. Kc2 Rc8 27. Nxe4 Nxe4 28. Rxe4
+Nxc3 29. Rb4 Nxe2+ 30. Kd2 Rfe8 31. Re1 Rcd8+ 32. Kc2 Rd7 33. g3 Rc8+ 34. Kb2
+Rd2+ 35. Kb3 Nd4+ 36. Ka4 b5+ 0-1
+
+[Event "Berga op"]
+[Site "Berga"]
+[Date "1971.08.??"]
+[Round "?"]
+[White "Travesset Barba, Joaquin"]
+[Black "Armengou Olle, Pere"]
+[Result "1/2-1/2"]
+[ECO "E28"]
+[PlyCount "88"]
+[EventDate "1971.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. a3 Bxc3+ 5. bxc3 c5 6. e3 O-O 7. Ne2 b6 8. Ng3
+Bb7 9. f3 d5 10. cxd5 exd5 11. Bd3 g6 12. O-O Re8 13. Ra2 Nc6 14. Re2 Qd6 15.
+Bb2 Re7 16. Qa1 Rd8 17. Rfe1 Red7 18. Bb5 Ne8 19. e4 Nc7 20. e5 Qe7 21. Bd3 Ne6
+22. Rf2 Nf4 23. Qb1 f6 24. Bb5 Rc7 25. Ne2 Ne6 26. f4 Ng7 27. Ng3 Bc8 28. Ref1
+Nf5 29. Nxf5 Bxf5 30. Bd3 Bxd3 31. Qxd3 f5 32. Rc1 Qe6 33. h3 Na5 34. Qd1 Nc4
+35. Ra1 Rdc8 36. Kh2 Na5 37. a4 Nc4 38. Ba3 Nxa3 39. Rxa3 cxd4 40. Qxd4 Rc4 41.
+Qd2 Qc6 42. Rf3 Qc5 43. Qb2 Re4 44. a5 b5 1/2-1/2
+
+[Event "Berga op"]
+[Site "Berga"]
+[Date "1971.08.??"]
+[Round "?"]
+[White "Travesset Barba, Joaquin"]
+[Black "Eppinger, Georg"]
+[Result "1-0"]
+[ECO "E70"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "79"]
+[EventDate "1971.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+{Aquesta partida fou guardonada amb el segon premi de bellesa. Fou editada al
+butlletí de la Federació Catalana d'Escacs i a la revista Jaque.} 1. d4 Nf6 2.
+c4 g6 3. Nc3 Bg7 4. e4 O-O 5. f3 c5 6. d5 e6 7. Bd3 (7. Be3 exd5 8. cxd5 d6)
+7... exd5 8. cxd5 d6 9. Bg5 (9. Nge2 $36) 9... Qa5 (9... h6) 10. Qd2 {0} Re8 {0
+} (10... Nbd7 {14}) 11. Nge2 {4} a6 {7} 12. O-O {0} (12. Bf4 {15}) 12... b5 {0}
+13. a4 $1 {0} b4 {7} 14. Nd1 {0} (14. Na2 {0}) 14... Nbd7 {3} 15. Ne3 {4} Ne5 {
+11} 16. Bf4 {0} (16. Nc4 {1} Nxc4 {17} 17. Bxc4 {1} Nd7 $11 {1}) 16... c4 $2 {0
+} (16... Nfd7 {4}) 17. Bxc4 {3} Nxc4 {5} 18. Nxc4 {5} Qc5+ {13} 19. Ne3 {4} Nh5
+{4} 20. Rac1 Qb6 {4} (20... Qa7) 21. Rc6 {5} Qd8 {3} 22. Rxd6 {0} (22. Bxd6 {13
+}) 22... Qe7 {0} (22... Bd7 {14}) 23. Rc6 {0} (23. Nc4 {5} Nxf4 {18} 24. Qxf4 {
+3} f5 {11} 25. Rc6 $18 {0}) 23... Nxf4 {2} 24. Nxf4 {1} Bh6 {0} (24... Rd8 {0})
+25. g3 Bd7 {4} 26. Rc7 {0} (26. d6 {10} Qd8 {6} 27. Rc7 {10} b3 {0} 28. a5 {0}
+Bf8 {0} 29. Rfc1 {1} Bg7 {11} 30. Ned5 {0} Kh8 {0} 31. Nb6 $18 {0}) 26... Qd6 {
+0} 27. Rfc1 {6} Bxa4 {0} (27... a5 {0}) 28. Ng4 {0} Bg7 {6} 29. e5 $3 {4} Qb6+
+{10} (29... Bxe5 30. Nh6+ $1 Kg7 31. Nh5+ $1 gxh5 32. Nf5+ $18) 30. Kg2 {4}
+Rad8 {0} (30... h5 {14}) 31. e6 {0} fxe6 (31... Rxe6 {9} 32. Nxe6 {0} Qxe6 {1}
+33. Qxb4 {0} Qe2+ {0} 34. Nf2 $18 {1}) 32. Rxg7+ {L'aclaparament pel rellotge
+no deixa veure que era molt millor Ch5!!, que vaig jugar després.} (32. Nh5 $3
+{0} Bd7 {15} (32... gxh5 {0} 33. Rxg7+ {0} Kxg7 {28} (33... Kh8 {0} 34. Qh6 {
+guanyant 0} Bc2 {0} 35. Rxc2 {0}) 34. Qg5+ {0} Kh8 {0} 35. Qf6+ {0} Kg8 {0} 36.
+Nh6# {0}) 33. Ngf6+ {3} Bxf6 {1} 34. Nxf6+ {1} Kh8 {0} 35. Nxe8 {0} Rxe8 {3}
+36. Rxd7 {5}) 32... Kxg7 {6} 33. Nh5+ (33. Nxg6 {0}) 33... Kh8 {0} (33... Kg8 {
+8} 34. Qf4 {0} e5 {1} 35. Nh6+ {0} Kh8 {0} 36. Nf7+ {1} Kg8 {3} 37. Qh6 {0}
+gxh5 {1} 38. Qxb6 {0} Kxf7 {0} 39. Qxa6 {0} Bd7 {2} 40. Qh6 {1-0 JT 1}) 34. Qf4
+$1 {4} e5 {10} 35. Qf7 {11} gxh5 {4} 36. Nf6 {5} Rd7 {0} (36... Qxf6 {11} 37.
+Qxf6+ {0} Kg8 {0} 38. Qg5+ {0} Kf7 {0} 39. Qxh5+ {1} Ke7 {0} 40. Qxh7+ {1-0 JT
+1}) 37. Qxe8+ {0} Kg7 {6} 38. Nxd7 {1} Qe3 {0} (38... Qd6 {0} 39. Rc7 {4} Bc2 {
+1}) 39. Qf8+ {0} Kg6 {0} 40. Qf6# 1-0
+
+[Event "Berga op"]
+[Site "Berga"]
+[Date "1971.08.21"]
+[Round "1"]
+[White "Farre de Malibran, Antonio"]
+[Black "Travesset Barba, Joaquin"]
+[Result "0-1"]
+[ECO "E80"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "91"]
+[EventDate "1971.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. c4 Nf6 2. Nc3 g6 3. d4 d6 4. e4 Bg7 5. f3 e5 6. d5 Nh5 7. Be3 Na6 8. Qd2
+Qh4+ 9. g3 Nxg3 $5 10. Qf2 Nxf1 11. Qxh4 Nxe3 12. Ke2 (12. Qf2 Bh6 (12... Nb4
+13. Ke2 Nxc4 14. Nb5 Na6 15. b3 Nb6) (12... Nxc4 13. Qe2 Nb6 14. h4 h5 15. Nh3
+c5 16. Nb5 Ke7 17. O-O-O Bd7 18. Ng5 Bh6 19. Kb1 c4 20. Nc3 Nc5 21. Rhg1 Nd3
+22. Rg3)) 12... Nxc4 13. b3 Nb6 14. Rc1 Bd7 15. a4 c5 16. Na2 O-O 17. Nh3 c4
+18. bxc4 Bxa4 19. Nf2 Bb3 20. c5 Nxc5 21. Rxc5 dxc5 22. Nc3 Na4 (22... Bc4+ 23.
+Kd2) 23. Nxa4 Bxa4 24. Qe7 b6 25. Ng4 f6 26. Ra1 Bb5+ 27. Kf2 Rf7 28. Qd6 h5
+29. Rb1 (29. Nxe5 fxe5 30. Qxg6 $19) 29... Be8 (29... Bd7) 30. Nxe5 fxe5 31.
+Qe6 Bd7 32. Qxg6 Bg4 33. Rg1 Rxf3+ 34. Ke1 Raf8 35. h3 Rxh3 36. Rxg4 hxg4 37.
+d6 Rh6 38. Qxg4 Rxd6 39. Ke2 a5 40. Qh3 a4 41. Qc3 Rd4 42. Qc2 Rf4 43. Qa2+ Kh7
+44. Qe6 Rfxe4+ 45. Kf3 Rf4+ 46. Ke2 {(...)} 0-1
+
+[Event "Berga op"]
+[Site "Berga"]
+[Date "1971.08.23"]
+[Round "3"]
+[White "Ibero Iglesias, Ramon"]
+[Black "Travesset Barba, Joaquin"]
+[Result "1-0"]
+[ECO "A01"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "73"]
+[EventDate "1971.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. b3 f5 2. Bb2 e6 3. c4 Nf6 4. Nf3 Be7 5. g3 O-O 6. Bg2 c6 7. e3 Qe8 8. Nc3 d6
+9. d4 Ne4 10. Ne2 Nd7 11. Nf4 Ndf6 12. Nd2 Bd7 13. f3 Nxd2 (13... e5 $1 {amb
+això assolia un notable avantatge} 14. Ne2 Nxd2 15. Qxd2 e4 16. O-O d5 $15) 14.
+Qxd2 d5 (14... b5) 15. O-O g5 (15... b6) 16. Nd3 Qh5 (16... g4) 17. Ne5 Be8 18.
+Rae1 g4 (18... Nd7 19. Nxd7 Bxd7 20. e4 fxe4 21. fxe4 $14) 19. e4 Bg6 20. exd5
+cxd5 21. cxd5 Nxd5 22. fxg4 fxg4 23. Nxg6 Rxf1+ 24. Rxf1 Qxg6 25. Qe2 Bg5 26.
+Qe5 Rf8 27. Rxf8+ Kxf8 28. Be4 Be3+ 29. Kg2 Qf7 30. Qh8+ Qg8 $2 (30... Ke7 31.
+Qxh7 (31. Ba3+ $2 Kd7 32. Qxh7 Qxh7 33. Bxh7 Bxd4 $15) 31... Qxh7 32. Bxh7 $14)
+31. Ba3+ Kf7 32. Qe5 Qg7 $2 (32... Qg5 $142) 33. Qh5+ Kf6 34. Bxd5 exd5 35.
+Qe5+ Kg6 36. Qe6+ Qf6 37. Qxe3 1-0
+
+[Event "Berga op"]
+[Site "Berga"]
+[Date "1971.08.24"]
+[Round "4"]
+[White "Travesset Barba, Joaquin"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "0-1"]
+[ECO "A58"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "77"]
+[EventDate "1971.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 c5 4. d5 b5 5. cxb5 a6 6. bxa6 Bxa6 7. g3 d6 8. Bg2
+Bg7 9. Nc3 O-O 10. O-O Nbd7 11. Qc2 Qb6 12. Rd1 Rfb8 13. Rb1 (13. h3) 13... Ng4
+14. h3 Nge5 15. Nd2 Qa5 16. f4 (16. Ra1) 16... Nc4 17. Nb3 Qb4 18. Bd2 $6 (18.
+e4) 18... Kf8 19. Kh2 Nxd2 20. Nxd2 Bc4 21. a3 Bb3 22. Nxb3 Qxb3 23. Rdc1 Qxc2
+24. Rxc2 Rb3 25. Ne4 $14 Rab8 26. Nd2 $1 Rxb2 27. Rcxb2 Rxb2 28. Rxb2 Bxb2 29.
+Nc4 $14 (29. a4 $144) 29... Bc3 30. e4 (30. a4 Ke8 31. a5 Kd8 32. Kg1 Kc7 33.
+e4 Kb7 34. e5 f5 35. exd6 exd6 36. Nxd6+ Ka6 37. Nc4 Bxa5 38. Ne5 $1 Nxe5 $1
+39. fxe5 c4 40. Kf2 (40. Bf1 Kb5 $11) 40... c3 41. Bf1+ Kb6 42. Bd3 Kc5 43. d6
+Kd4 44. e6 Kxd3 45. e7 c2 46. e8=Q c1=Q 47. Qb5+ Qc4 48. Qxa5 Qd4+ 49. Kf3 Qxd6
+50. Qb5+ Kc3 51. Qa5+ Kc4 52. Qa4+ Kd5 53. Qb5+ Ke6 54. Qe8+ Qe7 55. Qc6+ Kf7
+$17) 30... Ke8 31. Bf1 $2 (31. Bf3 $1 Kd8 $14) (31. a4 $1 $16) 31... Kd8 32.
+Kg2 Kc7 33. Kf3 e6 34. Bd3 (34. Ne3 $142 $1 Nb6 35. Bc4 $1 $14) 34... exd5 35.
+exd5 Nb6 36. Nxb6 Kxb6 37. a4 Ka5 38. Bb5 Kb4 39. Ke4 $138 {i aquí va caure la
+bandera al blanc. Crec que és un final de taules} (39. Ke2 $142) (39. g4 $142)
+(39. Be8 $6 c4 40. Ke2 Bd4 41. Kd1 Kb3 42. Bb5 c3 43. Bd3 Kxa4 44. Kc2 $17) 0-1
+
+[Event "Berga op"]
+[Site "Berga"]
+[Date "1971.08.25"]
+[Round "5"]
+[White "Morera"]
+[Black "Travesset Barba, Joaquin"]
+[Result "1-0"]
+[ECO "E87"]
+[PlyCount "64"]
+[EventDate "1971.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 O-O 5. f3 d6 6. Be3 e5 7. d5 Nh5 8. Qd2 f5
+9. O-O-O f4 10. Bf2 b6 11. Nge2 Bd7 12. Kb1 a5 13. Nb5 Na6 14. Nec3 Nc5 15. Be2
+Rf7 16. g4 Nf6 17. h4 h5 18. gxh5 gxh5 19. Rdg1 Kh7 20. Bf1 Bh6 21. Bh3 Bxh3
+22. Rxh3 Qd7 23. Rh2 Rg7 24. Rxg7+ Qxg7 25. Bxc5 dxc5 26. Rg2 Qf7 27. b3 Rd8
+28. Na4 Ne8 29. Na7 Nd6 30. Nc6 Re8 31. Qb2 Qf6 32. Qf2 Nf7 1-0
+
+[Event "Berga op"]
+[Site "Berga"]
+[Date "1971.08.26"]
+[Round "6"]
+[White "Travesset Barba, Joaquin"]
+[Black "Catalan Homedes, Enrique"]
+[Result "1-0"]
+[ECO "E81"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "61"]
+[EventDate "1971.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Bg5 c5 7. d5 a6 8. a4 Qc7
+9. Nge2 e6 10. g4 (10. Qd2) 10... exd5 11. cxd5 Nbd7 12. Ng3 Ne5 13. Be2 Ne8
+14. Qd2 f5 15. gxf5 gxf5 16. Nh5 (16. Nxf5 Bxf5 17. exf5 Rxf5 18. f4 Nf7 19.
+Qc2 $1) 16... fxe4 17. fxe4 Nf3+ 18. Bxf3 Rxf3 19. Nxg7 Nxg7 20. Rg1 Kh8 21.
+Bh6 Rf7 22. Qg2 (22. O-O-O $3) 22... b6 23. O-O-O Bb7 24. Rd3 Rg8 25. Rg3 Qe7
+26. Nd1 $1 Qf6 27. Bd2 Bc8 28. Bc3 Qf4+ 29. Kb1 Qh6 30. Ne3 Bd7 31. Nf5 1-0
+
+[Event "Berga op"]
+[Site "Berga"]
+[Date "1971.08.29"]
+[Round "9"]
+[White "Braum"]
+[Black "Travesset Barba, Joaquin"]
+[Result "1-0"]
+[ECO "D74"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "57"]
+[EventDate "1971.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5 5. cxd5 Nxd5 6. Nf3 O-O 7. O-O Nc6 8. e4
+Nb6 9. d5 Nb8 (9... Na5) 10. Qb3 a5 (10... e6) 11. a4 Na6 12. Be3 Qd6 13. Bd4
+e5 14. Bxb6 cxb6 15. Nfd2 Nc5 16. Qe3 f5 17. Nc4 Qd8 18. Nbd2 f4 19. Qe2 g5 20.
+Bf3 Bd7 21. Bg4 Bxa4 22. Bf5 Bd7 23. Nd6 Qe7 24. Qh5 Bxf5 25. Nxf5 Qf6 26. g4
+Rf7 (26... Rfd8) 27. b4 Nd7 $2 (27... Nd3) 28. Nc4 Nf8 $2 (28... Bf8) 29. bxa5
+$138 1-0
+
+[Event "Trofeo "Dicen" VII"]
+[Site "Barcelona"]
+[Date "1973.??.??"]
+[Round "?"]
+[White "Salinas"]
+[Black "Travesset Barba, Joaquin"]
+[Result "0-1"]
+[ECO "B01"]
+[PlyCount "50"]
+[EventDate "1973.??.??"]
+[EventType "k.o."]
+[EventCountry "ESP"]
+
+1. e4 d5 2. exd5 Nf6 3. d4 Nxd5 4. c4 Nb6 5. Nc3 e5 6. dxe5 Qxd1+ 7. Kxd1 Nc6
+8. Nb5 Bg4+ 9. f3 O-O-O+ 10. Ke1 Be6 11. Bg5 Bb4+ 12. Kf2 Bc5+ 13. Kg3 f6 14.
+exf6 gxf6 15. Bf4 Rhg8+ 16. Kh4 Bf2+ 17. g3 Ne7 18. Bh3 Ng6+ 19. Kh5 Nxf4+ 20.
+gxf4 f5 21. Ne2 Nd7 22. Ng3 Nf6+ 23. Kh4 Rg6 24. Bxf5 Bxf5 25. Rhf1 Rdg8 0-1
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1974.??.??"]
+[Round "?"]
+[White "Delgado"]
+[Black "Travesset Barba, Joaquin"]
+[Result "0-1"]
+[ECO "B01"]
+[PlyCount "28"]
+[EventDate "1974.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 d5 2. exd5 Nf6 3. d4 Nxd5 4. c4 Nb4 5. Qa4+ N8c6 6. d5 b5 7. cxb5 Nd4 8.
+Na3 e5 9. dxe6 Bxe6 10. Be3 Qh4 11. Bxd4 Qxd4 12. b6+ c6 13. Qd1 Qxb2 14. Qc1
+Qe5+ 0-1
+
+[Event "Camp. Catalunya indiv."]
+[Site "?"]
+[Date "1974.??.??"]
+[Round "?"]
+[White "Travesset Barba, Joaquin"]
+[Black "Calduch Segura, Joaquim"]
+[Result "1-0"]
+[ECO "B07"]
+[PlyCount "59"]
+[EventDate "1974.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. d4 d6 2. e4 Nf6 3. Nc3 g6 4. Bg5 Bg7 5. f3 c6 6. Qd2 h6 7. Be3 Nbd7 8. O-O-O
+b5 9. e5 b4 10. Ne4 Nxe4 11. fxe4 dxe5 12. dxe5 Bxe5 13. Nf3 Bg7 14. Qxb4 O-O
+15. Bc4 a5 16. Qd2 Rb8 17. c3 Kh7 18. h4 Qc7 19. Qf2 Nb6 20. Ng5+ hxg5 21.
+hxg5+ Kg8 22. Qh4 Rd8 23. Rxd8+ Qxd8 24. Bd4 Qxd4 25. Bxf7+ Kxf7 26. Qf4+ Bf5
+27. cxd4 e5 28. dxe5 Nc4 29. e6+ Ke7 30. Qc7+ 1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1975.??.??"]
+[Round "?"]
+[White "Salvany Rius, Joaquim"]
+[Black "Travesset Barba, Joaquin"]
+[Result "0-1"]
+[ECO "B01"]
+[PlyCount "40"]
+[EventDate "1975.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 d5 2. exd5 Nf6 3. d4 Nxd5 4. c4 Nb4 5. Qa4+ N8c6 6. a3 Na6 7. Be3 Bd7 8.
+Qd1 e5 9. Nf3 exd4 10. Nxd4 Bc5 11. Be2 Qf6 12. Nc2 Qxb2 13. O-O O-O-O 14. Qc1
+Qxc1 15. Bxc1 Nd4 16. Nxd4 Bxd4 17. Ra2 Rhe8 18. Bf3 Bf5 19. Bd2 Bd3 20. Rc1
+Nc5 0-1
+
+[Event "Sant Andreu op"]
+[Site "Barcelona"]
+[Date "1976.??.??"]
+[Round "?"]
+[White "Bechini Bassons, Jordi"]
+[Black "Travesset Barba, Joaquin"]
+[Result "1-0"]
+[ECO "B01"]
+[PlyCount "67"]
+[EventDate "1976.??.??"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+
+1. e4 d5 2. exd5 Nf6 3. Nf3 Nxd5 4. d4 g6 5. Nc3 c6 6. Nxd5 cxd5 7. Be3 Bg7 8.
+Qd2 Nc6 9. c3 Bg4 10. Be2 Qd7 11. h3 Bxf3 12. Bxf3 O-O-O 13. b4 e5 14. O-O e4
+15. Be2 f5 16. a4 Bf8 17. a5 Bd6 18. b5 Ne7 19. c4 dxc4 20. Bxc4 Kb8 21. Rfd1
+h6 22. d5 Be5 23. Rac1 g5 24. Qb4 f4 25. Bd4 Ng6 26. Qe1 Qf5 27. b6 f3 28.
+bxa7+ Ka8 29. a6 Rh7 30. Bb5 fxg2 31. axb7+ Rxb7 32. Bc6 Qxh3 33. Bxb7+ Kxb7
+34. a8=Q+ 1-0
+
+[Event "Sant Andreu op"]
+[Site "Barcelona"]
+[Date "1976.??.??"]
+[Round "?"]
+[White "Mas Roqueta, Adjutorio"]
+[Black "Travesset Barba, Joaquin"]
+[Result "0-1"]
+[ECO "A16"]
+[PlyCount "54"]
+[EventDate "1976.??.??"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+
+1. c4 Nf6 2. Nc3 g6 3. g3 Bg7 4. Bg2 O-O 5. Nf3 d6 6. O-O Nc6 7. Rb1 Bf5 8. d3
+Qd7 9. Re1 Bh3 10. Bh1 h6 11. b4 e5 12. b5 Ne7 13. Nd2 c6 14. Nb3 Ng4 15. Na5
+Rab8 16. Qa4 e4 17. Nxe4 f5 18. bxc6 bxc6 19. Rxb8 Rxb8 20. Nd2 f4 21. Nxc6
+fxg3 22. hxg3 Rf8 23. Nxe7+ Qxe7 24. Bf3 Bd4 25. Ne4 Bxf2+ 26. Nxf2 Rxf3 27.
+Ne4 Qxe4 0-1
+
+[Event "Sant Andreu op"]
+[Site "Barcelona"]
+[Date "1976.??.??"]
+[Round "?"]
+[White "Travesset Barba, Joaquin"]
+[Black "Sanz"]
+[Result "1-0"]
+[ECO "E24"]
+[PlyCount "49"]
+[EventDate "1976.??.??"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. a3 Bxc3+ 5. bxc3 Ne4 6. Qc2 f5 7. f3 Qh4+ 8.
+g3 Nxg3 9. hxg3 Qxh1 10. Nh3 d6 11. Kf2 f4 12. Bg2 fxg3+ 13. Kxg3 Qe1+ 14. Nf2
+h5 15. Bh6 h4+ 16. Kh2 Qxf2 17. Qg6+ Kd7 18. Qxg7+ Kc6 19. d5+ exd5 20. cxd5+
+Kc5 21. Qxc7+ Nc6 22. dxc6 h3 23. cxb7+ Kd5 24. bxa8=Q+ Ke6 25. Qe4+ 1-0
+
+[Event "Sant Andreu op"]
+[Site "Barcelona"]
+[Date "1977.??.??"]
+[Round "7"]
+[White "Maiztegui Casas, Lincoln"]
+[Black "Travesset Barba, Joaquin"]
+[Result "0-1"]
+[ECO "E90"]
+[PlyCount "60"]
+[EventDate "1977.??.??"]
+[EventType "swiss"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. d4 g6 3. c4 Bg7 4. Nc3 O-O 5. e4 d6 6. Bg5 h6 7. Bh4 Nc6 8. Be2
+Bg4 9. d5 Nb8 10. O-O Nh7 11. Qd2 c5 12. e5 g5 13. Bg3 f5 14. exf6 Nxf6 15. h3
+Bf5 16. Rae1 Nbd7 17. Bd3 Nh5 18. Bh2 Bxd3 19. Qxd3 Nf4 20. Qe4 Ne5 21. Nxe5
+dxe5 22. Qc2 Qd7 23. Re4 Qf5 24. Rfe1 Rf7 25. Nd1 Raf8 26. Ne3 Qg6 27. Bg3 h5
+28. Nd1 b6 29. Ne3 h4 30. Bh2 g4 {( irrep. )} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "1978.??.??"]
+[Round "?"]
+[White "Ayats Camprodon, Felip"]
+[Black "Travesset Barba, Joaquin"]
+[Result "0-1"]
+[ECO "E62"]
+[PlyCount "126"]
+[EventDate "1978.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. c4 Nf6 2. Nc3 g6 3. Nf3 Bg7 4. d4 d6 5. g3 Bg4 6. Bg2 Qc8 7. h3 Bd7 8. Be3
+Nc6 9. Qc1 h5 10. d5 Na5 11. Nd2 c5 12. Nce4 Nxe4 13. Nxe4 a6 14. Bd2 Qc7 15.
+Bc3 f6 16. b3 b5 17. Nd2 O-O 18. Be4 f5 19. Bxg7 Kxg7 20. Bd3 bxc4 21. bxc4 e5
+22. dxe6 Bxe6 23. Nf3 Qf7 24. Ng5 Qf6 25. Nxe6+ Qxe6 26. Qc3+ Qe5 27. Qxe5+
+dxe5 28. e3 e4 29. Be2 Rab8 30. O-O Rb2 31. Rfe1 Rd8 32. Kf1 Rdd2 33. Rad1 Nxc4
+34. Bxc4 Rxf2+ 35. Kg1 Rg2+ 36. Kh1 Rh2+ 37. Kg1 Rbg2+ 38. Kf1 Rxg3 39. Rd7+
+Kh6 40. Bg8 Rhxh3 41. Kf2 Rf3+ 42. Ke2 Rxe3+ 43. Kd2 Rd3+ 44. Rxd3 Rxd3+ 45.
+Ke2 f4 46. Kf2 Rd2+ 47. Kf1 e3 48. Bc4 Kg5 49. Re2 Rd1+ 50. Kg2 a5 51. Kf3 Kf5
+52. Bb3 Rf1+ 53. Kg2 f3+ 54. Kxf1 fxe2+ 55. Kxe2 Kf4 56. Bf7 h4 57. Bxg6 h3 58.
+Bh5 h2 59. Bf3 c4 60. Bh1 c3 61. Kd3 c2 62. Kxc2 Kg3 63. Kd1 Kf2 0-1
+
+[Event "Camp. Catalunya indiv. Pref. Barcelona"]
+[Site "?"]
+[Date "1980.??.??"]
+[Round "3"]
+[White "Travesset Barba, Joaquin"]
+[Black "Maroto Borras, Jose Luis"]
+[Result "1-0"]
+[ECO "E12"]
+[PlyCount "109"]
+[EventDate "1980.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. d4 e6 2. Nf3 b6 3. c4 Bb7 4. Nc3 Nf6 5. Bg5 Bb4 6. a3 Bxc3+ 7. bxc3 h6 8.
+Bh4 Nc6 9. e3 g5 10. Bg3 Ne4 11. d5 Qf6 12. Rc1 Nxg3 13. dxc6 Nxh1 14. Qxd7+
+Kf8 15. cxb7 Rd8 16. Qxc7 Kg7 17. Qe5 Rb8 18. Qxf6+ Kxf6 19. Bd3 Rxb7 20. Ke2
+Nxf2 21. Kxf2 Rd8 22. Ke2 Rbd7 23. Rd1 Rc7 24. a4 e5 25. Nd2 Rcd7 26. Be4 Ke6
+27. g4 Rd6 28. Bd5+ Rxd5 29. cxd5+ Rxd5 30. c4 Ra5 31. Ra1 Rc5 32. Kd3 f5 33.
+gxf5+ Kxf5 34. Rf1+ Kg4 35. Rg1+ Kh4 36. Nf3+ Kh5 37. Rc1 g4 38. Ne1 Kh4 39.
+Ke4 Ra5 40. Rc2 Rxa4 41. Kxe5 Kg5 42. Nd3 Ra3 43. Kd4 h5 44. Nf2 Ra1 45. e4 h4
+46. e5 Kf5 47. Nd3 Rf1 48. Re2 Ke6 49. Ke4 g3 50. hxg3 hxg3 51. Rg2 Rf8 52.
+Rxg3 Rc8 53. Nf4+ Kf7 54. Kd4 a5 55. Nd5 1-0
+
+[Event "Camp. Catalunya indiv. Pref. Barcelona"]
+[Site "?"]
+[Date "1980.??.??"]
+[Round "6"]
+[White "Travesset Barba, Joaquin"]
+[Black "Padreny Gutierrez, Josep"]
+[Result "0-1"]
+[ECO "E24"]
+[PlyCount "60"]
+[EventDate "1980.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. a3 Bxc3+ 5. bxc3 b6 6. f3 Ba6 7. e4 Nc6 8. e5
+Ng8 9. Nh3 h6 10. Be3 Na5 11. Qa4 Ne7 12. Rd1 O-O 13. Bd3 d6 14. O-O Qe8 15.
+Qxe8 Rfxe8 16. exd6 cxd6 17. c5 Nd5 18. Bf2 Bxd3 19. Rxd3 dxc5 20. dxc5 Rec8
+21. c4 Nxc4 22. Rc1 Ne5 23. Rb3 bxc5 24. Rxc5 Rxc5 25. Bxc5 a5 26. Bd6 a4 27.
+Rb7 Nc4 28. Bc5 Rc8 29. Bb4 Nb2 30. Kf1 Rc2 $138 0-1
+
+[Event "?"]
+[Site "Barcelona"]
+[Date "1981.10.30"]
+[Round "?"]
+[White "Travesset Barba, Joaquin"]
+[Black "Romero Holmes, Alfonso"]
+[Result "1-0"]
+[ECO "E73"]
+[PlyCount "85"]
+[EventDate "1981.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Bg5 O-O 6. Be2 h6 7. Be3 e5 8. d5 a5
+9. Qd2 Kh7 10. h3 Na6 11. Bf3 c6 12. Nge2 cxd5 13. cxd5 Bd7 14. g4 Ne8 15. Ng3
+b5 16. O-O Nc5 17. Rac1 Qb6 18. h4 Nc7 19. Kg2 Rh8 20. h5 g5 21. Nf5 b4 22. Ne2
+N7a6 23. Neg3 Bf6 24. Be2 Rac8 25. Rc2 Rhd8 26. Rfc1 Bb5 27. Bc4 Rc7 28. Nxh6
+Bxc4 29. Rxc4 Kxh6 30. Bxg5+ Bxg5 31. Nf5+ Kh7 32. Qxg5 f6 33. Qg6+ Kh8 34.
+Qxf6+ Kg8 35. Nh6+ Kh7 36. Nf7 Rxf7 37. Qxf7+ Kh8 38. Qf6+ Kg8 39. h6 Qc7 40.
+Rh1 Qh7 41. Rh5 Qf7 42. Rg5+ Kf8 43. Qxd8+ 1-0
+
+[Event "Copa Catalana Mem. Agusti Pujol eq."]
+[Site "?"]
+[Date "1981.05.05"]
+[Round "?"]
+[White "Travesset Barba, Joaquin"]
+[Black "Farre Mallofre, Miguel"]
+[Result "0-1"]
+[ECO "D21"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "72"]
+[EventDate "1981.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 dxc4 3. Nf3 a6 4. a4 Nc6 5. e3 Na5 (5... e5 $5) 6. Ne5 $5 e6 $2
+(6... Be6 $142 $1) 7. Nxf7 $3 Kxf7 8. Qh5+ g6 9. Qxa5 {Quan en Mora, del
+Terrassa, es va adonar d'aquesta posicio em va dir: "el tens mort".Pero el
+mort "s'havia de matar" i vaig errar a la seguent.} b5 10. Be2 $2 {Aixi es com
+es llenca una partida. Despres de la setena jugada tot s'havia posat del meu
+costat per guanyar al Mestre Internacional.} (10. axb5 $142 $1 Bb7 (10... Rb8
+11. Nc3 axb5 12. Nxb5 $18) 11. Ra4 $18 {Amb amddues variants amb gran
+superioritat del blanc.} (11. b6 cxb6 12. Qe5 Bg7 13. Qf4+ Nf6 14. Bxc4 Bxg2
+15. Rg1 $14)) 10... Bb7 11. Bf3 $2 (11. O-O $142 $14) 11... Bxf3 12. gxf3 Nf6
+13. Bd2 $2 (13. axb5 $142 $1 axb5 14. Qxa8 Qxa8 15. Rxa8 Bb4+ 16. Bd2 Bxd2+ 17.
+Kxd2 Rxa8 18. Rc1 c6 19. Nc3 $14) 13... Be7 14. Nc3 Qd7 15. Rd1 Rhb8 16. Bc1 (
+16. Ne4) 16... Nd5 17. Nxd5 exd5 18. axb5 $2 {ara ja es massa tard.} Rxb5 19.
+Qa2 Qf5 20. Ke2 Bb4 21. Bd2 Qd3+ 22. Ke1 Ra5 23. Qxa5 Bxa5 24. Bxa5 Qc2 25. Bc3
+Rb8 26. Rd2 Qb1+ 27. Rd1 Qf5 28. Ke2 Rb3 29. Rd2 g5 30. Ra1 Rb6 31. Rg1 Rh6 32.
+Rg2 Rh3 33. Rg3 Rxh2 34. Rd1 h5 35. Rdg1 Qc2+ 36. Bd2 Qxb2 0-1
+
+[Event "C. E. Sant Andreu Social"]
+[Site "Barcelona"]
+[Date "1984.05.19"]
+[Round "6"]
+[White "Travesset Barba, Joaquin"]
+[Black "Ribera Arnal, Angel"]
+[Result "1-0"]
+[ECO "D43"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "91"]
+[EventDate "1984.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 c6 5. Bg5 h6 6. Bd2 Ne4 7. e3 Nxd2 8. Qxd2
+Nd7 9. Bd3 Bd6 10. e4 dxe4 11. Nxe4 Bc7 12. O-O-O Nf6 13. Rhe1 Ba5 14. Nc3 Qd6
+15. Kb1 Bd7 16. h3 O-O-O 17. Nb5 $1 cxb5 18. Qxa5 bxc4 19. Bxc4 Kb8 20. Ne5 Qe7
+21. d5 $1 Bc8 22. d6 Qe8 23. Qc7+ Ka8 24. Qxf7 Qf8 25. Qc7 Bd7 26. Re3 (26.
+Nxd7 $3 Rxd7 27. Bxe6 Rxc7 28. dxc7 $18) 26... Rc8 27. Qa5 Qd8 28. Qxd8 Rhxd8
+29. Nxd7 Rxc4 30. Nxf6 gxf6 31. Rxe6 Rf4 32. f3 Kb8 33. Re7 h5 34. Rc1 (34. b3)
+34... Rd4 35. Rcc7 R8xd6 36. Rxb7+ Kc8 37. Rxa7 Rd1+ 38. Kc2 R1d2+ 39. Kb3
+R6d3+ 40. Ka4 Rd4+ 41. Ka3 Kb8 42. Rab7+ Kc8 43. Rbc7+ Kb8 44. Rb7+ Ka8 45. Rb6
+Rxg2 46. Rxf6 1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1984.??.??"]
+[Round "?"]
+[White "Martin Gonzalez, Angel"]
+[Black "Travesset Barba, Joaquin"]
+[Result "1/2-1/2"]
+[ECO "B13"]
+[PlyCount "66"]
+[EventDate "1984.??.??"]
+[EventType "team"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. e4 d5 2. exd5 Nf6 3. c4 c6 4. d4 cxd5 5. Nc3 Nc6 6. Nf3 e6 7. cxd5 Nxd5 8.
+Bd3 Bb4 9. Qc2 h6 10. O-O O-O 11. a3 Ba5 12. Rd1 Qf6 13. Ne4 Qe7 14. Bb5 Bd7
+15. Nc5 Be8 16. b4 Bb6 17. Bc4 a6 18. Ba2 a5 19. Re1 Ncxb4 20. axb4 Nxb4 21.
+Qb3 Bxc5 22. dxc5 Bc6 23. Bb2 Qxc5 24. Rac1 Qh5 25. Qc3 Qg4 26. Bb1 Bxf3 27.
+Qxf3 Qxf3 28. gxf3 Rfd8 29. Red1 b5 30. Kg2 Nd5 31. Be4 b4 32. Rd4 Rab8 33.
+Rdc4 f6 1/2-1/2
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1984.??.??"]
+[Round "11"]
+[White "Travesset Barba, Joaquin"]
+[Black "Illescas Cordoba, Miquel"]
+[Result "0-1"]
+[ECO "A53"]
+[PlyCount "54"]
+[EventDate "1984.??.??"]
+[EventType "team"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. d4 Nf6 2. c4 d6 3. Nf3 Nbd7 4. Bf4 Nh5 5. Be3 e5 6. dxe5 dxe5 7. Nc3 Be7 8.
+Qa4 c6 9. O-O-O Qc7 10. g4 Nf4 11. Rg1 O-O 12. h4 b5 13. cxb5 cxb5 14. Qc2 Bb7
+15. Bxf4 exf4 16. Nxb5 Qa5 17. Nc3 Nb6 18. Bg2 Rab8 19. Ng5 g6 20. Bxb7 Rxb7
+21. Qe4 Rc7 22. Kb1 Bxg5 23. hxg5 Rxc3 24. bxc3 Na4 25. Qc2 Nxc3+ 26. Ka1 Qe5
+27. Rd3 Nxe2+ 0-1
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1985.??.??"]
+[Round "?"]
+[White "Juanpera Morales, Antoni"]
+[Black "Travesset Barba, Joaquin"]
+[Result "1-0"]
+[ECO "A24"]
+[PlyCount "77"]
+[EventDate "1985.??.??"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+
+1. c4 Nf6 2. Nc3 d6 3. g3 g6 4. Bg2 Bg7 5. Nf3 O-O 6. O-O e5 7. d3 c6 8. Rb1
+Bg4 9. h3 Bf5 10. e4 Bd7 11. b4 Ne8 12. d4 Na6 13. Be3 Nac7 14. dxe5 dxe5 15.
+Bc5 Ne6 16. Bxf8 Kxf8 17. Qd2 Qe7 18. Rfd1 Rd8 19. Qe3 b6 20. Ne2 Bc8 21. Rxd8
+Nxd8 22. a4 Be6 23. c5 b5 24. axb5 cxb5 25. Nc3 Nc7 26. Rd1 Nc6 27. Nd5 Qd7 28.
+Qe2 a6 29. Nb6 Qe8 30. Qd2 Nd4 31. Nxd4 exd4 32. Nd5 Qd7 33. Qf4 Ne8 34. Rc1
+Qc6 35. Qb8 f5 36. Qb6 Qc8 37. Nf4 Bf7 38. c6 g5 39. Nd5 1-0
+
+[Event "Ct. Catalunya equips 1 Div."]
+[Site "?"]
+[Date "2004.??.??"]
+[Round "5"]
+[White "Travesset Barba, J."]
+[Black "Porras Mateo, F."]
+[Result "1/2-1/2"]
+[ECO "D37"]
+[PlyCount "36"]
+[EventDate "2004.??.??"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Be7 4. Nc3 d5 5. e3 O-O 6. Bd3 c6 7. O-O dxc4 8. Bxc4
+b5 9. Bd3 Bb7 10. Qe2 Nbd7 11. b3 g6 12. Bb2 Nd5 13. Nxd5 cxd5 14. Rfc1 Rc8 15.
+Rxc8 Qxc8 16. Rc1 Qd8 17. Qc2 Nf6 18. Qc7 Bc8 1/2-1/2
+
+[Event "Ct. Catalunya equips 1 Div."]
+[Site "?"]
+[Date "2004.??.??"]
+[Round "6"]
+[White "Bravo Barranco, N."]
+[Black "Travesset Barba, J."]
+[Result "1/2-1/2"]
+[ECO "C01"]
+[PlyCount "25"]
+[EventDate "2004.??.??"]
+
+1. e4 d5 2. exd5 Nf6 3. c4 e6 4. d4 exd5 5. Nc3 c6 6. Nf3 Bb4 7. Be2 O-O 8. O-O
+dxc4 9. Bxc4 Bg4 10. Be2 Nd5 11. Qb3 Bxc3 12. bxc3 Re8 13. c4 1/2-1/2
+
+[Event "Ct. Catalunya Gent Gran"]
+[Site "Santa Sussana"]
+[Date "2005.??.??"]
+[Round "3.5"]
+[White "Caballe Sasot, R."]
+[Black "Travesset Barba, J."]
+[Result "1-0"]
+[ECO "A03"]
+[WhiteElo "2150"]
+[BlackElo "2160"]
+[PlyCount "79"]
+[EventDate "2005.??.??"]
+
+1. f4 d5 2. e3 Nf6 3. Nf3 Bg4 4. Be2 e6 5. b3 Nbd7 6. Bb2 Be7 7. d3 O-O 8. a4
+c5 9. O-O Rc8 10. Nbd2 Qc7 11. h3 Bxf3 12. Bxf3 Rfd8 13. Qe2 e5 14. f5 Nf8 15.
+e4 dxe4 16. dxe4 N8d7 17. Nc4 Ne8 18. Rfd1 Bf6 19. a5 Nb8 20. Qf2 b5 21. axb6
+axb6 22. Ne3 Nc6 23. Nd5 Qb7 24. c3 Na5 25. Ra3 Nc6 26. Rda1 Be7 27. Ra6 b5 28.
+Rb6 Qd7 29. Rxb5 Rb8 30. Rxb8 Rxb8 31. Nxe7+ Qxe7 32. Qc2 Qb7 33. Ra3 Qb6 34.
+Qf2 Na5 35. Bd1 Nd6 36. b4 Nxe4 37. bxa5 Qh6 38. Qe2 Qf4 39. Qf3 Qd2 40. Qxe4
+1-0
+
+[Event "Ct. Catalunya Gent Gran"]
+[Site "Santa Sussana"]
+[Date "2005.??.??"]
+[Round "8.4"]
+[White "Travesset Barba, J."]
+[Black "Franquet Escriba, J."]
+[Result "1/2-1/2"]
+[ECO "A53"]
+[WhiteElo "2160"]
+[BlackElo "2235"]
+[PlyCount "40"]
+[EventDate "2005.??.??"]
+
+1. d4 Nf6 2. c4 d6 3. Nf3 Nbd7 4. g3 e5 5. dxe5 dxe5 6. Bg2 c6 7. O-O Be7 8.
+Nc3 O-O 9. Qc2 Qc7 10. b3 Re8 11. Bb2 Bf8 12. e4 Nc5 13. Rfd1 Bg4 14. h3 Bxf3
+15. Bxf3 Rad8 16. Ne2 Ne6 17. Bg2 Bc5 18. Rxd8 Rxd8 19. Rd1 Rxd1+ 20. Qxd1 Qd7
+1/2-1/2
+
+[Event "La Pobla de Lillet op"]
+[Site "La Pobla de Lillet"]
+[Date "2013.08.05"]
+[Round "4.7"]
+[White "Capellades Subirana, M."]
+[Black "Travesset Barba, J."]
+[Result "1/2-1/2"]
+[ECO "B02"]
+[WhiteElo "2250"]
+[BlackElo "2074"]
+[PlyCount "63"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 d5 2. exd5 Nf6 3. Nc3 Nxd5 4. Bc4 Nb6 5. Bb3 Nc6 6. Nf3 Bf5 7. d3 e6 8.
+Bf4 Bd6 9. Qd2 Bxf4 10. Qxf4 a6 11. O-O-O Qd6 12. Qg5 O-O 13. h4 Qe7 14. Qf4
+Qd6 15. Qg5 Qe7 16. Qxe7 Nxe7 17. Nd4 Rad8 18. Nce2 c5 19. Nxf5 Nxf5 20. c3 Ne7
+21. d4 c4 22. Bc2 Nbd5 23. g3 b5 24. b4 cxb3 25. axb3 Rc8 26. Kb2 Rc6 27. Be4
+Rfc8 28. Rc1 Rb6 29. Ra1 f5 30. Bf3 Rd8 31. Rhe1 Kf7 32. Bg2 1/2-1/2
+
+[Event "La Pobla de Lillet op"]
+[Site "La Pobla de Lillet"]
+[Date "2013.08.06"]
+[Round "5.6"]
+[White "Travesset Barba, J."]
+[Black "Herreros Fernandez, M."]
+[Result "0-1"]
+[ECO "A55"]
+[WhiteElo "2074"]
+[BlackElo "2242"]
+[PlyCount "68"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 d6 3. Nc3 Nbd7 4. e4 e5 5. Nf3 Be7 6. Be2 O-O 7. O-O c6 8. Re1
+a6 9. Rb1 b5 10. b4 Qc7 11. Qc2 bxc4 12. Bxc4 Nb6 13. Bd3 Bg4 14. dxe5 dxe5 15.
+Be3 Rfb8 16. Na4 Nxa4 17. Qxa4 Bxf3 18. gxf3 Qd6 19. Bc5 Qxd3 20. Bxe7 Qxf3 21.
+Rb3 Qf4 22. Bxf6 Qxf6 23. Rg3 Rb5 24. a3 g6 25. Rc1 a5 26. Rgc3 Rab8 27. Rxc6
+Qg5+ 28. Kf1 axb4 29. axb4 Rxb4 30. Rc8+ Kg7 31. Qe8 Rxc8 32. Rxc8 Rb1+ 33. Ke2
+Qg4+ 34. Kd2 Qd1+ 0-1
+
+[Event "La Pobla de Lillet op"]
+[Site "La Pobla de Lillet"]
+[Date "2013.08.09"]
+[Round "8.5"]
+[White "Maes, W."]
+[Black "Travesset Barba, J."]
+[Result "1-0"]
+[ECO "A07"]
+[WhiteElo "2264"]
+[BlackElo "2074"]
+[PlyCount "89"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. g3 d5 2. Bg2 Nf6 3. Nf3 g6 4. O-O Bg7 5. d3 O-O 6. Nbd2 c6 7. e4 dxe4 8.
+dxe4 Bg4 9. h3 Bxf3 10. Qxf3 Nbd7 11. Qe2 e5 12. a4 Qc7 13. Nb3 Rad8 14. Be3 b6
+15. a5 Rfe8 16. Qa6 Bf8 17. Rfd1 Rb8 18. axb6 axb6 19. Ra2 Ra8 20. Qxa8 Rxa8
+21. Rxa8 Kg7 22. Rda1 Qd6 23. Bf3 Qb4 24. Bg2 Qc4 25. Rc1 Nxe4 26. Rc8 c5 27.
+Rc7 Nef6 28. g4 Bd6 29. Rb7 Qe6 30. Nd2 e4 31. g5 Nd5 32. Nxe4 Nxe3 33. fxe3
+Be5 $6 34. Rd1 Nf8 35. Nf2 Bxb2 $2 36. Bd5 Qd6 37. Rxf7+ Kh8 38. Bg2 Qb8 39.
+Ne4 Qe8 40. Ra7 Bg7 41. Kh1 Qb8 $2 42. Re7 h6 43. gxh6 Bxh6 44. Nd6 Bg7 45. Rb7
+1-0
+
+[Event "La Pobla de Lillet op"]
+[Site "La Pobla de Lillet"]
+[Date "2013.08.10"]
+[Round "9.6"]
+[White "Travesset Barba, J."]
+[Black "Kovacevic, S."]
+[Result "0-1"]
+[ECO "A75"]
+[WhiteElo "2074"]
+[BlackElo "2337"]
+[PlyCount "78"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 c5 4. d5 exd5 5. cxd5 d6 6. e4 g6 7. Nf3 a6 8. a4 Bg4
+9. Be2 Bxf3 10. Bxf3 Nbd7 11. a5 Bg7 12. O-O O-O 13. Bf4 Qe7 14. Qc2 Ne8 15.
+Rfe1 Nc7 16. Be2 Rfb8 17. Bg4 Ne5 18. Be2 b5 19. axb6 Rxb6 20. Bc1 h5 21. h3
+Rab8 22. f4 Nd7 23. Ra4 Bd4+ 24. Kh2 Nf6 25. Rf1 Ng4+ 26. Bxg4 hxg4 27. Ra2
+gxh3 28. g3 Re8 29. Re1 Bxc3 30. bxc3 Nxd5 31. Qd3 Nf6 32. Rae2 Qd7 33. Qf3
+Ng4+ 34. Kh1 Rb3 35. f5 gxf5 36. exf5 Ne5 37. Qh5 f6 38. Rxe5 Rxe5 39. Qg6+ Qg7
+0-1
+
+[Event "Lliga Catalana eq. DH"]
+[Site "?"]
+[Date "2014.04.05"]
+[Round "11.8"]
+[White "Travesset Barba, J."]
+[Black "Perez Mañas, B."]
+[Result "0-1"]
+[ECO "D02"]
+[WhiteElo "2181"]
+[BlackElo "2375"]
+[PlyCount "54"]
+[EventDate "2014.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 Nc6 3. g3 Bg4 4. Bg2 Qd7 5. h3 Bxf3 6. Bxf3 O-O-O 7. c3 e5 8.
+dxe5 Nxe5 9. Bg2 f5 10. Bf4 Ng6 11. Bg5 Be7 12. Bxe7 N8xe7 13. e3 Ne5 14. O-O
+h5 15. Nd2 h4 16. Nf3 Nxf3+ 17. Qxf3 hxg3 18. fxg3 c6 19. Rad1 Qe6 20. Rd4 Rdf8
+21. h4 g5 22. hxg5 Ng6 23. Qe2 Qe7 24. g4 f4 25. Re1 Qh7 26. Rf1 Qh2+ 27. Kf2
+f3 0-1
+
+[Event "Lliga Catalana DH Final A"]
+[Site "?"]
+[Date "2015.03.21"]
+[Round "9.10"]
+[White "Parals Marce, L."]
+[Black "Travesset Barba, J."]
+[Result "1/2-1/2"]
+[ECO "A36"]
+[WhiteElo "2172"]
+[BlackElo "2160"]
+[PlyCount "140"]
+[EventDate "2015.??.??"]
+[EventType "team"]
+
+1. c4 Nf6 2. g3 d6 3. Bg2 g6 4. Nc3 Bg7 5. e4 c5 6. Nge2 Nc6 7. O-O O-O 8. d3
+Bd7 9. h3 Qc8 10. Kh2 a6 11. Bg5 h6 12. Be3 Rb8 13. Qd2 Kh7 14. Nd5 Nxd5 15.
+cxd5 Nd4 16. Bxd4 cxd4 17. Rac1 Qd8 18. Rc2 Qb6 19. Rfc1 Rfc8 20. Rxc8 Rxc8 21.
+Rxc8 Bxc8 22. Nc1 Bd7 23. Nb3 e5 24. Qa5 Qxa5 25. Nxa5 b5 26. h4 f5 27. Bh3 h5
+28. f3 Bf6 29. Nc6 Kg7 30. Kg2 Kf7 31. Kf2 Ke8 32. Ke2 Bg7 33. Nb8 Bc8 34. Nc6
+Bd7 35. Kf2 Bf6 36. Kg2 Kf7 37. b3 Ke8 38. Nb8 Bc8 39. exf5 gxf5 40. Nc6 Kf7
+41. f4 exf4 42. gxf4 Kg6 43. Kg3 Kf7 44. Bg2 Bd7 45. Bf3 Kg6 46. Nb4 Bc8 47.
+Nc2 Bd7 48. Na3 Bc8 49. Nb1 b4 50. Nd2 Bd8 51. Nf1 a5 52. Kh3 Ba6 53. Be2 Bb7
+54. Bf3 Ba6 55. Be2 Bb7 56. Ng3 Bxd5 57. Bxh5+ Kf6 58. Be8 Bf3 59. Bh5 Bd5 60.
+Ne2 Bb6 61. Be8 Ke7 62. Bh5 a4 63. Nc1 a3 64. Kg3 Kf6 65. Bf3 Bf7 66. Bc6 Bh5
+67. Bf3 Bf7 68. Bd1 Kg7 69. Bf3 Kf6 70. Be2 Kg7 1/2-1/2

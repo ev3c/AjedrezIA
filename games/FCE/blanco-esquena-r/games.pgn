@@ -1,0 +1,91 @@
+[Event "Ct. Girona indiv."]
+[Site "?"]
+[Date "2005.??.??"]
+[Round "2.10"]
+[White "Blanco Esquena, R."]
+[Black "Alonso Jimenez, J."]
+[Result "0-1"]
+[BlackElo "2076"]
+[PlyCount "82"]
+[EventDate "2005.??.??"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nc3 Nc6 4. d4 exd4 5. Nxd4 Nxe4 6. Nxe4 Qe7 7. f3 d5 8.
+Nxc6 bxc6 9. Qe2 dxe4 10. Qxe4 Bf5 11. Qxe7+ Bxe7 12. c3 O-O 13. Be3 Rab8 14.
+b3 Ba3 15. c4 Bc2 16. Kf2 Bb2 17. Re1 Bf6 18. Rc1 Bg6 19. Be2 a5 20. Rhd1 Bb2
+21. Rd7 Bxc1 22. Bxc1 Bb1 23. Bd2 Rfd8 24. Rxd8+ Rxd8 25. Bxa5 Bxa2 26. b4 Rd2
+27. Ke3 Rc2 28. c5 Rb2 29. f4 Bd5 30. g3 Kf8 31. Bg4 Ke7 32. Bxc7 Rxb4 33. Bd6+
+Kd8 34. Be2 f5 35. h4 Re4+ 36. Kf2 Ra4 37. Ke3 Kd7 38. Bd1 Ra3+ 39. Kf2 Ra2+
+40. Ke3 Rg2 41. g4 fxg4 0-1
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2005.08.09"]
+[Round "2"]
+[White "Blanco Esquena, R."]
+[Black "Llos Casadella, B."]
+[Result "1-0"]
+[ECO "C57"]
+[PlyCount "21"]
+[EventDate "2005.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Ng5 Rg8 5. Bxf7+ Ke7 6. Bxg8 Nxg8 7. Nxh7 Ke8
+8. Qh5+ Ke7 9. Nc3 g6 10. Qxg6 Nh6 11. Nd5# 1-0
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2005.??.??"]
+[Round "3"]
+[White "Bosma, J."]
+[Black "Blanco Esquena, R."]
+[Result "1-0"]
+[ECO "C02"]
+[WhiteElo "2076"]
+[PlyCount "51"]
+[EventDate "2005.??.??"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. Be2 Nge7 7. b3 cxd4 8. cxd4
+Nf5 9. Bb2 Bb4+ 10. Kf1 O-O 11. g4 Nh6 12. h3 Bd7 13. Na3 Rfe8 14. Nc2 Bf8 15.
+Bd3 f6 16. Qe2 fxe5 17. Nxe5 Nxe5 18. Qxe5 Bb5 19. Qe2 Bxd3 20. Qxd3 Be7 21.
+Kg2 Rf8 22. Rae1 Bg5 23. Re2 Rf6 24. Ba3 Qc7 25. Ne1 Qf7 26. Nf3 1-0
+
+[Event "Figueres op B"]
+[Site "Figueres"]
+[Date "2016.08.14"]
+[Round "5"]
+[White "Mallol Descarrega, Aleix"]
+[Black "Blanco Esquena, Ramon"]
+[Result "1/2-1/2"]
+[ECO "B90"]
+[WhiteElo "1567"]
+[BlackElo "1760"]
+[PlyCount "41"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. f3 Qc7 7. Be3 Nc6 8. Be2
+e6 9. Qd2 Be7 10. O-O-O b5 11. g4 b4 12. Nb1 Nxd4 13. Bxd4 e5 14. Be3 Be6 15.
+h4 Bxa2 16. Qxb4 Bxb1 17. Kxb1 Nd7 18. h5 d5 19. Qa4 d4 20. Bc1 Qb6 21. g5
+1/2-1/2
+
+[Event "Figueres op B"]
+[Site "Figueres"]
+[Date "2016.08.15"]
+[Round "6"]
+[White "Blanco Esquena, Ramon"]
+[Black "Guzman Maglaya, Noli"]
+[Result "0-1"]
+[ECO "B21"]
+[WhiteElo "1760"]
+[BlackElo "1925"]
+[PlyCount "52"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. d4 cxd4 3. c3 d6 4. cxd4 Nf6 5. Nc3 g6 6. Nf3 Bg7 7. Bc4 O-O 8. O-O
+a6 9. Bb3 b5 10. Qe2 Nbd7 11. e5 dxe5 12. dxe5 Ne8 13. e6 fxe6 14. Bxe6+ Kh8
+15. Bd5 Rb8 16. Ng5 Ne5 17. Rd1 Qc7 18. Bb3 Ng4 19. g3 Bxc3 20. bxc3 Rxf2 21.
+Nf7+ Kg8 22. Nd6+ Kf8 23. Qxg4 Bxg4 24. Bh6+ Ng7 25. Rf1 Rf6 26. Rxf6+ exf6 0-1

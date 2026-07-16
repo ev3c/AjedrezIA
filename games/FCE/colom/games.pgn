@@ -1,0 +1,132 @@
+[Event "Camp. Catalunya eq. ( 3 cat. )"]
+[Site "?"]
+[Date "1931.10.16"]
+[Round "6"]
+[White "Colom"]
+[Black "Della"]
+[Result "1-0"]
+[ECO "C60"]
+[PlyCount "95"]
+[EventDate "1931.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nge7 4. O-O a6 5. Ba4 b5 6. Bb3 Bb7 7. Nc3 h6 8. Re1
+d6 9. d4 Na5 10. dxe5 Nxb3 11. axb3 dxe5 12. Nxe5 Qxd1 13. Rxd1 b4 14. Nd5 Nxd5
+15. exd5 Bd6 16. f4 f6 17. Ng6 Rg8 18. Be3 Kf7 19. f5 Rge8 20. Kf2 Bxh2 21. c4
+bxc3 22. bxc3 Be5 23. Rd3 Rad8 24. Rad1 h5 25. c4 Bc8 26. Nh4 Bd7 27. R1d2 Rb8
+28. Ra2 Ra8 29. b4 Reb8 30. Bd2 Bd6 31. c5 Bb5 32. Rda3 Be5 33. Rc2 Bd4+ 34.
+Kf3 Re8 35. Bf4 Re7 36. Ng6 Rd7 37. d6 cxd6 38. Bxd6 Re8 39. Bf4 Bc6+ 40. Kg3
+Be4 41. c6 Bxc2 42. cxd7 Ra8 43. Bc7 Be5+ 44. Bxe5 fxe5 45. Rxa6 Rd8 46. Nxe5+
+Kg8 47. Rc6 Bxf5 48. Rc7 1-0
+
+[Event "Camp. Catalunya eq. ( 3 cat. )"]
+[Site "?"]
+[Date "1931.??.??"]
+[Round "10"]
+[White "Capdevila, Manuel"]
+[Black "Colom"]
+[Result "0-1"]
+[ECO "B21"]
+[PlyCount "58"]
+[EventDate "1931.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. f4 Qc7 3. d3 Nc6 4. Nf3 d6 5. c4 f5 6. Nc3 Nf6 7. Qe2 fxe4 8. dxe4
+e5 9. fxe5 dxe5 10. Bg5 Be7 11. O-O-O Bg4 12. Bxf6 Bxf6 13. Nd5 Qf7 14. h3 Nd4
+15. Qd3 Bxf3 16. gxf3 Bg5+ 17. Kb1 O-O 18. Bg2 Qh5 19. Rhf1 Qh4 20. Qa3 b6 21.
+Bh1 Qxh3 22. Rg1 h6 23. Rg4 Nxf3 24. Bxf3 Rxf3 25. Qa4 Qxg4 26. Qc6 Rff8 27.
+Re1 Bd2 28. Ne7+ Kh7 29. Rh1 Rad8 {(...)} 0-1
+
+[Event "Camp. Catalunya eq. ( 3 cat. )"]
+[Site "?"]
+[Date "1931.??.??"]
+[Round "11"]
+[White "Fajertag Laforga, Enric"]
+[Black "Colom"]
+[Result "0-1"]
+[ECO "B20"]
+[PlyCount "46"]
+[EventDate "1931.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Bc4 d6 3. c3 e5 4. d4 Nd7 5. Nf3 h6 6. dxe5 dxe5 7. Bxf7+ Kxf7 8.
+Nxe5+ Kf6 9. Qf3+ Kxe5 10. Qf5+ Kd6 11. Qd5+ Ke7 12. O-O Ngf6 13. Qb3 Ne5 14.
+f4 c4 15. Qb4+ Kf7 16. Qa4 Bd7 17. Qc2 Bc5+ 18. Kh1 Nd3 19. e5 Bf5 20. Qe2 Bg4
+21. e6+ Ke7 22. Qc2 Ne4 23. h3 Ng3+ 0-1
+
+[Event "Camp. Catalunya eq. ( 3 cat. )"]
+[Site "?"]
+[Date "1931.??.??"]
+[Round "12"]
+[White "Colom"]
+[Black "Laplaza, Lluis"]
+[Result "1-0"]
+[ECO "C50"]
+[PlyCount "29"]
+[EventDate "1931.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O h6 5. c3 a6 6. d4 Bd6 7. dxe5 Nxe5 8.
+Nxe5 Bxe5 9. Qd5 Qe7 10. f4 c6 11. Qxe5 Qxe5 12. fxe5 f6 13. Bxg8 Rxg8 14. exf6
+gxf6 15. Rxf6 1-0
+
+[Event "Barcelona blind sim"]
+[Site "Barcelona"]
+[Date "1931.02.05"]
+[Round "?"]
+[White "Tartakower, Saviely"]
+[Black "Colom"]
+[Result "0-1"]
+[ECO "C10"]
+[PlyCount "44"]
+[EventDate "1931.02.05"]
+[EventType "simul"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nc3 b6 4. exd5 exd5 5. Nf3 h6 6. Bd3 Nf6 7. O-O Be6 8. Ne5
+a6 9. f4 c5 10. f5 Bc8 11. Qf3 Bb7 12. Be3 Qc7 13. g4 c4 14. Be2 Nbd7 15. g5
+hxg5 16. Bxg5 O-O-O 17. b3 Nxe5 18. dxe5 Bc5+ 19. Rf2 Bxf2+ 20. Kxf2 Rxh2+ 21.
+Kg1 d4 22. Ne4 Bxe4 0-1
+
+[Event "Memorial Puig y Puig"]
+[Site "?"]
+[Date "1966.??.??"]
+[Round "?"]
+[White "Marchador"]
+[Black "Colom"]
+[Result "1-0"]
+[ECO "A17"]
+[PlyCount "51"]
+[EventDate "1966.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. c4 Nf6 2. Nc3 e6 3. g3 c6 4. Bg2 d5 5. cxd5 exd5 6. e3 d4 7. exd4 Qxd4 8.
+Nge2 Qd8 9. O-O Be7 10. d4 O-O 11. Nf4 Bd6 12. d5 a6 13. dxc6 Nxc6 14. Nfd5
+Nxd5 15. Nxd5 Be6 16. Be3 Bxd5 17. Qxd5 Qc7 18. Rac1 Rac8 19. Qb3 Rfe8 20. Bh3
+Rb8 21. Bb6 Qe7 22. Rfe1 Qf6 23. Rxe8+ Rxe8 24. Bd7 Re2 25. Bxc6 bxc6 26. Rxc6
+1-0
+
+[Event "Berga op"]
+[Site "Berga"]
+[Date "1979.??.??"]
+[Round "?"]
+[White "Colom"]
+[Black "Vilageliu Ceballos, Jose Maria"]
+[Result "0-1"]
+[ECO "B07"]
+[PlyCount "58"]
+[EventDate "1979.08.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Be2 Bg7 5. Be3 Nc6 6. Qd2 Ng4 7. Bxg4 Bxg4 8.
+f3 Bd7 9. Nge2 e5 10. O-O O-O 11. Rac1 a6 12. dxe5 dxe5 13. Rfd1 Be6 14. Qxd8
+Rfxd8 15. a3 Nd4 16. Rd2 Rd6 17. Rcd1 Rad8 18. Bxd4 exd4 19. Na4 b6 20. b4 h5
+21. Nf4 Bd7 22. Nb2 Bh6 23. g3 c5 24. c3 Bb5 25. a4 Bxf4 26. gxf4 dxc3 27. Rxd6
+Rxd6 28. Rb1 Bxa4 29. bxc5 bxc5 0-1

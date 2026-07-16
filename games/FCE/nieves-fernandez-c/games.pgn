@@ -1,0 +1,103 @@
+[Event "Vila de Salou op"]
+[Site "?"]
+[Date "2005.05.20"]
+[Round "1.32"]
+[White "Szmetan, R."]
+[Black "Nieves Fernandez, C."]
+[Result "1-0"]
+[ECO "D27"]
+[WhiteElo "2347"]
+[PlyCount "67"]
+[EventDate "2005.??.??"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 dxc4 4. e3 e6 5. Bxc4 c5 6. O-O Nc6 7. Nc3 a6 8. a4
+Be7 9. Qe2 cxd4 10. Rd1 O-O 11. exd4 h6 12. d5 exd5 13. Nxd5 Nxd5 14. Bxd5 Qc7
+15. Be3 Bg4 16. Rac1 Rad8 17. Qc4 Bxf3 18. Bxf3 Rxd1+ 19. Rxd1 Bd6 20. Kh1 Rd8
+21. g3 Na5 22. Qxc7 Bxc7 23. Rc1 Rd7 24. b4 Nc6 25. Bxc6 bxc6 26. Rxc6 a5 27.
+b5 Bd8 28. Kg2 Kf8 29. Bc5+ Ke8 30. Rc8 Rc7 31. Rxd8+ Kxd8 32. Bb6 Kc8 33. Bxc7
+Kxc7 34. Kf3 1-0
+
+[Event "Vila de Salou op"]
+[Site "?"]
+[Date "2005.05.21"]
+[Round "2.30"]
+[White "Nieves Fernandez, C."]
+[Black "Goettin, G."]
+[Result "0-1"]
+[ECO "B92"]
+[BlackElo "2023"]
+[PlyCount "38"]
+[EventDate "2005.??.??"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e5 7. Nf3 h6 8. h3
+Be6 9. O-O Be7 10. Be3 O-O 11. Nh2 Nbd7 12. f4 exf4 13. Rxf4 Ne5 14. Qd4 Rc8
+15. Rc1 Nfd7 16. Rff1 Qc7 17. Nd5 Bxd5 18. exd5 Bf6 19. c4 Nf3+ 0-1
+
+[Event "Ct. Tarragona Veterans"]
+[Site "Cambrils"]
+[Date "2013.02.14"]
+[Round "3"]
+[White "Nieves Fernandez, C."]
+[Black "Margalef Guell, J."]
+[Result "0-1"]
+[ECO "B31"]
+[WhiteElo "1688"]
+[BlackElo "1979"]
+[PlyCount "144"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "8"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. d4 cxd4 5. Nxd4 Bg7 6. Nxc6 bxc6 7. Be2 Nf6 8.
+Nc3 d6 9. O-O O-O 10. Be3 Qc7 11. Qc1 Rb8 12. Rb1 Rd8 13. Rd1 Bg4 14. f3 Bd7
+15. Kh1 Ne8 16. Bd4 e5 17. Be3 Be6 18. a3 f6 19. b4 Qf7 20. Qb2 d5 21. exd5
+cxd5 22. Na4 d4 23. Bd2 Bf8 24. Qc1 Nc7 25. Bd3 Ba2 26. Ra1 Bc4 27. Nb2 Bd5 28.
+c4 dxc3 29. Qxc3 Rbc8 30. Bc4 Nb5 31. Bxd5 Nxc3 32. Bxf7+ Kxf7 33. Bxc3 Rxd1+
+34. Rxd1 Rxc3 35. Rd3 Rc2 36. Nd1 Ke6 37. Kg1 Bh6 38. Kf1 Ra2 39. Ne3 Bxe3 40.
+Rxe3 Kd5 41. Rd3+ Kc4 42. Rd7 Rxa3 43. Rxh7 Kxb4 44. Rg7 g5 45. Rf7 Ra6 46. g3
+Kc5 47. h4 gxh4 48. gxh4 Kd5 49. h5 Ra3 50. Kg2 Ra2+ 51. Kg3 Ke6 52. Rb7 Ra1
+53. h6 Rh1 54. h7 a5 55. Kg2 Rh6 56. Ra7 Kf5 57. Rxa5 Rxh7 58. Ra4 Rg7+ 59. Kf2
+Rd7 60. Kg3 Rd4 61. Ra3 Rb4 62. Re3 e4 63. fxe4+ Rxe4 64. Rf3+ Ke5 65. Kf2 Rf4
+66. Ke3 Rxf3+ 67. Kxf3 Kf5 68. Ke2 Kf4 69. Kf2 f5 70. Kg2 Ke3 71. Kf1 Kf3 72.
+Ke1 Kg2 0-1
+
+[Event "Ct. Tarragona Veterans"]
+[Site "Cambrils"]
+[Date "2013.02.21"]
+[Round "4"]
+[White "Costa Berengue, J."]
+[Black "Nieves Fernandez, C."]
+[Result "1-0"]
+[ECO "C66"]
+[WhiteElo "1862"]
+[BlackElo "1688"]
+[PlyCount "37"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "8"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 d6 4. d4 Bd7 5. O-O exd4 6. Nxd4 Nf6 7. Nc3 Be7 8.
+Bf4 O-O 9. Nxc6 bxc6 10. Ba4 Rb8 11. Bb3 Be6 12. e5 Ne8 13. Qe2 d5 14. Rad1 Bf5
+15. Be3 Ra8 16. Qa6 Bd7 17. Nxd5 cxd5 18. Bxd5 Bc8 19. Qc4 1-0
+
+[Event "Ct. Tarragona Veterans"]
+[Site "Cambrils"]
+[Date "2013.03.14"]
+[Round "7"]
+[White "Mane Casas, J."]
+[Black "Nieves Fernandez, C."]
+[Result "0-1"]
+[ECO "D02"]
+[WhiteElo "1749"]
+[BlackElo "1688"]
+[PlyCount "76"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "8"]
+
+1. d4 d5 2. Nf3 Nf6 3. Nbd2 e6 4. a3 c5 5. c3 a6 6. Ne5 Nbd7 7. Nxd7 Qxd7 8.
+Nf3 Bd6 9. h3 h6 10. Be3 c4 11. Qc1 Qc7 12. Rb1 b5 13. Ra1 Bd7 14. g3 O-O 15.
+Rg1 Nh7 16. Bf4 Bxf4 17. gxf4 f6 18. Bg2 Kh8 19. Nh4 Be8 20. Nf3 Rg8 21. e3 g5
+22. fxg5 Nxg5 23. Nxg5 Rxg5 24. f4 Rg3 25. Kd2 Bh5 26. Qe1 Rag8 27. Bh1 Rxg1
+28. Qxg1 Rxg1 29. Rxg1 f5 30. Rg3 Qe7 31. Ke1 Qh4 32. Kf2 Kh7 33. Bg2 Bf7 34.
+Bf3 Qd8 35. Rg2 Qh4+ 36. Rg3 Bh5 37. Bg2 Bd1 38. Bf1 Qd8 0-1

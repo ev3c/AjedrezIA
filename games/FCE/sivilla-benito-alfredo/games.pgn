@@ -1,0 +1,361 @@
+[Event "Camp. Barcelona"]
+[Site "Barcelona"]
+[Date "1909.??.??"]
+[Round "?"]
+[White "Sivilla, Benito Alfredo"]
+[Black "Ardevol Miralles, Emili"]
+[Result "1-0"]
+[ECO "C55"]
+[PlyCount "81"]
+[EventDate "1909.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Bc5 5. O-O d6 6. h3 Be6 7. Bb3 Qd7 8. Be3
+Bb6 9. Nc3 Ne7 10. Bxb6 axb6 11. Bxe6 fxe6 12. Nh2 Ng6 13. Ne2 Nh5 14. Qd2 O-O
+15. a3 Qe7 16. g3 Rf6 17. Qg5 Ngf4 18. Nxf4 Nxf4 19. Qh4 Ne2+ 20. Kg2 Nd4 21.
+c3 Nc6 22. Ng4 Rg6 23. Qxe7 Nxe7 24. f4 exf4 25. Rxf4 e5 26. Rf3 h5 27. Ne3 Rf8
+28. Raf1 Rxf3 29. Rxf3 Rf6 30. Nf5 Kf7 31. g4 hxg4 32. hxg4 Nxf5 33. exf5 g6
+34. fxg6+ Kxg6 35. Rxf6+ Kxf6 36. Kg3 Kg5 37. Kh3 c5 38. c4 b5 39. b3 b4 40.
+axb4 cxb4 41. Kg3 1-0
+
+[Event "Camp. Barcelona"]
+[Site "Barcelona"]
+[Date "1909.??.??"]
+[Round "?"]
+[White "Sivilla, Benito Alfredo"]
+[Black "Puig i Puig, Esteve"]
+[Result "0-1"]
+[ECO "C55"]
+[PlyCount "36"]
+[EventDate "1909.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Nc3 Bb4 5. d3 d5 6. exd5 Nxd5 7. Bd2 Nxc3 8.
+Bxc3 Bxc3+ 9. bxc3 O-O 10. O-O Bg4 11. h3 Bh5 12. Qe2 Qf6 13. Bd5 Rad8 14. Bxc6
+Qxc6 15. Qxe5 Bxf3 16. gxf3 Qxf3 17. Qg3 Qc6 18. c4 Rd6 0-1
+
+[Event "Camp. Barcelona 1913 ( Sala Imperio )"]
+[Site "Barcelona"]
+[Date "1912.10.31"]
+[Round "?"]
+[White "Sivilla, Benito Alfredo"]
+[Black "Puig i Puig, Esteve"]
+[Result "1/2-1/2"]
+[ECO "C50"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "107"]
+[EventDate "1912.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. Nc3 Nf6 5. d3 d6 6. Be3 Bb6 7. h3 Be6 8. Bb3
+O-O 9. Ne2 d5 10. Ng3 Bxe3 11. fxe3 dxe4 12. Nxe4 Nxe4 13. dxe4 Bxb3 14. axb3
+Qxd1+ 15. Rxd1 Rad8 16. Ke2 f6 17. c3 Kf7 18. b4 Ke6 19. Rxd8 Rxd8 20. Rd1 Rxd1
+21. Kxd1 Ne7 22. Nd2 Ng6 23. g3 Nh8 24. Ke2 Nf7 25. h4 Nd6 26. Kf3 Nc8 27. Nb3
+b6 28. Nd2 Nd6 29. Ke2 a6 30. Kf3 Kd7 31. Ke2 Kc6 32. Kd3 Kb5 33. b3 g6 34. g4
+h6 35. Nf3 Nb7 (35... g5 $1) 36. g5 fxg5 37. hxg5 hxg5 38. Nxe5 c5 39. Nxg6 Kc6
+40. Ne7+ Kd6 41. Ng6 Ke6 42. Nf8+ Ke7 43. Nh7 g4 44. e5 cxb4 45. cxb4 a5 46.
+bxa5 Nxa5 47. Ng5 Nxb3 48. Kc4 Nd2+ 49. Kb5 Nf3 50. Ne4 Nxe5 51. Kxb6 Nc4+ 52.
+Kc5 Nxe3 53. Kd4 Nc2+ 54. Ke5 1/2-1/2
+
+[Event "Camp. Barcelona 1913 ( Sala Imperio )"]
+[Site "Barcelona"]
+[Date "1912.??.??"]
+[Round "3"]
+[White "Albin, Max Adolf"]
+[Black "Sivilla, Benito Alfredo"]
+[Result "1-0"]
+[ECO "C14"]
+[PlyCount "50"]
+[EventDate "1912.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Be7 5. e5 Nfd7 6. Bxe7 Qxe7 7. Bd3 a6 8.
+Nf3 c5 9. O-O cxd4 10. Nxd4 Nc6 11. Nxc6 bxc6 12. Qg4 O-O 13. Rae1 c5 14. Re3
+c4 15. Bxh7+ Kxh7 16. Rh3+ Kg8 17. Qh5 f6 18. f4 Nc5 19. Rff3 fxe5 20. Rfg3 Qf6
+21. Rg6 Qxf4 22. Qh7+ Kf7 23. Rf3 Qxf3 24. Rxg7+ Ke8 25. gxf3 d4 1-0
+
+[Event "Camp. Barcelona 1913 ( Sala Imperio )"]
+[Site "Barcelona"]
+[Date "1912.11.09"]
+[Round "6"]
+[White "Sivilla, Benito Alfredo"]
+[Black "Reverter, Josep J"]
+[Result "1-0"]
+[ECO "A40"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "105"]
+[EventDate "1912.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 e6 2. f4 d5 3. Nf3 c5 4. c3 Nc6 5. e3 Be7 6. Bd3 Bh4+ 7. Nxh4 Qxh4+ 8. g3
+Qe7 9. Nd2 Nf6 10. Nf3 Bd7 11. Bd2 c4 12. Bc2 a6 13. Ne5 b5 14. Qe2 Ne4 15.
+Bxe4 dxe4 16. Qg4 O-O 17. O-O f6 18. Nxc6 Bxc6 19. Rf2 f5 20. Qe2 Rf6 21. Rg2
+a5 22. a3 a4 23. Kf2 Be8 24. h3 h6 25. Rag1 Rg6 26. Ke1 Bc6 27. Qf2 Kf8 28. g4
+Ra7 29. g5 hxg5 30. fxg5 Qd7 31. Qf4 Qc7 32. h4 Qxf4 33. exf4 e5 34. dxe5 e3
+35. Bxe3 Bxg2 36. Bxa7 Bf3 37. Rf1 Bg4 38. Rf2 Rc6 39. Rd2 Ke7 40. Bb8 Ke6 41.
+Kf2 g6 42. Rd8 Ke7 43. Rh8 Kf7 44. Bd6 Kg7 45. Rb8 Kf7 46. Rxb5 Ke6 47. Rb4 Bd1
+48. Ke3 Kd5 49. Rb5+ Ke6 50. Kd4 Bf3 51. Rb4 Bd1 52. Rb7 Rxd6+ $2 53. exd6 1-0
+
+[Event "Camp. Barcelona 1913 ( Sala Imperio )"]
+[Site "Barcelona"]
+[Date "1912.11.12"]
+[Round "7"]
+[White "Batlle, Josep"]
+[Black "Sivilla, Benito Alfredo"]
+[Result "1-0"]
+[ECO "C14"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "43"]
+[EventDate "1912.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Be7 5. e5 Nfd7 6. Bxe7 Qxe7 7. Nb5 Nb6 8.
+c3 a6 9. Na3 c5 10. Nc2 Nc6 11. f4 Nd7 12. Nf3 h6 13. Be2 b6 14. O-O f5 15. c4
+O-O 16. Qe1 cxd4 17. Ncxd4 Nxd4 18. Nxd4 dxc4 (18... Bb7 $142) 19. Bxc4 Nc5 20.
+Rc1 Ne4 $2 (20... a5) 21. Nxf5 Rxf5 22. Qxe4 {y cae una de las torres.} 1-0
+
+[Event "Camp. Barcelona 1913 ( Sala Imperio )"]
+[Site "Barcelona"]
+[Date "1912.11.14"]
+[Round "8"]
+[White "Miro, Joan"]
+[Black "Sivilla, Benito Alfredo"]
+[Result "0-1"]
+[ECO "D00"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "90"]
+[EventDate "1912.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. f4 e6 3. e3 c5 4. c3 Nc6 5. Bd3 f5 6. Nf3 Nf6 7. O-O cxd4 8. cxd4
+Be7 9. Bd2 O-O 10. Nc3 Ne4 11. Be1 a6 12. h3 h6 13. Rc1 Bd7 14. Nh2 Bh4 15. Qh5
+Bxe1 16. Rfxe1 Be8 17. Qf3 Qh4 18. Bxe4 fxe4 19. Qf2 $2 (19. Qg4 $142) 19...
+Qxf2+ 20. Kxf2 Nb4 21. Red1 Nd3+ 22. Rxd3 exd3 23. Rd1 Bb5 24. Nf3 Rac8 25. Ne5
+g5 26. g3 gxf4 27. gxf4 Kh7 28. Nxd3 Bxd3 29. Rxd3 Rg8 30. Ne2 Rc2 31. Rb3 Rg7
+32. Kf3 h5 33. Rb6 Rc6 34. Rb4 b5 35. a3 h4 36. Rb3 Rc4 37. Rd3 Kg8 38. Rd2 Kf7
+39. e4 Kf6 40. exd5 exd5 41. Nc3 Rg3+ 42. Kf2 Rxh3 43. Nxd5+ Ke6 44. Ne3 Rh2+
+45. Ng2 h3 0-1
+
+[Event "Camp. Barcelona 1913 ( Sala Imperio )"]
+[Site "Barcelona"]
+[Date "1912.11.16"]
+[Round "9"]
+[White "Sivilla, Benito Alfredo"]
+[Black "Ardevol Miralles, Emili"]
+[Result "1-0"]
+[ECO "D00"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "69"]
+[EventDate "1912.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. f4 c5 3. c3 cxd4 4. cxd4 Nc6 5. e3 Nf6 6. Nf3 Bg4 7. Be2 e6 8. Nc3
+Bd6 9. Bd2 Rc8 10. Ne5 Bxe2 11. Qxe2 h5 12. h3 a6 13. a3 Ne7 14. Rc1 Nf5 15.
+Qf3 Ne4 16. Nxe4 Rxc1+ 17. Bxc1 dxe4 18. Qf2 (18. Qxe4 $2 Ng3) 18... Be7 19.
+O-O Bh4 20. Qc2 O-O 21. Bd2 Qe8 22. g4 Ng3 23. Rf2 f6 24. Nc4 Qg6 25. Qd1 hxg4
+26. Qxg4 Qxg4 27. hxg4 f5 28. Rh2 g5 29. fxg5 Bxg5 30. Rg2 (30. Kf2) 30... f4
+31. exf4 e3 32. Bxe3 Bh4 33. Ne5 Kg7 34. Nf3 Ne4 35. Nxh4 1-0
+
+[Event "Camp. Barcelona 1913 ( Sala Imperio )"]
+[Site "Barcelona"]
+[Date "1912.10.21"]
+[Round "11"]
+[White "Sivilla, Benito Alfredo"]
+[Black "Puntas Jensen, Josep"]
+[Result "1-0"]
+[ECO "C50"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "103"]
+[EventDate "1912.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. Nc3 d6 5. d3 Nf6 6. Be3 Bb6 7. h3 Be6 8. Bb3
+Ne7 9. Ne2 Ng6 10. Ng3 Nf4 11. Bxf4 exf4 12. Ne2 Nh5 13. Qd2 Qf6 14. c3 g5 15.
+d4 Qg6 16. Bc2 O-O-O 17. O-O-O f5 18. exf5 Bxf5 19. Rhe1 Ng7 20. g4 Bxc2 21.
+Qxc2 Qf7 22. Nxg5 Qxa2 23. Nxf4 Rdf8 24. Qd2 (24. Nd3) 24... h6 25. Ne4 Re8 26.
+Ng6 Rhg8 27. Nf6 Rxe1 28. Rxe1 Rd8 29. Re7 Ne6 30. f4 c5 31. d5 Nc7 32. f5 Nb5
+33. Nf4 Rf8 34. Nd7 Bd8 35. Ne6 Bxe7 36. Ndxf8 Nc7 37. Ng6 Nxe6 38. Nxe7+ Kd7
+39. dxe6+ Kxe7 40. Qe2 (40. Qxh6 $142) 40... Qa1+ 41. Kc2 Qa4+ 42. Kb1 Qc6 43.
+Qe1 Ke8 44. Qe3 Qh1+ 45. Kc2 Qg2+ 46. Kb3 b5 47. c4 bxc4+ 48. Kxc4 Qxb2 49. Kd5
+a5 $2 (49... Ke7 $142) 50. Qxh6 Qe5+ $2 (50... Qb7+ $142 51. Kxd6 Qb8+) 51. Kc6
+Qe4+ 52. Kc7 1-0
+
+[Event "Camp. Barcelona 1913 ( Sala Imperio )"]
+[Site "Barcelona"]
+[Date "1912.11.23"]
+[Round "12"]
+[White "Metzger, Hermann"]
+[Black "Sivilla, Benito Alfredo"]
+[Result "1/2-1/2"]
+[ECO "D05"]
+[PlyCount "79"]
+[EventDate "1912.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. Nf3 e6 2. d4 Nf6 3. e3 c5 4. Bd3 d5 5. b3 Nc6 6. Nbd2 a6 7. Bb2 Bd7 8. O-O
+Rc8 9. Re1 Be7 10. e4 cxd4 11. Nxd4 dxe4 12. Bxe4 O-O 13. c4 Nxd4 14. Bxd4 Nxe4
+15. Nxe4 Bc6 16. Ng3 Bf6 17. Bxf6 Qxf6 18. Re3 Rcd8 19. Qc1 Rd7 20. Qc3 Qxc3
+21. Rxc3 Rfd8 22. Rcc1 Rd2 23. h3 Kf8 24. Nf1 Rb2 25. Re1 Ke7 26. Re3 b5 27.
+Rg3 bxc4 28. bxc4 g6 29. Ra3 Rd4 30. Rc1 Bb7 31. c5 Kd7 32. c6+ Bxc6 33. Rxa6
+Bd5 34. Ra7+ Rb7 35. Rxb7+ Bxb7 36. Ne3 Bd5 37. a3 h5 38. Nxd5 exd5 39. Kf1 Rd3
+40. Ra1 1/2-1/2
+
+[Event "Camp. Barcelona 1913 ( Sala Imperio )"]
+[Site "Barcelona"]
+[Date "1912.11.26"]
+[Round "13"]
+[White "Sivilla, Benito Alfredo"]
+[Black "Lopez Cepero, Carlos"]
+[Result "1/2-1/2"]
+[ECO "A03"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "166"]
+[EventDate "1912.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. f4 Nc6 3. e3 Nf6 4. Nf3 Bg4 5. Be2 e6 6. Nbd2 h6 7. Ne5 Bxe2 8.
+Qxe2 Nd7 9. c4 Ndxe5 10. fxe5 Be7 11. O-O dxc4 12. Qxc4 Bg5 13. Nf3 Be7 14. Bd2
+Qd7 15. a3 a6 16. Rac1 Rc8 17. e4 Rd8 18. Bc3 b5 19. Qe2 b4 20. axb4 Bxb4 21.
+Qxa6 O-O 22. Qc4 Be7 23. Rfd1 Rc8 24. Ra1 Ra8 25. d5 Rxa1 26. Rxa1 exd5 27.
+exd5 Nb8 28. Ra7 Rc8 29. d6 Bd8 30. Ba5 Qc6 31. Qxc6 Nxc6 32. Rxc7 Bxc7 33.
+Bxc7 Kf8 34. Kf2 Ke8 35. Ke3 Kd7 36. Ke4 Ra8 37. Nd2 Ra4+ 38. Kd3 Nxe5+ 39. Kc3
+Rf4 40. g3 Rf2 41. h4 f5 42. b4 Kc6 43. Nc4 Rf3+ 44. Kd4 Nxc4 45. Kxc4 Rxg3 46.
+b5+ Kd7 47. Kd5 Rg1 48. Ke5 Re1+ 49. Kxf5 Kc8 50. Kf4 Rb1 51. b6 Rb4+ 52. Kg3
+h5 53. Kh3 Rg4 54. d7+ Kxd7 55. Be5 Kc6 56. Bc7 g6 57. Bd8 Rd4 58. Bc7 Rd3+ (
+58... Rg4 59. Bd8 Kd7 60. Bc7 Kc8 61. Bd6 g5 62. hxg5 Rxg5 63. Kh4 Rb5 64. Bc7
+(64. Bf4 Rb4 65. Kg5 $2 (65. Kg3 Rxb6 66. Kh4 Rb4 67. Kg3 Kd7 68. Bc1 Rg4+ 69.
+Kh2 Ke6 70. Bd2 Ke5 71. Be3 Ke4 72. Bc5 Kf3 73. Bd6 Rh4+ 74. Kg1 Rc4 75. Kh2
+Kg4 76. Be5 Rc2+ 77. Kg1 h4 78. Bb8 Kh3 79. Be5 Rg2+ 80. Kf1 (80. Kh1 $2 Re2
+81. Bd4 Kg3 82. Ba7 Rh2+ 83. Kg1 Rb2 84. Kh1 h3 85. Bd4 Re2 86. Bc3 h2 87. Be5+
+Kh3 88. Bg3 Rd2 89. Be1 Rb2 90. Ba5 Rb1+ 91. Be1 Rxe1#)) 65... h4 $19) 64...
+Kd7 65. Bh2 Ke6 (65... Kc6 66. Bg1) 66. Bg1 Kf7 67. Bh2 Kg6 68. Bg1 Rb4+ 69.
+Kg3 Rg4+) 59. Kg2 Rb3 60. Bd8 Kd5 61. Bc7 Ke4 62. Kf2 Kf5 63. Bd8 Ke4 64. Bc7
+Rb2+ 65. Kg3 Ke3 66. Bd8 Rb1 67. Bg5+ Ke4 68. Bd8 Rb3+ 69. Kf2 Rh3 (69... Kf4
+70. Ke2 Kg4 71. Kf2 Rd3 72. Bc7 Kxh4 73. b7 Rb3 74. b8=Q $11) 70. Bc7 Rb3 71.
+Bd8 Kf4 72. Bg5+ Kg4 73. Bd8 Rd3 74. Bc7 Rb3 75. Bd8 Kf5 76. Bc7 g5 77. hxg5
+Kxg5 78. Bd8+ Kg4 79. Kg2 Rb2+ 80. Kg1 h4 81. Bc7 h3 82. Kh1 h2 83. Bxh2 Kh3
+1/2-1/2
+
+[Event "Camp. Barcelona 1913 ( Sala Imperio )"]
+[Site "Barcelona"]
+[Date "1912.11.28"]
+[Round "14"]
+[White "Sivilla, Benito Alfredo"]
+[Black "Gonzalez Gonzalez, Manuel"]
+[Result "1-0"]
+[ECO "D00"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "111"]
+[EventDate "1912.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. f4 Nf6 3. e3 e6 4. Nf3 Bd6 5. Bd3 c5 6. c3 Nbd7 7. Nbd2 Ng4 8. Qe2
+Qe7 9. Ne5 f5 $2 (9... Nh6 $142) 10. Nxg4 fxg4 11. Qxg4 O-O 12. O-O Nf6 13. Qe2
+Bc7 14. Nf3 b6 15. Bd2 Bd7 16. Ne5 Be8 17. Qf2 Bxe5 18. fxe5 Ne4 19. Qxf8+ Qxf8
+20. Rxf8+ Kxf8 21. Bxe4 dxe4 22. a3 Bb5 23. b4 cxd4 24. exd4 Bd3 25. Rc1 Rc8
+26. Kf2 Rc7 27. Bf4 Rf7 28. Ke3 Rc7 29. h4 h5 30. Kd2 Ke7 31. Rg1 Kd7 32. d5 $1
+Rc8 (32... exd5 $4 33. e6+ $18) 33. d6 Rf8 34. g3 Kc6 35. Rc1 Kb5 36. a4+ (36.
+c4+ $142) 36... Kc6 $2 (36... Kc4 $142) 37. c4 Kd7 38. c5 bxc5 39. Rxc5 Rc8 40.
+Ra5 a6 41. b5 Ra8 42. b6 Rc8 43. Be3 Rc2+ 44. Kd1 Kc6 45. Rc5+ $6 (45. Rxa6
+$142) (45. b7 $3 Kxb7 46. d7 $1 Kc7 47. Rd5 $1 exd5 48. e6 $18) 45... Rxc5 46.
+Bxc5 Bf1 (46... a5 $142) 47. Kd2 (47. a5 $142) 47... Bd3 48. Ke3 Bc2 49. a5 Bd3
+50. Kf4 e3 51. Bxe3 g6 52. Kg5 Be4 53. Kf6 Kd7 54. Bd4 Bd5 55. Kxg6 Bf3 56. b7
+1-0
+
+[Event "Camp. Barcelona 1913 ( Sala Imperio )"]
+[Site "Barcelona"]
+[Date "1912.12.03"]
+[Round "16"]
+[White "Sivilla, Benito Alfredo"]
+[Black "De Lafuente Andreu, Leopoldo"]
+[Result "0-1"]
+[ECO "D00"]
+[PlyCount "52"]
+[EventDate "1912.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. f4 c5 3. c3 Nc6 4. e3 Nf6 5. Bd3 Bg4 6. Nf3 e6 7. O-O Bd6 8. Nbd2
+Qc7 9. Qe1 cxd4 10. cxd4 O-O 11. Ne5 Nb4 12. Nxg4 Nxg4 13. Qe2 f5 14. Nf3 Nxd3
+15. Qxd3 Rac8 16. h3 Nf6 17. Ne1 Ne4 18. Bd2 Qb6 19. Nf3 Rc6 20. Bc3 Rfc8 21.
+Rfc1 Bb4 22. Ne5 R6c7 23. Rab1 Qa5 24. a3 Bxc3 25. bxc3 Nxc3 26. Rb2 Ne2+ 0-1
+
+[Event "Camp. Barcelona 1913 ( Sala Imperio )"]
+[Site "Barcelona"]
+[Date "1912.12.10"]
+[Round "19"]
+[White "Sivilla, Benito Alfredo"]
+[Black "Del Valle Figueras, Augusto"]
+[Result "0-1"]
+[ECO "D00"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "90"]
+[EventDate "1912.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. f4 e6 3. Nf3 c5 4. c3 c4 5. e3 Nf6 6. Nbd2 Nc6 7. Be2 Bd7 8. Ne5
+Bd6 9. Ndf3 Ne4 10. Nxd7 Qxd7 11. Ne5 Qe7 (11... Nxe5 12. fxe5 Bc7 13. Bf3 $13)
+12. O-O O-O 13. b3 $2 (13. Bf3 $142) 13... Nxc3 14. Qc2 Nxe2+ 15. Qxe2 cxb3 16.
+axb3 f5 17. Bd2 Bxe5 18. fxe5 a6 19. Rfc1 Rfc8 20. Rc2 Qd7 21. Rac1 Ne7 22. Bb4
+Rxc2 23. Rxc2 Rc8 24. Bd6 Rxc2 25. Qxc2 Qc6 26. Qd2 Ng6 27. g3 Nh8 $1 28. Kf2
+Nf7 29. Be7 b6 30. h4 a5 31. Kf3 Qb5 (31... Nh6 $144) 32. Qd1 Qe8 33. Ba3 Nxe5+
+$1 34. Kg2 (34. dxe5 $4 Qh5+) 34... Ng4 35. Qc1 h6 36. Bd6 Kh7 37. Bf4 Qb5 38.
+Qc2 Qb4 39. Kf1 b5 40. Ke2 a4 41. bxa4 bxa4 42. Kd3 a3 43. Ke2 Qc4+ 44. Kd2 a2
+45. Qb2 Qf1 $1 0-1
+
+[Event "Camp. Barcelona 1913 ( Sala Imperio )"]
+[Site "Barcelona"]
+[Date "1912.??.??"]
+[Round "21"]
+[White "Puig i Puig, Esteve"]
+[Black "Sivilla, Benito Alfredo"]
+[Result "1-0"]
+[ECO "C14"]
+[PlyCount "39"]
+[EventDate "1912.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Be7 5. e5 Nfd7 6. Bxe7 Qxe7 7. Nb5 Qb4+ 8.
+c3 Qa5 9. f4 a6 10. Na3 c5 11. Nf3 Nc6 12. Nc2 cxd4 13. Nfxd4 Nxd4 14. Qxd4 O-O
+15. Bd3 Qc7 16. O-O f6 17. Rf2 fxe5 18. fxe5 Nxe5 19. Bxh7+ Kxh7 20. Rxf8 1-0
+
+[Event "Camp. Barcelona 1913 ( Sala Imperio )"]
+[Site "Barcelona"]
+[Date "1912.??.??"]
+[Round "25"]
+[White "Ardevol Miralles, Emili"]
+[Black "Sivilla, Benito Alfredo"]
+[Result "1-0"]
+[ECO "D53"]
+[PlyCount "169"]
+[EventDate "1912.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 e6 2. c4 d5 3. Nc3 Nf6 4. Bg5 Be7 5. e3 b6 6. Nf3 Nbd7 7. Bd3 Bb7 8. cxd5
+Nxd5 9. Bxe7 Qxe7 10. Rc1 Nxc3 11. Rxc3 Rc8 12. O-O O-O 13. Qc2 Nf6 14. Ng5 h6
+15. Nh3 c5 16. dxc5 Rxc5 17. Rxc5 Qxc5 18. Qxc5 bxc5 19. Rc1 Rc8 20. f3 Kf8 21.
+e4 Ke7 22. Bb5 Nd7 23. Nf4 a6 24. Ba4 c4 25. Bd1 Nb6 26. Be2 Kd6 27. Kf2 Kc5
+28. Ke3 Kb4 29. Rc3 g5 30. Nh5 a5 31. Nf6 Ba6 32. a3+ Kc5 33. b3 a4 34. b4+ Kd6
+35. Ng4 h5 36. Nf6 Ke5 37. Nxh5 f5 38. g3 fxe4 39. f4+ gxf4+ 40. gxf4+ Kf5 41.
+Ng3+ Kf6 42. Kxe4 Nd5 43. Rc2 Bb7 44. Nh5+ Ke7 45. Ke5 c3 46. Ng3 Nxb4 47. axb4
+a3 48. Bd3 Bd5 49. Ne2 a2 50. Rc1 c2 51. Ra1 Kd7 52. f5 Ke7 53. fxe6 Bxe6 54.
+Bf5 Bxf5 55. Kxf5 Rc4 56. Nc1 Rxb4 57. Rxa2 Rc4 58. Kg5 Rc5+ 59. Kf4 Kf6 60.
+Ra6+ Kg7 61. Re6 Rc4+ 62. Kf3 Rc3+ 63. Kg2 Rc4 64. Re2 Kg6 65. Kf3 Kf5 66. Rd2
+Rc3+ 67. Rd3 Rxd3+ 68. Nxd3 Kg5 69. Kg3 Kf5 70. h4 Ke4 71. Nc1 Kf5 72. Kf3 Kg6
+73. Kg4 Kh6 74. h5 Kg7 75. Nd3 Kh6 76. Nc1 Kg7 77. Kg5 Kh7 78. Nd3 Kg7 79. h6+
+Kh7 80. Kh5 Kg8 81. Nc1 Kh7 82. Kg5 Kg8 83. Kg6 Kh8 84. Nd3 Kg8 85. h7+ 1-0

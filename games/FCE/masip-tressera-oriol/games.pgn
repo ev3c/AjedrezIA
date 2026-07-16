@@ -1,0 +1,238 @@
+[Event "Catalunya-chT Gp2"]
+[Site "Barcelona"]
+[Date "2017.01.21"]
+[Round "1.9"]
+[White "Iglesias, Jorge"]
+[Black "Masip Tressera, Oriol"]
+[Result "1-0"]
+[ECO "B30"]
+[WhiteElo "2283"]
+[BlackElo "2095"]
+[PlyCount "85"]
+[EventDate "2017.01.21"]
+[EventType "team-tourn"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 176 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.03.02"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.03.02"]
+[SourceQuality "1"]
+[WhiteTeam "Colon Sabadell"]
+[BlackTeam "Foment Martinenc"]
+[WhiteTeamCountry "ESP"]
+[BlackTeamCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 Nd4 4. Nxd4 cxd4 5. O-O a6 6. Ba4 e6 7. c3 Bc5 8.
+Qh5 Qe7 9. d3 Nf6 10. Qe2 O-O 11. Nd2 e5 12. Nf3 d5 13. cxd4 dxe4 14. dxc5 exf3
+15. Qxf3 Qxc5 16. Bb3 a5 17. Bg5 Ra6 18. Rac1 Qd4 19. Rc7 Qg4 20. Qxg4 Bxg4 21.
+Rxb7 a4 22. Bc4 Rd6 23. f4 exf4 24. Rxf4 Bh5 25. Bxf6 gxf6 26. Ra7 Rb8 27. b3
+axb3 28. axb3 Bg6 29. d4 Rbd8 30. d5 Rb8 31. Rf2 Be4 32. Rd2 Kg7 33. Kf2 f5 34.
+Ke3 Rbd8 35. Ra5 Rh6 36. g3 Rb6 37. Rc5 Kf6 38. Rc7 Rbd6 39. Rc5 Ke5 40. b4 Ra8
+41. b5 Ra5 42. Ke2 Rh6 43. d6+ 1-0
+
+[Event "Catalunya-chT GpB final"]
+[Site "Barcelona"]
+[Date "2017.03.11"]
+[Round "1.10"]
+[White "Masip Tressera, Oriol"]
+[Black "Sole Bove, Josep Maria"]
+[Result "1-0"]
+[ECO "A05"]
+[WhiteElo "2095"]
+[BlackElo "1842"]
+[PlyCount "89"]
+[EventDate "2017.03.11"]
+[EventType "team-tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 177 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.04.27"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.04.27"]
+[SourceQuality "1"]
+[WhiteTeam "Foment Martinenc"]
+[BlackTeam "Montcada"]
+[WhiteTeamCountry "ESP"]
+[BlackTeamCountry "ESP"]
+
+1. Nf3 Nf6 2. g3 g6 3. Bg2 Bg7 4. O-O O-O 5. d3 d6 6. e4 e5 7. Nc3 c6 8. a4 a5
+9. Nh4 Nbd7 10. f4 Qb6+ 11. Kh1 exf4 12. gxf4 Qc5 13. f5 d5 14. d4 Qe7 15. e5
+Ne8 16. f6 Ndxf6 17. exf6 Bxf6 18. Nf3 Ng7 19. Bh6 Re8 20. Qd2 Bf5 21. Bg5 Bxg5
+22. Nxg5 Qe3 23. Rf2 Re7 24. Qxe3 Rxe3 25. Raf1 Rae8 26. Bxd5 cxd5 27. Nxd5 Nh5
+28. Nxe3 Rxe3 29. Rxf5 gxf5 30. Rxf5 Re1+ 31. Kg2 Re2+ 32. Rf2 Nf4+ 33. Kf1
+Rxf2+ 34. Kxf2 Ne6 35. Nxe6 fxe6 36. Ke3 Kf7 37. Kf4 Kf6 38. c3 h6 39. b4 b6
+40. bxa5 bxa5 41. c4 Kf7 42. Ke5 Ke7 43. c5 Kd7 44. Kf6 h5 45. h4 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "Barcelona"]
+[Date "2024.02.10"]
+[Round "4.10"]
+[White "Bautista Sanchez, Joan"]
+[Black "Masip Tressera, Oriol"]
+[Result "0-1"]
+[ECO "A24"]
+[WhiteElo "2052"]
+[BlackElo "2150"]
+[PlyCount "74"]
+[EventDate "2024.??.??"]
+[TimeControl "90+30"]
+[WhiteClock "0:15:23"]
+[BlackClock "0:01:20"]
+
+1. Nf3 {[%emt 0:00:11]} Nf6 {[%emt 0:00:12]} 2. c4 {[%emt 0:00:16]} g6 {
+[%emt 0:00:11]} 3. Nc3 {[%emt 0:00:21]} Bg7 {[%emt 0:00:15]} 4. g3 {[%emt 0:00:
+30]} d6 {[%emt 0:00:11]} 5. Bg2 {[%emt 0:00:37]} O-O {[%emt 0:00:08]} 6. O-O {
+[%emt 0:00:37]} e5 {[%emt 0:00:18]} 7. d3 {[%emt 0:01:31]} Nbd7 {[%emt 0:09:08]
+} 8. Rb1 {[%emt 0:02:08]} Ne8 {[%emt 0:05:18]} 9. b4 {[%emt 0:08:22]} f5 {
+[%emt 0:00:20]} 10. Qb3 {[%emt 0:04:13]} Kh8 {[%emt 0:00:42]} 11. Ng5 {[%emt 0:
+06:37]} Ndf6 {[%emt 0:06:41]} 12. c5 {[%emt 0:02:31]} Qe7 {[%emt 0:01:47]} 13.
+Nd5 {[%emt 0:11:34]} Nxd5 {[%emt 0:05:22]} 14. Bxd5 {[%emt 0:00:22]} h6 {
+[%emt 0:02:15]} 15. Ne6 {[%emt 0:04:38]} Bxe6 {[%emt 0:01:00]} 16. Bxe6 {
+[%emt 0:00:08]} c6 {[%emt 0:00:35]} 17. cxd6 {[%emt 0:03:20]} Nxd6 {[%emt 0:05:
+00]} 18. b5 {[%emt 0:11:17]} Nxb5 {[%emt 0:05:43]} 19. Bc4 {[%emt 0:01:41]} Nd6
+{[%emt 0:09:16]} 20. a4 {[%emt 0:11:05]} b6 {[%emt 0:06:26]} 21. Ba3 {[%emt 0:
+04:02]} c5 {[%emt 0:01:05]} 22. a5 {[%emt 0:01:05]} Rab8 {[%emt 0:00:47]} 23.
+Bxc5 {[%emt 0:07:05]} bxc5 {[%emt 0:00:43]} 24. Qxb8 {[%emt 0:00:11]} Rxb8 {
+[%emt 0:00:08]} 25. Rxb8+ {[%emt 0:00:06]} Bf8 {[%emt 0:00:08]} 26. Rfb1 {
+[%emt 0:03:39]} Nxc4 {[%emt 0:19:35]} 27. dxc4 {[%emt 0:00:30]} Kg8 {[%emt 0:
+00:13]} 28. R1b7 {[%emt 0:09:24]} Qd6 {[%emt 0:00:50]} 29. e3 {[%emt 0:02:02]}
+Qa6 {[%emt 0:04:58]} 30. Rc7 {[%emt 0:00:40]} Qxa5 {[%emt 0:00:43]} 31. Rcc8 {
+[%emt 0:00:09]} Qa1+ {[%emt 0:01:10]} 32. Kg2 {[%emt 0:00:07]} Qa4 {[%emt 0:00:
+04]} 33. Rxf8+ {[%emt 0:00:22]} Kg7 {[%emt 0:00:02]} 34. Rg8+ {[%emt 0:01:36]}
+Kf7 {[%emt 0:00:02]} 35. Rgf8+ {[%emt 0:01:05]} Ke7 {[%emt 0:00:09]} 36. Rg8 {
+[%emt 0:02:51]} Qxc4 {[%emt 0:01:29]} 37. Rxg6 {[%emt 0:00:52]} Qe4+ {[%emt 0:
+00:40]} 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.01.18"]
+[Round "1.7"]
+[White "Masip Tressera, Oriol"]
+[Black "Villa Tornero, Alex"]
+[Result "0-1"]
+[ECO "C00"]
+[WhiteElo "2171"]
+[BlackElo "2234"]
+[PlyCount "68"]
+[GameId "2151339903527478"]
+[EventDate "2025.01.18"]
+[WhiteTeam "Foment A"]
+[BlackTeam "Barberà"]
+
+1. e4 c5 2. Nf3 e6 3. g3 Nc6 4. Bg2 Nf6 5. Qe2 Be7 6. O-O d5 7. d3 O-O 8. Re1 Re8 9. e5 Nd7 10. c3 b5 11. h4 a5 12. Bf4 a4 13. Nbd2 c4 14. d4 b4 15. a3 bxc3 16. bxc3 Qa5 17. Rec1 Rb8 18. Ng5 h6 19. Nxf7 Kxf7 20. Qh5+ g6 21. Qxh6 Rg8 22. Nxc4 dxc4 23. Bxc6 Bb7 24. h5 Nf8 25. Rab1 Bxc6 26. Rxb8 Qd5 27. Kf1 Bxa3 28. Bd2 Qh1+ 29. Ke2 Qf3+ 30. Ke1 Bxc1 31. hxg6+ Nxg6 32. Bxc1 Qe4+ 33. Be3 Rxb8 34. Qh7+ Kf8 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.02.01"]
+[Round "3.6"]
+[White "Colon Garcia, Enrique"]
+[Black "Masip Tressera, Oriol"]
+[Result "1/2-1/2"]
+[ECO "B70"]
+[WhiteElo "2267"]
+[BlackElo "2163"]
+[PlyCount "126"]
+[GameId "2140794627035737"]
+[EventDate "2025.01.18"]
+[WhiteTeam "Sant Andreu"]
+[BlackTeam "Foment A"]
+
+1. e4 c5 2. Nf3 g6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. g3 Nc6 7. Bg2 Nxd4 8. Qxd4 Bg7 9. O-O O-O 10. a4 Be6 11. Qd1 Rc8 12. Nd5 Nxd5 13. exd5 Bf5 14. c3 Qb6 15. Re1 Rfe8 16. a5 Qb5 17. Bf1 Qd7 18. Be3 a6 19. Ra4 h5 20. Rb4 e5 21. Qb3 Rc7 22. Rb6 Bg4 23. Qb4 Bf8 24. Bg2 Rec8 25. f3 Bf5 26. Bf1 Bc2 27. c4 Qf5 28. Qc3 g5 29. b3 Qh7 30. Bxg5 f6 31. Bh4 Bf5 32. Qe3 Rd7 33. Bxf6 Bh6 34. Bg5 Bg7 35. h4 e4 36. fxe4 Re8 37. Bg2 Qh8 38. Kh2 Bg4 39. Rf1 Bd4 40. Qf4 Be2 41. Re1 Rf8 42. Qd2 Bg4 43. Be3 Bc3 44. Qc1 Bxe1 45. Qxe1 Qb2 46. Bf4 Bf3 47. Qf1 Bxe4 48. Kh1 Bxg2+ 49. Qxg2 Qa1+ 50. Qg1 Qxa5 51. Rxd6 Rxd6 52. Bxd6 Rf3 53. Qb1 Rf6 54. Be5 Rh6 55. Qc1 Rg6 56. Qb1 Rh6 57. Bf4 Rf6 58. Qe4 Qa1+ 59. Kh2 Qb2+ 60. Kh3 Qf2 61. Qe8+ Kg7 62. Qxh5 Qf1+ 63. Kh2 Qf2+ 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.02.15"]
+[Round "5.6"]
+[White "Tarrago Plaza, Marc"]
+[Black "Masip Tressera, Oriol"]
+[Result "0-1"]
+[ECO "B27"]
+[WhiteElo "2037"]
+[BlackElo "2163"]
+[PlyCount "54"]
+[GameId "2145678590398675"]
+[EventDate "2025.01.18"]
+[WhiteTeam "Catalònia"]
+[BlackTeam "Foment A"]
+
+1. e4 c5 2. Nf3 g6 3. c3 Bg7 4. d4 cxd4 5. cxd4 d5 6. e5 Nh6 7. Nc3 O-O 8. Qb3 Nc6 9. Bg5 Nf5 10. Rd1 h6 11. Bc1 e6 12. Be2 f6 13. g4 fxe5 14. gxf5 e4 15. Nxe4 dxe4 16. fxe6 Kh7 17. d5 exf3 18. dxc6 Qa5+ 19. Rd2 fxe2 20. cxb7 Rb8 21. e7 Re8 22. bxc8=Q Rexc8 23. Qg3 Rxc1+ 24. Kxe2 Qb5+ 25. Rd3 Rxh1 26. b3 Re8 27. Qe3 Qh5+ 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.03.08"]
+[Round "8.7"]
+[White "Pla Almenar, Nel"]
+[Black "Masip Tressera, Oriol"]
+[Result "1-0"]
+[ECO "B34"]
+[WhiteElo "2068"]
+[BlackElo "2172"]
+[PlyCount "103"]
+[GameId "2155323362240087"]
+[EventDate "2025.02.15"]
+[WhiteTeam "Vila Olímpica"]
+[BlackTeam "Foment Martinenc"]
+
+1. e4 c5 2. Nf3 g6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Be3 d6 7. f3 h5 8. Qd2 Nxd4 9. Qxd4 Bg7 10. Bc4 O-O 11. Qd2 a6 12. a4 Qc7 13. Bb3 Be6 14. Bxe6 fxe6 15. O-O Rac8 16. Bd4 Qc4 17. Rad1 e5 18. Bf2 Kh7 19. Bh4 Bh6 20. Bg5 Bxg5 21. Qxg5 Qb4 22. Rb1 Rc7 23. Kh1 Qc4 24. h3 b5 25. axb5 axb5 26. Qe3 b4 27. Ne2 Rfc8 28. c3 b3 29. Ra1 Kg7 30. Rfd1 h4 31. Qd3 Qc5 32. Kh2 Nh5 33. Rf1 Rf8 34. Ra4 Rb8 35. Ra3 g5 36. Qd2 Kg6 37. Nc1 Ng3 38. Re1 Qxa3 39. bxa3 b2 40. Ne2 Nxe2 41. Qxe2 b1=Q 42. Rxb1 Rxb1 43. Qa2 Rb8 44. Qe6+ Kg7 45. c4 Rbb7 46. a4 Rc5 47. Qf5 Kh6 48. Qf8+ Kg6 49. Qa8 Rb2 50. Qg8+ Kf6 51. Qf8+ Ke6 52. Qf5# 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.03.15"]
+[Round "9.7"]
+[White "Masip Tressera, Oriol"]
+[Black "Catalan Monteagudo, Elm"]
+[Result "0-1"]
+[ECO "B51"]
+[WhiteElo "2172"]
+[BlackElo "1981"]
+[PlyCount "76"]
+[GameId "2156085120577802"]
+[EventDate "2025.02.15"]
+[WhiteTeam "Foment Martinenc"]
+[BlackTeam "Peona i Peó"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. a4 Ngf6 5. Nc3 e6 6. O-O Be7 7. d4 cxd4 8. Qxd4 O-O 9. h3 Qc7 10. Rd1 Rd8 11. a5 h6 12. Bf1 a6 13. b4 Ne5 14. Qe3 Nxf3+ 15. Qxf3 Bd7 16. Rd3 Bc6 17. Be3 Nd7 18. Qg3 Bf6 19. Rad1 Kh7 20. f4 b6 21. Bf2 bxa5 22. bxa5 Be7 23. Bd4 Bf8 24. e5 dxe5 25. fxe5 Nc5 26. Re3 Qxa5 27. Qf2 Kg8 28. Qf4 Rd7 29. Rg3 Rad8 30. Be2 Na4 31. Ne4 Bxe4 32. c3 Bg6 33. Rxg6 fxg6 34. Qg4 Nxc3 35. Qxe6+ Kh8 36. Bc4 Bc5 37. Qxg6 Bxd4+ 38. Kh1 Nxd1 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.01.17"]
+[Round "1.10"]
+[White "Massot Cervera, Max"]
+[Black "Masip Tressera, Oriol"]
+[Result "1/2-1/2"]
+[ECO "B22"]
+[WhiteElo "2069"]
+[BlackElo "2283"]
+[WhiteFideId "-1"]
+[BlackFideId "-1"]
+[PlyCount "69"]
+[GameId "2267698027205353"]
+[EventDate "2026.01.17"]
+[WhiteTeam "Figueres"]
+[BlackTeam "Foment Martinenc"]
+
+1. e4 c5 2. c3 d5 3. exd5 Qxd5 4. d4 e5 5. Nf3 Nc6 6. Nxe5 Nxe5 7. dxe5 Qxd1+ 8. Kxd1 Bg4+ 9. Be2 O-O-O+ 10. Bd2 Bxe2+ 11. Kxe2 Re8 12. Bf4 f6 13. Re1 g5 14. Be3 Rxe5 15. Nd2 Ne7 16. Nc4 Re6 17. Kf1 Nc6 18. a4 Ne5 19. Nxe5 Rxe5 20. Rad1 h6 21. f3 Rh7 22. Bf2 Rhe7 23. Rxe5 Rxe5 24. Re1 Rxe1+ 25. Kxe1 Bd6 26. h3 Kc7 27. c4 a6 28. Ke2 f5 29. g4 fxg4 30. fxg4 Kc6 31. Kd3 b5 32. b3 bxa4 33. bxa4 Kd7 34. Ke4 Ke6 35. Be3 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "https://lichess.org/broadcast/"]
+[Date "2026.01.31"]
+[Round "3.10"]
+[White "Masip Tressera, Oriol"]
+[Black "Marzo Pie, Xavier"]
+[Result "0-1"]
+[ECO "B00"]
+[WhiteElo "2170"]
+[BlackElo "2140"]
+[PlyCount "62"]
+[EventDate "2026.??.??"]
+[WhiteTeam "Foment Martinenc"]
+[BlackTeam "Ateneu Colon"]
+
+1. e4 d6 2. Nf3 Nf6 3. d3 g6 4. g3 Bg7 5. Bg2 O-O 6. O-O c5 7. Nbd2 Nc6 8. c3
+Bd7 9. h3 Qc7 10. Nh4 Nh5 11. Nf5 Bf6 12. Nc4 b5 13. Nce3 e6 14. Nh6+ Kh8 15.
+g4 Nf4 16. Nd5 Nxd5 17. exd5 exd5 18. Bxd5 Be8 19. Qf3 Bg7 20. Re1 Rc8 21. Rxe8
+Rcxe8 22. Bxc6 Re1+ 23. Kg2 b4 24. g5 Qe7 25. h4 Bxh6 26. gxh6 Qxh4 27. Qh3
+Rg1+ 28. Kh2 Qxf2+ 29. Bg2 Rxc1 30. Qf3 Re1 31. Qh3 Qh4 0-1

@@ -1,0 +1,576 @@
+[Event "Barcelona Primavera La Lira op 10th"]
+[Site "Barcelona"]
+[Date "2017.04.20"]
+[Round "1"]
+[White "Pascual Gonzalez, Novelles Carle"]
+[Black "Lasanta Rica, Cesar"]
+[Result "0-1"]
+[ECO "B23"]
+[WhiteElo "1781"]
+[BlackElo "2186"]
+[PlyCount "46"]
+[EventDate "2017.04.20"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nc3 a6 3. g3 b5 4. Bg2 Bb7 5. d3 e6 6. f4 b4 7. Nce2 d5 8. e5 h5 9.
+Nf3 Nh6 10. Bd2 Nc6 11. c3 Nf5 12. d4 a5 13. a3 bxa3 14. bxa3 Ba6 15. Qa4 Qd7
+16. Bf1 Nxe5 17. Qxd7+ Nxd7 18. Bh3 Nd6 19. Ng5 Be7 20. dxc5 Nxc5 21. Be3 Nd3+
+22. Kd1 Nc4 23. Bd4 e5 0-1
+
+[Event "Barcelona Primavera La Lira op 10th"]
+[Site "Barcelona"]
+[Date "2017.04.27"]
+[Round "2"]
+[White "Lasanta Rica, Cesar"]
+[Black "Gallego Montes, Antonio"]
+[Result "1-0"]
+[ECO "A90"]
+[WhiteElo "2186"]
+[BlackElo "1916"]
+[PlyCount "69"]
+[EventDate "2017.04.20"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 e6 2. c4 f5 3. g3 Nf6 4. Bg2 c6 5. Nf3 b6 6. O-O Bb7 7. Nc3 Bb4 8. Qc2
+O-O 9. b3 d5 10. Na4 Nbd7 11. Nb2 Ne4 12. Nd3 Bc3 13. Bb2 Bxb2 14. Qxb2 c5 15.
+cxd5 exd5 16. dxc5 bxc5 17. e3 Qa5 18. Rac1 Bc6 19. Rfd1 Rab8 20. Nf4 Ndf6 21.
+Ne5 c4 22. Nxc6 c3 23. Qc2 Qc5 24. Nxb8 Rxb8 25. Bxe4 Nxe4 26. Nxd5 Rc8 27. f3
+Nd2 28. Qxc3 Qxc3 29. Rxc3 Rxc3 30. Nxc3 Nxf3+ 31. Kg2 Ne5 32. h3 h6 33. Nd5
+Kf7 34. Rc1 Nd3 35. Rc7+ 1-0
+
+[Event "Barcelona Primavera La Lira op 10th"]
+[Site "Barcelona"]
+[Date "2017.05.04"]
+[Round "3"]
+[White "Asensio Linan, Teodoro"]
+[Black "Lasanta Rica, Cesar"]
+[Result "1/2-1/2"]
+[ECO "A34"]
+[WhiteElo "2104"]
+[BlackElo "2186"]
+[PlyCount "57"]
+[EventDate "2017.04.20"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 e6 3. c4 b6 4. Nc3 Bb7 5. Be2 d6 6. d4 cxd4 7. Nxd4 a6 8. O-O
+Nf6 9. Re1 Qc7 10. Bf1 Be7 11. Bg5 Nbd7 12. Rc1 O-O 13. b3 Rac8 14. Bh4 Nc5 15.
+f3 Nfxe4 16. Bxe7 Nxc3 17. Rxc3 Qxe7 18. Qd2 Qc7 19. Qg5 Nd7 20. b4 Qd8 21. Qg3
+d5 22. Rec1 Qf6 23. Nb3 d4 24. R3c2 e5 25. Bd3 Qe7 26. Bf5 Rcd8 27. c5 bxc5 28.
+bxc5 Bc6 29. Bd3 1/2-1/2
+
+[Event "Barcelona Primavera La Lira op 10th"]
+[Site "Barcelona"]
+[Date "2017.05.11"]
+[Round "4"]
+[White "Lasanta Rica, Cesar"]
+[Black "Parayre Soguero, Jordi"]
+[Result "1/2-1/2"]
+[ECO "A63"]
+[WhiteElo "2186"]
+[BlackElo "1959"]
+[PlyCount "31"]
+[EventDate "2017.04.20"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 e6 3. g3 c5 4. d5 exd5 5. cxd5 d6 6. Nc3 g6 7. Bg2 Bg7 8. Nf3
+O-O 9. O-O a6 10. a4 Nbd7 11. Bf4 Qe7 12. h3 Nh5 13. Bg5 f6 14. Bd2 f5 15. Ng5
+Ne5 16. Ne6 1/2-1/2
+
+[Event "Barcelona Primavera La Lira op 10th"]
+[Site "Barcelona"]
+[Date "2017.05.25"]
+[Round "6"]
+[White "Salvany Rius, Joaquim"]
+[Black "Lasanta Rica, Cesar"]
+[Result "1/2-1/2"]
+[ECO "B47"]
+[WhiteElo "1807"]
+[BlackElo "2186"]
+[PlyCount "38"]
+[EventDate "2017.04.20"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be2 a6 7. O-O Nf6 8.
+Bg5 Be7 9. Kh1 d6 10. a4 O-O 11. f4 Rd8 12. Nb3 h6 13. Bh4 b6 14. Bd3 Bb7 15.
+Qe2 Nb4 16. Nd2 Re8 17. Bf2 Nd7 18. Bd4 Nc6 19. Be3 Bf6 1/2-1/2
+
+[Event "Barcelona Primavera La Lira op 10th"]
+[Site "Barcelona"]
+[Date "2017.06.08"]
+[Round "8"]
+[White "Lasanta Rica, Cesar"]
+[Black "Permanyer Ugartemendia, Inaki"]
+[Result "1/2-1/2"]
+[ECO "E18"]
+[WhiteElo "2186"]
+[BlackElo "1709"]
+[PlyCount "34"]
+[EventDate "2017.04.20"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. g3 Be7 5. Bg2 O-O 6. O-O Nbd7 7. Qc2 b6 8. cxd5
+Nxd5 9. Rd1 Bb7 10. Nc3 Rc8 11. e4 N5f6 12. Bf4 a6 13. a4 Re8 14. Rd2 Nh5 15.
+Be3 Nhf6 16. Bf4 Nh5 17. Be3 Nhf6 1/2-1/2
+
+[Event "Barcelona Primavera La Lira op 10th"]
+[Site "Barcelona"]
+[Date "2017.06.15"]
+[Round "9"]
+[White "Minos Constante, Pablo"]
+[Black "Lasanta Rica, Cesar"]
+[Result "0-1"]
+[ECO "B48"]
+[WhiteElo "1752"]
+[BlackElo "2186"]
+[PlyCount "60"]
+[EventDate "2017.04.20"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Nxc6 bxc6 8.
+Bd3 Nf6 9. O-O d5 10. f4 Be7 11. Qe2 c5 12. e5 Nd7 13. Qg4 d4 14. Qxg7 Rf8 15.
+Nd5 exd5 16. Bd2 Bb7 17. Bxh7 O-O-O 18. Rae1 Nb6 19. b3 f5 20. Ba5 Bh4 21. Qh6
+Bxe1 22. Bxb6 Qd7 23. Bxd8 Rxd8 24. Rxe1 Rh8 25. e6 Qe7 26. Qg6 Rxh7 27. Qxh7
+Qxh7 28. e7 Bc6 29. e8=Q+ Bxe8 30. Rxe8+ Kc7 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "followchess.com"]
+[Date "2020.02.22"]
+[Round "6.9"]
+[White "Ruperez, Miguel"]
+[Black "Lasanta Rica, Cesar"]
+[Result "1/2-1/2"]
+[ECO "A04"]
+[WhiteElo "2143"]
+[BlackElo "2131"]
+[PlyCount "67"]
+[EventDate "2020.??.??"]
+[WhiteTeam "Escola d'Escacs de Barcelona"]
+[BlackTeam "Ateneu Colon, CE"]
+
+1. Nf3 c5 2. b3 d6 3. d4 cxd4 4. Nxd4 e5 5. Nf3 e4 6. Nd4 d5 7. e3 Nf6 8. Be2
+Bc5 9. Bb2 O-O 10. O-O Qe7 11. a3 Nc6 12. Nxc6 bxc6 13. b4 Bd6 14. c4 dxc4 15.
+Qc2 Ng4 16. Bxg4 Bxg4 17. h3 Bf3 18. Qc3 f5 19. gxf3 Qg5+ 20. Kh1 Rf7 21. f4
+Qh4 22. Kh2 Re8 23. Rg1 Re6 24. Rxg7+ Kf8 25. Rxf7+ Kxf7 26. Qg7+ Ke8 27. Qg3
+Qh5 28. Qg8+ Kd7 29. Nc3 Rg6 30. Qxc4 Qf3 31. Qf1 Bxf4+ 32. exf4 Qxf4+ 33. Kh1
+Qf3+ 34. Kh2 1/2-1/2
+
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.01.22"]
+[Round "1.8"]
+[White "Lasanta Rica, Cesar"]
+[Black "Garcia Acosta, Roger"]
+[Result "1-0"]
+[ECO "E09"]
+[WhiteElo "2139"]
+[BlackElo "2085"]
+[PlyCount "73"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+[TimeControl "90+30"]
+[WhiteClock "0:02:30"]
+[BlackClock "0:00:48"]
+
+1. d4 {[%emt 0:00:00]} d5 {[%emt 0:00:00]} 2. Nf3 {[%emt 0:00:00]} e6 {[%emt 0:
+00:00]} 3. g3 {[%emt 0:00:00]} Be7 {[%emt 0:00:00]} 4. Bg2 {[%emt 0:00:52]} Nf6
+{[%emt 0:00:00]} 5. O-O {[%emt 0:00:00]} O-O {[%emt 0:00:00]} 6. c4 {[%emt 0:
+02:52]} c6 {[%emt 0:00:51]} 7. Qc2 {[%emt 0:07:51]} Nbd7 {[%emt 0:00:00]} 8.
+Nbd2 {[%emt 0:04:50]} Qb6 {[%emt 0:17:55]} 9. e4 {[%emt 0:05:34]} dxe4 {
+[%emt 0:00:00]} 10. Nxe4 {[%emt 0:11:58]} Rd8 {[%emt 0:12:43]} 11. c5 {[%emt 0:
+00:47]} Qa6 {[%emt 0:01:49]} 12. b4 {[%emt 0:00:00]} Nxe4 {[%emt 0:00:00]} 13.
+Qxe4 {[%emt 0:00:00]} Qc4 {[%emt 0:05:02]} 14. Bd2 {[%emt 0:05:24]} Nf6 {
+[%emt 0:00:00]} 15. Qb1 {[%emt 0:26:48]} Nd7 {[%emt 0:15:26]} 16. Rc1 {[%emt 0:
+01:59]} Qe2 {[%emt 0:04:14]} 17. Rc3 {[%emt 0:04:45]} Nf6 {[%emt 0:04:31]} 18.
+Re3 {[%emt 0:00:00]} Qc4 {[%emt 0:00:00]} 19. Ne5 {[%emt 0:02:10]} Qa6 {
+[%emt 0:02:13]} 20. a4 {[%emt 0:12:06]} Rxd4 {[%emt 0:00:00]} 21. Bc3 {[%emt 0:
+02:14]} Bxc5 {[%emt 0:00:00]} 22. bxc5 {[%emt 0:00:00]} Rxa4 {[%emt 0:11:40]}
+23. Bf1 {[%emt 0:00:00]} Rxa1 {[%emt 0:00:00]} 24. Bxa1 {[%emt 0:01:45]} b5 {
+[%emt 0:02:13]} 25. Qb2 {[%emt 0:01:10]} Qb7 {[%emt 0:02:55]} 26. Bg2 {[%emt 0:
+01:43]} Bd7 {[%emt 0:00:00]} 27. Ng4 {[%emt 0:00:00]} Ne8 {[%emt 0:01:27]} 28.
+Rd3 {[%emt 0:00:59]} f6 {[%emt 0:01:27]} 29. Qd2 {[%emt 0:01:09]} Rd8 {[%emt 0:
+00:41]} 30. Ne3 {[%emt 0:01:09]} b4 {[%emt 0:00:44]} 31. Nc4 {[%emt 0:00:25]}
+Kf8 {[%emt 0:00:30]} 32. Na5 {[%emt 0:00:00]} Qa6 {[%emt 0:00:00]} 33. Rxd7 {
+[%emt 0:02:05]} Rxd7 {[%emt 0:00:00]} 34. Qxd7 {[%emt 0:00:33]} Qxa5 {[%emt 0:
+00:22]} 35. Bd4 {[%emt 0:00:00]} b3 {[%emt 0:00:37]} 36. Bxc6 {[%emt 0:00:00]}
+Nc7 {[%emt 0:00:15]} 37. Qd8+ {[%emt 0:03:07]} 1-0
+
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.02.05"]
+[Round "3.8"]
+[White "Lasanta Rica, Cesar"]
+[Black "Jovancevic, Jovan"]
+[Result "0-1"]
+[ECO "E01"]
+[WhiteElo "2208"]
+[BlackElo "2211"]
+[PlyCount "74"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+[TimeControl "60/120:0"]
+
+1. d4 d5 2. Nf3 Nf6 3. g3 e6 4. Bg2 c5 5. O-O Nc6 6. c4 cxd4 7. Nxd4 Bc5 8. Nb3
+Bb6 9. Nc3 d4 10. Nb5 a6 11. Bxc6+ bxc6 12. N5xd4 e5 13. Nf3 Qe7 14. c5 Bc7 15.
+Qc2 O-O 16. e4 Bh3 17. Re1 a5 18. a4 Nd7 19. Ng5 Bg4 20. h3 Bh5 21. g4 Bg6 22.
+Nf3 h5 23. Kg2 Rab8 24. Ra3 Rb4 25. Bd2 Qe6 26. Ng5 Qe7 27. Nf3 hxg4 28. hxg4
+Qe6 29. Nh2 Rc4 30. Bc3 Rb8 31. f3 Nf6 32. Nc1 Nxe4 33. fxe4 Rbb4 34. b3 Rxe4
+35. Qf2 Rxg4+ 36. Nxg4 Rxg4+ 37. Kh1 Qd5+ 0-1
+
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.02.12"]
+[Round "4"]
+[White "Lasanta Rica, Cesar"]
+[Black "Escobar Felix, Eduardo"]
+[Result "1-0"]
+[ECO "E04"]
+[WhiteElo "2208"]
+[BlackElo "2148"]
+[PlyCount "75"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 e6 3. g3 c5 4. Bg2 Nc6 5. O-O d5 6. c4 dxc4 7. dxc5 Qxd1 8.
+Rxd1 Bxc5 9. Nbd2 c3 10. bxc3 e5 11. Nc4 Ng4 12. e3 f6 13. Nd6+ Ke7 14. Ne4 Bb6
+15. Ba3+ Ke6 16. Bh3 h5 17. Nh4 Kf7 18. Nd6+ Kg8 19. Bg2 g5 20. Bd5+ Kh7 21.
+Be4+ Kg8 22. Nhf5 Bxf5 23. Bxf5 Nd8 24. Be4 h4 25. Nxb7 hxg3 26. hxg3 Nxb7 27.
+Bxb7 Rd8 28. Rxd8+ Bxd8 29. Rd1 Bb6 30. Rd7 Rh2 31. Bg2 Rh7 32. Bd5+ Kh8 33.
+Rxh7+ Kxh7 34. Bd6 f5 35. c4 f4 36. c5 fxg3 37. c6 (37. cxb6 gxf2+ 38. Kf1 axb6
+39. e4 Kg6 40. Be7 (40. Be6 Kh5 41. Bc7 b5 42. Bb6 Nf6 43. Bf5 Ne8 44. Kxf2 Nd6
+45. Bc7 Nc4 46. Be6 Nb2 47. Kg3 Nd1 48. Bg4+ Kg6 49. Bxd1) 40... Kh5) 37...
+gxf2+ 38. Kf1 1-0
+
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.02.19"]
+[Round "5.8"]
+[White "Lasanta Rica, Cesar"]
+[Black "Guasch Figuerola, Agusti"]
+[Result "1-0"]
+[ECO "A41"]
+[WhiteElo "2139"]
+[BlackElo "2076"]
+[PlyCount "101"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+
+1. d4 {[%emt 0:00:01]} g6 {[%emt 0:00:04]} 2. Nf3 {[%emt 0:00:56]} Bg7 {
+[%emt 0:00:07]} 3. g3 {[%emt 0:00:49]} d6 {[%emt 0:00:49]} 4. Bg2 {[%emt 0:00:
+10]} e5 {[%emt 0:01:05]} 5. dxe5 {[%emt 0:03:57]} dxe5 {[%emt 0:00:11]} 6.
+Qxd8+ {[%emt 0:00:05]} Kxd8 {[%emt 0:00:04]} 7. Nc3 {[%emt 0:08:31]} c6 {
+[%emt 0:02:59]} 8. Be3 {[%emt 0:18:15]} Nd7 {[%emt 0:07:26]} 9. O-O-O {[%emt 0:
+12:24]} Ke7 {[%emt 0:03:06]} 10. Ne4 {[%emt 0:12:00]} Nh6 {[%emt 0:16:16]} 11.
+Bh3 {[%emt 0:05:33]} f6 {[%emt 0:28:44]} 12. Nd6 {[%emt 0:10:10]} f5 {[%emt 0:
+08:24]} 13. Bg5+ {[%emt 0:08:19]} Ke6 {[%emt 0:00:11]} 14. e4 {[%emt 0:03:24]}
+Ng4 {[%emt 0:03:23]} 15. exf5+ {[%emt 0:03:11]} gxf5 {[%emt 0:00:07]} 16. Nh4 {
+[%emt 0:00:47]} Bf6 {[%emt 0:11:42]} 17. Bxf6 {[%emt 0:02:51]} Ndxf6 {[%emt 0:
+00:03]} 18. f4 {[%emt 0:06:17]} Nd5 {[%emt 0:07:31]} 19. Nxc8 {[%emt 0:00:56]}
+Raxc8 {[%emt 0:00:06]} 20. Bxg4 {[%emt 0:00:52]} fxg4 {[%emt 0:00:07]} 21. Rhe1
+{[%emt 0:00:07]} Rhe8 {[%emt 0:01:45]} 22. Rxe5+ {[%emt 0:00:15]} Kf6 {[%emt 0:
+00:03]} 23. Rde1 {[%emt 0:01:17]} Rxe5 {[%emt 0:00:13]} 24. Rxe5 b5 {[%emt 0:
+00:37]} 25. Nf5 {[%emt 0:00:25]} Nb4 {[%emt 0:00:57]} 26. a3 {[%emt 0:00:17]}
+Nd5 {[%emt 0:00:21]} 27. Nd4 {[%emt 0:01:07]} Ne7 {[%emt 0:02:26]} 28. Kd2 {
+[%emt 0:00:59]} Rd8 {[%emt 0:00:13]} 29. c3 {[%emt 0:00:08]} a6 {[%emt 0:00:46]
+} 30. Ke2 {[%emt 0:00:11]} Rd6 {[%emt 0:00:59]} 31. Nc2 {[%emt 0:00:18]} Nf5 {
+[%emt 0:00:36]} 32. Ne3 {[%emt 0:00:10]} Nxe3 {[%emt 0:00:25]} 33. Kxe3 {
+[%emt 0:00:19]} Rd1 {[%emt 0:00:20]} 34. Rc5 {[%emt 0:00:14]} Re1+ {[%emt 0:00:
+33]} 35. Kd4 {[%emt 0:00:17]} Rd1+ {[%emt 0:00:12]} 36. Ke4 {[%emt 0:00:23]}
+Re1+ {[%emt 0:00:05]} 37. Kd3 {[%emt 0:01:21]} Rd1+ {[%emt 0:00:47]} 38. Kc2 {
+[%emt 0:00:39]} Rh1 {[%emt 0:00:14]} 39. Rxc6+ {[%emt 0:00:30]} Kf5 {[%emt 0:
+00:06]} 40. Rh6 {[%emt 0:00:09]} Ke4 {[%emt 0:00:20]} 41. Rxh7 {[%emt 0:00:06]}
+a5 {[%emt 0:00:17]} 42. Rh5 {[%emt 0:01:55]} a4 {[%emt 0:00:10]} 43. Rh4 {
+[%emt 0:00:47]} Kf3 {[%emt 0:01:26]} 44. f5 {[%emt 0:00:06]} Re1 {[%emt 0:00:
+10]} 45. f6 {[%emt 0:00:41]} Re6 {[%emt 0:01:11]} 46. Rh6 {[%emt 0:00:18]} Re8
+{[%emt 0:00:16]} 47. f7 {[%emt 0:00:36]} Rf8 {[%emt 0:00:08]} 48. Rh7 {[%emt 0:
+00:54]} Ke4 {[%emt 0:00:23]} 49. Kd2 {[%emt 0:00:10]} Kf5 {[%emt 0:00:37]} 50.
+Rg7 {[%emt 0:00:44]} Rd8+ {[%emt 0:01:00]} 51. Ke3 {[%emt 0:00:08]} 1-0
+
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.02.26"]
+[Round "6.8"]
+[White "Lasanta Rica, Cesar"]
+[Black "Obon Temprano, Sergi"]
+[Result "1-0"]
+[ECO "D11"]
+[WhiteElo "2208"]
+[BlackElo "2369"]
+[PlyCount "49"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Nf3 Nf6 3. g3 c6 4. Bg2 Bf5 5. c4 e6 6. Nc3 h6 7. Qb3 Qb6 8. c5
+Qxb3 9. axb3 Na6 10. Ra4 Nd7 11. Be3 Bc2 12. Kd2 Bxb3 13. Ra3 Bc4 14. b3 Bb5
+15. Nxb5 cxb5 16. Rha1 O-O-O 17. Ra5 g5 18. Rxb5 Nc7 19. Rba5 b6 20. Rxa7 bxc5
+21. dxc5 Bxc5 22. Bxc5 Nxc5 23. Nd4 Nb5 24. Rxf7 Kb8 25. Nc6+ 1-0
+
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.03.05"]
+[Round "7.8"]
+[White "Ayas Fernandez, Antonio"]
+[Black "Lasanta Rica, Cesar"]
+[Result "1-0"]
+[WhiteElo "2214"]
+[BlackElo "2139"]
+[PlyCount "69"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+
+1. e4 {[%emt 0:00:02]} c6 {[%emt 0:00:12]} 2. d4 {[%emt 0:00:34]} d5 {[%emt 0:
+00:06]} 3. exd5 {[%emt 0:01:57]} cxd5 {[%emt 0:00:07]} 4. Bd3 {[%emt 0:00:08]}
+Nc6 {[%emt 0:00:14]} 5. c3 {[%emt 0:00:22]} Nf6 {[%emt 0:00:43]} 6. h3 {
+[%emt 0:00:23]} e5 {[%emt 0:00:16]} 7. dxe5 {[%emt 0:02:40]} Nxe5 {[%emt 0:00:
+07]} 8. Nf3 {[%emt 0:01:56]} Nxd3+ {[%emt 0:03:48]} 9. Qxd3 {[%emt 0:00:28]}
+Bd6 {[%emt 0:00:04]} 10. O-O {[%emt 0:05:41]} O-O {[%emt 0:02:59]} 11. Na3 {
+[%emt 0:16:17]} Bxa3 {[%emt 0:36:10]} 12. bxa3 {[%emt 0:00:19]} Qa5 {[%emt 0:
+01:01]} 13. Rd1 {[%emt 0:26:17]} Be6 {[%emt 0:13:55]} 14. Bg5 {[%emt 0:02:49]}
+Rfc8 {[%emt 0:24:56]} 15. Bxf6 {[%emt 0:05:58]} gxf6 {[%emt 0:00:06]} 16. Rac1
+{[%emt 0:00:17]} Rc4 {[%emt 0:02:45]} 17. Nd4 {[%emt 0:01:05]} Rac8 {[%emt 0:
+00:12]} 18. Qg3+ {[%emt 0:02:50]} Kh8 {[%emt 0:00:28]} 19. Qf4 {[%emt 0:01:25]}
+Qd8 {[%emt 0:01:12]} 20. Rd3 {[%emt 0:01:09]} Qe7 {[%emt 0:00:53]} 21. Rg3 {
+[%emt 0:03:00]} Rg8 {[%emt 0:02:37]} 22. Rxg8+ {[%emt 0:09:18]} Kxg8 {[%emt 0:
+00:07]} 23. Re1 {[%emt 0:00:30]} Rxc3 {[%emt 0:05:23]} 24. Nf5 {[%emt 0:04:08]}
+Qf8 {[%emt 0:02:36]} 25. Qg4+ {[%emt 0:02:01]} Kh8 {[%emt 0:00:07]} 26. Qd4 {
+[%emt 0:01:35]} Bxf5 {[%emt 0:00:54]} 27. Qxf6+ {[%emt 0:00:28]} Kg8 {[%emt 0:
+00:08]} 28. Qxc3 {[%emt 0:00:14]} Be6 {[%emt 0:00:27]} 29. Re3 {[%emt 0:00:41]}
+h6 {[%emt 0:00:31]} 30. Rg3+ {[%emt 0:01:57]} Kh7 {[%emt 0:00:07]} 31. Qf6 {
+[%emt 0:00:24]} b6 {[%emt 0:00:51]} 32. Kh2 {[%emt 0:01:21]} h5 {[%emt 0:01:16]
+} 33. f4 {[%emt 0:03:29]} Qh8 {[%emt 0:00:12]} 34. Qg5 {[%emt 0:00:55]} Bg4 {
+[%emt 0:00:53]} 35. hxg4 {[%emt 0:00:52]} 1-0
+
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.03.12"]
+[Round "?"]
+[White "Ibanez Tarradellas, Eduardo"]
+[Black "Lasanta Rica, Cesar"]
+[Result "1-0"]
+[ECO "D26"]
+[PlyCount "93"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 dxc4 5. e3 c5 6. Bxc4 cxd4 7. exd4 Be7 8.
+Nf3 O-O 9. O-O Nc6 10. a3 a6 11. Rc1 b5 12. Ba2 Bb7 13. Qd3 b4 14. Na4 Nb8 15.
+axb4 Bd5 16. Bxf6 Bxa2 17. Bxe7 Qxe7 18. b3 Qxb4 19. Nd2 Bxb3 20. Qxb3 Qxd2 21.
+Qb7 Nc6 22. Rxc6 Qxd4 23. Rxa6 Rab8 24. Qa7 Qxa7 25. Rxa7 Ra8 26. Rxa8 Rxa8 27.
+Rc1 g6 28. Nb6 Ra7 29. g3 Kg7 30. Kg2 h5 31. Nc8 Rd7 32. Rc6 Kf6 33. Nb6 Rb7
+34. Nd5+ Ke5 35. Rc7 Rb2 36. Ne3 Kf6 37. h4 Ra2 38. Nc2 Ra4 39. Ne1 Ra5 40. Nf3
+Rf5 41. Ng5 Kg7 42. Nxe6+ Kf6 43. Ng5 Kg7 44. f4 Kg8 45. Ne4 Kg7 46. Nd6 Rf6
+47. Ne8+ 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "Barcelona"]
+[Date "2023.01.21"]
+[Round "1.10"]
+[White "Martinez Talavera, Jordi"]
+[Black "Lasanta Rica, Cesar"]
+[Result "1-0"]
+[WhiteElo "1950"]
+[BlackElo "2147"]
+[PlyCount "61"]
+[EventDate "2023.??.??"]
+[SourceDate "2023.01.21"]
+[TimeControl "90+30"]
+[WhiteClock "0:03:46"]
+[BlackClock "0:10:30"]
+
+1. d4 {[%emt 0:00:05]} d5 {[%emt 0:00:28]} 2. Bf4 {[%emt 0:00:10]} Nf6 {[%emt
+0:01:11]} 3. e3 {[%emt 0:00:06]} e6 {[%emt 0:00:21]} 4. Nf3 {[%emt 0:00:07]} c5
+{[%emt 0:00:50]} 5. c3 {[%emt 0:00:09]} Nc6 {[%emt 0:00:07]} 6. Nbd2 {[%emt 0:
+01:49]} cxd4 {[%emt 0:01:07]} 7. exd4 {[%emt 0:00:48]} Nh5 {[%emt 0:00:10]} 8.
+Be3 {[%emt 0:14:19]} Bd6 {[%emt 0:02:22]} 9. Ne5 {[%emt 0:00:37]} g6 {[%emt 0:
+01:32]} 10. Bb5 {[%emt 0:05:45]} Qc7 {[%emt 0:02:19]} 11. Qa4 {[%emt 0:07:58]}
+Bd7 {[%emt 0:08:44]} 12. Nxd7 {[%emt 0:00:28]} Qxd7 {[%emt 0:00:04]} 13. c4 {
+[%emt 0:08:47]} Rc8 {[%emt 0:12:06]} 14. c5 {[%emt 0:03:34]} Bb8 {[%emt 0:04:
+04]} 15. g3 {[%emt 0:14:15]} f6 {[%emt 0:02:38]} 16. f4 {[%emt 0:14:36]} O-O {
+[%emt 0:16:18]} 17. Be2 {[%emt 0:04:56]} Ng7 {[%emt 0:00:34]} 18. O-O {[%emt 0:
+00:42]} Nf5 {[%emt 0:05:46]} 19. Bf2 {[%emt 0:01:18]} e5 {[%emt 0:01:14]} 20.
+g4 {[%emt 0:09:09]} Nfxd4 {[%emt 0:07:28]} 21. Bxd4 {[%emt 0:00:08]} exd4 {
+[%emt 0:00:03]} 22. Nb3 {[%emt 0:00:14]} Rce8 {[%emt 0:08:03]} 23. Rae1 {[%emt
+0:01:00]} Re4 {[%emt 0:00:40]} 24. Bd1 {[%emt 0:02:45]} Rfe8 {[%emt 0:04:22]}
+25. Rxe4 {[%emt 0:00:10]} Rxe4 {[%emt 0:00:21]} 26. Nd2 {[%emt 0:05:00]} Rxf4 {
+[%emt 0:01:20]} 27. Rxf4 {[%emt 0:00:06]} Bxf4 {[%emt 0:00:06]} 28. Nf1 {[%emt
+0:00:03]} Qe7 {[%emt 0:04:26]} 29. Bf3 {[%emt 0:00:43]} Qxc5 {[%emt 0:04:35]}
+30. Kg2 {[%emt 0:02:13]} d3 {[%emt 0:01:52]} 31. Qxf4 {[%emt 0:00:05]} 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.02.23"]
+[Round "5.9"]
+[White "Lasanta Rica, Cesar"]
+[Black "Ramirez Carrizo, Victor Jose"]
+[Result "1/2-1/2"]
+[ECO "D30"]
+[WhiteElo "2227"]
+[BlackElo "2290"]
+[PlyCount "29"]
+[EventDate "2023.??.??"]
+[SourceVersionDate "2022.12.30"]
+
+1. d4 d5 2. Nf3 c5 3. c4 e6 4. cxd5 exd5 5. g3 Nc6 6. Bg2 Nf6 7. O-O Be7 8.
+dxc5 Bxc5 9. a3 Ne4 10. b4 Be7 11. Bb2 Bf6 12. Ra2 O-O 13. Nd4 Re8 14. e3 Qe7
+15. Nc3 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.03.04"]
+[Round "7.8"]
+[White "Ryan, Joe"]
+[Black "Lasanta Rica, Cesar"]
+[Result "0-1"]
+[ECO "C79"]
+[WhiteElo "2340"]
+[BlackElo "2227"]
+[PlyCount "76"]
+[SourceVersionDate "2023.03.09"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. d3 d6 6. c3 g6 7. O-O Bg7 8. Re1
+Bd7 9. d4 O-O 10. d5 Ne7 11. Bxd7 Nxd7 12. c4 a5 13. Nc3 h6 14. Nd2 f5 15. f3
+f4 16. Nf1 Nf6 17. b3 Qd7 18. a3 g5 19. h3 h5 20. Nh2 Kf7 21. Qe2 Rg8 22. Nd1
+g4 23. fxg4 hxg4 24. hxg4 Bh6 25. Nf2 Rg7 26. Bb2 Rag8 27. c5 Nh5 28. gxh5
+Rxg2+ 29. Kh1 Rxh2+ 30. Kxh2 f3 31. Qxf3+ Bf4+ 32. Kh1 Rg3 33. Qe2 Nf5 34. Rg1
+Qe7 35. Ng4 Qh4+ 36. Nh2 Rh3 37. Rg2 Ng3+ 38. Rxg3 Qxg3 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.03.25"]
+[Round "10.9"]
+[White "Lunin, Roman"]
+[Black "Lasanta Rica, Cesar"]
+[Result "1/2-1/2"]
+[ECO "B22"]
+[BlackElo "2133"]
+[PlyCount "28"]
+[EventDate "2023.??.??"]
+
+1. e4 c5 2. c3 Nf6 3. e5 Nd5 4. Nf3 d6 5. Bb5+ Bd7 6. Bxd7+ Qxd7 7. O-O e6 8.
+d4 cxd4 9. cxd4 Nc6 10. a3 Be7 11. Re1 O-O 12. b4 Rfd8 13. Qb3 a5 14. b5 Na7
+1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.03.02"]
+[Round "7.9"]
+[White "Lasanta Rica, Cesar"]
+[Black "Bernado Lopez, Roger"]
+[Result "0-1"]
+[ECO "D02"]
+[WhiteElo "2219"]
+[BlackElo "2325"]
+[PlyCount "72"]
+[EventDate "2.??.??"]
+
+1. d4 Nf6 2. Nf3 d5 3. g3 c5 4. Bg2 cxd4 5. O-O h6 6. b3 h5 7. Bg5 Ne4 8. Bf4
+f6 9. Bxb8 Rxb8 10. Qxd4 e5 11. Nxe5 Bc5 12. Qb2 fxe5 13. Qxe5+ Qe7 14. Qxd5
+Nf6 15. Qg5 O-O 16. Nc3 Be6 17. Ne4 Nxe4 18. Qxe7 Bxe7 19. Bxe4 b6 20. c4 Rbd8
+21. Rad1 Bg4 22. Bd5+ Kh8 23. Rd2 Bb4 24. Rc2 Rde8 25. f3 Bf5 26. e4 Bh3 27.
+Rff2 Bc5 28. f4 g5 29. Kh1 Bxf2 30. Rxf2 gxf4 31. gxf4 Be6 32. Kg2 Bxd5 33.
+exd5 Kg7 34. Kf3 Kf6 35. Rd2 Ke7 36. b4 Kd6 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.01.17"]
+[Round "1.10"]
+[White "Pros Heras, Jordi"]
+[Black "Lasanta Rica, Cesar"]
+[Result "1/2-1/2"]
+[ECO "E92"]
+[WhiteElo "2153"]
+[BlackElo "2226"]
+[PlyCount "35"]
+[EventDate "2026.??.??"]
+[SourceVersionDate "2026.01.18"]
+
+1. d4 d6 2. Nf3 Nf6 3. c4 g6 4. Nc3 Bg7 5. e4 O-O 6. Be2 e5 7. Be3 exd4 8. Nxd4
+Re8 9. f3 c6 10. Bf2 d5 11. exd5 cxd5 12. O-O Nc6 13. c5 Nh5 14. Qd2 Be5 15. g3
+Nf6 16. Rfe1 Bb8 17. Nxc6 bxc6 18. Bd4 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "Spain"]
+[Date "2026.02.21"]
+[Round "6.8"]
+[White "Bals Hernandez, Jordi"]
+[Black "Lasanta Rica, Cesar"]
+[Result "1-0"]
+[WhiteElo "2121"]
+[BlackElo "2128"]
+[PlyCount "61"]
+[EventDate "2026.01.17"]
+
+1. d4 d6 2. Nf3 Nf6 3. c4 g6 4. Nc3 Bg7 5. Bg5 h6 6. Bh4 c5 7. d5 O-O 8. e3 e6
+9. Nd2 exd5 10. cxd5 Nbd7 11. Be2 Ne5 12. O-O g5 13. Bg3 Qe7 14. Qc2 a6 15. a4
+Rb8 16. a5 b5 17. axb6 Rxb6 18. Bxe5 dxe5 19. Ra5 e4 20. Rfa1 Bb7 21. Nc4 Rb4
+22. d6 Qe6 23. Rxc5 Rc8 24. Re5 Qd7 25. Re7 Qd8 26. Ra4 Rxa4 27. Qxa4 Bc6 28.
+Qxa6 Nd7 29. Bg4 Ra8 30. Qxc6 Ra1+ 31. Nd1 1-0

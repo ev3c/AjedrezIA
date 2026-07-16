@@ -1,0 +1,224 @@
+[Event "Barcelona La Lira op 35th"]
+[Site "Barcelona"]
+[Date "2017.01.20"]
+[Round "1"]
+[White "Garcia Vidal, Emili"]
+[Black "Rius Selva, Joan"]
+[Result "0-1"]
+[ECO "A03"]
+[WhiteElo "1475"]
+[BlackElo "1838"]
+[PlyCount "74"]
+[EventDate "2017.01.20"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. f4 d5 2. Nf3 Nf6 3. e3 Bg4 4. Be2 Bxf3 5. Bxf3 Nbd7 6. d4 c6 7. Nd2 e6 8.
+O-O Bd6 9. c4 h5 10. c5 Bc7 11. Qe1 Qe7 12. b4 O-O-O 13. a4 Rdg8 14. h4 Ng4 15.
+Nb3 f6 16. b5 Nb8 17. Qb4 g5 18. a5 a6 19. Be2 cxb5 20. Bxb5 axb5 21. Qxb5 Qd7
+22. c6 Qxc6 23. Qxc6 Nxc6 24. a6 bxa6 25. Rxa6 Nb8 26. Rxe6 Re8 27. Rxe8+ Rxe8
+28. fxg5 fxg5 29. hxg5 Nd7 30. Nc5 Nxc5 31. dxc5 Bh2+ 32. Kh1 Bg3 33. Rf3 h4
+34. g6 Rg8 35. Rf5 Rxg6 36. Rxd5 Rf6 37. Rd1 Nf2+ 0-1
+
+[Event "Barcelona La Lira op 35th"]
+[Site "Barcelona"]
+[Date "2017.01.27"]
+[Round "2"]
+[White "Fungueirino Pique, Daniel"]
+[Black "Garcia Vidal, Emili"]
+[Result "1-0"]
+[ECO "A48"]
+[WhiteElo "1693"]
+[BlackElo "1475"]
+[PlyCount "55"]
+[EventDate "2017.01.20"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 g6 3. Nc3 Bg7 4. Bf4 d6 5. Qd2 Nbd7 6. e4 e6 7. Bc4 Nb6 8. Bb3
+c6 9. O-O-O d5 10. exd5 Nfxd5 11. Nxd5 Nxd5 12. Bh6 Qf6 13. Bxg7 Qxg7 14. h4 h5
+15. g3 Nf6 16. Ng5 Bd7 17. Qb4 b6 18. Rhe1 Nd5 19. Qd6 Qf6 20. Bxd5 cxd5 21. f4
+Qe7 22. Qc7 f5 23. Qe5 O-O-O 24. Rd3 Rhe8 25. Rc3+ Kb7 26. Qc7+ Ka8 27. Ra3 Bc8
+28. Rxa7# 1-0
+
+[Event "Barcelona La Lira op 35th"]
+[Site "Barcelona"]
+[Date "2017.02.03"]
+[Round "3"]
+[White "Garcia Vidal, Emili"]
+[Black "Claria Martinez, Albert"]
+[Result "1-0"]
+[ECO "A02"]
+[WhiteElo "1475"]
+[BlackElo "1167"]
+[PlyCount "71"]
+[EventDate "2017.01.20"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. f4 f5 2. Nf3 e6 3. b3 Be7 4. d4 d5 5. Nc3 a6 6. g3 Nf6 7. Bg2 Nc6 8. e3 O-O
+9. O-O b5 10. a4 b4 11. Ne2 Ne4 12. Qe1 Qd7 13. Nd2 Nc3 14. Nxc3 bxc3 15. Nb1
+Bb4 16. Nxc3 a5 17. Bd2 Ba6 18. Rf2 Rab8 19. Na2 Bxd2 20. Qxd2 Qd6 21. Bf1 Bxf1
+22. Raxf1 Rf6 23. Rg2 Rbf8 24. Qe2 g6 25. c4 Qd7 26. c5 Kg7 27. g4 fxg4 28.
+Rxg4 h6 29. h4 Rf5 30. Rf2 R8f6 31. Rfg2 Qf7 32. Qd3 Ne7 33. Nc3 h5 34. Rg5
+Rxg5 35. hxg5 Rf5 36. Ne2 1-0
+
+[Event "Barcelona La Lira op 35th"]
+[Site "Barcelona"]
+[Date "2017.02.10"]
+[Round "4"]
+[White "Perolet Perez, Miquel"]
+[Black "Garcia Vidal, Emili"]
+[Result "1-0"]
+[ECO "B07"]
+[WhiteElo "1678"]
+[BlackElo "1475"]
+[PlyCount "59"]
+[EventDate "2017.01.20"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 g6 3. Nbd2 Bg7 4. e4 d6 5. c3 b6 6. Bb5+ Bd7 7. Bc4 e6 8. b4
+O-O 9. a4 a5 10. b5 c5 11. dxc5 dxc5 12. e5 Ng4 13. Qe2 Qc7 14. Qe4 Nxe5 15.
+Nxe5 Qxe5 16. Bb2 Qxe4+ 17. Nxe4 Bc8 18. Rd1 Nd7 19. Be2 Nf6 20. Bf3 Nxe4 21.
+Bxe4 Ra7 22. Rd6 Bb7 23. Rxb6 f5 24. Rxb7 Rxb7 25. Bxb7 Rd8 26. Ke2 Bh6 27. Rd1
+Rxd1 28. Kxd1 Bf4 29. h3 Bd6 30. g4 1-0
+
+[Event "Barcelona La Lira op 35th"]
+[Site "Barcelona"]
+[Date "2017.02.17"]
+[Round "5"]
+[White "Garcia Vidal, Emili"]
+[Black "Creixans Comerma, Marti"]
+[Result "1/2-1/2"]
+[ECO "A03"]
+[WhiteElo "1475"]
+[BlackElo "1645"]
+[PlyCount "31"]
+[EventDate "2017.01.20"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. f4 d5 2. Nf3 Nc6 3. e3 Bf5 4. b3 e6 5. Bb2 Nf6 6. Bb5 Bd6 7. d4 O-O 8. Bxc6
+bxc6 9. O-O Ne4 10. Nbd2 Nxd2 11. Qxd2 Rb8 12. Ne5 Bxe5 13. fxe5 Qg5 14. Rf3
+Be4 15. Rg3 Qh4 16. Rf1 1/2-1/2
+
+[Event "Barcelona La Lira op 35th"]
+[Site "Barcelona"]
+[Date "2017.02.24"]
+[Round "6"]
+[White "Aubeso Duch, Miquel"]
+[Black "Garcia Vidal, Emili"]
+[Result "0-1"]
+[ECO "A16"]
+[WhiteElo "1357"]
+[BlackElo "1475"]
+[PlyCount "90"]
+[EventDate "2017.01.20"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 Nf6 2. Nc3 g6 3. g3 Bg7 4. Bg2 Nc6 5. Bxc6 dxc6 6. Nf3 b6 7. e4 Bb7 8.
+O-O c5 9. Re1 O-O 10. d4 cxd4 11. Nxd4 c5 12. Nf3 Qxd1 13. Nxd1 Nxe4 14. a3 e6
+15. Bf4 Bxb2 16. Nxb2 Rad8 17. Rad1 Nc3 18. Rxd8 Rxd8 19. Re3 Ne4 20. Rd3 Rxd3
+21. Nxd3 Nc3 22. Bb8 Bxf3 23. Bxa7 Ne2+ 24. Kf1 Nc3 25. Nc1 Na4 26. h4 Bb7 27.
+f4 Ba6 28. Kf2 Bxc4 29. Ke3 Bd5 30. Kd3 f5 31. Ne2 b5 32. Ke3 b4 33. axb4 cxb4
+34. Bd4 b3 35. Nc3 b2 36. Nb1 Be4 37. Bxb2 Nxb2 38. Nc3 Bc6 39. Kd4 Kf7 40. Ke5
+Nc4+ 41. Kd4 Nd6 42. Kc5 Ne4+ 43. Kxc6 Nxc3 44. Kc5 Ne2 45. Kc4 Nxg3 0-1
+
+[Event "Barcelona La Lira op 35th"]
+[Site "Barcelona"]
+[Date "2017.03.03"]
+[Round "7"]
+[White "Cort Hidalgo, Jordi"]
+[Black "Garcia Vidal, Emili"]
+[Result "1-0"]
+[ECO "C42"]
+[WhiteElo "1658"]
+[BlackElo "1475"]
+[PlyCount "29"]
+[EventDate "2017.01.20"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nc3 Bb4 4. Nxe5 Bxc3 5. dxc3 d6 6. Nc4 Nxe4 7. Bd3 Nf6
+8. O-O O-O 9. Bg5 h6 10. Bh4 Be6 11. Ne3 Nbd7 12. f4 Qc8 13. Qf3 Nh7 14. Nf5
+Nc5 15. Ne7+ 1-0
+
+[Event "Barcelona La Lira op 35th"]
+[Site "Barcelona"]
+[Date "2017.03.10"]
+[Round "8"]
+[White "Garcia Vidal, Emili"]
+[Black "Miro Arbelaes, Aleix"]
+[Result "0-1"]
+[ECO "A03"]
+[WhiteElo "1475"]
+[BlackElo "1290"]
+[PlyCount "74"]
+[EventDate "2017.01.20"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. f4 e6 2. Nf3 d5 3. e3 c5 4. Bb5+ Bd7 5. Bxd7+ Nxd7 6. b3 Ngf6 7. Bb2 Be7 8.
+Qe2 Rc8 9. d3 Qb6 10. Nbd2 O-O 11. Rc1 Qb4 12. O-O Rfd8 13. c3 Qa5 14. a3 b5
+15. b4 cxb4 16. cxb4 Qb6 17. d4 a5 18. bxa5 Qxa5 19. Rxc8 Rxc8 20. Rc1 Rxc1+
+21. Bxc1 Bxa3 22. Qd1 b4 23. Nb3 Qa4 24. Nfd2 Ne4 25. Nxe4 dxe4 26. Bxa3 bxa3
+27. Qc2 a2 28. Na1 Qxc2 29. Nxc2 Nb6 30. Kf1 Nc4 31. Ke2 Kf8 32. g4 Ke7 33. h4
+h6 34. h5 Kd6 35. g5 Kc7 36. Na1 Kb6 37. Nc2 Ka5 0-1

@@ -1,0 +1,612 @@
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.13"]
+[Round "1"]
+[White "Fuertes Buisac, B."]
+[Black "Molano Lafuente, I."]
+[Result "0-1"]
+[ECO "A50"]
+[WhiteElo "1686"]
+[BlackElo "1943"]
+[PlyCount "118"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 Nc6 3. Nc3 e5 4. dxe5 Nxe5 5. e3 Bb4 6. Bd2 O-O 7. Nf3 d6 8.
+Be2 Qe7 9. O-O c6 10. Ne4 Nxe4 11. Bxb4 c5 12. Ba3 b6 13. Qc2 Bb7 14. Nxe5 dxe5
+15. Bf3 Nf6 16. Bxb7 Qxb7 17. b3 Qe4 18. Qxe4 Nxe4 19. Bb2 f6 20. Rfd1 Rad8 21.
+Kf1 Kf7 22. Ke2 Ke7 23. Kf3 Ng5+ 24. Ke2 Ne6 25. Rac1 Rxd1 26. Rxd1 Rd8 27.
+Rxd8 Nxd8 28. Kf3 Ke6 29. h4 Nc6 30. Bc3 h5 31. g3 g6 32. Ke4 a6 33. Bd2 f5+
+34. Kf3 e4+ 35. Ke2 Ne5 36. Bc3 Nd3 37. Bd2 Kd6 38. f4 b5 39. cxb5 axb5 40. Kd1
+b4 41. Kc2 Kc6 42. Kd1 Kb5 43. Kc2 c4 44. Kd1 c3 45. Bc1 Nf2+ 46. Ke2 Nd3 47.
+Kd1 Ka5 48. Kc2 Nf2 49. a3 Kb5 50. Kb1 Nd3 51. Kc2 Nc5 52. axb4 Kxb4 53. Ba3+
+Kxa3 54. Kxc3 Nxb3 55. Kc4 Nd2+ 56. Kd5 Nf1 57. Ke6 Nxe3 58. Kf6 Nf1 59. Kxg6
+Nxg3 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.14"]
+[Round "2"]
+[White "Martin Palau, R."]
+[Black "Fuertes Buisac, B."]
+[Result "0-1"]
+[ECO "B39"]
+[WhiteElo "1492"]
+[BlackElo "1686"]
+[PlyCount "64"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 c5 3. Nf3 cxd4 4. Nxd4 Nc6 5. Nc3 g6 6. e4 Bg7 7. Be3 Ng4 8.
+Qxg4 Nxd4 9. Bd3 d5 10. Qd1 dxe4 11. Bxe4 O-O 12. Bd5 Nf5 13. Qb3 Nxe3 14. fxe3
+e6 15. Be4 Bxc3+ 16. Qxc3 Qh4+ 17. Ke2 Qxe4 18. Rag1 Qg4+ 19. Kd2 Rd8+ 20. Kc1
+Bd7 21. h4 Rac8 22. b3 h5 23. Rh3 b5 24. c5 b4 25. Qd4 Qxd4 26. exd4 e5 27. Rd3
+Bf5 28. Rd2 exd4 29. Re1 Rxc5+ 30. Kb2 d3 31. Re7 Rc2+ 32. Rxc2 dxc2 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.15"]
+[Round "3"]
+[White "Fuertes Buisac, B."]
+[Black "Fernandez Martin, J."]
+[Result "1/2-1/2"]
+[ECO "D85"]
+[WhiteElo "1686"]
+[BlackElo "1962"]
+[PlyCount "93"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. Bd2 Bg7 6. e4 Nxc3 7. Bxc3 O-O 8.
+Nf3 Bg4 9. Be2 e6 10. O-O c6 11. Qb3 Qb6 12. Qxb6 axb6 13. h3 Bxf3 14. Bxf3 Nd7
+15. Rfd1 Rfd8 16. d5 Bxc3 17. bxc3 Ne5 18. dxe6 Nxf3+ 19. gxf3 fxe6 20. Rdb1
+Ra6 21. Rd1 Rf8 22. Kg2 Kg7 23. Rd7+ Rf7 24. Rad1 Rxa2 25. Rxf7+ Kxf7 26. Rd7+
+Kf6 27. Rxb7 Rb2 28. Rxh7 Rc2 29. Kg3 Rxc3 30. Kg4 Ke5 31. Rh6 b5 32. Rxg6 b4
+33. f4+ Kxe4 34. Rxe6+ Kd5 35. Re8 b3 36. f5 Rc2 37. f6 Rxf2 38. Rb8 Kc4 39.
+Kg5 Kc3 40. Kg6 b2 41. f7 c5 42. Kg7 c4 43. f8=Q Rxf8 44. Kxf8 Kc2 45. h4 b1=Q
+46. Rxb1 Kxb1 47. h5 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.16"]
+[Round "4"]
+[White "Delgado Lozano, JM."]
+[Black "Fuertes Buisac, B."]
+[Result "1/2-1/2"]
+[ECO "A48"]
+[WhiteElo "1927"]
+[BlackElo "1686"]
+[PlyCount "97"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. Nf3 g6 3. c3 Bg7 4. Bg5 O-O 5. Nbd2 d6 6. e4 c5 7. dxc5 dxc5 8.
+Bc4 Nc6 9. O-O Bg4 10. Qc2 Qc7 11. h3 Bxf3 12. Nxf3 Ne5 13. Be2 Rfd8 14. Rad1
+a6 15. Nd2 b5 16. f4 Nc6 17. Bxf6 Bxf6 18. e5 Bg7 19. Ne4 Rxd1 20. Rxd1 Rd8 21.
+Kh1 c4 22. Ng5 Rxd1+ 23. Qxd1 Qd8 24. Qxd8+ Nxd8 25. Bf3 h6 26. Ne4 Ne6 27. g3
+f6 28. exf6 Bxf6 29. Nxf6+ exf6 30. Bd5 Kf7 31. b3 cxb3 32. axb3 Ke7 33. Bb7
+Nc5 34. Bd5 Kd6 35. Bf7 g5 36. Kg2 Ne4 37. c4 b4 38. Bg6 Nd2 39. Bc2 Kc5 40.
+Kf2 Kd4 41. Ke2 Kc3 42. Kd1 Nxb3 43. Bxb3 Kxb3 44. c5 Ka2 45. c6 b3 46. c7 b2
+47. c8=Q b1=Q+ 48. Ke2 Qb2+ 49. Kf3 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.17"]
+[Round "5"]
+[White "Fuertes Buisac, B."]
+[Black "Liarte Genoves, S."]
+[Result "1/2-1/2"]
+[ECO "D15"]
+[WhiteElo "1686"]
+[BlackElo "1880"]
+[PlyCount "80"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. Nf3 d5 3. c4 c6 4. Nc3 Bf5 5. cxd5 cxd5 6. Qb3 Qb6 7. Nxd5 Qxb3 8.
+Nxf6+ exf6 9. axb3 Be6 10. Bd2 Bxb3 11. e3 Bd6 12. Bb5+ Nc6 13. Ke2 O-O 14.
+Rhc1 Bd5 15. Bc4 Be4 16. Bd3 f5 17. Ra4 a6 18. Rca1 Rac8 19. Rc1 Rfe8 20. Ng5
+Bxd3+ 21. Kxd3 h6 22. Nf3 Red8 23. Rac4 Ra8 24. Ke2 a5 25. Ne1 Re8 26. Nd3 f4
+27. d5 fxe3 28. dxc6 exd2+ 29. Kxd2 bxc6 30. Rxc6 Rad8 31. Kc3 Be7 32. Kc2 Bf6
+33. Re1 Rxe1 34. Nxe1 Re8 35. Nd3 Ra8 36. b3 Ra7 37. Nc5 Bd4 38. f3 Bxc5 39.
+Rxc5 a4 40. bxa4 Rxa4 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.18"]
+[Round "6"]
+[White "Sirletti, S."]
+[Black "Fuertes Buisac, B."]
+[Result "1/2-1/2"]
+[ECO "A57"]
+[WhiteElo "1888"]
+[BlackElo "1686"]
+[PlyCount "95"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 c5 4. d5 b5 5. cxb5 a6 6. b6 Qxb6 7. Nc3 Bg7 8. e4 d6
+9. Bd3 Ng4 10. O-O Nd7 11. Nd2 Nde5 12. Be2 Nf6 13. h3 O-O 14. Kh1 Bb7 15. f4
+Ned7 16. Nc4 Qc7 17. a4 Nb6 18. Ne3 e6 19. a5 Nbd7 20. Bc4 exd5 21. Nexd5 Nxd5
+22. Bxd5 Nf6 23. f5 Bxd5 24. Nxd5 Nxd5 25. Qxd5 Be5 26. Ra2 Rab8 27. Bh6 Rfe8
+28. fxg6 hxg6 29. b3 Qb7 30. Qc4 Qxb3 31. Qxb3 Rxb3 32. Raf2 Re7 33. Bg5 Reb7
+34. Bf6 Bxf6 35. Rxf6 Rd7 36. Rd1 Ra3 37. Rfxd6 Rxd6 38. Rxd6 Rxa5 39. Rc6 Ra1+
+40. Kh2 a5 41. Rxc5 a4 42. Ra5 a3 43. e5 Kf8 44. Ra7 Re1 45. Rxa3 Rxe5 46. Ra7
+Kg7 47. Rb7 Ra5 48. Rb4 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.19"]
+[Round "7"]
+[White "Fuertes Buisac, B."]
+[Black "Vigier Lopez, C."]
+[Result "0-1"]
+[ECO "D35"]
+[WhiteElo "1686"]
+[BlackElo "1830"]
+[PlyCount "60"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. cxd5 exd5 5. Nc3 Be7 6. Bg5 O-O 7. e3 Bg4 8.
+Qb3 Nbd7 9. Bd3 Nb6 10. h3 Bh5 11. Ne5 Bg6 12. Nxg6 fxg6 13. O-O Kh8 14. a4 Ne4
+15. Bxe7 Qxe7 16. Rae1 Nd2 17. Qc2 Nxf1 18. Rxf1 c6 19. a5 Nc8 20. a6 bxa6 21.
+Bxa6 Nb6 22. Na4 Nxa4 23. Qxa4 c5 24. dxc5 Qxc5 25. Rd1 Rab8 26. b3 Qc2 27. Rf1
+Rxb3 28. Qd4 Qc6 29. Qxa7 Ra8 30. Bb7 Qxb7 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.20"]
+[Round "8"]
+[White "Catala Morales, J."]
+[Black "Fuertes Buisac, B."]
+[Result "0-1"]
+[ECO "B34"]
+[WhiteElo "1413"]
+[BlackElo "1686"]
+[PlyCount "52"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. Nc3 Bg7 6. Be3 Nf6 7. f3 O-O 8.
+Qd2 d5 9. Nxc6 bxc6 10. O-O-O Be6 11. e5 Nd7 12. f4 Qa5 13. Bd4 c5 14. Bxc5
+Nxc5 15. a3 Rfd8 16. Be2 d4 17. Nb1 Qxd2+ 18. Nxd2 d3 19. Bf3 dxc2 20. Rde1
+Nd3+ 21. Kxc2 Nxe1+ 22. Rxe1 Rac8+ 23. Kd1 Bb3+ 24. Ke2 Rc2 25. Rd1 Rxb2 26. h4
+Bxd1+ 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.21"]
+[Round "9"]
+[White "Fuertes Buisac, B."]
+[Black "Corominas Garrido, A."]
+[Result "1/2-1/2"]
+[ECO "D15"]
+[WhiteElo "1686"]
+[BlackElo "1807"]
+[PlyCount "38"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. Nf3 d5 3. c4 c6 4. Nc3 Bf5 5. cxd5 Nxd5 6. Qb3 Qb6 7. Qxb6 Nxb6 8.
+e4 Bg6 9. Be2 e6 10. Ne5 N8d7 11. Nxg6 hxg6 12. Bf4 Be7 13. O-O O-O 14. a4 a5
+15. Rfd1 Rac8 16. d5 cxd5 17. exd5 e5 18. Be3 Bc5 19. Bb5 f5 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.13"]
+[Round "1.5"]
+[White "Bernat Pascual, M."]
+[Black "Fuertes Buisac, B."]
+[Result "1/2-1/2"]
+[ECO "A44"]
+[WhiteElo "1869"]
+[BlackElo "2082"]
+[PlyCount "73"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. d4 c5 2. d5 e5 3. e4 d6 4. c4 Be7 5. Nc3 Bg5 6. Nf3 Bxc1 7. Rxc1 f5 8. exf5
+Bxf5 9. Bd3 Bg4 10. O-O Nf6 11. Re1 O-O 12. Re3 Nbd7 13. Qc2 h6 14. h3 Bxf3 15.
+Rxf3 Qe7 16. Re1 Nh5 17. Ree3 Rxf3 18. Rxf3 Nf4 19. Ne4 Nxd3 20. Qxd3 Rf8 21.
+Qe3 Rxf3 22. Qxf3 Nf6 23. Nxf6+ Qxf6 24. Qxf6 gxf6 25. Kf1 Kg7 26. Ke2 Kg6 27.
+Ke3 Kg5 28. g3 h5 29. f3 f5 30. a3 f4+ 31. gxf4+ exf4+ 32. Kf2 Kf5 33. Ke2 Kg5
+34. Kf2 a6 35. a4 a5 36. b3 b6 37. Kf1 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.14"]
+[Round "2.37"]
+[White "Fuertes Buisac, B."]
+[Black "Poyato Duran, D."]
+[Result "1/2-1/2"]
+[ECO "D10"]
+[WhiteElo "2082"]
+[BlackElo "1878"]
+[PlyCount "84"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. d4 d5 2. c4 c6 3. cxd5 cxd5 4. Nc3 Nf6 5. Bf4 Nc6 6. e3 Bf5 7. Qb3 Qd7 8.
+Nf3 a6 9. Ne5 Nxe5 10. dxe5 Ne4 11. Qxd5 Nxc3 12. Qxd7+ Kxd7 13. bxc3 e6 14.
+Be2 Ba3 15. O-O Rac8 16. c4 Rc5 17. Bd3 Bxd3 18. Rfd1 Kc8 19. Rxd3 Bb4 20. Rc1
+Rd8 21. Rxd8+ Kxd8 22. Kf1 Kc7 23. Ke2 b5 24. Kd3 bxc4+ 25. Rxc4 Rxc4 26. Kxc4
+Be1 27. f3 Kc6 28. e4 g6 29. Be3 Ba5 30. Bd4 Bd2 31. h3 Bg5 32. Kb4 Bd8 33. g4
+Bc7 34. f4 Bd8 35. f5 exf5 36. exf5 gxf5 37. gxf5 Kd5 38. Kc3 Ba5+ 39. Kd3 Bc7
+40. e6 fxe6 41. fxe6 Kxe6 42. Ke4 Bb8 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.15"]
+[Round "3.25"]
+[White "Subirana Santos, M."]
+[Black "Fuertes Buisac, B."]
+[Result "0-1"]
+[ECO "A38"]
+[WhiteElo "1912"]
+[BlackElo "2082"]
+[PlyCount "86"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. c4 Nf6 2. g3 g6 3. Bg2 Bg7 4. d3 O-O 5. Nc3 c5 6. Nf3 d6 7. O-O Nc6 8. a3 e5
+9. e4 Nd4 10. h3 a5 11. Nxd4 cxd4 12. Nb5 Qe7 13. Bd2 Bd7 14. Nc7 Ra7 15. Nd5
+Nxd5 16. cxd5 f5 17. f4 b6 18. Rc1 Bb5 19. fxe5 dxe5 20. Qb3 Qd7 21. d6+ Kh8
+22. Rc7 Rxc7 23. dxc7 Rc8 24. Rc1 a4 25. Qc2 fxe4 26. Bxe4 Qxh3 27. Be1 Bh6 28.
+Bb7 Be3+ 29. Bf2 Qxg3+ 30. Kf1 Bxd3+ 31. Ke1 Rxc7 32. Bxg3 Rxc2 33. Rxc2 Bxc2
+34. Bxe5+ Kg8 35. Ke2 h5 36. Bd5+ Kh7 37. Bc7 Bc1 38. Bxb6 d3+ 39. Kf2 d2 40.
+Bf3 d1=Q 41. Bxd1 Bxd1 42. Bd4 Kh6 43. Ke1 Bb3 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.16"]
+[Round "4.16"]
+[White "Fuertes Buisac, B."]
+[Black "Perez Garcia, JM."]
+[Result "1-0"]
+[ECO "A57"]
+[WhiteElo "2082"]
+[BlackElo "1945"]
+[PlyCount "63"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. Qc2 g6 5. e4 d6 6. Nf3 Bg7 7. h3 O-O 8. cxb5 a6
+9. Nc3 axb5 10. Bxb5 Na6 11. O-O Nc7 12. Bc6 Ra6 13. Bg5 Bd7 14. Bxd7 Nxd7 15.
+a4 f6 16. Be3 f5 17. Nb5 f4 18. Nxc7 Qxc7 19. Bd2 Ne5 20. Ng5 f3 21. Ne6 Qc8
+22. Nxf8 Qxf8 23. Ra3 Rb6 24. Rb3 Ra6 25. g3 Qc8 26. Kh2 Ng4+ 27. hxg4 Qxg4 28.
+Rh1 Bd4 29. Be3 Be5 30. Qd1 Kf7 31. Bf4 Bxf4 32. Qxf3 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.17"]
+[Round "5.7"]
+[White "Ferres Saez, J."]
+[Black "Fuertes Buisac, B."]
+[Result "0-1"]
+[ECO "B23"]
+[WhiteElo "1965"]
+[BlackElo "2082"]
+[PlyCount "70"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 c5 2. Nc3 g6 3. f4 Bg7 4. Nf3 Nc6 5. Bb5 Nd4 6. O-O a6 7. Bc4 e6 8. d3
+Ne7 9. Bb3 O-O 10. Nxd4 cxd4 11. Ne2 d5 12. Ng3 dxe4 13. dxe4 b5 14. Qg4 a5 15.
+a4 b4 16. Bc4 Ba6 17. Bd3 Qb6 18. f5 exf5 19. exf5 Bxd3 20. cxd3 Nd5 21. Qh3
+Ne3 22. Rf3 g5 23. Bxe3 dxe3 24. Kh1 Bxb2 25. Re1 Rfe8 26. Ne4 Rxe4 27. dxe4
+Bd4 28. f6 Bxf6 29. Qf5 Ra6 30. Rfxe3 Bc3 31. Qxg5+ Qg6 32. Qd8+ Kg7 33. Rd1
+Be5 34. Rf1 Qh6 35. Ref3 Qxh2# 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.18"]
+[Round "6.3"]
+[White "Fuertes Buisac, B."]
+[Black "Molina Hernandez, A."]
+[Result "1-0"]
+[ECO "A57"]
+[WhiteElo "2082"]
+[BlackElo "2004"]
+[PlyCount "79"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. Qc2 bxc4 5. e4 d6 6. Bxc4 g6 7. h3 Bg7 8. Nf3
+Nbd7 9. O-O Nb6 10. Bg5 Rb8 11. Bb5+ Bd7 12. Bxd7+ Nfxd7 13. Nc3 Nc4 14. Rab1
+O-O 15. Nd2 Ncb6 16. b3 Re8 17. a4 a6 18. f4 Qc7 19. Ne2 h6 20. Bh4 Nf6 21. Nc4
+Nxc4 22. bxc4 Rb4 23. Rxb4 cxb4 24. Bf2 Nd7 25. Nd4 Bxd4 26. Bxd4 Rc8 27. Rc1
+f6 28. g4 Kh7 29. h4 Rg8 30. Kh1 Nc5 31. h5 Qd7 32. Rg1 Qxa4 33. hxg6+ Rxg6 34.
+Qxa4 Nxa4 35. Ra1 Nc5 36. Bxc5 dxc5 37. Rxa6 Rxg4 38. Ra7 f5 39. Rxe7+ Kg8 40.
+e5 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.19"]
+[Round "7.4"]
+[White "Flores Mendoza, JA."]
+[Black "Fuertes Buisac, B."]
+[Result "1-0"]
+[ECO "B50"]
+[WhiteElo "1905"]
+[BlackElo "2082"]
+[PlyCount "75"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. d4 c5 2. c3 Nf6 3. Nf3 g6 4. g3 Bg7 5. Bg2 O-O 6. O-O d6 7. Re1 Nc6 8. e4
+Bg4 9. h3 Bxf3 10. Bxf3 cxd4 11. cxd4 d5 12. e5 Ne8 13. Nc3 e6 14. Be3 Qb6 15.
+b3 f6 16. Bg4 Nc7 17. Na4 Qb4 18. Nc5 Rfe8 19. a3 Qa5 20. b4 Qb6 21. Nd7 Qa6
+22. Be2 b5 23. exf6 Bf8 24. Ne5 Nxe5 25. dxe5 Rec8 26. Qd3 Qb7 27. Rec1 a6 28.
+Bg4 Kf7 29. Bc5 Bh6 30. f4 Ne8 31. h4 Rc6 32. h5 Nxf6 33. exf6 Kxf6 34. Bd4+
+Kf7 35. Rxc6 Qxc6 36. Re1 Re8 37. Qe3 Bf8 38. Qe5 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.20"]
+[Round "8.8"]
+[White "Fuertes Buisac, B."]
+[Black "Torras Chicon, A."]
+[Result "0-1"]
+[ECO "A29"]
+[WhiteElo "2082"]
+[BlackElo "1996"]
+[PlyCount "84"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. c4 e5 2. g3 Nf6 3. Bg2 Nc6 4. Nf3 d5 5. cxd5 Nxd5 6. Nc3 Be6 7. O-O Be7 8.
+d4 exd4 9. Nxd4 Nxd4 10. Qxd4 Bf6 11. Qa4+ c6 12. Nxd5 Bxd5 13. Rd1 b5 14. Qc2
+Qc8 15. Bxd5 cxd5 16. Qxc8+ Rxc8 17. Rxd5 a6 18. Rd6 Ke7 19. Rxa6 Rhd8 20. Be3
+Bxb2 21. Rb1 Rc2 22. Bc5+ Ke8 23. e4 Rc8 24. Be3 b4 25. Rd1 Ba3 26. Rd4 Rd8 27.
+Rxd8+ Kxd8 28. Ra7 Ke8 29. Ra8+ Ke7 30. Ra7+ Ke6 31. f4 Rxa2 32. Bc5 Rc2 33.
+Bf8 Rc4 34. Re7+ Kf6 35. e5+ Kg6 36. e6 b3 37. Rxf7 Bxf8 38. Rxf8 b2 39. e7
+b1=Q+ 40. Kf2 Qb6+ 41. Kf1 Rc1+ 42. Kg2 Qb7+ 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.21"]
+[Round "9.14"]
+[White "Baltasar Diaz, V."]
+[Black "Fuertes Buisac, B."]
+[Result "0-1"]
+[ECO "B35"]
+[WhiteElo "1932"]
+[BlackElo "2082"]
+[PlyCount "80"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 c5 2. Nf3 g6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Bg7 6. Be3 Nf6 7. Bc4 Qa5 8.
+f3 Qb4 9. Bb3 Nxe4 10. Nxc6 Bxc3+ 11. bxc3 Qxc3+ 12. Ke2 dxc6 13. Bd4 e5 14.
+Bxc3 Nxc3+ 15. Kf2 Nxd1+ 16. Raxd1 O-O 17. Rhe1 Re8 18. Re3 Kg7 19. Rde1 f6 20.
+f4 Bd7 21. fxe5 Rxe5 22. Rxe5 fxe5 23. Rxe5 Re8 24. Rxe8 Bxe8 25. Ke3 Bf7 26.
+Kd4 Bxb3 27. cxb3 Kf6 28. Kc5 Ke6 29. b4 Kd7 30. a4 b6+ 31. Kc4 Ke6 32. Kd4 Kf5
+33. a5 h5 34. a6 Ke6 35. g3 Kd6 36. h3 g5 37. Kc4 c5 38. bxc5+ bxc5 39. Kd3 Kc6
+40. Kc3 Kb5 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2015.02.14"]
+[Round "4.10"]
+[White "Fuertes Buisac, B."]
+[Black "De la Fuente Clemente, C."]
+[Result "0-1"]
+[ECO "D35"]
+[WhiteElo "2126"]
+[BlackElo "1998"]
+[PlyCount "47"]
+[EventDate "2015.??.??"]
+[EventType "team"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. cxd5 exd5 5. Bg5 h6 6. Bh4 Bb4 7. e3 O-O 8. Bd3
+Nbd7 9. Nf3 c5 10. O-O Bxc3 11. bxc3 Qa5 12. Qc2 Re8 13. Nd2 b6 14. Rab1 Ba6
+15. Rfc1 Rac8 16. Bxa6 Qxa6 17. dxc5 Rxc5 18. Nb3 Rc4 19. Bxf6 Nxf6 20. Qd3
+Qxa2 21. Nd4 Ne4 22. Ra1 Qxf2+ 23. Kh1 Re5 24. Rf1 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2015.03.07"]
+[Round "7.9"]
+[White "Clopes Llahi, J."]
+[Black "Fuertes Buisac, B."]
+[Result "1/2-1/2"]
+[ECO "B27"]
+[WhiteElo "2253"]
+[BlackElo "2126"]
+[PlyCount "112"]
+[EventDate "2015.??.??"]
+[EventType "team"]
+
+1. e4 c5 2. Nf3 g6 3. g3 Bg7 4. Bg2 e6 5. O-O Ne7 6. c3 O-O 7. Qe2 Nbc6 8. Rd1
+d5 9. d3 d4 10. e5 Qc7 11. Re1 Rb8 12. c4 a6 13. b3 b5 14. Nbd2 bxc4 15. Nxc4
+Nd5 16. Bd2 a5 17. Nb2 Ncb4 18. Rec1 Ba6 19. a3 Nxd3 20. Nxd3 Rxb3 21. Nfe1 Qa7
+22. Qe4 c4 23. Nf4 c3 24. Rd1 cxd2 25. Rxd2 Nxf4 26. Qxf4 Qb8 27. Nf3 Rb1+ 28.
+Rd1 Rxa1 29. Rxa1 Qb2 30. Rd1 Be2 31. Qc1 Qxc1 32. Rxc1 Bxf3 33. Bxf3 Bxe5 34.
+Rc5 Bf6 35. Rxa5 d3 36. Kf1 Rd8 37. Ra8 d2 38. Rxd8+ Bxd8 39. Ke2 Ba5 40. Kd3
+Kf8 41. Bd1 Ke7 42. Kc4 Bb6 43. f3 Kd6 44. a4 f5 45. h3 e5 46. Kd3 Ba5 47. g4
+h6 48. Be2 Kd5 49. Bd1 e4+ 50. fxe4+ fxe4+ 51. Ke3 Bb4 52. h4 g5 53. hxg5 hxg5
+54. Bb3+ Ke5 55. Bd1 Bc3 56. Bc2 Bb4 1/2-1/2
+
+[Event "Lliga Catalana DH Final B"]
+[Site "?"]
+[Date "2015.04.11"]
+[Round "10.10"]
+[White "Molina Wheatley, E."]
+[Black "Fuertes Buisac, B."]
+[Result "1/2-1/2"]
+[ECO "B35"]
+[WhiteElo "1940"]
+[BlackElo "2147"]
+[PlyCount "71"]
+[EventDate "2015.??.??"]
+[EventType "team"]
+
+1. e4 c5 2. Nf3 g6 3. d4 cxd4 4. Nxd4 Nc6 5. Be3 Nf6 6. Nc3 Bg7 7. Bc4 Qa5 8.
+O-O O-O 9. Bb3 d6 10. Nd5 Qd8 11. Nxf6+ Bxf6 12. Nxc6 bxc6 13. Bd4 Bxd4 14.
+Qxd4 Qb6 15. Rfd1 Rb8 16. Qxb6 Rxb6 17. Rd2 a5 18. c3 Be6 19. Bxe6 fxe6 20. Kf1
+Rfb8 21. b3 c5 22. Rb1 a4 23. Rdb2 d5 24. e5 d4 25. cxd4 cxd4 26. Rd1 axb3 27.
+Rxb3 Rxb3 28. axb3 Rxb3 29. Rxd4 Rb2 30. h3 Kf7 31. f4 h6 32. Re4 g5 33. fxg5
+hxg5 34. Re2 Rb5 35. Kf2 Kg6 36. g4 1/2-1/2
+
+[Event "Lliga Catalana eq. DH Final B"]
+[Site "?"]
+[Date "2016.03.12"]
+[Round "1.3"]
+[White "Martin Capitan, Feliciano"]
+[Black "Fuertes Buisac, Bernat"]
+[Result "1-0"]
+[ECO "A36"]
+[WhiteElo "2114"]
+[BlackElo "1842"]
+[PlyCount "51"]
+[EventDate "2016.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2016.04.29"]
+
+1. e4 c5 2. c4 g6 3. Nc3 Nc6 4. g3 Bg7 5. Bg2 e5 6. Nge2 Nge7 7. O-O O-O 8. d3
+d6 9. Be3 Nd4 10. Qd2 a6 11. Bh6 Rb8 12. Bxg7 Kxg7 13. f4 f5 14. Nxd4 cxd4 15.
+Nd5 Be6 16. Rae1 fxe4 17. dxe4 b5 18. fxe5 Rxf1+ 19. Rxf1 dxe5 20. Qf2 Nc6 21.
+cxb5 Rxb5 22. Bh3 Bg8 23. Bd7 Rc5 24. Nf6 Bc4 25. Ne8+ Kh6 26. Qf8+ 1-0
+
+[Event "Lliga Catalana eq. DH gr 1"]
+[Site "?"]
+[Date "2016.01.23"]
+[Round "1.2"]
+[White "Castells Aloy, Jordi"]
+[Black "Fuertes Buisac, Bernat"]
+[Result "0-1"]
+[ECO "B35"]
+[WhiteElo "1969"]
+[BlackElo "1842"]
+[PlyCount "40"]
+[EventDate "2016.??.??"]
+[EventType "team"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2016.02.19"]
+
+1. e4 c5 2. Nf3 g6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Bg7 6. Be3 Nf6 7. Bc4 Qa5 8.
+O-O O-O 9. h3 Qb4 10. Bb3 Nxe4 11. Nxe4 Nxd4 12. c3 Ne2+ 13. Qxe2 Qxe4 14. Rad1
+d6 15. f3 Qc6 16. Bg5 Qc5+ 17. Be3 Qc7 18. Rfe1 a5 19. a3 Bd7 20. Bg5 Qb6+ 0-1
+
+[Event "Lliga Catalana eq. DH gr 1"]
+[Site "?"]
+[Date "2016.02.06"]
+[Round "3.1"]
+[White "Fuertes Buisac, Bernat"]
+[Black "Gutierrez Clares, Joaquim"]
+[Result "0-1"]
+[ECO "A36"]
+[WhiteElo "1842"]
+[BlackElo "2240"]
+[PlyCount "48"]
+[EventDate "2016.??.??"]
+[EventType "team"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2016.02.19"]
+
+1. c4 Nf6 2. g3 g6 3. Bg2 Bg7 4. Nc3 O-O 5. e4 d6 6. Nge2 c5 7. O-O Nc6 8. d3
+Ne8 9. f4 Bg4 10. h3 Bxe2 11. Nxe2 Rb8 12. a4 a6 13. Nc3 Nc7 14. Be3 Nd4 15.
+Ra2 b5 16. b3 bxc4 17. bxc4 Rb3 18. Ne2 Nce6 19. Kh2 Qb8 20. f5 Nxe2 21. fxe6
+Nc3 22. Qc2 Nxa2 23. Qxa2 Rb2 24. Qa3 fxe6 0-1
+
+[Event "Lliga Catalana eq. DH gr 1"]
+[Site "?"]
+[Date "2016.02.27"]
+[Round "6.3"]
+[White "Fuertes Buisac, Bernat"]
+[Black "Colls Gelaberto, Emilio"]
+[Result "0-1"]
+[ECO "A34"]
+[WhiteElo "1842"]
+[BlackElo "2108"]
+[PlyCount "42"]
+[EventDate "2016.??.??"]
+[EventType "team"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2016.03.18"]
+
+1. c4 c5 2. g3 Nf6 3. Bg2 d5 4. cxd5 Nxd5 5. Nf3 Nc6 6. Nc3 Nc7 7. O-O e5 8. d3
+Be7 9. Be3 Be6 10. Ne4 b6 11. Qa4 Qd7 12. Nc3 Rb8 13. Ng5 Nd4 14. Nxe6 Ncxe6
+15. Qxd7+ Kxd7 16. Rfc1 Rhd8 17. Kf1 f5 18. Nd5 g5 19. b4 cxb4 20. Bxd4 exd4
+21. Rc4 b3 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "Sabadell"]
+[Date "2024.03.09"]
+[Round "8.9"]
+[White "Bofill Mas, Alejandro"]
+[Black "Fuertes Buisac, Bernat"]
+[Result "1-0"]
+[ECO "A37"]
+[WhiteElo "2281"]
+[BlackElo "1997"]
+[PlyCount "33"]
+[EventDate "2024.03.16"]
+[TimeControl "90+30"]
+[WhiteClock "0:49:44"]
+[BlackClock "0:56:00"]
+
+1. Nf3 {[%emt 0:00:04]} c5 {[%emt 0:10:37]} 2. c4 {[%emt 0:00:44]} Nc6 {
+[%emt 0:00:15]} 3. g3 {[%emt 0:00:36]} g6 {[%emt 0:00:38]} 4. Bg2 {[%emt 0:00:
+22]} Bg7 {[%emt 0:00:10]} 5. Nc3 {[%emt 0:01:05]} e5 {[%emt 0:01:07]} 6. O-O {
+[%emt 0:00:49]} Nge7 {[%emt 0:00:09]} 7. Ne1 {[%emt 0:02:54]} O-O {[%emt 0:01:
+10]} 8. Nc2 {[%emt 0:01:07]} d6 {[%emt 0:04:28]} 9. a3 {[%emt 0:01:36]} Nd4 {
+[%emt 0:03:00]} 10. Ne3 {[%emt 0:02:13]} Rb8 {[%emt 0:01:42]} 11. b4 {[%emt 0:
+03:43]} b6 {[%emt 0:10:45]} 12. Rb1 {[%emt 0:05:26]} Be6 {[%emt 0:02:16]} 13.
+d3 {[%emt 0:06:26]} Qd7 {[%emt 0:02:15]} 14. Re1 {[%emt 0:07:11]} f5 {[%emt 0:
+03:23]} 15. Ned5 {[%emt 0:04:54]} h6 {[%emt 0:05:51]} 16. Nxe7+ {[%emt 0:03:06]
+} Qxe7 {[%emt 0:01:15]} 17. e3 {[%emt 0:03:53]} 1-0

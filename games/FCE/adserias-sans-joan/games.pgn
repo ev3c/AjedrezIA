@@ -1,0 +1,77 @@
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1981.??.??"]
+[Round "4"]
+[White "Adserias Sans, Joan"]
+[Black "Ayza Ballester, Jordi"]
+[Result "1-0"]
+[ECO "A37"]
+[PlyCount "35"]
+[EventDate "1981.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+
+1. c4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. Nf3 e5 6. d3 Nge7 7. Bd2 O-O 8. h4
+h6 9. Qc1 Kh7 10. Ne4 d6 11. h5 g5 12. Bxg5 hxg5 13. Nfxg5+ Kg8 14. h6 Bh8 15.
+h7+ Kg7 16. Nf3 f5 17. Qh6+ Kf7 18. Nxd6+ 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1981.??.??"]
+[Round "12"]
+[White "Adserias Sans, Joan"]
+[Black "Pablo Mari, Alexandre"]
+[Result "0-1"]
+[ECO "E77"]
+[PlyCount "34"]
+[EventDate "1981.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+
+1. c4 g6 2. Nc3 Bg7 3. d4 Nf6 4. e4 d6 5. f4 O-O 6. Be2 c5 7. d5 e6 8. dxe6
+Bxe6 9. Qd3 Nc6 10. a3 Na5 11. Nd5 Bxd5 12. exd5 b5 13. cxb5 c4 14. Qc2 Re8 15.
+Bd2 Ne4 16. Nf3 Nb3 17. Rd1 Nd4 0-1
+
+[Event "Camp. Catalunya juv."]
+[Site "Vilanova i La Geltru"]
+[Date "1981.??.??"]
+[Round "4"]
+[White "Illescas Cordoba, Miquel"]
+[Black "Adserias Sans, Joan"]
+[Result "1-0"]
+[ECO "C53"]
+[PlyCount "73"]
+[EventDate "1981.04.??"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 d6 5. d4 exd4 6. cxd4 Bb6 7. h3 Nf6 8. Nc3
+h6 9. O-O O-O 10. Re1 Ba5 11. Bd3 Nb4 12. Bb1 c5 13. Bf4 Nc6 14. a3 Ne7 15. Qd2
+Ng6 16. Be3 b6 17. dxc5 dxc5 18. Bxh6 Bxc3 19. bxc3 Qxd2 20. Bxd2 Bb7 21. Bg5
+Nh7 22. Ba2 Nxg5 23. Nxg5 b5 24. Rab1 Bc6 25. Rbd1 Rac8 26. Rd6 c4 27. Bb1 Rfe8
+28. g3 Ne5 29. f4 Nd7 30. Kf2 Nc5 31. e5 Na4 32. Bf5 Rc7 33. Re3 Kf8 34. e6 f6
+35. e7+ Rexe7 36. Rd8+ Be8 37. Ne6+ 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1985.??.??"]
+[Round "?"]
+[White "Pascual"]
+[Black "Adserias Sans, Joan"]
+[Result "1-0"]
+[ECO "C47"]
+[PlyCount "31"]
+[EventDate "1985.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. d4 Bb4 5. Nxe5 Nxe4 6. Qg4 Nxc3 7. Qxg7 Rf8
+8. a3 Nxd4 9. axb4 Nxc2+ 10. Kd2 Nxa1 11. Kxc3 a5 12. Bc4 Qe7 13. Re1 Qxb4+ 14.
+Kd3 d5 15. Nxf7+ Qxe1 16. Nd6+ 1-0

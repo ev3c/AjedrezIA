@@ -1,0 +1,189 @@
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2018.02.03"]
+[Round "3.1"]
+[White "Pichot, Alan"]
+[Black "Movsziszian, Karen"]
+[Result "0-1"]
+[ECO "B09"]
+[WhiteElo "2552"]
+[BlackElo "2562"]
+[PlyCount "83"]
+[EventDate "2017.??.??"]
+[WhiteTeam "MLL"]
+[BlackTeam "SAN"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. f4 Bg7 5. Nf3 O-O 6. e5 dxe5 7. fxe5 Nd5 8. Bc4
+Nxc3 9. bxc3 c5 10. O-O Bg4 11. Qd3 Bxf3 12. Rxf3 Nc6 13. Be3 e6 14. Raf1 Qc7
+15. Bg5 cxd4 16. cxd4 Qb6 17. Be3 Rad8 18. R3f2 Qc7 19. Qc3 Nxe5 20. dxe5 Rc8
+21. Qb3 Qxc4 22. Qxb7 Rc7 23. Qb2 Qe4 24. Bd4 Rd8 25. c3 Bxe5 26. Bxe5 Qxe5 27.
+h3 f5 28. Rc1 Qc5 29. Qb3 Qc4 30. Re1 Kf7 31. Qb1 Qxc3 32. Rfe2 Rd2 33. Rxe6
+Qc2 34. Qxc2 Rcxc2 35. Re7+ Kf6 36. Rxh7 Rxg2+ 37. Kh1 Rh2+ 38. Kg1 Rcg2+ 39.
+Kf1 Rxa2 40. Kg1 a5 41. h4 Rhg2+ 42. Kh1 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2018.02.10"]
+[Round "4.1"]
+[White "Canal Oliveras, Joan"]
+[Black "Pichot, Alan"]
+[Result "1/2-1/2"]
+[ECO "D00"]
+[WhiteElo "2317"]
+[BlackElo "2552"]
+[PlyCount "79"]
+[EventDate "2018.??.??"]
+[WhiteTeam "CAT"]
+[BlackTeam "MLL"]
+
+1. d4 Nf6 2. Bg5 d5 3. Nd2 c5 4. e3 Qb6 5. dxc5 Qxb2 6. Rb1 Qc3 7. Bb5+ Nc6 8.
+Ne2 Qxc5 9. O-O e6 10. c4 Be7 11. Qa4 O-O 12. Nb3 Qd6 13. Rfd1 Bd7 14. cxd5
+Nxd5 15. Bf4 Qa3 16. Bg3 Qxa4 17. Bxa4 Rac8 18. Nbd4 b6 19. Bb3 Nxd4 20. Rxd4
+Bc6 21. Rbd1 a5 22. a4 Rfd8 23. e4 Nf6 24. Rxd8+ Rxd8 25. Rxd8+ Bxd8 26. f3 Kf8
+27. Nd4 Be8 28. Kf2 Be7 29. Ke3 Nd7 30. Bc7 g5 31. Bc4 Bc5 32. Kd3 Ke7 33. Bb5
+h5 34. h3 h4 35. e5 f6 36. Nc6+ Kf7 37. Nd8+ Ke7 38. Nc6+ Kf8 39. Nd8 Ke7 40.
+Nc6+ 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2017.02.17"]
+[Round "5.1"]
+[White "Pichot, Alan"]
+[Black "Asis Gargatagli, Hipolito"]
+[Result "1-0"]
+[ECO "B94"]
+[WhiteElo "2552"]
+[BlackElo "2561"]
+[PlyCount "69"]
+[EventDate "2017.??.??"]
+[WhiteTeam "MLL"]
+[BlackTeam "SCU"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 Nbd7 7. Qe2 h6 8.
+Bh4 g6 9. f4 e5 10. fxe5 dxe5 11. O-O-O Qc7 12. Nb3 b5 13. Nd5 Nxd5 14. exd5
+Bd6 15. Qd2 f5 16. g4 f4 17. Bd3 Kf7 18. Qe2 g5 19. Qe4 gxh4 20. Qg6+ Kf8 21.
+g5 h5 22. Bf5 Nc5 23. Nxc5 Qxc5 24. Qf6+ Kg8 25. g6 Qc7 26. g7 Rh6 27. Qxh6
+Bxf5 28. Rd2 Rc8 29. Rg1 Bg4 30. Rxg4 hxg4 31. Qe6+ Kxg7 32. Qxg4+ Kh8 33. Rg2
+Rf8 34. Qg6 Bc5 35. Qh5+ 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "Mollet del Valles"]
+[Date "2018.03.03"]
+[Round "7.1"]
+[White "Pichot, Alan "]
+[Black "Fluvia Poyatos, Joan "]
+[Result "1-0"]
+[ECO "B90"]
+[WhiteElo "2552"]
+[BlackElo "2538"]
+[PlyCount "93"]
+[EventDate "2018.??.??"]
+[WhiteTeam "MLL"]
+[BlackTeam "SJO"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. h3 e5 7. Nb3 Be6 8. f4
+exf4 9. Bxf4 Nc6 10. Qe2 Be7 11. O-O-O Qc7 12. g4 h6 13. Kb1 Nd7 14. Nd5 Bxd5
+15. exd5 Nce5 16. h4 Rc8 17. Rh3 Qd8 18. Nd4 g6 19. h5 Bg5 20. Bh2 Qe7 21. hxg6
+fxg6 22. Ne6 Rc4 23. Rb3 b5 24. Ra3 Ra4 25. Rxa4 bxa4 26. Qxa6 Kf7 27. Bb5 Bf6
+28. Rf1 Rb8 29. Bxd7 Nxd7 30. Bxd6 Rxb2+ 31. Kc1 Rb6 32. Qxb6 Nxb6 33. Bxe7
+Kxe7 34. Nf4 Bg5 35. Kd1 Kd6 36. Ke2 Nc4 37. Ne6 Be7 38. Rf4 Kxd5 39. Rd4+ Kxe6
+40. Rxc4 a3 41. Rc6+ Bd6 42. c4 Kd7 43. Ra6 h5 44. Kf3 h4 45. c5 Bxc5 46. Rxg6
+Ke8 47. g5 1-0
+
+[Event "Lliga Catalana DH "]
+[Site "?"]
+[Date "2018.03.17"]
+[Round "9.1"]
+[White "Pichot, Alan"]
+[Black "Peralta, Fernando"]
+[Result "1-0"]
+[ECO "C11"]
+[WhiteElo "2552"]
+[BlackElo "2593"]
+[PlyCount "61"]
+[EventDate "2017.??.??"]
+[SourceDate "2015.07.10"]
+[WhiteTeam "MLL"]
+[BlackTeam "EEB"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6 7. Be3 Be7 8. a3 b6
+9. Bd3 Bb7 10. O-O O-O 11. Kh1 f6 12. exf6 Bxf6 13. Bb5 a6 14. Bxc6 Bxc6 15.
+Qe2 Qc7 16. Rae1 Rae8 17. Ne5 Bxe5 18. fxe5 a5 19. Bg1 cxd4 20. Bxd4 Re7 21.
+Rxf8+ Nxf8 22. Rf1 Rf7 23. Rxf7 Qxf7 24. Kg1 b5 25. Na2 Ng6 26. Be3 a4 27. Qg4
+h6 28. Qb4 Bd7 29. Nc1 Ne7 30. Bd2 Nc6 31. Qd6 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2020.01.18"]
+[Round "1.1"]
+[White "Pichot, Alan"]
+[Black "Movsziszian, Karen"]
+[Result "1-0"]
+[ECO "A42"]
+[WhiteElo "2606"]
+[BlackElo "2472"]
+[PlyCount "59"]
+[EventDate "2020.??.??"]
+[WhiteTeam "Escola d'Escacs de Barcelona"]
+[BlackTeam "Sant Andreu, CE"]
+
+1. e4 g6 2. d4 Bg7 3. c4 d6 4. Nc3 e5 5. Nf3 Nc6 6. dxe5 dxe5 7. Qxd8+ Kxd8 8.
+Bg5+ f6 9. O-O-O+ Bd7 10. Be3 Nh6 11. h3 Kc8 12. g4 Nf7 13. c5 Be6 14. Nd5 Ncd8
+15. Nd2 c6 16. Nc3 Bh6 17. Bxh6 Nxh6 18. b4 Nhf7 19. Nc4 Kc7 20. a4 Re8 21. Ne3
+Ng5 22. Be2 Bb3 23. Rd6 Nde6 24. h4 Nf7 25. Kb2 Nd4 26. Rxf6 Rf8 27. g5 Rae8
+28. Bc4 Bxc4 29. Nxc4 Nd8 30. Nd6 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "chess24.com"]
+[Date "2020.02.08"]
+[Round "4.1"]
+[White "Pichot, Alan"]
+[Black "Martinez Ramirez, Lennis"]
+[Result "1-0"]
+[ECO "C18"]
+[WhiteElo "2606"]
+[BlackElo "2437"]
+[PlyCount "153"]
+[EventDate "2020.??.??"]
+[WhiteTeam "Escola d'Escacs de Barcelona"]
+[BlackTeam "Barcelona, CE"]
+[WhiteTeamCountry "ARG"]
+[BlackTeamCountry "CUB"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Qa5 7. Bd2 Qa4 8. Qg4
+Kf8 9. h4 Ne7 10. h5 h6 11. Rh3 Nbc6 12. Qf4 c4 13. Rf3 Nd8 14. Kd1 a5 15. g4
+Ra6 16. g5 Nf5 17. Bh3 Nc6 18. Bxf5 exf5 19. gxh6 gxh6 20. e6 Bxe6 21. Rg3 Bc8
+22. Re3 Be6 23. Rb1 Qxa3 24. Rxb7 Nd8 25. Rg3 Ke8 26. Qxh6 Qf8 27. Qxf8+ Kxf8
+28. Rb8 Ke7 29. h6 a4 30. Kc1 a3 31. Kb1 f4 32. Bxf4 Bf5 33. Bg5+ Kd7 34. Nf3
+Bxc2+ 35. Ka2 f6 36. Bf4 Bb3+ 37. Kb1 Re6 38. Rg7+ Re7 39. Rxe7+ Kxe7 40. Nd2
+Bd1 41. Nf1 Bf3 42. Ne3 Be4+ 43. Ka2 Nf7 44. Rb7+ Ke8 45. Ng4 Bf5 46. Nxf6+ Kf8
+47. Rb8+ Ke7 48. Nxd5+ Ke6 49. Rxh8 Nxh8 50. Ne3 Bd3 51. Kxa3 Ng6 52. Bg5 Nf8
+53. Kb4 Kf7 54. Nxc4 Bf1 55. Ne3 Bh3 56. d5 Kg6 57. f4 Bd7 58. c4 Kf7 59. c5
+Bc8 60. c6 Kg6 61. Kc5 Bh3 62. Nc4 Nh7 63. Nd6 Nf8 64. Kd4 Bg4 65. c7 Bd7 66.
+Nc4 Bh3 67. Ne5+ Kh7 68. d6 Ne6+ 69. Kc3 Nc5 70. Kc4 Nd7 71. Nxd7 Bxd7 72. Kb4
+Kg6 73. Ka5 Kf7 74. Ka6 Ke6 75. h7 Kxd6 76. c8=Q Bxc8+ 77. Ka5 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "Barbera del Valles"]
+[Date "2020.02.29"]
+[Round "7.1"]
+[White "Lopez Martinez, Josep Manuel"]
+[Black "Pichot, Alan"]
+[Result "1/2-1/2"]
+[ECO "E21"]
+[WhiteElo "2545"]
+[BlackElo "2606"]
+[PlyCount "110"]
+[EventDate "2020.??.??"]
+[WhiteTeam "Barbera, CE"]
+[BlackTeam "Escola d'Escacs de Barcelona"]
+
+1. c4 Nf6 2. Nc3 e6 3. d4 Bb4 4. Bd2 b6 5. e3 Bb7 6. Nf3 O-O 7. Rc1 d6 8. a3
+Bxc3 9. Bxc3 Ne4 10. Bd3 Nd7 11. Bxe4 Bxe4 12. O-O f5 13. b4 Qe8 14. Nd2 Bb7
+15. Qe2 e5 16. Rfe1 c5 17. dxc5 dxc5 18. f3 Qe6 19. Red1 Rac8 20. b5 Nf6 21. a4
+g5 22. Nf1 g4 23. Ng3 gxf3 24. gxf3 Rce8 25. e4 fxe4 26. fxe4 h5 27. Rf1 h4 28.
+Nf5 Bxe4 29. Qe3 Bxf5 30. Qg5+ Kh7 31. Qxf5+ Qxf5 32. Rxf5 Rg8+ 33. Kh1 Ne4 34.
+Rh5+ Kg6 35. Rxh4 Nxc3 36. Rxc3 Kg5 37. Rh7 e4 38. Kg2 e3 39. Kf1 Kf4 40. Rh4+
+Kf5 41. Rc2 Re4 42. Rh7 Rf4+ 43. Ke2 Rf2+ 44. Kd3 Rd8+ 45. Kc3 Rxc2+ 46. Kxc2
+Ke4 47. Rxa7 Kd4 48. Ra6 Kxc4 49. Rxb6 Rd2+ 50. Kc1 Rxh2 51. Kd1 Ra2 52. Re6
+Kd4 53. Rd6+ Kc3 54. Re6 e2+ 55. Ke1 Rxa4 1/2-1/2

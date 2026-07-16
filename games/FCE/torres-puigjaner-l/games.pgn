@@ -1,0 +1,116 @@
+[Event "Ct. Catalunya femeni"]
+[Site "La Pobla de Lillet"]
+[Date "2004.08.03"]
+[Round "1"]
+[White "Torres Puigjaner, L."]
+[Black "Porras Mateo, A."]
+[Result "0-1"]
+[ECO "C01"]
+[WhiteElo "1700"]
+[BlackElo "2060"]
+[PlyCount "46"]
+[EventDate "2004.??.??"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. Nf3 Nf6 5. Nc3 c6 6. Ne5 Bd6 7. f4 O-O 8. Qf3
+Bf5 9. Bd3 Bxd3 10. Qxd3 Re8 11. Be3 Qb6 12. Na4 Qa5+ 13. Bd2 Qxa4 14. Qg3 Qxc2
+15. Bc1 Bb4+ 16. Kf1 Qd1+ 17. Kf2 Qxh1 18. Nd3 Ne4+ 19. Kf3 Qd1+ 20. Ke3 Nxg3+
+21. Kf2 Qxd3 22. hxg3 Re2+ 23. Kg1 Qxg3 0-1
+
+[Event "Ct. Catalunya femeni"]
+[Site "La Pobla de Lillet"]
+[Date "2004.08.04"]
+[Round "2"]
+[White "Vela Villares, I."]
+[Black "Torres Puigjaner, L."]
+[Result "1-0"]
+[ECO "D20"]
+[WhiteElo "1960"]
+[BlackElo "1700"]
+[PlyCount "47"]
+[EventDate "2004.??.??"]
+
+1. d4 d5 2. c4 dxc4 3. e3 e5 4. Bxc4 c5 5. d5 Nf6 6. Nc3 Bf5 7. Nge2 Be4 8. f3
+Bxd5 9. Nxd5 Nc6 10. O-O Nxd5 11. Bxd5 Qd7 12. e4 Nb4 13. Nc3 Nxd5 14. Qxd5
+Qxd5 15. Nxd5 Rc8 16. Be3 Bd6 17. Rac1 O-O 18. Rc2 c4 19. Rfc1 b5 20. b3 Ba3
+21. Rd1 Rc6 22. b4 Re6 23. Bc5 Rd8 24. Ne7+ 1-0
+
+[Event "Ct. Catalunya femeni"]
+[Site "La Pobla de Lillet"]
+[Date "2004.08.05"]
+[Round "3"]
+[White "Torres Puigjaner, L."]
+[Black "Molinero Gomez, S."]
+[Result "0-1"]
+[ECO "C50"]
+[WhiteElo "1700"]
+[BlackElo "1725"]
+[PlyCount "64"]
+[EventDate "2004.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d3 d6 5. Ng5 Be6 6. Bxe6 fxe6 7. Nxe6 Qf6 8.
+Nxc5 dxc5 9. Nc3 O-O-O 10. Nd5 Qg6 11. O-O Nf6 12. Nxf6 gxf6 13. f4 Rhg8 14. g3
+h5 15. fxe5 fxe5 16. Be3 h4 17. Rf3 Qh5 18. Kg2 h3+ 19. Kf2 Rdf8 20. Bxc5 Rxf3+
+21. Qxf3 Qxf3+ 22. Kxf3 b6 23. Ba3 Nd4+ 24. Kf2 Rg7 25. c3 Rf7+ 26. Kg1 Nf3+
+27. Kh1 Nd2 28. c4 a5 29. b4 Rf2 30. Kg1 Rg2+ 31. Kh1 Nf3 32. Rd1 Rxh2# 0-1
+
+[Event "Ct. Catalunya femeni"]
+[Site "La Pobla de Lillet"]
+[Date "2004.08.06"]
+[Round "4"]
+[White "Capellades Subirana, L."]
+[Black "Torres Puigjaner, L."]
+[Result "1-0"]
+[ECO "C55"]
+[WhiteElo "1830"]
+[BlackElo "1700"]
+[PlyCount "59"]
+[EventDate "2004.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bc4 Bc5 5. h3 h6 6. d3 d6 7. Ne2 Be6 8. Bb5
+Qd7 9. c3 a6 10. Ba4 b5 11. Bb3 Na5 12. d4 exd4 13. cxd4 Bxb3 14. axb3 Bb6 15.
+e5 O-O 16. exf6 gxf6 17. Bxh6 Rfc8 18. O-O c6 19. Ng3 Qe6 20. Nd2 f5 21. Bf4
+Nb7 22. Qh5 Bxd4 23. Nxf5 Bxb2 24. Qg5+ Kf8 25. Rae1 Qd7 26. Qh6+ Kg8 27. Ne7+
+Qxe7 28. Rxe7 Bg7 29. Qg5 Nd8 30. Re8+ 1-0
+
+[Event "Catalunya fem ch"]
+[Site "Badalona"]
+[Date "2005.12.08"]
+[Round "3"]
+[White "Molinero Gomez, S."]
+[Black "Torres Puigjaner, L."]
+[Result "1-0"]
+[PlyCount "97"]
+[EventDate "2005.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d3 Nf6 5. Nc3 d6 6. Bg5 h6 7. Bh4 g5 8. Bg3
+Be6 9. Bb5 Qd7 10. h3 a6 11. Ba4 O-O-O 12. a3 Qe8 13. b4 Bd4 14. Nxd4 exd4 15.
+Ne2 Bd7 16. Bxc6 Bxc6 17. Nxd4 d5 18. Nxc6 Qxc6 19. exd5 Qxd5 20. O-O Nh5 21.
+Qxh5 f5 22. Qd1 f4 23. Bh2 Rdf8 24. Qg4+ Kb8 25. Qf3 Qd4 26. Qe4 Qc3 27. Qc4
+Qe5 28. Rfe1 Qf6 29. c3 h5 30. Re6 Qf5 31. Re7 c6 32. Qe4 g4 33. Qxf5 Rxf5 34.
+h4 Rg8 35. Rae1 g3 36. Re8+ Rxe8 37. Rxe8+ Kc7 38. fxg3 f3 39. g4+ Re5 40.
+Bxe5+ Kd7 41. Rh8 Ke6 42. Rxh5 Kd5 43. gxf3 c5 44. Bb8+ Kc6 45. g5 Kb6 46.
+bxc5+ Kxc5 47. g6+ Kb6 48. g7 Kc6 49. g8=Q 1-0
+
+[Event "Catalunya fem ch"]
+[Site "Badalona"]
+[Date "2005.12.09"]
+[Round "4"]
+[White "Torres Puigjaner, L."]
+[Black "Moreno Domingo, L."]
+[Result "0-1"]
+[PlyCount "162"]
+[EventDate "2005.??.??"]
+
+1. e4 c5 2. Nf3 g6 3. Bc4 Bg7 4. Nc3 Nc6 5. d3 e6 6. Be3 b6 7. d4 cxd4 8. Nxd4
+Bb7 9. O-O Nge7 10. Ncb5 d5 11. exd5 Nxd5 12. Nxc6 Bxc6 13. Nd4 Nxe3 14. fxe3
+Be4 15. c3 O-O 16. Qg4 Bd5 17. Bxd5 Qxd5 18. Qf3 Qd6 19. Nb5 Qe5 20. Qe2 Bh6
+21. e4 a6 22. Nd4 Qc5 23. b4 Qxc3 24. Nc2 Bg7 25. Rf3 Qb2 26. Rb3 Qe5 27. Rd1
+Rac8 28. Nd4 b5 29. Qe3 Rc4 30. Nf3 Qxe4 31. Qxe4 Rxe4 32. Rd6 Ra8 33. a3 Re2
+34. Rbd3 Bf6 35. Nd2 Kf8 36. Kf1 Re5 37. Nf3 Rf5 38. Ke2 Ke8 39. Nd2 Be7 40.
+Rc6 Rd5 41. Rh3 h5 42. g4 Kd7 43. Rcc3 hxg4 44. Rhg3 Re5+ 45. Kd1 f5 46. h3
+gxh3 47. Rxh3 Rc8 48. Rb3 Bf6 49. Rh7+ Be7 50. Rd3+ Rd5 51. Rxd5+ exd5 52. Nf3
+Kd6 53. Rg7 g5 54. Nxg5 Bxg5 55. Rxg5 Ke6 56. Ke2 Rc3 57. Rg6+ Ke5 58. Rxa6 Rb3
+59. Kd2 f4 60. a4 Rxb4 61. a5 Ra4 62. Ra7 Kd4 63. Ke2 Ra3 64. a6 b4 65. Ra8 b3
+66. a7 b2 67. Rb8 Rxa7 68. Rxb2 Re7+ 69. Kf3 Rf7 70. Rb4+ Kc3 71. Rb5 d4 72.
+Ra5 d3 73. Ra3+ Kc2 74. Ra2+ Kc1 75. Ra1+ Kb2 76. Rd1 Kc2 77. Re1 d2 78. Re2
+Kc1 79. Rxd2 Kxd2 80. Kf2 f3 81. Kf1 f2 0-1

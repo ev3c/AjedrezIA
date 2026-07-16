@@ -1,0 +1,298 @@
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.13"]
+[Round "1"]
+[White "Jove Grau, Lluis"]
+[Black "Cruz, Filemon"]
+[Result "0-1"]
+[ECO "B41"]
+[WhiteElo "2077"]
+[BlackElo "2407"]
+[PlyCount "88"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 c5 2. e4 e6 3. d4 cxd4 4. Nxd4 a6 5. c4 Nf6 6. Bd3 Nc6 7. Nxc6 dxc6 8.
+O-O e5 9. Nc3 Bc5 10. h3 Qe7 11. Qe2 Be6 12. Na4 Bd4 13. Be3 b5 14. Nc3 Qc5 15.
+cxb5 Bxe3 16. fxe3 axb5 17. Rac1 Qb6 18. a4 bxa4 19. Nd1 O-O 20. Qc2 Rfc8 21.
+Bc4 Bxc4 22. Qxc4 a3 23. bxa3 Rxa3 24. Rf3 h6 25. Nc3 Rd8 26. Rcf1 Qb3 27. Qxb3
+Rxb3 28. Ne2 Nxe4 29. Rxf7 Rb2 30. Rc7 Nf6 31. Nc3 Rdd2 32. Rxf6 Rxg2+ 33. Kf1
+Rgc2 34. Nd1 gxf6 35. Nxb2 Rxb2 36. Rxc6 Kg7 37. Rc4 h5 38. h4 Kg6 39. Ra4 Kf5
+40. Rc4 e4 41. Ra4 Rh2 42. Ra5+ Kg4 43. Kg1 Rh3 44. Kf2 Rf3+ 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.14"]
+[Round "2"]
+[White "Nadal Fajardo, Ricard"]
+[Black "Jove Grau, Lluis"]
+[Result "0-1"]
+[ECO "B83"]
+[WhiteElo "1900"]
+[BlackElo "2077"]
+[PlyCount "30"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Be3 e6 7. Be2 Be7 8.
+Qd2 a6 9. O-O-O Bd7 10. g4 Nxd4 11. Bxd4 e5 12. Be3 Bxg4 13. Rhg1 Be6 14. Rxg7
+Qa5 15. Kb1 Nxe4 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.15"]
+[Round "3"]
+[White "Jove Grau, Lluis"]
+[Black "Ibanez Aullana, Ramon"]
+[Result "0-1"]
+[ECO "E11"]
+[WhiteElo "2077"]
+[BlackElo "2258"]
+[PlyCount "108"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 Bb4+ 4. Bd2 Qe7 5. a3 Bxd2+ 6. Qxd2 b6 7. g3 Ba6 8.
+Qc2 c5 9. Bg2 Nc6 10. dxc5 bxc5 11. Qa4 Bb7 12. O-O O-O 13. Nc3 Rab8 14. e3 d6
+15. Rfd1 Nd7 16. Ne4 Nb6 17. Qc2 Rfd8 18. Rab1 f5 19. Ned2 a5 20. b3 Qf6 21.
+Rbc1 e5 22. Nb1 e4 23. Ne1 Ne5 24. Nc3 a4 25. Bf1 h5 26. Rb1 Qe6 27. Nxa4 Nxa4
+28. bxa4 h4 29. Rb6 Bc6 30. a5 Ra8 31. a6 hxg3 32. hxg3 Qh6 33. Bg2 Qe6 34. Bf1
+Kh7 35. Rdb1 Rd7 36. Qe2 Qf7 37. a4 Bxa4 38. Qa2 Bc6 39. Rb8 Raa7 40. R1b6 Qh5
+41. Qb1 Rdc7 42. Rd8 Nf7 43. Rf8 Bd7 44. Qc2 Bc8 45. Be2 Qg5 46. Qd1 Qe7 47.
+Rxc8 Rxc8 48. Qd5 Qe5 49. Rb7 Qxd5 50. cxd5 Rxb7 51. axb7 Rb8 52. g4 Rxb7 53.
+gxf5 Rb1 54. Kf1 Ne5 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.16"]
+[Round "4"]
+[White "Kakumanu, Kautil"]
+[Black "Jove Grau, Lluis"]
+[Result "0-1"]
+[ECO "C07"]
+[WhiteElo "1956"]
+[BlackElo "2077"]
+[PlyCount "72"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nd2 c5 4. exd5 Qxd5 5. dxc5 Bxc5 6. Ngf3 Nf6 7. Bc4 Qh5 8.
+O-O Nc6 9. Qe2 O-O 10. Ne4 Nxe4 11. Qxe4 e5 12. a3 Bf5 13. Qd5 Bb6 14. Nxe5 Be6
+15. Nxc6 Bxd5 16. Ne7+ Kh8 17. Nxd5 Bc5 18. Bf4 Rad8 19. Nc3 Rfe8 20. Rae1 Rxe1
+21. Rxe1 Bxf2+ 22. Kxf2 Qc5+ 23. Be3 Qxc4 24. Re2 h5 25. h3 Rd6 26. Bxa7 Qf4+
+27. Kg1 Qc1+ 28. Kh2 Re6 29. Rf2 Qxb2 30. Bd4 Qxa3 31. Nb5 Qc1 32. Rxf7 Re1 33.
+Bc3 Rh1+ 34. Kg3 Qg5+ 35. Kf2 Qxb5 36. Rxg7 Qc5+ 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.17"]
+[Round "5"]
+[White "Jove Grau, Lluis"]
+[Black "Carrasco Rodriguez, Jesus"]
+[Result "1-0"]
+[ECO "D11"]
+[WhiteElo "2077"]
+[BlackElo "2202"]
+[PlyCount "75"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 a6 5. Nc3 b5 6. c5 Nbd7 7. b4 a5 8. bxa5
+Qxa5 9. Bd2 b4 10. Ne2 Ne4 11. Nc1 e5 12. Nb3 Qa4 13. Be2 exd4 14. exd4 Be7 15.
+O-O O-O 16. Qe1 Nxd2 17. Qxd2 Bf6 18. Rfe1 Ba6 19. Bxa6 Rxa6 20. Qf4 Rfa8 21.
+h4 Nf8 22. g4 R6a7 23. g5 Be7 24. Re3 Qa6 25. Nc1 Qc4 26. Ne5 Qc2 27. Ncd3 Qa4
+28. Rb1 f6 29. Ng4 Ng6 30. Qf5 Qc2 31. Rbe1 fxg5 32. Qe6+ Kh8 33. Nde5 Nxe5 34.
+Nxe5 g6 35. Nxc6 Rf8 36. R1e2 Qd1+ 37. Kg2 Rf6 38. Qe5 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.18"]
+[Round "6"]
+[White "Coll Ortega, Jordi"]
+[Black "Jove Grau, Lluis"]
+[Result "1-0"]
+[ECO "C07"]
+[WhiteElo "2243"]
+[BlackElo "2077"]
+[PlyCount "101"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nd2 c5 4. exd5 Qxd5 5. Ngf3 cxd4 6. Bc4 Qc5 7. O-O Nc6 8.
+Qe2 Nf6 9. Nb3 Qb6 10. Rd1 Bc5 11. a4 Be7 12. Nfxd4 Nxd4 13. Rxd4 Bd7 14. Be3
+Qc7 15. Bf4 Qc8 16. Bb5 Bc6 17. Na5 O-O 18. Nxc6 bxc6 19. Ba6 Qe8 20. Bb7 Rd8
+21. Rxd8 Qxd8 22. Bxc6 Qb6 23. Bb5 Nd5 24. Be5 Bd6 25. Rd1 Bxe5 26. Qxe5 g6 27.
+g3 Qb7 28. b3 Rc8 29. Bc4 Nb4 30. Rd2 Nc6 31. Qe4 Qc7 32. Ba6 Rd8 33. Rxd8+
+Nxd8 34. b4 e5 35. Bc4 Nc6 36. c3 Kg7 37. Kg2 Ne7 38. a5 Nf5 39. Qd5 e4 40.
+Qxe4 f6 41. Qe6 Nd6 42. Bd5 Nb5 43. Qg8+ Kh6 44. c4 Nc3 45. h4 Qd6 46. b5 Qc5
+47. Qe6 Qd4 48. Qe3+ Qxe3 49. fxe3 Na4 50. Bc6 Nc5 51. b6 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.19"]
+[Round "7"]
+[White "Jove Grau, Lluis"]
+[Black "Bannink, Bernard"]
+[Result "0-1"]
+[ECO "D27"]
+[WhiteElo "2077"]
+[BlackElo "2232"]
+[PlyCount "64"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 Nf6 3. e3 c5 4. c4 dxc4 5. Bxc4 e6 6. O-O a6 7. a4 Nc6 8. Nc3
+Qc7 9. e4 cxd4 10. Nxd4 Nxd4 11. Qxd4 Bc5 12. Qd1 O-O 13. Qe2 Bd4 14. Bd3 Rd8
+15. Bg5 Bd7 16. Kh1 h6 17. Bh4 Bxc3 18. bxc3 g5 19. Bg3 e5 20. h4 Kg7 21. Rfc1
+Bc6 22. hxg5 hxg5 23. Qe3 Kg6 24. Qf3 Bd7 25. Rab1 Bg4 26. Qe3 Be6 27. Be2 Nd7
+28. Rb4 f6 29. f3 Nc5 30. Bf2 Rac8 31. Qxc5 Qh7+ 32. Kg1 Rh8 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.20"]
+[Round "8"]
+[White "Perez Garcia, Adria"]
+[Black "Jove Grau, Lluis"]
+[Result "1/2-1/2"]
+[ECO "B22"]
+[WhiteElo "1984"]
+[BlackElo "2077"]
+[PlyCount "245"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. c3 d5 3. exd5 Qxd5 4. d4 Nf6 5. Nf3 Nbd7 6. Be2 e6 7. Na3 a6 8. Nc2
+cxd4 9. cxd4 b5 10. O-O Bb7 11. Bf4 Nb6 12. Re1 Be7 13. Bd3 O-O 14. Be5 Rac8
+15. Ne3 Qd8 16. Ng5 h6 17. Nh3 Nc4 18. Bxc4 bxc4 19. Rc1 Qa5 20. Nf4 Nd7 21.
+Nxc4 Qd8 22. Nd6 Rxc1 23. Qxc1 Ba8 24. Ne4 Nxe5 25. dxe5 Qa5 26. Nc3 Rc8 27.
+Qe3 Bg5 28. h4 Bxh4 29. Qh3 Bg5 30. Nxe6 Bd2 31. Qg4 g6 32. Nf4 Rc4 33. Rd1
+Qxe5 34. Nxg6 Rxg4 35. Nxe5 Rxg2+ 36. Kf1 Bxc3 37. Rd8+ Kg7 38. Rxa8 Rg5 39. f4
+Rf5 40. bxc3 Rxf4+ 41. Kg2 Ra4 42. Ra7 Rxa2+ 43. Kg3 Re2 44. Rxf7+ Kg8 45. Rf6
+Re3+ 46. Nf3 Rxc3 47. Rxa6 Kg7 48. Ra4 Kh7 49. Rf4 Ra3 50. Kh4 Ra5 51. Kg4 Kg7
+52. Nh4 Rg5+ 53. Kf3 Ra5 54. Rb4 Rh5 55. Kg3 Ra5 56. Rb7+ Kh8 57. Ng6+ Kg8 58.
+Nf4 Rg5+ 59. Kf3 Ra5 60. Rd7 Rf5 61. Ke4 Rf7 62. Rd6 Kh7 63. Ke5 Kg7 64. Nh5+
+Kh7 65. Nf6+ Kg7 66. Kf5 Ra7 67. Nh5+ Kh7 68. Kf6 Rb7 69. Nf4 Rg7 70. Rd1 Ra7
+71. Ne6 Ra6 72. Rh1 Ra7 73. Ng5+ Kg8 74. Rxh6 Ra6+ 75. Ne6 Rb6 76. Rg6+ Kh8 77.
+Rg1 Ra6 78. Re1 Rb6 79. Kf7 Rb7+ 80. Kg6 Rb6 81. Kh5 Kg8 82. Ng5 Kg7 83. Re7+
+Kf6 84. Rh7 Ke5 85. Kg4 Rb4+ 86. Kf3 Rb3+ 87. Kg4 Rb4+ 88. Kh5 Rb5 89. Rf7 Ra5
+90. Re7+ Kd4 91. Kg4 Ra1 92. Kf4 Rf1+ 93. Nf3+ Kd5 94. Ke3 Ra1 95. Rd7+ Kc5 96.
+Rd2 Ra4 97. Ne5 Ra3+ 98. Nd3+ Kd5 99. Kf4 Ra4+ 100. Kf5 Rd4 101. Nf4+ Kc4 102.
+Re2 Rd8 103. Ke5 Kc3 104. Nd5+ Kc4 105. Rc2+ Kd3 106. Rc3+ Kd2 107. Rh3 Ra8
+108. Nb6 Rb8 109. Nc4+ Kc2 110. Nd6 Ra8 111. Kd4 Rd8 112. Kc5 Rg8 113. Kb4 Kd2
+114. Kc4 Rg4+ 115. Kd5 Ke2 116. Nf5 Rg8 117. Ng3+ Kd2 118. Rh2+ Kd3 119. Nh5
+Rd8+ 120. Ke6 Re8+ 121. Kd7 Ra8 122. Nf6 Ra6 123. Rh3+ 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.21"]
+[Round "9"]
+[White "Jove Grau, Lluis"]
+[Black "Rakshitta, Ravi"]
+[Result "0-1"]
+[ECO "A00"]
+[WhiteElo "2077"]
+[BlackElo "1716"]
+[PlyCount "62"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. b4 e5 2. Bb2 d6 3. e3 g6 4. c4 Bg7 5. Nf3 Nf6 6. d4 e4 7. Nfd2 O-O 8. Nc3
+Re8 9. Qc2 Bf5 10. Be2 h5 11. h3 Qe7 12. Nd5 Nxd5 13. cxd5 c6 14. g4 hxg4 15.
+hxg4 Bd7 16. dxc6 Nxc6 17. a3 Rac8 18. Qb3 Be6 19. Qa4 a6 20. b5 axb5 21. Qxb5
+d5 22. Nb3 Na7 23. Qb6 Rc2 24. Nc5 Nc8 25. Qb3 Rxb2 26. Qxb2 Qxc5 27. Rb1 Qe7
+28. a4 Nd6 29. Qb4 Qd7 30. Kd2 Nc4+ 31. Bxc4 dxc4 0-1
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.18"]
+[Round "1"]
+[White "Jove Grau, Lluis"]
+[Black "Christiansen, Johan Sebastian"]
+[Result "0-1"]
+[ECO "D05"]
+[WhiteElo "2082"]
+[BlackElo "2475"]
+[PlyCount "76"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 d5 3. e3 e6 4. Bd3 b6 5. O-O Bb7 6. Nbd2 g6 7. Qe2 Ne4 8. c4
+Bg7 9. Ne5 O-O 10. b3 c5 11. Bb2 Nxd2 12. Qxd2 dxc4 13. bxc4 cxd4 14. exd4 Nc6
+15. Qe3 Qc7 16. f4 Rfd8 17. Rad1 Rac8 18. Rf2 Ba6 19. Nxc6 Qxc6 20. d5 exd5 21.
+Bxg7 Kxg7 22. f5 dxc4 23. f6+ Kh8 24. Qh6 Rg8 25. Bc2 Qc5 26. Re1 Qf8 27. Qh4
+c3 28. Re7 Rc4 29. Qg3 Qh6 30. Rfe2 Rf4 31. Re1 Rxf6 32. Qxc3 Qg7 33. Qc7 Rf8
+34. Qxa7 Rf1+ 35. Rxf1 Qd4+ 36. Kh1 Bxf1 37. Rxf7 Bxg2+ 38. Kxg2 Qd5+ 0-1
+
+[Event "Sants op Hostafrancs i La Bordeta op"]
+[Site "Barcelona"]
+[Date "2014.08.24"]
+[Round "3.42"]
+[White "Gomez Ledo, RC."]
+[Black "Jove Grau, L."]
+[Result "1-0"]
+[ECO "A53"]
+[WhiteElo "2411"]
+[BlackElo "2100"]
+[PlyCount "47"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[Source "Mark Crowther"]
+[SourceDate "2014.09.01"]
+
+1. d4 Nf6 2. c4 d6 3. Nf3 Nbd7 4. g3 e5 5. Bg2 Be7 6. O-O O-O 7. Nc3 Re8 8. e4
+c6 9. h3 Qc7 10. Re1 a6 11. a4 b6 12. b3 Nf8 13. Bb2 Ng6 14. Rc1 h6 15. Qc2 Nh7
+16. Nd1 Ng5 17. Nxg5 Bxg5 18. Ne3 Bxe3 19. Rxe3 c5 20. d5 Rf8 21. Rf1 f5 22. f4
+exf4 23. gxf4 fxe4 24. Rg3 1-0
+
+[Event "Sants op Hostafrancs i La Bordeta op"]
+[Site "Barcelona"]
+[Date "2014.08.26"]
+[Round "5.53"]
+[White "Chalmeta Ugas, R."]
+[Black "Jove Grau, L."]
+[Result "1-0"]
+[ECO "B09"]
+[WhiteElo "2292"]
+[BlackElo "2100"]
+[PlyCount "77"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[Source "Mark Crowther"]
+[SourceDate "2014.09.01"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. f4 Bg7 5. Nf3 O-O 6. Bd3 Nc6 7. e5 dxe5 8. fxe5
+Nd5 9. Nxd5 Qxd5 10. c3 Bg4 11. h3 Bxf3 12. Qxf3 Qxf3 13. gxf3 f6 14. e6 Rfd8
+15. Ke2 Rd5 16. Bf4 Rc8 17. b4 Rh5 18. Bc4 Bh6 19. Bg3 Kg7 20. Bb3 Nd8 21. Rad1
+c6 22. Rd3 b6 23. d5 cxd5 24. Bxd5 Nc6 25. f4 Rf5 26. Be4 Rxf4 27. Bxf4 Bxf4
+28. Rd7 Kf8 29. Rhd1 Bd6 30. R1xd6 exd6 31. Rxh7 Ne7 32. Rf7+ Ke8 33. Rxf6 Rxc3
+34. Bd3 Ra3 35. Bb5+ Kd8 36. Rf8+ Kc7 37. Re8 Nc6 38. Bxc6 Kxc6 39. Rc8+ 1-0

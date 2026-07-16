@@ -1,0 +1,426 @@
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.13"]
+[Round "1.20"]
+[White "Delgado Camara, LF."]
+[Black "Tadevosyan, G."]
+[Result "1-0"]
+[ECO "C18"]
+[WhiteElo "2047"]
+[BlackElo "1843"]
+[PlyCount "89"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Ne7 7. Qg4 Kf8 8. h4
+Qc7 9. Rh3 cxd4 10. cxd4 Qxc2 11. Rd3 Nbc6 12. h5 h6 13. Bd2 Nf5 14. Qf4 Qa4
+15. Nf3 Bd7 16. g4 Nfe7 17. Nh4 Kg8 18. Rf3 Rf8 19. Ng6 Nxg6 20. hxg6 f5 21.
+Be3 Ne7 22. Bd3 Nxg6 23. Qg3 f4 24. Bxf4 Qxd4 25. Rd1 Ba4 26. Rd2 Qa1+ 27. Ke2
+Nxf4+ 28. Rxf4 Qxe5+ 29. Kf3 Rxf4+ 30. Qxf4 Qxf4+ 31. Kxf4 Kf7 32. Ke5 Rc8 33.
+Rb2 b6 34. Kd4 Kf6 35. f4 Bd1 36. Rg2 Bf3 37. g5+ Kf7 38. Rg3 Be4 39. gxh6 gxh6
+40. Ba6 Rc1 41. Ke5 h5 42. Rg5 Re1 43. Kd6 Bf3 44. f5 e5 45. Bc8 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.14"]
+[Round "2.18"]
+[White "Romero Funieles, R de Jesus"]
+[Black "Delgado Camara, LF."]
+[Result "0-1"]
+[ECO "A80"]
+[WhiteElo "1939"]
+[BlackElo "2047"]
+[PlyCount "68"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. d4 e6 2. Nf3 d5 3. e3 f5 4. Ne5 Nf6 5. Be2 Bd6 6. Bh5+ g6 7. Bf3 Nbd7 8.
+Nxd7 Bxd7 9. Nd2 Qe7 10. a3 e5 11. dxe5 Bxe5 12. O-O O-O 13. c4 c6 14. cxd5
+cxd5 15. Nb3 Bc6 16. Nd4 Ne4 17. Bxe4 fxe4 18. f4 exf3 19. Nxf3 Bg7 20. Re1
+Rae8 21. Rb1 Qe4 22. Bd2 d4 23. exd4 Bxd4+ 24. Kh1 Qg4 25. Rxe8 Rxe8 26. Qf1
+Bd5 27. Nxd4 Qxd4 28. Bc3 Qg4 29. Re1 Rf8 30. Qg1 Rf5 31. Bb4 Rg5 32. Re8+ Kg7
+33. Re7+ Kh6 34. Bd2 Bxg2+ 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.15"]
+[Round "3.8"]
+[White "Delgado Camara, LF."]
+[Black "Escofet Llongueras, J."]
+[Result "0-1"]
+[ECO "C14"]
+[WhiteElo "2047"]
+[BlackElo "1947"]
+[PlyCount "60"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Be7 5. e5 Nfd7 6. h4 a6 7. Qg4 h5 8. Qf4 c5
+9. O-O-O cxd4 10. Nxd5 Bxg5 11. hxg5 Nc6 12. Nf3 exd5 13. e6 fxe6 14. Bd3 Nf8
+15. Rhe1 Qe7 16. Ne5 Bd7 17. Ng6 Nxg6 18. Bxg6+ Kd8 19. Qg3 Be8 20. Bf5 Bd7 21.
+f4 Qd6 22. Bh3 Kc7 23. Qf2 Rhf8 24. g3 Rae8 25. Qf3 h4 26. Qg2 hxg3 27. Rf1
+Rxf4 28. Rfe1 Rf2 29. Qg1 Rh8 30. Bxe6 Rhh2 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.16"]
+[Round "4.23"]
+[White "Brandt, S."]
+[Black "Delgado Camara, LF."]
+[Result "1-0"]
+[ECO "A08"]
+[WhiteElo "1889"]
+[BlackElo "2047"]
+[PlyCount "123"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 e6 2. d3 d5 3. Nd2 c5 4. Ngf3 Nc6 5. g3 g6 6. Bg2 Bg7 7. O-O Nge7 8. Re1
+b6 9. c3 O-O 10. e5 Qc7 11. Qe2 a5 12. Nf1 a4 13. a3 b5 14. Bf4 Na5 15. h4 Nb3
+16. Rad1 b4 17. N1h2 Ra7 18. Ng4 Nf5 19. Bh3 Qd8 20. Bg5 Qb6 21. Nf6+ Kh8 22.
+g4 Nh6 23. Qe3 d4 24. cxd4 cxd4 25. Qf4 Ng8 26. Nxg8 Kxg8 27. h5 f6 28. exf6 h6
+29. hxg6 hxg5 30. f7+ Rfxf7 31. gxf7+ Rxf7 32. Qg3 Qd8 33. axb4 Bb7 34. Nd2
+Nxd2 35. Rxd2 Rf3 36. Qh2 Rf4 37. Kf1 Qd6 38. Qg1 Qxb4 39. Rde2 Ba6 40. Qg3 Qb3
+41. Rxe6 Bxd3+ 42. Kg1 Qc2 43. Bg2 Bc4 44. Re8+ Bf8 45. Be4 d3 46. Rf1 Rxe4 47.
+Rxe4 d2 48. Rxc4 Qxc4 49. Qf3 Bg7 50. Rd1 Qd4 51. Qe2 Qxb2 52. Rxd2 Qc1+ 53.
+Kg2 Qc6+ 54. Qf3 Qc8 55. Qd5+ Kf8 56. Qd6+ Kg8 57. Qd8+ Qxd8 58. Rxd8+ Kf7 59.
+Ra8 Be5 60. Rxa4 Bf4 61. Kf3 Ke6 62. Rxf4 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.17"]
+[Round "5.32"]
+[White "Delgado Camara, LF."]
+[Black "Llopis Jordan, L."]
+[Result "1/2-1/2"]
+[ECO "B12"]
+[WhiteElo "2047"]
+[BlackElo "1908"]
+[PlyCount "64"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 c6 2. d4 d5 3. f3 e6 4. Be3 dxe4 5. Nd2 Nd7 6. fxe4 b6 7. Ngf3 Ngf6 8.
+Bd3 Bb7 9. O-O h6 10. Ne5 Qc7 11. Ndc4 Be7 12. Nxf7 Kxf7 13. e5 Rhf8 14. exf6
+Nxf6 15. Qh5+ Kg8 16. Qg6 Bd6 17. Bxh6 Bxh2+ 18. Kh1 Qg3 19. Qxg7+ Qxg7 20.
+Bxg7 Kxg7 21. Kxh2 Rh8+ 22. Kg1 Rh4 23. c3 c5 24. dxc5 bxc5 25. Ne5 Rah8 26.
+Rae1 Bxg2 27. Kxg2 Rh2+ 28. Kg3 R8h3+ 29. Kf4 Nd5+ 30. Kg4 Rh4+ 31. Kf3 R4h3+
+32. Kg4 Rh4+ 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.18"]
+[Round "6.38"]
+[White "Rius Riu, G."]
+[Black "Delgado Camara, LF."]
+[Result "0-1"]
+[ECO "A84"]
+[WhiteElo "1846"]
+[BlackElo "2047"]
+[PlyCount "78"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. d4 e6 2. Nf3 d5 3. e3 f5 4. c4 c6 5. Nbd2 Bd6 6. Bd3 Nf6 7. c5 Bc7 8. b4 O-O
+9. Bb2 Nbd7 10. O-O Qe7 11. Ne5 Ne4 12. Bxe4 fxe4 13. Nxd7 Bxd7 14. f4 Rf6 15.
+Qe2 Rh6 16. Bc3 Be8 17. Rf2 Bh5 18. g4 Bxg4 19. Qf1 Qh4 20. Qe1 Bh3 21. Re2
+Rg6+ 22. Kh1 Qg4 23. Qf2 Qh5 24. Rg1 Bg4 25. Ree1 Bd8 26. Ra1 Bh4 27. Qf1 Be2
+28. Qh3 Bg4 29. Qf1 Rf8 30. h3 Be7 31. Rg3 Be2 32. Qg2 Rff6 33. Rg1 Rxg3 34.
+Qxg3 Rg6 35. Qh2 Bf3+ 36. Nxf3 Qxf3+ 37. Rg2 Bh4 38. Bd2 Bg3 39. Qg1 Rh6 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.19"]
+[Round "7.26"]
+[White "Delgado Camara, LF."]
+[Black "Rey Plaza, S."]
+[Result "1-0"]
+[ECO "C34"]
+[WhiteElo "2047"]
+[BlackElo "1831"]
+[PlyCount "83"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 e5 2. f4 exf4 3. Nf3 d6 4. d4 f5 5. Nc3 Qe7 6. Bxf4 fxe4 7. Ng5 c6 8. Be2
+Bf5 9. Bg4 Bxg4 10. Qxg4 Nd7 11. Ne6 Ngf6 12. Qh3 Nb6 13. Bg5 h6 14. Bxf6 gxf6
+15. Nxe4 Kf7 16. O-O Bg7 17. Qh5+ Kxe6 18. Nxf6 Bxf6 19. Rae1+ Kd7 20. Qf5+ Kc7
+21. Rxe7+ Bxe7 22. Qf7 Kd7 23. Re1 Rae8 24. c4 Rhf8 25. Qe6+ Kd8 26. b4 Nd7 27.
+Qxh6 c5 28. dxc5 dxc5 29. b5 Rf6 30. Qd2 b6 31. Qd5 Kc7 32. a4 Rd6 33. Qe4 Nf6
+34. Qf3 Nd7 35. a5 Rf8 36. Qe4 Re8 37. a6 Rd4 38. Qb7+ Kd8 39. Qxa7 Rxc4 40.
+Qa8+ Kc7 41. Qb7+ Kd8 42. a7 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.20"]
+[Round "8.16"]
+[White "Roig Ruiz, C."]
+[Black "Delgado Camara, LF."]
+[Result "0-1"]
+[ECO "A90"]
+[WhiteElo "1997"]
+[BlackElo "2047"]
+[PlyCount "98"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. d4 e6 2. c4 f5 3. Nc3 Nf6 4. Nf3 d5 5. g3 c6 6. Bg2 Bd6 7. Bg5 Nbd7 8. O-O
+O-O 9. c5 Bc7 10. b4 Qe8 11. Bxf6 Rxf6 12. Qc2 e5 13. e3 e4 14. Nd2 Rh6 15.
+Rfb1 Qh5 16. Nf1 Nf6 17. b5 f4 18. exf4 Bh3 19. bxc6 Bxg2 20. cxb7 Rb8 21. Kxg2
+Qh3+ 22. Kg1 Bxf4 23. Nxd5 Nxd5 24. Qxe4 Nc3 25. Qf3 Bd2 26. c6 Rf6 27. c7 Rxb7
+28. Rxb7 Rxf3 29. Rb8+ Rf8 30. Nxd2 h5 31. Nf3 Qd7 32. Ng5 Rc8 33. d5 Qxc7 34.
+Rxc8+ Qxc8 35. Re1 Nxd5 36. Re5 Nf6 37. h4 Qc1+ 38. Kg2 Qc6+ 39. Kg1 Qd7 40.
+Rc5 g6 41. a4 Ng4 42. a5 Nxf2 43. a6 Nh3+ 44. Kg2 Nxg5 45. Rxg5 Qc6+ 46. Kf2
+Qxa6 47. Ke3 Kg7 48. Kf4 Qc4+ 49. Ke3 Qb4 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.21"]
+[Round "9.12"]
+[White "Delgado Camara, LF."]
+[Black "Laszczak, P."]
+[Result "1/2-1/2"]
+[ECO "B12"]
+[WhiteElo "2047"]
+[BlackElo "1610"]
+[PlyCount "103"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 c6 2. d4 d5 3. f3 e6 4. Be3 Qb6 5. Qc1 Nf6 6. Bd3 c5 7. c3 Nc6 8. Ne2
+cxd4 9. cxd4 Nb4 10. Bc2 Nxc2+ 11. Qxc2 Bb4+ 12. Nbc3 O-O 13. e5 Nd7 14. O-O
+Nxe5 15. Na4 Qc6 16. Nac3 Nc4 17. Bf2 Bd7 18. Rac1 Rac8 19. h4 f5 20. Nf4 Nxb2
+21. Qxb2 Bxc3 22. Qe2 Qd6 23. Qe3 Bb4 24. Bg3 Rxc1 25. Rxc1 Rc8 26. Rb1 a5 27.
+a3 Bxa3 28. Nh5 Qf8 29. Rxb7 Bc1 30. Qe5 Qf7 31. Qd6 Be3+ 32. Kh2 Rd8 33. Qc7
+Qe7 34. Kh3 Kf7 35. Qe5 Bh6 36. Bf4 Kg6 37. Bxh6 gxh6 38. g4 fxg4+ 39. fxg4
+Qa3+ 40. Ng3 Qe7 41. Nf5 Qa3+ 42. Ne3 Kf7 43. g5 hxg5 44. hxg5 Qe7 45. Ng4 Qa3+
+46. Kh4 Qf3 47. Nh6+ Kg6 48. Rxd7 Qf2+ 49. Kh3 Qf1+ 50. Kh4 Qh1+ 51. Kg3 Qg1+
+52. Kh3 1/2-1/2
+
+[Event "Badalona op B"]
+[Site "Badalona"]
+[Date "2016.08.03"]
+[Round "2"]
+[White "Delgado Camara, Lluis Felix"]
+[Black "Costa Trave, Jaume"]
+[Result "1-0"]
+[ECO "C10"]
+[WhiteElo "1792"]
+[BlackElo "1898"]
+[PlyCount "95"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bd7 5. Nf3 Bc6 6. Bd3 Nd7 7. O-O Ngf6 8.
+Neg5 h6 9. Nxe6 fxe6 10. Bg6+ Ke7 11. c4 Be4 12. Nh4 Rg8 13. Bxe4 Nxe4 14. Ng6+
+Kf6 15. Nxf8 Rxf8 16. Qf3+ Ke7 17. Qxe4 Nf6 18. Qd3 Kf7 19. Re1 Qd7 20. b3 Kg8
+21. Bb2 Rad8 22. Rad1 c6 23. h3 Qf7 24. Qe3 Rde8 25. Ba3 Nh5 26. Bxf8 Kxf8 27.
+d5 exd5 28. Qxe8+ Qxe8 29. Rxe8+ Kxe8 30. cxd5 c5 31. d6 Kd7 32. Rd5 Nf4 33.
+Rxc5 Kxd6 34. Rf5 Ne2+ 35. Kf1 Nc1 36. Rf7 Kc6 37. Rxg7 Nxa2 38. Rg6+ Kc5 39.
+Rxh6 Nc1 40. Rh7 Kc6 41. b4 Nd3 42. Rh4 Kb5 43. Rh7 Kb6 44. b5 Nc5 45. g4 Kxb5
+46. g5 a5 47. g6 a4 48. g7 1-0
+
+[Event "Badalona op B"]
+[Site "Badalona"]
+[Date "2016.08.04"]
+[Round "3"]
+[White "Saiz Rodrigo, Fernando"]
+[Black "Delgado Camara, Lluis Felix"]
+[Result "0-1"]
+[ECO "C00"]
+[WhiteElo "1891"]
+[BlackElo "1792"]
+[PlyCount "92"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. Qe2 c5 3. g3 Nc6 4. c3 Be7 5. Bg2 d5 6. e5 Qc7 7. f4 Nh6 8. Nf3 b6
+9. O-O O-O 10. Na3 a6 11. Nc2 b5 12. d3 a5 13. h3 Nf5 14. Kh2 b4 15. Ne3 Nxe3
+16. Bxe3 f6 17. exf6 Rxf6 18. Rfe1 Bd7 19. Rac1 e5 20. fxe5 Rg6 21. Bf4 Be6 22.
+d4 c4 23. Qe3 h6 24. h4 Bg4 25. Nd2 Rf8 26. Bxd5+ Kh8 27. Be4 Bf5 28. Bxf5 Rxf5
+29. Qe4 Qc8 30. d5 Rg4 31. e6 Qf8 32. Rf1 Qf6 33. Nf3 Rfxf4 34. gxf4 Rxf4 35.
+Qe2 Bd6 36. Kh1 Ne5 37. Nh2 Nd3 38. Rxf4 Nxf4 39. Qg4 Qe5 40. Qf3 Nd3 41. Rc2
+Ne1 42. Re2 Nxf3 43. Rxe5 Nxe5 44. Kg2 Nd3 45. Nf3 Nxb2 46. cxb4 axb4 0-1
+
+[Event "Badalona op B"]
+[Site "Badalona"]
+[Date "2016.08.05"]
+[Round "4"]
+[White "Al Ibrahim, Abdulrahman"]
+[Black "Delgado Camara, Lluis Felix"]
+[Result "0-1"]
+[ECO "C06"]
+[WhiteElo "1708"]
+[BlackElo "1792"]
+[PlyCount "72"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 cxd4 8. cxd4
+f6 9. exf6 Nxf6 10. Nf3 Bd6 11. O-O Qc7 12. Nc3 a6 13. Bg5 O-O 14. Rc1 Bd7 15.
+Re1 Ng4 16. h3 Bh2+ 17. Kf1 Nxf2 18. Kxf2 Qg3+ 19. Ke3 Rxf3+ 20. gxf3 Qxg5+ 21.
+Kf2 Qg3+ 22. Ke3 Qf4+ 23. Kf2 Nxd4 24. Be4 dxe4 25. Nxe4 Rf8 26. Rc3 e5 27. Kg2
+Bc6 28. Qd3 Bxe4 29. Qxe4 Qg3+ 30. Kh1 Qxh3 31. Qg4 Qh6 32. Kg2 Qd2+ 33. Kh3
+Qxe1 34. Rc7 Rxf3+ 35. Kxh2 Rf2+ 36. Kh3 Qh1+ 0-1
+
+[Event "Badalona op B"]
+[Site "Badalona"]
+[Date "2016.08.06"]
+[Round "5"]
+[White "Delgado Camara, Lluis Felix"]
+[Black "Flores Linan, Jose Luis"]
+[Result "1-0"]
+[ECO "B54"]
+[WhiteElo "1792"]
+[BlackElo "1824"]
+[PlyCount "55"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 g6 5. Nc3 Bg7 6. Be3 Nc6 7. f3 Qb6 8. Nd5
+Qa5+ 9. b4 Qd8 10. Nb5 Kf8 11. Ndc7 Rb8 12. Rb1 Nf6 13. Bc4 h5 14. Qd2 Kg8 15.
+Nd5 Nd7 16. Nxa7 Nce5 17. Bb3 b5 18. f4 Ng4 19. Nc6 Qf8 20. Nxb8 Nxb8 21. Bd4
+e5 22. fxe5 Nxe5 23. O-O Nbd7 24. Nb6 Nf6 25. Qg5 h4 26. Bxe5 dxe5 27. Rxf6 Qd8
+28. Rxg6 1-0
+
+[Event "Badalona op B"]
+[Site "Badalona"]
+[Date "2016.08.07"]
+[Round "6"]
+[White "Martinez Perez, Pablo"]
+[Black "Delgado Camara, Lluis Felix"]
+[Result "1-0"]
+[ECO "C05"]
+[WhiteElo "1799"]
+[BlackElo "1792"]
+[PlyCount "56"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. f4 c5 6. Ngf3 Nc6 7. Nb3 cxd4 8.
+Nbxd4 Nc5 9. c3 Be7 10. Be2 O-O 11. O-O f6 12. exf6 Bxf6 13. Re1 Ne4 14. Bd3
+Nc5 15. Bc2 a5 16. a4 g6 17. Be3 Ne4 18. Nxc6 bxc6 19. Ne5 Qc7 20. Bxe4 dxe4
+21. Qd4 Rb8 22. b4 Rd8 23. Qxe4 Rd5 24. Bc5 axb4 25. cxb4 Ba6 26. Rad1 Rbd8 27.
+Rxd5 Rxd5 28. Nxg6 Qf7 1-0
+
+[Event "Badalona op B"]
+[Site "Badalona"]
+[Date "2016.08.08"]
+[Round "7"]
+[White "Delgado Camara, Lluis Felix"]
+[Black "Colom Andres, Xavier"]
+[Result "0-1"]
+[ECO "B12"]
+[WhiteElo "1792"]
+[BlackElo "1790"]
+[PlyCount "113"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. f3 e6 4. Be3 Qb6 5. Nd2 c5 6. dxc5 Bxc5 7. Bxc5 Qxc5 8.
+Nb3 Qe7 9. Qd4 Nf6 10. e5 Nfd7 11. f4 Nc6 12. Qd2 Nc5 13. Nxc5 Qxc5 14. Nf3 Bd7
+15. c3 a5 16. Be2 a4 17. Rd1 b5 18. Nd4 Rb8 19. Nxc6 Bxc6 20. Qd4 Qe7 21. a3
+O-O 22. O-O f6 23. Bg4 f5 24. Be2 Rfc8 25. Rd3 Kh8 26. Rh3 Rg8 27. Bd3 g6 28.
+Rff3 Rg7 29. Rh6 Qa7 30. Be2 Qxd4+ 31. cxd4 b4 32. Rhh3 bxa3 33. bxa3 Rb2 34.
+Ba6 Bb5 35. Bxb5 Rxb5 36. Rc3 Rgb7 37. Rhd3 Rb3 38. h4 Rxc3 39. Rxc3 Rb3 40.
+Rc6 Rxa3 41. Rxe6 Rd3 42. Kf2 Kg7 43. Re7+ Kf8 44. Rxh7 Rxd4 45. g3 Rb4 46. h5
+gxh5 47. Rxh5 Kg7 48. Rxf5 a3 49. Rh5 a2 50. Kf3 a1=Q 51. Kg4 Qd1+ 52. Kg5 Qf3
+53. Kh4 Rb1 54. Rg5+ Kf7 55. Rf5+ Kg6 56. Rg5+ Kh6 57. Rh5+ 0-1
+
+[Event "Badalona op B"]
+[Site "Badalona"]
+[Date "2016.08.09"]
+[Round "8"]
+[White "Ros Montes, Daniel"]
+[Black "Delgado Camara, Lluis Felix"]
+[Result "1/2-1/2"]
+[ECO "C06"]
+[WhiteElo "1885"]
+[BlackElo "1792"]
+[PlyCount "74"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 cxd4 8. cxd4
+f6 9. Nf4 Nxd4 10. Qh5+ Ke7 11. exf6+ Nxf6 12. Ng6+ hxg6 13. Qxh8 Kf7 14. O-O
+e5 15. Nb3 Nxb3 16. axb3 e4 17. Be2 d4 18. Bc4+ Be6 19. Qh3 Nd5 20. Bxd5 Qxd5
+21. Qg3 Bb4 22. Rd1 a6 23. Bd2 Be7 24. Rac1 Qh5 25. Qf4+ Bf5 26. f3 e3 27. g4
+Qg5 28. Bxe3 dxe3 29. Qxg5 Bxg5 30. Rc7+ Kg8 31. gxf5 Re8 32. Re1 gxf5 33. Re2
+Bf6 34. Kf1 b6 35. Rc6 Bd4 36. Rd6 Bc5 37. Rg6 Kf7 1/2-1/2
+
+[Event "Badalona op B"]
+[Site "Badalona"]
+[Date "2016.08.10"]
+[Round "9"]
+[White "Delgado Camara, Lluis Felix"]
+[Black "Palacios Pena, Gerardo"]
+[Result "0-1"]
+[ECO "B12"]
+[WhiteElo "1792"]
+[BlackElo "1900"]
+[PlyCount "120"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. f3 Qb6 4. Nc3 e6 5. a3 Nf6 6. Be3 Nbd7 7. Bd3 c5 8. dxc5
+Bxc5 9. Bxc5 Qxc5 10. Qd2 O-O 11. h4 Ne5 12. O-O-O Nxd3+ 13. Qxd3 dxe4 14. fxe4
+e5 15. Nf3 Bg4 16. Qd2 h6 17. Qe2 a6 18. Nd5 Nxd5 19. Rxd5 Qc7 20. Qd2 f6 21.
+Rd1 Rac8 22. Qd3 Qc4 23. b3 Qc7 24. Rd2 Qb6 25. Kb2 Rc6 26. Nh2 Be6 27. Rd6 h5
+28. Nf1 Rxd6 29. Qxd6 Qxd6 30. Rxd6 Kf7 31. Ne3 Rc8 32. a4 Rc7 33. a5 Rd7 34.
+Nc4 Ke7 35. Rxd7+ Kxd7 36. Nb6+ Kc6 37. c4 Bg4 38. Nd5 Kd6 39. Kc3 Be2 40. Ne3
+g6 41. b4 Ke6 42. Kd2 Bg4 43. b5 Kd6 44. bxa6 bxa6 45. Kc3 Be6 46. Kb4 f5 47.
+c5+ Kc6 48. exf5 gxf5 49. Nc4 Bxc4 50. Kxc4 f4 51. Kd3 Kxc5 52. Ke4 Kd6 53. Kf5
+Kd5 54. Kg5 Ke4 55. Kxh5 Kf5 56. Kh6 e4 57. h5 e3 58. Kg7 e2 59. h6 e1=Q 60. h7
+Qxa5 0-1

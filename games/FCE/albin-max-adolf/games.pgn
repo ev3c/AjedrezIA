@@ -1,0 +1,326 @@
+[Event "Barcelona blind sim ( Aten. Barcelonès "]
+[Site "Barcelona"]
+[Date "1910.08.29"]
+[Round "?"]
+[White "Albin, Max Adolf"]
+[Black "Aguilera"]
+[Result "1-0"]
+[ECO "C39"]
+[PlyCount "57"]
+[EventDate "1910.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. f4 exf4 3. Nf3 g5 4. h4 Bh6 5. hxg5 Bxg5 6. d4 d6 7. Bc4 Bg4 8. c3
+Bxf3 9. Qxf3 Qf6 10. g3 fxg3 11. Qxf6 Bxf6 12. Bf4 g2 13. Rg1 Nd7 14. Rxg2 Ne7
+15. Nd2 h5 16. O-O-O Ng6 17. Bh2 Rh7 18. Kc2 O-O-O 19. Rf1 Ngf8 20. Rgf2 Bg5
+21. Rxf7 a6 22. Be2 Rxf7 23. Rxf7 Nf6 24. e5 dxe5 25. Bxe5 N8d7 26. Nf3 Ne4 27.
+Bd3 Nxe5 28. dxe5 Nc5 29. Bf5+ 1-0
+
+[Event "Barcelona sim ( Ateneu Barcelonès )"]
+[Site "Barcelona"]
+[Date "1910.08.29"]
+[Round "?"]
+[White "Albin, Max Adolf"]
+[Black "Paluzie i Lucena, Josep"]
+[Result "1-0"]
+[ECO "C48"]
+[PlyCount "41"]
+[EventDate "1910.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nc3 Nc6 3. Nf3 Nf6 4. Bb5 Bc5 5. O-O d6 6. d4 exd4 7. Nxd4 Bd7 8.
+Nf5 O-O 9. Bg5 Ne5 10. Bxd7 Nexd7 11. Qf3 Ne5 12. Qg3 c6 13. Kh1 Bb6 14. f4 Ng6
+15. e5 dxe5 16. fxe5 Bc7 17. Nh6+ gxh6 $2 (17... Kh8 $142) 18. Bxf6 Qd7 19. Qe3
+Bd8 20. Qxh6 Bxf6 21. exf6 1-0
+
+[Event "Barcelona sim ( Ateneu Barcelonès )"]
+[Site "Barcelona"]
+[Date "1910.08.09"]
+[Round "?"]
+[White "Albin, Max Adolf"]
+[Black "Paluzie i Lucena, Josep"]
+[Result "1-0"]
+[ECO "C54"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "61"]
+[EventDate "1910.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. O-O d6 6. d3 Be6 7. Bb5 Bd7 8. d4
+exd4 9. cxd4 Bb6 10. Bg5 Qc8 11. Bxf6 gxf6 12. Bxc6 Bxc6 13. d5 Bb5 14. Nc3 $2
+(14. Re1 $142 $11) 14... Bxf1 {Normal. Una calidad es una calidad.} 15. Qxf1
+Qd7 (15... Qg4 $142) 16. a4 a6 17. Nh4 Rg8 18. Nf5 O-O-O 19. b4 Rg5 (19... a5
+$142) 20. Qd3 (20. a5 $142) 20... Rdg8 21. g3 h5 22. h4 $4 {Un error muy grave.
+..} Rg4 $4 {... que Paluzíe no agradece.} (22... Qxf5 $3 {Paluzíe no se da
+cuenta que tenía esta gran jugada que gana.} 23. exf5 (23. hxg5 Qxf2+ 24. Kh1
+Be3 $19 (24... Rxg5 $19)) 23... Rxg3+ $19) 23. a5 Ba7 $4 (23... Qxf5 $1 {La
+amenzada aún era latente.}) 24. b5 axb5 $4 (24... Qxf5 $1 {Y continuaba la
+misma jugada. Increíble! Por ello, opino que Max Albin debía jugar a ciegas,
+puesto que es del todo inconcebible que durante tantas jugadas no se diera
+cuenta de la entreda de dama en f5... pero tampoco lo vio Paluzíe.} 25. b6 Bxb6
+26. exf5 (26. axb6 Qe5 $19) 26... Rxg3+ $19) 25. Nxb5 Bc5 26. a6 Rxg3+ $2 {
+Esto ya es un regalo. ¿No se daría cuenta del caballo de f5?} 27. Nxg3 Qh3 28.
+axb7+ Kd7 29. Nd4 Bxd4 30. b8=N+ (30. Qxd4 $142) 30... Ke7 31. Nc6+ 1-0
+
+[Event "Camp. Barcelona 1913 ( Sala Imperio )"]
+[Site "Barcelona"]
+[Date "1912.10.28"]
+[Round "1"]
+[White "Albin, Max Adolf"]
+[Black "Reverter, Josep J"]
+[Result "0-1"]
+[ECO "C42"]
+[PlyCount "134"]
+[EventDate "1912.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. Qe2 Qe7 6. d3 Nf6 7. Nc3 Nc6 8.
+Bg5 Bg4 9. O-O-O Qxe2 10. Bxe2 Be7 11. Bxf6 Bxf6 12. Nd5 O-O-O 13. Nxf6 gxf6
+14. Nd4 Bxe2 15. Nxe2 Rde8 16. Ng3 Re6 17. d4 d5 18. c4 Ne7 19. c5 Rg8 20. Rd2
+c6 21. Kc2 f5 22. Nh5 Rg5 23. Nf4 Re4 24. g3 Ng6 25. h4 Rg4 26. f3 Rexf4 27.
+gxf4 Rxf4 28. h5 Nh4 29. Rd3 Nxf3 30. Kc3 Ng5 31. Rg1 h6 32. a4 f6 33. Re3 Kd7
+34. a5 a6 35. Kd3 Re4 36. Rxe4 fxe4+ 37. Ke3 Ke6 38. Rg3 Kf5 39. Rg2 Ke6 40.
+Kf4 Nh3+ 41. Ke3 Ng5 42. Rg1 Ke7 43. Rg3 f5 44. Kf4 Kf6 45. Rb3 Ne6+ 46. Kg3
+Nd8 47. Kf4 Ne6+ 48. Kg3 f4+ 49. Kh3 Nd8 50. Kg4 f3 51. Kg3 Kg5 52. Ra3 Kxh5
+53. Kf2 Kg4 54. Ke3 h5 55. Ra1 h4 56. Rg1+ Kf5 57. Rh1 Kg5 58. Rg1+ Kh6 59. Rg4
+Kh5 60. Rg7 h3 61. Rh7+ Kg4 62. Rg7+ Kh4 63. Rh7+ Kg3 64. Rg7+ Kh2 65. Re7 Kg1
+66. Rg7+ Kf1 67. Rh7 Ke1 0-1
+
+[Event "Camp. Barcelona 1913 ( Sala Imperio )"]
+[Site "Barcelona"]
+[Date "1912.10.30"]
+[Round "2"]
+[White "Batlle, Josep"]
+[Black "Albin, Max Adolf"]
+[Result "0-1"]
+[ECO "C14"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "102"]
+[EventDate "1912.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Be7 5. e5 Nfd7 6. Bxe7 Qxe7 7. Nb5 Qd8 8.
+c3 a6 9. Na3 c5 10. f4 Nc6 11. Nc2 Qb6 12. b3 cxd4 13. cxd4 f6 14. Bd3 Qa5+ 15.
+Qd2 Qb6 16. Nf3 fxe5 17. fxe5 Nf8 18. O-O Bd7 19. Qg5 $1 Ne7 20. Nh4 (20. Qxg7
+$5 Rg8 21. Qf6 $18) 20... Bb5 21. Bxb5+ axb5 22. Qxg7 Rg8 23. Qf7+ Kd7 24. Rf6
+Nfg6 25. Nxg6 hxg6 26. a3 Rac8 27. Rc1 Rxc2 28. Rxc2 Qxd4+ 29. Rcf2 Qxe5 30.
+R6f3 (30. h3) 30... Rh8 31. Qf4 Qa1+ 32. Rf1 Qxa3 33. Qd4 $2 (33. Re1 $142)
+33... Ra8 34. g3 $2 (34. Qg7 $142) 34... Qa7 35. Qxa7 Rxa7 36. Rf6 Ra6 37. Re1
+Rd6 38. Kf2 e5 39. Rf3 e4 40. Rfe3 Nf5 41. R3e2 Nd4 42. Rb2 Nf3 43. Rh1 d4 44.
+h4 Ne5 45. Rd1 e3+ 46. Ke2 Ke6 47. Rf1 Kd5 48. Rbb1 b4 49. Rbc1 Ra6 50. h5 Ra2+
+51. Ke1 Nd3+ {Batlle perdió una partida donde tenía todas las de ganar.} 0-1
+
+[Event "Camp. Barcelona 1913 ( Sala Imperio )"]
+[Site "Barcelona"]
+[Date "1912.??.??"]
+[Round "3"]
+[White "Albin, Max Adolf"]
+[Black "Sivilla, Benito Alfredo"]
+[Result "1-0"]
+[ECO "C14"]
+[PlyCount "50"]
+[EventDate "1912.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Be7 5. e5 Nfd7 6. Bxe7 Qxe7 7. Bd3 a6 8.
+Nf3 c5 9. O-O cxd4 10. Nxd4 Nc6 11. Nxc6 bxc6 12. Qg4 O-O 13. Rae1 c5 14. Re3
+c4 15. Bxh7+ Kxh7 16. Rh3+ Kg8 17. Qh5 f6 18. f4 Nc5 19. Rff3 fxe5 20. Rfg3 Qf6
+21. Rg6 Qxf4 22. Qh7+ Kf7 23. Rf3 Qxf3 24. Rxg7+ Ke8 25. gxf3 d4 1-0
+
+[Event "Camp. Barcelona 1913 ( Sala Imperio )"]
+[Site "Barcelona"]
+[Date "1912.??.??"]
+[Round "4"]
+[White "Ardevol Miralles, Emili"]
+[Black "Albin, Max Adolf"]
+[Result "1-0"]
+[ECO "C90"]
+[PlyCount "73"]
+[EventDate "1912.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O b5 6. Bb3 Be7 7. Re1 d6 8. c3
+Bg4 9. d3 O-O 10. Nbd2 Na5 11. Nf1 Nxb3 12. axb3 b4 13. h3 Be6 14. d4 exd4 15.
+cxd4 d5 16. e5 Ne4 17. N1d2 f5 18. exf6 Bxf6 19. Nxe4 dxe4 20. Rxe4 Bd5 21. Rf4
+g5 22. Rf5 h6 23. Be3 Qd7 24. Qd3 Qe6 25. Nd2 Kg7 26. g4 Rfd8 27. Ra5 Bb7 28.
+d5 Qg8 29. Ne4 Rd6 30. Bd4 Rf8 31. Rc5 Rxd5 32. Bxf6+ Rxf6 33. Rfxd5 Qe8 34.
+Nxf6 Qe1+ 35. Kg2 Qe5 36. Nh5+ Kh8 37. Qf5 1-0
+
+[Event "Camp. Barcelona 1913 ( Sala Imperio )"]
+[Site "Barcelona"]
+[Date "1912.11.16"]
+[Round "9"]
+[White "Albin, Max Adolf"]
+[Black "De Lafuente Andreu, Leopoldo"]
+[Result "1-0"]
+[ECO "C44"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "79"]
+[EventDate "1912.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Bc4 Bc5 5. O-O d6 6. c3 Bg4 7. Qb3 Bxf3 8.
+Bxf7+ Kf8 9. Bxg8 Rxg8 10. gxf3 Ne5 11. cxd4 Bxd4 12. f4 Ng4 13. Qh3 Nf6 14.
+Qd3 c5 15. Nc3 Qe7 16. Bd2 Rd8 17. Rfe1 g5 18. fxg5 h6 19. Nd5 Qg7 $6 (19...
+Qf7 $142) (19... Nxd5 $142) 20. Qf3 Be5 21. Qf5 hxg5 22. Nxf6 Qxf6 23. Qxf6+
+Bxf6 24. Re3 g4 (24... d5 $142 $1) 25. Bc3 Bxc3 26. Rxc3 Ke7 27. e5 b6 28.
+exd6+ Rxd6 29. Re1+ Re6 $6 (29... Kd7 $142) 30. Rce3 Rgg6 31. Kg2 b5 32. Kg3 a5
+33. Rxe6+ Rxe6 34. Rxe6+ Kxe6 35. Kxg4 c4 36. Kf4 a4 37. Ke4 Kf6 $2 (37... b4
+$142 $1 38. Ke3 $1 c3 (38... b3 $2 39. axb3 c3 40. Kd3 $1 cxb2 41. Kc2 a3 42.
+h4 $18) 39. b3 a3 40. h4 Kf6 41. f4 Kg7) 38. Kd4 Kf5 39. a3 Kg4 40. Kc5 1-0
+
+[Event "Camp. Barcelona 1913 ( Sala Imperio )"]
+[Site "Barcelona"]
+[Date "1912.11.19"]
+[Round "10"]
+[White "Puig i Puig, Esteve"]
+[Black "Albin, Max Adolf"]
+[Result "0-1"]
+[ECO "C14"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "132"]
+[EventDate "1912.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Be7 5. e5 Nfd7 6. Bxe7 Qxe7 7. Nf3 a6 8.
+Bd3 c5 9. O-O cxd4 10. Nxd4 Nc6 11. Nxc6 bxc6 12. f4 Rb8 13. Rb1 g6 14. Qd2 c5
+15. Nd1 c4 16. Be2 Nc5 17. Nf2 h5 18. Bf3 (18. b3 $1 $18) 18... Bd7 19. Rfe1
+Bb5 20. Nh3 Rd8 21. Ng5 Nd7 22. Qd4 Qc5 23. c3 Qxd4+ 24. cxd4 Nb8 25. Bd1 a5
+26. Nf3 Rc8 27. Re3 Ke7 28. Rc3 Nc6 29. a3 a4 30. Kf2 Rb8 31. Ke3 Kd7 32. Bc2
+Na7 33. Kd2 Rb7 34. Re3 Rhb8 35. Ng5 Ke7 36. Nf3 Bd7 37. Kc3 Nb5+ 38. Kd2 Nc7
+39. Kc3 f5 $2 40. h4 $2 (40. exf6+ $1) 40... Nb5+ 41. Kd2 c3+ 42. Kc1 cxb2+ 43.
+Rxb2 Nc7 44. Rxb7 Rxb7 45. Rd3 Na8 46. Rc3 Nb6 47. Nd2 Bb5 48. Bd3 Bc4 49. Bxc4
+dxc4 50. g3 Rd7 51. Nf3 Rc7 52. Nd2 Kd7 53. Kb2 Kc8 54. Kc1 Kb7 55. Rc2 Ka6 56.
+Nb1 Nd5 57. Kd2 Rb7 58. Nc3 Ka5 59. Nxd5 exd5 60. Rc3 Rb2+ 61. Ke3 $2 (61. Kd1
+$142) 61... Kb6 $22 62. Kf3 Rb3 63. Re3 c3 64. Ke2 Rxa3 65. e6 c2 66. Rxa3 c1=Q
+0-1
+
+[Event "Camp. Barcelona 1913 ( Sala Imperio )"]
+[Site "Barcelona"]
+[Date "1912.11.30"]
+[Round "15"]
+[White "Albin, Max Adolf"]
+[Black "Lopez Cepero, Carlos"]
+[Result "1-0"]
+[ECO "C10"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "133"]
+[EventDate "1912.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bd7 5. Bd3 Bc6 6. Nf3 Nd7 7. O-O Ngf6 8.
+Bg5 Be7 9. Nxf6+ Bxf6 10. Be3 O-O 11. c3 b6 12. Nd2 Re8 13. f4 Nf8 14. Ne4 Rb8
+15. Rf3 Bb7 16. Rg3 Ng6 17. Qh5 c5 18. Nxf6+ Qxf6 19. Rf1 Rbd8 20. Rh3 h6 21.
+f5 exf5 22. Rxf5 Qc6 23. Qg4 cxd4 24. Bxd4 Rd5 25. Rxd5 Qxd5 26. Bxg6 fxg6 27.
+Qxg6 Qf7 28. Qxf7+ Kxf7 29. Rg3 g6 30. Kf2 Rc8 31. Rg4 g5 32. h4 Kg6 33. hxg5
+hxg5 34. Be3 Rf8+ 35. Kg3 Rf5 36. Ra4 Re5 37. Bf2 a6 38. Rd4 b5 39. Rd6+ Kf5
+40. Bd4 Re6 $6 (40... Re2 $142) 41. Rd7 Bc6 42. Rf7+ Kg6 43. Rf2 Bd5 44. b3 Rc6
+45. Rd2 Re6 46. Kf2 Kh5 47. Be3 Bxg2 48. Bxg5 Kxg5 49. Kxg2 Re3 50. Rc2 Kf5 51.
+Kf2 Rh3 52. Ke2 Ke4 53. Kd2 a5 (53... Rh1) 54. Kc1 Kd5 55. Kb2 Kc5 56. Rg2 Rh5
+57. a4 bxa4 58. bxa4 Rf5 59. Kb3 Rh5 60. Rg8 Rh1 61. Rg5+ Kb6 62. Rb5+ Ka6 63.
+Rg5 Rb1+ 64. Kc4 Ra1 65. Rg6+ Kb7 66. Kb5 Rb1+ 67. Kxa5 {Y la partida siguió
+hasta la jugada 102, donde López abandonó.} 1-0
+
+[Event "Camp. Barcelona 1913 ( Sala Imperio )"]
+[Site "Barcelona"]
+[Date "1912.??.??"]
+[Round "16"]
+[White "Reverter, Josep J"]
+[Black "Albin, Max Adolf"]
+[Result "0-1"]
+[ECO "B45"]
+[PlyCount "44"]
+[EventDate "1912.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nc3 Nc6 3. Nf3 e6 4. d4 cxd4 5. Nxd4 Bb4 6. Bb5 Nf6 7. Bxc6 bxc6 8.
+e5 Nd5 9. Bd2 Bxc3 10. bxc3 Ba6 11. Qg4 Qe7 12. Qxg7 O-O-O 13. O-O-O Qa3+ 14.
+Kb1 c5 15. Nb3 c4 16. Qxf7 cxb3 17. axb3 Rhf8 18. Qg7 Rxf2 19. c4 Bxc4 20. bxc4
+Nc3+ 21. Bxc3 Qxc3 22. Qxh7 Kc7 0-1
+
+[Event "Camp. Barcelona 1913 ( Sala Imperio )"]
+[Site "Barcelona"]
+[Date "1912.12.10"]
+[Round "19"]
+[White "Albin, Max Adolf"]
+[Black "Puig i Puig, Esteve"]
+[Result "1/2-1/2"]
+[ECO "C01"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "73"]
+[EventDate "1912.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. Nf3 Nf6 5. Bd3 Bd6 6. O-O O-O 7. Bg5 Bg4 8.
+Nbd2 Nbd7 9. c3 c6 10. Qc2 Qc7 11. Rae1 Rae8 12. Bf5 Bxf5 13. Qxf5 Rxe1 14.
+Rxe1 Re8 15. Bxf6 Rxe1+ 16. Nxe1 Nxf6 17. Ndf3 Ne4 18. Nd3 g6 19. Qh3 Kg7 20.
+Nde5 Bxe5 21. Nxe5 f5 (21... Nd6 $5 22. Qh4 Nf5 23. Qf4 $13) 22. Qe3 Qd8 23. f3
+Qg5 24. Qxg5 Nxg5 25. Kf2 Nf7 26. Ke3 g5 27. h4 $2 {Esto es un error grave,
+que Puig no aprovecha.} (27. f4 $142 $11) 27... f4+ $1 28. Kd3 {Esta es la
+posición crítica del final. Albin acaba de jugar 28. Rd3 que no es buena...
+pero Puig no recoge el testigo...} gxh4 $2 (28... Nxe5+ $3 {Quizás Puig no se
+atrevió con esta jugada por no dejar un peón pasado al blanco... pero resulta
+que el peón pasado es realmente un peón débil y Puig tenía la victoria muy
+cerca.} 29. dxe5 gxh4 30. Kd4 (30. b4 Kf7 31. c4 Ke6 32. Kd4 b5 $1 {Y el peón
+e5 caerá, puesto que el negro tiene los tiempos extras del peón de h7 para
+dejar en zugzwang al rey blanco.}) 30... Kf7 31. c4 (31. Kc5 Ke7 32. a4 Ke6 33.
+Kd4 (33. a5 Kxe5 34. a6 bxa6 $1 {ganando}) 33... b6 34. c4 c5+ 35. Kd3 Kxe5 36.
+Kc3 d4+ 37. Kd3 Kf5 38. b3 h5 39. Ke2 h3 40. gxh3 Kg5 41. Kd3 Kh4 {ganando})
+31... Ke6 32. cxd5+ cxd5 33. a3 (33. a4 b6 $19) (33. b4 b5 $19) 33... b5 $1 $19
+34. b3 a6 35. b4 h6 36. Kc3 Kxe5 37. Kd3 d4 {etc.}) 29. Nxf7 Kxf7 30. Ke2 Ke6
+31. Kf1 Kf5 32. Kg1 a5 33. Kh2 b6 34. Kh3 Kg5 35. Kh2 c5 36. a4 cxd4 37. cxd4
+1/2-1/2
+
+[Event "Camp. Barcelona 1913 ( Sala Imperio )"]
+[Site "Barcelona"]
+[Date "1912.12.14"]
+[Round "21"]
+[White "Albin, Max Adolf"]
+[Black "Batlle, Josep"]
+[Result "1-0"]
+[ECO "C27"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "119"]
+[EventDate "1912.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nc3 Nf6 3. Bc4 Nxe4 4. Nxe4 d5 5. Qh5 dxc4 6. Qxe5+ Be6 7. Qb5+ Qd7
+8. Qg5 $2 Na6 9. c3 f5 10. Ng3 Nc5 11. d4 Nd3+ 12. Kf1 Be7 13. Qd2 O-O-O 14.
+N3e2 g5 15. Nf3 Bd5 16. Ne1 Qc6 17. Rg1 Bd6 18. Nxd3 cxd3 19. Qxd3 Bc4 20.
+Qxf5+ Kb8 21. Be3 Bxh2 22. Rh1 Bxe2+ 23. Kxe2 Qxg2 24. Qxg5 Qxg5 25. Bxg5 Rde8+
+26. Be3 Bf4 27. Rag1 h6 28. Kd3 Rhf8 29. Rg4 Bxe3 30. fxe3 Rf2 31. b4 Rxa2 32.
+Rxh6 a5 33. bxa5 Rxa5 34. Rh7 Ra1 35. Rgg7 Re1 36. Rxc7 R1xe3+ 37. Kc2 Re2+ 38.
+Kb3 Ka8 39. d5 Rd2 40. c4 Re3+ 41. Kb4 Rb2+ 42. Kc5 Kb8 43. d6 Re8 44. Rhe7 Rd8
+45. Re5 Rc2 46. Rd5 Rc1 47. Rd4 Rh1 48. Re7 Kc8 49. Kd5 Rh5+ 50. Re5 Rh7 (50...
+Rxe5+ 51. Kxe5 Kd7 52. Kd5 Rg8 53. Re4) 51. c5 Rhd7 52. Ra4 Kb8 53. Rae4 Kc8
+54. Re8 Rxe8 55. Rxe8+ Rd8 56. Rxd8+ Kxd8 57. Ke6 Ke8 58. d7+ Kd8 59. Kd6 b5 (
+59... b6 60. c6) 60. c6 1-0
+
+[Event "Camp. Barcelona 1913 ( Sala Imperio )"]
+[Site "Barcelona"]
+[Date "1912.??.??"]
+[Round "24"]
+[White "Miro, Joan"]
+[Black "Albin, Max Adolf"]
+[Result "0-1"]
+[ECO "A80"]
+[PlyCount "28"]
+[EventDate "1912.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 f5 2. f4 Nf6 3. e3 d5 4. Bd3 e6 5. Nf3 c5 6. dxc5 Bxc5 7. O-O Ng4 8. Qe2
+Nc6 9. h3 h5 10. hxg4 hxg4 11. Ng5 Qf6 12. Nc3 Qh6 13. g3 Qh1+ 14. Kf2 Rh2+ 0-1

@@ -1,0 +1,225 @@
+[Event "Barcelona La Lira op 35th"]
+[Site "Barcelona"]
+[Date "2017.01.20"]
+[Round "1"]
+[White "Miro Arbelaes, Aleix"]
+[Black "Gomez Jorge, Felix"]
+[Result "0-1"]
+[ECO "D93"]
+[WhiteElo "1290"]
+[BlackElo "1767"]
+[PlyCount "106"]
+[EventDate "2017.01.20"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Bf4 Bg7 5. e3 c6 6. Nf3 O-O 7. cxd5 Nxd5 8.
+Nxd5 Qxd5 9. Qc2 Qa5+ 10. Qc3 Qxc3+ 11. bxc3 Bf5 12. Be2 h6 13. O-O Nd7 14. Nd2
+Nf6 15. h3 Nd5 16. Rfc1 Nxf4 17. exf4 Rfd8 18. g4 Be6 19. Rab1 c5 20. Rxb7 cxd4
+21. cxd4 Rxd4 22. Nf3 Rxf4 23. Rxe7 Bxa2 24. Rcc7 a5 25. Ra7 Rxa7 26. Rxa7 Bd5
+27. Ne1 Bd4 28. Nd3 Rxf2 29. Nxf2 Bxa7 30. Bb5 Bb3 31. Kg2 Bxf2 32. Kxf2 a4 33.
+Bxa4 Bxa4 34. Ke3 Kg7 35. Kf4 g5+ 36. Kg3 Kf6 37. h4 Ke5 38. hxg5 hxg5 39. Kg2
+Kf4 40. Kh3 f5 41. Kg2 Kxg4 42. Kf2 Kh3 43. Kg1 g4 44. Kh1 g3 45. Kg1 g2 46.
+Kf2 Kh2 47. Kf3 g1=Q 48. Kf4 Bc2 49. Kf3 Qg3+ 50. Ke2 Qc3 51. Kf2 Ba4 52. Ke2
+Bb5+ 53. Kf2 Qg3# 0-1
+
+[Event "Barcelona La Lira op 35th"]
+[Site "Barcelona"]
+[Date "2017.01.27"]
+[Round "2"]
+[White "Gomez Jorge, Felix"]
+[Black "Espuny Vinye, Ramon"]
+[Result "1/2-1/2"]
+[ECO "A48"]
+[WhiteElo "1767"]
+[BlackElo "2000"]
+[PlyCount "53"]
+[EventDate "2017.01.20"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 g6 3. e3 Bg7 4. Bd3 O-O 5. O-O d6 6. c3 Nbd7 7. Nbd2 c5 8. b3
+cxd4 9. cxd4 Nb6 10. Bb2 Bd7 11. Rc1 Rc8 12. Qe2 Nbd5 13. Rxc8 Qxc8 14. Rc1 Bc6
+15. a3 Qd7 16. Nc4 b6 17. Nce5 dxe5 18. Nxe5 Qd6 19. Rxc6 Qd8 20. Qc2 Nd7 21.
+Nxf7 Kxf7 22. Bxg6+ hxg6 23. Qxg6+ Kg8 24. Qe6+ Kh7 25. Qh3+ Kg8 26. Qe6+ Kh8
+27. Qh3+ 1/2-1/2
+
+[Event "Barcelona La Lira op 35th"]
+[Site "Barcelona"]
+[Date "2017.02.03"]
+[Round "3"]
+[White "Asensio Linan, Teodoro"]
+[Black "Gomez Jorge, Felix"]
+[Result "1-0"]
+[ECO "A34"]
+[WhiteElo "2113"]
+[BlackElo "1767"]
+[PlyCount "35"]
+[EventDate "2017.01.20"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 e6 3. c4 Nc6 4. Be2 Qc7 5. O-O Nf6 6. Nc3 a6 7. Re1 d6 8. d4
+cxd4 9. Nxd4 Be7 10. Be3 Bd7 11. Rc1 Rc8 12. Nd5 Qb8 13. Nxe7 Nxe7 14. Qd3 h6
+15. Bd2 Nc6 16. f4 Qa7 17. Be3 Nb4 18. Qa3 1-0
+
+[Event "Barcelona La Lira op 35th"]
+[Site "Barcelona"]
+[Date "2017.02.10"]
+[Round "4"]
+[White "Gomez Jorge, Felix"]
+[Black "Elias Arguelles, Manuel"]
+[Result "0-1"]
+[ECO "A48"]
+[WhiteElo "1767"]
+[BlackElo "1638"]
+[PlyCount "84"]
+[EventDate "2017.01.20"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 d6 3. e3 Nbd7 4. Bd3 g6 5. O-O Bg7 6. Nbd2 O-O 7. c3 Re8 8. e4
+e5 9. d5 Nc5 10. Bc2 h6 11. b4 Ncd7 12. a4 a6 13. Ba3 b5 14. c4 bxc4 15. Nxc4
+Bb7 16. Na5 Qb8 17. Rc1 Rc8 18. Bd3 Nb6 19. Nd2 h5 20. Rc3 Ne8 21. Nc6 Bxc6 22.
+Rxc6 Ra7 23. a5 Nd7 24. Bxa6 Rd8 25. Qc2 Ndf6 26. Rc1 Kh7 27. Qc3 Bh6 28. Rc2
+Nd7 29. Qf3 Kg7 30. Nb1 Ndf6 31. Qd3 Nd7 32. Qc3 Ndf6 33. f3 Qa8 34. Bf1 Qb7
+35. Nd2 Rda8 36. Rc4 Qb5 37. Rxc7 Rxc7 38. Bxb5 Rxc3 39. Rxc3 Bxd2 40. Rc2 Be3+
+41. Kf1 Ra7 42. Rc8 Nc7 0-1
+
+[Event "Barcelona La Lira op 35th"]
+[Site "Barcelona"]
+[Date "2017.02.17"]
+[Round "5"]
+[White "Marcas Vila, Luis"]
+[Black "Gomez Jorge, Felix"]
+[Result "1/2-1/2"]
+[ECO "B23"]
+[WhiteElo "1699"]
+[BlackElo "1767"]
+[PlyCount "52"]
+[EventDate "2017.01.20"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nc3 e6 3. g3 Nc6 4. Bg2 Nf6 5. d3 Be7 6. Nge2 d6 7. O-O O-O 8. Re1
+a6 9. a4 Bd7 10. Nf4 Rc8 11. Nh5 Nxh5 12. Qxh5 Nd4 13. Qd1 Qc7 14. Be3 Rfe8 15.
+Ne2 Nxe2+ 16. Qxe2 b5 17. axb5 axb5 18. Rec1 Ra8 19. c3 e5 20. f4 f6 21. f5 Qb7
+22. d4 Bc6 23. d5 Bd7 24. h4 Rxa1 25. Rxa1 Ra8 26. Rb1 b4 1/2-1/2
+
+[Event "Barcelona La Lira op 35th"]
+[Site "Barcelona"]
+[Date "2017.02.24"]
+[Round "6"]
+[White "Gomez Jorge, Felix"]
+[Black "Montserrat Rubia, Angel"]
+[Result "1/2-1/2"]
+[ECO "D04"]
+[WhiteElo "1767"]
+[BlackElo "1642"]
+[PlyCount "46"]
+[EventDate "2017.01.20"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 g6 3. e3 Bg7 4. Bd3 O-O 5. O-O d5 6. Nbd2 c5 7. c3 Nbd7 8. e4
+cxd4 9. e5 dxc3 10. exf6 cxd2 11. fxg7 Kxg7 12. Qxd2 Nf6 13. b3 Qd6 14. Bb2 Kg8
+15. Be5 Qe6 16. Rfe1 Qg4 17. Qh6 Qh5 18. Qxh5 Nxh5 19. h3 f6 20. Bh2 e5 21.
+Nxe5 fxe5 22. Rxe5 Nf6 23. Kf1 Bd7 1/2-1/2
+
+[Event "Barcelona La Lira op 35th"]
+[Site "Barcelona"]
+[Date "2017.03.03"]
+[Round "7"]
+[White "Sanchez Coves, Juan Josep"]
+[Black "Gomez Jorge, Felix"]
+[Result "1/2-1/2"]
+[ECO "B28"]
+[WhiteElo "1574"]
+[BlackElo "1767"]
+[PlyCount "49"]
+[EventDate "2017.01.20"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 a6 3. g3 Nc6 4. Bg2 g6 5. d3 Bg7 6. O-O d6 7. Nbd2 Nf6 8. c3 e5
+9. Re1 O-O 10. Nf1 h6 11. h4 b5 12. d4 Bb7 13. N1h2 Qd7 14. Be3 cxd4 15. cxd4
+Nxd4 16. Nxd4 exd4 17. Bxd4 Rac8 18. Bxf6 Bxf6 19. Ng4 Bg7 20. e5 Bxg2 21. Kxg2
+Qb7+ 22. Kg1 dxe5 23. Nxe5 Rfe8 24. Nd3 Rxe1+ 25. Qxe1 1/2-1/2
+
+[Event "Barcelona La Lira op 35th"]
+[Site "Barcelona"]
+[Date "2017.03.10"]
+[Round "8"]
+[White "Gomez Jorge, Felix"]
+[Black "Bertolin Escriche, Tomas"]
+[Result "1/2-1/2"]
+[ECO "D94"]
+[WhiteElo "1767"]
+[BlackElo "1689"]
+[PlyCount "71"]
+[EventDate "2017.01.20"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Nf3 g6 5. e3 Bg7 6. Be2 O-O 7. O-O a6 8. a4 b6
+9. b3 Nbd7 10. Bb2 Bb7 11. Rc1 Rc8 12. Rc2 c5 13. Nd2 Re8 14. f4 e6 15. Qc1 h5
+16. Nf3 Ng4 17. Ne5 Nh6 18. Nd1 Nf5 19. Bf3 Nh4 20. cxd5 Nxf3+ 21. Nxf3 Bxd5
+22. Nd2 cxd4 23. exd4 Rxc2 24. Qxc2 Qc8 25. Qxc8 Rxc8 26. Ne3 Bb7 27. Ndc4 Ba8
+28. Ne5 Nf6 29. Rc1 Rxc1+ 30. Bxc1 Nd5 31. N3c4 b5 32. axb5 axb5 33. Nd6 Nc3
+34. Kf2 Ne4+ 35. Nxe4 Bxe4 36. g3 1/2-1/2

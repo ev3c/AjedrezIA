@@ -1,0 +1,114 @@
+[Event "Santa Eugenia op 12th"]
+[Site "Santa Eugenia"]
+[Date "2017.07.31"]
+[Round "1"]
+[White "Acevedo Egido, David"]
+[Black "Colls Gelaberto, Emilio"]
+[Result "0-1"]
+[ECO "B17"]
+[WhiteElo "1486"]
+[BlackElo "2093"]
+[PlyCount "100"]
+[EventDate "2017.07.31"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nd7 5. Nf3 Ngf6 6. Bd3 Nxe4 7. Bxe4 Nf6
+8. Bd3 Bg4 9. c3 e6 10. h3 Bh5 11. Bf4 Bd6 12. Bxd6 Qxd6 13. Qe2 Qd5 14. Bc4
+Bxf3 15. gxf3 Qd6 16. Qe3 O-O-O 17. O-O-O Nd5 18. Qg5 Qf4+ 19. Qxf4 Nxf4 20.
+Kc2 h5 21. h4 Rh6 22. Rdg1 Rg8 23. Rg5 Rf6 24. Kd2 g6 25. Ke3 Re8 26. Re5 Kd7
+27. Rh2 Re7 28. Bb3 Nd5+ 29. Ke2 b5 30. Rh1 Kd6 31. Rh2 a5 32. Rh1 a4 33. Bc2
+a3 34. Be4 axb2 35. Bxd5 exd5 36. Rxe7 Kxe7 37. Ke3 Re6+ 38. Kd2 Kf6 39. Rb1
+Kf5 40. Rxb2 Kf4 41. a4 bxa4 42. Rb7 f5 43. Ra7 Kxf3 44. Rxa4 Kxf2 45. Ra1 f4
+46. Rh1 f3 47. Rc1 Kg2 48. Ra1 f2 49. Rb1 f1=Q 50. Rxf1 Kxf1 0-1
+
+[Event "Santa Eugenia op 12th"]
+[Site "Santa Eugenia"]
+[Date "2017.08.02"]
+[Round "6"]
+[White "Voegeli, Max"]
+[Black "Acevedo Egido, David"]
+[Result "1-0"]
+[ECO "B23"]
+[WhiteElo "1738"]
+[BlackElo "1486"]
+[PlyCount "43"]
+[EventDate "2017.07.31"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nc3 d6 3. f4 e6 4. Nf3 Nc6 5. Bb5 Nge7 6. O-O g6 7. d3 Bg7 8. Qe1
+a6 9. Bxc6+ Nxc6 10. f5 O-O 11. fxg6 fxg6 12. Bg5 Bf6 13. Qh4 b5 14. Bxf6 Rxf6
+15. Ng5 Ra7 16. Rxf6 Qxf6 17. Rf1 Qd4+ 18. Kh1 Rb7 19. Qf4 Qg7 20. Qxd6 Nd4 21.
+Qd8+ Qf8 22. Qxf8# 1-0
+
+[Event "Santa Eugenia op 12th"]
+[Site "Santa Eugenia"]
+[Date "2017.08.03"]
+[Round "8"]
+[White "Farre I Benseny, Miquel"]
+[Black "Acevedo Egido, David"]
+[Result "1/2-1/2"]
+[ECO "B72"]
+[WhiteElo "1607"]
+[BlackElo "1486"]
+[PlyCount "86"]
+[EventDate "2017.07.31"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 g6 3. Nc3 Bg7 4. d4 cxd4 5. Nxd4 d6 6. Be3 Nf6 7. Bc4 O-O 8.
+O-O Ng4 9. Qf3 Nxe3 10. Qxe3 Qb6 11. Rad1 Nc6 12. Nxc6 bxc6 13. Qxb6 axb6 14.
+Rd3 Ba6 15. Bxa6 Rxa6 16. a3 b5 17. Rb1 Bxc3 18. Rxc3 Rfa8 19. f3 c5 20. b4 c4
+21. Ra1 Ra4 22. Rd1 Rxa3 23. Rxa3 Rxa3 24. Rd5 Rc3 25. Rxb5 Rxc2 26. Rb8+ Kg7
+27. b5 Rb2 28. Rc8 Rxb5 29. Rxc4 Rb2 30. h3 Kf6 31. Ra4 Rc2 32. Ra5 Rc5 33. Ra7
+d5 34. exd5 Rxd5 35. Kf2 e6 36. g4 h5 37. Kg3 hxg4 38. hxg4 Kg7 39. Rb7 Rd6 40.
+Re7 Kf8 41. Ra7 Rd5 42. Ra8+ Kg7 43. Ra7 Rd6 1/2-1/2
+
+[Event "Santa Eugenia op 12th"]
+[Site "Santa Eugenia"]
+[Date "2017.08.04"]
+[Round "9"]
+[White "Acevedo Egido, David"]
+[Black "Gratacos Font, Albert"]
+[Result "1/2-1/2"]
+[ECO "B78"]
+[WhiteElo "1486"]
+[BlackElo "1726"]
+[PlyCount "42"]
+[EventDate "2017.07.31"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Bc4
+Nc6 9. Bb3 Bd7 10. Qd2 Rc8 11. O-O-O Ne5 12. h4 h5 13. Bh6 Nc4 14. Bxc4 Rxc4
+15. Bxg7 Kxg7 16. g4 b5 17. gxh5 b4 18. Nd5 Nxd5 19. hxg6 fxg6 20. exd5 Qa5 21.
+Kb1 Qxd5 1/2-1/2

@@ -1,0 +1,201 @@
+[Event "Hospitalet de Llobregat Ponce 3rd"]
+[Site "Hospitalet de Llobregat"]
+[Date "2017.04.08"]
+[Round "2"]
+[White "Maqueda Berdugo, Francisco"]
+[Black "Aracil Campoy, Manuel"]
+[Result "0-1"]
+[ECO "B19"]
+[WhiteElo "1746"]
+[BlackElo "1934"]
+[PlyCount "68"]
+[EventDate "2017.04.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. h4 h6 7. Nf3 Nd7 8. h5
+Bh7 9. Bd2 Qc7 10. Bc4 e6 11. Bb3 Bd6 12. Ne2 Ngf6 13. Nc3 O-O-O 14. Qe2 Rhe8
+15. O-O-O Kb8 16. Kb1 Rc8 17. Ne1 a5 18. a4 Qb6 19. Ka1 e5 20. Be3 exd4 21. Qd2
+c5 22. Nb5 Be5 23. Bf4 c4 24. Bxe5+ Nxe5 25. Ba2 d3 26. c3 Ne4 27. Qf4 Nxf2 28.
+Nf3 f6 29. Rhe1 Nxd1 30. Nxe5 fxe5 31. Rxe5 Rxe5 32. Qxe5+ Ka8 33. Qxg7 Qe3 34.
+Kb1 Qd2 0-1
+
+[Event "Hospitalet de Llobregat Ponce 3rd"]
+[Site "Hospitalet de Llobregat"]
+[Date "2017.04.22"]
+[Round "3"]
+[White "Aracil Campoy, Manuel"]
+[Black "Bernat, Ernest"]
+[Result "1-0"]
+[ECO "D17"]
+[WhiteElo "1934"]
+[BlackElo "1869"]
+[PlyCount "73"]
+[EventDate "2017.04.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. Ne5 e6 7. Nxc4 Nbd7 8. f3
+Bg6 9. Bg5 Be7 10. e4 Nb6 11. e5 Nxc4 12. Bxc4 Nd5 13. Bxe7 Qxe7 14. Bxd5 exd5
+15. O-O O-O 16. f4 f5 17. Qb3 a5 18. Ne2 Bf7 19. Rfc1 Kh8 20. Rc3 Rg8 21. Nc1
+g5 22. Nd3 gxf4 23. Nxf4 Rg4 24. Rf1 Qb4 25. Rd3 Qe7 26. Rdf3 Rag8 27. Qe3 Be6
+28. g3 Bf7 29. e6 Be8 30. Qe5+ Qg7 31. Nd3 Rxd4 32. Qd6 Bh5 33. Ne5 Re4 34.
+Rxf5 Rg4 35. Nxg4 Bxg4 36. Re5 Bh3 37. e7 1-0
+
+[Event "Hospitalet de Llobregat Ponce 3rd"]
+[Site "Hospitalet de Llobregat"]
+[Date "2017.04.29"]
+[Round "4"]
+[White "Aracil Campoy, Manuel"]
+[Black "Capellades Subirana, Marc"]
+[Result "1/2-1/2"]
+[ECO "A61"]
+[WhiteElo "1934"]
+[BlackElo "2181"]
+[PlyCount "36"]
+[EventDate "2017.04.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e6 4. Nc3 exd5 5. cxd5 d6 6. Nf3 g6 7. Bg5 h6 8. Bh4
+Bg7 9. Nd2 g5 10. Bg3 Nh5 11. Nc4 Nxg3 12. hxg3 Bxc3+ 13. bxc3 Qf6 14. Rc1 Nd7
+15. e3 Ne5 16. Nxe5 Qxe5 17. Bb5+ Kf8 18. Be2 Bf5 1/2-1/2
+
+[Event "Hospitalet de Llobregat Ponce 3rd"]
+[Site "Hospitalet de Llobregat"]
+[Date "2017.05.13"]
+[Round "6"]
+[White "Lopez Baena, David"]
+[Black "Aracil Campoy, Manuel"]
+[Result "0-1"]
+[ECO "A13"]
+[WhiteElo "2028"]
+[BlackElo "1934"]
+[PlyCount "94"]
+[EventDate "2017.04.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 c6 2. Nf3 d5 3. g3 Nf6 4. Bg2 e6 5. O-O Nbd7 6. d3 g6 7. Nc3 Bg7 8. e4
+dxe4 9. dxe4 O-O 10. Qc2 Qa5 11. Rb1 Qh5 12. h3 Ne5 13. Nxe5 Qxe5 14. Be3 Qc7
+15. c5 e5 16. Rbd1 Be6 17. b4 Rad8 18. a4 Qc8 19. Kh2 Nh5 20. Rxd8 Rxd8 21. Rd1
+f5 22. Bg5 Rd4 23. Ne2 Rxd1 24. Qxd1 h6 25. Qd8+ Qxd8 26. Bxd8 f4 27. Nc3 g5
+28. Bf1 g4 29. hxg4 fxg3+ 30. fxg3 Nf6 31. Bxf6 Bxf6 32. b5 Be7 33. bxc6 bxc6
+34. Ba6 Bxc5 35. Bb7 Bd4 36. Ne2 c5 37. Nxd4 exd4 38. Kg2 Bb3 39. Kf2 Bxa4 40.
+Bd5+ Kf8 41. e5 Bb5 42. Ke1 Ke7 43. Kd2 c4 44. Kc2 a5 45. Kb2 a4 46. Ka3 c3 47.
+Be4 d3 0-1
+
+[Event "Hospitalet de Llobregat Ponce 3rd"]
+[Site "Hospitalet de Llobregat"]
+[Date "2017.05.20"]
+[Round "7"]
+[White "Puertas Manzano, Jose Luis"]
+[Black "Aracil Campoy, Manuel"]
+[Result "0-1"]
+[ECO "D31"]
+[WhiteElo "2102"]
+[BlackElo "1934"]
+[PlyCount "66"]
+[EventDate "2017.04.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Nf3 c6 3. c4 e6 4. Nc3 dxc4 5. a4 Bb4 6. g3 Nf6 7. Qc2 Nbd7 8. Bg2
+Nd5 9. e4 N5f6 10. O-O h6 11. Qe2 Bxc3 12. bxc3 b5 13. Ba3 Bb7 14. Nd2 Nb6 15.
+e5 Nfd5 16. Ne4 Nc8 17. Qg4 Rg8 18. Nf6+ Nxf6 19. exf6 a6 20. fxg7 Ne7 21. Rfe1
+Qd7 22. Qh5 Rxg7 23. Qxh6 Rg6 24. Qh4 Ng8 25. Be4 Rg7 26. Rad1 Qd8 27. Qf4 Nf6
+28. Bf5 Nd5 29. Qe5 Qf6 30. Qd6 Rd8 31. Qf8+ Kd7 32. Qd6+ Kc8 33. Rxe6 Qxf5 0-1
+
+[Event "Hospitalet de Llobregat Ponce 3rd"]
+[Site "Hospitalet de Llobregat"]
+[Date "2017.05.27"]
+[Round "8"]
+[White "Aracil Campoy, Manuel"]
+[Black "Layola Barrionuevo, Javier"]
+[Result "0-1"]
+[ECO "A56"]
+[WhiteElo "1934"]
+[BlackElo "2012"]
+[PlyCount "92"]
+[EventDate "2017.04.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e5 4. Nc3 d6 5. e4 Be7 6. Bd3 O-O 7. Nge2 Ne8 8. f4
+exf4 9. Bxf4 Nd7 10. O-O Bf6 11. Qc2 Ne5 12. h3 Bd7 13. Ng3 g6 14. Bh6 Ng7 15.
+Nce2 b5 16. Rad1 bxc4 17. Bxc4 Nxc4 18. Qxc4 Bxb2 19. Rf3 Be5 20. Rdf1 Rb8 21.
+Bf4 Bb5 22. Qc1 Qe7 23. R1f2 Rb7 24. Bg5 f6 25. Bf4 Bxe2 26. Nxe2 Rfb8 27. Qc4
+Rb1+ 28. Kh2 Nh5 29. g3 R1b4 30. Qc2 g5 31. Bxe5 Qxe5 32. Nc3 Rf8 33. a3 Rb7
+34. Qd3 Ng7 35. Qc4 Rbf7 36. Kg2 f5 37. g4 fxg4 38. hxg4 Rxf3 39. Rxf3 Rxf3 40.
+Kxf3 Qf4+ 41. Kg2 Qxg4+ 42. Kh1 Nh5 43. Qb3 Ng3+ 44. Kh2 Nf1+ 45. Kh1 Qg3 46.
+Qb8+ Kf7 0-1
+
+[Event "Hospitalet de Llobregat Ponce 3rd"]
+[Site "Hospitalet de Llobregat"]
+[Date "2017.06.03"]
+[Round "9"]
+[White "Palomares Fite, Jordi"]
+[Black "Aracil Campoy, Manuel"]
+[Result "1-0"]
+[ECO "B13"]
+[WhiteElo "1896"]
+[BlackElo "1934"]
+[PlyCount "63"]
+[EventDate "2017.04.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Bd3 Nf6 5. Bf4 Nc6 6. c3 e6 7. Nf3 Bd6 8.
+Bxd6 Qxd6 9. O-O O-O 10. Re1 Re8 11. Ne5 a6 12. Nd2 b5 13. Ndf3 h6 14. Nxc6
+Qxc6 15. Ne5 Qc7 16. Qd2 Bb7 17. f3 Rac8 18. g4 Nh7 19. h4 Qe7 20. Qf4 Rf8 21.
+Qg3 Qc7 22. Kf2 f5 23. gxf5 exf5 24. Ng6 f4 25. Qg4 Nf6 26. Qe6+ Rf7 27. Ne5
+Qe7 28. Nxf7 Qxf7 29. Bf5 Rc7 30. Re5 Nd7 31. Bh7+ Kf8 32. Qd6+ 1-0

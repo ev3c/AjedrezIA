@@ -1,0 +1,534 @@
+[Event "Ct. Girona indiv. A"]
+[Site "?"]
+[Date "2008.10.19"]
+[Round "3"]
+[White "Toste Nieto, A."]
+[Black "Rex, T."]
+[Result "0-1"]
+[ECO "A39"]
+[WhiteElo "1811"]
+[BlackElo "2043"]
+[PlyCount "75"]
+[EventDate "2008.??.??"]
+
+1. d4 Nf6 2. c4 c5 3. Nf3 cxd4 4. Nxd4 Nc6 5. Nc3 g6 6. g3 Bg7 7. Bg2 O-O 8.
+O-O a6 9. Qd2 e6 10. Nc2 Rb8 11. Rd1 Qc7 12. Nd4 d5 13. cxd5 exd5 14. Qf4 Qxf4
+15. Bxf4 Ra8 16. Nxc6 bxc6 17. Rac1 Bf5 18. Na4 Rfe8 19. Nb6 Ra7 20. Be3 Ng4
+21. Nxd5 Nxe3 22. Nxe3 Bh6 23. Bxc6 Rxe3 24. fxe3 Bxe3+ 25. Kg2 Bxc1 26. Rxc1
+Rc7 27. Rc3 Rxc6 28. Rxc6 Be4+ 29. Kf2 Bxc6 30. Ke3 Kf8 31. Kd4 Ke7 32. e4 f6
+33. b3 Kd6 34. a3 h6 35. b4 h5 36. h3 g5 37. h4 gxh4 38. gxh4 0-1
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2009.08.01"]
+[Round "1.2"]
+[White "Moskalenko, V."]
+[Black "Toste Nieto, A."]
+[Result "1-0"]
+[ECO "E77"]
+[WhiteElo "2558"]
+[BlackElo "1820"]
+[PlyCount "99"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f4 c5 6. d5 O-O 7. Nf3 e6 8. dxe6
+fxe6 9. Be2 Na6 10. O-O Qe7 11. e5 dxe5 12. fxe5 Ng4 13. Bg5 Qc7 14. Nb5 Qc6
+15. Qd2 Bd7 16. Rad1 Be8 17. Bf4 h6 18. h3 Qe4 19. Nfd4 Bxe5 20. Bxe5 Rxf1+ 21.
+Rxf1 Qxe5 22. Bxg4 cxd4 23. Re1 Qg7 24. Bxe6+ Kh7 25. Qxd4 Bxb5 26. Qxg7+ Kxg7
+27. cxb5 Nc7 28. Bc4 Re8 29. Rd1 Re7 30. a4 b6 31. b3 Ne8 32. Rd8 Nf6 33. Kf2
+Re8 34. Rd4 Ne4+ 35. Kf3 Nf6 36. Rd6 Re5 37. Rc6 Re7 38. Be6 Kf8 39. Kf4 Kg7
+40. Ke5 h5 41. b4 Ne8 42. a5 bxa5 43. bxa5 Rb7 44. b6 axb6 45. axb6 Re7 46. Rc8
+Kf8 47. Kd5 Kg7 48. Rc6 Rb7 49. Kc5 Rb8 50. Rc8 1-0
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2009.08.02"]
+[Round "2.22"]
+[White "Toste Nieto, A."]
+[Black "Asensio Graells, R."]
+[Result "1-0"]
+[ECO "E94"]
+[WhiteElo "1820"]
+[BlackElo "1481"]
+[PlyCount "65"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 Nbd7 7. O-O e5 8. d5
+h6 9. b4 b6 10. Nd2 Nh7 11. Nb3 Nb8 12. c5 bxc5 13. bxc5 Ba6 14. cxd6 cxd6 15.
+Ba3 Bxe2 16. Qxe2 a6 17. Rfc1 f5 18. f3 fxe4 19. Nxe4 Qb6+ 20. Kh1 Rd8 21. Rab1
+Qb5 22. Qxb5 axb5 23. Bxd6 Nd7 24. Bc7 Rf8 25. Rc2 Nhf6 26. Nxf6+ Rxf6 27. Na5
+Rfa6 28. Rxb5 Rc8 29. Rc4 Bf8 30. a4 Rf6 31. Bxe5 Rxc4 32. Nxc4 Nxe5 33. Nxe5
+1-0
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2009.08.02"]
+[Round "3.12"]
+[White "Parals Marce, L."]
+[Black "Toste Nieto, A."]
+[Result "1-0"]
+[ECO "E97"]
+[WhiteElo "2062"]
+[BlackElo "1820"]
+[PlyCount "69"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. Nf3 Nf6 2. d4 g6 3. c4 Bg7 4. Nc3 O-O 5. e4 d6 6. Be2 e5 7. O-O Nc6 8. d5
+Ne7 9. Bd2 Nd7 10. b4 f5 11. Ng5 Nf6 12. f3 c6 13. Qb3 cxd5 14. cxd5 Nh5 15. g3
+Bf6 16. Ne6 Bxe6 17. dxe6 f4 18. g4 Ng7 19. Be1 g5 20. Bf2 Kh8 21. Rfd1 a6 22.
+Na4 Nc8 23. b5 a5 24. b6 Re8 25. Bc4 Re7 26. Bc5 Ne8 27. Rd2 Rg7 28. Bb5 Be7
+29. Bf2 Nf6 30. Rc1 Qf8 31. Rdc2 d5 32. Bd7 Nd6 33. exd5 Nxd7 34. exd7 Rd8 35.
+Nc5 1-0
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2009.08.03"]
+[Round "4.24"]
+[White "Toste Nieto, A."]
+[Black "Gallegos Gomez, J."]
+[Result "0-1"]
+[ECO "A85"]
+[WhiteElo "1820"]
+[BlackElo "1646"]
+[PlyCount "62"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. d4 e6 2. c4 f5 3. Nc3 Nf6 4. Nf3 d6 5. e3 Be7 6. Bd3 O-O 7. O-O d5 8. Rb1 c5
+9. cxd5 exd5 10. dxc5 Bxc5 11. b4 Be7 12. Nd4 Ne4 13. Qc2 Nc6 14. Nxd5 Nxd4 15.
+exd4 Bd6 16. Re1 Be6 17. f3 Bxh2+ 18. Kh1 Bg3 19. Bf4 Qh4+ 20. Kg1 Bxe1 21.
+fxe4 Bxd5 22. exd5 Qxf4 23. Rxe1 Qxd4+ 24. Kf1 Rac8 25. Qe2 Rce8 26. Qf3 Rxe1+
+27. Kxe1 Re8+ 28. Kd2 f4 29. Qf1 Re3 30. a3 Qb2+ 31. Bc2 Qc3+ 0-1
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2009.08.04"]
+[Round "5.28"]
+[White "Boussely, J."]
+[Black "Toste Nieto, A."]
+[Result "0-1"]
+[ECO "B22"]
+[WhiteElo "1540"]
+[BlackElo "1820"]
+[PlyCount "44"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. e4 c5 2. c3 d5 3. exd5 Qxd5 4. d4 cxd4 5. cxd4 Nf6 6. Nc3 Qd8 7. Nf3 a6 8.
+Bc4 Bf5 9. Qb3 e6 10. Qxb7 Nbd7 11. Bxa6 Rb8 12. Qc6 Bb4 13. O-O Bxc3 14. bxc3
+Be4 15. Qa4 Qb6 16. Be2 O-O 17. Be3 Qc7 18. Rfc1 Ng4 19. h3 Bxf3 20. Bxf3 Qh2+
+21. Kf1 Rb2 22. g3 Nxe3+ 0-1
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2009.08.05"]
+[Round "6.21"]
+[White "Toste Nieto, A."]
+[Black "Baig Falgueras, M."]
+[Result "1-0"]
+[ECO "E97"]
+[WhiteElo "1820"]
+[BlackElo "1712"]
+[PlyCount "75"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. Nf3 Nf6 2. c4 d6 3. Nc3 g6 4. d4 Bg7 5. e4 O-O 6. Be2 e5 7. O-O Nc6 8. d5
+Ne7 9. b4 Ne8 10. a4 f5 11. Ng5 h6 12. Ne6 Bxe6 13. dxe6 Nf6 14. exf5 gxf5 15.
+Ra3 f4 16. Bf3 Rb8 17. b5 Qe8 18. Re1 Qg6 19. Nd5 Nexd5 20. cxd5 e4 21. Qc2 Qg5
+22. Bxe4 Nxe4 23. Qxe4 Be5 24. Rh3 Rf6 25. Kh1 Kh8 26. g3 Rg8 27. Rh4 Qg7 28.
+Bxf4 Bxf4 29. Rxf4 Rxf4 30. Qxf4 Rf8 31. Qe3 Qf6 32. Rc1 Qg7 33. Qc3 Qxc3 34.
+Rxc3 Rc8 35. e7 Kg8 36. Rxc7 Re8 37. Rxb7 Kf7 38. Rxa7 1-0
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2009.08.06"]
+[Round "7.16"]
+[White "Mayo Casademont, A."]
+[Black "Toste Nieto, A."]
+[Result "1/2-1/2"]
+[ECO "B25"]
+[WhiteElo "2012"]
+[BlackElo "1820"]
+[PlyCount "68"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nc3 d6 3. g3 g6 4. Bg2 Bg7 5. d3 Nc6 6. Nge2 e6 7. O-O Nge7 8. Be3
+O-O 9. Qd2 Nd4 10. Bh6 d5 11. Bxg7 Kxg7 12. exd5 Nxe2+ 13. Qxe2 exd5 14. Rfe1
+Be6 15. Rad1 Re8 16. Qe5+ Kg8 17. Qg5 Nf5 18. Qxd8 Rexd8 19. Ne2 Rd6 20. d4 c4
+21. c3 Rb6 22. Rd2 Ra6 23. a3 b5 24. Nf4 Rd8 25. Rde2 Rdd6 26. Re5 Ne7 27. Bh3
+Nf5 28. Bxf5 gxf5 29. Kg2 Rab6 30. Nh5 a6 31. Nf6+ Kf8 32. Nh5 Kg8 33. Nf4 h5
+34. R1e2 Kg7 1/2-1/2
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2009.08.07"]
+[Round "8.20"]
+[White "Toste Nieto, A."]
+[Black "Cros Figueras, E."]
+[Result "1-0"]
+[ECO "D11"]
+[WhiteElo "1820"]
+[BlackElo "1899"]
+[PlyCount "113"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. Nf3 d5 2. c4 c6 3. e3 Nf6 4. Nc3 Bg4 5. d4 e6 6. h3 Bh5 7. cxd5 exd5 8. Be2
+Bd6 9. Qc2 O-O 10. O-O Nbd7 11. Bd2 Ne4 12. Rfc1 f5 13. Ne1 Bxe2 14. Nxe2 Qh4
+15. Nd3 Rf6 16. Be1 Ng5 17. f4 Nxh3+ 18. gxh3 Qxh3 19. Ng3 Rg6 20. Qh2 Qg4 21.
+Kf1 Nf6 22. Ne5 Bxe5 23. dxe5 Qf3+ 24. Qf2 Rxg3 25. Qxf3 Rxf3+ 26. Ke2 Rh3 27.
+exf6 Rh2+ 28. Kd3 gxf6 29. Bc3 Kf7 30. Rh1 Rxh1 31. Rxh1 Kg6 32. Bd4 b6 33. b4
+Rc8 34. Rc1 h5 35. a4 h4 36. a5 bxa5 37. bxa5 a6 38. Ke2 Kf7 39. Kf3 Ke6 40.
+Kg2 Kd6 41. Bc5+ Kd7 42. Kh3 Rh8 43. Rb1 Rg8 44. Kxh4 Rg2 45. Rb7+ Kc8 46. Rb6
+Rc2 47. Rxc6+ Kd7 48. Rd6+ Kc7 49. Bb4 Rc4 50. Rb6 d4 51. exd4 Rxd4 52. Kg3
+Rd3+ 53. Kf2 Rd4 54. Ke3 Re4+ 55. Kd3 Kd7 56. Bd2 Ra4 57. Rxa6 1-0
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2009.08.08"]
+[Round "9.15"]
+[White "Colls Bosch, E."]
+[Black "Toste Nieto, A."]
+[Result "0-1"]
+[ECO "A00"]
+[WhiteElo "2011"]
+[BlackElo "1820"]
+[PlyCount "90"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 d6 3. b3 Nf6 4. e5 dxe5 5. Nxe5 Nbd7 6. Bb2 a6 7. Be2 e6 8. f4
+Bd6 9. Na3 O-O 10. Nac4 Bc7 11. Nxd7 Nxd7 12. O-O b5 13. Bf3 Ra7 14. Ne5 Nxe5
+15. fxe5 Qg5 16. Qe2 Rd8 17. d3 c4 18. d4 cxb3 19. axb3 Bb6 20. c3 b4 21. Qf2
+bxc3 22. Bxc3 Bd7 23. Be2 Qg6 24. Bxa6 Bc6 25. Rad1 Rdd7 26. Rfe1 Rd8 27. Bf1
+Bd5 28. Qb2 Qg4 29. h3 Qg3 30. Rd3 Qf4 31. g3 Qf5 32. g4 Qg6 33. Rg3 h5 34. Bd3
+Qg5 35. Bd2 Qh4 36. Kh2 hxg4 37. Qc1 Rc7 38. Qd1 Bf3 39. Be2 Rxd4 40. Bxf3 gxf3
+41. Rxf3 Rcd7 42. Re2 Ba5 43. Qe1 Rxd2 44. Qxh4 Rxe2+ 45. Kg1 Rd1+ 0-1
+
+[Event "Ct. Girona indiv. A"]
+[Site "?"]
+[Date "2009.10.18"]
+[Round "3"]
+[White "Salagran Ferragut, G."]
+[Black "Toste Nieto, A."]
+[Result "1-0"]
+[ECO "B53"]
+[WhiteElo "1698"]
+[BlackElo "1838"]
+[PlyCount "38"]
+[EventDate "2009.??.??"]
+[EventRounds "8"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Qxd4 Nc6 5. Bb5 Bd7 6. Bxc6 bxc6 7. Nc3 c5 8.
+Qd3 Bc6 9. Bf4 Nf6 10. O-O-O g6 11. e5 Nh5 12. Qe3 Ng7 13. exd6 Nf5 14. Qxc5
+Bd7 15. Nd5 Qc8 16. Nc7+ Kd8 17. Qe5 f6 18. dxe7+ Bxe7 19. Qa5 Rb8 1-0
+
+[Event "Ct. Girona indiv. A"]
+[Site "?"]
+[Date "2009.11.01"]
+[Round "5"]
+[White "Toste Nieto, A."]
+[Black "Pinsach Gelabert, A."]
+[Result "1-0"]
+[ECO "D46"]
+[WhiteElo "1838"]
+[BlackElo "1759"]
+[PlyCount "148"]
+[EventDate "2009.??.??"]
+[EventRounds "8"]
+
+1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. Nc3 c6 5. e3 Nbd7 6. Bd3 Bd6 7. O-O O-O 8. Rb1
+dxc4 9. Bxc4 a6 10. Qe2 b5 11. Bd3 Qc7 12. h3 Bb7 13. Bd2 c5 14. b3 Rfc8 15.
+Rfc1 Qd8 16. a4 b4 17. Nd1 Qb6 18. dxc5 Nxc5 19. Bc2 Bd5 20. Nd4 Be5 21. Nf3
+Bd6 22. Ne1 Nfe4 23. Nf3 Qb7 24. Be1 Rc7 25. Nd4 Rac8 26. f3 Ng3 27. Qd2 Nh5
+28. Ne2 Rd7 29. Nd4 Be5 30. Qxb4 Qxb4 31. Bxb4 Bxd4 32. exd4 Nb7 33. Bxh7+ Kxh7
+34. Rxc8 e5 35. dxe5 Bxb3 36. Rxb3 Rxd1+ 37. Kf2 Nf4 38. Ba3 Rd7 39. Rcc3 Na5
+40. Rb6 Rd4 41. Bc5 Rxa4 42. Rxa6 Ra2+ 43. Kf1 Ra1+ 44. Kf2 Ra2+ 45. Kf1 Ra1+
+46. Kf2 Ra2+ 47. Ke1 Ra1+ 48. Kd2 Ra2+ 49. Kd1 Nd5 50. Ra3 Rxa3 51. Bxa3 Nc4
+52. Bc5 Nxe5 53. Bd4 Nc4 54. Ra4 Nde3+ 55. Bxe3 Nb2+ 56. Kc2 Nxa4 57. Bd4 g5
+58. Kb3 Kg6 59. Kxa4 Kh5 60. g3 f5 61. Be5 g4 62. fxg4+ fxg4 63. h4 Kg6 64. Kb4
+Kf5 65. Ba1 Ke4 66. Kc4 Kf5 67. Kd5 Kg6 68. Ke6 Kh6 69. Kf6 Kh5 70. Kf5 Kh6 71.
+Kxg4 Kg6 72. h5+ Kh6 73. Bb2 Kh7 74. Kg5 Kg8 1-0
+
+[Event "Ct. Girona indiv. A"]
+[Site "?"]
+[Date "2009.11.08"]
+[Round "6"]
+[White "Genover Rodriguez, I."]
+[Black "Toste Nieto, A."]
+[Result "0-1"]
+[ECO "B90"]
+[BlackElo "1838"]
+[PlyCount "82"]
+[EventDate "2009.??.??"]
+[EventRounds "8"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. f3 e5 7. Nb3 Be6 8. Be3
+Nbd7 9. Qd2 b5 10. g4 Nb6 11. O-O-O Nc4 12. Bxc4 bxc4 13. Na1 Qa5 14. Kb1 Rb8
+15. Nd5 Qxd2 16. Nxf6+ gxf6 17. Bxd2 d5 18. exd5 Bxd5 19. Rhf1 Be6 20. c3 h5
+21. g5 Ba3 22. Bc1 fxg5 23. Nc2 Bf5 24. Rd5 f6 25. Rfd1 Be7 26. Ra5 Rb6 27. Be3
+Rc6 28. Kc1 Kf7 29. Nb4 Bxb4 30. cxb4 c3 31. Bc5 c2 32. Rd2 g4 33. fxg4 hxg4
+34. Rf2 Ke6 35. Rg2 Rd8 36. Rd2 Rxd2 37. Kxd2 Be4 38. a4 Bd3 39. Kc1 f5 40. Bf8
+Kf7 41. Bh6 Rxh6 0-1
+
+[Event "Ct. Girona indiv. A"]
+[Site "?"]
+[Date "2009.11.15"]
+[Round "7"]
+[White "Toste Nieto, A."]
+[Black "Vidal Palou, J."]
+[Result "1/2-1/2"]
+[ECO "B14"]
+[WhiteElo "1838"]
+[BlackElo "1637"]
+[PlyCount "96"]
+[EventDate "2009.??.??"]
+[EventRounds "8"]
+
+1. Nf3 Nc6 2. d4 d5 3. c4 e6 4. Nc3 Nf6 5. Bg5 Be7 6. e3 O-O 7. Bd3 Nb4 8. Be2
+c5 9. O-O cxd4 10. exd4 dxc4 11. Bxc4 Nfd5 12. Bxe7 Nxe7 13. Qb3 Nbc6 14. Qd1
+a6 15. a4 Qc7 16. Qe2 b6 17. Rac1 Bb7 18. Rfd1 Qf4 19. Qe3 Qg4 20. h3 Qh5 21.
+d5 exd5 22. Nxd5 Nf5 23. Qxb6 Rab8 24. Qc7 Ba8 25. b3 Kh8 26. Qf4 Na5 27. Re1
+Nxc4 28. bxc4 f6 29. Rb1 Rbc8 30. Rb3 Nh6 31. Rd3 Qg6 32. Qe4 Qf7 33. Qh4 Rcd8
+34. Red1 Rfe8 35. Qf4 Bc6 36. Nc3 Rc8 37. Ne1 Qb7 38. Rb1 Qxb1 39. Nxb1 Rxe1+
+40. Kh2 Rxb1 41. Qd6 Rbb8 42. a5 Nf7 43. Qe6 Ne5 44. Rd4 Re8 45. Qd6 Bb7 46.
+Qc7 Nc6 47. Rd7 Rec8 48. Qg3 Rg8 1/2-1/2
+
+[Event "Ct. Girona indiv. A"]
+[Site "?"]
+[Date "2009.11.22"]
+[Round "8"]
+[White "Blasco Vidal, J."]
+[Black "Toste Nieto, A."]
+[Result "0-1"]
+[ECO "E70"]
+[WhiteElo "1719"]
+[BlackElo "1838"]
+[PlyCount "42"]
+[EventDate "2009.??.??"]
+[EventRounds "8"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Be3 O-O 6. Qd2 e5 7. d5 a5 8. Bh6
+Bxh6 9. Qxh6 Ng4 10. Qd2 f5 11. f3 Nf6 12. Bd3 fxe4 13. fxe4 Na6 14. O-O-O Nc5
+15. Nf3 Nh5 16. Ne2 Bg4 17. Neg1 Qf6 18. h3 Bxf3 19. Nxf3 Ng3 20. Rhe1 Qf4 21.
+Ng5 Nxd3+ 0-1
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2011.08.11"]
+[Round "1"]
+[White "Toste Nieto, A."]
+[Black "Alcaraz Martinez, L."]
+[Result "1-0"]
+[ECO "B89"]
+[WhiteElo "1964"]
+[PlyCount "43"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.08.25"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e6 6. Be3 Nc6 7. Bc4 Nxd4 8.
+Qxd4 Be7 9. f3 a6 10. O-O-O O-O 11. g4 b5 12. Bb3 Bb7 13. h4 Qc7 14. h5 e5 15.
+Qd2 b4 16. Na4 Nxe4 17. fxe4 Bxe4 18. Rh2 Kh8 19. g5 g6 20. hxg6 fxg6 21. Rxh7+
+Kxh7 22. Qh2+ 1-0
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2011.08.12"]
+[Round "2"]
+[White "Lillo Castany, V."]
+[Black "Toste Nieto, A."]
+[Result "1-0"]
+[ECO "B82"]
+[WhiteElo "2281"]
+[BlackElo "1964"]
+[PlyCount "45"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.08.25"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. f4 e6 7. Qf3 Qc7 8. g4
+b5 9. g5 Nfd7 10. Bd3 Nc5 11. f5 b4 12. Nce2 e5 13. Nb3 a5 14. Nxc5 Qxc5 15.
+Be3 Qc6 16. O-O Bb7 17. a4 bxa3 18. Nc3 Ba6 19. Rxa3 Bxd3 20. cxd3 Nd7 21. Rfa1
+Nc5 22. Nd5 a4 23. b4 1-0
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2011.08.13"]
+[Round "3"]
+[White "Toste Nieto, A."]
+[Black "Ragueneau, YK."]
+[Result "1-0"]
+[ECO "B08"]
+[WhiteElo "1964"]
+[BlackElo "1414"]
+[PlyCount "57"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.08.25"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Nf3 Bg7 5. Be3 Nbd7 6. h3 Nb6 7. Qd2 O-O 8. Bd3
+d5 9. e5 Ne8 10. O-O c6 11. b3 Be6 12. Ng5 Nc7 13. f4 Bf5 14. Bxf5 gxf5 15. Qd3
+e6 16. Ne2 f6 17. Nf3 fxe5 18. fxe5 Qd7 19. Nf4 Kh8 20. Qe2 Rg8 21. Nh5 Raf8
+22. Qf2 Nc8 23. Bg5 Ne8 24. Qh4 Qf7 25. Bd2 Qe7 26. Qxe7 Nxe7 27. Bb4 Ng6 28.
+Bxf8 Bxf8 29. Ng5 1-0
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2011.08.14"]
+[Round "4"]
+[White "Spielmann, A."]
+[Black "Toste Nieto, A."]
+[Result "1-0"]
+[ECO "E97"]
+[WhiteElo "2266"]
+[BlackElo "1964"]
+[PlyCount "65"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.08.25"]
+
+1. Nf3 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. d4 O-O 6. Be2 e5 7. O-O Nc6 8. d5
+Ne7 9. b4 Nh5 10. Re1 f5 11. Ng5 Nf4 12. Bxf4 exf4 13. Rc1 Bf6 14. Ne6 Bxe6 15.
+dxe6 Bxc3 16. Rxc3 fxe4 17. Bf1 e3 18. fxe3 fxe3 19. Rcxe3 c6 20. Qd2 d5 21. c5
+Qc7 22. Re5 Rf6 23. Bd3 a5 24. a3 b6 25. Qh6 axb4 26. Rh5 Nf5 27. Bxf5 Qe7 28.
+cxb6 bxa3 29. Rg5 Rxf5 30. Rxf5 gxf5 31. Qe3 a2 32. b7 a1=Q 33. Qg3+ 1-0
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2011.08.14"]
+[Round "5"]
+[White "Toste Nieto, A."]
+[Black "Romero Isado, JL."]
+[Result "1-0"]
+[ECO "C97"]
+[WhiteElo "1964"]
+[BlackElo "1693"]
+[PlyCount "125"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.08.25"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3
+Na5 9. Bc2 c5 10. h3 O-O 11. d4 Qc7 12. d5 h6 13. Nbd2 Bd7 14. Nf1 Rac8 15. b3
+c4 16. b4 Nb7 17. Ng3 a5 18. a3 Ra8 19. Be3 Ra6 20. Nh2 Rfa8 21. Rc1 Rf8 22. f4
+Nh7 23. Nf3 Bf6 24. Nh5 Re8 25. Nxf6+ Nxf6 26. Qd2 Nh7 27. Rf1 Nf6 28. f5 axb4
+29. axb4 Ra2 30. Qe1 Rea8 31. Qh4 Qd8 32. g4 Nh7 33. g5 hxg5 34. Bxg5 Nxg5 35.
+Nxg5 Qf6 36. Qh7+ Kf8 37. Ne6+ Ke7 38. Qxg7 Qxg7+ 39. Nxg7 R8a3 40. Bd1 f6 41.
+Bg4 Rb2 42. Rf2 Rbb3 43. Rfc2 Nd8 44. Kf2 Nf7 45. Nh5 Ng5 46. Ng3 Be8 47. h4
+Nh7 48. Nf1 Ra7 49. Nd2 Rba3 50. Rg1 Kf8 51. Be2 Rg7 52. Rxg7 Kxg7 53. Nf1 Nf8
+54. Ke3 Nd7 55. Kd2 Nb6 56. Ne3 Na4 57. h5 Kh6 58. Ng4+ Kg5 59. h6 Ra1 60. Bd1
+Bg6 61. fxg6 Kxg6 62. h7 Kxh7 63. Nxf6+ 1-0
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2011.08.15"]
+[Round "6"]
+[White "Balague Camps, M."]
+[Black "Toste Nieto, A."]
+[Result "1/2-1/2"]
+[ECO "B48"]
+[WhiteElo "2119"]
+[BlackElo "1964"]
+[PlyCount "61"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.08.25"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Nc3 Qc7 6. Be3 Nc6 7. Qd2 Nf6 8.
+O-O-O Bb4 9. f3 Na5 10. Nb3 d5 11. exd5 Nxd5 12. Bd4 f6 13. Nxa5 Bxa5 14. Kb1
+Bxc3 15. Bxc3 Nxc3+ 16. Qxc3 Qxc3 17. bxc3 Bd7 18. Kb2 Ke7 19. Bc4 Rad8 20.
+Rhe1 Rhe8 21. f4 Bc8 22. Rxd8 Rxd8 23. Bxe6 Bxe6 24. f5 Rd2 25. Rxe6+ Kf7 26.
+Rb6 Rxg2 27. h4 Rf2 28. Rxb7+ Kf8 29. Rb8+ Kf7 30. Rb7+ Kf8 31. Rb8+ 1/2-1/2
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2011.08.16"]
+[Round "7"]
+[White "Toste Nieto, A."]
+[Black "Parals Marce, L."]
+[Result "1-0"]
+[ECO "B47"]
+[WhiteElo "1964"]
+[BlackElo "2077"]
+[PlyCount "107"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.08.25"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Ndb5 Qb8 7. Be3 a6 8.
+Bb6 axb5 9. Nxb5 Ra5 10. Nc7+ Ke7 11. Qd3 d6 12. O-O-O Kd7 13. Bxa5 Nxa5 14.
+Nb5 Nc6 15. f4 f6 16. Be2 Nh6 17. Qb3 Ke8 18. Rhe1 Bd7 19. Bf3 Be7 20. Qd3 Nf7
+21. a3 Na7 22. Nxa7 Qxa7 23. e5 Qb6 24. Bg4 fxe5 25. fxe5 d5 26. Kb1 Qc7 27.
+Qg3 g6 28. Bf3 Qb6 29. Ka2 Qc5 30. Bxd5 b5 31. Bb3 b4 32. axb4 Qxb4 33. Qd3 Qb7
+34. Qc4 Kf8 35. Rf1 Kg7 36. Qd4 Ra8+ 37. Kb1 Qa6 38. c3 Rd8 39. Qf4 Be8 40.
+Rxd8 Bxd8 41. Bc4 Qc6 42. g3 g5 43. Qd4 Bb6 44. Qg4 Bd7 45. Bd3 h6 46. Qh5 Nxe5
+47. Bc2 Be8 48. Qe2 Bc7 49. Qf2 Nf7 50. Qf6+ Kf8 51. Qxh6+ Ke7 52. Qf6+ Kd7 53.
+Qd4+ Bd6 54. Ba4 1-0
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2011.08.17"]
+[Round "8"]
+[White "Tillet, LJ."]
+[Black "Toste Nieto, A."]
+[Result "1-0"]
+[ECO "B22"]
+[WhiteElo "2204"]
+[BlackElo "1964"]
+[PlyCount "69"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.08.25"]
+
+1. e4 c5 2. c3 d5 3. exd5 Qxd5 4. d4 Nf6 5. Nf3 Bg4 6. Nbd2 Nc6 7. Bc4 Bxf3 8.
+Qb3 Na5 9. Qb5+ Qd7 10. Nxf3 Nxc4 11. Qxc4 cxd4 12. Nxd4 Rc8 13. Qe2 Qg4 14. f3
+Qh4+ 15. g3 Qh5 16. Nb5 e6 17. Nxa7 Rc5 18. Be3 Re5 19. O-O-O Be7 20. Nc8 Rxe3
+21. Qxe3 Qc5 22. Qxc5 Bxc5 23. Nd6+ Bxd6 24. Rxd6 Nd5 25. Re1 O-O 26. c4 Rc8
+27. Kb1 Nb4 28. Rb6 Rxc4 29. Rc1 Rxc1+ 30. Kxc1 Nd3+ 31. Kd2 Ne5 32. Ke2 g5 33.
+Rxb7 Nc6 34. b4 Nd4+ 35. Kf2 1-0
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2011.08.18"]
+[Round "9"]
+[White "Toste Nieto, A."]
+[Black "Campo Echevarria, JF."]
+[Result "1/2-1/2"]
+[ECO "B30"]
+[WhiteElo "1964"]
+[BlackElo "2112"]
+[PlyCount "187"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.08.25"]
+
+1. e4 c5 2. Nf3 Nc6 3. Be2 g6 4. d4 cxd4 5. Nxd4 Bg7 6. Be3 Nf6 7. Nc3 O-O 8.
+Qd2 d5 9. exd5 Nxd5 10. Nxd5 Nxd4 11. c4 Nxe2 12. Qxe2 Be6 13. Nf4 Bf5 14. O-O
+e6 15. Rfd1 Qc7 16. f3 h5 17. Rd2 Rac8 18. Rc1 Rfd8 19. b3 Rxd2 20. Qxd2 Rd8
+21. Qf2 Be5 22. g3 b6 23. Ne2 Bb2 24. Re1 e5 25. f4 f6 26. Bc1 Bxc1 27. Nxc1
+Rd4 28. fxe5 fxe5 29. Qe3 Qd6 30. Kf2 Re4 31. Qc3 Rd4 32. Qe3 e4 33. Qf4 Qc5
+34. Qe3 Kg7 35. Kg2 Bg4 36. Ne2 Bf3+ 37. Kf1 Bxe2+ 38. Kxe2 Qd6 39. Qf4 Qxf4
+40. gxf4 Rd3 41. Rf1 Kf6 42. Rf2 Kf5 43. Rf1 a5 44. Rf2 a4 45. bxa4 Ra3 46. Kf1
+Rxa4 47. Rb2 Rxc4 48. Rxb6 Rc2 49. a4 Rxh2 50. a5 Ra2 51. a6 h4 52. Kg1 h3 53.
+Rb3 Rxa6 54. Rxh3 Kg4 55. Rh8 Kxf4 56. Rf8+ Kg3 57. Kf1 Ra2 58. Rg8 Kf3 59.
+Rf8+ Kg4 60. Re8 Kf3 61. Rf8+ Ke3 62. Rg8 Rf2+ 63. Ke1 Rf6 64. Ra8 Kf4 65. Ke2
+g5 66. Ra7 g4 67. Kf2 g3+ 68. Kg2 Rb6 69. Ra4 Rd6 70. Ra3 Rd2+ 71. Kg1 Rd3 72.
+Ra8 Kf3 73. Rf8+ Ke2 74. Kg2 Kd2 75. Re8 Re3 76. Ra8 Rb3 77. Re8 Re3 78. Ra8
+Rb3 79. Re8 e3 80. Ra8 Rd3 81. Kxg3 Ke1 82. Ra1+ Rd1 83. Ra3 Ke2 84. Kg2 Rd3
+85. Ra2+ Rd2 86. Ra1 Kd3+ 87. Kf1 Rh2 88. Ra3+ Ke4 89. Ra8 Rf2+ 90. Ke1 Rf5 91.
+Ke2 Rd5 92. Re8+ Re5 93. Rxe5+ Kxe5 94. Kxe3 1/2-1/2

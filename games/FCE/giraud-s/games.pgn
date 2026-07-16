@@ -1,0 +1,83 @@
+[Event "Fincas Mediterranea op"]
+[Site "?"]
+[Date "2005.08.18"]
+[Round "2.10"]
+[White "Giraud, S."]
+[Black "Hernando Rodrigo, JM."]
+[Result "0-1"]
+[ECO "B01"]
+[WhiteElo "2015"]
+[BlackElo "2351"]
+[PlyCount "74"]
+[EventDate "2005.??.??"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. Bc4 Nf6 5. h3 a6 6. d4 b5 7. Bb3 Bb7 8. Nf3
+c5 9. dxc5 e6 10. O-O Bxc5 11. Bg5 Nbd7 12. Qe2 O-O 13. a3 Qc7 14. Rad1 Bxa3
+15. Nxb5 axb5 16. bxa3 Rxa3 17. Bc1 Raa8 18. Rfe1 Nc5 19. Qxb5 Bxf3 20. gxf3
+Nxb3 21. Qxb3 Rfc8 22. Re2 Nd5 23. c4 Rab8 24. Qd3 Qxc4 25. Qxc4 Rxc4 26. Rb2
+Rxb2 27. Bxb2 f6 28. Bd4 Nf4 29. Kh2 Kf7 30. Be3 Nd5 31. Kg2 Kg6 32. Kg3 Ne7
+33. f4 Nd5 34. Kf3 Kf5 35. Rg1 g5 36. Rd1 h5 37. h4 Nxf4 0-1
+
+[Event "Fincas Mediterranea op"]
+[Site "?"]
+[Date "2005.08.20"]
+[Round "4.11"]
+[White "Giraud, S."]
+[Black "Hernando Rodrigo, Julio"]
+[Result "0-1"]
+[ECO "B01"]
+[WhiteElo "2015"]
+[BlackElo "2371"]
+[PlyCount "126"]
+[EventDate "2005.??.??"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d4 Nf6 5. Be2 c6 6. Nf3 Bf5 7. O-O Nbd7 8.
+Bf4 e6 9. a3 Be7 10. b4 Qd8 11. Nh4 Be4 12. Nxe4 Nxe4 13. Nf3 Nc3 14. Qd2 Nxe2+
+15. Qxe2 O-O 16. Rfd1 Nb6 17. c4 a5 18. Bd2 axb4 19. axb4 Bf6 20. Rxa8 Qxa8 21.
+Bf4 Qa4 22. Bd6 Ra8 23. Bc5 Nxc4 24. Rc1 Qa2 25. Kf1 Qxe2+ 26. Kxe2 Ra2+ 27.
+Kd3 b5 28. Rc2 Ra3+ 29. Ke2 h5 30. Nd2 Nxd2 31. Kxd2 g5 32. h3 g4 33. hxg4 hxg4
+34. Ke2 Kg7 35. f3 Kg6 36. Bb6 Rb3 37. Bc5 Kf5 38. Ra2 g3 39. Rc2 e5 40. dxe5
+Bxe5 41. Bf8 Bc3 42. Bd6 Bxb4 43. Bxb4 Rxb4 44. Rxc6 Rb2+ 45. Ke3 Kg5 46. f4+
+Kg4 47. Rf6 Rxg2 48. Rxf7 Rf2 49. Rg7+ Kh3 50. Rh7+ Kg2 51. Rb7 Rb2 52. f5 b4
+53. f6 Rf2 54. Rxb4 Rxf6 55. Re4 Kh2 56. Rh4+ Kg1 57. Ke2 g2 58. Rh8 Re6+ 59.
+Kd2 Re5 60. Rh7 Kf2 61. Rf7+ Kg3 62. Rg7+ Kf3 63. Rg8 Re4 0-1
+
+[Event "Fincas Mediterranea op"]
+[Site "?"]
+[Date "2005.08.23"]
+[Round "7.19"]
+[White "Escobar Torres, A."]
+[Black "Giraud, S."]
+[Result "1-0"]
+[ECO "A05"]
+[WhiteElo "2095"]
+[BlackElo "2015"]
+[PlyCount "84"]
+[EventDate "2005.??.??"]
+
+1. Nf3 Nf6 2. b3 b6 3. Bb2 Bb7 4. g3 e6 5. Bg2 c5 6. O-O d5 7. d3 Nbd7 8. Nbd2
+Be7 9. Re1 O-O 10. e4 dxe4 11. dxe4 Qc7 12. e5 Nd5 13. h4 Rad8 14. Qe2 Nb4 15.
+Ne4 c4 16. a3 Bxe4 17. Qxe4 c3 18. Bc1 Nd5 19. Ng5 Bxg5 20. Bxg5 Rde8 21. Rad1
+f6 22. exf6 N7xf6 23. Qe2 h6 24. Bc1 Qf7 25. Rd3 Qg6 26. Bh3 e5 27. Bg2 e4 28.
+Rd4 Qf5 29. Red1 e3 30. f4 Nc7 31. R1d3 Nb5 32. Rc4 Ne4 33. Bxe3 Nxa3 34. g4
+Qh7 35. Rcd4 Ng3 36. Qf3 Nxc2 37. Qxg3 Nxd4 38. Bxd4 c2 39. Bb2 Re1+ 40. Qxe1
+Qxd3 41. Qe6+ Kh8 42. Qxh6+ Qh7 1-0
+
+[Event "Fincas Mediterranea op"]
+[Site "?"]
+[Date "2005.08.25"]
+[Round "9.20"]
+[White "Colom Andres, FX."]
+[Black "Giraud, S."]
+[Result "1-0"]
+[ECO "D93"]
+[WhiteElo "2090"]
+[BlackElo "2015"]
+[PlyCount "61"]
+[EventDate "2005.??.??"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Bf4 Bg7 5. e3 O-O 6. Rc1 c6 7. Nf3 Nh5 8. Bg5
+h6 9. Bh4 g5 10. Bg3 Nxg3 11. hxg3 dxc4 12. Bxc4 Nd7 13. Qc2 Nf6 14. Ne5 Nd5
+15. Rd1 Be6 16. e4 Nxc3 17. bxc3 Qd6 18. Bxe6 Qxe6 19. Nf3 Rad8 20. e5 f5 21.
+O-O Rd7 22. Nd2 Rfd8 23. Nb3 b6 24. f4 g4 25. Rd2 a5 26. Rfd1 Kf7 27. a4 Kg6
+28. c4 Bf8 29. d5 Qg8 30. Nd4 e6 31. Nxe6 1-0

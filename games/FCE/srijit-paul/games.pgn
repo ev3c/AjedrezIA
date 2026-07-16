@@ -1,0 +1,440 @@
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.13"]
+[Round "1"]
+[White "Srijit, Paul"]
+[Black "Di Chiara, Mauro"]
+[Result "1-0"]
+[ECO "B07"]
+[WhiteElo "2247"]
+[BlackElo "1964"]
+[PlyCount "71"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Be3 Nf6 5. f3 c6 6. Qd2 O-O 7. g4 b5 8. Bh6 Qa5
+9. Bxg7 Kxg7 10. g5 Nfd7 11. h4 b4 12. Nce2 c5 13. h5 Nc6 14. d5 Nce5 15. Nf4
+Ba6 16. Bxa6 Qxa6 17. Kf2 Qb6 18. Kg3 Rfc8 19. Nge2 Nc4 20. Qc1 Nf8 21. Rh3 Qd8
+22. hxg6 Nxg6 23. Nxg6 hxg6 24. Qh1 Qg8 25. Qh2 f6 26. f4 Nd2 27. Qg2 Qf7 28.
+Rd1 Nc4 29. Rdh1 Rh8 30. R1h2 fxg5 31. Qh1 Rh5 32. Rxh5 gxh5 33. Rxh5 gxf4+ 34.
+Nxf4 Rg8 35. Rf5 Kf8+ 36. Kf2 1-0
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.14"]
+[Round "2"]
+[White "Grigoryan, Karen H"]
+[Black "Srijit, Paul"]
+[Result "1-0"]
+[ECO "A04"]
+[WhiteElo "2555"]
+[BlackElo "2247"]
+[PlyCount "73"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. Nf3 f5 2. d3 Nf6 3. e4 d6 4. exf5 Bxf5 5. d4 Qd7 6. Bd3 Nc6 7. O-O e5 8.
+Bxf5 Qxf5 9. c4 e4 10. Nh4 Qd7 11. Nc3 O-O-O 12. f3 exf3 13. Nxf3 d5 14. c5 Ne4
+15. Ne2 Be7 16. b4 Bf6 17. b5 Nb8 18. c6 bxc6 19. bxc6 Qxc6 20. Bf4 Nd6 21. Rb1
+Nc4 22. Nc3 a6 23. Qd3 Nd7 24. Rfc1 Ndb6 25. a4 g5 26. Bg3 g4 27. a5 gxf3 28.
+axb6 f2+ 29. Bxf2 cxb6 30. Nxd5 Qxd5 31. Rxb6 Rd6 32. Rxc4+ Kd7 33. Qh3+ Ke8
+34. Rxd6 Qxd6 35. Qh5+ Kf8 36. d5 Kg7 37. Bc5 1-0
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.15"]
+[Round "3"]
+[White "Srijit, Paul"]
+[Black "Fuentes Godoy, Lilia Ivonne"]
+[Result "1/2-1/2"]
+[ECO "B30"]
+[WhiteElo "2247"]
+[BlackElo "2069"]
+[PlyCount "54"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nc6 3. Nc3 e5 4. Bc4 Be7 5. d3 d6 6. O-O Nf6 7. Ng5 O-O 8. f4
+Bg4 9. Nf3 Nd4 10. Kh1 Nh5 11. Nd5 b5 12. Nxe7+ Qxe7 13. Bd5 Rac8 14. f5 Bxf3
+15. gxf3 Qh4 16. Kg2 Nf6 17. Bb3 c4 18. dxc4 bxc4 19. Ba4 c3 20. bxc3 Rxc3 21.
+Bd2 Nxe4 22. Qe1 Qxe1 23. Bxe1 Rc4 24. Bb3 Nxb3 25. cxb3 Rc2+ 26. Kg1 Nc3 27.
+Rf2 Ne2+ 1/2-1/2
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.16"]
+[Round "4"]
+[White "Avdhoot, Lendhe"]
+[Black "Srijit, Paul"]
+[Result "0-1"]
+[ECO "A85"]
+[WhiteElo "2034"]
+[BlackElo "2247"]
+[PlyCount "40"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 f5 2. c4 Nf6 3. Nc3 d6 4. Bg5 Nbd7 5. Qc2 g6 6. e4 fxe4 7. Nxe4 c5 8. Nf3
+Bg7 9. Nc3 O-O 10. Be2 cxd4 11. Nxd4 Ne5 12. O-O-O Qa5 13. h4 Bd7 14. Bd2 Qc5
+15. Be3 Neg4 16. Bxg4 Nxg4 17. Ne6 Nxe3 18. Nxc5 Nxc2 19. Kxc2 Rxf2+ 20. Kb3
+Bg4 0-1
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.17"]
+[Round "5"]
+[White "Srijit, Paul"]
+[Black "Oliva Castaneda, Kevel"]
+[Result "0-1"]
+[ECO "B90"]
+[WhiteElo "2247"]
+[BlackElo "2497"]
+[PlyCount "104"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nf3 Qc7 8. a4
+Be6 9. Ng5 Nbd7 10. Nxe6 fxe6 11. Qf3 Be7 12. Be2 Qc6 13. Rd1 O-O 14. O-O Rf7
+15. Rd2 Rd8 16. Rfd1 Nf8 17. Bg5 h6 18. Bxf6 Bxf6 19. Qg3 Bg5 20. Rd3 Qb6 21.
+b3 Ng6 22. Rf3 Rxf3 23. Bxf3 Rf8 24. Rf1 Qc5 25. Ne2 Qxc2 26. Qg4 Qxb3 27. Nc1
+Qc4 28. Be2 Qc8 29. Nd3 Nf4 30. Nxf4 Rxf4 31. Qh3 Rxe4 32. Bg4 Kf7 33. Bh5+ g6
+34. Qd3 Qc4 35. Qf3+ Bf6 36. Rb1 b6 37. a5 b5 38. h3 gxh5 39. Qxh5+ Kg7 40. Qe8
+Re2 41. Qd7+ Kg6 42. Rf1 Rc2 43. Qxd6 Rc1 44. Rxc1 Qxc1+ 45. Kh2 Qc8 46. g3 Bg7
+47. h4 Kh7 48. Qd3+ Kh8 49. Qd6 e4 50. Qb6 Qf8 51. Kg1 b4 52. Kf1 Qf3 0-1
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.18"]
+[Round "6"]
+[White "Sumit, Kumar1"]
+[Black "Srijit, Paul"]
+[Result "0-1"]
+[ECO "B03"]
+[WhiteElo "1975"]
+[BlackElo "2247"]
+[PlyCount "80"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. c4 Nb6 5. f4 g6 6. Nc3 Bg7 7. Be3 O-O 8. Qd2
+Be6 9. d5 Bf5 10. Nf3 N8d7 11. h3 Nc5 12. Bxc5 dxc5 13. g4 Bc8 14. O-O-O c6 15.
+Qf2 cxd5 16. cxd5 c4 17. Qg3 Bd7 18. Ng5 Na4 19. Nge4 Nxc3 20. Qxc3 b5 21. Be2
+Rb8 22. Kb1 Qc7 23. h4 f5 24. Ng3 fxg4 25. Qe3 Qb6 26. Qxb6 Rxb6 27. e6 Be8 28.
+Rhf1 h5 29. Ne4 Bh6 30. d6 Bc6 31. Nc5 exd6 32. Rxd6 Re8 33. f5 gxf5 34. Rxf5
+Be3 35. Ka1 g3 36. Nd7 Bxd7 37. exd7 Rd8 38. Re5 Rxd6 39. Re8+ Kg7 40. Rxe3 g2
+0-1
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.19"]
+[Round "7"]
+[White "Srijit, Paul"]
+[Black "Chernikov, Vladimir"]
+[Result "1-0"]
+[ECO "C41"]
+[WhiteElo "2247"]
+[BlackElo "2079"]
+[PlyCount "97"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 e5 4. Nf3 Nbd7 5. Bc4 Be7 6. O-O O-O 7. Re1 c6 8. a4
+exd4 9. Nxd4 Ne5 10. Bf1 Re8 11. Bf4 Qc7 12. Bg3 Nh5 13. Bxe5 dxe5 14. Ndb5
+cxb5 15. Nd5 Qd8 16. Qxh5 bxa4 17. Bb5 Bd7 18. Bxa4 Bxa4 19. Rxa4 Qd7 20. Rea1
+Rac8 21. c3 Bc5 22. R4a2 Rc6 23. b4 Bb6 24. Rd2 Qe6 25. Rd3 Qg6 26. Qf3 h6 27.
+Re1 Kh7 28. Qh3 Rc4 29. Qh4 Bd8 30. Qg3 Bg5 31. h4 Bd8 32. Qxg6+ Kxg6 33. g3
+Kh7 34. f3 g6 35. Kf1 Kg7 36. Ke2 Bb6 37. Red1 Rec8 38. g4 g5 39. hxg5 hxg5 40.
+Rh1 Rh8 41. Rxh8 Kxh8 42. Ne7 a5 43. Rd6 Bc7 44. Rd7 axb4 45. cxb4 Kg7 46. Nd5
+Bb8 47. Rxb7 Bd6 48. Ne3 Rc6 49. b5 1-0
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.20"]
+[Round "8"]
+[White "Zubritskiy, Artyom"]
+[Black "Srijit, Paul"]
+[Result "1-0"]
+[ECO "A04"]
+[WhiteElo "2442"]
+[BlackElo "2247"]
+[PlyCount "119"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. Nf3 f5 2. d3 Nc6 3. e4 e5 4. Nc3 Nf6 5. g3 d6 6. Bg2 Be7 7. O-O O-O 8. h3 f4
+9. gxf4 exf4 10. d4 Qe8 11. e5 Nh5 12. e6 Qg6 13. d5 Nb4 14. a3 Nxc2 15. Ra2 c5
+16. Kh2 Nd4 17. Rg1 Qf5 18. Nxd4 cxd4 19. Qxd4 f3 20. Bf1 Bf6 21. Qg4 Be5+ 22.
+Kh1 b6 23. Qxf5 Rxf5 24. Bd3 Rf8 25. Bb5 Bb7 26. e7 Rfe8 27. Bg5 Nf6 28. Bxe8
+Rxe8 29. Raa1 Rxe7 30. Rad1 Kf7 31. Rge1 Bc8 32. Bxf6 gxf6 33. Rd3 Bxh3 34.
+Rxf3 Bc8 35. Ne4 Bb7 36. Rd1 Bc8 37. Rg1 Bb7 38. Rd1 Bc8 39. Rg1 Bb7 40. Rd3
+Rc7 41. b3 Rc2 42. Kg2 h6 43. Rgd1 f5 44. Ng3 Kg6 45. R1d2 Rc1 46. Ne2 Ra1 47.
+f4 Bf6 48. a4 h5 49. Re3 Kf7 50. Ng3 Kg6 51. Re6 h4 52. Nh5 Kxh5 53. Rxf6 Kg4
+54. Rxd6 Rb1 55. Rd7 Ba6 56. Rxa7 Bf1+ 57. Kh2 Rxb3 58. d6 Rh3+ 59. Kg1 Bd3 60.
+Rg7+ 1-0
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.21"]
+[Round "9.29"]
+[White "Srijit, Paul"]
+[Black "Valls Marti, Artur"]
+[Result "1-0"]
+[ECO "C54"]
+[WhiteElo "2247"]
+[BlackElo "2140"]
+[PlyCount "73"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 a6 6. Bb3 O-O 7. h3 d6 8. Nbd2
+Ba7 9. Nf1 Ne7 10. Ng3 Ng6 11. O-O c6 12. Nh2 Be6 13. Ng4 Nxg4 14. hxg4 Nf4 15.
+Qf3 Bxb3 16. axb3 Ne6 17. Nf5 d5 18. exd5 cxd5 19. b4 Re8 20. Ra5 Nc7 21. c4
+Bb6 22. Ra1 e4 23. dxe4 dxe4 24. Qc3 Ne6 25. c5 Bc7 26. Bh6 gxh6 27. Nxh6+ Kf8
+28. Qh8+ Ke7 29. Nf5+ Kd7 30. Rfd1+ Kc6 31. Qc3 Qg5 32. Qc4 Bh2+ 33. Kxh2 Qf4+
+34. Kg1 Kc7 35. Nd6 Rg8 36. Qd5 Nd8 37. Nb5+ 1-0
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.23"]
+[Round "2"]
+[White "Baron, Tal"]
+[Black "Srijit, Paul"]
+[Result "1-0"]
+[ECO "A80"]
+[WhiteElo "2547"]
+[BlackElo "2247"]
+[PlyCount "83"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 f5 2. Bf4 Nf6 3. e3 d6 4. Nc3 e6 5. h3 h6 6. g4 g5 7. Bg3 Bg7 8. Qf3 fxg4
+9. hxg4 Qe7 10. Bc4 Nc6 11. O-O-O Bd7 12. Qg2 O-O-O 13. f3 e5 14. Nge2 h5 15.
+gxh5 exd4 16. exd4 Nxh5 17. Nd5 Qf8 18. Bf2 Ne7 19. Kb1 Nxd5 20. Bxd5 Nf4 21.
+Nxf4 Qxf4 22. Rhg1 Rh2 23. Qf1 Qf5 24. Be4 Qa5 25. Bg3 Rd2 26. Rxd2 Qxd2 27. c3
+a6 28. Qc4 Bb5 29. Qe6+ Kb8 30. Qe7 Rd7 31. Qe8+ Ka7 32. Qc8 Bd3+ 33. Ka1 Bxe4
+34. Qxd7 Qe3 35. Bh2 Qf2 36. fxe4 Qxh2 37. Qg4 Bf6 38. a3 Qf2 39. Qg3 Qe2 40.
+Qe1 Qc2 41. Rf1 Bd8 42. Rf8 1-0
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.26"]
+[Round "5"]
+[White "Srijit, Paul"]
+[Black "Valsecchi, Alessio"]
+[Result "1/2-1/2"]
+[ECO "B92"]
+[WhiteElo "2247"]
+[BlackElo "2506"]
+[PlyCount "70"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Be2 Be7 7. O-O O-O 8.
+Be3 Nc6 9. f4 e5 10. Nb3 a5 11. a4 Nb4 12. Bf3 Be6 13. Kh1 Rc8 14. Rf2 Nd7 15.
+Rd2 exf4 16. Bxf4 Bg5 17. Ne2 Qf6 18. Bxg5 Qxg5 19. Nbd4 Ne5 20. b3 Nxf3 21.
+Nxf3 Qe3 22. Ng3 Bg4 23. c4 Rcd8 24. Re2 Qc5 25. Qg1 Nd3 26. Rd1 Ne5 27. Qe3 f5
+28. exf5 Nxf3 29. gxf3 Rde8 30. Qd3 Bh3 31. Rde1 Rxe2 32. Rxe2 Bxf5 33. Nxf5
+Qxf5 34. Qxf5 Rxf5 35. Kg2 Kf7 1/2-1/2
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.27"]
+[Round "6"]
+[White "Kobo, Ori"]
+[Black "Srijit, Paul"]
+[Result "1/2-1/2"]
+[ECO "B46"]
+[WhiteElo "2494"]
+[BlackElo "2247"]
+[PlyCount "68"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 a6 6. Be3 Nf6 7. Qf3 Bb4 8.
+Nxc6 bxc6 9. Qg3 O-O 10. Bd3 d5 11. e5 Ne8 12. Bg5 Qc7 13. a3 Ba5 14. O-O f5
+15. Na4 c5 16. c4 d4 17. Nxc5 Qxc5 18. b4 Bxb4 19. axb4 Qxb4 20. Rfb1 Qc5 21.
+Bd2 Rf7 22. Ra5 Qc6 23. c5 Rb7 24. Rxb7 Bxb7 25. h4 Nc7 26. h5 Rd8 27. Kh2 Nd5
+28. f3 Ne3 29. Qg5 Qc7 30. c6 Bxc6 31. Rxa6 Ra8 32. Rxa8+ Bxa8 33. Bxe3 h6 34.
+Qg6 Qxe5+ 1/2-1/2
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.28"]
+[Round "7"]
+[White "Srijit, Paul"]
+[Black "Hansen, Torbjorn Ringdal"]
+[Result "1/2-1/2"]
+[ECO "B15"]
+[WhiteElo "2247"]
+[BlackElo "2429"]
+[PlyCount "69"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Nxf6+ exf6 6. c3 Bd6 7. Bd3 O-O 8.
+Qc2 Re8+ 9. Ne2 h5 10. O-O h4 11. h3 Nd7 12. Be3 Nf8 13. c4 Bc7 14. Rfe1 Ne6
+15. Rad1 Qd6 16. Nf4 g5 17. c5 Qf8 18. Nxe6 Bxe6 19. Bc4 Rad8 20. Qb3 Bxc4 21.
+Qxc4 Rd5 22. b4 a6 23. a4 Re4 24. f3 Re6 25. Bf2 Qd8 26. b5 axb5 27. axb5 Kg7
+28. Re4 Bg3 29. bxc6 bxc6 30. Qe2 Bxf2+ 31. Kxf2 Rxe4 32. Qxe4 Rxc5 33. dxc5
+Qxd1 34. Qxc6 Qd2+ 35. Kf1 1/2-1/2
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.29"]
+[Round "8"]
+[White "Kogan, Artur"]
+[Black "Srijit, Paul"]
+[Result "1-0"]
+[ECO "A80"]
+[WhiteElo "2529"]
+[BlackElo "2247"]
+[PlyCount "43"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 f5 2. Nf3 Nf6 3. Bg5 e6 4. Nbd2 d5 5. e3 Be7 6. Ne5 O-O 7. Be2 Nbd7 8.
+Nd3 Ne4 9. Bf4 c6 10. f3 Nxd2 11. Qxd2 Bh4+ 12. Bg3 Bxg3+ 13. hxg3 b6 14. O-O-O
+Ba6 15. Rh4 Qe7 16. Rdh1 Bxd3 17. Bxd3 g6 18. e4 dxe4 19. fxe4 Nf6 20. Qg5 Qg7
+21. e5 Nh5 22. g4 1-0
+
+[Event "Badalona op 43rd"]
+[Site "Badalona"]
+[Date "2017.08.03"]
+[Round "2"]
+[White "Srijit, Paul"]
+[Black "Vera Siguenas, Deivy Anthoni"]
+[Result "0-1"]
+[ECO "C55"]
+[WhiteElo "2255"]
+[BlackElo "2525"]
+[PlyCount "86"]
+[EventDate "2017.08.02"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Be7 5. O-O O-O 6. a4 d5 7. exd5 Nxd5 8. h3
+Nb6 9. Bb3 Nd4 10. Nxd4 exd4 11. Nd2 c6 12. Qf3 Kh8 13. a5 Nd7 14. Nc4 Nc5 15.
+Ba2 Be6 16. Ne5 Bxa2 17. Rxa2 f6 18. Nc4 Qd7 19. Bd2 Na6 20. Raa1 Bb4 21. Rfe1
+Bxd2 22. Nxd2 Nb4 23. Rac1 Na2 24. Ra1 Nb4 25. Rac1 Rae8 26. Rxe8 Rxe8 27. Nb3
+Qd6 28. g3 h6 29. Qh5 Re5 30. Qg4 Nxc2 31. Nd2 f5 32. Qh5 f4 33. Qf7 fxg3 34.
+Rxc2 gxf2+ 35. Kxf2 Re7 36. Qf8+ Kh7 37. Qf3 Qg6 38. Qd1 Qxd3 39. Rc1 Qe3+ 40.
+Kg2 Re6 41. Nf3 Rg6+ 42. Kh1 Rg3 43. a6 Rxf3 0-1

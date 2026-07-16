@@ -1,0 +1,111 @@
+[Event "C. A. UGA Social"]
+[Site "Barcelona"]
+[Date "1944.05.16"]
+[Round "?"]
+[White "Gratovil Brugarolas, Jose"]
+[Black "Ribera Arnal, Angel"]
+[Result "1-0"]
+[ECO "D02"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "79"]
+[EventDate "1944.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 Nf6 3. g3 e6 4. Bg2 c5 5. c3 Nc6 6. O-O Bd6 7. Re1 Bd7 8. Nbd2
+cxd4 9. cxd4 Qb6 10. e4 dxe4 11. Nxe4 Nxe4 12. Rxe4 O-O-O 13. Ne5 Nxe5 14. dxe5
+Bc5 15. Qc2 Kb8 16. Be3 Rc8 17. Bxc5 Rxc5 18. Rc4 Rxe5 $2 (18... Rxc4 $11) 19.
+Rc1 a6 20. a4 a5 21. Qd2 Bc8 $2 22. Rc7 Qxc7 23. Rxc7 Kxc7 24. Qc3+ Kd6 25.
+Qd4+ Rd5 26. Bxd5 exd5 27. Qxg7 Rd8 28. Qf6+ Kc7 29. Qxf7+ Kc6 30. Qf6+ Rd6 31.
+Qc3+ Kd7 32. Qg7+ Kc6 33. Qxh7 d4 34. Qd3 b6 35. f4 Bg4 36. f5 Rd5 37. f6 Bf5
+38. Qd2 Bg6 39. g4 d3 40. h4 1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1960.??.??"]
+[Round "?"]
+[White "Gratovil Brugarolas, Jose"]
+[Black "Valls Tona, Francisco"]
+[Result "1-0"]
+[ECO "B92"]
+[PlyCount "83"]
+[EventDate "1960.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 g6 7. O-O Bg7 8. Nb3
+Nc6 9. Be3 b5 10. Nd5 Rb8 (10... Nxe4 $2 11. Bb6 $18) 11. Nxf6+ Bxf6 12. Nd4
+Bb7 13. f3 O-O 14. a4 d5 15. axb5 axb5 16. Bxb5 Nxd4 17. Bxd4 Bxd4+ 18. Qxd4 e5
+$1 19. Qd3 (19. Qxe5 $4 Qb6+ $19) 19... Qb6+ 20. Rf2 dxe4 21. fxe4 Rbd8 22. Qb3
+(22. Qe2 $5) 22... Rd2 (22... Bxe4 $6 23. Bc4) 23. Raf1 Bxe4 24. Bc4 Qa7 25.
+Qb5 $6 (25. Qa3 $142) 25... Bf5 26. Qxe5 Rxc2 27. b3 h5 28. h3 Rd8 29. g4 $2
+Bd3 $2 (29... Rxf2 $142 $1 30. Rxf2 Rd1+ 31. Bf1 hxg4 $19) 30. Bxf7+ Kh7 31.
+gxh5 Qb6 (31... Bxf1 $143 32. Bxg6+ $18) 32. Qg5 (32. Qe7 $5) 32... Rd6 33. Qe7
+(33. hxg6+ Bxg6 34. Qe7 Bxf7 35. Qxf7+ Kh8 36. Qf8+ Kh7 37. Qe7+ Kg8 $13) 33...
+Kh6 34. Qf8+ Kg5 $2 (34... Kxh5 $1 {El rellotge no deixa veure aquesta jugada
+senzilla}) 35. hxg6 Rxf2 (35... Bxf1 $142 $1 $11 36. Qe7+ Kh5 (36... Kh6 $4 37.
+Qh4+ Kg7 38. Qh7+ Kf8 39. Qh8+ Ke7 40. Qe8#) 37. g7+ Rg6+ 38. Bxg6+ Qxg6+ 39.
+Kh1 Rxf2 40. Qe5+ Rf5 41. Qxf5+ Qxf5 42. g8=Q $13) 36. Rxf2 Rf6 37. h4+ $1 Kg4
+$1 38. Be6+ Rxe6 39. g7 (39. Qf3+ Kxh4 40. Qxd3 Rxg6+ 41. Kf1 $13) (39. Qf4+
+Kh3 $13 (39... Kh5 $4 40. Qg5#)) 39... Rg6 40. g8=Q $6 (40. Qf3+ $1 Kxh4+ 41.
+Kh1 $3 $18) 40... Kh3+ 41. Kh1 $1 Qxf2 (41... Be4+ 42. Rf3+ Bxf3+ 43. Qxf3+
+Kxh4 44. Qf4+ $18) 42. Qe6+ 1-0
+
+[Event "Camp. España eq."]
+[Site "Barcelona"]
+[Date "1964.??.??"]
+[Round "4"]
+[White "Gratovil Brugarolas, Jose"]
+[Black "Palomino"]
+[Result "1/2-1/2"]
+[ECO "A00"]
+[PlyCount "69"]
+[EventDate "1964.08.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. b4 e6 2. Bb2 Nf6 3. b5 d5 4. e3 c5 5. Nf3 Be7 6. c4 O-O 7. Be2 b6 8. Qc2 Ne4
+9. O-O Nd7 10. Nc3 Ndf6 11. Ne5 Bb7 12. f4 Qc7 13. Bf3 Rad8 14. Ne2 dxc4 15.
+Nxc4 Ba8 16. a4 Qd7 17. Rfd1 Qd3 18. Qxd3 Rxd3 19. a5 Bd5 20. axb6 axb6 21.
+Nxb6 Rxd2 22. Be5 Bb3 23. Rdc1 h6 24. Nc4 Bxc4 25. Rxc4 Rfd8 26. Bxe4 Nxe4 27.
+Rxe4 Rxe2 28. Bc7 Rdd2 29. f5 Bf6 30. Rb1 Rxg2+ 31. Kh1 e5 32. b6 Rxh2+ 33. Kg1
+Rdg2+ 34. Kf1 Rf2+ 35. Kg1 1/2-1/2
+
+[Event "Camp. España eq."]
+[Site "Barcelona"]
+[Date "1964.08.??"]
+[Round "9"]
+[White "Beltran Tassis, Alejandro"]
+[Black "Gratovil Brugarolas, Jose"]
+[Result "1-0"]
+[ECO "E11"]
+[PlyCount "57"]
+[EventDate "1964.08.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Bd2 Bxd2+ 5. Qxd2 d5 6. Nc3 O-O 7. e3 b6 8.
+cxd5 exd5 9. Bd3 c5 10. O-O Nc6 11. Rac1 c4 12. Bb1 Re8 13. h3 Rb8 14. Rfe1 Ne4
+15. Nxe4 dxe4 16. Nh2 Qd5 17. Nf1 a5 18. Qc3 Ba6 19. b3 b5 20. a4 cxb3 21. Qxc6
+Qxc6 22. Rxc6 Bb7 23. Rc5 bxa4 24. Nd2 g6 25. Rec1 f5 26. R1c4 a3 27. Nxb3 Ba6
+28. Ra4 Rxb3 29. Ba2 1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1966.??.??"]
+[Round "?"]
+[White "Gratovil Brugarolas, Jose"]
+[Black "Garcia Orus, Francisco"]
+[Result "1-0"]
+[ECO "A00"]
+[PlyCount "73"]
+[EventDate "1966.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. b4 Nf6 2. Bb2 g6 3. e3 Bg7 4. Nf3 O-O 5. Be2 d6 6. d4 Nbd7 7. c4 a5 8. a3 b6
+9. O-O c5 10. Nc3 Bb7 11. Nb5 Ne8 12. Nd2 Nc7 13. Bf3 Bxf3 14. Qxf3 Nxb5 15.
+cxb5 cxb4 16. axb4 axb4 17. h4 e6 18. Qc6 Rxa1 19. Rxa1 d5 20. Qd6 Nc5 21. Qc6
+Qxh4 22. Nf3 Qd8 23. dxc5 Bxb2 24. Ra7 bxc5 25. b6 Qb8 26. Qxc5 Bc3 27. b7 Bg7
+28. Qb6 Bc3 29. Nd4 Bxd4 30. Qxd4 b3 31. Qb6 b2 32. Ra2 Qe5 33. Ra8 Rb8 34.
+Rxb8+ Qxb8 35. Qxb2 e5 36. Qb6 d4 37. Qc6 1-0

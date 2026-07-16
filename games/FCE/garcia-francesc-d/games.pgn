@@ -1,0 +1,38 @@
+[Event "Camp. Catalunya inf."]
+[Site "?"]
+[Date "1980.??.??"]
+[Round "?"]
+[White "Garcia, Francesc D"]
+[Black "Jimenez"]
+[Result "*"]
+[ECO "A66"]
+[PlyCount "77"]
+[EventDate "1980.??.??"]
+[EventType "swiss"]
+[EventRounds "6"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e6 4. Nc3 exd5 5. cxd5 d6 6. e4 g6 7. f4 a6 8. a4 Bg7
+9. Bd3 O-O 10. Nf3 Re8 11. O-O Nbd7 12. Kh1 Qc7 13. Nd2 b6 14. Nc4 Rb8 15. e5
+dxe5 16. fxe5 Nxe5 17. Nxe5 Rxe5 18. Bf4 Ng4 19. Qf3 Qe7 20. h3 Nh6 21. Bxe5
+Bxe5 22. Rae1 Qc7 23. Qe3 Bg7 24. Qe8+ Bf8 25. Qe2 Nf5 26. Bxf5 Bxf5 27. Ne4
+Bg7 28. Nc3 Bf8 29. Rf3 c4 30. Re3 Bd3 31. Qf3 Bf5 32. Ne4 Bg7 33. Ng3 Rf8 34.
+Nxf5 gxf5 35. R1e2 Qd7 36. Qg3 Qxd5 37. Re8 Qd7 38. Rxf8+ Kxf8 39. Qb8+ *
+
+[Event "Camp. Catalunya inf. eq."]
+[Site "?"]
+[Date "1980.??.??"]
+[Round "?"]
+[White "Garcia, Francesc D"]
+[Black "Ciurana"]
+[Result "1-0"]
+[ECO "D61"]
+[PlyCount "43"]
+[EventDate "1980.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 Nbd7 7. Qc2 c6 8. Rd1
+dxc4 9. Bxc4 Nd5 10. h4 h6 11. Nxd5 exd5 12. Bd3 Nf6 13. Ne5 hxg5 14. hxg5 Ne4
+15. Bxe4 dxe4 16. Qxe4 Bb4+ 17. Kf1 Re8 18. Qh7+ Kf8 19. Qh8+ Ke7 20. Qxg7 Be6
+21. Qf6+ Kd6 22. Nxf7+ 1-0

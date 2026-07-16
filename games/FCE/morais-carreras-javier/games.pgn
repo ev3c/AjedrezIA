@@ -1,0 +1,709 @@
+[Event "Montcada op-B 25th"]
+[Site "Montcada"]
+[Date "2017.06.28"]
+[Round "3"]
+[White "Morais Carreras, Javier"]
+[Black "Costa Trave, Jaume"]
+[Result "1-0"]
+[ECO "C00"]
+[WhiteElo "1925"]
+[BlackElo "1985"]
+[PlyCount "105"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d3 d5 3. Nd2 Nf6 4. g3 c5 5. Bg2 Bd7 6. e5 Ng8 7. Ngf3 Bc6 8. O-O
+Ne7 9. Re1 Ng6 10. Nf1 Nd7 11. c3 d4 12. cxd4 cxd4 13. N1d2 Bc5 14. Ne4 Bxe4
+15. Rxe4 Rc8 16. h4 Qc7 17. Qe2 Ne7 18. Bf4 Nc6 19. Rc1 Qb6 20. a3 a5 21. h5 h6
+22. Qd2 Rd8 23. g4 Be7 24. Ree1 Nc5 25. Rc2 Nb3 26. Qe2 Qb5 27. Nd2 Nxd2 28.
+Qxd2 a4 29. Be4 Na5 30. Rc7 Nb3 31. Qc2 Rd7 32. Rxb7 Rxb7 33. Qc8+ Bd8 34. Bc6+
+Qxc6 35. Qxc6+ Rd7 36. Qxa4 Nc5 37. Qb5 Nb7 38. Bd2 g6 39. hxg6 fxg6 40. Re4
+Rhh7 41. Rxd4 h5 42. Qc6 hxg4 43. Rxd7 Rxd7 44. Qxe6+ Re7 45. Qxg6+ Kd7 46.
+Qxg4+ Kc6 47. Qe4+ Kb6 48. Be3+ Kc7 49. d4 Rg7+ 50. Kf1 Be7 51. d5 Bc5 52. Qc4
+Kb6 53. Bxc5+ 1-0
+
+[Event "Montcada op-B 25th"]
+[Site "Montcada"]
+[Date "2017.06.29"]
+[Round "4"]
+[White "Chernikov, Vladimir"]
+[Black "Morais Carreras, Javier"]
+[Result "1-0"]
+[ECO "A00"]
+[WhiteElo "2079"]
+[BlackElo "1925"]
+[PlyCount "41"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. g4 e5 2. Bg2 d5 3. h3 h6 4. d3 Nf6 5. Nc3 Bb4 6. Bd2 d4 7. Ne4 Bxd2+ 8. Qxd2
+Nc6 9. c4 O-O 10. f4 Nxe4 11. Bxe4 Qh4+ 12. Kd1 f5 13. Bd5+ Kh7 14. Nf3 Qf6 15.
+g5 hxg5 16. fxg5 Qd6 17. Qe1 Be6 18. g6+ Kxg6 19. Rg1+ Kf6 20. Qh4+ g5 21. Nxg5
+1-0
+
+[Event "Montcada op-B 25th"]
+[Site "Montcada"]
+[Date "2017.06.30"]
+[Round "5"]
+[White "Morais Carreras, Javier"]
+[Black "Sumit, Kumar1"]
+[Result "1/2-1/2"]
+[ECO "C47"]
+[WhiteElo "1925"]
+[BlackElo "1975"]
+[PlyCount "68"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nc3 Bb4 6. Nxc6 bxc6 7. Bd3 d5 8.
+exd5 cxd5 9. O-O O-O 10. Bg5 c6 11. Qf3 Be7 12. h3 Be6 13. Ne2 h6 14. Bf4 c5
+15. c3 Qb6 16. Rab1 d4 17. c4 Bd7 18. Ng3 Bc6 19. Qe2 Rfe8 20. Nh5 Qb7 21.
+Nxf6+ Bxf6 22. Qg4 Be4 23. Rfd1 h5 24. Qxh5 Bxd3 25. Rxd3 Qe4 26. Qf3 Qxf3 27.
+Rxf3 Re2 28. Rd3 Rc2 29. Rdd1 Rxc4 30. Rbc1 Rxc1 31. Rxc1 Rc8 32. b3 Rc6 33.
+Kf1 Ra6 34. Rc2 Be7 1/2-1/2
+
+[Event "Montcada op-B 25th"]
+[Site "Montcada"]
+[Date "2017.07.01"]
+[Round "6"]
+[White "Atul, Kumar"]
+[Black "Morais Carreras, Javier"]
+[Result "0-1"]
+[ECO "C42"]
+[WhiteElo "1907"]
+[BlackElo "1925"]
+[PlyCount "72"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nc3 Bb4 4. d3 d5 5. exd5 Nxd5 6. Bd2 Nc6 7. g3 Bg4 8.
+Bg2 Nxc3 9. bxc3 Ba5 10. h3 Bh5 11. O-O O-O 12. Re1 Qd6 13. Qb1 Bb6 14. Be3 f5
+15. Bxb6 axb6 16. Nh2 f4 17. g4 Bf7 18. Be4 Ra5 19. Nf3 Bd5 20. Kg2 Rfa8 21.
+Bxd5+ Rxd5 22. Re4 Ra3 23. Qb2 Rda5 24. Nd2 b5 25. Nb3 Ra8 26. Nd2 Qc5 27. c4
+b4 28. Nf3 Rc3 29. Rae1 Rca3 30. Ra1 R8a5 31. Re2 h6 32. Qc1 Rxa2 33. Rxa2 Rxa2
+34. Qe1 Ra5 35. Re4 Qd6 36. d4 exd4 0-1
+
+[Event "Montcada op-B 25th"]
+[Site "Montcada"]
+[Date "2017.07.01"]
+[Round "7"]
+[White "Torralba Brosa, Marc"]
+[Black "Morais Carreras, Javier"]
+[Result "0-1"]
+[ECO "C43"]
+[WhiteElo "1852"]
+[BlackElo "1925"]
+[PlyCount "134"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nf6 3. d4 Nxe4 4. Bd3 d5 5. Nxe5 Nd7 6. Qe2 Nxe5 7. Bxe4 dxe4
+8. dxe5 Qd4 9. Nc3 Qxe5 10. Bd2 Bb4 11. O-O-O O-O 12. f4 Qa5 13. a3 Bxc3 14.
+Bxc3 Qf5 15. Be5 f6 16. Bxc7 Be6 17. g4 Qxg4 18. Qxe4 Rac8 19. Rhg1 Qf5 20.
+Qxf5 Bxf5 21. Rd5 Bxc2 22. Rd7 Rf7 23. Rd8+ Rf8 24. Rd7 Rf7 25. Rd8+ Rxd8 26.
+Bxd8 Bf5 27. Ba5 Re7 28. Bc3 Kf7 29. Re1 Rxe1+ 30. Bxe1 Kg6 31. Kd2 Kh5 32. Ke3
+Kg4 33. h4 h6 34. b4 b5 35. Bf2 Kh3 36. Kf3 Bg4+ 37. Ke4 a6 38. Kd5 Kg2 39. Bc5
+g5 40. hxg5 fxg5 41. Ke5 Be2 42. fxg5 hxg5 43. Kd6 g4 44. Kc6 g3 45. Kb6 Bd1
+46. Kxa6 Ba4 47. Kb6 Kf1 48. Kc6 g2 49. Kd5 g1=Q 50. Bxg1 Kxg1 51. Kd4 Kf2 52.
+Kc3 Ke3 53. Kb2 Kd3 54. Kb1 Kc3 55. Ka2 Kc2 56. Ka1 Kb3 57. Kb1 Kxa3 58. Ka1
+Kxb4 59. Kb2 Kc4 60. Ka2 Kc3 61. Kb1 Bc2+ 62. Ka2 b4 63. Ka1 Bf5 64. Ka2 b3+
+65. Ka1 b2+ 66. Ka2 b1=Q+ 67. Ka3 Qa1# 0-1
+
+[Event "Montcada op-B 25th"]
+[Site "Montcada"]
+[Date "2017.07.02"]
+[Round "8"]
+[White "Morais Carreras, Javier"]
+[Black "Flores Mendoza, Jose Antonio"]
+[Result "1/2-1/2"]
+[ECO "D02"]
+[WhiteElo "1925"]
+[BlackElo "1952"]
+[PlyCount "9"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Nf3 Nf6 3. Bf4 e6 4. e3 h6 5. Bd3 1/2-1/2
+
+[Event "Montcada op-B 25th"]
+[Site "Montcada"]
+[Date "2017.07.03"]
+[Round "9"]
+[White "Morais Carreras, Javier"]
+[Black "Majumdar, Shankar"]
+[Result "0-1"]
+[ECO "B31"]
+[WhiteElo "1925"]
+[BlackElo "1934"]
+[PlyCount "136"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. Bxc6 dxc6 5. d3 Bg7 6. h3 e5 7. Be3 b6 8. Nc3
+Ne7 9. Qd2 O-O 10. Bh6 f6 11. Bxg7 Kxg7 12. Ne2 a5 13. g4 g5 14. Ng3 Ng6 15.
+Nf5+ Bxf5 16. gxf5 Nf4 17. O-O-O b5 18. h4 h6 19. hxg5 hxg5 20. Kb1 Rh8 21.
+Rdg1 b4 22. Rxh8 Qxh8 23. Qe3 Qf8 24. Nd2 a4 25. Nc4 Qe7 26. Rh1 a3 27. b3 Rh8
+28. Qf3 Rxh1+ 29. Qxh1 Qd8 30. Qe1 Qh8 31. Nd6 Qd8 32. Nc4 Qd4 33. Qe3 Qxe3 34.
+Nxe3 Ne2 35. Nd1 Kh6 36. c3 bxc3 37. Kc2 Kh5 38. Nxc3 Nd4+ 39. Kd1 Kg4 40. Ke1
+Kf3 41. Nb1 Nxb3 42. Nxa3 Nc1 43. Kd2 Nxa2 44. Nc4 Kf4 45. Nd6 g4 46. Nb7 c4
+47. Nc5 cxd3 48. Kxd3 Kf3 49. Kd2 Nb4 50. Ke1 Nc2+ 51. Kf1 Nd4 52. Ke1 Nc2+ 53.
+Kf1 Na3 54. Ke1 Nc4 55. Ne6 Kxe4 56. Nd8 c5 57. Ne6 Kxf5 58. Nxc5 e4 59. Ke2
+Ke5 60. Nd7+ Ke6 61. Nc5+ Kd5 62. Nd7 f5 63. Nf6+ Ke6 64. Nh5 Ke5 65. Ng3 f4
+66. Nf1 Kf5 67. Ke1 Kg5 68. Ke2 Kh4 0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.13"]
+[Round "1"]
+[White "Valbuena Castro, Gregorio"]
+[Black "Morais Carreras, Javier"]
+[Result "0-1"]
+[ECO "C56"]
+[WhiteElo "1682"]
+[BlackElo "1925"]
+[PlyCount "66"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. d4 exd4 3. Bc4 Nf6 4. Nf3 Nc6 5. Qe2 d6 6. c3 dxc3 7. Nxc3 Be7 8.
+Bg5 Bg4 9. h3 Bxf3 10. gxf3 h6 11. Bh4 Ne5 12. Bb3 c6 13. Bxf6 Bxf6 14. O-O-O
+Bg5+ 15. Kb1 Qf6 16. f4 Bxf4 17. h4 Nd7 18. Rhg1 O-O-O 19. Qc4 Nb6 20. Qxf7
+Qxf7 21. Bxf7 g5 22. h5 Rhf8 23. Be6+ Kc7 24. Ne2 Be5 25. Bf5 d5 26. f3 Nc4 27.
+Nd4 Bxd4 28. Rxd4 Ne5 29. Rf1 c5 30. Ra4 Kb6 31. Be6 Nxf3 32. Rf2 dxe4 33. Rxe4
+Nd2+ 0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.14"]
+[Round "2"]
+[White "Morais Carreras, Javier"]
+[Black "Prieto Velasco, Rafael"]
+[Result "1/2-1/2"]
+[ECO "C00"]
+[WhiteElo "1925"]
+[BlackElo "1772"]
+[PlyCount "152"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d3 d5 3. Nd2 Nf6 4. Ngf3 b6 5. g3 Bb7 6. e5 Nfd7 7. Bg2 c5 8. O-O
+Nc6 9. Re1 Qc7 10. Qe2 Be7 11. Nf1 h6 12. c3 a5 13. d4 Ba6 14. Qd1 b5 15. h4
+Nb6 16. Ne3 O-O-O 17. Bf1 Qb7 18. Bd2 Kb8 19. a3 g5 20. h5 Rc8 21. Ng4 cxd4 22.
+cxd4 Na8 23. Rc1 Nb6 24. Bd3 Nc4 25. Bc3 Ka7 26. Re2 Rb8 27. Bxc4 bxc4 28. Qe1
+Qb5 29. Rec2 a4 30. Qd1 Qb3 31. Nd2 Qb6 32. Nf1 Qb5 33. Qf3 Rbf8 34. Nf6 Qb7
+35. Ne3 Bxf6 36. Qxf6 Qe7 37. Qf3 f5 38. Qd1 Bb5 39. Rd2 g4 40. Ng2 Rb8 41. Nf4
+Qd7 42. Re2 Nd8 43. Bb4 Nf7 44. Bc5+ Ka6 45. Rec2 Ng5 46. Bd6 Rb7 47. Kg2 Ne4
+48. Qe1 Rb6 49. Ng6 Rg8 50. Bb4 Qe8 51. Bd2 Rxg6 52. hxg6 Qxg6 53. Qh1 h5 54.
+Qh4 Qe8 55. Rh1 c3 56. Bxc3 Bd3 57. Rcc1 Nxc3 58. Rxc3 Be4+ 59. Kh2 Bxh1 60.
+Kxh1 Rxb2 61. Kg2 Rb3 62. Rc7 Rb7 63. Rc5 Rb5 64. Rc7 Rb7 65. Rxb7 Kxb7 66. Qh1
+Ka7 67. Qc1 Qe7 68. Qc6 Qxa3 69. Qc7+ Ka8 70. Qd8+ Kb7 71. Qd7+ Ka8 72. Qxe6
+Qf3+ 73. Kg1 Qd1+ 74. Kg2 Qf3+ 75. Kg1 Qd1+ 76. Kg2 Qf3+ 1/2-1/2
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.15"]
+[Round "3"]
+[White "Flemming, Klaus"]
+[Black "Morais Carreras, Javier"]
+[Result "0-1"]
+[ECO "D36"]
+[WhiteElo "1766"]
+[BlackElo "1925"]
+[PlyCount "88"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. Nc3 Be7 5. Bg5 O-O 6. e3 c6 7. Bd3 Nbd7 8. cxd5
+exd5 9. O-O Re8 10. Qc2 Nf8 11. h3 Ng6 12. h4 Nh5 13. Bxe7 Qxe7 14. Bf5 Qf6 15.
+Bxg6 fxg6 16. Qb3 Kh8 17. Rae1 b6 18. Qa4 Rf8 19. Ne5 b5 20. Qb4 a5 21. Qc5 b4
+22. Ne2 Ba6 23. Nd7 Qf7 24. Nxf8 Rxf8 25. Qxa5 Bxe2 26. Rxe2 Ng3 27. Ree1 Nxf1
+28. Rxf1 Qe7 29. a3 Qxh4 30. Qxb4 Qf6 31. Qd2 g5 32. Rc1 g4 33. Rc5 g3 34. Rc2
+h5 35. Qe1 h4 36. f4 Re8 37. Qc1 Re6 38. Rc3 Qf5 39. Qd1 h3 40. gxh3 Qxh3 41.
+Qf3 Qh2+ 42. Kf1 Qxb2 43. Rd3 Rh6 44. Qg2 Qb1+ 0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.16"]
+[Round "4"]
+[White "Morais Carreras, Javier"]
+[Black "Serra Vilaro, Agustin"]
+[Result "1-0"]
+[ECO "B01"]
+[WhiteElo "1925"]
+[BlackElo "1770"]
+[PlyCount "65"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd6 4. Nf3 Nf6 5. d4 c6 6. Be3 Bg4 7. h3 Bh5 8. g4
+Bg6 9. Qd2 Nd5 10. Nxd5 Qxd5 11. Be2 Nd7 12. Rg1 e6 13. c4 Qe4 14. Ng5 Qc2 15.
+Qxc2 Bxc2 16. Rc1 Bb4+ 17. Bd2 Bxd2+ 18. Kxd2 Bg6 19. h4 h6 20. Nh3 O-O-O 21.
+Nf4 Bh7 22. Kc3 e5 23. dxe5 Nxe5 24. Rcd1 Be4 25. Rg3 Rxd1 26. Bxd1 Rd8 27. Be2
+Bb1 28. Re3 f6 29. a3 Rd7 30. Nh5 Bg6 31. f4 Bxh5 32. fxe5 Bf7 33. e6 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.17"]
+[Round "5"]
+[White "Sarrate Presas, Jordi"]
+[Black "Morais Carreras, Javier"]
+[Result "1-0"]
+[ECO "B38"]
+[WhiteElo "1770"]
+[BlackElo "1925"]
+[PlyCount "101"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 e6 2. e4 c5 3. Nc3 Nc6 4. Nf3 g6 5. d4 cxd4 6. Nxd4 a6 7. Be2 Bg7 8. Be3
+Nge7 9. O-O O-O 10. Qd2 d5 11. cxd5 exd5 12. exd5 Nxd5 13. Nxc6 bxc6 14. Rad1
+Be6 15. Bd4 Nxc3 16. Bxc3 Qxd2 17. Rxd2 Bxc3 18. bxc3 a5 19. Bf3 Rfc8 20. Rb1
+Bd5 21. Bxd5 cxd5 22. Rc1 Rab8 23. Kf1 Rc5 24. Ke2 Kf8 25. Ke3 Ke7 26. Kd3 Kd6
+27. Re2 a4 28. c4 a3 29. Rcc2 dxc4+ 30. Rxc4 Rxc4 31. Kxc4 Rb2 32. Kd3 Rxe2 33.
+Kxe2 Kc5 34. Kd3 f5 35. Kc3 f4 36. Kb3 Kd4 37. Kxa3 Kd3 38. Kb3 Ke2 39. f3 Kf2
+40. a4 Kxg2 41. a5 h5 42. a6 g5 43. a7 g4 44. fxg4 hxg4 45. a8=Q+ f3 46. Kc2
+Kxh2 47. Kd2 f2 48. Ke2 g3 49. Kf1 Kh3 50. Qg2+ Kg4 51. Ke2 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.18"]
+[Round "6"]
+[White "Morais Carreras, Javier"]
+[Black "Low, Kevin"]
+[Result "1/2-1/2"]
+[ECO "B52"]
+[WhiteElo "1925"]
+[BlackElo "1843"]
+[PlyCount "141"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Nxd7 5. O-O Ngf6 6. Re1 e6 7. c3 Be7 8.
+d4 O-O 9. d5 e5 10. c4 a6 11. Nbd2 g6 12. Nf1 Nh5 13. Bh6 Ng7 14. Qd2 b5 15. b3
+Rb8 16. Rab1 Nf6 17. Ng3 Ng4 18. Bg5 f6 19. Be3 Nxe3 20. Qxe3 Qd7 21. Qd2 f5
+22. exf5 gxf5 23. Qh6 Rf6 24. Qh3 Rbf8 25. Ne4 Rg6 26. Nxc5 dxc5 27. Nxe5 Qd6
+28. Nxg6 hxg6 29. Re2 Qf6 30. Rbe1 Bd6 31. Qh6 Kf7 32. Qh7 Qg5 33. Re6 Rd8 34.
+f4 Qh5 35. Qxh5 Nxh5 36. g3 Nf6 37. R6e2 b4 38. a3 Ne4 39. axb4 cxb4 40. Ra2
+Bc5+ 41. Kg2 Rd6 42. Rea1 Bd4 43. Re1 Bc5 44. Kf3 Nc3 45. Ra5 Ne4 46. Rxe4
+fxe4+ 47. Kxe4 Bg1 48. c5 Rd8 49. h3 Re8+ 50. Kf3 Bd4 51. Rxa6 Re3+ 52. Kg4
+Bxc5 53. Rc6 Bf8 54. d6 Ke6 55. d7+ Kxd7 56. Rxg6 Rxb3 57. h4 Ke7 58. h5 Kf7
+59. Rb6 Rb1 60. Kf5 b3 61. Rb7+ Kg8 62. g4 b2 63. Kg5 Ba3 64. Kg6 Rg1 65. Rb8+
+Bf8 66. Rxb2 Rxg4+ 67. Kf5 Rh4 68. Kg5 Be7+ 69. Kg6 Rxf4 70. Rb8+ Rf8 71. Rxf8+
+1/2-1/2
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.19"]
+[Round "7"]
+[White "Morais Carreras, Javier"]
+[Black "Chandrasekhar, MK."]
+[Result "1/2-1/2"]
+[ECO "B01"]
+[WhiteElo "1925"]
+[BlackElo "1794"]
+[PlyCount "115"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd6 4. Nf3 Nf6 5. d4 c6 6. Be3 Bg4 7. h3 Bh5 8.
+Qd2 Bxf3 9. gxf3 Nbd7 10. O-O-O Qb4 11. h4 e6 12. Bh3 Nb6 13. Ne4 Qxd2+ 14.
+Rxd2 Nc4 15. Nxf6+ gxf6 16. Rdd1 h5 17. b3 Nxe3 18. fxe3 Ba3+ 19. Kb1 Ke7 20.
+c3 Bd6 21. Rhg1 Rhg8 22. f4 Rg6 23. Rxg6 fxg6 24. Kc2 Kf7 25. c4 f5 26. Bg2 Be7
+27. Rh1 Rd8 28. Kd3 Bf6 29. Ke2 Rd7 30. Kf2 Ke7 31. Kg3 Kf7 32. Rd1 Ke7 33. b4
+Kd8 34. a4 Kc7 35. Bf3 Rd8 36. b5 Rd7 37. bxc6 bxc6 38. c5 Rd8 39. Rb1 Rc8 40.
+a5 Kd7 41. a6 Rc7 42. Rb8 Bd8 43. Bg2 Ke7 44. Ra8 Kd7 45. Bf3 Ke7 46. Bh1 Kd7
+47. Rb8 Ke7 48. Kf2 Kd7 49. Ke2 Rc8 50. Rxc8 Kxc8 51. Bxc6 Bxh4 52. Be8 g5 53.
+Bxh5 gxf4 54. exf4 Kd7 55. Ke3 Bd8 56. Bf3 Bc7 57. c6+ Kd6 58. Bg2 1/2-1/2
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.20"]
+[Round "8"]
+[White "Arribas Alvarez, Marti"]
+[Black "Morais Carreras, Javier"]
+[Result "1/2-1/2"]
+[ECO "D00"]
+[WhiteElo "1781"]
+[BlackElo "1925"]
+[PlyCount "90"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. e3 Nf6 3. Bd3 e6 4. Nd2 c5 5. c3 Nc6 6. f4 Bd6 7. Ngf3 cxd4 8. cxd4
+Bd7 9. a3 Rc8 10. O-O Na5 11. Ne5 b5 12. b4 Nc4 13. Nb3 Rc7 14. Nc5 Bxc5 15.
+bxc5 Bc8 16. a4 bxa4 17. Bxc4 dxc4 18. Qxa4+ Bd7 19. c6 Bc8 20. Ba3 Ne4 21. Bb4
+f6 22. Nxc4 Qd5 23. Na5 Ba6 24. Rfc1 Kf7 25. Qa2 Rb8 26. Qxd5 exd5 27. Be1 Nd6
+28. Rc5 Bc4 29. Nxc4 Nxc4 30. Ba5 Nxa5 31. Raxa5 Rb2 32. h3 Re2 33. Rxd5 Rxe3
+34. Rdc5 Ke7 35. Rxa7 Rxa7 36. c7 Ra8 37. c8=Q Rxc8 38. Rxc8 Re4 39. Rc7+ Kf8
+40. g3 Rxd4 41. Kf2 Rd3 42. Rb7 h6 43. h4 Kg8 44. h5 Rd5 45. g4 Ra5 1/2-1/2
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.21"]
+[Round "9"]
+[White "Morais Carreras, Javier"]
+[Black "Bieg Pagel, Clemens"]
+[Result "1-0"]
+[ECO "B31"]
+[WhiteElo "1925"]
+[BlackElo "1812"]
+[PlyCount "51"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. Bxc6 bxc6 5. O-O Bg7 6. Re1 e5 7. c3 d6 8. h3
+Ne7 9. d4 cxd4 10. cxd4 O-O 11. dxe5 dxe5 12. Qc2 Be6 13. Ng5 Qc8 14. Be3 Bf6
+15. Nxe6 Qxe6 16. Nd2 Rfc8 17. Nb3 Rc7 18. Nc5 Qc8 19. f4 Rb8 20. Rab1 a5 21.
+Rf1 Nd5 22. exd5 cxd5 23. fxe5 Bxe5 24. Qe2 d4 25. Nd3 Re7 26. Bf4 1-0
+
+[Event "Barbera op B"]
+[Site "?"]
+[Date "2008.07.07"]
+[Round "2"]
+[White "Morais Carreras, J."]
+[Black "Humanes Bespin, I."]
+[Result "1/2-1/2"]
+[ECO "C47"]
+[WhiteElo "1991"]
+[PlyCount "32"]
+[EventDate "2008.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nc3 Bb4 6. Nxc6 bxc6 7. Bd3 d5 8.
+exd5 Qe7+ 9. Be3 Nxd5 10. O-O Nxe3 11. fxe3 Qxe3+ 12. Kh1 Bxc3 13. bxc3 O-O 14.
+Re1 Qc5 15. Qf3 Be6 16. Qe4 g6 1/2-1/2
+
+[Event "Barbera op B"]
+[Site "?"]
+[Date "2008.07.08"]
+[Round "3"]
+[White "Ballesteros Gaitan, S."]
+[Black "Morais Carreras, J."]
+[Result "0-1"]
+[ECO "D60"]
+[BlackElo "1991"]
+[PlyCount "106"]
+[EventDate "2008.??.??"]
+
+1. c4 e6 2. Nc3 Nf6 3. Nf3 d5 4. d4 Be7 5. Bg5 O-O 6. e3 Nbd7 7. Bd3 c6 8. O-O
+dxc4 9. Bxc4 Nd5 10. Bxe7 Qxe7 11. e4 Nxc3 12. bxc3 e5 13. Qc2 exd4 14. cxd4
+Nb6 15. Bb3 Be6 16. Rfe1 Rad8 17. Bxe6 Qxe6 18. Rab1 Rd7 19. a4 Qc4 20. Qxc4
+Nxc4 21. Rec1 Nd6 22. Ne5 Re7 23. f3 f5 24. Re1 fxe4 25. fxe4 Rf4 26. Nd3 Rfxe4
+27. Rxe4 Rxe4 28. Nc5 Rxd4 29. Rf1 Rc4 30. Nd7 h5 31. Rf8+ Kh7 32. Rd8 Ne4 33.
+g3 Rxa4 34. Nf8+ Kh6 35. Rd7 b5 36. Rc7 c5 37. Rc6+ Kg5 38. Ne6+ Kg4 39. Nxg7
+Kf3 40. h4 Nxg3 41. Rf6+ Ke3 42. Re6+ Kd2 43. Re5 Rc4 44. Nxh5 Nxh5 45. Rxh5 b4
+46. Rd5+ Kc2 47. h5 Rg4+ 48. Kf2 c4 49. Kf3 Rh4 50. Kg3 Re4 51. h6 Re8 52. h7
+Rh8 53. Rh5 b3 0-1
+
+[Event "Barbera op B"]
+[Site "?"]
+[Date "2008.07.09"]
+[Round "4"]
+[White "Guasch Sariol, J."]
+[Black "Morais Carreras, J."]
+[Result "1-0"]
+[ECO "D35"]
+[WhiteElo "2061"]
+[BlackElo "1991"]
+[PlyCount "123"]
+[EventDate "2008.??.??"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. cxd5 exd5 5. Bg5 Be7 6. Qc2 O-O 7. e3 Be6 8.
+Bd3 Nbd7 9. Nge2 c5 10. O-O c4 11. Bf5 g6 12. Bxe6 fxe6 13. Nf4 Kf7 14. f3 Ng8
+15. Bxe7 Nxe7 16. Rad1 Qc7 17. Nh3 Kg7 18. Ng5 Rf6 19. e4 Nf8 20. Qd2 h6 21.
+Nh3 a6 22. a4 Rd8 23. Nf2 h5 24. Nh3 Nc6 25. e5 Rf5 26. g4 hxg4 27. fxg4 Rxf1+
+28. Rxf1 Qb6 29. Ne2 Nd7 30. Kg2 Qb4 31. Qg5 Qe7 32. Qxe7+ Nxe7 33. Ng5 Re8 34.
+Nxe6+ Kg8 35. N6f4 Nb6 36. Nc3 Nc6 37. Nfxd5 Nxd5 38. Nxd5 Rd8 39. Nf6+ Kg7 40.
+d5 Nxe5 41. d6 Nd3 42. g5 Nxb2 43. Re1 c3 44. Re7+ Kf8 45. Nh7+ Kg8 46. d7 c2
+47. Nf6+ Kf8 48. Re8+ Kf7 49. Rxd8 c1=Q 50. Rf8+ Ke6 51. d8=Q Qxg5+ 52. Kh3
+Qe3+ 53. Kh4 Qf2+ 54. Kg5 Qe3+ 55. Kxg6 Qg1+ 56. Kh6 Qe3+ 57. Kh7 Qh3+ 58. Kg8
+Qg2+ 59. Kh8 Qxh2+ 60. Nh7 Qc2 61. Rf6+ Ke5 62. Qd6+ 1-0
+
+[Event "Barbera op B"]
+[Site "?"]
+[Date "2008.07.10"]
+[Round "5"]
+[White "Morais Carreras, J."]
+[Black "Delgado Pico, L."]
+[Result "1/2-1/2"]
+[ECO "B06"]
+[WhiteElo "1991"]
+[BlackElo "2066"]
+[PlyCount "73"]
+[EventDate "2008.??.??"]
+
+1. e4 g6 2. d4 Bg7 3. Nf3 d6 4. Bd3 c5 5. O-O cxd4 6. Nxd4 Nd7 7. Bc4 Ngf6 8.
+Nc3 O-O 9. Kh1 a6 10. f4 Qc7 11. Be2 b5 12. Bf3 Bb7 13. Nd5 Qd8 14. f5 Rc8 15.
+fxg6 hxg6 16. Be3 Nc5 17. Nxf6+ exf6 18. Bg4 Rc7 19. b4 Nxe4 20. Nf5 Rc4 21.
+Nxg7 Kxg7 22. Bd4 d5 23. Bf3 Rc6 24. Qd3 Rh8 25. Bxe4 dxe4 26. Qxe4 Qc7 27. Qf4
+Qxf4 28. Rxf4 Re8 29. Raf1 Ree6 30. c3 g5 31. R4f2 Rcd6 32. Kg1 Bd5 33. Ra1 Bc4
+34. a4 Re2 35. axb5 Rxf2 36. Kxf2 axb5 37. Re1 1/2-1/2
+
+[Event "Sants op Hostafrancs i La Bordeta op"]
+[Site "Barcelona"]
+[Date "2014.08.22"]
+[Round "1.34"]
+[White "Oliva Castaneda, K."]
+[Black "Morais Carreras, J."]
+[Result "1-0"]
+[ECO "E09"]
+[WhiteElo "2446"]
+[BlackElo "1985"]
+[PlyCount "67"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[Source "Mark Crowther"]
+[SourceDate "2014.09.01"]
+
+1. Nf3 d5 2. c4 e6 3. g3 Nf6 4. Bg2 Be7 5. O-O O-O 6. d4 c6 7. Qc2 Nbd7 8. Nbd2
+b6 9. e4 dxe4 10. Nxe4 Nxe4 11. Qxe4 Bb7 12. Rd1 Nf6 13. Qc2 Qc7 14. Bf4 Bd6
+15. Bxd6 Qxd6 16. c5 Qc7 17. Rac1 Rfd8 18. a3 h6 19. Ne5 Nd5 20. Nc4 b5 21. Nd6
+a5 22. Bxd5 exd5 23. Re1 Bc8 24. Re3 Be6 25. Qe2 Qe7 26. Re5 Qf6 27. f4 g6 28.
+Rf1 Kh7 29. f5 gxf5 30. Nxf5 Rg8 31. Nxh6 Qh4 32. Nxg8 Qxd4+ 33. Kh1 Rxg8 34.
+Rxe6 1-0
+
+[Event "Ciutat de Sabadell op"]
+[Site "Sabadell"]
+[Date "2014.09.04"]
+[Round "3.5"]
+[White "Lorenzo de la Riva, L."]
+[Black "Morais Carreras, J."]
+[Result "1-0"]
+[ECO "D67"]
+[WhiteElo "2391"]
+[BlackElo "1985"]
+[PlyCount "93"]
+[EventDate "2014.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Mark Crowther"]
+[SourceDate "2014.09.08"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Be7 5. Bg5 O-O 6. e3 c6 7. Rc1 Nbd7 8. Bd3
+dxc4 9. Bxc4 Nd5 10. Bxe7 Qxe7 11. Ne4 Rd8 12. Bxd5 exd5 13. Ng3 Qb4+ 14. Qd2
+Qxd2+ 15. Nxd2 Nf6 16. f3 Be6 17. Kf2 Rac8 18. Rc3 Rc7 19. Rhc1 Rdc8 20. Ne2
+Kf8 21. Nf4 Ke7 22. b4 a6 23. a4 Kd8 24. g4 h6 25. Kg3 Bd7 26. h4 g5 27. hxg5
+hxg5 28. Nd3 Be6 29. Ne5 Nd7 30. Nxd7 Kxd7 31. Nb3 Kd8 32. f4 gxf4+ 33. exf4
+Re7 34. Nc5 Rcc7 35. Rh1 Re8 36. Re3 Bc8 37. Rxe8+ Kxe8 38. a5 Kf8 39. f5 Kg7
+40. Re1 f6 41. Re8 Kf7 42. Rh8 Kg7 43. Rd8 Kf7 44. Kf4 Kg7 45. g5 fxg5+ 46.
+Kxg5 Kh7 47. Kf6 1-0
+
+[Event "Ciutat de Sabadell op"]
+[Site "Sabadell"]
+[Date "2014.09.06"]
+[Round "5.6"]
+[White "Morais Carreras, J."]
+[Black "Gomez Jurado, LA."]
+[Result "0-1"]
+[ECO "B10"]
+[WhiteElo "1985"]
+[BlackElo "2348"]
+[PlyCount "50"]
+[EventDate "2014.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Mark Crowther"]
+[SourceDate "2014.09.08"]
+
+1. e4 c6 2. Nc3 d5 3. Nf3 dxe4 4. Nxe4 Nf6 5. Nxf6+ exf6 6. Be2 Bd6 7. d4 O-O
+8. O-O Re8 9. Re1 Nd7 10. Bd2 Nf8 11. h3 Ng6 12. Bd3 Be6 13. Bxg6 fxg6 14. b3
+g5 15. c4 g4 16. hxg4 Bxg4 17. Bc3 Rxe1+ 18. Bxe1 Qe8 19. Qd3 Qh5 20. d5 Bxf3
+21. Qxf3 Qh2+ 22. Kf1 Qh1+ 23. Ke2 Re8+ 24. Kd2 Rxe1 25. Rxe1 Bb4+ 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2015.02.28"]
+[Round "6.8"]
+[White "Ramirez Garcia, JA."]
+[Black "Morais Carreras, J."]
+[Result "1-0"]
+[ECO "C42"]
+[WhiteElo "2344"]
+[BlackElo "2111"]
+[PlyCount "93"]
+[EventDate "2015.??.??"]
+[EventType "team"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. Nc3 Nxc3 6. dxc3 Be7 7. Be3 Nc6
+8. Qd2 Be6 9. O-O-O Bxa2 10. b3 a5 11. Kb2 a4 12. Ra1 axb3 13. cxb3 Bxb3 14.
+Rxa8 Qxa8 15. Kxb3 Qa1 16. Kc2 O-O 17. Qc1 Qa4+ 18. Kd2 Na5 19. Ke1 Bf6 20. Bd3
+Qc6 21. Ke2 Bxc3 22. Qa3 d5 23. Rc1 d4 24. Nxd4 Qxg2 25. Qxc3 Nc6 26. Nxc6 Qg4+
+27. Kd2 bxc6 28. Qc4 Qh5 29. Qc5 Qg4 30. Rc4 Qh3 31. Qxc6 Qxh2 32. Qxc7 Qh1 33.
+Rc1 Qd5 34. Qc5 Qa8 35. Qc6 Qa5+ 36. Ke2 Qh5+ 37. Qf3 Qe5 38. Qf5 Qh2 39. Be4
+g6 40. Qf4 Qh5+ 41. Bf3 Qb5+ 42. Qc4 Qb2+ 43. Kf1 Qf6 44. Qf4 Qa6+ 45. Kg2 Rc8
+46. Rxc8+ Qxc8 47. Qf6 1-0
+
+[Event "Lliga Catalana DH Final B"]
+[Site "?"]
+[Date "2015.04.11"]
+[Round "10.9"]
+[White "Masip Tresserra, O."]
+[Black "Morais Carreras, J."]
+[Result "0-1"]
+[ECO "A07"]
+[WhiteElo "2219"]
+[BlackElo "2093"]
+[PlyCount "74"]
+[EventDate "2015.??.??"]
+[EventType "team"]
+
+1. Nf3 d5 2. g3 Nf6 3. Bg2 e6 4. O-O Be7 5. d3 c5 6. Nc3 Nc6 7. e4 O-O 8. h3
+dxe4 9. dxe4 Qxd1 10. Rxd1 e5 11. Bg5 Be6 12. Nd5 Bxd5 13. exd5 Nd4 14. Nxe5
+Nxc2 15. Rac1 Nd4 16. Re1 Rfd8 17. Kh1 Rac8 18. Bxf6 Bxf6 19. Ng4 Be7 20. Ne3
+b6 21. Rc3 Bd6 22. Rd1 f5 23. Ra3 Bb8 24. Rxd4 cxd4 25. Nxf5 Rc1+ 26. Kh2 Rd1
+27. Ne7+ Kf8 28. Nc6 Re8 29. Bf3 Rd2 30. Kg2 a5 31. Bg4 Bd6 32. Rb3 Bc5 33. Bd7
+Re3 34. Rb5 Ree2 35. h4 Rxf2+ 36. Kh3 h5 37. g4 Rf3# 0-1
+
+[Event "Lliga Catalana DH Final B"]
+[Site "?"]
+[Date "2015.04.18"]
+[Round "11.8"]
+[White "Garcia Castellote, D."]
+[Black "Morais Carreras, J."]
+[Result "1-0"]
+[ECO "C42"]
+[WhiteElo "2159"]
+[BlackElo "2093"]
+[PlyCount "95"]
+[EventDate "2015.??.??"]
+[EventType "team"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. Nc3 Nxc3 6. dxc3 Be7 7. Bf4 Nc6
+8. Qd2 Be6 9. O-O-O Bxa2 10. b3 a5 11. Kb2 a4 12. Kxa2 axb3+ 13. Kxb3 Ra5 14.
+Kb2 Qa8 15. Bc4 d5 16. Bxc7 b6 17. Rhe1 O-O 18. Rxe7 dxc4 19. Qe2 Rb5+ 20. Kc1
+Qa3+ 21. Kd2 Qxe7 22. Qxe7 Nxe7 23. Nd4 Rh5 24. Bd6 Re8 25. Re1 Kf8 26. Bb4 Rd5
+27. Kc1 Rd7 28. Nc6 Rc7 29. Nxe7 Rexe7 30. Rxe7 Rxe7 31. Kb2 Ke8 32. Bxe7 Kxe7
+33. Ka3 Kd6 34. Kb4 g6 35. Kxc4 Kc6 36. Kb4 f6 37. f3 h6 38. Kc4 h5 39. h4 g5
+40. g3 gxh4 41. gxh4 f5 42. Kd4 Kd6 43. f4 Ke6 44. c4 Kd6 45. c3 Ke6 46. c5 b5
+47. c6 Kd6 48. c7 1-0

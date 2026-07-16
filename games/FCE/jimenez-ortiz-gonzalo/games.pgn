@@ -1,0 +1,205 @@
+[Event "Barcelona Paredes Memorial 19th"]
+[Site "Barcelona"]
+[Date "2017.04.22"]
+[Round "1"]
+[White "Munoz Pantoja, Miguel Angel"]
+[Black "Jimenez Ortiz, Gonzalo"]
+[Result "1-0"]
+[ECO "B20"]
+[WhiteElo "2500"]
+[BlackElo "1924"]
+[PlyCount "79"]
+[EventDate "2017.04.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. g3 g6 3. Bg2 Bg7 4. Ne2 Nc6 5. c3 e5 6. d3 d6 7. Be3 Nge7 8. O-O
+O-O 9. f4 f6 10. d4 b6 11. Nd2 Ba6 12. d5 Na5 13. fxe5 fxe5 14. Nf3 h6 15. b3
+Kh7 16. Qd2 Ng8 17. h3 Qe7 18. c4 Rf7 19. g4 Raf8 20. Ng3 Bc8 21. g5 h5 22. Qe2
+Qe8 23. Nh4 Rxf1+ 24. Rxf1 Rxf1+ 25. Qxf1 Qf8 26. Qe2 Qf7 27. Nxh5 Ne7 28. Ng3
+Bd7 29. Bf3 Kg8 30. Bg4 Qe8 31. Kh2 Qc8 32. Bxd7 Qxd7 33. Ng2 a6 34. h4 b5 35.
+cxb5 axb5 36. h5 c4 37. b4 Nb7 38. Nh4 Qe8 39. hxg6 Nxg6 40. Qh5 1-0
+
+[Event "Barcelona Paredes Memorial 19th"]
+[Site "Barcelona"]
+[Date "2017.04.29"]
+[Round "2"]
+[White "Jimenez Ortiz, Gonzalo"]
+[Black "Cabot Muntane, Jordi"]
+[Result "1-0"]
+[ECO "B00"]
+[WhiteElo "1924"]
+[BlackElo "1854"]
+[PlyCount "69"]
+[EventDate "2017.04.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 b6 2. d4 Bb7 3. Nc3 e6 4. a3 Nf6 5. Bd3 d5 6. e5 Nfd7 7. Nce2 c5 8. c3
+Nc6 9. f4 Be7 10. Nf3 a6 11. O-O b5 12. f5 exf5 13. Nf4 g6 14. e6 Nf6 15. Ng5
+fxe6 16. Nfxe6 Qd7 17. Ng7+ Kf8 18. N7e6+ Ke8 19. Bf4 Rc8 20. Nxc5 Bxc5 21.
+dxc5 Kf8 22. Qd2 Kg7 23. Rae1 Rhe8 24. Bd6 Rxe1 25. Rxe1 Re8 26. Re2 Qd8 27.
+Ne6+ Rxe6 28. Rxe6 Qd7 29. Re1 Qf7 30. h3 Ne4 31. Bxe4 dxe4 32. Bf4 Na5 33. Rd1
+Bc6 34. Qd4+ Kg8 35. Qd8+ 1-0
+
+[Event "Barcelona Paredes Memorial 19th"]
+[Site "Barcelona"]
+[Date "2017.05.06"]
+[Round "3"]
+[White "Garcia Ramos, Daniel"]
+[Black "Jimenez Ortiz, Gonzalo"]
+[Result "1-0"]
+[ECO "B55"]
+[WhiteElo "2208"]
+[BlackElo "1924"]
+[PlyCount "53"]
+[EventDate "2017.04.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. f3 e5 6. Nb3 Be6 7. c4 Nbd7 8. Nc3
+a6 9. Be3 Rc8 10. Nd5 Bxd5 11. cxd5 Be7 12. Be2 O-O 13. O-O h6 14. Qd2 Nh7 15.
+g3 g5 16. Rac1 Rxc1 17. Rxc1 Qb8 18. Qc3 Bd8 19. Qb4 Re8 20. Bf1 Nhf8 21. Rc3
+Kg7 22. Nd2 b5 23. Rc6 Bb6 24. Bxb6 Nxb6 25. Qxd6 Qxd6 26. Rxd6 Nfd7 27. Bh3
+1-0
+
+[Event "Barcelona Paredes Memorial 19th"]
+[Site "Barcelona"]
+[Date "2017.05.13"]
+[Round "4"]
+[White "Jimenez Ortiz, Gonzalo"]
+[Black "Andreu Termes, Frederic"]
+[Result "1/2-1/2"]
+[ECO "C00"]
+[WhiteElo "1924"]
+[BlackElo "1818"]
+[PlyCount "126"]
+[EventDate "2017.04.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. Qe2 c5 3. Nf3 Nc6 4. g3 g6 5. Bg2 Bg7 6. O-O Nge7 7. Re1 e5 8. c4
+d6 9. h3 O-O 10. Nc3 f5 11. d3 f4 12. Nd5 fxg3 13. fxg3 h6 14. Be3 Be6 15. Rf1
+Qd7 16. Kh2 g5 17. Rf2 g4 18. Ng1 Rxf2 19. Qxf2 Rf8 20. Qd2 Kh7 21. Rf1 Rxf1
+22. Bxf1 h5 23. Qf2 Ng8 24. hxg4 hxg4 25. Kh1 Qf7 26. Qh2+ Bh6 27. Be2 Nd4 28.
+Bxh6 Nxh6 29. Ne3 Nf3 30. Qf2 Qh5+ 31. Kg2 Qh2+ 32. Kf1 Qxg1+ 33. Qxg1 Nxg1 34.
+Kxg1 Kg6 35. Kf2 Kf6 36. Ke1 Ke7 37. Kd2 Kd7 38. Kc3 Kc6 39. Bd1 a6 40. Ba4+ b5
+41. cxb5+ axb5 42. Bb3 Bxb3 43. Kxb3 Kb6 44. a3 Kc6 45. a4 bxa4+ 46. Kxa4 Kb6
+47. b4 cxb4 48. Kxb4 Kc6 49. Kc4 Nf7 50. Nxg4 Ng5 51. Nf6 Ne6 52. Nh7 Nc7 53.
+g4 d5+ 54. exd5+ Nxd5 55. g5 Ne3+ 56. Kc3 Kd6 57. Nf6 Ke6 58. Ne4 Nd5+ 59. Kc4
+Ne3+ 60. Kc5 Nf5 61. Kc6 Nd4+ 62. Kc7 Nf3 63. Kd8 Kf5 1/2-1/2
+
+[Event "Barcelona Paredes Memorial 19th"]
+[Site "Barcelona"]
+[Date "2017.05.20"]
+[Round "5"]
+[White "Povill Claros, Laura"]
+[Black "Jimenez Ortiz, Gonzalo"]
+[Result "1-0"]
+[ECO "B22"]
+[WhiteElo "1818"]
+[BlackElo "1924"]
+[PlyCount "107"]
+[EventDate "2017.04.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. d4 cxd4 3. c3 Nf6 4. e5 Nd5 5. Nf3 Nc6 6. cxd4 d6 7. Bc4 Nb6 8. Bb5
+dxe5 9. Nxe5 Bd7 10. Nxc6 Bxc6 11. Bxc6+ bxc6 12. Nc3 e6 13. O-O Be7 14. Be3
+O-O 15. Qf3 Nd5 16. Nxd5 cxd5 17. a3 Qd7 18. Qe2 Rfc8 19. Rfc1 Qa4 20. Qd3 Rab8
+21. b4 Qd7 22. g3 h6 23. Qa6 g5 24. Kf1 Kg7 25. Ke2 Rxc1 26. Rxc1 Rb7 27. Qc6
+Qxc6 28. Rxc6 a5 29. bxa5 Bxa3 30. a6 Rb2+ 31. Kd3 Ra2 32. Kc3 Bf8 33. Kb3 Ra3+
+34. Kc2 Bb4 35. Bc1 Ra5 36. Bd2 Bxd2 37. Kxd2 g4 38. Kc3 Kg6 39. Kb4 Ra2 40.
+Kc5 Kf5 41. Kb6 Rb2+ 42. Kc7 Rxf2 43. a7 Ra2 44. Kb7 Rxa7+ 45. Kxa7 Ke4 46. Kb6
+Kxd4 47. Rc7 e5 48. Rxf7 Ke3 49. Kc5 d4 50. Kd5 d3 51. Kxe5 d2 52. Rd7 Ke2 53.
+Kf4 h5 54. Kg5 1-0
+
+[Event "Barcelona Paredes Memorial 19th"]
+[Site "Barcelona"]
+[Date "2017.06.03"]
+[Round "7"]
+[White "Jimenez Ortiz, Gonzalo"]
+[Black "Catala Ulied, Bernat"]
+[Result "1/2-1/2"]
+[ECO "B73"]
+[WhiteElo "1924"]
+[BlackElo "1898"]
+[PlyCount "25"]
+[EventDate "2017.04.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Be2 g6 7. O-O Bg7 8.
+Be3 O-O 9. f4 Qb6 10. Na4 Qa5 11. Nc3 Qb6 12. Na4 Qa5 13. Nc3 1/2-1/2
+
+[Event "Barcelona Paredes Memorial 19th"]
+[Site "Barcelona"]
+[Date "2017.06.10"]
+[Round "8"]
+[White "Ros Montes, Daniel"]
+[Black "Jimenez Ortiz, Gonzalo"]
+[Result "0-1"]
+[ECO "D23"]
+[WhiteElo "1882"]
+[BlackElo "1924"]
+[PlyCount "84"]
+[EventDate "2017.04.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 c6 4. Qc2 dxc4 5. Qxc4 Bf5 6. Nc3 e6 7. Nh4 Bg6 8.
+Nxg6 hxg6 9. e4 Nbd7 10. Bf4 Be7 11. Be2 Qa5 12. Bd2 Qb6 13. O-O Qc7 14. e5 Rc8
+15. Rac1 Nb6 16. Qd3 Nfd5 17. Bf3 Qd8 18. a3 Nxc3 19. bxc3 Bg5 20. Bxg5 Qxg5
+21. c4 Qf4 22. h3 Rd8 23. Be4 O-O 24. g3 Qg5 25. f4 Qe7 26. Kh2 Rd7 27. Rcd1
+Rfd8 28. Qe3 c5 29. d5 Nxc4 30. Qc3 exd5 31. Bxd5 Rxd5 32. Rxd5 Rxd5 33. Qxc4
+Rd2+ 34. Kg1 Qd7 35. Qxc5 Qd3 36. Qc8+ Kh7 37. Qg4 Qxa3 38. f5 Qc5+ 39. Kh1
+Qd5+ 40. Rf3 Qa2 41. fxg6+ fxg6 42. Qh4+ Kg8 0-1

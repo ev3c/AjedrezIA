@@ -1,0 +1,79 @@
+[Event "Barcelona sim"]
+[Site "Barcelona"]
+[Date "1928.??.??"]
+[Round "?"]
+[White "Alekhine, Alexander"]
+[Black "Carbonell"]
+[Result "1-0"]
+[ECO "B18"]
+[PlyCount "91"]
+[EventDate "1928.01.24"]
+[EventType "simul"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. Nf3 Nd7 7. Bd3 Ngf6 8.
+O-O e6 9. Re1 Bd6 10. Nf5 Bxf5 11. Bxf5 O-O 12. Bd3 Qc7 13. Bd2 Rfe8 14. c4 c5
+15. b3 cxd4 16. Nxd4 Bc5 17. Be3 Ne5 18. Nb5 Qb6 19. Bxc5 Qxc5 20. b4 Qxb4 21.
+Rxe5 Red8 22. Re3 a6 23. Nc3 Qxc3 24. Bxh7+ Nxh7 25. Qxd8+ Rxd8 26. Rxc3 Rc8
+27. a4 Rc7 28. a5 Nf6 29. Rb1 Ne4 30. Rd3 Kf8 31. Rb4 Nc5 32. Rd1 Ke7 33. Kf1
+g5 34. Ke2 Kf6 35. Ke3 Ke5 36. g3 f5 37. f4+ gxf4+ 38. gxf4+ Kf6 39. Rd8 Kf7
+40. Kd4 Ke7 41. Rh8 Kf6 42. h4 Ne4 43. Rh6+ Ke7 44. Rxb7 Rd7+ 45. Rxd7+ Kxd7
+46. Ke5 1-0
+
+[Event "Camp. Catalunya eq. ( 2 cat. )"]
+[Site "?"]
+[Date "1930.??.??"]
+[Round "2"]
+[White "Calduch Segura, Joaquim"]
+[Black "Carbonell"]
+[Result "1-0"]
+[ECO "B01"]
+[PlyCount "35"]
+[EventDate "1930.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. Nf3 Bf5 5. d4 e6 6. Bd3 Bg6 7. Ne5 c6 8.
+O-O Qxd4 9. Nxg6 hxg6 10. Nb5 Qe5 11. Re1 Qxh2+ 12. Kf1 Nf6 13. Qf3 Nbd7 14.
+Bf4 Qh5 15. Qxh5 Nxh5 16. Bg5 cxb5 17. Rxe6+ fxe6 18. Bxg6# 1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1974.??.??"]
+[Round "?"]
+[White "Carbonell"]
+[Black "Ripoll"]
+[Result "1-0"]
+[ECO "A52"]
+[PlyCount "53"]
+[EventDate "1974.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e5 3. dxe5 Ng4 4. e4 h5 5. Be2 Nxe5 6. f4 Nec6 7. Be3 Na6 8. a3
+Bc5 9. Qd3 Bxe3 10. Qxe3 d6 11. Nc3 Nc5 12. b4 Ne6 13. Rd1 Bd7 14. Nf3 Qf6 15.
+Nd5 Qh6 16. Ng5 O-O 17. O-O Ncd8 18. Rf3 Re8 19. Rh3 h4 20. Qf2 Nxg5 21. fxg5
+Qxg5 22. Rxh4 Rc8 23. Rh5 Qg6 24. Qh4 f6 25. Rh8+ Kf7 26. Rxe8 Bxe8 27. Bh5 1-0
+
+[Event "Trofeo "Dicen" VIII"]
+[Site "Barcelona"]
+[Date "1974.??.??"]
+[Round "?"]
+[White "Carbonell"]
+[Black "Jurado"]
+[Result "1-0"]
+[ECO "D87"]
+[PlyCount "89"]
+[EventDate "1974.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 c5 8.
+Be3 O-O 9. Ne2 Nc6 10. O-O Na5 11. Bd3 c4 12. Bc2 Bd7 13. f4 b6 14. Ng3 e6 15.
+f5 exf5 16. exf5 Bc6 17. Qg4 Re8 18. fxg6 hxg6 19. Rxf7 Re7 20. Rxe7 Qxe7 21.
+Bd2 Be8 22. Bxg6 Bxg6 23. Qxg6 Qf6 24. Qxf6 Bxf6 25. Rf1 Bh8 26. Nf5 Re8 27.
+Re1 Rxe1+ 28. Bxe1 Kf7 29. g4 Ke6 30. Kf2 Nb3 31. Kf3 b5 32. Ke4 a5 33. axb3
+cxb3 34. Kd3 a4 35. Bd2 a3 36. Bc1 a2 37. Bb2 Bf6 38. h4 Bd8 39. c4 b4 40. d5+
+Kf7 41. g5 Bc7 42. d6 Bb6 43. Nd4 Bc5 44. d7 Be7 45. Nc6 1-0

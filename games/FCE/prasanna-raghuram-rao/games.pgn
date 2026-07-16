@@ -1,0 +1,355 @@
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.04"]
+[Round "1"]
+[White "Prasanna, Raghuram Rao"]
+[Black "Niraj, Saripalli"]
+[Result "1-0"]
+[ECO "C77"]
+[WhiteElo "2475"]
+[BlackElo "2140"]
+[PlyCount "77"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. d3 d6 6. c3 Bd7 7. Nbd2 g6 8. Nf1
+Bg7 9. Bg5 h6 10. Bh4 g5 11. Bg3 b5 12. Bb3 Ne7 13. Ne3 Ng6 14. h4 g4 15. h5
+Nf4 16. Nh4 N6xh5 17. Nhf5 Bf6 18. Bxf4 Nxf4 19. g3 Ne6 20. Nxg4 Nc5 21. Qf3
+Nxb3 22. axb3 Bg5 23. Nfxh6 Be6 24. Ke2 Bxb3 25. Nxf7 Rxh1 26. Rxh1 Bxf7 27.
+Rh8+ Ke7 28. Rxd8 Rxd8 29. Ne3 Be6 30. Qh5 Rg8 31. Nd5+ Bxd5 32. exd5 Bf6 33.
+Qf5 Rf8 34. Qg4 Bh8 35. Qb4 Ra8 36. Qh4+ Kf7 37. Qh5+ Kg8 38. Qg4+ Bg7 39. Qd7
+1-0
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.05"]
+[Round "2"]
+[White "Gedajlovic, Max"]
+[Black "Prasanna, Raghuram Rao"]
+[Result "0-1"]
+[ECO "E04"]
+[WhiteElo "2302"]
+[BlackElo "2475"]
+[PlyCount "132"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 dxc4 5. Bg2 c5 6. O-O Nc6 7. dxc5 Qxd1 8.
+Rxd1 Bxc5 9. Nbd2 c3 10. bxc3 Bd7 11. Nb3 Be7 12. c4 O-O 13. Bb2 Rfd8 14. Ne5
+Rac8 15. Nxc6 Bxc6 16. Bxc6 Rxc6 17. Na5 Rxd1+ 18. Rxd1 Ra6 19. Nxb7 Rxa2 20.
+Bd4 Rxe2 21. Bxa7 Rc2 22. Na5 Ne4 23. Be3 h6 24. Rc1 Ra2 25. Nb3 Rb2 26. Nd4
+Bc5 27. Nc2 Nc3 28. Kf1 Na2 29. Ra1 Rxc2 30. Bxc5 Rxc4 31. Rxa2 Rxc5 32. h4 Kh7
+33. Kg2 Kg6 34. Ra7 Kf6 35. Rb7 Rf5 36. Ra7 Re5 37. Rb7 Kg6 38. Ra7 f5 39. Kf3
+Rb5 40. Rc7 Rb3+ 41. Kg2 Kf6 42. f4 g5 43. hxg5+ hxg5 44. Rc6 Rb2+ 45. Kf1 gxf4
+46. gxf4 Rb4 47. Ke2 Rxf4 48. Ke3 Ra4 49. Rb6 f4+ 50. Kf3 Kf5 51. Rb8 Ra3+ 52.
+Kf2 e5 53. Rb5 Re3 54. Rb8 Rd3 55. Re8 Ke4 56. Re7 Rd2+ 57. Ke1 Ra2 58. Re8 Kd4
+59. Kf1 e4 60. Rb8 f3 61. Rb3 Ke5 62. Rb8 Kd4 63. Rb3 Rc2 64. Ra3 e3 65. Kg1
+Rc1+ 66. Kh2 f2 0-1
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.06"]
+[Round "3"]
+[White "Prasanna, Raghuram Rao"]
+[Black "Lan, Zilun"]
+[Result "1/2-1/2"]
+[ECO "B12"]
+[WhiteElo "2475"]
+[BlackElo "2250"]
+[PlyCount "52"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h6 5. g4 Bd7 6. h5 e6 7. Nf3 c5 8. c3 Qb6 9.
+Be2 Bb5 10. Be3 Nd7 11. O-O Bxe2 12. Qxe2 Ne7 13. c4 dxc4 14. dxc5 Nxc5 15.
+Qxc4 Nd5 16. Bd4 Qa6 17. Rc1 Qxc4 18. Rxc4 b6 19. Nc3 Nxc3 20. Rxc3 Be7 21. b4
+Ne4 22. Rc4 b5 23. Rc7 Bxb4 24. a4 bxa4 25. Bxa7 Nc3 26. Rb7 O-O 1/2-1/2
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.07"]
+[Round "4"]
+[White "Alonso Rosell, Alvar"]
+[Black "Prasanna, Raghuram Rao"]
+[Result "1/2-1/2"]
+[ECO "A07"]
+[WhiteElo "2545"]
+[BlackElo "2475"]
+[PlyCount "105"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 d5 2. g3 Nf6 3. Bg2 c6 4. O-O Bg4 5. d3 Nbd7 6. h3 Bxf3 7. Bxf3 e6 8.
+Bg2 Bd6 9. e4 O-O 10. Nd2 Qc7 11. Qe2 dxe4 12. dxe4 e5 13. a4 Rfe8 14. Nc4 Bc5
+15. Bd2 Nb6 16. Ne3 Rad8 17. b4 Bf8 18. Bc3 Nfd7 19. h4 Nc8 20. h5 h6 21. Ng4
+b5 22. f4 c5 23. axb5 cxb4 24. Bb2 Ncb6 25. fxe5 Re6 26. Kh2 Nc5 27. Qf2 b3 28.
+cxb3 Nd3 29. Qe2 Bc5 30. Rad1 Nxb2 31. Qxb2 Rde8 32. Rf5 Nd7 33. Rd5 Nb6 34.
+Rd1 Nd7 35. Rd5 Bb4 36. Bf1 Nb6 37. Rd3 R8e7 38. Rdf3 Rd7 39. Rd3 Rxd3 40. Bxd3
+Re7 41. Qe2 Qc3 42. Bc4 Nxc4 43. bxc4 Rd7 44. Rf2 Bc5 45. Nf6+ gxf6 46. Qg4+
+Kf8 47. Qxd7 Bxf2 48. Qd8+ Kg7 49. Qxf6+ Kg8 50. Qxf2 Qxc4 51. Kg1 Qxb5 52.
+Qxa7 Qxe5 53. Qe3 1/2-1/2
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.08"]
+[Round "5"]
+[White "Prasanna, Raghuram Rao"]
+[Black "Aguero Jimenez, Luis Lazaro"]
+[Result "1/2-1/2"]
+[ECO "C42"]
+[WhiteElo "2475"]
+[BlackElo "2415"]
+[PlyCount "154"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nc3 Bb4 4. Bc4 O-O 5. O-O d6 6. d3 Bxc3 7. bxc3 Be6 8.
+Bb3 Nbd7 9. h3 h6 10. Re1 Re8 11. Nh4 d5 12. Qf3 Nc5 13. Bxd5 Bxd5 14. exd5
+Qxd5 15. Ba3 e4 16. dxe4 Ncxe4 17. Nf5 c5 18. c4 Qxc4 19. Bb2 Qxc2 20. Nxh6+
+gxh6 21. Bxf6 Nxf6 22. Qxf6 Qg6 23. Qc3 b6 24. Rad1 Kh7 25. Qf3 a5 26. h4 Kg7
+27. h5 Qf6 28. Qg3+ Kh8 29. Rxe8+ Rxe8 30. Rd6 Re6 31. Rd7 Qa1+ 32. Kh2 Qe5 33.
+f4 Qxh5+ 34. Kg1 Qg6 35. Qf3 Rd6 36. Rb7 Qf6 37. Qg4 Rd4 38. Rc7 Rd8 39. a4 Qg6
+40. Qf3 Qd3 41. Qxd3 Rxd3 42. Rxf7 Rb3 43. Rc7 Rb4 44. Rc6 Kg7 45. f5 Rxa4 46.
+Rxb6 Rf4 47. Rb5 Rxf5 48. Rxa5 Kf6 49. Ra6+ Kg5 50. g3 Rf6 51. Ra4 Rc6 52. Rc4
+Kf5 53. Kf2 Ke5 54. Ke3 Kd5 55. Rh4 Re6+ 56. Kd3 Rg6 57. Rh3 Kc6 58. Kc4 Kb6
+59. Rh4 Kc6 60. Rh3 Rg4+ 61. Kc3 Kb5 62. Rxh6 Rxg3+ 63. Kc2 Kb4 64. Rb6+ Kc4
+65. Rh6 Rg2+ 66. Kc1 Kb4 67. Rh4+ c4 68. Rh3 Rg4 69. Kb2 Rf4 70. Rg3 Rf2+ 71.
+Kc1 Ra2 72. Rh3 Ra1+ 73. Kb2 Re1 74. Rg3 Re2+ 75. Kc1 Re4 76. Kb2 Rh4 77. Rf3
+Rh2+ 1/2-1/2
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.09"]
+[Round "6"]
+[White "Harikrishnan, Amirthavalli  Ranga"]
+[Black "Prasanna, Raghuram Rao"]
+[Result "0-1"]
+[ECO "B85"]
+[WhiteElo "2138"]
+[BlackElo "2475"]
+[PlyCount "240"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be2 Nf6 7. O-O Be7 8.
+Be3 O-O 9. f4 d6 10. Kh1 Nxd4 11. Qxd4 a6 12. a4 Bd7 13. Bf3 Bc6 14. Rad1 Rad8
+15. Qc4 Rc8 16. Qb3 Nd7 17. f5 e5 18. Rf2 Qb8 19. Nd5 Bxd5 20. Rxd5 Rc6 21. Rd1
+Qc7 22. c3 Nf6 23. Re2 Rd8 24. Bg5 Ne8 25. Be3 Rd7 26. Bf2 Qd8 27. Qc2 Bg5 28.
+Qd3 Qa5 29. Ra1 Rd8 30. b4 Qc7 31. Be1 Rc8 32. g3 Bh6 33. h4 Nf6 34. Kg2 Qe7
+35. Rd1 Ne8 36. Rc2 Rc4 37. Re2 Qd7 38. Ra1 R4c7 39. Rc2 g6 40. fxg6 hxg6 41.
+b5 Rc4 42. bxa6 bxa6 43. a5 Nf6 44. Re2 Qc7 45. Rb1 Qxa5 46. Qxd6 R4c6 47. Qb4
+Qd8 48. Qa4 Qe8 49. Ra2 Qe6 50. Qb3 Qe8 51. Rba1 Nd7 52. Bg4 Nc5 53. Qc2 Rd8
+54. Be2 Qe6 55. Rb2 Rcd6 56. Qb1 Kg7 57. Bf2 Nd3 58. Bxd3 Rxd3 59. Rb8 R8d6 60.
+Rb6 Rxb6 61. Qxd3 Rd6 62. Qf3 Qb3 63. Rf1 Rf6 64. Qd3 a5 65. Be3 Rxf1 66. Bxh6+
+Kxh6 67. Kxf1 a4 68. Qe3+ Kh7 69. h5 Qd1+ 70. Kf2 gxh5 71. Qg5 a3 72. Qf5+ Kg8
+73. Qg5+ Kf8 74. Qf6 Qd2+ 75. Kg1 a2 76. Qh8+ Ke7 77. Qxe5+ Kd7 78. Qb5+ Kd6
+79. Qb4+ Ke6 80. Qc4+ Ke5 81. Qc5+ Kxe4 82. Qc4+ Ke3 83. Qf4+ Kd3 84. Qf5+ Kxc3
+85. Qa5+ Kd3 86. Qd5+ Ke3 87. Qg5+ Kd3 88. Qd5+ Ke2 89. Qxh5+ Ke1 90. Qe5+ Kd1
+91. Qa1+ Ke2 92. Qf1+ Ke3 93. Qf4+ Kd3 94. Qf5+ Kd4 95. Qf6+ Kc5 96. Qe7+ Kb6
+97. Qf6+ Kb5 98. Qe5+ Kb4 99. Qe7+ Kb5 100. Qe8+ Kb4 101. Qe7+ Kc4 102. Qc7+
+Kd3 103. Qd7+ Kc2 104. Qa4+ Kb2 105. Qb5+ Kc1 106. Qe5 Qd1+ 107. Kf2 Qc2+ 108.
+Ke1 Qd1+ 109. Kf2 Qd2+ 110. Kf1 Qd3+ 111. Kg1 Kb1 112. Qe1+ Kc2 113. Qf2+ Kd1
+114. Qxa2 Qxg3+ 115. Kf1 Qe1+ 116. Kg2 Qe2+ 117. Qxe2+ Kxe2 118. Kg3 Ke3 119.
+Kg4 Ke4 120. Kg5 f5 0-1
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.10"]
+[Round "7"]
+[White "Prasanna, Raghuram Rao"]
+[Black "Karthikeyan, Murali"]
+[Result "0-1"]
+[ECO "D15"]
+[WhiteElo "2475"]
+[BlackElo "2513"]
+[PlyCount "106"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Nf3 a6 5. e3 b5 6. b3 Bg4 7. Be2 e6 8. Bd2 Nbd7
+9. O-O Bd6 10. h3 Bxf3 11. Bxf3 O-O 12. Qc2 Rc8 13. Qb2 dxc4 14. bxc4 Nb6 15.
+Be2 bxc4 16. Rab1 Rb8 17. Qc2 c5 18. Na4 Nxa4 19. Qxa4 cxd4 20. Qxc4 dxe3 21.
+Bxe3 a5 22. Bf3 Nd5 23. Bxd5 exd5 24. Qd3 Qd7 25. Rxb8 Rxb8 26. Rd1 Bc7 27. Bd4
+h5 28. Qe3 Qf5 29. Rc1 Rb1 30. g3 Kh7 31. Rxb1 Qxb1+ 32. Kh2 h4 33. Be5 hxg3+
+34. Qxg3 Bxe5 35. Qxe5 Qe4 36. Qh5+ Kg8 37. Qg5 a4 38. Qd8+ Kh7 39. Kg3 g6 40.
+Qf8 Qe5+ 41. Kg2 Qf5 42. a3 d4 43. Qb4 Qd7 44. f3 d3 45. Qd2 Qd6 46. h4 Qxa3
+47. h5 Qd6 48. hxg6+ Kxg6 49. f4 Qd5+ 50. Kf2 a3 51. Ke3 a2 52. f5+ Kxf5 53.
+Qf2+ Ke5 0-1
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.11"]
+[Round "8"]
+[White "Sos Andreu, Eric"]
+[Black "Prasanna, Raghuram Rao"]
+[Result "1/2-1/2"]
+[ECO "A13"]
+[WhiteElo "2361"]
+[BlackElo "2475"]
+[PlyCount "121"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. c4 e6 3. g3 d5 4. Bg2 dxc4 5. Qa4+ Nbd7 6. Qxc4 a6 7. Qc2 c5 8.
+O-O b6 9. Nc3 Bb7 10. d3 Be7 11. e4 Rc8 12. Qe2 O-O 13. d4 b5 14. e5 Nd5 15.
+Ne4 cxd4 16. Rd1 Qb6 17. Bg5 Bxg5 18. Nexg5 h6 19. Ne4 Nc5 20. Rxd4 Nxe4 21.
+Rxe4 Ne7 22. Re3 Rfd8 23. Rd1 Bd5 24. b3 Rc7 25. Red3 Rdc8 26. Nd4 Rc1 27. Qe3
+Rxd1+ 28. Rxd1 Bxg2 29. Kxg2 Nd5 30. Qd2 Rd8 31. Qc1 Qb7 32. Kh3 Rd7 33. Rd2
+Ne7 34. Qd1 Qe4 35. Nc6 Nd5 36. Rd4 Qf5+ 37. Kg2 Rc7 38. Nb4 Nxb4 39. Rxb4 Qxe5
+40. Qd8+ Kh7 41. Qd3+ g6 42. a4 Qc5 43. Rf4 Kg7 44. axb5 Qxb5 45. Qe3 Qd5+ 46.
+Kh3 Qh5+ 47. Kg2 Qc5 48. Qd3 Qd5+ 49. Qe4 Rb7 50. Qxd5 exd5 51. Rd4 Rb5 52. b4
+Kf6 53. f4 h5 54. Kf3 Ke6 55. h3 Kd6 56. g4 hxg4+ 57. hxg4 a5 58. bxa5 Rb3+ 59.
+Kf2 Ra3 60. Rb4 Rxa5 61. Rb7 1/2-1/2
+
+[Event "Montcada op A"]
+[Site "Montcada i Reixac"]
+[Date "2016.06.26"]
+[Round "2"]
+[White "Prasanna, Raghuram Rao"]
+[Black "Fernandez Diaz, Cristian"]
+[Result "1-0"]
+[ECO "B52"]
+[WhiteElo "2466"]
+[BlackElo "2285"]
+[PlyCount "62"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Qxd7 5. O-O Nc6 6. Re1 Nf6 7. c3 e6 8.
+d3 Be7 9. Nbd2 O-O 10. Nf1 Qc7 11. Ng3 d5 12. Bg5 h6 13. Bd2 Rfd8 14. e5 Nd7
+15. Qe2 b5 16. Nh5 a5 17. Qe3 Bf8 18. Qf4 b4 19. Qg3 Kh7 20. Qh4 bxc3 21. bxc3
+Rab8 22. Bf4 Qa7 23. Re3 Ne7 24. Nxg7 Ng6 25. Qxh6+ Kg8 26. Ng5 Bxg7 27. Qh7+
+Kf8 28. Nxe6+ fxe6 29. Qxg6 Qb6 30. Bh6 Bxh6 31. Rf3+ Ke7 1-0
+
+[Event "Montcada op A"]
+[Site "Montcada i Reixac"]
+[Date "2016.06.27"]
+[Round "3"]
+[White "Cordova, Emilio"]
+[Black "Prasanna, Raghuram Rao"]
+[Result "1-0"]
+[ECO "A13"]
+[WhiteElo "2602"]
+[BlackElo "2466"]
+[PlyCount "55"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. g3 d5 3. Bg2 e6 4. O-O c5 5. c4 dxc4 6. Na3 Nc6 7. Nxc4 Be7 8. b3
+O-O 9. Bb2 Nd5 10. Rc1 b6 11. d4 Bb7 12. h4 cxd4 13. Nxd4 Rc8 14. e4 Nf6 15. e5
+Nd5 16. Nf5 exf5 17. Bxd5 Ba6 18. Nd6 Bxd6 19. exd6 Bxf1 20. Kxf1 Qd7 21. Rxc6
+Kh8 22. Qc1 f4 23. Rxc8 Rxc8 24. Qxf4 f6 25. Kg2 Rd8 26. Be4 Qe6 27. Ba3 a5 28.
+Qf5 1-0
+
+[Event "Montcada op A"]
+[Site "Montcada i Reixac"]
+[Date "2016.06.28"]
+[Round "4"]
+[White "Prasanna, Raghuram Rao"]
+[Black "Vehi Bach, Victor Manuel"]
+[Result "0-1"]
+[ECO "E46"]
+[WhiteElo "2466"]
+[BlackElo "2311"]
+[PlyCount "57"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Nge2 d5 6. a3 Bd6 7. Ng3 c6 8. Be2
+Nbd7 9. O-O dxc4 10. Bxc4 e5 11. Ba2 Nb6 12. dxe5 Bxe5 13. Qc2 Qe7 14. Nce4
+Nxe4 15. Qxe4 Bf6 16. Re1 Qxe4 17. Nxe4 Be7 18. Bd2 Bf5 19. Ng3 Bc2 20. Rec1
+Bd3 21. Nh5 g6 22. Nf4 Ba6 23. Bc3 Rfd8 24. Bd4 Na4 25. Rd1 Bg5 26. Bb3 Nb6 27.
+Rac1 Bb5 28. Rd2 Rac8 29. Rcd1 0-1
+
+[Event "Montcada op A"]
+[Site "Montcada i Reixac"]
+[Date "2016.07.01"]
+[Round "7"]
+[White "Ramirez Garcia, Jorge Alberto"]
+[Black "Prasanna, Raghuram Rao"]
+[Result "0-1"]
+[ECO "B22"]
+[WhiteElo "2264"]
+[BlackElo "2466"]
+[PlyCount "108"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. c3 Nf6 4. e5 Nd5 5. d4 cxd4 6. cxd4 d6 7. Bc4 Nc6 8. O-O
+Be7 9. Qe2 O-O 10. Rd1 Na5 11. Bxd5 exd5 12. Nc3 Be6 13. Bf4 a6 14. exd6 Bxd6
+15. Bxd6 Qxd6 16. Ne5 Rfe8 17. Qf3 Rac8 18. h3 f6 19. Nd3 Bf7 20. Rac1 Nc6 21.
+Qf4 Qd8 22. Nc5 Qb6 23. Nb3 Qb4 24. Rd3 a5 25. Qd2 b6 26. Rd1 a4 27. Nc1 Na5
+28. Rg3 Nc4 29. Nd3 Qd6 30. Qf4 Qxf4 31. Nxf4 Nxb2 32. Rb1 Nc4 33. Nfxd5 Bg6
+34. Rd1 Nb2 35. Rd2 Nc4 36. Rd1 Rcd8 37. Ne3 Nd6 38. Nxa4 Ne4 39. Rf3 b5 40.
+Nb2 Nc3 41. Rd2 Nxa2 42. d5 Nc3 43. Rf4 Ne4 44. Rd4 Rd6 45. Rb4 Nc3 46. Kf1 Ra6
+47. Rfd4 Ra1+ 48. Ned1 Bc2 49. d6 Nxd1 50. Nxd1 Bxd1 51. f4 Bb3+ 52. Kf2 Ba4
+53. Rb2 Kf7 54. d7 Rd8 0-1
+
+[Event "Montcada op A"]
+[Site "Montcada i Reixac"]
+[Date "2016.07.02"]
+[Round "8"]
+[White "Prasanna, Raghuram Rao"]
+[Black "Iniyan, P."]
+[Result "0-1"]
+[ECO "A49"]
+[WhiteElo "2466"]
+[BlackElo "2336"]
+[PlyCount "70"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. g3 g6 3. b3 Bg7 4. Bb2 O-O 5. Bg2 d6 6. d4 c5 7. O-O Nbd7 8. c4
+Rb8 9. Nc3 b6 10. Re1 Bb7 11. e4 cxd4 12. Nxd4 a6 13. Qd2 Nc5 14. Rad1 e6 15.
+b4 Ncd7 16. Nxe6 fxe6 17. Qxd6 e5 18. Bh3 Rf7 19. Be6 Bf8 20. Qd3 Bxb4 21. a3
+Bc5 22. Bxf7+ Kxf7 23. Qf3 Kg7 24. Nd5 Nxd5 25. exd5 Qe7 26. Re2 Rf8 27. Qg4
+Rf5 28. Rde1 Qf7 29. Rf1 b5 30. Rd2 Nb6 31. cxb5 axb5 32. d6 Qd7 33. Qh4 Qc6
+34. Qe7+ Kh6 35. Rd5 Nxd5 0-1
+
+[Event "Montcada op A"]
+[Site "Montcada i Reixac"]
+[Date "2016.07.03"]
+[Round "9"]
+[White "Gomez Jurado, Luis Alberto"]
+[Black "Prasanna, Raghuram Rao"]
+[Result "0-1"]
+[ECO "A25"]
+[WhiteElo "2218"]
+[BlackElo "2466"]
+[PlyCount "60"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 e5 2. g3 Nc6 3. Nc3 g6 4. Rb1 f5 5. d3 Nf6 6. Bg2 Bg7 7. Nf3 O-O 8. O-O
+a5 9. a3 d6 10. b4 axb4 11. axb4 Ne7 12. e4 h6 13. b5 Be6 14. exf5 Nxf5 15. Re1
+Qd7 16. Bb2 g5 17. c5 Qf7 18. cxd6 cxd6 19. Ne4 Bb3 20. Qe2 Ra2 21. g4 Nxe4 22.
+Qxe4 Ne7 23. Qb4 Ra4 24. Qxd6 Rxg4 25. Re3 Bd5 26. h3 Rxg2+ 27. Kxg2 Nf5 28.
+Qc5 Nxe3+ 29. Qxe3 Qxf3+ 30. Qxf3 Rxf3 0-1

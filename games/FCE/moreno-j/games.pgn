@@ -1,0 +1,50 @@
+[Event "Ciutat de Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "?"]
+[White "Vehi Bach, VM."]
+[Black "Moreno, J."]
+[Result "1-0"]
+[ECO "B01"]
+[PlyCount "41"]
+[EventDate "1996.??.??"]
+[EventType "rapid"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d4 Nf6 5. Bc4 Bg4 6. f3 Bf5 7. Nge2 Nc6 8.
+Bd2 e5 9. Nd5 Nxd5 10. Bxa5 Ne3 11. Qc1 Nxc2+ 12. Kf2 Nxa5 13. Bb5+ c6 14. Qg5
+Nxd4 15. Nxd4 Bc5 16. Rad1 g6 17. Qf6 O-O 18. Qxe5 Bxd4+ 19. Rxd4 cxb5 20. Qxb5
+Nc6 21. Rd2 1-0
+
+[Event "Camp. España juv."]
+[Site "Balaguer"]
+[Date "1990.??.??"]
+[Round "?"]
+[White "Moreno, J."]
+[Black "Oliva"]
+[Result "1-0"]
+[ECO "C29"]
+[PlyCount "37"]
+[EventDate "1990.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nc3 Nf6 3. f4 d5 4. fxe5 Nxe4 5. Nf3 Be7 6. Qe2 Bh4+ 7. g3 Bxg3+ 8.
+hxg3 Nxg3 9. Qg2 Nxh1 10. Qxg7 Rf8 11. Bg2 Bf5 12. d3 Nf2 13. Kxf2 c6 14. Bg5
+Qb6+ 15. d4 Nd7 16. e6 Bxe6 17. Re1 Qb4 18. Bh3 Qd6 19. Bg4 1-0
+
+[Event "Badalona op"]
+[Site "Badalona"]
+[Date "1991.??.??"]
+[Round "?"]
+[White "Moreno, J."]
+[Black "Nils, E."]
+[Result "1-0"]
+[ECO "A04"]
+[PlyCount "17"]
+[EventDate "1991.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 f5 2. e4 e5 3. exf5 e4 4. Ne5 Nf6 5. Be2 Bc5 6. Bh5+ Ke7 7. d4 exd3 8.
+Bg5 Rf8 9. Nxd3 1-0

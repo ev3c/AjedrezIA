@@ -1,0 +1,458 @@
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2002.10.20"]
+[Round "3"]
+[White "Sanchez Bernardino, MA."]
+[Black "Belles Garcia, V."]
+[Result "1-0"]
+[ECO "B09"]
+[WhiteElo "2071"]
+[BlackElo "2155"]
+[PlyCount "90"]
+[EventDate "2002.??.??"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. f4 Bg7 5. Nf3 O-O 6. Bd3 c5 7. dxc5 dxc5 8. e5
+Nd5 9. Nxd5 Qxd5 10. Qe2 Nc6 11. Be4 Qd7 12. Be3 b6 13. Rd1 Qc7 14. Qb5 Bb7 15.
+c3 Rfd8 16. O-O e6 17. Nd2 f6 18. exf6 Bxf6 19. Qc4 Qf7 20. Bf3 Na5 21. Qa4
+Bxf3 22. Nxf3 Nb7 23. Rxd8+ Nxd8 24. Rd1 a6 25. Rd7 Qf8 26. Qe4 Rb8 27. Ne5 Qe8
+28. Ra7 Bxe5 29. Qxe5 Rb7 30. Rxa6 Qc6 31. b4 Qc8 32. bxc5 bxc5 33. Rd6 Rb1+
+34. Kf2 Rb2+ 35. Kg3 Qa8 36. Bf2 h5 37. Qf6 h4+ 38. Qxh4 Nf7 39. Rxe6 Rxf2 40.
+Rxg6+ Kf8 41. Kxf2 Qxa2+ 42. Kg3 Qe2 43. Qg4 Qd3+ 44. Kh4 Qxc3 45. Qc8+ Ke7 1-0
+
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2002.11.17"]
+[Round "7"]
+[White "Fernandez Alonso, MA."]
+[Black "Belles Garcia, V."]
+[Result "0-1"]
+[ECO "A45"]
+[WhiteElo "2210"]
+[BlackElo "2155"]
+[PlyCount "72"]
+[EventDate "2002.??.??"]
+
+1. d4 Nf6 2. Bg5 c6 3. Bxf6 exf6 4. Nf3 d5 5. Nbd2 Bd6 6. e3 O-O 7. Be2 Nd7 8.
+c4 f5 9. O-O Nf6 10. cxd5 cxd5 11. g3 Qe7 12. Bd3 Ne4 13. Qb3 Be6 14. Rac1 g5
+15. Nb1 g4 16. Nh4 f4 17. exf4 Bxf4 18. Bxe4 dxe4 19. d5 Bxc1 20. dxe6 Bg5 21.
+exf7+ Qxf7 22. Qd1 h5 23. Nc3 e3 24. fxe3 Bxe3+ 25. Kg2 Qxf1+ 26. Qxf1 Rxf1 27.
+Kxf1 Bd4 28. Ng6 Bxc3 29. bxc3 Kg7 30. Nf4 Rf8 31. Ke2 Rxf4 32. gxf4 Kf6 33.
+Ke3 Kf5 34. c4 b6 35. a4 h4 36. a5 h3 0-1
+
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2002.11.24"]
+[Round "8"]
+[White "Vives Toledo, R."]
+[Black "Belles Garcia, V."]
+[Result "0-1"]
+[ECO "E98"]
+[WhiteElo "2135"]
+[BlackElo "2155"]
+[PlyCount "88"]
+[EventDate "2002.??.??"]
+
+1. e4 g6 2. d4 Bg7 3. c4 d6 4. Nc3 Nf6 5. Nf3 O-O 6. Be2 Nc6 7. O-O e5 8. d5
+Ne7 9. Ne1 a6 10. Be3 c5 11. Qc2 Ng4 12. Bxg4 Bxg4 13. f3 Bd7 14. Nd3 b5 15. b3
+f5 16. cxb5 f4 17. Bf2 axb5 18. b4 c4 19. Nb2 Ra3 20. Nb1 Ra6 21. a4 Qa8 22.
+Na3 Rc8 23. Qc3 Qb7 24. Rfc1 Rca8 25. axb5 Bxb5 26. Nbxc4 Bxc4 27. Nxc4 Rxa1
+28. Rxa1 Rxa1+ 29. Qxa1 Qxb4 30. Nb6 g5 31. h3 Bf6 32. Qa8+ Kf7 33. Qa7 h5 34.
+Qd7 g4 35. hxg4 Qb1+ 36. Kh2 Qf1 37. Qe6+ Kg7 38. Nd7 Bg5 39. Bg1 h4 40. Qxd6
+h3 41. Qxe5+ Kg6 42. Qb2 Bh4 43. Ne5+ Kh7 44. Qd4 Qxg2# 0-1
+
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2003.10.12"]
+[Round "2"]
+[White "Perpinya Rofes, LM."]
+[Black "Belles Garcia, V."]
+[Result "1-0"]
+[ECO "B12"]
+[WhiteElo "2395"]
+[BlackElo "2155"]
+[PlyCount "102"]
+[EventDate "2003.??.??"]
+[EventRounds "9"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 c5 6. Be3 Nc6 7. O-O Bg4 8. c4
+Nge7 9. dxc5 d4 10. Nxd4 Bxe2 11. Nxe2 Qxd1 12. Rxd1 Nxe5 13. Na3 a6 14. b4 Nf5
+15. Bf4 Ng6 16. Bd6 O-O-O 17. Bxf8 Rhxf8 18. g4 Nfh4 19. f4 f5 20. g5 e5 21.
+Rd5 exf4 22. Kf2 f3 23. Nd4 Nf4 24. Rd6 Nd3+ 25. Kg3 Ng6 26. Kxf3 Nge5+ 27. Kg2
+Rxd6 28. cxd6 f4 29. Nf3 Nxf3 30. Kxf3 Re8 31. Nc2 Ne5+ 32. Kxf4 Nxc4 33. Rd1
+Kd7 34. Nd4 g6 35. b5 Rf8+ 36. Kg3 Nxd6 37. bxa6 bxa6 38. Nf3 Rf5 39. Rd4 Kc6
+40. Rh4 Kd5 41. Ra4 Ne4+ 42. Kg2 Nc5 43. Rd4+ Kc6 44. Rd8 Ne6 45. Rh8 Kc5 46.
+h4 Nf8 47. Rg8 Ne6 48. Re8 Nf4+ 49. Kg3 Nh5+ 50. Kf2 Rf7 51. Ke3 Ng7 1-0
+
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2003.10.19"]
+[Round "3"]
+[White "Salvat Duch, C."]
+[Black "Belles Garcia, V."]
+[Result "0-1"]
+[ECO "B12"]
+[WhiteElo "1990"]
+[BlackElo "2155"]
+[PlyCount "58"]
+[EventDate "2003.??.??"]
+[EventRounds "9"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. c4 e6 5. cxd5 Qxd5 6. Nc3 Bb4 7. a3 Qe4+ 8. Be3
+Bxc3+ 9. bxc3 Nd7 10. Ne2 Qc2 11. Qxc2 Bxc2 12. Ng3 Ne7 13. Be2 Nf5 14. Nxf5
+Bxf5 15. O-O O-O 16. f4 Nb6 17. g4 Be4 18. f5 Bd5 19. f6 g6 20. h4 Bc4 21. Rf2
+Bxe2 22. Rxe2 Rfd8 23. Rh2 Nc4 24. Bh6 c5 25. h5 cxd4 26. hxg6 fxg6 27. f7+
+Kxf7 28. Rf1+ Kg8 29. Rhf2 Ne3 0-1
+
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2003.10.26"]
+[Round "4"]
+[White "Belles Garcia, V."]
+[Black "Martinez Leon, F."]
+[Result "1-0"]
+[ECO "D02"]
+[WhiteElo "2155"]
+[BlackElo "2080"]
+[PlyCount "139"]
+[EventDate "2003.??.??"]
+[EventRounds "9"]
+
+1. Nf3 d5 2. d4 Nf6 3. Nbd2 g6 4. e3 Bg7 5. Bd3 O-O 6. O-O Nbd7 7. b4 a5 8. b5
+a4 9. c4 dxc4 10. Nxc4 c5 11. bxc6 bxc6 12. Ba3 Re8 13. Rb1 Nd5 14. Qc2 Qc7 15.
+Rfc1 Ba6 16. Nb2 Rec8 17. Bxa6 Rxa6 18. Nd3 e6 19. Qc4 Qa5 20. Rb7 N5b6 21. Qb4
+Qd5 22. Nc5 Bf8 23. Nxd7 Nxd7 24. Qb2 c5 25. Qb5 Rac6 26. Rxd7 Qxd7 27. Ne5 Qd5
+28. Nxc6 Rxc6 29. Qxa4 Kg7 30. dxc5 Rc8 31. Bb2+ e5 32. c6 Bd6 33. Rd1 Qc5 34.
+Rc1 Qb6 35. Qc2 Rc7 36. Rd1 Qa5 37. Qd2 Bb4 38. Bxe5+ Qxe5 39. Qxb4 Rxc6 40.
+Qd4 Qxd4 41. exd4 Kf6 42. d5 Rd6 43. f4 h5 44. Kf2 Ra6 45. Rd2 Ke7 46. Ke3 Kd6
+47. g3 f6 48. Kd4 Ra4+ 49. Kc3 h4 50. Kb3 Re4 51. Kc3 hxg3 52. hxg3 Ra4 53. Kb3
+Ra8 54. a4 Rb8+ 55. Kc4 Rc8+ 56. Kd4 Ra8 57. Ra2 Ra5 58. Kc4 Rc5+ 59. Kb4 Rxd5
+60. a5 Kc6 61. a6 Rd8 62. a7 Ra8 63. Ra6+ Kd5 64. Kb5 g5 65. fxg5 fxg5 66. Kb6
+Ke4 67. Kb7 Rg8 68. a8=Q Rxa8 69. Kxa8 Kf3 70. Ra3+ 1-0
+
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2003.11.02"]
+[Round "5"]
+[White "Pujol Codinach, E."]
+[Black "Belles Garcia, V."]
+[Result "1/2-1/2"]
+[ECO "D05"]
+[WhiteElo "2205"]
+[BlackElo "2155"]
+[PlyCount "61"]
+[EventDate "2003.??.??"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. Nf3 e6 3. e3 b6 4. Bd3 Bb7 5. O-O d5 6. b3 Bd6 7. Bb2 O-O 8. Nbd2
+Ne4 9. c4 f5 10. Ne5 Bxe5 11. dxe5 Nxd2 12. Qxd2 dxc4 13. bxc4 c5 14. Rfd1 Nc6
+15. Be2 Qxd2 16. Rxd2 Rfd8 17. Rxd8+ Rxd8 18. Bc3 g5 19. Rb1 g4 20. a4 Rd7 21.
+f3 h5 22. Kf2 Ba6 23. h3 gxh3 24. gxh3 Na5 25. Bxa5 bxa5 26. Rb2 h4 27. Rb8+
+Kg7 28. Rb2 Rb7 29. Rxb7+ Bxb7 30. f4 Be4 31. Bd1 1/2-1/2
+
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2003.11.09"]
+[Round "6"]
+[White "Belles Garcia, V."]
+[Black "Farran Martos, J."]
+[Result "1/2-1/2"]
+[ECO "E38"]
+[WhiteElo "2155"]
+[BlackElo "2140"]
+[PlyCount "85"]
+[EventDate "2003.??.??"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 c5 5. dxc5 Bxc5 6. Nf3 Nc6 7. a3 h6 8. g3
+d5 9. Bg2 dxc4 10. O-O O-O 11. Na4 Bd6 12. Qxc4 Qe7 13. b4 Bd7 14. Bb2 Rac8 15.
+Qb3 b5 16. Nc3 Ne5 17. Nd2 Nc4 18. Nxc4 Rxc4 19. Nd1 Bc6 20. Ne3 Bxg2 21. Kxg2
+Rc6 22. Rac1 Rfc8 23. Rxc6 Rxc6 24. Rd1 Qb7 25. Kg1 Be7 26. Rd3 Qc7 27. Qd1 a5
+28. Qd2 axb4 29. Bxf6 Bxf6 30. Qxb4 Rc1+ 31. Kg2 Qc6+ 32. f3 Ra1 33. Ng4 Qc1
+34. Nxf6+ gxf6 35. Rd8+ Kh7 36. Kh3 Qf1+ 37. Kh4 Qxe2 38. Rh8+ Kxh8 39. Qf8+
+Kh7 40. Qxf7+ Kh8 41. Qxf6+ Kh7 42. Qf7+ Kh8 43. Qf6+ 1/2-1/2
+
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2003.11.16"]
+[Round "7"]
+[White "Gonzalez Freixas, A."]
+[Black "Belles Garcia, V."]
+[Result "1-0"]
+[ECO "C11"]
+[WhiteElo "2250"]
+[BlackElo "2155"]
+[PlyCount "95"]
+[EventDate "2003.??.??"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. Nc3 d5 3. e4 e6 4. Bg5 dxe4 5. f3 e3 6. Bd3 Be7 7. Nge2 Nd5 8.
+Bxe7 Qxe7 9. Nxd5 exd5 10. O-O Nd7 11. Re1 O-O 12. Ng3 Re8 13. Nf5 Qf6 14. Nxe3
+Nf8 15. c3 c6 16. Re2 Bd7 17. Qb3 Re7 18. Rae1 Rae8 19. Qxb7 h5 20. Nd1 Rxe2
+21. Rxe2 Rxe2 22. Bxe2 g5 23. Qb8 Kg7 24. Nf2 Bf5 25. Nd3 Bxd3 26. Bxd3 Qe6 27.
+Kf2 a5 28. Qg3 Kh6 29. h4 f6 30. hxg5+ fxg5 31. Qe5 Qxe5 32. dxe5 Nd7 33. e6
+Nf6 34. b4 axb4 35. cxb4 Kg7 36. b5 cxb5 37. Bxb5 Kf8 38. a4 d4 39. a5 Nd5 40.
+a6 Ke7 41. a7 Nb6 42. Bd7 Kd6 43. Ke2 g4 44. fxg4 hxg4 45. Kd3 Kc7 46. Kxd4 g3
+47. Bb5 Kd6 48. Bc4 1-0
+
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2003.11.23"]
+[Round "8"]
+[White "Belles Garcia, V."]
+[Black "Farran Martos, FX."]
+[Result "0-1"]
+[ECO "A08"]
+[WhiteElo "2155"]
+[BlackElo "2195"]
+[PlyCount "110"]
+[EventDate "2003.??.??"]
+[EventRounds "9"]
+
+1. Nf3 Nf6 2. g3 c5 3. Bg2 d5 4. O-O Nc6 5. d3 e5 6. Nbd2 h6 7. e4 d4 8. h3 Be6
+9. Nc4 Nd7 10. a4 a6 11. Nh4 g5 12. Nf5 Qc7 13. c3 O-O-O 14. cxd4 cxd4 15. b3
+Bxc4 16. bxc4 a5 17. Ba3 Bxa3 18. Rxa3 Nc5 19. Bf3 Qb6 20. Qb1 Qxb1 21. Rxb1
+Nb4 22. Ne7+ Kd7 23. Nd5 Ncxd3 24. Rxd3 Nxd3 25. Rxb7+ Kd6 26. Bg4 h5 27. Bf5
+Rc8 28. Bxc8 Rxc8 29. Rxf7 Rxc4 30. Rf6+ Kc5 31. Nb6 Rc1+ 32. Kg2 Ne1+ 33. Kf1
+d3 34. Nd7+ Kb4 35. Rb6+ Ka3 36. Rd6 g4 37. hxg4 hxg4 38. f4 exf4 39. gxf4 Nf3+
+40. Kf2 d2 41. e5 d1=Q 42. Rxd1 Rxd1 43. e6 Rd2+ 44. Kg3 Re2 45. Kxg4 Nd4 46.
+f5 Nxe6 47. fxe6 Rxe6 48. Kf5 Re7 49. Nb6 Rb7 50. Nc4+ Kxa4 51. Ke5 Kb4 52. Nb2
+Rd7 53. Ke4 Rd2 54. Nd3+ Rxd3 55. Kxd3 Kb3 0-1
+
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2007.??.??"]
+[Round "1"]
+[White "Torres Serrano, N."]
+[Black "Belles Garcia, V."]
+[Result "0-1"]
+[ECO "A16"]
+[PlyCount "34"]
+[EventDate "2007.??.??"]
+
+1. c4 Nf6 2. Nc3 g6 3. g3 Bg7 4. Bg2 O-O 5. b3 c6 6. e4 d5 7. cxd5 cxd5 8. exd5
+e6 9. dxe6 Bxe6 10. Bxb7 Bd5 11. Nxd5 Nxd5 12. Rb1 Qe7+ 13. Qe2 Qxb7 14. Nf3
+Nd7 15. O-O Rfe8 16. Qd1 Ne5 17. d4 Nc3 0-1
+
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2007.??.??"]
+[Round "2"]
+[White "Belles Garcia, V."]
+[Black "Girona Masdeu, J."]
+[Result "1-0"]
+[ECO "B18"]
+[PlyCount "83"]
+[EventDate "2007.??.??"]
+
+1. e4 c6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. Nf3 Nd7 7. Bd3 Bxd3 8.
+Qxd3 e6 9. O-O Ngf6 10. Re1 Be7 11. Bg5 O-O 12. Rad1 Re8 13. Ne5 Qc7 14. Nxd7
+Qxd7 15. Bxf6 Bxf6 16. Nh5 Qe7 17. Qb3 Rab8 18. d5 cxd5 19. Rxd5 Red8 20. Rxd8+
+Qxd8 21. Qg3 Rc8 22. c3 g6 23. Nxf6+ Qxf6 24. Qe5 Qxe5 25. Rxe5 Kf8 26. Kf1 Ke7
+27. Rb5 Rc7 28. Ke2 Rd7 29. a4 h5 30. Ra5 a6 31. Rc5 Kd6 32. b4 Ke7 33. f4 Kd8
+34. a5 Rd6 35. c4 Kd7 36. b5 axb5 37. cxb5 Kd8 38. b6 Rd7 39. Ke3 Ke7 40. Rc8
+Rd8 41. Rc7+ Rd7 42. a6 1-0
+
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2007.??.??"]
+[Round "3"]
+[White "Farran Martos, FX."]
+[Black "Belles Garcia, V."]
+[Result "1-0"]
+[ECO "B10"]
+[PlyCount "97"]
+[EventDate "2007.??.??"]
+
+1. e4 c6 2. Nc3 d5 3. Nf3 dxe4 4. Nxe4 Nf6 5. Ng3 Bg4 6. Bc4 Nbd7 7. O-O Bxf3
+8. Qxf3 Ne5 9. Qe2 Nxc4 10. Qxc4 e6 11. Re1 Qd5 12. Qe2 Bd6 13. c4 Qa5 14. d4
+Bxg3 15. hxg3 O-O 16. Bd2 Qh5 17. Qxh5 Nxh5 18. b4 b5 19. cxb5 cxb5 20. Re5 Nf6
+21. Rxb5 Rfd8 22. Be3 Rd7 23. Rc1 h6 24. Rbc5 Nd5 25. Rc8+ Rxc8 26. Rxc8+ Kh7
+27. a3 Kg6 28. Kf1 Rc7 29. Rxc7 Nxc7 30. d5 exd5 31. a4 a6 32. Ke2 Kf6 33. Bd4+
+Ke6 34. Bxg7 h5 35. Kd3 Kd6 36. Bf6 Ne6 37. f4 Nf8 38. Be5+ Kc6 39. f5 Nh7 40.
+Kd4 Ng5 41. b5+ axb5 42. axb5+ Kxb5 43. Kxd5 Kb4 44. Bf4 Nh7 45. Kd6 Nf6 46.
+Ke7 Nd5+ 47. Kxf7 h4 48. Ke6 Kc4 49. f6 1-0
+
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2008.04.19"]
+[Round "1.7"]
+[White "Ribe Rosell, J."]
+[Black "Belles Garcia, V."]
+[Result "0-1"]
+[ECO "D02"]
+[WhiteElo "1966"]
+[BlackElo "2233"]
+[PlyCount "76"]
+[EventDate "2008.??.??"]
+
+1. d4 Nf6 2. Nf3 d5 3. g3 c5 4. c3 Nc6 5. Bg2 Bf5 6. Ne5 cxd4 7. Nxc6 bxc6 8.
+cxd4 e6 9. O-O Bd6 10. a3 O-O 11. Nc3 c5 12. e3 cxd4 13. exd4 Qb6 14. b4 a5 15.
+b5 Rfc8 16. Qd2 a4 17. Bb2 Ne8 18. Rfc1 Rc4 19. Rd1 Bg4 20. Bf1 Bxd1 21. Bxc4
+dxc4 22. Rxd1 Nc7 23. Qg5 h6 24. Qh5 Bf8 25. d5 exd5 26. Nxd5 Qxb5 27. Qe5 Nxd5
+28. Rxd5 Qb3 29. Rb5 Qd3 30. Rb6 Rc8 31. Bc3 Rc5 32. Qe1 Rd5 33. Rb1 Rd8 34.
+Rb6 Qf3 35. Rb1 Bxa3 36. Qe5 Bf8 37. Re1 a3 38. Re3 Rd1+ 0-1
+
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2008.04.26"]
+[Round "2.6"]
+[White "Belles Garcia, V."]
+[Black "Beltran Reverter, JM."]
+[Result "1-0"]
+[ECO "B07"]
+[WhiteElo "2233"]
+[BlackElo "2007"]
+[PlyCount "63"]
+[EventDate "2008.??.??"]
+
+1. e4 d6 2. f4 g6 3. Nf3 Nf6 4. e5 Ng4 5. h3 Nh6 6. Bc4 d5 7. Bb3 Nf5 8. g4 Ng3
+9. Rg1 Ne4 10. Nc3 e6 11. Qe2 Bc5 12. Rg2 Nc6 13. Nxe4 dxe4 14. Qxe4 Nd4 15.
+Nxd4 Bxd4 16. g5 a5 17. c3 Ba7 18. d4 h6 19. h4 c6 20. Be3 Bd7 21. h5 gxh5 22.
+g6 Qh4+ 23. Bf2 Qh1+ 24. Kd2 Qxa1 25. Bh4 Qxb2+ 26. Bc2 c5 27. gxf7+ Kf8 28.
+Rg8+ Rxg8 29. fxg8=Q+ Kxg8 30. Qh7+ Kf8 31. Qe7+ Kg8 32. Bf6 1-0
+
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2008.05.03"]
+[Round "3.5"]
+[White "Luke Brezmes, C."]
+[Black "Belles Garcia, V."]
+[Result "1-0"]
+[ECO "B16"]
+[WhiteElo "1985"]
+[BlackElo "2071"]
+[PlyCount "69"]
+[EventDate "2008.??.??"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Nxf6+ gxf6 6. c3 Bf5 7. Ne2 Nd7 8.
+Ng3 Bg6 9. h4 h5 10. Be2 Qa5 11. b4 Qd5 12. O-O O-O-O 13. Be3 Nb6 14. a4 Nc4
+15. b5 Nxe3 16. fxe3 Bh6 17. Bf3 Bxe3+ 18. Kh1 Qd6 19. Qe1 Bd2 20. Qxd2 Qxg3
+21. bxc6 Qxh4+ 22. Kg1 Be4 23. cxb7+ Kb8 24. Bxe4 Qxe4 25. Rae1 Qc6 26. Rxe7
+Rhg8 27. Rxf7 Rg6 28. Rf2 Qe6 29. Qf4+ Rd6 30. Rb2 Rg8 31. c4 Rgd8 32. Rh7 h4
+33. Rxh4 Qe1+ 34. Kh2 Qe6 35. c5 1-0
+
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2008.05.10"]
+[Round "4.7"]
+[White "Belles Garcia, V."]
+[Black "Palomo Teruel, X."]
+[Result "1-0"]
+[ECO "A20"]
+[WhiteElo "2133"]
+[BlackElo "1918"]
+[PlyCount "115"]
+[EventDate "2008.??.??"]
+
+1. c4 e5 2. g3 f5 3. Bg2 Nf6 4. e3 Be7 5. Ne2 c6 6. d4 d6 7. O-O O-O 8. Nbc3
+Qe8 9. c5 d5 10. dxe5 Ne4 11. Na4 Nd7 12. f4 Ndxc5 13. b4 Nxa4 14. Qxa4 Bd7 15.
+Qb3 Qf7 16. Rd1 b6 17. Bb2 Be6 18. Nd4 Rac8 19. Rac1 Bd7 20. Qa4 b5 21. Qb3 Bd8
+22. Rc2 Bb6 23. Rdc1 Bxd4 24. Bxd4 Ra8 25. Qa3 Rfe8 26. Qa6 Re6 27. Qb7 Qe8 28.
+Bxa7 Re7 29. Bd4 Rb8 30. Qc7 Rc8 31. Qa5 Ra8 32. Qb6 Rb8 33. Qa6 Ra8 34. Qb6
+Rb8 35. e6 Rxb6 36. exd7 Qxd7 37. Bxb6 Re6 38. a4 bxa4 39. b5 cxb5 40. Rc8+ Re8
+41. R8c7 Qd6 42. R1c6 Qb4 43. Bxe4 Qxe4 44. Bd4 Re7 45. Rxe7 Qxe7 46. Be5 g6
+47. Rc8+ Kf7 48. Rc7 Qxc7 49. Bxc7 b4 50. Bd6 b3 51. Ba3 Ke6 52. Kf2 d4 53.
+exd4 Kd5 54. Ke3 Kc4 55. h3 h6 56. g4 h5 57. gxf5 gxf5 58. h4 1-0
+
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2008.05.17"]
+[Round "5.6"]
+[White "Burillo Rodriguez, C."]
+[Black "Belles Garcia, V."]
+[Result "0-1"]
+[ECO "A70"]
+[WhiteElo "2147"]
+[BlackElo "2233"]
+[PlyCount "106"]
+[EventDate "2008.??.??"]
+
+1. d4 c5 2. d5 Nf6 3. c4 e6 4. Nc3 exd5 5. cxd5 d6 6. e4 g6 7. Bd3 Bg7 8. Nf3
+O-O 9. O-O a6 10. a4 Nbd7 11. a5 Re8 12. Bf4 Qc7 13. Qa4 Nh5 14. Bd2 Re7 15.
+Rfe1 Ne5 16. Nxe5 Bxe5 17. g3 Bh3 18. f4 Bd4+ 19. Be3 Bg7 20. Bf2 Nf6 21. Be2
+Rae8 22. Bf3 Ng4 23. Bxg4 Bxg4 24. e5 Bf5 25. exd6 Rxe1+ 26. Bxe1 Qc8 27. Bf2
+Bf8 28. Re1 Rxe1+ 29. Bxe1 Bxd6 30. Ne4 Bxe4 31. Qxe4 Qd7 32. Bc3 Qe7 33. Qxe7
+Bxe7 34. Kf2 Kf8 35. Kf3 f5 36. h3 Ke8 37. g4 Kd7 38. gxf5 gxf5 39. Be5 Bd8 40.
+Kg3 h5 41. b3 h4+ 42. Kf3 Bxa5 43. Ke3 b5 44. Kd3 Bc7 45. Bf6 Bxf4 46. Bxh4 Kd6
+47. Bd8 Kxd5 48. h4 c4+ 49. bxc4+ bxc4+ 50. Ke2 Ke4 51. Ba5 Bh6 52. h5 f4 53.
+Bc3 f3+ 0-1
+
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2008.05.24"]
+[Round "6.4"]
+[White "Belles Garcia, V."]
+[Black "Khaidorov, V."]
+[Result "0-1"]
+[ECO "D12"]
+[WhiteElo "2233"]
+[BlackElo "2201"]
+[PlyCount "54"]
+[EventDate "2008.??.??"]
+
+1. Nf3 d5 2. c4 c6 3. d4 Nf6 4. e3 Bf5 5. Nc3 e6 6. Bd3 Bxd3 7. Qxd3 Nbd7 8.
+O-O Be7 9. Bd2 O-O 10. Rfd1 Qc7 11. Rac1 Rad8 12. Be1 Rfe8 13. Nd2 dxc4 14.
+Qxc4 e5 15. Nf3 h6 16. d5 Nb6 17. Qb3 e4 18. Nd2 Bd6 19. g3 Qd7 20. dxc6 bxc6
+21. Kg2 Re5 22. Nf1 Rh5 23. Ne2 Qh3+ 24. Kg1 Nbd5 25. Rxc6 Ng4 26. Rxd5 Nxh2
+27. Rxh5 Nf3# 0-1
+
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2008.05.31"]
+[Round "7.5"]
+[White "Pescador Serrano, J."]
+[Black "Belles Garcia, V."]
+[Result "0-1"]
+[ECO "E21"]
+[WhiteElo "2012"]
+[BlackElo "2233"]
+[PlyCount "44"]
+[EventDate "2008.??.??"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 b6 5. a3 Bxc3+ 6. Qxc3 Bb7 7. Nf3 c5 8. e3
+O-O 9. Be2 Nc6 10. b3 Rc8 11. Bb2 cxd4 12. exd4 d5 13. O-O Ne4 14. Qe3 Ne7 15.
+Rfd1 Nf5 16. Qf4 Qf6 17. Ne5 Nxd4 18. Qe3 Nc2 19. Qd3 Qxf2+ 20. Kh1 dxc4 21.
+Nxc4 Nxa1 22. Bf3 Qxb2 0-1
+
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2008.06.07"]
+[Round "8.4"]
+[White "Valls Marti, A."]
+[Black "Belles Garcia, V."]
+[Result "0-1"]
+[ECO "A03"]
+[WhiteElo "2133"]
+[BlackElo "2071"]
+[PlyCount "92"]
+[EventDate "2008.??.??"]
+
+1. f4 d5 2. Nf3 Nf6 3. e3 Bg4 4. h3 Bxf3 5. Qxf3 Nbd7 6. c4 e5 7. cxd5 e4 8.
+Qf2 Nxd5 9. Nc3 Nb4 10. Kd1 Nc5 11. g4 Qd7 12. Qg2 O-O-O 13. Nxe4 Nbd3 14. Nc3
+Be7 15. g5 h6 16. Bxd3 Nxd3 17. g6 fxg6 18. Rh2 g5 19. fxg5 Rhf8 20. Ne4 Bd6
+21. Rh1 Qa4+ 22. Ke2 Qb5 23. Kd1 Be5 24. a4 Qb3+ 25. Ke2 Qc4 26. Kd1 Qxe4 27.
+Qxe4 Nf2+ 28. Ke2 Nxe4 29. Rg1 Rf2+ 30. Ke1 hxg5 31. Rxg5 Nxg5 32. Kxf2 Bxb2
+33. Bxb2 Rxd2+ 34. Kg3 Rxb2 35. h4 Ne6 36. Kg4 Rb4+ 37. Kf5 Rxh4 38. Kxe6 Re4+
+39. Kf7 Rxe3 40. Kxg7 c5 41. Kf6 Kc7 42. Kf5 Kc6 43. Kf4 Re7 44. Rb1 b6 45. Kf3
+a6 46. Rb2 b5 0-1
+
+[Event "Vila de L'Ampolla op"]
+[Site "?"]
+[Date "2008.06.08"]
+[Round "4.5"]
+[White "Belles Garcia, V."]
+[Black "Pogorelov, R."]
+[Result "0-1"]
+[ECO "A17"]
+[WhiteElo "2133"]
+[BlackElo "2423"]
+[PlyCount "68"]
+[EventDate "2008.??.??"]
+[EventType "rapid"]
+
+1. c4 Nf6 2. Nc3 e6 3. Nf3 Bb4 4. g3 O-O 5. Bg2 d5 6. O-O dxc4 7. e3 Nc6 8. Qe2
+Qd3 9. Qxd3 cxd3 10. a3 Bxc3 11. dxc3 e5 12. b4 e4 13. Nd4 Ne5 14. f3 exf3 15.
+Nxf3 Nxf3+ 16. Bxf3 Bh3 17. Rd1 Rad8 18. Bxb7 Bg4 19. Rd2 Bf5 20. c4 Be4 21.
+Bxe4 Nxe4 22. Rd1 d2 23. Bb2 Rd3 24. Bd4 a6 25. b5 Ra8 26. a4 axb5 27. cxb5 Rb3
+28. Kf1 Rb4 29. a5 Rxb5 30. a6 c5 31. Be5 f6 32. Bc7 Ra7 33. Ba5 Rxa6 34. Ke2
+Raxa5 0-1

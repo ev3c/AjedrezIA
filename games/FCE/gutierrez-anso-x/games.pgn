@@ -1,0 +1,104 @@
+[Event "Obert Barcelona A"]
+[Site "?"]
+[Date "2003.10.03"]
+[Round "1"]
+[White "Vives Cabau, J."]
+[Black "Gutierrez Anso, X."]
+[Result "1-0"]
+[ECO "A03"]
+[PlyCount "68"]
+[EventDate "2003.??.??"]
+
+1. f4 d5 2. b3 Nc6 3. e3 h5 4. Bb5 e5 5. fxe5 Qg5 6. Qf3 Qxe5 7. Nc3 Nf6 8. Bb2
+Bg4 9. Qf1 d4 10. Bxc6+ bxc6 11. Nf3 Bxf3 12. Qxf3 O-O-O 13. Ne2 c5 14. Qa8+
+Kd7 15. Qxa7 Qe4 16. Qa4+ Kc8 17. O-O-O dxe3 18. Qa6+ Kb8 19. dxe3 Qxe3+ 20.
+Kb1 Be7 21. Nc3 Rxd1+ 22. Rxd1 Rd8 23. Rxd8+ Bxd8 24. Nb5 Qe1+ 25. Bc1 Ne4 26.
+a4 c4 27. Qa7+ Kc8 28. Qa8+ Kd7 29. Qd5+ Ke8 30. a5 cxb3 31. cxb3 Bg5 32. Qc6+
+Kf8 33. a6 Bxc1 34. Qxc1 Qa5 1-0
+
+[Event "Obert Barcelona A"]
+[Site "?"]
+[Date "2003.10.10"]
+[Round "2"]
+[White "Gutierrez Anso, X."]
+[Black "Walter Travella, G."]
+[Result "1-0"]
+[ECO "D01"]
+[PlyCount "53"]
+[EventDate "2003.??.??"]
+
+1. d4 Nf6 2. Nc3 d5 3. Bg5 Bf5 4. Bxf6 exf6 5. e3 Bb4 6. Nge2 c6 7. a3 Bd6 8.
+Ng3 Bg6 9. Bd3 Bxd3 10. Qxd3 g6 11. Nce2 f5 12. h4 h5 13. Nf1 Nd7 14. Nd2 Nb6
+15. c4 Be7 16. c5 Nd7 17. Nf3 f6 18. Nf4 Kf7 19. O-O-O b6 20. g4 hxg4 21. h5
+Nf8 22. hxg6+ Nxg6 23. Ng5+ fxg5 24. Qxf5+ Bf6 25. Nxg6 Rh3 26. Ne5+ Ke8 27.
+Qg6+ 1-0
+
+[Event "Obert Barcelona A"]
+[Site "?"]
+[Date "2003.10.17"]
+[Round "3"]
+[White "Fernandez Madrid, C."]
+[Black "Gutierrez Anso, X."]
+[Result "0-1"]
+[ECO "A15"]
+[PlyCount "100"]
+[EventDate "2003.??.??"]
+
+1. c4 Nf6 2. Nf3 d5 3. b3 Nc6 4. cxd5 Nxd5 5. Bb2 Bg4 6. Nc3 e5 7. h3 Bh5 8. g4
+Bg6 9. Bg2 Nf4 10. Kf1 Nxg2 11. Kxg2 e4 12. Ne1 h5 13. f3 hxg4 14. Nxe4 Bxe4
+15. fxe4 Qh4 16. e3 O-O-O 17. d3 gxh3+ 18. Kf1 Bb4 19. Nf3 Qh6 20. Qe2 f6 21.
+Rc1 g5 22. Nh2 Qg6 23. a3 Bd6 24. Qg4+ Kb8 25. Nf3 Qh5 26. Qxh5 Rxh5 27. Ng1 g4
+28. Ke2 h2 29. Bxf6 hxg1=N+ 30. Rcxg1 Rxh1 31. Rxh1 Rg8 32. b4 Be5 33. Bh4 Bb2
+34. b5 Ne5 35. Bg3 Nf3 36. d4 Bxa3 37. Rh7 Bd6 38. e5 Ng5 39. Rh6 Bf8 40. Rf6
+Ne4 41. Bh4 Nxf6 42. exf6 g3 43. Kf1 g2+ 44. Kg1 Bd6 45. Bf2 Bg3 46. Bxg3 Rxg3
+47. e4 Kc8 48. e5 Kd7 49. d5 Rd3 50. e6+ Kc8 0-1
+
+[Event "Obert Barcelona A"]
+[Site "?"]
+[Date "2003.10.24"]
+[Round "4"]
+[White "Gutierrez Anso, X."]
+[Black "Morcillo Ferran, J."]
+[Result "1/2-1/2"]
+[ECO "D01"]
+[PlyCount "31"]
+[EventDate "2003.??.??"]
+
+1. d4 Nf6 2. Nc3 d5 3. Bg5 Bf5 4. Bxf6 exf6 5. e3 c6 6. Nge2 Bd6 7. Ng3 Bg6 8.
+Bd3 Qe7 9. Nf5 Bxf5 10. Bxf5 g6 11. Bd3 f5 12. Qf3 Nd7 13. Ne2 Nf6 14. h4 h5
+15. Nf4 Ng4 16. g3 1/2-1/2
+
+[Event "Obert Barcelona A"]
+[Site "?"]
+[Date "2003.11.07"]
+[Round "5"]
+[White "Cortes Ventura, J."]
+[Black "Gutierrez Anso, X."]
+[Result "0-1"]
+[ECO "D23"]
+[PlyCount "32"]
+[EventDate "2003.??.??"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 dxc4 4. a4 c5 5. Nc3 cxd4 6. Qxd4 Qxd4 7. Nxd4 e5 8.
+Ndb5 Na6 9. Bg5 Bb4 10. O-O-O Bxc3 11. Nd6+ Ke7 12. bxc3 Be6 13. e3 Nc5 14. f4
+exf4 15. exf4 Rhd8 16. Bxc4 Rxd6 0-1
+
+[Event "Obert Barcelona A"]
+[Site "?"]
+[Date "2003.11.14"]
+[Round "6"]
+[White "Gutierrez Anso, X."]
+[Black "Muñoz Pantoja, M."]
+[Result "0-1"]
+[ECO "A43"]
+[PlyCount "103"]
+[EventDate "2003.??.??"]
+
+1. d4 c5 2. dxc5 e6 3. Nc3 Nf6 4. e4 Nc6 5. Be3 Qa5 6. Bd3 Bxc5 7. Bxc5 Qxc5 8.
+Nf3 O-O 9. O-O d6 10. Qd2 a6 11. Qg5 e5 12. Rad1 Be6 13. Rfe1 Rad8 14. Qh4 h6
+15. h3 Ne7 16. g4 Ng6 17. Qg3 Nf4 18. Ne2 g5 19. Qh2 b5 20. Nxf4 gxf4 21. g5
+Nh7 22. gxh6 Kh8 23. Kh1 Qc8 24. Rg1 Rg8 25. Rg7 Rxg7 26. hxg7+ Kxg7 27. Rg1+
+Kh8 28. Qg2 Rg8 29. Qxg8+ Qxg8 30. Rxg8+ Kxg8 31. a4 bxa4 32. Bxa6 f5 33. Nd2
+fxe4 34. Nxe4 Bd5 35. f3 Bxe4 36. fxe4 Ng5 37. Kg2 Nxe4 38. Bb5 Nc5 39. b4 axb3
+40. cxb3 Kf8 41. Bc4 Ne4 42. Bd5 Nf6 43. Bc6 Ke7 44. Kf3 d5 45. b4 Kd6 46. Ba8
+Kc7 47. b5 Kb6 48. Bc6 Kc5 49. h4 Kb6 50. Kf2 e4 51. h5 Kc5 52. h6 0-1

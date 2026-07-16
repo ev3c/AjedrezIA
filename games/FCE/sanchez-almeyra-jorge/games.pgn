@@ -1,0 +1,141 @@
+[Event "Badalona op"]
+[Site "Badalona"]
+[Date "1989.??.??"]
+[Round "?"]
+[White "Sanchez Almeyra, Jorge"]
+[Black "Fernandez Aguado, Enric"]
+[Result "1-0"]
+[ECO "B90"]
+[PlyCount "89"]
+[EventDate "1989.08.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nf3 Be7 8. Bc4
+O-O 9. Bg5 Be6 10. Bb3 Nbd7 11. Qe2 Rc8 12. O-O h6 13. Bxf6 Nxf6 14. Rfd1 Qc7
+15. Nh4 Rfd8 16. Nf5 Bxf5 17. exf5 Qd7 18. Qf3 Rc5 19. Nd5 e4 20. Qf4 Re8 21.
+Nxe7+ Qxe7 22. Qxd6 e3 23. Qxe7 exf2+ 24. Kxf2 Rxf5+ 25. Kg1 Rxe7 26. Rd8+ Kh7
+27. Rf1 Rxf1+ 28. Kxf1 g5 29. Bc4 Kg7 30. Be2 h5 31. Rd4 h4 32. Bf3 Kg6 33. Rb4
+b5 34. a4 Re5 35. axb5 Rxb5 36. Rxb5 axb5 37. Ke2 Kf5 38. Bc6 b4 39. Kd3 h3 40.
+gxh3 Ke5 41. Kc4 Ne4 42. Kxb4 f5 43. Kc4 Nd2+ 44. Kd3 Nf1 45. Ke2 1-0
+
+[Event "Olot op"]
+[Site "Olot"]
+[Date "1989.??.??"]
+[Round "8"]
+[White "Sanchez Almeyra, Jorge"]
+[Black "Sorin, Ariel"]
+[Result "1-0"]
+[ECO "B13"]
+[PlyCount "95"]
+[EventDate "1989.08.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Bd3 Nc6 5. c3 Nf6 6. Bf4 Bg4 7. Qb3 Qc8 8.
+Nd2 Bh5 9. Ngf3 Bg6 10. Bxg6 hxg6 11. O-O e6 12. Rfe1 Be7 13. Bg5 Nd7 14. c4
+Na5 15. Qa4 Nxc4 16. Bxe7 Nxd2 17. Nxd2 Kxe7 18. Qb4+ Kf6 19. Rac1 Qb8 20. Nf3
+g5 21. Rc3 Rc8 22. h4 g6 23. hxg5+ Kg7 24. Rec1 Rxc3 25. Qxc3 Qd8 26. Qc7 b6
+27. Qxd8 Rxd8 28. Rc7 a5 29. Kf1 Kf8 30. Ke2 Ke8 31. Ke3 Rb8 32. Kf4 Kd8 33.
+Rc1 Rc8 34. Rxc8+ Kxc8 35. Ne5 Nxe5 36. Kxe5 Kd7 37. Kf6 Ke8 38. a4 Kf8 39. f3
+Ke8 40. g3 Kf8 41. f4 Ke8 42. g4 Kf8 43. f5 exf5 44. gxf5 gxf5 45. Kxf5 Kg7 46.
+Ke5 Kg6 47. Kxd5 Kxg5 48. Kc6 1-0
+
+[Event "El Vendrell op"]
+[Site "El Vendrell"]
+[Date "1990.09.??"]
+[Round "?"]
+[White "Sanchez Almeyra, Jorge"]
+[Black "Hector, Johnny"]
+[Result "1-0"]
+[ECO "C35"]
+[WhiteElo "2380"]
+[BlackElo "2465"]
+[PlyCount "55"]
+[EventDate "1990.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. f4 exf4 3. Nf3 Be7 4. Bc4 Bh4+ 5. Kf1 d5 6. Bxd5 Nf6 7. Nxh4 Nxd5
+8. exd5 Qxh4 9. Qe2+ Kd8 10. d3 Re8 11. Qf2 Qh5 12. Nc3 g5 13. Bd2 Nd7 14. Re1
+Ne5 15. Qd4 f6 16. d6 Bd7 17. dxc7+ Kc8 18. h3 Bc6 19. Nd5 Bxd5 20. Qxd5 Kxc7
+21. Qc5+ Kd8 22. Qd6+ Nd7 23. Bc3 Rxe1+ 24. Kxe1 f3 25. Kf2 fxg2 26. Re1 g4 27.
+Bxf6+ Kc8 28. Re5 1-0
+
+[Event "El Vendrell op"]
+[Site "El Vendrell"]
+[Date "1990.??.??"]
+[Round "?"]
+[White "Sanchez Almeyra, Jorge"]
+[Black "Marin, Mihail"]
+[Result "1-0"]
+[ECO "C80"]
+[WhiteElo "2380"]
+[BlackElo "2480"]
+[PlyCount "55"]
+[EventDate "1990.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Nxe4 6. d4 b5 7. Bb3 d5 8. dxe5
+Be6 9. Be3 Nc5 10. Nc3 Nxb3 11. cxb3 Be7 12. Rc1 Qd7 13. Qd2 O-O 14. Rfd1 Rad8
+15. Bg5 f6 16. exf6 Bxf6 17. Bxf6 Rxf6 18. Nd4 Nxd4 19. Qxd4 c5 20. Qxc5 d4 21.
+Ne4 Rf5 22. Qb6 Re5 23. Rc7 Qe8 24. f3 d3 25. Nd6 Rxd6 26. Qxd6 Bxb3 27. Rxd3
+Bc4 28. Qxe5 1-0
+
+[Event "El Vendrell op"]
+[Site "El Vendrell"]
+[Date "1990.??.??"]
+[Round "6"]
+[White "Sorin, Ariel"]
+[Black "Sanchez Almeyra, Jorge"]
+[Result "0-1"]
+[ECO "D91"]
+[WhiteElo "2335"]
+[BlackElo "2380"]
+[PlyCount "130"]
+[EventDate "1990.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Bg5 Ne4 5. Bh4 c5 6. cxd5 Nxc3 7. bxc3 Qxd5 8.
+e3 Bg7 9. Nf3 Nc6 10. Be2 O-O 11. O-O cxd4 12. cxd4 e5 13. dxe5 Qa5 14. Bf6
+Bxf6 15. exf6 Qf5 16. Nd4 Qxf6 17. Nxc6 Qxc6 18. Rc1 Qb6 19. Qa4 Rd8 20. Rb1
+Qf6 21. Qa3 Be6 22. Bf3 Rd2 23. Rb6 Rc8 24. Qxa7 Rcc2 25. Qb8+ Kg7 26. Rd6 Rxd6
+27. Qxd6 b5 28. Bd5 Rd2 29. e4 Bxd5 30. Qxf6+ Kxf6 31. exd5 Rxa2 32. Rd1 Ke7
+33. d6+ Kd7 34. g3 Ra6 35. Rb1 Rb6 36. Kf1 b4 37. Ke2 Kxd6 38. Kd3 Kd5 39. Rb3
+f5 40. Kc2 g5 41. Rf3 Rc6+ 42. Kb2 Ke5 43. Re3+ Kd4 44. Rf3 Rc5 45. Rb3 Kc4 46.
+Re3 Rd5 47. Kc2 h5 48. Re8 b3+ 49. Kc1 Ra5 50. Rc8+ Kd3 51. Kb2 Ra2+ 52. Kxb3
+Rxf2 53. Rg8 g4 54. Rg5 Rxh2 55. Rxf5 Rh3 56. Kb2 Ke4 57. Rf4+ Ke5 58. Ra4 Rxg3
+59. Ra5+ Kf4 60. Rxh5 Rd3 61. Kc2 Rd8 62. Rh7 g3 63. Rf7+ Ke3 64. Re7+ Kf2 65.
+Rf7+ Kg1 0-1
+
+[Event "Olot op"]
+[Site "Olot"]
+[Date "1991.??.??"]
+[Round "8"]
+[White "Cuadras Avellana, Jordi"]
+[Black "Sanchez Almeyra, Jorge"]
+[Result "1-0"]
+[ECO "A16"]
+[PlyCount "75"]
+[EventDate "1991.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 Nf6 2. Nc3 d5 3. cxd5 Nxd5 4. g3 g6 5. Bg2 Nb6 6. Nf3 Bg7 7. O-O O-O 8.
+d3 Nc6 9. Bd2 e5 10. Ne4 Re8 11. Rc1 a5 12. Nc5 h6 13. Nh4 Qd6 14. a3 Nd7 15.
+Ne4 Qe7 16. Be3 Nf6 17. Nc5 g5 18. Nf3 Rb8 19. Qa4 Nd5 20. Nd2 Nxe3 21. fxe3 b5
+22. Qb3 a4 23. Qd5 Nd8 24. Be4 Rb6 25. Bf5 Ne6 26. Bxe6 fxe6 27. Qe4 Rd6 28.
+Qg6 Rdd8 29. Nde4 Rf8 30. g4 Rf7 31. h4 gxh4 32. g5 hxg5 33. Nxg5 Rf5 34. Qh7+
+Kf8 35. Ncxe6+ Bxe6 36. Rxf5+ Bxf5 37. Qxf5+ Ke8 38. Qg6+ 1-0

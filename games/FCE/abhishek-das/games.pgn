@@ -1,0 +1,664 @@
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.04"]
+[Round "1"]
+[White "Abhishek, Das"]
+[Black "Diaz Rubi, Felipe"]
+[Result "1-0"]
+[ECO "B91"]
+[WhiteElo "2274"]
+[BlackElo "1962"]
+[PlyCount "89"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. a4 Nbd7 7. g3 e5 8. Nb3
+b6 9. Bg2 Bb7 10. O-O Be7 11. Re1 O-O 12. Bg5 Re8 13. Nd2 Qc7 14. Nf1 h6 15.
+Bxf6 Nxf6 16. Ne3 Rad8 17. Qd3 Bf8 18. Rad1 Qc8 19. Qc4 Qa8 20. Ned5 Bxd5 21.
+Nxd5 Nxd5 22. Rxd5 Rc8 23. Qb3 Rc5 24. Red1 Rec8 25. c3 R8c7 26. Bf1 Rb7 27.
+Rxc5 bxc5 28. Qc2 Rb6 29. f3 a5 30. Bc4 Qa7 31. Bd5 g6 32. Kh1 Kg7 33. b3 Qe7
+34. Qe2 Kh7 35. Rf1 Bg7 36. Qc4 Kg8 37. Rb1 Qf6 38. Kg2 Qe7 39. b4 cxb4 40.
+cxb4 Rxb4 41. Rxb4 axb4 42. a5 Bf6 43. a6 Qa7 44. Qc8+ Kg7 45. Qb7 1-0
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.05"]
+[Round "2"]
+[White "Cori Tello, Deysi Estella"]
+[Black "Abhishek, Das"]
+[Result "1/2-1/2"]
+[ECO "D34"]
+[WhiteElo "2413"]
+[BlackElo "2274"]
+[PlyCount "138"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c5 4. cxd5 exd5 5. Nf3 Nc6 6. g3 Nf6 7. Bg2 Be7 8. O-O
+O-O 9. dxc5 Bxc5 10. Bg5 d4 11. Bxf6 Qxf6 12. Ne4 Qe7 13. Nxc5 Qxc5 14. Rc1 Qb6
+15. Qd2 Be6 16. Ng5 Bf5 17. Ne4 Rad8 18. Nc5 Bc8 19. a3 Rfe8 20. b4 a5 21. bxa5
+Qxa5 22. Qb2 Qa7 23. Rfd1 h6 24. Bxc6 bxc6 25. Rxd4 Rxd4 26. Qxd4 Bh3 27. Ne6
+Qxd4 28. Nxd4 Ra8 29. Rxc6 Rxa3 30. f3 Ra1+ 31. Kf2 h5 32. Rc5 g6 33. f4 Rf1+
+34. Ke3 Rh1 35. f5 Bxf5 36. Nxf5 gxf5 37. h4 Rf1 38. Rc4 Kg7 39. Rf4 Rg1 40.
+Kf2 Ra1 41. Rxf5 Kg6 42. Rg5+ Kh6 43. Kf3 f6 44. Rf5 Kg6 45. Rf4 Ra3+ 46. e3
+Ra1 47. Rd4 Rf1+ 48. Ke2 Rh1 49. Rd5 Ra1 50. Kf2 Rb1 51. Kf3 Rf1+ 52. Kg2 Re1
+53. Kf2 Rb1 54. e4 Rb3 55. e5 fxe5 56. Rxe5 Ra3 57. Rg5+ Kh6 58. Re5 Kg6 59.
+Re3 Rxe3 60. Kxe3 Kf5 61. Kf2 Kg4 62. Kg2 Kf5 63. Kh3 Ke5 64. Kh2 Kf5 65. Kg2
+Kg4 66. Kf2 Kf5 67. Kf3 Ke5 68. g4 hxg4+ 69. Kxg4 Kf6 1/2-1/2
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.06"]
+[Round "3"]
+[White "Abhishek, Das"]
+[Black "Pablo Marin, Alejandro"]
+[Result "1/2-1/2"]
+[ECO "B90"]
+[WhiteElo "2274"]
+[BlackElo "2387"]
+[PlyCount "62"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. a4 e5 7. Nf3 Qc7 8. Bg5
+Nbd7 9. Nd2 h6 10. Bh4 g5 11. Bg3 Nc5 12. Bc4 Be6 13. Qe2 Rc8 14. O-O Be7 15.
+a5 Ncxe4 16. Ncxe4 Bxc4 17. Nxf6+ Bxf6 18. Nxc4 Qxc4 19. Qf3 Bg7 20. Qxb7 O-O
+21. b3 Qc6 22. Qxc6 Rxc6 23. c4 Rb8 24. Ra3 e4 25. c5 Bf8 26. Bxd6 Bxd6 27.
+cxd6 Rxd6 28. Rc1 Kg7 29. g4 Rb5 30. Rc4 Rd3 31. Rxe4 Rbxb3 1/2-1/2
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.07"]
+[Round "4"]
+[White "Ojas, Kulkarni"]
+[Black "Abhishek, Das"]
+[Result "0-1"]
+[ECO "A14"]
+[WhiteElo "2351"]
+[BlackElo "2274"]
+[PlyCount "80"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 e6 2. Nf3 d5 3. g3 Nf6 4. Bg2 Be7 5. O-O O-O 6. b3 c5 7. Bb2 Nc6 8. e3 b6
+9. Qe2 Bb7 10. Rd1 Qc7 11. Nc3 Rad8 12. Rac1 dxc4 13. bxc4 Rfe8 14. d3 Qb8 15.
+Ne1 Rd7 16. f4 Red8 17. Rd2 Nb4 18. Rcd1 Qa8 19. a3 Nc6 20. Ne4 Nxe4 21. Bxe4
+Na5 22. Bxb7 Qxb7 23. Bc3 Nc6 24. Qf3 Bf8 25. h4 Ne7 26. Qxb7 Rxb7 27. Rb1 Nc6
+28. Kf2 Be7 29. Nf3 f6 30. Ke2 h5 31. Rdb2 Rbd7 32. Rd2 Kf7 33. a4 Rc8 34. a5
+bxa5 35. Ra1 Bd8 36. d4 cxd4 37. exd4 Ne7 38. c5 Nf5 39. Kf2 Nd6 40. Rda2 Ne4+
+0-1
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.08"]
+[Round "5"]
+[White "Abhishek, Das"]
+[Black "Quirhuayo Chumbe, German Gonzalo"]
+[Result "1-0"]
+[ECO "B26"]
+[WhiteElo "2274"]
+[BlackElo "2376"]
+[PlyCount "99"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nc3 d6 3. g3 Nc6 4. Bg2 g6 5. Nge2 Bg7 6. O-O e6 7. d3 Nge7 8. Be3
+O-O 9. Qd2 Nd4 10. Nd1 Rb8 11. Nxd4 cxd4 12. Bh6 b5 13. Bxg7 Kxg7 14. c3 dxc3
+15. Qxc3+ e5 16. Rc1 Be6 17. Ne3 Rc8 18. Qd2 Qb6 19. a3 Nc6 20. Kh1 Nd4 21.
+Rxc8 Rxc8 22. h4 Nb3 23. Qe2 Qd4 24. Rd1 Rc1 25. Bf1 Rc8 26. Kh2 b4 27. Bh3
+Bxh3 28. Kxh3 bxa3 29. Qg4 Qc5 30. bxa3 Nd4 31. h5 Rb8 32. h6+ Kf8 33. Kg2 Ne6
+34. Qf3 Rb2 35. Nc4 Rb3 36. Qf6 Ke8 37. Ne3 Rb2 38. Kg1 Qc8 39. Nc4 Rb6 40.
+Nxb6 Qc2 41. Nd5 Qxd1+ 42. Kg2 Nf4+ 43. gxf4 Qg4+ 44. Kh2 Qh5+ 45. Kg3 exf4+
+46. Qxf4 Qh1 47. Qxd6 Qg1+ 48. Kf3 Qd1+ 49. Kg2 Qg4+ 50. Qg3 1-0
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.09"]
+[Round "6"]
+[White "Yurtseven, Melih"]
+[Black "Abhishek, Das"]
+[Result "1-0"]
+[ECO "A11"]
+[WhiteElo "2353"]
+[BlackElo "2274"]
+[PlyCount "89"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. Nf3 d5 2. g3 g6 3. c4 c6 4. Qa4 Nd7 5. cxd5 cxd5 6. Nc3 Ngf6 7. Bg2 Bg7 8.
+O-O O-O 9. d3 h6 10. d4 Nb6 11. Qb3 Be6 12. Ne5 Nfd7 13. f4 Nxe5 14. fxe5 Qd7
+15. Rd1 Kh7 16. Bf4 Rfd8 17. a4 g5 18. Be3 f6 19. exf6 Bxf6 20. Bf2 Bf7 21. Ne4
+Rab8 22. Nc5 Qe8 23. e4 e6 24. a5 Nc4 25. Nxb7 a6 26. Qf3 Rxb7 27. Qxf6 Qh8 28.
+Qf3 Bg6 29. exd5 exd5 30. b3 Rf7 31. Qc3 Nd6 32. Bxd5 Nb5 33. Qc4 Rc7 34. Bc6
+Nd6 35. Qxa6 Qf6 36. d5 Qf3 37. Re1 Be4 38. Rxe4 Nxe4 39. Rf1 Nd2 40. Bb6 Nxf1
+41. Qxf1 Qxf1+ 42. Kxf1 Rf8+ 43. Ke2 Re7+ 44. Kd2 Re5 45. a6 1-0
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.10"]
+[Round "7"]
+[White "Abhishek, Das"]
+[Black "Oliva Castaneda, Kevel"]
+[Result "0-1"]
+[ECO "C48"]
+[WhiteElo "2274"]
+[BlackElo "2497"]
+[PlyCount "118"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bb5 Bd6 5. d3 a6 6. Ba4 O-O 7. Bg5 h6 8. Bh4
+b5 9. Bb3 Be7 10. g4 d6 11. h3 Na5 12. Bg3 Nxb3 13. axb3 b4 14. Nb1 h5 15. Nbd2
+hxg4 16. hxg4 Bxg4 17. Qe2 Nh5 18. Nf1 Bg5 19. N1h2 Nxg3 20. fxg3 Be6 21. Nf1
+f5 22. N1d2 Bh6 23. O-O-O Qf6 24. Kb1 a5 25. Rdf1 fxe4 26. Nd4 Qg6 27. Nxe6
+Qxe6 28. dxe4 Rxf1+ 29. Rxf1 a4 30. Nc4 axb3 31. cxb3 Qg6 32. Qd3 Kh7 33. Rf5
+Qg4 34. Rf7 Qh5 35. Qf1 Kg8 36. Rf5 Qh2 37. Qd3 Kh7 38. Rf1 Qg2 39. Rf5 Rd8 40.
+Rf7 Kg8 41. Rf5 d5 42. Rf3 Qh1+ 43. Rf1 Qxe4 44. Qxe4 dxe4 45. Re1 e3 46. Nxe5
+Re8 47. Nc4 Kh7 48. Kc2 Kg6 49. Kd3 Kh5 50. Ke2 Kg4 51. Rd1 Re7 52. Rd5 Kxg3
+53. Rb5 Rf7 54. Re5 Rf2+ 55. Ke1 Bf4 56. Re7 g5 57. Nxe3 Rxb2 58. Nd5 Rxb3 59.
+Nxc7 Kf3 0-1
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.11"]
+[Round "8"]
+[White "Smirnov, Artem"]
+[Black "Abhishek, Das"]
+[Result "1/2-1/2"]
+[ECO "D17"]
+[WhiteElo "2401"]
+[BlackElo "2274"]
+[PlyCount "86"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. Nh4 Bg4 7. h3 Bh5 8. g4
+Bg6 9. Nxg6 hxg6 10. e3 e6 11. Bxc4 Bb4 12. Qf3 Qa5 13. Bd2 Nbd7 14. O-O O-O
+15. Rfd1 Rfd8 16. Bb3 Nb6 17. Be1 Rd7 18. h4 Rad8 19. g5 Nh5 20. Rac1 Qf5 21.
+Kg2 Nc8 22. Qxf5 gxf5 23. g6 Bf8 24. Ne2 Ne7 25. gxf7+ Kxf7 26. f3 Nd5 27. Bf2
+Nhf6 28. Nc3 g6 29. Nxd5 exd5 30. Kf1 Re8 31. Ke2 Bd6 32. Kd3 Rde7 33. Rg1 Nh5
+34. Rce1 Kg7 35. Bc2 Kh7 36. Bb1 Bb4 37. Rd1 Re6 38. Kc2 Bf8 39. Kd3 Bh6 40.
+Rde1 Bf8 41. Rd1 Bh6 42. Rde1 Bf8 43. Rd1 Bh6 1/2-1/2
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.12"]
+[Round "9"]
+[White "Abhishek, Das"]
+[Black "Deshmukh, Anup"]
+[Result "1/2-1/2"]
+[ECO "B08"]
+[WhiteElo "2274"]
+[BlackElo "2241"]
+[PlyCount "32"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 d6 2. d4 g6 3. Nc3 Bg7 4. Nf3 Nf6 5. Be2 O-O 6. O-O a6 7. a4 Nc6 8. h3 e5
+9. dxe5 dxe5 10. b3 Qxd1 11. Rxd1 Nd4 12. Nxd4 exd4 13. Rxd4 Nxe4 14. Rxe4 Bxc3
+15. Ra2 Be6 16. Bb2 Bxb2 1/2-1/2
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.13"]
+[Round "1"]
+[White "Abhishek, Das"]
+[Black "Marchador Villalba, Jordi"]
+[Result "0-1"]
+[ECO "B02"]
+[WhiteElo "2274"]
+[BlackElo "1980"]
+[PlyCount "96"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 Nf6 2. Nc3 d5 3. e5 Ne4 4. Nce2 d4 5. c3 dxc3 6. Qa4+ Nd7 7. Nxc3 Nec5 8.
+Qf4 Nb6 9. Nf3 Nd3+ 10. Bxd3 Qxd3 11. Qe4 Qxe4+ 12. Nxe4 Bf5 13. Ng3 Bd3 14.
+Nf1 e6 15. Ne3 h6 16. b3 a5 17. a3 c5 18. a4 Be7 19. Ba3 Rc8 20. Kd1 c4 21. Ne1
+Bg6 22. bxc4 Nxc4 23. Rc1 Nxe3+ 24. fxe3 Rxc1+ 25. Bxc1 Kd7 26. d3 b5 27. axb5
+Rb8 28. Bb2 Rxb5 29. Kc2 a4 30. e4 a3 31. Ba1 f5 32. exf6 gxf6 33. Nf3 e5 34.
+Nd2 Rc5+ 35. Bc3 Bf7 36. Rc1 Rc7 37. Kd1 a2 38. Ba1 Bh5+ 39. Nf3 Rb7 40. Kc2
+Ba3 41. Rf1 Ke6 42. Bc3 Be8 43. Ra1 Ba4+ 44. Kd2 Bb3 45. Ng1 Kf7 46. Ne2 Be6
+47. Kc2 Rc7 48. Rf1 Bg4 0-1
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.14"]
+[Round "2"]
+[White "Degraeve, Thomas"]
+[Black "Abhishek, Das"]
+[Result "0-1"]
+[ECO "D36"]
+[WhiteElo "2008"]
+[BlackElo "2274"]
+[PlyCount "81"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. cxd5 exd5 5. Bg5 c6 6. Qc2 h6 7. Bh4 Be7 8. e3
+O-O 9. Bd3 Re8 10. Nge2 Ne4 11. Bxe7 Qxe7 12. O-O Nd7 13. Rae1 Ndf6 14. f3 Nxc3
+15. Nxc3 Nh5 16. e4 Qf6 17. Ne2 dxe4 18. fxe4 Qg5 19. Qc1 Be6 20. a3 Rad8 21.
+b4 a6 22. h3 Ng3 23. Nxg3 Qxg3 24. Rf3 Qd6 25. d5 cxd5 26. e5 Qb6+ 27. Kh1 Qd4
+28. Rg3 Kh8 29. Qc2 Rc8 30. Qe2 Rc3 31. Rd1 Qh4 32. Rf3 Bg4 33. Qf1 Bxf3 34.
+Qxf3 Qe7 35. Qxd5 Rd8 36. Qe4 g6 37. h4 h5 38. Bc2 Rxd1+ 39. Bxd1 Rxa3 40. Bf3
+Rb3 41. Qxb7 0-1
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.15"]
+[Round "3"]
+[White "Abhishek, Das"]
+[Black "Kyrkjebo, Erlend"]
+[Result "1-0"]
+[ECO "B23"]
+[WhiteElo "2274"]
+[BlackElo "2085"]
+[PlyCount "149"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nc3 a6 3. g3 b5 4. Bg2 Bb7 5. f4 e6 6. Qe2 Nc6 7. d3 Rc8 8. Nf3 Nd4
+9. Qf2 b4 10. Nd1 Nxf3+ 11. Bxf3 d5 12. exd5 Bxd5 13. Ne3 Nf6 14. O-O Be7 15.
+Nc4 O-O 16. b3 Bxf3 17. Qxf3 Qd4+ 18. Be3 Qd5 19. a3 Qxf3 20. Rxf3 Nd5 21. axb4
+Nxb4 22. Rf2 Bf6 23. Ra5 Bd4 24. Kg2 Rc6 25. Kf3 Rfc8 26. Re2 Rb8 27. Ra4 Bc3
+28. Bd2 Nd5 29. Rf2 Bd4 30. Rf1 f6 31. Rc1 Nc3 32. Ra5 Rb5 33. Ra3 Rb8 34. Be3
+Nb5 35. Ra4 Bc3 36. Bd2 e5 37. Bxc3 Nxc3 38. Raa1 exf4 39. gxf4 Re8 40. Re1
+Rce6 41. Rxe6 Rxe6 42. Ra5 Nb5 43. Ne3 g6 44. Kf2 Rc6 45. Nd5 Kf7 46. c4 Nd4
+47. b4 Re6 48. bxc5 Nb3 49. Ra3 Nxc5 50. d4 Ne4+ 51. Kg2 Rd6 52. Rb3 Nd2 53.
+Rb7+ Kf8 54. Nb6 Rxd4 55. c5 Nc4 56. Nd7+ Ke7 57. c6 Na5 58. Nb6+ Ke6 59. c7
+Rd2+ 60. Kf1 Rc2 61. Ra7 Kf5 62. c8=Q+ Rxc8 63. Nxc8 Kxf4 64. Rxa6 Nb3 65.
+Rxf6+ Kg5 66. Rf7 h5 67. Rd7 Kf6 68. Rd5 Ke6 69. Nb6 Na1 70. Rg5 Kf6 71. h4 Nc2
+72. Nd7+ Ke6 73. Nf8+ Kf6 74. Kg2 Ne3+ 75. Kh3 1-0
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.16"]
+[Round "4"]
+[White "Sumit, Kumar1"]
+[Black "Abhishek, Das"]
+[Result "0-1"]
+[ECO "B38"]
+[WhiteElo "1975"]
+[BlackElo "2274"]
+[PlyCount "102"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. c4 Bg7 6. Be3 Nf6 7. Nc3 O-O 8.
+Be2 d6 9. O-O Bd7 10. Rc1 Nxd4 11. Bxd4 Bc6 12. f3 a5 13. Nd5 Nd7 14. Bxg7 Kxg7
+15. Qd4+ e5 16. Qd2 Bxd5 17. cxd5 Qb6+ 18. Kh1 Rac8 19. b3 Rxc1 20. Rxc1 f5 21.
+exf5 Rxf5 22. Qc3 Nc5 23. h3 Rf4 24. Rd1 h5 25. g3 Rf6 26. h4 Nd7 27. Kg2 Rf7
+28. Qd3 Nf6 29. Rc1 Rc7 30. Rc4 Rc5 31. Rxc5 Qxc5 32. Qc4 Nxd5 33. Qxc5 dxc5
+34. Bd3 Nb4 35. Be4 Nxa2 36. Bxb7 Nb4 37. Kf2 c4 38. bxc4 a4 39. Be4 a3 40. Bb1
+a2 41. Bxa2 Nxa2 42. Ke3 Kf6 43. g4 Nb4 44. Ke4 Ke6 45. gxh5 gxh5 46. f4 Nc6
+47. c5 Kf6 48. fxe5+ Nxe5 49. Kd5 Kf5 50. Kd6 Kf4 51. Ke6 Nc6 0-1
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.17"]
+[Round "5"]
+[White "Abhishek, Das"]
+[Black "Asis Gargatagli, Hipolito"]
+[Result "0-1"]
+[ECO "B23"]
+[WhiteElo "2274"]
+[BlackElo "2505"]
+[PlyCount "74"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nc3 d6 3. f4 g6 4. Nf3 Bg7 5. Bb5+ Bd7 6. Bc4 Nc6 7. d3 Na5 8. Bd2
+a6 9. O-O e6 10. f5 Nf6 11. fxe6 fxe6 12. e5 dxe5 13. Nxe5 O-O 14. Qe2 Nxc4 15.
+dxc4 Qc7 16. Nxd7 Qxd7 17. Rad1 Qd4+ 18. Be3 Qe5 19. Bf4 Qxe2 20. Nxe2 Ne4 21.
+c3 b5 22. Ng3 Nxg3 23. Bxg3 bxc4 24. Rxf8+ Rxf8 25. Rd7 Bh6 26. h4 Bc1 27. Rb7
+Rd8 28. Kf1 Rd2 29. Bf4 Rxb2 30. Rxb2 Bxb2 31. Bd2 Kf7 32. Ke2 Kf6 33. g4 h5
+34. Kf3 Ke5 35. Bf4+ Kd5 36. Bd2 hxg4+ 37. Kxg4 Ke4 0-1
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.18"]
+[Round "6"]
+[White "Rakshitta, Ravi"]
+[Black "Abhishek, Das"]
+[Result "0-1"]
+[ECO "B74"]
+[WhiteElo "1974"]
+[BlackElo "2274"]
+[PlyCount "58"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nc6 3. Nc3 g6 4. d4 cxd4 5. Nxd4 Bg7 6. Be3 Nf6 7. Nb3 O-O 8.
+Be2 d6 9. O-O Be6 10. f4 Na5 11. f5 Bc4 12. e5 Bxe2 13. Nxe2 Ng4 14. Bd4 dxe5
+15. Bf2 Nc4 16. fxg6 hxg6 17. Rb1 Nxf2 18. Qxd8 Nh3+ 19. gxh3 Rfxd8 20. Nc3
+Rac8 21. Rf3 Nxb2 22. Rxb2 e4 23. Rf1 Rxc3 24. h4 b6 25. Kg2 Bf6 26. Re1 Rcc8
+27. Rbb1 Rxc2+ 28. Kh1 Rd3 29. Rxe4 Rh3 0-1
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.19"]
+[Round "7"]
+[White "Abhishek, Das"]
+[Black "Perez Mitjans, Orelvis"]
+[Result "1-0"]
+[ECO "B21"]
+[WhiteElo "2274"]
+[BlackElo "2407"]
+[PlyCount "95"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nc3 Nc6 3. Bb5 g6 4. Bxc6 dxc6 5. f4 Bg7 6. Nf3 Nf6 7. O-O O-O 8.
+d3 Bg4 9. Be3 Qa5 10. Qe1 Bxf3 11. Rxf3 c4 12. d4 Ng4 13. e5 f5 14. h3 Nxe3 15.
+Rxe3 Qb6 16. Ne2 Qxb2 17. Rc3 Qb5 18. Rb1 Qa6 19. Qh4 Rfe8 20. Qg5 b5 21. a3
+Rad8 22. h4 c5 23. dxc5 Rd2 24. Kf1 Qc6 25. h5 Red8 26. hxg6 hxg6 27. Re1 Kf7
+28. Rg3 Rh8 29. Ng1 Qe6 30. c3 Rh1 31. Rh3 Rxh3 32. Nxh3 Ke8 33. Qg3 Bh6 34.
+Nf2 g5 35. fxg5 Bg7 36. Nh3 Qd5 37. Nf4 Bxe5 38. Qe3 Qe4 39. Qxd2 Bxf4 40. Rxe4
+Bxd2 41. Re6 Bxc3 42. Ra6 Bd4 43. c6 c3 44. Ke2 e5 45. g6 e4 46. Rxa7 e3 47.
+Ra8+ Ke7 48. c7 1-0
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.20"]
+[Round "8"]
+[White "Abhishek, Das"]
+[Black "Arvola, Benjamin"]
+[Result "1/2-1/2"]
+[ECO "C48"]
+[WhiteElo "2274"]
+[BlackElo "2469"]
+[PlyCount "106"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bb5 Bc5 5. O-O O-O 6. Nxe5 Nxe5 7. d4 Bd6 8.
+f4 Nc6 9. e5 Bb4 10. d5 a6 11. Be2 Nxd5 12. Nxd5 Bc5+ 13. Kh1 d6 14. Bd3 dxe5
+15. fxe5 Nxe5 16. Bxh7+ Kxh7 17. Qh5+ Kg8 18. Qxe5 Qd6 19. Bf4 Qxe5 20. Bxe5 c6
+21. b4 cxd5 22. bxc5 Re8 23. Bd4 Re4 24. c3 Bd7 25. Rab1 Bb5 26. Rf2 Rae8 27.
+h3 f6 28. g4 Re2 29. Rb2 Re1+ 30. Kh2 Rd1 31. g5 fxg5 32. Rf5 g6 33. Rf6 Kh7
+34. Rf7+ Kh6 35. Bg7+ Kh5 36. Bf6 Kh6 37. Rg2 g4 38. Rxg4 Re2+ 39. Kg3 Rg1+ 40.
+Kh4 Rxg4+ 41. hxg4 g5+ 42. Bxg5+ Kg6 43. Rxb7 Rh2+ 44. Kg3 Rc2 45. Kf4 Rf2+ 46.
+Kg3 Rc2 47. Kf4 Rxc3 48. Rb6+ Kf7 49. Rb7+ Kg6 50. Rb6+ Kf7 51. Rb7+ Kg6 52.
+Rb6+ Kf7 53. Rb7+ Kg6 1/2-1/2
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.21"]
+[Round "9.12"]
+[White "Smirnov, Artem"]
+[Black "Abhishek, Das"]
+[Result "1/2-1/2"]
+[ECO "B21"]
+[WhiteElo "2401"]
+[BlackElo "2274"]
+[PlyCount "85"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Be2 Nc6 3. f4 d5 4. d3 e6 5. Nf3 dxe4 6. dxe4 Qxd1+ 7. Bxd1 Nf6 8.
+e5 Nd5 9. c3 Be7 10. Na3 a6 11. g3 O-O 12. Nc4 b5 13. Ne3 Nb6 14. Nd2 Bb7 15.
+Bf3 c4 16. Ne4 Na4 17. b3 cxb3 18. axb3 Nc5 19. Nxc5 Bxc5 20. Ke2 b4 21. Bb2
+bxc3 22. Bxc3 Nd4+ 23. Bxd4 Bxf3+ 24. Kxf3 Bxd4 25. Ra4 Bxe3 26. Kxe3 Rab8 27.
+Rb1 Rb6 28. Kd3 g6 29. Kc3 Rc8+ 30. Rc4 Rxc4+ 31. Kxc4 a5 32. Rd1 Rb4+ 33. Kc3
+h6 34. Rd8+ Kg7 35. Rc8 Rb5 36. Kc4 Rb4+ 37. Kc3 Rb5 38. h4 g5 39. h5 gxf4 40.
+gxf4 f6 41. Rc7+ Kf8 42. exf6 Rxh5 43. Kd4 1/2-1/2
+
+[Event "Sitges op 43rd"]
+[Site "Sitges"]
+[Date "2017.07.24"]
+[Round "3"]
+[White "Abhishek, Das"]
+[Black "Grigoryan, Karen H"]
+[Result "0-1"]
+[ECO "B23"]
+[WhiteElo "2274"]
+[BlackElo "2555"]
+[PlyCount "78"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nc3 g6 3. f4 Bg7 4. Nf3 Nc6 5. Bc4 e6 6. d3 Nge7 7. O-O d5 8. Bb3
+O-O 9. a4 Nd4 10. Nxd4 cxd4 11. Ne2 dxe4 12. dxe4 b6 13. Bc4 Bb7 14. Bd3 Nc6
+15. Qe1 a5 16. Bd2 Qe7 17. g4 Nb4 18. Bxb4 axb4 19. Nc1 e5 20. f5 gxf5 21. gxf5
+Kh8 22. Kh1 Rg8 23. Na2 Rxa4 24. b3 Raa8 25. f6 Bxf6 26. Nxb4 Rxa1 27. Qxa1
+Qxb4 28. Rxf6 Qd2 29. Qf1 Qe3 30. Rxf7 Bxe4+ 31. Bxe4 Qxe4+ 32. Qf3 Qxf3+ 33.
+Rxf3 Rc8 34. Rf2 Kg7 35. Kg2 Rf8 36. Rd2 b5 37. Re2 Rf5 38. b4 Kf6 39. Rd2 Ke6
+0-1
+
+[Event "Sitges op 43rd"]
+[Site "Sitges"]
+[Date "2017.07.29"]
+[Round "8"]
+[White "Von Bahr, Oskar"]
+[Black "Abhishek, Das"]
+[Result "1-0"]
+[ECO "B31"]
+[WhiteElo "2423"]
+[BlackElo "2274"]
+[PlyCount "69"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. Bxc6 dxc6 5. d3 Bg7 6. h3 Nf6 7. Nc3 O-O 8.
+O-O b6 9. a4 a5 10. Bf4 Ne8 11. Qd2 Nc7 12. Bh6 Ne6 13. Bxg7 Kxg7 14. Ne2 Qc7
+15. Rae1 Ba6 16. Nh2 Rad8 17. b3 Bc8 18. f4 f5 19. exf5 Rxf5 20. Ng4 Nd4 21.
+Nxd4 cxd4 22. Re4 c5 23. Rfe1 Re8 24. R1e2 Bb7 25. Re5 Rxe5 26. fxe5 Rf8 27.
+Qh6+ Kg8 28. Nf6+ exf6 29. exf6 Bc6 30. Re7 Qxe7 31. fxe7 Rf5 32. Qh4 Be8 33.
+g4 Rf3 34. Qg5 Bc6 35. Qe5 1-0
+
+[Event "Badalona op 43rd"]
+[Site "Badalona"]
+[Date "2017.08.05"]
+[Round "4"]
+[White "Abhishek, Das"]
+[Black "Vera Siguenas, Deivy Anthoni"]
+[Result "1/2-1/2"]
+[ECO "B13"]
+[WhiteElo "2314"]
+[BlackElo "2525"]
+[PlyCount "74"]
+[EventDate "2017.08.02"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. c4 Nf6 5. Nc3 Nc6 6. Nf3 Bg4 7. cxd5 Nxd5 8.
+Qb3 Bxf3 9. gxf3 e6 10. Qxb7 Nxd4 11. Bb5+ Nxb5 12. Qc6+ Ke7 13. Qxb5 Qd7 14.
+Nxd5+ Qxd5 15. Qxd5 exd5 16. O-O Ke6 17. Re1+ Kf5 18. Rd1 Rd8 19. Be3 Rd7 20.
+Rac1 Be7 21. b3 Rb8 22. Rc6 Rb4 23. Ra6 d4 24. a3 Rxb3 25. Rxd4 Rxd4 26. Bxd4
+Bxa3 27. Rxa7 Kg6 28. Kg2 f6 29. Be3 Bd6 30. Rd7 Bf8 31. h3 h6 32. Ra7 Rb5 33.
+Rc7 Kf5 34. Rf7 Rb8 35. Rc7 Rb5 36. Rf7 Rb8 37. Rc7 Ke5 1/2-1/2
+
+[Event "Badalona op 43rd"]
+[Site "Badalona"]
+[Date "2017.08.06"]
+[Round "5"]
+[White "Gonzalez Garcia, Jose"]
+[Black "Abhishek, Das"]
+[Result "1/2-1/2"]
+[ECO "D14"]
+[WhiteElo "2513"]
+[BlackElo "2314"]
+[PlyCount "55"]
+[EventDate "2017.08.02"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. cxd5 cxd5 5. Nc3 Nc6 6. Bf4 Bf5 7. e3 e6 8. Qb3
+Bb4 9. Bb5 O-O 10. Bxc6 Bxc3+ 11. Qxc3 Rc8 12. Ne5 Ng4 13. Nxg4 Bxg4 14. Qb4
+Rxc6 15. Qxb7 Qc8 16. Qxc8 Rfxc8 17. O-O Be2 18. Rfe1 Rc2 19. b3 Rb2 20. Rec1
+Rxc1+ 21. Rxc1 h6 22. h4 Rxa2 23. Rc8+ Kh7 24. Rc7 Kg8 25. Rc8+ Kh7 26. Rc7 Kg6
+27. f3 h5 28. Rc8 1/2-1/2

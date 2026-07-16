@@ -1,0 +1,222 @@
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.13"]
+[Round "1"]
+[White "Sonis, F."]
+[Black "Palit, S."]
+[Result "0-1"]
+[ECO "A40"]
+[WhiteElo "2029"]
+[BlackElo "2411"]
+[PlyCount "96"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. d4 e6 2. c4 b6 3. Nf3 Bb7 4. Nc3 d6 5. e4 Nd7 6. Be2 g6 7. Bg5 Ne7 8. O-O
+Bg7 9. Qd2 h6 10. Be3 g5 11. Ne1 Ng6 12. Nd3 e5 13. d5 Nf6 14. b4 Nf4 15. Rac1
+Bc8 16. c5 O-O 17. f3 Ne8 18. cxb6 cxb6 19. b5 f5 20. Nb4 Nxe2+ 21. Qxe2 f4 22.
+Bf2 Nf6 23. Nb1 g4 24. Bh4 gxf3 25. Qxf3 Qe8 26. Rc7 Rf7 27. Rfc1 Bg4 28. Qd3
+Nd7 29. Qc4 Nc5 30. Rxf7 Qxf7 31. Nd2 f3 32. Rf1 Qh5 33. g3 Rf8 34. Rf2 Rf7 35.
+Nc6 Bf8 36. Qf1 Qg6 37. Qc4 Kh7 38. Nd8 Rd7 39. Nc6 Bg7 40. Ne7 Qh5 41. Nc6 Rf7
+42. Qf1 Qg6 43. Qc4 Bf6 44. Bxf6 Qxf6 45. Qf1 Qg6 46. Qc4 h5 47. h4 Bh3 48. Kh2
+Bg2 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.14"]
+[Round "2"]
+[White "Koganov, M."]
+[Black "Sonis, F."]
+[Result "1/2-1/2"]
+[ECO "A01"]
+[BlackElo "2029"]
+[PlyCount "51"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. b3 Nf6 2. Bb2 g6 3. Bxf6 exf6 4. c4 Bg7 5. Nc3 c6 6. Rc1 f5 7. g3 O-O 8. Bg2
+d6 9. e3 Nd7 10. Nge2 Re8 11. O-O Nf6 12. d3 Qa5 13. Rc2 Be6 14. Qb1 Qc7 15. b4
+Nd7 16. Rfc1 Rab8 17. a4 Ne5 18. Rd2 Qe7 19. Nf4 g5 20. Nxe6 fxe6 21. Ne2 g4
+22. Rdd1 Qg5 23. Kh1 Nf3 24. d4 Bf8 25. Ng1 Nxg1 26. Kxg1 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.15"]
+[Round "3"]
+[White "Sonis, F."]
+[Black "Naslund, M."]
+[Result "1/2-1/2"]
+[ECO "D71"]
+[WhiteElo "2029"]
+[BlackElo "2148"]
+[PlyCount "61"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. d4 Nf6 2. c4 g6 3. g3 d5 4. cxd5 Nxd5 5. Bg2 Bg7 6. Nf3 Nc6 7. Nc3 Nb6 8. d5
+Bxc3+ 9. bxc3 Qxd5 10. O-O Qxd1 11. Rxd1 f6 12. Nd4 Nxd4 13. cxd4 c6 14. Ba3
+Be6 15. e4 Rd8 16. Rac1 Kf7 17. Bc5 Rd7 18. Bxb6 axb6 19. d5 cxd5 20. exd5 Bf5
+21. Rd4 h5 22. h3 Rd6 23. Rc7 Rc8 24. Rxb7 Rc1+ 25. Kh2 Rc2 26. Kg1 Rxa2 27.
+Rc4 Ra1+ 28. Kh2 Ra2 29. Kg1 Ra1+ 30. Kh2 Ra2 31. Kg1 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.16"]
+[Round "4"]
+[White "Andersen, AR."]
+[Black "Sonis, F."]
+[Result "1-0"]
+[ECO "B20"]
+[WhiteElo "2214"]
+[BlackElo "2029"]
+[PlyCount "75"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. e4 c5 2. a3 g6 3. b4 Bg7 4. Nc3 d6 5. g3 Nf6 6. Bg2 Nc6 7. Rb1 O-O 8. Nge2
+Rb8 9. O-O b6 10. Re1 Bb7 11. Nd5 e6 12. Nxf6+ Bxf6 13. b5 Nd4 14. c3 Nxe2+ 15.
+Rxe2 e5 16. d3 d5 17. Bh6 Re8 18. Qa4 Ra8 19. Rbe1 Re6 20. h4 Rd6 21. d4 cxd4
+22. cxd4 dxe4 23. dxe5 Rd4 24. Qb3 Bxe5 25. Bxe4 Bxe4 26. Rxe4 Rxe4 27. Rxe4
+Bg7 28. Bg5 Qd7 29. Re7 Qf5 30. a4 Bd4 31. Be3 Bxe3 32. Qxe3 Qf6 33. Qe4 Kg7
+34. Rd7 Rd8 35. Rxa7 Rd1+ 36. Kg2 Qa1 37. Qf3 Kh8 38. Rxf7 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.17"]
+[Round "5"]
+[White "Sonis, F."]
+[Black "Krotiuk, D."]
+[Result "1-0"]
+[ECO "A59"]
+[WhiteElo "2029"]
+[BlackElo "1924"]
+[PlyCount "73"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. bxa6 g6 6. Nc3 Bxa6 7. e4 Bxf1 8.
+Kxf1 d6 9. Nf3 Bg7 10. g3 O-O 11. Kg2 Nbd7 12. Qe2 Qa5 13. Bd2 Rfb8 14. Rhb1
+Qc7 15. a4 Nb6 16. Ra2 Nfd7 17. Nb5 Qb7 18. b3 c4 19. bxc4 Nxa4 20. Nc3 Nxc3
+21. Rxb7 Nxe2 22. Rxa8 Rxa8 23. Rxd7 Kf8 24. Rc7 Nd4 25. Bg5 Re8 26. c5 dxc5
+27. Rxc5 Nb3 28. Rc7 Nd4 29. Rb7 Nc2 30. e5 f6 31. exf6 exf6 32. Bd2 Kg8 33. d6
+Rd8 34. d7 Kf8 35. Ba5 Ke7 36. Bxd8+ Kxd8 37. Rb8+ 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.18"]
+[Round "6"]
+[White "Lasinskas, P."]
+[Black "Sonis, F."]
+[Result "0-1"]
+[ECO "E81"]
+[WhiteElo "2212"]
+[BlackElo "2029"]
+[PlyCount "74"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 c5 7. d5 Na6 8. Nge2
+Nc7 9. Nc1 a6 10. a4 Rb8 11. Be2 b6 12. O-O e6 13. Rb1 exd5 14. cxd5 b5 15.
+axb5 axb5 16. b4 c4 17. Qd2 Re8 18. Bd1 Qd7 19. N1e2 Bb7 20. Nd4 Ra8 21. h3 Ra3
+22. Rc1 h5 23. Bc2 Nfxd5 24. exd5 Rxc3 25. Bh6 Nxd5 26. Bxg7 Kxg7 27. Nf5+ gxf5
+28. Qg5+ Kf8 29. Bxf5 f6 30. Qxh5 Qg7 31. Bg4 Rxc1 32. Rxc1 Nf4 33. Qxb5 Ne2+
+34. Kh2 Nxc1 35. Qxc4 Ne2 36. Qd3 Qe7 37. g3 Nc1 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.19"]
+[Round "7"]
+[White "Sonis, F."]
+[Black "Porras Mateo, F."]
+[Result "0-1"]
+[ECO "D20"]
+[WhiteElo "2029"]
+[BlackElo "2243"]
+[PlyCount "48"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. d4 d5 2. c4 Nc6 3. Nc3 dxc4 4. Nf3 e6 5. e3 Nf6 6. Bxc4 Bb4 7. O-O O-O 8.
+Qe2 Na5 9. Bd3 c5 10. Rd1 cxd4 11. exd4 b6 12. Bg5 Bb7 13. Ne4 Be7 14. Bxf6
+Bxf6 15. Ne5 Be7 16. Bc2 Rc8 17. Rac1 Qd5 18. f3 Rfd8 19. Qd3 f5 20. Nc3 Qd6
+21. a3 Bg5 22. Nb5 Qxe5 23. dxe5 Rxd3 24. Rxd3 Bxc1 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.20"]
+[Round "8"]
+[White "Capellades Subirana, M."]
+[Black "Sonis, F."]
+[Result "1-0"]
+[ECO "B92"]
+[WhiteElo "2211"]
+[BlackElo "2029"]
+[PlyCount "85"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e5 7. Nb3 Be7 8. O-O
+O-O 9. a4 Nc6 10. Be3 Be6 11. Bf3 Rc8 12. Qd2 Nb4 13. Rad1 Ng4 14. Bxg4 Bxg4
+15. f3 Be6 16. Nc1 Qc7 17. Nd3 Nxd3 18. cxd3 Qd7 19. d4 Bb3 20. Ra1 Bf6 21. d5
+a5 22. Ra3 Bc4 23. Rb1 Bd8 24. Rc1 Bc7 25. b3 Ba6 26. Ra2 Qd8 27. Qf2 g6 28. g4
+Qd7 29. Kh1 f6 30. Rac2 Bd3 31. Rb2 Ba6 32. Na2 Bb8 33. Rbc2 Bd3 34. Rc3 Ba6
+35. Qc2 Rxc3 36. Qxc3 f5 37. gxf5 gxf5 38. Rg1+ Kh8 39. Bh6 Rg8 40. Rxg8+ Kxg8
+41. Qe3 f4 42. Qg1+ Kh8 43. Qg5 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.21"]
+[Round "9"]
+[White "Sonis, F."]
+[Black "Sanchez Lopez, JM."]
+[Result "1/2-1/2"]
+[ECO "A59"]
+[WhiteElo "2029"]
+[BlackElo "2141"]
+[PlyCount "84"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. bxa6 g6 6. Nc3 Bxa6 7. e4 Bxf1 8.
+Kxf1 d6 9. Nf3 Nbd7 10. g3 Bg7 11. Kg2 O-O 12. Qe2 Nb6 13. a4 Ng4 14. a5 Nd7
+15. Nd2 h5 16. h3 Ngf6 17. Nc4 Ne5 18. Nxe5 dxe5 19. a6 Qd6 20. a7 Qd7 21. Qa6
+Rfc8 22. f3 Rc7 23. Nb5 Rb7 24. Ra5 Ne8 25. Bd2 Nd6 26. Nxd6 exd6 27. Rha1 Rxb2
+28. R1a2 Rb7 29. Qc6 Qe7 30. Qa4 Kh7 31. Be3 Bh6 32. Bf2 f5 33. Qc6 Bf8 34. Ra6
+Raxa7 35. Rxa7 Rxa7 36. Rxa7 Qxa7 37. exf5 gxf5 38. Qe8 Kg7 39. Qxh5 Qf7 40.
+Qxf7+ Kxf7 41. Kf1 Bh6 42. Ke2 Kf6 1/2-1/2

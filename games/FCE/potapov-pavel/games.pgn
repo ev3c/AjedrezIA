@@ -1,0 +1,111 @@
+[Event "Platja d'Aro op 5th"]
+[Site "Platja d'Aro"]
+[Date "2017.06.25"]
+[Round "1"]
+[White "Chan, Naruna"]
+[Black "Potapov, Pavel"]
+[Result "1/2-1/2"]
+[ECO "A88"]
+[WhiteElo "2041"]
+[BlackElo "2492"]
+[PlyCount "53"]
+[EventDate "2017.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 f5 2. c4 Nf6 3. Nf3 g6 4. Nc3 Bg7 5. g3 O-O 6. Bg2 d6 7. O-O c6 8. Re1
+Ne4 9. Qb3 Nxc3 10. bxc3 Kh8 11. e4 fxe4 12. Rxe4 Nd7 13. Ba3 Bf6 14. Rae1 a5
+15. h4 a4 16. Qd1 Nb6 17. Bf1 Bf5 18. R4e3 Qd7 19. Ng5 Bxg5 20. hxg5 Rf7 21. f3
+Bh3 22. Bd3 Bf5 23. Bc1 Bxd3 24. Qxd3 d5 25. c5 Nc4 26. Re6 Raf8 27. Bf4
+1/2-1/2
+
+[Event "Platja d'Aro op 5th"]
+[Site "Platja d'Aro"]
+[Date "2017.06.26"]
+[Round "2"]
+[White "Potapov, Pavel"]
+[Black "Kasparova, Tatiana"]
+[Result "1-0"]
+[ECO "C41"]
+[WhiteElo "2492"]
+[BlackElo "2190"]
+[PlyCount "49"]
+[EventDate "2017.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 e5 4. Nf3 Nbd7 5. Bc4 Be7 6. O-O O-O 7. a4 c6 8. Re1
+b6 9. Ba2 a6 10. h3 Bb7 11. Bg5 b5 12. Bxf6 Bxf6 13. d5 Qc8 14. dxc6 Bxc6 15.
+Bd5 bxa4 16. Bxc6 Qxc6 17. Rxa4 Nb6 18. Ra2 Rac8 19. Re2 Bd8 20. Rd2 Bc7 21.
+Rd3 g6 22. b3 Kg7 23. Nd5 Nxd5 24. Rxd5 Rfd8 25. Ra4 1-0
+
+[Event "Platja d'Aro op 5th"]
+[Site "Platja d'Aro"]
+[Date "2017.06.27"]
+[Round "3"]
+[White "Matsenko, Sergei"]
+[Black "Potapov, Pavel"]
+[Result "1-0"]
+[ECO "A04"]
+[WhiteElo "2526"]
+[BlackElo "2492"]
+[PlyCount "71"]
+[EventDate "2017.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. Nf3 f5 2. d3 Nc6 3. d4 e6 4. g3 Nf6 5. Bg2 Be7 6. O-O d6 7. c4 O-O 8. d5 Ne5
+9. Qb3 Nxf3+ 10. exf3 e5 11. f4 Kh8 12. Nc3 a5 13. Re1 Nd7 14. Qc2 Bf6 15. fxe5
+Nxe5 16. Ne2 Re8 17. Bd2 Bd7 18. Nf4 g6 19. Bc3 Bg7 20. Rad1 Re7 21. c5 Qe8 22.
+Ne6 Bxe6 23. dxe6 Rxe6 24. Bxb7 Rb8 25. Bd5 Re7 26. cxd6 cxd6 27. Bg2 Rc8 28.
+Qd2 Re6 29. Bd5 Re7 30. Bxa5 f4 31. Bc3 g5 32. Bg2 Rd8 33. Qd5 Qh5 34. a4 Rde8
+35. a5 Re6 36. a6 1-0
+
+[Event "Platja d'Aro op 5th"]
+[Site "Platja d'Aro"]
+[Date "2017.06.28"]
+[Round "4"]
+[White "Potapov, Pavel"]
+[Black "Perez Calahorra, Ricardo"]
+[Result "1-0"]
+[ECO "C85"]
+[WhiteElo "2492"]
+[BlackElo "2096"]
+[PlyCount "58"]
+[EventDate "2017.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Bxc6 dxc6 7. d3 Qd6 8.
+b3 Bg4 9. Bb2 Nd7 10. h3 h5 11. Nbd2 Qg6 12. Kh1 O-O-O 13. Qe1 Qe6 14. Nh2 Qh6
+15. Nc4 f6 16. Qe3 Bc5 17. Qxh6 Rxh6 18. Rae1 Be6 19. Ne3 Bxe3 20. Rxe3 g5 21.
+h4 gxh4 22. f4 Bg4 23. Bc3 Rg8 24. f5 Rh7 25. Be1 Rhg7 26. Bxh4 c5 27. Rf2 c6
+28. Rf1 Kc7 29. Rfe1 b5 1-0

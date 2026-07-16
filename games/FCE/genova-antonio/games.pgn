@@ -1,0 +1,79 @@
+[Event "Berga Tancat"]
+[Site "Berga"]
+[Date "1950.08.23"]
+[Round "9"]
+[White "Genova, Antonio"]
+[Black "Ribera Arnal, Angel"]
+[Result "0-1"]
+[ECO "C58"]
+[PlyCount "70"]
+[EventDate "1950.08.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Ng5 d5 5. exd5 Na5 6. Bb5+ c6 7. dxc6 bxc6 8.
+Qf3 Qc7 9. h3 Bd6 10. Nc3 O-O 11. Bd3 h6 12. Nge4 Nxe4 13. Nxe4 f5 14. Nxd6
+Qxd6 15. Qe2 e4 16. Bc4+ Nxc4 17. Qxc4+ Be6 18. Qc3 f4 19. b3 e3 20. dxe3 Rad8
+21. Bb2 Rf6 22. Qa5 Rf5 23. Qc3 Rg5 24. Ke2 Rxg2 25. Rag1 Bxh3 26. Rxg2 f3+ $1
+27. Kxf3 Bxg2+ 28. Ke2 Qg6 29. Rh4 Rd7 30. Rf4 Qh5+ 31. f3 Qh1 (31... Bf1+ $3)
+32. Qc4+ Kh7 33. Qe4+ g6 34. Rf7+ Rxf7 35. Qd4 Bxf3+ 0-1
+
+[Event "Berga Tancat"]
+[Site "Berga"]
+[Date "1951.08.24"]
+[Round "10"]
+[White "Genova, Antonio"]
+[Black "Ribera Arnal, Angel"]
+[Result "0-1"]
+[ECO "B76"]
+[PlyCount "64"]
+[EventDate "1951.08.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2
+Nc6 9. O-O-O Nxd4 10. Bxd4 Be6 11. g4 Qa5 12. Kb1 Rfc8 13. a3 Rab8 14. Nd5 Qxd2
+15. Nxf6+ Bxf6 16. Rxd2 Bxd4 17. Rxd4 Rc5 18. h4 f5 19. gxf5 gxf5 20. Rg1+ Kf7
+21. exf5 Bxf5 22. Bd3 Rg8 23. Rxg8 Kxg8 24. b4 Re5 25. Be4 Bxe4 26. Rxe4 Rxe4
+27. fxe4 Kf7 28. c4 Kg6 29. Kc2 Kh5 30. e5 Kxh4 31. c5 dxc5 32. bxc5 Kg5 0-1
+
+[Event "Berga Tancat"]
+[Site "Berga"]
+[Date "1952.??.??"]
+[Round "7"]
+[White "Genova, Antonio"]
+[Black "Donner, Hans Heinz"]
+[Result "0-1"]
+[ECO "C10"]
+[PlyCount "50"]
+[EventDate "1952.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. e4 e6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Be7 5. Nf3 Nf6 6. Nxf6+ Bxf6 7. Bd3 Nd7
+8. Be3 c5 9. c3 cxd4 10. Bxd4 Bxd4 11. Nxd4 O-O 12. O-O e5 13. Nf3 f5 14. Bc4+
+Kh8 15. Qe2 e4 16. Nd4 Ne5 17. Rad1 Qf6 18. Rfe1 f4 19. Nb5 Bg4 20. f3 Nxc4 21.
+Qxc4 exf3 22. Rd2 fxg2 23. Nd6 f3 24. Ne4 Qb6+ 25. Nf2 Rae8 0-1
+
+[Event "Berga Tancat"]
+[Site "Berga"]
+[Date "1954.08.??"]
+[Round "4"]
+[White "Ribera Arnal, Angel"]
+[Black "Genova, Antonio"]
+[Result "1-0"]
+[ECO "E29"]
+[PlyCount "49"]
+[EventDate "1954.08.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. a3 Bxc3+ 6. bxc3 c5 7. Bd3 Nc6 8.
+Ne2 d6 9. O-O b6 10. e4 Ne8 11. Be3 cxd4 12. cxd4 Qe7 13. Ng3 Bb7 14. Rc1 Rc8
+15. f4 Na5 16. f5 Qh4 17. Rf4 Qe7 18. Qh5 Nf6 19. Qh3 h6 20. Rh4 Rfd8 21. Bxh6
+gxh6 22. Rxh6 Kg7 23. Qh4 Rg8 24. Rxf6 Kf8 25. Qh6+ 1-0

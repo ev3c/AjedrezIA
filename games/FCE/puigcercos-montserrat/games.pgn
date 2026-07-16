@@ -1,0 +1,184 @@
+[Event "Camp. C. E. Barcelona fem."]
+[Site "Barcelona"]
+[Date "1932.12.18"]
+[Round "1"]
+[White "Puigcercos, Montserrat"]
+[Black "Santasusagna, Herminia"]
+[Result "1-0"]
+[ECO "D37"]
+[Annotator "Travesset, Joaquim"]
+[PlyCount "41"]
+[EventDate "1932.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Bd6 5. Bg5 O-O 6. e3 Re8 7. c5 $6 (7. cxd5
+$142 exd5 8. Nxd5 $14) 7... Be7 8. Bd3 Nc6 9. O-O Nb4 10. a3 (10. Bb5) 10...
+Nxd3 11. Qxd3 b6 12. c6 $5 {Parece una buena estrategia} (12. b4 {no era
+despreciable}) 12... Qd6 13. Ne5 a5 14. f4 $2 (14. b4 $142) 14... Ba6 15. Nb5
+Qd8 $6 (15... Bxb5 $1 16. Qxb5 Ne4 $36) 16. a4 Nh5 {El salto de caballo era
+bueno... pero a e4.} (16... Ne4 $1 17. Bxe7 Qxe7 $15) 17. Qe2 $1 h6 $4 (17...
+g6) 18. Bxh6 $2 (18. Qxh5 $142 $18) (18. Bxe7 $142) 18... gxh6 $4 {Dos graves
+errores consecutivos entregan la partida.} 19. Qxh5 Kh7 20. Qxf7+ Kh8 21. Ng6#
+{A partir del medio juego la jovencita Santasusagna se desfondó.} 1-0
+
+[Event "Camp. C. E. Barcelona fem."]
+[Site "Barcelona"]
+[Date "1933.01.08"]
+[Round "4"]
+[White "Nacher, Manolita"]
+[Black "Puigcercos, Montserrat"]
+[Result "1/2-1/2"]
+[ECO "D31"]
+[Annotator "Travesset, Joaquim"]
+[PlyCount "128"]
+[EventDate "1932.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. Nf3 Nc6 5. Bf4 Nf6 6. e3 Bb4 7. a3 Bxc3+ 8.
+bxc3 Ne4 9. cxd5 exd5 (9... Nxc3 $5 10. Qc2 Nxd5 11. Bg3 O-O 12. Bd3 {y el
+blanco, a pesar de la entrega de peón está mejor.}) 10. Qb3 Ne7 11. c4 b6 12.
+cxd5 Qxd5 13. Qxd5 Nxd5 14. Bc4 c6 $6 (14... Nxf4 $142) 15. Be5 O-O 16. O-O f6
+17. Bf4 b5 18. Ba2 Bg4 (18... Be6 $142) 19. Rfc1 Rac8 $2 (19... Bd7 $142) 20.
+Rxc6 $1 Nec3 (20... Rxc6 21. Bxd5+ Re6 22. h3 $18) 21. Rxc8 Bxc8 22. Bg3 Kh8
+23. Bxd5 Nxd5 24. Bd6 Rd8 25. Rc1 h6 26. h3 Nb6 $2 27. Bc7 Re8 28. Rc5 Nc4 29.
+Rxb5 (29. a4 $142) 29... Nxa3 30. Ra5 Re7 31. Bd6 Nc4 $1 32. Bxe7 Nxa5 33. Nd2
+Nc6 (33... Be6) 34. Ba3 a5 35. d5 Nb8 (35... Nb4) 36. Nc4 Bb7 37. d6 a4 38. Nb2
+Bc6 39. Kf1 Kg8 40. Ke2 Kf7 (40... Bxg2 $142 $11) 41. Kd3 Ke6 42. Kd4 Nd7 (
+42... Bxg2 $142 $11) 43. Nd3 Ne5 44. Nxe5 $6 (44. Nc5+ $142) (44. Kc5) 44...
+fxe5+ 45. Kc5 Bd7 (45... Bxg2 $142) 46. f4 e4 47. Kd4 Bc6 48. g3 h5 49. g4 g6
+50. Kc5 Bd7 51. Kb6 hxg4 52. hxg4 Kd5 $4 {Este error podría haber costado la
+partida.} (52... Kf7 $142 53. Kc7 Ke8 54. g5 Be6 $11) (52... Be8 $142 53. Kc7
+Bb5 54. f5+ gxf5 55. gxf5+ (55. g5 f4 $1 $11) 55... Kxf5 56. d7 Bxd7 57. Kxd7
+Kg4 58. Ke6 Kf3 59. Bc5 a3 $11) 53. Kc7 (53. g5 Ke6 54. Kc7 $11) 53... Bxg4 54.
+d7 Bxd7 55. Kxd7 Kc4 56. Ke6 Kd3 57. Bc5 a3 58. Bxa3 $4 {Nacher pierde una
+oportunidad única para ganar.} (58. Bd4 $3 a2 59. Kf6 a1=Q 60. Bxa1 Kxe3 61.
+Be5 Kf3 62. Kxg6 e3 63. f5 $18) 58... Kxe3 59. Ke5 Kf3 60. Bc5 e3 61. Bb4 e2
+62. Bd2 Kf2 63. Ke4 (63. Kf6 Kf3 64. Kg5 Ke4 $11) 63... e1=Q+ 64. Bxe1+ Kxe1
+$11 1/2-1/2
+
+[Event "Camp. C. E. Barcelona fem."]
+[Site "Barcelona"]
+[Date "1932.02.12"]
+[Round "9"]
+[White "Ruiz, Sofia"]
+[Black "Puigcercos, Montserrat"]
+[Result "0-1"]
+[ECO "C53"]
+[Annotator "Travesset, Joaquim"]
+[PlyCount "80"]
+[EventDate "1932.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 d6 5. d4 Bb6 6. Ng5 Nh6 7. Qf3 Qf6 (7...
+Qe7) 8. Qxf6 gxf6 9. Nf3 Ng8 10. d5 Nce7 11. Bb5+ Bd7 12. Bxd7+ Kxd7 13. O-O f5
+14. Ng5 Rf8 15. Nd2 f6 16. Ne6 Rf7 17. Nc4 (17. exf5) 17... fxe4 18. Nxb6+ axb6
+19. c4 c6 20. Rd1 cxd5 21. cxd5 Nxd5 22. Rxd5 Kxe6 23. Rb5 Ne7 24. Rxb6 Nd5 25.
+Rb3 Rc7 26. h3 Rhc8 27. Bh6 f5 28. Rd1 f4 29. Rb5 Nf6 30. Rb6 Ne8 31. Bf8 Rc1
+32. Rxc1 Rxc1+ 33. Kh2 Rc2 34. Rxb7 Nf6 35. a4 (35. Kg1 Rc1+ 36. Kh2 Rf1) 35...
+Rxf2 36. a5 f3 37. Kg1 e3 38. a6 (38. gxf3 Rxf3 39. Kg2 e2) 38... Rxg2+ 39. Kf1
+e2+ 40. Ke1 Rg1+ 0-1
+
+[Event "Vilafranca-C. E. Barcelona m amistos"]
+[Site "Vilafranca del Penedes"]
+[Date "1933.??.??"]
+[Round "?"]
+[White "Puigcercos, Montserrat"]
+[Black "Vivo, J."]
+[Result "1-0"]
+[ECO "D31"]
+[PlyCount "87"]
+[EventDate "1933.04.30"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. d4 e6 2. c4 d5 3. Nc3 Bb4 4. Nf3 c5 5. e3 Nf6 6. a3 Bxc3+ 7. bxc3 b6 8. cxd5
+Qxd5 9. Bd3 c4 10. Be2 Nc6 11. Rb1 Ne4 12. Bb2 Rb8 13. Nd2 Nxd2 14. Qxd2 Qxg2
+15. Rf1 Na5 16. h4 Bb7 17. Qd1 O-O 18. a4 Be4 19. Ba3 Rfd8 20. Rb2 Rbc8 21. Bb4
+Rd5 22. Bxa5 Rxa5 23. Rb4 Bd5 24. Qa1 Qh3 25. h5 Bg2 26. Rg1 Qh2 27. Kd2 e5 28.
+Bxc4 Bc6 29. d5 Qxf2+ 30. Kd3 Rd8 31. e4 Bxd5 32. exd5 Rdxd5+ 33. Bxd5 Rxd5+
+34. Kc4 Rc5+ 35. Kb3 Qd2 36. Rd1 Rxc3+ 37. Qxc3 Qxd1+ 38. Ka3 f6 39. Qc4+ Kf8
+40. Qe6 Qxh5 41. Rc4 Qf3+ 42. Kb4 a5+ 43. Kb5 Qb3+ 44. Ka6 1-0
+
+[Event "Mollet sim"]
+[Site "?"]
+[Date "1934.??.??"]
+[Round "?"]
+[White "Lilienthal, Andor"]
+[Black "Puigcercos, Montserrat"]
+[Result "1/2-1/2"]
+[ECO "D43"]
+[PlyCount "90"]
+[EventDate "1934.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. Bg5 Be7 6. cxd5 cxd5 7. Rc1 Nc6 8. e3
+a6 9. Bd3 Nb4 10. O-O O-O 11. Bb1 Re8 12. a3 Nc6 13. Qd3 g6 14. Ne5 Nxe5 15.
+dxe5 Nd7 16. Bf4 Bg5 17. Bg3 f5 18. Ba2 Nb6 19. f4 Bh6 20. Ne2 Bd7 21. Nd4 Rc8
+22. Rfd1 Qe7 23. Be1 Bf8 24. Ba5 Na4 25. Bb4 Qf7 26. Bxf8 Qxf8 27. Qb3 b5 28.
+Rc2 Nc5 29. Qb4 Rc7 30. Rdc1 Rec8 31. a4 Kg7 32. axb5 axb5 33. Nxb5 Bxb5 34.
+Qxb5 Qe7 35. Qb6 Rc6 36. Qb4 Qc7 37. Qa3 Qb6 38. h3 Ne4 39. Qe7+ Kg8 40. Rxc6
+Rxc6 41. Qe8+ Kg7 42. Qxc6 Qxe3+ 43. Kh2 Qg3+ 44. Kh1 Nf2+ 45. Kg1 Nxh3+
+1/2-1/2
+
+[Event "Mollet m"]
+[Site "Mollet"]
+[Date "1935.07.??"]
+[Round "1"]
+[White "Velat de Colominas, Gloria"]
+[Black "Puigcercos, Montserrat"]
+[Result "1-0"]
+[ECO "D02"]
+[PlyCount "65"]
+[EventDate "1935.07.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. Nf3 c6 2. d4 d5 3. e3 Nf6 4. Bd3 e6 5. Nbd2 Be7 6. O-O Nbd7 7. Re1 Qc7 8. e4
+dxe4 9. Nxe4 b6 10. Qe2 Bb7 11. Nxf6+ Nxf6 12. Ne5 Bd6 13. Bg5 Bxe5 14. dxe5
+Nd5 15. a3 Ne7 16. Rad1 O-O-O 17. Rd2 h6 18. Bxe7 Qxe7 19. Red1 Kb8 20. Qg4 f6
+21. exf6 gxf6 22. Bc4 Rxd2 23. Rxd2 f5 24. Qf4+ Ka8 25. Qe5 Re8 26. h3 a6 27.
+Rd6 Qg5 28. Rxe6 Rxe6 29. Bxe6 c5 30. Bd5 Qc1+ 31. Kh2 Qxc2 32. Qe8+ Ka7 33.
+Qd7 1-0
+
+[Event "Mollet m"]
+[Site "Mollet"]
+[Date "1935.07.??"]
+[Round "2"]
+[White "Puigcercos, Montserrat"]
+[Black "Velat de Colominas, Gloria"]
+[Result "1-0"]
+[ECO "D05"]
+[PlyCount "43"]
+[EventDate "1935.07.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 Nf6 3. e3 e6 4. Bd3 b6 5. Nbd2 Bb7 6. c3 Be7 7. O-O O-O 8. Re1
+Nbd7 9. Qc2 h6 10. b3 Rc8 11. c4 dxc4 12. bxc4 Bb4 13. e4 Kh8 14. Rb1 Bxd2 15.
+Bxd2 Re8 16. Qc1 e5 17. dxe5 Nxe5 18. Nxe5 Rxe5 19. Bc3 Re6 20. Bc2 Nxe4 $4 21.
+Bxe4 Rxe4 22. Qxh6+ 1-0
+
+[Event "Mollet m"]
+[Site "Mollet"]
+[Date "1936.??.??"]
+[Round "?"]
+[White "Puigcercos, Montserrat"]
+[Black "Graf, Sonia"]
+[Result "0-1"]
+[ECO "D04"]
+[PlyCount "44"]
+[EventDate "1936.??.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. e3 Nf6 3. Nf3 c5 4. Bd3 Nc6 5. c3 e6 6. Nbd2 c4 7. Bc2 b5 8. a3 Qc7
+9. e4 Be7 10. e5 Nd7 11. O-O g5 12. Ne1 h5 13. g3 h4 14. Ndf3 Rg8 15. Kh1 Bb7
+16. Rg1 O-O-O 17. Bd2 hxg3 18. hxg3 Ncxe5 19. Nxg5 Bxg5 20. Bxg5 Rxg5 21. f4
+Ng4 22. Qe2 Rh5+ 0-1

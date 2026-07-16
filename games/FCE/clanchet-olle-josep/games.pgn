@@ -1,0 +1,662 @@
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.04"]
+[Round "1"]
+[White "Patil, Pratik"]
+[Black "Clanchet Olle, Josep"]
+[Result "1-0"]
+[ECO "C26"]
+[WhiteElo "2219"]
+[BlackElo "1733"]
+[PlyCount "117"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Bc4 Nf6 3. d3 Bc5 4. Nc3 d6 5. Na4 Bb6 6. Nxb6 axb6 7. f4 Nc6 8.
+Nf3 Bg4 9. c3 d5 10. exd5 Nxd5 11. O-O O-O 12. h3 Bxf3 13. Qxf3 Nxf4 14. Bxf4
+exf4 15. Qxf4 Qd7 16. d4 Rae8 17. Rf3 Nd8 18. Raf1 Re7 19. Rg3 Rfe8 20. Qh6 g6
+21. Rf4 Re1+ 22. Kh2 Ne6 23. Rh4 Nf8 24. Rf3 Qd6+ 25. Qf4 Ne6 26. Qxd6 cxd6 27.
+Rf1 Ng5 28. Rhf4 Rxf1 29. Rxf1 Re7 30. h4 Ne6 31. Bd5 Kg7 32. Rf2 Nd8 33. g4
+Nc6 34. g5 b5 35. Rf6 Rd7 36. Kg2 Nd8 37. Kf2 b6 38. a3 h5 39. Bf3 Ne6 40. Bc6
+Re7 41. Bxb5 Nc7 42. a4 Re6 43. Rxe6 fxe6 44. Bc4 Kf7 45. Ke3 Ne8 46. b4 d5 47.
+Bd3 Nd6 48. a5 bxa5 49. bxa5 Nc8 50. a6 Na7 51. Kd2 Nc6 52. Kc2 Na7 53. Kb3 Nc6
+54. Ka4 Na7 55. Kb4 Kg7 56. Kc5 Nc8 57. Kc6 Kf7 58. Kc7 Na7 59. Kb7 1-0
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.05"]
+[Round "2"]
+[White "Clanchet Olle, Josep"]
+[Black "Ezquerro Luque, Albert"]
+[Result "0-1"]
+[ECO "C54"]
+[WhiteElo "1733"]
+[BlackElo "2110"]
+[PlyCount "82"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. e5 d5 7. exf6 dxc4 8.
+O-O Qxf6 9. Bg5 Qd6 10. Re1+ Be6 11. cxd4 Nxd4 12. Nc3 O-O 13. Ne4 Qb6 14. Nxc5
+Nxf3+ 15. Qxf3 Qxc5 16. Qg3 Qf5 17. Bf4 Rfd8 18. Bxc7 Rd3 19. Qe5 Qg4 20. Re4
+Rd1+ 21. Rxd1 Qxd1+ 22. Re1 Qc2 23. Qd4 Qg6 24. Rd1 h6 25. Qd6 Rc8 26. Ba5 Rc6
+27. Qd8+ Kh7 28. Bc3 Bh3 29. g3 Bg4 30. Re1 Rd6 31. Qf8 Rd3 32. Re8 Rd1+ 33.
+Be1 Qb1 34. Qb4 Bh3 35. Qe7 Qd3 36. Qe4+ f5 37. Qxd3 cxd3 38. f4 d2 39. Kf2
+dxe1=Q+ 40. Rxe1 Rxe1 41. Kxe1 Bg2 0-1
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.06"]
+[Round "3"]
+[White "Rueda Marquez, David J"]
+[Black "Clanchet Olle, Josep"]
+[Result "1-0"]
+[ECO "C64"]
+[WhiteElo "2066"]
+[BlackElo "1733"]
+[PlyCount "55"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Bc5 4. O-O d6 5. c3 Bd7 6. d4 Bb6 7. Na3 Nf6 8. Bg5
+h6 9. Bxf6 Qxf6 10. Nc4 O-O-O 11. a4 a6 12. Nxb6+ cxb6 13. Bxc6 Bxc6 14. d5 Bd7
+15. Nd2 Qg6 16. Nc4 Bh3 17. Qf3 Bg4 18. Qe3 f5 19. f3 Bh3 20. Rf2 fxe4 21. fxe4
+Bg4 22. Raf1 h5 23. Qxb6 h4 24. Na5 Kd7 25. Rf7+ Ke8 26. Nxb7 Rd7 27. Rxd7 Bxd7
+28. Qd8# 1-0
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.07"]
+[Round "4"]
+[White "Garcia Mosquera, David"]
+[Black "Clanchet Olle, Josep"]
+[Result "0-1"]
+[ECO "C65"]
+[WhiteElo "2045"]
+[BlackElo "1733"]
+[PlyCount "52"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Bc5 4. O-O Nf6 5. b4 Bb6 6. Bb2 Nxe4 7. d3 Ng5 8.
+Nxe5 Nxe5 9. Bxe5 O-O 10. d4 d6 11. Bf4 Qf6 12. Be3 c5 13. bxc5 dxc5 14. dxc5
+Bc7 15. Bd4 Qf4 16. g3 Nf3+ 17. Kg2 Qe4 18. Kh1 Bh3 19. Nc3 Bg2+ 20. Kxg2 Ne1+
+21. Kh3 Qg2+ 22. Kh4 Nf3+ 23. Qxf3 Qxf3 24. Be2 g5+ 25. Kxg5 Bd8+ 26. Kh6 Qf5
+0-1
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.08"]
+[Round "5"]
+[White "Clanchet Olle, Josep"]
+[Black "Arus Blanch, Daniel"]
+[Result "0-1"]
+[ECO "B52"]
+[WhiteElo "1733"]
+[BlackElo "2052"]
+[PlyCount "84"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Qe2 Nc6 5. Nc3 Nf6 6. Bxc6 Bxc6 7. d4 cxd4 8.
+Nxd4 g6 9. Nxc6 bxc6 10. Bf4 Nh5 11. Bg3 Bg7 12. Qa6 Qc7 13. O-O O-O 14. Rfd1
+Nxg3 15. hxg3 Rab8 16. Rab1 Qb6 17. Qc4 Rfc8 18. Na4 Qb4 19. b3 Qxc4 20. bxc4
+c5 21. Rb3 Rb4 22. Rxb4 cxb4 23. c5 Rc6 24. cxd6 exd6 25. Rb1 Rc4 26. f3 Bf6
+27. Rd1 Rxc2 28. Rxd6 Rxa2 29. Rxf6 Rxa4 30. Rd6 b3 31. Rd8+ Kg7 32. Rb8 Ra3
+33. Kf2 a5 34. Ke2 a4 35. Kd2 Ra2+ 36. Kc3 Rxg2 37. g4 h5 38. gxh5 gxh5 39. Kb4
+h4 40. Kxa4 h3 41. Rb5 h2 42. Rh5 b2 0-1
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.09"]
+[Round "6"]
+[White "Clanchet Olle, Josep"]
+[Black "Ros Alonso, Jaume"]
+[Result "0-1"]
+[ECO "B43"]
+[WhiteElo "1733"]
+[BlackElo "2109"]
+[PlyCount "72"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Nc3 Qc7 6. Be2 Nf6 7. O-O Be7 8. f4
+d6 9. e5 dxe5 10. fxe5 Qxe5 11. Bf4 Qa5 12. Be3 O-O 13. Nb3 Qc7 14. Rf4 b5 15.
+Bf3 Bb7 16. Bxb7 Qxb7 17. Bc5 Bxc5+ 18. Nxc5 Qb6 19. Qd4 e5 20. Rxf6 Qxf6 21.
+Qd5 Ra7 22. N3e4 Qf4 23. Rd1 Rc7 24. Qd6 Rc6 25. Qd5 Rcc8 26. Qd6 h6 27. Rf1
+Qe3+ 28. Kh1 Nc6 29. Qd7 Nd4 30. c3 Qe2 31. Rg1 Rcd8 32. Qc7 Nf3 33. Nf6+ Kh8
+34. Nfd7 Nxg1 35. Nxf8 Rd1 36. Ng6+ fxg6 0-1
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.10"]
+[Round "7"]
+[White "Hernandez Requena, Francesc"]
+[Black "Clanchet Olle, Josep"]
+[Result "1-0"]
+[ECO "C64"]
+[WhiteElo "1718"]
+[BlackElo "1733"]
+[PlyCount "71"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Bc5 4. c3 Nf6 5. O-O Nxe4 6. d4 exd4 7. cxd4 Be7 8.
+d5 Nb4 9. a3 Na6 10. Re1 f5 11. d6 Nxd6 12. Bg5 Ne4 13. Nc3 O-O 14. Bxe7 Qxe7
+15. Bxa6 bxa6 16. Qd5+ Kh8 17. Nxe4 c6 18. Qd6 Qxd6 19. Nxd6 a5 20. Re7 Ba6 21.
+Rae1 h6 22. h4 Rab8 23. h5 Rxb2 24. Ne5 Rfb8 25. Ng6+ Kh7 26. Nxf5 Rg8 27. Re8
+Rb8 28. Rxb8 Rxb8 29. Re7 Rg8 30. Rxd7 Bc8 31. Rf7 Bxf5 32. Rxf5 Rc8 33. Rf8
+Rxf8 34. Nxf8+ Kg8 35. Nd7 a6 36. Kf1 1-0
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.11"]
+[Round "8"]
+[White "Molano Lafuente, Ismael"]
+[Black "Clanchet Olle, Josep"]
+[Result "1/2-1/2"]
+[ECO "A22"]
+[WhiteElo "1940"]
+[BlackElo "1733"]
+[PlyCount "34"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 e5 2. Nc3 Nf6 3. e4 Bc5 4. d3 Nc6 5. Be3 Bxe3 6. fxe3 d6 7. Be2 O-O 8.
+Nf3 Ng4 9. Qd2 f5 10. exf5 Bxf5 11. e4 Bd7 12. O-O Nd4 13. Nxd4 Rxf1+ 14. Rxf1
+exd4 15. Nd5 c6 16. Bxg4 Bxg4 17. Nf4 Qe7 1/2-1/2
+
+[Event "Ciutat de Sabadell op B"]
+[Site "Sabadell"]
+[Date "2016.09.06"]
+[Round "6"]
+[White "Campos Cayuelas, Adria"]
+[Black "Clanchet Olle, Josep"]
+[Result "1-0"]
+[ECO "C26"]
+[WhiteElo "2020"]
+[BlackElo "1687"]
+[PlyCount "71"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Bc4 Nf6 3. d3 Bc5 4. Nc3 d6 5. Na4 Bb6 6. Nxb6 axb6 7. f4 Bg4 8.
+Nf3 Nc6 9. O-O Nd4 10. fxe5 Bxf3 11. gxf3 dxe5 12. f4 Nc6 13. Kh1 Qd7 14. fxe5
+Nxe5 15. Bb3 Qh3 16. Bf4 Ng6 17. Bg5 O-O-O 18. Qf3 Qxf3+ 19. Rxf3 Ne5 20. Rf5
+Rde8 21. Bxf6 gxf6 22. Rxf6 Ref8 23. Raf1 Kd8 24. Bxf7 Ng4 25. R6f4 Ne3 26.
+R1f2 Nd1 27. R2f3 Nxb2 28. Bb3 Ke7 29. Rf7+ Rxf7 30. Rxf7+ Kd6 31. d4 Re8 32.
+e5+ Kc6 33. d5+ Kb5 34. e6 Nc4 35. Rf4 Nd6 36. Ba4+ 1-0
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.01.14"]
+[Round "1"]
+[White "Moreno Lopez, Maximiliano"]
+[Black "Clanchet Olle, Josep"]
+[Result "0-1"]
+[ECO "C44"]
+[WhiteElo "1368"]
+[BlackElo "1701"]
+[PlyCount "58"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. c4 Bc5 4. Qe2 Nf6 5. Nc3 Ng4 6. Nd1 d6 7. d3 Be6 8. h3
+Nf6 9. Be3 Qd7 10. a3 Nd4 11. Nxd4 Bxd4 12. Qf3 Bxe3 13. Nxe3 b5 14. Be2 bxc4
+15. dxc4 Rb8 16. Qg3 O-O 17. b4 Nxe4 18. Qh4 Nc3 19. Bd3 e4 20. Be2 f5 21. g4
+f4 22. Nf5 Bxf5 23. gxf5 Qxf5 24. Qe7 Rf7 25. Qh4 Rbf8 26. Kd2 Qe5 27. Rhg1 e3+
+28. Kc1 Ne4 29. f3 Qxa1+ 0-1
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.01.21"]
+[Round "2"]
+[White "Clanchet Olle, Josep"]
+[Black "Prat Rabell, Josep M"]
+[Result "1/2-1/2"]
+[ECO "B53"]
+[WhiteElo "1701"]
+[BlackElo "1926"]
+[PlyCount "90"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Qxd4 Nc6 5. Bb5 Bd7 6. Bxc6 Bxc6 7. Nc3 Nf6 8.
+Bg5 e5 9. Qd3 Rc8 10. O-O Be7 11. Rad1 a6 12. Rfe1 Qc7 13. Nh4 g6 14. Nf3 Rd8
+15. Bxf6 Bxf6 16. Nd5 Bxd5 17. Qxd5 O-O 18. c4 b6 19. Nd2 Rc8 20. b3 Rfd8 21.
+Nf1 Qa7 22. Ne3 Bg7 23. Qd3 a5 24. Nd5 Rc5 25. a4 Rcc8 26. Re3 Rb8 27. Rh3 Qd7
+28. Qg3 Rb7 29. Qh4 h5 30. Rdd3 Qg4 31. Qxg4 hxg4 32. Rhe3 f5 33. f3 Bh6 34.
+Re2 gxf3 35. Rxf3 f4 36. g3 g5 37. h3 Kf7 38. Kg2 Ke6 39. g4 Rh8 40. Rd2 Bf8
+41. Rfd3 Rh6 42. Nc3 Rf7 43. Rf3 Rc7 44. Nb5 Rd7 45. Rfd3 Be7 1/2-1/2
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.01.28"]
+[Round "3"]
+[White "Clanchet Olle, Josep"]
+[Black "De Paz San Martin, Jose Angel"]
+[Result "0-1"]
+[ECO "C62"]
+[WhiteElo "1701"]
+[BlackElo "1964"]
+[PlyCount "96"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 d6 3. d4 exd4 4. Qxd4 Nc6 5. Bb5 Bd7 6. Bxc6 Bxc6 7. Nc3 Nf6 8.
+Bf4 Be7 9. O-O-O O-O 10. e5 Bxf3 11. gxf3 dxe5 12. Bxe5 Qxd4 13. Rxd4 c5 14.
+Rd2 Rad8 15. Rhd1 Rxd2 16. Rxd2 Rd8 17. Ne4 Nd5 18. c4 Nb4 19. Rxd8+ Bxd8 20.
+Kd2 b6 21. a3 Nc6 22. Bc3 f5 23. Nd6 g6 24. b4 Bc7 25. bxc5 bxc5 26. Nb7 Bxh2
+27. Nxc5 Ne5 28. Bxe5 Bxe5 29. Nd3 Bd4 30. f4 Kf7 31. Ke2 Ke6 32. Nb4 Kd6 33.
+Nd3 Bc5 34. a4 Bd4 35. Kf3 Kc6 36. Ne5+ Kc5 37. Kg3 a5 38. Nd7+ Kxc4 39. Nf8
+Bc5 40. Nxh7 Be7 41. Ng5 Kb4 42. Ne6 Kxa4 43. Nd4 Bc5 44. Ne6 Kb4 45. Nc7 a4
+46. Na6+ Kc4 47. Kf3 a3 48. Nxc5 Kxc5 0-1
+
+[Event "Hospitalet de Llobregat Ponce 3rd"]
+[Site "Hospitalet de Llobregat"]
+[Date "2017.04.01"]
+[Round "1"]
+[White "Clanchet Olle, Josep"]
+[Black "Gomez Pardo Gordillo, Victor"]
+[Result "0-1"]
+[ECO "C14"]
+[WhiteElo "1693"]
+[BlackElo "2152"]
+[PlyCount "56"]
+[EventDate "2017.04.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Be7 5. Bxf6 Bxf6 6. Nf3 O-O 7. Bd3 b6 8. e5
+Be7 9. h4 g6 10. h5 g5 11. h6 Kh8 12. Qd2 Rg8 13. O-O-O c5 14. Nb5 g4 15. Bxh7
+Kxh7 16. Qd3+ Rg6 17. Nh2 Ba6 18. a4 c4 19. Qe2 Bxb5 20. axb5 a6 21. Nxg4 axb5
+22. Qf3 Bg5+ 23. Kb1 Qe7 24. Nf6+ Bxf6 25. exf6 Rxf6 26. Qh5 Nc6 27. g4 c3 28.
+bxc3 Qa3 0-1
+
+[Event "Sant Adria de Besos op 13th"]
+[Site "Sant Adria de Besos"]
+[Date "2017.04.23"]
+[Round "1"]
+[White "Capellades Subirana, Marc"]
+[Black "Clanchet Olle, Josep"]
+[Result "1-0"]
+[ECO "C51"]
+[WhiteElo "2331"]
+[BlackElo "1924"]
+[PlyCount "95"]
+[EventDate "2017.04.23"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. b4 Bxb4 5. c3 Be7 6. d4 Nf6 7. dxe5 Ng4 8.
+Bf4 d6 9. exd6 Bxd6 10. Bxd6 Qxd6 11. Qxd6 cxd6 12. Nd4 Nge5 13. Be2 a6 14. Na3
+O-O 15. O-O b5 16. Rfd1 Bb7 17. f3 Nxd4 18. cxd4 Nd7 19. Nc2 f5 20. exf5 Rxf5
+21. a4 bxa4 22. Rxa4 a5 23. Ne3 Nb6 24. Ra3 Rf7 25. Rb1 Ba6 26. Rxb6 Bxe2 27.
+Kf2 Ba6 28. Rxa5 Rfa7 29. Rxd6 Bd3 30. Rxa7 Rxa7 31. Kg3 Ra2 32. Rc6 Re2 33.
+Ng4 h5 34. Ne5 Bf5 35. h4 Rd2 36. Rc4 Bd3 37. Nxd3 Rxd3 38. Kf4 Rd2 39. g3 Rd3
+40. Ke4 Rd1 41. d5 Kf7 42. Ke5 Re1+ 43. Kd6 Re3 44. Rf4+ Kg6 45. Kd7 Ra3 46. d6
+Ra7+ 47. Ke6 Ra6 48. Ke7 1-0
+
+[Event "Sant Adria de Besos op 13th"]
+[Site "Sant Adria de Besos"]
+[Date "2017.05.07"]
+[Round "3"]
+[White "Dougas Chavarria, Nestor"]
+[Black "Clanchet Olle, Josep"]
+[Result "1-0"]
+[ECO "A00"]
+[WhiteElo "2069"]
+[BlackElo "1924"]
+[PlyCount "77"]
+[EventDate "2017.04.23"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. g3 e5 2. Bg2 Nf6 3. d3 Bc5 4. Nf3 d6 5. O-O Nc6 6. c3 O-O 7. d4 exd4 8. cxd4
+Bb6 9. Nc3 Bf5 10. e3 Qd7 11. Re1 Ba5 12. Nd2 d5 13. Qb3 Bxc3 14. bxc3 Rab8 15.
+c4 Na5 16. Qc3 b6 17. Ba3 Rfe8 18. Rac1 c6 19. c5 Bh3 20. Bh1 Qf5 21. Qc2 Qh5
+22. Bb4 Bf5 23. Qd1 Ng4 24. Nf3 Be4 25. h4 Re6 26. Nh2 Rg6 27. Bxe4 dxe4 28.
+Qe2 Nc4 29. Rxc4 Qf5 30. Nxg4 Rxg4 31. Kg2 g5 32. hxg5 Qxg5 33. cxb6 h5 34.
+bxa7 Re8 35. Bd6 h4 36. Rb1 Qh5 37. Qd1 hxg3 38. Bxg3 Kh7 39. Qh1 1-0
+
+[Event "Sant Adria de Besos op 13th"]
+[Site "Sant Adria de Besos"]
+[Date "2017.05.21"]
+[Round "5"]
+[White "Vargas Drechsler, Carlos"]
+[Black "Clanchet Olle, Josep"]
+[Result "1-0"]
+[ECO "C32"]
+[WhiteElo "2103"]
+[BlackElo "1924"]
+[PlyCount "101"]
+[EventDate "2017.04.23"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. f4 d5 3. exd5 e4 4. Nc3 Nf6 5. d3 Bb4 6. Bd2 Qe7 7. dxe4 Bg4 8. Nf3
+Nxe4 9. Nxe4 Qxe4+ 10. Qe2 Bxf3 11. gxf3 Qxe2+ 12. Bxe2 Bxd2+ 13. Kxd2 Nd7 14.
+Rad1 O-O-O 15. Kc1 Nf6 16. Bc4 Rhe8 17. Rhg1 g6 18. Rg2 Re3 19. d6 Rxd6 20.
+Rxd6 cxd6 21. Bxf7 Rxf3 22. f5 Ne4 23. Be6+ Kc7 24. b3 gxf5 25. Rg7+ Kc6 26.
+Rxh7 Rf1+ 27. Kb2 f4 28. Bc8 Nc5 29. h4 f3 30. Rf7 d5 31. h5 Rh1 32. Bg4 Rh2
+33. Rxf3 d4 34. Rf6+ Kb5 35. h6 Nd3+ 36. Ka3 Rxc2 37. Bd7+ Kc5 38. h7 Rh2 39.
+Rf5+ Kd6 40. Bb5 Nc1 41. Bc4 Rxa2+ 42. Kb4 Rh2 43. Bg8 d3 44. Rf2 Rh4+ 45. Kc3
+Rh3 46. Rf8 Ne2+ 47. Kd2 Nf4 48. Rxf4 Ke5 49. Rb4 b6 50. Rg4 a6 51. Rg3 1-0
+
+[Event "Ct. Catalunya Baix Llobr."]
+[Site "?"]
+[Date "2000.??.??"]
+[Round "1"]
+[White "Clanchet Olle, J."]
+[Black "Fuentes Giner, E."]
+[Result "1/2-1/2"]
+[ECO "B85"]
+[PlyCount "52"]
+[EventDate "2000.??.??"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e6 7. Be3 Nc6 8. O-O
+Be7 9. f4 Nxd4 10. Bxd4 O-O 11. e5 dxe5 12. fxe5 Nd5 13. Ne4 b5 14. c4 bxc4 15.
+Bxc4 Bb7 16. Nc5 Bxc5 17. Bxc5 Re8 18. Rc1 Rc8 19. b4 Qg5 20. Qf3 Rc7 21. Qg3
+Qxg3 22. hxg3 Rec8 23. a3 Ne3 24. Rf2 Nxc4 25. Rxc4 Bd5 26. Rcc2 h6 1/2-1/2
+
+[Event "Ct. Catalunya Baix Llobr."]
+[Site "?"]
+[Date "2000.??.??"]
+[Round "2"]
+[White "Vidal Domenech, JA."]
+[Black "Clanchet Olle, J."]
+[Result "1/2-1/2"]
+[ECO "C55"]
+[PlyCount "76"]
+[EventDate "2000.??.??"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Bc4 Nf6 5. e5 d5 6. Bb5 Ne4 7. Nxd4 Bd7 8.
+Bxc6 bxc6 9. O-O Bc5 10. c3 O-O 11. Be3 Re8 12. Kh1 Rxe5 13. f3 Ng3+ 14. hxg3
+Rxe3 15. Re1 Qg5 16. Rxe3 Qxe3 17. Qd2 Bxd4 18. cxd4 Re8 19. Qxe3 Rxe3 20. Nc3
+Rd3 21. Rd1 Rxd1+ 22. Nxd1 f5 23. b4 Kf7 24. Nc3 g5 25. Na4 Kg6 26. Nc5 Bc8 27.
+Nd3 Kf6 28. Ne5 Bb7 29. Kg1 h5 30. f4 g4 31. Kf2 Ke6 32. Nd3 Kd6 33. Nc5 Bc8
+34. Ke3 Ke7 35. Kd3 Kd6 36. Kc3 Ke7 37. a3 Kd6 38. a4 Ke7 1/2-1/2
+
+[Event "Ct. Catalunya Baix Llobr."]
+[Site "?"]
+[Date "2000.??.??"]
+[Round "4"]
+[White "Garcia Llarges, D."]
+[Black "Clanchet Olle, J."]
+[Result "1/2-1/2"]
+[ECO "D02"]
+[PlyCount "58"]
+[EventDate "2000.??.??"]
+[EventRounds "9"]
+
+1. d4 d5 2. Nf3 Nf6 3. Bf4 e6 4. e3 Bd6 5. Ne5 Nbd7 6. Bd3 Ne4 7. Qh5 O-O 8.
+Nd2 Ndf6 9. Qe2 c5 10. c3 b6 11. f3 Nxd2 12. Qxd2 Bb7 13. g4 cxd4 14. exd4 Nd7
+15. O-O-O Nxe5 16. dxe5 Bc5 17. Qc2 Qh4 18. Bg3 Be3+ 19. Kb1 Qh3 20. Bf1 Qh6
+21. h4 d4 22. Bg2 dxc3 23. Qxc3 Rac8 24. Qd3 Qg6 25. h5 Qxd3+ 26. Rxd3 Bc5 27.
+Rd7 Rb8 28. g5 Rfd8 29. Rhd1 Bd5 1/2-1/2
+
+[Event "Ct. Catalunya Baix Llobr."]
+[Site "?"]
+[Date "2000.??.??"]
+[Round "5"]
+[White "Clanchet Olle, J."]
+[Black "Alarcon Robles, P."]
+[Result "1-0"]
+[ECO "B73"]
+[PlyCount "89"]
+[EventDate "2000.??.??"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be2 Bg7 7. Be3 O-O 8.
+O-O Nc6 9. f4 e6 10. Ndb5 d5 11. e5 Nd7 12. Nd6 a6 13. Na4 Ncxe5 14. fxe5 Bxe5
+15. Bf4 Bxf4 16. Rxf4 Qc7 17. Nxc8 Qxf4 18. Ne7+ Kg7 19. c4 d4 20. c5 Nxc5 21.
+Nxc5 Qd6 22. Nxb7 Qxe7 23. Qxd4+ Kg8 24. Bf3 Rab8 25. Qb6 a5 26. Rc1 Rfc8 27.
+Rxc8+ Rxc8 28. Bc6 Qb4 29. Qxb4 axb4 30. Na5 Kf8 31. a4 Rd8 32. Nc4 Rd1+ 33.
+Kf2 Rc1 34. Bb5 Ke7 35. a5 Ra1 36. a6 f6 37. Nb6 Kd6 38. Ba4 Kc7 39. a7 Rxa4
+40. Nxa4 Kb7 41. Nc5+ Kxa7 42. Nxe6 Kb6 43. b3 Kc6 44. Nf8 Kd5 45. Ke3 1-0
+
+[Event "Barbera op"]
+[Site "Barberá del Valles"]
+[Date "2014.07.05"]
+[Round "2"]
+[White "Clanchet Olle, J."]
+[Black "Balague Camps, M."]
+[Result "0-1"]
+[ECO "B49"]
+[WhiteElo "1736"]
+[BlackElo "2082"]
+[PlyCount "86"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.18"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Be2 Qc7 6. Nc3 a6 7. Be3 Nf6 8. a3
+b5 9. O-O Bb7 10. Nxc6 Bxc6 11. Qd3 Be7 12. f4 d6 13. f5 O-O 14. fxe6 fxe6 15.
+Bg5 Rad8 16. Qh3 Bd7 17. Bxf6 Rxf6 18. Rxf6 Bxf6 19. Bg4 Re8 20. Rf1 Qc4 21.
+Qf3 Rf8 22. e5 Qd4+ 23. Qf2 Bxe5 24. Bf3 Qf4 25. g3 Qc4 26. Qe2 Qxe2 27. Bxe2
+Rc8 28. Rd1 Kf7 29. Ne4 Rxc2 30. Bd3 Rxb2 31. Ng5+ Ke7 32. Bxh7 Bc6 33. Be4
+Bxe4 34. Nxe4 Ra2 35. Rd3 Re2 36. Ng5 d5 37. Nf3 Bf6 38. Kf1 Rc2 39. g4 Rc3 40.
+Ne1 Kd6 41. Ke2 Kc5 42. Rxc3+ Bxc3 43. Kd3 Bxe1 0-1
+
+[Event "Barbera op"]
+[Site "Barberá del Valles"]
+[Date "2014.07.06"]
+[Round "3"]
+[White "Estepa Fonseca, OM."]
+[Black "Clanchet Olle, J."]
+[Result "0-1"]
+[ECO "D06"]
+[WhiteElo "1978"]
+[BlackElo "1736"]
+[PlyCount "68"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.18"]
+
+1. d4 d5 2. c4 Nf6 3. Nf3 e6 4. g3 c5 5. Bg2 Nc6 6. cxd5 exd5 7. O-O Be6 8. Nc3
+cxd4 9. Nxd4 Bc5 10. Nb3 Bb6 11. Bg5 h6 12. Bxf6 Qxf6 13. Qd2 Rd8 14. Na4 O-O
+15. Nxb6 axb6 16. Rac1 Rd6 17. Rfd1 Rfd8 18. Nd4 Nxd4 19. Qxd4 Qg6 20. Rc7 R8d7
+21. Rxd7 Rxd7 22. Qxb6 Qc2 23. Re1 Rc7 24. e4 Qd2 25. Rf1 Rc1 26. Qb5 d4 27.
+Rxc1 Qxc1+ 28. Bf1 Bh3 29. Qe2 Bxf1 30. Qxf1 Qc2 31. Qb5 Qxe4 32. Qc4 b5 33.
+Qc1 d3 34. Qe3 Qxe3 0-1
+
+[Event "Barbera op"]
+[Site "Barberá del Valles"]
+[Date "2014.07.07"]
+[Round "4"]
+[White "Clanchet Olle, J."]
+[Black "Del Amo Carbo, J."]
+[Result "0-1"]
+[ECO "C54"]
+[WhiteElo "1736"]
+[BlackElo "2112"]
+[PlyCount "88"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.18"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. cxd4 Bb4+ 7. Bd2 Bxd2+
+8. Nbxd2 d5 9. exd5 Nxd5 10. Qe2+ Be6 11. O-O O-O 12. Rfe1 Re8 13. Bxd5 Qxd5
+14. Qe4 Qxe4 15. Nxe4 Bd5 16. Ned2 Rxe1+ 17. Rxe1 Rd8 18. a3 f6 19. Rd1 Kf7 20.
+g4 Be6 21. g5 Nxd4 22. Re1 Nxf3+ 23. Nxf3 Rd3 24. Re3 Rxe3 25. fxe3 Bd5 26. Nd4
+c5 27. Nb5 a6 28. Nc3 Bc6 29. gxf6 Kxf6 30. Kf2 c4 31. Kg3 Ke5 32. Kg4 b5 33.
+h4 a5 34. Kg5 Be8 35. Kg4 b4 36. axb4 axb4 37. Nd1 Ke4 38. Kg3 Ba4 39. Nf2+
+Kxe3 40. Ng4+ Kd2 41. Ne5 c3 42. Nc4+ Kc2 43. bxc3 Kxc3 44. Nb6 Bc6 0-1
+
+[Event "Barbera op"]
+[Site "Barberá del Valles"]
+[Date "2014.07.08"]
+[Round "5"]
+[White "Simon del Sol, J."]
+[Black "Clanchet Olle, J."]
+[Result "1-0"]
+[ECO "D02"]
+[WhiteElo "1986"]
+[BlackElo "1736"]
+[PlyCount "79"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.18"]
+
+1. d4 d5 2. Nf3 e6 3. Bf4 Bd6 4. Bg3 Nf6 5. e3 c5 6. c3 Nc6 7. Nbd2 c4 8. Be2
+b5 9. b3 Qc7 10. a4 Ba6 11. Bxd6 Qxd6 12. axb5 Bxb5 13. bxc4 dxc4 14. Bxc4 Rb8
+15. O-O O-O 16. Qe2 Bxc4 17. Nxc4 Qd5 18. Nfd2 Ne4 19. Nxe4 Qxe4 20. f3 Qd5 21.
+Qa2 f5 22. Rfb1 Rxb1+ 23. Rxb1 Na5 24. Rb4 Nc6 25. Rb2 Rc8 26. Nd2 Qxa2 27.
+Rxa2 a5 28. Kf2 Rb8 29. e4 fxe4 30. fxe4 Kf7 31. Ke3 Ra8 32. Ra4 Ke7 33. Nc4
+Kd8 34. d5 exd5 35. exd5 Ne7 36. Kd4 Nf5+ 37. Ke5 Nh4 38. Nxa5 Ng6+ 39. Kd6
+Ra6+ 40. Nc6+ 1-0
+
+[Event "Barbera op"]
+[Site "Barberá del Valles"]
+[Date "2014.07.09"]
+[Round "6"]
+[White "Clanchet Olle, J."]
+[Black "Menac Comas, JR."]
+[Result "0-1"]
+[ECO "B32"]
+[WhiteElo "1736"]
+[BlackElo "2147"]
+[PlyCount "78"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.18"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e5 5. Nb5 a6 6. Nd6+ Bxd6 7. Qxd6 Qf6 8.
+Qxf6 Nxf6 9. Nc3 h6 10. Bc4 b5 11. Bb3 Bb7 12. f3 Na5 13. Be3 Rc8 14. Rd1 Nc4
+15. Bxc4 Rxc4 16. a3 Ke7 17. O-O Rhc8 18. Rd2 b4 19. axb4 Rxb4 20. Nd1 d5 21.
+c3 Ra4 22. exd5 Nxd5 23. Re1 Ra2 24. Bf2 f6 25. Rde2 Nf4 26. Rd2 a5 27. Bg3 g5
+28. Bxf4 gxf4 29. Ree2 Ba6 30. Rf2 Bc4 31. b4 Rxd2 32. Rxd2 a4 33. Nb2 Bb3 34.
+b5 a3 35. Re2 Rxc3 36. b6 Rc1+ 37. Kf2 a2 38. Nd3 a1=Q 39. Nxc1 Qxc1 0-1
+
+[Event "Barbera op"]
+[Site "Barberá del Valles"]
+[Date "2014.07.10"]
+[Round "7"]
+[White "Jimenez Ruano, A."]
+[Black "Clanchet Olle, J."]
+[Result "1-0"]
+[ECO "D40"]
+[WhiteElo "1851"]
+[BlackElo "1736"]
+[PlyCount "55"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.18"]
+
+1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. Nc3 c5 5. e3 Nc6 6. Bd3 cxd4 7. exd4 dxc4 8.
+Bxc4 Nd5 9. O-O Be7 10. Bxd5 exd5 11. Qb3 Bg4 12. Qxb7 Rc8 13. Ne5 Nxe5 14.
+dxe5 d4 15. Qe4 Be6 16. Rd1 Bc5 17. Ne2 Bd5 18. Qg4 g6 19. Nxd4 h5 20. Qf4 h4
+21. Nb5 Qa5 22. Nd6+ Bxd6 23. exd6 Be6 24. d7+ Bxd7 25. Qd4 O-O 26. Bh6 f6 27.
+Bxf8 Rxf8 28. Qxd7 1-0
+
+[Event "Barbera op"]
+[Site "Barberá del Valles"]
+[Date "2014.07.12"]
+[Round "9.38"]
+[White "Clanchet Olle, J."]
+[Black "Martinez Pla, X."]
+[Result "1-0"]
+[ECO "B47"]
+[WhiteElo "1736"]
+[BlackElo "1881"]
+[PlyCount "53"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e6 5. Be2 Qc7 6. O-O Nf6 7. Nc3 a6 8.
+Nxc6 bxc6 9. f4 d5 10. e5 Nd7 11. Be3 c5 12. Bf2 Bb7 13. Bf3 Bc6 14. Re1 Qb7
+15. f5 Qxb2 16. fxe6 fxe6 17. Qd3 c4 18. Bh5+ g6 19. Bxg6+ hxg6 20. Qxg6+ Kd8
+21. Qxe6 Rh6 22. Qf7 Qxc3 23. Bb6+ Kc8 24. e6 Qf6 25. exd7+ Bxd7 26. Re8+ Bxe8
+27. Qc7# 1-0

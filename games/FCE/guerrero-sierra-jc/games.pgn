@@ -1,0 +1,391 @@
+[Event "Badalona op"]
+[Site "?"]
+[Date "2012.08.01"]
+[Round "1"]
+[White "Guerrero Sierra, JC."]
+[Black "Lalith, BMR."]
+[Result "0-1"]
+[ECO "E10"]
+[WhiteElo "2268"]
+[BlackElo "2515"]
+[PlyCount "60"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 c5 4. d5 b5 5. Bg5 exd5 6. cxd5 d6 7. a4 b4 8. e4 Be7
+9. Bb5+ Bd7 10. Qd3 O-O 11. Nbd2 h6 12. Bxf6 Bxf6 13. Nc4 Bg4 14. Nfd2 a6 15.
+Bc6 Nxc6 16. dxc6 Rc8 17. Qxd6 Qxd6 18. Nxd6 Rxc6 19. N6c4 Rd8 20. f3 Be6 21.
+g3 g5 22. Ke2 g4 23. fxg4 Bxc4+ 24. Nxc4 Rd4 25. Nd2 c4 26. e5 Be7 27. Rac1 f6
+28. Ke3 Bc5 29. Ke2 Bb6 30. h3 fxe5 0-1
+
+[Event "Sants op A"]
+[Site "?"]
+[Date "2012.08.18"]
+[Round "2"]
+[White "Aroshidze, L."]
+[Black "Guerrero Sierra, JC."]
+[Result "1-0"]
+[ECO "B78"]
+[PlyCount "47"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2
+Nc6 9. Bc4 Bd7 10. O-O-O Rc8 11. Bb3 Ne5 12. Kb1 Re8 13. h4 h5 14. g4 hxg4 15.
+h5 Nxh5 16. Bh6 Bf6 17. Bg5 Rxc3 18. bxc3 Qc8 19. Bxf6 exf6 20. Qh6 Qxc3 21.
+Rd3 Qc8 22. fxg4 Bxg4 23. Rg3 d5 24. Rxh5 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.13"]
+[Round "1"]
+[White "Jacobsen, MP."]
+[Black "Guerrero Sierra, JC."]
+[Result "0-1"]
+[ECO "B73"]
+[WhiteElo "1814"]
+[BlackElo "2227"]
+[PlyCount "52"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. Be2 O-O 8.
+O-O Nc6 9. Qd2 Bd7 10. Rad1 a6 11. f3 b5 12. a4 Nxd4 13. Bxd4 bxa4 14. Ra1 Qa5
+15. Qe3 Qb4 16. Na2 Qb7 17. Bc3 Rfc8 18. Rfd1 Bb5 19. Nb4 Rc7 20. e5 dxe5 21.
+Bxe5 Rd7 22. Rxd7 Bxd7 23. Bc3 a5 24. Nd3 Nd5 25. Qe4 Bf5 26. Qxa4 Bxc3 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.14"]
+[Round "2"]
+[White "Guerrero Sierra, JC."]
+[Black "Prasca Sosa, R."]
+[Result "1-0"]
+[ECO "C11"]
+[WhiteElo "2227"]
+[BlackElo "2426"]
+[PlyCount "47"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 a6 7. Be3 Qb6 8. a3 Nc6
+9. Na4 Qa5+ 10. Nc3 Qc7 11. Qd2 Be7 12. Ne2 b5 13. g4 Bb7 14. h4 h5 15. gxh5
+Rxh5 16. Ng3 Rh8 17. h5 cxd4 18. Nxd4 Nc5 19. Bd3 Rc8 20. Ke2 Nxd4+ 21. Bxd4
+Nxd3 22. cxd3 Qc2 23. Rac1 Qxd2+ 24. Kxd2 {Aquí les negres van enrocar curt 
+(malgrat tractar-se d'una jugada ilegal). Tot i això, les blanques van
+guanyar en 47 jugades} 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.15"]
+[Round "3"]
+[White "Arenas, D."]
+[Black "Guerrero Sierra, JC."]
+[Result "1-0"]
+[ECO "B53"]
+[WhiteElo "2437"]
+[BlackElo "2227"]
+[PlyCount "81"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Qxd4 Bd7 5. c4 Nc6 6. Qe3 Nf6 7. h3 g6 8. Nc3
+Bg7 9. Be2 O-O 10. O-O a5 11. Rd1 a4 12. c5 dxc5 13. e5 Ne8 14. Qxc5 Ra5 15.
+Bb5 Nc7 16. Rxd7 Rxb5 17. Rxd8 Rxc5 18. Rxf8+ Kxf8 19. Nxa4 Rc2 20. Nc3 Nxe5
+21. Ne1 Rxc3 22. bxc3 Nc4 23. Rb1 b5 24. Bf4 e5 25. Bg5 f6 26. Bc1 Ke8 27. Nc2
+f5 28. Na3 Nd6 29. Be3 Kd7 30. Bb6 Nd5 31. Nxb5 Nc4 32. Ba7 Bh6 33. Bb8 Kc6 34.
+Na7+ Kd7 35. Rb7+ Ke6 36. Rxh7 Bd2 37. Nb5 Bxc3 38. Nc7+ Nxc7 39. Rxc7 Kd5 40.
+Rg7 Bd4 41. Bc7 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.16"]
+[Round "4"]
+[White "Guerrero Sierra, JC."]
+[Black "Perpinya Rofes, LM."]
+[Result "0-1"]
+[ECO "B67"]
+[WhiteElo "2227"]
+[BlackElo "2400"]
+[PlyCount "136"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bg5 e6 7. Qd2 a6 8.
+O-O-O Bd7 9. f4 b5 10. Bxf6 gxf6 11. Kb1 Qb6 12. Nce2 h5 13. g3 Rc8 14. Bg2 Na5
+15. b3 Nc6 16. Rhe1 Nxd4 17. Nxd4 Qc5 18. Re3 h4 19. g4 Bh6 20. Ne2 e5 21. Rc3
+Qb6 22. Rxc8+ Bxc8 23. g5 fxg5 24. fxg5 Bg7 25. Nc3 Be6 26. Qxd6 Qxd6 27. Rxd6
+Rh5 28. Rxa6 Rxg5 29. Bf3 Rg1+ 30. Kb2 b4 31. Nd1 Bh6 32. Ra8+ Ke7 33. Rh8 Bg5
+34. a3 Rf1 35. Bh5 bxa3+ 36. Kxa3 Rh1 37. c4 Rxh2 38. Kb4 Rg2 39. Kb5 h3 40.
+Nc3 Rg3 41. Nd5+ Bxd5 42. exd5 Rxb3+ 43. Kc6 Rd3 44. Rh7 h2 45. Rxf7+ Ke8 46.
+Rf2+ Ke7 47. Rxh2 Rc3 48. d6+ Ke6 49. Bg4+ Kf7 50. Rf2+ Kg7 51. Be6 e4 52. Rg2
+Kf6 53. Rxg5 Kxe6 54. Rc5 Ra3 55. Rh5 Ra6+ 56. Kc7 Ra7+ 57. Kb6 Ra1 58. c5 e3
+59. Rh2 Rd1 60. Re2 Kd7 61. Rxe3 Rb1+ 62. Ka5 Kc6 63. Rc3 Rb2 64. Ka4 Rb5 65.
+d7 Rb8 66. Rd3 Rd8 67. Ka5 Kxc5 68. Ka4 Kc4 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.17"]
+[Round "5"]
+[White "Frank-Nielsen, M."]
+[Black "Guerrero Sierra, JC."]
+[Result "0-1"]
+[ECO "B22"]
+[WhiteElo "2016"]
+[BlackElo "2227"]
+[PlyCount "92"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. c3 d5 3. exd5 Qxd5 4. d4 g6 5. Nf3 Bg7 6. Be2 Nf6 7. O-O O-O 8. h3
+cxd4 9. cxd4 Nc6 10. Nc3 Qd8 11. a3 Nd5 12. Re1 Bf5 13. Qb3 Nb6 14. Be3 Be6 15.
+Qd1 Rc8 16. Ne4 Nc4 17. Bxc4 Bxc4 18. Rc1 Bd5 19. Ned2 Qb6 20. Qc2 a5 21. b4
+axb4 22. axb4 Qxb4 23. Rb1 Qd6 24. Rec1 h6 25. Qd1 Rfd8 26. Nc4 Bxc4 27. Rxc4
+Rc7 28. Qc1 Rdc8 29. Rb6 Nxd4 30. Rxc7 Nxf3+ 31. gxf3 Rxc7 32. Qb1 Qd5 33. Kg2
+e5 34. Qb4 Bf8 35. Qa4 Kh7 36. Qe8 Bg7 37. Qb8 Rd7 38. Qe8 Rd8 39. Qa4 Rd6 40.
+Rb4 Rf6 41. Re4 b5 42. Qb4 Rxf3 43. Kxf3 f5 44. h4 Bf6 45. Qf8 Qxe4+ 46. Ke2
+Bg7 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.18"]
+[Round "6"]
+[White "Guerrero Sierra, JC."]
+[Black "Galopoulos, N."]
+[Result "1-0"]
+[ECO "B12"]
+[WhiteElo "2227"]
+[BlackElo "2343"]
+[PlyCount "35"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 Nd7 6. O-O Bg6 7. Nbd2 Nh6 8. c4
+Nf5 9. cxd5 cxd5 10. Nb3 Rc8 11. Bd2 Be7 12. Na5 Qb6 13. Qa4 a6 14. Rac1 Rxc1
+15. Rxc1 Qxb2 16. Nb3 Bd8 17. Bf1 O-O 18. Qxd7 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.19"]
+[Round "7"]
+[White "Guerrero Sierra, JC."]
+[Black "Anurag, M."]
+[Result "0-1"]
+[ECO "B42"]
+[WhiteElo "2227"]
+[BlackElo "2418"]
+[PlyCount "62"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Bd3 Nf6 6. O-O Qc7 7. Qe2 h5 8. Kh1
+Bc5 9. Nb3 Be7 10. N1d2 Nc6 11. f4 d6 12. a4 e5 13. Nc4 Bg4 14. Qe1 h4 15. Be3
+exf4 16. Rxf4 h3 17. g3 Ne5 18. Bb6 Qc8 19. Nbd2 Be6 20. b3 Qc6 21. Bd4 Ng6 22.
+Rf2 d5 23. Nb6 dxe4 24. Bxe4 Nxe4 25. Qxe4 Rd8 26. Qxc6+ bxc6 27. c3 c5 28.
+Bxg7 Rh7 29. c4 Rxg7 30. Re1 Rh7 31. Nf1 Rh5 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.20"]
+[Round "8"]
+[White "Gullaksen, E."]
+[Black "Guerrero Sierra, JC."]
+[Result "1-0"]
+[ECO "B70"]
+[WhiteElo "2380"]
+[BlackElo "2227"]
+[PlyCount "133"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Bc4 Bg7 7. O-O O-O 8. h3
+a6 9. Re1 b5 10. Bb3 b4 11. Nd5 Bb7 12. Bg5 e6 13. Nxf6+ Bxf6 14. Bh6 Re8 15.
+Ba4 Nd7 16. Qd2 a5 17. a3 bxa3 18. Rxa3 Re7 19. Nc6 Bxc6 20. Bxc6 Rc8 21. Bxd7
+Rxd7 22. c3 d5 23. e5 Be7 24. Ra4 Rc4 25. Rea1 Rxa4 26. Rxa4 Rb7 27. Be3 Qb8
+28. Rxa5 Rxb2 29. Qd4 Rb1+ 30. Kh2 h5 31. g3 Bd8 32. Ra6 Qb5 33. Qa4 Qxa4 34.
+Rxa4 Bc7 35. Bd4 Bb6 36. Ra8+ Kg7 37. Rb8 Bxd4 38. Rxb1 Bxe5 39. Rc1 h4 40. c4
+dxc4 41. Rxc4 hxg3+ 42. fxg3 g5 43. Rc6 Kg6 44. Kg2 Bb8 45. Kf3 Kf5 46. g4+ Kg6
+47. Ke4 Bf4 48. h4 Bg3 49. h5+ Kg7 50. Rc8 Bf4 51. Ra8 Bg3 52. Ra7 Bh2 53. Rb7
+Bg1 54. Ke5 Bh2+ 55. Kd4 Bg1+ 56. Kc4 Bf2 57. Kb5 Bd4 58. Kc6 Be5 59. Kd7 Kf8
+60. h6 Bf4 61. Ra7 Kg8 62. Ke7 e5 63. Kf6 Kh7 64. Rxf7+ Kxh6 65. Rb7 e4 66. Rb1
+Kh7 67. Kf7 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.21"]
+[Round "9"]
+[White "Guerrero Sierra, JC."]
+[Black "Manelidou, M."]
+[Result "1-0"]
+[ECO "C45"]
+[WhiteElo "2227"]
+[BlackElo "2030"]
+[PlyCount "101"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bb4+ 5. c3 Bc5 6. Nb3 Bb6 7. c4 d6 8.
+Nc3 Qf6 9. Qe2 Nge7 10. Be3 Be6 11. Bxb6 axb6 12. Nd5 Bxd5 13. cxd5 Nd4 14. Qd3
+Nxb3 15. Qxb3 O-O 16. Be2 Qg6 17. Bf3 f5 18. e5 Kh8 19. exd6 Qxd6 20. O-O Ra5
+21. Rad1 Ng6 22. Rfe1 Ne5 23. a3 Rd8 24. g3 Raa8 25. Bg2 Re8 26. Qc2 Re7 27.
+Qxf5 Rae8 28. Re3 g6 29. Qc2 Ng4 30. Qc3+ Kg8 31. Rxe7 Rxe7 32. Bh3 Nf6 33. Qd4
+Re4 34. Qd3 Qe5 35. b4 Re1+ 36. Rxe1 Qxe1+ 37. Kg2 Qe4+ 38. Qf3 Kf8 39. Bc8
+Qxd5 40. Bxb7 Qxf3+ 41. Kxf3 Ke7 42. Kf4 Ne8 43. Ke5 Nd6 44. Bd5 b5 45. f4 Kd7
+46. g4 Ke7 47. h4 Ne8 48. Bc6 Nd6 49. Kd5 Nc4 50. Bxb5 Nxa3 51. Bd3 1-0
+
+[Event "Sitges op"]
+[Site "Sitges"]
+[Date "2013.07.23"]
+[Round "2"]
+[White "Guerrero Sierra, JC."]
+[Black "Muñoz Pantoja, M."]
+[Result "0-1"]
+[ECO "B32"]
+[WhiteElo "2227"]
+[BlackElo "2457"]
+[PlyCount "101"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e5 5. Nb5 d6 6. N1c3 a6 7. Na3 Be6 8.
+Nc4 b5 9. Ne3 Nf6 10. g3 Be7 11. Bg2 Nd4 12. O-O Qc8 13. a4 b4 14. Ne2 Nxe2+
+15. Qxe2 Qc6 16. f4 Rc8 17. b3 Qb6 18. f5 Bd7 19. Rd1 Bc6 20. Kf1 Qb7 21. Nd5
+Nxd5 22. exd5 Bd7 23. Be4 O-O 24. g4 Rc3 25. Bd2 Rc7 26. Kg2 Rfc8 27. Ra2 a5
+28. Rf1 f6 29. h4 Be8 30. Be3 Bf7 31. Rd1 Rc3 32. Bf2 Bd8 33. Rd3 Be8 34. Rxc3
+Rxc3 35. Ra1 Bb6 36. Rd1 Bxf2 37. Qxf2 Qc7 38. Rd2 Qc5 39. Qxc5 Rxc5 40. Kf2
+Bf7 41. g5 Kf8 42. g6 Bg8 43. h5 h6 44. Rd1 Rc3 45. Rg1 Ke7 46. Ke2 Kd7 47. Rf1
+Kc7 48. Rd1 Kb6 49. Kd2 Kc5 50. Kc1 Rh3 51. Rd3 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2018.01.20"]
+[Round "1.5"]
+[White "Martin Grillo, Ruben"]
+[Black "Guerrero Sierra, Juan Carlos"]
+[Result "0-1"]
+[ECO "B20"]
+[WhiteElo "2306"]
+[BlackElo "2347"]
+[PlyCount "58"]
+[EventDate "2018.??.??"]
+[WhiteTeam "CAT"]
+[BlackTeam "SJO"]
+
+1. e4 c5 2. b3 Nf6 3. e5 Nd5 4. Bb2 Nc6 5. Nc3 Nxc3 6. Bxc3 g6 7. e6 f6 8.
+exd7+ Bxd7 9. Bc4 Qc7 10. Nf3 e5 11. O-O O-O-O 12. d3 g5 13. Nd2 f5 14. a3 h5
+15. b4 g4 16. Nb3 h4 17. Nxc5 Bxc5 18. bxc5 g3 19. Qf3 gxh2+ 20. Kh1 h3 21. g3
+Nd4 22. Qd1 Bc6+ 23. f3 Qg7 24. Bxd4 Qxg3 25. Qe2 Rxd4 26. Be6+ Kd8 27. Bxf5
+Rg8 28. Rf2 Qg1+ 29. Rxg1 hxg1=Q# 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "Badalona"]
+[Date "2018.02.10"]
+[Round "4.5"]
+[White "Guerrero Sierra, Juan Carlos"]
+[Black "Obon Temprano, Sergi"]
+[Result "1-0"]
+[ECO "D49"]
+[WhiteElo "2347"]
+[BlackElo "2384"]
+[PlyCount "53"]
+[EventDate "2018.??.??"]
+[WhiteTeam "SJO"]
+[BlackTeam "BAB"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. e3 Nbd7 6. Bd3 dxc4 7. Bxc4 b5 8. Bd3
+a6 9. e4 c5 10. e5 cxd4 11. Nxb5 axb5 12. exf6 gxf6 13. O-O Qb6 14. Qe2 Bb7 15.
+Bxb5 Bd6 16. Nxd4 Qxd4 17. Rd1 Qb6 18. Be3 Qc7 19. Rac1 Bxh2+ 20. Kh1 Bd5 21.
+Rxc7 Bxc7 22. Rxd5 exd5 23. Bc5+ Be5 24. f4 O-O-O 25. Bxd7+ Rxd7 26. fxe5 d4
+27. Qa6+ 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2018.02.17"]
+[Round "5.5"]
+[White "Escandell Mari, Juan Carlos"]
+[Black "Guerrero Sierra, Juan Carlos"]
+[Result "0-1"]
+[ECO "B43"]
+[WhiteElo "2351"]
+[BlackElo "2347"]
+[PlyCount "68"]
+[EventDate "2018.??.??"]
+[WhiteTeam "PEC"]
+[BlackTeam "SJO"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Nc3 Bb4 6. Bd3 d6 7. O-O Nf6 8. Qe2
+Nbd7 9. Bd2 Bc5 10. Nb3 Ba7 11. Kh1 b5 12. a4 b4 13. Nd1 a5 14. c3 Nc5 15. Bb5+
+Bd7 16. Nxc5 Bxc5 17. f3 Qb6 18. cxb4 axb4 19. Bxd7+ Nxd7 20. Ne3 O-O 21. b3
+Rfc8 22. Rac1 Ra7 23. Nc4 Qa6 24. Qd3 Rc6 25. Bf4 Nf6 26. Rfd1 h6 27. Nxd6 Nh5
+28. Be5 Qxd3 29. Rxd3 Rd7 30. g4 f6 31. Bg3 Nxg3+ 32. hxg3 Rcxd6 33. Rxd6 Bxd6
+34. Rc8+ Kf7 0-1
+
+[Event "Lliga Catalana DH "]
+[Site "?"]
+[Date "2018.04.07"]
+[Round "10.4"]
+[White "Guerrero Sierra, Juan Carlos"]
+[Black "Gonzalez Verges, Alex"]
+[Result "1-0"]
+[ECO "E60"]
+[WhiteElo "2347"]
+[BlackElo "2312"]
+[PlyCount "71"]
+[EventDate "2018.??.??"]
+[WhiteTeam "SJO"]
+[BlackTeam "TPE"]
+
+1. d4 Nf6 2. c4 g6 3. f3 d6 4. Nc3 c6 5. e4 Nbd7 6. Nge2 a6 7. a4 e5 8. d5 a5
+9. Be3 Nc5 10. Nc1 Na6 11. Qd2 Nb4 12. dxc6 bxc6 13. Nb3 Be6 14. Rd1 Qc7 15.
+Be2 Rd8 16. O-O Bg7 17. Rc1 O-O 18. Nd5 Bxd5 19. cxd5 c5 20. Nxc5 dxc5 21. Rxc5
+Qa7 22. Rfc1 Qa8 23. Bb5 Rc8 24. d6 Rxc5 25. Rxc5 Rd8 26. Rc7 Bf8 27. d7 Qb8
+28. Qc3 Nfd5 29. exd5 Nxd5 30. Rc8 Nxc3 31. Rxb8 Rxb8 32. bxc3 Be7 33. c4 f6
+34. c5 Kf8 35. c6 Bd6 36. Bb6 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2018.04.14"]
+[Round "11.4"]
+[White "Narciso Dublan, Marc"]
+[Black "Guerrero Sierra, Juan Carlos"]
+[Result "1/2-1/2"]
+[ECO "C45"]
+[WhiteElo "2535"]
+[BlackElo "2347"]
+[PlyCount "250"]
+[EventDate "2018.??.??"]
+[WhiteTeam "EEB"]
+[BlackTeam "SJO"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5 5. Nxc6 Qf6 6. Qf3 Qxf3 7. gxf3 dxc6
+8. Be3 Bxe3 9. fxe3 Be6 10. Nc3 f6 11. Rg1 g6 12. Ne2 Ne7 13. Nf4 Bf7 14. O-O-O
+Nc8 15. e5 fxe5 16. Nd3 e4 17. fxe4 Nd6 18. e5 Nf5 19. Bh3 Nxe3 20. Rde1 Nd5
+21. c4 Ne7 22. e6 Bg8 23. Ne5 a5 24. Rgf1 a4 25. Nd7 Nf5 26. Bxf5 gxf5 27. Rxf5
+Ke7 28. Rg5 b6 29. Rg7+ Kd6 30. c5+ bxc5 31. Nb6 Bxe6 32. Nxa8 Rxa8 33. Rxh7
+Bxa2 34. Rh6+ Kd5 35. Rh5+ Kd6 36. Rh6+ Kd5 37. Rg1 Bb3 38. Kd2 Kc4 39. Rh4+
+Kb5 40. Rf4 Bd5 41. Rg3 c4 42. h4 Rh8 43. Kc3 Ra8 44. Kd4 Rd8 45. Rf2 Kb4 46.
+Ke5 Re8+ 47. Kf4 Rf8+ 48. Ke3 Re8+ 49. Kd2 Be4 50. h5 Bd3 51. Rg7 Rc8 52. Rff7
+Rh8 53. Rg5 Re8 54. Rg2 Rd8 55. Ke3 Rh8 56. Rh2 Bg6 57. Rxc7 Rxh5 58. Rxh5 Bxh5
+59. Kd4 a3 60. Rb7+ Ka4 61. bxa3 Kxa3 62. Kc3 Ka2 63. Ra7+ Kb1 64. Rh7 Bg6 65.
+Rh2 Ka1 66. Kxc4 Bb1 67. Kc3 Ba2 68. Kd2 c5 69. Rh7 c4 70. Rh5 c3+ 71. Kxc3 Bb1
+72. Rg5 Ba2 73. Rg8 Bb1 74. Rg1 Ka2 75. Rg7 Ka1 76. Kb3 Ba2+ 77. Ka3 Bb1 78.
+Re7 Ba2 79. Re2 Bb1 80. Kb3 Bf5 81. Ra2+ Kb1 82. Rf2 Be6+ 83. Ka3 Kc1 84. Rf4
+Kc2 85. Rf6 Bg8 86. Rf1 Bd5 87. Re1 Bf7 88. Re5 Bg6 89. Kb4 Kb1 90. Kb3 Kc1 91.
+Kc3 Kb1 92. Kb3 Ka1 93. Ra5+ Kb1 94. Rg5 Bf7+ 95. Ka3 Bc4 96. Kb4 Be6 97. Re5
+Bf7 98. Kc3 Bg6 99. Re6 Bf5 100. Rb6+ Ka1 101. Rf6 Be4 102. Rf4 Bb1 103. Ra4+
+Ba2 104. Ra6 Kb1 105. Rb6+ Ka1 106. Kc2 Bd5 107. Rb1+ Ka2 108. Rb5 Be4+ 109.
+Kc3 Ka1 110. Ra5+ Kb1 111. Ra4 Bg6 112. Ra5 Bf7 113. Ra6 Bd5 114. Rd6 Bf7 115.
+Ra6 Bd5 116. Rd6 Bf7 117. Rd1+ Ka2 118. Rf1 Bg6 119. Rf2+ Ka1 120. Kb3 Bb1 121.
+Re2 Bg6 122. Ra2+ Kb1 123. Ra7 Bc2+ 124. Kc3 Bf5 125. Ra4 Bg6 1/2-1/2

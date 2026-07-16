@@ -1,0 +1,110 @@
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.02.01"]
+[Round "3.9"]
+[White "Marcet Bisbal, Antoni"]
+[Black "Ribera Baztan, Jose"]
+[Result "0-1"]
+[ECO "A81"]
+[WhiteElo "2198"]
+[BlackElo "2080"]
+[PlyCount "86"]
+[GameId "2142370667380794"]
+[EventDate "2025.01.18"]
+
+1. d4 f5 2. g3 Nf6 3. Bg2 g6 4. Nd2 Bg7 5. e4 fxe4 6. Nxe4 Nxe4 7. Bxe4 d5 8. Bg2 Nc6 9. c3 O-O 10. Bg5 h6 11. Be3 Kh7 12. Nf3 Bf5 13. Nh4 Be6 14. Qd3 Bf7 15. f4 e6 16. Nf3 Qf6 17. O-O Qf5 18. Qd2 Be8 19. b3 Ne7 20. Ng5+ hxg5 21. fxg5 Qg4 22. Rxf8 Bxf8 23. Rf1 Bb5 24. Bf3 Qh3 25. c4 dxc4 26. Qe2 e5 27. Bg4 cxb3 28. Rf7+ Kg8 29. Qd1 Qxg4 30. Qxg4 Kxf7 31. axb3 Nf5 32. Qf3 e4 33. Qxe4 Bc6 34. Qf4 Bd6 35. Qf1 Kg7 36. Bf2 Bd5 37. Qb5 Ne7 38. Be1 a6 39. Qa4 b5 40. Qa5 Nc6 41. Qa1 a5 42. Bc3 a4 43. Qf1 b4 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.02.22"]
+[Round "6.9"]
+[White "Marcet Bisbal, Antoni"]
+[Black "Enciso Mona, Francisco"]
+[Result "1-0"]
+[ECO "E47"]
+[WhiteElo "2198"]
+[BlackElo "1980"]
+[PlyCount "89"]
+[GameId "2151339639238867"]
+[EventDate "2025.02.15"]
+[WhiteTeam "Barcelona"]
+[BlackTeam "Escacs Catalònia"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Bd3 d6 6. Nge2 e5 7. a3 Bxc3+ 8. Nxc3 Nc6 9. Be2 Re8 10. O-O Bf5 11. b4 Qd7 12. f3 exd4 13. exd4 d5 14. g4 Bg6 15. g5 Nh5 16. cxd5 Ne7 17. f4 Qh3 18. Rf3 Qg4+ 19. Rg3 Qh4 20. Rg4 Qh3 21. Bd2 Bf5 22. Rc1 Ng6 23. Bf3 Bxg4 24. Bxg4 Qd3 25. Bxh5 Qxd4+ 26. Kh1 Nxf4 27. Bxf4 Qxf4 28. Qf1 Qxf1+ 29. Rxf1 g6 30. Bf3 Re3 31. Nb5 a6 32. Nxc7 Rd8 33. Bg2 Rc3 34. d6 Rxd6 35. Ne8 Rd2 36. Nf6+ Kg7 37. Ne4 Rxg2 38. Kxg2 Rxa3 39. Rd1 Rb3 40. Rd4 b6 41. Nf6 h6 42. h4 hxg5 43. hxg5 Rb2+ 44. Kg3 Kf8 45. Re4 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.03.01"]
+[Round "7.9"]
+[White "Plasencia Martinez, Victor"]
+[Black "Marcet Bisbal, Antoni"]
+[Result "1/2-1/2"]
+[ECO "B76"]
+[WhiteElo "2148"]
+[BlackElo "2160"]
+[PlyCount "47"]
+[GameId "2153827569176769"]
+[EventDate "2025.02.15"]
+[WhiteTeam "Lira Vendrellenca"]
+[BlackTeam "Barcelona"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 Nc6 8. Qd2 O-O 9. g4 Be6 10. Nxe6 fxe6 11. O-O-O Ne5 12. Be2 Rc8 13. Kb1 Nfd7 14. f4 Nc4 15. Bxc4 Rxc4 16. e5 Nb6 17. b3 Rc6 18. Nb5 Nd5 19. c4 Nxe3 20. Qxe3 Qb6 21. Qxb6 Rxb6 22. exd6 exd6 23. Rxd6 Rxf4 24. Rd8+ 1/2-1/2
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1989.??.??"]
+[Round "?"]
+[White "Marcet Bisbal, Antoni"]
+[Black "Rosich Valles, Alfred"]
+[Result "0-1"]
+[ECO "B38"]
+[PlyCount "62"]
+[EventDate "1989.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. c4 c5 3. Nc3 g6 4. d4 cxd4 5. Nxd4 Bg7 6. e4 O-O 7. Be2 Nc6 8.
+Be3 b6 9. O-O Bb7 10. Rc1 Rc8 11. b3 d6 12. Qd2 Nxd4 13. Bxd4 e5 14. Be3 Nxe4
+15. Nxe4 Bxe4 16. Rfd1 Rc6 17. c5 bxc5 18. Rxc5 Qa8 19. Ra5 Rc2 20. Qe1 Rc7 21.
+f3 Bf5 22. Rxd6 e4 23. Qg3 exf3 24. Bc4 Qc8 25. Qxf3 Re8 26. Qd1 Bf8 27. Ba6
+Qb8 28. Rb5 Qa8 29. Bf4 Bxd6 30. Qxd6 Rc2 31. Bb7 Re1# 0-1
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1989.01.14"]
+[Round "9"]
+[White "Medina Garcia, Antonio"]
+[Black "Marcet Bisbal, Antoni"]
+[Result "1-0"]
+[ECO "B25"]
+[PlyCount "59"]
+[EventDate "1989.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. d3 d6 6. f4 e6 7. Nf3 Nge7 8. O-O
+O-O 9. Be3 Rb8 10. d4 cxd4 11. Nxd4 a6 12. Qd2 Qc7 13. a4 b6 14. Rad1 Rd8 15.
+f5 Nxd4 16. f6 Bxf6 17. Rxf6 Ndc6 18. Rdf1 Ne5 19. Bh6 N7c6 20. Qf4 Qe7 21. Qh4
+Bd7 22. Nd1 b5 23. Bg5 Qe8 24. axb5 axb5 25. Ne3 Rdc8 26. h3 Rc7 27. Ng4 h5 28.
+Rxg6+ Nxg6 29. Nf6+ Kf8 30. Bh6+ 1-0
+
+[Event "Sitges op"]
+[Site "Sitges"]
+[Date "1991.??.??"]
+[Round "?"]
+[White "Marin, Mihail"]
+[Black "Marcet Bisbal, Antoni"]
+[Result "1-0"]
+[ECO "E70"]
+[PlyCount "83"]
+[EventDate "1991.08.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Bd3 e5 6. d5 O-O 7. Nge2 Nh5 8. O-O
+f5 9. exf5 gxf5 10. f4 exf4 11. Nxf4 Nxf4 12. Bxf4 Nd7 13. Qd2 Ne5 14. Rae1 Bd7
+15. Bg5 Qc8 16. Re3 Kh8 17. Ne2 Rf7 18. Nf4 Bf6 19. Bxf6+ Rxf6 20. Be2 Qf8 21.
+Qd4 b6 22. b4 Rh6 23. Nd3 Qg7 24. Nxe5 dxe5 25. Qxe5 Rg6 26. Bf3 Rg8 27. Rfe1
+h6 28. Kf2 Kh7 29. Qxg7+ R8xg7 30. Re7 Kg8 31. R1e3 Rxe7 32. Rxe7 Rg7 33. Re3
+a6 34. Ke2 Kf8 35. Kd3 Re7 36. Rxe7 Kxe7 37. Kd4 Kf6 38. Bd1 Be8 39. Bb3 Bh5
+40. c5 Be2 41. g3 Bf3 42. d6 1-0

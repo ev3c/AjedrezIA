@@ -1,0 +1,135 @@
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.01.28"]
+[Round "2.7"]
+[White "Rodriguez Garcia, Yuliesky"]
+[Black "Mayo Casadamont, Marti"]
+[Result "0-1"]
+[WhiteElo "2163"]
+[BlackElo "2280"]
+[PlyCount "102"]
+[EventDate "2023.??.??"]
+
+1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. Qc2 Be7 5. Nc3 O-O 6. a3 c5 7. e3 cxd4 8. exd4
+dxc4 9. Bxc4 b6 10. O-O Bb7 11. Be2 Nc6 12. Rd1 Rc8 13. Be3 Nd5 14. Nxd5 Qxd5
+15. Bc4 Qh5 16. Qe2 Na5 17. Ba6 Bxf3 18. Qxf3 Qxf3 19. gxf3 Rc2 20. Rdc1 Rxb2
+21. Rc7 Nb3 22. Rd1 Bxa3 23. Rxa7 Na5 24. d5 exd5 25. Rxd5 Nc6 26. Rb7 Nb4 27.
+Rb5 Nxa6 28. Rxb2 Bxb2 29. Rxb6 Nc7 30. Rxb2 Ra8 31. Bf4 Ne6 32. Rb8+ Rxb8 33.
+Bxb8 Nd4 34. Kg2 Nf5 35. Bc7 Kf8 36. Bb8 Ke7 37. Bc7 Ke6 38. Ba5 Kd5 39. Bb6 h5
+40. Bd8 Kd4 41. Bb6+ Kd3 42. Bc7 Ke2 43. Bd8 Nd4 44. Bc7 Nxf3 45. Kg3 Nd2 46.
+Kh4 g6 47. Kg5 Ne4+ 48. Kh6 Kxf2 49. Kg7 Ng5 50. Bd8 Ne6+ 51. Kf6 Nxd8 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "Vendrell"]
+[Date "2023.03.04"]
+[Round "7.5"]
+[White "Rodriguez Garcia, Yuliesky"]
+[Black "Alonso Moyano, Jonathan"]
+[Result "1/2-1/2"]
+[WhiteElo "2170"]
+[BlackElo "2339"]
+[PlyCount "86"]
+[EventDate "2023.??.??"]
+[TimeControl "90+30"]
+[WhiteClock "0:07:30"]
+[BlackClock "0:01:27"]
+
+1. Nf3 {[%emt 1:36:51]} f5 {[%emt 0:15:03]} 2. g3 {[%emt 0:02:13]} Nf6 {[%emt
+0:00:12]} 3. Bg2 {[%emt 0:00:07]} d6 {[%emt 0:00:07]} 4. d4 {[%emt 0:01:06]} g6
+{[%emt 0:00:06]} 5. O-O {[%emt 0:23:40]} Bg7 6. c4 {[%emt 0:02:32]} O-O {[%emt
+0:00:11]} 7. Nc3 {[%emt 0:00:05]} Qe8 {[%emt 0:01:05]} 8. d5 {[%emt 0:13:08]}
+Na6 {[%emt 0:00:37]} 9. Be3 {[%emt 0:00:27]} c6 {[%emt 0:03:16]} 10. h3 {[%emt
+0:09:23]} Bd7 {[%emt 0:15:51]} 11. Qd2 {[%emt 0:05:11]} cxd5 {[%emt 0:04:26]}
+12. cxd5 {[%emt 0:00:50]} Nc5 {[%emt 0:00:43]} 13. Bxc5 {[%emt 0:13:45]} dxc5 {
+[%emt 0:00:16]} 14. Ne5 {[%emt 0:00:02]} b5 {[%emt 0:15:50]} 15. a4 {[%emt 0:
+01:45]} b4 {[%emt 0:05:04]} 16. Nb5 {[%emt 0:00:00]} Ne4 17. Bxe4 {[%emt 0:00:
+00]} Bxe5 {[%emt 0:00:00]} 18. d6 fxe4 {[%emt 0:05:21]} 19. Qd5+ {[%emt 0:00:
+53]} Qf7 {[%emt 0:00:07]} 20. Qxe5 {[%emt 0:00:27]} Bxh3 {[%emt 0:00:14]} 21.
+dxe7 {[%emt 0:00:47]} Rfe8 {[%emt 0:00:06]} 22. Rfc1 {[%emt 0:13:45]} Rxe7 {
+[%emt 0:03:55]} 23. Qxc5 {[%emt 0:00:17]} a5 {[%emt 0:02:09]} 24. Qe3 {[%emt 0:
+00:19]} Rd8 {[%emt 0:02:52]} 25. Rd1 {[%emt 0:00:45]} Rd5 {[%emt 0:01:00]} 26.
+Rd4 {[%emt 0:01:14]} Rxd4 {[%emt 0:01:01]} 27. Nxd4 {[%emt 0:00:55]} Qd5 {
+[%emt 0:01:40]} 28. Rc1 {[%emt 0:00:54]} h5 {[%emt 0:04:28]} 29. b3 {[%emt 0:
+00:53]} Kh7 {[%emt 0:00:14]} 30. Nf3 {[%emt 0:00:21]} Bf5 {[%emt 0:03:46]} 31.
+Rc5 {[%emt 0:02:49]} Qd1+ {[%emt 0:00:25]} 32. Kh2 {[%emt 0:00:11]} Rd7 {[%emt
+0:02:38]} 33. Ne5 {[%emt 0:04:54]} Re7 34. Rxa5 {[%emt 0:00:00]} Qf1 {[%emt 0:
+01:17]} 35. g4 {[%emt 0:04:21]} hxg4 {[%emt 0:00:40]} 36. Qg3 {[%emt 0:00:23]}
+Kg7 {[%emt 0:00:25]} 37. Qh4 {[%emt 0:00:52]} Rc7 {[%emt 0:00:58]} 38. Ra8 {
+[%emt 0:00:14]} Qh3+ {[%emt 0:00:09]} 39. Qxh3 {[%emt 0:00:11]} gxh3 {[%emt 0:
+00:02]} 40. Nc4 {[%emt 0:00:55]} Be6 {[%emt 0:00:22]} 41. Rb8 {[%emt 0:00:05]}
+Bxc4 {[%emt 0:00:21]} 42. bxc4 {[%emt 0:00:05]} Rxc4 {[%emt 0:00:07]} 43. Kxh3
+{[%emt 0:00:16]} Rc2 {[%emt 0:01:47]} 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.03.25"]
+[Round "10.5"]
+[White "Rodriguez Garcia, Yuliesky"]
+[Black "Roca Planas, Edgar"]
+[Result "1-0"]
+[WhiteElo "2178"]
+[BlackElo "2144"]
+[PlyCount "76"]
+[EventDate "2023.??.??"]
+
+1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. a3 d5 5. cxd5 Nxd5 6. d4 exd4 7. Nxd4 Nxc3 8.
+bxc3 Bc5 9. Be3 Qf6 10. g3 Ne5 11. h3 O-O 12. Bg2 Nc4 13. Bc1 Rd8 14. e3 Bxd4
+15. exd4 Re8+ 16. Kf1 c6 17. Kg1 Be6 18. Qh5 Bf5 19. Bg5 Qe6 20. Kh2 Bg6 21.
+Qd1 Be4 22. Re1 Qd5 23. Qe2 Nd6 24. Bxe4 Nxe4 25. Bf4 Re6 26. Qf3 Rae8 27. Re3
+Nf6 28. Qe2 b5 29. a4 Qd7 30. axb5 cxb5 31. Re5 Nd5 32. Qf3 Rxe5 33. dxe5 Nxf4
+34. gxf4 f6 35. Qe3 Re7 36. Ra6 Qb7 37. Rd6 a5 38. Rd8+ Kf7 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.02.22"]
+[Round "6.8"]
+[White "Pham Guerrero, Sergi"]
+[Black "Rodriguez Garcia, Yuliesky"]
+[Result "0-1"]
+[ECO "B23"]
+[WhiteElo "2017"]
+[BlackElo "2176"]
+[PlyCount "76"]
+[GameId "2150544403161826"]
+[EventDate "2025.02.15"]
+[WhiteTeam "Andorra"]
+[BlackTeam "Lira Vendrellenca"]
+[WhiteTeamCountry "AND"]
+
+1. e4 c5 2. Nc3 Nc6 3. f4 e6 4. Nf3 d5 5. d3 Nf6 6. e5 Ng8 7. g3 Nge7 8. Bg2 Nf5 9. O-O h5 10. Ne2 Qb6 11. c3 Bd7 12. Qb3 Qc7 13. Qc2 Be7 14. Bd2 h4 15. g4 h3 16. gxf5 hxg2 17. Rf2 exf5 18. Rxg2 g6 19. d4 O-O-O 20. Be3 c4 21. b4 cxb3 22. axb3 Na5 23. Qa2 b6 24. Nd2 Rh3 25. b4 Rxe3 26. bxa5 Bb5 27. axb6 Qxb6 28. Nf1 Rf3 29. Rg3 Rxg3+ 30. hxg3 a6 31. Ne3 Qc6 32. Nxd5 Rxd5 33. c4 Bxc4 34. Rc1 Bxa2 35. Rxc6+ Kb7 36. Rc2 Bb1 37. Rd2 Rb5 38. Kf2 Bb4 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.03.08"]
+[Round "8.8"]
+[White "Rodriguez Garcia, Yuliesky"]
+[Black "Gomila Benejam, Teodoro"]
+[Result "1/2-1/2"]
+[ECO "D45"]
+[WhiteElo "2182"]
+[BlackElo "2021"]
+[PlyCount "87"]
+[GameId "2155320562172604"]
+[EventDate "2025.02.15"]
+[WhiteTeam "Lira Vendrellenca"]
+[BlackTeam "Cor de Marina"]
+
+1. c4 e6 2. Nc3 d5 3. d4 Nf6 4. Nf3 c6 5. e3 Nbd7 6. Qc2 Bd6 7. g4 dxc4 8. Bxc4 b5 9. Be2 Bb7 10. g5 Nd5 11. Bd2 a6 12. Ne4 Be7 13. a3 a5 14. h4 Qb6 15. Rc1 Rc8 16. Nc5 Bxc5 17. dxc5 Qc7 18. e4 Nf4 19. Qc3 Nxe2 20. Kxe2 O-O 21. Qxa5 Qb8 22. Qc3 e5 23. Rhg1 Rfe8 24. Be3 Nf8 25. h5 Rcd8 26. Rcd1 b4 27. Qxb4 Ba6+ 28. Ke1 Qxb4+ 29. axb4 Rb8 30. Bd2 Ne6 31. Bc3 Nf4 32. Nxe5 Ne2 33. Kd2 Nxc3 34. bxc3 Rxe5 35. Ke3 Rbe8 36. Rd4 Kf8 37. f4 R5e6 38. Ra1 Bc8 39. f5 Re5 40. Kf4 R5e7 41. Ra8 Bb7 42. Ra7 Bc8 43. Ra8 Bb7 44. Ra7 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.03.15"]
+[Round "9.5"]
+[White "Tarrago Antoni, Maurici"]
+[Black "Rodriguez Garcia, Yuliesky"]
+[Result "1/2-1/2"]
+[ECO "A38"]
+[WhiteElo "2134"]
+[BlackElo "2182"]
+[PlyCount "72"]
+[GameId "2157543985960221"]
+[EventDate "2025.02.15"]
+[WhiteTeam "Escacs Catalònia"]
+[BlackTeam "Lira Vendrellenca"]
+
+1. Nf3 Nf6 2. c4 c5 3. g3 Nc6 4. Bg2 g6 5. Nc3 Bg7 6. a3 O-O 7. Rb1 d5 8. cxd5 Nxd5 9. Nxd5 Qxd5 10. d3 Qa2 11. Bd2 c4 12. Bc3 cxd3 13. exd3 Bxc3+ 14. bxc3 Qxa3 15. Qd2 Bg4 16. O-O Bxf3 17. Bxf3 Ne5 18. Be2 a5 19. Rxb7 Rfb8 20. Rfb1 Rxb7 21. Rxb7 Qd6 22. d4 Nd7 23. Bf3 Rc8 24. Qb2 Rc7 25. Rb5 a4 26. Ra5 Qb6 27. Ra8+ Kg7 28. Qa3 Qd6 29. Rxa4 Qxa3 30. Rxa3 Nb6 31. Kf1 Nc4 32. Ra2 Nd6 33. Rc2 Nb5 34. Be4 f5 35. Bd3 Rxc3 36. Rxc3 Nxc3 1/2-1/2

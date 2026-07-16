@@ -1,0 +1,842 @@
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.04"]
+[Round "1"]
+[White "Rathanvel, V S."]
+[Black "Dardha, Daniel"]
+[Result "1-0"]
+[ECO "B63"]
+[WhiteElo "2374"]
+[BlackElo "2035"]
+[PlyCount "83"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Bg5 e6 7. Qd2 Be7 8.
+O-O-O O-O 9. f3 h6 10. Be3 Bd7 11. g4 Nxd4 12. Bxd4 b5 13. Nxb5 Bxb5 14. Bxb5
+Rb8 15. Bd3 e5 16. Be3 d5 17. exd5 Nxd5 18. Bh7+ Kxh7 19. Qxd5 Bg5 20. Qe4+ f5
+21. Rxd8 fxe4 22. Bxg5 Rbxd8 23. Bxd8 Rxd8 24. fxe4 Rf8 25. Kd2 Rf4 26. Re1
+Rxg4 27. c4 Kg8 28. c5 Kf7 29. b4 Ke7 30. Re2 g5 31. Kc3 Kd7 32. Kc4 h5 33. Kd5
+h4 34. Kxe5 Rg1 35. h3 Rh1 36. Rg2 Rxh3 37. Rxg5 Ra3 38. Rh5 Rxa2 39. Rxh4 Ra4
+40. b5 Ra5 41. Rh7+ Kc8 42. Kd6 1-0
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.05"]
+[Round "2"]
+[White "Dardha, Daniel"]
+[Black "Salagran Ferragut, Guillem"]
+[Result "1-0"]
+[ECO "C00"]
+[WhiteElo "2035"]
+[BlackElo "2196"]
+[PlyCount "73"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d3 d5 3. Nd2 c5 4. Ngf3 Nf6 5. g3 g6 6. Bg2 Bg7 7. O-O O-O 8. Re1
+Nc6 9. c3 a5 10. Qc2 b6 11. Nf1 Ba6 12. e5 Nd7 13. Bf4 b5 14. h4 Rb8 15. N1h2
+Qb6 16. Qd2 Rfc8 17. d4 cxd4 18. cxd4 Nb4 19. Bh6 Bh8 20. Ng4 Rc2 21. Qe3 Rc4
+22. Ng5 Qd8 23. Rad1 Qe7 24. Qf4 Rb7 25. Bh3 Nc6 26. b3 Rc2 27. h5 Rxa2 28. Re3
+Nd8 29. Rc1 Ra7 30. Rf3 a4 31. hxg6 hxg6 32. bxa4 bxa4 33. Nf6+ Bxf6 34. exf6
+Qb4 35. Bg7 Qd2 36. Qh4 Qxc1+ 37. Kh2 1-0
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.06"]
+[Round "3"]
+[White "Dardha, Daniel"]
+[Black "Gedajlovic, Max"]
+[Result "0-1"]
+[ECO "A09"]
+[WhiteElo "2035"]
+[BlackElo "2302"]
+[PlyCount "60"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 d5 2. c4 d4 3. b4 g6 4. Bb2 Bg7 5. e3 e5 6. exd4 exd4 7. d3 Ne7 8. g3
+O-O 9. Bg2 Nec6 10. a3 Re8+ 11. Kf1 a5 12. b5 Ne5 13. Nxe5 Bxe5 14. Nd2 Nd7 15.
+a4 Bg7 16. h3 h5 17. Bf3 h4 18. g4 Ne5 19. Be2 b6 20. Nf3 Bb7 21. Kg2 Qd7 22.
+Kh2 Nxg4+ 23. hxg4 Qxg4 24. Rg1 Qf4+ 25. Kg2 h3+ 26. Kxh3 Rxe2 27. Qxe2 Bxf3
+28. Qe7 Qf5+ 29. Kg3 Be5+ 30. Qxe5 Qg4+ 0-1
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.07"]
+[Round "4"]
+[White "Ivana Maria, Furtado"]
+[Black "Dardha, Daniel"]
+[Result "1/2-1/2"]
+[ECO "D00"]
+[WhiteElo "2188"]
+[BlackElo "2035"]
+[PlyCount "147"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nc3 d5 3. Qd3 Nbd7 4. Bg5 c6 5. f3 h6 6. Bh4 e5 7. e3 b5 8. O-O-O
+Be7 9. g4 a5 10. Bg3 b4 11. dxe5 bxc3 12. Qxc3 Qb6 13. exf6 Bxf6 14. Qa3 Qb4
+15. Qxb4 axb4 16. Kb1 Ne5 17. h3 Ba6 18. Bxa6 Rxa6 19. Bxe5 Bxe5 20. f4 Bf6 21.
+h4 g6 22. Ne2 O-O 23. Nc1 Re8 24. Rh3 Ra7 25. Nd3 c5 26. g5 hxg5 27. hxg5 Bg7
+28. Nxc5 Rea8 29. Rxd5 Rxa2 30. Rd8+ Rxd8 31. Kxa2 Rc8 32. Nd3 Rxc2 33. e4 Bd4
+34. e5 Kf8 35. Kb3 Rd2 36. Kxb4 Bxb2 37. Kc4 Ba3 38. Rh8+ Kg7 39. Ra8 Be7 40.
+Ra7 Kf8 41. e6 fxe6 42. Ne5 Ke8 43. Nxg6 Bxg5 44. fxg5 Rd5 45. Nf4 Rxg5 46.
+Nxe6 Rg4+ 47. Kd5 Rg1 48. Ng7+ Kf8 49. Nf5 Re1 50. Nd6 Rd1+ 51. Ke6 Re1+ 52.
+Kf6 Rf1+ 53. Nf5 Ke8 54. Rb7 Rf2 55. Ke6 Re2+ 56. Kd5 Rd2+ 57. Nd4 Rd1 58. Ra7
+Rd2 59. Rb7 Rd1 60. Rh7 Kd8 61. Ke5 Rd2 62. Nc6+ Kc8 63. Ne7+ Kd8 64. Nd5 Rd1
+65. Ke6 Kc8 66. Rd7 Rh1 67. Ne7+ Kb8 68. Nc6+ Kc8 69. Rg7 Rh6+ 70. Kd5 Rd6+ 71.
+Kc5 Rd5+ 72. Kb6 Rb5+ 73. Ka7 Rb7+ 74. Rxb7 1/2-1/2
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.08"]
+[Round "5"]
+[White "Dardha, Daniel"]
+[Black "Niraj, Saripalli"]
+[Result "0-1"]
+[ECO "D00"]
+[WhiteElo "2035"]
+[BlackElo "2140"]
+[PlyCount "90"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nc3 c5 3. e4 dxe4 4. d5 Nf6 5. Bg5 Nbd7 6. Qe2 h6 7. Bh4 a6 8.
+O-O-O Qa5 9. Kb1 b5 10. d6 Bb7 11. Bxf6 Nxf6 12. d7+ Nxd7 13. Nxe4 e6 14. g4
+Qc7 15. Bg2 O-O-O 16. Nf3 Be7 17. h4 Nb6 18. Ng3 Qf4 19. Ne1 Qxf2 20. Rxd8+
+Rxd8 21. Bxb7+ Kxb7 22. Qf3+ Qxf3 23. Nxf3 Nc4 24. Kc1 Bf6 25. b3 Ne5 26. g5
+hxg5 27. hxg5 Nxf3 28. gxf6 gxf6 29. Rf1 Ne5 30. Rxf6 Kc6 31. Ne4 Rg8 32. a4
+Rg4 33. axb5+ axb5 34. Nf2 Rg6 35. Rf4 f5 36. Kd2 Rg2 37. Kd1 Ng6 38. Rf3 Ne5
+39. Rf4 Ng4 40. Nd3 Ne3+ 41. Ke1 Nxc2+ 42. Kf1 Ne3+ 43. Ke1 Nd5 44. Rf3 Kd6 45.
+Kf1 Rd2 0-1
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.09"]
+[Round "6"]
+[White "Nadal Fajardo, Ricard"]
+[Black "Dardha, Daniel"]
+[Result "1/2-1/2"]
+[ECO "B43"]
+[WhiteElo "1900"]
+[BlackElo "2035"]
+[PlyCount "26"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Nc3 Qc7 6. Bd3 Nf6 7. O-O Be7 8.
+Be3 d6 9. f4 Nbd7 10. Qf3 b6 11. g4 h6 12. Qh3 Nf8 13. g5 N6d7 1/2-1/2
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.10"]
+[Round "7"]
+[White "Sadrija, Enver"]
+[Black "Dardha, Daniel"]
+[Result "0-1"]
+[ECO "E22"]
+[WhiteElo "2241"]
+[BlackElo "2035"]
+[PlyCount "68"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qb3 c5 5. a3 Bxc3+ 6. bxc3 O-O 7. Nf3 d6 8.
+Bg5 h6 9. Bh4 Nbd7 10. e3 b6 11. Rd1 Qe7 12. Bd3 Bb7 13. d5 exd5 14. cxd5 Bxd5
+15. c4 Bb7 16. O-O Rad8 17. Rd2 Ne5 18. Be2 Ng6 19. Bxf6 Qxf6 20. Rfd1 Ne5 21.
+Nxe5 dxe5 22. Rd7 Rxd7 23. Rxd7 Qc6 24. Rd5 Qg6 25. Bd3 e4 26. Be2 Bxd5 27.
+cxd5 Rd8 28. Bc4 Qd6 29. Qa4 b5 30. Qxb5 Rb8 31. Qa4 Rb1+ 32. Bf1 Qxd5 33. Qa6
+g6 34. g3 Qd3 0-1
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.11"]
+[Round "8"]
+[White "Dardha, Daniel"]
+[Black "Villar Reymundo, Juan Antonio"]
+[Result "0-1"]
+[ECO "B47"]
+[WhiteElo "2035"]
+[BlackElo "2165"]
+[PlyCount "80"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. g3 a6 7. Bg2 Nf6 8. O-O
+Nxd4 9. Qxd4 Bc5 10. Qd3 Ng4 11. Bf4 Ne5 12. Qe2 d6 13. Kh1 h5 14. Bg5 f6 15.
+Be3 Bd7 16. h3 Bb4 17. Rfd1 Nc4 18. Rd4 Rc8 19. Bf1 b5 20. Nd1 Bc6 21. Bg2 Qb7
+22. c3 Bc5 23. Rxc4 bxc4 24. Qxc4 Kf7 25. Bxc5 dxc5 26. Qe2 h4 27. g4 Rhd8 28.
+b3 Rd7 29. Qf3 Rcd8 30. Ne3 g5 31. c4 Qc7 32. Nd5 exd5 33. exd5 Qe5 34. Rf1 Bb7
+35. Qd3 Kg7 36. Be4 Qd4 37. Qc2 Re8 38. Bh7 Kh8 39. Qg6 Qe5 40. Bg8 Rxg8 0-1
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.12"]
+[Round "9"]
+[White "Segarra Calderer, Albert"]
+[Black "Dardha, Daniel"]
+[Result "1/2-1/2"]
+[ECO "A13"]
+[WhiteElo "2029"]
+[BlackElo "2035"]
+[PlyCount "129"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 e6 2. g3 Nf6 3. Bg2 d5 4. Nf3 d4 5. O-O c5 6. d3 Nc6 7. Na3 Bd6 8. Nc2
+O-O 9. a3 a5 10. Rb1 e5 11. Bd2 Qe7 12. e3 dxe3 13. Nxe3 h6 14. Re1 Be6 15. Bc3
+Qc7 16. Nd2 Ne7 17. b4 axb4 18. axb4 cxb4 19. Bxb4 Bxb4 20. Rxb4 Nc6 21. Rb5
+Rad8 22. Qb1 Bc8 23. Ne4 Nxe4 24. Bxe4 Nd4 25. Rd5 Kh8 26. Nc2 Ne6 27. Qb2 Nc5
+28. Qxe5 Qxe5 29. Rxe5 Nxd3 30. Bxd3 Rxd3 31. Re8 Kg8 32. Nb4 Rd8 33. Rxd8 Rxd8
+34. Nd5 Be6 35. Rb1 Rb8 36. Ne3 Rc8 37. Rxb7 Bxc4 38. Nxc4 Rxc4 39. Kg2 g6 40.
+h4 h5 41. Ra7 Rc6 42. Rb7 Rc5 43. Kf3 Rc3+ 44. Kg2 Rc4 45. Re7 Kf8 46. Re3 Kg7
+47. Kf3 Rc6 48. Re8 Rc3+ 49. Re3 Rxe3+ 50. Kxe3 f6 51. Kf4 Kf7 52. f3 Kf8 53.
+g4 hxg4 54. fxg4 g5+ 55. hxg5 fxg5+ 56. Kxg5 Kg7 57. Kf5 Kf7 58. g5 Kg7 59. g6
+Kg8 60. Kf6 Kf8 61. Kf5 Kg7 62. Kg5 Kg8 63. Kh6 Kh8 64. g7+ Kg8 65. Kg6 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.13"]
+[Round "1"]
+[White "Dardha, Daniel"]
+[Black "Lorenzo De La Riva, Lazaro"]
+[Result "0-1"]
+[ECO "A31"]
+[WhiteElo "2035"]
+[BlackElo "2370"]
+[PlyCount "108"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 c5 3. Nf3 cxd4 4. Nxd4 b6 5. Nc3 Bb7 6. f3 e6 7. e4 d6 8. Be2
+Be7 9. O-O a6 10. b3 O-O 11. Bb2 Nbd7 12. Kh1 Rc8 13. Nc2 Qc7 14. Ne3 Qb8 15.
+Qe1 Rfe8 16. Rd1 Bc6 17. a4 Nc5 18. Qg3 g6 19. b4 Nxa4 20. Nxa4 Bxa4 21. Ra1 b5
+22. Ng4 Nxg4 23. fxg4 e5 24. Qh3 Rf8 25. Qh6 f6 26. g5 fxg5 27. Bg4 Rxf1+ 28.
+Rxf1 Rf8 29. Be6+ Kh8 30. Rxf8+ Bxf8 31. Qxg5 bxc4 32. Bxc4 Bb5 33. Bd5 Bg7 34.
+Qe7 Qf8 35. Qxf8+ Bxf8 36. Bc1 h6 37. h3 Kg7 38. Kg1 Be7 39. Kf2 Bd8 40. Bd2
+Bb6+ 41. Be3 Bd8 42. Bd2 h5 43. g3 h4 44. g4 Bb6+ 45. Be3 Bxe3+ 46. Kxe3 Kf6
+47. Kf2 g5 48. Bb3 Ke7 49. Bd1 Kd7 50. Be2 Kc6 51. Bd1 Bc4 52. Ba4+ Kb6 53. Kf3
+Bf1 54. Bd1 Kb5 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.14"]
+[Round "2"]
+[White "Tateo, Ida"]
+[Black "Dardha, Daniel"]
+[Result "0-1"]
+[ECO "B01"]
+[WhiteElo "1275"]
+[BlackElo "2035"]
+[PlyCount "58"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 d5 2. exd5 Nf6 3. Nc3 Nxd5 4. d4 g6 5. Bc4 c6 6. Nf3 Bg7 7. h3 O-O 8. O-O
+Be6 9. Nxd5 Bxd5 10. Bxd5 cxd5 11. Re1 Nc6 12. c3 e6 13. Bf4 Qd7 14. Qd2 b5 15.
+Bh6 Qb7 16. Bxg7 Kxg7 17. h4 h5 18. Ng5 Rfe8 19. Nf3 Rac8 20. Ne5 Re7 21. g4
+Nxe5 22. dxe5 hxg4 23. Qg5 Rh8 24. Qf6+ Kg8 25. Re3 Re8 26. Rg3 Rh5 27. Rxg4
+Rf5 28. Rxg6+ fxg6 29. Qxg6+ Qg7 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.15"]
+[Round "3"]
+[White "Dardha, Daniel"]
+[Black "Larsson, Anders"]
+[Result "1/2-1/2"]
+[ECO "A40"]
+[WhiteElo "2035"]
+[BlackElo "2226"]
+[PlyCount "69"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 e6 2. c4 Bb4+ 3. Nd2 d5 4. Qa4+ Nc6 5. Ngf3 Bd7 6. Qc2 Nf6 7. e3 O-O 8.
+a3 Be7 9. Bd3 Re8 10. b4 Bf8 11. Bb2 dxc4 12. Nxc4 a5 13. bxa5 Nxa5 14. Nce5
+Rc8 15. Nxd7 Qxd7 16. O-O c5 17. dxc5 Rxc5 18. Qe2 Rec8 19. Bd4 Rd5 20. Rad1
+Nc6 21. Bb2 Rd8 22. Bc2 Qc7 23. Rxd5 Rxd5 24. e4 Rd8 25. e5 Ne8 26. Ng5 g6 27.
+Qg4 Bg7 28. Qf4 h6 29. Nf3 Ne7 30. Rc1 Nd5 31. Qh4 Rc8 32. Bd3 Qd7 33. Rxc8
+Qxc8 34. h3 Qd7 35. Qd4 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.16"]
+[Round "4"]
+[White "Gavrish, Leonid"]
+[Black "Dardha, Daniel"]
+[Result "1/2-1/2"]
+[ECO "D41"]
+[WhiteElo "2158"]
+[BlackElo "2035"]
+[PlyCount "127"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 c5 7. Nf3 cxd4 8.
+cxd4 Bb4+ 9. Bd2 Bxd2+ 10. Qxd2 O-O 11. Bc4 Nd7 12. O-O b6 13. Rad1 Bb7 14.
+Rfe1 Rc8 15. Bd3 Qe7 16. Qf4 Rc3 17. e5 Bxf3 18. Qxf3 Rfc8 19. Qe4 Nf8 20. d5
+exd5 21. Qxd5 Qg5 22. g3 Ne6 23. h4 Qg4 24. Ba6 Rf8 25. Be2 Qg6 26. Bd3 Qg4 27.
+Kh2 Rd8 28. Qxd8+ Nxd8 29. Bf5 Qxd1 30. Rxd1 Nc6 31. Rd7 g6 32. Be4 Nxe5 33.
+Rxa7 Rc4 34. Bd5 Rd4 35. Bb3 Rd7 36. Ra6 Rd2 37. Kg1 Nd3 38. Rxb6 Rxf2 39. a4
+Rb2 40. a5 Rb1+ 41. Kg2 Ra1 42. a6 Nc5 43. Bc4 Ra4 44. Rc6 Rxc4 45. a7 Ra4 46.
+Rc8+ Kg7 47. a8=Q Rxa8 48. Rxa8 h5 49. Kf3 Nd7 50. Kf4 Nf6 51. Ra6 Ng4 52. Rc6
+Nh6 53. Ke5 Ng4+ 54. Kd4 Nh6 55. Ke5 Ng4+ 56. Kd6 Nh6 57. Rc3 Nf5+ 58. Ke5 Nh6
+59. Rf3 Ng4+ 60. Kd6 Nh6 61. Ke5 Ng4+ 62. Kf4 Nh6 63. Kg5 Ng4 64. Kf4 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.17"]
+[Round "5"]
+[White "Dardha, Daniel"]
+[Black "Salagran Ferragut, Guillem"]
+[Result "1/2-1/2"]
+[ECO "A46"]
+[WhiteElo "2035"]
+[BlackElo "2196"]
+[PlyCount "60"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. g3 b5 3. Bg2 Bb7 4. d4 e6 5. O-O Be7 6. Bg5 O-O 7. Qd3 d5 8. c3
+a6 9. Nbd2 Nbd7 10. Bxf6 Nxf6 11. b4 a5 12. a3 axb4 13. axb4 Qd6 14. Ne5 Qb6
+15. Nb3 Rxa1 16. Rxa1 Ra8 17. Qb1 Bd6 18. Nd3 Ne4 19. Rxa8+ Bxa8 20. Qa1 Bc6
+21. f3 Nf6 22. Qa5 Nd7 23. Ndc5 Bxc5 24. bxc5 Qb7 25. Na1 e5 26. e3 exd4 27.
+exd4 Nf6 28. Nc2 Be8 29. Nb4 c6 30. Bh3 Kf8 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.18"]
+[Round "6"]
+[White "Martorell Aguado, Joan"]
+[Black "Dardha, Daniel"]
+[Result "1-0"]
+[ECO "A46"]
+[WhiteElo "2219"]
+[BlackElo "2035"]
+[PlyCount "65"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 e6 3. Bg5 c5 4. e3 h6 5. Bh4 Be7 6. Nbd2 b6 7. Bd3 Bb7 8. O-O
+O-O 9. c3 d6 10. Qe2 a6 11. a4 Nc6 12. Rab1 cxd4 13. exd4 d5 14. Ne5 Nxe5 15.
+dxe5 Nd7 16. Bg3 Nc5 17. Bc2 Qd7 18. Rfd1 f5 19. exf6 Bxf6 20. Nc4 Qf7 21. Nd6
+Qe7 22. b4 Ne4 23. Nxe4 dxe4 24. Bd6 Qf7 25. Bxf8 Rxf8 26. Bxe4 Bxe4 27. Qxe4
+Bxc3 28. Qe3 Qf6 29. Qxb6 Be5 30. Qe3 Bb8 31. g3 Qf7 32. b5 axb5 33. axb5 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.19"]
+[Round "7"]
+[White "Dardha, Daniel"]
+[Black "Rakshitta, Ravi"]
+[Result "1-0"]
+[ECO "A45"]
+[WhiteElo "2035"]
+[BlackElo "1716"]
+[PlyCount "123"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Bg5 e6 3. e4 h6 4. Bxf6 Qxf6 5. c3 d6 6. Bd3 Nd7 7. Ne2 g5 8. Nd2
+Bg7 9. O-O e5 10. Nc4 Nb6 11. Nxb6 axb6 12. Ng3 Qg6 13. d5 Bd7 14. Qh5 Kf8 15.
+Be2 Bf6 16. h3 Kg7 17. Bg4 Bxg4 18. hxg4 Ra4 19. Rfe1 Rha8 20. a3 Qxh5 21.
+Nxh5+ Kg6 22. Re3 Bg7 23. Ng3 b5 24. Rd1 Rh8 25. Kf1 Raa8 26. Ke2 Ra4 27. Kd3
+Bf8 28. Kc2 Bg7 29. f3 Raa8 30. Kb3 Ra4 31. Re2 Rc4 32. Ra1 Ra4 33. Rc2 Rc4 34.
+Rh1 Ra8 35. Nf5 Rca4 36. Rhc1 Bf8 37. c4 bxc4+ 38. Rxc4 Rxc4 39. Rxc4 Rc8 40.
+a4 h5 41. gxh5+ Kxh5 42. g4+ Kg6 43. a5 f6 44. Rb4 Rb8 45. Kc4 c5 46. Rb6 Ra8
+47. Kb5 Ra7 48. Nxd6 Bxd6 49. Rxd6 Kf7 50. Rd7+ Ke8 51. Rc7 Kd8 52. Rxc5 Ra6
+53. Rc1 Rd6 54. b4 Rd7 55. Kb6 Rh7 56. b5 Rg7 57. a6 bxa6 58. bxa6 Rd7 59. a7
+Rd6+ 60. Rc6 Rxc6+ 61. Kxc6 Ke7 62. a8=Q 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.20"]
+[Round "8"]
+[White "Brzezinski, Adam"]
+[Black "Dardha, Daniel"]
+[Result "0-1"]
+[ECO "E46"]
+[WhiteElo "2208"]
+[BlackElo "2035"]
+[PlyCount "42"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Nge2 Re8 6. a3 Bf8 7. f3 d5 8. Ng3
+c5 9. dxc5 Bxc5 10. b4 Bb6 11. Na4 Bc7 12. Bb2 Nc6 13. Qc2 Bd7 14. Nc5 a5 15.
+Nxd7 Nxd7 16. b5 Nce5 17. c5 Rc8 18. f4 Ng4 19. Qe2 Qh4 20. Rc1 e5 21. Kd2 exf4
+0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.21"]
+[Round "9"]
+[White "Dardha, Daniel"]
+[Black "Vehi Bach, Victor Manuel"]
+[Result "0-1"]
+[ECO "B41"]
+[WhiteElo "2035"]
+[BlackElo "2298"]
+[PlyCount "48"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. c4 Nf6 6. Nc3 Bb4 7. Bd3 Nc6 8. a3
+Bxc3+ 9. bxc3 Qa5 10. Bd2 Qc7 11. O-O d6 12. Bg5 Ne5 13. f4 Nxd3 14. Qxd3 Nd7
+15. Rad1 Nc5 16. Qe3 f6 17. Bh4 e5 18. Nc2 Be6 19. Qe2 Na4 20. fxe5 Nxc3 21.
+Qf3 Nxd1 22. exf6 O-O 23. Rxd1 Qxc4 24. Rxd6 Qc5+ 0-1
+
+[Event "Sitges op"]
+[Site "Sitges"]
+[Date "2016.07.30"]
+[Round "9"]
+[White "Pogorelov, Ruslan"]
+[Black "Dardha, Daniel"]
+[Result "1-0"]
+[ECO "D35"]
+[WhiteElo "2345"]
+[BlackElo "2035"]
+[PlyCount "123"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 e6 2. c4 d5 3. d4 Nf6 4. Nc3 Nbd7 5. cxd5 exd5 6. Bf4 c6 7. e3 Nh5 8.
+Bg5 Be7 9. Bxe7 Qxe7 10. Qc2 Nb6 11. Be2 g6 12. h3 Ng7 13. O-O O-O 14. Ne5 Bf5
+15. Qb3 Nc8 16. a4 f6 17. Nd3 Bxd3 18. Bxd3 f5 19. Rfe1 Nd6 20. a5 a6 21. Na4
+Kh8 22. Qc2 Qf6 23. Nc5 Rf7 24. f4 Re7 25. Qf2 Ne6 26. b4 Rg8 27. Rac1 Nxc5 28.
+bxc5 Ne4 29. Bxe4 Rxe4 30. Rb1 Re7 31. Rb3 Qf7 32. Reb1 Rd7 33. Qf3 Re8 34. g4
+Ree7 35. R1b2 Rc7 36. Qg3 Rcd7 37. g5 Qe6 38. h4 Qe4 39. h5 Rg7 40. Rh2 Kg8 41.
+Qh3 Rde7 42. Kf1 Kf8 43. Qg2 Qxg2+ 44. Kxg2 Kf7 45. Kf3 Ke6 46. Rb1 Rd7 47.
+Rbh1 Rc7 48. hxg6 hxg6 49. Rh8 Rcd7 50. R1h6 Rde7 51. Rb8 Rd7 52. Ke2 Rc7 53.
+Kd2 Rcd7 54. Kd3 Rc7 55. Rhh8 Rh7 56. Rhe8+ Rhe7 57. Rg8 Rg7 58. Rbe8+ Rge7 59.
+Rxg6+ Kf7 60. Rxe7+ Rxe7 61. Rf6+ Kg7 62. Rxf5 1-0
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.13"]
+[Round "1"]
+[White "Colome Rovira, Oscar"]
+[Black "Dardha, Daniel"]
+[Result "0-1"]
+[ECO "B31"]
+[WhiteElo "1865"]
+[BlackElo "2212"]
+[PlyCount "50"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. d4 cxd4 5. Nxd4 Bg7 6. Be3 Nf6 7. Nc3 O-O 8.
+O-O Ng4 9. Nxc6 dxc6 10. Bc4 Qc7 11. g3 Nxe3 12. fxe3 Qb6 13. Qf3 Qxb2 14. Ne2
+e6 15. Rad1 Qxc2 16. Bb3 Qc5 17. Nf4 Qe7 18. Nd3 b6 19. e5 Bb7 20. Qf4 Qc7 21.
+g4 c5 22. Rc1 Rad8 23. Rc3 Qc6 24. Kf2 c4 25. Bxc4 b5 0-1
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.14"]
+[Round "2"]
+[White "Dardha, Daniel"]
+[Black "Oblitas Guerrero, Carlomagno"]
+[Result "1/2-1/2"]
+[ECO "D07"]
+[WhiteElo "2212"]
+[BlackElo "2395"]
+[PlyCount "74"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 dxc4 3. Nf3 Nf6 4. e3 Bg4 5. Bxc4 e6 6. Nc3 Nc6 7. Bb5 Bb4 8.
+Qa4 Bxf3 9. gxf3 Qd6 10. a3 Bxc3+ 11. bxc3 O-O 12. f4 Ne7 13. O-O c5 14. Be2
+Ned5 15. Qb3 Rfc8 16. dxc5 Qxc5 17. c4 Nb6 18. Bb2 Nxc4 19. Bxf6 gxf6 20. Bxc4
+Qxc4 21. Qxb7 Qc6 22. Rab1 a5 23. Rfd1 Qxb7 24. Rxb7 Rc3 25. Rdd7 Rf8 26. Rb5
+Rxa3 27. Ra7 a4 28. Rba5 Kh8 29. Rxa4 Rg8+ 30. Kf1 Rxa4 31. Rxa4 Rg6 32. f3 Kg7
+33. f5 exf5 34. Rf4 Rg5 35. h4 Rh5 36. Kg2 Rh6 37. Kh3 Rg6 1/2-1/2
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.15"]
+[Round "3"]
+[White "Rios, Cristhian Camilo"]
+[Black "Dardha, Daniel"]
+[Result "1-0"]
+[ECO "B33"]
+[WhiteElo "2477"]
+[BlackElo "2212"]
+[PlyCount "95"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nc6 3. Nc3 Nf6 4. d4 cxd4 5. Nxd4 e5 6. Ndb5 d6 7. a4 Be6 8.
+Bg5 a6 9. Bxf6 gxf6 10. Na3 f5 11. Bc4 fxe4 12. Bxe6 fxe6 13. Nxe4 d5 14. Qh5+
+Kd7 15. O-O Kc7 16. Ng5 Qf6 17. f4 e4 18. c3 h6 19. Nh3 Qf5 20. Qe2 Bxa3 21.
+Rxa3 Rag8 22. Kh1 Rg7 23. Raa1 Rhg8 24. Rg1 Ne7 25. Qf2 e5 26. b4 Ng6 27. Qc5+
+Kb8 28. Qxd5 Nxf4 29. Nxf4 Qxf4 30. Raf1 Qh4 31. Qxe5+ Ka8 32. b5 Rg5 33. Qd6
+R5g6 34. Rf8+ Rxf8 35. Qxf8+ Ka7 36. Qc5+ Ka8 37. Rf1 Rg8 38. bxa6 Qg5 39.
+axb7+ Kb8 40. Qd6+ Ka7 41. Qd4+ Kb8 42. Qxe4 Rd8 43. h3 Qg7 44. Rb1 Qc7 45. a5
+Rf8 46. a6 Qc5 47. a7+ Kxa7 48. b8=Q+ 1-0
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.16"]
+[Round "4"]
+[White "Dardha, Daniel"]
+[Black "Aishwin, Daniel"]
+[Result "1/2-1/2"]
+[ECO "E04"]
+[WhiteElo "2212"]
+[BlackElo "2031"]
+[PlyCount "118"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Nf3 Nf6 3. g3 e6 4. Bg2 c5 5. c4 dxc4 6. O-O Nc6 7. Qa4 Bd7 8. Qxc4
+cxd4 9. Nxd4 Rc8 10. Nc3 Nxd4 11. Qxd4 Bc5 12. Qd3 Bc6 13. Bxc6+ Rxc6 14. Qxd8+
+Kxd8 15. e4 h6 16. Bf4 Ke7 17. Rad1 Rd8 18. Rxd8 Kxd8 19. Rd1+ Ke7 20. e5 Nd7
+21. Ne4 Nb6 22. Bc1 Nd5 23. b3 Bb4 24. Bd2 Bxd2 25. Rxd2 b6 26. f4 Rc1+ 27. Kf2
+Rh1 28. Kg2 Re1 29. Nd6 a6 30. Kf2 Rh1 31. Kf3 Rc1 32. Kg4 g6 33. h4 Rc3 34.
+Ne4 h5+ 35. Kg5 Re3 36. Rd4 b5 37. Kh6 Kf8 38. Nc5 Rxg3 39. Nxa6 Rg4 40. a4
+bxa4 41. bxa4 Rxh4 42. a5 Rh1 43. Nb4 Ra1 44. Nxd5 exd5 45. Rxd5 h4 46. Rd3
+Rxa5 47. Kg5 Ke7 48. Kxh4 f6 49. exf6+ Kxf6 50. Kg4 Ra6 51. Rd8 Rb6 52. Rf8+
+Kg7 53. Rc8 Kf6 54. Rc5 Ra6 55. Re5 Rb6 56. Kf3 Rb3+ 57. Re3 Rxe3+ 58. Kxe3 g5
+59. fxg5+ Kxg5 1/2-1/2
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.17"]
+[Round "5"]
+[White "Molano Lafuente, Ismael"]
+[Black "Dardha, Daniel"]
+[Result "1-0"]
+[ECO "B20"]
+[WhiteElo "2004"]
+[BlackElo "2212"]
+[PlyCount "193"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. b3 Nc6 3. Bb2 d6 4. f4 e5 5. Qf3 a6 6. Bd3 Nf6 7. Ne2 Be7 8. O-O
+O-O 9. h3 b5 10. c4 bxc4 11. Bxc4 Nd4 12. Bxd4 cxd4 13. d3 Bb7 14. fxe5 dxe5
+15. Ng3 g6 16. Nd2 Ne8 17. Qg4 Bf6 18. Nf5 Bg7 19. Nxg7 Kxg7 20. Qg3 f6 21. Nf3
+Qe7 22. Nh4 Kh8 23. Qxg6 Nd6 24. Qh6 Qg7 25. Qxg7+ Kxg7 26. Rf3 Nxc4 27. Nf5+
+Kh8 28. bxc4 Rab8 29. Rb1 Ba8 30. Rff1 Kg8 31. Kf2 Kf7 32. Ke2 Ke6 33. Kd2 Bc6
+34. Kc1 a5 35. Rf2 a4 36. Rfb2 Rxb2 37. Rxb2 Kd7 38. a3 Rg8 39. g4 Ra8 40. Kd1
+Rg8 41. Ke1 Rf8 42. Kf2 Rg8 43. Rb6 Re8 44. Kg3 Kc7 45. Rb4 Ra8 46. Ng7 Kd7 47.
+Nh5 Ke7 48. Kf3 Rf8 49. Ng3 Kd7 50. Nf5 Rg8 51. Rb2 Rh8 52. Kg3 h5 53. gxh5
+Rxh5 54. Rb8 Rg5+ 55. Kf2 Rh5 56. h4 Kc7 57. Rf8 Bd7 58. Rf7 Kc8 59. Ne7+ Kd8
+60. Nd5 Rxh4 61. Rxf6 Rh2+ 62. Ke1 Ra2 63. Ra6 Rxa3 64. Kd2 Ra2+ 65. Kc1 a3 66.
+Ra8+ Bc8 67. Nb4 Ra1+ 68. Kd2 Rb1 69. Nc2 Kc7 70. Rxa3 Bg4 71. Ra1 Rb8 72. Rg1
+Be6 73. Rg5 Kd6 74. c5+ Kxc5 75. Rxe5+ Kd6 76. Ra5 Rb2 77. Kc1 Rb3 78. Ra6+ Kc5
+79. Rxe6 Rxd3 80. Rc6+ Kb5 81. Rc8 Kb6 82. Rc4 Rh3 83. Rxd4 Kc6 84. Kd2 Rg3 85.
+Ne3 Rg5 86. Kd3 Ra5 87. Rd5 Ra3+ 88. Kd4 Ra8 89. Nc4 Ra1 90. Ke5 Re1 91. Nd6
+Kc7 92. Rd2 Kd7 93. Nf5+ Ke8 94. Kf6 Rf1 95. e5 Rf4 96. e6 Re4 97. Ng7+ 1-0
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.18"]
+[Round "6"]
+[White "Dardha, Daniel"]
+[Black "Garcia Espelta, Josep"]
+[Result "1/2-1/2"]
+[ECO "E05"]
+[WhiteElo "2212"]
+[BlackElo "2052"]
+[PlyCount "116"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Na3 Bxa3 8.
+bxa3 b5 9. a4 c6 10. axb5 cxb5 11. a4 b4 12. Ne5 Nd5 13. Nxc4 a5 14. Bb2 Ba6
+15. Rc1 Nd7 16. Qb3 N7b6 17. Nxb6 Qxb6 18. Rfe1 Rfd8 19. e4 Nf6 20. Red1 Rac8
+21. d5 exd5 22. exd5 Bb7 23. Bd4 Qd6 24. Rxc8 Rxc8 25. Qb2 Re8 26. Bxf6 gxf6
+27. h3 Bc8 28. Kh2 Bd7 29. Rd4 Qe5 30. Qd2 Rb8 31. Re4 Qd6 32. Qh6 Bf5 33. Re2
+b3 34. Rb2 Bc2 35. Rxc2 bxc2 36. Be4 c1=Q 37. Qxc1 Qe5 38. Bg2 Rb4 39. Qc6 Rd4
+40. Qa8+ Kg7 41. Qxa5 Qe2 42. Qb6 Rxa4 43. d6 Qd2 44. Qc5 Rd4 45. Qf5 Qg5 46.
+Qd7 Qe5 47. Qb7 Rxd6 48. Qb4 Rd4 49. Qc3 Qd6 50. Qf3 Qd7 51. Qe3 Qd6 52. Qf3
+Qe5 53. Qc3 f5 54. Qf3 Qf6 55. Qh5 Rd2 56. Qf3 Qe5 57. h4 Rd4 58. Qh5 Rd6
+1/2-1/2
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.19"]
+[Round "7"]
+[White "Minguell Soler, Joan"]
+[Black "Dardha, Daniel"]
+[Result "0-1"]
+[ECO "D04"]
+[WhiteElo "2021"]
+[BlackElo "2212"]
+[PlyCount "90"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 c5 2. e3 d5 3. Nf3 Nf6 4. Bd3 Bg4 5. O-O Nc6 6. c3 e6 7. Nbd2 Bd6 8. a3
+e5 9. dxe5 Nxe5 10. Bb5+ Bd7 11. Be2 O-O 12. Nxe5 Bxe5 13. Nf3 Bc7 14. Qc2 b5
+15. Rd1 Qe7 16. Bd2 Bc6 17. b4 c4 18. Nd4 Bd7 19. Bf3 Ne4 20. g3 a6 21. Bg2
+Rfe8 22. Ra2 h5 23. h4 a5 24. Be1 Ra6 25. Ne2 Rd6 26. Nf4 Qe5 27. Bxe4 dxe4 28.
+Rxd6 Bxd6 29. Qd1 Bg4 30. Qd4 Qe7 31. Rd2 Bxf4 32. exf4 axb4 33. cxb4 e3 34.
+fxe3 Qxe3+ 35. Qxe3 Rxe3 36. Rd8+ Kh7 37. Kf2 Rf3+ 38. Kg2 Rxa3 39. Rd2 Bf5 40.
+Kf2 Bd3 41. Ke3 Rb3 42. Kd4 Rb1 43. Bf2 Rxb4 44. Kc5 Rb1 45. Bd4 b4 0-1
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.20"]
+[Round "8"]
+[White "Dardha, Daniel"]
+[Black "Amer, Said Salim Al Maash"]
+[Result "1-0"]
+[ECO "A32"]
+[WhiteElo "2212"]
+[BlackElo "2025"]
+[PlyCount "59"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 e6 3. g3 c5 4. Nf3 cxd4 5. Nxd4 Nc6 6. Bg2 Bc5 7. Nb3 Bb4+ 8.
+Bd2 d5 9. cxd5 exd5 10. Bxb4 Nxb4 11. O-O O-O 12. Nc3 Bf5 13. Nd4 Bg4 14. h3
+Bd7 15. Qb3 Qa5 16. a3 Nc6 17. Rfd1 Nxd4 18. Rxd4 Be6 19. Rad1 Rab8 20. Kh2 Qc5
+21. e3 Qc8 22. Nxd5 Nxd5 23. Bxd5 Bxh3 24. Rc4 Qf5 25. Rf4 Qc8 26. Bxf7+ Kh8
+27. Rh4 Bf5 28. Rc4 Bc2 29. Rxc8 Bxb3 30. Rxb8 1-0
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.21"]
+[Round "9.25"]
+[White "Gutierrez Olivares, Daniel"]
+[Black "Dardha, Daniel"]
+[Result "0-1"]
+[ECO "A13"]
+[WhiteElo "2352"]
+[BlackElo "2212"]
+[PlyCount "68"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 e6 2. Nf3 d5 3. e3 Nf6 4. b3 Be7 5. Bb2 O-O 6. Qc2 c5 7. g4 Nc6 8. a3 d4
+9. g5 Ne8 10. Bd3 f5 11. gxf6 Nxf6 12. b4 e5 13. Ng5 h6 14. Nh7 Nxh7 15. Bxh7+
+Kh8 16. b5 Bh4 17. bxc6 Rxf2 18. Kd1 Bg4+ 19. Kc1 dxe3 20. Bxe5 Bg5 21. Bc3 e2
+22. Kb2 Rf1 23. Bxg7+ Kxg7 24. Nc3 Rxh1 25. Rxh1 Qxd2 26. h4 Qxc2+ 27. Bxc2
+Bxh4 28. Nxe2 Bf6+ 29. Nc3 bxc6 30. Rg1 Rb8+ 31. Bb3 h5 32. Kc2 Bd4 33. Re1
+Bf5+ 34. Kb2 Bd3 0-1
+
+[Event "Sitges op 43rd"]
+[Site "Sitges"]
+[Date "2017.07.25"]
+[Round "4"]
+[White "Dardha, Daniel"]
+[Black "Tissir, Mohamed"]
+[Result "0-1"]
+[ECO "A45"]
+[WhiteElo "2212"]
+[BlackElo "2354"]
+[PlyCount "97"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Bg5 Ne4 3. Bf4 Nc6 4. Nf3 d5 5. e3 e6 6. Nbd2 g5 7. Bg3 h5 8. Nxe4
+dxe4 9. Nd2 h4 10. Be5 f6 11. Bxf6 Qxf6 12. Nxe4 Qg7 13. Be2 Bd7 14. Bh5+ Kd8
+15. O-O Be7 16. Bg4 Qg6 17. f3 Kc8 18. Qd3 Qh6 19. Qc4 Rd8 20. Nc5 Bxc5 21.
+Qxc5 Qg7 22. Rad1 a5 23. Qc4 Qe7 24. Qe2 Kb8 25. e4 e5 26. Bxd7 Rxd7 27. dxe5
+Rxd1 28. Rxd1 Nxe5 29. Qb5 c6 30. Qb6 Nd7 31. Qe3 Kc7 32. f4 gxf4 33. Qxf4+ Ne5
+34. Rf1 Rd8 35. h3 Rd7 36. Kh2 b6 37. Kh1 Kb7 38. Qh6 Rd4 39. Qf4 b5 40. Qf5 a4
+41. c3 Rd2 42. Rf2 Rd1+ 43. Rf1 Rxf1+ 44. Qxf1 Nc4 45. Qe2 Qg5 46. Qd1 Qe7 47.
+Qe2 Nd6 48. e5 Nf7 49. e6 0-1
+
+[Event "Sitges op 43rd"]
+[Site "Sitges"]
+[Date "2017.07.27"]
+[Round "6"]
+[White "Dardha, Daniel"]
+[Black "Rios Parra, Alejandro"]
+[Result "0-1"]
+[ECO "A31"]
+[WhiteElo "2212"]
+[BlackElo "2342"]
+[PlyCount "106"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 c5 3. Nf3 cxd4 4. Nxd4 b6 5. Nc3 Bb7 6. f3 e6 7. e4 d6 8. Be2
+a6 9. Be3 Be7 10. O-O O-O 11. Qd2 Nbd7 12. Rfd1 Rc8 13. Rac1 Qc7 14. b4 Qb8 15.
+Nb3 Rfd8 16. a3 Ne8 17. Bf1 Bf6 18. Na4 Bc6 19. b5 Nc5 20. Naxc5 dxc5 21. Qc2
+axb5 22. cxb5 Ba8 23. a4 Be5 24. g3 Nd6 25. Bg2 Qa7 26. a5 Bd4 27. Qf2 e5 28.
+axb6 Qxb6 29. Nxc5 Rxc5 30. Rxc5 Qxc5 31. Bxd4 exd4 32. Qxd4 Qxd4+ 33. Rxd4 f6
+34. Bf1 Kf8 35. Ra4 Bb7 36. Kf2 Ke7 37. Ke3 Rc8 38. Bd3 Rc1 39. f4 Re1+ 40. Kf2
+Rh1 41. Ra7 Ke6 42. Bc4+ Nxc4 43. Rxb7 Rxh2+ 44. Kg1 Rb2 45. Rxg7 h5 46. Rc7
+Nd6 47. e5 fxe5 48. fxe5 Nf5 49. b6 Kxe5 50. Rb7 Ke4 51. Rb8 Kf3 52. b7 Rg2+
+53. Kf1 Ne3+ 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "Barberà del Valles, Spain"]
+[Date "2023.03.25"]
+[Round "10.1"]
+[White "Dvirnyy, Danyyil"]
+[Black "Dardha, Daniel"]
+[Result "0-1"]
+[TimeControl "90+30"]
+[WhiteTitle "GM"]
+[BlackTitle "GM"]
+[WhiteElo "2548"]
+[BlackElo "2610"]
+
+1. d4 {[%clk 01:30:55]} {[%emt 00:00:04]} Nf6 {[%clk 01:30:32]} {[%emt
+00:00:29]} 2. c4 {[%clk 01:31:13]} {[%emt 00:00:13]} e6 {[%clk 01:30:52]}
+{[%emt 00:00:10]} 3. Nf3 {[%clk 01:31:37]} {[%emt 00:00:06]} d5 {[%clk
+01:30:49]} {[%emt 00:00:33]} 4. Nc3 {[%clk 01:31:57]} {[%emt 00:00:10]} Nbd7
+{[%clk 01:27:34]} {[%emt 00:03:46]} 5. Bf4 {[%clk 01:30:03]} {[%emt 00:02:23]}
+Bb4 {[%clk 01:24:07]} {[%emt 00:03:57]} 6. cxd5 {[%clk 01:27:15]} {[%emt
+00:03:18]} exd5 {[%clk 01:23:39]} {[%emt 00:00:58]} 7. Rc1 {[%clk 01:26:42]}
+{[%emt 00:01:04]} c5 {[%clk 01:19:44]} {[%emt 00:04:25]} 8. dxc5 {[%clk
+01:22:17]} {[%emt 00:04:55]} O-O {[%clk 01:15:56]} {[%emt 00:04:18]} 9. g3
+{[%clk 01:12:31]} {[%emt 00:10:16]} Nxc5 {[%clk 01:07:59]} {[%emt 00:08:26]} 10.
+Bg2 {[%clk 01:12:35]} {[%emt 00:00:26]} Bxc3+ {[%clk 01:06:43]} {[%emt
+00:01:46]} 11. Rxc3 {[%clk 01:08:06]} {[%emt 00:04:59]} Nce4 {[%clk 01:05:25]}
+{[%emt 00:01:48]} 12. Ra3 {[%clk 01:06:20]} {[%emt 00:02:16]} Bf5 {[%clk
+00:59:50]} {[%emt 00:06:05]} 13. O-O {[%clk 01:05:22]} {[%emt 00:01:27]} Qd7
+{[%clk 00:59:51]} {[%emt 00:00:29]} 14. Qa4 {[%clk 00:54:03]} {[%emt 00:11:49]}
+b5 {[%clk 00:57:54]} {[%emt 00:02:27]} 15. Qd4 {[%clk 00:54:11]} {[%emt
+00:00:22]} Rfc8 {[%clk 00:51:24]} {[%emt 00:07:01]} 16. Ne5 {[%clk 00:53:32]}
+{[%emt 00:01:08]} Qe7 {[%clk 00:47:17]} {[%emt 00:04:37]} 17. Rc1 {[%clk
+00:50:40]} {[%emt 00:03:22]} Rxc1+ {[%clk 00:41:59]} {[%emt 00:05:49]} 18. Bxc1
+{[%clk 00:51:05]} {[%emt 00:00:04]} b4 {[%clk 00:39:49]} {[%emt 00:02:40]} 19.
+Rf3 {[%clk 00:29:32]} {[%emt 00:22:02]} Rc8 {[%clk 00:38:06]} {[%emt 00:02:12]}
+20. Bf4 {[%clk 00:27:59]} {[%emt 00:02:04]} Rc2 {[%clk 00:33:07]} {[%emt
+00:05:30]} 21. h3 {[%clk 00:20:52]} {[%emt 00:07:37]} h5 {[%clk 00:29:23]}
+{[%emt 00:04:13]} 22. Nd3 {[%clk 00:10:38]} {[%emt 00:10:44]} Qe6 {[%clk
+00:24:01]} {[%emt 00:05:53]} 23. Be3 {[%clk 00:09:44]} {[%emt 00:01:24]} Rxe2
+{[%clk 00:21:32]} {[%emt 00:02:59]} 24. Qxb4 {[%clk 00:08:30]} {[%emt
+00:01:44]} Rc2 {[%clk 00:14:55]} {[%emt 00:07:07]} 25. Nf4 {[%clk 00:07:50]}
+{[%emt 00:01:09]} Qc8 {[%clk 00:12:44]} {[%emt 00:02:41]} 26. Qd4 {[%clk
+00:08:08]} {[%emt 00:00:11]} Ng5 {[%clk 00:11:11]} {[%emt 00:02:04]} 27. Nxh5
+{[%clk 00:06:24]} {[%emt 00:02:15]} Nxf3+ {[%clk 00:10:15]} {[%emt 00:01:26]}
+28. Bxf3 {[%clk 00:06:49]} {[%emt 00:00:05]} Nxh5 {[%clk 00:09:44]} {[%emt
+00:01:01]} 29. Bxh5 {[%clk 00:07:15]} {[%emt 00:00:04]} Be4 {[%clk 00:08:52]}
+{[%emt 00:01:22]} 30. Kh2 {[%clk 00:05:10]} {[%emt 00:02:35]} Qc4 {[%clk
+00:06:10]} {[%emt 00:03:12]} 31. Qxc4 {[%clk 00:05:35]} {[%emt 00:00:06]} dxc4
+{[%clk 00:06:05]} {[%emt 00:00:34]} 0-1

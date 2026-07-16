@@ -1,0 +1,376 @@
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.01.23"]
+[Round "1"]
+[White "Garcia Busquets, Jordi"]
+[Black "Ramon Serrano, Francisco Javier"]
+[Result "1-0"]
+[ECO "B01"]
+[WhiteElo "2141"]
+[BlackElo "2192"]
+[PlyCount "79"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+
+{[%evp 0,79,11,17,42,39,49,29,81,65,32,29,23,23,26,23,7,0,9,-4,4,2,12,10,19,24,
+54,34,65,30,50,57,140,61,70,30,48,39,47,33,18,6,-23,-23,-45,-28,-58,-58,144,89,
+66,86,81,72,76,81,102,94,108,45,54,4,113,121,333,423,522,522,1219,543,594,594,
+594,323,1155,594,683,567,854,1001,1001,972]} 1. e4 d5 2. exd5 Nf6 3. d4 Bg4 4.
+Be2 Bxe2 5. Qxe2 Qxd5 6. Nf3 e6 7. O-O Nc6 8. Be3 Bd6 9. h3 O-O 10. c4 Qh5 11.
+Nc3 a6 12. Rad1 Rad8 13. Rfe1 Rfe8 14. Qc2 Bb4 15. Bf4 Rd7 16. a3 Bxc3 17. Qxc3
+Red8 18. b4 h6 19. a4 Qf5 20. Bh2 Ne4 21. Qe3 Ng5 22. Ne5 Nxe5 23. Bxe5 Qc2 24.
+h4 Nh7 25. Qg3 f6 26. Bxc7 Rc8 27. Rc1 Qxa4 28. Bd6 Nf8 29. Bxf8 Kxf8 30. Rxe6
+Qxb4 31. Rce1 Qxc4 32. Qg6 Rdd8 33. Re7 Qg8 34. Rxb7 Re8 35. Rxe8+ Rxe8 36. Ra7
+Rc8 37. d5 Rd8 38. d6 Rc8 39. Qe4 Re8 40. Qxe8+ {1-0 Black resigns.} 1-0
+
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.02.05"]
+[Round "3.10"]
+[White "Ramon Serrano, Francisco Javier"]
+[Black "Luke Brezmes, Cristofer"]
+[Result "0-1"]
+[ECO "A41"]
+[WhiteElo "2192"]
+[BlackElo "2173"]
+[PlyCount "68"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+
+{[%evp 0,68,23,35,85,67,82,63,75,52,52,26,61,57,33,16,27,-42,-45,-69,-59,-63,
+-80,-68,-39,-45,-53,-29,-22,-79,-49,-57,-55,-58,-15,-66,64,63,89,59,227,210,
+238,241,197,186,201,183,229,252,274,298,235,336,310,265,315,324,415,145,169,
+171,171,-4,190,-103,-84,-75,-92,-103,-103]} 1. d4 d6 2. Nf3 g6 3. Bf4 Bg7 4. e3
+Nd7 5. Be2 e5 6. dxe5 dxe5 7. Bg5 Ne7 8. c3 h6 9. Bxe7 Qxe7 10. Nbd2 e4 11. Nd4
+a6 12. Qc2 c5 13. N4b3 f5 14. a4 b6 15. Nc4 O-O 16. Rd1 Qg5 17. g3 Ne5 18. Nxb6
+Rb8 19. a5 Nf3+ 20. Bxf3 exf3 21. Nxc5 f4 22. Rd5 Rf5 23. h4 Qg4 24. Qe4 Rxd5
+25. Qxd5+ Kh7 26. exf4 Bf5 27. Nc4 Re8+ 28. Ne5 Re7 29. Qd6 Rxe5+ 30. fxe5 Qc4
+31. Qd2 Bxe5 32. Nd7 Qe4+ 33. Kd1 Qa4+ 34. Ke1 Bxd7 0-1
+
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.02.12"]
+[Round "4"]
+[White "Calvo Bures, Marc"]
+[Black "Ramon Serrano, Francisco Javier"]
+[Result "1-0"]
+[ECO "D85"]
+[PlyCount "89"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. Bd2 Bg7 6. e4 Nxc3 7. Bxc3 O-O 8.
+Bc4 c5 9. d5 Bxc3+ 10. bxc3 Qa5 11. Qb3 Nd7 12. Nf3 b5 13. Be2 Nf6 14. Nd2 c4
+15. Qb2 Bd7 16. O-O Qc7 17. Bf3 Rab8 18. Qc2 e6 19. dxe6 Bxe6 20. Rfd1 Rfd8 21.
+Nf1 Rxd1 22. Rxd1 Rd8 23. Ne3 Rxd1+ 24. Qxd1 a5 25. Qd4 Nd7 26. Bg4 Nf8 27. g3
+h5 28. Bxe6 Nxe6 29. Qd5 Nc5 30. f4 Qb6 31. Kf2 Nd3+ 32. Kf3 h4 33. a3 hxg3 34.
+hxg3 Qf6 35. Qa8+ Kg7 36. Qxa5 Qc6 37. Qa7 Nc5 38. Qe7 Na4 39. Nd5 Qe6 40. Qd8
+Nc5 41. e5 Nd7 42. Ne7 Nxe5+ 43. fxe5 Qxe5 44. Qd4 Kf6 45. Nc6 1-0
+
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.03.05"]
+[Round "?"]
+[White "Ramon Serrano, Francisco Javier"]
+[Black "Dominguez Laguna, Eduard"]
+[Result "0-1"]
+[ECO "D11"]
+[WhiteElo "2192"]
+[BlackElo "2098"]
+[PlyCount "98"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Nf3 Nf6 3. g3 c6 4. Bg2 Bf5 5. O-O h6 6. Nbd2 Nbd7 7. c4 e6 8. c5
+b6 9. b4 a5 10. Qa4 axb4 11. Qxc6 bxc5 12. dxc5 Rc8 13. Qa4 Bxc5 14. Nb3 Bc2
+15. Bb2 O-O 16. Bxf6 Nxf6 17. Rac1 Bd6 18. Nfd4 Bg6 19. Rxc8 Qxc8 20. Rc1 Qa8
+21. Qc6 Rd8 22. Qb6 Bf8 23. Nf3 Rb8 24. Qc7 Ne8 25. Qe5 Rc8 26. Qb2 Rxc1+ 27.
+Nxc1 Qa3 28. Qxa3 bxa3 29. Nd4 Bb1 30. Nd3 Nd6 31. Kf1 Ne4 32. Ke1 Nc3 33. Kd2
+Nxa2 34. Nb3 Nb4 35. Kc3 Nxd3 36. exd3 a2 37. d4 Ba3 38. Bf1 e5 39. Na1 exd4+
+40. Kb3 Bc1 41. Bg2 Bd2 42. Ka3 Bc3 43. Nb3 a1=Q+ 44. Nxa1 Bxa1 45. Bxd5 Bc2
+46. Kb4 Kf8 47. Kc4 Ke7 48. f4 f5 49. h3 d3 0-1
+
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.03.12"]
+[Round "8"]
+[White "Ramon Serrano, Francisco Javier"]
+[Black "Fernandez Lozano, Francesc"]
+[Result "0-1"]
+[ECO "D02"]
+[PlyCount "74"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Nf3 Nf6 3. Bf4 c5 4. e3 Nc6 5. Be2 Qb6 6. b3 cxd4 7. Nxd4 e5 8.
+Nxc6 exf4 9. Nd4 Bc5 10. O-O O-O 11. c3 fxe3 12. fxe3 Re8 13. b4 Bd6 14. Qd3
+Qc7 15. h3 Qe7 16. Nd2 Qxe3+ 17. Qxe3 Rxe3 18. Rf3 Re7 19. Bd3 Be5 20. N2b3 Bd7
+21. Nc5 Ne4 22. Bxe4 Bxd4+ 23. cxd4 dxe4 24. Re3 Bc6 25. Rae1 f5 26. g3 Rd8 27.
+Rd1 b6 28. Nb3 Red7 29. Rc3 Ba4 30. Rf1 g6 31. g4 Rf8 32. Nc1 f4 33. Ra3 Bb5
+34. Re1 f3 35. Kf2 Rxd4 36. Nb3 Rc4 37. Rc1 e3+ 0-1
+
+[Event "Ciutat de Sabadell op B"]
+[Site "Sabadell"]
+[Date "2016.09.01"]
+[Round "1"]
+[White "Ramon Serrano, Francisco Javie"]
+[Black "Pera Muntasell, Marc"]
+[Result "0-1"]
+[ECO "D35"]
+[WhiteElo "1981"]
+[BlackElo "1644"]
+[PlyCount "85"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. cxd5 exd5 5. Bg5 Be7 6. e3 Nbd7 7. Nf3 O-O 8.
+Bd3 h6 9. Bf4 a6 10. O-O b5 11. Ne5 Bb7 12. Rc1 c5 13. Bb1 Rc8 14. Qd3 Re8 15.
+Bg3 Nf8 16. Ne2 Ne4 17. f3 Nxg3 18. Nxg3 g6 19. f4 Bd6 20. Ng4 h5 21. Ne5 h4
+22. Nh1 Kg7 23. g3 hxg3 24. Nxg3 Qb6 25. h4 cxd4 26. Rxc8 Bxc8 27. Qxd4 Qxd4
+28. exd4 f6 29. Nd3 Ne6 30. Re1 Bd7 31. Rd1 Nxd4 32. Kf2 Nf5 33. Nxf5+ Bxf5 34.
+Kf3 Be4+ 35. Kg3 g5 36. hxg5 fxg5 37. Kg4 gxf4 38. Nxf4 Bb4 39. Nh5+ Kg6 40.
+Rxd5 Bxb1 41. Rg5+ Kh6 42. Nf6 Re6 43. Nd7 0-1
+
+[Event "Ciutat de Sabadell op B"]
+[Site "Sabadell"]
+[Date "2016.09.04"]
+[Round "4"]
+[White "Gonzalez Garcia, Sergi"]
+[Black "Ramon Serrano, Francisco Javie"]
+[Result "0-1"]
+[ECO "B01"]
+[WhiteElo "1743"]
+[BlackElo "1981"]
+[PlyCount "43"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 d5 2. exd5 Nf6 3. d4 Bg4 4. Nf3 Qxd5 5. Be2 Nc6 6. Be3 O-O-O 7. c3 Qh5 8.
+Nbd2 Nd5 9. Ne4 Nxe3 10. fxe3 e5 11. O-O f5 12. Ng3 Qh6 13. Qd2 Bd6 14. b4 e4
+15. Ne1 Bxg3 16. hxg3 Ne5 17. Rf4 g5 18. Bxg4 Nxg4 19. Rxg4 fxg4 20. a4 Rhf8
+21. Qe2 Qe6 22. Nc2 0-1
+
+[Event "Ciutat de Sabadell op B"]
+[Site "Sabadell"]
+[Date "2016.09.05"]
+[Round "5"]
+[White "Ramon Serrano, Francisco Javie"]
+[Black "Palacios Pena, Gerardo"]
+[Result "1/2-1/2"]
+[ECO "D87"]
+[WhiteElo "1981"]
+[BlackElo "1891"]
+[PlyCount "31"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Be3 O-O 8.
+Bc4 c5 9. Ne2 Nc6 10. O-O Qc7 11. Rc1 Na5 12. Bd3 b6 13. f4 Bb7 14. e5 Rad8 15.
+Qc2 Qc6 16. Ng3 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.13"]
+[Round "1"]
+[White "Ramon Serrano, FJ."]
+[Black "Martinez Romero, M."]
+[Result "0-1"]
+[ECO "E62"]
+[WhiteElo "2022"]
+[BlackElo "2401"]
+[PlyCount "120"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. d4 Nf6 2. Nf3 g6 3. g3 Bg7 4. Bg2 O-O 5. O-O d6 6. c4 c6 7. Nc3 Qb6 8. c5
+dxc5 9. Na4 Qb5 10. Nxc5 Na6 11. Nxa6 Qxa6 12. Re1 Bf5 13. Bf4 Rfd8 14. Qb3 Be6
+15. Qc2 Nd5 16. Bd2 Qb6 17. e3 Rac8 18. Rac1 h6 19. a3 c5 20. dxc5 Qxb2 21. Nd4
+Qxc2 22. Rxc2 Bxd4 23. exd4 Kg7 24. Bxd5 Rxd5 25. Be3 Rd7 26. Rb2 Bd5 27. f4
+Rc6 28. Bf2 Ra6 29. Re3 Ra4 30. Rb4 Ra6 31. g4 Rc6 32. h3 e6 33. Kh2 f5 34.
+gxf5 exf5 35. h4 Be4 36. Be1 Kf7 37. Bc3 Re6 38. Ra4 a6 39. Rb4 Bc6 40. Re5
+Rxe5 41. fxe5 g5 42. hxg5 hxg5 43. Rb2 f4 44. Kg1 g4 45. Rf2 f3 46. Kh2 Ke6 47.
+Kg3 Kf5 48. Rh2 Ke4 49. Be1 Kxd4 50. Kxg4 Kxe5 51. Rb2 Ke4 52. Kg3 Rg7+ 53. Kh2
+Kd3 54. Rd2+ Kc4 55. Rc2+ Kb3 56. Rc3+ Kb2 57. Rd3 Rg2+ 58. Kh3 Re2 59. Bg3 f2
+60. Rd1 f1=Q+ 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.14"]
+[Round "2"]
+[White "Andersen, AR."]
+[Black "Ramon Serrano, FJ."]
+[Result "1-0"]
+[ECO "B01"]
+[WhiteElo "2214"]
+[BlackElo "2022"]
+[PlyCount "89"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. e4 d5 2. exd5 Nf6 3. d4 Nxd5 4. c4 Nf6 5. Nf3 Bg4 6. Be2 e6 7. Nc3 Be7 8. h3
+Bh5 9. O-O O-O 10. Bf4 c6 11. Qd2 Nbd7 12. Rfd1 Nb6 13. Ne5 Bxe2 14. Qxe2 Nfd7
+15. b3 Nf6 16. Rd3 Nbd7 17. Rad1 g6 18. Bh6 Re8 19. Qf3 Qa5 20. Ne4 Rf8 21.
+Bxf8 Rxf8 22. Nxf6+ Nxf6 23. a4 Qc7 24. Ng4 Nh5 25. d5 exd5 26. cxd5 cxd5 27.
+Ne3 Nf4 28. Nxd5 Nxd5 29. Rxd5 Rd8 30. Rxd8+ Bxd8 31. Qg3 Qc8 32. Qg4 Qb8 33.
+Qd7 Bf6 34. Qd6 Qxd6 35. Rxd6 Kg7 36. Rd7 a5 37. Rxb7 Bc3 38. Kf1 Kf6 39. Ke2
+h5 40. Kd3 Be1 41. f3 Ke6 42. Kc4 g5 43. b4 axb4 44. a5 b3 45. a6 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.15"]
+[Round "3"]
+[White "Ramon Serrano, FJ."]
+[Black "Krotiuk, D."]
+[Result "1-0"]
+[ECO "D13"]
+[WhiteElo "2022"]
+[BlackElo "1924"]
+[PlyCount "129"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. d4 Nf6 2. Nf3 c5 3. c3 cxd4 4. cxd4 Nc6 5. Nc3 d5 6. Bf4 Bg4 7. e3 Rc8 8.
+Be2 e6 9. Ne5 Bxe2 10. Qxe2 Bb4 11. Qb5 Qb6 12. Qxb6 axb6 13. O-O Bxc3 14. bxc3
+Nxe5 15. Bxe5 Rxc3 16. Bxf6 gxf6 17. Rfb1 Rc6 18. Rb3 Kd7 19. g3 Ra8 20. a3 Ra4
+21. Rab1 Kc7 22. Kg2 e5 23. dxe5 fxe5 24. Rb5 Rd6 25. Rc1+ Kd7 26. Rc3 f6 27.
+Rcb3 Kc7 28. Rc3+ Rc4 29. Rd3 Rc5 30. Rb4 Rc4 31. Rb5 d4 32. exd4 exd4 33. Kf3
+Kc6 34. Rh5 b5 35. Rxh7 b4 36. axb4 Rxb4 37. h4 Kd5 38. Rc7 b5 39. h5 Rc4 40.
+Rb7 Rc5 41. h6 Kc4 42. h7 Rh5 43. Rd1 Rd8 44. Rc7+ Kd5 45. Rg7 Rh8 46. Rd7+ Kc5
+47. Rc1+ Kb6 48. Rd6+ Kb7 49. Rxf6 R8xh7 50. Rd1 Rd7 51. Ke4 Rhd5 52. Rd3 Kc7
+53. f4 Kd8 54. Re6 Kc7 55. Re5 Rxe5+ 56. Kxe5 b4 57. Rxd4 b3 58. Rb4 Rd3 59. g4
+Kc6 60. g5 Kc5 61. Rb8 Kc4 62. g6 Rd5+ 63. Kf6 Rb5 64. Rxb5 Kxb5 65. g7 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.16"]
+[Round "4"]
+[White "Lasinskas, P."]
+[Black "Ramon Serrano, FJ."]
+[Result "1-0"]
+[ECO "D90"]
+[WhiteElo "2212"]
+[BlackElo "2022"]
+[PlyCount "125"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. cxd5 Nxd5 6. Bg5 Nxc3 7. bxc3 O-O 8.
+e3 c5 9. Bc4 cxd4 10. cxd4 Qa5+ 11. Qd2 Qxd2+ 12. Kxd2 Re8 13. Rab1 Nc6 14.
+Rhc1 h6 15. Bh4 g5 16. Bg3 Rd8 17. Ke1 g4 18. Nd2 a6 19. a4 a5 20. Rb5 e5 21.
+d5 Nb4 22. e4 Bd7 23. Rxb7 Bxa4 24. Ke2 Rd7 25. Rb6 Rdd8 26. Bh4 Rdc8 27. Ra1
+Be8 28. Kd1 Bf8 29. d6 Nc6 30. Ba6 Rcb8 31. Bb7 Rxb7 32. Rxb7 Bxd6 33. Nc4 Bb4
+34. Nb6 Rb8 35. Rxb8 Nxb8 36. Nd5 Bc6 37. Nf6+ Kg7 38. Nxg4 Bxe4 39. f3 Bd5 40.
+Bf6+ Kg6 41. Bxe5 Nc6 42. Bb2 Bb3+ 43. Ke2 a4 44. Rc1 Na5 45. Ne5+ Kf5 46. g4+
+Ke6 47. Nd3 Bc4 48. Ke3 Bd6 49. h3 Bd5 50. Nc5+ Bxc5+ 51. Rxc5 Nc4+ 52. Kd4
+Nxb2 53. Rxd5 Nd3 54. Ra5 Nf4 55. Rxa4 Nxh3 56. Ra6+ Ke7 57. Rxh6 Ng5 58. f4
+Nf3+ 59. Kc3 f6 60. Rh3 Ng1 61. Re3+ Kf7 62. Kd2 f5 63. g5 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.17"]
+[Round "5"]
+[White "Ramon Serrano, FJ."]
+[Black "Colom Andres, FX."]
+[Result "1-0"]
+[ECO "D02"]
+[WhiteElo "2022"]
+[BlackElo "1905"]
+[PlyCount "91"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. d4 d5 2. Nf3 Nf6 3. Bf4 c6 4. e3 Bg4 5. Be2 e6 6. O-O Bd6 7. Ne5 Bxe2 8.
+Qxe2 Qc7 9. c4 Nbd7 10. Nxd7 Qxd7 11. Bxd6 Qxd6 12. Nd2 O-O 13. c5 Qc7 14. f4
+b6 15. b4 bxc5 16. bxc5 Qa5 17. Nf3 Ne4 18. Rab1 f6 19. Rb7 Rfb8 20. Rfb1 Rxb7
+21. Rxb7 Qc3 22. g4 g5 23. Kg2 Rf8 24. Qe1 Qc2+ 25. Kg1 Qxa2 26. h4 h6 27. hxg5
+hxg5 28. Qf1 a5 29. Ne1 Qd2 30. Ng2 a4 31. Qf3 a3 32. Qh3 Qd1+ 33. Kh2 Qh1+ 34.
+Kxh1 Nf2+ 35. Kh2 Nxh3 36. Kxh3 Ra8 37. Rb1 Kf7 38. Kg3 a2 39. Ra1 e5 40. f5 e4
+41. Ne1 Ke7 42. Nc2 Ra4 43. Kf2 Kd7 44. Ke2 Kc7 45. Kd2 Kb7 46. Kc3 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.18"]
+[Round "6"]
+[White "Dave, D."]
+[Black "Ramon Serrano, FJ."]
+[Result "1/2-1/2"]
+[ECO "B01"]
+[WhiteElo "2201"]
+[BlackElo "2022"]
+[PlyCount "81"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. e4 d5 2. exd5 Nf6 3. d4 Qxd5 4. Nf3 Bg4 5. Be2 Nc6 6. h3 Qh5 7. O-O Bd7 8.
+Ne5 Qh4 9. Nxd7 Nxd7 10. d5 Nd8 11. Nc3 e6 12. Nb5 Bd6 13. dxe6 Nxe6 14. Nxd6+
+cxd6 15. Qxd6 O-O-O 16. Bg4 Rhe8 17. Be3 Nb6 18. Qb4 Qe7 19. Qa5 Kb8 20. Bxb6
+axb6 21. Qxb6 Nd4 22. c3 f5 23. Bd1 Nc6 24. a4 Rd6 25. a5 Ne5 26. Qb5 Red8 27.
+a6 R8d7 28. Bb3 Nd3 29. Bc4 Nf4 30. Qxf5 Qh4 31. Qg4 Nxh3+ 32. Qxh3 Qxc4 33.
+a7+ Ka8 34. Rfe1 Rd8 35. Qxh7 Rh6 36. Qxg7 Qh4 37. f3 Qh1+ 38. Kf2 Qh4+ 39. Kg1
+Qh1+ 40. Kf2 Qh4+ 41. Kg1 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.21"]
+[Round "9"]
+[White "Ramon Serrano, FJ."]
+[Black "Julian Barrachina, L."]
+[Result "1-0"]
+[ECO "D30"]
+[WhiteElo "2022"]
+[BlackElo "2125"]
+[PlyCount "77"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. d4 d5 2. Nf3 e6 3. c4 c5 4. cxd5 exd5 5. g3 Nc6 6. Bg2 Nf6 7. O-O Be7 8.
+dxc5 Bxc5 9. Qc2 Be7 10. Nc3 O-O 11. Bg5 Be6 12. Rad1 Qa5 13. Nd4 Nxd4 14. Rxd4
+Rac8 15. Qd2 Qc5 16. Be3 Rfd8 17. Rxd5 Qc7 18. Rxd8+ Rxd8 19. Qc1 Rc8 20. Qb1
+h6 21. Ne4 Nd5 22. Rc1 Qa5 23. Rxc8+ Bxc8 24. Bd2 Qb6 25. Nc3 Nf6 26. Be3 Qa5
+27. Qd1 Be6 28. Bxb7 Ng4 29. Qd4 Nxe3 30. Qxe3 Bc5 31. Qf3 Qd8 32. Bd5 Qe7 33.
+Bxe6 fxe6 34. e3 Qd7 35. Qe4 Be7 36. Kg2 Bf6 37. h4 Kf8 38. Ne2 Bxb2 39. Qb4+
+1-0

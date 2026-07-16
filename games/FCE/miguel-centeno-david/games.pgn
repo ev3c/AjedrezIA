@@ -1,0 +1,184 @@
+[Event "Cornella de Llobregat op"]
+[Site "Cornella de Llobregat"]
+[Date "2017.04.03"]
+[Round "1"]
+[White "Miguel Centeno, David"]
+[Black "Peris Morte, Joaquin"]
+[Result "1-0"]
+[ECO "C02"]
+[WhiteElo "2195"]
+[BlackElo "1921"]
+[PlyCount "55"]
+[EventDate "2017.04.03"]
+[EventType "swiss"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Be3 Qb6 6. Qd2 cxd4 7. cxd4 Bb4 8. Nc3
+Nge7 9. Nf3 Nf5 10. Bd3 Nxe3 11. fxe3 h6 12. O-O Bd7 13. Rf2 O-O-O 14. a3 Qa5
+15. axb4 Qxa1+ 16. Rf1 Qxf1+ 17. Bxf1 Nxb4 18. Na4 a5 19. Qc3+ Kb8 20. Nb6 Be8
+21. Nd2 Nc6 22. Nb3 f6 23. Bb5 fxe5 24. dxe5 Rf8 25. Bxc6 Bxc6 26. Nd4 Rfe8 27.
+Qxa5 Re7 28. Nxc6+ 1-0
+
+[Event "Cornella de Llobregat op"]
+[Site "Cornella de Llobregat"]
+[Date "2017.04.10"]
+[Round "2"]
+[White "Jordan Garcia, Josep Maria"]
+[Black "Miguel Centeno, David"]
+[Result "0-1"]
+[ECO "B07"]
+[WhiteElo "2068"]
+[BlackElo "2195"]
+[PlyCount "78"]
+[EventDate "2017.04.03"]
+[EventType "swiss"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Be3 c6 5. h3 Nbd7 6. Qd2 e5 7. Nf3 Qe7 8. O-O-O
+Bg7 9. dxe5 dxe5 10. Qd6 Qxd6 11. Rxd6 Bf8 12. Rd1 Bb4 13. Bd3 O-O 14. Bd2 Re8
+15. a3 Bc5 16. Rhf1 b5 17. Nh2 a5 18. Ne2 Bd6 19. Bg5 Kg7 20. Ng3 h6 21. Bxf6+
+Nxf6 22. Bxb5 cxb5 23. Rxd6 b4 24. a4 Be6 25. b3 Rec8 26. Kb2 Rc3 27. Nf3 Rac8
+28. Rd2 Bxh3 29. Rg1 Bxg2 30. Rxg2 Rxf3 31. Nf5+ Kf8 32. Nd6 Rd8 33. Rg1 h5 34.
+Rgd1 Rf4 35. Nc4 Rxd2 36. Rxd2 Nxe4 37. Re2 Nc3 38. Rxe5 Rxf2 39. Nxa5 Rf1 0-1
+
+[Event "Cornella de Llobregat op"]
+[Site "Cornella de Llobregat"]
+[Date "2017.04.24"]
+[Round "3"]
+[White "Miguel Centeno, David"]
+[Black "Vicient Calvo, Ramon"]
+[Result "1-0"]
+[ECO "C55"]
+[WhiteElo "2195"]
+[BlackElo "2216"]
+[PlyCount "55"]
+[EventDate "2017.04.03"]
+[EventType "swiss"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Bc4 Nf6 3. d3 Nc6 4. Nf3 Be7 5. c3 O-O 6. Nbd2 d5 7. exd5 Nxd5 8.
+O-O Bg4 9. h3 Bh5 10. Re1 Nb6 11. Bb5 f6 12. Ne4 Qd5 13. Qb3 Qxb3 14. axb3 Nd8
+15. Be3 Ne6 16. g4 Bf7 17. d4 a6 18. Bf1 exd4 19. Nxd4 Nd5 20. Nxe6 Bxe6 21.
+Bc5 Rfe8 22. Bc4 b5 23. Bxd5 Bxd5 24. Bxe7 Rxe7 25. Nxf6+ gxf6 26. Rxe7 Bxb3
+27. Rxc7 Re8 28. Rxa6 1-0
+
+[Event "Cornella de Llobregat op"]
+[Site "Cornella de Llobregat"]
+[Date "2017.05.08"]
+[Round "4"]
+[White "Moreno Martin, Daniel"]
+[Black "Miguel Centeno, David"]
+[Result "1/2-1/2"]
+[ECO "C64"]
+[WhiteElo "2303"]
+[BlackElo "2195"]
+[PlyCount "49"]
+[EventDate "2017.04.03"]
+[EventType "swiss"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Bc5 4. O-O Nd4 5. Nxd4 Bxd4 6. c3 Bb6 7. d3 Nf6 8.
+Qf3 c6 9. Ba4 d6 10. h3 Be6 11. Bb3 Qe7 12. Nd2 O-O-O 13. Nc4 Bc7 14. Bg5 h6
+15. Bxf6 Qxf6 16. Qxf6 gxf6 17. Ne3 Rhg8 18. Bxe6+ fxe6 19. Ng4 Rg6 20. Kh1 d5
+21. Rad1 Rdg8 22. g3 f5 23. exf5 exf5 24. Ne3 Rf8 25. Rg1 1/2-1/2
+
+[Event "Cornella de Llobregat op"]
+[Site "Cornella de Llobregat"]
+[Date "2017.05.15"]
+[Round "5"]
+[White "Miguel Centeno, David"]
+[Black "Bada Navarra, Jordi"]
+[Result "0-1"]
+[ECO "C02"]
+[WhiteElo "2195"]
+[BlackElo "2262"]
+[PlyCount "60"]
+[EventDate "2017.04.03"]
+[EventType "swiss"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Qb6 5. Nf3 Nc6 6. a3 f6 7. Bd3 fxe5 8. dxe5 g6
+9. O-O Bg7 10. Re1 Nh6 11. c4 d4 12. Bxh6 Bxh6 13. Qc2 Qc7 14. b4 b6 15. Be4
+Rb8 16. Nbd2 O-O 17. Rab1 Bb7 18. bxc5 bxc5 19. Rb5 Ne7 20. Bxb7 Rxb7 21. Ne4
+Rxb5 22. cxb5 Rxf3 23. gxf3 c4 24. Nd6 c3 25. Qe4 Nd5 26. Qg4 Nf4 27. Qh4 Bg5
+28. Qg3 c2 29. h4 c1=Q 30. hxg5 Ne2+ 0-1
+
+[Event "Cornella de Llobregat op"]
+[Site "Cornella de Llobregat"]
+[Date "2017.05.22"]
+[Round "6"]
+[White "Moyano Barrero, Antonio"]
+[Black "Miguel Centeno, David"]
+[Result "0-1"]
+[ECO "A00"]
+[WhiteElo "1989"]
+[BlackElo "2195"]
+[PlyCount "40"]
+[EventDate "2017.04.03"]
+[EventType "swiss"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. b4 e5 2. b5 d5 3. Bb2 Bd6 4. Nf3 Qe7 5. e3 Nf6 6. Be2 O-O 7. O-O e4 8. Nd4
+Qe5 9. g3 h5 10. Qc1 Bh3 11. f4 exf3 12. Rxf3 Qg5 13. Bf1 Bg4 14. Rf2 Ne4 15.
+Rg2 Bh3 16. Re2 h4 17. Nf3 Qg4 18. Nxh4 Bxg3 19. hxg3 Nxg3 20. Bxh3 Nxe2+ 0-1
+
+[Event "Ct. Catalunya equips"]
+[Site "?"]
+[Date "2002.??.??"]
+[Round "6"]
+[White "Satorra Civit, J."]
+[Black "Miguel Centeno, D."]
+[Result "0-1"]
+[ECO "D32"]
+[WhiteElo "2175"]
+[BlackElo "2105"]
+[PlyCount "58"]
+[EventDate "2002.??.??"]
+
+1. d4 d5 2. Nf3 e6 3. c4 c5 4. cxd5 exd5 5. Nc3 Nc6 6. e3 Nf6 7. Qa4 Bd7 8.
+dxc5 Bxc5 9. Qd1 Bg4 10. Be2 d4 11. exd4 Nxd4 12. Nxd4 Qxd4 13. Qxd4 Bxd4 14.
+Nb5 Be5 15. f4 Bb8 16. Bxg4 Nxg4 17. Bd2 O-O 18. Rc1 Re8+ 19. Kf1 a6 20. Nc7
+Bxc7 21. Rxc7 Rad8 22. Rc2 Ne3+ 23. Bxe3 Rd1+ 24. Kf2 Rxh1 25. Rc7 b5 26. Ra7
+h6 27. Rxa6 Rc8 28. Bd4 Rc4 29. Be5 f6 0-1

@@ -1,0 +1,246 @@
+[Event "EU-ch Seniors 50 17h"]
+[Site "Sabadell"]
+[Date "2017.08.13"]
+[Round "2"]
+[White "Rodgaard, John"]
+[Black "Movsziszian, Karen"]
+[Result "0-1"]
+[ECO "A41"]
+[WhiteElo "2328"]
+[BlackElo "2502"]
+[PlyCount "134"]
+[EventDate "2017.08.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 d6 2. Nf3 g6 3. c4 f5 4. b3 Bg7 5. Bb2 Nh6 6. Qc2 e6 7. g3 O-O 8. Bg2 Nd7
+9. Nc3 e5 10. dxe5 dxe5 11. e4 f4 12. O-O-O c6 13. Nh4 Qe7 14. Bh3 Nf7 15. Nf3
+Re8 16. Kb1 Nf8 17. Bxc8 Raxc8 18. Rd3 Ne6 19. Ne2 g5 20. Rhd1 Rc7 21. g4 a6
+22. Qd2 Nc5 23. Ba3 Nxe4 24. Bxe7 Nxd2+ 25. Nxd2 e4 26. Nxe4 Rcxe7 27. N2c3
+Rxe4 28. Nxe4 Rxe4 29. Rd7 b5 30. Rc7 Ne5 31. Rd8+ Bf8 32. Rcc8 Ng6 33. Rxc6
+Re2 34. Rxa6 bxc4 35. bxc4 Rxf2 36. c5 f3 37. Rf6 Kg7 38. Rf5 Rf1+ 39. Kc2 f2
+40. c6 Nf4 41. Rdxf8 Rc1+ 42. Kxc1 f1=Q+ 43. Kb2 Qg2+ 44. Kb3 Qxc6 45. R8f7+
+Kg6 46. R7f6+ Qxf6 47. Rxf6+ Kxf6 48. Kc4 Ke5 49. a4 Ne6 50. a5 Kd6 51. Kd3 Kd5
+52. Kc3 Nc7 53. Kd3 Na6 54. Ke3 Nc5 55. Kf3 Kd4 56. Ke2 Ke4 57. Kd1 Kf3 58. Kc2
+Kxg4 59. Kc3 Kh3 60. Kc4 Na6 61. Kb5 Nb8 62. Kb6 Kxh2 63. Kb7 g4 64. Kxb8 g3
+65. a6 g2 66. a7 g1=Q 67. a8=Q Qg8+ 0-1
+
+[Event "EU-ch Seniors 50 17h"]
+[Site "Sabadell"]
+[Date "2017.08.14"]
+[Round "3"]
+[White "Holst, Conny"]
+[Black "Rodgaard, John"]
+[Result "0-1"]
+[ECO "D18"]
+[WhiteElo "2143"]
+[BlackElo "2328"]
+[PlyCount "80"]
+[EventDate "2017.08.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. e3 e6 7. Bxc4 Bb4 8. O-O
+Nbd7 9. Nh4 Bg4 10. f3 Bh5 11. g4 Bg6 12. Nxg6 hxg6 13. e4 O-O 14. Be3 e5 15.
+dxe5 Nxe5 16. Be2 Qe7 17. Qc2 Rfd8 18. Rad1 Bc5 19. Qc1 g5 20. Rxd8+ Rxd8 21.
+Rd1 Rxd1+ 22. Nxd1 Nfd7 23. Kf1 Bxe3 24. Nxe3 Qf6 25. Qc3 g6 26. a5 Qd6 27. b4
+b6 28. axb6 axb6 29. h4 Qf6 30. h5 Nxg4 31. Qd2 Nxe3+ 32. Qxe3 gxh5 33. Kg2 c5
+34. Bb5 Ne5 35. bxc5 bxc5 36. Be2 c4 37. Qc5 Qf4 38. Qd4 h4 39. Kh1 Qg3 40.
+Bxc4 Qh3+ 0-1
+
+[Event "EU-ch Seniors 50 17h"]
+[Site "Sabadell"]
+[Date "2017.08.15"]
+[Round "4"]
+[White "Rodgaard, John"]
+[Black "Kiselev, Alexander S"]
+[Result "1-0"]
+[ECO "E05"]
+[WhiteElo "2328"]
+[BlackElo "2178"]
+[PlyCount "89"]
+[EventDate "2017.08.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 e6 4. g3 Be7 5. Bg2 O-O 6. O-O a6 7. Qc2 dxc4 8. a4
+a5 9. Qxc4 Na6 10. Nc3 Nb4 11. Bg5 h6 12. Bxf6 Bxf6 13. Rfd1 Bd7 14. Ne5 c6 15.
+Ne4 Be7 16. Nc5 Bc8 17. e3 Qc7 18. Rac1 Bd6 19. f4 Rb8 20. Qb3 Rd8 21. h4 Qe7
+22. Kf2 Qe8 23. Bf3 Qe7 24. Bh5 g6 25. Bf3 Kg7 26. Ned3 Bd7 27. Nxb4 axb4 28.
+Qxb4 b6 29. Qc3 Be8 30. Nd3 f6 31. b4 Rdc8 32. a5 bxa5 33. bxa5 Ra8 34. Rd2 Ra7
+35. Ra2 Rca8 36. Rca1 Qc7 37. Nc5 Kf7 38. Be2 Ke7 39. a6 g5 40. hxg5 hxg5 41.
+Rh1 Bf7 42. Rh7 gxf4 43. exf4 Bxf4 44. Bh5 Rf8 45. Re2 1-0
+
+[Event "EU-ch Seniors 50 17h"]
+[Site "Sabadell"]
+[Date "2017.08.16"]
+[Round "5"]
+[White "Gavrilov, Alexei"]
+[Black "Rodgaard, John"]
+[Result "1/2-1/2"]
+[ECO "D46"]
+[WhiteElo "2479"]
+[BlackElo "2328"]
+[PlyCount "161"]
+[EventDate "2017.08.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. e3 e6 5. Nf3 Nbd7 6. Qc2 Bd6 7. Bd3 dxc4 8.
+Bxc4 O-O 9. O-O e5 10. h3 h6 11. Rd1 Qc7 12. Bb3 Re8 13. a3 exd4 14. exd4 Nf8
+15. Be3 Be6 16. Rac1 Qa5 17. Bxe6 Nxe6 18. Qb3 Qa6 19. d5 Nxd5 20. Nxd5 cxd5
+21. Rxd5 Rad8 22. Rf5 Bb8 23. Rb5 Rd7 24. Ne5 Bxe5 25. Rxe5 Red8 26. Re4 b6 27.
+Rg4 Kh8 28. Rcc4 Rd1+ 29. Kh2 b5 30. Rce4 Qd6+ 31. Rg3 a6 32. Qc3 Qd3 33. Qxd3
+R8xd3 34. Rb4 Nc7 35. Rf4 Rd7 36. Re4 Ne6 37. a4 R7d5 38. Rb4 g5 39. h4 Kh7 40.
+axb5 axb5 41. Rh3 Kg6 42. hxg5 hxg5 43. Rh8 f5 44. g4 f4 45. Bb6 Nd4 46. Bxd4
+R1xd4 47. Rb3 Rd3 48. Rb4 R3d4 49. Rb3 Rd3 50. Ra3 Rxa3 51. bxa3 Rd3 52. Ra8
+Rb3 53. Ra6+ Kf7 54. Ra5 Kf6 55. Kg2 Kg6 56. Ra8 Kf6 57. Ra6+ Kf7 58. Rb6 Kg7
+59. Kf1 Kf7 60. Ke2 Kg7 61. Ra6 Kf7 62. a4 bxa4 63. Rxa4 Kf6 64. Ra6+ Kf7 65.
+Rd6 Ra3 66. Rd3 Ra2+ 67. Kf3 Ra4 68. Rd2 Ke6 69. Re2+ Kf6 70. Rc2 Rb4 71. Rc6+
+Kf7 72. Rc2 Kf6 73. Ke2 Rb3 74. Rc6+ Kf7 75. Rc5 Kf6 76. Kd2 Rf3 77. Ke1 Rb3
+78. Ke2 Ra3 79. Rc4 Rb3 80. Rc6+ Kf7 81. Rc7+ 1/2-1/2
+
+[Event "EU-ch Seniors 50 17h"]
+[Site "Sabadell"]
+[Date "2017.08.17"]
+[Round "6"]
+[White "Rodgaard, John"]
+[Black "Kalegin, Evgenij"]
+[Result "1/2-1/2"]
+[ECO "E94"]
+[WhiteElo "2328"]
+[BlackElo "2424"]
+[PlyCount "51"]
+[EventDate "2017.08.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. Nf3 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. d4 O-O 6. Be2 Nbd7 7. O-O e5 8. Qc2
+c6 9. Rd1 Qe7 10. Rb1 h6 11. a3 Nh7 12. dxe5 dxe5 13. b4 Ng5 14. Nxg5 hxg5 15.
+Bg4 Nb6 16. Bxc8 Raxc8 17. Na4 Nxa4 18. Qxa4 b6 19. h3 f5 20. Qc2 f4 21. Rb3
+Rfd8 22. Rbd3 Bf6 23. Bb2 Kf7 24. Kf1 Rxd3 25. Qxd3 Rc7 26. Ke2 1/2-1/2
+
+[Event "EU-ch Seniors 50 17h"]
+[Site "Sabadell"]
+[Date "2017.08.18"]
+[Round "7"]
+[White "Akesson, Ralf"]
+[Black "Rodgaard, John"]
+[Result "1-0"]
+[ECO "A06"]
+[WhiteElo "2445"]
+[BlackElo "2328"]
+[PlyCount "75"]
+[EventDate "2017.08.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. c4 c6 2. Nf3 d5 3. e3 Nf6 4. b3 e6 5. Bb2 Nbd7 6. Qc2 b6 7. Rg1 h5 8. d3 Bb7
+9. Nbd2 Bd6 10. g3 Qe7 11. Nd4 Rc8 12. Rc1 O-O 13. h3 g6 14. g4 e5 15. N4f3
+hxg4 16. hxg4 Rfe8 17. g5 Nh7 18. Bh3 Rcd8 19. Ke2 Ndf8 20. Rg2 d4 21. Ne4 Ba3
+22. Bxa3 Qxa3 23. Rh1 Qe7 24. c5 dxe3 25. fxe3 Rd5 26. Qc4 Red8 27. Ne1 bxc5
+28. Rg3 a5 29. Rf1 Ra8 30. Nf6+ Kh8 31. Bg2 Rd6 32. Qh4 e4 33. Bxe4 Bc8 34. Qh6
+Bf5 35. Bxf5 gxf5 36. Rh1 f4 37. Qxh7+ Nxh7 38. Rxh7# 1-0
+
+[Event "EU-ch Seniors 50 17h"]
+[Site "Sabadell"]
+[Date "2017.08.19"]
+[Round "8"]
+[White "Rodgaard, John"]
+[Black "Marino Bravo, Miguel Angel"]
+[Result "1/2-1/2"]
+[ECO "E18"]
+[WhiteElo "2328"]
+[BlackElo "2158"]
+[PlyCount "180"]
+[EventDate "2017.08.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. Nf3 Nf6 2. c4 e6 3. g3 d5 4. d4 b6 5. cxd5 exd5 6. Bg2 Be7 7. O-O O-O 8. Nc3
+Bb7 9. Bf4 c6 10. Ne5 Nbd7 11. Rc1 Re8 12. Qa4 Nxe5 13. Bxe5 Ng4 14. Bf4 Bg5
+15. Bxg5 Qxg5 16. Qc2 Ba6 17. h3 Nf6 18. Rfe1 Bb7 19. b4 Ba6 20. e4 Bc4 21. e5
+Nd7 22. Ne4 dxe4 23. Qxc4 c5 24. Bxe4 Rad8 25. bxc5 bxc5 26. Bd5 Re7 27. h4 Qf5
+28. Bc6 g6 29. e6 fxe6 30. Bxd7 Rexd7 31. dxc5 Rd2 32. Qxe6+ Qxe6 33. Rxe6 Rf8
+34. c6 Kf7 35. Re3 Rc8 36. a3 Rc7 37. Kg2 Rd6 38. Rec3 Rd2 39. R1c2 Rd5 40. Rc5
+Rd3 41. R2c3 Rd2 42. h5 Ke6 43. hxg6 hxg6 44. Rg5 Kf6 45. Rb5 Rd6 46. Rbc5 Rd2
+47. g4 Rd4 48. Kg3 Rd1 49. f3 Rg1+ 50. Kf2 Rd1 51. a4 Rd2+ 52. Ke3 Rd6 53. a5
+Re7+ 54. Kf4 Rd4+ 55. Kg3 Rc7 56. Rb3 Rd6 57. Rb7 Rcxc6 58. Rxc6 Rxc6 59. Rxa7
+g5 60. Rb7 Rc2 61. Rb6+ Kg7 62. Rb7+ Kg6 63. a6 Ra2 64. Ra7 Kh6 65. Ra8 Kg7 66.
+f4 Ra3+ 67. Kf2 gxf4 68. g5 Kh7 69. a7 Kg7 70. g6 Ra6 71. Kf3 Ra4 72. Kg4 f3+
+73. Kxf3 Ra6 74. Ke4 Ra5 75. Kd4 Ra2 76. Ke5 Ra5+ 77. Kd6 Ra1 78. Ke6 Re1+ 79.
+Kf5 Rf1+ 80. Kg5 Rg1+ 81. Kf4 Rf1+ 82. Ke3 Ra1 83. Kf3 Ra6 84. Kf4 Ra1 85. Re8
+Rxa7 86. Re6 Ra5 87. Kg4 Rb5 88. Kf4 Ra5 89. Re5 Rxe5 90. Kxe5 Kxg6 1/2-1/2
+
+[Event "EU-ch Seniors 50 17h"]
+[Site "Sabadell"]
+[Date "2017.08.20"]
+[Round "9"]
+[White "Elissalt Cardenas, Hector"]
+[Black "Rodgaard, John"]
+[Result "1/2-1/2"]
+[ECO "D10"]
+[WhiteElo "2360"]
+[BlackElo "2328"]
+[PlyCount "12"]
+[EventDate "2017.08.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 c6 3. cxd5 cxd5 4. Nc3 Nf6 5. Bf4 Nc6 6. e3 Bf5 1/2-1/2

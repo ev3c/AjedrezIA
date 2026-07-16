@@ -1,0 +1,85 @@
+[Event "Sitges op 43rd"]
+[Site "Sitges"]
+[Date "2017.07.23"]
+[Round "2"]
+[White "Lercel, Michal"]
+[Black "Henriquez Villagra, Cristobal"]
+[Result "0-1"]
+[ECO "A09"]
+[WhiteElo "2268"]
+[BlackElo "2532"]
+[PlyCount "48"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. Nf3 d5 2. c4 d4 3. b4 g6 4. Bb2 Bg7 5. e3 e5 6. Qa4+ c6 7. Na3 Nh6 8. c5 O-O
+9. Nc4 Nd7 10. Nd6 a5 11. a3 Qe7 12. O-O-O Ng4 13. Re1 Nxf2 14. Rg1 d3 15. e4
+b5 16. Qb3 Nxc5 17. bxc5 Be6 18. Qc3 b4 19. axb4 axb4 20. Qxe5 Bxe5 21. Nxe5
+Qa7 22. Bd4 Qa3+ 23. Bb2 Qb3 24. Nxd3 Ra2 0-1
+
+[Event "Sitges op 43rd"]
+[Site "Sitges"]
+[Date "2017.07.25"]
+[Round "4"]
+[White "Lercel, Michal"]
+[Black "Cespedes Llaverias, Llibert"]
+[Result "1/2-1/2"]
+[ECO "E16"]
+[WhiteElo "2268"]
+[BlackElo "1996"]
+[PlyCount "91"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. Nf3 Nf6 2. c4 e6 3. g3 b6 4. Bg2 Bb7 5. O-O g6 6. Nc3 Bg7 7. d4 d5 8. Qa4+
+Nbd7 9. Ne5 O-O 10. Nc6 Bxc6 11. Qxc6 Rc8 12. cxd5 Nb8 13. Qa4 Nxd5 14. e4 Nxc3
+15. bxc3 c5 16. Ba3 Qd7 17. Qxd7 Nxd7 18. e5 Rfd8 19. Rfd1 cxd4 20. cxd4 Bf8
+21. Bc1 h6 22. Be3 Kg7 23. a4 Rc7 24. Bf1 Nb8 25. a5 bxa5 26. Rxa5 Bb4 27. Ra4
+a5 28. Bg2 Nd7 29. d5 exd5 30. Rxd5 Re8 31. f4 Nc5 32. Rxb4 axb4 33. Bxc5 b3
+34. Ba3 Ra8 35. Bb2 Ra2 36. Rd2 Rc2 37. e6+ Raxb2 38. e7 Rc1+ 39. Bf1 Rxd2 40.
+e8=Q Rdd1 41. Qe5+ Kh7 42. Qe7 Rxf1+ 43. Kg2 Kg7 44. Qe5+ Kh7 45. Qe7 Kg7 46.
+Qe5+ 1/2-1/2
+
+[Event "Sitges op 43rd"]
+[Site "Sitges"]
+[Date "2017.07.29"]
+[Round "8"]
+[White "Lercel, Michal"]
+[Black "Lorenzo de la Riva, Lazaro"]
+[Result "0-1"]
+[ECO "A14"]
+[WhiteElo "2268"]
+[BlackElo "2389"]
+[PlyCount "62"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. Nf3 d5 2. c4 e6 3. b3 Nf6 4. g3 c5 5. Bg2 Nc6 6. e3 Be7 7. O-O O-O 8. Bb2 d4
+9. exd4 cxd4 10. d3 e5 11. Ba3 Bxa3 12. Nxa3 h6 13. Nc2 a5 14. a3 Bf5 15. b4
+axb4 16. axb4 Rxa1 17. Nxa1 Nxb4 18. Nxe5 Nd7 19. Qf3 Nxe5 20. Qxf5 Nexd3 21.
+Rb1 g6 22. Qf3 Qc7 23. Bf1 Ne5 24. Qf4 Nbc6 25. Nb3 Qe7 26. Nd2 Kg7 27. Bg2 Ra8
+28. Bd5 Ra2 29. Ne4 Nd3 30. Qf3 Ncb4 31. Bxb7 f5 0-1

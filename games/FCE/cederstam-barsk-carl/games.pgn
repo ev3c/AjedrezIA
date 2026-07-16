@@ -1,0 +1,197 @@
+[Event "Sitges op"]
+[Site "Sitges"]
+[Date "2016.07.23"]
+[Round "2"]
+[White "Cruz, Cristhian"]
+[Black "Cederstam Barsk, Carl"]
+[Result "1-0"]
+[ECO "A37"]
+[WhiteElo "2541"]
+[BlackElo "2267"]
+[PlyCount "81"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. Nf3 d6 6. a3 Rb8 7. b4 Be6 8. bxc5
+dxc5 9. Ng5 Bxc3 10. Nxe6 fxe6 11. Bxc6+ bxc6 12. dxc3 Qxd1+ 13. Kxd1 Nf6 14.
+Kc2 Nd7 15. Rd1 Rb7 16. Rb1 Rxb1 17. Kxb1 Kd8 18. Kc2 Rf8 19. f3 Kc7 20. Bf4+
+e5 21. Bg5 Nf6 22. Be3 Nd7 23. g4 Rb8 24. h4 a5 25. Bg5 Kd8 26. h5 gxh5 27.
+gxh5 Ke8 28. Be3 a4 29. Rg1 Kf7 30. h6 Rg8 31. Rb1 Rg2 32. Kd2 e4 33. f4 Ke6
+34. Rb7 Rg8 35. f5+ Kd6 36. Bf4+ e5 37. fxe6+ Kxe6 38. Rc7 Rg6 39. Ke3 Ne5 40.
+Bxe5 Kxe5 41. Re7+ 1-0
+
+[Event "Sitges op"]
+[Site "Sitges"]
+[Date "2016.07.26"]
+[Round "5"]
+[White "Cederstam Barsk, Carl"]
+[Black "Rios, Cristhian Camilo"]
+[Result "0-1"]
+[ECO "A30"]
+[WhiteElo "2267"]
+[BlackElo "2484"]
+[PlyCount "100"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. c4 c5 3. g3 b6 4. Bg2 Bb7 5. O-O e6 6. Nc3 Be7 7. d4 cxd4 8. Qxd4
+d6 9. Bg5 a6 10. Bxf6 Bxf6 11. Qf4 Bxf3 12. Qxf3 Ra7 13. Rfd1 O-O 14. Rac1 Qe7
+15. b3 Rd8 16. Rc2 Rc7 17. a4 Nc6 18. Qe3 Nb4 19. Rcc1 Bxc3 20. Rxc3 Rc5 21.
+Qd2 a5 22. Re3 e5 23. f4 f5 24. fxe5 Rxe5 25. Rxe5 Qxe5 26. Bd5+ Kh8 27. Rf1
+Re8 28. Bf7 Re7 29. Qg5 g6 30. Rxf5 Qd4+ 31. e3 Rxe3 32. Rf2 Kg7 33. Bd5 Re2
+34. Qf4 Qxf2+ 35. Qxf2 Rxf2 36. Kxf2 Nxd5 37. cxd5 Kf6 38. Kf3 Ke5 39. Kg4 Kxd5
+40. Kg5 Ke5 41. Kh6 d5 42. Kxh7 d4 43. Kxg6 d3 44. h4 d2 45. g4 d1=Q 46. Kg5
+Qd8+ 47. Kh5 Kf4 48. b4 Qf6 49. b5 Qg7 50. g5 Qh7# 0-1
+
+[Event "Sitges op 43rd"]
+[Site "Sitges"]
+[Date "2017.07.23"]
+[Round "2"]
+[White "Cederstam Barsk, Carl"]
+[Black "Oliva Castaneda, Kevel"]
+[Result "0-1"]
+[ECO "D44"]
+[WhiteElo "2264"]
+[BlackElo "2497"]
+[PlyCount "59"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 d5 4. Nc3 c6 5. Bg5 h6 6. Bh4 dxc4 7. e4 g5 8. Bg3 b5
+9. e5 Nh5 10. a4 Bb4 11. Nd2 Nxg3 12. hxg3 Qxd4 13. axb5 Bb7 14. Be2 cxb5 15.
+Kf1 Qxe5 16. f4 gxf4 17. Rh5 Qe3 18. Rxb5 Bxc3 19. bxc3 fxg3 20. Qe1 Bc6 21.
+Rb4 Nd7 22. Nxc4 Qf4+ 23. Kg1 Rg8 24. Rd1 Qf2+ 25. Qxf2 gxf2+ 26. Kf1 Bxg2+ 27.
+Kxf2 Ke7 28. Ne3 Bc6 29. Rh4 Nf6 30. Rd7+ 0-1
+
+[Event "Sitges op 43rd"]
+[Site "Sitges"]
+[Date "2017.07.26"]
+[Round "5"]
+[White "Fernandez, Fernando"]
+[Black "Cederstam Barsk, Carl"]
+[Result "1-0"]
+[ECO "E14"]
+[WhiteElo "2424"]
+[BlackElo "2264"]
+[PlyCount "67"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. Nf3 d5 2. e3 Nf6 3. c4 e6 4. b3 Be7 5. Bb2 O-O 6. d4 b6 7. Bd3 Bb7 8. O-O
+Nbd7 9. Nc3 c5 10. Rc1 a6 11. Qe2 Ra7 12. cxd5 exd5 13. Rfd1 Re8 14. Bf5 Bd6
+15. Qc2 c4 16. a4 Ba8 17. bxc4 dxc4 18. Ne5 Qb8 19. f4 b5 20. Nxd7 Nxd7 21.
+Bxh7+ Kh8 22. Ne4 Bxe4 23. Bxe4 Nf6 24. Bc6 Rxe3 25. d5 Bc5 26. Kh1 Ng4 27. Rf1
+Qd8 28. g3 Rxg3 29. hxg3 Qd6 30. Rfe1 Re7 31. Kg2 Kg8 32. Qf5 Rxe1 33. Qxg4
+Rxc1 34. Qxg7# 1-0
+
+[Event "Sitges op 43rd"]
+[Site "Sitges"]
+[Date "2017.07.28"]
+[Round "7"]
+[White "Tissir, Mohamed"]
+[Black "Cederstam Barsk, Carl"]
+[Result "1/2-1/2"]
+[ECO "C90"]
+[WhiteElo "2354"]
+[BlackElo "2264"]
+[PlyCount "90"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Be7 5. O-O O-O 6. Re1 d6 7. c3 Na5 8. Bb5
+a6 9. Ba4 b5 10. Bc2 c5 11. Nbd2 Nc6 12. h3 Re8 13. Nf1 h6 14. Ng3 Be6 15. Nh2
+Bf8 16. Qf3 g6 17. Ng4 Nxg4 18. hxg4 Qh4 19. Bd1 Rad8 20. Nf1 d5 21. g3 Qh3 22.
+Ne3 d4 23. Nd5 Bxd5 24. exd5 e4 25. Rxe4 f5 26. gxf5 gxf5 27. Rxe8 Rxe8 28. Be2
+Ne5 29. Qg2 Qxg2+ 30. Kxg2 c4 31. cxd4 Nxd3 32. Bxd3 cxd3 33. Be3 Rc8 34. Rd1
+Rc2 35. Rd2 a5 36. Kf3 Bg7 37. Rxc2 dxc2 38. Kf4 Bxd4 39. Bc1 Bxf2 40. Kxf5
+Bxg3 41. Bxh6 Kf7 42. Bg5 Bh4 43. Bc1 Ke7 44. Ke4 Kd7 45. Kd3 Kd6 1/2-1/2
+
+[Event "Sitges op 43rd"]
+[Site "Sitges"]
+[Date "2017.07.29"]
+[Round "8"]
+[White "Cederstam Barsk, Carl"]
+[Black "Dhulipalla, Bala Chandra Prasad"]
+[Result "1-0"]
+[ECO "A28"]
+[WhiteElo "2264"]
+[BlackElo "2335"]
+[PlyCount "115"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. e3 Bb4 5. Qc2 Bxc3 6. bxc3 O-O 7. Bd3 h6 8.
+O-O d6 9. Rb1 b6 10. Be2 e4 11. Ne1 Ne5 12. f3 Bb7 13. fxe4 Bxe4 14. d3 Bh7 15.
+e4 c6 16. Nf3 Ned7 17. Nd4 Rc8 18. Bf4 Ne5 19. Bg3 Re8 20. Bh4 g5 21. Bg3 d5
+22. Nf5 dxe4 23. d4 Nf3+ 24. gxf3 Bxf5 25. Be5 Bh3 26. fxe4 Bxf1 27. Rxf1 Rxe5
+28. dxe5 Ne8 29. e6 fxe6 30. e5 Ng7 31. Qg6 Qe8 32. Qxh6 Rd8 33. Qxg5 Rd7 34.
+h4 Qe7 35. Rf6 Qc5+ 36. Kf1 Rf7 37. h5 Rxf6+ 38. Qxf6 Qf8 39. Bg4 Qxf6+ 40.
+exf6 Ne8 41. Bxe6+ Kf8 42. f7 Nc7 43. Bd7 Kxf7 44. Bxc6 Kg7 45. Kf2 Kh6 46. Bf3
+Ne6 47. Ke3 Nc5 48. Kd4 Kg5 49. Bd1 Kh6 50. a3 Kg5 51. Ke5 Nd3+ 52. Kd5 Nc5 53.
+a4 Nd3 54. Kc6 Nb2 55. Bb3 Kxh5 56. Kb7 Nd3 57. Kxa7 Nc5 58. Kxb6 1-0
+
+[Event "Sitges op 43rd"]
+[Site "Sitges"]
+[Date "2017.07.29"]
+[Round "9"]
+[White "Henriquez Villagra, Cristobal"]
+[Black "Cederstam Barsk, Carl"]
+[Result "1-0"]
+[ECO "A39"]
+[WhiteElo "2532"]
+[BlackElo "2264"]
+[PlyCount "79"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. Nf3 Nf6 2. g3 c5 3. Bg2 g6 4. O-O Bg7 5. c4 O-O 6. Nc3 Nc6 7. d4 cxd4 8.
+Nxd4 d5 9. Nxc6 bxc6 10. Qa4 Bd7 11. Rd1 Qb6 12. Qa3 Ng4 13. e3 e6 14. c5 Qb7
+15. Bd2 e5 16. h3 Nh6 17. b4 e4 18. Rab1 Qc8 19. Kh2 Re8 20. Ne2 a6 21. Bc3 g5
+22. Bxg7 Kxg7 23. Qc3+ f6 24. a4 Nf7 25. b5 axb5 26. axb5 cxb5 27. Nd4 h5 28.
+c6 h4 29. g4 Ne5 30. Rdc1 Qc7 31. Kg1 Bxg4 32. Nxb5 Qc8 33. Nd6 Qe6 34. Nxe8+
+Rxe8 35. Rb7+ Kg6 36. Qa5 Rc8 37. hxg4 Qxg4 38. Qxd5 Nf3+ 39. Kh1 Rf8 40. Qd7
+1-0

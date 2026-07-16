@@ -1,0 +1,184 @@
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.13"]
+[Round "1"]
+[White "Marcelo, Diego Luis"]
+[Black "Pascual Gonzalez-Novelles, Carles"]
+[Result "0-1"]
+[ECO "C01"]
+[BlackElo "1718"]
+[PlyCount "46"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. Nf3 Nf6 5. Nc3 c6 6. Bd3 Bd6 7. O-O O-O 8.
+Re1 Bg4 9. h3 Bh5 10. Bg5 Nbd7 11. Re3 Qb6 12. Be2 h6 13. Bh4 Bf4 14. Re7 Qb4
+15. Rxd7 Nxd7 16. Qd3 Bg6 17. Qd1 Qxb2 18. Qe1 Qxc2 19. g3 Bd6 20. Rc1 Qb2 21.
+Kg2 Rfe8 22. Qd1 Bb4 23. Qc2 Bxc2 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.14"]
+[Round "2"]
+[White "Pascual Gonzalez-Novelles, Carles"]
+[Black "Andreu Termes, Frederic"]
+[Result "1/2-1/2"]
+[ECO "C16"]
+[WhiteElo "1718"]
+[BlackElo "1870"]
+[PlyCount "94"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 b6 5. a3 Bxc3+ 6. bxc3 Bb7 7. Qg4 g6 8. Bg5
+Qd7 9. Be2 Nc6 10. Nf3 h6 11. Qh4 Nce7 12. Bxe7 Nxe7 13. a4 O-O-O 14. a5 Kb8
+15. Qf4 Nc6 16. axb6 cxb6 17. Bb5 Qe7 18. Qc1 Na5 19. Qa3 Qxa3 20. Rxa3 Rc8 21.
+Nd2 Rc7 22. h4 a6 23. Be2 Rhc8 24. h5 g5 25. Rh3 Nc4 26. Nxc4 dxc4 27. Bf3 Rg8
+28. Bxb7 Kxb7 29. Rf3 Rg7 30. Rf6 Rh7 31. Ke2 Rd7 32. Ke3 b5 33. Ke4 Rd5 34.
+Ra1 Kb6 35. Ra2 a5 36. Ke3 a4 37. Ra1 Ka5 38. Ke4 Rd7 39. Ra2 Kb6 40. Ra3 Kc6
+41. Ra1 Kb6 42. Ra3 Ka5 43. Ra1 Ra7 44. Ke3 b4 45. cxb4+ Kxb4 46. Kd2 a3 47.
+Rb1+ Ka4 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.15"]
+[Round "3"]
+[White "Reixach Ministral, Eduard"]
+[Black "Pascual Gonzalez-Novelles, Carles"]
+[Result "0-1"]
+[ECO "C07"]
+[WhiteElo "1870"]
+[BlackElo "1718"]
+[PlyCount "74"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nd2 c5 4. c3 cxd4 5. cxd4 Nc6 6. Bb5 Qb6 7. Bxc6+ bxc6 8.
+Ne2 Ba6 9. exd5 cxd5 10. O-O Ne7 11. Re1 Nc6 12. Nf3 Be7 13. Bg5 Bxe2 14. Qxe2
+Bxg5 15. Nxg5 O-O 16. Qd3 g6 17. Qh3 h5 18. g4 Kg7 19. gxh5 Rh8 20. Qc3 Rxh5
+21. f4 Qxd4+ 22. Re3 Rah8 23. Rae1 Qxc3 24. Rxc3 Nd4 25. Rc7 Rxh2 26. Rxf7+ Kg8
+27. Rxa7 Rh1+ 28. Kf2 R8h2+ 29. Kg3 Nf5+ 30. Kg4 Rxe1 31. Ra8+ Kg7 32. Ra7+ Kf8
+33. b4 Re3 34. Nxe6+ Rxe6 35. b5 Rh4+ 36. Kg5 Rh1 37. a4 Rg1# 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.16"]
+[Round "4"]
+[White "Pascual Gonzalez-Novelles, Carles"]
+[Black "Flores Mendoza, Jose Antonio"]
+[Result "0-1"]
+[ECO "C11"]
+[WhiteElo "1718"]
+[BlackElo "1877"]
+[PlyCount "58"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6 7. Ne2 cxd4 8.
+Nexd4 Be7 9. c3 Nc5 10. Be2 Bd7 11. O-O O-O 12. Kh1 a6 13. a4 Rc8 14. Nxc6 Bxc6
+15. Nd4 Bd7 16. Bf3 f5 17. exf6 Bxf6 18. Be3 Bxd4 19. Bxd4 Rxf4 20. Be3 Rf8 21.
+b4 Ne4 22. Bd4 Nxc3 23. Qd3 Nxa4 24. Qe3 b5 25. Rf2 Qh4 26. Be5 Rf5 27. Raf1
+Rxe5 28. Be4 Rxe4 29. Qc1 Qxf2 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.17"]
+[Round "5"]
+[White "Costa Trave, Jaume"]
+[Black "Pascual Gonzalez-Novelles, Carles"]
+[Result "1-0"]
+[ECO "A03"]
+[WhiteElo "1902"]
+[BlackElo "1718"]
+[PlyCount "67"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. f4 d5 2. e3 c5 3. Nf3 Nc6 4. d4 e6 5. c3 Nf6 6. Bd3 Be7 7. Nbd2 Bd7 8. O-O
+O-O 9. Ne5 a6 10. Qf3 Rc8 11. Qh3 h6 12. g4 Nh7 13. Ndf3 Nxe5 14. Nxe5 f5 15.
+Rf2 Qe8 16. Rg2 Bf6 17. Nxd7 Qxd7 18. gxf5 cxd4 19. exd4 exf5 20. Qxh6 Rce8 21.
+Bd2 Re6 22. Qh3 Rb6 23. b3 Be7 24. Kh1 Rf7 25. Rag1 Rbf6 26. c4 Qd6 27. Qf3 Rh6
+28. a3 Nf6 29. Bxf5 dxc4 30. Bb4 Qc7 31. Be6 Bxb4 32. Rxg7+ Kh8 33. Rxf7 Qa5
+34. Rxf6 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.18"]
+[Round "6"]
+[White "Pascual Gonzalez-Novelles, Carles"]
+[Black "Pera Muntasell, Marc"]
+[Result "1-0"]
+[ECO "B00"]
+[WhiteElo "1718"]
+[BlackElo "1450"]
+[PlyCount "79"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 b6 2. d4 Bb7 3. Bd3 e6 4. f4 d5 5. e5 Nd7 6. Nf3 c5 7. c3 Ne7 8. O-O g6
+9. Be3 h5 10. Ng5 Bh6 11. Qf3 O-O 12. Nh3 Qc7 13. g4 hxg4 14. Qxg4 Nf5 15. Bf2
+Bg7 16. Ng5 Rfe8 17. Nd2 Nf8 18. Ndf3 Re7 19. Nh4 Rae8 20. Nxf5 exf5 21. Qh3 f6
+22. Nf3 Ne6 23. Qg3 g5 24. exf6 Bxf6 25. fxg5 Qxg3+ 26. hxg3 Nxg5 27. Nxg5 Bxg5
+28. Bb5 Rc8 29. Rae1 Rcc7 30. dxc5 bxc5 31. Rxe7 Bxe7 32. Be3 Bc8 33. Bf4 Rb7
+34. Ba6 Rxb2 35. Bxc8 Rxa2 36. Be6+ Kg7 37. Be5+ Kh6 38. Bxd5 Re2 39. Rxf5 Bg5
+40. Bf4 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.19"]
+[Round "7"]
+[White "Quero Ortega, Juan"]
+[Black "Pascual Gonzalez-Novelles, Carles"]
+[Result "1/2-1/2"]
+[ECO "E67"]
+[WhiteElo "1805"]
+[BlackElo "1718"]
+[PlyCount "83"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 Nf6 2. g3 g6 3. Bg2 Bg7 4. Nf3 c6 5. O-O O-O 6. Nc3 d6 7. d4 Nbd7 8. Qc2
+d5 9. c5 b6 10. cxb6 Nxb6 11. b3 Bf5 12. Qb2 Nfd7 13. Qd2 c5 14. Bb2 c4 15.
+Rae1 Nf6 16. Nh4 Be6 17. e4 dxe4 18. Nxe4 Nxe4 19. Bxe4 Rc8 20. Rc1 Bd5 21.
+Bxd5 Qxd5 22. Qb4 cxb3 23. axb3 Bf6 24. Ng2 Qe4 25. Qd2 Rxc1 26. Rxc1 Rd8 27.
+Qa5 Rd7 28. Ne3 Qd3 29. Qb4 Nd5 30. Nxd5 Rxd5 31. Qb8+ Kg7 32. Qxa7 Qd2 33. Qa1
+Ra5 34. Bc3 Rxa1 35. Bxd2 Rxc1+ 36. Bxc1 Bxd4 37. Kf1 Kf6 38. Ke2 Ke5 39. f3
+Kd5 40. Kd3 h5 41. h3 f5 42. g4 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.20"]
+[Round "8"]
+[White "Pascual Gonzalez-Novelles, Carles"]
+[Black "Poyato Ruiz, Fernando"]
+[Result "1/2-1/2"]
+[ECO "C11"]
+[WhiteElo "1718"]
+[BlackElo "1840"]
+[PlyCount "88"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6 7. Be3 cxd4 8. Nxd4
+Bb4 9. Nxc6 Bxc3+ 10. bxc3 bxc6 11. Bd3 Qh4+ 12. g3 Qe7 13. O-O O-O 14. c4 a5
+15. cxd5 cxd5 16. a4 Nc5 17. Bb5 Ba6 18. Qd4 Rfc8 19. Rfb1 Ne4 20. Bxa6 Rxa6
+21. c4 Qd8 22. cxd5 Qxd5 23. Rc1 Rac6 24. Rxc6 Rxc6 25. Rb1 h5 26. Qxd5 exd5
+27. Rb5 Ra6 28. Rxd5 Nc3 29. Rd8+ Kh7 30. Rd3 Ra8 31. Bd2 Nxa4 32. Rd5 Nb6 33.
+Rxa5 Rxa5 34. Bxa5 Nd7 35. Kf2 Kg6 36. Ke3 Kf5 37. Kd4 Ke6 38. Bd8 g6 39. Bc7
+Nf8 40. Kc5 f6 41. exf6 Kxf6 42. Kd6 Kf5 43. Ke7 Ne6 44. Bb6 g5 1/2-1/2

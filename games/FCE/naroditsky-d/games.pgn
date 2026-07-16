@@ -1,0 +1,238 @@
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.06.25"]
+[Round "1"]
+[White "Sanchez Enriquez, OG."]
+[Black "Naroditsky, D."]
+[Result "0-1"]
+[ECO "A15"]
+[WhiteElo "2401"]
+[BlackElo "2559"]
+[PlyCount "92"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. Nf3 Nf6 2. c4 b6 3. d4 Bb7 4. e3 g6 5. Nc3 Bg7 6. Bd3 O-O 7. e4 d6 8. O-O
+Nbd7 9. Rb1 e6 10. Re1 a6 11. Bf1 c5 12. d5 exd5 13. exd5 b5 14. b3 b4 15. Na4
+Nb6 16. Nxb6 Qxb6 17. Bf4 Rae8 18. Bd3 Rxe1+ 19. Qxe1 Re8 20. Qd2 Nh5 21. Bh6
+Bc3 22. Qc1 Bc8 23. h3 Qd8 24. g4 Ng7 25. Bg5 Qd7 26. Bd2 f5 27. Bxc3 bxc3 28.
+Qh6 fxg4 29. Bxg6 hxg6 30. Ng5 Qf5 31. Qh7+ Kf8 32. Qh8+ Ke7 33. Qxg7+ Kd8 34.
+Nf7+ Kc7 35. Nh6+ Qd7 36. Qxc3 gxh3 37. b4 Qe7 38. Qg3 Qe5 39. Qxg6 Re7 40. Nf7
+Qf4 41. bxc5 Rxf7 42. cxd6+ Kd8 43. Rb2 Rf5 44. Qg8+ Rf8 45. Qg7 Qxd6 46. Rb6
+Qf4 0-1
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.06.26"]
+[Round "2"]
+[White "Naroditsky, D."]
+[Black "Cori Tello, D."]
+[Result "1-0"]
+[ECO "E08"]
+[WhiteElo "2559"]
+[BlackElo "2414"]
+[PlyCount "131"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. Nf3 e6 2. c4 Nf6 3. g3 Be7 4. Bg2 O-O 5. O-O d5 6. d4 Nbd7 7. Qc2 c5 8. cxd5
+Nxd5 9. Nc3 Nb4 10. Qd1 Nb6 11. dxc5 Bxc5 12. a3 Nc6 13. Qc2 Bd7 14. Rd1 Rc8
+15. Bf4 f6 16. Ne4 Be7 17. Nd6 Bxd6 18. Bxd6 Rf7 19. Qe4 Qe8 20. Rac1 Na5 21.
+Bb4 Nc6 22. Bc5 Nd5 23. Qb1 b6 24. Bd6 Na5 25. e4 Ne7 26. e5 Nf5 27. Bb4 Nc6
+28. Bc3 fxe5 29. Bxe5 Nfe7 30. Bd6 Nf5 31. Ng5 Rf6 32. g4 Rg6 33. gxf5 Rxg5 34.
+fxe6 Rxg2+ 35. Kxg2 Bxe6 36. Bg3 Ne7 37. Re1 Rxc1 38. Qxc1 Qf7 39. Qe3 Bd5+ 40.
+Kg1 h5 41. Bd6 Nf5 42. Qe8+ Qxe8 43. Rxe8+ Kf7 44. Rd8 Ke6 45. Bb8 a6 46. Bf4
+Bf3 47. Rb8 b5 48. Rb6+ Kd5 49. Rxa6 Kc4 50. Rg6 Be4 51. Re6 Kd3 52. Bg5 h4 53.
+h3 Nd4 54. Rd6 Kc4 55. f4 Nf5 56. Re6 Bd3 57. Rc6+ Kd5 58. Rc3 Kd4 59. Kf2 Ne3
+60. Rc7 Nd1+ 61. Ke1 Nxb2 62. Rxg7 Nc4 63. Rd7+ Ke4 64. Bxh4 Bc2 65. Be7 Kxf4
+66. Bc5 1-0
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.06.27"]
+[Round "3"]
+[White "Herraiz Hidalgo, H."]
+[Black "Naroditsky, D."]
+[Result "1/2-1/2"]
+[ECO "E32"]
+[WhiteElo "2446"]
+[BlackElo "2559"]
+[PlyCount "112"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. a3 Bxc3+ 6. Qxc3 d6 7. Bg5 Nbd7 8.
+e3 b6 9. f3 c5 10. Nh3 Ba6 11. dxc5 bxc5 12. Be2 Qb6 13. Rd1 h6 14. Bh4 Rab8
+15. Rd2 d5 16. Bg3 Rb7 17. O-O Rc8 18. Rfd1 Qb3 19. Qxb3 Rxb3 20. cxd5 Bxe2 21.
+Rxe2 exd5 22. Nf4 Nb6 23. Be1 g5 24. Nd3 Na4 25. Rdd2 Re8 26. Nc1 Rbxe3 27.
+Rxe3 Rxe3 28. Bf2 Re7 29. b3 Nb6 30. a4 Rc7 31. Rc2 c4 32. Bd4 Ne8 33. a5 Nc8
+34. bxc4 Rxc4 35. Rxc4 dxc4 36. Ne2 Kf8 37. Nc3 Ke7 38. Kf2 Ke6 39. g4 Nc7 40.
+Bg7 f6 41. Bxh6 Kf7 42. f4 Ne6 43. f5 Nd8 44. Kg3 Nc6 45. h4 gxh4+ 46. Kxh4
+Nxa5 47. g5 fxg5+ 48. Kxg5 Nd6 49. Kf4 Nc6 50. Bg5 a5 51. Bh4 Nd4 52. Ke5 N6b5
+53. Be1 Nf3+ 54. Kd5 Nc7+ 55. Kxc4 Nxe1 56. Kc5 Kf6 1/2-1/2
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.06.28"]
+[Round "4"]
+[White "Naroditsky, D."]
+[Black "Ramirez Garcia, JA."]
+[Result "1-0"]
+[ECO "C00"]
+[WhiteElo "2559"]
+[BlackElo "2287"]
+[PlyCount "50"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. e4 e6 2. d3 c5 3. Nd2 Nc6 4. g3 g6 5. Bg2 Bg7 6. Ngf3 Nge7 7. O-O d6 8. h4
+h6 9. c3 O-O 10. d4 e5 11. d5 Nb8 12. h5 Bg4 13. hxg6 Nxg6 14. Nc4 f5 15. exf5
+Bxf5 16. Nh2 Nh8 17. f4 exf4 18. Bxf4 Nf7 19. Qh5 Bd3 20. Ne3 Nd7 21. Nf5 Nde5
+22. Nxg7 Kxg7 23. Ng4 Bg6 24. Bxe5+ dxe5 25. Rxf7+ Kxf7 1-0
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.06.29"]
+[Round "5"]
+[White "Ni, H."]
+[Black "Naroditsky, D."]
+[Result "1-0"]
+[ECO "E73"]
+[WhiteElo "2653"]
+[BlackElo "2559"]
+[PlyCount "107"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Be2 O-O 6. Bg5 Na6 7. Qd2 c5 8. d5 e6
+9. Nf3 exd5 10. exd5 Re8 11. O-O Bf5 12. Nh4 Qc8 13. Rae1 Nc7 14. Qf4 Ne4 15.
+Nxe4 Bxe4 16. Qd2 b5 17. f3 Bf5 18. Nxf5 Qxf5 19. Bd3 Qd7 20. b3 b4 21. Rxe8+
+Rxe8 22. g4 Bd4+ 23. Kg2 f6 24. Bf4 Qe7 25. Bg3 Bc3 26. Qc2 Qd7 27. h4 Kh8 28.
+h5 g5 29. Bf5 Qe7 30. f4 gxf4 31. Bxf4 Be5 32. Re1 Qg7 33. Bc1 Qf7 34. Qd3 Re7
+35. Qf3 Bc3 36. Rxe7 Qxe7 37. Be4 Qd7 38. Qf5 Qxf5 39. Bxf5 Kg7 40. h6+ Kg8 41.
+Bf4 Be5 42. Bxe5 fxe5 43. Kg3 Ne8 44. g5 Nc7 45. Kg4 Na8 46. Kh5 Nb6 47. g6
+hxg6+ 48. Kxg6 a5 49. Bd3 a4 50. Kf6 a3 51. Ke6 Na4 52. Kxd6 e4 53. Bxe4 Nc3
+54. Ke5 1-0
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.06.30"]
+[Round "6"]
+[White "Naroditsky, D."]
+[Black "Escobar Forero, A."]
+[Result "1/2-1/2"]
+[ECO "E62"]
+[WhiteElo "2559"]
+[BlackElo "2445"]
+[PlyCount "115"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. c4 Nf6 2. Nc3 d6 3. d4 g6 4. g3 Bg7 5. Bg2 O-O 6. Nf3 c6 7. O-O Bf5 8. b3
+Qc8 9. Re1 Ne4 10. Bb2 Nxc3 11. Bxc3 Be4 12. Qd2 d5 13. Rac1 Qd8 14. Qe3 Nd7
+15. Bh3 a5 16. Nd2 Bf5 17. Bxf5 gxf5 18. cxd5 cxd5 19. Qd3 e6 20. Qb5 Ra7 21.
+Bb2 Re8 22. Nf3 b6 23. Rc6 a4 24. bxa4 Qa8 25. Rec1 Ra5 26. Qb3 Rxa4 27. Rc7
+Rd8 28. a3 Ra7 29. R7c6 Bf8 30. Qe3 Bg7 31. Qg5 h6 32. Qf4 Qb8 33. Ne5 Nxe5 34.
+dxe5 b5 35. Bd4 Rxa3 36. g4 fxg4 37. Rc7 Rf8 38. Qxg4 Ra4 39. Kh1 Qd8 40. f4
+Qxc7 41. Rxc7 Rxd4 42. e3 Re4 43. Rc1 Kh7 44. Rg1 Bxe5 45. Qh4 Bg7 46. Qe7 d4
+47. exd4 Rxf4 48. d5 exd5 49. Qe2 d4 50. Qxb5 Rf6 51. h4 Re6 52. h5 Kh8 53. Qf5
+Ree8 54. Qf3 Re6 55. Qg4 Bf6 56. Qf4 Bg7 57. Qg4 Bf6 58. Qf4 1/2-1/2
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.07.01"]
+[Round "7"]
+[White "Vehi Bach, VM."]
+[Black "Naroditsky, D."]
+[Result "0-1"]
+[ECO "B90"]
+[WhiteElo "2313"]
+[BlackElo "2559"]
+[PlyCount "54"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nb3 Be7 8. h3
+O-O 9. g4 a5 10. a4 Be6 11. Bg2 Na6 12. O-O Rc8 13. Nd5 Nxd5 14. exd5 Bd7 15.
+Qd2 f5 16. f3 b6 17. Nc1 Nc5 18. b3 f4 19. Bf2 e4 20. Bxc5 bxc5 21. fxe4 Bf6
+22. c3 c4 23. bxc4 Rxc4 24. Ne2 Qb6+ 25. Kh1 Qe3 26. Qxe3 fxe3 27. Ra3 Rxa4 0-1
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.07.02"]
+[Round "8"]
+[White "Naroditsky, D."]
+[Black "Grigoryan, KH."]
+[Result "1-0"]
+[ECO "C67"]
+[WhiteElo "2559"]
+[BlackElo "2577"]
+[PlyCount "73"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5
+8. Qxd8+ Kxd8 9. Rd1+ Ke8 10. Nc3 h6 11. h3 Bd7 12. Bf4 Rc8 13. Ne4 b6 14. Re1
+c5 15. g4 Ne7 16. Nf6+ gxf6 17. exf6 Be6 18. fxe7 Bxe7 19. Ne5 Bf6 20. Rad1 a6
+21. b3 Rh7 22. Bg3 Rd8 23. Nd3 c4 24. bxc4 Bc3 25. Re4 c5 26. Rb1 Rd4 27. Re2
+Ba5 28. Bc7 h5 29. g5 Rd7 30. Bxb6 Bxb6 31. Rxb6 Kf8 32. g6 Rh8 33. Ne5 Rd1+
+34. Kh2 Kg7 35. gxf7 Bxf7 36. Rb7 Rf8 37. Re3 1-0
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.07.03"]
+[Round "9"]
+[White "Ghosh, D."]
+[Black "Naroditsky, D."]
+[Result "1/2-1/2"]
+[ECO "E06"]
+[WhiteElo "2487"]
+[BlackElo "2559"]
+[PlyCount "100"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. d4 Nf6 2. c4 e6 3. g3 d5 4. Nf3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 a6 8. a4
+Bd7 9. Bg5 Bc6 10. Rd1 Nbd7 11. Bxf6 Nxf6 12. Qxc4 Bd5 13. Qc2 Be4 14. Qc1 c5
+15. dxc5 Qa5 16. Nbd2 Bd5 17. Ne5 Bxg2 18. Kxg2 Qxc5 19. Qxc5 Bxc5 20. Nb3 Bb4
+21. Rac1 Rfd8 22. Nd3 Bf8 23. Na5 Rd7 24. Ne5 Rxd1 25. Rxd1 b5 26. axb5 axb5
+27. Nac6 g5 28. Rd8 Ra2 29. Nd3 Ra6 30. Nce5 Rb6 31. Nc5 Rd6 32. Rb8 Rd5 33.
+Ncd3 Nd7 34. Rxb5 Be7 35. Nxd7 Rxd7 36. Kf3 Rd4 37. Ke3 Ra4 38. b3 Ra2 39. g4
+f6 40. Rb7 Bd6 41. h3 Ra1 42. Rb6 Be7 43. Rxe6 Kf7 44. Rc6 Rh1 45. f3 Rxh3 46.
+Ke4 Rh2 47. Rc2 Ke6 48. b4 h5 49. gxh5 Rh4+ 50. f4 Bxb4 1/2-1/2

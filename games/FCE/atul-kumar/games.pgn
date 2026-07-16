@@ -1,0 +1,481 @@
+[Event "Montcada op-B 25th"]
+[Site "Montcada"]
+[Date "2017.06.27"]
+[Round "2"]
+[White "Atul, Kumar"]
+[Black "Garcia Playa, David"]
+[Result "0-1"]
+[ECO "B12"]
+[WhiteElo "1907"]
+[BlackElo "2045"]
+[PlyCount "116"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Bd3 Bxd3 5. Qxd3 e6 6. f4 a6 7. Nf3 c5 8. O-O
+Nc6 9. c3 Nh6 10. Kh1 Qb6 11. dxc5 Bxc5 12. b4 Be7 13. Be3 Qc7 14. Nbd2 O-O 15.
+Nb3 Rfd8 16. Nbd4 Ng4 17. Bg1 Rac8 18. h3 Nxd4 19. Bxd4 Nh6 20. g4 f5 21. exf6
+Bxf6 22. Ne5 Bxe5 23. Bxe5 Qc6 24. Qd4 Qd7 25. Rae1 Rc4 26. Qe3 Nf7 27. Bd4 Re8
+28. f5 e5 29. Bc5 Qc6 30. Kh2 Re4 31. Qd3 Rxe1 32. Rxe1 Rc8 33. Re3 b6 34. Be7
+Qc7 35. Qxa6 d4 36. cxd4 exd4+ 37. Rg3 d3 38. Qxd3 Qxe7 39. Qb3 Qe2+ 40. Rg2
+Qe5+ 41. Qg3 Qd4 42. g5 Qd6 43. g6 Qxg3+ 44. Rxg3 Nd6 45. gxh7+ Kxh7 46. Rg6
+Rc2+ 47. Kg1 Nxf5 48. Rxb6 Rxa2 49. Re6 Rb2 50. Re4 Kg6 51. Rc4 Kf6 52. Rf4 g5
+53. Re4 Nd6 54. Rd4 Ke5 55. Rg4 Kf5 56. Rd4 Ne4 57. Rc4 Kf4 58. Rd4 Ke3 0-1
+
+[Event "Montcada op-B 25th"]
+[Site "Montcada"]
+[Date "2017.06.29"]
+[Round "4"]
+[White "Atul, Kumar"]
+[Black "Palacios Pena, Gerardo"]
+[Result "1/2-1/2"]
+[ECO "A02"]
+[WhiteElo "1907"]
+[BlackElo "2012"]
+[PlyCount "22"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. f4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 d6 5. g3 Nc6 6. Bg2 O-O 7. O-O e5 8. e3
+exf4 9. exf4 Re8 10. Re1 Bf5 11. Rxe8+ Qxe8 1/2-1/2
+
+[Event "Montcada op-B 25th"]
+[Site "Montcada"]
+[Date "2017.06.30"]
+[Round "5"]
+[White "Mas Recorda, Pere"]
+[Black "Atul, Kumar"]
+[Result "0-1"]
+[ECO "E52"]
+[WhiteElo "1968"]
+[BlackElo "1907"]
+[PlyCount "72"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 b6 3. c4 e6 4. Nc3 Bb4 5. Bd2 Bb7 6. e3 O-O 7. Bd3 d5 8. cxd5
+exd5 9. a3 Bd6 10. Qc2 a6 11. b4 Nbd7 12. O-O Re8 13. h3 Ne4 14. Bxe4 dxe4 15.
+Ne1 Qh4 16. f4 Nf6 17. Bc1 b5 18. Qf2 Qh6 19. Nc2 Bc8 20. a4 bxa4 21. Rxa4 Bd7
+22. Ra5 Reb8 23. Ba3 Bb5 24. Nxb5 axb5 25. Ra1 Rxa5 26. bxa5 Nd5 27. Bb2 Ra8
+28. Qe2 c6 29. Qd2 g5 30. Ba3 Bc7 31. fxg5 Qxg5 32. Qf2 Rxa5 33. Rf1 Qg6 34. g4
+Ra4 35. Bc1 Ra2 36. Qg2 Nb4 0-1
+
+[Event "Montcada op-B 25th"]
+[Site "Montcada"]
+[Date "2017.07.01"]
+[Round "6"]
+[White "Atul, Kumar"]
+[Black "Morais Carreras, Javier"]
+[Result "0-1"]
+[ECO "C42"]
+[WhiteElo "1907"]
+[BlackElo "1925"]
+[PlyCount "72"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nc3 Bb4 4. d3 d5 5. exd5 Nxd5 6. Bd2 Nc6 7. g3 Bg4 8.
+Bg2 Nxc3 9. bxc3 Ba5 10. h3 Bh5 11. O-O O-O 12. Re1 Qd6 13. Qb1 Bb6 14. Be3 f5
+15. Bxb6 axb6 16. Nh2 f4 17. g4 Bf7 18. Be4 Ra5 19. Nf3 Bd5 20. Kg2 Rfa8 21.
+Bxd5+ Rxd5 22. Re4 Ra3 23. Qb2 Rda5 24. Nd2 b5 25. Nb3 Ra8 26. Nd2 Qc5 27. c4
+b4 28. Nf3 Rc3 29. Rae1 Rca3 30. Ra1 R8a5 31. Re2 h6 32. Qc1 Rxa2 33. Rxa2 Rxa2
+34. Qe1 Ra5 35. Re4 Qd6 36. d4 exd4 0-1
+
+[Event "Montcada op-B 25th"]
+[Site "Montcada"]
+[Date "2017.07.01"]
+[Round "7"]
+[White "Brunet Gil, Pol"]
+[Black "Atul, Kumar"]
+[Result "0-1"]
+[ECO "C45"]
+[WhiteElo "1814"]
+[BlackElo "1907"]
+[PlyCount "156"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Qf6 5. Nxc6 Qxc6 6. Nc3 Bb4 7. Qf3 Nf6
+8. Bd2 O-O 9. Bb5 Qc5 10. Bd3 d6 11. O-O Qh5 12. Qxh5 Nxh5 13. Rad1 Bg4 14. Be2
+Bxe2 15. Nxe2 Bc5 16. Kh1 Rae8 17. Nc3 a6 18. Rde1 Nf6 19. f3 Nd7 20. Nd5 c6
+21. Nf4 Re7 22. Nd3 Ba7 23. Bb4 Re6 24. Rd1 g5 25. Nf2 c5 26. Bd2 f6 27. Ng4 c4
+28. Be3 Bb8 29. Bf2 Kg7 30. Ne3 Ne5 31. Bg3 b5 32. Rd5 Rc8 33. Rfd1 Rc6 34.
+Nf5+ Kf8 35. Bxe5 fxe5 36. Kg1 Kf7 37. Kf2 Rg6 38. Kg3 h5 39. h3 Ke6 40. Ne3
+Ba7 41. Nf5 Bc5 42. Rc1 Rg8 43. Rcd1 Rb6 44. R1d2 Rg6 45. Rd1 Kf7 46. R1d2 Rf6
+47. Rd1 Kf8 48. R1d2 Rg6 49. Rd1 Ke8 50. Re1 Rb7 51. Red1 Rd7 52. Re1 Kd8 53.
+Red1 Kc7 54. R1d2 Kc6 55. Rd1 Rf6 56. R1d2 Rb7 57. Rd1 b4 58. Kh2 a5 59. Ng3
+Rh7 60. Ne2 g4 61. Rf1 gxf3 62. Rxf3 Rxf3 63. gxf3 Rg7 64. Rd1 Be3 65. b3 c3
+66. Ra1 h4 67. a4 d5 68. exd5+ Kxd5 69. Rd1+ Bd2 70. Rg1 Rf7 71. Kg2 Ke6 72.
+Rf1 Kf5 73. Kh2 Rd7 74. Rf2 Be3 75. Rg2 Rd2 76. Ng1 Bxg1+ 77. Kxg1 Kf4 78. Rf2
+Kg3 0-1
+
+[Event "Montcada op-B 25th"]
+[Site "Montcada"]
+[Date "2017.07.02"]
+[Round "8"]
+[White "Atul, Kumar"]
+[Black "Rodriguez Vega, Blas"]
+[Result "1-0"]
+[ECO "B21"]
+[WhiteElo "1907"]
+[BlackElo "2048"]
+[PlyCount "95"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 d5 2. e5 c5 3. f4 Bf5 4. Bb5+ Nc6 5. Nf3 e6 6. O-O Qb6 7. Bxc6+ bxc6 8.
+Kh1 c4 9. b3 Qa6 10. bxc4 Qxc4 11. d3 Qa6 12. Nd4 Ne7 13. Ba3 h5 14. Nb3 h4 15.
+Nc5 Qc8 16. Nd2 Ng6 17. Rb1 Rb8 18. Qf3 Rb5 19. Rxb5 cxb5 20. Qe3 a5 21. c3 h3
+22. g3 Qc6 23. d4 Be7 24. Ndb3 O-O 25. Nxa5 Qa8 26. Bb4 Bxc5 27. Bxc5 Qxa5 28.
+Bxf8 Qxa2 29. Qf2 Qxf2 30. Rxf2 Nxf8 31. Rb2 Bd3 32. Kg1 Nd7 33. Kf2 Nb6 34. g4
+Na4 35. Rb3 Bc2 36. Ra3 Nb2 37. Kg3 Nd1 38. Kxh3 Nf2+ 39. Kg3 Ne4+ 40. Kf3 Nd2+
+41. Ke3 Nb1 42. Ra8+ Kh7 43. f5 Nxc3 44. g5 exf5 45. Rb8 Na2 46. h4 Kg6 47. Kf3
+Kh5 48. g6 1-0
+
+[Event "Montcada op-B 25th"]
+[Site "Montcada"]
+[Date "2017.07.03"]
+[Round "9"]
+[White "Sumit, Kumar1"]
+[Black "Atul, Kumar"]
+[Result "1-0"]
+[ECO "C50"]
+[WhiteElo "1975"]
+[BlackElo "1907"]
+[PlyCount "23"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6 5. d4 Nxd4 6. Nxe5 O-O 7. Be3 Ne6 8.
+Bxe6 Bxe3 9. Bxf7+ Rxf7 10. Nxf7 Kxf7 11. fxe3 Kg8 12. e5 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.13"]
+[Round "1"]
+[White "Aguilera Campana, Antonio"]
+[Black "Atul, Kumar"]
+[Result "0-1"]
+[ECO "B06"]
+[WhiteElo "1674"]
+[BlackElo "1907"]
+[PlyCount "58"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 g6 2. d4 Bg7 3. f4 d6 4. Nf3 c5 5. Bb5+ Bd7 6. Bxd7+ Nxd7 7. O-O cxd4 8.
+Kh1 Qb6 9. c3 e5 10. fxe5 dxe5 11. cxd4 exd4 12. Nbd2 Ne7 13. Nc4 Qa6 14. b3 b5
+15. Nb2 Nc6 16. Nd3 O-O 17. Bb2 Rfe8 18. e5 Qb6 19. b4 Rad8 20. Rc1 Ndxe5 21.
+Ndxe5 Nxe5 22. Nxe5 Bxe5 23. Qf3 Re7 24. Rc5 Bg7 25. Rd5 h6 26. h3 Rxd5 27.
+Qxd5 Qb7 28. Qd8+ Kh7 29. Rd1 Re2 0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.14"]
+[Round "2"]
+[White "Atul, Kumar"]
+[Black "David, Dorian Ciprian"]
+[Result "1-0"]
+[ECO "B00"]
+[WhiteElo "1907"]
+[BlackElo "1768"]
+[PlyCount "103"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 a6 2. Nf3 b5 3. a4 b4 4. c3 e6 5. d4 Bb7 6. Nbd2 Nf6 7. Bd3 c5 8. O-O Qc7
+9. Re1 d6 10. c4 cxd4 11. Nxd4 Nc6 12. Nxc6 Qxc6 13. Nb3 Qc7 14. a5 Rb8 15. Bd2
+Ba8 16. Bf4 e5 17. Bd2 Bc6 18. f3 Be7 19. Nc1 Nd7 20. Bf1 O-O 21. Nd3 b3 22.
+Kh1 Rb7 23. Qc1 f5 24. exf5 Rxf5 25. Nb4 Ra7 26. Bd3 Rf7 27. Nxc6 Qxc6 28. Be4
+Qc7 29. Bd5 Nc5 30. Qc3 Bf6 31. Qe3 Qd7 32. Bxf7+ Qxf7 33. Rec1 Qg6 34. Rd1 Rb7
+35. Bc3 Bg5 36. Qe2 Qe6 37. Rd5 Rc7 38. Rad1 Be7 39. Bb4 Nb7 40. Qd3 Rc6 41.
+Qxb3 e4 42. Re1 Bf6 43. Rxe4 Qf7 44. Qe3 h6 45. b3 Bd8 46. Re8+ Kh7 47. Qe4+ g6
+48. Qe6 Qg7 49. Bc3 Nc5 50. Rxc5 dxc5 51. Qxc6 Qf7 52. Rh8# 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.15"]
+[Round "3"]
+[White "Gomez Parla, Josep"]
+[Black "Atul, Kumar"]
+[Result "1/2-1/2"]
+[ECO "B06"]
+[WhiteElo "1808"]
+[BlackElo "1907"]
+[PlyCount "163"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 g6 2. d4 Bg7 3. Be3 d6 4. Qd2 c6 5. Nc3 b5 6. a3 a6 7. Be2 Nd7 8. f4 Qc7
+9. Nf3 Ngf6 10. h3 Bb7 11. e5 Nd5 12. Nxd5 cxd5 13. c3 Nb6 14. O-O Nc4 15. Bxc4
+bxc4 16. exd6 Qxd6 17. Ne5 Bc8 18. g4 f6 19. Nf3 Rb8 20. Rf2 Rb3 21. Qc2 Bd7
+22. Nd2 Rb7 23. Re1 O-O 24. Nf3 Rfb8 25. Bc1 Be8 26. Rfe2 Bf7 27. Kg2 Bh6 28.
+g5 Bf8 29. h4 Rb6 30. Nh2 Qd7 31. Kg3 Be6 32. Re3 Bf5 33. Qf2 Kf7 34. Qf3 Qd6
+35. Ng4 R6b7 36. R3e2 Bg7 37. Ne3 Be4 38. Qf2 Rc8 39. Ng4 Rh8 40. Ne5+ Kf8 41.
+Nxc4 Qc7 42. Nd2 f5 43. Nf3 e6 44. Ne5 Ke7 45. Qe3 Rhb8 46. Nd3 h6 47. Ne5 Bxe5
+48. fxe5 hxg5 49. Qxg5+ Kd7 50. Qxg6 Re8 51. Qg7+ Kc8 52. Qxc7+ Kxc7 53. Bg5
+Kc6 54. a4 a5 55. Rc1 Bd3 56. Re3 Bc4 57. b4 axb4 58. cxb4 Ra8 59. b5+ Kb6 60.
+Ra1 Rh7 61. Rea3 Rha7 62. Bd2 Bxb5 63. a5+ Kc6 64. Kf4 Be2 65. Bb4 Rh7 66. Be1
+Rg8 67. a6 Ra7 68. Ke3 Bc4 69. Bb4 Rga8 70. Kf4 Rxa6 71. Rxa6+ Rxa6 72. Rxa6+
+Bxa6 73. Kg5 f4 74. h5 f3 75. Be1 Bd3 76. Kf6 Bf5 77. Kg5 Kb5 78. Bf2 Kc4 79.
+Kf4 Be4 80. Ke3 Kc3 81. h6 Kc2 82. h7 1/2-1/2
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.16"]
+[Round "4"]
+[White "Atul, Kumar"]
+[Black "Prieto Velasco, Rafael"]
+[Result "0-1"]
+[ECO "C02"]
+[WhiteElo "1907"]
+[BlackElo "1772"]
+[PlyCount "138"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. f4 Qb6 6. Nf3 Bd7 7. b3 cxd4 8. cxd4
+Rc8 9. Bb2 Nh6 10. a3 Nf5 11. Qd3 h5 12. Nbd2 a5 13. Rc1 Be7 14. g3 O-O 15. Bh3
+Ncxd4 16. Rxc8 Nxf3+ 17. Nxf3 Rxc8 18. Bxf5 exf5 19. Nd4 g6 20. O-O Be6 21. Kh1
+Kg7 22. h3 a4 23. b4 Bc5 24. bxc5 Qxb2 25. Rb1 Qf2 26. Rxb7 Kh6 27. c6 h4 28.
+gxh4 Qxf4 29. Rb4 Qxe5 30. Rxa4 Qf4 31. Rb4 Qf2 32. Qd1 Qxh4 33. Kg2 Qg5+ 34.
+Kh2 Qe3 35. Rb3 Qf2+ 36. Kh1 Qf4 37. Qd3 Qc1+ 38. Kg2 Qg5+ 39. Kf2 Qf4+ 40. Ke2
+Qh2+ 41. Kd1 Qg1+ 42. Kc2 Qf2+ 43. Qd2+ Qxd2+ 44. Kxd2 Kg7 45. a4 Kf6 46. a5
+Ke5 47. Ke3 f4+ 48. Kd3 Bxh3 49. a6 Bf1+ 50. Kc3 Bxa6 51. Ra3 Bf1 52. Ra7 Kf6
+53. Rd7 g5 54. Rxd5 Kg6 55. Kd2 g4 56. Ke1 Bg2 57. Rd6+ f6 58. Kf2 Be4 59. Re6
+g3+ 60. Kg1 Bd5 61. Rd6 Bc4 62. Kg2 Bf7 63. Rd7 Bc4 64. c7 Ba6 65. Kf3 Bb7+ 66.
+Kxf4 g2 67. Nf5 g1=Q 68. Rg7+ Kh5 69. Rxg1 Rxc7 0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.17"]
+[Round "5"]
+[White "Munoz Lozano, Jorge Manuel"]
+[Black "Atul, Kumar"]
+[Result "0-1"]
+[ECO "B20"]
+[WhiteElo "1759"]
+[BlackElo "1907"]
+[PlyCount "66"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. g3 g6 2. Bg2 Bg7 3. d3 c5 4. e4 Nc6 5. Nh3 Nf6 6. O-O O-O 7. f4 d6 8. Nd2
+Rb8 9. Nf2 Bd7 10. a4 a6 11. Nc4 b5 12. Ne3 Ne8 13. g4 Nc7 14. g5 f6 15. f5
+fxg5 16. fxg6 hxg6 17. c3 Ne6 18. Nd5 Nf4 19. Nxf4 gxf4 20. Nh3 e5 21. Qf3 Qh4
+22. Bd2 Bg4 23. Qf2 Qh5 24. axb5 axb5 25. Nxf4 exf4 26. e5 Nxe5 27. Bd5+ Kh8
+28. Qe1 Bf3 29. Rxf3 Nxf3+ 30. Bxf3 Qxf3 31. Qh4+ Qh5 32. Qe7 f3 33. Rf1 Qg4+
+0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.18"]
+[Round "6"]
+[White "Atul, Kumar"]
+[Black "Arribas Alvarez, Marti"]
+[Result "1-0"]
+[ECO "C02"]
+[WhiteElo "1907"]
+[BlackElo "1781"]
+[PlyCount "57"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Bd7 6. Be3 cxd4 7. cxd4 Qb6 8. Qd2
+Nge7 9. Nc3 Nf5 10. Be2 Rc8 11. O-O Bb4 12. Rfc1 Na5 13. Bd3 Nc4 14. Qe2 Nfxe3
+15. fxe3 Nxb2 16. Nxd5 Rxc1+ 17. Rxc1 exd5 18. Qxb2 Ba5 19. Qa3 Qh6 20. Kf2 Bb6
+21. Qb4 Bc6 22. a4 Bd8 23. Bb5 Kd7 24. e6+ fxe6 25. Ne5+ Ke8 26. Rxc6 Rf8+ 27.
+Ke2 Qh5+ 28. Kd2 Rf2+ 29. Kc3 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.19"]
+[Round "7"]
+[White "Khudov, Oleksandr"]
+[Black "Atul, Kumar"]
+[Result "0-1"]
+[ECO "A04"]
+[WhiteElo "1823"]
+[BlackElo "1907"]
+[PlyCount "86"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 g6 2. Nc3 Bg7 3. Nf3 b6 4. g3 Bb7 5. Bg2 e5 6. d3 Ne7 7. O-O O-O 8. Rb1
+c5 9. a3 Nbc6 10. b4 cxb4 11. axb4 Nd4 12. e3 Ne6 13. Bb2 d6 14. Qb3 Kh8 15.
+Nd2 Bxg2 16. Kxg2 f5 17. Nd5 Qd7 18. Rfe1 g5 19. Ra1 Qb7 20. e4 f4 21. g4 f3+
+22. Nxf3 Nc6 23. Qd1 Rf7 24. Nd2 Raf8 25. f3 Nf4+ 26. Nxf4 Rxf4 27. Qa4 Qc8 28.
+Rf1 R8f7 29. h3 h5 30. Kg3 Nd4 31. Bxd4 exd4 32. Qb5 Be5 33. Kf2 hxg4 34. hxg4
+Qxg4 35. Ke2 Qg2+ 36. Rf2 Qh3 37. Raf1 g4 38. fxg4 Rxf2+ 39. Rxf2 Qe3+ 40. Kd1
+Qxf2 41. Qe8+ Kg7 42. c5 bxc5 43. bxc5 Bf4 0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.20"]
+[Round "8"]
+[White "Atul, Kumar"]
+[Black "Pena Mor, David"]
+[Result "0-1"]
+[ECO "C90"]
+[WhiteElo "1907"]
+[BlackElo "1764"]
+[PlyCount "76"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. d3 b5 6. Bb3 Be7 7. O-O d6 8. h3
+Na5 9. Re1 Nxb3 10. axb3 O-O 11. Nc3 Bb7 12. Ne2 Re8 13. Ng3 Bf8 14. c4 c6 15.
+Bd2 a5 16. Qc2 b4 17. Ra2 Nd7 18. Rea1 d5 19. Bg5 f6 20. Be3 d4 21. Bd2 Nc5 22.
+Rf1 a4 23. Bxb4 axb3 24. Rxa8 Qxa8 25. Qe2 Ne6 26. Bd2 Qa2 27. Bc1 Ra8 28. Qd1
+Nc5 29. Ne1 Qb1 30. Ne2 Ra2 31. Qd2 Na4 32. Qa5 Nxb2 33. Qb6 Nxd3 34. Nxd3 Qxd3
+35. Qxb7 Qxe2 36. Qxc6 b2 37. Qe6+ Kh8 38. Qf7 Qxf1+ 0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.21"]
+[Round "9"]
+[White "Pera Muntasell, Marc"]
+[Black "Atul, Kumar"]
+[Result "0-1"]
+[ECO "B08"]
+[WhiteElo "1800"]
+[BlackElo "1907"]
+[PlyCount "80"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Nf3 Nf6 5. h3 c6 6. a4 O-O 7. Be3 Qc7 8. Bd3 e5
+9. dxe5 dxe5 10. O-O Be6 11. Ng5 Re8 12. Qe2 Nbd7 13. Rfd1 a5 14. Nxe6 Rxe6 15.
+Bc4 Rd6 16. Rd2 Rxd2 17. Qxd2 Bf8 18. Rd1 Nc5 19. f3 b6 20. Kh2 Be7 21. Qf2 Rd8
+22. b3 Kg7 23. Rf1 Nh5 24. g3 g5 25. Ne2 h6 26. g4 Nf6 27. Ng3 Bf8 28. Nf5+ Kg8
+29. h4 Ncxe4 30. Qg1 Nd2 31. Bxf7+ Kxf7 32. Rf2 e4+ 33. Kh1 Nxf3 34. Qf1 Nxg4
+35. Qc4+ Rd5 36. Nxh6+ Bxh6 37. Rxf3+ exf3 38. Qxg4 Rd1+ 39. Bg1 Qf4 40. Qd7+
+Rxd7 0-1

@@ -1,0 +1,142 @@
+[Event "EU-ch Seniors 50 17h"]
+[Site "Sabadell"]
+[Date "2017.08.14"]
+[Round "3"]
+[White "Elissalt Cardenas, Hector"]
+[Black "Rorvik, Jon Fredrik"]
+[Result "1-0"]
+[ECO "A28"]
+[WhiteElo "2360"]
+[BlackElo "2159"]
+[PlyCount "89"]
+[EventDate "2017.08.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. e4 d6 5. h3 Be7 6. d3 Nd4 7. Nxd4 exd4 8. Ne2
+c5 9. g3 O-O 10. Bg2 Rb8 11. O-O Ne8 12. Nf4 Nc7 13. h4 f5 14. Re1 Bf6 15. Bd2
+Be5 16. Nh5 fxe4 17. Bxe4 Be6 18. f4 Bf6 19. f5 Bd7 20. Bf4 Be5 21. Bxe5 dxe5
+22. Rf1 Bc6 23. Qg4 Qd7 24. Rae1 Ne8 25. Bxc6 bxc6 26. Rxe5 Nf6 27. Nxf6+ Rxf6
+28. b3 Rbf8 29. Qe4 g6 30. g4 gxf5 31. Rfxf5 Rxf5 32. Rxf5 Re8 33. Qf4 Qe6 34.
+Qg5+ Kh8 35. Qf6+ Qxf6 36. Rxf6 Re3 37. Rxc6 Rxd3 38. Rxc5 Rd1+ 39. Kf2 Rd2+
+40. Kf3 Rxa2 41. Ke4 Rg2 42. Rg5 h6 43. Rg6 Kh7 44. h5 Rb2 45. Ra6 1-0
+
+[Event "EU-ch Seniors 50 17h"]
+[Site "Sabadell"]
+[Date "2017.08.15"]
+[Round "4"]
+[White "Rorvik, Jon Fredrik"]
+[Black "Canal Oliveras, Joan"]
+[Result "1/2-1/2"]
+[ECO "A21"]
+[WhiteElo "2159"]
+[BlackElo "2205"]
+[PlyCount "29"]
+[EventDate "2017.08.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. c4 f5 2. g3 Nf6 3. Bg2 e5 4. Nc3 d6 5. e3 g6 6. Nge2 Bg7 7. O-O O-O 8. d4 c6
+9. b3 Qc7 10. Ba3 e4 11. Qd2 Re8 12. Rac1 Nbd7 13. Rfe1 Nf8 14. Bb2 Qf7 15. Ba3
+1/2-1/2
+
+[Event "EU-ch Seniors 50 17h"]
+[Site "Sabadell"]
+[Date "2017.08.18"]
+[Round "7"]
+[White "Kiselev, Alexander S"]
+[Black "Rorvik, Jon Fredrik"]
+[Result "0-1"]
+[ECO "C54"]
+[WhiteElo "2178"]
+[BlackElo "2159"]
+[PlyCount "82"]
+[EventDate "2017.08.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. e5 d5 7. Bb5 Ne4 8. cxd4
+Bb4+ 9. Bd2 Bxd2+ 10. Nbxd2 Bd7 11. Qb3 Nxd2 12. Kxd2 Ne7 13. Bxd7+ Qxd7 14.
+Qxb7 O-O 15. Qb3 Rab8 16. Qc3 Qg4 17. b3 Qxg2 18. Ke2 Qg4 19. Rhg1 Qe4+ 20. Kf1
+Ng6 21. Re1 Qf4 22. Rg3 f6 23. Qxc7 fxe5 24. dxe5 Rbc8 25. Qxa7 Rc3 26. Ng1
+Rxg3 27. hxg3 Qxg3 28. Qe3 Qg4 29. Qh3 Qf4 30. Qe3 Qg4 31. Qh3 Qf4 32. Qg2 Nxe5
+33. Qxd5+ Kh8 34. Nh3 Qf5 35. Rxe5 Qxh3+ 36. Qg2 Qd3+ 37. Kg1 Qb1+ 38. Kh2 Qxa2
+39. Re7 Qxf2 40. Rxg7 Qh4+ 41. Kg1 Qd4+ 0-1
+
+[Event "EU-ch Seniors 50 17h"]
+[Site "Sabadell"]
+[Date "2017.08.19"]
+[Round "8"]
+[White "Rorvik, Jon Fredrik"]
+[Black "Tunik, Gennady"]
+[Result "0-1"]
+[ECO "A29"]
+[WhiteElo "2159"]
+[BlackElo "2388"]
+[PlyCount "76"]
+[EventDate "2017.08.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. c4 Nf6 2. g3 e5 3. Bg2 d5 4. cxd5 Nxd5 5. Nc3 Nb6 6. Nf3 Nc6 7. O-O Be7 8.
+d3 O-O 9. Be3 Kh8 10. Rc1 f6 11. Na4 Nd5 12. Bc5 b6 13. Bxe7 Ncxe7 14. a3 c5
+15. b4 cxb4 16. axb4 Bb7 17. Qb3 Qd7 18. d4 e4 19. Nd2 f5 20. b5 Nc7 21. Nc3
+Qxd4 22. Rfd1 Qf6 23. Nc4 Ned5 24. e3 Nxc3 25. Rxc3 Nxb5 26. Rcc1 a6 27. Bf1
+Rac8 28. Qb4 h6 29. Rd7 Bc6 30. Rdd1 Ba8 31. Ra1 Bb7 32. Rab1 Rfd8 33. Rbc1 Qe6
+34. Qb2 Kh7 35. Rxd8 Rxd8 36. Ne5 Rd5 37. Nc4 Rc5 38. Rd1 Bd5 0-1
+
+[Event "EU-ch Seniors 50 17h"]
+[Site "Sabadell"]
+[Date "2017.08.20"]
+[Round "9"]
+[White "Marino Bravo, Miguel Angel"]
+[Black "Rorvik, Jon Fredrik"]
+[Result "1/2-1/2"]
+[ECO "D02"]
+[WhiteElo "2158"]
+[BlackElo "2159"]
+[PlyCount "58"]
+[EventDate "2017.08.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Nf3 e6 3. Bf4 Nf6 4. e3 Bd6 5. Ne5 O-O 6. Nd2 Ne4 7. Nxe4 dxe4 8.
+c3 Nd7 9. Qc2 f5 10. Nc4 Nb6 11. Qb3 Nxc4 12. Bxc4 Qe7 13. O-O Kh8 14. f3 exf3
+15. Rxf3 e5 16. dxe5 Bxe5 17. Bxe5 Qxe5 18. Raf1 c6 19. Bd3 Re8 20. e4 Be6 21.
+Qc2 fxe4 22. Bxe4 Bc4 23. Bd3 Qc5+ 24. Kh1 Bxd3 25. Qxd3 Rad8 26. Qc2 Rf8 27.
+h3 h6 28. Rf7 Rxf7 29. Rxf7 Rf8 1/2-1/2

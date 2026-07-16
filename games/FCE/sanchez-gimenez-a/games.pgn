@@ -1,0 +1,105 @@
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2001.09.01"]
+[Round "1"]
+[White "Negreiro Pozo, B."]
+[Black "Sanchez Gimenez, A."]
+[Result "1-0"]
+[ECO "B07"]
+[WhiteElo "2100"]
+[BlackElo "1700"]
+[Annotator "CET"]
+[PlyCount "53"]
+[EventDate "2001.??.??"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 b6 4. f4 e6 5. Nf3 Bb7 6. Bd3 Be7 7. O-O O-O 8. Qe2
+Nbd7 9. e5 Nh5 10. Ng5 g6 11. Nxh7 Kxh7 12. Qxh5+ Kg7 13. Qg4 Rh8 14. g3 Rxh2
+15. Kxh2 Qh8+ 16. Kg1 Qh1+ 17. Kf2 Qg2+ 18. Ke1 Bh4 19. Qxh4 Rh8 20. Qg4 Nf8
+21. Be3 a6 22. Rd1 b5 23. Rd2 Qc6 24. f5 Qe8 25. fxg6 fxg6 26. Rdf2 Rg8 27.
+Bh6+ 1-0
+
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2001.09.02"]
+[Round "2"]
+[White "Sanchez Gimenez, A."]
+[Black "Garcia Segura, JA."]
+[Result "1-0"]
+[ECO "C50"]
+[WhiteElo "1700"]
+[BlackElo "1755"]
+[Annotator "CET"]
+[PlyCount "93"]
+[EventDate "2001.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d3 Nf6 5. Bg5 h6 6. Bh4 d6 7. a3 Be6 8. Nc3
+Qd7 9. Nd5 Bxd5 10. Bxf6 Bxc4 11. Bxg7 Rg8 12. Bxh6 Rxg2 13. Be3 Bxe3 14. fxe3
+Ba6 15. h3 O-O-O 16. Nh4 Rg3 17. Nf5 Rg6 18. Qe2 Ne7 19. Rf1 Rdg8 20. O-O-O
+Nxf5 21. Rxf5 f6 22. Rdf1 Rf8 23. h4 d5 24. exd5 Qxd5 25. Kb1 Rg2 26. Qd1 Rxc2
+27. Kxc2 Bxd3+ 28. Qxd3 Qc5+ 29. Qc3 Qd5 30. h5 Qg2+ 31. Kb1 Qe4+ 32. Ka1 Qg2
+33. Qc4 Qg7 34. Qe6+ Kb8 35. Rxf6 Rh8 36. h6 Qxf6 37. Rxf6 b6 38. Qxe5 Kb7 39.
+Rxb6+ axb6 40. Qxh8 c6 41. Qg7+ Ka6 42. h7 b5 43. Qf6 Kb6 44. h8=Q Ka5 45. Qa8+
+Kb6 46. Qd4+ c5 47. Qd6# 1-0
+
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2001.09.08"]
+[Round "3"]
+[White "Ramirez Gonzalez, MA."]
+[Black "Sanchez Gimenez, A."]
+[Result "1-0"]
+[ECO "B32"]
+[WhiteElo "1975"]
+[BlackElo "1700"]
+[Annotator "CET"]
+[PlyCount "87"]
+[EventDate "2001.??.??"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 e6 4. Bf4 Nf6 5. e5 Nd5 6. Bg5 Qb6 7. c4 Nde7 8. Nc3
+cxd4 9. Nb5 Nf5 10. Bd3 Bb4+ 11. Kf1 Nfe7 12. a3 Bc5 13. b4 Nxb4 14. axb4 Bxb4
+15. Qb3 Bc5 16. Bxe7 Kxe7 17. Qb2 Rb8 18. Rxa7 d6 19. exd6+ Bxd6 20. Ra2 Bd7
+21. Nxd6 Qxd6 22. Qxd4 Qxd4 23. Nxd4 g6 24. Ke2 Rhd8 25. Rb1 e5 26. Nf3 f6 27.
+Be4 Be6 28. Nd2 Rd7 29. Ra7 f5 30. Rbxb7 fxe4 31. Rxd7+ Bxd7 32. Nxe4 Rd8 33.
+Nc5 Kd6 34. Rxd7+ Rxd7 35. Nxd7 Kxd7 36. Ke3 Kc6 37. Ke4 Kc5 38. Kxe5 Kxc4 39.
+g4 Kc5 40. f4 Kc6 41. f5 gxf5 42. gxf5 Kd7 43. Kf6 Ke8 44. Kg7 1-0
+
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2001.09.09"]
+[Round "4"]
+[White "Sanchez Gimenez, A."]
+[Black "Martinez Lopez, JM."]
+[Result "1-0"]
+[ECO "C54"]
+[WhiteElo "1700"]
+[BlackElo "1750"]
+[Annotator "CET"]
+[PlyCount "35"]
+[EventDate "2001.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 h6 6. O-O d6 7. a4 a5 8. Na3 O-O
+9. Nc2 Bg4 10. Ne3 Bh5 11. Qe2 Kh8 12. Bd2 Nh7 13. Nf5 Bxf3 14. Qxf3 Ng5 15.
+Qg3 g6 16. Nxh6 Ne6 17. Nxf7+ Rxf7 18. Bxe6 1-0
+
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2001.09.15"]
+[Round "5"]
+[White "Reverte Garcia, J."]
+[Black "Sanchez Gimenez, A."]
+[Result "1-0"]
+[ECO "C41"]
+[WhiteElo "2100"]
+[BlackElo "1700"]
+[Annotator "CET"]
+[PlyCount "103"]
+[EventDate "2001.??.??"]
+
+1. e4 e5 2. Nf3 d6 3. d4 Nc6 4. dxe5 Nxe5 5. Nxe5 dxe5 6. Qxd8+ Kxd8 7. Nc3 Be6
+8. Bg5+ f6 9. O-O-O+ Ke8 10. Be3 a6 11. Nd5 Bd6 12. c4 Bxd5 13. cxd5 Ne7 14.
+Bd3 Ng6 15. g3 Rc8 16. h4 Nf8 17. h5 Kf7 18. Kb1 Nd7 19. Rc1 Ra8 20. Be2 b5 21.
+Bg4 Ke7 22. Rc6 Nb6 23. Bxb6 cxb6 24. Rxb6 Rhb8 25. Rxb8 Rxb8 26. Rc1 a5 27.
+Rc6 h6 28. Bd1 Kd7 29. Bg4+ Ke7 30. Kc2 a4 31. Kd3 Rb7 32. Rc8 f5 33. Bxf5 Kf6
+34. Rc6 Ke7 35. Bg4 a3 36. b3 b4 37. Bc8 Rb5 38. Ba6 Rc5 39. Rxc5 Bxc5 40. f4
+Kd6 41. Kc4 Bf2 42. Kxb4 Bxg3 43. f5 Bh4 44. Kxa3 Kc5 45. Bd3 Kd4 46. Bb1 Kc3
+47. Ka4 Kb2 48. Kb5 Kxb1 49. a4 Kb2 50. a5 Kxb3 51. a6 Bf2 52. d6 1-0

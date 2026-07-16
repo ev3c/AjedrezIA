@@ -1,0 +1,642 @@
+[Event "Ciutat de Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "1"]
+[White "De la Riva Aguado, O."]
+[Black "Arias Velasco, J."]
+[Result "1-0"]
+[ECO "B05"]
+[WhiteElo "2490"]
+[BlackElo "2025"]
+[PlyCount "39"]
+[EventDate "1996.??.??"]
+[EventType "rapid"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. Nf3 Bg4 5. Be2 e6 6. O-O Be7 7. c4 Nb6 8. Nc3
+Nc6 9. exd6 cxd6 10. d5 exd5 11. cxd5 Bxf3 12. Bxf3 Ne5 13. Be2 O-O 14. a4 Nbd7
+15. Be3 a6 16. Qb3 b6 17. Rac1 Nc5 18. Qd1 Bg5 19. Bxg5 Qxg5 20. f4 1-0
+
+[Event "Ciutat de Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "3"]
+[White "Djuric, S."]
+[Black "Arias Velasco, J."]
+[Result "1-0"]
+[ECO "B03"]
+[WhiteElo "2560"]
+[BlackElo "2050"]
+[PlyCount "35"]
+[EventDate "1996.??.??"]
+[EventType "rapid"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. Bc4 Nb6 5. Bb3 dxe5 6. Qh5 g6 7. Qxe5 Rg8 8.
+Nf3 Nc6 9. Qf4 Nd5 10. Bxd5 Qxd5 11. Nc3 Qd6 12. O-O a6 13. d5 Nd8 14. Qe3 Bg7
+15. Re1 Bxc3 16. bxc3 e6 17. c4 b6 18. Ba3 1-0
+
+[Event "Ct. Barcelona Gent Gran"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "1"]
+[White "Soler Mas, X."]
+[Black "Arias Velasco, J."]
+[Result "1/2-1/2"]
+[ECO "B07"]
+[PlyCount "77"]
+[EventDate "1996.??.??"]
+
+1. e4 Nf6 2. Nc3 d6 3. d4 g6 4. Bd3 Bg7 5. h3 O-O 6. Be3 e5 7. Nce2 Qe7 8. c3
+exd4 9. Bxd4 Nxe4 10. Bxg7 Kxg7 11. Bxe4 Qxe4 12. Qd4+ Qxd4 13. Nxd4 Re8+ 14.
+Kd2 a6 15. Ngf3 Nc6 16. Nxc6 bxc6 17. Rhe1 Bd7 18. Rxe8 Rxe8 19. Re1 Rxe1 20.
+Nxe1 c5 21. h4 f5 22. g3 Kf6 23. Ke3 Be6 24. a3 Bc4 25. Nf3 a5 26. Nd2 Bf7 27.
+f4 h6 28. Nf3 Bd5 29. Nd2 g5 30. hxg5+ hxg5 31. c4 Bb7 32. Nf3 Bxf3 33. Kxf3
+g4+ 34. Ke3 Ke6 35. b3 c6 36. Kd3 d5 37. Kc3 d4+ 38. Kd3 Kd6 39. a4 1/2-1/2
+
+[Event "Ct. Barcelona Gent Gran"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "2"]
+[White "Arias Velasco, J."]
+[Black "Vazquez Chaves, S."]
+[Result "0-1"]
+[ECO "B22"]
+[BlackElo "1965"]
+[PlyCount "60"]
+[EventDate "1996.??.??"]
+
+1. e4 c5 2. c3 e5 3. Bc4 Nc6 4. Nf3 Qc7 5. O-O Be7 6. d4 cxd4 7. cxd4 exd4 8.
+Nxd4 Nxd4 9. Qxd4 Nf6 10. e5 Bc5 11. Qc3 Ne4 12. Qf3 Bxf2+ 13. Rxf2 Qxc4 14.
+Na3 Qd5 15. Bf4 O-O 16. Re2 Qd4+ 17. Kh1 f5 18. exf6 Nxf6 19. Nb5 Qd5 20. Qxd5+
+Nxd5 21. Bd6 Rd8 22. Rd1 a6 23. Rxd5 axb5 24. a3 b6 25. Rxb5 Ba6 26. Rbe5 Bxe2
+27. Rxe2 Re8 28. Rxe8+ Rxe8 29. Kg1 Re2 30. b4 b5 0-1
+
+[Event "Ct. Barcelona Gent Gran"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "3"]
+[White "Felipo Pages, D."]
+[Black "Arias Velasco, J."]
+[Result "1-0"]
+[ECO "A85"]
+[WhiteElo "1875"]
+[PlyCount "63"]
+[EventDate "1996.??.??"]
+
+1. c4 f5 2. d4 e6 3. Nc3 Nf6 4. Nf3 Be7 5. g3 O-O 6. Bg2 d5 7. cxd5 exd5 8. O-O
+c6 9. Bf4 Nbd7 10. Qc2 Ne4 11. Rad1 Qe8 12. a3 Qh5 13. h4 h6 14. Ne5 g5 15. Bf3
+Qe8 16. hxg5 hxg5 17. Bc1 Nxe5 18. dxe5 Qg6 19. e3 Kg7 20. Kg2 g4 21. Bxe4 fxe4
+22. Ne2 Rh8 23. Nf4 Qf5 24. b4 Be6 25. Bb2 Rh6 26. Rh1 Rah8 27. Rxh6 Rxh6 28.
+Rh1 Rxh1 29. Kxh1 Bd8 30. Kg2 Kg8 31. Qc5 a6 32. Qd6 1-0
+
+[Event "Ct. Barcelona Gent Gran"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "4"]
+[White "Arias Velasco, J."]
+[Black "Garcia Baeza, M."]
+[Result "1-0"]
+[ECO "C02"]
+[BlackElo "1840"]
+[PlyCount "89"]
+[EventDate "1996.??.??"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. f4 cxd4 5. Bd3 Nc6 6. Nf3 Nge7 7. O-O g6 8. a3 a6
+9. b4 b5 10. Nbd2 Bb7 11. Nb3 Nc8 12. Nfxd4 Nb6 13. Nxc6 Bxc6 14. Na5 Rc8 15.
+Be3 Ba8 16. Bd4 Be7 17. Nb3 O-O 18. Nc5 Bxc5 19. Bxc5 Re8 20. Qg4 Nc4 21. Bd4
+Bc6 22. Rf3 Bd7 23. Rh3 Qe7 24. Bc5 Rxc5 25. bxc5 Qxc5+ 26. Kh1 Ne3 27. Qh4 h5
+28. Qg5 Ng4 29. Rf3 Kh7 30. Qxh5+ Nh6 31. Rg3 Rg8 32. Rh3 Qf8 33. Qf3 Rh8 34.
+Qe3 Kg7 35. Rg3 Qa8 36. Qd4 Kh7 37. Rh3 Kg7 38. Rf1 Nf5 39. Bxf5 gxf5 40. Rff3
+Rxh3 41. Rxh3 Qc6 42. Rc3 Qa8 43. Qc5 b4 44. Rg3+ Kh7 45. Qe7 1-0
+
+[Event "Ct. Barcelona Gent Gran"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "5"]
+[White "Paredes Rubio, N."]
+[Black "Arias Velasco, J."]
+[Result "1-0"]
+[ECO "B02"]
+[WhiteElo "1910"]
+[PlyCount "47"]
+[EventDate "1996.??.??"]
+
+1. e4 Nf6 2. Nc3 d6 3. Bc4 g6 4. Nf3 Bg7 5. h3 c5 6. d3 O-O 7. Be3 Nc6 8. a3 a6
+9. Ne2 b5 10. Ba2 Bb7 11. Ng3 h6 12. Qd2 Kh7 13. c3 Rc8 14. h4 Ng4 15. h5 Nxe3
+16. hxg6+ fxg6 17. Ng5+ Kh8 18. Qxe3 Ne5 19. Ne6 Ng4 20. Qd2 Qe8 21. Nxf8 Qxf8
+22. f3 Ne5 23. f4 Ng4 24. Be6 1-0
+
+[Event "Ct. Barcelona Gent Gran"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "6"]
+[White "Arias Velasco, J."]
+[Black "Torra Badia, J."]
+[Result "1-0"]
+[ECO "C68"]
+[BlackElo "1800"]
+[PlyCount "110"]
+[EventDate "1996.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 bxc6 5. d4 exd4 6. Qxd4 c5 7. Qa4 Nf6 8.
+O-O Be7 9. Nc3 Bb7 10. e5 Bc6 11. exf6 Bxa4 12. fxe7 Kxe7 13. Nxa4 d6 14. Bf4
+Qd7 15. Nc3 Qf5 16. Rfe1+ Kd7 17. Be3 Qxc2 18. Rad1 Qxb2 19. Na4 Qb5 20. Nxc5+
+Kc8 21. Rb1 Qc6 22. Nb3 Re8 23. Rbc1 Qa4 24. Rc2 Re7 25. Rec1 Rb8 26. Nfd4 Rd7
+27. h3 Rb4 28. Nf5 g6 29. Nxd6+ Rxd6 30. Rxc7+ Kd8 31. Rc8+ Kd7 32. Nc5+ Kxc8
+33. Nxa4+ Kd7 34. Nc3 Rc4 35. Kh2 Rdc6 36. Ne2 Rxc1 37. Nxc1 Rc2 38. Kg3 Kc6
+39. Kf4 a5 40. Ke4 f5+ 41. Kd3 Rb2 42. Kc3 Rb5 43. Nb3 Rb8 44. Nd4+ Kd5 45. Nf3
+Ke4 46. Ng5+ Kd5 47. Nxh7 Rb1 48. Nf8 Rg1 49. Nxg6 Ke4 50. Nf4 Rb1 51. h4 Ra1
+52. Kb3 Rb1+ 53. Ka4 Ra1 54. a3 Ke5 55. h5 Kf6 1-0
+
+[Event "Ct. Barcelona Gent Gran"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "7"]
+[White "Cornudella, J."]
+[Black "Arias Velasco, J."]
+[Result "0-1"]
+[ECO "B02"]
+[PlyCount "66"]
+[EventDate "1996.??.??"]
+
+1. e4 Nf6 2. Nc3 d5 3. e5 d4 4. Nce2 Ng4 5. f4 Nc6 6. Nf3 g6 7. h3 Nh6 8. Ng3
+Bg7 9. Bd3 Nb4 10. Bb5+ c6 11. Ba4 d3 12. c3 Nd5 13. O-O Nxf4 14. Qe1 O-O 15.
+Nd4 Ne6 16. Qe3 Qd5 17. Re1 Nxd4 18. cxd4 Rd8 19. Qxd3 Qxd4+ 20. Qxd4 Rxd4 21.
+Bb3 a5 22. e6 f5 23. Ne2 a4 24. Bc2 Rd6 25. Nf4 g5 26. Nh5 Bd4+ 27. Kh1 Rxe6
+28. Rxe6 Bxe6 29. d3 Nf7 30. Bd2 Bxb2 31. Rb1 a3 32. Bb4 Nd6 33. Re1 Kf7 0-1
+
+[Event "Ct. Barcelona Gent Gran"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "8"]
+[White "Arias Velasco, J."]
+[Black "Demestres Lopez, R."]
+[Result "1-0"]
+[ECO "B22"]
+[PlyCount "47"]
+[EventDate "1996.??.??"]
+
+1. e4 c5 2. c3 Nc6 3. d4 e6 4. d5 exd5 5. exd5 Nb8 6. Nf3 d6 7. Bf4 Qe7+ 8. Be2
+Nf6 9. O-O Nh5 10. Bb5+ Kd8 11. Re1 Nxf4 12. Rxe7 Bxe7 13. Qd2 Ng6 14. Ng5 Ne5
+15. Na3 a6 16. Nc4 axb5 17. Nxe5 dxe5 18. Nxf7+ Ke8 19. Nxh8 Nd7 20. d6 Bf6 21.
+Qd5 Ra6 22. Qg8+ Nf8 23. Qf7+ Kd8 24. Qc7+ 1-0
+
+[Event "Ct. Barcelona Gent Gran"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "9"]
+[White "Saumell Farres, J."]
+[Black "Arias Velasco, J."]
+[Result "0-1"]
+[ECO "D00"]
+[WhiteElo "1800"]
+[PlyCount "53"]
+[EventDate "1996.??.??"]
+
+1. d4 d5 2. e3 Bf5 3. c3 e6 4. Nf3 c5 5. Bd3 Bxd3 6. Qxd3 Nc6 7. Nbd2 Nf6 8.
+O-O c4 9. Qc2 b5 10. b4 a5 11. bxa5 Rxa5 12. e4 dxe4 13. Nxe4 Nxe4 14. Qxe4 Qd5
+15. Qf4 Be7 16. Bd2 O-O 17. Rfe1 Rfa8 18. Ne5 Nxe5 19. Rxe5 Bd6 20. Rae1 Rxa2
+21. Bc1 Bxe5 22. Rxe5 Qd6 23. Qe3 Ra1 24. f4 Qa3 25. Rxe6 Qxc1+ 26. Qxc1 Rxc1+
+27. Kf2 0-1
+
+[Event "Ct. Catalunya B"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "2"]
+[White "Arias Velasco, J."]
+[Black "Daimiel Bescos, E."]
+[Result "1-0"]
+[ECO "C68"]
+[WhiteElo "2025"]
+[BlackElo "1990"]
+[PlyCount "92"]
+[EventDate "1996.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. O-O Bg4 6. h3 h5 7. d3 Qf6 8.
+Nbd2 Bc5 9. c3 Ne7 10. Nb3 Bb6 11. d4 Bxf3 12. Qxf3 Qxf3 13. gxf3 exd4 14. Nxd4
+O-O-O 15. Be3 f6 16. Kh2 g5 17. h4 Rhg8 18. Rg1 Ng6 19. hxg5 Ne5 20. gxf6 Bxd4
+21. Rxg8 Nxf3+ 22. Kg3 Rxg8+ 23. Kxf3 Bxf6 24. Rh1 h4 25. Rh2 Rg1 26. Kf4 Kd7
+27. Kf5 Be7 28. f4 Rb1 29. Bd4 Rf1 30. c4 c5 31. Bc3 b5 32. e5 b4 33. e6+ Ke8
+34. Be5 c6 35. Rg2 Kf8 36. Rg7 Rd1 37. Rh7 Ke8 38. Bf6 Bf8 39. e7 Bxe7 40.
+Rxe7+ Kf8 41. Rh7 a5 42. Rxh4 a4 43. Ke6 Re1+ 44. Be5 Rg1 45. Rh8+ Rg8 46.
+Rxg8+ Kxg8 1-0
+
+[Event "Ct. Catalunya B"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "3"]
+[White "Sabanes Taure, V."]
+[Black "Arias Velasco, J."]
+[Result "1/2-1/2"]
+[ECO "D21"]
+[WhiteElo "2025"]
+[BlackElo "2025"]
+[PlyCount "66"]
+[EventDate "1996.??.??"]
+
+1. d4 d5 2. c4 dxc4 3. Nf3 a6 4. a4 Nf6 5. e3 Bg4 6. Bxc4 e6 7. h3 Bh5 8. O-O
+Nc6 9. Bd2 Be7 10. Bc3 Nd5 11. Nbd2 O-O 12. Ne4 Ndb4 13. Ng3 Bg6 14. e4 Na5 15.
+Qe2 Nxc4 16. Qxc4 a5 17. Ne5 Qd6 18. Rfd1 f6 19. Nxg6 hxg6 20. Ne2 Qc6 21. Qxc6
+Nxc6 22. d5 exd5 23. exd5 Nb4 24. Rac1 Bd6 25. Bxb4 axb4 26. b3 Ra5 27. Rc4 Re8
+28. Nf4 Re5 29. g3 g5 30. Ne6 Raxd5 31. Rxd5 Rxd5 32. Nxc7 Rd3 33. Nb5 Bf8
+1/2-1/2
+
+[Event "Ct. Catalunya B"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "4"]
+[White "Trias Fernandez, R."]
+[Black "Arias Velasco, J."]
+[Result "1-0"]
+[ECO "B05"]
+[WhiteElo "2030"]
+[BlackElo "2025"]
+[PlyCount "71"]
+[EventDate "1996.??.??"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. Nf3 Bg4 5. Be2 e6 6. O-O Be7 7. c4 Nb6 8. exd6
+cxd6 9. Be3 Nc6 10. Nbd2 d5 11. b3 O-O 12. c5 Nd7 13. b4 e5 14. dxe5 Ncxe5 15.
+Nxe5 Bxe2 16. Qxe2 Nxe5 17. Bf4 Ng6 18. Bg3 Qd7 19. Rab1 f5 20. f4 a5 21. a3
+axb4 22. axb4 Ra2 23. Qd3 Bf6 24. Nc4 Re8 25. Nd6 Ree2 26. Qxd5+ Kf8 27. Rf2
+Rad2 28. Qxd2 Rxd2 29. Rxd2 Ne7 30. Ra2 Nc6 31. Ra8+ Nd8 32. Re1 g6 33. h3 Kg7
+34. Ne8+ Kf7 35. Nxf6 Kxf6 36. Bh4+ 1-0
+
+[Event "Ct. Catalunya B"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "6"]
+[White "Arias Velasco, J."]
+[Black "Moranta Miro, A."]
+[Result "1-0"]
+[ECO "B20"]
+[WhiteElo "2025"]
+[BlackElo "2030"]
+[PlyCount "139"]
+[EventDate "1996.??.??"]
+
+1. e4 c5 2. g3 Nc6 3. Bg2 g6 4. c3 Bg7 5. Ne2 e5 6. O-O Nge7 7. d3 O-O 8. Be3
+d6 9. Na3 Be6 10. Qd2 a6 11. Bh6 d5 12. Bxg7 Kxg7 13. Rfd1 Qc7 14. f4 dxe4 15.
+dxe4 Rad8 16. Qe3 Bg4 17. Bf3 Bxf3 18. Qxf3 f5 19. Nc4 b5 20. Ne3 fxe4 21. Qxe4
+h5 22. Kg2 Kh7 23. Nc2 Nf5 24. Ne3 Nxe3+ 25. Qxe3 Qe7 26. Qe4 Qc7 27. fxe5 Qxe5
+28. Qxe5 Nxe5 29. Nf4 Rfe8 30. Nd5 Ng4 31. Kg1 Kh6 32. h3 Ne5 33. Nc7 Rxd1+ 34.
+Rxd1 Rf8 35. Rd5 Nc4 36. b3 Ne3 37. Rd2 Nf1 38. Rf2 Rc8 39. Rxf1 Rxc7 40. Rf6
+a5 41. Ra6 b4 42. c4 Kg5 43. Kf2 Kf5 44. Kf3 g5 45. g4+ hxg4+ 46. hxg4+ Ke5 47.
+Ke3 Rh7 48. Rxa5 Rh3+ 49. Kf2 Kd4 50. Ra8 Rh2+ 51. Kf3 Rh3+ 52. Kg2 Rc3 53.
+Rd8+ Ke5 54. Rd5+ Kf4 55. Rxc5 Kxg4 56. Kf2 Rc2+ 57. Ke3 Rxa2 58. Rb5 Rc2 59.
+Rxb4 Kh3 60. Rb8 g4 61. Rh8+ Kg2 62. Kd3 Rf2 63. c5 g3 64. c6 Rf7 65. Kd4 Rg7
+66. Ra8 Kf3 67. Ra2 Rh7 68. b4 Rh2 69. Ra3+ Kf4 70. Rxg3 1-0
+
+[Event "Ct. Catalunya B"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "7"]
+[White "Jerez Perez, A."]
+[Black "Arias Velasco, J."]
+[Result "0-1"]
+[ECO "B02"]
+[WhiteElo "2025"]
+[BlackElo "2025"]
+[PlyCount "44"]
+[EventDate "1996.??.??"]
+
+1. e4 Nf6 2. e5 Nd5 3. c4 Nb6 4. c5 Nd5 5. Bc4 e6 6. Nc3 Nxc3 7. bxc3 d6 8. Qg4
+dxe5 9. Nf3 f5 10. Qg3 e4 11. Nd4 Qe7 12. d3 e5 13. Bg5 f4 14. Qh4 Qxc5 15. Nb3
+Qd6 16. dxe4 Qg6 17. O-O-O Ba3+ 18. Kb1 Nc6 19. Bd5 Be6 20. Bxe6 Qxe4+ 21. Ka1
+Qc2 22. Rd2 Bb2# 0-1
+
+[Event "Ct. Catalunya B"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "8"]
+[White "Arias Velasco, J."]
+[Black "Serra Fontova, F."]
+[Result "1-0"]
+[ECO "B20"]
+[WhiteElo "2025"]
+[BlackElo "1965"]
+[PlyCount "49"]
+[EventDate "1996.??.??"]
+
+1. e4 c5 2. g3 Nc6 3. Bg2 g6 4. c3 Bg7 5. Nf3 e6 6. O-O Nge7 7. d4 cxd4 8. cxd4
+Qb6 9. d5 Ne5 10. Nxe5 Bxe5 11. Nc3 O-O 12. Bh6 Re8 13. Be3 Qxb2 14. Bd4 Bxd4
+15. Qxd4 a6 16. Rab1 Qa3 17. g4 b5 18. Rb3 Qa5 19. e5 Rb8 20. d6 Nd5 21. Bxd5
+exd5 22. Nxd5 Re6 23. Nf6+ Kg7 24. Rh3 h6 25. Qf4 1-0
+
+[Event "Catalunya 75 Aniversari"]
+[Site "Barcelona"]
+[Date "2000.04.18"]
+[Round "3.16"]
+[White "Narciso Dublan, M."]
+[Black "Arias Velasco, J."]
+[Result "1-0"]
+[ECO "A10"]
+[PlyCount "23"]
+[EventDate "2000.??.??"]
+[EventRounds "9"]
+
+1. c4 f5 2. g3 e5 3. d4 e4 4. Nc3 Bb4 5. Bd2 Bxc3 6. Bxc3 d5 7. e3 c6 8. Qa4
+Nd7 9. Ba5 Qf6 10. cxd5 cxd5 11. Rc1 Ne7 12. Bb5 1-0
+
+[Event "Catalunya 75 Aniversari"]
+[Site "Barcelona"]
+[Date "2000.04.20"]
+[Round "5.18"]
+[White "Arias Velasco, J."]
+[Black "Minguell Rosello, X."]
+[Result "0-1"]
+[ECO "E67"]
+[PlyCount "58"]
+[EventDate "2000.??.??"]
+[EventRounds "9"]
+
+1. Nf3 Nf6 2. g3 g6 3. Bg2 Bg7 4. O-O O-O 5. c4 d6 6. Nc3 e5 7. d4 Nbd7 8. e3
+Re8 9. b3 c6 10. dxe5 dxe5 11. Bb2 Qc7 12. Qe2 a5 13. Rad1 Nc5 14. Ba3 Bf8 15.
+Bxc5 Bxc5 16. Ng5 Be7 17. Nge4 Nxe4 18. Nxe4 f5 19. Nc3 e4 20. c5 Be6 21. Na4
+Qe5 22. Qc2 Rad8 23. Rfe1 g5 24. Bf1 Rxd1 25. Rxd1 Rd8 26. Rxd8+ Bxd8 27. Bc4
+Kf7 28. Qd1 Bxc4 29. Qxd8 Qa1+ 0-1
+
+[Event "Ct. Catalunya B"]
+[Site "?"]
+[Date "2000.??.??"]
+[Round "1"]
+[White "Domenche Redondo, F."]
+[Black "Arias Velasco, J."]
+[Result "1/2-1/2"]
+[ECO "D02"]
+[PlyCount "43"]
+[EventDate "2000.??.??"]
+[EventRounds "9"]
+
+1. d4 d5 2. Nf3 e6 3. Bg5 f6 4. Bf4 Bd6 5. e3 Bxf4 6. exf4 c5 7. Bb5+ Nc6 8.
+O-O c4 9. Re1 g6 10. Bxc6+ bxc6 11. f5 Qd6 12. Qe2 Kf7 13. c3 Nh6 14. fxe6+
+Bxe6 15. Nbd2 Rhe8 16. Qd1 Kg8 17. Qa4 Qd7 18. Re2 Qb7 19. Rae1 Bd7 20. Rxe8+
+Rxe8 21. Rxe8+ Bxe8 22. Qa3 1/2-1/2
+
+[Event "Ct. Catalunya B"]
+[Site "?"]
+[Date "2000.??.??"]
+[Round "2"]
+[White "Arias Velasco, J."]
+[Black "Olle Castillo, S."]
+[Result "1-0"]
+[ECO "C68"]
+[PlyCount "23"]
+[EventDate "2000.??.??"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. O-O Bg4 6. h3 h5 7. d3 Bd6 8. Re1
+Qe7 9. Be3 O-O-O 10. hxg4 hxg4 11. Nh2 Qh4 12. Qxg4+ 1-0
+
+[Event "Ct. Catalunya B"]
+[Site "?"]
+[Date "2000.??.??"]
+[Round "3"]
+[White "Arias Velasco, J."]
+[Black "Daimiel Bescos, E."]
+[Result "1-0"]
+[ECO "C68"]
+[PlyCount "115"]
+[EventDate "2000.??.??"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. O-O Bg4 6. h3 h5 7. d3 Qf6 8.
+Nbd2 Bc5 9. Nc4 Ne7 10. Ncxe5 Bd4 11. hxg4 Bxe5 12. g5 Qe6 13. c3 Ng6 14. Nxe5
+Nxe5 15. d4 O-O-O 16. Qe2 Ng6 17. f4 f5 18. e5 Nf8 19. Be3 Qd7 20. a4 Ne6 21.
+b4 Qd5 22. Rfb1 Qe4 23. Rf1 h4 24. Qf3 Qd3 25. Bc1 Qc4 26. Bd2 Rh7 27. Kf2 c5
+28. b5 cxd4 29. bxa6 Qxa6 30. Qe2 dxc3 31. Qxa6 bxa6 32. Bxc3 Nxf4 33. Rfd1 Ne6
+34. Rxd8+ Kxd8 35. Rd1+ Kc8 36. Bd2 g6 37. Be3 Rh5 38. Kf3 Nxg5+ 39. Bxg5 Rxg5
+40. e6 Rh5 41. Kf4 Rh8 42. Kg5 h3 43. gxh3 Rxh3 44. e7 Rh8 45. Kxg6 c5 46. Kg7
+Re8 47. Kf7 Rh8 48. e8=Q+ Rxe8 49. Kxe8 Kc7 50. Ke7 f4 51. Rf1 Kc6 52. Rxf4 Kd5
+53. Kd7 c4 54. Rf5+ Kd4 55. Kc6 c3 56. Rf1 c2 57. a5 Kc3 58. Kb6 1-0
+
+[Event "Ct. Catalunya B"]
+[Site "?"]
+[Date "2000.??.??"]
+[Round "4"]
+[White "Moranta Miro, A."]
+[Black "Arias Velasco, J."]
+[Result "0-1"]
+[ECO "D20"]
+[PlyCount "122"]
+[EventDate "2000.??.??"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 dxc4 3. e3 e5 4. Bxc4 exd4 5. exd4 Nf6 6. Nf3 Bb4+ 7. Nc3 O-O 8.
+O-O Bg4 9. Be3 Nbd7 10. h3 Bh5 11. a3 Bd6 12. Nb5 Nb6 13. Be2 Nfd5 14. Bg5 f6
+15. Nxd6 Qxd6 16. Bd2 Rfe8 17. g4 Bf7 18. Re1 Nf4 19. Bxf4 Qxf4 20. Qd2 Qd6 21.
+Nh4 g6 22. Rac1 c6 23. Qb4 Qxb4 24. axb4 a6 25. Bf3 Nd5 26. Bxd5 Bxd5 27. Ng2
+Rxe1+ 28. Rxe1 Kf7 29. Nf4 Rd8 30. Rd1 g5 31. Nh5 Re8 32. Ng3 Bf3 33. Rd3 Be4
+34. Re3 Bb1 35. Rxe8 Kxe8 36. Ne2 Be4 37. Nc3 Bf3 38. Kh2 Kd7 39. Kg3 Bd5 40.
+f3 Ke6 41. Kf2 f5 42. Na4 fxg4 43. hxg4 Kd7 44. Ke3 Kc7 45. f4 gxf4+ 46. Kxf4
+Bb3 47. Nc3 Kd6 48. Kf5 Bc2+ 49. Kf6 b6 50. g5 Bd3 51. Na4 Kd5 52. Nxb6+ Kxd4
+53. Ke6 c5 54. bxc5 Kxc5 55. Nd7+ Kb4 56. Kd6 a5 57. Kc6 a4 58. Kb6 Bc2 59. Nc5
+Bg6 60. Ne6 Be8 61. Nc5 Kc4 0-1
+
+[Event "Ct. Catalunya B"]
+[Site "?"]
+[Date "2000.??.??"]
+[Round "6"]
+[White "Trias Fernandez, R."]
+[Black "Arias Velasco, J."]
+[Result "1-0"]
+[ECO "B05"]
+[PlyCount "97"]
+[EventDate "2000.??.??"]
+[EventRounds "9"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. Nf3 Bg4 5. Be2 e6 6. O-O Be7 7. c4 Nb6 8. b3
+Nc6 9. Bb2 Bxf3 10. Bxf3 dxe5 11. dxe5 Qxd1 12. Rxd1 O-O 13. Nd2 Rad8 14. Bxc6
+bxc6 15. Nf3 c5 16. Kf1 Nd7 17. Rd3 Nb8 18. Rad1 Rxd3 19. Rxd3 Rd8 20. Ke2 Nc6
+21. Rxd8+ Bxd8 22. Ke3 h5 23. Ke4 g5 24. Ne1 Be7 25. Nd3 Nb4 26. a3 Nxd3 27.
+Kxd3 g4 28. Ke4 Kg7 29. f4 gxf3 30. gxf3 Kg6 31. Bc1 a6 32. Be3 c6 33. h3 Bf8
+34. f4 Be7 35. Bf2 Kh6 36. f5 Kg5 37. f6 Bf8 38. Bg3 Kg6 39. h4 Bh6 40. Bf2 Bf8
+41. Be3 Kh7 42. Bg5 Kg6 43. Bd2 Kh7 44. Ba5 Bh6 45. Bb6 Bd2 46. Bxc5 Be1 47. b4
+Bxh4 48. a4 Be1 49. b5 1-0
+
+[Event "Ct. Catalunya B"]
+[Site "?"]
+[Date "2000.??.??"]
+[Round "7"]
+[White "Arias Velasco, J."]
+[Black "Cabello Llopis, JE."]
+[Result "1-0"]
+[ECO "B00"]
+[PlyCount "79"]
+[EventDate "2000.??.??"]
+[EventRounds "9"]
+
+1. e4 b6 2. d4 Bb7 3. Nc3 e6 4. Nf3 Bb4 5. Bd3 Nf6 6. Qe2 d5 7. Bg5 h6 8. Bxf6
+Qxf6 9. O-O Bxc3 10. bxc3 Qf4 11. e5 O-O 12. g3 Qg4 13. Kg2 f5 14. exf6 Rxf6
+15. h3 Qh5 16. g4 Qe8 17. Ne5 c5 18. Qe3 c4 19. Be2 Nd7 20. f4 Nxe5 21. fxe5
+Rxf1 22. Rxf1 Qe7 23. Kg3 Rf8 24. Rxf8+ Kxf8 25. g5 Qxg5+ 26. Qxg5 hxg5 27. Bh5
+Bc6 28. Kg4 Ba4 29. Bg6 Ke7 30. Kxg5 Bd7 31. Bh7 Kf8 32. h4 Ba4 33. h5 Kf7 34.
+Bg6+ Ke7 35. a3 Kf8 36. h6 gxh6+ 37. Kf6 h5 38. Bxh5 Bxc2 39. Kxe6 Be4 40. Kd6
+1-0
+
+[Event "Ct. Catalunya B"]
+[Site "?"]
+[Date "2000.??.??"]
+[Round "9"]
+[White "Arias Velasco, J."]
+[Black "Clifford, N."]
+[Result "1/2-1/2"]
+[ECO "C63"]
+[PlyCount "38"]
+[EventDate "2000.??.??"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 f5 4. d3 fxe4 5. dxe4 Nf6 6. Bg5 d6 7. Nbd2 Be6 8.
+O-O Be7 9. Qe2 O-O 10. Rad1 Bg4 11. Bxc6 bxc6 12. Qc4+ Kh8 13. Qxc6 Nh5 14. Be3
+Nf4 15. Bxf4 Rxf4 16. h3 Bh5 17. g4 Be8 18. Qc3 h5 19. Nc4 hxg4 {...
+(irreproducible)} 1/2-1/2
+
+[Event "Ct. Catalunya Absolut"]
+[Site "Barcelona"]
+[Date "2001.04.09"]
+[Round "2"]
+[White "Arias Velasco, J."]
+[Black "Barredo Duran, L."]
+[Result "0-1"]
+[ECO "E60"]
+[WhiteElo "2025"]
+[BlackElo "2346"]
+[PlyCount "80"]
+[EventDate "2001.??.??"]
+[EventRounds "9"]
+
+1. Nf3 Nf6 2. g3 g6 3. Bg2 Bg7 4. O-O O-O 5. c4 d6 6. d4 c5 7. dxc5 dxc5 8.
+Qxd8 Rxd8 9. Nc3 Nc6 10. Bf4 Be6 11. Ne5 Na5 12. Rfd1 Nh5 13. Nd5 Nxf4 14. gxf4
+Bxd5 15. cxd5 g5 16. Rac1 gxf4 17. Nc4 Nxc4 18. Rxc4 Bd4 19. Rd3 Rac8 20. Rb3
+b6 21. Be4 Rd6 22. Rh3 h6 23. b3 b5 24. Rc2 c4 25. e3 Be5 26. Rh5 Bg7 27. exf4
+Bd4 28. Kf1 Kg7 29. f3 cxb3 30. axb3 Rxc2 31. Bxc2 Be3 32. Rf5 Rg6 33. d6 Rxd6
+34. Rxb5 Rd2 35. Be4 Rf2+ 36. Ke1 Rxh2 37. Rb7 Kf6 38. Rc7 Rb2 39. Bc2 Bxf4 40.
+Ke2 Bxc7 0-1
+
+[Event "Ct. Catalunya Absolut"]
+[Site "Barcelona"]
+[Date "2002.03.27"]
+[Round "4.77"]
+[White "Arias Velasco, J."]
+[Black "Vaquero Talavera, J."]
+[Result "1-0"]
+[ECO "C60"]
+[PlyCount "29"]
+[EventDate "2002.??.??"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nge7 4. d4 f6 5. dxe5 Nxe5 6. Nxe5 fxe5 7. Bg5 c6 8.
+Bc4 Qa5+ 9. Nc3 Ng6 10. Qf3 d5 11. exd5 Bb4 12. O-O Bxc3 13. dxc6 Qc7 14. cxb7
+Bxb7 15. Bb5+ 1-0
+
+[Event "Tancat Masters Veterans"]
+[Site "El Prat de Llob."]
+[Date "2004.12.22"]
+[Round "1"]
+[White "Montell Zabay, A."]
+[Black "Arias Velasco, J."]
+[Result "1/2-1/2"]
+[ECO "B02"]
+[PlyCount "56"]
+[EventDate "2004.??.??"]
+
+1. e4 Nf6 2. e5 Nd5 3. Nc3 e6 4. Nf3 d6 5. exd6 Bxd6 6. d4 O-O 7. Bd3 Nc6 8.
+O-O Nxc3 9. bxc3 e5 10. h3 f6 11. Re1 Qe8 12. c4 Qh5 13. c5 Be7 14. d5 Nd4 15.
+Nxd4 Qxd1 16. Rxd1 exd4 17. d6 cxd6 18. Re1 Bd8 19. cxd6 Bd7 20. Bb2 Re8 21.
+Bxd4 Ba5 22. c3 Rac8 23. Rxe8+ Rxe8 24. Rd1 b6 25. Kf1 Kf8 26. Re1 Rxe1+ 27.
+Kxe1 Kf7 28. Bc4+ Ke8 1/2-1/2
+
+[Event "Tancat Masters Veterans"]
+[Site "El Prat de Llob."]
+[Date "2004.12.23"]
+[Round "2"]
+[White "Planas Ferret, R."]
+[Black "Arias Velasco, J."]
+[Result "1/2-1/2"]
+[ECO "D11"]
+[PlyCount "59"]
+[EventDate "2004.??.??"]
+
+1. d4 d5 2. Nf3 Bf5 3. c4 c6 4. Nc3 e6 5. e3 Nd7 6. Be2 Be7 7. O-O h6 8. b3
+Ngf6 9. Bb2 O-O 10. Nd2 Ne4 11. Ndxe4 dxe4 12. f3 Nf6 13. fxe4 Nxe4 14. Nxe4
+Bxe4 15. Bf3 Bg6 16. e4 Qb6 17. Kh1 Rad8 18. Qe2 Bf6 19. e5 Bg5 20. Be4 Bxe4
+21. Qxe4 Qa5 22. Rf2 Qb4 23. Qf3 f6 24. Qh3 Qe7 25. Re2 fxe5 26. Rxe5 Rf5 27.
+Rxf5 exf5 28. Qxf5 Qe2 29. Ba3 Rxd4 30. Qf8+ 1/2-1/2
+
+[Event "Tancat Masters Veterans"]
+[Site "El Prat de Llob."]
+[Date "2004.12.23"]
+[Round "3"]
+[White "Arias Velasco, J."]
+[Black "Basas Gamazo, J."]
+[Result "1/2-1/2"]
+[ECO "B22"]
+[PlyCount "59"]
+[EventDate "2004.??.??"]
+
+1. e4 c5 2. c3 Nf6 3. e5 Nd5 4. Nf3 e6 5. d4 cxd4 6. cxd4 Nc6 7. Nc3 Nxc3 8.
+bxc3 d6 9. Bb5 Bd7 10. Qe2 a6 11. Bd3 Be7 12. exd6 Bxd6 13. d5 Nb8 14. O-O O-O
+15. Ng5 h6 16. dxe6 hxg5 17. exd7 Nxd7 18. Rd1 Qc7 19. Bxg5 Nc5 20. Qh5 g6 21.
+Bxg6 Bxh2+ 22. Qxh2 Qxh2+ 23. Kxh2 fxg6 24. Be7 Rf5 25. f3 Rc8 26. Rd4 Ne6 27.
+Rd7 Rxc3 28. Re1 Rc6 29. Bd6 Rf7 30. Rxf7 1/2-1/2
+
+[Event "Tancat Masters Veterans"]
+[Site "El Prat de Llob."]
+[Date "2004.12.24"]
+[Round "4"]
+[White "Dominguez Rueda, J."]
+[Black "Arias Velasco, J."]
+[Result "1-0"]
+[ECO "B03"]
+[PlyCount "25"]
+[EventDate "2004.??.??"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. f4 dxe5 5. fxe5 Nc6 6. Nf3 Bg4 7. Bb5 e6 8. O-O
+Be7 9. Nc3 O-O 10. Ne4 a6 11. Be2 f5 12. Nf2 b6 13. c4 1-0
+
+[Event "Tancat Masters Veterans"]
+[Site "El Prat de Llob."]
+[Date "2004.12.28"]
+[Round "6"]
+[White "Coll Enriquez, L."]
+[Black "Arias Velasco, J."]
+[Result "1-0"]
+[ECO "B02"]
+[PlyCount "45"]
+[EventDate "2004.??.??"]
+
+1. e4 Nf6 2. Nc3 d5 3. e5 d4 4. exf6 dxc3 5. bxc3 gxf6 6. Bc4 e5 7. Qh5 Qe7 8.
+Ba3 Qd7 9. Bxf8 Rxf8 10. Bd3 e4 11. Bxe4 Qe6 12. Kf1 f5 13. Bd3 Kd8 14. Qh4+
+Qe7 15. Qxh7 Be6 16. Bxf5 Re8 17. Nf3 Bxa2 18. Qg7 Nd7 19. Qd4 Qe2+ 20. Kg1 Be6
+21. Bd3 Qxf3 22. gxf3 Bh3 23. Qh4+ 1-0
+
+[Event "Tancat Masters Veterans"]
+[Site "El Prat de Llob."]
+[Date "2004.12.28"]
+[Round "7"]
+[White "Arias Velasco, J."]
+[Black "Sanz Bastos, F."]
+[Result "0-1"]
+[ECO "C68"]
+[PlyCount "31"]
+[EventDate "2004.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. O-O Bg4 6. h3 h5 7. d3 Qf6 8.
+Nbd2 Bd6 9. Re1 Be6 10. Nf1 Qe7 11. Ng3 f6 12. Be3 g5 13. Nh2 O-O-O 14. b4 Nh6
+15. f3 f5 16. Qe2 {Es vergonyos que els arbitres permetin entregar les
+planilles com algunes persones les entreguen.} 0-1
+
+[Event "Tancat Masters Veterans"]
+[Site "El Prat de Llob."]
+[Date "2004.12.29"]
+[Round "8"]
+[White "Bautista Sanchez, J."]
+[Black "Arias Velasco, J."]
+[Result "1-0"]
+[ECO "A10"]
+[PlyCount "59"]
+[EventDate "2004.??.??"]
+
+1. c4 e6 2. Nf3 f5 3. g3 Nf6 4. Bg2 d5 5. O-O c6 6. b3 Na6 7. Bb2 Bd6 8. Nc3
+O-O 9. d4 Ne4 10. Nd2 Qg5 11. f4 Qh6 12. Nf3 Bd7 13. Ne5 Be8 14. Rc1 Bh5 15.
+Bf3 Nb4 16. a3 Nxc3 17. Rxc3 Na6 18. Qd2 Bxe5 19. dxe5 Bxf3 20. exf3 Rad8 21.
+Rd1 d4 22. Rcc1 c5 23. Qa5 Qh5 24. Rd3 Qf7 25. b4 Nb8 26. Qxa7 cxb4 27. axb4
+Nc6 28. Qb6 Ra8 29. b5 Ra2 30. bxc6 1-0

@@ -1,0 +1,168 @@
+[Event "Barcelona Tres Peons op 19th"]
+[Site "Barcelona"]
+[Date "2017.01.18"]
+[Round "2"]
+[White "Van Keulen, Onno"]
+[Black "Beaskoa Estany, Gabriel"]
+[Result "0-1"]
+[ECO "B96"]
+[WhiteElo "1936"]
+[BlackElo "2114"]
+[PlyCount "84"]
+[EventDate "2017.01.11"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Qc7 8. Qf3
+b5 9. Bxf6 gxf6 10. Bd3 b4 11. Nce2 h5 12. O-O-O Bb7 13. f5 e5 14. Nb3 Nd7 15.
+Kb1 a5 16. Rhe1 a4 17. Nd2 Nb6 18. Bb5+ Ke7 19. Qd3 a3 20. b3 Qc5 21. Nc4 Nc8
+22. Ne3 Bh6 23. Nd5+ Bxd5 24. Qxd5 Qxd5 25. Rxd5 Nb6 26. Rdd1 Rhg8 27. g3 Ra5
+28. Bd3 d5 29. c3 bxc3 30. Nxc3 d4 31. Nd5+ Rxd5 32. exd5 Nxd5 33. Bc4 Nc3+ 34.
+Kc2 Nxd1 35. Kxd1 h4 36. Rg1 Bf4 37. Kc2 hxg3 38. hxg3 Be3 39. Rg2 e4 40. Bd5
+Rc8+ 41. Kd1 d3 42. Bc4 Rh8 0-1
+
+[Event "Barcelona Tres Peons op 19th"]
+[Site "Barcelona"]
+[Date "2017.02.01"]
+[Round "4"]
+[White "Anguera Maestro, Jaime"]
+[Black "Van Keulen, Onno"]
+[Result "1-0"]
+[ECO "D02"]
+[WhiteElo "2106"]
+[BlackElo "1936"]
+[PlyCount "13"]
+[EventDate "2017.01.11"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 d5 3. Bf4 c5 4. c3 Qb6 5. Qb3 c4 6. Qc2 Bf5 7. Qxf5 1-0
+
+[Event "Barcelona Tres Peons op 19th"]
+[Site "Barcelona"]
+[Date "2017.02.08"]
+[Round "5"]
+[White "Van Keulen, Onno"]
+[Black "Moysen Cortes, Jessica"]
+[Result "1-0"]
+[ECO "D15"]
+[WhiteElo "1936"]
+[BlackElo "1736"]
+[PlyCount "111"]
+[EventDate "2017.01.11"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 c6 3. Nc3 d5 4. Nf3 Bf5 5. cxd5 Nxd5 6. g3 e6 7. Bg2 Bb4 8. Qb3
+a5 9. O-O Bxc3 10. bxc3 b5 11. Ba3 Nxc3 12. Qxc3 b4 13. Bxb4 axb4 14. Qxb4 Be4
+15. Rfc1 Qe7 16. Qxe7+ Kxe7 17. Ne5 Bxg2 18. Kxg2 Rc8 19. a4 f6 20. Nd3 Nd7 21.
+a5 Kd6 22. Rcb1 Ra7 23. e4 Rca8 24. Nb2 Kc7 25. Nc4 Rb7 26. Rxb7+ Kxb7 27. Rb1+
+Ka6 28. f4 Rb8 29. Rxb8 Nxb8 30. Kf3 Kb5 31. Nd6+ Kxa5 32. Ne8 Nd7 33. Nxg7 e5
+34. dxe5 fxe5 35. Ne6 Kb4 36. f5 c5 37. Nc7 c4 38. Nd5+ Kc5 39. Ke3 Kd6 40. g4
+Nc5 41. h4 Na4 42. g5 c3 43. h5 Nc5 44. Nxc3 Ke7 45. Nd5+ Kf7 46. h6 Nd7 47.
+Kf3 Nc5 48. Nf6 Nd3 49. Nxh7 Nf4 50. g6+ Nxg6 51. fxg6+ Kxg6 52. Ng5 Kxh6 53.
+Nf7+ Kg6 54. Nxe5+ Kf6 55. Ng4+ Ke6 56. Ne3 1-0
+
+[Event "Barcelona Tres Peons op 19th"]
+[Site "Barcelona"]
+[Date "2017.02.15"]
+[Round "6"]
+[White "Dominguez Rueda, Juan"]
+[Black "Van Keulen, Onno"]
+[Result "1-0"]
+[ECO "B10"]
+[WhiteElo "2056"]
+[BlackElo "1936"]
+[PlyCount "35"]
+[EventDate "2017.01.11"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c6 2. d3 d5 3. Nd2 e5 4. Ngf3 Nd7 5. g3 Ngf6 6. Bg2 Bd6 7. O-O O-O 8. Re1
+Re8 9. Nf1 Nf8 10. c3 b6 11. a4 Ba6 12. Nh4 dxe4 13. dxe4 g6 14. Qf3 Ne6 15.
+Rd1 Kg7 16. Rxd6 Qxd6 17. Bh6+ Kxh6 18. Qxf6 1-0
+
+[Event "Barcelona Tres Peons op 19th"]
+[Site "Barcelona"]
+[Date "2017.02.22"]
+[Round "7"]
+[White "Van Keulen, Onno"]
+[Black "Barragan Hernandez, Manel"]
+[Result "0-1"]
+[ECO "D91"]
+[WhiteElo "1936"]
+[BlackElo "1879"]
+[PlyCount "58"]
+[EventDate "2017.01.11"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 d5 5. Bg5 Ne4 6. Bh4 c6 7. e3 Bg4 8. Bd3
+Qa5 9. O-O Nxc3 10. Qd2 Bxf3 11. gxf3 dxc4 12. Bxc4 Qh5 13. Bxe7 Kxe7 14. Qxc3
+Qg5+ 15. Kh1 Kf8 16. Qb3 Qe7 17. d5 Bf6 18. d6 Qd7 19. f4 b5 20. Be2 Qxd6 21.
+Bf3 Kg7 22. Rac1 a5 23. Rfd1 Qb4 24. Qd3 Rd8 25. Qf1 Rxd1 26. Rxd1 Qxb2 27. Qg2
+Ra6 28. e4 Bd4 29. e5 c5 0-1
+
+[Event "Sants op Hostafrancs i La Bordeta op"]
+[Site "Barcelona"]
+[Date "2014.08.22"]
+[Round "1.28"]
+[White "Escobar Forero, A."]
+[Black "Van Keulen, O."]
+[Result "1/2-1/2"]
+[ECO "B50"]
+[WhiteElo "2464"]
+[BlackElo "1999"]
+[PlyCount "124"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[Source "Mark Crowther"]
+[SourceDate "2014.09.01"]
+
+1. e4 c5 2. Nf3 d6 3. c3 g6 4. d4 Bg7 5. Bc4 Nf6 6. Qe2 O-O 7. e5 dxe5 8. dxe5
+Nd5 9. O-O Nb6 10. e6 Nxc4 11. exf7+ Rxf7 12. Qxc4 e6 13. Ng5 Rf5 14. Nxe6 Bxe6
+15. Qxe6+ Kh8 16. Nd2 Nc6 17. Nc4 Qf8 18. Be3 Ne5 19. Nxe5 Rxe5 20. Qc4 Rae8
+21. Rad1 b6 22. Rd7 R5e7 23. Qd5 Rxd7 24. Qxd7 Re7 25. Qd6 Be5 26. Qd2 Re8 27.
+Bg5 Bf6 28. Bh6 Bg7 29. Be3 Rd8 30. Qe2 Qf7 31. Qa6 h5 32. a4 Qb3 33. Qb5 Qc2
+34. g3 Rd1 35. Rxd1 Qxd1+ 36. Kg2 Qd5+ 37. f3 Qe6 38. Bf4 Kh7 39. a5 Bh6 40.
+Bb8 h4 41. gxh4 Qe1 42. Bg3 Qd2+ 43. Kh3 Qd5 44. Kg2 Qd2+ 45. Kf1 Qd1+ 46. Kf2
+Qd2+ 47. Qe2 Be3+ 48. Kf1 Qc1+ 49. Qe1 bxa5 50. Ke2 c4 51. Qxc1 Bxc1 52. Bd6
+Bxb2 53. Kd2 a4 54. Kc2 a3 55. Be5 Kg8 56. Bd4 Kf7 57. Bxa7 Ke6 58. Be3 Kf5 59.
+Bg5 Ke5 60. Bh6 Kf5 61. Bd2 Ke5 62. Bh6 Kf5 1/2-1/2

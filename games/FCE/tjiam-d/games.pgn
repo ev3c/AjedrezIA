@@ -1,0 +1,160 @@
+[Event "Figueres op"]
+[Site "Figueres"]
+[Date "2013.08.12"]
+[Round "2"]
+[White "Forcen Esteban, D."]
+[Black "Tjiam, D."]
+[Result "1-0"]
+[ECO "E91"]
+[WhiteElo "2503"]
+[BlackElo "2377"]
+[PlyCount "75"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 d6 5. e4 O-O 6. Be2 Bg4 7. Ng1 Bxe2 8.
+Ngxe2 c5 9. dxc5 dxc5 10. Qxd8 Rxd8 11. e5 Ne8 12. f4 Nc6 13. Be3 b6 14. Kf2 f6
+15. exf6 exf6 16. Rad1 f5 17. Kf3 Kf7 18. b3 Nc7 19. g4 fxg4+ 20. Kxg4 Bxc3 21.
+Nxc3 Ne7 22. Ne4 Nf5 23. Ng5+ Kg8 24. Bc1 h6 25. Nf3 Ne6 26. Ne5 Ne7 27. Bb2
+h5+ 28. Kf3 Rf8 29. Rhe1 Rxf4+ 30. Kg2 Raf8 31. Nd3 Rg4+ 32. Kh1 Nf5 33. Rxe6
+Rd8 34. Ree1 Nh4 35. Ne5 Rxd1 36. Rxd1 Re4 37. Rd8+ Kh7 38. Nf3 1-0
+
+[Event "Figueres op"]
+[Site "Figueres"]
+[Date "2013.08.14"]
+[Round "4"]
+[White "Valles, M."]
+[Black "Tjiam, D."]
+[Result "0-1"]
+[ECO "A29"]
+[WhiteElo "2319"]
+[BlackElo "2377"]
+[PlyCount "74"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. c4 Nf6 2. Nc3 e5 3. g3 d5 4. cxd5 Nxd5 5. Bg2 Nb6 6. Nf3 Nc6 7. O-O Be7 8.
+b3 O-O 9. Bb2 f5 10. d3 Bf6 11. Nd2 Be6 12. Nc4 Qd7 13. Rc1 Rae8 14. Qc2 Nd4
+15. Qb1 Nd5 16. Rfe1 c5 17. e3 Nc6 18. Nxd5 Bxd5 19. Bxd5+ Qxd5 20. e4 Qd7 21.
+exf5 Bg5 22. Rc2 Rxf5 23. Ne3 Bxe3 24. Rxe3 b6 25. Rce2 Qd5 26. Qc2 b5 27. Qc1
+Nb4 28. Qb1 g6 29. f4 Nc6 30. Qa1 Kf7 31. Bxe5 Nxe5 32. fxe5 Ke6 33. Qe1 Ref8
+34. h4 h5 35. a3 a5 36. Qb1 Qd4 37. Qd1 Qd5 $138 0-1
+
+[Event "Figueres op"]
+[Site "Figueres"]
+[Date "2013.08.15"]
+[Round "5"]
+[White "Tjiam, D."]
+[Black "Aroshidze, L."]
+[Result "1-0"]
+[ECO "E12"]
+[WhiteElo "2377"]
+[BlackElo "2565"]
+[PlyCount "77"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. Bf4 Bb7 5. e3 Bb4+ 6. Nfd2 O-O 7. a3 Be7 8. Nc3
+c5 9. dxc5 bxc5 10. Qb3 Bc6 11. Rd1 Nh5 12. Bg3 f5 13. Nd5 d6 14. Nxe7+ Qxe7
+15. f3 Nxg3 16. hxg3 Nd7 17. Kf2 Qf6 18. Qc2 Ne5 19. Nb1 Rad8 20. Be2 Qg6 21.
+Qc3 Rd7 22. b4 cxb4 23. axb4 Qf6 24. b5 Bb7 25. f4 Nf7 26. Qxf6 gxf6 27. c5 Be4
+28. Nc3 Rc8 29. c6 Re7 30. g4 d5 31. gxf5 Bxf5 32. g4 Bg6 33. f5 exf5 34. Nxd5
+Re6 35. Ra1 fxg4 36. Bxg4 f5 37. Be2 Nd6 38. Rxa7 Ne4+ 39. Kg2 1-0
+
+[Event "Figueres op"]
+[Site "Figueres"]
+[Date "2013.08.15"]
+[Round "6"]
+[White "Szabo, b"]
+[Black "Tjiam, D."]
+[Result "1/2-1/2"]
+[ECO "A69"]
+[WhiteElo "2392"]
+[BlackElo "2377"]
+[PlyCount "85"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 c5 4. d5 exd5 5. cxd5 d6 6. Nf3 g6 7. Nd2 Bg7 8. e4
+O-O 9. Be2 a6 10. a4 Re8 11. O-O Nbd7 12. f4 c4 13. Kh1 Nc5 14. e5 dxe5 15.
+fxe5 Nfd7 16. e6 fxe6 17. Nxc4 Ne5 18. Be3 b6 19. a5 Nxc4 20. Bxc4 b5 21. Bxc5
+bxc4 22. Bd4 e5 23. Bb6 Qd7 24. Ra4 Bb7 25. Rxc4 Rac8 26. Rxc8 Rxc8 27. Qd3 e4
+28. Qxe4 Bxc3 29. bxc3 Qxd5 30. Qe2 Rf8 31. Rxf8+ Kxf8 32. Kg1 Kf7 33. h3 h5
+34. Qf2+ Ke6 35. Bd4 Qf5 36. Qg3 Qe4 37. Qg5 Qf5 38. Qd8 Qe4 39. Qf6+ Kd7 40.
+Qg5 Ke6 41. Qd2 Bd5 42. Kh2 Kd7 43. Qf2 1/2-1/2
+
+[Event "Figueres op"]
+[Site "Figueres"]
+[Date "2013.08.16"]
+[Round "7"]
+[White "Narciso Dublan, M."]
+[Black "Tjiam, D."]
+[Result "1-0"]
+[ECO "B08"]
+[WhiteElo "2505"]
+[BlackElo "2377"]
+[PlyCount "107"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Nf3 Bg7 5. Be2 O-O 6. O-O e6 7. a4 Nc6 8. a5 a6
+9. Be3 e5 10. d5 Ne7 11. Nd2 Ne8 12. Na4 f5 13. f3 Kh8 14. c4 Ng8 15. c5 Bh6
+16. Qb3 Bxe3+ 17. Qxe3 Ngf6 18. Qc3 Bd7 19. cxd6 cxd6 20. Nb6 Rb8 21. f4 exf4
+22. Rxf4 Ng7 23. Raf1 Bb5 24. Bxb5 axb5 25. exf5 g5 26. Rb4 Qe7 27. Rxb5 Rbe8
+28. Rb3 Ngh5 29. g3 Kg8 30. Qf3 g4 31. Qd1 Ng7 32. Ndc4 Qc7 33. Kg2 Re4 34. Rc3
+Qe7 35. Rc2 h5 36. Qd3 h4 37. Rcf2 h3+ 38. Kg1 Nge8 39. Qd2 Nc7 40. Qg5+ Kh8
+41. Qh6+ Kg8 42. Qg5+ Kh8 43. b3 Na6 44. Qh6+ Kg8 45. Qg5+ Kh8 46. Na4 Nb4 47.
+Nc3 Nd3 48. Nxe4 Qxe4 49. Rd2 Nxd5 50. Qh6+ Kg8 51. Qg6+ Kh8 52. Qh6+ Kg8 53.
+Qe6+ Qxe6 54. fxe6 1-0
+
+[Event "Figueres op"]
+[Site "Figueres"]
+[Date "2013.08.17"]
+[Round "8"]
+[White "Tjiam, D."]
+[Black "Antoli Royo, JM."]
+[Result "1-0"]
+[ECO "D24"]
+[WhiteElo "2377"]
+[BlackElo "2409"]
+[PlyCount "95"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 dxc4 3. Nf3 Nf6 4. Nc3 a6 5. a4 Nc6 6. e4 Na5 7. Be3 Bg4 8. Qc2
+Bxf3 9. gxf3 e6 10. Rg1 c6 11. Rd1 g6 12. Be2 Qc7 13. f4 Bh6 14. e5 Nd5 15. Ne4
+O-O 16. Rg4 f5 17. exf6 Nxf6 18. Rh4 Bg7 19. Ng5 Rae8 20. Bd2 b5 21. Bb4 c5 22.
+Bxc5 Rf7 23. Nxf7 Qxf7 24. axb5 axb5 25. Ra1 Nc6 26. Ra6 Qd7 27. Qd1 Nd5 28.
+Kf1 Qc7 29. Bf3 Qd7 30. Rg4 Ndb4 31. Rb6 Nd5 32. Ra6 Ndb4 33. Ra3 Nd3 34. Rxd3
+cxd3 35. Qxd3 Rd8 36. d5 exd5 37. Rg5 Kh8 38. Rxd5 Qh3+ 39. Kg1 Re8 40. Be2 Qe6
+41. Kf1 Bxb2 42. Rd6 Qc8 43. Qxb5 Qh3+ 44. Kg1 Rb8 45. Qxc6 Bc3 46. Bd4+ Bxd4
+47. Rxd4 Rb1+ 48. Rd1 1-0
+
+[Event "Figueres op"]
+[Site "Figueres"]
+[Date "2013.08.18"]
+[Round "9"]
+[White "Cruz Sanchez, C."]
+[Black "Tjiam, D."]
+[Result "1-0"]
+[ECO "A61"]
+[WhiteElo "2498"]
+[BlackElo "2377"]
+[PlyCount "83"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 c5 4. d5 exd5 5. cxd5 d6 6. Nf3 g6 7. Bf4 a6 8. a4
+Qe7 9. h3 Nbd7 10. Nd2 Ne5 11. e3 Bg7 12. Be2 O-O 13. O-O Ne8 14. Re1 Bd7 15.
+Bg3 f5 16. Qb3 Qd8 17. a5 Rb8 18. f4 Nf7 19. Nc4 Nc7 20. Nb6 Re8 21. Bf3 Bb5
+22. Kh2 Nh6 23. Rad1 Na8 24. Nxb5 axb5 25. Qxb5 Nxb6 26. axb6 Qf6 27. b4 cxb4
+28. Qxb4 Rbc8 29. Rd3 Nf7 30. e4 fxe4 31. Rxe4 Rxe4 32. Qxe4 Qd8 33. Bg4 Rc1
+34. Bf2 Ra1 35. Be6 Bf6 36. Bd4 Rc1 37. Ra3 Rd1 38. Bxf6 Qxf6 39. Ra7 Qe7 40.
+Qc2 Rf1 41. Qc8+ Kg7 42. Rxb7 1-0

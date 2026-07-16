@@ -1,0 +1,84 @@
+[Event "Fincas Mediterranea op"]
+[Site "?"]
+[Date "2005.08.17"]
+[Round "1.18"]
+[White "Ruiz Arenas, C."]
+[Black "Sucher, J."]
+[Result "1-0"]
+[ECO "B01"]
+[WhiteElo "1810"]
+[BlackElo "2207"]
+[PlyCount "137"]
+[EventDate "2005.??.??"]
+
+1. e4 d5 2. exd5 Nf6 3. Nc3 Nxd5 4. Nxd5 Qxd5 5. Nf3 e5 6. d4 Nc6 7. Be3 Bg4 8.
+Be2 e4 9. Nd2 Bxe2 10. Qxe2 Nxd4 11. Bxd4 Qxd4 12. Qxe4+ Qxe4+ 13. Nxe4 f5 14.
+Nd2 O-O-O 15. O-O-O Bc5 16. f3 Rhe8 17. Rhe1 Be3 18. Re2 Bh6 19. Rf2 Be3 20.
+Re2 Bf4 21. Rxe8 Rxe8 22. g3 Bh6 23. f4 g5 24. Rf1 gxf4 25. gxf4 Re2 26. Nf3
+Bxf4+ 27. Kd1 Re7 28. Nd4 Bxh2 29. Nxf5 Rd7+ 30. Ke2 b5 31. Rf3 Be5 32. c3 c5
+33. Re3 Bf4 34. Re8+ Kc7 35. Ne3 h6 36. Re4 Bg5 37. b3 Re7 38. Nd5+ Kd6 39.
+Nxe7 Bxe7 40. c4 a6 41. Kf3 bxc4 42. bxc4 Bg5 43. Kg4 Bd2 44. Kf5 a5 45. Re6+
+Kd7 46. a4 h5 47. Re5 Kc6 48. Rd5 Be1 49. Ke4 h4 50. Rh5 Bg3 51. Rh6+ Kb7 52.
+Kd5 Bf2 53. Kd6 Kb6 54. Kd7+ Kb7 55. Rf6 Bg3 56. Rf3 Be1 57. Rf1 Bg3 58. Rb1+
+Ka6 59. Rb3 Bf2 60. Kc6 Bg1 61. Rb6+ Ka7 62. Rb7+ Ka6 63. Rh7 Bf2 64. Rh5 Bg3
+65. Kxc5 Bf2+ 66. Kc6 Bg3 67. c5 Bf2 68. Kd7 Bg3 69. c6 1-0
+
+[Event "Fincas Mediterranea op"]
+[Site "?"]
+[Date "2005.08.22"]
+[Round "6.16"]
+[White "Sucher, J."]
+[Black "Sanjuan Morigosa, I."]
+[Result "1-0"]
+[ECO "A45"]
+[WhiteElo "2207"]
+[BlackElo "2003"]
+[PlyCount "55"]
+[EventDate "2005.??.??"]
+
+1. d4 Nf6 2. Bg5 Ne4 3. Bh4 g5 4. f3 gxh4 5. fxe4 c5 6. e3 d6 7. Bc4 e6 8. Nf3
+h3 9. g3 Bh6 10. Qe2 a6 11. c3 Bd7 12. O-O Nc6 13. d5 Na5 14. dxe6 fxe6 15.
+Nbd2 Qe7 16. Rad1 O-O-O 17. Bxa6 bxa6 18. Qxa6+ Nb7 19. Nc4 Be8 20. b4 Bg6 21.
+b5 Bxe4 22. Nfe5 Bxe3+ 23. Nxe3 dxe5 24. b6 Rd6 25. Nc4 Kd7 26. Qa4+ Kc8 27.
+Qa8+ Kd7 28. Nxe5# 1-0
+
+[Event "Fincas Mediterranea op"]
+[Site "?"]
+[Date "2005.08.23"]
+[Round "7.11"]
+[White "Sanz Bastos, F."]
+[Black "Sucher, J."]
+[Result "0-1"]
+[ECO "B07"]
+[WhiteElo "2043"]
+[BlackElo "2207"]
+[PlyCount "44"]
+[EventDate "2005.??.??"]
+
+1. e4 d6 2. g3 g6 3. Bg2 Bg7 4. c3 c5 5. Ne2 Nc6 6. O-O e5 7. d3 Nge7 8. Be3
+O-O 9. Qd2 b6 10. f4 d5 11. fxe5 Nxe5 12. Bf4 dxe4 13. Bxe4 Bh3 14. Re1 N7c6
+15. Na3 f5 16. Bh1 Rc8 17. d4 cxd4 18. cxd4 Ng4 19. d5 b5 20. Be3 Nxe3 21. Qxe3
+Re8 22. Qd2 Qb6+ 0-1
+
+[Event "Sants op Hostafrancs i La Bordeta op"]
+[Site "Barcelona"]
+[Date "2014.08.23"]
+[Round "2.13"]
+[White "Sucher, J."]
+[Black "Libiszewski, F."]
+[Result "0-1"]
+[ECO "B06"]
+[WhiteElo "2163"]
+[BlackElo "2531"]
+[PlyCount "50"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[Source "Mark Crowther"]
+[SourceDate "2014.09.01"]
+
+1. d4 g6 2. e4 Bg7 3. Nc3 c6 4. Nf3 d6 5. Bc4 Nf6 6. O-O b5 7. Bd3 O-O 8. Re1
+b4 9. Ne2 Bg4 10. Ng3 Nfd7 11. c3 bxc3 12. bxc3 c5 13. e5 Nc6 14. Be4 Rc8 15.
+h3 Bxf3 16. Qxf3 cxd4 17. Bxc6 Nxe5 18. Rxe5 Bxe5 19. cxd4 Bxg3 20. Bg5 Qb6 21.
+Rc1 d5 22. Qxg3 Rxc6 23. Rxc6 Qxc6 24. Bxe7 Re8 25. Qg5 h6 0-1

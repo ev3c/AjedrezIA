@@ -1,0 +1,126 @@
+[Event "Ruy Lopez-Leridano op"]
+[Site "Barcelona"]
+[Date "1975.??.??"]
+[Round "?"]
+[White "Coll Enriquez, Luis"]
+[Black "Pineda Riba, Josep"]
+[Result "1-0"]
+[ECO "B02"]
+[PlyCount "31"]
+[EventDate "1975.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. e4 Nf6 2. Nc3 d5 3. exd5 Nxd5 4. Bc4 Be6 5. Qf3 c6 6. Nge2 Nc7 7. Bxe6 Nxe6
+8. O-O g6 9. d4 Nxd4 10. Nxd4 Qxd4 11. Rd1 Qb6 12. Be3 Qc7 13. Bf4 e5 14. Bxe5
+Qxe5 15. Re1 Qxe1+ 16. Rxe1+ 1-0
+
+[Event "Camp. Catalunya indiv. Pref. esp."]
+[Site "?"]
+[Date "1976.??.??"]
+[Round "2"]
+[White "Ayza Ballester, Jordi"]
+[Black "Pineda Riba, Josep"]
+[Result "1-0"]
+[ECO "B03"]
+[PlyCount "103"]
+[EventDate "1976.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. c4 Nb6 5. f4 dxe5 6. fxe5 Nc6 7. Be3 Bf5 8. Nc3
+e6 9. Nf3 Qd7 10. Be2 O-O-O 11. O-O Bg4 12. c5 Nd5 13. Nxd5 Qxd5 14. b4 Qe4 15.
+Qb3 Nxd4 16. Nxd4 Bxe2 17. Rf4 Qd3 18. Qxd3 Bxd3 19. Rxf7 Bc4 20. Rc1 Bd5 21.
+a3 Rd7 22. Rcf1 Rxf7 23. Rxf7 c6 24. Ne2 Rg8 25. Nf4 Bc4 26. g4 g5 27. Nh5 Bd3
+28. Rf6 Kd7 29. Rf2 Kc7 30. Nf6 Rh8 31. Rd2 Bg6 32. Bxg5 h5 33. h3 hxg4 34.
+hxg4 Rh3 35. Rh2 Rxh2 36. Kxh2 a5 37. Kg3 axb4 38. axb4 Bg7 39. Kh4 Bxf6 40.
+Bxf6 Kd7 41. Kg5 Be4 42. Kh6 Ke8 43. Kg7 Bf3 44. g5 Be4 45. g6 Bd3 46. Bg5 Be4
+47. Kf6 Kf8 48. g7+ Kg8 49. Kxe6 Kxg7 50. Kd7 Kg6 51. Be3 Bf5+ 52. e6 1-0
+
+[Event "Badalona op"]
+[Site "Badalona"]
+[Date "1977.??.??"]
+[Round "2"]
+[White "Pineda Riba, Josep"]
+[Black "Ponce Navalon, Josep"]
+[Result "0-1"]
+[ECO "C36"]
+[PlyCount "114"]
+[EventDate "1977.08.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. f4 exf4 3. Nf3 d5 4. exd5 Nf6 5. Nc3 Nxd5 6. Nxd5 Qxd5 7. d4 Be7 8.
+c4 Qe4+ 9. Kf2 Bf5 10. Qa4+ Nc6 11. Bd2 O-O-O 12. Re1 Bh4+ 13. g3 fxg3+ 14.
+hxg3 Bxg3+ 15. Kxg3 Qg4+ 16. Kf2 Nxd4 17. Nxd4 Rxd4 18. Re8+ Rxe8 19. Qxe8+ Rd8
+20. Qe3 Qe4 21. Rh2 Qc2 22. Kg1 Qxb2 23. Ba5 Qd4 24. Qxd4 Rxd4 25. Bc3 Rg4+ 26.
+Rg2 Rxg2+ 27. Kxg2 f6 28. Kg3 Kd7 29. a3 Kd6 30. Bd4 c5 31. Bc3 Bd7 32. Kf3 Ke7
+33. Be1 a6 34. Bf2 b6 35. Bd3 h6 36. Bg3 g5 37. Bc7 b5 38. Bb6 Kd6 39. Bd8 Ke5
+40. Ke3 f5 41. Bc7+ Ke6 42. Bb6 Kd6 43. Bd8 f4+ 44. Kf3 Ke5 45. Ke2 bxc4 46.
+Bc2 Bf5 47. Ba4 Kd5 48. Bf6 g4 49. Be8 g3 50. Bf7+ Ke4 51. Bh5 Bh3 52. Bg6+ Kd5
+53. Bf7+ Kd6 54. Bg7 Bg4+ 55. Kf1 f3 56. Bxh6 Bh3+ 57. Ke1 f2+ 0-1
+
+[Event "Badalona op"]
+[Site "Badalona"]
+[Date "1982.??.??"]
+[Round "5"]
+[White "Eslon, Jaan"]
+[Black "Pineda Riba, Josep"]
+[Result "1/2-1/2"]
+[ECO "D20"]
+[PlyCount "72"]
+[EventDate "1982.08.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. d4 d5 2. c4 dxc4 3. Nc3 e5 4. e3 exd4 5. exd4 Nf6 6. Bxc4 Be7 7. Nf3 O-O 8.
+h3 Nbd7 9. O-O Nb6 10. Bb3 c6 11. Re1 Nfd5 12. Ne4 Bb4 13. Re2 Be6 14. a3 Bd6
+15. Nc5 Bxc5 16. dxc5 Nd7 17. Qc2 h6 18. Nd4 Qf6 19. Nxe6 fxe6 20. Bd2 Rae8 21.
+Rae1 Qd4 22. Ba2 Rf6 23. b4 Ref8 24. Rf1 Ne5 25. Bb1 Nc4 26. Qh7+ Kf7 27. Re4
+Qxd2 28. Rxc4 Ne3 29. Bg6+ Ke7 30. Qxg7+ Kd8 31. fxe3 Qxe3+ 32. Kh2 Rxf1 33.
+Rd4+ Kc8 34. Qd7+ Kb8 35. Qd6+ Kc8 36. Qd7+ Kb8 1/2-1/2
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1983.??.??"]
+[Round "?"]
+[White "Pineda Riba, Josep"]
+[Black "Noria Silvestre, Joaquin"]
+[Result "0-1"]
+[ECO "C35"]
+[PlyCount "64"]
+[EventDate "1983.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. f4 exf4 3. Nf3 Be7 4. Nc3 Bh4+ 5. Ke2 Be7 6. d4 g5 7. h4 g4 8. Ne5
+d6 9. Nd3 f3+ 10. gxf3 gxf3+ 11. Kxf3 Nf6 12. Bh3 Bxh3 13. Rxh3 Qd7 14. Qh1 Nc6
+15. Be3 d5 16. e5 Ng4 17. Rd1 O-O-O 18. Rg3 h5 19. Nf4 Qf5 20. Ke2 Nxe3 21.
+Kxe3 Nxd4 22. Rxd4 Qxe5+ 23. Kd3 c5 24. Qh3+ Kb8 25. Rxd5 Qxf4 26. Ke2 Bxh4 27.
+Rf3 Rde8+ 28. Re3 Qf2+ 29. Kd3 Rxe3+ 30. Qxe3 c4+ 31. Kd4 Bf6+ 32. Ke4 Re8+ 0-1
+
+[Event "Camp. Catalunya indiv. sf."]
+[Site "?"]
+[Date "1983.??.??"]
+[Round "6"]
+[White "Illescas Cordoba, Miquel"]
+[Black "Pineda Riba, Josep"]
+[Result "1-0"]
+[ECO "A80"]
+[PlyCount "41"]
+[EventDate "1983.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. d4 f5 2. g4 d5 3. gxf5 Bxf5 4. Bf4 Nf6 5. e3 c6 6. Bd3 Ne4 7. f3 e5 8. fxe4
+dxe4 9. Bxe5 exd3 10. cxd3 Nd7 11. Bf4 Qh4+ 12. Bg3 Qg5 13. Qd2 O-O-O 14. e4
+Bb4 15. Qxb4 Qc1+ 16. Kf2 Nc5 17. Qxc5 Qxb2+ 18. Ke3 Bg4 19. Qe5 Kd7 20. Qxg7+
+Kc8 21. Qc7# 1-0

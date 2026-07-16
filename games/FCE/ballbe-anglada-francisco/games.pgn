@@ -1,0 +1,224 @@
+[Event "Berga Tancat"]
+[Site "Berga"]
+[Date "1954.08.15"]
+[Round "7"]
+[White "Ballbe Anglada, Francisco"]
+[Black "Ribera Arnal, Angel"]
+[Result "1/2-1/2"]
+[ECO "B52"]
+[PlyCount "29"]
+[EventDate "1954.08.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Qxd7 5. O-O Nc6 6. c3 Nf6 7. Re1 e6 8.
+d4 cxd4 9. Nxd4 Be7 10. Bg5 O-O 11. Nxc6 Qxc6 12. Nd2 Rfe8 13. Qe2 Rad8 14.
+Rad1 d5 15. e5 1/2-1/2
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1956.??.??"]
+[Round "?"]
+[White "Ballbe Anglada, Francisco"]
+[Black "Vivas Font, Francisco"]
+[Result "1-0"]
+[ECO "C47"]
+[PlyCount "37"]
+[EventDate "1956.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nc3 Nc6 4. d4 exd4 5. Nd5 Nxd5 6. exd5 Ne7 7. d6 cxd6 8.
+Nxd4 Nc6 9. Nb5 Be7 10. Be3 O-O 11. Bc4 b6 12. Nxd6 Bxd6 13. Qxd6 Qe7 14. O-O-O
+Rd8 15. Rhe1 Qxd6 16. Rxd6 Kf8 17. Bg5 f6 18. Rxf6+ gxf6 19. Bh6# 1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1957.??.??"]
+[Round "?"]
+[White "Ballbe Anglada, Francisco"]
+[Black "Ribera Arnal, Angel"]
+[Result "1-0"]
+[ECO "A66"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "57"]
+[EventDate "1957.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e6 4. Nc3 exd5 5. cxd5 d6 6. e4 g6 7. f4 Bg7 8. e5 $6
+Nh5 $2 (8... dxe5 $1 9. fxe5 Nfd7 $11) 9. Bb5+ Bd7 10. Nf3 O-O 11. O-O Bg4 12.
+Re1 a6 13. e6 $5 Bxf3 $6 (13... Bd4+ $1 14. Kh1 $11) 14. Qxf3 Bd4+ 15. Be3 Bxc3
+16. bxc3 axb5 17. g4 Ng7 18. Bxc5 fxe6 19. dxe6 Nxe6 20. Qd5 dxc5 21. Qxe6+ Kh8
+22. Rad1 Qf6 $4 (22... Qc7 $1 $19) 23. Qxf6+ Rxf6 24. Rd8+ Kg7 25. g5 Rxf4 (
+25... Rf8 $142) 26. Re7+ Rf7 27. Ree8 Rc7 28. Rh8 Rxa2 $4 (28... Ra4 $142 $17)
+29. Rdf8 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "1960.??.??"]
+[Round "?"]
+[White "Ballbe Anglada, Francisco"]
+[Black "Borrell Vidal, Maximo"]
+[Result "1-0"]
+[ECO "C47"]
+[PlyCount "29"]
+[EventDate "1960.??.??"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. d4 exd4 5. Nd5 Nxe4 6. Qe2 f5 7. Ng5 d3 8.
+cxd3 Nd4 9. Qh5+ g6 10. Qh4 Nc2+ 11. Kd1 Nxf2+ 12. Qxf2 Nxa1 13. Qd4 Rg8 14.
+Nf6+ Ke7 15. Qe5# 1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1960.03.13"]
+[Round "3"]
+[White "Ribera Arnal, Angel"]
+[Black "Ballbe Anglada, Francisco"]
+[Result "0-1"]
+[ECO "E29"]
+[PlyCount "62"]
+[EventDate "1960.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. a3 Bxc3+ 6. bxc3 c5 7. Bd3 Nc6 8.
+Ne2 d6 9. e4 Ne8 10. O-O b6 11. Be3 g6 12. e5 dxe5 13. Be4 Bb7 14. dxc5 Qh4 15.
+f4 Nf6 16. Bf2 Qh6 17. Bxc6 Bxc6 18. fxe5 Ng4 19. h3 Nxe5 20. cxb6 Qg5 21. Bg3
+Qe3+ 22. Kh2 axb6 23. Nd4 Ba4 24. Qb1 Nxc4 25. Rf3 Qg5 26. Bf4 Qh5 27. g4 Qd5
+28. Rd3 Qe4 29. Bg3 e5 30. Nf3 Qe2+ 31. Kg1 Bc2 0-1
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1960.01.27"]
+[Round "9"]
+[White "Ballbe Anglada, Francisco"]
+[Black "Cherta Clos, Pere"]
+[Result "0-1"]
+[ECO "B20"]
+[PlyCount "50"]
+[EventDate "1960.??.??"]
+[EventType "tourn"]
+[EventRounds "14"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Ne2 e6 3. c4 d5 4. exd5 exd5 5. cxd5 Nf6 6. Nbc3 Nxd5 7. Qa4+ Nc6
+8. a3 Be7 9. g3 O-O 10. Bg2 Nb6 11. Qc2 Ne5 12. Nf4 Bg5 13. Nfd5 Nxd5 14. Bxd5
+Bh3 15. d4 cxd4 16. Bxg5 Qxg5 17. f4 Qe7 18. O-O-O dxc3 19. Rhe1 Rac8 20. Rxe5
+cxb2+ 21. Kb1 Rxc2 22. Rxe7 Bf5 23. Be4 Re2 24. Rd4 g6 25. g4 Rc8 0-1
+
+[Event "Llagostera"]
+[Site "Llagostera"]
+[Date "1960.??.??"]
+[Round "1"]
+[White "Ballbe Anglada, Francisco"]
+[Black "Sureda, Guillermo"]
+[Result "1-0"]
+[ECO "B12"]
+[PlyCount "39"]
+[EventDate "1960.??.??"]
+[EventType "tourn"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. e5 e6 4. Qg4 Ne7 5. Bd3 Nd7 6. Nf3 Nb6 7. Nc3 g6 8. Bg5
+Qc7 9. Bf6 Rg8 10. Qh3 h6 11. O-O Nf5 12. g4 Ne7 13. b3 h5 14. gxh5 gxh5+ 15.
+Kh1 Ng6 16. Ng5 h4 17. Rg1 Bg7 $4 18. Nxf7 $1 Kxf7 19. Bxg6+ Kf8 20. Qf3 1-0
+
+[Event "Camp. España eq. Final"]
+[Site "Barcelona"]
+[Date "1960.??.??"]
+[Round "1"]
+[White "Ballbe Anglada, Francisco"]
+[Black "Farre Mallofre, Miguel"]
+[Result "1/2-1/2"]
+[ECO "B12"]
+[PlyCount "46"]
+[EventDate "1960.09.??"]
+[EventType "team"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Ne2 e6 5. Nd2 c5 6. dxc5 Nc6 7. Nb3 Nxe5 8. Ned4
+Ne7 9. Bb5+ N5c6 10. Bf4 Qd7 11. O-O f6 12. Bd6 a6 13. Bxe7 Bxe7 14. Bxc6 bxc6
+15. Nxf5 exf5 16. Qe2 Kf7 17. c4 Rhe8 18. Rad1 Bf8 19. Qd3 Rad8 20. cxd5 Qxd5
+21. Qxd5+ Rxd5 22. Rxd5 cxd5 23. Rc1 d4 1/2-1/2
+
+[Event "Camp. España eq. Final"]
+[Site "Barcelona"]
+[Date "1960.??.??"]
+[Round "2"]
+[White "Ballbe Anglada, Francisco"]
+[Black "Lopez, Maximo"]
+[Result "1-0"]
+[ECO "B77"]
+[PlyCount "75"]
+[EventDate "1960.09.??"]
+[EventType "team"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Ne2 Nf6 3. Nbc3 d6 4. d4 cxd4 5. Nxd4 g6 6. Bc4 Bg7 7. f3 Nc6 8.
+Be3 O-O 9. Qd2 a6 10. O-O-O Na5 11. Bb3 Qc7 12. h4 Nxb3+ 13. cxb3 h5 14. Kb1
+Rd8 15. Rc1 Qb8 16. Na4 Nd7 17. g4 e5 18. Ne6 fxe6 19. gxh5 b5 20. Bh6 bxa4 21.
+Bxg7 Kxg7 22. Qg5 Rg8 23. Qe7+ Kh6 24. Rhg1 Nf8 25. Qf7 Qa7 26. Qxg8 Qg7 27.
+Qxg7+ Kxg7 28. hxg6 Bd7 29. bxa4 Bxa4 30. Rc7+ Nd7 31. b3 Bb5 32. a4 Bd3+ 33.
+Kc1 Rd8 34. Kd2 Bb1 35. h5 d5 36. Rxb1 dxe4 37. Ke3 exf3 38. Rd1 1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1961.??.??"]
+[Round "?"]
+[White "Ballbe Anglada, Francisco"]
+[Black "Borrell Vidal, Maximo"]
+[Result "1-0"]
+[ECO "C47"]
+[PlyCount "39"]
+[EventDate "1961.??.??"]
+[EventType "team"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. d4 exd4 5. Nd5 Nb4 6. Nxd4 Nfxd5 7. exd5 Qf6
+8. Bc4 Qxd4 9. Qe2+ Kd8 10. O-O Bd6 11. Re1 Qe5 12. Qxe5 Bxe5 13. Rxe5 Nxc2 14.
+Rb1 d6 15. Rg5 g6 16. Rg3 Bf5 17. Bg5+ Kd7 18. Rc3 a6 19. Rc1 Rae8 20. g4 {(...
+)} 1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1961.??.??"]
+[Round "?"]
+[White "Batalla Batalla, Ramon"]
+[Black "Ballbe Anglada, Francisco"]
+[Result "0-1"]
+[ECO "C63"]
+[PlyCount "42"]
+[EventDate "1961.??.??"]
+[EventType "team"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 f5 4. d4 fxe4 5. Nxe5 Nxe5 6. dxe5 c6 7. Bc4 Qa5+ 8.
+Bd2 Qxe5 9. Bxg8 Rxg8 10. Bc3 Qg5 11. O-O d5 12. f3 Bh3 13. Qe2 O-O-O 14. fxe4
+Bc5+ 15. Kh1 Bg4 16. Qe1 dxe4 17. Nd2 Rge8 18. Nb3 Bd6 19. h3 Re6 20. Qd2 e3
+21. Qe1 Bxh3 0-1
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1970.??.??"]
+[Round "?"]
+[White "Anguera Maestro, Jaime"]
+[Black "Ballbe Anglada, Francisco"]
+[Result "1-0"]
+[ECO "E18"]
+[PlyCount "63"]
+[EventDate "1970.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb7 5. Bg2 Be7 6. O-O O-O 7. Nc3 Ne4 8. Qc2
+Nxc3 9. bxc3 f5 10. d5 Qc8 11. Nd4 Na6 12. e4 Nc5 13. exf5 e5 14. Nb3 Qe8 15.
+Nxc5 Bxc5 16. Be3 d6 17. Bxc5 bxc5 18. f4 Ba6 19. fxe5 Bxc4 20. Rf4 Qb5 21. e6
+Bd3 22. Qf2 c4 23. g4 Qb6 24. Bf1 Rab8 25. Rd4 h5 26. Bxd3 cxd3 27. g5 d2 28.
+f6 Qb2 29. f7+ Kh7 30. Rd1 Qc2 31. Qxd2 Qg6 32. Qd3 1-0

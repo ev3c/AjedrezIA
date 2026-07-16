@@ -1,0 +1,419 @@
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.13"]
+[Round "1"]
+[White "Riu Lopez, S."]
+[Black "Escofet Llongueras, J."]
+[Result "1-0"]
+[ECO "C02"]
+[WhiteElo "1503"]
+[BlackElo "1793"]
+[PlyCount "115"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. a3 Bd7 7. b4 cxd4 8. cxd4 a6
+9. Nc3 Rc8 10. Bb2 Na7 11. Rc1 Ne7 12. Be2 Nb5 13. Nxb5 Bxb5 14. Rxc8+ Nxc8 15.
+O-O Be7 16. Qd2 Na7 17. Rc1 Bxe2 18. Qxe2 Kd7 19. Qc2 Rc8 20. Qa4+ Qb5 21.
+Qxb5+ Nxb5 22. Rxc8 Kxc8 23. Kf1 f6 24. Ke2 Kd7 25. Kd3 Na7 26. g4 Nc8 27. Kc3
+b5 28. Nd2 Nb6 29. Nb3 fxe5 30. dxe5 Na4+ 31. Kc2 Bg5 32. Bc1 Be7 33. f4 Nb6
+34. Kc3 Nc4 35. Kd4 Kc6 36. h3 Bh4 37. Kd3 Bf2 38. Nd4+ Kd7 39. Nf3 h6 40. Nd2
+Be3 41. Nb3 Bf2 42. Ke2 Bg1 43. Kf1 Bb6 44. Ke2 a5 45. bxa5 Nxa5 46. Nxa5 Bxa5
+47. Bd2 Bd8 48. Kd3 Kc6 49. f5 Kd7 50. Bb4 Bh4 51. Bf8 Be7 52. Bxg7 exf5 53.
+gxf5 Bxa3 54. Bxh6 Bb2 55. Bf4 b4 56. Kc2 Bc3 57. e6+ Ke8 58. Bd2 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.14"]
+[Round "2"]
+[White "Torrents Señal, M."]
+[Black "Riu Lopez, S."]
+[Result "1-0"]
+[ECO "D32"]
+[WhiteElo "1829"]
+[BlackElo "1503"]
+[PlyCount "73"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 c5 5. cxd5 exd5 6. Bf4 Nc6 7. e3 Be7 8. Bd3
+O-O 9. Rc1 cxd4 10. Nxd4 Nxd4 11. exd4 Bb4 12. O-O Re8 13. Nb5 Ba5 14. Bc7 Bxc7
+15. Nxc7 Be6 16. Nxa8 Qxa8 17. Rc3 Qd8 18. h3 Qe7 19. Qc2 Bd7 20. a3 Bc6 21. b4
+a6 22. Bxa6 bxa6 23. Rxc6 Qb7 24. Rc7 Qb6 25. Qc5 Qe6 26. Rc6 Qe2 27. Rc8 h6
+28. Rxe8+ Qxe8 29. Rc1 Qe6 30. Qc8+ Qxc8 31. Rxc8+ Kh7 32. Rc6 Ne8 33. Rxa6 Nc7
+34. Rd6 Nb5 35. Rxd5 Nxa3 36. Rc5 Kg6 37. b5 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.15"]
+[Round "3"]
+[White "Riu Lopez, S."]
+[Black "Molina Cabaleiro, JJ."]
+[Result "1-0"]
+[ECO "B01"]
+[WhiteElo "1503"]
+[BlackElo "1801"]
+[PlyCount "37"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qe5+ 4. Be2 c6 5. Nf3 Qc7 6. d3 e6 7. Be3 Nf6 8.
+Qd2 Bd6 9. O-O Nd5 10. Nxd5 exd5 11. Qc3 O-O 12. Bd4 f6 13. Bc5 Bxc5 14. Qxc5
+Nd7 15. Qb4 Re8 16. Rfe1 a5 17. Qh4 Nc5 18. d4 Ne4 19. Bd3 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.16"]
+[Round "4"]
+[White "Albert Cristobal, J."]
+[Black "Riu Lopez, S."]
+[Result "1-0"]
+[ECO "C22"]
+[WhiteElo "1802"]
+[BlackElo "1503"]
+[PlyCount "97"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e5 2. d4 exd4 3. Qxd4 Nc6 4. Qe3 Nf6 5. Nc3 Bb4 6. Bd2 O-O 7. O-O-O Re8
+8. Qg3 Nxe4 9. Nxe4 Rxe4 10. c3 Be7 11. f4 d6 12. Bd3 Bh4 13. Qf3 Ra4 14. Kb1
+Be6 15. a3 Qd7 16. h3 g6 17. g4 Bf6 18. Ne2 Re8 19. Rhg1 Ra5 20. Ng3 Bd5 21.
+Qf2 a6 22. f5 Bg7 23. f6 Bb3 24. Rde1 Rxe1+ 25. Rxe1 Bh8 26. g5 Ne5 27. Bf1 Be6
+28. h4 Ng4 29. Qa7 Qc8 30. Bh3 Re5 31. Rxe5 dxe5 32. Qg1 h6 33. Ne4 Bf5 34. Ka1
+hxg5 35. hxg5 Bxe4 36. Bxg4 Bf5 37. Be2 Qd7 38. Qe3 Qd5 39. c4 Qh1+ 40. Bc1 c6
+41. Ka2 e4 42. Qf4 Qg2 43. Bd1 Qg1 44. Bb3 b5 45. Be3 Qe1 46. cxb5 cxb5 47.
+Qb8+ Kh7 48. Bxf7 Qxe3 49. Qg8# 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.17"]
+[Round "5"]
+[White "Riu Lopez, S."]
+[Black "Ferres Saez, J."]
+[Result "0-1"]
+[ECO "B08"]
+[WhiteElo "1503"]
+[BlackElo "1752"]
+[PlyCount "68"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 g6 2. d4 Bg7 3. Nf3 d6 4. Nc3 Nf6 5. Be2 O-O 6. O-O a6 7. Be3 b5 8. a3
+Bb7 9. Bd3 Nbd7 10. Re1 c5 11. dxc5 Nxc5 12. Bxc5 dxc5 13. Bf1 Qc7 14. Qe2 e5
+15. Nd2 Rfd8 16. f3 Bh6 17. Rad1 Bc6 18. Kh1 b4 19. axb4 cxb4 20. Ncb1 Bb5 21.
+Qf2 Bxf1 22. Rxf1 Qxc2 23. b3 Rd3 24. Rc1 Qb2 25. Rcd1 Rad8 26. Nc4 Qxf2 27.
+Rde1 Qc2 28. Nxe5 Rxb3 29. h3 Rb2 30. Rg1 Bf4 31. Ng4 Nxg4 32. fxg4 Rd3 33. h4
+Rh3+ 34. gxh3 Qh2# 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.18"]
+[Round "6"]
+[White "Sanchez Paz, J."]
+[Black "Riu Lopez, S."]
+[Result "0-1"]
+[ECO "D60"]
+[WhiteElo "1710"]
+[BlackElo "1503"]
+[PlyCount "100"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. Nf3 c6 6. e3 Be7 7. Bd3 O-O 8. O-O
+h6 9. Bf4 Re8 10. c5 Nh7 11. Qc2 Ng5 12. Bg3 Nxf3+ 13. gxf3 Bh4 14. e4 Bxg3 15.
+fxg3 e5 16. exd5 cxd5 17. dxe5 Nxe5 18. Bb5 Rf8 19. Rad1 Be6 20. Qe2 Ng6 21. f4
+Qc8 22. b4 Bg4 23. Qd3 Bxd1 24. Rxd1 d4 25. Ne4 b6 26. Nd6 Qc7 27. Nxf7 bxc5
+28. Qxg6 Qxf7 29. Qd3 Kh8 30. Bc4 Qc7 31. bxc5 Qxc5 32. Qxd4 Qxd4+ 33. Rxd4
+Rfd8 34. Re4 Rd1+ 35. Kg2 Rad8 36. Bb3 R8d2+ 37. Kh3 Rh1 38. Kg4 Rd8 39. h4 Rg1
+40. Re7 a6 41. Ra7 h5+ 42. Kxh5 Rxg3 43. Rxa6 Rf8 44. Ra5 Kh7 45. Bc2+ g6+ 46.
+Bxg6+ Rxg6 47. Ra7+ Rg7 48. Rxg7+ Kxg7 49. Kg5 Ra8 50. f5 Rxa2 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.19"]
+[Round "7"]
+[White "Riu Lopez, S."]
+[Black "Sequera Morales, GG."]
+[Result "1/2-1/2"]
+[ECO "C67"]
+[WhiteElo "1503"]
+[BlackElo "1726"]
+[PlyCount "113"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. Nxe5 Be7
+8. Nc3 O-O 9. Be3 f6 10. Nf3 Bg4 11. h3 Bh5 12. d5 f5 13. dxc6 bxc6 14. Bf4 Qe8
+15. Qd3 Rd8 16. Ne5 Bf6 17. Qe3 Bxe5 18. Qxe5 Qg6 19. Qe3 Rde8 20. Qg3 Qe6 21.
+f3 Rf6 22. Rfe1 Qd7 23. Rxe8+ Qxe8 24. Re1 Qf7 25. Qf2 a6 26. Qe2 Nb5 27. Nxb5
+cxb5 28. b3 Kf8 29. Qd3 Kg8 30. Qd8+ Qf8 31. Qxc7 h6 32. Rd1 Kh7 33. Rd7 Rf7
+34. Rxf7 Qxf7 35. Qxf7 Bxf7 36. a3 g5 37. Be5 f4 38. b4 Kg6 39. Kf2 Be6 40. Bd6
+h5 41. h4 Kf5 42. hxg5 Kxg5 43. g3 fxg3+ 44. Bxg3 h4 45. Bh2 Kf5 46. Ke3 Bd5
+47. Bf4 h3 48. Bg3 Be6 49. Kd4 Bf7 50. Kc5 Be6 51. Kb6 Bc8 52. Ka5 Ke6 53. a4
+bxa4 54. Kxa4 Bd7+ 55. Ka5 Bb5 56. Kb6 Kd5 57. c3 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.20"]
+[Round "8"]
+[White "Subirana Santos, M."]
+[Black "Riu Lopez, S."]
+[Result "1-0"]
+[ECO "A20"]
+[WhiteElo "1759"]
+[BlackElo "1503"]
+[PlyCount "149"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. c4 e5 2. g3 Nf6 3. Bg2 Nc6 4. Nf3 Bc5 5. O-O d6 6. d3 Be6 7. Nc3 O-O 8. a3
+a5 9. h3 Qd7 10. Ng5 Bf5 11. e4 Bg6 12. Kh2 h6 13. Nf3 Nd4 14. Nxd4 Bxd4 15.
+Rb1 Rab8 16. Bd2 c6 17. b4 axb4 18. axb4 Rfd8 19. Ne2 Ba7 20. f4 Bb6 21. f5 Bh7
+22. g4 d5 23. c5 Ba7 24. g5 hxg5 25. Bxg5 dxe4 26. dxe4 Qxd1 27. Rfxd1 Rxd1 28.
+Rxd1 Ne8 29. Nc3 b6 30. Rd7 Ra8 31. b5 f6 32. Be3 bxc5 33. bxc6 Bb6 34. Nd5 Ba5
+35. Bxc5 Kh8 36. Bb6 Bxb6 37. Nxb6 Rb8 38. Nd5 Rc8 39. Ne7 Rc7 40. Rxc7 Nxc7
+41. Nd5 Nb5 42. c7 Nd6 43. Ne7 Bg8 44. c8=Q Nxc8 45. Nxc8 Kh7 46. Kg3 Kh6 47.
+Bf3 Bf7 48. Nd6 Bg8 49. Be2 g6 50. Bc4 Bh7 51. Be6 Kh5 52. Ne8 Kg5 53. h4+ Kh6
+54. Nxf6 gxf5 55. exf5 Kg7 56. Ng4 e4 57. Kf4 e3 58. Kxe3 Kf8 59. Kf4 Kg7 60.
+Kg5 Kh8 61. Nf6 Bg6 62. fxg6 Kg7 63. Ng4 Kh8 64. Bf5 Kg7 65. h5 Kg8 66. h6 Kh8
+67. Kf6 Kg8 68. Bc8 Kh8 69. Ne3 Kg8 70. g7 Kh7 71. Kf7 Kxh6 72. g8=Q Kh5 73.
+Kf6 Kh4 74. Ng2+ Kh5 75. Qg5# 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.21"]
+[Round "9"]
+[White "Demestres Lopez, R."]
+[Black "Riu Lopez, S."]
+[Result "0-1"]
+[ECO "B33"]
+[WhiteElo "1668"]
+[BlackElo "1503"]
+[PlyCount "164"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nxc6 bxc6 6. Nc3 g6 7. Bg5 Bg7 8.
+Qd2 O-O 9. Bh6 Qb6 10. Bxg7 Kxg7 11. Be2 d6 12. b3 Rd8 13. O-O Be6 14. Bf3 Rac8
+15. Qe2 Qc5 16. Na4 Qb5 17. Nc3 Qc5 18. Na4 Qa5 19. c4 Qe5 20. Rfe1 d5 21. exd5
+Qxe2 22. Rxe2 cxd5 23. cxd5 Nxd5 24. Rd2 Nb4 25. Rxd8 Rxd8 26. Nc5 Bf5 27. a3
+Nc2 28. Rc1 Nxa3 29. g4 Bc2 30. b4 Rd4 31. Ra1 Nb5 32. Ra2 Bd1 33. Bxd1 Rxd1+
+34. Kg2 Rd4 35. h3 Rxb4 36. Ra5 Rb1 37. Kh2 Rb2 38. Kg2 g5 39. Kg3 Kg6 40. Kg2
+h5 41. Nd3 Rb1 42. Ne5+ Kf6 43. Nc6 hxg4 44. hxg4 Rb3 45. Nxa7 Nxa7 46. Rxa7 e6
+47. Ra5 Rd3 48. Rb5 Rd5 49. Rb7 Rc5 50. Ra7 Kg6 51. Ra6 Re5 52. Kg3 f5 53. f3
+Kf6 54. Ra8 Rd5 55. Ra3 Rd1 56. Kg2 Ke5 57. Ra5+ Rd5 58. Ra2 Rd4 59. Ra5+ Kf4
+60. Ra2 fxg4 61. fxg4 Kxg4 62. Re2 Kf5 63. Rf2+ Rf4 64. Re2 e5 65. Ra2 g4 66.
+Ra8 Rf3 67. Ra4 e4 68. Ra8 Kf4 69. Rg8 g3 70. Rf8+ Ke3 71. Ra8 Ke2 72. Ra2+ Ke3
+73. Ra3+ Kf4 74. Ra8 Rf2+ 75. Kg1 Kf3 76. Ra3+ e3 77. Ra8 g2 78. Rf8+ Ke2 79.
+Ra8 Ke1 80. Ra1+ Ke2 81. Ra2+ Kf3 82. Ra8 Rf1+ 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.14"]
+[Round "2.31"]
+[White "Riu Lopez, S."]
+[Black "Torras Chicon, A."]
+[Result "0-1"]
+[ECO "C87"]
+[WhiteElo "1882"]
+[BlackElo "1996"]
+[PlyCount "104"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. c3 b5 7. Bc2 d6 8. h3
+O-O 9. Re1 Re8 10. d4 Bf8 11. Bg5 h6 12. Bh4 Bb7 13. Nbd2 Nb8 14. Bxf6 Qxf6 15.
+Nf1 Nd7 16. Ng3 g6 17. Qd2 Rad8 18. Rad1 Nb6 19. b3 c5 20. h4 cxd4 21. cxd4 Bc8
+22. Qa5 Nd7 23. h5 Nb8 24. hxg6 fxg6 25. dxe5 dxe5 26. Rxd8 Rxd8 27. Nxe5 Bc5
+28. Nf3 Bb6 29. Qa3 Nc6 30. e5 Qf7 31. Qb2 Nd4 32. Bd1 Bb7 33. Nxd4 Bxd4 34.
+Qc2 Re8 35. Bg4 Rxe5 36. Rxe5 Bxe5 37. Qe2 Qf4 38. Be6+ Kg7 39. Qd3 Bd6 40.
+Qc3+ Be5 41. Qc5 Kf6 42. Qb6 Qc1+ 43. Kh2 Qc7 44. Qxc7 Bxc7 45. Bg4 h5 46. Be2
+h4 47. Bf3 Bxf3 48. gxf3 Ke6 49. Kg2 hxg3 50. fxg3 Kd5 51. Kf2 Kd4 52. g4 Kc3
+0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.15"]
+[Round "3.52"]
+[White "Izquierdo Pujol, P."]
+[Black "Riu Lopez, S."]
+[Result "0-1"]
+[ECO "C25"]
+[WhiteElo "1721"]
+[BlackElo "1882"]
+[PlyCount "24"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 e5 2. Nc3 Nc6 3. f4 Bb4 4. fxe5 Bxc3 5. bxc3 Qh4+ 6. Ke2 Qxe4+ 7. Kf2
+Nxe5 8. Nf3 Ng4+ 9. Kg1 Ne5 10. Nxe5 Qxe5 11. d4 Qe6 12. Ba3 Qe3# 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.16"]
+[Round "4.24"]
+[White "Riu Lopez, S."]
+[Black "Corominas Garrido, A."]
+[Result "1-0"]
+[ECO "B54"]
+[WhiteElo "1882"]
+[BlackElo "2034"]
+[PlyCount "67"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 d6 5. Nc3 a6 6. Be3 Bd7 7. Bc4 e6 8. O-O
+Nf6 9. Bb3 Be7 10. h3 O-O 11. f4 Na5 12. Kh1 Nxb3 13. Nxb3 b5 14. a3 Bc6 15. e5
+dxe5 16. fxe5 Ne4 17. Qg4 h5 18. Qf3 Nxc3 19. Qxc6 Nd5 20. Rfd1 Qb8 21. Rxd5
+exd5 22. Qxd5 Qc8 23. Nd4 Rd8 24. Qf3 g6 25. Rf1 Rf8 26. Bh6 Qc5 27. Bxf8 Rxf8
+28. Qf4 Qd5 29. c3 Bc5 30. Nf3 Re8 31. Ng5 Rxe5 32. Nxf7 Re2 33. Qb8+ Kg7 34.
+Qh8# 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.17"]
+[Round "5.14"]
+[White "Petit Montes, M."]
+[Black "Riu Lopez, S."]
+[Result "1-0"]
+[ECO "C45"]
+[WhiteElo "2040"]
+[BlackElo "1882"]
+[PlyCount "79"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Qh4 5. Nc3 Nf6 6. g3 Qh5 7. Qxh5 Nxh5 8.
+Ndb5 Nb4 9. Nxc7+ Kd8 10. Nxa8 Nxc2+ 11. Kd1 Nxa1 12. Be2 Nf6 13. e5 Ng8 14.
+Nd5 d6 15. Bg5+ Be7 16. Nxe7 Nxe7 17. exd6 f6 18. dxe7+ Kxe7 19. Be3 Rd8+ 20.
+Kc1 Bf5 21. Bc5+ Kf7 22. g4 Rxa8 23. gxf5 Rc8 24. Bc4+ Ke8 25. Re1+ Kd8 26.
+Rd1+ Ke8 27. Bb5+ Kf7 28. Rd7+ Kg8 29. Bc4+ Kh8 30. Rxb7 h6 31. Kb1 Rd8 32. Be3
+a5 33. b3 a4 34. Kxa1 a3 35. Kb1 h5 36. Kc2 h4 37. Ra7 h3 38. Rxa3 g6 39. fxg6
+f5 40. Ra7 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.18"]
+[Round "6.30"]
+[White "Riu Lopez, S."]
+[Black "Ferres Saez, J."]
+[Result "0-1"]
+[ECO "B15"]
+[WhiteElo "1882"]
+[BlackElo "1965"]
+[PlyCount "82"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 c6 4. Nf3 d5 5. e5 f6 6. Be2 Nh6 7. O-O O-O 8. exf6
+exf6 9. Bf4 g5 10. Bg3 g4 11. Nd2 f5 12. Bf4 Nd7 13. Nb3 Nf6 14. Qd2 Nf7 15.
+Rad1 Nh5 16. Be3 Qd6 17. g3 b6 18. Rfe1 Bd7 19. Bf1 Qg6 20. Bg2 Nd6 21. Nc1 Nc4
+22. Qe2 Nxb2 23. Rd2 Nc4 24. Rdd1 Rae8 25. Qf1 Nxe3 26. fxe3 Bh6 27. Qf2 Nf6
+28. Nd3 Ne4 29. Nxe4 fxe4 30. Nf4 Bxf4 31. gxf4 Qf6 32. Qe2 h5 33. Kh1 Qh4 34.
+Rg1 g3 35. Bf1 Bg4 36. Rxg3 Kh8 37. Qe1 Bxd1 38. Rg8+ Rxg8 39. Qxh4 Bf3+ 40.
+Bg2 Rxg2 41. Qf6+ Rg7# 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.19"]
+[Round "7.37"]
+[White "Pujal Moncho, J."]
+[Black "Riu Lopez, S."]
+[Result "1/2-1/2"]
+[ECO "A36"]
+[WhiteElo "1997"]
+[BlackElo "1882"]
+[PlyCount "68"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. c4 e5 2. Nc3 d6 3. e4 c5 4. d3 g6 5. g3 Bg7 6. Bg2 Ne7 7. Nge2 Nbc6 8. O-O
+O-O 9. h3 h6 10. Be3 f5 11. f4 Kh7 12. Qd2 Be6 13. Nd5 Qd7 14. Kh2 exf4 15.
+Nexf4 Bxd5 16. cxd5 Nd4 17. Bxd4 Bxd4 18. Ne6 Rfe8 19. Nxd4 cxd4 20. Qf4 Rf8
+21. e5 dxe5 22. Qxe5 Rfd8 23. Rfe1 Nxd5 24. Qxd5 Qxd5 25. Bxd5 Rxd5 26. Re7+
+Kg8 27. Rc1 Rd6 28. Rcc7 Rad8 29. Rxb7 Rb6 30. Rg7+ Kf8 31. Rbf7+ Ke8 32. Rxa7
+Rxb2+ 33. Kg1 Kf8 34. Raf7+ Ke8 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.20"]
+[Round "8.40"]
+[White "Negreira Rodriguez, D."]
+[Black "Riu Lopez, S."]
+[Result "0-1"]
+[ECO "C50"]
+[WhiteElo "1786"]
+[BlackElo "1882"]
+[PlyCount "68"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d3 d6 5. Nc3 h6 6. a3 Nf6 7. Be3 Bb6 8. Qd2
+O-O 9. h3 Be6 10. Nd5 Bxd5 11. exd5 Nd4 12. O-O-O Qd7 13. Nh2 Nf5 14. g4 Bxe3
+15. fxe3 Nh4 16. Qf2 Ng6 17. Rdg1 b5 18. Bb3 a5 19. g5 hxg5 20. Ng4 Nxg4 21.
+Rxg4 f6 22. a4 bxa4 23. Bxa4 Qe7 24. c3 Rab8 25. Rhg1 Qf7 26. Bc6 Ne7 27. Bd7
+Nxd5 28. Bf5 Ne7 29. Kb1 Nxf5 30. Qxf5 Rxb2+ 31. Kxb2 Rb8+ 32. Ka1 Qb3 33. R4g2
+Qa3+ 34. Ra2 Qxc3+ 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.21"]
+[Round "9.30"]
+[White "Riu Lopez, S."]
+[Black "Calafell Marques, J."]
+[Result "1-0"]
+[ECO "B80"]
+[WhiteElo "1882"]
+[BlackElo "1950"]
+[PlyCount "83"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 b5 7. f3 e6 8. Qd2
+Bd7 9. Be2 b4 10. Nd1 e5 11. Nb3 Nc6 12. O-O a5 13. Bc4 Be7 14. c3 O-O 15. cxb4
+axb4 16. Nf2 Qb8 17. Rfd1 Be6 18. Rac1 Na5 19. Nxa5 Rxa5 20. b3 Qa8 21. Bxe6
+fxe6 22. Qxb4 Rb8 23. Qc4 d5 24. Qc7 Kf7 25. exd5 Nxd5 26. Qxe5 Nxe3 27. Qxe3
+Rxa2 28. Qf4+ Kg8 29. Rc7 Bf6 30. Rdd7 Ra1+ 31. Nd1 Kh8 32. Qc4 Bd8 33. Qc3
+Rxd1+ 34. Rxd1 Bxc7 35. Qxc7 h6 36. Qe7 Rxb3 37. Rd8+ Qxd8 38. Qxd8+ Kh7 39.
+Qc8 Rb6 40. Kf2 Kg6 41. Qe8+ Kf6 42. Qd8+ 1-0

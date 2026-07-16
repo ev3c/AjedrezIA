@@ -1,0 +1,147 @@
+[Event "Ciutat de Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "2"]
+[White "Garcia Baeza, M."]
+[Black "Garcia Cano, A."]
+[Result "0-1"]
+[ECO "A41"]
+[WhiteElo "1765"]
+[BlackElo "2335"]
+[PlyCount "54"]
+[EventDate "1996.??.??"]
+[EventType "rapid"]
+
+1. Nf3 d6 2. c4 e5 3. e4 g6 4. d4 Bg7 5. Be3 exd4 6. Nxd4 Ne7 7. Nc3 O-O 8. Qc2
+Nbc6 9. Nxc6 Nxc6 10. a3 Be6 11. Rd1 Qh4 12. Be2 Ne5 13. Nd5 Ng4 14. g3 Nxe3
+15. Nxe3 Qf6 16. Rd2 Bh3 17. Nd5 Qd8 18. Nf4 Bd7 19. O-O Bh6 20. Rfd1 Bc6 21.
+Bf3 Bxf4 22. gxf4 Qh4 23. Bg2 Qxf4 24. Re2 Rae8 25. f3 Re5 26. h3 Rfe8 27. Rf2
+Bd7 0-1
+
+[Event "Ct. Barcelona Gent Gran"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "1"]
+[White "Garcia Baeza, M."]
+[Black "Martin Gracia, J."]
+[Result "0-1"]
+[ECO "A30"]
+[WhiteElo "1840"]
+[BlackElo "2040"]
+[PlyCount "102"]
+[EventDate "1996.??.??"]
+
+1. Nf3 c5 2. c4 g6 3. e3 Bg7 4. Be2 Nc6 5. O-O d6 6. Nc3 Nh6 7. a3 O-O 8. Rb1
+a5 9. Qb3 Ng4 10. h3 Nge5 11. Rd1 Bf5 12. d3 Rb8 13. Rd2 Qd7 14. Kh2 Nxf3+ 15.
+Bxf3 Be5+ 16. Kg1 h5 17. Nd5 h4 18. Qd1 Bg7 19. b3 Ne5 20. Bb2 a4 21. Nb6 Qe8
+22. Nxa4 b5 23. cxb5 Qxb5 24. Bd5 e6 25. Nc3 Qb6 26. e4 Bxh3 27. gxh3 exd5 28.
+b4 cxb4 29. Nxd5 Qd8 30. Nxb4 Qg5+ 31. Kf1 Nf3 32. Rc2 Qg1+ 33. Ke2 Qg2 34.
+Bxg7 Kxg7 35. Ke3 Ne5 36. Kd4 Qxh3 37. Qe2 Nf3+ 38. Kc3 Rbc8+ 39. Kb2 Nd4 40.
+Qe3 Qxe3 41. fxe3 Nxc2 42. Nxc2 h3 43. Rh1 Rh8 44. Ne1 g5 45. Nf3 Kf6 46. Nh2
+Rh4 47. Rf1+ Ke6 48. a4 g4 49. Rf4 Rch8 50. Nxg4 Rxg4 51. Rxg4 h2 0-1
+
+[Event "Ct. Barcelona Gent Gran"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "2"]
+[White "Tomas Batet, J."]
+[Black "Garcia Baeza, M."]
+[Result "1-0"]
+[ECO "C00"]
+[WhiteElo "2165"]
+[BlackElo "1840"]
+[PlyCount "43"]
+[EventDate "1996.??.??"]
+
+1. e4 e6 2. c4 c5 3. Nf3 Nc6 4. d4 cxd4 5. Nxd4 a6 6. Be3 g6 7. Nc3 Bg7 8. Be2
+Nge7 9. O-O O-O 10. f4 f5 11. e5 d6 12. Nxc6 Nxc6 13. exd6 e5 14. Qd5+ Kh8 15.
+Rad1 Qd7 16. Na4 Rb8 17. Nb6 Qf7 18. d7 Qxd5 19. Rxd5 Ne7 20. d8=Q Nxd5 21.
+Qxd5 e4 22. Qd6 1-0
+
+[Event "Ct. Barcelona Gent Gran"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "3"]
+[White "Garcia Baeza, M."]
+[Black "Marfull Massana, M."]
+[Result "1/2-1/2"]
+[ECO "A17"]
+[WhiteElo "1840"]
+[PlyCount "44"]
+[EventDate "1996.??.??"]
+
+1. Nf3 e6 2. c4 Nf6 3. Nc3 Bb4 4. Qc2 Nc6 5. e3 h6 6. a3 Bxc3 7. Qxc3 d5 8. b4
+b6 9. Bb2 Rg8 10. d3 Bb7 11. Be2 Qe7 12. O-O O-O-O 13. Nd2 Rd7 14. Rfd1 d4 15.
+exd4 Nxd4 16. Bf1 Nh5 17. c5 Qg5 18. Ne4 Qd5 19. cxb6 axb6 20. Qc4 Rgd8 21.
+Qxd5 Rxd5 22. Bxd4 Rxd4 1/2-1/2
+
+[Event "Ct. Barcelona Gent Gran"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "4"]
+[White "Arias Velasco, J."]
+[Black "Garcia Baeza, M."]
+[Result "1-0"]
+[ECO "C02"]
+[BlackElo "1840"]
+[PlyCount "89"]
+[EventDate "1996.??.??"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. f4 cxd4 5. Bd3 Nc6 6. Nf3 Nge7 7. O-O g6 8. a3 a6
+9. b4 b5 10. Nbd2 Bb7 11. Nb3 Nc8 12. Nfxd4 Nb6 13. Nxc6 Bxc6 14. Na5 Rc8 15.
+Be3 Ba8 16. Bd4 Be7 17. Nb3 O-O 18. Nc5 Bxc5 19. Bxc5 Re8 20. Qg4 Nc4 21. Bd4
+Bc6 22. Rf3 Bd7 23. Rh3 Qe7 24. Bc5 Rxc5 25. bxc5 Qxc5+ 26. Kh1 Ne3 27. Qh4 h5
+28. Qg5 Ng4 29. Rf3 Kh7 30. Qxh5+ Nh6 31. Rg3 Rg8 32. Rh3 Qf8 33. Qf3 Rh8 34.
+Qe3 Kg7 35. Rg3 Qa8 36. Qd4 Kh7 37. Rh3 Kg7 38. Rf1 Nf5 39. Bxf5 gxf5 40. Rff3
+Rxh3 41. Rxh3 Qc6 42. Rc3 Qa8 43. Qc5 b4 44. Rg3+ Kh7 45. Qe7 1-0
+
+[Event "Ct. Barcelona Gent Gran"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "5"]
+[White "Garcia Baeza, M."]
+[Black "Segura, F."]
+[Result "0-1"]
+[ECO "A35"]
+[WhiteElo "1840"]
+[PlyCount "36"]
+[EventDate "1996.??.??"]
+
+1. Nf3 c5 2. c4 Nc6 3. Nc3 a6 4. d4 cxd4 5. Nxd4 e6 6. e4 Bc5 7. Be3 Nge7 8.
+Nxc6 bxc6 9. Bxc5 Rb8 10. Qc2 Ng6 11. Bd3 d6 12. Ba3 c5 13. O-O Qf6 14. Ne2 O-O
+15. b3 e5 16. Bb2 Nh4 17. Ng3 Bh3 18. gxh3 Qf3 0-1
+
+[Event "Ct. Barcelona Gent Gran"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "6"]
+[White "Requesens Burzon, J."]
+[Black "Garcia Baeza, M."]
+[Result "1/2-1/2"]
+[ECO "A13"]
+[WhiteElo "1845"]
+[BlackElo "1840"]
+[PlyCount "26"]
+[EventDate "1996.??.??"]
+
+1. Nf3 e6 2. c4 c5 3. g3 Nc6 4. Bg2 g6 5. O-O Bg7 6. e3 Nge7 7. d3 Qb6 8. Nc3
+O-O 9. a3 Qc7 10. Qc2 a6 11. Rb1 Rb8 12. b3 b6 13. Bb2 Nf5 1/2-1/2
+
+[Event "Ct. Barcelona Gent Gran"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "7"]
+[White "Garcia Albareda, A."]
+[Black "Garcia Baeza, M."]
+[Result "0-1"]
+[ECO "A04"]
+[WhiteElo "1900"]
+[BlackElo "1840"]
+[PlyCount "66"]
+[EventDate "1996.??.??"]
+
+1. Nf3 f5 2. e3 Nf6 3. b3 d6 4. Bb2 e5 5. d3 g6 6. Be2 Bg7 7. O-O O-O 8. c4 Re8
+9. Nc3 Nbd7 10. Qc2 Nf8 11. Rfd1 c6 12. h3 Qc7 13. e4 Be6 14. exf5 Bxf5 15. Nh4
+Be6 16. Rac1 Rad8 17. Nf3 b6 18. Ne4 Nxe4 19. dxe4 Re7 20. Qd2 Red7 21. Ng5 Qb7
+22. Nxe6 Nxe6 23. Bg4 Re7 24. Bxe6+ Rxe6 25. Qg5 Bf6 26. Qg4 Re7 27. f4 Qd7 28.
+Qg3 exf4 29. Qf2 Bxb2 30. Qxb2 Rxe4 31. Rd3 Qe6 32. Rd2 g5 33. Kf2 Re8 0-1

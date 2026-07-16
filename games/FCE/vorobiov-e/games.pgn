@@ -1,0 +1,470 @@
+[Event "Sitges op"]
+[Site "?"]
+[Date "2012.07.20"]
+[Round "1"]
+[White "Vorobiov, E."]
+[Black "Abad Sanmartin, J."]
+[Result "1-0"]
+[ECO "E10"]
+[WhiteElo "2586"]
+[BlackElo "2099"]
+[PlyCount "75"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Ne4 4. Qc2 f5 5. d5 exd5 6. cxd5 c6 7. Nc3 Bb4 8. Bd2
+Bxc3 9. Bxc3 O-O 10. Rd1 d6 11. dxc6 Nxc6 12. e3 Be6 13. Bd3 Nxc3 14. Qxc3 Rc8
+15. Bc4 d5 16. O-O Na5 17. Qe5 Nxc4 18. Qxe6+ Kh8 19. Rxd5 Qb6 20. Qxb6 Nxb6
+21. Rd2 Rfd8 22. Rxd8+ Rxd8 23. Rc1 Na4 24. g3 Nxb2 25. Nd4 b6 26. Rc7 a5 27.
+Nxf5 g6 28. Nh6 Rf8 29. e4 Nd3 30. f4 a4 31. e5 Nc5 32. Kg2 Rb8 33. g4 Ne6 34.
+Rf7 Rf8 35. f5 gxf5 36. gxf5 Re8 37. fxe6 Rxe6 38. Ng4 1-0
+
+[Event "Sitges op"]
+[Site "?"]
+[Date "2012.07.21"]
+[Round "2"]
+[White "Hjelmaas, L."]
+[Black "Vorobiov, E."]
+[Result "0-1"]
+[ECO "A41"]
+[WhiteElo "2273"]
+[BlackElo "2586"]
+[PlyCount "50"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d6 2. c4 e5 3. Nf3 Nd7 4. Nc3 g6 5. Bg5 f6 6. Bh4 Ne7 7. dxe5 dxe5 8. e4
+c6 9. Qd6 Nf5 10. Qe6+ Be7 11. O-O-O Nxh4 12. Nxh4 Qb6 13. Qh3 Qxf2 14. Rd2 Qc5
+15. Be2 Nf8 16. Nf5 Ne6 17. Qh6 Bf8 18. Qh4 Ng5 19. Rhd1 gxf5 20. Rd8+ Ke7 21.
+exf5 Qe3+ 22. R1d2 Bg7 23. R8d3 Qf4 24. g4 Bxf5 25. Rd6 Rad8 0-1
+
+[Event "Sitges op"]
+[Site "?"]
+[Date "2012.07.22"]
+[Round "3"]
+[White "Vorobiov, E."]
+[Black "Jimenez Fraga, PA."]
+[Result "1/2-1/2"]
+[ECO "E68"]
+[WhiteElo "2586"]
+[BlackElo "2446"]
+[PlyCount "120"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 O-O 5. Nc3 d6 6. Nf3 Nbd7 7. O-O e5 8. e4
+a6 9. Qc2 exd4 10. Nxd4 Re8 11. Rd1 Rb8 12. h3 Nc5 13. Bf4 Qe7 14. Re1 Nh5 15.
+Be3 c6 16. Rad1 Nd7 17. b3 Nhf6 18. Bc1 c5 19. Nf3 b5 20. Bf4 Ne5 21. Nxe5 dxe5
+22. Be3 bxc4 23. bxc4 Be6 24. Nd5 Qa7 25. Qa4 Rec8 26. Rb1 Nxd5 27. cxd5 Bd7
+28. Qa5 Rxb1 29. Rxb1 Bf6 30. Bf1 Bd8 31. Qxa6 Qxa6 32. Bxa6 Ra8 33. Bb5 Bxb5
+34. Rxb5 c4 35. Rc5 Bb6 36. Rxc4 Bxe3 37. fxe3 Rxa2 38. g4 h5 39. Rc8+ Kg7 40.
+g5 Re2 41. Rc3 Kf8 42. Kf1 Ra2 43. d6 Ke8 44. Rc8+ Kd7 45. Rf8 Kxd6 46. Rxf7
+Rh2 47. Rf6+ Ke7 48. Rxg6 Rxh3 49. Kf2 h4 50. Ke2 Rg3 51. Kd3 Kf7 52. Rf6+ Ke7
+53. Rf5 Ke6 54. Kc4 Rxe3 55. Rf6+ Ke7 56. Kd5 Rg3 57. Re6+ Kf7 58. Rh6 Rxg5 59.
+Rxh4 Rg6 60. Rh7+ Ke8 1/2-1/2
+
+[Event "Sitges op"]
+[Site "?"]
+[Date "2012.07.23"]
+[Round "4"]
+[White "Movsziszian, K."]
+[Black "Vorobiov, E."]
+[Result "0-1"]
+[ECO "A08"]
+[WhiteElo "2469"]
+[BlackElo "2586"]
+[PlyCount "46"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. g3 d5 2. Bg2 Nf6 3. d3 c5 4. Nd2 Nc6 5. e4 g6 6. Ngf3 Bg7 7. O-O O-O 8. c3
+e6 9. Re1 a5 10. e5 Ng4 11. d4 cxd4 12. cxd4 f6 13. h3 Nxf2 14. Kxf2 fxe5 15.
+dxe5 Qb6+ 16. Kf1 a4 17. Qe2 Bxe5 18. g4 Bg7 19. Rb1 Bd7 20. Bh1 e5 21. Kg2 e4
+22. Nh2 Ne5 23. Rf1 Bb5 0-1
+
+[Event "Sitges op"]
+[Site "?"]
+[Date "2012.07.24"]
+[Round "5"]
+[White "Vorobiov, E."]
+[Black "Debray, C."]
+[Result "1-0"]
+[ECO "E04"]
+[WhiteElo "2586"]
+[BlackElo "2380"]
+[PlyCount "69"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 e6 3. g3 d5 4. Nf3 dxc4 5. Bg2 c5 6. O-O Nc6 7. Qa4 Bd7 8. Qxc4
+cxd4 9. Nxd4 Rc8 10. Nc3 Nxd4 11. Qxd4 Bc5 12. Qh4 Bc6 13. Rd1 Qa5 14. Bg5 Be7
+15. Bxc6+ Rxc6 16. Ne4 Qe5 17. Nxf6+ Bxf6 18. Bxf6 Qxf6 19. Qb4 Qe7 20. Qd4 O-O
+21. Rac1 Rxc1 22. Rxc1 b6 23. Qe5 Rd8 24. Rc7 Qb4 25. Rxa7 h6 26. Qh5 Rd1+ 27.
+Kg2 Qe4+ 28. Qf3 Qg6 29. Rb7 e5 30. h4 Kh7 31. Rxf7 e4 32. Qb3 Rd2 33. Rf8 Qc6
+34. Qg8+ Kg6 35. Qf7+ 1-0
+
+[Event "Sitges op"]
+[Site "?"]
+[Date "2012.07.25"]
+[Round "6"]
+[White "Pakleza, Z."]
+[Black "Vorobiov, E."]
+[Result "0-1"]
+[ECO "A46"]
+[WhiteElo "2468"]
+[BlackElo "2586"]
+[PlyCount "114"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. Nf3 e6 3. Bf4 c5 4. c3 cxd4 5. cxd4 Qb6 6. Qb3 Qxb3 7. axb3 Nc6 8.
+e3 Bb4+ 9. Nbd2 d5 10. Bd3 Bd7 11. Ke2 Nh5 12. Bg3 Nxg3+ 13. hxg3 Ke7 14. Ne5
+Nxe5 15. dxe5 h6 16. Nf3 a6 17. Rh4 Bc5 18. Rc1 Rhc8 19. Rc3 Kf8 20. g4 Be7 21.
+Rh1 Rab8 22. Rhc1 Bb4 23. Rxc8+ Rxc8 24. Rxc8+ Bxc8 25. g5 hxg5 26. Nxg5 f6 27.
+Nf3 Ke7 28. e4 dxe4 29. exf6+ gxf6 30. Bxe4 f5 31. Bd3 Kf6 32. Ne1 e5 33. Nc2
+Bd6 34. f3 b5 35. Ne3 Be6 36. Bc2 Bc5 37. b4 Bd4 38. Nd1 Kg5 39. g3 Bb6 40. Nf2
+Bc4+ 41. Ke1 Bd4 42. Nd3 e4 43. fxe4 fxe4 44. Nc5 e3 45. Ne4+ Kg4 46. Bd1+ Kh3
+47. b3 Bd3 48. Bf3 Be5 49. g4 Bg3+ 50. Nxg3 Kxg3 51. Bb7 Kxg4 52. Bxa6 Kf4 53.
+Kd1 Ke4 54. Bc8 Kd4 55. Be6 Kc3 56. Ke1 Kxb4 57. Bf7 Kc3 0-1
+
+[Event "Sitges op"]
+[Site "?"]
+[Date "2012.07.26"]
+[Round "7"]
+[White "Vorobiov, E."]
+[Black "Rodriguez Garcia, V."]
+[Result "1-0"]
+[ECO "E68"]
+[WhiteElo "2586"]
+[BlackElo "2383"]
+[PlyCount "177"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d6 2. Nf3 Nf6 3. c4 g6 4. Nc3 Bg7 5. g3 O-O 6. Bg2 Nbd7 7. O-O e5 8. e4
+exd4 9. Nxd4 Re8 10. h3 a6 11. Be3 Rb8 12. a4 Ne5 13. b3 c5 14. Nde2 Nc6 15.
+Ra2 b6 16. Rd2 Bf8 17. f4 Bb7 18. Bf2 Qc7 19. g4 Na5 20. Qc2 Bc6 21. Rfd1 Nb7
+22. Ng3 Bg7 23. g5 Nd7 24. e5 Bxg2 25. Kxg2 Re6 26. Nge4 Qc6 27. Kh2 Bf8 28.
+Nf6+ Kh8 29. Bg3 Nxf6 30. exf6 Rbe8 31. Nd5 Na5 32. Qd3 Qb7 33. Bf2 Nc6 34. Rb1
+a5 35. Qf3 Nb4 36. Kg2 Nxd5 37. Rxd5 Re4 38. Rdd1 Qc8 39. Re1 d5 40. Rxe4 dxe4
+41. Qg4 Qc6 42. Be3 Rd8 43. Rd1 Rd6 44. Rxd6 Qxd6 45. Qe2 Kg8 46. Qd2 Qe6 47.
+Qd5 Qe8 48. Kg3 Kh8 49. Qb7 Qe6 50. Qd5 Qe8 51. Qe5 Qa8 52. Bd2 Kg8 53. Bc3 Qd8
+54. Qd5 Qe8 55. Be5 e3 56. Qd3 Qc8 57. Qxe3 Qd7 58. Kf2 Qd8 59. Ke2 Qd7 60. Qf3
+Qc8 61. Kd2 Qd7+ 62. Kc3 Qc8 63. h4 Qd7 64. h5 gxh5 65. Qxh5 Qf5 66. Qh1 Qg4
+67. Qc6 Qd1 68. Qe4 Qc1+ 69. Qc2 Qa1+ 70. Kd2 Qf1 71. Qd3 Qg2+ 72. Qe2 Qh1 73.
+Kc2 Qc6 74. Kb2 Qd7 75. Ka2 Qc6 76. Qg4 Qb7 77. Qd1 Qg2+ 78. Ka3 Qb7 79. Qd5
+Qc8 80. Bd6 Qd8 81. Bxf8 Qxf8 82. f5 Kh8 83. Qb7 h6 84. Qe7 Kg8 85. g6 h5 86.
+g7 Qb8 87. Qe3 b5 88. axb5 a4 89. Qh6 1-0
+
+[Event "Sitges op"]
+[Site "?"]
+[Date "2012.07.27"]
+[Round "8"]
+[White "Alarcon Casellas, R."]
+[Black "Vorobiov, E."]
+[Result "1/2-1/2"]
+[ECO "D14"]
+[WhiteElo "2436"]
+[BlackElo "2586"]
+[PlyCount "22"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 c6 3. cxd5 cxd5 4. Nc3 Nf6 5. Nf3 Nc6 6. Bf4 Bf5 7. e3 e6 8. Bd3
+Bxd3 9. Qxd3 Bd6 10. Bxd6 Qxd6 11. O-O O-O 1/2-1/2
+
+[Event "Sitges op"]
+[Site "?"]
+[Date "2012.07.28"]
+[Round "9"]
+[White "Vorobiov, E."]
+[Black "Arenas, D."]
+[Result "1/2-1/2"]
+[ECO "E63"]
+[WhiteElo "2586"]
+[BlackElo "2406"]
+[PlyCount "23"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 O-O 5. Nc3 d6 6. Nf3 Nc6 7. O-O a6 8. h3
+Rb8 9. e4 b5 10. cxb5 axb5 11. Re1 Nd7 12. Bg5 1/2-1/2
+
+[Event "Montcada op-A 25th"]
+[Site "Montcada"]
+[Date "2017.06.26"]
+[Round "1"]
+[White "Ibanez Tarradellas, Eduardo"]
+[Black "Vorobiov, Evgeny E"]
+[Result "0-1"]
+[ECO "A46"]
+[WhiteElo "2206"]
+[BlackElo "2591"]
+[PlyCount "66"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 e6 2. Nf3 Nf6 3. Bg5 h6 4. Bh4 b6 5. e3 Bb7 6. Nbd2 d6 7. Bd3 g5 8. Bg3
+g4 9. Nh4 Rg8 10. h3 Nh5 11. hxg4 Nxg3 12. fxg3 Qg5 13. Kf2 Nd7 14. Ne4 Qg7 15.
+Qf3 d5 16. Nc3 a6 17. Ne2 Nf6 18. Nf4 Bd6 19. Raf1 Ke7 20. Ke1 Raf8 21. Kd2
+Qxg4 22. Rh3 c5 23. c3 cxd4 24. exd4 Qxf3 25. Rxf3 Ne4+ 26. Bxe4 dxe4 27. Rf1
+Rg5 28. Ke3 Rfg8 29. Kf2 e3+ 30. Kxe3 Rxg3+ 31. Rxg3 Rxg3+ 32. Nf3 Bxf4+ 33.
+Kxf4 Rxg2 0-1
+
+[Event "Montcada op-A 25th"]
+[Site "Montcada"]
+[Date "2017.06.27"]
+[Round "2"]
+[White "Vorobiov, Evgeny E"]
+[Black "Yurtseven, Melih"]
+[Result "1-0"]
+[ECO "E63"]
+[WhiteElo "2591"]
+[BlackElo "2337"]
+[PlyCount "105"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. g3 g6 3. Bg2 Bg7 4. c4 O-O 5. Nc3 d6 6. Nf3 Nc6 7. O-O a6 8. Bf4
+Rb8 9. Rc1 h6 10. d5 e5 11. dxe6 Bxe6 12. b3 Re8 13. Re1 Qd7 14. Qd2 g5 15. Be3
+Ng4 16. Bd4 Nge5 17. Be3 Ng4 18. Bd4 Nge5 19. Bxe5 Nxe5 20. Nd5 Nxf3+ 21. Bxf3
+c6 22. Ne3 Rbd8 23. Rcd1 f5 24. Nc2 Qf7 25. Nd4 Bc8 26. e3 Rf8 27. Bg2 f4 28.
+exf4 gxf4 29. Re4 Be5 30. Nf3 Bf5 31. Nxe5 dxe5 32. Qxd8 Bxe4 33. Qd7 Bxg2 34.
+Kxg2 Qg6 35. Qd6 Qh5 36. Qe6+ Kh8 37. Rd3 Rf7 38. g4 Rg7 39. f3 Qg5 40. Rd6 Kh7
+41. Rd7 h5 42. h4 Qxh4 43. Rxg7+ Kxg7 44. Qxe5+ Qf6 45. Qxh5 Qb2+ 46. Kh3 Qc1
+47. Qe5+ Kg6 48. Qe6+ Kg7 49. Kh4 Qh1+ 50. Kg5 Qxf3 51. Qd7+ Kf8 52. Kg6 Qe4+
+53. Kf6 1-0
+
+[Event "Montcada op-A 25th"]
+[Site "Montcada"]
+[Date "2017.06.28"]
+[Round "3"]
+[White "Konguvel, Ponnuswamy"]
+[Black "Vorobiov, Evgeny E"]
+[Result "1/2-1/2"]
+[ECO "B38"]
+[WhiteElo "2391"]
+[BlackElo "2591"]
+[PlyCount "32"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. c4 Bg7 6. Be3 Nf6 7. Nc3 O-O 8.
+Be2 d6 9. O-O Bd7 10. Qd2 Nxd4 11. Bxd4 Bc6 12. f3 a5 13. b3 Nd7 14. Be3 Nc5
+15. Rab1 e6 16. Bd1 Be5 1/2-1/2
+
+[Event "Montcada op-A 25th"]
+[Site "Montcada"]
+[Date "2017.06.29"]
+[Round "4"]
+[White "Vorobiov, Evgeny E"]
+[Black "Fernandez, Fernando"]
+[Result "1-0"]
+[ECO "D38"]
+[WhiteElo "2591"]
+[BlackElo "2416"]
+[PlyCount "117"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. Bg5 h6 6. Bxf6 Qxf6 7. Qb3 c5 8.
+cxd5 exd5 9. e3 O-O 10. dxc5 Bxc3+ 11. Qxc3 Qxc3+ 12. bxc3 Nd7 13. Rd1 Nxc5 14.
+Rxd5 b6 15. c4 Be6 16. Rd4 Rac8 17. Be2 Rc7 18. Kd2 Rfc8 19. Rb1 Nb7 20. Kc3
+Kf8 21. Nd2 Ke7 22. g4 Nd6 23. a4 Bd7 24. Rb4 Nb7 25. Bd1 Nc5 26. Ne4 Nb7 27.
+h3 Bc6 28. Rb2 g6 29. Rbd2 Nc5 30. Nxc5 bxc5 31. Rd6 Rd7 32. Rxd7+ Bxd7 33. Rb2
+Bc6 34. a5 g5 35. Bc2 Kd6 36. Bf5 Re8 37. Rd2+ Kc7 38. e4 f6 39. f3 Rd8 40. Rh2
+Rd1 41. h4 Rf1 42. hxg5 Rxf3+ 43. Kd2 hxg5 44. Rh6 Rf1 45. Ke2 Rc1 46. Rxf6
+Rxc4 47. e5 Rf4 48. Rf7+ Kd8 49. e6 Bf3+ 50. Ke3 Bxg4 51. Rd7+ Kc8 52. Bxg4
+Rxg4 53. Rxa7 Kd8 54. Rd7+ Ke8 55. a6 Ra4 56. a7 Ra6 57. Rb7 Rxe6+ 58. Kd3 Ra6
+59. Rb8+ 1-0
+
+[Event "Montcada op-A 25th"]
+[Site "Montcada"]
+[Date "2017.06.30"]
+[Round "5"]
+[White "Iniyan, Panneerseluam"]
+[Black "Vorobiov, Evgeny E"]
+[Result "1-0"]
+[ECO "E94"]
+[WhiteElo "2392"]
+[BlackElo "2591"]
+[PlyCount "65"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 Nbd7 7. O-O e5 8. Be3
+Qe7 9. Qc2 c6 10. d5 c5 11. a3 Ng4 12. Bg5 f6 13. Bd2 h5 14. Nb5 Nb8 15. h3 Nh6
+16. Nh4 Kh7 17. f4 a6 18. Nc3 exf4 19. Bxf4 Nf7 20. Nxg6 Kxg6 21. e5+ f5 22. e6
+Bd4+ 23. Kh1 Ne5 24. Ne4 Bxe6 25. dxe6 Qxe6 26. Ng3 Nbc6 27. Bxh5+ Kg7 28. Bg5
+Qxc4 29. Nxf5+ Kh8 30. Qd2 Qd3 31. Qf4 Bxb2 32. Qh4 Kg8 33. Bf6 1-0
+
+[Event "Montcada op-A 25th"]
+[Site "Montcada"]
+[Date "2017.07.01"]
+[Round "6"]
+[White "Vorobiov, Evgeny E"]
+[Black "Ladron de Guevara Pinto, Paolo"]
+[Result "1/2-1/2"]
+[ECO "D12"]
+[WhiteElo "2591"]
+[BlackElo "2346"]
+[PlyCount "107"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 Bf5 5. Nc3 e6 6. Nh4 Be4 7. f3 Bg6 8. Qb3
+Qc7 9. Bd2 Be7 10. Nxg6 hxg6 11. g3 a6 12. Rc1 dxc4 13. Bxc4 Nbd7 14. Be2 e5
+15. dxe5 Nc5 16. Qc2 Qxe5 17. Nd1 Rd8 18. Nf2 g5 19. b4 Ne6 20. a3 Rd7 21. Rd1
+O-O 22. Bc3 Rxd1+ 23. Nxd1 Qd6 24. Nf2 Nd5 25. Bd2 Qe5 26. Nd3 Qa1+ 27. Qc1
+Qxc1+ 28. Nxc1 Bf6 29. Nd3 Nc3 30. Kf2 Rd8 31. Rc1 Nxe2 32. Kxe2 Kf8 33. g4 Re8
+34. Be1 Nd4+ 35. Kf2 Ne6 36. Rc4 Be7 37. Ke2 Bd6 38. Bg3 Bxg3 39. hxg3 Ke7 40.
+f4 gxf4 41. gxf4 Kd6 42. Kf3 Rh8 43. Nf2 f6 44. Rc1 Kc7 45. Ne4 Rh3+ 46. Ng3 b6
+47. Kg2 Rh4 48. Nf5 Rh8 49. Kf3 Rd8 50. Ke4 Re8 51. Kf3 Rd8 52. Ke4 Re8 53. Kf3
+Rd8 54. Ke4 1/2-1/2
+
+[Event "Montcada op-A 25th"]
+[Site "Montcada"]
+[Date "2017.07.01"]
+[Round "7"]
+[White "Panelo Munoz, Marcelo A"]
+[Black "Vorobiov, Evgeny E"]
+[Result "0-1"]
+[ECO "D85"]
+[WhiteElo "2379"]
+[BlackElo "2591"]
+[PlyCount "100"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 d5 5. cxd5 Nxd5 6. e4 Nxc3 7. bxc3 c5 8.
+Be3 Qa5 9. Qd2 Nc6 10. Rc1 O-O 11. d5 Rd8 12. Be2 e6 13. Bg5 f6 14. Be3 exd5
+15. exd5 Ne7 16. c4 Qxd2+ 17. Nxd2 b6 18. g4 Bd7 19. h4 f5 20. g5 Re8 21. Kf1
+Rad8 22. h5 gxh5 23. Bxh5 Ng6 24. Nf3 Re4 25. Nd2 Re7 26. Nf3 f4 27. Bd2 Bf5
+28. Kg2 Bb2 29. Rce1 Rxe1 30. Rxe1 Bd3 31. Bxg6 hxg6 32. Bxf4 Bxc4 33. d6 Bd5
+34. Kg3 c4 35. Re7 Ba3 36. Rxa7 Bxd6 37. Bxd6 Rxd6 38. Ne5 b5 39. Rc7 Be4 40.
+Ng4 Bb1 41. Kf4 Rd4+ 42. Kf3 Bxa2 43. Nf6+ Kf8 44. Ke3 Rd1 45. f4 Bb1 46. Rc5
+Bf5 47. Ke2 Rd4 48. Nd5 c3 49. Nxc3 b4 50. Nb5 Rd8 0-1
+
+[Event "Montcada op-A 25th"]
+[Site "Montcada"]
+[Date "2017.07.02"]
+[Round "8"]
+[White "Vorobiov, Evgeny E"]
+[Black "Henderson de la Fuente, Lance"]
+[Result "1/2-1/2"]
+[ECO "E12"]
+[WhiteElo "2591"]
+[BlackElo "2365"]
+[PlyCount "76"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. a3 Bb7 5. Nc3 d5 6. cxd5 Nxd5 7. e3 Nxc3 8.
+bxc3 Be7 9. Bb5+ c6 10. Bd3 O-O 11. O-O c5 12. e4 Qc7 13. Qe2 Nc6 14. Be3 Rac8
+15. d5 exd5 16. exd5 Ne5 17. Bf4 Nxf3+ 18. Qxf3 Bd6 19. Bxd6 Qxd6 20. c4 b5 21.
+Rab1 a6 22. Qg3 Rfd8 23. Rfc1 g6 24. Qxd6 Rxd6 25. cxb5 axb5 26. Bxb5 Bxd5 27.
+a4 Kf8 28. f3 Be6 29. Rd1 Rxd1+ 30. Rxd1 Bb3 31. Rc1 c4 32. Kf2 c3 33. Ke3 c2
+34. a5 Rc5 35. Bd3 Rxa5 36. Bxc2 Rc5 37. Kd2 Bxc2 38. Rxc2 Re5 1/2-1/2
+
+[Event "Montcada op-A 25th"]
+[Site "Montcada"]
+[Date "2017.07.03"]
+[Round "9"]
+[White "Soysal, Serkan"]
+[Black "Vorobiov, Evgeny E"]
+[Result "0-1"]
+[ECO "D85"]
+[WhiteElo "2370"]
+[BlackElo "2591"]
+[PlyCount "88"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Nf3 c5 8.
+Rb1 O-O 9. Be2 b6 10. O-O Bb7 11. d5 Bxc3 12. Bc4 Nd7 13. Bf4 Bg7 14. e5 b5 15.
+Bxb5 Nb6 16. d6 exd6 17. exd6 Nd5 18. Bc4 Nc3 19. Rxb7 Nxd1 20. Rxd1 Rb8 21.
+Rxb8 Qxb8 22. Bg5 Bd4 23. Be7 Rd8 24. Bxd8 Qxd8 25. Rb1 Qxd6 26. Rb7 Qf4 27.
+Nxd4 Qc1+ 28. Bf1 cxd4 29. Rd7 Qc3 30. a4 a5 31. Rd5 Qb4 32. Bb5 d3 33. Bxd3
+Qxa4 34. g3 Qb3 35. Rd7 a4 36. Be4 a3 37. Bd5 Qb1+ 38. Kg2 Qf5 39. Rd8+ Kg7 40.
+h4 h5 41. Kg1 Qb1+ 42. Kg2 a2 43. Bxa2 Qxa2 44. Rd4 Qa8+ 0-1

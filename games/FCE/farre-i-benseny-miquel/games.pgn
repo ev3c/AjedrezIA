@@ -1,0 +1,204 @@
+[Event "Santa Eugenia op 12th"]
+[Site "Santa Eugenia"]
+[Date "2017.07.31"]
+[Round "2"]
+[White "Farre I Benseny, Miquel"]
+[Black "Fernandez Quintero, Jose Antonio"]
+[Result "1-0"]
+[ECO "C10"]
+[WhiteElo "1607"]
+[BlackElo "1900"]
+[PlyCount "101"]
+[EventDate "2017.07.31"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bd7 5. Nf3 Bc6 6. Bd3 Nd7 7. O-O Ngf6 8.
+Bg5 Be7 9. Nxf6+ Bxf6 10. Bxf6 Qxf6 11. Be2 O-O-O 12. c3 g5 13. Qd3 g4 14. Nd2
+Ne5 15. Qe3 Ng6 16. Bxg4 Nf4 17. Bf3 Bxf3 18. Qxf3 Rhg8 19. g3 h5 20. Kh1 Nd5
+21. Qxh5 Rh8 22. Qe5 Qh6 23. Nf3 Rdg8 24. h4 Ne7 25. Rg1 Ng6 26. Qe3 Qh5 27.
+Rg2 Qg4 28. Rh2 Qf5 29. Re1 Qd5 30. b3 Rh5 31. Qe4 Qa5 32. Qc2 Qd5 33. Qe4 Qa5
+34. g4 Rhh8 35. h5 Ne7 36. Ne5 f5 37. gxf5 exf5 38. Nc4 Qxc3 39. Qe6+ Kb8 40.
+Qe3 Nd5 41. Qxc3 Nxc3 42. a4 Rg4 43. h6 Rxd4 44. h7 Re4 45. Rg1 Rg4 46. Rxg4
+fxg4 47. Ne5 g3 48. fxg3 Ne4 49. Nf7 Rxh7 50. Rxh7 Nxg3+ 51. Kg2 1-0
+
+[Event "Santa Eugenia op 12th"]
+[Site "Santa Eugenia"]
+[Date "2017.08.01"]
+[Round "3"]
+[White "Alvarez Serra, Jordi"]
+[Black "Farre I Benseny, Miquel"]
+[Result "1-0"]
+[ECO "A37"]
+[WhiteElo "1970"]
+[BlackElo "1607"]
+[PlyCount "101"]
+[EventDate "2017.07.31"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. c4 c5 2. Nc3 g6 3. Nf3 Bg7 4. g3 Nc6 5. Bg2 d6 6. O-O e5 7. d3 Nge7 8. a3 a5
+9. Ne1 Bd7 10. Nc2 O-O 11. Ne3 Nd4 12. Ned5 Nxd5 13. Nxd5 Bc6 14. e3 Nf5 15.
+Rb1 Ne7 16. b4 Bxd5 17. cxd5 axb4 18. axb4 cxb4 19. Rxb4 Qc7 20. Qb3 Rfb8 21.
+Bd2 Ra7 22. e4 b6 23. Be3 Rab7 24. Bh3 f5 25. Rc1 Qd8 26. Rb1 b5 27. Qd1 Qc7
+28. R1b3 h5 29. Bg5 Kf7 30. Bxe7 Qxe7 31. exf5 Qg5 32. fxg6+ Qxg6 33. Qb1 Ra8
+34. Be6+ Kf8 35. Kg2 Re7 36. Rxb5 Rxe6 37. dxe6 Qxe6 38. Rb8+ Rxb8 39. Rxb8+
+Kf7 40. Qb3 d5 41. Rb6 Qg4 42. Qxd5+ Kf8 43. Rb8+ Ke7 44. Rb7+ Kf6 45. Qf7+ Kg5
+46. Qxg7+ Kf5 47. Qf7+ Kg5 48. h4+ Qxh4 49. gxh4+ Kxh4 50. Qg6 e4 51. Qg3# 1-0
+
+[Event "Santa Eugenia op 12th"]
+[Site "Santa Eugenia"]
+[Date "2017.08.02"]
+[Round "5"]
+[White "Gomez, Jose"]
+[Black "Farre I Benseny, Miquel"]
+[Result "1/2-1/2"]
+[ECO "C11"]
+[WhiteElo "1925"]
+[BlackElo "1607"]
+[PlyCount "55"]
+[EventDate "2017.07.31"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. c3 c5 6. f4 Nc6 7. Ndf3 Qb6 8. Ne2
+Be7 9. a3 O-O 10. b4 cxd4 11. cxd4 a5 12. b5 Na7 13. Nc3 f6 14. Na4 Qd8 15. Bd3
+Nb6 16. Nxb6 Qxb6 17. Rb1 Bd7 18. a4 Rac8 19. Bd2 Qd8 20. O-O b6 21. Rc1 Rxc1
+22. Qxc1 Qc8 23. Qb1 f5 24. g4 g6 25. g5 Qd8 26. h4 Kg7 27. Kg2 Rh8 28. Rh1
+1/2-1/2
+
+[Event "Santa Eugenia op 12th"]
+[Site "Santa Eugenia"]
+[Date "2017.08.02"]
+[Round "6"]
+[White "Farre I Benseny, Miquel"]
+[Black "Diaz Comas, Jordi"]
+[Result "0-1"]
+[ECO "B02"]
+[WhiteElo "1607"]
+[BlackElo "1884"]
+[PlyCount "28"]
+[EventDate "2017.07.31"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 Nf6 2. e5 Nd5 3. Bc4 Nb6 4. Bb3 Nc6 5. d4 Na5 6. Nd2 Nxb3 7. Nxb3 d6 8.
+Bf4 Bf5 9. c3 dxe5 10. Bxe5 Qd5 11. Qf3 Be4 12. Qg4 Bxg2 13. Ne2 Bxh1 14. Bxg7
+Rg8 0-1
+
+[Event "Santa Eugenia op 12th"]
+[Site "Santa Eugenia"]
+[Date "2017.08.03"]
+[Round "7"]
+[White "Franco Solanas, Juan Antonio"]
+[Black "Farre I Benseny, Miquel"]
+[Result "1/2-1/2"]
+[ECO "B18"]
+[WhiteElo "1000"]
+[BlackElo "1607"]
+[PlyCount "59"]
+[EventDate "2017.07.31"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Nc3 e6 6. Nf3 Bb4 7. Bd3 Ne7 8. a3
+Bxc3+ 9. bxc3 Nd7 10. O-O O-O 11. Rb1 b5 12. Nh4 Bxd3 13. cxd3 Nd5 14. Qg4 N7f6
+15. Qg3 Nxc3 16. Re1 Qxd4 17. Rb4 Qc5 18. Be3 Qh5 19. Bd4 Ne2+ 20. Rxe2 Qxe2
+21. h3 Nh5 22. Qd6 Rad8 23. Qc5 Qxd3 24. Qxa7 Ra8 25. Qc5 Qxa3 26. Qxh5 Qxb4
+27. Bxg7 Kxg7 28. Qg5+ Kh8 29. Qf6+ Kg8 30. Qg5+ 1/2-1/2
+
+[Event "Santa Eugenia op 12th"]
+[Site "Santa Eugenia"]
+[Date "2017.08.03"]
+[Round "8"]
+[White "Farre I Benseny, Miquel"]
+[Black "Acevedo Egido, David"]
+[Result "1/2-1/2"]
+[ECO "B72"]
+[WhiteElo "1607"]
+[BlackElo "1486"]
+[PlyCount "86"]
+[EventDate "2017.07.31"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 g6 3. Nc3 Bg7 4. d4 cxd4 5. Nxd4 d6 6. Be3 Nf6 7. Bc4 O-O 8.
+O-O Ng4 9. Qf3 Nxe3 10. Qxe3 Qb6 11. Rad1 Nc6 12. Nxc6 bxc6 13. Qxb6 axb6 14.
+Rd3 Ba6 15. Bxa6 Rxa6 16. a3 b5 17. Rb1 Bxc3 18. Rxc3 Rfa8 19. f3 c5 20. b4 c4
+21. Ra1 Ra4 22. Rd1 Rxa3 23. Rxa3 Rxa3 24. Rd5 Rc3 25. Rxb5 Rxc2 26. Rb8+ Kg7
+27. b5 Rb2 28. Rc8 Rxb5 29. Rxc4 Rb2 30. h3 Kf6 31. Ra4 Rc2 32. Ra5 Rc5 33. Ra7
+d5 34. exd5 Rxd5 35. Kf2 e6 36. g4 h5 37. Kg3 hxg4 38. hxg4 Kg7 39. Rb7 Rd6 40.
+Re7 Kf8 41. Ra7 Rd5 42. Ra8+ Kg7 43. Ra7 Rd6 1/2-1/2
+
+[Event "Santa Eugenia op 12th"]
+[Site "Santa Eugenia"]
+[Date "2017.08.04"]
+[Round "9"]
+[White "Ortiz Padro, Pol"]
+[Black "Farre I Benseny, Miquel"]
+[Result "1-0"]
+[ECO "B12"]
+[WhiteElo "1450"]
+[BlackElo "1607"]
+[PlyCount "97"]
+[EventDate "2017.07.31"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Bb5 e6 6. f4 Qb6 7. Bxc6+ bxc6 8. Nf3
+Nh6 9. a3 Nf5 10. b4 cxd4 11. cxd4 Ba6 12. Kf2 Be7 13. Re1 O-O 14. Bb2 f6 15.
+Kg1 Rae8 16. Nbd2 fxe5 17. Nxe5 Nxd4 18. Nd7 Ne2+ 19. Kh1 Qf2 20. Nxf8 Nxf4 21.
+Qg4 g6 22. Nxe6 Qxd2 23. Nxf4 Qxb2 24. Qe6+ Kf8 25. Qxc6 Be2 26. Nxe2 Bf6 27.
+Rf1 Qxe2 28. Qxf6+ Kg8 29. h3 Qe4 30. Rae1 Qxe1 31. Qf7+ Kh8 32. Rxe1 Rxe1+ 33.
+Kh2 h6 34. Qxa7 Rd1 35. b5 d4 36. b6 d3 37. b7 Rb1 38. b8=Q+ Rxb8 39. Qxb8+ Kg7
+40. Qd6 h5 41. a4 Kh6 42. a5 h4 43. a6 Kh5 44. a7 d2 45. a8=Q d1=Q 46. Qxd1+
+Kh6 47. Qh8+ Kg5 48. Qd5+ Kf4 49. Qhe5# 1-0

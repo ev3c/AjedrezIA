@@ -1,0 +1,137 @@
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.14"]
+[Round "2"]
+[White "Hernandez Bermudez, Alberto"]
+[Black "Flores Mendoza, Jose Antonio"]
+[Result "1/2-1/2"]
+[ECO "C11"]
+[WhiteElo "1720"]
+[BlackElo "1877"]
+[PlyCount "115"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Be3 Nc6 7. Nf3 cxd4 8. Bxd4
+Nxd4 9. Nxd4 Bb4 10. Qf3 a6 11. a3 Qa5 12. Nb3 Bxc3+ 13. Qxc3 Qxc3+ 14. bxc3 g5
+15. g3 h5 16. Bg2 b5 17. h4 gxf4 18. gxf4 Nb6 19. Rh3 Bd7 20. Nc5 Rg8 21. Kf2
+Rg4 22. Nd3 Rc8 23. Bf3 Rg8 24. Bxh5 Rxc3 25. Bd1 Nc4 26. Ra2 f6 27. exf6 e5
+28. f7+ Kxf7 29. Nxe5+ Nxe5 30. Rxc3 Nc4 31. Bf3 Ke6 32. Rd3 Bc6 33. h5 Nd6 34.
+c3 Ne4+ 35. Bxe4 dxe4 36. Rh3 Kf5 37. Ke3 Bd5 38. Rd2 Be6 39. Rdh2 Rc8 40. Kd4
+Rc4+ 41. Ke3 Rxc3+ 42. Kd2 Rc8 43. Rh4 Rd8+ 44. Kc1 e3 45. Re2 Rc8+ 46. Rc2 e2
+47. Rh1 Bc4 48. h6 Kxf4 49. h7 Rh8 50. Kd2 Rd8+ 51. Kc3 Rh8 52. Rcc1 Ke3 53.
+Kb4 Kd2 54. Rcg1 Bd3 55. Ka5 Rxh7 56. Rxh7 Bxh7 57. Kxa6 Bd3 58. Ka5 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.15"]
+[Round "3"]
+[White "Andreu Termes, Frederic"]
+[Black "Hernandez Bermudez, Alberto"]
+[Result "1-0"]
+[ECO "A13"]
+[WhiteElo "1870"]
+[BlackElo "1720"]
+[PlyCount "75"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 e6 2. g3 c6 3. Bg2 d5 4. Qc2 Nd7 5. d3 Be7 6. Nf3 Ngf6 7. b3 Qa5+ 8. Nbd2
+Ba3 9. O-O Bxc1 10. Rfxc1 O-O 11. Qb2 Re8 12. b4 Qd8 13. b5 Qb6 14. Rab1 Ng4
+15. Rf1 c5 16. e4 d4 17. h3 Nge5 18. Nxe5 Nxe5 19. Qc2 Ng6 20. f4 e5 21. f5 Nf8
+22. Nf3 Qh6 23. Qf2 Nd7 24. g4 Qf4 25. Qe1 Nf6 26. Nxd4 Qh6 27. Nc2 b6 28. Ne3
+Bb7 29. Nd5 Nxd5 30. exd5 Qd6 31. f6 g6 32. Qg3 h6 33. a4 a5 34. g5 Rad8 35.
+Rbe1 Ba8 36. Re4 Bb7 37. Rh4 Bc8 38. Rxh6 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.18"]
+[Round "6"]
+[White "Hernandez Bermudez, Alberto"]
+[Black "Dominguez Laguna, Eduard"]
+[Result "1/2-1/2"]
+[ECO "C65"]
+[WhiteElo "1720"]
+[PlyCount "69"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Bc5 4. O-O Nf6 5. Nc3 d6 6. a3 a6 7. Be2 O-O 8. d3
+h6 9. Bd2 Re8 10. h3 Ne7 11. Be3 Ba7 12. Nh2 Ng6 13. Qd2 Kh7 14. Rfe1 Be6 15.
+Bf1 c6 16. Ne2 d5 17. Bxa7 Rxa7 18. Qe3 d4 19. Qd2 Nh5 20. Kh1 Nhf4 21. Nxf4
+Nxf4 22. Nf3 Qf6 23. Ng1 Raa8 24. g3 Ng6 25. Kh2 Rac8 26. Bg2 c5 27. b3 b5 28.
+f3 c4 29. bxc4 bxc4 30. Rab1 cxd3 31. Qxd3 Bd7 32. c4 Rc7 33. Rec1 Rec8 34. Bf1
+Bb5 35. Qb3 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.19"]
+[Round "7"]
+[White "Bernat Mor, Juli"]
+[Black "Hernandez Bermudez, Alberto"]
+[Result "0-1"]
+[ECO "B01"]
+[WhiteElo "1239"]
+[BlackElo "1720"]
+[PlyCount "66"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d4 c6 5. Nf3 Bg4 6. Bd2 e6 7. Bc4 Nf6 8. h3
+Bh5 9. Bb3 Qb6 10. g4 Bg6 11. Qe2 Be7 12. O-O-O Nbd7 13. Qe3 Nd5 14. Nxd5 cxd5
+15. Ne5 Nxe5 16. Qxe5 Bf6 17. Qh2 Bxd4 18. Bf4 Bf6 19. Bc7 Qc6 20. f3 Rc8 21.
+Bf4 h6 22. Be3 a5 23. a4 Bxb2+ 24. Kxb2 Qc3+ 25. Kc1 Qxb3 26. Rd2 Qxe3 27. Qe2
+Rxc2+ 28. Kd1 Rxd2+ 29. Qxd2 Qxf3+ 30. Qe2 Qxh1+ 31. Kd2 O-O 32. Kc3 Rc8+ 33.
+Kd4 Qe4+ 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.20"]
+[Round "8"]
+[White "Hernandez Bermudez, Alberto"]
+[Black "Rodriguez Beltran, Fernando"]
+[Result "1/2-1/2"]
+[ECO "A13"]
+[WhiteElo "1720"]
+[BlackElo "1602"]
+[PlyCount "73"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 d5 2. b3 Nf6 3. Bb2 c5 4. e3 e6 5. c4 Nc6 6. d4 cxd4 7. Nxd4 Bb4+ 8. Bc3
+Bxc3+ 9. Nxc3 Qa5 10. Qd2 Nxd4 11. exd4 Bd7 12. Ne4 Qxd2+ 13. Nxd2 O-O 14. c5
+b6 15. b4 bxc5 16. dxc5 Rab8 17. Rb1 Bb5 18. Bxb5 Rxb5 19. a4 Rbb8 20. Ke2 Rfc8
+21. Rhc1 Nd7 22. Nf3 f6 23. Nd4 Kf7 24. Nb5 Ke7 25. Nxa7 Rc7 26. Nb5 Rcc8 27.
+Nd4 Ne5 28. b5 Kd7 29. c6+ Ke7 30. b6 Nc4 31. a5 Nxa5 32. Ra1 Nc4 33. Ra7+ Kd6
+34. b7 Rxc6 35. Nxc6 Kxc6 36. Rb1 Nb6 37. Rc1+ 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.21"]
+[Round "9"]
+[White "Cassi De La Viuda, Alex"]
+[Black "Hernandez Bermudez, Alberto"]
+[Result "1-0"]
+[ECO "B01"]
+[WhiteElo "1330"]
+[BlackElo "1720"]
+[PlyCount "47"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d4 c6 5. Nf3 Bg4 6. h3 Bh5 7. Be2 e6 8. Ne5
+Bxe2 9. Qxe2 Bd6 10. O-O Bxe5 11. dxe5 Ne7 12. f4 Nd5 13. Nxd5 cxd5 14. Qg4 O-O
+15. f5 Qc5+ 16. Kh1 Qc4 17. Rf4 exf5 18. Qxf5 Qc8 19. Qh5 Qxc2 20. Rg4 Qc6 21.
+Bh6 g6 22. Bxf8 Kxf8 23. Qxh7 Ke7 24. Rf1 1-0

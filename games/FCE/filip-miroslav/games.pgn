@@ -1,0 +1,120 @@
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1975.??.??"]
+[Round "?"]
+[White "Filip, Miroslav"]
+[Black "Cardoso, Radolfo T"]
+[Result "1/2-1/2"]
+[ECO "E49"]
+[PlyCount "76"]
+[EventDate "1975.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 d5 5. a3 Bxc3+ 6. bxc3 c5 7. cxd5 exd5 8.
+Bd3 O-O 9. Ne2 Re8 10. O-O Bg4 11. f3 Bh5 12. Rb1 Qc7 13. Nf4 Bg6 14. Bxg6 hxg6
+15. Qb3 cxd4 16. cxd4 Qd6 17. Qxb7 Nc6 18. Qa6 Rad8 19. Bd2 g5 20. Nd3 Nd7 21.
+Nb4 Ndb8 22. Qa4 Re6 23. Nxc6 Nxc6 24. g3 Qd7 25. Qc2 Rh6 26. Qd3 Re8 27. Rbe1
+Rb8 28. Rb1 Rxb1 29. Rxb1 g4 30. f4 f5 31. Rb5 Ne7 32. Bb4 Rb6 33. Rc5 Nc6 34.
+Bd2 Ne7 35. Qc2 Rc6 36. Qa4 a6 37. Rxc6 Qxc6 38. Qxc6 Nxc6 1/2-1/2
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1975.??.??"]
+[Round "?"]
+[White "Filip, Miroslav"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "E54"]
+[PlyCount "97"]
+[EventDate "1975.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Bd3 d5 6. Nf3 c5 7. O-O dxc4 8. Bxc4
+Nc6 9. Bd3 Qe7 10. Ne4 Nxe4 11. Bxe4 f5 12. Bxc6 bxc6 13. Bd2 Ba6 14. Re1 Bxd2
+15. Qxd2 cxd4 16. exd4 Bc4 17. Ne5 Bd5 18. Rac1 Bxa2 19. Nxc6 Qd6 20. Qb4 Qxb4
+21. Nxb4 Bd5 22. Rc5 Rab8 23. Nxd5 exd5 24. Re7 Rf7 25. Rxf7 Kxf7 26. Rxd5 Ke6
+27. Re5+ Kf6 28. Re2 Rb4 29. Rd2 Ke6 30. g3 Kd5 31. Re2 Rb7 32. Re5+ Kxd4 33.
+Rxf5 Kc4 34. Rf3 a5 35. Rc3+ Kb4 36. h4 a4 37. Kg2 Rd7 38. Rc8 Rd3 39. Rb8+ Kc4
+40. Rb7 Rb3 41. Rxg7 h5 42. Rc7+ Kd3 43. Rc5 Rxb2 44. Rxh5 a3 45. Ra5 Rb3 46.
+h5 Kc2 47. h6 Kb2 48. g4 a2 49. h7 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1975.??.??"]
+[Round "?"]
+[White "Filip, Miroslav"]
+[Black "Sanz Alonso, Francisco Javier"]
+[Result "1-0"]
+[ECO "A35"]
+[PlyCount "85"]
+[EventDate "1975.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. Nf3 c5 2. c4 Nc6 3. Nc3 g6 4. e3 Bg7 5. d4 d6 6. Be2 Nf6 7. d5 Na5 8. e4 O-O
+9. h3 a6 10. O-O Rb8 11. Re1 Bd7 12. e5 Ne8 13. Bf4 b5 14. cxb5 axb5 15. Qd2 b4
+16. Ne4 Bb5 17. Rac1 Bxe2 18. Rxe2 Nb7 19. Bh6 Nc7 20. b3 f5 21. Ng3 Nb5 22.
+Rc4 dxe5 23. Nxe5 Nc3 24. Bxg7 Nxe2+ 25. Nxe2 Kxg7 26. Nc6 Qd6 27. Nxb8 Rxb8
+28. Nf4 e5 29. Ne6+ Kg8 30. Qh6 Qe7 31. Qe3 Qd6 32. Nxc5 Na5 33. Rc2 Rd8 34.
+Nd3 Qxd5 35. Nxb4 Qd1+ 36. Kh2 e4 37. Qf4 Qd6 38. Qxd6 Rxd6 39. Rc5 Nb7 40.
+Rc8+ Nd8 41. a4 Kf7 42. a5 Ne6 43. a6 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1975.??.??"]
+[Round "?"]
+[White "Gonzalez Maza, Rafael"]
+[Black "Filip, Miroslav"]
+[Result "0-1"]
+[ECO "A00"]
+[PlyCount "92"]
+[EventDate "1975.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. g3 d5 2. Bg2 Nf6 3. b3 e6 4. Bb2 Be7 5. d3 O-O 6. Nd2 c5 7. e4 Nc6 8. Ngf3
+Qc7 9. Qe2 d4 10. a4 e5 11. h3 Rb8 12. O-O a6 13. Rfb1 b5 14. Bc1 Ne8 15. Nf1
+Nd6 16. Ne1 Be6 17. f4 f6 18. f5 Bf7 19. axb5 axb5 20. g4 c4 21. h4 Ra8 22.
+bxc4 bxc4 23. g5 Rxa1 24. Rxa1 Rb8 25. Qg4 Qc8 26. Nh2 Kh8 27. Nhf3 Ra8 28.
+gxf6 Bxf6 29. Rxa8 Qxa8 30. Bg5 Qe8 31. dxc4 Bh5 32. Qh3 Nxe4 33. Nd3 Nc3 34.
+Nc5 e4 35. Nd2 e3 36. Nde4 e2 37. Bd2 Qe7 38. Be1 Ne5 39. Nxc3 Qxc5 40. Ne4 Qa7
+41. c5 d3 42. cxd3 Ng4 43. Bf3 Qa1 44. Bxe2 Qxe1+ 45. Bf1 Bd4+ 46. Kh1 Nf2+ 0-1
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1975.03.??"]
+[Round "4"]
+[White "Filip, Miroslav"]
+[Black "Medina Garcia, Antonio"]
+[Result "1/2-1/2"]
+[ECO "D56"]
+[PlyCount "56"]
+[EventDate "1975.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+
+1. c4 e6 2. Nc3 Nf6 3. d4 d5 4. Bg5 Be7 5. e3 O-O 6. Nf3 h6 7. Bh4 Ne4 8. Bxe7
+Qxe7 9. Rc1 c6 10. Bd3 Nxc3 11. Rxc3 dxc4 12. Bxc4 Nd7 13. O-O e5 14. Qc2 exd4
+15. exd4 Nb6 16. Re3 Qd6 17. Bb3 Nd5 18. Re5 Be6 19. Rfe1 Nc7 20. h3 Rad8 21.
+Qd3 Bxb3 22. Qxb3 b6 23. Re7 Ne6 24. Rxa7 Nxd4 25. Nxd4 Qxd4 26. Rc7 Qc5 27.
+Qc3 Qxc3 28. bxc3 Rd6 1/2-1/2

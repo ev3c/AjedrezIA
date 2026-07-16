@@ -1,0 +1,125 @@
+[Event "Ct. Barcelona Gent Gran"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "1"]
+[White "Mañe Bernat, J."]
+[Black "Santiveri Augusta, J."]
+[Result "1-0"]
+[ECO "B30"]
+[WhiteElo "2030"]
+[BlackElo "1805"]
+[PlyCount "93"]
+[EventDate "1996.??.??"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bc4 d6 4. O-O Nf6 5. Nc3 e6 6. Re1 Be7 7. d4 O-O 8. dxc5
+dxc5 9. Qxd8 Rxd8 10. Bg5 a6 11. h3 b5 12. Bf1 e5 13. Bxf6 Bxf6 14. Nd5 Rd6 15.
+Rad1 Nd4 16. Nxf6+ gxf6 17. Nh2 Re6 18. c3 Nc6 19. b3 Ra7 20. Rd5 Rd7 21. Ng4
+Ne7 22. Rxc5 Rd2 23. a4 bxa4 24. bxa4 Bd7 25. Bc4 Red6 26. Nh6+ Kg7 27. Nxf7
+Rc6 28. Rxc6 Bxc6 29. Re3 Bxa4 30. Rg3+ Ng6 31. h4 h5 32. Nh8 Be8 33. Nxg6 Bxg6
+34. Bxa6 Kh6 35. Bb7 Rd7 36. Bd5 f5 37. exf5 Bxf5 38. c4 Rc7 39. Rg5 Bd3 40.
+Rxe5 Bxc4 41. Bxc4 Rxc4 42. g3 Rg4 43. Kg2 Rg6 44. f4 Rf6 45. f5 Kg7 46. Kf3
+Rd6 47. Kf4 1-0
+
+[Event "Ct. Barcelona Gent Gran"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "2"]
+[White "Bastardas Sabate, A."]
+[Black "Mañe Bernat, J."]
+[Result "0-1"]
+[ECO "A40"]
+[BlackElo "2030"]
+[PlyCount "84"]
+[EventDate "1996.??.??"]
+
+1. d4 e6 2. e4 c5 3. c3 cxd4 4. cxd4 Nc6 5. Nf3 Nf6 6. Nc3 Bb4 7. Bd2 Bxc3 8.
+Bxc3 Nxe4 9. Qc2 d5 10. Bd3 Nxc3 11. bxc3 h6 12. O-O O-O 13. Rfe1 Qc7 14. Re3
+a6 15. Rae1 b5 16. a3 Na5 17. Nd2 Ra7 18. Rg3 Nc6 19. Nf3 Qe7 20. Qc1 Qf6 21.
+Re2 Rc7 22. Rc2 Ne7 23. Ne5 Nf5 24. Rf3 Qg5 25. Qxg5 hxg5 26. Bxf5 exf5 27. Nd3
+f4 28. Nc5 Bg4 29. Nxa6 Ra7 30. Nc5 Rxa3 31. h3 Bxf3 32. gxf3 Rfa8 33. Rb2 Rxc3
+34. Nb3 Rxf3 35. Kg2 Rd3 36. Nc5 Rxd4 37. Rxb5 Ra2 38. Nb3 Rd3 39. Nc1 Rg3+ 40.
+Kf1 Rxh3 41. Rxd5 Rh1+ 42. Kg2 Rxc1 0-1
+
+[Event "Ct. Barcelona Gent Gran"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "3"]
+[White "Mañe Bernat, J."]
+[Black "Gomila Pons, A."]
+[Result "0-1"]
+[ECO "D00"]
+[WhiteElo "2030"]
+[BlackElo "2190"]
+[PlyCount "68"]
+[EventDate "1996.??.??"]
+
+1. d4 d5 2. Bg5 h6 3. Bh4 c5 4. e3 Qb6 5. b3 Bf5 6. c4 e6 7. Nf3 dxc4 8. Bxc4
+Nd7 9. O-O Ngf6 10. Nc3 Be7 11. Re1 Bg6 12. Ne5 Nxe5 13. dxe5 Rd8 14. Bb5+ Nd7
+15. Bxd7+ Rxd7 16. Qg4 Qb4 17. Qxb4 cxb4 18. Bxe7 bxc3 19. Bb4 c2 20. Bd6 f6
+21. f4 Be4 22. Re2 Kf7 23. Rd2 Rc8 24. Rc1 f5 25. h3 h5 26. Kf2 a5 27. Rd4 b5
+28. g4 hxg4 29. hxg4 g6 30. g5 Rh8 31. Kg3 Ke8 32. a4 Rdh7 33. Ba3 Rh2 34. Rxe4
+R8h3# 0-1
+
+[Event "Ct. Barcelona Gent Gran"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "4"]
+[White "Simo Ponti, P."]
+[Black "Mañe Bernat, J."]
+[Result "1-0"]
+[ECO "B93"]
+[WhiteElo "1840"]
+[BlackElo "2030"]
+[PlyCount "99"]
+[EventDate "1996.??.??"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 g6 7. O-O Bg7 8. Be3
+Nbd7 9. f4 b5 10. f5 O-O 11. fxg6 fxg6 12. Ne6 Qa5 13. Nxf8 Nxf8 14. e5 dxe5
+15. Nd5 Bb7 16. Bb6 Qa4 17. Nxf6+ exf6 18. c3 Qh4 19. a4 Qg5 20. Rf2 e4 21. Qc1
+Qxc1+ 22. Rxc1 bxa4 23. Bc4+ Kh8 24. Bd4 Nd7 25. Be6 Nf8 26. Bc4 Rc8 27. Ba2 f5
+28. Bxg7+ Kxg7 29. c4 Nd7 30. c5 Rxc5 31. Rxc5 Nxc5 32. Rc2 Nd3 33. Rc7+ Kh6
+34. Rxb7 f4 35. Bb1 Nc5 36. Rc7 Ne6 37. Rc6 Nd4 38. Rxa6 e3 39. Rxa4 Nb3 40.
+Rxf4 Kg5 41. g3 h5 42. Bc2 Nc1 43. b4 Ne2+ 44. Kf1 Nxf4 45. gxf4+ Kxf4 46. Bxg6
+h4 47. b5 Ke5 48. b6 Kd6 49. b7 Kc7 50. Be4 1-0
+
+[Event "Ct. Barcelona Gent Gran"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "5"]
+[White "Mañe Bernat, J."]
+[Black "Pares Valls, P."]
+[Result "1-0"]
+[ECO "C02"]
+[WhiteElo "2030"]
+[BlackElo "1930"]
+[PlyCount "53"]
+[EventDate "1996.??.??"]
+
+1. d4 e6 2. e4 d5 3. e5 c5 4. c3 Ne7 5. Nf3 Nec6 6. Bd3 Nd7 7. O-O Qb6 8. Bc2
+Be7 9. Re1 O-O 10. Qd3 g6 11. h4 cxd4 12. h5 dxc3 13. Nxc3 Nb4 14. Qd2 Nxc2 15.
+Qxc2 Qd8 16. Bh6 Re8 17. hxg6 fxg6 18. Nb5 Qb6 19. Nc7 Bc5 20. Nxe8 Kf7 21. Ng7
+Nf8 22. Qa4 Bd7 23. Qf4+ Kg8 24. Nh5 Bxf2+ 25. Kh1 Qd8 26. Nf6+ Kh8 27. Ng5 1-0
+
+[Event "Ct. Barcelona Gent Gran"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "6"]
+[White "Teixido Pascual, J."]
+[Black "Mañe Bernat, J."]
+[Result "1-0"]
+[ECO "A01"]
+[WhiteElo "1940"]
+[BlackElo "2030"]
+[PlyCount "127"]
+[EventDate "1996.??.??"]
+
+1. b3 b6 2. Bb2 Bb7 3. e3 e6 4. Nf3 Nf6 5. Be2 c5 6. O-O Be7 7. d4 Nc6 8. dxc5
+Bxc5 9. c4 O-O 10. Nc3 a6 11. a3 Qc7 12. Qc2 Ne7 13. h3 Ng6 14. Ng5 h6 15. Nf3
+Qc6 16. Bd3 Ne5 17. Be2 Nh7 18. e4 Ng6 19. Qd2 Qc7 20. b4 Be7 21. g3 Ng5 22.
+Nxg5 Bxg5 23. f4 Bf6 24. e5 Nxe5 25. fxe5 Bxe5 26. Bf3 Bxg3 27. Bxb7 Qxb7 28.
+Qg2 Qxg2+ 29. Kxg2 Bh4 30. Rad1 Ra7 31. Ne4 Rc8 32. c5 bxc5 33. Nxc5 d5 34. Bd4
+e5 35. Bxe5 a5 36. Rxd5 axb4 37. axb4 Ra2+ 38. Kf3 Rca8 39. Rfd1 h5 40. Bc7 Re8
+41. R1d2 Ra1 42. Rd1 Ra2 43. R5d2 Ra3+ 44. Kg2 Ree3 45. Rd3 Ra2+ 46. R1d2 Rxd2+
+47. Rxd2 Bf6 48. b5 Rc3 49. Bd6 Bd8 50. Be5 Rxc5 51. Rxd8+ Kh7 52. b6 Rxe5 53.
+b7 Re2+ 54. Kf3 Rb2 55. b8=Q Rxb8 56. Rxb8 Kg6 57. Rb5 Kh6 58. h4 f6 59. Kf4 g6
+60. Rb7 g5+ 61. hxg5+ fxg5+ 62. Kf5 g4 63. Rb6+ Kg7 64. Kg5 1-0

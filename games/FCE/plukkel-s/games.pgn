@@ -1,0 +1,161 @@
+[Event "Barbera op"]
+[Site "Barbera del Valles"]
+[Date "2013.07.04"]
+[Round "1"]
+[White "Real Pereyra, DC."]
+[Black "Plukkel, S."]
+[Result "0-1"]
+[ECO "B57"]
+[WhiteElo "2076"]
+[BlackElo "2314"]
+[PlyCount "58"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Bc4 Qb6 7. Nxc6 bxc6 8.
+O-O g6 9. Qe2 Ng4 10. Na4 Qa5 11. Bb3 Bg7 12. Bd2 Qh5 13. h3 Nf6 14. Qd3 O-O
+15. c4 g5 16. f4 gxf4 17. Bxf4 Qg6 18. Nc3 Nh5 19. Bh2 Kh8 20. Bc2 Rg8 21. Rf2
+c5 22. Rd2 Bd4+ 23. Kh1 Qg5 24. Bd1 Nf4 25. Bxf4 Qxf4 26. Nd5 Qh4 27. Bb3 Rg3
+28. Qc2 Bxh3 29. gxh3 Rag8 0-1
+
+[Event "Barbera op"]
+[Site "Barbera del Valles"]
+[Date "2013.07.05"]
+[Round "2"]
+[White "Plukkel, S."]
+[Black "Saptarshi, R."]
+[Result "0-1"]
+[ECO "B50"]
+[WhiteElo "2314"]
+[BlackElo "2447"]
+[PlyCount "85"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 d6 3. Nc3 a6 4. a4 g6 5. Bc4 Nc6 6. d4 cxd4 7. Nxd4 Ne5 8. Bb3
+Bg7 9. f4 Nd7 10. O-O Ngf6 11. Nf3 Nc5 12. e5 Ng4 13. Bc4 O-O 14. exd6 exd6 15.
+Nd5 Nf6 16. a5 Nxd5 17. Bxd5 Be6 18. Ra3 Qc7 19. b4 Bxd5 20. Qxd5 Nd7 21. f5
+Nf6 22. Qd3 Rac8 23. fxg6 hxg6 24. Bf4 Qxc2 25. Bxd6 Qxd3 26. Rxd3 Rfd8 27.
+Rfd1 Ne4 28. Bf4 Rxd3 29. Rxd3 Bc3 30. Rd7 Bxb4 31. Rxb7 Bxa5 32. Kf1 Nc5 33.
+Rb8 Rxb8 34. Bxb8 Bc3 35. Bd6 Ne4 36. Ba3 Nd2+ 37. Nxd2 Bxd2 38. Ke2 Bf4 39. h3
+Kg7 40. Kd3 Kf6 41. Ke4 Bc7 42. Kd5 a5 43. Kc6 0-1
+
+[Event "Barbera op"]
+[Site "Barbera del Valles"]
+[Date "2013.07.06"]
+[Round "3"]
+[White "Raghavi, N."]
+[Black "Plukkel, S."]
+[Result "1-0"]
+[ECO "B51"]
+[WhiteElo "2097"]
+[BlackElo "2314"]
+[PlyCount "87"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nc6 4. O-O Bd7 5. Re1 e5 6. c3 a6 7. Bxc6 Bxc6 8. d4
+cxd4 9. cxd4 Qc7 10. Nc3 Nf6 11. Nd5 Nxd5 12. exd5 Bxd5 13. Bf4 e4 14. Ng5 f5
+15. f3 Be7 16. fxe4 fxe4 17. Qh5+ g6 18. Qh6 Qb6 19. Rad1 O-O-O 20. Nxe4 Qxb2
+21. Qh3+ Kb8 22. Nc3 Bf6 23. Nxd5 Bxd4+ 24. Kh1 Bc5 25. Qb3 Qxb3 26. axb3 Rhf8
+27. Re7 Rf5 28. g4 Rff8 29. Rxh7 Rde8 30. Bg3 a5 31. Re7 Rxe7 32. Nxe7 Kc7 33.
+Kg2 g5 34. Nf5 Rf6 35. h4 gxh4 36. Bxh4 Rg6 37. Kf3 b5 38. Ra1 Bb4 39. Ne7 Rh6
+40. Nd5+ Kc6 41. Nxb4+ axb4 42. Bg3 Kd5 43. Rd1+ Kc5 44. Bxd6+ 1-0
+
+[Event "Barbera op"]
+[Site "Barbera del Valles"]
+[Date "2013.07.08"]
+[Round "5"]
+[White "Garriga Cazorla, P."]
+[Black "Plukkel, S."]
+[Result "1/2-1/2"]
+[ECO "A39"]
+[WhiteElo "2071"]
+[BlackElo "2314"]
+[PlyCount "103"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 c5 3. Nf3 g6 4. g3 Bg7 5. Bg2 O-O 6. O-O cxd4 7. Nxd4 Nc6 8.
+Nc3 Nxd4 9. Qxd4 d6 10. Qh4 h5 11. Bg5 Re8 12. Qf4 Be6 13. Rac1 Qa5 14. Qd2
+Bxc4 15. Bxb7 Rab8 16. Bg2 Qb4 17. b3 Be6 18. Be3 a5 19. Rfd1 Rbc8 20. Bd4 Rc7
+21. Nb1 Rec8 22. Rxc7 Rxc7 23. Bc3 Qb5 24. Bxa5 Ra7 25. b4 Nd7 26. Rc1 Ne5 27.
+Nc3 Qa6 28. Nd5 Nc4 29. Qd3 Nxa5 30. Qxa6 Rxa6 31. Nc7 Nb3 32. axb3 Rb6 33. b5
+Bxb3 34. Bc6 Bd4 35. e3 Bc5 36. Ra1 Bc4 37. Ra6 Rb8 38. Ra8 Rxa8 39. Nxa8 Ba7
+40. b6 Bb8 41. b7 e5 42. Nb6 Be6 43. Bd5 Bh3 44. Nc4 Kf8 45. Na5 Bd7 46. Nc6
+Bxc6 47. Bxc6 Ke7 48. e4 f5 49. f3 f4 50. Kg2 Kf6 51. Bb5 Ke7 52. Bc6 1/2-1/2
+
+[Event "Barbera op"]
+[Site "Barbera del Valles"]
+[Date "2013.07.10"]
+[Round "7"]
+[White "Plukkel, S."]
+[Black "Asis Gargatagli, H."]
+[Result "0-1"]
+[ECO "B27"]
+[WhiteElo "2314"]
+[BlackElo "2487"]
+[PlyCount "90"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 g6 3. c3 Bg7 4. Bc4 d6 5. O-O Nf6 6. e5 dxe5 7. Nxe5 O-O 8. Re1
+Nfd7 9. Nxf7 Rxf7 10. d4 cxd4 11. Bg5 Nf6 12. Bxf7+ Kxf7 13. cxd4 Nc6 14. Nc3
+h6 15. Qb3+ Kf8 16. Be3 Na5 17. Qb4 Qb6 18. Qxb6 axb6 19. b3 e6 20. Bf4 Nc6 21.
+Bc7 Kf7 22. Nb5 Nd5 23. Be5 Nxe5 24. dxe5 Ke7 25. Rac1 Bd7 26. Nc7 Ra5 27.
+Nxd5+ Rxd5 28. f4 g5 29. g3 Bc6 30. Red1 Ra5 31. a4 h5 32. Rd4 gxf4 33. gxf4
+Bh6 34. Kf2 Ra8 35. Rg1 Kf7 36. Rgd1 Kg6 37. Rg1+ Kf5 38. Ke3 b5 39. axb5 Bxb5
+40. Rc1 Bc6 41. Rc2 Ra1 42. Rf2 Re1+ 43. Kd2 Rxe5 44. Rd8 Rd5+ 45. Rxd5+ Bxd5
+0-1
+
+[Event "Barbera op"]
+[Site "Barbera del Valles"]
+[Date "2013.07.11"]
+[Round "8"]
+[White "Carrasco Rodriguez, J."]
+[Black "Plukkel, S."]
+[Result "0-1"]
+[ECO "B59"]
+[WhiteElo "2183"]
+[BlackElo "2314"]
+[PlyCount "82"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Be2 e5 7. Nb3 Be7 8.
+O-O O-O 9. Be3 a5 10. Nd2 Be6 11. Nc4 b5 12. Nb6 Rb8 13. Nbd5 b4 14. Nb5 Nxe4
+15. Nxe7+ Nxe7 16. f3 Nd5 17. Ba7 Nef6 18. Bxb8 Qxb8 19. Re1 Qb6+ 20. Kh1 Ne3
+21. Qd2 d5 22. a4 Neg4 23. h3 Nf2+ 24. Kh2 Nxh3 25. Bd3 Nf2 26. Rf1 Nxd3 27.
+cxd3 d4 28. Rfe1 Qb8 29. Kg1 Nd5 30. Rac1 Nf4 31. Nc7 f6 32. g3 Nh3+ 33. Kg2
+Bd7 34. Qc2 Ng5 35. Qc4+ Kh8 36. Qd5 Bxa4 37. Ne6 Nxe6 38. Qxe6 Bb5 39. Rc5
+Bxd3 40. Rec1 Qe8 41. Qd5 e4 0-1
+
+[Event "Barbera op"]
+[Site "Barbera del Valles"]
+[Date "2013.07.12"]
+[Round "9"]
+[White "Plukkel, S."]
+[Black "Sequera Paolini, J."]
+[Result "0-1"]
+[ECO "B45"]
+[WhiteElo "2314"]
+[BlackElo "2394"]
+[PlyCount "102"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e6 6. Ndb5 Bc5 7. Nd6+ Ke7 8.
+Nxc8+ Rxc8 9. Bd3 d5 10. Bg5 Bb4 11. O-O Bxc3 12. bxc3 dxe4 13. Bxe4 Qxd1 14.
+Rfxd1 Na5 15. Bf3 b6 16. Rd4 Rhd8 17. Rxd8 Rxd8 18. Rd1 Rxd1+ 19. Bxd1 h6 20.
+Bc1 Nd5 21. Bf3 Nc4 22. Bxd5 exd5 23. Kf1 Kd6 24. Ke2 Kc5 25. f3 f6 26. h4 a5
+27. Bf4 Ne5 28. Be3+ Kc4 29. Kd2 Nd7 30. Bf4 Ne5 31. Be3 b5 32. Bb6 a4 33. Bc7
+h5 34. Bd6 g6 35. Be7 f5 36. Bd6 Nc6 37. Bf8 d4 38. cxd4 Nxd4 39. c3 Ne6 40.
+Bd6 Nd8 41. Be5 Nb7 42. Bf6 Nc5 43. Be7 Nd7 44. Bd6 Nf6 45. Bc7 Nd5 46. Be5 f4
+47. Bd6 Nxc3 48. a3 Nd5 49. Bf8 Ne3 50. g3 Nf1+ 51. Kc2 fxg3 0-1

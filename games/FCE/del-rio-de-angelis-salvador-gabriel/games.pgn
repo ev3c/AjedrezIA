@@ -1,0 +1,438 @@
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.22"]
+[Round "1"]
+[White "Del Rio de Angelis, Salvador Gabriel"]
+[Black "Uriarte Prieto, Goyo"]
+[Result "1-0"]
+[ECO "A14"]
+[WhiteElo "2522"]
+[BlackElo "1979"]
+[PlyCount "85"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. Nf3 e6 2. g3 Nf6 3. Bg2 d5 4. O-O Be7 5. c4 O-O 6. b3 Ne4 7. a3 Bf6 8. Ra2
+a5 9. Qc2 Bd7 10. d3 Nc5 11. cxd5 Nca6 12. dxe6 Bxe6 13. Nbd2 Nc6 14. Qb1 Nc5
+15. Rc2 Qe7 16. Bb2 Bxb2 17. Qxb2 a4 18. b4 Nb3 19. Qc3 Na7 20. Nd4 Nxd4 21.
+Qxd4 Nb5 22. Qb2 c6 23. e3 Rfd8 24. d4 Bd5 25. Bxd5 Rxd5 26. Rc5 Qe6 27. Rfc1
+Rad8 28. Qc2 h5 29. Qxa4 h4 30. Rxd5 Qxd5 31. Qb3 hxg3 32. hxg3 Qh5 33. Qd1 Qg6
+34. a4 Nd6 35. Nf3 Ne4 36. Ne5 Qh7 37. Qg4 Nf6 38. Qf3 Re8 39. b5 cxb5 40. Qxb7
+Qh5 41. Qxb5 Qh3 42. Qb7 Kh7 43. Qh1 1-0
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.23"]
+[Round "2"]
+[White "Schindler, Christian"]
+[Black "Del Rio de Angelis, Salvador Gabriel"]
+[Result "0-1"]
+[ECO "A46"]
+[WhiteElo "2219"]
+[BlackElo "2522"]
+[PlyCount "60"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 d6 2. Nf3 Nd7 3. g3 Ngf6 4. Bg2 e5 5. dxe5 dxe5 6. O-O Bc5 7. c4 O-O 8.
+Nc3 c6 9. Qc2 Qe7 10. b3 Re8 11. Ng5 h6 12. Nge4 Nxe4 13. Nxe4 Bd4 14. Rb1 f5
+15. Nd2 e4 16. e3 Bf6 17. Bb2 Ne5 18. Rfd1 Be6 19. Bf1 Red8 20. Bxe5 Bxe5 21.
+c5 g5 22. Bc4 Bd5 23. Bxd5+ Rxd5 24. Rbc1 Rad8 25. Kf1 Rd3 26. Qc4+ Kh8 27. Ke1
+Bb2 28. Rc2 Ba3 29. Rc3 R3d5 30. Qe2 Bxc5 0-1
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.24"]
+[Round "3"]
+[White "Del Rio de Angelis, Salvador Gabriel"]
+[Black "Fell, Sebastian"]
+[Result "1-0"]
+[ECO "B07"]
+[WhiteElo "2522"]
+[BlackElo "2343"]
+[PlyCount "49"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 g6 3. g3 Bg7 4. Bg2 O-O 5. O-O d6 6. Re1 Nbd7 7. e4 e5 8. Nc3
+c6 9. a4 a5 10. h3 Re8 11. Be3 exd4 12. Bxd4 Qc7 13. Qd2 Ne5 14. Nh2 b6 15. b3
+Bb7 16. Rad1 Rad8 17. f4 Ned7 18. Qf2 c5 19. Nb5 Qb8 20. Ba1 Nxe4 21. Bxe4 Rxe4
+22. Bxg7 Kxg7 23. Nxd6 Rxe1+ 24. Qxe1 Nf8 25. Qe5+ 1-0
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.25"]
+[Round "4"]
+[White "Suarez Gomez, Julio"]
+[Black "Del Rio de Angelis, Salvador Gabriel"]
+[Result "1-0"]
+[ECO "B40"]
+[WhiteElo "2474"]
+[BlackElo "2522"]
+[PlyCount "69"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 e6 2. Nf3 c5 3. e4 cxd4 4. Nxd4 Bc5 5. Nb3 Bb6 6. Nc3 Ne7 7. Bd3 O-O 8.
+Qe2 d5 9. O-O Nbc6 10. Bg5 d4 11. e5 dxc3 12. Qe4 g6 13. Qh4 Nxe5 14. Bxe7 Qe8
+15. Bxf8 cxb2 16. Rae1 b1=Q 17. Rxb1 Qxf8 18. Be2 Bd7 19. Qf6 Nc6 20. Rfd1 Be8
+21. c4 Qa3 22. c5 Bc7 23. Qb2 Qb4 24. Qd2 Qa3 25. Qb2 Qb4 26. a3 Qh4 27. g3 Qe7
+28. Qc3 Rb8 29. Nd4 Nxd4 30. Qxd4 b6 31. cxb6 Bxb6 32. Qc3 Ba4 33. Rdc1 Qg5 34.
+Qc4 Qf5 35. Rxb6 1-0
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.26"]
+[Round "5"]
+[White "Del Rio de Angelis, Salvador Gabriel"]
+[Black "Tahay, Alexis"]
+[Result "1/2-1/2"]
+[ECO "D40"]
+[WhiteElo "2522"]
+[BlackElo "2290"]
+[PlyCount "76"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 c5 3. e3 d5 4. Be2 Nc6 5. dxc5 e6 6. a3 a5 7. c4 Bxc5 8. Nc3
+O-O 9. O-O Qe7 10. cxd5 exd5 11. Nxd5 Nxd5 12. Qxd5 Bg4 13. Qd1 Rfd8 14. Bd2
+Rac8 15. Qe1 a4 16. Bc3 Bd6 17. Rd1 Bb8 18. Nd4 Bxe2 19. Qxe2 Nxd4 20. Rxd4 Be5
+21. Rxd8+ Rxd8 22. Bxe5 Qxe5 23. Rd1 Rxd1+ 24. Qxd1 h5 25. Qd4 Qb5 26. g3 g6
+27. h4 Qc6 28. e4 b5 29. Kg2 Qc2 30. Kf3 Kh7 31. Qc3 Qd1+ 32. Ke3 Kg8 33. e5
+Qd5 34. f4 Kf8 35. Qc8+ Ke7 36. Qc7+ Ke6 37. Qc8+ Ke7 38. Qc7+ Ke6 1/2-1/2
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.27"]
+[Round "6"]
+[White "Arjun, Kalyan"]
+[Black "Del Rio de Angelis, Salvador Gabriel"]
+[Result "0-1"]
+[ECO "B40"]
+[WhiteElo "2347"]
+[BlackElo "2522"]
+[PlyCount "62"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 c5 3. Nf3 cxd4 4. Nxd4 Bc5 5. Nb5 Qb6 6. Be3 Bxe3 7. fxe3 Nc6 8.
+N1c3 Qxe3+ 9. Be2 Rb8 10. Qd6 Nge7 11. Nc7+ Kf8 12. Rd1 h5 13. Rf1 Rh6 14. Rd3
+Qc1+ 15. Bd1 Qxb2 16. N7b5 a6 17. Na7 Qb4 18. Nxc8 Rxc8 19. Qxb4 Nxb4 20. Rxd7
+b5 21. Kd2 Rg6 22. g3 Rg5 23. Rd6 Ke8 24. a3 Nbc6 25. Be2 Rc5 26. Nd1 Ng6 27.
+Ne3 Nge5 28. Ke1 Ke7 29. Rd2 Rc3 30. Nd1 Rxa3 31. Bxh5 Rh8 0-1
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.28"]
+[Round "7"]
+[White "Del Rio de Angelis, Salvador Gabriel"]
+[Black "Zanan, Evgeny"]
+[Result "1/2-1/2"]
+[ECO "A22"]
+[WhiteElo "2522"]
+[BlackElo "2428"]
+[PlyCount "54"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. c4 e5 2. e3 Nf6 3. Nc3 Bb4 4. d3 c6 5. Nf3 d6 6. Bd2 O-O 7. Be2 Re8 8. O-O
+Nbd7 9. Qc2 Ba5 10. Rfd1 Nf8 11. h3 Ng6 12. Bf1 h6 13. Rab1 Be6 14. Be1 Rc8 15.
+b4 Bb6 16. c5 Bc7 17. cxd6 Qxd6 18. a4 Qe7 19. b5 cxb5 20. axb5 Nd5 21. Qa4 Bb6
+22. Nxd5 Bxd5 23. Be2 e4 24. dxe4 Bxe4 25. Rb2 Qc7 26. Nd4 Rcd8 27. Rbd2 Nf8
+1/2-1/2
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.29"]
+[Round "8"]
+[White "Farran Martos, Francesco Xavier"]
+[Black "Del Rio de Angelis, Salvador Gabriel"]
+[Result "1/2-1/2"]
+[ECO "C13"]
+[WhiteElo "2412"]
+[BlackElo "2522"]
+[PlyCount "44"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 dxe4 5. Bxf6 Qxf6 6. Nxe4 Qd8 7. Nf3 Nd7 8.
+Bd3 c5 9. dxc5 Qa5+ 10. c3 Nxc5 11. Nxc5 Qxc5 12. Qe2 Bd7 13. Ne5 Bc6 14. O-O-O
+Bd6 15. Nxc6 bxc6 16. Qe4 Rb8 17. Rd2 Ke7 18. Bc4 Rhd8 19. Rhd1 Bc7 20. g3 Rxd2
+21. Rxd2 Rd8 22. b4 Qe5 1/2-1/2
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.30"]
+[Round "9"]
+[White "Del Rio de Angelis, Salvador Gabriel"]
+[Black "Hansen, Torbjorn Ringdal"]
+[Result "1-0"]
+[ECO "E20"]
+[WhiteElo "2522"]
+[BlackElo "2429"]
+[PlyCount "79"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 d5 3. c4 e6 4. Nc3 Bb4 5. g3 O-O 6. Bg2 dxc4 7. O-O Nc6 8. Qa4
+Nd5 9. Qc2 Be7 10. Rd1 Rb8 11. e4 Nxc3 12. bxc3 b5 13. a4 b4 14. cxb4 Nxb4 15.
+Qxc4 Ba6 16. Qc3 c5 17. Bf4 cxd4 18. Rxd4 Qc8 19. Qxc8 Rbxc8 20. Rd7 Bc5 21.
+Bf1 Bxf1 22. Kxf1 Rfd8 23. Rad1 Rxd7 24. Rxd7 Bb6 25. Ng5 e5 26. Bxe5 f6 27.
+Bd6 fxg5 28. Bxb4 Rc4 29. Be1 Rxa4 30. Bc3 Rc4 31. Rxg7+ Kf8 32. Bf6 Rxe4 33.
+Rxg5 Rc4 34. Rf5 Kf7 35. Bh8+ Kg6 36. Rf6+ Kg5 37. h4+ Kg4 38. Kg2 Rc2 39. Rf4+
+Kh5 40. g4+ 1-0
+
+[Event "Montcada op A"]
+[Site "Montcada i Reixac"]
+[Date "2016.06.25"]
+[Round "1"]
+[White "Snehal, Bhosale"]
+[Black "Del Rio De Angelis, Salvador G"]
+[Result "1/2-1/2"]
+[ECO "E20"]
+[WhiteElo "2174"]
+[BlackElo "2534"]
+[PlyCount "56"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 e6 2. c4 Nf6 3. Nc3 Bb4 4. f3 O-O 5. e4 d5 6. cxd5 exd5 7. e5 Nfd7 8. a3
+Bxc3+ 9. bxc3 f6 10. exf6 Qxf6 11. Be3 Nb6 12. Bd3 Bf5 13. Ne2 Nc6 14. O-O Rae8
+15. Bc1 Bxd3 16. Qxd3 Na5 17. Ra2 Nbc4 18. Ng3 Nb3 19. Re2 Qg6 20. Qxg6 hxg6
+21. Bg5 Rxe2 22. Nxe2 Nxa3 23. Nf4 c6 24. Re1 a5 25. Re7 Rf7 26. Re8+ Rf8 27.
+Re7 Rf7 28. Re8+ Rf8 1/2-1/2
+
+[Event "Montcada op A"]
+[Site "Montcada i Reixac"]
+[Date "2016.06.27"]
+[Round "3"]
+[White "Herraiz Hidalgo, Herminio"]
+[Black "Del Rio De Angelis, Salvador G"]
+[Result "1/2-1/2"]
+[ECO "E39"]
+[WhiteElo "2437"]
+[BlackElo "2534"]
+[PlyCount "17"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 e6 2. c4 Nf6 3. Nc3 Bb4 4. Qc2 c5 5. dxc5 O-O 6. a3 Bxc5 7. Nf3 b6 8. Bf4
+Bb7 9. Rd1 1/2-1/2
+
+[Event "Montcada op A"]
+[Site "Montcada i Reixac"]
+[Date "2016.06.28"]
+[Round "4"]
+[White "Del Rio De Angelis, Salvador G"]
+[Black "Iniyan, P."]
+[Result "1-0"]
+[ECO "E97"]
+[WhiteElo "2534"]
+[BlackElo "2336"]
+[PlyCount "51"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. Be3
+Ng4 9. Bg5 f6 10. Bc1 f5 11. dxe5 fxe4 12. Ng5 Ngxe5 13. Ngxe4 Nd4 14. Bg5 Qe8
+15. Nd5 Be6 16. Nef6+ Rxf6 17. Qxd4 Rf5 18. Qd2 Bxd5 19. cxd5 Qa4 20. b3 Qe4
+21. Rae1 Raf8 22. f3 Qd4+ 23. Qxd4 Nxf3+ 24. Bxf3 Bxd4+ 25. Be3 Be5 26. Rc1 1-0
+
+[Event "Montcada op A"]
+[Site "Montcada i Reixac"]
+[Date "2016.06.29"]
+[Round "5"]
+[White "Henriquez Villagra, Cristobal"]
+[Black "Del Rio De Angelis, Salvador G"]
+[Result "1-0"]
+[ECO "C17"]
+[WhiteElo "2491"]
+[BlackElo "2534"]
+[PlyCount "85"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Ba5 6. b4 cxd4 7. Nb5 Bc7 8. Nf3
+Nc6 9. Bf4 Nge7 10. Bd3 Ng6 11. Nxc7+ Qxc7 12. Bg3 Bd7 13. O-O Qb6 14. Qd2 Nce7
+15. a4 a6 16. h4 h5 17. b5 a5 18. Qg5 Rc8 19. Rfe1 Kf8 20. Re2 Kg8 21. Bf4 Nf5
+22. Bc1 Qd8 23. Qxd8+ Rxd8 24. g3 Nge7 25. Bb2 f6 26. Nxd4 Nxd4 27. Bxd4 Kf7
+28. Rae1 Rc8 29. Re3 f5 30. Ra1 Rc4 31. Bxc4 dxc4 32. Rd1 Nd5 33. Ra3 b6 34.
+Be3 Rc8 35. c3 Ke7 36. Rxd5 exd5 37. Bxb6 Ra8 38. Ra1 Be6 39. Kg2 Kd7 40. Kf3
+Kc8 41. Kf4 Kb7 42. Bd4 Rh8 43. Kg5 1-0
+
+[Event "Montcada op A"]
+[Site "Montcada i Reixac"]
+[Date "2016.06.30"]
+[Round "6"]
+[White "Del Rio De Angelis, Salvador G"]
+[Black "Rathanvel, V S."]
+[Result "1-0"]
+[ECO "A50"]
+[WhiteElo "2534"]
+[BlackElo "2315"]
+[PlyCount "89"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 Nc6 3. Nf3 e6 4. a3 d6 5. Nc3 g6 6. e4 Bg7 7. Be2 O-O 8. O-O
+Re8 9. Be3 e5 10. dxe5 Nxe5 11. Nxe5 Rxe5 12. f3 Re8 13. Qd2 b6 14. Bg5 Bb7 15.
+Rac1 Rc8 16. Rfd1 Qd7 17. Bf1 Qe6 18. b4 Nd7 19. Nd5 Ne5 20. Kh1 Nc6 21. c5
+dxc5 22. bxc5 Na5 23. Rb1 c6 24. Nf4 Qe5 25. Nd3 Qc7 26. Bf4 Qd8 27. cxb6 axb6
+28. Qa2 Bd4 29. Ne5 Re6 30. Nc4 Ba6 31. Nxb6 Bxf1 32. Nxc8 Bc4 33. Qd2 Nb3 34.
+Qb4 Na5 35. Rxd4 Qxd4 36. Qxa5 Qd3 37. Qe1 Qxa3 38. Nb6 Bb5 39. Ra1 Qb2 40.
+Ra8+ Kg7 41. Bd2 f6 42. Bc3 Qc2 43. Ra7+ Kh8 44. Qa1 Kg8 45. Rd7 {(irrep.)} 1-0
+
+[Event "Montcada op A"]
+[Site "Montcada i Reixac"]
+[Date "2016.07.01"]
+[Round "7"]
+[White "Santos Ruiz, Miguel"]
+[Black "Del Rio De Angelis, Salvador G"]
+[Result "1/2-1/2"]
+[ECO "C04"]
+[WhiteElo "2410"]
+[BlackElo "2534"]
+[PlyCount "56"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nc6 4. Ngf3 Nf6 5. e5 Nd7 6. Bd3 f6 7. Ng5 Ndxe5 8.
+dxe5 fxg5 9. Qh5+ Kd7 10. Nf3 Qe8 11. Qxg5 Nb4 12. Bb5+ c6 13. Ba4 Qd8 14.
+Qxd8+ Kxd8 15. a3 Na6 16. c3 Be7 17. h4 Bd7 18. Bc2 Kc7 19. Rh3 h6 20. Ke2 Rhd8
+21. h5 c5 22. Rg3 Bb5+ 23. Ke1 Bf8 24. Nh4 Rd7 25. Ng6 Rf7 26. Nh8 Rd7 27. Ng6
+Rf7 28. Nh8 Rd7 1/2-1/2
+
+[Event "Montcada op A"]
+[Site "Montcada i Reixac"]
+[Date "2016.07.02"]
+[Round "8"]
+[White "Del Rio De Angelis, Salvador G"]
+[Black "Cori T., Deysi"]
+[Result "1/2-1/2"]
+[ECO "A80"]
+[WhiteElo "2534"]
+[BlackElo "2435"]
+[PlyCount "63"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d6 2. Nf3 f5 3. Nc3 Nf6 4. Bg5 g6 5. Bxf6 exf6 6. d5 Bg7 7. e3 O-O 8. Nd4
+Qe7 9. g3 c5 10. Ne6 Bxe6 11. dxe6 Qxe6 12. Bg2 Qd7 13. h4 h5 14. Qd5+ Rf7 15.
+O-O-O Bf8 16. e4 fxe4 17. Nxe4 Kg7 18. Rhe1 Na6 19. Nxd6 Bxd6 20. Qxd6 Rd8 21.
+Qxd7 Rdxd7 22. Rxd7 Rxd7 23. c3 Kf7 24. Kc2 b6 25. Bf1 Nc7 26. Bd3 Rd6 27. Bc4+
+Kf8 28. a4 Rd8 29. Re3 Rd6 30. Rd3 Ne8 31. Bd5 f5 32. Ba2 1/2-1/2
+
+[Event "Montcada op A"]
+[Site "Montcada i Reixac"]
+[Date "2016.07.03"]
+[Round "9"]
+[White "Perez Mitjans, Orelvis"]
+[Black "Del Rio De Angelis, Salvador G"]
+[Result "0-1"]
+[ECO "C09"]
+[WhiteElo "2462"]
+[BlackElo "2534"]
+[PlyCount "142"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nd2 c5 4. exd5 exd5 5. Ngf3 Nc6 6. Bb5 Bd6 7. O-O cxd4 8.
+Re1+ Nge7 9. Nxd4 O-O 10. N2b3 Ne5 11. c3 Ng4 12. h3 Nf6 13. Bd3 Bb8 14. Nd2
+Qd6 15. Nf1 Ng6 16. Be3 Bd7 17. Qb3 Bc7 18. Rad1 Rfe8 19. Nb5 Bxb5 20. Qxb5 Bb6
+21. Bc2 Nf4 22. Bb3 Ne6 23. Bxb6 Qxb6 24. Qxb6 axb6 25. Ne3 Nc7 26. Kf1 Rad8
+27. Rd3 Rd7 28. Red1 Red8 29. Rd4 Kf8 30. Rb4 Rd6 31. Nf5 Re6 32. Nd4 Red6 33.
+Nb5 Nxb5 34. Rxb5 Ke7 35. Rd4 Ra8 36. Rdb4 Ra6 37. Ke2 Kd7 38. Rd4 Kc6 39. Rbb4
+Ra8 40. g4 Re8+ 41. Kf3 Re1 42. c4 Kc7 43. cxd5 Nd7 44. Re4 Rf6+ 45. Kg2 Rxe4
+46. Rxe4 Kd6 47. Bc4 Ne5 48. Bb3 Nd3 49. f3 g5 50. Re8 Ne5 51. Bd1 Ng6 52. Kg3
+Kxd5 53. Bc2 Kc6 54. Be4+ Kc7 55. Bf5 Nf4 56. h4 h6 57. Re7+ Kd8 58. Rxb7 Rd6
+59. hxg5 hxg5 60. Rb8+ Ke7 61. Rc8 Kf6 62. Rc2 Ke5 63. Be4 Rd1 64. a4 Kd4 65.
+b4 Ke3 66. Rc3+ Kd4 67. Rc2 Ke3 68. Kh2 Ne2 69. Bb7 Rd7 70. Bc6 Rd6 71. Be4 Kf2
+0-1

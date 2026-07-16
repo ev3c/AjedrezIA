@@ -1,0 +1,269 @@
+[Event "Camp. Catalunya indiv."]
+[Site "?"]
+[Date "1962.??.??"]
+[Round "?"]
+[White "Llorens"]
+[Black "Garceran Lozano, Francisco"]
+[Result "0-1"]
+[ECO "E36"]
+[PlyCount "68"]
+[EventDate "1962.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 d5 5. a3 Be7 6. Bg5 Nbd7 7. e3 c6 8. Nf3
+h6 9. Bh4 O-O 10. Rd1 a6 11. Bd3 Ne8 12. Bxe7 Qxe7 13. O-O f5 14. cxd5 cxd5 15.
+Rc1 Nd6 16. Na4 b5 17. Nc5 Nc4 18. a4 Nxc5 19. dxc5 e5 $1 20. Be2 e4 21. Nd4 f4
+22. axb5 axb5 23. Nxb5 Ne5 24. exf4 Rxf4 25. Qd2 Bg4 $1 26. Bxg4 Rxg4 27. Qxd5+
+Kh7 28. Qxa8 Nf3+ 29. Kh1 Rxg2 $3 30. Kxg2 Qg5+ 31. Kh1 Qf4 32. Qxe4+ $2 Qxe4
+33. Nd6 Qf4 34. Kg2 Qg4+ 0-1
+
+[Event "Camp. Catalunya indiv. ( prev. '65 )"]
+[Site "?"]
+[Date "1964.??.??"]
+[Round "4"]
+[White "Garceran Lozano, Francisco"]
+[Black "Borrell Vidal, Maximo"]
+[Result "0-1"]
+[ECO "A30"]
+[PlyCount "88"]
+[EventDate "1964.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. c4 c5 2. e4 Nc6 3. f4 d6 4. Nf3 g6 5. d4 cxd4 6. Nxd4 Bg7 7. Nxc6 bxc6 8.
+Nc3 Nh6 9. Be3 Ng4 10. Bd4 e5 11. fxe5 Nxe5 12. Be2 O-O 13. O-O c5 14. Be3 Nc6
+15. Qd5 Bb7 16. Rad1 Be5 17. g3 Qe7 18. Qd2 Nd4 19. Bh6 Rfe8 20. Bg4 Rab8 21.
+b3 Bc6 22. Nd5 Bxd5 23. cxd5 Rb7 24. Bg5 f6 25. Be3 Rb4 26. Rde1 a5 27. Bxd4
+Bxd4+ 28. Kg2 Qe5 29. Qd3 a4 30. Bd7 axb3 31. a3 c4 32. Qe2 c3 33. axb4 Ra8 34.
+Ra1 Rxa1 35. Rxa1 c2 36. Be6+ Kg7 37. Rf1 Qg5 38. Qc4 Qe3 39. Qc7+ Kh6 40. Qxd6
+Qe2+ 41. Rf2 Qxf2+ 42. Kh3 Qf1+ 43. Kg4 f5+ 44. exf5 c1=Q 0-1
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1964.??.??"]
+[Round "2"]
+[White "Garceran Lozano, Francisco"]
+[Black "Anguera Maestro, Jaime"]
+[Result "1-0"]
+[ECO "E85"]
+[PlyCount "84"]
+[EventDate "1964.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+
+1. c4 Nf6 2. Nc3 g6 3. e4 d6 4. d4 Bg7 5. f3 O-O 6. Be3 e5 7. Nge2 Nc6 8. d5
+Ne7 9. g4 a6 10. Ng3 c6 11. Bd3 cxd5 12. cxd5 b5 13. a3 h5 14. gxh5 Nxh5 15.
+Nxh5 gxh5 16. Qd2 Ng6 17. O-O-O Bd7 18. Rdg1 Qc7 19. Kb1 Rfb8 20. Na2 a5 21. b3
+Bf6 22. Rc1 Qd8 23. f4 exf4 24. Bxf4 Be8 25. Rcf1 Bg7 26. Bh6 Qe7 27. Bxg7 Kxg7
+28. Rf5 Bd7 29. Rxh5 Rh8 30. Rg5 Rh6 31. Rhg1 Rah8 32. Qxa5 Rxh2 33. Qc3+ Kf8
+34. Nb4 Rh1 35. R5g3 R8h3 36. Kb2 Qh4 37. Rxh3 Rxh3 38. Qe1 Rh2+ 39. Bc2 Qf6+
+40. Kb1 Ne5 41. Qg3 Rh8 42. Qg5 Qf2 $4 {43.Qd8+ Be8 44.Qxd6++} 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1964.??.??"]
+[Round "3"]
+[White "Ingelmo Iglesias, Agustin"]
+[Black "Garceran Lozano, Francisco"]
+[Result "1-0"]
+[ECO "A85"]
+[PlyCount "105"]
+[EventDate "1964.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 c6 3. Nc3 f5 4. Nf3 Nf6 5. Bf4 e6 6. e3 Bd6 7. Ne5 O-O 8. Bd3
+Qe8 9. h3 Nh5 10. Bh2 f4 11. Qc2 Bxe5 12. Bxh7+ Kh8 13. dxe5 fxe3 14. O-O exf2+
+15. Kh1 Qe7 16. Bg6 Nf4 17. Ne2 Nxe2 18. Qxe2 Qg5 19. Bc2 Nd7 20. Rad1 b6 21.
+Rd4 Ba6 22. b3 c5 23. Rg4 Qe7 24. Rg6 Rf5 25. Bxf5 exf5 26. Rxf2 Nf8 27. Qh5+
+Kg8 28. Rg5 dxc4 29. Rgxf5 cxb3 30. Rf7 Qe6 31. axb3 Qxb3 32. Qf5 Ne6 33. Qg6
+Bd3 34. Qg4 Qc4 35. R2f4 Be2 36. Qg6 Bd3 37. Qg3 Qd5 38. Re7 Rf8 39. Rf6 Bf5
+40. Rfxe6 Rf7 41. Rd6 Qc4 42. Re8+ Rf8 43. Rxf8+ Kxf8 44. Rd8+ Kf7 45. Qg5 Qe4
+46. Qh5+ Bg6 47. Qd1 Qb1 48. Rd7+ Ke6 49. Qxb1 Bxb1 50. Rxa7 b5 51. Ra6+ Kd5
+52. e6 Bf5 53. e7 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1964.??.??"]
+[Round "4"]
+[White "Garceran Lozano, Francisco"]
+[Black "Garcia Sainz, Pablo"]
+[Result "1-0"]
+[ECO "A18"]
+[PlyCount "61"]
+[EventDate "1964.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+
+1. c4 Nf6 2. Nc3 e6 3. e4 d5 4. e5 Ng8 5. d4 c6 6. f4 Ne7 7. Be3 dxc4 8. Bxc4
+Nd5 9. Qd2 Bb4 10. Nge2 Nd7 11. a3 N7b6 12. Bxd5 Bxc3 13. Bxc6+ Bd7 14. Bxd7+
+Qxd7 15. bxc3 O-O 16. O-O Nc4 17. Qd3 Qd5 18. Rf3 f5 19. exf6 Rxf6 20. Ng3 e5
+21. Qe4 Nxe3 22. Rxe3 Qxe4 23. Rxe4 exf4 24. Nh5 Rc6 25. Nxf4 Rxc3 26. Re7 b5
+27. Ne6 g6 28. Rf1 Re3 29. d5 Rc8 30. h3 a5 31. Rff7 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1964.??.??"]
+[Round "5"]
+[White "Perez Gozalbes, Eduardo"]
+[Black "Garceran Lozano, Francisco"]
+[Result "1-0"]
+[ECO "D10"]
+[PlyCount "97"]
+[EventDate "1964.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 c6 3. Nc3 f5 4. g3 e6 5. Bg2 Bd6 6. Nh3 Nf6 7. O-O O-O 8. f3 e5
+9. cxd5 exd4 10. Qxd4 Nbd7 11. Kh1 Be5 12. Qd3 Bxc3 13. dxc6 Ba5 14. cxd7 Qxd7
+15. Qb3+ Qd5 16. Qxd5+ Nxd5 17. Rd1 Nf6 18. Bd2 Bb6 19. Bc3 Be6 20. Nf4 Bc4 21.
+b3 Bb5 22. a4 Bc6 23. a5 Be3 24. Ne6 Rf7 25. Nd8 Rc7 26. Be5 Rcc8 27. Nxc6 Rxc6
+28. f4 Rc2 29. Bxb7 Ng4 30. Rd7 Nxe5 31. fxe5 Re8 32. Bd5+ Kh8 33. Bc4 g6 34.
+e6 Rd2 35. Rb7 Rd4 36. Bb5 Rxe6 37. Rxa7 f4 38. Rb7 Red6 39. a6 fxg3 40. hxg3
+Rd1+ 41. Rxd1 Rxd1+ 42. Kg2 Rd5 43. b4 Bd4 44. Bc4 Rd8 45. a7 Be5 46. Rd7 Rxd7
+47. a8=Q+ Kg7 48. Qg8+ Kh6 49. Qe6 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1964.??.??"]
+[Round "6"]
+[White "Puig Pulido, Pedro"]
+[Black "Garceran Lozano, Francisco"]
+[Result "1-0"]
+[ECO "A84"]
+[PlyCount "111"]
+[EventDate "1964.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 e6 3. Nc3 f5 4. Nf3 Nf6 5. g3 c6 6. Bg2 Bd6 7. O-O Nbd7 8. b3
+O-O 9. Qc2 Ne4 10. Bb2 b6 11. cxd5 cxd5 12. Nb5 Bb7 13. Nxd6 Nxd6 14. Ba3 Nf6
+15. Ne5 Rc8 16. Qd3 Re8 17. Rac1 Nfe4 18. Rxc8 Nxc8 19. Rc1 Ne7 20. Qc2 Ng6 21.
+Qc7 Qxc7 22. Rxc7 Ba6 23. Nxg6 hxg6 24. f3 Nf6 25. Kf2 Ra8 26. Bf1 g5 27. h3 f4
+28. gxf4 gxf4 29. h4 Bc8 30. Bh3 Kh7 31. Bc1 a5 32. Bxf4 b5 33. Be5 Kg6 34. Bg4
+a4 35. bxa4 bxa4 36. a3 Kh6 37. Kg3 Kg6 38. Bh3 Nh5+ 39. Kf2 Kh6 40. Rc6 Bd7
+41. Rd6 Bb5 42. Bxe6 Ra6 43. Rxa6 Bxa6 44. Bxd5 Bb5 45. Be6 Kg6 46. d5 Nf6 47.
+Bxf6 Kxf6 48. e4 Ke5 49. Ke3 Be8 50. f4+ Kf6 51. Kd4 g6 52. Bg4 Bb5 53. d6 Kf7
+54. e5 Bc6 55. Kc5 Be4 56. Kb6 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1964.??.??"]
+[Round "7"]
+[White "Garceran Lozano, Francisco"]
+[Black "Bordell Rosell, Roman"]
+[Result "1-0"]
+[ECO "A16"]
+[PlyCount "87"]
+[EventDate "1964.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+
+1. c4 Nf6 2. Nc3 d5 3. cxd5 Nxd5 4. e4 Nxc3 5. bxc3 c5 6. Bc4 Nc6 7. f4 g6 8.
+Nf3 Bg7 9. e5 Qa5 10. Rb1 a6 11. a4 Nd8 12. O-O Bd7 13. Bb3 c4 14. Bc2 Qc5+ 15.
+Kh1 b5 16. axb5 axb5 17. Ng5 Bc6 18. Be4 h6 19. Bxc6+ Qxc6 20. Nf3 Ne6 21. d4
+Qd5 22. Qc2 Nc7 23. Nh4 Ra6 24. f5 g5 25. Nf3 Kd7 26. Nd2 Rha8 27. Ne4 Ra2 28.
+Bb2 Kc6 29. f6 exf6 30. Nxf6 Bxf6 31. Rxf6+ Ne6 32. Rxf7 Nxd4 33. Rf6+ Ne6 34.
+h3 Re8 35. Qg6 Re7 36. Qxh6 Qxe5 37. Qf8 Raa7 38. Ba3 b4 39. Bxb4 Qe4 40. Qc8+
+Kd5 41. Rd1+ Ke5 42. Bxe7 Rxe7 43. Rff1 Nf4 44. Rde1 $138 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1964.??.??"]
+[Round "8"]
+[White "Tejero Royo, Fermin"]
+[Black "Garceran Lozano, Francisco"]
+[Result "1-0"]
+[ECO "B22"]
+[PlyCount "49"]
+[EventDate "1964.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. c3 e5 3. d4 cxd4 4. cxd4 exd4 5. Nf3 Nc6 6. Bc4 Ne5 7. Nxe5 Qa5+ 8.
+Nd2 Qxe5 9. O-O Be7 10. Nf3 Qh5 11. Qxd4 f6 12. e5 a6 13. Re1 f5 14. Bf4 h6 15.
+Rad1 Kf8 16. Bd2 Qg4 17. Qd5 Qg6 18. Bc3 Rb8 19. e6 dxe6 20. Qe5 Ra8 21. Nd4
+Qf6 22. Qc7 e5 23. Nf3 Qc6 24. Rd8+ Bxd8 25. Qf7# 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1964.??.??"]
+[Round "9"]
+[White "Garceran Lozano, Francisco"]
+[Black "Beltran Tassis, Alejandro"]
+[Result "0-1"]
+[ECO "A13"]
+[PlyCount "56"]
+[EventDate "1964.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+
+1. c4 e6 2. e4 d5 3. cxd5 exd5 4. exd5 Nf6 5. Bb5+ Nbd7 6. Nc3 Be7 7. g4 a6 8.
+Ba4 b5 9. g5 bxa4 10. gxf6 Nxf6 11. Qxa4+ Bd7 12. Qc4 O-O 13. d3 Bb5 14. Nxb5
+axb5 15. Qxb5 Rb8 16. Qc4 Rb4 17. Qc6 Rb6 18. Qc4 Nxd5 19. a3 Bf6 20. Ra2 Re8+
+21. Kd1 Qa8 22. f3 Bxb2 23. Ne2 Bxc1 24. Qxc1 Ne3+ 25. Kd2 Qxf3 26. Rg1 Nd5 27.
+Ke1 Nf4 28. Qd1 Rb1 0-1
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1964.02.16"]
+[Round "10"]
+[White "Ribera Arnal, Angel"]
+[Black "Garceran Lozano, Francisco"]
+[Result "0-1"]
+[ECO "A56"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "84"]
+[EventDate "1964.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+
+1. d4 e6 2. c4 c5 3. d5 d6 4. Nc3 Nf6 5. e4 e5 6. f4 Bg4 7. Be2 Bxe2 8. Qxe2
+Nbd7 9. Nf3 exf4 10. Bxf4 Nh5 11. Bd2 g6 12. O-O Bg7 13. g4 Nhf6 14. e5 $6 (14.
+Bf4 $1 $16) 14... dxe5 15. Nxe5 O-O 16. Nxd7 $2 (16. Nd3 $142) 16... Qxd7 17.
+g5 Ng4 (17... Rae8 $1) 18. Rae1 Rae8 19. Qf3 f5 20. gxf6 Rxe1 21. Bxe1 Bxf6 22.
+Kh1 $2 (22. Qe2 $142) 22... Nxh2 $1 23. Kxh2 Be5+ 24. Bg3 Rxf3 25. Rxf3 Qg4 26.
+Re3 Bxg3+ 27. Rxg3 Qxc4 28. a4 a6 29. Kg2 b5 30. axb5 axb5 31. Re3 b4 32. Ne4
+Qd4 33. Kf3 Qxd5 34. Ke2 Qd4 35. b3 h5 36. Nd2 Kg7 37. Nc4 g5 38. Ne5 g4 39.
+Nc4 h4 40. Kf2 Qf4+ 41. Kg2 h3+ 42. Kg1 g3 0-1
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1964.??.??"]
+[Round "11"]
+[White "Garceran Lozano, Francisco"]
+[Black "Serra Margalef, Joaquin"]
+[Result "1-0"]
+[ECO "E81"]
+[PlyCount "185"]
+[EventDate "1964.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+
+1. c4 Nf6 2. Nc3 g6 3. d4 d6 4. e4 Bg7 5. f3 O-O 6. Bd3 e5 7. Be3 Nc6 8. d5 Ne7
+9. Nge2 Ne8 10. g4 f5 11. gxf5 gxf5 12. Qd2 f4 13. Bf2 Bh3 14. Rg1 Ng6 15. Nc1
+Nh4 16. Bxh4 Qxh4+ 17. Qf2 Qh6 18. Nb3 Kh8 19. O-O-O b6 20. Bf1 Bd7 21. Rd2 Bf6
+22. Nd1 Bh4 23. Qe2 Nf6 24. Qd3 a5 25. Rdg2 Rg8 26. Rxg8+ Rxg8 27. Rxg8+ Kxg8
+28. Nd2 Be1 29. Qe2 Bxd2+ 30. Kxd2 Kf7 31. a3 Ba4 32. Nc3 Bd7 33. b4 axb4 34.
+axb4 Qf8 35. Kd3 Qa8 36. Qa2 Qxa2 37. Nxa2 Kg6 38. Nc3 Kh5 39. c5 bxc5 40. bxc5
+Kh4 41. c6 Bh3 42. Ke2 h6 43. Nb5 Ne8 44. Kf2 Bxf1 45. Kxf1 Kg5 46. Kg2 Kf6 47.
+Kh3 Kg5 48. Na3 Kh5 49. Nc4 Kg5 50. Na5 Kh5 51. Nb7 Kg5 52. Nd8 Kh5 53. Ne6 Kg6
+54. Kh4 Kh7 55. Nd8 Kg6 56. Nb7 Kh7 57. Na5 Kg6 58. Nc4 Kh7 59. Nb2 Kg6 60. Nd3
+Kf6 61. Nf2 Kg6 62. Ng4 Kh7 63. Kh3 Kg6 64. Kg2 Kg5 65. Kf1 h5 66. Nf2 Kh4 67.
+Ke2 Nf6 68. Nd3 Ne8 69. Kf2 Kh3 70. Kg1 Kh4 71. Kg2 Kg5 72. Nb4 Kg6 73. Na6 Kg5
+74. Nb8 Kh4 75. Nd7 Kg5 76. Nf8 Kf6 77. Ne6 Kg6 78. Kf2 Kf6 79. Ke2 Ke7 80. Kd3
+Kf6 81. Kc4 Ke7 82. Kb5 Nf6 83. Kc4 Ne8 84. Kc3 Kf6 85. Kb4 Ke7 86. Kc4 h4 87.
+h3 Kf7 88. Kb4 Ke7 89. Kc4 Kf7 90. Kb5 Ke7 91. Ka6 Nf6 92. Nxc7 Nxe4 93. Ne6
+1-0

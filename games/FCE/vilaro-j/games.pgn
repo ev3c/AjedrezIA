@@ -1,0 +1,123 @@
+[Event "C. E. Gracia Social"]
+[Site "Barcelona"]
+[Date "1932.??.??"]
+[Round "?"]
+[White "Balague Casals, Antoni"]
+[Black "Vilaro, J."]
+[Result "1-0"]
+[ECO "B27"]
+[PlyCount "31"]
+[EventDate "1932.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 g6 3. Nc3 Bg7 4. Bc4 Nc6 5. d3 e6 6. Bf4 Nge7 7. Nb5 O-O 8. Bc7
+Qe8 9. Nd6 Bxb2 10. Nxe8 Rxe8 11. O-O Bxa1 12. Qxa1 d5 13. Bb5 dxe4 14. dxe4 a6
+15. Bxc6 Nxc6 16. Qf6 1-0
+
+[Event "Camp. Catalunya indiv. elim."]
+[Site "?"]
+[Date "1933.??.??"]
+[Round "?"]
+[White "Ayne, Josep Maria"]
+[Black "Vilaro, J."]
+[Result "1-0"]
+[ECO "A31"]
+[PlyCount "39"]
+[EventDate "1933.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 g6 3. d4 cxd4 4. Nxd4 Bg7 5. c4 d6 6. Nc3 Nf6 7. Be2 Nc6 8. Nb3
+O-O 9. Be3 Bd7 10. f3 Rc8 11. c5 dxc5 12. Nxc5 b6 13. Nxd7 Qxd7 14. Qa4 Qd6 15.
+O-O Nd7 16. Rfd1 Qc7 17. Nb5 Qb7 18. Nxa7 Rc7 19. Nxc6 Ra8 20. Nxe7+ 1-0
+
+[Event "Camp. Catalunya indiv. elim."]
+[Site "?"]
+[Date "1933.??.??"]
+[Round "?"]
+[White "Vilaro, J."]
+[Black "Vallve Piñol, Josep"]
+[Result "0-1"]
+[ECO "B54"]
+[PlyCount "32"]
+[EventDate "1933.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 d6 5. c3 Nf6 6. Qa4 Bd7 7. Bb5 Nxd4 8.
+Bxd7+ Qxd7 9. Qxd4 e5 10. Qd3 Qg4 11. O-O Qxe4 12. Qxe4 Nxe4 13. f4 d5 14. fxe5
+Bc5+ 15. Kh1 O-O 16. h3 Ng3+ 0-1
+
+[Event "Camp. Catalunya indiv. elim."]
+[Site "?"]
+[Date "1933.02.17"]
+[Round "2"]
+[White "Roca, Manel"]
+[Black "Vilaro, J."]
+[Result "1-0"]
+[ECO "D30"]
+[PlyCount "53"]
+[EventDate "1933.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. d4 e6 3. Bg5 d5 4. c4 Nbd7 5. a3 Be7 6. e3 c6 7. Nc3 O-O 8. Qc2
+Qa5 9. Rc1 h6 10. Bh4 dxc4 11. Bxc4 Qh5 12. O-O e5 13. Ne2 e4 14. Ng3 Qg6 15.
+Ne5 Nxe5 16. dxe5 Nd5 17. Bxd5 Bxh4 18. Bxe4 Qg5 19. f4 Qe7 20. Ne2 Qc7 21. Nd4
+Be7 22. Qe2 f6 23. Qh5 f5 24. Bxf5 Bxf5 25. Nxf5 Qd7 26. g4 Rad8 27. Qg6 1-0
+
+[Event "Camp. Catalunya indiv. elim."]
+[Site "?"]
+[Date "1933.??.??"]
+[Round "11"]
+[White "Vilaro, J."]
+[Black "Sunyer Roig, Juli"]
+[Result "1-0"]
+[ECO "D51"]
+[PlyCount "54"]
+[EventDate "1933.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 d5 3. c4 e6 4. Nc3 Nbd7 5. Bg5 Be7 6. e3 c6 7. Bd3 dxc4 8.
+Bxc4 b5 9. Bd3 a6 10. Rc1 Bb7 11. O-O Rc8 12. Bxf6 Nxf6 13. Ne4 Nd5 14. a3 a5
+15. Nc5 Bxc5 16. Rxc5 Nb6 17. Ne5 f6 18. Qh5+ Ke7 19. Qf7+ Kd6 20. Qxb7 fxe5
+21. Rfc1 Nd7 22. Rxc6+ Rxc6 23. Rxc6+ Ke7 24. Rc7 Kd6 25. dxe5+ Nxe5 26. Qb6+
+Nc6 27. Qxc6+ Ke5 1-0
+
+[Event "Camp. Catalunya indiv. elim."]
+[Site "?"]
+[Date "1933.04.24"]
+[Round "12"]
+[White "Grau, Andreu"]
+[Black "Vilaro, J."]
+[Result "1-0"]
+[ECO "D12"]
+[PlyCount "35"]
+[EventDate "1933.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 Bf5 5. cxd5 Bxb1 6. Rxb1 Qa5+ 7. Bd2 Qxd5 8.
+Qc2 e6 9. Bd3 Be7 10. O-O Qd8 11. Ne5 Nbd7 12. f4 a6 13. Rf3 c5 14. Bc3 b5 15.
+Nxd7 Qxd7 16. dxc5 Rd8 17. Rd1 Ne4 18. Ba5 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "Barcelona"]
+[Date "1935.??.??"]
+[Round "?"]
+[White "Sola Lopez, Juan"]
+[Black "Vilaro, J."]
+[Result "1-0"]
+[ECO "D61"]
+[PlyCount "47"]
+[EventDate "1935.??.??"]
+[EventType "tourn"]
+[EventRounds "14"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 d5 4. Nc3 Nbd7 5. Bg5 Be7 6. e3 O-O 7. Qc2 c5 8. Rd1
+Qa5 9. Bd3 Re8 10. O-O cxd4 11. Bxf6 Nxf6 12. exd4 dxc4 13. Bxc4 a6 14. d5 b5
+15. Bb3 exd5 16. Nxd5 Bb7 17. Ng5 g6 18. Nxf6+ Bxf6 19. Nxf7 Kg7 20. Qc1 g5 21.
+Nxg5 Re7 22. Qf4 Qb6 23. Rd6 Be5 24. Qxe5+ 1-0

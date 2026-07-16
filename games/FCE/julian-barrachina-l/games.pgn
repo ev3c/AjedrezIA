@@ -1,0 +1,468 @@
+[Event "Ct. Catalunya equips"]
+[Site "?"]
+[Date "1994.??.??"]
+[Round "?"]
+[White "Lillo Ferrer, JM."]
+[Black "Julian Barrachina, L."]
+[Result "1-0"]
+[ECO "C45"]
+[PlyCount "39"]
+[EventDate "1994.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Qh4 5. Nc3 Bb4 6. Be2 Nf6 7. O-O Bxc3 8.
+bxc3 O-O 9. Nb5 Ne8 10. f4 d6 11. Nd4 Qe7 12. Bd3 Nf6 13. Qf3 Nxd4 14. cxd4 Bd7
+15. Bd2 c5 16. e5 Bc6 17. exf6 Qxf6 18. Qh3 h6 19. dxc5 Rfe8 20. Bc3 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.13"]
+[Round "1"]
+[White "Julian Barrachina, L."]
+[Black "Guttulsrud, OM."]
+[Result "1/2-1/2"]
+[ECO "A38"]
+[WhiteElo "2163"]
+[BlackElo "2212"]
+[PlyCount "55"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. Nf3 Nf6 2. c4 c5 3. Nc3 g6 4. g3 Bg7 5. Bg2 O-O 6. O-O d5 7. cxd5 Nxd5 8.
+Nxd5 Qxd5 9. d3 Nc6 10. Be3 Bxb2 11. Rb1 Bf6 12. Nd4 Qxa2 13. Ra1 Qxa1 14. Qxa1
+Nxd4 15. Bxd4 Bxd4 16. Qa5 b6 17. Qa4 Rb8 18. Qxa7 Bg4 19. e3 Bf6 20. Rb1 Rfd8
+21. h3 Be2 22. Rxb6 Rxb6 23. Qxb6 Rxd3 24. Qxc5 Rd1+ 25. Kh2 Rd2 26. Qc1 Rb2
+27. Bd5 e6 28. Be4 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.14"]
+[Round "2"]
+[White "Ortiz Suarez, IR."]
+[Black "Julian Barrachina, L."]
+[Result "1-0"]
+[ECO "E16"]
+[WhiteElo "2612"]
+[BlackElo "2163"]
+[PlyCount "55"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb7 5. Bg2 Bb4+ 6. Bd2 Be7 7. O-O O-O 8. Nc3
+Ne4 9. d5 Nxd2 10. Qxd2 Qc8 11. Rad1 d6 12. Bh3 f5 13. Nd4 e5 14. Nxf5 Rxf5 15.
+e4 Qf8 16. Bxf5 Bc8 17. f4 exf4 18. Bxc8 Qxc8 19. gxf4 Nd7 20. Rde1 Bf6 21. Nb5
+a6 22. Nd4 Bxd4+ 23. Qxd4 Nf6 24. Kh1 Qh3 25. Qe3 Qh4 26. e5 dxe5 27. fxe5 Ng4
+28. Qf4 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.15"]
+[Round "3"]
+[White "Julian Barrachina, L."]
+[Black "Manelidou, M."]
+[Result "0-1"]
+[ECO "C54"]
+[WhiteElo "2163"]
+[BlackElo "2030"]
+[PlyCount "50"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. b4 Bb6 6. d3 O-O 7. Bg5 d6 8. O-O
+h6 9. Bh4 Qe7 10. Nbd2 Be6 11. Bb3 Bxb3 12. axb3 Qe6 13. b5 Ne7 14. Nc4 Ng6 15.
+Nxb6 axb6 16. Qc2 Nh5 17. Bg3 f5 18. exf5 Qxf5 19. Qd2 Nhf4 20. d4 Rxa1 21.
+Rxa1 Nxg2 22. Kxg2 Qxf3+ 23. Kg1 Nf4 24. Bxf4 Rxf4 25. Ra8+ Kf7 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.16"]
+[Round "4"]
+[White "Saez Coma, A."]
+[Black "Julian Barrachina, L."]
+[Result "1-0"]
+[ECO "D02"]
+[WhiteElo "2025"]
+[BlackElo "2163"]
+[PlyCount "127"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. Nf3 e6 3. Bf4 d5 4. e3 Nbd7 5. Nbd2 c5 6. c3 Be7 7. Bd3 Qb6 8. Rb1
+cxd4 9. exd4 Nf8 10. h3 Ng6 11. Bh2 Bd7 12. Qb3 O-O 13. O-O Bc6 14. Rfe1 Rfe8
+15. Ra1 Qd8 16. a4 Nh5 17. Bb1 Bd6 18. Ne5 Nxe5 19. dxe5 Bc5 20. Nf3 g6 21. Nd4
+Qh4 22. Qd1 Rab8 23. Qg4 Qxg4 24. hxg4 Ng7 25. Nb3 Be7 26. Nd4 Rec8 27. Bd3 a6
+28. Bf4 Bd7 29. a5 Ne8 30. Be3 Bc5 31. Bf4 Kg7 32. Rec1 h6 33. Be3 f6 34. Bf4
+f5 35. gxf5 gxf5 36. g3 Be7 37. Kg2 Kg6 38. g4 Ng7 39. gxf5+ Nxf5 40. Bxf5+
+exf5 41. e6 Bc6 42. Bxb8 Rxb8 43. b4 Kf6 44. Rh1 Rg8+ 45. Kf3 Rg4 46. Rxh6+ Kg5
+47. Rah1 Rf4+ 48. Ke3 Re4+ 49. Kd2 Kf4 50. R6h5 Rxd4+ 51. cxd4 Bxb4+ 52. Kd3
+Bb5+ 53. Kc2 Ba4+ 54. Kb2 Be7 55. R1h4+ Kf3 56. Rxf5+ Ke2 57. Rh7 Bb4 58. Rxb7
+Bxa5 59. Rxd5 Bd2 60. Re5+ Kd3 61. e7 Bc3+ 62. Ka3 Be8 63. Re3+ Kxd4 64. Rxc3
+1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.18"]
+[Round "6"]
+[White "Lopez Perdomo, JD."]
+[Black "Julian Barrachina, L."]
+[Result "1-0"]
+[ECO "C74"]
+[WhiteElo "2100"]
+[BlackElo "2163"]
+[PlyCount "65"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 d6 5. c3 f5 6. d3 Be7 7. Bb3 Na5 8. Nbd2
+Nf6 9. Bc2 O-O 10. O-O Nc6 11. Re1 Kh8 12. h3 f4 13. Kh2 Qe8 14. Ng1 g5 15. g4
+fxg3+ 16. fxg3 Qg6 17. Ndf3 Qh5 18. Be3 Ng4+ 19. Kg2 Nxe3+ 20. Rxe3 g4 21. Nh2
+gxh3+ 22. Kh1 Qg5 23. Qe2 Be6 24. g4 Rf7 25. Nxh3 Qh6 26. Bb3 Bxb3 27. axb3
+Raf8 28. Rg1 Bh4 29. g5 Qe6 30. Qh5 Bf2 31. Nxf2 Rxf2 32. g6 Qe7 33. g7+ 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.19"]
+[Round "7"]
+[White "Julian Barrachina, L."]
+[Black "Andersen, G."]
+[Result "1-0"]
+[ECO "B01"]
+[WhiteElo "2163"]
+[BlackElo "1772"]
+[PlyCount "49"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d4 Nf6 5. Nf3 Bg4 6. h3 Bh5 7. Bd2 c6 8. g4
+Bg6 9. Ne5 Qb6 10. Qe2 e6 11. Bg2 Bb4 12. O-O-O Nbd7 13. Nxd7 Nxd7 14. d5 Nc5
+15. f4 O-O 16. h4 cxd5 17. f5 exf5 18. Nxd5 Bxd2+ 19. Qxd2 Qa6 20. Kb1 Ne4 21.
+Bxe4 fxe4 22. h5 e3 23. hxg6 fxg6 24. Ne7+ Kh8 25. Rxh7+ 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.20"]
+[Round "8"]
+[White "Harstad, C."]
+[Black "Julian Barrachina, L."]
+[Result "1-0"]
+[ECO "A52"]
+[WhiteElo "1942"]
+[BlackElo "2163"]
+[PlyCount "99"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 e5 3. dxe5 Ng4 4. e4 Nxe5 5. f4 Ng6 6. Be3 Bb4+ 7. Nc3 d6 8.
+Qc2 Nc6 9. a3 Bxc3+ 10. Qxc3 Qf6 11. Qxf6 gxf6 12. Bd3 a5 13. Ne2 Rg8 14. O-O
+Nge7 15. Ng3 Bg4 16. Kf2 O-O-O 17. Rab1 Kb8 18. b4 axb4 19. axb4 Rde8 20. b5
+Na5 21. Bd2 b6 22. Bxa5 bxa5 23. h3 Bc8 24. Nh5 Rg6 25. g4 Rh6 26. Ra1 Bb7 27.
+Rxa5 Nc8 28. Re1 Nb6 29. Raa1 Nd7 30. Kg3 Nc5 31. Bc2 Bxe4 32. f5 Re5 33. Bxe4
+Nxe4+ 34. Kf4 Nd2 35. Rxe5 dxe5+ 36. Kg3 Nxc4 37. Rd1 Kc8 38. Ng7 Nd6 39. Rxd6
+cxd6 40. Ne8 d5 41. Nd6+ Kc7 42. Nxf7 Rg6 43. fxg6 hxg6 44. h4 d4 45. h5 d3 46.
+Kf2 gxh5 47. gxh5 e4 48. h6 f5 49. h7 f4 50. h8=Q 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.21"]
+[Round "9"]
+[White "Julian Barrachina, L."]
+[Black "Jacobsen, MP."]
+[Result "1-0"]
+[ECO "C70"]
+[WhiteElo "2163"]
+[BlackElo "1814"]
+[PlyCount "45"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Bc5 5. c3 Nf6 6. d4 exd4 7. e5 Nd5 8. Bb3
+Nde7 9. cxd4 Bb4+ 10. Nc3 O-O 11. d5 Na5 12. Bc2 Ng6 13. O-O d6 14. Ng5 h6 15.
+Nxf7 Rxf7 16. Bxg6 Rf8 17. e6 Bxc3 18. bxc3 Qf6 19. Bc2 g5 20. Qd3 Qg7 21. c4
+Nxc4 22. Qxc4 Qxa1 23. Qe4 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.13"]
+[Round "1"]
+[White "Amigo Vilalta, J."]
+[Black "Julian Barrachina, L."]
+[Result "1-0"]
+[ECO "D34"]
+[WhiteElo "2231"]
+[BlackElo "2125"]
+[PlyCount "93"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c5 4. cxd5 exd5 5. Nf3 Nc6 6. g3 Nf6 7. Bg2 Be7 8. O-O
+cxd4 9. Nxd4 O-O 10. a3 Re8 11. b4 Be6 12. Nxe6 fxe6 13. Bh3 Bd6 14. Bg5 Be5
+15. Rc1 h6 16. Bd2 a6 17. Qc2 Nd4 18. Qg6 Kh8 19. f4 Bd6 20. Be3 Nc6 21. Na4 d4
+22. Bd2 Ne7 23. Qd3 Nc6 24. Nc5 Bxc5 25. Rxc5 e5 26. fxe5 Nxe5 27. Qf5 Nf7 28.
+Rfc1 Nd6 29. Qd3 Nfe4 30. Rc7 Ng5 31. Bg2 Ne6 32. Bxh6 Nxc7 33. Bxg7+ Kxg7 34.
+Qxd4+ Qf6 35. Rxc7+ Nf7 36. Qc4 Rad8 37. Bd5 Rf8 38. Kg2 Rde8 39. Rxb7 Re5 40.
+e4 Rh5 41. Qe2 Rfh8 42. Qg4+ Rg5 43. Rxf7+ Qxf7 44. Qxg5+ Qg6 45. Qxg6+ Kxg6
+46. Bb7 Rd8 47. Bxa6 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.14"]
+[Round "2"]
+[White "Julian Barrachina, L."]
+[Black "Ventura Bolet, M."]
+[Result "1/2-1/2"]
+[ECO "D04"]
+[WhiteElo "2125"]
+[BlackElo "2044"]
+[PlyCount "48"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. d4 d5 2. e3 Nf6 3. Bd3 g6 4. Nf3 Bg7 5. b3 O-O 6. Bb2 c5 7. O-O Nc6 8. a3
+Nd7 9. c4 dxc4 10. bxc4 Qb6 11. Nc3 cxd4 12. Na4 Qd8 13. exd4 e5 14. d5 Nd4 15.
+Nxd4 exd4 16. Re1 Re8 17. Qd2 b6 18. Rxe8+ Qxe8 19. Re1 Qd8 20. Bc2 Ne5 21.
+Bxd4 Nxc4 22. Qc3 Bxd4 23. Qxd4 Nd6 24. Nc3 Bf5 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.15"]
+[Round "3"]
+[White "Mokal, AS."]
+[Black "Julian Barrachina, L."]
+[Result "1-0"]
+[ECO "C45"]
+[WhiteElo "2046"]
+[BlackElo "2125"]
+[PlyCount "84"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5 5. Nb3 Bb6 6. Nc3 Qf6 7. Qe2 Nge7 8.
+Be3 d6 9. O-O-O Be6 10. Nd5 Bxd5 11. exd5 Ne5 12. h4 Bxe3+ 13. Qxe3 O-O 14. Be2
+Rfe8 15. h5 Nf5 16. Qd2 Qh6 17. g4 Qxd2+ 18. Rxd2 Ne7 19. f4 Nd7 20. Bb5 Rad8
+21. Na5 a6 22. Ba4 b5 23. Bb3 Nc5 24. Re1 Nc8 25. Rde2 Rxe2 26. Rxe2 Kf8 27.
+Kd2 Nb6 28. c4 Re8 29. Rxe8+ Kxe8 30. Ke3 Kd7 31. Kd4 Ke8 32. Bc2 g6 33. b4
+Ncd7 34. cxb5 axb5 35. hxg6 hxg6 36. g5 Nc8 37. Nc6 Ne7 38. Nxe7 Kxe7 39. Bd3
+c5+ 40. dxc6 Nf8 41. Bxb5 Ne6+ 42. Ke4 Kd8 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.16"]
+[Round "4"]
+[White "Julian Barrachina, L."]
+[Black "Newrkla, K."]
+[Result "1-0"]
+[ECO "E63"]
+[WhiteElo "2125"]
+[BlackElo "2167"]
+[PlyCount "79"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. Nf3 Nf6 2. d4 g6 3. g3 Bg7 4. Bg2 O-O 5. c4 d6 6. Nc3 Nc6 7. O-O a6 8. a3
+Na5 9. b3 c5 10. Bb2 Qb6 11. Nd2 Bd7 12. dxc5 dxc5 13. Qc2 Rad8 14. e4 Bh6 15.
+b4 cxb4 16. axb4 Nc6 17. Nd5 Nxd5 18. exd5 Nd4 19. Qd3 Bg7 20. Rab1 Bf5 21. Be4
+Bh3 22. Rfe1 Nf5 23. Bxg7 Kxg7 24. Bg2 Bxg2 25. Kxg2 h5 26. Nf3 Qf6 27. Re2 e6
+28. Rd1 exd5 29. cxd5 Qd6 30. Qc3+ Kg8 31. Ng5 Rc8 32. Qb2 Rc4 33. Ne4 Qxb4 34.
+Nf6+ Kh8 35. Qe5 Qc3 36. Qxc3 Rxc3 37. d6 Rd8 38. d7 Kg7 39. Re8 Rxd7 40. Nxd7
+1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.17"]
+[Round "5"]
+[White "Perpinya Rofes, LM."]
+[Black "Julian Barrachina, L."]
+[Result "1-0"]
+[ECO "C73"]
+[WhiteElo "2400"]
+[BlackElo "2125"]
+[PlyCount "83"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 d6 5. Bxc6+ bxc6 6. d4 f6 7. Be3 Ne7 8.
+O-O Ng6 9. Nc3 Be7 10. Qd3 a5 11. Qc4 Qd7 12. Rfd1 Ba6 13. Qb3 Qc8 14. a3 Qb7
+15. Qa2 Bb5 16. h4 h5 17. dxe5 dxe5 18. Rd2 Qa6 19. Nxb5 cxb5 20. Rad1 Rd8 21.
+Rxd8+ Bxd8 22. Qd5 Be7 23. Qd7+ Kf7 24. Qd5+ Ke8 25. Nd2 c6 26. Qd3 Nf8 27. c4
+b4 28. axb4 axb4 29. Nb3 Ne6 30. Ra1 Qc8 31. Ra7 Kf7 32. Qd1 Rd8 33. Qxh5+ Kf8
+34. Qh8+ Kf7 35. Qh5+ Kf8 36. Nc5 Nf4 37. Bxf4 exf4 38. Qh8+ Kf7 39. Qh5+ Kf8
+40. Rc7 Qa8 41. Ne6+ Kg8 42. Rxe7 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.18"]
+[Round "6"]
+[White "Julian Barrachina, L."]
+[Black "Benet Morant, D."]
+[Result "1/2-1/2"]
+[ECO "A45"]
+[WhiteElo "2125"]
+[BlackElo "2048"]
+[PlyCount "70"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. d4 Nf6 2. e3 g6 3. Bd3 Bg7 4. b3 d5 5. Ne2 Nc6 6. f4 Nb4 7. O-O O-O 8. Nd2
+Nxd3 9. cxd3 a5 10. Nf3 a4 11. b4 Qd6 12. Nc3 Qxb4 13. Bd2 Qd6 14. Nxa4 b6 15.
+Rb1 Bd7 16. Nc3 Rfc8 17. Ne5 Be8 18. a4 c5 19. Nb5 Qd8 20. Qb3 c4 21. Qa2 cxd3
+22. Nxd3 Ne4 23. Rfd1 Rc4 24. Nf2 Nxf2 25. Kxf2 g5 26. f5 Qc8 27. g4 e5 28. Nd6
+Rc2 29. Nxc8 Rxa2 30. Nxb6 Rb8 31. Ke1 exd4 32. f6 Bf8 33. Nxd5 Rab2 34. Rxb2
+Rxb2 35. a5 Rb5 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.19"]
+[Round "7"]
+[White "Bernat, E."]
+[Black "Julian Barrachina, L."]
+[Result "1/2-1/2"]
+[ECO "C50"]
+[WhiteElo "2101"]
+[BlackElo "2125"]
+[PlyCount "67"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Be7 4. O-O Nf6 5. Nc3 O-O 6. d4 d6 7. h3 h6 8. Be3
+Re8 9. Bb5 exd4 10. Nxd4 Bd7 11. Nxc6 bxc6 12. Bd3 Bf8 13. Re1 Kh8 14. Bf4 Rb8
+15. b3 d5 16. exd5 Rxe1+ 17. Qxe1 cxd5 18. Qe2 Rb4 19. Be5 Rb6 20. Qf3 Be6 21.
+Bxf6 Qxf6 22. Qxf6 gxf6 23. Rd1 c6 24. Ne2 c5 25. Nf4 Bd6 26. Ne2 Rb8 27. Nc3
+Be5 28. Ne2 c4 29. bxc4 dxc4 30. Be4 Rb2 31. f4 Bc7 32. f5 Bc8 33. Nc3 Kg7 34.
+Rb1 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.20"]
+[Round "8"]
+[White "Julian Barrachina, L."]
+[Black "Matsenko, V."]
+[Result "0-1"]
+[ECO "E08"]
+[WhiteElo "2125"]
+[BlackElo "2108"]
+[PlyCount "78"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. c4 e6 2. d4 Nf6 3. g3 d5 4. Bg2 c6 5. Nf3 Be7 6. O-O O-O 7. Nc3 Nbd7 8. b3
+b6 9. Qc2 Bb7 10. Rd1 Rc8 11. e4 dxe4 12. Ng5 h6 13. Ngxe4 Nxe4 14. Nxe4 Nf6
+15. Bf4 Nxe4 16. Bxe4 Bf6 17. Rd3 Qe7 18. Re1 Rfd8 19. Qd2 Qf8 20. b4 Rd7 21.
+Rd1 Rcd8 22. Be3 Be7 23. a3 f5 24. Bg2 e5 25. Bh3 exd4 26. Bf4 c5 27. Be5 cxb4
+28. Qf4 Be4 29. Rxd4 Bg5 30. Rxd7 Rxd7 31. Rxd7 Bxf4 32. Bxf4 g5 33. Be5 Qc5
+34. Bd4 Qxc4 35. Bf1 Qc1 36. Be3 Qxa3 37. Bc4+ Kf8 38. Bd4 Qc1+ 39. Bf1 Ke8 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.21"]
+[Round "9"]
+[White "Ramon Serrano, FJ."]
+[Black "Julian Barrachina, L."]
+[Result "1-0"]
+[ECO "D30"]
+[WhiteElo "2022"]
+[BlackElo "2125"]
+[PlyCount "77"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. d4 d5 2. Nf3 e6 3. c4 c5 4. cxd5 exd5 5. g3 Nc6 6. Bg2 Nf6 7. O-O Be7 8.
+dxc5 Bxc5 9. Qc2 Be7 10. Nc3 O-O 11. Bg5 Be6 12. Rad1 Qa5 13. Nd4 Nxd4 14. Rxd4
+Rac8 15. Qd2 Qc5 16. Be3 Rfd8 17. Rxd5 Qc7 18. Rxd8+ Rxd8 19. Qc1 Rc8 20. Qb1
+h6 21. Ne4 Nd5 22. Rc1 Qa5 23. Rxc8+ Bxc8 24. Bd2 Qb6 25. Nc3 Nf6 26. Be3 Qa5
+27. Qd1 Be6 28. Bxb7 Ng4 29. Qd4 Nxe3 30. Qxe3 Bc5 31. Qf3 Qd8 32. Bd5 Qe7 33.
+Bxe6 fxe6 34. e3 Qd7 35. Qe4 Be7 36. Kg2 Bf6 37. h4 Kf8 38. Ne2 Bxb2 39. Qb4+
+1-0
+
+[Event "Sants op Hostafrancs i La Bordeta op"]
+[Site "Barcelona"]
+[Date "2014.08.22"]
+[Round "1.46"]
+[White "Martinez Romero, M."]
+[Black "Julian Barrachina, L."]
+[Result "1-0"]
+[ECO "C87"]
+[WhiteElo "2387"]
+[BlackElo "1955"]
+[PlyCount "79"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[Source "Mark Crowther"]
+[SourceDate "2014.09.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 d6 5. O-O Nf6 6. Re1 Be7 7. c3 Bd7 8. d4
+exd4 9. cxd4 O-O 10. Nc3 Bg4 11. Bb3 Qd7 12. Be3 Rae8 13. Qe2 Bd8 14. Bc2 d5
+15. e5 Ne4 16. Nxe4 dxe4 17. Bxe4 Bxf3 18. Qxf3 Nxd4 19. Qg3 f5 20. Bxb7 f4 21.
+Bxf4 Qb5 22. Bf3 Nxf3+ 23. gxf3 Re6 24. Qh3 Rg6+ 25. Bg3 Qxb2 26. Qd7 Qc3 27.
+Qd5+ Kh8 28. Rac1 Qb2 29. Qd7 h5 30. e6 Qf6 31. e7 Bxe7 32. Rxe7 Qxf3 33. Qd4
+Rg4 34. Qe3 h4 35. Qxf3 Rxf3 36. Kg2 Ra3 37. Kh3 Rga4 38. Rcxc7 hxg3 39. fxg3
+g5 40. Re8# 1-0
+
+[Event "Sants op Hostafrancs i La Bordeta op"]
+[Site "Barcelona"]
+[Date "2014.08.25"]
+[Round "4.61"]
+[White "Julian Barrachina, L."]
+[Black "Kempinski, T."]
+[Result "0-1"]
+[ECO "A15"]
+[WhiteElo "1955"]
+[BlackElo "2202"]
+[PlyCount "74"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[Source "Mark Crowther"]
+[SourceDate "2014.09.01"]
+
+1. Nf3 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 O-O 5. Nc3 d6 6. O-O e5 7. d3 Nc6 8. Rb1
+a5 9. a3 Be6 10. Bd2 h6 11. h3 d5 12. cxd5 Nxd5 13. Ne4 b6 14. Qc1 Qd7 15. Bxh6
+Nd4 16. Nxd4 exd4 17. h4 Rae8 18. Qd2 Bh3 19. Rbe1 Bxg2 20. Kxg2 f5 21. Bxg7
+Kxg7 22. Ng5 f4 23. Kh2 fxg3+ 24. fxg3 Ne3 25. Rf3 Rf5 26. Ne4 Ref8 27. Rxe3
+dxe3 28. Qxe3 c5 29. Ng5 Re8 30. Qc1 Rf2+ 31. Kg1 Rfxe2 32. Rf1 Qd4+ 33. Kh1
+Qd5+ 34. Nf3 Rf8 35. Qc3+ Kh7 36. d4 cxd4 37. Qd3 Re3 0-1

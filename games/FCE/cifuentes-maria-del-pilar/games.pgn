@@ -1,0 +1,55 @@
+[Event "Barcelona Int. Femenino"]
+[Site "Barcelona"]
+[Date "1949.10.26"]
+[Round "2"]
+[White "Cifuentes, Maria del Pilar"]
+[Black "Heemskerk, Fenny"]
+[Result "1-0"]
+[ECO "B13"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "63"]
+[EventDate "1949.10.??"]
+[EventType "tourn"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Nf3 Nc6 5. Bf4 Bg4 6. Be2 e6 7. c3 Bd6 8. Bg3
+Nf6 9. Ne5 Bxe2 10. Qxe2 Qc7 11. Nd2 O-O 12. f4 Rae8 13. O-O a6 14. Rae1 b5 15.
+Bh4 Be7 16. Ndf3 Ne4 17. Ng5 Bxg5 18. Bxg5 f6 19. Nxc6 fxg5 20. Ne5 gxf4 21.
+Qg4 g5 22. g3 (22. Rxe4 $1) 22... Qg7 23. Nd3 h5 $2 24. Qxh5 fxg3 25. Rxf8+
+Rxf8 26. hxg3 g4 27. Kg2 Rf3 28. Qe8+ Kh7 $2 29. Rh1+ Qh6 30. Qe7+ Kg6 31. Ne5+
+Kf5 32. Rxh6 1-0
+
+[Event "Barcelona Int. Femenino"]
+[Site "Barcelona"]
+[Date "1949.10.29"]
+[Round "5"]
+[White "Bussers, Simone"]
+[Black "Cifuentes, Maria del Pilar"]
+[Result "0-1"]
+[ECO "C90"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "66"]
+[EventDate "1949.10.??"]
+[EventType "tourn"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O $2 Be7 {La variante cerrada.} (
+5... Nxe4 {Esta seria una alternativa preconizada por Tarrasch.} 6. d4 b5 7.
+Bb3 d5 8. dxe5 Be6 9. c3 Bc5 10. c4) 6. Re1 b5 7. Bb3 d6 (7... O-O {con esta
+podria entrarse en la celebre variante Marshall.} 8. c3 d5 9. exd5 Nxd5 10.
+Nxe5 Nxe5 11. Rxe5 Nf6 12. Re1 Bd6 13. h3 Ng4 14. Qf3 $1 Qh4 {y el blanco esta
+mejor.}) 8. d4 (8. c3) 8... Bg4 (8... Nxd4 $5 9. Nxd4 exd4 10. a4 $13 (10. Qxd4
+$2 c5 11. Qe3 c4 $19)) 9. dxe5 Nxe5 10. Nbd2 O-O 11. h3 Bh5 12. g4 Bg6 13. c3
+Nd3 14. Re3 Nf4 (14... Nc5 15. Kh2 (15. Nd4 $5 $15) (15. Nh4 $6 Nxb3 $15 (15...
+Nxg4 16. Nxg6 Nxe3 17. Nxe7+ Qxe7 18. fxe3 Qg5+ 19. Kf1 Nxb3 20. Nxb3 Rae8 $19)
+) 15... Qd7) 15. Kh2 (15. Nd4 c5 $15) (15. Nh4 $6 Nxg4 16. Nxg6 Nxe3 17. Nxe7+
+Qxe7 18. fxe3 Qg5+ 19. Kf1 Qg2+ 20. Ke1 Nd3#) 15... Qd7 {amenazando 16. ...
+Cxh3} (15... d5 $5) 16. Qg1 h5 17. e5 (17. Qg3 $142) 17... dxe5 18. Nxe5 Qd6
+19. Qg3 N6d5 20. Nxg6 (20. Bxd5 Nxd5 $17) 20... fxg6 21. Ne4 $1 (21. Bxd5+ Nxd5
+22. Re2 Nf4 23. Re4 h4 $19) 21... h4 22. Qg1 $2 (22. Nxd6 $1 hxg3+ 23. fxg3
+Bxd6 24. gxf4 Bxf4+ 25. Kg2 Rad8 26. Rd3 c6 $14) 22... Qe5 23. Qe1 Nd3+ $3 24.
+Ng3 hxg3+ 25. fxg3 Nxe1 26. Rxe5 Nf3+ 27. Kg2 Nxe5 28. Bxd5+ Kh7 29. Bxa8 Rxa8
+30. Bf4 Nd3 31. Bxc7 Nxb2 32. Re1 Bf6 33. Ba5 Nc4 {Diagrama # Y aqui la
+campeona belga inclino el rey.} 0-1

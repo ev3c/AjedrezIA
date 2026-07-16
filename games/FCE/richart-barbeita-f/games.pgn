@@ -1,0 +1,82 @@
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2001.09.01"]
+[Round "1"]
+[White "Richart Barbeita, F."]
+[Black "Guasch Murtra, JM."]
+[Result "1/2-1/2"]
+[ECO "E52"]
+[WhiteElo "1915"]
+[BlackElo "2180"]
+[Annotator "CET"]
+[PlyCount "74"]
+[EventDate "2001.??.??"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 b6 5. Nf3 Bb7 6. Bd3 O-O 7. O-O d5 8. cxd5
+exd5 9. a3 Be7 10. b4 Nbd7 11. b5 Ne4 12. Qc2 f5 13. Qb3 Ndf6 14. Ne5 Nxc3 15.
+Qxc3 Ne4 16. Qb3 Qe8 17. f3 Nd6 18. Bd2 Bf6 19. Bc3 Kh8 20. a4 Qe6 21. f4 a5
+22. Rf3 Ne4 23. Raf1 Nd6 24. Rh3 Kg8 25. Qd1 g6 26. Rff3 Ne4 27. Be1 Rad8 28.
+Bh4 Bxh4 29. Rxh4 Kg7 30. Bxe4 dxe4 31. Rg3 Rf6 32. Qh5 Rh8 33. Qh6+ Kg8 34.
+Rhh3 Qb3 35. Rxg6+ Rxg6 36. Nxg6 Qd1+ 37. Kf2 Qd2+ 1/2-1/2
+
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2001.09.02"]
+[Round "2"]
+[White "Fernandez Vicente, C."]
+[Black "Richart Barbeita, F."]
+[Result "1/2-1/2"]
+[ECO "D41"]
+[WhiteElo "2250"]
+[BlackElo "1915"]
+[Annotator "CET"]
+[PlyCount "80"]
+[EventDate "2001.??.??"]
+
+1. c4 Nf6 2. g3 e6 3. Nf3 c5 4. Bg2 Be7 5. O-O Nc6 6. Nc3 O-O 7. d4 d5 8. cxd5
+Nxd5 9. e4 Nxc3 10. bxc3 cxd4 11. cxd4 Bf6 12. Be3 Qa5 13. Qb3 Rd8 14. Rfd1 Qb4
+15. Rac1 Qxb3 16. axb3 Nb4 17. Ne1 Rb8 18. d5 b6 19. Bf4 e5 20. Bd2 Be7 21. Rc7
+Rb7 22. Rdc1 Bc5 23. Rxb7 Bxb7 24. Bf1 f5 25. Bxb4 Bxb4 26. Rc7 Bxd5 27. exd5
+Bxe1 28. Rxa7 h6 29. Rb7 Kh7 30. Bc4 Rd6 31. h4 Kg6 32. Rc7 Kf6 33. Kf1 Bb4 34.
+Rb7 e4 35. Ke2 g6 36. f3 Ke5 37. fxe4 fxe4 38. Re7+ Kd4 39. g4 Rxd5 40. Bxd5
+Bxe7 1/2-1/2
+
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2001.09.08"]
+[Round "3"]
+[White "Negreiro Pozo, B."]
+[Black "Richart Barbeita, F."]
+[Result "1-0"]
+[ECO "C02"]
+[WhiteElo "2100"]
+[BlackElo "1915"]
+[Annotator "CET"]
+[PlyCount "67"]
+[EventDate "2001.??.??"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 cxd4 6. cxd4 Bb4+ 7. Nc3 Nge7 8.
+Bd3 Nf5 9. Bb1 Qa5 10. Qd2 Nce7 11. O-O Bd7 12. a3 O-O 13. g4 Nh6 14. axb4 Qxa1
+15. Qc2 Ng6 16. Bxh6 Qa6 17. Bg5 h6 18. Bd2 Rfc8 19. h4 Bb5 20. Re1 Rc4 21. h5
+Nf8 22. g5 hxg5 23. Nxg5 Rxd4 24. f4 Bd3 25. Qb3 Bxb1 26. Nxb1 Rd3 27. Qc2 f6
+28. exf6 gxf6 29. Nxe6 Qb6+ 30. Nc5 Rg3+ 31. Kh2 Rg7 32. Qf5 a5 33. Nc3 axb4
+34. Nxd5 1-0
+
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2001.09.09"]
+[Round "4"]
+[White "Richart Barbeita, F."]
+[Black "Montoro Salvatierra, P."]
+[Result "1-0"]
+[ECO "A40"]
+[WhiteElo "1915"]
+[BlackElo "1700"]
+[Annotator "CET"]
+[PlyCount "40"]
+[EventDate "2001.??.??"]
+
+1. d4 b5 2. e4 Bb7 3. Nd2 a6 4. Ngf3 d6 5. Bd3 e5 6. dxe5 dxe5 7. Nxe5 Qg5 8.
+Ng4 Nf6 9. Nxf6+ Qxf6 10. O-O Bd6 11. Nf3 O-O 12. c3 Nd7 13. Re1 Ne5 14. Nxe5
+Bxe5 15. Qg4 Bxc3 16. bxc3 Qxc3 17. Bh6 Rad8 18. e5 g6 19. Bxf8 Bc8 20. Qg5
+Rxf8 1-0

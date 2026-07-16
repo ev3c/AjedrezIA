@@ -1,0 +1,47 @@
+[Event "Barcelona sim ( Ateneu Barcelonès )"]
+[Site "Barcelona"]
+[Date "1910.08.29"]
+[Round "?"]
+[White "Albin, Max Adolf"]
+[Black "Paluzie i Lucena, Josep"]
+[Result "1-0"]
+[ECO "C48"]
+[PlyCount "41"]
+[EventDate "1910.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nc3 Nc6 3. Nf3 Nf6 4. Bb5 Bc5 5. O-O d6 6. d4 exd4 7. Nxd4 Bd7 8.
+Nf5 O-O 9. Bg5 Ne5 10. Bxd7 Nexd7 11. Qf3 Ne5 12. Qg3 c6 13. Kh1 Bb6 14. f4 Ng6
+15. e5 dxe5 16. fxe5 Bc7 17. Nh6+ gxh6 $2 (17... Kh8 $142) 18. Bxf6 Qd7 19. Qe3
+Bd8 20. Qxh6 Bxf6 21. exf6 1-0
+
+[Event "Barcelona sim ( Ateneu Barcelonès )"]
+[Site "Barcelona"]
+[Date "1910.08.09"]
+[Round "?"]
+[White "Albin, Max Adolf"]
+[Black "Paluzie i Lucena, Josep"]
+[Result "1-0"]
+[ECO "C54"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "61"]
+[EventDate "1910.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. O-O d6 6. d3 Be6 7. Bb5 Bd7 8. d4
+exd4 9. cxd4 Bb6 10. Bg5 Qc8 11. Bxf6 gxf6 12. Bxc6 Bxc6 13. d5 Bb5 14. Nc3 $2
+(14. Re1 $142 $11) 14... Bxf1 {Normal. Una calidad es una calidad.} 15. Qxf1
+Qd7 (15... Qg4 $142) 16. a4 a6 17. Nh4 Rg8 18. Nf5 O-O-O 19. b4 Rg5 (19... a5
+$142) 20. Qd3 (20. a5 $142) 20... Rdg8 21. g3 h5 22. h4 $4 {Un error muy grave.
+..} Rg4 $4 {... que Paluzíe no agradece.} (22... Qxf5 $3 {Paluzíe no se da
+cuenta que tenía esta gran jugada que gana.} 23. exf5 (23. hxg5 Qxf2+ 24. Kh1
+Be3 $19 (24... Rxg5 $19)) 23... Rxg3+ $19) 23. a5 Ba7 $4 (23... Qxf5 $1 {La
+amenzada aún era latente.}) 24. b5 axb5 $4 (24... Qxf5 $1 {Y continuaba la
+misma jugada. Increíble! Por ello, opino que Max Albin debía jugar a ciegas,
+puesto que es del todo inconcebible que durante tantas jugadas no se diera
+cuenta de la entreda de dama en f5... pero tampoco lo vio Paluzíe.} 25. b6 Bxb6
+26. exf5 (26. axb6 Qe5 $19) 26... Rxg3+ $19) 25. Nxb5 Bc5 26. a6 Rxg3+ $2 {
+Esto ya es un regalo. ¿No se daría cuenta del caballo de f5?} 27. Nxg3 Qh3 28.
+axb7+ Kd7 29. Nd4 Bxd4 30. b8=N+ (30. Qxd4 $142) 30... Ke7 31. Nc6+ 1-0

@@ -1,0 +1,413 @@
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.19"]
+[Round "2"]
+[White "Solano Cuya, Bryan"]
+[Black "Brunner, Nicolas"]
+[Result "0-1"]
+[ECO "D43"]
+[WhiteElo "2228"]
+[BlackElo "2472"]
+[PlyCount "62"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 d5 3. c4 e6 4. Nc3 Bb4 5. Bg5 dxc4 6. e3 b5 7. a4 c6 8. Qc2
+Bb7 9. Be2 O-O 10. O-O a6 11. e4 h6 12. Bh4 Be7 13. e5 Nd5 14. Bxe7 Nxe7 15.
+Ne4 Nd7 16. b3 cxb3 17. Qxb3 Qb6 18. a5 Qa7 19. Rfc1 c5 20. Nxc5 Bd5 21. Qe3
+Nxc5 22. Rxc5 Rac8 23. g4 Rxc5 24. dxc5 Rc8 25. Rc1 Qc7 26. Nd4 Qxa5 27. f4
+Rxc5 28. Rd1 Rc3 29. Qf2 Qc7 30. Bxb5 axb5 31. Nxb5 Rc1 0-1
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.21"]
+[Round "4"]
+[White "Solano Cuya, Bryan"]
+[Black "Blomqvist, Erik"]
+[Result "1-0"]
+[ECO "D10"]
+[WhiteElo "2228"]
+[BlackElo "2525"]
+[PlyCount "63"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. cxd5 cxd5 5. Bf4 Nc6 6. e3 Bg4 7. Qb3 Na5 8.
+Qa4+ Bd7 9. Qc2 e6 10. Bd3 Nc6 11. a3 Nh5 12. Bg3 Nxg3 13. hxg3 g6 14. f4 Bg7
+15. Nf3 Rc8 16. Kf2 Na5 17. Rh2 Nc4 18. Bxc4 Rxc4 19. Rah1 h6 20. g4 Rf8 21. g5
+hxg5 22. Nxg5 e5 23. dxe5 Bxe5 24. Nf3 Bf6 25. Qd2 Bf5 26. Rd1 Rh8 27. Rxh8+
+Bxh8 28. Ne5 Bxe5 29. fxe5 Qh4+ 30. Kg1 Qg3 31. Nxd5 Qxe5 32. Nb6 1-0
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.22"]
+[Round "5"]
+[White "Pfreundt, Jakob"]
+[Black "Solano Cuya, Bryan"]
+[Result "1-0"]
+[ECO "D25"]
+[WhiteElo "2388"]
+[BlackElo "2228"]
+[PlyCount "95"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. Nf3 d5 2. d4 Nf6 3. c4 dxc4 4. e3 Bg4 5. Bxc4 e6 6. O-O Nbd7 7. h3 Bh5 8. b3
+Be7 9. Bb2 O-O 10. Be2 c5 11. Nc3 Rc8 12. d5 exd5 13. Nxd5 Bd6 14. Nf4 Bxf3 15.
+Bxf3 Qc7 16. Nd5 Nxd5 17. Qxd5 b6 18. Rad1 Be5 19. Bc1 Nf6 20. Qc4 Rfd8 21.
+Rxd8+ Rxd8 22. Rd1 Rxd1+ 23. Bxd1 Qd7 24. Bc2 h6 25. a3 a5 26. Bd3 Qd6 27. Qc2
+Nd5 28. Bd2 Bf6 29. Bc4 Nc7 30. a4 Ne6 31. Qd3 Qe5 32. Qd7 Nd8 33. f4 Qe4 34.
+Kh2 Kf8 35. Qd6+ Be7 36. Qxb6 Nc6 37. Qb7 Qg6 38. Qc8+ Nd8 39. Bxa5 Bh4 40. Qg4
+Qf6 41. g3 Nc6 42. gxh4 Nxa5 43. Qc8+ Ke7 44. Qxc5+ Ke8 45. Qxa5 Qb2+ 46. Kg3
+Qc1 47. Qe5+ Kd8 48. Qd6+ 1-0
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.23"]
+[Round "6"]
+[White "Solano Cuya, Bryan"]
+[Black "Gascon del Nogal, Jose Rafael"]
+[Result "1/2-1/2"]
+[ECO "E92"]
+[WhiteElo "2228"]
+[BlackElo "2498"]
+[PlyCount "145"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 g6 2. c4 Bg7 3. Nc3 d6 4. Nf3 Nf6 5. e4 O-O 6. Be2 e5 7. d5 a5 8. Bg5 h6
+9. Bh4 Qe8 10. Nd2 Na6 11. O-O Nh7 12. a3 Bd7 13. b3 h5 14. f3 Bh6 15. Kh1 Be3
+16. Rb1 Bc5 17. Qc1 c6 18. Na2 cxd5 19. b4 Be3 20. exd5 Rc8 21. Bf2 Bxf2 22.
+Rxf2 Qe7 23. Nc3 axb4 24. axb4 f5 25. c5 dxc5 26. Bc4 Kh8 27. b5 Nb4 28. Re2
+Qf6 29. Qb2 Ng5 30. Rbe1 e4 31. Qc1 Nd3 32. Bxd3 exd3 33. Re7 Rf7 34. R7e5 Rh7
+35. Nc4 Nf7 36. f4 Nd6 37. Nxd6 Qxd6 38. Qe3 c4 39. h3 Qc5 40. Qg3 Rg8 41. Qe3
+Qxe3 42. R1xe3 Ra8 43. d6 Ra3 44. Nb1 Ra1 45. Re1 Rf7 46. Kh2 Rf6 47. Rc5 d2
+48. Rd1 Rxd6 49. Rxd2 Rxd2 50. Nxd2 Be6 51. Rc7 Bd5 52. Rd7 c3 53. Rxd5 c2 54.
+Nb3 Rb1 55. Rd8+ Kg7 56. Rd7+ Kf6 57. Rxb7 Rxb3 58. Rc7 Rb2 59. b6 Ke6 60. b7
+Kd5 61. Rxc2 Rxb7 62. Kg3 Rb3+ 63. Kh4 Re3 64. g4 Ke4 65. Rc4+ Kd5 66. Ra4 Re4
+67. Ra5+ Ke6 68. gxf5+ Kf6 69. fxg6 Kxg6 70. Ra6+ Kf5 71. Kxh5 Rxf4 72. Ra8 Ke6
+73. Ra6+ 1/2-1/2
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.26"]
+[Round "9"]
+[White "Tsolakidou, Stavroula"]
+[Black "Solano Cuya, Bryan"]
+[Result "1-0"]
+[ECO "D42"]
+[WhiteElo "2366"]
+[BlackElo "2228"]
+[PlyCount "57"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nc6 4. O-O Bd7 5. Re1 Nf6 6. c3 e6 7. d4 cxd4 8.
+cxd4 d5 9. exd5 Nxd5 10. Nc3 Nxc3 11. bxc3 Be7 12. Bd3 O-O 13. Qc2 h6 14. Qe2
+Re8 15. Bf4 Bf8 16. Rab1 b6 17. h4 Ne7 18. Ne5 Nc6 19. Nxd7 Qxd7 20. Qe4 f5 21.
+Qf3 Kh8 22. Bb5 Rec8 23. Bc4 Nd8 24. Ba6 Qa4 25. Bxc8 Rxc8 26. d5 Qxa2 27. Ra1
+Qxd5 28. Qxd5 exd5 29. Re8 1-0
+
+[Event "Sabadell op 10th"]
+[Site "Sabadell"]
+[Date "2017.09.01"]
+[Round "1"]
+[White "Solano Cuya, Bryan"]
+[Black "Gonzalez Garcia, Jose"]
+[Result "0-1"]
+[ECO "E61"]
+[WhiteElo "2228"]
+[BlackElo "2505"]
+[PlyCount "66"]
+[EventDate "2017.09.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 O-O 5. Bg5 c5 6. d5 h6 7. Bh4 d6 8. e3 b5
+9. cxb5 a6 10. a4 Qa5 11. Bc4 Qb4 12. Qb3 g5 13. Bg3 Qxb3 14. Bxb3 axb5 15.
+Nxb5 Ne4 16. O-O-O Na6 17. Nd2 Nxg3 18. hxg3 Nb4 19. Nc4 Bf5 20. Rd2 Rfb8 21.
+e4 Bxe4 22. Re2 Bxd5 23. Rxe7 Bxc4 24. Bxc4 d5 25. Bb3 c4 26. Bd1 Nd3+ 27. Kd2
+Nxf2 28. Rf1 Nxd1 29. Rfxf7 Bf8 30. Rd7 Rxa4 31. Kxd1 Rxb5 32. Rf2 Ra1+ 33. Kc2
+Bg7 0-1
+
+[Event "Sabadell op 10th"]
+[Site "Sabadell"]
+[Date "2017.09.02"]
+[Round "2"]
+[White "Brunet Gil, Pol"]
+[Black "Solano Cuya, Bryan"]
+[Result "0-1"]
+[ECO "B51"]
+[WhiteElo "1939"]
+[BlackElo "2228"]
+[PlyCount "88"]
+[EventDate "2017.09.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nc6 4. O-O Bd7 5. Re1 a6 6. Bf1 Nf6 7. c3 Bg4 8. h3
+Bh5 9. d3 e6 10. Bf4 Be7 11. Nbd2 O-O 12. Be2 b5 13. a4 b4 14. c4 Bg6 15. b3 h6
+16. Nf1 Ne8 17. Bh2 Bf6 18. Rc1 Bc3 19. Rxc3 bxc3 20. Qc2 Qa5 21. Bd1 Nd4 22.
+Qb1 Rb8 23. Bc2 Rb4 24. Qa2 Bh5 25. Nxd4 cxd4 26. Ng3 Bg6 27. Ne2 e5 28. g4 Nc7
+29. Qb1 Ne6 30. Qd1 Nc5 31. Nc1 Rfb8 32. f4 f6 33. h4 Qd8 34. f5 Bf7 35. h5 Qb6
+36. Re2 Nxb3 37. Nxb3 Rxb3 38. Bxb3 Qxb3 39. Qa1 Qb1+ 40. Qxb1 Rxb1+ 41. Kf2
+Bxc4 42. dxc4 d3 43. Re1 d2 44. Rxb1 c2 0-1
+
+[Event "Sabadell op 10th"]
+[Site "Sabadell"]
+[Date "2017.09.03"]
+[Round "3"]
+[White "Solano Cuya, Bryan"]
+[Black "Jimenez Ruano, Adrian"]
+[Result "1-0"]
+[ECO "A46"]
+[WhiteElo "2228"]
+[BlackElo "2332"]
+[PlyCount "73"]
+[EventDate "2017.09.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 e6 3. Bg5 h6 4. Bh4 d6 5. e3 g5 6. Bg3 Nh5 7. e4 Bg7 8. c3 Qe7
+9. Nfd2 Nxg3 10. hxg3 Nd7 11. Be2 O-O 12. O-O b6 13. a4 a5 14. Na3 Bb7 15. Bc4
+Nf6 16. Qe2 e5 17. d5 g4 18. Nb5 h5 19. Rfe1 Bh6 20. Nf1 c6 21. dxc6 Bxc6 22.
+Bd3 Kg7 23. Ne3 Bxe3 24. Qxe3 Nd7 25. Red1 Rab8 26. Nxd6 Qxd6 27. Bb5 Qf6 28.
+Bxc6 Nc5 29. Bd5 Rh8 30. b4 axb4 31. cxb4 Na6 32. b5 Nb4 33. Rac1 Qe7 34. Rc4
+Nxd5 35. exd5 Rh6 36. Rc6 Rbh8 37. d6 1-0
+
+[Event "Sabadell op 10th"]
+[Site "Sabadell"]
+[Date "2017.09.04"]
+[Round "4"]
+[White "Jimenez Garcia, Emanuel"]
+[Black "Solano Cuya, Bryan"]
+[Result "1/2-1/2"]
+[ECO "C42"]
+[WhiteElo "2219"]
+[BlackElo "2228"]
+[PlyCount "27"]
+[EventDate "2017.09.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. Nc3 Nxc3 6. dxc3 Nc6 7. Be3 Be7
+8. Qd2 Be6 9. O-O-O a5 10. Kb1 O-O 11. Nd4 Nxd4 12. cxd4 Bf6 13. d5 Bd7 14. Be2
+1/2-1/2
+
+[Event "Sabadell op 10th"]
+[Site "Sabadell"]
+[Date "2017.09.05"]
+[Round "5"]
+[White "Solano Cuya, Bryan"]
+[Black "Perpinya Rofes, Lluis Maria"]
+[Result "1-0"]
+[ECO "A43"]
+[WhiteElo "2228"]
+[BlackElo "2384"]
+[PlyCount "131"]
+[EventDate "2017.09.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 g6 2. c4 Bg7 3. Nc3 c5 4. d5 d6 5. Nf3 e6 6. g3 exd5 7. cxd5 Ne7 8. Bg2
+O-O 9. O-O Nd7 10. Bf4 Nf6 11. e4 Bg4 12. Qb3 Rb8 13. e5 Nh5 14. exd6 Nf5 15.
+Bg5 Bf6 16. Bxf6 Nxf6 17. Ne5 Nxd6 18. Nxg4 Nxg4 19. Qa4 Ne5 20. Qxa7 Nd3 21.
+Qa3 Re8 22. Ne4 Nb4 23. Nxd6 Qxd6 24. Qb3 b5 25. a3 Na6 26. Rfe1 Red8 27. Qc3
+c4 28. a4 Nc5 29. axb5 Rxb5 30. Re2 Qb6 31. Rae1 Nd7 32. Re8+ Nf8 33. Rxd8 Qxd8
+34. Re2 Qc7 35. h4 h5 36. Qf6 Rb6 37. Re7 Rxf6 38. Rxc7 Rb6 39. Bf1 Rxb2 40.
+Bxc4 Rd2 41. Kg2 Nh7 42. Kf3 Nf6 43. d6 Rxd6 44. Rxf7 Kh8 45. Kf4 Nh7 46. Ke5
+Rb6 47. Bd3 Kg8 48. Rd7 Nf6 49. Bc4+ Kh8 50. Rc7 Ng4+ 51. Kf4 Nxf2 52. Kg5 Ne4+
+53. Kh6 g5+ 54. Kxh5 Nxg3+ 55. Kxg5 Ne4+ 56. Kf4 Nf6 57. Kf5 Nh7 58. h5 Rf6+
+59. Ke5 Rf2 60. Bd3 Nf6 61. Bf5 Ne8 62. Rc8 Re2+ 63. Be4 Kg7 64. Rxe8 Re1 65.
+Re7+ Kh6 66. Kf6 1-0
+
+[Event "Sabadell op 10th"]
+[Site "Sabadell"]
+[Date "2017.09.06"]
+[Round "6"]
+[White "Munoz Pantoja, Miguel Angel"]
+[Black "Solano Cuya, Bryan"]
+[Result "1-0"]
+[ECO "B54"]
+[WhiteElo "2495"]
+[BlackElo "2228"]
+[PlyCount "77"]
+[EventDate "2017.09.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nc6 4. d4 cxd4 5. Nxd4 Bd7 6. Bxc6 bxc6 7. c4 e5 8.
+Nc2 Be7 9. Nc3 Nf6 10. O-O O-O 11. Bg5 Be6 12. b3 h6 13. Bxf6 Bxf6 14. Qd3 Qc7
+15. Rad1 Be7 16. Ne3 a5 17. Nf5 Bxf5 18. exf5 Rfd8 19. Rfe1 d5 20. cxd5 Bb4 21.
+Qc4 Rac8 22. dxc6 Rd4 23. Rxd4 exd4 24. Nd5 Qxc6 25. Qxc6 Rxc6 26. Nxb4 axb4
+27. g4 Rc2 28. Rd1 Rxa2 29. Rxd4 Kh7 30. Rxb4 Rb2 31. Kg2 f6 32. h4 Rd2 33. Kg3
+Rc2 34. Rc4 Rb2 35. Rc3 Rd2 36. h5 Rb2 37. Kf3 Rd2 38. Ke3 Rd5 39. b4 1-0
+
+[Event "Sabadell op 10th"]
+[Site "Sabadell"]
+[Date "2017.09.07"]
+[Round "7"]
+[White "Solano Cuya, Bryan"]
+[Black "Fernandez, Fernando"]
+[Result "0-1"]
+[ECO "D38"]
+[WhiteElo "2228"]
+[BlackElo "2462"]
+[PlyCount "68"]
+[EventDate "2017.09.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Bb4 4. Nf3 Nf6 5. cxd5 exd5 6. Bg5 Nbd7 7. e3 c5 8.
+Be2 Qa5 9. O-O Bxc3 10. bxc3 c4 11. Qc2 O-O 12. Nd2 Re8 13. Bf3 Ne4 14. Bxe4
+dxe4 15. Bf4 Nb6 16. Nxe4 Bf5 17. f3 Qd5 18. Rab1 Rxe4 19. fxe4 Bxe4 20. Qb2
+Bxb1 21. Rxb1 Re8 22. a4 Nxa4 23. Qb4 b5 24. Qxb5 Qxb5 25. Rxb5 Rc8 26. Ra5
+Nxc3 27. Rxa7 Nd5 28. Ra5 Nb4 29. Ra4 Nd3 30. Bc7 Nb2 31. Ra2 c3 32. d5 c2 33.
+Ra1 Nc4 34. Ba5 Nxa5 0-1
+
+[Event "Sabadell op 10th"]
+[Site "Sabadell"]
+[Date "2017.09.08"]
+[Round "8"]
+[White "Ruperez, Miguel Angel"]
+[Black "Solano Cuya, Bryan"]
+[Result "0-1"]
+[ECO "D90"]
+[WhiteElo "2133"]
+[BlackElo "2228"]
+[PlyCount "124"]
+[EventDate "2017.09.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. Bd2 Bg7 6. e4 Nxc3 7. Bxc3 O-O 8.
+Nf3 Bg4 9. Be2 Nc6 10. d5 Bxf3 11. Bxf3 Bxc3+ 12. bxc3 Ne5 13. Be2 c6 14. f4
+Nd7 15. dxc6 bxc6 16. e5 Rb8 17. Qd4 Qc7 18. O-O Rfd8 19. Qe3 Qb6 20. Qxb6 Nxb6
+21. Bf3 Rd3 22. Bxc6 Rc8 23. Rf3 Rxf3 24. Bxf3 Rxc3 25. Kf2 Ra3 26. Ke2 e6 27.
+Kd2 h6 28. Bd1 a5 29. Kc1 a4 30. Rb1 Nc4 31. Rb8+ Kg7 32. Kb1 Nd2+ 33. Kb2 Nc4+
+34. Kb1 Ne3 35. Kb2 Rd3 36. Bxa4 Rd2+ 37. Kb3 Nxg2 38. Be8 Nxf4 39. Rb7 Kf8 40.
+Rxf7+ Kxe8 41. Rxf4 g5 42. Rf6 Rxh2 43. Rxe6+ Kf7 44. Rf6+ Kg7 45. a4 Re2 46.
+Rf5 g4 47. a5 g3 48. Rf3 g2 49. Rg3+ Kf7 50. Kb4 h5 51. a6 h4 52. e6+ Rxe6 53.
+Rxg2 Rxa6 54. Kc4 h3 55. Rg3 Ra4+ 56. Kb3 Rh4 57. Rg1 Kf6 58. Kc3 Kf5 59. Kd3
+h2 60. Rh1 Kf4 61. Ke2 Kg3 62. Kf1 Rf4+ 0-1
+
+[Event "Sabadell op 10th"]
+[Site "Sabadell"]
+[Date "2017.09.10"]
+[Round "9"]
+[White "Solano Cuya, Bryan"]
+[Black "Duran Vega, Sergio"]
+[Result "1/2-1/2"]
+[ECO "D13"]
+[WhiteElo "2228"]
+[BlackElo "2389"]
+[PlyCount "25"]
+[EventDate "2017.09.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 d5 3. c4 c6 4. cxd5 cxd5 5. Nc3 Nc6 6. Bf4 a6 7. e3 e6 8. Be2
+Be7 9. O-O O-O 10. Rc1 Bd7 11. Ne5 Rc8 12. Nxc6 Bxc6 13. h3 1/2-1/2

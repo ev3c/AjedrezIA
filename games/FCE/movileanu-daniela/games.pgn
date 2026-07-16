@@ -1,0 +1,65 @@
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.19"]
+[Round "2"]
+[White "Duran Vega, Sergio"]
+[Black "Movileanu, Daniela"]
+[Result "1/2-1/2"]
+[ECO "D83"]
+[WhiteElo "2389"]
+[BlackElo "2176"]
+[PlyCount "150"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Bf4 Bg7 5. e3 O-O 6. Rc1 Be6 7. c5 Nh5 8. Bg5
+b6 9. b4 a5 10. a3 axb4 11. axb4 Nc6 12. b5 Na5 13. c6 Nf6 14. Bd3 Ne8 15. Nge2
+f6 16. Bh4 Bf7 17. O-O Qd6 18. Bg3 e5 19. e4 dxe4 20. Nxe4 Qe7 21. dxe5 fxe5
+22. N2c3 Nb3 23. Rb1 Nd4 24. Qg4 Nf5 25. Ra1 Rd8 26. Bc2 Ned6 27. Rfe1 Nxe4 28.
+Nxe4 Rd4 29. Qf3 Rb4 30. Qa3 Rxb5 31. Qxe7 Nxe7 32. Ra7 Nxc6 33. Rxc7 Nd4 34.
+Nd6 Nxc2 35. Rxc2 Rc5 36. Rxc5 bxc5 37. Nxf7 Kxf7 38. Bxe5 Re8 39. f4 Bxe5 40.
+fxe5 Ke6 41. Kf2 Rf8+ 42. Ke3 Kxe5 43. Kd3+ Kd6 44. Re2 Ra8 45. Kc4 Ra4+ 46.
+Kc3 Kd5 47. Re7 h5 48. Rg7 Rg4 49. g3 Ke4 50. Rf7 Rg5 51. Rf6 Ke5 52. Rc6 Kd5
+53. Rf6 Rg4 54. Kd3 g5 55. Rf5+ Kd6 56. Rf8 h4 57. gxh4 gxh4 58. Rh8 Kd5 59.
+Rh5+ Kc6 60. Rh8 c4+ 61. Kc3 Kd5 62. Rh5+ Ke4 63. Kxc4 Kf3+ 64. Kd3 Kg2 65. Ke3
+Kxh2 66. Kf3 Rg3+ 67. Kf2 h3 68. Rh8 Rg7 69. Rh6 Ra7 70. Rh8 Ra3 71. Rh7 Ra6
+72. Rh8 Rf6+ 73. Ke2 Kg2 74. Rg8+ Kh1 75. Rh8 h2 1/2-1/2
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.20"]
+[Round "3"]
+[White "Movileanu, Daniela"]
+[Black "Haug, Johannes"]
+[Result "0-1"]
+[ECO "C07"]
+[WhiteElo "2176"]
+[BlackElo "2362"]
+[PlyCount "102"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Nd2 c5 4. exd5 Qxd5 5. dxc5 Nf6 6. Ngf3 Qxc5 7. Bd3 Nbd7
+8. O-O Be7 9. a3 Qc7 10. Qe2 O-O 11. Ne4 b6 12. Bg5 Bb7 13. Nxf6+ Nxf6 14. Ne5
+Rad8 15. Rad1 Nd5 16. Bxe7 Qxe7 17. Qg4 Qf6 18. Qe4 g6 19. g3 Nc3 20. Qxb7 Nxd1
+21. Nc6 Nxb2 22. Nxd8 Rxd8 23. Bb5 Qg5 24. c4 Qc5 25. Qxa7 Nd3 26. a4 Kg7 27.
+a5 bxa5 28. Qxa5 Rd6 29. Qc3+ e5 30. Kg2 Qd4 31. Qxd4 exd4 32. Kf3 Kf6 33. Rd1
+Nc5 34. h4 h5 35. Kf4 Ke7 36. Re1+ Kf6 37. Rd1 Ke7 38. Re1+ Kd8 39. Rd1 Kc7 40.
+Rd2 Nb3 41. Rd3 Nc5 42. Rd1 d3 43. Ke3 Re6+ 44. Kd4 Kd6 45. Rxd3 Nxd3 46. Kxd3
+Kc5 47. Ba4 Rd6+ 48. Kc3 Rf6 49. f4 Re6 50. Kd2 Kxc4 51. Bc2 f5 0-1

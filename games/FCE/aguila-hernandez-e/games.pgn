@@ -1,0 +1,168 @@
+[Event "Figueres op"]
+[Site "?"]
+[Date "2010.08.12"]
+[Round "2"]
+[White "Nuñez Colome, D."]
+[Black "Aguila Hernandez, E."]
+[Result "0-1"]
+[ECO "C54"]
+[BlackElo "1734"]
+[PlyCount "79"]
+[EventDate "2010.??.??"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. cxd4 Bb4+ 7. Bd2 Bxd2+
+8. Nbxd2 Nxe4 9. Nxe4 d5 10. Bxd5 Qxd5 11. Nc3 Qe6+ 12. Ne2 Qd6 13. O-O Bg4 14.
+Re1 O-O-O 15. Ng5 Qg6 16. Qd2 Bxe2 17. Rxe2 Nxd4 18. Qe3 Nxe2+ 19. Qxe2 Qxg5
+20. h3 Rd2 21. Qc4 Rhd8 22. Qxf7 Rd1+ 23. Rxd1 Rxd1+ 24. Kh2 Qe5+ 25. g3 Qf6
+26. Qe8+ Rd8 27. Qe3 Kb8 28. Kg2 a6 29. b4 Qc6+ 30. Kh2 Rd1 31. g4 Rh1+ 32. Kg3
+Rg1+ 33. Kf4 Qh6+ 34. Kf3 Qxh3+ 35. Kf4 Rxg4+ 36. Kf5 Rg3+ 37. Ke4 Rxe3+ 38.
+fxe3 Qh4+ 39. Kd3 Qxb4 40. e4 0-1
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2010.08.13"]
+[Round "3"]
+[White "Aguila Hernandez, E."]
+[Black "Falgueras Marti, C."]
+[Result "1/2-1/2"]
+[ECO "B17"]
+[WhiteElo "1734"]
+[BlackElo "2038"]
+[PlyCount "134"]
+[EventDate "2010.??.??"]
+[EventRounds "9"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nd7 5. Nf3 Ngf6 6. Nxf6+ Nxf6 7. Be2 Bf5
+8. O-O e6 9. Bf4 Qb6 10. Ne5 Be7 11. Nc4 Qd8 12. Ne3 Bg6 13. c3 O-O 14. Qb3 Qc8
+15. Nc4 Rd8 16. h3 Be4 17. Nd2 Bg6 18. Nc4 Nd5 19. Bg3 Nf6 20. a4 Ne4 21. Bh2
+c5 22. f3 Nf6 23. dxc5 Bxc5+ 24. Kh1 Nd5 25. Rfd1 b6 26. a5 Qb7 27. axb6 axb6
+28. Na5 Qa7 29. Nc6 Qxa1 30. Rxa1 Rxa1+ 31. Bd1 Ne3 32. Nxd8 Rxd1+ 33. Bg1 Rxd8
+34. Kh2 Nf1+ 35. Kh1 Ng3+ 36. Kh2 Nf1+ 37. Kh1 Ne3 38. Qa2 Nd5 39. Bxc5 bxc5
+40. Qa5 Rc8 41. Qa6 Rf8 42. Qc6 h6 43. Qxc5 Rb8 44. b4 Bd3 45. Kg1 Kh7 46. c4
+Nxb4 47. Qd6 Rb7 48. c5 Nd5 49. Kf2 Rb2+ 50. Kg1 Rc2 51. Qd8 Kg6 52. Qd6 Bb5
+53. h4 Rc4 54. Qg3+ Kh7 55. Qf2 Rc1+ 56. Kh2 Rc4 57. Kg3 Kh8 58. Qg1 Ne7 59.
+Qd1 Nf5+ 60. Kf2 Rxc5 61. Qd8+ Kh7 62. g4 Rc2+ 63. Kg1 Ne3 64. Qb6 Rc1+ 65. Kf2
+Nxg4+ 66. fxg4 Rc2+ 67. Kg3 Rc3+ 1/2-1/2
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2010.08.14"]
+[Round "4"]
+[White "Lazaro Porta, A."]
+[Black "Aguila Hernandez, E."]
+[Result "1-0"]
+[ECO "B36"]
+[WhiteElo "1974"]
+[BlackElo "1734"]
+[PlyCount "51"]
+[EventDate "2010.??.??"]
+[EventRounds "9"]
+
+1. c4 c5 2. Nf3 Nf6 3. Nc3 Nc6 4. d4 cxd4 5. Nxd4 g6 6. e4 d6 7. Be2 Bg7 8. Be3
+O-O 9. Nc2 Nd7 10. O-O e6 11. Qd2 Qa5 12. Rab1 Bxc3 13. bxc3 Nf6 14. f3 a6 15.
+Kh1 Ne8 16. Nb4 Qc7 17. c5 a5 18. Nxc6 bxc6 19. Bh6 Ng7 20. cxd6 Qd7 21. e5 Re8
+22. Bg5 Ba6 23. Bxa6 Rxa6 24. Bf6 Nh5 25. Qh6 Nxf6 26. exf6 1-0
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2010.08.14"]
+[Round "5"]
+[White "Aguila Hernandez, E."]
+[Black "Sanchez Urpi, X."]
+[Result "1-0"]
+[ECO "B78"]
+[WhiteElo "1734"]
+[PlyCount "80"]
+[EventDate "2010.??.??"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. Nc3 Bg7 6. Be3 d6 7. Qd2 Nf6 8. f3
+O-O 9. Bc4 Bd7 10. h4 Ne5 11. Bb3 h5 12. O-O-O Rc8 13. Rdg1 Qa5 14. Kb1 b5 15.
+Nd5 Qxd2 16. Nxe7+ Kh8 17. Bxd2 Rb8 18. Bf4 Rb6 19. Ne2 Bc6 20. Nxc6 Rxc6 21.
+Bxe5 dxe5 22. Rd1 Kg8 23. Nc3 Rxc3 24. bxc3 Rc8 25. Kb2 a5 26. Rd6 a4 27. Bd5
+a3+ 28. Kb3 Rc5 29. Rc6 Nd7 30. Rxc5 Nxc5+ 31. Kxa3 Bf8 32. Kb4 Nxe4+ 33. Kxb5
+Nxc3+ 34. Kc6 Kg7 35. Bc4 Kf6 36. Re1 Bb4 37. Re3 Na4 38. Kb5 Bc5 39. Rb3 Nb6
+40. Kxc5 Nd7+ 1-0
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2010.08.15"]
+[Round "6"]
+[White "Vinardell Cruañas, S."]
+[Black "Aguila Hernandez, E."]
+[Result "1-0"]
+[ECO "C90"]
+[WhiteElo "1955"]
+[BlackElo "1734"]
+[PlyCount "55"]
+[EventDate "2010.??.??"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O b5 6. Bb3 Be7 7. Re1 d6 8. c3
+Bg4 9. d3 O-O 10. Nbd2 Qd7 11. h3 Bh5 12. Nf1 Rfe8 13. Ng3 Bg6 14. a4 Reb8 15.
+a5 Nd8 16. d4 exd4 17. cxd4 c6 18. Nh4 Nb7 19. Bg5 d5 20. exd5 cxd5 21. Nxg6
+hxg6 22. Re5 Bd6 23. Bxf6 Bxe5 24. Bxe5 Rc8 25. Qf3 Rd8 26. Ne2 f6 27. Bg3 g5
+28. Nc3 1-0
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2010.08.16"]
+[Round "7"]
+[White "Aguila Hernandez, E."]
+[Black "Andres Sebastian, L."]
+[Result "1-0"]
+[ECO "C57"]
+[WhiteElo "1734"]
+[BlackElo "1493"]
+[PlyCount "82"]
+[EventDate "2010.??.??"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Ng5 d5 5. exd5 Nxd5 6. Nxf7 Qf6 7. Bxd5 Be6
+8. Bxe6 Bc5 9. O-O Rf8 10. Bc4 Rxf7 11. Bxf7+ Kxf7 12. Nc3 Ne7 13. Ne4 Qg6 14.
+Qf3+ Nf5 15. Nxc5 Kg8 16. Qd5+ Kh8 17. f4 c6 18. Qe6 Qxe6 19. Nxe6 e4 20. Nc5
+Nd6 21. Re1 Re8 22. d3 b6 23. Nxe4 Nb5 24. Be3 c5 25. a4 Nc7 26. Bf2 h6 27. Nd6
+Rf8 28. Re7 Nd5 29. Re8 Rxe8 30. Nxe8 Nxf4 31. Re1 Kg8 32. Nd6 Nd5 33. Re8+ Kh7
+34. Ra8 a5 35. Bxc5 bxc5 36. Rxa5 Nb4 37. Rxc5 Na6 38. d4 Kg6 39. Kf2 Kf6 40.
+Re5 Nb4 41. Re2 Nd5 1-0
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2010.08.17"]
+[Round "8"]
+[White "Aguila Hernandez, E."]
+[Black "Ruiz Font, E."]
+[Result "0-1"]
+[ECO "B35"]
+[WhiteElo "1734"]
+[BlackElo "1899"]
+[PlyCount "64"]
+[EventDate "2010.??.??"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 g6 3. d4 cxd4 4. Nxd4 Bg7 5. Nc3 Nc6 6. Be3 Nf6 7. Bc4 Qa5 8.
+f3 O-O 9. Qd2 Qb4 10. Bb3 a5 11. Ndb5 a4 12. Bb6 axb3 13. cxb3 Nxe4 14. Qd3
+Nxc3 15. bxc3 Bxc3+ 16. Ke2 Bxa1 17. Rxa1 d6 18. Nc7 Bf5 19. Qe3 Rac8 20. g3
+Nd4+ 21. Bxd4 Rxc7 22. g4 Bd7 23. Kf2 Rc2+ 24. Kg3 Qd2 25. Qg1 Bc6 26. h4 Qe2
+27. Rf1 f5 28. g5 f4+ 29. Kh3 Bxf3 30. Rf2 Qe6+ 31. Kh2 Rxf2+ 32. Qxf2 Qe2 0-1
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2010.08.18"]
+[Round "9"]
+[White "Gallegos Saliner, JM."]
+[Black "Aguila Hernandez, E."]
+[Result "1-0"]
+[ECO "C45"]
+[WhiteElo "1560"]
+[BlackElo "1734"]
+[PlyCount "63"]
+[EventDate "2010.??.??"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 bxc6 6. e5 Qe7 7. Qe2 Nd5 8.
+c4 Nb6 9. Nd2 a5 10. g3 Ba6 11. b3 Qe6 12. Bg2 Bb4 13. O-O O-O 14. Qe3 Rfe8 15.
+Bb2 a4 16. Ne4 Rad8 17. Nc5 Bxc5 18. Qxc5 Qf5 19. Qd4 a3 20. Bc3 Re7 21. Rfe1
+Rde8 22. Re4 c5 23. Qxc5 d6 24. Qxa3 d5 25. Rf4 Qc8 26. cxd5 Bb7 27. Rd1 g5 28.
+Rf6 Ba8 29. Qc1 Rxe5 30. Bxe5 Rxe5 31. Rxb6 Qf5 32. Rb8+ 1-0

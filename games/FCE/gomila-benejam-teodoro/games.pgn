@@ -1,0 +1,320 @@
+[Event "Lliga Catalana DH"]
+[Site "Barcelona"]
+[Date "2023.01.21"]
+[Round "1.5"]
+[White "Pinero Fernandez, Xavier"]
+[Black "Gomila Benejam, Teodoro"]
+[Result "1-0"]
+[WhiteElo "2279"]
+[BlackElo "2045"]
+[PlyCount "100"]
+[EventDate "2023.??.??"]
+[SourceDate "2023.01.21"]
+[TimeControl "90+30"]
+[WhiteClock "0:11:00"]
+[BlackClock "0:01:36"]
+
+1. d4 {[%emt 0:01:16]} Nf6 {[%emt 0:00:08]} 2. Nf3 {[%emt 0:01:25]} e6 {[%emt
+0:00:11]} 3. c3 {[%emt 0:01:47]} d5 {[%emt 0:01:55]} 4. Bf4 {[%emt 0:00:20]}
+Bd6 {[%emt 0:00:22]} 5. e3 {[%emt 0:01:56]} c5 {[%emt 0:02:30]} 6. Bb5+ {[%emt
+0:07:36]} Nc6 {[%emt 0:11:29]} 7. Bxc6+ {[%emt 0:10:58]} bxc6 {[%emt 0:00:08]}
+8. Qa4 {[%emt 0:03:05]} Bxf4 {[%emt 0:07:48]} 9. exf4 {[%emt 0:00:14]} Qd6 {
+[%emt 0:00:11]} 10. Ne5 {[%emt 0:07:38]} c4 {[%emt 0:18:10]} 11. b3 {[%emt 0:
+09:35]} cxb3 {[%emt 0:01:43]} 12. axb3 {[%emt 0:00:15]} Bd7 {[%emt 0:00:32]}
+13. Qa3 {[%emt 0:00:55]} Qxa3 {[%emt 0:09:00]} 14. Rxa3 {[%emt 0:00:12]} Ke7 {
+[%emt 0:00:56]} 15. Nd2 {[%emt 0:04:20]} Rhc8 {[%emt 0:02:37]} 16. Nd3 {[%emt
+0:02:45]} Be8 {[%emt 0:02:30]} 17. Ke2 {[%emt 0:06:05]} Nd7 {[%emt 0:00:58]}
+18. Rha1 {[%emt 0:00:34]} Rc7 {[%emt 0:01:56]} 19. Ra5 {[%emt 0:04:52]} f6 {
+[%emt 0:03:51]} 20. b4 {[%emt 0:02:56]} Bg6 {[%emt 0:02:17]} 21. Nc5 {[%emt 0:
+00:27]} Nxc5 {[%emt 0:02:47]} 22. Rxc5 {[%emt 0:00:25]} Kd7 {[%emt 0:00:16]}
+23. Rca5 {[%emt 0:00:38]} Bh5+ {[%emt 0:17:18]} 24. Ke3 {[%emt 0:01:51]} Kd6 {
+[%emt 0:01:33]} 25. Nc4+ {[%emt 0:04:47]} dxc4 {[%emt 0:01:01]} 26. Rxh5 {
+[%emt 0:00:10]} g6 {[%emt 0:00:06]} 27. Rc5 {[%emt 0:00:21]} Re8 {[%emt 0:01:
+50]} 28. Ra6 {[%emt 0:04:56]} Kd7 {[%emt 0:02:31]} 29. Ke4 {[%emt 0:01:09]} h6
+{[%emt 0:03:53]} 30. Rxc4 {[%emt 0:00:54]} g5 {[%emt 0:00:04]} 31. Rc5 {[%emt
+0:01:00]} Rg8 {[%emt 0:01:07]} 32. g3 {[%emt 0:01:06]} f5+ {[%emt 0:01:13]} 33.
+Ke5 {[%emt 0:01:56]} gxf4 {[%emt 0:00:13]} 34. Kxf4 {[%emt 0:00:21]} h5 {[%emt
+0:01:12]} 35. Rca5 {[%emt 0:00:16]} h4 {[%emt 0:00:59]} 36. Rxa7 {[%emt 0:00:
+27]} hxg3 {[%emt 0:00:22]} 37. fxg3 {[%emt 0:01:08]} Rg4+ {[%emt 0:01:36]} 38.
+Kf3 {[%emt 0:00:09]} Rxa7 {[%emt 0:00:18]} 39. Rxa7+ {[%emt 0:00:10]} Kd6 {
+[%emt 0:00:04]} 40. Ra5 {[%emt 0:00:56]} Re4 {[%emt 0:00:21]} 41. Re5 {[%emt 0:
+02:22]} Rg4 {[%emt 0:00:49]} 42. h4 {[%emt 0:00:22]} Rg7 {[%emt 0:00:21]} 43.
+Ra5 {[%emt 0:01:27]} Rh7 {[%emt 0:00:33]} 44. Kf4 {[%emt 0:00:27]} Rg7 {[%emt
+0:00:06]} 45. b5 {[%emt 0:01:42]} c5 {[%emt 0:01:52]} 46. Ra6+ {[%emt 0:01:14]}
+Kd5 {[%emt 0:00:05]} 47. dxc5 {[%emt 0:00:29]} e5+ {[%emt 0:01:04]} 48. Kxf5 {
+[%emt 0:02:13]} Rxg3 {[%emt 0:00:12]} 49. b6 {[%emt 0:01:35]} Kc6 {[%emt 0:00:
+36]} 50. Ra7 {[%emt 0:00:40]} Kd5 {[%emt 0:00:43] Ke4+} 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "https://lichess.org/study/nEg"]
+[Date "2023.02.04"]
+[Round "3.4"]
+[White "Avila Jimenez, Xavier"]
+[Black "Gomila Benejam, Teodoro"]
+[Result "1-0"]
+[ECO "E20"]
+[WhiteElo "2301"]
+[BlackElo "2205"]
+[PlyCount "81"]
+[EventDate "2023.??.??"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. f3 O-O 5. a3 Bxc3+ 6. bxc3 Nh5 7. Nh3 f5 8.
+Bg5 Qe8 9. e3 d6 10. Be2 Nc6 11. O-O Bd7 12. Kh1 Kh8 13. Rb1 b6 14. Rb2 Na5 15.
+Bh4 Ba4 16. Qb1 e5 17. Bd3 Bd7 18. Nf2 Nf6 19. Re2 Qh5 20. Bxf6 Rxf6 21. dxe5
+dxe5 22. Rd2 Bc6 23. Be2 Qg5 24. Bd3 Rd8 25. Re2 Qh5 26. Nh3 Rdf8 27. Ref2 Qh4
+28. Qb4 Rd8 29. Be2 Rfd6 30. c5 Qxb4 31. cxb4 Rd2 32. bxa5 bxa5 33. Ng5 Bd5 34.
+e4 Bb3 35. exf5 h6 36. Ne4 Ra2 37. Bb5 Rxa3 38. Kg1 Rb8 39. Bc6 a4 40. Rd2 Bc4
+41. Rfd1 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "Valls"]
+[Date "2023.01.28"]
+[Round "2.6"]
+[White "Gomila Benejam, Teodoro"]
+[Black "Garcia Jimenez, Fco. Javier"]
+[Result "1/2-1/2"]
+[ECO "C42"]
+[WhiteElo "2205"]
+[BlackElo "2397"]
+[PlyCount "41"]
+[EventDate "2023.??.??"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nxe4 4. Qe2 Qe7 5. Qxe4 d6 6. d4 dxe5 7. Qxe5 Qxe5+
+8. dxe5 Bf5 9. c3 Nd7 10. Bf4 O-O-O 11. Bc4 Nxe5 12. Bxe5 Re8 13. O-O Rxe5 14.
+Nd2 f6 15. Rfe1 Bd6 16. Nf3 Rxe1+ 17. Rxe1 Bd7 18. Be6 Bxe6 19. Rxe6 Kd7 20.
+Re1 Re8 21. Rxe8 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.02.18"]
+[Round "5.5"]
+[White "Gomila Benejam, Teodoro"]
+[Black "Garrido Fernandez, Daniel"]
+[Result "0-1"]
+[ECO "E07"]
+[WhiteElo "2046"]
+[BlackElo "2295"]
+[PlyCount "130"]
+[EventDate "2023.01.21"]
+[WhiteTeam "Cor de Marina"]
+[BlackTeam "Foment Martinenc"]
+
+1. d4 Nf6 2. c4 e6 3. g3 d5 4. Nf3 Bb4+ 5. Bd2 Be7 6. Bg2 O-O 7. O-O Nbd7 8.
+cxd5 exd5 9. Nc3 c6 10. Bf4 Nh5 11. Rb1 Nxf4 12. gxf4 Bd6 13. e3 Qe7 14. a3 Nb6
+15. a4 Bf5 16. Ra1 a5 17. b3 h6 18. Ne5 f6 19. Nd3 g5 20. Ne2 Bg4 21. Qd2 Rae8
+22. h3 Bf5 23. Ng3 Bg6 24. Rad1 Qh7 25. f5 Bxf5 26. Nxf5 Qxf5 27. Qxa5 Nc8 28.
+e4 Rxe4 29. Bxe4 Qxe4 30. Qe1 Qxd4 31. Qe6+ Kg7 32. Rfe1 Qb6 33. Qd7+ Kg6 34.
+Re8 Qxb3 35. Rde1 Qxd3 36. Rxf8 Bxf8 37. Qe8+ Kg7 38. Qxc8 Bc5 39. Qxb7+ Kf8
+40. Qc8+ Kg7 41. Qd7+ Kg6 42. Qe8+ Kg7 43. Kg2 Qc2 44. Re2 Qxa4 45. Qd7+ Kg6
+46. Qe8+ Kg7 47. Qd7+ Kg6 48. Re8 Qf4 49. Rg8+ Kh5 50. Qe8+ Kh4 51. Qe2 Qf5 52.
+Rh8 Qxh3+ 53. Kg1 Qg4+ 54. Qxg4+ Kxg4 55. Rxh6 Bd4 56. Kg2 Kf4 57. Rh3 c5 58.
+Kf1 c4 59. Ke2 g4 60. Rh5 Be5 61. Rh7 d4 62. Rh5 d3+ 63. Kd2 Kf3 64. Rf5+ Ke4
+65. Rh5 c3+ 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.02.25"]
+[Round "6.5"]
+[White "Lorenzo de la Riva, Lazaro"]
+[Black "Gomila Benejam, Teodoro"]
+[Result "1/2-1/2"]
+[ECO "D00"]
+[WhiteElo "2419"]
+[BlackElo "2046"]
+[PlyCount "78"]
+[EventDate "2023.02.26"]
+[SourceDate "2023.02.26"]
+
+1. d4 Nf6 2. Nc3 d5 3. Bf4 e6 4. e3 Bd6 5. Bxd6 Qxd6 6. Nf3 O-O 7. Bd3 c5 8.
+O-O Nbd7 9. Re1 e5 10. dxe5 Nxe5 11. Nxe5 Qxe5 12. f4 Qc7 13. Qf3 Rd8 14. h3 b6
+15. e4 Bb7 16. e5 Ne8 17. b3 a6 18. Qh5 g6 19. Qh6 Ng7 20. f5 Bc8 21. f6 Ne8
+22. Kh1 Be6 23. Rad1 b5 24. Nxb5 axb5 25. Bxb5 Bd7 26. Bxd7 Qxd7 27. c4 Qe6 28.
+cxd5 Rxd5 29. Rxd5 Qxd5 30. e6 Nxf6 31. exf7+ Qxf7 32. Qg5 Rxa2 33. Qxc5 Qb7
+34. Qg5 Rf2 35. Qg3 Rb2 36. Rf1 Rxb3 37. Qh4 Rb2 38. Qg5 Qc6 39. Rxf6 Rxg2
+1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "Olot, Spain"]
+[Date "2023.03.11"]
+[Round "8.6"]
+[White "Aymerich Verdaguer, Eduard"]
+[Black "Gomila Benejam, Teodoro"]
+[Result "1-0"]
+[TimeControl "90+30"]
+[WhiteTitle "CM"]
+[WhiteElo "2198"]
+[BlackElo "2043"]
+
+1. d4 {[%clk 01:24:51]} {[%emt 00:06:01]} Nf6 {[%clk 01:30:56]} {[%emt
+00:00:11]} 2. Nf3 {[%clk 01:25:07]} {[%emt 00:00:14]} e6 {[%clk 01:31:19]}
+{[%emt 00:00:08]} 3. c4 {[%clk 01:24:24]} {[%emt 00:01:13]} b6 {[%clk
+01:31:41]} {[%emt 00:00:08]} 4. g3 {[%clk 01:24:07]} {[%emt 00:00:47]} Ba6
+{[%clk 01:32:03]} {[%emt 00:00:07]} 5. Qc2 {[%clk 01:23:48]} {[%emt 00:00:50]}
+Bb7 {[%clk 01:29:50]} {[%emt 00:02:42]} 6. Nc3 {[%clk 01:22:30]} {[%emt
+00:01:49]} c5 {[%clk 01:25:08]} {[%emt 00:05:12]} 7. d5 {[%clk 01:13:10]}
+{[%emt 00:09:50]} exd5 {[%clk 01:15:20]} {[%emt 00:10:17]} 8. cxd5 {[%clk
+01:13:25]} {[%emt 00:00:16]} Nxd5 {[%clk 01:11:04]} {[%emt 00:04:46]} 9. Bg2
+{[%clk 01:13:31]} {[%emt 00:00:23]} Nc7 {[%clk 00:55:04]} {[%emt 00:16:30]} 10.
+e4 {[%clk 01:07:22]} {[%emt 00:06:39]} Be7 {[%clk 00:52:31]} {[%emt 00:03:03]}
+11. O-O {[%clk 01:07:15]} {[%emt 00:00:36]} Nc6 {[%clk 00:48:27]} {[%emt
+00:04:35]} 12. Rd1 {[%clk 01:00:35]} {[%emt 00:07:11]} O-O {[%clk 00:44:38]}
+{[%emt 00:04:18]} 13. e5 {[%clk 00:56:53]} {[%emt 00:04:13]} Ne6 {[%clk
+00:38:04]} {[%emt 00:07:04]} 14. Be3 {[%clk 00:56:04]} {[%emt 00:01:19]} Ncd4
+{[%clk 00:29:35]} {[%emt 00:08:58]} 15. Nxd4 {[%clk 00:52:52]} {[%emt
+00:03:42]} Nxd4 {[%clk 00:29:47]} {[%emt 00:00:18]} 16. Bxd4 {[%clk 00:53:02]}
+{[%emt 00:00:21]} Bxg2 {[%clk 00:30:09]} {[%emt 00:00:08]} 17. Kxg2 {[%clk
+00:53:28]} {[%emt 00:00:04]} cxd4 {[%clk 00:30:32]} {[%emt 00:00:07]} 18. Rxd4
+{[%clk 00:53:52]} {[%emt 00:00:05]} Qc7 {[%clk 00:30:28]} {[%emt 00:00:34]} 19.
+Qe4 {[%clk 00:46:09]} {[%emt 00:08:14]} Rfe8 {[%clk 00:22:34]} {[%emt
+00:08:23]} 20. Rad1 {[%clk 00:39:17]} {[%emt 00:07:23]} Bc5 {[%clk 00:16:33]}
+{[%emt 00:06:31]} 21. Rxd7 {[%clk 00:37:53]} {[%emt 00:01:53]} Qxe5 {[%clk
+00:16:22]} {[%emt 00:00:40]} 22. Qf3 {[%clk 00:37:04]} {[%emt 00:01:20]} f6
+{[%clk 00:10:08]} {[%emt 00:06:45]} 23. Qb7 {[%clk 00:29:50]} {[%emt 00:07:43]}
+Qg5 {[%clk 00:08:01]} {[%emt 00:02:37]} 24. h4 {[%clk 00:27:39]} {[%emt
+00:02:41]} Qg4 {[%clk 00:05:09]} {[%emt 00:03:23]} 25. f3 {[%clk 00:24:11]}
+{[%emt 00:03:58]} Qg6 {[%clk 00:04:55]} {[%emt 00:00:44]} 26. h5 {[%clk
+00:23:55]} {[%emt 00:00:46]} Qh6 {[%clk 00:05:06]} {[%emt 00:00:19]} 27. Qd5+
+{[%clk 00:23:33]} {[%emt 00:00:51]} Kh8 {[%clk 00:05:14]} {[%emt 00:00:22]} 28.
+Qxa8 {[%clk 00:23:40]} {[%emt 00:00:23]} 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.04.15"]
+[Round "11.3"]
+[White "ORTÍN BLANCO, ÍÑIGO"]
+[Black "GOMILA BENEJAM, TEODORO"]
+[Result "1-0"]
+[WhiteElo "2284"]
+[BlackElo "2205"]
+[WhiteTeam "MLL"]
+[BlackTeam "SJB"]
+
+1. d4 Nf6 2. c4 e6 3. g3 d5 4. Nf3 Be7 5. Bg2 O-O 6. Qc2 c6 7. O-O b6 8. Rd1 Nbd7 9. b3 Bb7 10. Nc3 Rc8 11. e4 dxe4 12. Ng5 c5 13. dxc5 bxc5 14. Ncxe4 Nxe4 15. Nxe4 Qc7 16. Bb2 Nf6 17. f4 Nxe4 18. Bxe4 Bxe4 19. Qxe4 Rfd8 20. Be5 Qb6 21. f5 exf5 22. Qxf5 Qe6 23. Qxe6 fxe6 24. Rf1 Rd2 25. Bf4 Re2 26. Rfe1 Rxe1+ 27. Rxe1 Kf7 28. Rd1 Ke8 29. Kf2 Rd8 30. Re1 Kf7 31. Be3 a5 32. Kf3 a4 33. Ke4 axb3 34. axb3 Rb8 35. Rb1 Bd6 36. Rd1 Be7 37. Rd3 Ra8 38. Rd7 Ke8 39. Rc7 Ra3 40. Rxe7+ 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.01.18"]
+[Round "1.6"]
+[White "Castillo Dalmau, Albert"]
+[Black "Gomila Benejam, Teodoro"]
+[Result "1/2-1/2"]
+[ECO "A14"]
+[WhiteElo "2409"]
+[BlackElo "2242"]
+[PlyCount "97"]
+[GameId "2151339903756903"]
+[EventDate "2025.01.18"]
+
+1. c4 e6 2. g3 d5 3. Nf3 Nf6 4. Bg2 Be7 5. O-O O-O 6. b3 d4 7. e3 c5 8. exd4 cxd4 9. Ne5 Qc7 10. f4 Nc6 11. Nd3 Rd8 12. Ba3 Bd7 13. Qe2 Be8 14. Re1 Rab8 15. Bxe7 Nxe7 16. Na3 Qa5 17. Nc2 Qf5 18. Bf1 a5 19. Qe5 Bc6 20. Qxf5 Nxf5 21. a3 h5 22. Ne5 Rbc8 23. Bd3 g6 24. b4 Ba4 25. bxa5 Bxc2 26. Bxc2 Nd6 27. Bd3 Rc5 28. Reb1 Rxa5 29. Rb6 Ng4 30. Nf3 e5 31. fxe5 Nxe5 32. Nxe5 Rxe5 33. Rf1 Rc5 34. Rf6 Nxc4 35. Bxc4 Rxc4 36. Rxb7 Rc2 37. Rfxf7 Rxd2 38. Rg7+ Kh8 39. Rh7+ Kg8 40. Rbg7+ Kf8 41. Rxg6 Rc8 42. Rf6+ Kg8 43. Rxh5 d3 44. Rg5+ Kh7 45. Rd5 Rc1+ 46. Rf1 Rcc2 47. Rf3 Rg2+ 48. Kf1 Rxh2 49. Kg1 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "Barcelona, local C.C.SAnt And"]
+[Date "2025.01.25"]
+[Round "2.7"]
+[White "Delisau Gil, Oriol"]
+[Black "Gomila Benejam, Teodoro"]
+[Result "1-0"]
+[ECO "E09"]
+[WhiteElo "2340"]
+[BlackElo "2242"]
+[PlyCount "67"]
+[GameId "2151339903879864"]
+[EventDate "2025.01.25"]
+[EventType "team-tourn"]
+[EventRounds "5"]
+[EventCountry "CAT"]
+
+1. Nf3 d5 2. c4 e6 3. g3 Nf6 4. Bg2 Be7 5. O-O O-O 6. d4 c6 7. Qc2 b6 8. Rd1 Nbd7 9. Nbd2 Ba6 10. b3 c5 11. e4 cxd4 12. exd5 e5 13. Re1 Qc7 14. Nxd4 exd4 15. Rxe7 Qc5 16. Re1 b5 17. a4 b4 18. Bb2 Rac8 19. Qd3 Nxd5 20. Bxd4 Qa5 21. Bxg7 Kxg7 22. Bxd5 Nf6 23. Qd4 Qb6 24. Qe5 h6 25. Ne4 Rfe8 26. Qxf6+ Qxf6 27. Nxf6 Kxf6 28. f4 Rcd8 29. Kf2 Bc8 30. Rxe8 Rxe8 31. Re1 Rd8 32. Ke3 Bf5 33. Kd4 Bc2 34. Re3 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "lichess.org"]
+[Date "2025.02.08"]
+[Round "4.8"]
+[White "Llaneza Vega, Patricia"]
+[Black "Gomila Benejam, Teodoro"]
+[Result "1/2-1/2"]
+[ECO "B22"]
+[WhiteElo "2050"]
+[BlackElo "2014"]
+[PlyCount "96"]
+[GameId "2151339904498531"]
+[EventDate "2025.??.??"]
+
+1. e4 c5 2. c3 d5 3. exd5 Qxd5 4. d4 cxd4 5. cxd4 Nc6 6. Nf3 Bg4 7. Nc3 Bxf3 8. gxf3 Qxd4 9. Qxd4 Nxd4 10. Nb5 Ne6 11. Be3 a6 12. Rc1 Nf6 13. Nc7+ Nxc7 14. Rxc7 Nd5 15. Rxb7 Nxe3 16. fxe3 e6 17. Rg1 g6 18. Rg4 Bc5 19. Bxa6 O-O 20. Bc4 Bxe3 21. Ke2 Bh6 22. Rd4 Rfd8 23. Rdd7 Rxd7 24. Rxd7 Ra4 25. Kd3 Bf4 26. h3 Ra5 27. Ke4 g5 28. b4 Ra4 29. Rb7 Bd2 30. Bb3 Rxb4+ 31. Rxb4 Bxb4 32. f4 gxf4 33. Kxf4 Kf8 34. Kg5 Kg7 35. a4 Bd2+ 36. Kg4 f5+ 37. Kf3 Kf6 38. Ke2 Ba5 39. Kf3 e5 40. Bc2 e4+ 41. Bxe4 fxe4+ 42. Kxe4 Kg5 43. Kf3 Kh4 44. Kg2 Bb6 45. Kh1 Kxh3 46. a5 Bxa5 47. Kg1 Bb6+ 48. Kh1 h5 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.02.22"]
+[Round "6.6"]
+[White "Pinero Fernandez, Xavier"]
+[Black "Gomila Benejam, Teodoro"]
+[Result "1/2-1/2"]
+[ECO "B23"]
+[WhiteElo "2265"]
+[BlackElo "2014"]
+[PlyCount "56"]
+[GameId "2150545034838833"]
+[EventDate "2025.02.15"]
+[WhiteTeam "Ateneu Colon"]
+[BlackTeam "Cor de Marina"]
+
+1. e4 c5 2. Nc3 e6 3. f4 d5 4. Bb5+ Bd7 5. Bxd7+ Qxd7 6. Nf3 dxe4 7. Ne5 Qc7 8. Qe2 Nc6 9. Nxc6 Qxc6 10. Qxe4 Qxe4+ 11. Nxe4 Be7 12. d3 Nf6 13. Be3 Rc8 14. c4 O-O 15. Ke2 Rfd8 16. h3 Rd7 17. Rhd1 Nxe4 18. dxe4 Rcd8 19. Rxd7 Rxd7 20. Rc1 Kf8 21. Rc3 Ke8 22. Ra3 b6 23. g4 f6 24. Bf2 Bd6 25. Be3 Be7 26. Rc3 Bd8 27. a4 a5 28. Rc1 Kf7 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.03.08"]
+[Round "8.8"]
+[White "Rodriguez Garcia, Yuliesky"]
+[Black "Gomila Benejam, Teodoro"]
+[Result "1/2-1/2"]
+[ECO "D45"]
+[WhiteElo "2182"]
+[BlackElo "2021"]
+[PlyCount "87"]
+[GameId "2155320562172604"]
+[EventDate "2025.02.15"]
+[WhiteTeam "Lira Vendrellenca"]
+[BlackTeam "Cor de Marina"]
+
+1. c4 e6 2. Nc3 d5 3. d4 Nf6 4. Nf3 c6 5. e3 Nbd7 6. Qc2 Bd6 7. g4 dxc4 8. Bxc4 b5 9. Be2 Bb7 10. g5 Nd5 11. Bd2 a6 12. Ne4 Be7 13. a3 a5 14. h4 Qb6 15. Rc1 Rc8 16. Nc5 Bxc5 17. dxc5 Qc7 18. e4 Nf4 19. Qc3 Nxe2 20. Kxe2 O-O 21. Qxa5 Qb8 22. Qc3 e5 23. Rhg1 Rfe8 24. Be3 Nf8 25. h5 Rcd8 26. Rcd1 b4 27. Qxb4 Ba6+ 28. Ke1 Qxb4+ 29. axb4 Rb8 30. Bd2 Ne6 31. Bc3 Nf4 32. Nxe5 Ne2 33. Kd2 Nxc3 34. bxc3 Rxe5 35. Ke3 Rbe8 36. Rd4 Kf8 37. f4 R5e6 38. Ra1 Bc8 39. f5 Re5 40. Kf4 R5e7 41. Ra8 Bb7 42. Ra7 Bc8 43. Ra8 Bb7 44. Ra7 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.03.15"]
+[Round "9.5"]
+[White "Masague Artero, Guerau"]
+[Black "Gomila Benejam, Teodoro"]
+[Result "1-0"]
+[ECO "D35"]
+[WhiteElo "2343"]
+[BlackElo "2021"]
+[PlyCount "67"]
+[GameId "2156192247064902"]
+[EventDate "2025.02.15"]
+[WhiteTeam "Barcelona"]
+[BlackTeam "Cor de Marina"]
+
+1. c4 e6 2. Nc3 d5 3. d4 Nf6 4. cxd5 exd5 5. Bg5 Be7 6. e3 O-O 7. Bd3 h6 8. Bh4 c6 9. Nge2 Re8 10. O-O Nbd7 11. a4 a5 12. f3 c5 13. Bb5 Rf8 14. Bxd7 Qxd7 15. dxc5 g5 16. Bg3 Bxc5 17. Nd4 Re8 18. Re1 Bd6 19. Bxd6 Qxd6 20. Rc1 Bd7 21. Qb3 Rab8 22. Rcd1 Be6 23. Ncb5 Qb6 24. Qd3 Rbc8 25. Qd2 Bd7 26. Qf2 Kg7 27. Qg3 Bxb5 28. axb5 Kg6 29. Qh3 Qc7 30. Qf5+ Kg7 31. h4 Re5 32. b6 Qd6 33. Qxc8 Qb8 34. Qf5 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.03.26"]
+[Round "10.5"]
+[White "Gomila Benijan, Teodoro"]
+[Black "Saguillo Gonzalez, Oriol"]
+[Result "1/2-1/2"]
+[ECO "E08"]
+[WhiteElo "2205"]
+[BlackElo "2311"]
+[PlyCount "103"]
+[EventDate "2023.??.??"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Bb4+ 5. Bd2 Be7 6. Bg2 O-O 7. O-O c6 8. Bf4
+b6 9. Qc2 Bb7 10. Nbd2 Nbd7 11. e4 Rc8 12. e5 Ne8 13. h4 h6 14. cxd5 cxd5 15.
+Qb3 Nb8 16. Rfe1 Ba6 17. Rac1 Qd7 18. h5 Rxc1 19. Rxc1 Nc7 20. g4 Rc8 21. Qe3
+Ne8 22. Nf1 Rxc1 23. Qxc1 Nc6 24. a3 Na5 25. g5 hxg5 26. Bxg5 Bf8 27. Qf4 Nc4
+28. h6 Nxb2 29. Ng3 Nd3 30. Qh4 Qb5 31. h7+ Kh8 32. Be7 Bxe7 33. Qxe7 f6 34.
+exf6 Nxf6 35. Ng5 Qe8 36. Qxa7 Bc4 37. Qxb6 Nf4 38. Qd6 Nxg2 39. Kxg2 Nxh7 40.
+Nxe6 Nf6 41. Ng5 Bd3 42. Qe5 Qa8 43. Qe7 Ng8 44. Nf7+ Kh7 45. Qh4+ Nh6 46. Nxh6
+gxh6 47. Qe7+ Kh8 48. Qf6+ Kh7 49. Qf7+ Kh8 50. Qf6+ Kh7 51. Qf7+ Kh8 52. Qf6+
+1/2-1/2

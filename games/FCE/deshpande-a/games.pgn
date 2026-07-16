@@ -1,0 +1,785 @@
+[Event "Andorra op"]
+[Site "Andorra"]
+[Date "2009.07.19"]
+[Round "2.16"]
+[White "Vila Gazquez, X."]
+[Black "Deshpande, A."]
+[Result "1-0"]
+[ECO "B86"]
+[WhiteElo "2457"]
+[BlackElo "2211"]
+[PlyCount "127"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+[EventCountry "AND"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e6 6. Bc4 Be7 7. Bb3 Na6 8.
+Qf3 Nc5 9. g4 Nfd7 10. Qg3 a6 11. Be3 Ne5 12. O-O-O Bd7 13. f4 Nc6 14. f5 Qc7
+15. g5 O-O-O 16. Rhf1 Ne5 17. h4 g6 18. fxe6 fxe6 19. Bxe6 Bxe6 20. Nxe6 Nxe6
+21. Nd5 Qa5 22. Qh3 Kb8 23. Qxe6 Rhe8 24. Nxe7 Qc7 25. Nd5 Rxe6 26. Nxc7 Kxc7
+27. Rf4 Rde8 28. Bd2 R8e7 29. Bc3 Nc6 30. Bf6 Re8 31. Re1 b5 32. a3 Kb6 33. Re3
+d5 34. e5 Nxe5 35. Bxe5 Rxe5 36. Rxe5 Rxe5 37. Rf7 h5 38. gxh6 Rh5 39. Rf6+ Kc5
+40. Rxg6 a5 41. Rg4 Rxh6 42. Kd2 b4 43. axb4+ axb4 44. b3 Rh7 45. Ke3 Re7+ 46.
+Kf2 Rf7+ 47. Kg3 Rf5 48. Rf4 Re5 49. Kf3 d4 50. Rf8 Re3+ 51. Kg4 Rc3 52. h5 d3
+53. cxd3 Rxb3 54. h6 Rb1 55. Rc8+ Kd4 56. h7 Rh1 57. h8=Q+ Rxh8 58. Rxh8 Kxd3
+59. Rb8 Kc3 60. Kf3 b3 61. Ke2 Kc2 62. Rc8+ Kb1 63. Kd2 Kb2 64. Rb8 1-0
+
+[Event "Andorra op"]
+[Site "Andorra"]
+[Date "2009.07.21"]
+[Round "4.19"]
+[White "Matnadze, A."]
+[Black "Deshpande, A."]
+[Result "0-1"]
+[ECO "D30"]
+[WhiteElo "2413"]
+[BlackElo "2211"]
+[PlyCount "198"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+[EventCountry "AND"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 c6 4. e3 e6 5. Nbd2 Nbd7 6. Bd3 Bd6 7. e4 dxe4 8.
+Nxe4 Nxe4 9. Bxe4 c5 10. O-O O-O 11. Bg5 Be7 12. Bxe7 Qxe7 13. d5 Nf6 14. Re1
+Nxe4 15. Rxe4 Qd6 16. Qd3 exd5 17. Rh4 g6 18. cxd5 h5 19. h3 Bf5 20. Qd2 Rfe8
+21. Rd1 Rad8 22. Qh6 Qf8 23. Qg5 Qe7 24. Qf4 Qd6 25. Qg5 Qe7 26. Rxh5 Qxg5 27.
+Rxg5 Re2 28. d6 c4 29. Rd5 Be4 30. Rd4 Bxf3 31. gxf3 Rxb2 32. Rc5 Rxa2 33. Rc7
+c3 34. Rxc3 Ra6 35. d7 Kf8 36. f4 f5 37. Rd5 Ke7 38. Rcd3 Re6 39. Kg2 a6 40.
+Kg3 b5 41. Kh4 Rh8+ 42. Kg3 Rd8 43. Kh4 Kf6 44. Rc5 b4 45. Kg3 Rb6 46. Re5 Kf7
+47. Rd1 b3 48. Red5 Ke7 49. Re5+ Kf7 50. Red5 a5 51. Rxa5 b2 52. Rb1 Rxd7 53.
+Rc5 Rd3+ 54. Kg2 Rd2 55. h4 Kf6 56. Rc3 Ke6 57. Rc5 Kd6 58. Rc8 Rd4 59. Rc2
+Rdb4 60. Rd1+ Ke6 61. Re1+ Kd5 62. Rb1 Ke4 63. Rd2 Kxf4 64. Rd3 Rb3 65. Rd4+
+Ke5 66. Rd2 R6b4 67. Re1+ Kf4 68. Rb1 Kg4 69. Rd6 Kh5 70. f3 Rxh4 71. Rd2 Rhb4
+72. Kf2 Kg5 73. Kg3 Rb6 74. Rd4 Kf6 75. Rd2 g5 76. Kf2 R6b4 77. Rc2 f4 78. Rd2
+Rb6 79. Rc2 Ke5 80. Rd2 R6b5 81. Kg2 Kf5 82. Kf2 g4 83. fxg4+ Kxg4 84. Rg1+ Rg3
+85. Rb1 Rh3 86. Kg1 Rhb3 87. Kg2 R5b4 88. Kf2 Rh3 89. Kg1 Rg3+ 90. Kf2 Rgb3 91.
+Rc2 f3 92. Rc8 Kf4 93. Rc2 Rb6 94. Rc4+ Ke5 95. Rc8 Rb8 96. Rc7 Rg8 97. Kf1 Rg2
+98. Re7+ Kd6 99. Rf7 Rc2 0-1
+
+[Event "Andorra op"]
+[Site "Andorra"]
+[Date "2009.07.22"]
+[Round "5.18"]
+[White "Deshpande, A."]
+[Black "Bok, B."]
+[Result "0-1"]
+[ECO "C69"]
+[WhiteElo "2211"]
+[BlackElo "2360"]
+[PlyCount "128"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+[EventCountry "AND"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. O-O f6 6. d4 exd4 7. Nxd4 c5 8.
+Ne2 Qxd1 9. Rxd1 Bd7 10. Nbc3 O-O-O 11. Be3 Re8 12. Rd2 Bc6 13. Rad1 b6 14. f3
+Ne7 15. Nf4 Ng6 16. Nxg6 hxg6 17. Bf4 Be7 18. Nd5 Bd8 19. Bg3 f5 20. e5 g5 21.
+Re1 Rh6 22. c4 f4 23. Bf2 Bd7 24. b3 Bf5 25. g4 Bd7 26. Kg2 Be6 27. Nc3 Bg8 28.
+Bg1 Rhe6 29. Rde2 Bh7 30. h3 Bd3 31. Rd2 Bg6 32. Rde2 Kb8 33. Bh2 Rh8 34. Nd5
+c6 35. Nxf4 gxf4 36. Bxf4 Rf8 37. Bg3 Bg5 38. f4 Rxf4 39. Bxf4 Bxf4 40. Kf3 Bg5
+41. Kg3 Bd3 42. Rf2 Be7 43. Re3 Bg6 44. h4 Be8 45. g5 Kc7 46. Rd2 g6 47. Kg4
+Bf8 48. Kf4 Bg7 49. Rd1 Bf7 50. h5 gxh5 51. Kf5 b5 52. g6 Bg8 53. Re4 bxc4 54.
+bxc4 h4 55. Rh1 Re8 56. e6 Kd6 57. Rd1+ Bd4 58. Rdxd4+ cxd4 59. Rxd4+ Kc5 60.
+Re4 h3 61. g7 Bh7+ 62. Kf6 Bxe4 63. Kf7 Ra8 64. e7 Bh7 0-1
+
+[Event "Andorra op"]
+[Site "Andorra"]
+[Date "2009.07.24"]
+[Round "7.19"]
+[White "Deshpande, A."]
+[Black "Demuth, A."]
+[Result "0-1"]
+[ECO "B59"]
+[WhiteElo "2211"]
+[BlackElo "2339"]
+[PlyCount "80"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+[EventCountry "AND"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Be2 e5 7. Nb3 Be7 8.
+O-O O-O 9. f4 a5 10. a4 Nb4 11. Be3 Qc7 12. Rc1 Be6 13. Bf3 exf4 14. Bxf4 Nxc2
+15. Nd4 Nxd4 16. Qxd4 Qc4 17. Rfd1 Qxd4+ 18. Rxd4 Rfd8 19. Kf1 Rac8 20. Rcd1
+Ne8 21. Nd5 Kf8 22. Bd2 Ra8 23. Nxe7 Kxe7 24. b4 axb4 25. Bxb4 f6 26. a5 Bd7
+27. Kf2 Bc6 28. h4 Kf7 29. g4 Rd7 30. Be2 Re7 31. Bc4+ Kf8 32. Kf3 g6 33. Kf4
+Kg7 34. g5 h6 35. gxf6+ Nxf6 36. Bxd6 g5+ 37. hxg5 hxg5+ 38. Kxg5 Nxe4+ 39.
+Rxe4 Rxe4 40. a6 Rxc4 0-1
+
+[Event "Badalona op"]
+[Site "?"]
+[Date "2009.08.02"]
+[Round "2"]
+[White "Ipatov, A."]
+[Black "Deshpande, A."]
+[Result "1-0"]
+[ECO "D45"]
+[WhiteElo "2454"]
+[BlackElo "2211"]
+[PlyCount "111"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 e6 5. Nc3 Nbd7 6. Qc2 Bd6 7. b3 O-O 8. Be2
+e5 9. cxd5 Nxd5 10. Nxd5 cxd5 11. dxe5 Nxe5 12. Bb2 Bb4+ 13. Kf1 Nxf3 14. Bxf3
+Be6 15. Qd3 Be7 16. Ke2 Bf6 17. Bxf6 Qxf6 18. Qd4 Qxd4 19. exd4 Rfe8 20. Kd2
+Kf8 21. Rhe1 Rac8 22. Rac1 Rc6 23. Rxc6 bxc6 24. Rc1 Rc8 25. Rc5 Ke7 26. Ra5
+Rc7 27. b4 Kd6 28. Bd1 Bc8 29. Bc2 h6 30. f3 Rb7 31. a3 Re7 32. Bd3 Rc7 33. Ke3
+Re7+ 34. Kf2 Rc7 35. g4 Re7 36. Rc5 Rc7 37. h4 Re7 38. Ra5 Rc7 39. Kg3 Re7 40.
+Kf4 g6 41. Ba6 Bd7 42. Bf1 Bc8 43. Bd3 Be6 44. b5 Rb7 45. Ra6 Bd7 46. a4 Rc7
+47. bxc6 Bc8 48. Ra5 f5 49. g5 h5 50. Rc5 Be6 51. Ba6 Bf7 52. Bb7 Be8 53. Ra5
+Bxc6 54. Bxc6 Rxc6 55. Rxa7 Ke6 56. Rg7 1-0
+
+[Event "Badalona op"]
+[Site "?"]
+[Date "2009.08.04"]
+[Round "4"]
+[White "Deshpande, A."]
+[Black "Cruz Sanchez, C."]
+[Result "0-1"]
+[ECO "C12"]
+[WhiteElo "2211"]
+[BlackElo "2525"]
+[PlyCount "70"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Bb4 5. e5 h6 6. Bd2 Bxc3 7. bxc3 Ne4 8. Bd3
+Nxd2 9. Qxd2 c5 10. f4 Qa5 11. Nf3 Nc6 12. dxc5 Qxc5 13. Nd4 Bd7 14. Nb3 Qb6
+15. Qf2 Qxf2+ 16. Kxf2 Rc8 17. Ke3 Ke7 18. Rab1 Rc7 19. Nd4 Na5 20. Ne2 f6 21.
+exf6+ gxf6 22. Rhf1 Rg8 23. g3 Rgc8 24. Kd2 Rc5 25. Rbe1 Kd6 26. Rf3 b5 27. a3
+Nc4+ 28. Bxc4 Rxc4 29. Nd4 a5 30. Rb1 e5 31. fxe5+ fxe5 32. Nxb5+ Kc5 33. Re3
+Bxb5 34. Rxe5 Re8 35. Rh5 Re2+ 0-1
+
+[Event "Barbera op"]
+[Site "?"]
+[Date "2009.07.04"]
+[Round "1"]
+[White "Ipatov, A."]
+[Black "Deshpande, A."]
+[Result "1-0"]
+[ECO "D17"]
+[WhiteElo "2454"]
+[BlackElo "2211"]
+[PlyCount "101"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. Nh4 e6 7. Nxf5 exf5 8. e3
+Bd6 9. Bxc4 O-O 10. Qc2 g6 11. f3 Nbd7 12. O-O Rc8 13. e4 fxe4 14. Nxe4 Nxe4
+15. fxe4 Nb6 16. Ba2 c5 17. Qf2 Kg7 18. a5 Nd7 19. e5 Be7 20. Be3 Bg5 21. Bxf7
+Bxe3 22. Qxe3 Rxf7 23. Rxf7+ Kxf7 24. e6+ Kg8 25. exd7 Qxd7 26. dxc5 Re8 27.
+Qb3+ Qe6 28. Qxe6+ Rxe6 29. Rd1 Re7 30. Kf2 Kf7 31. Rd3 Kf6 32. Rf3+ Kg5 33.
+Re3 Rd7 34. Ke2 Rd5 35. b4 Rd4 36. b5 Rb4 37. b6 axb6 38. axb6 Rc4 39. Re7 Rxc5
+40. Rxh7 Kg4 41. Kd3 Rd5+ 42. Ke4 Rd2 43. Rxb7 Rxg2 44. Rh7 Rb2 45. b7 Rb5 46.
+Kd4 g5 47. Kc4 Rb2 48. Kc5 Kf3 49. Kc6 g4 50. Rh5 Rc2+ 51. Rc5 1-0
+
+[Event "Barbera op"]
+[Site "?"]
+[Date "2009.07.05"]
+[Round "2"]
+[White "Deshpande, A."]
+[Black "Brookes, C."]
+[Result "1-0"]
+[ECO "B79"]
+[WhiteElo "2211"]
+[BlackElo "2046"]
+[PlyCount "117"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 Nc6 8. Qd2
+O-O 9. Bc4 Bd7 10. O-O-O Qa5 11. h4 Ne5 12. Bb3 Rfc8 13. h5 Nxh5 14. Bh6 Bxh6
+15. Qxh6 Rxc3 16. bxc3 Qxc3 17. Kb1 Rc8 18. Rxh5 gxh5 19. Qg5+ Ng6 20. Qxh5 Rc5
+21. Qh6 a5 22. Rh1 e6 23. Nf5 a4 24. Qxh7+ Kf8 25. Nxd6 Ne5 26. Nxb7 Rc8 27.
+Qh6+ Ke7 28. Qg5+ f6 29. Rh7+ Nf7 30. Rxf7+ Kxf7 31. Nd6+ Ke7 32. Nxc8+ Qxc8
+33. Qg7+ Kd6 34. Qxf6 axb3 35. axb3 Qa6 36. g4 Qf1+ 37. Kb2 Qg2 38. g5 Be8 39.
+Qd4+ Ke7 40. f4 Qg4 41. Qe5 Qh5 42. f5 Qxg5 43. Qxe6+ Kf8 44. e5 Qg7 45. Qd6+
+Qe7 46. Qd4 Qf7 47. Qb4+ Kg8 48. Qf4 Bd7 49. e6 Qf6+ 50. c3 Be8 51. b4 Kg7 52.
+Kb3 Bh5 53. Qc7+ Kf8 54. Qc8+ Kg7 55. Qd7+ Kf8 56. b5 Be8 57. Qd6+ Qe7 58. Qe5
+Qb7 59. Qh8+ 1-0
+
+[Event "Barbera op"]
+[Site "?"]
+[Date "2009.07.06"]
+[Round "3"]
+[White "Bregadze, L."]
+[Black "Deshpande, A."]
+[Result "1-0"]
+[ECO "D30"]
+[WhiteElo "2426"]
+[BlackElo "2211"]
+[PlyCount "83"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 c6 3. e3 Nf6 4. Nf3 e6 5. Nbd2 Be7 6. Bd3 Nbd7 7. O-O O-O 8. b3
+b6 9. Bb2 Bb7 10. Qe2 dxc4 11. Nxc4 c5 12. Rfd1 Rc8 13. Rac1 Nd5 14. Bb1 b5 15.
+Nce5 Nxe5 16. Nxe5 Qe8 17. dxc5 Bxc5 18. e4 Nf6 19. Nd3 Nxe4 20. Nxc5 Nxc5 21.
+Bd4 Qe7 22. Bxh7+ Kxh7 23. Qh5+ Kg8 24. Bxc5 Qc7 25. Rd4 f6 26. b4 Qf7 27. Qd1
+Qg6 28. f3 Rfe8 29. Rc3 Bd5 30. a3 a6 31. h3 Red8 32. Re3 Qf7 33. Red3 Re8 34.
+Qe1 Rcd8 35. Rd2 Qg6 36. Rg4 Qf7 37. Be3 f5 38. Rg5 e5 39. Qh4 f4 40. Bb6 Rd6
+41. Bc5 Rh6 42. Qxh6 1-0
+
+[Event "Barbera op"]
+[Site "?"]
+[Date "2009.07.07"]
+[Round "4"]
+[White "Deshpande, A."]
+[Black "Castro Exposito, C."]
+[Result "1-0"]
+[ECO "E07"]
+[WhiteElo "2211"]
+[BlackElo "2027"]
+[PlyCount "53"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. g3 Be7 5. Bg2 O-O 6. O-O Nbd7 7. Nc3 b6 8. cxd5
+Nxd5 9. e4 Nxc3 10. bxc3 Bb7 11. Qe2 c5 12. Rd1 cxd4 13. cxd4 Rc8 14. Bb2 Qc7
+15. d5 exd5 16. exd5 Bf6 17. Nd4 Qc4 18. Qxc4 Rxc4 19. Rab1 h6 20. Nb5 Rc2 21.
+Bxf6 Nxf6 22. Nxa7 Rxa2 23. Nc6 Nd7 24. Bh3 Nf6 25. Rxb6 Ne4 26. Bg2 Nxf2 27.
+Ne7+ 1-0
+
+[Event "Barbera op"]
+[Site "?"]
+[Date "2009.07.08"]
+[Round "5"]
+[White "Deshpande, A."]
+[Black "Orzech, D."]
+[Result "1-0"]
+[ECO "B29"]
+[WhiteElo "2211"]
+[BlackElo "2466"]
+[PlyCount "87"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 Nf6 3. Nc3 Nc6 4. d4 d5 5. exd5 Nxd5 6. Bc4 Nxc3 7. bxc3 e6 8.
+O-O Be7 9. Bd3 O-O 10. Ne5 Nxe5 11. dxe5 Bd7 12. Qg4 Qc7 13. Qe4 g6 14. Bh6
+Rfd8 15. c4 Bc6 16. Qe2 Rd4 17. f4 Qd7 18. g4 Kh8 19. h3 a6 20. a4 Rd8 21. a5
+Qc7 22. Qe3 b5 23. axb6 Qxb6 24. Rfb1 Qa7 25. Kh2 a5 26. f5 exf5 27. gxf5 Qc7
+28. fxg6 Bf6 29. Re1 fxg6 30. Kg1 Bh4 31. Rf1 Qe7 32. e6 Bf6 33. Rxf6 Qxf6 34.
+Rf1 Rxd3 35. cxd3 Qb2 36. Qf2 Qxf2+ 37. Rxf2 Rg8 38. e7 a4 39. Rf8 a3 40. Bg5
+h5 41. h4 a2 42. Bf6+ Kh7 43. Rf7+ Kh6 44. Bg5# 1-0
+
+[Event "Barbera op"]
+[Site "?"]
+[Date "2009.07.09"]
+[Round "6"]
+[White "Rojas Keim, L."]
+[Black "Deshpande, A."]
+[Result "0-1"]
+[ECO "D00"]
+[WhiteElo "2453"]
+[BlackElo "2211"]
+[PlyCount "88"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. d4 d5 2. Bg5 Nf6 3. Bxf6 exf6 4. e3 Bf5 5. Bd3 Bxd3 6. Qxd3 c6 7. Nc3 Bb4 8.
+Nge2 O-O 9. O-O Nd7 10. Nd1 Qe7 11. c4 dxc4 12. Qxc4 f5 13. Ndc3 g6 14. a3 Bd6
+15. b4 a6 16. Rab1 Rfc8 17. Qd3 b5 18. e4 fxe4 19. Nxe4 Nb6 20. N2c3 a5 21.
+Rfe1 axb4 22. Nxd6 Qxd6 23. Ne4 Qf4 24. axb4 Re8 25. g3 Qf5 26. Kg2 Kg7 27.
+Rbc1 Nc4 28. d5 Qxd5 29. Qc3+ Qe5 30. Qf3 Ra3 31. Nf6 Rxf3 32. Nxe8+ Kf8 33.
+Rxe5 Nxe5 34. Nc7 Rxf2+ 35. Kxf2 Nd3+ 36. Ke3 Nxc1 37. Kd2 Na2 38. Na6 Ke7 39.
+Kc2 Kd6 40. Kb2 Nxb4 41. Nxb4 c5 42. Na6 f5 43. Kc3 g5 44. Kd3 f4 0-1
+
+[Event "Barbera op"]
+[Site "?"]
+[Date "2009.07.10"]
+[Round "7"]
+[White "Deshpande, A."]
+[Black "Cruz Sanchez, C."]
+[Result "0-1"]
+[ECO "B85"]
+[WhiteElo "2211"]
+[BlackElo "2525"]
+[PlyCount "88"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e6 5. Nc3 Qc7 6. Be2 a6 7. O-O Nf6 8.
+Be3 Be7 9. Kh1 O-O 10. f4 d6 11. Qe1 Nxd4 12. Bxd4 b5 13. a3 Bb7 14. Qg3 Bc6
+15. Bd3 Qb7 16. b4 Rac8 17. Rae1 Rfd8 18. Qh3 g6 19. Re2 Rd7 20. e5 dxe5 21.
+Bxe5 Rdd8 22. Qh6 Bf8 23. Qh4 Nd7 24. Be4 Nxe5 25. fxe5 Qe7 26. Qf4 Be8 27. Nd1
+Bg7 28. Bd3 Rd5 29. Nf2 Qc7 30. Ng4 f5 31. exf6 Qxf4 32. Rxf4 Rxd3 33. Re1 Rxc2
+34. fxg7 Bc6 35. Rf2 Rxf2 36. Nxf2 Rxa3 37. h3 Bd5 38. Rb1 Rg3 39. Rg1 Kxg7 40.
+Kh2 Rb3 41. Ra1 Rxb4 42. Rxa6 h5 43. Nd3 Rd4 44. Nc5 Kf6 0-1
+
+[Event "Barbera op"]
+[Site "?"]
+[Date "2009.07.11"]
+[Round "8"]
+[White "Lorenzo de la Riva, L."]
+[Black "Deshpande, A."]
+[Result "1-0"]
+[ECO "B70"]
+[WhiteElo "2331"]
+[BlackElo "2211"]
+[PlyCount "69"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. e4 c5 2. Ne2 Nc6 3. d4 cxd4 4. Nxd4 g6 5. Nc3 Bg7 6. Nde2 Nf6 7. g3 d6 8.
+Bg2 O-O 9. O-O Ne5 10. h3 Bd7 11. Kh2 Bc6 12. f4 Ned7 13. g4 Nc5 14. Ng3 h6 15.
+h4 Nfd7 16. g5 hxg5 17. hxg5 b5 18. Nd5 Bxd5 19. exd5 b4 20. Be3 Bxb2 21. Rb1
+Bg7 22. Bd4 f5 23. gxf6 Bxf6 24. Bh3 Rf7 25. Rg1 Rh7 26. Nh5 Kf7 27. Be6+ Nxe6
+28. dxe6+ Kf8 29. Rxg6 Bxd4 30. Kg3 Nf6 31. Nxf6 Bxf6 32. Qg4 Rg7 33. Rxg7 Bxg7
+34. Qf5+ Bf6 35. Rh1 1-0
+
+[Event "Barbera op"]
+[Site "?"]
+[Date "2009.07.12"]
+[Round "9"]
+[White "Deshpande, A."]
+[Black "Guramishvili, S."]
+[Result "1/2-1/2"]
+[ECO "B90"]
+[WhiteElo "2211"]
+[BlackElo "2339"]
+[PlyCount "127"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nb3 Be6 8. Qd2
+Nbd7 9. f4 b5 10. O-O-O Be7 11. f5 Bc4 12. Kb1 a5 13. Bxc4 bxc4 14. Nc1 Rb8 15.
+g4 Qc7 16. Qg2 Qb7 17. b3 cxb3 18. axb3 Rc8 19. Nd5 Nxd5 20. exd5 a4 21. g5
+axb3 22. cxb3 Rc3 23. Rhe1 O-O 24. f6 Bd8 25. fxg7 Re8 26. Bd4 Rxc1+ 27. Rxc1
+Qxb3+ 28. Bb2 Bb6 29. Qc2 Qxd5 30. Red1 Qe6 31. Qc4 Qg6+ 32. Qd3 Bc5 33. Qxg6
+hxg6 34. Rxc5 Nxc5 35. Rxd6 Ne4 36. Rd5 Nxg5 37. Rxe5 Rxe5 38. Bxe5 Nf3 39. Bb8
+Kxg7 40. Kc2 Kf6 41. Kd3 Kf5 42. Ke3 Ne5 43. Bc7 g5 44. Kd4 Ng4 45. Bb8 f6 46.
+Bc7 Ke6 47. Ke4 f5+ 48. Kf3 Ne5+ 49. Ke3 Kd5 50. h3 f4+ 51. Kf2 Ke4 52. Bd8 Kf5
+53. Bc7 Nc6 54. Kf3 Nd4+ 55. Kf2 Ne6 56. Bd6 Kg6 57. Kf3 Kh5 58. Be5 Kh4 59.
+Bf6 Nc5 60. Be7 Nb3 61. Kf2 Nd2 62. Bd8 Ne4+ 63. Kf3 Nd6 64. Bc7 1/2-1/2
+
+[Event "Sort op"]
+[Site "?"]
+[Date "2009.06.25"]
+[Round "2"]
+[White "Deshpande, A."]
+[Black "Roeder, M."]
+[Result "1/2-1/2"]
+[ECO "B53"]
+[WhiteElo "2211"]
+[BlackElo "2426"]
+[PlyCount "150"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Qxd4 a6 5. c4 Nc6 6. Qd2 g6 7. Nc3 Bh6 8. Qc2
+Bg7 9. Be2 Nf6 10. O-O Bg4 11. Be3 Nd7 12. Rad1 Bxf3 13. Bxf3 Rc8 14. Be2 Qa5
+15. Qb3 Nc5 16. Bxc5 dxc5 17. Qxb7 O-O 18. Nd5 e6 19. Bg4 Kh8 20. Nb6 Rb8 21.
+Qxc6 Rxb6 22. Qc7 Rb5 23. Rd7 Qxc7 24. Rxc7 Rxb2 25. Rxc5 Bd4 26. Ra5 Rc8 27.
+Rxa6 Rxc4 28. g3 Rcc2 29. Kg2 f5 30. exf5 exf5 31. Bd1 Rxf2+ 32. Rxf2 Rxf2+ 33.
+Kh3 Rd2 34. Bb3 Bg1 35. g4 Rxh2+ 36. Kg3 fxg4 37. Kxg4 Kg7 38. Rc6 h5+ 39. Kf4
+Rg2 40. Bc2 Rg4+ 41. Kf3 g5 42. Rg6+ Kf7 43. Rh6 Rf4+ 44. Kg2 Bd4 45. Bb3+ Kg7
+46. Rxh5 Kg6 47. Rh1 Rf2+ 48. Kg3 Rb2 49. Rd1 Be5+ 50. Kg4 Rf2 51. Rc1 Rf4+ 52.
+Kh3 g4+ 53. Kg2 Kg5 54. Rc5 Re4 55. Rc2 Re3 56. Be6 Bf4 57. Bd5 Kh4 58. a4 Re1
+59. Kf2 Rd1 60. Bc6 Ra1 61. Ke2 Ra3 62. Rc4 Kg3 63. Rd4 Re3+ 64. Kd1 Rc3 65.
+Bb7 Rc7 66. Ba8 Bg5 67. Ke2 Kh3 68. Bd5 g3 69. Rd1 Rc2+ 70. Kd3 Rc7 71. Rh1+
+Kg4 72. Ra1 Bf6 73. Ra2 Kf4 74. a5 Rc3+ 75. Ke2 Bd4 1/2-1/2
+
+[Event "Sort op"]
+[Site "?"]
+[Date "2009.06.26"]
+[Round "3"]
+[White "Debashis, D."]
+[Black "Deshpande, A."]
+[Result "1-0"]
+[ECO "B81"]
+[WhiteElo "2352"]
+[BlackElo "2211"]
+[PlyCount "73"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e6 6. g4 h6 7. h4 Nc6 8. Nb3
+a6 9. Bg2 Ne5 10. g5 hxg5 11. Bxg5 Qc7 12. Qe2 Bd7 13. O-O-O Rc8 14. Rhe1 b5
+15. f4 Nc4 16. Rd3 b4 17. Nd5 exd5 18. exd5+ Kd8 19. Nd4 Qa5 20. Kb1 Kc7 21. c3
+Re8 22. Qf2 Ng4 23. Qg1 Rb8 24. Nb3 Qb5 25. Rd4 bxc3 26. bxc3 Na3+ 27. Kc1 f6
+28. Rb4 Qxb4 29. cxb4 fxg5 30. Na5 Nb5 31. a4 Rc8 32. axb5 Bxb5 33. Qa7+ Kd8+
+34. Nc6+ Bxc6 35. dxc6 Rc7 36. Qb8+ Rc8 37. c7+ 1-0
+
+[Event "Sort op"]
+[Site "?"]
+[Date "2009.06.27"]
+[Round "4"]
+[White "Deshpande, A."]
+[Black "Bharathi, R."]
+[Result "1-0"]
+[ECO "D30"]
+[WhiteElo "2211"]
+[BlackElo "2081"]
+[PlyCount "85"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 e6 4. g3 c5 5. Bg2 Nc6 6. cxd5 exd5 7. O-O h6 8. Nc3
+Be7 9. Bf4 O-O 10. dxc5 Bxc5 11. Rc1 Be6 12. Na4 Bb6 13. a3 d4 14. Ne5 Bd5 15.
+Nxb6 Bxg2 16. Kxg2 Qxb6 17. Nxc6 bxc6 18. Be5 c5 19. Bxf6 gxf6 20. Qd3 Rfd8 21.
+Rc2 Rac8 22. Rfc1 a5 23. Qf5 Qc6+ 24. Kg1 Rd5 25. Qf4 Kg7 26. Qg4+ Rg5 27. Qxd4
+cxd4 28. Rxc6 Rxc6 29. Rxc6 Rb5 30. Rc2 Kg6 31. Rd2 h5 32. h4 f5 33. Kg2 Kf6
+34. Rxd4 Rxb2 35. Rd6+ Ke5 36. Ra6 Rb5 37. e3 Rc5 38. Kf3 Rb5 39. Rc6 Rd5 40.
+a4 f6 41. Ke2 Ke4 42. f3+ Ke5 43. f4+ 1-0
+
+[Event "Sort op"]
+[Site "?"]
+[Date "2009.06.28"]
+[Round "5"]
+[White "Saranya, J."]
+[Black "Deshpande, A."]
+[Result "0-1"]
+[ECO "B31"]
+[WhiteElo "1981"]
+[BlackElo "2211"]
+[PlyCount "110"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. Bxc6 dxc6 5. d3 Bg7 6. h3 Nf6 7. O-O O-O 8.
+Nc3 b6 9. Re1 Ne8 10. e5 Be6 11. Ng5 Nc7 12. f4 h6 13. Nge4 Qd7 14. Qf3 Rad8
+15. Be3 Nd5 16. Bf2 Nxc3 17. bxc3 c4 18. d4 Bd5 19. g4 f5 20. exf6 exf6 21. f5
+g5 22. Re3 Rfe8 23. Rae1 Kf7 24. Qd1 Bf8 25. Ng3 Rxe3 26. Rxe3 Bd6 27. Nf1 Re8
+28. Rxe8 Qxe8 29. Ne3 Bf4 30. Nxd5 cxd5 31. Qb1 h5 32. gxh5 Kg7 33. Qb4 Kh6 34.
+Qa3 a5 35. Qb2 Bc7 36. Qc1 Qd7 37. Qe1 Qd6 38. Qe8 Qh2+ 39. Kf1 Qxh3+ 40. Ke1
+Qh1+ 41. Kd2 Bf4+ 42. Be3 Bxe3+ 43. Qxe3 Qh2+ 44. Ke1 Qh4+ 45. Kd1 Qg4+ 46. Ke1
+Qxf5 47. Qe8 g4 48. Qh8+ Kg5 49. h6 Qe4+ 50. Kd2 Qf4+ 51. Kd1 Qf1+ 52. Kd2 Qg2+
+53. Ke3 Qh3+ 54. Kf2 Qxh6 55. Qg8+ Qg6 0-1
+
+[Event "Sort op"]
+[Site "?"]
+[Date "2009.06.29"]
+[Round "6"]
+[White "Deshpande, A."]
+[Black "Priyadharshan, K."]
+[Result "1/2-1/2"]
+[ECO "B33"]
+[WhiteElo "2211"]
+[BlackElo "2411"]
+[PlyCount "81"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Qb6 5. Nb3 Nf6 6. Nc3 e6 7. Bd3 a6 8.
+O-O d6 9. a4 Qc7 10. a5 Nd7 11. f4 Be7 12. Be3 O-O 13. Na4 Re8 14. Qf3 Nb4 15.
+Nb6 Nxb6 16. Bxb6 Qb8 17. Rad1 Bd7 18. c3 Nxd3 19. Qxd3 d5 20. exd5 exd5 21.
+Nd4 Bf6 22. Qf3 Qd6 23. Nc2 Bc6 24. Nb4 Qe6 25. Nxd5 Bd8 26. f5 Bxb6+ 27. axb6
+Qe5 28. f6 g6 29. Qh3 Bxd5 30. Qh6 Qe3+ 31. Qxe3 Rxe3 32. Rxd5 Re6 33. Rd7 Rxb6
+34. b4 h5 35. Rc7 Re8 36. h3 Ree6 37. Rc8+ Kh7 38. Rf8 Rxf6 39. Rxf7+ Rxf7 40.
+Rxf7+ Kh6 41. Rc7 1/2-1/2
+
+[Event "Sort op"]
+[Site "?"]
+[Date "2009.06.30"]
+[Round "7"]
+[White "Burmakin, V."]
+[Black "Deshpande, A."]
+[Result "1-0"]
+[ECO "A11"]
+[WhiteElo "2605"]
+[BlackElo "2211"]
+[PlyCount "65"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. Nf3 Nf6 2. g3 d5 3. Bg2 g6 4. b3 Bg7 5. Bb2 O-O 6. c4 c6 7. O-O Bf5 8. d3
+Re8 9. Nbd2 Na6 10. a3 b5 11. cxb5 cxb5 12. b4 Rc8 13. Nb3 Bd7 14. Qd2 Ng4 15.
+Bxg7 Kxg7 16. Qb2+ Nf6 17. Ne5 e6 18. Rfc1 Rc7 19. Qd4 h5 20. h3 Kg8 21. Rxc7
+Qxc7 22. Rc1 Qb6 23. Qxb6 axb6 24. Nxd7 Nxd7 25. Nd4 Kf8 26. Nxb5 Ke7 27. f4
+Rd8 28. Kf2 f5 29. Rc2 h4 30. gxh4 Rh8 31. Kg3 Nf6 32. Rc6 Rb8 33. Nd4 1-0
+
+[Event "Sort op"]
+[Site "?"]
+[Date "2009.07.01"]
+[Round "8"]
+[White "Deshpande, A."]
+[Black "Colovic, A."]
+[Result "0-1"]
+[ECO "B40"]
+[WhiteElo "2211"]
+[BlackElo "2443"]
+[PlyCount "60"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nf6 5. Bd3 Nc6 6. Nxc6 bxc6 7. O-O d5 8.
+e5 Nd7 9. f4 Be7 10. c3 Qb6+ 11. Kh1 Ba6 12. Bxa6 Qxa6 13. Be3 Rb8 14. b4 c5
+15. bxc5 Nxc5 16. Nd2 O-O 17. Bd4 Rfc8 18. Rb1 Qd3 19. Rxb8 Rxb8 20. Nb3 Qc4
+21. Qf3 g6 22. h3 Nxb3 23. axb3 Rxb3 24. Ra1 Bc5 25. Qf2 Qxc3 26. Rd1 Bxd4 27.
+Qxd4 Qxd4 28. Rxd4 a5 29. Ra4 Rb4 30. Rxa5 Rxf4 0-1
+
+[Event "Sort op"]
+[Site "?"]
+[Date "2009.07.02"]
+[Round "9"]
+[White "Abhishek, K."]
+[Black "Deshpande, A."]
+[Result "1/2-1/2"]
+[ECO "A30"]
+[WhiteElo "2178"]
+[BlackElo "2211"]
+[PlyCount "21"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. Nf3 c5 2. c4 Nc6 3. g3 g6 4. Bg2 Bg7 5. d3 e5 6. Nc3 Nge7 7. Be3 d6 8. Qd2
+Nf5 9. Nd5 Nxe3 10. fxe3 Ne7 11. e4 1/2-1/2
+
+[Event "Barbera op"]
+[Site "?"]
+[Date "2011.07.04"]
+[Round "1"]
+[White "Deshpande, A."]
+[Black "Ibarra Jerez, JC."]
+[Result "0-1"]
+[ECO "B22"]
+[WhiteElo "2228"]
+[BlackElo "2530"]
+[PlyCount "68"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.07.29"]
+
+1. e4 c5 2. c3 Nf6 3. e5 Nd5 4. d4 cxd4 5. cxd4 d6 6. Nf3 e6 7. Nc3 Nxc3 8.
+bxc3 Qc7 9. Bd2 Nd7 10. Qa4 Be7 11. Bd3 O-O 12. exd6 Bxd6 13. O-O b6 14. d5
+exd5 15. Qh4 f5 16. Ng5 Nf6 17. Rfe1 h6 18. Ne6 Bxe6 19. Rxe6 Ne4 20. Bxh6 Kf7
+21. Bxe4 Kxe6 22. Bf3 gxh6 23. Qxh6+ Kd7 24. Qg7+ Kc8 25. Qd4 Qc5 26. Qa4 Kc7
+27. c4 Bxh2+ 28. Kf1 Qxc4+ 29. Qxc4+ dxc4 30. Bxa8 Rxa8 31. g3 f4 32. Kg2 fxg3
+33. fxg3 Bxg3 34. Kxg3 Rf8 0-1
+
+[Event "Barbera op"]
+[Site "?"]
+[Date "2011.07.05"]
+[Round "2"]
+[White "Sanchez Dengra, JM."]
+[Black "Deshpande, A."]
+[Result "0-1"]
+[ECO "B35"]
+[WhiteElo "1986"]
+[BlackElo "2228"]
+[PlyCount "69"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.07.29"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. Nc3 Bg7 6. Be3 Nf6 7. Bc4 O-O 8.
+Bb3 a5 9. f3 d5 10. Bxd5 Nxd5 11. Nxd5 f5 12. Nxc6 bxc6 13. Nb6 Rb8 14. Qxd8
+Rxd8 15. Nxc8 Rdxc8 16. Rb1 fxe4 17. fxe4 Bxb2 18. Ke2 Be5 19. g3 Kf7 20. Bf4
+Ke6 21. Ke3 Rb5 22. c4 Rb4 23. Rxb4 axb4 24. Bxe5 Kxe5 25. Rb1 c5 26. Rd1 e6
+27. Rd7 Ra8 28. Rxh7 Ra3+ 29. Kd2 Rxa2+ 30. Kd3 Ra3+ 31. Kd2 Kd4 32. Re7 Ra2+
+33. Kc1 Kc3 34. Kb1 Rxh2 35. Rd7 0-1
+
+[Event "Barbera op"]
+[Site "?"]
+[Date "2011.07.06"]
+[Round "3"]
+[White "Leon Hoyos, M."]
+[Black "Deshpande, A."]
+[Result "1-0"]
+[ECO "D35"]
+[WhiteElo "2548"]
+[BlackElo "2228"]
+[PlyCount "83"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.07.29"]
+
+1. c4 Nf6 2. Nc3 e6 3. d4 d5 4. cxd5 exd5 5. Bg5 Be7 6. e3 c6 7. Bd3 h6 8. Bh4
+Ne4 9. Bxe7 Qxe7 10. Nge2 Bf5 11. Bxe4 Bxe4 12. Nxe4 Qxe4 13. O-O Nd7 14. b4
+O-O 15. b5 cxb5 16. Nc3 Qe6 17. Qb3 Nb6 18. Qxb5 Rfc8 19. Ne2 Qc6 20. Qb1 Qc2
+21. Nf4 Qxb1 22. Rfxb1 Rc7 23. a4 Rd8 24. g4 Rd6 25. Rb5 Rcd7 26. Rc5 Kh7 27.
+Ra2 g5 28. Nd3 Nc4 29. a5 b6 30. axb6 Rxb6 31. Rc8 a5 32. Ra8 Rbb7 33. Nc5 Rb1+
+34. Kg2 Rd6 35. Ra7 Kg6 36. Nb7 Rdb6 37. Nxa5 Nd6 38. Rc7 Kf6 39. Nc6 Rc1 40.
+Nb4 Rxc7 41. Nxd5+ Kg6 42. Nxc7 1-0
+
+[Event "Barbera op"]
+[Site "?"]
+[Date "2011.07.07"]
+[Round "4"]
+[White "Deshpande, A."]
+[Black "Van der Veen, R."]
+[Result "1-0"]
+[ECO "B19"]
+[WhiteElo "2228"]
+[BlackElo "2034"]
+[PlyCount "77"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.07.29"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. h4 h6 7. Nf3 Nf6 8. h5
+Bh7 9. Bd3 Bxd3 10. Qxd3 e6 11. Bd2 Nbd7 12. O-O-O Bd6 13. Ne4 Nxe4 14. Qxe4
+Nf6 15. Qe2 Qc7 16. Kb1 Bf4 17. Be1 O-O-O 18. g3 Bd6 19. c4 Rhe8 20. Bc3 Re7
+21. c5 Red7 22. cxd6 Rxd6 23. Ne5 Nd5 24. Qf3 f6 25. Nc4 R6d7 26. Rhe1 b5 27.
+Ba5 Qb7 28. Bxd8 bxc4 29. Ba5 Qb5 30. Bc3 a5 31. Ka1 a4 32. a3 Qb3 33. Rxe6 Rc7
+34. Rc1 Nb4 35. Re8+ Kd7 36. Qf5+ Kxe8 37. Bxb4 Rf7 38. Qe6+ Re7 39. Qxe7# 1-0
+
+[Event "Barbera op"]
+[Site "?"]
+[Date "2011.07.08"]
+[Round "5"]
+[White "Deshpande, A."]
+[Black "Perpinya Rofes, LM."]
+[Result "0-1"]
+[ECO "B22"]
+[WhiteElo "2228"]
+[BlackElo "2395"]
+[PlyCount "82"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.07.29"]
+
+1. e4 c5 2. c3 Nf6 3. e5 Nd5 4. d4 cxd4 5. Nf3 Nc6 6. cxd4 d6 7. Bc4 Nb6 8. Bb5
+dxe5 9. Nxe5 Bd7 10. Bxc6 Bxc6 11. Nxc6 bxc6 12. O-O g6 13. Re1 Bg7 14. Bg5 Nc8
+15. Be3 O-O 16. Na3 Rb8 17. Nc4 Nb6 18. Ne5 Qd5 19. Rc1 Qxa2 20. Nxc6 Rb7 21.
+Bg5 e6 22. Be7 Rc8 23. Ba3 Nd5 24. Qa4 h5 25. Rc4 Nb6 26. Ne7+ Kh7 27. Qa6 Qxc4
+28. Qxb7 Qe2 29. Rf1 Rc2 30. Bc5 Nc4 31. Qa8 Nd2 32. Ra1 Qc4 33. h4 Rc1+ 34.
+Rxc1 Qxc1+ 35. Kh2 Nf1+ 36. Kh3 Qf4 37. g3 Qxf2 38. Qg2 Qe1 39. Qg1 Qe2 40. d5
+Qg4+ 41. Kg2 Nxg3 0-1
+
+[Event "Barbera op"]
+[Site "?"]
+[Date "2011.07.09"]
+[Round "6"]
+[White "Dalo, H."]
+[Black "Deshpande, A."]
+[Result "0-1"]
+[ECO "B36"]
+[WhiteElo "2049"]
+[BlackElo "2228"]
+[PlyCount "76"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.07.29"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. c4 Nf6 6. Nc3 d6 7. Be3 Ng4 8. Qd2
+Nxe3 9. Qxe3 Bg7 10. Nc2 Qa5 11. Be2 Bxc3+ 12. bxc3 O-O 13. O-O b6 14. Nd4 Qc5
+15. Nxc6 Qxc6 16. e5 Rb8 17. exd6 Qxd6 18. Rfe1 Be6 19. Bf1 Rfd8 20. Qg5 Rbc8
+21. Re4 Rc5 22. Qe3 Qc7 23. Re1 Rd7 24. h3 Bxc4 25. Bxc4 Rxc4 26. Rxe7 Rxe7 27.
+Qxe7 Rxc3 28. Qf6 Rc1 29. Rxc1 Qxc1+ 30. Kh2 Qd2 31. a3 h5 32. a4 Qd7 33. Qf4
+Kh7 34. g3 a6 35. Qf6 b5 36. a5 Qe6 37. Qd4 Qc4 38. Qb6 b4 0-1
+
+[Event "Barbera op"]
+[Site "?"]
+[Date "2011.07.10"]
+[Round "7"]
+[White "Deshpande, A."]
+[Black "Kashtanov, R."]
+[Result "0-1"]
+[ECO "A46"]
+[WhiteElo "2228"]
+[BlackElo "2360"]
+[PlyCount "178"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.07.29"]
+
+1. d4 Nf6 2. Nf3 e6 3. g3 b5 4. Bg2 Bb7 5. O-O c5 6. c3 Na6 7. Ne5 Bxg2 8. Kxg2
+Qb6 9. a4 b4 10. Bg5 Be7 11. Kg1 cxd4 12. cxd4 h6 13. Bxf6 Bxf6 14. e3 Rc8 15.
+Nd3 O-O 16. Nd2 Rc7 17. Qh5 Rc2 18. Ne4 Be7 19. Rfc1 b3 20. Rxc2 bxc2 21. Rc1
+Qb3 22. Qb5 Qxb5 23. axb5 Nc7 24. Rxc2 Nxb5 25. Ne5 Rd8 26. Rc1 f6 27. Nd3 Kf7
+28. Ra1 Rb8 29. Ra5 Ke8 30. Kg2 Rb6 31. g4 a6 32. Nec5 Nc7 33. h3 d6 34. Ne4
+Rb3 35. Nc3 Kd7 36. Kf3 d5 37. Ke2 Kc8 38. Ra2 Kd7 39. Na4 Kc6 40. Ra1 Rb8 41.
+Rc1+ Kd7 42. Rc2 Bd6 43. f4 Rb5 44. h4 Rb8 45. Rc1 Ke7 46. Nac5 Bxc5 47. Rxc5
+Kd6 48. Ra5 h5 49. g5 Rb3 50. Kd2 Rb8 51. Ra1 Ke7 52. Rc1 Ne8 53. Rc6 a5 54.
+Kc2 Nd6 55. Rc7+ Kf8 56. Nc5 Re8 57. Nd7+ Kg8 58. gxf6 Nf5 59. fxg7 Kxg7 60.
+Ne5+ Kg8 61. Kd3 Nxh4 62. Rc1 Nf5 63. Rg1+ Kh7 64. Rg5 h4 65. e4 dxe4+ 66. Kxe4
+Rb8 67. Nd7 Rd8 68. Nf6+ Kh6 69. d5 Ng3+ 70. Kf3 exd5 71. Nxd5 Nh5 72. Kg4 Rxd5
+73. Kxh4 Nxf4 74. Rg8 Rb5 75. Ra8 Nd3 76. b3 Nc1 77. Ra6+ Kg7 78. Kg4 Nxb3 79.
+Kf3 Nc5 80. Ra7+ Kf6 81. Ke3 Ke5 82. Kd2 Kd4 83. Kc2 Kc4 84. Ra8 a4 85. Ra7 Rb8
+86. Ra5 Rh8 87. Kb2 Kb4 88. Ra7 Rh2+ 89. Kb1 Kb3 0-1
+
+[Event "Montcada op"]
+[Site "?"]
+[Date "2011.06.29"]
+[Round "5"]
+[White "Deshpande, A."]
+[Black "Muñoz Pantoja, M."]
+[Result "0-1"]
+[ECO "A43"]
+[WhiteElo "2209"]
+[BlackElo "2498"]
+[PlyCount "72"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+
+1. d4 c5 2. d5 Nf6 3. Nf3 d6 4. h3 b5 5. e4 a6 6. Nbd2 e6 7. dxe6 fxe6 8. a4 b4
+9. Bd3 Be7 10. e5 dxe5 11. O-O O-O 12. Ng5 h6 13. Nge4 Nd5 14. Nc4 Nc6 15. g3
+Nd4 16. Qg4 Nf5 17. Nxe5 Bf6 18. Ng6 Rf7 19. Nxf6+ Nxf6 20. Qc4 Nd4 21. Ne5 Qc7
+22. f4 Bb7 23. Bg6 Rff8 24. Be3 Bd5 25. Qd3 Nc6 26. Nf3 c4 27. Qe2 Ne7 28. Ne5
+Nf5 29. Kh2 Ne4 30. Bf2 c3 31. b3 Nd2 32. Rfe1 Rad8 33. Be3 Be4 34. Rac1 Rd5
+35. Red1 Rxe5 36. fxe5 Nf3+ 0-1
+
+[Event "Montcada op"]
+[Site "?"]
+[Date "2011.07.02"]
+[Round "8"]
+[White "Hernandez Carmenates, H."]
+[Black "Deshpande, A."]
+[Result "1-0"]
+[ECO "E11"]
+[WhiteElo "2558"]
+[BlackElo "2209"]
+[PlyCount "63"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+
+1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. g3 Bb4+ 5. Bd2 Be7 6. Bg2 O-O 7. O-O b6 8. Nc3
+Bb7 9. Ne5 Nbd7 10. Qa4 Nxe5 11. dxe5 Ne4 12. cxd5 Nxc3 13. Bxc3 exd5 14. Rad1
+c6 15. e4 d4 16. Rxd4 Qc7 17. e6 fxe6 18. Rfd1 Rad8 19. Rxd8 Bxd8 20. Qxa7 Be7
+21. Bh3 Kf7 22. Qa4 Bc8 23. Qd4 Bf6 24. Qd6 Qb7 25. Bxf6 gxf6 26. e5 f5 27. Bg2
+Qa7 28. Bxc6 Qxa2 29. Qc7+ Kg6 30. Qe7 Qb3 31. Be8+ Rxe8 32. Qxe8+ 1-0
+
+[Event "Sitges op"]
+[Site "?"]
+[Date "2011.07.24"]
+[Round "3"]
+[White "Karlsson, L."]
+[Black "Deshpande, A."]
+[Result "1-0"]
+[ECO "A06"]
+[WhiteElo "2482"]
+[BlackElo "2228"]
+[PlyCount "91"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.08.04"]
+
+1. Nf3 d5 2. b3 Bg4 3. Bb2 Nd7 4. g3 Ngf6 5. Bg2 e6 6. O-O Bd6 7. d4 O-O 8. Ne5
+Bf5 9. Nd2 c6 10. Nd3 Re8 11. Nf3 h6 12. c4 a5 13. Nfe5 Be4 14. f3 Bxd3 15.
+exd3 Bxe5 16. dxe5 Nh7 17. f4 Qb6+ 18. Rf2 d4 19. Ba3 c5 20. g4 f6 21. exf6
+Ndxf6 22. Bc1 g6 23. Bd2 h5 24. h3 hxg4 25. hxg4 Re7 26. g5 Ne8 27. Be4 Nf8 28.
+Qf3 Nd6 29. Rh2 Qc7 30. Kg2 Rh7 31. Rxh7 Qxh7 32. a3 Ra7 33. Rh1 Qg7 34. Qg3
+Nf5 35. Bxf5 gxf5 36. Kf2 b6 37. Qf3 Qb7 38. Qd1 Qg7 39. Rh6 Ng6 40. Qh5 Nf8
+41. Qh1 Re7 42. Qc6 e5 43. Qd5+ Rf7 44. fxe5 Ng6 45. e6 Re7 46. Qd8+ 1-0
+
+[Event "Sitges op"]
+[Site "?"]
+[Date "2011.07.26"]
+[Round "5"]
+[White "Asis Gargatagli, H."]
+[Black "Deshpande, A."]
+[Result "1-0"]
+[ECO "C10"]
+[WhiteElo "2431"]
+[BlackElo "2228"]
+[PlyCount "68"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.08.04"]
+
+1. e4 e6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bd7 5. c4 Bc6 6. Nc3 Nf6 7. Nf3 Bxf3 8.
+Qxf3 c6 9. Be3 Nbd7 10. g4 h6 11. h4 Be7 12. O-O-O g6 13. Kb1 Qc7 14. Be2 h5
+15. g5 Ng4 16. Bc1 e5 17. Qg3 O-O-O 18. d5 Bc5 19. Ne4 Bd4 20. Bxg4 hxg4 21.
+Rxd4 exd4 22. Bf4 Qa5 23. Nd6+ Kb8 24. Nxf7+ Ka8 25. Bc7 Qd2 26. Bxd8 Re8 27.
+dxc6 Re1+ 28. Rxe1 Qxe1+ 29. Kc2 Qe2+ 30. Kb3 Nc5+ 31. Ka3 bxc6 32. Qc7 Qf3+
+33. b3 a6 34. Qc8+ Ka7 1-0

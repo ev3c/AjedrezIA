@@ -1,0 +1,262 @@
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.22"]
+[Round "1"]
+[White "Pena Gomez, Manuel"]
+[Black "Gallego Terris, Rafael"]
+[Result "1-0"]
+[ECO "A25"]
+[WhiteElo "2468"]
+[BlackElo "1924"]
+[PlyCount "49"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. g3 g6 2. Bg2 Bg7 3. c4 d6 4. Nc3 Nc6 5. e3 e5 6. Nge2 h5 7. O-O h4 8. d4
+hxg3 9. fxg3 Bh3 10. Bxh3 Rxh3 11. d5 Nb8 12. c5 Nd7 13. cxd6 cxd6 14. Ne4 Nc5
+15. Nxc5 dxc5 16. Qa4+ Ke7 17. Qc4 Qd6 18. Nc3 Nf6 19. Rxf6 Qxf6 20. Ne4 Qf3
+21. Bd2 Rah8 22. Qxc5+ Kd7 23. Qd6+ Ke8 24. Qb8+ Kd7 25. Qxb7+ 1-0
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.23"]
+[Round "2"]
+[White "Schaefer, Reyk"]
+[Black "Pena Gomez, Manuel"]
+[Result "0-1"]
+[ECO "A32"]
+[WhiteElo "2135"]
+[BlackElo "2468"]
+[PlyCount "62"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. Nf3 Nf6 2. c4 e6 3. g3 c5 4. d4 cxd4 5. Nxd4 Nc6 6. Bg2 Qb6 7. Nc2 Be7 8.
+Nc3 O-O 9. O-O Rd8 10. e4 d6 11. b3 a6 12. Be3 Qc7 13. Qe2 Rb8 14. Rac1 Qa5 15.
+Nd4 Bd7 16. Rfd1 b5 17. cxb5 Nxd4 18. Bxd4 axb5 19. e5 dxe5 20. Bxe5 Rbc8 21.
+Ne4 Nxe4 22. Bxe4 Be8 23. Rxc8 Rxc8 24. Bb1 Rd8 25. Rxd8 Qxd8 26. Qc2 g6 27.
+Qd3 Qa5 28. Qe4 Bc5 29. Bf4 Qc3 30. h4 Bc6 31. Qe5 Qf3 0-1
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.24"]
+[Round "3"]
+[White "Pena Gomez, Manuel"]
+[Black "Palacios Herrero, Pablo"]
+[Result "1-0"]
+[ECO "A09"]
+[WhiteElo "2468"]
+[BlackElo "2122"]
+[PlyCount "97"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. g3 d5 2. Bg2 e5 3. c4 d4 4. d3 Nf6 5. Nf3 Nc6 6. O-O Be7 7. e3 O-O 8. exd4
+exd4 9. Na3 Re8 10. Nc2 Bc5 11. a3 a5 12. Rb1 a4 13. Bd2 Ng4 14. Bb4 Ba7 15.
+Nce1 Nxb4 16. axb4 Bd7 17. Nc2 Qf6 18. h3 Ne5 19. Re1 Bxh3 20. Rxe5 Rxe5 21.
+Bxh3 Re7 22. Bg2 Rae8 23. c5 b6 24. Ncxd4 bxc5 25. Qxa4 Bb6 26. Nc6 Re2 27.
+bxc5 Bxc5 28. d4 Bd6 29. Nce5 Rb8 30. b3 Qf5 31. Rf1 h6 32. Qc4 Rc2 33. Nh4
+Rxc4 34. Nxf5 Rc3 35. Bd5 Bxe5 36. dxe5 Rc5 37. f4 Kf8 38. Ne3 Rc3 39. Kf2 Rd8
+40. Bc4 Rd2+ 41. Kf3 g5 42. fxg5 hxg5 43. Ke4 c5 44. Rxf7+ Ke8 45. e6 Rd4+ 46.
+Kf3 g4+ 47. Kf2 Rd2+ 48. Ke1 Rb2 49. Bb5+ 1-0
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.25"]
+[Round "4"]
+[White "Pena Gomez, Manuel"]
+[Black "Zoler, Dan"]
+[Result "1-0"]
+[ECO "A14"]
+[WhiteElo "2468"]
+[BlackElo "2499"]
+[PlyCount "100"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. c4 e6 2. Nf3 Nf6 3. g3 b6 4. Bg2 Bb7 5. O-O Be7 6. b3 O-O 7. e3 c5 8. Qe2 d5
+9. Rd1 Nbd7 10. Bb2 Qc7 11. Nc3 Rac8 12. Rac1 Rfe8 13. cxd5 Nxd5 14. d4 Qb8 15.
+Nxd5 Bxd5 16. Ne1 Bxg2 17. Kxg2 Bf6 18. Nf3 Qb7 19. Kg1 h6 20. dxc5 Bxb2 21. c6
+Rxc6 22. Rxc6 Qxc6 23. Qxb2 Rc8 24. Nd4 Qe4 25. Rc1 Rc5 26. b4 Rxc1+ 27. Qxc1
+Ne5 28. b5 g5 29. h3 Qd5 30. Qc7 Nc4 31. Qc6 Na3 32. Qc8+ Kg7 33. Qc3 e5 34.
+Qxa3 exd4 35. Qb2 f6 36. exd4 h5 37. Qa3 Qd7 38. d5 Kf7 39. Qd3 Ke7 40. Kg2 Kd6
+41. Qc4 Ke7 42. Qc6 f5 43. Qxd7+ Kxd7 44. Kf3 Kd6 45. h4 gxh4 46. gxh4 Kxd5 47.
+Kf4 Ke6 48. Kg5 Ke5 49. f4+ Ke4 50. a3 Kd5 1-0
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.26"]
+[Round "5"]
+[White "Caspi, Israel"]
+[Black "Pena Gomez, Manuel"]
+[Result "0-1"]
+[ECO "C65"]
+[WhiteElo "2487"]
+[BlackElo "2468"]
+[PlyCount "58"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Bc5 5. c3 O-O 6. d4 Bb6 7. Bg5 h6 8. Bh4
+d6 9. Qd3 exd4 10. cxd4 g5 11. Bg3 Re8 12. Re1 d5 13. e5 Ne4 14. Nbd2 Bf5 15.
+Qe3 Nxd2 16. Nxd2 Bxd4 17. Qb3 Bb6 18. Nf3 g4 19. Bxc6 bxc6 20. Bh4 Qb8 21. Bf6
+gxf3 22. Qxf3 Bg6 23. h4 h5 24. Qf4 Kh7 25. g4 Qc8 26. gxh5 Bxh5 27. e6 Rxe6
+28. Kh2 Rxe1 29. Qg5 Qg4 0-1
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.27"]
+[Round "6"]
+[White "Santos Latasa, Jaime"]
+[Black "Pena Gomez, Manuel"]
+[Result "0-1"]
+[ECO "C65"]
+[WhiteElo "2542"]
+[BlackElo "2468"]
+[PlyCount "92"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Bc5 5. Nxe5 Nxe5 6. d4 c6 7. dxe5 Nxe4 8.
+Bd3 d5 9. exd6 Nf6 10. Re1+ Be6 11. Bc4 O-O 12. Bxe6 fxe6 13. Nc3 Qd7 14. Bg5
+Bxf2+ 15. Kxf2 Ne4+ 16. Kg1 Nxg5 17. Qg4 Rf5 18. Rad1 Raf8 19. h4 Nf7 20. Ne4
+Qd8 21. b4 Ne5 22. Qg3 Qb6+ 23. Nc5 Nd7 24. Rxe6 Nxc5 25. bxc5 Qxc5+ 26. Kh2
+Qf2 27. Re7 Qxg3+ 28. Kxg3 R5f7 29. Rxf7 Kxf7 30. Rf1+ Kg8 31. Rxf8+ Kxf8 32.
+Kf4 Ke8 33. Ke5 Kd7 34. g4 b5 35. g5 a5 36. h5 a4 37. h6 gxh6 38. gxh6 b4 39.
+Kf6 Kxd6 40. Kg7 Ke7 41. Kxh7 Kf7 42. Kh8 a3 43. Kh7 c5 44. Kh8 c4 45. h7 Kf8
+46. c3 b3 0-1
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.28"]
+[Round "7"]
+[White "Pena Gomez, Manuel"]
+[Black "Edouard, Romain"]
+[Result "1-0"]
+[ECO "A29"]
+[WhiteElo "2468"]
+[BlackElo "2622"]
+[PlyCount "73"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. g3 g6 5. Bg2 Bg7 6. O-O O-O 7. d4 exd4 8.
+Nxd4 Re8 9. Nxc6 dxc6 10. Qb3 Qe7 11. Bf4 Ng4 12. Rad1 Ne5 13. Ne4 h6 14. Be3
+a5 15. f4 Nd7 16. Bd4 Bxd4+ 17. Rxd4 f5 18. Nf2 Qxe2 19. c5+ Qe6 20. Re1 Qxb3
+21. Rxe8+ Kf7 22. Rxc8 Rxc8 23. axb3 Nxc5 24. Bf1 Ke7 25. b4 axb4 26. Rxb4 Rd8
+27. Rc4 Nb3 28. Rc3 Nd4 29. Kg2 g5 30. Nd3 b6 31. Kf2 Kd6 32. Ne5 Rf8 33. Rd3
+c5 34. Nf3 gxf4 35. gxf4 Kd5 36. Bg2 Ke4 37. Ne5+ 1-0
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.29"]
+[Round "8"]
+[White "Pena Gomez, Manuel"]
+[Black "Jerez Perez, Alfonso"]
+[Result "1/2-1/2"]
+[ECO "A39"]
+[WhiteElo "2468"]
+[BlackElo "2405"]
+[PlyCount "13"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. Nf3 Nf6 2. g3 g6 3. Bg2 Bg7 4. O-O O-O 5. c4 c5 6. Nc3 Nc6 7. d4 1/2-1/2
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.30"]
+[Round "9"]
+[White "Forcen Esteban, Daniel"]
+[Black "Pena Gomez, Manuel"]
+[Result "1-0"]
+[ECO "A70"]
+[WhiteElo "2536"]
+[BlackElo "2468"]
+[PlyCount "137"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 c5 4. d5 exd5 5. cxd5 d6 6. Nc3 g6 7. Bf4 Bg7 8. e4
+O-O 9. Nd2 Re8 10. Be2 Bf8 11. Qc2 Na6 12. O-O Nc7 13. Rfe1 Bg4 14. f3 Bd7 15.
+a4 Nh5 16. Be3 Qf6 17. Nc4 b5 18. axb5 Nxb5 19. Nxb5 Bxb5 20. Qd2 Bxc4 21. Bxc4
+Reb8 22. b3 Qd8 23. Bg5 Be7 24. Bxe7 Qxe7 25. e5 Rd8 26. exd6 Qf6 27. Qe3 Qxd6
+28. Ra6 Qf8 29. Qe7 Re8 30. Qxf8+ Kxf8 31. Rxe8+ Kxe8 32. Bb5+ Kf8 33. Rc6 Rd8
+34. Bc4 Ke7 35. Rxc5 Nf6 36. Ra5 Rd7 37. Kf2 Rc7 38. Ra6 Ne8 39. Ke3 Nd6 40.
+Kd4 f6 41. g4 h5 42. h3 hxg4 43. hxg4 g5 44. Ra2 Kf8 45. Bd3 Rb7 46. Kc5 Ke7
+47. Re2+ Kd7 48. Re6 Rb6 49. Kd4 Rb4+ 50. Kc5 Rb6 51. Kd4 Rb4+ 52. Bc4 Rb6 53.
+Re1 Rb7 54. Re2 Kd8 55. Rh2 Ke7 56. Rh7+ Kd8 57. Rh8+ Ke7 58. Ra8 Kd7 59. Ba6
+Rc7 60. Rh8 Ke7 61. Rb8 Kd7 62. Bb5+ Ke7 63. Bc6 Rc8 64. Rb4 Rc7 65. Ra4 Kd8
+66. Ra1 Nf7 67. Kc5 Ne5 68. Rh1 Rf7 69. Rh8+ 1-0

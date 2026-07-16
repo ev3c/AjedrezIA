@@ -1,0 +1,298 @@
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.18"]
+[Round "1"]
+[White "Heimann, Andreas"]
+[Black "Tazzioli, Luca"]
+[Result "1-0"]
+[ECO "D37"]
+[WhiteElo "2591"]
+[BlackElo "2114"]
+[PlyCount "93"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. Nf3 Nf6 5. Bf4 O-O 6. e3 b6 7. cxd5 Nxd5 8. Bd3
+Nxf4 9. exf4 Bb7 10. O-O Nd7 11. Qe2 Nf6 12. Rac1 Nd5 13. Nxd5 Bxd5 14. Be4 Rc8
+15. Ne5 a5 16. Bxd5 Qxd5 17. Nc6 Bd6 18. a3 Rce8 19. g3 f6 20. Rfe1 Rf7 21. Qe4
+Qh5 22. Rc2 h6 23. Rce2 f5 24. Qd3 g5 25. d5 gxf4 26. dxe6 Rg7 27. Qd5 Bc5 28.
+Kg2 Rg5 29. Qf3 Qxf3+ 30. Kxf3 fxg3 31. fxg3 Rg6 32. b4 axb4 33. axb4 Bd6 34.
+b5 Kf8 35. e7+ Kg8 36. Re6 Kg7 37. Rxg6+ Kxg6 38. Re6+ Kg7 39. Nd4 Rxe7 40.
+Nxf5+ Kf7 41. Rxe7+ Bxe7 42. Nxe7 Kxe7 43. g4 Kd6 44. h4 c6 45. bxc6 Kxc6 46.
+g5 hxg5 47. h5 1-0
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.19"]
+[Round "2"]
+[White "Calavalle, Giulio"]
+[Black "Heimann, Andreas"]
+[Result "0-1"]
+[ECO "E15"]
+[WhiteElo "2285"]
+[BlackElo "2591"]
+[PlyCount "70"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6 5. Qc2 c5 6. b3 cxd4 7. Nxd4 Bb7 8. f3
+Bc5 9. Bb2 O-O 10. Nd2 d5 11. O-O-O Na6 12. Kb1 Qe7 13. e4 Nb4 14. Qc3 dxe4 15.
+Bg2 exf3 16. Bxf3 Rad8 17. a3 Bxd4 18. Qxb4 Qxb4 19. axb4 Bxb2 20. Kxb2 Rxd2+
+21. Rxd2 Bxf3 22. Ra1 e5 23. Rxa7 Re8 24. b5 e4 25. Rd6 e3 26. Rxb6 e2 27. Ra1
+e1=Q 28. Rxe1 Rxe1 29. c5 Kf8 30. Rd6 Ke7 31. Rd3 Bd5 32. b4 Bc4 33. Rd6 Re2+
+34. Kc1 Bxb5 35. Rb6 Bd7 0-1
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.20"]
+[Round "3"]
+[White "Heimann, Andreas"]
+[Black "Konguvel, Ponnuswamy"]
+[Result "1/2-1/2"]
+[ECO "B36"]
+[WhiteElo "2591"]
+[BlackElo "2383"]
+[PlyCount "45"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. c4 g6 2. e4 c5 3. Nf3 Nc6 4. d4 cxd4 5. Nxd4 Nf6 6. Nc3 d6 7. Be2 Nxd4 8.
+Qxd4 Bg7 9. Be3 O-O 10. Qd2 Be6 11. Rc1 a5 12. f3 a4 13. Nb5 Qa5 14. Rc2 Rfc8
+15. Qxa5 Rxa5 16. Kd2 Nd7 17. Nd4 Nc5 18. Nxe6 Nxe6 19. Rb1 Bd4 20. f4 Bxe3+
+21. Kxe3 Nc5 22. Rd2 Ra6 23. Rc1 1/2-1/2
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.21"]
+[Round "4"]
+[White "Haug, Johannes"]
+[Black "Heimann, Andreas"]
+[Result "1/2-1/2"]
+[ECO "A39"]
+[WhiteElo "2362"]
+[BlackElo "2591"]
+[PlyCount "126"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. g3 O-O 5. Bg2 c5 6. O-O cxd4 7. Nxd4 Nc6 8.
+Nc3 Qa5 9. Nb3 Qh5 10. e4 d6 11. Qxh5 Nxh5 12. Be3 a5 13. Rfd1 Bg4 14. f3 Be6
+15. g4 Nf6 16. Nd5 Nd7 17. Nd4 Bxd5 18. cxd5 Nxd4 19. Bxd4 Rfc8 20. Bf1 g5 21.
+b3 a4 22. b4 a3 23. Kf2 Bxd4+ 24. Rxd4 Ne5 25. Ke3 Kg7 26. Bd3 Rc7 27. Rb1 Rac8
+28. Rb3 Nc4+ 29. Bxc4 Rxc4 30. Rxa3 b5 31. Rxc4 Rxc4 32. Ra7 Rxb4 33. Rxe7 Ra4
+34. Rd7 Ra6 35. h3 Kf6 36. Rb7 Ra3+ 37. Kd4 Ra4+ 38. Kd3 b4 39. Rd7 Rxa2 40.
+Rxd6+ Ke5 41. Rb6 Ra3+ 42. Ke2 Rb3 43. d6 Ke6 44. Kf2 Rb1 45. Kg2 b3 46. Kh2
+Rb2+ 47. Kg3 Rb1 48. Kh2 b2 49. Kg2 Kd7 50. Rb7+ Kxd6 51. Rb8 Ke5 52. Rb7 Kf6
+53. Rb8 Kg7 54. Rb7 Kg6 55. Rb8 h5 56. Rb6+ f6 57. gxh5+ Kxh5 58. Rb8 Kg6 59.
+Rb7 f5 60. Rb8 Kf6 61. Rb7 Ke5 62. Rb8 Kf4 63. Rb7 Ke3 1/2-1/2
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.22"]
+[Round "5"]
+[White "Heimann, Andreas"]
+[Black "Kleinman, Michael"]
+[Result "1-0"]
+[ECO "B48"]
+[WhiteElo "2591"]
+[BlackElo "2340"]
+[PlyCount "50"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be2 Nf6 7. Be3 Be7 8.
+g4 d5 9. exd5 Nxd5 10. Nxd5 exd5 11. Nb5 Qa5+ 12. Qd2 Qxd2+ 13. Bxd2 Bd8 14.
+Nd6+ Ke7 15. Nxc8+ Rxc8 16. O-O Nd4 17. Bd1 Bb6 18. c3 Ne6 19. Kg2 Rhd8 20. Bc2
+h6 21. Rfd1 Rc4 22. f3 a6 23. Bb3 Rcc8 24. Kf1 d4 25. Bxe6 fxe6 1-0
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.23"]
+[Round "6"]
+[White "Petrosyan, Tigran S"]
+[Black "Heimann, Andreas"]
+[Result "1/2-1/2"]
+[ECO "A33"]
+[WhiteElo "2430"]
+[BlackElo "2591"]
+[PlyCount "68"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. Nf3 Nf6 2. c4 c5 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 e6 6. g3 Qb6 7. Nb3 Ne5 8. e4
+Bb4 9. Qe2 d6 10. Bd2 O-O 11. f4 Nc6 12. Bg2 a5 13. Be3 Qd8 14. a3 Bxc3+ 15.
+bxc3 e5 16. f5 b6 17. Rb1 Ba6 18. Nd2 Nd7 19. O-O f6 20. g4 Rc8 21. Rf3 a4 22.
+Qf2 Na5 23. Rxb6 Bxc4 24. Rxd6 Qe7 25. Nxc4 Nxc4 26. Rd1 Rc7 27. Bf1 Nxe3 28.
+Qa2+ Qf7 29. Qxf7+ Kxf7 30. Rxe3 Rb8 31. Bc4+ Rxc4 32. Rxd7+ Kg8 33. Ra7 h6 34.
+h3 Rb3 1/2-1/2
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.24"]
+[Round "7"]
+[White "Heimann, Andreas"]
+[Black "Minko, Vladimir"]
+[Result "1-0"]
+[ECO "B33"]
+[WhiteElo "2591"]
+[BlackElo "2411"]
+[PlyCount "77"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Qb6 5. Nb3 Nf6 6. Nc3 e6 7. Qe2 Bb4 8.
+Bd2 a5 9. a3 Bxc3 10. Bxc3 e5 11. O-O-O O-O 12. f4 d5 13. exd5 Bg4 14. Qb5 Qxb5
+15. Bxb5 Na7 16. Bc4 b5 17. Bd3 Bxd1 18. Rxd1 Nxd5 19. Bxe5 a4 20. Na5 Rad8 21.
+Nb7 Rd7 22. Be4 Nf6 23. Rxd7 Nxd7 24. Bd4 Re8 25. Bf3 Nc8 26. Bc6 Re7 27. Bxb5
+Ndb6 28. Nc5 Nd6 29. Bd3 Re1+ 30. Kd2 Rb1 31. Ke2 f6 32. Ne4 Ndc4 33. Nd2 Nxd2
+34. Kxd2 Nc8 35. Bb5 Nd6 36. Bxa4 Nc4+ 37. Kc3 Nxb2 38. Bb3+ Kf8 39. a4 1-0
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.25"]
+[Round "8"]
+[White "Mons, Leon"]
+[Black "Heimann, Andreas"]
+[Result "1/2-1/2"]
+[ECO "D26"]
+[WhiteElo "2483"]
+[BlackElo "2591"]
+[PlyCount "80"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 d5 3. c4 dxc4 4. e3 e6 5. Bxc4 c5 6. O-O Nc6 7. Nc3 cxd4 8.
+exd4 Be7 9. a3 O-O 10. Re1 b6 11. d5 Na5 12. Ba2 Nxd5 13. Nxd5 exd5 14. Bxd5
+Bb7 15. Bxb7 Nxb7 16. Qxd8 Bxd8 17. Bf4 Bf6 18. Be5 Bxe5 19. Nxe5 Rfc8 20. Rac1
+Rxc1 21. Rxc1 Nc5 22. b4 Ne6 23. g3 Kf8 24. Kf1 f6 25. Nd3 Re8 26. Rc4 Kf7 27.
+h4 Re7 28. Nf4 Rc7 29. Re4 Nxf4 30. Rxf4 Ke6 31. Rd4 Rd7 32. Rc4 Kd5 33. Rc8
+Re7 34. Kg2 Ke4 35. Rd8 Rc7 36. a4 Ke5 37. a5 bxa5 38. bxa5 Ke6 39. g4 Rc5 40.
+Rb8 Rxa5 1/2-1/2
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.26"]
+[Round "9"]
+[White "Heimann, Andreas"]
+[Black "Ramesh, R."]
+[Result "1/2-1/2"]
+[ECO "A29"]
+[WhiteElo "2591"]
+[BlackElo "2470"]
+[PlyCount "132"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. g3 Bc5 5. Bg2 d6 6. O-O a6 7. e3 Ba7 8. d4
+O-O 9. h3 exd4 10. Nxd4 Nxd4 11. exd4 Re8 12. Be3 c6 13. Re1 Be6 14. d5 Bxe3
+15. Rxe3 cxd5 16. Nxd5 Bxd5 17. Rxe8+ Qxe8 18. Bxd5 Nxd5 19. Qxd5 Qc6 20. Qxc6
+bxc6 21. Rd1 Rd8 22. Rd3 Kf8 23. Rb3 d5 24. cxd5 Rxd5 25. Rb6 Ra5 26. a3 c5 27.
+Kf1 c4 28. Rc6 Rb5 29. Rxc4 Rxb2 30. Rc6 a5 31. Rc5 a4 32. Rc4 Ra2 33. Rxa4 h5
+34. h4 g6 35. Kg2 Kg7 36. Kf3 f6 37. Ra7+ Kh6 38. Ra6 Kg7 39. Ra7+ Kh6 40. a4
+g5 41. hxg5+ fxg5 42. a5 Ra3+ 43. Kg2 g4 44. a6 Ra1 45. Ra8 Kg7 46. f4 gxf3+
+47. Kxf3 Rf1+ 48. Ke4 Rf6 49. Ke5 Rb6 50. Kf4 h4 51. g4 h3 52. Kg3 Rb3+ 53. Kh2
+Ra3 54. Ra7+ Kg6 55. Ra8 Kg7 56. a7 Kh7 57. g5 Kg7 58. g6 Ra1 59. Kxh3 Ra3+ 60.
+Kg4 Ra4+ 61. Kf5 Ra5+ 62. Ke6 Ra6+ 63. Kd7 Ra1 64. Rc8 Rxa7+ 65. Rc7 Rxc7+ 66.
+Kxc7 Kxg6 1/2-1/2
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.27"]
+[Round "10"]
+[White "Neef, Maximilian"]
+[Black "Heimann, Andreas"]
+[Result "0-1"]
+[ECO "A07"]
+[WhiteElo "2451"]
+[BlackElo "2591"]
+[PlyCount "88"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. Nf3 d5 2. g3 g6 3. c4 dxc4 4. Qa4+ Nc6 5. Bg2 Bg7 6. Nc3 e5 7. Qxc4 Nge7 8.
+O-O O-O 9. d3 Be6 10. Qa4 h6 11. Bd2 Nd4 12. Rfe1 Bd7 13. Qd1 Bc6 14. Nh4 Bxg2
+15. Nxg2 Kh7 16. Rc1 Qd7 17. Be3 b6 18. Qa4 Qxa4 19. Nxa4 c5 20. Bd2 Nec6 21.
+Kf1 Rad8 22. Red1 Rd7 23. Ne1 Rfd8 24. e3 Ne6 25. Ke2 Bf8 26. a3 Rc8 27. Nf3
+Bg7 28. Be1 f5 29. Nc3 Rcd8 30. Rb1 Re8 31. Kf1 g5 32. h3 h5 33. b4 g4 34. hxg4
+hxg4 35. Nh4 Ne7 36. f3 gxf3 37. Nxf3 Rc8 38. e4 Nd4 39. Nh4 Nc2 40. Rdc1 Nxa3
+41. Rb3 cxb4 42. Rxb4 Bh6 43. Nd5 Rxc1 44. Nf6+ Kg7 0-1

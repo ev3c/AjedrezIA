@@ -1,0 +1,108 @@
+[Event "Ct. Catalunya femeni"]
+[Site "Amposta"]
+[Date "2016.03.25"]
+[Round "1"]
+[White "Martin Dinares, Sonia"]
+[Black "Martin Perez, Laura"]
+[Result "1-0"]
+[ECO "A36"]
+[WhiteElo "1766"]
+[BlackElo "2058"]
+[PlyCount "89"]
+[EventDate "2016.03.25"]
+[EventType "swiss"]
+[EventRounds "5"]
+[EventCountry "ESP"]
+
+1. c4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. e3 e5 6. Nge2 Nge7 7. O-O O-O 8. f4
+d6 9. Rb1 Be6 10. b3 d5 11. d3 f5 12. fxe5 d4 13. exd4 cxd4 14. Nf4 Bc8 15.
+Ncd5 Bxe5 16. Qe1 Qd6 17. Rb2 g5 18. Nxe7+ Qxe7 19. Bd5+ Kh8 20. Ne6 Bxe6 21.
+Bxc6 Bf6 22. Bxb7 Rae8 23. Re2 Qd7 24. Ba3 Rg8 25. Ba6 Qf7 26. Bb7 Qd7 27. Ba6
+Qf7 28. Bb5 Bd7 29. Bxd7 Qxd7 30. Rxe8 Rxe8 31. Qf2 Re5 32. Bb4 Kg7 33. Re1 Re3
+34. Qf1 Kg6 35. Bd2 Rxe1 36. Qxe1 h5 37. h3 Qc6 38. Qf2 Qe6 39. Bc1 Be5 40. Kg2
+Qc6+ 41. Qf3 Qa6 42. a3 Qb6 43. b4 Qc7 44. Qd5 Bxg3 45. Qg8+ 1-0
+
+[Event "Ct. Catalunya femeni"]
+[Site "Amposta"]
+[Date "2016.03.25"]
+[Round "2"]
+[White "Martin Dinares, Sonia"]
+[Black "Riera Morilla, Elizabeth"]
+[Result "0-1"]
+[ECO "A25"]
+[WhiteElo "1766"]
+[BlackElo "1960"]
+[PlyCount "48"]
+[EventDate "2016.03.25"]
+[EventType "swiss"]
+[EventRounds "5"]
+[EventCountry "ESP"]
+
+1. c4 g6 2. g3 Bg7 3. Bg2 d6 4. Nc3 e5 5. e4 Nc6 6. Nge2 Bg4 7. f3 Be6 8. d3
+Qd7 9. Be3 h5 10. h4 Nge7 11. a3 Nd4 12. b4 c6 13. Bf2 Nxe2 14. Nxe2 d5 15. c5
+O-O 16. O-O Rad8 17. Kh2 dxe4 18. dxe4 Qd2 19. Qxd2 Rxd2 20. Rfe1 Bc4 21. Bf1
+Bh6 22. Kg1 Rfd8 23. Nc3 Bxf1 24. Kxf1 R8d3 0-1
+
+[Event "Ct. Catalunya femeni"]
+[Site "Amposta"]
+[Date "2016.03.26"]
+[Round "3"]
+[White "Castillo Escario, Yolanda"]
+[Black "Martin Dinares, Sonia"]
+[Result "1-0"]
+[ECO "C46"]
+[WhiteElo "2002"]
+[BlackElo "1766"]
+[PlyCount "53"]
+[EventDate "2016.03.25"]
+[EventType "swiss"]
+[EventRounds "5"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Bc5 4. Nxe5 Nxe5 5. d4 Bxd4 6. Qxd4 Qf6 7. Be3 Ng4
+8. Nd5 Qxd4 9. Bxd4 f6 10. Nxc7+ Kd8 11. Nxa8 b6 12. Nxb6 axb6 13. Bxb6+ Ke8
+14. a4 Bb7 15. a5 Ne5 16. f3 Ne7 17. c3 Kf7 18. b4 Rc8 19. Bd4 N7c6 20. a6 Ba8
+21. b5 Nxd4 22. cxd4 Nc4 23. Bxc4+ Rxc4 24. b6 Rb4 25. b7 Bxb7 26. axb7 Rxb7
+27. O-O 1-0
+
+[Event "Ct. Catalunya femeni"]
+[Site "Amposta"]
+[Date "2016.03.27"]
+[Round "4"]
+[White "Gendre Diez, Virginia"]
+[Black "Martin Dinares, Sonia"]
+[Result "0-1"]
+[ECO "D05"]
+[BlackElo "1766"]
+[PlyCount "48"]
+[EventDate "2016.03.25"]
+[EventType "swiss"]
+[EventRounds "5"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 Nf6 3. e3 e6 4. Bd3 c5 5. O-O c4 6. Be2 Bd6 7. Ne5 Nbd7 8. f4
+Ne4 9. Qe1 Be7 10. Nf3 O-O 11. Nc3 Ndf6 12. b3 Bb4 13. Bb2 Qa5 14. a3 Bxc3 15.
+Bxc3 Qxc3 16. Qxc3 Nxc3 17. Bd1 cxb3 18. cxb3 Nxd1 19. Rfxd1 Bd7 20. a4 Rfc8
+21. Ne5 Rc3 22. Nxd7 Nxd7 23. Rdc1 Rac8 24. b4 Rxc1+ 0-1
+
+[Event "Ct. Catalunya femeni"]
+[Site "Amposta"]
+[Date "2016.03.28"]
+[Round "5"]
+[White "Martin Dinares, Sonia"]
+[Black "Palau Barrutet, Vinyet"]
+[Result "1-0"]
+[ECO "A36"]
+[WhiteElo "1766"]
+[BlackElo "1226"]
+[PlyCount "55"]
+[EventDate "2016.03.25"]
+[EventType "swiss"]
+[EventRounds "5"]
+[EventCountry "ESP"]
+
+1. c4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. e3 e6 6. Nge2 Nge7 7. O-O O-O 8. d4
+cxd4 9. Nxd4 Nxd4 10. exd4 d5 11. cxd5 exd5 12. Qb3 Nc6 13. Qxd5 Be6 14. Qxd8
+Raxd8 15. d5 Bxc3 16. dxc6 Be5 17. cxb7 Bd5 18. Re1 Bxg2 19. Kxg2 Bd6 20. Bh6
+Rfe8 21. Rad1 Rxe1 22. Rxe1 Rb8 23. Rc1 f6 24. Rc8+ Kf7 25. Rxb8 Bxb8 26. Bf4
+Bxf4 27. gxf4 Ke7 28. b8=Q 1-0

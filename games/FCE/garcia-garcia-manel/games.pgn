@@ -1,0 +1,282 @@
+[Event "Lliga Catalana DH"]
+[Site "Spain"]
+[Date "2025.01.18"]
+[Round "1.9"]
+[White "Diaz Comas, Jordi"]
+[Black "Garcia Garcia, Manel"]
+[Result "0-1"]
+[ECO "C27"]
+[WhiteElo "1949"]
+[BlackElo "1869"]
+[PlyCount "100"]
+[GameId "2151339903437358"]
+[EventDate "2025.??.??"]
+[TimeControl "90+30"]
+[WhiteClock "0:06:18"]
+[BlackClock "0:03:23"]
+
+1. e4 {[%emt 0:00:06]} e5 {[%emt 0:00:12]} 2. Bc4 {[%emt 0:00:17]} Nf6 {[%emt 0:00:43]} 3. d3 {[%emt 0:00:10]} Bc5 {[%emt 0:02:16]} 4. Nc3 {[%emt 0:00:56]} c6 {[%emt 0:02:49]} 5. Nf3 {[%emt 0:05:28]} d6 {[%emt 0:02:56]} 6. a3 {[%emt 0:05:28]} a5 {[%emt 0:00:22]} 7. Bg5 {[%emt 0:03:02]} b5 {[%emt 0:04:19]} 8. Ba2 {[%emt 0:03:44]} Be6 {[%emt 0:04:49]} 9. d4 {[%emt 0:05:22]} exd4 {[%emt 0:00:50]} 10. Nxd4 {[%emt 0:00:22]} Bxa2 {[%emt 0:00:40]} 11. Rxa2 {[%emt 0:01:58]} h6 {[%emt 0:13:21]} 12. Be3 {[%emt 0:03:38]} Bxd4 {[%emt 0:02:57]} 13. Bxd4 {[%emt 0:01:11]} O-O {[%emt 0:01:48]} 14. O-O {[%emt 0:00:42]} Nbd7 {[%emt 0:01:01]} 15. Qf3 {[%emt 0:07:38]} Qe7 {[%emt 0:05:05]} 16. Re1 {[%emt 0:04:30]} b4 {[%emt 0:06:24]} 17. Nb1 {[%emt 0:06:01]} d5 {[%emt 0:07:08]} 18. Nd2 {[%emt 0:03:45]} Rae8 {[%emt 0:11:40]} 19. Qg3 {[%emt 0:08:53]} dxe4 {[%emt 0:10:44]} 20. f3 {[%emt 0:02:06]} Nh5 {[%emt 0:02:19]} 21. Qc7 {[%emt 0:01:07]} Qg5 {[%emt 0:04:00]} 22. Be3 {[%emt 0:02:02]} Qd5 {[%emt 0:00:56]} 23. Raa1 {[%emt 0:03:00]} exf3 {[%emt 0:01:01]} 24. Nxf3 {[%emt 0:00:10]} Rxe3 {[%emt 0:03:52]} 25. Rxe3 {[%emt 0:00:42]} Qc5 {[%emt 0:00:21]} 26. Rae1 {[%emt 0:00:53]} Re8 {[%emt 0:00:31]} 27. axb4 {[%emt 0:00:39]} axb4 {[%emt 0:00:11]} 28. Kf2 {[%emt 0:01:44]} Ndf6 {[%emt 0:00:53]} 29. h3 {[%emt 0:02:57]} Rxe3 {[%emt 0:01:23]} 30. Rxe3 {[%emt 0:00:32]} Qxe3+ {[%emt 0:00:14]} 31. Kxe3 {[%emt 0:00:33]} Nd5+ {[%emt 0:00:07]} 32. Kd4 {[%emt 0:01:25]} Nxc7 {[%emt 0:00:05]} 33. Kc5 {[%emt 0:00:30]} Nf4 {[%emt 0:01:43]} 34. Kxc6 {[%emt 0:00:44]} Nce6 {[%emt 0:00:09]} 35. Ne1 {[%emt 0:00:48]} Kf8 {[%emt 0:01:14]} 36. Kb5 {[%emt 0:00:23]} Nd5 {[%emt 0:00:23]} 37. Kc4 {[%emt 0:02:18]} Nec7 {[%emt 0:00:28]} 38. c3 {[%emt 0:04:28]} bxc3 {[%emt 0:00:12]} 39. bxc3 {[%emt 0:00:01]} Ke7 {[%emt 0:00:31]} 40. Kd4 {[%emt 0:00:08]} Kd6 {[%emt 0:00:46]} 41. c4 {[%emt 0:05:30]} Ne6+ {[%emt 0:00:10]} 42. Ke4 {[%emt 0:03:01]} Nf6+ {[%emt 0:00:22]} 43. Kf5 {[%emt 0:02:00]} Nd4+ {[%emt 0:01:45]} 44. Kf4 {[%emt 0:00:35]} Nd7 {[%emt 0:00:57]} 45. Nd3 {[%emt 0:00:54]} Nb3 {[%emt 0:02:28]} 46. h4 {[%emt 0:02:19]} Na5 {[%emt 0:00:47]} 47. c5+ {[%emt 0:10:21]} Nxc5 {[%emt 0:00:26]} 48. Ne5 {[%emt 0:00:09]} Ke6 {[%emt 0:00:08]} 49. g4 {[%emt 0:00:34]} g5+ {[%emt 0:00:40]} 50. hxg5 {[%emt 0:00:09]} hxg5+ {[%emt 0:00:07]} 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "lichess.org"]
+[Date "2025.01.25"]
+[Round "2.9"]
+[White "Mateu Guiu, Esteve"]
+[Black "Garcia Garcia, Manel"]
+[Result "1-0"]
+[ECO "E11"]
+[WhiteElo "2110"]
+[BlackElo "2132"]
+[PlyCount "79"]
+[GameId "2151339903842982"]
+[EventDate "2025.??.??"]
+
+1. Nf3 Nf6 2. c4 e6 3. d4 Bb4+ 4. Nbd2 O-O 5. a3 Be7 6. e4 d6 7. Bd3 Nc6 8. Nb1 a5 9. Nc3 e5 10. d5 Nb8 11. h3 Nbd7 12. Bc2 Re8 13. Be3 c6 14. b4 Qc7 15. Bb3 cxd5 16. exd5 Nb6 17. Nb5 Qd8 18. O-O axb4 19. axb4 Rxa1 20. Qxa1 Bd7 21. Nc3 Nc8 22. Qb2 h6 23. Rc1 Nh5 24. c5 Bf8 25. Na4 Qf6 26. Nh2 Nf4 27. Bxf4 Qxf4 28. c6 bxc6 29. dxc6 Be6 30. Bxe6 Rxe6 31. Nc3 Nb6 32. c7 Nc8 33. Nd5 Qe4 34. Rd1 Re8 35. b5 Ne7 36. Nxe7+ Bxe7 37. b6 Qb7 38. Ra1 d5 39. Qb5 Rf8 40. Ra7 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.02.01"]
+[Round "3.9"]
+[White "Garcia Garcia, Manel"]
+[Black "Catalan Monteagudo, Elm"]
+[Result "1/2-1/2"]
+[ECO "D02"]
+[WhiteElo "2225"]
+[BlackElo "2134"]
+[PlyCount "45"]
+[GameId "2151339904051938"]
+[EventDate "2025.01.18"]
+[WhiteTeam "MLL"]
+[BlackTeam "PIP"]
+
+1. d4 Nf6 2. Nf3 d5 3. Bf4 c5 4. e3 Nc6 5. c3 Qb6 6. Qc1 Bf5 7. Be2 e6 8. Nbd2 Be7 9. h3 h6 10. dxc5 Bxc5 11. b4 Be7 12. a4 Rc8 13. Qb2 Ne4 14. Nxe4 Bxe4 15. O-O Bf6 16. Qd2 a5 17. b5 Bxf3 18. Bxf3 Ne5 19. Bxe5 Bxe5 20. Rfc1 O-O 21. Ra2 Rc5 22. Rac2 Rfc8 23. Be2 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.02.08"]
+[Round "4.9"]
+[White "Cuadras Avellana, Jordi"]
+[Black "Garcia Garcia, Manel"]
+[Result "1/2-1/2"]
+[ECO "A55"]
+[WhiteElo "2168"]
+[BlackElo "2132"]
+[PlyCount "39"]
+[GameId "2151339904445244"]
+[EventDate "2025.01.18"]
+
+1. c4 Nf6 2. Nc3 d6 3. d4 Nbd7 4. Nf3 e5 5. g3 Be7 6. Bg2 O-O 7. O-O c6 8. e4 Qc7 9. Re1 Re8 10. h3 Bf8 11. d5 c5 12. Nh2 g6 13. Be3 h6 14. Qd2 Kh7 15. f4 a6 16. Re2 Bg7 17. Rf1 b5 18. Ref2 b4 19. Ne2 Ng8 20. f5 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "Spain"]
+[Date "2025.02.15"]
+[Round "5.9"]
+[White "Garcia Garcia, Manel"]
+[Black "Blasco Cardona, Pol"]
+[Result "0-1"]
+[ECO "D02"]
+[WhiteElo "1869"]
+[BlackElo "2061"]
+[PlyCount "118"]
+[GameId "2151339904809938"]
+[EventDate "2025.??.??"]
+[TimeControl "90+30"]
+[WhiteClock "0:02:38"]
+[BlackClock "0:01:05"]
+
+1. Nf3 {[%emt 0:00:10]} Nf6 {[%emt 0:00:06]} 2. d4 {[%emt 0:00:08]} d5 {[%emt 0:00:07]} 3. Bf4 {[%emt 0:00:11]} e6 {[%emt 0:00:22]} 4. Nbd2 {[%emt 0:00:23]} Bd6 {[%emt 0:00:13]} 5. Bg3 {[%emt 0:00:42]} c5 {[%emt 0:00:13]} 6. e3 {[%emt 0:00:14]} Qc7 {[%emt 0:00:08]} 7. c3 {[%emt 0:00:27]} Nbd7 {[%emt 0:00:07]} 8. Bd3 {[%emt 0:02:21]} O-O {[%emt 0:00:16]} 9. Qe2 {[%emt 0:03:14]} e5 {[%emt 0:01:04]} 10. dxe5 {[%emt 0:00:52]} Nxe5 {[%emt 0:00:22]} 11. Nxe5 {[%emt 0:00:33]} Bxe5 {[%emt 0:00:10]} 12. Bxe5 {[%emt 0:04:53]} Qxe5 {[%emt 0:00:07]} 13. h3 {[%emt 0:07:48]} Re8 {[%emt 0:07:37]} 14. O-O {[%emt 0:02:16]} g6 {[%emt 0:26:56]} 15. Rfe1 {[%emt 0:05:44]} c4 {[%emt 0:07:24]} 16. Bc2 {[%emt 0:00:55]} b5 {[%emt 0:08:54]} 17. Nf3 {[%emt 0:06:24]} Qe7 {[%emt 0:00:28]} 18. Qd2 {[%emt 0:05:10]} a5 {[%emt 0:06:25]} 19. a3 {[%emt 0:05:54]} Bd7 {[%emt 0:04:26]} 20. Qd4 {[%emt 0:01:33]} Rab8 {[%emt 0:05:10]} 21. Red1 {[%emt 0:17:22]} Rb7 {[%emt 0:07:01]} 22. Nd2 {[%emt 0:06:25]} Qe5 {[%emt 0:13:14]} 23. Nf3 {[%emt 0:09:18]} Qe7 {[%emt 0:00:59]} 24. Nd2 {[%emt 0:01:16]} Qe5 {[%emt 0:00:05]} 25. Nf3 {[%emt 0:01:08]} Qxd4 {[%emt 0:00:46]} 26. Nxd4 {[%emt 0:09:17]} b4 {[%emt 0:01:13]} 27. axb4 {[%emt 0:00:55]} axb4 {[%emt 0:00:07]} 28. Ba4 {[%emt 0:00:45]} Bxa4 {[%emt 0:00:15]} 29. Rxa4 {[%emt 0:00:06]} bxc3 {[%emt 0:00:26]} 30. bxc3 {[%emt 0:00:17]} Ne4 {[%emt 0:00:21]} 31. Ra3 {[%emt 0:04:15]} Rb2 {[%emt 0:01:39]} 32. Rf1 {[%emt 0:00:24]} Nd2 {[%emt 0:01:52]} 33. Rc1 {[%emt 0:01:38]} Reb8 {[%emt 0:03:31]} 34. Nc6 {[%emt 0:02:10]} R8b7 {[%emt 0:02:10]} 35. Nb4 {[%emt 0:00:50]} Ne4 {[%emt 0:01:58]} 36. Nxd5 {[%emt 0:00:27]} Rxf2 {[%emt 0:00:43]} 37. Rf1 {[%emt 0:01:22]} Rd2 {[%emt 0:01:00]} 38. Nb4 {[%emt 0:00:42]} Nxc3 {[%emt 0:00:55]} 39. Rxc3 {[%emt 0:00:09]} Rxb4 {[%emt 0:00:04]} 40. Rf4 {[%emt 0:00:37]} Rb1+ {[%emt 0:00:36]} 41. Kh2 {[%emt 0:00:26]} Rbb2 {[%emt 0:00:11]} 42. Rg4 {[%emt 0:00:21]} h5 {[%emt 0:00:31]} 43. Rg3 {[%emt 0:00:23]} Rb4 {[%emt 0:00:14]} 44. h4 {[%emt 0:00:17]} Rd3 {[%emt 0:00:35]} 45. Rc1 {[%emt 0:00:52]} Rd2 {[%emt 0:01:32]} 46. Rc3 {[%emt 0:00:18]} Rd3 {[%emt 0:00:17]} 47. Rc1 {[%emt 0:00:13]} Kg7 {[%emt 0:00:22]} 48. e4 {[%emt 0:00:47]} Rbb3 {[%emt 0:00:40]} 49. Rg5 {[%emt 0:00:30]} c3 {[%emt 0:00:20]} 50. Rc5 {[%emt 0:00:09]} Re3 {[%emt 0:00:38]} 51. Rc7 {[%emt 0:00:27]} Rxe4 {[%emt 0:00:31]} 52. Rf1 {[%emt 0:00:16]} Rxh4+ {[%emt 0:00:08]} 53. Kg1 {[%emt 0:00:07]} Rg4 {[%emt 0:00:34]} 54. Rfxf7+ {[%emt 0:00:25]} Kh6 {[%emt 0:00:09]} 55. Rh7+ {[%emt 0:02:00]} Kg5 {[%emt 0:00:10]} 56. Rc5+ {[%emt 0:00:47]} Kh4 {[%emt 0:00:12]} 57. Kh2 {[%emt 0:00:48]} Rb2 {[%emt 0:00:15]} 58. Rxc3 {[%emt 0:00:30]} Rbxg2+ {[%emt 0:00:08]} 59. Kh1 {[%emt 0:00:06]} Rg1+ {[%emt 0:00:11]} 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.02.22"]
+[Round "6.9"]
+[White "Garcia Garcia, Manel"]
+[Black "Gonzalez Hernandez, Ferran"]
+[Result "1/2-1/2"]
+[ECO "A48"]
+[WhiteElo "2132"]
+[BlackElo "2172"]
+[PlyCount "66"]
+[GameId "2150541307728031"]
+[EventDate "2025.02.15"]
+[WhiteTeam "Mollet"]
+[BlackTeam "Sant Andreu"]
+
+1. Nf3 Nf6 2. d4 g6 3. Bf4 Bg7 4. e3 O-O 5. Nbd2 d6 6. Bc4 c5 7. c3 a6 8. a4 b6 9. O-O Bb7 10. h3 Nbd7 11. Re1 Ra7 12. Qe2 Qa8 13. e4 d5 14. exd5 Nxd5 15. Bg3 cxd4 16. Nxd4 N7f6 17. f3 Bh6 18. Nf1 Re8 19. Qf2 Qc8 20. Bb3 Nh5 21. Bxd5 Bxd5 22. Ne3 Ba8 23. Bh2 Bf4 24. Bxf4 Nxf4 25. Qh4 Nd3 26. Re2 Rd7 27. Ng4 h5 28. Nh6+ Kg7 29. Qg5 Qc5 30. Nhf5+ Kg8 31. Qh6 gxf5 32. Qg5+ Kf8 33. Qh6+ Kg8 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.03.08"]
+[Round "8.9"]
+[White "Dorca Dilme, Ramon"]
+[Black "Garcia Garcia, Manel"]
+[Result "1-0"]
+[ECO "C47"]
+[WhiteElo "1996"]
+[BlackElo "2117"]
+[PlyCount "75"]
+[GameId "2155318286745774"]
+[EventDate "2025.02.15"]
+[WhiteTeam "Olot"]
+[BlackTeam "Mollet"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Be7 4. g3 Nf6 5. Bg2 O-O 6. O-O d6 7. d4 Bg4 8. d5 Nd4 9. Be3 Nxf3+ 10. Bxf3 Bh3 11. Bg2 Qd7 12. Qe2 a6 13. a4 Bxg2 14. Kxg2 c6 15. Qd3 c5 16. h3 b5 17. f3 c4 18. Qd2 b4 19. Ne2 a5 20. g4 Rfc8 21. c3 Qb7 22. Ng3 b3 23. g5 Nd7 24. h4 Bd8 25. Nf5 Ra6 26. Qe2 g6 27. Nh6+ Kg7 28. f4 f6 29. f5 Be7 30. Qg4 Rf8 31. fxg6 hxg6 32. Nf5+ Kf7 33. Nxe7 Kxe7 34. gxf6+ Kd8 35. f7 Kc7 36. Qe6 Kc8 37. Bh6 Rd8 38. f8=Q 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.03.15"]
+[Round "9.8"]
+[White "Perez Manas, Benjamin"]
+[Black "Garcia Garcia, Manel"]
+[Result "1-0"]
+[ECO "C60"]
+[WhiteElo "2188"]
+[BlackElo "2117"]
+[PlyCount "115"]
+[GameId "2157542054728486"]
+[EventDate "2025.02.15"]
+[WhiteTeam "Barbera"]
+[BlackTeam "Mollet"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nge7 4. O-O Ng6 5. d4 exd4 6. Nxd4 Be7 7. Nc3 O-O 8. Nf5 d6 9. Nxe7+ Ncxe7 10. Bg5 h6 11. Be3 f5 12. f4 fxe4 13. Nxe4 c6 14. Bc4+ d5 15. Bb3 Kh8 16. Ng3 Nh4 17. Bd4 Nhf5 18. Nxf5 Nxf5 19. Be5 Qb6+ 20. Kh1 Ne3 21. Qh5 Ng4 22. Qg6 Nf6 23. Rf3 Qd8 24. Rg3 Qd7 25. c4 Qf7 26. cxd5 Qxg6 27. Rxg6 cxd5 28. Bxf6 Rxf6 29. Rxf6 gxf6 30. Bxd5 Bf5 31. b3 Rb8 32. h3 h5 33. Rc1 b6 34. Rc6 Rd8 35. Bf3 Kg7 36. Rc7+ Kg6 37. Rxa7 h4 38. Rb7 Rd6 39. Kh2 Bb1 40. a3 Kf5 41. Rh7 Rd3 42. Rh5+ Kg6 43. f5+ Kg7 44. Be4 Rxb3 45. Bxb1 Rxb1 46. Rxh4 Rb3 47. Rg4+ Kf7 48. Rg3 Rb5 49. Rf3 Kg7 50. Kg3 Kh6 51. Kh4 Ra5 52. g4 Rb5 53. Rc3 Rb1 54. Rc6 Kg7 55. Kh5 Rb3 56. h4 Rb5 57. Rc7+ Kf8 58. Kg6 1-0
+
+[Event "Camp. Catalunya indiv. Pref. esp."]
+[Site "?"]
+[Date "1985.??.??"]
+[Round "?"]
+[White "Garcia Garcia, Manel"]
+[Black "Castells Sans, Jaume"]
+[Result "1-0"]
+[ECO "A14"]
+[PlyCount "49"]
+[EventDate "1985.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 e6 2. Nf3 Nf6 3. g3 b6 4. Bg2 Bb7 5. O-O Be7 6. b3 O-O 7. Bb2 d5 8. d3 c5
+9. cxd5 exd5 10. Nbd2 Nbd7 11. Nh4 Re8 12. e4 Qc7 13. f4 g6 14. e5 Nh5 15. Nf5
+Ng7 16. Nh6+ Kf8 17. f5 gxf5 18. Nxf5 Nxe5 19. Nxg7 Kxg7 20. Qg4+ Kh6 21. Qh3+
+Kg7 22. Rxf7+ Kxf7 23. Qh5+ Kg8 24. Bxe5 Qd8 25. Rf1 1-0
+
+[Event "Camp. Catalunya indiv. Pref. esp."]
+[Site "?"]
+[Date "1988.??.??"]
+[Round "?"]
+[White "Garcia Cano, Antoni"]
+[Black "Garcia Garcia, Manel"]
+[Result "0-1"]
+[ECO "E61"]
+[PlyCount "72"]
+[EventDate "1988.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 O-O 5. e3 d6 6. Be2 Nbd7 7. O-O e5 8. Qc2
+Qe7 9. b3 Re8 10. Bb2 e4 11. Nd2 h5 12. b4 Nf8 13. d5 Bf5 14. Nb3 Ng4 15. Bxg4
+hxg4 16. Ne2 Nh7 17. Ng3 Qh4 18. Bxg7 Kxg7 19. Nd4 Re5 20. f4 gxf3 21. Ndxf5+
+gxf5 22. gxf3 Kh8 23. f4 Ree8 24. Nxf5 Rg8+ 25. Kh1 Qh3 26. Qxe4 Nf6 27. Qc2
+Rae8 28. Rf2 Ne4 29. Rg2 Qxf5 30. Rag1 Rxg2 31. Qxg2 Qh7 32. f5 Nf6 33. Qf3 Rg8
+34. Rxg8+ Kxg8 35. e4 Qh4 36. c5 Qxe4 0-1
+
+[Event "Camp. Catalunya indiv. Pref. esp."]
+[Site "?"]
+[Date "1988.??.??"]
+[Round "?"]
+[White "Garcia Garcia, Manel"]
+[Black "Segura Vila, Juan"]
+[Result "0-1"]
+[ECO "A10"]
+[PlyCount "68"]
+[EventDate "1988.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. c4 f5 2. b3 d6 3. Bb2 e5 4. d3 Nf6 5. g3 Be7 6. Bg2 O-O 7. Nf3 Qe8 8. Nc3 c6
+9. Qc2 Na6 10. a3 Bd7 11. Nd2 Rc8 12. Na2 Bd8 13. b4 Bb6 14. Nb3 Ng4 15. c5
+dxc5 16. bxc5 Bd8 17. h3 Nh6 18. Nb4 Nc7 19. Na5 Rb8 20. Nc4 Nf7 21. d4 e4 22.
+g4 Nd5 23. O-O-O a5 24. Na2 b5 25. cxb6 Nxb6 26. Nxb6 Rxb6 27. gxf5 Bxf5 28.
+Nc3 Nd6 29. e3 Nc4 30. Na4 Nxb2 31. Nxb6 Nd3+ 32. Rxd3 exd3 33. Qc4+ Be6 34.
+Qc5 d2+ 0-1
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1990.??.??"]
+[Round "?"]
+[White "Garcia Garcia, Manel"]
+[Black "Mendez Camarasa, Fernando"]
+[Result "1-0"]
+[ECO "A48"]
+[PlyCount "65"]
+[EventDate "1990.??.??"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Bf4 g6 3. Nf3 Bg7 4. e3 O-O 5. h3 c5 6. c3 b6 7. Be2 Bb7 8. O-O d6
+9. Nbd2 Nbd7 10. Bh2 Re8 11. Bc4 e5 12. dxe5 dxe5 13. Qb3 Qe7 14. Rad1 Rf8 15.
+a4 Bc6 16. Nb1 Bxf3 17. gxf3 Ne8 18. Rd2 Qg5+ 19. Bg3 Ndf6 20. h4 Qf5 21. Kg2
+Nh5 22. Qc2 Qf6 23. Rfd1 Nxg3 24. fxg3 Bh6 25. Qe4 Ng7 26. Rd7 Rae8 27. R1d6
+Qf5 28. Rxa7 Rd8 29. Rxd8 Rxd8 30. Rxf7 Qxe4 31. fxe4 Kh8 32. Kf3 Ne8 33. Bd5
+1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1991.??.??"]
+[Round "?"]
+[White "Carol"]
+[Black "Garcia Garcia, Manel"]
+[Result "1-0"]
+[ECO "D82"]
+[PlyCount "94"]
+[EventDate "1991.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Bf4 g6 3. c4 Bg7 4. Nc3 d5 5. h3 O-O 6. e3 c5 7. Nf3 cxd4 8. exd4
+Nc6 9. Be2 h6 10. Qd2 Ne4 11. Qe3 g5 12. Bh2 Nxc3 13. bxc3 f5 14. O-O f4 15.
+Qd2 Be6 16. Rab1 b6 17. Rbd1 Rc8 18. Rfe1 Na5 19. Bf1 Rf6 20. cxd5 Bxd5 21. Ne5
+Qc7 22. Ba6 Rd8 23. g3 Ba8 24. Bd3 Qc8 25. Ng4 Re6 26. Rxe6 Qxe6 27. Re1 Qd7
+28. Qc2 Rf8 29. Be4 h5 30. Ne5 Bxe5 31. Bxa8 Bg7 32. Bg2 f3 33. Bf1 g4 34. Qe4
+Rf7 35. Bd3 gxh3 36. Qh7+ Kf8 37. Qxh5 Qc8 38. Bg6 Qxc3 39. Rf1 Rf6 40. Qg4 Nb7
+41. Qe4 Nd6 42. Qg4 Qc4 43. Bb1 Nb5 44. Qd7 Nxd4 45. Re1 Re6 46. Rd1 Rd6 47.
+Bd3 Ne2+ 1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1991.??.??"]
+[Round "?"]
+[White "Garcia Garcia, Manel"]
+[Black "Gallego"]
+[Result "1-0"]
+[ECO "E92"]
+[PlyCount "97"]
+[EventDate "1991.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. d4 O-O 6. Be2 e5 7. h3 Na6 8. Be3
+Nd7 9. dxe5 Nxe5 10. O-O Be6 11. Nxe5 dxe5 12. Qb3 Qc8 13. Nd5 Kh8 14. Rfd1 c6
+15. Rac1 b6 16. Qa3 Qb7 17. Nc3 Rfd8 18. b3 Nc7 19. Qe7 Re8 20. Qh4 Na6 21. Rd2
+f6 22. Rcd1 Qe7 23. Bg4 Nc7 24. c5 Bxg4 25. Qxg4 Qf8 26. Qd7 Ne6 27. cxb6 axb6
+28. Bxb6 c5 29. Na4 Bh6 30. Rd3 Nf4 31. Bxc5 Qg8 32. Rd6 f5 33. Bb6 Bf8 34.
+R6d2 Bb4 35. Rc2 Re7 36. Qc6 Ne6 37. Qb5 Ba5 38. Bxa5 Nd4 39. Rxd4 exd4 40.
+exf5 gxf5 41. Qxf5 Rf8 42. Qd3 Qd5 43. Rc5 Qd6 44. Rc4 Rg7 45. Qxd4 Qg6 46. Qe4
+Qf6 47. Bc3 Qxf2+ 48. Kh2 Qg3+ 49. Kg1 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2018.01.20"]
+[Round "1.10"]
+[White "Faro Larroya, Jordi"]
+[Black "Sola Garcia, Manel"]
+[Result "1/2-1/2"]
+[ECO "A00"]
+[WhiteElo "2018"]
+[BlackElo "2017"]
+[PlyCount "49"]
+[WhiteTeam "EEB"]
+[BlackTeam "OLO"]
+
+1. d4 g6 2. Nf3 Nf6 3. Bf4 Bg7 4. e3 d6 5. h3 O-O 6. Be2 Nbd7 7. O-O Nh5 8. Bh2
+e5 9. dxe5 dxe5 10. Nc3 Re8 11. Qd2 f5 12. Rad1 c6 13. h4 h6 14. Qd6 Qf6 15.
+Qc7 Nb6 16. Rd6 Qf7 17. Qxf7+ Kxf7 18. Rfd1 Bf6 19. Ne1 Ng7 20. Nd3 e4 21. Nf4
+Ne6 22. h5 Nxf4 23. Bxf4 g5 24. Bh2 Be6 25. g4 1/2-1/2

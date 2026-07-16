@@ -1,0 +1,149 @@
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.01.22"]
+[Round "1.9"]
+[White "Dios Otin, Victor Federico"]
+[Black "Martin Gonzalez, Angel"]
+[Result "0-1"]
+[ECO "B51"]
+[WhiteElo "2174"]
+[BlackElo "2296"]
+[PlyCount "98"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+[TimeControl "90+30"]
+[WhiteClock "0:14:49"]
+[BlackClock "0:08:55"]
+
+1. e4 {[%emt 0:00:00]} c5 {[%emt 0:00:00]} 2. Nf3 {[%emt 0:00:00]} d6 {[%emt 0:
+00:00]} 3. Nc3 {[%emt 0:00:00]} Nc6 {[%emt 0:00:00]} 4. Bb5 {[%emt 0:00:00]}
+Bd7 {[%emt 0:00:00]} 5. a4 {[%emt 0:00:00]} Nf6 {[%emt 0:00:00]} 6. O-O {
+[%emt 0:00:00]} e6 {[%emt 0:00:00]} 7. d4 {[%emt 0:00:00]} cxd4 {[%emt 0:00:00]
+} 8. Nxd4 {[%emt 0:00:00]} Be7 {[%emt 0:00:00]} 9. Be3 {[%emt 0:00:00]} Ne5 {
+[%emt 0:00:00]} 10. Be2 {[%emt 0:00:00]} O-O {[%emt 0:00:00]} 11. f4 {[%emt 0:
+00:00]} Ng6 {[%emt 0:00:00]} 12. Kh1 {[%emt 0:00:00]} a6 {[%emt 0:00:00]} 13.
+Bf3 {[%emt 0:00:00]} Qc7 {[%emt 0:00:00]} 14. Qd2 {[%emt 0:00:00]} Rac8 {
+[%emt 0:00:00]} 15. a5 {[%emt 0:00:00]} Nh4 {[%emt 0:00:00]} 16. Qf2 {[%emt 0:
+00:00]} Nxf3 {[%emt 0:00:00]} 17. Qxf3 {[%emt 0:00:00]} Rfe8 {[%emt 0:00:00]}
+18. f5 {[%emt 0:00:00]} e5 {[%emt 0:00:00]} 19. Nde2 {[%emt 0:00:00]} Qc4 {
+[%emt 0:00:00]} 20. Bg5 {[%emt 0:00:00]} Bc6 {[%emt 0:00:00]} 21. Bxf6 {
+[%emt 0:00:00]} Bxf6 {[%emt 0:00:00]} 22. Ng3 {[%emt 0:00:00]} Qb4 {[%emt 0:00:
+00]} 23. Qd3 {[%emt 0:00:00]} Be7 {[%emt 0:00:00]} 24. f6 {[%emt 0:00:00]} Bxf6
+{[%emt 0:00:00]} 25. Nh5 {[%emt 0:00:00]} Be7 {[%emt 0:00:00]} 26. Nd5 {
+[%emt 0:00:00]} Bxd5 {[%emt 0:00:00]} 27. Qxd5 {[%emt 0:00:00]} Rf8 {[%emt 0:
+00:00]} 28. Rf3 {[%emt 0:00:00]} Rxc2 {[%emt 0:00:00]} 29. Rb3 {[%emt 0:00:00]}
+Qc4 {[%emt 0:00:00]} 30. Qxc4 {[%emt 0:00:00]} Rxc4 {[%emt 0:00:00]} 31. Rxb7 {
+[%emt 0:00:00]} Bd8 {[%emt 0:00:00]} 32. Ng3 {[%emt 0:00:00]} Bxa5 {[%emt 0:00:
+00]} 33. h3 {[%emt 0:00:00]} Bb4 {[%emt 0:00:00]} 34. Rxa6 {[%emt 0:00:00]} g6
+{[%emt 0:00:00]} 35. Ra4 {[%emt 0:00:00]} Rc1+ {[%emt 0:00:00]} 36. Kh2 {
+[%emt 0:00:04]} Bc5 {[%emt 0:01:00]} 37. Ne2 {[%emt 0:00:00]} Re1 {[%emt 0:00:
+18]} 38. Nc3 {[%emt 0:00:00]} f5 {[%emt 0:00:16]} 39. exf5 {[%emt 0:00:00]}
+gxf5 {[%emt 0:01:01]} 40. Nd5 {[%emt 0:00:00]} f4 {[%emt 0:01:21]} 41. h4 {
+[%emt 0:00:00]} Rf7 {[%emt 0:03:53]} 42. Ne7+ {[%emt 0:03:01]} Kg7 {[%emt 0:00:
+17]} 43. Ra8 {[%emt 0:00:57]} Bf2 {[%emt 0:06:24]} 44. Nf5+ {[%emt 0:01:10]}
+Kf6 {[%emt 0:00:09]} 45. Rxf7+ {[%emt 0:00:50]} Kxf7 {[%emt 0:00:01]} 46. Nxd6+
+{[%emt 0:00:31]} Ke6 {[%emt 0:00:01]} 47. Nc4 {[%emt 0:01:53]} Bg3+ {[%emt 0:
+00:48]} 48. Kh3 {[%emt 0:00:14]} h5 {[%emt 0:00:01]} 49. Ra6+ {[%emt 0:02:31]}
+Kd5 {[%emt 0:01:35]} 0-1
+
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.01.30"]
+[Round "2"]
+[White "Dios Otin, Victor Federico"]
+[Black "Roa Ribera, Alvaro"]
+[Result "1-0"]
+[ECO "C55"]
+[WhiteElo "2174"]
+[BlackElo "2138"]
+[PlyCount "80"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 d6 4. c3 Be7 5. d3 Nf6 6. O-O O-O 7. Re1 Bg4 8. h3
+Bd7 9. b4 a5 10. b5 Na7 11. a4 c6 12. Qb3 Be8 13. d4 exd4 14. cxd4 d5 15. exd5
+cxb5 16. axb5 Bb4 17. Bd2 Bxd2 18. Nbxd2 Nc8 19. Re5 Nd6 20. Bd3 Nd7 21. Re2
+Nb6 22. Ne5 f6 23. Nec4 Nbxc4 24. Nxc4 Bf7 25. Re6 Nxc4 26. Qxc4 Kh8 27. Be4
+Rc8 28. Qd3 Bxe6 29. dxe6 h6 30. Bxb7 Rc7 31. Be4 Re8 32. d5 Qd6 33. g3 Ra8 34.
+Qf3 Qe5 35. Rb1 Rc4 36. Bg6 Rac8 37. Qd3 Qb8 38. e7 Re8 39. Bxe8 Qxe8 40. d6
+Rc8 1-0
+
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.02.05"]
+[Round "3"]
+[White "Malonda Rey, Albert"]
+[Black "Dios Otin, Victor Federico"]
+[Result "1/2-1/2"]
+[ECO "C45"]
+[PlyCount "117"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 bxc6 6. e5 Qe7 7. Qe2 Nd5 8.
+c4 Ba6 9. b3 Qh4 10. a3 Nf4 11. Qe4 Ng6 12. Qe3 Be7 13. Be2 O-O 14. O-O Nxe5
+15. Qxe5 Bf6 16. Qa5 Bxa1 17. Qxa6 Qe4 18. Be3 Be5 19. Qa5 Rae8 20. Nd2 Qc2 21.
+Bd1 Qd3 22. Nf3 Bc3 23. Qxa7 Ra8 24. Qc5 d6 25. Qh5 Rxa3 26. Ne1 Bxe1 27. Rxe1
+Ra1 28. g3 Re8 29. Kg2 Ra2 30. Qg4 f5 31. Qf3 d5 32. Bd2 Qxf3+ 33. Bxf3 Rxe1
+34. Bxe1 dxc4 35. bxc4 Ra1 36. Bd2 c5 37. Bf4 Ra7 38. Be3 Ra5 39. Bd2 Ra2 40.
+Bf4 Ra7 41. h4 Kf7 42. Bd5+ Kf6 43. Kf3 h6 44. Be3 Ra3 45. Kg2 Ra5 46. h5 g5
+47. Bd2 Ra3 48. Bc1 Ra2 49. Kf3 Ke5 50. Be3 Ra3 51. Kg2 Ra5 52. f4+ Kf6 53.
+fxg5+ hxg5 54. h6 Kg6 55. Bxg5 Ra2+ 56. Kh3 c6 57. Bg8 Kxg5 58. h7 Ra1 59. Kg2
+1/2-1/2
+
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.02.12"]
+[Round "4.10"]
+[White "Dios Otin, Victor Federico"]
+[Black "Moya Nunez, Pau Salvador"]
+[Result "0-1"]
+[ECO "B44"]
+[WhiteElo "2015"]
+[BlackElo "2022"]
+[PlyCount "62"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+[WhiteTeam "Sant Cugat"]
+[BlackTeam "Foment Martinenc"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nf6 5. Bd3 Nc6 6. Be3 d5 7. Nxc6 bxc6 8.
+Nd2 Be7 9. O-O O-O 10. e5 Nd7 11. f4 Bc5 12. Rf3 g6 13. Nb3 Bxe3+ 14. Rxe3 c5
+15. Be2 Qe7 16. Rh3 Rb8 17. Kh1 Bb7 18. Qd2 f6 19. exf6 Rxf6 20. Re1 Rbf8 21.
+Rf3 Qd6 22. Na5 Ba8 23. Bb5 Nb6 24. Re5 d4 25. Nc4 Nxc4 26. Bxc4 Bxf3 27. gxf3
+Kg7 28. Qe1 Qc6 29. Rxe6 Qxf3+ 30. Kg1 Qg4+ 31. Kh1 Rxe6 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "Sant Andreu-Sant Cugat"]
+[Date "2023.03.11"]
+[Round "8.10"]
+[White "Travesset Ribera, Daniel"]
+[Black "Dios Otin, Victor Federico"]
+[Result "1-0"]
+[ECO "E18"]
+[WhiteElo "2225"]
+[BlackElo "2159"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "123"]
+[EventDate "2023.03.11"]
+[EventRounds "4"]
+[EventCountry "CAT"]
+
+1. Nf3 Nf6 2. c4 e6 3. g3 b6 4. Bg2 Bb7 5. O-O Be7 6. d4 O-O 7. Nc3 d5 8. Ne5
+c6 9. Qd3 Nfd7 10. Nxd7 Qxd7 11. cxd5 exd5 12. Rd1 Na6 13. Bf4 Rad8 14. Rac1
+Bd6 15. Bxd6 Qxd6 16. a3 f5 17. e3 Nc7 18. Qc2 Ne6 19. Qa4 a6 20. Qb3 b5 21.
+Na4 Ng5 22. Nc5 Bc8 23. Qc2 Qh6 24. h4 Nf7 25. Nd3 Rd6 26. Nf4 g5 27. hxg5 Nxg5
+28. Qe2 Ne4 29. a4 Qg7 30. axb5 axb5 31. Ra1 Qb7 32. Ra5 Qb6 33. Rda1 Bb7 34.
+Bh3 Rh6 35. Bg2 Rd6 36. Ra7 Nf6 37. Qc2 Ne4 38. Nd3 Rdd8 39. Qe2 Ra8 40. Rxa8
+Bxa8 41. Qh5 Bb7 42. b4 Bc8 43. Ne5 Qc7 44. Ra8 Qb7 45. Ra1 Be6 46. Qh6 Rf6 47.
+Qh4 Rf8 48. Nd3 Bc8 49. Qh6 Rf6 50. Qf4 Rf7 51. Ne5 Rg7 52. Qh6 Rc7 53. Rc1 c5
+54. dxc5 Qa7 55. Bxe4 dxe4 56. Qg5+ Kf8 57. Qd8+ Kg7 58. Rd1 h6 59. c6 Be6 60.
+Qd6 Kf6 61. Nd7+ Kf7 62. Qf8+ 1-0

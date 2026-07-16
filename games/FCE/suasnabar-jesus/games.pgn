@@ -1,0 +1,341 @@
+[Event "Ciutat de Sabadell op A"]
+[Site "Sabadell"]
+[Date "2016.09.01"]
+[Round "1"]
+[White "Vidarte Morales, Arturo"]
+[Black "Suasnabar, Jesus"]
+[Result "1-0"]
+[ECO "A40"]
+[WhiteElo "2340"]
+[BlackElo "2031"]
+[PlyCount "74"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 e6 2. Nf3 c5 3. c4 cxd4 4. Nxd4 a6 5. Nc3 Qc7 6. e4 Nf6 7. a3 b6 8. Be3
+Bb7 9. f3 d6 10. Qd2 Be7 11. Rc1 O-O 12. Be2 Nbd7 13. O-O Rac8 14. b4 Qb8 15.
+Rc2 Bd8 16. Kh1 Bc7 17. Bg1 Rfe8 18. Rb1 Qa8 19. Nb3 h5 20. Bf2 Qb8 21. a4 d5
+22. exd5 Bxh2 23. dxe6 Rxe6 24. c5 Ne5 25. Nd4 Rd8 26. Qg5 Nfg4 27. fxg4 Rxd4
+28. Bxd4 hxg4 29. c6 Rxc6 30. Nd5 Rh6 31. Rbc1 Bg3+ 32. Qxh6 gxh6 33. Rc8+ Bxc8
+34. Rxc8+ Qxc8 35. Ne7+ Kf8 36. Nxc8 Nd7 37. Bxg4 Ke8 1-0
+
+[Event "Ciutat de Sabadell op A"]
+[Site "Sabadell"]
+[Date "2016.09.05"]
+[Round "5"]
+[White "Mellado Trivino, Juan"]
+[Black "Suasnabar, Jesus"]
+[Result "1-0"]
+[ECO "B40"]
+[WhiteElo "2410"]
+[BlackElo "2031"]
+[PlyCount "66"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. c3 d5 4. exd5 exd5 5. Bb5+ Nc6 6. Qe2+ Be7 7. O-O Nf6 8.
+Re1 h6 9. d4 Be6 10. Ne5 Rc8 11. Ng6 fxg6 12. Qxe6 Qd7 13. Qxd7+ Kxd7 14. Bd3
+Rhf8 15. Bxg6 Ng4 16. f3 Bh4 17. g3 Rxf3 18. gxh4 cxd4 19. Bh5 Nge5 20. cxd4
+Nxd4 21. Nc3 Rfxc3 22. bxc3 Ndf3+ 23. Kf1 Nxe1 24. Kxe1 Rxc3 25. Bb2 Re3+ 26.
+Kf2 Re4 27. Rd1 Ke6 28. Rd4 Rxd4 29. Bxd4 Nd3+ 30. Ke3 Nb4 31. Bg4+ Kf7 32. Bf3
+g6 33. Bc5 Ke8 1-0
+
+[Event "Ciutat de Sabadell op A"]
+[Site "Sabadell"]
+[Date "2016.09.07"]
+[Round "7"]
+[White "Suasnabar, Jesus"]
+[Black "Garcia Marin, Guillem"]
+[Result "1-0"]
+[ECO "B22"]
+[WhiteElo "2031"]
+[BlackElo "2062"]
+[PlyCount "75"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. c3 e6 3. d4 d5 4. exd5 exd5 5. Nf3 Nc6 6. Bb5 Bd6 7. dxc5 Bxc5 8.
+O-O Nge7 9. Nbd2 O-O 10. Nb3 Bd6 11. Bg5 f6 12. Bh4 Ne5 13. Nbd4 Kh8 14. Re1
+Qc7 15. Bg3 a6 16. Bf1 Bg4 17. Be2 Bd7 18. Qd2 Rad8 19. Rad1 Bc8 20. Qc2 Qb6
+21. Qb3 Qc7 22. Rd2 Nc4 23. Rdd1 Ng6 24. Qc2 Qb6 25. Bxc4 dxc4 26. Ne6 Bxg3 27.
+Rxd8 Bxh2+ 28. Kxh2 Bxe6 29. Rxf8+ Nxf8 30. Qe2 Bg8 31. Nh4 Qd6+ 32. Kg1 Qf4
+33. g3 Qg5 34. Qe8 Ng6 35. Nxg6+ hxg6 36. Re4 Qc1+ 37. Kg2 g5 38. Qh5+ 1-0
+
+[Event "Ciutat de Sabadell op A"]
+[Site "Sabadell"]
+[Date "2016.09.08"]
+[Round "8"]
+[White "Ortega Serra, Marc"]
+[Black "Suasnabar, Jesus"]
+[Result "0-1"]
+[ECO "A40"]
+[WhiteElo "2235"]
+[BlackElo "2031"]
+[PlyCount "150"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 e6 2. c4 d5 3. Nf3 c5 4. cxd5 exd5 5. g3 Nc6 6. Bg2 Nf6 7. O-O Be7 8.
+dxc5 Bxc5 9. a3 O-O 10. b4 Bb6 11. Nc3 Re8 12. Bg5 Be6 13. Na4 h6 14. Nxb6 axb6
+15. Be3 Bf5 16. Nd4 Be4 17. Re1 Bxg2 18. Nxc6 bxc6 19. Kxg2 Rxe3 20. fxe3 Ng4
+21. Qc1 Qe7 22. Rg1 Qe4+ 23. Kf1 Nxe3+ 24. Kf2 d4 25. h3 Qf5+ 26. Ke1 Nc2+ 27.
+Kd2 Nxa1 28. Qxa1 Qe4 29. Rb1 Qe3+ 30. Kd1 Rxa3 31. Qb2 Rc3 32. Qd2 Qxd2+ 33.
+Kxd2 Rxg3 34. h4 Kf8 35. Rc1 Rc3 36. Ra1 Rb3 37. Rc1 Rc3 38. Ra1 Rc4 39. b5
+cxb5 40. Kd3 Rc3+ 41. Kxd4 Rc4+ 42. Kd5 Rxh4 43. e4 g5 44. Ke5 Kg7 45. Rb1 g4
+46. Kf4 g3+ 47. Kf3 g2 48. Rg1 Rh2 49. Kf2 Kf6 50. Rc1 Ke5 51. Rc6 Kxe4 52.
+Rxb6 Rh5 53. Kxg2 Kd4 54. Kg3 Kc4 55. Kf4 b4 56. Rc6+ Kd3 57. Rd6+ Kc3 58. Ke3
+Rh3+ 59. Ke2 b3 60. Rc6+ Kb2 61. Rc7 f5 62. Kd2 Rh2+ 63. Kd1 f4 64. Rf7 Rh1+
+65. Kd2 Rh4 66. Rf5 h5 67. Rf8 Rg4 68. Ke2 h4 69. Rh8 Rg7 70. Rxh4 Rf7 71. Rh8
+f3+ 72. Kf2 Kb1 73. Rb8 b2 74. Ra8 Rf5 75. Ra7 Rc5 0-1
+
+[Event "Ciutat de Sabadell op A"]
+[Site "Sabadell"]
+[Date "2016.09.09"]
+[Round "9"]
+[White "Gonzalez Garcia, Jose"]
+[Black "Suasnabar, Jesus"]
+[Result "1-0"]
+[ECO "A04"]
+[WhiteElo "2508"]
+[BlackElo "2031"]
+[PlyCount "83"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 c5 2. c4 Nf6 3. Nc3 e6 4. e3 Nc6 5. d4 d5 6. cxd5 exd5 7. Bb5 Bd6 8.
+dxc5 Bxc5 9. O-O O-O 10. b3 Be6 11. Bb2 Qe7 12. Bxc6 bxc6 13. Qd3 Bd7 14. Ne2
+Ba3 15. Bxa3 Qxa3 16. Ne5 Qd6 17. Nxd7 Nxd7 18. Rac1 c5 19. Rfd1 Nf6 20. h3
+Rfd8 21. Qf5 Rac8 22. Qf4 Qa6 23. Ng3 h6 24. Rc2 Qe6 25. Rdc1 Qb6 26. Nf5 Kh7
+27. g4 g5 28. Qf3 Re8 29. Ne7 Rcd8 30. Rxc5 Qe6 31. Nf5 Qe4 32. Qxe4 Rxe4 33.
+Rc7 Rd7 34. Rxd7 Nxd7 35. Rc7 Ne5 36. Kg2 a5 37. a3 Nd3 38. Rxf7+ Kg8 39. Nxh6+
+Kh8 40. Rd7 Nc1 41. Nf7+ Kg8 42. Nxg5 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.13"]
+[Round "1"]
+[White "Garcia Trobat, Francisco"]
+[Black "Suasnabar, Jesus"]
+[Result "1-0"]
+[ECO "A33"]
+[WhiteElo "2269"]
+[BlackElo "1982"]
+[PlyCount "55"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 c5 2. c4 Nf6 3. Nc3 e6 4. g3 Nc6 5. Bg2 Be7 6. O-O O-O 7. d4 cxd4 8.
+Nxd4 a6 9. b3 Qc7 10. Bb2 d6 11. Rc1 Nxd4 12. Qxd4 Bd7 13. Rfd1 Rfd8 14. h3
+Rac8 15. g4 h6 16. Qe3 Qb8 17. g5 hxg5 18. Qxg5 Rc5 19. Nd5 exd5 20. Bxd5 Rdc8
+21. Kh1 Rxd5 22. Rxd5 Kf8 23. Rg1 Bc6 24. Qxg7+ Ke8 25. Bxf6 Bxd5+ 26. cxd5 Qc7
+27. Qg8+ Bf8 28. Rg3 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.14"]
+[Round "2"]
+[White "Suasnabar, Jesus"]
+[Black "Parnali, S Dharia"]
+[Result "0-1"]
+[ECO "D93"]
+[WhiteElo "1982"]
+[BlackElo "2161"]
+[PlyCount "70"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 O-O 5. Bf4 d5 6. Rc1 c6 7. e3 Qa5 8. Be2
+Be6 9. Qb3 Qb6 10. c5 Qxb3 11. axb3 Nbd7 12. h3 Ne4 13. Nxe4 dxe4 14. Nd2 Bd5
+15. O-O e5 16. dxe5 Nxe5 17. Nc4 Bxc4 18. Bxc4 Rfd8 19. Rfd1 Nxc4 20. Rxd8+
+Rxd8 21. Rxc4 Rd1+ 22. Kh2 f5 23. Ra4 a6 24. Bd6 Bxb2 25. Bf4 Bc3 26. Rc4 Rd3
+27. Kg3 Kf7 28. h4 a5 29. Bc7 Bb4 30. Rd4 Rxd4 31. exd4 Ke6 32. Bf4 Kd5 33. h5
+Kxd4 34. h6 Bxc5 35. Kh4 Be7+ 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.15"]
+[Round "3"]
+[White "Sapale, Saloni"]
+[Black "Suasnabar, Jesus"]
+[Result "1/2-1/2"]
+[ECO "B32"]
+[WhiteElo "1929"]
+[BlackElo "1982"]
+[PlyCount "69"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Qb6 5. Nb3 e6 6. Be3 Qc7 7. a3 Nf6 8.
+Nc3 a6 9. f4 d6 10. Bd3 Be7 11. O-O O-O 12. Qf3 b5 13. Rae1 Bb7 14. Qh3 b4 15.
+axb4 Nxb4 16. Nd4 Nxd3 17. cxd3 Rfe8 18. Rf2 Bf8 19. g4 Nd7 20. Nf3 d5 21. e5
+Nc5 22. Rd1 g6 23. Rc2 Nd7 24. g5 Qa5 25. d4 Rac8 26. Qf1 Nb6 27. Ra1 Qb4 28.
+h4 Qc4 29. Nh2 Qxf1+ 30. Kxf1 Rc4 31. Ng4 Bg7 32. Rh2 Rb4 33. Rd1 Rc8 34. Bc1
+Rcc4 35. Rhd2 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.16"]
+[Round "4"]
+[White "Suasnabar, Jesus"]
+[Black "Hapala, Elisabeth"]
+[Result "0-1"]
+[ECO "B20"]
+[WhiteElo "1982"]
+[BlackElo "2222"]
+[PlyCount "82"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. c4 Nc6 3. Ne2 Nf6 4. Nbc3 e5 5. d3 g6 6. Bg5 Bg7 7. Nd5 h6 8. Be3
+d6 9. h3 Nd4 10. Nec3 a6 11. Qd2 Nxd5 12. Nxd5 Be6 13. Be2 O-O 14. O-O Kh7 15.
+f4 Bxd5 16. exd5 Nf5 17. Rab1 Nxe3 18. Qxe3 exf4 19. Qxf4 Qe7 20. Qe4 Be5 21.
+b4 b6 22. bxc5 bxc5 23. Kh1 Rab8 24. Qf3 Kg7 25. Qe4 f5 26. Qf3 Qg5 27. Rfd1 h5
+28. a4 Rfe8 29. Bf1 Rxb1 30. Rxb1 Bd4 31. g3 Be5 32. Rb7+ Kh6 33. Kg2 h4 34. g4
+Bd4 35. Kh1 Re3 36. Qd1 Qf4 37. Bg2 Be5 38. Kg1 fxg4 39. hxg4 h3 40. Qf1 Qh2+
+41. Kf2 Qg3+ 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.17"]
+[Round "5"]
+[White "Fernandez Aguilar, Francisco"]
+[Black "Suasnabar, Jesus"]
+[Result "0-1"]
+[ECO "B00"]
+[WhiteElo "2114"]
+[BlackElo "1982"]
+[PlyCount "64"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 a6 2. Nc3 c5 3. f4 e6 4. d4 cxd4 5. Qxd4 Nc6 6. Qf2 b5 7. Bd3 d6 8. Nf3
+Nf6 9. h3 Be7 10. Be3 Rb8 11. Rd1 Qc7 12. O-O O-O 13. e5 dxe5 14. fxe5 Nd7 15.
+Qg3 f5 16. Bh6 Rf7 17. Kh1 Nc5 18. Ng5 Bxg5 19. Bxg5 Bb7 20. Bf4 Rd8 21. Be2
+Nd4 22. Bh5 g6 23. Bg5 Rdd7 24. b4 Ne4 25. Nxe4 Bxe4 26. Bf6 Rxf6 27. Qf2 Qxe5
+28. c3 gxh5 29. cxd4 Qd5 30. Rc1 Rg6 31. Rg1 Qb7 32. Rce1 Rdg7 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.18"]
+[Round "6"]
+[White "Suasnabar, Jesus"]
+[Black "Chung, Mathilde"]
+[Result "1-0"]
+[ECO "B01"]
+[WhiteElo "1982"]
+[BlackElo "2169"]
+[PlyCount "155"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nf3 Nf6 4. d4 g6 5. Be2 Bg7 6. O-O O-O 7. c4 Qd6 8.
+Nc3 Bg4 9. Be3 a6 10. Qd2 Nc6 11. Bf4 Qd7 12. d5 Bxf3 13. Bxf3 Na7 14. Rfe1
+Rfe8 15. Re2 c6 16. Rae1 Rad8 17. Qe3 b5 18. Rd2 b4 19. Na4 cxd5 20. Nb6 d4 21.
+Qd3 Qf5 22. Qxf5 gxf5 23. Bc7 e6 24. Bxd8 Rxd8 25. Na4 Nd7 26. Bb7 a5 27. f4
+Nb8 28. Nc5 Nac6 29. Nd3 Kf8 30. b3 Ke7 31. Rde2 Rd7 32. Ba8 Ra7 33. Bxc6 Nxc6
+34. Kf2 Nd8 35. Ne5 f6 36. Nf3 Rd7 37. Rd1 Nc6 38. Rde1 Nd8 39. Rd1 Nc6 40.
+Rde1 Nd8 41. Nh4 Kf7 42. Rd2 Bh6 43. g3 Bf8 44. Ke2 Nb7 45. Kf3 Bc5 46. Rd3 Nd6
+47. Re2 Re7 48. g4 fxg4+ 49. Kxg4 e5 50. Nf5 Re6 51. Nxd6+ Bxd6 52. Kf5 Re8 53.
+fxe5 fxe5 54. Ke4 Ke6 55. Rh3 Re7 56. Rh6+ Kd7 57. Kd5 Bc7 58. Ke4 Rf7 59. Rd2
+Re7 60. c5 Rf7 61. c6+ Kc8 62. Rg2 Kd8 63. Re6 Rf4+ 64. Kd5 Rf8 65. Rg7 d3 66.
+Rd7+ Kc8 67. Kc4 Rd8 68. Rxd8+ Bxd8 69. Kxd3 Kc7 70. Ke4 Kb6 71. Kxe5 Bc7+ 72.
+Kd5 Bxh2 73. Rh6 Bf4 74. Rxh7 Bg3 75. Rb7+ Ka6 76. Ke6 Be1 77. Kd7 Bg3 78. c7
+1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.19"]
+[Round "7"]
+[White "Rendboe, John"]
+[Black "Suasnabar, Jesus"]
+[Result "1-0"]
+[ECO "B41"]
+[WhiteElo "2183"]
+[BlackElo "1982"]
+[PlyCount "99"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 a6 2. c4 e6 3. Nc3 c5 4. Nf3 cxd4 5. Nxd4 Qc7 6. e4 Nf6 7. Be3 b6 8. Be2
+Bb7 9. Qc2 Be7 10. O-O d6 11. Rac1 Nbd7 12. b3 O-O 13. f3 Rac8 14. Qd2 Qb8 15.
+Bd3 Rfe8 16. Qf2 d5 17. cxd5 exd5 18. Nxd5 Bxd5 19. exd5 Nxd5 20. Rxc8 Qxc8 21.
+Rc1 Bc5 22. Bd2 Ne5 23. Be4 Nf6 24. Bb1 Neg4 25. fxg4 Nxg4 26. Qf4 Qd7 27. Rxc5
+bxc5 28. Nf3 Nf6 29. h3 h6 30. Qf5 Qxf5 31. Bxf5 Ne4 32. Bxe4 Rxe4 33. Kf2 c4
+34. b4 c3 35. Bxc3 Rc4 36. Bd2 a5 37. bxa5 Ra4 38. Ke3 Kf8 39. Kd3 f5 40. Nd4
+g6 41. Bxh6+ Kf7 42. Bd2 Kf6 43. a3 Rxa3+ 44. Kc4 f4 45. Nb3 Ke6 46. Kb4 Ra2
+47. g3 Rb2 48. h4 Rc2 49. Bc3 Re2 50. Nd4+ 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.20"]
+[Round "8"]
+[White "Suasnabar, Jesus"]
+[Black "Carrasco Rodriguez, Jesus"]
+[Result "0-1"]
+[ECO "B54"]
+[WhiteElo "1982"]
+[BlackElo "2202"]
+[PlyCount "120"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. f3 e5 6. Nb3 Be7 7. c4 O-O 8. Be3
+b5 9. Nc3 bxc4 10. Bxc4 Bb7 11. O-O Nbd7 12. Nd5 Nxd5 13. Bxd5 Bxd5 14. Qxd5
+Nf6 15. Qa5 d5 16. Rad1 Qxa5 17. Nxa5 d4 18. Nc6 Bd6 19. Bxd4 exd4 20. e5 Rac8
+21. Rc1 Rxc6 22. Rxc6 Bxe5 23. Rfc1 Re8 24. Rc8 Kf8 25. Rxe8+ Nxe8 26. Rc8 Bc7
+27. Ra8 Bb6 28. Kf1 Ke7 29. Ke2 Nd6 30. Kd3 Kd7 31. Rg8 Ne8 32. g4 h6 33. h4 f6
+34. h5 Ke7 35. Rh8 Kf7 36. b3 Nc7 37. Rb8 Nd5 38. Rb7+ Ke6 39. Rxg7 Nb4+ 40.
+Kd2 Nxa2 41. f4 Nc3 42. g5 Ne4+ 43. Kd3 Nf2+ 44. Kc4 d3 45. gxh6 d2 46. Rg1 Ng4
+47. Rd1 Ne3+ 48. Kd3 Nxd1 49. h7 Ba5 50. h8=Q Nb2+ 51. Kc2 d1=Q+ 52. Kxb2 Qd2+
+53. Ka3 Qb4+ 54. Kb2 Qd4+ 55. Ka2 Qd2+ 56. Ka3 Bb4+ 57. Ka4 Be7 58. Qg8+ Kd7
+59. Qg4+ Kc7 60. f5 Kb6 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.21"]
+[Round "9"]
+[White "Suasnabar, Jesus"]
+[Black "Garcia Marin, Guillem"]
+[Result "1-0"]
+[ECO "B07"]
+[WhiteElo "1982"]
+[BlackElo "2116"]
+[PlyCount "85"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 c6 4. g3 e5 5. Nge2 Be7 6. Bg2 O-O 7. O-O b5 8. a3
+Bb7 9. h3 h5 10. Be3 Nbd7 11. f4 Qc7 12. Qd2 Rfe8 13. Rad1 a6 14. Bf3 Bf8 15.
+dxe5 dxe5 16. f5 a5 17. g4 hxg4 18. hxg4 Nb6 19. b3 b4 20. axb4 axb4 21. Nb1 c5
+22. Ng3 Red8 23. Qh2 Rxd1 24. Rxd1 Rd8 25. Nd2 c4 26. Kg2 Bc5 27. Rh1 Kf8 28.
+Bg5 Ke7 29. Re1 Bd4 30. Nh5 Bc3 31. Nxf6 Rxd2+ 32. Bxd2 gxf6 33. Bxc3 bxc3 34.
+bxc4 Nxc4 35. Qg1 Nd2 36. Qe3 Qc4 37. g5 Nxf3 38. Kxf3 Qd4 39. gxf6+ Kxf6 40.
+Qxd4 exd4 41. Kf4 Ba6 42. e5+ Ke7 43. Ke4 1-0

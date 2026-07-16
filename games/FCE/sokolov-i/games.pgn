@@ -1,0 +1,349 @@
+[Event "Magistral Casino-Ciutat de Barcelona"]
+[Site "?"]
+[Date "2012.10.23"]
+[Round "1"]
+[White "Sokolov, I."]
+[Black "Aroshidze, L."]
+[Result "0-1"]
+[ECO "E48"]
+[WhiteElo "2690"]
+[BlackElo "2560"]
+[PlyCount "86"]
+[EventDate "2012.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCategory "14"]
+
+1. d4 {[%clk 1:30]} Nf6 {[%clk 1:30]} 2. c4 {[%clk 1:31]} e6 {[%clk 1:30]} 3.
+Nc3 {[%clk 1:31]} Bb4 {[%clk 1:30]} 4. e3 {[%clk 1:31]} O-O {[%clk 1:31]} 5.
+Bd3 {[%clk 1:30]} d5 {[%clk 1:31]} 6. cxd5 {[%clk 1:29]} exd5 {[%clk 1:31]} 7.
+Nge2 {[%clk 1:29]} Re8 {[%clk 1:29]} 8. Bd2 {[%clk 1:30]} Bd6 {[%clk 1:28]} 9.
+Rc1 {[%clk 1:29]} c6 {[%clk 1:22]} 10. O-O {[%clk 1:28]} Ng4 {[%clk 1:21]} 11.
+g3 {[%clk 1:06]} Nf6 {[%clk 1:07]} 12. f3 {[%clk 0:59]} Nbd7 {[%clk 1:01]} 13.
+g4 {[%clk 0:51]} c5 {[%clk 0:57]} 14. Qe1 {[%clk 0:48]} cxd4 {[%clk 0:46]} 15.
+exd4 {[%clk 0:48]} Nb6 {[%clk 0:45]} 16. Qh4 {[%clk 0:44]} h6 {[%clk 0:42]} 17.
+b3 {[%clk 0:44]} Bd7 {[%clk 0:35]} 18. Kh1 {[%clk 0:38]} Nh7 {[%clk 0:33]} 19.
+Qf2 {[%clk 0:35]} Ng5 {[%clk 0:28]} 20. Kg2 {[%clk 0:32]} Ne6 {[%clk 0:22]} 21.
+f4 {[%clk 0:30]} Bc6 {[%clk 0:22]} 22. g5 {[%clk 0:23]} Ba3 {[%clk 0:11.43]}
+23. Rcd1 {[%clk 0:22]} Nc5 {[%clk 0:07.11]} 24. Bb1 {[%clk 0:19.53]} Ne4 {
+[%clk 0:07.10]} 25. Bxe4 {[%clk 0:20]} dxe4 {[%clk 0:07.32]} 26. Be3 {[%clk 0:
+20]} Qd6 {[%clk 0:04.34]} 27. gxh6 {[%clk 0:19.57]} Qxh6 {[%clk 0:04.41]} 28.
+f5 {[%clk 0:19.47]} Qh5 {[%clk 0:04.48]} 29. d5 {[%clk 0:20]} Bd7 {[%clk 0:02.
+51]} 30. Ng3 {[%clk 0:19.26]} Qg4 {[%clk 0:02.58]} 31. h3 {[%clk 0:17.17]} Qh4
+{[%clk 0:03.22]} 32. Rd4 {[%clk 0:09.39]} Bc5 {[%clk 0:02.12]} 33. Rxe4 {[%clk
+0:10.01]} Bxe3 {[%clk 0:02.11]} 34. Rxh4 {[%clk 0:07.32]} Bxf2 {[%clk 0:02.35]}
+35. Rxf2 {[%clk 0:07.59]} Nxd5 {[%clk 0:02.48]} 36. Nxd5 {[%clk 0:07.50]} Bc6 {
+[%clk 0:03.15]} 37. Kf1 {[%clk 0:01.50]} Bxd5 {[%clk 0:03.36]} 38. Rg4 {[%clk
+0:02.16]} Rac8 {[%clk 0:03.43]} 39. Rd2 {[%clk 0:02.43]} Re5 {[%clk 0:02.25]}
+40. Kf2 {[%clk 0:31]} Rc3 {[%clk 0:31]} 41. Rf4 {[%clk 0:31]} f6 {[%clk 0:27]}
+42. h4 {[%clk 0:32]} Kf7 {[%clk 0:26]} 43. Re2 {[%clk 0:26]} Rxg3 0-1
+
+[Event "Magistral Casino-Ciutat de Barcelona"]
+[Site "?"]
+[Date "2012.10.24"]
+[Round "2"]
+[White "Nikolic, P."]
+[Black "Sokolov, I."]
+[Result "0-1"]
+[ECO "D02"]
+[WhiteElo "2638"]
+[BlackElo "2690"]
+[PlyCount "80"]
+[EventDate "2012.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCategory "14"]
+
+1. d4 {[%clk 1:30]} Nf6 {[%clk 1:27]} 2. Nf3 {[%clk 1:30]} g6 {[%clk 1:27]} 3.
+g3 {[%clk 1:31]} d5 {[%clk 1:25]} 4. Bg2 {[%clk 1:31]} c6 {[%clk 1:24]} 5. b3 {
+[%clk 1:30]} a5 {[%clk 1:20]} 6. O-O {[%clk 1:29]} a4 {[%clk 1:20]} 7. Bb2 {
+[%clk 1:28]} Qb6 {[%clk 1:18]} 8. Nc3 {[%clk 1:26]} Bg7 {[%clk 1:17]} 9. e3 {
+[%clk 1:20]} O-O {[%clk 1:10]} 10. Ba3 {[%clk 1:13]} Qc7 {[%clk 1:10]} 11. Ne5
+{[%clk 1:08]} Re8 {[%clk 1:01]} 12. Re1 {[%clk 0:50]} Nbd7 {[%clk 0:57]} 13. f4
+{[%clk 0:49]} e6 {[%clk 0:51]} 14. Qd3 {[%clk 0:41]} b6 {[%clk 0:45]} 15. bxa4
+{[%clk 0:35]} Ba6 {[%clk 0:45]} 16. Qd2 {[%clk 0:35]} c5 {[%clk 0:46]} 17. Rab1
+{[%clk 0:32]} Rec8 {[%clk 0:37]} 18. Rb3 {[%clk 0:32]} Ne8 {[%clk 0:35]} 19. a5
+{[%clk 0:20]} Nxe5 {[%clk 0:32]} 20. fxe5 {[%clk 0:16.13]} cxd4 {[%clk 0:32]}
+21. exd4 {[%clk 0:16.37]} bxa5 {[%clk 0:31]} 22. Bc5 {[%clk 0:15.40]} Qd7 {
+[%clk 0:28]} 23. a4 {[%clk 0:14.30]} Bc4 {[%clk 0:28]} 24. Rbb1 {[%clk 0:12.47]
+} Rab8 {[%clk 0:27]} 25. Rxb8 {[%clk 0:11.40]} Rxb8 {[%clk 0:26]} 26. Bf1 {
+[%clk 0:12.06]} Bxf1 {[%clk 0:26]} 27. Rxf1 {[%clk 0:12.33]} Rc8 {[%clk 0:23]}
+28. Bb6 {[%clk 0:09.59]} f6 {[%clk 0:22]} 29. exf6 {[%clk 0:09.32]} Nxf6 {
+[%clk 0:22]} 30. Re1 {[%clk 0:04.29]} Rc4 {[%clk 0:22]} 31. Bc5 {[%clk 0:02.39]
+} Qc6 {[%clk 0:21]} 32. Nb5 {[%clk 0:01.33]} Ne4 {[%clk 0:20]} 33. Qxa5 {[%clk
+0:01.57]} Nxc5 {[%clk 0:18.29]} 34. Qd8+ {[%clk 0:01.06]} Bf8 {[%clk 0:18.55]}
+35. c3 {[%clk 0:01.14]} Nd7 {[%clk 0:16.19]} 36. Qe8 {[%clk 0:01.22]} Nf6 {
+[%clk 0:15.27]} 37. Qd8 {[%clk 0:01.30]} Ne8 {[%clk 0:13.14]} 38. Rf1 {[%clk 0:
+01.19]} Qc8 {[%clk 0:11.58]} 39. Qg5 {[%clk 0:01.31]} Qd7 {[%clk 0:11.04]} 40.
+Qf4 {[%clk 0:30]} Bg7 {[%clk 0:41]} 0-1
+
+[Event "Magistral Casino-Ciutat de Barcelona"]
+[Site "?"]
+[Date "2012.10.25"]
+[Round "3"]
+[White "Sokolov, I."]
+[Black "Oms Pallisse, J."]
+[Result "1/2-1/2"]
+[ECO "A40"]
+[WhiteElo "2690"]
+[BlackElo "2506"]
+[PlyCount "121"]
+[EventDate "2012.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCategory "14"]
+
+1. d4 {[%clk 1:20] 6} e6 {[%clk 1:30] 6} 2. c4 {[%clk 1:20] 6} Bb4+ {[%clk 1:
+31]} 3. Bd2 {[%clk 1:20]} Qe7 {[%clk 1:31]} 4. Nc3 {[%clk 1:18]} Nf6 {[%clk 1:
+30]} 5. Qc2 {[%clk 1:17]} Nc6 {[%clk 1:10]} 6. Nf3 {[%clk 1:14]} O-O {[%clk 1:
+09]} 7. a3 {[%clk 1:03]} Bxc3 {[%clk 1:09]} 8. Bxc3 {[%clk 1:03]} d6 {[%clk 1:
+07]} 9. g3 {[%clk 0:58]} a5 {[%clk 1:00]} 10. Bg2 {[%clk 0:56]} e5 {[%clk 0:56]
+} 11. d5 {[%clk 0:52]} Nb8 {[%clk 0:56]} 12. O-O {[%clk 0:48]} a4 {[%clk 0:46]}
+13. Nh4 {[%clk 0:48]} c6 {[%clk 0:44]} 14. dxc6 {[%clk 0:37]} Nxc6 {[%clk 0:44]
+} 15. Rad1 {[%clk 0:38]} Qc7 {[%clk 0:39]} 16. Nf5 {[%clk 0:35]} Rd8 {[%clk 0:
+38]} 17. Ne3 {[%clk 0:35]} Ne7 {[%clk 0:33]} 18. Qd2 {[%clk 0:30]} Nc6 {[%clk
+0:24]} 19. Bxc6 {[%clk 0:29]} Qxc6 {[%clk 0:22]} 20. Bxe5 {[%clk 0:28]} Ne4 {
+[%clk 0:19.28]} 21. Qd4 {[%clk 0:29] 2} Ng5 {[%clk 0:14.22]} 22. h4 {[%clk 0:
+24] ]} Ne6 {[%clk 0:13.17]} 23. Qd3 {[%clk 0:23] 7} Qe8 {[%clk 0:11.36]} 24.
+Bc3 {[%clk 0:23] 6} Nc5 {[%clk 0:10.53]} 25. Qd4 {[%clk 0:24] 3} f6 {[%clk 0:
+10.57]} 26. Nd5 {[%clk 0:23] 5} Bh3 {[%clk 0:09.05]} 27. Rfe1 {[%clk 0:23] ]}
+Qf7 {[%clk 0:07.36]} 28. Bb4 {[%clk 0:17.13]} Ne6 {[%clk 0:05.54]} 29. Qe3 {
+[%clk 0:17.40]} Ra6 {[%clk 0:04.32]} 30. f3 {[%clk 0:15.23]} h5 {[%clk 0:04.12]
+} 31. Qd3 {[%clk 0:15.15]} Nc7 {[%clk 0:02.19]} 32. Nf4 {[%clk 0:12.43]} Be6 {
+[%clk 0:02.32]} 33. Nxe6 {[%clk 0:10.12]} Qxe6 {[%clk 0:02.01]} 34. Kg2 {[%clk
+0:10.35]} Rc6 {[%clk 0:02.02]} 35. Qg6 {[%clk 0:09.47]} Rxc4 {[%clk 0:01.18]}
+36. Qxh5 {[%clk 0:10.13]} Rc2 {[%clk 0:01.11]} 37. Rd2 {[%clk 0:10.35]} Rxd2 {
+[%clk 0:01.11]} 38. Bxd2 {[%clk 0:11.03]} Rc8 {[%clk 0:01.08]} 39. Qg6 {[%clk
+0:10.33]} Nd5 {[%clk 0:01.09]} 40. Qd3 {[%clk 0:40] 9} Nb6 {[%clk 0:30] 9} 41.
+Bc3 {[%clk 0:36] 9} Nc4 {[%clk 0:27] 9} 42. e4 {[%clk 0:37] 9} Rc6 {[%clk 0:25]
+} 43. Re2 {[%clk 0:34]} Rb6 {[%clk 0:22]} 44. g4 {[%clk 0:33]} Rb3 {[%clk 0:19.
+16]} 45. Qd4 {[%clk 0:29] 6} b5 {[%clk 0:17.31]} 46. g5 {[%clk 0:27] ]} Ne5 {
+[%clk 0:16.59]} 47. Re3 {[%clk 0:19.26]} Kf7 {[%clk 0:12.12]} 48. Qa7+ {[%clk
+0:18.51]} Qe7 {[%clk 0:11.41]} 49. Qxe7+ {[%clk 0:16.39]} Kxe7 {[%clk 0:12.08]}
+50. gxf6+ {[%clk 0:17.01]} gxf6 {[%clk 0:12.32]} 51. f4 {[%clk 0:13.57] [%clk
+0:14.26]} b4 {[%clk 0:08.30]} 52. fxe5 {[%clk 0:11.02]} bxc3 {[%clk 0:08.41]}
+53. exd6+ {[%clk 0:11.30]} Kxd6 {[%clk 0:08.59]} 54. Rxc3 {[%clk 0:11.41]}
+Rxb2+ {[%clk 0:08.44]} 55. Kf3 {[%clk 0:11.20]} Rb3 {[%clk 0:07.03]} 56. Re3 {
+[%clk 0:11.48]} Ke5 {[%clk 0:07.27]} 57. h5 {[%clk 0:12.06]} Kd4 {[%clk 0:06.
+54]} 58. Rxb3 {[%clk 0:11.54]} axb3 {[%clk 0:07.20]} 59. h6 {[%clk 0:12.19]} b2
+{[%clk 0:07.45]} 60. h7 {[%clk 0:12.43]} b1=Q {[%clk 0:08.07]} 61. h8=Q 1/2-1/2
+
+[Event "Magistral Casino-Ciutat de Barcelona"]
+[Site "?"]
+[Date "2012.10.26"]
+[Round "4"]
+[White "Nielsen, PH."]
+[Black "Sokolov, I."]
+[Result "1/2-1/2"]
+[ECO "D61"]
+[WhiteElo "2662"]
+[BlackElo "2690"]
+[PlyCount "78"]
+[EventDate "2012.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCategory "14"]
+
+1. d4 {[%clk 1:29] 2} Nf6 {[%clk 1:22] 2} 2. c4 {[%clk 1:29] 2} e6 {[%clk 1:22]
+} 3. Nf3 {[%clk 1:29]} d5 {[%clk 1:21]} 4. Nc3 {[%clk 1:30]} Nbd7 {[%clk 1:21]}
+5. Bg5 {[%clk 1:30]} h6 {[%clk 1:20]} 6. Bh4 {[%clk 1:30]} Be7 {[%clk 1:17]} 7.
+e3 {[%clk 1:30]} O-O {[%clk 1:14]} 8. Qc2 {[%clk 1:31]} c5 {[%clk 1:12]} 9.
+cxd5 {[%clk 1:30]} Nxd5 {[%clk 1:09]} 10. Bxe7 {[%clk 1:29]} Nxe7 {[%clk 1:10]}
+11. Be2 {[%clk 1:29]} cxd4 {[%clk 1:01]} 12. Nxd4 {[%clk 1:28]} Nf6 {[%clk 0:
+59]} 13. O-O {[%clk 1:28]} a6 {[%clk 0:53]} 14. Rfd1 {[%clk 1:26]} Bd7 {[%clk
+0:53]} 15. Bf3 {[%clk 1:20]} Qb6 {[%clk 0:45]} 16. Qb3 {[%clk 1:13]} Qxb3 {
+[%clk 0:45]} 17. Nxb3 {[%clk 1:13]} Bc6 {[%clk 0:45]} 18. Bxc6 {[%clk 1:12]}
+Nxc6 {[%clk 0:45]} 19. Nc5 {[%clk 1:13]} b6 {[%clk 0:44]} 20. N5e4 {[%clk 1:01]
+} Nxe4 {[%clk 0:44]} 21. Nxe4 {[%clk 1:02]} Rfd8 {[%clk 0:44]} 22. Kf1 {[%clk
+1:01]} Kf8 {[%clk 0:42]} 23. Ke2 {[%clk 1:00]} Ke7 {[%clk 0:42]} 24. Rxd8 {
+[%clk 0:59]} Rxd8 {[%clk 0:42]} 25. Rc1 {[%clk 0:59]} Rc8 {[%clk 0:41]} 26. Rc3
+{[%clk 0:59]} Na7 {[%clk 0:40]} 27. Rxc8 {[%clk 0:58]} Nxc8 {[%clk 0:41]} 28.
+Kd3 {[%clk 0:58]} Nd6 {[%clk 0:37]} 29. Nxd6 {[%clk 0:58]} Kxd6 {[%clk 0:38]}
+30. Kd4 {[%clk 0:58]} e5+ {[%clk 0:38]} 31. Kc4 {[%clk 0:56]} g5 {[%clk 0:17.
+04]} 32. g4 {[%clk 0:52] 4} Kc6 {[%clk 0:17.03]} 33. b4 {[%clk 0:52] 3} Kd6 {
+[%clk 0:14.55]} 34. e4 {[%clk 0:45] ]} b5+ {[%clk 0:15.07]} 35. Kd3 {[%clk 0:
+45] 7} Kc6 {[%clk 0:15.30]} 36. Kc3 {[%clk 0:46] 3} Kd6 {[%clk 0:15.56]} 37.
+Kd3 {[%clk 0:46] ]} Kc6 {[%clk 0:16.19]} 38. Kc3 {[%clk 0:47] 9} Kd6 {[%clk 0:
+16.45]} 39. Kd3 {[%clk 0:47] 5} Kc6 1/2-1/2
+
+[Event "Magistral Casino-Ciutat de Barcelona"]
+[Site "?"]
+[Date "2012.10.27"]
+[Round "5"]
+[White "Sokolov, I."]
+[Black "Muñoz Pantoja, M."]
+[Result "1-0"]
+[ECO "A30"]
+[WhiteElo "2690"]
+[BlackElo "2460"]
+[PlyCount "75"]
+[EventDate "2012.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCategory "14"]
+
+1. Nf3 {[%clk 1:22]} c5 {[%clk 1:30]} 2. c4 {[%clk 1:22]} Nc6 {[%clk 1:30]} 3.
+d4 {[%clk 1:22]} Nf6 {[%clk 1:30]} 4. d5 {[%clk 1:17]} Na5 {[%clk 1:30]} 5. Nc3
+{[%clk 1:16]} d6 {[%clk 1:29]} 6. e4 {[%clk 1:16]} g6 {[%clk 1:29]} 7. h3 {
+[%clk 1:06]} Bg7 {[%clk 1:29]} 8. Bg5 {[%clk 1:03]} e5 {[%clk 1:25]} 9. b4 {
+[%clk 0:58]} cxb4 {[%clk 1:24]} 10. Qa4+ {[%clk 0:58]} Bd7 {[%clk 1:19]} 11.
+Qxb4 {[%clk 0:59]} Qc7 {[%clk 1:19]} 12. Rc1 {[%clk 0:49]} O-O {[%clk 1:17]}
+13. Nb5 {[%clk 0:49]} Bxb5 {[%clk 1:17]} 14. cxb5 {[%clk 0:49]} Qd8 {[%clk 1:
+17]} 15. Be2 {[%clk 0:43]} b6 {[%clk 1:16]} 16. Be3 {[%clk 0:40]} Nb7 {[%clk 1:
+15]} 17. Rc6 {[%clk 0:40]} Nd7 {[%clk 1:14]} 18. h4 {[%clk 0:40]} Ndc5 {[%clk
+1:13]} 19. h5 {[%clk 0:39]} Bf6 {[%clk 1:12]} 20. g4 {[%clk 0:26]} Rb8 {[%clk
+1:07]} 21. g5 {[%clk 0:26]} Be7 {[%clk 1:06]} 22. Bd2 {[%clk 0:23]} Re8 {[%clk
+0:57]} 23. Qc4 {[%clk 0:20]} Na5 {[%clk 0:56]} 24. Bxa5 {[%clk 0:16.35]} bxa5 {
+[%clk 0:56]} 25. hxg6 {[%clk 0:14.50]} hxg6 {[%clk 0:57]} 26. Nxe5 {[%clk 0:14.
+04]} dxe5 {[%clk 0:37]} 27. Qc3 {[%clk 0:14.28]} Bf8 {[%clk 0:21]} 28. Qh3 {
+[%clk 0:13.04]} Bg7 {[%clk 0:22]} 29. Rxc5 {[%clk 0:13.20]} Qxg5 {[%clk 0:21]}
+30. Rc7 {[%clk 0:10.54]} a6 {[%clk 0:19.21]} 31. bxa6 {[%clk 0:09.35]} Rb1+ {
+[%clk 0:15.49]} 32. Bd1 {[%clk 0:08.34]} Qf4 {[%clk 0:15.55]} 33. Qd3 {[%clk 0:
+06.59]} Rb4 {[%clk 0:14.48]} 34. Rc4 {[%clk 0:06.25]} Bf8 {[%clk 0:13.59]} 35.
+Qh3 {[%clk 0:05.15]} Bh6 {[%clk 0:13.25]} 36. Rxb4 {[%clk 0:04.41]} Qd2+ {
+[%clk 0:13.44]} 37. Kf1 {[%clk 0:05.07]} axb4 {[%clk 0:14.02]} 38. Ba4 1-0
+
+[Event "Magistral Casino-Ciutat de Barcelona"]
+[Site "?"]
+[Date "2012.10.28"]
+[Round "6"]
+[White "Sokolov, I."]
+[Black "Fluvia Poyatos, Joan"]
+[Result "0-1"]
+[ECO "E48"]
+[WhiteElo "2690"]
+[BlackElo "2490"]
+[PlyCount "90"]
+[EventDate "2012.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCategory "14"]
+
+1. d4 {[%clk 1:20]} Nf6 {[%clk 1:30]} 2. c4 {[%clk 1:20]} e6 {[%clk 1:31]} 3.
+Nc3 {[%clk 1:20]} Bb4 {[%clk 1:31]} 4. e3 {[%clk 1:20]} O-O {[%clk 1:31]} 5.
+Bd3 {[%clk 1:20]} d5 {[%clk 1:31]} 6. cxd5 {[%clk 1:18]} exd5 {[%clk 1:31]} 7.
+Nge2 {[%clk 1:18]} Re8 {[%clk 1:31]} 8. Bd2 {[%clk 1:17]} Bd6 {[%clk 1:28]} 9.
+Rc1 {[%clk 1:15]} c6 {[%clk 1:29]} 10. f3 {[%clk 1:15]} a5 {[%clk 1:28]} 11.
+O-O {[%clk 1:14]} Na6 {[%clk 1:29]} 12. Qe1 {[%clk 1:05]} Nc7 {[%clk 1:29]} 13.
+Kh1 {[%clk 1:02]} Ne6 {[%clk 1:28]} 14. Qf2 {[%clk 0:59]} c5 {[%clk 1:22]} 15.
+Nb5 {[%clk 0:49]} Bf8 {[%clk 1:21]} 16. dxc5 {[%clk 0:46]} Nxc5 {[%clk 1:21]}
+17. Bc2 {[%clk 0:46] [%clk 0:46]} b6 {[%clk 1:08]} 18. Bc3 {[%clk 0:47]} Ba6 {
+[%clk 1:07]} 19. a4 {[%clk 0:41]} Ncd7 {[%clk 1:02]} 20. Ned4 {[%clk 0:39]} Ne5
+{[%clk 0:59]} 21. Rfe1 {[%clk 0:36]} Rc8 {[%clk 0:54]} 22. Rcd1 {[%clk 0:37]}
+Rc5 {[%clk 0:44]} 23. h3 {[%clk 0:34]} Qb8 {[%clk 0:40]} 24. Nf5 {[%clk 0:34]}
+g6 {[%clk 0:35]} 25. Qh4 {[%clk 0:33]} Qd8 {[%clk 0:34]} 26. Nh6+ {[%clk 0:32]}
+Bxh6 {[%clk 0:34]} 27. Qxh6 {[%clk 0:32]} Bxb5 {[%clk 0:34]} 28. axb5 {[%clk 0:
+33]} Nh5 {[%clk 0:35]} 29. Rd4 {[%clk 0:31]} f5 {[%clk 0:31]} 30. e4 {[%clk 0:
+24]} f4 {[%clk 0:30]} 31. Rxd5 {[%clk 0:23]} Rxd5 {[%clk 0:21]} 32. Bb3 {[%clk
+0:12.58]} Nf7 {[%clk 0:20]} 33. Bxd5 {[%clk 0:11.33]} Qxd5 {[%clk 0:21]} 34.
+exd5 {[%clk 0:11.49]} Rxe1+ {[%clk 0:21]} 35. Bxe1 {[%clk 0:12.18]} Nxh6 {
+[%clk 0:21]} 36. Bf2 {[%clk 0:12.09]} Nf5 {[%clk 0:20]} 37. Bxb6 {[%clk 0:12.
+24]} Nd6 {[%clk 0:20]} 38. Bxa5 {[%clk 0:12.19]} Nxb5 {[%clk 0:20]} 39. h4 {
+[%clk 0:12.29]} Kf7 {[%clk 0:18.12]} 40. Kh2 {[%clk 0:42]} Kf6 {[%clk 0:46]}
+41. Kh3 {[%clk 0:43]} Kf5 {[%clk 0:47]} 42. Bb4 {[%clk 0:43]} Nf6 {[%clk 0:46]}
+43. d6 {[%clk 0:43]} h5 {[%clk 0:46]} 44. g3 {[%clk 0:41]} Ke6 {[%clk 0:44]}
+45. gxf4 {[%clk 0:41]} Nxd6 0-1
+
+[Event "Magistral Casino-Ciutat de Barcelona"]
+[Site "?"]
+[Date "2012.10.29"]
+[Round "7"]
+[White "Quesada Perez, Y."]
+[Black "Sokolov, I."]
+[Result "1/2-1/2"]
+[ECO "C78"]
+[WhiteElo "2604"]
+[BlackElo "2690"]
+[PlyCount "81"]
+[EventDate "2012.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCategory "14"]
+
+1. e4 {[%clk 1:30]} e5 {[%clk 1:18]} 2. Nf3 {[%clk 1:31]} Nc6 {[%clk 1:18]} 3.
+Bb5 {[%clk 1:31]} a6 {[%clk 1:19]} 4. Ba4 {[%clk 1:32]} Nf6 {[%clk 1:19]} 5.
+O-O {[%clk 1:32]} b5 {[%clk 1:20]} 6. Bb3 {[%clk 1:32]} Bb7 {[%clk 1:20]} 7. d3
+{[%clk 1:32]} Bc5 {[%clk 1:19]} 8. Nc3 {[%clk 1:27]} O-O {[%clk 1:16]} 9. Nd5 {
+[%clk 1:18]} h6 {[%clk 1:11]} 10. Be3 {[%clk 1:16]} d6 {[%clk 1:01]} 11. a4 {
+[%clk 1:09]} Nd4 {[%clk 0:46]} 12. Nxd4 {[%clk 0:57]} exd4 {[%clk 0:42]} 13.
+Bd2 {[%clk 0:55]} Nxd5 {[%clk 0:41]} 14. exd5 {[%clk 0:53]} Qf6 {[%clk 0:40]}
+15. axb5 {[%clk 0:47]} axb5 {[%clk 0:40]} 16. Rxa8 {[%clk 0:47]} Rxa8 {[%clk 0:
+40]} 17. Re1 {[%clk 0:47]} Qf5 {[%clk 0:33]} 18. Re4 {[%clk 0:47]} Bb6 {[%clk
+0:33]} 19. h3 {[%clk 0:46]} Kf8 {[%clk 0:28]} 20. Rf4 {[%clk 0:40]} Qg6 {[%clk
+0:23]} 21. Qf3 {[%clk 0:23]} Bc8 {[%clk 0:22]} 22. Re4 {[%clk 0:22]} Ra1+ {
+[%clk 0:20]} 23. Kh2 {[%clk 0:19.09]} Bf5 {[%clk 0:19.33]} 24. Re1 {[%clk 0:17.
+40]} Rxe1 {[%clk 0:19.48]} 25. Bxe1 {[%clk 0:18.08]} Qg5 {[%clk 0:17.41]} 26.
+Qd1 {[%clk 0:17.24]} Qe7 {[%clk 0:17.34]} 27. Bd2 {[%clk 0:17.21]} Bc8 {[%clk
+0:15.20]} 28. Qe1 {[%clk 0:16.41]} Qxe1 {[%clk 0:14.27]} 29. Bxe1 {[%clk 0:17.
+09]} g5 {[%clk 0:14.46]} 30. Bd2 {[%clk 0:16.38]} Kg7 {[%clk 0:14.57]} 31. f4 {
+[%clk 0:16.18]} g4 {[%clk 0:14.54]} 32. h4 {[%clk 0:16.08]} h5 {[%clk 0:14.25]}
+33. g3 {[%clk 0:16.33]} Bf5 {[%clk 0:14.40]} 34. Kg2 {[%clk 0:16.56]} Kf6 {
+[%clk 0:15.04]} 35. Kf2 {[%clk 0:17.20]} Ke7 {[%clk 0:15.22]} 36. Ke2 {[%clk 0:
+17.43]} Kd7 {[%clk 0:15.29]} 37. Be1 {[%clk 0:17.24]} Kc8 {[%clk 0:15.51]} 38.
+Ba2 {[%clk 0:17.14]} Kb7 {[%clk 0:16.11]} 39. b4 {[%clk 0:17.25]} Kc8 {[%clk 0:
+16.25]} 40. Bb3 {[%clk 0:47]} Kb7 {[%clk 0:46]} 41. Bd2 1/2-1/2
+
+[Event "Magistral Casino-Ciutat de Barcelona"]
+[Site "?"]
+[Date "2012.10.30"]
+[Round "8"]
+[White "Sokolov, I."]
+[Black "Alonso Rosell, A."]
+[Result "1-0"]
+[ECO "D43"]
+[WhiteElo "2690"]
+[BlackElo "2540"]
+[PlyCount "83"]
+[EventDate "2012.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCategory "14"]
+
+1. d4 {[%clk 1:21]} d5 {[%clk 1:30]} 2. Nf3 {[%clk 1:21]} Nf6 {[%clk 1:31]} 3.
+c4 {[%clk 1:21]} c6 {[%clk 1:31]} 4. Nc3 {[%clk 1:20]} e6 {[%clk 1:32]} 5. g3 {
+[%clk 1:20]} Nbd7 {[%clk 1:31]} 6. Qd3 {[%clk 1:20]} b6 {[%clk 1:19]} 7. cxd5 {
+[%clk 1:13]} cxd5 {[%clk 1:17]} 8. Bg2 {[%clk 1:13]} Be7 {[%clk 1:16]} 9. Bf4 {
+[%clk 1:10]} O-O {[%clk 1:10]} 10. O-O {[%clk 1:08]} Bb7 {[%clk 1:01]} 11. Nb5
+{[%clk 0:57]} Ne8 {[%clk 0:48]} 12. h4 {[%clk 0:48]} a6 {[%clk 0:45]} 13. Nc3 {
+[%clk 0:48]} h6 {[%clk 0:44]} 14. Rac1 {[%clk 0:43]} Nef6 {[%clk 0:26]} 15. a4
+{[%clk 0:34]} Rc8 {[%clk 0:23]} 16. Rc2 {[%clk 0:33]} Rc6 {[%clk 0:14.39]} 17.
+Rfc1 {[%clk 0:32] 9} Qa8 {[%clk 0:09.53]} 18. Nd2 {[%clk 0:33] 3} Nh5 {[%clk 0:
+04.47]} 19. Be3 {[%clk 0:28] 7} Nhf6 {[%clk 0:04.58]} 20. Bh3 {[%clk 0:28] ]}
+Rd8 {[%clk 0:02.16]} 21. Bf4 {[%clk 0:24] 6} Nh5 {[%clk 0:02.22]} 22. Nf3 {
+[%clk 0:24] 2} Nhf6 {[%clk 0:01.38]} 23. Qe3 {[%clk 0:23] ]} Ne4 {[%clk 0:00.
+14] [%clk 0:00.43]} 24. Nd2 {[%clk 0:15.43]} Nxc3 {[%clk 0:00.48]} 25. bxc3 {
+[%clk 0:15.28]} b5 {[%clk 0:01.04]} 26. Nb3 {[%clk 0:14.59]} Nb6 {[%clk 0:01.
+07]} 27. axb5 {[%clk 0:12.03]} axb5 {[%clk 0:01.35]} 28. Ra1 {[%clk 0:12.30]}
+Na4 {[%clk 0:01.41]} 29. Nc1 {[%clk 0:12.48]} Qc8 {[%clk 0:01.01]} 30. Nd3 {
+[%clk 0:12.47]} Rxc3 {[%clk 0:00.51]} 31. Rxc3 {[%clk 0:13.11]} Nxc3 {[%clk 0:
+01.11]} 32. Be5 {[%clk 0:13.31]} b4 {[%clk 0:00.45]} 33. g4 {[%clk 0:12.57]}
+Ba6 {[%clk 0:00.46]} 34. g5 {[%clk 0:09.24]} hxg5 {[%clk 0:01.15]} 35. hxg5 {
+[%clk 0:09.53]} Re8 {[%clk 0:00.34]} 36. g6 {[%clk 0:09.59]} Bxd3 {[%clk 0:00.
+34]} 37. gxf7+ {[%clk 0:10.23]} Kxf7 {[%clk 0:01.01]} 38. exd3 {[%clk 0:10.50]}
+Bf6 {[%clk 0:01.11]} 39. Bg4 {[%clk 0:10.14]} Re7 {[%clk 0:00.55]} 40. Bh5+ {
+[%clk 0:38]} Kg8 {[%clk 0:30]} 41. Bg6 {[%clk 0:37]} Bxe5 {[%clk 0:11.33]} 42.
+dxe5 {[%clk 0:37]} 1-0
+
+[Event "Magistral Casino-Ciutat de Barcelona"]
+[Site "?"]
+[Date "2012.10.31"]
+[Round "9"]
+[White "Sjugirov, S."]
+[Black "Sokolov, I."]
+[Result "1/2-1/2"]
+[ECO "E11"]
+[WhiteElo "2624"]
+[BlackElo "2690"]
+[PlyCount "83"]
+[EventDate "2012.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCategory "14"]
+
+1. d4 Nf6 2. c4 e6 3. g3 d5 4. Nf3 Bb4+ 5. Bd2 Bd6 6. Bg2 Nc6 7. O-O dxc4 8.
+Qa4 O-O 9. Qxc4 e5 10. dxe5 Nxe5 11. Nxe5 Bxe5 12. Bc3 Qe7 13. Bxe5 Qxe5 14.
+Nc3 c6 15. Rad1 a5 16. Qd4 Qxd4 17. Rxd4 Be6 18. Rfd1 Rfe8 19. h3 Re7 20. e4
+Rd7 21. f4 Rad8 22. Rxd7 Rxd7 23. Rxd7 Nxd7 24. Kf2 f6 25. Ke3 Kf8 26. Bf1 Ke7
+27. a3 b5 28. h4 Kd6 29. b4 axb4 30. axb4 Nb8 31. e5+ fxe5 32. Ne4+ Ke7 33. Nc5
+exf4+ 34. Kxf4 Nd7 35. Nxd7 Kxd7 36. Ke5 Bg4 37. Bd3 h6 38. Be4 Bd1 39. Bf5+
+Kc7 40. Be4 Bh5 41. Bg2 Bg4 42. Ke4 1/2-1/2

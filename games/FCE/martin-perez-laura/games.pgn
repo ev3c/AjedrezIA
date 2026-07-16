@@ -1,0 +1,591 @@
+[Event "Badalona op A"]
+[Site "Badalona"]
+[Date "2016.08.02"]
+[Round "1"]
+[White "Alvarez Pedraza, Aramis"]
+[Black "Martin Perez, Laura"]
+[Result "1-0"]
+[ECO "A04"]
+[WhiteElo "2483"]
+[BlackElo "2113"]
+[PlyCount "93"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 c5 2. b3 Nc6 3. Bb2 Nf6 4. c4 g6 5. Bxf6 exf6 6. Nc3 Bg7 7. g3 d6 8. Bg2
+O-O 9. O-O f5 10. Ne1 Rb8 11. Nd3 a6 12. Nf4 Bd7 13. a4 Nd4 14. e3 Ne6 15. Nfd5
+Nc7 16. Nxc7 Qxc7 17. Nd5 Qd8 18. Rb1 b5 19. axb5 axb5 20. Qc2 Re8 21. Qa2 Be6
+22. Qa6 b4 23. Rbd1 Bxd5 24. Bxd5 Qb6 25. Qa2 Re7 26. Qc2 Rbe8 27. Qd3 Ra7 28.
+f4 Qd8 29. h3 Rf8 30. Rf2 Ra1 31. Rxa1 Bxa1 32. g4 fxg4 33. hxg4 Qh4 34. Qe2
+Bg7 35. g5 Qh3 36. Qd3 Qg4+ 37. Rg2 Qd1+ 38. Kf2 Bc3 39. Kg3 Re8 40. Bf3 Qe1+
+41. Rf2 Re6 42. Kg2 Qc1 43. dxc3 Rxe3 44. Qd2 Rxc3 45. Qxc1 Rxc1 46. Rd2 Rc3
+47. Bd1 1-0
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.05"]
+[Round "2"]
+[White "Nandhini, Saripalli"]
+[Black "Martin Perez, Laura"]
+[Result "0-1"]
+[ECO "A45"]
+[WhiteElo "1716"]
+[BlackElo "2104"]
+[PlyCount "94"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Bg5 e6 3. Nd2 h6 4. Bh4 Be7 5. e3 b6 6. Ngf3 Bb7 7. Bd3 c5 8. Qe2
+d5 9. Bxf6 Bxf6 10. c3 Nd7 11. O-O-O Qc7 12. Kb1 O-O-O 13. e4 Kb8 14. e5 Be7
+15. Ba6 Ba8 16. c4 cxd4 17. Rc1 d3 18. Qe1 d4 19. c5 bxc5 20. Bxd3 g5 21. Be4
+g4 22. Nxd4 Nxe5 23. Nb5 Qb6 24. Bxa8 Nd3 25. Qe4 Qxb5 26. Nc4 Rd4 27. Qc6 Qxc6
+28. Bxc6 Nxc1 29. Rxc1 Kc7 30. Ba4 h5 31. Bb5 Rb8 32. a4 Bg5 33. Rc2 Ra8 34.
+Ne5 Rd1+ 35. Ka2 a6 36. Bc6 Rb8 37. Be4 f5 38. Bd3 Rc1 39. Rxc1 Bxc1 40. b3 Bf4
+41. Ng6 Bxh2 42. Bxa6 Rg8 43. Nh4 Bg1 44. Bc4 Bxf2 45. Nxf5 Rg6 46. Ne7 Rg7 47.
+Bxe6 Rxe7 0-1
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.06"]
+[Round "3"]
+[White "Martin Perez, Laura"]
+[Black "Fernandez Diaz, Cristian"]
+[Result "0-1"]
+[ECO "C41"]
+[WhiteElo "2104"]
+[BlackElo "2339"]
+[PlyCount "76"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 e5 4. Nf3 Nbd7 5. Bc4 Be7 6. O-O O-O 7. Re1 c6 8. Bf1
+b5 9. a4 b4 10. Nb1 Qc7 11. c3 bxc3 12. Nxc3 exd4 13. Nxd4 Re8 14. Nf5 Bf8 15.
+Bg5 h6 16. Bh4 g6 17. Nd4 Rb8 18. Qd2 a6 19. Rac1 c5 20. Nf3 Bb7 21. Qc2 Nh5
+22. Nd2 Bg7 23. Nc4 Bd4 24. Kh1 g5 25. Bg3 Nxg3+ 26. hxg3 Nf6 27. Bd3 Ng4 28.
+Rf1 d5 29. Nxd5 Bxd5 30. exd5 Nxf2+ 31. Rxf2 Qxg3 32. Rf3 Qh4+ 33. Rh3 Re1+ 34.
+Bf1 Rxc1 35. Qxc1 Qf2 36. Bd3 Re8 37. Ne3 Rxe3 38. Rxe3 Bxe3 0-1
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.07"]
+[Round "4"]
+[White "Hernandez Requena, Francesc"]
+[Black "Martin Perez, Laura"]
+[Result "0-1"]
+[ECO "B92"]
+[WhiteElo "1718"]
+[BlackElo "2104"]
+[PlyCount "80"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e5 7. Nb3 Be7 8. Be3
+Be6 9. O-O O-O 10. Kh1 b5 11. a3 d5 12. exd5 Nxd5 13. Nxd5 Bxd5 14. f4 exf4 15.
+Bxf4 Bf6 16. Bf3 Bxf3 17. Qxf3 Nd7 18. Rad1 Qc8 19. Bd6 Re8 20. Nd4 Ne5 21. Qg3
+Ng6 22. Nf5 Re6 23. Qf3 Qe8 24. Bc7 Ne5 25. Qg3 Nc4 26. Nh6+ Kh8 27. Ng4 Bxb2
+28. Rfe1 Rc8 29. Rxe6 Qxe6 30. Re1 Qd7 31. Be5 Nxe5 32. Nxe5 Qf5 33. Nc6 Bf6
+34. Qc7 h6 35. Qb7 Kh7 36. Qxa6 Qf2 37. Rg1 Re8 38. h3 Re1 39. Rxe1 Qxe1+ 40.
+Kh2 Bh4 0-1
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.08"]
+[Round "5"]
+[White "Martin Perez, Laura"]
+[Black "Martinez Ramirez, Erik"]
+[Result "1-0"]
+[ECO "B03"]
+[WhiteElo "2104"]
+[BlackElo "2321"]
+[PlyCount "77"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. c4 Nb6 5. exd6 cxd6 6. Nc3 g6 7. Nf3 Bg7 8. Be3
+O-O 9. h3 d5 10. c5 Nc4 11. Bxc4 dxc4 12. Qe2 b6 13. Qxc4 Ba6 14. Qd5 bxc5 15.
+Qxa8 cxd4 16. O-O-O Qb6 17. Nxd4 Bb7 18. Ndb5 Qxe3+ 19. fxe3 Bxa8 20. Rd2 Bh6
+21. Re2 Nc6 22. Kb1 Rb8 23. Rd1 a6 24. Nc7 Bb7 25. N7d5 Bg7 26. Ka1 Kf8 27. Nb6
+Ke8 28. Nd7 Ra8 29. Nc5 Bc8 30. Nd5 Ra7 31. Nb6 Bf5 32. g4 Be6 33. Nxe6 fxe6
+34. Rc2 Ne5 35. Rc8+ Kf7 36. Rf1+ Bf6 37. g5 Rb7 38. Na4 Rb4 39. b3 1-0
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.09"]
+[Round "6"]
+[White "Iniyan, P."]
+[Black "Martin Perez, Laura"]
+[Result "1-0"]
+[ECO "E32"]
+[WhiteElo "2346"]
+[BlackElo "2104"]
+[PlyCount "93"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 b6 5. a3 Bxc3+ 6. Qxc3 Bb7 7. Bg5 h6 8.
+Bh4 d6 9. e3 Nbd7 10. f3 Qe7 11. Bd3 e5 12. d5 c6 13. dxc6 Bxc6 14. e4 Nc5 15.
+Bc2 Ne6 16. Ne2 Rc8 17. Qb4 g5 18. Bf2 Bd7 19. Rd1 Nc5 20. O-O Be6 21. Nc3 Kf8
+22. b3 Kg7 23. Nd5 Nxd5 24. exd5 Bd7 25. Qd2 Qf6 26. b4 Nb7 27. Bd3 Bf5 28. Be2
+Rc7 29. Be3 Qg6 30. Kh1 f6 31. Ra1 Rhc8 32. a4 Qf7 33. Rfc1 Bh7 34. a5 bxa5 35.
+c5 axb4 36. c6 Nd8 37. Bc4 Qe7 38. Qxb4 Bg8 39. Bb3 f5 40. Ra6 f4 41. Bg1 Bh7
+42. Rca1 Ra8 43. Qc3 Bg8 44. Bb6 Kf6 45. Bxc7 Qxc7 46. Rxa7 Rxa7 47. Rxa7 1-0
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.10"]
+[Round "7"]
+[White "Martin Perez, Laura"]
+[Black "Herrera Reyes, Jose Antonio"]
+[Result "1/2-1/2"]
+[ECO "B41"]
+[WhiteElo "2104"]
+[BlackElo "2253"]
+[PlyCount "60"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. c4 Qc7 6. Nc3 Nf6 7. a3 b6 8. Be3
+Bb7 9. f3 Be7 10. Be2 h5 11. O-O h4 12. Rc1 d6 13. Qd2 Nbd7 14. Rfd1 Rc8 15. b4
+Qb8 16. Nb3 h3 17. g3 Ne5 18. Na4 Ned7 19. Qd4 Bd8 20. Bf2 Bc7 21. Qe3 Ba8 22.
+Qg5 Kf8 23. Qe3 g6 24. Bf1 Kg7 25. Nd4 Ne5 26. Be2 Rce8 27. Qc3 Rc8 28. Qe3
+Rce8 29. Qc3 Rc8 30. Qe3 Rce8 1/2-1/2
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.11"]
+[Round "8"]
+[White "Niraj, Saripalli"]
+[Black "Martin Perez, Laura"]
+[Result "1-0"]
+[ECO "A43"]
+[WhiteElo "2140"]
+[BlackElo "2104"]
+[PlyCount "33"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 c5 3. d5 b5 4. Bg5 Ne4 5. Bh4 Qa5+ 6. Nbd2 Bb7 7. a4 Bxd5 8.
+axb5 Qb4 9. c4 Nxd2 10. Nxd2 g5 11. Bg3 Bxc4 12. Ra4 Qxb2 13. Nxc4 Qxb5 14. e3
+Qb7 15. Be5 Rg8 16. Bd3 Qxg2 17. Be4 1-0
+
+[Event "Ct. Catalunya femeni"]
+[Site "Amposta"]
+[Date "2016.03.25"]
+[Round "1"]
+[White "Martin Dinares, Sonia"]
+[Black "Martin Perez, Laura"]
+[Result "1-0"]
+[ECO "A36"]
+[WhiteElo "1766"]
+[BlackElo "2058"]
+[PlyCount "89"]
+[EventDate "2016.03.25"]
+[EventType "swiss"]
+[EventRounds "5"]
+[EventCountry "ESP"]
+
+1. c4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. e3 e5 6. Nge2 Nge7 7. O-O O-O 8. f4
+d6 9. Rb1 Be6 10. b3 d5 11. d3 f5 12. fxe5 d4 13. exd4 cxd4 14. Nf4 Bc8 15.
+Ncd5 Bxe5 16. Qe1 Qd6 17. Rb2 g5 18. Nxe7+ Qxe7 19. Bd5+ Kh8 20. Ne6 Bxe6 21.
+Bxc6 Bf6 22. Bxb7 Rae8 23. Re2 Qd7 24. Ba3 Rg8 25. Ba6 Qf7 26. Bb7 Qd7 27. Ba6
+Qf7 28. Bb5 Bd7 29. Bxd7 Qxd7 30. Rxe8 Rxe8 31. Qf2 Re5 32. Bb4 Kg7 33. Re1 Re3
+34. Qf1 Kg6 35. Bd2 Rxe1 36. Qxe1 h5 37. h3 Qc6 38. Qf2 Qe6 39. Bc1 Be5 40. Kg2
+Qc6+ 41. Qf3 Qa6 42. a3 Qb6 43. b4 Qc7 44. Qd5 Bxg3 45. Qg8+ 1-0
+
+[Event "Ct. Catalunya femeni"]
+[Site "Amposta"]
+[Date "2016.03.25"]
+[Round "2"]
+[White "Martin Perez, Laura"]
+[Black "Palau Barrutet, Vinyet"]
+[Result "1-0"]
+[ECO "C90"]
+[WhiteElo "2058"]
+[BlackElo "1226"]
+[PlyCount "69"]
+[EventDate "2016.03.25"]
+[EventType "swiss"]
+[EventRounds "5"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. d3 b5 6. Bb3 d6 7. c3 Be7 8. O-O
+O-O 9. Re1 Na5 10. Bc2 c5 11. Nbd2 Nc6 12. Nf1 Be6 13. Ng3 Qc7 14. h3 Nd7 15.
+Ng5 Bxg5 16. Bxg5 f6 17. Bc1 Rfd8 18. Qf3 Nf8 19. Nf5 Ne7 20. g4 Kh8 21. Kh1 g6
+22. Bh6 gxf5 23. gxf5 Bf7 24. Rg1 Neg6 25. fxg6 Bxg6 26. Qxf6+ Kg8 27. Bb3+ d5
+28. Bxd5+ Rxd5 29. exd5 Qf7 30. Qxf7+ Kxf7 31. Rae1 Nd7 32. h4 Rg8 33. Re3 Be4+
+34. dxe4 Rxg1+ 35. Kxg1 1-0
+
+[Event "Ct. Catalunya femeni"]
+[Site "Amposta"]
+[Date "2016.03.26"]
+[Round "3"]
+[White "Claramunt Junjent, Maria"]
+[Black "Martin Perez, Laura"]
+[Result "0-1"]
+[ECO "A45"]
+[WhiteElo "1251"]
+[BlackElo "2058"]
+[PlyCount "37"]
+[EventDate "2016.03.25"]
+[EventType "swiss"]
+[EventRounds "5"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. e3 c5 3. c3 b6 4. Bb5 Bb7 5. a3 Bxg2 6. f3 Bxh1 7. Ke2 Qc7 8. h3
+Qh2+ 9. Kd3 a6 10. Bc4 b5 11. Bb3 c4+ 12. Bxc4 bxc4+ 13. Kxc4 d5+ 14. Kd3 Ne4
+15. Qf1 Nf2+ 16. Kc2 Nxh3+ 17. Ne2 Ng1 18. Kb3 Nxe2 19. Bd2 0-1
+
+[Event "Ct. Catalunya femeni"]
+[Site "Amposta"]
+[Date "2016.03.27"]
+[Round "4"]
+[White "Martin Perez, Laura"]
+[Black "Castillo Escario, Yolanda"]
+[Result "1-0"]
+[ECO "C45"]
+[WhiteElo "2058"]
+[BlackElo "2002"]
+[PlyCount "178"]
+[EventDate "2016.03.25"]
+[EventType "swiss"]
+[EventRounds "5"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5 5. Nb3 Bb6 6. Nc3 d6 7. Qe2 Nf6 8.
+Bg5 h6 9. Bh4 g5 10. Bg3 Qe7 11. h4 Bg4 12. f3 Nh5 13. Bf2 Be6 14. O-O-O O-O-O
+15. Kb1 Nf4 16. Qe1 Kb8 17. h5 Bd7 18. g3 Bxf2 19. Qxf2 Ne6 20. Nd5 Qf8 21. Nf6
+Qe7 22. Nd5 Qf8 23. Nf6 Qe7 24. Nxd7+ Rxd7 25. Bb5 Ned8 26. Nd4 d5 27. Nf5 Qe6
+28. Nd4 Qf6 29. Nb3 Rd6 30. exd5 Ne5 31. Be2 c6 32. dxc6 Ndxc6 33. Rxd6 Qxd6
+34. f4 Qf6 35. Qe3 gxf4 36. gxf4 Nd7 37. Rd1 Nb6 38. Nc5 Qf5 39. Nd3 Nc4 40.
+Qc5 Qe6 41. Nc1 Nb6 42. Qd6+ Qxd6 43. Rxd6 Kc7 44. Rf6 Nd8 45. Bf3 Nd7 46. Rf5
+Rh7 47. Nd3 Rg7 48. b3 Kd6 49. Rd5+ Ke6 50. Kb2 Rg3 51. Be4 Nf6 52. Re5+ Kd6
+53. Nf2 Re3 54. Bxb7 Rxe5 55. fxe5+ Kxe5 56. Bf3 Kf4 57. Bd1 Kg5 58. b4 Nc6 59.
+b5 Nd4 60. c4 Nd7 61. Kc3 Ne6 62. a4 f5 63. a5 Nec5 64. Nd3 Nb7 65. Kb4 f4 66.
+c5 Nb8 67. Bf3 Nd8 68. c6 Ndxc6+ 69. bxc6 Na6+ 70. Kb5 Nc7+ 71. Kc5 Ne8 72. Kd5
+Kf5 73. Nc5 Nc7+ 74. Kd6 Nb5+ 75. Kd7 Ke5 76. c7 Nxc7 77. Kxc7 Kd4 78. Ne6+ Ke3
+79. Bd5 f3 80. Bxf3 Kxf3 81. Kb7 Kg4 82. Ng7 Kg5 83. Kxa7 Kf6 84. Kb6 Kxg7 85.
+a6 Kf6 86. a7 Kg5 87. a8=Q Kxh5 88. Qg2 Kh4 89. Qh2+ Kg5 1-0
+
+[Event "Ct. Catalunya femeni"]
+[Site "Amposta"]
+[Date "2016.03.28"]
+[Round "5"]
+[White "Riera Morilla, Elizabeth"]
+[Black "Martin Perez, Laura"]
+[Result "1-0"]
+[ECO "C25"]
+[WhiteElo "1960"]
+[BlackElo "2058"]
+[PlyCount "79"]
+[EventDate "2016.03.25"]
+[EventType "swiss"]
+[EventRounds "5"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Bc4 Nc6 3. Nc3 Bc5 4. Qg4 g6 5. Qf3 Nf6 6. Nge2 d6 7. d3 Bg4 8. Qg3
+Qd7 9. Qh4 Ng8 10. Bg5 f6 11. Bd2 O-O-O 12. f3 Be6 13. Nd5 g5 14. Qg3 Nce7 15.
+c3 c6 16. Nxe7+ Nxe7 17. Bxe6 Qxe6 18. b4 Bb6 19. a4 d5 20. a5 Bc7 21. Qf2 Kb8
+22. Be3 a6 23. O-O Ng6 24. Ba7+ Ka8 25. Bb6 Rd7 26. Bxc7 Rxc7 27. Qb6 Rd7 28.
+b5 dxe4 29. fxe4 Nf4 30. Nxf4 gxf4 31. Rfb1 Qd6 32. bxa6 bxa6 33. Qxa6+ Ra7 34.
+Qc4 Rc8 35. Rb6 Qc7 36. Qc5 Rb7 37. Rab1 Rcb8 38. Ra6+ Ra7 39. Rxb8+ Kxb8 40.
+Qf8+ 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.13"]
+[Round "1"]
+[White "Debashis, Das"]
+[Black "Martin Perez, Laura"]
+[Result "1-0"]
+[ECO "E43"]
+[WhiteElo "2451"]
+[BlackElo "2104"]
+[PlyCount "59"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 b6 5. Bd3 Bb7 6. Nf3 O-O 7. O-O d6 8. Bd2
+Nbd7 9. a3 Bxc3 10. Bxc3 Ne4 11. Be1 f5 12. Qe2 Rf6 13. Nd2 Rg6 14. f3 Nxd2 15.
+Qxd2 Qf6 16. Rd1 e5 17. Be2 Qg5 18. Rf2 Nf6 19. dxe5 dxe5 20. Qc3 Re8 21. c5 f4
+22. Bc4+ Kh8 23. exf4 exf4 24. Bf7 Nd5 25. Rxd5 Bxd5 26. Bxe8 Re6 27. Bb5 Re3
+28. Qc1 Rxf3 29. Rxf3 Bxf3 30. Bf1 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.14"]
+[Round "2"]
+[White "Martin Perez, Laura"]
+[Black "Sapale, Saloni"]
+[Result "1-0"]
+[ECO "A12"]
+[WhiteElo "2104"]
+[BlackElo "1929"]
+[PlyCount "145"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 c6 2. b3 d5 3. Bb2 Bf5 4. Nf3 e6 5. g3 h6 6. Bg2 Nf6 7. O-O Nbd7 8. d3
+Be7 9. Nbd2 O-O 10. Re1 Bh7 11. Ne5 Qc7 12. d4 Rad8 13. Nd3 Rfe8 14. Rc1 Qb8
+15. Nf3 Be4 16. c5 Rc8 17. b4 b5 18. a4 Bd8 19. Bc3 a6 20. Ra1 Qb7 21. Ra3 Bc7
+22. Qa1 Ra8 23. Qa2 Bxd3 24. exd3 bxa4 25. Rxa4 Qb5 26. Bf1 Ra7 27. Ne5 Nb8 28.
+f4 Bd8 29. Ra1 Nfd7 30. Qe2 Nf8 31. Qh5 Rae7 32. g4 f6 33. Nf3 g6 34. Qh3 Bc7
+35. Bd2 Rh7 36. R4a2 Ree7 37. Re1 Qb7 38. f5 g5 39. Qh5 Qc8 40. Bh3 Kg7 41. Bc3
+Rh8 42. Rae2 Bf4 43. Nd2 Qd7 44. Nf1 Qc8 45. Bg2 Qd7 46. Qh3 Rh7 47. Ng3 Bxg3
+48. Qxg3 Qc8 49. Re3 Qe8 50. R1e2 Kg8 51. Qe1 Rhg7 52. Bd2 Kh7 53. fxe6 Rg6 54.
+Qf2 Kg7 55. Qf5 Qc8 56. Be1 Qe8 57. Bg3 Rb7 58. Be1 Re7 59. h4 gxh4 60. Bxh4
+Nh7 61. Bg3 Nf8 62. Bd6 Rb7 63. Qf4 Nh7 64. Qf5 Nf8 65. Qf4 Nh7 66. Bc7 Nf8 67.
+Kh2 Kh7 68. Qd6 Kg7 69. Bf3 Nh7 70. e7 Ng5 71. Qd8 Kf7 72. Kg2 Rg8 73. Bxd5+
+1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.15"]
+[Round "3"]
+[White "Lillo Castany, Victor"]
+[Black "Martin Perez, Laura"]
+[Result "1-0"]
+[ECO "C77"]
+[WhiteElo "2312"]
+[BlackElo "2104"]
+[PlyCount "87"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. d3 b5 6. Bb3 Be7 7. a4 Rb8 8. axb5
+axb5 9. O-O O-O 10. Nc3 d6 11. Nd5 h6 12. Be3 Re8 13. h3 Bf8 14. Qd2 Be6 15.
+Nxf6+ Qxf6 16. Bxe6 Qxe6 17. Qc3 Qd7 18. Ra6 Nd8 19. b4 g6 20. Qd2 Kh7 21. Nh2
+g5 22. Rfa1 Be7 23. Nf1 f5 24. exf5 Qxf5 25. Ng3 Qg6 26. Qe2 Ne6 27. Qg4 Bf6
+28. R1a5 Bh8 29. Qf3 Rf8 30. Qd5 Qe8 31. Ra7 Bg7 32. Ne4 Rf7 33. Nc3 Nd4 34.
+Qe4+ Kg8 35. Bxd4 exd4 36. Ra8 Re7 37. Qd5+ Kh7 38. Rxb8 Qxb8 39. Ra8 Qxa8 40.
+Qxa8 dxc3 41. Kf1 Kg6 42. Qc6 Bf6 43. Qxb5 Bg7 44. Qc4 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.16"]
+[Round "4"]
+[White "Martin Perez, Laura"]
+[Black "Adeimi, Michel"]
+[Result "0-1"]
+[ECO "B45"]
+[WhiteElo "2104"]
+[BlackElo "1963"]
+[PlyCount "72"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Ndb5 Bc5 7. Bf4 O-O 8.
+Qd2 a6 9. Bd6 axb5 10. Bxc5 b4 11. Bxf8 bxc3 12. Qxc3 Qxf8 13. Bd3 Ra4 14. f3
+d5 15. O-O dxe4 16. Bb5 Nd5 17. Qe1 Qc5+ 18. Kh1 Qxb5 19. b3 Rd4 20. c4 Qc5 21.
+cxd5 exd5 22. Rc1 Qe7 23. fxe4 dxe4 24. Qe3 Rd3 25. Qe2 f5 26. Rfd1 Rxd1+ 27.
+Rxd1 h6 28. Qe3 Qe5 29. Re1 Be6 30. h3 Bd5 31. Rf1 g5 32. Qb6 e3 33. Qxb7 e2
+34. Qc8+ Kg7 35. Qd7+ Ne7 36. Re1 Qe4 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.17"]
+[Round "5"]
+[White "Tahay, Romain"]
+[Black "Martin Perez, Laura"]
+[Result "0-1"]
+[ECO "E44"]
+[WhiteElo "1942"]
+[BlackElo "2104"]
+[PlyCount "134"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 b6 5. Nge2 Bb7 6. a3 Be7 7. d5 O-O 8. Ng3
+d6 9. Be2 Nbd7 10. O-O Re8 11. e4 Bf8 12. Bg5 h6 13. Be3 c6 14. Rc1 Rc8 15. Re1
+cxd5 16. cxd5 exd5 17. exd5 Ne5 18. f4 Nc4 19. Bf2 Ne3 20. Bxe3 Rxe3 21. Qd4
+Re8 22. Red1 a6 23. Bf3 b5 24. a4 Rc4 25. Qa7 Qc8 26. axb5 axb5 27. Be2 Rc5 28.
+Bxb5 Re7 29. Qa3 Nxd5 30. Nxd5 Rxc1 31. Nxe7+ Bxe7 32. Be2 Qc6 33. Qf3 Qb6+ 34.
+Qf2 Qxb2 35. Rxc1 Qxc1+ 36. Nf1 d5 37. Qf3 Bc5+ 38. Kh1 Qb2 39. Bd3 d4 40. Qe2
+Qxe2 41. Bxe2 Bd6 42. f5 Be4 43. f6 d3 44. Bd1 g5 45. Nd2 Bd5 46. Nf1 Kh7 47.
+Ne3 Be6 48. Bh5 Bc5 49. Nd1 Bd4 50. Bf3 Bb3 51. g3 Kg6 52. Kg2 Kxf6 53. Kf1 Ke5
+54. Ke1 f5 55. Kd2 Bc4 56. h3 Ba6 57. Ne3 Bxe3+ 58. Kxe3 f4+ 59. gxf4+ gxf4+
+60. Kd2 Kd4 61. h4 Bc8 62. Bh5 Bb7 63. Bg4 f3 64. Bf5 Be4 65. Bh3 f2 66. Bf1
+Bf3 67. Bxd3 Bg2 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.18"]
+[Round "6"]
+[White "Martin Perez, Laura"]
+[Black "Noordhoek, Henk"]
+[Result "1/2-1/2"]
+[ECO "B04"]
+[WhiteElo "2104"]
+[BlackElo "1976"]
+[PlyCount "62"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. Nf3 g6 5. Bc4 Nb6 6. Bb3 Bg7 7. Ng5 e6 8. Qf3
+Qe7 9. Ne4 dxe5 10. dxe5 N8d7 11. Bg5 Qb4+ 12. Nbc3 h6 13. Bf6 O-O 14. O-O-O
+Nxe5 15. Qf4 Qa5 16. Nd5 exd5 17. Bxg7 Kxg7 18. Qf6+ Kg8 19. Rxd5 Ng4 20. Rxa5
+Nxf6 21. Nxf6+ Kg7 22. Ne4 Bd7 23. Nc3 Bc6 24. f3 Rfe8 25. Rd1 a6 26. h4 h5 27.
+Rc5 Re7 28. a4 Rae8 29. Kb1 Re1 30. Kc1 R1e7 31. Kb1 Re1 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.19"]
+[Round "7"]
+[White "Magallanes, Gustavo"]
+[Black "Martin Perez, Laura"]
+[Result "0-1"]
+[ECO "B50"]
+[WhiteElo "1989"]
+[BlackElo "2104"]
+[PlyCount "142"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. c3 Nf6 4. Bc4 Nc6 5. Qe2 e6 6. O-O Be7 7. d4 cxd4 8. cxd4
+Nxe4 9. Bxe6 Bxe6 10. Qxe4 d5 11. Qd3 O-O 12. a3 Bf6 13. h3 Qb6 14. Rd1 h6 15.
+Nc3 Rac8 16. b4 Nxd4 17. Nxd4 Qxd4 18. Qxd4 Bxd4 19. Rxd4 Rxc3 20. Be3 a6 21.
+a4 Rfc8 22. b5 axb5 23. axb5 Rb3 24. b6 Rxb6 25. Rxd5 Rb3 26. Rd6 b5 27. Rb6
+Rc2 28. Kh2 Bd5 29. Kg3 Rc4 30. Rd1 Be6 31. Rd8+ Kh7 32. Rdb8 b4 33. Kh2 Rb2
+34. Kg3 Re4 35. Kh2 b3 36. Kg3 Rc2 37. Rb5 Rc3 38. Kh2 Ra4 39. R5b6 Rd3 40. Kg3
+Ra2 41. Rb4 Bd5 42. h4 Rxe3+ 43. fxe3 Rxg2+ 44. Kh3 Rb2 45. e4 Be6+ 46. Kg3 Rb1
+47. R8b6 Rg1+ 48. Kh2 Rg4 49. Rxe6 fxe6 50. Kh3 h5 51. Rxb3 Rxe4 52. Rb5 Kh6
+53. Rg5 Re3+ 54. Kg2 g6 55. Ra5 Re4 56. Kh3 Kg7 57. Ra7+ Kf6 58. Ra6 Rg4 59.
+Ra5 e5 60. Ra6+ Kf5 61. Ra8 e4 62. Re8 Kf4 63. Rf8+ Ke3 64. Re8 Kf3 65. Rf8+
+Rf4 66. Rg8 Rf6 67. Ra8 e3 68. Ra3 Kf2 69. Ra1 e2 70. Rh1 e1=Q 71. Rg1 Rf3+ 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.20"]
+[Round "8"]
+[White "Martin Perez, Laura"]
+[Black "Garcia Trobat, Francisco"]
+[Result "1-0"]
+[ECO "B56"]
+[WhiteElo "2104"]
+[BlackElo "2269"]
+[PlyCount "67"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. f3 e5 7. Nb3 Be6 8. Bg5
+Be7 9. Qd2 O-O 10. O-O-O a5 11. Kb1 a4 12. Nc1 Ra5 13. Bxf6 gxf6 14. Nd5 Bxd5
+15. exd5 Nd4 16. c3 Nf5 17. Bd3 Ng7 18. g4 f5 19. h4 a3 20. b3 Rxd5 21. gxf5
+Bf6 22. c4 Rc5 23. Be4 d5 24. cxd5 Qc8 25. Nd3 Rb5 26. Rc1 Qd7 27. Qh6 Qd8 28.
+Rhg1 Kh8 29. Nf2 Qb6 30. Rc2 Rd8 31. Rg2 Rxb3+ 32. axb3 Nxf5 33. Bxf5 a2+ 34.
+Rxa2 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.21"]
+[Round "9"]
+[White "Ibanez Aullana, Ramon"]
+[Black "Martin Perez, Laura"]
+[Result "1-0"]
+[ECO "E24"]
+[WhiteElo "2258"]
+[BlackElo "2104"]
+[PlyCount "81"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. a3 Bxc3+ 5. bxc3 b6 6. f3 Bb7 7. e4 d6 8. Bg5
+h6 9. Bh4 Nbd7 10. Bd3 e5 11. Ne2 g5 12. Bf2 Nh5 13. Ng3 Nf4 14. Bf1 Qf6 15.
+Nf5 Nb8 16. Ne3 Ne6 17. Nd5 Qg7 18. a4 Nc6 19. Ne3 Na5 20. Rb1 Rd8 21. Qd2 Ba6
+22. Qa2 Qf6 23. Rd1 Bb7 24. h4 Ba6 25. Ng4 Qg7 26. dxe5 dxe5 27. Rxd8+ Kxd8 28.
+c5 Bb7 29. cxb6 axb6 30. Qb2 Kc8 31. Bxb6 cxb6 32. Qxb6 Nc6 33. Ba6 Ncd8 34.
+Bxb7+ Nxb7 35. a5 Nc7 36. a6 Nxa6 37. Qxa6 h5 38. Nf6 Kb8 39. O-O Rc8 40. Rb1
+Rc7 41. Ra1 1-0
+
+[Event "CAT-ch"]
+[Site "Vilanova i la Geltru"]
+[Date "2017.04.29"]
+[Round "1"]
+[White "Martin Perez, Laura"]
+[Black "Alonso Rosell, Alvar"]
+[Result "1-0"]
+[ECO "B01"]
+[WhiteElo "2069"]
+[BlackElo "2537"]
+[PlyCount "89"]
+[EventDate "2017.04.29"]
+[EventType "k.o."]
+[EventRounds "4"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 178 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.06.22"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.06.22"]
+[SourceQuality "1"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nf3 Nf6 4. d4 g6 5. Be2 Bg7 6. O-O O-O 7. c4 Qd6 8.
+Nc3 c6 9. h3 Rd8 10. Be3 Bf5 11. Qc1 Ne4 12. Rd1 Qb4 13. g4 Nxc3 14. bxc3 Qa5
+15. gxf5 Qxf5 16. Kh2 Nd7 17. Bg5 Nb6 18. Qf4 Qc2 19. Qd2 Qf5 20. Qe3 Re8 21.
+Qd3 Qa5 22. Bf4 Rad8 23. Qc2 c5 24. Be5 Bh6 25. Rab1 cxd4 26. cxd4 Rc8 27. Qb3
+e6 28. a4 Red8 29. Qb4 Qa6 30. Qb5 Qxb5 31. Rxb5 Nxc4 32. Bxc4 Rxc4 33. Rxb7
+Rxa4 34. Rdb1 Bg7 35. Bc7 Rd7 36. Rb8+ Bf8 37. Bf4 Kg7 38. Be5+ f6 39. Bxf6+
+Kxf6 40. Rxf8+ Kg7 41. Rbb8 Ra2 42. Kg3 Rc7 43. Rg8+ Kh6 44. Ne5 Ra5 45. Kh4
+1-0
+
+[Event "CAT-ch"]
+[Site "Vilanova i la Geltru"]
+[Date "2017.04.30"]
+[Round "1"]
+[White "Alonso Rosell, Alvar"]
+[Black "Martin Perez, Laura"]
+[Result "1-0"]
+[ECO "A37"]
+[WhiteElo "2537"]
+[BlackElo "2069"]
+[PlyCount "81"]
+[EventDate "2017.04.29"]
+[EventType "k.o."]
+[EventRounds "4"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 178 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.06.22"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.06.22"]
+[SourceQuality "1"]
+
+1. Nf3 c5 2. g3 Nc6 3. Bg2 g6 4. O-O Bg7 5. c4 d6 6. Nc3 e5 7. d3 Nge7 8. Rb1
+O-O 9. a3 a5 10. Bg5 h6 11. Bd2 Be6 12. Ne1 Kh7 13. Nc2 d5 14. cxd5 Nxd5 15.
+Ne3 Nc7 16. Na4 Na6 17. Rc1 Qe7 18. Nc4 Bxc4 19. Rxc4 Nd4 20. Rc1 Rab8 21. Bxa5
+b5 22. Nc3 b4 23. Nd5 Qd7 24. axb4 cxb4 25. Bb6 Qb5 26. Ba7 Rbc8 27. Bxd4 exd4
+28. Qd2 Rfd8 29. Rxc8 Rxc8 30. Qf4 Rf8 31. h4 Nc5 32. h5 Ne6 33. Qg4 Qe8 34.
+Ra1 f5 35. Qxg6+ Qxg6 36. hxg6+ Kxg6 37. Ra6 Kf7 38. Ra7+ Kg6 39. Ra6 Kf7 40.
+Bf3 Rd8 41. Bh5+ 1-0

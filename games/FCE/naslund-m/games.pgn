@@ -1,0 +1,157 @@
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.13"]
+[Round "1"]
+[White "Gonzalez Perez, A."]
+[Black "Naslund, M."]
+[Result "1-0"]
+[ECO "B50"]
+[WhiteElo "2494"]
+[BlackElo "2148"]
+[PlyCount "99"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. e4 c5 2. Nf3 e6 3. d3 d6 4. c3 Nf6 5. g3 Be7 6. Bg2 O-O 7. O-O a6 8. Re1 b5
+9. e5 dxe5 10. Nxe5 Ra7 11. a4 Qb6 12. Be3 Bb7 13. Bxb7 Rxb7 14. axb5 axb5 15.
+d4 Nc6 16. dxc5 Bxc5 17. Bxc5 Qxc5 18. b4 Qb6 19. Nd3 Rd8 20. Qf3 Ne7 21. Nc5
+Ra7 22. Rxa7 Qxa7 23. Qe2 Qb6 24. Na3 Rb8 25. Nc2 Ned5 26. Qd3 h5 27. Ra1 Rd8
+28. Nd4 Nc7 29. Qf3 Rd5 30. h3 Nh7 31. Nd3 Ng5 32. Qe2 Nxh3+ 33. Kg2 Ng5 34.
+Nf4 Rd8 35. Qxh5 Rxd4 36. cxd4 Qc6+ 37. Kf1 f6 38. Ng6 Qc4+ 39. Kg1 Qc3 40. Qd1
+Nd5 41. Rc1 Qxd4 42. Rc8+ Kf7 43. Qh5 Qa1+ 44. Kh2 Nf3+ 45. Qxf3 Kxg6 46. Qg4+
+Kf7 47. Qh5+ Ke7 48. Qe8+ Kd6 49. Rc6+ Ke5 50. Qxe6+ 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.14"]
+[Round "2"]
+[White "Naslund, M."]
+[Black "Matsenko, E."]
+[Result "1/2-1/2"]
+[ECO "D47"]
+[WhiteElo "2148"]
+[BlackElo "1929"]
+[PlyCount "73"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 e6 5. Nc3 Nbd7 6. Bd3 dxc4 7. Bxc4 b5 8. Be2
+Bb7 9. O-O Be7 10. e4 b4 11. e5 bxc3 12. exf6 Bxf6 13. bxc3 O-O 14. Rb1 Qc8 15.
+Bf4 Rd8 16. Qa4 c5 17. Rfc1 Nb6 18. Qa5 Be4 19. Rb5 Nd7 20. dxc5 a6 21. Rb4 Bc6
+22. Nd4 Ne5 23. Bxe5 Bxe5 24. Nxc6 Qxc6 25. Bf3 Qd7 26. Rbb1 Rac8 27. g3 Qc7
+28. Qxc7 Rxc7 29. c6 g6 30. Rb6 a5 31. Rb5 Rd3 32. Kg2 Rxc3 33. Rd1 Bf6 34.
+Rxa5 Kg7 35. Rd7 Rxd7 36. cxd7 Rc7 37. a4 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.15"]
+[Round "3"]
+[White "Sonis, F."]
+[Black "Naslund, M."]
+[Result "1/2-1/2"]
+[ECO "D71"]
+[WhiteElo "2029"]
+[BlackElo "2148"]
+[PlyCount "61"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. d4 Nf6 2. c4 g6 3. g3 d5 4. cxd5 Nxd5 5. Bg2 Bg7 6. Nf3 Nc6 7. Nc3 Nb6 8. d5
+Bxc3+ 9. bxc3 Qxd5 10. O-O Qxd1 11. Rxd1 f6 12. Nd4 Nxd4 13. cxd4 c6 14. Ba3
+Be6 15. e4 Rd8 16. Rac1 Kf7 17. Bc5 Rd7 18. Bxb6 axb6 19. d5 cxd5 20. exd5 Bf5
+21. Rd4 h5 22. h3 Rd6 23. Rc7 Rc8 24. Rxb7 Rc1+ 25. Kh2 Rc2 26. Kg1 Rxa2 27.
+Rc4 Ra1+ 28. Kh2 Ra2 29. Kg1 Ra1+ 30. Kh2 Ra2 31. Kg1 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.16"]
+[Round "4"]
+[White "Naslund, M."]
+[Black "Moreno Perez, N."]
+[Result "1-0"]
+[ECO "D11"]
+[WhiteElo "2148"]
+[BlackElo "1962"]
+[PlyCount "71"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 Bg4 5. Nc3 Nbd7 6. h3 Bxf3 7. Qxf3 e6 8. Bd3
+Bd6 9. O-O h6 10. cxd5 exd5 11. e4 dxe4 12. Nxe4 Nxe4 13. Qxe4+ Qe7 14. Qf3
+O-O-O 15. Bd2 Qf6 16. Qd1 Qxd4 17. Bc3 Qd5 18. Qc2 Nc5 19. Bf5+ Ne6 20. Rfd1
+Qc4 21. g3 Kb8 22. b3 Qc5 23. b4 Qb6 24. a4 Qc7 25. b5 c5 26. a5 Nd4 27. Bxd4
+cxd4 28. Qe4 g6 29. b6 Qc5 30. a6 Qxb6 31. Rdb1 gxf5 32. Qxf5 Qc6 33. Rxb7+ Ka8
+34. Qxf7 Bc5 35. Rc7 Qd5 36. Rc8+ 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.17"]
+[Round "5"]
+[White "Naslund, M."]
+[Black "Gemy Vargas, JD."]
+[Result "0-1"]
+[ECO "E94"]
+[WhiteElo "2148"]
+[BlackElo "2330"]
+[PlyCount "170"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. c4 c6 2. e4 e5 3. Nf3 d6 4. Nc3 Nf6 5. d4 exd4 6. Nxd4 g6 7. Be2 Bg7 8. O-O
+O-O 9. Be3 Re8 10. Qc2 Qe7 11. Bf3 Nbd7 12. Rad1 Ne5 13. Be2 Neg4 14. Bxg4 Nxg4
+15. Bf4 Be5 16. Bxe5 dxe5 17. Nf3 Nh6 18. h3 f6 19. Qd2 Nf7 20. Qe3 Be6 21. b3
+Qb4 22. Rd3 Qb6 23. Rfd1 Qxe3 24. Rxe3 Red8 25. Red3 Rxd3 26. Rxd3 Kf8 27. Kf1
+Ke7 28. Ke2 f5 29. exf5 gxf5 30. Re3 Kf6 31. Nd2 h5 32. g3 Rd8 33. h4 Nh6 34.
+Rd3 Rg8 35. Nf1 Ke7 36. Na4 Rf8 37. Nc5 Bc8 38. Rd2 e4 39. f3 b6 40. Na4 exf3+
+41. Kxf3 f4 42. gxf4 Nf5 43. Ke4 Kf7 44. c5 Re8+ 45. Kf3 Nxh4+ 46. Kg3 Nf5+ 47.
+Kf3 b5 48. Nb2 Be6 49. Nd3 Bd5+ 50. Kf2 Rg8 51. Ne5+ Kf6 52. Nf3 h4 53. Ng5 Re8
+54. Rd3 Kg6 55. Rd2 Kh5 56. Nh7 Kg6 57. Ng5 Re7 58. Rd3 Kh5 59. Nh3 Be4 60. Rd8
+Kg4 61. Ng5 Bd5 62. Rf8 Kxf4 63. Nh3+ Ke5 64. Nh2 Ng3 65. Nf3+ Bxf3 66. Kxf3
+Kd4 67. b4 Re3+ 68. Kg2 Kc4 69. Rf4+ Re4 70. Rf6 Kxb4 71. Rxc6 a5 72. Nf2 Re2
+73. Kf3 Nf5 74. Rc8 Nd4+ 75. Kf4 Rxf2+ 76. Ke3 Rxa2 77. Kxd4 h3 78. c6 h2 79.
+Rh8 Rc2 80. Kd5 a4 81. Rh4+ Kb3 82. Rh3+ Kb2 83. Kd6 a3 84. c7 a2 85. Rxh2 Rxh2
+0-1
+
+[Event "Sitges op"]
+[Site "Sitges"]
+[Date "2016.07.22"]
+[Round "1"]
+[White "Rios, Cristhian Camilo"]
+[Black "Naslund, Mikael"]
+[Result "1-0"]
+[ECO "B30"]
+[WhiteElo "2484"]
+[BlackElo "2097"]
+[PlyCount "87"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. g3 g6 4. Bg2 Bg7 5. O-O Nf6 6. Re1 O-O 7. c3 d6 8. h3 e5
+9. Na3 d5 10. exd5 Nxd5 11. Nc4 Re8 12. d3 h6 13. a4 Nc7 14. Be3 Na6 15. Qb3
+Rb8 16. Rad1 Be6 17. Qa2 Qd7 18. Kh2 Rbd8 19. b3 Bf5 20. Bf1 b6 21. Bc1 Qc7 22.
+Qc2 Qb7 23. Bg2 Qd7 24. Bf1 Qb7 25. g4 Bc8 26. g5 Ncb4 27. Qe2 Nd5 28. Bd2 hxg5
+29. Nxg5 Qd7 30. Qf3 Nf4 31. Nxe5 Bxe5 32. Bxf4 Bxc3 33. Rxe8+ Rxe8 34. d4 Bxd4
+35. Bb5 Qe7 36. Bxe8 Qxe8 37. Ne4 Qe6 38. Ng5 Qd7 39. Re1 Bb7 40. Qg3 Nb4 41.
+Qh4 Bg7 42. Re8+ Qxe8 43. Qh7+ Kf8 44. Bd6+ 1-0

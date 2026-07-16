@@ -1,0 +1,147 @@
+[Event "Sant Adria de Besos op 13th"]
+[Site "Sant Adria de Besos"]
+[Date "2017.05.14"]
+[Round "4"]
+[White "Ojeda Cebrian, Joaquim"]
+[Black "Sumelzo Lozano, Jose"]
+[Result "1/2-1/2"]
+[ECO "D01"]
+[WhiteElo "1932"]
+[BlackElo "2076"]
+[PlyCount "91"]
+[EventDate "2017.04.23"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Nc3 Nf6 3. Bg5 Bg4 4. h3 Bh5 5. g4 Bg6 6. Bg2 e6 7. e4 dxe4 8. Nxe4
+c6 9. c3 Nbd7 10. Qb3 Qc7 11. Nxf6+ Nxf6 12. Ne2 h6 13. Bf4 Qb6 14. Be5 Be7 15.
+Nf4 Qxb3 16. axb3 Bh7 17. Bxf6 Bxf6 18. Nh5 Ke7 19. O-O Bc2 20. b4 Bb3 21. Rfe1
+Rhd8 22. f4 Bh4 23. Re3 g6 24. Ng3 Bxg3 25. Rxg3 Bd5 26. Re3 Bxg2 27. Kxg2 Rd5
+28. Re5 f6 29. Rxd5 exd5 30. Re1+ Kd7 31. Kf3 Re8 32. Rxe8 Kxe8 33. b3 Kd7 34.
+f5 g5 35. Ke3 Kc7 36. Kd3 Kb6 37. c4 a5 38. Kc3 Ka6 39. bxa5 Kxa5 40. c5 Kb5
+41. Kc2 Ka5 42. Kc3 Kb5 43. Kc2 b6 44. cxb6 Kxb6 45. Kc3 Ka5 46. Kc2 1/2-1/2
+
+[Event "Sant Adria de Besos op 13th"]
+[Site "Sant Adria de Besos"]
+[Date "2017.05.21"]
+[Round "5"]
+[White "Vives Cabau, Jordi"]
+[Black "Ojeda Cebrian, Joaquim"]
+[Result "1-0"]
+[ECO "B02"]
+[WhiteElo "2039"]
+[BlackElo "1932"]
+[PlyCount "51"]
+[EventDate "2017.04.23"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 Nf6 2. e5 Nd5 3. Nf3 d6 4. h3 Bf5 5. Nd4 Bc8 6. exd6 Qxd6 7. Nf3 Bf5 8.
+d4 Nc6 9. c3 e5 10. Bb5 exd4 11. Qe2+ Qe7 12. Nxd4 Bd7 13. Nxc6 bxc6 14. Bd3
+Qxe2+ 15. Bxe2 Bd6 16. O-O Rb8 17. Nd2 Nf4 18. Bc4 O-O 19. Ne4 Be5 20. Nc5 Bf5
+21. Re1 Bd6 22. Bxf4 Bxc5 23. Re5 Bd6 24. Rxf5 g6 25. Bxd6 gxf5 26. Bxf8 1-0
+
+[Event "Sant Adria de Besos op 13th"]
+[Site "Sant Adria de Besos"]
+[Date "2017.06.04"]
+[Round "7"]
+[White "Dougas Chavarria, Nestor"]
+[Black "Ojeda Cebrian, Joaquim"]
+[Result "1/2-1/2"]
+[ECO "A07"]
+[WhiteElo "2069"]
+[BlackElo "1932"]
+[PlyCount "41"]
+[EventDate "2017.04.23"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. g3 d5 2. Bg2 c6 3. Nf3 Nf6 4. O-O g6 5. d3 Bg7 6. Nbd2 O-O 7. e4 dxe4 8.
+dxe4 Bg4 9. e5 Nfd7 10. Qe1 Qc7 11. e6 Bxe6 12. Ng5 Bf5 13. c3 Bd3 14. Qxe7
+Bxf1 15. Nxf1 Bf6 16. Qe2 Qe5 17. Ne4 Bg7 18. Bf4 Qe6 19. Qc2 Na6 20. Rd1 Ndc5
+21. Nxc5 1/2-1/2
+
+[Event "Sant Adria de Besos op 13th"]
+[Site "Sant Adria de Besos"]
+[Date "2017.06.11"]
+[Round "8"]
+[White "Ojeda Cebrian, Joaquim"]
+[Black "Alvarez Justo, Elias"]
+[Result "1/2-1/2"]
+[ECO "C05"]
+[WhiteElo "1932"]
+[BlackElo "2033"]
+[PlyCount "108"]
+[EventDate "2017.04.23"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. f4 c5 6. c3 Nc6 7. Ngf3 cxd4 8. cxd4
+Qb6 9. Nb3 a5 10. a4 Bb4+ 11. Kf2 Qc7 12. Bb5 Nb6 13. g3 Bd7 14. Kg2 Na7 15.
+Bxd7+ Qxd7 16. Nc5 Qc7 17. Nd3 Be7 18. b3 Rc8 19. Ra2 Nd7 20. Bd2 Nc6 21. Rc2
+O-O 22. Qb1 Qb6 23. Rhc1 Qa6 24. Ra2 Qb6 25. Rac2 Qa6 26. Ra2 Rc7 27. b4 axb4
+28. Bxb4 Rfc8 29. Bd6 Nb6 30. Bxc7 Rxc7 31. Qb5 Qa7 32. Nc5 Nc4 33. Nb3 Kf8 34.
+Rxc4 dxc4 35. Qxc4 Rd7 36. Qb5 Rd5 37. Qc4 g6 38. Rc2 Kg7 39. g4 Nb4 40. Re2
+Rd7 41. Kg3 Qxa4 42. Nc5 b5 43. Nxa4 bxc4 44. f5 gxf5 45. gxf5 exf5 46. Kf4
+Nd5+ 47. Kxf5 Rc7 48. Ke4 c3 49. Rc2 Nb4 50. Rxc3 Ra7 51. Nc5 Ra2 52. e6 fxe6
+53. Nxe6+ Kf6 54. Nf4 Bd6 1/2-1/2
+
+[Event "Sant Adria de Besos op 13th"]
+[Site "Sant Adria de Besos"]
+[Date "2017.06.18"]
+[Round "9"]
+[White "Ramirez Garcia, Lluis"]
+[Black "Ojeda Cebrian, Joaquim"]
+[Result "1-0"]
+[ECO "C01"]
+[WhiteElo "2022"]
+[BlackElo "1932"]
+[PlyCount "109"]
+[EventDate "2017.04.23"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. exd5 Qxd5 4. Nf3 Nf6 5. Bd3 Be7 6. Nc3 Qh5 7. Bf4 c6 8.
+Ne5 Qxd1+ 9. Rxd1 Nd5 10. Bd2 Nd7 11. Nf3 Nb4 12. Bf4 Nxd3+ 13. Rxd3 b6 14. Ne4
+O-O 15. Bd6 Bxd6 16. Nxd6 c5 17. Nxc8 Rfxc8 18. c3 cxd4 19. Rxd4 Rd8 20. Ke2
+Kf8 21. Rhd1 Ke7 22. Ng5 f6 23. Nf7 Kxf7 24. Rxd7+ Rxd7 25. Rxd7+ Kg6 26. Ke3
+e5 27. Ke4 f5+ 28. Kxe5 Re8+ 29. Kf4 Re2 30. Kf3 Rxb2 31. Rxa7 Rc2 32. Rc7 Rxa2
+33. Rc6+ Kf7 34. Rxb6 Ra4 35. Rb2 Rc4 36. Rc2 g5 37. Ke3 Rc7 38. c4 Re7+ 39.
+Kd4 Rd7+ 40. Ke5 f4 41. c5 Ke7 42. Rb2 Rc7 43. Kd5 Kd7 44. Rb6 Ra7 45. Rh6 Ra2
+46. Rxh7+ Kd8 47. Rg7 Rd2+ 48. Kc6 Rxf2 49. Rxg5 f3 50. gxf3 Rxf3 51. Rg8+ Ke7
+52. Kc7 Rh3 53. Rg2 Ke6 54. Rd2 Rh7+ 55. Kb6 1-0

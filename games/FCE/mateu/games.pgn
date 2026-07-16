@@ -1,0 +1,37 @@
+[Event "UGA op"]
+[Site "Barcelona"]
+[Date "1983.??.??"]
+[Round "?"]
+[White "Mateu"]
+[Black "Cueto Faus, Miquel"]
+[Result "0-1"]
+[ECO "A80"]
+[PlyCount "69"]
+[EventDate "1983.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. d4 f5 2. h3 Nf6 3. g4 fxg4 4. hxg4 Nxg4 5. e4 d6 6. Bg5 g6 7. Bc4 Bg7 8. c3
+h6 9. Bc1 e5 10. f3 Nf6 11. dxe5 dxe5 12. Qb3 Qe7 13. Be3 c6 14. a4 Nbd7 15. a5
+Nh5 16. Na3 Rf8 17. O-O-O Nc5 18. Qc2 Ne6 19. Bb3 Nef4 20. Qf2 Qg5 21. Qd2 Ng3
+22. Nc4 Be6 23. Nd6+ Ke7 24. Nh3 Bxh3 25. Rxh3 Rfd8 26. Kb1 Bf8 27. Qe1 Rxd6
+28. Rxd6 Kxd6 29. Rxg3 Qf6 30. Qf2 Kc7 31. Bxa7 Re8 32. Qb6+ Kc8 33. a6 Qe7 34.
+Bc4 Qc7 35. axb7+ 0-1
+
+[Event "UGA op"]
+[Site "Barcelona"]
+[Date "1983.??.??"]
+[Round "5"]
+[White "Illescas Cordoba, Miquel"]
+[Black "Mateu"]
+[Result "1/2-1/2"]
+[ECO "A45"]
+[PlyCount "19"]
+[EventDate "1983.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. d4 Nf6 2. Bg5 Ne4 3. Bh4 c5 4. f3 g5 5. fxe4 gxh4 6. e3 Bh6 7. Kf2 cxd4 8.
+exd4 d5 9. exd5 Qb6 10. Nc3 1/2-1/2

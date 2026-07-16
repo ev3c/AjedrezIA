@@ -1,0 +1,620 @@
+[Event "Figueres op"]
+[Site "?"]
+[Date "2011.08.11"]
+[Round "1"]
+[White "Medina Masdeu, R."]
+[Black "Vishnu, PV."]
+[Result "0-1"]
+[ECO "B23"]
+[WhiteElo "1794"]
+[BlackElo "2340"]
+[PlyCount "72"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.08.25"]
+
+1. e4 c5 2. Nc3 a6 3. f4 b5 4. d3 Bb7 5. Nf3 e6 6. g3 b4 7. Ne2 d5 8. exd5 exd5
+9. d4 Nf6 10. Bg2 Bd6 11. O-O O-O 12. c3 a5 13. Bd2 Re8 14. h3 Ne4 15. Kh2 Ba6
+16. Ne5 f6 17. Bxe4 dxe4 18. Ng4 cxd4 19. cxd4 Nc6 20. Be3 h5 21. Nf2 Ne7 22.
+Re1 Nd5 23. Qb3 Bb8 24. Nd1 h4 25. Bf2 hxg3+ 26. Bxg3 Qd7 27. Ne3 Bb7 28. Nxd5
+Bxd5 29. Qe3 Ra6 30. Rg1 Rc6 31. Rg2 Rc2 32. b3 Qf5 33. h4 Rec8 34. Kh1 Qh3+
+35. Rh2 Rxe2 36. Qxe2 e3+ 0-1
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2011.08.12"]
+[Round "2"]
+[White "Vishnu, PV."]
+[Black "Temprano Mateos, LJ."]
+[Result "1-0"]
+[ECO "C65"]
+[WhiteElo "2340"]
+[BlackElo "2010"]
+[PlyCount "53"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.08.25"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. O-O Bg4 7. h3 Bxf3 8.
+Qxf3 h6 9. Qg3 Qe7 10. Nd2 O-O-O 11. Nc4 Rde8 12. Bd2 Kb8 13. Rfb1 Nh5 14. Qf3
+g6 15. b4 Bd6 16. b5 c5 17. a4 Ng7 18. b6 Ne6 19. bxa7+ Kxa7 20. Na5 Nd8 21.
+Rxb7+ Nxb7 22. Nc6+ Ka8 23. Nxe7 Rxe7 24. Rb1 Nd8 25. d4 Nc6 26. dxc5 Bxc5 27.
+Qf6 1-0
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2011.08.13"]
+[Round "3"]
+[White "Casanellas Ruano, L."]
+[Black "Vishnu, PV."]
+[Result "0-1"]
+[ECO "D35"]
+[WhiteElo "2190"]
+[BlackElo "2340"]
+[PlyCount "98"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.08.25"]
+
+1. c4 e6 2. d4 Nf6 3. Nf3 d5 4. Nc3 c6 5. cxd5 exd5 6. Bg5 Be7 7. e3 Bf5 8. Bd3
+Bxd3 9. Qxd3 O-O 10. Ne5 Nbd7 11. Nxd7 Nxd7 12. Bxe7 Qxe7 13. O-O f5 14. b4 f4
+15. exf4 Rxf4 16. g3 Rf7 17. b5 Re8 18. bxc6 bxc6 19. Rac1 Qe6 20. Rc2 Ref8 21.
+f3 Nb6 22. Re2 Qh3 23. Rg2 Nc4 24. Ne4 Qe6 25. Ng5 Qf5 26. Ne4 h5 27. Rgf2 h4
+28. gxh4 Qh7 29. Nc5 Qxh4 30. Rg2 Qh6 31. Rg6 Qe3+ 32. Qxe3 Nxe3 33. Ne6 Re8
+34. Rc1 Kh7 35. Rxc6 Kxg6 36. Nc7+ Kg5 37. Nxe8 Rxf3 38. Rc1 g6 39. Nc7 Kf5 40.
+Nb5 a6 41. Nc3 g5 42. Re1 Kf4 43. Na4 Ke4 44. Nc5+ Kxd4 45. Nxa6 Kd3 46. Nc7 d4
+47. Ne6 Kd2 48. Nxd4 Rf4 49. Ne6 Kxe1 0-1
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2011.08.14"]
+[Round "4"]
+[White "Vishnu, PV."]
+[Black "Aroshidze, L."]
+[Result "1/2-1/2"]
+[ECO "A30"]
+[WhiteElo "2340"]
+[BlackElo "2539"]
+[PlyCount "53"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.08.25"]
+
+1. Nf3 c5 2. c4 Nf6 3. g3 b6 4. Bg2 Bb7 5. O-O e6 6. Nc3 a6 7. Re1 d6 8. e4 Be7
+9. d4 cxd4 10. Nxd4 Qc7 11. Be3 O-O 12. Rc1 Nbd7 13. Nd5 exd5 14. cxd5 Qd8 15.
+Nc6 Bxc6 16. dxc6 Nc5 17. c7 Qc8 18. b4 Ncxe4 19. Bd4 Ra7 20. Qc2 d5 21. Bh3
+Qxh3 22. c8=Q Rxc8 23. Qxc8+ Qxc8 24. Rxc8+ Bf8 25. Bxb6 Rb7 26. Bc5 Nd7 27.
+Rc1 1/2-1/2
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2011.08.14"]
+[Round "5"]
+[White "Trigo Urquijo, S."]
+[Black "Vishnu, PV."]
+[Result "0-1"]
+[ECO "E91"]
+[WhiteElo "2248"]
+[BlackElo "2340"]
+[PlyCount "78"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.08.25"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 Na6 7. O-O e5 8. Re1
+Qe8 9. Bf1 Bg4 10. d5 Nb4 11. Be2 a5 12. b3 Nh5 13. a3 Na6 14. h3 Bd7 15. Rb1
+f5 16. b4 axb4 17. axb4 Nf6 18. Bf1 Qe7 19. Qc2 f4 20. Ba3 b6 21. Nb5 Ne8 22.
+Nh2 h5 23. Qd1 Nf6 24. c5 g5 25. c6 Bc8 26. Be2 Qf7 27. Nc3 Bh6 28. f3 Kh8 29.
+Kf2 g4 30. hxg4 hxg4 31. Nxg4 Bxg4 32. fxg4 Nc5 33. bxc5 Rxa3 34. Rb3 Rxb3 35.
+Qxb3 f3 36. Bxf3 Nxg4+ 37. Kg1 Qf4 38. Nd1 Qg3 39. Kf1 Bd2 0-1
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2011.08.15"]
+[Round "6"]
+[White "Vishnu, PV."]
+[Black "Adrian, C."]
+[Result "1-0"]
+[ECO "C01"]
+[WhiteElo "2340"]
+[BlackElo "2291"]
+[PlyCount "83"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.08.25"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. exd5 exd5 5. Bd3 Nc6 6. a3 Bxc3+ 7. bxc3 Nge7
+8. Qf3 Be6 9. Ne2 Qd7 10. h3 Bf5 11. O-O O-O 12. Ng3 Bxd3 13. cxd3 Ng6 14. Bg5
+Rae8 15. Rae1 Re6 16. Qg4 Qe8 17. Bd2 Qe7 18. f4 Rxe1 19. Rxe1 Qh4 20. Qf3 Rd8
+21. f5 Nf8 22. Kh2 Rd7 23. Nh5 Qd8 24. Qg3 f6 25. Re8 Qxe8 26. Nxf6+ Kf7 27.
+Nxe8 Kxe8 28. Bf4 Kd8 29. Be5 g6 30. Bf6+ Ke8 31. fxg6 hxg6 32. h4 Kf7 33. Bg5
+Kg8 34. Bf4 Ne7 35. Bxc7 Nf5 36. Qe5 Nxh4 37. Bd6 Nf5 38. Bxf8 Kxf8 39. Qf6+
+Kg8 40. Qe6+ Rf7 41. Qxd5 Kg7 42. Qe5+ 1-0
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2011.08.16"]
+[Round "7"]
+[White "Lorenzo de la Riva, L."]
+[Black "Vishnu, PV."]
+[Result "0-1"]
+[ECO "B88"]
+[WhiteElo "2391"]
+[BlackElo "2340"]
+[PlyCount "38"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.08.25"]
+
+1. e4 c5 2. Nf3 d6 3. d4 Nf6 4. Nc3 cxd4 5. Nxd4 a6 6. Bc4 e6 7. O-O Be7 8. Bb3
+Nc6 9. Be3 Qc7 10. f4 O-O 11. f5 Nxd4 12. Qxd4 b5 13. a3 Rb8 14. Qd3 b4 15.
+axb4 Rxb4 16. Ra4 Rxa4 17. Nxa4 exf5 18. exf5 Bb7 19. Qc3 Bc6 0-1
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2011.08.17"]
+[Round "8"]
+[White "Vishnu, PV."]
+[Black "Alvarez Pedraza, A."]
+[Result "1/2-1/2"]
+[ECO "B12"]
+[WhiteElo "2340"]
+[BlackElo "2551"]
+[PlyCount "66"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.08.25"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 Bg6 6. O-O Nh6 7. Nbd2 Be7 8. Ne1
+Nf5 9. Ndf3 h5 10. g3 Nd7 11. Ng2 c5 12. c3 cxd4 13. cxd4 Qb6 14. Nf4 Nb8 15.
+Nxg6 fxg6 16. Qd3 Nc6 17. Rd1 O-O 18. Kg2 Rf7 19. Qb5 Qd8 20. h3 a6 21. Qb3 Qf8
+22. Be3 Bd8 23. g4 Nh6 24. Ng1 hxg4 25. hxg4 Rc8 26. Nh3 Qe8 27. Rac1 Rfc7 28.
+Qd3 Nb4 29. Rxc7 Rxc7 30. Qd2 Nc6 31. Bxh6 gxh6 32. Qxh6 Rh7 33. Qe3 Nb4
+1/2-1/2
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2011.08.18"]
+[Round "9"]
+[White "Oms Pallisse, J."]
+[Black "Vishnu, PV."]
+[Result "1/2-1/2"]
+[ECO "D46"]
+[WhiteElo "2489"]
+[BlackElo "2340"]
+[PlyCount "173"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.08.25"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 c6 4. Nc3 e6 5. e3 Nbd7 6. Qc2 Bd6 7. Bd3 O-O 8. O-O
+dxc4 9. Bxc4 b5 10. Be2 Bb7 11. Rd1 Qb8 12. e4 e5 13. Bg5 Re8 14. dxe5 Bxe5 15.
+Nxe5 Qxe5 16. Be3 b4 17. Na4 Qxe4 18. Bd3 Qh4 19. Bf5 Ne5 20. Rd4 Neg4 21. Bf4
+Ba6 22. Bg3 Qg5 23. Qc5 Rad8 24. Rxg4 Qh5 25. h3 Rd5 26. Qxc6 Qxf5 27. Rxb4 Bb5
+28. Qc7 Ne4 29. Re1 h6 30. Nc3 Nxc3 31. Qxc3 Rxe1+ 32. Qxe1 a6 33. Kh2 Qd7 34.
+Qc3 Rd1 35. Rg4 f6 36. a4 Rd3 37. Qc5 Bc6 38. Qc4+ Qd5 39. Qxd5+ Bxd5 40. Rb4
+Rb3 41. Rd4 Bc6 42. Rc4 Bd7 43. Rd4 Bc6 44. Rd6 Bxa4 45. Rxa6 Bb5 46. Ra2 Bc4
+47. Ra8+ Kh7 48. Rc8 Bd3 49. Rd8 Kg6 50. Bf4 Bc4 51. Rd2 Be6 52. Be3 h5 53. Bd4
+Kf7 54. Bc3 Rb5 55. b4 Rd5 56. Bd4 g5 57. Kg3 Kg6 58. Kf3 f5 59. Ke3 Bd7 60. f4
+Rd6 61. g3 g4 62. h4 Bb5 63. Rc2 Rc6 64. Ra2 Ra6 65. Rxa6+ Bxa6 66. Bh8 Kf7 67.
+Kd4 Ke6 68. Kc5 Bb7 69. Bb2 Be4 70. b5 Bf3 71. Bc3 Be4 72. Be5 Bf3 73. Kc4 Be4
+74. Kb4 Bf3 75. Bb2 Be4 76. Bd4 Bf3 77. Bf2 Be4 78. Be1 Bf3 79. Kc5 Be4 80. Kb6
+Kd7 81. Bb4 Bf3 82. Ka6 Be2 83. Kb6 Bf3 84. Kc5 Ke6 85. Kb6 Kd7 86. Ka7 Kc8 87.
+Bc3 1/2-1/2
+
+[Event "Figueres op A"]
+[Site "?"]
+[Date "2012.08.09"]
+[Round "1"]
+[White "Vishnu, PV."]
+[Black "Dilme Bosch, E."]
+[Result "1-0"]
+[ECO "B43"]
+[WhiteElo "2435"]
+[BlackElo "1994"]
+[PlyCount "61"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Nc3 Qc7 6. Bd3 Nc6 7. Nxc6 dxc6 8.
+O-O e5 9. f4 Bc5+ 10. Kh1 Nf6 11. f5 h6 12. a4 b6 13. Qf3 Bb7 14. Qg3 Rg8 15.
+Bd2 O-O-O 16. Rab1 b5 17. b4 Bd4 18. Ne2 bxa4 19. Nxd4 exd4 20. Bf4 Qe7 21. Qh3
+Rd7 22. e5 Nd5 23. e6 fxe6 24. fxe6 Rdd8 25. Bg3 Nf6 26. Qf5 Nd5 27. Qe5 Qc7
+28. Qxd4 Qb6 29. Qxb6 Nxb6 30. Rf7 Na8 31. e7 1-0
+
+[Event "Figueres op A"]
+[Site "?"]
+[Date "2012.08.10"]
+[Round "2"]
+[White "Aroshidze, L."]
+[Black "Vishnu, PV."]
+[Result "1/2-1/2"]
+[ECO "B60"]
+[WhiteElo "2568"]
+[BlackElo "2435"]
+[PlyCount "54"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Bg5 g6 7. Bxf6 exf6 8.
+Bc4 Bg7 9. Ndb5 O-O 10. Qxd6 f5 11. O-O-O Qb6 12. Nd5 Qxf2 13. Nf6+ Kh8 14. Nc7
+Rb8 15. Nfe8 Qe3+ 16. Kb1 Qxe4 17. Nxg7 Kxg7 18. Rhe1 Qxc4 19. Ne8+ Rxe8 20.
+Rxe8 Be6 21. Qf8+ Kf6 22. Rxb8 Qxa2+ 23. Kc1 Nxb8 24. Qxb8 Qa1+ 25. Kd2 Qa5+
+26. Kc1 Qa1+ 27. Kd2 Qa5+ 1/2-1/2
+
+[Event "Figueres op A"]
+[Site "?"]
+[Date "2012.08.11"]
+[Round "3"]
+[White "Vishnu, PV."]
+[Black "Garbisu de Goñi, U."]
+[Result "1-0"]
+[ECO "C45"]
+[WhiteElo "2435"]
+[BlackElo "2461"]
+[PlyCount "95"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5 5. Be3 Qf6 6. c3 Nge7 7. Bc4 Ne5 8.
+Be2 Qh4 9. O-O Qxe4 10. Nd2 Qg6 11. Bh5 Qd3 12. Be2 Qg6 13. Bh5 Qd3 14. N4f3
+Bd6 15. Ng5 O-O 16. Be2 Qg6 17. Nde4 Nf5 18. Bc1 Be7 19. f4 h6 20. fxe5 hxg5
+21. Bd3 d5 22. exd6 Bxd6 23. Bxg5 Bc5+ 24. Kh1 Be3 25. Bf4 Bxf4 26. Rxf4 Qh6
+27. Qf3 Nh4 28. Qg3 Ng6 29. Rf2 Be6 30. Ng5 Rad8 31. Bc2 Bd5 32. Raf1 f6 33.
+Ne4 f5 34. Nd2 Nh4 35. Bb3 Bxb3 36. Nxb3 f4 37. Qg4 Rd6 38. g3 Ng6 39. gxf4 Qh4
+40. Qg3 Qh5 41. f5 Rd1 42. Nd4 c5 43. Ne6 Rxf1+ 44. Rxf1 Rxf5 45. Rg1 Rf6 46.
+Ng5 Qe2 47. Qb8+ Rf8 48. Qxb7 $138 1-0
+
+[Event "Figueres op A"]
+[Site "?"]
+[Date "2012.08.12"]
+[Round "4"]
+[White "Mirzoev, A."]
+[Black "Vishnu, PV."]
+[Result "1/2-1/2"]
+[ECO "D23"]
+[WhiteElo "2545"]
+[BlackElo "2435"]
+[PlyCount "129"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Qc2 dxc4 5. Qxc4 Bg4 6. Nbd2 Nbd7 7. g3 e6 8.
+Bg2 Be7 9. O-O Bh5 10. Qb3 Qb6 11. Nc4 Qa6 12. Bd2 O-O 13. Rfc1 Rac8 14. a4
+Rfd8 15. Ba5 Re8 16. Be1 Bf8 17. e3 c5 18. Qb5 cxd4 19. Nxd4 Nc5 20. Qxa6 bxa6
+21. Na5 Rb8 22. Bc3 Nfe4 23. Nac6 Nxc3 24. Nxb8 Ne2+ 25. Nxe2 Bxe2 26. Re1 Nb3
+27. Rxe2 Nxa1 28. Nc6 Nb3 29. Rc2 g6 30. h4 Kg7 31. Nxa7 Nc5 32. b4 Nd3 33. b5
+axb5 34. axb5 Rb8 35. Rc7 Bc5 36. Nc6 Rxb5 37. Bf1 Rb1 38. Nd8 Kf8 39. Rxf7+
+Ke8 40. Rb7 Rxf1+ 41. Kxf1 Kxd8 42. Rxh7 Ke8 43. Ke2 Ne5 44. h5 gxh5 45. Rxh5
+Bd6 46. Rh7 Ng4 47. Rg7 Nf6 48. Rb7 e5 49. f4 e4 50. Rb5 Kf7 51. Rf5 Ke6 52.
+Rg5 Nd5 53. Kf2 Bc7 54. g4 Bb6 55. Ke2 Kd6 56. Rg6+ Kd7 57. Rg7+ Kd6 58. Rg5
+Nc3+ 59. Kd2 Nd5 60. Rg6+ Kc7 61. Ke2 Nc3+ 62. Kd2 Nd5 63. Ke2 Nc3+ 64. Kd2 Nd5
+65. Ke2 1/2-1/2
+
+[Event "Figueres op A"]
+[Site "?"]
+[Date "2012.08.12"]
+[Round "5"]
+[White "Vishnu, PV."]
+[Black "Simacek, P."]
+[Result "0-1"]
+[ECO "C45"]
+[WhiteElo "2435"]
+[BlackElo "2478"]
+[PlyCount "98"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5 5. Nxc6 Qf6 6. Qf3 Qxf3 7. gxf3 bxc6
+8. Nd2 Be7 9. Nb3 d6 10. Bd2 Nf6 11. Rg1 O-O 12. O-O-O Ne8 13. f4 Bh4 14. Be3
+Nf6 15. f3 Re8 16. Nd4 Nd5 17. exd5 Rxe3 18. dxc6 Bf6 19. Nb5 Re7 20. Bc4 a6
+21. Nd4 Rb8 22. c3 Rb6 23. Rge1 Rxe1 24. Rxe1 Kf8 25. Bd5 Bxd4 26. cxd4 Rb4 27.
+Rd1 Be6 28. Bxe6 fxe6 29. Kc2 Rc4+ 30. Kb3 d5 31. Re1 Kf7 32. f5 exf5 33. Re5
+Rxd4 34. Rxf5+ Ke6 35. Rf8 Rh4 36. Ra8 Rxh2 37. Rxa6 Rf2 38. Ra8 Kd6 39. Rf8 g5
+40. Rf5 Kxc6 41. Rxg5 Rxf3+ 42. Kb4 Rf4+ 43. Kc3 Rc4+ 44. Kb3 Rh4 45. a4 Kc5
+46. Rg7 Rh3+ 47. Kc2 Kc6 48. a5 h5 49. a6 Kb6 {0-1 en 77 jugadas Ilegible} 0-1
+
+[Event "Figueres op A"]
+[Site "?"]
+[Date "2012.08.13"]
+[Round "6"]
+[White "Ramiro Ovejero, JL."]
+[Black "Vishnu, PV."]
+[Result "0-1"]
+[ECO "B51"]
+[WhiteElo "2349"]
+[BlackElo "2435"]
+[PlyCount "76"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. O-O a6 5. Bd3 Ngf6 6. c3 e5 7. Bc2 Be7 8. d4
+O-O 9. a4 b6 10. Qe2 Qc7 11. Na3 Re8 12. d5 Nh5 13. Nc4 g6 14. g3 Ng7 15. Ne1
+f5 16. exf5 gxf5 17. Bh6 Nf6 18. a5 bxa5 19. Nxa5 Bf8 20. c4 Qf7 21. Ba4 Bd7
+22. Bxd7 Nxd7 23. Nc6 f4 24. Bxg7 Bxg7 25. Ra3 e4 26. gxf4 Qxf4 27. Ng2 Qf6 28.
+Rg3 Ne5 29. Nxe5 Qxe5 30. Ne3 Kh8 31. Kh1 Ra7 32. Rfg1 Rf8 33. Qg4 Qf4 34. Qxf4
+Rxf4 35. Kg2 Rf8 36. b3 Rb7 37. Rg4 Be5 38. Rxe4 Rxb3 {0-1 58 jug Ilegible} 0-1
+
+[Event "Figueres op A"]
+[Site "?"]
+[Date "2012.08.14"]
+[Round "7"]
+[White "Vishnu, PV."]
+[Black "Soumya, S."]
+[Result "1-0"]
+[ECO "B37"]
+[WhiteElo "2435"]
+[BlackElo "2271"]
+[PlyCount "71"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. c4 Nf6 2. Nc3 g6 3. e4 c5 4. Nf3 Nc6 5. d4 cxd4 6. Nxd4 d6 7. Nc2 Bg7 8. Be2
+O-O 9. O-O Be6 10. Be3 Qd7 11. f3 Rfc8 12. Qd2 Qd8 13. Rab1 Nd7 14. Rfc1 a6 15.
+b3 a5 16. Na3 Nc5 17. Nab5 Qf8 18. Nd5 Bxd5 19. cxd5 Ne5 20. a3 a4 21. Bxc5
+dxc5 22. b4 Nd7 23. f4 cxb4 24. Qxb4 Qd8 25. Kh1 Qb6 26. Rxc8+ Rxc8 27. Bg4 f5
+28. exf5 Nf6 29. Bf3 gxf5 30. Qe1 Kf8 31. h3 Qc5 32. Qe6 Rd8 33. Qxf5 Kg8 34.
+Qd3 Bh6 35. Nd4 Rc8 36. Ne6 {Ilegible 1-0 en 69 jugadas} 1-0
+
+[Event "Figueres op A"]
+[Site "?"]
+[Date "2012.08.15"]
+[Round "8"]
+[White "Vishnu, PV."]
+[Black "Martinez Duany, LS."]
+[Result "1/2-1/2"]
+[ECO "B35"]
+[WhiteElo "2435"]
+[BlackElo "2476"]
+[PlyCount "159"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 Nc6 3. Nc3 g6 4. d4 cxd4 5. Nxd4 Bg7 6. Be3 Nf6 7. Bc4 Qa5 8.
+O-O O-O 9. Bb3 d6 10. h3 Bd7 11. Re1 Rfe8 12. Nf3 Rac8 13. Qd2 Qh5 14. Bf4 Ne5
+15. Nxe5 dxe5 16. Be3 a6 17. f3 Bc6 18. Rad1 e6 19. Kh2 h6 20. g4 Qh4 21. Bf2
+Qg5 22. Qxg5 hxg5 23. Be3 Nh7 24. Na4 Bf6 25. Nb6 Rcd8 26. a4 Nf8 27. a5 Rxd1
+28. Rxd1 Rd8 29. c3 Rxd1 30. Bxd1 Bd8 31. b4 f6 32. Kg2 Kf7 33. Bc2 Nd7 34. Nc8
+Nb8 35. Bd3 Bc7 36. Kf2 Ba4 37. Nb6 Bd1 38. Be2 Bxe2 39. Kxe2 Ke8 40. Kd3 Nd7
+41. Nxd7 Kxd7 42. Kc4 Bd8 43. Bc5 Bc7 44. Kb3 Bd8 45. Ka4 Bc7 46. c4 Bd6 47.
+Bb6 Be7 48. b5 Bf8 49. Be3 Be7 50. Ba7 Bf8 51. Bb6 Bd6 52. c5 axb5+ 53. Kxb5
+Be7 54. c6+ bxc6+ 55. Kc4 Kc8 56. a6 Ba3 57. Bd8 Kb8 58. Bxf6 Ka7 59. Bxg5 Kxa6
+60. h4 Kb7 61. h5 gxh5 62. gxh5 Kc7 63. Bf6 Bf8 64. Bxe5+ Kd7 65. Bd4 Ke8 66.
+Bc5 Bh6 67. Kd4 Bg7+ 68. e5 Bh6 69. Ke4 Bc1 70. f4 Kf7 71. Be3 Ba3 72. f5 Bf8
+73. h6 c5 74. fxe6+ Kxe6 75. h7 Bg7 76. Bxc5 Kf7 77. e6+ Kxe6 78. Bd4 Kf7 79.
+h8=Q Bxh8 80. Bxh8 1/2-1/2
+
+[Event "Figueres op A"]
+[Site "?"]
+[Date "2012.08.16"]
+[Round "9"]
+[White "Roy Chowdhury, S."]
+[Black "Vishnu, PV."]
+[Result "1/2-1/2"]
+[ECO "B50"]
+[WhiteElo "2391"]
+[BlackElo "2435"]
+[PlyCount "74"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 d6 3. Bc4 Nf6 4. d3 Nc6 5. h3 a6 6. a4 e6 7. Bb3 d5 8. Nbd2 b6
+9. O-O Be7 10. c3 Bb7 11. Re1 Qc7 12. Nf1 dxe4 13. dxe4 Nd7 14. Qe2 O-O 15. Bc2
+Nde5 16. Nxe5 Nxe5 17. Bf4 Bd6 18. Bg3 c4 19. Ne3 b5 20. Red1 Rad8 21. axb5
+axb5 22. Ra7 f6 23. Ng4 Qb6 24. Bxe5 fxe5 25. Raa1 Rc8 26. Qe3 Bc5 27. Qg5
+Bxf2+ 28. Kh1 Qc7 29. Nxe5 h6 30. Qh5 Bg3 31. Ng4 Qf4 32. Qg6 Ra8 33. Rxa8 Bxa8
+34. Nxh6+ Kh8 35. Nf7+ Kg8 36. Nh6+ Kh8 37. Nf7+ Kg8 1/2-1/2
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.06.25"]
+[Round "1"]
+[White "Vehi Bach, VM."]
+[Black "Vishnu, PV."]
+[Result "0-1"]
+[ECO "B48"]
+[WhiteElo "2313"]
+[BlackElo "2459"]
+[PlyCount "64"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e6 5. Nc3 Qc7 6. Be3 a6 7. Qd2 Nf6 8.
+O-O-O Be7 9. f3 b5 10. g4 Nxd4 11. Bxd4 Bb7 12. g5 Nh5 13. Kb1 O-O 14. h4 b4
+15. Ne2 e5 16. Bf2 d5 17. exd5 Bxd5 18. Qxd5 Rad8 19. Bh3 Rxd5 20. Rxd5 Rd8 21.
+Rhd1 Rxd5 22. Rxd5 g6 23. Rd7 Qc4 24. Nf4 Bf8 25. Nd5 Nf4 26. b3 Qc6 27. Nxf4
+exf4 28. Rd3 h6 29. gxh6 Bxh6 30. h5 Bg7 31. hxg6 fxg6 32. Bg4 Qe8 0-1
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.06.26"]
+[Round "2"]
+[White "Vishnu, PV."]
+[Black "Peralta, F."]
+[Result "1/2-1/2"]
+[ECO "C11"]
+[WhiteElo "2459"]
+[BlackElo "2596"]
+[PlyCount "35"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6 7. Be3 cxd4 8. Nxd4
+Bc5 9. Qd2 O-O 10. O-O-O a6 11. Kb1 Nxd4 12. Bxd4 b5 13. Qe3 Bxd4 14. Rxd4 Qe7
+15. Bd3 Bb7 16. Re1 g6 17. g4 Rae8 18. Bf1 1/2-1/2
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.06.27"]
+[Round "3"]
+[White "Das, Say"]
+[Black "Vishnu, PV."]
+[Result "1-0"]
+[ECO "B48"]
+[WhiteElo "2352"]
+[BlackElo "2459"]
+[PlyCount "61"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qd2 Nf6 8.
+O-O-O Be7 9. f3 b5 10. g4 Nxd4 11. Bxd4 Bb7 12. h4 O-O 13. g5 Nh5 14. Bh3 b4
+15. Ne2 e5 16. Bf2 d5 17. Bg4 Nf4 18. Nxf4 exf4 19. e5 Qxe5 20. Bd4 Qc7 21. g6
+f5 22. gxh7+ Kh8 23. Bh3 Rac8 24. Rhg1 Bf6 25. Rg2 Qc4 26. Qxf4 Qxa2 27. Rxg7
+b3 28. Rg8+ Rxg8 29. Bxf6+ Rg7 30. Bxg7+ Kxg7 31. Rg1+ 1-0
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.06.29"]
+[Round "5"]
+[White "Sanchez, SF."]
+[Black "Vishnu, PV."]
+[Result "1/2-1/2"]
+[ECO "C95"]
+[WhiteElo "2375"]
+[BlackElo "2459"]
+[PlyCount "53"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3
+O-O 9. h3 Nb8 10. d4 Nbd7 11. Nbd2 Bb7 12. Bc2 Re8 13. Nf1 Bf8 14. Ng3 g6 15.
+a4 Bg7 16. b3 d5 17. dxe5 Nxe4 18. Nxe4 dxe4 19. Bxe4 Bxe4 20. Rxe4 Nxe5 21.
+Qxd8 Raxd8 22. Bg5 Nxf3+ 23. gxf3 Rb8 24. axb5 Rxe4 25. fxe4 Rxb5 26. Bf4 Bxc3
+27. Rxa6 1/2-1/2
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.06.30"]
+[Round "6"]
+[White "Vishnu, PV."]
+[Black "Gemy Vargas, JD."]
+[Result "1-0"]
+[ECO "C45"]
+[WhiteElo "2459"]
+[BlackElo "2330"]
+[PlyCount "105"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 bxc6 6. e5 Qe7 7. Qe2 Nd5 8.
+c4 Ba6 9. Nd2 O-O-O 10. b3 g5 11. Bb2 Bg7 12. O-O-O Rde8 13. h4 Nf4 14. Qe3
+Bxe5 15. Qxe5 Qxe5 16. Bxe5 Rxe5 17. Nf3 Ra5 18. hxg5 Rxa2 19. Rd2 Ra5 20. Kb2
+Rf5 21. g4 Ra5 22. Rd1 Bb7 23. Rh6 Ne6 24. b4 Ra4 25. Ne5 Rxb4+ 26. Kc3 Ra4 27.
+Bd3 Ra3+ 28. Kb2 Ra5 29. Nxf7 Rf8 30. Rxh7 Nxg5 31. Nxg5 Rxg5 32. Bf5 Kb8 33.
+Rhxd7 Bc8 34. Rd8 Rgg8 35. Rxc8+ Rxc8 36. Bxc8 Kxc8 37. f3 Rf8 38. Rf1 Rf4 39.
+Kc3 c5 40. Kd3 Kd7 41. Ke3 Rxc4 42. Rh1 a5 43. f4 a4 44. g5 a3 45. g6 Ke7 46.
+Rg1 Kf8 47. f5 Rc3+ 48. Ke4 Rc4+ 49. Ke3 Rc3+ 50. Kf4 Rc4+ 51. Kg5 a2 52. f6
+Rc2 53. Rh1 1-0
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.07.01"]
+[Round "7"]
+[White "Cori Tello, D."]
+[Black "Vishnu, PV."]
+[Result "1-0"]
+[ECO "D02"]
+[WhiteElo "2414"]
+[BlackElo "2459"]
+[PlyCount "35"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. d4 d5 2. Nf3 c5 3. e3 Nc6 4. Be2 cxd4 5. exd4 Bg4 6. c3 e6 7. Qb3 Qc7 8. Bf4
+Bd6 9. Bxd6 Qxd6 10. Ne5 Bxe2 11. Qxb7 Nd8 12. Qxa8 Qc7 13. Nc6 Qxc6 14. Qxc6+
+Nxc6 15. Kxe2 Nge7 16. Nd2 Kd7 17. b4 Rb8 18. a4 1-0
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.07.02"]
+[Round "8"]
+[White "Vishnu, PV."]
+[Black "Arribas Robaina, M."]
+[Result "1-0"]
+[ECO "C11"]
+[WhiteElo "2459"]
+[BlackElo "2308"]
+[PlyCount "55"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. d4 e6 2. e4 d5 3. Nc3 Nf6 4. Bg5 dxe4 5. Nxe4 Nbd7 6. Nf3 Be7 7. Nxf6+ Nxf6
+8. Bc4 c5 9. Qe2 Qa5+ 10. Bd2 Qc7 11. O-O-O O-O 12. dxc5 Bxc5 13. Bc3 a6 14.
+Be5 Qe7 15. Bd3 Rd8 16. Ng5 h6 17. h4 Bd7 18. Rh3 Bc6 19. Rg3 Rxd3 20. cxd3
+hxg5 21. hxg5 Nd7 22. Rh1 f6 23. g6 Qe8 24. Qh5 Kf8 25. Qh8+ Ke7 26. Qxg7+ Kd8
+27. Rh8 Bf8 28. Rxf8 1-0
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.07.03"]
+[Round "9"]
+[White "Palit, S."]
+[Black "Vishnu, PV."]
+[Result "0-1"]
+[ECO "B50"]
+[WhiteElo "2411"]
+[BlackElo "2459"]
+[PlyCount "112"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. e4 c5 2. Nf3 d6 3. c3 Nf6 4. h3 Nc6 5. Bd3 g6 6. Bc2 Bg7 7. O-O e5 8. d4
+exd4 9. cxd4 O-O 10. Be3 d5 11. e5 Nd7 12. Re1 cxd4 13. Bxd4 Re8 14. Ba4 Nb6
+15. Bxb6 axb6 16. Nc3 Be6 17. Nd4 Bd7 18. f4 Qh4 19. Nxd5 Rad8 20. Nf3 Qg3 21.
+Nf6+ Bxf6 22. exf6 Be6 23. Qe2 Qxf4 24. Bxc6 bxc6 25. Qe5 Qxe5 26. Nxe5 Rd6 27.
+a3 h5 28. Nc4 Rd4 29. Rac1 c5 30. Rc2 Red8 31. Ne5 Kh7 32. Rf2 Kh6 33. Kh2 Rd2
+34. Ree2 Rxe2 35. Rxe2 g5 36. g4 h4 37. Nf3 Rd3 38. Ne5 Rd1 39. Kg2 b5 40. Kf2
+Rh1 41. Nf3 Kg6 42. Re5 Kxf6 43. Rxc5 Rxh3 44. Rxb5 Bxg4 45. Nxg5 Rh2+ 46. Kg1
+Re2 47. Nh7+ Ke7 48. Rb7+ Ke6 49. Rb6+ Ke5 50. Rh6 Kf4 51. Rf6+ Kg3 52. Kf1
+Rxb2 53. Ke1 Re2+ 54. Kf1 Rd2 55. Kg1 h3 56. Kf1 h2 0-1

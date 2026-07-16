@@ -1,0 +1,1196 @@
+[Event "Obert Barcelona A"]
+[Site "?"]
+[Date "1993.??.??"]
+[Round "?"]
+[White "Catalan Escale, E."]
+[Black "Albero Figueras, E."]
+[Result "1-0"]
+[ECO "C02"]
+[PlyCount "55"]
+[EventDate "1993.??.??"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Bd7 6. a3 c4 7. Nbd2 Na5 8. Be2 Ne7
+9. O-O Ng6 10. g3 Be7 11. Rb1 O-O 12. h4 f6 13. h5 Nh8 14. b3 b5 15. a4 a6 16.
+axb5 axb5 17. exf6 Bxf6 18. bxc4 bxc4 19. Ne5 Bxe5 20. dxe5 Nc6 21. f4 Nf7 22.
+Nf3 Nh6 23. Nh4 Ra2 24. Be3 Qa5 25. Bxc4 Ra3 26. Bb6 Qxc3 27. Rf3 Qxc4 28. Rxa3
+1-0
+
+[Event "Obert Barcelona A"]
+[Site "?"]
+[Date "1993.??.??"]
+[Round "?"]
+[White "Catalan Escale, E."]
+[Black "Delgado"]
+[Result "1-0"]
+[ECO "B22"]
+[PlyCount "69"]
+[EventDate "1993.??.??"]
+
+1. e4 c5 2. c3 Nf6 3. e5 Nd5 4. d4 cxd4 5. Nf3 Nc6 6. cxd4 e6 7. a3 d6 8. Bd3
+Qc7 9. O-O Be7 10. Qe2 O-O 11. Rd1 f5 12. exf6 Bxf6 13. Qe4 g6 14. Nc3 Nxc3 15.
+bxc3 d5 16. Qe2 e5 17. dxe5 Nxe5 18. Bh6 Nxf3+ 19. Qxf3 Bg7 20. Qxd5+ Qf7 21.
+Bc4 Qxd5 22. Bxd5+ Kh8 23. Bxg7+ Kxg7 24. Re1 Rb8 25. Re7+ Kh6 26. Rae1 Bf5 27.
+Bxb7 Rf6 28. h3 Rb6 29. Bd5 Ra6 30. g4 Bd3 31. R1e3 Rb1+ 32. Kh2 Bb5 33. c4 Ba4
+34. h4 g5 35. Be4 1-0
+
+[Event "Ciutat de Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "1"]
+[White "Vives Font, D."]
+[Black "Catalan Escale, E."]
+[Result "0-1"]
+[ECO "D11"]
+[WhiteElo "1805"]
+[BlackElo "2255"]
+[PlyCount "76"]
+[EventDate "1996.??.??"]
+[EventType "rapid"]
+
+1. d4 d5 2. Nf3 c6 3. e3 Bg4 4. c4 Nf6 5. Nbd2 Nbd7 6. Bd3 e5 7. cxd5 cxd5 8.
+dxe5 Nxe5 9. Bb5+ Nc6 10. Qa4 Bd7 11. O-O Bd6 12. Nb3 a6 13. Bxc6 bxc6 14. Bd2
+O-O 15. Bc3 Ne4 16. Nbd2 Nxc3 17. bxc3 Qf6 18. Qh4 Qxc3 19. Qd4 Qxd4 20. Nxd4
+c5 21. N4b3 c4 22. Nd4 Rab8 23. Rab1 Rxb1 24. Rxb1 Rb8 25. Kf1 Rxb1+ 26. Nxb1
+Bb4 27. a3 Bc5 28. Ke2 Kf8 29. Kd2 a5 30. Kc3 Ke7 31. Nc2 Bf5 32. f3 g5 33. Nd2
+Bxc2 34. Kxc2 Bxe3 35. a4 Bxd2 36. Kxd2 d4 37. g3 Kd6 38. h3 h5 {(..50)} 0-1
+
+[Event "Ciutat de Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "2"]
+[White "Catalan Escale, E."]
+[Black "Rodriguez, Am"]
+[Result "0-1"]
+[ECO "C02"]
+[WhiteElo "2225"]
+[BlackElo "2565"]
+[PlyCount "61"]
+[EventDate "1996.??.??"]
+[EventType "rapid"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Bd7 6. a3 Rc8 7. b4 cxd4 8. cxd4
+Qb6 9. Be3 Nh6 10. Bd3 Nf5 11. Bxf5 exf5 12. O-O Be7 13. Qd2 a5 14. Nc3 Be6 15.
+b5 Na7 16. Bg5 Bxg5 17. Nxg5 Rc4 18. Nf3 O-O 19. a4 Nc8 20. Rfc1 Qa7 21. Ne2
+Nb6 22. Nf4 Rxc1+ 23. Rxc1 Nc4 24. Qd1 h6 25. Ne2 b6 26. Nd2 Qd7 27. Rc3 Rc8
+28. Qa1 Qe7 29. Nxc4 Rxc4 30. Qa3 Qxa3 31. Rxa3 0-1
+
+[Event "Ciutat de Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "3"]
+[White "Taberner Calvet, P."]
+[Black "Catalan Escale, E."]
+[Result "0-1"]
+[ECO "D18"]
+[WhiteElo "2000"]
+[BlackElo "2255"]
+[PlyCount "48"]
+[EventDate "1996.??.??"]
+[EventType "rapid"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Nf3 dxc4 5. a4 Bf5 6. e3 e6 7. Ne5 Bb4 8. f3 b5
+9. Bd2 Qb6 10. b3 cxb3 11. Qxb3 a5 12. axb5 O-O 13. bxc6 Nxc6 14. Nxc6 Qxc6 15.
+Bb5 Qb6 16. O-O Bxc3 17. Bxc3 Bd3 18. Ba4 Qxb3 19. Bxb3 Bxf1 20. Kxf1 Rfb8 21.
+Bc2 Rc8 22. Ra3 Nd5 23. Be4 Rxc3 24. Bxd5 Rc1+ 0-1
+
+[Event "Ciutat de Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "4"]
+[White "Catalan Escale, E."]
+[Black "Santolaria Peña, M."]
+[Result "1-0"]
+[ECO "B07"]
+[WhiteElo "2225"]
+[BlackElo "2065"]
+[PlyCount "51"]
+[EventDate "1996.??.??"]
+[EventType "rapid"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Bg5 Bg7 5. e5 dxe5 6. dxe5 Qxd1+ 7. Rxd1 Ng4 8.
+h3 Nh6 9. Nd5 Bxe5 10. Bxh6 c6 11. Bf4 Bxf4 12. Nxf4 a5 13. Nf3 b5 14. Bd3 Na6
+15. Be4 Bb7 16. Nd4 Rc8 17. Bf3 e5 18. Nxb5 Ke7 19. Nd6 Rb8 20. Nxb7 exf4 21.
+Nxa5 Kf6 22. O-O Rxb2 23. Nxc6 Rxc2 24. a4 Rc8 25. Rd6+ Kg7 26. Na7 1-0
+
+[Event "Ciutat de Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "5"]
+[White "Vehi Bach, VM."]
+[Black "Catalan Escale, E."]
+[Result "1-0"]
+[ECO "B90"]
+[WhiteElo "2365"]
+[BlackElo "2225"]
+[PlyCount "59"]
+[EventDate "1996.??.??"]
+[EventType "rapid"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nb3 Be6 8. f4
+exf4 9. Bxf4 Nc6 10. Qe2 Ne5 11. h3 Be7 12. O-O-O Qc7 13. g4 O-O 14. g5 Nfd7
+15. Qg2 b5 16. Kb1 Nb6 17. Nd4 Nbc4 18. Nd5 Bxd5 19. exd5 Ng6 20. Bc1 Rfe8 21.
+h4 Bf8 22. h5 Nge5 23. g6 fxg6 24. hxg6 Nxg6 25. Bd3 Nce5 26. Bf5 Be7 27. Be6+
+Kh8 28. Rde1 Nf8 29. Bf7 Nxf7 30. Ne6 1-0
+
+[Event "Ciutat de Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "6"]
+[White "Catalan Escale, E."]
+[Black "Rius Colomer, LA."]
+[Result "1-0"]
+[ECO "C02"]
+[WhiteElo "2225"]
+[BlackElo "2035"]
+[PlyCount "83"]
+[EventDate "1996.??.??"]
+[EventType "rapid"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Qb6 5. Nf3 Nc6 6. a3 c4 7. Nbd2 Na5 8. Be2 Bd7
+9. O-O Qc6 10. Qe1 O-O-O 11. Bd1 f6 12. exf6 gxf6 13. b4 cxb3 14. Nxb3 Nc4 15.
+Nfd2 Bh6 16. Nxc4 Qxc4 17. Nc5 Bxc1 18. Be2 Bb2 19. Bxc4 Bxa1 20. Bxd5 exd5 21.
+Nxd7 Rxd7 22. Qe8+ Rd8 23. Qe6+ Kb8 24. Rxa1 Ka8 25. Rb1 Rb8 26. Qxd5 Ne7 27.
+Qe6 Nc6 28. g3 Rhe8 29. Qxf6 Re2 30. Qf3 Ra2 31. c4 Rc2 32. c5 Rc4 33. Qd5 Rc3
+34. a4 Ne7 35. Qe4 Nc6 36. d5 Nd8 37. Qd4 Rc2 38. a5 Rc8 39. c6 bxc6 40. dxc6
+Nxc6 41. Qe4 Rc5 42. a6 1-0
+
+[Event "Ciutat de Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "7"]
+[White "Torrecillas Martinez, A."]
+[Black "Catalan Escale, E."]
+[Result "1-0"]
+[ECO "B90"]
+[WhiteElo "2355"]
+[BlackElo "2225"]
+[PlyCount "71"]
+[EventDate "1996.??.??"]
+[EventType "rapid"]
+
+1. Nf3 c5 2. e4 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nf3 Qc7 8. a4
+b6 9. Bg5 Nbd7 10. Bd3 Bb7 11. O-O Be7 12. Qe2 O-O 13. Rfd1 Nc5 14. Bxf6 Bxf6
+15. Bc4 Ne6 16. g3 Rfc8 17. Bd5 Be7 18. Bxb7 Qxb7 19. Nd5 Bf8 20. c3 Nc7 21.
+Nh4 Nxd5 22. Rxd5 g6 23. Ng2 f5 24. Rad1 fxe4 25. Qxe4 Qf7 26. Ne3 Rab8 27. c4
+b5 28. axb5 axb5 29. Rxb5 Rxb5 30. cxb5 Rb8 31. Qd5 Qxd5 32. Rxd5 Kf7 33. Kg2
+Ke6 34. Kf3 Bh6 35. Ke4 Ra8 36. Nc4 1-0
+
+[Event "Ciutat de Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "8"]
+[White "Catalan Escale, E."]
+[Black "Parayre Soguero, J."]
+[Result "1-0"]
+[ECO "A45"]
+[WhiteElo "2225"]
+[BlackElo "2070"]
+[PlyCount "61"]
+[EventDate "1996.??.??"]
+[EventType "rapid"]
+
+1. d4 Nf6 2. Nd2 d5 3. e3 Bf5 4. b3 e6 5. Bb2 Be7 6. Ngf3 Nbd7 7. Be2 O-O 8.
+O-O c5 9. c4 Rc8 10. Nh4 dxc4 11. Nxf5 exf5 12. Nxc4 Ne4 13. a4 cxd4 14. Bxd4
+Bf6 15. f3 Nc3 16. Bxc3 Bxc3 17. Rc1 Bb4 18. Bd3 Qf6 19. e4 Rfd8 20. Qe2 Qd4+
+21. Kh1 Nc5 22. Bc2 fxe4 23. fxe4 Qc3 24. Rf3 Nd3 25. Rxd3 Rxd3 26. Qxd3 Qf6
+27. e5 Qf2 28. Qxh7+ Kf8 29. Qh8+ Ke7 30. Qxc8 Qf4 31. Rd1 1-0
+
+[Event "Ct. Catalunya Final"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "1"]
+[White "Baron Isanta, JM."]
+[Black "Catalan Escale, E."]
+[Result "1-0"]
+[ECO "D17"]
+[WhiteElo "2290"]
+[BlackElo "2225"]
+[PlyCount "71"]
+[EventDate "1996.??.??"]
+
+1. Nf3 d5 2. d4 Nf6 3. c4 c6 4. Nc3 dxc4 5. a4 Bf5 6. Ne5 Nbd7 7. Nxc4 Qc7 8.
+g3 e5 9. Bg2 Rd8 10. O-O Be7 11. d5 Nb6 12. Nxb6 axb6 13. Qb3 Nd7 14. Qc4 Rc8
+15. Be3 O-O 16. Rfd1 Bc5 17. Bxc5 Nxc5 18. a5 Rfd8 19. Qb4 Nd7 20. d6 Qb8 21.
+axb6 Nf6 22. Ra5 Re8 23. e4 Bd7 24. f4 exf4 25. gxf4 Bg4 26. Rd2 Rcd8 27. Qd4
+Qc8 28. e5 Nd7 29. Ne4 Bf5 30. Ng3 Nb8 31. Ra7 c5 32. Qf2 Nc6 33. Bxc6 bxc6 34.
+Qxc5 Bh3 35. Qc4 c5 36. Qxf7+ 1-0
+
+[Event "Ct. Catalunya Final"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "2"]
+[White "Catalan Escale, E."]
+[Black "Bordell Rosell, R."]
+[Result "1/2-1/2"]
+[ECO "B22"]
+[WhiteElo "2225"]
+[BlackElo "2275"]
+[PlyCount "153"]
+[EventDate "1996.??.??"]
+
+1. e4 c5 2. c3 d5 3. exd5 Qxd5 4. d4 Nc6 5. Nf3 Nf6 6. Be2 e6 7. Na3 cxd4 8.
+Nb5 Qd8 9. Nbxd4 Nxd4 10. Nxd4 a6 11. Qb3 Qc7 12. Qc4 Qxc4 13. Bxc4 e5 14. Nf3
+Bd6 15. Bg5 h6 16. O-O-O Bc7 17. Bh4 b5 18. Bb3 O-O 19. Rhe1 Bg4 20. h3 Bxf3
+21. gxf3 Rfd8 22. Bxf6 gxf6 23. Rg1+ Kf8 24. Bc2 Rxd1+ 25. Kxd1 a5 26. Rg4 Bd6
+27. Rh4 Kg7 28. Rg4+ Kh8 29. Rh4 Bf8 30. a3 Rb8 31. Bf5 Rd8+ 32. Kc2 Kg8 33.
+Rg4+ Kh8 34. Rh4 Kg8 35. Rg4+ Bg7 36. a4 h5 37. Re4 bxa4 38. Rxa4 Bh6 39. Rxa5
+Rd2+ 40. Kb3 Rxf2 41. Be4 Bc1 42. Ra2 f5 43. Bd5 Rh2 44. c4 Rxh3 45. Kc2 Be3
+46. Ra8+ Kg7 47. b4 Rh2+ 48. Kd3 Bf4 49. b5 Rb2 50. Ra1 h4 51. Rh1 Bg5 52. Kc3
+Rg2 53. b6 e4 54. b7 Bf6+ 55. Kb4 Rb2+ 56. Kc5 e3 57. f4 Bc3 58. Bf3 Rxb7 59.
+Bxb7 e2 60. Kd5 e1=Q 61. Rxe1 Bxe1 62. Ke5 Kg6 63. Bf3 Bd2 64. Bg2 f6+ 65. Ke6
+Bxf4 66. Bh3 Be3 67. Bxf5+ Kg5 68. Bh3 Bf2 69. Kd5 Kf4 70. c5 Bxc5 71. Kxc5 Kg3
+72. Bf5 h3 73. Kd5 h2 74. Be4 Kf4 75. Bh1 f5 76. Kd4 Kg3 77. Ke3 1/2-1/2
+
+[Event "Ct. Catalunya Final"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "3"]
+[White "Leiro Giralt, D."]
+[Black "Catalan Escale, E."]
+[Result "1/2-1/2"]
+[ECO "B23"]
+[WhiteElo "2290"]
+[BlackElo "2225"]
+[PlyCount "13"]
+[EventDate "1996.??.??"]
+
+1. e4 c5 2. Nc3 d6 3. Nge2 Nf6 4. g3 b5 5. Bg2 Bb7 6. O-O e5 7. d3 1/2-1/2
+
+[Event "Ct. Catalunya Final"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "4"]
+[White "Catalan Escale, E."]
+[Black "Pizarro Segura, E."]
+[Result "1/2-1/2"]
+[ECO "B07"]
+[WhiteElo "2225"]
+[BlackElo "2215"]
+[PlyCount "54"]
+[EventDate "1996.??.??"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Bg5 Bg7 5. e5 Nfd7 6. Nd5 f6 7. exf6 Nxf6 8.
+Bc4 Nxd5 9. Bxd5 c6 10. Bb3 Qa5+ 11. Bd2 Qf5 12. Ne2 Be6 13. c3 Nd7 14. Bxe6
+Qxe6 15. O-O O-O 16. Nf4 Qf7 17. Qg4 Qf5 18. Qxf5 Rxf5 19. Ne6 Bh8 20. Rae1 Nf8
+21. Ng5 Re8 22. Ne4 Rd8 23. Bg5 Rd7 24. Bh6 Bg7 25. Bxg7 Kxg7 26. Ng3 Ra5 27.
+a3 c5 1/2-1/2
+
+[Event "Ct. Catalunya Final"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "5"]
+[White "Codina Feixes, J."]
+[Black "Catalan Escale, E."]
+[Result "1/2-1/2"]
+[ECO "D02"]
+[WhiteElo "2255"]
+[BlackElo "2225"]
+[PlyCount "20"]
+[EventDate "1996.??.??"]
+
+1. d4 d5 2. Nf3 c6 3. e3 Bg4 4. Bd3 Nf6 5. Nbd2 Nbd7 6. h3 Bxf3 7. Nxf3 Qc7 8.
+c4 e5 9. Be2 e4 10. Nd2 Be7 1/2-1/2
+
+[Event "Ct. Catalunya Final"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "6"]
+[White "Catalan Escale, E."]
+[Black "Pinazo Donoso, J."]
+[Result "0-1"]
+[ECO "A45"]
+[WhiteElo "2225"]
+[BlackElo "2215"]
+[PlyCount "66"]
+[EventDate "1996.??.??"]
+
+1. d4 Nf6 2. Nd2 d5 3. e3 e6 4. Bd3 Nc6 5. f4 b6 6. c3 Bd6 7. Ngf3 Ne7 8. Ne5
+c6 9. O-O Qc7 10. Qe2 Bb7 11. b3 c5 12. Bb2 Ne4 13. Bb5+ Nc6 14. Nxe4 dxe4 15.
+c4 O-O 16. Bxc6 Bxc6 17. Nxc6 Qxc6 18. Rad1 Rad8 19. d5 exd5 20. Rxd5 Be7 21.
+Rfd1 Rxd5 22. cxd5 Qg6 23. Qa6 Qg4 24. Rd2 Qd7 25. Qc4 Re8 26. Qxe4 Bd6 27. Qd3
+Qe7 28. Kf2 Qh4+ 29. g3 Qxh2+ 30. Kf3 Qh3 31. Kf2 h5 32. Re2 h4 33. e4 Bxf4 0-1
+
+[Event "Ct. Catalunya Final"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "7"]
+[White "Dominguez Rueda, J."]
+[Black "Catalan Escale, E."]
+[Result "1-0"]
+[ECO "B23"]
+[WhiteElo "2265"]
+[BlackElo "2225"]
+[PlyCount "97"]
+[EventDate "1996.??.??"]
+
+1. e4 c5 2. Nc3 d6 3. f4 Nc6 4. Nf3 Bg4 5. d3 g6 6. h3 Bxf3 7. Qxf3 Nd4 8. Qf2
+Bg7 9. g4 e6 10. Bg2 h5 11. g5 Qd7 12. O-O Ne7 13. Nd1 O-O-O 14. Be3 f6 15. h4
+fxg5 16. hxg5 e5 17. Bxd4 exd4 18. Qf3 Kb8 19. b3 Nc6 20. a3 Rhf8 21. Nb2 Ne5
+22. Qg3 Qg4 23. Qh2 Qe2 24. fxe5 Bxe5 25. Qh3 Qxc2 26. Nc4 Qxb3 27. Rab1 Qa4
+28. Qe6 Qd7 29. Qxd7 Rxf1+ 30. Rxf1 Rxd7 31. Rf8+ Kc7 32. Bh3 Rd8 33. Rf7+ Kc6
+34. Be6 Kb5 35. Rxb7+ Ka6 36. Rb1 Bf4 37. Bd5 Rd7 38. Rb8 Rc7 39. Be6 d5 40.
+exd5 Rb7 41. Rxb7 Kxb7 42. Bf7 Bxg5 43. Bxg6 h4 44. Kg2 Bf4 45. Bf5 Kc7 46. Kf3
+Bg3 47. Kg4 Be1 48. d6+ Kd8 49. Ne5 1-0
+
+[Event "Ct. Catalunya equips"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "1"]
+[White "Catalan Escale, E."]
+[Black "Melchor Muñoz, A."]
+[Result "1-0"]
+[ECO "C55"]
+[PlyCount "55"]
+[EventDate "1996.??.??"]
+
+1. e4 e5 2. d4 exd4 3. Nf3 Nc6 4. Bc4 Nf6 5. O-O d6 6. Nxd4 Nxd4 7. Qxd4 Be6 8.
+Bxe6 fxe6 9. Re1 e5 10. Qc4 Qd7 11. Nc3 c6 12. a4 Qf7 13. Qxf7+ Kxf7 14. f3 Be7
+15. Nd1 Nd7 16. Ne3 g6 17. Rd1 Ke6 18. b3 Bg5 19. Nc4 Bxc1 20. Rxd6+ Ke7 21.
+Rxc1 b5 22. Rcd1 Nb6 23. Nxe5 bxa4 24. Nxc6+ Kf7 25. bxa4 Nxa4 26. Rd7+ Kf6 27.
+f4 Nc3 28. R1d6# 1-0
+
+[Event "Ct. Catalunya equips"]
+[Site "?"]
+[Date "1997.??.??"]
+[Round "1"]
+[White "Castany Pampalona, L."]
+[Black "Catalan Escale, E."]
+[Result "1-0"]
+[ECO "B87"]
+[WhiteElo "2170"]
+[BlackElo "2255"]
+[PlyCount "77"]
+[EventDate "1997.??.??"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bc4 e6 7. Bb3 b5 8. O-O
+Be7 9. f4 O-O 10. f5 e5 11. Nde2 Bb7 12. Ng3 Nbd7 13. Bg5 Nb6 14. Bxf6 Bxf6 15.
+Qg4 Nc4 16. Bxc4 bxc4 17. Nh5 Kh8 18. Rad1 Rb8 19. Rf2 Rg8 20. Rfd2 Be7 21. Qf3
+f6 22. b3 cxb3 23. axb3 Qb6+ 24. Kh1 Qb4 25. Ng3 Rgc8 26. Nge2 Rc7 27. Rd3 Rbc8
+28. Qh5 Bxe4 29. Rh3 h6 30. Rh4 Rxc3 31. Nxc3 Rxc3 32. Qe8+ Kh7 33. Rg4 Bf8 34.
+Qxf8 Qb7 35. Qxd6 Rxc2 36. Rd2 Qb4 37. Rxg7+ Kxg7 38. Qd7+ Kf8 39. Qd8+ 1-0
+
+[Event "Ct. Catalunya equips"]
+[Site "?"]
+[Date "1997.??.??"]
+[Round "2"]
+[White "Gual Pascual, A."]
+[Black "Catalan Escale, E."]
+[Result "1-0"]
+[ECO "D16"]
+[WhiteElo "2430"]
+[BlackElo "2255"]
+[PlyCount "51"]
+[EventDate "1997.??.??"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bg4 6. Ne5 Bh5 7. f3 Nfd7 8.
+Nxc4 e5 9. g3 Bb4 10. dxe5 O-O 11. Bh3 Qe7 12. f4 Rd8 13. Qc2 Na6 14. O-O Bc5+
+15. Kh1 Nb4 16. Qb3 a5 17. Ne3 h6 18. Nf5 Qf8 19. g4 Bg6 20. Ne4 Bxf5 21. gxf5
+Nb6 22. f6 g6 23. e6 fxe6 24. Bxe6+ Kh7 25. f5 gxf5 26. Qh3 1-0
+
+[Event "Ct. Catalunya equips"]
+[Site "?"]
+[Date "1997.??.??"]
+[Round "3"]
+[White "Catalan Escale, E."]
+[Black "Narciso Dublan, M."]
+[Result "0-1"]
+[ECO "B03"]
+[WhiteElo "2255"]
+[BlackElo "2470"]
+[PlyCount "124"]
+[EventDate "1997.??.??"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. Bc4 dxe5 5. dxe5 c6 6. Nc3 Be6 7. Nxd5 Bxd5 8.
+Bxd5 Qxd5 9. Qxd5 cxd5 10. f4 e6 11. Be3 Nd7 12. Nf3 g6 13. O-O-O Rc8 14. Kb1
+a6 15. g4 Bc5 16. Bxc5 Rxc5 17. h4 h5 18. g5 Ke7 19. Nd4 Rhc8 20. Rh3 Rc4 21.
+Rh2 b5 22. Rg2 b4 23. Rg3 a5 24. Rf3 Nb6 25. Rf2 Rb8 26. Nb5 Nc8 27. Nd4 Kd7
+28. Rf3 Ne7 29. b3 Rc5 30. Kb2 Rbc8 31. Rf2 Kc7 32. Rd3 Kb6 33. Rdf3 R8c7 34.
+Rd3 Rc8 35. Rdf3 R8c7 36. Rd3 Rc3 37. Rfd2 R3c5 38. Rf2 Rc3 39. Rfd2 Rc8 40.
+Kb1 R3c7 41. Kb2 Rc5 42. Kb1 Nc6 43. Nxc6 R8xc6 44. Kc1 Kb5 45. Kb1 a4 46. Kc1
+Rc7 47. Kb1 R5c6 48. Kc1 axb3 49. Rxb3 Rc3 50. Rxc3 bxc3 51. Rd4 Ra7 52. Kb1
+Kc5 53. Rd3 d4 54. Rd1 Kd5 55. Ka1 Ke4 56. Rf1 Kf5 57. Rd1 Ke4 58. Rf1 Ke3 59.
+f5 gxf5 60. g6 fxg6 61. Rg1 f4 62. Rxg6 f3 0-1
+
+[Event "Ct. Catalunya equips"]
+[Site "?"]
+[Date "1997.??.??"]
+[Round "4"]
+[White "Ferron Garcia, C."]
+[Black "Catalan Escale, E."]
+[Result "1-0"]
+[ECO "B12"]
+[WhiteElo "2210"]
+[BlackElo "2255"]
+[PlyCount "133"]
+[EventDate "1997.??.??"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. g4 Bd7 5. Be3 h5 6. gxh5 Bf5 7. c3 e6 8. Nd2 Nd7
+9. b4 a5 10. a3 Nh6 11. Be2 Be7 12. Nf1 axb4 13. axb4 Rxa1 14. Qxa1 Ng4 15. Ng3
+Nxe3 16. fxe3 Bh7 17. Nh3 O-O 18. Nf4 b6 19. O-O Qa8 20. Bg4 Qb7 21. Qb2 Kh8
+22. Be2 Ra8 23. Ra1 Ra7 24. Bd3 Bxd3 25. Nxd3 Bg5 26. Kf2 Qa8 27. Rxa7 Qxa7 28.
+e4 Qa6 29. b5 cxb5 30. exd5 exd5 31. Nf5 Qa4 32. Ke2 Nf8 33. Nd6 Kg8 34. Nb4
+Qa8 35. Qa2 Qxa2+ 36. Nxa2 Ne6 37. Nxb5 Nf4+ 38. Kf3 Bh6 39. Nb4 Kf8 40. Nc7
+Nxh5 41. Nbxd5 Bd2 42. Ke2 Bf4 43. Nxf4 Nxf4+ 44. Kf3 Nd3 45. Nd5 b5 46. Ke2
+Nc1+ 47. Kd2 Nb3+ 48. Kc2 Na5 49. Nc7 Nc4 50. Nxb5 Ne3+ 51. Kd3 Ng4 52. h4 Nh6
+53. Ke4 g6 54. Nd6 Ke7 55. Kd5 Ng4 56. Nc4 Nh2 57. Kc6 Kd8 58. Nd2 Ng4 59. Nf3
+Ne3 60. d5 Nc4 61. Kc5 Ne3 62. c4 Nf5 63. Kb6 Ne3 64. Kb5 Ke8 65. Ng5 Nf5 66.
+Kc6 Ng7 67. d6 1-0
+
+[Event "Ct. Catalunya equips"]
+[Site "?"]
+[Date "1997.??.??"]
+[Round "5"]
+[White "Catalan Escale, E."]
+[Black "Torrecillas Martinez, A."]
+[Result "1-0"]
+[ECO "B03"]
+[WhiteElo "2255"]
+[BlackElo "2355"]
+[PlyCount "53"]
+[EventDate "1997.??.??"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. Bc4 c6 5. Nc3 Nxc3 6. bxc3 dxe5 7. Qh5 e6 8.
+Qxe5 Nd7 9. Qg3 Nf6 10. Ne2 g6 11. O-O Bd6 12. Qf3 O-O 13. Bg5 Be7 14. Bh6 Re8
+15. Nf4 e5 16. dxe5 Ng4 17. Nxg6 Nxh6 18. Qg3 Bc5 19. Rad1 Qc7 20. Qg5 Nf5 21.
+Ne7+ Kh8 22. Nxf5 Bxf5 23. Qf6+ Kg8 24. Qxf5 Rxe5 25. Qg4+ Kh8 26. Rd7 Qb6 27.
+Qf4 1-0
+
+[Event "Ct. Catalunya equips"]
+[Site "?"]
+[Date "1997.??.??"]
+[Round "6"]
+[White "Medina Garcia, A."]
+[Black "Catalan Escale, E."]
+[Result "1-0"]
+[ECO "B25"]
+[WhiteElo "2330"]
+[BlackElo "2255"]
+[PlyCount "77"]
+[EventDate "1997.??.??"]
+
+1. e4 c5 2. Nc3 d6 3. g3 Nc6 4. Bg2 g6 5. d3 Bg7 6. f4 e6 7. Nf3 Nge7 8. O-O
+O-O 9. Be3 Nd4 10. Bf2 Nec6 11. Kh1 Kh8 12. Nh4 f5 13. Re1 Bd7 14. Rb1 Rb8 15.
+Ne2 Nxe2 16. Qxe2 Qa5 17. c3 Rfe8 18. a3 Qa6 19. Rbd1 b6 20. Nf3 h6 21. Nh4 Kh7
+22. g4 Ne7 23. gxf5 exf5 24. Qf3 Bf6 25. Qg3 Rg8 26. e5 dxe5 27. fxe5 Bg5 28.
+Nf3 Ba4 29. Nxg5+ hxg5 30. Qxg5 Rg7 31. Rd2 Bc6 32. Bxc6 Nxc6 33. Re3 Qb7 34.
+Kg1 Qe7 35. Bh4 Qxg5+ 36. Bxg5 Kg8 37. d4 cxd4 38. cxd4 Ne7 39. d5 1-0
+
+[Event "Ct. Catalunya equips"]
+[Site "?"]
+[Date "1997.??.??"]
+[Round "7"]
+[White "Catalan Escale, E."]
+[Black "Monclus Domingo, A."]
+[Result "1/2-1/2"]
+[ECO "C02"]
+[WhiteElo "2255"]
+[BlackElo "2290"]
+[PlyCount "118"]
+[EventDate "1997.??.??"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Qb6 5. Nf3 Bd7 6. Be2 Nc6 7. a3 c4 8. Nbd2 Na5
+9. O-O Ne7 10. Rb1 Nc8 11. b4 cxb3 12. c4 dxc4 13. Nxc4 Nxc4 14. Bxc4 Qc6 15.
+Qxb3 Nb6 16. Bd3 Be7 17. Bd2 Qa4 18. Be4 Rb8 19. Qxa4 Bxa4 20. Bb4 Bxb4 21.
+axb4 Bb5 22. Rfc1 Bc4 23. Nd2 Bd5 24. Bxd5 Nxd5 25. Ne4 Kd7 26. Nd6 f6 27. Rc2
+Rhf8 28. b5 fxe5 29. dxe5 Rf4 30. Ra1 Rb4 31. g3 Nc7 32. Rd2 Ke7 33. Rxa7 Nxb5
+34. Nxb5 Rxb5 35. Rc2 Rd8 36. Rc7+ Rd7 37. Rxd7+ Kxd7 38. f4 Kc6 39. Ra8 Kd5
+40. Kf2 Rb2+ 41. Kf3 Rxh2 42. Rd8+ Kc5 43. Rd7 b5 44. Rxg7 b4 45. Rb7 Rh1 46.
+Kg2 Ra1 47. g4 Kc4 48. Rc7+ Kd4 49. Rb7 Kc3 50. Kf3 b3 51. Rc7+ Kd2 52. Rd7+
+Kc1 53. Rc7+ Kb1 54. f5 b2 55. Rxh7 exf5 56. gxf5 Kc2 57. Rh2+ Kc3 58. Rxb2
+Kxb2 59. Ke4 Kc3 1/2-1/2
+
+[Event "Ct. Catalunya equips"]
+[Site "?"]
+[Date "1997.??.??"]
+[Round "8"]
+[White "Pomes Marcet, J."]
+[Black "Catalan Escale, E."]
+[Result "1-0"]
+[ECO "D23"]
+[WhiteElo "2420"]
+[BlackElo "2255"]
+[PlyCount "77"]
+[EventDate "1997.??.??"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Qb3 dxc4 5. Qxc4 Bf5 6. Nc3 e6 7. g3 Be7 8. Bg2
+Nbd7 9. O-O Ne4 10. e3 Nxc3 11. bxc3 Be4 12. Qe2 Qc7 13. c4 b6 14. Bb2 O-O 15.
+Rfd1 Rad8 16. Nd2 Bxg2 17. Kxg2 f5 18. e4 f4 19. e5 fxg3 20. fxg3 Rf5 21. Rf1
+Rdf8 22. Rxf5 Rxf5 23. Nf3 b5 24. c5 a5 25. a4 b4 26. Nd2 Nf8 27. Ne4 Qd7 28.
+Qc4 Qd5 29. Qxd5 exd5 30. Nd6 Bxd6 31. cxd6 Ne6 32. Rc1 Nd8 33. Rc5 Rf7 34.
+Rxa5 Rd7 35. Ra8 Kf7 36. a5 c5 37. dxc5 Nc6 38. Ra6 Nb8 39. Rb6 1-0
+
+[Event "Ct. Catalunya equips"]
+[Site "?"]
+[Date "1997.??.??"]
+[Round "9"]
+[White "Catalan Escale, E."]
+[Black "Joanpera Morales, A."]
+[Result "1/2-1/2"]
+[ECO "B22"]
+[WhiteElo "2255"]
+[BlackElo "2340"]
+[PlyCount "33"]
+[EventDate "1997.??.??"]
+
+1. e4 c5 2. c3 d5 3. exd5 Qxd5 4. d4 Nc6 5. Nf3 Bg4 6. Be2 cxd4 7. cxd4 e5 8.
+Nc3 Bb4 9. O-O Bxc3 10. bxc3 e4 11. Nd2 Bxe2 12. Qxe2 f5 13. Bb2 O-O-O 14. f3
+Nf6 15. fxe4 fxe4 16. Nc4 Rhe8 17. Ne3 1/2-1/2
+
+[Event "Ct. Catalunya"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Catalan Escale, E."]
+[Black "Jerez Perez, A."]
+[Result "0-1"]
+[ECO "B22"]
+[PlyCount "86"]
+[EventDate "1998.??.??"]
+
+1. e4 c5 2. c3 Nf6 3. e5 Nd5 4. d4 cxd4 5. Nf3 Nc6 6. cxd4 d6 7. Bc4 Nb6 8. Bb3
+dxe5 9. d5 Na5 10. Nc3 Nxb3 11. Qxb3 e6 12. Nxe5 Nxd5 13. Qb5+ Bd7 14. Qxb7
+Nxc3 15. Nxd7 Rc8 16. bxc3 Qxd7 17. Qxd7+ Kxd7 18. Bb2 Bc5 19. O-O-O+ Ke7 20.
+f3 Rc7 21. Rd3 Rb8 22. Re1 Rcb7 23. Re2 a5 24. c4 g6 25. Ba3 Rc8 26. Bxc5+ Rxc5
+27. Rc2 Rbc7 28. Rdc3 e5 29. Kd2 Ke6 30. Ra3 f5 31. Rb2 Rd7+ 32. Ke2 Rd6 33.
+Rb5 Rxc4 34. Raxa5 Rc2+ 35. Ke1 Kf6 36. Rxe5 Rdd2 37. Rec5 Re2+ 38. Kd1 Rcd2+
+39. Kc1 Rxg2 40. f4 Rxa2 41. Rc6+ Kg7 42. Rxa2 Rxa2 43. Rc2 Rxc2+ 0-1
+
+[Event "Obert Barcelona A"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "1"]
+[White "Catalan Escale, E."]
+[Black "Madrid Sole, A."]
+[Result "0-1"]
+[ECO "C02"]
+[WhiteElo "2195"]
+[BlackElo "2090"]
+[PlyCount "70"]
+[EventDate "1998.??.??"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. a3 cxd4 7. cxd4 Nge7 8. b4
+Nf5 9. Be3 Bd7 10. Be2 Rc8 11. O-O Be7 12. Qd2 O-O 13. Nc3 f6 14. Na4 Qd8 15.
+exf6 Bxf6 16. Nc5 b6 17. Nxd7 Qxd7 18. Ba6 Rce8 19. Bb5 Nd6 20. Bd3 e5 21. dxe5
+Nxe5 22. Nxe5 Bxe5 23. Rad1 Rc8 24. Ba6 Rce8 25. Qxd5+ Kh8 26. Bd4 Bxd4 27.
+Rxd4 Rf6 28. Bd3 Qc7 29. Rh4 h6 30. Qd4 Ref8 31. Bb1 Kg8 32. h3 Nf5 33. Qd5+
+Kh8 34. Rc4 Qe7 35. Rfc1 Rd6 0-1
+
+[Event "Obert Barcelona A"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "2"]
+[White "Ribes Oliveras, J."]
+[Black "Catalan Escale, E."]
+[Result "0-1"]
+[ECO "D00"]
+[WhiteElo "2090"]
+[BlackElo "2195"]
+[PlyCount "58"]
+[EventDate "1998.??.??"]
+
+1. d4 d5 2. Nc3 Bf5 3. Bg5 c6 4. f3 h6 5. e4 Bg6 6. Be3 e6 7. Bd3 Bb4 8. Nge2
+dxe4 9. fxe4 Nf6 10. O-O O-O 11. a3 Ba5 12. Nf4 Bh7 13. e5 Nd5 14. Ncxd5 cxd5
+15. Qg4 Bxd3 16. Nh5 Bg6 17. Bxh6 gxh6 18. Rf6 Kh7 19. Raf1 Qe8 20. R1f3 Bd2
+21. Nf4 Bxf4 22. Qxf4 Rg8 23. Rh3 Qf8 24. g4 Nd7 25. g5 Nxf6 26. exf6 Bf5 27.
+Rh5 Rg6 28. Kf2 Bxc2 29. h4 Qb8 0-1
+
+[Event "Obert Barcelona A"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "3"]
+[White "Catalan Escale, E."]
+[Black "De Simon Arasti, E."]
+[Result "1-0"]
+[ECO "B22"]
+[WhiteElo "2190"]
+[BlackElo "2115"]
+[PlyCount "84"]
+[EventDate "1998.??.??"]
+
+1. e4 c5 2. c3 d5 3. exd5 Qxd5 4. d4 e5 5. dxe5 Qxd1+ 6. Kxd1 Nc6 7. f4 Bf5 8.
+Nf3 O-O-O+ 9. Ke1 f6 10. Bb5 Be7 11. Kf2 Nh6 12. Re1 Ng4+ 13. Kg1 h5 14. Na3 a6
+15. Bxc6 bxc6 16. Nc4 Bd3 17. exf6 Bxf6 18. Nce5 Nxe5 19. fxe5 Be7 20. b3 c4
+21. b4 Rd5 22. Be3 Rf8 23. a4 Kb7 24. h4 Rxf3 25. gxf3 Bxh4 26. Bf2 Bg5 27. e6
+Rd8 28. e7 Re8 29. Bd4 g6 30. b5 Rxe7 31. Rxe7+ Bxe7 32. Re1 Bd8 33. Re8 Bh4
+34. b6 Bg3 35. a5 h4 36. Re7+ Kb8 37. Be5+ Bxe5 38. Rxe5 Bf5 39. f4 Bd3 40.
+Re8+ Kb7 41. Rh8 c5 42. Rh7+ Kc8 1-0
+
+[Event "Obert Barcelona A"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "4"]
+[White "Burgos Garbin, F."]
+[Black "Catalan Escale, E."]
+[Result "1/2-1/2"]
+[ECO "B23"]
+[WhiteElo "2150"]
+[BlackElo "2190"]
+[PlyCount "42"]
+[EventDate "1998.??.??"]
+
+1. e4 c5 2. Nc3 e6 3. f4 d5 4. Nf3 dxe4 5. Nxe4 Nf6 6. Bb5+ Bd7 7. Qe2 Nc6 8.
+a4 Be7 9. f5 O-O 10. fxe6 Bxe6 11. Bxc6 bxc6 12. d3 Re8 13. O-O c4 14. dxc4 Bf5
+15. Nxf6+ Bxf6 16. Qf2 Rb8 17. c3 Be6 18. Bf4 Rb7 19. c5 a5 20. Rad1 Qc8 21.
+Nd4 Bd5 1/2-1/2
+
+[Event "Obert Barcelona A"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "5"]
+[White "Catalan Escale, E."]
+[Black "Ribera Sugranyes, V."]
+[Result "1-0"]
+[ECO "B22"]
+[WhiteElo "2195"]
+[BlackElo "2110"]
+[PlyCount "70"]
+[EventDate "1998.??.??"]
+
+1. e4 c5 2. c3 d5 3. exd5 Qxd5 4. d4 Nf6 5. Nf3 g6 6. Be2 Bg7 7. dxc5 Qxd1+ 8.
+Bxd1 O-O 9. O-O Na6 10. Be3 Ng4 11. c6 bxc6 12. Bg5 f6 13. Bh4 e5 14. h3 Nh6
+15. Bg3 Nc5 16. Be2 Be6 17. Nbd2 Nf5 18. Bh2 Rad8 19. Bc4 Nh4 20. Bxe6+ Nxe6
+21. Rfd1 Nxf3+ 22. Nxf3 c5 23. Kf1 Kf7 24. Ke2 Ke7 25. Nd2 Bh6 26. Nc4 Rxd1 27.
+Rxd1 Rd8 28. Rxd8 Nxd8 29. f3 Ke6 30. Kd3 Kd5 31. Bg1 f5 32. b3 Nc6 33. Nb2 e4+
+34. fxe4+ fxe4+ 35. Ke2 Bf8 $138 1-0
+
+[Event "Obert Barcelona A"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "6"]
+[White "Vall de Vilamaro, J."]
+[Black "Catalan Escale, E."]
+[Result "1/2-1/2"]
+[ECO "A07"]
+[WhiteElo "2285"]
+[BlackElo "2195"]
+[PlyCount "56"]
+[EventDate "1998.??.??"]
+
+1. Nf3 d5 2. g3 Bg4 3. Bg2 c6 4. b3 Nd7 5. Bb2 Qc7 6. c4 e6 7. O-O Ngf6 8. cxd5
+exd5 9. Nc3 Be7 10. Rc1 Qa5 11. a3 O-O 12. b4 Qd8 13. Nd4 Ne5 14. d3 Bd7 15.
+Nb3 Bd6 16. Nc5 Bc8 17. h3 a5 18. f4 Ned7 19. N3a4 b5 20. Nxd7 Bxd7 21. Nc5
+Bxc5+ 22. Rxc5 axb4 23. axb4 Ra4 24. Qd2 Qe7 25. Bd4 Rfa8 26. Rb1 h5 27. Rc2
+R8a6 28. Bc5 Qe8 1/2-1/2
+
+[Event "Obert Barcelona A"]
+[Site "?"]
+[Date "1998.??.??"]
+[Round "7"]
+[White "Catalan Escale, E."]
+[Black "Monge Medina, A."]
+[Result "1/2-1/2"]
+[ECO "B22"]
+[WhiteElo "2195"]
+[BlackElo "2160"]
+[PlyCount "102"]
+[EventDate "1998.??.??"]
+
+1. e4 c5 2. c3 Nf6 3. e5 Nd5 4. d4 cxd4 5. Nf3 e6 6. cxd4 d6 7. a3 Nc6 8. Bd3
+dxe5 9. dxe5 Qc7 10. O-O Bd7 11. Qe2 Bc5 12. Rd1 Nd4 13. Nxd4 Bxd4 14. Bc4 Bb6
+15. Bxd5 exd5 16. Nc3 d4 17. Nb5 Bxb5 18. Qxb5+ Qc6 19. Qxc6+ bxc6 20. b4 a5
+21. Bb2 axb4 22. axb4 Rxa1 23. Bxa1 O-O 24. Kf1 c5 25. bxc5 Bxc5 26. Rd2 Rd8
+27. f4 h6 28. Ke2 g5 29. g3 gxf4 30. gxf4 Ra8 31. Bxd4 Bxd4 32. Rxd4 Ra2+ 33.
+Rd2 Ra3 34. Rd3 Ra2+ 35. Ke3 Rxh2 36. Ke4 Ra2 37. f5 Ra4+ 38. Kf3 Ra5 39. Re3
+Ra4 40. Rc3 Ra5 41. Ke4 Ra4+ 42. Kd5 h5 43. Rc8+ Kg7 44. Kd6 h4 45. e6 Ra6+ 46.
+Kd7 Ra7+ 47. Rc7 Rxc7+ 48. Kxc7 fxe6 49. fxe6 h3 50. e7 h2 51. e8=Q h1=Q
+1/2-1/2
+
+[Event "Catalunya 75 Aniversari"]
+[Site "Barcelona"]
+[Date "2000.??.??"]
+[Round "2.8"]
+[White "Gual Pascual, A."]
+[Black "Catalan Escale, E."]
+[Result "1-0"]
+[ECO "D15"]
+[PlyCount "39"]
+[EventDate "2000.??.??"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Nf3 dxc4 5. g3 Bf5 6. Ne5 h6 7. Bg2 e6 8. e4
+Bh7 9. Nxc4 b5 10. Ne3 b4 11. e5 bxc3 12. exf6 cxb2 13. Bxb2 Qa5+ 14. Kf1 Qb5+
+15. Kg1 Qxb2 16. Rc1 Qb5 17. d5 exd5 18. Nxd5 cxd5 19. Rc8+ Kd7 20. Qg4+ 1-0
+
+[Event "Catalunya 75 Aniversari"]
+[Site "Barcelona"]
+[Date "2000.04.22"]
+[Round "7.25"]
+[White "Catalan Escale, E."]
+[Black "Rodriguez Martin, MA."]
+[Result "1/2-1/2"]
+[ECO "C43"]
+[PlyCount "31"]
+[EventDate "2000.??.??"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nf6 3. d4 exd4 4. e5 Ne4 5. Qxd4 d5 6. exd6 Nxd6 7. Bd3 Nc6 8.
+Qf4 Be7 9. O-O Be6 10. Re1 h6 11. Nc3 Qd7 12. a3 O-O 13. Ne4 Bf5 14. Nc5 Qc8
+15. Bxf5 Nxf5 16. Ne5 1/2-1/2
+
+[Event "Catalunya 75 Aniversari"]
+[Site "Barcelona"]
+[Date "2000.04.24"]
+[Round "9.25"]
+[White "Catalan Escale, E."]
+[Black "Rius Marse, J."]
+[Result "1/2-1/2"]
+[ECO "C56"]
+[PlyCount "30"]
+[EventDate "2000.??.??"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Bc4 Nf6 5. O-O Nxe4 6. Re1 d5 7. Bxd5 Qxd5 8.
+Nc3 Qh5 9. Nxe4 Be6 10. Bg5 h6 11. Bf6 Qg6 12. c3 gxf6 13. Nh4 Qg7 14. Nf5 Qg6
+15. Nh4 Qg7 1/2-1/2
+
+[Event "Obert Barcelona A"]
+[Site "Barcelona"]
+[Date "2002.10.04"]
+[Round "1"]
+[White "Marques Taltavull, A."]
+[Black "Catalan Escale, E."]
+[Result "1-0"]
+[ECO "A12"]
+[WhiteElo "2245"]
+[BlackElo "2105"]
+[PlyCount "47"]
+[EventDate "2002.??.??"]
+
+1. Nf3 d5 2. c4 c6 3. b3 Bg4 4. Bb2 Nd7 5. d4 e6 6. Nbd2 Ngf6 7. e3 Be7 8. Bd3
+O-O 9. Qc2 Bxf3 10. gxf3 Rc8 11. O-O c5 12. dxc5 Bxc5 13. Rad1 Qb6 14. Kh1 Rfd8
+15. Rg1 d4 16. b4 Bxb4 17. exd4 g6 18. Ne4 Nh5 19. c5 Qc6 20. Qb3 Bxc5 21. Bb5
+Qd5 22. Bc4 Qc6 23. d5 exd5 24. Bxd5 1-0
+
+[Event "Obert Barcelona A"]
+[Site "Barcelona"]
+[Date "2002.10.11"]
+[Round "2"]
+[White "Catalan Escale, E."]
+[Black "Ferran Biosca, R."]
+[Result "1/2-1/2"]
+[ECO "C02"]
+[WhiteElo "2105"]
+[BlackElo "2270"]
+[PlyCount "25"]
+[EventDate "2002.??.??"]
+
+1. e4 c5 2. c3 e6 3. d4 d5 4. e5 Qb6 5. Nf3 Nc6 6. a3 a5 7. Bd3 Bd7 8. Bc2 c4
+9. O-O f6 10. exf6 Nxf6 11. Re1 Bd6 12. Ne5 Qc7 13. f4 1/2-1/2
+
+[Event "Obert Barcelona A"]
+[Site "Barcelona"]
+[Date "2002.10.18"]
+[Round "3"]
+[White "Izuel Samitier, F."]
+[Black "Catalan Escale, E."]
+[Result "1/2-1/2"]
+[ECO "B95"]
+[WhiteElo "2130"]
+[BlackElo "2105"]
+[PlyCount "62"]
+[EventDate "2002.??.??"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. Qd2 Be7 8.
+O-O-O h6 9. Bxf6 Bxf6 10. g3 b5 11. Bg2 Bb7 12. Rhe1 Qb6 13. Nf5 exf5 14. exf5+
+Kf8 15. Bxb7 Qxb7 16. Qxd6+ Kg8 17. Nd5 Qc6 18. Nxf6+ gxf6 19. Qe7 Qc4 20. Rd8+
+Kg7 21. Rxh8 Kxh8 22. Qxf6+ Kh7 23. b3 Nd7 24. Qe7 Qd4 25. Qxf7+ Kh8 26. Re7
+Nf8 27. Re8 Qa1+ 28. Kd2 Qd4+ 29. Ke1 Rxe8+ 30. Qxe8 Qf6 31. g4 Qc3+ 1/2-1/2
+
+[Event "Ct. Catalunya Absolut"]
+[Site "Barcelona"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Catalan Escale, E."]
+[Black "Parra Rios, A."]
+[Result "0-1"]
+[ECO "A25"]
+[PlyCount "41"]
+[EventDate "2005.??.??"]
+
+1. c4 g6 2. g3 Bg7 3. Bg2 e5 4. Nc3 Nc6 5. e4 d6 6. Nge2 h5 7. h4 Be6 8. d3 Qd7
+9. Nd5 O-O-O 10. Qa4 f5 11. Be3 a6 12. O-O-O Rf8 13. b4 Bh6 14. b5 Nb8 15. Bxh6
+Rxh6 16. f3 Bxd5 17. exd5 axb5 18. cxb5 Nf6 19. Nc3 Qf7 20. f4 Nfd7 21. Qb4 0-1
+
+[Event "Ct. Catalunya Absolut"]
+[Site "Barcelona"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Moskalenko, V."]
+[Black "Catalan Escale, E."]
+[Result "1-0"]
+[ECO "D17"]
+[PlyCount "75"]
+[EventDate "2005.??.??"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. Nh4 e6 7. Nxf5 exf5 8. e3
+Bd6 9. Bxc4 O-O 10. h3 Nbd7 11. O-O a5 12. f3 Nh5 13. e4 Ng3 14. Re1 fxe4 15.
+fxe4 Qh4 16. Qg4 Nf5 17. Qxh4 Nxh4 18. Bg5 Ng6 19. e5 Bb4 20. e6 Nb6 21. exf7+
+Kh8 22. Be6 Be7 23. Be3 Rad8 24. Rad1 Nd5 25. Nxd5 cxd5 26. Bd2 b6 27. Rf1 Rd6
+28. Rde1 Bf6 29. Bc3 Ne7 30. Bg4 g6 31. Re6 Rxe6 32. Bxe6 Kg7 33. g4 Rd8 34.
+Kg2 Bg5 35. Be1 Kf8 36. Bg3 Be3 37. Bc7 Ra8 38. Be5 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.13"]
+[Round "1"]
+[White "Terrones Hernandez, J."]
+[Black "Catalan Escale, E."]
+[Result "0-1"]
+[ECO "D02"]
+[WhiteElo "1711"]
+[BlackElo "1988"]
+[PlyCount "110"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d5 2. Nf3 c6 3. e3 Bg4 4. Nbd2 Nf6 5. Be2 Nbd7 6. b3 e6 7. Bb2 Qc7 8. Ne5
+Bxe2 9. Qxe2 Nxe5 10. dxe5 Nd7 11. f4 Qb6 12. a4 a5 13. O-O Bc5 14. Rf3 Nf8 15.
+Kh1 Ng6 16. e4 O-O-O 17. exd5 cxd5 18. c4 Kb8 19. Rc1 Bb4 20. Bc3 Ba3 21. Rb1
+Nh4 22. Rd3 Nf5 23. cxd5 exd5 24. g4 Ne7 25. Bd4 Qa6 26. Nf3 Rc8 27. Rd2 Qg6
+28. Rg1 Rc1 29. Rxc1 Bxc1 30. Rc2 Bxf4 31. Bc5 Nc6 32. Bd6+ Ka7 33. Nd4 Nxd4
+34. Bc5+ Kb8 35. Bxd4 Re8 36. Rc5 Qb1+ 37. Kg2 Qxb3 38. Rxa5 Rc8 39. Ba7+ Kc7
+40. Qf2 Qb4 41. Qc2+ Kd7 42. Rxd5+ Ke6 43. Qf5+ Kxd5 44. e6+ Be5 45. exf7 Qd2+
+46. Bf2 Rf8 47. Qd7+ Bd6 48. Qb5+ Ke6 49. Qe8+ Kf6 50. g5+ Qxg5+ 51. Bg3 Rxf7
+52. Qd8+ Be7 53. Qd4+ Kg6 54. h4 Qf5 55. Qd1 h5 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.14"]
+[Round "2"]
+[White "Catalan Escale, E."]
+[Black "Benet Saniger, X."]
+[Result "1-0"]
+[ECO "D00"]
+[WhiteElo "1988"]
+[BlackElo "1797"]
+[PlyCount "47"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d5 2. e3 Nf6 3. Bd3 Bg4 4. f3 Bh5 5. Ne2 Bg6 6. Nf4 Bxd3 7. Qxd3 e6 8.
+Qb5+ Nbd7 9. Qxb7 Bd6 10. Nc3 O-O 11. Qa6 Qe7 12. O-O c5 13. dxc5 Nxc5 14. Qe2
+e5 15. Nfxd5 Nxd5 16. Nxd5 Qe6 17. e4 f5 18. Bd2 Qg6 19. b4 Ne6 20. c4 Nd4 21.
+Qd3 Rac8 22. c5 Rxc5 23. bxc5 Bxc5 24. Kh1 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.15"]
+[Round "3"]
+[White "Corominas Garrido, A."]
+[Black "Catalan Escale, E."]
+[Result "1/2-1/2"]
+[ECO "A26"]
+[WhiteElo "1807"]
+[BlackElo "1988"]
+[PlyCount "27"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. c4 e5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. d3 d6 6. Nf3 f5 7. e3 Nf6 8. O-O O-O
+9. a3 h6 10. b4 a6 11. Rb1 g5 12. h3 Rb8 13. Nh2 Ne7 14. f4 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.16"]
+[Round "4"]
+[White "Catalan Escale, E."]
+[Black "Torras Chicon, A."]
+[Result "1-0"]
+[ECO "A45"]
+[WhiteElo "1988"]
+[BlackElo "1753"]
+[PlyCount "35"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. Nd2 d5 3. e3 e6 4. Bd3 c5 5. c3 Nc6 6. f4 cxd4 7. exd4 Be7 8. Ngf3
+Bd7 9. Ne5 O-O 10. O-O Rc8 11. Rf3 b5 12. Rh3 b4 13. Bxh7+ Kh8 14. Bg6+ Kg8 15.
+Bxf7+ Rxf7 16. Rh8+ Kxh8 17. Nxf7+ Kg8 18. Nxd8 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.17"]
+[Round "5"]
+[White "Berstad, J."]
+[Black "Catalan Escale, E."]
+[Result "1/2-1/2"]
+[ECO "B38"]
+[WhiteElo "1849"]
+[BlackElo "1988"]
+[PlyCount "89"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 d6 3. c4 Nc6 4. d4 cxd4 5. Nxd4 Nf6 6. Nc3 g6 7. Be2 Bg7 8. Be3
+O-O 9. O-O Nxd4 10. Bxd4 b6 11. f3 Bb7 12. b4 Ne8 13. Bxg7 Nxg7 14. Qb3 Ne6 15.
+Rfd1 Qc7 16. Rac1 Rac8 17. Nb5 Qb8 18. a4 a6 19. Nc3 Rc7 20. Nd5 Bxd5 21. exd5
+Nf4 22. Bf1 Nh5 23. Qe3 Nf6 24. Rb1 Re8 25. Qg5 Nd7 26. f4 Qa7 27. Kh1 a5 28.
+h4 axb4 29. Rxb4 Nc5 30. h5 Ne4 31. Qh4 b5 32. c5 Nxc5 33. hxg6 fxg6 34. f5 e5
+35. axb5 Rf7 36. fxg6 hxg6 37. Qg5 Rh7+ 38. Rh4 Rxh4+ 39. Qxh4 Re7 40. Qf2 Rf7
+41. Qe3 Qa4 42. Rc1 Qh4+ 43. Kg1 Rh7 44. Ra1 Qh2+ 45. Kf2 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.18"]
+[Round "6"]
+[White "Catalan Escale, E."]
+[Black "Navarro Gutierrez, AC."]
+[Result "1/2-1/2"]
+[ECO "B22"]
+[WhiteElo "1988"]
+[BlackElo "1909"]
+[PlyCount "30"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. c3 d5 3. exd5 Qxd5 4. d4 Nc6 5. Nf3 Bg4 6. Be2 e6 7. h3 Bh5 8. O-O
+Nf6 9. Na3 Be7 10. Be3 cxd4 11. Nb5 Rc8 12. Nbxd4 Nxd4 13. Bxd4 a6 14. Ne5 Bxe2
+15. Qxe2 O-O 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.19"]
+[Round "7"]
+[White "Catalan Escale, E."]
+[Black "Dominguez Carnero, J."]
+[Result "1/2-1/2"]
+[ECO "B10"]
+[WhiteElo "1988"]
+[BlackElo "1913"]
+[PlyCount "37"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c6 2. Nc3 d5 3. Qf3 e6 4. d4 dxe4 5. Qxe4 Nf6 6. Qe3 Be7 7. Nf3 Qb6 8.
+Bc4 a5 9. a3 Nd5 10. Nxd5 cxd5 11. Bd3 Bd7 12. Qe2 Nc6 13. O-O Nxd4 14. Nxd4
+Qxd4 15. Be3 Qe5 16. f4 Qc7 17. c4 dxc4 18. Bxc4 O-O 19. Rac1 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.20"]
+[Round "8"]
+[White "Casset Bello, E."]
+[Black "Catalan Escale, E."]
+[Result "1-0"]
+[ECO "D13"]
+[WhiteElo "1908"]
+[BlackElo "1988"]
+[PlyCount "93"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. cxd5 cxd5 5. Nc3 Nc6 6. Bf4 a6 7. Rc1 Bf5 8. e3
+e6 9. Bd3 Bxd3 10. Qxd3 Bd6 11. O-O O-O 12. a3 Bxf4 13. exf4 Na5 14. Ne5 Rc8
+15. Na4 b5 16. Nc5 Qd6 17. b4 Nc4 18. Ra1 Ra8 19. Rfb1 Nb6 20. f5 exf5 21. Qxf5
+Rfe8 22. Re1 Re7 23. f4 a5 24. Qd3 Nc4 25. a4 axb4 26. axb5 Rea7 27. Rxa7 Rxa7
+28. Nxc4 dxc4 29. Qxc4 Qxf4 30. Nd7 Rc7 31. Nxf6+ gxf6 32. Qxb4 Kg7 33. Qb2 Rb7
+34. b6 Qd6 35. Rb1 Qc6 36. Qb3 Qe4 37. Qb4 f5 38. Qb2 f6 39. Qb4 Re7 40. h3
+Qe3+ 41. Kh1 f4 42. Qb3 Qf2 43. Qf3 Re1+ 44. Rxe1 Qxe1+ 45. Kh2 Qb4 46. b7 Qd6
+47. Qg4+ 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.21"]
+[Round "9"]
+[White "Catalan Escale, E."]
+[Black "Tadevosyan, G."]
+[Result "1/2-1/2"]
+[ECO "C02"]
+[WhiteElo "1988"]
+[BlackElo "1732"]
+[PlyCount "39"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. c3 e6 3. d4 d5 4. e5 Nc6 5. Nf3 Nh6 6. a3 c4 7. Bxh6 gxh6 8. Nbd2
+Bd7 9. Be2 Na5 10. O-O Qb6 11. Qc2 Be7 12. Ne1 Nb3 13. Nxb3 Ba4 14. f4 Bxb3 15.
+Qd2 O-O-O 16. Rf3 Rdg8 17. Rh3 Rg6 18. Bh5 Rg7 19. Bf3 Rg6 20. Bh5 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2015.02.21"]
+[Round "5.9"]
+[White "Valencia Jimenez, J."]
+[Black "Catalan Escale, E."]
+[Result "1-0"]
+[ECO "D13"]
+[WhiteElo "2185"]
+[BlackElo "2100"]
+[PlyCount "43"]
+[EventDate "2015.??.??"]
+[EventType "team"]
+
+1. Nf3 d5 2. d4 Nf6 3. c4 c6 4. cxd5 cxd5 5. Nc3 Nc6 6. Bf4 a6 7. e3 Bg4 8. Qb3
+Bxf3 9. gxf3 Na5 10. Qa4+ Nc6 11. Rc1 e6 12. Rg1 Nh5 13. Bg5 Be7 14. Bxe7 Qxe7
+15. Nxd5 exd5 16. Rxc6 Qd7 17. Bb5 axb5 18. Qxa8+ Ke7 19. Qa3+ b4 20. Qxb4+ Ke8
+21. Rd6 Qc7 22. Qc5 1-0
+
+[Event "Camp. Catalunya indiv. Pref. esp."]
+[Site "?"]
+[Date "1977.??.??"]
+[Round "1"]
+[White "Sirvent Roma, Emilio"]
+[Black "Catalan Escale, Enric"]
+[Result "1-0"]
+[ECO "B87"]
+[PlyCount "65"]
+[EventDate "1977.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bc4 e6 7. Bb3 b5 8. O-O
+Bb7 9. f4 Nbd7 10. Be3 Nxe4 11. f5 Nxc3 12. bxc3 e5 13. Qh5 d5 14. Ne6 Qa5 15.
+Ng5 O-O-O 16. Nxf7 Bc5 17. Bxc5 Nxc5 18. Nxh8 Rxh8 19. Qg4 Qb6 20. Kh1 Qf6 21.
+a4 Ne4 22. axb5 axb5 23. Ra5 h5 24. Qg6 Nxc3 25. Rf3 d4 26. Be6+ Kb8 27. Rg3
+Ne4 28. Rxb5 Nxg3+ 29. Qxg3 Kc7 30. Rxe5 Ra8 31. Rd5+ Kb6 32. Qb3+ Ka7 33. Qa3+
+1-0
+
+[Event "Camp. Catalunya indiv. Pref. esp."]
+[Site "?"]
+[Date "1977.??.??"]
+[Round "7"]
+[White "Catalan Homedes, Enrique"]
+[Black "Catalan Escale, Enric"]
+[Result "0-1"]
+[ECO "B33"]
+[PlyCount "92"]
+[EventDate "1977.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Ndb5 d6 7. Bf4 e5 8.
+Bg5 a6 9. Bxf6 gxf6 10. Na3 f5 11. Qh5 d5 12. exd5 Bxa3 13. bxa3 Qa5 14. Kd2
+Ne7 15. Qe2 f6 16. Qc4 Qxa3 17. Be2 Bd7 18. Bh5+ Kd8 19. Rab1 b5 20. Qb3 Qc5
+21. Rhf1 Rc8 22. Ne2 Qxd5+ 23. Qxd5 Nxd5 24. Bf7 Nb6 25. f4 Ke7 26. Bb3 Nc4+
+27. Bxc4 Rxc4 28. Ng3 Rd8 29. Rbe1 Be6+ 30. Kc1 e4 31. Re3 Rdc8 32. Rf2 Rc3 33.
+Rxc3 Rxc3 34. Kb2 b4 35. Ne2 Ra3 36. Nc1 e3 37. Re2 Bc4 38. Re1 Kd6 39. Nb3 e2
+40. Nc1 Re3 41. Nd3 a5 42. Kc1 Kd5 43. Kd2 Kd4 44. Rxe2 Rxe2+ 45. Kxe2 a4 46.
+Kd2 Bxd3 0-1
+
+[Event "Camp. Catalunya indiv. Pref. esp."]
+[Site "?"]
+[Date "1977.??.??"]
+[Round "10"]
+[White "Catalan Escale, Enric"]
+[Black "Monraba Capella, Miquel"]
+[Result "1-0"]
+[ECO "D00"]
+[PlyCount "51"]
+[EventDate "1977.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nc3 d5 3. e4 dxe4 4. Bg5 Bf5 5. Bxf6 exf6 6. g4 Bg6 7. Qe2 Be7 8.
+O-O-O O-O 9. h4 h6 10. Nh3 c5 11. d5 Bd6 12. Bg2 Qa5 13. Kb1 Be5 14. Qd2 b5 15.
+Nxe4 b4 16. f4 Bxe4 17. Bxe4 Bc3 18. Qg2 Na6 19. g5 h5 20. g6 f5 21. Bxf5 fxg6
+22. Qxg6 Rxf5 23. Qxf5 Bf6 24. Rhg1 Rf8 25. Qg6 b3 26. cxb3 1-0
+
+[Event "Copa Catalana Mem. Agusti Pujol eq."]
+[Site "?"]
+[Date "1979.??.??"]
+[Round "?"]
+[White "Catalan Escale, Enric"]
+[Black "Segura Vila, Juan"]
+[Result "0-1"]
+[ECO "A82"]
+[PlyCount "38"]
+[EventDate "1979.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 f5 2. e4 fxe4 3. Nc3 Nf6 4. g4 h6 5. h4 d5 6. Bh3 h5 7. g5 Ng4 8. Bf4 e5
+9. dxe5 Bb4 10. a3 Bxc3+ 11. bxc3 O-O 12. Bg3 Nc6 13. Qe2 Qe7 14. f3 Qc5 15.
+Kd2 e3+ 16. Kd1 Nf2+ 17. Bxf2 exf2 18. Qf1 fxg1=N 19. Rxg1 Qxc3 0-1
+
+[Event "Camp. Barcelona Pref. A"]
+[Site "Barcelona"]
+[Date "1984.??.??"]
+[Round "?"]
+[White "Catalan Escale, Enric"]
+[Black "Madrenas"]
+[Result "1/2-1/2"]
+[ECO "B07"]
+[PlyCount "51"]
+[EventDate "1984.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. e4 d6 2. d4 f5 3. Nc3 fxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. Nf3 Qd7 7. Bc4 d5 8.
+Bb3 Nc6 9. O-O O-O-O 10. Re1 e6 11. Ne2 Bh5 12. Qd3 Bxf3 13. Qxf3 e5 14. dxe5
+Nxe5 15. Qg3 Bd6 16. Bf4 Nc4 17. Bxc4 dxc4 18. Rad1 Nf6 19. Bxd6 cxd6 20. Qa3
+Kb8 21. Qb4 d5 22. Nd4 Rhe8 23. Nb5 Rxe1+ 24. Rxe1 Re8 25. Rxe8+ Nxe8 26. Nd4
+1/2-1/2
+
+[Event "Camp. Barcelona Pref. A"]
+[Site "Barcelona"]
+[Date "1984.??.??"]
+[Round "?"]
+[White "Catalan Escale, Enric"]
+[Black "Torras"]
+[Result "1-0"]
+[ECO "C44"]
+[PlyCount "43"]
+[EventDate "1984.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. c3 d6 4. d4 Bd7 5. Bc4 Be7 6. dxe5 dxe5 7. b4 a6 8. Qb3
+Be6 9. Bxe6 fxe6 10. O-O Kf7 11. Rd1 Qc8 12. Nbd2 h6 13. Nc4 Bf6 14. a4 Nge7
+15. Be3 Ng6 16. b5 axb5 17. axb5 Rxa1 18. Rxa1 Nce7 19. b6 Qd7 20. Rd1 Qc6 21.
+bxc7 Qxe4 22. Nd6+ 1-0
+
+[Event "Castelldefels op"]
+[Site "Castelldefels"]
+[Date "1985.??.??"]
+[Round "?"]
+[White "Catalan Escale, Enric"]
+[Black "Herranz, A."]
+[Result "1-0"]
+[ECO "C40"]
+[PlyCount "33"]
+[EventDate "1985.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 f5 3. Bc4 b5 $6 4. Bb3 $1 fxe4 5. Nxe5 Qg5 6. d4 Qxg2 7. Qh5+
+g6 8. Bf7+ Ke7 $2 (8... Kd8) 9. Bg5+ Nf6 10. Qh4 Qxh1+ 11. Ke2 Bg7 12. Nc3 $1 (
+12. Nd2 $5 $18 {with idea 13.Ne4 +-(Melchor,A and Kosten,T)}) 12... Qf3+ (12...
+Qxa1 13. Nd5+ Kd6 14. Bxf6 $18) 13. Nxf3 $2 (13. Kd2 $2 e3+ $1 14. fxe3 Qg2+
+15. Kd3 Bb7 $19) (13. Ke1 $1 Qf5 (13... h6 14. Nd5+ Kf8 15. Nf4 $18) 14. Nd5+
+Kf8 15. Ne3 $18 {Melchor,A}) 13... exf3+ 14. Kf1 (14. Kxf3 $2 Kxf7 15. Ne4 Nd5)
+(14. Kd2 Kxf7 15. Qf4 Bb7 $1 16. Qxc7 Bc6 {Kosten,T}) 14... Kxf7 15. Qf4 Re8 $2
+(15... d6 $2 16. Qxf3 (16. Nd5 Nbd7 17. Nxc7 (17. Re1 Rf8 18. Re7+ Kg8 19.
+Rxg7+ Kxg7 20. Bh6+ Kg8 21. Bxf8 Nxd5 22. Qxf3 N7f6 23. Bh6 Bg4 $13 {Melchor,A
+and Tiemann,H}) 17... Rb8 18. Qxd6 $16 {Melchor,A}) 16... c6 17. Ne4 $18) (
+15... Bb7 $1 16. Bxf6 Bxf6 17. Qxc7 Bc6 $1 18. d5 Bxc3 19. dxc6 Bf6 20. cxd7
+Rd8 {Kosten,T}) 16. Nd5 $4 (16. Bxf6 Bxf6 17. Nd5 $18) 16... Re6 $4 (16... Re4
+17. Qxf3 Bb7) 17. Re1 1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1988.??.??"]
+[Round "?"]
+[White "Catalan Escale, Enric"]
+[Black "Garcia Gonzalez"]
+[Result "1-0"]
+[ECO "B10"]
+[PlyCount "33"]
+[EventDate "1988.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d3 d5 3. Nd2 dxe4 4. dxe4 e5 5. Ngf3 Bc5 6. Nxe5 Bxf2+ 7. Kxf2 Qd4+
+8. Ke1 Qxe5 9. Nc4 Qxe4+ 10. Be2 Qe6 11. Nd6+ Ke7 12. Rf1 Nf6 13. Nf5+ Kf8 14.
+Qd8+ Ne8 15. Bf4 f6 16. Rf3 Qd7 17. Bd6+ 1-0

@@ -1,0 +1,253 @@
+[Event "Terrassa Tancat"]
+[Site "Terrassa"]
+[Date "1991.??.??"]
+[Round "1"]
+[White "Ehlvest, Jaan"]
+[Black "Adams, Michael"]
+[Result "0-1"]
+[ECO "A28"]
+[WhiteElo "2650"]
+[BlackElo "2600"]
+[Annotator "Adams,M"]
+[PlyCount "110"]
+[EventDate "1991.05.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[EventCategory "13"]
+
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. e4 Bb4 (4... Bc5 5. Nxe5 Nxe5 6. d4 Bb4 7.
+dxe5 Nxe4 8. Qd4 Nxc3 9. bxc3 Be7 $13) 5. d3 O-O 6. g3 d6 7. Bg2 Bg4 $6 $146 (
+7... a5 $142 8. O-O Bc5 $13) (7... Nd4 $145 8. Nxd4 exd4 9. a3 $1 $14 {Karpov,
+An}) (7... a6 $1 8. O-O (8. a4 $6 Nd4 $1 $11) 8... Bxc3 9. bxc3 b5 10. Nd2 Na5
+11. cxb5 axb5 12. a4 Ba6 $13 {Seirawan,Y}) 8. h3 Bxf3 9. Bxf3 Nd4 10. Bg2 a5
+11. O-O Bc5 12. Rb1 c6 13. a3 b5 (13... Nd7 $5 {/\ f5}) 14. b4 axb4 15. axb4
+Bb6 16. Kh1 Nd7 17. f4 exf4 18. gxf4 Rc8 19. Bb2 Qe7 (19... f5 $142) 20. cxb5
+$1 Nxb5 21. Ne2 $16 (21. Nxb5 $6 cxb5 22. Qh5 f5) 21... Qh4 {[>< g3]} 22. Rf3 (
+22. f5 {(/\ Rf4-g4)} Be3 $1) 22... Rfe8 23. Rg3 (23. Qc2 $5 {/\ 24.d4, 24.Rbf1}
+) 23... g6 24. f5 Bd8 $8 25. Qb3 d5 $8 26. Rf1 Nd6 27. Rg4 Qh6 28. Ng3 Ne5 29.
+Bxe5 Rxe5 30. d4 $2 (30. Qb2 $1 Re8 31. e5 Nb5 32. e6 $1 $16 {->}) 30... Re8
+31. fxg6 hxg6 32. Qf3 (32. exd5 Re3 33. Qa2 cxd5 34. Qxd5 Bc7 $44) 32... Rc7
+33. e5 Nc4 34. Nf5 Qh5 35. Qf4 $6 (35. Ng3 $11) (35. Nd6 Nxd6 36. exd6 Rd7 37.
+b5 Rf8 $11) 35... Kh7 $15 36. Ng3 (36. Ne3 $142 Nxe3 37. Qxe3 f5 $1 38. Rg3 Bh4
+$1 $11 {Seirawan,Y}) 36... Qh6 37. b5 {[>< d5]} Ne3 38. bxc6 Re6 39. Qxh6+ Kxh6
+40. Rgf4 Rexc6 $17 41. R1f3 (41. Re1) 41... Rc1+ 42. Nf1 (42. Kh2 Bg5 43. Rxf7
+Rxf7 44. Rxf7 Rc2 $19) 42... Nf5 43. Rd3 Bg5 44. Rf2 Bh4 45. Rfd2 Ng3+ 46. Kg1
+Re1 47. Rd1 Rc1 48. Rxe1 Rxe1 49. Rf3 Kg7 50. Kh2 Ne2 51. Rd3 $2 (51. Ra3 $145
+$1 Bf2 52. Bxd5 Bxd4 53. Rf3 Bxe5+ 54. Kh1 $17 {Seirawan,Y}) 51... Bf2 $19 52.
+Bf3 (52. Bxd5 Rxf1 53. Kg2 (53. Rf3 Bg3+) 53... Rc1 54. Kxf2 Nf4 55. Be4 Nxd3+)
+52... Bg1+ 53. Kh1 Nf4 54. Rd1 Rxd1 55. Bxd1 Bxd4 0-1
+
+[Event "Terrassa Tancat"]
+[Site "Terrassa"]
+[Date "1991.??.??"]
+[Round "2"]
+[White "Adams, Michael"]
+[Black "Boensch, Uwe"]
+[Result "1/2-1/2"]
+[ECO "B54"]
+[WhiteElo "2600"]
+[BlackElo "2470"]
+[PlyCount "35"]
+[EventDate "1991.05.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[EventCategory "13"]
+[Source "ChessBase"]
+[SourceDate "1991.10.01"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e6 5. Nc3 d6 6. Be3 a6 7. Qd2 Bd7 8.
+O-O-O Nge7 9. h4 b5 10. h5 h6 11. Nf3 Nc8 12. g4 Qa5 13. Kb1 Rb8 14. g5 Nb6 15.
+Ka1 Na4 16. Nb1 Qxd2 17. Nbxd2 hxg5 18. Bxg5 1/2-1/2
+
+[Event "Terrassa Tancat"]
+[Site "Terrassa"]
+[Date "1991.??.??"]
+[Round "3"]
+[White "Illescas Cordoba, Miquel"]
+[Black "Adams, Michael"]
+[Result "1/2-1/2"]
+[ECO "A30"]
+[WhiteElo "2545"]
+[BlackElo "2600"]
+[PlyCount "15"]
+[EventDate "1991.05.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[EventCategory "13"]
+[Source "ChessBase"]
+[SourceDate "1991.10.01"]
+
+1. Nf3 Nf6 2. c4 b6 3. g3 c5 4. Bg2 Bb7 5. O-O e6 6. Nc3 Be7 7. d4 cxd4 8. Qxd4
+1/2-1/2
+
+[Event "Terrassa Tancat"]
+[Site "Terrassa"]
+[Date "1991.??.??"]
+[Round "4"]
+[White "Adams, Michael"]
+[Black "Pomes Marcet, Joan"]
+[Result "1-0"]
+[ECO "C07"]
+[WhiteElo "2600"]
+[BlackElo "2400"]
+[Annotator "Knaak,R"]
+[PlyCount "63"]
+[EventDate "1991.05.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[EventCategory "13"]
+[Source "ChessBase"]
+[SourceDate "1991.10.01"]
+
+1. e4 e6 2. d4 d5 3. Nd2 c5 4. exd5 Qxd5 5. Ngf3 cxd4 6. Bc4 Qd6 7. O-O Nf6 8.
+Nb3 Nc6 9. Nbxd4 Nxd4 10. Nxd4 a6 11. Re1 Qc7 12. Bb3 Bd6 {Vielleicht wird man
+hier bald ?! setzen.} 13. Nf5 Bxh2+ 14. Kh1 Kf8 15. g3 $1 (15. Qd4 $1 h6 16. g3
+{Beliavski-Hertneck/Munich/1991/CBM23/i51/269}) 15... exf5 16. Bf4 Qc6+ 17.
+Kxh2 Be6 18. Bd6+ $1 (18. Qd6+ Qxd6 19. Bxd6+ Ke8 20. Rad1 $14) 18... Ke8 (
+18... Kg8 $2 19. Rxe6 $1 $18) 19. c4 $1 {N} (19. Bxe6 $6 fxe6 20. Rxe6+ Kf7 21.
+Re7+ Kg6 $15) (19. Qd4 Rd8 20. Rad1 h5 21. Kg1 $6 (21. Rd3 {/\ f3}) 21... h4
+22. Bxe6 fxe6 23. Rxe6+ Kf7 $17 {Jansa-Hübner/BL9091/1990}) 19... h5 (19... Ne4
+20. c5 $40) 20. c5 {/\ Ba4+-} h4 21. f3 $1 (21. Ba4 $6 hxg3+ 22. Kxg3 Nh5+ 23.
+Kh4 Nf4+ 24. Kg5 $4 Nh3#) 21... Kd8 {Traurige Konsequenz} 22. Bxe6 $1 fxe6 23.
+Rxe6 $16 Kc8 24. Qb3 hxg3+ 25. Kxg3 Qb5 26. Rae1 Qxb3 27. axb3 Nd5 28. Rg6 Rg8
+29. Re5 Nf6 30. Re7 Ne8 31. Be5 a5 32. Rb6 1-0
+
+[Event "Terrassa Tancat"]
+[Site "Terrassa"]
+[Date "1991.??.??"]
+[Round "5"]
+[White "Epishin, Vladimir"]
+[Black "Adams, Michael"]
+[Result "1/2-1/2"]
+[ECO "C41"]
+[WhiteElo "2620"]
+[BlackElo "2600"]
+[PlyCount "48"]
+[EventDate "1991.05.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[EventCategory "13"]
+[Source "ChessBase"]
+[SourceDate "1991.10.01"]
+
+1. d4 d6 2. e4 Nf6 3. Nc3 e5 4. Nf3 Nbd7 5. Bc4 Be7 6. O-O O-O 7. a4 c6 8. Ba2
+Re8 9. Re1 a5 10. h3 h6 11. Be3 Qc7 12. Nh4 Nf8 13. Qf3 Be6 14. Nf5 Bxa2 15.
+Rxa2 Kh7 16. Raa1 Ne6 17. Rad1 exd4 18. Nxd4 Nxd4 19. Bxd4 Rad8 20. Re3 Kg8 21.
+Qf5 Nd7 22. Rg3 Ne5 23. Qh5 Bg5 24. Be3 Bxe3 1/2-1/2
+
+[Event "Terrassa Tancat"]
+[Site "Terrassa"]
+[Date "1991.??.??"]
+[Round "6"]
+[White "Ivanchuk, Vassily"]
+[Black "Adams, Michael"]
+[Result "0-1"]
+[ECO "C89"]
+[WhiteElo "2695"]
+[BlackElo "2600"]
+[Annotator "Adams,Mi"]
+[PlyCount "84"]
+[EventDate "1991.05.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[EventCategory "13"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. c3
+d5 9. exd5 Nxd5 10. Nxe5 Nxe5 11. Rxe5 c6 12. d4 Bd6 13. Re1 (13. Re2) 13...
+Qh4 14. g3 Qh3 15. Be3 Bg4 16. Qd3 Rae8 17. Nd2 (17. Bxd5) 17... Qh5 $5 (17...
+Re6) (17... f5) 18. Nf1 (18. a4 Bf5 $5 (18... Re6) 19. Qf1 (19. Bd1 $2 Qxd1 20.
+Qxf5 Nxe3 $19) 19... Bh3 20. Bd1 (20. Qd3 $11) 20... Qf5 21. Qe2 c5 $13) 18...
+Re6 19. Bd1 $6 (19. a4 $142) 19... f5 20. Bxg4 Qxg4 21. Bd2 Rg6 22. Kg2 (22. c4
+$6 bxc4 23. Qxc4 Kh8 $17) (22. f3 Qh3 23. Qe2 f4 24. Qg2 Qd7 25. g4 h5 26. h3
+hxg4 27. hxg4 c5 $44) 22... f4 23. f3 Qh5 24. g4 Qh4 $1 {[/\ 25...Rg4, 25...
+Rh6]} (24... Rxg4+ $2 25. fxg4 Qxg4+ 26. Kh1 f3 27. Ng3 Bxg3 28. Rg1) (24...
+Nf6 $6 25. h3 Qh4 26. Re2 (26. Re6 $5) 26... Rh6 27. Kg1) 25. Re2 $8 (25. Re4
+$2 Nf6 26. Be1 (26. Re6 Nxg4 $1 27. Rxg6 Qf2+ 28. Kh1 hxg6 29. fxg4 f3 $19)
+26... Qg5 27. Nd2 Nxg4 $19) 25... Rxg4+ $1 (25... Rh6 $5 {/\ Qh3, Ne3}) 26.
+fxg4 f3+ 27. Kh1 (27. Qxf3 Rxf3 28. Kxf3 Qh3+ 29. Ng3 (29. Kf2 Bxh2 $17) 29...
+Nf6 $17) 27... fxe2 28. Qxe2 Kh8 29. Kg1 h6 30. Qg2 Bf4 31. Be1 Qg5 32. h3 $2
+$138 (32. Rd1 $142) 32... Qg6 $1 {[/\ Qd3]} 33. Rd1 $8 Bb8 34. Rd2 Qb1 35. Bf2
+Kg8 $1 $19 {(.)} (35... Qxa2 36. Bg3) 36. b3 (36. Re2 Nf4) (36. Qh1 Ne3) (36.
+Kh1 Ne3) (36. a3 Kh8 {(.)}) 36... Bf4 37. Re2 Nxc3 38. Re6 Qxa2 39. Rxc6 Qxb3
+40. Rxa6 Ne2+ 41. Kh1 Bb8 42. Be1 Qd1 0-1
+
+[Event "Terrassa Tancat"]
+[Site "Terrassa"]
+[Date "1991.??.??"]
+[Round "7"]
+[White "Adams, Michael"]
+[Black "Garcia Ilundain, David"]
+[Result "1-0"]
+[ECO "B66"]
+[WhiteElo "2600"]
+[BlackElo "2325"]
+[PlyCount "74"]
+[EventDate "1991.05.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[EventCategory "13"]
+[Source "ChessBase"]
+[SourceDate "1991.10.01"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Bg5 e6 7. Qd2 a6 8.
+O-O-O h6 9. Be3 Be7 10. f4 Bd7 11. Bd3 b5 12. Kb1 Nxd4 13. Bxd4 Bc6 14. Qe3 Qc7
+15. e5 dxe5 16. fxe5 Nd5 17. Qg3 O-O-O 18. Nxd5 Bxd5 19. Qf2 Rd7 20. Rhe1 Kb8
+21. c3 Rc8 22. g3 Bc5 23. Bf1 Qa5 24. a3 Bf8 25. Bg2 Bxg2 26. Qxg2 Qa4 27. Qc2
+Qxc2+ 28. Kxc2 Kb7 29. Be3 Rcd8 30. Rxd7+ Rxd7 31. Bd4 Kc6 32. b4 Be7 33. Kd3
+Bd8 34. Ke4 f5+ 35. exf6 gxf6 36. Rf1 h5 37. Bxf6 Bb6 1-0
+
+[Event "Terrassa Tancat"]
+[Site "Terrassa"]
+[Date "1991.??.??"]
+[Round "8"]
+[White "Romanishin, Oleg M"]
+[Black "Adams, Michael"]
+[Result "1/2-1/2"]
+[ECO "C84"]
+[WhiteElo "2610"]
+[BlackElo "2600"]
+[Annotator "Schussler,H"]
+[PlyCount "59"]
+[EventDate "1991.05.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[EventCategory "13"]
+[Source "ChessBase"]
+[SourceDate "1991.10.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d4 exd4 7. Re1 (7. e5
+Ne4 8. Nxd4 O-O 9. Nf5 d5 10. Bxc6 bxc6 11. Nxe7+ Qxe7 12. Re1 {12. - f5!? 
+(Yusupov).} Re8 13. f3 Nd6 $13) 7... b5 8. Bb3 (8. e5 Nxe5 $1 9. Rxe5 d6 10.
+Re1 bxa4 11. Nxd4 Bd7 12. Qf3 O-O 13. Nc6 Bxc6 14. Qxc6 d5 $10 {
+Nicholson-Hjartarson, London 1986.}) 8... d6 9. Bd5 Bb7 (9... Nxd5 $5 10. exd5
+Ne5 11. Nxd4 O-O $10) (9... Bd7 10. Nxd4 Nxd5 11. Nxc6 Bxc6 12. exd5 Bb7 {This
+transposes to the game.}) 10. Nxd4 Nxd5 11. Nxc6 Bxc6 12. exd5 Bb7 13. a4 Qd7
+$1 (13... O-O 14. axb5 axb5 15. Rxa8 Bxa8 16. Qe2 Bf6 17. Qxb5 c6 18. dxc6 Qc8
+$14 {Black has some compensation for the sacrificed pawn, Nicholson-Hawksworth,
+England 1986.}) 14. axb5 axb5 15. Rxa8+ Bxa8 16. Nc3 O-O 17. Qe2 Bd8 $1 $10 (
+17... Bf6 18. Qxb5 Qxb5 19. Nxb5 Bxd5 20. Nxc7 $14) 18. Qd3 b4 19. Nd1 c5 20.
+dxc6 Qxc6 21. f3 h6 22. Be3 Bf6 23. Bd4 Bxd4+ 24. Qxd4 Qxc2 25. Qxb4 Qc5+ 26.
+Qxc5 dxc5 27. Kf2 Rd8 28. Nc3 Bc6 29. Re5 Rb8 30. Rxc5 1/2-1/2
+
+[Event "Terrassa Tancat"]
+[Site "Terrassa"]
+[Date "1991.??.??"]
+[Round "9"]
+[White "Adams, Michael"]
+[Black "Lautier, Joel"]
+[Result "1/2-1/2"]
+[ECO "C63"]
+[WhiteElo "2600"]
+[BlackElo "2550"]
+[PlyCount "48"]
+[EventDate "1991.05.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[EventCategory "13"]
+[Source "ChessBase"]
+[SourceDate "1991.10.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 f5 4. Nc3 fxe4 5. Nxe4 d5 6. Nxe5 dxe4 7. Nxc6 Qg5
+8. Qe2 Nf6 9. f4 Qxf4 10. Nxa7+ Bd7 11. Bxd7+ Kxd7 12. d4 Qf5 13. Qb5+ Qxb5 14.
+Nxb5 c6 15. Nc3 Bb4 16. Ke2 Bxc3 17. bxc3 Ra4 18. Rf1 Ke6 19. Rf4 h6 20. a3 g5
+21. Rf1 Nd5 22. Bb2 Rc4 23. Rae1 b5 24. g3 Rd8 1/2-1/2

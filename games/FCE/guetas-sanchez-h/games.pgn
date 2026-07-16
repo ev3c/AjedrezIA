@@ -1,0 +1,62 @@
+[Event "Ciutat de Balaguer op"]
+[Site "?"]
+[Date "2005.07.25"]
+[Round "8"]
+[White "Baches Garcia, G."]
+[Black "Güetas Sanchez, H."]
+[Result "1-0"]
+[ECO "E76"]
+[WhiteElo "2355"]
+[BlackElo "2062"]
+[PlyCount "89"]
+[EventDate "2005.??.??"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f4 O-O 6. Nf3 c5 7. d5 e6 8. dxe6
+fxe6 9. Bd3 Nc6 10. O-O Nd4 11. Ng5 e5 12. Kh1 h6 13. Nh3 Bxh3 14. gxh3 exf4
+15. Bxf4 Nh5 16. Be3 Qh4 17. Qg4 Qxg4 18. hxg4 Nf6 19. h3 Nd7 20. Rad1 Rxf1+
+21. Bxf1 Rf8 22. Nb5 Nxb5 23. cxb5 Rf3 24. Bg1 Bxb2 25. Bc4+ Kg7 26. Rxd6 Nb6
+27. Be6 Be5 28. Rd8 Rxh3+ 29. Kg2 Rg3+ 30. Kf1 Kf6 31. Bd5 Nxd5 32. exd5 b6 33.
+d6 Rd3 34. d7 Bc7 35. Ra8 Rd1+ 36. Kg2 Rxd7 37. Rxa7 Kg5 38. Kf3 Rf7+ 39. Ke4
+Rd7 40. a4 Kxg4 41. a5 Rf7 42. Bh2 Bxh2 43. Rxf7 bxa5 44. b6 g5 45. b7 1-0
+
+[Event "Badalona op"]
+[Site "Badalona"]
+[Date "2013.08.02"]
+[Round "1"]
+[White "Guetas Sanchez, H."]
+[Black "Muñoz Pantoja, M."]
+[Result "0-1"]
+[ECO "A45"]
+[WhiteElo "2177"]
+[BlackElo "2456"]
+[PlyCount "71"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 c5 2. c3 Nf6 3. Bf4 Qb6 4. Qc1 Nc6 5. e3 d5 6. Bd3 cxd4 7. exd4 Bg4 8.
+Na3 Rc8 9. Qd2 e6 10. f3 Bh5 11. Ne2 Bg6 12. Rb1 Be7 13. Nc2 O-O 14. b4 Na5 15.
+Ne3 Bxd3 16. Qxd3 Nc4 17. O-O Bd6 18. Bg5 Nxe3 19. Bxe3 Qc7 20. Kf2 Nd7 21. g3
+Nb6 22. Kg2 a6 23. h4 Qc4 24. Qd2 Na4 25. Rb3 Rfe8 26. f4 Nb6 27. Nc1 Nd7 28.
+Nd3 Nf6 29. Nf2 Re7 30. g4 Rec7 31. g5 Ne4 32. Nxe4 dxe4 33. f5 exf5 34. Rxf5
+Qe6 35. Qf2 g6 36. d5 0-1
+
+[Event "Montcada op A"]
+[Site "Montcada i Reixac"]
+[Date "2016.06.25"]
+[Round "1"]
+[White "Oliva Castaneda, Kevel"]
+[Black "Guetas Sanchez, Hugo"]
+[Result "1-0"]
+[ECO "E11"]
+[WhiteElo "2500"]
+[BlackElo "2159"]
+[PlyCount "35"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. g3 Bb4+ 4. Bd2 Qe7 5. Nf3 O-O 6. Bg2 d5 7. O-O Bxd2 8.
+Nbxd2 c5 9. dxc5 Na6 10. cxd5 exd5 11. Nb3 Nxc5 12. Nxc5 Qxc5 13. Rc1 Qa5 14.
+Qb3 Bf5 15. Nd4 Be4 16. Bh3 Rfd8 17. Qxb7 Rdb8 18. Rc8+ 1-0

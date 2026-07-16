@@ -1,0 +1,55 @@
+[Event "Match 4 Nacions"]
+[Site "Caldes de Malavella"]
+[Date "2003.??.??"]
+[Round "?"]
+[White "Campora, D."]
+[Black "Illescas Cordoba, M."]
+[Result "1-0"]
+[ECO "B33"]
+[PlyCount "101"]
+[EventDate "2003.??.??"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Nd5 Nxd5 8.
+exd5 Nb8 9. c4 Be7 10. Be2 a6 11. Nc3 O-O 12. O-O Bf5 13. Be3 Nd7 14. Qd2 Rc8
+15. Rac1 Bg6 16. f3 h6 17. g3 Bg5 18. f4 exf4 19. gxf4 Bf6 20. f5 Bh7 21. Ne4
+Be5 22. Ng3 Re8 23. Rf3 Nf6 24. Bd4 h5 25. Bxe5 Rxe5 26. Bd3 h4 27. Nf1 Ne4 28.
+Bxe4 Rxe4 29. b3 Qf6 30. Ne3 Rce8 31. Re1 Bxf5 32. Rxf5 Qg6+ 33. Qg2 Qxf5 34.
+Qxg7+ Kxg7 35. Nxf5+ Kf6 36. Rf1 Re1 37. Nxd6+ Rxf1+ 38. Kxf1 Re7 39. Nc8 Re8
+40. Nd6 Rg8 41. Nxb7 h3 42. c5 Rg2 43. d6 Ke6 44. c6 Rxh2 45. d7 Rd2 46. d8=Q
+Rxd8 47. Nxd8+ Kd6 48. Nxf7+ Kxc6 49. Ne5+ Kc5 50. Nc4 Kb4 51. Kf2 1-0
+
+[Event "Benasque op 37th"]
+[Site "Benasque"]
+[Date "2017.07.13"]
+[Round "8"]
+[White "Campora, Daniel Hugo"]
+[Black "Dobrov, Vladimir"]
+[Result "0-1"]
+[ECO "A46"]
+[WhiteElo "2437"]
+[BlackElo "2496"]
+[PlyCount "158"]
+[EventDate "2017.07.06"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 e6 3. g3 c5 4. Bg2 cxd4 5. O-O Nc6 6. Nxd4 Qb6 7. Nb3 Ne5 8.
+a4 Be7 9. Nc3 a6 10. e4 d6 11. Qe2 O-O 12. Kh1 Qc7 13. f4 Nc4 14. g4 Nd7 15. g5
+Re8 16. f5 Bf8 17. f6 Nde5 18. Nd2 b6 19. Nxc4 Qxc4 20. Qxc4 Nxc4 21. b3 Ne5
+22. Nd1 Bb7 23. Ne3 Rec8 24. Bb2 gxf6 25. gxf6 Bh6 26. Bxe5 Bxe3 27. Bxd6 Rxc2
+28. Rad1 Rac8 29. Bf4 Bxf4 30. Rxf4 Kf8 31. Kg1 Rc1 32. Rff1 Rxd1 33. Rxd1 Ke8
+34. e5 Bxg2 35. Kxg2 Rc2+ 36. Kg3 Rc3+ 37. Kg4 Rxb3 38. a5 Rb4+ 39. Kf3 Rb5 40.
+axb6 Rxb6 41. Rg1 Kf8 42. Rg7 Rb3+ 43. Kg2 Rb7 44. Rxh7 Kg8 45. Rg7+ Kh8 46.
+Kf3 a5 47. Rg2 a4 48. Ra2 Rb4 49. Ke3 Kh7 50. Kd3 Kg6 51. Kc3 Rg4 52. Rd2 Rg5
+53. Kd4 Rg4+ 54. Kc3 Kf5 55. Rd7 Kxe5 56. Rxf7 Rf4 57. Rf8 Rh4 58. f7 Kf6 59.
+Rg8 Kxf7 60. Rg2 Kf6 61. Kd3 Kf5 62. Rf2+ Rf4 63. Rc2 Rf3+ 64. Ke2 Rh3 65. Kf1
+a3 66. Rc5+ e5 67. Ra5 Rb3 68. h4 Kf4 69. h5 Kf3 70. Ke1 e4 71. h6 Rb1+ 72. Kd2
+e3+ 73. Kc2 Rb2+ 74. Kc3 Rh2 75. Kd3 Rd2+ 76. Kc3 Rd7 77. Rf5+ Ke4 78. Rf8 e2
+79. Kb3 Re7 0-1

@@ -1,0 +1,86 @@
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.02.03"]
+[Round "?"]
+[White "Prohens Lopez, Aitor"]
+[Black "Iborra Polo, Eric"]
+[Result "1/2-1/2"]
+[ECO "B24"]
+[PlyCount "38"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nc3 e6 3. g3 a6 4. Bg2 b5 5. d3 Nc6 6. Nh3 b4 7. Ne2 Bb7 8. O-O Be7
+9. c3 bxc3 10. bxc3 Nf6 11. d4 cxd4 12. cxd4 d5 13. Rb1 Na5 14. Bd2 Bc6 15.
+exd5 Nxd5 16. Nhf4 O-O 17. Nd3 Bb5 18. Nb4 Rc8 19. Nxd5 exd5 1/2-1/2
+
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.02.12"]
+[Round "4"]
+[White "Prohens Lopez, Aitor"]
+[Black "Pozanco Romasanta, Marc"]
+[Result "0-1"]
+[ECO "B04"]
+[WhiteElo "1957"]
+[BlackElo "2246"]
+[PlyCount "88"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+[WhiteTeam "Tres Peons"]
+[BlackTeam "Colon Sabadell"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. c4 Nb6 5. exd6 cxd6 6. Nc3 g6 7. Be3 Bg7 8. Nf3
+O-O 9. h3 Nc6 10. Rc1 Re8 11. Be2 e5 12. dxe5 Nxe5 13. Nxe5 Bxe5 14. c5 dxc5
+15. Qxd8 Rxd8 16. Bxc5 Be6 17. Be3 Nc4 18. Bxc4 Bxc4 19. f4 Bd4 20. Nd1 Bxa2
+21. O-O Bg7 22. f5 gxf5 23. Rxf5 Be6 24. Rfc5 b6 25. Rg5 h6 26. Rg3 Kh7 27. Nc3
+Rac8 28. Ra1 Rd7 29. Ra4 Rc4 30. Rxc4 Bxc4 31. Rg4 b5 32. Rh4 a5 33. Kf2 Bd3
+34. g4 Rd6 35. g5 b4 36. gxh6 Bf6 37. Rh5 bxc3 38. bxc3 Bxc3 39. Rc5 Bb4 40.
+Rc7 Rf6+ 41. Kg2 Bf1+ 42. Kg1 Bxh3 43. Ra7 Be6 44. Bb6 Rf5 0-1
+
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.02.26"]
+[Round "6.10"]
+[White "Prohens Lopez, Aitor"]
+[Black "Flores Mendoza, Jose Antonio"]
+[Result "1-0"]
+[ECO "C11"]
+[WhiteElo "1957"]
+[BlackElo "2135"]
+[PlyCount "67"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6 7. Be3 Be7 8. Qd2
+a6 9. dxc5 Nxc5 10. O-O-O b5 11. Nd4 Nxd4 12. Bxd4 Bd7 13. f5 b4 14. Nxd5 exd5
+15. f6 gxf6 16. exf6 Qa5 17. fxe7 Ne4 18. Qe3 Qxa2 19. b3 Rc8 20. Bd3 Rg8 21.
+Bxe4 dxe4 22. Rd2 Be6 23. Bb2 Kxe7 24. Qxe4 Qa5 25. Rhd1 Rg4 26. Qf3 Qg5 27.
+Bf6+ Qxf6 28. Rd7+ Bxd7 29. Rxd7+ Kxd7 30. Qxf6 Re4 31. Qf5+ Re6 32. Qxf7+ Re7
+33. Qf5+ Re6 34. Qxh7+ 1-0
+
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.03.12"]
+[Round "8"]
+[White "Prohens Lopez, Aitor"]
+[Black "Aranzana Areste, Alberto"]
+[Result "1-0"]
+[ECO "C18"]
+[PlyCount "53"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 c4 7. Qg4 Kf8 8. h4
+h5 9. Qg3 Nh6 10. Nf3 Nf5 11. Qh3 Qa5 12. Bd2 Rh6 13. g4 hxg4 14. Qxg4 Nc6 15.
+h5 Bd7 16. Nh4 Nce7 17. Nxf5 Nxf5 18. Qf3 Rh8 19. Bh3 Ne7 20. Rg1 Ng8 21. Ke2
+Rc8 22. Rg6 Rc6 23. Rag1 Rh7 24. h6 Nxh6 25. Rxg7 Rxg7 26. Bxh6 Be8 27. Qf6 {
+abandonen} 1-0

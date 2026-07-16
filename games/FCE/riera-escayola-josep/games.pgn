@@ -1,0 +1,65 @@
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.01.14"]
+[Round "1"]
+[White "Marimon Torrens, Jordi"]
+[Black "Riera Escayola, Josep"]
+[Result "1-0"]
+[ECO "B76"]
+[WhiteElo "1838"]
+[BlackElo "1558"]
+[PlyCount "163"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 g6 7. Be3 Bg7 8. f3
+O-O 9. Qd2 Nc6 10. g4 Nxd4 11. Bxd4 e5 12. Be3 Be6 13. O-O-O Ne8 14. Nd5 Bxd5
+15. Qxd5 Qc7 16. h4 Rc8 17. Qd2 h6 18. Bd3 Kh7 19. Kb1 Rh8 20. f4 exf4 21. Bxf4
+Qb6 22. Qc1 Kg8 23. Be3 Qc6 24. Rdg1 Qd7 25. Qd1 Qe6 26. Qf3 b5 27. h5 g5 28.
+e5 Rc7 29. exd6 Nxd6 30. Bc1 f6 31. Qa8+ Qc8 32. Qd5+ Nf7 33. Bg6 Qb7 34. Qb3
+Rc4 35. Rd1 Ne5 36. Rd8+ Bf8 37. Rhd1 Nxg6 38. R1d7 Qe4 39. Rd4 Qe6 40. hxg6
+Kg7 41. Qd3 Rxd4 42. Rxd4 Be7 43. Re4 Qd6 44. Qe3 Re8 45. Re6 Qd7 46. Rxa6 Kxg6
+47. Ra7 Bc5 48. Qxc5 Qxg4 49. Qxb5 Re1 50. Qd3+ Kh5 51. Qd2 Qg1 52. Ra3 Kh4 53.
+Ra4+ Kh5 54. b4 Rd1 55. Qe2+ g4 56. Ra5+ Kh4 57. Kb2 Rxc1 58. Qd2 Rb1+ 59. Ka3
+Qc1+ 60. Qxc1 Rxc1 61. Kb2 Rd1 62. b5 g3 63. Ra4+ Kh3 64. Ra3 Kh2 65. Rxg3 Kxg3
+66. c4 h5 67. b6 Rd8 68. c5 Kf4 69. c6 Ke5 70. c7 Rc8 71. b7 Rxc7 72. b8=Q Kd6
+73. Qd8+ Rd7 74. Qxf6+ Kc7 75. Qc3+ Kb7 76. Qf3+ Kb6 77. Qxh5 Rc7 78. Kb3 Rc5
+79. Qh6+ Kb5 80. Qd6 Rc6 81. a4+ Kb6 82. Qb8+ 1-0
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.01.21"]
+[Round "2"]
+[White "Riera Escayola, Josep"]
+[Black "Sola Sendra, Francesco"]
+[Result "1/2-1/2"]
+[ECO "B12"]
+[WhiteElo "1558"]
+[BlackElo "1790"]
+[PlyCount "81"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. h3 h5 6. Bd3 Ne7 7. Bg5 Bxd3 8. Qxd3
+Qb6 9. b3 Ng6 10. O-O Nd7 11. Nc3 a5 12. Na4 Qc7 13. Rac1 Ba3 14. Rb1 b5 15.
+Nb2 Ndf8 16. Nh4 Nxh4 17. Bxh4 Ng6 18. Bg3 Ne7 19. Nd1 Nf5 20. Bh2 g5 21. Ne3
+Nh4 22. Bg3 Ng6 23. f4 gxf4 24. Bxf4 O-O-O 25. Bg5 Rdf8 26. Rf3 Be7 27. Bf6
+Rhg8 28. Rbf1 Kb7 29. c4 Bxf6 30. Rxf6 b4 31. c5 Rg7 32. Qe2 Rh8 33. Qf2 Rhh7
+34. Kh1 Qe7 35. h4 Qe8 36. g3 Qg8 37. Kh2 Nf8 38. Ng2 Nd7 39. Rf4 Nb8 40. Rf6
+Nd7 41. Rf3 1/2-1/2

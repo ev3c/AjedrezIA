@@ -1,0 +1,1889 @@
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.04"]
+[Round "1"]
+[White "Bernat, Ernest"]
+[Black "Umudova, Nargiz"]
+[Result "1/2-1/2"]
+[ECO "B10"]
+[WhiteElo "1942"]
+[BlackElo "2284"]
+[PlyCount "49"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. Nf3 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Nc3 Bg4 6. Be2 Nbd7 7. O-O e6 8.
+d4 Qc7 9. Be3 h6 10. Rb1 Bd6 11. h3 Bf5 12. Nd2 Nb6 13. a3 Rd8 14. Qc1 O-O 15.
+Nf3 Nbd5 16. Nxd5 cxd5 17. Bd3 Be4 18. Qd1 Nd7 19. c3 b5 20. Rc1 Qb7 21. Qe2 a6
+22. Rcd1 Rb8 23. Bc1 Qc7 24. Bxe4 dxe4 25. Qxe4 1/2-1/2
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.05"]
+[Round "2"]
+[White "Tuomainen, Felix"]
+[Black "Bernat, Ernest"]
+[Result "1-0"]
+[ECO "A14"]
+[WhiteElo "2255"]
+[BlackElo "1942"]
+[PlyCount "85"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. g3 e6 3. Bg2 d5 4. O-O Be7 5. c4 c6 6. b3 Nbd7 7. Bb2 O-O 8. d3
+Re8 9. Nbd2 Bf8 10. e4 dxe4 11. dxe4 e5 12. Qe2 Qc7 13. Nh4 g6 14. f4 Bg7 15.
+f5 g5 16. Nhf3 h6 17. Ne1 Bf8 18. Nc2 Bc5+ 19. Kh1 a5 20. Ne3 Qb6 21. Ng4 Nxg4
+22. Qxg4 Nf6 23. Qe2 g4 24. Nb1 a4 25. Qc2 axb3 26. axb3 Rxa1 27. Bxa1 Bd4 28.
+Bxd4 Qxd4 29. Rd1 Qc5 30. Nc3 Kg7 31. Qe2 Qa5 32. Qb2 Rd8 33. b4 Rxd1+ 34. Nxd1
+Qd8 35. Nf2 Qe7 36. c5 h5 37. Bf1 Nd7 38. Qa1 Nf8 39. Nd3 f6 40. Nb2 Nh7 41.
+Nc4 Ng5 42. Nd6 Qd7 43. Qa8 1-0
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.06"]
+[Round "3"]
+[White "Bernat, Ernest"]
+[Black "Arjun, K."]
+[Result "0-1"]
+[ECO "C70"]
+[WhiteElo "1942"]
+[BlackElo "2118"]
+[PlyCount "86"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nge7 5. O-O g6 6. c3 Bg7 7. d4 b5 8. Bb3
+exd4 9. cxd4 d5 10. exd5 Na5 11. Re1 Nxb3 12. Qxb3 O-O 13. Bg5 Re8 14. Nc3 Bb7
+15. a4 Bxd5 16. Nxd5 Qxd5 17. Qc3 Nf5 18. Be3 c6 19. Rac1 Re6 20. axb5 axb5 21.
+Qc5 Qxc5 22. Rxc5 Nxd4 23. Nxd4 Bxd4 24. Rcc1 c5 25. Kf1 Bxe3 26. Rxe3 Rxe3 27.
+fxe3 c4 28. Ke2 Kg7 29. Kf3 Rd8 30. b3 cxb3 31. Rc3 b4 32. Rxb3 Rb8 33. Ke4 Kf6
+34. Kd4 Ke6 35. Kc4 f5 36. Kd4 Kd6 37. g3 h6 38. Kc4 Ke5 39. Kd3 Kd5 40. Rb1 b3
+41. Rb2 g5 42. h4 g4 43. Kd2 Kc4 0-1
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.07"]
+[Round "4"]
+[White "Ojas, Kulkarni"]
+[Black "Bernat, Ernest"]
+[Result "1-0"]
+[ECO "A13"]
+[WhiteElo "2006"]
+[BlackElo "1942"]
+[PlyCount "59"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 e6 2. g3 d5 3. Nf3 Nf6 4. Bg2 g6 5. O-O Bg7 6. d4 O-O 7. Nbd2 Nbd7 8. Qc2
+c6 9. b3 Re8 10. Bb2 b6 11. e4 dxe4 12. Nxe4 Nxe4 13. Qxe4 Bb7 14. Rfd1 Qc8 15.
+Ne5 Nxe5 16. dxe5 Rb8 17. c5 bxc5 18. Rac1 Bf8 19. Ba3 c4 20. Bxf8 c5 21. Qxc4
+Bxg2 22. Kxg2 Rxf8 23. Qxc5 Qb7+ 24. Qc6 Qb4 25. Rc4 Qa5 26. Ra4 Qxe5 27. Rxa7
+Rbc8 28. Qf3 Rc3 29. Qf4 Qh5 30. Rd8 1-0
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.08"]
+[Round "5"]
+[White "Nandhini, Saripalli"]
+[Black "Bernat, Ernest"]
+[Result "1/2-1/2"]
+[ECO "D36"]
+[WhiteElo "1716"]
+[BlackElo "1942"]
+[PlyCount "71"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. cxd5 exd5 5. Bg5 Be7 6. e3 O-O 7. Qc2 c6 8. Bd3
+Nbd7 9. Nge2 Re8 10. O-O Nf8 11. Bxf6 Bxf6 12. b4 a6 13. Na4 g6 14. Nc5 Qd6 15.
+Rab1 Bd8 16. Rfc1 Bc7 17. g3 Ne6 18. Nxe6 Bxe6 19. a4 Bd7 20. b5 axb5 21. axb5
+Rec8 22. bxc6 bxc6 23. Nc3 Qf6 24. Na4 Bh3 25. Nb6 Qf3 26. Bf1 Bxf1 27. Rxf1
+Bxb6 28. Rxb6 h5 29. Rxc6 Rxc6 30. Qxc6 Ra2 31. Qe8+ Kh7 32. Qe7 Ra6 33. Qh4
+Rf6 34. Qh3 Rf5 35. Qg2 Qe2 36. h3 1/2-1/2
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.09"]
+[Round "6"]
+[White "Bernat, Ernest"]
+[Black "Hernandez Requena, Francesc"]
+[Result "1-0"]
+[ECO "B25"]
+[WhiteElo "1942"]
+[BlackElo "1718"]
+[PlyCount "84"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. Nc3 Nf6 4. g3 Nc6 5. Bg2 g6 6. O-O Bg7 7. d3 O-O 8. h3
+Rb8 9. Re1 Nd7 10. a4 a6 11. Be3 Nd4 12. Rb1 b5 13. axb5 axb5 14. Ne2 e5 15. c3
+Ne6 16. d4 exd4 17. cxd4 c4 18. Nf4 Bb7 19. Nxe6 fxe6 20. Ng5 Qe7 21. h4 h6 22.
+Nh3 e5 23. d5 Kh7 24. Qd2 Nc5 25. Bxc5 dxc5 26. Ra1 Ra8 27. Ra5 b4 28. Rea1
+Rxa5 29. Rxa5 Ra8 30. Rxa8 Bxa8 31. Qc2 Qa7 32. Qxc4 Qa1+ 33. Kh2 Qxb2 34. Qxc5
+Qc3 35. Qa5 Bb7 36. Bf1 Qd4 37. Qb5 Bc8 38. Qc4 Qd2 39. Qxc8 b3 40. Qa6 g5 41.
+hxg5 hxg5 42. g4 Qd1 1-0
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.11"]
+[Round "8"]
+[White "Bernat, Ernest"]
+[Black "Dahale, Atul"]
+[Result "1/2-1/2"]
+[ECO "B92"]
+[WhiteElo "1942"]
+[BlackElo "2079"]
+[PlyCount "97"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. Nc3 a6 4. d4 cxd4 5. Nxd4 Nf6 6. Be2 e5 7. Nb3 Be7 8. Be3
+Be6 9. O-O O-O 10. f4 exf4 11. Rxf4 Nc6 12. Nd4 Rc8 13. Nxe6 fxe6 14. Bc4 Qd7
+15. Na4 Rcd8 16. Nb6 Qc7 17. Bxe6+ Kh8 18. Qd2 Ne5 19. Nd5 Nxd5 20. Rxf8+ Rxf8
+21. Bxd5 Ng4 22. Bd4 Bf6 23. h3 Ne5 24. Rf1 Re8 25. b3 Qe7 26. c4 h6 27. Kh1
+Bg5 28. Be3 Bxe3 29. Qxe3 b5 30. cxb5 axb5 31. Qb6 Qd7 32. a4 bxa4 33. bxa4
+Qxa4 34. Qxd6 Qd7 35. Rf8+ Rxf8 36. Qxf8+ Kh7 37. Qg8+ Kg6 38. Be6 Qc7 39. Qf8
+h5 40. Qf5+ Kh6 41. Qf4+ Kh7 42. Bd5 Qe7 43. Qf5+ g6 44. Qe6 Qxe6 45. Bxe6 Kg7
+46. Kg1 Kf6 47. Bd5 h4 48. Kf2 g5 49. g3 1/2-1/2
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.12"]
+[Round "9"]
+[White "Valls Marti, Artur"]
+[Black "Bernat, Ernest"]
+[Result "1-0"]
+[ECO "B33"]
+[WhiteElo "2133"]
+[BlackElo "1942"]
+[PlyCount "51"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Nxc6 bxc6 7. e5 Ng8 8.
+Qf3 e6 9. a3 f6 10. Bd3 f5 11. g4 Qa5 12. gxf5 Qxe5+ 13. Kd1 Bb7 14. fxe6 dxe6
+15. Re1 Qd6 16. Bf4 Qd7 17. Kc1 Nf6 18. Bf5 Be7 19. Bxe6 Qd8 20. Ne4 Nxe4 21.
+Qxe4 Kf8 22. Rd1 Qa5 23. Be5 Bg5+ 24. f4 Bf6 25. b4 Qb6 26. Bd6+ 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.13"]
+[Round "1"]
+[White "Qiu, Mengjie"]
+[Black "Bernat, Ernest"]
+[Result "1-0"]
+[ECO "B07"]
+[WhiteElo "2231"]
+[BlackElo "1942"]
+[PlyCount "45"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Be3 Bg7 5. f3 c6 6. Qd2 O-O 7. O-O-O b5 8. Bh6
+b4 9. Nce2 Bxh6 10. Qxh6 Qa5 11. Kb1 Be6 12. Nc1 Nbd7 13. g4 Rfb8 14. h4 Nf8
+15. h5 Rb7 16. hxg6 fxg6 17. Nh3 Rab8 18. Ng5 Bxa2+ 19. Nxa2 b3 20. cxb3 Rxb3
+21. Bc4+ d5 22. Bxb3 Rxb3 23. e5 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.14"]
+[Round "2"]
+[White "Bernat, Ernest"]
+[Black "Harikrishnan.A.Ra"]
+[Result "0-1"]
+[ECO "C01"]
+[WhiteElo "1942"]
+[BlackElo "2138"]
+[PlyCount "62"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. Nf3 d5 3. exd5 exd5 4. d4 Bd6 5. Bd3 Nc6 6. c3 Nge7 7. Bg5 f6 8.
+Bh4 O-O 9. Qc2 g6 10. Nbd2 Bf5 11. O-O-O Rb8 12. Bg3 b5 13. Bxd6 Qxd6 14. Bxf5
+Nxf5 15. g4 Ng7 16. h4 b4 17. c4 b3 18. axb3 Nb4 19. Qb1 Ne6 20. Rde1 dxc4 21.
+bxc4 Nxd4 22. Nxd4 Qxd4 23. Re3 Rfd8 24. Rd1 Nd3+ 25. Rxd3 Qxd3 26. Qxd3 Rxd3
+27. f3 Rbd8 28. Kc2 c5 29. b3 Kf7 30. Kc1 Rc3+ 31. Kb2 Rxf3 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.15"]
+[Round "3"]
+[White "Rendboe, John"]
+[Black "Bernat, Ernest"]
+[Result "1-0"]
+[ECO "D37"]
+[WhiteElo "2183"]
+[BlackElo "1942"]
+[PlyCount "73"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 e6 4. Nc3 a6 5. cxd5 exd5 6. Bg5 Be7 7. e3 O-O 8. Bd3
+Nbd7 9. Qc2 c5 10. O-O h6 11. Bh4 b5 12. Bxf6 Nxf6 13. dxc5 Bxc5 14. Nxb5 Bxe3
+15. fxe3 axb5 16. Bxb5 Qb6 17. Qd3 Ng4 18. Rfe1 Bb7 19. a4 Nf6 20. b4 Ba6 21.
+Bxa6 Rxa6 22. a5 Qa7 23. Nd4 Ng4 24. h3 Ne5 25. Qc3 Nc4 26. b5 Rxa5 27. Nc6 Ra3
+28. b6 Rxc3 29. bxa7 Nb6 30. Ne7+ Kh7 31. Reb1 Na8 32. Rb8 Rh8 33. Nxd5 Rd3 34.
+Ra5 Rd1+ 35. Kf2 Rc1 36. Rxh8+ Kxh8 37. Rb5 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.16"]
+[Round "4"]
+[White "Bernat, Ernest"]
+[Black "Pistol, Mats-Erik"]
+[Result "1-0"]
+[ECO "C88"]
+[WhiteElo "1942"]
+[BlackElo "1810"]
+[PlyCount "33"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. a4
+Bb7 9. Nc3 b4 10. Nd5 d6 11. a5 Nb8 12. Nxe7+ Qxe7 13. d3 h6 14. Nh4 Kh7 15.
+Nf5 Qd7 16. Qf3 Bc8 17. Nxh6 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.17"]
+[Round "5"]
+[White "Snehal, Bhosale"]
+[Black "Bernat, Ernest"]
+[Result "1-0"]
+[ECO "D35"]
+[WhiteElo "2150"]
+[BlackElo "1942"]
+[PlyCount "127"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. cxd5 exd5 5. Bg5 Be7 6. e3 O-O 7. Bd3 a6 8.
+Nge2 Nbd7 9. O-O c5 10. Rc1 c4 11. Bb1 b5 12. Qc2 g6 13. f3 Bb7 14. a3 Re8 15.
+Nf4 Qb6 16. Qf2 Qd6 17. h3 Bc6 18. Rce1 a5 19. e4 Nxe4 20. fxe4 Bxg5 21. e5
+Nxe5 22. Nfxd5 Bxd5 23. dxe5 Rxe5 24. Rxe5 Qxe5 25. Re1 Qd6 26. Rd1 Qe6 27.
+Nxd5 Rd8 28. Qd4 Be3+ 29. Qxe3 Rxd5 30. Qf3 Qb6+ 31. Kh1 Rxd1+ 32. Qxd1 b4 33.
+Be4 bxa3 34. bxa3 c3 35. a4 Qe3 36. Bc2 Kg7 37. Bb3 Qf4 38. Kg1 h5 39. Qf1 Qc7
+40. Qf2 Kg8 41. Kf1 Qd7 42. Qf3 Qc7 43. Qe4 Kg7 44. Ke2 Qd6 45. Qd5 Qc7 46. Qc4
+Qe5+ 47. Kd3 Qg3+ 48. Kd4 Qxg2 49. Qxf7+ Kh6 50. Qf4+ Kg7 51. Qc7+ Kh6 52. Qxc3
+Kh7 53. Kc5 Qg5+ 54. Kb6 Qf5 55. Bc2 Qe6+ 56. Kxa5 Qd5+ 57. Kb6 Kh6 58. Qe3+
+Kg7 59. a5 Qd6+ 60. Kb5 Qd7+ 61. Kb4 Qd6+ 62. Qc5 Qf4+ 63. Qc4 Qd2+ 64. Qc3+
+1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.18"]
+[Round "6"]
+[White "Bernat, Ernest"]
+[Black "Tateo, Ida"]
+[Result "1-0"]
+[ECO "B85"]
+[WhiteElo "1942"]
+[BlackElo "1275"]
+[PlyCount "92"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. Nc3 Nc6 4. d4 cxd4 5. Nxd4 Nf6 6. Bc4 e6 7. O-O a6 8. Be3
+Be7 9. a4 O-O 10. Be2 Qc7 11. Nb3 b6 12. f4 Bb7 13. Bf3 Rac8 14. Qe2 Nb4 15.
+Qf2 Bd8 16. Rac1 d5 17. e5 Ne4 18. Bxe4 dxe4 19. Kh1 Bc6 20. Nd4 Bd5 21. Qg3 f5
+22. exf6 Bxf6 23. Nxd5 exd5 24. Ne6 Qc6 25. Nxf8 Rxf8 26. c3 Nd3 27. Rb1 Qxa4
+28. Bxb6 Qb3 29. Qe3 Nxb2 30. Bd4 Qb5 31. Qc1 Rb8 32. Bxf6 gxf6 33. Rf2 Nd3 34.
+Rxb5 Rxb5 35. Qa1 Nxf2+ 36. Kg1 Nd3 37. h3 a5 38. Qd1 f5 39. Qh5 Rb1+ 40. Kh2
+e3 41. Qe8+ Kg7 42. Qxe3 Ne1 43. Qe5+ Kg6 44. Qe6+ Kg7 45. Qxd5 Rb2 46. Qe5+
+Kg6 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.19"]
+[Round "7"]
+[White "Marchador Villalba, Jordi"]
+[Black "Bernat, Ernest"]
+[Result "1/2-1/2"]
+[ECO "D00"]
+[WhiteElo "2024"]
+[BlackElo "1942"]
+[PlyCount "85"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Bf4 Nf6 3. e3 e6 4. Bd3 Bd6 5. Nd2 b6 6. Ngf3 O-O 7. Ne5 Ba6 8. O-O
+Bxd3 9. Nxd3 Bxf4 10. Nxf4 Nbd7 11. Qf3 c5 12. Rad1 Qc8 13. c3 cxd4 14. exd4 b5
+15. a3 a5 16. Nd3 a4 17. Qe2 Nb6 18. f3 Nc4 19. Nxc4 bxc4 20. Nb4 Qc7 21. Rde1
+Nd7 22. f4 g6 23. g4 Nf6 24. f5 exf5 25. gxf5 Rae8 26. Qg2 Rxe1 27. Rxe1 Qd7
+28. Re5 Rd8 29. h4 Kh8 30. Qg5 Qd6 31. Kf1 Ne4 32. Qe3 Nf6 33. fxg6 hxg6 34.
+Qg5 Kg7 35. h5 Nxh5 36. Rxd5 Qh2 37. Qe5+ Qxe5 38. Rxe5 Nf4 39. Nc6 Rd6 40. Rc5
+Nd3 41. Rxc4 Nxb2 42. Rc5 Nd3 43. Rc4 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.20"]
+[Round "8"]
+[White "Bernat, Ernest"]
+[Black "Chung, Mathilde"]
+[Result "1/2-1/2"]
+[ECO "B33"]
+[WhiteElo "1942"]
+[BlackElo "2169"]
+[PlyCount "90"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Qb6 5. Nb3 Nf6 6. Nc3 e6 7. a3 d6 8. Be3
+Qc7 9. Be2 a6 10. O-O b5 11. f4 Bb7 12. Bf3 Be7 13. Qd2 O-O 14. Qf2 b4 15. Bb6
+Qc8 16. axb4 Nxb4 17. Na5 d5 18. Nxb7 Qxb7 19. exd5 exd5 20. Bd4 Rfd8 21. Rfe1
+Rac8 22. Kh1 Rc4 23. Re2 Qd7 24. b3 Rc6 25. Rae1 Bf8 26. Be5 Ng4 27. Bxg4 Qxg4
+28. Nd1 Rh6 29. g3 Nc6 30. Bb2 d4 31. Qg2 Qf5 32. Nf2 Nb4 33. Qe4 Qh5 34. Nd3
+Re6 35. Qg2 Nxd3 36. cxd3 Rxe2 37. Qxe2 Qb5 38. Qc2 h6 39. Kg1 Qb7 40. Rc1 Qf3
+41. Re1 h5 42. Re4 h4 43. Qe2 Qxe2 44. Rxe2 hxg3 45. hxg3 Bc5 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2016.07.21"]
+[Round "9"]
+[White "Tahay, Alexis"]
+[Black "Bernat, Ernest"]
+[Result "1/2-1/2"]
+[ECO "B99"]
+[WhiteElo "2119"]
+[BlackElo "1942"]
+[PlyCount "126"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Be7 8. Qf3
+Nbd7 9. O-O-O Qc7 10. g4 b5 11. Bxf6 Nxf6 12. g5 Nd7 13. f5 Nc5 14. Bh3 Bxg5+
+15. Kb1 O-O 16. Rhg1 Bf6 17. Nce2 Bd7 18. Ng3 Kh8 19. Nh5 Qd8 20. Nb3 Nxb3 21.
+Qxb3 Qe7 22. Nxf6 gxf6 23. Qd3 Bc6 24. Qxd6 Qxd6 25. Rxd6 Bxe4 26. fxe6 fxe6
+27. Bxe6 Rfd8 28. Rgd1 Rxd6 29. Rxd6 Kg7 30. Kc1 Ra7 31. Kd2 Bg6 32. a3 a5 33.
+c3 Bf7 34. Rd7 Rxd7+ 35. Bxd7 Bc4 36. b3 Bxb3 37. Bxb5 Kf7 38. Kd3 Ke6 39. Kd4
+Kd6 40. c4 Ba2 41. c5+ Kc7 42. Bd3 h6 43. Be4 Bb3 44. h4 Ba2 45. Ke3 Be6 46.
+Kf4 Bd7 47. Bf3 Be6 48. Bg4 Bxg4 49. Kxg4 Kc6 50. Kf5 Kxc5 51. Kxf6 Kb5 52. Kg6
+Ka4 53. Kxh6 Kxa3 54. Kg6 Kb2 55. h5 a4 56. h6 a3 57. h7 a2 58. h8=Q+ Kb1 59.
+Qh1+ Kb2 60. Qg2+ Kb1 61. Qe4+ Kb2 62. Qb4+ Ka1 63. Qd2 Kb1 1/2-1/2
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.01.12"]
+[Round "1"]
+[White "Febrero Perez, Lluis"]
+[Black "Bernat, Ernest"]
+[Result "0-1"]
+[ECO "B52"]
+[WhiteElo "1525"]
+[BlackElo "1898"]
+[PlyCount "72"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Qe2 Bxb5 5. Qxb5+ Qd7 6. Nc3 a6 7. Qxd7+ Nxd7
+8. Nd5 Rc8 9. b3 e6 10. Ne3 Ngf6 11. d3 Be7 12. Bb2 O-O 13. O-O h6 14. c4 Rfd8
+15. Rad1 Nb8 16. d4 cxd4 17. Nxd4 Nxe4 18. f4 Nc6 19. f5 Nxd4 20. Rxd4 Nc5 21.
+fxe6 fxe6 22. Rg4 Bf8 23. Rf6 h5 24. Rgg6 Kh7 25. Rxe6 Nxe6 26. Rxe6 Re8 27.
+Rxe8 Rxe8 28. Bd4 Re4 29. Bb6 g6 30. Kf2 Bg7 31. Kf3 Re6 32. Nd5 Re1 33. h3 Ra1
+34. Nb4 Bc3 35. Ba5 Rf1+ 36. Ke2 Rf5 0-1
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.01.19"]
+[Round "2"]
+[White "Bernat, Ernest"]
+[Black "Comellas Blanchart, Jordi"]
+[Result "0-1"]
+[ECO "C95"]
+[WhiteElo "1898"]
+[BlackElo "2065"]
+[PlyCount "136"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3
+O-O 9. h3 Nb8 10. d4 Nbd7 11. Be3 Bb7 12. Nbd2 Nxe4 13. Qe2 Nxd2 14. Bxd2 Bf6
+15. Rad1 e4 16. Nh2 d5 17. Be3 Be7 18. a4 c6 19. f3 f5 20. fxe4 fxe4 21. Rf1
+Nf6 22. Bg5 Kh8 23. Rf2 Qc7 24. Bf4 Bd6 25. Bxd6 Qxd6 26. Nf1 Ng8 27. Rxf8 Rxf8
+28. Ne3 Bc8 29. Rf1 Rf4 30. Rxf4 Qxf4 31. axb5 axb5 32. Qf2 Qxf2+ 33. Kxf2 g5
+34. Nc2 Kg7 35. Ne3 Nf6 36. Bd1 h5 37. Kg3 Kh6 38. Be2 h4+ 39. Kf2 g4 40. hxg4
+Kg5 41. Nc2 Kf4 42. g5 Kxg5 43. Ke3 Ng8 44. Nb4 Ne7 45. Kf2 Bd7 46. Nc2 Bg4 47.
+Bf1 Kf4 48. Nb4 e3+ 49. Ke1 Bf5 50. Nd3+ Bxd3 51. Bxd3 Nf5 52. Bc2 Nd6 53. Bd1
+Ne4 54. Ke2 b4 55. cxb4 Ng3+ 56. Kd3 e2 57. Bxe2 Nxe2 58. Kxe2 Ke4 59. b5 cxb5
+60. Kd1 Kxd4 61. Kd2 b4 62. b3 Ke4 63. Ke2 d4 64. Kd2 d3 65. Kd1 Ke3 66. Ke1
+d2+ 67. Kd1 Kd3 68. g3 h3 0-1
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.01.26"]
+[Round "3"]
+[White "Permanyer Ugartemendia, Inaki"]
+[Black "Bernat, Ernest"]
+[Result "0-1"]
+[ECO "D60"]
+[WhiteElo "1685"]
+[BlackElo "1898"]
+[PlyCount "92"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Nf3 Nf6 3. Bg5 e6 4. e3 Be7 5. Bd3 O-O 6. O-O Nbd7 7. c4 dxc4 8.
+Bxc4 a6 9. Nc3 b5 10. Bb3 c5 11. Rc1 c4 12. Bc2 Bb7 13. b3 b4 14. Ne2 c3 15.
+Ng3 a5 16. Re1 Re8 17. e4 Nf8 18. Ne5 N6d7 19. Bxe7 Rxe7 20. Ng4 Re8 21. f4 Qh4
+22. f5 Red8 23. Qf3 Nf6 24. Nxf6+ Qxf6 25. e5 Bxf3 26. exf6 Bd5 27. fxg7 Kxg7
+28. Nh5+ Kh8 29. Nf6 Bc6 30. Rcd1 Nd7 31. Nxh7 Rg8 32. g3 Bd5 33. fxe6 fxe6 34.
+Rf1 a4 35. Rf7 axb3 36. axb3 Rg7 37. Rxg7 Kxg7 38. h4 Ra2 39. Rc1 Rxc2 40. Rxc2
+Kxh7 41. Kf2 Bxb3 42. Rc1 c2 43. Ke3 Nb6 44. Ke4 Bd5+ 45. Kd3 b3 46. Ra1 Na4
+0-1
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.02.02"]
+[Round "4"]
+[White "Bernat, Ernest"]
+[Black "Perez Pastora, Evaristo"]
+[Result "0-1"]
+[ECO "B92"]
+[WhiteElo "1898"]
+[BlackElo "2171"]
+[PlyCount "105"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e5 7. Nb3 Be6 8. O-O
+Nbd7 9. Be3 Be7 10. f4 Rc8 11. f5 Bc4 12. Bxc4 Rxc4 13. Nd2 Rc8 14. g4 h5 15.
+gxh5 Nxh5 16. Nf3 Ndf6 17. Ng5 b5 18. a3 Nd7 19. Qg4 Nhf6 20. Qg2 Qc7 21. Rf3
+Nb6 22. Re1 Nc4 23. Bc1 Qc6 24. Rg3 Rg8 25. Qf3 a5 26. Rd1 Nb6 27. Rg2 Rh8 28.
+Kh1 b4 29. axb4 axb4 30. Nd5 Nbxd5 31. exd5 Qc4 32. Qd3 Rh4 33. Nf3 Qxd3 34.
+Rxd3 Rh3 35. Nxe5 Rxd3 36. Nxd3 Nxd5 37. Rxg7 Rxc2 38. Rg8+ Kd7 39. Rg2 b3 40.
+Rxc2 bxc2 41. Kg2 Kc6 42. Ne1 Nb4 43. Kf1 Kd5 44. Ke2 Ke4 45. Bh6 Bf6 46. Kd2
+Bxb2 47. Nxc2 Nd3 48. Ke2 Be5 49. h3 Nf4+ 50. Bxf4 Kxf4 51. Ne3 Kg3 52. Nc4
+Kxh3 53. Nxd6 0-1
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.02.09"]
+[Round "5"]
+[White "Agut Alvarez, Josep Lluis"]
+[Black "Bernat, Ernest"]
+[Result "1/2-1/2"]
+[ECO "A16"]
+[WhiteElo "1759"]
+[BlackElo "1898"]
+[PlyCount "34"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. g3 d5 2. Bg2 Nf6 3. d3 g6 4. Nf3 Bg7 5. O-O O-O 6. c4 c6 7. Nc3 Nbd7 8. Qb3
+Nc5 9. Qc2 dxc4 10. dxc4 Bf5 11. Qd1 Qxd1 12. Rxd1 Be6 13. Nd2 a5 14. Rb1 Rfd8
+15. b3 Kf8 16. Ba3 Nfd7 17. Bb2 Nf6 1/2-1/2
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.02.16"]
+[Round "6"]
+[White "Bernat, Ernest"]
+[Black "Albert Estebanez, Carles"]
+[Result "1-0"]
+[ECO "B02"]
+[WhiteElo "1898"]
+[BlackElo "1751"]
+[PlyCount "46"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 d5 2. exd5 Nf6 3. Nc3 Nxd5 4. Nf3 c5 5. Bc4 e6 6. O-O Be7 7. Re1 Nxc3 8.
+bxc3 a6 9. a4 b6 10. d4 Bb7 11. Ne5 O-O 12. Qg4 Bd5 13. Bd3 cxd4 14. cxd4 f5
+15. Qe2 Bf6 16. c4 Bb7 17. Bb2 Kh8 18. Ba3 Bxe5 19. Qxe5 Nc6 20. Qxe6 Nxd4 21.
+Qe7 Be4 22. Bxe4 Qxe7 23. Bxe7 Rae8 1-0
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.02.23"]
+[Round "7"]
+[White "Alcaraz Lopez, Francesco"]
+[Black "Bernat, Ernest"]
+[Result "1/2-1/2"]
+[ECO "D37"]
+[WhiteElo "1820"]
+[BlackElo "1898"]
+[PlyCount "58"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 e6 2. d4 d5 3. Nc3 Nf6 4. e3 Nbd7 5. Nf3 Be7 6. Bd3 a6 7. a4 O-O 8. O-O
+c5 9. Ne5 cxd4 10. exd4 dxc4 11. Bxc4 Qc7 12. Qe2 Nb6 13. Bb3 Nbd5 14. Nxd5
+Nxd5 15. Bxd5 exd5 16. Bf4 Qd8 17. Rac1 Be6 18. Nd3 Rc8 19. Rxc8 Bxc8 20. Rc1
+Bf5 21. Nc5 Bxc5 22. dxc5 Re8 23. Qd2 d4 24. h3 Qd5 25. Re1 Rxe1+ 26. Qxe1 Qxc5
+27. Qe8+ Qf8 28. Qe5 Qc8 29. Qxd4 Qd7 1/2-1/2
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.03.02"]
+[Round "8"]
+[White "Bernat, Ernest"]
+[Black "Mateu Farre, Josep Maria"]
+[Result "1/2-1/2"]
+[ECO "C42"]
+[WhiteElo "1898"]
+[BlackElo "1963"]
+[PlyCount "33"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. d4 d5 6. Bd3 Nc6 7. O-O Be7 8. c3
+O-O 9. Nbd2 Nxd2 10. Bxd2 Bf6 11. Qc2 h6 12. h3 Re8 13. Rfe1 Rxe1+ 14. Rxe1 Be6
+15. Bh7+ Kh8 16. Bd3 Kg8 17. Bh7+ 1/2-1/2
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.03.09"]
+[Round "9"]
+[White "Morales Montalban, Miguel"]
+[Black "Bernat, Ernest"]
+[Result "1-0"]
+[ECO "D11"]
+[WhiteElo "2122"]
+[BlackElo "1898"]
+[PlyCount "137"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 c6 2. Nf3 d5 3. d4 Nf6 4. e3 dxc4 5. Bxc4 b5 6. Be2 a6 7. O-O e6 8. Qc2
+Bb7 9. Rd1 Nbd7 10. Nbd2 c5 11. dxc5 Bxc5 12. Nb3 Bb6 13. Nfd4 Rc8 14. Qd2 O-O
+15. Qe1 Qc7 16. Bd2 Rfe8 17. Rac1 Qb8 18. Ba5 Qa8 19. Bf3 Bxf3 20. Nxf3 Rxc1
+21. Rxc1 Rc8 22. Bxb6 Nxb6 23. Nbd4 h6 24. h3 Nbd7 25. Qd1 Qb7 26. Rc2 g6 27.
+Qc1 Rxc2 28. Qxc2 Nd5 29. Nxe6 Ne7 30. Nf4 Qc6 31. Qd2 Nf5 32. Nd5 Nf6 33. Nc3
+Qd7 34. Nd4 Nd6 35. b3 Nde4 36. Nxe4 Nxe4 37. Qc2 Qb7 38. a3 Kh7 39. Kf1 Kg7
+40. Qb2 Kg8 41. Qc2 Kg7 42. Nf3 Qd5 43. Kg1 Ng5 44. Qc3+ Kh7 45. Nxg5+ hxg5 46.
+b4 Qd1+ 47. Kh2 Qd6+ 48. g3 Qe6 49. Qd3 Qc4 50. Qd2 Qb3 51. Qc1 Qc4 52. Qb2 Qe6
+53. Qb1 Qd5 54. Qb2 Qe6 55. Qc2 Qc4 56. Qb2 Qe6 57. Kg2 Qe4+ 58. Kg1 Qe6 59. g4
+Kg8 60. Qd4 Kh7 61. Kg2 Qc6+ 62. e4 f5 63. Qd5 Qc3 64. gxf5 gxf5 65. Qxf5+ Kh6
+66. Qf3 Qe5 67. Qf8+ Kh5 68. Qf5 Qd4 69. Qh7# 1-0
+
+[Event "Hospitalet de Llobregat Ponce 3rd"]
+[Site "Hospitalet de Llobregat"]
+[Date "2017.04.22"]
+[Round "3"]
+[White "Aracil Campoy, Manuel"]
+[Black "Bernat, Ernest"]
+[Result "1-0"]
+[ECO "D17"]
+[WhiteElo "1934"]
+[BlackElo "1869"]
+[PlyCount "73"]
+[EventDate "2017.04.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. Ne5 e6 7. Nxc4 Nbd7 8. f3
+Bg6 9. Bg5 Be7 10. e4 Nb6 11. e5 Nxc4 12. Bxc4 Nd5 13. Bxe7 Qxe7 14. Bxd5 exd5
+15. O-O O-O 16. f4 f5 17. Qb3 a5 18. Ne2 Bf7 19. Rfc1 Kh8 20. Rc3 Rg8 21. Nc1
+g5 22. Nd3 gxf4 23. Nxf4 Rg4 24. Rf1 Qb4 25. Rd3 Qe7 26. Rdf3 Rag8 27. Qe3 Be6
+28. g3 Bf7 29. e6 Be8 30. Qe5+ Qg7 31. Nd3 Rxd4 32. Qd6 Bh5 33. Ne5 Re4 34.
+Rxf5 Rg4 35. Nxg4 Bxg4 36. Re5 Bh3 37. e7 1-0
+
+[Event "Hospitalet de Llobregat Ponce 3rd"]
+[Site "Hospitalet de Llobregat"]
+[Date "2017.04.29"]
+[Round "4"]
+[White "Bernat, Ernest"]
+[Black "Fernandez Benito, Francisco Javier"]
+[Result "1-0"]
+[ECO "B01"]
+[WhiteElo "1869"]
+[BlackElo "1709"]
+[PlyCount "83"]
+[EventDate "2017.04.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. Bc4 Nf6 5. h3 Bf5 6. d3 e6 7. Nf3 Nc6 8.
+Bd2 Qc5 9. a3 Qd6 10. Qe2 Nd4 11. Nxd4 Qxd4 12. Nb5 Qd7 13. O-O-O a6 14. Nc3 h6
+15. g4 Bg6 16. f4 O-O-O 17. Qf3 Nd5 18. Bxd5 exd5 19. f5 Bh7 20. d4 Be7 21. h4
+Bf6 22. Bf4 Be7 23. Rde1 Bd6 24. Bxd6 Qxd6 25. Re5 c6 26. Rhe1 g6 27. f6 g5 28.
+h5 Kb8 29. Na4 Rhf8 30. Nc5 Ka8 31. Kb1 Rb8 32. Re7 Qh2 33. Qe2 Qf4 34. Nd7
+Rbd8 35. Nxf8 Rxf8 36. Qe5 Qxg4 37. Qc7 Qc8 38. Qxc8+ Rxc8 39. Rxf7 Be4 40. Re7
+Ka7 41. f7 Rf8 42. Rf1 1-0
+
+[Event "Hospitalet de Llobregat Ponce 3rd"]
+[Site "Hospitalet de Llobregat"]
+[Date "2017.05.06"]
+[Round "5"]
+[White "Bernat, Ernest"]
+[Black "Cervello Tost, Roger"]
+[Result "1/2-1/2"]
+[ECO "C88"]
+[WhiteElo "1869"]
+[BlackElo "2012"]
+[PlyCount "40"]
+[EventDate "2017.04.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O b5 6. Bb3 Be7 7. Re1 O-O 8. a4
+Bb7 9. d3 d6 10. Bd2 h6 11. Nc3 b4 12. Nd5 a5 13. c3 bxc3 14. bxc3 Nh7 15. Rb1
+Rb8 16. Bc4 Kh8 17. Ne3 Bg5 18. Bd5 Bxe3 19. Bxe3 Qc8 20. Qd2 Nd8 1/2-1/2
+
+[Event "Hospitalet de Llobregat Ponce 3rd"]
+[Site "Hospitalet de Llobregat"]
+[Date "2017.05.13"]
+[Round "6"]
+[White "Rodriguez Regull, German"]
+[Black "Bernat, Ernest"]
+[Result "1/2-1/2"]
+[ECO "B89"]
+[WhiteElo "2018"]
+[BlackElo "1869"]
+[PlyCount "103"]
+[EventDate "2017.04.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bc4 e6 7. Bb3 Be7 8. g4
+O-O 9. Be3 Nc6 10. Rg1 Nd7 11. Qe2 Nc5 12. O-O-O Nxb3+ 13. Nxb3 b5 14. f4 Qc7
+15. Qf2 Rb8 16. g5 Bd7 17. f5 Rfc8 18. g6 hxg6 19. fxg6 fxg6 20. Rxg6 Ne5 21.
+Rg2 b4 22. Rdg1 Bf8 23. Qf6 Be8 24. Qxe6+ Bf7 25. Qf6 Bxb3 26. axb3 bxc3 27.
+Bh6 cxb2+ 28. Kb1 Ng4 29. Qe6+ Qf7 30. Qxg4 Rc7 31. Be3 Qf6 32. Rd1 Rb4 33. Rf2
+Qe5 34. Qf3 Qf6 35. Qxf6 gxf6 36. Bd4 Be7 37. Kxb2 Kf7 38. c3 Rb5 39. Ra1 Rcb7
+40. Rxa6 Rxb3+ 41. Kc2 Rb2+ 42. Kd3 Rxf2 43. Bxf2 Rb5 44. Bg3 Ke6 45. Ke3 Bf8
+46. Kf3 Rc5 47. Ra3 f5 48. h4 fxe4+ 49. Kxe4 Rc4+ 50. Kd3 d5 51. Ra6+ Kf5 52.
+Be1 1/2-1/2
+
+[Event "Hospitalet de Llobregat Ponce 3rd"]
+[Site "Hospitalet de Llobregat"]
+[Date "2017.05.20"]
+[Round "7"]
+[White "Bernat, Ernest"]
+[Black "Daguro Dasalla, Armando"]
+[Result "1-0"]
+[ECO "B08"]
+[WhiteElo "1869"]
+[BlackElo "1961"]
+[PlyCount "44"]
+[EventDate "2017.04.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 d6 2. d4 g6 3. Nf3 Bg7 4. Be2 Nf6 5. Nc3 a6 6. Be3 b6 7. O-O Bb7 8. e5
+Ne4 9. Nxe4 Bxe4 10. Ng5 f5 11. f4 h6 12. Nf3 Bd5 13. Bd3 Nc6 14. Qd2 e6 15.
+Rad1 Ne7 16. h3 O-O 17. Bf2 Qd7 18. b3 b5 19. a4 Rab8 20. b4 Bxf3 21. gxf3 d5
+22. c3 Kh8 {Il.legible} 1-0
+
+[Event "Hospitalet de Llobregat Ponce 3rd"]
+[Site "Hospitalet de Llobregat"]
+[Date "2017.05.27"]
+[Round "8"]
+[White "Rivera Padron, Joaquin"]
+[Black "Bernat, Ernest"]
+[Result "0-1"]
+[ECO "B86"]
+[WhiteElo "1922"]
+[BlackElo "1869"]
+[PlyCount "114"]
+[EventDate "2017.04.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bc4 e6 7. Bb3 Be7 8. f4
+Qc7 9. f5 e5 10. Nde2 O-O 11. Bg5 Nbd7 12. O-O b5 13. Bxf6 Nxf6 14. Nd5 Nxd5
+15. Bxd5 Rb8 16. a3 Bd7 17. Nc3 a5 18. Qd2 b4 19. axb4 axb4 20. Ne2 Rfc8 21.
+Rac1 Qd8 22. Qd3 Bb5 23. Qf3 Bg5 24. Rce1 Rxc2 25. Qh5 Rc7 26. Rf3 Bxe2 27.
+Rxe2 Rc1+ 28. Kf2 Qb6+ 29. Kg3 Bf4+ 30. Kh3 Qd8 31. g3 Bg5 32. Bxf7+ Kf8 33.
+Bd5 Qf6 34. Qxh7 Ke7 35. b3 Rbc8 36. Ra2 R1c7 37. Rf1 Qh6+ 38. Qxh6 Bxh6 39.
+Bc4 Be3 40. Rfa1 Rxc4 41. bxc4 Rxc4 42. Rb1 Bc5 43. Re2 Kf6 44. Ra1 Rd4 45. Ra8
+Rc4 46. Re8 Kf7 47. Re6 Rd4 48. g4 b3 49. g5 Ba3 50. g6+ Kf8 51. Re3 Rb4 52.
+Kg4 Rb8 53. Rh3 Kg8 54. Re7 d5 55. Rf7 b2 56. Rh7 Bf8 57. f6 gxf6 0-1
+
+[Event "Hospitalet de Llobregat Ponce 3rd"]
+[Site "Hospitalet de Llobregat"]
+[Date "2017.06.03"]
+[Round "9"]
+[White "Bernat, Ernest"]
+[Black "Ayala Abenza, Jose Luis"]
+[Result "1/2-1/2"]
+[ECO "C01"]
+[WhiteElo "1869"]
+[BlackElo "1997"]
+[PlyCount "40"]
+[EventDate "2017.04.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. Bd3 Nc6 5. c3 Bd6 6. Nf3 Bg4 7. O-O Nge7 8.
+Re1 Qd7 9. Na3 O-O-O 10. Nb5 f6 11. b4 Ng6 12. Nxd6+ Qxd6 13. h3 Bd7 14. a4
+Rde8 15. Rxe8+ Rxe8 16. a5 Kb8 17. b5 Nce7 18. Ba3 Qe6 19. Qd2 Nc8 20. Re1 Qg8
+1/2-1/2
+
+[Event "Barcelona Gotic op 1st"]
+[Site "Barcelona"]
+[Date "2017.04.25"]
+[Round "1"]
+[White "Bernat, Ernest"]
+[Black "Hurtado Insa, Vicente"]
+[Result "1-0"]
+[ECO "C01"]
+[WhiteElo "1869"]
+[BlackElo "1589"]
+[PlyCount "73"]
+[EventDate "2017.04.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. Bd3 Bd6 5. h3 Ne7 6. Nf3 h6 7. O-O O-O 8. Re1
+Re8 9. c4 c6 10. Nc3 Be6 11. c5 Bc7 12. b4 Nd7 13. a4 a6 14. Bd2 Bf5 15. Rxe7
+Bxd3 16. Rxe8+ Qxe8 17. Bxh6 Be4 18. Bg5 f6 19. Be3 Nf8 20. Nd2 Bf5 21. Qf3 Qg6
+22. Nf1 Nh7 23. g4 Re8 24. Qxf5 Qf7 25. b5 g6 26. Qf3 g5 27. Ng3 Bxg3 28. Qxg3
+Nf8 29. bxc6 bxc6 30. Rb1 Re6 31. Qf3 Ng6 32. Rb8+ Kg7 33. Qg3 Qe7 34. Rc8 Kh6
+35. h4 Qb7 36. hxg5+ fxg5 37. Qh2+ 1-0
+
+[Event "Barcelona Gotic op 1st"]
+[Site "Barcelona"]
+[Date "2017.05.02"]
+[Round "2"]
+[White "Calderon Caballero, Javier"]
+[Black "Bernat, Ernest"]
+[Result "0-1"]
+[ECO "D13"]
+[WhiteElo "1679"]
+[BlackElo "1869"]
+[PlyCount "58"]
+[EventDate "2017.04.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 c6 3. cxd5 cxd5 4. Nc3 Nf6 5. Nf3 Nc6 6. e3 Bf5 7. g3 e6 8. a3
+a6 9. Bg2 b5 10. O-O Be7 11. Re1 O-O 12. b4 Rc8 13. Bb2 Qb6 14. Rc1 a5 15. bxa5
+Nxa5 16. Nb1 Nc4 17. Qb3 Qa6 18. Nfd2 Bxb1 19. Nxb1 Qa4 20. Qxa4 bxa4 21. Re2
+Rb8 22. Rcc2 Rfc8 23. f3 g6 24. e4 Bf8 25. exd5 Nxd5 26. Kf2 Bg7 27. Nd2 Nxb2
+28. Rxc8+ Rxc8 29. Ne4 Bxd4+ 0-1
+
+[Event "Barcelona Gotic op 1st"]
+[Site "Barcelona"]
+[Date "2017.05.09"]
+[Round "3"]
+[White "Bernat, Ernest"]
+[Black "Costa Trave, Jaume"]
+[Result "1/2-1/2"]
+[ECO "C01"]
+[WhiteElo "1869"]
+[BlackElo "1985"]
+[PlyCount "104"]
+[EventDate "2017.04.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. Bd3 Bd6 5. Nc3 c6 6. Nge2 Bg4 7. f3 Bh5 8.
+Bf4 Nf6 9. Qd2 Na6 10. a3 Nc7 11. O-O O-O 12. Bxd6 Qxd6 13. Qf4 Qd8 14. Rae1
+Ne6 15. Qh4 Qb6 16. Nd1 Rae8 17. c3 Bg6 18. Bxg6 fxg6 19. Qg3 c5 20. dxc5 Nxc5
+21. Nd4 Nd3 22. Rxe8 Rxe8 23. b4 Rc8 24. Kh1 a5 25. b5 a4 26. Qg5 Re8 27. Qd2
+Ne5 28. Nb2 Qc5 29. Nc2 Qxb5 30. Qc1 Nd3 31. Nxd3 Qxd3 32. Nb4 Qc4 33. Re1 Rc8
+34. Qd1 Qb3 35. h3 Qxd1 36. Rxd1 Rxc3 37. Nxd5 Rxa3 38. Nxf6+ gxf6 39. Rd8+ Kg7
+40. Rd7+ Kh6 41. Rxb7 f5 42. Ra7 f4 43. Kh2 Ra2 44. h4 a3 45. Kh3 g5 46. hxg5+
+Kxg5 47. Rxh7 Ra1 48. Kh2 a2 49. Ra7 Kf5 50. Ra5+ Ke6 51. Ra6+ Ke5 52. Ra8 Kf5
+1/2-1/2
+
+[Event "Barcelona Gotic op 1st"]
+[Site "Barcelona"]
+[Date "2017.05.16"]
+[Round "4"]
+[White "Gonzalez Lafita, Oscar"]
+[Black "Bernat, Ernest"]
+[Result "1/2-1/2"]
+[ECO "D15"]
+[WhiteElo "1867"]
+[BlackElo "1869"]
+[PlyCount "51"]
+[EventDate "2017.04.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Nf3 c6 3. c4 Nf6 4. Nc3 dxc4 5. g3 Bf5 6. Bg2 e6 7. Ne5 Bb4 8. O-O
+Nbd7 9. Nxc4 O-O 10. Qb3 Bxc3 11. bxc3 Nb6 12. Nd2 Qd7 13. Ba3 Rfc8 14. Rfd1
+Qc7 15. Rac1 e5 16. Nf3 Be6 17. Qc2 Nc4 18. Bb4 e4 19. Nd2 a5 20. Bc5 e3 21.
+Nxc4 exf2+ 22. Kxf2 Bxc4 23. Bf3 Re8 24. e4 Qc8 25. Kg1 Qe6 26. Re1 1/2-1/2
+
+[Event "Barcelona Gotic op 1st"]
+[Site "Barcelona"]
+[Date "2017.05.23"]
+[Round "5"]
+[White "Bernat, Ernest"]
+[Black "Serra Vilaro, Agustin"]
+[Result "1-0"]
+[ECO "B01"]
+[WhiteElo "1869"]
+[BlackElo "1763"]
+[PlyCount "94"]
+[EventDate "2017.04.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd6 4. Bc4 Nf6 5. h3 a6 6. d3 b5 7. Bb3 Bb7 8. Nf3
+Nbd7 9. Be3 Nc5 10. Qe2 Nxb3 11. axb3 e6 12. O-O Be7 13. Rfd1 O-O 14. Bg5 Qb6
+15. Ne4 Nxe4 16. Bxe7 Qxf2+ 17. Qxf2 Nxf2 18. Kxf2 Rfe8 19. Bb4 Rac8 20. Bc5
+Red8 21. b4 Ra8 22. d4 f6 23. b3 Rd5 24. Ke3 Rad8 25. Rd2 g5 26. Rf2 Re8 27. g3
+e5 28. dxe5 f5 29. Rd2 Rxd2 30. Nxd2 Rxe5+ 31. Kf2 f4 32. gxf4 gxf4 33. Rg1+
+Kf7 34. Nf3 Rd5 35. h4 a5 36. Ra1 axb4 37. Bxb4 c5 38. Ra7 cxb4 39. Rxb7+ Kg6
+40. Re7 h6 41. Re5 Rxe5 42. Nxe5+ Kf5 43. Nd3 Kg4 44. Nxb4 Kf5 45. Nd3 h5 46.
+Kf3 b4 47. Nxb4 Ke5 {Ilegible} 1-0
+
+[Event "Barcelona Gotic op 1st"]
+[Site "Barcelona"]
+[Date "2017.05.30"]
+[Round "6"]
+[White "Comellas Blanchart, Jordi"]
+[Black "Bernat, Ernest"]
+[Result "1-0"]
+[ECO "D12"]
+[WhiteElo "2136"]
+[BlackElo "1869"]
+[PlyCount "59"]
+[EventDate "2017.04.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 Bf5 5. Nc3 e6 6. Nh4 Bg4 7. Qb3 Qb6 8. c5
+Qxb3 9. axb3 Nbd7 10. b4 Be7 11. h3 Bh5 12. b5 O-O 13. g4 Bg6 14. Nxg6 fxg6 15.
+g5 Nh5 16. h4 e5 17. Bh3 Rfd8 18. b4 exd4 19. exd4 Nf8 20. Be3 Kf7 21. bxc6
+bxc6 22. b5 Bxc5 23. dxc5 d4 24. Ne4 dxe3 25. Nd6+ Ke7 26. bxc6 Nf4 27. c7 Nd3+
+28. Ke2 Nxc5 29. cxd8=Q+ Rxd8 30. Nc8+ 1-0
+
+[Event "Barcelona Gotic op 1st"]
+[Site "Barcelona"]
+[Date "2017.06.06"]
+[Round "7"]
+[White "Flores Linan, Josep Luis"]
+[Black "Bernat, Ernest"]
+[Result "0-1"]
+[ECO "D18"]
+[WhiteElo "1823"]
+[BlackElo "1869"]
+[PlyCount "92"]
+[EventDate "2017.04.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Nf3 dxc4 5. a4 Bf5 6. e3 e6 7. Bxc4 Nbd7 8. O-O
+Be7 9. Bd3 Bxd3 10. Qxd3 O-O 11. Rd1 a6 12. Bd2 c5 13. Ne4 cxd4 14. Nxd4 Nc5
+15. Nxc5 Bxc5 16. Bc3 Nd5 17. Rac1 Nxc3 18. Qxc3 Bxd4 19. Rxd4 Qe7 20. Rc4 b5
+21. Rc7 Qf6 22. Qxf6 gxf6 23. a5 Rfd8 24. Kf1 Rd2 25. R1c2 Rd1+ 26. Ke2 Ra1 27.
+b4 Rb1 28. Rc8+ Rxc8 29. Rxc8+ Kg7 30. Rc6 Rxb4 31. Rxa6 Rb2+ 32. Kf3 Ra2 33.
+g4 b4 34. h4 b3 35. Rb6 Rxa5 36. Rxb3 h6 37. Kf4 Ra2 38. f3 Rh2 39. Kg3 Rh1 40.
+e4 Rg1+ 41. Kh2 Re1 42. Kg2 Re2+ 43. Kg3 Re1 44. Kf4 Rh1 45. h5 Re1 46. Re3 e5+
+0-1
+
+[Event "Barcelona Gotic op 1st"]
+[Site "Barcelona"]
+[Date "2017.06.13"]
+[Round "8"]
+[White "Bernat, Ernest"]
+[Black "Ayza Leon, David"]
+[Result "0-1"]
+[ECO "B40"]
+[WhiteElo "1869"]
+[BlackElo "2229"]
+[PlyCount "102"]
+[EventDate "2017.04.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 e6 3. a3 Nc6 4. Be2 Nf6 5. Nc3 d5 6. exd5 exd5 7. d4 Bg4 8. Be3
+c4 9. O-O Be7 10. Re1 O-O 11. h3 Be6 12. Bf4 Ne4 13. Bf1 Nxc3 14. bxc3 h6 15.
+Qd2 Kh7 16. g4 Qd7 17. Kh2 f6 18. Bg2 Rae8 19. a4 Bd8 20. Bg3 Ba5 21. Ng1 Bf7
+22. Ne2 Re7 23. Nf4 Rfe8 24. Rxe7 Rxe7 25. Bf3 Nd8 26. Kg2 g5 27. Ne2 Bg6 28.
+h4 Be4 29. Bxe4+ dxe4 30. hxg5 fxg5 31. d5 Qxg4 32. Nd4 e3 33. fxe3 Qe4+ 34.
+Kh2 Qxd5 35. Rf1 Nc6 36. Rf5 Nxd4 37. Rxd5 Nf3+ 38. Kg2 Nxd2 39. Rxa5 a6 40.
+Be1 Ne4 41. Rd5 Nf6 42. Rd6 Ng4 43. Bf2 Nxe3+ 44. Bxe3 Rxe3 45. Rd7+ Kg6 46.
+Rxb7 Rxc3 47. Rb6+ Kh5 48. Rxa6 Rxc2+ 49. Kg1 Ra2 50. a5 c3 51. Rc6 c2 0-1
+
+[Event "Barcelona Gotic op 1st"]
+[Site "Barcelona"]
+[Date "2017.06.20"]
+[Round "9"]
+[White "Cornejo Vera, Danilo"]
+[Black "Bernat, Ernest"]
+[Result "1-0"]
+[ECO "B25"]
+[WhiteElo "1674"]
+[BlackElo "1869"]
+[PlyCount "63"]
+[EventDate "2017.04.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nc3 d6 3. d3 g6 4. Nge2 Bg7 5. f4 e6 6. g3 Ne7 7. Bg2 Nbc6 8. O-O
+Bd7 9. Be3 Nd4 10. g4 Nec6 11. Rc1 O-O 12. Ng3 Rc8 13. f5 Bf6 14. Qd2 b5 15.
+Nce2 Nxe2+ 16. Nxe2 b4 17. c3 bxc3 18. bxc3 exf5 19. gxf5 gxf5 20. Ng3 Ne5 21.
+exf5 Bxf5 22. Rxf5 Kh8 23. Rcf1 Bg7 24. Bh6 Rg8 25. Kh1 Qh4 26. Bg5 Qh5 27. Bf6
+Qg6 28. Rg5 Qh6 29. Rxg7 Qxd2 30. Rxf7+ Rg7 31. Rxg7 Rc7 32. Rg6+ 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.13"]
+[Round "1"]
+[White "Jimenez Molina, Victor"]
+[Black "Bernat, Ernest"]
+[Result "0-1"]
+[ECO "B33"]
+[WhiteElo "1646"]
+[BlackElo "1889"]
+[PlyCount "132"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e5 5. Nb5 d6 6. N1c3 a6 7. Na3 Nf6 8.
+Bg5 Be7 9. Bxf6 Bxf6 10. Nd5 Bg5 11. h4 Be7 12. Nc4 Be6 13. Nxe7 Kxe7 14. Qd2
+Bxc4 15. Bxc4 Qa5 16. c3 Rhd8 17. Qg5+ Kf8 18. Qf5 Kg8 19. Qxf7+ Kh8 20. Qxb7
+Qc5 21. Bd5 Na5 22. Qb4 Rab8 23. Qxc5 dxc5 24. b3 Nb7 25. Bxb7 Rxb7 26. Rd1
+Rxd1+ 27. Kxd1 Kg8 28. Ke2 a5 29. Kd3 Rd7+ 30. Kc2 Rf7 31. f3 Rf4 32. Kd3 Rf7
+33. Rd1 Rf4 34. Kc4 Rxh4 35. Kxc5 Rh2 36. Rd2 h5 37. c4 h4 38. Rd8+ Kh7 39. Rd1
+Rxg2 40. Rh1 g5 41. Kd5 Rxa2 42. Kxe5 Rf2 43. Kf5 Kh6 44. Kg4 Rg2+ 45. Kf5 Rf2
+46. Kg4 Rg2+ 47. Kf5 Rf2 48. Rh3 Kh5 49. Ke6 Rb2 50. e5 Rxb3 51. Kf5 Rc3 52. e6
+Rxc4 53. e7 Rc8 54. Kf6 a4 55. f4 gxf4 56. Rd3 Re8 57. Kf7 Rxe7+ 58. Kxe7 Kg4
+59. Ra3 h3 60. Rxa4 h2 61. Ra1 Kg3 62. Kf6 f3 63. Kf5 f2 64. Ke4 Kg2 65. Ke3
+f1=Q 66. Ra2+ Kg3 0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.14"]
+[Round "2"]
+[White "Bernat, Ernest"]
+[Black "Munoz Lozano, Jorge Manuel"]
+[Result "1-0"]
+[ECO "B08"]
+[WhiteElo "1889"]
+[BlackElo "1759"]
+[PlyCount "93"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 g6 2. d4 Bg7 3. Nf3 d6 4. h3 Nf6 5. Nc3 O-O 6. Be2 Nc6 7. O-O e5 8. Be3
+Nh5 9. dxe5 dxe5 10. Qxd8 Rxd8 11. Nd5 Bd7 12. Nxc7 Rac8 13. Nd5 Be6 14. Ng5
+Bxd5 15. exd5 Rxd5 16. Bxh5 gxh5 17. c3 Rcd8 18. Rae1 b6 19. Bc1 h6 20. Nf3 f5
+21. Nh4 Ne7 22. g3 Kh7 23. Ng2 Bf6 24. h4 Kg6 25. Re2 Nc6 26. f3 b5 27. Ree1
+Be7 28. Kh2 Bc5 29. Nf4+ exf4 30. Re6+ Kh7 31. Rxc6 fxg3+ 32. Kxg3 Rg8+ 33. Kh3
+Bd6 34. Ra6 Rg3+ 35. Kh2 Rxf3+ 36. Rxd6 Rxf1 37. Rxd5 Rxc1 38. Rxb5 Kg6 39. Kg3
+Rg1+ 40. Kf3 Rf1+ 41. Kg2 Rf4 42. Rb4 Rxb4 43. cxb4 Kf6 44. Kf3 Ke5 45. a4 Kd4
+46. b3 Kc3 47. b5 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.15"]
+[Round "3"]
+[White "Serra Vilaro, Agustin"]
+[Black "Bernat, Ernest"]
+[Result "1-0"]
+[ECO "D05"]
+[WhiteElo "1770"]
+[BlackElo "1889"]
+[PlyCount "69"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c3 Nf6 3. Nd2 e6 4. e3 c5 5. Bd3 Bd6 6. Ngf3 O-O 7. O-O b6 8. Qe2
+Bb7 9. Ne5 Nbd7 10. f4 Re8 11. Qf3 Qe7 12. Kh1 Nf8 13. g4 N6d7 14. g5 a5 15.
+Rg1 Bxe5 16. fxe5 Ng6 17. Qg3 Ba6 18. Bc2 cxd4 19. exd4 Ngf8 20. Nf3 Be2 21.
+Bd2 b5 22. Rae1 Bxf3+ 23. Qxf3 b4 24. Ref1 Nb6 25. Rg4 Nc4 26. Bc1 bxc3 27.
+bxc3 Ra7 28. Rf4 Rc8 29. h4 Rcc7 30. h5 Qxg5 31. Rg1 Qd8 32. Rfg4 g6 33. Bg5
+Qc8 34. Bf6 Nxe5 35. Bxe5 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.16"]
+[Round "4"]
+[White "Bernat, Ernest"]
+[Black "Mercader Rubio, Luis"]
+[Result "1-0"]
+[ECO "B72"]
+[WhiteElo "1889"]
+[BlackElo "1747"]
+[PlyCount "77"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Be2 g6 7. Be3 Bg7 8.
+Qd2 Bd7 9. f3 a6 10. O-O-O Rb8 11. g4 b5 12. Nxc6 Bxc6 13. Bh6 Bxh6 14. Qxh6
+Qa5 15. Kb1 Nd7 16. f4 Nc5 17. Qg7 Rf8 18. Qd4 f6 19. h4 Na4 20. Nd5 Nc5 21. b4
+Ne6 22. bxa5 Nxd4 23. Rxd4 Kf7 24. h5 g5 25. f5 e6 26. Nb4 Ba8 27. fxe6+ Kxe6
+28. Rhd1 Rbd8 29. Nxa6 Ke5 30. Bf3 Rf7 31. Nb4 Rc7 32. a6 Rc3 33. R1d3 Rxd3 34.
+Rxd3 Rd7 35. c3 Bxe4 36. Bxe4 Kxe4 37. Kc2 d5 38. Nxd5 Rd6 39. Re3+ 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.17"]
+[Round "5"]
+[White "Varela Cuadrado, Cesar M"]
+[Black "Bernat, Ernest"]
+[Result "1/2-1/2"]
+[ECO "B33"]
+[WhiteElo "1770"]
+[BlackElo "1889"]
+[PlyCount "85"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Bg5 a6 8.
+Na3 b5 9. Nd5 Be7 10. Bxf6 Bxf6 11. c3 O-O 12. Nc2 Bg5 13. a4 bxa4 14. Rxa4 Ne7
+15. Bc4 Bb7 16. Ncb4 a5 17. Nxe7+ Bxe7 18. Nd5 Bxd5 19. Qxd5 Rc8 20. O-O Rc5
+21. Qd3 Kh8 22. b4 axb4 23. cxb4 Rc8 24. Rfa1 Qc7 25. b5 Qc5 26. g3 Bd8 27. Qd5
+Bb6 28. Qxc5 Bxc5 29. Bd5 f5 30. Be6 Rb8 31. exf5 Rxb5 32. Ra8 Rbb8 33. Bd5
+Rxa8 34. Rxa8 Rxa8 35. Bxa8 Kg8 36. Bd5+ Kf8 37. Kg2 Ke7 38. g4 Kf6 39. h4 h6
+40. Kg3 Ba3 41. Be6 Bb4 42. Bd5 Bd2 43. Kf3 1/2-1/2
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.18"]
+[Round "6"]
+[White "Bernat, Ernest"]
+[Black "Zheng, Hong Wei"]
+[Result "1/2-1/2"]
+[ECO "C65"]
+[WhiteElo "1889"]
+[BlackElo "1572"]
+[PlyCount "41"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Ne7 5. O-O Ng6 6. c3 c6 7. Ba4 Be7 8. Nbd2
+O-O 9. d4 d6 10. Re1 Qc7 11. Nf1 Rd8 12. Ng3 h6 13. Bc2 Be6 14. Nf5 Bf8 15.
+dxe5 dxe5 16. Qe2 Rd7 17. Be3 Rad8 18. Red1 Ne7 19. Rxd7 Rxd7 20. Nxe7+ Bxe7
+21. h3 1/2-1/2
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.19"]
+[Round "7"]
+[White "Martinez Buendia, Andres"]
+[Black "Bernat, Ernest"]
+[Result "0-1"]
+[ECO "B33"]
+[WhiteElo "1804"]
+[BlackElo "1889"]
+[PlyCount "56"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Nd5 Nxd5 8.
+exd5 Nb8 9. Qf3 a6 10. Qa3 Be7 11. Bg5 f6 12. Be3 O-O 13. O-O-O Bf5 14. Bd3
+Bxd3 15. Rxd3 Nd7 16. Nc3 f5 17. Kb1 b5 18. f4 Qb8 19. Qb4 Rc8 20. b3 Qc7 21.
+Rc1 e4 22. Nxe4 fxe4 23. Qxe4 Bf6 24. Qe6+ Kh8 25. Bd4 Nc5 26. Bxc5 Qxc5 27. c4
+Qf2 28. Rc2 Qf1+ 0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.20"]
+[Round "8"]
+[White "Bernat, Ernest"]
+[Black "Gil Gil, Antoni"]
+[Result "1-0"]
+[ECO "C01"]
+[WhiteElo "1889"]
+[BlackElo "1823"]
+[PlyCount "86"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. Bd3 Nc6 5. c3 Bd6 6. Ne2 Bg4 7. f3 Bh5 8. Bf4
+Bxf4 9. Nxf4 Bg6 10. Na3 Qf6 11. Nxd5 Qe6+ 12. Qe2 Bxd3 13. Nxc7+ Kd7 14. Nxe6
+Bxe2 15. Nc5+ Kc7 16. Kxe2 Re8+ 17. Kf2 Nf6 18. Nb5+ Kb6 19. Nd6 Re7 20. Nf5
+Rc7 21. Nxg7 Ne7 22. Ne4 Nfd5 23. Nh5 Rc6 24. Nhg3 Kc7 25. Rad1 f5 26. Nc5 f4
+27. Ne2 Ne3 28. Rd3 N3d5 29. g3 fxg3+ 30. hxg3 h5 31. c4 Nb4 32. Rb3 b6 33.
+Rxb4 bxc5 34. dxc5 Rxc5 35. Nf4 Kc6 36. Re1 Nf5 37. Re6+ Nd6 38. Ra4 a5 39. Nd3
+h4 40. gxh4 Rxc4 41. Rxc4+ Kd5 42. Rce4 Nxe4+ 43. Rxe4 Rc8 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.21"]
+[Round "9"]
+[White "Majumdar, Shankar"]
+[Black "Bernat, Ernest"]
+[Result "1-0"]
+[ECO "D02"]
+[WhiteElo "1934"]
+[BlackElo "1889"]
+[PlyCount "71"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Nf3 Bf5 3. Bf4 e6 4. e3 Nf6 5. c3 c6 6. Nbd2 h6 7. h3 Nbd7 8. Be2
+Be7 9. O-O O-O 10. Ne5 Nxe5 11. Bxe5 Nd7 12. Bh2 c5 13. Nf3 c4 14. Nd2 b5 15.
+Re1 Nb6 16. Bf3 Rc8 17. e4 dxe4 18. Nxe4 Nd5 19. Ng3 Bg6 20. Ne2 Bh7 21. Nf4
+Nxf4 22. Bxf4 Bd6 23. Bxd6 Qxd6 24. Re5 Rb8 25. Qe2 Bd3 26. Qe3 b4 27. d5 bxc3
+28. bxc3 exd5 29. Bxd5 Qa3 30. Qd4 Qb2 31. Rae1 Qxa2 32. Qxd3 cxd3 33. Bxa2 Rb2
+34. Bd5 d2 35. Rd1 Rd8 36. c4 1-0
+
+[Event "Barbera op"]
+[Site "Barberá del Valles"]
+[Date "2014.07.04"]
+[Round "1"]
+[White "Palit, S."]
+[Black "Bernat, E."]
+[Result "1-0"]
+[ECO "B50"]
+[WhiteElo "2411"]
+[BlackElo "2101"]
+[PlyCount "51"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.18"]
+
+1. e4 c5 2. Nf3 d6 3. Bc4 e6 4. O-O Nf6 5. d3 Be7 6. Bb3 Nc6 7. c3 O-O 8. Re1
+b5 9. d4 cxd4 10. cxd4 d5 11. e5 Nd7 12. Nc3 a6 13. Bc2 g6 14. Bh6 Re8 15. Rc1
+Bb7 16. Qd2 Qb6 17. Qf4 Nd8 18. Ne2 Bf8 19. Ng3 Rc8 20. Bb1 Rxc1 21. Rxc1 Bxh6
+22. Qxh6 Nf8 23. Nh5 gxh5 24. Ng5 Qa5 25. Bxh7+ Kh8 26. Qf6# 1-0
+
+[Event "Barbera op"]
+[Site "Barberá del Valles"]
+[Date "2014.07.05"]
+[Round "2"]
+[White "Bernat, E."]
+[Black "Tadevosyan, G."]
+[Result "1/2-1/2"]
+[ECO "C01"]
+[WhiteElo "2101"]
+[BlackElo "1843"]
+[PlyCount "56"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.18"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. exd5 exd5 5. Nf3 Ne7 6. Bd3 O-O 7. O-O Bf5 8.
+Bg5 f6 9. Be3 Qd7 10. a3 Ba5 11. Qe2 Nbc6 12. b4 Bb6 13. Na4 Rfe8 14. Nxb6 axb6
+15. h3 Bxd3 16. Qxd3 Ra4 17. c3 Nf5 18. Bf4 Rea8 19. Bxc7 Rxa3 20. Rxa3 Rxa3
+21. Rb1 Qxc7 22. Qxf5 Ne7 23. Qe6+ Kf8 24. Rc1 Rxc3 25. Rxc3 Qxc3 26. Qxb6 Qc1+
+27. Kh2 Qf4+ 28. Kg1 Qc1+ 1/2-1/2
+
+[Event "Barbera op"]
+[Site "Barberá del Valles"]
+[Date "2014.07.06"]
+[Round "3"]
+[White "Martinez Pla, X."]
+[Black "Bernat, E."]
+[Result "1/2-1/2"]
+[ECO "B52"]
+[WhiteElo "1881"]
+[BlackElo "2101"]
+[PlyCount "108"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.18"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Nxd7 5. O-O Ngf6 6. Qe2 e6 7. b3 Be7 8.
+Bb2 O-O 9. c4 Qc7 10. Nc3 a6 11. d4 cxd4 12. Nxd4 Rfe8 13. Rad1 Rac8 14. f4 h6
+15. Kh1 Bf8 16. Nf3 Rcd8 17. Rg1 h5 18. h3 g6 19. g4 hxg4 20. hxg4 Bg7 21. Rg3
+Nf8 22. Kg2 d5 23. e5 Ne4 24. Nxe4 dxe4 25. Nd4 g5 26. Qxe4 gxf4 27. Qxf4 Ng6
+28. Qe4 Qxe5 29. Qxe5 Bxe5 30. Re3 Bg7 31. Ree1 Rd7 32. Rd2 Red8 33. Red1 Ne5
+34. Nf3 Rxd2+ 35. Rxd2 Rxd2+ 36. Nxd2 Nxg4 37. Bxg7 Kxg7 38. Ne4 b6 39. c5 bxc5
+40. Nxc5 a5 41. Nb7 Kf6 42. Nxa5 Ke5 43. Kf3 Nf6 44. Nc6+ Kd6 45. Nd8 Ke7 46.
+Nb7 Kd7 47. a4 Kc7 48. Nc5 Kc6 49. Ne4 Nxe4 50. Kxe4 Kc5 51. a5 Kb5 52. b4 f6
+53. Kd4 f5 54. Ke5 Ka6 1/2-1/2
+
+[Event "Barbera op"]
+[Site "Barberá del Valles"]
+[Date "2014.07.07"]
+[Round "4"]
+[White "Bernat, E."]
+[Black "Orteu Capdevila, M."]
+[Result "0-1"]
+[ECO "B84"]
+[WhiteElo "2101"]
+[BlackElo "1808"]
+[PlyCount "88"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.18"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e6 7. O-O Be7 8. Be3
+b5 9. a3 Bb7 10. f3 O-O 11. Qe1 Nbd7 12. Rd1 d5 13. exd5 Nxd5 14. Nxd5 Bxd5 15.
+Nf5 Bf6 16. c3 Nb6 17. Nd4 Qc7 18. Qf2 Nc4 19. Bxc4 Bxc4 20. Rfe1 Rfd8 21. Nc2
+Rxd1 22. Rxd1 Rd8 23. Rd2 Rxd2 24. Qxd2 Qd8 25. Qxd8+ Bxd8 26. Kf2 Bc7 27. g3
+Kf8 28. Bc5+ Ke8 29. Ke3 e5 30. Nb4 a5 31. Nd3 Kd7 32. Nf2 f5 33. f4 e4 34. g4
+g6 35. g5 a4 36. Nh1 Kc6 37. Bd4 Kd5 38. Ng3 Bd3 39. h4 Kc4 40. h5 Kb3 41. Nxf5
+gxf5 42. h6 Bc4 43. g6 Bg8 44. g7 Bc4 0-1
+
+[Event "Barbera op"]
+[Site "Barberá del Valles"]
+[Date "2014.07.08"]
+[Round "5"]
+[White "Garcia Acosta, R."]
+[Black "Bernat, E."]
+[Result "1-0"]
+[ECO "B92"]
+[WhiteElo "2054"]
+[BlackElo "2101"]
+[PlyCount "75"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.18"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e5 7. Nb3 Be6 8. f4
+exf4 9. Bxf4 Be7 10. Qd2 Nc6 11. O-O-O Bxb3 12. cxb3 O-O 13. Kb1 Ne5 14. h3 Re8
+15. g4 Bf8 16. g5 Nfd7 17. h4 Nc5 18. h5 b5 19. b4 Ne6 20. Nd5 Nxf4 21. Qxf4
+Re6 22. Qf5 Rc8 23. Nf4 Re8 24. g6 Qd7 25. gxh7+ Kh8 26. h6 Qxf5 27. hxg7+ Bxg7
+28. exf5 Nc4 29. Bxc4 Rxc4 30. Nd5 Be5 31. Rdg1 Rd4 32. Ne7 Rd1+ 33. Rxd1 Rxe7
+34. Rdg1 Re8 35. Rg4 Bf6 36. Rhg1 Rd8 37. Rg8+ Kxh7 38. R8g4 1-0
+
+[Event "Barbera op"]
+[Site "Barberá del Valles"]
+[Date "2014.07.09"]
+[Round "6"]
+[White "Bernat, E."]
+[Black "Estepa Fonseca, OM."]
+[Result "1/2-1/2"]
+[ECO "B34"]
+[WhiteElo "2101"]
+[BlackElo "1978"]
+[PlyCount "59"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.18"]
+
+1. e4 c5 2. Nf3 g6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Bg7 6. Be3 Nf6 7. Be2 O-O 8.
+O-O d6 9. h3 Bd7 10. Qd2 Nxd4 11. Bxd4 Bc6 12. Rad1 e5 13. Be3 Nxe4 14. Nxe4
+Bxe4 15. f3 Bf5 16. c4 Qc8 17. Qxd6 Be6 18. b3 a5 19. a4 Re8 20. Qd2 Qc7 21.
+Qe1 Bf5 22. Bd3 Bxd3 23. Rxd3 Rad8 24. Qb1 Rxd3 25. Qxd3 Rd8 26. Qc2 Bf8 27.
+Rd1 Rxd1+ 28. Qxd1 Bc5 29. Bxc5 Qxc5+ 30. Kf1 1/2-1/2
+
+[Event "Barbera op"]
+[Site "Barberá del Valles"]
+[Date "2014.07.10"]
+[Round "7"]
+[White "Soto Balastegui, V."]
+[Black "Bernat, E."]
+[Result "0-1"]
+[ECO "E30"]
+[BlackElo "2101"]
+[PlyCount "44"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.18"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Bg5 O-O 5. e3 c5 6. Qc2 h6 7. Bh4 cxd4 8. exd4
+Nc6 9. O-O-O d5 10. Nf3 Be7 11. a3 a6 12. Ne5 Bd7 13. Bg3 dxc4 14. d5 exd5 15.
+Nxd5 Nxd5 16. Rxd5 Nxe5 17. Bxe5 Qc8 18. Bxc4 Bf5 19. Bd3 Qe6 20. Ra5 Bxd3 21.
+Qxd3 b5 22. Kb1 Qxe5 0-1
+
+[Event "Barbera op"]
+[Site "Barberá del Valles"]
+[Date "2014.07.11"]
+[Round "8"]
+[White "Bernat, E."]
+[Black "Castells Briones, M."]
+[Result "1-0"]
+[ECO "B33"]
+[WhiteElo "2101"]
+[BlackElo "1979"]
+[PlyCount "111"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.18"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Bg5 a6 8.
+Na3 b5 9. Nd5 Be7 10. Bxf6 Bxf6 11. Bd3 Bg5 12. O-O Ne7 13. Nxe7 Qxe7 14. c4
+bxc4 15. Nxc4 O-O 16. Nb6 Ra7 17. Nd5 Qb7 18. b3 Be6 19. Bc4 Rc8 20. Qd3 Rc6
+21. Rfd1 Qc8 22. Qg3 Bh6 23. Qh4 f6 24. Nxf6+ gxf6 25. Bxe6+ Qxe6 26. Qxh6 Rac7
+27. Rd3 Rg7 28. Rg3 Rxg3 29. hxg3 Rc2 30. Rc1 Qg4 31. f3 Rxc1+ 32. Qxc1 Qxg3
+33. Qc8+ Kg7 34. Qxa6 Qe1+ 35. Qf1 Qe3+ 36. Kh2 Kg6 37. Qd1 Qf2 38. a4 h5 39.
+a5 h4 40. a6 Kh5 41. f4+ Kh6 42. Qf3 Qb6 43. fxe5 dxe5 44. Kh3 Qxa6 45. Kxh4
+Qb6 46. Qh5+ Kg7 47. Qg4+ Kh6 48. Qf5 Qd6 49. g4 Kg7 50. Kh5 Qb6 51. Qg6+ Kf8
+52. g5 Qxb3 53. Qxf6+ Qf7+ 54. Qxf7+ Kxf7 55. Kh6 Kg8 56. Kg6 1-0
+
+[Event "Barbera op"]
+[Site "Barberá del Valles"]
+[Date "2014.07.12"]
+[Round "9.28"]
+[White "Castillo Escario, Y."]
+[Black "Bernat, E."]
+[Result "1/2-1/2"]
+[ECO "B42"]
+[WhiteElo "2029"]
+[BlackElo "2101"]
+[PlyCount "60"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Nc3 d6 6. Bd3 Nf6 7. O-O Be7 8. Be3
+O-O 9. f4 Qc7 10. Qf3 Nbd7 11. g4 Nc5 12. g5 Nfd7 13. Rf2 Nxd3 14. cxd3 b5 15.
+Rc2 Qb7 16. b4 Re8 17. a3 Bd8 18. Rac1 Nf8 19. h4 Bd7 20. h5 e5 21. Nde2 exf4
+22. Qxf4 Ne6 23. Qg3 Bb6 24. Nd5 Bxe3+ 25. Qxe3 Rac8 26. Rxc8 Bxc8 27. Nec3 Nf8
+28. Qf2 Ne6 29. Qe3 Nf8 30. Qf2 Ne6 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.13"]
+[Round "1"]
+[White "Bernat, E."]
+[Black "Muñoz Pantoja, M."]
+[Result "0-1"]
+[ECO "B01"]
+[WhiteElo "2101"]
+[BlackElo "2457"]
+[PlyCount "88"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. Nf3 Bg4 5. Be2 Nc6 6. d4 O-O-O 7. Be3 Nf6
+8. h3 Bxf3 9. Bxf3 e5 10. d5 Bb4 11. Bd2 Bxc3 12. Bxc3 Qb5 13. Be2 Qc5 14. Bf3
+Qc4 15. Qe2 Qxe2+ 16. Kxe2 Nxd5 17. Bxd5 Rxd5 18. Rhd1 Rhd8 19. Rxd5 Rxd5 20.
+f4 f6 21. fxe5 Nxe5 22. Rf1 Kd7 23. Rf4 c5 24. b3 Ke6 25. Bb2 g5 26. Rf1 f5 27.
+c4 Rd7 28. Bxe5 Kxe5 29. Re1 f4 30. Kf3+ Kf5 31. Re2 Rd3+ 32. Kf2 h5 33. Re7
+Rd2+ 34. Kf1 Rxa2 35. Rxb7 g4 36. hxg4+ hxg4 37. Rc7 Kg5 38. Rxc5+ Kh4 39. Re5
+Kg3 40. Re1 Rf2+ 41. Kg1 Rxg2+ 42. Kh1 Rh2+ 43. Kg1 f3 44. Re3 Re2 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.14"]
+[Round "2"]
+[White "Santolaria Peña, M."]
+[Black "Bernat, E."]
+[Result "1/2-1/2"]
+[ECO "A47"]
+[WhiteElo "1902"]
+[BlackElo "2101"]
+[PlyCount "58"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. d4 Nf6 2. Nf3 e6 3. e3 b6 4. Bd3 Bb7 5. Nbd2 Be7 6. e4 d6 7. O-O O-O 8. Re1
+Nc6 9. c3 a5 10. Qe2 e5 11. Nf1 Qc8 12. Ng3 g6 13. Bh6 Re8 14. h3 Ba6 15. Rad1
+Bxd3 16. Qxd3 Qa6 17. Qxa6 Rxa6 18. dxe5 dxe5 19. Bg5 Raa8 20. Bxf6 Bxf6 21.
+Rd7 Re7 22. Red1 Kf8 23. R7d5 Rae8 24. Nf1 Nb8 25. Ne3 c6 26. Rd6 Re6 27. Ng4
+Rxd6 28. Rxd6 Be7 29. Rd3 f6 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.15"]
+[Round "3"]
+[White "Bernat, E."]
+[Black "Quirhuayo, G."]
+[Result "1/2-1/2"]
+[ECO "B33"]
+[WhiteElo "2101"]
+[BlackElo "1858"]
+[PlyCount "59"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. e4 c5 2. Nf3 Nc6 3. Nc3 Nf6 4. d4 cxd4 5. Nxd4 e5 6. Ndb5 d6 7. Nd5 Nxd5 8.
+exd5 Ne7 9. c4 a6 10. Na3 g6 11. Bd3 Bg7 12. O-O f5 13. Rb1 O-O 14. Bd2 e4 15.
+Bc2 Rb8 16. Qe1 b5 17. b3 Qb6 18. Rd1 bxc4 19. Nxc4 Qc7 20. Bf4 Rd8 21. f3 exf3
+22. Rxf3 Qc5+ 23. Be3 Qc7 24. Bg5 Kf7 25. Re3 Rd7 26. Rh3 Qc5+ 27. Kh1 Nxd5 28.
+Rxh7 Bb7 29. Bh6 Kg8 30. Rxg7+ 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.16"]
+[Round "4"]
+[White "Oms Fuentes, L."]
+[Black "Bernat, E."]
+[Result "1-0"]
+[ECO "B15"]
+[WhiteElo "2293"]
+[BlackElo "2101"]
+[PlyCount "68"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. e4 c6 2. Nc3 d5 3. Nf3 dxe4 4. Nxe4 Nf6 5. Nxf6+ exf6 6. d4 Bd6 7. Be3 O-O
+8. Bd3 Nd7 9. Qd2 Re8 10. O-O-O Qc7 11. Rhg1 Nf8 12. g4 a5 13. c4 Bd7 14. c5
+Be7 15. g5 f5 16. h4 Be6 17. Kb1 Bd5 18. Ne5 Be4 19. Bxe4 fxe4 20. Qc2 Nd7 21.
+Bf4 Nxe5 22. Bxe5 Qc8 23. Qxe4 Qe6 24. f4 Rad8 25. h5 Qd5 26. Qc2 Rf8 27. h6 g6
+28. Rde1 Rd7 29. Re3 Rc8 30. Rge1 Bf8 31. Bf6 Rdc7 32. Qe4 Qd7 33. Qe5 Ra8 34.
+Bg7 Qc8 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.17"]
+[Round "5"]
+[White "Bernat, E."]
+[Black "Masferrer Niubo, E."]
+[Result "1/2-1/2"]
+[ECO "A43"]
+[WhiteElo "2101"]
+[BlackElo "1996"]
+[PlyCount "60"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. f4 Bg7 5. Nf3 c5 6. d5 O-O 7. Be2 a6 8. a4 b6
+9. O-O e6 10. dxe6 Bxe6 11. Ng5 Bc8 12. Bc4 Ra7 13. e5 Ne8 14. e6 fxe6 15.
+Bxe6+ Kh8 16. Bxc8 Qxc8 17. Nd5 Bd4+ 18. Kh1 Qc6 19. c4 Ng7 20. Nf3 Bf6 21.
+Nxf6 Rxf6 22. b3 Kg8 23. Re1 Re6 24. Ng5 Rxe1+ 25. Qxe1 Qe8 26. Qc3 Nc6 27. Bb2
+Nd4 28. Nf3 Ngf5 29. Nxd4 Nxd4 30. Qd3 Qe2 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.18"]
+[Round "6"]
+[White "Castillo Dalmau, A."]
+[Black "Bernat, E."]
+[Result "1/2-1/2"]
+[ECO "E17"]
+[WhiteElo "1695"]
+[BlackElo "2101"]
+[PlyCount "46"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. d4 Nf6 2. Nf3 e6 3. g3 b6 4. Bg2 Bb7 5. O-O c5 6. b3 cxd4 7. Bb2 Be7 8. Nxd4
+Bxg2 9. Kxg2 O-O 10. c4 d5 11. Nd2 Qd7 12. cxd5 Qxd5+ 13. N2f3 Nc6 14. Rc1 Nxd4
+15. Bxd4 Qb7 16. Qc2 Rac8 17. Qb2 Rfd8 18. Rfd1 Ne8 19. Rxc8 Rxc8 20. Kg1 Rd8
+21. Rd2 f6 22. Bc3 Rxd2 23. Qxd2 e5 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.19"]
+[Round "7"]
+[White "Bernat, E."]
+[Black "Julian Barrachina, L."]
+[Result "1/2-1/2"]
+[ECO "C50"]
+[WhiteElo "2101"]
+[BlackElo "2125"]
+[PlyCount "67"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Be7 4. O-O Nf6 5. Nc3 O-O 6. d4 d6 7. h3 h6 8. Be3
+Re8 9. Bb5 exd4 10. Nxd4 Bd7 11. Nxc6 bxc6 12. Bd3 Bf8 13. Re1 Kh8 14. Bf4 Rb8
+15. b3 d5 16. exd5 Rxe1+ 17. Qxe1 cxd5 18. Qe2 Rb4 19. Be5 Rb6 20. Qf3 Be6 21.
+Bxf6 Qxf6 22. Qxf6 gxf6 23. Rd1 c6 24. Ne2 c5 25. Nf4 Bd6 26. Ne2 Rb8 27. Nc3
+Be5 28. Ne2 c4 29. bxc4 dxc4 30. Be4 Rb2 31. f4 Bc7 32. f5 Bc8 33. Nc3 Kg7 34.
+Rb1 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.20"]
+[Round "8"]
+[White "Krotiuk, D."]
+[Black "Bernat, E."]
+[Result "1/2-1/2"]
+[ECO "B17"]
+[WhiteElo "1924"]
+[BlackElo "2101"]
+[PlyCount "34"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. e4 c6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Nd7 5. Nf3 Ngf6 6. Ng3 e6 7. Bd3 Be7 8.
+O-O O-O 9. c3 Qc7 10. Bg5 h6 11. Bxf6 Nxf6 12. Ne5 c5 13. Re1 g6 14. Bc2 Bd6
+15. Ng4 Nxg4 16. Qxg4 Bxg3 17. hxg3 Kg7 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.21"]
+[Round "9"]
+[White "Bernat, E."]
+[Black "Castrillo Mansego, P."]
+[Result "0-1"]
+[ECO "B73"]
+[WhiteElo "2101"]
+[BlackElo "2013"]
+[PlyCount "90"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be2 Bg7 7. O-O O-O 8.
+Be3 Nc6 9. h3 Bd7 10. Nb3 Rc8 11. f4 a6 12. a4 Na5 13. Nxa5 Qxa5 14. Qd2 Rxc3
+15. Qxc3 Qxc3 16. bxc3 Nxe4 17. Bd4 Nxc3 18. Bxg7 Nxe2+ 19. Kf2 Kxg7 20. Kxe2
+Rc8 21. Kd2 Rc4 22. a5 Bc6 23. Rf2 f5 24. Re2 Kf6 25. g3 e5 26. fxe5+ dxe5 27.
+Re3 g5 28. Rc3 Rxc3 29. Kxc3 f4 30. gxf4 exf4 31. Rg1 Kf5 32. Kd4 h5 33. c3 g4
+34. hxg4+ hxg4 35. Re1 g3 36. Kd3 f3 37. Ke3 f2 38. Rd1 Bb5 39. Kf3 f1=Q+ 40.
+Rxf1 Bxf1 41. Kxg3 Ke4 42. Kf2 Bb5 43. Ke1 Kd3 44. Kd1 Kxc3 45. Kc1 Kb4 0-1
+
+[Event "Sitges op"]
+[Site "Sitges"]
+[Date "2014.07.22"]
+[Round "1.7"]
+[White "Bernat, E."]
+[Black "Gomez Garrido, C."]
+[Result "0-1"]
+[ECO "B51"]
+[WhiteElo "2101"]
+[BlackElo "2495"]
+[PlyCount "43"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. O-O a6 5. Bxd7+ Bxd7 6. d3 Nf6 7. a4 e6 8.
+Nc3 Be7 9. h3 O-O 10. Bf4 b5 11. e5 dxe5 12. Nxe5 Qb6 13. Nxd7 Nxd7 14. axb5
+axb5 15. Qf3 Rac8 16. Rfe1 Bf6 17. Ra2 c4 18. Be3 Qd6 19. Nxb5 Qb4 20. Nc3 cxd3
+21. Ra4 Qxb2 22. Ne4 0-1
+
+[Event "Sants op Hostafrancs i La Bordeta op"]
+[Site "Barcelona"]
+[Date "2014.08.28"]
+[Round "7.57"]
+[White "Aubry, Y."]
+[Black "Bernat, E."]
+[Result "1-0"]
+[ECO "A16"]
+[WhiteElo "2251"]
+[BlackElo "2054"]
+[PlyCount "87"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[Source "Mark Crowther"]
+[SourceDate "2014.09.01"]
+
+1. c4 Nf6 2. Nc3 c6 3. e4 e5 4. Nf3 d6 5. d4 Nbd7 6. Be2 Be7 7. O-O O-O 8. h3
+Re8 9. d5 c5 10. a3 Rf8 11. b4 Ne8 12. Rb1 b6 13. Qc2 Kh8 14. Bd3 Rg8 15. Nd1
+g6 16. Ne3 Nef6 17. g4 Rf8 18. Nh2 Ng8 19. Bb2 Bf6 20. Kh1 h6 21. Bc3 Kh7 22.
+Rg1 Bg5 23. Ng2 Bf6 24. Nf3 Be7 25. Kh2 g5 26. Ne3 Re8 27. Qa4 Nf8 28. bxc5
+bxc5 29. Ba5 Qd7 30. Qc6 Qxc6 31. dxc6 Ne6 32. Nd5 Bd8 33. Bxd8 Rxd8 34. Rb5
+Ba6 35. Ra5 Bc8 36. Rb1 Rf8 37. Nb6 Rb8 38. Rxa7 Kg7 39. Rb5 Nf6 40. c7 Rb7 41.
+Nxc8 Rxb5 42. cxb5 Rxc8 43. b6 Nd7 44. Ba6 1-0

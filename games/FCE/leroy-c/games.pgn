@@ -1,0 +1,87 @@
+[Event "Barbera op"]
+[Site "?"]
+[Date "2008.07.07"]
+[Round "3"]
+[White "Sanchez Romero, MA."]
+[Black "Leroy, C."]
+[Result "0-1"]
+[ECO "C64"]
+[WhiteElo "2259"]
+[BlackElo "2157"]
+[PlyCount "98"]
+[EventDate "2008.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Bc5 4. O-O Qf6 5. c3 Nge7 6. Nxe5 Qxe5 7. d4 Nxd4 8.
+cxd4 Bxd4 9. Na3 O-O 10. Bd3 d6 11. Kh1 Qf6 12. f4 Bd7 13. Nc2 Bb6 14. Rb1 Rad8
+15. b4 Qh4 16. f5 Nc6 17. Rf4 Qf6 18. Rg4 Ne5 19. Rg3 h6 20. Ne3 Nxd3 21. Qxd3
+Qd4 22. Qc2 Rfe8 23. Bb2 Qxe4 24. Qxe4 Rxe4 25. Nd5 Bd4 26. Nf6+ Bxf6 27. Bxf6
+Rde8 28. Rxg7+ Kf8 29. h3 Bxf5 30. Rg3 Re1+ 31. Rxe1 Rxe1+ 32. Kh2 Bg6 33. Ra3
+a6 34. b5 axb5 35. Ra8+ Re8 36. Bg7+ Ke7 37. Rxe8+ Kxe8 38. Bxh6 b4 39. Bd2 c5
+40. g4 Bb1 41. h4 Bxa2 42. Kg3 Bb1 43. Kf4 f6 44. g5 fxg5+ 45. hxg5 Kf7 46. Ke3
+d5 47. Ke2 b3 48. Bc1 c4 49. Kd1 Bc2+ 0-1
+
+[Event "Barbera op"]
+[Site "?"]
+[Date "2008.07.10"]
+[Round "6"]
+[White "Leroy, C."]
+[Black "Fluvia Poyatos, Jordi"]
+[Result "0-1"]
+[ECO "B75"]
+[WhiteElo "2157"]
+[BlackElo "2500"]
+[PlyCount "94"]
+[EventDate "2008.??.??"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. Bc4 a6 8. f3
+Nbd7 9. Qd2 b5 10. Bb3 Bb7 11. O-O-O Rc8 12. Bh6 Bxh6 13. Qxh6 Rxc3 14. bxc3
+Qc7 15. Qg7 Rf8 16. e5 Nxe5 17. Rhe1 Qxc3 18. Kb1 Bd5 19. Bxd5 Nxd5 20. Rxe5
+dxe5 21. Qxe5 e6 22. Rd3 Qc4 23. Nb3 Ke7 24. Rd4 Qc6 25. Rh4 Rd8 26. Rxh7 Nc3+
+27. Kb2 Na4+ 28. Kc1 Qc3 29. Qxc3 Nxc3 30. Kb2 Nd1+ 31. Kc1 Ne3 32. g3 Rc8 33.
+Na1 Rc3 34. Rh8 Nc4 35. Kd1 Rxf3 36. Nb3 Rf2 37. Ra8 Ne3+ 38. Ke1 Rxh2 39. Rxa6
+Nxc2+ 40. Kd1 Ne3+ 41. Ke1 Kf6 42. Ra5 Nc4 43. Rxb5 Rxa2 44. g4 Rg2 45. Rb4 Ne5
+46. Nc5 Rxg4 47. Nd7+ Kg7 0-1
+
+[Event "Barbera op"]
+[Site "?"]
+[Date "2008.07.11"]
+[Round "7"]
+[White "Leroy, C."]
+[Black "Mestre Bellido, H."]
+[Result "1-0"]
+[ECO "C38"]
+[WhiteElo "2157"]
+[BlackElo "2284"]
+[PlyCount "75"]
+[EventDate "2008.??.??"]
+
+1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 Bg7 5. O-O d6 6. c3 Nc6 7. d4 h6 8. a4 Nf6
+9. a5 O-O 10. Nbd2 d5 11. exd5 Ne7 12. Ne5 Nfxd5 13. Ne4 Bf5 14. Nc5 b6 15.
+Ncd3 Ng6 16. Qf3 Nxe5 17. Nxe5 Ne7 18. axb6 cxb6 19. h4 Bxe5 20. dxe5 Qc7 21.
+b3 Bg6 22. Ba3 a6 23. Bd6 Qd7 24. Rxa6 Rxa6 25. Bxa6 Rd8 26. hxg5 hxg5 27. b4
+Nf5 28. Rd1 Nh4 29. Qe2 g4 30. Bc4 f3 31. Qe3 fxg2 32. Qh6 Nf3+ 33. Kxg2 Be4
+34. Kg3 Qf5 35. Rh1 Nh4 36. Kxh4 Bxh1 37. e6 Qf2+ 38. Bg3 1-0
+
+[Event "Barbera op"]
+[Site "?"]
+[Date "2008.07.13"]
+[Round "9"]
+[White "Capellades Subirana, M."]
+[Black "Leroy, C."]
+[Result "1-0"]
+[ECO "C55"]
+[WhiteElo "2265"]
+[BlackElo "2157"]
+[PlyCount "123"]
+[EventDate "2008.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Be7 5. c3 O-O 6. Nbd2 d5 7. exd5 Nxd5 8.
+Nf1 Nb6 9. Bb3 Bf5 10. Bc2 Qd7 11. Ng3 Bg6 12. O-O Rad8 13. Ne4 Kh8 14. Qe2 f5
+15. Ng3 Bf6 16. Bg5 Nd5 17. Bxf6 gxf6 18. Nh4 Nf4 19. Qf3 Qd5 20. Qxd5 Rxd5 21.
+Ngxf5 Rfd8 22. d4 exd4 23. Be4 dxc3 24. Bxd5 cxb2 25. Rab1 Rxd5 26. Nxg6+ hxg6
+27. Ne3 Rb5 28. Nc4 Rb4 29. Nxb2 Ne2+ 30. Kh1 Nc3 31. Rbc1 Rxb2 32. Rxc3 Rxa2
+33. Rb1 Kg7 34. Kg1 Ra6 35. h3 Rb6 36. Rd1 Kf7 37. Rd7+ Ke6 38. Rxc7 g5 39. Rh7
+a5 40. h4 gxh4 41. Rxh4 Rb1+ 42. Kh2 Rb2 43. Re3+ Kf5 44. Rf3+ Kg5 45. Rh8 Kg6
+46. Rf8 Ne5 47. R3xf6+ Kg7 48. Rf5 Rb5 49. Kg3 Rb3+ 50. f3 Ng6 51. R8f7+ Kg8
+52. Rc7 a4 53. Ra5 Nf8 54. Rxa4 Rb6 55. Ra8 Rg6+ 56. Kf2 b6 57. Rb8 Rd6 58.
+Rcb7 Rd2+ 59. Kg3 b5 60. Rxb5 Kg7 61. R5b7+ Kg8 62. Ra7 1-0

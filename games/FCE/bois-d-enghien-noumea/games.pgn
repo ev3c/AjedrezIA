@@ -1,0 +1,227 @@
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.13"]
+[Round "1"]
+[White "Munoz Lozano, Jorge Manuel"]
+[Black "Bois D`Enghien, Noumea"]
+[Result "1-0"]
+[ECO "B09"]
+[WhiteElo "1759"]
+[BlackElo "1270"]
+[PlyCount "59"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d6 2. e4 Nf6 3. Nc3 g6 4. f4 Bg7 5. Nf3 O-O 6. Be2 c5 7. Be3 b6 8. h3 Bb7
+9. d5 Nxe4 10. Nxe4 Bxb2 11. Rb1 Bg7 12. O-O e6 13. c4 exd5 14. cxd5 Re8 15.
+Qa4 Bxd5 16. Nxd6 Rxe3 17. Nxf7 Bxf7 18. Bc4 Bxc4 19. Qxc4+ Kh8 20. Rbd1 Qc7
+21. Ng5 Bf6 22. Ne6 Qc8 23. f5 Nc6 24. Qf4 Bd4 25. Nxd4 cxd4 26. fxg6 hxg6 27.
+Qh6+ Kg8 28. Qxg6+ Kh8 29. Rf7 Qg8 30. Qh6+ 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.14"]
+[Round "2"]
+[White "Bois D`Enghien, Noumea"]
+[Black "Jimenez Molina, Victor"]
+[Result "0-1"]
+[ECO "B50"]
+[WhiteElo "1270"]
+[BlackElo "1646"]
+[PlyCount "56"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. Nc3 Nf6 4. Bc4 e6 5. O-O a6 6. d4 b5 7. Bd3 c4 8. Be2 Qc7
+9. e5 dxe5 10. Nxe5 Bd6 11. Bf3 Ra7 12. Be3 b4 13. Na4 Nd5 14. Bxd5 exd5 15.
+Re1 O-O 16. Qh5 f6 17. Nf3 Be6 18. Bd2 Bf7 19. Qg4 Qc6 20. Bh6 Bg6 21. Qe6+ Kh8
+22. Bd2 Re7 23. Qh3 Rxe1+ 24. Nxe1 Qxa4 25. Qe6 Qc6 26. c3 Bxh2+ 27. Kxh2 Qxe6
+28. Nf3 bxc3 0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.15"]
+[Round "3"]
+[White "Olleta Tanya, Jordi"]
+[Black "Bois D`Enghien, Noumea"]
+[Result "0-1"]
+[ECO "A49"]
+[WhiteElo "1450"]
+[BlackElo "1270"]
+[PlyCount "50"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. Nf3 d6 2. g3 Nf6 3. Bg2 g6 4. d4 Bg7 5. O-O O-O 6. Nbd2 c5 7. c3 b5 8. Ne1
+d5 9. dxc5 a5 10. Nef3 Na6 11. Nd4 Nxc5 12. Nxb5 Rb8 13. Nd4 Bd7 14. Rb1 a4 15.
+f4 Ng4 16. N2f3 Qb6 17. e3 Ne4 18. Bd2 Bb5 19. Nxb5 Nxe3 20. Qe2 Nxf1+ 21. Nbd4
+Nfxd2 22. Nxd2 Bxd4+ 23. cxd4 Qxd4+ 24. Kh1 Nxd2 25. b3 Nxb1 0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.16"]
+[Round "4"]
+[White "Bois D`Enghien, Noumea"]
+[Black "Valbuena Castro, Gregorio"]
+[Result "1-0"]
+[ECO "C21"]
+[WhiteElo "1270"]
+[BlackElo "1682"]
+[PlyCount "77"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. d4 exd4 3. c3 d5 4. Nf3 dxe4 5. Nxd4 Nf6 6. Bc4 Bc5 7. O-O O-O 8.
+Nb3 Bb6 9. Bf4 Nc6 10. h3 Bf5 11. Re1 Qxd1 12. Rxd1 Rad8 13. N1d2 Nd5 14. Bxd5
+Rxd5 15. Nc4 Rfd8 16. Rxd5 Rxd5 17. Nxb6 cxb6 18. Nd2 Bg6 19. Re1 f5 20. g4 Ne5
+21. Re2 Nd3 22. Bb8 Nc1 23. Re1 Rxd2 24. Rxc1 a6 25. Bf4 Rxb2 26. Rd1 Rxa2 27.
+Rd8+ Kf7 28. Rd7+ Kf6 29. Rd6+ Ke7 30. Rxb6 fxg4 31. Rxb7+ Kf6 32. hxg4 Bf7 33.
+Rb6+ Be6 34. Be3 a5 35. Bd4+ Ke7 36. Bxg7 Bxg4 37. c4 Bf3 38. c5 Ra1+ 39. Bxa1
+1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.17"]
+[Round "5"]
+[White "Valero Recalde, Pablo"]
+[Black "Bois D`Enghien, Noumea"]
+[Result "1-0"]
+[ECO "E73"]
+[WhiteElo "1730"]
+[BlackElo "1270"]
+[PlyCount "67"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d6 2. c4 Nf6 3. Nc3 g6 4. e4 Bg7 5. Be2 O-O 6. Bg5 b6 7. Qd2 Bb7 8. f3 c5
+9. d5 Nbd7 10. h4 Qe8 11. Bd1 Ba6 12. Be2 Rb8 13. a4 Ne5 14. b3 Qd7 15. Nh3
+Rfe8 16. Nf2 Nh5 17. Rh3 f6 18. Be3 f5 19. exf5 Qxf5 20. g4 Qf7 21. gxh5 Bc8
+22. Rg3 Bf5 23. O-O-O e6 24. Nfe4 Rbd8 25. dxe6 Qxe6 26. Qd5 Qxd5 27. Nxd5 Bxe4
+28. fxe4 Nc6 29. hxg6 Rxe4 30. gxh7+ Kh8 31. Bd3 Rxh4 32. Rdg1 Rd7 33. Bg5 Rh5
+34. Bg6 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.18"]
+[Round "6"]
+[White "Bois D`Enghien, Noumea"]
+[Black "Sanchez Paz, Josep"]
+[Result "1-0"]
+[ECO "B33"]
+[WhiteElo "1270"]
+[BlackElo "1657"]
+[PlyCount "41"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nxc6 bxc6 6. Nc3 e5 7. Bc4 Bb4 8.
+Bd2 Qc7 9. f3 Rb8 10. a3 Bc5 11. b4 Bd4 12. Rb1 d5 13. Ba2 Bxc3 14. Bxc3 dxe4
+15. Bb2 O-O 16. O-O exf3 17. Qxf3 Bg4 18. Qg3 Qb6+ 19. Kh1 Ne4 20. Qxe5 Nf2+
+21. Rxf2 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.19"]
+[Round "7"]
+[White "Roche Peris, Eduard"]
+[Black "Bois D`Enghien, Noumea"]
+[Result "1-0"]
+[ECO "B08"]
+[WhiteElo "1758"]
+[BlackElo "1270"]
+[PlyCount "37"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Nf3 Bg7 5. Be2 O-O 6. O-O b6 7. Bg5 Bb7 8. e5
+dxe5 9. dxe5 Nfd7 10. Re1 Re8 11. e6 fxe6 12. Bc4 Nf6 13. Bxe6+ Kh8 14. Ne5 Rf8
+15. Nf7+ Rxf7 16. Qxd8+ Rf8 17. Qxc7 Ba6 18. Bxf6 Bxf6 19. Rad1 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.21"]
+[Round "9"]
+[White "Bois D`Enghien, Noumea"]
+[Black "Ramon Herraez, Alex"]
+[Result "0-1"]
+[ECO "B01"]
+[WhiteElo "1270"]
+[BlackElo "1694"]
+[PlyCount "122"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd6 4. Nf3 Nf6 5. Bc4 a6 6. Qe2 b5 7. Bb3 Bb7 8.
+d3 e6 9. Bg5 Be7 10. O-O-O O-O 11. Ne4 Nxe4 12. dxe4 Bxg5+ 13. Nxg5 Qf4+ 14.
+Qd2 Qxd2+ 15. Rxd2 h6 16. Nxe6 fxe6 17. Bxe6+ Kh8 18. f3 c5 19. Bf5 Nc6 20.
+Rhd1 Rfd8 21. Rxd8+ Rxd8 22. Rxd8+ Nxd8 23. Kd2 Kg8 24. g4 Kf8 25. Bg6 Ne6 26.
+Ke3 Ke7 27. h4 Kf6 28. Be8 Ke5 29. c3 Nf4 30. h5 Bc8 31. Bc6 g6 32. hxg6 Nxg6
+33. Be8 Nf4 34. Bc6 h5 35. gxh5 Nxh5 36. Be8 Nf6 37. f4+ Ke6 38. Bg6 Bb7 39.
+Bf5+ Ke7 40. Bg6 Bc6 41. Bf5 a5 42. a3 a4 43. Bg6 Bd7 44. e5 Nd5+ 45. Ke4 Bc6
+46. Kf5 Ne3+ 47. Kg5 Nd1 48. f5 Bd5 49. Kh6 Kf8 50. f6 Be6 51. Kg5 Ne3 52. Kf4
+Nc4 53. Bf5 Kf7 54. Ke4 Nb6 55. Kf4 Nd5+ 56. Kg5 Nc7 57. Be4 Bc4 58. Bc6 Ke6
+59. Kg6 Kxe5 60. f7 Ne6 61. Bd7 Nf8+ 0-1

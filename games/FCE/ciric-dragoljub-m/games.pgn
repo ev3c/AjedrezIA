@@ -1,0 +1,76 @@
+[Event "Costa Brava"]
+[Site "San Feliu de Guixols"]
+[Date "1975.09.09"]
+[Round "6"]
+[White "Lombard, Andre"]
+[Black "Ciric, Dragoljub M"]
+[Result "0-1"]
+[ECO "E44"]
+[PlyCount "86"]
+[EventDate "1975.09.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 b6 5. Nge2 Ne4 6. Qc2 Bb7 7. a3 Bxc3+ 8.
+Nxc3 f5 9. d5 Nxc3 10. Qxc3 Qe7 11. b4 a5 12. Be2 O-O 13. O-O exd5 14. cxd5
+axb4 15. axb4 Rxa1 16. Qxa1 Bxd5 17. b5 d6 18. Qc3 f4 19. Rd1 f3 20. Rxd5 fxe2
+21. f3 Nd7 22. Qe1 Ra8 23. Qxe2 Ra1 24. Rd1 Qf7 25. Bd2 Ra2 26. Qd3 Nc5 27. Qc3
+Qb3 28. Qxb3+ Nxb3 29. Bc3 Rc2 30. Bd4 Rc4 31. Rd3 Nxd4 32. exd4 Kf7 33. d5 Rc5
+34. Kf2 Rxb5 35. Ke3 Rb2 36. Rc3 Rxg2 37. Rxc7+ Kf6 38. Rc6 Ke5 39. f4+ Kxd5
+40. Rxb6 Rxh2 41. Rb7 g6 42. Rc7 Rh3+ 43. Kf2 Ke4 0-1
+
+[Event "Costa Brava"]
+[Site "San Feliu de Guixols"]
+[Date "1975.09.12"]
+[Round "8"]
+[White "Vaganian, Rafael"]
+[Black "Ciric, Dragoljub M"]
+[Result "1/2-1/2"]
+[ECO "D48"]
+[Annotator "Ciric, Dragoljub"]
+[PlyCount "53"]
+[EventDate "1975.09.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. c4 e6 2. Nc3 d5 3. d4 c6 4. e3 Nf6 5. Nf3 Nbd7 6. Bd3 dxc4 7. Bxc4 b5 8. Bd3
+a6 9. e4 c5 10. d5 c4 11. dxe6 cxd3 12. exd7+ Qxd7 13. Bg5 (13. e5 $5) (13. O-O
+Bb7 14. Bg5 Be7 15. Re1 Rd8 $11) 13... Be7 14. Bxf6 Bxf6 15. Nd5 Bb7 $1 16.
+Nxf6+ gxf6 17. O-O O-O 18. Re1 Rfe8 19. Nd2 f5 $1 $11 20. Qh5 Bxe4 $2 (20...
+fxe4 21. Qg5+ Kf8 22. Qh6+ Kg8 $11) 21. Qg5+ Kf8 22. Qf6 $1 $16 Qe6 23. Qh8+
+Ke7 24. Qc3 Rac8 25. Qb4+ $2 (25. Qa5 $1 $16) 25... Qd6 26. Qb3 Kf8 27. Rad1
+1/2-1/2
+
+[Event "Costa Brava"]
+[Site "San Feliu de Guixols"]
+[Date "1975.09.14"]
+[Round "10"]
+[White "Ciric, Dragoljub M"]
+[Black "Pares Vives, Jose"]
+[Result "1-0"]
+[ECO "B53"]
+[Annotator "Ciric, Drajolbub"]
+[PlyCount "111"]
+[EventDate "1975.09.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Qxd4 Nc6 5. Bb5 Bd7 6. Bxc6 Bxc6 7. Nc3 Nf6 8.
+Bg5 e6 9. O-O-O h6 (9... Be7) 10. Bh4 Be7 11. Rhe1 O-O 12. Kb1 Qa5 13. Qd2 Rfd8
+14. h3 $6 (14. Nd4 Be8 15. Nd5 $5 (15. f4 Nxe4)) 14... Qc7 (14... b5 15. Nd5 $1
+Qxd2 16. Nxe7+ Kf8 17. Nxc6 $1 Qf4 18. Bg3 $18) 15. Nd4 a6 16. Qd3 b5 17. a3
+Rab8 18. Na2 a5 19. f4 b4 20. axb4 axb4 21. Qc4 Rdc8 22. Nxc6 (22. Nxb4 d5 23.
+Qxc6 Qa5 $1) 22... Qxc6 23. Qxc6 Rxc6 24. Nc1 Kf8 25. Nb3 Nd7 26. Bxe7+ Kxe7
+27. Rd4 Nc5 28. Re3 Na6 29. e5 $1 $16 d5 (29... dxe5 30. fxe5 $16) 30. f5 Rbc8
+31. fxe6 fxe6 32. Rg4 g5 33. h4 Rc4 (33... Rxc2 $5) 34. Reg3 Rxg4 35. Rxg4 Rc4
+36. Rxc4 dxc4 37. Na5 c3 38. h5 $1 Kd7 39. Nc4 Nb8 40. bxc3 bxc3 41. Ne3 Kc6
+42. Ng4 Nd7 43. Ka2 Kc5 44. Kb3 Kd4 45. Kb4 Nc5 (45... Nxe5 46. Nxe5 Kxe5 47.
+Kxc3 $18) (45... Ke4 46. Nf6+ $18) 46. Nxh6 Nd3+ 47. Kb3 Nf4 48. g4 Kxe5 49.
+Ng8 $1 $18 Kd4 50. Ne7 Ke5 51. Ng6+ Ke4 52. Nxf4 gxf4 53. Kxc3 f3 54. Kd2 Kf4
+55. Ke1 Kg3 56. Kf1 1-0

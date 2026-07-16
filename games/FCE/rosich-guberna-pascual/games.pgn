@@ -1,0 +1,171 @@
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.01.14"]
+[Round "1"]
+[White "Rosich Guberna, Pascual"]
+[Black "Gendre Diez, Virginia"]
+[Result "1-0"]
+[ECO "A01"]
+[WhiteElo "1699"]
+[BlackElo "1344"]
+[PlyCount "61"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. b3 Nf6 2. Bb2 d6 3. e3 Nbd7 4. c4 e5 5. Nc3 c6 6. Nf3 Be7 7. Be2 h6 8. Qc2
+Qc7 9. O-O a6 10. d4 e4 11. Nxe4 Nxe4 12. Qxe4 Nf6 13. Qc2 c5 14. d5 Bd7 15. e4
+O-O-O 16. a3 Rhg8 17. h3 Nh5 18. Nh2 Nf4 19. Bg4 Bf6 20. Rab1 Be5 21. Rfd1 h5
+22. Bxe5 hxg4 23. Bxf4 gxh3 24. g4 Rde8 25. f3 g5 26. Bg3 Qd8 27. Bxd6 Qf6 28.
+Bg3 Qg6 29. b4 b6 30. bxc5 bxc5 31. Rb8# 1-0
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.01.21"]
+[Round "2"]
+[White "Rosich Guberna, Pascual"]
+[Black "Hernando Rodrigo, Inmaculada"]
+[Result "1/2-1/2"]
+[ECO "A13"]
+[WhiteElo "1699"]
+[BlackElo "1894"]
+[PlyCount "67"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 Nf6 2. Nc3 e6 3. g3 d5 4. cxd5 exd5 5. Nf3 Be7 6. Bg2 O-O 7. d3 c6 8. O-O
+h6 9. Qc2 d4 10. Nd1 Na6 11. a3 Bf5 12. b4 Nc7 13. Bb2 Ne6 14. Rc1 Rc8 15. Qa4
+Qb6 16. Ba1 Rfd8 17. Nb2 Qc7 18. b5 c5 19. Nc4 Nd7 20. Ncd2 Nb6 21. Qd1 Qd7 22.
+a4 Ng5 23. Ne5 Qe6 24. f4 Nd5 25. Ndc4 Nh7 26. Qe1 f6 27. Nf3 Bh3 28. Qf2 Bxg2
+29. Kxg2 Ne3+ 30. Nxe3 dxe3 31. Qe1 Qa2 32. Qd1 c4 33. d4 Bb4 34. Qc2 1/2-1/2
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.01.28"]
+[Round "3"]
+[White "Prat Rabell, Josep M"]
+[Black "Rosich Guberna, Pascual"]
+[Result "1-0"]
+[ECO "E72"]
+[WhiteElo "1926"]
+[BlackElo "1699"]
+[PlyCount "63"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 Nf6 2. Nc3 g6 3. g3 Bg7 4. Bg2 O-O 5. d4 d6 6. e4 c6 7. Nge2 Nbd7 8. O-O
+e5 9. f4 exd4 10. Nxd4 Nb6 11. b3 a5 12. Bb2 Qc7 13. Re1 h6 14. Qc2 Nh7 15. Nf3
+d5 16. exd5 cxd5 17. Qf2 Bxc3 18. Bxc3 dxc4 19. Be5 Qc6 20. Nd2 Qb5 21. Bd4 Nd7
+22. Nxc4 Qa6 23. Bc3 a4 24. Bb4 Rd8 25. Rad1 axb3 26. axb3 Qb5 27. Be7 Qxb3 28.
+Bxd8 Qxc4 29. Re8+ Ndf8 30. Bb6 Nf6 31. Red8 Ra2 32. Qc5 1-0
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.02.11"]
+[Round "5"]
+[White "Rosich Guberna, Pascual"]
+[Black "Sole Balaguer, Josep M"]
+[Result "1-0"]
+[ECO "A17"]
+[WhiteElo "1699"]
+[BlackElo "1711"]
+[PlyCount "70"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 Nf6 2. Nc3 e6 3. g3 Nc6 4. Bg2 d5 5. cxd5 exd5 6. d3 Be7 7. Nf3 O-O 8.
+O-O Re8 9. a3 h6 10. b4 a6 11. Bf4 Bd6 12. Bd2 Bg4 13. h3 Be6 14. Qc1 d4 15.
+Na4 Kh7 16. Nc5 Bxc5 17. Qxc5 Bd5 18. Rfe1 Qd6 19. Rac1 Rac8 20. Qc2 Kg8 21.
+Kh2 Re7 22. e3 dxe3 23. fxe3 Rd8 24. e4 Be6 25. Re3 Nd4 26. Nxd4 Qxd4 27. Rce1
+Qd6 28. Bc3 Ne8 29. d4 c6 30. d5 cxd5 31. exd5 Bf5 32. Rxe7 Qxe7 33. Qxf5 Qc7
+34. Qe5 Qc4 35. Qd4 Qb3 1-0
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.02.18"]
+[Round "6"]
+[White "Algarte Cortes, Serafin Ramon"]
+[Black "Rosich Guberna, Pascual"]
+[Result "1/2-1/2"]
+[ECO "B07"]
+[WhiteElo "1704"]
+[BlackElo "1699"]
+[PlyCount "76"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 d6 2. Nc3 Nf6 3. Bc4 g6 4. Nf3 Bg7 5. d3 O-O 6. h3 c6 7. a3 Nbd7 8. O-O
+b5 9. Ba2 Bb7 10. Rb1 a5 11. Ne2 Qc7 12. Bf4 e5 13. Be3 d5 14. Ng3 d4 15. Bd2
+c5 16. Qc1 c4 17. Re1 Nb6 18. Bh6 Bc8 19. Bxg7 Kxg7 20. Qg5 Re8 21. Nh4 Ng8 22.
+Ngf5+ Bxf5 23. Nxf5+ Kh8 24. Ng3 f6 25. Qd2 Ne7 26. Ne2 Kg7 27. Rf1 Nc6 28. c3
+Rad8 29. f4 Qd6 30. fxe5 fxe5 31. Rf3 Rf8 32. Rbf1 Rxf3 33. Rxf3 Rf8 34. Rxf8
+Qxf8 35. Bb1 b4 36. axb4 axb4 37. Bc2 Qc5 38. Kh1 cxd3 1/2-1/2
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.02.25"]
+[Round "7"]
+[White "Rosich Guberna, Pascual"]
+[Black "Pujol Pina, Ramon Manel"]
+[Result "1-0"]
+[ECO "A25"]
+[WhiteElo "1699"]
+[BlackElo "1693"]
+[PlyCount "81"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 e5 2. Nc3 Nf6 3. g3 Nc6 4. Bg2 Bb4 5. a3 Bxc3 6. bxc3 e4 7. d3 exd3 8.
+exd3 d5 9. cxd5 Nxd5 10. Qb3 Nde7 11. d4 Be6 12. Qa4 Bd5 13. Nf3 O-O 14. O-O
+Re8 15. Bb2 Be4 16. Rfe1 Ng6 17. Re3 Bxf3 18. Bxf3 Rxe3 19. fxe3 Qf6 20. Rf1
+Qe6 21. e4 Qa2 22. Rf2 Qb1+ 23. Kg2 Rb8 24. Qc4 Rf8 25. Qe2 Nce7 26. c4 Qa2 27.
+Qd3 Rd8 28. d5 Nc6 29. Bd1 Nce5 30. Bxe5 Nxe5 31. Qc3 Qxc4 32. Qxe5 Qc5 33. Qf4
+Qe7 34. a4 c5 35. Bb3 Rf8 36. e5 a6 37. d6 Qe8 38. Bd5 Kh8 39. e6 g5 40. Qf6+
+Kg8 41. exf7+ 1-0

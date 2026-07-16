@@ -1,0 +1,310 @@
+[Event "Lliga Catalana eq. DH Final B"]
+[Site "?"]
+[Date "2016.03.12"]
+[Round "1.1"]
+[White "Jose Abril, Ramon"]
+[Black "Chalmeta Torredemer, Josep"]
+[Result "1-0"]
+[ECO "C09"]
+[WhiteElo "2326"]
+[BlackElo "2144"]
+[PlyCount "89"]
+[EventDate "2016.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2016.04.22"]
+
+1. e4 e6 2. d4 d5 3. Nd2 c5 4. Ngf3 Nc6 5. exd5 exd5 6. Bb5 Bd6 7. dxc5 Bxc5 8.
+O-O Nge7 9. Nb3 Bd6 10. Re1 O-O 11. Bd3 h6 12. h3 Bf5 13. Nbd4 Bxd3 14. Qxd3 a6
+15. c3 Qb6 16. Nb3 Rad8 17. Be3 Qc7 18. Nbd4 Bf4 19. Bxf4 Qxf4 20. Re2 Nxd4 21.
+Nxd4 Nc6 22. Nxc6 bxc6 23. Qxa6 Rd6 24. Qd3 Re6 25. Rae1 Rfe8 26. Re3 Rxe3 27.
+Rxe3 Rxe3 28. Qxe3 Qa4 29. b4 g6 30. g3 Kg7 31. Qd4+ Kg8 32. Qd2 Kg7 33. c4
+dxc4 34. Qd4+ Kg8 35. Qxc4 Qb5 36. Qxb5 cxb5 37. Kg2 Kg7 38. Kf3 Kf6 39. Ke4
+Ke6 40. Kd4 Kd6 41. h4 g5 42. hxg5 hxg5 43. g4 f6 44. a3 Kc6 45. Kc3 1-0
+
+[Event "Lliga Catalana eq. DH Final B"]
+[Site "?"]
+[Date "2016.04.02"]
+[Round "2.4"]
+[White "Armengol Morte, David"]
+[Black "Chalmeta Torredemer, Josep"]
+[Result "1/2-1/2"]
+[ECO "C01"]
+[WhiteElo "2051"]
+[BlackElo "2144"]
+[PlyCount "65"]
+[EventDate "2016.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2016.04.22"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. Bd3 Nc6 5. Ne2 Bd6 6. c3 Nge7 7. Bf4 Bf5 8.
+O-O Bxd3 9. Qxd3 Bxf4 10. Nxf4 Qd6 11. Qf3 O-O-O 12. Nd2 Kb8 13. Nb3 Qf6 14.
+Nd2 h5 15. Rfe1 g5 16. Nd3 Qxf3 17. Nxf3 f6 18. Re6 Rhf8 19. Rae1 Nf5 20. Nc5
+Kc8 21. R6e2 Ng7 22. Nd2 Rde8 23. Ndb3 b6 24. Ne6 Nxe6 25. Rxe6 Rxe6 26. Rxe6
+Kd7 27. Re2 Re8 28. Rxe8 Kxe8 29. Kf1 Ke7 30. Ke2 Ke6 31. Nd2 Ne7 32. Nf1 Nf5
+33. Ne3 1/2-1/2
+
+[Event "Lliga Catalana eq. DH Final B"]
+[Site "?"]
+[Date "2016.04.09"]
+[Round "3.3"]
+[White "LLobet Reus, Pere"]
+[Black "Chalmeta Torredemer, Josep"]
+[Result "1/2-1/2"]
+[ECO "C00"]
+[WhiteElo "2208"]
+[BlackElo "2144"]
+[PlyCount "73"]
+[EventDate "2016.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2016.04.29"]
+
+1. e4 e6 2. d3 d5 3. Qe2 Be7 4. g3 Nf6 5. Bg2 O-O 6. Nf3 c5 7. O-O Nc6 8. e5
+Nd7 9. c4 dxc4 10. dxc4 Qc7 11. Bf4 b6 12. Nc3 a6 13. Ne4 Bb7 14. Nf6+ Bxf6 15.
+exf6 e5 16. fxg7 Rfe8 17. Bh6 Nd4 18. Nxd4 exd4 19. Qh5 Bxg2 20. Kxg2 Qc6+ 21.
+Qd5 Qxh6 22. Qxd7 Rad8 23. Qc7 Qd6 24. Qxd6 Rxd6 25. Rfe1 Rxe1 26. Rxe1 Kxg7
+27. Rb1 a5 28. Kf3 Rh6 29. a3 a4 30. b4 axb3 31. Rxb3 Rd6 32. Ke2 Kf6 33. a4
+Re6+ 34. Kd2 Ke5 35. Ra3 Rf6 36. Ke2 Rd6 37. Kd3 1/2-1/2
+
+[Event "Lliga Catalana eq. DH gr. 2 "]
+[Site "?"]
+[Date "2016.01.23"]
+[Round "1.3"]
+[White "Chalmeta Torredemer, Josep"]
+[Black "Montilla Carrillo, Esteban"]
+[Result "1/2-1/2"]
+[ECO "E10"]
+[WhiteElo "2144"]
+[BlackElo "2204"]
+[PlyCount "135"]
+[EventDate "2016.??.??"]
+[EventType "team"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2016.02.19"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 c5 4. d5 b5 5. Bg5 bxc4 6. Nc3 d6 7. e4 e5 8. Bxc4
+Be7 9. h3 O-O 10. Qd2 Nbd7 11. O-O Rb8 12. Rac1 Nh5 13. Bxe7 Qxe7 14. Ne2 g6
+15. g4 Qf6 16. Kg2 Nf4+ 17. Nxf4 exf4 18. g5 Qxb2 19. Rc2 Qa3 20. Qxf4 Ne5 21.
+Be2 Rb4 22. Rfc1 Bf5 23. Bc4 Bxh3+ 24. Kg3 Qxf3+ 25. Qxf3 Nxf3 26. Kxf3 Bd7 27.
+Kg3 Re8 28. Re1 Kg7 29. f3 a5 30. Rh1 Re5 31. Kf4 Re7 32. Rch2 h5 33. gxh6+ Kh7
+34. Rc2 Re5 35. Rhh2 f5 36. a3 Rb1 37. Rb2 Rxb2 38. Rxb2 Kxh6 39. Rb6 fxe4 40.
+fxe4 g5+ 41. Kf3 Kh5 42. Rxd6 Ba4 43. Re6 Rxe6 44. dxe6 Kg6 45. Be2 Kf6 46. Kg4
+Kxe6 47. Kxg5 Ke5 48. Bd3 Bc6 49. Kg4 Bxe4 50. Bb5 Kd4 51. Kf4 Bd3 52. Ba4 c4
+53. Kf3 c3 54. Kf2 Bb5 55. Bc2 Bd3 56. Ba4 Bg6 57. Ke2 Bh5+ 58. Ke1 Kc4 59. Bc2
+Bg4 60. Kf2 Kd4 61. Ke1 Bf3 62. Bb1 Be4 63. Ba2 Bc2 64. Ke2 a4 65. Bf7 Bb3 66.
+Bg6 Bc4+ 67. Kd1 Bb3+ 68. Kc1 1/2-1/2
+
+[Event "Lliga Catalana eq. DH gr. 2 "]
+[Site "?"]
+[Date "2016.01.30"]
+[Round "2.4"]
+[White "Castelltort Fernandez, Antonio"]
+[Black "Chalmeta Torredemer, Josep"]
+[Result "1-0"]
+[ECO "A10"]
+[WhiteElo "2276"]
+[BlackElo "2144"]
+[PlyCount "27"]
+[EventDate "2016.??.??"]
+[EventType "team"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2016.02.19"]
+
+1. Nf3 e6 2. c4 f5 3. g3 Nf6 4. Bg2 c6 5. O-O d5 6. d3 Bd6 7. Nc3 O-O 8. e4
+Nbd7 9. exd5 exd5 10. cxd5 Nxd5 11. Nxd5 cxd5 12. Qb3 Nb6 13. a4 a5 14. Bg5 1-0
+
+[Event "Lliga Catalana eq. DH gr. 2 "]
+[Site "?"]
+[Date "2016.02.06"]
+[Round "3.4"]
+[White "Bruned Segura, Mario"]
+[Black "Chalmeta Torredemer, Josep"]
+[Result "1-0"]
+[ECO "C06"]
+[WhiteElo "2124"]
+[BlackElo "2144"]
+[PlyCount "99"]
+[EventDate "2016.??.??"]
+[EventType "team"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2016.02.19"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 cxd4 8. cxd4
+f6 9. exf6 Nxf6 10. Nf3 Bd6 11. Bf4 Qa5+ 12. Bd2 Qc7 13. Rc1 a6 14. O-O O-O 15.
+Ng3 Bf4 16. Re1 Bxd2 17. Qxd2 Qb6 18. a3 Bd7 19. b4 Rae8 20. h3 Kh8 21. Rc5 Bc8
+22. Qg5 Qd8 23. Nh5 Qe7 24. Bxa6 Ne4 25. Qxe7 Rxe7 26. Rc2 Ree8 27. Bd3 g6 28.
+Ng3 Nxg3 29. fxg3 Rxf3 30. gxf3 Nxd4 31. Rf2 e5 32. g4 Bd7 33. Kg2 Bc6 34. Bf1
+e4 35. fxe4 dxe4 36. Re3 g5 37. Rd2 Ne6 38. b5 Nf4+ 39. Kg1 Bd5 40. Bg2 Re5 41.
+a4 b6 42. Kf2 Kg7 43. Rd4 Nxg2 44. Kxg2 Kf6 45. Kf2 Ke6 46. Rc3 h6 47. Ke3 Kf7
+48. Rc7+ Ke6 49. Rc8 Kd7 50. Rc6 1-0
+
+[Event "Lliga Catalana eq. DH gr. 2 "]
+[Site "?"]
+[Date "2016.02.13"]
+[Round "4.2"]
+[White "Chalmeta Torredemer, Josep"]
+[Black "Ezquerro Luque, Albert"]
+[Result "0-1"]
+[ECO "A42"]
+[WhiteElo "2144"]
+[BlackElo "2096"]
+[PlyCount "81"]
+[EventDate "2016.??.??"]
+[EventType "team"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2016.03.03"]
+
+1. d4 d6 2. c4 g6 3. Nc3 Bg7 4. e4 Nd7 5. f4 e5 6. fxe5 dxe5 7. d5 Ne7 8. Bd3
+O-O 9. Be3 f5 10. Qd2 f4 11. Bf2 g5 12. h3 Ng6 13. O-O-O b6 14. c5 Re8 15. c6
+Nf6 16. Bc4 Bf8 17. Qd3 Bd6 18. Nb5 Rf8 19. Nxd6 Qxd6 20. Nf3 h6 21. Nd2 Kg7
+22. Bb3 Ne8 23. a3 Qf6 24. Be1 Nd6 25. Nc4 Ba6 26. Bb4 Rad8 27. Qc2 Bxc4 28.
+Bxc4 Nh4 29. Bd3 a5 30. Bxd6 Qxd6 31. Qf2 Rb8 32. Rd2 b5 33. Rf1 a4 34. b4 axb3
+35. Kb2 Ra8 36. Ra1 Ra4 37. Bxb5 Rxe4 38. a4 Re3 39. Rad1 e4 40. Rd4 Nf5 41.
+Rxe4 0-1
+
+[Event "Lliga Catalana eq. DH gr. 2 "]
+[Site "?"]
+[Date "2016.02.20"]
+[Round "5.3"]
+[White "Diaz Camallonga, Carles"]
+[Black "Chalmeta Torredemer, Josep"]
+[Result "1-0"]
+[ECO "C17"]
+[WhiteElo "2360"]
+[BlackElo "2144"]
+[PlyCount "81"]
+[EventDate "2016.??.??"]
+[EventType "team"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2016.03.03"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. Bd2 a6 6. a3 cxd4 7. axb4 dxc3 8. Bxc3
+b6 9. Qg4 g6 10. b5 a5 11. Nf3 Bb7 12. h4 h5 13. Qf4 Nd7 14. Bd4 Nh6 15. c3 Nc5
+16. Ng5 Nb3 17. Ra3 Nxd4 18. cxd4 Rc8 19. Bd3 Nf5 20. O-O Qe7 21. Ra4 Rc7 22.
+g3 Bc8 23. Nf3 Kf8 24. Rc1 Kg7 25. Rxc7 Qxc7 26. Ra3 Bb7 27. Rc3 Qd7 28. Qg5
+Rc8 29. Rxc8 Bxc8 30. Bxf5 exf5 31. Qf6+ Kg8 32. Ng5 Qe8 33. Qxb6 Be6 34. Nxe6
+fxe6 35. Qc6 Qe7 36. Qc5 Qd7 37. b6 f4 38. Qc7 Qa4 39. b7 Qd1+ 40. Kg2 f3+ 41.
+Kh2 1-0
+
+[Event "Lliga Catalana eq. DH gr. 2 "]
+[Site "?"]
+[Date "2016.02.27"]
+[Round "6.3"]
+[White "Perez Manas, Benjamin"]
+[Black "Chalmeta Torredemer, Josep"]
+[Result "1-0"]
+[ECO "C05"]
+[WhiteElo "2300"]
+[BlackElo "2144"]
+[PlyCount "43"]
+[EventDate "2016.??.??"]
+[EventType "team"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2016.03.11"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. Bd3 dxe4 5. Nxe4 Nxe4 6. Bxe4 Nd7 7. c3 c5 8.
+Nf3 Qc7 9. O-O Nf6 10. Bc2 b6 11. Qe2 Be7 12. dxc5 bxc5 13. Bg5 Bb7 14. Ba4+
+Bc6 15. Bxc6+ Qxc6 16. Ne5 Qb7 17. Rad1 h6 18. Bxf6 gxf6 19. Rd7 Qb6 20. Qe4
+Rc8 21. Qa4 Kf8 22. Rxe7 1-0
+
+[Event "Lliga Catalana eq. DH gr. 2 "]
+[Site "?"]
+[Date "2016.03.05"]
+[Round "7.2"]
+[White "Leiro Giralt, Daniel"]
+[Black "Chalmeta Torredemer, Josep"]
+[Result "1/2-1/2"]
+[ECO "C01"]
+[WhiteElo "2234"]
+[BlackElo "2144"]
+[PlyCount "32"]
+[EventDate "2016.??.??"]
+[EventType "team"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2016.03.18"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. exd5 exd5 5. Bd3 Nc6 6. a3 Bxc3+ 7. bxc3 Nge7
+8. Qh5 Be6 9. Rb1 b6 10. Nf3 Qd7 11. Ng5 g6 12. Qh6 O-O-O 13. Nxe6 Qxe6+ 14.
+Be3 Nf5 15. Qf4 Nxe3 16. fxe3 Rhe8 1/2-1/2
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1980.12.14"]
+[Round "9"]
+[White "Ribera Arnal, Angel"]
+[Black "Chalmeta Torredemer, Josep Maria"]
+[Result "1/2-1/2"]
+[ECO "D45"]
+[PlyCount "52"]
+[EventDate "1980.??.??"]
+[EventType "team"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. d4 e6 2. c4 d5 3. Nc3 Nf6 4. Nf3 c6 5. e3 Nbd7 6. Qc2 dxc4 7. Bxc4 b5 8. Bd3
+a6 9. O-O c5 10. Rd1 Qb6 11. b3 Be7 12. Bb2 O-O 13. Ne4 Bb7 14. dxc5 Nxc5 15.
+Nxf6+ Bxf6 16. Bxh7+ Kh8 17. Bxf6 gxf6 18. b4 Na4 19. Be4 Rac8 20. Qd3 Rfd8 21.
+Nd4 e5 22. Bxb7 Qxb7 23. Qf5 exd4 24. Qxf6+ Kg8 25. Qg5+ Kf8 26. Qh6+ Kg8
+1/2-1/2
+
+[Event "Camp. España eq. 2 Div."]
+[Site "Calella de Mar"]
+[Date "1981.??.??"]
+[Round "7"]
+[White "Basart Muñoz, Josep Maria"]
+[Black "Chalmeta Torredemer, Josep Maria"]
+[Result "0-1"]
+[ECO "C78"]
+[PlyCount "84"]
+[EventDate "1981.09.??"]
+[EventType "team"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O b5 6. Bb3 Bb7 7. Re1 Bc5 8. c3
+d6 9. d4 Bb6 10. Bg5 h6 11. Bh4 O-O 12. a4 Qe7 13. Na3 Rfe8 14. axb5 axb5 15.
+Nxb5 Rxa1 16. Qxa1 g5 17. Bg3 Nh5 18. Qd1 Nf4 19. Na3 Na5 20. Bc2 c5 21. Bxf4
+gxf4 22. Qd3 c4 23. Qe2 Kh8 24. Nxc4 Nxc4 25. Qxc4 Rg8 26. dxe5 Qd7 27. e6 fxe6
+28. Rd1 Qg7 29. Ne1 d5 30. Qb5 Ba7 31. Rd3 e5 32. exd5 e4 33. Rh3 Bc8 34. Rh5
+Bg4 35. Rh4 Bf3 36. Qf1 Qg5 37. Nxf3 exf3 38. Rh3 Qxg2+ 39. Qxg2 Rxg2+ 40. Kh1
+Rxf2 41. Bd3 Kg7 42. Bc4 Rg2 0-1
+
+[Event "Camp. Barcelona Pref. A"]
+[Site "Barcelona"]
+[Date "1990.??.??"]
+[Round "?"]
+[White "Serrano"]
+[Black "Chalmeta Torredemer, Josep Maria"]
+[Result "1-0"]
+[ECO "B07"]
+[PlyCount "81"]
+[EventDate "1990.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. g3 g6 3. Bg2 Bg7 4. e4 d6 5. Ne2 O-O 6. O-O e5 7. Nbc3 c6 8. h3
+Qc7 9. Be3 Re8 10. a4 Nbd7 11. f4 exd4 12. Bxd4 a5 13. Qd2 b6 14. Rad1 Ba6 15.
+Rfe1 Rad8 16. g4 Nc5 17. Ng3 Ne6 18. Be3 Bf8 19. Qf2 Nd7 20. h4 Nec5 21. h5 b5
+22. axb5 cxb5 23. Nd5 Qc8 24. Bd4 Bg7 25. Bxg7 Kxg7 26. Rd4 Kg8 27. f5 Re5 28.
+Qd2 Bb7 29. hxg6 fxg6 30. Qh6 Bxd5 31. fxg6 Nf8 32. gxh7+ Nxh7 33. Rxd5 Qxg4
+34. Nf5 Qg5 35. Rxd6 Rxd6 36. Qxd6 Qf6 37. Qb8+ Nf8 38. Nh6+ Kg7 39. Rf1 Qe6
+40. Qxf8+ Kg6 41. Nf5 1-0

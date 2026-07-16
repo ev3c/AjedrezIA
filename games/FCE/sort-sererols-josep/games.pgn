@@ -1,0 +1,303 @@
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.01.20"]
+[Round "1.5"]
+[White "Ramirez Garcia, Jorge Alberto"]
+[Black "Sort Sererols, Josep"]
+[Result "1-0"]
+[ECO "B22"]
+[WhiteElo "2249"]
+[BlackElo "2037"]
+[PlyCount "55"]
+[EventDate "2024.??.??"]
+[WhiteTeam "Ateneu Colon"]
+[BlackTeam "Terrassa"]
+
+1. e4 c5 2. c3 d5 3. exd5 Qxd5 4. d4 Nc6 5. dxc5 Qxd1+ 6. Kxd1 e5 7. b4 Bf5 8.
+Nd2 Nf6 9. Bb2 O-O-O 10. Ngf3 Ne4 11. Ke1 Nxd2 12. Nxd2 e4 13. Nc4 Be6 14. Rd1
+Be7 15. a3 Bxc4 16. Bxc4 Ne5 17. Be2 Bg5 18. Rd4 Rhe8 19. h4 Nd3+ 20. Bxd3
+exd3+ 21. Kd1 Re2 22. hxg5 Rxb2 23. Rxd8+ Kxd8 24. Rxh7 Rxf2 25. Rxg7 Ke8 26.
+g6 f5 27. Rxb7 Rxg2 28. g7 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.01.27"]
+[Round "2.1"]
+[White "Sort Sererols, Josep"]
+[Black "Perpinya Rofes, Lluis Maria"]
+[Result "1-0"]
+[ECO "B23"]
+[WhiteElo "2244"]
+[BlackElo "2332"]
+[PlyCount "85"]
+[EventDate "2024.??.??"]
+[WhiteTeam "Terrassa"]
+[BlackTeam "Colon Sabadell ionehipotecas.com"]
+
+1. e4 c5 2. Nc3 Nc6 3. Bb5 Nd4 4. Nf3 a6 5. Bd3 g6 6. Nxd4 cxd4 7. Ne2 d5 8. e5
+Bg7 9. Nxd4 Bxe5 10. c3 Bg7 11. Nf3 e5 12. Bb1 Ne7 13. O-O O-O 14. d3 Nc6 15.
+a4 h6 16. Re1 Be6 17. Ba2 Qd7 18. d4 e4 19. Ne5 Nxe5 20. dxe5 Rad8 21. Be3 Rfe8
+22. a5 Qb5 23. Qd2 Qxa5 24. Bxh6 Bxe5 25. Bg5 Rd7 26. Bf4 Bg7 27. Bb3 Qc5 28.
+Ba4 b5 29. Bb3 Qc6 30. Red1 d4 31. Bxe6 Qxe6 32. cxd4 Rxd4 33. Qe2 Red8 34.
+Rxd4 Rxd4 35. h3 Bf6 36. Rc1 Rc4 37. Rd1 Qc6 38. Rd6 Rc1+ 39. Kh2 Qc2 40. Qxc2
+Rxc2 41. Rxf6 Rxf2 42. Be5 e3 43. Kg3 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.02.10"]
+[Round "4.4"]
+[White "Sort Sererols, Josep"]
+[Black "Lemeshev, Ilya"]
+[Result "0-1"]
+[ECO "B23"]
+[WhiteElo "2244"]
+[BlackElo "2378"]
+[PlyCount "86"]
+[EventDate "2024.??.??"]
+
+1. e4 c5 2. Nc3 Nc6 3. Bb5 d6 4. Bxc6+ bxc6 5. f4 Nf6 6. Nf3 g6 7. O-O Bg7 8.
+d3 O-O 9. Qe1 Qb6 10. Kh1 c4 11. e5 Nd5 12. dxc4 Nb4 13. Qe2 Bf5 14. Be3 Qb8
+15. Nd4 Bd7 16. a3 Na6 17. exd6 exd6 18. f5 Re8 19. f6 Bh6 20. Nd1 Bxe3 21.
+Nxe3 Qxb2 22. Qd2 Re4 23. Nef5 Qb8 24. Rab1 Qf8 25. Ng3 Ree8 26. Rb7 Nc5 27.
+Rc7 Rac8 28. Rxc8 Rxc8 29. Nf3 Re8 30. Qd4 Be6 31. Rd1 d5 32. Ne5 Rc8 33. h3
+dxc4 34. Nxc4 Bd5 35. Ne3 Be6 36. Nc4 Nd7 37. Nd6 Rd8 38. Nb7 Rb8 39. Qxa7 Ra8
+40. Qf2 Rxa3 41. Nd6 Qa8 42. Kh2 Ra1 43. Rd2 Qa3 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "Terrassa"]
+[Date "2024.02.17"]
+[Round "5.5"]
+[White "Sort Sererols, Josep"]
+[Black "Boix Moreno, Daniel"]
+[Result "0-1"]
+[ECO "A08"]
+[WhiteElo "2048"]
+[BlackElo "2245"]
+[PlyCount "110"]
+[EventDate "2024.??.??"]
+[TimeControl "90+30"]
+[WhiteClock "0:02:46"]
+[BlackClock "0:04:55"]
+
+1. e4 {[%emt 0:29:19]} c5 {[%emt 0:01:47]} 2. Nf3 {[%emt 0:01:19]} e6 {[%emt 0:
+01:43]} 3. d3 {[%emt 0:00:43]} d5 {[%emt 0:00:23]} 4. Qe2 {[%emt 0:00:22]} Ne7
+{[%emt 0:04:03]} 5. g3 {[%emt 0:00:47]} g6 {[%emt 0:00:12]} 6. Bg2 {[%emt 0:00:
+48]} Bg7 {[%emt 0:00:16]} 7. O-O {[%emt 0:01:26]} O-O {[%emt 0:00:51]} 8. e5 {
+[%emt 0:01:50]} Nbc6 {[%emt 0:07:39]} 9. c3 {[%emt 0:01:45]} b6 {[%emt 0:05:12]
+} 10. Re1 {[%emt 0:00:55]} Bb7 {[%emt 0:01:36]} 11. Bf4 {[%emt 0:13:21]} Qd7 {
+[%emt 0:00:23]} 12. h4 {[%emt 0:04:23]} h6 {[%emt 0:16:48]} 13. Nbd2 {[%emt 0:
+00:22]} a5 {[%emt 0:00:38]} 14. Nf1 {[%emt 0:05:52]} d4 {[%emt 0:07:27]} 15. c4
+{[%emt 0:00:42]} a4 {[%emt 0:00:27]} 16. N1h2 {[%emt 0:11:45]} Kh7 {[%emt 0:07:
+57]} 17. Ng4 {[%emt 0:02:12]} Ng8 {[%emt 0:00:30]} 18. Qd2 {[%emt 0:04:52]} Qd8
+{[%emt 0:11:42]} 19. Qe2 {[%emt 0:04:58]} a3 {[%emt 0:02:46]} 20. b3 {[%emt 0:
+01:06]} Ra7 {[%emt 0:08:25]} 21. Rad1 {[%emt 0:20:12]} Nb4 {[%emt 0:06:47]} 22.
+Bc1 {[%emt 0:11:14]} Qa8 {[%emt 0:01:32]} 23. Ngh2 {[%emt 0:01:43]} Bc6 {
+[%emt 0:04:34]} 24. h5 {[%emt 0:01:32]} g5 {[%emt 0:01:02]} 25. Bxg5 {[%emt 0:
+03:00]} hxg5 {[%emt 0:00:43]} 26. Nxg5+ {[%emt 0:00:03]} Kh8 {[%emt 0:00:06]}
+27. Bxc6 {[%emt 0:00:08]} Qxc6 {[%emt 0:00:16]} 28. Ng4 {[%emt 0:00:38]} Nh6 {
+[%emt 0:02:25]} 29. Nxh6 {[%emt 0:02:49]} Bxh6 {[%emt 0:00:15]} 30. Ne4 {
+[%emt 0:00:02]} Rg8 {[%emt 0:05:30]} 31. Kh2 {[%emt 0:00:21]} f5 {[%emt 0:00:
+45]} 32. exf6 {[%emt 0:00:27]} Rh7 {[%emt 0:00:09]} 33. f4 {[%emt 0:02:16]} Qd7
+{[%emt 0:01:43]} 34. Rf1 {[%emt 0:00:13]} Qc7 {[%emt 0:01:39]} 35. Rf2 {
+[%emt 0:00:23]} Qf7 {[%emt 0:00:24]} 36. g4 {[%emt 0:00:09]} Bf8 {[%emt 0:00:
+26]} 37. Ng5 {[%emt 0:00:16]} Qxf6 {[%emt 0:00:12]} 38. Nxh7 {[%emt 0:00:05]}
+Qh4+ {[%emt 0:00:11]} 39. Kg1 {[%emt 0:00:06]} Rxg4+ {[%emt 0:00:28]} 40. Rg2 {
+[%emt 0:00:06]} Rxg2+ {[%emt 0:00:16]} 41. Kxg2 {[%emt 0:01:00]} Kxh7 {[%emt 0:
+00:06]} 42. Qxe6 {[%emt 0:00:24]} Qe7 {[%emt 0:00:55]} 43. Qg6+ {[%emt 0:00:27]
+} Kh8 {[%emt 0:00:04]} 44. Rg1 {[%emt 0:01:35]} Qg7 {[%emt 0:01:12]} 45. Kf3 {
+[%emt 0:00:05]} Qxg6 {[%emt 0:00:54]} 46. hxg6 {[%emt 0:00:01]} Nxd3 {[%emt 0:
+00:11]} 47. f5 {[%emt 0:00:26]} Kg7 {[%emt 0:00:14]} 48. Ke4 {[%emt 0:00:29]}
+Nb4 {[%emt 0:00:14]} 49. Rh1 {[%emt 0:00:02]} Kf6 {[%emt 0:01:31]} 50. Rh7 {
+[%emt 0:00:09]} Bg7 {[%emt 0:00:05]} 51. Rh2 {[%emt 0:00:17]} d3 {[%emt 0:00:
+27]} 52. Kf4 {[%emt 0:00:39]} d2 {[%emt 0:00:18]} 53. Rh1 {[%emt 0:00:03]} Nxa2
+{[%emt 0:00:11]} 54. Ke3 {[%emt 0:00:04]} Bh6+ {[%emt 0:00:21]} 55. Ke2 {
+[%emt 0:00:08]} Nc3+ {[%emt 0:00:05]} 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.02.24"]
+[Round "6.5"]
+[White "LACASA DIAZ, JOSEP ANTON."]
+[Black "SORT SEREROLS, JOSEP."]
+[Result "1-0"]
+[ECO "B30"]
+[WhiteElo "2400"]
+[BlackElo "2244"]
+[PlyCount "93"]
+[EventDate "2024.??.??"]
+
+1. e4 c5 2. Nf3 Nc6 3. Nc3 e5 4. Bc4 d6 5. d3 Be7 6. O-O Nf6 7. Ng5 O-O 8. f4
+h6 9. Nf3 Bg4 10. h3 Be6 11. Nd5 Bxd5 12. exd5 Nd4 13. fxe5 Nxf3+ 14. Qxf3 dxe5
+15. Qg3 Kh8 16. Qxe5 Qd7 17. Bb3 c4 18. Bxc4 Bc5+ 19. Kh1 Rae8 20. Qg3 Nxd5 21.
+Qf3 Ne3 22. Bxe3 Rxe3 23. Qh5 Qe7 24. c3 f5 25. d4 Bd6 26. Rf3 Re1+ 27. Rxe1
+Qxe1+ 28. Bf1 Rf6 29. Kg1 Kh7 30. Rd3 f4 31. Qe2 Qh4 32. Qe4+ Kh8 33. Qxb7 Qg5
+34. Qc8+ Kh7 35. Rf3 Rf8 36. Bd3+ Kh8 37. Qg4 Qxg4 38. hxg4 a5 39. Kf1 a4 40.
+Rf2 Rb8 41. Re2 Kg8 42. Bg6 a3 43. b3 Rb6 44. c4 Be7 45. Rxe7 Rxg6 46. c5 Rxg4
+47. c6 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "Barcelona, Spain"]
+[Date "2024.03.16"]
+[Round "9.5"]
+[White "Nunez Colome, David"]
+[Black "Sort Sererols, Josep"]
+[Result "1/2-1/2"]
+[ECO "B32"]
+[WhiteElo "1995"]
+[BlackElo "2047"]
+[PlyCount "143"]
+[EventDate "2024.??.??"]
+[TimeControl "90+30"]
+[WhiteClock "0:01:29"]
+[BlackClock "0:03:24"]
+
+1. e4 {[%emt 0:05:13]} c5 {[%emt 0:00:23]} 2. Nf3 {[%emt 0:00:25]} Nc6 {
+[%emt 0:00:16]} 3. d4 {[%emt 0:00:07]} cxd4 {[%emt 0:00:12]} 4. Nxd4 {[%emt 0:
+00:11]} e5 {[%emt 0:00:21]} 5. Nb5 {[%emt 0:01:19]} d6 {[%emt 0:00:33]} 6. N1c3
+{[%emt 0:02:35]} a6 {[%emt 0:00:45]} 7. Na3 {[%emt 0:00:34]} Be7 {[%emt 0:00:
+48]} 8. Nd5 {[%emt 0:11:57]} Nf6 {[%emt 0:00:28]} 9. Nxf6+ {[%emt 0:01:01]}
+Bxf6 {[%emt 0:00:08]} 10. Nc4 {[%emt 0:03:11]} O-O {[%emt 0:00:58]} 11. c3 {
+[%emt 0:22:35]} b5 {[%emt 0:19:20]} 12. Ne3 {[%emt 0:07:26]} Be6 {[%emt 0:05:
+45]} 13. Be2 {[%emt 0:04:34]} Rb8 {[%emt 0:04:20]} 14. O-O {[%emt 0:01:55]} Qd7
+{[%emt 0:06:24]} 15. a4 {[%emt 0:04:17]} Bg5 {[%emt 0:10:24]} 16. axb5 {
+[%emt 0:11:38]} axb5 {[%emt 0:00:09]} 17. Nd5 {[%emt 0:01:04]} Bxc1 {[%emt 0:
+00:20]} 18. Rxc1 {[%emt 0:00:21]} Ne7 {[%emt 0:03:53]} 19. Nxe7+ {[%emt 0:03:
+48]} Qxe7 {[%emt 0:00:10]} 20. Qd2 {[%emt 0:01:09]} Rfd8 {[%emt 0:00:46]} 21.
+Ra1 {[%emt 0:03:34]} Qc7 {[%emt 0:02:37]} 22. Qe3 {[%emt 0:02:29]} Bc4 {
+[%emt 0:01:22]} 23. Rfd1 {[%emt 0:01:53]} h6 {[%emt 0:04:18]} 24. h3 {[%emt 0:
+00:46]} Rb7 {[%emt 0:02:12]} 25. Ra6 {[%emt 0:02:13]} Bb3 {[%emt 0:08:37]} 26.
+Rda1 {[%emt 0:02:26]} Bc4 {[%emt 0:15:33]} 27. Rd1 {[%emt 0:01:58]} Bb3 {
+[%emt 0:01:10]} 28. Rda1 {[%emt 0:00:56]} Kh7 {[%emt 0:00:47]} 29. Ra7 {
+[%emt 0:01:22]} Ba4 {[%emt 0:00:59]} 30. Rxb7 {[%emt 0:00:30]} Qxb7 {[%emt 0:
+00:43]} 31. Bd1 {[%emt 0:00:48]} d5 {[%emt 0:00:46]} 32. exd5 {[%emt 0:00:52]}
+Qxd5 {[%emt 0:00:10]} 33. Bxa4 {[%emt 0:00:33]} bxa4 {[%emt 0:00:02]} 34. Re1 {
+[%emt 0:00:39]} f6 {[%emt 0:00:35]} 35. Qe4+ {[%emt 0:00:31]} Qxe4 {[%emt 0:00:
+24]} 36. Rxe4 {[%emt 0:00:01]} Rd1+ {[%emt 0:00:23]} 37. Kh2 {[%emt 0:00:01]}
+Rd2 {[%emt 0:00:08]} 38. Rxa4 {[%emt 0:00:46]} Rxb2 {[%emt 0:00:11]} 39. Kg3 {
+[%emt 0:00:29]} Rc2 {[%emt 0:00:19]} 40. Rc4 {[%emt 0:00:11]} h5 {[%emt 0:01:
+05]} 41. h4 {[%emt 0:00:55]} Kg6 {[%emt 0:00:55]} 42. Rc7 {[%emt 0:00:38]} Kf5
+{[%emt 0:00:12]} 43. Kf3 {[%emt 0:01:15]} g6 {[%emt 0:01:55]} 44. g3 {[%emt 0:
+00:31]} Rc1 {[%emt 0:03:14]} 45. Rc6 {[%emt 0:00:30]} g5 {[%emt 0:00:22]} 46.
+Rc5 {[%emt 0:00:22]} gxh4 {[%emt 0:01:46]} 47. gxh4 {[%emt 0:00:02]} Rh1 {
+[%emt 0:00:35]} 48. Rc4 {[%emt 0:01:04]} Rh3+ {[%emt 0:00:41]} 49. Kg2 {
+[%emt 0:00:18]} Rd3 {[%emt 0:00:10]} 50. f3 {[%emt 0:00:28]} Rd6 {[%emt 0:00:
+56]} 51. Kg3 {[%emt 0:00:25]} Ke6 {[%emt 0:00:18]} 52. Rc8 {[%emt 0:00:37]} f5
+{[%emt 0:00:52]} 53. c4 {[%emt 0:00:30]} f4+ {[%emt 0:00:52]} 54. Kf2 {[%emt 0:
+00:07]} Rd2+ {[%emt 0:00:19]} 55. Kg1 {[%emt 0:00:25]} Rc2 {[%emt 0:00:40]} 56.
+Rc7 {[%emt 0:01:16]} e4 {[%emt 0:03:41]} 57. fxe4 {[%emt 0:00:18]} Ke5 {
+[%emt 0:00:03]} 58. Rc5+ {[%emt 0:00:46]} Kxe4 {[%emt 0:00:15]} 59. Rxh5 {
+[%emt 0:00:09]} Rxc4 {[%emt 0:01:16]} 60. Rh8 {[%emt 0:00:44]} Kf3 {[%emt 0:00:
+35]} 61. h5 {[%emt 0:00:36]} Rc1+ {[%emt 0:00:16]} 62. Kh2 {[%emt 0:00:01]}
+Rc2+ {[%emt 0:01:23]} 63. Kg1 {[%emt 0:00:15]} Rg2+ {[%emt 0:00:09]} 64. Kf1 {
+[%emt 0:00:38]} Rh2 {[%emt 0:00:13]} 65. Kg1 {[%emt 0:00:11]} Rh4 {[%emt 0:00:
+25]} 66. h6 {[%emt 0:00:29]} Rh5 {[%emt 0:00:41]} 67. Rh7 {[%emt 0:00:27]} Rg5+
+{[%emt 0:00:17]} 68. Kf1 {[%emt 0:00:09]} Rh5 {[%emt 0:01:11]} 69. Kg1 {
+[%emt 0:00:05]} Rh4 {[%emt 0:00:37]} 70. Rh8 {[%emt 0:00:08]} Rh3 {[%emt 0:00:
+37]} 71. Rh7 {[%emt 0:00:07]} Rh5 {[%emt 0:00:30]} 72. Rh8 {[%emt 0:00:06]}
+1/2-1/2
+
+[Event "Lliga Catalana 2024"]
+[Site "?"]
+[Date "2024.04.13"]
+[Round "11.4"]
+[White "Sort Sererols, Josep"]
+[Black "Ventura Bolet, Maxim"]
+[Result "1/2-1/2"]
+[ECO "C00"]
+[WhiteElo "2224"]
+[BlackElo "2350"]
+[PlyCount "29"]
+[EventDate "2024.??.??"]
+
+1. e4 c5 2. Nf3 e6 3. d3 Nc6 4. g3 d5 5. Qe2 Nf6 6. Bg2 Be7 7. O-O O-O 8. e5
+Nd7 9. c4 a6 10. Rd1 b5 11. h4 bxc4 12. dxc4 Nb6 13. Nbd2 a5 14. a4 Ba6 15. b3
+1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.02.03"]
+[Round "3.6"]
+[White "Triadu Cassa, Jordi"]
+[Black "Sort Serarols, Josep"]
+[Result "0-1"]
+[ECO "B32"]
+[WhiteElo "2322"]
+[BlackElo "2244"]
+[PlyCount "73"]
+[EventDate "2024.??.??"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e5 5. Nb5 d6 6. c4 g6 7. N1c3 a6 8. Na3
+Be6 9. Be2 Bg7 10. Nd5 Bxd5 11. cxd5 Nd4 12. Nc2 Nxe2 13. Qxe2 Nf6 14. O-O O-O
+15. Bg5 h6 16. Bd2 Rc8 17. Na3 b5 18. Rfc1 Qd7 19. Nc2 Rc4 20. f3 Rfc8 21. Nb4
+Rxc1+ 22. Bxc1 Kh7 23. Be3 g5 24. h3 Nh5 25. Nxa6 Nf4 26. Qd2 f5 27. exf5 Qxf5
+28. Nb4 Rc4 29. a3 e4 30. Rf1 Be5 31. fxe4 Qxe4 32. Bxf4 Bxf4 33. Qd3 Rxb4 34.
+Qxe4+ Rxe4 35. Rf3 Re2 36. b3 Rb2 37. Rc3 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.03.02"]
+[Round "7.5"]
+[White "Sort Serarols, Josep"]
+[Black "Ortega Serra, Marc"]
+[Result "0-1"]
+[ECO "C00"]
+[WhiteElo "2244"]
+[BlackElo "2353"]
+[PlyCount "58"]
+[EventDate "2024.04.13"]
+[EventType "team"]
+[EventRounds "11"]
+[EventCountry "CAT"]
+
+1. e4 e6 2. d3 d5 3. Qe2 e5 4. Nf3 Nc6 5. exd5 Qxd5 6. Nc3 Qa5 7. g3 Bg4 8. h3
+Bh5 9. g4 Bg6 10. Bg2 O-O-O 11. O-O h5 12. g5 Nge7 13. Be3 Nd4 14. Qd2 Nef5 15.
+a3 Nxf3+ 16. Bxf3 Nh4 17. Qe2 Qa6 18. Be4 f5 19. gxf6 gxf6 20. Kh1 Bf5 21. Kh2
+Qe6 22. Bxa7 b6 23. Rg1 Bh6 24. Na4 Ng6 25. Rxg6 Bxg6 26. Qf3 Bf4+ 27. Kg1 Rhg8
+28. Kf1 Bf5 29. Bxb6 Bxh3+ 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.03.09"]
+[Round "8.5"]
+[White "Sort Serarols, Josep"]
+[Black "Garrido Fernandez, Daniel"]
+[Result "1/2-1/2"]
+[ECO "E18"]
+[WhiteElo "2244"]
+[BlackElo "2403"]
+[Annotator "delam"]
+[PlyCount "67"]
+[EventDate "2024.04.13"]
+[EventType "team"]
+[EventRounds "11"]
+[EventCountry "CAT"]
+
+1. e4 c5 2. Nc3 Nc6 3. Bb5 Nd4 4. Nf3 a6 5. Bd3 g6 6. Rb1 Nc6 7. O-O Bg7 8. Re1
+e5 9. Nd5 Nge7 10. c3 d6 11. Bc4 O-O 12. Nxe7+ Qxe7 13. Bd5 h6 14. d4 cxd4 15.
+Bxc6 bxc6 16. cxd4 Bg4 17. dxe5 dxe5 18. h3 Rfd8 19. Qe2 Be6 20. b3 a5 21. Be3
+Qb4 22. Qc2 a4 23. Bc5 Qb5 24. bxa4 Qxa4 25. Qxa4 Rxa4 26. a3 Rd3 27. Bb4 Bxh3
+28. Rbc1 Ra6 29. Rc5 f6 30. Nxe5 fxe5 31. gxh3 Kf7 32. Rec1 Rd6 33. R5c2 Re6
+34. f3 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.04.06"]
+[Round "10.5"]
+[White "Sort Serarols, Josep"]
+[Black "Pham Guerrero, Sergi"]
+[Result "1/2-1/2"]
+[ECO "C41"]
+[WhiteElo "2244"]
+[BlackElo "2244"]
+[PlyCount "73"]
+[EventDate "2024.04.13"]
+[EventType "team"]
+[EventRounds "11"]
+[EventCountry "CAT"]
+
+1. e4 d6 2. Nc3 e5 3. Nf3 Be7 4. d4 Nd7 5. Be3 Ngf6 6. h3 c6 7. a4 Qa5 8. Qd2
+h6 9. Bd3 Nf8 10. Rb1 Qc7 11. d5 g5 12. Be2 Ng6 13. g3 Bd7 14. Rd1 c5 15. Bb5
+a6 16. Bxd7+ Qxd7 17. Qe2 Rb8 18. a5 g4 19. Nd2 gxh3 20. Nc4 Qg4 21. Qxg4 Nxg4
+22. Rxh3 h5 23. Ke2 Kd7 24. Bd2 Rh7 25. Rdh1 Rbh8 26. b3 h4 27. f3 Nf6 28. g4
+Rg7 29. Kf2 Nh7 30. Ne2 Bg5 31. Ne3 Rgg8 32. Bc1 f6 33. R1h2 Ne7 34. Kg2 Nf8
+35. Kf2 Neg6 36. Nf5 Rh7 37. Be3 1/2-1/2

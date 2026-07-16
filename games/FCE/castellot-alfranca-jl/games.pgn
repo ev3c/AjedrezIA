@@ -1,0 +1,73 @@
+[Event "Figueres op"]
+[Site "?"]
+[Date "2009.08.01"]
+[Round "1.27"]
+[White "Castellot Alfranca, JL."]
+[Black "Serra Labrador, C."]
+[Result "0-1"]
+[ECO "A43"]
+[BlackElo "2006"]
+[PlyCount "82"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. d4 c5 2. Nf3 cxd4 3. Nxd4 e5 4. Nb3 d5 5. e3 Be6 6. Nc3 f5 7. Be2 Nf6 8.
+Bb5+ Nc6 9. Bd2 Bd6 10. Nc1 O-O 11. Nb3 a6 12. Be2 b5 13. a3 Qb6 14. O-O d4 15.
+Na2 Rfc8 16. c3 Kh8 17. Nac1 a5 18. Nd3 e4 19. exd4 exd3 20. Bxd3 a4 21. Nc1
+Re8 22. h3 Ne4 23. Bxe4 fxe4 24. Be3 Bd5 25. Qh5 Ne7 26. Qe2 Bc4 27. Qe1 Bxf1
+28. Qxf1 Nd5 29. Qe2 Nxe3 30. Qxe3 Bf4 31. Qe2 Qf6 32. Na2 e3 33. f3 Bd6 34.
+Kf1 Qh4 35. Nc1 Qg3 36. Qc2 Qf2+ 37. Qxf2 exf2 38. Kxf2 Re7 39. Nd3 Rae8 40.
+Re1 Rxe1 41. Nxe1 Bg3+ 0-1
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2009.08.02"]
+[Round "2.24"]
+[White "Pinsach Gelabert, A."]
+[Black "Castellot Alfranca, JL."]
+[Result "1-0"]
+[ECO "D05"]
+[WhiteElo "1781"]
+[PlyCount "97"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. d4 d5 2. Nf3 Nf6 3. e3 e6 4. Bd3 Bd6 5. Nbd2 c5 6. c3 c4 7. Bc2 Nc6 8. b3 b5
+9. a4 bxa4 10. bxc4 dxc4 11. Bxa4 Bd7 12. Nxc4 Be7 13. Nce5 Nxe5 14. Nxe5 O-O
+15. Nxd7 Nxd7 16. Qf3 Qc7 17. Qc6 Rfc8 18. Qxc7 Rxc7 19. Bxd7 Rxd7 20. Kd2 Rb7
+21. Kc2 Rc8 22. Ba3 Kf8 23. Rhb1 Rcb8 24. Bxe7+ Kxe7 25. Rxa7 Rxa7 26. Rxb8
+Ra2+ 27. Rb2 Ra1 28. Kd3 Ra3 29. e4 Ra7 30. e5 h5 31. Ke4 Rc7 32. Rc2 Rc4 33.
+Kf4 g6 34. Kg5 Rc7 35. f3 Rb7 36. g4 hxg4 37. fxg4 Rb1 38. Rf2 Rb3 39. Rf3 Ra3
+40. Kh6 Kf8 41. h4 Kg8 42. h5 gxh5 43. gxh5 Ra2 44. c4 Ra4 45. Rc3 Rb4 46. c5
+Rxd4 47. c6 Rd8 48. c7 Rc8 49. Rd3 1-0
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2009.08.02"]
+[Round "3.35"]
+[White "Castellot Alfranca, JL."]
+[Black "Cucurull Rubio, R."]
+[Result "1-0"]
+[ECO "D02"]
+[PlyCount "31"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+1. d4 d5 2. Nf3 Nc6 3. c3 Nf6 4. e3 Bg4 5. Be2 Qd6 6. Nbd2 e5 7. dxe5 Nxe5 8.
+Nxe5 Qxe5 9. Bxg4 Qg5 10. Bh3 h5 11. Nf3 Qg6 12. Qa4+ c6 13. Ne5 Qg5 14. Nxc6
+bxc6 15. Qxc6+ Nd7 16. Qxd7# 1-0
+
+[Event "Figueres op"]
+[Site "?"]
+[Date "2009.08.03"]
+[Round "4.29"]
+[White "Fleta Marin, S."]
+[Black "Castellot Alfranca, JL."]
+[Result "*"]
+[ECO "A00"]
+[WhiteElo "1754"]
+[PlyCount "0"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+
+ *

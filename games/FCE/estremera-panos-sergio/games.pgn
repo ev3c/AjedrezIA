@@ -1,0 +1,1406 @@
+[Event "?"]
+[Site "Barcelona"]
+[Date "1982.??.??"]
+[Round "?"]
+[White "Illescas Cordoba, Miquel"]
+[Black "Estremera Paños, Sergio"]
+[Result "1-0"]
+[ECO "B81"]
+[PlyCount "81"]
+[EventDate "1982.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e6 6. g4 h6 7. g5 hxg5 8. Bxg5
+Nc6 9. Qd2 Qb6 10. Nb3 Bd7 11. O-O-O a6 12. Bf4 Ne5 13. Be3 Qc7 14. f4 Nc6 15.
+Rg1 b5 16. e5 dxe5 17. fxe5 Nxe5 18. Bf4 b4 19. Ne2 Rc8 20. Ned4 Nd5 21. Bg3 g6
+22. Kb1 Nc4 23. Qf2 Na3+ 24. bxa3 Nc3+ 25. Kc1 Bh6+ 26. Rd2 Nxa2+ 27. Kb2 Qc3+
+28. Kxa2 bxa3 29. Kxa3 Rc5 30. Nb5 axb5 31. Qxc5 Bxd2 32. Qxc3 Bxc3 33. Bg2 b4+
+34. Ka2 f5 35. h3 Kf7 36. Rd1 Bb5 37. Be1 e5 38. Bxc3 bxc3 39. Nc5 Bc4+ 40. Ka3
+Rc8 41. Kb4 1-0
+
+[Event "Ateneu Hortenc op"]
+[Site "Barcelona"]
+[Date "1982.??.??"]
+[Round "6"]
+[White "Gros Fernandez, Jordi"]
+[Black "Estremera Paños, Sergio"]
+[Result "1-0"]
+[ECO "B22"]
+[PlyCount "31"]
+[EventDate "1982.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. c3 d5 3. exd5 Qxd5 4. d4 e6 5. Nf3 Nf6 6. Bd3 Be7 7. O-O O-O 8. Qe2
+Nc6 9. Rd1 Rd8 10. Bf4 Qh5 11. dxc5 Bxc5 12. Nbd2 b6 13. Ne4 Be7 14. Ng3 Qg4
+15. Bc7 Rd7 16. h3 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "1"]
+[White "Estremera Paños, Sergio"]
+[Black "Romero Holmes, Alfonso"]
+[Result "1/2-1/2"]
+[ECO "B91"]
+[PlyCount "66"]
+[EventDate "1982.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. Nc3 Nf6 4. g3 g6 5. Bg2 Bg7 6. d4 cxd4 7. Nxd4 O-O 8. O-O
+a6 9. h3 Nbd7 10. Re1 e5 11. Nb3 Qc7 12. a4 Nb6 13. Bg5 Be6 14. Nd2 Nfd7 15. a5
+Nc8 16. Nf1 f6 17. Bc1 Ne7 18. Ne3 b5 19. Ncd5 Nxd5 20. Nxd5 Qd8 21. Be3 Rc8
+22. Bb6 Nxb6 23. axb6 Rc5 24. b4 Rxd5 25. exd5 Bc8 26. c4 bxc4 27. Rc1 Qxb6 28.
+Rxc4 Bd7 29. Qc1 f5 30. Rc7 Bh6 31. Qc4 Bb5 32. Qc2 Ba4 33. Qc4 Bb5 1/2-1/2
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "2"]
+[White "Padreny Gutierrez, Josep"]
+[Black "Estremera Paños, Sergio"]
+[Result "1-0"]
+[ECO "B85"]
+[PlyCount "61"]
+[EventDate "1982.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e6 6. Be2 Be7 7. O-O O-O 8.
+Be3 Nc6 9. f4 a6 10. Qe1 Bd7 11. Qg3 Nxd4 12. Bxd4 b5 13. Bf3 Bc6 14. a3 Qc7
+15. Rae1 Rad8 16. Kh1 Qb7 17. Nd1 g6 18. Nf2 a5 19. c3 b4 20. axb4 axb4 21. Qh3
+e5 22. fxe5 dxe5 23. Bxe5 Rd2 24. Qh6 Rxb2 25. Ng4 Ne8 26. Qc1 f6 27. Qxb2 fxe5
+28. cxb4 Bxb4 29. Rb1 Bxe4 30. Qxb4 Rxf3 31. Rxf3 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "3"]
+[White "Estremera Paños, Sergio"]
+[Black "Miralles Sanchez, Josep Antoni"]
+[Result "1/2-1/2"]
+[ECO "B41"]
+[PlyCount "95"]
+[EventDate "1982.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. c4 Nf6 6. Nc3 Qc7 7. a3 Nxe4 8.
+Nxe4 Qe5 9. Bd3 Qxd4 10. Be3 Qe5 11. O-O Be7 12. f4 Qc7 13. f5 Qe5 14. Qf3 d6
+15. Rae1 Nc6 16. fxe6 Bxe6 17. Ng5 Bxg5 18. Bxg5 Qd4+ 19. Qf2 Qxf2+ 20. Rxf2
+O-O 21. Rd2 h6 22. Bf4 Rfd8 23. Be4 Bxc4 24. Rxd6 Rxd6 25. Bxd6 Rd8 26. Bc7 Rd2
+27. b4 Be6 28. h3 g5 29. Bf3 Bd5 30. Rd1 Rxd1+ 31. Bxd1 Kg7 32. g4 f5 33. gxf5
+Be4 34. Kf2 Bxf5 35. Kg3 Kf6 36. Bf3 Bd7 37. Bxc6 Bxc6 38. h4 Kf5 39. hxg5 hxg5
+40. Bd8 Ba4 41. Be7 Bd1 42. Bd8 g4 43. Be7 Ke6 44. Bc5 Kd5 45. Bf8 Kc4 46. a4
+Bxa4 47. Kxg4 Bc6 48. Kf4 1/2-1/2
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "4"]
+[White "Bordell Rosell, Roman"]
+[Black "Estremera Paños, Sergio"]
+[Result "1-0"]
+[ECO "B37"]
+[PlyCount "71"]
+[EventDate "1982.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+
+1. c4 g6 2. e4 c5 3. Nf3 Bg7 4. d4 cxd4 5. Nxd4 Nc6 6. Nxc6 bxc6 7. Nc3 d6 8.
+Be2 Nf6 9. O-O Rb8 10. Rb1 O-O 11. Be3 c5 12. f3 Nd7 13. Qd2 Re8 14. f4 Qa5 15.
+Rfc1 Nf8 16. Bd3 Ne6 17. f5 Nd4 18. Qf2 Nc6 19. a3 Ne5 20. Be2 Rb3 21. Rc2 Bb7
+22. Rf1 Bc6 23. Kh1 Rxb2 24. Rxb2 Qxc3 25. Rfb1 Bxe4 26. Rb8 Kf8 27. f6 Bxf6
+28. Bh6+ Bg7 29. Rxe8+ Kxe8 30. Rb8+ Kd7 31. Bxg7 f6 32. Qf1 Ke6 33. Rf8 Qe3
+34. Bxf6 exf6 35. Qxf6+ Kd7 36. Rd8+ 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "5"]
+[White "Estremera Paños, Sergio"]
+[Black "Martin Gonzalez, Angel"]
+[Result "0-1"]
+[ECO "B27"]
+[PlyCount "202"]
+[EventDate "1982.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+
+1. Nf3 g6 2. e4 c5 3. c3 Bg7 4. d4 cxd4 5. cxd4 d5 6. exd5 Nf6 7. Nc3 Nxd5 8.
+Bc4 Nb6 9. Bb3 O-O 10. d5 Na6 11. Be3 Bg4 12. h3 Bxf3 13. Qxf3 Rc8 14. O-O Nc5
+15. Rfd1 Qd7 16. Rac1 Nba4 17. Nxa4 Nxa4 18. Rxc8 Rxc8 19. d6 exd6 20. Qf4 Nxb2
+21. Qxd6 Qe8 22. Rd5 b5 23. Qd7 a6 24. Qxe8+ Rxe8 25. Rd7 Nc4 26. Ra7 h5 27.
+Rxa6 Nxe3 28. fxe3 Rxe3 29. Ra8+ Bf8 30. Kf2 Re5 31. Rd8 b4 32. Rd5 Re6 33. Rd3
+Bc5+ 34. Kf1 Re7 35. Rf3 h4 36. Rd3 Kg7 37. Rf3 f5 38. Rd3 Be3 39. Rd1 Re4 40.
+Rd3 Bc5 41. Bd5 Re7 42. Bc6 Kf6 43. Rd5 Be3 44. Rd1 Kg5 45. Rd3 Kf4 46. a3 bxa3
+47. Rxa3 g5 48. Ra4+ Kg3 49. Rc4 g4 50. hxg4 f4 51. Be4 f3 52. Bxf3 h3 53. g5
+Bf4 54. gxh3 Kxf3 55. Rc3+ Be3 56. Ke1 Rd7 57. h4 Rd4 58. h5 Rh4 59. Kd1 Rxh5
+60. g6 Rh3 61. Kc2 Ke4 62. Rc4+ Bd4 63. Rc6 Kd5 64. Ra6 Rg3 65. Ra5+ Bc5 66.
+Ra4 Rxg6 67. Rh4 Bd4 68. Kd3 Rg3+ 69. Ke2 Re3+ 70. Kf1 Rg3 71. Ke2 Kc4 72. Rf4
+Re3+ 73. Kf1 Kd3 74. Kg2 Re1 75. Kf3 Be5 76. Ra4 Rf1+ 77. Kg2 Rf8 78. Ra3+ Ke4
+79. Rh3 Ra8 80. Rb3 Ra2+ 81. Kf1 Bf4 82. Ke1 Be3 83. Kd1 Kd4 84. Ke1 Rc2 85.
+Kd1 Rh2 86. Ra3 Rd2+ 87. Ke1 Ke4 88. Rb3 Kf3 89. Rc3 Rd5 90. Rb3 Ra5 91. Kd1
+Rc5 92. Rb1 Rc3 93. Ra1 Bg5 94. Rb1 Ke3 95. Ke1 Rd3 96. Kf1 Kf3 97. Ke1 Bh4+
+98. Kf1 Bf6 99. Ke1 Bc3+ 100. Kf1 Rd8 101. Rc1 Bb2 0-1
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "6"]
+[White "Vehi Bach, Victor Manuel"]
+[Black "Estremera Paños, Sergio"]
+[Result "1-0"]
+[ECO "B21"]
+[PlyCount "75"]
+[EventDate "1982.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. f4 Nc6 3. Nf3 g6 4. Bb5 Bg7 5. Bxc6 dxc6 6. d3 Nf6 7. Nc3 O-O 8.
+O-O Ne8 9. Qe1 Bg4 10. Ng5 h6 11. Nf3 Bxf3 12. Rxf3 c4 13. f5 cxd3 14. cxd3 Qd6
+15. Qe2 Rd8 16. Bd2 e5 17. Raf1 Nf6 18. h3 g5 19. Kh1 Rd7 20. Nd1 Rfd8 21. Nf2
+Qc5 22. Bc3 Re8 23. Rg3 Red8 24. h4 gxh4 25. Rh3 Qe7 26. Bd2 c5 27. Be3 b5 28.
+Rxh4 Nd5 29. Rh3 Nxe3 30. Qxe3 Qg5 31. Qxc5 Qd2 32. Rf3 Qxb2 33. f6 Bf8 34. Qe3
+Qd4 35. Rg3+ Kh7 36. Qf3 b4 37. Qf5+ Kh8 38. Qg4 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "8"]
+[White "Estremera Paños, Sergio"]
+[Black "Fernandez Garcia, Jose Luis"]
+[Result "0-1"]
+[ECO "B05"]
+[PlyCount "98"]
+[EventDate "1982.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. Nf3 Bg4 5. Be2 c6 6. Ng5 Bf5 7. Bd3 Bxd3 8.
+Qxd3 dxe5 9. dxe5 h6 10. Nf3 e6 11. O-O Nd7 12. c4 Ne7 13. Nc3 Ng6 14. Qe2 Qc7
+15. Re1 O-O-O 16. Rb1 Bb4 17. h4 Bxc3 18. bxc3 c5 19. Qe4 Ne7 20. a4 Qc6 21.
+Qf4 f5 22. exf6 gxf6 23. a5 e5 24. Qd2 Rhg8 25. Qe2 Rg4 26. a6 Qxa6 27. Nd4
+Rdg8 28. Bg5 Rxd4 29. cxd4 hxg5 30. Ra1 Qd6 31. Rxa7 Nc6 32. Ra8+ Ncb8 33. dxe5
+Nxe5 34. hxg5 Nec6 35. gxf6 Qxf6 36. Qh5 Qg6 37. Qh3+ Kc7 38. Qh2+ Kb6 39. Ra3
+Nd4 40. Qh3 Re8 41. Rxe8 Qxe8 42. Re3 Qf7 43. Qc8 Nbc6 44. Re1 Qxc4 45. Rb1+
+Nb3 46. g4 Ncd4 47. Qd8+ Ka7 48. Qd7 Qd3 49. Qa4+ Kb6 0-1
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "9"]
+[White "Rosich Valles, Alfred"]
+[Black "Estremera Paños, Sergio"]
+[Result "1-0"]
+[ECO "B83"]
+[PlyCount "87"]
+[EventDate "1982.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. Nc3 Nc6 4. d4 cxd4 5. Nxd4 d6 6. Be3 Nf6 7. Be2 Be7 8.
+O-O O-O 9. f4 e5 10. Nb3 exf4 11. Rxf4 Nd7 12. Rf1 Nde5 13. Kh1 Be6 14. Nd5 Bg5
+15. Qd2 Bxe3 16. Qxe3 Bxd5 17. exd5 Ne7 18. c4 N7g6 19. Nd4 Re8 20. Qd2 Rc8 21.
+b3 a5 22. Rae1 a4 23. Bh5 axb3 24. axb3 Qb6 25. Qf2 Rf8 26. Qe3 Qd8 27. Nb5 Re8
+28. Qg3 Qd7 29. Re3 Re7 30. Rfe1 Rce8 31. h3 b6 32. Ra1 Qd8 33. Bxg6 hxg6 34.
+Qf4 Rd7 35. Nxd6 Rxd6 36. Rxe5 Rf6 37. Qe3 Rxe5 38. Qxe5 Rf5 39. Qd4 g5 40. d6
+Rf4 41. Qd3 g4 42. d7 gxh3 43. gxh3 Rh4 44. Re1 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "10"]
+[White "Estremera Paños, Sergio"]
+[Black "Pablo Mari, Alexandre"]
+[Result "1-0"]
+[ECO "B96"]
+[PlyCount "41"]
+[EventDate "1982.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Qc7 8. Qf3
+b5 9. O-O-O b4 10. e5 Bb7 11. Qh3 dxe5 12. Ncb5 axb5 13. Bxb5+ Ke7 14. fxe5
+Qxe5 15. Qh4 Be4 16. Rhe1 Rxa2 17. Kb1 b3 18. Rxe4 bxc2+ 19. Kxc2 Qc5+ 20. Kb1
+Ra5 21. Qe1 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "11"]
+[White "Serrano Blanco, Vicente"]
+[Black "Estremera Paños, Sergio"]
+[Result "0-1"]
+[ECO "B97"]
+[PlyCount "52"]
+[EventDate "1982.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Qb6 8. Nb3
+Nbd7 9. Qf3 Qc7 10. Bd3 h6 11. Bh4 Be7 12. Bf2 b5 13. a3 Rb8 14. g4 g5 15. Rg1
+gxf4 16. Qxf4 Ne5 17. Be2 b4 18. axb4 Rxb4 19. Bd4 Nfd7 20. Qg3 Ng6 21. Bf2
+Nde5 22. Qe3 Bg5 23. Qa7 Qxa7 24. Bxa7 Bb7 25. Bd4 Rxd4 26. Nxd4 Be3 0-1
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "12"]
+[White "Estremera Paños, Sergio"]
+[Black "Illescas Cordoba, Miquel"]
+[Result "0-1"]
+[ECO "A34"]
+[PlyCount "74"]
+[EventDate "1982.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. Nf3 Nf6 2. c4 c5 3. Nc3 Nc6 4. g3 d5 5. cxd5 Nxd5 6. Bg2 g6 7. O-O Bg7 8.
+Nxd5 Qxd5 9. d3 Qd6 10. Qa4 O-O 11. Qh4 f5 12. Bh6 Rd8 13. Bxg7 Kxg7 14. Rac1
+Be6 15. a3 Rac8 16. Qg5 b6 17. h4 Bf7 18. Qd2 e5 19. Qc3 h6 20. Rfd1 a5 21. e3
+Qf6 22. Nd2 Bd5 23. Bxd5 Rxd5 24. Qb3 Ne7 25. d4 exd4 26. exd4 Rxd4 27. Nf3 Re4
+28. Rd7 Qe6 29. Qc3+ Qf6 30. Qd3 Qxb2 31. Rd1 c4 32. Qd5 Qf6 33. Qb7 Rc6 34.
+Nd4 Rc5 35. h5 c3 36. Nxf5+ gxf5 37. R1d6 c2 0-1
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1982.??.??"]
+[Round "13"]
+[White "Juanpera Morales, Antoni"]
+[Black "Estremera Paños, Sergio"]
+[Result "1-0"]
+[ECO "D91"]
+[PlyCount "80"]
+[EventDate "1982.??.??"]
+[EventType "tourn"]
+[EventRounds "12"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 d5 5. Bg5 Ne4 6. cxd5 Nxg5 7. Nxg5 e6 8.
+Qd2 h6 9. Nf3 exd5 10. e3 O-O 11. Be2 c6 12. O-O Be6 13. Ne1 Nd7 14. Nd3 Qe7
+15. Rac1 Bf5 16. Rfd1 Bxd3 17. Bxd3 f5 18. Ne2 Nf6 19. b4 Ne4 20. Bxe4 fxe4 21.
+Rc5 Rf6 22. Rf1 Qd7 23. b5 Bf8 24. bxc6 bxc6 25. Rc2 Bd6 26. Nc1 Raf8 27. Qd1
+Rf3 28. Ne2 Qf5 29. Ng3 Bxg3 30. hxg3 Qe6 $4 31. gxf3 exf3 32. Kh2 Rf5 33. g4
+Qe4 34. Kh3 h5 35. Rg1 Rg5 36. Kh2 hxg4 37. Rg3 Qe7 38. Kg1 Qh7 39. Rxc6 Qh4
+40. Qb1 Kg7 1-0
+
+[Event "Berga op"]
+[Site "Berga"]
+[Date "1982.??.??"]
+[Round "?"]
+[White "Estremera Paños, Sergio"]
+[Black "Ribera Sellares, Pere"]
+[Result "1-0"]
+[ECO "D42"]
+[PlyCount "47"]
+[EventDate "1982.08.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. c4 Nf6 5. Nc3 e6 6. Nf3 Be7 7. cxd5 Nxd5 8.
+Bd3 O-O 9. O-O Nc6 10. Re1 Bf6 11. Be4 Qd6 12. a3 a6 13. Bc2 Nxc3 14. bxc3 Rd8
+15. Ng5 Bxg5 16. Bxg5 Re8 17. Qh5 g6 18. Qh4 Bd7 19. Re3 e5 20. Bb3 Qf8 21. Rf3
+Bf5 22. g4 Na5 23. gxf5 Nxb3 24. fxg6 1-0
+
+[Event "Camp. Barcelona Pref. A"]
+[Site "Barcelona"]
+[Date "1984.??.??"]
+[Round "?"]
+[White "Estremera Paños, Sergio"]
+[Black "Oliver Martinez, Carles"]
+[Result "1-0"]
+[ECO "B67"]
+[PlyCount "31"]
+[EventDate "1984.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bg5 e6 7. Qd2 a6 8.
+O-O-O Bd7 9. f4 Qc7 10. Be2 h5 11. Bf3 O-O-O 12. Nxc6 bxc6 13. Qe2 Qa5 14. Qe3
+Be7 15. Qa7 d5 16. Be2 1-0
+
+[Event "Camp. Barcelona Pref. A"]
+[Site "Barcelona"]
+[Date "1984.??.??"]
+[Round "?"]
+[White "Rosich Valles, Alfred"]
+[Black "Estremera Paños, Sergio"]
+[Result "0-1"]
+[ECO "B59"]
+[PlyCount "70"]
+[EventDate "1984.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Be2 e5 7. Nb3 Be7 8.
+O-O O-O 9. f4 a5 10. a4 Nb4 11. Kh1 Be6 12. Be3 Qc7 13. Rc1 Bc4 14. Nd2 Bxe2
+15. Qxe2 Qc6 16. fxe5 dxe5 17. Nc4 Nxe4 18. Nxe5 Qe6 19. Nxe4 Qxe5 20. Qf3 Ra6
+21. c3 Re6 22. cxb4 Qxe4 23. Bc5 Qxf3 24. Rxf3 Rc8 25. Rd1 Bf6 26. Rfd3 h6 27.
+Bd4 Rd6 28. Bc5 Rxd3 29. Rxd3 axb4 30. Be3 Bxb2 31. g3 Ra8 32. Rd7 Rxa4 33.
+Rxb7 Bc3 34. Bc5 Ra1+ 35. Kg2 Rb1 0-1
+
+[Event "Camp. Barcelona Pref. A"]
+[Site "Barcelona"]
+[Date "1984.??.??"]
+[Round "5"]
+[White "Gual Pascual, Antonio"]
+[Black "Estremera Paños, Sergio"]
+[Result "1-0"]
+[ECO "D34"]
+[PlyCount "43"]
+[EventDate "1984.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 e6 3. Nf3 c5 4. cxd5 exd5 5. Nc3 Nc6 6. g3 Nf6 7. Bg2 Be7 8. O-O
+O-O 9. Bg5 cxd4 10. Nxd4 h6 11. Bxf6 Bxf6 12. Nxc6 bxc6 13. Rc1 Re8 14. Re1 Qa5
+15. Qa4 Bxc3 16. Qxc6 Bxe1 17. Qxe8+ Kh7 18. Rxc8 Qb6 19. Rxa8 Qxf2+ 20. Kh1
+Bc3 21. Be4+ dxe4 22. Qxe4+ 1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1985.??.??"]
+[Round "?"]
+[White "Estremera Paños, Sergio"]
+[Black "De la Villa Garcia, Jesus Maria"]
+[Result "0-1"]
+[ECO "E04"]
+[PlyCount "84"]
+[EventDate "1985.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. d4 e6 2. c4 Bb4+ 3. Nd2 d5 4. Ngf3 Nf6 5. g3 O-O 6. Bg2 dxc4 7. Qc2 b5 8. a4
+c6 9. axb5 cxb5 10. Ng5 h6 11. Bxa8 hxg5 12. O-O a5 13. Ne4 Nxe4 14. Qxe4 Nd7
+15. Bc6 Ba6 16. Qg4 Nf6 17. Qxg5 Qxd4 18. Be3 Qd6 19. Bg2 Nh7 20. Qh4 Rd8 21.
+Be4 f5 22. Bc2 Rf8 23. Rfd1 Qc6 24. Rd8 Bb7 25. f3 a4 26. Rad1 Nf6 27. Qg5 Be7
+28. Rxf8+ Kxf8 29. Bd4 b4 30. Bb1 c3 31. bxc3 b3 32. h4 a3 33. h5 a2 34. h6
+gxh6 35. Qxh6+ Kf7 36. Bxf6 Bxf6 37. Qh5+ Kg7 38. Bxf5 exf5 39. Qxf5 Bc8 40.
+Qa5 Be6 41. Qa7+ Bf7 42. Rd7 Qc4 0-1
+
+[Event "Camp. España indiv."]
+[Site "Salou"]
+[Date "1987.??.??"]
+[Round "?"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Estremera Paños, Sergio"]
+[Result "1-0"]
+[ECO "D45"]
+[PlyCount "93"]
+[EventDate "1987.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 d5 4. Nc3 c6 5. e3 Nbd7 6. Qc2 Bd6 7. Bd2 O-O 8.
+O-O-O b5 9. cxb5 c5 10. e4 cxd4 11. Nxd4 Qb6 12. Be3 e5 13. Ne6 d4 14. Na4 Qb7
+15. Nxf8 Bxf8 16. Bxd4 exd4 17. Rxd4 Nb6 18. e5 Nfd5 19. Nxb6 axb6 20. Qe4 Be6
+21. Bc4 Rc8 22. Rhd1 Qc7 23. Kd2 Bb4+ 24. Ke2 Nf4+ 25. Kf3 Bxc4 26. Kxf4 f6 27.
+Rd8+ Rxd8 28. Rxd8+ Kf7 29. Rd7+ Qxd7 30. Qxc4+ Qe6 31. Qxb4 fxe5+ 32. Kg3 Qxa2
+33. b3 Qb2 34. Qc4+ Kf6 35. Qc6+ Kf5 36. Qc4 Kf6 37. h4 h6 38. Qc6+ Kf5 39.
+Qd7+ Kf6 40. Qd8+ Kf5 41. Qf8+ Kg6 42. Qd6+ Kf5 43. Qxb6 Qxb3+ 44. Kh2 Qc4 45.
+g3 g5 46. Qxh6 gxh4 47. Qh7+ 1-0
+
+[Event "Camp. España indiv."]
+[Site "Salou"]
+[Date "1987.??.??"]
+[Round "2"]
+[White "Alvarez Ibarra, Rafael"]
+[Black "Estremera Paños, Sergio"]
+[Result "0-1"]
+[ECO "C83"]
+[PlyCount "84"]
+[EventDate "1987.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Nxe4 6. d4 b5 7. Bb3 d5 8. dxe5
+Be6 9. Nbd2 Be7 10. c3 O-O 11. Bc2 f5 12. Nb3 Qd7 13. Nfd4 Nxd4 14. Nxd4 c5 15.
+Nxe6 Qxe6 16. f3 Ng5 17. a4 Rad8 18. axb5 axb5 19. Re1 c4 20. Be3 Qc6 21. Qd4
+Ne6 22. Qb6 Qxb6 23. Bxb6 Rb8 24. Bf2 g6 25. Ra6 Kf7 26. Rea1 Rfd8 27. g4 f4
+28. Ra7 b4 29. Bh4 g5 30. Bf2 d4 31. Bxh7 bxc3 32. bxc3 dxc3 33. R1a6 Rb2 34.
+Bg6+ Kf8 35. Rxe6 Rd1+ 36. Kg2 Rxf2+ 37. Kxf2 Bc5+ 38. Ke2 Rd2+ 39. Ke1 Bf2+
+40. Kf1 Bxa7 41. Re8+ Kg7 42. Bf5 Be3 0-1
+
+[Event "Camp. España indiv."]
+[Site "Salou"]
+[Date "1987.??.??"]
+[Round "3"]
+[White "Estremera Paños, Sergio"]
+[Black "Romero Holmes, Alfonso"]
+[Result "1/2-1/2"]
+[ECO "E74"]
+[PlyCount "49"]
+[EventDate "1987.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Be2 O-O 6. Bg5 c5 7. dxc5 Qa5 8. Bd2
+Qxc5 9. Nf3 Bg4 10. Be3 Qa5 11. Nd2 Bxe2 12. Qxe2 Nc6 13. O-O Rac8 14. a3 Nd7
+15. Rac1 Qa6 16. f4 Nb6 17. Rfe1 Na4 18. Nxa4 Qxa4 19. Nf3 Rc7 20. Qc2 Qxc2 21.
+Rxc2 Rfc8 22. b4 b6 23. Rec1 Rd7 24. Kf2 Rcd8 25. Rd1 1/2-1/2
+
+[Event "Camp. España indiv."]
+[Site "Salou"]
+[Date "1987.??.??"]
+[Round "4"]
+[White "Estremera Paños, Sergio"]
+[Black "Gallego Eraso, Francisco"]
+[Result "1-0"]
+[ECO "E41"]
+[PlyCount "63"]
+[EventDate "1987.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 c5 5. Bd3 Nc6 6. Nge2 d5 7. cxd5 exd5 8. a3
+cxd4 9. exd4 Bd6 10. O-O O-O 11. f3 h6 12. Kh1 Re8 13. g4 Be6 14. Bc2 Qb8 15.
+Qe1 Nh7 16. Nb5 Bxh2 17. Qh4 Bd7 18. Bxh6 gxh6 19. Qxh6 Nf8 20. Qg5+ Ng6 21.
+Bxg6 fxg6 22. Qxg6+ Kf8 23. Qf6+ Kg8 24. Rf2 Rxe2 25. Qg6+ Kf8 26. Qh6+ Kg8 27.
+Rxe2 Bf4 28. Qg6+ Kf8 29. Kg2 Nd8 30. Qf6+ Nf7 31. Rh1 Kg8 32. Re7 1-0
+
+[Event "Camp. España indiv."]
+[Site "Salou"]
+[Date "1987.??.??"]
+[Round "5"]
+[White "Martin Gonzalez, Angel"]
+[Black "Estremera Paños, Sergio"]
+[Result "1-0"]
+[ECO "C82"]
+[PlyCount "69"]
+[EventDate "1987.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Nxe4 6. d4 b5 7. Bb3 d5 8. dxe5
+Be6 9. Nbd2 Nc5 10. c3 Bg4 11. Bc2 Be7 12. Re1 O-O 13. Nf1 d4 14. h3 d3 15.
+hxg4 dxc2 16. Qxc2 Qd3 17. Qe2 Rad8 18. Be3 Qg6 19. Bxc5 Bxc5 20. Qe4 Rfe8 21.
+Ng3 Qxe4 22. Rxe4 Rd5 23. Rae1 g6 24. g5 Re6 25. Nf1 Kg7 26. N1h2 h5 27. gxh6+
+Kxh6 28. Ng4+ Kg7 29. g3 Be7 30. Kg2 a5 31. Rc1 Rc5 32. Rd1 b4 33. c4 Kf8 34.
+Rd5 Ke8 35. Nf6+ 1-0
+
+[Event "L'Hospitalet de l'Infant op"]
+[Site "L'Hospitalet de l'Infant"]
+[Date "1987.??.??"]
+[Round "7"]
+[White "Estremera Paños, Sergio"]
+[Black "Falco Segarra, Lluis"]
+[Result "1-0"]
+[ECO "E73"]
+[PlyCount "61"]
+[EventDate "1987.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+[Source "Inforchess"]
+[SourceDate "2002.11.30"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Be2 O-O 6. Bg5 h6 7. Be3 e5 8. d5 a6
+9. g4 b5 10. f3 b4 11. Nb1 Bxg4 12. fxg4 Nxe4 13. Nf3 f5 14. gxf5 gxf5 15. Rg1
+Qf6 16. Nbd2 Kh8 17. Qc2 Nxd2 18. Qxd2 Nd7 19. O-O-O Nc5 20. Rg2 b3 21. a3 Ne4
+22. Qd3 Rab8 23. Rdg1 Rg8 24. Rg6 Qf8 25. Kb1 Kh7 26. Nh4 Qc8 27. Bf3 Ng5 28.
+Bxg5 e4 29. Bxe4 Rf8 30. Bd2 Rf7 31. Nxf5 1-0
+
+[Event "C. E. Barcelona Int"]
+[Site "Barcelona"]
+[Date "1988.??.??"]
+[Round "?"]
+[White "Campos Moreno, Javier B"]
+[Black "Estremera Paños, Sergio"]
+[Result "1/2-1/2"]
+[ECO "E12"]
+[WhiteElo "2330"]
+[BlackElo "2340"]
+[PlyCount "24"]
+[EventDate "1988.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. Nc3 Bb7 5. Bg5 Be7 6. e3 O-O 7. Bd3 h6 8. Bh4
+d5 9. O-O Nbd7 10. Rc1 dxc4 11. Bxc4 c5 12. Bg3 Nh5 1/2-1/2
+
+[Event "C. E. Barcelona Int"]
+[Site "Barcelona"]
+[Date "1988.??.??"]
+[Round "?"]
+[White "Estremera Paños, Sergio"]
+[Black "Eslon, Jaan"]
+[Result "1-0"]
+[ECO "E45"]
+[WhiteElo "2340"]
+[BlackElo "2395"]
+[PlyCount "65"]
+[EventDate "1988.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 b6 5. Nge2 Ba6 6. Ng3 Bxc3+ 7. bxc3 d5 8.
+Ba3 dxc4 9. Be2 Qd7 10. O-O Nc6 11. e4 O-O-O 12. Qc2 h5 13. Rfd1 Kb8 14. Nf1
+Bb7 15. Bxc4 h4 16. Ne3 h3 17. g3 Na5 18. Bd3 Nh7 19. d5 exd5 20. exd5 Ng5 21.
+Be2 g6 22. c4 Rhe8 23. Bb4 Rxe3 24. fxe3 Qe8 25. Kf2 Ne4+ 26. Ke1 Nxg3 27. hxg3
+Qxe3 28. Qd3 Qh6 29. Bxa5 h2 30. Kf2 Bc8 31. Bf3 Bf5 32. Qe3 Qh8 33. Bc3 1-0
+
+[Event "C. E. Barcelona Int"]
+[Site "Barcelona"]
+[Date "1988.??.??"]
+[Round "?"]
+[White "Estremera Paños, Sergio"]
+[Black "Garcia Ilundain, David"]
+[Result "1-0"]
+[ECO "D49"]
+[WhiteElo "2340"]
+[PlyCount "77"]
+[EventDate "1988.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. Nf3 c6 5. e3 Nbd7 6. Bd3 dxc4 7. Bxc4 b5 8. Bd3
+a6 9. e4 c5 10. e5 cxd4 11. Nxb5 Nxe5 12. Nxe5 axb5 13. Bxb5+ Bd7 14. Nxd7 Qa5+
+15. Bd2 Qxb5 16. Nxf8 Kxf8 17. a4 Qxb2 18. O-O h5 19. Bf4 Kg8 20. Be5 Rd8 21.
+Qf3 Ng4 22. Bc7 Rd5 23. Rab1 Qc2 24. Rb8+ Kh7 25. Rxh8+ Kxh8 26. Qxf7 Qxa4 27.
+Qxe6 Rd7 28. Qe8+ Kh7 29. Qxh5+ Nh6 30. Bf4 d3 31. Bxh6 gxh6 32. g3 d2 33. Rd1
+Re7 34. Qf5+ Kg7 35. Rxd2 Re1+ 36. Kg2 Qc6+ 37. Qd5 Qc1 38. Qd7+ Kh8 39. Qd8+
+1-0
+
+[Event "C. E. Barcelona Int"]
+[Site "Barcelona"]
+[Date "1988.??.??"]
+[Round "?"]
+[White "Estremera Paños, Sergio"]
+[Black "Gil Gonzalez, Jose Manuel"]
+[Result "1-0"]
+[ECO "A50"]
+[WhiteElo "2340"]
+[BlackElo "2300"]
+[PlyCount "41"]
+[EventDate "1988.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. d4 Nf6 2. c4 a6 3. Nf3 e6 4. Nc3 c5 5. d5 b5 6. Bg5 b4 7. Ne4 h6 8. Nxf6+
+gxf6 9. Bd2 f5 10. a3 bxa3 11. Rxa3 d6 12. Bc3 e5 13. g3 Nd7 14. Bh3 Nf6 15.
+Nh4 Ne4 16. Bxf5 Nxc3 17. Rxc3 Be7 18. Bxc8 Qxc8 19. Ng2 Qh3 20. O-O Rg8 21. g4
+1-0
+
+[Event "C. E. Barcelona Int"]
+[Site "Barcelona"]
+[Date "1988.??.??"]
+[Round "?"]
+[White "Estremera Paños, Sergio"]
+[Black "Monclus Domingo, Angel"]
+[Result "1-0"]
+[ECO "D34"]
+[WhiteElo "2340"]
+[PlyCount "59"]
+[EventDate "1988.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. d4 d5 2. c4 e6 3. Nf3 c5 4. cxd5 exd5 5. Nc3 Nc6 6. g3 Nf6 7. Bg2 Be7 8. O-O
+O-O 9. Bg5 cxd4 10. Nxd4 h6 11. Be3 Re8 12. Rc1 Bf8 13. Nxc6 bxc6 14. Na4 Qa5
+15. Rxc6 Bd7 16. Bd2 Bb4 17. Rc5 Bxa4 18. Rxa5 Bxd1 19. Bxb4 Bxe2 20. Re1 Rad8
+21. Rxa7 d4 22. Be7 d3 23. Bxd8 Rxd8 24. Re7 Re8 25. Rxe8+ Nxe8 26. Bc6 d2 27.
+Ra1 Nc7 28. Ba4 Ne6 29. Bd1 Nd4 30. f4 1-0
+
+[Event "C. E. Barcelona Int"]
+[Site "Barcelona"]
+[Date "1988.??.??"]
+[Round "?"]
+[White "Estremera Paños, Sergio"]
+[Black "Rodriguez Talavera, Juan Carlos"]
+[Result "1/2-1/2"]
+[ECO "D38"]
+[WhiteElo "2340"]
+[BlackElo "2275"]
+[PlyCount "23"]
+[EventDate "1988.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. Nf3 Bb4 5. Bg5 h6 6. Bxf6 Qxf6 7. cxd5 exd5 8.
+Rc1 O-O 9. a3 Bxc3+ 10. Rxc3 Nc6 11. e3 Re8 12. Bb5 1/2-1/2
+
+[Event "C. E. Barcelona Int"]
+[Site "Barcelona"]
+[Date "1988.??.??"]
+[Round "?"]
+[White "Estremera Paños, Sergio"]
+[Black "Vehi Bach, Victor Manuel"]
+[Result "1/2-1/2"]
+[ECO "A56"]
+[WhiteElo "2340"]
+[BlackElo "2340"]
+[PlyCount "121"]
+[EventDate "1988.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. d4 Nf6 2. c4 c5 3. d5 a6 4. a4 e5 5. Nc3 d6 6. e4 Be7 7. g3 O-O 8. Bg2 Ne8
+9. Nge2 g6 10. Bh6 Ng7 11. Qd2 Nd7 12. O-O Nf6 13. f3 b6 14. Nc1 Kh8 15. Nd3
+Ng8 16. Be3 f5 17. b4 Bd7 18. Rab1 Qe8 19. a5 cxb4 20. Rxb4 bxa5 21. Rbb1 Rc8
+22. c5 dxc5 23. Nxe5 Nf6 24. Rb7 Rb8 25. Rxb8 Qxb8 26. Nxd7 Nxd7 27. Rb1 Qc7
+28. Bf4 Ne5 29. Qe2 g5 30. Bd2 f4 31. gxf4 gxf4 32. Qxa6 c4 33. Kh1 Bb4 34. d6
+Qc5 35. Be1 Nd3 36. Na4 Qxd6 37. Qxd6 Bxd6 38. Bxa5 Ra8 39. Rb5 Ne6 40. Nb6 Nc7
+41. Rg5 Rxa5 42. Rxa5 c3 43. Ra2 Bc5 44. Na4 Bd4 45. Rc2 Nb5 46. Bf1 Nb4 47.
+Rc1 Na2 48. Rc2 Na3 49. Rxa2 c2 50. Rxc2 Nxc2 51. h4 Ne1 52. Be2 Kg7 53. Kh2 h5
+54. Kh3 Kf6 55. Kh2 Ke5 56. Kh3 Kd6 57. Kh2 Ke7 58. Kh3 Kd7 59. Kh2 Kc7 60. Kh3
+Kd6 61. Kh2 1/2-1/2
+
+[Event "C. E. Barcelona Int"]
+[Site "Barcelona"]
+[Date "1988.??.??"]
+[Round "?"]
+[White "Franco Ocampos, Zenon"]
+[Black "Estremera Paños, Sergio"]
+[Result "1/2-1/2"]
+[ECO "D59"]
+[WhiteElo "2425"]
+[BlackElo "2340"]
+[PlyCount "22"]
+[EventDate "1988.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. Nf3 h6 6. Bh4 O-O 7. e3 b6 8. Rc1
+Bb7 9. cxd5 Nxd5 10. Bxe7 Qxe7 11. Nxd5 Bxd5 1/2-1/2
+
+[Event "C. E. Barcelona Int"]
+[Site "Barcelona"]
+[Date "1988.??.??"]
+[Round "?"]
+[White "Gual Pascual, Antonio"]
+[Black "Estremera Paños, Sergio"]
+[Result "1/2-1/2"]
+[ECO "D58"]
+[WhiteElo "2385"]
+[BlackElo "2340"]
+[PlyCount "20"]
+[EventDate "1988.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bg5 h6 6. Bh4 O-O 7. e3 b6 8. Bd3
+Bb7 9. O-O Nbd7 10. Qe2 c6 1/2-1/2
+
+[Event "C. E. Barcelona Int"]
+[Site "Barcelona"]
+[Date "1988.??.??"]
+[Round "?"]
+[White "Przewoznik, Jan"]
+[Black "Estremera Paños, Sergio"]
+[Result "1/2-1/2"]
+[ECO "D68"]
+[WhiteElo "2375"]
+[BlackElo "2340"]
+[PlyCount "24"]
+[EventDate "1988.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. Bg5 Be7 5. e3 O-O 6. Nf3 Nbd7 7. Rc1 c6 8. Bd3
+dxc4 9. Bxc4 Nd5 10. Bxe7 Qxe7 11. O-O Nxc3 12. Rxc3 e5 1/2-1/2
+
+[Event "C. E. Barcelona Int"]
+[Site "Barcelona"]
+[Date "1988.??.??"]
+[Round "?"]
+[White "Sion Castro, Marcelino"]
+[Black "Estremera Paños, Sergio"]
+[Result "1/2-1/2"]
+[ECO "C69"]
+[WhiteElo "2330"]
+[BlackElo "2340"]
+[PlyCount "21"]
+[EventDate "1988.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. O-O f6 6. d4 Bg4 7. c3 Bd6 8.
+Nbd2 Nh6 9. Qb3 Rb8 10. h3 Bd7 11. Nc4 1/2-1/2
+
+[Event "Camp. España indiv."]
+[Site "Lleida"]
+[Date "1991.??.??"]
+[Round "1"]
+[White "Celaya Tapiz, Jose Maria"]
+[Black "Estremera Paños, Sergio"]
+[Result "0-1"]
+[ECO "B51"]
+[WhiteElo "2200"]
+[BlackElo "2300"]
+[PlyCount "100"]
+[EventDate "1991.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. O-O Ngf6 5. d3 e6 6. Nc3 Be7 7. Ne2 O-O 8.
+Ng3 a6 9. Ba4 b5 10. Bb3 Bb7 11. c3 Re8 12. Bc2 g6 13. d4 Qc7 14. Ng5 Rac8 15.
+Bb1 e5 16. d5 Bf8 17. f4 exf4 18. Bxf4 Bg7 19. Bc2 h6 20. Nf3 Ng4 21. h3 Nge5
+22. h4 Nxf3+ 23. Qxf3 Ne5 24. Bxe5 Rxe5 25. h5 Qe7 26. Rf2 Rf8 27. Raf1 b4 28.
+Qd3 bxc3 29. bxc3 c4 30. Qxc4 Qh4 31. Qd3 Rg5 32. Rf3 Be5 33. Kf2 Rxh5 34. Ke2
+Rg5 35. Rh1 Qg4 36. Rh3 h5 37. Ke1 Bc8 38. Bd1 Qd7 39. Kf1 Qe7 40. Nf5 gxf5 41.
+exf5 f6 42. Rf2 Qg7 43. Bxh5 Rg3 44. Rxg3 Qxg3 45. Rf3 Qg5 46. Bg6 Bd7 47. Qxa6
+Qc1+ 48. Kf2 Qb2+ 49. Kg1 Bb5 50. Bf7+ Kg7 0-1
+
+[Event "Camp. España indiv."]
+[Site "Lleida"]
+[Date "1991.??.??"]
+[Round "2"]
+[White "Estremera Paños, Sergio"]
+[Black "Izeta Txabarri, Felix"]
+[Result "1/2-1/2"]
+[ECO "A70"]
+[WhiteElo "2300"]
+[BlackElo "2425"]
+[PlyCount "71"]
+[EventDate "1991.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 c5 4. d5 d6 5. Nc3 exd5 6. cxd5 g6 7. h3 Bg7 8. e4
+O-O 9. Bd3 b5 10. Bxb5 Nxe4 11. Nxe4 Qa5+ 12. Nfd2 Qxb5 13. Nxd6 Qa6 14. N2c4
+Rd8 15. Bf4 Nd7 16. O-O Nb6 17. Nxb6 axb6 18. Nxc8 Qxc8 19. Qb3 Qf5 20. Bc7
+Rxd5 21. Qxb6 Rd2 22. Qc6 Rc8 23. Rae1 Bd4 24. g4 Qf6 25. Qxf6 Bxf6 26. Be5
+Bxe5 27. Rxe5 Rxb2 28. a4 c4 29. Rc1 Rc6 30. Kf1 c3 31. Re2 Kg7 32. a5 c2 33.
+Kg2 Ra2 34. a6 Rcxa6 35. Rcxc2 Rxc2 36. Rxc2 1/2-1/2
+
+[Event "Camp. España indiv."]
+[Site "Lleida"]
+[Date "1991.??.??"]
+[Round "3"]
+[White "Illescas Cordoba, Miquel"]
+[Black "Estremera Paños, Sergio"]
+[Result "1-0"]
+[ECO "A17"]
+[WhiteElo "2545"]
+[BlackElo "2300"]
+[PlyCount "63"]
+[EventDate "1991.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. Nf3 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 c5 5. a3 Ba5 6. g3 Nc6 7. Bg2 O-O 8. O-O
+d6 9. Rb1 e5 10. e3 Be6 11. Na2 h6 12. b4 Bb6 13. d3 Qd7 14. Nc3 Bd8 15. Nd2
+Rc8 16. bxc5 dxc5 17. Nde4 b6 18. Nxf6+ Bxf6 19. Nd5 Bd8 20. Bb2 Qd6 21. f4
+exf4 22. gxf4 f5 23. Rf3 Rf7 24. Rg3 Kh7 25. Kh1 Bh4 26. Rh3 Qd8 27. Rg1 Rd7
+28. Qe2 g6 29. Rxh4 Bxd5 30. cxd5 Qxh4 31. dxc6 Re7 32. Be5 1-0
+
+[Event "Camp. España indiv."]
+[Site "Lleida"]
+[Date "1991.??.??"]
+[Round "4"]
+[White "Estremera Paños, Sergio"]
+[Black "Pastor Pons, Pedro Maria"]
+[Result "1-0"]
+[ECO "A42"]
+[WhiteElo "2300"]
+[BlackElo "2200"]
+[PlyCount "85"]
+[EventDate "1991.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. d4 g6 2. c4 Bg7 3. Nc3 d6 4. e4 Nd7 5. Be3 e5 6. d5 Ne7 7. Nf3 O-O 8. h4 f5
+9. Ng5 Nc5 10. b4 Na6 11. a3 f4 12. Bd2 Bf6 13. Be2 c6 14. Bg4 Nc7 15. Rc1 h6
+16. Bxc8 Qxc8 17. Nf3 cxd5 18. cxd5 Qg4 19. Kf1 Qd7 20. Qa4 b5 21. Qb3 g5 22.
+hxg5 hxg5 23. Nh2 Kg7 24. f3 Nc8 25. Ng4 Nb6 26. Ke2 Rh8 27. Qb1 Nc4 28. Rxh8
+Rxh8 29. Rh1 Rh4 30. Rxh4 gxh4 31. Qb3 Nb6 32. Be1 Bd8 33. Bf2 Nca8 34. Nd1 a6
+35. Nb2 Qc8 36. Kd2 Qd7 37. Qc3 Kg6 38. Ke2 Kh5 39. Nd3 Qc8 40. Nxf4+ exf4 41.
+Qh8+ Kg6 42. Qg8+ Kh5 43. Qh7+ 1-0
+
+[Event "Camp. España indiv."]
+[Site "Lleida"]
+[Date "1991.??.??"]
+[Round "5"]
+[White "Ochoa de Echaguen, Francisco Javier"]
+[Black "Estremera Paños, Sergio"]
+[Result "1/2-1/2"]
+[ECO "A03"]
+[WhiteElo "2390"]
+[BlackElo "2300"]
+[PlyCount "42"]
+[EventDate "1991.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. f4 Nf6 2. Nf3 g6 3. g3 Bg7 4. Bg2 d5 5. O-O c6 6. c3 Nbd7 7. Ne5 Ne4 8. Nxd7
+Bxd7 9. Qe1 Qb6+ 10. Kh1 h5 11. d3 Nc5 12. h3 a5 13. Na3 Qc7 14. Qf2 b6 15. Be3
+Rb8 16. Bd4 O-O 17. Bxg7 Kxg7 18. e4 dxe4 19. dxe4 Rbd8 20. b4 Na6 21. bxa5 b5
+1/2-1/2
+
+[Event "Camp. España indiv."]
+[Site "Lleida"]
+[Date "1991.??.??"]
+[Round "6"]
+[White "Estremera Paños, Sergio"]
+[Black "Bernal Moro, Luis Javier"]
+[Result "0-1"]
+[ECO "E81"]
+[WhiteElo "2300"]
+[BlackElo "2395"]
+[PlyCount "100"]
+[EventDate "1991.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Bg5 c5 7. d5 e6 8. Nge2
+exd5 9. Nxd5 Qa5+ 10. b4 Qd8 11. bxc5 Qa5+ 12. Bd2 Qd8 13. cxd6 Nxd5 14. cxd5
+f5 15. Bc3 Qh4+ 16. g3 Bxc3+ 17. Nxc3 Qf6 18. Rc1 Bd7 19. Bg2 Na6 20. f4 fxe4
+21. Nxe4 Qb2 22. O-O Bf5 23. Rb1 Qa3 24. Qd4 Bxe4 25. Bxe4 Qc5 26. Qxc5 Nxc5
+27. Bg2 Rad8 28. Rfe1 Rxd6 29. Re7 Rf7 30. Rxf7 Kxf7 31. Rc1 b6 32. Rc3 Ke7 33.
+Kf2 Rf6 34. Ke3 Kd6 35. Kd4 g5 36. Rf3 gxf4 37. Rxf4 Rxf4+ 38. gxf4 b5 39. Bh3
+a5 40. Bc8 b4 41. Bf5 h6 42. Kc4 Na4 43. Be6 Nc3 44. f5 Ke5 45. Kc5 a4 46. d6
+b3 47. d7 b2 48. d8=Q Ne4+ 49. Kc4 b1=Q 50. Qc7+ Nd6+ 0-1
+
+[Event "Camp. España indiv."]
+[Site "Lleida"]
+[Date "1991.??.??"]
+[Round "7"]
+[White "Blazquez Gomez, Juan Carlos"]
+[Black "Estremera Paños, Sergio"]
+[Result "0-1"]
+[ECO "E32"]
+[WhiteElo "2200"]
+[BlackElo "2300"]
+[PlyCount "94"]
+[EventDate "1991.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. a3 Bxc3+ 6. bxc3 c5 7. e3 b6 8. Bd3
+Nc6 9. Nf3 d6 10. O-O Ba6 11. d5 Na5 12. dxe6 fxe6 13. Ng5 Bxc4 14. Bxc4 Nxc4
+15. Nxe6 Qe7 16. Nxf8 Rxf8 17. f3 d5 18. Re1 Qe5 19. Qd3 Qe6 20. e4 dxe4 21.
+fxe4 Ne5 22. Qg3 Rd8 23. Bg5 Rd3 24. Re3 Nxe4 25. Qf4 Rxe3 26. Qxe3 Nc4 27. Qf4
+h6 28. Re1 Ncd6 29. Bd8 Qd7 30. Bc7 g5 31. Qe5 Qf7 32. Rf1 Qxc7 33. Qe6+ Kg7
+34. Qe5+ Kh7 35. Re1 Qb7 36. Rd1 Qf7 37. Rf1 Qg7 38. Qe6 Qxc3 39. Kh1 Qd4 40.
+Qe7+ Qg7 41. Qe6 c4 42. Re1 Qf6 43. Qd7+ Kg6 44. h3 Qf7 45. Qc6 Kg7 46. Rc1 c3
+47. Re1 b5 0-1
+
+[Event "Camp. España indiv."]
+[Site "Lleida"]
+[Date "1991.??.??"]
+[Round "8"]
+[White "Estremera Paños, Sergio"]
+[Black "Cisneros Belenguer, Lucas"]
+[Result "1-0"]
+[ECO "E81"]
+[WhiteElo "2300"]
+[BlackElo "2395"]
+[PlyCount "81"]
+[EventDate "1991.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Bg5 Nc6 7. Nge2 a6 8. Qd2
+e5 9. d5 Na5 10. Ng3 c5 11. Be2 b5 12. b3 bxc4 13. bxc4 Rb8 14. Rc1 Rb4 15. Nd1
+Qc7 16. Qc2 Bd7 17. Bd2 Rbb8 18. Qd3 Rfc8 19. O-O Be8 20. Qa3 Nb7 21. Rb1 Ra8
+22. Nc3 Rcb8 23. Rb2 Nd7 24. Rfb1 Nd8 25. Rxb8 Nxb8 26. Bd1 Ra7 27. Ba4 Bd7 28.
+Bxd7 Nxd7 29. Nd1 Nb7 30. Qa4 Bf6 31. Nc3 Nb6 32. Qc6 Bd8 33. Qe8+ Kg7 34. Bh6+
+Kxh6 35. Qf8+ Kg5 36. Qg7 h5 37. h4+ Kxh4 38. Nf5+ gxf5 39. g3+ Kh3 40. Rb2 Bg5
+41. Qxg5 1-0
+
+[Event "Camp. España indiv."]
+[Site "Lleida"]
+[Date "1991.??.??"]
+[Round "9"]
+[White "Fernandez Aguado, Juan Luis"]
+[Black "Estremera Paños, Sergio"]
+[Result "1/2-1/2"]
+[ECO "C45"]
+[WhiteElo "2470"]
+[BlackElo "2300"]
+[PlyCount "80"]
+[EventDate "1991.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 bxc6 6. e5 Qe7 7. Qe2 Nd5 8.
+c4 Ba6 9. Nd2 O-O-O 10. b3 f6 11. Bb2 fxe5 12. O-O-O Re8 13. Nf3 e4 14. Ne5
+Qg5+ 15. Qd2 Qxd2+ 16. Rxd2 Nf6 17. g3 Bb4 18. Rc2 Bc5 19. Bh3 Bb7 20. Rd1 Re7
+21. Re2 Bd6 22. Ng4 Nxg4 23. Bxg4 c5 24. f4 h5 25. Bf5 h4 26. Rde1 hxg3 27.
+hxg3 Rh6 28. Kb1 g6 29. Bxe4 Bxe4+ 30. Rxe4 Rxe4 31. Rxe4 Rh1+ 32. Bc1 Rg1 33.
+Re8+ Kb7 34. Re3 Bf8 35. Kc2 Bg7 36. Re7 Bd4 37. Rxd7 Rxg3 38. Bd2 Kc6 39. Rd5
+Bf6 40. a3 Be7 1/2-1/2
+
+[Event "Ct. Catalunya equips"]
+[Site "?"]
+[Date "1999.??.??"]
+[Round "1"]
+[White "Granados Gomez, M."]
+[Black "Estremera Paños, S."]
+[Result "1/2-1/2"]
+[ECO "D26"]
+[WhiteElo "2455"]
+[BlackElo "2405"]
+[PlyCount "42"]
+[EventDate "1999.??.??"]
+
+1. d4 Nf6 2. Nf3 d5 3. c4 dxc4 4. Nc3 e6 5. e3 c5 6. Bxc4 Nc6 7. O-O a6 8. Bb3
+cxd4 9. exd4 Be7 10. a3 O-O 11. Re1 Na5 12. Ba2 b5 13. d5 Nxd5 14. Nxd5 exd5
+15. Bxd5 Bb7 16. Bxb7 Nxb7 17. Qxd8 Bxd8 18. Bf4 Bf6 19. Be5 Bxe5 20. Nxe5 Rfe8
+21. Kf1 Rac8 1/2-1/2
+
+[Event "Ct. Catalunya equips"]
+[Site "?"]
+[Date "1999.??.??"]
+[Round "2"]
+[White "Estremera Paños, S."]
+[Black "Armengol Navarro, S."]
+[Result "1-0"]
+[ECO "D16"]
+[WhiteElo "2405"]
+[BlackElo "2260"]
+[PlyCount "49"]
+[EventDate "1999.??.??"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Nd5 6. e4 Nxc3 7. bxc3 b5 8. Ne5
+e6 9. Qf3 Qf6 10. Qg3 Bd6 11. f4 Bxe5 12. dxe5 Qg6 13. Qf3 O-O 14. Be2 a6 15.
+O-O f6 16. exf6 gxf6 17. f5 Qg7 18. Qh3 exf5 19. Bh6 Qa7+ 20. Kh1 Re8 21. exf5
+Re5 22. Rad1 Rd5 23. Qg3+ Kh8 24. Rxd5 cxd5 25. Qd6 1-0
+
+[Event "Ct. Catalunya equips"]
+[Site "?"]
+[Date "1999.??.??"]
+[Round "3"]
+[White "Gonzalez Velez, F."]
+[Black "Estremera Paños, S."]
+[Result "0-1"]
+[ECO "D28"]
+[WhiteElo "2445"]
+[BlackElo "2405"]
+[PlyCount "92"]
+[EventDate "1999.??.??"]
+
+1. d4 d5 2. c4 dxc4 3. Nf3 Nf6 4. e3 e6 5. Bxc4 c5 6. O-O Nc6 7. Nc3 a6 8. Qe2
+cxd4 9. exd4 Be7 10. Rd1 Na5 11. Bd3 O-O 12. Ne5 b5 13. Ne4 Bb7 14. Nc5 Bd5 15.
+Bg5 Nb7 16. Bxf6 Bxf6 17. Ncd7 Bxe5 18. Bxh7+ Kxh7 19. Nxf8+ Qxf8 20. dxe5 Kg8
+21. Rdc1 Rc8 22. Rxc8 Qxc8 23. Qe3 Qc5 24. Qg5 Bc6 25. h4 Qd5 26. h5 f6 27. Qg6
+Qxe5 28. Rc1 Qe4 29. Qg3 Nd8 30. h6 g5 31. Rd1 Bd5 32. f3 Qe3+ 33. Kh1 Qf4 34.
+Qf2 Qh4+ 35. Qxh4 gxh4 36. Rd4 h3 37. gxh3 Bxf3+ 38. Kh2 Bd5 39. b3 Nc6 40. Rd2
+Kh7 41. Rf2 f5 42. Kg3 Kxh6 43. Kf4 Kg6 44. h4 e5+ 45. Kg3 f4+ 46. Kh2 Kf5 0-1
+
+[Event "Ct. Catalunya equips"]
+[Site "?"]
+[Date "1999.??.??"]
+[Round "4"]
+[White "Estremera Paños, S."]
+[Black "Rahal, MA."]
+[Result "1-0"]
+[ECO "A90"]
+[WhiteElo "2405"]
+[BlackElo "2465"]
+[PlyCount "71"]
+[EventDate "1999.??.??"]
+
+1. d4 e6 2. c4 f5 3. g3 Nf6 4. Bg2 d5 5. Qc2 c6 6. Nh3 Bd6 7. O-O O-O 8. Bf4
+Be7 9. Bg5 h6 10. Bxf6 Bxf6 11. e3 g5 12. Nd2 b6 13. Rfc1 Bb7 14. b4 a5 15.
+bxa5 Rxa5 16. Rab1 Be7 17. a4 Nd7 18. cxd5 cxd5 19. Bf1 Ba3 20. Rd1 Bd6 21. Bb5
+Nf6 22. f4 Ng4 23. Nf1 Kg7 24. Qd3 Qe7 25. Nd2 Raa8 26. Nf3 Nxe3 27. Qxe3 g4
+28. Nhg5 hxg5 29. Nxg5 Rfc8 30. Re1 e5 31. fxe5 Bb4 32. Rf1 Rf8 33. Rxb4 Qxb4
+34. Ne6+ Kh7 35. Qg5 Rf7 36. Qh5+ 1-0
+
+[Event "Ct. Catalunya equips"]
+[Site "?"]
+[Date "1999.??.??"]
+[Round "5"]
+[White "Salgado Allaria, C."]
+[Black "Estremera Paños, S."]
+[Result "0-1"]
+[ECO "D26"]
+[WhiteElo "2340"]
+[BlackElo "2405"]
+[PlyCount "68"]
+[EventDate "1999.??.??"]
+
+1. d4 d5 2. c4 dxc4 3. Nf3 Nf6 4. e3 e6 5. Bxc4 c5 6. Qe2 cxd4 7. Nxd4 e5 8.
+Bb5+ Bd7 9. Nf3 e4 10. Nd4 Nc6 11. Nc3 Bd6 12. Nxc6 bxc6 13. Ba4 Qe7 14. h3 O-O
+15. Bd2 Rfb8 16. Bb3 a5 17. Rc1 Qe5 18. Na4 Nd5 19. Nc5 Be8 20. Rc2 Nb4 21.
+Bxb4 Rxb4 22. Na4 c5 23. Nc3 Rab8 24. Nd1 a4 25. Bc4 Bc7 26. g3 h5 27. b3 Bd7
+28. Nc3 Ba5 29. Kf1 axb3 30. axb3 Rxb3 31. Bxb3 Rxb3 32. Nd1 Bb5 33. Rc4 Qd5
+34. Kg2 Bxc4 0-1
+
+[Event "Ct. Catalunya equips"]
+[Site "?"]
+[Date "1999.??.??"]
+[Round "6"]
+[White "Sanchez Luque, J."]
+[Black "Estremera Paños, S."]
+[Result "0-1"]
+[ECO "B62"]
+[WhiteElo "2155"]
+[BlackElo "2405"]
+[PlyCount "72"]
+[EventDate "1999.??.??"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Bg5 e6 7. f4 h6 8. Bxf6
+Qxf6 9. Nde2 a6 10. Qd2 Qd8 11. O-O-O Qc7 12. g4 Be7 13. h4 Bd7 14. Qe3 O-O-O
+15. Nd4 Kb8 16. Nxc6+ Bxc6 17. Be2 Bf6 18. Bf3 Qa5 19. e5 Bxf3 20. exf6 Bxh1
+21. fxg7 Rhg8 22. Rxh1 Rxg7 23. g5 hxg5 24. hxg5 Rgg8 25. a3 Rh8 26. Rd1 Qf5
+27. Kb1 d5 28. Rd4 Rh3 29. Qf2 Rc8 30. Ka2 Rc6 31. Rb4 Rh1 32. Qd4 Rh3 33.
+Rxb7+ Kxb7 34. Qb4+ Kc8 35. Qf8+ Kd7 36. Qa8 Rhxc3 0-1
+
+[Event "Ct. Catalunya equips"]
+[Site "?"]
+[Date "1999.??.??"]
+[Round "7"]
+[White "Estremera Paños, S."]
+[Black "Domenech Plana, J."]
+[Result "1-0"]
+[ECO "A44"]
+[WhiteElo "2405"]
+[BlackElo "2300"]
+[PlyCount "97"]
+[EventDate "1999.??.??"]
+
+1. d4 c5 2. d5 e5 3. e4 d6 4. Bb5+ Bd7 5. a4 Ne7 6. Nf3 Ng6 7. h4 Be7 8. h5 Nh4
+9. Nxh4 Bxh4 10. Qg4 Bf6 11. Nd2 Qa5 12. Bxd7+ Nxd7 13. c3 b5 14. Nb3 Qa6 15.
+Qe2 Rb8 16. axb5 Qxb5 17. Qxb5 Rxb5 18. Nd2 Rb7 19. Nc4 Be7 20. f3 Nb6 21. Na5
+Rd7 22. Nc6 Nc8 23. Be3 Bd8 24. b4 cxb4 25. cxb4 Bb6 26. Bxb6 axb6 27. Ra8 O-O
+28. Kd2 b5 29. Ra6 Rb7 30. Rc1 Nb6 31. Na5 Rbb8 32. Rc6 Nc8 33. Rc7 Nb6 34. Rc6
+Nc8 35. Kd3 f5 36. Rc7 fxe4+ 37. fxe4 Rf7 38. Rxf7 Kxf7 39. Nc6 Rb6 40. Ra8 Ne7
+41. Ra7 Rxc6 42. dxc6 Ke6 43. Rc7 h6 44. Ke3 Kf6 45. Kf3 Ke6 46. Kg4 Kf6 47.
+Rxe7 Kxe7 48. Kf5 Kd8 49. Ke6 1-0
+
+[Event "Ct. Catalunya equips"]
+[Site "?"]
+[Date "1999.??.??"]
+[Round "8"]
+[White "Bruned Segura, M."]
+[Black "Estremera Paños, S."]
+[Result "0-1"]
+[ECO "B18"]
+[WhiteElo "2255"]
+[BlackElo "2395"]
+[PlyCount "108"]
+[EventDate "1999.??.??"]
+
+1. e4 c6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. Nf3 Nf6 7. h4 h6 8. Ne5
+Bh7 9. Bd3 Bxd3 10. Qxd3 e6 11. Be3 Nbd7 12. O-O-O Nxe5 13. dxe5 Qxd3 14. Rxd3
+Ng4 15. Bd4 c5 16. f3 cxd4 17. fxg4 Rd8 18. Rhd1 Be7 19. Ne4 Rd5 20. Nd6+ Bxd6
+21. exd6 e5 22. c3 Kd7 23. cxd4 Rc8+ 24. Kb1 e4 25. Ra3 a6 26. Rb3 b5 27. Re3
+Re8 28. Kc2 Rxd6 29. Kc3 Rf6 30. g3 Rf2 31. Kb3 Rc8 32. Rde1 Rcc2 33. Rxe4
+Rxb2+ 34. Kc3 Rxa2 35. Re5 Kd6 36. Kd3 Rf3+ 37. Ke4 Rxg3 38. Rd5+ Ke6 39. Re5+
+Kf6 40. Kf4 Rag2 41. Rf5+ Kg6 42. h5+ Kh7 43. Ra1 Rxg4+ 44. Kf3 R2g3+ 45. Kf2
+Rd3 46. Rxa6 Rdxd4 47. Rxb5 Rg5 48. Rb7 Rf4+ 49. Ke3 Rf1 50. Ke2 Rff5 51. Raa7
+Rxh5 52. Rxf7 Rxf7 53. Rxf7 Kg6 54. Ra7 Rf5 0-1
+
+[Event "Catalunya 75 Aniversari"]
+[Site "Barcelona"]
+[Date "2000.04.18"]
+[Round "3.22"]
+[White "Estremera Paños, S."]
+[Black "Lin, Yi"]
+[Result "1-0"]
+[ECO "E97"]
+[PlyCount "62"]
+[EventDate "2000.??.??"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5
+Ne7 9. b4 a5 10. Ba3 axb4 11. Bxb4 b6 12. a4 Nd7 13. a5 bxa5 14. Bxa5 Ba6 15.
+Nb5 Bxb5 16. cxb5 Nc5 17. Qc2 f5 18. Ng5 Rc8 19. Bb4 Nxd5 20. Bc4 Qxg5 21.
+Bxd5+ Kh8 22. Bxc5 dxc5 23. Qxc5 Rb8 24. Ra7 Qf6 25. Rxc7 fxe4 26. Bxe4 Bh6 27.
+g3 Bg7 28. Rd1 Rf7 29. Rxf7 Qxf7 30. b6 Qb3 31. Rd7 Qxb6 1-0
+
+[Event "Catalunya 75 Aniversari"]
+[Site "Barcelona"]
+[Date "2000.04.19"]
+[Round "4.12"]
+[White "Estremera Paños, S."]
+[Black "Walter Travella, G."]
+[Result "1-0"]
+[ECO "A90"]
+[PlyCount "93"]
+[EventDate "2000.??.??"]
+[EventRounds "9"]
+
+1. d4 e6 2. c4 f5 3. g3 Nf6 4. Bg2 Bb4+ 5. Nd2 O-O 6. Ngf3 d6 7. O-O Bxd2 8.
+Bxd2 Ne4 9. Qc2 e5 10. dxe5 dxe5 11. Bc3 Nxc3 12. Qxc3 e4 13. Nd4 Qf6 14. Rad1
+Bd7 15. Qa3 Na6 16. b4 Qe7 17. c5 c6 18. f3 exf3 19. Rxf3 Rad8 20. Rfd3 Rde8
+21. Nxc6 Bxc6 22. Bxc6 bxc6 23. Qxa6 Qxe2 24. Qxc6 Qxa2 25. Qd5+ Qxd5 26. Rxd5
+f4 27. Rf1 fxg3 28. hxg3 Rxf1+ 29. Kxf1 Kf7 30. c6 Re7 31. b5 Ke6 32. Rd8 Rc7
+33. Kf2 Rf7+ 34. Ke3 Ke7 35. Ra8 Kd6 36. Kd4 Re7 37. Kc4 Re4+ 38. Kc3 Re7 39.
+Kd4 Rf7 40. Kc4 g5 41. Rg8 Rf5 42. Rd8+ Kc7 43. Rd7+ Kb8 44. Kd4 h5 45. Rb7+
+Ka8 46. Rh7 Kb8 47. Rxh5 1-0
+
+[Event "Catalunya 75 Aniversari"]
+[Site "Barcelona"]
+[Date "2000.04.20"]
+[Round "5.7"]
+[White "Jerez Perez, A."]
+[Black "Estremera Paños, S."]
+[Result "1/2-1/2"]
+[ECO "E17"]
+[PlyCount "95"]
+[EventDate "2000.??.??"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. Nf3 e6 3. g3 b6 4. Bg2 Bb7 5. c4 Be7 6. O-O O-O 7. d5 exd5 8. Nh4
+c6 9. cxd5 Nxd5 10. Nf5 Nc7 11. Nc3 d5 12. e4 Bf6 13. Bf4 Nba6 14. Qg4 Bc8 15.
+Rad1 Bxf5 16. Qxf5 Qc8 17. Qh5 Ne6 18. exd5 Nxf4 19. gxf4 g6 20. Qf3 Bxc3 21.
+bxc3 cxd5 22. Rxd5 Nc7 23. Re5 Qd8 24. Qg3 Rb8 25. f5 Re8 26. Rxe8+ Nxe8 27.
+Re1 Nf6 28. fxg6 hxg6 29. Qe3 Rc8 30. h3 Rc5 31. Qd4 Rc8 32. Qe5 Kg7 33. Re3
+Rc5 34. Qd4 Qc7 35. Rf3 Qe5 36. Re3 Qxd4 37. cxd4 Rc1+ 38. Kh2 Rd1 39. Ra3 a5
+40. Rb3 Rxd4 41. Rxb6 Rd2 42. a3 Rxf2 43. Ra6 Rf5 44. a4 Rc5 45. Bf1 Ne4 46.
+Bb5 Nc3 47. Rxa5 Nxa4 48. Ra7 1/2-1/2
+
+[Event "Catalunya 75 Aniversari"]
+[Site "Barcelona"]
+[Date "2000.04.21"]
+[Round "6.12"]
+[White "Llobet Reus, P."]
+[Black "Estremera Paños, S."]
+[Result "1/2-1/2"]
+[ECO "B56"]
+[PlyCount "114"]
+[EventDate "2000.??.??"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Be3 Ng4 7. Bc1 Qb6 8.
+Bb5 Bd7 9. Bxc6 bxc6 10. O-O g6 11. h3 Ne5 12. b3 Bg7 13. Be3 c5 14. Nd5 Qb7
+15. Ne2 Nc6 16. c3 O-O 17. Bg5 f6 18. Bd2 e6 19. Ne3 Ne7 20. Bc1 Qc6 21. Bb2 f5
+22. exf5 Nxf5 23. Nxf5 Rxf5 24. Ng3 Rf7 25. Qe2 d5 26. Rad1 Rb8 27. Qe3 c4 28.
+b4 a5 29. a3 axb4 30. axb4 Ra8 31. Ra1 Rff8 32. Ne2 Rxa1 33. Rxa1 e5 34. Ra7
+Re8 35. Qf3 Rd8 36. Qe3 Bf5 37. Qf3 Qb6 38. Ra8 Be4 39. Rxd8+ Qxd8 40. Qe3 Bd3
+41. Nc1 Bf5 42. Ne2 Qd7 43. Qc5 Bf8 44. Qe3 Bg7 45. Qc5 Bd3 46. Nc1 Bf8 47. Qe3
+e4 48. Ne2 Bg7 49. Nd4 Qa4 50. Qg5 Qd7 51. Qe3 Be5 52. Qg5 Bg7 53. Qe3 h6 54.
+Qg3 Kh7 55. b5 Bxd4 56. cxd4 c3 57. Bxc3 Bxb5 1/2-1/2
+
+[Event "Catalunya 75 Aniversari"]
+[Site "Barcelona"]
+[Date "2000.04.22"]
+[Round "7.12"]
+[White "Estremera Paños, S."]
+[Black "Vera Pons, F."]
+[Result "1-0"]
+[ECO "D30"]
+[PlyCount "57"]
+[EventDate "2000.??.??"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 e6 3. Nf3 c6 4. Nbd2 Nf6 5. e3 Nbd7 6. Bd3 Bd6 7. O-O e5 8. cxd5
+cxd5 9. dxe5 Nxe5 10. Nxe5 Bxe5 11. Nf3 Bd6 12. Bb5+ Bd7 13. Bxd7+ Qxd7 14. b3
+O-O 15. Bb2 Be7 16. Qd4 b6 17. Ne5 Qf5 18. Nc6 Bd6 19. Qh4 Ng4 20. h3 Nh2 {#}
+21. Qg3 Bxg3 22. Ne7+ Kh8 23. Nxf5 Nxf1 24. Bxg7+ Kg8 25. Bxf8 Be5 26. Rxf1
+Kxf8 27. Rc1 Rd8 28. f4 Bb2 29. Rc7 1-0
+
+[Event "Catalunya 75 Aniversari"]
+[Site "Barcelona"]
+[Date "2000.04.23"]
+[Round "8.10"]
+[White "Hernandez Jimenez, G."]
+[Black "Estremera Paños, S."]
+[Result "1-0"]
+[ECO "E13"]
+[PlyCount "83"]
+[EventDate "2000.??.??"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 b6 4. Nc3 Bb4 5. Bg5 h6 6. Bh4 Bb7 7. e3 Bxc3+ 8.
+bxc3 d6 9. Nd2 g5 10. Bg3 Qe7 11. f3 Nc6 12. Qa4 Qd7 13. e4 e5 14. c5 dxc5 15.
+dxc5 O-O-O 16. O-O-O Qe7 17. Bf2 Nd7 18. Nb3 Rhg8 19. Ba6 Ndb8 20. Bxb7+ Kxb7
+21. Rd5 f5 22. Rhd1 f4 23. cxb6 axb6 24. h3 Na6 25. Bc5 Qf6 26. Ba3 h5 27. Qb5
+g4 28. Rxd8 Rxd8 29. Rxd8 Qxd8 30. hxg4 hxg4 31. fxg4 Qg5 32. Qe2 f3+ 33. Qd2
+fxg2 34. Qxg5 g1=Q+ 35. Kb2 Qg2+ 36. Qd2 Qxe4 37. g5 Ne7 38. Bxe7 Nb8 39. Qc2
+Qf3 40. g6 Nc6 41. Bg5 e4 42. Qd2 1-0
+
+[Event "Catalunya 75 Aniversari"]
+[Site "Barcelona"]
+[Date "2000.04.24"]
+[Round "9.13"]
+[White "Estremera Paños, S."]
+[Black "Serra Pages, J."]
+[Result "1/2-1/2"]
+[ECO "D60"]
+[PlyCount "105"]
+[EventDate "2000.??.??"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Nbd7 5. Bg5 Be7 6. e3 O-O 7. Bd3 Re8 8. O-O
+c6 9. Rc1 dxc4 10. Bxc4 h6 11. Bh4 b5 12. Bd3 Bb7 13. e4 a6 14. e5 Nd5 15. Bxe7
+Nxc3 16. Bh7+ Kh8 17. Rxc3 Rxe7 18. Be4 Rc8 19. Qc2 Nb8 20. Rc1 Rd7 21. h4 Qe7
+22. h5 Kg8 23. Qe2 Kf8 24. Qe3 Rcd8 25. a3 Ke8 26. b4 Ba8 27. Rd3 Ra7 28. Nd2
+a5 29. Qg3 Qg5 30. Qxg5 hxg5 31. bxa5 Rxa5 32. g4 Ra4 33. Nf3 c5 34. Bxa8 c4
+35. Re3 Rxa8 36. Nxg5 Rxd4 37. Ne4 Ke7 38. Rb1 Ra5 39. a4 Rxa4 40. Rxb5 Nd7 41.
+g5 c3 42. Nxc3 Rg4+ 43. Kh2 Rh4+ 44. Kg2 Rag4+ 45. Rg3 Rxg3+ 46. Kxg3 Rxh5 47.
+g6 f6 48. exf6+ gxf6 49. Ne4 f5 50. Nd2 Rh8 51. Nf3 Rb8 52. Ra5 Rb7 53. Ra8
+1/2-1/2
+
+[Event "Andorra op"]
+[Site "?"]
+[Date "2008.07.22"]
+[Round "4.11"]
+[White "Estremera Paños, S."]
+[Black "Fluvia Poyatos, Jordi"]
+[Result "1/2-1/2"]
+[ECO "D85"]
+[PlyCount "61"]
+[EventDate "2008.??.??"]
+[EventCountry "AND"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Nf3 c5 8.
+Bb5+ Nd7 9. O-O O-O 10. a4 Nf6 11. Qd3 Bg4 12. Ne5 Be6 13. d5 Bc8 14. f4 Ne8
+15. Bxe8 Rxe8 16. Be3 Qc7 17. Qb5 Rd8 18. Qxc5 Bxe5 19. fxe5 Qxe5 20. Bd4 Qd6
+21. Qb5 Bd7 22. Qe2 e5 23. dxe6 fxe6 24. Rf6 Rf8 25. Qf2 Qe7 26. e5 Rxf6 27.
+exf6 Qf7 28. Be5 Bc6 29. Qd4 Qd7 30. Rf1 Qxd4+ 31. cxd4 1/2-1/2
+
+[Event "Andorra op"]
+[Site "?"]
+[Date "2008.07.24"]
+[Round "6.5"]
+[White "Estremera Paños, S."]
+[Black "Perez Candelario, M."]
+[Result "1/2-1/2"]
+[ECO "D43"]
+[PlyCount "49"]
+[EventDate "2008.??.??"]
+[EventCountry "AND"]
+
+1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. Nc3 c6 5. Bg5 h6 6. Bh4 dxc4 7. e4 g5 8. Bg3 b5
+9. Ne5 Bb7 10. h4 Rg8 11. hxg5 hxg5 12. Nxf7 Kxf7 13. e5 Nd5 14. Rh7+ Bg7 15.
+Qh5+ Kf8 16. Ne4 Qa5+ 17. Kd1 Qa4+ 18. Kc1 Nb4 19. Qf3+ Ke8 20. Nd6+ Kd8 21.
+Qf6+ Kc7 22. Ne8+ Kb6 23. Qd8+ Ka6 24. Nc7+ Ka5 25. Ne8+ 1/2-1/2
+
+[Event "Andorra op"]
+[Site "?"]
+[Date "2008.07.25"]
+[Round "7.9"]
+[White "Ibarra Jerez, JC."]
+[Black "Estremera Paños, S."]
+[Result "1-0"]
+[ECO "B63"]
+[PlyCount "65"]
+[EventDate "2008.??.??"]
+[EventCountry "AND"]
+
+1. e4 c5 2. Nf3 Nc6 3. Nc3 d6 4. d4 cxd4 5. Nxd4 Nf6 6. Bg5 e6 7. Qd2 Be7 8.
+O-O-O O-O 9. h4 a6 10. f3 Nxd4 11. Qxd4 Qc7 12. Qd2 b5 13. Kb1 b4 14. Ne2 Rb8
+15. g4 Rd8 16. c4 bxc3 17. Nxc3 Bd7 18. Be3 Bc6 19. g5 Nd7 20. h5 Nc5 21. Bd4
+d5 22. e5 Rb4 23. Qe3 Be8 24. Rc1 Rdb8 25. Rh2 Qb7 26. Rcc2 Na4 27. Nxa4 Bxa4
+28. Rc1 Be8 29. Bh3 Bxg5 30. Qxg5 Rxd4 31. h6 f5 32. exf6 Bg6+ 33. Qxg6 1-0
+
+[Event "Andorra op"]
+[Site "?"]
+[Date "2008.07.26"]
+[Round "8.20"]
+[White "Estremera Paños, S."]
+[Black "Simon Padros, E."]
+[Result "1/2-1/2"]
+[ECO "A41"]
+[WhiteElo "2394"]
+[PlyCount "99"]
+[EventDate "2008.??.??"]
+[EventCountry "AND"]
+
+1. Nf3 d6 2. d4 Bg4 3. e4 Nd7 4. h3 Bxf3 5. Qxf3 c6 6. Bc4 Ngf6 7. O-O e6 8.
+Re1 Be7 9. Bb3 e5 10. c3 O-O 11. Nd2 a5 12. a4 Qb6 13. Qd1 Rfe8 14. Nc4 Qc7 15.
+dxe5 dxe5 16. Qf3 Nc5 17. Bc2 Rad8 18. Be3 Nfd7 19. Rab1 Ne6 20. Rbd1 b5 21.
+axb5 cxb5 22. Nd2 Ndc5 23. Nf1 Bg5 24. Qg4 Be7 25. Bc1 Nd7 26. Ne3 Nf6 27. Qf3
+Nf4 28. Kh2 Rxd1 29. Rxd1 Rd8 30. g3 Rxd1 31. Qxd1 Ne6 32. Nd5 Nxd5 33. exd5
+Nf8 34. Qd3 Qd7 35. Be3 Bd6 36. c4 bxc4 37. Qxc4 g6 38. Ba4 Qe7 39. Qc6 f5 40.
+Bb3 Kg7 41. Qc1 Nd7 42. Bh6+ Kf7 43. Bg5 Nf6 44. Qc8 Kg7 45. Kg2 f4 46. gxf4
+exf4 47. Qe6 Qxe6 48. dxe6 h6 49. Bxf6+ Kxf6 50. Bc4 1/2-1/2
+
+[Event "Andorra op"]
+[Site "?"]
+[Date "2008.07.27"]
+[Round "9.20"]
+[White "Bjerke, S."]
+[Black "Estremera Paños, S."]
+[Result "1/2-1/2"]
+[ECO "B56"]
+[WhiteElo "2176"]
+[BlackElo "2394"]
+[PlyCount "90"]
+[EventDate "2008.??.??"]
+[EventCountry "AND"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. f3 e5 7. Nb3 Be7 8. Be3
+O-O 9. Qd2 a5 10. Bb5 Na7 11. Bd3 Be6 12. O-O Nc8 13. Qf2 Nd7 14. Rad1 Ncb6 15.
+Nd2 Rc8 16. Bb5 Bh4 17. g3 Be7 18. a3 Qc7 19. Na4 Nxa4 20. Bxa4 Nc5 21. Bb5 f5
+22. exf5 Rxf5 23. b4 axb4 24. axb4 Nd7 25. Bd3 Rff8 26. Ne4 h6 27. c4 Bxc4 28.
+Bxc4+ Qxc4 29. Nxd6 Bxd6 30. Rxd6 Nf6 31. Qd2 Ne4 32. Qd5+ Qxd5 33. Rxd5 Nf6
+34. Rxe5 Rc4 35. b5 Rd8 36. Rf2 Rd5 37. Bf4 Rb4 38. Rd2 Rbxb5 39. Rdxd5 Nxd5
+40. Bd2 Kf7 41. Kf2 Nc7 42. Rxb5 Nxb5 43. Ke3 Ke6 44. Ke4 h5 45. g4 hxg4
+1/2-1/2

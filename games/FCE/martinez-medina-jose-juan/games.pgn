@@ -1,0 +1,287 @@
+[Event "Montcada op B"]
+[Site "Montcada i Reixac"]
+[Date "2016.06.25"]
+[Round "1"]
+[White "Garcia Ruiz, Adrian"]
+[Black "Martinez Medina, Jose Juan"]
+[Result "1-0"]
+[ECO "B90"]
+[WhiteElo "1875"]
+[BlackElo "1546"]
+[PlyCount "55"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. h3 Nc6 7. g4 e5 8. Nde2
+Be6 9. g5 Nd7 10. Bg2 Be7 11. h4 f5 12. exf5 Bxf5 13. Be3 Nb4 14. Ne4 d5 15.
+N2g3 Bxe4 16. Nxe4 dxe4 17. Bxe4 Rc8 18. Qh5+ Kf8 19. c3 Nc6 20. Qf3+ Ke8 21.
+Rd1 Rf8 22. Qh5+ Rf7 23. Bd5 g6 24. Bxf7+ Kxf7 25. Qxh7+ Kf8 26. Qxg6 Qe8 27.
+Qf5+ Kg7 28. Rxd7 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.13"]
+[Round "1"]
+[White "Khudov, Oleksandr"]
+[Black "Martinez Medina, Jose Juan"]
+[Result "1-0"]
+[ECO "A21"]
+[WhiteElo "1847"]
+[BlackElo "1534"]
+[PlyCount "115"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 e5 2. Nc3 Bb4 3. g3 Bxc3 4. bxc3 f5 5. Bg2 Nf6 6. Ba3 d6 7. d4 e4 8. e3
+Nc6 9. Ne2 O-O 10. O-O Re8 11. Nf4 Ne7 12. c5 d5 13. c4 c6 14. Qb3 Rb8 15. Rfb1
+Bd7 16. Bf1 g5 17. cxd5 cxd5 18. Ne2 Bc6 19. Qc2 Qd7 20. Nc3 h5 21. Nb5 Nc8 22.
+Be2 Qh7 23. Kg2 Re7 24. Bb4 h4 25. Rh1 h3+ 26. Kf1 g4 27. Ke1 Qf7 28. Kd2 Qe8
+29. a4 Qd8 30. Rhb1 Nh7 31. Qc3 a6 32. Ba5 Qd7 33. Nc7 Bxa4 34. Nxd5 Re6 35.
+Bc4 Bc6 36. Nf4 Nf8 37. Qb3 Kf7 38. Ke2 Bb5 39. Bxb5 Qxb5+ 40. Qxb5 axb5 41.
+Nxe6 Nxe6 42. Rxb5 Na7 43. Bc7 Nxc7 44. Rb6 Nc6 45. Rab1 Nd8 46. Rh6 Nd5 47.
+Kf1 Ne6 48. Rh7+ Ng7 49. Rh6 Ne6 50. Rb5 Ne7 51. Rb6 Nd8 52. Rh7+ Kf8 53. Rd6
+Ng8 54. Rd5 Ne7 55. Rh8+ Ng8 56. Rxf5+ Nf7 57. Rh7 Ra8 58. Rhxf7+ 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.14"]
+[Round "2"]
+[White "Martinez Medina, Jose Juan"]
+[Black "Arroyo Mateo, Jose Miguel"]
+[Result "1-0"]
+[ECO "B07"]
+[WhiteElo "1534"]
+[BlackElo "1811"]
+[PlyCount "61"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Be2 c6 5. Be3 b5 6. a3 Bg7 7. g4 Bb7 8. h4 h5
+9. g5 Nfd7 10. f4 Qc7 11. Nf3 Nb6 12. b3 N8d7 13. Qd2 a5 14. O-O c5 15. Nxb5
+Qc8 16. Bd3 cxd4 17. Bxd4 Bxd4+ 18. Nfxd4 Nc5 19. Qg2 Ba6 20. a4 Bb7 21. Rae1
+Nbd7 22. Qh3 Na6 23. e5 dxe5 24. fxe5 O-O 25. e6 fxe6 26. Qxe6+ Kh8 27. Qxg6
+Rxf1+ 28. Rxf1 Nf6 29. Qh6+ Kg8 30. Bc4+ Nd5 31. Ne6 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.15"]
+[Round "3"]
+[White "Tortosa Moros, Joan"]
+[Black "Martinez Medina, Jose Juan"]
+[Result "1/2-1/2"]
+[ECO "B85"]
+[WhiteElo "1719"]
+[BlackElo "1534"]
+[PlyCount "64"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 d6 7. O-O e6 8. Kh1
+Be7 9. f4 Qc7 10. Be3 Bd7 11. Qd2 b5 12. a3 Rc8 13. f5 Ne5 14. fxe6 fxe6 15.
+Bg5 O-O 16. Rad1 Nc4 17. Bxc4 Qxc4 18. Rf3 Rf7 19. h3 Qc7 20. Rdf1 Rcf8 21. Qd3
+h6 22. Be3 Nh7 23. Rxf7 Rxf7 24. Rxf7 Kxf7 25. Qe2 Kg8 26. Nf3 Bc6 27. Qf2 Qb7
+28. Nd2 Bf6 29. Bd4 Qf7 30. Bxf6 Nxf6 31. Qb6 Qb7 32. Qd8+ Ne8 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.16"]
+[Round "4"]
+[White "Martinez Medina, Jose Juan"]
+[Black "Lozano Ruiz, David"]
+[Result "0-1"]
+[ECO "C02"]
+[WhiteElo "1534"]
+[BlackElo "1796"]
+[PlyCount "80"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Qb6 5. Nf3 Nc6 6. Bd3 cxd4 7. cxd4 Bd7 8. O-O
+Nxd4 9. Nxd4 Qxd4 10. Nc3 a6 11. Re1 Ne7 12. Qf3 Nc6 13. Bf4 Be7 14. Rad1 Qb4
+15. Rb1 O-O 16. Qg3 Kh8 17. Qh3 g6 18. Qg3 Rg8 19. h4 h5 20. a3 Qb6 21. b4 Nd4
+22. Qe3 Qa7 23. g3 Nf5 24. Qxa7 Rxa7 25. Bxf5 gxf5 26. Be3 Raa8 27. Kh2 Rg4 28.
+f4 Rc8 29. Rbc1 Rgg8 30. Ne2 Bc6 31. Bd4 Ra8 32. Bb6 Rgc8 33. Rc3 Bb5 34. Rxc8+
+Rxc8 35. Rc1 Rxc1 36. Nxc1 Bc4 37. Bd4 a5 38. bxa5 Bxa3 39. Be3 Bb4 40. Bb6 Bd2
+0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.17"]
+[Round "5"]
+[White "Romero Funieles, Rafael"]
+[Black "Martinez Medina, Jose Juan"]
+[Result "1-0"]
+[ECO "B30"]
+[WhiteElo "1774"]
+[BlackElo "1534"]
+[PlyCount "61"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. c3 d5 4. exd5 Qxd5 5. Be2 Nf6 6. O-O e5 7. Na3 Bd6 8.
+Bc4 Qe4 9. Ng5 Qh4 10. Nxf7 Ke7 11. Nxd6 Ng4 12. h3 Kxd6 13. hxg4 Bxg4 14. Be2
+h5 15. d4 cxd4 16. Be3 Rad8 17. cxd4 Nxd4 18. Bxd4 Bxe2 19. Bxe5+ Kxe5 20.
+Qxe2+ Kf6 21. Rac1 Rhe8 22. Qf3+ Kg6 23. Qxb7 Re7 24. Rc7 Rde8 25. Qxa7 Qf6 26.
+Rxe7 Rxe7 27. Qb8 Re2 28. b3 h4 29. Qc8 Rxa2 30. Nc4 Rc2 31. Ne5+ 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.18"]
+[Round "6"]
+[White "Martinez Medina, Jose Juan"]
+[Black "Pereda Villalba, Julian"]
+[Result "0-1"]
+[ECO "B00"]
+[WhiteElo "1534"]
+[BlackElo "1824"]
+[PlyCount "120"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 Nc6 2. d4 e6 3. Nf3 g6 4. Be3 Bg7 5. Qd2 Nge7 6. Bd3 O-O 7. a3 a5 8. Nc3
+b6 9. h4 e5 10. d5 Nd4 11. Bh6 d6 12. Bxg7 Kxg7 13. Nxd4 exd4 14. Ne2 c6 15.
+Nf4 cxd5 16. exd5 h6 17. O-O-O Bf5 18. Bxf5 Nxf5 19. g4 Nxh4 20. Qxd4+ Kg8 21.
+Rh3 g5 22. Rdd3 f5 23. Ne6 Qf6 24. Nxf8 Rxf8 25. Qxf6 Rxf6 26. gxf5 Rxf5 27. f3
+Kf7 28. Kd2 b5 29. b3 Kf6 30. c4 bxc4 31. bxc4 Ke7 32. Re3+ Kd7 33. Kc3 h5 34.
+Kb3 Rf4 35. Rg3 Nf5 36. Rxg5 Nxe3 37. Rxh5 Nxc4 38. Rh7+ Kc8 39. Rh8+ Kb7 40.
+Rh7+ Kb6 41. Rh8 Rxf3+ 42. Kxc4 Rf4+ 43. Kb3 a4+ 44. Kc3 Kc5 45. Rh5 Rf3+ 46.
+Kb2 Rb3+ 47. Ka2 Rd3 48. Kb2 Rxd5 49. Rxd5+ Kxd5 50. Kc3 Kc5 51. Kd3 d5 52. Kc3
+d4+ 53. Kd3 Kd5 54. Kd2 Kc4 55. Kc2 d3+ 56. Kd2 Kd4 57. Kd1 Kc4 58. Kc1 Kb3 59.
+Kd2 Kxa3 60. Kxd3 Kb2 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.19"]
+[Round "7"]
+[White "Jimenez Rimblas, Raul"]
+[Black "Martinez Medina, Jose Juan"]
+[Result "1-0"]
+[ECO "B72"]
+[BlackElo "1534"]
+[PlyCount "67"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. Qd2 Nc6 8.
+Bb5 Bd7 9. Bxc6 bxc6 10. Bh6 O-O 11. Bxg7 Kxg7 12. f4 Qa5 13. f5 Qe5 14. O-O-O
+Nxe4 15. Nxe4 Qxe4 16. Rhe1 Qd5 17. fxg6 hxg6 18. Rxe7 Qxa2 19. Nb3 Be6 20.
+Qxd6 Rad8 21. Qxe6 Rxd1+ 22. Kxd1 Qb1+ 23. Nc1 Qxb2 24. Qe5+ Qxe5 25. Rxe5 Rd8+
+26. Nd3 f5 27. Re7+ Kf6 28. Rxa7 c5 29. Ra4 g5 30. Ke2 Rd5 31. Ra6+ Ke7 32. Kf3
+c4 33. Nb4 c3 34. Nxd5+ 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.20"]
+[Round "8"]
+[White "Marcelo, Diego Luis"]
+[Black "Martinez Medina, Jose Juan"]
+[Result "0-1"]
+[ECO "B23"]
+[BlackElo "1534"]
+[PlyCount "74"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nc3 d6 3. Bc4 e6 4. Nf3 Nf6 5. O-O a6 6. a3 Nc6 7. d3 Be7 8. Bb3
+O-O 9. h3 b5 10. Ba2 Bb7 11. Re1 Qc7 12. Bf4 Ne5 13. Nxe5 dxe5 14. Bg3 Rad8 15.
+Qe2 Rd4 16. f3 Nh5 17. Bf2 Nf4 18. Qd1 Rd7 19. Ne2 Bf6 20. Bg3 Rfd8 21. Qd2 Bg5
+22. Qc3 Ng6 23. Rad1 Be3+ 24. Kf1 Kh8 25. Ng1 Bd4 26. Qd2 Bxb2 27. Qe3 Bxa3 28.
+c3 Bb2 29. Rd2 Bxc3 30. Rc2 Rxd3 31. Qc1 Bxe1 32. Rxc5 Qd6 33. Bxe1 Rd1 34. Qe3
+Nf4 35. Bb3 Rd3 36. Qf2 Rxb3 37. Rc1 Nd3 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.21"]
+[Round "9"]
+[White "Martinez Medina, Jose Juan"]
+[Black "Minko, Aleksandr"]
+[Result "0-1"]
+[ECO "C45"]
+[WhiteElo "1534"]
+[BlackElo "1145"]
+[PlyCount "70"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5 5. Nb3 Bb6 6. Qe2 Nge7 7. Be3 O-O 8.
+Bxb6 axb6 9. Nc3 Nb4 10. a3 Nbc6 11. Qe3 d5 12. Bd3 Re8 13. O-O d4 14. Nxd4
+Nxd4 15. Rad1 Nef5 16. Qf4 g5 17. Qc1 Nd6 18. h3 Nxe4 19. Rfe1 Nxc3 20. bxc3
+Rxe1+ 21. Rxe1 Ne6 22. Rd1 Qf6 23. Re1 Qxc3 24. Rxe6 Bxe6 25. Qxg5+ Kf8 26.
+Qh6+ Qg7 27. Qe3 Re8 28. Qf3 c6 29. c4 b5 30. cxb5 Bd5 31. Qg3 Qxg3 32. fxg3
+cxb5 33. Bxb5 Rc8 34. Bd3 Rc3 35. Bxh7 Rxg3 0-1
+
+[Event "Montcada op-C 25th"]
+[Site "Montcada"]
+[Date "2017.06.27"]
+[Round "2"]
+[White "Martinez Medina, Jose Juan"]
+[Black "Montserrat Rubia, Angel"]
+[Result "1/2-1/2"]
+[ECO "B07"]
+[WhiteElo "1534"]
+[BlackElo "1674"]
+[PlyCount "68"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 g6 2. d4 Bg7 3. Be3 Nf6 4. Nc3 d6 5. h3 O-O 6. Qd2 Nbd7 7. O-O-O c6 8.
+Nf3 Qa5 9. Kb1 b5 10. Bd3 b4 11. Ne2 Ba6 12. Nc1 Bxd3 13. Qxd3 Qc7 14. Nb3 a5
+15. Nfd2 a4 16. Na1 c5 17. f4 Nb6 18. e5 Nfd5 19. dxc5 dxc5 20. Rhe1 c4 21.
+Nxc4 Nxe3 22. Nxe3 Rfd8 23. Qe2 f6 24. Rxd8+ Rxd8 25. Ng4 Nc4 26. exf6 Bxf6 27.
+Nxf6+ exf6 28. Qe6+ Kg7 29. Qe7+ Qxe7 30. Rxe7+ Kf8 31. Re1 Ne3 32. g3 Ng2 33.
+Rg1 Ne3 34. Kc1 Kf7 1/2-1/2
+
+[Event "Montcada op-C 25th"]
+[Site "Montcada"]
+[Date "2017.06.28"]
+[Round "3"]
+[White "Roquet Estrada, Albert"]
+[Black "Martinez Medina, Jose Juan"]
+[Result "1/2-1/2"]
+[ECO "B06"]
+[WhiteElo "1621"]
+[BlackElo "1534"]
+[PlyCount "39"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. c3 d5 3. exd5 Qxd5 4. d4 g6 5. dxc5 Qxc5 6. Be3 Qc7 7. Nf3 Bg7 8.
+Na3 a6 9. Nc2 Nc6 10. Be2 Nh6 11. Nfd4 Bd7 12. Bf3 Rd8 13. Qc1 Nf5 14. Nxf5
+Bxf5 15. O-O O-O 16. Re1 Ne5 17. Be2 Nd3 18. Bxd3 Bxd3 19. Bf4 e5 20. Bg3
+1/2-1/2

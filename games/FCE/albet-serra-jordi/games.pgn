@@ -1,0 +1,68 @@
+[Event "Lliga Catalana DH"]
+[Site "Barcelona"]
+[Date "2024.02.24"]
+[Round "6.10"]
+[White "Diaz Comas, Jordi"]
+[Black "Albet Serra, Jordi"]
+[Result "1/2-1/2"]
+[ECO "B29"]
+[WhiteElo "1837"]
+[BlackElo "1933"]
+[PlyCount "112"]
+[EventDate "2024.??.??"]
+[TimeControl "90+30"]
+[WhiteClock "0:03:07"]
+[BlackClock "0:04:54"]
+
+1. e4 {[%emt 0:00:01]} c5 {[%emt 0:00:06]} 2. Nf3 {[%emt 0:00:10]} Nf6 {
+[%emt 0:00:16]} 3. e5 {[%emt 0:01:10]} Nd5 {[%emt 0:00:08]} 4. Nc3 {[%emt 0:00:
+28]} Nxc3 {[%emt 0:00:54]} 5. bxc3 {[%emt 0:02:30]} e6 {[%emt 0:02:49]} 6. d4 {
+[%emt 0:01:00]} d5 {[%emt 0:01:31]} 7. Bd3 {[%emt 0:06:05]} Qa5 {[%emt 0:07:59]
+} 8. Bd2 {[%emt 0:00:52]} c4 {[%emt 0:00:54]} 9. Be2 {[%emt 0:00:27]} Ba3 {
+[%emt 0:00:17]} 10. Rb1 {[%emt 0:04:08]} Nc6 {[%emt 0:01:44]} 11. O-O {[%emt 0:
+00:54]} h6 {[%emt 0:01:58]} 12. h4 {[%emt 0:06:13]} b6 {[%emt 0:05:37]} 13. g3
+{[%emt 0:04:37]} Bd7 {[%emt 0:03:38]} 14. Re1 {[%emt 0:01:42]} O-O-O {[%emt 0:
+05:29]} 15. Bf1 {[%emt 0:01:38]} Ne7 {[%emt 0:06:33]} 16. Bh3 {[%emt 0:08:44]}
+Nf5 {[%emt 0:04:48]} 17. Kg2 {[%emt 0:01:33]} Rdg8 {[%emt 0:05:35]} 18. Qe2 {
+[%emt 0:09:02]} Kb7 {[%emt 0:06:18]} 19. Rh1 {[%emt 0:06:48]} Qa4 {[%emt 0:03:
+14]} 20. Qd1 {[%emt 0:01:00]} Be7 {[%emt 0:03:23]} 21. Rb2 {[%emt 0:02:51]} Qa3
+{[%emt 0:05:08]} 22. Qc1 {[%emt 0:00:46]} Qa5 {[%emt 0:00:07]} 23. Qd1 {
+[%emt 0:01:25]} g5 {[%emt 0:01:48]} 24. Bxf5 {[%emt 0:07:56]} exf5 {[%emt 0:00:
+12]} 25. hxg5 {[%emt 0:00:08]} hxg5 {[%emt 0:00:10]} 26. Rxh8 {[%emt 0:00:14]}
+Rxh8 {[%emt 0:00:01]} 27. Bxg5 {[%emt 0:02:47]} Qxc3 {[%emt 0:04:03]} 28. Qa1 {
+[%emt 0:02:53]} Qa3 {[%emt 0:00:07]} 29. c3 {[%emt 0:01:15]} Kc7 {[%emt 0:08:
+08]} 30. Qc1 {[%emt 0:02:27]} Rh5 {[%emt 0:01:44]} 31. Bxe7 {[%emt 0:01:54]}
+Qxe7 {[%emt 0:00:02]} 32. Qf4 {[%emt 0:01:06]} Kb7 {[%emt 0:01:48]} 33. Rb1 {
+[%emt 0:01:40]} Qa3 {[%emt 0:02:30]} 34. Qd2 {[%emt 0:00:59]} f4 {[%emt 0:03:
+26]} 35. Rh1 {[%emt 0:02:07]} Rxh1 {[%emt 0:00:53]} 36. Kxh1 {[%emt 0:00:01]}
+fxg3 {[%emt 0:00:34]} 37. fxg3 {[%emt 0:00:03]} Ka6 {[%emt 0:02:07]} 38. Ng5 {
+[%emt 0:02:14]} Qf8 {[%emt 0:00:41]} 39. Qf4 {[%emt 0:02:30]} Qh6+ {[%emt 0:00:
+40]} 40. Kg1 {[%emt 0:01:31]} Qg6 {[%emt 0:04:16]} 41. Qxf7 {[%emt 0:06:44]}
+Qxg5 {[%emt 0:00:56]} 42. Qxd7 {[%emt 0:00:08]} Qxg3+ {[%emt 0:00:10]} 43. Kh1
+{[%emt 0:00:28]} Qxc3 {[%emt 0:02:39]} 44. e6 {[%emt 0:00:55]} Qa1+ {[%emt 0:
+00:49]} 45. Kg2 {[%emt 0:00:36]} Qxa2+ {[%emt 0:00:03]} 46. Kg3 {[%emt 0:00:35]
+} Qb3+ {[%emt 0:00:28]} 47. Kg4 {[%emt 0:00:57]} Qd1+ {[%emt 0:00:58]} 48. Kf5
+{[%emt 0:00:35]} Qh5+ {[%emt 0:03:17]} 49. Kf6 {[%emt 0:00:52]} Qh8+ {[%emt 0:
+00:26]} 50. Kf7 {[%emt 0:02:20]} Qh7+ {[%emt 0:01:02]} 51. Kf8 {[%emt 0:00:25]}
+Qh8+ {[%emt 0:00:51]} 52. Kf7 {[%emt 0:00:52]} Qh7+ {[%emt 0:01:01]} 53. Kf8 {
+[%emt 0:00:24]} Qh8+ {[%emt 0:00:05]} 54. Kf7 {[%emt 0:01:07]} Qh7+ 55. Kf6 {
+[%emt 0:00:01]} Qh8+ {[%emt 0:00:01]} 56. Kf5 {[%emt 0:00:06]} Qh5+ {[%emt 0:
+00:01]} 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.03.01"]
+[Round "7.10"]
+[White "Albet Serra, Jordi"]
+[Black "Torrent San Nicolas, Biel"]
+[Result "1-0"]
+[ECO "B50"]
+[WhiteElo "1960"]
+[BlackElo "1966"]
+[PlyCount "89"]
+[GameId "2152741980345249"]
+[EventDate "2025.02.15"]
+[WhiteTeam "Vila Olímpica"]
+[BlackTeam "Peona i Peó"]
+
+1. e4 c5 2. Nf3 d6 3. Be2 Nf6 4. c3 e6 5. O-O Nc6 6. Qc2 Be7 7. d4 O-O 8. Rd1 d5 9. e5 Nd7 10. Be3 b6 11. Nbd2 a5 12. Nf1 Ba6 13. Bxa6 Rxa6 14. Qe2 Ra7 15. a4 Rb7 16. Ng3 Qc7 17. h4 Rfb8 18. Bg5 Bf8 19. Ne1 h6 20. Be3 b5 21. axb5 Rxb5 22. Qg4 Kh8 23. Bc1 cxd4 24. cxd4 Nb6 25. Nd3 Nc4 26. Nh5 Ne7 27. Nc5 Qc6 28. b3 Nxe5 29. dxe5 Qxc5 30. Ba3 Qa7 31. Bd6 Rc8 32. Rd3 Ng6 33. Bxf8 Rxf8 34. Rg3 Rg8 35. Nxg7 Rxg7 36. h5 Qb8 37. hxg6 Rxg6 38. Qf4 Qg8 39. Rc1 Rxg3 40. Qxh6+ Qh7 41. Qf6+ Qg7 42. Rc8+ Kh7 43. Qh4+ Kg6 44. Qxg3+ Kh6 45. Qh3+ 1-0

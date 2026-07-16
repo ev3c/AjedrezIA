@@ -1,0 +1,581 @@
+[Event "Barbera op"]
+[Site "?"]
+[Date "2008.07.04"]
+[Round "1"]
+[White "Albets Armengol, R."]
+[Black "Capellades Subirana, M."]
+[Result "0-1"]
+[ECO "D00"]
+[WhiteElo "1979"]
+[BlackElo "2265"]
+[PlyCount "50"]
+[EventDate "2008.??.??"]
+
+1. d4 Nf6 2. Nc3 d5 3. e4 dxe4 4. f3 Bf5 5. fxe4 Nxe4 6. Qf3 Nd6 7. Bf4 e6 8.
+O-O-O c6 9. g4 Bg6 10. h4 h5 11. g5 Nf5 12. Nge2 Nd7 13. Ng3 Qa5 14. Nxf5 Bxf5
+15. Bh3 Bg6 16. d5 cxd5 17. Nxd5 Rc8 18. Nc3 Bb4 19. Rxd7 Bxc3 20. Re7+ Kf8 21.
+Qxb7 Bxb2+ 22. Kd1 Qc3 23. Rc7 Bxc2+ 24. Ke2 Qd3+ 25. Kf2 Bd4+ 0-1
+
+[Event "Barbera op"]
+[Site "?"]
+[Date "2008.07.05"]
+[Round "2"]
+[White "Butuc, M."]
+[Black "Albets Armengol, R."]
+[Result "1-0"]
+[ECO "E65"]
+[WhiteElo "2188"]
+[BlackElo "1979"]
+[PlyCount "79"]
+[EventDate "2008.??.??"]
+
+1. Nf3 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 O-O 5. O-O c5 6. d4 d6 7. Nc3 cxd4 8. Nxd4
+a6 9. b3 Qc7 10. Bb2 Nc6 11. Rc1 Nxd4 12. Qxd4 Bd7 13. Nd5 Qd8 14. Qd2 Nxd5 15.
+Bxg7 Kxg7 16. cxd5 Rc8 17. Rxc8 Qxc8 18. Rc1 Qb8 19. Qc3+ f6 20. Qe3 Kf7 21.
+Rc4 Bf5 22. Qh6 Kg8 23. Bh3 Bxh3 24. Qxh3 f5 25. Qh6 b5 26. Rc6 Rc8 27. Qe3
+Rxc6 28. Qe6+ Kf8 29. dxc6 b4 30. Qd7 Qb5 31. Qb7 Qd5 32. Qb8+ Kf7 33. c7 Qd1+
+34. Kg2 Qd5+ 35. f3 Qd2 36. c8=Q Qxe2+ 37. Kh3 Qf1+ 38. Kh4 g5+ 39. Kxg5 h6+
+40. Kxh6 1-0
+
+[Event "Barbera op"]
+[Site "?"]
+[Date "2008.07.08"]
+[Round "4"]
+[White "Albets Armengol, R."]
+[Black "Danelia, M."]
+[Result "0-1"]
+[ECO "D93"]
+[WhiteElo "1979"]
+[BlackElo "2185"]
+[PlyCount "104"]
+[EventDate "2008.??.??"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Bf4 Bg7 5. e3 c5 6. Nf3 O-O 7. Be2 cxd4 8. exd4
+Nc6 9. h3 Bf5 10. O-O Rc8 11. c5 Ne4 12. Be3 Qd7 13. Bb5 Rfd8 14. Rc1 Qc7 15.
+Bxc6 bxc6 16. Qa4 Rb8 17. Qa3 Rb7 18. Ne2 Rb5 19. b3 Ra5 20. Qb2 Rxc5 21. Bf4
+Qb7 22. Ne5 Rxc1 23. Rxc1 Rc8 24. Ng3 Nxg3 25. Bxg3 f6 26. Nf3 Bf8 27. Nh4 Be6
+28. Qe2 Bf7 29. Nf3 e6 30. Qe3 Qe7 31. Ne1 c5 32. Qe2 Qd7 33. Qa6 Rc6 34. Qa4
+Qb7 35. dxc5 Rxc5 36. Rxc5 Bxc5 37. Nd3 Bb6 38. Qf4 Kg7 39. Qd6 Qc8 40. Bh4 Qc7
+41. Qb4 e5 42. Bg3 Qd7 43. Qd2 e4 44. Nb4 d4 45. Bf4 g5 46. Bg3 h6 47. h4 Qe6
+48. hxg5 hxg5 49. Nc2 e3 50. Qd3 Bg6 51. Nxd4 Bxd3 52. Nxe6+ Kf7 0-1
+
+[Event "Barbera op"]
+[Site "?"]
+[Date "2008.07.09"]
+[Round "5"]
+[White "Chalmeta Ugas, R."]
+[Black "Albets Armengol, R."]
+[Result "1-0"]
+[ECO "E82"]
+[WhiteElo "2175"]
+[BlackElo "1979"]
+[PlyCount "101"]
+[EventDate "2008.??.??"]
+
+1. e4 g6 2. d4 Bg7 3. c4 d6 4. Nc3 Nf6 5. f3 O-O 6. Be3 c5 7. Nge2 b6 8. Qd2
+Nc6 9. d5 Ne5 10. b3 a6 11. Ng3 Rb8 12. Be2 Ne8 13. Bh6 f5 14. Bxg7 Nxg7 15. f4
+Nf7 16. O-O fxe4 17. Ncxe4 Nf5 18. Nxf5 Bxf5 19. Ng3 Nh6 20. Rae1 Rb7 21. Bd1
+Qe8 22. h3 Qf7 23. Nh1 Qg7 24. g4 Bc8 25. Ng3 b5 26. Be2 b4 27. Bd3 Nf7 28. Kg2
+Ra7 29. Re2 Nd8 30. Qc2 e6 31. Be4 Bb7 32. dxe6 Nxe6 33. Bxb7 Nd4 34. Bd5+ Kh8
+35. Qb2 Nxe2 36. Qxg7+ Kxg7 37. Nxe2 Re7 38. Ng3 Rfe8 39. f5 Kf6 40. h4 gxf5
+41. Nh5+ Ke5 42. gxf5 Kd4 43. f6 Re2+ 44. Rf2 Rxf2+ 45. Kxf2 Rf8 46. f7 Kc3 47.
+Nf6 h6 48. Nh7 Rxf7+ 49. Bxf7 Kb2 50. Be8 Kxa2 51. Ba4 1-0
+
+[Event "Barbera op"]
+[Site "?"]
+[Date "2008.07.10"]
+[Round "6"]
+[White "Bardera Gil, S."]
+[Black "Albets Armengol, R."]
+[Result "0-1"]
+[ECO "B07"]
+[WhiteElo "2101"]
+[BlackElo "1979"]
+[PlyCount "62"]
+[EventDate "2008.??.??"]
+
+1. e4 g6 2. d4 d6 3. f4 Nf6 4. Bd3 Bg7 5. Nf3 O-O 6. O-O Nbd7 7. Kh1 c5 8. c3
+b6 9. Qe1 e6 10. h3 Bb7 11. g4 Qe7 12. Nbd2 cxd4 13. cxd4 e5 14. f5 exd4 15. g5
+Nh5 16. Qh4 Be5 17. f6 Qe6 18. Nxe5 Nxe5 19. Be2 d5 20. Bxh5 gxh5 21. Qxh5 Kh8
+22. Kg1 dxe4 23. Rf4 Ng6 24. Rf1 e3 25. Nf3 Qe4 26. Bxe3 Qxe3+ 27. Rf2 Bxf3 28.
+Qxf3 Qxg5+ 29. Kh1 Qe3 30. Qf5 Rae8 31. h4 Re5 0-1
+
+[Event "Barbera op"]
+[Site "?"]
+[Date "2008.07.11"]
+[Round "7"]
+[White "Albets Armengol, R."]
+[Black "Vigo Allepuz, D."]
+[Result "0-1"]
+[ECO "A84"]
+[WhiteElo "1979"]
+[BlackElo "2156"]
+[PlyCount "108"]
+[EventDate "2008.??.??"]
+
+1. d4 e6 2. c4 f5 3. Nf3 Nf6 4. Nc3 d5 5. cxd5 exd5 6. Bg5 c6 7. e3 Bd6 8. Ne5
+O-O 9. Bd3 Qe8 10. Bxf6 Rxf6 11. f4 Nd7 12. Rc1 Rf8 13. O-O Nf6 14. Na4 Kh8 15.
+Rf3 Ne4 16. Bxe4 fxe4 17. Rf1 Be6 18. Nc5 Rb8 19. Qa4 a6 20. Qb3 g5 21. Nxe6
+Qxe6 22. fxg5 Bxe5 23. dxe5 Qxe5 24. Qc3 Qxc3 25. bxc3 Kg7 26. Rxf8 Rxf8 27. c4
+Rf5 28. h4 Kg6 29. c5 Kh5 30. Rb1 Kxh4 31. Rxb7 Kxg5 32. Rb6 d4 33. exd4 e3 34.
+Rb2 Kf4 35. Kf1 Ke4+ 36. Ke1 Rf2 37. Rxf2 exf2+ 38. Kxf2 Kxd4 39. Ke2 Kxc5 40.
+Kd3 Kb4 41. Kd4 c5+ 42. Kd3 a5 43. Kc2 c4 44. Kb2 c3+ 45. Kc2 Kc4 46. g4 h6 47.
+Kc1 Kd3 48. Kd1 a4 49. a3 Ke4 50. Kc2 Kd4 51. Kc1 Kc5 52. Kb1 Kd4 53. Kc1 Ke4
+54. Kc2 Kf4 0-1
+
+[Event "Barbera op"]
+[Site "?"]
+[Date "2008.07.12"]
+[Round "8"]
+[White "Moreto Quintana, A."]
+[Black "Albets Armengol, R."]
+[Result "1-0"]
+[ECO "A31"]
+[WhiteElo "2124"]
+[BlackElo "1979"]
+[PlyCount "137"]
+[EventDate "2008.??.??"]
+
+1. d4 Nf6 2. c4 c5 3. Nf3 cxd4 4. Nxd4 e5 5. Nc2 d5 6. cxd5 Qxd5 7. Qxd5 Nxd5
+8. e4 Nf6 9. Nc3 Be7 10. Nb5 Na6 11. f3 O-O 12. Be3 Bc5 13. Nc7 Nxc7 14. Bxc5
+Rd8 15. Rd1 Rxd1+ 16. Kxd1 Be6 17. b3 b6 18. Ba3 Nfe8 19. g4 Nd6 20. g5 Rd8 21.
+Kc1 Ndb5 22. Bb2 f6 23. h4 Kf7 24. Rg1 Bd7 25. Bc4+ Be6 26. Be2 Bd7 27. Rd1 Ke8
+28. gxf6 gxf6 29. a4 Nd4 30. Nxd4 exd4 31. Bxd4 Ke7 32. Bb2 Ne6 33. Ba3+ Nc5
+34. Rd5 Be6 35. Rh5 Bg8 36. Bxc5+ bxc5 37. Kc2 Kd6 38. Bc4 Bxc4 39. bxc4 Rd7
+40. Rd5+ Kc6 41. Rf5 Rd6 42. Rh5 Rd7 43. Rh6 Kb6 44. Rxf6+ Ka5 45. Kc3 Rd1 46.
+Rf7 Rc1+ 47. Kb3 Rb1+ 48. Kc2 Rf1 49. e5 Re1 50. f4 Re4 51. Rxa7+ Kb6 52. Rf7
+Rxc4+ 53. Kd2 Re4 54. Kd3 Rd4+ 55. Kc3 Re4 56. Rf6+ Kc7 57. a5 Re3+ 58. Kd2 Re4
+59. Kd3 Rd4+ 60. Kc3 Kb7 61. a6+ Ka7 62. h5 Re4 63. h6 Re3+ 64. Kd2 Re4 65. Kd3
+Rd4+ 66. Ke3 Rc4 67. e6 Rc1 68. f5 c4 69. Kd2 1-0
+
+[Event "Barbera op"]
+[Site "?"]
+[Date "2008.07.13"]
+[Round "9"]
+[White "Albets Armengol, R."]
+[Black "Costa Trave, J."]
+[Result "1-0"]
+[ECO "D00"]
+[WhiteElo "1979"]
+[BlackElo "2027"]
+[PlyCount "81"]
+[EventDate "2008.??.??"]
+
+1. d4 d5 2. e4 dxe4 3. Nc3 Bf5 4. f3 Nf6 5. fxe4 Nxe4 6. Qf3 Nd6 7. Bf4 Bc8 8.
+O-O-O Nd7 9. h3 Nf6 10. g4 h6 11. Nge2 g5 12. Be5 Bg7 13. Ng3 c6 14. Bd3 Be6
+15. Nge4 a5 16. Nc5 Bc8 17. Rde1 Kf8 18. Rhf1 b6 19. N5e4 Nde8 20. Ng3 Be6 21.
+Qxc6 Rc8 22. Qf3 Kg8 23. Nf5 Bc4 24. Bxc4 Rxc4 25. Nxe7+ Kf8 26. Ned5 Rxc3 27.
+Nxc3 Qd7 28. Qa8 Nxg4 29. hxg4 Bxe5 30. Rxe5 Kg7 31. Qf3 Rf8 32. Qd5 Qa7 33.
+Ref5 f6 34. Ne4 Qe7 35. R5f2 Rf7 36. Re2 Qc7 37. Qf5 a4 38. a3 Qc4 39. Ng3 Nd6
+40. Qe6 Qxd4 41. Qxd6 1-0
+
+[Event "Andorra op"]
+[Site "Andorra"]
+[Date "2009.07.18"]
+[Round "1.7"]
+[White "Lopez Martinez, JM."]
+[Black "Albets Armengol, R."]
+[Result "1-0"]
+[ECO "B06"]
+[WhiteElo "2555"]
+[BlackElo "2030"]
+[PlyCount "77"]
+[EventDate "2009.??.??"]
+[EventRounds "9"]
+[EventCountry "AND"]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Be3 a6 5. a4 b6 6. f3 Bb7 7. Qd2 Nd7 8. Nh3 e6
+9. Be2 Ngf6 10. O-O O-O 11. Rad1 c6 12. f4 Qc7 13. e5 Nd5 14. Nxd5 exd5 15. c3
+Rae8 16. Bd3 dxe5 17. dxe5 c5 18. Ng5 f6 19. exf6 Nxf6 20. f5 gxf5 21. Bxf5 Bc8
+22. Bf4 Qc6 23. Bxc8 Rxc8 24. Be5 Ne4 25. Nxe4 Bxe5 26. Rxf8+ Rxf8 27. Qxd5+
+Qxd5 28. Rxd5 Re8 29. Kf2 Kg7 30. g3 Bd4+ 31. Kf3 Rf8+ 32. Ke2 Bf6 33. Rd7+ Kg8
+34. Ra7 a5 35. Rb7 Re8 36. Kf3 Bd8 37. Nd6 Re6 38. Nc4 Kf8 39. Rxh7 1-0
+
+[Event "Andorra op"]
+[Site "?"]
+[Date "2010.07.18"]
+[Round "2.19"]
+[White "Albets Armengol, R."]
+[Black "Vernay, C."]
+[Result "0-1"]
+[ECO "D23"]
+[WhiteElo "2133"]
+[BlackElo "2470"]
+[PlyCount "98"]
+[EventDate "2010.??.??"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Qc2 dxc4 5. Qxc4 Bf5 6. g3 e6 7. Bg2 Be7 8. O-O
+Nbd7 9. Nc3 O-O 10. Bg5 h6 11. Bxf6 Bxf6 12. b4 e5 13. dxe5 Nxe5 14. Nxe5 Bxe5
+15. Rad1 Be6 16. Qc5 Qc7 17. a3 Rfe8 18. f4 Bxc3 19. Qxc3 Bg4 20. Bf3 Bxf3 21.
+exf3 Qb6+ 22. Qc5 Re3 23. Rd7 Rxa3 24. Qxb6 axb6 25. Rxb7 b5 26. Kg2 Ra2+ 27.
+Kh3 Ra1 28. Rxa1 Rxa1 29. Rc7 Rc1 30. Kg4 Rc4 31. Rc8+ Kh7 32. Kf5 Rc3 33. Rc7
+Rc4 34. Rc8 Rxb4 35. Rxc6 Rb3 36. Rb6 f6 37. h4 h5 38. g4 Rxf3 39. Rxb5 g6+ 40.
+Kxf6 Rxf4+ 41. Ke5 Rxg4 42. Rb8 Rxh4 43. Kf6 Rf4+ 44. Kg5 Rg4+ 45. Kf6 h4 46.
+Ra8 h3 47. Ra3 Rh4 48. Ra1 h2 49. Rh1 Kh6 0-1
+
+[Event "Andorra op"]
+[Site "?"]
+[Date "2010.07.20"]
+[Round "4.19"]
+[White "Albets Armengol, R."]
+[Black "Philippe, C."]
+[Result "0-1"]
+[ECO "E01"]
+[WhiteElo "2133"]
+[BlackElo "2431"]
+[PlyCount "44"]
+[EventDate "2010.??.??"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 e6 3. g3 c5 4. Nf3 cxd4 5. Nxd4 d5 6. Bg2 e5 7. Nf3 d4 8. O-O
+Nc6 9. e3 Be7 10. exd4 exd4 11. a3 a5 12. b3 O-O 13. Bb2 d3 14. Nc3 Bf5 15. Qd2
+Qd7 16. Nh4 Bh3 17. Rfe1 Rad8 18. Bh1 Bc5 19. Ng2 Nd4 20. Nf4 Nxb3 21. Qd1 Nxa1
+22. Nxh3 Qxh3 0-1
+
+[Event "Ct. Catalunya juv."]
+[Site "?"]
+[Date "2010.03.31"]
+[Round "1.19"]
+[White "Albets Armengol, R."]
+[Black "Alquezar Calpena, M."]
+[Result "1-0"]
+[ECO "E01"]
+[WhiteElo "2123"]
+[BlackElo "1794"]
+[PlyCount "45"]
+[EventDate "2010.??.??"]
+[EventRounds "8"]
+
+1. d4 e6 2. c4 Nf6 3. g3 d5 4. Bg2 b6 5. Nf3 Nbd7 6. O-O Bb7 7. Nc3 c5 8. cxd5
+Nxd5 9. e4 Nxc3 10. bxc3 Bxe4 11. Re1 Bb7 12. d5 Bxd5 13. Qxd5 Nf6 14. Qc6+ Nd7
+15. Ne5 Rc8 16. Qxd7+ Qxd7 17. Nxd7 Kxd7 18. Bf4 Be7 19. Rad1+ Ke8 20. Bb7 Rd8
+21. Bc6+ Kf8 22. Rxd8+ Bxd8 23. Rd1 1-0
+
+[Event "Ct. Catalunya juv."]
+[Site "?"]
+[Date "2010.04.01"]
+[Round "2.2"]
+[White "Vila Gazquez, X."]
+[Black "Albets Armengol, R."]
+[Result "1-0"]
+[ECO "B09"]
+[WhiteElo "2456"]
+[BlackElo "2123"]
+[PlyCount "55"]
+[EventDate "2010.??.??"]
+[EventRounds "8"]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. f4 Nf6 5. Nf3 O-O 6. Bd3 Nc6 7. h3 e5 8. fxe5
+dxe5 9. d5 Nd4 10. O-O c6 11. Bg5 h6 12. Bh4 Qb6 13. Nxd4 Qxd4+ 14. Kh1 Nh5 15.
+Be2 Nf4 16. Be7 Re8 17. d6 Bd7 18. Qxd4 exd4 19. Rxf4 dxc3 20. bxc3 Bf8 21. Bc4
+Be6 22. Bxe6 fxe6 23. Rxf8+ Rxf8 24. Bxf8 Rxf8 25. e5 Rf7 26. Rd1 Rd7 27. Rf1
+Rf7 28. Rf6 1-0
+
+[Event "Ct. Catalunya juv."]
+[Site "?"]
+[Date "2010.04.01"]
+[Round "3.14"]
+[White "Albets Armengol, R."]
+[Black "Campos Cayuelas, A."]
+[Result "1-0"]
+[ECO "D77"]
+[WhiteElo "2123"]
+[BlackElo "1872"]
+[PlyCount "69"]
+[EventDate "2010.??.??"]
+[EventRounds "8"]
+
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d5 5. Nf3 O-O 6. O-O c5 7. cxd5 cxd4 8.
+Nxd4 Nxd5 9. Nb5 e6 10. N1c3 a6 11. Nxd5 exd5 12. Nd4 Nc6 13. Be3 Qf6 14. Nxc6
+bxc6 15. Rc1 Bd7 16. Bc5 Rfe8 17. e4 Be6 18. exd5 cxd5 19. b4 a5 20. b5 a4 21.
+b6 Qb2 22. Rb1 Qxa2 23. b7 Rad8 24. Bb6 Rb8 25. Bc7 Bb2 26. Rxb2 Qxb2 27. Qxa4
+Qxb7 28. Bxb8 Rxb8 29. Qd4 Qb2 30. Qf4 d4 31. h4 d3 32. Rd1 Rd8 33. Rd2 Qb1+
+34. Kh2 Ra8 35. Bxa8 1-0
+
+[Event "Ct. Catalunya juv."]
+[Site "?"]
+[Date "2010.04.02"]
+[Round "4.7"]
+[White "Coll Ortega, J."]
+[Black "Albets Armengol, R."]
+[Result "1/2-1/2"]
+[ECO "B06"]
+[WhiteElo "2221"]
+[BlackElo "2123"]
+[PlyCount "93"]
+[EventDate "2010.??.??"]
+[EventRounds "8"]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Be3 a6 5. a4 b6 6. Qd2 Bb7 7. f3 Nd7 8. Nh3 e6
+9. Be2 Ngf6 10. O-O O-O 11. Rad1 c6 12. f4 Qc7 13. e5 Nd5 14. Nxd5 exd5 15. Bd3
+c5 16. c3 dxe5 17. fxe5 Rae8 18. Bf4 Qc6 19. Ng5 f6 20. exf6 Nxf6 21. Be5 Qxa4
+22. Ra1 Qc6 23. Bxa6 Bxa6 24. Rxa6 Ne4 25. Rxf8+ Rxf8 26. Nxe4 Bxe5 27. dxe5
+dxe4 28. c4 Re8 29. Qd6 Qxd6 30. exd6 Rf8 31. Ra7 Rd8 32. d7 Kf7 33. Kf2 Ke7
+34. Ke3 Rxd7 35. Rxd7+ Kxd7 36. Kxe4 Ke6 37. g3 Kd6 38. Kf4 Ke6 39. h3 Kf6 40.
+Ke4 Ke6 41. Kf4 Kf6 42. h4 h5 43. Ke4 Ke6 44. Kf4 Kf6 45. Ke4 Ke6 46. Kf4 Kf6
+47. Ke4 1/2-1/2
+
+[Event "Ct. Catalunya juv."]
+[Site "?"]
+[Date "2010.04.03"]
+[Round "5.10"]
+[White "Albets Armengol, R."]
+[Black "Esplugas Esteve, V."]
+[Result "0-1"]
+[ECO "D73"]
+[WhiteElo "2123"]
+[BlackElo "2168"]
+[PlyCount "128"]
+[EventDate "2010.??.??"]
+[EventRounds "8"]
+
+1. g3 Nf6 2. Bg2 d5 3. Nf3 c5 4. d4 cxd4 5. O-O g6 6. Nxd4 Bg7 7. c4 O-O 8.
+cxd5 Nxd5 9. Nb5 a6 10. Qxd5 Qxd5 11. Bxd5 axb5 12. Bg2 Nc6 13. Nc3 b4 14. Nd5
+Ra5 15. a3 e6 16. Nb6 Nd4 17. e3 Nc2 18. Rb1 Rb5 19. Nxc8 Rxc8 20. axb4 Rxb4
+21. Bd2 Rb5 22. Bc3 Nb4 23. Rfd1 Nd5 24. Bxd5 exd5 25. Kf1 f6 26. Rbc1 f5 27.
+Bxg7 Rxc1 28. Rxc1 Kxg7 29. Rc2 Kf6 30. Ke2 Ke5 31. h4 Rb3 32. Rd2 h6 33. Rc2
+d4 34. exd4+ Kxd4 35. Rd2+ Ke4 36. Rc2 b5 37. Rd2 f4 38. gxf4 Kxf4 39. Rd4+ Ke5
+40. Rd2 Rh3 41. Rc2 Kd5 42. Rd2+ Kc5 43. Rc2+ Kb4 44. Rc6 Rxh4 45. Rxg6 Kb3 46.
+Rb6 b4 47. Kf3 Kxb2 48. Kg3 Rc4 49. Rxh6 b3 50. f4 Kc3 51. Kg4 b2 52. Rh1 Kd3
+53. Rb1 Kc2 54. Rh1 Kb3 55. Rb1 Rc1 56. Rxc1 bxc1=R 57. Kf5 Kc3 58. Ke5 Kc4 59.
+f5 Kc5 60. Ke6 Kc6 61. f6 Re1+ 62. Kf7 Kd7 63. Kf8 Ke6 64. f7 Rf1 0-1
+
+[Event "Ct. Catalunya juv."]
+[Site "?"]
+[Date "2010.04.03"]
+[Round "6.12"]
+[White "Montiel Baeza, A."]
+[Black "Albets Armengol, R."]
+[Result "1/2-1/2"]
+[ECO "B08"]
+[WhiteElo "1900"]
+[BlackElo "2123"]
+[PlyCount "111"]
+[EventDate "2010.??.??"]
+[EventRounds "8"]
+
+1. e4 g6 2. d4 Bg7 3. Nf3 d6 4. Nc3 Nf6 5. h3 O-O 6. Be3 c6 7. Qd2 b5 8. Bd3
+Nbd7 9. a3 e5 10. dxe5 dxe5 11. O-O Qe7 12. Bh6 Nc5 13. Bxg7 Kxg7 14. Rad1 Rd8
+15. Qe3 Nh5 16. Be2 Re8 17. Ne1 Nf4 18. Nd3 Ncxd3 19. Bxd3 Kh8 20. Ne2 g5 21.
+a4 b4 22. b3 Rg8 23. Kh2 Rg6 24. Rh1 Be6 25. Kg1 Rd8 26. g4 Rh6 27. Nxf4 gxf4
+28. Qe2 Rg8 29. f3 Rd8 30. Kg2 Bc8 31. Qf2 Rd4 32. Bc4 Rhd6 33. Rxd4 Rxd4 34.
+Re1 Qd8 35. Re2 Kg7 36. Bd3 Be6 37. Rd2 a5 38. Kf1 Bxb3 39. cxb3 Rxd3 40. Ke1
+Rxd2 41. Qxd2 Qxd2+ 42. Kxd2 Kf6 43. h4 h6 44. Kd3 Ke6 45. Kd2 Kd6 46. Kc2 Kc7
+47. Kd2 Kb6 48. Kc2 Kc7 49. Kd2 Kd6 50. Kc2 c5 51. Kd3 Kc7 52. Kc4 Kc6 53. Kd3
+Kd6 54. Kc4 Kc6 55. Kd3 Kb6 56. Kc4 1/2-1/2
+
+[Event "Ct. Catalunya juv."]
+[Site "?"]
+[Date "2010.04.04"]
+[Round "7.15"]
+[White "Albets Armengol, R."]
+[Black "Moya Arau, C."]
+[Result "1-0"]
+[ECO "E00"]
+[WhiteElo "2123"]
+[BlackElo "1962"]
+[PlyCount "119"]
+[EventDate "2010.??.??"]
+[EventRounds "8"]
+
+1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. g3 g6 5. Bg2 Bg7 6. O-O O-O 7. Qc2 Na6 8. Nbd2
+b6 9. e4 dxc4 10. Qxc4 c5 11. e5 Nd5 12. Ne4 cxd4 13. Bg5 Qc7 14. Qxd4 Re8 15.
+Rac1 Qd7 16. Nf6+ Nxf6 17. exf6 h6 18. Be3 Bf8 19. Qxd7 Bxd7 20. Ne5 Bb5 21.
+Bxa8 Rxa8 22. Rfd1 Nc5 23. Rd4 Nb7 24. Rc7 Bd6 25. Rxb7 Bxe5 26. Rd2 Bxf6 27.
+Rc7 Be5 28. Rc1 h5 29. b3 Rb8 30. f4 Bf6 31. Bd4 Bd8 32. Be5 Ra8 33. Kf2 Ba6
+34. Rcd1 Be7 35. Rd7 Bc5+ 36. Kg2 Kf8 37. Bd6+ Bxd6 38. R1xd6 Bc8 39. Rc7 Kg7
+40. Kf2 b5 41. Rd8 Bb7 42. Rxa8 Bxa8 43. Rxa7 Bd5 44. Ra5 Bc6 45. Ra6 Be8 46.
+Ke3 Kf6 47. Kd4 g5 48. Ra8 Bc6 49. Rc8 Bd7 50. Rd8 Bc6 51. Kc5 Bg2 52. Rd2 Bf1
+53. Rf2 Bd3 54. fxg5+ Kxg5 55. Rxf7 e5 56. a4 bxa4 57. bxa4 e4 58. Kd4 Kg4 59.
+Rf4+ Kh3 60. Rh4+ 1-0
+
+[Event "Ct. Catalunya juv."]
+[Site "?"]
+[Date "2010.04.05"]
+[Round "8.8"]
+[White "Subirats Ruiz, S."]
+[Black "Albets Armengol, R."]
+[Result "1/2-1/2"]
+[ECO "B06"]
+[WhiteElo "2123"]
+[BlackElo "2123"]
+[PlyCount "139"]
+[EventDate "2010.??.??"]
+[EventRounds "8"]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Be3 c6 5. Qd2 b5 6. f4 Nf6 7. Nf3 b4 8. Nd1
+Nxe4 9. Qxb4 O-O 10. Bd3 Nf6 11. c4 Na6 12. Qa3 c5 13. Nf2 Bb7 14. O-O cxd4 15.
+Bxd4 Nc7 16. Be2 Ne6 17. Be3 Qc7 18. Rac1 a5 19. Rfd1 Ne4 20. Nxe4 Bxe4 21. Nd2
+Bc6 22. Nf3 Qb7 23. b3 Rfb8 24. Bd2 Nd4 25. Kf2 Nxe2 26. Kxe2 Bxf3+ 27. gxf3
+Qd7 28. Be3 Qh3 29. Rf1 Qxh2+ 30. Rf2 Qh4 31. f5 Qf6 32. fxg6 hxg6 33. c5 a4
+34. c6 Qe5 35. c7 Rc8 36. bxa4 Qa5 37. Bd2 Qa6+ 38. Ke1 Ra7 39. Qb3 Raxc7 40.
+Rxc7 Rxc7 41. Qb8+ Rc8 42. Qb5 Ra8 43. Qxa6 Rxa6 44. a5 Kf8 45. Bb4 Ke8 46. Rh2
+f5 47. Kd2 Kd7 48. Rg2 g5 49. Kd3 Bf6 50. Kc4 Kc6 51. Kb3 d5 52. Ka4 d4 53.
+Rc2+ Kb7 54. Kb5 Re6 55. Bc5 Re3 56. a6+ Ka8 57. Bb4 Re5+ 58. Bc5 d3 59. Rd2
+Rd5 60. Kc4 Rd7 61. Rxd3 Rxd3 62. Kxd3 e6 63. Kc4 Bd8 64. Kb5 g4 65. fxg4 fxg4
+66. Kc6 g3 67. Kd7 Ba5 68. Kxe6 Be1 69. Kf5 Bf2 70. Kg4 1/2-1/2
+
+[Event "Sants Hostafrancs i La Bordeta op A"]
+[Site "?"]
+[Date "2010.08.20"]
+[Round "1"]
+[White "Albets Armengol, R."]
+[Black "Parligras, M."]
+[Result "0-1"]
+[ECO "A32"]
+[PlyCount "60"]
+[EventDate "2010.??.??"]
+[EventRounds "10"]
+
+1. d4 Nf6 2. c4 e6 3. g3 c5 4. Nf3 cxd4 5. Nxd4 Qc7 6. b3 Bb4+ 7. Bd2 Bc5 8. e3
+e5 9. Ne2 Qc6 10. Rg1 O-O 11. Bg2 Qc7 12. Nbc3 d6 13. Nd5 Nxd5 14. Bxd5 Bg4 15.
+Qc2 Nc6 16. a3 Rae8 17. Nc3 Kh8 18. Kf1 f5 19. Na4 e4 20. b4 Bb6 21. Nxb6 axb6
+22. Bc3 Ne7 23. Qd2 b5 24. Qd4 Nxd5 25. cxd5 Rc8 26. Rc1 Qf7 27. Bb2 Rxc1+ 28.
+Bxc1 Rc8 29. Qd2 Bf3 30. Bb2 Qc7 0-1
+
+[Event "Sants Hostafrancs i La Bordeta op A"]
+[Site "?"]
+[Date "2010.08.25"]
+[Round "6"]
+[White "Albets Armengol, R."]
+[Black "Karlsson, L."]
+[Result "1/2-1/2"]
+[ECO "B06"]
+[PlyCount "87"]
+[EventDate "2010.??.??"]
+[EventRounds "10"]
+
+1. d4 d6 2. e4 g6 3. Nc3 Bg7 4. Be3 a6 5. Qd2 b5 6. h4 h5 7. Nf3 Nf6 8. Ng5 Ng4
+9. f4 Nd7 10. e5 Nb6 11. b3 Bf5 12. Bd3 Qc8 13. O-O f6 14. Nf3 Bxd3 15. Qxd3
+Qf5 16. Qxf5 gxf5 17. Rae1 Nxe3 18. Rxe3 b4 19. Ne2 Nd5 20. Rd3 Kd7 21. g3 Rhc8
+22. c4 bxc3 23. Nxc3 Nxc3 24. Rxc3 a5 25. Rfc1 fxe5 26. dxe5 e6 27. Rc6 dxe5
+28. Nxe5+ Bxe5 29. fxe5 Ra7 30. Kf2 Rb8 31. R6c5 a4 32. R1c3 axb3 33. axb3 Rb4
+34. Rd3+ Ke8 35. Rdc3 Kd7 36. Rd3+ Ke8 37. Rdc3 Rab7 38. Rxc7 Rxc7 39. Rxc7
+Rxb3 40. Rh7 Rb5 41. Rxh5 Rxe5 42. g4 Re4 43. gxf5 exf5 44. Rxf5 1/2-1/2
+
+[Event "Sants Hostafrancs i La Bordeta op A"]
+[Site "?"]
+[Date "2010.08.26"]
+[Round "7"]
+[White "Richter, M."]
+[Black "Albets Armengol, R."]
+[Result "1-0"]
+[ECO "E91"]
+[PlyCount "45"]
+[EventDate "2010.??.??"]
+[EventRounds "10"]
+
+1. d4 g6 2. c4 Bg7 3. Nc3 d6 4. e4 Nf6 5. Nf3 O-O 6. Be2 Na6 7. Bf4 Qe8 8. e5
+Nh5 9. Be3 c5 10. exd6 exd6 11. O-O Nf6 12. Bf4 Qd8 13. Nb5 cxd4 14. Bxd6 Re8
+15. Ba3 Ne4 16. Nfxd4 Qf6 17. Bf3 Nec5 18. Qc2 Bd7 19. Rad1 Qb6 20. b4 Ne6 21.
+Nxe6 Bxe6 22. Rd6 Bf5 23. Qb3 1-0
+
+[Event "Andorra op"]
+[Site "?"]
+[Date "2011.07.17"]
+[Round "2.12"]
+[White "Del Rio de Angelis, SG."]
+[Black "Albets Armengol, R."]
+[Result "1/2-1/2"]
+[ECO "B08"]
+[WhiteElo "2509"]
+[BlackElo "2169"]
+[PlyCount "109"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+
+1. d4 g6 2. e4 Bg7 3. Nf3 d6 4. Be2 Nf6 5. Nc3 O-O 6. O-O c6 7. a4 Nbd7 8. a5
+Qc7 9. Qd3 e5 10. Rd1 Re8 11. dxe5 dxe5 12. Qc4 Nf8 13. a6 Ne6 14. axb7 Bxb7
+15. Qa2 Nd4 16. Bd3 Nxf3+ 17. gxf3 Nh5 18. Bc4 Nf4 19. Bxf4 exf4 20. Ne2 Bc8
+21. Qa5 Qe7 22. c3 Be6 23. Bxe6 Qxe6 24. Qg5 Qh3 25. Rd3 h6 26. Qxf4 Be5 27.
+Qg4 Bxh2+ 28. Kh1 Qxg4 29. fxg4 Rxe4 30. Nd4 Bc7 31. f3 Ree8 32. Nxc6 Re2 33.
+b4 Rae8 34. Nd4 Rh2+ 35. Kg1 h5 36. gxh5 gxh5 37. f4 Bxf4 38. Rf3 Bb8 39. Nc6
+Bd6 40. Rd1 Re6 41. Rd5 Rg6+ 42. Kf1 h4 43. Rh5 Rg3 44. Rxg3+ Bxg3 45. Nd4 Kg7
+46. Nf5+ Kg6 47. Nxg3 hxg3 48. Rxh2 gxh2 49. Kg2 Kf5 50. c4 Ke5 51. c5 Kd5 52.
+Kxh2 a5 53. bxa5 Kxc5 54. Kg3 Kb5 55. Kf4 1/2-1/2
+
+[Event "Andorra op"]
+[Site "?"]
+[Date "2011.07.18"]
+[Round "3.19"]
+[White "Albets Armengol, R."]
+[Black "Van Steenwinckel, H."]
+[Result "1-0"]
+[ECO "D08"]
+[WhiteElo "2169"]
+[BlackElo "1818"]
+[PlyCount "59"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+
+1. d4 d5 2. c4 e5 3. dxe5 d4 4. Nf3 Nc6 5. a3 Be6 6. e3 dxe3 7. Qxd8+ Rxd8 8.
+Bxe3 a5 9. Nc3 Nge7 10. Nb5 Rd7 11. Nbd4 Nd8 12. Be2 c5 13. Nb5 Nf5 14. Bf4 Nc6
+15. O-O Be7 16. Rfd1 Nfd4 17. Nfxd4 Nxd4 18. Nxd4 cxd4 19. c5 O-O 20. b4 axb4
+21. axb4 Rfd8 22. Bb5 Rd5 23. Ra7 d3 24. Rxb7 Bf8 25. h3 Rd4 26. Bg5 Bd5 27.
+Rb6 Rc8 28. Rxd3 Rxd3 29. Bxd3 Be6 30. Ba6 1-0
+
+[Event "Andorra op"]
+[Site "?"]
+[Date "2011.07.19"]
+[Round "4.12"]
+[White "Hamdouchi, H."]
+[Black "Albets Armengol, R."]
+[Result "1-0"]
+[ECO "B06"]
+[WhiteElo "2628"]
+[BlackElo "2169"]
+[PlyCount "67"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+
+1. e4 g6 2. d4 Bg7 3. Nf3 d6 4. Bc4 e6 5. Bb3 Nd7 6. O-O Ne7 7. c3 b6 8. Re1
+Bb7 9. Nbd2 O-O 10. Nf1 c5 11. Ng3 Nf6 12. Bf4 cxd4 13. cxd4 d5 14. e5 Ne4 15.
+Bc2 Nxg3 16. fxg3 Rc8 17. Bd3 Nc6 18. Qd2 Na5 19. Bg5 Qc7 20. Re2 Nc4 21. Qc1
+Qb8 22. Qf4 Rc7 23. Rf1 Qc8 24. h4 Ba6 25. Bf6 Na5 26. Bxg7 Kxg7 27. Qf6+ Kg8
+28. h5 h6 29. Bxa6 Qxa6 30. Ref2 Qd3 31. Ng5 Re8 32. Nxf7 Kh7 33. Qf4 g5 34.
+Qf6 1-0
+
+[Event "Andorra op"]
+[Site "?"]
+[Date "2011.07.20"]
+[Round "5.20"]
+[White "Albets Armengol, R."]
+[Black "Norwood, DR."]
+[Result "0-1"]
+[ECO "B08"]
+[WhiteElo "2169"]
+[BlackElo "2491"]
+[PlyCount "115"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+
+1. d4 g6 2. Nc3 Bg7 3. e4 c6 4. Nf3 d6 5. Be3 Nf6 6. Qd2 O-O 7. Bh6 b5 8. Bxg7
+Kxg7 9. Bd3 Bg4 10. Qf4 Bxf3 11. Qxf3 Nbd7 12. O-O e5 13. dxe5 dxe5 14. a4 a6
+15. b4 Qe7 16. Rfb1 Rfb8 17. Nd1 bxa4 18. Rxa4 Nc5 19. Raa1 Nxd3 20. Qxd3 Rxb4
+21. Ne3 Nxe4 22. Re1 Rd4 23. Qb3 Qc5 24. Qb7 Ra7 25. Qb8 h5 26. h3 a5 27. f3
+Nf6 28. Kh1 a4 29. c3 Rdd7 30. Qb4 Qxb4 31. cxb4 Rd4 32. Rec1 Nd5 33. Nc4 Nxb4
+34. Nxe5 Ra6 35. Ra3 Rd5 36. Rb1 Nc2 37. Rc3 Rxe5 38. Rxc2 a3 39. Ra2 Rb5 40.
+Rba1 Rb3 41. Kg1 h4 42. Kf2 Rb2+ 43. Ke3 Rxa2 44. Rxa2 Kf6 45. Kd3 Kf5 46. Kc4
+Kf4 47. Kb4 Kg3 48. Kc4 g5 49. Kb4 f5 50. Kc4 Rb6 51. Kc5 Rb2 52. Rxa3 Rxg2 53.
+Kxc6 Kxh3 54. Kd5 Rg3 55. Ke5 g4 56. Kf4 Rxf3+ 57. Rxf3+ gxf3 58. Kxf3 0-1
+
+[Event "Andorra op"]
+[Site "?"]
+[Date "2011.07.23"]
+[Round "8.19"]
+[White "Gagarin, V."]
+[Black "Albets Armengol, R."]
+[Result "1-0"]
+[ECO "A41"]
+[WhiteElo "2428"]
+[BlackElo "2169"]
+[PlyCount "63"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+
+1. d4 g6 2. c4 Bg7 3. Nf3 d6 4. Nc3 Bg4 5. g3 Bxf3 6. exf3 e6 7. d5 exd5 8.
+cxd5 Ne7 9. Bg2 O-O 10. O-O Nd7 11. f4 Nb6 12. Qd3 Qd7 13. Bd2 c6 14. dxc6 bxc6
+15. Rac1 Rab8 16. Rfd1 Rfd8 17. b3 c5 18. Ne4 Nc6 19. Bc3 Nd4 20. Bxd4 cxd4 21.
+Ng5 Rbc8 22. Rxc8 Qxc8 23. Nf3 Nd5 24. Nxd4 Nc3 25. Re1 Nxa2 26. Nc6 Re8 27.
+Ne7+ Rxe7 28. Rxe7 Nb4 29. Qb5 Bf8 30. Rxa7 Qc1+ 31. Bf1 Qe1 32. Qb7 1-0

@@ -1,0 +1,274 @@
+[Event "Badalona op B"]
+[Site "Badalona"]
+[Date "2016.08.09"]
+[Round "8"]
+[White "Ros Montes, Daniel"]
+[Black "Delgado Camara, Lluis Felix"]
+[Result "1/2-1/2"]
+[ECO "C06"]
+[WhiteElo "1885"]
+[BlackElo "1792"]
+[PlyCount "74"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 cxd4 8. cxd4
+f6 9. Nf4 Nxd4 10. Qh5+ Ke7 11. exf6+ Nxf6 12. Ng6+ hxg6 13. Qxh8 Kf7 14. O-O
+e5 15. Nb3 Nxb3 16. axb3 e4 17. Be2 d4 18. Bc4+ Be6 19. Qh3 Nd5 20. Bxd5 Qxd5
+21. Qg3 Bb4 22. Rd1 a6 23. Bd2 Be7 24. Rac1 Qh5 25. Qf4+ Bf5 26. f3 e3 27. g4
+Qg5 28. Bxe3 dxe3 29. Qxg5 Bxg5 30. Rc7+ Kg8 31. gxf5 Re8 32. Re1 gxf5 33. Re2
+Bf6 34. Kf1 b6 35. Rc6 Bd4 36. Rd6 Bc5 37. Rg6 Kf7 1/2-1/2
+
+[Event "Badalona op B"]
+[Site "Badalona"]
+[Date "2016.08.10"]
+[Round "9"]
+[White "Al Azmi, Khalaf"]
+[Black "Ros Montes, Daniel"]
+[Result "1-0"]
+[ECO "C00"]
+[WhiteElo "1748"]
+[BlackElo "1885"]
+[PlyCount "103"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. b3 d5 3. Bb2 dxe4 4. Nc3 Nf6 5. Qe2 Bb4 6. O-O-O Qe7 7. Nxe4 Nbd7
+8. Kb1 O-O 9. Nf3 a5 10. Nd4 Rd8 11. g4 Nxe4 12. Qxe4 Nf6 13. Qf3 e5 14. Nf5
+Bxf5 15. Qxf5 Bxd2 16. g5 Ne8 17. Bd3 g6 18. Qxe5 Qxe5 19. Bxe5 Bxg5 20. h4 Bf6
+21. Bg3 h5 22. f4 Nd6 23. Bf2 a4 24. Rdg1 axb3 25. cxb3 Ra5 26. Rd1 Rda8 27. a4
+b5 28. Be1 R5a7 29. Bf2 Rb7 30. Bc5 bxa4 31. b4 a3 32. Ka2 Nb5 33. Bxb5 Rxb5
+34. Rd7 Rbb8 35. f5 Re8 36. Rh2 Re1 37. fxg6 Ra1+ 38. Kb3 Rb1+ 39. Kc4 Rb2 40.
+gxf7+ Kh8 41. Rxb2 axb2 42. Rd1 Kg7 43. f8=Q+ Rxf8 44. Bxf8+ Kxf8 45. Kb3 Ke7
+46. Kc2 Ke6 47. b5 Be5 48. Rg1 Bf6 49. Rg6 Ke7 50. Rh6 Bxh4 51. Kxb2 Bf6+ 52.
+Kb3 1-0
+
+[Event "Barcelona Paredes Memorial 19th"]
+[Site "Barcelona"]
+[Date "2017.04.22"]
+[Round "1"]
+[White "Ros Montes, Daniel"]
+[Black "Chalmeta Ugas, Jordi Ramon"]
+[Result "0-1"]
+[ECO "A16"]
+[WhiteElo "1882"]
+[BlackElo "2136"]
+[PlyCount "80"]
+[EventDate "2017.04.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 Nf6 2. Nc3 d5 3. cxd5 Nxd5 4. g3 g6 5. Bg2 Nb6 6. Nf3 Bg7 7. O-O Nc6 8.
+d3 O-O 9. Be3 Re8 10. Qd2 e5 11. Ne4 Nd5 12. Bh6 Bh8 13. Rac1 Nd4 14. Nxd4 exd4
+15. Rc5 c6 16. b4 Qe7 17. Bf4 Nc3 18. Bg5 Nxe4 19. dxe4 f6 20. Bh4 g5 21. Bxg5
+fxg5 22. Rxg5+ Bg7 23. f4 Kh8 24. e5 h6 25. Rh5 Bg4 26. Rh4 Bf5 27. Rh5 Bg6 28.
+Rh4 Bh7 29. Qxd4 Red8 30. Qc4 Rd2 31. Kh1 Rad8 32. f5 Qxe5 33. Re4 Qf6 34. Re6
+Bg8 35. Rxf6 Bxc4 36. Rg6 Bxe2 37. f6 Bf8 38. f7 Bg7 39. Re6 Bxf1 40. Re8+ Bf8
+0-1
+
+[Event "Barcelona Paredes Memorial 19th"]
+[Site "Barcelona"]
+[Date "2017.04.29"]
+[Round "2"]
+[White "Pera Muntasell, Marc"]
+[Black "Ros Montes, Daniel"]
+[Result "1-0"]
+[ECO "C01"]
+[WhiteElo "1735"]
+[BlackElo "1882"]
+[PlyCount "96"]
+[EventDate "2017.04.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. Bd3 Bd6 5. Nf3 Bg4 6. O-O Nc6 7. c3 Qd7 8. b4
+Nge7 9. Re1 O-O 10. Bg5 Ng6 11. h3 Bf5 12. b5 Na5 13. Ne5 Nxe5 14. dxe5 Bc5 15.
+Be3 Bxe3 16. Rxe3 Bxd3 17. Rxd3 Rad8 18. a4 Nc4 19. Qe2 Rfe8 20. f4 f6 21. Nd2
+Nxd2 22. Rxd2 Qe7 23. Re1 fxe5 24. fxe5 Qa3 25. Rc2 Qxa4 26. Ra2 Qb3 27. Rxa7
+Qxc3 28. Rxb7 Re6 29. Qe3 Qxe3+ 30. Rxe3 d4 31. Re1 d3 32. Rxc7 d2 33. Rd1 Rxe5
+34. Kf2 Rf8+ 35. Kg3 Re3+ 36. Kh4 Rf4+ 37. g4 Rd4 38. b6 Rd5 39. Rc8+ Kf7 40.
+Rf1+ Ke7 41. Rc7+ Kd6 42. Rff7 d1=Q 43. Rfd7+ Ke5 44. Rc5 g5+ 45. Kxg5 Ke6+ 46.
+Rdxd5 Qxd5+ 47. Rxd5 Kxd5 48. b7 Re7 1-0
+
+[Event "Barcelona Paredes Memorial 19th"]
+[Site "Barcelona"]
+[Date "2017.05.06"]
+[Round "3"]
+[White "Ros Montes, Daniel"]
+[Black "Bes Alvarez, Alex"]
+[Result "1-0"]
+[ECO "A29"]
+[WhiteElo "1882"]
+[BlackElo "1735"]
+[PlyCount "91"]
+[EventDate "2017.04.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 e5 2. Nc3 Nc6 3. g3 Bc5 4. Bg2 a6 5. Nf3 Nf6 6. O-O d6 7. d3 h6 8. a3 O-O
+9. b4 Ba7 10. Bb2 Be6 11. Rc1 Qd7 12. e3 Bh3 13. d4 Bxg2 14. Kxg2 Rfe8 15. Nd5
+e4 16. Nxf6+ gxf6 17. Nh4 Kh7 18. Qh5 Rg8 19. Nf5 Rg6 20. f3 Re8 21. fxe4 Rxe4
+22. Rf4 Rxf4 23. exf4 Qe6 24. Nh4 Qe4+ 25. Qf3 Qxf3+ 26. Nxf3 f5 27. d5 Nd8 28.
+Re1 Bb6 29. Re7 c6 30. Nh4 Rg8 31. Nxf5 Rg6 32. Re8 Rg8 33. Rxg8 Kxg8 34. Nxh6+
+Kh7 35. Nf5 Bc7 36. Kf3 c5 37. Ke4 b5 38. cxb5 axb5 39. bxc5 dxc5 40. d6 Bb8
+41. Bf6 Ne6 42. d7 Bc7 43. Ne3 c4 44. Kd5 Kg6 45. Be5 Bb6 46. f5+ 1-0
+
+[Event "Barcelona Paredes Memorial 19th"]
+[Site "Barcelona"]
+[Date "2017.05.13"]
+[Round "4"]
+[White "Delgado Montanes, Jose Antonio"]
+[Black "Ros Montes, Daniel"]
+[Result "1/2-1/2"]
+[ECO "D91"]
+[WhiteElo "2078"]
+[BlackElo "1882"]
+[PlyCount "100"]
+[EventDate "2017.04.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 d5 5. Bg5 Ne4 6. cxd5 Nxg5 7. Nxg5 e6 8.
+Nf3 exd5 9. e3 O-O 10. b4 c6 11. Qb3 Bf5 12. Be2 Nd7 13. O-O Nf6 14. Rac1 Ne4
+15. Rfd1 Be6 16. Na4 f5 17. Nc5 Bc8 18. b5 b6 19. Na4 cxb5 20. Bxb5 Bb7 21. Bc6
+Bxc6 22. Rxc6 Qd7 23. Rc2 Rac8 24. Rdc1 Kh8 25. Nc3 Nxc3 26. Rxc3 Rxc3 27. Qxc3
+f4 28. exf4 Rxf4 29. Qc8+ Qxc8 30. Rxc8+ Rf8 31. Rc7 a5 32. Kf1 h6 33. Ke2 Rf4
+34. Ke3 g5 35. h3 Re4+ 36. Kd3 g4 37. hxg4 Rxg4 38. g3 Rg6 39. Ne5 Rf6 40. f4
+h5 41. Rd7 Kh7 42. Rxd5 h4 43. gxh4 Rxf4 44. h5 Rf2 45. Nc4 Rxa2 46. Nxb6 Ra1
+47. Nc4 Rd1+ 48. Kc3 Rxd4 49. Rxd4 Bxd4+ 50. Kxd4 Kh6 1/2-1/2
+
+[Event "Barcelona Paredes Memorial 19th"]
+[Site "Barcelona"]
+[Date "2017.05.20"]
+[Round "5"]
+[White "Ros Montes, Daniel"]
+[Black "Brunet Gil, Pol"]
+[Result "0-1"]
+[ECO "D11"]
+[WhiteElo "1882"]
+[BlackElo "1772"]
+[PlyCount "44"]
+[EventDate "2017.04.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. Nf3 d5 2. d4 Nf6 3. g3 Bf5 4. Bg2 e6 5. O-O Be7 6. c4 c6 7. Nc3 h6 8. Nd2
+O-O 9. e4 dxe4 10. Ndxe4 Nbd7 11. Qb3 Qb6 12. c5 Qxb3 13. axb3 Nxe4 14. Nxe4
+Nf6 15. Nc3 Rfd8 16. Rd1 Bc2 17. Rd2 Bxb3 18. Ra3 Bd5 19. Nxd5 Nxd5 20. b4 Nxb4
+21. Rb3 a5 22. Ba3 Bxc5 0-1
+
+[Event "Barcelona Paredes Memorial 19th"]
+[Site "Barcelona"]
+[Date "2017.05.27"]
+[Round "6"]
+[White "Valero Recalde, Pablo"]
+[Black "Ros Montes, Daniel"]
+[Result "1/2-1/2"]
+[ECO "E68"]
+[WhiteElo "1728"]
+[BlackElo "1882"]
+[PlyCount "71"]
+[EventDate "2017.04.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 O-O 5. Nc3 d6 6. Nf3 Nbd7 7. O-O e5 8. e4
+Nh5 9. Be3 f5 10. exf5 gxf5 11. dxe5 dxe5 12. Nxe5 Nxe5 13. Qxh5 c6 14. Rad1
+Qe8 15. Qxe8 Rxe8 16. Bd4 Nxc4 17. Bxg7 Kxg7 18. b3 Nb6 19. f4 a5 20. Rfe1 Be6
+21. Ne2 Bd5 22. Nd4 Bxg2 23. Kxg2 Kf6 24. Nf3 Nd5 25. Kh3 a4 26. Rxe8 Rxe8 27.
+Ne5 axb3 28. axb3 Ra8 29. Nd7+ Ke7 30. Nc5 b6 31. Na4 b5 32. Nc5 Kd6 33. b4 Ra2
+34. Nd3 Ne3 35. Nc1+ Nxd1 36. Nxa2 1/2-1/2
+
+[Event "Barcelona Paredes Memorial 19th"]
+[Site "Barcelona"]
+[Date "2017.06.10"]
+[Round "8"]
+[White "Ros Montes, Daniel"]
+[Black "Jimenez Ortiz, Gonzalo"]
+[Result "0-1"]
+[ECO "D23"]
+[WhiteElo "1882"]
+[BlackElo "1924"]
+[PlyCount "84"]
+[EventDate "2017.04.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 c6 4. Qc2 dxc4 5. Qxc4 Bf5 6. Nc3 e6 7. Nh4 Bg6 8.
+Nxg6 hxg6 9. e4 Nbd7 10. Bf4 Be7 11. Be2 Qa5 12. Bd2 Qb6 13. O-O Qc7 14. e5 Rc8
+15. Rac1 Nb6 16. Qd3 Nfd5 17. Bf3 Qd8 18. a3 Nxc3 19. bxc3 Bg5 20. Bxg5 Qxg5
+21. c4 Qf4 22. h3 Rd8 23. Be4 O-O 24. g3 Qg5 25. f4 Qe7 26. Kh2 Rd7 27. Rcd1
+Rfd8 28. Qe3 c5 29. d5 Nxc4 30. Qc3 exd5 31. Bxd5 Rxd5 32. Rxd5 Rxd5 33. Qxc4
+Rd2+ 34. Kg1 Qd7 35. Qxc5 Qd3 36. Qc8+ Kh7 37. Qg4 Qxa3 38. f5 Qc5+ 39. Kh1
+Qd5+ 40. Rf3 Qa2 41. fxg6+ fxg6 42. Qh4+ Kg8 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.02.08"]
+[Round "4.10"]
+[White "Ros Montes, Daniel"]
+[Black "Prada Villagrasa, Pau Manel"]
+[Result "1-0"]
+[ECO "E17"]
+[WhiteElo "2129"]
+[BlackElo "2188"]
+[PlyCount "119"]
+[GameId "2151339904662403"]
+[EventDate "2025.01.18"]
+[WhiteTeam "Colon Sabadell Ionehipotecas.com"]
+[BlackTeam "VIla Olimpica"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb7 5. Bg2 d5 6. cxd5 exd5 7. O-O Be7 8. Qc2 O-O 9. Ne5 c5 10. dxc5 Bxc5 11. Nc3 Qe7 12. Nf3 Nbd7 13. Bf4 Rac8 14. Qd3 Rfe8 15. Nh4 Qe6 16. Rad1 Ne5 17. Qf5 Nc4 18. b3 Nb2 19. Rb1 Bb4 20. Nb5 Qxe2 21. Nc7 Rxc7 22. Bxc7 Ba6 23. Bf3 Qe7 24. Be5 Qxe5 25. Qxe5 Rxe5 26. Rxb2 Bxf1 27. Kxf1 g5 28. Ng2 d4 29. Be2 Ne4 30. f3 Nd2+ 31. Kf2 d3 32. Rxd2 Bxd2 33. Bxd3 Kg7 34. f4 gxf4 35. gxf4 Ra5 36. a4 Rc5 37. Ke2 Bc1 38. Bc4 Kf6 39. Kf3 a6 40. Ne1 Bd2 41. Nd3 Rh5 42. Ne5 Rxh2 43. Ng4+ Kf5 44. Bd3+ Ke6 45. Nxh2 h5 46. Bxa6 Kd6 47. Nf1 Bc1 48. Ng3 h4 49. Nf5+ Kc5 50. Nxh4 f6 51. Ke4 Bb2 52. Nf3 Kd6 53. Nd2 Bc1 54. Nc4+ Kc5 55. Ne3 Bb2 56. Kf5 Kb4 57. Bc4 Kc5 58. Ng4 Bc1 59. Nxf6 Kd4 60. Nd7 1-0

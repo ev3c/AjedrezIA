@@ -1,0 +1,62 @@
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.01.21"]
+[Round "1.4"]
+[White "Balacek, Tadeas"]
+[Black "Sierra Montoya, Miquel"]
+[Result "1-0"]
+[ECO "E74"]
+[WhiteElo "2423"]
+[BlackElo "2273"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[PlyCount "73"]
+[SourceDate "2023.01.21"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Be2 O-O 6. Bg5 c5 7. d5 h6 8. Be3 e6
+9. Qd2 Kh7 10. h3 exd5 11. exd5 Na6 12. Bd3 Nc7 13. a4 Na6 14. Nf3 Nb4 15. Bb1
+b6 16. O-O Ba6 17. Nb5 Re8 18. Ra3 Ne4 19. Qc1 f5 20. Rb3 Bxb5 21. axb5 a6 22.
+bxa6 Rxa6 23. Ne1 Ra1 24. Ra3 Rxa3 25. bxa3 Na6 26. Nd3 b5 27. cxb5 Nc7 28. Nf4
+Nxb5 29. Ne6 Rxe6 30. dxe6 Nec3 31. Re1 Qe7 32. Bd3 Qxe6 33. Bxh6 Bxh6 34.
+Qxh6+ Kxh6 35. Rxe6 d5 36. Bxb5 Nxb5 37. a4 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.02.25"]
+[Round "6.3"]
+[White "Torrecillas Martinez, Antonio"]
+[Black "Balacek, Tadeas"]
+[Result "0-1"]
+[ECO "D60"]
+[WhiteElo "2319"]
+[BlackElo "2361"]
+[PlyCount "94"]
+[EventDate "2023.01.21"]
+[WhiteTeam "Foment Martinenc"]
+[BlackTeam "Lira Vendrellenca"]
+
+1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. Nc3 Nbd7 5. Bg5 h6 6. Bh4 Be7 7. e3 O-O 8. Bd3
+dxc4 9. Bxc4 a6 10. a4 c5 11. O-O cxd4 12. Nxd4 Ne5 13. Be2 Qb6 14. Qc2 Bd7 15.
+Bg3 Nc6 16. Rfd1 Rac8 17. Bf3 Na5 18. Rd3 Rfd8 19. Rad1 Be8 20. Qb1 Nd7 21.
+Nde2 Nc4 22. b3 Nce5 23. R3d2 Nxf3+ 24. gxf3 Nc5 25. Nd4 Bf6 26. a5 Qa7 27. Ne4
+Be7 28. Kg2 Rd5 29. Nc3 Rdd8 30. Ne4 Qa8 31. Ne2 Rxd2 32. Rxd2 Rd8 33. Rxd8
+Qxd8 34. Nxc5 Bxc5 35. b4 Be7 36. Nd4 Qd5 37. Qb2 Qc4 38. Be5 Qxb4 39. Qa1 Bd7
+40. Bxg7 Bd8 41. Bxh6 Qxa5 42. Qb1 Qb6 43. Qe4 e5 44. Qd5 Qg6+ 45. Kf1 Bh3+ 46.
+Ke2 Bf6 47. Qxb7 exd4 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.01.17"]
+[Round "1.1"]
+[White "Petrov, Martin"]
+[Black "Balacek, Tadeas"]
+[Result "1/2-1/2"]
+[ECO "C11"]
+[WhiteElo "2570"]
+[BlackElo "2432"]
+[PlyCount "39"]
+[EventDate "2026.01.18"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6 7. Be3 Be7 8. Qd2
+a6 9. Be2 O-O 10. O-O b5 11. a3 Qc7 12. Na2 cxd4 13. Nxd4 Bb7 14. c3 Na5 15.
+Qc2 Nc4 16. Bf2 Nc5 17. Nc1 Ne4 18. Bd3 g5 19. Bxe4 dxe4 20. b3 1/2-1/2

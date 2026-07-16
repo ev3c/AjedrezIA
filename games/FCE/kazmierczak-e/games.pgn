@@ -1,0 +1,457 @@
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.13"]
+[Round "1"]
+[White "Kazmierczak, E."]
+[Black "Carballo Cancela, M."]
+[Result "0-1"]
+[ECO "C01"]
+[WhiteElo "1574"]
+[BlackElo "1850"]
+[PlyCount "82"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. Bd3 Bd6 5. Nf3 Bg4 6. Be3 Nf6 7. Nbd2 O-O 8.
+c3 c6 9. Qc2 Re8 10. O-O Qc7 11. Bg5 Nbd7 12. Rfe1 Bf4 13. Bxf4 Qxf4 14. Rad1
+Bxf3 15. Nxf3 Ne4 16. Re2 Re6 17. Rde1 Rae8 18. h3 h6 19. Bxe4 dxe4 20. Qd2 Qf5
+21. Nh2 Nf8 22. Ng4 Ng6 23. Ne3 Qh5 24. Nf1 Qd5 25. b3 b5 26. Ne3 Qg5 27. Rd1
+Nf4 28. Ree1 Nxh3+ 29. Kf1 Nf4 30. g3 Nd3 31. Re2 Rf6 32. Ng2 Qxg3 33. Kg1 Qg4
+34. Rf1 Nf4 35. f3 Nxe2+ 36. Qxe2 Rxf3 37. Rxf3 Qxf3 38. Qxf3 exf3 39. Nh4 Re3
+40. Kf2 Rxc3 41. Nxf3 Rc2+ 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.14"]
+[Round "2"]
+[White "Masferrer Niubo, E."]
+[Black "Kazmierczak, E."]
+[Result "1-0"]
+[ECO "C11"]
+[WhiteElo "1961"]
+[BlackElo "1574"]
+[PlyCount "67"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e6 2. Nf3 d5 3. Nc3 Nf6 4. e5 Nfd7 5. d4 c5 6. Bg5 f6 7. exf6 Nxf6 8.
+Bb5+ Nc6 9. Ne5 Bd7 10. O-O a6 11. Bxc6 bxc6 12. Qe2 cxd4 13. Nxc6 Qb6 14. Bxf6
+Qxc6 15. Bxd4 Rg8 16. Qh5+ Ke7 17. Qxh7 Kf7 18. Rad1 Qc8 19. Rd3 Bb4 20. Rg3
+Ke7 21. Rxg7+ Rxg7 22. Qxg7+ Kd6 23. a3 Bc5 24. Qe5+ Kc6 25. Na4 Bd6 26. Qe3
+Qb8 27. Qc3+ Kb7 28. Nc5+ Bxc5 29. Qxc5 Bb5 30. Re1 Qe8 31. Qb6+ Kc8 32. Rxe6
+Qg8 33. Be5 Qd8 34. Rc6+ 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.15"]
+[Round "3"]
+[White "Kazmierczak, E."]
+[Black "Antequera Garcia, L."]
+[Result "1-0"]
+[ECO "C64"]
+[WhiteElo "1574"]
+[BlackElo "1310"]
+[PlyCount "89"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Bc5 4. c3 Nf6 5. O-O O-O 6. Re1 d5 7. exd5 Qxd5 8.
+Bxc6 Qxc6 9. Nxe5 Qb6 10. d4 Bd6 11. Nc4 Qc6 12. Nxd6 Qxd6 13. Nd2 Bf5 14. h3
+Rfe8 15. Nf3 Be4 16. Ng5 Re7 17. Nxe4 Nxe4 18. Be3 Rae8 19. Qc2 Ng3 20. Qd3 Ne4
+21. Rad1 c5 22. dxc5 Qxd3 23. Rxd3 Nxc5 24. Rd2 Ne4 25. Rde2 b6 26. Kf1 Nd6 27.
+Bf4 Nc8 28. Rxe7 Nxe7 29. Bd6 Kf8 30. Bxe7+ Rxe7 31. Rxe7 Kxe7 32. Ke2 Ke6 33.
+Ke3 f5 34. c4 Ke5 35. f4+ Kd6 36. Kd4 h6 37. b4 g5 38. fxg5 hxg5 39. g3 a6 40.
+a4 Ke6 41. a5 bxa5 42. bxa5 f4 43. gxf4 gxf4 44. Ke4 Kd6 45. h4 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.16"]
+[Round "4"]
+[White "Molina Cabaleiro, JJ."]
+[Black "Kazmierczak, E."]
+[Result "0-1"]
+[ECO "C01"]
+[WhiteElo "1801"]
+[BlackElo "1574"]
+[PlyCount "40"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. Bd3 Bd6 5. Nf3 Nf6 6. O-O O-O 7. h3 Be6 8.
+Bg5 Nbd7 9. Re1 c6 10. Ne5 Qb6 11. b3 Rfe8 12. c4 dxc4 13. Nxc4 Bxc4 14. bxc4
+Rxe1+ 15. Qxe1 Qxd4 16. Qc3 Be5 17. Bd2 Nc5 18. Bc2 Nfe4 19. Qb4 Qxf2+ 20. Kh1
+Qf1# 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.17"]
+[Round "5"]
+[White "Kazmierczak, E."]
+[Black "Gonzalez Edo, D."]
+[Result "1/2-1/2"]
+[ECO "B38"]
+[WhiteElo "1574"]
+[BlackElo "1777"]
+[PlyCount "76"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 g6 3. d4 cxd4 4. Nxd4 Bg7 5. c4 Nc6 6. Be3 Nf6 7. Nc3 O-O 8.
+Be2 d6 9. O-O Nxd4 10. Bxd4 Be6 11. Qd2 Qa5 12. Rfd1 Qc7 13. b3 a6 14. Rac1 Nd7
+15. Nd5 Bxd5 16. cxd5 Qd8 17. Be3 Nf6 18. f3 Qd7 19. Rc2 Rfc8 20. Rdc1 b5 21.
+Rxc8+ Rxc8 22. Rxc8+ Qxc8 23. Qc1 Qxc1+ 24. Bxc1 Nd7 25. Be3 Bc3 26. Kf2 Nc5
+27. Bg5 f6 28. Be3 Kf7 29. Kg3 h5 30. h4 Be5+ 31. Kh3 Bc3 32. g3 Be1 33. Bc1
+Bc3 34. Bf4 Bd4 35. Bd2 Bf2 36. Kg2 Bd4 37. Bc1 Bc3 38. Be3 Be1 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.18"]
+[Round "6"]
+[White "Hernando Rodrigo, L."]
+[Black "Kazmierczak, E."]
+[Result "1/2-1/2"]
+[ECO "D05"]
+[WhiteElo "1777"]
+[BlackElo "1574"]
+[PlyCount "158"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d5 2. Nf3 Nf6 3. e3 e6 4. Bd3 c5 5. c3 Nc6 6. Nbd2 Bd6 7. O-O O-O 8. dxc5
+Bxc5 9. e4 Qc7 10. Qe2 Bd6 11. Re1 Ng4 12. h3 Nge5 13. Nxe5 Nxe5 14. Bb1 Bd7
+15. Nb3 a6 16. Nd4 Rfe8 17. Bf4 Ng6 18. Bxd6 Qxd6 19. e5 Qe7 20. Qh5 f5 21.
+exf6 Qxf6 22. Re3 e5 23. Rf3 Qd6 24. Nf5 Qe6 25. Nh4 e4 26. Re3 Nxh4 27. Qxh4
+Rf8 28. Bc2 Qf6 29. Qg3 Qf4 30. Bb3 Qxg3 31. Rxg3 Rf5 32. Re3 Kh8 33. Rd1 Bc6
+34. c4 dxc4 35. Bxc4 Re8 36. Rde1 Ref8 37. R3e2 g6 38. Rc1 R5f6 39. Rec2 Rc8
+40. Bd5 Rcf8 41. Bxc6 bxc6 42. Re2 Re8 43. Rc4 Rfe6 44. Re3 Rb8 45. b3 Rd8 46.
+Rcxe4 Rxe4 47. Rxe4 Rd1+ 48. Kh2 Rd2 49. Ra4 Rxf2 50. Rxa6 Rc2 51. Ra4 Kg7 52.
+Rc4 Rxa2 53. Rxc6 Rb2 54. Rc3 Kf6 55. Re3 Kf5 56. Kg3 h5 57. Rf3+ Ke4 58. b4
+h4+ 59. Kxh4 Rxb4 60. Kg5 Rb2 61. Rg3 Rb6 62. Kh6 Kf5 63. Rg5+ Kf4 64. Rxg6 Rb8
+65. Kh7 Rb7+ 66. Rg7 Rb5 67. Rg4+ Kf5 68. Rg7 Kf4 69. g3+ Kf5 70. g4+ Kf6 71.
+h4 Rb4 72. h5 Rb5 73. h6 Re5 74. g5+ Kf5 75. g6 Kg5 76. Kh8 Kxh6 77. Rg8 Rg5
+78. Rg7 Rxg6 79. Rxg6+ Kxg6 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.19"]
+[Round "7"]
+[White "Kazmierczak, E."]
+[Black "Garcia Punzano, JL."]
+[Result "0-1"]
+[ECO "B54"]
+[WhiteElo "1574"]
+[BlackElo "1744"]
+[PlyCount "134"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. f3 g6 6. c4 Bg7 7. Nc3 O-O 8. Be3
+Nc6 9. Be2 a6 10. O-O Bd7 11. Qd2 Rc8 12. Rac1 Ne5 13. b3 Re8 14. Rfd1 Rc7 15.
+Nd5 Nxd5 16. cxd5 Qb8 17. Rxc7 Qxc7 18. Rc1 Qb8 19. h3 Bc8 20. f4 Nd7 21. Nf3
+Nf6 22. Bd3 Nh5 23. Qf2 Bh6 24. Qh4 Bg7 25. f5 Bf6 26. Bg5 Qa7+ 27. Kh2 Bxg5
+28. Qxg5 f6 29. Qg4 Qe3 30. Rd1 Nf4 31. Qg3 g5 32. Ne1 Qc5 33. Qf3 Nxd3 34.
+Nxd3 Qc2 35. Nc1 Bd7 36. Qd3 Qf2 37. Qd2 Qh4 38. g3 Qxe4 39. g4 Rc8 40. Re1 Qb1
+41. Ne2 Rc2 42. Qa5 Qb2 43. Qd8+ Kf7 44. Qh8 Rxe2+ 45. Rxe2 Qxe2+ 46. Kg1 Qe1+
+47. Kg2 Qh4 48. a4 Qh6 49. Qd8 Be8 50. Qc8 b5 51. Qxa6 bxa4 52. bxa4 Qf8 53. a5
+Bd7 54. Kg3 Qc8 55. Qa7 Bb5 56. Qb6 Bc4 57. Qd4 Qc7 58. Qc3 Qc5 59. h4 gxh4+
+60. Kxh4 Qf2+ 61. Qg3 Qxg3+ 62. Kxg3 Bxd5 63. Kf4 e5+ 64. fxe6+ Kxe6 65. Ke3
+Ke5 66. a6 h6 67. Kf2 Kf4 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.20"]
+[Round "8"]
+[White "Sanchez Paz, J."]
+[Black "Kazmierczak, E."]
+[Result "1-0"]
+[ECO "D26"]
+[WhiteElo "1710"]
+[BlackElo "1574"]
+[PlyCount "93"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 dxc4 3. e3 Nf6 4. Bxc4 e6 5. Nc3 c5 6. Nf3 a6 7. a4 cxd4 8. Nxd4
+Be7 9. O-O O-O 10. Qf3 Re8 11. Rd1 Qc7 12. Bd3 Nbd7 13. Bf1 Bd6 14. h3 Ne5 15.
+Qe2 Ng6 16. e4 Bd7 17. Bg5 Be5 18. Rac1 Qd8 19. Nf3 Bf4 20. e5 Bxg5 21. Nxg5
+Nd5 22. Qh5 h6 23. Nxf7 Kxf7 24. Nxd5 exd5 25. Rxd5 Re6 26. Rcd1 Kg8 27. Rxd7
+Qg5 28. Qxg5 hxg5 29. Bc4 Rae8 30. Rd8 Kh7 31. Rxe8 Rxe8 32. e6 Nf4 33. Re1 Kh6
+34. Kh2 Ng6 35. b4 Ne7 36. b5 a5 37. Rd1 Rc8 38. Rd7 Rxc4 39. Rxe7 Rxa4 40.
+Rxb7 Kg6 41. f3 Kf6 42. b6 g6 43. e7 Kf7 44. Rc7 Rh4 45. b7 Rb4 46. Rc8 Kxe7
+47. b8=Q 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.21"]
+[Round "9"]
+[White "Kazmierczak, E."]
+[Black "Hinarejos Montano, A."]
+[Result "1/2-1/2"]
+[ECO "B06"]
+[WhiteElo "1574"]
+[BlackElo "1610"]
+[PlyCount "133"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 g6 2. d4 c5 3. Nf3 Bg7 4. Nc3 cxd4 5. Nxd4 a6 6. Be3 e6 7. Be2 Ne7 8. O-O
+O-O 9. Qd2 Nbc6 10. Rad1 b5 11. f4 Bb7 12. Bf3 Qc7 13. Nce2 Rad8 14. c3 d5 15.
+Nxc6 Bxc6 16. Qe1 dxe4 17. Bg4 Nf5 18. Bxf5 exf5 19. Qf2 Qc8 20. Rd2 Rxd2 21.
+Bxd2 Re8 22. Be3 Bd5 23. a3 Bc4 24. Rd1 Rd8 25. Nd4 h6 26. Rd2 Bd3 27. Nb3 Qc4
+28. Nc1 Bf6 29. h3 Qc8 30. Nxd3 Rxd3 31. Rxd3 exd3 32. Bd4 Qe6 33. Bxf6 Qxf6
+34. g3 Qe6 35. Qd2 Qe4 36. Kf2 f6 37. Qe3 g5 38. b3 Kg7 39. h4 Kg6 40. hxg5
+Qxe3+ 41. Kxe3 fxg5 42. Kxd3 gxf4 43. gxf4 h5 44. Ke3 Kf6 45. Kf3 h4 46. Kg2
+Ke6 47. Kh3 Kd5 48. Kxh4 a5 49. a4 bxa4 50. bxa4 Kc4 51. Kg5 Kxc3 52. Kxf5 Kb4
+53. Ke5 Kxa4 54. f5 Kb3 55. f6 a4 56. f7 a3 57. f8=Q a2 58. Qb8+ Kc2 59. Qa7
+Kb1 60. Qb6+ Ka1 61. Qd4+ Kb1 62. Qd1+ Kb2 63. Qd2+ Kb1 64. Qd3+ Kb2 65. Qb5+
+Ka1 66. Qe2 Kb1 67. Qd3+ 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.13"]
+[Round "1.72"]
+[White "Kazmierczak, E."]
+[Black "Brandt, S."]
+[Result "1/2-1/2"]
+[ECO "B01"]
+[WhiteElo "1563"]
+[BlackElo "1889"]
+[PlyCount "163"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d4 Nf6 5. Nf3 Bf5 6. Bd3 e6 7. Bxf5 Qxf5 8.
+Ne2 c6 9. c3 Nbd7 10. Ng3 Qb5 11. Qe2 Be7 12. Qxb5 cxb5 13. Bd2 Nd5 14. O-O
+N7b6 15. b3 O-O 16. Rac1 Rac8 17. Ne2 Rc7 18. Ne5 Rfc8 19. Rfd1 Ba3 20. Rb1 Bd6
+21. Nd3 Kf8 22. Rbc1 f6 23. h3 Kf7 24. Re1 g5 25. Rb1 Rc6 26. Nb2 h6 27. Nd1
+Re8 28. Ne3 Bf4 29. Nxf4 Nxf4 30. c4 bxc4 31. bxc4 Re7 32. c5 Nc8 33. Nc2 Nd5
+34. Ne3 Nf4 35. Nc2 Ng6 36. Re3 e5 37. Nb4 Rd7 38. Nxc6 bxc6 39. Reb3 Rxd4 40.
+Rb7+ Ke6 41. Be3 Ra4 42. R1b2 Nce7 43. Rc7 f5 44. f3 Kd5 45. Rd7+ Ke6 46. Rd6+
+Kf7 47. Bf2 h5 48. Rbd2 Nf4 49. Rd7 Nfd5 50. Rb7 g4 51. Bh4 gxh3 52. Rxd5 Rxh4
+53. Rdd7 hxg2 54. Rxe7+ Kf6 55. Rxa7 Rc4 56. Rf7+ Kg5 57. Kxg2 Kf4 58. Rh7 Rc2+
+59. Kh3 Rc3 60. Rxh5 Rxf3+ 61. Kg2 Rg3+ 62. Kf2 Rf3+ 63. Kg2 Rg3+ 64. Kf2 Rf3+
+65. Ke2 e4 66. a4 Rc3 67. Ra5 Kg4 68. Rh6 f4 69. Kd2 Rd3+ 70. Ke1 Kg3 71. Rxc6
+e3 72. Rg6+ Kf3 73. c6 e2 74. Rg3+ fxg3 75. Rf5+ Ke4 76. Kxe2 Ra3 77. c7 Rc3
+78. Rf7 Kd5 79. a5 Kd6 80. a6 Rxc7 81. Rxc7 Kxc7 82. Kf3 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.14"]
+[Round "2.42"]
+[White "Riera Danes, M."]
+[Black "Kazmierczak, E."]
+[Result "1/2-1/2"]
+[ECO "C06"]
+[WhiteElo "2048"]
+[BlackElo "1563"]
+[PlyCount "64"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 Qb6 8. Nf3
+cxd4 9. cxd4 Be7 10. O-O f6 11. exf6 Nxf6 12. a3 O-O 13. b4 a6 14. Bg5 Bd7 15.
+Rc1 Rae8 16. Ne5 Nxe5 17. dxe5 Ng4 18. Bxe7 Rxe7 19. Nd4 Nxe5 20. Bxh7+ Kxh7
+21. Qh5+ Kg8 22. Qxe5 Ref7 23. Nf3 Rf5 24. Qe3 Qxe3 25. fxe3 e5 26. Nd2 Rxf1+
+27. Nxf1 Bc6 28. Nd2 Rf6 29. Nf3 Rf5 30. Nh4 Rf6 31. Nf3 Rf5 32. Nh4 Rf6
+1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.15"]
+[Round "3.54"]
+[White "Kazmierczak, E."]
+[Black "Brunet Gil, P."]
+[Result "1/2-1/2"]
+[ECO "B32"]
+[WhiteElo "1563"]
+[BlackElo "1880"]
+[PlyCount "63"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e5 5. Nb5 a6 6. Nd6+ Bxd6 7. Qxd6 Qf6 8.
+Qxf6 Nxf6 9. Nc3 Nb4 10. Bd3 Nxd3+ 11. cxd3 h6 12. h3 d6 13. b3 Be6 14. Bb2 O-O
+15. O-O Rfe8 16. Rfe1 Bd7 17. Rac1 Bc6 18. Re3 Nd7 19. f3 Nb6 20. Rd1 f6 21. d4
+Rad8 22. dxe5 dxe5 23. Red3 Rxd3 24. Rxd3 Kf7 25. Ba3 Nd7 26. Kf2 Nf8 27. h4 h5
+28. g3 Ne6 29. Rd2 Rd8 30. Rxd8 Nxd8 31. Nd5 Ne6 32. Bb2 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.16"]
+[Round "4.44"]
+[White "Salazar Navas, J."]
+[Black "Kazmierczak, E."]
+[Result "1-0"]
+[ECO "C11"]
+[WhiteElo "1927"]
+[BlackElo "1563"]
+[PlyCount "81"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 e6 2. Nc3 d5 3. Nf3 Nf6 4. e5 Nfd7 5. d4 c5 6. Bg5 Qb6 7. dxc5 Qxb2 8.
+Nb5 Qb4+ 9. Bd2 Qxc5 10. Rb1 Na6 11. Be3 Qe7 12. Nd6+ Kd8 13. Qd4 h6 14. Nxb7+
+Bxb7 15. Rxb7 Nac5 16. Rb5 Ke8 17. Be2 a6 18. Ra5 Qd8 19. Bd2 Ne4 20. Rxa6 Bc5
+21. Qa4 Bxf2+ 22. Kf1 Rb8 23. Bb5 Nxd2+ 24. Nxd2 Bh4 25. Ra7 Qb6 26. Bxd7+ Kf8
+27. g3 Bg5 28. Nb3 Be3 29. Ra8 Ke7 30. Ra7 Rb7 31. Rxb7 Qxb7 32. Bc6 Qb8 33.
+Qa3+ Kd8 34. Kg2 Qxe5 35. Qa8+ Ke7 36. Qb7+ Kf6 37. Rf1+ Kg5 38. Qe7+ Kh5 39.
+Qxf7+ g6 40. Qf3+ Kg5 41. h4# 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.17"]
+[Round "5.55"]
+[White "Kazmierczak, E."]
+[Black "Rius Riu, G."]
+[Result "0-1"]
+[ECO "B19"]
+[WhiteElo "1563"]
+[BlackElo "1846"]
+[PlyCount "132"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. h4 h6 7. Nf3 Nd7 8. h5
+Bh7 9. Bd3 Bxd3 10. Qxd3 Ngf6 11. Be3 e6 12. O-O-O Be7 13. Nd2 Qc7 14. Ne2
+O-O-O 15. f3 Nd5 16. Bf2 N7f6 17. a3 Nf4 18. Nxf4 Qxf4 19. Qe3 Qxe3 20. Bxe3
+Nd5 21. Nf1 Nxe3 22. Nxe3 Bg5 23. Rhe1 Rd5 24. c3 Bxe3+ 25. Rxe3 Rxh5 26. Kc2
+Rd5 27. b4 Kc7 28. c4 Rd7 29. Kc3 Rhd8 30. f4 b5 31. Re5 bxc4 32. Kxc4 Rd5 33.
+Rd3 Kb6 34. g4 g6 35. a4 R8d7 36. Rxd5 Rxd5 37. Rh3 h5 38. g5 Rf5 39. Rh4 a5
+40. bxa5+ Rxa5 41. Kb4 Rd5 42. Kc4 Ka5 43. Rh2 Rf5 44. Rf2 Rd5 45. Rh2 Rf5 46.
+Rf2 f6 47. gxf6 Rxf6 48. Rg2 Rxf4 49. Rxg6 e5 50. Rg5 Rxd4+ 51. Kb3 Rb4+ 52.
+Kc3 Kxa4 53. Rxh5 Rb5 54. Rh4+ Ka5 55. Rc4 Kb6 56. Kd3 Rd5+ 57. Ke4 Rd4+ 58.
+Rxd4 exd4 59. Kxd4 Kb5 60. Kd3 Kb4 61. Kc2 Kc4 62. Kb2 Kd3 63. Kb3 c5 64. Kb2
+c4 65. Kc1 Kc3 66. Kb1 Kd2 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.18"]
+[Round "6.63"]
+[White "Ylla Soro, R."]
+[Black "Kazmierczak, E."]
+[Result "1/2-1/2"]
+[ECO "D02"]
+[WhiteElo "1799"]
+[BlackElo "1563"]
+[PlyCount "51"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. d4 d5 2. Nf3 Nf6 3. g3 e6 4. Bg2 c5 5. c3 Nc6 6. O-O cxd4 7. cxd4 h6 8. a3
+Bd6 9. Nc3 a6 10. e3 O-O 11. b4 b5 12. Bb2 Bb7 13. Nd2 Rc8 14. Nb3 Re8 15. Nc5
+Bxc5 16. bxc5 e5 17. Ne2 exd4 18. exd4 Na5 19. Bc3 Nc6 20. Re1 Rc7 21. Nf4
+Rxe1+ 22. Bxe1 Re7 23. Bc3 Ne4 24. Be1 Nf6 25. Bc3 Bc8 26. f3 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.19"]
+[Round "7.64"]
+[White "Kazmierczak, E."]
+[Black "Sarrio Vendrell, N."]
+[Result "1-0"]
+[ECO "C78"]
+[WhiteElo "1563"]
+[BlackElo "1792"]
+[PlyCount "103"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 b5 5. Bb3 d6 6. c3 Nf6 7. O-O Nxe4 8. Bd5
+Nxc3 9. Bxc6+ Bd7 10. Bxd7+ Qxd7 11. dxc3 Be7 12. Bg5 Bxg5 13. Nxg5 Qf5 14. Qd5
+O-O 15. Nf3 Qc2 16. Qd2 Qe4 17. Re1 Qc6 18. Na3 Rfe8 19. Nc2 Rad8 20. Rad1 Qc5
+21. Qd5 Qb6 22. Nb4 Rf8 23. Nc6 Rde8 24. h3 h6 25. Nh4 Kh8 26. Nf5 Kh7 27. Nb4
+Kh8 28. Nxd6 Qxd6 29. Qxd6 cxd6 30. Rxd6 a5 31. Nc6 a4 32. Rd5 Kg8 33. Rdxe5
+Rxe5 34. Rxe5 Kh7 35. Rxb5 Re8 36. Re5 Rf8 37. b4 axb3 38. axb3 Rc8 39. Rc5 Re8
+40. b4 Re1+ 41. Kh2 Re2 42. b5 Rxf2 43. c4 Re2 44. b6 Rb2 45. Rb5 Rxb5 46. cxb5
+f5 47. b7 Kg6 48. b8=Q Kh5 49. Qe8+ g6 50. Ne7 f4 51. Qxg6+ Kh4 52. Nf5# 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.20"]
+[Round "8.49"]
+[White "Serentill Tost, E."]
+[Black "Kazmierczak, E."]
+[Result "1-0"]
+[ECO "C13"]
+[WhiteElo "1854"]
+[BlackElo "1563"]
+[PlyCount "105"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 dxe4 5. Nxe4 Be7 6. Nxf6+ Bxf6 7. Bxf6 Qxf6
+8. Qd2 c5 9. O-O-O cxd4 10. Nf3 O-O 11. Qxd4 Qxd4 12. Nxd4 Bd7 13. Bd3 Rc8 14.
+h4 Nc6 15. Be4 Rab8 16. Rd2 Nxd4 17. Rxd4 Rc7 18. Rhd1 Be8 19. Rd8 Rxd8 20.
+Rxd8 Kf8 21. c3 b6 22. Bc2 Ke7 23. Rd4 g6 24. Kd2 Bc6 25. f3 Rd7 26. Ke3 Rxd4
+27. Kxd4 Kd6 28. Be4 e5+ 29. Kd3 Bxe4+ 30. Kxe4 f5+ 31. Kd3 h6 32. b4 a6 33. a4
+g5 34. hxg5 hxg5 35. Kc4 Kc6 36. Kd3 Kd5 37. c4+ Kd6 38. Ke3 Kc6 39. Kd3 b5 40.
+axb5+ axb5 41. cxb5+ Kxb5 42. Kc3 g4 43. fxg4 fxg4 44. g3 e4 45. Kd4 Kxb4 46.
+Kxe4 Kc5 47. Kf4 Kd6 48. Kxg4 Ke6 49. Kg5 Ke7 50. Kg6 Kf8 51. g4 Ke8 52. g5 Ke7
+53. Kh7 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.21"]
+[Round "9.59"]
+[White "Kazmierczak, E."]
+[Black "Garcia Extremera, M."]
+[Result "1/2-1/2"]
+[ECO "B55"]
+[WhiteElo "1563"]
+[BlackElo "1759"]
+[PlyCount "83"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. f3 Nc6 6. c4 e6 7. Be2 Bd7 8. Nc3
+Nxd4 9. Qxd4 Bc6 10. Be3 e5 11. Qd2 Be7 12. O-O O-O 13. Rac1 Rc8 14. Rfd1 a6
+15. Nd5 Nxd5 16. cxd5 Bd7 17. Rxc8 Bxc8 18. Rc1 f5 19. Qc3 f4 20. Bf2 Bd7 21.
+Qc7 Qc8 22. Rc3 Re8 23. Qa5 Qa8 24. Qc7 Bb5 25. Bxb5 axb5 26. Qd7 Kf8 27. Qxb5
+Rc8 28. Rxc8+ Qxc8 29. b3 Qc1+ 30. Qf1 Qc2 31. Qa1 Bd8 32. h3 Ba5 33. Be1 Bb6+
+34. Kh2 Bd4 35. Bc3 Bxc3 36. Qf1 Qd2 37. Qc4 g5 38. Qc8+ Kg7 39. Qd7+ Kf8 40.
+Qd8+ Kf7 41. Qd7+ Kf8 42. Qd8+ 1/2-1/2

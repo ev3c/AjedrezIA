@@ -1,0 +1,816 @@
+[Event "Copa Barcinona"]
+[Site "Barcelona"]
+[Date "1973.??.??"]
+[Round "?"]
+[White "Batalla Batalla, Ramon"]
+[Black "Palau Albet, Jaume"]
+[Result "1-0"]
+[ECO "B97"]
+[PlyCount "59"]
+[EventDate "1973.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Qb6 8. Qd2
+Qxb2 9. Rb1 Qa3 10. Be2 Be7 11. O-O h6 12. Bh4 Qa5 13. Bf2 Nbd7 14. Be3 Nc5 15.
+f5 Na4 16. Nxa4 Qxa4 17. fxe6 fxe6 18. e5 dxe5 19. Rxf6 gxf6 20. Bh5+ Kf8 21.
+Rb3 Kg8 22. Nf5 Bf8 23. Nd6 Rh7 24. Ne8 Be7 25. Qf2 Bd7 26. Nxf6+ Bxf6 27. Qxf6
+Rf8 28. Qxe5 Qh4 29. Bd4 Rd8 30. Rg3+ 1-0
+
+[Event "Berga op"]
+[Site "Berga"]
+[Date "1973.??.??"]
+[Round "?"]
+[White "Palau Albet, Jaume"]
+[Black "Llades"]
+[Result "1-0"]
+[ECO "B87"]
+[PlyCount "55"]
+[EventDate "1973.08.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bc4 e6 7. Bb3 b5 8. O-O
+Bb7 9. Re1 Nbd7 10. Bg5 Nc5 11. Bd5 exd5 12. exd5+ Kd7 13. b4 Na4 14. Nxa4 bxa4
+15. c4 Kc8 16. Qxa4 Qd7 17. Nc6 Ne8 18. Na7+ Kc7 19. b5 f6 20. b6+ Kd8 21. Nc6+
+Kc8 22. Bd2 f5 23. Re6 Nf6 24. Rae1 h6 25. Bc3 Ne4 26. f3 Qxe6 27. dxe6 Nxc3
+28. e7 1-0
+
+[Event "Camp. España eq. 2 Div."]
+[Site "Barcelona"]
+[Date "1975.??.??"]
+[Round "5"]
+[White "Palau Albet, Jaume"]
+[Black "Martinez, Jose"]
+[Result "1-0"]
+[ECO "B88"]
+[PlyCount "50"]
+[EventDate "1975.06.??"]
+[EventType "team"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Bc4 e6 7. Bb3 Be7 8.
+Be3 a6 9. O-O O-O 10. f4 Nxd4 11. Bxd4 b5 12. a3 Bb7 13. Qd3 a5 14. Nxb5 Bxe4
+15. Qe3 d5 16. a4 Nd7 17. c4 dxc4 18. Bxc4 Bg6 19. Rfd1 Bb4 20. Kh1 Qe7 21. Na7
+Bc5 22. Nc6 Qd6 23. Bb5 Bc2 24. Qg3 e5 25. Bxc5 Qxd1+ {(...)} 1-0
+
+[Event "Camp. España eq. 2 Div."]
+[Site "Barcelona"]
+[Date "1975.??.??"]
+[Round "6"]
+[White "Palau Albet, Jaume"]
+[Black "Gonzalez Maza, Rafael"]
+[Result "1-0"]
+[ECO "B06"]
+[PlyCount "105"]
+[EventDate "1975.06.??"]
+[EventType "team"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 c6 4. Nf3 d6 5. h3 Nf6 6. a4 O-O 7. Bd3 a5 8. O-O Qc7
+9. Be3 Na6 10. Nd2 Nb4 11. Be2 b6 12. Na2 Nxa2 13. Rxa2 d5 14. e5 Ne8 15. f4 f6
+16. c4 Be6 17. b3 Rd8 18. Rc2 fxe5 19. fxe5 Rxf1+ 20. Qxf1 dxc4 21. Bxc4 Qd7
+22. Bxe6+ Qxe6 23. Qc4 Qxc4 24. Nxc4 Rb8 25. Na3 Rc8 26. Nb5 c5 27. Rc4 Kf7 28.
+dxc5 bxc5 29. Rxc5 Rxc5 30. Bxc5 Bxe5 31. Bb6 Ke6 32. Bxa5 Nf6 33. Bb4 Nd5 34.
+Bd2 Bf4 35. Be1 Ne3 36. Bf2 Nc2 37. Nd4+ Nxd4 38. Bxd4 Kd5 39. Bb6 Bd2 40. Kf2
+Kc6 41. Be3 Ba5 42. Ke2 Kd5 43. Bd2 Bc7 44. Kd3 e5 45. b4 e4+ 46. Ke2 Bd8 47.
+Be3 Kc4 48. b5 Bc7 49. b6 Bb8 50. a5 Kb5 51. Bd2 g5 52. Bxg5 Kxa5 53. Bd8 1-0
+
+[Event "Camp. España eq. 2 Div."]
+[Site "Barcelona"]
+[Date "1975.??.??"]
+[Round "7"]
+[White "Palau Albet, Jaume"]
+[Black "Beltran Tassis, Alejandro"]
+[Result "0-1"]
+[ECO "C69"]
+[PlyCount "82"]
+[EventDate "1975.06.??"]
+[EventType "team"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. O-O f6 6. d4 exd4 7. Nxd4 Bd6 8.
+f4 Ne7 9. Be3 O-O 10. c4 c5 11. Nb3 b6 12. Nc3 Bb7 13. Qe2 Ng6 14. Rae1 Re8 15.
+Nd2 Qd7 16. Nd5 Rad8 17. Qh5 Qf7 18. Rf3 Ne5 19. Qxf7+ Nxf7 20. g4 Rd7 21. h4
+Bf8 22. g5 f5 23. Bf2 c6 24. e5 cxd5 25. e6 Rde7 26. exf7+ Kxf7 27. Rxe7+ Rxe7
+28. Rb3 Re6 29. Rd3 d4 30. b4 Bd6 31. Nb3 Re2 32. a3 Be4 33. bxc5 bxc5 34. Rd2
+Rxd2 35. Nxd2 Bxf4 36. Be1 Ke6 37. Nb3 Kd6 38. Kf2 Be3+ 39. Ke2 f4 40. Nd2 d3+
+41. Kf1 Ke5 0-1
+
+[Event "Badalona op"]
+[Site "Badalona"]
+[Date "1976.??.??"]
+[Round "3"]
+[White "Martin Gonzalez, Angel"]
+[Black "Palau Albet, Jaume"]
+[Result "0-1"]
+[ECO "B45"]
+[PlyCount "83"]
+[EventDate "1976.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e6 5. Nc3 Nf6 6. Ndb5 Bb4 7. Bf4 Nxe4 8.
+Qf3 d5 9. Nc7+ Ke7 10. O-O-O Bxc3 11. bxc3 Kf8 12. Nxa8 Qa5 13. Kb2 e5 14. Bc1
+Be6 15. c4 dxc4 16. Qa3+ Qxa3+ 17. Kxa3 Nxf2 18. Be2 Nxh1 19. Nc7 Bg4 20. Bxg4
+Nf2 21. Bf3 Nxd1 22. Bxd1 Ke7 23. Be2 Kd7 24. Nd5 b5 25. c3 f5 26. Be3 Kd6 27.
+Nb4 a5 28. Nxc6 Kxc6 29. Bf3+ e4 30. Be2 Rd8 31. h4 Rb8 32. Bf4 Rb7 33. Kb2 Kd5
+34. a3 b4 35. axb4 axb4 36. cxb4 Rxb4+ 37. Kc3 Rb3+ 38. Kc2 Kd4 39. h5 Rb7 40.
+Bd2 Rc7 41. Ba5 Rc6 42. Be1 0-1
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1976.??.??"]
+[Round "?"]
+[White "Bechini Bassons, Jordi"]
+[Black "Palau Albet, Jaume"]
+[Result "1-0"]
+[ECO "B22"]
+[PlyCount "70"]
+[EventDate "1976.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. c3 d5 3. exd5 Qxd5 4. d4 e5 5. dxe5 Qxe5+ 6. Be3 Nf6 7. Nf3 Qc7 8.
+Na3 a6 9. Qa4+ Bd7 10. Bb5 axb5 11. Qxa8 Bd6 12. O-O-O O-O 13. Rxd6 Qxd6 14.
+Qxb7 Bc6 15. Qb6 Nfd7 16. Qa5 Qg6 17. Ne1 b4 18. cxb4 cxb4 19. Nc4 b3 20. axb3
+Rc8 21. h4 Qe6 22. Nd3 Bxg2 23. Rg1 Be4 24. Qc3 f6 25. Nf4 Qa6 26. f3 Ne5 27.
+fxe4 Nxc4 28. Kd1 Nxe3+ 29. Qxe3 Qa1+ 30. Ke2 Qxb2+ 31. Kf3 Rc3 32. Nd3 Qxb3
+33. Ke2 Qa2+ 34. Kf3 Nc6 35. Rd1 Qh2 1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1976.??.??"]
+[Round "?"]
+[White "Cartro Turu, Gabriel"]
+[Black "Palau Albet, Jaume"]
+[Result "1-0"]
+[ECO "B28"]
+[PlyCount "89"]
+[EventDate "1976.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 a6 3. c4 e6 4. Nc3 Nc6 5. d4 cxd4 6. Nxd4 Qc7 7. Be2 Bb4 8. Nc2
+Be7 9. O-O Nf6 10. Be3 d6 11. f3 O-O 12. Rc1 b6 13. Nd4 Nxd4 14. Qxd4 Nd7 15.
+Rfd1 Rd8 16. b4 Rb8 17. a3 Qa7 18. Na4 h6 19. Kh1 Qc7 20. Nc3 Qa7 21. g4 Bb7
+22. Rg1 f6 23. Qd2 Kf7 24. Qe1 g5 25. Qf2 Ba8 26. Kg2 Rbc8 27. h4 Kg7 28. Rh1
+Rh8 29. f4 gxf4 30. Bxf4 Ne5 31. Qg3 Rcg8 32. Kh3 Kf7 33. Rhf1 Ke8 34. c5 bxc5
+35. bxc5 Qxc5 36. Nb5 Qb6 37. Nc7+ Kf7 38. Bxe5 dxe5 39. Bc4 Bd5 40. Bxd5 exd5
+41. Nxd5 Qb5 42. Qxe5 Qd3+ 43. Kh2 Qe2+ 44. Kh1 Bd8 45. Rxf6+ 1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1976.??.??"]
+[Round "?"]
+[White "Castro Rojas, Oscar H"]
+[Black "Palau Albet, Jaume"]
+[Result "1-0"]
+[ECO "B28"]
+[PlyCount "89"]
+[EventDate "1976.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 a6 3. c4 e6 4. Nc3 Nc6 5. d4 cxd4 6. Nxd4 Qc7 7. Be2 Bb4 8. Nc2
+Be7 9. O-O Nf6 10. Be3 d6 11. f3 O-O 12. Rc1 b6 13. Nd4 Nxd4 14. Qxd4 Nd7 15.
+Rfd1 Rd8 16. b4 Rb8 17. a3 Qa7 18. Na4 h6 19. Kh1 Qc7 20. Nc3 Qa7 21. g4 Bb7
+22. Rg1 f6 23. Qd2 Kf7 24. Qe1 g5 25. Qf2 Ba8 26. Kg2 Rbc8 27. h4 Kg7 28. Rh1
+Rh8 29. f4 gxf4 30. Bxf4 Ne5 31. Qg3 Rcg8 32. Kh3 Kf7 33. Rhf1 Ke8 34. c5 bxc5
+35. bxc5 Qxc5 36. Nb5 Qb6 37. Nc7+ Kf7 38. Bxe5 dxe5 39. Bc4 Bd5 40. Bxd5 exd5
+41. Nxd5 Qb5 42. Qxe5 Qd3+ 43. Kh2 Qe2+ 44. Kh1 Bd8 45. Rxf6+ 1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1976.??.??"]
+[Round "?"]
+[White "Palau Albet, Jaume"]
+[Black "Garcia Orus, Francisco"]
+[Result "1-0"]
+[ECO "B70"]
+[PlyCount "71"]
+[EventDate "1976.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Bc4 Bg7 7. f3 O-O 8. Bb3
+Nc6 9. Be3 Nxd4 10. Bxd4 Be6 11. Bxe6 fxe6 12. O-O a6 13. e5 Nd5 14. Nxd5 exd5
+15. Re1 dxe5 16. Bxe5 Qb6+ 17. Kh1 e6 18. Qe2 Rae8 19. Bxg7 Kxg7 20. c3 e5 21.
+Qd2 d4 22. Re4 dxc3 23. Qxc3 Qb5 24. Rae1 Rf5 25. h3 Kg8 26. a4 Qd5 27. f4 Re6
+28. a5 Rc6 29. Qf3 exf4 30. Rd1 Qf7 31. b4 Rc7 32. Rdd4 g5 33. Rd8+ Kg7 34.
+Ree8 Re5 35. Rxe5 Qf6 36. Qd5 1-0
+
+[Event "Camp. Catalunya indiv. Pref. esp."]
+[Site "?"]
+[Date "1976.??.??"]
+[Round "1"]
+[White "Palau Albet, Jaume"]
+[Black "Bas Rosello, Jose Maria"]
+[Result "1-0"]
+[ECO "B04"]
+[PlyCount "63"]
+[EventDate "1976.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. Nf3 e6 5. Bd3 Nb4 6. Bb5+ Bd7 7. Be2 d5 8. c3
+N4a6 9. b4 c6 10. O-O Nc7 11. a4 Be7 12. Ne1 O-O 13. f4 f5 14. exf6 Bxf6 15.
+Bd3 g6 16. Nf3 Be8 17. Nbd2 Nd7 18. Ne5 Nxe5 19. fxe5 Be7 20. Nf3 Rf7 21. Ra2
+Bd7 22. Raf2 Ne8 23. Qc2 Ng7 24. g4 Be8 25. Bh6 Bh4 26. Rg2 Be7 27. Rg3 Rf8 28.
+Rh3 Rc8 29. Qd2 Rf7 30. Bxg6 hxg6 31. Bxg7 Bg5 32. Nxg5 1-0
+
+[Event "Camp. Catalunya indiv. Pref. esp."]
+[Site "?"]
+[Date "1976.??.??"]
+[Round "8"]
+[White "Palau Albet, Jaume"]
+[Black "Mas"]
+[Result "1-0"]
+[ECO "A01"]
+[PlyCount "63"]
+[EventDate "1976.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. b3 d5 2. Bb2 Nd7 3. Nf3 Ngf6 4. g3 c6 5. Bg2 Qc7 6. d4 g6 7. Nbd2 Bg7 8. O-O
+O-O 9. c4 a5 10. a3 Nb6 11. Rc1 e6 12. Qc2 a4 13. b4 dxc4 14. Nxc4 Nxc4 15.
+Qxc4 Ne4 16. Qd3 Nd6 17. Ne5 Qe7 18. Rc5 f6 19. Nc4 Nb5 20. Rc1 Ra6 21. Qe3 Re8
+22. Na5 e5 23. d5 Na7 24. Qc3 e4 25. dxc6 b6 26. Rc4 bxa5 27. Rxe4 Qf8 28. Rxe8
+Qxe8 29. Qc4+ Kh8 30. b5 Be6 31. Qc5 Bf8 32. Qd4 1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1977.??.??"]
+[Round "?"]
+[White "Gonzalez Maza, Rafael"]
+[Black "Palau Albet, Jaume"]
+[Result "0-1"]
+[ECO "A50"]
+[PlyCount "84"]
+[EventDate "1977.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 b6 2. c4 Bb7 3. Nc3 Nf6 4. Bg5 e6 5. a3 Be7 6. e3 O-O 7. Nf3 Ne4 8. Bxe7
+Qxe7 9. Qc2 Nxc3 10. bxc3 f5 11. Bd3 Nc6 12. O-O Na5 13. Nd2 Rf6 14. e4 Rh6 15.
+g3 f4 16. Kg2 Rf8 17. Nf3 d6 18. g4 e5 19. Rg1 g5 20. c5 Bc6 21. cxd6 cxd6 22.
+h3 Rc8 23. d5 Be8 24. Rgc1 Rg6 25. Nd2 Rg7 26. a4 h5 27. Nb3 f3+ 28. Kxf3 hxg4+
+29. hxg4 Qf6+ 30. Ke2 Nxb3 31. Qxb3 Rf7 32. Rf1 Qf3+ 33. Kd2 Qxg4 34. a5 Rf3
+35. Rae1 Qf4+ 36. Kc2 g4 37. axb6 axb6 38. Qa3 Rxd3 39. Kxd3 Bb5+ 40. Kc2 Bxf1
+41. Qxd6 Qxf2+ 42. Kb3 Bc4+ 0-1
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1977.??.??"]
+[Round "?"]
+[White "Piqueres Pla, Enric"]
+[Black "Palau Albet, Jaume"]
+[Result "0-1"]
+[ECO "D90"]
+[PlyCount "82"]
+[EventDate "1977.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Qa4+ c6 6. cxd5 Nxd5 7. e4 Nb6 8.
+Qc2 Bg4 9. Ne5 Be6 10. Be3 N8d7 11. Rd1 Qc7 12. Nb5 Qc8 13. Nxd7 Bxd7 14. Nc3
+O-O 15. Be2 Be6 16. O-O Rd8 17. b3 Rd6 18. Rd2 Qe8 19. Rc1 Rad8 20. Qd1 f5 21.
+e5 R6d7 22. f4 Qf7 23. h3 Nd5 24. Nxd5 Bxd5 25. Rb2 e6 26. b4 Bf8 27. a4 a5 28.
+bxa5 Ba3 29. Rb6 Bxc1 30. Qxc1 Ra8 31. Qc3 Qe7 32. Bc1 Qh4 33. Bf1 g5 34. a6
+bxa6 35. g3 Qh5 36. fxg5 Qd1 37. a5 Bf3 38. Kf2 Be4 39. Be3 Qf3+ 40. Ke1 Qxg3+
+41. Kd2 f4 0-1
+
+[Event "Camp. Catalunya indiv. Pref. esp."]
+[Site "?"]
+[Date "1977.??.??"]
+[Round "3"]
+[White "Palau Albet, Jaume"]
+[Black "Noria Silvestre, Joaquin"]
+[Result "1/2-1/2"]
+[ECO "C86"]
+[PlyCount "94"]
+[EventDate "1977.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Qe2 b5 7. Bb3 d6 8. c3
+O-O 9. a4 Rb8 10. axb5 axb5 11. d4 exd4 12. cxd4 Bg4 13. Rd1 Re8 14. Be3 Qc8
+15. Rc1 Qd7 16. Nbd2 Bd8 17. Qd3 Bxf3 18. gxf3 Ne7 19. Kh1 Ng6 20. Rg1 Qe7 21.
+Rg5 c6 22. Rag1 Kh8 23. Qf1 Ba5 24. Qh3 Kg8 25. Qf5 d5 26. e5 Nd7 27. f4 Bxd2
+28. Bxd2 f6 29. Rh5 fxe5 30. fxe5 Rf8 31. Qh3 Rxf2 32. Bc2 Ndf8 33. Rxg6 Rxd2
+34. Rxc6 Ra8 35. Rf5 Ra1+ 36. Rf1 Rxf1+ 37. Qxf1 Qh4 38. Qg1 Re2 39. Rc7 g6 40.
+Qg3 Qxd4 41. Bd3 Rf2 42. e6 Nxe6 43. Rxh7 Nf8 44. Re7 Qf6 45. Re8 Rf3 46. Qxg6+
+Qxg6 47. Bxg6 Kg7 1/2-1/2
+
+[Event "Camp. Catalunya indiv. Pref. esp."]
+[Site "?"]
+[Date "1977.??.??"]
+[Round "6"]
+[White "Piqueres Pla, Enric"]
+[Black "Palau Albet, Jaume"]
+[Result "0-1"]
+[ECO "D76"]
+[PlyCount "60"]
+[EventDate "1977.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. g3 d5 5. cxd5 Nxd5 6. Bg2 O-O 7. O-O Nc6 8.
+Nc3 Nb6 9. d5 Na5 10. e4 c6 11. Nd4 cxd5 12. exd5 e5 13. Nb3 Nac4 14. a4 Nd6
+15. Nd2 Bf5 16. b3 Bd3 17. Ba3 Bxf1 18. Nxf1 Re8 19. Ne3 Bf8 20. Bf1 a6 21. Rc1
+f5 22. a5 Nbc8 23. b4 b5 24. axb6 Nxb6 25. b5 f4 26. Bxd6 fxe3 27. Bxf8 exf2+
+28. Kh1 Rxf8 29. bxa6 Ra7 30. d6 Qa8+ 0-1
+
+[Event "Camp. Catalunya indiv. Pref. esp."]
+[Site "?"]
+[Date "1977.??.??"]
+[Round "9"]
+[White "Bordell Rosell, Roman"]
+[Black "Palau Albet, Jaume"]
+[Result "1-0"]
+[ECO "A16"]
+[PlyCount "115"]
+[EventDate "1977.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. c4 Nf6 2. Nc3 d5 3. cxd5 Nxd5 4. g3 g6 5. Bg2 Nb6 6. Nf3 Bg7 7. d3 O-O 8.
+Bf4 c6 9. Qd2 Re8 10. Bh6 Bg4 11. h3 Bxf3 12. Bxf3 Bxh6 13. Qxh6 Qd4 14. h4 Qg7
+15. Qd2 h6 16. h5 g5 17. e3 N8d7 18. Be2 Rad8 19. Qc2 Nf6 20. O-O-O Nfd5 21.
+Ne4 Nd7 22. Kb1 f5 23. Nc3 Nxc3+ 24. Qxc3 Qxc3 25. bxc3 Nc5 26. Kc2 Kg7 27. f3
+e5 28. Rb1 Rd7 29. Rhe1 Rde7 30. Bf1 Kf6 31. Bh3 b6 32. Rbd1 Nb7 33. e4 f4 34.
+gxf4 exf4 35. d4 Nd8 36. e5+ Kg7 37. a4 Ne6 38. a5 Nc7 39. axb6 Nd5 40. Kd3
+axb6 41. Ra1 Ne3 42. Ra6 Rb7 43. Rb1 Reb8 44. Rba1 Nd5 45. Ra7 Ne7 46. Be6 b5
+47. Ke4 Kf8 48. Bb3 Ke8 49. Rxb7 Rxb7 50. Ra8+ Kd7 51. e6+ Kc7 52. Ke5 b4 53.
+c4 Rb8 54. Rxb8 Kxb8 55. d5 cxd5 56. cxd5 Kb7 57. d6 Nc6+ 58. Kd5 1-0
+
+[Event "Ciutat de Barcelona"]
+[Site "Barcelona"]
+[Date "1977.??.??"]
+[Round "1"]
+[White "Palau Albet, Jaume"]
+[Black "Buxade Roca, Guillermo"]
+[Result "1/2-1/2"]
+[ECO "B17"]
+[PlyCount "38"]
+[EventDate "1977.07.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nd7 5. Qe2 e6 6. Bf4 Ngf6 7. O-O-O Nxe4
+8. Qxe4 Nf6 9. Qe1 b5 10. Nf3 Nd5 11. Bd2 a5 12. c3 Bd6 13. Bd3 Ba6 14. Qe2 Qb6
+15. g3 h6 16. Ne5 b4 17. c4 Qxd4 18. Nxf7 Kxf7 19. cxd5 Qc5+ {(irrep....41)}
+1/2-1/2
+
+[Event "Ciutat de Barcelona"]
+[Site "Barcelona"]
+[Date "1977.??.??"]
+[Round "2"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Palau Albet, Jaume"]
+[Result "1/2-1/2"]
+[ECO "E57"]
+[PlyCount "39"]
+[EventDate "1977.07.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 d5 5. e3 O-O 6. Bd3 c5 7. O-O Nc6 8. a3
+cxd4 9. exd4 Bxc3 10. bxc3 dxc4 11. Bxc4 Qa5 12. Qb3 Qc7 13. Qc2 h6 14. Re1 b6
+15. Bd3 Bb7 16. Be3 Ng4 17. h3 Nxe3 18. fxe3 Rac8 19. Rac1 Qd6 20. Qb2 1/2-1/2
+
+[Event "Ciutat de Barcelona"]
+[Site "Barcelona"]
+[Date "1977.??.??"]
+[Round "3"]
+[White "Palau Albet, Jaume"]
+[Black "Jakobsen, Ole"]
+[Result "1/2-1/2"]
+[ECO "A05"]
+[PlyCount "80"]
+[EventDate "1977.07.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+
+1. Nf3 Nf6 2. g3 g6 3. b3 Bg7 4. Bb2 c5 5. Bg2 O-O 6. O-O d5 7. d4 cxd4 8. Bxd4
+Nc6 9. Bb2 Qc7 10. Na3 Rd8 11. Qc1 e5 12. Rd1 Bg4 13. Qd2 a6 14. h3 Bxf3 15.
+exf3 b5 16. c3 Rab8 17. Nc2 h5 18. h4 a5 19. Ne1 Qb6 20. Nd3 d4 21. c4 bxc4 22.
+bxc4 Nd7 23. Ba3 Qc7 24. Bf1 Bf8 25. Bxf8 Rxf8 26. Rab1 Rxb1 27. Rxb1 Rb8 28.
+Rb5 Kg7 29. Bh3 Nb6 30. Qc2 Nc8 31. Rxb8 Qxb8 32. Bxc8 Qxc8 33. Qb3 Qf5 34. Nc5
+Nb4 35. a3 Nc2 36. Nd3 Nxa3 37. Qxa3 Qxf3 38. Qxa5 Qxd3 39. Qxe5+ Kh7 40. c5
+Qc4 1/2-1/2
+
+[Event "Ciutat de Barcelona"]
+[Site "Barcelona"]
+[Date "1977.??.??"]
+[Round "4"]
+[White "Debarnot, Roberto"]
+[Black "Palau Albet, Jaume"]
+[Result "0-1"]
+[ECO "D86"]
+[PlyCount "73"]
+[EventDate "1977.07.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 O-O 8.
+Ne2 Nc6 9. O-O b6 10. Be3 Bb7 11. h4 Na5 12. Bd3 Qd7 13. h5 Rfd8 14. hxg6 hxg6
+15. f3 c5 16. Rc1 Rac8 17. d5 e6 18. c4 Ba6 19. Bg5 Re8 20. Bd2 Nb7 21. Bc3 e5
+22. Bd2 Nd6 23. Qe1 Qa4 24. Nc3 Qd7 25. Qe2 Qe7 26. a4 Qh4 27. a5 Bh6 28. axb6
+axb6 29. Bxh6 Qxh6 30. Rb1 Rb8 31. Na4 Kg7 32. Rxb6 Rxb6 33. Nxb6 Rh8 34. Qe1
+Qh2+ 35. Kf2 Rb8 36. Qa5 Qh4+ 37. Kg1 $138 0-1
+
+[Event "Ciutat de Barcelona"]
+[Site "Barcelona"]
+[Date "1977.??.??"]
+[Round "5"]
+[White "Palau Albet, Jaume"]
+[Black "Paredes Prats, Jose"]
+[Result "1/2-1/2"]
+[ECO "E99"]
+[PlyCount "44"]
+[EventDate "1977.07.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5
+Ne7 9. Ne1 Nd7 10. Be3 f5 11. f3 f4 12. Bf2 g5 13. Nd3 Nf6 14. b4 Ng6 15. c5 h5
+16. Qe1 Rf7 17. Kh1 Bf8 18. Rg1 Rg7 19. g3 Qd7 20. gxf4 gxf4 21. Bh4 Nh7 22.
+Bf1 a5 1/2-1/2
+
+[Event "Ciutat de Barcelona"]
+[Site "Barcelona"]
+[Date "1977.07.??"]
+[Round "6"]
+[White "Martin Gonzalez, Angel"]
+[Black "Palau Albet, Jaume"]
+[Result "1/2-1/2"]
+[ECO "B17"]
+[PlyCount "152"]
+[EventDate "1977.07.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+
+1. e4 c6 2. Nc3 d5 3. d4 dxe4 4. Nxe4 Nd7 5. Nf3 Ngf6 6. Ng3 e6 7. Bd3 c5 8.
+O-O cxd4 9. Nxd4 Bc5 10. Nf3 O-O 11. a3 a5 12. b3 b6 13. Bb2 Bb7 14. c4 Qc7 15.
+Qe2 Rfd8 16. Rad1 Qc6 17. Qd2 Qc7 18. Qe2 Qc6 19. Bc2 Be7 20. Nf5 Bf8 21. N5d4
+Qc5 22. Nb5 Qh5 23. Rd2 Nc5 24. Rxd8 Rxd8 25. Rd1 Rxd1+ 26. Qxd1 Qg4 27. h3
+Bxf3 28. Qxf3 Qxf3 29. gxf3 Nfd7 30. Bd4 g6 31. Kf1 Bg7 32. Be3 Kf8 33. Nd6 Bb2
+34. b4 Na6 35. bxa5 Bxa3 36. Bh6+ Kg8 37. Nb7 bxa5 38. Nxa5 Ne5 39. f4 Nf3 40.
+Nb3 Nc5 41. Nxc5 Bxc5 42. Bd3 f6 43. f5 gxf5 44. Be2 Ne5 45. Bd2 Kf7 46. Kg2
+Ke7 47. Kg3 Nf7 48. Bd3 Nd6 49. f3 e5 50. Ba5 Ke6 51. Bc7 Ne8 52. Ba5 Ng7 53.
+Bd2 f4+ 54. Kg2 f5 55. Ba5 Ne8 56. Bd8 Nd6 57. Bc7 Nc8 58. Bc2 Bb6 59. Bb8 h6
+60. Ba4 Bc5 61. Bc7 Bd6 62. Ba5 e4 63. Bc6 e3 64. Bb7 Kd7 65. Bxc8+ Kxc8 66.
+Bc3 Kd7 67. Bg7 h5 68. Kf1 Ke6 69. Ke2 Be5 70. Bf8 Bd6 71. Bg7 Be5 72. Bf8 Kf6
+73. Bb4 Kg5 74. Be7+ Kg6 75. Bd8 Kf7 76. Kd3 Ke6 1/2-1/2
+
+[Event "Ciutat de Barcelona"]
+[Site "Barcelona"]
+[Date "1977.07.??"]
+[Round "7"]
+[White "Palau Albet, Jaume"]
+[Black "Eslon, Jaan"]
+[Result "0-1"]
+[ECO "E60"]
+[PlyCount "74"]
+[EventDate "1977.07.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+
+1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. g3 O-O 5. Bg2 d6 6. O-O Nbd7 7. b3 e5 8. e3
+Re8 9. Bb2 e4 10. Nfd2 Nf8 11. d5 Bf5 12. b4 h5 13. Nb3 Qd7 14. N1d2 N8h7 15.
+h4 g5 16. hxg5 Nxg5 17. f4 exf3 18. Nxf3 Bg4 19. Qe1 Bxf3 20. Bxf3 Ng4 21. Bxg4
+Qxg4 22. Bxg7 Kxg7 23. Nd4 Re5 24. Rf4 Qd7 25. Rh4 Rg8 26. e4 Kf8 27. Qe3 Qe7
+28. Re1 Nf3+ 29. Qxf3 Qxh4 30. Kg2 Rxg3+ 31. Qxg3 Rg5 32. Nf5 Rxg3+ 33. Nxg3
+Qg4 34. Kf2 h4 35. Nf5 Qf4+ 36. Kg1 Qd2 37. Rf1 h3 0-1
+
+[Event "Ciutat de Barcelona"]
+[Site "Barcelona"]
+[Date "1977.??.??"]
+[Round "8"]
+[White "Borrell Vidal, Maximo"]
+[Black "Palau Albet, Jaume"]
+[Result "1/2-1/2"]
+[ECO "D00"]
+[PlyCount "33"]
+[EventDate "1977.07.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+
+1. Nc3 d5 2. d4 Bf5 3. Bg5 h6 4. Bh4 c6 5. e3 Nd7 6. Nf3 Ngf6 7. Bd3 Bxd3 8.
+cxd3 e6 9. O-O Be7 10. Rb1 O-O 11. Qc2 Nh5 12. Bxe7 Qxe7 13. Rfc1 c5 14. dxc5
+Qxc5 15. b4 Qe7 16. Qb3 Rfc8 17. Na4 1/2-1/2
+
+[Event "Ciutat de Barcelona"]
+[Site "Barcelona"]
+[Date "1977.??.??"]
+[Round "9"]
+[White "Palau Albet, Jaume"]
+[Black "Rodriguez Vargas, Orestes"]
+[Result "1/2-1/2"]
+[ECO "B83"]
+[PlyCount "99"]
+[EventDate "1977.07.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Be2 Be7 7. Be3 Nc6 8.
+O-O O-O 9. Nb3 a5 10. a3 e5 11. f3 Be6 12. Nd5 Bxd5 13. exd5 Nb8 14. c4 Nbd7
+15. Nd2 a4 16. Qe1 Nh5 17. b4 axb3 18. Nxb3 Ra4 19. Qd2 Nf4 20. Rfc1 b6 21. Bf1
+Ng6 22. Rcb1 Qa8 23. Qc1 Rc8 24. Nd2 f5 25. Rb4 Bf6 26. Rxa4 Qxa4 27. Rb1 Ne7
+28. Qb2 Ra8 29. Qb5 Qxb5 30. Rxb5 Rxa3 31. Bxb6 Nxb6 32. Rxb6 Bg5 33. Rb3 Rxb3
+34. Nxb3 Be3+ 35. Kh1 e4 36. Na5 Kf7 37. Nc6 Nc8 38. fxe4 fxe4 39. g3 Bc5 40.
+Bg2 e3 41. Bf1 Nb6 42. Kg2 Na4 43. Kf3 Kf6 44. Bd3 h6 45. h3 g5 46. g4 Nc3 47.
+Nb8 Ba7 48. Nc6 Bc5 49. Nb8 Ba7 50. Nc6 1/2-1/2
+
+[Event "Ciutat de Barcelona"]
+[Site "Barcelona"]
+[Date "1977.07.??"]
+[Round "10"]
+[White "Cebalo, Misha"]
+[Black "Palau Albet, Jaume"]
+[Result "1-0"]
+[ECO "A48"]
+[PlyCount "77"]
+[EventDate "1977.07.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+
+1. Nf3 g6 2. d4 Nf6 3. Bf4 c5 4. e3 Bg7 5. c3 b6 6. a4 a6 7. Nbd2 d5 8. Bd3 Bb7
+9. O-O O-O 10. Qe2 Nc6 11. h3 Re8 12. Ne5 Nxe5 13. Bxe5 Nd7 14. Bxg7 Kxg7 15.
+f4 f5 16. b4 c4 17. Bc2 Nf6 18. Nf3 Bc8 19. Kh2 Be6 20. Rg1 h5 21. Qf2 Bf7 22.
+Ne5 e6 23. a5 b5 24. g3 Rh8 25. Kg2 Qe7 26. Kf3 Rag8 27. g4 hxg4+ 28. hxg4 Kf8
+29. Ke2 Ke8 30. Raf1 Qf8 31. Kd2 Ke7 32. Rg3 Rh7 33. Rfg1 Rgh8 34. R1g2 Rg8 35.
+Qg1 Rhh8 36. gxf5 gxf5 37. Rg7 Rxg7 38. Rxg7 Rg8 39. Ng6+ 1-0
+
+[Event "Ciutat de Barcelona"]
+[Site "Barcelona"]
+[Date "1977.??.??"]
+[Round "11"]
+[White "Palau Albet, Jaume"]
+[Black "Medina Garcia, Antonio"]
+[Result "0-1"]
+[ECO "D01"]
+[PlyCount "96"]
+[EventDate "1977.07.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+
+1. d4 Nf6 2. Nc3 d5 3. Bg5 Nbd7 4. Nf3 c6 5. e3 Qb6 6. Rb1 e6 7. a3 Bd6 8. Bd3
+h6 9. Bh4 c5 10. dxc5 Nxc5 11. O-O Bd7 12. Qe2 a6 13. Bg3 Bxg3 14. hxg3 O-O 15.
+Rfd1 Rfd8 16. Ne5 Rac8 17. Qf3 Be8 18. Ng4 Nfe4 19. Ne2 f5 20. Nh2 h5 21. Nd4
+Qd6 22. Qe2 Qe7 23. Ndf3 Qf6 24. Rdc1 Rc7 25. Nf1 Rdc8 26. Qd1 Ba4 27. Ne1 h4
+28. Bxe4 Nxe4 29. Qd4 hxg3 30. fxg3 Bb5 31. Qxf6 gxf6 32. Ra1 Bxf1 33. Kxf1
+Nd2+ 34. Ke2 Nb3 35. Rab1 Nxc1+ 36. Rxc1 Rg7 37. Kf2 Kf7 38. Nd3 Rcg8 39. Nc5
+Rxg3 40. Rg1 R3g4 41. c3 Rd8 42. Nd3 Rh4 43. Nf4 Rdh8 44. Rd1 Rh1 45. Rd2 Rb1
+46. Nh3 e5 47. Kg3 Ke6 48. Nf2 Rg8+ 0-1
+
+[Event "Camp. Catalunya eq. 2 Div."]
+[Site "?"]
+[Date "1978.??.??"]
+[Round "?"]
+[White "Comas Andreu, Jordi"]
+[Black "Palau Albet, Jaume"]
+[Result "0-1"]
+[ECO "D76"]
+[PlyCount "100"]
+[EventDate "1978.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. g3 O-O 5. Bg2 d5 6. cxd5 Nxd5 7. Nc3 Nc6 8.
+O-O Nb6 9. e3 e5 10. dxe5 Nxe5 11. Nxe5 Bxe5 12. Qc2 c6 13. Rd1 Qe7 14. b3 Bf5
+15. e4 Bg4 16. Rd2 Rad8 17. Bb2 Rxd2 18. Qxd2 Rd8 19. Qc2 g5 20. h3 Bh5 21. g4
+Bg6 22. Rd1 Rd7 23. Rxd7 Qxd7 24. Qe2 h6 25. Nd1 Qe7 26. Bxe5 Qxe5 27. Qd2 Kg7
+28. f3 Nc8 29. Ne3 Nd6 30. Bf1 f6 31. Kg2 Qe7 32. Qd4 a6 33. Qb4 Nc8 34. Qxe7+
+Nxe7 35. Bc4 Bf7 36. Kf2 c5 37. a4 b5 38. axb5 axb5 39. Bxb5 Bxb3 40. Kg3 Ng6
+41. Be8 Nf4 42. Bb5 Kf7 43. h4 Ke6 44. Bc4+ Bxc4 45. Nxc4 Nd3 46. hxg5 hxg5 47.
+Kg2 Ne5 48. Ne3 c4 49. Nd5 Nd3 50. Kf1 Ke5 0-1
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1978.??.??"]
+[Round "1"]
+[White "Martin Gonzalez, Angel"]
+[Black "Palau Albet, Jaume"]
+[Result "1-0"]
+[ECO "B46"]
+[PlyCount "69"]
+[EventDate "1978.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nc3 Nc6 3. Nf3 a6 4. d4 cxd4 5. Nxd4 e6 6. Be2 Nge7 7. Nb3 b5 8.
+Bf4 Ng6 9. Bd6 Bxd6 10. Qxd6 Qe7 11. O-O-O Qxd6 12. Rxd6 Nd8 13. Rhd1 f6 14. g3
+Nf7 15. Rb6 d6 16. a4 bxa4 17. Na5 a3 18. b3 Nge5 19. f4 Nd7 20. Rc6 Nc5 21.
+Nc4 Bb7 22. Nxd6+ Nxd6 23. Rcxd6 O-O 24. Bc4 Kh8 25. Bxe6 Nxe4 26. Nxe4 Bxe4
+27. R1d4 f5 28. Ra4 a5 29. Rxa3 g6 30. Bd5 Bxd5 31. Rxd5 Rfe8 32. Raxa5 Rxa5
+33. Rxa5 Re1+ 34. Kb2 Rh1 35. b4 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1978.??.??"]
+[Round "2"]
+[White "Palau Albet, Jaume"]
+[Black "Mateu Palau, Xavier"]
+[Result "1-0"]
+[ECO "C67"]
+[PlyCount "98"]
+[EventDate "1978.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Nxe5 Nxe5 7. Rxe5+ Be7
+8. Bf1 O-O 9. d4 Bf6 10. Re1 Nf5 11. c3 d5 12. Bf4 Nh4 13. Na3 c6 14. Bd3 Be6
+15. Nc2 Qd7 16. Bg3 Ng6 17. h3 Rae8 18. Qh5 Be7 19. Re3 f5 20. f4 c5 21. Qe2
+Bf7 22. Bb5 Qc7 23. Bxe8 Bxe8 24. Re1 Rf7 25. dxc5 Bxc5 26. Nd4 Bd7 27. Qd2 h6
+28. Rf3 Kh7 29. Bf2 Bd6 30. g3 Ne7 31. Kg2 Ng8 32. Qd3 Qa5 33. a3 g6 34. Nb3
+Qc7 35. Bd4 Ba4 36. Nc1 Ne7 37. Qe2 Nc6 38. b4 a6 39. Qd2 Ne7 40. Nd3 Nc6 41.
+Qf2 Bb5 42. Bc5 d4 43. cxd4 b6 44. Bxd6 Qxd6 45. Ne5 Nxe5 46. dxe5 Qc6 47. Kh2
+Rd7 48. e6 Re7 49. Rfe3 Qd6 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1978.??.??"]
+[Round "7"]
+[White "Piqueres Pla, Enric"]
+[Black "Palau Albet, Jaume"]
+[Result "1-0"]
+[ECO "A58"]
+[PlyCount "77"]
+[EventDate "1978.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. bxa6 Bxa6 6. Nc3 d6 7. Nf3 g6 8. Nd2
+Bg7 9. e4 Bxf1 10. Nxf1 O-O 11. Ne3 Nbd7 12. O-O Nb6 13. Qc2 Qd7 14. h3 Rfb8
+15. Bd2 Ra6 16. a4 Ne8 17. b3 Rba8 18. Rab1 c4 19. bxc4 Nxa4 20. Nxa4 Rxa4 21.
+Bc3 Bxc3 22. Qxc3 Nf6 23. e5 Ne4 24. Qd4 f5 25. Ra1 Nc5 26. Rxa4 Rxa4 27. e6
+Qb7 28. g4 fxg4 29. Nxg4 h5 30. Nh6+ Kh7 31. Nf7 Qa8 32. Ng5+ Kh6 33. Qf4 Nd3
+34. Nf7+ Kg7 35. Qd4+ Ne5 36. Nxe5 dxe5 37. Qxe5+ Kh7 38. Rb1 Rxc4 39. Rb8 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1978.??.??"]
+[Round "9"]
+[White "Palau Albet, Jaume"]
+[Black "Bordell Rosell, Roman"]
+[Result "1/2-1/2"]
+[ECO "C05"]
+[PlyCount "183"]
+[EventDate "1978.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Ng8 5. f4 c5 6. c3 Nc6 7. Ndf3 h5 8. g3 Nh6
+9. Bd3 Qb6 10. Ne2 Be7 11. h3 c4 12. Bc2 Nf5 13. Kf2 g6 14. b3 Na5 15. b4 Nc6
+16. a4 Bd7 17. Ba3 a6 18. Qd2 Na7 19. Rhb1 Qc7 20. b5 axb5 21. Bxf5 exf5 22.
+Bxe7 Kxe7 23. axb5 Nxb5 24. Qb2 f6 25. Qb4+ Kf7 26. Neg1 Bc6 27. Nh4 fxe5 28.
+fxe5 Rxa1 29. Rxa1 Re8 30. Ra5 Qd7 31. Ngf3 Kg7 32. Ng2 Nc7 33. Nf4 Ne6 34. h4
+Nxf4 35. gxf4 Qe7 36. Qb2 Rb8 37. Ra7 Kf8 38. Ng5 Ke8 39. Kg3 Kd7 40. Nf3 Kc7
+41. Kh3 Be8 42. Ne1 Qe6 43. Qa1 Bb5 44. Ra2 Qe8 45. Nc2 Kd7 46. Nb4 Ke6 47. Qh1
+Bc6 48. Qg2 Kf7 49. Ra7 Qe6 50. Qg5 Kg8 51. Qh6 Be8 52. Ra1 Rd8 53. Rg1 Ra8 54.
+Qxh5 Ra3 55. Qf3 Kf8 56. Rg3 Bf7 57. Qh1 Qd7 58. Qe1 Qe8 59. Nc2 Ra2 60. Rg2
+Qa4 61. Ne3 Ra1 62. Qd2 Rh1+ 63. Kg3 Qa1 64. Nc2 Qf1 65. Qe2 Qxe2 66. Rxe2 Rc1
+67. Rg2 Kg7 68. h5 gxh5 69. Ne3 Be6 70. Kh4+ Kh6 71. Rb2 Rxc3 72. Rb6 Rxe3 73.
+Rxe6+ Kg7 74. Re7+ Kg6 75. Rxb7 Re4 76. Rb6+ Kf7 77. Kg5 Rxd4 78. Kxf5 c3 79.
+e6+ Ke7 80. Rb7+ Kd6 81. Rd7+ Kc6 82. Rd8 Re4 83. Rc8+ Kd6 84. Rxc3 Rxe6 85.
+Rh3 d4 86. Rd3 Kd5 87. Rxd4+ Kxd4 88. Kxe6 h4 89. f5 h3 90. f6 h2 91. f7 h1=Q
+92. f8=Q 1/2-1/2
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1978.??.??"]
+[Round "11"]
+[White "Palau Albet, Jaume"]
+[Black "Paredes Prats, Jose"]
+[Result "0-1"]
+[ECO "B53"]
+[PlyCount "96"]
+[EventDate "1978.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Qxd4 a6 5. Bg5 Nc6 6. Qd2 h6 7. Bh4 g6 8. Bc4
+Bg7 9. c3 Qc7 10. Bb3 Nf6 11. O-O b6 12. Re1 Bb7 13. Na3 g5 14. Bg3 Nh5 15. Nc4
+Nxg3 16. hxg3 Ne5 17. Nfxe5 dxe5 18. Qe3 b5 19. Nd2 O-O 20. a4 e6 21. Bd1 f5
+22. Bb3 Qc6 23. f3 Kh8 24. axb5 axb5 25. Rxa8 Rxa8 26. Qd3 Qb6+ 27. Kh2 Rd8 28.
+Qe2 f4 29. Nb1 Bf8 30. gxf4 gxf4 31. g4 fxg3+ 32. Kg2 Kh7 33. Nd2 Be7 34. Nf1
+Bc8 35. Rd1 Rg8 36. Ne3 Bg5 37. Ng4 Qc5 38. Rh1 Kg6 39. Kxg3 Bf4+ 40. Kh3 h5
+41. Nh2 Kh6 42. Nf1 Rg1 43. Rxg1 Qxg1 44. Qg2 Qxg2+ 45. Kxg2 Bc1 46. Bd1 Bxb2
+47. Be2 Ba6 48. c4 b4 {(..., 67)} 0-1
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1979.??.??"]
+[Round "8"]
+[White "Palau Albet, Jaume"]
+[Black "Gonzalez Mestres, Luis"]
+[Result "1-0"]
+[ECO "B43"]
+[PlyCount "57"]
+[EventDate "1979.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Nc3 b5 6. Bd3 Bb7 7. O-O Ne7 8. f4
+Qb6 9. Be3 Nbc6 10. Nce2 Nxd4 11. Nxd4 Nc6 12. c3 Bc5 13. Bc2 b4 14. Rf3 O-O-O
+15. Kh1 bxc3 16. bxc3 d5 17. e5 g6 18. Rb1 Qa7 19. Nxc6 Bxc6 20. Ba4 Ba8 21.
+Bd4 Kc7 22. Qg1 Bxd4 23. cxd4 Rc8 24. Rc3+ Kd8 25. Rxc8+ Kxc8 26. Qc1+ Kd8 27.
+Qa3 Qc7 28. Rc1 Qb6 29. Qd6+ 1-0
+
+[Event "Sistema Olafsson"]
+[Site "Barcelona"]
+[Date "1979.??.??"]
+[Round "?"]
+[White "Vehi Bach, Victor Manuel"]
+[Black "Palau Albet, Jaume"]
+[Result "0-1"]
+[ECO "D98"]
+[PlyCount "60"]
+[EventDate "1979.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Qb3 dxc4 6. Qxc4 O-O 7. e4 Bg4 8.
+Be3 Nfd7 9. O-O-O c5 10. dxc5 Qa5 11. Bd4 Bxd4 12. Qxd4 Nc6 13. Qe3 Qxc5 14.
+Qxc5 Nxc5 15. Bb5 Bxf3 16. gxf3 Rac8 17. Kb1 a6 18. Bxc6 bxc6 19. Rd2 Rfd8 20.
+Rhd1 Rxd2 21. Rxd2 e5 22. Ne2 Kf8 23. Rc2 Ne6 24. Rc3 Ke7 25. Ra3 Ra8 26. Kc2
+f5 27. Rb3 Ra7 28. Rb8 Kd6 29. Kc3 fxe4 30. fxe4 Rf7 0-1
+
+[Event "Camp. Catalunya indiv. (prev.)"]
+[Site "?"]
+[Date "1980.??.??"]
+[Round "?"]
+[White "Alfara Ayllon, Jose Luis"]
+[Black "Palau Albet, Jaume"]
+[Result "0-1"]
+[ECO "C04"]
+[PlyCount "58"]
+[EventDate "1980.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nc6 4. Ngf3 Nf6 5. e5 Nd7 6. c3 f6 7. Bb5 fxe5 8. dxe5
+Be7 9. Nb3 O-O 10. Qe2 Qe8 11. O-O Qh5 12. Bxc6 bxc6 13. Nbd4 Nb8 14. Qe3 c5
+15. Nb3 Na6 16. Na5 Bd7 17. Qd3 c4 18. Qd1 Nc5 19. b3 cxb3 20. axb3 Bb5 21. Re1
+Nd3 22. Re3 Nf4 23. c4 dxc4 24. bxc4 Rad8 25. Qf1 Be8 26. Ba3 Bxa3 27. Rexa3
+Bg6 28. Nc6 Bd3 29. Qd1 Qg4 0-1
+
+[Event "Castelldefels Tancat"]
+[Site "Castelldefels"]
+[Date "1980.??.??"]
+[Round "?"]
+[White "Tejero Royo, Fermin"]
+[Black "Palau Albet, Jaume"]
+[Result "0-1"]
+[ECO "A02"]
+[PlyCount "88"]
+[EventDate "1980.05.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. f4 d6 2. Nf3 c5 3. b3 e6 4. Bb2 Nf6 5. g3 b5 6. a4 b4 7. Bg2 Bb7 8. O-O Be7
+9. e3 O-O 10. d3 Nbd7 11. Qe2 a5 12. Nbd2 Qc7 13. e4 Ne8 14. Rae1 Nb6 15. Nc4
+Nxc4 16. dxc4 Rd8 17. Rd1 Nf6 18. e5 dxe5 19. Nxe5 Rxd1 20. Rxd1 Rd8 21. Rxd8+
+Bxd8 22. Bxb7 Qxb7 23. Qg2 Ne4 24. Nd3 Bf6 25. Be5 Bxe5 26. fxe5 f5 27. Nf2 Qd7
+28. Nxe4 Qd1+ 29. Qf1 Qxf1+ 30. Kxf1 fxe4 31. Kf2 Kf7 32. Ke3 Kg6 33. Kxe4 Kg5
+34. h3 h5 35. Kd3 Kf5 36. c3 bxc3 37. Kxc3 Kxe5 38. Kd3 h4 39. gxh4 Kf4 40. b4
+cxb4 41. c5 Ke5 42. Kc4 g6 43. h5 gxh5 44. h4 Kf6 0-1

@@ -1,0 +1,84 @@
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2001.09.01"]
+[Round "1"]
+[White "Garcia Segura, JA."]
+[Black "Regue Farran, E."]
+[Result "0-1"]
+[ECO "B20"]
+[WhiteElo "1755"]
+[BlackElo "2165"]
+[Annotator "CET"]
+[PlyCount "78"]
+[EventDate "2001.??.??"]
+
+1. e4 c5 2. c4 Nc6 3. Nf3 d6 4. Nc3 Nf6 5. d3 g6 6. Be3 Bg7 7. Qd2 Ng4 8. Bg5
+h6 9. Bf4 Nd4 10. Nxd4 cxd4 11. Ne2 e5 12. Bg3 h5 13. h3 Bh6 14. Qc2 Qa5+ 15.
+Nc3 Nf6 16. Be2 dxc3 17. bxc3 Bd7 18. O-O Ba4 19. Qb2 Qc7 20. Qb4 Bc6 21. Bf3
+O-O 22. Rfe1 Bf4 23. d4 Bxg3 24. fxg3 Rfe8 25. d5 Bd7 26. Rab1 b6 27. Bd1 Rac8
+28. Rb3 Rb8 29. Rb1 b5 30. Bb3 Rec8 31. cxb5 Rxb5 32. Qa3 Qb6+ 33. Kh1 Rxc3 34.
+Kh2 Qf2 35. Rf1 Qxg3+ 36. Kh1 Bxh3 37. Qb2 Ng4 38. gxh3 Qxh3+ 39. Kg1 Rg3+ 0-1
+
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2001.09.02"]
+[Round "2"]
+[White "Sanchez Gimenez, A."]
+[Black "Garcia Segura, JA."]
+[Result "1-0"]
+[ECO "C50"]
+[WhiteElo "1700"]
+[BlackElo "1755"]
+[Annotator "CET"]
+[PlyCount "93"]
+[EventDate "2001.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d3 Nf6 5. Bg5 h6 6. Bh4 d6 7. a3 Be6 8. Nc3
+Qd7 9. Nd5 Bxd5 10. Bxf6 Bxc4 11. Bxg7 Rg8 12. Bxh6 Rxg2 13. Be3 Bxe3 14. fxe3
+Ba6 15. h3 O-O-O 16. Nh4 Rg3 17. Nf5 Rg6 18. Qe2 Ne7 19. Rf1 Rdg8 20. O-O-O
+Nxf5 21. Rxf5 f6 22. Rdf1 Rf8 23. h4 d5 24. exd5 Qxd5 25. Kb1 Rg2 26. Qd1 Rxc2
+27. Kxc2 Bxd3+ 28. Qxd3 Qc5+ 29. Qc3 Qd5 30. h5 Qg2+ 31. Kb1 Qe4+ 32. Ka1 Qg2
+33. Qc4 Qg7 34. Qe6+ Kb8 35. Rxf6 Rh8 36. h6 Qxf6 37. Rxf6 b6 38. Qxe5 Kb7 39.
+Rxb6+ axb6 40. Qxh8 c6 41. Qg7+ Ka6 42. h7 b5 43. Qf6 Kb6 44. h8=Q Ka5 45. Qa8+
+Kb6 46. Qd4+ c5 47. Qd6# 1-0
+
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2001.09.08"]
+[Round "3"]
+[White "Garcia Segura, JA."]
+[Black "Sanahuja Masalles, JM."]
+[Result "0-1"]
+[ECO "B20"]
+[WhiteElo "1755"]
+[BlackElo "2010"]
+[Annotator "CET"]
+[PlyCount "76"]
+[EventDate "2001.??.??"]
+
+1. e4 c5 2. c4 e6 3. Nc3 Nc6 4. Nf3 Nf6 5. d3 d6 6. Bd2 Be7 7. Be2 O-O 8. O-O
+d5 9. cxd5 exd5 10. exd5 Nxd5 11. Nxd5 Qxd5 12. Be3 Bf6 13. Qc2 b6 14. a3 Bf5
+15. Rab1 Rad8 16. Rfd1 Rfe8 17. b3 h6 18. Qc4 Qd7 19. b4 Nd4 20. Bxd4 Rxe2 21.
+Bxf6 gxf6 22. bxc5 Bxd3 23. Rxd3 Qxd3 24. Qxd3 Rxd3 25. cxb6 axb6 26. a4 Ra2
+27. h3 Rd6 28. Rb4 Rd1+ 29. Kh2 Rxf2 30. Rxb6 Kg7 31. a5 Ra1 32. Ra6 Raa2 33.
+Ne1 f5 34. Ra8 Rfe2 35. Nf3 Rxg2+ 36. Kh1 Rgf2 37. a6 Rxf3 38. Kg1 Rc3 0-1
+
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2001.09.15"]
+[Round "5"]
+[White "Marti Pericot, JM."]
+[Black "Garcia Segura, JA."]
+[Result "1-0"]
+[ECO "C78"]
+[WhiteElo "1940"]
+[BlackElo "1700"]
+[Annotator "CET"]
+[PlyCount "63"]
+[EventDate "2001.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Bc5 6. c3 Nxe4 7. Qe2 Nxf2 8.
+Rxf2 Bxf2+ 9. Qxf2 Qf6 10. d3 O-O 11. Nbd2 d5 12. Bc2 Bf5 13. Nh4 Bg6 14. Qxf6
+gxf6 15. Nf1 Rfe8 16. Ng3 e4 17. Nxg6 exd3 18. Bxd3 fxg6 19. Bh6 Rad8 20. Rf1
+f5 21. h4 d4 22. Bc4+ Kh8 23. Bg5 Rd7 24. Bf6+ Rg7 25. h5 dxc3 26. h6 Reg8 27.
+hxg7+ Rxg7 28. Re1 h5 29. Bxc3 Kh7 30. Re8 b5 31. Bxg7 Kxg7 32. Bd5 1-0

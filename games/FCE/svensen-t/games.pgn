@@ -1,0 +1,65 @@
+[Event "Sants op A"]
+[Site "?"]
+[Date "2012.08.17"]
+[Round "1"]
+[White "Svensen, T."]
+[Black "Ibarra Jerez, JC."]
+[Result "0-1"]
+[ECO "A54"]
+[PlyCount "64"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+
+1. d4 Nf6 2. c4 d6 3. Nc3 e5 4. Nf3 e4 5. Nd2 Bf5 6. e3 c6 7. Be2 d5 8. Qb3 Qd7
+9. f3 exf3 10. Nxf3 Bd6 11. O-O O-O 12. Ne5 Bxe5 13. dxe5 Ne4 14. Rd1 Qe7 15.
+cxd5 b6 16. Rd4 Qxe5 17. Bf3 Ng5 18. Bd2 c5 19. Rf4 Nd7 20. Re1 Nf6 21. Qc4
+Rfe8 22. h4 Nxf3+ 23. gxf3 Nh5 24. e4 Nxf4 25. exf5 Qd4+ 26. Qxd4 Rxe1+ 27.
+Bxe1 cxd4 28. Nb5 Nxd5 29. Nxd4 Rc8 30. Bf2 Rc1+ 31. Kh2 Ra1 32. a3 Ra2 0-1
+
+[Event "Sants Hostafrancs i La Bordeta op A"]
+[Site "Barcelona"]
+[Date "2013.08.23"]
+[Round "1"]
+[White "Svensen, T."]
+[Black "Gustafsson, J."]
+[Result "0-1"]
+[ECO "D00"]
+[PlyCount "38"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+
+1. d4 Nf6 2. Bg5 d5 3. Bxf6 gxf6 4. e3 c5 5. Nc3 cxd4 6. Qxd4 e6 7. O-O-O Nc6
+8. Qd2 f5 9. h3 h5 10. g3 Bg7 11. Nge2 Qa5 12. Bg2 Bd7 13. Kb1 Ne5 14. Nd4 Nc4
+15. Qd3 Qb4 16. Nb3 Nxb2 17. Kxb2 Rc8 18. a3 Bxc3+ 19. Ka2 Qa4 0-1
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.18"]
+[Round "1"]
+[White "Svensen, Tarjei Joten"]
+[Black "Moussard, Jules"]
+[Result "0-1"]
+[ECO "E67"]
+[WhiteElo "2106"]
+[BlackElo "2571"]
+[PlyCount "88"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 d6 3. Nf3 g6 4. g3 Bg7 5. Bg2 O-O 6. Nc3 Nbd7 7. O-O e5 8. dxe5
+dxe5 9. h3 h6 10. Be3 Qe7 11. Qc1 Kh7 12. Rd1 c6 13. a3 Nc5 14. Nd2 Nfd7 15. b4
+Ne6 16. Nb3 f5 17. Qc2 f4 18. Bd2 fxg3 19. fxg3 Nd4 20. Qa2 Nb6 21. Nc5 e4 22.
+N3xe4 Nxe2+ 23. Kh2 Nd4 24. Bf4 Nf5 25. Rac1 g5 26. Bd6 Nxd6 27. Nxd6 Be5 28.
+Qc2+ Kh8 29. Nce4 Be6 30. Rd3 Rad8 31. Rcd1 Rd7 32. a4 g4 33. a5 gxh3 34. Bh1
+Nd5 35. Qd2 Qg7 36. cxd5 cxd5 37. Rxd5 Bxd5 38. Qxd5 Rxd6 39. Qb3 Rg6 40. Rd3
+h5 41. Kxh3 h4 42. gxh4 Rg1 43. Bf3 Rxf3+ 44. Rxf3 Qg4# 0-1

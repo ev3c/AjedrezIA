@@ -1,0 +1,415 @@
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2018.02.03"]
+[Round "3.9"]
+[White "Morros Faura, Ricard"]
+[Black "Travesset Ribera, Joaquim"]
+[Result "1-0"]
+[ECO "B01"]
+[WhiteElo "2337"]
+[BlackElo "2315"]
+[PlyCount "73"]
+[EventDate "2017.??.??"]
+[WhiteTeam "MLL"]
+[BlackTeam "SAN"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nf3 Nf6 4. d4 Bg4 5. Be2 c6 6. c4 Qa5+ 7. Nc3 e6 8. h3
+Bh5 9. O-O Nbd7 10. Bf4 Be7 11. a3 O-O 12. b4 Qd8 13. Qb3 h6 14. Rfd1 g5 15.
+Bh2 Ne8 16. d5 exd5 17. cxd5 c5 18. Ne4 cxb4 19. d6 Bf6 20. Nxf6+ Nexf6 21.
+Qxb4 Qb6 22. g4 Bg6 23. Ne5 Qxb4 24. axb4 Be4 25. Rd4 Rfe8 26. Rxe4 Nxe4 27.
+Nxd7 Rad8 28. f3 Rxd7 29. fxe4 Rxe4 30. Bb5 Rd8 31. d7 Rxb4 32. Rc1 Rxb5 33.
+Rc8 Rb1+ 34. Kf2 Rd1 35. Rxd8+ Kh7 36. Be5 a5 37. Rh8+ 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "Mollet del Valles, Spain"]
+[Date "2023.01.21"]
+[Round "1.7"]
+[White "Travesset Ribera, Joaquim"]
+[Black "Valencia Jimenez, Jose"]
+[Result "1-0"]
+[WhiteElo "2110"]
+[BlackElo "2178"]
+[PlyCount "27"]
+[EventDate "2023.??.??"]
+[SourceDate "2023.01.21"]
+[TimeControl "90+30"]
+[WhiteClock "0:45:19"]
+[BlackClock "0:51:45"]
+
+1. d4 {[%emt 0:00:02]} c5 {[%emt 0:01:12]} 2. c3 {[%emt 0:05:22]} d5 {[%emt 0:
+01:08]} 3. Nf3 {[%emt 0:00:17]} Bf5 {[%emt 0:00:53]} 4. Qb3 {[%emt 0:01:17]}
+Bc8 {[%emt 0:21:01]} 5. dxc5 {[%emt 0:10:53]} Nc6 {[%emt 0:01:01]} 6. e4 {
+[%emt 0:06:38]} e6 {[%emt 0:04:17]} 7. exd5 {[%emt 0:01:20]} exd5 {[%emt 0:00:
+02]} 8. Be3 {[%emt 0:00:27]} Nf6 {[%emt 0:00:23]} 9. Bb5 {[%emt 0:03:49]} Ne4 {
+[%emt 0:02:01]} 10. Ne5 {[%emt 0:16:00]} Bxc5 {[%emt 0:07:12]} 11. Nxc6 {[%emt
+0:03:14]} bxc6 {[%emt 0:00:39]} 12. Bxc6+ {[%emt 0:00:16]} Kf8 {[%emt 0:00:05]}
+13. Qxd5 {[%emt 0:01:18]} Qe7 {[%emt 0:05:22]} 14. Qxe4 {[%emt 0:01:17] resings
+} 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.02.04"]
+[Round "3.9"]
+[White "TRAVESSET RIBERA, JOAQUIM"]
+[Black "SERRA PAGES, JORDI"]
+[Result "1/2-1/2"]
+[WhiteElo "2274"]
+[BlackElo "2254"]
+[WhiteTeam "MLL"]
+[BlackTeam "FIG"]
+
+1. d4 Nf6 2. Bg5 d5 3. Nd2 
+Nbd7 4. Ngf3 e6 5. e3 
+Bd6 6. Bd3 e5 7.
+dxe5 Nxe5 8. Nxe5 Bxe5 
+9. c3 h6 10. Bh4 c6
+11. O-O g5 12. Bg3 
+Bxg3 13. hxg3 Be6 
+14. e4 dxe4 15. Nxe4 Nxe4
+16. Bxe4 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.02.25"]
+[Round "6.8"]
+[White "VINARDELL CRUANAS, SERGI."]
+[Black "TRAVESSET RIBERA, JOAQUIM."]
+[Result "1/2-1/2"]
+[WhiteElo "2237"]
+[BlackElo "2274"]
+[PlyCount "30"]
+[EventDate "2023.??.??"]
+[WhiteTeam "MLL"]
+[BlackTeam "MOL"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. d4 Nf6 5. Nf3 Bg4 6. h3 Bxf3 7. Qxf3 c6 8.
+Be3 e6 9. O-O-O Bb4 10. Bg5 Nbd7 11. Ne4 Be7 12. Bxf6 Nxf6 13. Kb1 Nxe4 14.
+Qxe4 Qd5 15. Qxd5 exd5 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.03.18"]
+[Round "9.7"]
+[White "TRAVESSET RIBERA, JOAQUIM"]
+[Black "GARCIA PAOLICCHI, RAUL"]
+[Result "1/2-1/2"]
+[WhiteElo "2274"]
+[BlackElo "2259"]
+[WhiteTeam "MLL"]
+[BlackTeam "AND"]
+
+1. d4 d5 2. Nf3 Nf6 3. c3 c6
+4. Bf4 Bf5 5. e3 
+Nbd7 6. Nbd2 e6 7.
+Qb3 Qb6 8. Nh4 Be4 
+9. f3 Bg6 10. Nxg6 
+hxg6 11. g4 Be7 12. Qxb6
+Nxb6 13. Bd3 O-O-O 
+14. Bg3 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.04.15"]
+[Round "11.7"]
+[White "TRAVESSET RIBERA, JOAQUIM"]
+[Black "ROA RIBERA, ALVARO"]
+[Result "1-0"]
+[WhiteElo "2274"]
+[BlackElo "2075"]
+[WhiteTeam "MLL"]
+[BlackTeam "SJB"]
+
+1.d4 d5 2.Bf4 Nf6 3.e3 Bf5 4.c4 c6 5.Qb3 Qb6 6.c5 Qxb3 7.axb3 Nfd7 8.Nf3 f6 9.b4 g5 10.Bc7 Bg7 11.Nc3 O-O 12.Be2 Rc8 13.Bg3 h6 14.O-O e5 15.b5 Be6 16.b4 b6 17.Rfc1 bxc5 18.bxc5 cxb5 19.Bxb5 Nxc5 20.dxc5 Rxc5 21.Ba4 a5 22.Nb5 Na6 23.Rxc5 Nxc5 24.Nc7 Rc8 25.Nxe6 Nxa4 26.h4 Nb2 27.Rxa5 Rc1+ 28.Kh2 g4 29.Nxg7 gxf3 30.Nf5 fxg2 31.Kxg2 Kf7 32.h5 Ke6 33.Nxh6 Nd3 34.Ra6+ Kd7 35.Rxf6 d4 36.exd4 exd4 37.Rd6+ Ke8 38.Rxd4 Ne1+ 39.Kh3 Kf8 40.Kg4 Rc6 41.Nf5 Nc2 42.Rd8+ Kf7 43.Rd7+ Ke8 44.Rg7 Kf8 45.Rg6 Rc4+ 46.Kg5 Nd4 47.Nxd4 Rxd4 48.Be5 Rd5 49.f4 Ra5 50.h6 Ra2 51.h7 Rg2+ 52.Kf6 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.01.20"]
+[Round "1.5"]
+[White "TRAVESSET RIBERA, JOAQUIM."]
+[Black "GONZALEZ RODRIGUEZ, JORGE."]
+[Result "0-1"]
+[WhiteElo "2282"]
+[BlackElo "2278"]
+[PlyCount "92"]
+[EventDate "2024.??.??"]
+[WhiteTeam "MLL"]
+[BlackTeam "FIG"]
+
+1. d4 Nf6 2. Bf4 e6 3. e3 c5 4. Nd2 cxd4 5. exd4 d6 6. Ngf3 Be7 7. h3 O-O 8.
+Bd3 Nbd7 9. O-O b6 10. Qe2 Bb7 11. c3 Re8 12. Nc4 Qc7 13. a4 a6 14. Bh2 Bf8 15.
+Rfe1 Qc6 16. Ne3 g6 17. Qf1 h6 18. Nc2 Nd5 19. c4 N5f6 20. b4 a5 21. bxa5 Rxa5
+22. Nd2 Rea8 23. Rab1 Qc7 24. Nb3 Rxa4 25. Rec1 Be4 26. Ne3 Bxd3 27. Qxd3 Qa7
+28. g4 Qa6 29. Qd1 Qc8 30. h4 Qd8 31. Qf3 e5 32. Rd1 Qe7 33. g5 hxg5 34. hxg5
+Nh7 35. dxe5 Qxg5+ 36. Kh1 Nxe5 37. Qe2 Ra2 38. Rd2 Rxd2 39. Nxd2 Qh4 40. f4
+Nd7 41. Rg1 Ra2 42. f5 Ne5 43. fxg6 fxg6 44. Nf5 Qh3 45. Ng3 Ng5 46. Rf1 Ng4
+0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.01.27"]
+[Round "2.9"]
+[White "Romeu Viladot, Emili"]
+[Black "Travesset Ribera, Joaquim"]
+[Result "0-1"]
+[ECO "A53"]
+[WhiteElo "2126"]
+[BlackElo "2282"]
+[PlyCount "76"]
+[EventDate "2024.??.??"]
+
+1. d4 Nf6 2. c4 d6 3. Nc3 e5 4. d5 Be7 5. e4 O-O 6. h3 Ne8 7. Nf3 a5 8. Be3 g6
+9. g4 Ng7 10. Bh6 Na6 11. a3 Bd7 12. g5 f5 13. gxf6 Bxf6 14. Be2 Rf7 15. h4 Bg4
+16. Ng5 Bxg5 17. Bxg5 Bxe2 18. Nxe2 Qf8 19. Be3 Nh5 20. Qc2 Nc5 21. b3 b6 22.
+Rg1 Rf3 23. Rb1 Qf6 24. b4 axb4 25. axb4 Nd7 26. Rh1 Nf4 27. Rh2 Ra3 28. Rb3
+Ra1+ 29. Kd2 Nxe2 30. Kxe2 Ra8 31. Bg5 Rxb3 32. Bxf6 Rba3 33. Kf1 Nxf6 34. Qe2
+Nh5 35. Qg4 Nf4 36. Ke1 Ra2 37. Kd1 Rb2 38. Kc1 Nd3+ 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.02.10"]
+[Round "4.10"]
+[White "RUIZ LUPON, NERI."]
+[Black "TRAVESSET RIBERA, JOAQUIM."]
+[Result "1/2-1/2"]
+[WhiteElo "2175"]
+[BlackElo "2282"]
+[PlyCount "96"]
+[EventDate "2024.??.??"]
+[WhiteTeam "PEC"]
+[BlackTeam "MLL"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. d4 Nf6 5. Nf3 Bg4 6. Be2 e6 7. O-O Bxf3 8.
+Bxf3 c6 9. Bg5 Be7 10. Qd3 Nbd7 11. Rfe1 O-O 12. Ne2 Nd5 13. Bd2 a5 14. a3 Bg5
+15. Be4 Bxd2 16. Qxd2 N7f6 17. Ng3 a4 18. Bf3 Qa5 19. Rad1 Qxd2 20. Rxd2 Rfd8
+21. Red1 Nb6 22. Be2 Kf8 23. f3 Rd7 24. Kf2 Rad8 25. Nf1 g5 26. g3 h5 27. c3
+Kg7 28. Bd3 Nfd5 29. Re1 Nc8 30. Re5 Kh6 31. Bc2 b5 32. h4 gxh4 33. gxh4 Nd6
+34. Ng3 Nf4 35. Bd3 Rg8 36. Rc5 Rc7 37. Be4 Nd5 38. Bxd5 exd5 39. Re2 Nb7 40.
+Nf5+ Kh7 41. Ne7 Nxc5 42. Nxg8 Ne6 43. Nf6+ Kg6 44. Ne8 Rd7 45. Ke3 f6 46. f4
+Kf7 47. f5 Ng7 48. Nxg7 Kxg7 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.02.24"]
+[Round "6.8"]
+[White "MOYA SORIANO, MIQUEL."]
+[Black "TRAVESSET RIBERA, JOAQUIM."]
+[Result "0-1"]
+[ECO "B01"]
+[WhiteElo "2200"]
+[BlackElo "2282"]
+[PlyCount "68"]
+[EventDate "2024.??.??"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. Nf3 Nf6 5. g3 c5 6. Bg2 Nc6 7. O-O e6 8. a4
+Be7 9. d3 O-O 10. Qe2 Bd7 11. Ne5 Nxe5 12. Qxe5 Qc8 13. h3 Bc6 14. Ne4 Nxe4 15.
+Bxe4 Bxe4 16. Qxe4 Rd8 17. Bd2 c4 18. d4 Bf6 19. Be3 Rd5 20. g4 c3 21. b3 Qd7
+22. Rad1 Rd8 23. Rd3 Bxd4 24. Bxd4 Rxd4 25. Rxd4 Qxd4 26. Qxb7 h5 27. Qf3 Qd2
+28. Qe3 Qxc2 29. g5 Rd1 30. Qf3 Rxf1+ 31. Kxf1 Qc1+ 32. Kg2 c2 33. Qa8+ Kh7 34.
+Qe4+ f5 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.03.09"]
+[Round "8.8"]
+[White "BOIX REDORTA, ROC."]
+[Black "TRAVESSET RIBERA, JOAQUIM."]
+[Result "1-0"]
+[ECO "B01"]
+[WhiteElo "2094"]
+[BlackElo "2282"]
+[PlyCount "111"]
+[EventDate "2024.04.13"]
+[EventType "team"]
+[EventRounds "11"]
+[EventCountry "CAT"]
+
+1. e4 d5 2. exd5 Nf6 3. d4 Nxd5 4. Nf3 g6 5. c4 Nb6 6. Nc3 Bg7 7. Be3 O-O 8.
+Qd2 Nc6 9. O-O-O Bg4 10. Bh6 e6 11. h4 Bxf3 12. gxf3 Qf6 13. h5 Bxh6 14. Qxh6
+Qg7 15. Qe3 Rad8 16. hxg6 hxg6 17. Rh4 Qf6 18. Qh6 Qg7 19. Qg5 Rxd4 20. Bd3
+Rxh4 21. Qxh4 Ne5 22. Be2 g5 23. Qh3 g4 24. fxg4 Nexc4 25. Rh1 Rd8 26. Qh4 Rd7
+27. g5 Rd4 28. Qh5 Rf4 29. Bd3 Nxb2 30. Qh7+ Qxh7 31. Bxh7+ Kg7 32. Kxb2 Rxf2+
+33. Bc2 Nc4+ 34. Kc1 Rg2 35. Ne4 Ne3 36. Bb1 b6 37. a4 a6 38. Bd3 Rg4 39. Kd2
+Nd5 40. Rh7+ Kxh7 41. Nf6+ Kg7 42. Nxg4 b5 43. a5 c5 44. Nf6 Nb4 45. Be4 c4 46.
+Kc3 Na2+ 47. Kb2 Nb4 48. Ka3 Nd3 49. Bxd3 cxd3 50. Kb2 Kg6 51. Ne4 Kf5 52. Nc5
+e5 53. Nxa6 e4 54. Nc5 d2 55. Kc2 e3 56. a6 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.03.16"]
+[Round "9.7"]
+[White "Gonzalez Maza, Rafael"]
+[Black "Travesset Ribera, Joaquim"]
+[Result "1/2-1/2"]
+[ECO "D95"]
+[WhiteElo "2301"]
+[BlackElo "2282"]
+[PlyCount "21"]
+[EventDate "2024.04.13"]
+[EventType "team"]
+[EventRounds "11"]
+[EventCountry "CAT"]
+
+1. d4 d5 2. Nf3 Nf6 3. e3 g6 4. c4 Bg7 5. Nc3 O-O 6. Qb3 c6 7. Bd2 e6 8. Bd3
+Nbd7 9. O-O Re8 10. Rfd1 Qe7 11. e4 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.04.13"]
+[Round "11.4"]
+[White "Travesset Ribera, Joaquim"]
+[Black "Arias Boo, Guillermo"]
+[Result "1/2-1/2"]
+[ECO "D00"]
+[WhiteElo "2122"]
+[BlackElo "2185"]
+[PlyCount "10"]
+[EventDate "2024.04.13"]
+[EventType "team"]
+[EventRounds "11"]
+[EventCountry "CAT"]
+
+1. d4 e6 2. Bf4 Nf6 3. e3 d5 4. Nd2 c5 5. c3 Nc6 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.01.17"]
+[Round "1.7"]
+[White "Travesset Ribera, Joaquim"]
+[Black "Armengol Comas, Joaquim"]
+[Result "1/2-1/2"]
+[ECO "A40"]
+[WhiteElo "2254"]
+[BlackElo "2217"]
+[PlyCount "137"]
+[GameId "2268774535043534"]
+
+1. d4 g6 2. Bf4 Bg7 3. Nc3 c5 4. e3 cxd4 5. exd4 d6 6. Qd2 Nc6 7. Bb5 a6 8. Bxc6+ bxc6 9. Nge2 Rb8 10. b3 Nf6 11. Rd1 Qa5 12. O-O O-O 13. Rfe1 Bd7 14. Ne4 Qxd2 15. Nxf6+ Bxf6 16. Rxd2 g5 17. Bg3 Rfc8 18. Nc3 Bf5 19. Na4 Rb4 20. c3 Rb7 21. f3 Bd7 22. Nb2 c5 23. Bf2 cxd4 24. Bxd4 Bxd4+ 25. Rxd4 Kf8 26. c4 a5 27. Nd3 Bf5 28. Re3 a4 29. bxa4 Rb1+ 30. Kf2 Ra1 31. Nb4 Be6 32. a5 Rb1 33. Rb3 Rc1 34. Ra3 Ra8 35. a6 Bxc4 36. a7 Be6 37. Nd3 Rc2+ 38. Kg3 Rxa2 39. Rxa2 Bxa2 40. Ra4 Bd5 41. Kg4 f6 42. f4 h6 43. g3 Kg7 44. Ra5 Bb7 45. Nb4 e6 46. Nc2 Bg2 47. Ne1 Be4 48. fxg5 fxg5 49. h4 gxh4 50. gxh4 Kf6 51. Kf4 Bb7 52. Nc2 e5+ 53. Ke3 Ke6 54. Na3 Kd7 55. Nc4 Kc7 56. Ra1 Bd5 57. Nb2 Rf8 58. Rd1 Ba8 59. Nc4 Rf3+ 60. Ke2 Rh3 61. Nxd6 Rxh4 62. Nf7 Re4+ 63. Kd2 Rd4+ 64. Ke1 h5 65. Rxd4 exd4 66. Kd2 h4 67. Ng5 Kb6 68. Kd3 Kxa7 69. Kxd4 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.03.07"]
+[Round "8.8"]
+[White "G�mez Figueroa , Manuel"]
+[Black "Travesset Ribera, Joaquim "]
+[Result "0-1"]
+[PlyCount "120"]
+[EventDate "2026.??.??"]
+
+1. e4 d5 2. exd5 Nf6 3. d4 Nxd5 4. c4 Nb6 5. Nc3 e5 6. dxe5 Qxd1+ 7. Nxd1 Nc6
+8. Nf3 Bg4 9. Be2 O-O-O 10. Bg5 Bb4+ 11. Kf1 Rde8 12. Ne3 Bxf3 13. Bxf3 Nxe5
+14. Be2 Bc5 15. b3 f6 16. Bf4 Ng6 17. Bg3 Bxe3 18. fxe3 Rxe3 19. Bf2 Re7 20.
+Bf3 Ne5 21. Bc5 Ree8 22. Bxb6 axb6 23. Kf2 c6 24. Rad1 Kc7 25. Rhe1 Re7 26. g3
+Rhe8 27. Kg2 Rd7 28. Rxd7+ Kxd7 29. Rd1+ Ke6 30. Rd2 Re7 31. Be2 f5 32. h3 g5
+33. Rd4 Rd7 34. Rxd7 Nxd7 35. Kf3 Ke5 36. Bd3 Nc5 37. Bc2 Ne6 38. Bd3 h6 39. h4
+Nd4+ 40. Ke3 c5 41. hxg5 hxg5 42. Kf2 g4 43. Ke3 Ne6 44. Bf1 f4+ 45. gxf4+ Nxf4
+46. Kf2 Kf5 47. Kg3 Kg5 48. a3 Nh5+ 49. Kh2 Kf4 50. Bg2 Ng3 51. b4 Ne4 52. b5
+Ke3 53. Bh1 Kd4 54. Bg2 Nd6 55. Bd5 Nxc4 56. Bxb7 Nxa3 57. Kg3 c4 58. Kf2 Nxb5
+59. Ke2 Nc3+ 60. Kd2 Ne4+ 0-1
+
+[Event "C. E. Sant Andreu Social"]
+[Site "Barcelona"]
+[Date "1984.04.26"]
+[Round "?"]
+[White "Ribera Arnal, Angel"]
+[Black "Travesset Ribera, Joaquim"]
+[Result "1/2-1/2"]
+[ECO "E97"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "103"]
+[EventDate "1984.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 d6 3. Nf3 g6 4. Nc3 Bg7 5. e4 O-O 6. Be2 e5 7. O-O Nc6 8. h3
+Nd7 9. Be3 f5 10. exf5 gxf5 11. Bg5 Bf6 12. Bh6 Re8 13. dxe5 dxe5 14. Nd5 e4
+15. Ne1 Nce5 16. Nc2 c6 17. Nxf6+ Qxf6 18. Qd2 Nb6 19. b3 Be6 20. Bg5 Qg6 21.
+Rad1 h6 22. Bxh6 Kh7 23. Bf4 Rg8 24. g3 Qf6 25. Qd4 Nbd7 26. Kh2 c5 27. Qa1 Kg6
+28. Ne3 Rh8 29. Rd6 Rh7 30. Kg2 Rah8 31. Rh1 Re8 32. Nd5 Qh8 33. Ne3 $2 (33.
+Nc7 $1 $18) 33... Nc6 $2 34. Qxh8 Rhxh8 35. g4 (35. Nxf5 $142) 35... fxg4 36.
+Bxg4 Nf8 37. Nd5 Kf7 38. Nc7 Re7 39. Nd5 Re8 40. Nc7 Re7 41. Nxe6 Nxe6 42.
+Bxe6+ Rxe6 43. Rd7+ Kf6 44. Rxb7 Rg8+ 45. Bg3 e3 46. fxe3 Rxe3 47. Rf1+ Ke6 48.
+Rf3 Re2+ 49. Kg1 $2 (49. Kf1 $1) 49... Nd4 50. Rd3 Nf5 51. Kf1 Rxa2 52. Bf2
+1/2-1/2
+
+[Event "Catalunya-chT GpA final"]
+[Site "Barcelona"]
+[Date "2017.03.25"]
+[Round "3.10"]
+[White "Grau Garsaball, Jaume"]
+[Black "Travesset Barba, Joaquim"]
+[Result "1-0"]
+[ECO "A46"]
+[WhiteElo "1989"]
+[BlackElo "2063"]
+[PlyCount "69"]
+[EventDate "2017.03.11"]
+[EventType "team-tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 177 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.04.27"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.04.27"]
+[SourceQuality "1"]
+[WhiteTeam "Cerdanyola Valles"]
+[BlackTeam "Sant Andreu"]
+[WhiteTeamCountry "ESP"]
+[BlackTeamCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 d6 3. g3 g6 4. Bg2 Bg4 5. O-O Qd7 6. Ne5 Qc8 7. Nxg4 Nxg4 8.
+e4 Nf6 9. c4 Nc6 10. f4 Bg7 11. d5 Nd8 12. Nc3 O-O 13. Qe2 Nd7 14. Bh3 c6 15.
+e5 dxe5 16. fxe5 Bxe5 17. Bg5 f6 18. Bh6 Re8 19. Qg4 f5 20. Rxf5 Nf6 21. Qh4
+Nf7 22. Rxe5 Nxe5 23. Bxc8 Nf3+ 24. Kh1 Nxh4 25. Be6+ Kh8 26. gxh4 cxd5 27.
+cxd5 Red8 28. Rf1 a6 29. Re1 b5 30. a3 Rab8 31. Ne4 Nxe4 32. Rxe4 Rf8 33. Bxf8
+Rxf8 34. Kg2 a5 35. Bd7 1-0
+
+[Event "Lliga Catalana DH "]
+[Site "Barcelona"]
+[Date "2018.03.17"]
+[Round "9.10"]
+[White "Ayas Fernandez, Antonio"]
+[Black "Travesset Barba, Joaquim"]
+[Result "1-0"]
+[ECO "B01"]
+[WhiteElo "2351"]
+[BlackElo "2174"]
+[PlyCount "81"]
+[EventDate "1988.??.??"]
+[SourceDate "2015.07.10"]
+[WhiteTeam "SAN"]
+[BlackTeam "CCS"]
+
+1. e4 d5 2. exd5 Nf6 3. Bb5+ Bd7 4. Bc4 Bg4 5. f3 Bf5 6. Nc3 Nbd7 7. Nge2 Nb6
+8. Bb3 Nfxd5 9. d4 e6 10. O-O a5 11. Nxd5 exd5 12. Ng3 Be6 13. c3 h5 14. Bc2 h4
+15. Ne2 Bd6 16. Nf4 Qf6 17. Nxe6 fxe6 18. f4 O-O-O 19. b3 c6 20. Be3 Bc7 21.
+Qg4 Rde8 22. Rae1 Kb8 23. Bc1 Nc8 24. Re2 Rhf8 25. Bg6 Re7 26. g3 hxg3 27. hxg3
+c5 28. Rfe1 e5 29. fxe5 Qf3 30. Qxf3 Rxf3 31. Re3 Rxe3 32. Bxe3 cxd4 33. cxd4
+Bb6 34. Kf2 Na7 35. Ke2 Nb5 36. Kd3 Rc7 37. a4 Rc3+ 38. Kd2 Rxb3 39. axb5 Rxb5
+40. e6 Bd8 41. Bf4+ 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "Sant Andreu-Mollet"]
+[Date "2023.03.04"]
+[Round "7.8"]
+[White "Travesset Ribera, Joaquim, (Mollet)"]
+[Black "Travesset Ribera, Daniel, (Sant Andreu)"]
+[Result "1/2-1/2"]
+[ECO "D01"]
+[WhiteElo "2274"]
+[BlackElo "2225"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "77"]
+[EventDate "2023.03.04"]
+[EventType "team-tourn"]
+[EventRounds "7"]
+[EventCountry "CAT"]
+[EventCategory "1"]
+
+1. d4 d5 2. Nc3 Nf6 3. Bg5 Bf5 4. f3 c6 5. Qd2 h6 6. Bh4 Nbd7 7. e3 Qb6 8.
+O-O-O e6 9. Bd3 Bxd3 10. cxd3 c5 11. dxc5 Bxc5 12. d4 Bb4 13. Nge2 a5 14. Qd3
+Rc8 15. Kb1 Bxc3 16. Nxc3 Qb4 17. Rc1 O-O 18. Bxf6 Nxf6 19. Nb5 a4 20. a3 Qa5
+21. Nd6 Rb8 22. Rc5 Qd8 23. Nb5 Nd7 24. Rc2 Nb6 25. Rhc1 Nc4 26. b3 axb3 27.
+Qxb3 Ra8 28. e4 Qb6 29. a4 Ra5 30. Rxc4 dxc4 31. Rxc4 Raa8 32. Qc2 Qa5 33. Kb2
+Rfd8 34. Kb3 Qe1 35. Qc3 Qb1+ 36. Qb2 Qd1+ 37. Qc2 Qe1 38. Qc3 Qf1 39. Qc2
+1/2-1/2

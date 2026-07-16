@@ -1,0 +1,102 @@
+[Event "Obert Barcelona A"]
+[Site "Barcelona"]
+[Date "2002.10.04"]
+[Round "1"]
+[White "Torrents Ludewig, M."]
+[Black "Brugarolas Manzaneque, C."]
+[Result "1-0"]
+[ECO "C08"]
+[WhiteElo "2085"]
+[BlackElo "2215"]
+[PlyCount "96"]
+[EventDate "2002.??.??"]
+
+1. e4 e6 2. d4 d5 3. Nd2 c5 4. exd5 exd5 5. Ngf3 a6 6. c3 Nf6 7. Bd3 c4 8. Bc2
+Bd6 9. O-O O-O 10. b3 cxb3 11. axb3 Nc6 12. Bd3 Bg4 13. h3 Bh5 14. Ba3 Re8 15.
+Bxd6 Qxd6 16. Qb1 Rac8 17. Qb2 Bg6 18. Bxg6 hxg6 19. Rfe1 Qf4 20. g3 Qf5 21.
+Kg2 g5 22. Nf1 g4 23. hxg4 Nxg4 24. Qd2 Kf8 25. Rxe8+ Rxe8 26. Re1 Rxe1 27.
+Nxe1 Ne7 28. Ne3 Qe4+ 29. Kg1 Nf5 30. Nxf5 Qxf5 31. f3 Nf6 32. Kg2 Qb1 33. b4
+Qg6 34. Qf4 Qb1 35. Qd2 Qg6 36. Qf4 Kg8 37. Qe5 Qh6 38. f4 Ng4 39. Qe8+ Kh7 40.
+Nf3 Kg6 41. Nh4+ Kh7 42. Qxf7 Ne3+ 43. Kf3 Nd1 44. Qf5+ Kg8 45. Qxd5+ Kh7 46.
+Qf5+ Kg8 47. Qc2 Qc6+ 48. Ke2 Nb2 1-0
+
+[Event "Obert Barcelona A"]
+[Site "Barcelona"]
+[Date "2002.10.18"]
+[Round "3"]
+[White "Lazaro Porta, A."]
+[Black "Torrents Ludewig, M."]
+[Result "1-0"]
+[ECO "C18"]
+[WhiteElo "2200"]
+[BlackElo "2085"]
+[PlyCount "63"]
+[EventDate "2002.??.??"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Qc7 7. Qg4 f5 8. Qg3
+Ne7 9. Qxg7 Rg8 10. Qh6 cxd4 11. Ne2 Nbc6 12. f4 Bd7 13. Qh5+ Ng6 14. Qf3 O-O-O
+15. cxd4 Na5 16. Bd2 Nc4 17. Qc3 Kb8 18. Nc1 Rc8 19. Nd3 Nh4 20. Nc5 Nxg2+ 21.
+Kf2 Nh4 22. Bxc4 Rg2+ 23. Kf1 dxc4 24. Rb1 Bc6 25. Na6+ Ka8 26. Nxc7+ Rxc7 27.
+Rg1 Rxg1+ 28. Kxg1 Rg7+ 29. Kf1 Nf3 30. Be3 Nxh2+ 31. Ke1 Nf3+ 32. Kf2 1-0
+
+[Event "Obert Barcelona A"]
+[Site "Barcelona"]
+[Date "2002.10.25"]
+[Round "4"]
+[White "Torrents Ludewig, M."]
+[Black "Espuny Vinye, R."]
+[Result "1-0"]
+[ECO "A04"]
+[WhiteElo "2085"]
+[BlackElo "2115"]
+[PlyCount "115"]
+[EventDate "2002.??.??"]
+
+1. Nf3 c5 2. g3 Nc6 3. Bg2 g6 4. e4 Bg7 5. O-O Nf6 6. d3 O-O 7. Nbd2 d6 8. c3
+Rb8 9. a4 a6 10. Re1 Qc7 11. Nf1 b5 12. axb5 axb5 13. d4 Bg4 14. h3 Bxf3 15.
+Bxf3 Nd7 16. Be3 Na5 17. Nd2 c4 18. Bg2 e6 19. f4 f5 20. Bf2 Nf6 21. exf5 exf5
+22. Qc2 Rfe8 23. Bf3 d5 24. Re5 Rxe5 25. dxe5 Ne4 26. Rd1 Bf8 27. Bxe4 dxe4 28.
+Nf1 Rd8 29. Kg2 Rd3 30. Ne3 Qc6 31. Qe2 Qd7 32. g4 Nb3 33. gxf5 gxf5 34. Qh5
+Rxd1 35. Nxd1 Qf7 36. Qxf7+ Kxf7 37. Ne3 Ke6 38. Nc2 Be7 39. Kf1 Kf7 40. Be3
+Kg6 41. Kg2 Nc5 42. Na3 Nd3 43. Nxb5 Nxb2 44. Nc7 Nd3 45. Nd5 Bc5 46. Bxc5 Nxc5
+47. Ne7+ Kf7 48. Nxf5 Na4 49. Nd6+ Ke6 50. Nxe4 Nb6 51. Kf3 Nd5 52. Nd6 Nxc3
+53. Nxc4 Nd5 54. Ne3 Ne7 55. Ke4 h5 56. f5+ Kf7 57. e6+ Ke8 58. Nd5 1-0
+
+[Event "Lliga Catalana DH Final A"]
+[Site "?"]
+[Date "2015.03.21"]
+[Round "9.10"]
+[White "Torrents Ludewig, M."]
+[Black "Carrasco Rodriguez, J."]
+[Result "0-1"]
+[ECO "D11"]
+[WhiteElo "2071"]
+[BlackElo "2272"]
+[PlyCount "76"]
+[EventDate "2015.??.??"]
+[EventType "team"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Qc2 g6 5. Bf4 Bg7 6. e3 O-O 7. h3 c5 8. cxd5
+Nxd5 9. Bxb8 Qa5+ 10. Nbd2 Rxb8 11. Be2 cxd4 12. Nxd4 Bxd4 13. exd4 Nf4 14. Kf1
+Nxe2 15. Kxe2 Bf5 16. Qc5 Qa6+ 17. Qc4 Qb6 18. Qb3 Qxd4 19. Nf3 Qe4+ 20. Kf1
+Qd3+ 21. Qxd3 Bxd3+ 22. Kg1 f6 23. Kh2 Rbc8 24. Rac1 Kf7 25. Kg3 e5 26. Rhd1
+Bf5 27. Nh4 Be6 28. a3 Rxc1 29. Rxc1 Rc8 30. Rxc8 Bxc8 31. Nf3 Ke6 32. Nd2 Bd7
+33. f4 Bc6 34. fxe5 Kxe5 35. Kf2 Kd4 36. g3 Kd3 37. Ke1 Kc2 38. Nc4 Kb3 0-1
+
+[Event "Lliga Catalana DH Final A"]
+[Site "?"]
+[Date "2015.04.11"]
+[Round "10.10"]
+[White "Garcia Lopez, N."]
+[Black "Torrents Ludewig, M."]
+[Result "1-0"]
+[ECO "B11"]
+[WhiteElo "2172"]
+[BlackElo "2062"]
+[PlyCount "39"]
+[EventDate "2015.??.??"]
+[EventType "team"]
+
+1. e4 c6 2. Nc3 d5 3. Nf3 Bg4 4. d4 Nf6 5. h3 Bh5 6. e5 Ne4 7. g4 Bg6 8. e6 Qd6
+9. exf7+ Bxf7 10. Ne5 Nxc3 11. bxc3 Qe6 12. Bd3 g6 13. f4 Bg7 14. f5 gxf5 15.
+Bxf5 Qd6 16. Bf4 Qd8 17. Qe2 e6 18. Nxf7 Qh4+ 19. Kd2 Kxf7 20. Qxe6+ 1-0

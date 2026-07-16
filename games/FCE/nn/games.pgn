@@ -1,0 +1,449 @@
+[Event "Ct. Catalunya equips"]
+[Site "?"]
+[Date "2003.??.??"]
+[Round "4"]
+[White "NN"]
+[Black "Bueno Marin, JM."]
+[Result "0-1"]
+[ECO "B45"]
+[BlackElo "2110"]
+[PlyCount "70"]
+[EventDate "2003.??.??"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e6 5. Nc3 Nf6 6. Bf4 Bb4 7. f3 O-O 8. a3
+Bc5 9. Nb3 Be7 10. Be2 d5 11. exd5 exd5 12. O-O Be6 13. Kh1 a6 14. Qd2 d4 15.
+Ne4 Nh5 16. Rad1 Nxf4 17. Qxf4 Qb6 18. Ned2 Rad8 19. Rfe1 Qa7 20. Bd3 Rd5 21.
+Ne4 Rh5 22. g4 Rh4 23. Ng5 Bxb3 24. cxb3 Bf6 25. Qf5 Qb8 26. Rd2 Re8 27. Rxe8+
+Qxe8 28. Re2 Ne5 29. Nxh7 Qc6 30. Nxf6+ gxf6 31. Be4 d3 32. Bxd3 Nxg4 33. Kg2
+Nxh2 34. Kg3 Nxf3 35. Qxf3 Rh3+ 0-1
+
+[Event "Ct. Catalunya equips DH"]
+[Site "?"]
+[Date "2004.??.??"]
+[Round "8.7"]
+[White "NN"]
+[Black "Vazquez Gamero, M."]
+[Result "1-0"]
+[ECO "A25"]
+[PlyCount "59"]
+[EventDate "2004.??.??"]
+
+1. c4 e5 2. Nc3 Nf6 3. g3 Nc6 4. Bg2 Bc5 5. d3 h6 6. Nf3 d6 7. O-O O-O 8. Na4
+Bg4 9. b3 Bd4 10. Rb1 Qd7 11. b4 Rad8 12. Qc2 e4 13. dxe4 Be5 14. b5 Nb8 15.
+Rd1 Qe7 16. Nh4 Nh7 17. f3 Bc8 18. f4 Bf6 19. Nf3 Rfe8 20. Nd4 Bxd4+ 21. Rxd4
+Nf6 22. Ba3 c5 23. Rd3 Nxe4 24. Re3 Bf5 25. Bc1 Nxg3 26. Qb2 Ne4 27. Nc3 Qh4
+28. Bxe4 Bh3 29. Rg3 Be6 30. Nd5 1-0
+
+[Event "Barcelona blind ( Café Cerveceria Munic"]
+[Site "Barcelona"]
+[Date "1897.09.??"]
+[Round "?"]
+[White "Escute, Felix"]
+[Black "NN"]
+[Result "1-0"]
+[ECO "C30"]
+[PlyCount "51"]
+[EventDate "1897.09.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. f4 Nc6 3. Nf3 exf4 4. d4 d5 5. e5 Bg4 6. c3 Bxf3 7. Qxf3 Qh4+ 8. g3
+fxg3 9. hxg3 Qe4+ 10. Qxe4 dxe4 11. Nd2 f5 12. Bb5 O-O-O 13. Nb3 g6 14. Bg5 Be7
+15. Bxe7 Ngxe7 16. O-O-O Nd5 17. Rde1 g5 18. Nc5 Rdg8 19. Ne6 Rg6 20. c4 Rxe6
+21. cxd5 Nxd4 22. dxe6 Nxb5 23. Rd1 Re8 24. Rxh7 Rd8 25. Rhd7 Rxd7 26. Rxd7 1-0
+
+[Event "Barcelona"]
+[Site "Barcelona"]
+[Date "1898.12.??"]
+[Round "?"]
+[White "NN"]
+[Black "NN"]
+[Result "0-1"]
+[ECO "C80"]
+[PlyCount "70"]
+[EventDate "1898.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 a6 6. Ba4 b5 7. Bb3 d5 8. dxe5
+Be6 9. a4 Na5 10. c3 Be7 11. Bc2 O-O 12. Nbd2 Bf5 13. Nd4 Bg6 14. Bxe4 dxe4 15.
+axb5 axb5 16. Rxa5 Rxa5 17. Nc6 Qd7 18. Nxa5 Rd8 19. Qe2 Bg5 20. Nab3 e3 21. f4
+exd2 22. Qxd2 Qc8 23. Qe3 Be7 24. h3 c5 25. g4 Bc2 26. Na1 Bd3 27. Rd1 c4 28.
+b4 Qa6 29. Bd2 Ra8 30. Qf3 Qa2 31. Kf2 Bh4+ 32. Kg2 h5 33. f5 Re8 34. e6 fxe6
+35. fxe6 Rxe6 0-1
+
+[Event "Barcelona"]
+[Site "Barcelona"]
+[Date "1898.11.27"]
+[Round "?"]
+[White "NN"]
+[Black "NN"]
+[Result "1-0"]
+[ECO "C42"]
+[PlyCount "63"]
+[EventDate "1898.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. d4 d5 6. Bd3 Nc6 7. O-O Bd6 8.
+Re1 f5 9. c4 Nxd4 10. Nxd4 Bxh2+ 11. Kh1 O-O 12. Bxe4 fxe4 13. Qh5 Bd6 14. Bg5
+Qd7 15. cxd5 Be5 16. Be3 Qd6 17. Nc3 g6 18. Qg5 Bxd4 19. Bxd4 Rf5 20. Qg3 Qf8
+21. Rxe4 c5 22. Rae1 Rh5+ 23. Kg1 Bf5 24. Be3 Bxe4 25. Nxe4 Re8 26. Qd6 Rxe4
+27. Qxf8+ Kxf8 28. Bxc5+ Kf7 29. Rxe4 Rxd5 30. Bxa7 Ra5 31. Be3 Rxa2 32. Rb4
+1-0
+
+[Event "Barcelona"]
+[Site "Barcelona"]
+[Date "1899.04.??"]
+[Round "?"]
+[White "Escute, Felix"]
+[Black "NN"]
+[Result "1-0"]
+[ECO "C01"]
+[PlyCount "47"]
+[EventDate "1899.04.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+{(quitar Ra1)} 1. e4 e6 2. d4 d5 3. exd5 exd5 4. Nf3 Bg4 5. Bd3 Bd6 6. O-O Nf6
+7. c4 c6 8. Nc3 Qc7 9. Re1+ Kd7 10. c5 Bxh2+ 11. Kh1 Ne4 12. Nxe4 dxe4 13. Bxe4
+f5 14. Ng5 Bxd1 15. Bxf5+ Kd8 16. Ne6+ Kc8 17. Nxc7+ Kxc7 18. Kxh2 Bh5 19. Bf4+
+Kd8 20. Bg5+ Kc7 21. Re7+ Kd8 22. Rd7+ Kc8 23. Rxg7+ Nd7 24. Rxd7 1-0
+
+[Event "?"]
+[Site "Barcelona"]
+[Date "1911.??.??"]
+[Round "?"]
+[White "Trulla y Cabane, Leoncio"]
+[Black "NN"]
+[Result "1-0"]
+[ECO "D00"]
+[PlyCount "51"]
+[EventDate "1911.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. e4 dxe4 3. f3 exf3 4. Nxf3 e6 5. Bd3 c5 6. c3 cxd4 7. cxd4 Bb4+ 8.
+Nc3 Bxc3+ 9. bxc3 Ne7 10. O-O O-O 11. Ng5 g6 12. Qf3 Nf5 13. Qh3 h5 14. g4 Ng7
+15. Rf2 f6 16. gxh5 fxg5 17. hxg6 Rxf2 18. Qh7+ Kf8 19. Qh8+ Ke7 20. Ba3+ Kd7
+21. Qxg7+ Kc6 22. Be4+ Kb6 23. Rb1+ Ka6 24. Bxb7+ Bxb7 25. Qxb7+ Ka5 26. Qb5#
+1-0
+
+[Event "Sant Marti"]
+[Site "Barcelona"]
+[Date "1927.??.??"]
+[Round "?"]
+[White "Banach, J."]
+[Black "NN"]
+[Result "1-0"]
+[ECO "B07"]
+[PlyCount "25"]
+[EventDate "1927.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. e4 d6 2. d4 Nf6 3. e5 Nfd7 4. e6 fxe6 5. Bd3 Nf6 6. Bg5 Nbd7 7. Nc3 a6 8.
+Ne4 c5 9. d5 Nxd5 10. Qh5+ g6 11. Qxg6+ hxg6 12. Nxd6+ exd6 13. Bxg6# 1-0
+
+[Event "Camp. Catalunya gr. A - 1a. Cat."]
+[Site "Barcelona"]
+[Date "1931.??.??"]
+[Round "?"]
+[White "NN"]
+[Black "NN"]
+[Result "1/2-1/2"]
+[ECO "E22"]
+[PlyCount "66"]
+[EventDate "1931.??.??"]
+[EventType "tourn"]
+[EventRounds "17"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qb3 c5 5. a3 Qa5 6. Bd2 Nc6 7. dxc5 Nd4 8. Qd1
+Bxc5 9. e3 Qb6 10. b4 Bxb4 11. exd4 Ba5 12. Nf3 d6 13. Na4 Bxd2+ 14. Qxd2 Qc6
+15. Nc3 O-O 16. Bd3 d5 17. O-O dxc4 18. Ne5 Qc7 19. Nxc4 a6 20. Rac1 Bd7 21.
+Ne4 Qd8 22. Nxf6+ Qxf6 23. Qc2 Rac8 24. Qb1 Qxd4 25. Bxh7+ Kh8 26. Qe4 Qf6 27.
+Qe5 Rxc4 28. Qxf6 gxf6 29. Rxc4 Kxh7 30. Rc7 Bc6 31. Rc1 Kg6 32. R7xc6 bxc6 33.
+Rxc6 a5 1/2-1/2
+
+[Event "Barcelona sim"]
+[Site "Barcelona"]
+[Date "1931.02.07"]
+[Round "?"]
+[White "Tartakower, Saviely"]
+[Black "NN"]
+[Result "1-0"]
+[ECO "A45"]
+[PlyCount "65"]
+[EventDate "1931.02.07"]
+[EventType "simul"]
+[EventCountry "ESP"]
+[SourceDate "2000.01.01"]
+
+1. d4 Nf6 2. g3 d5 3. Bg2 e6 4. Nf3 Nbd7 5. O-O c5 6. e3 c4 7. b3 b5 8. a4 bxa4
+9. bxc4 Ba6 10. Nfd2 Nb6 11. c5 Bxf1 12. Qxf1 Nc8 13. c4 Ne7 14. Rxa4 Nc6 15.
+cxd5 exd5 16. Nc3 a5 17. Qb5 Qd7 18. Nc4 Nb4 19. Nb6 Qxb5 20. Nxb5 Rb8 21. Rxa5
+Nd7 22. Nc7+ Kd8 23. Ncxd5 Nxd5 24. Nxd5 Rb1 25. Ra8+ Nb8 26. Bf1 Kc8 27. Bd2
+Kb7 28. Ra2 Nc6 29. Nc3 Nb4 30. Ra4 Rb2 31. Bg2+ Nc6 32. Be1 Kc7 33. Nd5+ 1-0
+
+[Event "C. E. Barcelona Social"]
+[Site "Barcelona"]
+[Date "1932.??.??"]
+[Round "?"]
+[White "Sunyer Roig, Juli"]
+[Black "NN"]
+[Result "1-0"]
+[ECO "D17"]
+[PlyCount "89"]
+[EventDate "1932.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 c6 4. Nc3 dxc4 5. a4 Bf5 6. Ne5 e6 7. Bg5 Bb4 8. Nxc4
+O-O 9. f3 c5 10. dxc5 Qxd1+ 11. Kxd1 Bxc3 12. bxc3 Na6 13. e4 Bg6 14. c6 bxc6
+15. Ne5 Nb8 16. Bc4 Nfd7 17. Nxg6 hxg6 18. Ke2 c5 19. Rhd1 Nb6 20. Bb3 a5 21.
+Rd6 N8d7 22. Rad1 Ra7 23. Bc2 Rc8 24. Be3 Rcc7 25. Bb3 Kf8 26. f4 Ke7 27. e5
+Rab7 28. c4 f6 29. Bd2 Ra7 30. g4 Nc8 31. Be3 Rab7 32. Bc2 fxe5 33. fxe5 Nxe5
+34. Bg5+ Kf7 35. Rf1+ Kg8 36. Rd8+ Kh7 37. Rff8 Nf7 38. Rxc8 Rxc8 39. Rxc8 Nxg5
+40. Rxc5 Nf7 41. Rxa5 Rc7 42. Bd3 Nd6 43. Ra6 Nxc4 44. Rxe6 Rc5 45. Bxg6+ 1-0
+
+[Event "Mataro blind sim"]
+[Site "Mataro"]
+[Date "1934.??.??"]
+[Round "1"]
+[White "Koltanowski, George"]
+[Black "NN"]
+[Result "1-0"]
+[ECO "B13"]
+[PlyCount "69"]
+[EventDate "1934.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Bd3 Nc6 5. c3 e6 6. Nf3 Nf6 7. O-O Bd6 8. Re1
+O-O 9. Bg5 g6 10. Ne5 Re8 11. h4 Be7 12. Nd2 Nh5 13. g4 Bxg5 14. hxg5 Nxe5 15.
+Rxe5 f6 16. gxf6 Nxf6 17. Qf3 Rf8 18. Qg3 Qe7 19. Kg2 Rf7 20. Rh1 Rg7 21. f4
+Bd7 22. Nf3 Rc8 23. Ng5 Re8 24. Rhe1 Qd6 25. Qh4 h6 26. Nxe6 Rxe6 27. Rxe6 Qxf4
+28. Qxf6 Qd2+ 29. Qf2 Qxd3 30. Re7 h5 31. Rxg7+ Kxg7 32. Re7+ Kh6 33. Qf4+ g5
+34. Qf8+ Kg6 35. Qg7# 1-0
+
+[Event "Tarrega blind sim"]
+[Site "Tarrega"]
+[Date "1934.??.??"]
+[Round "?"]
+[White "Koltanowski, George"]
+[Black "NN"]
+[Result "1-0"]
+[ECO "A03"]
+[PlyCount "83"]
+[EventDate "1934.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+
+1. f4 d5 2. Nf3 e6 3. e3 Nf6 4. b3 c5 5. Bb2 Bd6 6. Bb5+ Bd7 7. Bxd7+ Nbxd7 8.
+O-O O-O 9. Ne5 Ne8 10. d4 Nef6 11. Nd2 Ne4 12. Nxe4 dxe4 13. c4 f6 14. Nxd7
+Qxd7 15. Qc2 cxd4 16. exd4 Qc6 17. f5 e5 18. d5 Qc5+ 19. Kh1 e3 20. Qe4 Qb6 21.
+Rae1 Bc5 22. Bc1 Qa5 23. Re2 b5 24. Bxe3 bxc4 25. bxc4 Bxe3 26. Qxe3 Rac8 27.
+Rc2 Qa4 28. Qb3 Qa5 29. Rb1 Qc5 30. Qb5 Qd4 31. Qd7 Rxc4 32. Rxc4 Qxc4 33. Qe6+
+Kh8 34. d6 Qd3 35. Rc1 Rd8 36. h3 h6 37. Rc8 Qf1+ 38. Kh2 Qf4+ 39. Kg1 Qe3+ 40.
+Kh1 Kh7 41. d7 Qd2 42. Qe8 1-0
+
+[Event "sim"]
+[Site "?"]
+[Date "1934.??.??"]
+[Round "?"]
+[White "Koltanowski, George"]
+[Black "NN"]
+[Result "1-0"]
+[ECO "D46"]
+[PlyCount "55"]
+[EventDate "1934.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 c6 3. e3 Nf6 4. Nf3 Nbd7 5. Nc3 e6 6. Bd3 Be7 7. O-O O-O 8. Qe2
+dxc4 9. Bxc4 b5 10. Bd3 a6 11. e4 b4 12. Nb1 c5 13. Rd1 Qb6 14. Be3 Bb7 15.
+Nbd2 Rfd8 16. Nc4 Qc7 17. Rac1 Nxe4 18. Nce5 Nef6 19. Nxd7 Nxd7 20. dxc5 Bxf3
+21. Qxf3 Nxc5 22. Qh5 g6 23. Rxc5 Bxc5 24. Qxc5 Qxc5 25. Bxc5 Rd5 26. Be7 Ra7
+27. Bf6 Rad7 28. Rc1 1-0
+
+[Event "?"]
+[Site "Barcelona"]
+[Date "1935.??.??"]
+[Round "?"]
+[White "NN"]
+[Black "Canal, Esteban"]
+[Result "0-1"]
+[ECO "C20"]
+[PlyCount "18"]
+[EventDate "1935.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Ne2 d5 3. exd5 Qxd5 4. Nbc3 Qa5 5. d4 Nc6 6. d5 Nb4 7. Bd2 Bf5 8.
+Rc1 Bxc2 9. Rxc2 Nd3# 0-1
+
+[Event "Barcelona blind sim"]
+[Site "Barcelona"]
+[Date "1935.??.??"]
+[Round "1"]
+[White "Koltanowski, George"]
+[Black "NN"]
+[Result "1-0"]
+[ECO "A28"]
+[PlyCount "29"]
+[EventDate "1935.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+
+1. c4 Nc6 2. Nc3 e5 3. Nf3 Nf6 4. d4 exd4 5. Nxd4 Nxd4 6. Qxd4 c5 7. Qd3 h6 8.
+g3 b6 9. Bg2 Rb8 10. Bf4 Bb7 11. Nb5 Be7 12. Bxb7 Rxb7 13. Nd6+ Bxd6 14. Bxd6
+Ng8 15. Qe4+ 1-0
+
+[Event "C. E. Sabadell-C. E. Manresa m amistos"]
+[Site "?"]
+[Date "1935.??.??"]
+[Round "?"]
+[White "Pi, E."]
+[Black "NN"]
+[Result "1-0"]
+[ECO "C45"]
+[PlyCount "41"]
+[EventDate "1935.??.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nxd4 5. Qxd4 d6 6. Bc4 Qe7 7. O-O Be6 8.
+Bxe6 Qxe6 9. Nc3 c6 10. f4 f5 11. Re1 Ne7 12. Bd2 c5 13. Qa4+ Kf7 14. exf5 Qxf5
+15. Qb3+ d5 16. Qxb7 Rc8 17. Re5 Qxc2 18. Nxd5 Re8 19. Rae1 Qxd2 20. Nxe7 Qd6
+21. Nd5+ 1-0
+
+[Event "Tarragona blind sim"]
+[Site "Tarragona"]
+[Date "1935.??.??"]
+[Round "1"]
+[White "Koltanowski, George"]
+[Black "NN"]
+[Result "1-0"]
+[ECO "C50"]
+[PlyCount "35"]
+[EventDate "1935.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6 5. d4 Bxd4 6. Nxd4 Nxd4 7. f4 Ne6 8.
+fxe5 Nxe4 9. Qf3 N4g5 10. Bxg5 Nxg5 11. Bxf7+ Ke7 12. Qh5 h6 13. h4 Ne6 14.
+Bxe6 Kxe6 15. Qf7+ Kxe5 16. Rf5+ Ke4 17. Qd5+ Ke3 18. Qd3# 1-0
+
+[Event "Barcelona "Club Olimpic" sim"]
+[Site "Barcelona"]
+[Date "1936.??.??"]
+[Round "?"]
+[White "De Agustin, Manuel"]
+[Black "NN"]
+[Result "1-0"]
+[ECO "C41"]
+[PlyCount "25"]
+[EventDate "1936.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 d6 3. d4 Bg4 4. dxe5 Bxf3 5. Qxf3 dxe5 6. Bc4 Qe7 7. Qb3 b6 8.
+Nc3 c6 9. Be3 b5 10. Nxb5 Qd7 11. Rd1 Qb7 12. Nd6+ Bxd6 13. Qxb7 1-0
+
+[Event "C. E. Sabadell blind sim"]
+[Site "Sabadell"]
+[Date "1936.??.??"]
+[Round "?"]
+[White "De Agustin, Manuel"]
+[Black "NN"]
+[Result "1-0"]
+[ECO "D05"]
+[PlyCount "37"]
+[EventDate "1936.04.18"]
+[EventType "simul"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 e6 3. e3 Nf6 4. Bd3 c6 5. Nbd2 Be7 6. O-O Bd7 7. e4 h5 8. e5
+Ng4 9. h3 Nh6 10. Nb3 g5 11. Nh2 h4 12. f4 f5 13. exf6 Bxf6 14. fxg5 Bxg5 15.
+Bg6+ Nf7 16. Rxf7 Rf8 17. Rg7+ Rf7 18. Rxf7 Bxc1 19. Qh5 1-0
+
+[Event "sim"]
+[Site "?"]
+[Date "1944.??.??"]
+[Round "?"]
+[White "Llorens Llorens, Rafael"]
+[Black "NN"]
+[Result "1-0"]
+[ECO "B32"]
+[PlyCount "19"]
+[EventDate "1944.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 e6 4. d5 Nce7 5. d6 Nc6 6. e5 f6 7. Bd3 Nxe5 8. Nxe5
+fxe5 9. Qh5+ g6 10. Qxg6+ 1-0
+
+[Event "Cerdanyola del Valles blind sim"]
+[Site "Cerdanyola del Valles"]
+[Date "1944.09.10"]
+[Round "?"]
+[White "Llorens Llorens, Rafael"]
+[Black "NN"]
+[Result "1-0"]
+[ECO "C64"]
+[PlyCount "75"]
+[EventDate "1944.09.10"]
+[EventType "simul"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Bc5 4. c3 a6 5. Bxc6 dxc6 6. d4 exd4 7. cxd4 Bb4+ 8.
+Nc3 Bg4 9. a3 Bxc3+ 10. bxc3 h6 11. O-O Nf6 12. Qd3 Bxf3 13. Qxf3 O-O 14. Bb2
+Qd7 15. e5 Nd5 16. c4 Ne7 17. Qb3 Qe6 18. f4 b5 19. Rac1 Rab8 20. Ba1 bxc4 21.
+Qxc4 Qxc4 22. Rxc4 Rb6 23. f5 Nd5 24. Rfc1 Rfb8 25. Kf2 Nf4 26. Ke3 Nxg2+ 27.
+Ke4 Rb3 28. Rxc6 Re3+ 29. Kd5 Rb5+ 30. R6c5 Nf4+ 31. Kc6 Rxc5+ 32. Rxc5 Rxa3
+33. Bc3 Ne2 34. e6 fxe6 35. fxe6 Rxc3 36. Rxc3 Nxd4+ 37. Kd7 Nf5 38. e7 1-0
+
+[Event "Berga op"]
+[Site "Berga"]
+[Date "1989.??.??"]
+[Round "7"]
+[White "NN"]
+[Black "Oesterle"]
+[Result "1-0"]
+[ECO "A00"]
+[PlyCount "97"]
+[EventDate "1989.08.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. Nc3 c5 2. d4 cxd4 3. Qxd4 Nc6 4. Qh4 Nf6 5. e4 e6 6. Bg5 Be7 7. Nf3 Qa5 8.
+O-O-O a6 9. Bc4 d6 10. Nd5 exd5 11. exd5 Ne5 12. Nxe5 dxe5 13. d6 Bd8 14. Rhe1
+O-O 15. Bd3 e4 16. Bxf6 Bxf6 17. Qxe4 g6 18. a3 Bd7 19. Qb4 Qxb4 20. axb4 Bc6
+21. Be4 Rfe8 22. Bxc6 Rxe1 23. Rxe1 bxc6 24. c4 Rb8 25. d7 Rd8 26. Rd1 Be5 27.
+Kc2 Kf8 28. h3 f6 29. Ra1 Rxd7 30. Rxa6 Rc7 31. b3 Ke7 32. Kd3 Bd6 33. c5 Be5
+34. Kc4 Bf4 35. b5 cxb5+ 36. Kxb5 Rb7+ 37. Kc4 Bd2 38. Ra4 Kd7 39. b4 Kc8 40.
+b5 Re7 41. Ra6 Bf4 42. Rxf6 Be5 43. Rf8+ Kb7 44. b6 Kc6 45. f4 Bg7 46. Rc8+ Kb7
+47. Rd8 Kc6 48. Rd6+ Kb7 49. Kb5 1-0
+
+[Event "Berga op"]
+[Site "Berga"]
+[Date "1989.??.??"]
+[Round "9"]
+[White "Hernandez, A."]
+[Black "NN"]
+[Result "1/2-1/2"]
+[ECO "A07"]
+[PlyCount "92"]
+[EventDate "1989.08.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. g3 e5 2. Bg2 Nf6 3. d3 d5 4. Nf3 Nc6 5. O-O Be7 6. c3 O-O 7. b4 e4 8. Ne1
+Bf5 9. Bf4 Bd6 10. Bxd6 Qxd6 11. Na3 Ne5 12. Nac2 Rad8 13. Ne3 Bg6 14. d4 Neg4
+15. N1c2 Nxe3 16. Nxe3 Bh5 17. Bh3 Ne8 18. f4 exf3 19. exf3 Nf6 20. Qd3 Bg6 21.
+Bf5 Rfe8 22. Rae1 Re7 23. Re2 Rde8 24. Rfe1 Bxf5 25. Nxf5 Rxe2 26. Rxe2 Qd7 27.
+Re5 g6 28. Nh6+ Kg7 29. Qe3 Rxe5 30. dxe5 Ne8 31. Ng4 Qf5 32. Kg2 h5 33. Nf2 a6
+34. f4 Qe6 35. Nd3 Qc6 36. Qd4 Kg8 37. Nc5 Ng7 38. Kf2 Nf5 39. Qd3 d4 40. cxd4
+Qh1 41. Qf1 Qxh2+ 42. Qg2 Qxg2+ 43. Kxg2 Nxd4 44. Nxb7 Nc2 45. a3 Nxa3 46. Nc5
+Nb5 1/2-1/2

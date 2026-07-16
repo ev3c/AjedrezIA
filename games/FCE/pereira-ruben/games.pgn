@@ -1,0 +1,226 @@
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.02.25"]
+[Round "6.6"]
+[White "Fernandez Serrano, Pau"]
+[Black "Pereira, Ruben"]
+[Result "1/2-1/2"]
+[ECO "A48"]
+[WhiteElo "2074"]
+[BlackElo "2445"]
+[PlyCount "100"]
+[EventDate "2023.02.26"]
+[SourceDate "2023.02.26"]
+
+1. d4 Nf6 2. Bf4 g6 3. e3 Bg7 4. Nf3 O-O 5. Be2 d6 6. h3 Nfd7 7. O-O e5 8. Bh2
+f5 9. c4 Nc6 10. Nc3 g5 11. dxe5 dxe5 12. Qd5+ Kh8 13. Rad1 Qe7 14. Qb5 a6 15.
+Qa4 Nb6 16. Qc2 Be6 17. Nd5 Nxd5 18. cxd5 Nb4 19. Qa4 Bxd5 20. Bxe5 Bxe5 21.
+Nxe5 b5 22. Qa3 Qxe5 23. Qxb4 c6 24. b3 f4 25. e4 Qxe4 26. Qc3+ Kg8 27. Bf3 Qf5
+28. Bxd5+ cxd5 29. Rd4 f3 30. g4 Qf6 31. Qd2 Rad8 32. Rd1 Rfe8 33. Rxd5 Rxd5
+34. Qxd5+ Kg7 35. a4 Re5 36. Qd7+ Re7 37. Qd5 bxa4 38. bxa4 h6 39. Qd4 Re1+ 40.
+Kh2 Rxd1 41. Qxd1 Kf8 42. Qc2 Qe5+ 43. Kg1 Ke7 44. Qh7+ Kd8 45. Qd3+ Kc7 46.
+Qxa6 Qa1+ 47. Kh2 Qe5+ 48. Kg1 Qa1+ 49. Kh2 Qe5+ 50. Kg1 Qa1+ 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "Barberà del Valles, Spain"]
+[Date "2023.03.25"]
+[Round "10.8"]
+[White "Perpinya Rofes, Lluis Maria"]
+[Black "Pereira, Ruben"]
+[Result "0-1"]
+[TimeControl "90+30"]
+[WhiteTitle "IM"]
+[BlackTitle "IM"]
+[WhiteFideId "2208598"]
+[BlackFideId "1903063"]
+[WhiteElo "2265"]
+[BlackElo "2443"]
+
+1. e4 {[%clk 01:30:51]} {[%emt 00:00:08]} c5 {[%clk 01:30:44]} {[%emt
+00:00:17]} 2. Nc3 {[%clk 01:31:05]} {[%emt 00:00:16]} Nc6 {[%clk 01:30:48]}
+{[%emt 00:00:25]} 3. Nge2 {[%clk 01:31:28]} {[%emt 00:00:08]} d6 {[%clk
+01:29:25]} {[%emt 00:01:53]} 4. d4 {[%clk 01:31:43]} {[%emt 00:00:15]} cxd4
+{[%clk 01:29:43]} {[%emt 00:00:12]} 5. Nxd4 {[%clk 01:32:07]} {[%emt 00:00:06]}
+Nf6 {[%clk 01:30:02]} {[%emt 00:00:11]} 6. Bg5 {[%clk 01:31:30]} {[%emt
+00:01:07]} e6 {[%clk 01:30:10]} {[%emt 00:00:22]} 7. Qd2 {[%clk 01:31:39]}
+{[%emt 00:00:20]} a6 {[%clk 01:30:07]} {[%emt 00:00:34]} 8. O-O-O {[%clk
+01:31:24]} {[%emt 00:00:45]} Bd7 {[%clk 01:29:53]} {[%emt 00:00:44]} 9. f3
+{[%clk 01:31:22]} {[%emt 00:00:32]} Nxd4 {[%clk 01:29:23]} {[%emt 00:01:00]} 10.
+Qxd4 {[%clk 01:30:52]} {[%emt 00:00:59]} Be7 {[%clk 01:29:28]} {[%emt
+00:00:25]} 11. h4 {[%clk 01:26:37]} {[%emt 00:04:45]} Qc7 {[%clk 01:27:02]}
+{[%emt 00:02:56]} 12. Kb1 {[%clk 01:25:41]} {[%emt 00:01:26]} b5 {[%clk
+01:25:07]} {[%emt 00:02:25]} 13. a3 {[%clk 01:07:13]} {[%emt 00:18:58]} Rb8
+{[%clk 01:15:51]} {[%emt 00:09:46]} 14. Bxf6 {[%clk 00:48:20]} {[%emt
+00:19:24]} gxf6 {[%clk 01:14:21]} {[%emt 00:02:00]} 15. g4 {[%clk 00:45:44]}
+{[%emt 00:03:06]} a5 {[%clk 01:12:55]} {[%emt 00:01:56]} 16. b4 {[%clk
+00:39:24]} {[%emt 00:06:50]} axb4 {[%clk 01:05:44]} {[%emt 00:07:41]} 17. axb4
+{[%clk 00:39:49]} {[%emt 00:00:05]} Rc8 {[%clk 00:50:27]} {[%emt 00:15:47]} 18.
+Kb2 {[%clk 00:35:57]} {[%emt 00:04:22]} d5 {[%clk 00:44:08]} {[%emt 00:06:49]}
+19. exd5 {[%clk 00:26:52]} {[%emt 00:09:36]} e5 {[%clk 00:37:20]} {[%emt
+00:07:19]} 20. Qd3 {[%clk 00:26:16]} {[%emt 00:01:05]} Bxb4 {[%clk 00:27:32]}
+{[%emt 00:10:17]} 21. Ne4 {[%clk 00:24:51]} {[%emt 00:01:55]} Ra8 {[%clk
+00:25:55]} {[%emt 00:02:06]} 22. Qb3 {[%clk 00:09:38]} {[%emt 00:15:44]} O-O
+{[%clk 00:19:45]} {[%emt 00:06:41]} 23. Bd3 {[%clk 00:05:54]} {[%emt 00:04:14]}
+Ba3+ {[%clk 00:07:44]} {[%emt 00:12:31]} 24. Kb1 {[%clk 00:06:18]} {[%emt
+00:00:06]} Qa7 {[%clk 00:06:16]} {[%emt 00:01:58]} 25. Nxf6+ {[%clk 00:04:16]}
+{[%emt 00:02:32]} Kh8 {[%clk 00:06:35]} {[%emt 00:00:12]} 26. Nxd7 {[%clk
+00:03:18]} {[%emt 00:01:29]} Bc5 {[%clk 00:02:24]} {[%emt 00:04:40]} 27. Kb2
+{[%clk 00:03:02]} {[%emt 00:00:46]} Qxd7 {[%clk 00:02:10]} {[%emt 00:00:45]} 28.
+Bxb5 {[%clk 00:02:25]} {[%emt 00:01:06]} Qc7 {[%clk 00:01:35]} {[%emt
+00:01:05]} 29. Ra1 {[%clk 00:01:28]} {[%emt 00:01:27]} Rab8 {[%clk 00:01:43]}
+{[%emt 00:00:22]} 30. c4 {[%clk 00:00:41]} {[%emt 00:01:17]} Bd4+ {[%clk
+00:01:33]} {[%emt 00:00:40]} 31. Kc2 {[%clk 00:01:08]} {[%emt 00:00:03]} f5
+{[%clk 00:01:09]} {[%emt 00:00:54]} 32. Raf1 {[%clk 00:00:43]} {[%emt
+00:00:55]} Qa5 {[%clk 00:01:10]} {[%emt 00:00:30]} 33. Kd3 {[%clk 00:00:38]}
+{[%emt 00:00:35]} Rfc8 {[%clk 00:01:11]} {[%emt 00:00:28]} 34. Rc1 {[%clk
+00:00:43]} {[%emt 00:00:25]} Qa7 {[%clk 00:01:00]} {[%emt 00:00:41]} 35. gxf5
+{[%clk 00:00:44]} {[%emt 00:00:30]} Qf7 {[%clk 00:00:58]} {[%emt 00:00:31]} 36.
+Ke2 {[%clk 00:00:50]} {[%emt 00:00:24]} Rg8 {[%clk 00:01:13]} {[%emt 00:00:15]}
+37. Rh2 {[%clk 00:00:50]} {[%emt 00:00:30]} Qxf5 {[%clk 00:01:23]} {[%emt
+00:00:19]} 38. Qd3 {[%clk 00:01:01]} {[%emt 00:00:19]} Qf4 {[%clk 00:01:46]}
+{[%emt 00:00:08]} 39. Rhh1 {[%clk 00:01:00]} {[%emt 00:00:31]} Ra8 {[%clk
+00:01:45]} {[%emt 00:00:31]} 40. Rhf1 {[%clk 00:01:04]} {[%emt 00:00:26]} Rg2+
+{[%clk 00:02:01]} {[%emt 00:00:14]} 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "Barcelona"]
+[Date "2024.02.17"]
+[Round "5.3"]
+[White "PEREIRA, RUBEN."]
+[Black "CHIGAEV, MAKSIM."]
+[Result "1/2-1/2"]
+[ECO "C47"]
+[WhiteElo "2445"]
+[BlackElo "2622"]
+[PlyCount "113"]
+[EventDate "2024.??.??"]
+[TimeControl "90+30"]
+[WhiteClock "0:03:47"]
+[BlackClock "0:01:05"]
+
+1. e4 {[%emt 0:00:02]} e5 {[%emt 0:02:03]} 2. Nf3 {[%emt 0:00:37]} Nc6 {
+[%emt 0:00:06]} 3. Nc3 {[%emt 0:00:19]} Nf6 {[%emt 0:01:27]} 4. h3 {[%emt 0:00:
+55]} Bb4 {[%emt 0:06:00]} 5. Nd5 {[%emt 0:01:10]} Be7 {[%emt 0:02:25]} 6. d3 {
+[%emt 0:02:29]} O-O {[%emt 0:01:53]} 7. c3 {[%emt 0:01:01]} d6 {[%emt 0:00:59]}
+8. Be2 {[%emt 0:01:16]} Nxd5 {[%emt 0:00:59]} 9. exd5 {[%emt 0:00:05]} Nb8 {
+[%emt 0:00:04]} 10. O-O {[%emt 0:05:55]} Nd7 {[%emt 0:01:48]} 11. d4 {[%emt 0:
+03:28]} e4 {[%emt 0:01:05]} 12. Nh2 {[%emt 0:00:54]} Nf6 {[%emt 0:03:59]} 13.
+f3 {[%emt 0:05:52]} c6 {[%emt 0:03:03]} 14. dxc6 {[%emt 0:08:03]} bxc6 {
+[%emt 0:00:10]} 15. Bg5 {[%emt 0:03:00]} Rb8 {[%emt 0:05:38]} 16. Qd2 {[%emt 0:
+12:55]} d5 {[%emt 0:13:14]} 17. Bf4 {[%emt 0:05:23]} Bd6 {[%emt 0:01:27]} 18.
+b3 {[%emt 0:09:45]} h6 {[%emt 0:17:47]} 19. Ng4 {[%emt 0:08:51]} Bxg4 {[%emt 0:
+01:22]} 20. fxg4 {[%emt 0:02:32]} Bxf4 {[%emt 0:00:29]} 21. Qxf4 {[%emt 0:00:
+14]} a5 {[%emt 0:00:39]} 22. Rf2 {[%emt 0:04:30]} Nh7 {[%emt 0:01:24]} 23. Raf1
+{[%emt 0:00:29]} Qe7 {[%emt 0:00:14]} 24. Qe3 {[%emt 0:03:22]} Rbc8 {[%emt 0:
+03:06]} 25. c4 {[%emt 0:01:01]} Rcd8 {[%emt 0:02:32]} 26. Rf5 {[%emt 0:02:16]}
+Qa3 {[%emt 0:02:30]} 27. Qd2 {[%emt 0:03:28]} g6 {[%emt 0:10:21]} 28. R5f2 {
+[%emt 0:01:49]} Kg7 {[%emt 0:00:31]} 29. h4 {[%emt 0:02:19]} a4 {[%emt 0:02:16]
+} 30. Qa5 {[%emt 0:02:44]} Rde8 {[%emt 0:08:35]} 31. cxd5 {[%emt 0:02:21]} e3 {
+[%emt 0:03:10]} 32. Rf3 {[%emt 0:00:04]} cxd5 {[%emt 0:01:40]} 33. Qxd5 {
+[%emt 0:00:33]} f6 {[%emt 0:00:12]} 34. bxa4 {[%emt 0:03:20]} Qxa4 {[%emt 0:00:
+23]} 35. Bb5 {[%emt 0:00:25]} Qa5 {[%emt 0:00:01]} 36. Qb7+ {[%emt 0:03:07]}
+Rf7 {[%emt 0:00:29]} 37. Qa6 {[%emt 0:00:28]} Qxa6 {[%emt 0:00:58]} 38. Bxa6 {
+[%emt 0:00:01]} Re4 {[%emt 0:00:20]} 39. Rf4 {[%emt 0:01:10]} Rfe7 {[%emt 0:03:
+09]} 40. Be2 {[%emt 0:00:06]} Rxf4 {[%emt 0:00:12]} 41. Rxf4 {[%emt 0:00:01]}
+g5 {[%emt 0:00:01]} 42. hxg5 {[%emt 0:00:51]} fxg5 {[%emt 0:01:58]} 43. Rf5 {
+[%emt 0:00:30]} Nf6 {[%emt 0:00:06]} 44. Re5 {[%emt 0:01:12]} Ra7 {[%emt 0:00:
+09]} 45. Rxe3 {[%emt 0:00:27]} Rxa2 {[%emt 0:00:01]} 46. Re7+ {[%emt 0:00:20]}
+Kf8 {[%emt 0:00:16]} 47. Re6 {[%emt 0:00:16]} Kg7 {[%emt 0:00:07]} 48. Bf3 {
+[%emt 0:00:58]} Rd2 {[%emt 0:00:29]} 49. d5 {[%emt 0:00:31]} Kf7 {[%emt 0:00:
+56]} 50. Ra6 {[%emt 0:00:30]} Rd4 {[%emt 0:00:51]} 51. Ra7+ {[%emt 0:01:19]}
+Kf8 {[%emt 0:00:15]} 52. Ra6 {[%emt 0:00:27]} Nxg4 {[%emt 0:00:22]} 53. Bxg4 {
+[%emt 0:00:37]} Rxg4 {[%emt 0:00:02]} 54. Rxh6 {[%emt 0:00:06]} Rd4 {[%emt 0:
+00:04]} 55. Rd6 {[%emt 0:01:09]} Ke7 {[%emt 0:00:01]} 56. Re6+ {[%emt 0:00:05]}
+Kf7 {[%emt 0:00:03]} 57. Rd6 {[%emt 0:00:36]} 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "Barbera del Valles"]
+[Date "2024.03.16"]
+[Round "9.4"]
+[White "Khamrakulov, Ibragim S"]
+[Black "Pereira, Ruben"]
+[Result "1/2-1/2"]
+[ECO "C07"]
+[WhiteElo "2418"]
+[BlackElo "2449"]
+[PlyCount "82"]
+[EventDate "2024.??.??"]
+[TimeControl "90+30"]
+[WhiteClock "0:02:07"]
+[BlackClock "0:04:31"]
+
+1. e4 {[%emt 0:02:01]} e6 {[%emt 0:00:17]} 2. d4 {[%emt 0:00:08]} d5 {[%emt 0:
+00:16]} 3. Nd2 {[%emt 0:00:07]} c5 {[%emt 0:00:21]} 4. Ngf3 {[%emt 0:03:17]}
+cxd4 {[%emt 0:00:41]} 5. exd5 {[%emt 0:01:03]} Qxd5 {[%emt 0:00:26]} 6. Bc4 {
+[%emt 0:01:12]} Qd7 {[%emt 0:00:52]} 7. O-O {[%emt 0:03:47]} Nc6 {[%emt 0:01:
+54]} 8. Nb3 {[%emt 0:02:22]} Nf6 {[%emt 0:01:39]} 9. Nbxd4 {[%emt 0:04:22]}
+Nxd4 {[%emt 0:00:43]} 10. Nxd4 {[%emt 0:04:22]} a6 {[%emt 0:00:51]} 11. a4 {
+[%emt 0:02:02]} Qc7 {[%emt 0:02:22]} 12. Qe2 {[%emt 0:10:09]} Bd6 {[%emt 0:02:
+47]} 13. h3 {[%emt 0:11:50]} O-O {[%emt 0:01:26]} 14. Bg5 {[%emt 0:02:17]} Bf4
+{[%emt 0:09:22]} 15. Bh4 {[%emt 0:04:23]} Qe5 {[%emt 0:11:38]} 16. Rad1 {
+[%emt 0:06:40]} Qxe2 {[%emt 0:04:43]} 17. Nxe2 {[%emt 0:03:36]} Bc7 {[%emt 0:
+00:42]} 18. f4 {[%emt 0:00:26]} Nd5 {[%emt 0:14:56]} 19. Bxd5 {[%emt 0:01:13]}
+exd5 {[%emt 0:01:05]} 20. Nc3 {[%emt 0:01:09]} Bb6+ {[%emt 0:20:08]} 21. Bf2 {
+[%emt 0:01:37]} Bd8 {[%emt 0:00:56]} 22. Nxd5 {[%emt 0:00:18]} Bf5 {[%emt 0:00:
+51]} 23. Rd2 {[%emt 0:00:53]} Rc8 {[%emt 0:00:32]} 24. c3 {[%emt 0:00:19]} Be4
+{[%emt 0:03:05]} 25. Rfd1 {[%emt 0:07:25]} f5 {[%emt 0:01:11]} 26. Nb4 {
+[%emt 0:00:25]} Bc7 {[%emt 0:05:20]} 27. g3 {[%emt 0:01:11]} Rcd8 {[%emt 0:05:
+12]} 28. Nd3 {[%emt 0:07:43]} Bf3 {[%emt 0:01:51]} 29. Re1 {[%emt 0:00:13]} Be4
+{[%emt 0:00:06]} 30. Bd4 {[%emt 0:00:38]} Rfe8 {[%emt 0:05:56]} 31. Nc5 {
+[%emt 0:00:54]} Bc6 {[%emt 0:00:58]} 32. Rde2 {[%emt 0:00:27]} Rxe2 {[%emt 0:
+02:06]} 33. Rxe2 {[%emt 0:00:04]} Bd6 {[%emt 0:00:42]} 34. Ne6 {[%emt 0:03:28]}
+Re8 {[%emt 0:00:07]} 35. Kf2 {[%emt 0:00:17]} g6 {[%emt 0:00:53]} 36. a5 {
+[%emt 0:00:09]} h6 {[%emt 0:00:31]} 37. Bb6 {[%emt 0:01:25]} g5 {[%emt 0:00:30]
+} 38. Nd4 {[%emt 0:01:34]} gxf4 {[%emt 0:00:27]} 39. Rxe8+ {[%emt 0:09:53]}
+Bxe8 {[%emt 0:00:01]} 40. Nxf5 {[%emt 0:00:16]} fxg3+ {[%emt 0:00:07]} 41. Nxg3
+{[%emt 0:00:22]} Bxg3+ {[%emt 0:00:27]} 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.02.22"]
+[Round "6.4"]
+[White "Sabria Batlle, Pol"]
+[Black "Pereira, Ruben"]
+[Result "0-1"]
+[ECO "C15"]
+[WhiteElo "2259"]
+[BlackElo "2440"]
+[PlyCount "138"]
+[GameId "2150543025418690"]
+[EventDate "2025.02.15"]
+[WhiteTeam "Olot"]
+[BlackTeam "Barbera"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. Nge2 Nf6 5. e5 Nfd7 6. f4 b6 7. a3 Be7 8. g3 c5 9. Bg2 Nc6 10. Nb5 a6 11. Nbc3 cxd4 12. Nxd4 Nxd4 13. Qxd4 Bb7 14. Qd1 Qc7 15. O-O Rc8 16. Be3 O-O 17. Bd4 Bc5 18. Rc1 Qb8 19. Ne2 a5 20. c3 Ba6 21. Re1 Bc4 22. b4 Be7 23. Kh1 g6 24. Ng1 Rc7 25. Nf3 axb4 26. axb4 Ra7 27. Qd2 Qc7 28. Ra1 Rfa8 29. Rxa7 Rxa7 30. g4 Ra2 31. Qe3 Ra3 32. Qf2 Bd3 33. Nd2 Rxc3 34. Bxc3 Qxc3 35. Nf3 Bxb4 36. Rd1 Bc5 37. Qd2 Qxd2 38. Rxd2 Bc4 39. Rd1 b5 40. Bf1 Nb6 41. Kg2 Be3 42. Kg3 Na4 43. Ra1 Nc3 44. Bxc4 dxc4 45. Ra8+ Kg7 46. Rb8 Ne4+ 47. Kg2 Nc3 48. Kg3 Ne2+ 49. Kg2 c3 50. Ne1 Nd4 51. Kg3 Bd2 52. Nd3 c2 53. Rc8 b4 54. Rc4 b3 55. Kf2 b2 56. Nxb2 c1=Q 57. Rxc1 Bxc1 58. Nd3 Bd2 59. Kg3 h5 60. h3 hxg4 61. Kxg4 Kh6 62. Nc5 Nf5 63. Nd3 Ne3+ 64. Kf3 Nd5 65. Kg4 Bxf4 66. Nxf4 Nxf4 67. Kxf4 Kh5 68. Ke3 Kh4 69. Kf4 g5+ 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.03.01"]
+[Round "7.4"]
+[White "Pereira, Ruben"]
+[Black "Kozlov, Gennady"]
+[Result "1-0"]
+[ECO "C03"]
+[WhiteElo "2443"]
+[BlackElo "2419"]
+[PlyCount "57"]
+[GameId "2152738386702713"]
+[EventDate "2025.02.15"]
+[WhiteTeam "Barbera"]
+[BlackTeam "Platja d'Aro"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Be7 4. Bd3 c5 5. dxc5 Nc6 6. Ngf3 Nf6 7. O-O Bxc5 8. a3 a6 9. Qe2 Nd4 10. Nxd4 Bxd4 11. Rd1 e5 12. h3 dxe4 13. Nxe4 Nxe4 14. Bxe4 Qe7 15. c3 Ba7 16. Rd5 f6 17. Qh5+ Kf8 18. Qf3 g6 19. Bh6+ Kf7 20. Rad1 Be6 21. Rxe5 Rhd8 22. Bd5 Rxd5 23. Rexd5 Kg8 24. Rd6 Re8 25. Qd3 Bb3 26. Rd7 Qc5 27. Rd8 Qe7 28. Rxe8+ Qxe8 29. Qd8 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.04.11"]
+[Round "11.4"]
+[White "Gomez Navais, Marçal"]
+[Black "Pereira, Ruben"]
+[Result "1-0"]
+[WhiteElo "2319"]
+[BlackElo "2466"]
+[PlyCount "1"]
+[SourceVersionDate "2026.04.12"]
+
+1. e4 1-0

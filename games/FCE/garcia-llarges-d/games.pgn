@@ -1,0 +1,106 @@
+[Event "Ct. Catalunya Baix Llobr."]
+[Site "?"]
+[Date "2000.??.??"]
+[Round "1"]
+[White "Martinez Gutierrez, B."]
+[Black "Garcia Llarges, D."]
+[Result "1-0"]
+[ECO "B12"]
+[PlyCount "41"]
+[EventDate "2000.??.??"]
+[EventRounds "9"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nc3 e6 5. g4 Bg6 6. Nge2 c5 7. h4 h6 8. Be3 Qb6
+9. f4 Nc6 10. f5 Bh7 11. Qd2 c4 12. O-O-O O-O-O 13. Nf4 Nb4 14. Bh3 Re8 15. a3
+Na6 16. g5 hxg5 17. hxg5 Qa5 18. fxe6 fxe6 19. Ncxd5 Qxd2+ 20. Bxd2 Kb8 21.
+Bxe6 1-0
+
+[Event "Ct. Catalunya Baix Llobr."]
+[Site "?"]
+[Date "2000.??.??"]
+[Round "2"]
+[White "Garcia Llarges, D."]
+[Black "Carranza Izquierdo, G."]
+[Result "1-0"]
+[ECO "A41"]
+[PlyCount "51"]
+[EventDate "2000.??.??"]
+[EventRounds "9"]
+
+1. d4 d6 2. Nf3 Nc6 3. Bf4 Bg4 4. e3 Bxf3 5. Qxf3 e5 6. dxe5 dxe5 7. Bg3 Bb4+
+8. c3 Ba5 9. Bb5 Nf6 10. Bxe5 Qe7 11. Bxf6 gxf6 12. Bxc6+ bxc6 13. Qxc6+ Kd8
+14. Qxa8+ Kd7 15. Qxh8 Qe4 16. O-O Qh4 17. Rd1+ Ke6 18. Qc8+ Ke5 19. Nd2 Kd5
+20. Nf3+ Qd4 21. Rxd4+ Kc5 22. b4+ Bxb4 23. Qxc7+ Kb5 24. Rxb4+ Ka6 25. Qc6+
+Ka5 26. Qb5# 1-0
+
+[Event "Ct. Catalunya Baix Llobr."]
+[Site "?"]
+[Date "2000.??.??"]
+[Round "4"]
+[White "Garcia Llarges, D."]
+[Black "Clanchet Olle, J."]
+[Result "1/2-1/2"]
+[ECO "D02"]
+[PlyCount "58"]
+[EventDate "2000.??.??"]
+[EventRounds "9"]
+
+1. d4 d5 2. Nf3 Nf6 3. Bf4 e6 4. e3 Bd6 5. Ne5 Nbd7 6. Bd3 Ne4 7. Qh5 O-O 8.
+Nd2 Ndf6 9. Qe2 c5 10. c3 b6 11. f3 Nxd2 12. Qxd2 Bb7 13. g4 cxd4 14. exd4 Nd7
+15. O-O-O Nxe5 16. dxe5 Bc5 17. Qc2 Qh4 18. Bg3 Be3+ 19. Kb1 Qh3 20. Bf1 Qh6
+21. h4 d4 22. Bg2 dxc3 23. Qxc3 Rac8 24. Qd3 Qg6 25. h5 Qxd3+ 26. Rxd3 Bc5 27.
+Rd7 Rb8 28. g5 Rfd8 29. Rhd1 Bd5 1/2-1/2
+
+[Event "Ct. Catalunya Baix Llobr."]
+[Site "?"]
+[Date "2000.??.??"]
+[Round "5"]
+[White "Vidal Domenech, JA."]
+[Black "Garcia Llarges, D."]
+[Result "1/2-1/2"]
+[ECO "B10"]
+[PlyCount "64"]
+[EventDate "2000.??.??"]
+[EventRounds "9"]
+
+1. e4 c6 2. e5 d6 3. exd6 Qxd6 4. Nc3 Nf6 5. Bc4 Bg4 6. Nge2 e6 7. d4 Qd8 8.
+O-O Bd6 9. f3 Bf5 10. Bf4 O-O 11. Bxd6 Qxd6 12. Kh1 Nbd7 13. Qd2 Nd5 14. Bxd5
+cxd5 15. Ng3 Bg6 16. f4 Nb6 17. f5 Nc4 18. Qf2 exf5 19. Nxf5 Qd7 20. Nxd5 Rfe8
+21. Nde3 Nxe3 22. Nxe3 Qxd4 23. Nd1 Qxf2 24. Nxf2 Bxc2 25. Rfe1 Rxe1+ 26. Rxe1
+Kf8 27. Kg1 Rd8 28. b4 Rd4 29. a3 Rc4 30. Re3 Bf5 31. h3 Rc1+ 32. Kh2 h6
+1/2-1/2
+
+[Event "Ct. Catalunya Baix Llobr."]
+[Site "?"]
+[Date "2000.??.??"]
+[Round "7"]
+[White "Deza Egea, J."]
+[Black "Garcia Llarges, D."]
+[Result "1/2-1/2"]
+[ECO "D15"]
+[PlyCount "62"]
+[EventDate "2000.??.??"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Nf3 Bf5 5. cxd5 Nxd5 6. e3 e6 7. Be2 Bd6 8. Bd2
+Nd7 9. a3 N7f6 10. Rc1 Rc8 11. Qa4 a6 12. b4 h6 13. Qb3 Qe7 14. Na4 O-O 15. Nc5
+Ne4 16. Bd3 Ndf6 17. Qc2 Nxd2 18. Nxd2 Bxd3 19. Qxd3 e5 20. dxe5 Bxe5 21. Nf3
+Rfd8 22. Qe2 Bd6 23. O-O Ne4 24. Nb3 Qf6 25. Qc2 Ng5 26. Nbd4 c5 27. Nxg5 Qxg5
+28. Nf3 Qf6 29. bxc5 Rxc5 30. Qb3 Rh5 31. Qxb7 Bxa3 1/2-1/2
+
+[Event "Ct. Catalunya Baix Llobr."]
+[Site "?"]
+[Date "2000.??.??"]
+[Round "9"]
+[White "Almagro Sanchez, A."]
+[Black "Garcia Llarges, D."]
+[Result "1/2-1/2"]
+[ECO "A22"]
+[PlyCount "46"]
+[EventDate "2000.??.??"]
+[EventRounds "9"]
+
+1. c4 e5 2. Nc3 Nf6 3. Nf3 e4 4. Ng5 b5 5. Ngxe4 Nxe4 6. Nxe4 bxc4 7. e3 d5 8.
+Nc3 Bf5 9. Qf3 Be6 10. e4 c6 11. exd5 Bxd5 12. Nxd5 Qxd5 13. Qc3 Qe6+ 14. Be2
+Qe4 15. Qe3 Qxe3 16. fxe3 Bd6 17. Bxc4 O-O 18. O-O Nd7 19. d4 a5 20. e4 Nb6 21.
+Bd3 Rad8 22. Be3 Na4 23. b3 Nc3 {..(irreproducible)} 1/2-1/2

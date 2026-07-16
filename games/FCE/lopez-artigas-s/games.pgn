@@ -1,0 +1,101 @@
+[Event "Fincas Mediterranea op"]
+[Site "?"]
+[Date "2005.08.18"]
+[Round "2.18"]
+[White "Avila Jimenez, X."]
+[Black "Lopez Artigas, S."]
+[Result "1-0"]
+[ECO "A43"]
+[WhiteElo "2194"]
+[BlackElo "1993"]
+[PlyCount "53"]
+[EventDate "2005.??.??"]
+
+1. d4 c5 2. d5 d6 3. c4 g6 4. e4 Bg7 5. f4 e6 6. Nf3 Ne7 7. Nc3 O-O 8. Be2 Na6
+9. O-O Nc7 10. e5 exd5 11. cxd5 b5 12. Ne4 Bf5 13. exd6 Re8 14. dxc7 Bd4+ 15.
+Qxd4 cxd4 16. cxd8=Q Rexd8 17. Bd3 Nxd5 18. Nxd4 Nb4 19. Nf6+ Kg7 20. Bxf5 Kxf6
+21. Nc2 Nxc2 22. Bxc2 Rac8 23. Be4 Rd4 24. Bf3 Rc2 25. Be3 Rd8 26. Rad1 Rdc8
+27. Bxa7 1-0
+
+[Event "Fincas Mediterranea op"]
+[Site "?"]
+[Date "2005.08.20"]
+[Round "4.18"]
+[White "Castells Briones, M."]
+[Black "Lopez Artigas, S."]
+[Result "1-0"]
+[ECO "A43"]
+[WhiteElo "2101"]
+[BlackElo "1993"]
+[PlyCount "104"]
+[EventDate "2005.??.??"]
+
+1. d4 c5 2. d5 d6 3. e4 Nf6 4. Nc3 g6 5. Nf3 Bg7 6. Be2 O-O 7. O-O Bg4 8. h3
+Bxf3 9. Bxf3 Nbd7 10. Be2 a6 11. a4 b6 12. Re1 Rb8 13. Bxa6 Ne8 14. Bf1 f5 15.
+exf5 Rxf5 16. Bd3 Rf8 17. Qe2 Nc7 18. Qxe7 Bd4 19. Nd1 Ne5 20. Bg5 Qxe7 21.
+Bxe7 Rfe8 22. Bxd6 Nf3+ 23. gxf3 Rxe1+ 24. Kg2 Rc8 25. Bf4 Nxd5 26. Bc4 Rd8 27.
+Bd2 Re7 28. Bg5 Kf8 29. Bxd5 Rxd5 30. Bxe7+ Kxe7 31. c3 Be5 32. Ne3 Rd7 33. a5
+b5 34. a6 Ra7 35. Ra5 Bd6 36. Rxb5 Rxa6 37. Rb7+ Ke6 38. Rxh7 Rb6 39. Rh6 Kf7
+40. Rh7+ Kg8 41. Rd7 Bf8 42. Nc4 Rf6 43. Ne3 Rb6 44. Ng4 Bg7 45. Rc7 Rxb2 46.
+Rxc5 Rc2 47. c4 Bd4 48. Rc6 Kg7 49. Rc7+ Kf8 50. f4 Ke8 51. Kf3 Kf8 52. Ne3 Bf6
+1-0
+
+[Event "Fincas Mediterranea op"]
+[Site "?"]
+[Date "2005.08.22"]
+[Round "6.19"]
+[White "Severri Arrese, C."]
+[Black "Lopez Artigas, S."]
+[Result "0-1"]
+[ECO "D00"]
+[WhiteElo "2150"]
+[BlackElo "1993"]
+[PlyCount "104"]
+[EventDate "2005.??.??"]
+
+1. d4 d5 2. Nd2 Nf6 3. e3 Bg4 4. Ngf3 Nbd7 5. c3 c6 6. Qb3 Qb6 7. Bd3 e6 8. e4
+dxe4 9. Nxe4 Bxf3 10. gxf3 Qc7 11. Be3 Nd5 12. O-O-O Nf4 13. Bf1 b5 14. Kb1 a5
+15. Qc2 Be7 16. Qd2 Nd5 17. f4 O-O 18. Rg1 b4 19. c4 Nxe3 20. fxe3 a4 21. Bd3
+b3 22. a3 Rfb8 23. c5 Nf6 24. Qg2 g6 25. Nc3 Nd5 26. Nxd5 cxd5 27. Qg4 f5 28.
+Qg3 Rf8 29. h4 Rf7 30. h5 Rg7 31. Qg2 Bf6 32. Qf3 Kf7 33. Rg2 Ke7 34. hxg6 hxg6
+35. Rdg1 Qa5 36. Qd1 Rag8 37. Qe1 Qxe1+ 38. Rxe1 g5 39. fxg5 Rxg5 40. Rxg5 Bxg5
+41. Bb5 Bxe3 42. Bxa4 Bxd4 43. Bxb3 Rg1 44. Rxg1 Bxg1 45. c6 Kd6 46. Ba4 e5 47.
+b4 f4 48. Kc1 e4 49. b5 Bc5 50. Kd2 f3 51. Ke1 e3 52. Bb3 Bxa3 0-1
+
+[Event "Fincas Mediterranea op"]
+[Site "?"]
+[Date "2005.08.23"]
+[Round "7.15"]
+[White "Lopez Artigas, S."]
+[Black "Sprenger, W."]
+[Result "0-1"]
+[ECO "B76"]
+[WhiteElo "1993"]
+[BlackElo "2174"]
+[PlyCount "64"]
+[EventDate "2005.??.??"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2
+Nc6 9. O-O-O d5 10. Nxc6 bxc6 11. e5 Nd7 12. f4 Qa5 13. Kb1 Rb8 14. Ne2 Qc7 15.
+h4 Ba6 16. h5 e6 17. hxg6 fxg6 18. Nd4 Bxf1 19. Rdxf1 c5 20. Nf3 d4 21. Bf2 Nb6
+22. Qa5 Qc6 23. Qa6 Rxf4 24. Bh4 Rbf8 25. Bg5 R4f7 26. Bh6 Bxh6 27. Rxh6 Qe4
+28. b3 c4 29. Rfh1 d3 30. Kb2 d2 31. Qa3 c3+ 32. Kb1 Rxf3 0-1
+
+[Event "Fincas Mediterranea op"]
+[Site "?"]
+[Date "2005.08.24"]
+[Round "8.20"]
+[White "Navarro Perez, M."]
+[Black "Lopez Artigas, S."]
+[Result "1-0"]
+[ECO "C01"]
+[WhiteElo "2075"]
+[BlackElo "1993"]
+[PlyCount "53"]
+[EventDate "2005.??.??"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. Bd3 Bd6 5. Nc3 c6 6. Nge2 Nf6 7. Bg5 O-O 8.
+Qd2 Be6 9. f3 Nbd7 10. g4 Qc7 11. O-O-O b5 12. h4 a5 13. h5 a4 14. Bf4 Nb6 15.
+g5 Nfd7 16. Bxd6 Qxd6 17. g6 fxg6 18. hxg6 hxg6 19. Bxg6 Nc4 20. Qg5 Rf6 21.
+Rdg1 Qb4 22. Nd1 Qa5 23. Bh5 g6 24. Bxg6 Kf8 25. Rh7 Bf7 26. Bxf7 Rxf7 27. Qg8+
+1-0

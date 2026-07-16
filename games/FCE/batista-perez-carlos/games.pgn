@@ -1,0 +1,119 @@
+[Event "Vilafranca del Penedes op 11th"]
+[Site "Vilafranca del Penedes"]
+[Date "2017.04.07"]
+[Round "2"]
+[White "Batista Perez, Carlos"]
+[Black "Garcia Espelta, Josep"]
+[Result "0-1"]
+[ECO "D00"]
+[WhiteElo "2003"]
+[BlackElo "2167"]
+[PlyCount "114"]
+[EventDate "2017.03.31"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Bf4 Nf6 3. e3 c5 4. c3 Nc6 5. Bd3 Bg4 6. Nf3 e6 7. Nbd2 Bd6 8. Bg3
+O-O 9. O-O Re8 10. Rc1 e5 11. dxe5 Nxe5 12. Be2 Qe7 13. Nxe5 Bxe2 14. Qxe2 Bxe5
+15. Qf3 Rad8 16. Bh4 Qe6 17. Bxf6 Bxf6 18. Nb3 b6 19. Rcd1 a5 20. Rd2 a4 21.
+Nc1 a3 22. bxa3 Bxc3 23. Rd3 Bf6 24. Ne2 d4 25. Nf4 Qe4 26. exd4 Qxf3 27. Rxf3
+Rxd4 28. g3 Rd2 29. Rb1 c4 30. Rxb6 Rc8 31. Re3 Bd4 32. Rc6 Rd8 33. Rf3 c3 34.
+Rcxc3 Bxc3 35. Rxc3 g5 36. Nh5 Rxa2 37. Kg2 h6 38. Rf3 Kh7 39. g4 Kg8 40. h3
+Rd1 41. Nf6+ Kf8 42. Re3 Rd8 43. Kg3 Rad2 44. Kg2 R2d3 45. Re5 Rxa3 46. Rf5
+Rdd3 47. Ne4 Rxh3 48. f3 Rh4 49. Nd6 Ra2+ 50. Kg1 Ke7 51. Ne4 Rhh2 52. Re5+ Kf8
+53. Nd6 Rhd2 54. Re8+ Kg7 55. Nf5+ Kf6 56. Re1 Rg2+ 57. Kh1 Rgf2 0-1
+
+[Event "Vilafranca del Penedes op 11th"]
+[Site "Vilafranca del Penedes"]
+[Date "2017.05.19"]
+[Round "7"]
+[White "Colet Fernandez, Josep A"]
+[Black "Batista Perez, Carlos"]
+[Result "1-0"]
+[ECO "C02"]
+[WhiteElo "2172"]
+[BlackElo "2003"]
+[PlyCount "111"]
+[EventDate "2017.03.31"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. Qg4 Nc6 5. Nf3 cxd4 6. Bd3 Qc7 7. Qg3 f6 8. Bxh7
+Nge7 9. Bd3 Nxe5 10. Nxd4 Nxd3+ 11. Qxd3 Bd7 12. Nc3 a6 13. Nf3 O-O-O 14. Bd2
+e5 15. Nxd5 Nxd5 16. Qxd5 Bf5 17. Qa5 Qc4 18. Qc3 Qxc3 19. Bxc3 Bg4 20. Nd2 Bc5
+21. Nb3 Ba7 22. O-O Kb8 23. Rac1 Rhe8 24. h3 Bf5 25. Nd2 e4 26. Nc4 Bg6 27.
+Rfe1 Re7 28. Re2 f5 29. Be5+ Ka8 30. Bf4 Rde8 31. Rd2 b5 32. Nd6 Rg8 33. c4 e3
+34. fxe3 Rxe3 35. c5 Re6 36. b4 Bh7 37. h4 Rf8 38. Kh2 Bb8 39. c6 Bc7 40. g3
+Bxd6 41. Bxd6 Rc8 42. Rc3 Bg8 43. Kg2 Re4 44. Kf3 Bc4 45. c7 Kb7 46. Bf4 Ree8
+47. Re3 Rxe3+ 48. Kxe3 Kb6 49. a3 Kb7 50. Rd7 g6 51. Kd4 Be2 52. Ke5 Kc6 53.
+Ke6 Re8+ 54. Re7 Bc4+ 55. Kf6 Rg8 56. Rg7 1-0
+
+[Event "Torredembarra op 19th"]
+[Site "Torredembarra"]
+[Date "2017.07.03"]
+[Round "3"]
+[White "Batista Perez, Carlos"]
+[Black "Lacasta Palacio, Joaquim"]
+[Result "1/2-1/2"]
+[ECO "A46"]
+[WhiteElo "1795"]
+[BlackElo "2092"]
+[PlyCount "76"]
+[EventDate "2017.07.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 e6 2. Bf4 Nf6 3. e3 c5 4. c3 Nc6 5. Nf3 b6 6. Bd3 Be7 7. Nbd2 Nh5 8. Bg3
+Bb7 9. e4 cxd4 10. cxd4 Nb4 11. Be2 Rc8 12. O-O Nxg3 13. hxg3 d5 14. Bb5+ Bc6
+15. Qa4 O-O 16. Bxc6 Nxc6 17. Rac1 Qd7 18. Rc2 Qb7 19. exd5 exd5 20. Rfc1 b5
+21. Qb3 Na5 22. Qe3 Nc4 23. Qb3 Qd7 24. Ne5 Qe6 25. Ndxc4 bxc4 26. Qb7 Rb8 27.
+Qd7 Rfe8 28. Qxa7 Ra8 29. Qd7 Qxd7 30. Nxd7 Rxa2 31. Re1 Ra7 32. Nb6 Rd8 33.
+Rce2 Kf8 34. Re5 Bf6 35. Rxd5 Rxd5 36. Nxd5 Bxd4 37. Rc1 Bxb2 38. Ra1 Ke8
+1/2-1/2
+
+[Event "Torredembarra op 19th"]
+[Site "Torredembarra"]
+[Date "2017.07.04"]
+[Round "4"]
+[White "Batista Perez, Carlos"]
+[Black "Guasch Figuerola, Agusti"]
+[Result "0-1"]
+[ECO "A34"]
+[WhiteElo "1795"]
+[BlackElo "2060"]
+[PlyCount "35"]
+[EventDate "2017.07.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 g6 2. Nf3 Bg7 3. c4 c5 4. Nc3 cxd4 5. Nb5 Nf6 6. Nfxd4 O-O 7. g3 d5 8.
+Nf3 Nc6 9. Bg2 dxc4 10. Qxd8 Rxd8 11. Na3 c3 12. O-O Nd5 13. Bg5 h6 14. Bf4 g5
+15. Be3 Nxe3 16. fxe3 cxb2 17. Rad1 Be6 18. Ra1 0-1

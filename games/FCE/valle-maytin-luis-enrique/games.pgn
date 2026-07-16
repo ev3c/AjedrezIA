@@ -1,0 +1,857 @@
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2018.01.27"]
+[Round "2.2"]
+[White "Valle Maytin, Luis Enrique"]
+[Black "Gallego Alcaraz, Andres Felipe"]
+[Result "0-1"]
+[ECO "D02"]
+[WhiteElo "2363"]
+[BlackElo "2452"]
+[PlyCount "116"]
+[EventDate "2018.??.??"]
+[WhiteTeam "GER"]
+[BlackTeam "SJO"]
+
+1. d4 Nf6 2. Nf3 g6 3. g3 Bg7 4. Bg2 d5 5. O-O O-O 6. Nbd2 a5 7. Ne5 c6 8. c3
+Na6 9. Nd3 Bf5 10. f3 Bxd3 11. exd3 c5 12. dxc5 d4 13. c4 Nxc5 14. Ne4 Nfxe4
+15. fxe4 Qc7 16. b3 Qb6 17. Qc2 Nd7 18. Bf4 Ne5 19. Bh3 e6 20. Rab1 Qc5 21. Qd2
+Rfc8 22. Bxe5 Qxe5 23. Qf4 Rc7 24. Qxe5 Bxe5 25. Rf2 Bd6 26. a4 Kg7 27. Rbf1
+Rh8 28. Re2 Rc5 29. Bg2 h5 30. Ref2 Rc7 31. Rf3 Ra8 32. R3f2 Ra6 33. Bf3 Be5
+34. Kg2 Rb6 35. Bd1 f6 36. h3 Kh6 37. Re2 Rh7 38. Kf3 g5 39. Rg2 Kg6 40. h4 g4+
+41. Kf2 Rf7 42. Rgg1 f5 43. exf5+ exf5 44. Kg2 Re6 45. Re1 Rfe7 46. Re2 Bf6 47.
+Rge1 Rxe2+ 48. Rxe2 Rxe2+ 49. Bxe2 f4 50. Kf2 Kf5 51. Bd1 Be7 52. Be2 b6 53.
+Bd1 Bd6 54. gxf4 Kxf4 55. Be2 Be7 56. Bf1 Bxh4+ 57. Ke2 Be7 58. Bg2 h4 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2018.02.03"]
+[Round "3.1"]
+[White "Valle Maytin, Luis Enrique"]
+[Black "Vila Gazquez, Xavier"]
+[Result "1/2-1/2"]
+[ECO "A39"]
+[WhiteElo "2363"]
+[BlackElo "2530"]
+[PlyCount "132"]
+[EventDate "2018.??.??"]
+[WhiteTeam "GER"]
+[BlackTeam "BAB"]
+
+1. d4 Nf6 2. Nf3 g6 3. g3 c5 4. c4 cxd4 5. Nxd4 Bg7 6. Bg2 O-O 7. Nc3 Nc6 8.
+O-O a6 9. b3 d5 10. cxd5 Nxd4 11. Qxd4 Nxd5 12. Qxd5 Bxc3 13. Rb1 Bf5 14. Bh6
+Qxd5 15. Bxd5 Rfd8 16. Rbd1 Bh3 17. Bg2 Bxg2 18. Kxg2 b5 19. Kf3 f5 20. e4 Kf7
+21. exf5 gxf5 22. Ke2 Rac8 23. Bd2 Bb2 24. Bc1 Bf6 25. Be3 Ke6 26. Rc1 Bc3 27.
+Rc2 b4 28. Rfc1 Rc6 29. Bd2 Rdc8 30. Bxc3 bxc3 31. Kd3 Rd8+ 32. Ke3 Rdc8 33.
+Rd1 Kf6 34. Rd7 h6 35. f4 h5 36. Kd3 h4 37. gxh4 Rh8 38. Rxc3 Rxc3+ 39. Kxc3
+Rxh4 40. Rd4 Rxh2 41. Ra4 Ke6 42. Kd3 Rf2 43. Rxa6+ Kd5 44. Ra5+ Ke6 45. Ke3
+Rb2 46. Ra4 Kd5 47. Kd3 Rf2 48. Rd4+ Kc5 49. Rc4+ Kd5 50. a4 Rf3+ 51. Kc2 e5
+52. fxe5 Rf2+ 53. Kc3 Ra2 54. Kd3 Ra3 55. Rb4 Kxe5 56. Ke3 Ra1 57. Rb5+ Ke6 58.
+a5 Re1+ 59. Kf2 Ra1 60. Kf3 Rf1+ 61. Ke2 Ra1 62. Kd3 Rd1+ 63. Kc4 f4 64. Rb8
+Ke7 65. Rh8 f3 66. Rh2 Rc1+ 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "Barcelona"]
+[Date "2018.02.10"]
+[Round "4.2"]
+[White "Valle Maytin, Luis Enrique"]
+[Black "Mu�oz, Miguel"]
+[Result "1/2-1/2"]
+[ECO "E65"]
+[WhiteElo "2363"]
+[BlackElo "2527"]
+[PlyCount "90"]
+[EventDate "1988.??.??"]
+[WhiteTeam "GER"]
+[BlackTeam "SAN"]
+
+1. d4 Nf6 2. Nf3 c5 3. c4 g6 4. Nc3 Bg7 5. g3 O-O 6. Bg2 Nc6 7. O-O d6 8. b3
+Bg4 9. e3 Nd7 10. Ne2 e5 11. Bb2 exd4 12. exd4 cxd4 13. Qd2 d3 14. Nf4 Bxb2 15.
+Qxb2 Nde5 16. Ne1 Re8 17. f3 Bf5 18. Rd1 Nb4 19. Qd2 Nc2 20. g4 Nxe1 21. Rfxe1
+Qb6+ 22. Qf2 Be6 23. Nxd3 Qa5 24. Nf4 Rac8 25. h3 Rc7 26. Re2 Rd7 27. Red2 Red8
+28. Nd5 Bxd5 29. Rxd5 Qc3 30. f4 Nc6 31. R5d3 Qa5 32. c5 Qb4 33. Bxc6 bxc6 34.
+Rxd6 Rxd6 35. cxd6 Rxd6 36. Rxd6 Qxd6 37. Qxa7 Qxf4 38. Qa8+ Kg7 39. Qxc6 Qe3+
+40. Kg2 Qe2+ 41. Kg3 Qe1+ 42. Kh2 Qe5+ 43. Kg2 Qe2+ 44. Kg3 Qe1+ 45. Kh2 Qe5+
+1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2018.02.17"]
+[Round "5.3"]
+[White "Valle Maytin, Luis Enrique"]
+[Black "Amigo Vilalta, Jordi"]
+[Result "1-0"]
+[ECO "E19"]
+[WhiteElo "2363"]
+[BlackElo "2322"]
+[PlyCount "101"]
+[EventDate "2018.??.??"]
+[WhiteTeam "GER"]
+[BlackTeam "CAT"]
+
+1. d4 Nf6 2. Nf3 e6 3. g3 b6 4. Bg2 Bb7 5. O-O Be7 6. c4 O-O 7. Nc3 Ne4 8. Qc2
+Nxc3 9. Qxc3 d6 10. b3 c5 11. Bb2 Bf6 12. Qc2 Nc6 13. Rad1 Qe7 14. e3 Rfd8 15.
+Qb1 d5 16. cxd5 exd5 17. dxc5 bxc5 18. Bxf6 Qxf6 19. Rc1 Ba6 20. Rfe1 Nb4 21.
+Rcd1 Rab8 22. a3 Nc6 23. Qc2 c4 24. b4 Bc8 25. Nd4 Ne5 26. Rd2 Bg4 27. h3 Nd3
+28. Rxd3 cxd3 29. Qxd3 Bh5 30. f4 a5 31. b5 Qg6 32. Qxg6 Bxg6 33. Nc6 Re8 34.
+Nxb8 Rxb8 35. Bxd5 Rxb5 36. e4 Kf8 37. Kf2 f5 38. exf5 Bxf5 39. Bg2 a4 40. g4
+Bd3 41. Be4 Rb2+ 42. Ke3 Bc4 43. Kd4 Bb3 44. Bxh7 Kf7 45. Be4 Ra2 46. Re3 Rxa3
+47. Bd5+ Kf8 48. f5 g6 49. fxg6 Kg7 50. Ke5 Kxg6 51. Kf4 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2018.02.24"]
+[Round "6.3"]
+[White "Lillo Castany, Victor"]
+[Black "Valle Maytin, Luis Enrique"]
+[Result "1/2-1/2"]
+[ECO "B17"]
+[WhiteElo "2401"]
+[BlackElo "2363"]
+[PlyCount "73"]
+[EventDate "2018.??.??"]
+[WhiteTeam "SCU"]
+[BlackTeam "GER"]
+
+1. e4 c6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Nd7 5. Ng5 Ngf6 6. Bd3 e6 7. N1f3 Bd6 8.
+Qe2 O-O 9. Nxe6 Bb4+ 10. c3 Bxc3+ 11. bxc3 fxe6 12. Qxe6+ Kh8 13. O-O Nc5 14.
+Qc4 Nxd3 15. Qxd3 Qd5 16. c4 Bf5 17. Qb3 Qd7 18. Bb2 Rad8 19. Rfe1 Rfe8 20. Ne5
+Qc7 21. Qf3 Be6 22. Re2 Qa5 23. h3 Qa6 24. Rc1 b5 25. Nxc6 Bxc4 26. Rxc4 bxc4
+27. Nxd8 Rxd8 28. d5 Rf8 29. Ba3 Rc8 30. Be7 c3 31. Rc2 Qb7 32. Bxf6 Qb1+ 33.
+Kh2 Qxc2 34. Bxg7+ Kxg7 35. Qg4+ Kf8 36. Qf4+ Kg8 37. Qg4+ 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2018.03.03"]
+[Round "7.2"]
+[White "Gual Pascual, Antoni"]
+[Black "Valle Maytin, Luis Enrique"]
+[Result "1/2-1/2"]
+[ECO "D90"]
+[WhiteElo "2485"]
+[BlackElo "2363"]
+[PlyCount "71"]
+[EventDate "2018.03.05"]
+[WhiteTeam "PEC"]
+[BlackTeam "GER"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 g6 5. cxd5 cxd5 6. Bf4 Nc6 7. e3 Bg7 8. h3
+O-O 9. Bd3 Nb4 10. Bb1 Nc6 11. O-O b6 12. Bd3 Bb7 13. Rc1 e6 14. a3 Qe7 15. Qe2
+Rfc8 16. Rc2 Ne8 17. Rfc1 Na5 18. Nd2 Nd6 19. Nb5 Rxc2 20. Rxc2 Nxb5 21. Bxb5
+Rc8 22. Rxc8+ Bxc8 23. b4 Nb7 24. Ba6 e5 25. dxe5 Bxe5 26. Bxe5 Qxe5 27. Nf3
+Qa1+ 28. Kh2 Qxa3 29. Bxb7 Bxb7 30. Qb5 Qc3 31. Qe8+ Kg7 32. Qb8 Bc8 33. Nd4 a5
+34. bxa5 bxa5 35. Qe5+ Kg8 36. Qxd5 1/2-1/2
+
+[Event "Lliga Catalana DH "]
+[Site "?"]
+[Date "2018.03.10"]
+[Round "8.2"]
+[White "Valle Maytin, Luis Enrique"]
+[Black "Barbero Sendic, Alejandro"]
+[Result "1/2-1/2"]
+[ECO "D20"]
+[WhiteElo "2363"]
+[BlackElo "2430"]
+[PlyCount "27"]
+[EventDate "2018.??.??"]
+[SourceDate "2018.01.21"]
+[WhiteTeam "GER"]
+[BlackTeam "LLE"]
+
+1. d4 d5 2. c4 dxc4 3. e3 e5 4. Bxc4 exd4 5. Nf3 Bb4+ 6. Bd2 Bxd2+ 7. Qxd2 Nc6
+8. O-O Nf6 9. Bb5 Bd7 10. Nxd4 Nxd4 11. Qxd4 Bxb5 12. Qe5+ Qe7 13. Qxb5+ c6 14.
+Qb3 1/2-1/2
+
+[Event "Lliga Catalana DH "]
+[Site "?"]
+[Date "2018.03.17"]
+[Round "9.2"]
+[White "Granados Gomez, Manuel"]
+[Black "Valle Maytin, Luis Enrique"]
+[Result "1-0"]
+[ECO "D94"]
+[WhiteElo "2446"]
+[BlackElo "2363"]
+[PlyCount "81"]
+[EventDate "2018.??.??"]
+[SourceDate "2015.07.10"]
+[WhiteTeam "FOM"]
+[BlackTeam "GER"]
+
+1. c4 c6 2. Nf3 d5 3. e3 Nf6 4. Nc3 g6 5. d4 Bg7 6. Bd2 O-O 7. Rc1 Nbd7 8. cxd5
+Nxd5 9. e4 Nxc3 10. Bxc3 b6 11. Be2 c5 12. d5 Nf6 13. Qc2 e6 14. dxe6 Bxe6 15.
+O-O Qe7 16. Nd2 Rad8 17. Rce1 Bd7 18. a4 Bc6 19. Bc4 Qb7 20. f3 Rd7 21. Bb5 Ne8
+22. Nc4 Bxb5 23. axb5 Nc7 24. Qa4 Bd4+ 25. Kh1 Bxc3 26. bxc3 Rd3 27. Qc2 Rfd8
+28. Ne5 Rd2 29. Qb3 Ne6 30. Ra1 Nf4 31. Nc6 Ra8 32. Rfd1 Rxg2 33. Ne5 Qe7 34.
+Rd7 Rxh2+ 35. Kg1 Rh1+ 36. Kf2 Rh2+ 37. Kg1 Rh1+ 38. Kf2 Nh3+ 39. Kg2 Nf4+ 40.
+Kf2 Qh4+ 41. Ke3 {tiempo} 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2018.04.14"]
+[Round "11.2"]
+[White "Vidal Zamora, Alex"]
+[Black "Valle Maytin, Luis Enrique"]
+[Result "1/2-1/2"]
+[ECO "D36"]
+[WhiteElo "2422"]
+[BlackElo "2363"]
+[PlyCount "34"]
+[EventDate "2018.??.??"]
+[WhiteTeam "OLO"]
+[BlackTeam "GER"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. cxd5 exd5 5. Bg5 Nbd7 6. e3 c6 7. Bd3 Be7 8.
+Nf3 O-O 9. Qc2 Re8 10. O-O Nf8 11. Rab1 a5 12. h3 g6 13. Bf4 Ne6 14. Bh2 Ng7
+15. Qb3 Bd6 16. Ne5 Qe7 17. Rfe1 Bf5 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2019.01.19"]
+[Round "1.3"]
+[White "Valle Maytin, Luis Enrique"]
+[Black "Gonzalez Rodriguez, Jorge A"]
+[Result "0-1"]
+[ECO "A46"]
+[WhiteElo "2285"]
+[BlackElo "2199"]
+[PlyCount "90"]
+[EventDate "2019.01.19"]
+[WhiteTeam "Gerunda"]
+[BlackTeam "Figueres"]
+
+1. d4 Nf6 2. Nf3 b5 3. g3 Bb7 4. Bg2 e6 5. O-O c5 6. c3 d5 7. Bg5 Nbd7 8. Nbd2
+Be7 9. Re1 O-O 10. Qb3 a6 11. Rad1 h6 12. Bxf6 Bxf6 13. e4 cxd4 14. Nxd4 Nc5
+15. Qa3 Be7 16. b4 Na4 17. Qb3 Rc8 18. Nb1 Bf6 19. e5 Be7 20. Rd3 Qb6 21. Bf1
+Qa7 22. h4 Bd8 23. Qc2 Bb6 24. Qd2 Rc4 25. Rd1 Rfc8 26. Nb3 Qb8 27. Re1 Qc7 28.
+Nc5 Bxc5 29. bxc5 Rxc5 30. Ree3 Qc6 31. Bg2 b4 32. cxb4 Rc2 33. Qe1 Rxa2 34.
+Re2 Rxe2 35. Qxe2 Qc2 36. Qxc2 Rxc2 37. Rb3 Bc6 38. Na3 Re2 39. f4 Re1+ 40. Kf2
+Rc1 41. Bf1 Bb7 42. b5 a5 43. Bd3 Nc5 44. Rb1 Nxd3+ 45. Ke3 Rxb1 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2019.01.26"]
+[Round "2.3"]
+[White "Mestre Bellido, Hector"]
+[Black "Valle Maytin, Luis Enrique"]
+[Result "1/2-1/2"]
+[ECO "E16"]
+[WhiteElo "2285"]
+[BlackElo "2285"]
+[PlyCount "26"]
+[EventDate "2019.01.19"]
+[WhiteTeam "Foment Martinenc"]
+[BlackTeam "Gerunda"]
+
+1. Nf3 d5 2. d4 Nf6 3. g3 b6 4. Bg2 Bb7 5. c4 e6 6. Nc3 Nbd7 7. O-O Be7 8. Bf4
+dxc4 9. Qa4 O-O 10. Rfd1 Nd5 11. Ne5 Nxe5 12. dxe5 Nxc3 13. bxc3 Qc8 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2019.02.02"]
+[Round "3.3"]
+[White "Valle Maytin, Luis Enrique"]
+[Black "Adel Lahchaichi, Oussama"]
+[Result "1-0"]
+[ECO "D13"]
+[WhiteElo "2285"]
+[BlackElo "2308"]
+[PlyCount "111"]
+[EventDate "2019.01.19"]
+[WhiteTeam "Gerunda"]
+[BlackTeam "Lleida"]
+
+1. d4 d5 2. c4 c6 3. cxd5 cxd5 4. Nc3 Nc6 5. Nf3 Nf6 6. Bf4 a6 7. e3 Nh5 8. Bg5
+h6 9. Bh4 g5 10. Bg3 Nxg3 11. hxg3 Bg7 12. Qb3 g4 13. Nd2 e6 14. Bd3 b5 15. Rc1
+Bd7 16. Qd1 h5 17. Nb3 f5 18. Nc5 Na5 19. Qe2 Kf7 20. a4 Nc4 21. b3 Nd6 22.
+axb5 Bxb5 23. Bxb5 axb5 24. Nxb5 Qa5+ 25. Nc3 Ne4 26. N5xe4 fxe4 27. O-O Rac8
+28. Na4 Bf6 29. Nc5 Be7 30. Ra1 Qc7 31. b4 Ra8 32. Ra6 Rxa6 33. Qxa6 Bxc5 34.
+bxc5 Rb8 35. Ra1 Kf6 36. Qe2 Kf5 37. Qa6 Kf6 38. Qe2 Rb4 39. Kh2 Qb8 40. Rd1
+Kf5 41. f3 gxf3 42. gxf3 Rb2 43. Rd2 Rxd2 44. fxe4+ Kxe4 45. Qxd2 h4 46. Qf2
+hxg3+ 47. Qxg3 Qh8+ 48. Kg2 Qh5 49. Kf2 Kd3 50. Qf4 Qe2+ 51. Kg3 Qc2 52. Qe5
+Qd1 53. Qxe6 Qg1+ 54. Kf4 Qh2+ 55. Kf5 Qf2+ 56. Kg5 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2019.02.09"]
+[Round "4.3"]
+[White "Valle Maytin, Luis Enrique"]
+[Black "Cruz, Filemon"]
+[Result "1/2-1/2"]
+[ECO "E16"]
+[WhiteElo "2285"]
+[BlackElo "2291"]
+[PlyCount "36"]
+[EventDate "2019.01.19"]
+[WhiteTeam "Gerunda"]
+[BlackTeam "Sant Andreu"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 b6 4. g3 Ba6 5. Nbd2 c5 6. Bg2 Bb7 7. dxc5 Bxc5 8.
+O-O O-O 9. b3 d5 10. cxd5 Bxd5 11. Bb2 Nbd7 12. Rc1 Qe7 13. Qc2 Rac8 14. Qb1 b5
+15. Rfd1 a6 16. Qa1 Rfd8 17. e3 h6 18. Rc2 Rc7 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2019.02.16"]
+[Round "5.2"]
+[White "Valle Maytin, Luis Enrique"]
+[Black "Kogan, Arthur"]
+[Result "1/2-1/2"]
+[ECO "E01"]
+[WhiteElo "2285"]
+[BlackElo "2547"]
+[PlyCount "99"]
+[EventDate "2019.01.19"]
+[WhiteTeam "Gerunda"]
+[BlackTeam "Escola Salou"]
+
+1. d4 Nf6 2. Nf3 e6 3. g3 c5 4. c4 cxd4 5. Nxd4 d5 6. Bg2 e5 7. Nf3 d4 8. O-O
+Nc6 9. e3 Be7 10. exd4 exd4 11. b3 O-O 12. Bb2 Bc5 13. a3 a5 14. b4 axb4 15.
+axb4 Rxa1 16. Bxa1 Nxb4 17. Bxd4 b6 18. Nc3 Be6 19. Bxc5 bxc5 20. Qxd8 Rxd8 21.
+Ne5 Ne8 22. Na4 Na6 23. Bb7 Nec7 24. Nc6 Rd2 25. Ne7+ Kf8 26. Nd5 Bxd5 27. cxd5
+Rd4 28. Ra1 c4 29. Bxa6 Nxa6 30. Rc1 Nb4 31. Nb6 Rd2 32. Rxc4 Nd3 33. d6 Rd1+
+34. Kg2 Ne1+ 35. Kf1 Rxd6 36. Kxe1 Rxb6 37. Ke2 g5 38. h4 f6 39. hxg5 fxg5 40.
+Kf3 Kg7 41. g4 Kf6 42. Kg3 h6 43. Ra4 Ke5 44. Ra5+ Kd4 45. Ra4+ Kd5 46. Ra5+
+Kc4 47. Ra4+ Kc5 48. Ra5+ Kc4 49. Ra4+ Kc5 50. Ra5+ 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2019.02.23"]
+[Round "6.3"]
+[White "Valle Maytin, Luis Enrique"]
+[Black "Sosa, Tomas"]
+[Result "0-1"]
+[ECO "A49"]
+[WhiteElo "2285"]
+[BlackElo "2499"]
+[PlyCount "92"]
+[EventDate "2019.01.19"]
+[WhiteTeam "Gerunda"]
+[BlackTeam "Mollet"]
+
+1. d4 g6 2. Nf3 Bg7 3. g3 b5 4. Bg2 Bb7 5. O-O Nf6 6. Nbd2 O-O 7. Re1 d6 8. c4
+bxc4 9. Nxc4 Nbd7 10. b3 a5 11. Bb2 Qb8 12. Ncd2 c5 13. Rc1 cxd4 14. Bxd4 e5
+15. Ba1 d5 16. e3 Ra7 17. Qc2 Ba8 18. Red1 Re8 19. Bc3 h5 20. Qb2 Bh6 21. Rc2
+Ra6 22. Ne1 Ng4 23. Nf1 Ngf6 24. Nd2 h4 25. Nf1 hxg3 26. hxg3 Bg7 27. Rcd2 Nc5
+28. Nd3 Nxd3 29. Rxd3 d4 30. exd4 Bxg2 31. Kxg2 e4 32. R3d2 e3 33. fxe3 Ne4 34.
+Re2 Rf6 35. Be1 Qb7 36. Kg1 Ng5 37. Nd2 Re4 38. Bf2 Nh3+ 39. Kh2 Nxf2 40. Nxe4
+Nxe4 41. Qc2 Qd5 42. Rg2 Qh5+ 43. Kg1 Ng5 44. Qc8+ Bf8 45. g4 Qh4 46. Rf1 Nh3+
+0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2019.03.02"]
+[Round "7.2"]
+[White "Valle Maytin, Luis Enrique"]
+[Black "Diaz Camallonga, Carles"]
+[Result "1/2-1/2"]
+[ECO "C01"]
+[WhiteElo "2285"]
+[BlackElo "2432"]
+[PlyCount "33"]
+[EventDate "2019.01.19"]
+[WhiteTeam "Gerunda"]
+[BlackTeam "Colon Sabadell Chessy"]
+
+1. d4 e6 2. e4 d5 3. exd5 exd5 4. Bd3 Nc6 5. c3 Bd6 6. Qf3 Be6 7. Ne2 Qd7 8.
+Bf4 O-O-O 9. Bxd6 Qxd6 10. Nd2 Nge7 11. O-O-O h5 12. h3 Rh6 13. Qg3 Bf5 14.
+Qxd6 Rhxd6 15. Bxf5+ Nxf5 16. Nf3 g6 17. Nf4 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2019.03.16"]
+[Round "9.2"]
+[White "Valle Maytin, Luis Enrique"]
+[Black "Meier, Georg"]
+[Result "0-1"]
+[ECO "E52"]
+[WhiteElo "2285"]
+[BlackElo "2621"]
+[PlyCount "51"]
+[EventDate "2019.03.09"]
+[WhiteTeam "Gerunda"]
+[BlackTeam "Escola d'Escacs de Barcelona"]
+
+1. d4 e6 2. c4 b6 3. Nf3 Bb7 4. Nc3 Bb4 5. Bd2 Nf6 6. e3 O-O 7. Bd3 d5 8. Qc2
+c5 9. a3 Ba5 10. cxd5 exd5 11. O-O Re8 12. b4 cxb4 13. Nb5 b3 14. Qxb3 Bxd2 15.
+Nxd2 Nc6 16. Rfc1 a6 17. Nc3 b5 18. Rc2 Rb8 19. Rac1 Na5 20. Qa2 Nc4 21. a4 Bc6
+22. Nf3 Qd6 23. h3 b4 24. Nxd5 b3 25. Nxf6+ Qxf6 26. Ne5 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2019.03.23"]
+[Round "10.1"]
+[White "Valle Maytin, Luis Enrique"]
+[Black "Martin Gonzalez, Angel"]
+[Result "1/2-1/2"]
+[ECO "A31"]
+[WhiteElo "2285"]
+[BlackElo "2336"]
+[PlyCount "108"]
+[EventDate "2019.03.09"]
+[WhiteTeam "Gerunda"]
+[BlackTeam "Barcelona"]
+
+1. d4 Nf6 2. c4 c5 3. Nf3 cxd4 4. Nxd4 e5 5. Nb3 d5 6. cxd5 Qxd5 7. Qxd5 Nxd5
+8. a3 Be6 9. N1d2 Nd7 10. e4 N5f6 11. f3 a5 12. Nc4 a4 13. Nbd2 Rc8 14. Bd3 Be7
+15. Ke2 O-O 16. Ne3 Bc5 17. Bb5 Bxe3 18. Kxe3 Nc5 19. b4 axb3 20. Bb2 Nfd7 21.
+Rac1 f6 22. Nc4 Rfd8 23. Rhd1 Nf8 24. Rxd8 Rxd8 25. Nxe5 Nfd7 26. Nxd7 Nxd7 27.
+Rd1 Kf7 28. a4 b6 29. f4 Ke7 30. f5 Bf7 31. Rxd7+ Rxd7 32. Bxd7 Kxd7 33. Kd4
+Bh5 34. Kc4 Be2+ 35. Kxb3 Bd3 36. e5 Bxf5 37. exf6 gxf6 38. Bxf6 Be4 39. g3 Bc6
+40. Kb4 Kc7 41. Be5+ Kd7 42. Bf4 Kc8 43. g4 Bd7 44. g5 Bh3 45. Kb5 Kb7 46. Be3
+Bd7+ 47. Kb4 Bh3 48. Bd2 Ka6 49. Kc4 Bd7 50. Kb4 Bh3 51. Kc3 Bd7 52. h4 Bxa4
+53. h5 Be8 54. g6 Bxg6 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2020.01.18"]
+[Round "1.3"]
+[White "Diaz Camallonga, Carles"]
+[Black "Valle Maytin, Luis Enrique"]
+[Result "1/2-1/2"]
+[ECO "B36"]
+[WhiteElo "2474"]
+[BlackElo "2285"]
+[PlyCount "165"]
+[EventDate "2020.??.??"]
+[WhiteTeam "Colon Sabadell Chessy"]
+[BlackTeam "Gerunda, CE"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. c4 Nf6 6. Nc3 Nxd4 7. Qxd4 d6 8.
+Be2 Bg7 9. Be3 O-O 10. Qd2 Qa5 11. f3 Be6 12. Rc1 Rfc8 13. b3 a6 14. Na4 Qxd2+
+15. Kxd2 Nd7 16. g4 Rc6 17. Rc2 Rac8 18. Rhc1 Nc5 19. Nc3 a5 20. Nd5 Kf8 21. h4
+Bxd5 22. cxd5 R6c7 23. Bb5 Bf6 24. g5 Be5 25. Kd1 Bg3 26. Rg2 Be5 27. Rc4 Na6
+28. Rxc7 Rxc7 29. f4 Ba1 30. Bb6 Rc3 31. Bxa5 Rh3 32. Be1 Nc5 33. Re2 Nd3 34.
+Bd2 Bd4 35. Bxd3 Rxd3 36. Kc2 Rh3 37. e5 dxe5 38. fxe5 Rxh4 39. a4 Bc5 40. Bc3
+Ke8 41. Kd3 Kd7 42. Re4 Rh3+ 43. Kc4 Be3 44. e6+ fxe6 45. dxe6+ Kc6 46. Bf6 Bc5
+47. b4 Bd6 48. Bc3 Rg3 49. Bd2 Rg2 50. b5+ Kc7 51. Be3 Ra2 52. Kd5 b6 53. Rh4
+Ra3 54. Rc4+ Kb7 55. Ke4 Ra1 56. Kd3 Rd1+ 57. Ke2 Rd5 58. Re4 Rf5 59. Kd3 Rd5+
+60. Kc4 Rf5 61. Bd2 Rc5+ 62. Kd3 Rd5+ 63. Ke2 Rf5 64. Be3 Bc5 65. Bf4 Rd5 66.
+Kf3 Rd3+ 67. Kg4 Rd1 68. Rc4 Rg1+ 69. Kh3 Re1 70. a5 Rxe6 71. Bg3 Re3 72. Kg2
+Rd3 73. axb6 Kxb6 74. Rh4 Be3 75. Rxh7 Bxg5 76. Rg7 Kxb5 77. Rxg6 Bf6 78. Rg4
+Kc5 79. Bh4 Bxh4 80. Rxh4 e5 81. Kf2 Kd5 82. Ke2 e4 83. Rh8 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2020.01.25"]
+[Round "2.2"]
+[White "Boix Moreno, Daniel"]
+[Black "Valle Maytin, Luis Enrique"]
+[Result "1/2-1/2"]
+[ECO "B27"]
+[WhiteElo "2255"]
+[BlackElo "2285"]
+[PlyCount "75"]
+[EventDate "2020.??.??"]
+[WhiteTeam "Tres Peons, CE"]
+[BlackTeam "Gerunda, CE"]
+
+1. e4 c5 2. Nf3 g6 3. Bc4 Bg7 4. O-O Nc6 5. c3 Qb6 6. d4 cxd4 7. cxd4 Nxd4 8.
+Nc3 Qc5 9. Nxd4 Bxd4 10. Qb3 e6 11. Nb5 a6 12. Nxd4 Qxd4 13. Bd3 Ne7 14. Be3
+Qg7 15. Bc5 f5 16. Qb6 fxe4 17. Bxe4 d5 18. Bxe7 Qxe7 19. Bxd5 Qd8 20. Qxd8+
+Kxd8 21. Be4 Ra7 22. Rfd1+ Bd7 23. Rd6 b5 24. Rad1 Ke7 25. h4 Bc8 26. f3 Rc7
+27. Kf2 Rd7 28. Rxd7+ Bxd7 29. g4 Rc8 30. g5 a5 31. Ke3 Rc5 32. Rh1 Bc6 33. Bd3
+Kd6 34. Rg1 Re5+ 35. Kf4 Rd5 36. Ke3 Re5+ 37. Kf4 Rd5 38. Ke3 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2020.02.01"]
+[Round "3.3"]
+[White "Rahal, Michael A"]
+[Black "Valle Maytin, Luis Enrique"]
+[Result "1-0"]
+[ECO "B36"]
+[WhiteElo "2317"]
+[BlackElo "2285"]
+[PlyCount "86"]
+[EventDate "2020.??.??"]
+[WhiteTeam "Sant Cugat, CE"]
+[BlackTeam "Gerunda, CE"]
+
+1. e4 c5 2. Nf3 g6 3. d4 cxd4 4. Nxd4 Nc6 5. c4 Nf6 6. Nc3 d6 7. Be2 Nxd4 8.
+Qxd4 Bg7 9. Be3 O-O 10. Qd2 Qa5 11. f3 Be6 12. Rc1 Rfc8 13. b3 a6 14. Na4 Qxd2+
+15. Kxd2 Nd7 16. g4 Rc6 17. Nc3 Rac8 18. Nd5 Bxd5 19. exd5 R6c7 20. g5 a5 21.
+f4 Nc5 22. Bg4 Re8 23. h4 e6 24. dxe6 fxe6 25. Bf3 Kf7 26. h5 Rec8 27. Rhe1 Nd7
+28. Bg4 b5 29. h6 Bh8 30. Bb6 Nxb6 31. Bxe6+ Kf8 32. Bxc8 bxc4 33. Be6 c3+ 34.
+Kd3 Nd7 35. Bxd7 Rxd7 36. Re4 Rc7 37. Rc4 Rxc4 38. bxc4 Ke7 39. Re1+ Kd7 40. a4
+Kd8 41. Rb1 Kc7 42. Rb5 Bd4 43. Rxa5 Be3 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2020.02.08"]
+[Round "4.4"]
+[White "Mestre Bellido, Hector"]
+[Black "Valle Maytin, Luis Enrique"]
+[Result "1/2-1/2"]
+[ECO "A30"]
+[WhiteElo "2285"]
+[BlackElo "2285"]
+[PlyCount "25"]
+[EventDate "2020.??.??"]
+[WhiteTeam "Foment, CE"]
+[BlackTeam "Gerunda, CE"]
+
+1. Nf3 Nf6 2. c4 e6 3. g3 b6 4. Bg2 Bb7 5. O-O c5 6. d4 cxd4 7. Qxd4 Nc6 8. Qd3
+d5 9. Rd1 Nb4 10. Qb3 Qc7 11. Na3 Rc8 12. Qa4+ Qc6 13. Qxc6+ 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2020.02.15"]
+[Round "5.3"]
+[White "Alonso Garcia, Rene Marcial"]
+[Black "Valle Maytin, Luis Enrique"]
+[Result "1-0"]
+[ECO "B76"]
+[WhiteElo "2334"]
+[BlackElo "2285"]
+[PlyCount "89"]
+[EventDate "2020.??.??"]
+[WhiteTeam "Cerdanyola Valles, CE"]
+[BlackTeam "Gerunda, CE"]
+
+1. e4 c5 2. Nf3 g6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Bg7 6. Be3 Nf6 7. Bc4 O-O 8.
+Bb3 d6 9. f3 Nxd4 10. Bxd4 Be6 11. O-O Bxb3 12. axb3 a6 13. Kh1 Rc8 14. Rf2 Rc6
+15. Rd2 Qc8 16. Qe2 Bh6 17. Bxf6 exf6 18. Nd5 Qe6 19. f4 Re8 20. Rad1 Bg7 21.
+c3 h5 22. Qd3 Rcc8 23. Re2 Kf8 24. h3 Red8 25. Qf3 Kg8 26. g4 hxg4 27. hxg4 Rc5
+28. f5 Qe5 29. Nf4 Qe8 30. Qh3 g5 31. Nh5 Bh8 32. Rh2 Kf8 33. Re2 Ke7 34. Qf3
+Re5 35. Ng3 Qc6 36. c4 Bg7 37. Kg2 Rh8 38. Rh1 Rxh1 39. Kxh1 Bh8 40. Nh5 Qc5
+41. Rd2 Kd7 42. Kg2 Re8 43. e5 fxe5 44. Qxb7+ Qc7 45. Qxa6 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2020.02.22"]
+[Round "6.2"]
+[White "Garriga Cazorla, Pere"]
+[Black "Valle Maytin, Luis Enrique"]
+[Result "1-0"]
+[ECO "E14"]
+[WhiteElo "2486"]
+[BlackElo "2285"]
+[PlyCount "85"]
+[WhiteTeam "Mollet, CE"]
+[BlackTeam "Gerunda, CE"]
+
+1. Nf3 Nf6 2. c4 e6 3. d4 b6 4. Nc3 Bb7 5. e3 d5 6. cxd5 exd5 7. Bb5+ c6 8. Bd3
+Nbd7 9. Ne5 Nxe5 10. dxe5 Nd7 11. e6 fxe6 12. Qh5+ Ke7 13. e4 Nf6 14. Bg5 Kd7
+15. Qh3 Be7 16. O-O-O Ne8 17. Be3 Nc7 18. exd5 cxd5 19. Rhe1 Bb4 20. Bd4 Qg5+
+21. Kb1 Rae8 22. Rc1 Bc6 23. g3 h5 24. a3 Bc5 25. Ne2 Bd6 26. f4 Qh6 27. Be3
+Qf6 28. Nd4 Bb7 29. Nf3 h4 30. Qg4 hxg3 31. hxg3 Re7 32. Bd4 Qh6 33. Ne5+ Bxe5
+34. Bxe5 Ne8 35. f5 Kd8 36. fxe6 Bc8 37. Qa4 Qd2 38. Rxc8+ Kxc8 39. Qc6+ Nc7
+40. Ba6+ Kd8 41. Bxc7+ Rxc7 42. e7+ Rxe7 43. Qc8# 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2020.02.29"]
+[Round "7.2"]
+[White "Valle Maytin, Luis Enrique"]
+[Black "Fluvia Poyatos, Joan"]
+[Result "1-0"]
+[ECO "D36"]
+[WhiteElo "2285"]
+[BlackElo "2462"]
+[PlyCount "85"]
+[EventDate "2020.??.??"]
+[WhiteTeam "Gerunda, CE"]
+[BlackTeam "Cor de Marina Badalona, CE"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 d5 4. Nc3 Be7 5. Bg5 Nbd7 6. e3 h6 7. Bh4 c6 8. cxd5
+exd5 9. Qc2 O-O 10. Bd3 Re8 11. Bg3 Nh5 12. O-O Nxg3 13. hxg3 Bd6 14. Rab1 a5
+15. a3 Qe7 16. Nh4 Nf6 17. Nf5 Bxf5 18. Bxf5 g6 19. Bd3 Ng4 20. e4 Qg5 21. Be2
+Nxf2 22. e5 Qxg3 23. Rxf2 Rxe5 24. dxe5 Bxe5 25. Bf3 Qh2+ 26. Kf1 Bg3 27. Ne2
+Qh1+ 28. Ng1 Bh2 29. Ke2 Bxg1 30. g3 Qh3 31. Rxg1 d4 32. Kd2 Rd8 33. Qe4 Qd7
+34. Re1 Qc7 35. Qf4 Qb6 36. Kc1 d3 37. Rd2 c5 38. Re7 Qb3 39. Kb1 Kg7 40. Qe5+
+Kh7 41. Qf6 Rf8 42. Rxb7 Qc4 43. Qc3 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2020.03.07"]
+[Round "8.2"]
+[White "Valle Maytin, Luis Enrique"]
+[Black "Campos Moreno, Javier"]
+[Result "1/2-1/2"]
+[ECO "E05"]
+[WhiteElo "2285"]
+[BlackElo "2406"]
+[PlyCount "19"]
+[EventDate "2020.??.??"]
+[WhiteTeam "Gerunda, CE"]
+[BlackTeam "Figueres, CE"]
+
+1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Ne5 Nc6 8.
+Bxc6 bxc6 9. Nxc6 Qe8 10. Nxe7+ 1/2-1/2
+
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.01.23"]
+[Round "1.2"]
+[White "Valle Maytin, Luis Enrique"]
+[Black "Rojano Alfonso, Carlos"]
+[Result "0-1"]
+[ECO "B00"]
+[PlyCount "122"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+[WhiteTeam "Gerunda"]
+[BlackTeam "Gramenet"]
+
+1. d4 e6 2. Nf3 b6 3. e4 Bb7 4. Bd3 d5 5. exd5 Qxd5 6. O-O Nf6 7. Nc3 Qd8 8.
+Bg5 Be7 9. Bb5+ c6 10. Ba4 O-O 11. Re1 Nbd7 12. Ne5 Rc8 13. Qe2 Nd5 14. Bxe7
+Nxc3 15. Bxd8 Nxe2+ 16. Rxe2 Rfxd8 17. Nxd7 Rxd7 18. c3 Rd6 19. Rd1 Kf8 20.
+Ree1 Ke7 21. f3 Rcd8 22. Kf2 Ba6 23. Bb3 c5 24. Ke3 cxd4+ 25. Rxd4 Rxd4 26.
+cxd4 Kd6 27. Rc1 Bb7 28. Rc3 g5 29. Bc2 f5 30. Ra3 a6 31. Rb3 b5 32. Rc3 h5 33.
+h3 Rg8 34. a4 g4 35. hxg4 hxg4 36. axb5 axb5 37. Rc5 Bc6 38. Bd3 gxf3 39. gxf3
+b4 40. Ra5 Rg2 41. b3 Rb2 42. Bc4 Rc2 43. Ra6 Rc3+ 44. Ke2 Kc7 45. Bxe6 Bb5+
+46. Bc4 Rxc4 47. Ra5 Rc2+ 48. Ke3 Kb6 49. Ra8 Rc3+ 50. Kf4 Rxf3+ 51. Ke5 Bc6
+52. Rb8+ Bb7 53. Rf8 Re3+ 54. Kd6 Rd3 55. Ke5 Rxb3 56. Rxf5 Rd3 57. Rf6+ Bc6
+58. Rd6 b3 59. Rf6 Re3+ 60. Kd6 b2 61. Rf1 Be4 {0-1 White resigns.} 0-1
+
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.01.29"]
+[Round "2"]
+[White "Ayats Llobera, Gerard"]
+[Black "Valle Maytin, Luis Enrique"]
+[Result "1/2-1/2"]
+[ECO "B12"]
+[WhiteElo "2508"]
+[BlackElo "2361"]
+[PlyCount "46"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+
+1. e4 c6 2. d4 d5 3. f3 e6 4. Nc3 b6 5. Be3 Ba6 6. Bxa6 Nxa6 7. Nh3 Ne7 8. Qd3
+Nc7 9. O-O-O Qd7 10. Kb1 O-O-O 11. Ng5 Ng6 12. h4 h5 13. a3 Kb7 14. g3 Qe8 15.
+Rhe1 f6 16. Nh3 Qf7 17. Nf4 dxe4 18. fxe4 e5 19. Nxg6 Qxg6 20. d5 cxd5 21. exd5
+Qxd3 22. Rxd3 Rd7 23. Bf2 Be7 1/2-1/2
+
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.02.05"]
+[Round "3.1"]
+[White "Movsziszian, Karen"]
+[Black "Valle Maytin, Luis Enrique"]
+[Result "1-0"]
+[ECO "A07"]
+[WhiteElo "2537"]
+[BlackElo "2361"]
+[PlyCount "87"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+
+1. g3 d5 2. Bg2 Nf6 3. d3 g6 4. Nd2 Bg7 5. e4 dxe4 6. dxe4 e5 7. Ngf3 Nc6 8.
+O-O O-O 9. c3 h6 10. Qc2 Be6 11. b4 a6 12. a4 Nd7 13. Re1 Re8 14. Bb2 Nb6 15.
+Bf1 Qf6 16. a5 Nc8 17. Nh4 Nd6 18. Ng2 g5 19. Ne3 Qg6 20. g4 Rad8 21. Nf5 Bf8
+22. h3 f6 23. Bg2 Qf7 24. Bc1 Ne7 25. Bf1 Ng6 26. Rb1 c6 27. Nb3 Kh7 28. Nc5
+Bc8 29. Be3 Nf4 30. Rbd1 Nxf5 31. exf5 Bd6 32. Ne4 Bc7 33. Bc5 Rxd1 34. Rxd1
+Rd8 35. c4 Rxd1 36. Qxd1 Kg7 37. Bb6 Bxb6 38. axb6 Qf8 39. Qd6 h5 40. Qc7+ Kg8
+41. Nd6 Be6 42. fxe6 Nxe6 43. Qd7 Nd4 44. Bd3 1-0
+
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.02.12"]
+[Round "4"]
+[White "Valle Maytin, Luis Enrique"]
+[Black "Gallego Alcaraz, Andres Felipe"]
+[Result "1/2-1/2"]
+[ECO "A88"]
+[PlyCount "163"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+
+1. d4 f5 2. c4 Nf6 3. Nc3 g6 4. Nf3 Bg7 5. g3 d6 6. Bg2 O-O 7. O-O c6 8. d5 e5
+9. dxe6 Bxe6 10. Qd3 Na6 11. Ng5 Nc5 12. Nxe6 Nxe6 13. Rd1 Ne8 14. e3 a5 15. b3
+Nc5 16. Qc2 Qe7 17. Bb2 Nf6 18. Rd2 Ng4 19. Re1 Rae8 20. h3 Nh6 21. Red1 Nf7
+22. Ba3 Qe5 23. Ne2 Rd8 24. Bb2 Qxb2 25. Qxb2 Bxb2 26. Rxb2 Ra8 27. Nc3 Rfe8
+28. Rbd2 Ra6 29. Kf1 Rb6 30. Rb1 Kf8 31. Ke2 Ke7 32. Kd1 Rb4 33. e4 Kd7 34.
+exf5 gxf5 35. Kc2 a4 36. bxa4 Rxb1 37. Kxb1 Re1+ 38. Rd1 Rxd1+ 39. Nxd1 Nxa4
+40. Kc2 Ke6 41. f4 Nh6 42. Kd3 Ng8 43. g4 Nf6 44. Ne3 fxg4 45. hxg4 Ng8 46. g5
+Ne7 47. Bh3+ Kf7 48. Nf5 Nxf5 49. Bxf5 Kg7 50. Kd4 h6 51. gxh6+ Kxh6 52. Bg4
+Kg6 53. a3 Kf6 54. Bd1 Nc5 55. Bc2 Ne6+ 56. Ke4 Ng7 57. Bd1 Ne6 58. Bc2 Nc7 59.
+a4 Na6 60. Kd4 Nc5 61. Ke3 Nd7 62. Kd4 Ke6 63. Be4 Nf6 64. Bc2 Kd7 65. Bd1 Kc7
+66. a5 Kd7 67. Bf3 Ke6 68. Ke3 Ke7 69. a6 bxa6 70. Bxc6 Ke6 71. Ba4 Kf5 72.
+Bc2+ Ke6 73. Kd4 Nd7 74. f5+ Ke7 75. Kd5 Nb6+ 76. Kd4 Kf6 77. c5 dxc5+ 78. Kxc5
+Nc8 79. Bd3 a5 80. Kb5 Ne7 81. Kxa5 Nxf5 82. Bxf5 1/2-1/2
+
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.02.19"]
+[Round "5.2"]
+[White "Valle Maytin, Luis Enrique"]
+[Black "Porras Mateo, Felipe"]
+[Result "1/2-1/2"]
+[ECO "D05"]
+[WhiteElo "2361"]
+[BlackElo "2421"]
+[PlyCount "49"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Nf3 Nf6 3. e3 e6 4. Bd3 Bd6 5. O-O Nbd7 6. Nbd2 O-O 7. b3 e5 8.
+dxe5 Nxe5 9. Be2 Qe7 10. Bb2 Rd8 11. Nxe5 Bxe5 12. Bxe5 Qxe5 13. Nf3 Qe7 14.
+Qd4 c5 15. Qe5 Kf8 16. c4 b6 17. Qb2 Bb7 18. Rad1 Qc7 19. cxd5 Bxd5 20. Rd2 Bc6
+21. Rfd1 Rxd2 22. Qxd2 Ne4 23. Qc2 Rd8 24. Rxd8+ Qxd8 25. Ne5 1/2-1/2
+
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.02.27"]
+[Round "?"]
+[White "Valle Maytin, Luis Enrique"]
+[Black "Garriga Cazorla, Pere"]
+[Result "0-1"]
+[ECO "D05"]
+[PlyCount "84"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 e6 3. e3 b6 4. Bd3 Bb7 5. O-O d5 6. Nbd2 Bd6 7. b3 O-O 8. Bb2
+c5 9. Ne5 Nc6 10. f4 Rc8 11. a3 Ne7 12. Qe2 b5 13. Bxb5 cxd4 14. Bxd4 Nf5 15.
+c3 a5 16. Bd3 Nxd4 17. cxd4 Qe7 18. a4 Rc3 19. Rfc1 Rfc8 20. Rxc3 Rxc3 21. Rb1
+Qc7 22. h3 Bb4 23. Rb2 g6 24. Kh2 Ba3 25. Ra2 Bd6 26. Rb2 Ne4 27. Nb1 f6 28.
+Bxe4 fxe5 29. dxe5 Bxe5 30. fxe5 Rc1 31. Bf3 Ba6 32. Qd2 Bd3 33. Na3 Ra1 34.
+Nb5 Qxe5+ 35. g3 h5 36. Nd4 h4 37. Qg2 Re1 38. Rf2 Kg7 39. Ne2 g5 40. Ng1 Rxe3
+41. Kh1 hxg3 42. Rd2 Qf4 0-1
+
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.03.05"]
+[Round "7.2"]
+[White "Valle Maytin, Luis Enrique"]
+[Black "Pomes Marcet, Juan"]
+[Result "1/2-1/2"]
+[ECO "D04"]
+[WhiteElo "2272"]
+[BlackElo "2237"]
+[PlyCount "82"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Nf3 Nf6 3. e3 Bf5 4. Bd3 e6 5. O-O Bd6 6. c4 dxc4 7. Bxf5 exf5 8.
+Qc2 Qc8 9. a4 O-O 10. Nbd2 Nc6 11. Nxc4 Qe6 12. Bd2 Ne4 13. Rfd1 Ne7 14. Rac1
+c6 15. Nxd6 Qxd6 16. Ne5 Nd5 17. f3 Nxd2 18. Qxd2 Qb4 19. Qxb4 Nxb4 20. a5 Rfe8
+21. Kf2 Rad8 22. Nd3 Nd5 23. a6 bxa6 24. Rxc6 Rxe3 25. Rxa6 Rxd3 26. Rxd3 Nb4
+27. Rda3 Nxa6 28. Rxa6 Rb8 29. Rxa7 Rxb2+ 30. Kg3 g5 31. h4 f4+ 32. Kh3 gxh4
+33. Ra5 Rd2 34. Rg5+ Kf8 35. d5 f6 36. Rf5 Kf7 37. Rxf4 Rxd5 38. Rxh4 h5 39.
+Ra4 Rg5 40. g3 Rf5 41. f4 Kg6 1/2-1/2
+
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.03.12"]
+[Round "8.1"]
+[White "Valle Maytin, Luis Enrique"]
+[Black "Jerez Perez, Alfonso"]
+[Result "1/2-1/2"]
+[WhiteElo "2361"]
+[BlackElo "2420"]
+[PlyCount "28"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+[TimeControl "90+30"]
+
+1. d4 {[%emt 0:00:00]} Nf6 {[%emt 0:00:00]} 2. Nf3 {[%emt 0:00:00]} g6 {
+[%emt 0:00:00]} 3. e3 {[%emt 0:00:00]} Bg7 {[%emt 0:00:00]} 4. Be2 {[%emt 0:00:
+00]} O-O {[%emt 0:00:00]} 5. O-O {[%emt 0:00:00]} d5 {[%emt 0:00:00]} 6. b4 {
+[%emt 0:00:00]} a5 {[%emt 0:00:00]} 7. b5 {[%emt 0:00:00]} c5 {[%emt 0:00:00]}
+8. bxc6 {[%emt 0:00:00]} bxc6 {[%emt 0:00:00]} 9. c4 {[%emt 0:00:00]} c5 {
+[%emt 0:00:00]} 10. Bb2 {[%emt 0:00:00]} Ne4 {[%emt 0:00:00]} 11. cxd5 {
+[%emt 0:00:00]} Qxd5 {[%emt 0:00:00]} 12. Nc3 {[%emt 0:00:00]} Nxc3 {[%emt 0:
+00:00]} 13. Bxc3 {[%emt 0:00:00]} Nc6 {[%emt 0:00:00]} 14. Qb3 {[%emt 0:00:00]}
+Qxb3 {[%emt 0:00:00]} 1/2-1/2
+
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.03.26"]
+[Round "?"]
+[White "Guerra Mendez, Jose Angel"]
+[Black "Valle Maytin, Luis Enrique"]
+[Result "1/2-1/2"]
+[ECO "B15"]
+[PlyCount "102"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Nxf6+ exf6 6. Bc4 Bd6 7. Qe2+ Qe7
+8. Qxe7+ Kxe7 9. Ne2 Na6 10. Bxa6 bxa6 11. Bf4 Bb4+ 12. Bd2 Bd6 13. c4 Be6 14.
+b3 Rhd8 15. Ba5 Rd7 16. Rd1 Ke8 17. f3 h5 18. Kf2 Rc8 19. g3 Re7 20. Rhe1 f5
+21. f4 f6 22. Nc3 Bd7 23. h4 Rxe1 24. Rxe1+ Kf7 25. Na4 Re8 26. Rxe8 Kxe8 27.
+Nc5 Bc8 28. Nd3 Bb7 29. Bb4 Bb8 30. Ke3 Kf7 31. Nc5 Bc8 32. d5 cxd5 33. cxd5 g5
+34. Nd3 Bc7 35. Bc5 gxh4 36. gxh4 Bb7 37. Kd4 Bb8 38. Bb4 Bc7 39. Bc5 Bb8 40.
+a4 Ke8 41. Bb4 Bc7 42. d6 Bb8 43. Nb2 Kd7 44. Nc4 Be4 45. Bc5 Kc6 46. b4 Kd7
+47. a5 Ke6 48. Kc3 Bc6 49. Kd4 Be4 50. Nd2 Bg2 51. Nc4 Be4 1/2-1/2
+
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.04.02"]
+[Round "11.1"]
+[White "Valle Maytin, Luis Enrique"]
+[Black "Guerra Mendez, Jose Angel"]
+[Result "0-1"]
+[WhiteElo "2361"]
+[BlackElo "2521"]
+[PlyCount "70"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+[TimeControl "90+30"]
+
+1. d4 {[%emt 0:00:00]} g6 {[%emt 0:00:00]} 2. Nf3 {[%emt 0:00:00]} Bg7 {
+[%emt 0:00:00]} 3. e3 {[%emt 0:00:00]} d6 {[%emt 0:00:00]} 4. Be2 {[%emt 0:00:
+00]} Nd7 {[%emt 0:00:00]} 5. O-O {[%emt 0:00:00]} Ngf6 {[%emt 0:00:00]} 6. b3 {
+[%emt 0:00:00]} O-O {[%emt 0:00:00]} 7. Bb2 {[%emt 0:00:00]} b6 {[%emt 0:00:00]
+} 8. c4 {[%emt 0:00:00]} Bb7 {[%emt 0:00:00]} 9. Nc3 {[%emt 0:00:00]} Ne4 {
+[%emt 0:00:00]} 10. Qc2 {[%emt 0:00:00]} Ndf6 {[%emt 0:00:00]} 11. Nd2 {
+[%emt 0:00:00]} Nxd2 {[%emt 0:00:00]} 12. Qxd2 {[%emt 0:00:00]} Ne4 {[%emt 0:
+00:00]} 13. Nxe4 {[%emt 0:00:00]} Bxe4 {[%emt 0:00:00]} 14. d5 {[%emt 0:00:00]}
+Bxb2 {[%emt 0:00:00]} 15. Qxb2 {[%emt 0:00:00]} e5 {[%emt 0:00:00]} 16. Qd2 {
+[%emt 0:00:00]} a5 {[%emt 0:00:00]} 17. Bd3 {[%emt 0:00:00]} Bxd3 {[%emt 0:00:
+00]} 18. Qxd3 {[%emt 0:00:00]} f5 {[%emt 0:00:00]} 19. f4 {[%emt 0:00:00]} Qf6
+{[%emt 0:00:00]} 20. Qc3 {[%emt 0:00:00]} Rae8 {[%emt 0:00:00]} 21. Rae1 {
+[%emt 0:00:00]} Qg7 {[%emt 0:00:00]} 22. a3 {[%emt 0:00:00]} Rf7 {[%emt 0:00:
+00]} 23. Rf3 {[%emt 0:00:00]} Rfe7 {[%emt 0:00:00]} 24. Kf2 {[%emt 0:05:25]}
+Qf6 {[%emt 0:00:00]} 25. Kg1 {[%emt 0:03:22]} Kg7 {[%emt 0:00:00]} 26. fxe5 {
+[%emt 0:01:41]} Rxe5 {[%emt 0:00:00]} 27. a4 {[%emt 0:01:23]} h5 {[%emt 0:00:
+00]} 28. Ref1 {[%emt 0:01:21]} Kf7 {[%emt 0:00:00]} 29. Qd4 {[%emt 0:01:13]}
+Qg5 {[%emt 0:07:01]} 30. Rg3 {[%emt 0:00:15]} Qh6 {[%emt 0:00:24]} 31. Qf4 {
+[%emt 0:01:12]} Qxf4 {[%emt 0:02:07]} 32. exf4 {[%emt 0:00:04]} Re2 {[%emt 0:
+00:05]} 33. Rf2 {[%emt 0:01:43]} R2e4 {[%emt 0:00:18]} 34. h4 {[%emt 0:00:25]}
+Rd4 {[%emt 0:01:28]} 35. Rgf3 {[%emt 0:00:33]} Ree4 {[%emt 0:00:17]} 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2018.01.20"]
+[Round "1.2"]
+[White "Valle Martin, Luis Enrique"]
+[Black "Garriga Cazorla, Pere"]
+[Result "1/2-1/2"]
+[ECO "D37"]
+[WhiteElo "2363"]
+[BlackElo "2469"]
+[PlyCount "69"]
+[EventDate "2017.??.??"]
+[WhiteTeam "GER"]
+[BlackTeam "MLL"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 d5 4. Nc3 a6 5. cxd5 exd5 6. Bg5 Be6 7. e3 Nbd7 8.
+Rc1 Bd6 9. Bd3 c6 10. O-O O-O 11. Qc2 Qb8 12. Bh4 Bg4 13. Bg3 a5 14. Ng5 h6 15.
+Nh7 Bxg3 16. hxg3 Re8 17. Nxf6+ Nxf6 18. a3 Qd6 19. Na4 h5 20. Qc5 Qe6 21. Nb6
+Nd7 22. Nxd7 Qxd7 23. b4 axb4 24. axb4 Ra3 25. Bb1 Rea8 26. Rc3 Rxc3 27. Qxc3
+g6 28. Bd3 Bf5 29. Rb1 Ra2 30. b5 Bxd3 31. Qxd3 Qe7 32. Qb3 Ra3 33. Qc2 Qf6 34.
+Qb2 Ra8 35. bxc6 1/2-1/2

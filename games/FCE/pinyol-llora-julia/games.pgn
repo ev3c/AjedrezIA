@@ -1,0 +1,696 @@
+[Event "Lliga Catalana DH"]
+[Site "Mollet del Valles, Spain"]
+[Date "2023.01.21"]
+[Round "1.10"]
+[White "Pinyol Llora, Julia"]
+[Black "Lambert Pont, James"]
+[Result "1-0"]
+[ECO "E01"]
+[WhiteElo "2094"]
+[BlackElo "1750"]
+[PlyCount "128"]
+[EventDate "2023.??.??"]
+[SourceDate "2023.01.21"]
+[TimeControl "90+30"]
+[WhiteClock "0:18:46"]
+[BlackClock "0:01:14"]
+
+1. d4 {[%emt 0:09:07]} d5 {[%emt 0:00:16]} 2. c4 {[%emt 0:00:09]} e6 {[%emt 0:
+00:12]} 3. Nf3 {[%emt 0:00:05]} Nf6 {[%emt 0:00:08]} 4. g3 {[%emt 0:00:04]} c6
+{[%emt 0:00:32]} 5. Bg2 {[%emt 0:00:43]} Bd6 {[%emt 0:00:51]} 6. O-O {[%emt 0:
+00:17]} O-O {[%emt 0:00:26]} 7. Qc2 {[%emt 0:01:20]} h6 {[%emt 0:01:39]} 8.
+Nbd2 {[%emt 0:01:42]} Re8 {[%emt 0:02:04]} 9. e4 {[%emt 0:01:49]} dxe4 {[%emt
+0:07:57]} 10. Nxe4 {[%emt 0:00:14]} Nxe4 {[%emt 0:01:30]} 11. Qxe4 {[%emt 0:00:
+20]} Nd7 {[%emt 0:00:19]} 12. Bf4 {[%emt 0:08:28]} Nf6 {[%emt 0:21:29]} 13. Qe3
+{[%emt 0:03:06]} Bxf4 {[%emt 0:05:46]} 14. Qxf4 {[%emt 0:00:57]} Qb6 {[%emt 0:
+01:36]} 15. b3 {[%emt 0:04:15]} c5 {[%emt 0:05:16]} 16. dxc5 {[%emt 0:04:48]}
+Qxc5 {[%emt 0:00:20]} 17. Ne5 {[%emt 0:02:23]} Re7 {[%emt 0:05:33]} 18. Rad1 {
+[%emt 0:03:13]} Qb6 {[%emt 0:00:38]} 19. Qd4 {[%emt 0:06:41]} Nd7 {[%emt 0:05:
+37]} 20. Nxd7 {[%emt 0:09:04]} Rxd7 {[%emt 0:00:09]} 21. Qxb6 {[%emt 0:04:40]}
+axb6 {[%emt 0:00:18]} 22. a4 {[%emt 0:00:16]} Rxd1 {[%emt 0:02:33]} 23. Rxd1 {
+[%emt 0:00:01]} Kf8 {[%emt 0:00:01]} 24. Rd6 {[%emt 0:01:12]} Ke7 {[%emt 0:03:
+13]} 25. Rxb6 {[%emt 0:01:25]} Kd8 {[%emt 0:00:39]} 26. c5 {[%emt 0:04:26]} Kc7
+{[%emt 0:01:23]} 27. f4 {[%emt 0:03:22]} Ra5 {[%emt 0:05:10]} 28. Rb5 {[%emt 0:
+00:04]} Rxb5 {[%emt 0:00:13]} 29. axb5 {[%emt 0:00:06]} b6 {[%emt 0:00:11]} 30.
+b4 {[%emt 0:00:31]} Bd7 {[%emt 0:02:21]} 31. Bf1 {[%emt 0:00:13]} Be8 {[%emt 0:
+06:17]} 32. Kf2 {[%emt 0:01:39]} Bd7 {[%emt 0:00:51]} 33. Ke3 {[%emt 0:01:05]}
+Bc8 {[%emt 0:00:31]} 34. Kd4 {[%emt 0:09:00]} Bb7 {[%emt 0:01:20]} 35. Ke5 {
+[%emt 0:01:10]} Bd5 {[%emt 0:08:51]} 36. cxb6+ {[%emt 0:04:10]} Kxb6 {[%emt 0:
+00:01]} 37. Kd6 {[%emt 0:00:06]} g5 {[%emt 0:02:17]} 38. f5 {[%emt 0:00:36]} g4
+{[%emt 0:03:39]} 39. Ke5 {[%emt 0:03:46]} Bb3 {[%emt 0:06:29]} 40. Bd3 {[%emt
+0:01:51]} exf5 {[%emt 0:01:48]} 41. Kxf5 {[%emt 0:00:08]} Be6+ {[%emt 0:00:29]}
+42. Kf6 {[%emt 0:00:21]} Kc7 {[%emt 0:00:31]} 43. Kg7 {[%emt 0:00:42]} h5 {
+[%emt 0:00:01]} 44. Kh6 {[%emt 0:00:05]} Bd5 {[%emt 0:00:58]} 45. Kxh5 {[%emt
+0:00:45]} Bf3 {[%emt 0:00:12]} 46. Kg5 {[%emt 0:01:57]} Kb6 {[%emt 0:00:33]}
+47. Bc4 {[%emt 0:00:47]} Bd1 {[%emt 0:00:36]} 48. Kf6 {[%emt 0:00:14]} Bf3 {
+[%emt 0:00:05]} 49. Kxf7 {[%emt 0:00:41]} Kc7 {[%emt 0:00:46]} 50. Kf6 {[%emt
+0:01:52]} Kd6 {[%emt 0:00:37]} 51. Bf7 {[%emt 0:01:25]} Be2 {[%emt 0:00:25]}
+52. Be8 {[%emt 0:00:19]} Kc7 {[%emt 0:00:35]} 53. Kg5 {[%emt 0:00:58]} Kb6 {
+[%emt 0:00:30]} 54. Bd7 {[%emt 0:00:08]} Kc7 {[%emt 0:00:24]} 55. Bxg4 {[%emt
+0:00:13]} Bxb5 {[%emt 0:00:05]} 56. h4 {[%emt 0:00:27]} Kd8 {[%emt 0:00:30]}
+57. Kf6 {[%emt 0:00:16]} Ke8 {[%emt 0:00:49]} 58. Kg7 {[%emt 0:00:08]} Ke7 {
+[%emt 0:00:36]} 59. h5 {[%emt 0:00:16]} Kd6 {[%emt 0:00:30]} 60. Bf5 {[%emt 0:
+00:13]} Ke5 {[%emt 0:00:20]} 61. Bb1 {[%emt 0:00:14]} Kd4 {[%emt 0:00:39]} 62.
+h6 {[%emt 0:00:05]} Kc4 {[%emt 0:00:01]} 63. h7 {[%emt 0:00:10]} Kb3 {[%emt 0:
+00:15]} 64. h8=Q {[%emt 0:00:13]} Ka3 {[%emt 0:00:30]} 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.01.28"]
+[Round "2.10"]
+[White "Sanchez Lopez, Juan Manuel"]
+[Black "Pinyol Llora, Julia"]
+[Result "1-0"]
+[ECO "E54"]
+[WhiteElo "2002"]
+[BlackElo "1888"]
+[PlyCount "131"]
+[EventDate "2023.??.??"]
+[SourceDate "2023.01.29"]
+
+1. c4 c6 2. e4 d5 3. cxd5 cxd5 4. exd5 Qxd5 5. Nc3 Qd8 6. d4 Nf6 7. Bc4 e6 8.
+Nf3 Be7 9. O-O O-O 10. Re1 Nbd7 11. Bg5 Nb6 12. Bd3 Nbd5 13. Rc1 b6 14. Bb1 Bb7
+15. Ne5 Rc8 16. Qd3 g6 17. Bh6 Re8 18. Qh3 Bf8 19. Bg5 Nxc3 20. bxc3 Bg7 21.
+Ng4 h5 22. Ne5 Qd5 23. Bxf6 Bxf6 24. Be4 Qxe4 25. Rxe4 Bxe4 26. Qe3 Bd5 27. c4
+Bxe5 28. cxd5 Bxd4 29. Rxc8 Rxc8 30. Qd2 exd5 31. g4 Bc3 32. Qxd5 hxg4 33. Qd7
+Rc4 34. Qxa7 Bd4 35. Qa8+ Kg7 36. Qd5 Rc1+ 37. Kg2 Bc5 38. Qd2 Rc4 39. Qe2 Ra4
+40. h3 gxh3+ 41. Kxh3 Rd4 42. Qe5+ Kh7 43. f3 Kg8 44. a4 Rc4 45. Qe2 Rf4 46.
+Qe8+ Kh7 47. Qc6 Be3 48. Kg3 Rf5 49. Kg2 Bd4 50. Kf1 Bc5 51. Ke2 Kg7 52. Kd3
+Kh7 53. Ke4 Kg7 54. Qc7 Bg1 55. Qg3 Bc5 56. Qh2 Bb4 57. Qb2+ Kh7 58. Qxb4 Ra5
+59. Kd3 Rf5 60. Qxb6 Rxf3+ 61. Ke4 Rf1 62. a5 f5+ 63. Ke5 f4 64. Kf6 Kh6 65.
+Qe6 Rh1 66. Qg4 1-0
+
+[Event "Lliga catalana DH"]
+[Site "?"]
+[Date "2023.02.04"]
+[Round "3.10"]
+[White "Pinyol Llora, Julia"]
+[Black "Gonzalez Cobos, Arnau"]
+[Result "1/2-1/2"]
+[ECO "E05"]
+[WhiteElo "2094"]
+[BlackElo "2217"]
+[PlyCount "83"]
+[EventDate "2023.??.??"]
+[WhiteTeam "Colon Sabadell"]
+[BlackTeam "Cerdanyola Valles"]
+
+1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 a6 8. a4
+Bd7 9. Qxc4 Bc6 10. Bf4 Bd6 11. Qc1 a5 12. Nc3 Na6 13. Ne5 Bxg2 14. Kxg2 c6 15.
+Rd1 Nb4 16. e4 Qc7 17. Nd3 Bxf4 18. Nxf4 e5 19. Nfe2 exd4 20. Nxd4 Qe5 21. f3
+Rfd8 22. Nf5 h6 23. Qb1 Qc7 24. Nd4 Rd7 25. Nf5 Rad8 26. Rxd7 Qxd7 27. Qd1 Qd2+
+28. Kg1 Rd3 29. Qxd2 Rxd2 30. Rb1 Kh7 31. Ne3 Rd3 32. Kf2 Rd2+ 33. Kg1 Rd4 34.
+Rd1 Rxd1+ 35. Nexd1 Nd7 36. Ne3 Nd3 37. Nc4 b6 38. Kf1 N3e5 39. Nxe5 Nxe5 40.
+Ke2 g5 41. f4 Nd7 42. Ke3 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.02.11"]
+[Round "4.10"]
+[White "Vall de Vilamaro, Jordi"]
+[Black "Pinyol Llora, Julia"]
+[Result "1/2-1/2"]
+[ECO "D45"]
+[WhiteElo "2156"]
+[BlackElo "2094"]
+[PlyCount "72"]
+[EventDate "2023.??.??"]
+
+1. c4 c6 2. Nf3 d5 3. e3 Nf6 4. Nc3 e6 5. Qc2 Bd6 6. d4 O-O 7. e4 dxe4 8. Nxe4
+Nxe4 9. Qxe4 Nd7 10. Bd3 Nf6 11. Qe2 h6 12. Bd2 c5 13. dxc5 Bxc5 14. b4 Be7 15.
+O-O b6 16. Ne5 Bb7 17. Bc3 Qc7 18. Rac1 a5 19. a3 axb4 20. axb4 Ra3 21. Qb2
+Rfa8 22. Bb1 Ne4 23. Bd4 R3a4 24. Nd3 Bf6 25. c5 b5 26. c6 Bxc6 27. Bxf6 gxf6
+28. Nc5 Nxc5 29. Rxc5 f5 30. Qc1 Rc8 31. Qxh6 Rxb4 32. Qg5+ Kf8 33. Rfc1 Qd6
+34. Qh6+ Kg8 35. Qg5+ Kf8 36. Qh6+ Kg8 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.02.25"]
+[Round "6.9"]
+[White "Colls Gelaberto, Emili"]
+[Black "Pinyol Llora, Julia"]
+[Result "1/2-1/2"]
+[ECO "E06"]
+[WhiteElo "2052"]
+[BlackElo "1916"]
+[PlyCount "146"]
+[EventDate "2023.??.??"]
+
+1. d4 d5 2. c4 e6 3. Nf3 c6 4. g3 Nf6 5. Bg2 Be7 6. O-O O-O 7. Qc2 b6 8. Nbd2
+Bb7 9. e4 dxc4 10. e5 Nd5 11. Nxc4 Nd7 12. a3 Rc8 13. b4 c5 14. dxc5 bxc5 15.
+b5 a6 16. a4 axb5 17. axb5 N7b6 18. Na5 Ba8 19. Bd2 Qd7 20. Qb1 h6 21. Rd1 Rc7
+22. Ne1 Rfc8 23. Nc2 Qe8 24. Rc1 Rb8 25. Na3 Rcc8 26. Bf1 Nc7 27. N5c4 Nxc4 28.
+Bxc4 Nd5 29. Bf1 h5 30. Ra2 Qd7 31. Rb2 Nb4 32. Be2 Qd5 33. f3 Qxe5 34. Kf1 Bg5
+35. Nc4 Qd5 36. Ne3 Qb7 37. Kf2 Bf6 38. Rb3 Nd5 39. Nc4 Bd4+ 40. Kg2 Rd8 41.
+Na5 Qd7 42. Bg5 Re8 43. Nc6 Bxc6 44. bxc6 Qc7 45. Bb5 Rb6 46. Bd2 Ra8 47. Qd3
+Ne7 48. Be3 e5 49. Rxc5 Bxc5 50. Bxc5 Ra2+ 51. Kg1 Nxc6 52. Rc3 Nd8 53. Bf2 Qd6
+54. Qc4 Rb8 55. Qxa2 Rxb5 56. Qa4 Rb1+ 57. Kg2 Qe6 58. Qa8 Rd1 59. Rc8 Qd6 60.
+Qb8 Qxb8 61. Rxb8 Kh7 62. h4 Ne6 63. Rb2 Rd3 64. Re2 Rd5 65. Be3 Kg6 66. g4 Nd4
+67. Rd2 Rd8 68. Kg3 Ne6 69. Ra2 Rd3 70. Kf2 Rb3 71. Rd2 Rb4 72. Kg3 Rb3 73. Kf2
+Rb4 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.03.18"]
+[Round "9.10"]
+[White "De la Plaza Gras, Jordi"]
+[Black "Pinyol Llora, Julia"]
+[Result "1-0"]
+[ECO "D02"]
+[WhiteElo "2186"]
+[BlackElo "2094"]
+[PlyCount "105"]
+[EventDate "2023.??.??"]
+
+1. d4 d5 2. Bf4 Nf6 3. e3 e6 4. Nf3 Bd6 5. Nbd2 O-O 6. Bd3 c5 7. c3 Nc6 8. Ne5
+Qc7 9. Ndf3 Ne4 10. Qc2 f5 11. Nxc6 Bxf4 12. exf4 bxc6 13. Ne5 cxd4 14. cxd4
+Qa5+ 15. Ke2 Qb6 16. Bxe4 fxe4 17. Ke3 Ba6 18. b3 Rac8 19. Qc5 Qb5 20. Qxb5
+cxb5 21. Rac1 Rxc1 22. Rxc1 Rc8 23. Nc6 Rc7 24. Rc5 g6 25. g4 Kg7 26. Nd8 Rxc5
+27. Nxe6+ Kf6 28. Nxc5 Bc8 29. h3 h6 30. b4 h5 31. f3 exf3 32. Kxf3 a6 33. a3
+Ke7 34. Kg3 hxg4 35. hxg4 Kf6 36. Kh4 Kf7 37. Kg5 Kg7 38. f5 gxf5 39. gxf5 Kf7
+40. f6 Kf8 41. Kf4 Ke8 42. Ke5 Kf7 43. Nd3 Bg4 44. Nf4 Bf3 45. Nxd5 Bg2 46. Ne3
+Bb7 47. d5 Bc8 48. Nf5 Bd7 49. Nh6+ Kf8 50. Kd6 Bh3 51. Kc7 Ke8 52. f7+ Kf8 53.
+d6 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "https://lichess.org/study/jBG"]
+[Date "2023.03.11"]
+[Round "8.9"]
+[White "MATEU GUIU, ESTEVE."]
+[Black "PINYOL LLORA, JULIA."]
+[Result "1-0"]
+[ECO "D30"]
+[WhiteElo "2202"]
+[BlackElo "2094"]
+[PlyCount "127"]
+[EventDate "2023.??.??"]
+
+1. d4 d5 2. c4 e6 3. Nf3 c6 4. g3 Nf6 5. Bg2 dxc4 6. Ne5 Be7 7. O-O O-O 8. Nxc4
+b5 9. Ne5 Bb7 10. Nc3 Qb6 11. Be3 Nd5 12. Nxd5 cxd5 13. Rc1 Rd8 14. Qc2 Nd7 15.
+Nc6 Bxc6 16. Qxc6 Rac8 17. Qxc8 Rxc8 18. Rxc8+ Nf8 19. Rfc1 Qa5 20. Re8 Qb4 21.
+a3 Qd6 22. Bd2 Qd7 23. Rcc8 f6 24. Bb4 Bxb4 25. axb4 Kf7 26. Rxf8+ Kg6 27. Rc5
+Qb7 28. e3 Qa6 29. Bf1 Qa1 30. Rxb5 Qxb2 31. Rb7 Qb1 32. b5 h6 33. Rxa7 h5 34.
+Rg8 Kf5 35. Raxg7 Ke4 36. Rf7 f5 37. Re8 Kf3 38. Rxe6 Qc2 39. Bg2+ Ke2 40. Bf1+
+Ke1 41. Kg2 Qxf2+ 42. Kh3 Qxf1+ 43. Kh4 Qxb5 44. Rxf5 Qe2 45. h3 Qg2 46. Ree5
+Ke2 47. g4 hxg4 48. hxg4 Qh2+ 49. Kg5 Qh7 50. Rf6 Kd3 51. Ree6 Ke2 52. Kf4 Qh2+
+53. Kf5 Qh7+ 54. Rg6 Qh1 55. Kf6 Qh8+ 56. Ke7 Kd3 57. g5 Qb8 58. Rgf6 Qc7+ 59.
+Kf8 Qb8+ 60. Kf7 Qc7+ 61. Re7 Qh2 62. g6 Qh5 63. Re5 Qg4 64. g7 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.01.31"]
+[Round "3.8"]
+[White "Pinyol Llora, Julia"]
+[Black "Perez Ma�as, Benjamin"]
+[Result "0-1"]
+[ECO "A81"]
+[WhiteElo "2206"]
+[BlackElo "2315"]
+[PlyCount "82"]
+[SourceVersionDate "2026.02.02"]
+
+1. d4 f5 2. g3 Nf6 3. Bg2 g6 4. Nd2 Bg7 5. e4 fxe4 6. Nxe4 d5 7. Nc5 Nc6 8. Nf3
+b6 9. Nd3 O-O 10. c3 Ba6 11. O-O Ne4 12. Bf4 h6 13. h4 e6 14. Re1 g5 15. hxg5
+hxg5 16. Be3 Qf6 17. Nde5 Nxe5 18. dxe5 Qf5 19. Nd4 Qf7 20. Qg4 c5 21. Nf3 Bh6
+22. Nxg5 Nxg5 23. f4 Qf5 24. Qxf5 Rxf5 25. fxg5 Bxg5 26. Bh3 Rxe5 27. Bxe6+
+Rxe6 28. Bxg5 Re4 29. Rad1 Bd3 30. Rxe4 dxe4 31. Kf2 Re8 32. Ke3 Re5 33. Bf4
+Rh5 34. Rd2 Rh1 35. Bb8 Re1+ 36. Kf4 c4 37. Rh2 e3 38. Kg5 e2 39. Bf4 Rd1 40.
+Be5 e1=Q 41. Rh8+ Kf7 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "Cerdanyola del Valles"]
+[Date "2026.02.14"]
+[Round "5.8"]
+[White "Fernandez Aguilar, Francisco"]
+[Black "Pinyol Llora, Julia"]
+[Result "1/2-1/2"]
+[BlackElo "2106"]
+[PlyCount "143"]
+[EventDate "2026.??.??"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 c6 4. cxd5 cxd5 5. Nc3 Nc6 6. Bf4 Bf5 7. Qb3 Na5 8.
+Qa4+ Bd7 9. Qc2 Rc8 10. e3 e6 11. Bd3 Bb4 12. O-O Nh5 13. Bg3 Nxg3 14. fxg3 Nc4
+15. Bxc4 dxc4 16. Ne5 f6 17. Nxd7 Qxd7 18. Qa4 Qxa4 19. Nxa4 O-O 20. Nc3 Rcd8
+21. Rfd1 Rd6 22. a3 Bxc3 23. bxc3 Rfd8 24. Rdb1 Rb6 25. Rb4 Rxb4 26. axb4 a6
+27. e4 Rd6 28. g4 Kf7 29. Kf2 g5 30. Ra5 b5 31. Ra1 Kg6 32. Ke3 Kf7 33. Rf1 Kg6
+34. g3 Rd8 35. Rf2 Rd7 36. Rd2 Kf7 37. h4 h6 38. Rf2 Kg6 39. Ra2 Rd6 40. Ra1
+Kh7 41. Rh1 Kg7 42. Rh2 Rd7 43. Ra2 Rd6 44. Ra1 Kg6 45. Rf1 Rd7 46. Ke2 Kg7 47.
+Ra1 Rd6 48. Rd1 Kg6 49. Rf1 Rd7 50. Rh1 Kg7 51. Ke3 Rd8 52. Rh2 Rd7 53. hxg5
+hxg5 54. Rh5 e5 55. Rh1 Rd8 56. Ra1 Rd6 57. Ra2 Kg6 58. Rd2 Rd7 59. Rh2 Kg7 60.
+Ra2 Rd6 61. Rd2 Kg6 62. Rd1 Rd7 63. Ke2 Rd8 64. Kf2 Rd7 65. Ke3 Rd8 66. Rh1 Kg7
+67. Rh2 Rd7 68. Rd2 Kg6 69. Ra2 Rd6 70. d5 Kg7 71. Rh2 Rd7 72. Ra2 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.02.21"]
+[Round "6.7"]
+[White "Gonzalez Maza, Rafael"]
+[Black "Pinyol Llora, Julia"]
+[Result "0-1"]
+[ECO "D02"]
+[PlyCount "60"]
+[EventDate "2026.01.17"]
+
+1. d4 d5 2. Nf3 Nf6 3. Bf4 e6 4. e3 Bd6 5. Bg3 O-O 6. Nbd2 c5 7. c3 Qc7 8. Bxd6
+Qxd6 9. Ne5 b6 10. f4 Ba6 11. Bxa6 Nxa6 12. O-O Nb8 13. Qf3 Nc6 14. g4 Nd7 15.
+Rad1 f6 16. Nxd7 Qxd7 17. Qg3 Rae8 18. Nf3 Qc7 19. g5 Ne7 20. gxf6 Rxf6 21. Qe1
+Nf5 22. Rf2 Qf7 23. Kh1 Qh5 24. Kg1 Qh3 25. Ne5 Rh6 26. e4 Nd6 27. Rd3 Qh4 28.
+exd5 exd5 29. dxc5 Ne4 30. Rf1 Qxh2# 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.02.28"]
+[Round "7.8"]
+[White "Martin Barcelo, Carles"]
+[Black "Pinyol Llora, Julia"]
+[Result "0-1"]
+[ECO "C00"]
+[PlyCount "78"]
+[EventDate "2026.??.??"]
+
+1. e4 c5 2. Nf3 e6 3. g3 Nc6 4. Bg2 Nf6 5. d3 d5 6. Qe2 Be7 7. O-O O-O 8. e5
+Nd7 9. c4 a6 10. Rd1 b5 11. cxd5 exd5 12. d4 c4 13. Nc3 Nb6 14. a3 Bf5 15. Ne1
+Qd7 16. f4 f6 17. Be3 Rad8 18. Bf3 fxe5 19. dxe5 d4 20. Qg2 Qc8 21. Bxc6 dxe3
+22. Bb7 Qc5 23. Kh1 Kh8 24. Be4 Be6 25. Bf3 a5 26. Nc2 Rd3 27. Ne4 Qc7 28. Qe2
+Bc5 29. Nxc5 Qxc5 30. Rxd3 cxd3 31. Qxd3 Nc4 32. b3 Nxe5 33. fxe5 Rxf3 34. Rd1
+e2 35. Qxe2 Bd5 36. Rxd5 Qxd5 37. Kg1 Qd3 38. Qxd3 Rxd3 39. b4 Rd1+ 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "Terrassa"]
+[Date "2026.03.07"]
+[Round "8.9"]
+[White "Arus Blanch, Daniel"]
+[Black "Pinyol Llora, Julia"]
+[Result "1/2-1/2"]
+[ECO "B24"]
+[PlyCount "66"]
+[EventDate "2026.??.??"]
+[SourceDate "2026.03.10"]
+
+1. e4 c5 2. Nc3 e6 3. g3 Nc6 4. Bg2 Nf6 5. d3 Be7 6. f4 d5 7. e5 Ng8 8. Nf3 h5
+9. h4 Nh6 10. Bh3 b5 11. d4 b4 12. Ne2 Ba6 13. Be3 Qb6 14. Qd2 Na5 15. b3 c4
+16. O-O Ng4 17. Bxg4 hxg4 18. Nh2 c3 19. Qe1 f5 20. exf6 gxf6 21. f5 O-O-O 22.
+Qf2 Nb7 23. Rfe1 Bxe2 24. Rxe2 Nd6 25. fxe6 Ne4 26. Qg2 Qxe6 27. Bf4 f5 28. Re3
+Bd6 29. Qe2 Bxf4 30. Qf1 Qh6 31. Qe2 Qd6 32. Qf1 Qh6 33. Qb5 Qd6 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.04.11"]
+[Round "11.7"]
+[White "Pinyol Llora, Julia"]
+[Black "Dorca Dilme, Ramon"]
+[Result "1/2-1/2"]
+[ECO "A96"]
+[PlyCount "50"]
+[EventDate "2026.??.??"]
+
+1. d4 e6 2. c4 f5 3. g3 Nf6 4. Bg2 Be7 5. Nc3 d6 6. Nf3 O-O 7. O-O Nbd7 8. Qc2
+c6 9. e4 Nb6 10. e5 dxe5 11. dxe5 Ng4 12. h3 Nh6 13. Bxh6 gxh6 14. Ne2 Qe8 15.
+Nf4 Qf7 16. Nd4 Bd7 17. Bf3 Bc5 18. Rad1 Rad8 19. Nb3 Be7 20. Bh5 Qg7 21. Nd4
+Bc5 22. Nfxe6 Bxe6 23. Nxe6 Qxg3+ 24. Kh1 Qxh3+ 25. Kg1 Qg3+ 1/2-1/2
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.13"]
+[Round "1"]
+[White "Pinyol I Llora, Julia"]
+[Black "Minos Constante, Pablo"]
+[Result "0-1"]
+[ECO "B23"]
+[WhiteElo "1130"]
+[BlackElo "1742"]
+[PlyCount "66"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nc3 e6 3. Bc4 Nc6 4. f4 Nge7 5. e5 Nf5 6. Nf3 Be7 7. O-O O-O 8. d3
+a6 9. a4 b6 10. Bd2 Bb7 11. Qe2 Qc7 12. Rfe1 Ncd4 13. Nxd4 Nxd4 14. Qd1 Qc6 15.
+Re2 Nxe2+ 16. Qxe2 b5 17. Bb3 Rfd8 18. Qe4 Qxe4 19. Nxe4 Bxe4 20. dxe4 d6 21.
+exd6 Rxd6 22. Be3 Rad8 23. c3 c4 24. Bc2 Rc6 25. e5 Bc5 26. Bxc5 Rxc5 27. Kf2
+Rcd5 28. Ke3 Rd2 29. Be4 Rxb2 30. axb5 axb5 31. Ra5 g6 32. Bc6 Rd3+ 33. Ke4
+Re2# 0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.14"]
+[Round "2"]
+[White "Zubimendi Felip, Ricard"]
+[Black "Pinyol I Llora, Julia"]
+[Result "1-0"]
+[ECO "C65"]
+[WhiteElo "1625"]
+[BlackElo "1130"]
+[PlyCount "133"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Bc5 4. O-O Nf6 5. d3 d6 6. Bg5 Bg4 7. h3 Bd7 8. Nc3
+Nd4 9. Bxd7+ Qxd7 10. Nxd4 exd4 11. Ne2 O-O-O 12. f4 Rde8 13. Kh1 d5 14. e5 Ng8
+15. Bh4 Ne7 16. g4 h5 17. Bxe7 Rxe7 18. Rf3 hxg4 19. Rg3 Rxh3+ 20. Kg2 Rxg3+
+21. Nxg3 Re8 22. Qh1 Qb5 23. Qh5 Qxb2 24. Qxg4+ Kd8 25. Qd1 Ba3 26. Rb1 Qxa2
+27. Rxb7 a5 28. Rb8+ Ke7 29. Rb7 Bc5 30. Rxc7+ Kd8 31. Rxc5 a4 32. Qd2 a3 33.
+Qa5+ Ke7 34. Nf5+ Kf8 35. Nxd4 Qb2 36. Nb3 a2 37. Qc3 Qxc3 38. Rxc3 Ra8 39. Na1
+Ke7 40. f5 f6 41. d4 Ra7 42. Kf2 Ra5 43. Ke2 Rb5 44. Rb3 Ra5 45. Kd2 Kf7 46.
+Kc1 Ra4 47. c3 Rc4 48. Kb2 Ra4 49. Ra3 Rxa3 50. Kxa3 Ke7 51. Kxa2 Kf7 52. Nb3
+Ke7 53. Nc5 Kf7 54. Kb3 Ke7 55. Kb4 Kf7 56. Kb5 Ke7 57. Kc6 Kf7 58. e6+ Ke7 59.
+Kxd5 Kf8 60. Kc6 Ke7 61. d5 Kd8 62. Nb7+ Ke8 63. d6 Kf8 64. d7 Kg8 65. d8=Q+
+Kh7 66. e7 Kh6 67. Qh8+ 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.15"]
+[Round "3"]
+[White "Pinyol I Llora, Julia"]
+[Black "Bienvenido Kleque, Jose"]
+[Result "1/2-1/2"]
+[ECO "B10"]
+[WhiteElo "1130"]
+[BlackElo "1468"]
+[PlyCount "114"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c6 2. Ne2 d5 3. e5 Bf5 4. Ng3 Bg6 5. h4 h6 6. h5 Bh7 7. e6 Nf6 8. exf7+
+Kxf7 9. d4 e6 10. Bd3 Bxd3 11. Qxd3 Ke7 12. Bd2 Kd7 13. Qg6 Qe8 14. Qd3 Na6 15.
+Qb3 Rb8 16. Bf4 Bd6 17. Be5 Bxe5 18. dxe5 Ng8 19. O-O Qe7 20. Re1 Kc7 21. Nc3
+Qb4 22. Qxb4 Nxb4 23. Rec1 Ne7 24. a3 Na6 25. b4 b5 26. Nge2 Kd7 27. Nf4 Nc7
+28. Rd1 Rhf8 29. g3 Kc8 30. Rab1 a6 31. a4 Rf5 32. Re1 Rf8 33. Kg2 Kd7 34. a5
+Kc8 35. Rbd1 Kb7 36. Nce2 Kc8 37. Nd4 Kd7 38. Nb3 Ke8 39. Nc5 Kf7 40. Nd7 Rbd8
+41. Nxf8 Rxf8 42. Nd3 Ke8 43. Nc5 Rf5 44. g4 Rf4 45. Nd3 Rf7 46. Re3 Rf8 47.
+Rf3 Rg8 48. Nc5 g6 49. Kh3 gxh5 50. gxh5 Rg5 51. Kh4 Nf5+ 52. Kh3 Rxh5+ 53. Kg4
+Rg5+ 54. Kf4 Kf7 55. Rh1 Rg2 56. Nd7 Ne8 57. Nc5 Nc7 1/2-1/2
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.16"]
+[Round "4"]
+[White "Riera Mestres, Josep"]
+[Black "Pinyol I Llora, Julia"]
+[Result "1-0"]
+[ECO "D02"]
+[WhiteElo "1579"]
+[BlackElo "1130"]
+[PlyCount "75"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Bf4 e6 3. e3 Nf6 4. Nf3 Be7 5. h3 O-O 6. c3 b6 7. Bd3 Bb7 8. O-O c5
+9. Nbd2 Nc6 10. Bh2 Rc8 11. a3 a5 12. b3 Qd7 13. Bb5 Qd8 14. Qe2 Ne4 15. Nxe4
+dxe4 16. Nd2 Na7 17. Ba4 Ra8 18. b4 Nc8 19. Rfd1 axb4 20. axb4 Nd6 21. bxc5
+bxc5 22. dxc5 Nf5 23. Nxe4 Qc8 24. Bd7 Qd8 25. c6 Rxa1 26. Rxa1 Bc8 27. Ra8 Qb6
+28. Rb8 Qa5 29. Rxc8 Qa1+ 30. Qf1 Qa4 31. Rxf8+ Kxf8 32. Qb1 Bd8 33. Nc5 Qa7
+34. Ne4 Bc7 35. Bxc7 Qxc7 36. Qb7 Qa5 37. Qb8+ Ke7 38. Qe8# 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.17"]
+[Round "5"]
+[White "Pinyol I Llora, Julia"]
+[Black "Minko, Uliana"]
+[Result "0-1"]
+[ECO "C02"]
+[WhiteElo "1130"]
+[BlackElo "1293"]
+[PlyCount "108"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Qb6 5. Nf3 Bd7 6. Be2 Bb5 7. O-O Bxe2 8. Qxe2
+Ne7 9. a3 Nf5 10. Qd1 Nc6 11. dxc5 Bxc5 12. b4 Be7 13. Bb2 a5 14. Nbd2 O-O 15.
+Nb3 a4 16. Nbd4 Nfxd4 17. cxd4 f6 18. Qd3 fxe5 19. b5 e4 20. Qd2 exf3 21. bxc6
+fxg2 22. Kxg2 bxc6 23. Kh1 Rf5 24. Rg1 Rh5 25. Rg2 Qc7 26. Rag1 Bf6 27. Qe3 Qd6
+28. Qf3 Rf5 29. Qh3 Rb8 30. f3 Qf4 31. Rg4 Qxf3+ 32. Qxf3 Rxf3 33. R4g2 c5 34.
+Bc1 Bxd4 35. Bh6 Rf7 36. Re1 e5 37. h4 Kh8 38. Bg5 Rb3 39. Bc1 c4 40. Rc2 Rf5
+41. Kh2 h5 42. Kh1 e4 43. Kh2 Be5+ 44. Kg2 Rg3+ 45. Kh1 Rh3+ 46. Kg1 Bd4+ 47.
+Kg2 Rxh4 48. Kg3 Rg4+ 49. Kh3 Rf3+ 50. Kh2 Be5+ 51. Kh1 Rh3+ 52. Rh2 Bxh2 53.
+Re2 Be5+ 54. Rh2 Rxh2# 0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.18"]
+[Round "6"]
+[White "Alabart Paytubi, Josep"]
+[Black "Pinyol I Llora, Julia"]
+[Result "1/2-1/2"]
+[ECO "A04"]
+[WhiteElo "1347"]
+[BlackElo "1130"]
+[PlyCount "79"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. Nf3 b6 2. b3 Bb7 3. Bb2 d6 4. c4 e5 5. d3 g6 6. e4 Bg7 7. g3 Nf6 8. Bg2 O-O
+9. O-O Nc6 10. a3 a5 11. Re1 Qd7 12. Nbd2 Rad8 13. Nf1 Rfe8 14. Ne3 Ra8 15. Nd5
+Nxd5 16. cxd5 Nd4 17. Ng5 Qe7 18. Nh3 Rad8 19. Bc1 h6 20. Rb1 b5 21. Be3 c5 22.
+Qc1 Rb8 23. Bxh6 Bc8 24. Bxg7 Bxh3 25. Qh6 f6 26. Qxg6 Qxg7 27. Qxg7+ Kxg7 28.
+Bxh3 Nf3+ 29. Kg2 Nxe1+ 30. Rxe1 a4 31. bxa4 bxa4 32. Bd7 Red8 33. Bxa4 Ra8 34.
+Bb5 Rxa3 35. Bc4 Rb8 36. h4 Rb4 37. Kh3 Kh6 38. Kg4 Rb2 39. Rf1 Rc3 40. f4
+1/2-1/2
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.21"]
+[Round "9"]
+[White "Pinyol I Llora, Julia"]
+[Black "Climent Vidal, Pere"]
+[Result "1-0"]
+[ECO "C02"]
+[WhiteElo "1130"]
+[BlackElo "1530"]
+[PlyCount "90"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Qb6 5. Nf3 Nc6 6. a3 Nge7 7. b4 c4 8. Be2 Ng6
+9. O-O Be7 10. Qc2 Bd7 11. Bg5 Qd8 12. Bxe7 Ncxe7 13. Nbd2 O-O 14. Rfe1 a5 15.
+Nf1 a4 16. Ng3 Nf5 17. Nxf5 exf5 18. Rab1 b5 19. Qd2 Be6 20. Qg5 Qe8 21. Bd1 h6
+22. Qg3 Qe7 23. h3 f4 24. Qh2 Rae8 25. h4 Bg4 26. h5 Bxf3 27. Bxf3 Nh4 28. Qxf4
+Nxf3+ 29. Qxf3 Qd8 30. Qf5 Re6 31. Re3 Qe7 32. Rg3 g5 33. Re1 Kh8 34. f4 Rg8
+35. Ree3 Qe8 36. fxg5 hxg5 37. Rxg5 Qf8 38. Reg3 Rxg5 39. Rxg5 Qh6 40. Qg4 Re8
+41. Qd7 Rf8 42. Rf5 Qh7 43. g4 Rg8 44. Rxf7 Qb1+ 45. Rf1 Rf8 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "Cerdanyola Valles, Spain"]
+[Date "2023.03.04"]
+[Round "7.10"]
+[White "Alvarez Serra, Jordi"]
+[Black "Pinyol i Llora, Julia"]
+[Result "0-1"]
+[TimeControl "90+30"]
+[WhiteElo "1850"]
+[BlackElo "1916"]
+
+1. Nf3 {[%clk 01:30:56]} {[%emt 00:00:03]} d5 {[%clk 01:26:19]} {[%emt
+00:04:41]} 2. b3 {[%clk 01:30:54]} {[%emt 00:00:32]} Nf6 {[%clk 01:26:20]}
+{[%emt 00:00:30]} 3. Bb2 {[%clk 01:30:59]} {[%emt 00:00:25]} Bf5 {[%clk
+01:26:32]} {[%emt 00:00:17]} 4. d3 {[%clk 01:29:29]} {[%emt 00:01:59]} e6
+{[%clk 01:25:11]} {[%emt 00:01:52]} 5. Nbd2 {[%clk 01:29:32]} {[%emt 00:00:27]}
+h6 {[%clk 01:24:17]} {[%emt 00:01:24]} 6. c4 {[%clk 01:29:12]} {[%emt
+00:00:49]} Be7 {[%clk 01:21:07]} {[%emt 00:03:41]} 7. g3 {[%clk 01:25:58]}
+{[%emt 00:03:44]} O-O {[%clk 01:20:12]} {[%emt 00:01:25]} 8. Bg2 {[%clk
+01:25:46]} {[%emt 00:00:42]} c5 {[%clk 01:16:36]} {[%emt 00:04:04]} 9. O-O
+{[%clk 01:23:14]} {[%emt 00:03:04]} Nc6 {[%clk 01:15:37]} {[%emt 00:01:28]} 10.
+cxd5 {[%clk 01:21:40]} {[%emt 00:02:04]} exd5 {[%clk 01:16:01]} {[%emt
+00:00:07]} 11. d4 {[%clk 01:19:35]} {[%emt 00:02:35]} Ne4 {[%clk 01:11:27]}
+{[%emt 00:05:03]} 12. e3 {[%clk 01:01:21]} {[%emt 00:18:44]} Bf6 {[%emt
+00:08:46]} 13. Ne5 {[%emt 00:05:44]} Bxe5 {[%clk 01:04:02]} {[%emt 00:00:22]}
+14. dxe5 {[%emt 00:01:55]} Nb4 {[%emt 00:05:09]} 15. Nxe4 {[%emt 00:02:22]}
+dxe4 {[%emt 00:03:27]} 16. Qh5 {[%clk 00:44:10]} {[%emt 00:03:22]} Bg6 {[%clk
+01:00:41]} {[%emt 00:01:19]} 17. Qg4 {[%emt 00:02:43]} Qg5 {[%emt 00:06:37]} 18.
+Qxg5 {[%clk 00:41:08]} {[%emt 00:01:22]} hxg5 {[%emt 00:00:21]} 19. Rfd1 {[%clk
+00:40:42]} {[%emt 00:00:40]} Nd3 {[%emt 00:01:39]} 20. Bc3 {[%emt 00:04:14]}
+Rfe8 {[%emt 00:01:00]} 21. f4 {[%emt 00:02:07]} exf3 {[%clk 00:51:50]} {[%emt
+00:00:28]} 22. Bxf3 {[%clk 00:37:06]} {[%emt 00:00:14]} Rab8 {[%emt 00:05:14]}
+23. Rxd3 {[%clk 00:33:48]} {[%emt 00:00:02]} Bxd3 {[%clk 00:50:49]} {[%emt
+00:00:32]} 24. Bd5 {[%emt 00:02:54]} Bf5 {[%emt 00:02:11]} 25. e4 {[%emt
+00:04:21]} Be6 {[%clk 00:47:38]} {[%emt 00:00:17]} 26. Kf2 {[%clk 00:29:20]}
+{[%emt 00:00:28]} f5 {[%clk 00:38:02]} {[%emt 00:10:05]} 27. Bxe6+ {[%emt
+00:02:03]} Rxe6 {[%clk 00:37:24]} {[%emt 00:01:01]} 28. exf5 {[%clk 00:28:14]}
+{[%emt 00:00:11]} Rh6 {[%emt 00:04:10]} 29. Kf3 {[%emt 00:02:25]} Rd8 {[%clk
+00:34:37]} {[%emt 00:01:13]} 30. Kg4 {[%emt 00:02:35]} Rxh2 {[%emt 00:01:02]}
+31. e6 {[%emt 00:03:33]} Re2 {[%clk 00:31:23]} {[%emt 00:00:10]} 32. Kxg5
+{[%emt 00:04:58]} Rd3 {[%emt 00:04:28]} 33. Rc1 {[%clk 00:14:49]} {[%emt
+00:01:02]} Rxg3+ {[%clk 00:30:00]} {[%emt 00:00:43]} 34. Kf4 {[%emt 00:01:57]}
+Rd3 {[%emt 00:02:34]} 35. Be5 {[%emt 00:03:26]} Rd5 {[%clk 00:26:15]} {[%emt
+00:00:10]} 36. Ba1 {[%clk 00:10:13]} {[%emt 00:02:44]} Rf2+ {[%clk 00:25:48]}
+{[%emt 00:00:57]} 37. Kg3 {[%clk 00:07:09]} {[%emt 00:03:35]} Rfxf5 {[%clk
+00:24:47]} {[%emt 00:01:30]} 38. Re1 {[%clk 00:07:18]} {[%emt 00:00:21]} Kf8
+{[%clk 00:24:08]} {[%emt 00:01:10]} 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.03.26"]
+[Round "10.10"]
+[White "Pinyol I Llora, Julia"]
+[Black "Martinez Talavera, Jordi"]
+[Result "1/2-1/2"]
+[ECO "E06"]
+[WhiteElo "2094"]
+[BlackElo "2080"]
+[PlyCount "92"]
+[EventDate "2023.??.??"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Bd2 Be7 5. g3 d5 6. Bg2 c6 7. Qc2 O-O 8. O-O
+b6 9. Bf4 Bd6 10. Bxd6 Qxd6 11. Nbd2 Nbd7 12. Rfd1 Bb7 13. e4 Qe7 14. Ne5 Nxe5
+15. dxe5 Ng4 16. exd5 cxd5 17. cxd5 exd5 18. Re1 Rac8 19. Qf5 Nh6 20. Qd3 Qb4
+21. Nb3 Rc7 22. e6 fxe6 23. Rxe6 Qc4 24. Qe2 Ng4 25. Re8 Qxe2 26. Rxe2 Nf6 27.
+Nd4 Rc4 28. Rd1 Rfc8 29. Nf5 Rc1 30. Ree1 Rxd1 31. Rxd1 Rc2 32. h3 Rc7 33. Rd4
+Rd7 34. g4 g6 35. Ng3 Kf7 36. g5 Ne8 37. h4 Nc7 38. Kf1 Nb5 39. Rd2 Re7 40. Re2
+Rxe2 41. Nxe2 Ke6 42. Ke1 Kd6 43. b4 Ke5 44. Kd2 Ke6 45. Ng3 Ke5 46. Ke3 Bc8
+1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "Barcelona"]
+[Date "2023.04.15"]
+[Round "11.10"]
+[White "Mas Mestres, Jordi"]
+[Black "Pinyol i Llora, Julia"]
+[Result "1-0"]
+[ECO "C00"]
+[WhiteElo "1818"]
+[BlackElo "1924"]
+[Annotator "Daniel"]
+[PlyCount "47"]
+[EventDate "2023.??.??"]
+[TimeControl "90+30"]
+[WhiteClock "0:13:28"]
+[BlackClock "0:45:19"]
+
+1. e4 {[%emt 0:00:02]} c5 {[%emt 0:00:10]} 2. Nf3 {[%emt 0:00:42]} e6 {[%emt 0:
+00:29]} 3. d3 {[%emt 0:02:06]} Nc6 {[%emt 0:03:05]} 4. g3 {[%emt 0:02:06]} Nf6
+{[%emt 0:01:38]} 5. Bg2 {[%emt 0:01:28]} d5 {[%emt 0:00:58]} 6. Nbd2 {[%emt 0:
+02:02]} Be7 {[%emt 0:01:33]} 7. O-O {[%emt 0:01:09]} O-O {[%emt 0:01:40]} 8. e5
+{[%emt 0:04:10]} Nd7 {[%emt 0:00:33]} 9. Re1 {[%emt 0:01:23]} b5 {[%emt 0:06:
+36]} 10. h4 {[%emt 0:01:53]} a5 {[%emt 0:04:28]} 11. a3 {[%emt 0:03:22]} Bb7 {
+[%emt 0:03:44]} 12. Nf1 {[%emt 0:03:52]} b4 {[%emt 0:04:45]} 13. N1h2 {[%emt 0:
+03:28]} bxa3 {[%emt 0:09:17]} 14. bxa3 {[%emt 0:00:38]} Nb6 {[%emt 0:04:13]}
+15. Bf4 {[%emt 0:04:26]} d4 {[%emt 0:03:29]} 16. Ng5 {[%emt 0:04:19]} Nd5 {
+[%emt 0:04:04]} 17. Qh5 {[%emt 0:05:22]} h6 {[%emt 0:03:18]} 18. Ng4 {[%emt 0:
+00:58]} hxg5 {[%emt 0:12:23]} 19. hxg5 {[%emt 0:01:55]} Qe8 {[%emt 0:10:52]}
+20. Be4 {[%emt 0:03:08]} g6 {[%emt 0:02:03]} 21. Qh4 {[%emt 0:00:32]} Bxg5 {
+[%emt 0:07:24]} 22. Bxg5 {[%emt 0:06:15]} Nce7 {[%emt 0:01:34]} 23. Nf6+ {
+[%emt 0:01:25]} Nxf6 {[%emt 0:00:30]} 24. Bxf6 {[%emt 0:00:16]} 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "Cerdanyola del Valles"]
+[Date "2026.03.14"]
+[Round "9.8"]
+[White "Serra Pages, Jordi"]
+[Black "Pinyol i Llora, Julia"]
+[Result "1/2-1/2"]
+[WhiteElo "2167"]
+[BlackElo "2114"]
+[PlyCount "66"]
+[EventDate "2026.??.??"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. Bg5 h6 6. Bxf6 Qxf6 7. e3 g6 8. Be2
+Nd7 9. O-O dxc4 10. Bxc4 Bg7 11. b4 O-O 12. Rc1 a6 13. Bb3 Qe7 14. a3 a5 15.
+Na2 a4 16. Bc2 e5 17. Nc3 exd4 18. Nxd4 Ne5 19. Qe2 b6 20. Bxa4 b5 21. Bb3 Rxa3
+22. Qb2 Ra6 23. Rfd1 Bg4 24. f3 Bd7 25. Ne4 Nc4 26. Bxc4 bxc4 27. Qc3 Rfa8 28.
+Qxc4 Kh7 29. Kh1 Ra2 30. Rc2 Ra1 31. Rcc1 R1a2 32. Rc2 Ra1 33. Rcc1 R1a2
+1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "https://lichess.org/broadcast/"]
+[Date "2026.03.21"]
+[Round "10.8"]
+[White "Pinyol i Llora, Julia"]
+[Black "Alvarez Albiol, Victor"]
+[Result "0-1"]
+[ECO "A56"]
+[WhiteElo "2114"]
+[BlackElo "2193"]
+[PlyCount "114"]
+[EventDate "2026.??.??"]
+[WhiteTeam "Cerdanyola"]
+[BlackTeam "Foment"]
+
+1. d4 Nf6 2. c4 c5 3. d5 g6 4. Nc3 Bg7 5. Nf3 O-O 6. Bf4 d6 7. h3 Bf5 8. Qb3
+Qb6 9. Qxb6 axb6 10. Nh4 Ne4 11. Nxf5 gxf5 12. Bd2 Nxc3 13. Bxc3 Bxc3+ 14. bxc3
+Ra3 15. e3 Nd7 16. Bd3 Ne5 17. Bxf5 Rfa8 18. O-O Nxc4 19. Rfc1 Rxa2 20. Rxa2
+Rxa2 21. Bc8 Kg7 22. Bxb7 Kf6 23. Bc6 Ke5 24. Bb5 Na3 25. Bd3 h5 26. c4 b5 27.
+f4+ Kf6 28. cxb5 Rb2 29. e4 Rb3 30. Be2 h4 31. Bh5 Rxb5 32. Rc3 Rb1+ 33. Kh2
+Nb5 34. Re3 c4 35. e5+ dxe5 36. fxe5+ Kg5 37. Be2 c3 38. Bd3 Rd1 39. d6 exd6
+40. exd6 Nxd6 41. Bc2 Rc1 42. Re2 f5 43. g3 hxg3+ 44. Kxg3 Nb5 45. h4+ Kf6 46.
+Rg2 Rxc2 47. Rxc2 Nd4 48. Ra2 c2 49. Ra6+ Ke5 50. Ra1 c1=Q 51. Rxc1 Ne2+ 52.
+Kf3 Nxc1 53. h5 Nd3 54. h6 Nf4 55. h7 Ng6 56. Kg3 Kf6 57. Kf3 Kg7 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2023.02.18"]
+[Round "5.10"]
+[White "Pinyol Llora, Julia, (Cerdanyola V)"]
+[Black "Casas Douton, Domingo, (Sant Andreu)"]
+[Result "0-1"]
+[ECO "D30"]
+[WhiteElo "2094"]
+[BlackElo "2244"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "116"]
+[EventDate "2023.??.??"]
+
+1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. g3 a6 5. Bg2 Be7 6. O-O O-O 7. Qc2 dxc4 8. a4
+Nc6 9. Qxc4 Nb4 10. Bd2 a5 11. Nc3 b6 12. Ne5 Ba6 13. Nb5 Rc8 14. Bxb4 axb4 15.
+Nc6 Qd7 16. Nxb4 Bxb4 17. Qxb4 Nd5 18. Bxd5 Qxd5 19. Nc3 Qh5 20. Rfe1 Qa5 21.
+Qxa5 bxa5 22. Ne4 Rb8 23. Nc5 Bc8 24. b3 Rd8 25. e3 Kf8 26. Rac1 f6 27. Red1
+Ke7 28. Rd3 e5 29. dxe5 Rxd3 30. Nxd3 Rxb3 31. exf6+ Kxf6 32. Rxc7 Bh3 33. Nc1
+Rb4 34. f4 Rb2 35. Rc6+ Ke7 36. Rc7+ Kf8 37. Nd3 Rg2+ 38. Kh1 Rd2 39. Kg1 Rg2+
+40. Kh1 Rd2 41. Kg1 Rxd3 42. Kf2 Ra3 43. Rc4 Bd7 44. e4 Rxa4 45. Rxa4 Bxa4 46.
+Ke3 Ke7 47. Kd4 Bc6 48. Kc5 Bxe4 49. Kb5 Ke6 50. Kxa5 Kf5 51. Kb5 Kg4 52. Kc5
+Kh3 53. Kd4 Kxh2 54. Kxe4 Kxg3 55. Kf5 h5 56. Kg5 h4 57. f5 h3 58. Kg6 Kf4 0-1

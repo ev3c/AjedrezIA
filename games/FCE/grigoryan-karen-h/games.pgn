@@ -1,0 +1,3715 @@
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.04"]
+[Round "1"]
+[White "Salagran Ferragut, Guillem"]
+[Black "Grigoryan, Karen H"]
+[Result "0-1"]
+[ECO "B50"]
+[WhiteElo "2196"]
+[BlackElo "2536"]
+[PlyCount "141"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. c3 Nf6 4. Be2 g6 5. O-O Bg7 6. Re1 O-O 7. Bf1 Bg4 8. h3
+Bxf3 9. Qxf3 Nc6 10. Qd1 Nd7 11. Na3 Rc8 12. Nc2 Qa5 13. a3 e6 14. b4 Qb6 15.
+Rb1 d5 16. exd5 exd5 17. Ne3 Ne7 18. c4 d4 19. Ng4 Qd6 20. d3 h5 21. Nh2 Nc6
+22. Nf3 b6 23. Bg5 Rfe8 24. Qd2 cxb4 25. axb4 a5 26. bxa5 bxa5 27. Be2 Nb4 28.
+Bf4 Qf6 29. Bg5 Qf5 30. Ra1 Ra8 31. Bf1 Rxe1 32. Nxe1 Nc5 33. Ra3 Bf8 34. Nf3
+Ne6 35. Bh6 Bd6 36. Qb2 g5 37. h4 g4 38. Ng5 Qe5 39. g3 Nc5 40. Qd2 Ra6 41. Bg2
+Be7 42. Ne4 Ncxd3 43. Bg5 f6 44. Bf4 Nxf4 45. gxf4 Qe6 46. c5 d3 47. Qc3 Kf8
+48. Ng3 Ra7 49. Ra1 d2 50. Qxd2 Bxc5 51. f5 Qd7 52. Qh6+ Qg7 53. Qf4 Qe7 54.
+Nxh5 g3 55. Qh6+ Ke8 56. Nxf6+ Kd8 57. Rd1+ Kc8 58. Qh8+ Qf8 59. Qxf8+ Bxf8 60.
+fxg3 a4 61. Rc1+ Kd8 62. Ne4 a3 63. Rd1+ Ke8 64. Bf3 a2 65. f6 Kf7 66. Bh5+ Ke6
+67. Bf3 Kf7 68. Bh5+ Ke6 69. Ra1 Nc2 70. Ng5+ Kxf6 71. Kf1 0-1
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.05"]
+[Round "2"]
+[White "Grigoryan, Karen H"]
+[Black "Rathanvel, V S."]
+[Result "1-0"]
+[ECO "B50"]
+[WhiteElo "2536"]
+[BlackElo "2374"]
+[PlyCount "149"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. c3 Nf6 4. Bd3 g6 5. Bc2 Bg7 6. d4 cxd4 7. cxd4 Bg4 8.
+Nbd2 O-O 9. O-O Nc6 10. h3 Bh5 11. Nb3 Qc8 12. Be3 e5 13. Rc1 exd4 14. Nbxd4
+Ne5 15. Bb3 Qd8 16. g4 Nfxg4 17. hxg4 Bxg4 18. Kg2 Qd7 19. Nxe5 Bxe5 20. f3
+Bh3+ 21. Kf2 Bxf1 22. Qxf1 Rac8 23. Rd1 Qe7 24. Qh3 Qf6 25. Ne6 Bxb2 26. Ng5 h5
+27. Nxf7 d5 28. Rxd5 Rc3 29. Rd6 Rxb3 30. Rxf6 Bxf6 31. Nh6+ Kh7 32. Qd7+ Bg7
+33. axb3 g5 34. b4 Kxh6 35. Bxg5+ Kh7 36. Ke3 Kh8 37. Kf2 Kh7 38. Qxb7 Kg6 39.
+Be3 h4 40. Qd7 a5 41. Qg4+ Kh7 42. Qh5+ Kg8 43. Qd5+ Kh7 44. bxa5 h3 45. Qh5+
+Kg8 46. Qd5+ Kh7 47. Qd7 h2 48. Qh3+ Kg8 49. Qxh2 Rc8 50. Qd6 Rc2+ 51. Kg3 Re2
+52. Qd3 Re1 53. Qc4+ Kh7 54. Qc1 Re2 55. Qh1+ Kg8 56. Qc1 Kh7 57. f4 Ra2 58.
+Qd2 Ra4 59. Kg4 Ra3 60. Kf5 Rb3 61. e5 Ra3 62. Qh2+ Kg8 63. Kg6 Rxe3 64. Qa2+
+Kh8 65. Qh2+ Kg8 66. Qh7+ Kf8 67. Qxg7+ Ke8 68. Kf6 Kd8 69. e6 Kc8 70. Qd7+ Kb8
+71. Qb5+ Ka8 72. Qc6+ Kb8 73. Qb6+ Kc8 74. Qxe3 Kc7 75. e7 1-0
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.06"]
+[Round "3"]
+[White "Raghunandan, Kaumandur Srihari"]
+[Black "Grigoryan, Karen H"]
+[Result "1/2-1/2"]
+[ECO "D97"]
+[WhiteElo "2403"]
+[BlackElo "2536"]
+[PlyCount "47"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Qb3 dxc4 6. Qxc4 O-O 7. e4 Be6 8. d5
+Bc8 9. Be2 c6 10. O-O cxd5 11. exd5 Nbd7 12. Rd1 Nb6 13. Qb3 Ne8 14. h3 Nd6 15.
+a4 Nd7 16. a5 Nf6 17. Bf4 Nfe4 18. Nxe4 Nxe4 19. Qb4 Nd6 20. Nd4 a6 21. Rac1
+Bd7 22. Bf3 Rc8 23. Rxc8 Bxc8 24. Qc5 1/2-1/2
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.07"]
+[Round "4"]
+[White "Grigoryan, Karen H"]
+[Black "Li, Di"]
+[Result "1/2-1/2"]
+[ECO "D45"]
+[WhiteElo "2536"]
+[BlackElo "2426"]
+[PlyCount "41"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 e6 5. Nc3 Nbd7 6. Qc2 Bd6 7. Be2 dxc4 8.
+Bxc4 b5 9. Be2 Bb7 10. O-O O-O 11. a3 a5 12. Rd1 Qc7 13. e4 e5 14. g3 Rfe8 15.
+dxe5 Nxe5 16. Bg5 Neg4 17. Nd4 Ne5 18. Bc1 Neg4 19. Bg5 Ne5 20. Bc1 Neg4 21.
+Bg5 1/2-1/2
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.08"]
+[Round "5"]
+[White "Sanchez Jerez, Emilio Miguel"]
+[Black "Grigoryan, Karen H"]
+[Result "0-1"]
+[ECO "C00"]
+[WhiteElo "2201"]
+[BlackElo "2536"]
+[PlyCount "134"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6 5. Bf3 c5 6. Ne2 Nc6 7. Be3 cxd4 8.
+Nxd4 Ne5 9. Nc3 Bb4 10. Ndb5 a6 11. Qxd8+ Kxd8 12. a3 Nxf3+ 13. gxf3 axb5 14.
+Rd1+ Bd7 15. axb4 Kc8 16. Rg1 Ne8 17. Ne4 e5 18. Ke2 Ra2 19. Bb6 Rxb2 20. Rd2
+Rxb4 21. Rgd1 Rd4 22. Bxd4 exd4 23. Rxd4 Bc6 24. Rd8+ Kc7 25. Ng5 Rf8 26. Nxh7
+Rh8 27. Ng5 Rxh2 28. Nxf7 Rh5 29. f4 Rc5 30. R1d2 Rf5 31. Ne5 Nf6 32. Nxc6 bxc6
+33. Rf8 Rxf4 34. Rf7+ Kb6 35. Rxg7 Nd5 36. Rg6 Kc5 37. f3 Rh4 38. Rg4 Rh2+ 39.
+Kd3 Rh1 40. Rf2 Rd1+ 41. Rd2 Re1 42. Re4 Rf1 43. Ke2 Rh1 44. Rd3 Rh2+ 45. Kd1
+b4 46. Kc1 Nc3 47. Re1 Rf2 48. Kb2 Kc4 49. Rh1 Na4+ 50. Kc1 c5 51. Rh4+ Kb5 52.
+Rh1 Nb6 53. Kd1 Nc4 54. Kc1 Na3 55. Rd2 Rxf3 56. Rg2 Nc4 57. Re1 Ne3 58. Rge2
+Nf5 59. Rd1 Kc4 60. Rd8 Nd4 61. Rg2 Kc3 62. Kb1 Rf1+ 63. Ka2 Nxc2 64. Rg3+ Kc4
+65. Rc8 Rf2 66. Rg5 b3+ 67. Kb2 Na3+ 0-1
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.09"]
+[Round "6"]
+[White "Grigoryan, Karen H"]
+[Black "Swayams, Mishra"]
+[Result "1/2-1/2"]
+[ECO "E25"]
+[WhiteElo "2536"]
+[BlackElo "2457"]
+[PlyCount "112"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. f3 d5 5. a3 Bxc3+ 6. bxc3 c5 7. e3 O-O 8. cxd5
+exd5 9. Bd3 b6 10. Ne2 Ba6 11. Bb1 Nc6 12. O-O Re8 13. Re1 Qd7 14. Ra2 Rad8 15.
+Nf4 Qd6 16. g4 Nd7 17. h4 Nf8 18. Rg2 Ng6 19. Nxg6 hxg6 20. h5 Bc4 21. Kf2 Re6
+22. hxg6 fxg6 23. Rh1 Rde8 24. Rgh2 Na5 25. Rh8+ Kf7 26. Rxe8 Rxe8 27. Bc2 Nc6
+28. Rh4 Ke7 29. Qh1 Kf7 30. g5 Ne7 31. Qh3 Bb5 32. Bb2 Bd7 33. Qh2 Qxh2+ 34.
+Rxh2 Nf5 35. e4 Nd6 36. dxc5 Nc4 37. Bc1 dxe4 38. fxe4 bxc5 39. Kg3 Bc6 40.
+Rf2+ Ke7 41. a4 Rh8 42. Bf4 Bd7 43. Rh2 Rxh2 44. Kxh2 a5 45. Kg3 Nb2 46. Be3
+Nxa4 47. Bxa4 Bxa4 48. Bxc5+ Ke6 49. Kf4 Bc2 50. Ke3 Kd7 51. Kd4 Kc6 52. Ba3 a4
+53. e5 Bf5 54. Kc4 Be6+ 55. Kb4 Bd7 56. c4 Be6 1/2-1/2
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.10"]
+[Round "7"]
+[White "Henriquez Villagra, Cristobal"]
+[Black "Grigoryan, Karen H"]
+[Result "1/2-1/2"]
+[ECO "E65"]
+[WhiteElo "2491"]
+[BlackElo "2536"]
+[PlyCount "65"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. g3 c5 4. Nf3 Bg7 5. Bg2 O-O 6. O-O d6 7. Nc3 Nc6 8. dxc5
+dxc5 9. Be3 Be6 10. Ng5 Qxd1 11. Rfxd1 Bxc4 12. Bxc5 Rfd8 13. Bxc6 bxc6 14.
+Bxe7 Rxd1+ 15. Rxd1 Nd5 16. Nxd5 Bxd5 17. b3 f5 18. Nh3 Re8 19. Bc5 Rxe2 20.
+Nf4 Rxa2 21. Nxd5 cxd5 22. Rxd5 a5 23. Rd8+ Kf7 24. Rd7+ Kg8 25. Kg2 Bc3 26.
+Rd3 Bf6 27. h4 Ra1 28. h5 Rb1 29. h6 Bg5 30. Be3 Bxe3 31. Rxe3 Kf7 32. f4 g5
+33. fxg5 1/2-1/2
+
+[Event "Barbera del Vallès op"]
+[Site "Barberá del Vallès"]
+[Date "2016.07.11"]
+[Round "8"]
+[White "Grigoryan, Karen H"]
+[Black "Hansen, Torbjorn Ringdal"]
+[Result "1-0"]
+[ECO "A26"]
+[WhiteElo "2536"]
+[BlackElo "2463"]
+[PlyCount "71"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. g3 g6 3. c4 Bg7 4. Nc3 O-O 5. Bg2 d6 6. O-O Nc6 7. d3 e5 8. Rb1
+a5 9. a3 Nd4 10. Nd2 c6 11. e3 Nf5 12. Nde4 Nxe4 13. dxe4 Nh6 14. Qd3 f5 15.
+Rd1 Be6 16. exf5 gxf5 17. Qxd6 Qxd6 18. Rxd6 Bxc4 19. b3 Nf7 20. Rd1 Be6 21. e4
+f4 22. gxf4 exf4 23. Ne2 f3 24. Bxf3 Ne5 25. Bh5 Nf3+ 26. Kg2 Nh4+ 27. Kg3 Ng6
+28. f4 a4 29. bxa4 Rxa4 30. Rb4 Rxb4 31. axb4 Ra8 32. f5 Bb3 33. Rd7 Be5+ 34.
+Kf2 Nf8 35. Rxb7 Ra2 36. Be3 1-0
+
+[Event "Ciutat de Sabadell op A"]
+[Site "Sabadell"]
+[Date "2016.09.01"]
+[Round "1"]
+[White "Kleinman, Michael"]
+[Black "Grigoryan, Karen H"]
+[Result "1/2-1/2"]
+[ECO "A00"]
+[WhiteElo "2283"]
+[BlackElo "2544"]
+[PlyCount "36"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Qxd4 a6 5. h3 Nc6 6. Qe3 g6 7. c4 Bg7 8. Be2
+Nf6 9. O-O O-O 10. Nc3 Nd7 11. Rb1 Nde5 12. Rd1 Nxf3+ 13. Bxf3 e5 14. b3 Re8
+15. Bb2 Nd4 16. Ne2 b5 17. cxb5 axb5 18. Rd2 b4 1/2-1/2
+
+[Event "Ciutat de Sabadell op A"]
+[Site "Sabadell"]
+[Date "2016.09.02"]
+[Round "2"]
+[White "Grigoryan, Karen H"]
+[Black "Dominguez Pons, Eric"]
+[Result "1-0"]
+[ECO "B10"]
+[WhiteElo "2544"]
+[BlackElo "2391"]
+[PlyCount "83"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. Ne2 d5 3. e5 c5 4. d4 Nc6 5. c3 Bf5 6. dxc5 Nxe5 7. Nd4 Bd7 8. b4
+g6 9. Be2 Bg7 10. O-O a6 11. a4 Nf6 12. Ba3 O-O 13. Nd2 b6 14. b5 axb5 15. axb5
+bxc5 16. Bxc5 Re8 17. Rxa8 Qxa8 18. Qa1 Qc8 19. Qa3 Ne4 20. Nxe4 dxe4 21. b6
+Nd3 22. Bxe7 Bxd4 23. cxd4 Bc6 24. Qd6 Bb7 25. h3 h5 26. Bh4 Re6 27. Qc7 Qa8
+28. d5 Bxd5 29. Bg5 Rc6 30. Qa7 Qxa7 31. bxa7 Ra6 32. Be3 Ra2 33. Rb1 Rxe2 34.
+Rb8+ Kh7 35. Bd4 g5 36. Rh8+ Kg6 37. Rd8 Bb7 38. Rd6+ Kh7 39. Rd7 Ba8 40. Rxf7+
+Kg6 41. Rf8 Bd5 42. Rd8 1-0
+
+[Event "Ciutat de Sabadell op A"]
+[Site "Sabadell"]
+[Date "2016.09.03"]
+[Round "3"]
+[White "Movsziszian, Karen"]
+[Black "Grigoryan, Karen H"]
+[Result "1-0"]
+[ECO "A00"]
+[WhiteElo "2502"]
+[BlackElo "2544"]
+[PlyCount "129"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. g3 d5 2. Bg2 e5 3. d3 c6 4. Nf3 Bd6 5. O-O Nf6 6. c4 h6 7. Nc3 d4 8. Ne4
+Nxe4 9. dxe4 Be6 10. c5 Bxc5 11. Nxe5 O-O 12. Nd3 Bb6 13. b3 Re8 14. Qc2 Na6
+15. Bb2 Qe7 16. Nf4 Nc7 17. Rad1 Rad8 18. Nxe6 Nxe6 19. Kh1 Ng5 20. f3 f5 21.
+exf5 Qxe2 22. Rd2 Qb5 23. Rfd1 Re3 24. f4 Nf3 25. Bf1 Qa5 26. Bc4+ Kh8 27. f6
+Qh5 28. Re2 Nxh2 29. fxg7+ Kxg7 30. Rxh2 Qf3+ 31. Kg1 Rc3 32. Rd3 Rxc2 33. Rxf3
+Rxb2 34. Rxb2 d3+ 35. Kg2 d2 36. Be2 d1=Q 37. Bxd1 Rxd1 38. Rf1 Rd7 39. Re2 Bd4
+40. Rd1 c5 41. Re6 Rc7 42. a4 b6 43. Kf3 Rb7 44. Kg4 b5 45. axb5 Rxb5 46. Rd3
+h5+ 47. Kf3 a5 48. Ra6 Kh7 49. Ke4 Kg7 50. Kd5 Kf7 51. Kc6 Rb8 52. Rxa5 Ke6 53.
+Kc7 Rb4 54. Ra4 Rb5 55. Kc6 Rb8 56. b4 Rc8+ 57. Kb7 Rg8 58. bxc5 Bxc5 59. Ra6+
+Ke7 60. Kc7 Kf7 61. Rd7+ Be7 62. f5 Rxg3 63. f6 Rc3+ 64. Kb7 Rb3+ 65. Ka7 1-0
+
+[Event "Ciutat de Sabadell op A"]
+[Site "Sabadell"]
+[Date "2016.09.04"]
+[Round "4"]
+[White "Grigoryan, Karen H"]
+[Black "Gomez Jurado, Luis Alberto"]
+[Result "1-0"]
+[ECO "D11"]
+[WhiteElo "2544"]
+[BlackElo "2243"]
+[PlyCount "107"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Qb3 e6 5. Bg5 Nbd7 6. Nc3 Be7 7. e3 Nh5 8. Bxe7
+Qxe7 9. Bd3 Nhf6 10. O-O O-O 11. Rad1 b6 12. e4 dxe4 13. Nxe4 Bb7 14. Rfe1 Rfd8
+15. c5 Nxe4 16. Bxe4 Nf6 17. Bd3 bxc5 18. dxc5 Rd5 19. Rc1 Rad8 20. Bf1 Qc7 21.
+Qa3 Nd7 22. Re4 a5 23. Ra4 Ne5 24. Nxe5 Qxe5 25. Qc3 Qxc3 26. Rxc3 Rd1 27. Rxa5
+Rb1 28. Rb3 g5 29. g4 Rdd1 30. Rxb7 Rxf1+ 31. Kg2 Rg1+ 32. Kf3 e5 33. Ra8+ Kg7
+34. Raa7 e4+ 35. Ke3 Rbd1 36. Rxf7+ Kg6 37. Kxe4 Rxg4+ 38. Kf3 Rd3+ 39. Ke2
+Rgd4 40. h3 Rd2+ 41. Kf1 Rxb2 42. Rg7+ Kf6 43. Rxh7 Rd1+ 44. Kg2 Rdd2 45. Rh6+
+Ke5 46. Rf7 Kd5 47. Rf5+ Ke4 48. Rf3 Rxa2 49. Rxc6 Rdc2 50. Re6+ Kd4 51. Rd6+
+Kxc5 52. Rg6 Ra1 53. Rxg5+ Kd4 54. Rf4+ 1-0
+
+[Event "Ciutat de Sabadell op A"]
+[Site "Sabadell"]
+[Date "2016.09.05"]
+[Round "5"]
+[White "Ayats Llobera, Gerard"]
+[Black "Grigoryan, Karen H"]
+[Result "0-1"]
+[ECO "B51"]
+[WhiteElo "2263"]
+[BlackElo "2544"]
+[PlyCount "78"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nc6 4. Bxc6+ bxc6 5. b3 e5 6. O-O f5 7. d3 Be7 8.
+Nbd2 Nf6 9. Re1 O-O 10. Qe2 fxe4 11. dxe4 Kh8 12. h3 Nh5 13. Nf1 Qe8 14. Ng3
+Nf4 15. Bxf4 Rxf4 16. Rad1 Be6 17. Nd2 Qc8 18. Nc4 Qc7 19. Ne3 g6 20. c4 Raf8
+21. f3 Bh4 22. Nef1 a5 23. Rd3 a4 24. Red1 Be7 25. Qd2 Rd8 26. Ne2 Rff8 27. g4
+Ra8 28. Kg2 Kg8 29. Nfg3 axb3 30. axb3 Qa5 31. Rxd6 Bxd6 32. Qxd6 Rfe8 33. Qxe5
+Bxc4 34. Qf6 Rf8 35. Qxc6 Ra6 36. Qb7 Ra7 37. Qc6 Bxb3 38. Rd6 Rc7 39. Rxg6+
+hxg6 0-1
+
+[Event "Ciutat de Sabadell op A"]
+[Site "Sabadell"]
+[Date "2016.09.06"]
+[Round "6"]
+[White "Grigoryan, Karen H"]
+[Black "Aguero Jimenez, Luis Lazaro"]
+[Result "1/2-1/2"]
+[ECO "A27"]
+[WhiteElo "2544"]
+[BlackElo "2405"]
+[PlyCount "137"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 e5 2. Nc3 Nc6 3. Nf3 g6 4. d4 exd4 5. Nxd4 Bg7 6. Nxc6 bxc6 7. e4 d6 8.
+Be2 Nf6 9. O-O O-O 10. f4 Rb8 11. Rb1 Re8 12. Bf3 Bg4 13. Bd2 Bxf3 14. Qxf3 Qe7
+15. Rfe1 Qe6 16. b3 Qg4 17. Qd3 Nd7 18. Na4 Nb6 19. h3 Qh4 20. Nc3 Nd7 21. b4
+Re7 22. b5 Nc5 23. Qf3 Bd4+ 24. Kh2 Bxc3 25. Bxc3 cxb5 26. cxb5 Rbe8 27. e5 Re6
+28. exd6 cxd6 29. Rxe6 Nxe6 30. Rf1 Rc8 31. Ba1 Rc5 32. a4 Qd8 33. Qf2 d5 34.
+Rd1 d4 35. Bb2 Rc4 36. Kh1 Qc7 37. f5 Rc2 38. Rd2 Rxd2 39. Qxd2 gxf5 40. Bxd4
+Nxd4 41. Qxd4 Qa5 42. Kh2 h6 43. Kg3 Kh7 44. Kf4 Kg6 45. Qd6+ f6 46. Qd4 h5 47.
+Kf3 Kg7 48. Qc4 Qd8 49. Ke3 Qe7+ 50. Kd3 Kg6 51. Kc2 Qe1 52. Qd3 Qb4 53. Qg3+
+Kh6 54. Qe3+ f4 55. Qxa7 Qe4+ 56. Kc3 Qxg2 57. Qd4 Qxh3+ 58. Qd3 Qg2 59. Qd2
+Qf3+ 60. Kd4 h4 61. b6 h3 62. a5 Qe3+ 63. Qxe3 fxe3 64. b7 e2 65. b8=Q e1=Q 66.
+Qf4+ Kg6 67. Qg4+ Kf7 68. Qh5+ Kg7 69. Qg4+ 1/2-1/2
+
+[Event "Ciutat de Sabadell op A"]
+[Site "Sabadell"]
+[Date "2016.09.07"]
+[Round "7"]
+[White "Garriga Cazorla, Pere"]
+[Black "Grigoryan, Karen H"]
+[Result "0-1"]
+[ECO "E68"]
+[WhiteElo "2374"]
+[BlackElo "2544"]
+[PlyCount "126"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. Nf3 O-O 5. g3 d6 6. Bg2 Nbd7 7. O-O e5 8. e4
+Re8 9. h3 exd4 10. Nxd4 a6 11. Be3 Rb8 12. a4 c6 13. Qc2 a5 14. Rad1 Qe7 15.
+Nb3 b6 16. Nd4 Bb7 17. Rfe1 Qd8 18. f4 Qc8 19. Bf2 h5 20. Nf3 Qc7 21. Qd2 Bf8
+22. f5 Ne5 23. Nxe5 dxe5 24. fxg6 fxg6 25. Qg5 Kg7 26. Be3 Ng8 27. Bf2 Bc8 28.
+Rd3 Be6 29. Red1 Be7 30. Qc1 Nf6 31. c5 Bxc5 32. Bxc5 bxc5 33. Qg5 Nh7 34. Qe3
+Rxb2 35. Qxc5 Qb6 36. Qxb6 Rxb6 37. Rd6 Ng5 38. Nd5 Rb7 39. Rxc6 Bxh3 40. Nb6
+Re6 41. Rdd6 Rxd6 42. Rxd6 Be6 43. Bf1 Rc7 44. Bd3 Nf3+ 45. Kf2 Nd4 46. Nd5 Rb7
+47. Nb6 Rf7+ 48. Kg2 Rc7 49. Nd5 Rc1 50. Kf2 Ra1 51. Bb5 Ra2+ 52. Ke1 Bg4 53.
+Ne7 Be6 54. Nc6 Nf3+ 55. Kd1 Bb3+ 56. Kc1 Rc2+ 57. Kb1 Nd2+ 58. Rxd2 Rxd2 59.
+Nxa5 Bc2+ 60. Kc1 Rg2 61. Bc6 g5 62. Nc4 h4 63. Ne3 h3 0-1
+
+[Event "Ciutat de Sabadell op A"]
+[Site "Sabadell"]
+[Date "2016.09.08"]
+[Round "8"]
+[White "Grigoryan, Karen H"]
+[Black "Muñoz Pantoja, Miguel"]
+[Result "1-0"]
+[ECO "A45"]
+[WhiteElo "2544"]
+[BlackElo "2471"]
+[PlyCount "123"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 c5 2. d5 Nf6 3. Nc3 Qa5 4. Bd2 d6 5. e4 e5 6. h3 Be7 7. Nf3 O-O 8. Bd3
+Ne8 9. a3 a6 10. b4 Qc7 11. bxc5 dxc5 12. a4 Nd7 13. O-O Nd6 14. Re1 f6 15. a5
+c4 16. Bf1 Nc5 17. Bc1 Bd7 18. Nd2 Bb5 19. Bb2 Rf7 20. Be2 Bf8 21. Bg4 Re8 22.
+Ba3 Kh8 23. Bxc5 Qxc5 24. Be6 Rfe7 25. Nxb5 Nxb5 26. Re3 c3 27. Nb3 Qc7 28. Rg3
+g6 29. h4 Bh6 30. h5 Bg5 31. Rh3 gxh5 32. Qxh5 Rf8 33. Ra4 Rg7 34. Qe2 Bf4 35.
+Rc4 Qe7 36. g3 Bg5 37. Qd3 Rd8 38. Nc5 Nd4 39. Rxc3 Qc7 40. Rc4 Qxa5 41. c3 b5
+42. Rb4 Qa3 43. Bf5 a5 44. Rxb5 Nxb5 45. Qxb5 Rf7 46. Ne6 Rg8 47. Qe2 Qe7 48.
+Qa2 Qd6 49. Qxa5 Bd2 50. Qc5 Qxc5 51. Nxc5 Bxc3 52. Be6 Rc7 53. Bxg8 Kxg8 54.
+Ne6 Rc4 55. Rh4 Bb4 56. Rg4+ Kf7 57. Rg7+ Ke8 58. f3 Rc2 59. Rxh7 Rd2 60. Rh2
+Rd3 61. Kg2 Kd7 62. Ng7 1-0
+
+[Event "Ciutat de Sabadell op A"]
+[Site "Sabadell"]
+[Date "2016.09.09"]
+[Round "9"]
+[White "Narciso Dublan, Marc"]
+[Black "Grigoryan, Karen H"]
+[Result "0-1"]
+[ECO "D97"]
+[WhiteElo "2508"]
+[BlackElo "2544"]
+[PlyCount "90"]
+[EventDate "2016.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Qb3 dxc4 6. Qxc4 O-O 7. e4 a6 8. Be2
+b5 9. Qb3 c5 10. dxc5 Be6 11. Qc2 Nbd7 12. Be3 Rc8 13. Rd1 b4 14. Nd5 Bxd5 15.
+exd5 Nxc5 16. O-O Qd6 17. Rc1 Nfd7 18. Rfd1 f5 19. g3 f4 20. Bxf4 Rxf4 21. gxf4
+Rf8 22. Qd2 b3 23. a3 Rxf4 24. Rc4 Rf5 25. Nh4 Rf8 26. Ng2 Nb6 27. Rb4 Nba4 28.
+Rb1 Be5 29. f4 Bg7 30. Bc4 a5 31. Rb5 e5 32. Bxb3 exf4 33. Bxa4 f3 34. Rf1 Nxa4
+35. Nh4 Qd7 36. Rxa5 Qg4+ 37. Kh1 Qxh4 38. d6 Nb6 39. d7 Qh3 40. Rf2 Nxd7 41.
+Qd5+ Kh8 42. Ra8 Nb8 43. b4 Qh4 44. Rf1 Qf4 45. Qd1 Qe4 0-1
+
+[Event "Montcada op A"]
+[Site "Montcada i Reixac"]
+[Date "2016.06.25"]
+[Round "1"]
+[White "Gomez Jurado, Luis Alberto"]
+[Black "Grigoryan, Karen H"]
+[Result "0-1"]
+[ECO "A29"]
+[WhiteElo "2218"]
+[BlackElo "2604"]
+[PlyCount "139"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. g3 d5 5. cxd5 Nxd5 6. Bg2 Nb6 7. O-O Be7 8.
+a3 O-O 9. b4 Be6 10. Rb1 f6 11. d3 Qd7 12. Ne4 Nd5 13. Bb2 Rfd8 14. Nc5 Bxc5
+15. bxc5 Nde7 16. Qc2 b5 17. Rfd1 a5 18. d4 e4 19. Nd2 f5 20. g4 g6 21. d5 Nxd5
+22. Ba1 b4 23. Nxe4 fxe4 24. Qb2 Qe7 25. Bxe4 Nc3 26. Bxc6 Rxd1+ 27. Rxd1 Rb8
+28. axb4 axb4 29. Bf3 Qxc5 30. Rc1 Rd8 31. Qc2 Rd4 32. Bxc3 bxc3 33. e3 Rb4 34.
+h3 Rb3 35. Qe4 Kf7 36. Qf4+ Kg7 37. g5 Bf5 38. e4 Rb4 39. Qe3 Qxe3 40. fxe3
+Bxe4 41. Bxe4 Rxe4 42. Rxc3 Re7 43. Kf2 Kf7 44. Rc6 Ke8 45. Kf3 Rf7+ 46. Ke4
+Kd7 47. Rc1 Rf2 48. Rh1 Rd2 49. h4 Ke6 50. Rc1 Kd6 51. Rh1 Ra2 52. h5 Ra4+ 53.
+Kf3 Ra6 54. hxg6 hxg6 55. Kf4 c5 56. Rd1+ Ke6 57. e4 c4 58. Ke3 Rc6 59. Rc1 Ke5
+60. Rc3 Rc5 61. Rc1 c3 62. Rc2 Rc4 63. Kd3 Rc7 64. Ke3 Rh7 65. Kd3 Rh3+ 66. Kc4
+Kxe4 67. Rf2 Rf3 68. Rg2 Kf4 69. Kb3 Rg3 70. Kc4 0-1
+
+[Event "Montcada op A"]
+[Site "Montcada i Reixac"]
+[Date "2016.06.26"]
+[Round "2"]
+[White "Grigoryan, Karen H"]
+[Black "Himanshu, Sharma"]
+[Result "1/2-1/2"]
+[ECO "A11"]
+[WhiteElo "2604"]
+[BlackElo "2389"]
+[PlyCount "128"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 d5 2. g3 Nf6 3. Bg2 c6 4. O-O Bf5 5. c4 e6 6. cxd5 cxd5 7. Qb3 Qc8 8. d3
+Nc6 9. Bf4 Be7 10. Rc1 Qd7 11. Ne5 Nxe5 12. Bxe5 Rc8 13. Rxc8+ Qxc8 14. Qa4+
+Nd7 15. Bc3 O-O 16. Qxa7 Ne5 17. Qa4 Nc6 18. Na3 Rd8 19. e4 dxe4 20. dxe4 Bg4
+21. e5 Bh5 22. Nb5 Qd7 23. Qb3 h6 24. Be4 Bg4 25. Kg2 g6 26. Nd6 Bxd6 27. exd6
+e5 28. h4 Be6 29. Qb5 Qxd6 30. Qxb7 Bd5 31. Bxd5 Qxd5+ 32. Kg1 g5 33. hxg5 hxg5
+34. Re1 Kg7 35. a4 Kg6 36. Qb5 Qxb5 37. axb5 Nd4 38. Kg2 f6 39. Rd1 Rd6 40.
+Bxd4 exd4 41. g4 f5 42. Kf3 Kf6 43. gxf5 Kxf5 44. Rd3 Rd5 45. b6 Rb5 46. Rxd4
+Rb3+ 47. Kg2 Ke5 48. Rd2 Rxb6 49. Re2+ Kf4 50. Rd2 Rb3 51. Kf1 g4 52. Ke2 Ke4
+53. Kd1 Kf3 54. Kc2 Rb8 55. b3 Rc8+ 56. Kd1 Ra8 57. Kc1 Ra1+ 58. Kb2 Rf1 59. b4
+Rxf2 60. Rxf2+ Kxf2 61. b5 g3 62. b6 g2 63. b7 g1=Q 64. b8=Q Qg3 1/2-1/2
+
+[Event "Montcada op A"]
+[Site "Montcada i Reixac"]
+[Date "2016.06.27"]
+[Round "3"]
+[White "Grigoryan, Karen H"]
+[Black "Buscara, Sevan"]
+[Result "1-0"]
+[ECO "D17"]
+[WhiteElo "2604"]
+[BlackElo "2333"]
+[PlyCount "83"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Nf3 dxc4 5. a4 Bf5 6. Ne5 Nbd7 7. Nxc4 Nb6 8.
+Ne5 a5 9. f3 Nfd7 10. e4 Nxe5 11. dxe5 Qxd1+ 12. Kxd1 Be6 13. Kc2 g6 14. Rb1
+Bg7 15. f4 f6 16. exf6 Bxf6 17. Be3 Nc4 18. Bxc4 Bxc4 19. e5 Bg7 20. b4 Be6 21.
+Rb2 Bf5+ 22. Kc1 b5 23. bxa5 Rxa5 24. Bb6 Ra8 25. a5 g5 26. g3 gxf4 27. gxf4
+Bh6 28. Rf2 Rf8 29. Kd2 Be6 30. Ke3 Rf5 31. Ke4 b4 32. Ne2 Rf8 33. Rg1 b3 34.
+f5 Bd5+ 35. Kd4 Bd2 36. Nc3 Bxc3+ 37. Kxc3 Be4 38. f6 exf6 39. exf6 Kd7 40.
+Rg7+ Kd6 41. Kd4 b2 42. Bc7+ 1-0
+
+[Event "Montcada op A"]
+[Site "Montcada i Reixac"]
+[Date "2016.06.28"]
+[Round "4"]
+[White "Asis Gargatagli, Hipolito"]
+[Black "Grigoryan, Karen H"]
+[Result "1/2-1/2"]
+[ECO "B35"]
+[WhiteElo "2489"]
+[BlackElo "2604"]
+[PlyCount "65"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. Nc3 Bg7 6. Be3 Nf6 7. Bc4 O-O 8.
+Bb3 d5 9. exd5 Na5 10. O-O Nxb3 11. Nxb3 b6 12. Qd2 Bb7 13. Rad1 Qc7 14. Bf4
+Qc4 15. d6 Rfd8 16. h3 Ne8 17. d7 Nf6 18. Qe3 Nxd7 19. Rd2 e5 20. Bg5 f6 21.
+Rfd1 fxg5 22. Rxd7 Rxd7 23. Rxd7 Qc6 24. Rd5 Qe6 25. Rd2 g4 26. Nd4 Qc8 27.
+Ndb5 Bc6 28. Qd3 gxh3 29. Qc4+ Kf8 30. Qb4+ Kg8 31. Qc4+ Kf8 32. Qb4+ Kg8 33.
+Qc4+ 1/2-1/2
+
+[Event "Montcada op A"]
+[Site "Montcada i Reixac"]
+[Date "2016.06.29"]
+[Round "5"]
+[White "Grigoryan, Karen H"]
+[Black "Ortega Amarelle, Mariano"]
+[Result "1-0"]
+[ECO "C67"]
+[WhiteElo "2604"]
+[BlackElo "2473"]
+[PlyCount "57"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Nxe5 Be7 7. Bf1 Nxe5
+8. Rxe5 O-O 9. Nc3 Ne8 10. Nd5 Bd6 11. Re1 c6 12. Ne3 Be7 13. c4 Nf6 14. Nf5
+Bc5 15. b4 Bxb4 16. Qb3 Qa5 17. Nxg7 Ng4 18. Bb2 Bc5 19. Re2 Qc7 20. g3 d5 21.
+cxd5 cxd5 22. Qxd5 Qb6 23. d4 Bb4 24. Nh5 Qg6 25. Nf4 Qf5 26. Bg2 Nf6 27. Qb3
+Bd6 28. d5 Bd7 29. Qc3 1-0
+
+[Event "Montcada op A"]
+[Site "Montcada i Reixac"]
+[Date "2016.06.30"]
+[Round "6"]
+[White "Popovic, Dusan"]
+[Black "Grigoryan, Karen H"]
+[Result "1/2-1/2"]
+[ECO "B30"]
+[WhiteElo "2523"]
+[BlackElo "2604"]
+[PlyCount "25"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 e6 4. c3 Nge7 5. O-O a6 6. Ba4 c4 7. Bc2 Ng6 8. b3
+b5 9. a4 Bb7 10. Na3 d5 11. exd5 Qxd5 12. Re1 Na5 13. axb5 1/2-1/2
+
+[Event "Montcada op A"]
+[Site "Montcada i Reixac"]
+[Date "2016.07.01"]
+[Round "7"]
+[White "Grigoryan, Karen H"]
+[Black "Vera Siguenas, Deivy"]
+[Result "0-1"]
+[ECO "E84"]
+[WhiteElo "2604"]
+[BlackElo "2492"]
+[PlyCount "116"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 Nc6 7. Nge2 a6 8. Qd2
+Rb8 9. Rc1 Bd7 10. Nd1 e5 11. d5 Ne7 12. c5 Ne8 13. b4 f5 14. Nec3 Nf6 15. Be2
+Kh8 16. Nb2 Neg8 17. Nc4 fxe4 18. fxe4 Ng4 19. Bxg4 Bxg4 20. h3 Bc8 21. Kd1 Qe7
+22. Kc2 Bd7 23. Kb3 h6 24. a4 Kh7 25. Qd3 Nf6 26. Na5 Be8 27. Nxb7 Rxb7 28. c6
+Rb8 29. Qxa6 h5 30. g4 Ng8 31. g5 Rf4 32. h4 Bf7 33. Qd3 Qe8 34. Ka3 Ne7 35. b5
+Ra8 36. Rcf1 Ra5 37. Bxf4 exf4 38. Rxf4 Bg8 39. Rf6 Bxf6 40. gxf6 Nc8 41. Kb4
+Ra8 42. Qd4 Bf7 43. a5 Qd8 44. Na4 Kg8 45. Rb1 g5 46. Rf1 g4 47. Rf5 Kh7 48.
+Nb2 Na7 49. Nc4 Nxb5 50. Kxb5 Qb8+ 51. Ka4 Qb1 52. Na3 Qe1 53. Qb4 Qd1+ 54. Nc2
+Qxc2+ 55. Ka3 Qc1+ 56. Ka2 Qc2+ 57. Ka3 Re8 58. Rf4 Qc1+ 0-1
+
+[Event "Montcada op A"]
+[Site "Montcada i Reixac"]
+[Date "2016.07.02"]
+[Round "8"]
+[White "Debashis, Das"]
+[Black "Grigoryan, Karen H"]
+[Result "1/2-1/2"]
+[ECO "E90"]
+[WhiteElo "2459"]
+[BlackElo "2604"]
+[PlyCount "84"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be3 c6 7. Be2 e5 8. d5 Ng4
+9. Bg5 f6 10. Bh4 Na6 11. c5 Nxc5 12. b4 cxd5 13. bxc5 d4 14. Na4 dxc5 15. O-O
+Qd6 16. Ne1 Nh6 17. Bc4+ Kh8 18. Nd3 b6 19. Bd5 Rb8 20. Qb3 Bd7 21. Rac1 Ng8
+22. Nab2 g5 23. Bg3 Ne7 24. Nc4 Qc7 25. a4 Nxd5 26. exd5 Be8 27. f4 gxf4 28.
+Nxf4 Bf7 29. Ne6 Bxe6 30. dxe6 Qe7 31. Rce1 Qxe6 32. Qd3 Rbe8 33. Re4 a6 34.
+Rfe1 b5 35. axb5 axb5 36. Rh4 h6 37. Qg6 Re7 38. Nxe5 fxe5 39. Rxh6+ Bxh6 40.
+Bxe5+ Qxe5 41. Qxh6+ Kg8 42. Rxe5 Rxe5 1/2-1/2
+
+[Event "Montcada op A"]
+[Site "Montcada i Reixac"]
+[Date "2016.07.03"]
+[Round "9"]
+[White "Grigoryan, Karen H"]
+[Black "Munoz, Miguel"]
+[Result "1-0"]
+[ECO "A43"]
+[WhiteElo "2604"]
+[BlackElo "2454"]
+[PlyCount "94"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 c5 3. d5 e6 4. Nc3 exd5 5. Nxd5 Nxd5 6. Qxd5 Nc6 7. e4 Nb4 8.
+Qd1 Qe7 9. e5 Nc6 10. Bc4 d6 11. O-O Nxe5 12. Nxe5 dxe5 13. Qf3 Qf6 14. Bb5+
+Kd8 15. Qg3 Kc7 16. f4 Be6 17. fxe5 Qg6 18. Qf2 Rd8 19. Be3 b6 20. a4 a5 21. c3
+Qe4 22. b4 axb4 23. cxb4 Qxb4 24. Rab1 Qa5 25. Rfc1 Rd5 26. Bc4 Be7 27. Bxd5
+Bxd5 28. e6 Bxe6 29. Bd2 Qa6 30. a5 Rd8 31. Bf4+ Kc8 32. axb6 Rd7 33. Ra1 Qb5
+34. Ra8+ Kb7 35. Rb8+ Kc6 36. Qc2 Rd4 37. Qf2 Qd3 38. h3 c4 39. Bg3 Bc5 40. b7
+Bb6 41. Kh2 Rd6 42. Qa2 c3 43. Qa4+ Kc7 44. Qa8 Kd7 45. Re8 Bc7 46. Qc8+ Kc6
+47. Qxc7+ Kd5 1-0
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.04"]
+[Round "1"]
+[White "Grigoryan, Karen H"]
+[Black "Newrkla, Katharina"]
+[Result "1-0"]
+[ECO "B81"]
+[WhiteElo "2555"]
+[BlackElo "2182"]
+[PlyCount "73"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. h3 e6 7. g4 d5 8. exd5
+Nxd5 9. Nde2 Bb4 10. Bg2 Nc6 11. O-O Nxc3 12. Qxd8+ Nxd8 13. Nxc3 Bxc3 14. bxc3
+Bd7 15. Ba3 Rc8 16. Rfd1 f6 17. Rd2 h5 18. Be4 Rh6 19. g5 fxg5 20. Bf8 Kxf8 21.
+Rxd7 Nf7 22. Bxb7 Rxc3 23. Bxa6 Ne5 24. Ra7 g4 25. Rb1 Kg8 26. hxg4 hxg4 27.
+Rb8+ Kh7 28. Rc8 Nf3+ 29. Kg2 Rxc8 30. Bxc8 Ne1+ 31. Kg3 Nxc2 32. Ra4 Rf6 33.
+Bb7 Ne1 34. Rxg4 g6 35. Be4 e5 36. Rh4+ Kg7 37. Rh1 1-0
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.05"]
+[Round "2"]
+[White "Rojas Keim, Luis Alberto"]
+[Black "Grigoryan, Karen H"]
+[Result "0-1"]
+[ECO "B22"]
+[WhiteElo "2334"]
+[BlackElo "2555"]
+[PlyCount "68"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. c3 Nf6 3. e5 Nd5 4. d4 cxd4 5. Nf3 e6 6. cxd4 d6 7. Bc4 Be7 8. O-O
+O-O 9. Qe2 Bd7 10. Bxd5 exd5 11. Nc3 Be6 12. Bf4 Nc6 13. Rad1 dxe5 14. Nxe5
+Nxe5 15. Bxe5 Qd7 16. Rd3 Bf5 17. Re3 Bg5 18. Bxg7 Kxg7 19. Rg3 Kh6 20. Qf3 f6
+21. Nxd5 Rae8 22. h4 Bxh4 23. Ne3 Bg6 24. Rh3 Re4 25. g4 Kg5 26. Kg2 Rf4 27.
+Qe2 Re8 28. Qc4 Qxd4 29. Qc1 Bd3 30. Rxh4 Bxf1+ 31. Qxf1 Rxe3 32. Qb5+ Re5 33.
+Rh5+ Kg6 34. Qxb7 Rxg4+ 0-1
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.06"]
+[Round "3"]
+[White "Grigoryan, Karen H"]
+[Black "Ojas, Kulkarni"]
+[Result "1-0"]
+[ECO "D02"]
+[WhiteElo "2555"]
+[BlackElo "2351"]
+[PlyCount "57"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. g3 d5 2. Bg2 Nf6 3. Nf3 Nc6 4. d4 Bf5 5. O-O e6 6. Nbd2 Be7 7. a3 Ne4 8. c4
+Nxd2 9. Bxd2 Be4 10. Qa4 O-O 11. Bc3 dxc4 12. Qxc4 Qd5 13. Qxd5 exd5 14. b4 a5
+15. b5 Na7 16. a4 Nc8 17. Rfc1 Nb6 18. Ra2 Rfd8 19. Bd2 Nc4 20. Bf4 Bd6 21. Nd2
+Bxg2 22. Kxg2 Nb6 23. Rxc7 Bxc7 24. Bxc7 Nc4 25. Bxd8 Rxd8 26. Nxc4 dxc4 27.
+Kf3 Rxd4 28. Ke3 Rd1 29. Rd2 1-0
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.07"]
+[Round "4"]
+[White "Smirnov, Artem"]
+[Black "Grigoryan, Karen H"]
+[Result "0-1"]
+[ECO "A42"]
+[WhiteElo "2401"]
+[BlackElo "2555"]
+[PlyCount "80"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d6 2. Nf3 g6 3. c4 Bg7 4. Nc3 Nd7 5. e4 e5 6. d5 Ne7 7. h4 Nf6 8. Be2 c6
+9. Nd2 h5 10. Nb3 a6 11. Be3 cxd5 12. cxd5 b5 13. a3 Ng4 14. Bxg4 hxg4 15. Qd2
+Bd7 16. g3 Rc8 17. O-O f5 18. Bg5 Rc4 19. Qe3 Kf7 20. exf5 gxf5 21. f3 gxf3 22.
+Rxf3 Qc7 23. Raf1 Rf8 24. Ne4 Kg8 25. Bxe7 Rxe4 26. Qg5 Rf7 27. h5 Rg4 28. Qxg4
+fxg4 29. Rxf7 Be8 30. Rf8+ Bxf8 31. Rxf8+ Kh7 32. Rxe8 Qd7 33. Ra8 Qxe7 34. Na5
+Qf7 35. Nc6 Qxd5 36. Rc8 Qd1+ 37. Kh2 Qe2+ 38. Kg1 Qe3+ 39. Kh2 Qf2+ 40. Kh1
+Qxg3 0-1
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.08"]
+[Round "5"]
+[White "Grigoryan, Karen H"]
+[Black "Burmakin, Vladimir"]
+[Result "1-0"]
+[ECO "B10"]
+[WhiteElo "2555"]
+[BlackElo "2505"]
+[PlyCount "87"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c6 2. Ne2 d5 3. e5 Bf5 4. Ng3 Bg6 5. h4 h5 6. e6 Qd6 7. exf7+ Bxf7 8. d4
+e5 9. dxe5 Qxe5+ 10. Be2 Nd7 11. Nd2 Ngf6 12. Nf3 Qc7 13. Ng5 Nc5 14. Qd4 Ne6
+15. Nxe6 Bxe6 16. Bg5 Qa5+ 17. c3 O-O-O 18. O-O Qb6 19. Qxb6 axb6 20. Rfe1 Bd7
+21. Bd3 b5 22. Nf5 Re8 23. Rxe8+ Nxe8 24. Ne7+ Bxe7 25. Bxe7 Nc7 26. Re1 b6 27.
+Re5 Ne6 28. g3 Re8 29. Bd6 Rh8 30. b4 Rh6 31. Be7 Kc7 32. f4 d4 33. f5 Nd8 34.
+cxd4 Nf7 35. Re2 Nd6 36. Bg5 Rh8 37. Re7 Kc8 38. Bf4 Ne8 39. Rf7 Rg8 40. Be5
+Nf6 41. Kg2 Ng4 42. Bxg7 Ne3+ 43. Kf3 Nxf5 44. Bxf5 1-0
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.09"]
+[Round "6"]
+[White "Soysal, Serkan"]
+[Black "Grigoryan, Karen H"]
+[Result "1/2-1/2"]
+[ECO "A70"]
+[WhiteElo "2367"]
+[BlackElo "2555"]
+[PlyCount "34"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e6 4. Nc3 exd5 5. cxd5 d6 6. e4 g6 7. Nf3 Bg7 8. h3
+O-O 9. Bd3 b5 10. Bxb5 Nxe4 11. Nxe4 Qa5+ 12. Nfd2 Qxb5 13. Nxd6 Qa6 14. N2c4
+Nd7 15. O-O Ne5 16. Nxc8 Raxc8 17. Nxe5 Bxe5 1/2-1/2
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.10"]
+[Round "7"]
+[White "Grigoryan, Karen H"]
+[Black "Himanshu, Sharma"]
+[Result "1/2-1/2"]
+[ECO "D10"]
+[WhiteElo "2555"]
+[BlackElo "2498"]
+[PlyCount "29"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. cxd5 cxd5 5. Bf4 Nc6 6. e3 a6 7. Bd3 Bg4 8. Qb3
+Na5 9. Qa4+ Nc6 10. h3 Bh5 11. Qb3 Na5 12. Qa4+ Nc6 13. Qb3 Na5 14. Qa4+ Nc6
+15. Qb3 1/2-1/2
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.11"]
+[Round "8"]
+[White "Grigoryan, Karen H"]
+[Black "Perez Mitjans, Orelvis"]
+[Result "1/2-1/2"]
+[ECO "C18"]
+[WhiteElo "2555"]
+[BlackElo "2407"]
+[PlyCount "43"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Ne7 7. Qg4 Qc7 8.
+Qxg7 Rg8 9. Qxh7 cxd4 10. Ne2 Nbc6 11. f4 Bd7 12. Qd3 dxc3 13. h4 O-O-O 14. h5
+d4 15. h6 Kb8 16. h7 Rh8 17. Rb1 Bc8 18. g4 Nd5 19. Bg2 b6 20. Rh6 Bb7 21. Be4
+Qc8 22. Qf3 1/2-1/2
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.12"]
+[Round "9"]
+[White "Dhulipalla, Bala Chandra Prasad"]
+[Black "Grigoryan, Karen H"]
+[Result "1/2-1/2"]
+[ECO "A43"]
+[WhiteElo "2335"]
+[BlackElo "2555"]
+[PlyCount "38"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 c5 2. d5 g6 3. e4 Bg7 4. Nc3 d6 5. Nf3 Bg4 6. Be2 Bxf3 7. Bxf3 Nd7 8. O-O
+Ngf6 9. Be3 O-O 10. a4 Qa5 11. Ra3 a6 12. Be2 Rab8 13. h3 Ne8 14. Qc1 Nef6 15.
+Rd1 Rfc8 16. Qa1 h6 17. f4 h5 18. Qc1 Re8 19. Qd2 Nb6 1/2-1/2
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.13"]
+[Round "1"]
+[White "Blasco Coll, Andreu"]
+[Black "Grigoryan, Karen H"]
+[Result "0-1"]
+[ECO "E82"]
+[WhiteElo "2144"]
+[BlackElo "2555"]
+[PlyCount "76"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d6 2. e4 g6 3. c4 Bg7 4. Nc3 Nf6 5. f3 O-O 6. Be3 b6 7. Nge2 c5 8. d5 e6
+9. Ng3 exd5 10. cxd5 h5 11. Be2 a6 12. a4 Nh7 13. O-O h4 14. Nh1 f5 15. Qd2 Ra7
+16. Nf2 Re7 17. Rab1 Nd7 18. Bh6 Bxh6 19. Qxh6 Rg7 20. Qd2 f4 21. b4 Ne5 22.
+bxc5 bxc5 23. Rb8 Qc7 24. Rfb1 h3 25. Nxh3 Bxh3 26. Rxf8+ Nxf8 27. gxh3 g5 28.
+Kh1 Qc8 29. Qd1 Qxh3 30. Qf1 Rh7 31. Qxh3 Rxh3 32. Kg2 g4 33. Nd1 gxf3+ 34.
+Kxh3 fxe2 35. Nf2 c4 36. Kg2 Nfg6 37. Re1 Nh4+ 38. Kh3 Nhf3 0-1
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.14"]
+[Round "2"]
+[White "Grigoryan, Karen H"]
+[Black "Srijit, Paul"]
+[Result "1-0"]
+[ECO "A04"]
+[WhiteElo "2555"]
+[BlackElo "2247"]
+[PlyCount "73"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. Nf3 f5 2. d3 Nf6 3. e4 d6 4. exf5 Bxf5 5. d4 Qd7 6. Bd3 Nc6 7. O-O e5 8.
+Bxf5 Qxf5 9. c4 e4 10. Nh4 Qd7 11. Nc3 O-O-O 12. f3 exf3 13. Nxf3 d5 14. c5 Ne4
+15. Ne2 Be7 16. b4 Bf6 17. b5 Nb8 18. c6 bxc6 19. bxc6 Qxc6 20. Bf4 Nd6 21. Rb1
+Nc4 22. Nc3 a6 23. Qd3 Nd7 24. Rfc1 Ndb6 25. a4 g5 26. Bg3 g4 27. a5 gxf3 28.
+axb6 f2+ 29. Bxf2 cxb6 30. Nxd5 Qxd5 31. Rxb6 Rd6 32. Rxc4+ Kd7 33. Qh3+ Ke8
+34. Rxd6 Qxd6 35. Qh5+ Kf8 36. d5 Kg7 37. Bc5 1-0
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.15"]
+[Round "3"]
+[White "Tissir, Mohamed"]
+[Black "Grigoryan, Karen H"]
+[Result "1/2-1/2"]
+[ECO "B86"]
+[WhiteElo "2354"]
+[BlackElo "2555"]
+[PlyCount "58"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bc4 b5 7. Bb3 Bb7 8. O-O
+Nbd7 9. Re1 Nc5 10. Qf3 e6 11. a3 Nxb3 12. cxb3 Be7 13. Qg3 O-O 14. Bh6 Ne8 15.
+Be3 Kh8 16. Rad1 Qc7 17. Nf3 e5 18. Nh4 g6 19. f4 Ng7 20. fxe5 dxe5 21. Nd5
+Bxd5 22. exd5 Bd6 23. Bh6 f5 24. Rc1 Qf7 25. Nf3 Rae8 26. Ng5 Qa7+ 27. Kh1 Rf6
+28. Rc6 Nh5 29. Qc3 Qd7 1/2-1/2
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.16"]
+[Round "4"]
+[White "Grigoryan, Karen H"]
+[Black "Gutierrez Olivares, Daniel"]
+[Result "1-0"]
+[ECO "E05"]
+[WhiteElo "2555"]
+[BlackElo "2352"]
+[PlyCount "61"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. g3 Nf6 2. Bg2 e6 3. Nf3 d5 4. O-O Be7 5. c4 O-O 6. d4 dxc4 7. Qc2 a6 8. a4
+Nc6 9. Qxc4 a5 10. Nc3 Nb4 11. Rd1 b6 12. Ne5 Ba6 13. Qb3 Rc8 14. e4 c5 15.
+dxc5 Qc7 16. Bf4 g5 17. cxb6 Qc5 18. b7 Rc7 19. Be3 Qxe5 20. Bd4 Qxd4 21. Rxd4
+e5 22. Rd2 Rxb7 23. Bf1 Nc6 24. Qd1 Bxf1 25. Kxf1 Nd4 26. Rxd4 exd4 27. Qxd4
+Rd8 28. Qe5 Ng4 29. Qf5 Nh6 30. Qxa5 Rxb2 31. Nd5 1-0
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.17"]
+[Round "5"]
+[White "Grigoryan, Karen H"]
+[Black "Perez Mitjans, Orelvis"]
+[Result "1-0"]
+[ECO "E80"]
+[WhiteElo "2555"]
+[BlackElo "2407"]
+[PlyCount "107"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 Nf6 2. Nc3 g6 3. d4 Bg7 4. e4 d6 5. f3 e5 6. d5 Nfd7 7. h4 h5 8. Bg5 Bf6
+9. Qd2 a5 10. O-O-O Na6 11. Bd3 Kf8 12. Bb1 Kg7 13. Rf1 Qe7 14. g3 Nb6 15. b3
+a4 16. Kb2 axb3 17. axb3 Nc5 18. Bc2 Bd7 19. Nge2 Bxg5 20. hxg5 c6 21. f4 exf4
+22. gxf4 Rhe8 23. Ng3 Bg4 24. Rh4 cxd5 25. Qd4+ f6 26. exd5 Nbd7 27. Nge4 Nxe4
+28. Nxe4 Kf7 29. Rxg4 f5 30. Rg2 fxe4 31. Re2 Qd8 32. b4 b5 33. cxb5 Qc7 34.
+Bxe4 Kg8 35. Rc2 Nc5 36. bxc5 Qa5 37. Kc1 dxc5 38. Qc4 Qa3+ 39. Kd2 Ra4 40.
+Qxc5 Qg3 41. Bd3 Rxf4 42. Qg1 Qh4 43. Rc6 Rxf1 44. Qxf1 Qb4+ 45. Kd1 Qa4+ 46.
+Kd2 Qb4+ 47. Rc3 Rf8 48. Qe2 h4 49. Qe6+ Kh8 50. Qe5+ Kg8 51. d6 Qb2+ 52. Bc2
+h3 53. Qe6+ Rf7 54. Qxg6+ 1-0
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.18"]
+[Round "6"]
+[White "Quirhuayo Chumbe, German Gonzalo"]
+[Black "Grigoryan, Karen H"]
+[Result "0-1"]
+[ECO "B94"]
+[WhiteElo "2376"]
+[BlackElo "2555"]
+[PlyCount "120"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 Nbd7 7. Qe2 h6 8.
+Bh4 g6 9. O-O-O Bg7 10. f4 e5 11. Nf3 Qc7 12. fxe5 dxe5 13. Qc4 Qa5 14. Be1 Qc5
+15. Bg3 O-O 16. Nxe5 b5 17. Qxc5 Nxc5 18. Bd3 Bb7 19. Rhe1 Rac8 20. Nd5 Nxd5
+21. exd5 Bxd5 22. Bf5 Rcd8 23. Bh4 g5 24. Bf2 Na4 25. Bd4 Bxg2 26. b3 Rxd4 27.
+Rxd4 Nc3 28. Rd2 Re8 29. Rxg2 Bxe5 30. Rf1 Nxa2+ 31. Kd2 Kf8 32. Ke3 Bxh2+ 33.
+Kf3 Bf4 34. Re2 Rd8 35. Ra1 Nc3 36. Rf2 Ra8 37. Rff1 a5 38. Bd3 a4 39. bxa4
+Rxa4 40. Rh1 Kg7 41. Rae1 Bd6 42. Re8 Rf4+ 43. Kg2 b4 44. Rd8 Rf6 45. Rf1 Bf4
+46. Rd4 h5 47. Kh1 Rb6 48. Bc4 f5 49. Bd3 Kg6 50. Re1 h4 51. Rd8 Rf6 52. Re7
+Kh5 53. Rh8+ Kg4 54. Kg2 Bd6 55. Rg7 f4 56. Rhg8 f3+ 57. Kf1 Bf4 58. Rg6 Rxg6
+59. Rxg6 Kg3 60. Rb6 Nd5 0-1
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.19"]
+[Round "7"]
+[White "Fernandez, Fernando"]
+[Black "Grigoryan, Karen H"]
+[Result "1/2-1/2"]
+[ECO "C84"]
+[WhiteElo "2424"]
+[BlackElo "2555"]
+[PlyCount "23"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 d6 7. c3 O-O 8. Re1
+b5 9. Bc2 Bb7 10. Nbd2 Re8 11. Nf1 Bf8 12. Bg5 1/2-1/2
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.20"]
+[Round "8"]
+[White "Grigoryan, Karen H"]
+[Black "Cuartas, Jaime Alexander"]
+[Result "1/2-1/2"]
+[ECO "D45"]
+[WhiteElo "2555"]
+[BlackElo "2501"]
+[PlyCount "137"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. Nf3 d5 2. c4 c6 3. e3 Nf6 4. Nc3 e6 5. b3 Nbd7 6. Qc2 a6 7. d4 c5 8. cxd5
+exd5 9. Bb2 Be7 10. Rd1 O-O 11. Be2 b5 12. dxc5 Nxc5 13. Nd4 Bb7 14. Nf5 Rc8
+15. Qb1 Re8 16. Bf3 Bf8 17. O-O Nfe4 18. Nxe4 Nxe4 19. Qd3 Qg5 20. Ng3 Qg6 21.
+Rc1 Ng5 22. Be2 Qxd3 23. Bxd3 g6 24. Ne2 Ne6 25. Rfd1 Rxc1 26. Rxc1 Rc8 27.
+Rxc8 Bxc8 28. Be5 Bg7 29. Bxg7 Kxg7 30. b4 f5 31. Kf1 Kf6 32. Ke1 Bb7 33. g3
+Ke5 34. f4+ Kd6 35. Kd2 Bc6 36. Kc3 Be8 37. Ng1 Ke7 38. Nf3 Kd6 39. h3 h5 40.
+Bf1 Bc6 41. Ne5 d4+ 42. exd4 h4 43. gxh4 Nxf4 44. Nxc6 Kxc6 45. Kd2 Kd6 46. a3
+Ke7 47. Ke3 Nd5+ 48. Kf3 Kf6 49. Bg2 Nb6 50. Kf4 Nc4 51. Bb7 Nxa3 52. Bxa6 Nc2
+53. Bxb5 Nxb4 54. Bc4 Nc6 55. d5 Ne5 56. Be2 Nf7 57. Bb5 Nd6 58. Bd7 Nc4 59.
+Be6 Nb6 60. h5 g5+ 61. Ke3 g4 62. hxg4 fxg4 63. Kf4 g3 64. Kxg3 Nxd5 65. Bxd5
+Kg7 66. Kg4 Kh8 67. h6 Kh7 68. Kg5 Kh8 69. Kg6 1/2-1/2
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.21"]
+[Round "9"]
+[White "Henriquez Villagra, Cristobal"]
+[Black "Grigoryan, Karen H"]
+[Result "0-1"]
+[ECO "C54"]
+[WhiteElo "2532"]
+[BlackElo "2555"]
+[PlyCount "70"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 O-O 6. O-O d6 7. h3 a6 8. Bb3
+Ba7 9. Nbd2 Ne7 10. Re1 Ng6 11. Nf1 b5 12. Ng3 Bb7 13. d4 c5 14. Bc2 cxd4 15.
+cxd4 exd4 16. Nxd4 d5 17. e5 Ne4 18. Ngf5 Nxe5 19. f3 g6 20. Nh6+ Kh8 21. fxe4
+dxe4 22. Be3 Nc4 23. Bf2 e3 24. Rxe3 Bxd4 25. Rf3 Bxf2+ 26. Rxf2 f5 27. Qe1 Qf6
+28. Re2 Bc6 29. Re6 Qd4+ 30. Kh1 Rae8 31. Rd1 Rxe6 32. Qxe6 Bxg2+ 33. Kxg2 Ne3+
+34. Kg3 Nxd1 35. Bxd1 Qg1+ 0-1
+
+[Event "Sitges op 43rd"]
+[Site "Sitges"]
+[Date "2017.07.22"]
+[Round "1"]
+[White "Meza Ponce, Jerry"]
+[Black "Grigoryan, Karen H"]
+[Result "0-1"]
+[ECO "A48"]
+[WhiteElo "2116"]
+[BlackElo "2555"]
+[PlyCount "96"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Bf4 c5 3. e3 cxd4 4. exd4 g6 5. Nf3 Bg7 6. c3 O-O 7. h3 d6 8. Be2
+Qb6 9. Qb3 Qc7 10. O-O Nc6 11. a4 e5 12. Bh2 e4 13. Ne1 Na5 14. Qa3 Rd8 15. Nc2
+Be6 16. Nd2 Qd7 17. b4 Nc6 18. c4 d5 19. c5 Ne8 20. Qc3 f5 21. b5 Ne7 22. Nb4
+g5 23. c6 Qc8 24. Rac1 f4 25. Rfd1 Rd6 26. cxb7 Qxb7 27. Na6 Nf5 28. Nb3 Qf7
+29. Nac5 e3 30. f3 Nf6 31. Nxe6 Rxe6 32. Qd3 Nh5 33. Rc6 Nhg3 34. Bxg3 Nxg3 35.
+Rdc1 Rxc6 36. Rxc6 Qe7 37. Rc5 Rd8 38. Nc1 Qf6 39. Nb3 Qg6 40. Rc1 Qd6 41. Bd1
+Qb4 42. Kh2 Re8 43. Bc2 e2 44. Nc5 e1=Q 45. Qxh7+ Kf8 46. Nd7+ Ke7 47. Qxg7+
+Kd6 48. Nc5 Nf1+ 0-1
+
+[Event "Sitges op 43rd"]
+[Site "Sitges"]
+[Date "2017.07.23"]
+[Round "2"]
+[White "Grigoryan, Karen H"]
+[Black "Deshmukh, Anup"]
+[Result "1/2-1/2"]
+[ECO "A43"]
+[WhiteElo "2555"]
+[BlackElo "2241"]
+[PlyCount "61"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 g6 3. d4 Bg7 4. d5 d6 5. Nc3 a6 6. a4 Nd7 7. Bc4 Ne5 8. Nxe5
+Bxe5 9. f4 Bd4 10. Ne2 Bg7 11. O-O Nh6 12. h3 Bd7 13. Qd3 Qc7 14. c3 O-O 15. g4
+b5 16. axb5 axb5 17. Rxa8 Rxa8 18. Bxb5 Bxb5 19. Qxb5 Kf8 20. f5 Ng8 21. Qd3
+Qb6 22. Qf3 g5 23. h4 h6 24. hxg5 hxg5 25. Kg2 Qb3 26. Ng3 Ra1 27. Qe2 Rb1 28.
+Qd3 Ra1 29. Kh3 Be5 30. Bxg5 Qxb2 31. Rxa1 1/2-1/2
+
+[Event "Sitges op 43rd"]
+[Site "Sitges"]
+[Date "2017.07.24"]
+[Round "3"]
+[White "Abhishek, Das"]
+[Black "Grigoryan, Karen H"]
+[Result "0-1"]
+[ECO "B23"]
+[WhiteElo "2274"]
+[BlackElo "2555"]
+[PlyCount "78"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nc3 g6 3. f4 Bg7 4. Nf3 Nc6 5. Bc4 e6 6. d3 Nge7 7. O-O d5 8. Bb3
+O-O 9. a4 Nd4 10. Nxd4 cxd4 11. Ne2 dxe4 12. dxe4 b6 13. Bc4 Bb7 14. Bd3 Nc6
+15. Qe1 a5 16. Bd2 Qe7 17. g4 Nb4 18. Bxb4 axb4 19. Nc1 e5 20. f5 gxf5 21. gxf5
+Kh8 22. Kh1 Rg8 23. Na2 Rxa4 24. b3 Raa8 25. f6 Bxf6 26. Nxb4 Rxa1 27. Qxa1
+Qxb4 28. Rxf6 Qd2 29. Qf1 Qe3 30. Rxf7 Bxe4+ 31. Bxe4 Qxe4+ 32. Qf3 Qxf3+ 33.
+Rxf3 Rc8 34. Rf2 Kg7 35. Kg2 Rf8 36. Rd2 b5 37. Re2 Rf5 38. b4 Kf6 39. Rd2 Ke6
+0-1
+
+[Event "Sitges op 43rd"]
+[Site "Sitges"]
+[Date "2017.07.25"]
+[Round "4"]
+[White "Grigoryan, Karen H"]
+[Black "Martinez, Ayelen"]
+[Result "1-0"]
+[ECO "B90"]
+[WhiteElo "2555"]
+[BlackElo "2279"]
+[PlyCount "79"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nb3 Be7 8. f3
+Be6 9. Qd2 Nbd7 10. O-O-O h5 11. Kb1 Qc7 12. h3 Rc8 13. Be2 Nb6 14. g4 Nc4 15.
+Bxc4 Qxc4 16. g5 Nd7 17. f4 exf4 18. Bxf4 Ne5 19. Nd4 O-O 20. Nf5 Bxf5 21. exf5
+Bd8 22. Bxe5 dxe5 23. Nd5 Rc5 24. Qg2 Qh4 25. f6 g6 26. Rhe1 Qc4 27. b3 Qb5 28.
+Rxe5 Kh7 29. Nc3 Qb4 30. Rxc5 Qxc5 31. Qxb7 Kg8 32. Nd5 a5 33. a4 Qf2 34. Ne7+
+Kh7 35. Nc6 Bb6 36. Ne5 Kg8 37. Nxf7 Rxf7 38. Qc8+ Rf8 39. Qe6+ Kh8 40. Qe7 1-0
+
+[Event "Sitges op 43rd"]
+[Site "Sitges"]
+[Date "2017.07.26"]
+[Round "5"]
+[White "Oblitas Guerrero, Carlomagno"]
+[Black "Grigoryan, Karen H"]
+[Result "1-0"]
+[ECO "A48"]
+[WhiteElo "2395"]
+[BlackElo "2555"]
+[PlyCount "139"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Bf4 g6 3. e3 Bg7 4. Nf3 O-O 5. Be2 d6 6. h3 Nfd7 7. O-O e5 8. Bh2
+Nc6 9. c4 f5 10. Nc3 g5 11. dxe5 dxe5 12. Qd5+ Kh8 13. Rad1 Qe7 14. Qd2 g4 15.
+Nd5 gxf3 16. Nxe7 fxe2 17. Qxe2 Nxe7 18. Rd2 Nc6 19. Rfd1 Nc5 20. Rd5 Ne4 21.
+f3 Nd6 22. a3 Be6 23. Rc5 Rac8 24. Qc2 f4 25. exf4 exf4 26. Kh1 Bf5 27. Qf2 Bg6
+28. b3 Rce8 29. Rcd5 Rf7 30. Qd2 Ref8 31. h4 h6 32. Re1 a5 33. Re6 Bh7 34. a4
+b6 35. c5 bxc5 36. Rxc5 Nd4 37. Rxh6 Bxh6 38. Qxd4+ Kg8 39. Rxa5 Nf5 40. Qd2
+Re7 41. Qb4 Rg7 42. Ra6 Nd6 43. Qd2 Re7 44. a5 Re3 45. Qd5+ Kh8 46. Bg1 Bg8 47.
+Qh5 Re6 48. Qc5 Bg7 49. Bd4 Rg6 50. Bxg7+ Rxg7 51. Rc6 Rf5 52. Qc3 Nb5 53. Rh6+
+Bh7 54. Qd3 Rgf7 55. a6 Kg7 56. Rc6 Rc5 57. Qf1 Rxc6 58. Qxb5 Rc1+ 59. Kh2 c5
+60. Qa5 Ra7 61. Qb6 Rf7 62. Qa5 Ra7 63. b4 Bd3 64. b5 Rc2 65. Qd8 Bxb5 66. Qg5+
+Kh8 67. Qh6+ Kg8 68. Qg6+ Rg7 69. Qxc2 Bxa6 70. Qa2+ 1-0
+
+[Event "Sitges op 43rd"]
+[Site "Sitges"]
+[Date "2017.07.27"]
+[Round "6"]
+[White "Grigoryan, Karen H"]
+[Black "Debarshi, Mukherjee"]
+[Result "1-0"]
+[ECO "D32"]
+[WhiteElo "2555"]
+[BlackElo "2301"]
+[PlyCount "51"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. c4 e5 2. Nc3 Bb4 3. Nd5 Bc5 4. Nf3 c6 5. Nc3 d6 6. d4 exd4 7. Nxd4 Nf6 8. e3
+O-O 9. Be2 d5 10. cxd5 cxd5 11. O-O Nc6 12. Nxc6 bxc6 13. b3 Be7 14. Bb2 c5 15.
+Bf3 Be6 16. Ne2 Qd6 17. Nf4 Rad8 18. Qc2 Ng4 19. Rfd1 d4 20. h3 Ne5 21. Be4 Nc6
+22. Bxh7+ Kh8 23. Be4 Nb4 24. Qe2 Qe5 25. Nxe6 fxe6 26. exd4 1-0
+
+[Event "Sitges op 43rd"]
+[Site "Sitges"]
+[Date "2017.07.28"]
+[Round "7"]
+[White "Grigoryan, Karen H"]
+[Black "Karim, Ismael"]
+[Result "1-0"]
+[ECO "A53"]
+[WhiteElo "2555"]
+[BlackElo "2361"]
+[PlyCount "73"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 d6 2. d4 Nf6 3. f3 Nbd7 4. c4 e5 5. Ne2 Be7 6. Nbc3 c6 7. Be3 a6 8. d5 h5
+9. Qd2 O-O 10. Nc1 Ne8 11. Nb3 c5 12. Be2 g6 13. g4 Ng7 14. g5 h4 15. f4 exf4
+16. Bxf4 f6 17. gxf6 Rxf6 18. Rg1 Rxf4 19. Qxf4 g5 20. Qd2 Ne5 21. O-O-O g4 22.
+Kb1 Bg5 23. Qe1 Qf6 24. Nc1 Bd7 25. Nd3 b5 26. Nxe5 Qxe5 27. Bxg4 Bxg4 28. Rxg4
+bxc4 29. Rg2 Rb8 30. Rc2 Bf6 31. Qe2 Ne8 32. Rg1+ Kh8 33. Qf1 Qd4 34. Rg6 Rb7
+35. Qf5 Bg7 36. Re6 Nc7 37. Re7 1-0
+
+[Event "Sitges op 43rd"]
+[Site "Sitges"]
+[Date "2017.07.29"]
+[Round "8"]
+[White "Oliva Castaneda, Kevel"]
+[Black "Grigoryan, Karen H"]
+[Result "1/2-1/2"]
+[ECO "D97"]
+[WhiteElo "2497"]
+[BlackElo "2555"]
+[PlyCount "31"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Qb3 dxc4 6. Qxc4 O-O 7. e4 a6 8. Be2
+b5 9. Qb3 c5 10. dxc5 Be6 11. Qc2 Nbd7 12. Be3 Rc8 13. Rd1 b4 14. Nd5 Bxd5 15.
+exd5 Nxc5 16. O-O 1/2-1/2
+
+[Event "Sitges op 43rd"]
+[Site "Sitges"]
+[Date "2017.07.29"]
+[Round "9"]
+[White "Grigoryan, Karen H"]
+[Black "Garriga Cazorla, Pere"]
+[Result "0-1"]
+[ECO "B30"]
+[WhiteElo "2555"]
+[BlackElo "2400"]
+[PlyCount "80"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c5 2. b3 Nf6 3. e5 Nd5 4. Bb2 Nc6 5. Nf3 g6 6. Nc3 Nxc3 7. Bxc3 Bg7 8. g3
+O-O 9. Bg2 d5 10. exd6 e5 11. O-O Qxd6 12. Ng5 Nd4 13. Re1 h6 14. Ne4 Qc7 15.
+d3 Bd7 16. a4 Rad8 17. Bxd4 cxd4 18. h4 f5 19. Nd2 Kh8 20. Nc4 Rfe8 21. Qd2 Bc6
+22. Bxc6 Qxc6 23. Qa5 e4 24. Qb5 Qf6 25. Qxb7 Re7 26. Qb4 f4 27. Re2 fxg3 28.
+fxg3 Rf7 29. Nd2 e3 30. Ne4 Qf3 31. Rg2 Rdf8 32. Re1 Qg4 33. a5 a6 34. Ra1 e2
+35. Re1 Rf1+ 36. Kh2 Be5 37. Qe7 Bb8 38. Rexe2 R1f7 39. Nf2 Bxg3+ 40. Rxg3
+Rxf2+ 0-1
+
+[Event "Badalona op 43rd"]
+[Site "Badalona"]
+[Date "2017.08.02"]
+[Round "1"]
+[White "Grigoryan, Karen H"]
+[Black "Castro Acosta, Andres"]
+[Result "1-0"]
+[ECO "C41"]
+[WhiteElo "2570"]
+[BlackElo "2116"]
+[PlyCount "51"]
+[EventDate "2017.08.02"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 e5 4. Nf3 Nbd7 5. Bc4 Be7 6. O-O O-O 7. a4 c6 8. Re1
+Qc7 9. b3 b6 10. Ba3 Bb7 11. Bd3 Rfe8 12. Qd2 Nf8 13. a5 Rad8 14. a6 exd4 15.
+Ne2 Bc8 16. Nexd4 Ng6 17. Qc3 Bd7 18. Bb2 Nh5 19. b4 Bf6 20. Qb3 Nhf4 21. Bc4
+d5 22. exd5 Nxd5 23. b5 Ne5 24. bxc6 Nxf3+ 25. Qxf3 Bxd4 26. cxd7 1-0
+
+[Event "Badalona op 43rd"]
+[Site "Badalona"]
+[Date "2017.08.03"]
+[Round "2"]
+[White "Mouhamad, Joachin"]
+[Black "Grigoryan, Karen H"]
+[Result "1/2-1/2"]
+[ECO "C91"]
+[WhiteElo "2295"]
+[BlackElo "2570"]
+[PlyCount "85"]
+[EventDate "2017.08.02"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3
+O-O 9. d4 Bg4 10. d5 Na5 11. Bc2 c6 12. h3 Bc8 13. dxc6 Qc7 14. Nbd2 Qxc6 15.
+Nf1 Nc4 16. b3 Nb6 17. Bd2 Re8 18. Bd3 Bb7 19. Ng3 Rad8 20. Qe2 h6 21. Rac1 Bf8
+22. c4 bxc4 23. bxc4 Na4 24. Nh2 Nc5 25. Rc3 d5 26. cxd5 Nxd5 27. Rxc5 Bxc5 28.
+exd5 Qxd5 29. Ne4 Qxd3 30. Nxc5 Qxd2 31. Qxd2 Rxd2 32. Nxb7 Rxa2 33. Ng4 f6 34.
+Rc1 Re7 35. Nd6 Re6 36. Rc8+ Kh7 37. Nf5 h5 38. Nge3 g6 39. Rc7+ Kh8 40. Rc8+
+Kh7 41. Rc7+ Kh8 42. Rc8+ Kh7 43. Rc7+ 1/2-1/2
+
+[Event "Badalona op 43rd"]
+[Site "Badalona"]
+[Date "2017.08.05"]
+[Round "4"]
+[White "Perpinya Rofes, Lluis Maria"]
+[Black "Grigoryan, Karen H"]
+[Result "0-1"]
+[ECO "B35"]
+[WhiteElo "2366"]
+[BlackElo "2570"]
+[PlyCount "178"]
+[EventDate "2017.08.02"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nc3 Nc6 3. Nge2 g6 4. d4 cxd4 5. Nxd4 Bg7 6. Be3 Nf6 7. Bc4 O-O 8.
+Bb3 d5 9. exd5 Na5 10. Qf3 Nxb3 11. axb3 Bg4 12. Qg3 Bh5 13. d6 Ng4 14. O-O Be5
+15. f4 Bxd6 16. h3 Nxe3 17. Qxe3 Bc5 18. Ra4 b5 19. Ncxb5 Qb6 20. Na3 Rfd8 21.
+c3 Qxb3 22. Rc4 Bxd4 23. Rxd4 Rxd4 24. Qxd4 Qxb2 25. Nc4 Qb3 26. Re1 Rc8 27.
+Rxe7 Qd1+ 28. Qxd1 Bxd1 29. Nd6 Ra8 30. Nxf7 a5 31. Ng5 a4 32. Nxh7 Ra6 33. Ng5
+a3 34. Re8+ Kg7 35. Re7+ Kf8 36. Re1 Bb3 37. Nf3 a2 38. Ra1 Rd6 39. Nd4 Bc4 40.
+Nc2 Rd2 41. Nb4 Kf7 42. Kh2 Re2 43. Rc1 Ke6 44. Kg3 Rb2 45. Re1+ Kd6 46. Rc1
+Kc5 47. Re1 Re2 48. Ra1 Rd2 49. Re1 Re2 50. Ra1 Kb5 51. Kf3 Rb2 52. Rc1 Ka4 53.
+g4 Ka3 54. Nxa2 Rxa2 55. Kg3 Kb2 56. Re1 Kxc3 57. Kh4 Kd4 58. Kg5 Bd3 59. Re8
+Be4 60. h4 Rg2 61. h5 gxh5 62. Kxh5 Ke3 63. Kg5 Kf3 64. f5 Rxg4+ 65. Kf6 Rf4
+66. Re5 Bd3 67. Rd5 Bc4 68. Rc5 Ba2 69. Rc3+ Kg4 70. Kg6 Bb1 71. Kf6 Rxf5+ 72.
+Ke7 Kf4 73. Rc1 Bd3 74. Kd6 Ke4 75. Rd1 Kd4 76. Ke6 Rg5 77. Kf6 Rg6+ 78. Kf7
+Ra6 79. Re1 Be4 80. Re2 Ke5 81. Re1 Ra7+ 82. Kf8 Kd5 83. Rd1+ Ke6 84. Re1 Rf7+
+85. Kg8 Rf4 86. Kg7 Rg4+ 87. Kf8 Kf6 88. Ke8 Bf5 89. Kf8 Rh4 0-1
+
+[Event "Badalona op 43rd"]
+[Site "Badalona"]
+[Date "2017.08.06"]
+[Round "5"]
+[White "Grigoryan, Karen H"]
+[Black "Himanshu, Sharma"]
+[Result "1-0"]
+[ECO "B31"]
+[WhiteElo "2570"]
+[BlackElo "2514"]
+[PlyCount "65"]
+[EventDate "2017.08.02"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. Bxc6 bxc6 5. O-O Bg7 6. Re1 Nh6 7. c3 O-O 8.
+d4 cxd4 9. cxd4 d5 10. e5 Bg4 11. Nbd2 Qb6 12. h3 Bxf3 13. Nxf3 f6 14. b3 fxe5
+15. dxe5 Nf5 16. Re2 Ng3 17. Rc2 Ne4 18. Be3 Qa6 19. Rac1 Rfd8 20. Rxc6 Qa5 21.
+Qe2 Rd7 22. Rc8+ Rd8 23. R8c7 Qa3 24. R1c6 a6 25. Qc2 Re8 26. Rd7 Rad8 27. Rxd8
+Rxd8 28. Rc8 Rf8 29. Qc6 Qa5 30. Qe6+ Kh8 31. Rxf8+ Bxf8 32. Qc8 Kg7 33. Bh6+
+1-0
+
+[Event "Badalona op 43rd"]
+[Site "Badalona"]
+[Date "2017.08.07"]
+[Round "6"]
+[White "Petrosyan, Tigran S"]
+[Black "Grigoryan, Karen H"]
+[Result "1/2-1/2"]
+[ECO "D20"]
+[WhiteElo "2430"]
+[BlackElo "2570"]
+[PlyCount "25"]
+[EventDate "2017.08.02"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 dxc4 3. e4 Nf6 4. e5 Nd5 5. Bxc4 Nb6 6. Bb3 Nc6 7. Nf3 Bg4 8.
+Ng5 Bxd1 9. Bxf7+ Kd7 10. Be6+ Ke8 11. Bf7+ Kd7 12. Be6+ Ke8 13. Bf7+ 1/2-1/2
+
+[Event "Badalona op 43rd"]
+[Site "Badalona"]
+[Date "2017.08.08"]
+[Round "7"]
+[White "Grigoryan, Karen H"]
+[Black "Iniyan, Panneerseluam"]
+[Result "1/2-1/2"]
+[ECO "D94"]
+[WhiteElo "2570"]
+[BlackElo "2404"]
+[PlyCount "124"]
+[EventDate "2017.08.02"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. e3 g6 5. Nf3 Bg7 6. h3 O-O 7. Be2 dxc4 8. Bxc4
+b5 9. Bd3 Nbd7 10. e4 b4 11. Na4 Qc7 12. Qc2 e5 13. dxe5 Nxe5 14. Nxe5 Qxe5 15.
+O-O Re8 16. Bd2 c5 17. Qxc5 Bd7 18. Qxe5 Rxe5 19. Bf4 Ra5 20. b3 Bxa4 21. bxa4
+Nh5 22. Bc7 Rxa4 23. e5 Rc8 24. Bd6 Nf4 25. Bb5 Ra5 26. Rac1 Rd8 27. Bc4 Bxe5
+28. Bxb4 Ra4 29. a3 a5 30. Bc5 Rd2 31. Rfe1 Bb2 32. Bb5 Ne2+ 33. Kf1 Re4 34.
+Rb1 Re5 35. Ba7 Rxb5 36. Rxe2 Rxe2 37. Kxe2 Rb7 38. a4 Rxa7 39. Rxb2 Rc7 40.
+Rb5 Rc2+ 41. Ke3 Rc3+ 42. Kd2 Ra3 43. Rxa5 h5 44. h4 Kg7 45. g3 Kf6 46. Ke2 Ke6
+47. Kf1 Ra2 48. Kg2 Ra3 49. Ra8 Kf6 50. a5 Ke6 51. a6 Kf6 52. f3 Kg7 53. Kf2
+Kh7 54. Ke2 Kg7 55. g4 g5 56. hxg5 hxg4 57. f4 Ra2+ 58. Kf1 Ra4 59. f5 Rf4+ 60.
+Kg2 Rxf5 61. a7 Ra5 62. Kg3 Ra4 1/2-1/2
+
+[Event "Badalona op 43rd"]
+[Site "Badalona"]
+[Date "2017.08.09"]
+[Round "8"]
+[White "Salinas Herrera, Pablo Patricio"]
+[Black "Grigoryan, Karen H"]
+[Result "0-1"]
+[ECO "B57"]
+[WhiteElo "2411"]
+[BlackElo "2570"]
+[PlyCount "42"]
+[EventDate "2017.08.02"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bc4 Bd7 7. Nxc6 Bxc6 8.
+Qe2 g6 9. f4 Bg7 10. Bb3 O-O 11. O-O e6 12. f5 exf5 13. exf5 Re8 14. Qc4 d5 15.
+Qh4 Ne4 16. Qxd8 Raxd8 17. Nxe4 Rxe4 18. Bg5 Rde8 19. fxg6 hxg6 20. Bf6 Bf8 21.
+Rad1 Bb5 0-1
+
+[Event "Badalona op 43rd"]
+[Site "Badalona"]
+[Date "2017.08.10"]
+[Round "9"]
+[White "Grigoryan, Karen H"]
+[Black "Fernandez, Fernando"]
+[Result "1-0"]
+[ECO "A14"]
+[WhiteElo "2570"]
+[BlackElo "2455"]
+[PlyCount "87"]
+[EventDate "2017.08.02"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. c4 e6 2. Nf3 Nf6 3. g3 d5 4. b3 Be7 5. Bg2 O-O 6. O-O c5 7. Bb2 d4 8. b4 a5
+9. bxc5 Bxc5 10. Na3 e5 11. Nb5 Re8 12. e3 Nc6 13. exd4 exd4 14. d3 Bf5 15. h3
+h6 16. g4 Bh7 17. Ne1 Qe7 18. f4 Na7 19. Nxa7 Rxa7 20. Nc2 Qe2 21. f5 b6 22.
+Re1 Qxd1 23. Raxd1 Rxe1+ 24. Rxe1 g6 25. Rf1 gxf5 26. gxf5 Nh5 27. Rf3 Re7 28.
+Kf2 Rd7 29. h4 Rd6 30. Bh3 Kf8 31. Na3 Rd8 32. Bc1 Kg7 33. Nb5 Be7 34. Bb2 Bc5
+35. a4 Kf6 36. Nc7 Rg8 37. Nd5+ Ke5 38. Bc1 Kd6 39. f6 b5 40. Ne7 Re8 41. cxb5
+Nxf6 42. Nc8+ Ke5 43. Bxh6 Nd5 44. Rxf7 1-0
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.18"]
+[Round "1"]
+[White "Grigoryan, Karen H"]
+[Black "Debard, Michel"]
+[Result "1-0"]
+[ECO "E68"]
+[WhiteElo "2570"]
+[BlackElo "2104"]
+[PlyCount "125"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. Nf3 Nf6 2. g3 g6 3. Bg2 Bg7 4. O-O O-O 5. c4 d6 6. d4 Nbd7 7. Nc3 e5 8. e4
+Re8 9. h3 exd4 10. Nxd4 Nc5 11. Re1 a6 12. Qc2 Rb8 13. Be3 Bd7 14. b4 Ne6 15.
+Rad1 Qc8 16. Nb3 h6 17. f4 c5 18. bxc5 Nxc5 19. Nxc5 dxc5 20. e5 Bxh3 21. exf6
+Bxf6 22. Nd5 Bg7 23. Bxh3 Qxh3 24. Qg2 Qxg2+ 25. Kxg2 Re4 26. Rc1 b5 27. cxb5
+Rxb5 28. Re2 Ra5 29. Kf3 f5 30. Nc3 Rc4 31. Rec2 Bd4 32. Nb1 Bxe3 33. Kxe3 Re4+
+34. Kf3 g5 35. Nc3 Ra3 36. Kf2 Rd4 37. Ne2 Re4 38. Rd2 gxf4 39. gxf4 c4 40.
+Rg1+ Kf7 41. Rg3 Rxg3 42. Kxg3 Re3+ 43. Kf2 Ra3 44. Rc2 h5 45. Nd4 Kf6 46. Rxc4
+Rxa2+ 47. Kg3 a5 48. Rc6+ Ke7 49. Nxf5+ Kd7 50. Ra6 Kc7 51. Nd6 Rd2 52. Ne8+
+Kd8 53. Nf6 Ra2 54. Nxh5 Kc7 55. f5 Kb7 56. f6 Kxa6 57. f7 Ra3+ 58. Kg4 Rb3 59.
+f8=Q a4 60. Nf4 a3 61. Ne6 Ka5 62. Nd4 Rb4 63. Qc5+ 1-0
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.19"]
+[Round "2"]
+[White "Lapiccirella, Daniele"]
+[Black "Grigoryan, Karen H"]
+[Result "0-1"]
+[ECO "A65"]
+[WhiteElo "2275"]
+[BlackElo "2570"]
+[PlyCount "70"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e6 4. Nc3 exd5 5. cxd5 d6 6. e4 g6 7. Nge2 Bg7 8. Ng3
+O-O 9. Be2 a6 10. a4 h5 11. Bg5 Qc7 12. Qd2 Re8 13. O-O Nh7 14. Bh6 Bh8 15. Bd3
+h4 16. Nge2 h3 17. g3 Nd7 18. f3 Ne5 19. Be3 Rb8 20. Rac1 Qa5 21. Nf4 b5 22.
+axb5 axb5 23. Be2 b4 24. Nd1 c4 25. Bd4 Qa2 26. Rc2 Bd7 27. Ne3 Rec8 28. Bxe5
+dxe5 29. Bxc4 Rxc4 30. Nxc4 exf4 31. Qxf4 Qa7+ 32. Kh1 b3 33. Nd6 f5 34. Re2
+Qa6 35. Rfe1 Ra8 0-1
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.20"]
+[Round "3"]
+[White "Grigoryan, Karen H"]
+[Black "Debray, Christopher"]
+[Result "1-0"]
+[ECO "B12"]
+[WhiteElo "2570"]
+[BlackElo "2358"]
+[PlyCount "67"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 c6 2. d4 d5 3. e5 c5 4. dxc5 e6 5. Qg4 h5 6. Qg3 h4 7. Qg4 Nh6 8. Bxh6
+Rxh6 9. Nf3 g6 10. Nc3 Bxc5 11. O-O-O Bd7 12. Qf4 Rh5 13. Bd3 Be7 14. Kb1 a6
+15. Rhe1 Qb6 16. Nd4 Ba3 17. Nb3 Be7 18. Be2 Rh8 19. Rxd5 exd5 20. Nxd5 g5 21.
+Nxb6 gxf4 22. Nxa8 Bc6 23. Nd4 Bxg2 24. e6 b5 25. Nc7+ Kd8 26. exf7 Kxc7 27.
+Bf3 Bxf3 28. Rxe7+ Kd8 29. Re8+ Rxe8 30. fxe8=Q+ Kxe8 31. Nxf3 Kf7 32. Kc1 Kf6
+33. Kd2 Kf5 34. h3 1-0
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.21"]
+[Round "4"]
+[White "Diaz Camallonga, Carles"]
+[Black "Grigoryan, Karen H"]
+[Result "0-1"]
+[ECO "B56"]
+[WhiteElo "2437"]
+[BlackElo "2570"]
+[PlyCount "92"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. g3 Bg4 7. f3 Bd7 8. Bg2
+g6 9. Nde2 Qb6 10. b3 Bg7 11. Bb2 O-O 12. Qd2 a5 13. Na4 Qa6 14. c4 Ne5 15.
+Nac3 a4 16. f4 a3 17. Bc1 Bh3 18. fxe5 Bxg2 19. exf6 Bxf6 20. Rf1 Bxf1 21. Kxf1
+e6 22. Qd3 d5 23. Qf3 Bg7 24. exd5 exd5 25. Rb1 dxc4 26. Nd5 Rad8 27. Bg5 f6
+28. Bf4 g5 29. Bc7 Rd7 30. bxc4 Qxc4 31. Nb6 Qd3 32. Qxd3 Rxd3 33. Na4 Rd2 34.
+Nac3 Rb2 35. Ba5 Re8 36. Rxb2 axb2 37. Bb4 f5 38. Nb1 Rd8 39. Ke1 f4 40. gxf4
+gxf4 41. Bc3 f3 42. Bxg7 fxe2 43. Bxb2 Rd1+ 44. Kxe2 Rxb1 45. Be5 Rb5 46. Bd6
+Rb6 0-1
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.22"]
+[Round "5"]
+[White "Grigoryan, Karen H"]
+[Black "Karthik, Venkataraman"]
+[Result "1/2-1/2"]
+[ECO "B28"]
+[WhiteElo "2570"]
+[BlackElo "2316"]
+[PlyCount "61"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 a6 3. c3 e6 4. d4 d5 5. e5 Bd7 6. Be3 Qb6 7. Qd2 Nh6 8. c4 Nf5
+9. dxc5 Bxc5 10. Bxc5 Qxc5 11. cxd5 Qxd5 12. Qxd5 exd5 13. Nc3 Be6 14. O-O-O
+Nc6 15. Nxd5 O-O-O 16. Bc4 Na5 17. Nb6+ Kc7 18. Bxe6 fxe6 19. Na4 b6 20. Ng5
+Rde8 21. Kb1 Nc6 22. Rc1 h6 23. Nf3 Rd8 24. Rhd1 Rxd1 25. Rxd1 Rf8 26. Nc3 g5
+27. Ne2 g4 28. Nd2 Nh4 29. g3 Ng6 30. Ne4 Rf5 31. Rc1 1/2-1/2
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.23"]
+[Round "6"]
+[White "Erdogdu, Mert"]
+[Black "Grigoryan, Karen H"]
+[Result "1/2-1/2"]
+[ECO "A22"]
+[WhiteElo "2415"]
+[BlackElo "2570"]
+[PlyCount "160"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. c4 e5 2. Nc3 Nf6 3. g3 Bb4 4. Bg2 O-O 5. e4 Bxc3 6. bxc3 c6 7. Ne2 d5 8.
+cxd5 cxd5 9. exd5 Nxd5 10. O-O Nc6 11. h3 Be6 12. d4 Qa5 13. Bd2 exd4 14. cxd4
+Qd8 15. Kh2 Qd7 16. a4 Rad8 17. a5 Nde7 18. Re1 Bd5 19. f3 Bc4 20. Qa4 Bxe2 21.
+Rxe2 Nxd4 22. Rf2 Nec6 23. f4 Rfe8 24. Qc4 a6 25. Re1 h5 26. Rxe8+ Qxe8 27. Qc3
+Qe6 28. Qb2 Qb3 29. Bc3 Qxb2 30. Rxb2 Nb5 31. Bxc6 bxc6 32. Bb4 Rd4 33. Bc5 Ra4
+34. Bb6 c5 35. Bxc5 Rxa5 36. Rd2 Ra4 37. f5 Nc3 38. Rd8+ Kh7 39. Bb6 Ne4 40.
+Bc7 Ra2+ 41. Kg1 Ng5 42. h4 Nh3+ 43. Kh1 Nf2+ 44. Kg1 Ng4 45. Bf4 a5 46. Rd7 f6
+47. Ra7 Nh6 48. Bxh6 Kxh6 49. Ra6 a4 50. Kf1 a3 51. Kg1 Kh7 52. Ra8 g6 53. Ra7+
+Kh6 54. Ra6 gxf5 55. Rxf6+ Kg7 56. Ra6 Kf7 57. Kf1 Ke7 58. Ke1 Kf7 59. Kf1 Ke7
+60. Ke1 Kd7 61. Kd1 Ra1+ 62. Kc2 a2 63. Kb3 Rg1 64. Rxa2 Rxg3+ 65. Kc4 Ke6 66.
+Kd4 Rg4+ 67. Ke3 Rxh4 68. Ra8 Rh1 69. Kf4 Rf1+ 70. Kg3 Rg1+ 71. Kf3 h4 72. Rh8
+Rg3+ 73. Kf4 Rg4+ 74. Kf3 Ra4 75. Re8+ Kf7 76. Rh8 Kg7 77. Rh5 Kf6 78. Rh8 h3
+79. Rxh3 Ra3+ 80. Kf4 Rxh3 1/2-1/2
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.24"]
+[Round "7"]
+[White "Grigoryan, Karen H"]
+[Black "Goh, Wei Ming Kevin"]
+[Result "1/2-1/2"]
+[ECO "D97"]
+[WhiteElo "2570"]
+[BlackElo "2446"]
+[PlyCount "36"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Qb3 dxc4 6. Qxc4 O-O 7. e4 Na6 8.
+Be2 c5 9. d5 e6 10. O-O exd5 11. exd5 Re8 12. Bg5 h6 13. Bh4 Bf5 14. Bd3 Bxd3
+15. Qxd3 Nb4 16. Qc4 Nbxd5 17. Rad1 Nb6 18. Qxc5 Qc8 1/2-1/2
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.25"]
+[Round "8"]
+[White "Martin, Julian"]
+[Black "Grigoryan, Karen H"]
+[Result "1-0"]
+[ECO "B90"]
+[WhiteElo "2353"]
+[BlackElo "2570"]
+[PlyCount "63"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. h3 g6 7. g4 Bg7 8. Be3
+h5 9. g5 Nfd7 10. Qd2 O-O 11. O-O-O b5 12. f4 Bb7 13. Bg2 Nb6 14. b3 b4 15. Nd5
+Nxd5 16. exd5 Qa5 17. Kb1 Rc8 18. f5 Rc5 19. fxg6 fxg6 20. Qd3 Kh7 21. Be4 Bxd5
+22. Bxg6+ Kg8 23. Rhf1 Nd7 24. Bh7+ Kh8 25. Bf5 e6 26. Bg6 Nf8 27. Qe2 Nxg6 28.
+Qxh5+ Kg8 29. Qxg6 Rc7 30. Nxe6 Re7 31. Bd4 Bxe6 32. Bxg7 1-0
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.26"]
+[Round "9"]
+[White "Grigoryan, Karen H"]
+[Black "Kleinman, Michael"]
+[Result "1-0"]
+[ECO "D78"]
+[WhiteElo "2570"]
+[BlackElo "2340"]
+[PlyCount "87"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. g3 g6 2. Bg2 Bg7 3. d4 d5 4. Nf3 Nf6 5. O-O O-O 6. c4 c6 7. Qb3 Qb6 8. Nc3
+Rd8 9. Qa3 dxc4 10. Qxe7 Re8 11. Qa3 Nd5 12. e4 Nxc3 13. bxc3 Qa6 14. Qb4 Nd7
+15. Bf4 b6 16. Nd2 c5 17. Qxc4 Qxc4 18. Nxc4 Ba6 19. Nd6 Bxf1 20. Rxf1 Re7 21.
+e5 Rd8 22. Nb5 h6 23. Bc1 Nf8 24. f4 a6 25. Nd6 cxd4 26. cxd4 Rxd6 27. exd6
+Bxd4+ 28. Kh1 Re6 29. Ba3 Re3 30. Rd1 Rxa3 31. Rxd4 Rxa2 32. h4 g5 33. d7 Nxd7
+34. Rxd7 gxf4 35. g4 Ra1+ 36. Kh2 Ra2 37. Kg1 Ra3 38. Kf2 Rg3 39. Bf3 f6 40.
+Rd4 Rh3 41. Rxf4 h5 42. Kg2 Rxh4 43. Kg3 Rxg4+ 44. Bxg4 1-0
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.27"]
+[Round "10"]
+[White "Suarez Uriel, Adrian"]
+[Black "Grigoryan, Karen H"]
+[Result "0-1"]
+[ECO "B81"]
+[WhiteElo "2406"]
+[BlackElo "2570"]
+[PlyCount "66"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. h3 e6 7. g4 Be7 8. g5
+Nfd7 9. h4 b5 10. Bd3 Bb7 11. Qh5 O-O 12. Be3 b4 13. Nce2 Ne5 14. Nf4 g6 15.
+Qe2 Nxd3+ 16. Nxd3 e5 17. Nb3 Bxe4 18. f3 Bf5 19. Nxb4 d5 20. Nd3 Nc6 21. O-O-O
+a5 22. a4 Rc8 23. f4 Nb4 24. Nxb4 Bxb4 25. c3 Qd7 26. Qb5 Qxb5 27. axb5 a4 28.
+Na1 d4 29. Bxd4 exd4 30. Rxd4 Bc5 31. Rxa4 Be3+ 32. Kd1 Rcd8+ 33. Ke2 Rfe8 0-1
+
+[Event "Barbera op"]
+[Site "Barbera del Valles"]
+[Date "2013.07.04"]
+[Round "1"]
+[White "Grigoryan, KH."]
+[Black "Gomez Jurado, LA."]
+[Result "1-0"]
+[ECO "D35"]
+[WhiteElo "2550"]
+[BlackElo "2273"]
+[PlyCount "65"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. cxd5 exd5 5. Bg5 Bb4 6. e3 Nbd7 7. Bd3 c5 8.
+Nge2 c4 9. Bc2 O-O 10. O-O Qa5 11. f3 Re8 12. Qc1 h6 13. Bh4 Be7 14. Be1 Qd8
+15. e4 Nb6 16. e5 Nh7 17. Qb1 Nf8 18. f4 f6 19. Bf2 fxe5 20. dxe5 Bg4 21. f5
+Bxe2 22. Nxe2 Nbd7 23. e6 Bf6 24. Rd1 Nb8 25. Be4 Nc6 26. Bxd5 Ne7 27. Bxb7 Qa5
+28. Bxa8 Rxa8 29. Bd4 Nxf5 30. Bxf6 gxf6 31. Qe4 Re8 32. Nf4 Qe5 33. Re1 1-0
+
+[Event "Barbera op"]
+[Site "Barbera del Valles"]
+[Date "2013.07.05"]
+[Round "2"]
+[White "Gagare, S."]
+[Black "Grigoryan, KH."]
+[Result "1/2-1/2"]
+[ECO "A16"]
+[WhiteElo "2419"]
+[BlackElo "2550"]
+[PlyCount "60"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. c4 Nf6 2. g3 g6 3. Bg2 Bg7 4. Nc3 O-O 5. Nf3 d5 6. cxd5 Nxd5 7. O-O c5 8.
+Qb3 Nb6 9. d3 Nc6 10. Be3 Nd4 11. Bxd4 cxd4 12. Na4 Be6 13. Qa3 Nxa4 14. Qxa4
+Bd5 15. Rfc1 e5 16. Nd2 Bxg2 17. Kxg2 Bh6 18. Rc2 Qd5+ 19. f3 Bxd2 20. Rxd2
+Rfc8 21. Rc2 b5 22. Rxc8+ Rxc8 23. Qxa7 Rc2 24. Kf2 e4 25. dxe4 Qc4 26. Qb8+
+Kg7 27. Qe5+ Kg8 28. Qb8+ Kg7 29. Qe5+ Kg8 30. Qb8+ Kg7 1/2-1/2
+
+[Event "Barbera op"]
+[Site "Barbera del Valles"]
+[Date "2013.07.06"]
+[Round "3"]
+[White "Grigoryan, KH."]
+[Black "Sachdev, T."]
+[Result "1-0"]
+[ECO "D37"]
+[WhiteElo "2550"]
+[BlackElo "2430"]
+[PlyCount "61"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. Nf3 Nf6 5. Bf4 O-O 6. Rc1 c5 7. dxc5 Bxc5 8. e3
+Nc6 9. a3 a6 10. b4 Ba7 11. c5 Bb8 12. Be2 h6 13. O-O e5 14. Bg3 d4 15. exd4
+exd4 16. Na4 Bxg3 17. hxg3 Bf5 18. Bd3 Bg4 19. Nb6 Rb8 20. Qb3 Qc7 21. Nc4 Rbd8
+22. Rfe1 Be6 23. Qb2 Bxc4 24. Bxc4 Rfe8 25. Rxe8+ Rxe8 26. a4 Qd7 27. b5 axb5
+28. axb5 Na5 29. Bd3 Qd5 30. Qb4 Qb3 31. Qxd4 1-0
+
+[Event "Barbera op"]
+[Site "Barbera del Valles"]
+[Date "2013.07.07"]
+[Round "4"]
+[White "Ivanov, S."]
+[Black "Grigoryan, KH."]
+[Result "1/2-1/2"]
+[ECO "D55"]
+[WhiteElo "2555"]
+[BlackElo "2550"]
+[PlyCount "121"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. Nf3 Nf6 5. Bg5 h6 6. Bxf6 Bxf6 7. e3 O-O 8. Rc1
+b6 9. Be2 dxc4 10. Bxc4 Bb7 11. O-O c5 12. dxc5 bxc5 13. Qe2 Nd7 14. Rfd1 Qc8
+15. Nb5 Bxf3 16. gxf3 Nb6 17. b3 Rd8 18. Rxd8+ Qxd8 19. Rd1 Qe7 20. Nd6 Be5 21.
+Ne4 f5 22. Ng3 Kh8 23. f4 Bf6 24. Qf3 Rc8 25. Ba6 Rc7 26. a4 Rd7 27. a5 Rxd1+
+28. Qxd1 Nd5 29. Nxf5 Qc7 30. Bc4 Nxf4 31. Qd6 Qxa5 32. Qxf4 exf5 33. Qxf5 Qd8
+34. Kg2 Qa8+ 35. Bd5 Qe8 36. Be4 Kg8 37. f4 a5 38. Bd5+ Kh8 39. e4 Qd8 40. Qe6
+c4 41. e5 Be7 42. Bxc4 Bc5 43. Bd5 Be3 44. Kf3 Bc1 45. Qf7 Qc8 46. e6 Ba3 47.
+Be4 Qc3+ 48. Kg4 Qf6 49. Qe8+ Qf8 50. Qxf8+ Bxf8 51. Bg6 Be7 52. Bf7 g5 53. f5
+Kg7 54. Kf3 Kf6 55. Ke4 Bb4 56. h3 Be1 57. Bg6 Bb4 58. Kd5 Be7 59. Kc6 Bb4 60.
+Kd7 Be7 61. Ke8 1/2-1/2
+
+[Event "Barbera op"]
+[Site "Barbera del Valles"]
+[Date "2013.07.08"]
+[Round "5"]
+[White "Grigoryan, KH."]
+[Black "Pulvett, D."]
+[Result "0-1"]
+[ECO "D90"]
+[WhiteElo "2550"]
+[BlackElo "2405"]
+[PlyCount "86"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. h4 c6 6. Bg5 Ne4 7. Bf4 Qa5 8. e3
+dxc4 9. Bxc4 Nxc3 10. Qd2 b5 11. Bb3 b4 12. bxc3 bxc3 13. Qc2 Ba6 14. h5 Nd7
+15. hxg6 hxg6 16. Rxh8+ Bxh8 17. Ng5 e5 18. Nxf7 exf4 19. O-O-O Rb8 20. Rh1
+Qa3+ 21. Kd1 Rxb3 22. Rxh8+ Kxf7 23. Rh7+ Ke8 24. Qxg6+ Kd8 25. Qg8+ Kc7 26.
+Qxb3 Qxb3+ 27. axb3 fxe3 28. fxe3 Bd3 29. Rg7 Kd6 30. g4 Nf6 31. g5 Ne4 32.
+Rxa7 Nxg5 33. Ra2 Ne4 34. Rh2 Kc7 35. Rh5 Kb6 36. Kc1 Ng3 37. Rc5 Ne4 38. Rh5
+Nd2 39. Rh2 Nxb3+ 40. Kd1 Kb5 41. Ra2 Kb4 42. Rh2 Kc4 43. Rg2 Be4 0-1
+
+[Event "Barbera op"]
+[Site "Barbera del Valles"]
+[Date "2013.07.09"]
+[Round "6"]
+[White "Gonzalez Fuente, C."]
+[Black "Grigoryan, KH."]
+[Result "0-1"]
+[ECO "D99"]
+[WhiteElo "2269"]
+[BlackElo "2550"]
+[PlyCount "88"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 d5 5. Qb3 dxc4 6. Qxc4 O-O 7. e4 Nfd7 8.
+Be3 Nb6 9. Qb3 Bg4 10. Rd1 Nc6 11. d5 Ne5 12. Be2 Nxf3+ 13. gxf3 Bh3 14. Rg1
+Qb8 15. f4 c6 16. dxc6 bxc6 17. Rg3 Be6 18. Qb4 Nc4 19. Bc5 Qxb4 20. Bxb4 Nxb2
+21. Rb1 c5 22. Rxb2 cxb4 23. Rxb4 Rab8 24. a3 Rfc8 25. Rxb8 Rxb8 26. Nb5 Bd7
+27. a4 a6 28. Nc3 Rb3 29. Nd5 Rb1+ 30. Kd2 Rb2+ 31. Ke1 e6 32. Ne3 Rb6 33. a5
+Bc3+ 34. Kf1 Bxa5 35. Nc4 Rb1+ 36. Kg2 Bc7 37. e5 Bc6+ 38. Bf3 Bb5 39. Nd2 Re1
+40. h4 a5 41. h5 a4 42. Ne4 Bd8 43. Nd6 Bf1+ 44. Kh2 Bh4 0-1
+
+[Event "Barbera op"]
+[Site "Barbera del Valles"]
+[Date "2013.07.10"]
+[Round "7"]
+[White "Grigoryan, KH."]
+[Black "Perpinya Rofes, LM."]
+[Result "1-0"]
+[ECO "E91"]
+[WhiteElo "2550"]
+[BlackElo "2400"]
+[PlyCount "107"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 c5 7. O-O Re8 8. Be3
+Ng4 9. Bg5 h6 10. Bh4 cxd4 11. Nxd4 Bxd4 12. Qxd4 e5 13. Bxd8 exd4 14. Nd5 Rxd8
+15. Nc7 Nf6 16. Nxa8 Ne8 17. Rad1 Nc6 18. b4 Nxb4 19. Rxd4 Nc6 20. Rd2 Be6 21.
+c5 Rxa8 22. cxd6 Rd8 23. Rfd1 f5 24. exf5 gxf5 25. f4 Nf6 26. Bf3 Rd7 27. Rc1
+Na5 28. Rc7 b5 29. h3 Nc4 30. Rd4 Kf8 31. Rc8+ Kf7 32. Rc6 Kf8 33. Rc8+ Kg7 34.
+Ra8 Rxd6 35. Rxa7+ Bf7 36. Rxd6 Nxd6 37. Kf2 Nfe4+ 38. Ke3 b4 39. Bd1 Kf6 40.
+g4 Nc3 41. Bb3 Bxb3 42. axb3 Nd5+ 43. Kf3 Nb5 44. Ra6+ Kg7 45. gxf5 Nf6 46. Ke3
+Nc3 47. Kd4 Ne2+ 48. Ke5 Nd7+ 49. Kd6 Nf6 50. Ra7+ Kg8 51. Ke6 Nh5 52. Ra8+ Kg7
+53. f6+ Kg6 54. f5+ 1-0
+
+[Event "Barbera op"]
+[Site "Barbera del Valles"]
+[Date "2013.07.11"]
+[Round "8"]
+[White "Flores Rios, M."]
+[Black "Grigoryan, KH."]
+[Result "1-0"]
+[ECO "E00"]
+[WhiteElo "2492"]
+[BlackElo "2550"]
+[PlyCount "101"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 e6 3. g3 d5 4. Nf3 c5 5. cxd5 cxd4 6. dxe6 Bxe6 7. Nxd4 Bc5 8.
+e3 Bxd4 9. Bb5+ Nc6 10. Qxd4 Qe7 11. Bxc6+ bxc6 12. b3 c5 13. Qh4 Bd5 14. O-O
+Qe5 15. Qa4+ Kf8 16. Ba3 Ne4 17. Qd4 Qxd4 18. exd4 Ng5 19. Rc1 Nf3+ 20. Kg2
+Nxd4+ 21. Kf1 Kg8 22. Bxc5 Nf3 23. h4 Re8 24. Be3 Nh2+ 25. Ke2 Ng4 26. Rc7 Nxe3
+27. fxe3 h5 28. Nc3 Be6 29. Rxa7 Rh6 30. Ra4 Bg4+ 31. Kd2 Rf6 32. Rf4 Rd6+ 33.
+Rd4 Rf6 34. Re1 Rf3 35. a4 Rxg3 36. a5 Ra8 37. b4 Rh3 38. Ra1 Rxh4 39. a6 Rh2+
+40. Kd3 Rb2 41. a7 Bf3 42. Nb5 Rc8 43. e4 Be2+ 44. Ke3 Bxb5 45. a8=Q Rxa8 46.
+Rxa8+ Kh7 47. Ra5 Bc6 48. Rd6 Rb3+ 49. Kd2 Be8 50. Rxh5+ Kg8 51. Rd8 1-0
+
+[Event "Barbera op"]
+[Site "Barbera del Valles"]
+[Date "2013.07.12"]
+[Round "9"]
+[White "Grigoryan, KH."]
+[Black "Aryan, Ch"]
+[Result "1-0"]
+[ECO "D10"]
+[WhiteElo "2550"]
+[BlackElo "2122"]
+[PlyCount "61"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 c6 3. cxd5 cxd5 4. Nc3 Nc6 5. e4 Nf6 6. f3 dxe4 7. d5 Ne5 8. Bf4
+Ng6 9. Be3 e5 10. fxe4 Bd6 11. Bb5+ Bd7 12. Qa4 a6 13. Bxd7+ Qxd7 14. Qxd7+
+Nxd7 15. Nf3 Ke7 16. g3 Rhc8 17. Ke2 b5 18. Nd2 Bb4 19. Rhc1 Bxc3 20. Rxc3 Rxc3
+21. bxc3 Kd6 22. a4 Rb8 23. axb5 axb5 24. Ra6+ Kc7 25. Nb3 Ngf8 26. Kd3 Kb7 27.
+Ra7+ Kc8 28. Na5 b4 29. Nc6 bxc3 30. Nxb8 Kxb8 31. Kxc3 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.13"]
+[Round "1"]
+[White "Grigoryan, KH."]
+[Black "Pellus Ruiz, J."]
+[Result "1-0"]
+[ECO "A61"]
+[WhiteElo "2550"]
+[BlackElo "2171"]
+[PlyCount "63"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e6 4. Nc3 exd5 5. cxd5 d6 6. Nf3 g6 7. Nd2 a6 8. a4
+Bg7 9. Nc4 O-O 10. Bf4 Ne8 11. a5 Nd7 12. Qd2 Ne5 13. Nxe5 Bxe5 14. Bxe5 dxe5
+15. Na4 Nd6 16. Nxc5 Bd7 17. e3 Bb5 18. Bxb5 axb5 19. O-O Nc4 20. Qd3 Qc7 21.
+b4 Rfd8 22. e4 b6 23. axb6 Qxb6 24. Qc3 h5 25. g3 Re8 26. Kg2 Qd6 27. h4 Nb6
+28. Nb7 Qd7 29. Na5 Rac8 30. Qd3 Red8 31. Rfc1 Kg7 32. Rc5 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.14"]
+[Round "2"]
+[White "Eggleston, DJ."]
+[Black "Grigoryan, KH."]
+[Result "0-1"]
+[ECO "C54"]
+[WhiteElo "2363"]
+[BlackElo "2550"]
+[PlyCount "184"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 O-O 6. O-O d5 7. exd5 Nxd5 8.
+Re1 Bg4 9. h3 Bh5 10. b4 Bb6 11. b5 Na5 12. Rxe5 Nf6 13. Nbd2 Re8 14. g4 Bg6
+15. d4 Nxc4 16. Nxc4 Nd5 17. Bd2 f6 18. Rxe8+ Bxe8 19. a4 c6 20. Qe2 Bc7 21.
+Rb1 Qd7 22. Nh4 cxb5 23. axb5 Bf7 24. Qf3 Rc8 25. Ne3 Qd6 26. Nf1 Qa3 27. c4
+Qxf3 28. Nxf3 Nf4 29. Bxf4 Bxf4 30. c5 Bd5 31. Ne1 Be4 32. Rd1 Rd8 33. Ne3 Kf7
+34. N1g2 Bb8 35. d5 a5 36. bxa6 bxa6 37. Rd4 Bf3 38. Rb4 Be5 39. d6 Rc8 40. Ne1
+Bc3 41. d7 Rd8 42. Rf4 Ba8 43. N1c2 Rxd7 44. Rc4 Be5 45. Nb4 a5 46. c6 Rc7 47.
+Ned5 axb4 48. Nxc7 Bxc7 49. Rxb4 Ke6 50. Re4+ Kd6 51. Re8 Bxc6 52. Rg8 g5 53.
+Rh8 Be4 54. f3 Bxf3 55. Rxh7 Bb6+ 56. Kh2 Bf2 57. Rf7 Ke5 58. Rf8 Bd5 59. Re8+
+Kf4 60. Rf8 Bd4 61. Rd8 Be5 62. Kg1 Be4 63. Kf2 Bc7 64. Rf8 Bb6+ 65. Kf1 Bd4
+66. Rd8 Bc5 67. Rc8 Bb6 68. Rf8 Kg3 69. Rxf6 Be3 70. Re6 Bg2+ 71. Ke2 Bf4 72.
+Ra6 Bxh3 73. Ra3+ Kg2 74. Kd3 Kf3 75. Kd4+ Kxg4 76. Ra2 Bf1 77. Ke4 Bb5 78. Rc2
+Bd7 79. Rc5 Be8 80. Ra5 Bc6+ 81. Kd4 Kg3 82. Ra3+ Bf3 83. Kd3 g4 84. Ra1 Kh3
+85. Rf1 Kg2 86. Ra1 g3 87. Ra2+ Kh3 88. Ra7 g2 89. Ra1 Kg3 90. Rb1 Bc6 91. Kd4
+Bb5 92. Ke4 Bf1 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.15"]
+[Round "3"]
+[White "Grigoryan, KH."]
+[Black "Sequera Paolini, J."]
+[Result "1-0"]
+[ECO "A04"]
+[WhiteElo "2550"]
+[BlackElo "2394"]
+[PlyCount "139"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. Nf3 f5 2. g3 Nf6 3. Bg2 e6 4. O-O Be7 5. d3 O-O 6. c4 Nc6 7. a3 a5 8. Nc3
+Kh8 9. d4 Ne4 10. Bd2 Bf6 11. d5 Nxc3 12. Bxc3 Bxc3 13. bxc3 Nb8 14. dxe6 d6
+15. c5 Ra6 16. Nd4 Qe7 17. cxd6 Rxd6 18. Qc2 g6 19. Rab1 b6 20. e4 Bxe6 21.
+Nxe6 Qxe6 22. exf5 Qxf5 23. Qe2 Nd7 24. Rbd1 Re6 25. Qd2 Nc5 26. Rfe1 Rd6 27.
+Qe3 Nd3 28. Rf1 Rfd8 29. h3 Qc5 30. Qxc5 Nxc5 31. Rxd6 Rxd6 32. Re1 Rd3 33.
+Re8+ Kg7 34. Re7+ Kf8 35. Rxh7 Rxc3 36. Rxc7 Rxa3 37. Rc6 Rb3 38. Rxg6 a4 39.
+Bd5 Rd3 40. Ba2 Rd2 41. Bc4 Rd4 42. Rg8+ Ke7 43. Bb5 Rb4 44. Bc6 Kd6 45. Bxa4
+Rxa4 46. h4 b5 47. h5 Ra7 48. Rg4 Rh7 49. Rb4 Kc6 50. g4 Nd3 51. Rb3 Ne5 52. f3
+Kc5 53. Kg2 Kc4 54. Re3 Nd3 55. Re4+ Kc3 56. Re8 b4 57. Rc8+ Kd4 58. Rd8+ Kc3
+59. Rb8 Kc4 60. Kg3 b3 61. Kh4 b2 62. Rxb2 Nxb2 63. g5 Nd3 64. g6 Rd7 65. h6
+Ne5 66. g7 Rxg7 67. hxg7 Ng6+ 68. Kg5 Ne7 69. Kf6 Ng8+ 70. Ke6 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.16"]
+[Round "4"]
+[White "Asis Gargatagli, H."]
+[Black "Grigoryan, KH."]
+[Result "1-0"]
+[ECO "C66"]
+[WhiteElo "2487"]
+[BlackElo "2550"]
+[PlyCount "121"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 d6 5. O-O g6 6. d4 Bd7 7. Re1 Bg7 8. d5
+Ne7 9. a4 c6 10. dxc6 bxc6 11. Bc4 Qc7 12. Nc3 O-O 13. Bg5 h6 14. Bh4 Rad8 15.
+Bb3 g5 16. Bg3 Ng6 17. h4 g4 18. Nh2 h5 19. f3 Bh6 20. Kh1 Kg7 21. Rf1 Bc8 22.
+fxg4 Nxg4 23. Rf5 Bf4 24. Nxg4 hxg4 25. Qxg4 Rh8 26. Bf2 Rh7 27. g3 d5 28. gxf4
+Rdh8 29. Kg2 Qe7 30. Rh1 Rg8 31. Kf1 Kh8 32. fxe5 Nxe5 33. Qf4 Bxf5 34. Qxf5
+Rg6 35. h5 Rg5 36. Qc8+ Rg8 37. Qf5 Rg5 38. Qc8+ Rg8 39. Qh3 Rh6 40. Ke2 dxe4
+41. Nxe4 Ng4 42. Bd4+ f6 43. Qf3 Rg7 44. c3 Qb7 45. Nc5 Qe7+ 46. Ne6 c5 47.
+Bxc5 Qe8 48. Kd2 Ne5 49. Qe2 Qc6 50. Rf1 Rb7 51. Qxe5 fxe5 52. Rf8+ Kh7 53.
+Bc2+ e4 54. Bxe4+ Qxe4 55. Ng5+ Kg7 56. Nxe4 Rxb2+ 57. Kc1 Re2 58. Re8 Rxh5 59.
+Bd4+ Kg6 60. Re6+ Kf5 61. Re5+ 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.17"]
+[Round "5"]
+[White "Grigoryan, KH."]
+[Black "Anurag, M."]
+[Result "1/2-1/2"]
+[ECO "D10"]
+[WhiteElo "2550"]
+[BlackElo "2418"]
+[PlyCount "59"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 c6 3. cxd5 cxd5 4. Bf4 Nf6 5. Nc3 g6 6. e3 Bg7 7. Nf3 O-O 8. h3
+Nc6 9. Bb5 Ne4 10. Rc1 Qb6 11. Bd3 Qxb2 12. Nxe4 dxe4 13. Bxe4 e5 14. Bxe5 Nxe5
+15. dxe5 Qb4+ 16. Nd2 Rd8 17. Rc4 Qa5 18. Rd4 Rxd4 19. exd4 Bh6 20. g3 Be6 21.
+f4 Rd8 22. Qa1 g5 23. Rf1 Bxh3 24. Rh1 g4 25. Ke2 Qa3 26. Kf2 Bg7 27. Nb3 a5
+28. Rd1 a4 29. Nc1 Rc8 30. Ne2 {...} 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.18"]
+[Round "6"]
+[White "Aloma Vidal, R."]
+[Black "Grigoryan, KH."]
+[Result "0-1"]
+[ECO "A41"]
+[WhiteElo "2421"]
+[BlackElo "2550"]
+[PlyCount "78"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d6 2. Nf3 Bg4 3. e4 Nf6 4. Nc3 e6 5. Be2 c6 6. O-O d5 7. h3 Bh5 8. e5
+Nfd7 9. Bg5 Qb6 10. b3 Qa5 11. Na4 b5 12. Bd2 Qc7 13. Nb2 Ba3 14. Nd3 c5 15.
+dxc5 Bxc5 16. Nxc5 Qxc5 17. Be3 Qc7 18. c4 bxc4 19. bxc4 dxc4 20. Rc1 O-O 21.
+Rxc4 Qb7 22. g4 Bg6 23. Qd6 Qb2 24. Nd4 Nb6 25. Rc7 Nd5 26. Nxe6 fxe6 27. Qxe6+
+Kh8 28. Qxd5 Nc6 29. Bf3 Nxe5 30. Qxa8 Rxa8 31. Bxa8 h5 32. Rd1 hxg4 33. Rc8+
+Kh7 34. hxg4 Qe2 35. Rd4 Nxg4 36. Bd5 Nxe3 37. Rh4+ Bh5 38. Be4+ g6 39. Rc7+
+Kh6 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.19"]
+[Round "7"]
+[White "Grigoryan, KH."]
+[Black "Muñoz Pantoja, M."]
+[Result "1-0"]
+[ECO "A44"]
+[WhiteElo "2550"]
+[BlackElo "2457"]
+[PlyCount "105"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 c5 2. d5 Nf6 3. Nc3 d6 4. e4 e5 5. Nf3 Bg4 6. Be2 Bxf3 7. Bxf3 Be7 8. g3
+O-O 9. O-O Nbd7 10. a4 Qa5 11. Bd2 a6 12. b3 c4 13. Rb1 cxb3 14. cxb3 Rac8 15.
+b4 Qd8 16. a5 Ne8 17. Be2 Bg5 18. Be1 g6 19. Na4 f5 20. b5 Ra8 21. bxa6 bxa6
+22. Nb6 Ra7 23. exf5 gxf5 24. f4 exf4 25. gxf4 Bh6 26. Nxd7 Qxd7 27. Kh1 Qe7
+28. Bf2 Rd7 29. Rg1+ Ng7 30. Rb4 Qd8 31. Qa1 Qa8 32. Qd4 Rc7 33. Bf3 Qd8 34.
+Rb6 Rc2 35. Rxa6 Rxf2 36. Qxf2 Bxf4 37. Ra7 Be5 38. Qg2 Rf7 39. Rxf7 Kxf7 40.
+Qa2 Qa8 41. a6 Qa7 42. Rb1 Kf6 43. Qe2 Qd4 44. Qa2 Qe3 45. Rf1 Bd4 46. Qe2 Qc3
+47. Be4 Qc8 48. Qd3 Ba7 49. Qc2 Qxa6 50. Bd3 Qa5 51. Bxf5 Ke7 52. Qe4+ Kd8 53.
+Qh4+ 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.20"]
+[Round "8"]
+[White "Firman, N."]
+[Black "Grigoryan, KH."]
+[Result "1-0"]
+[ECO "C95"]
+[WhiteElo "2526"]
+[BlackElo "2550"]
+[PlyCount "81"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. c3
+d6 9. h3 Nb8 10. d4 Nbd7 11. Nbd2 Bb7 12. a3 c5 13. Bc2 Re8 14. b4 c4 15. a4
+Qc7 16. d5 g6 17. Nb1 Nb6 18. Na3 Nxa4 19. Bxa4 bxa4 20. Nd2 Nxd5 21. exd5 Bxd5
+22. Nc2 f5 23. Ne3 Bf7 24. Nf3 Qb7 25. Rxa4 h5 26. Nf1 f4 27. Ra5 Qc6 28. N1d2
+Bd8 29. Ne4 Bxa5 30. bxa5 d5 31. Neg5 Qd6 32. Qa4 Rad8 33. Ba3 Qc7 34. Qb4 d4
+35. Ne4 Re6 36. cxd4 exd4 37. Nxd4 Re5 38. Bb2 Bd5 39. Nf6+ Kf7 40. Rxe5 Qxe5
+41. Nc6 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.21"]
+[Round "9"]
+[White "Grigoryan, KH."]
+[Black "Lorenzo de la Riva, L."]
+[Result "1-0"]
+[ECO "B38"]
+[WhiteElo "2550"]
+[BlackElo "2433"]
+[PlyCount "127"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 g6 2. c4 Bg7 3. Nf3 c5 4. e4 cxd4 5. Nxd4 Nc6 6. Be3 Nf6 7. Nc3 d6 8. Be2
+O-O 9. O-O Bd7 10. f3 Nxd4 11. Bxd4 Bc6 12. Qd2 Nd7 13. Be3 a5 14. Rab1 Nc5 15.
+Rfc1 Be5 16. Rd1 e6 17. Bd4 Qe7 18. Bf1 Rad8 19. Ne2 Qc7 20. b3 Bxd4+ 21. Nxd4
+e5 22. Nc2 Ne6 23. a3 b6 24. Qc3 f5 25. exf5 gxf5 26. Rd2 Rf6 27. Ne3 Rdf8 28.
+b4 Rg6 29. Nd5 Bxd5 30. Rxd5 Nf4 31. Rd2 d5 32. c5 axb4 33. axb4 Kh8 34. Rc1 d4
+35. Qc2 bxc5 36. Qxc5 Qg7 37. Kh1 Rd8 38. Re1 Nd5 39. b5 Rgd6 40. f4 Nc3 41.
+Qxe5 Ne4 42. Ra2 d3 43. Qxf5 d2 44. Qxe4 dxe1=Q 45. Qxe1 Rd1 46. Qxd1 Rxd1 47.
+Ra8+ Qg8 48. Rxg8+ Kxg8 49. Kg1 Rd4 50. g3 Rd2 51. Bc4+ Kf8 52. h3 Ke7 53. Kf1
+Kd6 54. Ke1 Rg2 55. g4 Rb2 56. Bd3 h6 57. g5 hxg5 58. fxg5 Rg2 59. g6 Rg3 60.
+Kf2 Rg5 61. h4 Rg4 62. h5 Ke7 63. h6 Kf6 64. g7 1-0
+
+[Event "Sitges op"]
+[Site "Sitges"]
+[Date "2013.07.22"]
+[Round "1"]
+[White "Fernandez Fuentes, FX."]
+[Black "Grigoryan, KH."]
+[Result "0-1"]
+[ECO "B51"]
+[WhiteElo "2124"]
+[BlackElo "2550"]
+[PlyCount "100"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nc6 4. Bxc6+ bxc6 5. O-O e6 6. d3 Ne7 7. b3 Ng6 8.
+Bb2 f6 9. c3 Be7 10. d4 d5 11. e5 cxd4 12. cxd4 fxe5 13. Nxe5 Nxe5 14. dxe5 O-O
+15. f4 c5 16. Nc3 Bb7 17. Qg4 Rf5 18. Ne2 Ba6 19. Rf2 Bh4 20. Ng3 Bxg3 21. hxg3
+Rc8 22. Qd1 Rf7 23. Rc1 Bb5 24. Rfc2 c4 25. Qd4 Qf8 26. Bc3 cxb3 27. axb3 Qe8
+28. Bb4 Rxc2 29. Rxc2 h6 30. Qc5 Rb7 31. Qc8 Rb8 32. Qxe8+ Bxe8 33. Bc5 Rxb3
+34. Bxa7 Bh5 35. Kf2 Bg4 36. Rd2 Kf7 37. Bc5 h5 38. Ra2 Rc3 39. Ra7+ Kg6 40.
+Bf8 Kf5 41. Ra4 Rc2+ 42. Kg1 Be2 43. Be7 Bd3 44. Bh4 Be4 45. Ra7 Rxg2+ 46. Kf1
+Kg4 47. Ra4 Rb2 48. Ke1 g6 49. Kf1 Bd3+ 50. Kg1 Kh3 0-1
+
+[Event "Sitges op"]
+[Site "Sitges"]
+[Date "2013.07.23"]
+[Round "2"]
+[White "Grigoryan, KH."]
+[Black "Montilla Carrillo, E."]
+[Result "1-0"]
+[ECO "E20"]
+[WhiteElo "2550"]
+[BlackElo "2261"]
+[PlyCount "74"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. f3 c5 5. d5 b5 6. e4 bxc4 7. Bxc4 Nxd5 8. Bxd5
+exd5 9. Qxd5 Nc6 10. Nge2 Ba6 11. Kf2 Ne7 12. Qd6 Qb6 13. Rd1 Qxd6 14. Rxd6 Bb7
+15. Be3 c4 16. Rd4 Nc6 17. Rdd1 Ne5 18. Nf4 O-O 19. Ncd5 Ba5 20. Bc5 Rfe8 21.
+Bd6 Bd8 22. Nc7 Bxc7 23. Bxc7 Bc6 24. h4 Rac8 25. Ba5 f6 26. Bc3 Ng6 27. Kg3
+Ne7 28. Rd6 Ng6 29. Ne2 Kf7 30. Nd4 Ne7 31. Nxc6 dxc6 32. Rd7 a6 33. Rad1 Rb8
+34. Ra7 Ra8 35. Rdd7 Rxa7 36. Rxa7 Rb8 37. Rxa6 Rb7 1-0
+
+[Event "Sitges op"]
+[Site "Sitges"]
+[Date "2013.07.24"]
+[Round "3"]
+[White "Arenas, D."]
+[Black "Grigoryan, KH."]
+[Result "1/2-1/2"]
+[ECO "B77"]
+[WhiteElo "2437"]
+[BlackElo "2550"]
+[PlyCount "129"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. Nc3 Bg7 6. Be3 Nf6 7. Bc4 O-O 8.
+Bb3 d6 9. f3 Bd7 10. Qd2 Nxd4 11. Bxd4 b5 12. O-O a5 13. a3 Qc7 14. Kh1 e6 15.
+Rfd1 a4 16. Ba2 Rfc8 17. Rac1 Bc6 18. Qg5 Qe7 19. Ne2 e5 20. Bc3 d5 21. Bb4 Qb7
+22. exd5 Bxd5 23. Bxd5 Nxd5 24. Be1 f6 25. Qd2 Nb6 26. Nc3 Rab8 27. Ne4 Nc4 28.
+Qe2 Rc6 29. b3 Nxa3 30. Bb4 Bf8 31. Bxf8 Rxf8 32. Qd2 Qc7 33. bxa4 bxa4 34. Qb4
+Nxc2 35. Qxa4 Kh8 36. h3 Rc8 37. Nxf6 Nd4 38. Rxc6 Qxc6 39. Qxc6 Rxc6 40. Ng4
+Re6 41. Nxe5 Rxe5 42. Rxd4 Re7 43. h4 Kg7 44. Kh2 h5 45. Rd6 Re2 46. Kh3 Ra2
+47. Rd7+ Kf6 48. Rd6+ Kg7 49. Rd3 Ra4 50. g4 hxg4+ 51. fxg4 Rb4 52. Rd7+ Kf6
+53. Kg3 Rb3+ 54. Kf4 Rb4+ 55. Kf3 Rb3+ 56. Ke4 g5 57. h5 Rg3 58. Rd6+ Ke7 59.
+Ra6 Rxg4+ 60. Kf5 Rb4 61. Kg6 g4 62. Kg7 Rb5 63. h6 Rg5+ 64. Rg6 Rxg6+ 65. Kxg6
+1/2-1/2
+
+[Event "Sitges op"]
+[Site "Sitges"]
+[Date "2013.07.25"]
+[Round "4"]
+[White "Grigoryan, KH."]
+[Black "Fernandez Aguado, E."]
+[Result "1-0"]
+[ECO "E38"]
+[WhiteElo "2550"]
+[BlackElo "2364"]
+[PlyCount "71"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 c5 5. dxc5 Na6 6. a3 Bxc3+ 7. Qxc3 Nxc5 8.
+b4 Nce4 9. Qb2 d5 10. c5 h6 11. f3 Ng5 12. Bf4 O-O 13. Bd6 Re8 14. h4 Ngh7 15.
+g4 b6 16. e3 bxc5 17. bxc5 h5 18. g5 Nd7 19. Kf2 Nb6 20. Bd3 f5 21. Ne2 e5 22.
+cxb6 Qxd6 23. b7 Bxb7 24. Qxb7 e4 25. Bb5 d4 26. Bxe8 dxe3+ 27. Kg2 exf3+ 28.
+Qxf3 Rxe8 29. Rad1 Qa6 30. Rhe1 Nf8 31. Nf4 Qa4 32. Rb1 a5 33. Kg3 Qxa3 34.
+Qd5+ Kh8 35. Rb3 Qa4 36. Rbxe3 1-0
+
+[Event "Sitges op"]
+[Site "Sitges"]
+[Date "2013.07.26"]
+[Round "5"]
+[White "Sequera Paolini, J."]
+[Black "Grigoryan, KH."]
+[Result "0-1"]
+[ECO "A02"]
+[WhiteElo "2394"]
+[BlackElo "2550"]
+[PlyCount "106"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. f4 c5 2. Nf3 g6 3. g3 Bg7 4. Bg2 d5 5. O-O Nf6 6. c3 O-O 7. d3 Nc6 8. Qc2 e6
+9. e4 c4 10. e5 cxd3 11. Qxd3 Ne4 12. Be3 b6 13. Nbd2 Nc5 14. Qb5 Nb8 15. Bxc5
+Ba6 16. Qa4 bxc5 17. Rfe1 Qb6 18. c4 Nc6 19. Rab1 Rab8 20. Kh1 Ne7 21. Re3 Qc6
+22. Ra3 Rb6 23. Qc2 Rc8 24. Rc1 Bf8 25. Rc3 Qa8 26. Nb3 Qb8 27. Nfd2 Bb7 28.
+Na5 Ba8 29. Rb3 Nf5 30. Qd3 Rd8 31. Nf1 dxc4 32. Qxc4 Bxg2+ 33. Kxg2 Nd4 34.
+Rxb6 axb6 35. Nb3 b5 36. Qc3 Ne2 37. Qf3 Nxc1 38. Nxc1 c4 39. Ne2 Qa8 40. Qxa8
+Rxa8 41. a3 b4 42. axb4 Ra2 43. Ne3 Rxb2 44. Kf3 Rxb4 45. Nc3 Bc5 46. Ned1 Bd4
+47. Ke4 Bxc3 48. Nxc3 Rb2 49. Kd4 Rxh2 50. Kxc4 Rf2 51. Kd4 Rf3 52. Ne2 h5 53.
+Ke4 Ra3 0-1
+
+[Event "Sitges op"]
+[Site "Sitges"]
+[Date "2013.07.27"]
+[Round "6"]
+[White "Grigoryan, KH."]
+[Black "Vocaturo, D."]
+[Result "1-0"]
+[ECO "E49"]
+[WhiteElo "2550"]
+[BlackElo "2536"]
+[PlyCount "69"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Bd3 d5 6. a3 Bxc3+ 7. bxc3 c5 8.
+cxd5 exd5 9. Ne2 b6 10. f3 Ba6 11. Bb1 Re8 12. O-O Nc6 13. Re1 Rc8 14. Nf4 Na5
+15. Ra2 Bc4 16. Rb2 Nb7 17. e4 dxe4 18. fxe4 Rc7 19. e5 Nd5 20. Nxd5 Qxd5 21.
+Be4 Qd8 22. Qf3 Na5 23. d5 Rd7 24. Rf2 g6 25. e6 fxe6 26. Bh6 e5 27. h4 Qe7 28.
+h5 Rd6 29. Qg3 Kh8 30. Bg5 Qg7 31. h6 Qd7 32. Bf6+ Rxf6 33. Rxf6 Nb7 34. Qf3
+Kg8 35. d6 1-0
+
+[Event "Sitges op"]
+[Site "Sitges"]
+[Date "2013.07.29"]
+[Round "7"]
+[White "Pulvett, D."]
+[Black "Grigoryan, KH."]
+[Result "1/2-1/2"]
+[ECO "E62"]
+[WhiteElo "2405"]
+[BlackElo "2550"]
+[PlyCount "71"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. Nf3 O-O 5. g3 d6 6. Bg2 c6 7. O-O Qb6 8. b3 e5
+9. c5 dxc5 10. dxe5 Ng4 11. Na4 Qc7 12. Nxc5 Nxe5 13. Bf4 Nxf3+ 14. Bxf3 Qb6
+15. Rc1 Bh3 16. Re1 Na6 17. Nxa6 Qxa6 18. a4 Rad8 19. Qc2 Bf5 20. e4 Be6 21.
+Bc7 Rc8 22. Be2 b5 23. Qxc6 Qxc6 24. Rxc6 bxa4 25. bxa4 Bd7 26. Rcc1 Bb2 27.
+Rc2 Bxa4 28. Rxb2 Rxc7 29. Ra1 Rc2 30. Rxc2 Bxc2 31. f3 Ra8 32. Ra6 Bb3 33. Kf2
+Kf8 34. Ke3 Be6 35. Kd4 Rd8+ 36. Ke5 1/2-1/2
+
+[Event "Sitges op"]
+[Site "Sitges"]
+[Date "2013.07.30"]
+[Round "8"]
+[White "Grigoryan, KH."]
+[Black "Movsziszian, K."]
+[Result "1-0"]
+[ECO "E90"]
+[WhiteElo "2550"]
+[BlackElo "2499"]
+[PlyCount "59"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 g6 2. c4 Bg7 3. Nf3 d6 4. Nc3 Nf6 5. e4 O-O 6. h3 e5 7. d5 Na6 8. Bg5 Qe8
+9. g4 Nd7 10. Rg1 Kh8 11. Be2 Ndc5 12. Nh4 f6 13. Be3 Qe7 14. Qd2 Bd7 15. Rb1
+f5 16. Bg5 Bf6 17. gxf5 gxf5 18. exf5 e4 19. Bxf6+ Rxf6 20. Qd4 Nb4 21. Kd2
+Nxa2 22. b4 e3+ 23. fxe3 Nxc3 24. Kxc3 Ne4+ 25. Kb2 Re8 26. Rg4 Nf2 27. Rg5
+Ref8 28. Rg2 Ne4 29. Bd3 c5 30. Qxe4 1-0
+
+[Event "Sitges op"]
+[Site "Sitges"]
+[Date "2013.07.31"]
+[Round "9"]
+[White "Barsov, A."]
+[Black "Grigoryan, KH."]
+[Result "1/2-1/2"]
+[ECO "D14"]
+[WhiteElo "2530"]
+[BlackElo "2550"]
+[PlyCount "31"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 c6 3. cxd5 cxd5 4. Nc3 Nf6 5. Nf3 Nc6 6. Bf4 Bf5 7. e3 e5 8.
+Nxe5 Bd6 9. Bd3 Bxd3 10. Nxd3 Bxf4 11. Nxf4 O-O 12. O-O Qd6 13. Qd2 Rfc8 14.
+Rfc1 Ne7 15. h3 h6 16. Nd3 1/2-1/2
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.06.25"]
+[Round "1"]
+[White "Grigoryan, KH."]
+[Black "Cruz Estrada, F."]
+[Result "0-1"]
+[ECO "B20"]
+[WhiteElo "2577"]
+[BlackElo "2412"]
+[PlyCount "102"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. e4 c5 2. Ne2 d6 3. g3 g6 4. Bg2 Bg7 5. c3 Nf6 6. d4 Qc7 7. O-O O-O 8. h3 e5
+9. Na3 b6 10. f4 Ba6 11. d5 exf4 12. gxf4 Nbd7 13. c4 Rae8 14. Qa4 Nb8 15. Ng3
+Nfd7 16. Qc2 Bd4+ 17. Kh1 Qd8 18. Bd2 Qh4 19. Be1 Qh6 20. Bc3 Bxc3 21. Qxc3 Qg7
+22. Qc2 Re7 23. Rf2 Nf6 24. Raf1 Ne8 25. e5 dxe5 26. f5 f6 27. Ne4 g5 28. Qa4
+Rd7 29. b4 cxb4 30. Qxb4 Nd6 31. Nxd6 Qe7 32. Nab5 Bxb5 33. cxb5 Rc8 34. h4 h6
+35. hxg5 hxg5 36. Be4 Qxd6 37. Qxd6 Rxd6 38. Rh2 Rc4 39. Bd3 Rc3 40. Rf3 Nd7
+41. Rfh3 Nf8 42. Bc2 Rxh3 43. Rxh3 Nd7 44. Bb3 Nc5 45. Bc4 Kg7 46. Kg2 Rd7 47.
+Rh1 Ne4 48. Bd3 Nc5 49. Bc4 Kf8 50. Kf3 Ke7 51. Kg3 Kd6 0-1
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.06.27"]
+[Round "3"]
+[White "Grigoryan, KH."]
+[Black "Martinez Romero, M."]
+[Result "1-0"]
+[ECO "E92"]
+[WhiteElo "2577"]
+[BlackElo "2401"]
+[PlyCount "81"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3 exd4 8. Nxd4
+Re8 9. f3 c6 10. Bf2 d5 11. exd5 cxd5 12. O-O Nc6 13. c5 Nh5 14. g3 Qg5 15.
+Ndb5 Be5 16. Kh1 Qh6 17. f4 Nxf4 18. gxf4 Bxf4 19. Bg1 Bh3 20. Bf3 Bxf1 21.
+Qxf1 Ne7 22. Nd6 Bxd6 23. cxd6 Nf5 24. Qg2 Rad8 25. Bxd5 Nxd6 26. Qf3 Nf5 27.
+Bxa7 Qd2 28. Bf2 b5 29. Rg1 Kh8 30. Bc6 Rf8 31. Be4 Ng7 32. Bh4 Rde8 33. Bf6
+Qxb2 34. Bc6 Rc8 35. Bd5 Qd2 36. Bb3 Rce8 37. Ne4 Qb4 38. Ng5 Kg8 39. Nxf7 h6
+40. Nd6+ Kh7 41. Nxe8 1-0
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.06.28"]
+[Round "4"]
+[White "Sagar, S."]
+[Black "Grigoryan, KH."]
+[Result "0-1"]
+[ECO "E63"]
+[WhiteElo "2309"]
+[BlackElo "2577"]
+[PlyCount "138"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. c4 Nf6 2. d4 g6 3. Nf3 Bg7 4. g3 O-O 5. Bg2 d6 6. Nc3 Nc6 7. O-O a6 8. Bf4
+Rb8 9. Rc1 b5 10. Nd5 bxc4 11. Nxf6+ Bxf6 12. Rxc4 Na7 13. b3 Bb7 14. Qd2 Bd5
+15. Ra4 Rb6 16. Rc1 Re8 17. e4 Bxe4 18. d5 Bxf3 19. Bxf3 e5 20. Be3 Nc8 21. Qc2
+Bg5 22. Bxg5 Qxg5 23. Qxc7 Qe7 24. Be2 e4 25. Qxe7 Nxe7 26. Rxe4 Kf8 27. Bc4
+Rc8 28. Rce1 Rc7 29. f4 a5 30. Kf2 Rbb7 31. Kf3 Rc5 32. Rd4 Nc8 33. Ba6 Rbc7
+34. Bxc8 Rxc8 35. Red1 Rc2 36. R1d2 Rc1 37. Ke3 R8c3+ 38. R4d3 Rc7 39. Rd4
+R7c3+ 40. R4d3 Rc7 41. Kf3 h5 42. f5 Rf1+ 43. Kg2 Rxf5 44. Rf3 Re5 45. h4 f5
+46. Rfd3 Rc5 47. Kf3 Kf7 48. Rd4 Rb5 49. R2d3 Kf6 50. Rd2 Rc5 51. R4d3 Re4 52.
+a3 Ke5 53. Rb2 Rxd5 54. Rxd5+ Kxd5 55. b4 axb4 56. axb4 Kc6 57. b5+ Kb6 58. Rd2
+Re6 59. Rd5 Kc7 60. Rd4 Re5 61. b6+ Kc6 62. Rb4 Re7 63. Rb3 Rb7 64. Kf4 Rxb6
+65. Rc3+ Kd7 66. Kg5 d5 67. Rd3 Rd6 68. Kf4 Ke6 69. Rd4 Rc6 0-1
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.06.29"]
+[Round "5"]
+[White "Grigoryan, KH."]
+[Black "Akshat, Kh"]
+[Result "1-0"]
+[ECO "E91"]
+[WhiteElo "2577"]
+[BlackElo "2367"]
+[PlyCount "61"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 Bg4 7. Be3 Nfd7 8. Ng1
+Bxe2 9. Ngxe2 c5 10. O-O cxd4 11. Nxd4 Nc6 12. Nde2 Qa5 13. Qd2 Rfc8 14. Rab1
+a6 15. a4 Qd8 16. b3 a5 17. Rfd1 Nc5 18. f3 Nb4 19. Nb5 Qf8 20. Nf4 Be5 21. Nd5
+Nxd5 22. exd5 Qg7 23. Re1 h5 24. Bh6 Qh8 25. Bg5 Re8 26. f4 Bg7 27. Bxe7 f5 28.
+Bxd6 Ne4 29. Qd3 b6 30. Ba3 Bb2 31. Rbd1 1-0
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.06.30"]
+[Round "6"]
+[White "Das, Say"]
+[Black "Grigoryan, KH."]
+[Result "1/2-1/2"]
+[ECO "B67"]
+[WhiteElo "2352"]
+[BlackElo "2577"]
+[PlyCount "138"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bg5 e6 7. Qd2 a6 8.
+O-O-O Bd7 9. f4 b5 10. Bxf6 gxf6 11. Kb1 Qb6 12. Nxc6 Bxc6 13. f5 b4 14. Ne2 e5
+15. Ng3 h5 16. h4 Qc5 17. Qe2 Ke7 18. Qf3 a5 19. b3 a4 20. Bc4 axb3 21. Bxb3
+Ra3 22. Rhe1 Ba4 23. Re2 Bh6 24. Qxh5 Bxb3 25. cxb3 Rha8 26. Qxh6 Qc3 27. Qc1
+Rxb3+ 28. Rb2 Qxc1+ 29. Rxc1 Rxg3 30. Rc7+ Kf8 31. Rxb4 Rxg2 32. a4 Rg4 33. Rd7
+Rxh4 34. Rxd6 Kg7 35. Kb2 Rh3 36. Rc6 Re3 37. Rc3 Re2+ 38. Kb3 Rg2 39. Rc6 Rg4
+40. Rc5 Kh6 41. a5 Rg1 42. Ra4 Rb8+ 43. Kc2 Rg2+ 44. Kc3 Rb1 45. Kc4 Rd2 46.
+Rd5 Rc2+ 47. Kd3 Rbb2 48. Ra3 Ra2 49. Rxa2 Rxa2 50. Kc4 Kg5 51. Kb5 Kf4 52. Rd6
+Kxe4 53. Rxf6 Kd5 54. Rxf7 Rb2+ 55. Ka6 e4 56. f6 Kc6 57. Re7 Rf2 58. f7 e3 59.
+Rxe3 Rxf7 60. Rc3+ Kd7 61. Kb7 Kd8+ 62. Kb8 Rf1 63. Rd3+ Ke7 64. Rb3 Kd6 65.
+Kb7 Kc5 66. a6 Rf7+ 67. Ka8 Kc6 68. Rb1 Rg7 69. a7 Rh7 1/2-1/2
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.07.01"]
+[Round "7"]
+[White "Grigoryan, KH."]
+[Black "Cori Tello, J."]
+[Result "1/2-1/2"]
+[ECO "A50"]
+[WhiteElo "2577"]
+[BlackElo "2608"]
+[PlyCount "153"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. d4 Nf6 2. c4 c6 3. Nf3 d5 4. Qc2 dxc4 5. Qxc4 g6 6. Bf4 Bg7 7. e3 O-O 8. Be2
+Be6 9. Qc2 Bf5 10. Qc1 Nbd7 11. Nc3 c5 12. O-O Rc8 13. Rd1 Ne4 14. d5 Nxc3 15.
+bxc3 c4 16. Qa3 Qb6 17. Nd4 Qc5 18. Qb2 Nb6 19. d6 Be4 20. dxe7 Qxe7 21. a4
+Rfd8 22. a5 Nd5 23. Bg3 h5 24. f3 Nxe3 25. fxe4 Nxd1 26. Rxd1 Bxd4+ 27. cxd4
+Qxe4 28. Bf3 Qe3+ 29. Bf2 Qb3 30. Rb1 Qxb2 31. Rxb2 c3 32. Rc2 b5 33. axb6 axb6
+34. Be2 Rd5 35. Ba6 Ra8 36. Bf1 Rc8 37. Ba6 Ra8 38. Bf1 Rc8 39. Ba6 Rc7 40. Bg3
+Ra7 41. Bc4 Rf5 42. h4 b5 43. Bd3 Ra1+ 44. Kh2 b4 45. Bd6 Rd5 46. Bxb4 Rxd4 47.
+Bxc3 Rxh4+ 48. Kg3 Rg4+ 49. Kf2 Ra8 50. Be5 Re8 51. Bh2 Kg7 52. Be2 Rg5 53. Bf3
+Rf5 54. Kg3 Re1 55. Kf2 Re8 56. Bg1 h4 57. Rc4 g5 58. Kf1 h3 59. Kf2 hxg2 60.
+Kxg2 f6 61. Rc7+ Kg6 62. Bf2 Rb5 63. Kg3 Ree5 64. Rc3 Rb4 65. Be3 Ra4 66. Rb3
+Re6 67. Rd3 f5 68. Bd2 Rea6 69. Rd8 g4 70. Bd5 Kf6 71. Rf8+ Ke5 72. Bb3 Ra3 73.
+Rb8 Ke4 74. Kf2 Rd6 75. Bg5 g3+ 76. Kg2 f4 77. Rb4+ 1/2-1/2
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.07.02"]
+[Round "8"]
+[White "Naroditsky, D."]
+[Black "Grigoryan, KH."]
+[Result "1-0"]
+[ECO "C67"]
+[WhiteElo "2559"]
+[BlackElo "2577"]
+[PlyCount "73"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5
+8. Qxd8+ Kxd8 9. Rd1+ Ke8 10. Nc3 h6 11. h3 Bd7 12. Bf4 Rc8 13. Ne4 b6 14. Re1
+c5 15. g4 Ne7 16. Nf6+ gxf6 17. exf6 Be6 18. fxe7 Bxe7 19. Ne5 Bf6 20. Rad1 a6
+21. b3 Rh7 22. Bg3 Rd8 23. Nd3 c4 24. bxc4 Bc3 25. Re4 c5 26. Rb1 Rd4 27. Re2
+Ba5 28. Bc7 h5 29. g5 Rd7 30. Bxb6 Bxb6 31. Rxb6 Kf8 32. g6 Rh8 33. Ne5 Rd1+
+34. Kh2 Kg7 35. gxf7 Bxf7 36. Rb7 Rf8 37. Re3 1-0
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2014.07.03"]
+[Round "9"]
+[White "Grigoryan, KH."]
+[Black "Teh, EWA."]
+[Result "1-0"]
+[ECO "A00"]
+[WhiteElo "2577"]
+[BlackElo "2228"]
+[PlyCount "51"]
+[EventDate "2014.06.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.11"]
+
+1. g3 Nf6 2. Bg2 e6 3. e4 d5 4. e5 Nfd7 5. d4 c5 6. c3 Nc6 7. Ne2 f6 8. Nf4 Qe7
+9. exf6 Nxf6 10. O-O Bd7 11. Re1 O-O-O 12. Nxd5 Nxd5 13. Bxd5 cxd4 14. cxd4 Qf6
+15. Bg2 Qxd4 16. Qe2 Bb4 17. Be3 Qf6 18. Nc3 Kb8 19. Ne4 Qg6 20. Rec1 e5 21.
+Rc4 Be6 22. Rxc6 bxc6 23. Qa6 Rd7 24. Qxc6 Rc8 25. Qb5+ Rb7 26. Nc5 1-0
+
+[Event "Barbera op"]
+[Site "Barberá del Valles"]
+[Date "2014.07.05"]
+[Round "2"]
+[White "Hernando Rodrigo, JA."]
+[Black "Grigoryan, KH."]
+[Result "1/2-1/2"]
+[ECO "A39"]
+[WhiteElo "2332"]
+[BlackElo "2592"]
+[PlyCount "117"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.18"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. Nf3 O-O 5. g3 c5 6. Bg2 cxd4 7. Nxd4 Nc6 8.
+O-O Qa5 9. e3 d6 10. Nce2 Bd7 11. b3 Rfc8 12. Bb2 a6 13. Nf4 e5 14. Nxc6 Bxc6
+15. Nd5 Nxd5 16. Bxd5 Bxd5 17. Qxd5 Qxd5 18. cxd5 e4 19. Bxg7 Kxg7 20. Rfd1 Rc5
+21. Rd4 Re8 22. Rad1 f5 23. b4 Rc2 24. b5 a5 25. R1d2 Rec8 26. f3 exf3 27. Kf2
+Kf6 28. Kxf3 Rxd2 29. Rxd2 Ke5 30. g4 Rc4 31. gxf5 Kxf5 32. b6 Ke5 33. Rd3 a4
+34. Rd2 g5 35. h3 h6 36. Rd3 Rb4 37. Rd2 Rxb6 38. Rd4 Ra6 39. Kg4 b5 40. Kh5
+Ra8 41. Rb4 Rf8 42. Kxh6 Rf3 43. Kxg5 Rxh3 44. Rxb5 Rxe3 45. Ra5 a3 46. Kg6 Kd4
+47. Kf5 Kc4 48. Kf4 Rh3 49. Ke4 Kb4 50. Ra6 Rh6 51. Rb6+ Ka5 52. Rb3 Ka4 53.
+Rb6 Rf6 54. Kd3 Ka5 55. Rb3 Rf3+ 56. Kc4 Rf4+ 57. Kc3 Rf3+ 58. Kc4 Rf4+ 59. Kc3
+1/2-1/2
+
+[Event "Barbera op"]
+[Site "Barberá del Valles"]
+[Date "2014.07.06"]
+[Round "3"]
+[White "Grigoryan, KH."]
+[Black "Herrera Reyes, JA."]
+[Result "1-0"]
+[ECO "E91"]
+[WhiteElo "2592"]
+[BlackElo "2239"]
+[PlyCount "135"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.18"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 c6 7. O-O Qc7 8. Re1
+e5 9. Bf1 Bg4 10. d5 a6 11. h3 Bd7 12. Be3 c5 13. Rc1 h6 14. Nd2 Nh5 15. g3 Be8
+16. Be2 Nf6 17. Rb1 Nh7 18. b4 cxb4 19. Rxb4 b5 20. Ndb1 f5 21. exf5 gxf5 22.
+cxb5 axb5 23. Nxb5 Bxb5 24. Rxb5 f4 25. Bb6 Qe7 26. Nc3 Nd7 27. Ne4 fxg3 28.
+Nxg3 Nxb6 29. Rxb6 Rxa2 30. Rf1 Qh4 31. Rb3 e4 32. Bg4 Be5 33. Nf5 Qg5 34. h4
+Qf4 35. Rg3 Kh8 36. Rg2 Rxf5 37. Bxf5 Qxf5 38. Qc1 Ra8 39. Qxh6 Rg8 40. Rxg8+
+Kxg8 41. Qe6+ Qxe6 42. dxe6 Kf8 43. Rb1 Nf6 44. Rb7 Nd5 45. h5 Nf4 46. e7+ Kf7
+47. h6 Ng6 48. e8=B+ Kxe8 49. h7 Kf8 50. Rd7 Nh8 51. Kf1 Nf7 52. Ke2 Bh8 53.
+Ke3 Ke8 54. Ra7 d5 55. Ra5 d4+ 56. Kxe4 Kf8 57. Ra7 Kg7 58. Kf5 Kf8 59. f4 Ke8
+60. Kg6 d3 61. Ra5 Nd8 62. Kf5 Nc6 63. Ra8+ Nd8 64. Ra3 Nb7 65. Rxd3 Ke7 66.
+Kg6 Nd8 67. Re3+ Kf8 68. f5 1-0
+
+[Event "Barbera op"]
+[Site "Barberá del Valles"]
+[Date "2014.07.07"]
+[Round "4"]
+[White "Cruz Estrada, F."]
+[Black "Grigoryan, KH."]
+[Result "1/2-1/2"]
+[ECO "A21"]
+[WhiteElo "2412"]
+[BlackElo "2592"]
+[PlyCount "60"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.18"]
+
+1. Nf3 g6 2. c4 Bg7 3. g3 e5 4. Nc3 f5 5. d3 d6 6. Bg2 Nf6 7. Rb1 O-O 8. O-O h6
+9. b4 g5 10. Nd2 f4 11. Nde4 Nxe4 12. Nxe4 Nc6 13. Bb2 Bg4 14. Nd2 Rb8 15. b5
+Nd4 16. Nf3 Nxf3+ 17. Bxf3 Bh3 18. Bg2 Bxg2 19. Kxg2 g4 20. f3 Qg5 21. fxg4
+fxg3 22. hxg3 Rxf1 23. Qxf1 Rf8 24. Qc1 Qxg4 25. Qe3 h5 26. Rf1 Rxf1 27. Kxf1
+Qh3+ 28. Kf2 Qh2+ 29. Kf1 Qh3+ 30. Kf2 Qh2+ 1/2-1/2
+
+[Event "Barbera op"]
+[Site "Barberá del Valles"]
+[Date "2014.07.08"]
+[Round "5"]
+[White "Grigoryan, KH."]
+[Black "Aloma Vidal, R."]
+[Result "1-0"]
+[ECO "B01"]
+[WhiteElo "2592"]
+[BlackElo "2406"]
+[PlyCount "133"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.18"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd6 4. d4 Nf6 5. Nf3 g6 6. g3 Bg7 7. Bg2 Qa6 8.
+Bf4 c6 9. Qd2 Bf5 10. O-O-O Nd5 11. a3 Nd7 12. Rhe1 O-O 13. Nxd5 cxd5 14. Rxe7
+Rac8 15. Ne1 Nb6 16. Qe2 Qa4 17. Rxb7 Rfe8 18. Be3 Qc6 19. Rxb6 Qxb6 20. g4 Be4
+21. Qd2 Rb8 22. c3 Bxg2 23. Nxg2 Bf8 24. Qc2 Qa6 25. Kd2 Qc4 26. g5 Bd6 27. h3
+Re4 28. Rb1 a5 29. b4 Rxd4+ 30. Bxd4 Qxd4+ 31. Kc1 Qe5 32. f4 Qe7 33. Rb3 axb4
+34. cxb4 d4 35. Rd3 Qb7 36. Qd2 Rc8+ 37. Kb2 Rc4 38. Rb3 Qe4 39. b5 Ra4 40. b6
+Qc6 41. Ne1 Bxa3+ 42. Rxa3 Qxb6+ 43. Rb3 Qa7 44. Nc2 Qa8 45. Qd3 h5 46. Rb5 Qc6
+47. Nb4 Qh1 48. Rb8+ Kh7 49. Nc2 Qc6 50. f5 Qc3+ 51. Qxc3 dxc3+ 52. Kb3 Ra5 53.
+fxg6+ Kxg6 54. h4 Rf5 55. Rb6+ f6 56. Kxc3 Rf4 57. Ne3 Rxh4 58. gxf6 Rh1 59.
+Nd5 h4 60. Ne7+ Kf7 61. Nf5 Rf1 62. Nh6+ Kg6 63. f7+ Kg7 64. Rb8 Kxh6 65. f8=Q+
+Rxf8 66. Rxf8 Kg5 67. Kd3 1-0
+
+[Event "Barbera op"]
+[Site "Barberá del Valles"]
+[Date "2014.07.09"]
+[Round "6"]
+[White "Grigoryan, KH."]
+[Black "Aroshidze, L."]
+[Result "1-0"]
+[ECO "E17"]
+[WhiteElo "2592"]
+[BlackElo "2565"]
+[PlyCount "85"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.18"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb7 5. Bg2 Be7 6. O-O O-O 7. Re1 Qc8 8. Nc3
+Ne4 9. Bd2 Bf6 10. Rc1 d6 11. d5 Bxc3 12. Bxc3 e5 13. b4 a5 14. a3 axb4 15.
+axb4 Nd7 16. Bb2 f5 17. Nh4 Qe8 18. Qc2 Qf7 19. Rf1 g6 20. f3 Nef6 21. e4 fxe4
+22. fxe4 Qe7 23. Bh3 c5 24. b5 Nh5 25. Qe2 Ndf6 26. Be6+ Kh8 27. Qe3 Ng8 28.
+Nf3 Ng7 29. Ng5 h6 30. Nf7+ Kh7 31. Rf2 Nxe6 32. dxe6 Qxe6 33. Rcf1 Kg7 34. Qd3
+Rad8 35. Nxd8 Rxd8 36. Bxe5+ Qxe5 37. Rf7+ Kh8 38. Rxb7 Nf6 39. Rxb6 Ng4 40.
+Qf3 h5 41. Rb7 Qd4+ 42. Kh1 Rg8 43. h3 1-0
+
+[Event "Barbera op"]
+[Site "Barberá del Valles"]
+[Date "2014.07.10"]
+[Round "7"]
+[White "Narciso Dublan, M."]
+[Black "Grigoryan, KH."]
+[Result "0-1"]
+[ECO "E92"]
+[WhiteElo "2523"]
+[BlackElo "2592"]
+[PlyCount "62"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.18"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Be2 O-O 6. Nf3 e5 7. d5 a5 8. Bg5 h6
+9. Bh4 g5 10. Bg3 Nh5 11. Nd2 Nf4 12. O-O f5 13. exf5 Bxf5 14. Nde4 Nd7 15. Bg4
+Bg6 16. Bxd7 Qxd7 17. c5 a4 18. f3 b6 19. cxd6 cxd6 20. Rf2 b5 21. a3 Rfc8 22.
+Rd2 Rc7 23. Be1 Rf8 24. g3 Nh3+ 25. Kg2 h5 26. Qe2 g4 27. Rd3 Rc4 28. Bd2 Qf5
+29. Re1 Rd4 30. fxg4 hxg4 31. Re3 Bh6 0-1
+
+[Event "Barbera op"]
+[Site "Barberá del Valles"]
+[Date "2014.07.11"]
+[Round "8"]
+[White "Grigoryan, KH."]
+[Black "Ghosh, D."]
+[Result "1-0"]
+[ECO "D10"]
+[WhiteElo "2592"]
+[BlackElo "2468"]
+[PlyCount "89"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.18"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. e3 a6 5. Qc2 g6 6. Bd3 Bg7 7. Nf3 O-O 8. O-O
+Bg4 9. Ne5 Be6 10. b3 c5 11. Ne2 dxc4 12. bxc4 Ng4 13. Nxg4 Bxg4 14. Rb1 Nc6
+15. dxc5 Rb8 16. Ba3 Qa5 17. Rb3 Ne5 18. Be4 Bd7 19. Nc3 e6 20. c6 Nxc6 21.
+Bxf8 Bxf8 22. Rfb1 Qc7 23. Nd5 Qd8 24. Nb6 Be8 25. c5 Qg5 26. Rc1 Rd8 27. g3 h5
+28. h4 Qe5 29. Bg2 Qc7 30. Qb1 Ne5 31. Nc4 Qxc5 32. Nxe5 Qxe5 33. Rxb7 Bb5 34.
+Rd1 Rc8 35. Qe4 Qc3 36. Qf4 Be8 37. Rb8 Rxb8 38. Qxb8 Bb5 39. Rd8 Qa3 40. Rc8
+Kg7 41. Qe5+ Kg8 42. Qf6 Qxa2 43. Be4 Qd2 44. Bxg6 Qd7 45. Bh7+ 1-0
+
+[Event "Barbera op"]
+[Site "Barberá del Valles"]
+[Date "2014.07.12"]
+[Round "9.1"]
+[White "Peralta, F."]
+[Black "Grigoryan, KH."]
+[Result "1-0"]
+[ECO "E90"]
+[WhiteElo "2596"]
+[BlackElo "2592"]
+[PlyCount "107"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.18"]
+
+1. d4 d6 2. Nf3 Nf6 3. c4 g6 4. Nc3 Bf5 5. Nh4 Bc8 6. e4 Bg7 7. Nf3 O-O 8. h3
+c5 9. d5 e6 10. Bd3 Na6 11. Bg5 exd5 12. cxd5 h6 13. Be3 b5 14. O-O c4 15. Bc2
+b4 16. Ne2 Re8 17. Ng3 Bd7 18. Rc1 Qa5 19. Bb1 Rac8 20. Nd4 Bb5 21. Qf3 Bd7 22.
+Rfd1 Rc7 23. Nc6 Qb5 24. Bd4 Nh7 25. Bxg7 Kxg7 26. Ne2 Bxc6 27. Nd4 Qc5 28.
+Nxc6 Nb8 29. Nd4 Nf6 30. Qg3 Kh7 31. Ne6 fxe6 32. e5 Rg8 33. exf6 e5 34. Qg4
+Nd7 35. f7 Rg7 36. Qxd7 Rxd7 37. f8=Q Rdf7 38. Qb8 Rxf2 39. Kh1 c3 40. bxc3 Qe3
+41. Rg1 Rxg2 42. Kxg2 Qe2+ 43. Kh1 Qf3+ 44. Kh2 Qf4+ 45. Kh1 Qf3+ 46. Kh2 Qf2+
+47. Rg2 Qf4+ 48. Kh1 Qxc1+ 49. Rg1 Qxc3 50. Bxg6+ Rxg6 51. Qxa7+ Kh8 52. Rxg6
+Qf3+ 53. Rg2 Qd1+ 54. Kh2 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.13"]
+[Round "1"]
+[White "Grigoryan, KH."]
+[Black "Capellades Subirana, M."]
+[Result "1-0"]
+[ECO "E20"]
+[WhiteElo "2592"]
+[BlackElo "2211"]
+[PlyCount "71"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. f3 c5 5. d5 d6 6. e4 Bxc3+ 7. bxc3 O-O 8. Bg5
+Qe7 9. Be2 exd5 10. cxd5 Nbd7 11. Nh3 h6 12. Bd2 Ne5 13. Nf2 Nh7 14. f4 Ng6 15.
+O-O f5 16. Bh5 fxe4 17. Bxg6 e3 18. Qc2 Nf6 19. Bxe3 Qxe3 20. Rae1 Qxf4 21. Ne4
+Qh4 22. Nxf6+ gxf6 23. Re7 f5 24. Rfe1 Qg5 25. Be8 b6 26. Bc6 Rb8 27. Rxa7 Rf7
+28. Rxf7 Kxf7 29. Qe2 Bb7 30. Qe6+ Kg7 31. Qxd6 Rf8 32. Bxb7 Rf7 33. Bc8 Qd2
+34. Qe5+ Kg6 35. Qg3+ Kh7 36. Bxf5+ 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.14"]
+[Round "2"]
+[White "Martinez Romero, M."]
+[Black "Grigoryan, KH."]
+[Result "1/2-1/2"]
+[ECO "B88"]
+[WhiteElo "2401"]
+[BlackElo "2592"]
+[PlyCount "68"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bc4 e6 7. O-O Nc6 8. Bb3
+Be7 9. Be3 O-O 10. f4 Nxd4 11. Bxd4 b5 12. e5 dxe5 13. fxe5 Ne8 14. Qg4 b4 15.
+Na4 Rb8 16. Rad1 Qc7 17. Kh1 g6 18. c3 Ng7 19. Rc1 Qa5 20. cxb4 Rxb4 21. Qd1
+Rb5 22. Nc3 Rxe5 23. Bxe5 Qxe5 24. Re1 Qb8 25. Ne4 Nf5 26. Qc2 Bh4 27. Qc3 Bb7
+28. Nf6+ Bxf6 29. Qxf6 Qf4 30. Qe5 Qg5 31. Rc2 h5 32. Kg1 h4 33. h3 Rd8 34.
+Bxe6 fxe6 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.15"]
+[Round "3"]
+[White "Grigoryan, KH."]
+[Black "Larsson, A."]
+[Result "1-0"]
+[ECO "A41"]
+[WhiteElo "2592"]
+[BlackElo "2270"]
+[PlyCount "87"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. d4 d6 2. Nf3 Bg4 3. c4 Nd7 4. e4 c5 5. Be2 Bxf3 6. Bxf3 cxd4 7. Qxd4 Ngf6 8.
+O-O g6 9. Nc3 Bg7 10. Be3 O-O 11. Qd2 Rc8 12. Be2 a6 13. Rac1 Ne5 14. b3 Re8
+15. f3 Nc6 16. Rfd1 Qc7 17. Bf1 Qb8 18. Qf2 Ne5 19. Ba7 Qa8 20. Bd4 Qb8 21. h3
+Nc6 22. Be3 Nd7 23. f4 Nf6 24. Qf3 Nd8 25. Nd5 Ne6 26. b4 Nxd5 27. exd5 Nf8 28.
+c5 e6 29. dxe6 Rxe6 30. Bc4 Rxe3 31. Qxe3 dxc5 32. bxc5 Re8 33. Qf3 Qc7 34. Bd5
+Ne6 35. Re1 Rf8 36. Bxe6 fxe6 37. Rxe6 Rxf4 38. Qd5 Rf7 39. Re8+ Bf8 40. Rf1
+Kg7 41. Rxf7+ Qxf7 42. Qxf7+ Kxf7 43. Rc8 Be7 44. Kf1 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.16"]
+[Round "4"]
+[White "Panelo Muñoz, MA."]
+[Black "Grigoryan, KH."]
+[Result "0-1"]
+[ECO "E97"]
+[WhiteElo "2448"]
+[BlackElo "2592"]
+[PlyCount "84"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. Be3
+Ng4 9. Bg5 f6 10. Bh4 g5 11. Bg3 Nh6 12. dxe5 dxe5 13. c5 Be6 14. Qa4 Qe8 15.
+Bc4 Rf7 16. Bxe6 Qxe6 17. h3 Bf8 18. Qb5 a6 19. Qxb7 Ra7 20. Qb3 Qxb3 21. axb3
+Bxc5 22. Rfc1 Nd4 23. Nxd4 Bxd4 24. Rc2 c5 25. Na4 f5 26. Nxc5 Rfc7 27. Rac1 f4
+28. Bh2 Rc6 29. Rc4 Bxb2 30. R1c2 Bd4 31. Kf1 Nf7 32. Nd3 Rxc4 33. Rxc4 Nd6 34.
+Rc6 Nxe4 35. Nxe5 Bxe5 36. Re6 Nd2+ 37. Ke2 Bc3 38. h4 Nxb3 39. Rb6 Nc5 40.
+hxg5 Be5 41. f3 Rb7 42. Rc6 Rb2+ 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.17"]
+[Round "5"]
+[White "Cuartas Medina, JA."]
+[Black "Grigoryan, KH."]
+[Result "0-1"]
+[ECO "B77"]
+[WhiteElo "2483"]
+[BlackElo "2592"]
+[PlyCount "100"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. Nc3 Bg7 6. Be3 Nf6 7. Bc4 O-O 8.
+Bb3 d6 9. f3 Bd7 10. Qd2 Nxd4 11. Bxd4 b5 12. h4 a5 13. h5 a4 14. Bd5 b4 15.
+hxg6 hxg6 16. Bxf6 exf6 17. Ne2 f5 18. exf5 Bxf5 19. Nd4 Qf6 20. Nxf5 Qxf5 21.
+Bxa8 Rxa8 22. O-O Qc5+ 23. Kh1 Bxb2 24. Rad1 Kg7 25. g4 Rc8 26. Rf2 Bc3 27. Qe2
+Re8 28. Qf1 Rh8+ 29. Kg2 Qe5 30. f4 Qe4+ 31. Kg3 g5 32. Qg2 gxf4+ 33. Rxf4 Qe6
+34. Qd5 Be5 35. Qxe6 fxe6 36. Kf3 Bxf4 37. Kxf4 Rd8 38. Ke3 Rc8 39. Rxd6 Rxc2
+40. Rd4 Rxa2 41. Rxb4 a3 42. Ra4 Ra1 43. Kd2 a2 44. Kc2 Rf1 45. Kb2 a1=Q+ 46.
+Rxa1 Rxa1 47. Kxa1 Kf6 48. Kb2 Kg5 49. Kc3 Kxg4 50. Kd4 Kf4 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.18"]
+[Round "6"]
+[White "Grigoryan, KH."]
+[Black "Perez Mitjans, O."]
+[Result "1-0"]
+[ECO "D93"]
+[WhiteElo "2592"]
+[BlackElo "2414"]
+[PlyCount "101"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Qb3 g6 5. Bf4 Bg7 6. e3 O-O 7. Nc3 dxc4 8. Bxc4
+Nbd7 9. h3 Nb6 10. Be2 Be6 11. Qc2 Nbd5 12. Be5 Bf5 13. Qb3 Qb6 14. Nd2 Qxb3
+15. Nxb3 Nd7 16. Bxg7 Kxg7 17. Nxd5 cxd5 18. Kd2 Rfc8 19. Rhc1 Nf6 20. f3 b6
+21. Ba6 Rxc1 22. Rxc1 Ne8 23. Bb7 Rd8 24. e4 Be6 25. e5 Kf8 26. g4 g5 27. Ke3
+Rb8 28. Bc6 Rc8 29. Rc3 Ng7 30. Nc1 f5 31. Nd3 f4+ 32. Kd2 Bf7 33. Nb4 e6 34.
+Bb5 Rxc3 35. Kxc3 a5 36. Na6 Ke7 37. Nc7 Kd8 38. Na8 Be8 39. Bxe8 Nxe8 40. Nxb6
+Nc7 41. Na4 Na6 42. a3 h6 43. Nc5 Nxc5 44. dxc5 Kc7 45. b4 Kc6 46. a4 axb4+ 47.
+Kxb4 Kc7 48. Kb5 Kb7 49. a5 d4 50. a6+ Ka7 51. c6 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.19"]
+[Round "7"]
+[White "Cori Tello, J."]
+[Black "Grigoryan, KH."]
+[Result "1/2-1/2"]
+[ECO "A48"]
+[WhiteElo "2608"]
+[BlackElo "2592"]
+[PlyCount "135"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. d4 Nf6 2. Nf3 g6 3. c3 Bg7 4. Bf4 O-O 5. h3 c5 6. e3 cxd4 7. exd4 d6 8. Be2
+Nfd7 9. O-O e5 10. dxe5 dxe5 11. Bg5 Qc7 12. Na3 a6 13. Nc4 e4 14. Nd4 b5 15.
+Ne3 Nb6 16. Bh4 f5 17. Qb3+ Qf7 18. Rfd1 f4 19. Qxf7+ Kxf7 20. Nec2 h6 21. f3
+e3 22. a4 g5 23. Be1 Nxa4 24. b3 Nb6 25. c4 Bb7 26. Rab1 Bc8 27. Bb4 Re8 28.
+Ba5 N6d7 29. b4 bxc4 30. Bxc4+ Kf6 31. b5 axb5 32. Rxb5 Re5 33. Bc3 Kg6 34.
+Bd3+ Kf7 35. Bc4+ Kg6 36. Bd3+ Kf7 37. Rbb1 Ba6 38. Be4 Rxe4 39. fxe4 Nc5 40.
+Nb5 e2 41. Rd5 Bxc3 42. Rxc5 Bd2 43. Rd5 Bxb5 44. Rxd2 Bc4 45. Kf2 Nc6 46. Rb7+
+Kf8 47. Ne1 Re8 48. Rd6 Ne5 49. Rc7 Be6 50. Kxe2 Nf7 51. Rb6 Bd5 52. Kf2 Rxe4
+53. Nf3 Kg7 54. Rd6 Be6 55. Rd2 Kf6 56. Rc6 Ne5 57. Nxe5 Rxe5 58. Rb6 Re3 59.
+Re2 Rxe2+ 60. Kxe2 h5 61. Kf2 Ke5 62. Rb8 g4 63. h4 g3+ 64. Kg1 Kf5 65. Re8 Ba2
+66. Ra8 Bb3 67. Rb8 Ba2 68. Ra8 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.20"]
+[Round "8"]
+[White "Grigoryan, KH."]
+[Black "Alarcon Casellas, R."]
+[Result "1-0"]
+[ECO "D10"]
+[WhiteElo "2592"]
+[BlackElo "2378"]
+[PlyCount "99"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. e3 Bf5 5. cxd5 cxd5 6. Qb3 Bc8 7. Nf3 e6 8. Ne5
+Nbd7 9. f4 a6 10. Bd3 Be7 11. O-O O-O 12. Bd2 Nxe5 13. fxe5 Nd7 14. Ne2 Qb6 15.
+Qc2 f5 16. g4 Bg5 17. gxf5 exf5 18. Bxf5 Qh6 19. Kh1 Rxf5 20. Rxf5 Nb6 21. Raf1
+Bxf5 22. Qxf5 Qg6 23. Qxg6 hxg6 24. b3 a5 25. Rg1 Bd8 26. a4 g5 27. Kg2 Kf7 28.
+Kf3 Ke6 29. e4 dxe4+ 30. Kxe4 Nd5 31. Bxg5 Bxg5 32. Rxg5 Rh8 33. Rg6+ Kf7 34.
+Rg4 Ke6 35. h4 Rc8 36. Rxg7 Rc2 37. Nf4+ Nxf4 38. Kxf4 b5 39. axb5 Rb2 40. Rg3
+Kf7 41. Ke4 Ke6 42. Re3 Rh2 43. d5+ Ke7 44. Kd4 Rxh4+ 45. Kc5 a4 46. b4 Rh1 47.
+b6 Rc1+ 48. Kb5 Kd7 49. e6+ Ke7 50. b7 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.21"]
+[Round "9"]
+[White "Grigoryan, KH."]
+[Black "Oliva Castaneda, K."]
+[Result "1/2-1/2"]
+[ECO "D75"]
+[WhiteElo "2592"]
+[BlackElo "2419"]
+[PlyCount "35"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. cxd5 Nxd5 6. g3 O-O 7. Bg2 c5 8. O-O
+Nxc3 9. bxc3 Nc6 10. e3 Be6 11. Qa4 Rc8 12. Ba3 cxd4 13. cxd4 Bd5 14. Rfc1 Be4
+15. Qb3 b6 16. Nd2 Bxg2 17. Kxg2 Rc7 18. Nf3 1/2-1/2
+
+[Event "Sitges op"]
+[Site "Sitges"]
+[Date "2014.07.22"]
+[Round "1.2"]
+[White "Grigoryan, KH."]
+[Black "Diaz Herrero, A."]
+[Result "1-0"]
+[ECO "D95"]
+[WhiteElo "2592"]
+[BlackElo "2210"]
+[PlyCount "65"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. e3 O-O 6. Qb3 c5 7. cxd5 cxd4 8.
+Nxd4 Nbd7 9. Bc4 Nb6 10. O-O Qc7 11. Be2 Rd8 12. Ndb5 Qb8 13. e4 e6 14. d6 Ne8
+15. Bg5 Rd7 16. Rad1 Nxd6 17. Nxd6 Rxd6 18. Rxd6 Qxd6 19. Rd1 Bd4 20. Be3 e5
+21. Nb5 Qc6 22. Nxd4 exd4 23. Rxd4 Be6 24. Qd1 Bxa2 25. b3 Qe6 26. Rd8+ Rxd8
+27. Qxd8+ Kg7 28. Bd4+ f6 29. Bg4 Qf7 30. e5 Bxb3 31. exf6+ Kh6 32. Be3+ g5 33.
+h4 1-0
+
+[Event "Sitges op"]
+[Site "Sitges"]
+[Date "2014.07.23"]
+[Round "2.2"]
+[White "Alarcon Casellas, R."]
+[Black "Grigoryan, KH."]
+[Result "1/2-1/2"]
+[ECO "A45"]
+[WhiteElo "2378"]
+[BlackElo "2592"]
+[PlyCount "79"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. d4 Nf6 2. Bg5 c5 3. Bxf6 gxf6 4. e3 Bg7 5. c3 f5 6. Bc4 O-O 7. Nf3 d5 8. Bb3
+e6 9. h3 Qc7 10. Nbd2 b6 11. Kf1 Nc6 12. Kg1 Ba6 13. Bc2 h6 14. g4 f4 15. Kg2
+e5 16. dxe5 fxe3 17. fxe3 Rfe8 18. Re1 Rad8 19. Rc1 Bb7 20. Qe2 Nxe5 21. Nxe5
+Qxe5 22. Nf3 d4 23. cxd4 cxd4 24. e4 Qf4 25. Bd3 h5 26. Qd2 Bh6 27. Qxf4 Bxf4
+28. Rcd1 hxg4 29. hxg4 Re6 30. Nh4 Be3 31. Nf5 Rde8 32. Kf3 Bxe4+ 33. Bxe4 Rxe4
+34. Rxd4 Bxd4 35. Rxe4 Rxe4 36. Kxe4 Bxb2 37. Ne7+ Kg7 38. Nc8 Kf6 39. Nxa7 Kg5
+40. Kf3 1/2-1/2
+
+[Event "Sitges op"]
+[Site "Sitges"]
+[Date "2014.07.24"]
+[Round "3.6"]
+[White "Grigoryan, KH."]
+[Black "Mosquera, M."]
+[Result "1-0"]
+[ECO "D11"]
+[WhiteElo "2592"]
+[BlackElo "2362"]
+[PlyCount "81"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Qb3 Qb6 5. e3 Bf5 6. Be2 h6 7. cxd5 Qxb3 8.
+axb3 cxd5 9. O-O Nc6 10. Bd2 e6 11. Rc1 Bd6 12. Bb5 Kd7 13. Ne5+ Bxe5 14. dxe5
+Ne4 15. Ba5 f6 16. f3 Ng5 17. Nc3 fxe5 18. e4 dxe4 19. h4 Nf7 20. Rd1+ Ke7 21.
+g4 Bg6 22. Bxc6 bxc6 23. Bb4+ Ke8 24. fxe4 h5 25. Ra6 Rd8 26. Rxd8+ Kxd8 27. g5
+Re8 28. Rxa7 Kc8 29. Na4 Kb8 30. Rd7 Rd8 31. Bd6+ Nxd6 32. Rxd8+ Kc7 33. Rg8
+Ne8 34. Nc5 Kd6 35. b4 Ke7 36. Kf2 Kf7 37. Rh8 Ke7 38. Ke3 Bf7 39. Nd3 Kd6 40.
+b3 Bg6 41. Nb2 1-0
+
+[Event "Sitges op"]
+[Site "Sitges"]
+[Date "2014.07.25"]
+[Round "4.1"]
+[White "Gomez Garrido, C."]
+[Black "Grigoryan, KH."]
+[Result "1-0"]
+[ECO "B66"]
+[WhiteElo "2495"]
+[BlackElo "2592"]
+[PlyCount "53"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bg5 e6 7. Qd2 a6 8.
+O-O-O Be7 9. Nb3 b5 10. Bxf6 gxf6 11. f4 b4 12. Ne2 Qb6 13. Kb1 a5 14. Nbd4 Bb7
+15. Nxc6 Bxc6 16. Nd4 Bd7 17. Bc4 Qc5 18. Qe2 a4 19. f5 e5 20. Nf3 Bc6 21. g4
+O-O 22. g5 b3 23. g6 bxc2+ 24. Qxc2 Rac8 25. Rhg1 Qe3 26. Qg2 Bxe4+ 27. Ka1 1-0
+
+[Event "Sitges op"]
+[Site "Sitges"]
+[Date "2014.07.26"]
+[Round "5.6"]
+[White "Grigoryan, KH."]
+[Black "Akshat, Kh"]
+[Result "1/2-1/2"]
+[ECO "A70"]
+[WhiteElo "2592"]
+[BlackElo "2367"]
+[PlyCount "125"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 c5 4. d5 exd5 5. cxd5 d6 6. Nc3 g6 7. e4 Bg7 8. Nd2
+O-O 9. Be2 Na6 10. O-O Nc7 11. Re1 Nfe8 12. a4 b6 13. Nc4 f5 14. Bf3 Ba6 15.
+Qb3 Kh8 16. exf5 Rxf5 17. Ne4 Nxd5 18. Ng3 Rxf3 19. gxf3 Nb4 20. Bd2 Nc6 21.
+Be3 Nd4 22. Bxd4 Bxd4 23. Ne3 Ng7 24. Ng4 Nf5 25. Qe6 Qg8 26. Qe7 Rf8 27. Qxa7
+Bc4 28. Qxb6 Nh4 29. Ra3 h5 30. Nh6 Qg7 31. Qxd6 Qxh6 32. Rd1 Qg7 33. f4 Qf6
+34. Qxf6+ Rxf6 35. a5 Rxf4 36. a6 Bxf2+ 37. Kh1 Bd4 38. Rxd4 Rxd4 39. Kg1 Rd2
+40. a7 Bd5 41. a8=Q+ Bxa8 42. Rxa8+ Kg7 43. Ra3 Rg2+ 44. Kf1 Rxb2 45. Ne2 Rb7
+46. Rc3 Rf7+ 47. Kg1 Nf3+ 48. Kg2 Nxh2 49. Rxc5 Ng4 50. Nd4 Kh6 51. Nf3 Ne3+
+52. Kg3 Nf5+ 53. Kg2 h4 54. Kh3 g5 55. Ne5 Rb7 56. Kg4 Ne3+ 57. Kf3 Rb3 58.
+Nf7+ Kg6 59. Nxg5 Nf5+ 60. Kf4 Rb4+ 61. Ne4 Nd6 62. Re5 Nxe4 63. Rxe4 1/2-1/2
+
+[Event "Sitges op"]
+[Site "Sitges"]
+[Date "2014.07.28"]
+[Round "6.7"]
+[White "Piasetski, LD."]
+[Black "Grigoryan, KH."]
+[Result "0-1"]
+[ECO "A48"]
+[WhiteElo "2297"]
+[BlackElo "2592"]
+[PlyCount "74"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. Nf3 g6 2. d4 Nf6 3. c3 Bg7 4. Bf4 c5 5. e3 cxd4 6. cxd4 Qb6 7. Qd2 Ne4 8.
+Qc2 Nc6 9. Nc3 Nxc3 10. bxc3 d6 11. Rb1 Qc7 12. Bd3 e5 13. Bg3 O-O 14. O-O b6
+15. Nd2 Bb7 16. f4 exd4 17. cxd4 Qe7 18. Bf2 d5 19. Qa4 Rfc8 20. Rfc1 Na5 21.
+Kf1 Bf8 22. Ke2 Qe6 23. h3 Bc6 24. Bb5 Bxb5+ 25. Qxb5 Ba3 26. Rxc8+ Rxc8 27.
+Qd3 Qd6 28. e4 dxe4 29. Qxe4 Bc1 30. Be3 Qa3 31. f5 Bxd2 32. Bxd2 Qxa2 33. Rc1
+Nc4 34. Rc2 Qa4 35. Kf2 Qd7 36. Bh6 Nd6 37. Rxc8+ Qxc8 0-1
+
+[Event "Sitges op"]
+[Site "Sitges"]
+[Date "2014.07.29"]
+[Round "7.5"]
+[White "Grigoryan, KH."]
+[Black "Gomez Ledo, RC."]
+[Result "1/2-1/2"]
+[ECO "D34"]
+[WhiteElo "2592"]
+[BlackElo "2429"]
+[PlyCount "70"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 c5 4. g3 d5 5. cxd5 exd5 6. Bg2 Nc6 7. O-O Be7 8. Nc3
+O-O 9. Bg5 cxd4 10. Nxd4 h6 11. Be3 Be6 12. Nxc6 bxc6 13. Na4 Re8 14. Qc2 Qd7
+15. Rfc1 Rac8 16. Nc5 Bxc5 17. Qxc5 Bh3 18. Bf3 Re7 19. b4 Ne4 20. Qd4 Rce8 21.
+Rc2 Nd6 22. Qc5 Nc4 23. Bd4 Qf5 24. Rc3 Rxe2 25. Bxe2 Rxe2 26. g4 Bxg4 27. Rg3
+Nd2 28. h3 Nf3+ 29. Kh1 h5 30. hxg4 hxg4 31. Rxf3 gxf3 32. Qd6 Re4 33. Qb8+ Kh7
+34. Qh2+ Kg8 35. Qb8+ Kh7 1/2-1/2
+
+[Event "Sitges op"]
+[Site "Sitges"]
+[Date "2014.07.30"]
+[Round "8.4"]
+[White "Perez Mitjans, O."]
+[Black "Grigoryan, KH."]
+[Result "0-1"]
+[ECO "B51"]
+[WhiteElo "2414"]
+[BlackElo "2592"]
+[PlyCount "168"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nc6 4. O-O Bd7 5. Re1 a6 6. Bf1 Nf6 7. c3 Bg4 8. h3
+Bxf3 9. Qxf3 g6 10. d3 Bg7 11. Qd1 Nd7 12. Nd2 O-O 13. Nf3 Nde5 14. Be3 Nxf3+
+15. Qxf3 e5 16. Qd1 Qd7 17. a3 f5 18. f3 Kh8 19. b4 cxb4 20. axb4 d5 21. Bc5
+Rfe8 22. Qb3 d4 23. c4 Nd8 24. exf5 gxf5 25. Qa4 Qxa4 26. Rxa4 Nf7 27. Bb6 Bh6
+28. Ra5 Be3+ 29. Kh1 Re6 30. c5 Rg8 31. Rb1 Ng5 32. Bc7 Bf4 33. Ra2 Rc8 34. Bb6
+Rg6 35. b5 axb5 36. Rxb5 Rcg8 37. Bc7 Nxh3 38. Rxb7 Ng5 39. g3 Bxg3 40. Bg2 Bf4
+41. Rb8 Rc6 42. Raa8 Rxb8 43. Rxb8+ Kg7 44. Rb7 Nf7 45. Bb6 Kf6 46. Bf1 Bh6 47.
+Bg2 Rc8 48. f4 Bxf4 49. c6 Ke6 50. Rd7 Nd6 51. Bc7 e4 52. dxe4 fxe4 53. Bxd6
+Bxd6 54. Bxe4 Ke5 55. Bf3 d3 56. Kg2 d2 57. Rxh7 Rxc6 58. Rh5+ Kf4 59. Rd5 Bc5
+60. Bd1 Be3 61. Rd8 Rg6+ 62. Kf1 Ke5 63. Ke2 Bh6 64. Kd3 Rg2 65. Rh8 Bg5 66.
+Rg8 Rg3+ 67. Kc2 Kd4 68. Rc8 Ra3 69. Rb8 Rc3+ 70. Kb2 Rc1 71. Ba4 d1=Q 72. Bxd1
+Rxd1 73. Rg8 Bf6 74. Kc2 Ra1 75. Kd2 Ra2+ 76. Ke1 Be5 77. Re8 Bg3+ 78. Kf1 Kd3
+79. Kg1 Bf4 80. Kf1 Be3 81. Re7 Rf2+ 82. Ke1 Rf8 83. Rd7+ Bd4 84. Rd6 Rg8 0-1
+
+[Event "Sitges op"]
+[Site "Sitges"]
+[Date "2014.07.31"]
+[Round "9.4"]
+[White "Das, Say"]
+[Black "Grigoryan, KH."]
+[Result "0-1"]
+[ECO "B97"]
+[WhiteElo "2381"]
+[BlackElo "2592"]
+[PlyCount "66"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Qb6 8. Qd3
+Qxb2 9. Rb1 Qa3 10. f5 Nc6 11. fxe6 fxe6 12. Be2 Qc5 13. Bxf6 gxf6 14. Nxc6
+bxc6 15. Qh3 Bg7 16. Bh5+ Ke7 17. Ne2 Bd7 18. e5 dxe5 19. Rd1 Rad8 20. Rd3 f5
+21. Rc3 Qb6 22. Rb3 Qa5+ 23. c3 Qc5 24. Kd2 Bc8+ 25. Kc2 e4 26. Qg3 Be5 27.
+Qg5+ Bf6 28. Qh6 Rdg8 29. h4 Rxg2 30. Rhb1 Qa7 31. Rb6 Qc7 32. a4 f4 33. Kc1
+Bg7 0-1
+
+[Event "Badalona op"]
+[Site "Badalona"]
+[Date "2014.08.02"]
+[Round "1.1"]
+[White "Malassagne, I."]
+[Black "Grigoryan, KH."]
+[Result "0-1"]
+[ECO "B90"]
+[WhiteElo "2122"]
+[BlackElo "2595"]
+[PlyCount "48"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceDate "2014.08.11"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bc4 e6 7. Bb3 Be7 8. g4
+h6 9. Rg1 Nc6 10. Be3 Qc7 11. Qe2 Na5 12. O-O-O b5 13. f3 b4 14. Na4 g6 15. Qd3
+Nd7 16. f4 Nxb3+ 17. axb3 Nc5 18. Nxc5 dxc5 19. Nf3 Bb7 20. Ne5 Rd8 21. Qc4 O-O
+22. Rxd8 Rxd8 23. Nd3 Qa5 24. Kb1 Bd5 0-1
+
+[Event "Badalona op"]
+[Site "Badalona"]
+[Date "2014.08.03"]
+[Round "2.1"]
+[White "Grigoryan, KH."]
+[Black "Vehi Bach, VM."]
+[Result "1-0"]
+[ECO "E32"]
+[WhiteElo "2595"]
+[BlackElo "2316"]
+[PlyCount "73"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceDate "2014.08.11"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. a3 Bxc3+ 6. Qxc3 d6 7. Bg5 Nbd7 8.
+e3 b6 9. Bd3 c5 10. dxc5 bxc5 11. Ne2 a5 12. b3 Bb7 13. O-O h6 14. Bh4 Qb6 15.
+Rab1 Rfe8 16. Rfd1 Qc6 17. f3 d5 18. Rbc1 Qb6 19. cxd5 Bxd5 20. Rb1 e5 21. e4
+Be6 22. a4 Nb8 23. Bb5 Nfd7 24. f4 Bg4 25. f5 Bxe2 26. Bxe2 Nf6 27. Bxf6 gxf6
+28. Bc4 Rd8 29. Qh3 Kg7 30. Qg4+ Kf8 31. Qh5 Ra7 32. Qxh6+ Ke7 33. Qg7 Rf8 34.
+Rd5 Nc6 35. Rd6 Kxd6 36. Qxf8+ Re7 37. Qg7 1-0
+
+[Event "Badalona op"]
+[Site "Badalona"]
+[Date "2014.08.04"]
+[Round "3.1"]
+[White "Akshat, Kh"]
+[Black "Grigoryan, KH."]
+[Result "0-1"]
+[ECO "E61"]
+[WhiteElo "2362"]
+[BlackElo "2595"]
+[PlyCount "106"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceDate "2014.08.11"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. Bg5 h6 5. Bh4 c5 6. e3 O-O 7. Nf3 d6 8. Be2
+Nc6 9. d5 Na5 10. Nd2 e5 11. O-O Qd7 12. h3 Nh7 13. e4 f5 14. exf5 gxf5 15. f4
+e4 16. Kh1 Nf6 17. Rg1 Qe8 18. Nf1 Bd7 19. Ne3 a6 20. g4 fxg4 21. hxg4 Nh7 22.
+Nf5 Bxf5 23. gxf5 Rxf5 24. Bg4 Rxf4 25. Bg3 Rf6 26. Be6+ Rxe6 27. dxe6 Qxe6 28.
+Qxd6 Re8 29. Qxe6+ Rxe6 30. Na4 Ng5 31. Nxc5 Rc6 32. Rad1 Nf3 33. Nxe4 Nxg1 34.
+Rxg1 Nxc4 35. b3 Ne3 36. Nd6 Kh7 37. Nxb7 Rc2 38. a4 Bd4 39. Re1 Kg6 40. Bf4
+Ng4 41. Bg3 Rc3 42. Re4 Rxg3 43. Rxd4 h5 44. Nc5 h4 45. b4 h3 46. Rf4 Kg5 47.
+Rf8 Re3 48. Rf1 Kh4 49. b5 axb5 50. axb5 h2 51. Kg2 Re2+ 52. Kh1 Kg3 53. Nd3
+Rd2 0-1
+
+[Event "Badalona op"]
+[Site "Badalona"]
+[Date "2014.08.05"]
+[Round "4.1"]
+[White "Grigoryan, KH."]
+[Black "Martinez Alcantara, JE."]
+[Result "1/2-1/2"]
+[ECO "A62"]
+[WhiteElo "2595"]
+[BlackElo "2379"]
+[PlyCount "55"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceDate "2014.08.11"]
+
+1. d4 Nf6 2. Nf3 c5 3. d5 e6 4. c4 exd5 5. cxd5 d6 6. Nc3 g6 7. g3 Bg7 8. Bg2
+O-O 9. O-O a6 10. a4 Nbd7 11. Re1 Rb8 12. a5 b5 13. axb6 Nxb6 14. Nd2 Nfd7 15.
+e4 c4 16. Bf1 Qc7 17. Nf3 Nc5 18. Bf4 Bg4 19. h3 Bxf3 20. Qxf3 Nbd7 21. Nd1 Ne5
+22. Bxe5 Bxe5 23. Bxc4 Rb4 24. Bf1 f5 25. exf5 Rxf5 26. Qg2 Bxb2 27. Rb1 Qb8
+28. Ne3 1/2-1/2
+
+[Event "Badalona op"]
+[Site "Badalona"]
+[Date "2014.08.06"]
+[Round "5.1"]
+[White "Oliva Castaneda, K."]
+[Black "Grigoryan, KH."]
+[Result "0-1"]
+[ECO "E98"]
+[WhiteElo "2446"]
+[BlackElo "2595"]
+[PlyCount "68"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceDate "2014.08.11"]
+
+1. Nf3 g6 2. d4 Nf6 3. c4 Bg7 4. Nc3 O-O 5. e4 d6 6. Be2 e5 7. O-O Nc6 8. d5
+Ne7 9. Ne1 Nd7 10. Be3 f5 11. f3 f4 12. Bf2 g5 13. Nd3 Nf6 14. c5 Ng6 15. a4 h5
+16. a5 g4 17. Qe1 h4 18. Bxh4 g3 19. Bg5 gxh2+ 20. Kh1 Qe8 21. g4 fxg3 22. Qxg3
+Nh5 23. Qxh2 Nhf4 24. Rf2 Nh3 25. Rg2 Kf7 26. f4 Rh8 27. f5 Nxg5 28. Bh5 Qe7
+29. Bxg6+ Kf8 30. Bh5 Bd7 31. f6 Bxf6 32. Rf1 Kg7 33. Rxf6 Qxf6 34. Qh4 Rxh5
+0-1
+
+[Event "Badalona op"]
+[Site "Badalona"]
+[Date "2014.08.07"]
+[Round "6.1"]
+[White "Grigoryan, KH."]
+[Black "Lopez Martinez, JM."]
+[Result "1-0"]
+[ECO "E60"]
+[WhiteElo "2595"]
+[BlackElo "2549"]
+[PlyCount "113"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceDate "2014.08.11"]
+
+1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. g3 c5 5. Nc3 cxd4 6. Nxd4 O-O 7. Bg2 Nc6 8.
+O-O Qa5 9. Nb3 Qh5 10. c5 d6 11. cxd6 exd6 12. e4 Be6 13. Qxh5 Nxh5 14. Rd1
+Rfd8 15. Bg5 Rd7 16. Rac1 Nf6 17. Nd5 Ne8 18. Rd2 h6 19. Be3 Nf6 20. Nxf6+ Bxf6
+21. Bxh6 a5 22. Rcd1 a4 23. Nc1 g5 24. f4 gxf4 25. Bxf4 Ne5 26. Rc2 Kg7 27. Bf1
+Ra5 28. Be2 Rc5 29. Rxc5 dxc5 30. Rxd7 Nxd7 31. b3 axb3 32. axb3 Bd4+ 33. Kg2
+Nf6 34. Bd3 Bb2 35. Bc2 b5 36. Nd3 Bd4 37. Be5 Bxe5 38. Nxe5 Nd7 39. Nxd7 Bxd7
+40. Kf3 Be6 41. e5 b4 42. g4 f6 43. exf6+ Kxf6 44. h4 c4 45. bxc4 Bxc4 46. g5+
+Kg7 47. h5 b3 48. Bb1 Bg8 49. Ke3 Bf7 50. h6+ Kg8 51. Kd4 Be6 52. g6 Bg4 53.
+Ke5 Bh5 54. g7 Bg6 55. Bxg6 b2 56. Kf6 b1=Q 57. h7# 1-0
+
+[Event "Badalona op"]
+[Site "Badalona"]
+[Date "2014.08.08"]
+[Round "7.1"]
+[White "Palit, S."]
+[Black "Grigoryan, KH."]
+[Result "1/2-1/2"]
+[ECO "B20"]
+[WhiteElo "2397"]
+[BlackElo "2595"]
+[PlyCount "82"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceDate "2014.08.11"]
+
+1. e4 c5 2. b3 d6 3. Bb2 Nf6 4. Bb5+ Nbd7 5. d3 e6 6. Nd2 Be7 7. f4 O-O 8. Ngf3
+Nb6 9. d4 d5 10. e5 Nh5 11. dxc5 Nd7 12. g3 Nxc5 13. Nd4 g6 14. Be2 Ng7 15. O-O
+Nf5 16. Rf3 h5 17. Nf1 Ne4 18. Ne3 Bc5 19. c3 Bd7 20. Kg2 Bxd4 21. cxd4 Qa5 22.
+Nxf5 exf5 23. a4 Rfc8 24. Kg1 Nc3 25. Bxc3 Rxc3 26. Rxc3 Qxc3 27. Rc1 Qe3+ 28.
+Kg2 Rc8 29. Rxc8+ Bxc8 30. Qd3 Qc1 31. Qb5 Be6 32. Qd3 Qe1 33. Qd1 Qc3 34. Qd3
+Qb2 35. Kf3 a6 36. h4 Kf8 37. Qd1 Ke7 38. Ke3 Bd7 39. Kd3 a5 40. Qc2 Qxc2+ 41.
+Kxc2 b6 1/2-1/2
+
+[Event "Badalona op"]
+[Site "Badalona"]
+[Date "2014.08.09"]
+[Round "8.1"]
+[White "Grigoryan, KH."]
+[Black "Kohlweyer, B."]
+[Result "1-0"]
+[ECO "E20"]
+[WhiteElo "2595"]
+[BlackElo "2422"]
+[PlyCount "95"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceDate "2014.08.11"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. f3 d5 5. a3 Bxc3+ 6. bxc3 Nc6 7. cxd5 exd5 8.
+e3 Bf5 9. Ne2 O-O 10. g4 Nxg4 11. fxg4 Qh4+ 12. Ng3 Be4 13. Rg1 Qxh2 14. Nxe4
+Qxg1 15. Nf2 Qg3 16. Bd3 Ne7 17. Ke2 f5 18. Qh1 g6 19. gxf5 c6 20. Qh3 Qxh3 21.
+Nxh3 Nxf5 22. c4 Rae8 23. Bxf5 Rxf5 24. cxd5 Rxd5 25. Bb2 c5 26. dxc5 Rxc5 27.
+Bd4 Rf5 28. Bxa7 g5 29. Rg1 h6 30. Bd4 Re6 31. Kd3 Kh7 32. Rb1 Rf7 33. Rb5 Kg6
+34. a4 Ra6 35. a5 Rf5 36. Rxb7 Rfxa5 37. Nf2 Re6 38. e4 Kh5 39. Ke3 Ra3+ 40.
+Nd3 Ra8 41. e5 Rf8 42. Ke4 Ree8 43. Bc5 Rf1 44. Rb6 Rd1 45. e6 Rd2 46. Ne5 g4
+47. e7 g3 48. Be3 1-0
+
+[Event "Badalona op"]
+[Site "Badalona"]
+[Date "2014.08.10"]
+[Round "9.1"]
+[White "Cruz Estrada, F."]
+[Black "Grigoryan, KH."]
+[Result "1/2-1/2"]
+[ECO "A48"]
+[WhiteElo "2439"]
+[BlackElo "2595"]
+[PlyCount "15"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceDate "2014.08.11"]
+
+1. d4 Nf6 2. Nf3 g6 3. Bf4 Bg7 4. e3 c5 5. c3 cxd4 6. exd4 d6 7. Nbd2 O-O 8. h3
+1/2-1/2

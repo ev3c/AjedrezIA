@@ -1,0 +1,81 @@
+[Event "Arenys de Mar Int. fem."]
+[Site "Arenys de Mar"]
+[Date "1970.??.??"]
+[Round "?"]
+[White "Ivanka Budinsky, Maria"]
+[Black "Polihroniade, Elisabeta"]
+[Result "0-1"]
+[ECO "A02"]
+[PlyCount "52"]
+[EventDate "1970.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. f4 g6 2. g3 Bg7 3. Bg2 d6 4. Nf3 e5 5. fxe5 dxe5 6. Nc3 Ne7 7. d3 O-O 8. e4
+Nbc6 9. Be3 Nd4 10. Qd2 Bg4 11. Rf1 b5 12. h3 Nxf3+ 13. Bxf3 Bxf3 14. Rxf3 Qd7
+15. Bc5 c6 16. g4 f5 17. gxf5 gxf5 18. Bxe7 Qxe7 19. exf5 e4 20. dxe4 b4 21.
+Na4 Qxe4+ 22. Qe2 Qh4+ 23. Kf1 Rae8 24. Qd3 Re5 25. a3 bxa3 26. Qxa3 Rexf5 0-1
+
+[Event "Arenys de Mar Int. fem."]
+[Site "Arenys de Mar"]
+[Date "1970.??.??"]
+[Round "?"]
+[White "Polihroniade, Elisabeta"]
+[Black "Ferrer Lucas, Pepita"]
+[Result "1-0"]
+[ECO "C44"]
+[PlyCount "85"]
+[EventDate "1970.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. c3 d6 4. d4 Bg4 5. Bc4 Bxf3 6. Qxf3 Qf6 7. Qh3 exd4 8.
+O-O Nge7 9. Bb3 Ng6 10. f4 Be7 11. g4 Qh4 12. Qg2 h5 13. g5 Qg4 14. Ba4 dxc3
+15. Nxc3 Nh4 16. Qxg4 hxg4 17. Nd5 Kd7 18. Bd1 Nf3+ 19. Bxf3 gxf3 20. Rxf3 Nd4
+21. Rd3 Ne2+ 22. Kg2 Rh4 23. Bd2 Rah8 24. h3 c5 25. Rf1 Nd4 26. Be1 R4h5 27.
+Bc3 Ne6 28. b3 b5 29. Rfd1 c4 30. Re3 Ke8 31. Bb4 Nc5 32. Bxc5 dxc5 33. Nc7+
+Kf8 34. Nxb5 cxb3 35. axb3 f6 36. gxf6 gxf6 37. Nxa7 f5 38. e5 Bh4 39. Nb5 Rg8+
+40. Kh2 Rh7 41. Nd6 Ra7 42. Nxf5 Ra2+ 43. Kh1 1-0
+
+[Event "Arenys de Mar Int. fem."]
+[Site "Arenys de Mar"]
+[Date "1970.??.??"]
+[Round "?"]
+[White "Polihroniade, Elisabeta"]
+[Black "Ivanka Budinsky, Maria"]
+[Result "0-1"]
+[ECO "B90"]
+[PlyCount "102"]
+[EventDate "1970.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bd3 Nc6 7. Nb3 b5 8. O-O
+e6 9. f4 Be7 10. Qf3 Bd7 11. Be3 O-O 12. Rae1 Rc8 13. Kh1 Qc7 14. Qh3 e5 15. f5
+Nb4 16. a3 Nxd3 17. cxd3 Bc6 18. Bg5 a5 19. Rf3 b4 20. axb4 axb4 21. Ne2 d5 22.
+Qh4 dxe4 23. Rh3 Rfd8 24. dxe4 Kf8 25. Ng3 Ba4 26. Nc1 Qc2 27. Nh5 Rd1 28. Nxf6
+Bxf6 29. Bxf6 gxf6 30. Nd3 Rxd3 31. Qxf6 Rd1 32. Qh8+ Ke7 33. Qxe5+ Kd7 34.
+Rhe3 Rxe1+ 35. Rxe1 Qd2 36. Rg1 Rc1 37. h3 Rxg1+ 38. Kxg1 Qd1+ 39. Kf2 Qd2+ 40.
+Kf3 Bd1+ 41. Kg3 Qd6 42. Kf4 f6 43. Qxd6+ Kxd6 44. g4 h5 45. g5 fxg5+ 46. Kxg5
+Ke5 47. f6 Bb3 48. Kxh5 Kxf6 49. Kg4 Ke5 50. Kf3 Bc2 51. Ke3 Bxe4 0-1
+
+[Event "Berga op"]
+[Site "Berga"]
+[Date "1971.08.28"]
+[Round "8"]
+[White "Ribera Arnal, Angel"]
+[Black "Polihroniade, Elisabeta"]
+[Result "1/2-1/2"]
+[ECO "A42"]
+[PlyCount "32"]
+[EventDate "1971.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. d4 g6 2. c4 Bg7 3. e4 d6 4. Nc3 Nc6 5. Be3 e5 6. dxe5 Nxe5 7. Be2 Be6 8. Nf3
+Nxf3+ 9. Bxf3 Qd7 10. Qd3 Nf6 11. O-O O-O 12. Rad1 Bg4 13. Bd4 Bxf3 14. Qxf3
+Qg4 15. Qxg4 Nxg4 16. Bxg7 Kxg7 1/2-1/2

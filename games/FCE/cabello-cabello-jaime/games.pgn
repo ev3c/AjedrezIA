@@ -1,0 +1,85 @@
+[Event "Barcelona Tres Peons op 19th"]
+[Site "Barcelona"]
+[Date "2017.01.11"]
+[Round "1"]
+[White "Munoz Pantoja, Miguel Angel"]
+[Black "Cabello Cabello, Jaime"]
+[Result "1-0"]
+[ECO "B20"]
+[WhiteElo "2486"]
+[BlackElo "1892"]
+[PlyCount "73"]
+[EventDate "2017.01.11"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. g3 g6 3. Bg2 Bg7 4. Ne2 Nc6 5. c3 e6 6. d4 cxd4 7. cxd4 d5 8. e5
+Nge7 9. Be3 O-O 10. O-O Bd7 11. Nbc3 a6 12. Qd2 Nf5 13. g4 Nxe3 14. fxe3 Qh4
+15. h3 Rac8 16. e4 Bh6 17. Qd1 Ne7 18. Qb3 Bc6 19. exd5 Nxd5 20. Nxd5 Bxd5 21.
+Bxd5 exd5 22. Rf3 Qd8 23. Raf1 b5 24. Rf6 a5 25. Qf3 Rc7 26. Nc3 b4 27. Nxd5
+Rd7 28. e6 Rxd5 29. Rxf7 Rf5 30. gxf5 Qxd4+ 31. Kh1 Rxf7 32. exf7+ Kxf7 33.
+fxg6+ Kxg6 34. Qf7+ Kg5 35. Rf5+ Kh4 36. Qh5+ Kg3 37. Rf3# 1-0
+
+[Event "Barcelona Tres Peons op 19th"]
+[Site "Barcelona"]
+[Date "2017.02.01"]
+[Round "4"]
+[White "Cabello Cabello, Jaime"]
+[Black "Comellas Blanchart, Jordi"]
+[Result "0-1"]
+[ECO "D00"]
+[WhiteElo "1892"]
+[BlackElo "2065"]
+[PlyCount "86"]
+[EventDate "2017.01.11"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Bf4 Nf6 3. e3 c5 4. c3 Nc6 5. Nd2 Bf5 6. Ngf3 e6 7. Ne5 Qb6 8. Nxc6
+bxc6 9. b3 cxd4 10. cxd4 Ba3 11. Be2 O-O 12. O-O Bb2 13. Rc1 Bxc1 14. Qxc1 a5
+15. a3 Rfc8 16. Bd6 Qd8 17. Bg3 Qf8 18. Qc5 Qxc5 19. dxc5 Nd7 20. Bd6 f6 21. f3
+Ne5 22. e4 dxe4 23. fxe4 Bg4 24. Bc4 Nxc4 25. Nxc4 Be2 26. Rc1 Bxc4 27. Rxc4 e5
+28. Kf2 Ra7 29. Ke2 Rb7 30. Rc3 Kf7 31. Kd2 Ke6 32. g4 h5 33. h3 hxg4 34. hxg4
+Rh8 35. Rg3 Rh2+ 36. Kc3 g5 37. Rd3 Rbh7 38. b4 axb4+ 39. Kxb4 Rb2+ 40. Kc4 Ra7
+41. Rb3 Ra4+ 42. Kc3 Rxb3+ 43. Kxb3 Rxe4 0-1
+
+[Event "Barcelona Tres Peons op 19th"]
+[Site "Barcelona"]
+[Date "2017.03.08"]
+[Round "9"]
+[White "Cabello Cabello, Jaime"]
+[Black "Colom Andres, Xavier"]
+[Result "0-1"]
+[ECO "D00"]
+[WhiteElo "1892"]
+[BlackElo "1937"]
+[PlyCount "52"]
+[EventDate "2017.01.11"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Bf4 Nf6 3. e3 c5 4. c3 Nc6 5. Nd2 Bf5 6. Qb3 Qc8 7. Ngf3 e6 8. Rc1
+Be7 9. Ne5 O-O 10. Ndf3 Nxe5 11. Nxe5 Nh5 12. g4 Be4 13. f3 Nxf4 14. fxe4 Bh4+
+15. Kd2 Ng6 16. Nxg6 fxg6 17. exd5 Rf2+ 18. Be2 c4 19. Qb5 a6 20. Qc5 Qd7 21.
+d6 Raf8 22. Rcf1 b6 23. Qc7 Qb5 24. Rb1 Qd5 25. Rhf1 Rxe2+ 26. Kxe2 Qg2+ 0-1

@@ -1,0 +1,98 @@
+[Event "Ct. Catalunya equips"]
+[Site "?"]
+[Date "1993.??.??"]
+[Round "?"]
+[White "Alvarez"]
+[Black "Sanchez Martin, M."]
+[Result "0-1"]
+[ECO "C40"]
+[PlyCount "46"]
+[EventDate "1993.??.??"]
+
+1. e4 e5 2. Nf3 d5 3. exd5 e4 4. Qe2 f5 5. d3 Nf6 6. c4 Be7 7. dxe4 fxe4 8.
+Nfd2 O-O 9. Nxe4 Nxe4 10. Qxe4 Bb4+ 11. Kd1 Re8 12. Qf3 Re1+ 13. Kc2 Nc6 14.
+dxc6 Bf5+ 15. Kb3 Be4 16. Qf4 bxc6 17. Bd2 Bxd2 18. Nxd2 Rb8+ 19. Kc3 Rxa1 20.
+Nxe4 Qd1 21. b3 Rxa2 22. Nf6+ gxf6 23. Qxf6 Rc2# 0-1
+
+[Event "Memorial Puig y Puig"]
+[Site "?"]
+[Date "1965.??.??"]
+[Round "?"]
+[White "Monedero Gonzalez, Jose"]
+[Black "Alvarez"]
+[Result "1-0"]
+[ECO "B34"]
+[PlyCount "89"]
+[EventDate "1965.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. Nc3 Bg7 6. Be3 Nf6 7. Be2 O-O 8.
+Qd2 d6 9. f3 Nxd4 10. Bxd4 Be6 11. O-O a6 12. Nd5 Bxd5 13. Bxf6 Bxf6 14. exd5
+Qb6+ 15. Kh1 Rfc8 16. c3 Qa5 17. f4 Rc5 18. Bf3 Qa4 19. Rfe1 Qd7 20. Qd3 Rb8
+21. Re2 b5 22. Rd1 a5 23. h3 Rc4 24. Be4 Qc7 25. Qf3 b4 26. Bd3 Rc5 27. c4 a4
+28. g4 b3 29. g5 Bg7 30. a3 Qb7 31. f5 Be5 32. Rf1 e6 33. fxe6 fxe6 34. Be4 Qe7
+35. dxe6 Rxc4 36. Ref2 Rc7 37. Bd5 Kg7 38. Qf7+ Kh8 39. Qxe7 Rxe7 40. Rf7 Rxf7
+41. Rxf7 Bxb2 42. Rd7 Re8 43. e7 Kg7 44. Rd8 Bxa3 45. Rxe8 1-0
+
+[Event "Barcelona prov. - Barcelona Ciud. m"]
+[Site "Granollers"]
+[Date "1969.??.??"]
+[Round "?"]
+[White "Bohigas Santasusagna, Luis"]
+[Black "Alvarez"]
+[Result "0-1"]
+[ECO "B34"]
+[PlyCount "48"]
+[EventDate "1969.??.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. Nc3 Bg7 6. Be3 Nf6 7. Nxc6 bxc6 8.
+e5 Nd5 9. Nxd5 cxd5 10. Qxd5 Rb8 11. Bd4 Qc7 12. Qe4 Bb7 13. Qe3 O-O 14. Bd3
+Bxg2 15. Rg1 Bd5 16. h4 d6 17. f4 dxe5 18. fxe5 Bc4 19. h5 Bxd3 20. cxd3 Rbd8
+21. hxg6 fxg6 22. a4 Rxd4 23. Rh1 Bxe5 24. Qh6 Bg3+ 0-1
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1975.12.07"]
+[Round "8"]
+[White "Ribera Arnal, Angel"]
+[Black "Alvarez"]
+[Result "0-1"]
+[ECO "D35"]
+[PlyCount "72"]
+[EventDate "1975.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Nbd7 5. cxd5 exd5 6. Bf4 c6 7. e3 Nh5 8.
+Bd3 Nxf4 9. exf4 Be7 10. O-O O-O 11. Qc2 Nf6 12. Ne5 Be6 13. Kh1 c5 14. dxc5
+Bxc5 15. Rad1 Bd6 16. f3 Rc8 17. Qf2 Nh5 18. g3 Bc5 19. Qg2 g6 20. Ne2 Qf6 21.
+b3 Kh8 22. Ng4 Qg7 23. Bb1 Rfe8 24. Ne5 Qh6 25. Nd3 Bb6 26. Ne5 f6 27. Ng4 Bxg4
+28. fxg4 Rxe2 29. Qh3 Nxg3+ 30. Qxg3 Rc3 31. Rd3 d4 32. h3 Re3 33. Rxe3 Rxe3
+34. Rf3 Qf8 35. f5 Qe8 36. Bd3 Qc6 0-1
+
+[Event "Ruy Lopez-Leridano op"]
+[Site "Barcelona"]
+[Date "1975.??.??"]
+[Round "1"]
+[White "Ribera Arnal, Angel"]
+[Black "Alvarez"]
+[Result "1/2-1/2"]
+[ECO "D57"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "88"]
+[EventDate "1975.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. c4 Nf6 2. Nc3 d5 3. d4 e6 4. Bg5 Be7 5. e3 O-O 6. Nf3 h6 7. Bh4 Ne4 8. Bxe7
+Qxe7 9. cxd5 Nxc3 10. bxc3 exd5 11. Qb3 Rd8 12. c4 dxc4 13. Bxc4 Nc6 14. O-O
+Na5 15. Qc3 Nxc4 16. Qxc4 Be6 17. Qc3 Bd5 18. Nd2 Rac8 19. e4 Bc6 20. f3 Qf6
+21. Nb3 b6 22. a4 a5 23. Rfc1 Be8 24. Qe3 Qe7 25. Rc4 f5 (25... c5 26. Re1 (26.
+dxc5) 26... cxd4) 26. Re1 fxe4 27. fxe4 Bf7 28. d5 c5 29. Nd2 Re8 30. Qd3 Rcd8
+31. Rcc1 Bg6 32. Rb1 Qe5 33. Rxb6 Rxd5 $1 34. Qxd5+ Qxd5 35. exd5 Rxe1+ 36. Kf2
+Rd1 37. Ke3 (37. Ke2 $1 Bh5+ 38. Kd3 $36) 37... Be8 38. Ra6 c4 39. Nxc4 Rxd5
+40. Ra8 Kf7 41. Ra7+ (41. Ke4 $1) 41... Kf6 42. Ra8 Ke7 (42... Bxa4 43. Rxa5
+$11) 43. Rxa5 Rxa5 44. Nxa5 Bxa4 1/2-1/2

@@ -1,0 +1,169 @@
+[Event "Andorra op"]
+[Site "Erts - La Massana"]
+[Date "2014.07.21"]
+[Round "3.2"]
+[White "Vovk, A."]
+[Black "Arngrimsson, D."]
+[Result "1-0"]
+[ECO "C90"]
+[WhiteElo "2616"]
+[BlackElo "2366"]
+[PlyCount "43"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3
+O-O 9. h3 Na5 10. Bc2 c5 11. d3 Qc7 12. Nbd2 Nc6 13. Nf1 Re8 14. Ng3 d5 15. d4
+exd4 16. exd5 Nxd5 17. Ng5 Nf6 18. Nh5 Bb7 19. Bf4 Qd7 20. Nxf6+ Bxf6 21. Bxh7+
+Kf8 22. Qh5 1-0
+
+[Event "Andorra op"]
+[Site "Erts - La Massana"]
+[Date "2014.07.22"]
+[Round "4.17"]
+[White "Arngrimsson, D."]
+[Black "Sanchez Dengra, JM."]
+[Result "1-0"]
+[ECO "A37"]
+[WhiteElo "2366"]
+[BlackElo "2140"]
+[PlyCount "207"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+
+1. Nf3 c5 2. c4 Nc6 3. g3 e5 4. Nc3 g6 5. Bg2 Bg7 6. O-O Nge7 7. d3 O-O 8. a3
+d6 9. Rb1 a5 10. Ne1 Be6 11. Nc2 d5 12. cxd5 Nxd5 13. Ne3 Nce7 14. Ne4 Nxe3 15.
+Bxe3 b6 16. Nc3 Rc8 17. Qd2 Nf5 18. Rfc1 Nxe3 19. Qxe3 Bb3 20. Bb7 Rc7 21. Ba6
+Be6 22. Bc4 Qd4 23. Bxe6 Qxe3 24. fxe3 fxe6 25. Rf1 Rxf1+ 26. Kxf1 Bh6 27. e4
+c4 28. Rd1 cxd3 29. exd3 Be3 30. Ke2 Bd4 31. Kd2 Rf7 32. Kc2 Rf2+ 33. Rd2 g5
+34. Rxf2 Bxf2 35. g4 Kf7 36. Kb3 Bg1 37. h3 Ke7 38. Ne2 Bf2 39. Kc4 Kd6 40. Kb5
+Kc7 41. b3 Kb7 42. Nc3 Bd4 43. Nb1 Be3 44. Nc3 Bd4 45. Ne2 Bf2 46. b4 axb4 47.
+axb4 Kc7 48. Nc3 Kb7 49. Nb1 Be3 50. Na3 Bd4 51. Nc4 Kc7 52. Ka6 Kc6 53. b5+
+Kc7 54. Ka7 Bc3 55. Ka6 Bd4 56. Nd2 Bc3 57. Nf3 h6 58. Ka7 Bb2 59. Nd2 Bc3 60.
+Nc4 Ba1 61. Nd2 Bd4 62. Nf3 Bc3 63. Ka6 Bb2 64. Ne1 Bc3 65. Nc2 Bd2 66. Na1 Bb4
+67. Nb3 Bc3 68. Ka7 Bb4 69. Na1 Bc3 70. Nc2 Ba5 71. d4 Kd6 72. Ka6 Bc3 73.
+dxe5+ Kxe5 74. Kxb6 Kxe4 75. Kc5 Be5 76. b6 Kf4 77. Nd4 Kg3 78. Nxe6 Kxh3 79.
+Nc7 Kxg4 80. Kc6 Bd4 81. b7 Ba7 82. Nb5 Bb8 83. Kd7 h5 84. Kc8 h4 85. Kxb8 h3
+86. Ka7 h2 87. b8=Q h1=Q 88. Qc8+ Kg3 89. Qc7+ Kh3 90. Qh7+ Kg2 91. Qe4+ Kg1
+92. Qe3+ Kf1 93. Qc1+ Kg2 94. Qxg5+ Kh2 95. Qf4+ Kh3 96. Nd4 Qa1+ 97. Kb6 Qb2+
+98. Kc6 Qc3+ 99. Kd5 Qa5+ 100. Ke4 Qe1+ 101. Kf5 Qa5+ 102. Kg6 Qb6+ 103. Kh5
+Qb2 104. Qg4+ 1-0
+
+[Event "Andorra op"]
+[Site "Erts - La Massana"]
+[Date "2014.07.23"]
+[Round "5.15"]
+[White "Rivera, I."]
+[Black "Arngrimsson, D."]
+[Result "0-1"]
+[ECO "D46"]
+[WhiteElo "2190"]
+[BlackElo "2366"]
+[PlyCount "66"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c6 4. e3 Nf6 5. Nf3 Nbd7 6. Qc2 Be7 7. Bd3 O-O 8. O-O
+b6 9. e4 dxe4 10. Nxe4 Bb7 11. Ne5 h6 12. Be3 Qc7 13. Nxd7 Nxd7 14. f4 f5 15.
+Nd2 Nf6 16. h3 c5 17. Nb3 Ne4 18. dxc5 bxc5 19. Nd2 Ng3 20. Rf2 Rad8 21. Rd1
+Bd6 22. Nb3 Nh5 23. Bf1 Bxf4 24. Bxc5 Rfe8 25. Rxd8 Rxd8 26. Be2 Bh2+ 27. Kf1
+Ng3+ 28. Ke1 Ne4 29. Bxa7 Bg3 30. Bf3 Nxf2 31. Bxf2 Bxf3 32. gxf3 Bxf2+ 33.
+Qxf2 Qxc4 0-1
+
+[Event "Andorra op"]
+[Site "Erts - La Massana"]
+[Date "2014.07.24"]
+[Round "6.6"]
+[White "Arngrimsson, D."]
+[Black "Narciso Dublan, M."]
+[Result "1-0"]
+[ECO "A80"]
+[WhiteElo "2366"]
+[BlackElo "2523"]
+[PlyCount "75"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+
+1. d4 f5 2. Bg5 g6 3. Nc3 d5 4. Qd2 Bg7 5. h4 c6 6. e3 Nd7 7. f3 Ngf6 8. Bf4
+O-O 9. O-O-O Nh5 10. Bh2 e5 11. g4 fxg4 12. fxg4 Nhf6 13. Be2 exd4 14. exd4 Nb6
+15. g5 Ne4 16. Nxe4 dxe4 17. c4 Be6 18. c5 Nd5 19. Bd6 Rf7 20. Bc4 b5 21. Bb3
+a5 22. Ne2 a4 23. Bxd5 Bxd5 24. h5 gxh5 25. Rxh5 Bxa2 26. Rdh1 Raa7 27. Rxh7
+Rf1+ 28. Rxf1 Kxh7 29. Nc3 Bd5 30. Nxd5 cxd5 31. Qf4 Bxd4 32. Qf5+ Kg7 33. Qxd5
+Be3+ 34. Kb1 Bxg5 35. Bf8+ Kh8 36. Rh1+ Rh7 37. Rxh7+ Kxh7 38. Qf7+ 1-0
+
+[Event "Andorra op"]
+[Site "Erts - La Massana"]
+[Date "2014.07.25"]
+[Round "7.3"]
+[White "Gretarsson, HS."]
+[Black "Arngrimsson, D."]
+[Result "1-0"]
+[ECO "D17"]
+[WhiteElo "2535"]
+[BlackElo "2366"]
+[PlyCount "95"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Nf3 dxc4 5. a4 Bf5 6. Ne5 Nbd7 7. Nxc4 Nb6 8.
+e3 e6 9. Qb3 Be7 10. a5 Nxc4 11. Bxc4 Qc7 12. f3 O-O 13. e4 Bg6 14. Be3 b5 15.
+axb6 axb6 16. O-O Kh8 17. Rac1 Nd7 18. Ne2 Qa7 19. Nf4 Rfc8 20. Rfd1 Bf6 21.
+Be2 Qa5 22. e5 Bd8 23. Nxg6+ hxg6 24. f4 b5 25. Bf3 Qa6 26. Rc2 Rc7 27. Rdc1
+Rac8 28. Rc3 Qb7 29. Qc2 Nb8 30. g3 Be7 31. Qg2 b4 32. Rc4 Kg8 33. b3 Qa7 34.
+Qb2 Bf8 35. Bf2 Qa3 36. Qb1 Qa5 37. h4 Qb5 38. Qc2 c5 39. dxc5 Nc6 40. Qd2 Rb8
+41. Bxc6 Rxc6 42. Qd4 Qa5 43. Kg2 Rbc8 44. Qd2 Rb8 45. Kh3 Qa3 46. Qd1 Rbc8 47.
+Ra1 Qb2 48. Bd4 1-0
+
+[Event "Andorra op"]
+[Site "Erts - La Massana"]
+[Date "2014.07.26"]
+[Round "8.6"]
+[White "Arngrimsson, D."]
+[Black "Kogan, A."]
+[Result "0-1"]
+[ECO "A47"]
+[WhiteElo "2366"]
+[BlackElo "2548"]
+[PlyCount "76"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+
+1. d4 Nf6 2. Nf3 e6 3. e3 c5 4. Bd3 b6 5. O-O Bb7 6. b3 d6 7. Bb2 Nbd7 8. c4 g6
+9. d5 e5 10. Nc3 Bg7 11. Nd2 Qe7 12. Qe2 h5 13. Rae1 O-O-O 14. f4 Kb8 15. a3
+Ng4 16. Nd1 f5 17. e4 exf4 18. exf5 Nde5 19. h3 Qh4 20. Bxe5 Bxe5 21. Nf3 Qg3
+22. fxg6 Bc8 23. Qc2 Bd4+ 24. Kh1 Rde8 25. Re4 Rxe4 26. Bxe4 Re8 27. Qd3 Ne3
+28. Nxe3 fxe3 29. Nxd4 cxd4 30. Bf3 Bg4 31. Qxd4 Bxf3 32. Rxf3 Qxf3 33. gxf3 e2
+34. Qd2 e1=Q+ 35. Qxe1 Rxe1+ 36. Kg2 Kc7 37. Kf2 Re8 38. f4 Kd7 0-1
+
+[Event "Andorra op"]
+[Site "Erts - La Massana"]
+[Date "2014.07.27"]
+[Round "9.16"]
+[White "Silva Rodriguez, F."]
+[Black "Arngrimsson, D."]
+[Result "0-1"]
+[ECO "D31"]
+[WhiteElo "2202"]
+[BlackElo "2366"]
+[PlyCount "52"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+
+1. d4 d5 2. c4 c6 3. Nc3 e6 4. Nf3 dxc4 5. a4 Bb4 6. e3 b5 7. Bd2 Bxc3 8. Bxc3
+a5 9. axb5 cxb5 10. d5 Nf6 11. e4 Nxe4 12. Qd4 Nf6 13. dxe6 Bxe6 14. Qxd8+ Kxd8
+15. Rxa5 Rxa5 16. Bxa5+ Kd7 17. b3 Nc6 18. Bc3 Re8 19. bxc4 Bxc4+ 20. Kd1 Ne4
+21. Be1 Ra8 22. g3 Ra2 23. Bh3+ Kd6 24. Kc1 Nxf2 25. Bxf2 Ra1+ 26. Kb2 Rxh1 0-1

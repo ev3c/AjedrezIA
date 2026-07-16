@@ -1,0 +1,63 @@
+[Event "Catalunya-chT Gp1"]
+[Site "Barcelona"]
+[Date "2017.01.28"]
+[Round "2.10"]
+[White "Labena Bernal, Antonio"]
+[Black "Romero Perera, Eugeni"]
+[Result "0-1"]
+[ECO "B01"]
+[WhiteElo "2109"]
+[BlackElo "1968"]
+[PlyCount "86"]
+[EventDate "2017.01.21"]
+[EventType "team-tourn"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 176 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.03.02"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.03.02"]
+[SourceQuality "1"]
+[WhiteTeam "Tres Peons"]
+[BlackTeam "Mollet"]
+[WhiteTeamCountry "ESP"]
+[BlackTeamCountry "ESP"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. Bc4 Nf6 5. d3 c6 6. Bd2 Qc7 7. Qe2 Nbd7 8.
+O-O-O b5 9. Bb3 Nc5 10. d4 Nxb3+ 11. axb3 e6 12. g4 Bb7 13. g5 Nd7 14. f4 O-O-O
+15. Nf3 Be7 16. Rhf1 b4 17. Ne4 Qa5 18. Kb1 Ba6 19. c4 bxc3 20. Bxc3 Bxe2 21.
+Bxa5 Rdf8 22. Ne5 Nxe5 23. dxe5 Bxf1 24. Nd6+ Kb8 25. Rxf1 Bxd6 26. exd6 Kc8
+27. Bb4 Kd7 28. Bc5 a6 29. Kc2 f6 30. Ra1 Ra8 31. h4 fxg5 32. hxg5 Rhf8 33. Rh1
+Rxf4 34. Rxh7 Rg8 35. b4 a5 36. Kc3 axb4+ 37. Bxb4 Rg4 38. Rh1 Rf8 39. Bc5 Rf3+
+40. Kd2 Rg2+ 41. Kc1 Rxg5 42. b4 Rg2 43. Kd1 Ra3 0-1
+
+[Event "Catalunya-chT Gp1"]
+[Site "Barcelona"]
+[Date "2017.02.25"]
+[Round "6.9"]
+[White "Subirats Ruiz, Sergi"]
+[Black "Labena Bernal, Antonio"]
+[Result "1/2-1/2"]
+[ECO "C91"]
+[WhiteElo "2165"]
+[BlackElo "2109"]
+[PlyCount "35"]
+[EventDate "2017.01.21"]
+[EventType "team-tourn"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+[WhiteTeam "Sant Andreu"]
+[BlackTeam "Tres Peons"]
+[WhiteTeamCountry "ESP"]
+[BlackTeamCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3
+O-O 9. d4 Bg4 10. Be3 exd4 11. cxd4 Na5 12. Bc2 c5 13. e5 dxe5 14. dxe5 Qxd1
+15. Rxd1 Nd7 16. h3 Be6 17. Nc3 Nc4 18. Bg5 1/2-1/2

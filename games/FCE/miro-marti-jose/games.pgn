@@ -1,0 +1,62 @@
+[Event "Trofeo Agustin Pujol"]
+[Site "?"]
+[Date "1952.05.28"]
+[Round "?"]
+[White "Pelluz Ginata, Federico"]
+[Black "Miro Marti, Jose"]
+[Result "1-0"]
+[ECO "A04"]
+[PlyCount "67"]
+[EventDate "1952.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+[SourceDate "2015.03.11"]
+
+1. Nf3 c5 2. g3 Nc6 3. Bg2 Nf6 4. c4 e6 5. Nc3 a6 {Jugada defensiva, hubiera
+sido preferible una cualquiera de desarrollo de pieza.} 6. O-O Be7 7. b3 Ng4 {
+Movimiento que solo pretende cambiar piezas con e inconveniente de debilitar
+el enroque y que proporciona a las blancas en la 10 la posibilidadde abrir
+grandes diagonales ocupadas por los alfiles.} 8. Bb2 Nge5 9. Nxe5 Nxe5 10. d4
+cxd4 11. Qxd4 Qc7 12. Ne4 {Jugada que impide colocar el álfil negro en f6,
+obligando a defender el caballo con el peón.} f6 13. Rac1 ({Mejor seria} 13.
+Rad1 {aprovechando la columna abierta y la posición retrasada de los peones
+centrales.}) 13... d6 ({Mejor} 13... Nc6 {atacando la dama seguido de e5
+cerrando la peligrosa diagonal negra.}) 14. Ba3 Nf7 15. Rfd1 O-O 16. Qd3 ({
+Jugada poco consecuente puesto que se ganaba peón con las siguientes movidas:} 
+16. Bxd6 Nxd6 17. Nxd6 Rd8 18. c5 {sin continuación negra eficaz.}) 16... Rd8
+17. Bb2 e5 {este movimiento permite al caballo ocupar la importante casilla d5.
+} 18. Nc3 Bf8 {Jugada obligada para no perder calidad debido al salto de
+caballo a b6.} 19. Nd5 Qc5 20. e3 ({Más energica} 20. b4 {que obliga a la dama
+a retroceder a} Qa7 {, restándole mucha eficacia.}) 20... Ng5 21. Kh1 Bg4 22.
+Rf1 Bf3 23. Bxf3 Nxf3 24. Kg2 Re8 25. e4 Ng5 26. f4 exf4 ({Tomando el peón se
+facilita el objetivo blanco de concentración de fuerzas sobre el punto f6. La
+retirada del caballo a} 26... Nf7 {parece más prudente.}) 27. Rxf4 Qc8 28. Rcf1
+Qh3+ ({Jaque poco eficaz. La jugada} 28... Re6 {aunque insuficiente demora la
+rendición.}) 29. Kg1 Rac8 30. Bxf6 $1 {sacrifició lógico y resolutivo de la
+situación planteada.} gxf6 ({La toma en f6 acelera el final.} 30... Qh6 {Con
+la dama en h6 se alarga la partida.}) 31. Nxf6+ Kg7 32. Qd5 Qe6 33. Qxg5+ Kh8
+34. Nxe8 1-0
+
+[Event "Tarragona Int"]
+[Site "Tarragona"]
+[Date "1952.??.??"]
+[Round "11"]
+[White "Miro Marti, Jose"]
+[Black "Fuentes, Juan Manuel"]
+[Result "1-0"]
+[ECO "B40"]
+[PlyCount "61"]
+[EventDate "1952.09.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Bb4 6. e5 Qc7 $2 {¿Una
+probatura de Fuentes? Es posible, pero Miró le castigará duramente.} (6... Nd5)
+7. exf6 Bxc3+ 8. bxc3 Qxc3+ 9. Qd2 $1 {Miró encuentra la jugada exacta.} (9.
+Bd2 $2 Qxd4 10. fxg7 Qxg7 $11) 9... Qxa1 10. c3 (10. fxg7 $144 Rg8 11. c3)
+10... Qb1 11. Bd3 Qb6 12. fxg7 Rg8 13. Qh6 f5 14. Be2 (14. Bg5 $142 $1) 14...
+Nc6 15. Bh5+ Kd8 16. Qxh7 Ne7 17. Bg5 Qb1+ 18. Bd1 $1 Qe4+ 19. Ne2 (19. Kd2
+$142 Qxg2 20. Qxg8+ Kc7 21. Bxe7 $18) 19... Qxg2 20. Bxe7+ Kxe7 21. Rg1 Rxg7
+22. Qh4+ Kd6 23. Rxg2 Rxg2 24. Qb4+ Kc7 25. h4 Rg4 26. Qc5+ Kd8 27. h5 b6 28.
+Qd6 Bb7 29. Ng3 Rh4 30. h6 f4 (30... Rxh6 $4 31. Qf8+) 31. Ba4 {Una partida de
+Fuentes para olvidar.} 1-0

@@ -1,0 +1,532 @@
+[Event "Montcada op A"]
+[Site "Montcada i Reixac"]
+[Date "2016.06.25"]
+[Round "1"]
+[White "Newrkla, Katharina"]
+[Black "Cori, Jorge"]
+[Result "0-1"]
+[ECO "B32"]
+[WhiteElo "2214"]
+[BlackElo "2602"]
+[PlyCount "98"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e5 5. Nb5 d6 6. c4 Be6 7. N1c3 a6 8. Na3
+Be7 9. Be2 Bg5 10. O-O h6 11. Nc2 Nf6 12. Qd3 Qd7 13. Nd5 Rd8 14. Be3 O-O 15.
+Rfd1 Bxd5 16. cxd5 Ne7 17. Bxg5 hxg5 18. Ne3 Qa4 19. Rdc1 b5 20. Bf3 Rc8 21.
+Qb3 Qa5 22. h3 Nd7 23. a3 Nc5 24. Qb4 Qb6 25. Nc4 Qb8 26. Na5 f5 27. exf5 Nxf5
+28. Nc6 Qb6 29. Qg4 Rce8 30. Qxg5 Rf6 31. Rc2 Ref8 32. Rd1 Kh7 33. b4 Nb3 34.
+Be4 g6 35. Rd3 Nbd4 36. Nxd4 Nxd4 37. Rc8 Ne2+ 38. Kh2 Qxf2 39. Rc7+ Kg8 40.
+Rd1 R8f7 41. Rxf7 Kxf7 42. Qg4 Kg7 43. Bf3 Rf4 44. Qd7+ Rf7 45. Qg4 Nf4 46. Rc1
+e4 47. Bxe4 Qe3 48. Rc6 Qxe4 49. Rxd6 Qe5 0-1
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.04"]
+[Round "1"]
+[White "Grigoryan, Karen H"]
+[Black "Newrkla, Katharina"]
+[Result "1-0"]
+[ECO "B81"]
+[WhiteElo "2555"]
+[BlackElo "2182"]
+[PlyCount "73"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. h3 e6 7. g4 d5 8. exd5
+Nxd5 9. Nde2 Bb4 10. Bg2 Nc6 11. O-O Nxc3 12. Qxd8+ Nxd8 13. Nxc3 Bxc3 14. bxc3
+Bd7 15. Ba3 Rc8 16. Rfd1 f6 17. Rd2 h5 18. Be4 Rh6 19. g5 fxg5 20. Bf8 Kxf8 21.
+Rxd7 Nf7 22. Bxb7 Rxc3 23. Bxa6 Ne5 24. Ra7 g4 25. Rb1 Kg8 26. hxg4 hxg4 27.
+Rb8+ Kh7 28. Rc8 Nf3+ 29. Kg2 Rxc8 30. Bxc8 Ne1+ 31. Kg3 Nxc2 32. Ra4 Rf6 33.
+Bb7 Ne1 34. Rxg4 g6 35. Be4 e5 36. Rh4+ Kg7 37. Rh1 1-0
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.05"]
+[Round "2"]
+[White "Newrkla, Katharina"]
+[Black "Ros Alonso, Jaume"]
+[Result "0-1"]
+[ECO "B42"]
+[WhiteElo "2182"]
+[BlackElo "2006"]
+[PlyCount "70"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Bd3 Bc5 6. Nb3 Ba7 7. Qe2 Nc6 8.
+Be3 d6 9. Nc3 Nge7 10. O-O-O Bxe3+ 11. Qxe3 Qc7 12. Kb1 b5 13. Qg3 O-O 14. f4
+b4 15. Ne2 a5 16. Nbd4 Nxd4 17. Nxd4 Qc5 18. e5 dxe5 19. fxe5 Ng6 20. Be4 Ra7
+21. Nf3 Bb7 22. Bxb7 Rxb7 23. h4 a4 24. h5 Ne7 25. h6 g6 26. Qg5 b3 27. cxb3
+axb3 28. axb3 Rxb3 29. Nd4 Rc8 30. Qd2 Rb4 31. Nc2 Rbb8 32. Rhe1 Nd5 33. Re3
+Qxc2+ 34. Qxc2 Rxc2 35. Rxd5 Rcxb2+ 0-1
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.06"]
+[Round "3"]
+[White "Newrkla, Katharina"]
+[Black "Martinez Perez, Pablo"]
+[Result "1-0"]
+[ECO "C84"]
+[WhiteElo "2182"]
+[BlackElo "1900"]
+[PlyCount "125"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. d3 b5 6. Bb3 Be7 7. a4 Bb7 8. O-O
+d6 9. Nc3 b4 10. Nd5 Nxd5 11. Bxd5 O-O 12. Be3 Rb8 13. Nd2 Bg5 14. Qh5 Bf6 15.
+Nc4 g6 16. Qd1 Bg7 17. Bd2 Nd4 18. Bxb7 Rxb7 19. c3 bxc3 20. bxc3 Nb3 21. Rb1
+Qb8 22. Be3 Rd8 23. Ba7 Qxa7 24. Rxb3 Rdb8 25. Rxb7 Qxb7 26. h3 Qb3 27. Qxb3
+Rxb3 28. Rc1 Bh6 29. Rc2 Rb1+ 30. Kh2 Rc1 31. Rxc1 Bxc1 32. Kg1 Kf8 33. Kf1 Ke7
+34. Ke2 f5 35. Na5 fxe4 36. dxe4 Kd7 37. Kd3 c6 38. Nc4 Bg5 39. Na3 Bd8 40. Nc2
+Kc7 41. Nb4 Kb6 42. Kc4 Bc7 43. Nd3 Bd8 44. Kb3 Bh4 45. g3 Bf6 46. Nb2 d5 47.
+f3 d4 48. cxd4 exd4 49. Nd3 Ka5 50. e5 Be7 51. f4 Kb6 52. g4 c5 53. f5 Kc6 54.
+Kc4 Bf8 55. f6 Kd7 56. Kd5 a5 57. e6+ Ke8 58. g5 h6 59. e7 Bxe7 60. fxe7 hxg5
+61. Ke6 c4 62. Nc5 d3 63. Ne4 1-0
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.07"]
+[Round "4"]
+[White "Caglar, Sila"]
+[Black "Newrkla, Katharina"]
+[Result "0-1"]
+[ECO "C26"]
+[WhiteElo "1976"]
+[BlackElo "2182"]
+[PlyCount "112"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nc3 Nf6 3. g3 Nc6 4. Bg2 Bc5 5. d3 a6 6. h3 d6 7. Nge2 h6 8. O-O
+O-O 9. Kh2 Bd7 10. f4 Re8 11. f5 Ne7 12. g4 Nh7 13. Ng3 f6 14. h4 b5 15. Qf3
+Nc6 16. Nce2 a5 17. Nh5 Rf8 18. Bd2 b4 19. Bh3 Be8 20. Nhg3 Bf7 21. Be3 a4 22.
+Rg1 b3 23. axb3 axb3 24. c3 Bxe3 25. Qxe3 Qe7 26. Rab1 Ra5 27. Rg2 Rfa8 28. Ng1
+Ra1 29. Rxa1 Rxa1 30. Nf3 Rb1 31. Re2 Qd8 32. d4 Qa8 33. d5 Na5 34. g5 hxg5 35.
+hxg5 fxg5 36. Nxg5 Nc4 37. Qd3 Rxb2 38. Qxc4 Rxe2+ 39. Nxe2 b2 40. Qb3 Nxg5 41.
+Qxb2 Nxe4 42. c4 Qa7 43. Ng3 Qf2+ 44. Qxf2 Nxf2 45. Bf1 Ng4+ 46. Kg1 Kf8 47.
+Be2 Nf6 48. Kf2 Ke7 49. Ke3 Be8 50. Ne4 Nxe4 51. Kxe4 Kf6 52. Bd1 Bd7 53. Bg4
+g6 54. Ke3 gxf5 55. Bf3 e4 56. Bd1 Ke5 0-1
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.08"]
+[Round "5"]
+[White "Newrkla, Katharina"]
+[Black "Ojas, Kulkarni"]
+[Result "1-0"]
+[ECO "B03"]
+[WhiteElo "2182"]
+[BlackElo "2351"]
+[PlyCount "43"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. c4 Nb6 5. f4 dxe5 6. fxe5 Nc6 7. Be3 Bf5 8. Nc3
+e6 9. Nf3 Be7 10. d5 exd5 11. cxd5 Nb4 12. Nd4 Bd7 13. Qf3 c5 14. dxc6 Nxc6 15.
+e6 Bxe6 16. Nxe6 fxe6 17. Rd1 Nd5 18. Bc4 Qc7 19. Bxd5 exd5 20. Nxd5 Qe5 21.
+O-O O-O-O 22. Qg4+ 1-0
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.09"]
+[Round "6"]
+[White "Pablo Marin, Alejandro"]
+[Black "Newrkla, Katharina"]
+[Result "1/2-1/2"]
+[ECO "D00"]
+[WhiteElo "2387"]
+[BlackElo "2182"]
+[PlyCount "97"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Bf4 Nf6 3. e3 c5 4. c3 Nc6 5. Nd2 Bf5 6. Qb3 Qb6 7. dxc5 Qxb3 8.
+axb3 e5 9. Bg3 Bxc5 10. Ngf3 d4 11. b4 dxe3 12. fxe3 Bb6 13. b5 Ne7 14. Nc4 O-O
+15. Bxe5 Ng4 16. Bd4 Nd5 17. Kd2 Rad8 18. Rg1 Rfe8 19. Re1 Bc7 20. g3 Be4 21.
+Bg2 Bxf3 22. Bxf3 Nxh2 23. Bh1 Ng4 24. e4 Nb6 25. Na5 Be5 26. Nb3 Rd6 27. Ra1
+Nc8 28. Bf3 Nf6 29. Kd3 a6 30. bxa6 bxa6 31. Na5 Red8 32. Nb3 Rb6 33. Kc2 Bxd4
+34. cxd4 Nd6 35. e5 Rc8+ 36. Nc5 Nf5 37. Kd3 Rb4 38. Ra4 Rxa4 39. Nxa4 Rd8 40.
+d5 Nxd5 41. Bxd5 Rxd5+ 42. Ke4 Rd4+ 43. Kxf5 Rxa4 44. Rc1 Kf8 45. Rc8+ Ke7 46.
+Rc7+ Ke8 47. Ra7 Rb4 48. Ra8+ Ke7 49. Ra7+ 1/2-1/2
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.10"]
+[Round "7"]
+[White "Newrkla, Katharina"]
+[Black "Cori Tello, Deysi Estella"]
+[Result "0-1"]
+[ECO "C11"]
+[WhiteElo "2182"]
+[BlackElo "2413"]
+[PlyCount "40"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6 7. Be3 Be7 8. Qd2
+b6 9. h4 Bb7 10. h5 f6 11. Ne2 Qc7 12. h6 g6 13. g3 fxe5 14. Nxe5 Ndxe5 15.
+fxe5 Nxe5 16. dxe5 d4 17. Nxd4 cxd4 18. Bb5+ Bc6 19. Qg2 Bxb5 20. Qxa8+ Bd8 0-1
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.11"]
+[Round "8"]
+[White "Ventura Bolet, Alexandre"]
+[Black "Newrkla, Katharina"]
+[Result "1/2-1/2"]
+[ECO "A30"]
+[WhiteElo "2080"]
+[BlackElo "2182"]
+[PlyCount "111"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. Nf3 Nf6 2. g3 b6 3. Bg2 Bb7 4. O-O c5 5. c4 g6 6. e3 d6 7. d4 Nbd7 8. Nc3
+Bg7 9. d5 O-O 10. e4 a6 11. a4 Qc7 12. Re1 Ne5 13. Nxe5 dxe5 14. Be3 Bc8 15. h3
+Bd7 16. Qb3 Rfb8 17. Qa3 a5 18. Rf1 Ne8 19. Rae1 Nd6 20. b3 Rf8 21. Qc1 Rae8
+22. Bh6 f6 23. Bd2 Nf7 24. f4 Bh6 25. h4 Qc8 26. Kh2 Qb8 27. f5 Bxd2 28. Qxd2
+Kg7 29. Bh3 g5 30. Bg4 h6 31. Bh5 Qd6 32. Qe2 Rb8 33. Bxf7 Rxf7 34. hxg5 hxg5
+35. Kg2 Rh8 36. Rh1 Rff8 37. Nd1 Qb8 38. Ne3 Rxh1 39. Rxh1 Rh8 40. Qd1 Rxh1 41.
+Qxh1 Qd6 42. Ng4 Be8 43. Qh6+ Kg8 44. Ne3 Bf7 45. Nf1 Qd8 46. g4 Qf8 47. Qh1
+Qg7 48. Ng3 Qh7 49. Qxh7+ Kxh7 50. Ne2 Kg7 51. Nc3 Kf8 52. Nb5 Ke8 53. d6 e6
+54. fxe6 Bxe6 55. Kf3 Kd7 56. Kg3 1/2-1/2
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.12"]
+[Round "9"]
+[White "Newrkla, Katharina"]
+[Black "Amer, Said Salim Al Maash"]
+[Result "1/2-1/2"]
+[ECO "B33"]
+[WhiteElo "2182"]
+[BlackElo "2025"]
+[PlyCount "60"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Bg5 a6 8.
+Na3 b5 9. Nd5 Be7 10. Bxf6 Bxf6 11. c4 b4 12. Nc2 a5 13. g3 O-O 14. Bg2 Bg5 15.
+O-O Ne7 16. h4 Nxd5 17. hxg5 Nb6 18. Ne3 Be6 19. b3 Rc8 20. Qh5 g6 21. Qh6 f6
+22. gxf6 Qxf6 23. Rad1 Rcd8 24. Bh3 Bxh3 25. Qxh3 Nd7 26. f3 Nc5 27. Nd5 Qf7
+28. Qh6 Ne6 29. Rd2 Qa7+ 30. Qe3 Qxe3+ 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.13"]
+[Round "1"]
+[White "Newrkla, K."]
+[Black "Movsziszian, K."]
+[Result "0-1"]
+[ECO "B06"]
+[WhiteElo "2167"]
+[BlackElo "2520"]
+[PlyCount "72"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. f4 Nc6 5. Nf3 Bg4 6. Be3 Bxf3 7. gxf3 d5 8. Qd2
+e6 9. O-O-O Nge7 10. h4 h5 11. Kb1 Qd7 12. Na4 b6 13. Ba6 O-O 14. Nc3 Na5 15.
+Rhg1 Kh7 16. f5 exf5 17. e5 Nc4 18. Bxc4 dxc4 19. Bg5 Nd5 20. Nxd5 Qxd5 21. Qf4
+Rae8 22. c3 Re6 23. Bf6 Bxf6 24. exf6 Qd6 25. Qxd6 cxd6 26. d5 Re3 27. Rge1
+Rfe8 28. Rxe3 Rxe3 29. Rd4 b5 30. a4 a6 31. axb5 axb5 32. Rd1 f4 33. Rd4 Rxf3
+34. Re4 g5 35. hxg5 Kg6 36. Re7 h4 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.14"]
+[Round "2"]
+[White "Magallanes, GJ."]
+[Black "Newrkla, K."]
+[Result "1/2-1/2"]
+[ECO "B06"]
+[WhiteElo "1969"]
+[BlackElo "2167"]
+[PlyCount "151"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. e4 c5 2. c3 d5 3. exd5 Qxd5 4. d4 g6 5. Nf3 Bg7 6. Na3 cxd4 7. Bc4 Qe4+ 8.
+Be3 Nh6 9. Nb5 O-O 10. cxd4 Nc6 11. O-O Bg4 12. Nc3 Bxf3 13. Nxe4 Bxd1 14.
+Raxd1 Nf5 15. d5 Ne5 16. Bb3 Ng4 17. Bc5 b6 18. Ba3 Be5 19. h3 Nf6 20. Ng5 Bd6
+21. Bxd6 Nxd6 22. Rfe1 Rfe8 23. Re2 a5 24. a3 a4 25. Ba2 Rac8 26. Nf3 Rc5 27.
+Ne5 Kg7 28. Nd3 Rc7 29. Nb4 Rc5 30. Rde1 Kf8 31. g4 h6 32. Kg2 Nb5 33. Rd2 Rd8
+34. Red1 Nd6 35. f3 Nc4 36. Bxc4 Rxc4 37. Kf2 Rd6 38. Ke3 Nd7 39. Rd4 Rxd4 40.
+Rxd4 Nc5 41. Nd3 Nd7 42. Nb4 b5 43. f4 Nb6 44. Kd3 Rd8 45. Nc6 Rxd5 46. Na7 Rc5
+47. Rb4 Nd5 48. Kd4 Nxb4 49. Kxc5 Nd3+ 50. Kxb5 Nxb2 51. Nc6 Ke8 52. Ne5 g5 53.
+f5 f6 54. Nf3 Kd7 55. Kb4 e5 56. fxe6+ Kxe6 57. Kc3 Nd1+ 58. Kb4 Nb2 59. Kc3
+Nd1+ 60. Kb4 Nf2 61. Kxa4 Nxh3 62. Kb5 Nf2 63. a4 Nxg4 64. a5 Kd7 65. Kb6 Kc8
+66. a6 Kb8 67. a7+ Ka8 68. Nd4 Ne3 69. Ne6 Nd5+ 70. Kc5 Ne7 71. Ng7 Kxa7 72.
+Kd6 f5 73. Kxe7 f4 74. Nh5 f3 75. Kf6 f2 76. Ng3 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.15"]
+[Round "3"]
+[White "Newrkla, K."]
+[Black "Alfara Ayllon, JL."]
+[Result "0-1"]
+[ECO "B87"]
+[WhiteElo "2167"]
+[BlackElo "1942"]
+[PlyCount "106"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bc4 e6 7. Bb3 b5 8. Bg5
+Be7 9. Qf3 Qc7 10. e5 Bb7 11. exd6 Bxd6 12. Qe3 O-O 13. O-O-O Be7 14. Rhe1 Nc6
+15. Qh3 Rad8 16. Nde2 Na5 17. f3 Nxb3+ 18. axb3 Qa5 19. Bd2 b4 20. Na4 Bc6 21.
+Kb1 Rd5 22. Nf4 Rd6 23. Nd3 Rxd3 24. cxd3 Bxa4 25. bxa4 Qxa4 26. Qh4 Nd5 27.
+Qc4 Nb6 28. Qe4 a5 29. Rc1 Bf6 30. Rc2 Qb3 31. d4 Nc4 32. Kc1 Qa2 33. Rxc4
+Qxc4+ 34. Kb1 Qxd4 35. Qxd4 Bxd4 36. Re4 e5 37. g4 Rd8 38. Be3 Bxe3 39. Rxe3 f6
+40. Kc2 Kf7 41. Kb3 Rd2 42. h4 Ke6 43. f4 Kd5 44. fxe5 fxe5 45. Rf3 Rg2 46. g5
+Ke6 47. Rf8 Rg4 48. Re8+ Kf5 49. Re7 Rxh4 50. Rxg7 e4 51. Ka4 e3 52. Re7 Re4
+53. Rxh7 e2 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.16"]
+[Round "4"]
+[White "Julian Barrachina, L."]
+[Black "Newrkla, K."]
+[Result "1-0"]
+[ECO "E63"]
+[WhiteElo "2125"]
+[BlackElo "2167"]
+[PlyCount "79"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. Nf3 Nf6 2. d4 g6 3. g3 Bg7 4. Bg2 O-O 5. c4 d6 6. Nc3 Nc6 7. O-O a6 8. a3
+Na5 9. b3 c5 10. Bb2 Qb6 11. Nd2 Bd7 12. dxc5 dxc5 13. Qc2 Rad8 14. e4 Bh6 15.
+b4 cxb4 16. axb4 Nc6 17. Nd5 Nxd5 18. exd5 Nd4 19. Qd3 Bg7 20. Rab1 Bf5 21. Be4
+Bh3 22. Rfe1 Nf5 23. Bxg7 Kxg7 24. Bg2 Bxg2 25. Kxg2 h5 26. Nf3 Qf6 27. Re2 e6
+28. Rd1 exd5 29. cxd5 Qd6 30. Qc3+ Kg8 31. Ng5 Rc8 32. Qb2 Rc4 33. Ne4 Qxb4 34.
+Nf6+ Kh8 35. Qe5 Qc3 36. Qxc3 Rxc3 37. d6 Rd8 38. d7 Kg7 39. Re8 Rxd7 40. Nxd7
+1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.17"]
+[Round "5"]
+[White "Tateo, I."]
+[Black "Newrkla, K."]
+[Result "0-1"]
+[ECO "C95"]
+[WhiteElo "1330"]
+[BlackElo "2167"]
+[PlyCount "82"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3
+O-O 9. h3 Nb8 10. d4 Nbd7 11. a4 Bb7 12. d5 Nc5 13. a5 Nfxe4 14. Bc2 Nf6 15. b4
+Ncd7 16. Bb3 c5 17. dxc6 Bxc6 18. Nbd2 Bd5 19. Nf1 Bxb3 20. Qxb3 Rc8 21. Ne3 g6
+22. c4 bxc4 23. Nxc4 Qc7 24. Nfd2 d5 25. Ne3 d4 26. Nec4 Rb8 27. Ba3 Rb5 28.
+Rac1 Qb7 29. Rb1 e4 30. Rb2 Rg5 31. g4 h5 32. Qg3 hxg4 33. h4 Rf5 34. Kh2 Nh5
+35. Qxg4 Rxf2+ 36. Kg1 Rf4 37. Qh3 Rxh4 38. Nd6 Qc6 39. b5 axb5 40. Qb3 e3 41.
+N2e4 Bxd6 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.18"]
+[Round "6"]
+[White "Newrkla, K."]
+[Black "Castrillo Mansego, P."]
+[Result "1/2-1/2"]
+[ECO "C10"]
+[WhiteElo "2167"]
+[BlackElo "2013"]
+[PlyCount "102"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. e4 e6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nd7 5. Nf3 Ngf6 6. Nxf6+ Nxf6 7. Be3 Bb4+
+8. c3 Bd6 9. Bd3 b6 10. Ne5 Bxe5 11. dxe5 Nd5 12. Bd2 Bb7 13. Qe2 Qe7 14. a3 c6
+15. c4 Nc7 16. O-O f5 17. exf6 gxf6 18. Be4 O-O-O 19. Bc3 e5 20. Qf3 Ne6 21.
+Bxc6 Nf4 22. Bb4 Qg7 23. Bxb7+ Qxb7 24. Qxb7+ Kxb7 25. Be7 Rdg8 26. g3 Rg6 27.
+Rfd1 Ne2+ 28. Kf1 Nd4 29. Rac1 h5 30. h4 a5 31. a4 Rh7 32. Ba3 f5 33. Rc3 Rf7
+34. f4 Ne6 35. fxe5 f4 36. Rf3 Rxg3 37. Rxg3 fxg3+ 38. Kg2 Rg7 39. Rf1 Rg4 40.
+Rf7+ Kc8 41. b3 Nf4+ 42. Rxf4 Rxf4 43. Kxg3 Rg4+ 44. Kh3 Re4 45. Kg3 Rg4+ 46.
+Kh3 Re4 47. Kg3 Kd7 48. Bd6 Rg4+ 49. Kh3 Re4 50. Kg3 Rg4+ 51. Kh3 Re4 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.19"]
+[Round "7"]
+[White "Masferrer Niubo, E."]
+[Black "Newrkla, K."]
+[Result "1/2-1/2"]
+[ECO "B26"]
+[WhiteElo "1996"]
+[BlackElo "2167"]
+[PlyCount "93"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. e4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. d3 d6 6. Be3 Rb8 7. Nge2 Nd4 8. O-O
+e6 9. Nc1 b5 10. Qd2 b4 11. Nd1 Ne7 12. c3 bxc3 13. bxc3 Ndc6 14. d4 cxd4 15.
+cxd4 O-O 16. Nb3 Ba6 17. Re1 Qd7 18. Nc3 Bc4 19. Rab1 Rfc8 20. Bf1 Bxf1 21.
+Rxf1 Rb4 22. Ne2 Rcb8 23. Qc2 R4b7 24. a3 a5 25. Nd2 Rc8 26. Qd3 d5 27. Rxb7
+Qxb7 28. Rb1 Qa7 29. e5 Rb8 30. Rxb8+ Qxb8 31. Qb3 Qxb3 32. Nxb3 Nf5 33. Kf1
+Nxe3+ 34. fxe3 Bf8 35. a4 g5 36. g4 Bb4 37. Nec1 Kg7 38. Nd3 Ba3 39. Ndc5 Bb4
+40. Ke2 Kf8 41. Kd3 Ke7 42. e4 Bxc5 43. Nxc5 Nb4+ 44. Kc3 f6 45. exf6+ Kxf6 46.
+e5+ Ke7 47. Nb3 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.20"]
+[Round "8"]
+[White "Newrkla, K."]
+[Black "Moreno Perez, N."]
+[Result "1-0"]
+[ECO "C41"]
+[WhiteElo "2167"]
+[BlackElo "1962"]
+[PlyCount "95"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. e4 e5 2. Nf3 d6 3. d4 exd4 4. Nxd4 Be7 5. Nc3 Nf6 6. Bf4 O-O 7. Qd2 a6 8.
+O-O-O b5 9. f3 Re8 10. g4 g6 11. h4 c5 12. Nde2 Qa5 13. Kb1 b4 14. Nd5 Nxd5 15.
+exd5 Nd7 16. h5 Nb6 17. hxg6 fxg6 18. Ng3 Bb7 19. Qh2 h5 20. Nxh5 Kf7 21. Bxd6
+Bxd5 22. Rxd5 b3 23. Qf4+ Kg8 24. cxb3 Qe1+ 25. Qc1 Qxc1+ 26. Kxc1 Nxd5 27. Bc4
+Bxd6 28. Bxd5+ Kf8 29. Bxa8 Rxa8 30. Nf6 Kf7 31. Ne4 Bf4+ 32. Kc2 Be3 33. Rh7+
+Ke6 34. Rg7 g5 35. Rg6+ Ke5 36. Rf6 Kd4 37. Rd6+ Ke5 38. Kd3 Bd4 39. Rf6 Rd8
+40. Rf5+ Ke6 41. Nxg5+ Ke7 42. Ne4 Bxb2+ 43. Ke2 Bd4 44. Nxc5 Rc8 45. b4 a5 46.
+a3 axb4 47. axb4 Bc3 48. b5 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2014.07.21"]
+[Round "9"]
+[White "Oms Fuentes, L."]
+[Black "Newrkla, K."]
+[Result "1-0"]
+[ECO "C26"]
+[WhiteElo "2293"]
+[BlackElo "2167"]
+[PlyCount "61"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.07.26"]
+
+1. e4 e5 2. Nc3 Nf6 3. g3 Nc6 4. Bg2 Bc5 5. d3 a6 6. h3 d6 7. Nge2 Be6 8. Nd5
+Bxd5 9. exd5 Ne7 10. c4 Nf5 11. O-O h5 12. Bg5 h4 13. b4 Ba7 14. g4 Ng3 15.
+Nxg3 hxg3 16. Be3 gxf2+ 17. Bxf2 Bxf2+ 18. Rxf2 Qd7 19. Qf3 O-O-O 20. Raf1 Qe7
+21. Qe3 Rdf8 22. Qa7 Nd7 23. Rc2 e4 24. dxe4 Ne5 25. c5 c6 26. cxd6 Qxd6 27.
+dxc6 bxc6 28. Rfc1 Rh6 29. Qxa6+ Kb8 30. Qb6+ Ka8 31. Rc3 1-0

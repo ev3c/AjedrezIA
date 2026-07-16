@@ -1,0 +1,152 @@
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.13"]
+[Round "1"]
+[White "Salazar Navas, J."]
+[Black "Roig Martinez, C."]
+[Result "1-0"]
+[ECO "C44"]
+[WhiteElo "1789"]
+[BlackElo "1476"]
+[PlyCount "51"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e5 2. d4 Nc6 3. Nf3 exd4 4. c3 Nf6 5. e5 Nd5 6. Qb3 Nb6 7. cxd4 d6 8. Bb5
+Bd7 9. O-O Be7 10. exd6 Bxd6 11. Re1+ Be7 12. d5 Na5 13. Qb4 Nac4 14. Bxc4 O-O
+15. Rxe7 Nxc4 16. Rxd7 Qxd7 17. Qxc4 Rac8 18. Nc3 Rfe8 19. Be3 a6 20. Rc1 c6
+21. Qa4 b5 22. Qxa6 b4 23. Na4 Qxd5 24. Nb6 Qe6 25. Nd4 Qd6 26. Nxc8 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.14"]
+[Round "2"]
+[White "Roig Martinez, C."]
+[Black "Calbet Freixanet, E."]
+[Result "1-0"]
+[ECO "C02"]
+[WhiteElo "1476"]
+[BlackElo "1676"]
+[PlyCount "77"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e6 2. Nf3 d5 3. e5 c5 4. c3 Nc6 5. d4 Qb6 6. Be2 cxd4 7. cxd4 f6 8. O-O
+fxe5 9. dxe5 Nge7 10. b3 Ng6 11. Bb2 Qc7 12. Bb5 Bd7 13. Bxc6 Bxc6 14. Ng5 Bd7
+15. Qh5 Qc2 16. Bd4 O-O-O 17. Nf7 Bb5 18. Re1 Bb4 19. Nc3 Nf4 20. Rac1 Qxc1 21.
+Rxc1 Nxh5 22. Nxb5+ Kb8 23. Nxh8 Rxh8 24. Bxa7+ Ka8 25. Bb6 Nf4 26. Rc7 Nd3 27.
+Rxg7 Rc8 28. h3 Nxe5 29. Nc7+ Kb8 30. Nxe6 Bd6 31. Be3 b6 32. Bf4 Ka8 33. Rxh7
+Rc2 34. Rh8+ Ka7 35. Rh5 Re2 36. Kf1 Nd3 37. Kxe2 Nxf4+ 38. Nxf4 Bxf4 39. Rxd5
+1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.15"]
+[Round "3"]
+[White "Pujal Moncho, J."]
+[Black "Roig Martinez, C."]
+[Result "1-0"]
+[ECO "D15"]
+[WhiteElo "1768"]
+[BlackElo "1476"]
+[PlyCount "99"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Nf3 Bg4 5. Ne5 Bf5 6. e3 Nbd7 7. Nf3 e6 8. Be2
+Be7 9. O-O O-O 10. Nh4 Bg6 11. Nxg6 fxg6 12. Bd2 e5 13. Qb3 exd4 14. exd4 Ne4
+15. Nxe4 dxe4 16. Bc3 b6 17. Qc2 Nf6 18. Rad1 Qc7 19. Rd2 Rad8 20. Re1 Qf4 21.
+g3 Qf5 22. Bf1 Ng4 23. Bg2 e3 24. Qxf5 Rxf5 25. fxe3 Bg5 26. Rde2 Rdf8 27. Bxc6
+Rf2 28. Bd5+ Kh8 29. Rxf2 Nxf2 30. Bg2 Ng4 31. Bd2 h6 32. Re2 Re8 33. e4 Bxd2
+34. Rxd2 Ne3 35. b3 Nxg2 36. Kxg2 Rxe4 37. d5 Re8 38. Kf3 Kg8 39. Re2 Rd8 40.
+Re7 a6 41. Re6 b5 42. Rxa6 bxc4 43. bxc4 Kf8 44. Ke4 Ke7 45. c5 Kd7 46. Ra7+
+Kc8 47. Ra8+ Kc7 48. Rxd8 Kxd8 49. Ke5 Kd7 50. a4 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.16"]
+[Round "4"]
+[White "Roig Martinez, C."]
+[Black "Serentill Tost, E."]
+[Result "0-1"]
+[ECO "C02"]
+[WhiteElo "1476"]
+[BlackElo "1665"]
+[PlyCount "38"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e6 2. Nf3 d5 3. e5 c5 4. c3 Nc6 5. d4 Qb6 6. Be2 cxd4 7. cxd4 Nh6 8. b3
+Bb4+ 9. Nbd2 Nxd4 10. O-O Nxe2+ 11. Qxe2 Bd7 12. Qd1 Bb5 13. Re1 Ng4 14. a3
+Nxf2 15. Qc2 Nd3+ 16. Kh1 Nf2+ 17. Kg1 Nh3+ 18. Kh1 Qg1+ 19. Nxg1 Nf2# 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.17"]
+[Round "5"]
+[White "Roig Martinez, C."]
+[Black "Molina Cabaleiro, JJ."]
+[Result "0-1"]
+[ECO "C00"]
+[WhiteElo "1476"]
+[BlackElo "1801"]
+[PlyCount "54"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e6 2. Nf3 d5 3. e5 c5 4. c3 d4 5. d3 Nc6 6. Be2 Nge7 7. Bg5 h6 8. Bh4 g5
+9. Bg3 Bg7 10. h3 Ng6 11. Na3 Ngxe5 12. O-O O-O 13. Qd2 Nxf3+ 14. Bxf3 Qa5 15.
+Nc4 dxc3 16. Nxa5 cxd2 17. Nxc6 bxc6 18. Rab1 Ba6 19. Be2 Rfd8 20. Bc7 Rd7 21.
+Ba5 Bxd3 22. Bxd3 Rxd3 23. Rfd1 Rb8 24. b3 Rb5 25. Bc7 c4 26. Kf1 c3 27. a4
+Rbd5 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.18"]
+[Round "6"]
+[White "Piera Sabate, M."]
+[Black "Roig Martinez, C."]
+[Result "0-1"]
+[ECO "C55"]
+[BlackElo "1476"]
+[PlyCount "114"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bc4 Bc5 5. Qe2 d6 6. h3 O-O 7. d3 h6 8. Be3
+Nd4 9. Qd2 a6 10. O-O-O c6 11. Nb1 a5 12. a4 d5 13. Ba2 Be6 14. Nh4 dxe4 15. c4
+Qd6 16. f4 exf3 17. Nxf3 b5 18. b3 Rfb8 19. Nxd4 Bxd4 20. Bxh6 gxh6 21. Rdf1
+Nd7 22. Qxh6 Qf8 23. Qg5+ Qg7 24. Qxg7+ Kxg7 25. g4 bxa4 26. Nd2 Nc5 27. Kc2
+axb3+ 28. Bxb3 Nxb3 29. Nxb3 a4 30. Nxd4 exd4 31. Ra1 a3 32. Rhb1 Rxb1 33. Kxb1
+f5 34. Ka2 fxg4 35. Rg1 Kg6 36. hxg4 Kg5 37. Re1 Bxg4 38. Re4 Kf5 39. Rxd4 Be2
+40. Rd6 Ra6 41. c5 Bf3 42. Rd4 Bd5+ 43. Ka1 a2 44. Rb4 Ra5 45. d4 Rb5 46. Rb2
+Rxb2 47. Kxb2 Ke4 48. Ka1 Kxd4 49. Kb2 Kxc5 50. Ka1 Kb4 51. Kb2 Bb3 52. Ka1 c5
+53. Kb2 c4 54. Ka1 Ka4 55. Kb2 c3+ 56. Ka1 c2 57. Kb2 a1=Q+ 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2013.07.19"]
+[Round "7"]
+[White "Roig Martinez, C."]
+[Black "Perez Garcia, FJ."]
+[Result "0-1"]
+[ECO "B50"]
+[WhiteElo "1476"]
+[BlackElo "1840"]
+[PlyCount "76"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 d6 3. h3 Nf6 4. Nc3 g6 5. Bc4 Bg7 6. d3 O-O 7. O-O Nc6 8. a3 a6
+9. Be3 b5 10. Ba2 Bb7 11. Qc1 Re8 12. Rb1 Nd7 13. Ne2 e6 14. c4 b4 15. d4 cxd4
+16. Nexd4 Nxd4 17. Nxd4 Bxe4 18. Ra1 bxa3 19. bxa3 Qh4 20. Bb1 Bxb1 21. Rxb1
+Bxd4 22. Qd1 Bxe3 23. fxe3 Qg3 24. Rb7 Rab8 25. Rxd7 Rb2 26. Qf3 Qxf3 27. Rxf3
+f5 28. Rxd6 Rc2 29. Rxa6 Rxc4 30. Ra7 Rec8 31. Rf4 R4c7 32. Rxc7 Rxc7 33. Kf2
+Kf7 34. a4 Ra7 35. Kf3 Kf6 36. h4 h6 37. e4 e5 38. exf5 exf4 0-1

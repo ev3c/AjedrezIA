@@ -1,0 +1,502 @@
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.13"]
+[Round "1"]
+[White "Lozano Ruiz, David"]
+[Black "Martimpe Burgues, Xavier"]
+[Result "1-0"]
+[ECO "D00"]
+[WhiteElo "1796"]
+[BlackElo "1219"]
+[PlyCount "81"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Bf4 Nc6 3. e3 Nf6 4. Nd2 Bf5 5. c3 e6 6. Ngf3 Bd6 7. Ne5 Bxe5 8.
+dxe5 Ne4 9. f3 Nc5 10. Nb3 Na4 11. Qd2 O-O 12. O-O-O Qe7 13. g4 Bg6 14. h4 h6
+15. h5 Bh7 16. Bd3 Bxd3 17. Qxd3 f6 18. exf6 Qxf6 19. Rdf1 Rac8 20. Qb5 Nb6 21.
+Nc5 a6 22. Qe2 Nc4 23. Nd7 Qf7 24. Nxf8 Qxf8 25. Rhg1 e5 26. Bg3 b5 27. Be1 Qc5
+28. Bd2 b4 29. cxb4 Nxb4 30. Bxb4 Qxb4 31. b3 Qa3+ 32. Kb1 Rb8 33. Rg2 a5 34.
+Qd3 a4 35. Qxd5+ Kh8 36. Qxc4 axb3 37. Ka1 b2+ 38. Kb1 Qxe3 39. Rxb2 Rd8 40.
+Qe4 Rd4 41. Qxe3 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.14"]
+[Round "2"]
+[White "Martimpe Burgues, Xavier"]
+[Black "Serentill Tost, Eduard"]
+[Result "0-1"]
+[ECO "C02"]
+[WhiteElo "1219"]
+[BlackElo "1650"]
+[PlyCount "60"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. Nf3 d5 3. e5 c5 4. d4 cxd4 5. Nxd4 Nc6 6. Bb5 Bd7 7. O-O Nxe5 8.
+Bf4 Nc6 9. Nxc6 Bxc6 10. Nc3 Bd6 11. Bxd6 Qxd6 12. Re1 Ne7 13. Bd3 O-O 14. Ne2
+e5 15. c4 Rad8 16. b3 e4 17. Bxe4 dxe4 18. Qc2 Qd2 19. Qb1 f5 20. g3 e3 21. Kf1
+Bf3 22. fxe3 Rd7 23. Qd1 Rfd8 24. Qxd2 Rxd2 25. Kf2 Be4 26. c5 Rb2 27. Kf1 Rdd2
+28. Nf4 Rxh2 29. Ne2 Bd3 30. Rad1 Bxe2+ 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.15"]
+[Round "3"]
+[White "Martinez Navarro, Miquel"]
+[Black "Martimpe Burgues, Xavier"]
+[Result "1-0"]
+[ECO "C50"]
+[WhiteElo "1587"]
+[BlackElo "1219"]
+[PlyCount "75"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 d6 4. a3 Bg4 5. h3 Bh5 6. c3 Nf6 7. d3 d5 8. exd5
+Nxd5 9. O-O Bc5 10. b4 Be7 11. Re1 O-O 12. g4 Bg6 13. Nxe5 Qd6 14. Nxc6 bxc6
+15. Qf3 Bh4 16. Ra2 Nf6 17. Bf4 Qd7 18. Rae2 h5 19. Re7 hxg4 20. Rxd7 gxf3 21.
+Rd4 Rfe8 22. Be3 a5 23. Rxh4 Re5 24. Nd2 Bh5 25. d4 Rf5 26. Bd3 Rd5 27. Be4 Rd6
+28. Bxf3 Bg6 29. Bf4 Rd7 30. Bxc6 Rdd8 31. Bxa8 Rxa8 32. Bxc7 axb4 33. axb4 Nd5
+34. Bd6 Nxc3 35. Bc5 Bd3 36. Re3 Ra1+ 37. Kg2 g5 38. Rxd3 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.16"]
+[Round "4"]
+[White "Martimpe Burgues, Xavier"]
+[Black "Marcelo, Diego Luis"]
+[Result "0-1"]
+[ECO "C28"]
+[WhiteElo "1219"]
+[PlyCount "90"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Bc4 Nc6 3. d3 Bc5 4. Nc3 Nf6 5. Bg5 h6 6. Bh4 d6 7. Nd5 g5 8. Bg3
+Be6 9. Qf3 Nxd5 10. exd5 Nd4 11. Qd1 Bd7 12. Ne2 Nxe2 13. Qxe2 Qe7 14. O-O
+O-O-O 15. Kh1 h5 16. f4 f6 17. fxg5 fxg5 18. Bf2 Bxf2 19. Qxf2 Kb8 20. Rae1
+Rdg8 21. d4 g4 22. Re3 h4 23. g3 hxg3 24. Rxg3 Rf8 25. Qg1 Rxf1 26. Bxf1 Rg8
+27. Be2 Qg5 28. h3 exd4 29. Bxg4 Bxg4 30. Rxg4 Qxd5+ 31. Qg2 Qxg2+ 32. Kxg2
+Rxg4+ 33. hxg4 Kc8 34. Kf3 c5 35. Ke4 Kd7 36. Kf5 Ke7 37. g5 b5 38. g6 c4 39.
+Kg5 d3 40. cxd3 cxd3 41. Kh6 d2 42. g7 d1=Q 43. g8=Q Qh1+ 44. Kg7 Qg2+ 45. Kh7
+Qxg8+ 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2016.07.17"]
+[Round "5"]
+[White "Costa Frers, Octavi"]
+[Black "Martimpe Burgues, Xavier"]
+[Result "1-0"]
+[ECO "C50"]
+[BlackElo "1219"]
+[PlyCount "59"]
+[EventDate "2016.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 d6 4. c3 Bg4 5. h3 Bh5 6. d4 Nf6 7. d5 Na5 8. Bd3 c6
+9. b4 cxd5 10. bxa5 Qxa5 11. exd5 Rc8 12. Bf5 Rxc3 13. Nxc3 e4 14. g4 Qxc3+ 15.
+Bd2 Qc4 16. gxh5 g6 17. hxg6 fxg6 18. Be6 exf3 19. Qxf3 Bg7 20. Bh6 Qb4+ 21.
+Bd2 Qh4 22. Rc1 Kd8 23. Rc8+ Ke7 24. Rc7+ Kd8 25. Rxg7 Re8 26. Qg3 Qe4+ 27. Qe3
+Qxh1+ 28. Ke2 Qa1 29. Ba5+ b6 30. Qxb6+ 1-0
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.01.12"]
+[Round "1"]
+[White "Martimpe Burgues, Xavier"]
+[Black "Moreno Perez, Norberto"]
+[Result "0-1"]
+[ECO "C41"]
+[WhiteElo "1209"]
+[BlackElo "1843"]
+[PlyCount "62"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 d6 3. Nc3 Bg4 4. Be2 Be7 5. d3 Nf6 6. Bg5 Nbd7 7. b4 d5 8. h3
+Bxf3 9. Bxf3 Bxb4 10. Bd2 d4 11. Nd5 Nxd5 12. exd5 Bd6 13. Rb1 O-O 14. Bb4 Nc5
+15. O-O Qh4 16. Re1 Rae8 17. Bxc5 Bxc5 18. Re4 Qh6 19. Rxb7 Bb6 20. Qe1 Qd6 21.
+c3 dxc3 22. Rc4 f5 23. Qxc3 e4 24. Rbxc7 Bxc7 25. Rxc7 Rf7 26. Rxf7 Kxf7 27.
+dxe4 fxe4 28. Bxe4 Rxe4 29. Qf3+ Qf4 30. Qc3 Rc4 31. Qd3 Rc1+ 0-1
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.01.19"]
+[Round "2"]
+[White "Masferrer Andreu, Josep Miquel"]
+[Black "Martimpe Burgues, Xavier"]
+[Result "1-0"]
+[ECO "C53"]
+[WhiteElo "1661"]
+[BlackElo "1209"]
+[PlyCount "65"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 d6 5. b4 Bb6 6. Qb3 Nh6 7. d4 O-O 8. Bg5
+Qd7 9. d5 Nd8 10. h3 f6 11. Bxh6 gxh6 12. a4 a5 13. Nbd2 Nf7 14. Ra2 f5 15. Bd3
+f4 16. Nc4 Kh8 17. Nxb6 cxb6 18. b5 Rg8 19. Rg1 Ng5 20. Be2 Nxe4 21. Qc2 Qf5
+22. Bd3 Rxg2 23. Rxg2 Qxh3 24. Rh2 Qxf3 25. Bxe4 Qg4 26. Rg2 Qh4 27. Qe2 Qh1+
+28. Kd2 Bf5 29. Rg8+ Rxg8 30. Bxh1 Bg4 31. Bf3 h5 32. Ra1 e4 33. Qxe4 1-0
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.01.26"]
+[Round "3"]
+[White "Martimpe Burgues, Xavier"]
+[Black "Gomez Fernandez, Miquel"]
+[Result "0-1"]
+[ECO "B20"]
+[WhiteElo "1209"]
+[BlackElo "1559"]
+[PlyCount "60"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Bc4 Nf6 3. Nc3 e5 4. d3 d6 5. Bg5 Be7 6. Nd5 Nxd5 7. Bxd5 Bxg5 8.
+Ne2 Nc6 9. c3 O-O 10. Ng3 Be6 11. O-O Bxd5 12. exd5 Ne7 13. c4 Bf4 14. Nh5 Ng6
+15. g3 Bh6 16. Re1 Ne7 17. Re4 f5 18. Rh4 Bg5 19. Rh3 g6 20. f4 exf4 21. gxf4
+Bf6 22. Ng3 Bxb2 23. Rb1 Bd4+ 24. Kh1 Qe8 25. Qe2 Qf7 26. Rxb7 Rfe8 27. Rd7 Qf6
+28. Qg2 Rab8 29. Qf3 Rb1+ 30. Kg2 Rg1# 0-1
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.02.02"]
+[Round "4"]
+[White "Martimpe Burgues, Xavier"]
+[Black "Molina Tabernero, Jordi"]
+[Result "0-1"]
+[ECO "B06"]
+[WhiteElo "1209"]
+[BlackElo "1490"]
+[PlyCount "110"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 g6 2. Bb5 c6 3. Bc4 b5 4. Bb3 a5 5. c4 a4 6. Bc2 Bg7 7. a3 Qb6 8. d3 Bd4
+9. Nh3 bxc4 10. Bxa4 Qa5+ 11. Nc3 Bxc3+ 12. bxc3 Qxa4 13. Qf3 h6 14. O-O cxd3
+15. Rd1 Ba6 16. Nf4 Nf6 17. e5 Ne4 18. Nxd3 Nxc3 19. Nb2 Ne2+ 20. Kh1 Qh4 21.
+Be3 Nc3 22. Rd4 Qh5 23. g4 Qxe5 24. Rc1 Be2 25. Qh3 Nd5 26. Re1 Nc3 27. f4 Qa5
+28. Bd2 Qxa3 29. Bxc3 Bxg4 30. Qxg4 Qxc3 31. Qe2 e6 32. Rc4 Qf6 33. Nd3 Ra1 34.
+Rb4 Rxe1+ 35. Qxe1 O-O 36. Nc5 Qf5 37. Qe3 Qd5+ 38. Ne4 f5 39. Rd4 Qa2 40. Nd6
+Qb1+ 41. Kg2 Qc2+ 42. Kf3 Qc5 43. Qg1 Rf6 44. h4 Qc3+ 45. Ke2 Qb2+ 46. Rd2 Qb4
+47. h5 Qxf4 48. Ne8 Qe4+ 49. Kd1 Qb1+ 50. Ke2 Qxg1 51. Nxf6+ Kf7 52. Nxd7 Qg2+
+53. Kd1 Qxd2+ 54. Kxd2 Nxd7 55. hxg6+ Kxg6 0-1
+
+[Event "Barcelona Sant Marti op 6th"]
+[Site "Barcelona"]
+[Date "2017.02.16"]
+[Round "6"]
+[White "Martin Valentin, Manuel"]
+[Black "Martimpe Burgues, Xavier"]
+[Result "1-0"]
+[ECO "B08"]
+[WhiteElo "1190"]
+[BlackElo "1209"]
+[PlyCount "57"]
+[EventDate "2017.01.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 g6 2. d4 Bg7 3. Nf3 d6 4. Nc3 Nf6 5. Bc4 O-O 6. Bb3 Nc6 7. O-O b5 8. Re1
+Bb7 9. Bf4 Na5 10. e5 Nxb3 11. exf6 Bxf3 12. Qd3 Nxa1 13. fxe7 Qd7 14. exf8=Q+
+Kxf8 15. gxf3 Bxd4 16. Rxa1 c5 17. Rd1 Qh3 18. Bxd6+ Kg8 19. Qe4 Rd8 20. Bxc5
+Bxf2+ 21. Bxf2 Rc8 22. Nxb5 a6 23. Nc3 Kf8 24. Nd5 Re8 25. Bc5+ Kg7 26. Qxe8
+Kh6 27. Qxf7 Qc8 28. Be3+ Kh5 29. Qxh7# 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.13"]
+[Round "1.63"]
+[White "Martimpe Burgues, X."]
+[Black "Arroyo Morales, J."]
+[Result "0-1"]
+[ECO "B23"]
+[WhiteElo "1700"]
+[BlackElo "1923"]
+[PlyCount "163"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 c5 2. Bc4 d6 3. Nc3 Nf6 4. h3 a6 5. d3 Nc6 6. Nf3 b5 7. Bd5 Nxd5 8. exd5
+Nb8 9. O-O b4 10. Ne4 Bb7 11. c4 bxc3 12. Nxc3 Nd7 13. Qb3 Qb6 14. Qc4 Qb4 15.
+a3 Qxc4 16. dxc4 g6 17. Bf4 Bg7 18. Rfe1 Bxc3 19. bxc3 Ne5 20. Bxe5 dxe5 21.
+Nxe5 a5 22. Nd3 Ba6 23. Re4 f5 24. Re3 Bxc4 25. Nxc5 Bxd5 26. Ne6 Bxe6 27. Rxe6
+Kd7 28. Rb6 Rhc8 29. Rd1+ Ke8 30. Rd3 Rcb8 31. Rc6 Ra7 32. a4 Rd8 33. Re3 Rd1+
+34. Kh2 Rd2 35. f4 Ra2 36. Rc4 Rd7 37. Rd4 Rxd4 38. cxd4 Rxa4 39. Rd3 Kd7 40.
+Kg3 Kd6 41. d5 Rc4 42. Kf3 Rc5 43. g4 Rxd5 44. Ra3 e6 45. Ke3 fxg4 46. hxg4 Kc6
+47. g5 Kb6 48. Ke4 Rb5 49. Kd4 Rd5+ 50. Kc4 Rf5 51. Rf3 Kc6 52. Kb3 Kb5 53. Ka3
+a4 54. Rf1 Rf7 55. Rf2 Ka5 56. Rf1 Rd7 57. Re1 Rd3+ 58. Ka2 Rf3 59. Re4 Kb5 60.
+Rd4 Re3 61. Rd7 Rh3 62. Re7 Rh4 63. Rf7 Kc5 64. Ka3 Kd6 65. Kxa4 e5 66. Rf6+
+Ke7 67. Kb3 exf4 68. Kc3 Rg4 69. Kd3 Rxg5 70. Rxf4 Re5 71. Rh4 h5 72. Rh1 Kf6
+73. Rf1+ Rf5 74. Ke2 Rxf1 75. Kxf1 Kf5 76. Kg2 g5 77. Kg3 Ke4 78. Kh3 Kf3 79.
+Kh2 Kf2 80. Kh3 g4+ 81. Kh2 g3+ 82. Kh1 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.14"]
+[Round "2.70"]
+[White "Rey Plaza, S."]
+[Black "Martimpe Burgues, X."]
+[Result "1-0"]
+[ECO "C44"]
+[WhiteElo "1831"]
+[BlackElo "1700"]
+[PlyCount "47"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 Bd6 4. Bc4 h6 5. O-O Nf6 6. Nc3 exd4 7. Nxd4 Nxd4 8.
+Qxd4 b6 9. e5 Bc5 10. Qf4 Be7 11. exf6 Bxf6 12. Qe4+ Qe7 13. Qxa8 O-O 14. Qe4
+Re8 15. Qxe7 Rxe7 16. Nd5 Re4 17. Nxf6+ gxf6 18. Bd3 Rg4 19. Bxh6 Bb7 20. g3 d5
+21. Rfe1 Bc6 22. Re7 d4 23. Rxc7 Ba4 24. Rc8+ 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.15"]
+[Round "3.66"]
+[White "Martimpe Burgues, X."]
+[Black "Guinjoan Fradera, J."]
+[Result "1/2-1/2"]
+[ECO "B44"]
+[WhiteElo "1700"]
+[BlackElo "1770"]
+[PlyCount "160"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 e6 2. d4 c5 3. Nf3 cxd4 4. Nxd4 Nc6 5. c3 Bc5 6. Be3 Qb6 7. b4 Bxd4 8.
+Bxd4 Nxd4 9. Qxd4 Qxd4 10. cxd4 Nf6 11. Bd3 d5 12. e5 Nd7 13. Nc3 O-O 14. O-O
+f5 15. exf6 Nxf6 16. Nb5 Bd7 17. Nd6 Rab8 18. Nb5 a6 19. Nc3 Rbc8 20. Ne2 Ne8
+21. Rfe1 Nd6 22. Nf4 Rfe8 23. Rac1 Rxc1 24. Rxc1 Rc8 25. Re1 Re8 26. h3 b5 27.
+Bc2 Nc4 28. Nd3 Bc8 29. Nf4 g6 30. Nxd5 Kf7 31. Nf4 e5 32. dxe5 Nxe5 33. Rc1
+Rd8 34. Bb3+ Kf6 35. Nd5+ Kg7 36. Rc7+ Kh6 37. Rc5 Nd3 38. Rc3 Bf5 39. Ne3 Nxb4
+40. a3 Rd3 41. Nd1 Rxc3 42. Nxc3 Nc6 43. Bd5 Nb8 44. Bb7 Kg5 45. f3 Bd7 46.
+Ne4+ Kh5 47. Nf6+ Kh6 48. Nxd7 Nxd7 49. Bxa6 Nb6 50. Bxb5 Kg5 51. Kf2 Kf4 52.
+g3+ Ke5 53. f4+ Kf6 54. Kf3 g5 55. g4 gxf4 56. a4 Ke5 57. a5 Na8 58. a6 Nc7 59.
+a7 h6 60. Bc6 Kd6 61. Bb7 Ke5 62. a8=Q Nxa8 63. Bxa8 h5 64. gxh5 Kf5 65. Be4+
+Kg5 66. Bd3 Kxh5 67. Kxf4 Kh4 68. Bf1 Kh5 69. Kg3 Kg5 70. h4+ Kh5 71. Be2+ Kh6
+72. Kg4 Kg6 73. h5+ Kh6 74. Bd3 Kg7 75. Kg5 Kh8 76. Kg6 Kg8 77. h6 Kh8 78. Be4
+Kg8 79. h7+ Kh8 80. Kg5 Kg7 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.16"]
+[Round "4.69"]
+[White "Julian Solera, L."]
+[Black "Martimpe Burgues, X."]
+[Result "1-0"]
+[ECO "D00"]
+[WhiteElo "1781"]
+[BlackElo "1700"]
+[PlyCount "107"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. d4 d5 2. e3 Nc6 3. Bd3 e5 4. dxe5 Nxe5 5. Nf3 Bd6 6. Nc3 Nf6 7. O-O Bg4 8.
+Be2 c6 9. Nxe5 Bxe2 10. Nxe2 Bxe5 11. Ng3 O-O 12. Qf3 Qb6 13. Rb1 c5 14. b3 c4
+15. Bb2 Bxb2 16. Rxb2 c3 17. Rbb1 Rab8 18. Rbd1 Rfd8 19. Nf5 Rd7 20. Nd4 Ne4
+21. Qf5 Qd6 22. Nb5 g6 23. Qxe4 Qc5 24. Qa4 a6 25. Nxc3 Rbd8 26. Qd4 Qd6 27. e4
+dxe4 28. Qxd6 Rxd6 29. Rxd6 Rxd6 30. Nxe4 Re6 31. f3 f5 32. Nc5 Re7 33. Kf2 Rc7
+34. b4 b6 35. Nxa6 Rxc2+ 36. Kg3 Rxa2 37. Nb8 Rb2 38. Nc6 b5 39. Rd1 Kg7 40.
+Rd5 Rc2 41. Na5 Rc3 42. Rxb5 g5 43. Rxf5 Kg6 44. Rc5 Rd3 45. b5 h5 46. h4 gxh4+
+47. Kxh4 Rd4+ 48. Kh3 h4 49. Nc6 Kf6 50. b6 Rd7 51. Rb5 Rb7 52. Na5 Rb8 53. b7
+Ke6 54. Nc6 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.17"]
+[Round "5.72"]
+[White "Martimpe Burgues, X."]
+[Black "Ferrer Ache, J."]
+[Result "0-1"]
+[ECO "C41"]
+[WhiteElo "1700"]
+[BlackElo "1728"]
+[PlyCount "102"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 e5 2. Nf3 d6 3. d4 Qe7 4. dxe5 dxe5 5. Nc3 c6 6. Bc4 h6 7. Be3 Bg4 8. Be2
+g5 9. Nd2 Be6 10. Nc4 Bxc4 11. Bxc4 Nd7 12. O-O Ngf6 13. h3 Nc5 14. Bd3 Qc7 15.
+Qf3 Ncd7 16. a3 Be7 17. b4 Rd8 18. Bxa7 b6 19. Bxb6 Qxb6 20. Rfd1 Kf8 21. b5 c5
+22. Bc4 Rh7 23. Nd5 Qa5 24. Qf5 Rg7 25. Rd3 Qa4 26. Rc3 Qa5 27. a4 Nxd5 28. Rf3
+N5f6 29. Bb3 Qb4 30. Rd1 Qxe4 31. a5 Qb7 32. b6 Qc6 33. Bc4 Qa4 34. Qd3 e4 35.
+Qe3 Qxc4 36. Qb3 Qa6 37. Rf5 Qxa5 38. b7 Qc7 39. Ra1 Rb8 40. Ra8 Bd6 41. g3 c4
+42. Qb5 Ke7 43. Qb2 Rxb7 44. Qa2 Ne5 45. Kg2 Qd7 46. g4 Qc6 47. Kf1 Nf3 48. Ke2
+Nd4+ 49. Kd1 Nxf5 50. gxf5 Qd5+ 51. Kc1 Bf4# 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.18"]
+[Round "6.74"]
+[White "Cervera Lopez, M."]
+[Black "Martimpe Burgues, X."]
+[Result "1-0"]
+[ECO "D00"]
+[WhiteElo "1700"]
+[BlackElo "1700"]
+[PlyCount "65"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. d4 d5 2. e3 Nc6 3. Bb5 Bd7 4. Nf3 a6 5. Ba4 b5 6. Bb3 e6 7. O-O Nf6 8. c3
+Bd6 9. h3 O-O 10. Bc2 e5 11. dxe5 Bxe5 12. Nxe5 Nxe5 13. f4 Nc4 14. b3 Nb6 15.
+Bb2 Bc6 16. Qd4 Re8 17. Nd2 Qe7 18. Rae1 Ne4 19. c4 Qf6 20. Qxf6 gxf6 21. Nxe4
+dxe4 22. c5 Nd7 23. Bd4 f5 24. g4 fxg4 25. hxg4 Re6 26. b4 Rae8 27. Kf2 Rh6 28.
+Kg3 Rg6 29. f5 Rg5 30. Kf4 h6 31. Rh1 Kh7 32. Rxh6+ Kg8 33. Rh8# 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.19"]
+[Round "7.74"]
+[White "Martimpe Burgues, X."]
+[Black "Avila Lopez, J."]
+[Result "1-0"]
+[ECO "C68"]
+[WhiteElo "1700"]
+[BlackElo "1704"]
+[PlyCount "91"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. Nxe5 Qd4 6. Nf3 Qxe4+ 7. Kf1 Bd6
+8. Qe1 Qxe1+ 9. Kxe1 Nf6 10. d3 O-O 11. h3 b6 12. Bg5 Be7 13. Nbd2 Bb7 14. Kd1
+h6 15. Bf4 Nd5 16. Be3 Nxe3+ 17. fxe3 c5 18. e4 Rfe8 19. Nc4 Bf6 20. c3 Rad8
+21. Kc2 Bxe4 22. dxe4 Rxe4 23. Ncd2 Re2 24. g4 Bg5 25. Rad1 Bf4 26. Rhe1 Rf2
+27. Rf1 Re2 28. Rfe1 Rg2 29. Rg1 Rf2 30. Rgf1 Be3 31. Rxf2 Bxf2 32. Ne4 Rxd1
+33. Kxd1 Be3 34. Ne5 g5 35. Ke2 Bc1 36. b3 Bb2 37. Kd3 Kg7 38. Kc2 Ba3 39. Nc4
+f5 40. gxf5 h5 41. Nxa3 g4 42. hxg4 h4 43. Nf2 a5 44. Kd2 c6 45. Nc4 b5 46.
+Nxa5 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.20"]
+[Round "8.69"]
+[White "Orts Gonzalez, R."]
+[Black "Martimpe Burgues, X."]
+[Result "0-1"]
+[ECO "A01"]
+[WhiteElo "1700"]
+[BlackElo "1700"]
+[PlyCount "94"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. b3 e5 2. Bb2 d6 3. e4 Nf6 4. d3 Nc6 5. Nc3 Be6 6. Be2 Be7 7. Nf3 h6 8. Nh4
+Nxe4 9. dxe4 Bxh4 10. O-O Qg5 11. Bf3 Qg6 12. Nd5 Rc8 13. Bh5 Qxe4 14. Bf3 Qg6
+15. Re1 Bh3 16. Re4 Bf6 17. g3 O-O 18. Nc3 Nd4 19. Bg4 Bxg4 20. Rxg4 Qxc2 21.
+Qxc2 Nxc2 22. Rc1 Nd4 23. Nd5 Ne2+ 24. Kf1 Nxc1 25. Nxf6+ Kh8 26. Nd7 Rfd8 27.
+Nxe5 dxe5 28. Bxe5 f6 29. Ba1 Rd2 30. Rf4 Rxa2 31. Bd4 a5 32. Be3 Rd8 33. Bd4
+Ne2 34. Rxf6 Rxd4 35. Re6 Rdd2 36. Re8+ Kh7 37. Rb8 b6 38. Rb7 h5 39. Rxc7 h4
+40. Kg2 hxg3 41. hxg3 Nd4 42. Rd7 Rxf2+ 43. Kh3 Nf5 44. Rd3 Kh6 45. Kg4 a4 46.
+Rd5 Ne3+ 47. Kh3 Nxd5 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.21"]
+[Round "9.63"]
+[White "Martimpe Burgues, X."]
+[Black "Castilla Casanova, V."]
+[Result "1-0"]
+[ECO "C55"]
+[WhiteElo "1700"]
+[BlackElo "1754"]
+[PlyCount "69"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Nc3 Nxe4 5. Nxe4 d5 6. Bxd5 Qxd5 7. d3 Bf5 8.
+Qe2 Bd6 9. O-O O-O 10. Bh6 gxh6 11. Nf6+ Kh8 12. Nxd5 Rg8 13. g3 Bg4 14. Nf6
+Rg6 15. Nxg4 Rxg4 16. Qe3 h5 17. Kh1 Nb4 18. Qd2 f5 19. a3 Nd5 20. c4 Nf6 21.
+Qc3 Re8 22. Rae1 Nd7 23. d4 e4 24. d5+ Kg8 25. Nh4 Rf8 26. f3 exf3 27. Nxf3 f4
+28. Re4 c5 29. b4 Nf6 30. Re6 Ne8 31. Rfe1 Kf7 32. bxc5 Bxc5 33. Ne5+ Kg8 34.
+Nxg4 hxg4 35. Rxe8 1-0

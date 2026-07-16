@@ -1,0 +1,389 @@
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.18"]
+[Round "1"]
+[White "Hadi, Justin"]
+[Black "Duran Vega, Sergio"]
+[Result "0-1"]
+[ECO "A00"]
+[WhiteElo "2019"]
+[BlackElo "2389"]
+[PlyCount "110"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. b4 Nf6 2. Bb2 e6 3. a3 d5 4. e3 Bd6 5. c4 c6 6. Nf3 O-O 7. c5 Bc7 8. Be2 b6
+9. O-O Nbd7 10. d4 Qe7 11. Nbd2 a5 12. Qc2 Ba6 13. Bxa6 Rxa6 14. Qd3 Rfa8 15.
+Qc3 Qd8 16. Rfc1 Qb8 17. g3 b5 18. Kg2 Ng4 19. h3 Nh6 20. e4 Nf6 21. e5 Nd7 22.
+Re1 R8a7 23. Qd3 Qa8 24. Qc3 Nf5 25. g4 Ne7 26. Nb3 Nb8 27. Qd3 Ng6 28. Qe3
+axb4 29. axb4 Rxa1 30. Rxa1 Rxa1 31. Bxa1 Qa3 32. Qc3 Nf4+ 33. Kf1 Na6 34. Na5
+Qa2 35. Nxc6 Qe2+ 36. Kg1 Nxh3+ 37. Kg2 Nf4+ 38. Kg3 Nd3 39. Qd2 Qxd2 40. Nxd2
+Ndxb4 41. Na7 Nc2 42. Bb2 b4 43. Nb5 f6 44. Nxc7 Nxc7 45. Nf3 Kf7 46. g5 f5 47.
+Nd2 Ke7 48. Kf3 Nb5 49. Nb3 Kd7 50. Ke2 h5 51. gxh6 gxh6 52. Kd3 Ne1+ 53. Ke2
+Nc2 54. Kd3 Nca3 55. Ke3 Nc4+ 0-1
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.19"]
+[Round "2"]
+[White "Duran Vega, Sergio"]
+[Black "Movileanu, Daniela"]
+[Result "1/2-1/2"]
+[ECO "D83"]
+[WhiteElo "2389"]
+[BlackElo "2176"]
+[PlyCount "150"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Bf4 Bg7 5. e3 O-O 6. Rc1 Be6 7. c5 Nh5 8. Bg5
+b6 9. b4 a5 10. a3 axb4 11. axb4 Nc6 12. b5 Na5 13. c6 Nf6 14. Bd3 Ne8 15. Nge2
+f6 16. Bh4 Bf7 17. O-O Qd6 18. Bg3 e5 19. e4 dxe4 20. Nxe4 Qe7 21. dxe5 fxe5
+22. N2c3 Nb3 23. Rb1 Nd4 24. Qg4 Nf5 25. Ra1 Rd8 26. Bc2 Ned6 27. Rfe1 Nxe4 28.
+Nxe4 Rd4 29. Qf3 Rb4 30. Qa3 Rxb5 31. Qxe7 Nxe7 32. Ra7 Nxc6 33. Rxc7 Nd4 34.
+Nd6 Nxc2 35. Rxc2 Rc5 36. Rxc5 bxc5 37. Nxf7 Kxf7 38. Bxe5 Re8 39. f4 Bxe5 40.
+fxe5 Ke6 41. Kf2 Rf8+ 42. Ke3 Kxe5 43. Kd3+ Kd6 44. Re2 Ra8 45. Kc4 Ra4+ 46.
+Kc3 Kd5 47. Re7 h5 48. Rg7 Rg4 49. g3 Ke4 50. Rf7 Rg5 51. Rf6 Ke5 52. Rc6 Kd5
+53. Rf6 Rg4 54. Kd3 g5 55. Rf5+ Kd6 56. Rf8 h4 57. gxh4 gxh4 58. Rh8 Kd5 59.
+Rh5+ Kc6 60. Rh8 c4+ 61. Kc3 Kd5 62. Rh5+ Ke4 63. Kxc4 Kf3+ 64. Kd3 Kg2 65. Ke3
+Kxh2 66. Kf3 Rg3+ 67. Kf2 h3 68. Rh8 Rg7 69. Rh6 Ra7 70. Rh8 Ra3 71. Rh7 Ra6
+72. Rh8 Rf6+ 73. Ke2 Kg2 74. Rg8+ Kh1 75. Rh8 h2 1/2-1/2
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.20"]
+[Round "3"]
+[White "Ayza Leon, David"]
+[Black "Duran Vega, Sergio"]
+[Result "1/2-1/2"]
+[ECO "B12"]
+[WhiteElo "2170"]
+[BlackElo "2389"]
+[PlyCount "84"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 c6 2. d4 d5 3. f3 e6 4. Nc3 Bb4 5. Bf4 Nf6 6. Qd3 b6 7. O-O-O Ba6 8. Qe3
+Bxf1 9. Rxf1 O-O 10. Nge2 c5 11. Bg5 Bxc3 12. Nxc3 Nc6 13. Ne2 h6 14. Bxf6 Qxf6
+15. Rd1 Rfd8 16. dxc5 d4 17. Qa3 Qg5+ 18. f4 Qxg2 19. Ng3 bxc5 20. Rdg1 Qf2 21.
+Rf1 Qe3+ 22. Qxe3 dxe3 23. Re1 Rd2 24. Rxe3 Rf2 25. Rc3 Rxf4 26. Rxc5 Nd4 27.
+c3 Nf3 28. Rf1 e5 29. Nh5 Nxh2 30. Nxf4 Nxf1 31. Rxe5 Ne3 32. b3 g5 33. Nd5 Ng4
+34. Rf5 Kg7 35. c4 f6 36. c5 Rc8 37. b4 h5 38. Kd2 h4 39. Ke2 h3 40. Kf1 a5 41.
+Nb6 Rd8 42. e5 Kg6 1/2-1/2
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.21"]
+[Round "4"]
+[White "Duran Vega, Sergio"]
+[Black "Campos Olaya, Israel"]
+[Result "0-1"]
+[ECO "E70"]
+[WhiteElo "2389"]
+[BlackElo "2189"]
+[PlyCount "52"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Bd3 O-O 6. Nge2 e5 7. d5 a5 8. O-O
+Na6 9. Bg5 h6 10. Bh4 g5 11. Bg3 Nh5 12. a3 Bd7 13. Bc2 Nf4 14. f3 h5 15. Bf2
+h4 16. h3 Qf6 17. Nxf4 gxf4 18. Qe1 Qg6 19. Kh2 Bf6 20. Bxh4 Bxh4 21. Qxh4 Kg7
+22. g4 Rh8 23. Qf2 Bxg4 24. Qg2 Bxh3 25. Qxg6+ Kxg6 26. Rf2 Kf6 0-1
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.26"]
+[Round "9"]
+[White "Haag, Gregor"]
+[Black "Duran Vega, Sergio"]
+[Result "0-1"]
+[ECO "E16"]
+[WhiteElo "2252"]
+[BlackElo "2389"]
+[PlyCount "70"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 b6 4. g3 Bb4+ 5. Bd2 Be7 6. Bg2 Bb7 7. O-O c6 8. Qc2
+d5 9. Bg5 Nbd7 10. Nc3 O-O 11. e4 dxe4 12. Nxe4 c5 13. Bxf6 Nxf6 14. Nxf6+ Bxf6
+15. dxc5 bxc5 16. Rad1 Qc7 17. Rd2 Rab8 18. b3 a5 19. Rfd1 Bc6 20. Ne1 a4 21.
+Bxc6 Qxc6 22. Rd6 axb3 23. axb3 Qb7 24. Nd3 Rfc8 25. Nc1 Bd4 26. Ne2 e5 27.
+Nxd4 exd4 28. Rb1 Qf3 29. b4 h5 30. bxc5 h4 31. Qd1 Rxb1 32. Qxb1 h3 33. Qf1
+Re8 34. c6 Re1 35. c7 Qg2# 0-1
+
+[Event "Sabadell op 10th"]
+[Site "Sabadell"]
+[Date "2017.09.01"]
+[Round "1"]
+[White "Hapala, Elisabeth"]
+[Black "Duran Vega, Sergio"]
+[Result "1/2-1/2"]
+[ECO "B67"]
+[WhiteElo "2048"]
+[BlackElo "2389"]
+[PlyCount "115"]
+[EventDate "2017.09.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bg5 e6 7. Qd2 a6 8.
+O-O-O Bd7 9. f3 b5 10. Nxc6 Bxc6 11. Kb1 Qc7 12. Bxf6 gxf6 13. Ne2 Bb7 14. Nd4
+Rc8 15. Bd3 Bg7 16. Bxb5+ Ke7 17. Ba4 Qb6 18. Bb3 a5 19. Rhe1 Rc5 20. Qe3 Qc7
+21. f4 Rb8 22. Qg3 Bh8 23. Qh3 h5 24. Nxe6 fxe6 25. Qxe6+ Kf8 26. Qg8+ Ke7 27.
+Qh7+ Kd8 28. Qxh8+ Kd7 29. Qxf6 Kc6 30. Ba4+ Kb6 31. Qxd6+ Qxd6 32. Rxd6+ Ka7
+33. c3 h4 34. g3 Rg8 35. Re3 hxg3 36. hxg3 Rh5 37. f5 Rh2 38. f6 Rf2 39. Bc6
+Rh8 40. Re1 Rhh2 41. Rd7 Rxb2+ 42. Kc1 Rbc2+ 43. Kb1 Rb2+ 44. Kc1 Rbc2+ 45. Kd1
+Rxa2 46. Rxb7+ Ka6 47. Bb5+ Kxb7 48. Be2 a4 49. e5 a3 50. f7 Ra1+ 51. Kd2 Rxe1
+52. f8=Q Rhxe2+ 53. Kd3 a2 54. Qe7+ Kb6 55. Qd6+ Kb7 56. Qb4+ Kc6 57. Qd6+ Kb7
+58. Qb4+ 1/2-1/2
+
+[Event "Sabadell op 10th"]
+[Site "Sabadell"]
+[Date "2017.09.02"]
+[Round "2"]
+[White "Duran Vega, Sergio"]
+[Black "Alves Garcia, Eric"]
+[Result "1-0"]
+[ECO "A62"]
+[WhiteElo "2389"]
+[BlackElo "1978"]
+[PlyCount "75"]
+[EventDate "2017.09.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 e6 3. g3 c5 4. d5 exd5 5. cxd5 d6 6. Nc3 g6 7. Bg2 Bg7 8. Nf3
+O-O 9. O-O Re8 10. Bf4 a6 11. a4 Qb6 12. a5 Qc7 13. Nd2 Nh5 14. Bg5 h6 15. Be3
+Nd7 16. Nc4 b5 17. axb6 Nxb6 18. Na5 Bd7 19. Bd2 Bb5 20. Re1 Nd7 21. Nc6 Kh7
+22. Qb3 Qb7 23. Ra3 Ne5 24. Nxb5 axb5 25. Rxa8 Rxa8 26. Bc3 Nd7 27. Bxg7 Nxg7
+28. Qf3 Nb6 29. Qf6 Qd7 30. e4 Nh5 31. Qc3 b4 32. Qd3 Kg7 33. e5 dxe5 34. Qb5
+Nxd5 35. Qxc5 Nhf6 36. Nxe5 Qa7 37. Qc4 Qa6 38. Bxd5 1-0
+
+[Event "Sabadell op 10th"]
+[Site "Sabadell"]
+[Date "2017.09.03"]
+[Round "3"]
+[White "Oliva Castaneda, Kevel"]
+[Black "Duran Vega, Sergio"]
+[Result "1/2-1/2"]
+[ECO "A13"]
+[WhiteElo "2510"]
+[BlackElo "2389"]
+[PlyCount "88"]
+[EventDate "2017.09.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. Nf3 d5 2. e3 Nf6 3. c4 e6 4. b3 b6 5. Bb2 Bb7 6. Be2 Bd6 7. O-O Nbd7 8. Nc3
+O-O 9. Rc1 a6 10. d4 Qe7 11. cxd5 exd5 12. Qc2 c5 13. Rfd1 Rac8 14. dxc5 bxc5
+15. Qf5 Rfd8 16. Bd3 Qe6 17. Na4 g6 18. Qxe6 fxe6 19. Ba3 Kf8 20. Rc2 Rc7 21.
+Rdc1 Rdc8 22. Bf1 Ne4 23. Nd2 Nxd2 24. Rxd2 Ke7 25. Rdc2 Rc6 26. f3 R6c7 27.
+Be2 Kd8 28. g3 Ke7 29. Kf2 Kd8 30. h4 Ke7 31. g4 h6 32. g5 h5 33. f4 Kf7 34.
+Bf3 Ke7 35. Be2 Kf7 36. Bd3 Kg7 37. Ke2 Rc6 38. Kd2 Kf7 39. Bb2 R6c7 40. Ba3
+Rc6 41. Be2 R6c7 42. Bf3 Ke7 43. Bg2 Ba8 44. Bf1 Kf7 1/2-1/2
+
+[Event "Sabadell op 10th"]
+[Site "Sabadell"]
+[Date "2017.09.04"]
+[Round "4"]
+[White "Duran Vega, Sergio"]
+[Black "Gascon del Nogal, Jose Rafael"]
+[Result "0-1"]
+[ECO "E91"]
+[WhiteElo "2389"]
+[BlackElo "2496"]
+[PlyCount "66"]
+[EventDate "2017.09.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 g6 2. c4 Bg7 3. e4 d6 4. Nc3 Nf6 5. h3 O-O 6. Be3 a6 7. Nf3 c6 8. a4 a5
+9. Be2 Na6 10. O-O Nd7 11. d5 Ndc5 12. Nd4 Nb4 13. f4 e5 14. dxe6 Nxe6 15. Nf3
+Nc5 16. e5 Bf5 17. Qxd6 Qxd6 18. exd6 Ncd3 19. g4 Nxb2 20. gxf5 Bxc3 21. Bd4
+Bxd4+ 22. Nxd4 Rfe8 23. fxg6 hxg6 24. Rfb1 Re4 25. Rxb2 Rxd4 26. c5 Re8 27. f5
+gxf5 28. Kh2 Re5 29. Rg1+ Kf8 30. Bh5 Rxc5 31. Rbg2 Rc2 32. Be2 Rxd6 33. h4
+Rdd2 0-1
+
+[Event "Sabadell op 10th"]
+[Site "Sabadell"]
+[Date "2017.09.05"]
+[Round "5"]
+[White "Narciso Dublan, Marc"]
+[Black "Duran Vega, Sergio"]
+[Result "1-0"]
+[ECO "D03"]
+[WhiteElo "2459"]
+[BlackElo "2389"]
+[PlyCount "69"]
+[EventDate "2017.09.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Bg5 d5 3. e3 e6 4. Nd2 Be7 5. Bd3 O-O 6. Ngf3 b6 7. Ne5 h6 8. Bf4
+Ba6 9. Bxa6 Nxa6 10. g4 Nh7 11. h4 f6 12. Ng6 Re8 13. c3 Bd6 14. Qa4 Nb8 15.
+Bxd6 cxd6 16. f4 Qd7 17. Qc2 Qf7 18. h5 Nc6 19. Nf3 Rac8 20. O-O e5 21. Rae1
+exd4 22. exd4 Rxe1 23. Rxe1 Re8 24. Rxe8+ Qxe8 25. Kf2 Nf8 26. Qa4 Nxg6 27.
+hxg6 Qc8 28. f5 Kf8 29. Nh4 Qb7 30. Ng2 b5 31. Qc2 b4 32. Nf4 bxc3 33. bxc3 Ne7
+34. Qb3 Qc8 35. Qb4 1-0
+
+[Event "Sabadell op 10th"]
+[Site "Sabadell"]
+[Date "2017.09.07"]
+[Round "7"]
+[White "Izagirre Alsua, Aritz"]
+[Black "Duran Vega, Sergio"]
+[Result "0-1"]
+[ECO "B10"]
+[WhiteElo "1894"]
+[BlackElo "2389"]
+[PlyCount "96"]
+[EventDate "2017.09.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 c6 2. c4 d5 3. cxd5 cxd5 4. exd5 Nf6 5. d6 e5 6. Nc3 Bxd6 7. d3 h6 8. Nf3
+O-O 9. Be2 Nc6 10. O-O Bf5 11. h3 Re8 12. Be3 Qe7 13. a3 Rad8 14. Qc2 Bb8 15.
+Rad1 Nd4 16. Qb1 Nxe2+ 17. Nxe2 Rxd3 18. Rxd3 Bxd3 19. Qxd3 e4 20. Qc4 exf3 21.
+gxf3 Qd7 22. Nf4 Bxf4 23. Bxf4 Qxh3 24. Bg3 Nh5 25. Qg4 Qxg4 26. fxg4 Nxg3 27.
+fxg3 Re2 28. Rf2 Rxf2 29. Kxf2 Kh7 30. Ke3 Kg6 31. Kf4 Kf6 32. b4 b5 33. Ke4
+Kg5 34. Kd5 Kxg4 35. Kc5 a6 36. Kb6 f5 37. Kxa6 Kxg3 38. Kxb5 f4 39. Kc6 f3 40.
+b5 f2 41. b6 f1=Q 42. b7 Qf6+ 43. Kc7 Qe7+ 44. Kc8 Qc5+ 45. Kd8 Qb6+ 46. Kc8
+Qc6+ 47. Kb8 Kf3 48. Ka7 Qa4+ 0-1
+
+[Event "Sabadell op 10th"]
+[Site "Sabadell"]
+[Date "2017.09.08"]
+[Round "8"]
+[White "Duran Vega, Sergio"]
+[Black "Bru Rullo, Llatzer"]
+[Result "1-0"]
+[ECO "A17"]
+[WhiteElo "2389"]
+[BlackElo "2239"]
+[PlyCount "95"]
+[EventDate "2017.09.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. Nf3 Nf6 2. c4 e6 3. g3 b6 4. Bg2 Bb7 5. O-O c5 6. Nc3 Be7 7. Re1 Ne4 8. Nxe4
+Bxe4 9. d3 Bb7 10. e4 O-O 11. d4 cxd4 12. Nxd4 d6 13. a4 a6 14. b3 Qc7 15. Ba3
+Nd7 16. Ra2 Rfd8 17. Rd2 Rac8 18. h4 Nc5 19. Qg4 Bf6 20. Re3 Rf8 21. Bb2 Kh8
+22. Qd1 Rcd8 23. Qa1 Bxd4 24. Bxd4 e5 25. Bb2 f6 26. Qd1 a5 27. Qc2 Qb8 28. Bh3
+Bc6 29. f3 Bd7 30. Bxd7 Rxd7 31. Re1 Qe8 32. Kg2 g5 33. hxg5 fxg5 34. Red1 Rf6
+35. Qc3 Kg8 36. Ba3 g4 37. Bxc5 gxf3+ 38. Kf2 Qh5 39. Bxb6 Rdf7 40. Rf1 Qh2+
+41. Ke1 Qxg3+ 42. Bf2 Qf4 43. Qe3 Rb7 44. Rg1+ Kf8 45. Rd3 Rbf7 46. Rg3 Ke7 47.
+c5 Qxe3+ 48. Bxe3 1-0
+
+[Event "Sabadell op 10th"]
+[Site "Sabadell"]
+[Date "2017.09.10"]
+[Round "9"]
+[White "Solano Cuya, Bryan"]
+[Black "Duran Vega, Sergio"]
+[Result "1/2-1/2"]
+[ECO "D13"]
+[WhiteElo "2228"]
+[BlackElo "2389"]
+[PlyCount "25"]
+[EventDate "2017.09.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 d5 3. c4 c6 4. cxd5 cxd5 5. Nc3 Nc6 6. Bf4 a6 7. e3 e6 8. Be2
+Be7 9. O-O O-O 10. Rc1 Bd7 11. Ne5 Rc8 12. Nxc6 Bxc6 13. h3 1/2-1/2

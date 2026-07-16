@@ -1,0 +1,132 @@
+[Event "Sitges op"]
+[Site "?"]
+[Date "2006.??.??"]
+[Round "1"]
+[White "Barsov, A."]
+[Black "Marco Molina, R."]
+[Result "1-0"]
+[ECO "D07"]
+[WhiteElo "2546"]
+[BlackElo "2005"]
+[PlyCount "37"]
+[EventDate "2006.??.??"]
+
+1. d4 d5 2. c4 Nc6 3. Nc3 dxc4 4. Nf3 Nf6 5. e3 e5 6. Bxc4 exd4 7. exd4 Bd6 8.
+O-O O-O 9. h3 h6 10. Qc2 a6 11. a3 b5 12. Ba2 Bb7 13. Re1 Ne7 14. Ne5 Ned5 15.
+Ne4 Re8 16. Nc5 Qc8 17. Bd2 Rb8 18. Rac1 Nb6 19. Bxf7+ 1-0
+
+[Event "Vila de Salou op"]
+[Site "?"]
+[Date "2006.06.07"]
+[Round "1.7"]
+[White "Marco Molina, R."]
+[Black "Lopez Martinez, JM."]
+[Result "0-1"]
+[ECO "D03"]
+[WhiteElo "2017"]
+[BlackElo "2481"]
+[PlyCount "54"]
+[EventDate "2006.??.??"]
+
+1. d4 Nf6 2. Bg5 d5 3. e3 e6 4. Bd3 c5 5. c3 Nbd7 6. Nf3 Be7 7. Nbd2 b6 8. Qe2
+Bb7 9. e4 cxd4 10. Nxd4 dxe4 11. Nxe4 O-O 12. O-O Nc5 13. Nxc5 Bxc5 14. Nf3 Be7
+15. Rad1 Qc7 16. Ne5 Rad8 17. Ng4 Qc6 18. f4 Qc5+ 19. Kh1 Nxg4 20. Qxg4 Bxg5
+21. fxg5 g6 22. h4 Rd5 23. Be2 Re5 24. Bf3 Ba6 25. Rfe1 Rxe1+ 26. Rxe1 Qf2 27.
+Rxe6 Bc8 0-1
+
+[Event "Vila de Salou op"]
+[Site "?"]
+[Date "2006.06.09"]
+[Round "3.17"]
+[White "Marco Molina, R."]
+[Black "Garcia Castro, P."]
+[Result "0-1"]
+[ECO "B07"]
+[WhiteElo "2017"]
+[BlackElo "2309"]
+[PlyCount "102"]
+[EventDate "2006.??.??"]
+
+1. d4 d6 2. e4 Nf6 3. Nc3 Nbd7 4. f4 e5 5. Nf3 exd4 6. Qxd4 c6 7. Be3 d5 8. e5
+Ng4 9. Bg1 Bc5 10. Qd2 Bxg1 11. Rxg1 Qb6 12. O-O-O Nxh2 13. Nd4 Ng4 14. e6 Ndf6
+15. exf7+ Kxf7 16. Bd3 Re8 17. Rde1 Bd7 18. Bf5 Bxf5 19. Nxf5 Qc5 20. Na4 Qf8
+21. Nc3 g6 22. Nd4 Rxe1+ 23. Rxe1 Re8 24. f5 Rxe1+ 25. Qxe1 Qh6+ 26. Kb1 Qe3
+27. fxg6+ hxg6 28. Nf3 Qxe1+ 29. Nxe1 Ne3 30. Kc1 Ke6 31. b3 c5 32. Kd2 d4 33.
+Ne2 Ne4+ 34. Kd3 Nf2+ 35. Kd2 Nf1+ 36. Kc1 Kf5 37. b4 b6 38. bxc5 bxc5 39. Kb2
+Ke4 40. Ng1 g5 41. Kb3 Nd2+ 42. Ka4 g4 43. Kb5 c4 44. Ka6 Ke3 45. Kxa7 Nfe4 46.
+a4 Kf2 47. Nh3+ gxh3 48. gxh3 Kxe1 49. h4 d3 50. cxd3 cxd3 51. h5 Nc4 0-1
+
+[Event "Vila de Salou op"]
+[Site "?"]
+[Date "2006.06.11"]
+[Round "5.17"]
+[White "Marco Molina, R."]
+[Black "Jorge Bort, E."]
+[Result "1/2-1/2"]
+[ECO "A80"]
+[WhiteElo "2017"]
+[BlackElo "2197"]
+[PlyCount "65"]
+[EventDate "2006.??.??"]
+
+1. d4 f5 2. Bg5 h6 3. Bh4 g5 4. e3 Nf6 5. Bg3 Bg7 6. h4 g4 7. h5 d6 8. Bd3 Nc6
+9. Ne2 e5 10. Nbc3 a6 11. dxe5 dxe5 12. Bc4 Qe7 13. Nd5 Nxd5 14. Qxd5 Bd7 15.
+O-O-O O-O-O 16. Nc3 Rhe8 17. f3 gxf3 18. gxf3 Qf8 19. Qf7 Qxf7 20. Bxf7 Rf8 21.
+Bg6 Ne7 22. Bh4 Bf6 23. Bxf6 Rxf6 24. Nd5 Re6 25. Nxe7+ Rxe7 26. Rxd7 Rdxd7 27.
+Bxf5 Kd8 28. Bxd7 Kxd7 29. Rg1 Rf7 30. Rg3 Rf5 31. Rh3 c5 32. Kd2 Rg5 33. Kc3
+1/2-1/2
+
+[Event "Vila de Salou op"]
+[Site "?"]
+[Date "2006.06.12"]
+[Round "6.19"]
+[White "Hoenick, A."]
+[Black "Marco Molina, R."]
+[Result "1-0"]
+[ECO "A10"]
+[WhiteElo "2168"]
+[BlackElo "2017"]
+[PlyCount "59"]
+[EventDate "2006.??.??"]
+
+1. c4 f5 2. g3 Nf6 3. Bg2 g6 4. Nc3 Bg7 5. d3 e5 6. e4 d6 7. exf5 gxf5 8. Nge2
+Nc6 9. Bg5 O-O 10. O-O Be6 11. Nd5 Qd7 12. Nxf6+ Bxf6 13. Bxf6 Rxf6 14. f4 Rd8
+15. b3 d5 16. fxe5 Nxe5 17. Nf4 dxc4 18. dxc4 Qxd1 19. Raxd1 Rxd1 20. Rxd1 Bc8
+21. Re1 Nd7 22. Bd5+ Kh8 23. Re7 Nb6 24. Re8+ Kg7 25. Nh5+ Kg6 26. Nxf6 Kxf6
+27. Bf3 Bd7 28. Rh8 Kg7 29. Rd8 Be6 30. Bxb7 1-0
+
+[Event "Vila de Salou op"]
+[Site "?"]
+[Date "2006.06.15"]
+[Round "9.17"]
+[White "Marco Molina, R."]
+[Black "Tscharotschkin, M."]
+[Result "0-1"]
+[ECO "D02"]
+[WhiteElo "2017"]
+[BlackElo "2244"]
+[PlyCount "52"]
+[EventDate "2006.??.??"]
+
+1. d4 d5 2. Nf3 Bf5 3. Bf4 e6 4. e3 c6 5. Nbd2 Be7 6. Be2 Nd7 7. O-O g5 8. Bg3
+h5 9. h3 g4 10. hxg4 hxg4 11. Ne5 Nxe5 12. Bxe5 Bf6 13. Bg3 Bg7 14. Bxg4 Qg5
+15. Bxf5 Qxf5 16. Re1 Nf6 17. c4 Ng4 18. f3 Nxe3 19. Rxe3 Bxd4 20. Bf2 Bxe3 21.
+Bxe3 Qe5 22. Kf2 d4 23. Qe2 dxe3+ 24. Qxe3 Qxb2 25. Rb1 Qxa2 26. Rxb7 O-O-O 0-1
+
+[Event "Mem David Garcia Ilundain Int."]
+[Site "?"]
+[Date "2006.??.??"]
+[Round "?"]
+[White "Cifuentes Parada, R."]
+[Black "Marco Molina, R."]
+[Result "1-0"]
+[ECO "A04"]
+[PlyCount "77"]
+[EventDate "2006.??.??"]
+
+1. Nf3 g6 2. c4 f5 3. d4 Bg7 4. b4 Nf6 5. Bb2 d6 6. g3 O-O 7. Bg2 c6 8. O-O Kh8
+9. Nbd2 Be6 10. a4 Nbd7 11. a5 Ne4 12. Qc2 Ndf6 13. Rac1 Rc8 14. Ne1 Nxd2 15.
+Qxd2 d5 16. c5 a6 17. Nd3 Ne4 18. Qc2 g5 19. f3 Nf6 20. Qd2 h6 21. h4 g4 22.
+Ne5 Qe8 23. Qe3 Bg8 24. Rf2 Nd7 25. fxg4 Nxe5 26. dxe5 fxg4 27. Rxf8 Qxf8 28.
+Rf1 Qe8 29. Bd4 Qg6 30. Kh2 Rf8 31. Rxf8 Bxf8 32. Qf4 Bg7 33. e4 e6 34. exd5
+cxd5 35. Qd2 h5 36. Qe2 Bh6 37. c6 bxc6 38. Qxa6 Qd3 39. Qxd3 1-0

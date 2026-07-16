@@ -1,0 +1,91 @@
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2019.01.19"]
+[Round "1.1"]
+[White "Lagarde, Maxime"]
+[Black "Guerra Mendez, Jose Angel"]
+[Result "1/2-1/2"]
+[ECO "A28"]
+[WhiteElo "2604"]
+[BlackElo "2531"]
+[PlyCount "63"]
+[EventDate "2019.01.19"]
+[WhiteTeam "Barcelona"]
+[BlackTeam "Cerdanyola del Valles"]
+
+1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. e4 d6 5. h3 g6 6. g3 Bg7 7. Bg2 O-O 8. d3 Nd7
+9. Bg5 f6 10. Be3 Nc5 11. d4 exd4 12. Nxd4 Ne5 13. Bf1 f5 14. exf5 gxf5 15. Qc2
+Qd7 16. Nd5 Qf7 17. Be2 Be6 18. O-O Nxc4 19. Nxe6 Nxe3 20. Nxe3 Nxe6 21. Bc4
+Kh8 22. Qb3 Rae8 23. Rae1 Qd7 24. Qxb7 Nd4 25. Rd1 f4 26. Ng4 a5 27. Rxd4 Bxd4
+28. Bb5 Qg7 29. Bxe8 Rxe8 30. gxf4 Rf8 31. Kh1 Qf7 32. Rg1 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2019.02.16"]
+[Round "5.1"]
+[White "Perez Mitjans, Orelvis"]
+[Black "Lagarde, Maxime"]
+[Result "1-0"]
+[ECO "B31"]
+[WhiteElo "2386"]
+[BlackElo "2604"]
+[PlyCount "113"]
+[EventDate "2019.01.19"]
+[WhiteTeam "Sant Josep de Badalona"]
+[BlackTeam "Barcelona"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. c3 Qb6 5. Ba4 Bg7 6. O-O Nf6 7. e5 Nd5 8. Bb3
+e6 9. d4 cxd4 10. cxd4 d6 11. Na3 dxe5 12. dxe5 O-O 13. Qe2 Nd4 14. Nxd4 Qxd4
+15. Nc4 Bd7 16. Rd1 Qh4 17. Ne3 Nxe3 18. Rxd7 Nf5 19. g3 Qb4 20. Bd2 Qb6 21.
+Qe4 Rfd8 22. Rxb7 Qd4 23. Qxd4 Nxd4 24. Ba5 Rdb8 25. Rxb8+ Rxb8 26. f4 Bf8 27.
+Bc3 Nxb3 28. axb3 Bc5+ 29. Kg2 Rxb3 30. Rd1 h5 31. h3 Kf8 32. Rd7 Be3 33. Rd1
+Ke8 34. Kf3 Bc5 35. Ke4 Bb4 36. Kd4 Bxc3+ 37. bxc3 Rb2 38. Kc5 Rf2 39. h4 Rf3
+40. c4 Rxg3 41. Kd6 a5 42. c5 a4 43. Rd4 a3 44. Ra4 Rd3+ 45. Kc7 Rc3 46. c6 Ke7
+47. Ra8 Rb3 48. Kc8 Rb6 49. Ra7+ Ke8 50. c7 Rb3 51. Rb7 a2 52. Rxb3 a1=Q 53.
+Kb8 Kf8 54. c8=Q+ Kg7 55. Qd8 Qa4 56. Qf6+ Kg8 57. Rb7 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2020.01.18"]
+[Round "1.1"]
+[White "Lagarde, Maxime"]
+[Black "Lopez Martinez, Josep Manuel"]
+[Result "0-1"]
+[ECO "C77"]
+[WhiteElo "2651"]
+[BlackElo "2454"]
+[PlyCount "88"]
+[EventDate "2020.??.??"]
+[WhiteTeam "Barcelona, CE"]
+[BlackTeam "Barbera, CE"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Bxc6 dxc6 6. Nc3 Bg4 7. d3 Nd7 8.
+h3 Bh5 9. Qe2 c5 10. g4 Bg6 11. Nd5 f6 12. Bd2 Nb8 13. g5 Nc6 14. gxf6 gxf6 15.
+Ne3 Qd7 16. Nh4 O-O-O 17. Qg4 Nd4 18. Qxd7+ Rxd7 19. c3 Nc6 20. Nxg6 hxg6 21.
+Nd5 Rf7 22. Ke2 g5 23. Rag1 Ne7 24. Nxe7+ Bxe7 25. Rg3 Kd7 26. Be3 Ke6 27. a4
+Rfh7 28. b3 Rh4 29. Kf3 b5 30. axb5 axb5 31. Ra1 Rxh3 32. Ra5 Rxg3+ 33. fxg3
+g4+ 34. Kxg4 Rd8 35. Rxb5 Rxd3 36. Bxc5 Rxc3 37. Bf2 Bd6 38. Kh3 Rc2 39. Bg1
+Re2 40. Kg4 Rxe4+ 41. Kf3 f5 42. Bf2 Rg4 43. Rb8 e4+ 44. Kg2 Bxg3 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2020.03.07"]
+[Round "8.1"]
+[White "Magem Badals, Jordi"]
+[Black "Lagarde, Maxime"]
+[Result "0-1"]
+[ECO "B40"]
+[WhiteElo "2514"]
+[BlackElo "2651"]
+[PlyCount "58"]
+[EventDate "2020.??.??"]
+[WhiteTeam "Colon Sabadell Chessy"]
+[BlackTeam "Barcelona, CE"]
+[WhiteTeamCountry "ESP"]
+[BlackTeamCountry "FRA"]
+
+1. e4 c5 2. Nf3 e6 3. g3 Nc6 4. Bg2 Nf6 5. Qe2 e5 6. O-O Be7 7. c3 O-O 8. Na3
+d5 9. d3 c4 10. dxc4 dxe4 11. Nd2 Bxa3 12. bxa3 Bg4 13. Qe3 Na5 14. Nxe4 Nxc4
+15. Nxf6+ Qxf6 16. Qe4 Qe6 17. Qxb7 Rad8 18. Qxa7 e4 19. Bf4 Bf3 20. Rfe1 Bxg2
+21. Kxg2 e3 22. Bxe3 Qc6+ 23. f3 Rd3 24. Re2 Nxe3+ 25. Rxe3 Rd7 26. Qa5 Rd2+
+27. Kf1 Rxh2 28. Rae1 Qh6 29. Qf5 Rh1+ 0-1

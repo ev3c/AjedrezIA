@@ -1,0 +1,139 @@
+[Event "Barcelona sim"]
+[Site "Barcelona"]
+[Date "1924.??.??"]
+[Round "?"]
+[White "Reti, Richard"]
+[Black "Puig i Puig, Esteve"]
+[Result "1-0"]
+[ECO "C30"]
+[PlyCount "83"]
+[EventDate "1924.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. f4 Bc5 3. Nf3 d6 4. c3 Nc6 5. Bb5 Bg4 6. h3 Bxf3 7. Qxf3 Nf6 8. d3
+O-O 9. f5 d5 10. Bg5 dxe4 11. dxe4 h6 12. h4 Qd6 13. Nd2 a6 14. Nc4 Qe7 15.
+Bxc6 bxc6 16. O-O-O a5 17. Ne3 hxg5 18. hxg5 Bxe3+ 19. Qxe3 Ng4 20. f6 Nxe3 21.
+fxe7 Rfe8 22. Rd3 Ng4 23. Rdh3 f6 24. Rg3 Nf2 25. Rf1 Nxe4 26. gxf6 Nxf6 27.
+Rxf6 Rxe7 28. Rxc6 e4 29. Re3 Rf8 30. Rc4 Rf4 31. Rd4 Kf7 32. Kd2 Kf6 33. Ke2
+g5 34. g3 Rg4 35. Kf2 c5 36. Ra4 Rd7 37. Raxe4 Rd2+ 38. Re2 Rxe4 39. Rxd2 Ke5
+40. Re2 a4 41. Re3 c4 42. Kf3 1-0
+
+[Event "Barcelona blind sim"]
+[Site "Barcelona"]
+[Date "1927.??.??"]
+[Round "?"]
+[White "Reti, Richard"]
+[Black "Devesa Zaragoza, Josep"]
+[Result "1/2-1/2"]
+[ECO "B01"]
+[PlyCount "57"]
+[EventDate "1927.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. d4 Bf5 5. Nf3 e6 6. Bd3 Bxd3 7. Qxd3 c6 8.
+O-O Bd6 9. Ne4 Be7 10. Re1 Nd7 11. Bf4 Nb6 12. c4 Nf6 13. Rad1 Nxe4 14. Rxe4 h6
+15. b3 O-O 16. Ne5 Nd7 17. Qg3 Nxe5 18. Bxe5 Bf6 19. Bxf6 Qxf6 20. Qe5 Rfd8 21.
+Qxf6 gxf6 22. Re2 Rd7 23. Red2 Rad8 24. f3 Kg7 25. Kf2 f5 26. Ke3 Kf6 27. f4 h5
+28. Rd3 Kg6 29. Ke2 1/2-1/2
+
+[Event "Barcelona blind sim"]
+[Site "Barcelona"]
+[Date "1927.??.??"]
+[Round "?"]
+[White "Reti, Richard"]
+[Black "Llimona, Josep"]
+[Result "0-1"]
+[ECO "D37"]
+[PlyCount "72"]
+[EventDate "1927.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Nc6 5. e3 Bb4 6. Bd2 h6 7. Bd3 Na5 8. Qa4+
+Nc6 9. Ne5 Bxc3 10. Bxc3 Bd7 11. Nxd7 Qxd7 12. O-O O-O 13. Rac1 a6 14. c5 Qe7
+15. b4 e5 16. dxe5 Nxe5 17. Be2 c6 18. Qb3 Ne4 19. Bxe5 Qxe5 20. Bd3 Nd2 21.
+Qa4 Nxf1 22. Rxf1 f5 23. Bb1 Rae8 24. a3 g5 25. Rd1 Re7 26. Qc2 h5 27. a4 h4
+28. Qd3 Rg7 29. Qd4 Qe6 30. f3 Rf6 31. h3 g4 32. hxg4 fxg4 33. f4 Re7 34. Rd3
+g3 35. Rb3 Qg4 36. Kf1 Rxf4+ 0-1
+
+[Event "Barcelona sim"]
+[Site "Barcelona"]
+[Date "1927.??.??"]
+[Round "?"]
+[White "Reti, Richard"]
+[Black "Alderete, Felix"]
+[Result "0-1"]
+[ECO "C25"]
+[PlyCount "24"]
+[EventDate "1927.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. e4 e5 2. Nc3 Nc6 3. Bc4 Bc5 4. Qg4 Qf6 5. Nd5 Qxf2+ 6. Kd1 Nf6 7. Qxg7 Nxd5
+8. Qxh8+ Ke7 9. exd5 Qxg2 10. dxc6 d6 11. Be2 Bg4 12. Qxa8 Qf1# 0-1
+
+[Event "Barcelona sim"]
+[Site "Barcelona"]
+[Date "1927.05.05"]
+[Round "?"]
+[White "Reti, Richard"]
+[Black "Ribera Arnal, Angel"]
+[Result "1-0"]
+[ECO "B38"]
+[PlyCount "81"]
+[EventDate "1927.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. c4 Bg7 6. Be3 Nf6 7. Nc3 O-O 8.
+Be2 d6 9. O-O Bd7 10. f3 a6 11. Qd2 Rc8 12. Rfd1 Ne5 13. b3 Bc6 14. Bf1 Rc7 15.
+Rac1 e6 16. Nxc6 Rxc6 17. h3 Qe7 18. f4 Ned7 19. Bd3 Rfc8 20. Ne2 e5 21. Rf1
+Bh6 22. f5 Bxe3+ 23. Qxe3 Rf8 24. Nc3 Kg7 25. g4 h6 26. Rf2 g5 27. Kh1 Rc7 28.
+Rg1 Rg8 29. Rfg2 Nb8 30. h4 Kf8 31. hxg5 hxg5 32. Rh2 Nc6 33. Ne2 Ke8 34. Rh6
+Kd7 35. Rg2 Rcc8 36. Qb6 Rc7 37. Nc3 Nd4 38. Kg1 Nf3+ $2 39. Kf2 Nh4 40. Rxf6
+$1 Qxf6 41. Qxc7+ 1-0
+
+[Event "Barcelona sim"]
+[Site "Barcelona"]
+[Date "1927.??.??"]
+[Round "?"]
+[White "Reti, Richard"]
+[Black "Sasot, Victori"]
+[Result "0-1"]
+[ECO "D50"]
+[PlyCount "68"]
+[EventDate "1927.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 dxc4 5. e4 Be7 6. Bxc4 Nxe4 7. Bxe7 Nxc3 8.
+Qg4 Kxe7 9. bxc3 Kf8 10. Qf3 Nc6 11. Nh3 Qf6 12. Qg3 Qe7 13. O-O Na5 14. Bd3 b6
+15. Qf3 Bb7 16. Be4 Bxe4 17. Qxe4 Rd8 18. Nf4 Nc4 19. Rfe1 Nd6 20. Qf3 Qf6 21.
+a4 a5 22. h4 Kg8 23. h5 g5 24. Nd3 Qxf3 25. gxf3 Nc4 26. h6 Rd5 27. Kg2 Kf8 28.
+Ne5 Nxe5 29. Rxe5 Rxe5 30. dxe5 Ke7 31. Rd1 Rd8 32. Rxd8 Kxd8 33. c4 c6 34. Kg3
+b5 0-1
+
+[Event "Barcelona sim"]
+[Site "Barcelona"]
+[Date "1927.??.??"]
+[Round "?"]
+[White "Reti, Richard"]
+[Black "Vilardebo Picurena, Josep"]
+[Result "1-0"]
+[ECO "A13"]
+[PlyCount "57"]
+[EventDate "1927.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. Nf3 Nf6 2. c4 e6 3. g3 c5 4. Bg2 Nc6 5. O-O d5 6. cxd5 exd5 7. d4 Qb6 8.
+dxc5 Bxc5 9. Nc3 Be6 10. Na4 Qb5 11. Nxc5 Qxc5 12. Be3 Qd6 13. Rc1 Ne4 14. Nd4
+Rd8 15. a3 Qd7 16. Qa4 Ne5 17. Qxa7 Bh3 18. Bxe4 dxe4 19. Qc5 f6 20. Rfd1 h5
+21. Rd2 Qg4 22. Bf4 Ng6 23. Nb5 Rxd2 24. Bxd2 Ne5 25. Qd5 Qd7 26. Rc8+ Qxc8 27.
+Nd6+ Ke7 28. Nxc8+ Rxc8 29. Qxe4 1-0

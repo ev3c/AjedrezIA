@@ -1,0 +1,82 @@
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2008.04.19"]
+[Round "1.4"]
+[White "Moreno Gimen, G."]
+[Black "Arevalo Sabate, A."]
+[Result "1/2-1/2"]
+[ECO "B01"]
+[WhiteElo "1910"]
+[BlackElo "1751"]
+[PlyCount "70"]
+[EventDate "2008.??.??"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d4 e6 5. Nf3 Nf6 6. Be2 c6 7. a3 Be7 8. Be3
+Nd5 9. Bd2 Nxc3 10. Bxc3 Qd5 11. O-O O-O 12. Re1 b5 13. Bd3 Bb7 14. Qe2 Re8 15.
+Ne5 c5 16. Qe4 Qxe4 17. Bxe4 Bxe4 18. Rxe4 cxd4 19. Rxd4 Bf6 20. Rd3 Bxe5 21.
+Bxe5 Nc6 22. Bc3 Rad8 23. Rad1 Rxd3 24. Rxd3 Rd8 25. Rxd8+ Nxd8 26. Kf1 Kf8 27.
+Ke2 f6 28. Ke3 Nc6 29. f4 Kf7 30. Bd4 a6 31. Kd3 Ke7 32. b3 Kd6 33. c4 e5 34.
+fxe5+ fxe5 35. Bf2 bxc4+ 1/2-1/2
+
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2008.05.10"]
+[Round "4.3"]
+[White "Royo Amenos, C."]
+[Black "Moreno Gimen, G."]
+[Result "0-1"]
+[ECO "A45"]
+[PlyCount "148"]
+[EventDate "2008.??.??"]
+
+1. d4 Nf6 2. c3 g6 3. g3 Bg7 4. Bg2 d5 5. a4 a5 6. Nf3 O-O 7. Nbd2 Na6 8. Nb3
+b6 9. O-O c5 10. Nbd2 Bf5 11. Nh4 Be6 12. b3 Rb8 13. Ba3 Qc8 14. e4 dxe4 15.
+Nxe4 Nxe4 16. Bxe4 cxd4 17. cxd4 Qd7 18. Bb2 Rfd8 19. Qe2 Nb4 20. d5 Bxb2 21.
+Qxb2 Bxd5 22. Rfd1 Qe6 23. Bxd5 Rxd5 24. Rxd5 Qxd5 25. Ng2 Rd8 26. Rb1 Qd2 27.
+Qa1 Qd4 28. Qa3 Nd3 29. Rf1 Qb4 30. Qa2 Nc5 31. Rb1 Rd3 32. Nf4 Rxb3 33. Ra1 e6
+34. Qe2 Rb1+ 35. Rxb1 Qxb1+ 36. Kg2 Qe4+ 37. Qxe4 Nxe4 38. Nd3 Nc3 39. Nb2 Kg7
+40. Kf3 Kf6 41. h3 Ke5 42. Nc4+ Kd5 43. Nxb6+ Kc5 44. Nd7+ Kb4 45. Ne5 Kxa4 46.
+Ke3 Kb3 47. Nd3 a4 48. Kd2 Ne4+ 49. Ke3 Nc3 50. Kd2 Ne4+ 51. Ke3 f5 52. g4 fxg4
+53. Kxe4 a3 54. hxg4 Kc3 55. Nc1 Kc2 56. Nd3 h5 57. Kd4 Kb1 58. Nb4 h4 59. Ke3
+Kb2 60. Nd3+ Kc3 61. Nc1 e5 62. f4 exf4+ 63. Kxf4 g5+ 64. Ke3 Kb2 65. Nd3+ Kb1
+66. Nb4 a2 67. Nxa2 Kxa2 68. Kf3 Kb2 69. Ke3 Kc3 70. Ke2 Kd4 71. Kf3 Kd3 72.
+Kf2 Ke4 73. Kg2 Kf4 74. Kh3 Kf3 0-1
+
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2008.05.24"]
+[Round "6.3"]
+[White "Moreno Gimen, G."]
+[Black "Carabaño Criville, JR."]
+[Result "0-1"]
+[ECO "B01"]
+[WhiteElo "1910"]
+[BlackElo "1879"]
+[PlyCount "60"]
+[EventDate "2008.??.??"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d4 Nf6 5. Nf3 Bf5 6. Bd3 Bxd3 7. Qxd3 c6 8.
+Bd2 Qc7 9. O-O e6 10. Rfe1 Be7 11. Ne5 O-O 12. Ne4 Nxe4 13. Rxe4 Nd7 14. Qg3
+Nxe5 15. dxe5 f5 16. Rd4 Rad8 17. Bh6 Bc5 18. Rxd8 Rxd8 19. Bg5 Be7 20. Be3 Qd7
+21. Qf3 b6 22. g4 fxg4 23. Qxg4 g6 24. c4 c5 25. h4 Kh8 26. h5 gxh5 27. Qxh5
+Rg8+ 28. Kh2 Rg6 29. Rd1 Qe8 30. Rg1 Rg2+ 0-1
+
+[Event "Ct. Tarragona indiv."]
+[Site "?"]
+[Date "2008.06.07"]
+[Round "8.5"]
+[White "Moreno Gimen, G."]
+[Black "Serrano Garcia, S."]
+[Result "1-0"]
+[ECO "C50"]
+[WhiteElo "1910"]
+[BlackElo "1871"]
+[PlyCount "71"]
+[EventDate "2008.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 d6 4. Nc3 Bg4 5. h3 Bh5 6. d3 Nd4 7. g4 Bg6 8. Be3
+Nxf3+ 9. Qxf3 Qf6 10. Qxf6 Nxf6 11. O-O-O c6 12. f4 exf4 13. Bxf4 h5 14. e5
+dxe5 15. Bxe5 Nd7 16. Bc7 Nc5 17. d4 Kd7 18. Bf4 Ne4 19. Nxe4 Bxe4 20. Rhe1 Bf3
+21. Rd3 hxg4 22. hxg4 Bxg4 23. Bxf7 Bf5 24. Rde3 Bd6 25. Bxd6 Kxd6 26. Rg3 Rh2
+27. Bb3 g6 28. Rge3 Rhh8 29. Bf7 Rhf8 30. Bxg6 Bxg6 31. Re6+ Kd5 32. Rxg6 Kxd4
+33. Rg5 Rfe8 34. c3+ Kc4 35. Kc2 Rxe1 36. b3# 1-0

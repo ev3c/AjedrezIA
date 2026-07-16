@@ -1,0 +1,44 @@
+[Event "Sitges Int"]
+[Site "Sitges"]
+[Date "1949.11.08"]
+[Round "4"]
+[White "Bernstein, Ossip"]
+[Black "Raizman, Maurice"]
+[Result "1-0"]
+[ECO "B58"]
+[PlyCount "85"]
+[EventDate "1949.11.??"]
+[EventType "tourn"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceDate "2008.03.13"]
+
+1. e4 c5 2. Nf3 Nc6 3. Nc3 d6 4. d4 cxd4 5. Nxd4 Nf6 6. Be2 e5 7. Nf3 h6 8. O-O
+Be7 9. b3 O-O 10. Bb2 Bg4 11. h3 Bxf3 12. Bxf3 Nd4 13. Nb1 Nxf3+ 14. Qxf3 b5
+15. Nd2 Nd7 16. Qd3 Qb6 17. c4 b4 18. Rfd1 Nc5 19. Qd5 Kh8 20. Nf1 Ne6 21. Ne3
+Nf4 22. Qd2 Qb7 23. Qc2 Rfd8 24. Nd5 Ne6 25. Qe2 a5 26. Rd3 a4 27. Qe1 Rdb8 28.
+Rf3 Bg5 29. bxa4 Rxa4 30. g3 Rba8 31. h4 Rxa2 32. Rxa2 Rxa2 33. Qb1 Rxb2 34.
+Qxb2 Nd4 35. Rd3 Bc1 36. Qxb4 Qd7 37. Kg2 h5 38. c5 Nc2 39. Qa5 f5 40. Qa8+ Kh7
+41. c6 Qf7 42. Qb7 Qe6 43. Qd7 1-0
+
+[Event "Sitges Int"]
+[Site "Sitges"]
+[Date "1949.11.10"]
+[Round "6"]
+[White "Medina Garcia, Antonio"]
+[Black "Raizman, Maurice"]
+[Result "1-0"]
+[ECO "B12"]
+[PlyCount "73"]
+[EventDate "1949.11.??"]
+[EventType "tourn"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 Nf6 3. Nc3 (3. Bd3) 3... g6 4. Nf3 Bg7 5. Bc4 O-O 6. Qe2 d6 7.
+e5 dxe5 8. dxe5 Nd5 9. Bd2 h6 $6 (9... Nd7) 10. h3 (10. O-O-O $142) 10... Be6
+11. Rd1 Nd7 12. O-O Qc7 13. Rfe1 Rad8 14. Bxd5 cxd5 15. Nd4 Qb6 16. Be3 Qxb2
+17. Nxe6 fxe6 18. Bd4 Rf4 19. Qe3 Rxd4 20. Qxd4 Rc8 21. Qg4 Rxc3 22. Qxe6+ Kh7
+23. Qxd7 Rxc2 24. Qxd5 b6 25. Qf7 Qxa2 26. Qxe7 Rxf2 27. Qb7 Rf7 28. Qe4 Qf2+
+29. Kh1 Re7 30. e6 a5 31. Rd7 Qf6 32. Rxe7 Qxe7 33. Rf1 a4 34. Rf7 Qc5 35. e7
+Qc1+ 36. Kh2 Qc7+ 37. g3 1-0

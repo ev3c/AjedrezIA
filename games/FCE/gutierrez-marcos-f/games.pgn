@@ -1,0 +1,89 @@
+[Event "Ct. Lleida indiv. Absolut"]
+[Site "Tornabous"]
+[Date "2014.10.05"]
+[Round "1"]
+[White "Ruiz Garcia, L."]
+[Black "Gutierrez Marcos, F."]
+[Result "0-1"]
+[ECO "B02"]
+[WhiteElo "1883"]
+[BlackElo "2163"]
+[PlyCount "52"]
+[EventDate "2014.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 Nf6 2. Nc3 d5 3. exd5 Nxd5 4. Nxd5 Qxd5 5. d4 Nc6 6. Nf3 Bg4 7. Be2 O-O-O
+8. c3 f6 9. O-O e6 10. b3 g5 11. Re1 h5 12. h3 Bf5 13. Bd3 Bxd3 14. Qxd3 g4 15.
+Nh4 Rg8 16. Bf4 Be7 17. Qe3 f5 18. Bg3 gxh3 19. Qxe6+ Qxe6 20. Rxe6 f4 21. Nf5
+fxg3 22. Nxe7+ Nxe7 23. Rxe7 gxf2+ 24. Kxf2 Rdf8+ 25. Kg1 Rxg2+ 26. Kh1 Rff2
+0-1
+
+[Event "Ct. Lleida indiv. Absolut"]
+[Site "Tornabous"]
+[Date "2014.10.12"]
+[Round "2"]
+[White "Gutierrez Marcos, F."]
+[Black "Sole Pijuan, F."]
+[Result "1-0"]
+[ECO "D01"]
+[WhiteElo "2163"]
+[BlackElo "2015"]
+[PlyCount "77"]
+[EventDate "2014.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nc3 Nf6 3. Bg5 c5 4. Nf3 Nc6 5. Bxf6 exf6 6. e3 Bg4 7. dxc5 d4 8.
+exd4 Bxf3 9. Qxf3 Nxd4 10. Qe4+ Qe7 11. O-O-O Qxe4 12. Nxe4 O-O-O 13. c3 Ne6
+14. Rxd8+ Kxd8 15. b4 a6 16. Bc4 Kc7 17. g3 Be7 18. f4 f5 19. Nf2 g5 20. fxg5
+Bxg5+ 21. Kc2 Rd8 22. Nd3 Rd7 23. Rf1 Ng7 24. a4 Re7 25. Rf2 f6 26. b5 Re4 27.
+Kb3 axb5 28. axb5 Be3 29. Rf1 b6 30. c6 Ne8 31. Bd5 Bd2 32. Bxe4 fxe4 33. Nf4
+Nd6 34. Nd5+ Kb8 35. Rd1 Bg5 36. c4 Nf5 37. Nxb6 e3 38. Rd7 Nd6 39. c7+ 1-0
+
+[Event "Ct. Lleida indiv. Absolut"]
+[Site "Tornabous"]
+[Date "2014.10.19"]
+[Round "3"]
+[White "Ramon Solans, A."]
+[Black "Gutierrez Marcos, F."]
+[Result "1-0"]
+[ECO "D10"]
+[WhiteElo "2400"]
+[BlackElo "2163"]
+[PlyCount "93"]
+[EventDate "2014.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. e3 a6 5. cxd5 cxd5 6. Bd3 Nc6 7. Nge2 e6 8. O-O
+Be7 9. Bd2 O-O 10. Rc1 Bd7 11. Na4 e5 12. Nc5 e4 13. Nxd7 Qxd7 14. Bb1 Bd6 15.
+f4 exf3 16. Rxf3 Ne4 17. Nc3 Qe6 18. Nxe4 dxe4 19. Rf1 Qh6 20. g3 Rae8 21. Qe2
+Qg5 22. a3 h5 23. Kh1 f5 24. Ba2+ Kh7 25. Rg1 Nd8 26. Bb4 Bxb4 27. axb4 Nc6 28.
+Rc4 Rf6 29. Rgc1 Rd8 30. Bb3 Rdd6 31. b5 axb5 32. Rc5 b6 33. R5c3 b4 34. R3c2
+Rh6 35. Qf2 Na5 36. Ba4 h4 37. gxh4 Rxh4 38. Rg1 Rg4 39. Rf1 g6 40. Rc7+ Kh6
+41. Bd1 {[%emt 0:00:00]} Rh4 42. Rg1 Qf6 43. Ba4 g5 44. Be8 Rd8 45. Rf7 Qe6 46.
+Rxf5 Qxe8 47. Rfxg5 1-0
+
+[Event "Ct. Lleida indiv. Absolut"]
+[Site "Tornabous"]
+[Date "2014.10.26"]
+[Round "4"]
+[White "Gutierrez Marcos, F."]
+[Black "Farre Selma, D."]
+[Result "0-1"]
+[ECO "D01"]
+[WhiteElo "2163"]
+[BlackElo "2053"]
+[PlyCount "38"]
+[EventDate "2014.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nc3 d5 3. Bg5 Nbd7 4. Qd3 e6 5. O-O-O Be7 6. f3 c5 7. Nh3 c4 8.
+Qd2 b5 9. e4 b4 10. Nb1 a5 11. e5 Ng8 12. b3 c3 13. Qe3 a4 14. Bb5 axb3 15.
+axb3 Ra1 16. Ba4 Qa5 17. Bxe7 Nxe7 18. Qg5 Kf8 19. Rdf1 Nb6 0-1

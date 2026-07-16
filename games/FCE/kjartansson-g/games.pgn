@@ -1,0 +1,843 @@
+[Event "Andorra op"]
+[Site "Erts - La Massana"]
+[Date "2013.07.22"]
+[Round "3.3"]
+[White "Arizmendi Martinez, JL."]
+[Black "Kjartansson, G."]
+[Result "1-0"]
+[ECO "B08"]
+[WhiteElo "2580"]
+[BlackElo "2444"]
+[PlyCount "73"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d6 2. e4 Nf6 3. Nc3 g6 4. Nf3 Bg7 5. Be2 O-O 6. O-O Bg4 7. Bg5 Nc6 8. h3
+Bxf3 9. Bxf3 Nd7 10. Ne2 h6 11. Be3 e5 12. c3 Ne7 13. g3 c6 14. Bg2 d5 15. dxe5
+Nxe5 16. Bc5 Re8 17. Bxe7 Rxe7 18. exd5 cxd5 19. Nf4 d4 20. cxd4 Nc4 21. Rc1
+Nxb2 22. Qb3 Qxd4 23. Nxg6 Rd7 24. Bxb7 Rb8 25. Rc8+ Rxc8 26. Bxc8 Rc7 27. Bf5
+Qd8 28. Nf4 Rc3 29. Qb7 Rc7 30. Qf3 Rc3 31. Qe2 Rc5 32. Bc2 Re5 33. Qa6 Ra5 34.
+Qc6 Qd4 35. Bb3 Bf8 36. Bxf7+ Kxf7 37. Qc7+ 1-0
+
+[Event "Andorra op"]
+[Site "Erts - La Massana"]
+[Date "2013.07.23"]
+[Round "4.19"]
+[White "Kjartansson, G."]
+[Black "Morros Faura, R."]
+[Result "1-0"]
+[ECO "A87"]
+[WhiteElo "2444"]
+[BlackElo "2183"]
+[PlyCount "85"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 f5 2. Nf3 Nf6 3. g3 g6 4. Bg2 Bg7 5. O-O O-O 6. b3 d6 7. Bb2 Qe8 8. c4 c6
+9. Nbd2 a5 10. a3 Na6 11. Qc2 Bd7 12. Rae1 h6 13. e4 fxe4 14. Nxe4 Qf7 15. Nc3
+Bf5 16. Qe2 g5 17. Nd2 Rae8 18. f4 g4 19. Nde4 Nc7 20. Nf2 Qg6 21. Qd2 Bc2 22.
+Nce4 Bxb3 23. Qxa5 Bxc4 24. Qxc7 Nd5 25. Qa5 e5 26. Nxd6 Qxd6 27. dxe5 Qe7 28.
+Nxg4 Bxf1 29. Bxd5+ cxd5 30. Qxd5+ Kh8 31. Rxf1 Rd8 32. Qe4 Qc5+ 33. Rf2 Rd1+
+34. Kg2 h5 35. Nf6 Bxf6 36. exf6 Rf7 37. Qe8+ Qf8 38. Qb5 Qh6 39. Re2 Rd8 40.
+Re5 Kg8 41. Rg5+ Kf8 42. Qc5+ Ke8 43. Rg8+ 1-0
+
+[Event "Andorra op"]
+[Site "Erts - La Massana"]
+[Date "2013.07.24"]
+[Round "5.17"]
+[White "Bremner, A."]
+[Black "Kjartansson, G."]
+[Result "0-1"]
+[ECO "A41"]
+[WhiteElo "2228"]
+[BlackElo "2444"]
+[PlyCount "90"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d6 2. Nf3 g6 3. c4 Bg7 4. Nc3 Nc6 5. d5 Ne5 6. Nxe5 Bxe5 7. e4 c5 8. Bd3
+Bg7 9. O-O Nf6 10. h3 O-O 11. Bg5 Qc7 12. Qd2 a6 13. Bh6 e5 14. Bxg7 Kxg7 15.
+a4 b6 16. a5 bxa5 17. b3 Rb8 18. Qa2 h5 19. Bc2 h4 20. Qxa5 Qd7 21. Ne2 Nh5 22.
+Qd2 g5 23. f3 Nf4 24. Nxf4 gxf4 25. Rf2 Rg8 26. Kf1 Kh8 27. Ke1 Rg3 28. Ra3 Rb4
+29. Bd3 Qb7 30. Qa2 Qb6 31. Bc2 Kg7 32. Kd1 Kh6 33. Ke1 Kh5 34. Ke2 Rg8 35. Ke1
+Rg5 36. Ke2 Qd8 37. Ke1 Rg7 38. Bd3 Kh6 39. Ra5 Rxb3 40. Qxb3 Qxa5+ 41. Kf1
+Qa1+ 42. Bb1 Qd4 43. Re2 Bxh3 44. Qb8 Qd1+ 45. Re1 Qxf3+ 0-1
+
+[Event "Andorra op"]
+[Site "Erts - La Massana"]
+[Date "2013.07.25"]
+[Round "6.7"]
+[White "Kjartansson, G."]
+[Black "Cabrera, A."]
+[Result "0-1"]
+[ECO "A29"]
+[WhiteElo "2444"]
+[BlackElo "2525"]
+[PlyCount "132"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. c4 Nf6 2. g3 e5 3. Bg2 Nc6 4. Nc3 g6 5. Nf3 Bg7 6. O-O O-O 7. d4 exd4 8.
+Nxd4 Nxd4 9. Qxd4 d6 10. Qh4 Ng4 11. Qxd8 Rxd8 12. Nd5 Rd7 13. Bg5 f6 14. Bd2
+c6 15. Nf4 f5 16. h3 Ne5 17. Rac1 Rd8 18. Rfd1 Nf7 19. Rc2 Bd7 20. Bb4 Bf8 21.
+Rcd2 Rab8 22. c5 g5 23. Nh5 d5 24. Nf6+ Kg7 25. Bc3 Kh6 26. g4 Be6 27. gxf5
+Bxf5 28. Bd4 Be7 29. Ng4+ Kg6 30. f3 h5 31. e4 dxe4 32. fxe4 Bxg4 33. hxg4 Rxd4
+34. Rxd4 Bxc5 35. gxh5+ Kxh5 36. Kh2 Bxd4 37. Rxd4 Rd8 38. Rxd8 Nxd8 39. Kg3
+Nf7 40. Bh3 Ne5 41. Bc8 b6 42. Bf5 Kh6 43. Kf2 g4 44. Kg3 Kg5 45. Bc8 c5 46.
+Ba6 Nd7 47. Bc8 Ne5 48. Ba6 c4 49. a3 Kf6 50. Kf4 Ke7 51. Bc8 Kd6 52. Bxg4 Nxg4
+53. Kxg4 Ke5 54. Kf3 b5 55. Ke3 a5 56. Kd2 Kxe4 57. Kc3 Kd5 58. b3 cxb3 59.
+Kxb3 Kd4 60. Kc2 Kc4 61. Kb2 Kd3 62. a4 b4 63. Kb3 Kd4 64. Kc2 Ke3 65. Kb1 Kd3
+66. Kb2 Kd2 0-1
+
+[Event "Andorra op"]
+[Site "Erts - La Massana"]
+[Date "2013.07.26"]
+[Round "7.15"]
+[White "Green, AD."]
+[Black "Kjartansson, G."]
+[Result "0-1"]
+[ECO "B12"]
+[WhiteElo "2160"]
+[BlackElo "2444"]
+[PlyCount "58"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nd2 e6 5. Nb3 Nd7 6. Nf3 Ne7 7. Be2 Qc7 8. O-O
+f6 9. exf6 gxf6 10. c4 O-O-O 11. Re1 Rg8 12. a4 Ng6 13. a5 a6 14. cxd5 exd5 15.
+Qd2 Be4 16. g3 h5 17. Qc3 h4 18. Nbd2 Bd6 19. Nf1 Rde8 20. Bd2 f5 21. Ng5 hxg3
+22. fxg3 Nf6 23. b4 f4 24. Rac1 fxg3 25. hxg3 Nf4 26. Bxa6 Rxg5 27. Qxc6 Nh3+
+28. Kh2 Ng4+ 29. Kxh3 Rh8# 0-1
+
+[Event "Andorra op"]
+[Site "Erts - La Massana"]
+[Date "2013.07.27"]
+[Round "8.6"]
+[White "Kjartansson, G."]
+[Black "Peralta, F."]
+[Result "1/2-1/2"]
+[ECO "A13"]
+[WhiteElo "2444"]
+[BlackElo "2622"]
+[PlyCount "146"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. c4 e6 2. g3 d5 3. Nf3 dxc4 4. Bg2 Nf6 5. Qc2 c6 6. a4 Na6 7. Ne5 Nb4 8. Qxc4
+a5 9. O-O Be7 10. Na3 O-O 11. d4 Nd7 12. Bf4 Nd5 13. Nxd7 Bxd7 14. Bd2 Bf6 15.
+Nc2 e5 16. e4 Nb6 17. Qc5 Be7 18. Qc3 exd4 19. Nxd4 Bb4 20. Qc2 Bxd2 21. Qxd2
+c5 22. Nf5 Bxf5 23. Qxd8 Raxd8 24. exf5 Rd7 25. b3 Nd5 26. Rfc1 b6 27. Bf1 h5
+28. Rd1 Rfd8 29. Bb5 Rd6 30. Re1 Kf8 31. Re5 f6 32. Re6 Rxe6 33. fxe6 Rd6 34.
+Re1 Ke7 35. Bc4 Nc7 36. f4 f5 37. Re5 g6 38. Kg2 Nxe6 39. h4 Kf6 40. Kh3 Nc7
+41. Kg2 Rd7 42. Re2 Rd1 43. Re5 Rd2+ 44. Kg1 Rd4 45. Re1 Re4 46. Rd1 Ke7 47.
+Bd3 Re6 48. Bc4 Re4 49. Bd3 Rd4 50. Re1+ Kf8 51. Bc4 Rd6 52. Kf2 Rd2+ 53. Ke3
+Rd4 54. Kf3 Rd6 55. Re2 Ne8 56. Re6 Rxe6 57. Bxe6 Nd6 58. Bc4 Ke7 59. Ke3 Kd7
+60. Bd5 Kd8 61. Kd3 Ke7 62. Bc6 Ke6 63. Bg2 Ne8 64. Kc4 Kd6 65. Kd3 Kd7 66. Bd5
+Kd8 67. Bc6 Ke7 68. Bg2 Kd7 69. Bd5 Ke7 70. Bc6 Kd8 71. Bd5 Kd7 72. Ke3 Kd8 73.
+Kd3 Ke7 1/2-1/2
+
+[Event "Andorra op"]
+[Site "Erts - La Massana"]
+[Date "2013.07.28"]
+[Round "9.15"]
+[White "Macias Murillo, B."]
+[Black "Kjartansson, G."]
+[Result "1-0"]
+[ECO "D05"]
+[WhiteElo "2298"]
+[BlackElo "2444"]
+[PlyCount "77"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. Nf3 b6 3. e3 Bb7 4. Bd3 e6 5. Nbd2 d5 6. O-O Nbd7 7. c3 Ne4 8. Ne5
+Nxe5 9. dxe5 Nc5 10. Be2 g6 11. f4 Bg7 12. b4 Nd7 13. Nf3 O-O 14. Bd2 Qe7 15.
+Be1 Rfc8 16. Bh4 Qe8 17. Qd2 a6 18. a4 c6 19. Rfb1 Rc7 20. Bd3 Bf8 21. Qe2 Qc8
+22. Be1 Ra7 23. h4 a5 24. h5 axb4 25. cxb4 Qa8 26. Ng5 Bh6 27. Qg4 Nf8 28. Qh4
+Bg7 29. h6 Bh8 30. Nh3 f6 31. exf6 Rf7 32. Bc3 Nd7 33. Ng5 Bxf6 34. Bxg6 hxg6
+35. h7+ Kg7 36. Nxf7 d4 37. h8=Q+ Qxh8 38. Qxh8+ Kxf7 39. Qh7+ 1-0
+
+[Event "Badalona op"]
+[Site "Badalona"]
+[Date "2013.08.06"]
+[Round "5"]
+[White "Kjartansson, G."]
+[Black "Vehi Bach, VM."]
+[Result "1-0"]
+[ECO "A13"]
+[WhiteElo "2434"]
+[BlackElo "2307"]
+[PlyCount "69"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. c4 e6 2. g3 d5 3. Nf3 dxc4 4. Bg2 Nf6 5. Qc2 Qd5 6. O-O Nc6 7. Na3 Bxa3 8.
+bxa3 e5 9. Bb2 e4 10. Bxf6 gxf6 11. Nh4 f5 12. f3 Nd4 13. Qb2 Qe5 14. Qb1 e3
+15. f4 Qe7 16. Qb2 c5 17. Rfe1 O-O 18. Rac1 Rb8 19. Rc3 exd2 20. Qxd2 Rd8 21.
+Qb2 b5 22. e3 b4 23. axb4 Rxb4 24. Qc1 Nb5 25. Rxc4 Rxc4 26. Qxc4 Na3 27. Qc1
+c4 28. e4 Qc5+ 29. Kh1 c3 30. exf5 c2 31. f6 Bg4 32. f5 Kh8 33. h3 Qc3 34. Kh2
+Qd2 35. Qxd2 1-0
+
+[Event "Badalona op"]
+[Site "Badalona"]
+[Date "2013.08.07"]
+[Round "6"]
+[White "Kjartansson, G."]
+[Black "Guerra Mendez, JA."]
+[Result "1/2-1/2"]
+[ECO "E04"]
+[WhiteElo "2434"]
+[BlackElo "2516"]
+[PlyCount "88"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 e6 3. g3 d5 4. Nf3 dxc4 5. Bg2 Bb4+ 6. Bd2 a5 7. O-O O-O 8. Bg5
+Nc6 9. e3 h6 10. Bxf6 Qxf6 11. a3 Bd6 12. Nc3 e5 13. d5 Na7 14. Qc2 b5 15. a4
+Bd7 16. Nd2 Qe7 17. Rfd1 Rfb8 18. axb5 Nxb5 19. Na4 c3 20. Nc4 cxb2 21. Naxb2
+Ra7 22. Rxa5 Na3 23. Qc1 Nxc4 24. Nxc4 Rab7 25. Qa1 Bb5 26. Ra7 Rxa7 27. Qxa7
+Qd8 28. Nxd6 cxd6 29. Qa3 Be8 30. Be4 Ra8 31. Qc3 Rc8 32. Qb2 Rb8 33. Qc2 Rc8
+34. Qe2 g6 35. h4 h5 36. Kh2 Kg7 37. Rb1 Rb8 38. Qa6 Rxb1 39. Bxb1 Qb8 40. Bd3
+Bd7 41. Kg2 Kg8 42. Qa5 Kg7 43. Qa6 Kg8 44. Qa5 Kg7 1/2-1/2
+
+[Event "Badalona op"]
+[Site "Badalona"]
+[Date "2013.08.08"]
+[Round "7"]
+[White "Lorenzo de la Riva, L."]
+[Black "Kjartansson, G."]
+[Result "0-1"]
+[ECO "B07"]
+[WhiteElo "2449"]
+[BlackElo "2434"]
+[PlyCount "172"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Be3 c6 5. Qd2 b5 6. Bd3 Nbd7 7. Nf3 Qc7 8. O-O
+Bg7 9. h3 O-O 10. Ne2 c5 11. c3 Bb7 12. Ng3 e5 13. d5 c4 14. Bc2 Nc5 15. Bh6
+Bc8 16. b4 cxb3 17. axb3 Bd7 18. Rfc1 a5 19. b4 axb4 20. Rxa8 Rxa8 21. cxb4
+Bxh6 22. Qxh6 Na6 23. Bd1 Qd8 24. Qd2 Kg7 25. Qb2 Rc8 26. Ra1 Nc7 27. Nd2 Na8
+28. Ra6 Nb6 29. Bb3 Ra8 30. Ra5 Ne8 31. Kh2 Rc8 32. Ne2 Qh4 33. Kg1 Nf6 34. Ng3
+Ne8 35. Ra1 Qg5 36. Ra6 Qd8 37. Ngf1 Kg8 38. Ne3 Ra8 39. Ra5 Nf6 40. Bd1 Rc8
+41. Ra6 Ra8 42. Qa3 Ne8 43. Qa5 Rxa6 44. Qxa6 Qb8 45. Bg4 Nc7 46. Qa1 Bxg4 47.
+hxg4 h6 48. Nb3 Nc4 49. Qc1 Nxe3 50. Qxe3 Na6 51. Qc3 Qc7 52. Qxc7 Nxc7 53. Na1
+f5 54. gxf5 gxf5 55. f3 Kf7 56. Nc2 f4 57. Kh2 Kf6 58. Ne1 Kg5 59. Kh3 Na8 60.
+Nd3 Nb6 61. Nc1 Kh5 62. Nd3 Kg5 63. Nc1 Kh5 64. Nb3 Nc4 65. Na5 Kg5 66. Kh2 Ne3
+67. Nc6 Nc4 68. Kh3 Kh5 69. Na7 Na3 70. Nc8 Nc4 71. Ne7 Ne3 72. Kh2 Kg5 73. Nc6
+Nc4 74. Kg1 Kh4 75. Kf2 Kg5 76. Ne7 Ne3 77. g4 h5 78. gxh5 Kxh5 79. Ke2 Kh4 80.
+Nc6 Nc4 81. Na5 Na3 82. Nb7 Nc4 83. Nd8 Kg3 84. Nc6 Na3 85. Nxe5 dxe5 86. d6
+Nc2 0-1
+
+[Event "Badalona op"]
+[Site "Badalona"]
+[Date "2013.08.09"]
+[Round "8"]
+[White "Kjartansson, G."]
+[Black "Alsina Leal, D."]
+[Result "1/2-1/2"]
+[ECO "A29"]
+[WhiteElo "2434"]
+[BlackElo "2538"]
+[PlyCount "182"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. c4 e5 2. g3 Nf6 3. Bg2 d5 4. cxd5 Nxd5 5. Nc3 Nb6 6. Nf3 Nc6 7. O-O Be7 8.
+a3 O-O 9. b4 Be6 10. d3 a5 11. b5 Nd4 12. Rb1 Nxf3+ 13. Bxf3 Nd5 14. Bb2 f6 15.
+Qc2 Rc8 16. Rfc1 Nxc3 17. Qxc3 c6 18. bxc6 bxc6 19. Qc2 Ba2 20. Ra1 Bd5 21.
+Bxd5+ cxd5 22. Qa4 Qb6 23. Bc3 Bc5 24. Be1 Bd4 25. Rab1 Rxc1 26. Rxc1 Qb2 27.
+Rc2 Qb1 28. Kf1 h6 29. Qc6 Kh7 30. Rc1 Qb3 31. Qd7 Bb2 32. Rc5 Rg8 33. Qxd5 Qd1
+34. Rc4 a4 35. Qa5 Bxa3 36. Qxa4 Qxa4 37. Rxa4 Bc5 38. Rc4 Bb6 39. g4 Kg6 40.
+e3 h5 41. h3 hxg4 42. hxg4 Ra8 43. Ke2 Ra2+ 44. Kf3 Ba5 45. Bxa5 Rxa5 46. Rc7
+Ra2 47. d4 exd4 48. exd4 Rb2 49. Ke3 f5 50. gxf5+ Kxf5 51. Rxg7 Rb3+ 52. Ke2
+Ke4 53. Rg4+ Kf5 54. f3 Rb2+ 55. Ke3 Rb3+ 56. Kf2 Rb2+ 57. Kg3 Rd2 58. Rf4+ Kg5
+59. Re4 Kf5 60. Rh4 Kg5 61. Rf4 Kg6 62. Rh4 Kg5 63. f4+ Kf6 64. Rh6+ Ke7 65.
+Kg4 Rxd4 66. Kg5 Kf7 67. f5 Rd1 68. Rh7+ Kg8 69. Re7 Kf8 70. Kf6 Rd6+ 71. Re6
+Rd7 72. Ra6 Rf7+ 73. Ke6 Re7+ 74. Kf6 Rf7+ 75. Kg5 Rg7+ 76. Kf4 Rb7 77. Kg5
+Rg7+ 78. Rg6 Rb7 79. Rc6 Rg7+ 80. Kf6 Rf7+ 81. Ke5 Re7+ 82. Re6 Kf7 83. Kd6 Ra7
+84. Kd5 Ra5+ 85. Ke4 Ra4+ 86. Ke5 Ra5+ 87. Kf4 Ra1 88. Re4 Kf6 89. Re6+ Kf7 90.
+Re4 Kf6 91. Re6+ Kf7 1/2-1/2
+
+[Event "Badalona op"]
+[Site "Badalona"]
+[Date "2013.08.10"]
+[Round "9"]
+[White "Ynojosa, FJ."]
+[Black "Kjartansson, G."]
+[Result "1-0"]
+[ECO "E14"]
+[WhiteElo "2405"]
+[BlackElo "2434"]
+[PlyCount "93"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. Nf3 b6 3. e3 Bb7 4. Bd3 e6 5. b3 d5 6. Bb2 Nbd7 7. O-O Bd6 8. c4
+O-O 9. Nc3 a6 10. Rc1 Qe7 11. Qe2 c5 12. dxc5 Nxc5 13. cxd5 exd5 14. Nd4 g6 15.
+Bb1 b5 16. Qf3 Nfe4 17. Rfd1 Rac8 18. Nde2 Be5 19. Qh3 h5 20. f4 Bh8 21. Nxe4
+Bxb2 22. Rxc5 Rxc5 23. Nxc5 Qxc5 24. f5 Re8 25. Kf2 Qd6 26. fxg6 fxg6 27. Qg3
+Qxg3+ 28. hxg3 Rf8+ 29. Ke1 g5 30. Nd4 Bc8 31. Nf3 g4 32. Nd4 b4 33. Ke2 a5 34.
+Nc6 d4 35. Nxd4 Re8 36. e4 Ba6+ 37. Ke3 Rc8 38. Bd3 Bxd3 39. Rxd3 Kf7 40. Ne2
+Bf6 41. Rd5 Bd8 42. Kd3 Ra8 43. Rxh5 a4 44. Rb5 axb3 45. axb3 Be7 46. Nf4 Rc8
+47. Rf5+ 1-0
+
+[Event "Ciutat de Sabadell op"]
+[Site "Sabadell"]
+[Date "2013.09.02"]
+[Round "1"]
+[White "Kjartansson, G."]
+[Black "Pozanco Romasanta, M."]
+[Result "1-0"]
+[ECO "A00"]
+[WhiteElo "2434"]
+[BlackElo "2067"]
+[PlyCount "73"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. Nf3 d5 2. c4 e6 3. g3 Nf6 4. Bg2 c5 5. cxd5 exd5 6. d4 Nc6 7. O-O Bg4 8. Be3
+Qb6 9. Nc3 c4 10. Ne5 Be6 11. Nxc4 dxc4 12. d5 Qxb2 13. dxc6 Qxc3 14. cxb7 Rb8
+15. Bf4 Nd7 16. Bc6 Rxb7 17. Bxb7 Ba3 18. Bd6 Bxd6 19. Qxd6 Qe5 20. Qxe5 Nxe5
+21. f4 Ng4 22. Rac1 O-O 23. e4 Rb8 24. Bd5 Ne3 25. Bxe6 Nxf1 26. Bxc4 Nd2 27.
+Bd5 Rb1 28. Rxb1 Nxb1 29. Kf2 Kf8 30. Ke3 Ke7 31. Kd3 Na3 32. Bc4 f6 33. Ba6
+Kd6 34. Kc3 Kc5 35. Bd3 h6 36. e5 fxe5 37. fxe5 1-0
+
+[Event "Ciutat de Sabadell op"]
+[Site "Sabadell"]
+[Date "2013.09.03"]
+[Round "2"]
+[White "Gascon, JR."]
+[Black "Kjartansson, G."]
+[Result "1-0"]
+[ECO "A00"]
+[WhiteElo "2268"]
+[BlackElo "2434"]
+[PlyCount "77"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Nf3 Bg7 5. Be2 O-O 6. O-O c6 7. a4 Nbd7 8. a5
+Qc7 9. Be3 Re8 10. h3 e5 11. dxe5 dxe5 12. Bc4 Nf8 13. Ng5 Be6 14. Nxe6 Nxe6
+15. Bxe6 Rxe6 16. Qe2 Bf8 17. Qc4 Ne8 18. Rfd1 Nd6 19. Qb3 Ree8 20. Rd3 Red8
+21. Rad1 Be7 22. Bc5 Ne8 23. Rxd8 Bxd8 24. Na4 Be7 25. Qb4 Bxc5 26. Nxc5 b6 27.
+axb6 Qxb6 28. Qc3 Rd8 29. Rxd8 Qxd8 30. Qxe5 Nd6 31. Qd4 Qe7 32. b4 h5 33. e5
+Nf5 34. Qe4 a5 35. c3 Qa7 36. e6 a4 37. Qxc6 a3 38. Qe8+ Kg7 39. Nd7 1-0
+
+[Event "Ciutat de Sabadell op"]
+[Site "Sabadell"]
+[Date "2013.09.04"]
+[Round "3"]
+[White "Kjartansson, G."]
+[Black "Uran Bermudez, OK."]
+[Result "1-0"]
+[ECO "A00"]
+[WhiteElo "2434"]
+[BlackElo "2092"]
+[PlyCount "63"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 e6 3. g3 d5 4. Nf3 b6 5. Bg2 Ba6 6. cxd5 exd5 7. O-O Be7 8. Nc3
+O-O 9. Bf4 Nbd7 10. Ne5 Bb7 11. Qa4 Nb8 12. Rac1 c6 13. e4 b5 14. Qb3 dxe4 15.
+Nxe4 Qxd4 16. Rfd1 Qb6 17. Nd6 Bxd6 18. Rxd6 Na6 19. Rxf6 gxf6 20. Nd7 Qd8 21.
+Nxf8 Qxf8 22. Bxc6 Bxc6 23. Rxc6 Nc5 24. Qxb5 Ne6 25. Be3 Rb8 26. Qc4 Qd8 27.
+Qg4+ Kf8 28. Bh6+ Ke7 29. Qa4 Rb7 30. Rc1 Qd3 31. Rc8 Rxb2 32. Qe8+ 1-0
+
+[Event "Ciutat de Sabadell op"]
+[Site "Sabadell"]
+[Date "2013.09.05"]
+[Round "4"]
+[White "Gonzalez Perez, A."]
+[Black "Kjartansson, G."]
+[Result "1/2-1/2"]
+[ECO "A00"]
+[WhiteElo "2466"]
+[BlackElo "2434"]
+[PlyCount "148"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Be3 c6 5. Qd2 Nbd7 6. Nf3 Qc7 7. O-O-O e5 8. h4
+b5 9. h5 Nxh5 10. dxe5 dxe5 11. g4 Nhf6 12. Ng5 Bg7 13. f3 h6 14. Nh3 a6 15.
+Nf2 Bb7 16. Bxh6 Bxh6 17. Rxh6 Rxh6 18. Qxh6 Rd8 19. g5 Nh5 20. Ng4 Ke7 21. Ne3
+Qb6 22. Nf5+ gxf5 23. exf5 Ndf6 24. gxf6+ Nxf6 25. Re1 Qd4 26. Bd3 b4 27. Nd1
+c5 28. Qh2 Kd6 29. Ne3 Qf4 30. Qxf4 exf4 31. Nc4+ Kc7 32. Ne5 Re8 33. Kd2 a5
+34. Nxf7 Rxe1 35. Kxe1 Bxf3 36. Ng5 Bd5 37. b3 Kd6 38. Ke2 Ke5 39. Nf3+ Kd6 40.
+Nh4 Ng4 41. Ng6 f3+ 42. Kf1 Ne3+ 43. Kf2 Nd1+ 44. Kg3 f2 45. Nf4 Bf7 46. Nh3
+Nc3 47. Nxf2 Bd5 48. Kf4 Nxa2 49. Kg5 Nc3 50. Kf6 a4 51. bxa4 c4 52. Bf1 Nxa4
+53. Kg7 Nc5 54. f6 Ne6+ 55. Kg6 Nd4 56. Kg7 Nf5+ 57. Kg6 Ne3 58. Bh3 Nxc2 59.
+Bg2 Nd4 60. Bxd5 Kxd5 61. f7 Ne6 62. Kf6 Nf8 63. Ke7 Nh7 64. Ng4 b3 65. Nf6+
+Kd4 66. Nxh7 b2 67. f8=Q b1=Q 68. Qf6+ Ke3 69. Ng5 Qb7+ 70. Kf8 Qc8+ 71. Kg7
+Qb7+ 72. Kg8 Qb8+ 73. Kh7 Qb7+ 74. Kg6 Qb1+ 1/2-1/2
+
+[Event "Ciutat de Sabadell op"]
+[Site "Sabadell"]
+[Date "2013.09.06"]
+[Round "5"]
+[White "Kjartansson, G."]
+[Black "Jerez Perez, A."]
+[Result "1-0"]
+[ECO "A00"]
+[WhiteElo "2434"]
+[BlackElo "2376"]
+[PlyCount "113"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. c4 Nf6 2. g3 g6 3. Bg2 d5 4. cxd5 Nxd5 5. Nc3 Nb6 6. d3 Bg7 7. Be3 Nc6 8.
+Qd2 Nd4 9. Rc1 Nf5 10. Bc5 O-O 11. e3 Nd7 12. Ba3 Ne5 13. Rd1 Rb8 14. b3 b5 15.
+Ne4 b4 16. Bc1 Bb7 17. d4 Nd7 18. Qc2 Nd6 19. d5 Nxe4 20. Bxe4 Nf6 21. Bf3 Qc8
+22. Bb2 Rd8 23. Qc4 Ba6 24. Qc1 e6 25. Qa1 Ne8 26. h4 exd5 27. h5 Qe6 28. hxg6
+fxg6 29. Bxg7 Nxg7 30. Qd4 Nf5 31. Qxd5 Qxd5 32. Bxd5+ Kg7 33. Nf3 Ne7 34. Be4
+Rxd1+ 35. Kxd1 h6 36. Kc2 Rd8 37. a3 bxa3 38. Ra1 Rd6 39. Rxa3 Nc8 40. Ra5 Rf6
+41. Rc5 Rf7 42. Bd5 Re7 43. Nd4 Nb6 44. Bg2 Bc8 45. Nb5 Rf7 46. Rxc7 Rxc7+ 47.
+Nxc7 g5 48. Kc3 h5 49. Kd4 h4 50. gxh4 gxh4 51. f4 h3 52. Bh1 Bg4 53. e4 a5 54.
+f5 Bd1 55. Ne6+ Kf6 56. Nc5 a4 57. bxa4 1-0
+
+[Event "Ciutat de Sabadell op"]
+[Site "Sabadell"]
+[Date "2013.09.07"]
+[Round "6"]
+[White "Rojas Keim, LA."]
+[Black "Kjartansson, G."]
+[Result "0-1"]
+[ECO "A00"]
+[WhiteElo "2408"]
+[BlackElo "2434"]
+[PlyCount "110"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d6 2. e4 Nf6 3. Nc3 g6 4. Be3 c6 5. Qd2 b5 6. f3 Nbd7 7. a4 b4 8. Nce2 a5
+9. g4 Nb6 10. Ng3 h5 11. g5 Nfd7 12. h4 Qc7 13. f4 d5 14. Nf3 Bg7 15. e5 e6 16.
+Qf2 Bf8 17. Nd2 c5 18. Bb5 c4 19. b3 Ba6 20. Bxa6 Rxa6 21. Qe2 Ra8 22. bxc4
+dxc4 23. Nge4 Be7 24. O-O Qc6 25. Qg2 Rc8 26. Nf6+ Bxf6 27. gxf6 Nd5 28. Rfe1
+Nc3 29. Nf3 Nb6 30. f5 gxf5 31. Qg7 Qxf3 32. Qxh8+ Kd7 33. Qg7 Kc6 34. Qxf7
+Qg4+ 35. Kf1 f4 36. Qg7 Qxg7 37. fxg7 fxe3 38. Rxe3 Rg8 39. Rg3 Nbxa4 40. Kg2
+b3 41. cxb3 cxb3 42. Ra3 b2 43. Rgxc3+ Nxc3 44. Rxc3+ Kd5 45. Rb3 Rxg7+ 46. Kf3
+Kxd4 47. Rxb2 Rf7+ 48. Kg3 Rf5 49. Rb6 Rxe5 50. Ra6 Ke4 51. Ra7 Rb5 52. Ra6 e5
+53. Rh6 a4 54. Rxh5 a3 55. Rh8 Ra5 0-1
+
+[Event "Ciutat de Sabadell op"]
+[Site "Sabadell"]
+[Date "2013.09.08"]
+[Round "7"]
+[White "Kjartansson, G."]
+[Black "Movsziszian, K."]
+[Result "1-0"]
+[ECO "A00"]
+[WhiteElo "2434"]
+[BlackElo "2503"]
+[PlyCount "94"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. g3 g6 2. Bg2 Bg7 3. c4 d6 4. Nc3 e5 5. e3 f5 6. d4 Nd7 7. Nge2 Ngf6 8. dxe5
+dxe5 9. e4 O-O 10. O-O c6 11. exf5 gxf5 12. Qc2 Nc5 13. Rd1 Qe8 14. b3 Rf7 15.
+b4 Ne6 16. Rb1 Bd7 17. b5 Rc8 18. bxc6 bxc6 19. Rb7 Bf8 20. Qxf5 Nc5 21. Qg5+
+Rg7 22. Qxf6 Nxb7 23. Bh6 Rf7 24. Qg5+ Kh8 25. Bxf8 Rxf8 26. Ne4 Bf5 27. N2c3
+Rd8 28. Re1 Qf7 29. Qe3 Na5 30. c5 Nc4 31. Qg5 Rd4 32. h4 Qg7 33. Qc1 Rfd8 34.
+Ne2 Bxe4 35. Nxd4 Bxg2 36. Nf5 Qg4 37. Kxg2 Nd2 38. Nd6 Qf3+ 39. Kh3 Qxf2 40.
+Rxe5 Nf3 41. Qf4 Ng1+ 42. Kg4 Rg8+ 43. Kh5 Qxf4 44. gxf4 Nh3 45. f5 Kg7 46.
+Re7+ Kf6 47. Re6+ Kg7 1-0
+
+[Event "Ciutat de Sabadell op"]
+[Site "Sabadell"]
+[Date "2013.09.09"]
+[Round "8"]
+[White "Muñoz Pantoja, M."]
+[Black "Kjartansson, G."]
+[Result "1/2-1/2"]
+[ECO "A00"]
+[WhiteElo "2457"]
+[BlackElo "2434"]
+[PlyCount "128"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c6 2. Nc3 d5 3. Nf3 Bg4 4. Be2 dxe4 5. Nxe4 Nd7 6. O-O Ngf6 7. Nxf6+ Nxf6
+8. d4 e6 9. c4 Be7 10. Be3 O-O 11. Ne5 Bxe2 12. Qxe2 Nd7 13. Rad1 Nxe5 14. dxe5
+Qc7 15. f4 Rfd8 16. Rxd8+ Rxd8 17. Rd1 Rxd1+ 18. Qxd1 Qa5 19. a3 Bc5 20. Kf2
+Qb6 21. Bxc5 Qxc5+ 22. Kf3 h5 23. Qd8+ Kh7 24. Qd3+ g6 25. b4 Qg1 26. h4 Kg7
+27. g3 a6 28. Ke4 b6 29. Qe3 Qg2+ 30. Qf3 Qb2 31. Qd3 c5 32. bxc5 bxc5 33. Kf3
+a5 34. Qe3 Qb7+ 35. Kf2 Qb6 36. Qc3 a4 37. Ke2 Qb7 38. Kd2 Qg2+ 39. Ke1 Kf8 40.
+Qe3 Kg7 41. Qd3 Qa2 42. Qc3 Qh2 43. Qe3 Qg2 44. Qd3 Qg1+ 45. Kd2 Qf2+ 46. Kd1
+Qb2 47. Ke1 Qc1+ 48. Ke2 Kh6 49. Kf2 Kg7 50. Ke2 Qg1 51. Kd2 Qf2+ 52. Kd1 Qg2
+53. Ke1 Qg1+ 54. Kd2 Qh1 55. Ke2 Qb7 56. Kd2 Qc7 57. Qc2 Qa5+ 58. Ke2 Kf8 59.
+Kf2 Ke7 60. Ke2 Qa8 61. Kf2 Qc6 62. Qd1 f6 63. Ke3 f5 64. Kf2 Qd7 1/2-1/2
+
+[Event "Ciutat de Sabadell op"]
+[Site "Sabadell"]
+[Date "2013.09.10"]
+[Round "9"]
+[White "Kjartansson, G."]
+[Black "Moreno Ruiz, J."]
+[Result "1-0"]
+[ECO "A00"]
+[WhiteElo "2434"]
+[BlackElo "2469"]
+[PlyCount "125"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. g3 Bb4+ 5. Bd2 Bd6 6. Bg2 c6 7. Qc2 Nbd7 8. O-O
+O-O 9. Rd1 Ne4 10. Nc3 f5 11. Bf4 Bxf4 12. gxf4 Qe7 13. e3 Kh8 14. Ne2 Nd6 15.
+b3 Nf6 16. Ne5 Bd7 17. Ng3 Rg8 18. cxd5 exd5 19. Qc5 Be6 20. Nxf5 Nxf5 21. Qxe7
+Nxe7 22. Bh3 g5 23. Bxe6 gxf4+ 24. Bxg8 Rxg8+ 25. Kh1 Ne4 26. Rf1 Nf5 27. Rae1
+Rf8 28. exf4 Nxd4 29. f3 Nd6 30. Nd3 Rf7 31. Kg2 Kg7 32. Kf2 Kf8 33. Rg1 Rf6
+34. Rg4 Rh6 35. h4 N6f5 36. Nc5 b6 37. Nd7+ Kf7 38. Ne5+ Kf8 39. Nd7+ Kf7 40.
+Ne5+ Kf8 41. Reg1 Ke7 42. Rh1 c5 43. h5 b5 44. Re1 Ra6 45. Nc6+ Kf6 46. Nxd4
+Nxd4 47. Rg8 Rxa2+ 48. Kg3 Ne2+ 49. Kg4 d4 50. Rd8 c4 51. bxc4 bxc4 52. Rd6+
+Kf7 53. Rd7+ Kf6 54. Rd6+ Kf7 55. Rb1 Ke7 56. Rh6 Kd7 57. Rb7+ Kc8 58. Rhxh7
+Ng1 59. Rxa7 Rxa7 60. Rxa7 Kb8 61. Ra4 d3 62. Rxc4 Ne2 63. h6 1-0
+
+[Event "Figueres op"]
+[Site "Figueres"]
+[Date "2013.08.12"]
+[Round "2"]
+[White "Kjartansson, G."]
+[Black "Rudolf, A."]
+[Result "1-0"]
+[ECO "D37"]
+[WhiteElo "2434"]
+[BlackElo "2301"]
+[PlyCount "123"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. Nf3 Nf6 5. Bf4 O-O 6. Rc1 Nbd7 7. cxd5 exd5 8.
+e3 c6 9. h3 Re8 10. Bd3 Nf8 11. O-O Ng6 12. Bh2 Bd6 13. Bxd6 Qxd6 14. Qc2 Qe7
+15. Ne2 Ne4 16. Bxe4 dxe4 17. Nd2 Nh4 18. Qc5 Be6 19. b3 Rad8 20. Nf4 Bd5 21.
+Qxe7 Rxe7 22. Rc5 Ng6 23. Nxd5 Rxd5 24. Rfc1 f6 25. b4 Nf8 26. Nc4 Nd7 27. Rxd5
+cxd5 28. Nd6 Nb6 29. Rc5 Rd7 30. Nb5 a6 31. Nc3 Kf7 32. a4 Ke6 33. a5 Nc4 34.
+Nxd5 Rxd5 35. Rxc4 Rb5 36. f3 exf3 37. gxf3 Kd5 38. Rc7 g5 39. Rxh7 Rxb4 40. h4
+Rb3 41. Kf2 gxh4 42. Rxh4 b5 43. axb6 Rxb6 44. Rh5+ Kc4 45. Ra5 Rd6 46. Ke2 Kb4
+47. Ra1 a5 48. Kd3 a4 49. e4 Kb3 50. d5 a3 51. Rb1+ Ka4 52. Kc4 a2 53. Ra1 Ka3
+54. f4 Ra6 55. Kb5 Kb2 56. Rxa2+ Rxa2 57. e5 Kc3 58. e6 Re2 59. Kc5 f5 60. d6
+Ra2 61. e7 Ra5+ 62. Kb6 1-0
+
+[Event "Figueres op"]
+[Site "Figueres"]
+[Date "2013.08.13"]
+[Round "3"]
+[White "Cruz Sanchez, C."]
+[Black "Kjartansson, G."]
+[Result "1/2-1/2"]
+[ECO "D19"]
+[WhiteElo "2498"]
+[BlackElo "2434"]
+[PlyCount "95"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. e3 e6 7. Bxc4 Bb4 8. O-O
+O-O 9. Qe2 Nbd7 10. e4 Bg6 11. Bd3 Bh5 12. e5 Nd5 13. Nxd5 cxd5 14. Qe3 Re8 15.
+Ne1 Bg6 16. Bxg6 hxg6 17. Nd3 Qa5 18. Nxb4 Qxb4 19. b3 Rac8 20. Ba3 Qa5 21.
+Rfc1 Rxc1+ 22. Qxc1 Nb8 23. Bd6 Nc6 24. Qb2 Qa6 25. Rd1 Rc8 26. h4 Na5 27. Bb4
+Qb6 28. Bxa5 Qxa5 29. Rc1 Rxc1+ 30. Qxc1 Qb4 31. Qe3 a6 32. g3 b5 33. axb5 axb5
+34. Kg2 Kh7 35. Kf1 Kg8 36. Qd3 Qa5 37. Kg2 b4 38. Kf3 Qa1 39. Ke2 Qb2+ 40. Kf3
+Kf8 41. Ke3 Ke7 42. Kf3 Kd8 43. Qb5 Qxb3+ 44. Kg2 Qc4 45. Qb8+ Ke7 46. Qd6+ Ke8
+47. Qb8+ Ke7 48. Qd6+ 1/2-1/2
+
+[Event "Figueres op"]
+[Site "Figueres"]
+[Date "2013.08.14"]
+[Round "4"]
+[White "Kjartansson, G."]
+[Black "Antoli Royo, JM."]
+[Result "0-1"]
+[ECO "A37"]
+[WhiteElo "2434"]
+[BlackElo "2409"]
+[PlyCount "130"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. c4 c5 2. g3 Nc6 3. Bg2 g6 4. Nc3 Bg7 5. Nf3 d6 6. O-O e5 7. a3 a5 8. Ne1 Be6
+9. d3 Nge7 10. Nc2 d5 11. cxd5 Nxd5 12. Ne3 Nde7 13. Nc4 O-O 14. Bg5 f6 15. Be3
+b6 16. Qa4 Qc7 17. f4 Rab8 18. fxe5 fxe5 19. Bg5 Nd4 20. e3 Ndf5 21. g4 Nd6 22.
+Nxd6 Qxd6 23. Ne4 Qc7 24. Rxf8+ Rxf8 25. Rf1 Nd5 26. Rxf8+ Kxf8 27. Nc3 Nxc3
+28. bxc3 c4 29. d4 h6 30. Bh4 Bxg4 31. Qb5 Be6 32. Bc6 exd4 33. Bg3 Qe7 34.
+cxd4 Qxa3 35. Kf2 Qa2+ 36. Kf3 c3 37. Be4 Qc4 38. Bd6+ Kf7 39. Qxc4 Bxc4 40.
+Bc7 Bf8 41. Bxb6 Bb4 42. Bc2 Bb5 43. e4 a4 44. d5 a3 45. Bb3 Ba4 46. Ba2 c2 47.
+Be3 Bc3 48. d6+ Ke8 49. Bxh6 Bb2 50. Bg5 Kd7 51. h4 Kxd6 52. Bf4+ Kc5 53. Be3+
+Kb5 54. Kf4 c1=Q 55. Bxc1 Bxc1+ 56. Ke5 Bc2 57. Kd5 Bf4 58. e5 Bxe5 59. Kxe5
+Kb4 60. Kd4 Bf5 61. Bf7 Bb1 62. Be6 Bc2 63. Ba2 Bb3 64. Bb1 Bg8 65. Kd3 Kb3 0-1
+
+[Event "Figueres op"]
+[Site "Figueres"]
+[Date "2013.08.15"]
+[Round "5"]
+[White "Narciso Dublan, M."]
+[Black "Kjartansson, G."]
+[Result "1-0"]
+[ECO "B18"]
+[WhiteElo "2505"]
+[BlackElo "2434"]
+[PlyCount "77"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Bf5 5. Nc5 e5 6. Nxb7 Qb6 7. Nc5 exd4 8.
+Nb3 Bb4+ 9. Bd2 c5 10. Bxb4 Qxb4+ 11. Qd2 Qb6 12. O-O-O Nd7 13. Re1+ Be6 14.
+Nh3 Ngf6 15. Nf4 O-O 16. Nxe6 fxe6 17. Bc4 Rfe8 18. Re2 Kh8 19. Rhe1 e5 20. Qa5
+e4 21. Bb5 Red8 22. Bxd7 Qxa5 23. Nxa5 Rxd7 24. Nb3 Rc8 25. Nd2 d3 26. cxd3
+exd3 27. Re7 Rd5 28. Rxa7 c4 29. Ree7 c3 30. bxc3 Rxc3+ 31. Kd1 Rc8 32. f3 Rg5
+33. g3 Nd5 34. Ne4 Rg6 35. Red7 Ne3+ 36. Ke1 Rh6 37. h4 Nc4 38. Rac7 d2+ 39.
+Ke2 1-0
+
+[Event "Figueres op"]
+[Site "Figueres"]
+[Date "2013.08.15"]
+[Round "6"]
+[White "Kjartansson, G."]
+[Black "Vinardell Cruañas, S."]
+[Result "1-0"]
+[ECO "A37"]
+[WhiteElo "2434"]
+[BlackElo "2165"]
+[PlyCount "59"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. Nf3 c5 2. c4 Nc6 3. g3 e5 4. Nc3 g6 5. Bg2 Bg7 6. O-O d6 7. a3 Nge7 8. b4 e4
+9. Ne1 f5 10. Rb1 O-O 11. Na4 cxb4 12. axb4 Be6 13. d3 exd3 14. exd3 Rb8 15. b5
+Nd4 16. Nc2 Bf7 17. Bb2 Nxc2 18. Qxc2 d5 19. Bxg7 Kxg7 20. Rfe1 Kg8 21. c5 Qd7
+22. d4 f4 23. Qd2 fxg3 24. hxg3 Rfe8 25. Nc3 Nf5 26. Bh3 Be6 27. Re5 Nxd4 28.
+Qxd4 Bxh3 29. Nxd5 Qg7 30. Nf6+ 1-0
+
+[Event "Figueres op"]
+[Site "Figueres"]
+[Date "2013.08.16"]
+[Round "7"]
+[White "Triadu Cassa, J."]
+[Black "Kjartansson, G."]
+[Result "0-1"]
+[ECO "B07"]
+[WhiteElo "2167"]
+[BlackElo "2434"]
+[PlyCount "60"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Be3 c6 5. Qd2 Nbd7 6. Nf3 Qc7 7. h3 Bg7 8. Bd3
+O-O 9. Ne2 e5 10. Ng3 exd4 11. Nxd4 Re8 12. O-O Nc5 13. f3 d5 14. Nde2 dxe4 15.
+Bxc5 exd3 16. cxd3 Nd5 17. Bf2 f5 18. Nc3 Be6 19. Nxd5 Bxd5 20. Ne2 Rad8 21.
+Nc3 Bc4 22. Rfe1 Rxe1+ 23. Rxe1 Rxd3 24. Re8+ Kf7 25. Qe1 Qd7 26. Re3 b6 27.
+Rxd3 Qxd3 28. Bh4 Bd4+ 29. Kh2 Qe3 30. Qd1 h6 0-1
+
+[Event "Figueres op"]
+[Site "Figueres"]
+[Date "2013.08.17"]
+[Round "8"]
+[White "Kjartansson, G."]
+[Black "Lorenzo de la Riva, L."]
+[Result "0-1"]
+[ECO "A26"]
+[WhiteElo "2434"]
+[BlackElo "2449"]
+[PlyCount "128"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. c4 g6 2. g3 Bg7 3. Bg2 e5 4. Nc3 d6 5. e4 Nc6 6. Nge2 Be6 7. d3 Qd7 8. Nd5
+Nce7 9. d4 c6 10. Nxe7 Nxe7 11. d5 Bh3 12. O-O h5 13. f3 Bxg2 14. Kxg2 cxd5 15.
+cxd5 h4 16. g4 h3+ 17. Kh1 f5 18. Ng3 O-O-O 19. Bg5 fxg4 20. fxg4 Rdf8 21. Qe2
+Kb8 22. Rxf8+ Bxf8 23. Bf6 Rg8 24. Rc1 Nc8 25. Rc3 Be7 26. Bxe7 Qxe7 27. Kg1
+Nb6 28. Nh1 Na4 29. Rxh3 Qg5 30. Nf2 Rc8 31. Qb5 Nb6 32. Rh7 Qf4 33. Re7 Rc1+
+34. Kg2 Rc2 35. Re8+ Nc8 36. Qf1 Qxg4+ 37. Kh1 Qf4 38. Kg2 Qxe4+ 39. Kg1 Qf4
+40. Kg2 Qe4+ 41. Kg1 Qxd5 42. Qe1 Qf7 43. Rh8 Qf6 44. Rh3 d5 45. Ng4 Qb6+ 46.
+Kh1 e4 47. Rc3 Qxb2 48. Qg3+ Ka8 49. Rxc2 Qxc2 50. Nf6 Qb1+ 51. Qg1 Qxg1+ 52.
+Kxg1 Ne7 53. Kf2 Kb8 54. Ke3 Kc7 55. Kf4 Kd6 56. Ne8+ Kd7 57. Ng7 b5 58. Ke5 e3
+59. Ne6 Nc6+ 60. Kf6 e2 61. Nc5+ Kd6 62. Nd3 Ne5 63. Ne1 d4 64. h4 d3 0-1
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2013.06.26"]
+[Round "2"]
+[White "Rishi, S."]
+[Black "Kjartansson, G."]
+[Result "1/2-1/2"]
+[ECO "B09"]
+[WhiteElo "2308"]
+[BlackElo "2453"]
+[PlyCount "101"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. f4 Bg7 5. Nf3 O-O 6. Bd3 Na6 7. O-O c5 8. d5
+Bg4 9. h3 Bxf3 10. Qxf3 Nb4 11. a3 Nxd3 12. Qxd3 Qc7 13. Be3 b6 14. Bf2 Nh5 15.
+Bh4 Bf6 16. Bxf6 Nxf6 17. Rae1 Nd7 18. Kh1 a6 19. a4 f6 20. Qg3 Kh8 21. h4 Rg8
+22. Ne2 b5 23. axb5 axb5 24. Ng1 Ra2 25. Qb3 Qa5 26. Nf3 Qa4 27. Qxa4 bxa4 28.
+Ra1 Rxb2 29. Rxa4 Rgb8 30. Ra7 R8b7 31. Rfa1 Kg7 32. Nd2 Kf7 33. Nc4 R2b4 34.
+Rxb7 Rxb7 35. c3 h6 36. Ra6 g5 37. hxg5 hxg5 38. g3 Kg6 39. Kg2 gxf4 40. gxf4
+Kh5 41. Kf3 Rb3 42. Ra3 Rxa3 43. Nxa3 f5 44. e5 Nb6 45. exd6 exd6 46. Nb5 Nxd5
+47. c4 Nb6 48. Nxd6 Kg6 49. Nb7 Nxc4 50. Nxc5 Nd2+ 51. Ke3 1/2-1/2
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2013.06.27"]
+[Round "3"]
+[White "Kjartansson, G."]
+[Black "Martinez Ramirez, E."]
+[Result "0-1"]
+[ECO "A16"]
+[WhiteElo "2453"]
+[BlackElo "2306"]
+[PlyCount "98"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. c4 Nf6 2. g3 g6 3. Bg2 d5 4. cxd5 Nxd5 5. Nc3 Nb6 6. d3 Bg7 7. Be3 Nc6 8.
+Rc1 Nd4 9. Qd2 c6 10. Bh6 O-O 11. Bxg7 Kxg7 12. e3 Ne6 13. d4 Nc7 14. Nf3 Re8
+15. b3 a5 16. h4 h5 17. Ne4 a4 18. O-O Ra7 19. Qb2 f6 20. Nc5 a3 21. Qc2 Bf5
+22. e4 Bg4 23. Qc3 Nb5 24. Qb4 Nd7 25. d5 e5 26. Nxb7 Rxb7 27. dxc6 Rb6 28.
+cxd7 Qxd7 29. Nh2 Rd6 30. Rfe1 Rd2 31. Nxg4 hxg4 32. Qa4 Qd4 33. Re3 Qb2 34.
+Rf1 Rb8 35. Qa6 Rd6 36. Qa5 Qxa2 37. Rc1 Qd2 38. Qxd2 Rxd2 39. Bf1 a2 40. Bxb5
+Rxb5 41. Ra1 Rb2 42. Kf1 Rc5 43. Re2 Rcc2 44. Rxc2 Rxc2 45. Kg2 Rb2 46. b4 Kf7
+47. Rc1 Rb1 48. Rc7+ Ke6 49. Rc6+ Kd7 0-1
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2013.06.29"]
+[Round "5"]
+[White "Kjartansson, G."]
+[Black "Laxman, RR."]
+[Result "0-1"]
+[ECO "A13"]
+[WhiteElo "2453"]
+[BlackElo "2397"]
+[PlyCount "88"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. Nf3 Nf6 2. c4 e6 3. g3 d5 4. Bg2 dxc4 5. Qc2 c6 6. Ne5 Bd6 7. Nxc4 Bc7 8. b3
+O-O 9. Bb2 Re8 10. d3 e5 11. Nbd2 Bg4 12. h3 Bh5 13. e4 Na6 14. Bc3 b5 15. Ne3
+Nc5 16. Bf1 Qd7 17. g4 Bg6 18. Nf3 Nfxe4 19. dxe4 Bxe4 20. Rd1 Qe7 21. Qe2 Rad8
+22. Bg2 Nd3+ 23. Rxd3 Rxd3 24. Qb2 Qc5 25. Bd2 Red8 26. Qc1 Qd6 27. Bc3 Qf6 28.
+Ke2 Qf4 29. Nh4 Bb6 30. Bxe4 Qxe4 31. Nhf5 Bxe3 32. Nxe3 Rxc3 33. Qxc3 Qxh1 34.
+Qxe5 Qxh3 35. Qe7 Rf8 36. f3 Qh2+ 37. Kf1 Qxa2 38. Nf5 Qxb3 39. Qg5 Qxf3+ 40.
+Kg1 Qd1+ 41. Kh2 Qc2+ 42. Kg1 Qb1+ 43. Kh2 Qb2+ 44. Kh1 Qc3 0-1
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2013.07.01"]
+[Round "7"]
+[White "Kjartansson, G."]
+[Black "Del Rey Santos, D."]
+[Result "1-0"]
+[ECO "C41"]
+[WhiteElo "2453"]
+[BlackElo "2376"]
+[PlyCount "89"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 Nbd7 4. Nf3 e5 5. Bc4 Be7 6. O-O exd4 7. Qxd4 Nb6 8.
+Bb3 O-O 9. h3 a5 10. a4 Nbd7 11. Be3 Nc5 12. Qd2 Nxb3 13. cxb3 c5 14. Rad1 Be6
+15. Qc2 Rc8 16. Nb5 d5 17. exd5 Nxd5 18. Qe4 Nf6 19. Qxb7 Bd5 20. Qa7 Ra8 21.
+Qc7 Qxc7 22. Nxc7 Bxb3 23. Nxa8 Bxd1 24. Rxd1 Rxa8 25. Ne5 Ra6 26. Rc1 Ne4 27.
+f3 Re6 28. Nc4 Ng3 29. Rc2 h5 30. Bf2 h4 31. Bxg3 hxg3 32. Kf1 Ra6 33. Re2 Ra7
+34. Re5 f6 35. Re3 g5 36. Ke2 Kf7 37. f4 gxf4 38. Rd3 Bf8 39. Kf3 Bh6 40. Rd5
+Re7 41. Rxc5 Re1 42. Nd6+ Kg6 43. Nf5 Rf1+ 44. Kg4 Rf2 45. Rc7 1-0
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2013.07.02"]
+[Round "8"]
+[White "Panelo Muñoz, MA."]
+[Black "Kjartansson, G."]
+[Result "1-0"]
+[ECO "D17"]
+[WhiteElo "2428"]
+[BlackElo "2453"]
+[PlyCount "47"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. Ne5 Nbd7 7. Nxc4 Qc7 8.
+g3 e5 9. dxe5 Nxe5 10. Bf4 Nfd7 11. Bg2 g5 12. Bxe5 Nxe5 13. Qd4 f6 14. h4 gxh4
+15. Rxh4 Be7 16. Ne3 Be6 17. a5 Qd7 18. Qe4 Ng6 19. Rh5 O-O-O 20. Rd1 Bd6 21.
+a6 bxa6 22. Nc4 Bxc4 23. Bh3 Bf7 24. Rxd6 1-0
+
+[Event "Montcada op"]
+[Site "Montcada i Reixac"]
+[Date "2013.07.03"]
+[Round "9"]
+[White "Kjartansson, G."]
+[Black "Cori Quispe, K."]
+[Result "1-0"]
+[ECO "A13"]
+[WhiteElo "2453"]
+[BlackElo "2088"]
+[PlyCount "87"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. g3 Nf6 2. Bg2 e6 3. Nf3 a6 4. c4 b5 5. b3 Bb7 6. O-O c5 7. Na3 Qb6 8. Bb2
+Be7 9. e3 O-O 10. Qe2 Bc6 11. d3 d6 12. e4 Qb7 13. Rab1 Nbd7 14. Nc2 Rab8 15.
+Ne3 Rfe8 16. Ng5 h6 17. Nh3 Nb6 18. f4 d5 19. cxd5 exd5 20. e5 Nh7 21. Nf5 Bf8
+22. d4 c4 23. Rbd1 b4 24. Qf2 Rbc8 25. Ne3 cxb3 26. axb3 a5 27. f5 Rcd8 28. Nf4
+a4 29. bxa4 Nxa4 30. Rc1 Nb6 31. h4 b3 32. Rc3 Na4 33. Rxc6 Qxc6 34. Bxd5 Rxd5
+35. Nfxd5 Rd8 36. Rc1 Qa8 37. Ra1 Qc6 38. e6 Bd6 39. Rc1 Qb7 40. e7 Re8 41. f6
+gxf6 42. Qf5 h5 43. Qxh5 Nxb2 44. Qg4+ 1-0
+
+[Event "Sants Hostafrancs i La Bordeta op A"]
+[Site "Barcelona"]
+[Date "2013.08.27"]
+[Round "5"]
+[White "Kjartansson, G."]
+[Black "Gustafsson, J."]
+[Result "0-1"]
+[ECO "A37"]
+[PlyCount "130"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+
+1. c4 c5 2. g3 g6 3. Bg2 Bg7 4. Nc3 Nc6 5. Nf3 d6 6. O-O Bf5 7. d3 Qd7 8. Re1
+Nf6 9. Bd2 O-O 10. a3 Bh3 11. Bh1 h6 12. Rb1 Rac8 13. b4 b6 14. b5 Nd8 15. a4
+Nb7 16. Qc2 e6 17. e4 Ng4 18. Bg2 Bxg2 19. Kxg2 f5 20. h3 Ne5 21. Nxe5 dxe5 22.
+exf5 gxf5 23. Rbd1 Nd6 24. Bc1 Qb7+ 25. f3 Kh7 26. Bb2 Bf6 27. Qe2 Rg8 28. Kh2
+Rg6 29. Rg1 Rcg8 30. Rg2 e4 31. dxe4 Qg7 32. exf5 Rxg3 33. Rdg1 Bd4 34. Ne4
+Rxg2+ 35. Rxg2 Qe5+ 36. Ng3 Bxb2 37. Qxb2 Nxc4 38. Qxe5 Nxe5 39. fxe6 Nxf3+ 40.
+Kh1 Re8 41. Nh5 Rxe6 42. Rg7+ Kh8 43. Kg2 Rg6+ 44. Rxg6 Nh4+ 45. Kf1 Nxg6 46.
+Nf6 Kg7 47. Ne8+ Kf7 48. Nd6+ Ke6 49. Nc8 Kd7 50. Nxa7 Ne7 51. Ke2 Kc7 52. Kd3
+Kb7 53. Nc6 Nxc6 54. bxc6+ Kxc6 55. Kc4 h5 56. h4 Kd6 57. Kb5 Kc7 58. a5 bxa5
+59. Kxc5 Kd7 60. Kb5 Ke6 61. Kxa5 Kf5 62. Kb4 Kg4 63. Kc3 Kxh4 64. Kd2 Kg3 65.
+Ke2 Kg2 0-1

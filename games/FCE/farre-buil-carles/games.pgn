@@ -1,0 +1,455 @@
+[Event "Barcelona Primavera La Lira op 10th"]
+[Site "Barcelona"]
+[Date "2017.04.20"]
+[Round "1"]
+[White "Febrero Perez, Lluis"]
+[Black "Farre Buil, Carles"]
+[Result "1/2-1/2"]
+[ECO "B51"]
+[WhiteElo "1518"]
+[BlackElo "1862"]
+[PlyCount "105"]
+[EventDate "2017.04.20"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. O-O Ngf6 5. d3 a6 6. Ba4 b5 7. Bb3 Bb7 8.
+Nbd2 e6 9. c3 Be7 10. Bc2 O-O 11. Re1 Qc7 12. Nf1 h6 13. Bf4 e5 14. Bd2 d5 15.
+exd5 Nxd5 16. Ne3 Rfe8 17. d4 N5f6 18. Nf5 Bf8 19. dxe5 Nxe5 20. Nxe5 Rxe5 21.
+Re3 Rxe3 22. Bxe3 Rd8 23. Qe2 Qc6 24. f3 Qe6 25. Qf2 Re8 26. Qg3 Kh8 27. Kh1
+Qc6 28. Rd1 Bc8 29. Rd6 Nh5 30. Rxc6 Nxg3+ 31. hxg3 Bxf5 32. Bxf5 Rxe3 33. Rc8
+Re1+ 34. Kh2 Kg8 35. Bh7+ Kxh7 36. Rxf8 Re2 37. Ra8 Rxb2 38. Rxa6 Rc2 39. Ra5
+b4 40. Rxc5 Rxc3 41. Rb5 Rc4 42. g4 g5 43. Kg3 Rc2 44. Rxb4 Rxa2 45. Kh3 Ra3
+46. Kg3 Kg6 47. Rb5 Ra4 48. Kh3 Rf4 49. Kg3 h5 50. gxh5+ Kxh5 51. Kh3 f6 52.
+g4+ Kg6 53. Kg3 1/2-1/2
+
+[Event "Barcelona Primavera La Lira op 10th"]
+[Site "Barcelona"]
+[Date "2017.05.04"]
+[Round "3"]
+[White "Farre Buil, Carles"]
+[Black "Santolaria Sanz, Xavier"]
+[Result "1-0"]
+[ECO "B00"]
+[WhiteElo "1862"]
+[BlackElo "1644"]
+[PlyCount "61"]
+[EventDate "2017.04.20"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 b6 3. Bd3 Bb7 4. Nc3 Nf6 5. Nge2 Be7 6. O-O O-O 7. e5 Ne8 8. Ne4
+f5 9. exf6 Nxf6 10. N2g3 Nc6 11. c3 a5 12. Re1 Ba6 13. Bc2 Qe8 14. Nxf6+ Rxf6
+15. Nh5 Rf7 16. Qg4 Kh8 17. Qe4 Qg8 18. Bf4 Bd6 19. Re3 Raf8 20. Bxd6 cxd6 21.
+Rh3 d5 22. Qh4 g6 23. f3 gxh5 24. Qxh5 Rg7 25. g3 Rg5 26. Qh4 Rxf3 27. Bxh7
+Rgxg3+ 28. hxg3 Rxg3+ 29. Rxg3 Qxh7 30. Qxh7+ Kxh7 31. Kg2 1-0
+
+[Event "Barcelona Primavera La Lira op 10th"]
+[Site "Barcelona"]
+[Date "2017.05.11"]
+[Round "4"]
+[White "Volart Buil, Jordi"]
+[Black "Farre Buil, Carles"]
+[Result "1-0"]
+[ECO "D93"]
+[WhiteElo "1762"]
+[BlackElo "1862"]
+[PlyCount "55"]
+[EventDate "2017.04.20"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Bf4 O-O 6. e3 c5 7. dxc5 Qa5 8. Qa4
+Qxc5 9. b4 Qb6 10. c5 Qd8 11. Bxb8 Rxb8 12. Rc1 a6 13. Be2 Bd7 14. Qb3 e6 15.
+O-O Qe7 16. Nd4 Rfc8 17. Bf3 b6 18. cxb6 Rxb6 19. b5 Rcb8 20. Na4 R6b7 21. Nc5
+Rb6 22. a4 axb5 23. a5 e5 24. axb6 exd4 25. Nxd7 Qxd7 26. Rc7 Qd6 27. Qxb5 Qxb6
+28. Rc8+ 1-0
+
+[Event "Barcelona Primavera La Lira op 10th"]
+[Site "Barcelona"]
+[Date "2017.05.18"]
+[Round "5"]
+[White "Farre Buil, Carles"]
+[Black "Gonzalez Canovas, Sebastian"]
+[Result "1-0"]
+[ECO "B08"]
+[WhiteElo "1862"]
+[BlackElo "1661"]
+[PlyCount "81"]
+[EventDate "2017.04.20"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c6 2. Nf3 d6 3. d4 g6 4. Nc3 Bg7 5. Be2 Nf6 6. Bg5 Qc7 7. h3 O-O 8. Qd2
+e5 9. dxe5 dxe5 10. O-O-O b5 11. Qe3 Be6 12. Kb1 Nbd7 13. Nd2 a5 14. Nb3 a4 15.
+Nc5 Qa7 16. Nxd7 Nxd7 17. Bf3 Nb6 18. Qc5 Nd5 19. Qxa7 Nxc3+ 20. bxc3 Rxa7 21.
+Rd6 Rc7 22. Be3 Re8 23. Bb6 Rcc8 24. Bg4 Bxg4 25. hxg4 Bf8 26. Rd7 Re7 27. Rhd1
+Rxd7 28. Rxd7 Kg7 29. Bc7 Kf6 30. Bd6 Bxd6 31. Rxd6+ Ke7 32. Rd3 Rd8 33. Rxd8
+Kxd8 34. Kb2 Ke7 35. Ka3 Kd6 36. Kb4 a3 37. g5 Kc7 38. Kxa3 c5 39. c4 bxc4 40.
+Kb2 Kb6 41. Kc3 1-0
+
+[Event "Barcelona Primavera La Lira op 10th"]
+[Site "Barcelona"]
+[Date "2017.05.25"]
+[Round "6"]
+[White "Farre Buil, Carles"]
+[Black "Morales Montalban, Miguel"]
+[Result "1/2-1/2"]
+[ECO "B21"]
+[WhiteElo "1862"]
+[BlackElo "2074"]
+[PlyCount "81"]
+[EventDate "2017.04.20"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. d4 cxd4 3. c3 dxc3 4. Nxc3 d6 5. Bc4 Nc6 6. Nf3 Nf6 7. e5 dxe5 8.
+Qxd8+ Nxd8 9. Nb5 Rb8 10. Nxe5 e6 11. Nc7+ Ke7 12. Nb5 a6 13. Nd4 Nd7 14. Bf4
+Nxe5 15. Bxe5 Ra8 16. O-O f6 17. Bc7 Bd7 18. Rfe1 Rc8 19. Bxd8+ Kxd8 20. Nxe6+
+Bxe6 21. Bxe6 Rc2 22. Rad1+ Kc7 23. Rc1 Rc5 24. Bf7 Rxc1 25. Rxc1+ Kd7 26. Bd5
+b6 27. Bb7 a5 28. Rc8 g6 29. Kf1 Bg7 30. Rxh8 Bxh8 31. Ke2 Kd6 32. Kd3 f5 33.
+b3 Be5 34. h3 Bb2 35. a4 Ke5 36. Ba6 Kf4 37. Bc4 Ba3 38. Ke2 Bc5 39. f3 g5 40.
+Kf1 h5 41. Be2 1/2-1/2
+
+[Event "Barcelona Primavera La Lira op 10th"]
+[Site "Barcelona"]
+[Date "2017.06.01"]
+[Round "7"]
+[White "Romero Funieles, Rafael de Jesus"]
+[Black "Farre Buil, Carles"]
+[Result "0-1"]
+[ECO "B50"]
+[WhiteElo "1704"]
+[BlackElo "1862"]
+[PlyCount "66"]
+[EventDate "2017.04.20"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. Bc4 Nc6 4. a3 Nf6 5. Nc3 e6 6. d3 Be7 7. h3 O-O 8. Be3 d5
+9. exd5 exd5 10. Bb5 d4 11. Bxc6 bxc6 12. Bd2 dxc3 13. Bxc3 Nd5 14. Bd2 Bf6 15.
+Qc1 Re8+ 16. Be3 Nxe3 17. fxe3 Qa5+ 18. Kf2 Rb8 19. Rb1 Be6 20. c4 Rb3 21. Nd2
+Rxd3 22. Nf3 g6 23. Rf1 Bf5 24. Kg1 Rdxe3 25. b4 Qxa3 26. bxc5 Bxb1 27. Qxb1
+Qxc5 28. Kh1 Qe7 29. Qc1 Bc3 30. c5 Rxf3 31. gxf3 Qe1 32. Rxe1 Rxe1+ 33. Qxe1
+Bxe1 0-1
+
+[Event "Barcelona Primavera La Lira op 10th"]
+[Site "Barcelona"]
+[Date "2017.06.08"]
+[Round "8"]
+[White "Rojas Fernandez, Andres"]
+[Black "Farre Buil, Carles"]
+[Result "1/2-1/2"]
+[ECO "B24"]
+[WhiteElo "1991"]
+[BlackElo "1862"]
+[PlyCount "72"]
+[EventDate "2017.04.20"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nc3 Nc6 3. g3 e5 4. Bg2 Nf6 5. d3 Be7 6. Nge2 d6 7. O-O Nd4 8. h3
+O-O 9. f4 Bd7 10. Be3 Bc6 11. Qd2 Qd7 12. g4 Ne8 13. Ng3 g6 14. f5 Bh4 15. Nce2
+Nxe2+ 16. Nxe2 f6 17. c4 gxf5 18. gxf5 Kh8 19. Kh2 Rg8 20. Bf3 Qf7 21. Rg1 Nc7
+22. Nc3 Rxg1 23. Rxg1 Rg8 24. Rxg8+ Qxg8 25. Qg2 Qxg2+ 26. Kxg2 Kg7 27. Bh5 Be1
+28. Ne2 b5 29. b3 b4 30. Kf1 Bh4 31. Ng1 h6 32. Nf3 Bg5 33. Nxg5 hxg5 34. Kg2
+a5 35. Bd1 Be8 36. Kg3 Bf7 1/2-1/2
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.13"]
+[Round "1"]
+[White "Sama Salinas, Hector"]
+[Black "Farre Buil, Carles"]
+[Result "1-0"]
+[ECO "B23"]
+[WhiteElo "2205"]
+[BlackElo "1856"]
+[PlyCount "67"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nc3 Nc6 3. Bb5 Nd4 4. Nf3 Nxb5 5. Nxb5 d6 6. O-O e5 7. d3 Be7 8.
+Nd2 Nf6 9. a4 O-O 10. Nc4 a6 11. Nc3 Qc7 12. a5 Be6 13. Nb6 Rad8 14. Bg5 Rde8
+15. Bxf6 Bxf6 16. Ncd5 Qd8 17. c4 Bg5 18. Qa4 f5 19. b4 cxb4 20. Qxb4 fxe4 21.
+dxe4 Rf7 22. Rad1 Ref8 23. c5 dxc5 24. Qxc5 Qb8 25. f3 Bd8 26. Nc4 Bc7 27. Rb1
+Rc8 28. Qb4 Rd7 29. Rfd1 Bd8 30. Nce3 Qa7 31. Kh1 Qc5 32. Qb2 Qxa5 33. Qxe5
+Bxd5 34. Qe8# 1-0
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.14"]
+[Round "2"]
+[White "Farre Buil, Carles"]
+[Black "Garcia Espelta, Josep"]
+[Result "1/2-1/2"]
+[ECO "B21"]
+[WhiteElo "1856"]
+[BlackElo "2052"]
+[PlyCount "43"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. d4 cxd4 3. c3 dxc3 4. Nxc3 Nc6 5. Nf3 e6 6. Bc4 a6 7. O-O b5 8. Bb3
+Bb7 9. Qe2 Nge7 10. Bg5 f6 11. Be3 Ng6 12. Rfd1 Qb8 13. Qd2 Bc8 14. Rac1 Be7
+15. Nd4 Nxd4 16. Qxd4 O-O 17. f4 Nxf4 18. Bxf4 Qxf4 19. Nd5 Qd6 20. Nb6 Qb8 21.
+Nxd7 Bxd7 22. Qxd7 1/2-1/2
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.15"]
+[Round "3"]
+[White "Boixader Arbo, Xavier"]
+[Black "Farre Buil, Carles"]
+[Result "1-0"]
+[ECO "B53"]
+[WhiteElo "2099"]
+[BlackElo "1856"]
+[PlyCount "103"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Qxd4 Nc6 5. Bb5 Qd7 6. Qd3 a6 7. Bxc6 bxc6 8.
+b3 e5 9. O-O Nf6 10. c4 Qc7 11. Nc3 Be7 12. h3 O-O 13. Be3 Ne8 14. c5 a5 15.
+Rfd1 Ba6 16. Qc2 Nf6 17. Na4 dxc5 18. Bxc5 Bxc5 19. Nxc5 Rfe8 20. Rac1 Bb7 21.
+Qc4 Rac8 22. Re1 h6 23. Qc3 Ba8 24. Nh4 g6 25. Nf3 Rcd8 26. Qe3 Kg7 27. Rc4 Nd7
+28. Rec1 Nb6 29. R4c2 Rd6 30. Qc3 Nd7 31. Qb2 f6 32. Qa3 Nf8 33. Na6 Qd8 34.
+Rc5 Rd1+ 35. Rxd1 Qxd1+ 36. Kh2 Qd6 37. Rxa5 Qxa3 38. Rxa3 Ne6 39. b4 Bb7 40.
+Nc5 Nxc5 41. bxc5 Ra8 42. Rxa8 Bxa8 43. Nd2 Kf7 44. Nc4 Ke7 45. Nd6 Ke6 46. Kg3
+f5 47. Kf3 f4 48. g3 fxg3 49. fxg3 h5 50. g4 Kd7 51. gxh5 gxh5 52. Kg3 1-0
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.16"]
+[Round "4"]
+[White "Farre Buil, Carles"]
+[Black "Nadal Fajardo, Ricard"]
+[Result "1/2-1/2"]
+[ECO "B21"]
+[WhiteElo "1856"]
+[BlackElo "2027"]
+[PlyCount "64"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. d4 cxd4 3. c3 d3 4. Qxd3 Nc6 5. Nf3 d6 6. Be2 Nf6 7. O-O g6 8. Bf4
+Bg7 9. Nbd2 O-O 10. h3 h6 11. Nc4 b5 12. Ne3 a6 13. Bh2 Bb7 14. Rad1 Qa5 15.
+Qb1 Rac8 16. e5 Nxe5 17. Nxe5 dxe5 18. Bxe5 Rfd8 19. Rxd8+ Rxd8 20. Rd1 Rxd1+
+21. Bxd1 Be4 22. Bc2 Bxc2 23. Nxc2 Nd5 24. Bxg7 Kxg7 25. a3 Qa4 26. Nd4 Qc4 27.
+Qe1 a5 28. Qe2 Qxe2 29. Nxe2 e5 30. b3 Nb6 31. Nc1 a4 32. bxa4 Nxa4 1/2-1/2
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.17"]
+[Round "5"]
+[White "Claramunt Bassegoda, Marcel"]
+[Black "Farre Buil, Carles"]
+[Result "1-0"]
+[ECO "B23"]
+[WhiteElo "1977"]
+[BlackElo "1856"]
+[PlyCount "47"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nc3 Nc6 3. f4 d6 4. Nf3 Qc7 5. Bc4 e6 6. O-O Nf6 7. d3 Be7 8. Qe1
+O-O 9. f5 Na5 10. Bb3 Nxb3 11. axb3 exf5 12. Qh4 Nxe4 13. Nd5 Bxh4 14. Nxc7 Bd8
+15. Nxa8 Nf6 16. Bf4 Ne8 17. Nd2 g5 18. Bg3 a6 19. Nc4 f4 20. Bf2 Be6 21. d4 d5
+22. Na5 Bc8 23. dxc5 Nf6 24. Nb6 1-0
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.18"]
+[Round "6"]
+[White "Farre Buil, Carles"]
+[Black "Prats Gaudo, Oscar"]
+[Result "1/2-1/2"]
+[ECO "B03"]
+[WhiteElo "1856"]
+[BlackElo "2015"]
+[PlyCount "63"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. c4 Nb6 5. exd6 exd6 6. Nc3 Be7 7. Be3 Nc6 8. b3
+Bf5 9. Nf3 O-O 10. Be2 Re8 11. O-O Bf6 12. Rc1 d5 13. cxd5 Nxd5 14. Nxd5 Qxd5
+15. Rc5 Qd7 16. d5 Ne7 17. Bb5 c6 18. dxc6 bxc6 19. Qxd7 Bxd7 20. Ba4 Rec8 21.
+Bd4 Bxd4 22. Nxd4 a5 23. Re1 Kf8 24. Kf1 g6 25. Rec1 Ra6 26. Nf3 f6 27. Rd1 Be6
+28. Nd4 Bd5 29. Nc2 Kf7 30. Ne3 Ke6 31. Nxd5 Nxd5 32. Bxc6 1/2-1/2
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.19"]
+[Round "7"]
+[White "Vazquez Moreno, Josep Maria"]
+[Black "Farre Buil, Carles"]
+[Result "1-0"]
+[ECO "B78"]
+[WhiteElo "1991"]
+[BlackElo "1856"]
+[PlyCount "71"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 Nc6 8. Qd2
+O-O 9. Bc4 Bd7 10. O-O-O Rb8 11. Bb3 Ne5 12. h4 b5 13. Qe2 b4 14. Nd5 Nh5 15.
+Bg5 Re8 16. f4 Nc6 17. Nxc6 Bxc6 18. Qc4 Bxd5 19. Qxd5 e6 20. Qd3 Qb6 21. g4
+Nf6 22. Bxf6 Bxf6 23. g5 Bg7 24. f5 Bf8 25. f6 Qc5 26. Qf3 h5 27. gxh6 Bxh6+
+28. Kb1 Qe5 29. Rdg1 Kh7 30. Rg5 Qd4 31. Ba4 Red8 32. h5 Bxg5 33. hxg6+ Kxg6
+34. Qh5+ Kxf6 35. Rf1+ Ke7 36. Qxf7# 1-0
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.20"]
+[Round "8"]
+[White "Farre Buil, Carles"]
+[Black "Vigo Allepuz, David"]
+[Result "0-1"]
+[ECO "C06"]
+[WhiteElo "1856"]
+[BlackElo "2104"]
+[PlyCount "28"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 f6 8. exf6
+Qxf6 9. Nf3 cxd4 10. cxd4 Bd6 11. Bg5 Qf7 12. O-O O-O 13. Rc1 Qh5 14. Qd2 Rxf3
+0-1
+
+[Event "Sants op Hostafrancs i La Bordeta op"]
+[Site "Barcelona"]
+[Date "2014.08.22"]
+[Round "1.72"]
+[White "Ekeberg, CF."]
+[Black "Farre Buil, C."]
+[Result "1/2-1/2"]
+[ECO "A38"]
+[WhiteElo "2294"]
+[BlackElo "1908"]
+[PlyCount "73"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[Source "Mark Crowther"]
+[SourceDate "2014.09.01"]
+
+1. c4 Nf6 2. Nf3 g6 3. Nc3 Bg7 4. g3 c5 5. Bg2 Nc6 6. d4 cxd4 7. Nxd4 O-O 8.
+O-O Qb6 9. Nb3 d6 10. Nd5 Nxd5 11. cxd5 Na5 12. Nd2 Bd7 13. Rb1 Rfc8 14. b3 Qc7
+15. Bb2 Qc2 16. Be4 Qxd1 17. Rfxd1 Bb5 18. Kf1 f5 19. Bd3 Bxd3 20. exd3 b5 21.
+b4 Bxb2 22. Rxb2 Nb7 23. Nf3 a6 24. Nd4 Nd8 25. a4 bxa4 26. Ra1 Kf7 27. Rxa4 e5
+28. dxe6+ Nxe6 29. Nxe6 Kxe6 30. Rba2 Rc1+ 31. Ke2 Rb1 32. Rxa6 Rxa6 33. Rxa6
+Rxb4 34. Ra7 h5 35. Rg7 Kf6 36. Rd7 Ke6 37. Rg7 1/2-1/2

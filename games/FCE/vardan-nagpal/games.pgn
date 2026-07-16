@@ -1,0 +1,114 @@
+[Event "Montcada op-A 25th"]
+[Site "Montcada"]
+[Date "2017.06.26"]
+[Round "1"]
+[White "Vardan, Nagpal"]
+[Black "Santos Ruiz, Miguel"]
+[Result "1/2-1/2"]
+[ECO "D36"]
+[WhiteElo "2129"]
+[BlackElo "2473"]
+[PlyCount "75"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. cxd5 exd5 5. Nc3 c6 6. Qc2 g6 7. Bg5 Be7 8. e3
+Bf5 9. Bd3 Bxd3 10. Qxd3 Nbd7 11. h3 O-O 12. Bf4 Re8 13. O-O Bf8 14. Qc2 a5 15.
+Rae1 Qb6 16. Ne5 Nxe5 17. Bxe5 Nd7 18. Bg3 Re6 19. Rd1 f5 20. Ne2 Rae8 21. Nf4
+Re4 22. Nd3 Bg7 23. Rb1 g5 24. b4 f4 25. bxa5 Qa6 26. exf4 Rxd4 27. Ne5 gxf4
+28. Nxd7 fxg3 29. Qf5 Qe2 30. Nf6+ Bxf6 31. Qxf6 Qe5 32. Qxe5 Rxe5 33. Rxb7 Re2
+34. a6 Rxa2 35. fxg3 Rdd2 36. Rff7 Rxg2+ 37. Kf1 Rh2 38. Rg7+ 1/2-1/2
+
+[Event "Montcada op-A 25th"]
+[Site "Montcada"]
+[Date "2017.06.30"]
+[Round "5"]
+[White "Vardan, Nagpal"]
+[Black "Ojas, Kulkarni"]
+[Result "1/2-1/2"]
+[ECO "D80"]
+[WhiteElo "2129"]
+[BlackElo "2351"]
+[PlyCount "42"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Bg5 Bg7 5. Bxf6 Bxf6 6. cxd5 c6 7. Rc1 O-O 8.
+dxc6 Bxd4 9. c7 Bxc3+ 10. Rxc3 Qxd1+ 11. Kxd1 Nc6 12. e3 Bd7 13. Nf3 Rac8 14.
+Bb5 Rxc7 15. Ke2 a6 16. Ba4 Rfc8 17. Rhc1 f6 18. Bb3+ Kf8 19. Nd2 Bf5 20. f3 h5
+21. Re1 Rd8 1/2-1/2
+
+[Event "Montcada op-A 25th"]
+[Site "Montcada"]
+[Date "2017.07.01"]
+[Round "7"]
+[White "Vardan, Nagpal"]
+[Black "Perez Mitjans, Orelvis"]
+[Result "1/2-1/2"]
+[ECO "A49"]
+[WhiteElo "2129"]
+[BlackElo "2413"]
+[PlyCount "56"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. Nf3 g6 2. d4 Nf6 3. g3 Bg7 4. Bg2 c5 5. c3 Qc7 6. O-O O-O 7. Re1 cxd4 8.
+cxd4 d5 9. Nc3 Qb6 10. Na4 Qd8 11. Bf4 Ne4 12. Rc1 Nc6 13. Ne5 Nxe5 14. Bxe5
+Bh6 15. Bf4 Bxf4 16. gxf4 Qd6 17. e3 h5 18. Nc3 Nxc3 19. Rxc3 Bf5 20. Qb3 e6
+21. Rec1 b6 22. Qa3 Qd8 23. Rc7 g5 24. fxg5 Qxg5 25. Qe7 Qxe7 26. Rxe7 Kg7 27.
+Rcc7 a5 28. b3 Rad8 1/2-1/2
+
+[Event "Montcada op-A 25th"]
+[Site "Montcada"]
+[Date "2017.07.02"]
+[Round "8"]
+[White "Serarols Mabras, Bernat"]
+[Black "Vardan, Nagpal"]
+[Result "1-0"]
+[ECO "A84"]
+[WhiteElo "2308"]
+[BlackElo "2129"]
+[PlyCount "99"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 e6 3. Nf3 c6 4. e3 Bd6 5. Bd3 f5 6. O-O Nf6 7. b3 Qe7 8. Bb2 O-O
+9. Nc3 b6 10. Rc1 Bb7 11. cxd5 Nxd5 12. e4 fxe4 13. Nxe4 Bf4 14. Rc2 Ba6 15.
+Bxa6 Nxa6 16. a3 Rac8 17. Qd3 Nb8 18. Re1 Rf5 19. Ng3 Bxg3 20. hxg3 Rcf8 21.
+Rce2 Nc7 22. Bc1 Qd8 23. Bf4 Nba6 24. b4 Qd5 25. Be5 Qd8 26. Qc2 Nb8 27. Re4
+Nd7 28. Bxc7 Qxc7 29. Rxe6 c5 30. Re7 Qd6 31. Qa4 R8f7 32. dxc5 Qxe7 33. Rxe7
+Rxe7 34. c6 Nf8 35. Qc2 Rff7 36. Qc4 Ne6 37. b5 Kh8 38. a4 Nc7 39. Qd3 h6 40.
+g4 Re8 41. g5 Rfe7 42. Qc3 h5 43. Qd3 Re4 44. g6 R4e6 45. Qf5 Kg8 46. Qxh5 Kf8
+47. Qh8+ Ke7 48. Qxg7+ Kd6 49. Qd7+ Kc5 50. Qd4# 1-0

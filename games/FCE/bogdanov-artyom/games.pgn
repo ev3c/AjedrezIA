@@ -1,0 +1,267 @@
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.02.01"]
+[Round "3.5"]
+[White "Bogdanov, Artyom"]
+[Black "Chavez Suarez, Carlos Alberto"]
+[Result "1-0"]
+[ECO "B28"]
+[WhiteElo "2358"]
+[BlackElo "2325"]
+[PlyCount "81"]
+[GameId "2151339904129798"]
+[EventDate "2025.01.18"]
+
+1. e4 c5 2. Nf3 a6 3. c3 d5 4. exd5 Qxd5 5. d4 Nf6 6. Be2 e6 7. Be3 Nc6 8. O-O cxd4 9. Nxd4 e5 10. c4 Qd7 11. Nxc6 Qxc6 12. Nc3 Be6 13. Qa4 Qxa4 14. Nxa4 Rc8 15. b3 Bb4 16. Rfd1 Ke7 17. a3 Bd6 18. Nb6 Rcd8 19. h3 Ne4 20. Bd3 Nc5 21. Bc2 g6 22. b4 Nd7 23. Be4 Rb8 24. Nxd7 Bxd7 25. Bg5+ Ke6 26. Bd5+ Kf5 27. Bxf7 Kxg5 28. Rxd6 Ba4 29. Re1 Rhf8 30. Rxe5+ Kh6 31. Bd5 Rf4 32. Re4 Rxe4 33. Bxe4 b6 34. f3 a5 35. b5 Bb3 36. Bd5 Rc8 37. Rc6 Rb8 38. Kf2 Kg5 39. g3 a4 40. h4+ Kf5 41. Ke3 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "Barcelona"]
+[Date "2025.02.08"]
+[Round "4.6"]
+[White "Bogdanov, Artyom"]
+[Black "Colon Garcia, Enrique"]
+[Result "1/2-1/2"]
+[ECO "B31"]
+[WhiteElo "2364"]
+[BlackElo "2365"]
+[PlyCount "158"]
+[GameId "2151339904486231"]
+[EventDate "2025.??.??"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. Bxc6 dxc6 5. d3 Bg7 6. h3 b6 7. O-O Nf6 8. Nc3 Nd7 9. Be3 e5 10. Qd2 Nf8 11. Bh6 Bf6 12. Ng5 Bxg5 13. Qxg5 f6 14. Qh4 Ne6 15. f4 exf4 16. Bxf4 Nxf4 17. Rxf4 O-O 18. Raf1 Kg7 19. R4f2 Be6 20. Qg3 Qb8 21. Kh2 Qxg3+ 22. Kxg3 Rad8 23. b3 Rf7 24. Kf3 b5 25. Ke3 a6 26. g4 Rh8 27. Ne2 Re8 28. Kd2 Rff8 29. Ng3 c4 30. bxc4 bxc4 31. d4 a5 32. a3 Rb8 33. e5 fxe5 34. Rxf8 Rxf8 35. Rxf8 Kxf8 36. dxe5 g5 37. Ne4 h6 38. Nd6 Bd5 39. Nf5 Bg2 40. Nxh6 Bxh3 41. Ke2 Bg2 42. Ke3 Ke7 43. Kd4 Ke6 44. c3 Bf3 45. Ke3 Bd1 46. Kd4 Bf3 47. Ke3 Bd1 48. Kd4 a4 49. Kxc4 Kxe5 50. Kc5 Bf3 51. Kb4 Bd1 52. Kc5 Bf3 53. Kb4 Kf6 54. Kxa4 Kg6 55. Nf5 Bxg4 56. Ng3 Bf3 57. Kb4 g4 58. Kc5 Bd1 59. Kd4 Kg5 60. Ke5 Kh4 61. Kf4 Bb3 62. Ne4 Bc2 63. Ng3 c5 64. Ne2 Bd3 65. Ng3 Bb5 66. Ne4 Bc6 67. Ng3 Kh3 68. Nf5 Bd7 69. Ng3 c4 70. Nf1 Bc6 71. Ng3 Bd7 72. Ne4 Kh4 73. Nf6 Bc8 74. Ne4 Bb7 75. Ng3 Bc6 76. Nf5+ Kh3 77. Ng3 Kh4 78. Nf1 Kh3 79. Ng3 Kh4 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "Barbera del Valles"]
+[Date "2025.02.15"]
+[Round "5.5"]
+[White "Bogdanov, Artyom"]
+[Black "Fernandez Madrid, Carlos"]
+[Result "1-0"]
+[ECO "B06"]
+[WhiteElo "2358"]
+[BlackElo "2078"]
+[PlyCount "91"]
+[GameId "2151339904777156"]
+[EventDate "2025.??.??"]
+[TimeControl "90+30"]
+[WhiteClock "0:30:12"]
+[BlackClock "0:02:53"]
+
+1. e4 {[%emt 0:00:10]} g6 {[%emt 0:00:04]} 2. d4 {[%emt 0:00:13]} Bg7 {[%emt 0:03:44]} 3. Nc3 {[%emt 0:01:20]} d6 {[%emt 0:00:42]} 4. Be3 {[%emt 0:01:22]} a6 {[%emt 0:00:06]} 5. g4 {[%emt 0:04:31]} h5 {[%emt 0:00:35]} 6. gxh5 {[%emt 0:17:01]} Rxh5 {[%emt 0:00:28]} 7. Bg2 {[%emt 0:04:09]} Nc6 {[%emt 0:01:41]} 8. Qd2 {[%emt 0:05:53]} Nf6 {[%emt 0:04:51]} 9. h3 {[%emt 0:03:39]} e5 {[%emt 0:05:25]} 10. Nge2 {[%emt 0:06:29]} exd4 {[%emt 0:01:05]} 11. Nxd4 {[%emt 0:00:15]} Ne5 {[%emt 0:02:59]} 12. Qe2 {[%emt 0:05:58]} Bd7 {[%emt 0:05:01]} 13. O-O-O {[%emt 0:08:06]} Qe7 {[%emt 0:00:53]} 14. f4 {[%emt 0:05:00]} Nc6 {[%emt 0:00:13]} 15. Bf3 {[%emt 0:02:32]} Rh7 {[%emt 0:07:31]} 16. Qg2 {[%emt 0:05:00]} Kf8 {[%emt 0:05:18]} 17. Kb1 {[%emt 0:12:21]} Rc8 {[%emt 0:01:33]} 18. Nxc6 {[%emt 0:04:45]} bxc6 {[%emt 0:01:57]} 19. e5 {[%emt 0:00:55]} dxe5 {[%emt 0:02:03]} 20. Bxc6 {[%emt 0:03:12]} exf4 {[%emt 0:01:12]} 21. Bxf4 {[%emt 0:03:32]} Kg8 {[%emt 0:02:20]} 22. Bxd7 {[%emt 0:01:38]} Nxd7 {[%emt 0:00:07]} 23. Qc6 {[%emt 0:02:13]} Nf8 {[%emt 0:02:51]} 24. Nd5 {[%emt 0:00:38]} Qh4 {[%emt 0:01:26]} 25. Qb7 {[%emt 0:01:01]} Re8 {[%emt 0:01:25]} 26. Bxc7 {[%emt 0:00:02]} Qa4 {[%emt 0:01:36]} 27. Bd6 {[%emt 0:01:11]} Ne6 {[%emt 0:00:23]} 28. Rde1 {[%emt 0:00:57]} Rh5 {[%emt 0:01:00]} 29. Ba3 {[%emt 0:00:33]} Rd8 {[%emt 0:01:44]} 30. Rhf1 {[%emt 0:00:32]} Rhxd5 {[%emt 0:01:46]} 31. Qxf7+ {[%emt 0:00:08]} Kh8 {[%emt 0:01:10]} 32. Qxe6 {[%emt 0:00:07]} Qxa3 {[%emt 0:00:15]} 33. Qxd5 Rxd5 34. Re8+ {[%emt 0:00:01]} Qf8 {[%emt 0:01:59]} 35. Rexf8+ {[%emt 0:00:05]} Bxf8 {[%emt 0:00:02]} 36. Rxf8+ {[%emt 0:00:06]} Kg7 {[%emt 0:00:02]} 37. Rf1 {[%emt 0:00:21]} Rd2 {[%emt 0:02:25]} 38. b4 {[%emt 0:01:09]} Kh6 {[%emt 0:00:11]} 39. Kb2 {[%emt 0:00:30]} g5 {[%emt 0:00:12]} 40. Kb3 {[%emt 0:00:30]} Kh5 {[%emt 0:00:08]} 41. Rf3 {[%emt 0:00:09]} Kh4 {[%emt 0:00:09]} 42. c4 {[%emt 0:00:25]} Rd4 {[%emt 0:02:23]} 43. c5 {[%emt 0:00:14]} a5 {[%emt 0:04:13]} 44. a3 {[%emt 0:00:06]} Rd8 {[%emt 0:01:46]} 45. Rc3 {[%emt 0:00:27]} Ra8 {[%emt 0:01:01]} 46. b5 {[%emt 0:00:11]} 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.02.22"]
+[Round "6.6"]
+[White "Aymerich Verdaguer, Eduard"]
+[Black "Bogdanov, Artyom"]
+[Result "0-1"]
+[ECO "E48"]
+[WhiteElo "2163"]
+[BlackElo "2358"]
+[PlyCount "66"]
+[GameId "2150543110119892"]
+[EventDate "2025.02.15"]
+[WhiteTeam "Olot"]
+[BlackTeam "Barbera"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Bd3 d5 6. Nge2 dxc4 7. Bxc4 c5 8. O-O Nc6 9. dxc5 Bxc5 10. a3 b6 11. Ng3 Bb7 12. b4 Be7 13. Bb2 a5 14. b5 Ne5 15. Be2 Rc8 16. Qb3 Qc7 17. Rac1 Qb8 18. Rfd1 Ba8 19. h3 Qb7 20. e4 Ng6 21. Bf1 Qb8 22. Re1 Bd6 23. Na4 Rxc1 24. Rxc1 Nxe4 25. Nxe4 Bxe4 26. Bd4 Nf4 27. Nxb6 Bxg2 28. Nc4 Bxf1 29. Kxf1 Qb7 30. f3 Qd5 31. Qe3 Qxb5 32. a4 Qa6 33. Kg1 Rc8 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.03.01"]
+[Round "7.6"]
+[White "Bogdanov, Artyom"]
+[Black "Juan Bartroli, Marc"]
+[Result "1/2-1/2"]
+[ECO "B10"]
+[WhiteElo "2373"]
+[BlackElo "2135"]
+[PlyCount "37"]
+[GameId "2152738466718091"]
+[EventDate "2025.02.15"]
+[WhiteTeam "Barbera"]
+[BlackTeam "Platja d'Aro"]
+
+1. e4 c6 2. Nf3 d5 3. d3 g6 4. e5 f6 5. d4 fxe5 6. Nxe5 Bg7 7. Bd3 Nd7 8. Nf3 Nh6 9. O-O O-O 10. Re1 Nf7 11. Bf4 Qb6 12. Rxe7 Qxb2 13. Nbd2 Bxd4 14. Rb1 Qc3 15. Nxd4 Qxd4 16. Bg3 Qf6 17. Qe1 Nc5 18. Re3 Bd7 19. Nf3 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.03.08"]
+[Round "8.5"]
+[White "Bogdanov, Artyom"]
+[Black "Moskalenko, Viktor"]
+[Result "1/2-1/2"]
+[ECO "C07"]
+[WhiteElo "2373"]
+[BlackElo "2405"]
+[PlyCount "38"]
+[GameId "2153941751374232"]
+[EventDate "2025.02.15"]
+[WhiteTeam "Barbera"]
+[BlackTeam "Colon Sabadell IoneHipotecas.com"]
+
+1. e4 e6 2. d4 d5 3. Nd2 c5 4. exd5 Qxd5 5. Ngf3 cxd4 6. Bc4 Qd8 7. O-O Nf6 8. Nb3 Nc6 9. Nbxd4 Nxd4 10. Nxd4 Bc5 11. Be3 O-O 12. c3 Qc7 13. Bb3 b6 14. Nb5 Qc6 15. Nd4 Qc7 16. Nb5 Qe7 17. Qe2 Bb7 18. Bf4 a6 19. Nd4 Nd5 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2025.03.15"]
+[Round "9.4"]
+[White "Bogdanov, Artyom"]
+[Black "Fernandez Diaz, Cristian"]
+[Result "1-0"]
+[ECO "B11"]
+[WhiteElo "2373"]
+[BlackElo "2222"]
+[PlyCount "85"]
+[GameId "2157541684028148"]
+[EventDate "2025.02.15"]
+[WhiteTeam "Barbera"]
+[BlackTeam "Mollet"]
+
+1. e4 c6 2. Nf3 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Qe2 Nxe4 6. Qxe4 Nd7 7. d4 Nf6 8. Qd3 g6 9. Be2 Bg7 10. O-O O-O 11. Bf4 Bf5 12. Qb3 Qb6 13. c3 Be6 14. Qa3 Rac8 15. Rfe1 Nd5 16. Bd2 Qc7 17. c4 Nf6 18. Bf1 Rcd8 19. Qxa7 Ra8 20. Qc5 Ng4 21. h3 b6 22. Qb4 Nh6 23. Bc3 Nf5 24. Qb3 h6 25. a4 Rfd8 26. Qc2 Qc8 27. Rad1 Ra7 28. Rd2 Rad7 29. Red1 Qb7 30. b3 Rc8 31. g4 Nd6 32. Bg2 Rdd8 33. Re1 Kh7 34. Ne5 Bxe5 35. Rxe5 Bxc4 36. bxc4 Nxc4 37. Rh5 Nxd2 38. Bxd2 Rxd4 39. Rxh6+ Kg7 40. Qc1 f6 41. Qc2 Rg8 42. Rxg6+ Kf7 43. Rxg8 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "https://lichess.org/broadcast/"]
+[Date "2026.02.21"]
+[Round "6.3"]
+[White "Garcia Ramos, Daniel"]
+[Black "Bogdanov, Artyom"]
+[Result "1/2-1/2"]
+[ECO "A07"]
+[WhiteElo "2464"]
+[BlackElo "2405"]
+[PlyCount "133"]
+[EventDate "2026.01.17"]
+
+1. Nf3 d5 2. g3 Nd7 3. d4 Nb6 4. Bg2 Bf5 5. Nbd2 Nf6 6. Ne5 e6 7. c4 c5 8. cxd5
+exd5 9. O-O cxd4 10. Ndf3 Bd6 11. Nxd4 Be4 12. Nd3 O-O 13. b3 Rc8 14. Bb2 Re8
+15. Rc1 Nbd7 16. Rxc8 Qxc8 17. e3 a6 18. Qe2 h5 19. Rc1 Qd8 20. Nf4 h4 21. Rd1
+hxg3 22. hxg3 Qe7 23. Bh3 Be5 24. Bg2 Bb8 25. Nf3 Rc8 26. Rc1 Rxc1+ 27. Bxc1
+Ne5 28. Bb2 Nc6 29. Qd1 Nb4 30. Ng5 Bxg2 31. Kxg2 Ne4 32. Nf3 Bxf4 33. exf4 Qc5
+34. Bd4 Qc8 35. Bxg7 Qh3+ 36. Kxh3 Nxf2+ 37. Kg2 Nxd1 38. Bd4 Nxa2 39. Ne5 Nc1
+40. b4 Nb3 41. Bb6 f6 42. Nd3 Kf7 43. Kf3 Nc3 44. g4 Nd2+ 45. Kf2 Nce4+ 46. Ke2
+Nc4 47. Bd4 Ke6 48. Kd1 Ncd6 49. Kc2 Nb5 50. f5+ Kd6 51. Be3 d4 52. Bh6 Kd5 53.
+Kb3 Nbc3 54. Nf4+ Ke5 55. Nd3+ Kd6 56. Kc4 Ne2 57. Nc5 Nxc5 58. bxc5+ Kc6 59.
+Bg7 d3 60. Kxd3 Nf4+ 61. Kd4 Nd5 62. Bh6 a5 63. Bc1 a4 64. Bb2 b6 65. cxb6 Nxb6
+66. Ba3 Nd5 67. Bb2 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "https://lichess.org/broadcast/"]
+[Date "2026.02.28"]
+[Round "7.3"]
+[White "Bogdanov, Artyom"]
+[Black "Gimenez Aguirre, Alejo Ismael"]
+[Result "1-0"]
+[ECO "B10"]
+[WhiteElo "2405"]
+[BlackElo "2255"]
+[PlyCount "87"]
+[EventDate "2026.01.24"]
+
+1. e4 c6 2. Nf3 d5 3. Nc3 Nf6 4. e5 Ne4 5. Ne2 Qb6 6. d4 c5 7. dxc5 Qxc5 8.
+Ned4 Nc6 9. c3 Nxd4 10. Qxd4 Bd7 11. Be3 Qxd4 12. Nxd4 Rc8 13. Nb3 b6 14. Ba6
+Rc7 15. Nd4 Nc5 16. Be2 e6 17. Nb5 Rb7 18. b4 Na4 19. Bd4 Be7 20. Nd6+ Bxd6 21.
+exd6 f6 22. f4 b5 23. g4 O-O 24. Rg1 Rc8 25. g5 f5 26. Rg3 Rc6 27. Be5 Ra6 28.
+g6 h6 29. Rd3 Be8 30. Kd2 Nb6 31. Rd4 Ra4 32. h4 Nc8 33. a3 Rb6 34. c4 bxc4 35.
+Bxc4 Nxd6 36. Bd3 Nb5 37. Rc1 Bxg6 38. Rc8+ Kh7 39. Bxb5 Rxb5 40. Rc7 h5 41.
+Rxg7+ Kh6 42. Rd3 d4 43. Rg3 Bh7 44. Rf7 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "Sabadell"]
+[Date "2026.03.07"]
+[Round "8.3"]
+[White "Gonzalez Garcia, Jose"]
+[Black "Bogdanov, Artyom"]
+[Result "0-1"]
+[WhiteElo "2432"]
+[BlackElo "2405"]
+[PlyCount "87"]
+[EventDate "2026.??.??"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 d5 5. Bg5 h6 6. Bxf6 Qxf6 7. e3 c5 8. cxd5
+exd5 9. Bb5+ Bd7 10. Bxd7+ Nxd7 11. O-O Bxc3 12. bxc3 O-O 13. Qb3 Qc6 14. Rab1
+Rab8 15. Rfd1 c4 16. Qb4 Rfe8 17. a4 b6 18. Qb5 Qb7 19. Re1 a6 20. Qb4 Qc6 21.
+Nd2 Nf6 22. f3 Nh5 23. Nf1 Re6 24. g4 Nf6 25. Rb2 Rbe8 26. Rbe2 h5 27. h3 hxg4
+28. hxg4 Nh7 29. Ng3 Ng5 30. Kg2 Rf6 31. Rf2 Qc7 32. Qb1 Rh6 33. Qf5 Rh3 34.
+Nf1 Qd8 35. Rb1 g6 36. Qc2 Rh4 37. Qb2 Re6 38. a5 b5 39. Qb4 Nh3 40. Ra2 Qg5
+41. Qb2 Rh8 42. Re1 Qh4 43. Ng3 Nf4+ 44. exf4 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.03.14"]
+[Round "9.3"]
+[White "Bogdanov, Artyom"]
+[Black "Chandesris, Ludovic"]
+[Result "1-0"]
+[ECO "B11"]
+[WhiteElo "2418"]
+[BlackElo "2315"]
+[PlyCount "61"]
+[SourceVersionDate "2026.03.15"]
+
+1. e4 c6 2. Nc3 d5 3. Nf3 Bg4 4. Be2 e6 5. h3 Bxf3 6. Bxf3 Nf6 7. d4 Bb4 8. e5
+Nfd7 9. Bd2 O-O 10. Ne2 Bxd2+ 11. Qxd2 f6 12. Nf4 Qe7 13. exf6 Qxf6 14. Nh5 Qg6
+15. Bg4 e5 16. O-O e4 17. f3 exf3 18. Rae1 Nf6 19. Nxf6+ Rxf6 20. Re7 Na6 21.
+Rxf3 h5 22. Rxf6 Qxf6 23. Be6+ Kh8 24. Qe2 g6 25. Qe5 Qxe5 26. dxe5 Nc5 27. Bf7
+a5 28. Bxg6 h4 29. e6 Rf8 30. Rh7+ Kg8 31. e7 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "Spain"]
+[Date "2026.03.21"]
+[Round "10.3"]
+[White "Fernandez Guillen, Ernesto J"]
+[Black "Bogdanov, Artyom"]
+[Result "0-1"]
+[WhiteElo "2460"]
+[BlackElo "2410"]
+[PlyCount "92"]
+[EventDate "2026.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. d3 b5 6. Bb3 Bc5 7. O-O h6 8. c3 d6
+9. d4 Bb6 10. h3 O-O 11. Re1 Bb7 12. d5 Na5 13. Bc2 c6 14. dxc6 Bxc6 15. Nbd2
+Re8 16. b4 Nc4 17. Nxc4 bxc4 18. Be3 Bc7 19. Nd2 d5 20. Bc5 Nd7 21. exd5 Bxd5
+22. Ne4 Nxc5 23. Nxc5 Bb6 24. Be4 Bxe4 25. Nxe4 Qc7 26. Qg4 Qc6 27. Rad1 Rad8
+28. Qf5 Rd3 29. Rxd3 cxd3 30. Kh1 g6 31. Qf6 Re6 32. Qh4 Kg7 33. Qg3 Qc4 34.
+Qf3 f5 35. Nd2 Qxc3 36. Qb7+ Kf6 37. Nf3 d2 38. Rg1 Qc1 39. Qa8 Qxg1+ 40. Nxg1
+d1=Q 41. Qf8+ Kg5 42. Kh2 e4 43. h4+ Kh5 44. Qc8 Bxf2 45. Nh3 Qd6+ 46. Kh1 Bg3
+0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.04.11"]
+[Round "11.5"]
+[White "Bogdanov, Artyom"]
+[Black "Ayas Fernandez, Antoni"]
+[Result "1-0"]
+[ECO "C60"]
+[WhiteElo "2418"]
+[BlackElo "2301"]
+[PlyCount "101"]
+[EventDate "2026.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 g6 4. O-O Bg7 5. c3 Nge7 6. d4 exd4 7. cxd4 d5 8.
+exd5 Nxd5 9. Re1+ Be6 10. Nc3 O-O 11. h3 Qd6 12. a3 Nxc3 13. bxc3 a6 14. Bd3
+Na5 15. a4 Qc6 16. Ba3 Rfe8 17. Bb4 Nc4 18. Be4 Bd5 19. Bxd5 Qxd5 20. a5 h6 21.
+Qb3 b5 22. axb6 Rxe1+ 23. Rxe1 cxb6 24. Nd2 b5 25. Nxc4 bxc4 26. Qa4 Qb5 27.
+Ra1 Rb8 28. Qxa6 Qxa6 29. Rxa6 Bxd4 30. Rc6 Ba7 31. Kf1 Rd8 32. Rc7 Rd1+ 33.
+Ke2 Ra1 34. Rc8+ Kg7 35. Ra8 Ra2+ 36. Kd1 Ra1+ 37. Kc2 Ra2+ 38. Kb1 Rxf2 39.
+Rxa7 Rxg2 40. Bc5 g5 41. Bd4+ Kg6 42. Ra6+ Kf5 43. Rxh6 Ke4 44. Rf6 Rg3 45.
+Rxf7 Rxh3 46. Rg7 Rg3 47. Kb2 g4 48. Ka3 Rg2 49. Kb4 Kd3 50. Kc5 g3 51. Kd5 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.02.11"]
+[Round "4.3"]
+[White "Uber Gracia, Hugo"]
+[Black "Bogdanov, Artyon"]
+[Result "0-1"]
+[ECO "A28"]
+[PlyCount "64"]
+[EventDate "2026.??.??"]
+
+1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. e3 Be7 5. a3 d5 6. d4 exd4 7. Nxd4 O-O 8.
+cxd5 Nxd5 9. Nxc6 bxc6 10. Bd2 Bf5 11. Be2 Rb8 12. O-O Bf6 13. Qc1 Be5 14. Nxd5
+Rxb2 15. Nb4 Qxd2 16. Nxc6 Bxh2+ 17. Kxh2 Qd6+ 18. Kg1 Rc2 19. Qe1 Qxc6 20. Bf3
+Qa6 21. Qb4 c5 22. Qf4 Bg6 23. Rfd1 Qf6 24. Qa4 h6 25. Qxa7 Be4 26. Qa4 Bxf3
+27. gxf3 Rb2 28. Qe4 c4 29. Rac1 c3 30. Rd4 Rc8 31. Qg4 Rc5 32. f4 Rg5 0-1

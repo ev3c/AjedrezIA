@@ -1,0 +1,58 @@
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.18"]
+[Round "1"]
+[White "Fuochi, Tommaso"]
+[Black "Goh, Wei Ming Kevin"]
+[Result "0-1"]
+[ECO "E01"]
+[WhiteElo "2074"]
+[BlackElo "2446"]
+[PlyCount "82"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 c5 4. g3 cxd4 5. Nxd4 d5 6. Bg2 e5 7. Nc2 d4 8. O-O
+Nc6 9. b3 Bf5 10. Ba3 Bd6 11. Bxd6 Qxd6 12. Nd2 O-O 13. Nf3 h6 14. Qc1 Rad8 15.
+Na3 e4 16. Nd2 Qe7 17. Nc2 e3 18. fxe3 Bxc2 19. Qxc2 d3 20. exd3 Qxe3+ 21. Kh1
+Nb4 22. Qc1 Nxd3 23. Rf3 Qxf3 24. Nxf3 Nxc1 25. Rxc1 Rfe8 26. Nh4 b6 27. b4 Ng4
+28. a3 Ne3 29. Bf3 g5 30. Ng2 g4 31. Bc6 Re6 32. Nxe3 Rxe3 33. Bd5 Rxa3 34. Rf1
+Rd7 35. Rf4 h5 36. Rf5 Re7 37. Rf2 Rc3 38. Kg2 Kg7 39. h3 Kg6 40. hxg4 hxg4 41.
+Rf4 f5 0-1
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.23"]
+[Round "6"]
+[White "Konguvel, Ponnuswamy"]
+[Black "Fuochi, Tommaso"]
+[Result "1-0"]
+[ECO "C18"]
+[WhiteElo "2383"]
+[BlackElo "2074"]
+[PlyCount "77"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 Ne7 5. a3 Bxc3+ 6. bxc3 c5 7. Qg4 Qc7 8. Bd3
+c4 9. Be2 Nf5 10. Bd1 O-O 11. Ne2 f6 12. f4 Nc6 13. Ng3 fxe5 14. fxe5 Qa5 15.
+Bd2 Ne3 16. Qe2 Nxd1 17. Qxd1 Bd7 18. Qg4 Ne7 19. h4 Kh8 20. Nh5 Rf7 21. Nf4
+Nf5 22. O-O Raf8 23. h5 Nh6 24. Qe2 Qd8 25. Nh3 Rxf1+ 26. Rxf1 Rxf1+ 27. Qxf1
+Nf5 28. Bg5 Qe8 29. Qf3 Ba4 30. g4 Ne7 31. h6 Bxc2 32. hxg7+ Kg8 33. Qf6 Ng6
+34. Bh6 Ba4 35. Nf4 Qf7 36. Nxe6 Bd7 37. Nd8 Qe7 38. g5 Qxa3 39. Qf7# 1-0

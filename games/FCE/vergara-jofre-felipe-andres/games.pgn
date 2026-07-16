@@ -1,0 +1,969 @@
+[Event "Montcada op-A 25th"]
+[Site "Montcada"]
+[Date "2017.06.27"]
+[Round "2"]
+[White "Vergara Jofre, Felipe Andres"]
+[Black "Cori Tello, Deysi Estella"]
+[Result "0-1"]
+[ECO "B49"]
+[WhiteElo "2234"]
+[BlackElo "2413"]
+[PlyCount "122"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be2 a6 7. O-O Nf6 8.
+Be3 Bb4 9. Nxc6 bxc6 10. f4 d5 11. e5 Nd7 12. Na4 c5 13. a3 Ba5 14. c4 d4 15.
+Bd2 Rb8 16. Rb1 Bxd2 17. Qxd2 Bb7 18. Bf3 O-O 19. b4 Bxf3 20. Rxf3 cxb4 21.
+axb4 Qxc4 22. Rd3 Qc6 23. Rxd4 Qxa4 24. Rxd7 Rbc8 25. Rd1 Rc2 26. Qd6 h6 27. f5
+exf5 28. e6 Rc6 29. exf7+ Rxf7 30. Qd5 Rcf6 31. Rxf7 Rxf7 32. Rc1 Qe8 33. Kf2
+Kh7 34. Rc6 Qe7 35. Rxa6 Qh4+ 36. Kf3 Qg4+ 37. Kf2 Qf4+ 38. Kg1 Qc1+ 39. Kf2
+Qf4+ 40. Kg1 Qxb4 41. h3 Qe7 42. Re6 Qc7 43. Re8 Qb6+ 44. Kh2 Qc7+ 45. Qe5 Qd7
+46. Qe6 Qc7+ 47. Qe5 Qb7 48. Rb8 Qd7 49. Re8 Qc7 50. Qxc7 Rxc7 51. Re6 Rc3 52.
+Rb6 Re3 53. Rc6 Re5 54. Kg3 Rd5 55. Kf4 Rd2 56. g4 Rd3 57. Kxf5 Rf3+ 58. Ke4
+Rxh3 59. Kf5 Rf3+ 60. Ke4 Rf1 61. Ra6 Rf2 0-1
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.04"]
+[Round "1"]
+[White "Meenal, Gupta"]
+[Black "Vergara Jofre, Felipe Andres"]
+[Result "1-0"]
+[ECO "B33"]
+[WhiteElo "1915"]
+[BlackElo "2234"]
+[PlyCount "75"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Bg5 a6 8.
+Na3 b5 9. Nd5 Be7 10. Bxf6 Bxf6 11. c3 Rb8 12. Nc2 Bg5 13. Be2 O-O 14. O-O Be6
+15. Ncb4 Nxb4 16. Nxb4 Qb6 17. a4 a5 18. Nd5 Bxd5 19. Qxd5 bxa4 20. Rfb1 Rbc8
+21. Rxa4 Rc5 22. Qa2 Kh8 23. b4 Rxc3 24. bxa5 Qc6 25. Rc4 Rxc4 26. Qxc4 Qa8 27.
+a6 h6 28. Rb7 Rc8 29. Qb5 Rc1+ 30. Bf1 Kh7 31. g3 Ra1 32. Kg2 Qc8 33. Rxf7 Qc1
+34. Rf8 Bd2 35. a7 Rxa7 36. Qe8 g5 37. Rh8+ Kg7 38. Qf8+ 1-0
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.05"]
+[Round "2"]
+[White "Vergara Jofre, Felipe Andres"]
+[Black "Jul Perez, Alberto"]
+[Result "1-0"]
+[ECO "B38"]
+[WhiteElo "2234"]
+[BlackElo "2020"]
+[PlyCount "25"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. f3 Nc6 6. c4 g6 7. Be3 Bg7 8. Nc3
+O-O 9. Be2 Qb6 10. Qd2 Qc7 11. O-O a6 12. Rac1 b6 13. Nd5 1-0
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.06"]
+[Round "3"]
+[White "Ros Alonso, Jaume"]
+[Black "Vergara Jofre, Felipe Andres"]
+[Result "0-1"]
+[ECO "B90"]
+[WhiteElo "2006"]
+[BlackElo "2234"]
+[PlyCount "194"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nf3 Be7 8. Bc4
+O-O 9. O-O Be6 10. Bb3 Nc6 11. Bg5 Na5 12. Bxf6 Bxf6 13. Bd5 Rc8 14. Qd3 Qc7
+15. Rfd1 Rfd8 16. Rac1 b5 17. Qe3 Qc5 18. Rd3 Qxe3 19. fxe3 Nc4 20. Nd1 Be7 21.
+b3 Na3 22. c3 Rc7 23. Nd2 Rdc8 24. Nb1 Nxb1 25. Rxb1 g6 26. a4 Kf8 27. Ra1 Ke8
+28. h3 h5 29. Rd2 Kd7 30. axb5 axb5 31. Ra5 Rb8 32. Kf2 Bd8 33. Ra6 Bxd5 34.
+Rxd5 Rc6 35. Ra7+ Ke6 36. Kf3 f5 37. Rg7 Kf6 38. Rd7 Ke6 39. Rg7 Kf6 40. Rd7
+Be7 41. g4 Ke6 42. Ra7 fxg4+ 43. hxg4 h4 44. Ra5 Rc5 45. Rd2 b4 46. Rxc5 dxc5
+47. c4 Ra8 48. Kg2 Ra3 49. Rb2 Bg5 50. Kh3 Ra1 51. Rd2 Rc1 52. Kg2 Rb1 53. Rd3
+Rc1 54. Rd2 Rb1 55. Rd3 Ra1 56. Rd2 Ra7 57. Kh3 Ra1 58. Kg2 Ra8 59. Kh3 Ra7 60.
+Kg2 Rf7 61. Rd5 Rc7 62. Kh3 Rc6 63. Kg2 Rc8 64. Kh3 Rc7 65. Kg2 Rc8 66. Kh3 Rc7
+67. Kg2 Bh6 68. Kh3 Bg5 69. Kg2 Ra7 70. Rd2 Ke7 71. Kh3 Ra1 72. Kg2 Bh6 73. Kh3
+Bg5 74. Kg2 Ke6 75. Kh3 Rb1 76. Rd3 Be7 77. Kg2 Kf6 78. Kh2 Kg5 79. Kh3 Bf6 80.
+Rd5 Rxb3 81. Rxc5 Rd3 82. Rd5 Rxd5 83. exd5 Be7 84. Nf2 b3 85. Ne4+ Kh6 86. Nc3
+g5 87. e4 Kg6 88. Kg2 Kf6 89. Kf3 Bc5 90. Ke2 Bd4 91. Nb1 Ke7 92. Na3 Kd6 93.
+Nb5+ Kc5 94. d6 Kc6 95. c5 Bxc5 96. d7 Kxd7 97. Nc3 Bd4 0-1
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.07"]
+[Round "4"]
+[White "Vergara Jofre, Felipe Andres"]
+[Black "Fernandez, Fernando"]
+[Result "0-1"]
+[ECO "D02"]
+[WhiteElo "2234"]
+[BlackElo "2424"]
+[PlyCount "52"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Bf4 d5 3. e3 c5 4. Nf3 Nc6 5. c3 Qb6 6. Qb3 c4 7. Qxb6 axb6 8.
+Nbd2 b5 9. Be2 b4 10. O-O bxc3 11. bxc3 Bf5 12. Nh4 Be4 13. f3 Bc2 14. Rfc1 Ba4
+15. Rab1 h6 16. Be5 Nd7 17. Bc7 e6 18. e4 Ba3 19. Re1 Ne7 20. g4 b5 21. Nf1 b4
+22. cxb4 Bc2 23. Ne3 Bxb1 24. Rxb1 c3 25. exd5 Nxd5 26. Nxd5 c2 0-1
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.08"]
+[Round "5"]
+[White "Likhit, Chilukuri"]
+[Black "Vergara Jofre, Felipe Andres"]
+[Result "1-0"]
+[ECO "B52"]
+[WhiteElo "2125"]
+[BlackElo "2234"]
+[PlyCount "55"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Nxd7 5. O-O Ngf6 6. Qe2 Rc8 7. d4 cxd4
+8. Nxd4 e6 9. c4 Qc7 10. b3 a6 11. Bb2 Be7 12. Nc3 O-O 13. f4 Rfe8 14. g4 Nf8
+15. g5 N6d7 16. Kh1 b6 17. Qg2 Qc5 18. Rad1 e5 19. Nf5 Ne6 20. Nxe7+ Rxe7 21.
+Nd5 Ree8 22. f5 Nc7 23. Nf6+ Nxf6 24. gxf6 g6 25. Qg5 Kh8 26. Qh6 Rg8 27. Rd3
+Ne8 28. Qxh7+ 1-0
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.09"]
+[Round "6"]
+[White "Vergara Jofre, Felipe Andres"]
+[Black "Chakravarthi, YVK."]
+[Result "1/2-1/2"]
+[ECO "D00"]
+[WhiteElo "2234"]
+[BlackElo "2006"]
+[PlyCount "62"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Bf4 Nf6 3. e3 c6 4. Nd2 e6 5. Bd3 Bd6 6. Ne2 Bxf4 7. Nxf4 Nbd7 8.
+Nf3 Qe7 9. O-O O-O 10. c4 e5 11. dxe5 Nxe5 12. cxd5 cxd5 13. h3 h6 14. Nd4 Nxd3
+15. Qxd3 Rd8 16. Rac1 Be6 17. Rc2 Rac8 18. Rfc1 Rxc2 19. Rxc2 Rc8 20. a3 Qd7
+21. f3 Ne8 22. Kf2 a6 23. g4 Nf6 24. h4 Rxc2+ 25. Qxc2 Bxg4 26. fxg4 Qxg4 27.
+Ng2 Qh3 28. Qf5 Ng4+ 29. Ke1 Qxg2 30. Qc8+ Kh7 31. Qf5+ Kg8 1/2-1/2
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.10"]
+[Round "7"]
+[White "Caglar, Sila"]
+[Black "Vergara Jofre, Felipe Andres"]
+[Result "1/2-1/2"]
+[ECO "B33"]
+[WhiteElo "1976"]
+[BlackElo "2234"]
+[PlyCount "143"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Bg5 a6 8.
+Na3 b5 9. Nd5 Qa5+ 10. Bd2 Qd8 11. Bg5 Be7 12. Bxf6 Bxf6 13. c4 b4 14. Nc2 O-O
+15. g3 Bg5 16. Bg2 a5 17. O-O Rb8 18. Qd3 Be6 19. b3 a4 20. Kh1 Bh6 21. Rad1
+Qa5 22. f4 f6 23. f5 Bf7 24. h4 Ra8 25. g4 Bxd5 26. exd5 Nd8 27. Qg3 Bf4 28.
+Qe1 Nb7 29. Qxb4 Qxb4 30. Nxb4 axb3 31. axb3 Na5 32. Nd3 Be3 33. Rf3 Bd4 34.
+Nf4 Rfb8 35. Ne6 Nxb3 36. g5 Kh8 37. Nc7 Ra1 38. Rxa1 Bxa1 39. Nb5 Nd4 40. Ra3
+Nxb5 41. cxb5 Bd4 42. Ra6 Bb6 43. Be4 fxg5 44. hxg5 Kg8 45. Kg2 Kf7 46. Kf3 Ke7
+47. Kg4 Be3 48. Bd3 Bc5 49. Rc6 Kd7 50. g6 hxg6 51. fxg6 Bb6 52. Bf5+ Ke7 53.
+Bd3 Kd7 54. Be4 Ke7 55. Rc2 Bc5 56. Rb2 Kd7 57. Rb3 Rf8 58. Bf5+ Kc7 59. Rh3
+Re8 60. Rh7 Re7 61. Rh8 e4 62. Be6 e3 63. Kf3 Kb6 64. Rf8 Kxb5 65. Rf7 Ra7 66.
+Rxa7 Bxa7 67. Ke2 Kc4 68. Bf7 Kd4 69. Be6 Ke5 70. Bf7 Kf5 71. Kf3 Bd4 72. Ke2
+1/2-1/2
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.11"]
+[Round "8"]
+[White "Vergara Jofre, Felipe Andres"]
+[Black "Fernandez Aguilar, Francisco"]
+[Result "1-0"]
+[ECO "C55"]
+[WhiteElo "2234"]
+[BlackElo "2066"]
+[PlyCount "73"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Be7 5. O-O O-O 6. Re1 d6 7. a4 Kh8 8. a5
+a6 9. h3 Ng8 10. d4 f5 11. dxe5 fxe4 12. exd6 Bxd6 13. Ng5 Ne5 14. Bxg8 Kxg8
+15. Nc3 Qf6 16. Ncxe4 Qg6 17. f4 Nc6 18. Qd5+ Kh8 19. Nxd6 cxd6 20. Nf7+ Kg8
+21. Nxd6+ Kh8 22. Nf7+ Kg8 23. Ne5+ Be6 24. Qxc6 Qf5 25. Qe4 Qh5 26. Be3 Bf5
+27. Qd5+ Kh8 28. g4 Qxh3 29. gxf5 Rxf5 30. Nf7+ Rxf7 31. Qxf7 Qg3+ 32. Kf1 Qf3+
+33. Bf2 Qh1+ 34. Ke2 Qe4+ 35. Kd2 Rd8+ 36. Kc1 Qxf4+ 37. Qxf4 1-0
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.12"]
+[Round "9"]
+[White "Aishwin, Daniel"]
+[Black "Vergara Jofre, Felipe Andres"]
+[Result "1/2-1/2"]
+[ECO "B94"]
+[WhiteElo "2031"]
+[BlackElo "2234"]
+[PlyCount "45"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 Nbd7 7. Bc4 h6 8.
+Bxf6 Nxf6 9. Qe2 b5 10. Bb3 Qc7 11. O-O g6 12. Nd5 Nxd5 13. Bxd5 Rb8 14. Qf3 e6
+15. Qf6 Rg8 16. Bc6+ Bd7 17. Bxd7+ Qxd7 18. Qf3 Be7 19. Qd3 Kf8 20. f4 Kg7 21.
+f5 Bf6 22. Kh1 Rbc8 23. c3 1/2-1/2
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.13"]
+[Round "1"]
+[White "Vergara Jofre, Felipe Andres"]
+[Black "Monroy Garzon, Nataly Alejandra"]
+[Result "1-0"]
+[ECO "B38"]
+[WhiteElo "2234"]
+[BlackElo "1947"]
+[PlyCount "85"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. c4 Nf6 6. Nc3 d6 7. f3 Bg7 8. Be3
+O-O 9. Qd2 Bd7 10. Be2 Nxd4 11. Bxd4 a5 12. O-O Bc6 13. b3 Nd7 14. Bf2 Nc5 15.
+Rab1 Qb6 16. a3 Qc7 17. Bd1 b6 18. b4 axb4 19. axb4 Nd7 20. Bb3 Ra7 21. Rfc1
+Rc8 22. Be3 Qd8 23. h3 Rca8 24. Kf2 Ra3 25. Nb5 Bxb5 26. cxb5 Rc8 27. Rc6 Rb8
+28. Qc2 Ne5 29. Bxb6 Qe8 30. Be3 Raa8 31. f4 Nxc6 32. bxc6 e6 33. Ba4 Qe7 34.
+b5 Qh4+ 35. Kg1 Qg3 36. Bf2 Qxf4 37. c7 Rf8 38. b6 Be5 39. b7 Rxa4 40. Qxa4
+Qh2+ 41. Kf1 Qh1+ 42. Bg1 Bh2 43. Qa7 1-0
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.14"]
+[Round "2"]
+[White "Vergara Jofre, Felipe Andres"]
+[Black "Arvola, Benjamin"]
+[Result "0-1"]
+[ECO "C54"]
+[WhiteElo "2234"]
+[BlackElo "2469"]
+[PlyCount "52"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 d6 6. a4 a6 7. O-O Ba7 8. Na3
+Ne7 9. Nc2 O-O 10. Be3 Bxe3 11. Nxe3 Ng6 12. Qc2 c6 13. b4 d5 14. Bb3 Ng4 15.
+Rae1 dxe4 16. dxe4 Qf6 17. a5 Nf4 18. Nd2 Qg5 19. Ndc4 Be6 20. Nxg4 Bxg4 21. f3
+Bh3 22. Ne3 Rad8 23. Kh1 Nxg2 24. Rg1 Nxe1 25. Rxe1 Qf4 26. Qf2 Rd3 0-1
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.15"]
+[Round "3"]
+[White "Aishwin, Daniel"]
+[Black "Vergara Jofre, Felipe Andres"]
+[Result "1/2-1/2"]
+[ECO "B33"]
+[WhiteElo "2031"]
+[BlackElo "2234"]
+[PlyCount "91"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Bg5 a6 8.
+Na3 b5 9. Nd5 Qa5+ 10. Bd2 Qd8 11. Bg5 Be7 12. Bxf6 Bxf6 13. c4 b4 14. Nc2 O-O
+15. Be2 Bg5 16. O-O a5 17. Qd3 Be6 18. Rad1 Bxd5 19. cxd5 Nb8 20. a3 bxa3 21.
+Nxa3 Nd7 22. Ra1 g6 23. Bg4 Nc5 24. Qc2 Rb8 25. Nc4 Nb3 26. Ra3 Nd4 27. Qd3 f5
+28. exf5 gxf5 29. Bh3 Qf6 30. Rd1 Rfc8 31. b3 Rb5 32. Ne3 Rc3 33. Qf1 Rbxb3 34.
+Rxb3 Rxb3 35. Qa6 Bxe3 36. fxe3 Rxe3 37. Rb1 Kg7 38. Qxa5 Qg6 39. Kh1 f4 40.
+Rd1 Kh6 41. Qd8 Kg7 42. Qe7+ Kh6 43. Qh4+ Kg7 44. Qe7+ Kh6 45. Qh4+ Kg7 46.
+Qe7+ 1/2-1/2
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.16"]
+[Round "4"]
+[White "Rakshitta, Ravi"]
+[Black "Vergara Jofre, Felipe Andres"]
+[Result "1-0"]
+[ECO "B94"]
+[WhiteElo "1974"]
+[BlackElo "2234"]
+[PlyCount "89"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 Nbd7 7. Bc4 h6 8.
+Be3 Qc7 9. Qe2 b5 10. Bd5 Bb7 11. a3 e5 12. Bxb7 Qxb7 13. Nb3 Nxe4 14. Qf3 Nec5
+15. Nd5 Rb8 16. Bxc5 dxc5 17. Na5 Qc8 18. O-O-O c4 19. Qg3 g6 20. Nf6+ Nxf6 21.
+Qxe5+ Be7 22. Nc6 Rb7 23. Nxe7 Qe6 24. Qf4 Kf8 25. Rhe1 Rxe7 26. Rxe6 Rxe6 27.
+Rd6 Ke7 28. Rxe6+ fxe6 29. Qc7+ Nd7 30. Qa7 Rf8 31. f3 Rf5 32. Qxa6 Rg5 33. g3
+Rf5 34. f4 g5 35. fxg5 hxg5 36. a4 bxa4 37. Qxa4 Rf1+ 38. Kd2 Rf2+ 39. Kc3 Rxh2
+40. Qxc4 Rg2 41. Qg4 Nf6 42. Qb4+ Ke8 43. Qb8+ Kf7 44. Qb7+ Kg6 45. Qxg2 1-0
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.17"]
+[Round "5"]
+[White "Vergara Jofre, Felipe Andres"]
+[Black "Avdhoot, Lendhe"]
+[Result "1/2-1/2"]
+[ECO "B11"]
+[WhiteElo "2234"]
+[BlackElo "2034"]
+[PlyCount "75"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c6 2. Nc3 d5 3. Nf3 Nf6 4. e5 Ne4 5. d4 Nxc3 6. bxc3 c5 7. c4 Nc6 8. cxd5
+Qxd5 9. Bb5 cxd4 10. Bxc6+ Qxc6 11. Qxd4 Bf5 12. O-O e6 13. Be3 Ba3 14. Qf4 Bg6
+15. Nd4 Qa6 16. Rab1 O-O 17. Qf3 b6 18. Nb5 Bxc2 19. Nc7 Qc8 20. Nxa8 Qxa8 21.
+Qxa8 Rxa8 22. Rb5 Bd3 23. Rb3 Bxf1 24. Rxa3 Bc4 25. f4 Bd5 26. g4 Kf8 27. Kf2
+Ke8 28. h4 Kd7 29. h5 Kc6 30. Rc3+ Kb7 31. a3 Rc8 32. Rxc8 Kxc8 33. Bd4 Kb7 34.
+f5 Kc6 35. Ke3 Bb3 36. Kf4 Bd1 37. Bb2 Kd5 38. Kg5 1/2-1/2
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.18"]
+[Round "6"]
+[White "Degraeve, Thomas"]
+[Black "Vergara Jofre, Felipe Andres"]
+[Result "0-1"]
+[ECO "E30"]
+[WhiteElo "2008"]
+[BlackElo "2234"]
+[PlyCount "100"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 Nc6 3. Nf3 e6 4. Nc3 Bb4 5. Bg5 h6 6. Bxf6 Bxc3+ 7. bxc3 Qxf6
+8. e4 d6 9. Bd3 e5 10. d5 Nb8 11. O-O O-O 12. h3 Nd7 13. Qe2 a5 14. Kh2 Nc5 15.
+Bc2 Qe7 16. g3 f5 17. Nh4 f4 18. Ng6 Qd7 19. Qh5 Rf6 20. gxf4 Rxg6 21. Qxg6
+Qxh3+ 22. Kg1 Bg4 23. Bd1 Bxd1 24. Raxd1 Rf8 25. Qg3 Qh5 26. f3 Rxf4 27. Rde1
+Rf6 28. Qh2 Qf7 29. Qe2 Rg6+ 30. Kh1 Rg3 31. Qh2 Rg5 32. Qe2 Rh5+ 33. Kg1 Qg6+
+34. Qg2 Rg5 35. Re2 Nd3 36. Qxg5 Qxg5+ 37. Rg2 Qe3+ 38. Kh1 g5 39. Rh2 Kg7 40.
+Rc2 Kg6 41. Kh2 Nf4 42. Rff2 Qe1 43. Rcd2 b6 44. Rc2 a4 45. Rcd2 a3 46. Rc2 h5
+47. Rcd2 Qb1 48. Rc2 Nd3 49. Rfe2 Ne1 50. Rcd2 Nxf3+ 0-1
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.19"]
+[Round "7"]
+[White "Vergara Jofre, Felipe Andres"]
+[Black "Kyrkjebo, Erlend"]
+[Result "0-1"]
+[ECO "B71"]
+[WhiteElo "2234"]
+[BlackElo "2085"]
+[PlyCount "48"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. f4 Bg7 7. e5 Nfd7 8. e6
+Nb6 9. exf7+ Kxf7 10. f5 Rf8 11. fxg6+ hxg6 12. Be3 Kg8 13. Qd2 d5 14. O-O-O e5
+15. Nf3 d4 16. Bg5 Qd7 17. Ne4 Qd5 18. Nc3 Qa5 19. Nb1 Qxa2 20. h4 Bf5 21. h5
+Rc8 22. h6 Na4 23. Re1 Bxc2 24. Qxc2 Qxb2+ 0-1
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.20"]
+[Round "8"]
+[White "Vergara Jofre, Felipe Andres"]
+[Black "Sanchez Lopez, Juan Manuel"]
+[Result "1-0"]
+[ECO "B07"]
+[WhiteElo "2234"]
+[BlackElo "2088"]
+[PlyCount "51"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Bf4 d6 3. Nc3 g6 4. e4 Bg7 5. Qd2 c6 6. Bh6 Bxh6 7. Qxh6 Qa5 8.
+O-O-O Be6 9. d5 Bd7 10. Nf3 b5 11. dxc6 Bxc6 12. e5 Nh5 13. exd6 b4 14. dxe7
+Nd7 15. Nb1 Rc8 16. Nd4 Kxe7 17. Bc4 Bxg2 18. Rhe1+ Kd8 19. Bxf7 Bh3 20. Qe3
+Bf5 21. Qe7+ Kc7 22. Nxf5 Qxf5 23. Qd6+ Kd8 24. Qe7+ Kc7 25. Be6 Qf4+ 26. Re3
+1-0
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.21"]
+[Round "9.38"]
+[White "Asensio Linan, Teodoro"]
+[Black "Vergara Jofre, Felipe Andres"]
+[Result "1-0"]
+[ECO "D02"]
+[WhiteElo "2126"]
+[BlackElo "2234"]
+[PlyCount "79"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Bf4 d5 3. Nf3 c5 4. e3 Nc6 5. c3 Qb6 6. Qc2 cxd4 7. exd4 Bf5 8.
+Qb3 Nd7 9. Qxd5 Qxb2 10. Qxf5 Qxa1 11. Qc2 Rc8 12. Bb5 a6 13. Bxc6 Rxc6 14.
+Nfd2 e5 15. Nb3 Rxc3 16. Qxc3 Qxb1+ 17. Bc1 Qe4+ 18. Kf1 Be7 19. Qc8+ Bd8 20.
+Qxd7+ Kxd7 21. Nc5+ Kc6 22. Nxe4 exd4 23. Ke2 f5 24. Ng3 g6 25. Kd3 Kd5 26. Bb2
+Bf6 27. Rc1 Be5 28. Ne2 Re8 29. g3 b5 30. Rc2 g5 31. Nxd4 Bxd4 32. Bxd4 Re1 33.
+Be3 f4 34. gxf4 gxf4 35. Bxf4 Rd1+ 36. Rd2 Ra1 37. Kc3+ Ke4 38. Kb2 Re1 39. Bg3
+a5 40. f3+ 1-0
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.18"]
+[Round "1"]
+[White "Vergara Jofre, Felipe Andres"]
+[Black "Vocaturo, Daniele"]
+[Result "0-1"]
+[ECO "C54"]
+[WhiteElo "2119"]
+[BlackElo "2596"]
+[PlyCount "38"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 O-O 6. O-O d5 7. exd5 Nxd5 8.
+Re1 Bg4 9. h3 Bh5 10. g4 Bg6 11. Nxe5 Nxe5 12. Rxe5 c6 13. Qf3 Bd6 14. Re1 Kh8
+15. Kh1 Qh4 16. Nd2 f5 17. g5 Rae8 18. Rf1 Bh5 19. Qg2 Be2 0-1
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.22"]
+[Round "5"]
+[White "Plazuelo Pascual, Juan"]
+[Black "Vergara Jofre, Felipe Andres"]
+[Result "1/2-1/2"]
+[ECO "E14"]
+[WhiteElo "2356"]
+[BlackElo "2119"]
+[PlyCount "53"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 e6 3. e3 c5 4. Bd3 d5 5. b3 b6 6. O-O Bb7 7. Bb2 Nc6 8. Nbd2
+Be7 9. c4 cxd4 10. exd4 O-O 11. Rc1 Rc8 12. Qe2 Rc7 13. a3 dxc4 14. bxc4 Na5
+15. Ne5 Qa8 16. f4 a6 17. Rfe1 Bd6 18. f5 exf5 19. Bxf5 Re8 20. Qf2 Rce7 21.
+Bd3 Qd8 22. Ndf3 Bxf3 23. Nxf3 Bf4 24. d5 Be3 25. Rxe3 Rxe3 26. Rd1 Nb3 27. Ng5
+1/2-1/2
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.23"]
+[Round "6"]
+[White "Vergara Jofre, Felipe Andres"]
+[Black "Chueca Forcen, Alberto"]
+[Result "1/2-1/2"]
+[ECO "C54"]
+[WhiteElo "2119"]
+[BlackElo "2361"]
+[PlyCount "72"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6 5. d3 d6 6. c3 O-O 7. h3 h6 8. Re1
+Be6 9. Nbd2 Qd7 10. Bxe6 fxe6 11. b4 Bb6 12. Nc4 Ne7 13. a4 c6 14. Ba3 Bc7 15.
+b5 Rfd8 16. Rb1 Ng6 17. b6 axb6 18. Nxb6 Bxb6 19. Rxb6 Qf7 20. Qb3 Ra7 21. Kh2
+Nf4 22. Rd1 Kh7 23. Ne1 Qh5 24. Rd2 Rd7 25. Bc1 Rf7 26. Qd1 Qxd1 27. Rxd1 Rxa4
+28. Bxf4 exf4 29. Rdb1 Ra7 30. Kg1 Rc7 31. Kf1 c5 32. Ke2 g5 33. f3 Nd7 34.
+R6b2 Kg7 35. Nc2 Kf6 36. d4 b5 1/2-1/2
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.25"]
+[Round "8"]
+[White "Vergara Jofre, Felipe Andres"]
+[Black "Ortiz Suarez, Isan Reynaldo"]
+[Result "0-1"]
+[ECO "B90"]
+[WhiteElo "2119"]
+[BlackElo "2556"]
+[PlyCount "54"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nb3 Be6 8. f3
+Be7 9. Qd2 O-O 10. O-O-O Nbd7 11. g4 b5 12. g5 Nh5 13. Rg1 Rc8 14. Kb1 g6 15.
+h4 Nb6 16. Na5 Qc7 17. a3 d5 18. exd5 Nxd5 19. Nxd5 Bxd5 20. Qf2 Be6 21. Bb6
+Qb8 22. Bd3 Nf4 23. Be4 Nh3 24. Qe3 Nxg1 25. Qxg1 Bd8 26. Rxd8 Rfxd8 27. Nc6
+Qxb6 0-1
+
+[Event "Sabadell op 10th"]
+[Site "Sabadell"]
+[Date "2017.09.01"]
+[Round "1"]
+[White "Gonzalez Acosta, Bernal Manuel"]
+[Black "Vergara Jofre, Felipe Andres"]
+[Result "1-0"]
+[ECO "E11"]
+[WhiteElo "2467"]
+[BlackElo "2167"]
+[PlyCount "81"]
+[EventDate "2017.09.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 e6 3. g3 Bb4+ 4. Bd2 a5 5. Bg2 d6 6. Nf3 Nbd7 7. O-O e5 8. Bg5
+exd4 9. Nxd4 O-O 10. Qc2 h6 11. Bc1 Bc5 12. Rd1 a4 13. Nc3 Nb6 14. Rb1 Qe7 15.
+b3 Qe5 16. Bf4 Qh5 17. b4 Bxd4 18. Rxd4 c5 19. Rxd6 Nxc4 20. Rxf6 Na3 21. Qb2
+Nxb1 22. Nd5 Re8 23. Bf3 Bg4 24. Rxh6 Qf5 25. Bxg4 Qxd5 26. Rd6 Qe4 27. bxc5 a3
+28. Qc1 Ra4 29. Rb6 g5 30. Bf3 Qc4 31. Qxb1 gxf4 32. Rxb7 Qxc5 33. Qb3 Rc4 34.
+Kg2 Re6 35. Rb5 Qd4 36. Qxa3 Rg6 37. Rb8+ Kh7 38. Qf8 Rc7 39. Rb4 Qe5 40. Be4
+f5 41. Qxf5 1-0
+
+[Event "Sabadell op 10th"]
+[Site "Sabadell"]
+[Date "2017.09.02"]
+[Round "2"]
+[White "Vergara Jofre, Felipe Andres"]
+[Black "Uribe Arteaga, Daniel"]
+[Result "0-1"]
+[ECO "B08"]
+[WhiteElo "2167"]
+[BlackElo "2316"]
+[PlyCount "102"]
+[EventDate "2017.09.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 c6 4. Nf3 d6 5. h3 Nf6 6. Be2 O-O 7. O-O Nbd7 8. a4
+e5 9. dxe5 dxe5 10. Bc4 Qc7 11. Be3 b6 12. Qb1 Nh5 13. Qa2 Nc5 14. Rfd1 Ne6 15.
+Rd2 Nhf4 16. Rad1 Qe7 17. Ne2 Ng5 18. Nxg5 Qxg5 19. g3 Nxh3+ 20. Kg2 Qe7 21.
+Rd6 Ng5 22. f3 Ne6 23. Rxc6 Nd4 24. Nxd4 exd4 25. Bxd4 Qd7 26. Bxg7 Qxd1 27.
+Bc3 Qxc2+ 28. Kf1 Bh3+ 29. Ke1 Rad8 30. Bd5 Qg2 31. Qc4 Qxg3+ 32. Kd2 Qf2+ 33.
+Kc1 Bf1 34. Qd4 Qxd4 35. Bxd4 Rc8 36. Rxc8 Rxc8+ 37. Kd2 Bc4 38. Bb7 Rc7 39.
+Ba8 Bb3 40. a5 bxa5 41. Ke3 h5 42. Kf4 Be6 43. Kg5 Rc2 44. f4 Rg2+ 45. Kf6 Rg4
+46. Be5 h4 47. Bd5 h3 48. f5 gxf5 49. Bxe6 fxe6 50. exf5 exf5 51. Kxf5 Rg1 0-1
+
+[Event "Sabadell op 10th"]
+[Site "Sabadell"]
+[Date "2017.09.03"]
+[Round "3"]
+[White "Alves Garcia, Eric"]
+[Black "Vergara Jofre, Felipe Andres"]
+[Result "0-1"]
+[ECO "E33"]
+[WhiteElo "1978"]
+[BlackElo "2167"]
+[PlyCount "71"]
+[EventDate "2017.09.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. Nf3 Nf6 2. c4 Nc6 3. d4 e6 4. Nc3 Bb4 5. Qc2 d6 6. Bd2 O-O 7. a3 Bxc3 8.
+Bxc3 Re8 9. e3 a5 10. Bd3 a4 11. O-O h6 12. Nd2 d5 13. Rad1 e5 14. dxe5 Nxe5
+15. Be2 Qe7 16. Bxe5 Qxe5 17. Nf3 Qh5 18. cxd5 Nxd5 19. Rd4 Bd7 20. Rfd1 Bc6
+21. Bc4 Nf6 22. Rh4 Be4 23. Bd3 Bxd3 24. Rxd3 Qa5 25. Rc4 Re7 26. Rdc3 c6 27.
+Rc5 Qb6 28. R5c4 Ra5 29. Rb4 Qa7 30. Rcc4 Nd7 31. Rxa4 Ne5 32. Nxe5 Rexe5 33.
+Rd4 g6 34. Rab4 Rad5 35. Qb3 Rxd4 36. Rxd4 0-1
+
+[Event "Sabadell op 10th"]
+[Site "Sabadell"]
+[Date "2017.09.04"]
+[Round "4"]
+[White "Vergara Jofre, Felipe Andres"]
+[Black "Izagirre Alsua, Aritz"]
+[Result "1-0"]
+[ECO "B90"]
+[WhiteElo "2167"]
+[BlackElo "1894"]
+[PlyCount "81"]
+[EventDate "2017.09.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 a6 3. d4 cxd4 4. Nxd4 d6 5. Nc3 Nf6 6. a4 e5 7. Nf3 h6 8. Bc4
+b6 9. O-O Bb7 10. Qe2 Nbd7 11. Rd1 Be7 12. b3 O-O 13. Ba3 Qc7 14. Nh4 Nc5 15.
+Nf5 Rfd8 16. Nd5 Nxd5 17. Bxd5 Bxd5 18. Rxd5 Bf8 19. Rad1 g6 20. Bxc5 dxc5 21.
+Ne3 Rxd5 22. Rxd5 b5 23. axb5 axb5 24. Qxb5 Ra1+ 25. Nd1 Qe7 26. g3 Qg5 27. Kg2
+Qg4 28. Qd3 h5 29. Ne3 Qe6 30. h4 Re1 31. Qd2 Ra1 32. Qd3 Ra6 33. Nc4 f6 34.
+Rd8 Kf7 35. Rb8 Be7 36. Ne3 Ra7 37. Qb5 Rd7 38. Rb6 Rd6 39. Rb7 Kf8 40. Qxc5
+Rd4 41. Qc7 1-0
+
+[Event "Sabadell op 10th"]
+[Site "Sabadell"]
+[Date "2017.09.05"]
+[Round "5"]
+[White "Lorenzo de la Riva, Lazaro"]
+[Black "Vergara Jofre, Felipe Andres"]
+[Result "1/2-1/2"]
+[ECO "D40"]
+[WhiteElo "2415"]
+[BlackElo "2167"]
+[PlyCount "145"]
+[EventDate "2017.09.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. e3 c5 5. Nc3 Be7 6. dxc5 Bxc5 7. a3 O-O 8. b4
+Be7 9. Bb2 Nc6 10. cxd5 exd5 11. Be2 Bg4 12. h3 Bh5 13. O-O Rc8 14. Qb3 Rc7 15.
+Nb5 Rd7 16. Nbd4 Ne4 17. Rfd1 Bh4 18. g3 Bf6 19. Kg2 Ne7 20. Ng1 Bg6 21. Rac1
+Qb6 22. Ndf3 Rfd8 23. Bd4 Bxd4 24. Nxd4 Qf6 25. Ngf3 h5 26. Rf1 Nd6 27. Nd2 h4
+28. g4 Be4+ 29. f3 Qe5 30. Nxe4 Nxe4 31. f4 Qf6 32. Qd3 g5 33. Rf3 Ng6 34. fxg5
+Qxg5 35. Rf5 Qe7 36. Qd1 Qd6 37. Qe1 Re7 38. Rf3 Ne5 39. Nf5 Nxf3 40. Bxf3 Qf6
+41. Nxe7+ Qxe7 42. Rd1 Ng5 43. Qxh4 Qxe3 44. Rd3 Qe5 45. Qg3 Qb2+ 46. Qf2 Qxf2+
+47. Kxf2 Nxh3+ 48. Kg3 Ng5 49. Rxd5 Ne6 50. Ra5 Rd3 51. Kf2 b6 52. Rxa7 Kg7 53.
+a4 Ng5 54. Be2 Rb3 55. b5 Ne4+ 56. Kg2 Rg3+ 57. Kh2 Re3 58. Bc4 Nd6 59. Bd5 Rd3
+60. Bc6 Rd4 61. Kg3 Kf6 62. Kf3 Kg5 63. Rd7 Rf4+ 64. Ke3 Nc4+ 65. Ke2 Kxg4 66.
+Rd1 Ne5 67. Rg1+ Kf5 68. a5 bxa5 69. Ra1 a4 70. Be8 Rb4 71. Kd2 Rd4+ 72. Kc3
+Rd8 73. Bxf7 1/2-1/2
+
+[Event "Sabadell op 10th"]
+[Site "Sabadell"]
+[Date "2017.09.06"]
+[Round "6"]
+[White "Vergara Jofre, Felipe Andres"]
+[Black "Asensio Linan, Teodoro"]
+[Result "1-0"]
+[ECO "C02"]
+[WhiteElo "2167"]
+[BlackElo "2171"]
+[PlyCount "55"]
+[EventDate "2017.09.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Nge7 6. Bd3 cxd4 7. cxd4 Nf5 8.
+Bxf5 exf5 9. Nc3 Be6 10. h4 h6 11. Ne2 Rc8 12. Bd2 Qb6 13. Bc3 Qa6 14. Rh3 f4
+15. Rh1 Nb4 16. Nxf4 Bf5 17. Kd2 Be4 18. Ne1 Be7 19. a3 Nc6 20. Qg4 O-O 21. Rh3
+Rfd8 22. Rg3 Bf8 23. e6 f6 24. Nh5 Ne5 25. dxe5 d4 26. Bb4 Qb6 27. e7 g5 28.
+Nxf6+ 1-0
+
+[Event "Sabadell op 10th"]
+[Site "Sabadell"]
+[Date "2017.09.07"]
+[Round "7"]
+[White "Narciso Dublan, Marc"]
+[Black "Vergara Jofre, Felipe Andres"]
+[Result "1/2-1/2"]
+[ECO "B23"]
+[WhiteElo "2459"]
+[BlackElo "2167"]
+[PlyCount "108"]
+[EventDate "2017.09.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nc3 a6 3. g3 b5 4. Bg2 Bb7 5. Nh3 e6 6. O-O Be7 7. d4 d6 8. dxc5
+dxc5 9. Qxd8+ Bxd8 10. Be3 Nd7 11. f4 Ne7 12. Rad1 Rc8 13. e5 Bxg2 14. Kxg2 Nf5
+15. Bg1 h5 16. Ne4 Be7 17. Rf3 c4 18. Kf1 Nc5 19. Nd6+ Bxd6 20. exd6 Kd7 21.
+Ra3 Na4 22. b3 Nc3 23. Ra1 Rc6 24. bxc4 Rxc4 25. Rxa6 Nxd6 26. Ng5 Rhc8 27. Nf3
+f6 28. Ra7+ R8c7 29. Ra8 Nd5 30. Nd4 e5 31. fxe5 fxe5 32. Nf3 Rxc2 33. Nxe5+
+Ke6 34. Re1 Rc1 35. Nd3+ Rxe1+ 36. Kxe1 Nf6 37. Ra6 Nfe4 38. Bd4 Kd5 39. Nf4+
+Kc4 40. Be5 Re7 41. Rc6+ Nc5 42. Ng6 Re8 43. Rxd6 Nd3+ 44. Kf1 Nxe5 45. Nxe5+
+Rxe5 46. Rg6 Re7 47. Ra6 b4 48. Kf2 Kc3 49. Kf3 Rf7+ 50. Ke3 g5 51. Ra5 Re7+
+52. Kf3 Rf7+ 53. Ke3 Re7+ 54. Kf3 Rf7+ 1/2-1/2
+
+[Event "Sabadell op 10th"]
+[Site "Sabadell"]
+[Date "2017.09.08"]
+[Round "8"]
+[White "Vergara Jofre, Felipe Andres"]
+[Black "Perpinya Rofes, Lluis Maria"]
+[Result "1-0"]
+[ECO "B45"]
+[WhiteElo "2167"]
+[BlackElo "2384"]
+[PlyCount "119"]
+[EventDate "2017.09.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e6 5. Nc3 Nf6 6. Ndb5 Bc5 7. Nd6+ Ke7 8.
+Bf4 e5 9. Nxc8+ Rxc8 10. Bg5 Bb4 11. Bd3 Bxc3+ 12. bxc3 h6 13. Bxf6+ gxf6 14.
+O-O Qa5 15. c4 Rhg8 16. f4 exf4 17. Rxf4 Ne5 18. Qf1 Rg6 19. Kh1 Rcg8 20. g3
+Qc3 21. Rb1 b6 22. Rb5 R8g7 23. a4 Rg5 24. Rb3 Qd4 25. Rxf6 Ng4 26. Rf4 Rh5 27.
+h4 Re5 28. Qf3 h5 29. c3 Qd6 30. Be2 Ra5 31. Rb5 Rxa4 32. Rxh5 Ra2 33. Rxg4
+Rxg4 34. Qxg4 Qd2 35. Re5+ Kf8 36. Qg5 Qe1+ 37. Kg2 Rxe2+ 38. Kh3 Qh1+ 39. Kg4
+Rxe4+ 40. Kh5 Rxe5 41. Qxe5 Qd1+ 42. g4 d6 43. Qh8+ Ke7 44. Qb8 Qd3 45. Qxa7+
+Kf8 46. g5 Kg7 47. Qd7 Qxc3 48. Qg4 Qd3 49. Qf4 Qe2+ 50. Qg4 Qe3 51. Qf5 Qe2+
+52. Qg4 Qe5 53. Qf3 Qe6 54. Qc3+ Kg8 55. Qd4 Kh7 56. Qd3+ Kg8 57. Qd4 Qe2+ 58.
+Kh6 Qe5 59. Qxe5 dxe5 60. Kh5 1-0
+
+[Event "Sabadell op 10th"]
+[Site "Sabadell"]
+[Date "2017.09.10"]
+[Round "9"]
+[White "Oliva Castaneda, Kevel"]
+[Black "Vergara Jofre, Felipe Andres"]
+[Result "1-0"]
+[ECO "A07"]
+[WhiteElo "2510"]
+[BlackElo "2167"]
+[PlyCount "63"]
+[EventDate "2017.09.01"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. Nf3 d5 2. g3 c6 3. Bg2 Bg4 4. O-O Nd7 5. b3 e5 6. Bb2 Bd6 7. d3 Ngf6 8. Nbd2
+O-O 9. e4 h6 10. Qe2 Re8 11. h3 Bxf3 12. Nxf3 a5 13. a4 Qb8 14. Nh4 b5 15. Nf5
+Bc5 16. exd5 cxd5 17. d4 exd4 18. Qxb5 Qxb5 19. axb5 Re2 20. Nxd4 Bxd4 21. Bxd4
+Rxc2 22. Rfc1 Rxc1+ 23. Rxc1 a4 24. b6 axb3 25. b7 Rb8 26. Rc7 Nb6 27. Bf1 Ne8
+28. Rc6 Nd7 29. Rc8 Kf8 30. Rxb8 Nxb8 31. Be5 Nd7 32. Bb5 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.02.17"]
+[Round "5.10"]
+[White "Toquero Gracia, Pau"]
+[Black "Vergara Jofre, Felipe"]
+[Result "0-1"]
+[ECO "C54"]
+[WhiteElo "2150"]
+[BlackElo "2200"]
+[Annotator "https://lichess.org/@/Trust_None"]
+[PlyCount "70"]
+[EventDate "2024.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Bc5 5. O-O d6 6. c3 a5 7. h3 h6 8. d4 Bb6
+9. dxe5 Nxe5 10. Nxe5 dxe5 11. Qxd8+ Kxd8 12. Nd2 Ke7 13. Re1 a4 14. b4 axb3
+15. Bxb3 Be6 16. a4 Bc5 17. Bxe6 Kxe6 18. Nb3 Be7 19. f4 Rhd8 20. fxe5 Kxe5 21.
+Be3 Ke6 22. Nd4+ Kd7 23. Nf5 Bf8 24. Bd4 Ra6 25. Rab1 Kc8 26. e5 Ne8 27. g4 g6
+28. Ng3 c5 29. Bf2 Nc7 30. Ne4 Ne6 31. Rb5 Rxa4 32. Reb1 Rxe4 33. Rxb7 Rd2 34.
+Rb8+ Kc7 35. c4 Rd1+ 0-1

@@ -1,0 +1,121 @@
+[Event "Benasque op 37th"]
+[Site "Benasque"]
+[Date "2017.07.09"]
+[Round "4"]
+[White "Kanmazalp, Ogulcan"]
+[Black "Papp, Gabor"]
+[Result "0-1"]
+[ECO "D37"]
+[WhiteElo "2445"]
+[BlackElo "2598"]
+[PlyCount "98"]
+[EventDate "2017.07.06"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. Nf3 Nf6 2. c4 e6 3. Nc3 d5 4. d4 Nbd7 5. Qc2 dxc4 6. e4 Nb6 7. Be3 Bb4 8.
+Ne5 O-O 9. a4 Qe7 10. Be2 c5 11. a5 Nbd7 12. Nxc4 cxd4 13. Bxd4 e5 14. Be3 Nc5
+15. O-O Be6 16. f3 Rfc8 17. Rfd1 Ncd7 18. Nd5 Bxd5 19. exd5 Bc5 20. Qd2 Bxe3+
+21. Nxe3 e4 22. f4 Nc5 23. d6 Qd7 24. Qb4 Na6 25. Qa4 Nc5 26. Qb4 Na6 27. Qa4
+Nc5 28. Qxd7 Ncxd7 29. Rac1 Kf8 30. Bb5 Rc5 31. Rxc5 Nxc5 32. b4 a6 33. bxc5
+axb5 34. a6 bxa6 35. c6 Ke8 36. Nd5 Nxd5 37. Rxd5 Kd8 38. Kf2 b4 39. Ke3 b3 40.
+Kxe4 Rc8 41. c7+ Kd7 42. Rd1 Re8+ 43. Kd5 b2 44. Kc5 Re2 45. Kb6 Rc2 46. Rb1
+Kxd6 47. Rd1+ Ke6 48. Kb7 a5 49. Rb1 a4 0-1
+
+[Event "Benasque op 37th"]
+[Site "Benasque"]
+[Date "2017.07.13"]
+[Round "8"]
+[White "Antal, Gergely"]
+[Black "Kanmazalp, Ogulcan"]
+[Result "0-1"]
+[ECO "B51"]
+[WhiteElo "2524"]
+[BlackElo "2445"]
+[PlyCount "124"]
+[EventDate "2017.07.06"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. O-O a6 5. Bd3 Ngf6 6. Re1 e6 7. c3 b5 8. a4
+Bb7 9. Bc2 c4 10. d4 cxd3 11. Bxd3 bxa4 12. Qxa4 Be7 13. Nbd2 O-O 14. Nb3 Qc7
+15. Na5 Nc5 16. Qc2 Nxd3 17. Qxd3 d5 18. e5 Ne4 19. Be3 Rfb8 20. Ra2 Bc8 21.
+Nd4 Bd7 22. f3 Nc5 23. Qd2 Na4 24. Ndb3 Nb6 25. Qd4 Bb5 26. Nc5 Nc4 27. b4 Nxe3
+28. Rxe3 Bxc5 29. bxc5 Rc8 30. c4 dxc4 31. Nxc4 Bxc4 32. Qxc4 Qxc5 33. Qxc5
+Rxc5 34. f4 Rc4 35. g3 a5 36. Rea3 a4 37. Kf2 h5 38. Ke3 Kh7 39. Kd3 Rb4 40.
+Kc3 Rb3+ 41. Rxb3 Rc8+ 42. Kb2 axb3 43. Kxb3 Kg6 44. Kb4 Rc7 45. Kb5 Kf5 46.
+Kb6 Rc3 47. Ra7 Kg6 48. Ra2 h4 49. gxh4 Rc4 50. Rg2+ Kh6 51. Rg4 g6 52. Kb5 Rc2
+53. Kb4 Kh5 54. h3 Rh2 55. Kc5 Rxh3 56. Rg5+ Kxh4 57. Rg1 Rf3 58. Kd6 Rxf4 59.
+Ke7 g5 60. Rh1+ Kg4 61. Rh7 Rf5 62. Rxf7 Rxf7+ 0-1
+
+[Event "Benasque op 37th"]
+[Site "Benasque"]
+[Date "2017.07.14"]
+[Round "9"]
+[White "Kanmazalp, Ogulcan"]
+[Black "Gozzoli, Yannick"]
+[Result "1/2-1/2"]
+[ECO "D37"]
+[WhiteElo "2445"]
+[BlackElo "2594"]
+[PlyCount "71"]
+[EventDate "2017.07.06"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. Nc3 a6 5. cxd5 exd5 6. Bg5 Be6 7. e3 Nbd7 8.
+Bd3 h6 9. Bf4 Be7 10. h3 c5 11. dxc5 Nxc5 12. O-O O-O 13. Nd4 Re8 14. Rc1 Bf8
+15. Bb1 Qb6 16. Nxe6 Qxe6 17. a3 Rad8 18. Ba2 Qf5 19. Qc2 Qxc2 20. Rxc2 Nd3 21.
+Bg3 Rc8 22. Rd1 Nxb2 23. Rxb2 Rxc3 24. Rxb7 Rxa3 25. Bxd5 Nxd5 26. Rxd5 Ra1+
+27. Kh2 a5 28. Ra7 a4 29. Rdd7 f6 30. h4 Rc8 31. Bd6 Rd1 32. Bxf8 Rxd7 33. Rxd7
+Kxf8 34. Ra7 Rc2 35. Rxa4 Rxf2 36. Kg3 1/2-1/2
+
+[Event "Benasque op 37th"]
+[Site "Benasque"]
+[Date "2017.07.15"]
+[Round "10"]
+[White "Kanmazalp, Ogulcan"]
+[Black "Kantans, Toms"]
+[Result "1/2-1/2"]
+[ECO "A33"]
+[WhiteElo "2445"]
+[BlackElo "2531"]
+[PlyCount "70"]
+[EventDate "2017.07.06"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. Nf3 Nf6 2. c4 c5 3. Nc3 Nc6 4. d4 cxd4 5. Nxd4 e6 6. g3 Qb6 7. Ndb5 Ne5 8.
+Bf4 Nfg4 9. e3 a6 10. h3 axb5 11. hxg4 Nxc4 12. Qb3 d5 13. Bxc4 dxc4 14. Qxb5+
+Qxb5 15. Nxb5 Ra5 16. Nd6+ Bxd6 17. Bxd6 f6 18. f3 Kf7 19. Bb4 Rd5 20. Rd1
+Rxd1+ 21. Kxd1 Bd7 22. Ke2 Ba4 23. Rc1 Kg6 24. Kf2 Bb5 25. Rd1 Kf7 26. e4 Ba4
+27. Rc1 Rc8 28. Ke3 Rc6 29. Rh1 Rb6 30. a3 Kg6 31. Rh5 Rc6 32. Rc5 Rxc5 33.
+Bxc5 Bd1 34. Bf8 Kf7 35. Bb4 e5 1/2-1/2

@@ -1,0 +1,601 @@
+[Event "Sants op Hostafrancs i La Bordeta op"]
+[Site "Barcelona"]
+[Date "2014.08.23"]
+[Round "2.3"]
+[White "Sandipan, C."]
+[Black "Nordenbaek, J."]
+[Result "1-0"]
+[ECO "A06"]
+[WhiteElo "2619"]
+[BlackElo "2228"]
+[PlyCount "75"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[Source "Mark Crowther"]
+[SourceDate "2014.09.01"]
+
+1. Nf3 d5 2. e3 Nf6 3. c4 c6 4. Nc3 e6 5. b3 Bd6 6. Bb2 O-O 7. Be2 Nbd7 8. Qc2
+a6 9. Rg1 e5 10. g4 e4 11. Nd4 Ne5 12. g5 Nfg4 13. cxd5 c5 14. Nxe4 cxd4 15.
+Bxd4 Bf5 16. f4 Rc8 17. Qb1 Re8 18. Nf6+ Qxf6 19. gxf6 Bxb1 20. Rxb1 Nxf6 21.
+fxe5 Bxe5 22. Bxe5 Rxe5 23. Bf3 Nxd5 24. Kf2 Nb4 25. Bxb7 Rc2 26. Rg4 Rb5 27.
+Rd4 g6 28. Be4 Rxa2 29. Rc1 a5 30. Rc7 Na6 31. Ra7 Nc5 32. Bd5 Rb4 33. Bxf7+
+Kg7 34. Bg8+ Rb7 35. Rxb7+ Nxb7 36. Bc4 Kf6 37. b4 Ra4 38. Ba6 1-0
+
+[Event "Sants op Hostafrancs i La Bordeta op"]
+[Site "Barcelona"]
+[Date "2014.08.24"]
+[Round "3.3"]
+[White "Martinez Romero, M."]
+[Black "Sandipan, C."]
+[Result "0-1"]
+[ECO "C60"]
+[WhiteElo "2387"]
+[BlackElo "2619"]
+[PlyCount "98"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[Source "Mark Crowther"]
+[SourceDate "2014.09.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 g6 4. O-O Bg7 5. c3 a6 6. Ba4 d6 7. d4 Bd7 8. dxe5
+Nxe5 9. Nxe5 dxe5 10. Bg5 Nf6 11. f4 Bxa4 12. Qxa4+ Qd7 13. Qxd7+ Nxd7 14. f5
+Bf8 15. Be3 Bc5 16. Bxc5 Nxc5 17. Nd2 O-O-O 18. Nc4 Rhe8 19. fxg6 fxg6 20. Rf7
+Nxe4 21. Rxh7 b5 22. Ne3 Rd2 23. Rf1 Re6 24. h4 Rc6 25. Rf8+ Kb7 26. Rhh8 Rxb2
+27. Rb8+ Ka7 28. Nd5 Rd6 29. Ne7 Rd1+ 30. Kh2 a5 31. c4 Rdd2 32. Nc6+ Ka6 33.
+cxb5+ Rxb5 34. Ra8+ Kb6 35. Nxa5 Rdd5 36. Rhb8+ Kc5 37. Nb3+ Kb4 38. Rxb5+ Rxb5
+39. Rg8 Rb6 40. Re8 Nf6 41. Re7 Rc6 42. Nd2 Rc3 43. Kg1 Ng4 44. Kf1 Rc2 45. Nf3
+c5 46. Nxe5 Nxe5 47. Rxe5 c4 48. Re2 Rxe2 49. Kxe2 Ka3 0-1
+
+[Event "Sants op Hostafrancs i La Bordeta op"]
+[Site "Barcelona"]
+[Date "2014.08.25"]
+[Round "4.3"]
+[White "Sandipan, C."]
+[Black "Galliamova, A."]
+[Result "1-0"]
+[ECO "B81"]
+[WhiteElo "2619"]
+[BlackElo "2472"]
+[PlyCount "51"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[Source "Mark Crowther"]
+[SourceDate "2014.09.01"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. g4 h6 7. h4 Nc6 8. Rg1
+e5 9. Nb3 Ng8 10. Nd5 Nge7 11. Be3 Nxd5 12. exd5 Ne7 13. h5 a6 14. Qd2 f5 15.
+gxf5 Nxf5 16. Bd3 Qf6 17. O-O-O Qf7 18. f4 exf4 19. Bxf4 Be7 20. Nd4 Qxd5 21.
+Nxf5 Bxf5 22. Bxf5 Qxf5 23. Rxg7 Bf6 24. Re1+ Kf8 25. Rxb7 Bg7 26. Qxd6+ 1-0
+
+[Event "Sants op Hostafrancs i La Bordeta op"]
+[Site "Barcelona"]
+[Date "2014.08.26"]
+[Round "5.1"]
+[White "Ducarmon, Q."]
+[Black "Sandipan, C."]
+[Result "1/2-1/2"]
+[ECO "C43"]
+[WhiteElo "2479"]
+[BlackElo "2619"]
+[PlyCount "33"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[Source "Mark Crowther"]
+[SourceDate "2014.09.01"]
+
+1. e4 e5 2. Nf3 Nf6 3. d4 Nxe4 4. Bd3 d5 5. Nxe5 Nd7 6. Nc3 Nxc3 7. bxc3 Nxe5
+8. dxe5 Be7 9. Qh5 Qd7 10. Rb1 a6 11. c4 Qa4 12. O-O dxc4 13. Be4 Qa5 14. Bxb7
+Bxb7 15. Rxb7 O-O 16. Qe2 c3 17. Qc4 1/2-1/2
+
+[Event "Sants op Hostafrancs i La Bordeta op"]
+[Site "Barcelona"]
+[Date "2014.08.27"]
+[Round "6.2"]
+[White "Sandipan, C."]
+[Black "Hoffman, A."]
+[Result "1-0"]
+[ECO "C41"]
+[WhiteElo "2619"]
+[BlackElo "2456"]
+[PlyCount "93"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[Source "Mark Crowther"]
+[SourceDate "2014.09.01"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 Nbd7 4. Nf3 e5 5. Bc4 Be7 6. O-O Nb6 7. Be2 exd4 8.
+Nxd4 O-O 9. Bf4 c6 10. Qd2 Re8 11. Rad1 Bf8 12. Qd3 Qe7 13. Rfe1 Be6 14. Qg3
+Rad8 15. Bg5 Kh8 16. f4 Bc8 17. Bd3 h6 18. Bh4 Qc7 19. Bxf6 gxf6 20. Qh4 Bg7
+21. Qh5 d5 22. exd5 Rxe1+ 23. Rxe1 Qxf4 24. Nf5 Bxf5 25. Qxf5 Qxf5 26. Bxf5
+cxd5 27. Re7 Nc4 28. Rxb7 Nd6 29. Rd7 Rxd7 30. Bxd7 f5 31. Nd1 Bd4+ 32. Kf1 Be5
+33. h3 Kg7 34. b3 Bd4 35. Bc6 Kf6 36. Bxd5 Ke5 37. Bf3 Nb5 38. Ke2 f4 39. Kd3
+Nc7 40. c3 Bg1 41. Nb2 f5 42. a4 Ke6 43. b4 Ke5 44. Nc4+ Ke6 45. Na5 Ke5 46. c4
+a6 47. c5 1-0
+
+[Event "Sants op Hostafrancs i La Bordeta op"]
+[Site "Barcelona"]
+[Date "2014.08.28"]
+[Round "7.1"]
+[White "Blomqvist, E."]
+[Black "Sandipan, C."]
+[Result "1/2-1/2"]
+[ECO "C60"]
+[WhiteElo "2506"]
+[BlackElo "2619"]
+[PlyCount "69"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[Source "Mark Crowther"]
+[SourceDate "2014.09.01"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 g6 4. d4 exd4 5. c3 dxc3 6. Nxc3 h6 7. Be3 Bg7 8.
+O-O Nge7 9. Qd2 d6 10. Rfe1 a6 11. Ba4 Kf8 12. h3 Kg8 13. Rac1 Kh7 14. Nd5 Nxd5
+15. exd5 Ne5 16. Nxe5 dxe5 17. Qc3 Bd7 18. Bxd7 Qxd7 19. Qxc7 Qxd5 20. b3 Rad8
+21. Red1 Qxd1+ 22. Rxd1 Rxd1+ 23. Kh2 f5 24. Qxb7 Rhd8 25. Qxa6 Ra1 26. Bc5 e4
+27. Qa7 Kh8 28. Qe7 Rd5 29. Be3 Be5+ 30. g3 Bg7 31. Bxh6 Bxh6 32. Qe8+ Kg7 33.
+Qe7+ Kh8 34. Qe8+ Kg7 35. Qe7+ 1/2-1/2
+
+[Event "Sants op Hostafrancs i La Bordeta op"]
+[Site "Barcelona"]
+[Date "2014.08.29"]
+[Round "8.1"]
+[White "Sandipan, C."]
+[Black "Kraemer, M."]
+[Result "1-0"]
+[ECO "B94"]
+[WhiteElo "2619"]
+[BlackElo "2546"]
+[PlyCount "110"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[Source "Mark Crowther"]
+[SourceDate "2014.09.01"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 Nbd7 7. f4 Qc7 8.
+Be2 e6 9. O-O Be7 10. Bf3 O-O 11. Kh1 Nb6 12. Qe1 Re8 13. e5 Nfd5 14. exd6 Qxd6
+15. Ne4 Qc7 16. Rc1 Bxg5 17. fxg5 e5 18. c4 exd4 19. cxd5 Qe5 20. Nd6 Qxe1 21.
+Rfxe1 Rxe1+ 22. Rxe1 Bd7 23. Rd1 Na4 24. Nxb7 Nxb2 25. Rxd4 Rc8 26. h3 Na4 27.
+d6 Kf8 28. Bg4 Nb6 29. Rb4 Rc6 30. a4 Bxg4 31. Rxg4 Rc1+ 32. Kh2 Rd1 33. Rb4
+Nc8 34. Nc5 Nxd6 35. Nxa6 Ke7 36. Nc7 Ra1 37. Nb5 Nf5 38. Re4+ Kd7 39. Rf4 Ke6
+40. Re4+ Kd7 41. Rf4 Ke6 42. Nd4+ Nxd4 43. Rxd4 Kf5 44. h4 Kg6 45. Kg3 f6 46.
+gxf6 gxf6 47. Kf4 h5 48. Ke4 Ra2 49. g3 Ra3 50. Kd5 Rxg3 51. Kc5 Kf5 52. a5 Ke5
+53. Ra4 Rg4 54. Kb5 Kd6 55. Rc4 Rg1 1-0
+
+[Event "Sants op Hostafrancs i La Bordeta op"]
+[Site "Barcelona"]
+[Date "2014.08.30"]
+[Round "9.1"]
+[White "Sandipan, C."]
+[Black "Bromberger, S."]
+[Result "1/2-1/2"]
+[ECO "D17"]
+[WhiteElo "2619"]
+[BlackElo "2510"]
+[PlyCount "123"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[Source "Mark Crowther"]
+[SourceDate "2014.09.01"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. Ne5 Nbd7 7. Nxc4 Qc7 8.
+g3 e5 9. dxe5 Nxe5 10. Bf4 Nfd7 11. Bg2 g5 12. Nxe5 gxf4 13. Nxd7 O-O-O 14. Qd4
+Qxd7 15. Qxf4 Bd6 16. Qc1 Kb8 17. O-O h5 18. h4 Qe6 19. a5 a6 20. Ra4 Bc7 21.
+Rd1 Qb3 22. Rad4 Rxd4 23. Rxd4 Be5 24. Qd2 Rc8 25. Na4 Qc2 26. Nb6 Bxd4 27.
+Qxd4 Re8 28. e4 Bxe4 29. Nd7+ Ka8 30. Nf6 Qb1+ 31. Bf1 c5 32. Qxc5 Bd3 33. Nxe8
+Qxf1+ 34. Kh2 Be4 35. Nc7+ Kb8 36. Nxa6+ bxa6 37. Qe5+ Ka7 38. Qxe4 Qxf2+ 39.
+Qg2 Qf5 40. Qe2 Qxa5 41. Qe7+ Kb8 42. Qe8+ Kc7 43. Qxf7+ Kd6 44. Qf6+ Kd7 45.
+Qg5 Qb4 46. Qxh5 Qxb2+ 47. Kh3 Qf6 48. Qd5+ Ke7 49. Qb7+ Kf8 50. Kg2 Kg8 51.
+Qf3 Qa1 52. g4 a5 53. g5 a4 54. Qd5+ Kg7 55. Qd7+ Kg6 56. Qe8+ Kg7 57. Qe7+ Kg6
+58. Qe4+ Kh5 59. Qh7+ Kg4 60. Qe4+ Kh5 61. Qh7+ Kg4 62. Qe4+ 1/2-1/2
+
+[Event "Sants op Hostafrancs i La Bordeta op"]
+[Site "Barcelona"]
+[Date "2014.08.31"]
+[Round "10.2"]
+[White "Vocaturo, D."]
+[Black "Sandipan, C."]
+[Result "1-0"]
+[ECO "A87"]
+[WhiteElo "2587"]
+[BlackElo "2619"]
+[PlyCount "71"]
+[EventDate "2014.08.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[Source "Mark Crowther"]
+[SourceDate "2014.09.01"]
+
+1. d4 f5 2. c4 Nf6 3. Nf3 g6 4. g3 Bg7 5. Bg2 O-O 6. O-O d6 7. Nc3 e6 8. Re1
+Ne4 9. Qc2 Nxc3 10. bxc3 Nc6 11. e4 e5 12. exf5 gxf5 13. dxe5 dxe5 14. Ba3 Re8
+15. Rad1 Qf6 16. Nd4 a6 17. Bd5+ Kh8 18. Nxc6 bxc6 19. Qa4 Bb7 20. Bg2 e4 21.
+Rd7 Qxc3 22. Rc1 Qe5 23. Rxg7 Kxg7 24. Qb3 Kg8 25. Qxb7 e3 26. Bxc6 exf2+ 27.
+Kg2 Rab8 28. Bd5+ Kh8 29. Qc6 f4 30. Rf1 Qg7 31. Rxf2 Red8 32. Rxf4 Rb6 33. Qc5
+Rdb8 34. Qf2 h5 35. Rf7 Qg6 36. Qd4+ 1-0
+
+[Event "Ciutat de Sabadell op"]
+[Site "Sabadell"]
+[Date "2014.09.02"]
+[Round "1.1"]
+[White "Anguera Maestro, J."]
+[Black "Sandipan, C."]
+[Result "0-1"]
+[ECO "A85"]
+[WhiteElo "2135"]
+[BlackElo "2619"]
+[PlyCount "103"]
+[EventDate "2014.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Mark Crowther"]
+[SourceDate "2014.09.08"]
+
+1. d4 f5 2. c4 Nf6 3. Nc3 g6 4. g3 Bg7 5. Bg2 O-O 6. Nf3 d6 7. O-O Qe8 8. Bg5
+e5 9. dxe5 dxe5 10. Nd5 Nxd5 11. Qxd5+ Kh8 12. Qd2 f4 13. gxf4 h6 14. fxe5 hxg5
+15. Qxg5 Rf5 16. Qg3 Bxe5 17. Nxe5 Rxe5 18. Rad1 Nc6 19. Bxc6 bxc6 20. Qh4+ Kg7
+21. Rd8 Re4 22. f4 Bf5 23. Rxe8 Raxe8 24. Rd1 Rxe2 25. Rd8 Re1+ 26. Kf2 R8e2+
+27. Kg3 Re3+ 28. Kf2 R3e2+ 29. Kg3 Re3+ 30. Kf2 R1e2+ 31. Kg1 Rh3 32. Qg5 Re1+
+33. Kf2 Ree3 34. Rd1 Re4 35. Re1 Rxh2+ 36. Kg1 Rh5 37. Qg3 Rh3 38. Qf2 Rxc4 39.
+Qxa7 Kh6 40. Qxc7 Rc2 41. Qe7 Rg3+ 42. Kh1 Kh5 43. Re2 Rxe2 44. Qxe2+ Kh4 45.
+a4 Bd3 46. Qe5 Kh3 47. Qh8+ Kg4 48. Qe5 Kf3 49. a5 Be4 50. Kh2 Rg2+ 51. Kh1 Rc2
+52. Kg1 0-1
+
+[Event "Ciutat de Sabadell op"]
+[Site "Sabadell"]
+[Date "2014.09.03"]
+[Round "2.1"]
+[White "Sandipan, C."]
+[Black "Ortega Serra, M."]
+[Result "1-0"]
+[ECO "A07"]
+[WhiteElo "2619"]
+[BlackElo "2200"]
+[PlyCount "55"]
+[EventDate "2014.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Mark Crowther"]
+[SourceDate "2014.09.08"]
+
+1. Nf3 d5 2. g3 Nf6 3. Bg2 g6 4. d4 Bg7 5. O-O O-O 6. Nbd2 c6 7. c4 Nbd7 8. b3
+Ne4 9. Bb2 Nxd2 10. Qxd2 dxc4 11. bxc4 Nb6 12. Rac1 Bg4 13. Rfd1 Qd7 14. c5 Nc8
+15. d5 Bxb2 16. Qxb2 Bxf3 17. dxc6 Qc7 18. Qxb7 Qxb7 19. cxb7 Bxg2 20. Kxg2 Rb8
+21. Rb1 Nb6 22. c6 e6 23. Rdc1 Nd5 24. c7 Nxc7 25. Rxc7 f5 26. Rbc1 e5 27. h4
+e4 28. e3 1-0
+
+[Event "Ciutat de Sabadell op"]
+[Site "Sabadell"]
+[Date "2014.09.04"]
+[Round "3.1"]
+[White "Gonzalez Rodriguez, JA."]
+[Black "Sandipan, C."]
+[Result "0-1"]
+[ECO "A01"]
+[WhiteElo "2383"]
+[BlackElo "2619"]
+[PlyCount "100"]
+[EventDate "2014.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Mark Crowther"]
+[SourceDate "2014.09.08"]
+
+1. b3 e5 2. Bb2 Nc6 3. e3 Nf6 4. c4 d5 5. cxd5 Nxd5 6. a3 Bd6 7. Nc3 Nxc3 8.
+Bxc3 O-O 9. d3 f5 10. Nf3 Qe7 11. b4 e4 12. b5 Nd8 13. dxe4 fxe4 14. Qd5+ Kh8
+15. Nd2 Bf5 16. Nc4 Bc5 17. g4 c6 18. bxc6 bxc6 19. Qe5 Be6 20. h4 Qf7 21. Rh2
+Bd5 22. h5 Re8 23. Qf5 Bxc4 24. Qxc5 Bxf1 25. Kxf1 h6 26. Rb1 Qd7 27. Kg1 Ne6
+28. Qf5 Rab8 29. Rxb8 Rxb8 30. Rg2 Rb1+ 31. Kh2 Qe7 32. Kg3 Ng5 33. Qc8+ Kh7
+34. Qf5+ Kg8 35. Bb4 Qc7+ 36. Qf4 Qxf4+ 37. Kxf4 Kf7 38. Ke5 a5 39. Bd6 Rd1 40.
+Bb8 c5 41. Bc7 a4 42. Bb6 c4 43. Bd4 Kg8 44. Kf5 Rc1 45. f4 exf3 46. Rb2 c3 47.
+Rb8+ Kf7 48. Rb7+ Ke8 49. e4 Rd1 50. Be3 c2 0-1
+
+[Event "Ciutat de Sabadell op"]
+[Site "Sabadell"]
+[Date "2014.09.05"]
+[Round "4.1"]
+[White "Sandipan, C."]
+[Black "Lorenzo de la Riva, L."]
+[Result "1-0"]
+[ECO "A45"]
+[WhiteElo "2619"]
+[BlackElo "2391"]
+[PlyCount "77"]
+[EventDate "2014.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Mark Crowther"]
+[SourceDate "2014.09.08"]
+
+1. d4 Nf6 2. Bg5 e6 3. Nd2 h6 4. Bh4 d6 5. e4 Nc6 6. c3 e5 7. Bb5 Bd7 8. d5 Nb8
+9. Qb3 Be7 10. Bxf6 Bxf6 11. Ngf3 O-O 12. Bxd7 Nxd7 13. O-O Rb8 14. c4 Bg5 15.
+Qc2 Bxd2 16. Nxd2 Qg5 17. Rad1 a5 18. Qa4 Qe7 19. Qxa5 Ra8 20. Qb5 Rxa2 21.
+Qxb7 Nc5 22. Qb5 Raa8 23. Qb4 Rfb8 24. Qc3 Na4 25. Qe3 Rxb2 26. Ra1 Rbb8 27.
+Nb3 Qg5 28. Qd3 Qd8 29. Qc2 Nc5 30. Rxa8 Rxa8 31. Nxc5 dxc5 32. g3 Rb8 33. Ra1
+Rb4 34. Ra6 Qe7 35. Qe2 g6 36. Ra8+ Kg7 37. Qg4 Rb2 38. Qc8 Kf6 39. h4 1-0
+
+[Event "Ciutat de Sabadell op"]
+[Site "Sabadell"]
+[Date "2014.09.06"]
+[Round "5.1"]
+[White "Aroshidze, L."]
+[Black "Sandipan, C."]
+[Result "1/2-1/2"]
+[ECO "C42"]
+[WhiteElo "2531"]
+[BlackElo "2619"]
+[PlyCount "31"]
+[EventDate "2014.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Mark Crowther"]
+[SourceDate "2014.09.08"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. d4 d5 6. Bd3 Be7 7. O-O Nc6 8.
+Nc3 Bf5 9. Re1 Nxc3 10. bxc3 Bxd3 11. Qxd3 O-O 12. Bf4 Na5 13. Re2 Nc4 14. Rae1
+Bf6 15. Qf5 c6 16. Bg5 1/2-1/2
+
+[Event "Ciutat de Sabadell op"]
+[Site "Sabadell"]
+[Date "2014.09.07"]
+[Round "6.1"]
+[White "Sandipan, C."]
+[Black "Alonso Rosell, A."]
+[Result "1-0"]
+[ECO "A00"]
+[WhiteElo "2619"]
+[BlackElo "2535"]
+[PlyCount "113"]
+[EventDate "2014.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Mark Crowther"]
+[SourceDate "2014.09.08"]
+
+1. d4 d5 2. Bg5 c6 3. Nf3 h6 4. Bh4 Qb6 5. b3 Bf5 6. e3 Nd7 7. Bd3 Bxd3 8. Qxd3
+Ngf6 9. O-O e6 10. c4 a5 11. Nc3 Be7 12. Ne5 Nxe5 13. dxe5 Ng8 14. Bg3 h5 15.
+cxd5 cxd5 16. e4 dxe4 17. Nxe4 Rd8 18. Nd6+ Bxd6 19. exd6 Ne7 20. Rad1 h4 21.
+Be5 Nf5 22. d7+ Ke7 23. Rfe1 Qc6 24. Qxf5 exf5 25. Bxg7+ Qe6 26. Bxh8 Rxh8 27.
+Rxe6+ fxe6 28. Rd4 Kd8 29. Kf1 Rh7 30. Ke2 Rxd7 31. Rxh4 Rg7 32. g3 Ke7 33. Ra4
+b6 34. b4 Rg4 35. f4 e5 36. bxa5 bxa5 37. Kf3 Ke6 38. Rxa5 e4+ 39. Ke3 Rg8 40.
+Ra6+ Kf7 41. Ra3 Rh8 42. h4 Rg8 43. Kd2 Kg6 44. Ra5 Kf6 45. Ra6+ Kf7 46. Ra7+
+Kf6 47. h5 Rxg3 48. h6 Ke6 49. h7 Rh3 50. a4 Kd5 51. a5 Rh2+ 52. Kc3 Rh3+ 53.
+Kb4 e3 54. Re7 Kd6 55. Rxe3 Rxh7 56. Re5 Rb7+ 57. Rb5 1-0
+
+[Event "Ciutat de Sabadell op"]
+[Site "Sabadell"]
+[Date "2014.09.08"]
+[Round "7.1"]
+[White "Martinez Alcantara, JE."]
+[Black "Sandipan, C."]
+[Result "1-0"]
+[ECO "A85"]
+[WhiteElo "2388"]
+[BlackElo "2619"]
+[PlyCount "83"]
+[EventDate "2014.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Mark Crowther"]
+[SourceDate "2014.09.08"]
+
+1. c4 f5 2. d4 Nf6 3. Nc3 g6 4. h4 d6 5. h5 Nxh5 6. Rxh5 gxh5 7. e4 fxe4 8.
+Qxh5+ Kd7 9. Qg4+ Ke8 10. Qh5+ Kd7 11. Qg4+ e6 12. Nxe4 Be7 13. Nf3 Qg8 14. Qf4
+Nc6 15. Bd2 d5 16. Nf6+ Bxf6 17. Qxf6 Qf8 18. Qh4 Qf5 19. O-O-O Rg8 20. cxd5
+exd5 21. Bb5 Ke8 22. Re1+ Be6 23. Ne5 Rf8 24. Bd3 Qxf2 25. Qh5+ Ke7 26. Qxh7+
+Rf7 27. Nxf7 Qxf7 28. Bg5+ Kd6 29. Qxf7 Bxf7 30. Bf4+ Ne5 31. Bxe5+ Kc6 32. Kd2
+Kb6 33. Bxc7+ Kxc7 34. Re7+ Kc6 35. Rxf7 Rg8 36. Rf6+ Kc7 37. Rg6 Rf8 38. g4
+Rf2+ 39. Kc3 a5 40. Rg7+ Kc6 41. a4 Rg2 42. g5 1-0
+
+[Event "Ciutat de Sabadell op"]
+[Site "Sabadell"]
+[Date "2014.09.09"]
+[Round "8.2"]
+[White "Sandipan, C."]
+[Black "Diaz Camallonga, C."]
+[Result "1-0"]
+[ECO "A40"]
+[WhiteElo "2619"]
+[BlackElo "2309"]
+[PlyCount "67"]
+[EventDate "2014.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Mark Crowther"]
+[SourceDate "2014.09.15"]
+
+1. d4 e6 2. Nf3 Nf6 3. Bf4 b6 4. e3 Bb7 5. Bd3 Be7 6. h3 c5 7. Nbd2 Nc6 8. c3
+d6 9. Bh2 O-O 10. O-O Rc8 11. a4 Re8 12. Nc4 Bf8 13. dxc5 bxc5 14. Nxd6 Bxd6
+15. Bxd6 Na5 16. Bb5 Bc6 17. b4 cxb4 18. cxb4 Nb7 19. Be5 Nd5 20. Bxc6 Rxc6 21.
+b5 Rc4 22. Bd4 f6 23. Bxa7 Qa5 24. Bd4 Rd8 25. Qb3 Rdc8 26. e4 Nf4 27. Be3 Rc3
+28. Qd1 Rd3 29. Qe1 e5 30. Bxf4 exf4 31. e5 Qxe1 32. Rfxe1 fxe5 33. a5 Rd5 34.
+Rxe5 1-0
+
+[Event "Ciutat de Sabadell op"]
+[Site "Sabadell"]
+[Date "2014.09.10"]
+[Round "9.1"]
+[White "Vehi Bach, VM."]
+[Black "Sandipan, C."]
+[Result "1/2-1/2"]
+[ECO "C48"]
+[WhiteElo "2324"]
+[BlackElo "2619"]
+[PlyCount "124"]
+[EventDate "2014.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Mark Crowther"]
+[SourceDate "2014.09.15"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bb5 Bc5 5. O-O O-O 6. Nxe5 Nxe5 7. d4 Bd6 8.
+f4 Nc6 9. e5 Be7 10. exf6 Bxf6 11. d5 Nb4 12. Kh1 c6 13. Bc4 b6 14. Ne4 Nxd5
+15. Bxd5 cxd5 16. Qxd5 Ba6 17. Rd1 Rc8 18. c3 Rc7 19. Be3 Be7 20. Nd6 Bxd6 21.
+Qxd6 Re8 22. Re1 Rc6 23. Qd4 Rce6 24. Bf2 Bb7 25. Re5 Qa8 26. Rg1 h6 27. Bg3 d6
+28. Rxe6 Rxe6 29. Qd2 f5 30. Re1 Be4 31. Kg1 Rg6 32. Re2 Qc6 33. b3 b5 34. Be1
+Bf3 35. Rf2 Kh7 36. Kf1 Be4 37. Re2 a6 38. Kg1 Bf3 39. Rf2 Qe4 40. Kf1 Bh5 41.
+Qc2 d5 42. Qxe4 dxe4 43. Rd2 Re6 44. Rd5 Kg6 45. h3 Re8 46. Rd6+ Kh7 47. Rd5
+Bg6 48. Ke2 e3 49. g4 fxg4 50. hxg4 Bb1 51. Re5 Rxe5 52. fxe5 Bxa2 53. b4 Be6
+54. g5 hxg5 55. Kxe3 Kg6 56. Kf2 Kf5 57. Kg3 Ke4 58. Bf2 g6 59. Bb6 Kxe5 60.
+Bd4+ Kd5 61. Bf6 Kc4 62. Bh8 Bf5 1/2-1/2
+
+[Event "Figueres op A"]
+[Site "Figueres"]
+[Date "2016.08.11"]
+[Round "1"]
+[White "Dave, Dhyani"]
+[Black "Sandipan, Chanda"]
+[Result "0-1"]
+[ECO "B85"]
+[WhiteElo "2128"]
+[BlackElo "2572"]
+[PlyCount "74"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e6 6. Be2 a6 7. a4 Nc6 8. O-O
+Be7 9. Be3 O-O 10. f4 Qc7 11. Kh1 Bd7 12. Nb3 b6 13. Bf3 Rae8 14. Qe2 Bc8 15.
+Rad1 Bb7 16. g4 Nd7 17. g5 Nc5 18. Nd4 Nxd4 19. Bxd4 e5 20. Be3 exf4 21. Bxf4
+Ne6 22. Bg3 Nxg5 23. Nd5 Bxd5 24. Rxd5 Nxf3 25. Rxf3 Rc8 26. Rc3 Qb7 27. Rxc8
+Rxc8 28. Bxd6 Bxd6 29. Rxd6 f5 30. Kg1 fxe4 31. Re6 Qd5 32. Rxe4 Qg5+ 33. Rg4
+Qc1+ 34. Qf1 Rxc2 35. Qxc1 Rxc1+ 36. Kg2 Rc2+ 37. Kg3 Rxb2 0-1
+
+[Event "Figueres op A"]
+[Site "Figueres"]
+[Date "2016.08.12"]
+[Round "2"]
+[White "Sandipan, Chanda"]
+[Black "Bergez, Luc"]
+[Result "1-0"]
+[ECO "B07"]
+[WhiteElo "2572"]
+[BlackElo "2344"]
+[PlyCount "89"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 g6 3. Nbd2 Bg7 4. e4 d6 5. Bd3 O-O 6. O-O Nc6 7. c3 e5 8. h3
+exd4 9. cxd4 d5 10. e5 Ne8 11. Bb5 Ne7 12. Re1 c6 13. Bf1 Qb6 14. Nb3 Nc7 15.
+Bg5 Re8 16. Qd2 Ne6 17. Bf6 a5 18. Rac1 a4 19. Nc5 Qa5 20. Rc3 Nxc5 21. dxc5
+Bf8 22. Qf4 d4 23. Bc4 dxc3 24. Bxf7+ Kxf7 25. e6+ Bxe6 26. Bxc3+ Bf5 27. Bxa5
+Rxa5 28. Qc4+ Nd5 29. Ng5+ Kg7 30. Rxe8 Bxc5 31. Ne6+ Bxe6 32. Rxe6 Rb5 33. Qe4
+Kf7 34. Re8 Be7 35. Rh8 Kg7 36. Qe5+ Bf6 37. Qb8 Kh6 38. Rf8 Rxb2 39. Rf7 a3
+40. f4 Bd4+ 41. Kh2 Nf6 42. Qf8+ Kh5 43. Rxf6 Bxf6 44. Qxf6 h6 45. Kg3 1-0
+
+[Event "Figueres op A"]
+[Site "Figueres"]
+[Date "2016.08.13"]
+[Round "4"]
+[White "Sandipan, Chanda"]
+[Black "Movsziszian, Karen"]
+[Result "1-0"]
+[ECO "B07"]
+[WhiteElo "2572"]
+[BlackElo "2495"]
+[PlyCount "76"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d6 2. Nf3 g6 3. e4 Nf6 4. Bd3 Bg7 5. O-O O-O 6. Nbd2 Nc6 7. c3 e5 8. h3
+Nh5 9. Nb3 h6 10. Be3 Nf4 11. Bxf4 exf4 12. Re1 Re8 13. Bc2 g5 14. Qd3 Ne7 15.
+Re2 Ng6 16. e5 dxe5 17. Nxe5 Bxe5 18. Rae1 a5 19. Rxe5 Rxe5 20. Rxe5 a4 21. Nc5
+Kf8 22. Re1 a3 23. b4 b6 24. Qf3 Rb8 25. Qh5 Kg7 26. Re6 Qh8 27. Rc6 bxc5 28.
+Rxc7 Qh7 29. Bb3 Rb7 30. Rxc8 cxd4 31. cxd4 Rxb4 32. Bxf7 Ne7 33. Rc7 Qb1+ 34.
+Kh2 Rb7 35. Rc5 Qb2 36. Bc4 Ng6 37. Rc6 Qb1 38. Qe2 Re7 1-0
+
+[Event "Figueres op A"]
+[Site "Figueres"]
+[Date "2016.08.14"]
+[Round "5"]
+[White "Sandipan, Chanda"]
+[Black "Cordova, Emilio"]
+[Result "0-1"]
+[ECO "A58"]
+[WhiteElo "2572"]
+[BlackElo "2627"]
+[PlyCount "72"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. bxa6 g6 6. Nc3 Bg7 7. e4 O-O 8. a7
+Rxa7 9. Nf3 e6 10. Be2 exd5 11. e5 Ng4 12. Bg5 Qa5 13. O-O d4 14. Nb5 Nxe5 15.
+Nxe5 Bxe5 16. Nxa7 Qxa7 17. f4 Bh8 18. Bc4 Bb7 19. Qb3 d3 20. Rf2 Bd4 21. Raf1
+Qa8 22. Qxd3 Bxg2 23. Re1 Bh1 24. Qg3 Bd5 25. Bxd5 Qxd5 26. Bh6 Rc8 27. f5
+Bxf2+ 28. Qxf2 Nc6 29. f6 Ne5 30. Qg2 Qe6 31. Rf1 Qxa2 32. Bf4 Qe6 33. Bxe5
+Qxe5 34. Qh3 Rc6 35. Qh4 h5 36. b3 Kh7 0-1
+
+[Event "Figueres op A"]
+[Site "Figueres"]
+[Date "2016.08.15"]
+[Round "6"]
+[White "Oliva Castaneda, Kevel"]
+[Black "Sandipan, Chanda"]
+[Result "1/2-1/2"]
+[ECO "A04"]
+[WhiteElo "2491"]
+[BlackElo "2572"]
+[PlyCount "47"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 e6 2. g3 f5 3. Bg2 Nf6 4. O-O Be7 5. d3 O-O 6. c4 Nc6 7. Nc3 d6 8. Rb1
+Qe8 9. b4 Qh5 10. b5 Ne5 11. Nxe5 dxe5 12. e3 Qh6 13. Qb3 g5 14. Ba3 Bxa3 15.
+Qxa3 f4 16. Ne4 Bd7 17. Qc5 Nxe4 18. Bxe4 f3 19. Qxe5 Qh3 20. Qxg5+ Kh8 21.
+Qe5+ Kg8 22. Qg5+ Kh8 23. Qe5+ Kg8 24. Qg5+ 1/2-1/2
+
+[Event "Figueres op A"]
+[Site "Figueres"]
+[Date "2016.08.17"]
+[Round "8"]
+[White "Mellado Triviño, Juan"]
+[Black "Sandipan, Chanda"]
+[Result "0-1"]
+[ECO "D00"]
+[WhiteElo "2427"]
+[BlackElo "2572"]
+[PlyCount "70"]
+[EventDate "2016.08.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. e4 dxe4 3. Nc3 Nf6 4. f3 c5 5. Bb5+ Bd7 6. dxc5 Qa5 7. Qe2 Bxb5 8.
+Qxb5+ Qxb5 9. Nxb5 Na6 10. Be3 Nd5 11. Bd4 e5 12. Bxe5 Bxc5 13. O-O-O Ne3 14.
+Re1 O-O-O 15. Nh3 f6 16. Bf4 Nxg2 17. Rxe4 Rd5 18. Rd1 Rhd8 19. Rxd5 Rxd5 20.
+Bd2 Rh5 21. Nf4 Nxf4 22. Bxf4 Kd7 23. Nc3 Rf5 24. Kd2 g5 25. Bg3 Rxf3 26. Nd5
+h5 27. b4 Bd6 28. Ke2 g4 29. Re3 Rxe3+ 30. Kxe3 Ke6 31. Bxd6 Kxd5 32. Bf8 Kc4
+33. a3 Nc7 34. Ke4 h4 35. Bc5 Nb5 0-1

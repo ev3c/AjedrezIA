@@ -1,0 +1,235 @@
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.13"]
+[Round "1"]
+[White "Corominas Garrido, Jordi"]
+[Black "Kyrkjebo, Eirik"]
+[Result "0-1"]
+[ECO "E12"]
+[WhiteElo "1864"]
+[BlackElo "1611"]
+[PlyCount "81"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 b6 2. Nc3 Bb7 3. d4 e6 4. a3 Nf6 5. Nf3 h6 6. e3 Be7 7. Bd3 O-O 8. e4 d6
+9. O-O Nbd7 10. Qe2 c5 11. d5 e5 12. h3 a6 13. Nh2 Bc8 14. f4 exf4 15. Bxf4 Ne5
+16. Nf3 Nfd7 17. Nxe5 Nxe5 18. Bxe5 dxe5 19. Rf3 Bg5 20. Qf2 h5 21. Rf1 Ra7 22.
+Ne2 Bh4 23. g3 Bg5 24. Kh2 Qd7 25. Rf5 Qe7 26. Rf3 Qd7 27. Qg2 b5 28. b3 Rb7
+29. h4 Bh6 30. Rf5 g6 31. Rf6 Rb8 32. Rc6 Bb7 33. Rxc5 Be3 34. b4 Bxc5 35. bxc5
+Rbc8 36. cxb5 axb5 37. Qf2 Ra8 38. Rb1 Rxa3 39. Bxb5 Qg4 40. c6 Qxe4 41. cxb7
+0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.14"]
+[Round "2"]
+[White "Kyrkjebo, Eirik"]
+[Black "Gil Gil, Antoni"]
+[Result "0-1"]
+[ECO "B23"]
+[WhiteElo "1611"]
+[BlackElo "1823"]
+[PlyCount "92"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nc3 Nc6 3. Bb5 g6 4. Bxc6 bxc6 5. b3 Bg7 6. Bb2 Nf6 7. d3 O-O 8.
+Nf3 d5 9. e5 Nh5 10. O-O Bg4 11. Na4 d4 12. Re1 f6 13. e6 Qd5 14. c4 Qf5 15.
+Nxd4 cxd4 16. f3 Bxf3 17. Qxf3 Qxf3 18. gxf3 f5 19. Nc5 Nf4 20. Bc1 Bh6 21.
+Bxf4 Bxf4 22. Kg2 g5 23. Re2 Rf6 24. h3 h5 25. Rh1 Rg6 26. a3 Bd6 27. Nd7 Bxa3
+28. Ra1 Bb4 29. Ra6 c5 30. Re5 f4 31. Rf5 Bd2 32. Ne5 Rg7 33. Kf2 Rb8 34. Rxa7
+Rxb3 35. Ra8+ Kh7 36. Rf7 Be3+ 37. Ke2 Rb2+ 38. Kd1 Rd2+ 39. Ke1 Rh2 40. Ra7 g4
+41. Rxg7+ Kxg7 42. fxg4 Kf6 43. Nd7+ Kxe6 44. Nxc5+ Kf7 45. gxh5 f3 46. Ne4
+Rh1# 0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.15"]
+[Round "3"]
+[White "Franzoni Ladron, Enric"]
+[Black "Kyrkjebo, Eirik"]
+[Result "1-0"]
+[ECO "A50"]
+[WhiteElo "1764"]
+[BlackElo "1611"]
+[PlyCount "67"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 b6 2. d4 Bb7 3. Bd3 e6 4. Nf3 Nf6 5. Qe2 d6 6. c4 Be7 7. Nc3 O-O 8. O-O
+Nbd7 9. h3 c5 10. d5 e5 11. Nh2 Bc8 12. Bd2 Ne8 13. Rae1 Bg5 14. f4 exf4 15. e5
+Nxe5 16. Bc2 g6 17. Bxf4 Bxf4 18. Rxf4 Qg5 19. Ref1 Bxh3 20. Ne4 Qxg2+ 21. Qxg2
+Bxg2 22. Kxg2 f5 23. Ng5 Ng7 24. b3 h6 25. Ngf3 g5 26. Nxe5 gxf4 27. Ng6 Rfe8
+28. Nxf4 Kf7 29. Nf3 Rg8 30. Kf2 Rae8 31. Nh4 Kf6 32. Rg1 a6 33. Rg6+ Ke5 34.
+Ke3 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.16"]
+[Round "4"]
+[White "Kyrkjebo, Eirik"]
+[Black "Munt Serrano, Jesus"]
+[Result "1-0"]
+[ECO "B50"]
+[WhiteElo "1611"]
+[PlyCount "63"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 e6 3. b3 Nc6 4. Bb2 Nf6 5. d3 d6 6. Be2 Be7 7. O-O e5 8. Nbd2
+O-O 9. a4 a5 10. Nc4 b6 11. Nfd2 Ba6 12. f4 Nd7 13. fxe5 Ncxe5 14. Ne3 Nf6 15.
+Nf5 Re8 16. Qe1 Bf8 17. h4 g6 18. Qg3 h5 19. Rad1 Nfg4 20. Bxg4 Nxg4 21. Ne3
+Nxe3 22. Qxe3 Qxh4 23. Nf3 Qe7 24. Ng5 f5 25. Qg3 Bc8 26. Rde1 Bg7 27. exf5 Be5
+28. Bxe5 dxe5 29. f6 Qd7 30. f7+ Kf8 31. fxe8=Q+ Kxe8 32. Rxe5+ 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.18"]
+[Round "6"]
+[White "Barrot Farre, Salvador"]
+[Black "Kyrkjebo, Eirik"]
+[Result "1-0"]
+[ECO "C68"]
+[WhiteElo "1771"]
+[BlackElo "1611"]
+[PlyCount "87"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. d3 Bd6 6. O-O Bg4 7. Nbd2 Qd7 8.
+h3 Bh5 9. Qe2 O-O-O 10. Qe3 Kb8 11. Nc4 f6 12. Nfd2 g5 13. Nb3 Ne7 14. Nc5 Bxc5
+15. Qxc5 g4 16. h4 g3 17. fxg3 Rhg8 18. Kh2 Rg6 19. Be3 Nc8 20. Bf2 Rdg8 21. a4
+Qg7 22. Qe3 Rg4 23. Be1 Rxh4+ 24. Kg1 Rg4 25. b4 Be8 26. Na5 h5 27. Rf3 h4 28.
+c4 hxg3 29. b5 f5 30. Rxf5 Qh7 31. Kf1 Qh1+ 32. Qg1 Qh6 33. Qc5 Rf4+ 34. Ke2
+Bh5+ 35. Rxh5 Qxh5+ 36. Kd2 Qh1 37. bxa6 Qxg2+ 38. Kc3 Nd6 39. Nxc6+ Kc8 40. a7
+Kd7 41. Nb8+ Ke6 42. Qd5+ Ke7 43. Qxe5+ Kf7 44. Qxf4+ 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.19"]
+[Round "7"]
+[White "Kyrkjebo, Eirik"]
+[Black "Avila Lopez, Juan"]
+[Result "1-0"]
+[ECO "C46"]
+[WhiteElo "1611"]
+[BlackElo "1282"]
+[PlyCount "90"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Bc5 4. Nxe5 Qf6 5. Nf3 d6 6. Nd5 Qd8 7. d4 Bb6 8.
+Bc4 Na5 9. Bd3 Ne7 10. Bg5 Nac6 11. O-O f6 12. Nxf6+ gxf6 13. Bxf6 Rf8 14. e5
+Nxd4 15. Nxd4 Bxd4 16. Bxh7 Bxe5 17. Bg6+ Kd7 18. Qg4+ Kc6 19. Qc4+ Kd7 20.
+Bxe5 Nxg6 21. Qg4+ Kc6 22. Qxg6 Bf5 23. Qh6 Rf7 24. Bg3 b6 25. Rfe1 Qf6 26.
+Qxf6 Rxf6 27. Re7 Kb7 28. Rd1 Rd8 29. Rg7 Kb8 30. Bh4 Rg6 31. Rxg6 Bxg6 32.
+Bxd8 Bxc2 33. Rc1 Be4 34. Bxc7+ Kb7 35. Bxd6 Ka6 36. g4 Bf3 37. g5 Be4 38. h4
+Bf3 39. g6 Bh5 40. g7 Bf7 41. a4 Ka5 42. b4+ Kxa4 43. Ra1+ Kb5 44. Rxa7 Bg8 45.
+Ra8 Bh7 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.20"]
+[Round "8"]
+[White "Torres Julian, Marc"]
+[Black "Kyrkjebo, Eirik"]
+[Result "0-1"]
+[ECO "C78"]
+[WhiteElo "1723"]
+[BlackElo "1611"]
+[PlyCount "62"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O b5 6. Bb3 Bc5 7. Nxe5 Nxe5 8.
+d4 Bxd4 9. Qxd4 d6 10. Bg5 c5 11. Bxf6 gxf6 12. Qc3 c4 13. f4 Qb6+ 14. Kh1 Ng4
+15. Qf3 cxb3 16. axb3 Rg8 17. h3 Ne3 18. Rf2 Kf8 19. Re2 Ng4 20. hxg4 Bxg4 21.
+Qd3 Bxe2 22. Qxe2 Rg6 23. g4 Rh6+ 24. Kg2 Re8 25. Nc3 b4 26. Nd5 Qd4 27. Re1
+Rg6 28. Kf3 Rh6 29. Kg2 f5 30. gxf5 Qg7+ 31. Kf3 Rh3+ 0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.21"]
+[Round "9"]
+[White "Kyrkjebo, Eirik"]
+[Black "Calafell Marques, Josep"]
+[Result "0-1"]
+[ECO "B50"]
+[WhiteElo "1611"]
+[BlackElo "1762"]
+[PlyCount "90"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. Nc3 Nf6 4. b3 Nc6 5. Bb5 Bd7 6. Bxc6 Bxc6 7. Qe2 e5 8.
+O-O Be7 9. d3 O-O 10. Ne1 d5 11. f3 dxe4 12. fxe4 Qd4+ 13. Be3 Qxc3 14. Nf3 Qa5
+15. Nxe5 Nd7 16. Ng4 f6 17. Rf5 Qc7 18. Raf1 Ne5 19. Rh5 Qd7 20. Nxe5 fxe5 21.
+Rff5 Rxf5 22. Rxf5 Bd6 23. Qh5 Re8 24. Rf3 Re6 25. Rh3 g6 26. Qg5 Re7 27. Rg3
+Rf7 28. h4 Qe7 29. Qh6 Qf8 30. Qg5 Rf1+ 31. Kh2 Qf6 32. Qh6 Bf8 33. Qg5 Qxg5
+34. Rxg5 Bd6 35. h5 Kf7 36. hxg6+ hxg6 37. Rg4 Re1 38. Bg5 Re2 39. c4 Rxa2 40.
+Rh4 Kg7 41. Bh6+ Kf6 42. Rh3 Be8 43. Rf3+ Ke6 44. Bg7 Be7 45. Kh3 Rb2 0-1

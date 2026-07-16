@@ -1,0 +1,96 @@
+[Event "Ciutat de Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "?"]
+[White "Gomez, L."]
+[Black "Ayas Fernandez, A."]
+[Result "0-1"]
+[ECO "E11"]
+[BlackElo "2325"]
+[PlyCount "67"]
+[EventDate "1996.??.??"]
+[EventType "rapid"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 Bb4+ 4. Bd2 Qe7 5. g3 Nc6 6. Bg2 Bxd2+ 7. Nbxd2 d6 8.
+O-O O-O 9. e4 e5 10. d5 Nb8 11. b4 a5 12. a3 Na6 13. Rb1 axb4 14. axb4 c6 15.
+dxc6 bxc6 16. b5 cxb5 17. cxb5 Nc5 18. Nh4 g6 19. Qe2 Bg4 20. Bf3 Bh3 21. Rfd1
+Ra2 22. Ra1 Rfa8 23. Rxa2 Rxa2 24. Qe3 Be6 25. Rb1 Ng4 26. Bxg4 Bxg4 27. b6 Bc8
+28. Ng2 Bb7 29. f3 Qd7 30. g4 Qa4 31. Ne1 Ra3 32. Qg5 Qd4+ 33. Kh1 Ne6 34. Qh6
+0-1
+
+[Event "Ciutat de Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "?"]
+[White "Gomez, L."]
+[Black "Jerez Perez, A."]
+[Result "1-0"]
+[ECO "A50"]
+[BlackElo "2335"]
+[PlyCount "85"]
+[EventDate "1996.??.??"]
+[EventType "rapid"]
+
+1. d4 Nf6 2. c4 b6 3. Nc3 Bb7 4. d5 e6 5. e4 Bb4 6. Bd3 exd5 7. cxd5 O-O 8. Nf3
+Re8 9. O-O Bxc3 10. bxc3 d6 11. Re1 Nbd7 12. Bg5 h6 13. Bxf6 Qxf6 14. Bb5 Re7
+15. Bxd7 Rxd7 16. Qd4 Qxd4 17. Nxd4 Re8 18. f3 g6 19. Kf2 Rde7 20. g4 Kg7 21.
+h4 Kf6 22. h5 gxh5 23. Rh1 Re5 24. Nf5 Bc8 25. Rxh5 Bxf5 26. gxf5 Rh8 27. Rah1
+Kg7 28. Ke3 Re7 29. Kd4 c5+ 30. dxc6 Re5 31. f6+ Kxf6 32. Rxh6+ Rxh6 33. Rxh6+
+Ke7 34. Rh8 Rc5 35. Rc8 a5 36. a4 Ke6 37. c4 Ke7 38. f4 Ke6 39. f5+ Ke7 40. c7
+Kd7 41. Rf8 Kxc7 42. Rxf7+ Kc6 43. Re7 1-0
+
+[Event "Ciutat de Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "?"]
+[White "Hernando Rodrigo, J."]
+[Black "Gomez, L."]
+[Result "0-1"]
+[ECO "A01"]
+[PlyCount "79"]
+[EventDate "1996.??.??"]
+[EventType "rapid"]
+
+1. b3 e5 2. Bb2 d6 3. d4 exd4 4. Qxd4 Nf6 5. Qe3+ Be6 6. Nh3 Be7 7. Nf4 Qd7 8.
+Nxe6 Qxe6 9. Qxe6 fxe6 10. Na3 Nc6 11. g3 g5 12. Bh3 Kd7 13. Rd1 h5 14. Nc4 g4
+15. Bg2 a5 16. e4 b5 17. Na3 e5 18. Nxb5 h4 19. h3 hxg3 20. fxg3 Rag8 21. h4
+Nh5 22. Rd3 Nb4 23. Rc3 c6 24. Na3 Nxa2 25. Re3 Nb4 26. c3 Na6 27. Nc4 Nc5 28.
+Nxa5 Ra8 29. b4 Bf8 30. Nc4 Bh6 31. bxc5 Bxe3 32. Nxe3 Ra2 33. Nc4 Rb8 34. O-O
+Rbxb2 35. Nxb2 Rxb2 36. Rd1 Nxg3 37. Rxd6+ Ke7 38. h5 Ne2+ 39. Kf1 g3 40. Rxc6
+0-1
+
+[Event "Ciutat de Barcelona"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "?"]
+[White "Horspool, P."]
+[Black "Gomez, L."]
+[Result "0-1"]
+[ECO "B21"]
+[PlyCount "50"]
+[EventDate "1996.??.??"]
+[EventType "rapid"]
+
+1. e4 c5 2. d4 cxd4 3. c3 d3 4. Bxd3 g6 5. c4 Bg7 6. Nc3 b6 7. Nge2 Bb7 8. O-O
+d6 9. Bf4 Nd7 10. Rc1 Ngf6 11. f3 O-O 12. b3 a6 13. Qe1 Nc5 14. Bb1 b5 15. Rd1
+bxc4 16. e5 Nh5 17. exd6 Nxf4 18. Nxf4 e5 19. Nfd5 cxb3 20. Ne7+ Kh8 21. Qh4 e4
+22. Nxe4 Nxe4 23. fxe4 Qb6+ 24. Kh1 Rad8 25. e5 bxa2 0-1
+
+[Event "Ciutat de Barcelona rapid ?"]
+[Site "?"]
+[Date "1996.??.??"]
+[Round "?"]
+[White "Pablo Mari, A."]
+[Black "Gomez, L."]
+[Result "0-1"]
+[ECO "C02"]
+[WhiteElo "2375"]
+[PlyCount "73"]
+[EventDate "1996.??.??"]
+
+1. e4 c5 2. c3 e6 3. d4 d5 4. e5 Nc6 5. Nf3 Qb6 6. Be2 cxd4 7. cxd4 Nh6 8. Nc3
+Nf5 9. Kf1 Be7 10. h4 Bd7 11. Na4 Qa5 12. Bd2 Qd8 13. Bg5 f6 14. exf6 Bxf6 15.
+Nc5 O-O 16. Bxf6 Rxf6 17. Kg1 Be8 18. g4 Rg6 19. g5 h6 20. Kf1 hxg5 21. hxg5 b6
+22. Nb3 Rxg5 23. Nxg5 Qxg5 24. Rc1 Qf4 25. Rc3 Nfxd4 26. Nxd4 Nxd4 27. Rd3 Nf5
+28. Rf3 Qe5 29. Qc1 Bg6 30. Qg5 Qxb2 31. Qxg6 Qb1+ 32. Kg2 Ne3+ 33. Rxe3 Qxg6+
+34. Rg3 Qe4+ 35. Bf3 Qc2 36. Bg4 Qe4+ 37. Bf3 0-1

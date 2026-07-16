@@ -1,0 +1,116 @@
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.01.14"]
+[Round "1"]
+[White "Torres Palau, Jordi"]
+[Black "Soidan Parcerisas, Manel"]
+[Result "1-0"]
+[ECO "B02"]
+[WhiteElo "1560"]
+[BlackElo "1851"]
+[PlyCount "103"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 d5 2. exd5 Nf6 3. Nc3 Nxd5 4. d4 Nc6 5. Nf3 Bf5 6. a3 Nxc3 7. bxc3 Qd5 8.
+Bd3 Bg4 9. Be2 O-O-O 10. Be3 e6 11. O-O Bd6 12. h3 Bh5 13. Qd2 g5 14. Rfb1 g4
+15. Rb5 gxf3 16. Rxd5 exd5 17. Bf1 fxg2 18. Bb5 Rdg8 19. Bf4 Rg6 20. Bd3 Rf6
+21. Bxd6 Rxd6 22. Bf5+ Kb8 23. Qg5 Bg6 24. Re1 h6 25. Qf4 Rf6 26. Qxh6 Rg8 27.
+Bd7 a6 28. Re8+ Rxe8 29. Bxe8 Re6 30. Bxc6 Rxc6 31. Qe3 Re6 32. Qg3 Re1+ 33.
+Kxg2 Be4+ 34. f3 Re2+ 35. Kf1 Re3 36. Qg8+ Ka7 37. fxe4 Rf3+ 38. Ke2 dxe4 39.
+h4 f5 40. Qd8 f4 41. Qxc7 Re3+ 42. Kf2 Rf3+ 43. Kg2 Rg3+ 44. Kh2 Rf3 45. Qc5+
+Ka8 46. d5 e3 47. d6 Rf2+ 48. Kg1 Rd2 49. d7 e2 50. Kf2 f3 51. Qc8+ Ka7 52.
+d8=Q 1-0
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.01.21"]
+[Round "2"]
+[White "Soidan Parcerisas, Manel"]
+[Black "Febrero Perez, Lluis"]
+[Result "1-0"]
+[ECO "C45"]
+[WhiteElo "1851"]
+[BlackElo "1525"]
+[PlyCount "45"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Qh4 5. Nb5 Qxe4+ 6. Be2 Kd8 7. O-O a6 8.
+N1c3 Qe5 9. Nd5 axb5 10. Bf4 Qd4 11. Bxc7+ Ke8 12. Nb6 Ra6 13. Nxc8 Bc5 14.
+Bxb5 Ra8 15. Re1+ Nge7 16. Nxe7 Qxf2+ 17. Kh1 Bxe7 18. Bxc6 bxc6 19. Bd6 Ra4
+20. Rxe7+ Kd8 21. Rxd7+ Kc8 22. Rc7+ Kd8 23. Bc5+ 1-0
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.01.28"]
+[Round "3"]
+[White "Arcas Rodriguez, Jordi"]
+[Black "Soidan Parcerisas, Manel"]
+[Result "1-0"]
+[ECO "A40"]
+[WhiteElo "1613"]
+[BlackElo "1851"]
+[PlyCount "79"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 e5 2. dxe5 Nc6 3. Nf3 Qe7 4. Bg5 Qb4+ 5. Nbd2 Qxb2 6. Qb1 Qc3 7. e3 Nxe5
+8. Nxe5 Qxe5 9. Bf4 Qc3 10. Bd3 Bb4 11. e4 Nf6 12. O-O d6 13. Nf3 O-O 14. Bd2
+Qxd2 15. Nxd2 Bxd2 16. Qb2 d5 17. Rad1 Bf4 18. exd5 Ng4 19. h3 Nf6 20. c4 b6
+21. Rfe1 Bb7 22. Qd4 Bd6 23. Qh4 h6 24. Re3 Nd7 25. Rde1 f5 26. Qh5 Rf6 27.
+Re8+ Rxe8 28. Qxe8+ Nf8 29. Qb8 Ba6 30. Qxa7 Bc8 31. Qb8 Bd7 32. Qa7 Ng6 33. a4
+Nf4 34. Bc2 Rg6 35. g3 Nxh3+ 36. Kg2 Ng5 37. Qb8+ Kf7 38. Qd8 Bxa4 39. Bxa4 Ne4
+40. Be8+ 1-0
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.02.18"]
+[Round "6"]
+[White "Soidan Parcerisas, Manel"]
+[Black "Rovira Morancho, Miquel"]
+[Result "0-1"]
+[ECO "B12"]
+[WhiteElo "1851"]
+[BlackElo "1683"]
+[PlyCount "58"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c6 2. d4 d5 3. f3 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. e6 fxe6 8. Qc2
+Nf6 9. dxc5 Ne5 10. Nh3 Nxd3+ 11. Qxd3 e5 12. Ng5 g6 13. Nxh7 Rxh7 14. Qxg6+
+Rf7 15. h4 Qc7 16. h5 e4 17. Be3 exf3 18. O-O Bg4 19. h6 Qe5 20. Qd3 O-O-O 21.
+c6 bxc6 22. Qa6+ Kd7 23. Bxa7 Qe2 24. Qb7+ Ke8 25. Qxc6+ Bd7 26. Rf2 Qe1+ 27.
+Rf1 Qxf1+ 28. Kxf1 fxg2+ 29. Kxg2 Bxc6 0-1

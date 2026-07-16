@@ -1,0 +1,4261 @@
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.02.12"]
+[Round "4"]
+[White "Pinero Fernandez, Xavier"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1/2-1/2"]
+[ECO "D00"]
+[WhiteElo "2382"]
+[BlackElo "2372"]
+[PlyCount "97"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Bf4 c5 3. e4 dxe4 4. d5 a6 5. Nc3 Nf6 6. Qe2 Qa5 7. O-O-O g6 8. f3
+Bg7 9. fxe4 b5 10. d6 Nc6 11. Kb1 Bg4 12. Nf3 O-O 13. dxe7 Rfe8 14. h3 b4 15.
+Nd5 Nxd5 16. exd5 b3 17. a3 Bf5 18. dxc6 bxc2+ 19. Ka1 Bxb2+ 20. Kxb2 Rab8+ 21.
+Bxb8 Rxb8+ 22. Ka2 Be6+ 23. Qxe6 fxe6 24. Rd8+ Rxd8 25. exd8=Q+ Qxd8 26. Bc4
+Qd6 27. Re1 Qxc6 28. Kb2 Kg7 29. Kxc2 Qa4+ 30. Bb3 Qxa3 31. Rxe6 Qb4 32. Nd2
+Qb7 33. g4 a5 34. g5 h6 35. h4 hxg5 36. hxg5 Qd7 37. Nf3 a4 38. Bc4 Qb7 39. Rf6
+a3 40. Rf7+ Qxf7 41. Bxf7 Kxf7 42. Ne5+ Ke6 43. Nxg6 Kf5 44. Ne7+ Kxg5 45. Kb3
+Kf6 46. Nc8 c4+ 47. Kxa3 c3 48. Kb3 c2 49. Kxc2 1/2-1/2
+
+[Event "Lliga Catalana 2022"]
+[Site "?"]
+[Date "2022.02.19"]
+[Round "5.3"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Diaz Camallonga, Carles"]
+[Result "0-1"]
+[ECO "C01"]
+[WhiteElo "2372"]
+[BlackElo "2514"]
+[PlyCount "110"]
+[EventDate "2022.??.??"]
+[SourceVersion "1"]
+[SourceVersionDate "2022.03.14"]
+[SourceQuality "1"]
+[WhiteTeam "Salauris"]
+[BlackTeam "Colon Sabadell"]
+
+{[%evp 0,110,61,-1,67,25,42,26,26,-40,-49,-30,6,22,28,33,57,17,34,17,51,60,66,
+13,56,49,35,25,56,25,37,49,49,8,8,-4,26,-51,-5,4,20,-106,-27,-108,-108,-123,
+-112,-112,-115,-132,-104,-138,-116,-133,-165,-154,-159,-170,-134,-158,-132,
+-165,-157,-164,-153,-182,-164,-164,-147,-147,-239,-189,-163,-200,-161,-183,
+-147,-178,-178,-178,-158,-174,-169,-227,-227,-227,-227,-227,-209,-209,-209,
+-209,-209,-209,-185,-210,-185,-198,-206,-216,-217,-219,-219,-219,-217,-213,
+-213,-309,-311,-630,-311,-630,-343]} 1. e4 e6 2. d4 d5 3. Bd3 dxe4 4. Bxe4 Nf6
+5. Bf3 Nbd7 6. Ne2 Bd6 7. Nbc3 e5 8. Bg5 h6 9. Bxf6 Qxf6 10. Ne4 Qe7 11. Nxd6+
+Qxd6 12. O-O O-O 13. Re1 Rd8 14. Ng3 Qxd4 15. Qxd4 exd4 16. Re7 c6 17. Rae1 Nf8
+18. Be2 Rb8 19. Bd3 Ne6 20. Bc4 Kf8 21. Bxe6 Bxe6 22. Rc7 Rdc8 23. Rxc8+ Rxc8
+24. b3 c5 25. f4 b6 26. Re5 Re8 27. Kf2 f6 28. Re1 Bd5 29. Rd1 Re3 30. Rd2 g5
+31. fxg5 hxg5 32. Nf5 Re5 33. Ng3 Bf7 34. c3 dxc3 35. Rc2 Rd5 36. Ke2 f5 37.
+Rxc3 f4 38. Nf1 Bh5+ 39. Kf2 Rd1 40. g3 Ra1 41. gxf4 Rxa2+ 42. Kg3 gxf4+ 43.
+Kxf4 Rf2+ 44. Kg5 Bf7 45. Ne3 Rxh2 46. Nf5 Be6 47. Re3 Bxf5 48. Kxf5 Kf7 49.
+Rg3 Re2 50. Rh3 Ke7 51. Rd3 Rh2 52. Ke4 Rh4+ 53. Kd5 Kd7 54. Rd1 Kc7 55. Rd2
+Kb7 0-1
+
+[Event "Camp. España indiv."]
+[Site "Reus"]
+[Date "1968.??.??"]
+[Round "?"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Llorente"]
+[Result "1-0"]
+[ECO "C02"]
+[PlyCount "49"]
+[EventDate "1968.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Bd7 6. Bd3 Qb6 7. O-O cxd4 8. cxd4
+Nxd4 9. Nxd4 Qxd4 10. Nc3 Qxe5 11. Re1 Qd6 12. Nb5 Qb8 13. Qf3 Bd6 14. Nxd6+
+Qxd6 15. Bf4 Qb4 16. a3 Qb3 17. Qg3 Ne7 18. Qxg7 Rg8 19. Qxh7 O-O-O 20. Rac1+
+Nc6 21. Rxc6+ Bxc6 22. Qxf7 e5 23. Bxe5 Rxg2+ 24. Kh1 Rxh2+ 25. Kxh2 1-0
+
+[Event "Camp. España indiv."]
+[Site "Reus"]
+[Date "1968.??.??"]
+[Round "?"]
+[White "Merino Mejuto, Domingo"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1/2-1/2"]
+[ECO "D71"]
+[PlyCount "67"]
+[EventDate "1968.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. g3 Bg7 6. Bg2 Nxc3 7. bxc3 c5 8.
+e3 O-O 9. Nf3 Qa5 10. Bd2 Nc6 11. O-O Rd8 12. Qb3 Bg4 13. Qxb7 Rdc8 14. Qb2
+Rab8 15. Qc1 cxd4 16. exd4 Qh5 17. d5 Nb4 18. Ng5 Be2 19. h3 Bxf1 20. Bf3 Qh6
+21. h4 Ba6 22. Nxf7 Qxd2 23. Qxd2 Bxc3 24. Nh6+ Kg7 25. Qc1 Nd3 26. Qe3 Bxa1
+27. Qxe7+ Kxh6 28. g4 Rb1+ 29. Kg2 Ne1+ 30. Kg3 Be5+ 31. Qxe5 Nxf3 32. Qe3+ Kg7
+33. Qe7+ Kg8 34. Qe6+ 1/2-1/2
+
+[Event "Camp. España indiv."]
+[Site "Reus"]
+[Date "1968.??.??"]
+[Round "?"]
+[White "Visier Segovia, Fernando"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1/2-1/2"]
+[ECO "D93"]
+[PlyCount "83"]
+[EventDate "1968.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 g6 4. Nc3 Bg7 5. Bf4 O-O 6. e3 c5 7. dxc5 Qa5 8. Be2
+dxc4 9. Bxc4 Ne4 10. O-O Nxc3 11. bxc3 Qxc5 12. Bb3 e5 13. Bg3 Nc6 14. Ng5 Qe7
+15. h4 h6 16. Ne4 Bf5 17. Nd6 Be6 18. Bxe6 Rad8 19. Bd5 Rxd6 20. e4 Kh8 21. Qa4
+Bf6 22. Rab1 Rc8 23. Rb3 Rc7 24. Qa3 Rcd7 25. Rb5 a6 26. Rb6 Nd4 27. cxd4 Rxb6
+28. Qe3 Bg7 29. dxe5 Rb5 30. Rc1 Kh7 31. h5 Bxe5 32. a4 Ra5 33. hxg6+ fxg6 34.
+Rc8 g5 35. Qf3 Qf6 36. Rh8+ Kg6 37. Bxe5 Qxe5 38. Rxh6+ Kxh6 39. Qh3+ Kg6 40.
+Qxd7 Qa1+ 41. Kh2 Qh8+ 42. Kg1 1/2-1/2
+
+[Event "Berga op"]
+[Site "Berga"]
+[Date "1969.??.??"]
+[Round "5"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Catalan Homedes, Enrique"]
+[Result "1-0"]
+[ECO "C29"]
+[PlyCount "51"]
+[EventDate "1969.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nc3 Nf6 3. f4 d5 4. fxe5 Nxe4 5. Nf3 Bg4 6. Qe2 Nxc3 7. bxc3 Nd7 8.
+d4 Nb6 9. Rb1 Be7 10. Qf2 Qd7 11. a4 c6 12. a5 Nc8 13. Bd3 b6 14. O-O bxa5 15.
+Qg3 O-O 16. Rb7 Qxb7 17. Qxg4 f5 18. Bxf5 Rxf5 19. Qxf5 Nb6 20. Ng5 Bxg5 21.
+Bxg5 h6 22. Qe6+ Kh8 23. Rf7 Nd7 24. Bxh6 Qb1+ 25. Rf1 Qxc2 26. Bxg7+ 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1969.??.??"]
+[Round "1"]
+[White "Toran Albero, Roman"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1/2-1/2"]
+[ECO "A14"]
+[PlyCount "46"]
+[EventDate "1969.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. Nf3 c5 2. c4 b6 3. g3 Bb7 4. Bg2 Nf6 5. O-O e6 6. b3 Be7 7. Bb2 O-O 8. e3 d5
+9. Nc3 Nc6 10. d3 dxc4 11. dxc4 Qc7 12. Nb5 Qb8 13. Qe2 a6 14. Nc3 Qa7 15. Ng5
+Rad8 16. f4 Nb4 17. Rad1 h6 18. Nf3 Qa8 19. Ne5 Nc6 20. Qf3 Na5 21. Qe2 Nc6 22.
+Qf3 Na5 23. Qe2 Nc6 1/2-1/2
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1969.??.??"]
+[Round "2"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Bosch Codina, Joaquin"]
+[Result "1-0"]
+[ECO "C41"]
+[PlyCount "61"]
+[EventDate "1969.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. e4 Nf6 2. Nc3 e5 3. Nf3 d6 4. d4 exd4 5. Nxd4 Be7 6. Bf4 O-O 7. Qd2 a6 8.
+O-O-O b5 9. f3 Be6 10. Nf5 Bxf5 11. exf5 Nc6 12. g4 Ne5 13. h4 b4 14. Ne2 Nc4
+15. Qd4 d5 16. g5 Nh5 17. Bh2 Nb6 18. f6 Nxf6 19. gxf6 Bxf6 20. Be5 Bxe5 21.
+Qxe5 Re8 22. Qd4 c5 23. Qxc5 Rc8 24. Qxb4 Rc4 25. Qb3 a5 26. Nc3 Rb4 27. Qa3
+Nc4 28. Bxc4 Re3 29. Bxd5 Qf6 30. Qxa5 g6 31. Qxb4 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1969.??.??"]
+[Round "3"]
+[White "Ivkov, Borislav"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1-0"]
+[ECO "A50"]
+[PlyCount "51"]
+[EventDate "1969.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. d4 Nf6 2. c4 b6 3. Nc3 e6 4. e4 d6 5. Bd3 Nbd7 6. Nge2 c5 7. O-O Be7 8. f4
+Bb7 9. e5 dxe5 10. dxe5 Ng4 11. Be4 Bxe4 12. Nxe4 f5 13. exf6 gxf6 14. h3 Nh6
+15. N2g3 f5 16. Ng5 Bxg5 17. fxg5 Nf7 18. Qe2 Nde5 19. Bf4 Qd4+ 20. Kh2 Qxc4
+21. Rae1 Qxe2 22. Rxe2 Nd3 23. Rxe6+ Kd7 24. Rf6 Nxf4 25. Rxf7+ Ke8 26. Rb7 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1969.??.??"]
+[Round "4"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Marovic, Drazen"]
+[Result "0-1"]
+[ECO "B11"]
+[PlyCount "104"]
+[EventDate "1969.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. e4 c6 2. Nc3 d5 3. Nf3 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. d3 e6 7. a3 Nbd7 8. g4
+Bc5 9. Qg3 dxe4 10. dxe4 e5 11. Bd2 Bd4 12. Bd3 Nc5 13. g5 Nh5 14. Qf3 Nf4 15.
+Bxf4 Bxc3+ 16. bxc3 exf4 17. Qxf4 O-O 18. Qe3 Qa5 19. O-O Qxc3 20. e5 g6 21. f4
+Rad8 22. Rad1 Rd5 23. Rf3 Rfd8 24. Kf1 Qxa3 25. f5 Nxd3 26. e6 Rxf5 27. Rxf5
+gxf5 28. Re1 Qe7 29. exf7+ Qxf7 30. cxd3 Qd5 31. Re2 f4 32. Qe7 Qh1+ 33. Kf2
+Qh2+ 34. Ke1 Qg3+ 35. Rf2 Qe3+ 36. Qxe3 fxe3 37. Ra2 Rxd3 38. Rxa7 Rd7 39. Ke2
+Re7 40. h4 Kf7 41. h5 Ke6 42. Ra5 b5 43. Ra8 Kd5 44. h6 b4 45. Ra1 c5 46. Rh1
+Re8 47. Rd1+ Kc4 48. Rd7 Re5 49. Rxh7 Rxg5 50. Kxe3 Rh5 51. Kd2 Rh2+ 52. Kd1 b3
+0-1
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1969.??.??"]
+[Round "5"]
+[White "Ulvestad, Olaf"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "0-1"]
+[ECO "D91"]
+[PlyCount "84"]
+[EventDate "1969.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Bg5 Ne4 6. Bh4 Nxc3 7. bxc3 c5 8. e3
+Nc6 9. cxd5 Qxd5 10. Qb3 Qxb3 11. axb3 Be6 12. Ra3 a6 13. Kd2 O-O-O 14. Bg3 Bd5
+15. Kc2 Be4+ 16. Kb2 cxd4 17. exd4 Bxf3 18. gxf3 e5 19. d5 Rxd5 20. Bh3+ f5 21.
+Rc1 Kb8 22. f4 Bh6 23. Ra4 exf4 24. Bxf4+ Bxf4 25. Rxf4 Ne5 26. Bf1 Re8 27. Rc2
+Nd3+ 28. Bxd3 Rxd3 29. f3 Ree3 30. Rh4 h5 31. f4 a5 32. Rg2 Rxc3 33. Rxg6 Rxb3+
+34. Kc2 a4 35. Rxh5 a3 36. Rg8+ Ka7 37. Rxf5 Rb2+ 38. Kd1 Rf3 39. Ke1 Rff2 40.
+Rh8 Rfe2+ 41. Kd1 Rg2 42. Ra5+ Kb6 0-1
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1969.??.??"]
+[Round "6"]
+[White "Pardo, Nestor"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1/2-1/2"]
+[ECO "D25"]
+[PlyCount "143"]
+[EventDate "1969.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 dxc4 4. e3 Bg4 5. Bxc4 e6 6. O-O Nbd7 7. Nbd2 Bd6 8.
+e4 e5 9. Qb3 O-O 10. h3 Bh5 11. Re1 Rb8 12. a4 Qe7 13. d5 Nc5 14. Qc2 Nfd7 15.
+g4 Bg6 16. Nf1 Nb6 17. Ng3 Nxc4 18. Qxc4 a6 19. a5 b5 20. Qc2 c6 21. dxc6 Rbc8
+22. Be3 b4 23. Nf5 Bxf5 24. exf5 Rxc6 25. Rac1 Rfc8 26. Ng5 e4 27. f3 Nd3 28.
+Qxc6 Rxc6 29. Rxc6 Qd7 30. Rxa6 Nxe1 31. Ra8+ Bf8 32. Bc5 Nxf3+ 33. Nxf3 Qd1+
+34. Ne1 Qxe1+ 35. Kg2 Qe2+ 36. Kg3 Qe1+ 37. Kg2 Qd2+ 38. Kg3 Qd3+ 39. Kh4 g5+
+40. Kxg5 Qd2+ 41. Kh4 Kg7 42. Bxf8+ Kf6 43. Ra6+ Ke5 44. Bg7+ Kd5 45. Rb6 e3
+46. Bh6 Qf2+ 47. Kh5 e2 48. Bd2 e1=Q 49. Bxe1 Qxe1 50. a6 Qe8 51. a7 Qa8 52.
+Ra6 Kc4 53. Kh6 Kb3 54. Kxh7 f6 55. Kg6 Kxb2 56. g5 b3 57. gxf6 Kc1 58. f7 b2
+59. Rb6 b1=Q 60. Rxb1+ Kxb1 61. h4 Kc2 62. h5 Kd3 63. h6 Ke4 64. h7 Qf8 65.
+a8=Q+ Qxa8 66. Kg7 Qa1+ 67. f6 Qg1+ 68. Kh8 Qc5 69. Kg8 Qg5+ 70. Kh8 Qxf6+ 71.
+Kg8 Qg6+ 72. Kh8 1/2-1/2
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1969.??.??"]
+[Round "7"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "B13"]
+[PlyCount "99"]
+[EventDate "1969.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Bd3 Nc6 5. c3 Nf6 6. Bf4 g6 7. Nf3 Bg7 8.
+Nbd2 O-O 9. h3 Re8 10. Ne5 Nh5 11. Bh2 Nxe5 12. dxe5 Bh6 13. Qf3 d4 14. Ne4
+dxc3 15. O-O cxb2 16. Rad1 Bc1 17. Bc4 Bf5 18. Rxd8 Raxd8 19. Nc3 Rc8 20. Bxf7+
+Kxf7 21. g4 Rxc3 22. e6+ Kg8 23. Qxc3 b1=Q 24. Rxc1 Qd3 25. Qxd3 Bxd3 26. gxh5
+Kg7 27. Be5+ Kh6 28. hxg6 Kxg6 29. Rc5 Bf5 30. Rc7 Be4 31. Rc5 Rd8 32. f4 Bc6
+33. Bc3 Rd5 34. Rc4 Kf5 35. Bb4 Rd1+ 36. Kf2 Kxe6 37. Rc5 Rd5 38. Rxd5 Bxd5 39.
+a4 b6 40. a5 bxa5 41. Bxa5 Bc6 42. Ke3 Kd5 43. f5 Bd7 44. Kf4 e5+ 45. fxe6 Bxe6
+46. h4 Kc4 47. Ke3 Kb5 48. Be1 a5 49. Kd2 Kb4 50. Kc1+ 1/2-1/2
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1969.??.??"]
+[Round "8"]
+[White "O' Kelly de Galway, Alberic"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1-0"]
+[ECO "A25"]
+[PlyCount "97"]
+[EventDate "1969.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. c4 e5 2. Nc3 Nc6 3. g3 Bc5 4. Bg2 d6 5. e3 f5 6. Nge2 Bb6 7. d4 Nf6 8. b4 a5
+9. b5 Ne7 10. Ba3 exd4 11. Nxd4 O-O 12. O-O Ng6 13. Na4 Bxd4 14. Qxd4 Be6 15.
+Rfd1 b6 16. Nc3 Ne5 17. Nd5 Nxd5 18. cxd5 Bd7 19. Bb2 Qe7 20. a4 Be8 21. f4 Ng4
+22. e4 fxe4 23. Bxe4 Qf6 24. Rac1 Ra7 25. h3 Qxd4+ 26. Bxd4 Nf6 27. Bxf6 Rxf6
+28. Rd4 Rf7 29. Rdc4 Re7 30. Kf2 Bf7 31. Bf3 Kf8 32. g4 Bg6 33. f5 Bf7 34. Re4
+Rxe4 35. Bxe4 h6 36. h4 Ke7 37. g5 hxg5 38. hxg5 Bg8 39. Ke3 Kf7 40. Kd4 Ke7
+41. Bf3 Bf7 42. Bg4 Rb7 43. f6+ gxf6 44. Re1+ Kf8 45. gxf6 Rb8 46. Re7 Re8 47.
+Rxf7+ Kxf7 48. Bh5+ Kf8 49. Bxe8 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1969.??.??"]
+[Round "9"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Calvo Minguez, Ricardo"]
+[Result "0-1"]
+[ECO "B87"]
+[PlyCount "78"]
+[EventDate "1969.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bc4 e6 7. Bb3 b5 8. O-O
+Bb7 9. Bxe6 fxe6 10. Nxe6 Qc8 11. Nd5 Bxd5 12. exd5 Ra7 13. a4 b4 14. Bg5 Nbd7
+15. Qe2 Kf7 16. Rae1 Nc5 17. Bxf6 gxf6 18. Qh5+ Kg8 19. Nxc5 dxc5 20. Re8 Qd7
+21. Rfe1 Kg7 22. R1e4 Rg8 23. Qf3 Kh8 24. Qxf6+ Qg7 25. Qxg7+ Bxg7 26. Rxg8+
+Kxg8 27. Re8+ Kf7 28. Rc8 Bxb2 29. Rxc5 Kf6 30. Rc4 Bc3 31. f4 Rd7 32. g4 Rxd5
+33. Rc6+ Kf7 34. Rxa6 Rd2 35. Ra7+ Ke6 36. Rxh7 Rxc2 37. Rb7 Kd5 38. f5 Ke4 39.
+Rd7 b3 0-1
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1970.??.??"]
+[Round "?"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Tatai, Stefano"]
+[Result "0-1"]
+[ECO "A01"]
+[PlyCount "112"]
+[EventDate "1970.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. b3 c5 2. Bb2 Nc6 3. f4 Nf6 4. Nf3 g6 5. e4 Bg7 6. Nc3 Nxe4 7. Nxe4 Bxb2 8.
+Rb1 Bg7 9. Nxc5 d6 10. Ne4 O-O 11. Be2 Qa5 12. O-O Qf5 13. Bd3 Qxf4 14. c3 d5
+15. g3 Qc7 16. Nf2 e5 17. Be2 Bf5 18. Rc1 Rad8 19. d3 Qb6 20. Kg2 e4 21. Nh4
+Bc8 22. Nh3 d4 23. c4 Nb4 24. Ra1 Qc6 25. a3 exd3+ 26. Bf3 Nc2 27. Bxc6 Ne3+
+28. Kg1 Nxd1 29. Raxd1 bxc6 30. Nf2 Bh6 31. Nxd3 Rfe8 32. Rfe1 Re3 33. Ng2 Bg4
+34. Nxe3 Bxe3+ 35. Kg2 Bxd1 36. Rxd1 f5 37. Ne5 Rd6 38. c5 Rd5 39. Nd3 Kg7 40.
+Kf3 g5 41. b4 Kf6 42. a4 a6 43. Nb2 g4+ 44. Ke2 f4 45. gxf4 Rh5 46. Nc4 Rxh2+
+47. Kd3 Bxf4 48. Kxd4 Kg5 49. Ne5 Bxe5+ 50. Kxe5 g3 51. b5 axb5 52. axb5 cxb5
+53. Rc1 Re2+ 54. Kd4 g2 55. c6 Kf4 56. Kd3 Re7 0-1
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1970.??.??"]
+[Round "?"]
+[White "O' Kelly de Galway, Alberic"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "0-1"]
+[ECO "A50"]
+[PlyCount "96"]
+[EventDate "1970.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 b6 3. Nc3 d5 4. cxd5 Nxd5 5. Nf3 e6 6. e4 Nxc3 7. bxc3 Be7 8.
+Bd3 O-O 9. O-O Bb7 10. Qe2 Nd7 11. Re1 Re8 12. Bb2 c5 13. Qd2 Rc8 14. Rad1 Nf8
+15. Bb5 Bc6 16. Bxc6 Rxc6 17. d5 exd5 18. exd5 Rd6 19. c4 Bf6 20. Bxf6 Rxf6 21.
+Ne5 Ng6 22. Nxg6 hxg6 23. Rxe8+ Qxe8 24. d6 Qd7 25. Qd5 Re6 26. h3 Kf8 27. a4
+a5 28. g3 Re8 29. h4 Re6 30. Kg2 Kg8 31. Rd2 Kh7 32. Kh2 Kg8 33. Qd3 Kf8 34.
+Rd1 Kg8 35. Kg1 Kf8 36. Qd2 Kg8 37. Qf4 Qxa4 38. Qf3 Qd7 39. Qa8+ Re8 40. Qd5
+Rd8 41. Re1 Kh7 42. Re7 Qxd6 43. Qxf7 Qd4 44. h5 Rd6 45. Re8 Rf6 46. Qg8+ Kh6
+47. Qh8+ Kg5 48. Re5+ Qxe5 0-1
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1970.??.??"]
+[Round "5"]
+[White "Hartoch, Robert"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1-0"]
+[ECO "A34"]
+[PlyCount "71"]
+[EventDate "1970.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. c4 c5 2. Nc3 b6 3. Nf3 Bb7 4. b3 g6 5. Bb2 Bg7 6. e3 Nh6 7. d4 cxd4 8. exd4
+O-O 9. Be2 Nf5 10. O-O e6 11. d5 exd5 12. cxd5 d6 13. a4 Na6 14. Bd3 Ne7 15.
+Bc4 Nb4 16. Qd2 a6 17. Rad1 b5 18. axb5 axb5 19. Nxb5 Nbxd5 20. Bxg7 Kxg7 21.
+Rfe1 Bc6 22. Nfd4 Bb7 23. Qg5 h6 24. Qg3 Ra6 25. Nc3 Ra5 26. Nxd5 Nxd5 27. Nf5+
+Kh7 28. Nxd6 Bc6 29. b4 Nxb4 30. Nb7 Qg5 31. Nxa5 Qxa5 32. Re7 Qf5 33. Bf1 Kg8
+34. Qd6 Qg4 35. Rd4 Qg5 36. Qxb4 1-0
+
+[Event "Berga op"]
+[Site "Berga"]
+[Date "1971.??.??"]
+[Round "?"]
+[White "Martin Gonzalez, Angel"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1-0"]
+[ECO "B35"]
+[PlyCount "87"]
+[EventDate "1971.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. Nc3 Bg7 6. Be3 Nf6 7. Bc4 Qa5 8.
+O-O O-O 9. Nb3 Qc7 10. Be2 d6 11. f4 b6 12. Bf3 Ba6 13. Re1 Rac8 14. Qd2 Nd7
+15. Nd4 Nxd4 16. Bxd4 e5 17. Nd5 Qxc2 18. Qxc2 Rxc2 19. Bc3 exf4 20. Bxg7 Kxg7
+21. Nb4 Rxb2 22. Nxa6 Rc8 23. Reb1 Rd2 24. Rd1 Rb2 25. Rab1 Rxa2 26. Nb4 Ra4
+27. Rxd6 Ne5 28. Bd1 Ra3 29. Nc2 Rac3 30. Nd4 Re3 31. Bf3 Rcc3 32. Rd5 Nc4 33.
+Rd7 Kh6 34. Rd1 a5 35. Rxf7 Ne5 36. Rxf4 Rcd3 37. Kf1 Rxd1+ 38. Bxd1 Rd3 39.
+Ne6 g5 40. Rf6+ Ng6 41. Be2 Rd6 42. g4 a4 43. h4 a3 44. hxg5# 1-0
+
+[Event "Berga op"]
+[Site "Berga"]
+[Date "1971.??.??"]
+[Round "?"]
+[White "Perdigo Ralle, Alberto"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1-0"]
+[ECO "A45"]
+[PlyCount "77"]
+[EventDate "1971.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nc3 e6 3. e4 Bb4 4. e5 Ng8 5. Qg4 g6 6. h4 h5 7. Qg3 c5 8. a3
+Bxc3+ 9. bxc3 Nc6 10. Nf3 Nge7 11. Bd3 Qa5 12. O-O c4 13. Be4 Nd5 14. Ng5 Nce7
+15. Qf3 Nf5 16. Bxd5 exd5 17. Nh3 b6 18. Bg5 Bb7 19. Nf4 Kf8 20. Bf6 Rh7 21.
+Nh3 Kg8 22. Rfe1 Re8 23. Re2 Bc6 24. Kh1 b5 25. Ng5 Rh6 26. g3 Qa4 27. Qf4 b4
+28. cxb4 c3 29. f3 Rf8 30. Rh2 Rh8 31. Bxh8 Kxh8 32. g4 Nh6 33. Ne6 dxe6 34.
+Qxh6+ Kg8 35. gxh5 Be8 36. Rg1 Qd7 37. Rhg2 Qe7 38. hxg6 f5 39. g7 1-0
+
+[Event "Berga op"]
+[Site "Berga"]
+[Date "1971.08.24"]
+[Round "4"]
+[White "Travesset Barba, Joaquin"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "0-1"]
+[ECO "A58"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "77"]
+[EventDate "1971.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 c5 4. d5 b5 5. cxb5 a6 6. bxa6 Bxa6 7. g3 d6 8. Bg2
+Bg7 9. Nc3 O-O 10. O-O Nbd7 11. Qc2 Qb6 12. Rd1 Rfb8 13. Rb1 (13. h3) 13... Ng4
+14. h3 Nge5 15. Nd2 Qa5 16. f4 (16. Ra1) 16... Nc4 17. Nb3 Qb4 18. Bd2 $6 (18.
+e4) 18... Kf8 19. Kh2 Nxd2 20. Nxd2 Bc4 21. a3 Bb3 22. Nxb3 Qxb3 23. Rdc1 Qxc2
+24. Rxc2 Rb3 25. Ne4 $14 Rab8 26. Nd2 $1 Rxb2 27. Rcxb2 Rxb2 28. Rxb2 Bxb2 29.
+Nc4 $14 (29. a4 $144) 29... Bc3 30. e4 (30. a4 Ke8 31. a5 Kd8 32. Kg1 Kc7 33.
+e4 Kb7 34. e5 f5 35. exd6 exd6 36. Nxd6+ Ka6 37. Nc4 Bxa5 38. Ne5 $1 Nxe5 $1
+39. fxe5 c4 40. Kf2 (40. Bf1 Kb5 $11) 40... c3 41. Bf1+ Kb6 42. Bd3 Kc5 43. d6
+Kd4 44. e6 Kxd3 45. e7 c2 46. e8=Q c1=Q 47. Qb5+ Qc4 48. Qxa5 Qd4+ 49. Kf3 Qxd6
+50. Qb5+ Kc3 51. Qa5+ Kc4 52. Qa4+ Kd5 53. Qb5+ Ke6 54. Qe8+ Qe7 55. Qc6+ Kf7
+$17) 30... Ke8 31. Bf1 $2 (31. Bf3 $1 Kd8 $14) (31. a4 $1 $16) 31... Kd8 32.
+Kg2 Kc7 33. Kf3 e6 34. Bd3 (34. Ne3 $142 $1 Nb6 35. Bc4 $1 $14) 34... exd5 35.
+exd5 Nb6 36. Nxb6 Kxb6 37. a4 Ka5 38. Bb5 Kb4 39. Ke4 $138 {i aquí va caure la
+bandera al blanc. Crec que és un final de taules} (39. Ke2 $142) (39. g4 $142)
+(39. Be8 $6 c4 40. Ke2 Bd4 41. Kd1 Kb3 42. Bb5 c3 43. Bd3 Kxa4 44. Kc2 $17) 0-1
+
+[Event "Berga op"]
+[Site "Berga"]
+[Date "1971.08.27"]
+[Round "7"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Ribera Arnal, Angel"]
+[Result "1-0"]
+[ECO "A06"]
+[PlyCount "99"]
+[EventDate "1971.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. b3 d5 2. Bb2 e6 3. Nf3 Nf6 4. e3 c5 5. Bb5+ Bd7 6. a4 Be7 7. O-O O-O 8. d3
+a6 9. Bxd7 Nbxd7 10. Nbd2 Qc7 11. h3 Rfd8 12. Nh2 e5 13. Ng4 Nxg4 14. Qxg4 Nf6
+15. Qf5 d4 16. Nc4 Nd7 17. a5 g6 18. Qf3 Re8 19. Rfe1 Bf8 20. Qg3 Qc6 21. e4
+Bh6 22. Qh4 Kg7 23. g3 Qf6 24. Qg4 Qe6 25. Kg2 Qxg4 26. hxg4 Re6 27. Rh1 Bg5
+28. Raf1 b5 29. axb6 Nxb6 30. Nxb6 Rxb6 31. f4 Bf6 32. Ra1 g5 33. Ra5 Rc6 34.
+Ba3 gxf4 35. gxf4 Rac8 36. Ra1 Bd8 37. Ra4 f6 38. Bc1 Ra8 39. Bd2 exf4 40. Kf3
+Be7 41. Bxf4 Kg6 42. Rc4 Rac8 43. Rh1 Kg7 44. Rh5 Kg6 45. Ra4 Bf8 46. Rd5 Re8
+47. Ra1 Bh6 48. Bxh6 Kxh6 49. Rh1+ Kg7 50. Rd7+ 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1971.??.??"]
+[Round "?"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Pares Vives, Jose"]
+[Result "1-0"]
+[ECO "A01"]
+[PlyCount "41"]
+[EventDate "1971.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. b3 e5 2. Bb2 Nc6 3. e3 d6 4. Bb5 Bd7 5. Ne2 Qg5 6. O-O h5 7. Nbc3 h4 8. f4
+Qg6 9. Nd5 O-O-O 10. Bxc6 bxc6 11. Nb4 Bh3 12. Rf2 Nh6 13. Qf1 d5 14. Nd3 f6
+15. fxe5 Be7 16. Nd4 Kb7 17. exf6 Bd6 18. fxg7 Qxg7 19. Ne6 Bxh2+ 20. Kh1 Qg6
+21. Ndc5+ 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1972.??.??"]
+[Round "?"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Medina Garcia, Antonio"]
+[Result "0-1"]
+[ECO "A08"]
+[PlyCount "56"]
+[EventDate "1972.03.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. b3 c5 2. Bb2 Nf6 3. g3 d5 4. Nf3 Nc6 5. Bg2 e6 6. O-O Be7 7. e3 O-O 8. d3 b6
+9. Nbd2 Ba6 10. Qe2 Rc8 11. Rfd1 Qc7 12. c4 Rfd8 13. Rac1 Qb8 14. d4 h6 15. e4
+dxc4 16. Nxc4 cxd4 17. e5 Nd5 18. Nxd4 Nxd4 19. Rxd4 b5 20. Nd6 Rxc1+ 21. Bxc1
+Bxd6 22. exd6 Qxd6 23. Qg4 Kf8 24. Qe4 Qb6 25. Bb2 Nf6 26. Qf4 Kg8 27. Rxd8+
+Qxd8 28. Bxf6 $4 Qd1+ 0-1
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1972.??.??"]
+[Round "?"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Pfleger, Helmut"]
+[Result "1/2-1/2"]
+[ECO "A06"]
+[PlyCount "78"]
+[EventDate "1972.03.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. b3 d5 2. Bb2 Nf6 3. Nf3 c5 4. e3 Nc6 5. Bb5 e6 6. Ne5 Qc7 7. O-O Bd6 8. f4
+O-O 9. Bxc6 bxc6 10. Rf3 Nd7 11. Rh3 g6 12. Qh5 Nf6 13. Qh6 d4 14. Ng4 Nh5 15.
+Rxh5 f5 16. Rg5 fxg4 17. Na3 e5 18. Nc4 Bf5 19. Nxd6 Qxd6 20. e4 Bxe4 21. Rxe5
+Rae8 22. d3 Bxg2 23. Rae1 Rxe5 24. Rxe5 Bh3 25. Ba3 Rf6 26. Re8+ Kf7 27. Re4
+Kg8 28. Bc1 Re6 29. f5 Rxe4 30. dxe4 d3 31. Bb2 Qf8 32. Qxf8+ Kxf8 33. cxd3
+gxf5 34. Ba3 fxe4 35. Bxc5+ Kf7 36. dxe4 a6 37. Kf2 Ke6 38. Bd4 h5 39. a3 h4
+1/2-1/2
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1972.??.??"]
+[Round "?"]
+[White "Ljubojevic, Ljubomir"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1-0"]
+[ECO "A01"]
+[PlyCount "65"]
+[EventDate "1972.03.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. b3 e5 2. Bb2 Nc6 3. c4 Nf6 4. e3 d5 5. cxd5 Nxd5 6. a3 Bd6 7. Qc2 O-O 8. Nf3
+Qe7 9. d3 Bg4 10. Nbd2 Rad8 11. Be2 Rfe8 12. O-O Qf6 13. b4 Qh6 14. Ne4 a6 15.
+Rac1 Nf6 16. Rfd1 Nxe4 17. dxe4 Re6 18. Qc4 Rg6 19. Nxe5 Be6 20. Qc2 Re8 21.
+Nf3 Bg4 22. g3 Bxf3 23. Bxf3 Ne5 24. Bg2 Ng4 25. h3 Ne5 26. f4 Rxg3 27. fxe5
+Be7 28. Qf2 Qxh3 29. Rxc7 Qg4 30. Rdd7 Bf8 31. e6 fxe6 32. Rxg7+ Bxg7 33. Qf7+
+1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1972.??.??"]
+[Round "?"]
+[White "Mariotti, Sergio"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1-0"]
+[ECO "B38"]
+[PlyCount "49"]
+[EventDate "1972.03.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. c4 Bg7 6. Be3 Nh6 7. Be2 O-O 8.
+Qd2 Nxd4 9. Bxd4 d6 10. Bxg7 Kxg7 11. h4 f6 12. Nc3 Be6 13. Nd1 a6 14. a3 Rc8
+15. Ne3 Qd7 16. Qd4 Qa4 17. b4 Qc6 18. Nd5 Bxd5 19. cxd5 Qd7 20. O-O Kf7 21.
+Rfe1 Rc7 22. a4 a5 23. bxa5 Rc5 24. Reb1 Rxa5 25. Qd2 1-0
+
+[Event "Camp. España eq. Final A"]
+[Site "Barcelona"]
+[Date "1973.09.??"]
+[Round "3"]
+[White "Menvielle Lacourrelle, Augusto"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1-0"]
+[ECO "B22"]
+[PlyCount "82"]
+[EventDate "1973.09.??"]
+[EventType "team"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. c3 Nf6 4. e5 Nd5 5. d4 cxd4 6. cxd4 Nc6 7. Nc3 Nxc3 8.
+bxc3 Qc7 9. Bd3 d5 10. exd6 Bxd6 11. O-O Ne7 12. c4 b6 13. Bb2 f6 14. Re1 Rb8
+15. h3 Kf7 16. Nh4 h5 17. Qc2 Rh6 18. Bc1 g5 19. Nf3 Bf4 20. Bxf4 Qxf4 21. d5
+g4 22. Re4 Qc7 23. dxe6+ Kf8 24. Qd2 Rh8 25. Nh4 gxh3 26. Rf4 Qe5 27. Re1 Qg5
+28. Bf1 Bb7 29. g3 Rh7 30. Bxh3 Rg7 31. Qd4 Kg8 32. Qxf6 Qc5 33. Qd4 Qa5 34.
+Qe5 Qxe5 35. Rxe5 Rd8 36. Kh2 Rd2 37. Nf5 Nxf5 38. Bxf5 h4 39. e7 hxg3+ 40. Kh3
+Bg2+ 41. Kh4 Bf3 $138 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1974.03.17"]
+[Round "1"]
+[White "Iskov, Gert"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1/2-1/2"]
+[ECO "B31"]
+[WhiteElo "2380"]
+[BlackElo "2400"]
+[PlyCount "117"]
+[EventDate "1974.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. O-O Bg7 5. Re1 e5 6. b4 cxb4 7. a3 Nge7 8. Bb2
+O-O 9. axb4 d6 10. Bxc6 Nxc6 11. b5 Nb8 12. d4 Bg4 13. dxe5 Nd7 14. Qd3 Bxf3
+15. Qxf3 Rc8 16. Qe2 Nxe5 17. Rxa7 Qb6 18. Ra3 Rc5 19. Nc3 Rfc8 20. Nd5 Qd8 21.
+Ne3 Nc4 22. Nxc4 Rxc4 23. Bxg7 Rxc2 24. Qd1 Kxg7 25. Rf3 Qe7 26. g3 R8c5 27.
+Qd4+ Qe5 28. Qxe5+ dxe5 29. b6 Rc1 30. Rxc1 Rxc1+ 31. Kg2 Rb1 32. Rc3 Rxb6 33.
+Rc7 h5 34. h4 Kf6 35. Kh3 Ke6 36. Kg2 Rb2 37. Kf3 b5 38. Rc6+ Kd7 39. Rf6 Ke7
+40. Rb6 b4 41. Ke3 b3 42. f4 exf4+ 43. Kxf4 Kf8 44. Rb7 Rb1 45. Kf3 b2 46. Kg2
+Ke8 47. e5 Kd8 48. Kh2 Kc8 49. Rb4 Kc7 50. Rb3 Kc6 51. Kg2 Kc5 52. Rb8 Kd4 53.
+Rd8+ Ke3 54. Rb8 Rd1 55. Rxb2 Rd2+ 56. Rxd2 Kxd2 57. Kf3 Kd3 58. g4 hxg4+ 59.
+Kxg4 1/2-1/2
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1974.03.18"]
+[Round "2"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Ghitescu, Theodor"]
+[Result "1/2-1/2"]
+[ECO "B23"]
+[WhiteElo "2400"]
+[BlackElo "2455"]
+[PlyCount "64"]
+[EventDate "1974.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. e4 c5 2. Nc3 d6 3. f4 e6 4. Nf3 Nf6 5. d3 Nc6 6. g3 Be7 7. Bg2 O-O 8. O-O a6
+9. h3 b5 10. e5 Nd5 11. exd6 Qxd6 12. Ne4 Qc7 13. c3 Bb7 14. Qe2 Rad8 15. Be3
+Nb8 16. Rad1 Nxe3 17. Qxe3 Nd7 18. Rfe1 Nf6 19. Nxf6+ Bxf6 20. Ne5 Bxg2 21.
+Kxg2 Bxe5 22. Qxe5 Qc6+ 23. Qe4 Qd5 24. Qxd5 Rxd5 25. Re5 Rfd8 26. Rxd5 Rxd5
+27. Kf3 Kf8 28. Ke3 Ke7 29. a4 b4 30. cxb4 cxb4 31. Rc1 Kd7 32. d4 h5 1/2-1/2
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1974.03.19"]
+[Round "3"]
+[White "Martin Gonzalez, Angel"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "0-1"]
+[ECO "B35"]
+[WhiteElo "2275"]
+[BlackElo "2400"]
+[PlyCount "116"]
+[EventDate "1974.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. e4 c5 2. Nf3 g6 3. d4 cxd4 4. Nxd4 Bg7 5. Nc3 Nc6 6. Be3 Nf6 7. Bc4 Qa5 8.
+O-O O-O 9. Bb3 d6 10. h3 Bd7 11. f4 Nxd4 12. Bxd4 Bc6 13. Qd3 Rad8 14. Rad1 Nd7
+15. Bxg7 Kxg7 16. Kh1 Nc5 17. Qd4+ e5 18. fxe5 Nxb3 19. axb3 dxe5 20. Qf2 f5
+21. b4 Qxb4 22. Rxd8 Rxd8 23. exf5 g5 24. f6+ Kf7 25. Qe3 Qh4 26. Kh2 g4 27.
+Qxe5 g3+ 28. Qxg3 Qxg3+ 29. Kxg3 Rg8+ 30. Kf4 Rxg2 31. Ke5 Rg3 32. h4 Re3+ 33.
+Kf4 Rh3 34. Rf2 Rxh4+ 35. Kg5 Rh1 36. Ne2 h6+ 37. Kf5 Rh5+ 38. Kg4 Rg5+ 39. Kh4
+Rg2 40. Rxg2 Bxg2 41. Nf4 Bf3 42. Kg3 Bd1 43. c3 Kxf6 44. Nd5+ Ke5 45. Ne3 Ba4
+46. Kh4 Be8 47. Kg3 Ke4 48. Kf2 Bb5 49. c4 Bd7 50. Ke2 a5 51. Kd2 Kd4 52. b3 h5
+53. Ng2 Bf5 54. Nf4 h4 55. Ng2 h3 56. Ne3 Ke4 57. Ke2 Kf4 58. Nf1 Bc2 0-1
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1974.03.20"]
+[Round "4"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Bartrina Mas, Modesto"]
+[Result "1-0"]
+[ECO "A20"]
+[WhiteElo "2400"]
+[PlyCount "97"]
+[EventDate "1974.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. c4 Nf6 2. g3 e5 3. Bg2 c5 4. Nc3 Nc6 5. e3 Be7 6. Nge2 O-O 7. O-O Ne8 8. d4
+exd4 9. exd4 Nxd4 10. Nxd4 cxd4 11. Qxd4 Bf6 12. Qd3 g6 13. Bf4 d6 14. Rad1 Bf5
+15. Qd2 Bg4 16. f3 Be6 17. b3 Qb6+ 18. Be3 Qa6 19. Ne4 Bg7 20. Bg5 f6 21. Bf4
+Rd8 22. Nc5 Qb6 23. Be3 dxc5 24. Qxd8 Kf7 25. Qxb6 axb6 26. f4 Bg4 27. Bd5+ Ke7
+28. Rfe1 Bxd1 29. Bxc5+ Kd7 30. Bxf8 Bxf8 31. Rxd1 Bc5+ 32. Kg2 Nd6 33. g4 Ke7
+34. Re1+ Kf8 35. Re6 f5 36. g5 Bb4 37. Bxb7 Bc5 38. Bd5 Bb4 39. h4 Bc5 40. Kf3
+Bb4 41. Ke3 Bc5+ 42. Kd3 Bb4 43. Kd4 Ba3 44. Kc3 b5 45. b4 Nxc4 46. Bxc4 bxc4
+47. Re1 Kg7 48. Rb1 h6 49. Kxc4 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1974.03.22"]
+[Round "5"]
+[White "Cuadras Avellana, Jordi"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "0-1"]
+[ECO "B35"]
+[BlackElo "2400"]
+[PlyCount "52"]
+[EventDate "1974.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. e4 c5 2. Nf3 g6 3. d4 cxd4 4. Nxd4 Bg7 5. Nc3 Nc6 6. Be3 Nf6 7. Bc4 Qa5 8.
+O-O O-O 9. Nb3 Qc7 10. f4 d6 11. Be2 b6 12. Nd5 Qd7 13. Bb5 Bb7 14. Nd4 Rac8
+15. Nb4 Ng4 16. Bc1 Bxd4+ 17. Qxd4 Nxd4 18. Bxd7 f5 19. Bxc8 Rxc8 20. c3 Ne2+
+21. Kh1 fxe4 22. Nc2 Rc5 23. Ne3 Nxh2 24. Re1 Rh5 25. g4 Nxg4+ 26. Kg2 Rh2+ 0-1
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1974.03.23"]
+[Round "6"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Quinteros, Miguel Angel"]
+[Result "0-1"]
+[ECO "B42"]
+[WhiteElo "2400"]
+[BlackElo "2520"]
+[PlyCount "88"]
+[EventDate "1974.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. e4 e6 2. d4 c5 3. Nf3 cxd4 4. Nxd4 a6 5. Bd3 Nf6 6. O-O Qc7 7. Nd2 Nc6 8.
+Nxc6 bxc6 9. f4 d5 10. c4 Be7 11. b3 dxe4 12. Nxe4 c5 13. Bb2 Bb7 14. Qe2 Rd8
+15. Rad1 Qc6 16. Ng5 h6 17. Nf3 O-O 18. Ne5 Qc7 19. Ng4 Rfe8 20. f5 exf5 21.
+Rxf5 Bc8 22. Rxf6 Bxf6 23. Nxf6+ gxf6 24. Qd2 Bf5 25. Qxh6 Rxd3 26. Rxd3 Bxd3
+27. Bxf6 Re1+ 28. Kf2 Rf1+ 29. Ke3 Rxf6 30. Qxf6 Bg6 31. g3 Qa5 32. Qa1 Qd8 33.
+Qc3 Qd1 34. h4 Qg1+ 35. Kf4 Qf2+ 36. Ke5 Qxa2 37. Qe3 Qa5 38. Kd5 Qb6 39. Qxc5
+Qxb3 40. Qc8+ Kh7 41. Qg4 Qd3+ 42. Kc6 f5 43. Qf4 Qe4+ 44. Kd7 Be8+ 0-1
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1974.03.24"]
+[Round "7"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1/2-1/2"]
+[ECO "A04"]
+[WhiteElo "2435"]
+[BlackElo "2400"]
+[PlyCount "35"]
+[EventDate "1974.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. Nf3 c5 2. e3 g6 3. d4 Bg7 4. c4 b6 5. Nc3 Bb7 6. Bd3 cxd4 7. exd4 Bxf3 8.
+Qxf3 Nc6 9. d5 Ne5 10. Qe2 Nh6 11. O-O Nxd3 12. Qxd3 O-O 13. Re1 Nf5 14. Bf4
+Rc8 15. Rad1 Re8 16. b3 Bxc3 17. Qxc3 d6 18. a4 1/2-1/2
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1974.03.25"]
+[Round "8"]
+[White "Ostojic, Predrag"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1-0"]
+[ECO "B27"]
+[WhiteElo "2440"]
+[BlackElo "2400"]
+[PlyCount "67"]
+[EventDate "1974.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. e4 c5 2. Nf3 g6 3. d4 cxd4 4. Qxd4 Nf6 5. Bb5 Nc6 6. Qa4 Bg7 7. Nc3 O-O 8.
+e5 Ne8 9. Bxc6 dxc6 10. Qh4 f6 11. O-O Bf5 12. Re1 Qc7 13. Qc4+ Kh8 14. Bf4
+fxe5 15. Nxe5 Nd6 16. Nf7+ Rxf7 17. Qxf7 Nxf7 18. Bxc7 e5 19. Ne4 b6 20. Nd6
+Nxd6 21. Bxd6 Re8 22. Re2 g5 23. h3 h5 24. Rae1 e4 25. c3 Bg6 26. Rd2 Bf7 27.
+a3 Bc4 28. Bc7 Kh7 29. Rd7 g4 30. hxg4 hxg4 31. Bf4 a5 32. Bc7 Be6 33. Rd8 Re7
+34. Rxe4 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1974.03.27"]
+[Round "9"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Lombardy, William J"]
+[Result "1/2-1/2"]
+[ECO "A21"]
+[WhiteElo "2400"]
+[BlackElo "2520"]
+[PlyCount "112"]
+[EventDate "1974.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. c4 e5 2. g3 d6 3. Bg2 g6 4. Nc3 Bg7 5. e3 f5 6. Nge2 Nf6 7. d3 O-O 8. b3 Kh8
+9. Qd2 Nc6 10. Bb2 Ne7 11. f4 c6 12. O-O Be6 13. Na4 exf4 14. exf4 Bg8 15. Rae1
+Qd7 16. Nd4 Rae8 17. Re2 Nc8 18. Rfe1 Rxe2 19. Rxe2 Re8 20. h3 Rxe2 21. Qxe2 c5
+22. Nc2 Ne7 23. d4 b6 24. dxc5 dxc5 25. Nc3 h6 26. Ne1 Nc6 27. Bxc6 Qxc6 28.
+Nf3 Kh7 29. Ne5 Qd6 30. Nb5 Qe7 31. Qd3 Ne8 32. Bc3 a6 33. Na3 Qd6 34. Qe2 Nf6
+35. Nf3 Ne4 36. Bxg7 Kxg7 37. Kh2 Bf7 38. Nc2 Be8 39. Ne5 Qd2 40. Qxd2 Nxd2 41.
+Ne3 b5 42. Kg2 bxc4 43. N3xc4 Nxc4 44. Nxc4 Kf6 45. Kf3 Ke6 46. h4 Bb5 47. Ne5
+g5 48. a4 Be8 49. Ke3 gxh4 50. gxh4 Kd6 51. Kd3 Kd5 52. Nc4 Bd7 53. Ne3+ Kc6
+54. Kc3 Be6 55. Kb2 Kc7 56. Kc2 Kb6 1/2-1/2
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1974.03.28"]
+[Round "10"]
+[White "Adorjan, Andras"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1-0"]
+[ECO "B31"]
+[WhiteElo "2515"]
+[BlackElo "2400"]
+[PlyCount "101"]
+[EventDate "1974.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. O-O Bg7 5. c3 e5 6. d4 cxd4 7. cxd4 exd4 8.
+Bf4 Nge7 9. Bd6 a6 10. Bc4 O-O 11. Nbd2 b5 12. Bd5 Nxd5 13. Bxf8 Qxf8 14. exd5
+Ne7 15. Nb3 Nf5 16. Na5 Qb4 17. Qd2 Qxd2 18. Nxd2 d3 19. Rab1 Ne7 20. d6 Nc6
+21. Ndb3 Bf8 22. Rfe1 Bxd6 23. Re8+ Kg7 24. Rd1 Bc7 25. Nxc6 dxc6 26. Rxd3 Bb6
+27. Rd6 Bb7 28. Rxa8 Bxa8 29. Nd4 Bb7 30. Nxc6 Bc5 31. Rd7 Bxc6 32. Rc7 Bd5 33.
+Rxc5 Bxa2 34. b4 Kf6 35. f4 Ke6 36. Kf2 h5 37. Rc6+ Kd5 38. Rxa6 Bb3 39. f5 Bc2
+40. fxg6 fxg6 41. Ke3 Bf5 42. Ra2 Kc4 43. Rf2 Kxb4 44. Kd4 Be6 45. Rb2+ Bb3 46.
+h4 Ka3 47. Rb1 Ka2 48. Rf1 Ka3 49. Kc3 Bc4 50. Rb1 Bd5 51. Rxb5 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1974.03.29"]
+[Round "11"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Martz, William E"]
+[Result "1/2-1/2"]
+[ECO "D76"]
+[WhiteElo "2400"]
+[BlackElo "2395"]
+[PlyCount "35"]
+[EventDate "1974.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. c4 Nf6 2. g3 g6 3. Bg2 d5 4. Nf3 Bg7 5. O-O O-O 6. cxd5 Nxd5 7. d4 Nb6 8. b3
+Nc6 9. e3 e5 10. Bb2 exd4 11. Nxd4 Nxd4 12. Bxd4 Bxd4 13. exd4 Nd5 14. Qd2 Be6
+15. Na3 c6 16. Nc4 Nb6 17. Ne3 Qd7 18. f4 1/2-1/2
+
+[Event "Costa Brava"]
+[Site "San Feliu de Guixols"]
+[Date "1974.??.??"]
+[Round "1"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Kurajica, Bojan"]
+[Result "1-0"]
+[ECO "A00"]
+[PlyCount "79"]
+[EventDate "1974.09.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "8"]
+
+1. g3 d5 2. Bg2 Nf6 3. c4 e6 4. e3 dxc4 5. Qa4+ c6 6. Qxc4 e5 7. Nf3 e4 8. Ng5
+Qd5 9. Qxd5 cxd5 10. d4 Nc6 11. a3 Na5 12. Nd2 b6 13. b4 Nb7 14. f3 h6 15. Nh3
+exf3 16. Nxf3 g5 17. Ne5 Nd6 18. O-O Nfe4 19. Nf2 Bg7 20. Bb2 f6 21. Nxe4 dxe4
+22. Ng6 Rg8 23. Rac1 Bd7 24. b5 Bxb5 25. Rf2 Bd7 26. a4 f5 27. Ne5 Rc8 28.
+Rxc8+ Bxc8 29. Rc2 Bd7 30. Rc7 Bxe5 31. dxe5 Nc8 32. g4 fxg4 33. Bxe4 Kd8 34.
+Rb7 Re8 35. a5 bxa5 36. Bc3 Re7 37. Bxa5+ Ke8 38. Bg6+ Kf8 39. Bb4 Bc6 40. Rc7
+1-0
+
+[Event "Costa Brava"]
+[Site "San Feliu de Guixols"]
+[Date "1974.09.11"]
+[Round "4"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Quinteros, Miguel Angel"]
+[Result "1-0"]
+[ECO "B94"]
+[Annotator "Toran, Roman"]
+[PlyCount "37"]
+[EventDate "1974.09.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "8"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 ({La "variante Najdorf" de
+la Defensa Siciliana, uno de los sistemas más practicados en los últimos 30
+años. Las principales alternativas son:} 5... e6 {; 5...g6 y 5...Cc6.}) 6. Bg5
+({La continuación más agresiva; ultimamente, Kárpov ha vuelto a emplear con
+éxito la posicional} 6. Be2 {.}) 6... Nbd7 ({Más usual es} 6... e6 7. f4 {, y
+aquí elegir entre ...Dc7, ...Ae7 o ...Cbd7, en cualquier orden o bien} Qb6 {,
+la activa defensa que ha perdido adeptos desde la derrota de Fischer en la
+decimoprimera partida de su match con Spassky, en la que se siguió con} 8. Qd2
+Qxb2 9. Nb3 $1) 7. f4 ({También es interesante} 7. Bc4 {.}) 7... b5 8. Qe2 {
+[Protege el peón "e" ante un eventual ...peón "b4", y apoya la ruptura peón
+"e5", a la vez que acelera el enroque largo, dentro del esquema agresivo
+elegido. ]} Qc7 9. O-O-O Bb7 10. e5 $1 {[Excelente sacrificio de peón, para
+abrir vías de penetración a sus piezas., especulando con el retrasado
+desarrollo de las piezas enemigas y la mala situación del rey negro, en el
+centro. ]} dxe5 11. fxe5 Qxe5 ({Después de} 11... Nxe5 {, las blancas podrían
+iniciar un juego combinativo, a base de} 12. Ndxb5 axb5 13. Nxb5 {.}) 12. Qxe5
+Nxe5 13. Ncxb5 $3 {[A pesar del cambio de damas, el ataque es fortísimo con
+este sacrificio en el que se especula con los factores señalados en el
+comentario de la jugada 10. ]} axb5 14. Bxb5+ Nfd7 ({Naturalmente, no servía} 
+14... Kd8 $2 {, a causa de} 15. Ne6+ Kc8 16. Rd8#) ({Ni} 14... Ned7 {, por} 15.
+Bxf6 gxf6 $1 16. Nb3 Bc8 17. Nc5 Ra7 18. Nxd7 Bxd7 19. Rxd7 Rxd7 20. Rd1 {,
+con abrumadora ventaja.}) 15. Rhe1 f6 ({Para evitar Txe5 no era posible} 15...
+Kd8 {, debido a} 16. Rxe5 $1 Nxe5 17. Ne6+ {, seguido de Td8 mate.}) 16. Rxe5
+$1 {[Así se elimina al mejor defensor del bando enemigo y el ataque alcanza su
+máxima potencia. ]} fxe5 17. Ne6 Kf7 ({Claro está que, si} 17... Bc8 18. Nc7+ {
+, recuperaría la torre con neta ventaja.}) 18. Bxd7 Rxa2 $2 ({Grave error que
+acelera el desenlace. De cualquier forma, la lucha ya está decidida, puesto
+que, si} 18... Kg6 $1 {, la mejor defensa, seguiría} 19. Rf1 h6 20. Be3 {y la
+movilidad de las piezas negras, junto con sus tres peones pasados en el flanco
+de dama, darían a las blancas un cómodo triunfo, al estar ampliamente
+conpensada la calidad -torre por caballo- sacrificada.}) 19. Rf1+ (19. Rf1+ {
+. Ante} Kg6 20. Be8#) 1-0
+
+[Event "Costa Brava"]
+[Site "San Feliu de Guixols"]
+[Date "1974.??.??"]
+[Round "5"]
+[White "Medina Garcia, Antonio"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1-0"]
+[ECO "B42"]
+[PlyCount "112"]
+[EventDate "1974.09.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "8"]
+[Source "ChessBase"]
+[SourceDate "2009.11.30"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Bd3 g6 6. Nc3 Bg7 7. Be3 d6 8. O-O
+Ne7 9. Qd2 O-O 10. Rad1 Qc7 11. Nf3 b5 12. Bh6 Bb7 13. Bxg7 Kxg7 14. Rfe1 Nbc6
+15. h4 Ne5 16. Nd4 h5 17. Qg5 N7c6 18. Nce2 Nxd4 19. Nxd4 Qc5 20. Bf1 Rfe8 21.
+Qg3 Rad8 22. c3 Kh7 23. a3 Rd7 24. Kh1 Qc7 25. Rd2 Ng4 26. Bd3 e5 27. Nf3 f6
+28. Nh2 Nh6 29. Bc2 Qd8 30. a4 Bc6 31. axb5 axb5 32. Ra1 Qb6 33. b4 Bb7 34. Qh3
+Ree7 35. Rad1 Nf7 36. Qf3 f5 37. Qe2 Qc6 38. f3 f4 39. Rd3 Qb6 40. Bb3 Nd8 41.
+Qd2 d5 42. Bxd5 Bxd5 43. Rxd5 Rxd5 44. Qxd5 Nf7 45. Nf1 Kg7 46. Qc5 Qxc5 47.
+bxc5 Rc7 48. Rd5 Kf6 49. Nd2 Ke6 50. c4 bxc4 51. Nxc4 Ra7 52. c6 Ra1+ 53. Kh2
+Rc1 54. Rc5 Nd6 55. c7 Nc8 56. Rxe5+ Kf6 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1975.??.??"]
+[Round "?"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Csom, Itsvan"]
+[Result "1/2-1/2"]
+[ECO "A05"]
+[PlyCount "83"]
+[EventDate "1975.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. Nf3 Nf6 2. b3 b6 3. g3 Bb7 4. Bg2 c5 5. O-O d6 6. d3 e6 7. e4 Be7 8. Bb2 O-O
+9. Nbd2 Ne8 10. Re1 Qc7 11. d4 a6 12. c4 cxd4 13. Nxd4 Nc6 14. Nf1 Bf6 15. Ne3
+Nxd4 16. Bxd4 Bxd4 17. Qxd4 Nf6 18. Nd1 Rac8 19. Rc1 d5 20. exd5 Bxd5 21. Bxd5
+Nxd5 22. a3 Rfd8 23. Qb2 Nf6 24. Nc3 Qc6 25. Qe2 Qc5 26. Nb1 a5 27. Qe5 Rd6 28.
+Qxc5 bxc5 29. Nc3 Kf8 30. Red1 Rxd1+ 31. Rxd1 Ke7 32. f3 Nd7 33. Na4 Rc6 34.
+Kf2 Nb6 35. Nb2 Rc8 36. Ke3 Ra8 37. Kd3 h6 38. Kc3 g5 39. Nd3 Nd7 40. Nb2 Nb6
+41. Nd3 Nd7 42. Nb2 1/2-1/2
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1975.??.??"]
+[Round "?"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "B19"]
+[PlyCount "99"]
+[EventDate "1975.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. h4 h6 7. Nf3 Nd7 8. h5
+Bh7 9. Bd3 Bxd3 10. Qxd3 Qc7 11. Rh4 e6 12. Bf4 Bd6 13. Bxd6 Qxd6 14. Ne4 Qe7
+15. Qa3 Qxa3 16. bxa3 Ke7 17. Rb1 Rb8 18. Nc5 Nxc5 19. dxc5 a5 20. Ne5 Nf6 21.
+Rd4 Rhc8 22. Rb3 Rc7 23. g4 Rd8 24. Rxb7 Rxd4 25. Nxc6+ Kd7 26. Nxd4 Rxb7 27.
+c6+ Kc7 28. cxb7 Nxg4 29. Nc6 Kxb7 30. Nxa5+ Kc7 31. Nc4 f5 32. f4 Nf6 33. Ne5
+Nxh5 34. Ng6 Nf6 35. Kd2 h5 36. Ke3 Kd6 37. Kd4 Nd5 38. c4 h4 39. c5+ Kc6 40.
+Nxh4 Nxf4 41. Nf3 Nh3 42. Kc4 g5 43. Nd4+ Kd7 44. a4 Nf4 45. a5 Nd5 46. Nxf5 g4
+47. Ng3 Kc6 48. Kd4 Ne7 49. a6 Nf5+ 50. Nxf5 1/2-1/2
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1975.??.??"]
+[Round "?"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Romanishin, Oleg M"]
+[Result "1-0"]
+[ECO "A13"]
+[PlyCount "67"]
+[EventDate "1975.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. Nf3 Nf6 2. c4 e6 3. g3 a6 4. Bg2 b5 5. Nd4 d5 6. cxb5 axb5 7. Nxb5 c6 8.
+N5c3 c5 9. d4 cxd4 10. Qxd4 Nc6 11. Qd1 Be7 12. O-O O-O 13. a3 Bb7 14. Nd2 e5
+15. Rb1 e4 16. Nb3 Ne5 17. Qd4 Nc6 18. Qd1 Ne5 19. Qd4 Nc4 20. Rd1 Qc8 21. Bg5
+Rd8 22. Rdc1 Qf5 23. Be3 Nxe3 24. Qxe3 d4 25. Nxd4 Rxd4 26. Qxd4 Bc5 27. Nd5
+Qxf2+ 28. Qxf2 Bxf2+ 29. Kxf2 Bxd5 30. Bh3 Bb7 31. Rc7 Rb8 32. Rd1 g5 33. Bf5
+e3+ 34. Kf1 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1975.??.??"]
+[Round "?"]
+[White "Cardoso, Radolfo T"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "0-1"]
+[ECO "A25"]
+[PlyCount "92"]
+[EventDate "1975.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. c4 e5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. e3 Nge7 6. Nge2 d6 7. O-O O-O 8. d3
+Be6 9. Nd5 Qd7 10. Rb1 Rae8 11. b4 Nd8 12. b5 f5 13. Qb3 g5 14. f4 Bxd5 15.
+cxd5 gxf4 16. gxf4 Ng6 17. fxe5 Bxe5 18. d4 Bg7 19. Qd3 Bh6 20. Bh3 Qe7 21.
+Bxf5 Bxe3+ 22. Bxe3 Qxe3+ 23. Qxe3 Rxe3 24. Ng3 Re7 25. Rb3 Nh4 26. Ra3 Kg7 27.
+Rxa7 Ref7 28. Be4 Rxf1+ 29. Nxf1 Nf3+ 30. Bxf3 Rxf3 31. Ra8 Rf8 32. Ne3 b6 33.
+Ra7 Rf7 34. Nc2 Kg6 35. Nb4 c5 36. Ra8 cxb4 37. Rxd8 Ra7 38. Rxd6+ Kf5 39. Re6
+Rxa2 40. Re3 Rd2 41. Kf1 Rxd4 42. Ke2 h5 43. Rh3 h4 44. Ke3 Rc4 45. Kd2 Ke5 46.
+Rd3 Rc3 0-1
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1975.??.??"]
+[Round "?"]
+[White "Cordovil, Joao Maria"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1-0"]
+[ECO "D01"]
+[PlyCount "77"]
+[EventDate "1975.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. d4 Nf6 2. Nc3 d5 3. Bg5 Bf5 4. f3 c6 5. e4 dxe4 6. Bxf6 exf6 7. fxe4 Bg6 8.
+Nf3 Bb4 9. Bd3 O-O 10. O-O Re8 11. e5 Bxc3 12. bxc3 Bxd3 13. cxd3 Re6 14. exf6
+Rxf6 15. Qb3 b6 16. Ne5 Qd5 17. Qxd5 cxd5 18. Rxf6 gxf6 19. Ng4 Kg7 20. Ne3 Nc6
+21. Nxd5 Rd8 22. Nf4 b5 23. a4 b4 24. d5 Ne7 25. cxb4 Nxd5 26. Nxd5 Rxd5 27.
+Ra3 Kf8 28. b5 Ke7 29. Kf2 Kd6 30. Rc3 Rf5+ 31. Ke3 Re5+ 32. Kd2 Rf5 33. Rc6+
+Kd5 34. Kc3 a5 35. Ra6 Rf2 36. Rxa5 Rxg2 37. Ra7 Rxh2 38. Rxf7 Ra2 39. b6 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1975.??.??"]
+[Round "?"]
+[White "Sanz Alonso, Francisco Javier"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1-0"]
+[ECO "A36"]
+[PlyCount "81"]
+[EventDate "1975.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. c4 g6 2. Nc3 c5 3. g3 Bg7 4. Bg2 Nc6 5. a3 d6 6. d3 Rb8 7. Rb1 a5 8. e3 e5
+9. Nge2 Nge7 10. O-O O-O 11. Bd2 Be6 12. Nd5 b5 13. cxb5 Bxd5 14. Bxd5 Nxd5 15.
+bxc6 Ne7 16. Qa4 Ra8 17. f4 Qb6 18. fxe5 Bxe5 19. Nc3 Qxc6 20. Qh4 f6 21. d4
+cxd4 22. exd4 Qb6 23. Be3 Nf5 24. Rxf5 gxf5 25. Bf2 Qb3 26. dxe5 fxe5 27. Qg5+
+Kh8 28. Qd2 Rfd8 29. Qd3 Rac8 30. Qxf5 Rf8 31. Qe4 Rf7 32. Be3 Qb7 33. Qxb7
+Rxb7 34. Ne4 Rc6 35. Bd2 d5 36. Ng5 a4 37. Nf3 Re6 38. Nxe5 Rb3 39. Re1 Kg8 40.
+Bc3 Rb7 41. Rd1 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1975.03.09"]
+[Round "1"]
+[White "Medina Garcia, Antonio"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "0-1"]
+[ECO "B54"]
+[PlyCount "92"]
+[EventDate "1975.03.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Nc3 d6 6. g3 b6 7. Bg2 Bb7 8. O-O
+Nd7 9. f4 Qc7 10. f5 e5 11. Nb3 Ngf6 12. Kh1 b5 13. a3 Rc8 14. Be3 Nb6 15. Nd2
+Be7 16. Rc1 O-O 17. g4 Nc4 18. Nxc4 Qxc4 19. Qf3 d5 20. g5 d4 21. gxf6 Bxf6 22.
+Bd2 dxc3 23. Bxc3 Rfd8 24. Rcd1 a5 25. Rxd8+ Rxd8 26. Bxa5 Rd4 27. Bb6 Bxe4 28.
+Qf2 Rd2 29. Qxd2 Qxf1+ 30. Bg1 Qxf5 31. Qe2 Bxg2+ 32. Kxg2 e4 33. b3 Be7 34. a4
+bxa4 35. bxa4 Qg6+ 36. Kf1 Bh4 37. Bd4 Qf5+ 38. Kg2 h5 39. c3 Bd8 40. Qb5 Qf3+
+41. Kg1 Bc7 42. a5 Bf4 43. Qb7 h4 44. Qc8+ Kh7 45. Qf5+ Kh6 46. Bxg7+ Kxg7 0-1
+
+[Event "Camp. España eq. 1 Div."]
+[Site "Barcelona"]
+[Date "1975.??.??"]
+[Round "4"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Gonzalez Mestres, Luis"]
+[Result "1-0"]
+[ECO "A25"]
+[PlyCount "91"]
+[EventDate "1975.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. g3 g6 2. Bg2 Bg7 3. c4 e5 4. Nc3 Nc6 5. e3 Nh6 6. Nge2 O-O 7. O-O d6 8. d3
+Be6 9. Nd5 Qd7 10. Nec3 Nd8 11. Ne4 f5 12. Ng5 c6 13. Nc3 Nhf7 14. Nxe6 Nxe6
+15. f4 Rae8 16. Qd2 h5 17. b4 Nh6 18. Bb2 Ng4 19. Rae1 h4 20. Bf3 hxg3 21. hxg3
+Nf6 22. Nd1 Nd8 23. Nf2 Nf7 24. Qc2 g5 25. Kg2 g4 26. Bd1 c5 27. bxc5 dxc5 28.
+Qa4 Qc7 29. d4 cxd4 30. fxe5 Rxe5 31. exd4 Rxe1 32. Rxe1 Nh5 33. Qb3 f4 34.
+Bxg4 fxg3 35. Nh3 Nh6 36. c5+ Kh8 37. Bxh5 Nf5 38. Re8 Nh4+ 39. Kg1 Rxe8 40.
+Bxe8 Qd8 41. Qxg3 Bxd4+ 42. Qf2 Nf3+ 43. Kg2 Nh4+ 44. Kg1 Bxb2 45. Qf8+ Kh7 46.
+Bg6+ 1-0
+
+[Event "Camp. España eq. 1 Div."]
+[Site "Barcelona"]
+[Date "1975.??.??"]
+[Round "5"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Pujol Sans, Manuel"]
+[Result "1-0"]
+[ECO "B06"]
+[PlyCount "49"]
+[EventDate "1975.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 g6 2. e4 Bg7 3. d4 c6 4. Nc3 d6 5. h3 Qc7 6. a4 e5 7. Bc4 Nf6 8. O-O O-O
+9. dxe5 dxe5 10. Be3 b6 11. Qe2 Nh5 12. Rfd1 Bb7 13. g3 Nf6 14. Rd2 c5 15. Nb5
+Qe7 16. Ng5 Nxe4 17. Nxe4 Bxe4 18. Bxc5 bxc5 19. Qxe4 Nd7 20. Qb7 Rfd8 21. Rad1
+Rab8 22. Qxa7 Ra8 23. Rxd7 Rxa7 24. Rxd8+ Bf8 25. Nxa7 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1976.??.??"]
+[Round "?"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "B19"]
+[PlyCount "56"]
+[EventDate "1976.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. h4 h6 7. Nf3 Nd7 8. h5
+Bh7 9. Bd3 Bxd3 10. Qxd3 Qc7 11. Rh4 e6 12. Bf4 Bd6 13. Bxd6 Qxd6 14. Ne4 Qe7
+15. Qa3 Qxa3 16. bxa3 Ke7 17. Rb1 Rb8 18. Nc5 Nxc5 19. dxc5 a5 20. Ne5 Nf6 21.
+Rd4 Rhc8 22. Rb3 Rc7 23. g4 Rd8 24. Rxb7 Rxd4 25. Nxc6+ Kd7 26. Nxd4 Rxb7 27.
+c6+ Kc7 28. cxb7 Nxg4 1/2-1/2
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1979.??.??"]
+[Round "9"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Garcia Conesa, Gregorio"]
+[Result "1-0"]
+[ECO "D01"]
+[PlyCount "43"]
+[EventDate "1979.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. Nc3 d5 2. d4 Nf6 3. Bg5 Nbd7 4. f3 c5 5. e4 dxe4 6. dxc5 exf3 7. Nxf3 Qa5 8.
+Qd2 a6 9. Bxf6 Nxf6 10. O-O-O Bd7 11. Ne5 Rd8 12. Qf4 e6 13. Ne4 Qxa2 14. Nxf6+
+gxf6 15. Rxd7 Rxd7 16. Nxd7 Kxd7 17. Qxf6 Be7 18. Bb5+ axb5 19. Rd1+ Kc6 20.
+Qxe7 Qa1+ 21. Kd2 Qa5+ 22. Ke2 1-0
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1980.??.??"]
+[Round "?"]
+[White "Nieto Minguez, Manuel"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1-0"]
+[ECO "B15"]
+[PlyCount "69"]
+[EventDate "1980.07.??"]
+[EventType "schev"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Nf6 5. Ng3 h5 6. h4 g6 7. Bc4 Bg4 8. Qd3
+Nbd7 9. Bd2 e6 10. N1e2 Qb6 11. O-O-O O-O-O 12. Bg5 Be7 13. Rhe1 c5 14. f3 Bf5
+15. Nxf5 gxf5 16. Qb3 Qxb3 17. Bxb3 Ng8 18. d5 Bxg5+ 19. hxg5 e5 20. Ng3 f6 21.
+Nxf5 Nb6 22. c3 c4 23. Bc2 Nxd5 24. Be4 Nf4 25. Nd6+ Rxd6 26. Rxd6 Kc7 27. Rd2
+fxg5 28. g3 Ne6 29. Bd5 Nc5 30. Bxc4 e4 31. Rd5 b6 32. b4 Na4 33. Rxg5 Nf6 34.
+Kc2 exf3 35. Rf5 1-0
+
+[Event "Catalunya - IT Bucharest m"]
+[Site "Platja d'Aro"]
+[Date "1980.??.??"]
+[Round "1.1"]
+[White "Gheorghiu, Florin"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1-0"]
+[ECO "D11"]
+[PlyCount "97"]
+[EventDate "1980.09.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Qb3 Qb6 5. Nc3 Na6 6. c5 Qxb3 7. axb3 Ne4 8. e3
+f6 9. Bxa6 bxa6 10. Nxe4 dxe4 11. Nd2 Rb8 12. Ra3 e5 13. Nxe4 exd4 14. exd4 Rb4
+15. Be3 f5 16. Nd2 f4 17. Bxf4 Rxd4 18. Be3 Rb4 19. O-O Be7 20. Nc4 Rb5 21. Rc1
+Rf8 22. Bd4 Rf5 23. Nd6+ Bxd6 24. cxd6 Rbd5 25. Bxg7 Rxd6 26. Bc3 Rfd5 27. Raa1
+Kf7 28. f3 Re6 29. Kf2 c5 30. b4 c4 31. Re1 Rdd6 32. Ra5 Rxe1 33. Kxe1 Rc6 34.
+Kf2 Bb7 35. h4 h6 36. Rf5+ Ke7 37. h5 Bc8 38. Rf4 Bd7 39. Bd4 Be8 40. g4 Bf7
+41. Bxa7 Kf8 42. Bc5+ Kg8 43. Rd4 Re6 44. f4 Re8 45. f5 Rb8 46. Rd6 a5 47. Rxh6
+axb4 48. Bd4 Be8 49. g5 1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1981.??.??"]
+[Round "11"]
+[White "Ochoa de Echaguen, Francisco Javier"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1-0"]
+[ECO "B22"]
+[PlyCount "163"]
+[EventDate "1981.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. c3 a6 3. d4 cxd4 4. cxd4 d5 5. exd5 Nf6 6. Nc3 g6 7. Qb3 Bg7 8. Be2
+O-O 9. Bf3 Nbd7 10. Nge2 Nb6 11. h3 Bf5 12. O-O Bd3 13. d6 exd6 14. Bxb7 Rb8
+15. Bf3 d5 16. Bf4 Rc8 17. Rfd1 Bc4 18. Qc2 Re8 19. Ng3 Bf8 20. b3 Bb5 21. Qb2
+Bc6 22. Nf1 Ne4 23. Bxe4 dxe4 24. Rac1 Qf6 25. Be3 Rcd8 26. Nd2 Qe6 27. Nc4 Nd5
+28. Nxd5 Bxd5 29. Bf4 Rd7 30. Ne3 Red8 31. Bc7 Rc8 32. Be5 Rcd8 33. Bc7 Rc8 34.
+Be5 Ra8 35. Rc2 f6 36. Bg3 f5 37. Rdc1 g5 38. Be5 f4 39. Nxd5 Qxd5 40. Qc3 Ba3
+41. Re1 Bd6 42. Qc6 Bxe5 43. dxe5 Re8 44. Qxd5+ Rxd5 45. Rxe4 Rdxe5 46. Rxe5
+Rxe5 47. Kf1 a5 48. a3 Kf7 49. b4 h5 50. Rb2 axb4 51. axb4 Rb5 52. Ke2 Ke6 53.
+Kd3 Kd5 54. f3 Kd6 55. h4 gxh4 56. Ke4 Ke6 57. Kxf4 Kf6 58. Ke4 Ke6 59. Kd4 Kd6
+60. f4 Rd5+ 61. Ke4 Rb5 62. Kd4 Rf5 63. Rf2 Rb5 64. Kc4 Rf5 65. Rd2+ Kc6 66.
+Rd4 Rf6 67. b5+ Kb6 68. Kd5 Kxb5 69. Ke5 Rg6 70. f5 Rxg2 71. Rxh4 Kc6 72. Ke6
+Re2+ 73. Kf7 Kd6 74. Rxh5 Re7+ 75. Kg6 Re1 76. Rh7 Rg1+ 77. Kf7 Rf1 78. f6 Rf2
+79. Rh1 Ra2 80. Re1 Ra3 81. Kg7 Rg3+ 82. Kf8 1-0
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1981.07.??"]
+[Round "?"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Martin Gonzalez, Angel"]
+[Result "1-0"]
+[ECO "E69"]
+[PlyCount "47"]
+[EventDate "1981.07.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 g6 2. c4 Bg7 3. d4 Nf6 4. Nc3 O-O 5. g3 d6 6. Bg2 Nbd7 7. O-O e5 8. e4
+c6 9. h3 Re8 10. Re1 a5 11. b3 exd4 12. Nxd4 Nc5 13. Bf4 Qb6 14. Bxd6 Rd8 15.
+e5 Ne8 16. Nxc6 Rxd6 17. exd6 Bxc3 18. Rxe8+ Kg7 19. Ne7 Bg4 20. Qc1 Bd4 21.
+Rxa8 Bxf2+ 22. Kh1 Qxd6 23. Rg8+ Kf6 24. Nd5+ 1-0
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1981.??.??"]
+[Round "?"]
+[White "Vilela, Jose Luis"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1-0"]
+[ECO "D44"]
+[PlyCount "60"]
+[EventDate "1981.07.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. d4 d5 2. c4 c6 3. Nc3 e6 4. Nf3 Nf6 5. Bg5 dxc4 6. e4 b5 7. e5 h6 8. Bh4 g5
+9. Nxg5 hxg5 10. Bxg5 Nbd7 11. g3 Qa5 12. exf6 b4 13. Ne4 Ba6 14. Be2 O-O-O 15.
+O-O Qf5 16. f3 Nc5 17. Bf4 Nxe4 18. fxe4 Qxe4 19. Bf3 Qxd4+ 20. Qxd4 Rxd4 21.
+Bxc6 c3 22. bxc3 Rc4 23. Bg2 Bc5+ 24. Kh1 bxc3 25. Rfe1 c2 26. Bf1 Bb7+ 27. Bg2
+Bd4 28. Bxb7+ Kxb7 29. Re4 Rhc8 30. Rf1 c1=Q 1-0
+
+[Event "Camp. España eq. 1 Div."]
+[Site "Calella de Mar"]
+[Date "1981.??.??"]
+[Round "5"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Garcia Conesa, Gregorio"]
+[Result "1-0"]
+[ECO "E63"]
+[PlyCount "49"]
+[EventDate "1981.09.??"]
+[EventType "team"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. g3 g6 3. d4 Bg7 4. c4 O-O 5. Bg2 d6 6. O-O a6 7. Nc3 Nc6 8. h3
+Rb8 9. e4 Bd7 10. Re1 b5 11. e5 Ne8 12. c5 Na5 13. Nd5 dxc5 14. Bg5 Nc6 15.
+dxc5 h6 16. Bh4 g5 17. Bxg5 hxg5 18. Nxg5 Bf5 19. Be4 Bg6 20. Bxg6 fxg6 21. Qb3
+e6 22. Nxe6 Na5 23. Qd3 Qd7 24. Nxf8 Kxf8 25. e6 1-0
+
+[Event "Camp. España eq. 1 Div."]
+[Site "Calella de Mar"]
+[Date "1981.??.??"]
+[Round "7"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Montecatine Rios, Ricardo"]
+[Result "1-0"]
+[ECO "A70"]
+[PlyCount "42"]
+[EventDate "1981.09.??"]
+[EventType "team"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 c5 4. d5 exd5 5. cxd5 d6 6. Nc3 g6 7. Bf4 Bg7 8. Qa4+
+Bd7 9. Qb3 Qc7 10. e4 Nh5 11. Be3 O-O 12. Be2 a6 13. O-O Bg4 14. h3 Bxf3 15.
+Bxf3 Nf6 16. a4 b6 17. e5 Ne8 18. e6 a5 19. Rfe1 Na6 20. Bg5 Nf6 21. Nb5 Qe7
+1-0
+
+[Event "Camp. España eq. 1 Div."]
+[Site "Calella de Mar"]
+[Date "1981.??.??"]
+[Round "8"]
+[White "Izeta Txabarri, Felix"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "0-1"]
+[ECO "A07"]
+[PlyCount "80"]
+[EventDate "1981.09.??"]
+[EventType "team"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 d5 2. g3 c6 3. Bg2 Bf5 4. O-O Nd7 5. d4 h6 6. b3 e6 7. Bb2 Ngf6 8. Nbd2
+a5 9. c4 a4 10. Ne5 a3 11. Bc1 Nxe5 12. dxe5 Nd7 13. cxd5 cxd5 14. e4 dxe4 15.
+Nxe4 Nxe5 16. Bf4 Nd3 17. Qf3 Nxf4 18. Qxf4 Qb8 19. Qxb8+ Rxb8 20. Rac1 Bxe4
+21. Bxe4 Kd7 22. Rc3 Bd6 23. b4 Rhc8 24. Rxa3 Rc4 25. Bf3 Rxb4 26. Rd1 Ke7 27.
+Kg2 Rb2 28. Rad3 Bb4 29. Rd7+ Ke8 30. R7d4 Ra8 31. Bxb7 Raxa2 32. Rf4 f5 33.
+Bc6+ Ke7 34. Rd7+ Kf6 35. Rb7 Bc5 36. Rxb2 Rxb2 37. h4 g5 38. hxg5+ hxg5 39.
+Rf3 g4 40. Rf4 Be3 0-1
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1982.??.??"]
+[Round "5"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Martin Gonzalez, Angel"]
+[Result "1-0"]
+[ECO "A75"]
+[PlyCount "83"]
+[EventDate "1982.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e6 4. Nc3 exd5 5. cxd5 d6 6. Nf3 a6 7. a4 g6 8. Bf4
+Bg7 9. e4 O-O 10. Be2 Bg4 11. Nd2 Bxe2 12. Qxe2 Nh5 13. Be3 Nd7 14. O-O Re8 15.
+Kh1 Qh4 16. g3 Qh3 17. Rg1 Bd4 18. Nc4 Ne5 19. Nxe5 Bxe5 20. Nd1 Qd7 21. f3 b5
+22. axb5 axb5 23. Rc1 b4 24. Nf2 f5 25. exf5 Qxf5 26. Ne4 Ra2 27. g4 Qf7 28.
+gxh5 Rxb2 29. Bd2 Bf4 30. hxg6 hxg6 31. Rcd1 Bxd2 32. Nf6+ Qxf6 33. Qxe8+ Kg7
+34. Rg2 Bf4 35. Qd7+ Kh6 36. Qh3+ Kg7 37. Ra1 Rxg2 38. Ra7+ Kg8 39. Qc8+ Qf8
+40. Qe6+ Kh8 41. Kxg2 Bh6 42. Rc7 1-0
+
+[Event "Catalunya-França m"]
+[Site "Platja d'Aro"]
+[Date "1982.09.??"]
+[Round "2.4"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Chevaldonnet, François"]
+[Result "1/2-1/2"]
+[ECO "E72"]
+[PlyCount "176"]
+[EventDate "1982.09.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 O-O 5. e4 d6 6. Nc3 e5 7. Nf3 Nc6 8. dxe5
+Nxe5 9. Nxe5 dxe5 10. Qc2 c6 11. b3 Nd7 12. O-O Re8 13. h3 Qc7 14. Rd1 Nc5 15.
+Ba3 Bf8 16. Ne2 Ne6 17. Bxf8 Rxf8 18. Rd3 c5 19. Rc1 Rd8 20. Rxd8+ Qxd8 21. f4
+f6 22. Rf1 Qe7 23. Nc3 Nd4 24. Nd5 Nxc2 25. Nxe7+ Kg7 26. Nd5 Bd7 27. fxe5 fxe5
+28. Rf6 Rf8 29. Rxf8 Kxf8 30. Nf6 Ke7 31. Nxh7 Nb4 32. a4 Nc2 33. Bf3 Nd4 34.
+Bd1 Bxh3 35. Ng5 Be6 36. Kf2 Kf6 37. Nh7+ Kg7 38. Ng5 Kh6 39. Nxe6 Nxe6 40. Kf3
+Kg5 41. Kg2 Nc7 42. Kf3 Ne8 43. Kg2 Nf6 44. Bf3 Kh6 45. Kf2 Kg7 46. Kg2 Kh6 47.
+Kf2 Nh7 48. Ke3 Kg5 49. Kf2 Kf6 50. Bg4 Ng5 51. Ke3 Nf7 52. Bc8 Nd6 53. Bg4 Ke7
+54. Bd1 Ne8 55. Bg4 Kd6 56. Bc8 Kc7 57. Be6 Nf6 58. Bf7 g5 59. a5 a6 60. Bg6 b6
+61. axb6+ Kxb6 62. Kd3 Ka5 63. Kc3 Ng4 64. Bh5 Nf2 65. Bf3 g4 66. Bg2 Nh3 67.
+Bf1 Ng1 68. Bd3 Kb6 69. Kd2 Nf3+ 70. Kc3 Nd4 71. Bf1 Ne6 72. Be2 Ng5 73. Kd3
+Ka5 74. Bxg4 Kb4 75. Bd1 a5 76. Bc2 Ne6 77. Bd1 Nd4 78. g4 Ne6 79. Bc2 Nf4+ 80.
+Kd2 Nh3 81. Bd1 Nf2 82. Bf3 Nh3 83. Bd1 Ng5 84. Kd3 Ka3 85. Bc2 Kb2 86. Bd1 Kc1
+87. Be2 Nh3 88. Kc3 Ng5 1/2-1/2
+
+[Event "Catalunya-França m"]
+[Site "Platja d'Aro"]
+[Date "1982.09.??"]
+[Round "3.4"]
+[White "Chevaldonnet, François"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1/2-1/2"]
+[ECO "B13"]
+[PlyCount "33"]
+[EventDate "1982.09.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. c4 Nf6 5. Nc3 Nc6 6. Bg5 Qa5 7. Bxf6 exf6 8.
+cxd5 Bb4 9. dxc6 Bxc3+ 10. bxc3 Qxc3+ 11. Ke2 O-O 12. f3 Re8+ 13. Kf2 Qe3+ 14.
+Kg3 Re4 15. h3 Qf4+ 16. Kf2 Qe3+ 17. Kg3 1/2-1/2
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1984.??.??"]
+[Round "?"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Gil Reguera, Juan Carlos"]
+[Result "0-1"]
+[ECO "A75"]
+[PlyCount "120"]
+[EventDate "1984.??.??"]
+[EventType "team"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e6 4. Nc3 exd5 5. cxd5 d6 6. e4 g6 7. Bf4 a6 8. a4 Bg7
+9. Nf3 O-O 10. Be2 Bg4 11. O-O Bxf3 12. Bxf3 Ne8 13. Qb3 Nd7 14. Rfe1 Rb8 15.
+Be2 Qe7 16. Bf1 Nc7 17. Bg3 g5 18. Nd1 f5 19. f4 gxf4 20. Bxf4 fxe4 21. Qg3 Ne5
+22. Rxe4 Kh8 23. Ne3 Qf7 24. Rd1 Rbe8 25. Qh3 Nf3+ 26. gxf3 Rxe4 27. fxe4 Qxf4
+28. e5 Bxe5 29. Bd3 Qxe3+ 30. Qxe3 Bd4 31. Qxd4+ cxd4 32. Bb1 Rf4 33. Kg2 Nxd5
+34. Kg3 Ne3 35. Rc1 Rf7 36. Rc8+ Kg7 37. Rd8 d5 38. Bd3 Kf6 39. Rd6+ Ke5 40.
+Rd8 Nc4 41. Re8+ Kd6 42. Rd8+ Rd7 43. Rxd7+ Kxd7 44. Bxh7 Nxb2 45. Kf4 d3 46.
+Ke3 Nxa4 47. Bxd3 Nc5 48. Bb1 Kd6 49. Kd4 Ne6+ 50. Kc3 Ke5 51. h4 Nf4 52. Bc2
+d4+ 53. Kc4 b5+ 54. Kb4 d3 55. Bd1 Nd5+ 56. Ka5 Ne3 57. Bb3 Kd4 58. h5 Nf5 59.
+Kb4 Ke3 60. Kc3 Ke2 0-1
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1984.??.??"]
+[Round "?"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Chekhov, Valery A"]
+[Result "0-1"]
+[ECO "D43"]
+[WhiteElo "2425"]
+[BlackElo "2535"]
+[PlyCount "66"]
+[EventDate "1984.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c6 5. Qb3 dxc4 6. Qxc4 b5 7. Qd3 Nbd7 8. g3
+Bb7 9. Bg2 a6 10. Bg5 c5 11. dxc5 Bxc5 12. O-O h6 13. Bxf6 Nxf6 14. Ne5 Bxg2
+15. Kxg2 O-O 16. Rfd1 Qb6 17. e3 Rfd8 18. Qe2 Bd6 19. Ng4 Qc6+ 20. Qf3 Qxf3+
+21. Kxf3 Nxg4 22. Kxg4 Be5 23. f4 Bxc3 24. bxc3 Rac8 25. Rxd8+ Rxd8 26. a4 Rd3
+27. axb5 axb5 28. Rb1 Rxe3 29. Rxb5 Rxc3 30. h4 Kf8 31. h5 Rd3 32. Rb8+ Ke7 33.
+Rg8 Rd8 0-1
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1984.??.??"]
+[Round "?"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Fernandez Garcia, Jose Luis"]
+[Result "1/2-1/2"]
+[ECO "A22"]
+[WhiteElo "2425"]
+[BlackElo "2440"]
+[PlyCount "84"]
+[EventDate "1984.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. c4 e5 2. g3 Nf6 3. Nc3 d5 4. cxd5 Nxd5 5. Bg2 Nb6 6. d3 Be7 7. Be3 O-O 8.
+Rc1 Re8 9. a3 Bf8 10. Qc2 a5 11. Nf3 Nc6 12. O-O Bg4 13. Ne4 Nd5 14. Qb3 Rb8
+15. Bc5 Bxc5 16. Nxc5 Bc8 17. Qb5 Nde7 18. e3 Nf5 19. Nd2 Nd6 20. Qb3 Ne7 21.
+f4 exf4 22. Rxf4 Ng6 23. Rf2 Qe7 24. Nde4 Nxe4 25. Bxe4 c6 26. Rcf1 Rf8 27. d4
+Bh3 28. Bg2 Bxg2 29. Kxg2 b6 30. Na4 c5 31. Nc3 cxd4 32. exd4 Qb7+ 33. Kg1 Rbd8
+34. Nb5 Qd5 35. Qxd5 Rxd5 36. Rf5 Rfd8 37. a4 Rxf5 38. Rxf5 Ne7 39. Re5 Kf8 40.
+Kf2 Nc6 41. Re4 Nb4 42. Ke3 g6 1/2-1/2
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1984.??.??"]
+[Round "?"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Gomez Esteban, Juan Mario"]
+[Result "1/2-1/2"]
+[ECO "E48"]
+[WhiteElo "2425"]
+[BlackElo "2430"]
+[PlyCount "146"]
+[EventDate "1984.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Bd3 c5 6. Nge2 d5 7. O-O cxd4 8.
+exd4 dxc4 9. Bxc4 Nc6 10. Bg5 Be7 11. Rc1 b6 12. a3 Bb7 13. Qd3 Nd5 14. Be3 Rc8
+15. Bxd5 exd5 16. Nf4 Bd6 17. Nfxd5 Qh4 18. g3 Qh3 19. Bf4 Rfd8 20. Rfe1 Bf8
+21. Re4 Na5 22. b4 Rxd5 23. bxa5 Rh5 24. d5 Bc5 25. Be3 Qxh2+ 26. Kf1 Bxa3 27.
+a6 Ba8 28. Re1 Qh3+ 29. Ke2 Qd7 30. g4 Rh4 31. Qb5 Qxb5+ 32. Nxb5 Bxd5 33. Rd4
+Bc4+ 34. Rxc4 Rxc4 35. Nxa3 Ra4 36. Nb5 Rhxg4 37. Kf3 Rg6 38. Bxb6 h6 39. Bxa7
+Raxa6 40. Be3 Rgf6+ 41. Kg2 Rg6+ 42. Kf3 Raf6+ 43. Ke2 Rf5 44. Nd4 Rd5 45. Rh1
+Rgd6 46. Nc2 Kh7 47. f4 Re6 48. Rh3 Re8 49. Rh2 Rb5 50. Rg2 f6 51. Kf3 Rb2 52.
+f5 Re5 53. Kf4 Ra5 54. Bd4 Rb1 55. Ne3 Rh1 56. Ke4 Rh4+ 57. Rg4 Rh2 58. Nc4 Ra4
+59. Nb6 Ra3 60. Nd7 h5 61. Rg1 Rh4+ 62. Kd5 Rg4 63. Rd1 Kh6 64. Bb2 Ra5+ 65.
+Nc5 h4 66. Bc3 Rb5 67. Kc6 Rb8 68. Bd2+ Kh5 69. Ne6 Rg3 70. Bf4 Rc3+ 71. Kd5
+Rb5+ 72. Kd4 Rf3 73. Ke4 Kg4 1/2-1/2
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1984.??.??"]
+[Round "?"]
+[White "Kupreichik, Viktor D"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1-0"]
+[ECO "C63"]
+[WhiteElo "2480"]
+[BlackElo "2425"]
+[PlyCount "67"]
+[EventDate "1984.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 f5 4. Nc3 Nd4 5. O-O c6 6. Ba4 Nf6 7. Nxe5 Bc5 8. b4
+Bb6 9. Nc4 Bc7 10. e5 O-O 11. Bb3 Ng4 12. f4 d5 13. exd6 Bxd6 14. h3 Bxb4 15.
+hxg4 fxg4 16. Ne2 Bc5 17. Ne3+ Kh8 18. g3 Qe8 19. Nxd4 Bxd4 20. c3 Bb6 21. d4
+c5 22. Nc4 Bc7 23. Ne5 cxd4 24. cxd4 Bb6 25. Re1 Be6 26. Be3 Rd8 27. d5 Bxd5
+28. Bxb6 axb6 29. Bxd5 Qb5 30. Bc4 Qc5+ 31. Kg2 Rxd1 32. Raxd1 g5 33. Rd7 Rf6
+34. Ng6+ 1-0
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1984.??.??"]
+[Round "?"]
+[White "Minguell Rosello, Francesc Xavier"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "0-1"]
+[ECO "B06"]
+[WhiteElo "2305"]
+[BlackElo "2425"]
+[PlyCount "46"]
+[EventDate "1984.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. f4 Nd7 5. Nf3 c5 6. dxc5 Nxc5 7. Bd3 Nf6 8. O-O
+O-O 9. Kh1 a6 10. Qe1 b5 11. a3 Bb7 12. b4 Nfxe4 13. Nxe4 Nxd3 14. cxd3 Bxa1
+15. Qh4 Bg7 16. f5 Bxe4 17. dxe4 e6 18. Qh3 exf5 19. exf5 Qc8 20. Ng5 h6 21.
+Ne4 Qc4 22. Qf3 d5 23. Ng3 Rfe8 0-1
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1984.??.??"]
+[Round "?"]
+[White "Pisa Ferrer, Josep"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "0-1"]
+[ECO "B22"]
+[WhiteElo "2310"]
+[BlackElo "2425"]
+[PlyCount "188"]
+[EventDate "1984.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. e4 c5 2. c3 Nf6 3. e5 Nd5 4. d4 cxd4 5. Nf3 e6 6. cxd4 b6 7. Bd3 Ba6 8. O-O
+Be7 9. Nc3 Nxc3 10. bxc3 Bxd3 11. Qxd3 O-O 12. c4 d5 13. exd6 Qxd6 14. Qe4 Nd7
+15. Bf4 Qa3 16. Qb7 Qa4 17. Rac1 Rac8 18. Ne5 Rfd8 19. Rc3 Bf6 20. Rf3 Bxe5 21.
+dxe5 Rxc4 22. Rd3 Rxf4 23. Qc7 Rf8 24. Rxd7 Qxa2 25. g3 Rc4 26. Qxa7 Qxa7 27.
+Rxa7 Rb4 28. Rc1 g5 29. Rc6 h5 30. Kg2 Rb5 31. h3 Rxe5 32. Rxb6 Rd8 33. Rbb7
+Rf5 34. Rb2 Rd4 35. Ra3 h4 36. g4 Rff4 37. Ra5 Rd5 38. Ra3 Kg7 39. Rc3 Kg6 40.
+Re3 Rd1 41. Ra2 Rc4 42. Ra5 Rc2 43. Raa3 Rcc1 44. Rac3 Rg1+ 45. Kf3 Rgf1 46.
+Ke2 Rh1 47. Ra3 Rce1+ 48. Kd2 Reg1 49. Ke2 Re1+ 50. Kd2 Rd1+ 51. Ke2 Rd4 52.
+Rad3 Rf4 53. Ra3 Rh2 54. Rf3 f5 55. Rxf4 gxf4 56. gxf5+ Kxf5 57. Kf1 Rh1+ 58.
+Kg2 Rd1 59. Ra8 Rd3 60. Rh8 f3+ 61. Kh2 Rd4 62. Rh5+ Kg6 63. Rh8 Rf4 64. Kg1 e5
+65. Re8 Rf5 66. Rg8+ Kf6 67. Rf8+ Ke6 68. Rh8 Rf4 69. Ra8 Rc4 70. Re8+ Kd5 71.
+Rd8+ Kc5 72. Rd3 e4 73. Rd8 Kb4 74. Rd7 Kc3 75. Rd8 Rb4 76. Ra8 Rb3 77. Re8 Kd3
+78. Re7 Rb1+ 79. Kh2 Rf1 80. Rd7+ Ke2 81. Rd2+ Ke1 82. Rd1+ Kxf2 83. Re1 Rh1+
+84. Rxh1 e3 85. Ra1 e2 86. Ra3 e1=Q 87. Rxf3+ Ke2 88. Kg2 Qa1 89. Rf4 Qa8+ 90.
+Kg1 Qa7+ 91. Kg2 Qb7+ 92. Kg1 Qb6+ 93. Kg2 Qc6+ 94. Kg1 Qc1+ 0-1
+
+[Event "Copa Europa eq Vulca-Trud  Moscow m"]
+[Site "Barcelona"]
+[Date "1984.??.??"]
+[Round "?"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Tahl, Mikhail"]
+[Result "1-0"]
+[ECO "A53"]
+[PlyCount "83"]
+[EventDate "1984.07.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 d6 3. Nc3 Nbd7 4. Nf3 g6 5. Bf4 Bg7 6. h3 O-O 7. e3 e6 8. Be2
+Qe7 9. O-O e5 10. Bh2 c6 11. b4 b6 12. c5 bxc5 13. bxc5 dxc5 14. Nxe5 Bb7 15.
+Nc4 Rfd8 16. Qb3 Nb6 17. dxc5 Qxc5 18. Bc7 Rdc8 19. Bd6 Qf5 20. e4 Qe6 21. e5
+Ne8 22. Ne4 Ba6 23. Rac1 Bxc4 24. Bxc4 Nxc4 25. Qxc4 Qxc4 26. Rxc4 Nxd6 27.
+Nxd6 Rc7 28. f4 Rb8 29. Rfc1 h5 30. Rxc6 Rxc6 31. Rxc6 g5 32. Rc8+ Rxc8 33.
+Nxc8 a6 34. g3 h4 35. Ne7+ Kh7 36. Nf5 Bf8 37. fxg5 hxg3 38. h4 Kg6 39. Nxg3
+Bg7 40. e6 fxe6 41. Kg2 Bc3 42. Kf3 1-0
+
+[Event "Camp. España indiv."]
+[Site "Barcelona"]
+[Date "1984.??.??"]
+[Round "2"]
+[White "De la Villa Garcia, Jesus Maria"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1-0"]
+[ECO "B06"]
+[WhiteElo "2305"]
+[BlackElo "2435"]
+[PlyCount "109"]
+[EventDate "1984.09.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. e4 g6 2. d4 Bg7 3. Nf3 d6 4. Be2 Nd7 5. O-O Ngf6 6. Nc3 O-O 7. h3 a6 8. a4
+c5 9. d5 b6 10. Bf4 Qc7 11. Re1 Ne5 12. Nd2 Bb7 13. Bg3 g5 14. Bxe5 dxe5 15.
+Nf1 Rad8 16. Qc1 h6 17. Qe3 e6 18. dxe6 fxe6 19. Bc4 Qc8 20. Ng3 Rd4 21. b3 Ne8
+22. Nce2 Nd6 23. Nxd4 exd4 24. Qd3 Kh8 25. e5 Nf5 26. Nh5 Nh4 27. f3 Rxf3 28.
+gxf3 Nxf3+ 29. Kf2 Nxe5 30. Rxe5 Bxe5 31. Qe2 Qc7 32. Rf1 d3 33. Bxd3 Bc3 34.
+Kg1 Bd4+ 35. Rf2 c4 36. bxc4 Qc5 37. Kf1 Bxf2 38. Qxf2 Qxf2+ 39. Kxf2 Bc6 40.
+a5 bxa5 41. c5 Kg8 42. Ke3 a4 43. Kd4 Kf7 44. Bxa6 Bg2 45. Kc3 Ke7 46. Kb4 Bxh3
+47. Kxa4 Bg4 48. Ng3 Bf3 49. Ka5 h5 50. Be2 g4 51. Bxf3 gxf3 52. Nxh5 e5 53.
+Ng3 f2 54. Kb6 Kd8 55. Kb7 1-0
+
+[Event "Camp. España indiv."]
+[Site "Barcelona"]
+[Date "1984.??.??"]
+[Round "4"]
+[White "Mateu Palau, Xavier"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1-0"]
+[ECO "B26"]
+[WhiteElo "2235"]
+[BlackElo "2435"]
+[PlyCount "89"]
+[EventDate "1984.09.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. d3 d6 6. Be3 e5 7. Qd2 Be6 8. f4 Nd4
+9. Nd1 Qd7 10. c3 Nc6 11. Nf3 b6 12. Ng5 Bg4 13. h3 Bxd1 14. Rxd1 h6 15. Nf3
+Nf6 16. O-O Nh5 17. Qf2 Qe7 18. d4 O-O-O 19. fxe5 cxd4 20. cxd4 dxe5 21. d5 Na5
+22. b4 Nb7 23. a4 Kb8 24. a5 Qxb4 25. Rb1 Qe7 26. axb6 a6 27. Qa2 a5 28. Rfc1
+Rc8 29. Qe2 Rxc1+ 30. Rxc1 Rc8 31. Rc6 Nd8 32. Rxc8+ Kxc8 33. Qa6+ Qb7 34. Qc4+
+Kb8 35. g4 Nf4 36. Bc5 Qd7 37. Bf1 Nb7 38. Ba3 Nd6 39. Qc6 Qxc6 40. dxc6 Ne8
+41. Nd2 Ne6 42. Nb3 Bf8 43. Bxf8 Nxf8 44. Nc5 Nc7 45. Bc4 1-0
+
+[Event "Camp. España indiv."]
+[Site "Barcelona"]
+[Date "1984.??.??"]
+[Round "7"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Muñoz"]
+[Result "1-0"]
+[ECO "A48"]
+[WhiteElo "2435"]
+[BlackElo "2220"]
+[PlyCount "65"]
+[EventDate "1984.09.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 g6 3. Bf4 Bg7 4. e3 O-O 5. h3 d6 6. Nbd2 c5 7. c3 Nc6 8. Be2
+Re8 9. Bh2 e5 10. dxe5 dxe5 11. Qa4 Qe7 12. Ne4 Nd5 13. Rd1 Nc7 14. Nd6 Rd8 15.
+Nxc8 Rxd1+ 16. Qxd1 Rxc8 17. O-O b5 18. Qc2 a6 19. a4 c4 20. axb5 axb5 21. Qe4
+Ne6 22. Rd1 Nc5 23. Qd5 h6 24. Bg3 Kh7 25. e4 Rc7 26. h4 h5 27. Ra1 Bf6 28. Ra8
+Qd7 29. Qxc5 Nd4 30. Qf8 Nxe2+ 31. Kh2 Bg7 32. Ng5+ Kh6 33. Qg8 1-0
+
+[Event "Camp. España indiv."]
+[Site "Barcelona"]
+[Date "1984.??.??"]
+[Round "9"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Martin Gonzalez, Angel"]
+[Result "0-1"]
+[ECO "E81"]
+[WhiteElo "2435"]
+[BlackElo "2385"]
+[PlyCount "84"]
+[EventDate "1984.09.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. d4 Nf6 2. c4 g6 3. f3 Bg7 4. e4 d6 5. Nc3 O-O 6. Bg5 c5 7. d5 e6 8. Qd2 exd5
+9. Nxd5 Be6 10. Nxf6+ Bxf6 11. h4 Nd7 12. O-O-O b5 13. f4 Qb6 14. Qxd6 bxc4 15.
+e5 Qa5 16. exf6 Qxa2 17. Ne2 Rfd8 18. Qxe6 fxe6 19. Nc3 Qa6 20. f7+ Kxf7 21.
+Bxd8 Rxd8 22. h5 Rb8 23. hxg6+ Kxg6 24. Rh3 Nf6 25. Kb1 Qb7 26. Rd2 Ne4 27. Re2
+Nxc3+ 28. Rxc3 Rd8 29. Rxe6+ Kf5 30. Bxc4 Rd2 31. Rb3 Qxg2 32. Re7 Rd4 33. Rc3
+h6 34. Ka2 Rd2 35. Rb3 Rd4 36. Rf7+ Kg6 37. Rbb7 Kh5 38. Bb3 c4 39. Ba4 c3 40.
+Be8 Qd5+ 41. Rb3 Kh4 42. bxc3 Re4 0-1
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1985.??.??"]
+[Round "?"]
+[White "Fernandez Garcia, Jose Luis"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1-0"]
+[ECO "B41"]
+[PlyCount "63"]
+[EventDate "1985.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. g3 Nf6 6. Bg2 Be7 7. O-O d6 8. c4
+Qc7 9. b3 Bd7 10. Bb2 Nc6 11. Nc3 O-O 12. Nc2 Rfd8 13. Ne3 Be8 14. Rc1 Rac8 15.
+Ne2 Qb6 16. Nd4 Qa7 17. a3 Ne5 18. Qe2 b5 19. cxb5 axb5 20. f4 Ng6 21. Kh1 Rxc1
+22. Rxc1 e5 23. Ndf5 exf4 24. Nxe7+ Qxe7 25. Nf5 Qe6 26. Rf1 fxg3 27. Bxf6 gxf6
+28. Qe3 Ne7 29. Qxg3+ Ng6 30. Qe3 Ne7 31. Qh6 Nxf5 32. exf5 1-0
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1985.??.??"]
+[Round "?"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Martin Gonzalez, Angel"]
+[Result "1-0"]
+[ECO "E10"]
+[PlyCount "67"]
+[EventDate "1985.07.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 c5 4. d5 b5 5. Bg5 h6 6. Bxf6 Qxf6 7. Nc3 b4 8. Nb5
+Kd8 9. e4 g5 10. a3 Qxb2 11. axb4 Qxb4+ 12. Nd2 a6 13. h4 Bb7 14. hxg5 exd5 15.
+Rh3 dxc4 16. Nc3 Bg7 17. Qc1 hxg5 18. Rg3 Qb6 19. Rb1 Qc7 20. Nxc4 Bf6 21. Rf3
+Rh6 22. Rxb7 Qxb7 23. Rxf6 Rxf6 24. Qxg5 Qb4 25. Qxf6+ Kc7 26. Nb6 Kb7 27. Nxa8
+Nc6 28. Bxa6+ Kxa8 29. Bb5 Nd4 30. Qd8+ Kb7 31. Qxd7+ Kb8 32. Qe8+ Kc7 33.
+Qxf7+ Kb6 34. Qc4 1-0
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1985.07.??"]
+[Round "?"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Pisa Ferrer, Josep"]
+[Result "1-0"]
+[ECO "A40"]
+[PlyCount "115"]
+[EventDate "1985.07.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. d4 e6 2. c4 Bb4+ 3. Nd2 Nf6 4. g3 O-O 5. Bg2 d6 6. Ngf3 Qe7 7. O-O Bxd2 8.
+Qxd2 e5 9. b3 Nc6 10. Bb2 Re8 11. Rae1 Bf5 12. Nh4 Be4 13. f3 Bg6 14. d5 Nb8
+15. e4 Nfd7 16. Bh3 Nf8 17. f4 f6 18. fxe5 dxe5 19. Qc1 Na6 20. Re3 Red8 21.
+Rd1 b6 22. Ba3 Qe8 23. b4 Bh5 24. Rf1 Nb8 25. c5 b5 26. c6 Na6 27. Qc3 Ng6 28.
+Nf5 Ne7 29. Bb2 Nxf5 30. Bxf5 Qe7 31. a3 Bf7 32. Rd3 Nb8 33. Bc1 a5 34. Be3
+axb4 35. axb4 Na6 36. Rb1 g6 37. Bh3 Qf8 38. Rdd1 g5 39. Bf5 Bg6 40. Rf1 Qe7
+41. Qe1 Kg7 42. Rf2 Bxf5 43. Rxf5 Nb8 44. Bc5 Qf7 45. Qe2 Na6 46. Be3 Qg6 47.
+Qxb5 h5 48. Qc4 g4 49. b5 h4 50. bxa6 hxg3 51. hxg3 Qh7 52. Bg5 fxg5 53. Rxg5+
+Kf6 54. Rxg4 Rg8 55. Rf1+ Ke7 56. Qb4+ Ke8 57. d6 cxd6 58. Qxd6 1-0
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1985.07.??"]
+[Round "?"]
+[White "Eslon, Jaan"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1-0"]
+[ECO "B43"]
+[PlyCount "85"]
+[EventDate "1985.07.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Nc3 Qc7 6. Bd3 d6 7. f4 g6 8. O-O
+Bg7 9. Nf3 Nf6 10. Kh1 O-O 11. Qe1 Nbd7 12. Qh4 b5 13. Bd2 Bb7 14. Rae1 Rfe8
+15. a3 Rad8 16. Nd1 d5 17. e5 Ne4 18. Be3 Ndc5 19. Bd4 Qe7 20. Qh3 f5 21. exf6
+Bxf6 22. b4 Nd7 23. Bxf6 Ndxf6 24. Ne3 Qc7 25. Qh4 Rf8 26. Ng5 Nxg5 27. fxg5
+Nd7 28. Ng4 e5 29. Bxg6 hxg6 30. Nh6+ Kg7 31. Nf5+ Rxf5 32. Qh6+ Kf7 33. Qh7+
+Ke6 34. Qxg6+ Rf6 35. gxf6 Nf8 36. Qf5+ Kd6 37. Rxe5 Qc4 38. Re7 Kc6 39. Rfe1
+Kb6 40. f7 Rd6 41. Qe5 Rg6 42. Re8 Qh4 43. Rxf8 1-0
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1986.??.??"]
+[Round "1"]
+[White "Fernandez Garcia, Jose Luis"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1/2-1/2"]
+[ECO "B49"]
+[WhiteElo "2455"]
+[BlackElo "2430"]
+[PlyCount "114"]
+[EventDate "1986.07.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+[Source "ChessBase"]
+[SourceDate "2001.11.25"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be2 a6 7. O-O Nf6 8.
+Be3 b5 9. Nxc6 dxc6 10. f4 Bb7 11. e5 Nd5 12. Nxd5 cxd5 13. c3 Bc5 14. Bxc5
+Qxc5+ 15. Qd4 Qxd4+ 16. cxd4 Rc8 17. Bd3 Rc6 18. Rac1 g6 19. Rxc6 Bxc6 20. Rc1
+Kd7 21. Kf2 h6 22. g4 h5 23. gxh5 Rxh5 24. Kg3 Bb7 25. h4 Rh8 26. Kg4 b4 27.
+Be2 Rc8 28. Rxc8 Bxc8 29. Kg5 Ke7 30. Kh6 Kf8 31. Bd3 a5 32. Bb5 Bb7 33. Kh7
+Bc8 34. Kh8 Bb7 35. Kh7 Bc8 36. Kh8 Bb7 37. a3 bxa3 38. bxa3 Bc8 39. Kh7 Bb7
+40. Kh8 Bc8 41. Kh7 Bb7 42. Kh6 Bc8 43. Kg5 Kg7 44. Be2 Bd7 45. h5 gxh5 46.
+Bxh5 Bb5 47. f5 Bd7 48. Bg4 Bc8 49. Bh3 Bd7 50. Bg4 Bc8 51. Bf3 Ba6 52. Bd1 Bb5
+53. Bf3 Ba6 54. Bd1 Bb5 55. Bg4 Bd7 56. Bh3 Bc8 57. Bf1 Bd7 1/2-1/2
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1986.??.??"]
+[Round "2"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Cramling, Dan"]
+[Result "1/2-1/2"]
+[ECO "B08"]
+[WhiteElo "2430"]
+[BlackElo "2420"]
+[PlyCount "32"]
+[EventDate "1986.07.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+[Source "ChessBase"]
+[SourceDate "2001.11.25"]
+
+1. Nf3 g6 2. e4 Bg7 3. d4 d6 4. Be2 Nf6 5. Nc3 O-O 6. h3 c6 7. a4 Nbd7 8. O-O
+e5 9. dxe5 dxe5 10. Bg5 Nc5 11. Qxd8 Rxd8 12. Nxe5 Re8 13. Nc4 Nfxe4 14. Nxe4
+Nxe4 15. Be3 Be6 16. c3 Bd5 1/2-1/2
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1986.??.??"]
+[Round "3"]
+[White "Cramling, Pia"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1/2-1/2"]
+[ECO "D13"]
+[WhiteElo "2400"]
+[BlackElo "2430"]
+[PlyCount "36"]
+[EventDate "1986.07.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+[Source "ChessBase"]
+[SourceDate "2001.11.25"]
+
+1. Nf3 d5 2. c4 c6 3. d4 Nf6 4. cxd5 cxd5 5. Nc3 Nc6 6. Bf4 e6 7. e3 Bd6 8.
+Bxd6 Qxd6 9. Bd3 O-O 10. O-O Bd7 11. Rc1 Rac8 12. Qe2 e5 13. Nb5 Qb8 14. Nxe5
+Nxe5 15. dxe5 Qxe5 16. Nd4 Rxc1 17. Rxc1 Rc8 18. Rxc8+ Bxc8 1/2-1/2
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1986.??.??"]
+[Round "4"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "0-1"]
+[ECO "A45"]
+[WhiteElo "2430"]
+[PlyCount "108"]
+[EventDate "1986.07.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+[Source "ChessBase"]
+[SourceDate "2001.11.25"]
+
+1. d4 Nf6 2. Bg5 e6 3. Nd2 d5 4. e3 Be7 5. Bd3 Nbd7 6. f4 b6 7. Qf3 Bb7 8. Nh3
+c5 9. c3 Qc7 10. Nf2 a5 11. O-O O-O 12. Qh3 Rfe8 13. Nf3 Ba6 14. Bxa6 Rxa6 15.
+Ne5 Raa8 16. g4 Ne4 17. Nxe4 dxe4 18. Bxe7 Rxe7 19. g5 b5 20. Qg2 Qb7 21. Rad1
+c4 22. Ng4 Kh8 23. f5 exf5 24. Rxf5 g6 25. Rf4 Qd5 26. Nf6 Nxf6 27. gxf6 Re6
+28. Rdf1 Rg8 29. Qh3 g5 30. Rf5 Qd7 31. Qh6 Ree8 32. Kh1 Rg6 33. Qh5 Reg8 34.
+R1f2 b4 35. Rxa5 bxc3 36. bxc3 Qb7 37. Qe2 g4 38. Rh5 Qb6 39. Qxc4 Rxf6 40. Qf1
+Rf3 41. Rxf3 gxf3 42. Rh3 Rg2 43. Rg3 Rxg3 44. hxg3 Qh6+ 45. Kg1 Qxe3+ 46. Qf2
+Qc1+ 47. Kh2 Qd1 48. g4 e3 49. Qg3 Qc2+ 50. Kh3 Qe4 51. Qd6 Kg7 52. g5 e2 53.
+Qf6+ Kf8 54. d5 e1=Q 0-1
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1986.??.??"]
+[Round "5"]
+[White "Martin Gonzalez, Angel"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1-0"]
+[ECO "B40"]
+[BlackElo "2430"]
+[PlyCount "71"]
+[EventDate "1986.07.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+[Source "ChessBase"]
+[SourceDate "2001.11.25"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Bb4 6. e5 Nd5 7. Qg4 O-O 8.
+Bh6 g6 9. Qg3 d6 10. Bxf8 Qxf8 11. exd6 Bxd6 12. Qf3 Nxc3 13. bxc3 e5 14. Nb5
+Bc5 15. Nc7 e4 16. Qe2 Qg7 17. Qd2 Bb4 18. Qd8+ Bf8 19. Qd2 Bb4 20. O-O-O Nc6
+21. Nxa8 Be6 22. Kb1 Ba5 23. Bb5 Qe5 24. Ba4 Bxc3 25. Qd6 Qa5 26. Bb3 Bf6 27.
+Qd2 Bc3 28. Qe3 Ne5 29. Rd4 Bxb3 30. cxb3 Nd3 31. Rxe4 Qa3 32. Qe2 Bf6 33. Nc7
+Nc5 34. Re8+ Kg7 35. Re3 Qa5 36. Ne8+ 1-0
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1986.??.??"]
+[Round "6"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Gil Reguera, Juan Carlos"]
+[Result "1-0"]
+[ECO "A75"]
+[WhiteElo "2430"]
+[BlackElo "2380"]
+[PlyCount "76"]
+[EventDate "1986.07.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+[Source "ChessBase"]
+[SourceDate "2001.11.25"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 c5 4. d5 exd5 5. cxd5 d6 6. Nc3 g6 7. Bf4 a6 8. a4
+Bg7 9. e4 Bg4 10. Be2 O-O 11. O-O Re8 12. Nd2 Bxe2 13. Qxe2 Nh5 14. Be3 Nd7 15.
+Kh1 Bd4 16. g4 Nhf6 17. Bg5 Qe7 18. f3 Qf8 19. Nc4 Rab8 20. a5 h6 21. Bh4 Qe7
+22. Rae1 Ne5 23. Nb6 Ned7 24. Nca4 Nxb6 25. Nxb6 Qc7 26. Qd2 Nd7 27. Nxd7 Qxd7
+28. Qxh6 Bg7 29. Qd2 b6 30. Bg3 Qc7 31. Ra1 b5 32. h4 Kh7 33. h5 gxh5 34. Qh2
+Be5 35. Rg1 Qe7 36. Qxh5+ Kg7 37. Bxe5+ dxe5 38. Qf5 c4 1-0
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1986.??.??"]
+[Round "7"]
+[White "Campos Moreno, Javier B"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1-0"]
+[ECO "A57"]
+[WhiteElo "2405"]
+[BlackElo "2430"]
+[PlyCount "75"]
+[EventDate "1986.07.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+[Source "ChessBase"]
+[SourceDate "2001.11.25"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. e3 g6 6. Nc3 Bg7 7. Nf3 O-O 8. a4 Bb7
+9. e4 e6 10. Be2 exd5 11. exd5 axb5 12. Bxb5 Re8+ 13. Be2 Ne4 14. Nxe4 Rxe4 15.
+O-O d6 16. Bb5 Na6 17. Qd3 Rb4 18. Re1 Nc7 19. Bg5 Bf6 20. Bxf6 Qxf6 21. Bc6
+Bxc6 22. dxc6 Rxb2 23. Rad1 d5 24. Qa3 Rb4 25. Ne5 Raxa4 26. Qg3 Re4 27. Nxg6
+Rxe1+ 28. Rxe1 hxg6 29. Qxc7 Kg7 30. Qb7 Rb4 31. Qd7 Re4 32. Rd1 Re2 33. Rf1
+Qe6 34. Qb7 Qf5 35. Qd7 Qe5 36. c7 Re1 37. Qb5 d4 38. c8=Q 1-0
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1986.??.??"]
+[Round "8"]
+[White "Rodriguez Vargas, Orestes"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1/2-1/2"]
+[ECO "A57"]
+[BlackElo "2430"]
+[PlyCount "32"]
+[EventDate "1986.07.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+[Source "ChessBase"]
+[SourceDate "2001.11.25"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. Qc2 bxc4 5. e4 d6 6. Bxc4 g6 7. Nc3 Bg7 8. Nf3
+O-O 9. O-O Ba6 10. Bxa6 Nxa6 11. a3 Rb8 12. Nd2 Nd7 13. Nc4 Ne5 14. Nxe5 Bxe5
+15. Bh6 Re8 16. Rab1 e6 1/2-1/2
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1986.??.??"]
+[Round "9"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Vehi Bach, Victor Manuel"]
+[Result "1-0"]
+[ECO "A75"]
+[WhiteElo "2430"]
+[BlackElo "2355"]
+[PlyCount "113"]
+[EventDate "1986.07.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+[Source "ChessBase"]
+[SourceDate "2001.11.25"]
+
+1. d4 Nf6 2. c4 c5 3. d5 a6 4. a4 e6 5. Nc3 exd5 6. cxd5 d6 7. e4 g6 8. Nf3 Bg7
+9. Be2 Bg4 10. Bf4 Bxf3 11. Bxf3 Qe7 12. O-O Nbd7 13. Re1 O-O 14. Rc1 Ne8 15.
+Qd2 Rb8 16. Be2 Be5 17. Bg5 f6 18. Be3 Ng7 19. f4 Bxc3 20. bxc3 Qxe4 21. Bf2
+Nb6 22. a5 Nc4 23. Qa2 b5 24. axb6 Nxb6 25. Bxa6 Qa4 26. Qxa4 Nxa4 27. Re4 Nb2
+28. Re7 Rf7 29. Rxf7 Kxf7 30. Rb1 Ne8 31. f5 Rb6 32. Be2 Na4 33. Rc1 Rb2 34.
+Kf1 Nb6 35. c4 Nd7 36. Ra1 Rb7 37. Bg3 Ne5 38. Ra8 Ng7 39. fxg6+ hxg6 40. Bxe5
+fxe5 41. g4 g5 42. Bd3 Rb3 43. Ra7+ Kf6 44. Bh7 Rf3+ 45. Ke1 Rf4 46. h3 Rxc4
+47. Rd7 Ne8 48. Bg8 Rb4 49. Bf7 Ng7 50. Bh5 Nxh5 51. Rxd6+ Kf7 52. gxh5 Rh4 53.
+h6 Rxh3 54. h7 Kg7 55. Rd7+ Kg6 56. Rc7 Rh1+ 57. Kf2 1-0
+
+[Event "Camp. España indiv."]
+[Site "Salou"]
+[Date "1987.??.??"]
+[Round "?"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Estremera Paños, Sergio"]
+[Result "1-0"]
+[ECO "D45"]
+[PlyCount "93"]
+[EventDate "1987.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 d5 4. Nc3 c6 5. e3 Nbd7 6. Qc2 Bd6 7. Bd2 O-O 8.
+O-O-O b5 9. cxb5 c5 10. e4 cxd4 11. Nxd4 Qb6 12. Be3 e5 13. Ne6 d4 14. Na4 Qb7
+15. Nxf8 Bxf8 16. Bxd4 exd4 17. Rxd4 Nb6 18. e5 Nfd5 19. Nxb6 axb6 20. Qe4 Be6
+21. Bc4 Rc8 22. Rhd1 Qc7 23. Kd2 Bb4+ 24. Ke2 Nf4+ 25. Kf3 Bxc4 26. Kxf4 f6 27.
+Rd8+ Rxd8 28. Rxd8+ Kf7 29. Rd7+ Qxd7 30. Qxc4+ Qe6 31. Qxb4 fxe5+ 32. Kg3 Qxa2
+33. b3 Qb2 34. Qc4+ Kf6 35. Qc6+ Kf5 36. Qc4 Kf6 37. h4 h6 38. Qc6+ Kf5 39.
+Qd7+ Kf6 40. Qd8+ Kf5 41. Qf8+ Kg6 42. Qd6+ Kf5 43. Qxb6 Qxb3+ 44. Kh2 Qc4 45.
+g3 g5 46. Qxh6 gxh4 47. Qh7+ 1-0
+
+[Event "Camp. España indiv."]
+[Site "Salou"]
+[Date "1987.??.??"]
+[Round "1"]
+[White "Macias, JJ."]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "0-1"]
+[ECO "B40"]
+[PlyCount "116"]
+[EventDate "1987.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. e4 c5 2. Nf3 e6 3. d3 b6 4. g3 d6 5. Bg2 Nd7 6. O-O Bb7 7. Nbd2 Ngf6 8. Re1
+Qc7 9. a4 a6 10. Nc4 b5 11. Na3 Qb8 12. Bf4 Bc6 13. axb5 axb5 14. b4 cxb4 15.
+Nd4 Bb7 16. Naxb5 e5 17. Rxa8 Bxa8 18. Qa1 Bb7 19. Qa5 Be7 20. Nf5 Bc6 21. Nc7+
+Kf8 22. Nxe7 Kxe7 23. Bd2 b3 24. cxb3 Nc5 25. Na6 Nxb3 26. Qc3 Qb5 27. Nb4 Nc5
+28. Be3 Rc8 29. Bxc5 Qxc5 30. Qxc5 dxc5 31. Bh3 Bd7 32. Bxd7 Kxd7 33. Nc2 c4
+34. d4 exd4 35. Nxd4 c3 36. f3 Rc4 37. Nc2 Kc6 38. Kf2 Nd7 39. Ke3 Nc5 40. Rb1
+Ra4 41. Ra1 Rxa1 42. Nxa1 Kb5 43. Kd4 Kb4 44. Nc2+ Kb3 45. Ne1 Ne6+ 46. Kd5 Kb2
+47. f4 Kc1 48. Nd3+ Kd2 49. Nb4 Nc7+ 50. Kd6 Na6 51. Nxa6 c2 52. Nc5 Kc3 53.
+Ke7 c1=Q 54. Kxf7 Qe3 55. Ne6 Qxe4 56. Nxg7 Kd4 57. f5 Ke5 58. h4 Qd5+ 0-1
+
+[Event "Camp. España indiv."]
+[Site "Salou"]
+[Date "1987.??.??"]
+[Round "3"]
+[White "Izeta Txabarri, Felix"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "0-1"]
+[ECO "A56"]
+[PlyCount "76"]
+[EventDate "1987.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 c5 3. d5 a6 4. a4 e5 5. Nc3 d6 6. e4 Be7 7. Nf3 O-O 8. h3 Ne8
+9. Bd3 g6 10. g4 Ng7 11. Bh6 Nd7 12. a5 Nf6 13. Ra3 Kh8 14. Bd2 Bd7 15. Na4 Rb8
+16. Nb6 Be8 17. Rg1 Nd7 18. Rb3 Nxb6 19. Rxb6 Bd7 20. b4 cxb4 21. Bxb4 f5 22.
+gxf5 gxf5 23. c5 fxe4 24. cxd6 Bh4 25. Bxe4 Rf4 26. Qd3 Bxf2+ 27. Kxf2 Qh4+ 28.
+Ke3 Rxf3+ 29. Bxf3 Nf5+ 30. Kd2 Qf2+ 31. Be2 Qxg1 32. Bc3 Qg5+ 33. Ke1 Qh4+ 34.
+Kd1 Rc8 35. Kc2 Qe1 36. Kb2 Rxc3 37. Qxc3 Qxe2+ 38. Ka3 Nd4 $138 0-1
+
+[Event "Camp. España indiv."]
+[Site "Salou"]
+[Date "1987.??.??"]
+[Round "4"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Gil Reguera, Juan Carlos"]
+[Result "1-0"]
+[ECO "E10"]
+[PlyCount "87"]
+[EventDate "1987.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 c5 4. d5 exd5 5. cxd5 d6 6. e4 g6 7. h3 Bg7 8. Bd3
+O-O 9. O-O b5 10. Re1 Re8 11. Bxb5 Rxe4 12. Rxe4 Nxe4 13. Qa4 Nf6 14. Nc3 Bb7
+15. Bg5 Nbd7 16. Bc6 Qc8 17. Re1 h6 18. Bxf6 Nxf6 19. Re7 Bxc6 20. Qxc6 Qxc6
+21. dxc6 Rc8 22. Rxa7 Rxc6 23. a4 d5 24. a5 d4 25. Nb5 Nd5 26. a6 Rb6 27. Ra8+
+Kh7 28. a7 Rxb5 29. Rb8 Ra5 30. a8=Q Rxa8 31. Rxa8 c4 32. Rc8 c3 33. bxc3 dxc3
+34. Kf1 Nf4 35. h4 Bf6 36. g3 Nd5 37. Rc4 Kg7 38. Ke2 Kf8 39. Re4 Bg7 40. Kd3
+f5 41. Ra4 Kf7 42. Nd4 h5 43. Ra7+ Kg8 44. Kc4 1-0
+
+[Event "Camp. España indiv."]
+[Site "Salou"]
+[Date "1987.??.??"]
+[Round "5"]
+[White "Gomez Esteban, Juan Mario"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1/2-1/2"]
+[ECO "D30"]
+[PlyCount "133"]
+[EventDate "1987.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. d4 d5 2. Nf3 c6 3. c4 e6 4. Qc2 f5 5. Bf4 Nf6 6. e3 Ne4 7. Bd3 Bd6 8. Bxd6
+Nxd6 9. Ne5 Nd7 10. Nxd7 Bxd7 11. Nd2 O-O 12. O-O Rc8 13. b4 a5 14. c5 Nf7 15.
+bxa5 Qxa5 16. Rfb1 Rc7 17. a4 e5 18. Nb3 Qa8 19. Bxf5 e4 20. Bxd7 Rxd7 21. Qe2
+Qd8 22. Nd2 Qh4 23. f4 exf3 24. Nxf3 Qh6 25. e4 Re7 26. e5 Nd8 27. Qd2 Qxd2 28.
+Nxd2 Ne6 29. Rb4 Rf4 30. Nb3 Ref7 31. h3 Rf2 32. Rd1 Rb2 33. Rf1 Rxf1+ 34. Kxf1
+Nxd4 35. Rxd4 Rxb3 36. Rf4 b5 37. e6 bxa4 38. Rxa4 Rb8 39. Ra6 Rc8 40. Kf2 Kf8
+41. Ra7 Re8 42. Rf7+ Kg8 43. Rd7 Rxe6 44. Rc7 h5 45. h4 Kh7 46. Kf3 Kg6 47. g3
+Kf6 48. Kf4 g6 49. Rd7 Re4+ 50. Kf3 Re7 51. Rd6+ Re6 52. Rd7 Kf5 53. Rd8 Ke5
+54. Ke3 Kf6+ 55. Kd4 Kf5 56. Kd3 Re4 57. Rf8+ Ke5 58. Re8+ Kf5 59. Rf8+ Kg4 60.
+Rf6 Kxg3 61. Rxg6+ Kxh4 62. Rxc6 Kg3 63. Rc8 h4 64. c6 Rg4 65. Rh8 Rc4 66. Rg8+
+Kh2 67. c7 1/2-1/2
+
+[Event "Camp. España indiv."]
+[Site "Salou"]
+[Date "1987.??.??"]
+[Round "6"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Martin Gonzalez, Angel"]
+[Result "0-1"]
+[ECO "A43"]
+[PlyCount "60"]
+[EventDate "1987.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. d4 Nf6 2. Nf3 c5 3. d5 e6 4. c4 exd5 5. cxd5 g6 6. e4 Nxe4 7. Bd3 f5 8. O-O
+Bg7 9. Bxe4 fxe4 10. Ng5 d6 11. Qa4+ Qd7 12. Qxe4+ Qe7 13. Nc3 Bf5 14. Qa4+ Nd7
+15. Ne6 Bxe6 16. dxe6 Qxe6 17. Nb5 Rc8 18. Bh6 O-O 19. Bxg7 Kxg7 20. Rae1 Ne5
+21. Qxa7 Qd7 22. Qa5 Kg8 23. a4 Qg4 24. h3 Qg5 25. Re4 Nf3+ 26. Kh1 Nd2 27. Rg4
+Qd5 28. Rd1 Rxf2 29. Nc3 Qe5 30. Nb1 Nf3 0-1
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1987.??.??"]
+[Round "?"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Akesson, Ralf"]
+[Result "1-0"]
+[ECO "E12"]
+[PlyCount "69"]
+[EventDate "1987.07.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 b6 4. Nc3 Bb7 5. Bg5 Be7 6. Qc2 c5 7. Rd1 cxd4 8.
+Nxd4 a6 9. e4 Qc7 10. Be2 Nc6 11. Nxc6 Bxc6 12. a3 O-O 13. Bh4 b5 14. O-O Rfc8
+15. Rfe1 bxc4 16. Bxc4 Qf4 17. Bg3 Qg5 18. Qe2 a5 19. Ba6 Rd8 20. Bc7 Re8 21.
+g3 Ng4 22. Kg2 d5 23. Bb5 Bxb5 24. Qxb5 dxe4 25. Qxg5 Bxg5 26. Rxe4 f5 27. Ra4
+Ra7 28. Nb5 Ra6 29. Rd6 Rea8 30. h3 Nf6 31. f4 Bh6 32. b4 Rxd6 33. Bxd6 Rc8 34.
+bxa5 Ne4 35. a6 1-0
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1988.??.??"]
+[Round "1"]
+[White "Martin Gonzalez, Angel"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "0-1"]
+[ECO "B01"]
+[WhiteElo "2390"]
+[BlackElo "2445"]
+[PlyCount "92"]
+[EventDate "1988.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. e4 d5 2. exd5 Nf6 3. c4 e6 4. dxe6 Bxe6 5. d4 Bb4+ 6. Bd2 Bxd2+ 7. Qxd2 Qe7
+8. Qe3 Nc6 9. Nf3 O-O-O 10. Be2 Rhe8 11. O-O Bg4 12. Nc3 Bxf3 13. Bxf3 Nxd4 14.
+Qxe7 Nxf3+ 15. gxf3 Rxe7 16. Rfe1 Rdd7 17. Rad1 Kd8 18. Kf1 c6 19. Ne4 Nxe4 20.
+fxe4 Rxd1 21. Rxd1+ Kc7 22. f3 f5 23. exf5 Rf7 24. Kf2 Rxf5 25. b3 a5 26. Rd4
+Rf7 27. a3 Kb6 28. b4 c5 29. Rd6+ Kc7 30. bxc5 Rf4 31. Re6 Rxc4 32. Re7+ Kc6
+33. Rxg7 Ra4 34. Rxh7 Rxa3 35. h4 Ra1 36. h5 a4 37. Rh8 Kxc5 38. Kg2 Rd1 39. h6
+Rd7 40. h7 Kb4 41. f4 a3 42. f5 b5 43. f6 Ra7 44. Re8 Rxh7 45. Re7 Rh8 46. Re4+
+Kb3 0-1
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1988.??.??"]
+[Round "2"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Cuadras Avellana, Jordi"]
+[Result "1-0"]
+[ECO "A45"]
+[WhiteElo "2445"]
+[BlackElo "2300"]
+[PlyCount "49"]
+[EventDate "1988.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. d4 Nf6 2. Bg5 e6 3. e3 c5 4. Nd2 d5 5. c3 Nbd7 6. f4 Be7 7. Bd3 b6 8. Qf3
+Bb7 9. Ne2 h6 10. Bxf6 Bxf6 11. O-O-O Qc7 12. Kb1 O-O-O 13. e4 dxe4 14. Bxe4
+Be7 15. f5 exf5 16. Qxf5 Rhf8 17. Bxb7+ Qxb7 18. Rhe1 g6 19. Qh3 Kb8 20. Qxh6
+Qxg2 21. Qf4+ Ka8 22. Ng3 Rde8 23. Re2 Qb7 24. Rde1 Nb8 25. Qf3 1-0
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1988.??.??"]
+[Round "3"]
+[White "Cramling, Pia"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1/2-1/2"]
+[ECO "B38"]
+[WhiteElo "2435"]
+[BlackElo "2445"]
+[PlyCount "22"]
+[EventDate "1988.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. c4 c5 2. Nc3 Nc6 3. Nf3 Nf6 4. d4 cxd4 5. Nxd4 g6 6. e4 Bg7 7. Be3 d6 8. Be2
+O-O 9. O-O Bd7 10. f3 Nxd4 11. Bxd4 Bc6 1/2-1/2
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1988.??.??"]
+[Round "4"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Bofill Mas, Alexandre"]
+[Result "1-0"]
+[ECO "E94"]
+[WhiteElo "2445"]
+[BlackElo "2410"]
+[PlyCount "155"]
+[EventDate "1988.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d6 4. e4 Bg7 5. Nf3 O-O 6. Be2 Nbd7 7. O-O e5 8. Qc2
+c6 9. Be3 Ng4 10. Bg5 f6 11. Bd2 Qe7 12. h3 Nh6 13. b4 Nf7 14. dxe5 fxe5 15.
+Rad1 Nf6 16. Ng5 Nd8 17. Be3 h6 18. Nf3 Ne6 19. c5 Ne8 20. cxd6 Nxd6 21. Rd2
+Nf7 22. Qb3 Kh7 23. Rfd1 Qf6 24. Bc4 Nf4 25. Bxf4 exf4 26. Ne2 b5 27. Bxf7 Qxf7
+28. Qxf7 Rxf7 29. Rd8 Bb7 30. R8d7 Raf8 31. Nxf4 Rxd7 32. Rxd7 Bc8 33. Rc7 Rxf4
+34. Rxc8 Rxe4 35. Rxc6 Rxb4 36. Ra6 Rb2 37. Rxa7 Kg8 38. Ra6 Kf7 39. g4 Re2 40.
+Kf1 Rb2 41. Kg2 Bf6 42. h4 b4 43. g5 hxg5 44. hxg5 Bc3 45. Nh2 Bd2 46. Nf3 Bc3
+47. Kg3 Rb1 48. Kf4 Rf1 49. Ke3 Ra1 50. Nd4 Re1+ 51. Ne2 Bg7 52. Ra7+ Kg8 53.
+Rb7 Bf8 54. Kf3 Ra1 55. Nf4 Rxa2 56. Nd5 Bg7 57. Ne7+ Kh7 58. Rxb4 Bc3 59. Rb7
+Be1 60. Nd5+ Kh8 61. Nf6 Rxf2+ 62. Ke4 Rh2 63. Ke5 Bd2 64. Rb8+ Kg7 65. Ne8+
+Kf7 66. Nd6+ Ke7 67. Rb7+ Kd8 68. Kf6 Re2 69. Nf7+ Kc8 70. Nd6+ Kd8 71. Nf7+
+Kc8 72. Ra7 Kb8 73. Rd7 Kc8 74. Rd5 Kc7 75. Kxg6 Rf2 76. Rc5+ Kb6 77. Rc2 Kb5
+78. Nd6+ 1-0
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1988.??.??"]
+[Round "5"]
+[White "Cramling, Dan"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1/2-1/2"]
+[ECO "D14"]
+[WhiteElo "2435"]
+[BlackElo "2445"]
+[PlyCount "29"]
+[EventDate "1988.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. cxd5 cxd5 5. Nc3 Nc6 6. Bf4 Bf5 7. e3 e6 8. Ne5
+Nd7 9. Nxd7 Qxd7 10. Bd3 Bxd3 11. Qxd3 Bd6 12. Bxd6 Qxd6 13. O-O O-O 14. Rac1
+Rac8 15. Qb5 1/2-1/2
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1988.??.??"]
+[Round "6"]
+[White "Rodriguez Vargas, Orestes"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1/2-1/2"]
+[ECO "B15"]
+[WhiteElo "2420"]
+[BlackElo "2445"]
+[PlyCount "25"]
+[EventDate "1988.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. e4 c6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Nf6 5. Nxf6+ exf6 6. Bc4 Qe7+ 7. Qe2 Be6
+8. Bxe6 Qxe6 9. Qxe6+ fxe6 10. Ne2 Na6 11. a3 O-O-O 12. Be3 c5 13. O-O-O
+1/2-1/2
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1988.??.??"]
+[Round "7"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Gual Pascual, Antonio"]
+[Result "0-1"]
+[ECO "D17"]
+[WhiteElo "2445"]
+[BlackElo "2385"]
+[PlyCount "96"]
+[EventDate "1988.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. Nh4 Bc8 7. e3 e5 8. Nf3
+exd4 9. Nxd4 Bd6 10. Bxc4 O-O 11. h3 Bc7 12. O-O Nbd7 13. Qc2 Ne5 14. Be2 Ng6
+15. Nf5 Ne7 16. Nh4 Ned5 17. Rd1 Qe7 18. Nxd5 Nxd5 19. Nf3 a5 20. Rd4 Nb4 21.
+Qc3 Be6 22. Bc4 Rad8 23. Bd2 Rxd4 24. Nxd4 Qd6 25. f4 Bxc4 26. Qxc4 Bb6 27. Kh1
+Re8 28. Bxb4 Qxb4 29. Qxb4 axb4 30. Nf5 Bc5 31. Rc1 Bf8 32. Re1 g6 33. Ng3 Rd8
+34. Ne4 f5 35. Ng5 Rd2 36. e4 fxe4 37. b3 Rd3 38. Rxe4 Rxb3 39. Re8 h6 40. Ne4
+Kf7 41. Rb8 Re3 42. Rxb7+ Ke6 43. Nd2 Bd6 44. Kg1 Kd5 45. a5 Rd3 46. Nf3 Ra3
+47. Ne5 Rxa5 48. Rd7 b3 0-1
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1988.??.??"]
+[Round "8"]
+[White "Campos Moreno, Javier B"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "0-1"]
+[ECO "A61"]
+[WhiteElo "2330"]
+[BlackElo "2445"]
+[PlyCount "80"]
+[EventDate "1988.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e6 4. Nc3 exd5 5. cxd5 d6 6. Nf3 g6 7. Bf4 Bg7 8. Qa4+
+Bd7 9. Qb3 b5 10. Bxd6 Qb6 11. Be5 O-O 12. e3 c4 13. Qd1 b4 14. Nb1 Bb5 15.
+Nbd2 c3 16. bxc3 Nxd5 17. Bxg7 Kxg7 18. c4 Nc3 19. Qc2 Re8 20. Bd3 Ba4 21. Nb3
+Nd7 22. O-O Nc5 23. Rfe1 Rad8 24. Bf1 Qf6 25. Qb2 Bxb3 26. axb3 N5e4 27. Nd4
+Re5 28. Rxa7 Rh5 29. c5 Nxc5 30. Bc4 Rd7 31. Rea1 Kh6 32. R1a5 Qe7 33. Qa1 N3e4
+34. Nf3 Ng5 35. Nxg5 Rxg5 36. h4 Rg4 37. g3 Rxg3+ 38. fxg3 Qxe3+ 39. Kh2 Qf2+
+40. Kh3 Qf5+ 0-1
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1988.??.??"]
+[Round "9"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Garcia Martinez, Silvino"]
+[Result "1/2-1/2"]
+[ECO "E13"]
+[WhiteElo "2445"]
+[BlackElo "2405"]
+[PlyCount "24"]
+[EventDate "1988.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "6"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. Nc3 Bb7 5. Qc2 Bb4 6. Bg5 h6 7. Bh4 a5 8. e3 d6
+9. O-O-O Bxc3 10. Qxc3 g5 11. Bg3 Ne4 12. Qc2 Nd7 1/2-1/2
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1989.??.??"]
+[Round "?"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Campos Moreno, Javier B"]
+[Result "1-0"]
+[ECO "E14"]
+[WhiteElo "2470"]
+[BlackElo "2430"]
+[PlyCount "49"]
+[EventDate "1989.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. d4 e6 2. Nf3 Nf6 3. c4 b6 4. e3 Bb7 5. Bd3 c5 6. O-O Be7 7. b3 O-O 8. Bb2
+cxd4 9. exd4 d5 10. Ne5 Nc6 11. Nxc6 Bxc6 12. Nd2 Qd7 13. Nf3 Qb7 14. Re1 dxc4
+15. bxc4 b5 16. d5 exd5 17. cxb5 Be8 18. Nd4 Bb4 19. Re3 Bc5 20. Rh3 Bd7 21.
+Nf5 Qb6 22. Bxf6 Qxf6 23. Ne7+ Bxe7 24. Bxh7+ Kh8 25. Bg6+ 1-0
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1989.??.??"]
+[Round "?"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Fernandez Aguado, Juan Luis"]
+[Result "0-1"]
+[ECO "E92"]
+[WhiteElo "2470"]
+[PlyCount "114"]
+[EventDate "1989.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 O-O 5. e4 d6 6. Be2 e5 7. dxe5 dxe5 8.
+Qxd8 Rxd8 9. Bg5 Na6 10. Nd5 Rd6 11. Nxf6+ Bxf6 12. Bxf6 Rxf6 13. Nxe5 Re6 14.
+f4 f6 15. Ng4 h5 16. Nf2 Nc5 17. O-O-O Nxe4 18. Rd8+ Kf7 19. Nxe4 Rxe4 20. Bd3
+Re7 21. c5 b5 22. Bxb5 Bb7 23. Rd2 Be4 24. Re1 Rb8 25. Bc4+ Kg7 26. Bd5 f5 27.
+Bxe4 fxe4 28. Rd4 e3 29. Ra4 Kf6 30. Rxa7 Rb5 31. Ra6+ Kf5 32. Rc6 Ke4 33. Kc2
+Rb4 34. b3 Rd4 35. Re2 Kxf4 36. Rf6+ Ke4 37. Rxg6 Rd5 38. b4 Rf5 39. Rg3 Kd4
+40. Re1 Rf2+ 41. Kb3 Rd2 42. Rh3 e2 43. Rh4+ Re4 44. Rxe4+ Kxe4 45. b5 Kd3 46.
+a4 Rd1 47. Rxe2 Kxe2 48. Kb4 Kd3 49. c6 Kd4 50. Ka5 Ra1 51. g3 Kc5 52. h3 Ra3
+53. g4 h4 54. g5 Rxh3 55. Ka6 Re3 56. b6 Kxc6 57. b7 Re8 0-1
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1989.??.??"]
+[Round "?"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Gual Pascual, Antonio"]
+[Result "1/2-1/2"]
+[ECO "A06"]
+[WhiteElo "2470"]
+[BlackElo "2375"]
+[PlyCount "89"]
+[EventDate "1989.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. Nf3 d5 2. b3 Nf6 3. Bb2 g6 4. c4 Bg7 5. cxd5 O-O 6. Qc2 c6 7. dxc6 Nxc6 8.
+Nc3 Bf5 9. d3 Rc8 10. Qd2 e5 11. e4 Bg4 12. Be2 Bxf3 13. Bxf3 Nd4 14. Bd1 Qd6
+15. O-O Rfd8 16. f4 exf4 17. Kh1 Ne6 18. Be2 b5 19. Nxb5 Qb6 20. e5 Ne4 21. Qe1
+Qxb5 22. dxe4 Qb8 23. Bg4 Bxe5 24. Qf2 a5 25. Rad1 Rxd1 26. Rxd1 Rd8 27. Rd5
+Bxb2 28. Qxb2 Rxd5 29. exd5 Qb5 30. Qc1 Qxd5 31. h3 Qe5 32. a3 Nd4 33. b4 axb4
+34. axb4 h5 35. Bf3 Qe3 36. Qd1 Qc3 37. b5 Nxb5 38. Bxh5 gxh5 39. Qd8+ Kh7 40.
+Qd5 Qe1+ 41. Kh2 Qg3+ 42. Kh1 Qe1+ 43. Kh2 Kg7 44. Qg5+ Kf8 45. Qc5+ 1/2-1/2
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1989.??.??"]
+[Round "?"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Rodriguez Vargas, Orestes"]
+[Result "1/2-1/2"]
+[ECO "A22"]
+[WhiteElo "2470"]
+[BlackElo "2445"]
+[PlyCount "27"]
+[EventDate "1989.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. c4 e5 2. Nc3 Nf6 3. g3 Bb4 4. Bg2 O-O 5. e3 Re8 6. Nge2 Bf8 7. O-O c6 8. d4
+d6 9. b3 exd4 10. Qxd4 Nbd7 11. e4 Qc7 12. Bb2 a5 13. h3 Nc5 14. f4 1/2-1/2
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1989.??.??"]
+[Round "?"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Vehi Bach, Victor Manuel"]
+[Result "0-1"]
+[ECO "A47"]
+[WhiteElo "2470"]
+[BlackElo "2360"]
+[PlyCount "120"]
+[EventDate "1989.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. d4 Nf6 2. Nf3 e6 3. e3 b6 4. Bd3 Bb7 5. O-O Be7 6. b3 c5 7. Bb2 O-O 8. Qe2
+cxd4 9. exd4 Nd5 10. Be4 f5 11. Bxd5 Bxd5 12. c4 Bb7 13. Ne5 Na6 14. Nc3 Nc7
+15. Rfe1 Bf6 16. Rad1 d6 17. c5 Qe7 18. c6 Ba6 19. Qf3 Bxe5 20. dxe5 d5 21. a4
+Rac8 22. Rc1 Rfd8 23. Ne2 b5 24. Nd4 bxa4 25. bxa4 Qb4 26. Bc3 Qxa4 27. Ra1 Qc4
+28. Rec1 Re8 29. Qh5 Qc5 30. Ra5 Qb6 31. Ra3 Bc4 32. Ba1 g6 33. Qh6 Qc5 34. Rh3
+Qe7 35. Rb1 Rb8 36. Rb7 Ba6 37. Rhb3 Bxb7 38. cxb7 Qd7 39. h4 Na6 40. h5 Rxb7
+41. Ra3 Nc5 42. Ne2 Qg7 43. Qe3 Qe7 44. Bd4 Rc8 45. Rc3 Rbc7 46. hxg6 hxg6 47.
+Nf4 Ne4 48. Nxg6 Qg7 49. Rxc7 Rxc7 50. Nf4 Qh6 51. g3 a5 52. Qa3 Ng5 53. Be3
+Rh7 54. Kf1 Qh1+ 55. Ke2 Qf3+ 56. Kd3 Qd1+ 57. Bd2 Qf1+ 58. Ke3 d4+ 59. Kxd4
+Rd7+ 60. Ke3 Qc4 0-1
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1989.??.??"]
+[Round "?"]
+[White "Cramling, Pia"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1/2-1/2"]
+[ECO "D14"]
+[WhiteElo "2480"]
+[BlackElo "2470"]
+[PlyCount "22"]
+[EventDate "1989.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. Nf3 d5 2. d4 c6 3. c4 Nf6 4. cxd5 cxd5 5. Nc3 Nc6 6. Bf4 Bf5 7. e3 e6 8. Bb5
+Nd7 9. Ne5 Ndxe5 10. Bxe5 Rc8 11. O-O a6 1/2-1/2
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1989.??.??"]
+[Round "?"]
+[White "Martin Gonzalez, Angel"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1/2-1/2"]
+[ECO "B15"]
+[WhiteElo "2370"]
+[BlackElo "2470"]
+[PlyCount "30"]
+[EventDate "1989.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Nxf6+ exf6 6. Bc4 Qe7+ 7. Qe2 Be6
+8. Bxe6 Qxe6 9. Qxe6+ fxe6 10. Ne2 Bd6 11. Bf4 Bxf4 12. Nxf4 Kf7 13. O-O-O Na6
+14. Rhe1 Rhe8 15. Re2 Rad8 1/2-1/2
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1989.??.??"]
+[Round "?"]
+[White "Sanchez Guirado, Francisco Javier"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "0-1"]
+[ECO "D31"]
+[WhiteElo "2360"]
+[BlackElo "2470"]
+[PlyCount "96"]
+[EventDate "1989.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. d4 d5 2. Nf3 e6 3. c4 c6 4. Nc3 dxc4 5. a4 Bb4 6. e3 b5 7. Bd2 a5 8. axb5
+Bxc3 9. Bxc3 cxb5 10. b3 Bb7 11. bxc4 b4 12. Bb2 Nf6 13. Bd3 Nbd7 14. O-O O-O
+15. Qc2 Qc7 16. e4 e5 17. Nxe5 Nxe5 18. dxe5 Ng4 19. Be2 Nxe5 20. f4 Nd7 21. e5
+Nc5 22. f5 a4 23. e6 f6 24. Bh5 Nxe6 25. fxe6 Qc5+ 26. Rf2 Qxh5 27. Rxa4 Be4
+28. Qb3 Rxa4 29. Qxa4 Rd8 30. h3 Qc5 31. Qb5 Rd1+ 32. Kh2 Qd6+ 33. Be5 Qxe6 34.
+Bg3 Rb1 35. Re2 h6 36. c5 b3 37. Qb4 f5 38. Qd4 Qa6 39. Rf2 b2 40. Rxb2 Qf1 41.
+Be5 Rd1 42. Qf2 Qh1+ 43. Kg3 Rg1 44. Kh4 Rxg2 45. Qe3 Rg4+ 46. Kh5 Bf3 47. Rb8+
+Kf7 48. Qb3+ Rc4+ 0-1
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1989.??.??"]
+[Round "?"]
+[White "Westerinen, Heikki MJ"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1-0"]
+[ECO "B32"]
+[WhiteElo "2400"]
+[BlackElo "2470"]
+[PlyCount "81"]
+[EventDate "1989.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e5 5. Nb5 d6 6. Be3 Be6 7. c4 a6 8. N5c3
+Rc8 9. Nd5 Bxd5 10. cxd5 Nd4 11. Nc3 Be7 12. Bxd4 exd4 13. Qxd4 Bf6 14. Qa4+
+Kf8 15. Bd3 Rxc3 16. bxc3 Bxc3+ 17. Ke2 Bxa1 18. Rxa1 Nf6 19. Qb4 Qe7 20. Kf1
+g6 21. Re1 Ng4 22. Be2 h5 23. h3 Nf6 24. Bd3 h4 25. e5 dxe5 26. d6 Qe6 27. Bc4
+a5 28. Bxe6 axb4 29. Bc4 Kg7 30. Rxe5 Rd8 31. Re7 Rd7 32. Ke2 Kf8 33. Rxd7 Nxd7
+34. Kd3 Kg7 35. Bb5 Nf8 36. Kc4 Kf6 37. Kxb4 Ne6 38. Ka5 Ke5 39. d7 Nd8 40. Kb6
+Kd6 41. f4 1-0
+
+[Event "Terrassa Tancat"]
+[Site "Terrassa"]
+[Date "1989.??.??"]
+[Round "?"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Cramling, Pia"]
+[Result "1/2-1/2"]
+[ECO "E90"]
+[WhiteElo "2470"]
+[BlackElo "2480"]
+[PlyCount "39"]
+[EventDate "1989.03.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. d4 Nf6 2. Nf3 c5 3. d5 g6 4. c4 Bg7 5. Nc3 O-O 6. e4 d6 7. h3 e6 8. Bd3 Na6
+9. O-O Nc7 10. Re1 a6 11. a4 Rb8 12. Bf4 e5 13. Bg5 h6 14. Be3 Nh5 15. Qd2 g5
+16. g4 Nf4 17. Bf1 Ne8 18. Ne2 Nf6 19. Ng3 a5 20. b3 1/2-1/2
+
+[Event "Terrassa Tancat"]
+[Site "Terrassa"]
+[Date "1989.??.??"]
+[Round "?"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Ivanovic, Bozidar"]
+[Result "1/2-1/2"]
+[ECO "E10"]
+[WhiteElo "2470"]
+[BlackElo "2530"]
+[PlyCount "89"]
+[EventDate "1989.03.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 c5 4. d5 exd5 5. cxd5 d6 6. e4 Be7 7. h3 O-O 8. Nc3
+Ne8 9. Bd3 Nd7 10. O-O Bf6 11. Be3 Nc7 12. Qc2 h6 13. a4 Re8 14. Nd2 Na6 15.
+Bxa6 bxa6 16. Nc4 Ne5 17. Nxe5 Bxe5 18. f4 Bxc3 19. bxc3 Bf5 20. exf5 Rxe3 21.
+Rae1 Rxe1 22. Rxe1 Qh4 23. Qe4 Rb8 24. Re3 a5 25. Kh2 Kf8 26. Re2 Qf6 27. Qd3
+Kg8 28. g4 Rb7 29. Re8+ Kh7 30. Re3 Qh4 31. Re2 Qf6 32. Re3 Qh4 33. Kg2 Rb3 34.
+Qe2 Ra3 35. Re7 Ra2 36. Qxa2 Qxe7 37. Kf3 Qe1 38. Qc4 Qh1+ 39. Kg3 Qg1+ 40. Kf3
+Qh2 41. Qf1 Qc2 42. Qc4 h5 43. g5 Kg8 44. Qe4 Qxc3+ 45. Qe3 1/2-1/2
+
+[Event "Terrassa Tancat"]
+[Site "Terrassa"]
+[Date "1989.??.??"]
+[Round "?"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Pablo Mari, Alexandre"]
+[Result "1-0"]
+[ECO "E92"]
+[WhiteElo "2470"]
+[BlackElo "2390"]
+[PlyCount "99"]
+[EventDate "1989.03.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Be2 O-O 6. Nf3 e5 7. dxe5 dxe5 8.
+Qxd8 Rxd8 9. Bg5 Re8 10. Nd5 Nxd5 11. cxd5 c6 12. Bc4 cxd5 13. Bxd5 Nc6 14.
+O-O-O Nb4 15. Bb3 Be6 16. Bxe6 Rxe6 17. Kb1 Na6 18. Be3 f5 19. Rd5 b6 20. Rc1
+h6 21. Rc4 f4 22. Bd2 Rae8 23. Bc3 R6e7 24. Rc6 Kf7 25. b4 g5 26. a4 Re6 27.
+Rc4 Bf6 28. h3 h5 29. Kc2 g4 30. Rd7+ R6e7 31. Rxe7+ Rxe7 32. hxg4 hxg4 33. Nh2
+g3 34. fxg3 fxg3 35. Ng4 Bg7 36. Ne3 Rc7 37. Rxc7+ Nxc7 38. Nf5 Bf6 39. Nxg3
+Ne6 40. Nf5 a5 41. Kb3 axb4 42. Kxb4 Bd8 43. Kb5 Ng5 44. Bxe5 Nxe4 45. Nd6+ Ke6
+46. Nxe4 Kxe5 47. Nd2 Kd6 48. Nc4+ Kc7 49. Nxb6 Bh4 50. a5 1-0
+
+[Event "Terrassa Tancat"]
+[Site "Terrassa"]
+[Date "1989.??.??"]
+[Round "?"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Pomes Marcet, Joan"]
+[Result "1/2-1/2"]
+[ECO "A80"]
+[WhiteElo "2470"]
+[PlyCount "121"]
+[EventDate "1989.03.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. d4 f5 2. Nf3 Nf6 3. Bf4 e6 4. e3 Bd6 5. Be5 Nc6 6. Nbd2 O-O 7. h3 Bxe5 8.
+Nxe5 Ne4 9. Nxc6 bxc6 10. Nxe4 fxe4 11. Qg4 Qf6 12. O-O-O d5 13. Rd2 e5 14. Qg3
+exd4 15. exd4 Rf7 16. Qc3 Bd7 17. a4 Raf8 18. Kb1 Qh6 19. f3 exf3 20. gxf3 Rxf3
+21. Bd3 Bf5 22. Rhd1 Qd6 23. Qa5 Ra8 24. Bxf5 Rxf5 25. Rd3 Rff8 26. Rb3 a6 27.
+Rb7 Rf7 28. Rd3 h6 29. Ka2 g5 30. Rc3 Kg7 31. Qc5 Qxc5 32. Rxc5 h5 33. Rxc6 g4
+34. hxg4 hxg4 35. Rb3 a5 36. Rg3 Rf4 37. Rxc7+ Kf6 38. c3 Rg8 39. Rh7 Rg5 40.
+Rh8 Ke6 41. Re8+ Kf7 42. Re2 Rf3 43. Rxf3+ gxf3 44. Rf2 Rg3 45. Kb3 Ke6 46. c4
+dxc4+ 47. Kxc4 Kd6 48. b3 Rh3 49. Rc2 Rg3 50. Rh2 Rg2 51. Rh6+ Ke7 52. Rh4 Rc2+
+53. Kd3 f2 54. Rf4 Ra2 55. Kc4 Rb2 56. d5 Kd6 57. Rf6+ Ke7 58. Rf4 Kd6 59. Rf5
+Rd2 60. Kc3 Ra2 61. Kd4 1/2-1/2
+
+[Event "Terrassa Tancat"]
+[Site "Terrassa"]
+[Date "1989.??.??"]
+[Round "?"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Vehi Bach, Victor Manuel"]
+[Result "1-0"]
+[ECO "E12"]
+[WhiteElo "2470"]
+[BlackElo "2360"]
+[PlyCount "69"]
+[EventDate "1989.03.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. Nc3 Bb7 5. Bg5 h6 6. Bh4 Be7 7. Qc2 c5 8. Rd1
+cxd4 9. Nxd4 a6 10. e4 Qc7 11. Be2 d6 12. O-O Nbd7 13. f3 Rc8 14. Bf2 O-O 15.
+Rc1 Rfe8 16. b4 d5 17. cxd5 exd5 18. Qb1 Qe5 19. exd5 Bd6 20. f4 Qxf4 21. g3
+Qg5 22. h4 Qg6 23. Qxg6 fxg6 24. b5 axb5 25. Bxb5 Re7 26. Nc6 Rf7 27. Rfe1 Nc5
+28. Kg2 Nxd5 29. Nxd5 Bxc6 30. Bxc6 Rxc6 31. Rc2 Kh7 32. Rb1 Rb7 33. a4 Bf8 34.
+Rb5 Re6 35. Bxc5 1-0
+
+[Event "Terrassa Tancat"]
+[Site "Terrassa"]
+[Date "1989.??.??"]
+[Round "?"]
+[White "Campos, Jose Felix"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1-0"]
+[ECO "A73"]
+[WhiteElo "2255"]
+[BlackElo "2470"]
+[PlyCount "75"]
+[EventDate "1989.03.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e6 4. Nc3 exd5 5. cxd5 d6 6. Nf3 g6 7. e4 Bg7 8. Be2
+O-O 9. O-O Na6 10. Nd2 Nc7 11. a4 b6 12. Nc4 Ba6 13. Rb1 Re8 14. Qc2 Bxc4 15.
+Bxc4 a6 16. b4 cxb4 17. Rxb4 Rc8 18. Bd2 b5 19. axb5 axb5 20. Bd3 Ncxd5 21.
+exd5 Nxd5 22. Nxd5 Rxc2 23. Bxc2 Re2 24. Rd1 Qa8 25. Re4 Rxe4 26. Bxe4 Qa7 27.
+Bf3 Bd4 28. Bb4 Bc5 29. Bc3 Qa2 30. Bf6 Qxf2+ 31. Kh1 h5 32. Nc3 d5 33. Nxd5 b4
+34. Be5 f5 35. Nf6+ Kf7 36. Bd5+ Ke7 37. Bb3 Bd6 38. Ng8+ 1-0
+
+[Event "Terrassa Tancat"]
+[Site "Terrassa"]
+[Date "1989.??.??"]
+[Round "?"]
+[White "Gil Gonzalez, Jose Manuel"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1/2-1/2"]
+[ECO "B02"]
+[WhiteElo "2360"]
+[BlackElo "2470"]
+[PlyCount "105"]
+[EventDate "1989.03.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. e4 d5 2. exd5 Nf6 3. Nc3 Nxd5 4. Bc4 Nb6 5. Bb3 Nc6 6. Qf3 e6 7. Nge2 Qf6 8.
+Qxf6 gxf6 9. Nb5 Kd8 10. d4 a6 11. Nbc3 Na5 12. Bf4 Bd7 13. O-O-O Bb5 14. Rhe1
+Bb4 15. d5 e5 16. Bg3 Rg8 17. f4 Nbc4 18. a3 Be7 19. Nxb5 axb5 20. Rd3 b4 21.
+a4 b5 22. Kb1 e4 23. Rdd1 Ne3 24. Rd4 f5 25. d6 cxd6 26. Rxb4 Nxg2 27. Rg1 Nxb3
+28. cxb3 Ne3 29. Rxb5 Bf6 30. Bf2 Rxg1+ 31. Bxg1 Nf1 32. Rxf5 Ke7 33. Bb6 Nxh2
+34. a5 Nf3 35. b4 Nd2+ 36. Kc2 Nc4 37. Kb3 Nxb6 38. axb6 Rb8 39. Rb5 Kd7 40.
+Kc4 Bxb2 41. Kd5 e3 42. Ke4 Re8+ 43. Kd3 Kc6 44. Rh5 Kxb6 45. Rxh7 Re7 46. Rh6
+Kc6 47. Rh3 Kb5 48. Rh6 d5 49. Rd6 d4 50. Rd8 Kxb4 51. Nxd4 Bxd4 52. Rxd4+ Kc5
+53. Rc4+ 1/2-1/2
+
+[Event "Terrassa Tancat"]
+[Site "Terrassa"]
+[Date "1989.??.??"]
+[Round "?"]
+[White "Rodriguez Vargas, Orestes"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1/2-1/2"]
+[ECO "B15"]
+[WhiteElo "2445"]
+[BlackElo "2470"]
+[PlyCount "41"]
+[EventDate "1989.03.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. e4 c6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Nf6 5. Nxf6+ exf6 6. Bc4 Qe7+ 7. Qe2 Be6
+8. Bxe6 Qxe6 9. Qxe6+ fxe6 10. Ne2 Na6 11. Bd2 Bd6 12. O-O-O Kf7 13. Rhe1 Rhe8
+14. Bf4 Rad8 15. c3 e5 16. dxe5 Bxe5 17. Rxd8 Bxf4+ 18. Kc2 Rxd8 19. Nxf4 Nc7
+20. Re3 Re8 21. Kd2 1/2-1/2
+
+[Event "Terrassa Tancat"]
+[Site "Terrassa"]
+[Date "1989.??.??"]
+[Round "?"]
+[White "Romero Holmes, Alfonso"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1/2-1/2"]
+[ECO "B15"]
+[WhiteElo "2445"]
+[BlackElo "2470"]
+[PlyCount "77"]
+[EventDate "1989.03.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 h6 5. Bc4 Bf5 6. Ng3 Bh7 7. N1e2 Nf6 8.
+O-O e6 9. Nf4 Bd6 10. c3 O-O 11. Re1 Re8 12. Ngh5 Nbd7 13. Qf3 Nxh5 14. Nxh5
+Bg6 15. Nf4 Bf5 16. Bd2 c5 17. Bb3 b5 18. Qc6 Qb6 19. Qxb6 Nxb6 20. dxc5 Bxc5
+21. Be3 Bxe3 22. Rxe3 Red8 23. Ne2 Rd2 24. Nd4 Rxb2 25. Nxf5 exf5 26. Re5 a6
+27. Rxf5 Nc4 28. Rd1 Re8 29. g3 Re7 30. Bxc4 bxc4 31. Rd4 Rc7 32. Rff4 Rxa2 33.
+Rxc4 Rxc4 34. Rxc4 a5 35. Rc8+ Kh7 36. c4 a4 37. c5 Rc2 38. Ra8 Rxc5 39. Rxa4
+1/2-1/2
+
+[Event "Terrassa Tancat"]
+[Site "Terrassa"]
+[Date "1990.??.??"]
+[Round "1"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Oll, Lembit"]
+[Result "0-1"]
+[ECO "E14"]
+[WhiteElo "2445"]
+[BlackElo "2570"]
+[PlyCount "162"]
+[EventDate "1990.04.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "11"]
+[Source "ChessBase"]
+[SourceDate "1990.12.01"]
+
+1. c4 Nf6 2. Nf3 b6 3. d4 e6 4. e3 d5 5. Ne5 Bb4+ 6. Bd2 Bxd2+ 7. Nxd2 O-O 8.
+Rc1 Nbd7 9. Nxd7 Nxd7 10. cxd5 exd5 11. Bb5 c5 12. Nf3 Nf6 13. O-O Bb7 14. Ne5
+Qd6 15. b3 Rac8 16. Qe2 Ne4 17. Bd3 cxd4 18. exd4 f6 19. Nf3 Qa3 20. Rc2 Rxc2
+21. Qxc2 Rc8 22. Qe2 Rc1 23. Nd2 Kf8 24. Bxe4 dxe4 25. Nc4 Rxf1+ 26. Kxf1 Qc1+
+27. Qe1 Qc2 28. Qd2 Qb1+ 29. Ke2 h6 30. Ke3 Qh1 31. Qb4+ Kg8 32. Nd6 Ba8 33.
+Qc3 Kh7 34. Nxe4 Qxg2 35. Nd2 h5 36. Qc8 Qg5+ 37. f4 Qg1+ 38. Kd3 Qg2 39. h4
+Bb7 40. Qf5+ Kh6 41. Qd7 Ba6+ 42. Kc2 Qg3 43. Nc4 Qxf4 44. d5 Qxh4 45. d6 Qf2+
+46. Kc1 Qd4 47. Qc6 Qc3+ 48. Kd1 Qd3+ 49. Kc1 Qc3+ 50. Kd1 Qa1+ 51. Kc2 Qxa2+
+52. Kc3 Qa1+ 53. Kc2 Qf1 54. d7 Qf5+ 55. Kc3 Bb5 56. Qxb5 Qxb5 57. d8=Q Qc6 58.
+Kd3 Qe6 59. Qb8 Qf5+ 60. Kd2 Qf2+ 61. Kd3 Qf5+ 62. Kd2 Qd7+ 63. Ke1 b5 64. Ne3
+a5 65. Qf4+ Kg6 66. Qe4+ f5 67. Qe5 a4 68. bxa4 bxa4 69. Nc4 h4 70. Nb6 Qc6 71.
+Nd5 Qc1+ 72. Kf2 Qc2+ 73. Kg1 Qe4 74. Qd6+ Kh7 75. Qd7 Qe1+ 76. Kg2 Qg3+ 77.
+Kf1 Qf3+ 78. Ke1 a3 79. Qf7 Qg3+ 80. Kf1 Qg6 81. Qe7 h3 0-1
+
+[Event "Terrassa Tancat"]
+[Site "Terrassa"]
+[Date "1990.??.??"]
+[Round "2"]
+[White "Nogueiras Santiago, Jesus"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1/2-1/2"]
+[ECO "A32"]
+[WhiteElo "2555"]
+[BlackElo "2445"]
+[Annotator "Ribli"]
+[PlyCount "35"]
+[EventDate "1990.04.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "11"]
+[Source "ChessBase"]
+[SourceDate "1990.12.01"]
+
+1. d4 Nf6 2. c4 e6 3. g3 c5 4. Nf3 cxd4 5. Nxd4 Qc7 6. Nd2 Nc6 (6... b6 7. Bg2
+Bb7 8. Nb5 Qc8 9. e4 a6 10. Nc3 d6 11. O-O Be7 12. b3 O-O 13. Bb2 Nbd7 14. Qe2
+$13 {Raskhovskij-Kovacevic,S  Vrnjacka Banja 1988  45/39}) (6... Bc5 7. N2b3
+Be7 8. Qc2 Nc6 9. Bg2 Bb4+ $1 $13 {Ivanov,Se-Yudasin,L  Leningrad II 1989  48/
+40  CBM 15}) 7. Nb5 Qa5 8. Bg2 a6 $1 (8... d5 9. O-O a6 10. Nc3 Ne7 11. Nb3 $14
+{Trifunovic-Ugrinovic  Jugoslavia ch 1959}) 9. Nc3 Be7 10. O-O O-O 11. a3 d6
+12. e3 Bd7 13. Qe2 Rac8 14. Rd1 Qc7 15. b3 Rfd8 16. Bb2 Qb8 17. Rac1 Be8 18. h3
+{Ribli} 1/2-1/2
+
+[Event "Terrassa Tancat"]
+[Site "Terrassa"]
+[Date "1990.??.??"]
+[Round "4"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Georgiev, Kiril"]
+[Result "1-0"]
+[ECO "D58"]
+[WhiteElo "2445"]
+[BlackElo "2605"]
+[Annotator "Ftacnik"]
+[PlyCount "75"]
+[EventDate "1990.04.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "11"]
+[Source "ChessBase"]
+[SourceDate "1990.12.01"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bg5 h6 6. Bh4 O-O 7. e3 b6 8. Qc2
+Bb7 9. Bxf6 Bxf6 10. cxd5 exd5 11. g4 c5 12. O-O-O cxd4 13. exd4 Nc6 14. h4 g6
+15. g5 hxg5 16. hxg5 Bxg5+ 17. Kb1 Bf6 18. Bd3 Nb4 (18... Bg7 19. Rdg1 Qf6 20.
+Nxd5 Qxf3 21. Be4 (21. Qxc6 $2 Qxd3+ (21... Bxc6 $2 22. Ne7#) 22. Ka1 Rfe8 23.
+Qxb7 Qxd4 $17) 21... Qxe4 22. Qxe4 Rfe8 23. Qh4 (23. Qf3 $5 Nxd4 24. Nf6+ Bxf6
+25. Qxb7 $1 $16) 23... Nxd4 24. Nf6+ Bxf6 25. Qxf6 Be4+ 26. Ka1 (26. Kc1 Ne2+
+27. Kd2 Rad8+ 28. Kxe2 Bxh1+ $19) 26... Nc2+ 27. Kb1 Nd4+ $10) 19. Bxg6 $5 Nxc2
+20. Bh7+ Kg7 $1 (20... Kh8 21. Bxc2+ Kg8 22. Rdg1+ Bg7 23. Bh7+ (23. Rh7 Qf6
+24. Ne5 Rfe8 25. Ng4 Qxd4 26. Nh6+ Kf8 27. Nf5 Qxf2 28. Rhxg7 (28. Rgxg7 Re1+
+29. Nd1 Rxd1+ 30. Bxd1 Qxf5+ $19) 28... Re1+ 29. Rxe1 Qxe1+ 30. Nd1 Bc8 $19)
+23... Kh8 24. Bc2+ $10) 21. Rdg1+ Bg5 22. Nxg5 (22. Rxg5+ $2 Qxg5 $1 23. Nxg5
+Nxd4 $19) 22... Kf6 23. Rh6+ Ke7 24. Bxc2 Qd7 25. Re1+ Kd8 26. Re5 $1 Kc7 27.
+Bf5 Qd8 28. Be6 $1 f6 29. Bxd5 $1 fxe5 $6 (29... Bxd5 $1 30. Rxd5 (30. Nxd5+ $1
+Kc6 (30... Kb8 $1 31. Ne6 fxe5 32. Nxd8 Rxd8 33. Nb4 Rxd4 $1 34. Nc6+ Kb7 35.
+Nxd4 exd4 36. Rd6 Rf8 37. Rxd4 Rxf2 $10) 31. Nb4+ Kb7 32. Rh7+ Kc8 33. Nc6 Qd6
+(33... fxe5 34. Nxd8 Rxd8 35. dxe5 $16) 34. Re6 Qf4 35. Ne4 Rd8 36. Nxd8 Kxd8 (
+36... Qf5 37. Rhe7 Kxd8 38. Re8+ Kd7 39. R6e7+ Kc6 40. Rxa8 $18) 37. Nd6 $18)
+30... Qe8 31. Rh7+ Kc6 $1 32. Nge4 (32. b4 Qe1+ 33. Kb2 Qxc3+ 34. Kxc3 Kxd5)
+32... Qxe4+ 33. Nxe4 Kxd5 $19) (29... fxg5 30. Rh7+ Kb8 31. Rxb7+ Kc8 32. Rbe7
+$40) 30. Rh7+ Kb8 (30... Kd6 31. Nge4#) (30... Kc8 31. Bxb7+ Kb8 32. Ba6 exd4
+33. Rb7+ Kc8 34. Ne6 dxc3 35. Rf7+ $1 Kb8 36. Nxd8 Rxd8 37. bxc3 $18) 31. Rxb7+
+Kc8 32. Ne6 exd4 (32... Qf6 33. Nxf8 Qxf8 34. Rf7 Qxf7 35. Bxf7 exd4 36. Bd5 $1
+Rb8 37. Ne2 $18) 33. Nxd8 dxc3 (33... Rxd8 34. Rh7 Rb8 35. Be6+ $18) 34. Ne6
+Rf5 35. Rc7+ Kb8 36. Rd7 c2+ 37. Kxc2 Rxf2+ 38. Kc3 {Ftacnik,L} 1-0
+
+[Event "Terrassa Tancat"]
+[Site "Terrassa"]
+[Date "1990.??.??"]
+[Round "5"]
+[White "Rodriguez Vargas, Orestes"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1/2-1/2"]
+[ECO "B13"]
+[WhiteElo "2500"]
+[BlackElo "2445"]
+[PlyCount "27"]
+[EventDate "1990.04.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "11"]
+[Source "ChessBase"]
+[SourceDate "1990.12.01"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Bd3 g6 5. c3 Bf5 6. Bxf5 gxf5 7. Nf3 Nc6 8.
+O-O e6 9. Re1 Nf6 10. Bg5 Be7 11. Bxf6 Bxf6 12. Nbd2 Qc7 13. a4 O-O 14. Nf1
+1/2-1/2
+
+[Event "Terrassa Tancat"]
+[Site "Terrassa"]
+[Date "1990.??.??"]
+[Round "6"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Illescas Cordoba, Miquel"]
+[Result "1/2-1/2"]
+[ECO "D61"]
+[WhiteElo "2445"]
+[BlackElo "2530"]
+[PlyCount "46"]
+[EventDate "1990.04.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "11"]
+[Source "ChessBase"]
+[SourceDate "1990.12.01"]
+
+1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. Nc3 Be7 5. Bg5 h6 6. Bh4 O-O 7. e3 Nbd7 8. Qc2
+c5 9. O-O-O cxd4 10. Nxd4 Nb6 11. Kb1 Ne4 12. Nxe4 Bxh4 13. Nc3 Qe7 14. cxd5
+exd5 15. e4 dxe4 16. Qxe4 Na4 17. Ndb5 Nxc3+ 18. Nxc3 Qxe4+ 19. Nxe4 Bf5 20.
+Bd3 Rfe8 21. f3 g6 22. g4 Be6 23. Nc5 b6 1/2-1/2
+
+[Event "Terrassa Tancat"]
+[Site "Terrassa"]
+[Date "1990.??.??"]
+[Round "7"]
+[White "Cramling, Pia"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1/2-1/2"]
+[ECO "B10"]
+[WhiteElo "2470"]
+[BlackElo "2445"]
+[PlyCount "31"]
+[EventDate "1990.04.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "11"]
+[Source "ChessBase"]
+[SourceDate "1990.12.01"]
+
+1. c4 c6 2. e4 d5 3. exd5 cxd5 4. cxd5 Nf6 5. Nc3 g6 6. Nf3 Bg7 7. d4 O-O 8.
+Be2 Nxd5 9. O-O Nc6 10. h3 b6 11. Re1 Bb7 12. Bg5 h6 13. Be3 e6 14. Qd2 Kh7 15.
+Rac1 Rc8 16. Red1 1/2-1/2
+
+[Event "Terrassa Tancat"]
+[Site "Terrassa"]
+[Date "1990.??.??"]
+[Round "8"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Pomes Marcet, Joan"]
+[Result "1/2-1/2"]
+[ECO "E92"]
+[WhiteElo "2445"]
+[BlackElo "2420"]
+[PlyCount "96"]
+[EventDate "1990.04.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "11"]
+[Source "ChessBase"]
+[SourceDate "1990.12.01"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 O-O 5. e4 d6 6. Be2 e5 7. dxe5 dxe5 8.
+Qxd8 Rxd8 9. Bg5 c6 10. Nxe5 Re8 11. O-O-O Na6 12. f4 h6 13. Bh4 g5 14. Bf2
+gxf4 15. Nf3 Ng4 16. Bd4 Be6 17. g3 fxg3 18. Rhg1 Bxd4 19. Rxd4 Rad8 20. Rxg3
+Kh8 21. Rxd8 Rxd8 22. h3 Nf6 23. Nd2 Nc5 24. Rf3 Nh7 25. b4 Nd7 26. Nd1 Ng5 27.
+Ra3 Nxh3 28. Rxa7 Nf4 29. Bf1 Rb8 30. Ne3 Ne5 31. Kc2 h5 32. Nf5 Bxf5 33. exf5
+Ng4 34. Ra3 Re8 35. Rf3 Ne2 36. Bxe2 Rxe2 37. a4 Re5 38. a5 Kg7 39. Nb3 Rxf5
+40. Rxf5 Ne3+ 41. Kd3 Nxf5 42. Nc5 h4 43. Ke2 Nd6 44. Nxb7 Nxc4 45. a6 Nb6 46.
+Nd8 Kf6 47. Nxc6 Ke6 48. a7 Kd5 1/2-1/2
+
+[Event "Terrassa Tancat"]
+[Site "Terrassa"]
+[Date "1990.??.??"]
+[Round "9"]
+[White "Magem Badals, Jordi"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "0-1"]
+[ECO "B01"]
+[WhiteElo "2460"]
+[BlackElo "2445"]
+[PlyCount "70"]
+[EventDate "1990.04.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "11"]
+[Source "ChessBase"]
+[SourceDate "1990.12.01"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d4 Nf6 5. Nf3 Nc6 6. Bb5 Bd7 7. O-O O-O-O
+8. Be3 Nd5 9. Qe2 Nxc3 10. bxc3 a6 11. a4 f6 12. d5 Nb8 13. Nd4 Qxc3 14. Bc4 g6
+15. Rab1 e5 16. dxe6 Bxa4 17. Ra1 Be8 18. Rfb1 Rxd4 19. Bxd4 Qxd4 20. e7 Bxe7
+21. Qxe7 Qxc4 22. Qxf6 Rg8 23. Rd1 Bd7 24. Re1 Nc6 25. Rad1 Rd8 26. Qg7 Qxc2
+27. Qxh7 Qf5 28. Re3 Qh5 29. Qxh5 gxh5 30. h4 a5 31. Rd5 Be8 32. Rg5 a4 33. Rg8
+Bf7 34. Rg7 Bc4 35. g4 b5 0-1
+
+[Event "Terrassa Tancat"]
+[Site "Terrassa"]
+[Date "1990.??.??"]
+[Round "10"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Romero Holmes, Alfonso"]
+[Result "1-0"]
+[ECO "A93"]
+[WhiteElo "2445"]
+[BlackElo "2460"]
+[Annotator "Schussler"]
+[PlyCount "93"]
+[EventDate "1990.04.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "11"]
+[Source "ChessBase"]
+[SourceDate "1990.12.01"]
+
+1. d4 e6 2. Nf3 f5 3. g3 Nf6 4. Bg2 Be7 5. O-O O-O 6. b3 d5 7. c4 Nc6 {The
+Swedish GM Lars Karlsson`s favourit line. Black pressurizes d4 and might  be
+able to station his knight on b4.} 8. e3 Bd7 9. Ba3 Be8 10. Bxe7 Qxe7 11. Nc3
+Bh5 12. cxd5 exd5 13. Qd3 Bxf3 14. Bxf3 Qd7 15. Qb5 Rfd8 16. Rac1 {Avoiding 16.
+xb7 a6 - +} a6 17. Qd3 Ne7 18. Ne2 g5 19. Bg2 Kh8 20. f4 g4 21. Rc2 h5 22. Qc3
+c6 23. Nc1 Qe6 24. Qe1 Ne4 25. Nd3 Ng8 26. Ne5 Ngf6 27. Qb4 Nd6 28. a4 Rab8 29.
+h4 gxh3 30. Bxh3 Rg8 31. Kh2 Nfe4 32. Bg2 Nf6 33. Bf3 {33. xd6!?} Kh7 34. Rg2
+Rg7 35. Rh1 Rbg8 36. Bxh5 Nxh5 37. Kg1 Rh8 38. Rxh5+ Kg8 39. Rxh8+ Kxh8 40.
+Rh2+ Kg8 41. Kg2 Ne4 42. Rh3 Nf6 43. Qe1 Ne4 44. Qh1 Kf8 45. Rh6 Nf6 46. Qh4
+Ke7 47. a5 1-0
+
+[Event "Terrassa Tancat"]
+[Site "Terrassa"]
+[Date "1990.??.??"]
+[Round "11"]
+[White "Spraggett, Kevin"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1/2-1/2"]
+[ECO "A37"]
+[WhiteElo "2555"]
+[BlackElo "2445"]
+[Annotator "Ribli"]
+[PlyCount "136"]
+[EventDate "1990.04.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "11"]
+[Source "ChessBase"]
+[SourceDate "1990.12.01"]
+
+1. c4 c5 2. g3 Nc6 3. Bg2 g6 4. Nc3 Bg7 5. a3 a5 6. d3 d6 7. Nf3 e5 8. O-O Nge7
+9. Bg5 {-> A 37} f6 10. Be3 (10. Bd2 Be6 11. Ne1 O-O 12. Nc2 d5 $10 {
+Landenbergue,C-Mainka,R  Praga Bohemians 1990  CBM 17}) 10... Rb8 11. Rb1 O-O
+12. Ne1 Be6 13. Nc2 f5 (13... d5 14. cxd5 Nxd5 15. Nxd5 Bxd5 16. b4 cxb4 17.
+axb4 axb4 18. Nxb4 $14) 14. Bg5 $5 (14. b4 $5 f4 15. Bd2) 14... h6 15. Bxe7
+Nxe7 16. Qd2 Qd7 17. Ne3 b6 18. b4 axb4 19. axb4 b5 $2 20. Nxb5 d5 21. cxd5
+Qxb5 (21... Nxd5 22. Bxd5 Bxd5 23. Nxd5 $14) 22. dxe6 cxb4 23. Rb3 $1 Qa6 24.
+Rxb4 Qxe6 25. Rfb1 $16 Rxb4 26. Qxb4 Kh7 27. Qa3 Rd8 28. Qa7 Rd7 29. Qa8 Rd6
+30. Rb7 Rb6 31. Qe8 Rxb7 32. Bxb7 Qd6 33. Kg2 Qc7 34. Bf3 Qd6 35. h3 Ng8 36.
+Qa8 Nf6 37. Bc6 Qe7 38. Bb7 Nd7 39. Nd5 Qf8 40. Qa5 Nc5 41. Qc7 Ne6 42. Qd7 Nc5
+43. Qc6 e4 44. Ba6 exd3 45. Bxd3 Be5 46. Bc4 h5 47. e3 Kh6 48. Qb6 Ne4 49. Qc6
+Qd6 50. Qe8 Qb8 51. Qxb8 Bxb8 52. Bd3 Nc5 53. Bb5 Ne4 54. Be8 Nd6 55. Bd7 Ne4
+56. Nf4 Nf6 57. Be6 Kg7 58. Ba2 Ne4 59. Bd5 Nd6 60. Bc6 Kf6 61. h4 Nc8 62. Be8
+Ne7 63. Kf3 Bd6 64. Ke2 Ba3 65. Kd3 Bc1 66. Kc4 Ba3 67. Kd3 Bd6 68. f3 Bb8 {
+Ribli} 1/2-1/2
+
+[Event "Ciutat de Barcelona (Vulca Tancat)"]
+[Site "Barcelona"]
+[Date "1990.??.??"]
+[Round "1"]
+[White "Campos Moreno, Javier B"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1/2-1/2"]
+[ECO "A57"]
+[WhiteElo "2440"]
+[BlackElo "2445"]
+[PlyCount "106"]
+[EventDate "1990.06.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "8"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. e3 g6 6. Nc3 Bg7 7. e4 O-O 8. e5 Ne8
+9. Nf3 d6 10. exd6 exd6 11. Bg5 Nf6 12. Be2 h6 13. Bxf6 Qxf6 14. O-O axb5 15.
+Bxb5 Bg4 16. h3 Bxf3 17. Qxf3 Qxf3 18. gxf3 Na6 19. a4 Nb4 20. Rac1 Rfb8 21.
+Rfe1 Ra7 22. Bc4 Be5 23. Re2 Kg7 24. b3 Na6 25. Nb5 Rab7 26. Nxd6 Bxd6 27. Bxa6
+Rxb3 28. Kg2 R8b4 29. Ra2 Rd4 30. a5 Rxd5 31. Bc4 Rg5+ 32. Kf1 Rb7 33. a6 Ra7
+34. Rb1 Bh2 35. Rb7 Rg1+ 36. Ke2 Rxb7 37. axb7 Rb1 38. Bd5 Kf6 39. Ra8 Ke7 40.
+Kd3 Rb4 41. Bc6 Bc7 42. Ra4 Rb2 43. Kc4 Kd6 44. Ra6 Rb4+ 45. Kc3 Ke5 46. Ra4
+Rxa4 47. Bxa4 Kf4 48. Bc6 Bb8 49. Kc4 Ba7 50. Bd5 f5 51. Bc6 g5 52. Bd5 h5 53.
+Bc6 g4 1/2-1/2
+
+[Event "Ciutat de Barcelona (Vulca Tancat)"]
+[Site "Barcelona"]
+[Date "1990.??.??"]
+[Round "2"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Gual Pascual, Antonio"]
+[Result "1/2-1/2"]
+[ECO "D17"]
+[WhiteElo "2445"]
+[BlackElo "2320"]
+[PlyCount "141"]
+[EventDate "1990.06.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "8"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. Ne5 e6 7. g3 Bb4 8. Bg2
+Be4 9. f3 Bg6 10. e4 O-O 11. O-O c5 12. Na2 Ba5 13. Nxc4 cxd4 14. Nxa5 Qxa5 15.
+Qxd4 Nc6 16. Qc4 Nd7 17. Nc3 Qb6+ 18. Kh1 Nde5 19. Qb5 Rfd8 20. Bf4 Nd3 21.
+Qxb6 axb6 22. Bc7 Rd7 23. Bxb6 Nxb2 24. Rfb1 Nc4 25. Bc5 Rd3 26. Ne2 Rd2 27.
+Nf4 Rb2 28. Rxb2 Nxb2 29. Bf1 Nxa4 30. Bb5 Nb6 31. Rd1 Na4 32. Ra1 Nb6 33. Rb1
+Nd7 34. Bf2 Nde5 35. Kg2 h5 36. Be2 Rb8 37. Rb5 Nd7 38. Bc4 Nde5 39. Bb3 Rd8
+40. Rxb7 Rd2 41. Rb5 Nd3 42. Nxd3 Rxd3 43. Ba4 Ra3 44. Bb3 Kh7 45. Bc5 Ra1 46.
+Bb6 Rb1 47. Bc4 Rc1 48. Be2 f6 49. Be3 Rc2 50. Kf1 e5 51. Rc5 Rxc5 52. Bxc5 Bf7
+53. Bb5 Nd8 54. Ke2 Ne6 55. Bb6 g5 56. Kd3 Kg6 57. Bc4 h4 58. Be3 hxg3 59. hxg3
+Nc7 60. Bb6 Bxc4+ 61. Kxc4 Ne6 62. Kd5 Kf7 63. Be3 Ke7 64. Bc5+ Kf7 65. Bd6 Nd4
+66. f4 gxf4 67. gxf4 Ne2 68. fxe5 Nc3+ 69. Kd4 Nxe4 70. Kxe4 fxe5 71. Bxe5
+1/2-1/2
+
+[Event "Ciutat de Barcelona (Vulca Tancat)"]
+[Site "Barcelona"]
+[Date "1990.??.??"]
+[Round "3"]
+[White "Vehi Bach, Victor Manuel"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1-0"]
+[ECO "B16"]
+[WhiteElo "2415"]
+[BlackElo "2445"]
+[PlyCount "103"]
+[EventDate "1990.06.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "8"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. e4 c6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Nf6 5. Nxf6+ gxf6 6. Ne2 Bf5 7. Ng3 Bg6
+8. h4 h5 9. Be2 e6 10. c3 Qa5 11. b4 Qc7 12. Nxh5 Bxh5 13. Bxh5 a5 14. Qe2 Be7
+15. b5 cxb5 16. Qxb5+ Nd7 17. Bd2 Rc8 18. Bf3 b6 19. h5 f5 20. Rb1 Bd6 21. Kf1
+Bf4 22. Bxf4 Qxf4 23. Bc6 Qd6 24. Bxd7+ Qxd7 25. Rh3 Qxb5+ 26. Rxb5 Rc6 27. Ke2
+O-O 28. d5 Rd6 29. c4 Rc8 30. dxe6 fxe6 31. Rd3 Rdc6 32. Rd7 Rxc4 33. Rxb6 Rc2+
+34. Rd2 Kf7 35. Ra6 Rxd2+ 36. Kxd2 Rc5 37. Ra7+ Kg8 38. h6 f4 39. Rg7+ Kh8 40.
+Kd3 Rb5 41. Ke4 Rb4+ 42. Ke5 Ra4 43. f3 Rxa2 44. Kxf4 Re2 45. g4 e5+ 46. Kg5
+Rb2 47. Re7 Rb8 48. Ra7 Rb5 49. Kf5 Rb3 50. Ke4 a4 51. g5 a3 52. g6 1-0
+
+[Event "Ciutat de Barcelona (Vulca Tancat)"]
+[Site "Barcelona"]
+[Date "1990.??.??"]
+[Round "4"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Martin Gonzalez, Angel"]
+[Result "1/2-1/2"]
+[ECO "A32"]
+[WhiteElo "2445"]
+[BlackElo "2400"]
+[PlyCount "31"]
+[EventDate "1990.06.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "8"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. c4 c5 2. Nf3 Nf6 3. d4 cxd4 4. Nxd4 e6 5. Nc3 Bb4 6. Qc2 Nc6 7. Nxc6 dxc6 8.
+a3 Be7 9. Bf4 O-O 10. Rd1 Qa5 11. e3 e5 12. Bg3 Bg4 13. Be2 Bxe2 14. Kxe2 Rfd8
+15. Rxd8+ Rxd8 16. Rd1 1/2-1/2
+
+[Event "Ciutat de Barcelona (Vulca Tancat)"]
+[Site "Barcelona"]
+[Date "1990.??.??"]
+[Round "5"]
+[White "Rodriguez Vargas, Orestes"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1/2-1/2"]
+[ECO "B13"]
+[WhiteElo "2500"]
+[BlackElo "2445"]
+[PlyCount "25"]
+[EventDate "1990.06.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "8"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. c3 Nc6 5. Bf4 Bf5 6. Bd3 Bxd3 7. Qxd3 e6 8.
+Nf3 Bd6 9. Bxd6 Qxd6 10. O-O Nf6 11. Nbd2 O-O 12. Rfe1 h6 13. g3 1/2-1/2
+
+[Event "Ciutat de Barcelona (Vulca Tancat)"]
+[Site "Barcelona"]
+[Date "1990.??.??"]
+[Round "6"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Cramling, Pia"]
+[Result "1/2-1/2"]
+[ECO "B14"]
+[WhiteElo "2445"]
+[BlackElo "2470"]
+[PlyCount "30"]
+[EventDate "1990.06.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "8"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. c4 c6 2. e4 d5 3. exd5 cxd5 4. d4 Nf6 5. Nc3 e6 6. Nf3 Be7 7. Bf4 Nc6 8. Be2
+O-O 9. O-O b6 10. cxd5 Nxd5 11. Nxd5 Qxd5 12. Rc1 Bb7 13. Qa4 Rac8 14. a3 Qe4
+15. Be3 Rfd8 1/2-1/2
+
+[Event "Ciutat de Barcelona (Vulca Tancat)"]
+[Site "Barcelona"]
+[Date "1990.??.??"]
+[Round "7"]
+[White "Pomes Marcet, Joan"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "0-1"]
+[ECO "A35"]
+[WhiteElo "2420"]
+[BlackElo "2445"]
+[PlyCount "80"]
+[EventDate "1990.06.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "8"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. Nf3 c5 2. c4 Nc6 3. Nc3 Nd4 4. e3 Nxf3+ 5. Qxf3 g6 6. b3 Bg7 7. Bb2 d6 8. g4
+Rb8 9. Bg2 Bd7 10. d4 cxd4 11. exd4 Qa5 12. Qf4 Bh6 13. Qg3 Qg5 14. Ne4 Qxg4
+15. d5 f6 16. c5 Bf4 17. Qxg4 Bxg4 18. cxd6 Bxd6 19. Nxd6+ exd6 20. Bd4 a6 21.
+O-O Kf7 22. Bb6 Rc8 23. h3 Bf5 24. Rac1 Nh6 25. Be3 Kg7 26. Rxc8 Rxc8 27. Rc1
+Rxc1+ 28. Bxc1 Bb1 29. a3 Nf5 30. Bf4 Kf7 31. b4 Ke7 32. Kf1 Nh4 33. Be3 Bd3+
+34. Kg1 Nf5 35. Bb6 Kd7 36. f4 Bc4 37. Bf2 Ke8 38. h4 Ne7 39. Bd4 Kf7 40. Bb6
+Bxd5 0-1
+
+[Event "Ciutat de Barcelona (Vulca Tancat)"]
+[Site "Barcelona"]
+[Date "1990.??.??"]
+[Round "8"]
+[White "Westerinen, Heikki MJ"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "0-1"]
+[ECO "B01"]
+[WhiteElo "2475"]
+[BlackElo "2445"]
+[PlyCount "92"]
+[EventDate "1990.06.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "8"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d4 Nf6 5. Nf3 Nc6 6. Bb5 Bd7 7. Bd2 O-O-O
+8. a4 e5 9. dxe5 Ng4 10. h3 Nh6 11. Nd5 Nb4 12. O-O c6 13. Nxb4 Bxb4 14. c3 Be7
+15. b4 Qc7 16. Bc4 Be6 17. Bxe6+ fxe6 18. Nd4 Qxe5 19. Re1 Qd5 20. Bxh6 gxh6
+21. Nxe6 Qxd1 22. Raxd1 Rxd1 23. Rxd1 Bf6 24. Nd4 Rd8 25. Kf1 a5 26. Ke2 axb4
+27. Nf5 bxc3 28. Rxd8+ Kxd8 29. Nd6 Kd7 30. Ne4 Bd4 31. Kd3 b6 32. f3 h5 33. h4
+Ke6 34. Nxc3 Bf2 35. Ne4 Bxh4 36. Nd2 Kf5 37. Nc4 Bd8 38. Ke3 Bc7 39. Na3 Bd6
+40. Nc4 Bc5+ 41. Kd3 Kf4 42. Nd2 Kg3 43. Ne4+ Kxg2 44. Nxc5 Kxf3 45. Ne6 h4 46.
+Ng5+ Kg2 0-1
+
+[Event "Ciutat de Barcelona (Vulca Tancat)"]
+[Site "Barcelona"]
+[Date "1990.??.??"]
+[Round "9"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Fernandez Aguado, Juan Luis"]
+[Result "0-1"]
+[ECO "E92"]
+[WhiteElo "2445"]
+[BlackElo "2400"]
+[PlyCount "91"]
+[EventDate "1990.06.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "8"]
+[Source "ChessBase"]
+[SourceDate "1996.11.15"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 O-O 5. e4 d6 6. Be2 e5 7. dxe5 dxe5 8.
+Qxd8 Rxd8 9. Bg5 Re8 10. Nd5 Nxd5 11. cxd5 c6 12. Bc4 cxd5 13. Bxd5 Nd7 14. Nd2
+Nb6 15. Bb3 Be6 16. Ke2 f6 17. Be3 Rad8 18. Rhc1 Rd7 19. Bxb6 Bxb3 20. Nxb3
+axb6 21. Rd1 Red8 22. Rxd7 Rxd7 23. Rd1 Rxd1 24. Kxd1 f5 25. Nd2 b5 26. Kc2 Kf7
+27. Nb1 Bf8 28. Kd3 Bc5 29. f3 Bg1 30. h4 Bd4 31. b4 Bf2 32. h5 f4 33. hxg6+
+Kxg6 34. Nc3 Be1 35. Nd5 Kh5 36. Ke2 Bh4 37. Kf1 Bd8 38. Kg1 Kh4 39. Kh2 h5 40.
+a3 Kg5 41. Kh3 Kg6 42. Nc3 Bb6 43. Nxb5 Bf2 44. Nd6 b6 45. a4 Kf6 46. a5 0-1
+
+[Event "Ciutat de Barcelona (Vulca Int)"]
+[Site "Barcelona"]
+[Date "1991.??.??"]
+[Round "1"]
+[White "Winants, Luc"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1-0"]
+[ECO "A37"]
+[WhiteElo "2505"]
+[BlackElo "2495"]
+[PlyCount "123"]
+[EventDate "1991.06.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "9"]
+[Source "ChessBase"]
+[SourceDate "1991.09.01"]
+
+1. c4 c5 2. g3 Nc6 3. Bg2 g6 4. Nc3 Bg7 5. a3 d6 6. Nf3 e5 7. O-O Nge7 8. b4
+Be6 9. d3 O-O 10. Rb1 Rb8 11. b5 Nd4 12. Nd2 a5 13. e3 Ndf5 14. b6 Bd7 15. Nde4
+Bc6 16. Qb3 Ra8 17. Bd2 Nc8 18. Nd5 Bxd5 19. cxd5 Ra6 20. Qa2 Qd7 21. Rb2 Rxb6
+22. Rxb6 Nxb6 23. Rb1 Na8 24. Bxa5 Rb8 25. a4 Ne7 26. Be1 Nc7 27. Nc3 Nc8 28.
+Qc4 b6 29. Bf1 Ra8 30. h4 f5 31. Bh3 Qf7 32. Nb5 Nxb5 33. Qxb5 Qc7 34. e4 Ne7
+35. Qxb6 Qxb6 36. Rxb6 Rxa4 37. Rxd6 c4 38. dxc4 Rxc4 39. f3 Kf7 40. Rd7 Ke8
+41. Rb7 Bh6 42. Bb4 Be3+ 43. Kf1 Bc5 44. Bxc5 Rc1+ 45. Ke2 Rxc5 46. Kd2 Rc4 47.
+Bf1 Rd4+ 48. Ke3 h6 49. Bb5+ Kf8 50. Bd7 fxe4 51. fxe4 g5 52. h5 g4 53. Bxg4
+Nxd5+ 54. Kf3 Nf6 55. Bf5 Nxh5 56. Bg6 Ng7 57. Rf7+ Kg8 58. Rf6 Rd8 59. Kg4 Rf8
+60. Bh7+ Kxh7 61. Rxf8 Kg6 62. Ra8 1-0
+
+[Event "Ciutat de Barcelona (Vulca Int)"]
+[Site "Barcelona"]
+[Date "1991.??.??"]
+[Round "2"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Martin Gonzalez, Angel"]
+[Result "1/2-1/2"]
+[ECO "D40"]
+[WhiteElo "2495"]
+[BlackElo "2445"]
+[PlyCount "31"]
+[EventDate "1991.06.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "9"]
+[Source "ChessBase"]
+[SourceDate "1991.09.01"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 e6 4. e3 c5 5. Nc3 Nc6 6. a3 a6 7. dxc5 Bxc5 8. b4
+Bd6 9. Bb2 O-O 10. Qc2 Qe7 11. Rd1 Rd8 12. Be2 dxc4 13. Bxc4 h6 14. O-O b5 15.
+Ba2 Bb7 16. Bb1 1/2-1/2
+
+[Event "Ciutat de Barcelona (Vulca Int)"]
+[Site "Barcelona"]
+[Date "1991.??.??"]
+[Round "3"]
+[White "Dizdar, Goran"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1/2-1/2"]
+[ECO "A49"]
+[WhiteElo "2535"]
+[BlackElo "2495"]
+[PlyCount "170"]
+[EventDate "1991.06.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "9"]
+[Source "ChessBase"]
+[SourceDate "1991.09.01"]
+
+1. d4 Nf6 2. Nf3 g6 3. g3 Bg7 4. Bg2 O-O 5. O-O d6 6. b3 c5 7. c4 a6 8. Bb2
+Nbd7 9. Nc3 Rb8 10. e4 b5 11. cxb5 axb5 12. e5 Ne8 13. dxc5 Nxc5 14. Nd4 Bd7
+15. exd6 Nxd6 16. Rc1 Rc8 17. Nd5 e5 18. Ba3 exd4 19. Bxc5 Be6 20. Bb6 Rxc1 21.
+Qxc1 Qd7 22. Qc6 Nc8 23. Qxd7 Bxd7 24. Bc5 Rd8 25. Nb4 Bf8 26. Bxf8 Kxf8 27.
+Rd1 Be8 28. Nc2 d3 29. Ne1 Ne7 30. Nxd3 Bc6 31. Nb2 Ra8 32. a4 bxa4 33. bxa4
+Bxg2 34. Kxg2 Nc6 35. Rd6 Na5 36. Rd5 Ke7 37. Rb5 Nc6 38. g4 h6 39. h4 Ra7 40.
+Kg3 Nd4 41. Re5+ Kf8 42. Re4 Ne6 43. Nd3 Ra5 44. Rc4 h5 45. Nf4 Nc5 46. gxh5
+gxh5 47. Nd5 Kg7 48. Nc3 Nb7 49. Nb5 Ra6 50. f3 Na5 51. Rc3 Nb7 52. Rc7 Nd8 53.
+Ra7 Rb6 54. Nd4 Kg6 55. Rd7 Nb7 56. Rd5 Ra6 57. Rg5+ Kf6 58. Rf5+ Kg6 59. Rg5+
+Kf6 60. Rb5 Nd6 61. Rb4 Ke5 62. Kf2 Nc8 63. Ne2 Ne7 64. Rb5+ Kd6 65. Nc3 Rc6
+66. Ne4+ Ke6 67. Ng5+ Kf6 68. Ne4+ Ke6 69. Ng5+ Kf6 70. Rb2 Ra6 71. Ne4+ Ke5
+72. Rb5+ Kd4 73. Rb4+ Ke5 74. Rb5+ Kd4 75. a5 Nd5 76. Nc5 Kc4 77. Nxa6 Kxb5 78.
+Nb8 Kxa5 79. Nc6+ Kb6 80. Nd4 Kc7 81. Nf5 Kd7 82. Kg3 Ke6 83. Ng7+ Ke5 84. Nxh5
+f5 85. Kf2 f4 1/2-1/2
+
+[Event "Ciutat de Barcelona (Vulca Int)"]
+[Site "Barcelona"]
+[Date "1991.??.??"]
+[Round "4"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Cramling, Pia"]
+[Result "1/2-1/2"]
+[ECO "D14"]
+[WhiteElo "2495"]
+[BlackElo "2470"]
+[PlyCount "26"]
+[EventDate "1991.06.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "9"]
+[Source "ChessBase"]
+[SourceDate "1991.09.01"]
+
+1. c4 c6 2. Nc3 d5 3. d4 Nf6 4. cxd5 cxd5 5. Nf3 Nc6 6. Bf4 Bf5 7. e3 e6 8. Bd3
+Bxd3 9. Qxd3 Bd6 10. Bxd6 Qxd6 11. O-O O-O 12. Rfc1 Rac8 13. h3 Rfd8 1/2-1/2
+
+[Event "Ciutat de Barcelona (Vulca Int)"]
+[Site "Barcelona"]
+[Date "1991.??.??"]
+[Round "5"]
+[White "Comas Fabrego, Lluis"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1-0"]
+[ECO "A57"]
+[WhiteElo "2375"]
+[BlackElo "2495"]
+[PlyCount "81"]
+[EventDate "1991.06.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "9"]
+[Source "ChessBase"]
+[SourceDate "1991.09.01"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. b6 g6 6. Nc3 Bg7 7. e4 O-O 8. e5 Ne8
+9. Qb3 Bb7 10. Nf3 d6 11. e6 fxe6 12. Ng5 Rf5 13. Nxe6 Qc8 14. Bc4 Nd7 15. Be3
+Rb8 16. Nxg7 Kxg7 17. h4 Nef6 18. h5 Rxh5 19. Rxh5 Nxh5 20. O-O-O Nhf6 21. Be2
+Qd8 22. g4 Qxb6 23. g5 Ne8 24. Qc2 Kg8 25. Ne4 Ng7 26. Ng3 Bc8 27. Bd2 Qd8 28.
+Bc3 Qf8 29. Qe4 Nb6 30. Rh1 Qf7 31. Qh4 Nf5 32. Nxf5 Bxf5 33. Bf3 Bd7 34. b3
+Rf8 35. Kb2 Bc8 36. Ba5 Nd7 37. Ka3 Qg7 38. Bc3 Ne5 39. Be2 Bd7 40. f4 Bb5 41.
+fxe5 1-0
+
+[Event "Ciutat de Barcelona (Vulca Int)"]
+[Site "Barcelona"]
+[Date "1991.??.??"]
+[Round "6"]
+[White "De la Riva Aguado, Oscar"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1/2-1/2"]
+[ECO "B01"]
+[WhiteElo "2360"]
+[BlackElo "2495"]
+[PlyCount "81"]
+[EventDate "1991.06.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "9"]
+[Source "ChessBase"]
+[SourceDate "1991.09.01"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d4 Nf6 5. Nf3 Bg4 6. h3 Bh5 7. g4 Bg6 8.
+Ne5 e6 9. Bg2 Be4 10. Bxe4 Nxe4 11. Qf3 Nd6 12. Bd2 f6 13. Ne4 Qd5 14. Nxd6+
+Bxd6 15. Qxd5 exd5 16. Nd3 Nc6 17. c3 h5 18. O-O-O Ne7 19. Bf4 Rd8 20. Bxd6
+Rxd6 21. Nf4 hxg4 22. hxg4 Rxh1 23. Rxh1 Kf7 24. Kd2 Ng6 25. Nxg6 Kxg6 26. Rh5
+c6 27. f3 Rd8 28. Ke3 Re8+ 29. Kf2 b5 30. Rh1 a5 31. a3 Ra8 32. Re1 Kf7 33. Re3
+g6 34. Kg3 Rh8 35. Re1 a4 36. f4 f5 37. g5 Rh5 38. Kg2 Rh4 39. Kg3 Rg4+ 40. Kf3
+Rh4 41. Kg3 1/2-1/2
+
+[Event "Ciutat de Barcelona (Vulca Int)"]
+[Site "Barcelona"]
+[Date "1991.??.??"]
+[Round "7"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Rodriguez Vargas, Orestes"]
+[Result "1/2-1/2"]
+[ECO "B15"]
+[WhiteElo "2495"]
+[BlackElo "2470"]
+[PlyCount "27"]
+[EventDate "1991.06.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "9"]
+[Source "ChessBase"]
+[SourceDate "1991.09.01"]
+
+1. e4 c6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Nf6 5. Nxf6+ exf6 6. Bc4 Qe7+ 7. Qe2 Be6
+8. Bxe6 Qxe6 9. Qxe6+ fxe6 10. Ne2 Bd6 11. Bf4 Bxf4 12. Nxf4 Kf7 13. O-O-O Na6
+14. c3 1/2-1/2
+
+[Event "Ciutat de Barcelona (Vulca Int)"]
+[Site "Barcelona"]
+[Date "1991.??.??"]
+[Round "8"]
+[White "Campos Moreno, Javier B"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1/2-1/2"]
+[ECO "A57"]
+[WhiteElo "2480"]
+[BlackElo "2495"]
+[PlyCount "81"]
+[EventDate "1991.06.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "9"]
+[Source "ChessBase"]
+[SourceDate "1991.09.01"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. b6 g6 6. Nc3 Bg7 7. e4 O-O 8. e5 Ne8
+9. Qb3 Bb7 10. Nf3 a5 11. Bc4 d6 12. e6 fxe6 13. Ng5 Rf5 14. Nxe6 Qc8 15. Nxg7
+Nxg7 16. O-O Nd7 17. f4 a4 18. Nxa4 Rxa4 19. Qxa4 Nxb6 20. Qb3 Nxc4 21. Qxc4
+Ba6 22. Qb3 Bxf1 23. Kxf1 Qa8 24. Be3 Rf8 25. Qd3 Nh5 26. Kg1 Nf6 27. Rd1 Qxa2
+28. f5 c4 29. Qe2 gxf5 30. Bd4 Qb3 31. Qe6+ Rf7 32. Re1 c3 33. Bxf6 exf6 34.
+bxc3 Qxc3 35. h3 h5 36. Rf1 Qd4+ 37. Kh1 Qe5 38. Rxf5 Qxe6 39. dxe6 Re7 40.
+Rxf6 Kg7 41. Rf5 1/2-1/2
+
+[Event "Ciutat de Barcelona (Vulca Int)"]
+[Site "Barcelona"]
+[Date "1991.??.??"]
+[Round "9"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Vehi Bach, Victor Manuel"]
+[Result "1/2-1/2"]
+[ECO "A21"]
+[WhiteElo "2495"]
+[BlackElo "2420"]
+[PlyCount "107"]
+[EventDate "1991.06.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "9"]
+[Source "ChessBase"]
+[SourceDate "1991.09.01"]
+
+1. c4 e5 2. Nc3 f5 3. g3 Nf6 4. Bg2 g6 5. e3 c6 6. Nge2 Bg7 7. d4 d6 8. dxe5
+dxe5 9. Qxd8+ Kxd8 10. b3 Be6 11. Bb2 Na6 12. O-O Ke7 13. Na4 Nd7 14. e4 Rac8
+15. exf5 gxf5 16. f4 b5 17. cxb5 cxb5 18. Nac3 b4 19. Na4 Rc2 20. Rf2 Nac5 21.
+Nxc5 Nxc5 22. Bxe5 Bxe5 23. fxe5 Nd3 24. Rf3 Rxe2 25. Rxd3 Rc8 26. a3 Rc3 27.
+Bf1 Rxd3 28. Bxe2 Rd2 29. Kf1 a5 30. axb4 axb4 31. Ra7+ Rd7 32. Rxd7+ Kxd7 33.
+Bb5+ Ke7 34. Bd3 Bxb3 35. Bxf5 h6 36. Ke2 Bf7 37. Kd3 b3 38. Kc3 Bd5 39. g4 Bg8
+40. h3 Bd5 41. h4 Be6 42. h5 Kf7 43. Bg6+ Kg7 44. Kb2 Kf8 45. Bf5 Kf7 46. Kc3
+Ke7 47. Kd3 Kf7 48. Bg6+ Kg7 49. Bf5 Kf7 50. Bxe6+ Kxe6 51. g5 Kxe5 52. g6 Kf6
+53. Kc3 Kg7 54. Kxb3 1/2-1/2
+
+[Event "Camp. España indiv."]
+[Site "Lleida"]
+[Date "1991.??.??"]
+[Round "1"]
+[White "Mendoza Contreras, Lucas Eduardo"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1-0"]
+[ECO "B15"]
+[WhiteElo "2280"]
+[BlackElo "2510"]
+[PlyCount "65"]
+[EventDate "1991.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. e4 c6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Nf6 5. Nxf6+ exf6 6. c3 Bd6 7. Bd3 O-O 8.
+Qc2 Re8+ 9. Ne2 g6 10. O-O Qc7 11. Ng3 Be6 12. Bd2 Nd7 13. c4 f5 14. Bc3 Bf8
+15. Rad1 Nb6 16. b3 Bg7 17. a4 f4 18. Ne4 f3 19. d5 cxd5 20. Bxg7 dxe4 21. Bb2
+f6 22. Bxe4 fxg2 23. Rfe1 Qf7 24. a5 Nd7 25. Bxb7 Rab8 26. Bxg2 Nc5 27. Re3 Bf5
+28. Qe2 Be6 29. Re1 Kg7 30. Bd5 Bxd5 31. Rxe8 Bf3 32. Qxf3 Rxe8 33. Rxe8 1-0
+
+[Event "Camp. España indiv."]
+[Site "Lleida"]
+[Date "1991.??.??"]
+[Round "2"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Gomez Deltel, Nazario"]
+[Result "1-0"]
+[ECO "D87"]
+[WhiteElo "2510"]
+[BlackElo "2215"]
+[PlyCount "89"]
+[EventDate "1991.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 O-O 8.
+Ne2 c5 9. O-O Nc6 10. Be3 Bg4 11. f3 Bd7 12. Rb1 a6 13. Qd2 Rc8 14. Bd3 b5 15.
+Rfd1 e5 16. d5 Na5 17. Qc1 Re8 18. c4 Bf8 19. Bg5 f6 20. Bd2 Rb8 21. Kh1 Bd6
+22. g4 Rf8 23. Rg1 Rf7 24. Qe1 Nxc4 25. Bxc4 bxc4 26. Nc3 Rb4 27. Qe2 Be8 28.
+a3 Rbb7 29. Qxc4 Qa8 30. Be3 Bb5 31. Nxb5 axb5 32. Rxb5 Qxa3 33. Re1 Kg7 34.
+Kg2 Rfc7 35. g5 fxg5 36. Bxg5 Rxb5 37. Qxb5 Qb4 38. Rb1 Qc3 39. Qb3 Qa5 40. Qb6
+Qa2+ 41. Rb2 Qa1 42. Bf6+ Kh6 43. Rf2 Rd7 44. Qb3 Qc1 45. f4 1-0
+
+[Event "Camp. España indiv."]
+[Site "Lleida"]
+[Date "1991.??.??"]
+[Round "3"]
+[White "Cruz-Lopez Claret, Carlos"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "0-1"]
+[ECO "A51"]
+[WhiteElo "2265"]
+[BlackElo "2510"]
+[PlyCount "108"]
+[EventDate "1991.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. d4 Nf6 2. c4 e5 3. dxe5 Ne4 4. Qc2 Bb4+ 5. Nc3 d5 6. cxd5 Qxd5 7. Bd2 Qxd2+
+8. Qxd2 Nxd2 9. Kxd2 Nc6 10. Nf3 Bg4 11. e3 O-O-O+ 12. Kc2 Bf5+ 13. e4 Bxc3 14.
+exf5 Bxe5 15. Bc4 Nd4+ 16. Nxd4 Rxd4 17. Bxf7 Rhd8 18. Be6+ Kb8 19. Rad1 Rxd1
+20. Rxd1 Rxd1 21. Kxd1 Bxb2 22. g4 h6 23. Kc2 Be5 24. h3 c6 25. Kd3 Kc7 26. Ke4
+Kd6 27. f4 Bf6 28. Kf3 b5 29. Kg3 g5 30. Kf3 a5 31. fxg5 hxg5 32. Ke2 a4 33.
+Bf7 Kc5 34. Be8 Kb6 35. Kd3 c5 36. Bd7 Ka5 37. Kc2 c4 38. Bc6 Kb4 39. Bd7 a3
+40. Be8 Kc5 41. Bf7 b4 42. Kb1 Kd4 43. Bg8 Kc3 44. Be6 b3 45. Bf7 Kd3 46. Be6
+bxa2+ 47. Kxa2 c3 48. Bb3 c2 49. Bxc2+ Kxc2 50. Kxa3 Kd3 51. Kb4 Ke4 52. Kc5
+Kf4 53. Kd6 Kg3 54. Ke6 Bc3 0-1
+
+[Event "Camp. España indiv."]
+[Site "Lleida"]
+[Date "1991.??.??"]
+[Round "4"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Garcia Fernandez, Carlos"]
+[Result "1-0"]
+[ECO "A80"]
+[WhiteElo "2510"]
+[BlackElo "2335"]
+[PlyCount "35"]
+[EventDate "1991.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. Nf3 e6 2. d4 f5 3. e4 fxe4 4. Ng5 Nf6 5. f3 e3 6. Bxe3 c5 7. Nc3 cxd4 8.
+Qxd4 Nc6 9. Qh4 Nb4 10. O-O-O Qa5 11. Bc4 Bc5 12. Bxc5 Qxc5 13. Rhe1 O-O 14. a3
+Nc6 15. b4 Qb6 16. Nd5 exd5 17. Rxd5 h6 18. Rd6+ 1-0
+
+[Event "Camp. España indiv."]
+[Site "Lleida"]
+[Date "1991.??.??"]
+[Round "5"]
+[White "Gomez Esteban, Juan Mario"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1-0"]
+[ECO "E68"]
+[WhiteElo "2395"]
+[BlackElo "2510"]
+[PlyCount "95"]
+[EventDate "1991.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. g3 O-O 5. Bg2 d6 6. O-O Nbd7 7. Nc3 e5 8. e4
+exd4 9. Nxd4 Re8 10. h3 a6 11. Re1 Rb8 12. f4 c5 13. Nc2 Nb6 14. Qd3 Bd7 15. b3
+Nc8 16. a4 b5 17. axb5 axb5 18. cxb5 Be6 19. Ra3 Nb6 20. Ne3 Qc8 21. Kh2 c4 22.
+bxc4 Nxc4 23. Nxc4 Qxc4 24. Qxc4 Bxc4 25. Be3 Nd7 26. Rd1 Bf8 27. Ra7 Nc5 28.
+Bxc5 dxc5 29. e5 Re7 30. Rxe7 Bxe7 31. Bd5 Bxd5 32. Nxd5 Bd8 33. Rb1 Kf8 34.
+Kg2 Ke8 35. Kf3 Kd7 36. Ke4 Ra8 37. Nf6+ Bxf6 38. exf6 Kc7 39. b6+ Kb7 40. Kd5
+Ra3 41. Kxc5 Rc3+ 42. Kd6 Re3 43. Kd7 Re6 44. Rb5 h6 45. h4 Re3 46. g4 Re4 47.
+g5 Rxf4 48. Ke7 1-0
+
+[Event "Camp. España indiv."]
+[Site "Lleida"]
+[Date "1991.??.??"]
+[Round "6"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Pablo Mari, Alexandre"]
+[Result "0-1"]
+[ECO "A90"]
+[WhiteElo "2510"]
+[BlackElo "2340"]
+[PlyCount "85"]
+[EventDate "1991.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. d4 e6 2. Nf3 d5 3. c4 c6 4. g3 f5 5. Bg2 Nf6 6. O-O Bd6 7. b3 Qe7 8. Bb2 O-O
+9. Ne5 Bd7 10. Nd2 Be8 11. Ndf3 Ne4 12. Qc2 g5 13. Ne1 Nd7 14. f3 Nxe5 15. c5
+Bc7 16. fxe4 Ng4 17. exd5 exd5 18. Qd2 f4 19. Nc2 Bg6 20. Bf3 Nf6 21. g4 Qe6
+22. Qd1 Bxc2 23. Qxc2 Nxg4 24. Bxg4 Qxg4+ 25. Kh1 Kh8 26. Rg1 Qf5 27. Qxf5 Rxf5
+28. Rg2 Re8 29. h4 h6 30. hxg5 hxg5 31. Rf1 Kg7 32. Rf3 Kg6 33. b4 a6 34. a4
+Rf7 35. Kg1 Rfe7 36. Kf1 Rh7 37. Ke1 Kf5 38. Kd2 g4 39. Rf1 Rh3 40. Rfg1 g3 41.
+Bc1 Rh2 42. Rxh2 gxh2 43. Rh1 0-1
+
+[Event "Camp. España indiv."]
+[Site "Lleida"]
+[Date "1991.??.??"]
+[Round "7"]
+[White "Permuy Lorenzo, Carlos Javier"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "0-1"]
+[ECO "B32"]
+[WhiteElo "2260"]
+[BlackElo "2510"]
+[PlyCount "160"]
+[EventDate "1991.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e5 5. Nb5 d6 6. c4 Be6 7. Be2 Be7 8. O-O
+Nf6 9. N1c3 a6 10. Na3 Nd4 11. Bd3 O-O 12. Be3 Nc6 13. Nd5 Nd7 14. Nc2 Rc8 15.
+Qd2 h6 16. b4 Bg5 17. Rac1 Bxe3 18. Qxe3 Ne7 19. a4 a5 20. bxa5 Bxd5 21. cxd5
+Nc5 22. Na3 f5 23. exf5 Nxf5 24. Bxf5 Rxf5 25. Nc4 Rf4 26. Nb6 Rc7 27. Rc4 Rxc4
+28. Nxc4 Nxa4 29. Qb3 Nc5 30. Qb6 Rd7 31. Qxd8+ Rxd8 32. Rb1 Kf8 33. Rb5 Na6
+34. Kf1 Rd7 35. Rb6 Ke7 36. Ke2 h5 37. Kf3 g6 38. Kg3 Nc5 39. Kh4 Nd3 40. Kg5
+Nxf2 41. Kxg6 Ne4 42. Ne3 Kd8 43. Kxh5 Kc7 44. Rb4 Nc5 45. h4 Rd8 46. Rg4 b5
+47. axb6+ Kxb6 48. Kg6 Nd3 49. Kf6 Kc5 50. Rc4+ Kb5 51. Rc7 Rh8 52. g3 e4 53.
+Kg7 Rh5 54. Kg6 Rh8 55. Kf5 Rf8+ 56. Kxe4 Nc5+ 57. Kd4 Re8 58. Nf5 Re4+ 59. Kc3
+Rc4+ 60. Kd2 Nb3+ 61. Kd3 Rxc7 62. g4 Kc5 63. Ke4 Nd2+ 64. Kd3 Nc4 65. Ke4 Ne5
+66. g5 Rh7 67. Nh6 Re7 68. Ng8 Ra7 69. Kf5 Rh7 70. Nh6 Kxd5 71. h5 Rh8 72. Kf6
+Ke4 73. Kg7 Ra8 74. g6 d5 75. Nf7 d4 76. Nd6+ Kf4 77. Nb5 d3 78. Kh7 d2 79. Nc3
+Ng4 80. g7 Kf5 0-1
+
+[Event "Camp. España indiv."]
+[Site "Lleida"]
+[Date "1991.??.??"]
+[Round "8"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Alvarez Ibarra, Rafael"]
+[Result "1/2-1/2"]
+[ECO "A16"]
+[WhiteElo "2495"]
+[BlackElo "2365"]
+[PlyCount "103"]
+[EventDate "1991.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. c4 Nf6 2. Nc3 d5 3. cxd5 Nxd5 4. Nf3 g6 5. Qa4+ Bd7 6. Qh4 Nxc3 7. dxc3 Nc6
+8. Qg3 f6 9. e4 e5 10. h4 Qe7 11. h5 g5 12. Nh2 Nd8 13. Ng4 Ne6 14. Qf3 Nf4 15.
+g3 f5 16. Nxe5 Qxe5 17. gxf4 Qe7 18. fxg5 O-O-O 19. Bg2 Re8 20. Qe3 Kb8 21. h6
+fxe4 22. Qd4 Rg8 23. Be3 c5 24. Qd5 Rg6 25. O-O-O Bc6 26. Qd2 a6 27. b3 Qf7 28.
+Bf1 Be7 29. Bc4 Qf5 30. Rhg1 b5 31. Be2 Reg8 32. Bg4 Qf8 33. Bh5 Re6 34. Bf4+
+Kb7 35. Qe3 b4 36. c4 Bd6 37. Bxd6 Rxd6 38. Rxd6 Qxd6 39. Bd1 Rf8 40. Kb1 Qh2
+41. Qg3 Rxf2 42. Qxh2 Rxh2 43. Bc2 Kc7 44. Kc1 Rh4 45. g6 hxg6 46. Rxg6 Rh1+
+47. Kb2 Rh2 48. h7 Bd7 49. Rg5 Kb6 50. Rg6+ Kc7 51. Rg5 Kb6 52. Rg6+ 1/2-1/2
+
+[Event "Camp. España indiv."]
+[Site "Lleida"]
+[Date "1991.??.??"]
+[Round "9"]
+[White "Gallego Jimenez, Victoriano"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "0-1"]
+[ECO "A31"]
+[WhiteElo "2325"]
+[BlackElo "2510"]
+[PlyCount "36"]
+[EventDate "1991.09.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. d4 Nf6 2. Nf3 c5 3. c4 cxd4 4. Nxd4 b6 5. Nc3 Bb7 6. f3 a6 7. e4 d6 8. Be2
+Nbd7 9. O-O e6 10. Be3 Be7 11. Qd2 O-O 12. Rfd1 Re8 13. Rac1 Bf8 14. Bf2 Rc8
+15. Nc2 Qc7 16. Ne3 Qb8 17. Bg3 Ne5 18. h3 d5 0-1
+
+[Event "Costa Catalana"]
+[Site "Malgrat de Mar"]
+[Date "1991.??.??"]
+[Round "?"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Cramling, Pia"]
+[Result "1/2-1/2"]
+[ECO "D14"]
+[WhiteElo "2510"]
+[BlackElo "2485"]
+[PlyCount "30"]
+[EventDate "1991.09.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "2003.11.25"]
+
+1. Nf3 Nf6 2. c4 c6 3. d4 d5 4. cxd5 cxd5 5. Nc3 Nc6 6. Bf4 Bf5 7. e3 e6 8. Bd3
+Bxd3 9. Qxd3 Bd6 10. Bxd6 Qxd6 11. O-O O-O 12. Rac1 Rac8 13. h3 Rfd8 14. Rfd1
+h6 15. Nd2 Qb8 1/2-1/2
+
+[Event "Costa Catalana"]
+[Site "Malgrat de Mar"]
+[Date "1991.??.??"]
+[Round "?"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Estrella Vidiella, Jordi"]
+[Result "1-0"]
+[ECO "E11"]
+[WhiteElo "2510"]
+[BlackElo "2295"]
+[PlyCount "101"]
+[EventDate "1991.09.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "2003.11.25"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Nbd2 O-O 5. a3 Bxd2+ 6. Bxd2 d6 7. g3 Qe7 8.
+Bg2 e5 9. O-O e4 10. Ne1 Nc6 11. Nc2 Bg4 12. h3 Bh5 13. Bg5 h6 14. Bxf6 Qxf6
+15. Bxe4 Qe6 16. Qd3 Rae8 17. Bh7+ Kh8 18. d5 Qxh3 19. Bf5 Bxe2 20. Bxh3 Bxd3
+21. dxc6 Bxc2 22. cxb7 Rb8 23. Bg2 f5 24. Rfe1 Be4 25. Rxe4 fxe4 26. Bxe4 c5
+27. Rd1 d5 28. Bxd5 Rfd8 29. Re1 Rd7 30. Re5 a5 31. Be4 Rc7 32. Re6 Rcxb7 33.
+Bxb7 Rxb7 34. Ra6 Rxb2 35. Rxa5 Rb3 36. Rxc5 Rxa3 37. Rc8+ Kh7 38. c5 Rc3 39.
+Kf1 Kg6 40. Ke2 Rc2+ 41. Ke3 Kf7 42. g4 g6 43. Rc7+ Kf6 44. Rc6+ Kg7 45. f4 Rc4
+46. Rc8 g5 47. f5 Rxg4 48. c6 Rc4 49. c7 Rc6 50. f6+ Rxf6 51. Re8 1-0
+
+[Event "Costa Catalana"]
+[Site "Malgrat de Mar"]
+[Date "1991.??.??"]
+[Round "?"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Garriga Nualart, Josep"]
+[Result "1/2-1/2"]
+[ECO "E92"]
+[WhiteElo "2510"]
+[BlackElo "2375"]
+[PlyCount "107"]
+[EventDate "1991.09.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "2003.11.25"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 O-O 5. e4 d6 6. Be2 e5 7. dxe5 dxe5 8.
+Qxd8 Rxd8 9. Bg5 Re8 10. Nd5 Nxd5 11. cxd5 c6 12. Bc4 cxd5 13. Bxd5 Nc6 14.
+O-O-O Bg4 15. Kb1 Rac8 16. Rc1 Be6 17. Rhd1 f6 18. Be3 Kf7 19. Bxc6 Rxc6 20.
+Rxc6 bxc6 21. Rc1 Rc8 22. Rc5 a6 23. Ra5 Bc4 24. Kc2 Bf8 25. Bc5 Bh6 26. Ra3
+Rd8 27. Be3 Bf8 28. Rc3 Bb5 29. a3 a5 30. Bb6 Ra8 31. Nd2 a4 32. Be3 Rd8 33. h4
+Ke6 34. f3 f5 35. g4 Be7 36. g5 h6 37. gxh6 f4 38. Bf2 Rh8 39. Nc4 Rxh6 40. Na5
+g5 41. Nxc6 gxh4 42. Nxe7 h3 43. Nf5 h2 44. Nxh6 h1=Q 45. Ng4 Qf1 46. Rc5 Qe2+
+47. Kc1 Bc4 48. Rc6+ Ke7 49. Bh4+ Kf8 50. Rc8+ Kg7 51. Rc7+ Kf8 52. Rc8+ Kg7
+53. Rc7+ Kf8 54. Rc8+ 1/2-1/2
+
+[Event "Costa Catalana"]
+[Site "Malgrat de Mar"]
+[Date "1991.??.??"]
+[Round "?"]
+[White "Pablo Mari, Alexandre"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1/2-1/2"]
+[ECO "B32"]
+[WhiteElo "2340"]
+[BlackElo "2510"]
+[PlyCount "71"]
+[EventDate "1991.09.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "2003.11.25"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e5 5. Nb5 d6 6. c4 Be6 7. N1c3 a6 8. Na3
+Rc8 9. Bd3 Nf6 10. Nd5 Bxd5 11. cxd5 Nb8 12. O-O Be7 13. Be3 Nbd7 14. f3 O-O
+15. Qd2 Nh5 16. Rfc1 Rxc1+ 17. Rxc1 g6 18. Nc4 Qb8 19. a4 Rc8 20. a5 Ng7 21.
+Rc3 Ne8 22. Qc1 Rc7 23. Nb6 Rxc3 24. Qxc3 Nef6 25. Bc2 Bd8 26. Ba4 Nxb6 27.
+axb6 Kf8 28. Kf1 Ke7 29. Ke2 Nd7 30. Bxd7 Kxd7 31. Qc4 Qc8 32. Qa4+ Ke7 33. Kd3
+h5 34. Qc4 Qxc4+ 35. Kxc4 Kf8 36. Kd3 1/2-1/2
+
+[Event "Costa Catalana"]
+[Site "Malgrat de Mar"]
+[Date "1991.??.??"]
+[Round "?"]
+[White "Pares Vives, Jose"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "0-1"]
+[ECO "B13"]
+[WhiteElo "2355"]
+[BlackElo "2510"]
+[PlyCount "80"]
+[EventDate "1991.09.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "2003.11.25"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. c4 Nf6 5. Nc3 Nc6 6. Bg5 Be6 7. Nge2 dxc4 8.
+Nf4 Qd6 9. Nxe6 Qxe6+ 10. Be2 Nd5 11. O-O Nxc3 12. bxc3 Qd5 13. Bf3 Qxg5 14.
+Qa4 Kd8 15. Rab1 Qa5 16. Qxc4 Rc8 17. Rxb7 Ne5 18. Qe2 Nxf3+ 19. Qxf3 Ke8 20.
+d5 Qa6 21. Rfb1 g6 22. Qe3 f6 23. Rxa7 Qd6 24. Qe6 Qxe6 25. dxe6 h5 26. f4 h4
+27. Rc7 Rd8 28. Rb5 Rh5 29. a4 Rhd5 30. Rbb7 R5d6 31. f5 gxf5 32. Rb4 Rxe6 33.
+Rxh4 Kf7 34. Rf4 Bh6 35. Rxf5 Rd1+ 36. Kf2 Rd2+ 37. Kg3 Re3+ 38. Rf3 Ree2 39.
+Rf1 Rxg2+ 40. Kf3 Rge2 0-1
+
+[Event "Costa Catalana"]
+[Site "Malgrat de Mar"]
+[Date "1991.??.??"]
+[Round "1"]
+[White "Garcia Ilundain, David"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1/2-1/2"]
+[ECO "A57"]
+[WhiteElo "2370"]
+[BlackElo "2510"]
+[PlyCount "74"]
+[EventDate "1991.09.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 c5 4. d5 b5 5. cxb5 a6 6. b6 Bg7 7. Nc3 O-O 8. e4 Bb7
+9. a4 a5 10. Bb5 e6 11. O-O Qxb6 12. Bg5 h6 13. Bh4 exd5 14. e5 Ne8 15. Nxd5
+Bxd5 16. Qxd5 Nc7 17. Qc4 Nc6 18. Rad1 Nxb5 19. axb5 Nxe5 20. Nxe5 Bxe5 21.
+Rxd7 Rab8 22. Bg3 Qf6 23. Qxc5 Bxg3 24. fxg3 Qb6 25. Rd5 Rfc8 26. Qxb6 Rxb6 27.
+Ra1 Rc2 28. b3 Re6 29. Kh1 Re3 30. Rdd1 Rxb3 31. Rxa5 Kg7 32. g4 Rbb2 33. Rg1
+Rc5 34. h3 h5 35. gxh5 Rxh5 36. Ra7 Rbxb5 37. Rf1 Rhf5 1/2-1/2
+
+[Event "Costa Catalana"]
+[Site "Malgrat de Mar"]
+[Date "1991.??.??"]
+[Round "5"]
+[White "Garcia Palermo, Carlos H"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1-0"]
+[ECO "A57"]
+[WhiteElo "2490"]
+[BlackElo "2495"]
+[PlyCount "121"]
+[EventDate "1991.09.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "2003.11.25"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. b6 g6 6. Nc3 Bg7 7. e4 O-O 8. a4 a5
+9. Bb5 Ba6 10. Nf3 Bxb5 11. b7 Ra7 12. Nxb5 Rxb7 13. Qc2 Na6 14. Bd2 d6 15. O-O
+Nb4 16. Qc4 Qd7 17. Bc3 Qg4 18. Nd2 Nd7 19. Bxg7 Kxg7 20. Qc3+ Kg8 21. f3 Qh4
+22. Nc4 Ra8 23. b3 Qf6 24. Qd2 Ne5 25. f4 Nxc4 26. bxc4 Rd8 27. Ra3 Qg7 28.
+Raf3 Kh8 29. e5 Rbd7 30. exd6 exd6 31. f5 Re8 32. f6 Qf8 33. Re3 Rxe3 34. Qxe3
+Nc2 35. Qe4 Nd4 36. Nxd4 cxd4 37. Re1 h5 38. Qxd4 Rb7 39. Qd2 Kh7 40. Qxa5 Qc8
+41. Qc3 Qc5+ 42. Kh1 Rb4 43. Ra1 Rxc4 44. Qe1 Qxd5 45. a5 Rc2 46. Qf1 Qc4 47.
+Qxc4 Rxc4 48. a6 Rc8 49. h4 g5 50. hxg5 Kg6 51. a7 Ra8 52. Ra5 d5 53. Kg1 Kxg5
+54. Rxd5+ Kxf6 55. Rd7 Ke6 56. Rb7 f6 57. Kh2 Kf5 58. Kg3 Kg5 59. Rb5+ Kg6 60.
+Ra5 Kh6 61. Kf4 1-0
+
+[Event "Costa Catalana"]
+[Site "Malgrat de Mar"]
+[Date "1991.??.??"]
+[Round "6"]
+[White "Campos Moreno, Javier B"]
+[Black "Bellon Lopez, Juan Manuel"]
+[Result "1-0"]
+[ECO "A57"]
+[WhiteElo "2475"]
+[BlackElo "2510"]
+[PlyCount "81"]
+[EventDate "1991.09.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. b6 g6 6. Nc3 Bg7 7. e4 O-O 8. Nf3 d6
+9. a4 Qxb6 10. a5 Qd8 11. Bc4 Bg4 12. h3 Bxf3 13. Qxf3 Ne8 14. O-O Nd7 15. Qd1
+Nc7 16. f4 Rb8 17. Qd3 Rb4 18. b3 Nb5 19. Bd2 Bd4+ 20. Kh1 Nxc3 21. Bxc3 Bxc3
+22. Qxc3 Qc7 23. Rfe1 Re8 24. e5 dxe5 25. fxe5 Nf8 26. Bxa6 e6 27. d6 Qa7 28.
+Bc4 Nd7 29. Rf1 Nb8 30. Rf6 Nc6 31. Raf1 Rb7 32. a6 Rd7 33. h4 Qb6 34. h5 Qb4
+35. Qe3 Kg7 36. Qg5 Nd4 37. h6+ Kg8 38. Rxf7 Rxf7 39. Rxf7 Qa5 40. Qf6 Qe1+ 41.
+Bf1 1-0
+
+[Event "Costa Catalana"]
+[Site "Malgrat de Mar"]
+[Date "1991.09.??"]
+[Round "7"]
+[White "Bellon Lopez, Juan Manuel"]
+[Black "Spraggett, Kevin"]
+[Result "1-0"]
+[ECO "A89"]
+[WhiteElo "2510"]
+[BlackElo "2540"]
+[Annotator "Toran, Roman"]
+[PlyCount "61"]
+[EventDate "1991.09.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. d4 d6 2. c4 f5 ({Las negras se deciden por la defensa holandesa. Con} 2...
+Nf6 {se llegaría a los sistemas indios.}) 3. g3 Nf6 4. Bg2 g6 ({La variante
+Leningrado, que se emplea últimamente más que la línea clásica} 4... e6 {,
+seguido de Ae7.}) 5. Nc3 Bg7 6. Nf3 O-O 7. O-O Nc6 ({Idea primitiva de esta
+variante, mientras que en los últimos torneos se están jugando con mayor
+frecuencia,} 7... Na6) (7... c6 {, y especialmente,}) (7... Qe8) 8. d5 Ne5 9.
+Nxe5 dxe5 10. e4 f4 ({La continuación más usual, en lugar de} 10... e6 {, idea
+inicial.}) 11. gxf4 $5 ({Esto conduce a interesantes complicaciones tácticas,
+en tanto que} 11. f3 {, y}) (11. c5 {no han ofrecido hasta ahora ventajoso
+juego a las blancas.}) 11... exf4 12. Bxf4 ({Otra posibilidad es} 12. e5 Nh5
+13. e6 $5 {, con ventaja de espacio, siguiendo con el plan Af3 - Rh1 - Tg1.})
+12... Nxe4 13. Ne2 $1 Nd6 14. c5 Nf5 15. Qb3 Kh8 16. Rad1 $1 Nh4 $6 ({Una
+jugada dudosa. A considerar era} 16... e6 17. dxe6 Qe7 {, a fin de liberar el
+juego de piezas de las negras.}) ({También es muy interesante} 16... a5 {,
+para seguir con Ta6 y, luego, la reacción central con la jugada peón e6.}) 17.
+Be4 $1 Bg4 18. f3 Bc8 19. Kh1 Nf5 20. Rg1 a5 21. Bg5 $1 {[Presiona sobre el
+peón negro en e7 y deja latente la amenaza del peón blanco a d6. ]} a4 22. Qb4
+Qe8 23. Nf4 $1 {[Sacrificio de pieza, que dará un fuerte ataque. ]} h6 24. Bxh6
+$1 Bxh6 ({Si} 24... Nxh6 25. Nxg6+ Kg8 26. Nxf8 {y 27.Tg5, para doblar las
+torres en la columna g, con excelentes perspectivas.}) 25. Nxg6+ Kh7 26. d6 $1
+{[Fuerte ruptura, con la que se abren importantes vías de acceso al rey
+enemigo para las blancas. ]} exd6 ({A} 26... Rg8 27. Nxe7 Rxg1+ 28. Rxg1 Qf7
+29. Nxc8 Rxc8 30. Qxb7 Rf8 ({O bien} 30... Qd7 31. Qd5 Rf8 32. c6 Qf7 33. Qxf7+
+Rxf7 34. d7 $18) 31. dxc7 $1 Qd7 32. c8=Q {, ganando.}) 27. Nxf8+ Qxf8 28. cxd6
+Qf7 ({Después de} 28... cxd6 29. Rxd6 Kh8 30. Rxh6+ $1 Qxh6 ({Si} 30... Nxh6
+31. Qd4+ {sería fulminante.}) 31. Qc3+ Kh7 32. Qc7+ Kh8 33. Qd8+ {, para Dg8,
+mate.}) 29. dxc7 Ra6 ({Si} 29... Qxc7 30. Rd5 Qf7 31. Qb5 {, ganaría
+fácilmente. Spraggett intenta llevar la torre a la defensa.}) 30. Rd8 Qxc7 31.
+Qd4 $1 (31. Qd4 {y el negro se rinde ante la amenaza 32.Dh8 mate, puesto que,
+si} Bg7 32. Rxc8 $1 Qxc8 ({O bien} 32... Bxd4 33. Rxc7+ {y 34.Axf5+-}) 33.
+Qxg7#) 1-0

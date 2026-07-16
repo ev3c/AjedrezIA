@@ -1,0 +1,53 @@
+[Event "Sabadell Int"]
+[Site "Sabadell"]
+[Date "1945.??.??"]
+[Round "8"]
+[White "Lupi, Francesco"]
+[Black "Alekhine, Alexander"]
+[Result "0-1"]
+[ECO "D86"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "78"]
+[EventDate "1945.08.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 c5 7. Bc4 Bg7 8.
+Ne2 Nc6 9. Be3 cxd4 10. cxd4 Qa5+ 11. Kf1 (11. Bd2 $142 Qd8 12. Bc3 $36 (12. d5
+$5)) 11... O-O 12. Rb1 (12. Rc1 $142) 12... Qc7 13. Rc1 Rd8 14. Qb3 e6 15. Bb5
+Qa5 16. Rc4 $2 (16. e5 $1) 16... Bd7 17. Rc5 {Demasiados tiempos perdidos de
+esta torre para llegar hasta aquí.} Qb4 $2 (17... Qb6 $142 $1 18. Bxc6 Bxc6 $19
+) 18. Bxc6 Qxb3 19. axb3 Bxc6 20. f3 f5 $1 21. exf5 (21. e5) 21... gxf5 (21...
+exf5 $142) 22. Kf2 Bd5 23. Rb1 $143 (23. Nf4 $11) 23... b6 24. Rc7 Rdc8 25.
+Rxc8+ Rxc8 26. Rc1 Rxc1 27. Nxc1 Bf8 28. Bd2 a5 29. Ke2 Bd6 30. Kd3 $2 (30. h3
+$142) 30... Bxh2 31. Kc2 h5 32. Nd3 h4 33. Ne5 Bg1 34. Bc3 Kg7 35. Kd3 Bxb3 36.
+Nd7 Bd5 37. Nxb6 Bxf3 $1 {definitivo.} 38. Be1 Bxg2 39. Bxh4 e5 0-1
+
+[Event "Sabadell Int"]
+[Site "Sabadell"]
+[Date "1945.08.10"]
+[Round "9"]
+[White "Valles Bergada, Vicente"]
+[Black "Lupi, Francesco"]
+[Result "1/2-1/2"]
+[ECO "C24"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "90"]
+[EventDate "1945.08.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 d5 5. exd5 Nxd5 6. Qe2 {Vallés hizo esta
+jugada que en cierta ocasión le aconsejó Bernstein.} f6 7. d4 Bg4 $1 8. dxe5
+Nxe5 9. Qe4 Bxf3 10. gxf3 Nb6 11. f4 Nbxc4 12. fxe5 Nb6 13. exf6+ Kf7 14. fxg7
+Bxg7 15. Qf4+ Qf6 $2 (15... Bf6 $1) 16. Qxf6+ $2 (16. Qxc7+ $1 Ke8 17. O-O Qg6+
+18. Qg3 Kf7 19. Nd2 $14) 16... Bxf6 {Aquí Lupi ofreció tablas, al parecer
+aconsejado por Alekhine, que ya había terminado con Muñoz.} 17. O-O $2 (17. Nc3
+$142) 17... Rhg8+ 18. Kh1 Rae8 19. Na3 c6 20. Rb1 Rg4 (20... Nd5 $142) 21. Be3
+Nd5 22. Bxa7 Rh4 23. f3 b6 24. Rf2 Bd4 25. Rd2 Be3 26. Re2 Nf4 27. Ree1 Rg8 28.
+Bb8 {Vallés dice que es única. Creo que 20. Cd5 es mucho mejor.} (28. Nc4 $142
+$1 Nh3 29. Ne5+ Kf8 30. Nd3 $18) 28... Nh3 $2 29. Bg3 Bf2 30. Bxh4 Bxh4 31. Re2
+Nf2+ 32. Rxf2 Bxf2 33. Nc4 Kf6 34. Nd2 Be3 35. Ne4+ Ke5 36. Ng3 Kf4 37. Kg2 h5
+38. Kh3 h4 39. Nf1 (39. Kxh4 $2 Rh8+ 40. Nh5+ Kf5 $17) 39... Bf2 40. Rd1 Rg1
+41. a4 Kxf3 42. Nd2+ Ke2 43. Rxg1 Bxg1 44. Nc4 Kd1 45. Ne5 $2 (45. c3 $3 $16)
+45... Kxc2 {Y habiendo llegado al control se acordaron tablas.} 1/2-1/2

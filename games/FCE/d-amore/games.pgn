@@ -1,0 +1,45 @@
+[Event "Vila de Gracia"]
+[Site "Barcelona"]
+[Date "1985.04.??"]
+[Round "?"]
+[White "D'Amore"]
+[Black "De la Villa Garcia, Jesus Maria"]
+[Result "1-0"]
+[ECO "C28"]
+[WhiteElo "2335"]
+[BlackElo "2305"]
+[PlyCount "57"]
+[EventDate "1985.04.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+
+1. e4 e5 2. Bc4 Nf6 3. d3 Nc6 4. Nc3 Na5 5. Nf3 Nxc4 6. dxc4 Bb4 7. Qd3 Bxc3+
+8. Qxc3 d6 9. Qd3 b6 10. O-O Bb7 11. Re1 Qd7 12. Nd2 Nh5 13. Nf1 O-O 14. Qf3 g6
+15. Bh6 f5 16. Bxf8 Rxf8 17. Qb3 Bxe4 18. c5+ d5 19. Rxe4 Qf7 20. Re2 Nf4 21.
+Rd2 Ne6 22. cxb6 axb6 23. Re1 Nc5 24. Qg3 Ne4 25. Rxe4 dxe4 26. Qxe5 Re8 27.
+Qc3 e3 28. Nxe3 Qxa2 29. Rd7 1-0
+
+[Event "Vila de Gracia"]
+[Site "Barcelona"]
+[Date "1985.??.??"]
+[Round "?"]
+[White "D'Amore"]
+[Black "Illescas Cordoba, Miquel"]
+[Result "1/2-1/2"]
+[ECO "A04"]
+[WhiteElo "2335"]
+[BlackElo "2320"]
+[PlyCount "29"]
+[EventDate "1985.04.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[EventCategory "4"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. Nf3 c5 2. g3 Nc6 3. Bg2 e5 4. e4 g6 5. Nc3 Bg7 6. d3 Nge7 7. O-O O-O 8. Nd2
+d6 9. Nc4 Be6 10. Ne3 Qd7 11. Ned5 Bh3 12. Bh6 Bxg2 13. Kxg2 Nxd5 14. Nxd5 Ne7
+15. Bxg7 1/2-1/2

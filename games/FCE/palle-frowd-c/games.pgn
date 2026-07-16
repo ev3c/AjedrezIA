@@ -1,0 +1,79 @@
+[Event "Ct. Catalunya Veterans"]
+[Site "?"]
+[Date "2012.05.12"]
+[Round "2"]
+[White "Palle Frowd, C."]
+[Black "Coll Enriquez, L."]
+[Result "0-1"]
+[ECO "C41"]
+[WhiteElo "2017"]
+[BlackElo "2157"]
+[PlyCount "136"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 d6 3. Bc4 Nd7 4. d4 c6 5. dxe5 dxe5 6. Ng5 Nh6 7. O-O Qe7 8.
+Bb3 Nc5 9. Nc3 f6 10. Nf3 g6 11. Be3 Ne6 12. h3 Bg7 13. Qd2 Nf7 14. Rad1 O-O
+15. a3 Kh8 16. Ne2 c5 17. c3 Rd8 18. Qc2 b6 19. Rxd8+ Nexd8 20. Rd1 Bb7 21. Ng3
+Ne6 22. Bd5 Nd6 23. Qb3 Nf4 24. Bxb7 Nxb7 25. Qc2 Nd6 26. Qc1 Bh6 27. Qc2 Rf8
+28. Qd2 Rd8 29. Kh2 Qe6 30. Qc2 Bf8 31. Ne2 Nxe2 32. Qxe2 Qb3 33. Bc1 Be7 34.
+Ne1 Kg7 35. f3 g5 36. Nc2 a5 37. Ne3 Kf7 38. Kg1 a4 39. Kf1 b5 40. Rd5 Rc8 41.
+Qd2 Rc6 42. Ke2 b4 43. Qc2 bxa3 44. bxa3 Nb5 45. Qxb3 axb3 46. Bb2 Ra6 47. Nc4
+Ra4 48. Kd3 Ke6 49. Nb6 Ra6 50. Nc4 Nc7 51. Ne3 Nxd5 52. Nxd5 Ra7 53. c4 Bd8
+54. Ne3 Ba5 55. Nd5 h5 56. Ke2 f5 57. exf5+ Kxf5 58. Kf2 Bd2 59. Ke2 Bf4 60.
+Nc3 Bh2 61. Nd5 Bg1 62. Kd2 Bd4 63. Kc1 g4 64. fxg4+ hxg4 65. hxg4+ Kxg4 66.
+Bxd4 cxd4 67. Kb2 e4 68. Nf6+ Kf4 0-1
+
+[Event "Ct. Catalunya Veterans"]
+[Site "Barcelona"]
+[Date "2014.05.17"]
+[Round "1"]
+[White "Fabre Massana, M."]
+[Black "Palle Frowd, C."]
+[Result "1-0"]
+[ECO "B22"]
+[WhiteElo "2227"]
+[BlackElo "1987"]
+[PlyCount "123"]
+[EventDate "2014.05.17"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.06.06"]
+
+1. e4 c5 2. Nf3 d6 3. c3 g6 4. d4 cxd4 5. cxd4 Bg7 6. Nc3 Nf6 7. Be2 O-O 8. O-O
+a6 9. h3 b5 10. a3 Bb7 11. Qd3 Nc6 12. Be3 Rc8 13. b4 Nd7 14. Rac1 Nb6 15. Nd2
+Nd7 16. f4 e5 17. Nf3 Ne7 18. Rfd1 exf4 19. Bxf4 Nb6 20. Nd2 d5 21. exd5 Nexd5
+22. Nxd5 Qxd5 23. Nf3 Rc4 24. Qe3 Rcc8 25. Rc5 Qd8 26. Qd2 Re8 27. Ne5 f6 28.
+Nf3 Nd5 29. Bf1 Nxf4 30. Qxf4 Qd7 31. Rdc1 Bxf3 32. gxf3 f5 33. d5 Be5 34. Qd2
+Rcd8 35. Rc6 Qa7+ 36. Kg2 Qb8 37. R1c2 Bf4 38. Qd3 Qe5 39. Re2 Be3 40. d6 f4
+41. Kh1 Qe6 42. Rxa6 Rd7 43. Qxb5 Red8 44. Re1 Kf8 45. Rd1 Qa2 46. Qe2 Qe6 47.
+Qb2 Qg8 48. Qf6+ Qf7 49. Qh8+ Qg8 50. Qxg8+ Kxg8 51. Bb5 Ra7 52. a4 Kg7 53.
+Rxa7+ Bxa7 54. a5 Bb8 55. d7 Kf6 56. Bc6 Bc7 57. Ra1 Ke7 58. b5 Kd6 59. Rd1+
+Kc5 60. Rc1+ Kb4 61. b6 Bb8 62. a6 1-0
+
+[Event "Ct. Catalunya Veterans"]
+[Site "Barcelona"]
+[Date "2014.05.21"]
+[Round "5"]
+[White "Franquet Escriva, J."]
+[Black "Palle Frowd, C."]
+[Result "1-0"]
+[ECO "B52"]
+[WhiteElo "2193"]
+[BlackElo "1987"]
+[PlyCount "55"]
+[EventDate "2014.05.17"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.06.06"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Nxd7 5. O-O Ngf6 6. Re1 e6 7. c3 Be7 8.
+d4 cxd4 9. cxd4 e5 10. Nc3 a6 11. Bg5 Qc7 12. Rc1 Qa5 13. Qd2 h6 14. Bh4 O-O
+15. Nd5 Qd8 16. Nxe7+ Qxe7 17. Rc7 Qd8 18. Rxb7 Qc8 19. Rb3 a5 20. Bxf6 Nxf6
+21. dxe5 dxe5 22. h3 Re8 23. Nh4 Rd8 24. Qe3 Rd4 25. Nf5 Rd7 26. Qg3 g6 27.
+Qxe5 gxf5 28. Qxf6 1-0

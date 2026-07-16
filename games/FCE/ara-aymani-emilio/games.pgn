@@ -1,0 +1,81 @@
+[Event "Camp. Catalunya indiv."]
+[Site "?"]
+[Date "1962.??.??"]
+[Round "?"]
+[White "Garcia Conesa, Gregorio"]
+[Black "Ara Aymani, Emilio"]
+[Result "1-0"]
+[ECO "B18"]
+[PlyCount "85"]
+[EventDate "1962.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. Nf3 Nd7 7. Bd3 Ngf6 8.
+O-O e6 9. Re1 Bd6 10. Nf5 Bxf5 11. Bxf5 O-O 12. Bd3 Qc7 13. Bg5 c5 14. c3 cxd4
+15. cxd4 Nd5 16. Rc1 Qb6 17. Ne5 N7f6 18. Nc4 Qc7 19. Ne3 Qb6 20. Nxd5 Nxd5 21.
+Re4 f6 22. Rh4 $1 fxg5 23. Bxh7+ Kf7 24. Qh5+ Ke7 25. Qxg5+ Nf6 26. d5 $1 exd5
+27. Qxg7+ Kd8 28. Bf5 Be7 29. Rh8 Nd7 30. Rh6 Qb4 31. g4 Qd2 32. Rf1 Nc5 33. h4
+Qf4 34. Rd1 Bd6 35. Rxd6+ $1 Qxd6 36. Rxd5 Qxd5 37. Qxf8+ Kc7 38. Qxa8 Qd1+ 39.
+Kg2 Qd5+ 40. Kh2 Qd6+ 41. Kh3 Kb6 42. Qg8 Qc6 43. Qg6 1-0
+
+[Event "Copa Catalana eq."]
+[Site "?"]
+[Date "1974.10.27"]
+[Round "?"]
+[White "Ribera Arnal, Angel"]
+[Black "Ara Aymani, Emilio"]
+[Result "1-0"]
+[ECO "A58"]
+[PlyCount "55"]
+[EventDate "1974.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. bxa6 Bxa6 6. Nc3 e6 7. e4 Bxf1 8.
+Kxf1 d6 9. Nge2 Nbd7 10. h4 Be7 11. h5 h6 12. dxe6 fxe6 13. Nf4 Nf8 14. Rh3 e5
+15. Nfd5 Ne6 16. Nxf6+ Bxf6 17. Qg4 Qd7 18. Nd5 Ra7 19. Rb3 Bd8 20. Nb6 Qf7 21.
+Rf3 Bf6 22. Nd5 Rb7 23. a4 Kd8 24. a5 Nd4 25. a6 Ra7 26. Bd2 Nxf3 27. Ba5+ Rc7
+28. Qxf3 1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1979.??.??"]
+[Round "?"]
+[White "Fernandez Garcia, Jose Luis"]
+[Black "Ara Aymani, Emilio"]
+[Result "1-0"]
+[ECO "B16"]
+[PlyCount "59"]
+[EventDate "1979.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Nxf6+ gxf6 6. c3 h5 7. Bc4 Be6 8.
+Bxe6 fxe6 9. Qb3 Qd7 10. Ne2 Bh6 11. Bxh6 Rxh6 12. Nf4 Kf7 13. O-O-O Na6 14.
+Rhe1 Nc7 15. Re3 Qd6 16. g3 b5 17. Rde1 f5 18. Re5 Nd5 19. Nxe6 Rxe6 20. Rxe6
+Qxe6 21. Rxe6 Kxe6 22. Qd1 Nf6 23. Qe2+ Kf7 24. Qe5 Kg6 25. Qc7 Re8 26. Qxc6 e5
+27. d5 Rd8 28. d6 Ne4 29. Qc7 Rxd6 30. f3 1-0
+
+[Event "Sitges op"]
+[Site "Sitges"]
+[Date "1984.??.??"]
+[Round "2"]
+[White "Ara Aymani, Emilio"]
+[Black "Fernandez Garcia, Jose Luis"]
+[Result "1-0"]
+[ECO "A66"]
+[PlyCount "41"]
+[EventDate "1984.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 c5 4. d5 exd5 5. cxd5 d6 6. e4 g6 7. f4 Bg7 8. e5
+dxe5 9. fxe5 Ng4 10. Bb5+ Kf8 11. e6 Nf6 12. Qf3 fxe6 13. dxe6 a6 14. Ba4 Qe7
+15. Bg5 h6 16. Bxf6 Bxf6 17. Nd5 Qxe6+ 18. Ne2 Kg7 19. O-O Be5 20. Nef4 Qg4 21.
+Nh5+ 1-0

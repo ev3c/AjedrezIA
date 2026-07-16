@@ -1,0 +1,623 @@
+[Event "Montcada op-A 25th"]
+[Site "Montcada"]
+[Date "2017.06.28"]
+[Round "3"]
+[White "Santos Latasa, Jaime"]
+[Black "Anuj, Shrivatri"]
+[Result "1-0"]
+[ECO "A96"]
+[WhiteElo "2567"]
+[BlackElo "1920"]
+[PlyCount "79"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 e6 2. Nf3 f5 3. g3 Nf6 4. Bg2 Be7 5. O-O O-O 6. c4 d6 7. Nc3 Ne4 8. Qc2
+Nxc3 9. bxc3 Nc6 10. e4 e5 11. d5 Na5 12. c5 b6 13. c6 Qe8 14. c4 fxe4 15. Nd2
+Bg5 16. Nxe4 Bxc1 17. Raxc1 Bf5 18. Qd2 Qg6 19. Rfe1 h6 20. c5 Bxe4 21. Bxe4
+Qf6 22. cxd6 Qxd6 23. Qc3 g5 24. Rcd1 Rae8 25. Bg2 h5 26. Bh3 g4 27. Bg2 Re7
+28. h3 Rf6 29. hxg4 hxg4 30. Re4 Rg6 31. Rde1 Rg5 32. Qe3 Qf6 33. Qe2 Qg6 34.
+Qa6 Qd6 35. Rxg4 Rxg4 36. Qc8+ Kh7 37. Qxg4 b5 38. Be4+ Kh8 39. Kg2 Rg7 40.
+Qc8+ 1-0
+
+[Event "Montcada op-A 25th"]
+[Site "Montcada"]
+[Date "2017.07.01"]
+[Round "6"]
+[White "Anuj, Shrivatri"]
+[Black "Soysal, Serkan"]
+[Result "1/2-1/2"]
+[ECO "D85"]
+[WhiteElo "1920"]
+[BlackElo "2370"]
+[PlyCount "148"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Qa4+ Qd7 8.
+Qb3 O-O 9. Nf3 b6 10. Be3 Bb7 11. Bd3 Nc6 12. Rd1 Na5 13. Qb1 c5 14. O-O cxd4
+15. cxd4 Rac8 16. d5 Nc4 17. Bd4 Bxd4 18. Nxd4 e6 19. Nc6 Bxc6 20. Bxc4 exd5
+21. Bxd5 Bxd5 22. Rxd5 Qa4 23. Rd2 Rfd8 24. Re2 Rc3 25. e5 Qc4 26. Rfe1 Rc8 27.
+g3 Qxe2 28. Rxe2 Rc1+ 29. Qxc1 Rxc1+ 30. Kg2 Kf8 31. Rd2 Rc5 32. f4 Rc3 33. Kh3
+Ke7 34. Kg4 h6 35. Rg2 b5 36. h4 h5+ 37. Kg5 Ke6 38. f5+ gxf5 39. Kxh5 Rc8 40.
+Kg5 Rg8+ 41. Kf4 Rg4+ 42. Kf3 Kxe5 43. Rb2 a6 44. Rd2 Ra4 45. Re2+ Kf6 46. Rc2
+Ra3+ 47. Kf4 Ra4+ 48. Kf3 Kg7 49. Rc6 Rxa2 50. Kf4 b4 51. Rb6 a5 52. Kxf5 Rf2+
+53. Ke4 Re2+ 54. Kf4 f6 55. g4 Re7 56. Ra6 Rb7 57. Rxa5 b3 58. Ra1 b2 59. Rb1
+Rb4+ 60. Kf3 Kg6 61. Kg3 Kg7 62. Kf3 Rb3+ 63. Ke4 Kf7 64. g5 Rb4+ 65. Kf5 Rb5+
+66. Kf4 f5 67. h5 Kg7 68. Kg3 Rb4 69. Kf3 Kf7 70. Kg3 Ke6 71. h6 Kf7 72. h7 Kg7
+73. g6 Rb8 74. Kf4 Kxg6 1/2-1/2
+
+[Event "Montcada op-A 25th"]
+[Site "Montcada"]
+[Date "2017.07.01"]
+[Round "7"]
+[White "Flick, Antoine"]
+[Black "Anuj, Shrivatri"]
+[Result "1-0"]
+[ECO "E68"]
+[WhiteElo "2332"]
+[BlackElo "1920"]
+[PlyCount "89"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 g6 2. Nf3 Bg7 3. c4 d6 4. Nc3 e5 5. g3 Nd7 6. Bg2 Ngf6 7. O-O O-O 8. Qc2
+c6 9. Rd1 Re8 10. e4 exd4 11. Nxd4 Qb6 12. Na4 Qc7 13. h3 Nc5 14. Nc3 a5 15.
+Bf4 Nfd7 16. Be3 b6 17. b3 Bb7 18. Rab1 Nf6 19. Re1 Qe7 20. Bd2 Nfd7 21. Nde2
+Rac8 22. Rbd1 b5 23. cxb5 cxb5 24. Nd5 Qd8 25. Qb1 b4 26. Bf4 Ne5 27. Be3 Ba6
+28. Nc1 g5 29. Bd4 h5 30. f4 gxf4 31. gxf4 Ned7 32. Qb2 Bxd4+ 33. Qxd4 Ne6 34.
+Qf2 Nec5 35. Kh2 Kh7 36. e5 Re6 37. Bf3 Kh6 38. Qd2 Kh7 39. Qf2 Kh6 40. exd6
+Nf6 41. Nc7 Rxc7 42. dxc7 Qxc7 43. Qh4 Nfe4 44. Rg1 a4 45. Rg2 1-0
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.04"]
+[Round "1"]
+[White "Deshmukh, Anup"]
+[Black "Anuj, Shrivatri"]
+[Result "1-0"]
+[ECO "D53"]
+[WhiteElo "2241"]
+[BlackElo "1920"]
+[PlyCount "80"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 e6 2. Nc3 d5 3. d4 Nf6 4. Bg5 Be7 5. e3 Nbd7 6. Qc2 a6 7. Nf3 dxc4 8.
+Bxc4 b5 9. Bd3 c5 10. Bxf6 Bxf6 11. O-O Bb7 12. Be4 Bxe4 13. Nxe4 cxd4 14. exd4
+O-O 15. a4 Be7 16. axb5 axb5 17. Qc6 Rxa1 18. Rxa1 b4 19. h3 Nb6 20. Ra7 Nd5
+21. Ne5 Qc8 22. Rd7 Re8 23. g3 Qxc6 24. Nxc6 Bf8 25. Rd8 Rxd8 26. Nxd8 g6 27.
+Kf1 f5 28. Nd2 Nc7 29. Ke2 h5 30. Nf3 Be7 31. Nc6 Bd6 32. Kd3 Kf7 33. Kc4 Nd5
+34. Nfe5+ Kf6 35. Nd7+ Kg5 36. Nd8 Bxg3 37. fxg3 Ne3+ 38. Kd3 f4 39. Nxe6+ Kf5
+40. Nxf4 Nf1 1-0
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.05"]
+[Round "2"]
+[White "Anuj, Shrivatri"]
+[Black "Campos Cayuelas, Adria"]
+[Result "0-1"]
+[ECO "E81"]
+[WhiteElo "1920"]
+[BlackElo "2078"]
+[PlyCount "96"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Bg5 h6 7. Be3 Nc6 8. Nge2
+a6 9. Qd2 Kh7 10. Rc1 Rb8 11. Nd1 e6 12. Nf2 Ne7 13. g4 Nd7 14. f4 e5 15. dxe5
+dxe5 16. f5 Nf6 17. Qc3 Bd7 18. Rd1 Qe8 19. Ng3 Bc6 20. Rg1 gxf5 21. exf5 Rd8
+22. Rxd8 Qxd8 23. h4 e4 24. Qc2 Ned5 25. cxd5 Nxd5 26. Qd2 Nxe3 27. Qxe3 Bd4
+28. Qf4 e3 29. Nfe4 e2 30. Bxe2 Bxe4 31. Qxe4 Re8 32. Qg2 Bxg1 33. Qxg1 Qxh4
+34. Kd1 Qf6 35. Kc2 Qc6+ 36. Kb1 Rxe2 37. Nxe2 Qe4+ 38. Kc1 Qxe2 39. Qg3 Qc4+
+40. Kb1 Qe4+ 41. Kc1 Qc6+ 42. Kb1 b5 43. Qf4 Qd5 44. a3 c5 45. g5 h5 46. g6+
+fxg6 47. Qc7+ Kh6 48. f6 Qf5+ 0-1
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.06"]
+[Round "3"]
+[White "Jul Perez, Alberto"]
+[Black "Anuj, Shrivatri"]
+[Result "1/2-1/2"]
+[ECO "C10"]
+[WhiteElo "2020"]
+[BlackElo "1920"]
+[PlyCount "85"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Bd7 5. Nf3 Bc6 6. Bd3 Nd7 7. Be3 Ngf6 8.
+Nxf6+ Qxf6 9. Be2 h6 10. Qd2 Be4 11. O-O-O Bd6 12. Ne1 c6 13. f3 Bh7 14. g4 Qe7
+15. Bd3 Bxd3 16. Nxd3 Nb6 17. Bf4 Bxf4 18. Qxf4 Qg5 19. h4 Qxf4+ 20. Nxf4 g6
+21. Rhe1 O-O-O 22. b3 Nd5 23. Nxd5 Rxd5 24. Re5 Rhd8 25. c3 g5 26. hxg5 hxg5
+27. Rxd5 Rxd5 28. Kc2 c5 29. Kd3 cxd4 30. cxd4 Kd7 31. Ke4 Ra5 32. Rd2 Kd6 33.
+Rh2 b6 34. Kd3 f5 35. Kc4 Ke7 36. a4 Kf6 37. Rh6+ Kf7 38. Rh7+ Kf6 39. Rd7 e5
+40. Rd6+ Ke7 41. Rd5 Rxd5 42. Kxd5 fxg4 43. fxg4 1/2-1/2
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.07"]
+[Round "4"]
+[White "Anuj, Shrivatri"]
+[Black "Ros Alonso, Joana"]
+[Result "1-0"]
+[ECO "D02"]
+[WhiteElo "1920"]
+[BlackElo "1966"]
+[PlyCount "69"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 g6 3. Bf4 Bg7 4. e3 d5 5. Nbd2 O-O 6. Be2 c5 7. c3 Qb6 8. Qb3
+c4 9. Qa3 Nc6 10. h3 Bf5 11. b3 cxb3 12. axb3 Ne4 13. Nxe4 Bxe4 14. O-O Rfe8
+15. Bh2 e5 16. Rfc1 exd4 17. cxd4 a6 18. Nd2 Bf5 19. Bf3 Nb4 20. Bc7 Qb5 21.
+Rc5 Qxc5 22. dxc5 Nc2 23. Qa5 Bxa1 24. Bxd5 Be5 25. Bxe5 Rxe5 26. e4 Nd4 27.
+Bxb7 Rb8 28. Qc7 Rbe8 29. exf5 R5e7 30. Qb6 Rb8 31. Qd6 Ne2+ 32. Kh2 Rexb7 33.
+c6 Rb5 34. c7 Rf8 35. Qxf8+ 1-0
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.08"]
+[Round "5"]
+[White "Exler, Veronika"]
+[Black "Anuj, Shrivatri"]
+[Result "1/2-1/2"]
+[ECO "A49"]
+[WhiteElo "2161"]
+[BlackElo "1920"]
+[PlyCount "84"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 g6 3. g3 Bg7 4. Bg2 O-O 5. b3 c5 6. Bb2 Qa5+ 7. Qd2 Qc7 8. c4
+d5 9. cxd5 Nxd5 10. dxc5 Bxb2 11. Qxb2 Qxc5 12. O-O Nc6 13. Rc1 Qd6 14. Nbd2
+Qf6 15. Qxf6 Nxf6 16. Nc4 Bg4 17. h3 Bxf3 18. Bxf3 Nd4 19. Kg2 Nxf3 20. Kxf3
+Rfd8 21. Na5 Rd7 22. Rc4 e5 23. Rac1 e4+ 24. Kg2 Re8 25. Rc7 Ree7 26. Rxd7 Rxd7
+27. Nc4 b5 28. Ne3 Rd2 29. Rc6 Nd7 30. Rc2 Rxc2 31. Nxc2 Kg7 32. f3 Nc5 33. Nd4
+a6 34. Kf2 Kf6 35. b4 Na4 36. Ke3 exf3 37. exf3 Nc3 38. a3 Ke5 39. Kd3 Nb1 40.
+Nc2 g5 41. Ke3 Kd5 42. Kd3 Ke5 1/2-1/2
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.09"]
+[Round "6"]
+[White "Anuj, Shrivatri"]
+[Black "Romero Echeverria, Abigail"]
+[Result "1-0"]
+[ECO "D37"]
+[WhiteElo "1920"]
+[BlackElo "2109"]
+[PlyCount "103"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bf4 O-O 6. e3 b6 7. Bd3 Bb7 8. cxd5
+Nxd5 9. Nxd5 Qxd5 10. O-O Na6 11. a3 c5 12. Qe2 Nb8 13. dxc5 bxc5 14. Rfd1 Qh5
+15. Ne5 Qxe2 16. Bxe2 Bd5 17. Rac1 f6 18. Nc4 Nc6 19. Nd6 Ne5 20. Nc4 Nxc4 21.
+Bxc4 Rfd8 22. Bc7 Rdc8 23. Ba5 Bd8 24. Bxd5 exd5 25. Bxd8 Rxd8 26. Rxc5 Rdb8
+27. b4 a5 28. b5 Rc8 29. Rdxd5 Rxc5 30. Rxc5 Rd8 31. Kf1 Rd3 32. b6 Rb3 33.
+Rxa5 Rxb6 34. Ra7 h5 35. h4 Rb2 36. Ra5 Ra2 37. g3 Kf7 38. Rxh5 Rxa3 39. Ke2
+Kg6 40. Rb5 Kh6 41. g4 Kg6 42. Kf3 Ra2 43. e4 Rc2 44. g5 fxg5 45. hxg5 Ra2 46.
+Kg3 Kh5 47. f3 Ra6 48. Kf4 Ra8 49. Rd5 g6 50. Rd6 Ra7 51. Rf6 Ra8 52. Rf7 1-0
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.10"]
+[Round "7"]
+[White "Fernandez Aguilar, Francisco"]
+[Black "Anuj, Shrivatri"]
+[Result "1/2-1/2"]
+[ECO "A49"]
+[WhiteElo "2066"]
+[BlackElo "1920"]
+[PlyCount "53"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 g6 3. g3 Bg7 4. Bg2 d5 5. O-O O-O 6. c4 c6 7. b3 c5 8. Bb2
+dxc4 9. bxc4 cxd4 10. Nxd4 Qb6 11. Qb3 Nfd7 12. e3 Nc5 13. Qxb6 axb6 14. Nc3
+Na4 15. Rab1 Nxc3 16. Bxc3 Nd7 17. Nb5 Rxa2 18. Bxg7 Kxg7 19. Nc3 Rc2 20. Nd5
+e6 21. Nxb6 Nxb6 22. Rxb6 Rxc4 23. Bxb7 Bxb7 24. Rxb7 Rfc8 25. Rd1 Rc1 26. Rxc1
+Rxc1+ 27. Kg2 1/2-1/2
+
+[Event "Barbera del Valles op 40th"]
+[Site "Barbera del Valles"]
+[Date "2017.07.12"]
+[Round "9"]
+[White "Anuj, Shrivatri"]
+[Black "Pablo Marin, Alejandro"]
+[Result "1/2-1/2"]
+[ECO "A85"]
+[WhiteElo "1920"]
+[BlackElo "2387"]
+[PlyCount "41"]
+[EventDate "2017.07.04"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 f5 2. c4 Nf6 3. Nc3 e6 4. e3 b6 5. Bd3 Bb7 6. f3 g6 7. Nge2 Bg7 8. Qc2
+Nc6 9. a3 Qe7 10. Bd2 a6 11. O-O O-O 12. Be1 Nh5 13. Bf2 d6 14. Rab1 e5 15. d5
+e4 16. fxe4 fxe4 17. Nxe4 Ne5 18. Nd4 Ng4 19. Ne6 Be5 20. h3 Rxf2 21. Rxf2
+1/2-1/2
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.13"]
+[Round "1"]
+[White "Anuj, Shrivatri"]
+[Black "Vantika, Agrawal"]
+[Result "1-0"]
+[ECO "E92"]
+[WhiteElo "1920"]
+[BlackElo "2230"]
+[PlyCount "99"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. h3 e5 7. d5 a5 8. Bg5 Na6
+9. Be2 Qe8 10. Nd2 Nd7 11. a3 f6 12. Bh4 Nb6 13. b3 Bd7 14. O-O Bh6 15. Rb1 Nc5
+16. Qc2 f5 17. b4 axb4 18. axb4 Nca4 19. Nxa4 Nxa4 20. Rfe1 g5 21. Bg3 g4 22.
+hxg4 fxg4 23. c5 Bf4 24. Nf1 Qh5 25. cxd6 Rf6 26. Qxc7 Rh6 27. f3 Qf7 28. Bxf4
+exf4 29. fxg4 Rc8 30. Qxb7 Nc3 31. e5 Nxb1 32. Rxb1 Qg7 33. Rd1 Re8 34. e6 Bxe6
+35. Qxg7+ Kxg7 36. dxe6 Rhxe6 37. Bf3 Rd8 38. d7 Rb6 39. Rd4 Kf6 40. Rxf4+ Ke6
+41. Ne3 Rxd7 42. g5 Rd3 43. Rf6+ Ke7 44. Rxb6 Rxe3 45. Rb7+ Kd6 46. Rxh7 Rb3
+47. g6 Rxb4 48. g7 Rb8 49. Rh8 Rb1+ 50. Kh2 1-0
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.14"]
+[Round "2"]
+[White "Fenil, Shah"]
+[Black "Anuj, Shrivatri"]
+[Result "1/2-1/2"]
+[ECO "B07"]
+[WhiteElo "2267"]
+[BlackElo "1920"]
+[PlyCount "93"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. Nc3 g6 2. e4 Bg7 3. g3 c6 4. Bg2 d6 5. Nge2 Nf6 6. O-O O-O 7. d4 e5 8. a4 a5
+9. h3 Nbd7 10. Be3 exd4 11. Nxd4 Re8 12. Nb3 Qc7 13. g4 Ne5 14. Nd2 b6 15. g5
+Nh5 16. f4 Nd7 17. Qf3 Bb7 18. Nb3 Bxc3 19. bxc3 c5 20. Nd2 f5 21. gxf6 Ndxf6
+22. f5 d5 23. fxg6 hxg6 24. Bf4 Qg7 25. e5 Nd7 26. Nc4 Rf8 27. Qg4 Nxf4 28.
+Rxf4 Rxf4 29. Qxf4 Rf8 30. Qg3 dxc4 31. Bxb7 Nxe5 32. Bd5+ Kh8 33. Re1 Rf5 34.
+Qh4+ Rh5 35. Qd8+ Kh7 36. Kg2 Rf5 37. Re4 g5 38. Re3 Ng6 39. Be4 Qe5 40. Qd7+
+Kh6 41. Bxf5 Qxe3 42. Bxg6 Kxg6 43. Qd6+ Kh5 44. Qd1+ Kg6 45. Qd6+ Kh5 46. Qd1+
+Kg6 47. Qd6+ 1/2-1/2
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.15"]
+[Round "3"]
+[White "Anuj, Shrivatri"]
+[Black "Vassallo Barroche, Mauricio"]
+[Result "0-1"]
+[ECO "A53"]
+[WhiteElo "1920"]
+[BlackElo "2376"]
+[PlyCount "96"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 d6 3. Nc3 e5 4. dxe5 dxe5 5. Qxd8+ Kxd8 6. Nf3 Nfd7 7. g4 Na6
+8. Bd2 Bd6 9. O-O-O f6 10. g5 Nb6 11. gxf6 gxf6 12. b3 Ke7 13. Kb2 Bf5 14. Nh4
+Be6 15. Bg2 Nc5 16. Be3 Rhg8 17. Ne4 Nbd7 18. Ng3 Kf7 19. Bd5 Bxd5 20. Rxd5
+Rgd8 21. Nhf5 Bf8 22. Rhd1 Ke6 23. b4 Na4+ 24. Kb3 Nab6 25. R5d2 c5 26. b5 a6
+27. Nd6 axb5 28. Nxb5 Rdc8 29. Nd6 Rc6 30. Nb5 Be7 31. Ne4 Ra4 32. Ned6 Rb4+
+33. Kc3 Na4+ 34. Kd3 Bxd6 35. Ke4 Rxc4+ 36. Kf3 Rd4 37. Bxd4 cxd4 38. e3 Nc3
+39. exd4 e4+ 40. Kg2 Nd5 41. Re1 f5 42. a3 Bf4 43. Rb2 b6 44. Rb3 Rc2 45. Kg1
+N7f6 46. Rh3 h6 47. a4 Ng4 48. f3 Be3+ 0-1
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.16"]
+[Round "4"]
+[White "Rizouk, Aimen"]
+[Black "Anuj, Shrivatri"]
+[Result "1-0"]
+[ECO "C08"]
+[WhiteElo "2472"]
+[BlackElo "1920"]
+[PlyCount "83"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Nd2 a6 4. Ngf3 c5 5. dxc5 Bxc5 6. exd5 exd5 7. Nb3 Bb6 8.
+Bg5 Ne7 9. Bd3 Nbc6 10. O-O O-O 11. Re1 f6 12. Be3 Bg4 13. Bxb6 Qxb6 14. Be2
+Bh5 15. Qd2 Rfd8 16. Rad1 Bf7 17. Nfd4 Ne5 18. c3 N7c6 19. Bf1 Nc4 20. Qc1 Re8
+21. Nf5 N6e5 22. Ne3 Rad8 23. Rd4 a5 24. Nxc4 Nxc4 25. Rdd1 Rxe1 26. Rxe1 Nxb2
+27. Qxb2 a4 28. Re7 axb3 29. Qxb3 Qxb3 30. axb3 Rc8 31. Rxb7 Kf8 32. b4 Rxc3
+33. f3 Rc2 34. b5 Rb2 35. Bd3 Bg6 36. Bxg6 hxg6 37. Kf1 g5 38. h3 d4 39. b6 d3
+40. Ke1 Rxg2 41. Rc7 Rb2 42. b7 1-0
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.17"]
+[Round "5"]
+[White "Anuj, Shrivatri"]
+[Black "Meertens, Martin"]
+[Result "1/2-1/2"]
+[ECO "E12"]
+[WhiteElo "1920"]
+[BlackElo "2123"]
+[PlyCount "38"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. a3 Bb7 5. Nc3 d5 6. cxd5 exd5 7. g3 Be7 8. Qa4+
+c6 9. Ne5 Nfd7 10. Nd3 O-O 11. Bg2 Bf6 12. e3 Na6 13. O-O Nc7 14. Rd1 Re8 15.
+Nf4 Nf8 16. e4 Nfe6 17. exd5 cxd5 18. Nxe6 Nxe6 19. Be3 Qd6 1/2-1/2
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.18"]
+[Round "6"]
+[White "Guix Torres, David"]
+[Black "Anuj, Shrivatri"]
+[Result "1/2-1/2"]
+[ECO "B08"]
+[WhiteElo "2055"]
+[BlackElo "1920"]
+[PlyCount "55"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 g6 3. Nc3 Bg7 4. e4 d6 5. Be3 c6 6. Qd2 Qa5 7. Bd3 Bg4 8. Ng1
+e5 9. f3 Be6 10. Nge2 Nbd7 11. a3 a6 12. g4 h6 13. h3 d5 14. f4 dxe4 15. Nxe4
+Qxd2+ 16. Kxd2 Nxe4+ 17. Bxe4 Nf6 18. Bf3 exd4 19. Bxd4 O-O-O 20. Ke1 h5 21. g5
+Ne8 22. Rd1 Bc4 23. c3 Bxe2 24. Kxe2 Bxd4 25. Rxd4 Rxd4 26. cxd4 Nc7 27. Be4
+Re8 28. Kf3 1/2-1/2
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.19"]
+[Round "7"]
+[White "Anuj, Shrivatri"]
+[Black "Boixader Arbo, Xavier"]
+[Result "1-0"]
+[ECO "E90"]
+[WhiteElo "1920"]
+[BlackElo "2099"]
+[PlyCount "55"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. h3 e5 7. d5 Nh5 8. Nh2 Qe8
+9. Be2 Nf4 10. Bf3 f5 11. g3 Nxh3 12. Bg2 Qf7 13. Qf3 f4 14. Bxh3 Bxh3 15. g4
+Bxg4 16. Qxg4 Na6 17. Bd2 Nc5 18. Ke2 a5 19. Rag1 Rfd8 20. Nf3 Bf6 21. Ng5 Bxg5
+22. Qxg5 c6 23. f3 b5 24. dxc6 Qxc4+ 25. Kd1 Nd3 26. Rxh7 Nxb2+ 27. Kc2 Qd3+
+28. Kc1 1-0
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.20"]
+[Round "8"]
+[White "Martinez, Ayelen"]
+[Black "Anuj, Shrivatri"]
+[Result "1-0"]
+[ECO "C11"]
+[WhiteElo "2279"]
+[BlackElo "1920"]
+[PlyCount "45"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6 7. Be3 Qb6 8. Na4
+Qa5+ 9. c3 cxd4 10. b4 Nxb4 11. cxb4 Bxb4+ 12. Bd2 Bxd2+ 13. Nxd2 O-O 14. Bd3
+b5 15. Nb2 Nb6 16. O-O Nc4 17. Nf3 Nxb2 18. Bxh7+ Kxh7 19. Ng5+ Kg6 20. Qg4 f6
+21. Nxe6+ Kf7 22. Qxg7+ Kxe6 23. f5+ 1-0
+
+[Event "Barcelona Sant Marti op-A 19th"]
+[Site "Barcelona"]
+[Date "2017.07.21"]
+[Round "9.53"]
+[White "Anuj, Shrivatri"]
+[Black "Fuentes Godoy, Lilia Ivonne"]
+[Result "1/2-1/2"]
+[ECO "A90"]
+[WhiteElo "1920"]
+[BlackElo "2069"]
+[PlyCount "107"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 e6 3. Nf3 c6 4. g3 f5 5. Bg2 Bd6 6. O-O Nf6 7. b3 Qe7 8. Nbd2
+O-O 9. Bb2 a5 10. Ne5 Nbd7 11. Ndf3 Ne4 12. Nd3 b6 13. Nfe5 Bb7 14. Rc1 Rac8
+15. Re1 Rfd8 16. e3 Bxe5 17. dxe5 dxc4 18. bxc4 Ndc5 19. Ba3 Rc7 20. Bf1 Qf7
+21. Nxc5 Rxd1 22. Rexd1 Qe8 23. Nxe4 fxe4 24. Bd6 Rd7 25. c5 bxc5 26. Rxc5 Qh5
+27. Rd2 a4 28. Bg2 Qf5 29. Rc4 c5 30. Rxc5 g5 31. Rc4 a3 32. Rc3 Rd8 33. Rxa3
+Rc8 34. h3 g4 35. h4 Rc1+ 36. Kh2 Bd5 37. Ra7 Rc8 38. Rb2 Qh5 39. a4 Qe8 40.
+Ra6 Qd7 41. Bf1 Rc1 42. Rb8+ Kg7 43. Bb5 Bc6 44. Bf8+ Kg6 45. Rxc6 Rxc6 46. Rb6
+Qf7 47. Bxc6 Qxf2+ 48. Kh1 Qf1+ 49. Kh2 Qf2+ 50. Kh1 Qf3+ 51. Kh2 Qe2+ 52. Kh1
+Qe1+ 53. Kh2 Qf2+ 54. Kh1 1/2-1/2
+
+[Event "Badalona op 43rd"]
+[Site "Badalona"]
+[Date "2017.08.02"]
+[Round "1"]
+[White "Anuj, Shrivatri"]
+[Black "Ortiz Suarez, Isan Reynaldo"]
+[Result "0-1"]
+[ECO "A61"]
+[WhiteElo "2209"]
+[BlackElo "2556"]
+[PlyCount "70"]
+[EventDate "2017.08.02"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 c5 3. d5 a6 4. a4 e6 5. Nc3 exd5 6. cxd5 d6 7. Nf3 g6 8. Bg5
+Bg7 9. e3 h6 10. Bh4 O-O 11. Nd2 Nbd7 12. Be2 Re8 13. O-O Rb8 14. Qc2 Ne5 15.
+h3 Qc7 16. f4 Ned7 17. e4 c4 18. e5 dxe5 19. fxe5 Rxe5 20. Bg3 b5 21. axb5 axb5
+22. Kh2 Qb6 23. Rab1 Nxd5 24. Nxd5 Rxd5 25. Bf3 Rg5 26. Bxb8 Qxb8+ 27. Kh1 Nc5
+28. Rbe1 Bf5 29. Ne4 Qf4 30. Qd2 Qxd2 31. Nxd2 Be6 32. h4 Re5 33. Ne4 Nd3 34.
+Re2 Nxb2 35. Rxb2 Rxe4 0-1

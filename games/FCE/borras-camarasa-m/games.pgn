@@ -1,0 +1,299 @@
+[Event "Lleida indiv. B ch"]
+[Site "?"]
+[Date "2009.10.11"]
+[Round "1.28"]
+[White "Puig Cortina, D."]
+[Black "Borras Camarasa, M."]
+[Result "0-1"]
+[ECO "B31"]
+[WhiteElo "1700"]
+[BlackElo "1821"]
+[PlyCount "52"]
+[EventDate "2009.??.??"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. Bxc6 dxc6 5. O-O Bg7 6. d3 Nf6 7. h3 O-O 8.
+Nc3 Be6 9. Bf4 Nh5 10. Qd2 Nxf4 11. Qxf4 Rc8 12. e5 Qc7 13. Rfe1 f6 14. Qg3 f5
+15. Qf4 Bd5 16. Ng5 h6 17. Nf3 Bxf3 18. Qxf3 e6 19. Qg3 Kh7 20. f4 c4 21. Rad1
+Qb6+ 22. Kh2 Qxb2 23. dxc4 Rcd8 24. Rxd8 Rxd8 25. Re2 Rd4 26. Nd1 Rxd1 0-1
+
+[Event "Lleida indiv. B ch"]
+[Site "?"]
+[Date "2009.10.18"]
+[Round "2.4"]
+[White "Borras Camarasa, M."]
+[Black "Arno Bendicho, A."]
+[Result "1-0"]
+[ECO "B31"]
+[WhiteElo "1821"]
+[BlackElo "1923"]
+[PlyCount "135"]
+[EventDate "2009.??.??"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. O-O Bg7 5. d3 Qb6 6. Bxc6 Qxc6 7. c3 e6 8. Bf4
+Ne7 9. Ne5 Qa6 10. Nd2 d6 11. Nec4 e5 12. Bg5 f6 13. Bh4 g5 14. Qh5+ Ng6 15.
+Bg3 O-O 16. h4 gxh4 17. Bxh4 Nf4 18. Qf3 h5 19. g3 Bg4 20. Qe3 Ng6 21. f3 Be6
+22. Kf2 b5 23. Na3 Rac8 24. c4 b4 25. Nc2 Qa4 26. b3 Qd7 27. a3 a5 28. a4 Kh7
+29. Rh1 Bh6 30. Qe2 Qf7 31. Raf1 Rh8 32. Ke1 Kg7 33. Rf2 Rcg8 34. Nf1 Nxh4 35.
+gxh4 Kh7 36. Rhh2 Rg7 37. Rfg2 Rhg8 38. Nfe3 f5 39. Rxg7+ Rxg7 40. exf5 Bxf5
+41. Nxf5 Qxf5 42. Qe4 Qxe4+ 43. fxe4 Rg1+ 44. Ke2 Rb1 45. Rf2 Bf4 46. Ne3 Rb2+
+47. Kf3 Rxb3 48. Nd5 Rxd3+ 49. Ke2 Rd4 50. Rf1 Rxc4 51. Rg1 Bg3 52. Rxg3 Rxe4+
+53. Kf3 Rg4 54. Nf6+ Kh8 55. Nxg4 hxg4+ 56. Rxg4 b3 57. Ke3 d5 58. Kd2 d4 59.
+Kd3 Kh7 60. Re4 c4+ 61. Kxc4 b2 62. Re1 Kg6 63. Kd3 Kf5 64. Rf1+ Kg4 65. Ke4
+Kxh4 66. Kxe5 d3 67. Ke4 d2 68. Ke3 1-0
+
+[Event "Lleida indiv. B ch"]
+[Site "?"]
+[Date "2009.10.25"]
+[Round "3.6"]
+[White "Paul Cava, J."]
+[Black "Borras Camarasa, M."]
+[Result "1-0"]
+[ECO "E90"]
+[WhiteElo "1883"]
+[BlackElo "1821"]
+[PlyCount "73"]
+[EventDate "2009.??.??"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. Nf3 O-O 5. e4 d6 6. h3 Nc6 7. d5 Nb8 8. Bd3
+Nbd7 9. O-O Nc5 10. Bc2 Bd7 11. Nd4 c6 12. Re1 cxd5 13. exd5 a6 14. b4 e5 15.
+Nde2 Qc8 16. bxc5 Bxh3 17. Ne4 Nxe4 18. Bxe4 f5 19. gxh3 fxe4 20. Ng3 Qxh3 21.
+Rxe4 Rf7 22. Qg4 Qxg4 23. Rxg4 Raf8 24. Be3 dxc5 25. Rb1 Bf6 26. Ne4 h5 27.
+Rxg6+ Kh7 28. Rxf6 Rxf6 29. Nxf6+ Rxf6 30. Rxb7+ Kg6 31. Re7 Rf5 32. d6 Rf6 33.
+Bxc5 h4 34. d7 h3 35. d8=Q Rf5 36. Qg8+ Kh6 37. Rh7# 1-0
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2010.07.19"]
+[Round "1"]
+[White "Aloma Vidal, R."]
+[Black "Borras Camarasa, M."]
+[Result "1-0"]
+[ECO "E91"]
+[WhiteElo "2445"]
+[BlackElo "1610"]
+[PlyCount "43"]
+[EventDate "2010.??.??"]
+[EventRounds "10"]
+
+1. d4 d6 2. Nf3 Nf6 3. c4 g6 4. Nc3 Bg7 5. e4 Bg4 6. Be2 O-O 7. Be3 Nbd7 8. Nd2
+Bxe2 9. Qxe2 c5 10. d5 a6 11. O-O Ne5 12. h3 Nh5 13. g4 Nf6 14. f4 Ned7 15. Nf3
+h5 16. Ng5 Re8 17. Qg2 Nf8 18. e5 dxe5 19. fxe5 N6h7 20. Nxf7 Qc8 21. gxh5 gxh5
+22. Bh6 1-0
+
+[Event "Ct. Lleida indiv. B"]
+[Site "?"]
+[Date "2010.10.24"]
+[Round "3.7"]
+[White "Cardona Marin, W."]
+[Black "Borras Camarasa, M."]
+[Result "1-0"]
+[ECO "B22"]
+[BlackElo "1596"]
+[PlyCount "83"]
+[EventDate "2010.??.??"]
+[EventRounds "9"]
+
+1. e4 c5 2. c3 d5 3. exd5 Qxd5 4. d4 cxd4 5. cxd4 Nc6 6. Nf3 Bg4 7. Nc3 Qd6 8.
+Nb5 Qe6+ 9. Be3 Rc8 10. d5 Bxf3 11. Qxf3 Qe5 12. dxc6 Qxb2 13. Rd1 bxc6 14.
+Nxa7 Rc7 15. Qe4 Nf6 16. Qd4 Qxd4 17. Bxd4 e5 18. Bb6 Rb7 19. Rd8+ Ke7 20. Nc8+
+Ke6 21. Bc4+ Nd5 22. Bxd5+ cxd5 23. O-O h5 24. Bc5 Rd7 25. Rxf8 Rxf8 26. Bxf8
+Rd8 27. Bxg7 Rxc8 28. Ra1 d4 29. Kf1 d3 30. Bh6 Kd5 31. g3 Ke4 32. a4 Rc7 33.
+a5 f5 34. a6 f4 35. a7 d2 36. a8=Q+ Kf5 37. Rd1 Rc1 38. Ke2 e4 39. Bxf4 h4 40.
+h3 hxg3 41. fxg3 e3 42. Bxe3 1-0
+
+[Event "Ct. Lleida indiv. B"]
+[Site "?"]
+[Date "2010.10.31"]
+[Round "4.10"]
+[White "Borras Camarasa, M."]
+[Black "Ros Monfa, N."]
+[Result "0-1"]
+[ECO "B40"]
+[WhiteElo "1596"]
+[PlyCount "88"]
+[EventDate "2010.??.??"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 e6 3. d4 d5 4. exd5 exd5 5. Bb5+ Nc6 6. O-O a6 7. Bxc6+ bxc6 8.
+Re1+ Be6 9. Ng5 Qf6 10. Qe2 Kd7 11. Nf3 Bd6 12. dxc5 Bxc5 13. Be3 Bxe3 14. Qxe3
+Ne7 15. c3 Ng6 16. Nbd2 Rhe8 17. Qd4 Qxd4 18. Nxd4 Rab8 19. Rab1 c5 20. Nxe6
+Rxe6 21. Rxe6 fxe6 22. Nf3 Kd6 23. Kf1 e5 24. b4 cxb4 25. cxb4 Rc8 26. a4 Rc4
+27. b5 axb5 28. axb5 Kc7 29. Ng5 h6 30. Ne6+ Kb6 31. Nxg7 d4 32. g3 e4 33. Ke2
+Rc2+ 34. Ke1 Ne5 35. h4 Nf3+ 36. Kd1 Rxf2 37. Nf5 Rd2+ 38. Kc1 e3 39. Nd6 Rg2
+40. Nc4+ Kc5 41. b6 e2 42. Kb2 e1=Q+ 43. Ka1 Qc3+ 44. Nb2 Qa3# 0-1
+
+[Event "Ct. Lleida indiv. B"]
+[Site "?"]
+[Date "2010.11.21"]
+[Round "7.4"]
+[White "Vidal Rosell, J."]
+[Black "Borras Camarasa, M."]
+[Result "1-0"]
+[ECO "B21"]
+[WhiteElo "1907"]
+[BlackElo "1596"]
+[PlyCount "75"]
+[EventDate "2010.??.??"]
+[EventRounds "9"]
+
+1. e4 c5 2. f4 Nc6 3. Nf3 g6 4. Bc4 Bg7 5. O-O d6 6. c3 Nf6 7. Qe2 Bg4 8. e5
+Nh5 9. Bxf7+ Kxf7 10. Ng5+ Ke8 11. Qxg4 dxe5 12. fxe5 Nxe5 13. Qe4 Rb8 14. Ne6
+Qd6 15. Nxg7+ Nxg7 16. d4 cxd4 17. cxd4 Nc6 18. Bf4 Qxd4+ 19. Qxd4 Nxd4 20.
+Bxb8 Nc2 21. Na3 Nxa1 22. Bxa7 Rf8 23. Rxa1 Ne6 24. Rf1 Nf4 25. Rf2 h5 26. Nc4
+h4 27. Ne5 h3 28. g3 Ng2 29. Rxf8+ Kxf8 30. Nxg6+ Kg7 31. Nf4 Ne1 32. Bd4+ Kf7
+33. Kf2 Nc2 34. Bc3 e5 35. Nxh3 Nd4 36. Bxd4 exd4 37. Kf3 Ke6 38. Ke4 1-0
+
+[Event "Ct. Lleida indiv. B"]
+[Site "?"]
+[Date "2010.11.28"]
+[Round "8.10"]
+[White "Borras Camarasa, M."]
+[Black "Font Garcia, X."]
+[Result "1-0"]
+[ECO "A02"]
+[WhiteElo "1596"]
+[PlyCount "93"]
+[EventDate "2010.??.??"]
+[EventRounds "9"]
+
+1. f4 Nf6 2. Nf3 d6 3. e3 c5 4. Bb5+ Nc6 5. b3 Bd7 6. Bb2 e6 7. O-O Be7 8. Qe1
+Nb4 9. Bxd7+ Qxd7 10. Na3 d5 11. Qg3 O-O 12. Ne5 Qd8 13. f5 Bd6 14. fxe6 fxe6
+15. Qh3 Qe7 16. Nb5 Nxc2 17. Rac1 Nb4 18. Nxd6 Qxd6 19. Rxc5 Qxc5 20. Qxe6+ Kh8
+21. Nf7+ Rxf7 22. Qxf7 Rf8 23. Qxb7 Nd3 24. Bd4 Qa5 25. Qe7 Qb4 26. Qxa7 Qxd2
+27. Qe7 Qb4 28. Qd6 Nc5 29. Qxd5 Nce4 30. Qc6 Qd6 31. Qb7 Re8 32. Qf7 Qd7 33.
+Qxd7 Nxd7 34. Rf7 Ndf6 35. Rc7 Ra8 36. a4 Nd2 37. Rb7 Kg8 38. b4 Rxa4 39. b5
+Nde4 40. h3 Rb4 41. b6 Rb1+ 42. Kh2 Nd6 43. Rc7 Nfe8 44. Rd7 Rb3 45. Bc5 Ne4
+46. Bd4 Kf8 47. b7 1-0
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2011.07.17"]
+[Round "1"]
+[White "Iagar, RG."]
+[Black "Borras Camarasa, M."]
+[Result "1-0"]
+[ECO "E65"]
+[WhiteElo "2162"]
+[BlackElo "1601"]
+[PlyCount "53"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.07.29"]
+
+1. d4 d6 2. Nf3 g6 3. c4 Nf6 4. g3 Bg7 5. Bg2 O-O 6. O-O Nbd7 7. Nc3 c5 8. d5
+Nb6 9. Nd2 Bd7 10. a4 Rb8 11. h3 Qc8 12. Kh2 a5 13. e4 Na8 14. f4 Nh5 15. Ra3
+Nc7 16. Nf3 e5 17. dxe6 Bxe6 18. Nd5 Bxd5 19. cxd5 Re8 20. Nd2 Nf6 21. Nc4 Nxe4
+22. Bxe4 Rxe4 23. Nxd6 Rd4 24. Nxc8 Rxd1 25. Ne7+ Kf8 26. Rxd1 Kxe7 27. d6+ 1-0
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2011.07.18"]
+[Round "2"]
+[White "Borras Camarasa, M."]
+[Black "Puig Carres, J."]
+[Result "1-0"]
+[ECO "C01"]
+[WhiteElo "1601"]
+[BlackElo "1838"]
+[PlyCount "75"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.07.29"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. Nf3 Bg4 5. c3 Be7 6. Bd3 Nf6 7. Bg5 h6 8.
+Bxf6 Bxf6 9. Nbd2 O-O 10. O-O c6 11. Re1 Qc7 12. Qc2 Nd7 13. Re3 Rae8 14. Rae1
+Rxe3 15. Rxe3 Qb8 16. Bf5 Bxf5 17. Qxf5 Qd8 18. Ne5 Bxe5 19. dxe5 Re8 20. e6
+fxe6 21. Rxe6 Rf8 22. Qg4 Nf6 23. Qe2 Rf7 24. Nb3 Qb6 25. Qe3 Qa6 26. Rd6 Qxa2
+27. Rd8+ Kh7 28. Nd2 Qa1+ 29. Nf1 Ne4 30. f3 Nf6 31. Qe6 Kg6 32. h4 h5 33. Qe5
+Qxb2 34. Rh8 Qc1 35. f4 Ne4 36. Qxh5+ Kf6 37. Qe5+ Kg6 38. h5# 1-0
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2011.07.19"]
+[Round "3"]
+[White "Torner Planell, J."]
+[Black "Borras Camarasa, M."]
+[Result "1-0"]
+[ECO "A49"]
+[WhiteElo "1935"]
+[BlackElo "1601"]
+[PlyCount "53"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.07.29"]
+
+1. d4 d6 2. Nf3 g6 3. g3 Bg7 4. Bg2 Nf6 5. O-O O-O 6. a4 Nbd7 7. a5 Rb8 8. Nc3
+a6 9. h3 b6 10. Nd2 bxa5 11. Nc4 Bb7 12. d5 c6 13. dxc6 Bxc6 14. Bxc6 Qc7 15.
+Nxa5 Nh5 16. Nd5 Qd8 17. c3 e6 18. Nf4 Ndf6 19. Nxh5 Nxh5 20. Bg2 Qb6 21. Kh2
+f5 22. Bf3 f4 23. g4 Nf6 24. Nc6 Rb7 25. Qxd6 Kh8 26. Qd3 Qc7 27. Rxa6 1-0
+
+[Event "Balaguer op"]
+[Site "?"]
+[Date "2011.07.20"]
+[Round "4"]
+[White "Borras Camarasa, M."]
+[Black "Subarroca Blanch, F."]
+[Result "0-1"]
+[ECO "B00"]
+[WhiteElo "1601"]
+[BlackElo "1880"]
+[PlyCount "110"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+[Source "Chessbase"]
+[SourceDate "2011.07.29"]
+
+1. e4 b6 2. d4 Bb7 3. Nc3 Nf6 4. e5 Nd5 5. Nxd5 Bxd5 6. Nf3 h6 7. c4 Bb7 8. Bd3
+e6 9. Bd2 Be7 10. O-O O-O 11. b4 a6 12. a4 Bxf3 13. Qxf3 Nc6 14. Bxh6 gxh6 15.
+Qe4 f5 16. exf6 Rxf6 17. Qh7+ Kf8 18. Bg6 Rxg6 19. Qxg6 Bf6 20. Qxh6+ Bg7 21.
+Qf4+ Kg8 22. Rad1 Nxb4 23. d5 e5 24. Qe4 Qf6 25. d6 c6 26. f4 Rf8 27. fxe5 Qxe5
+28. Rxf8+ Kxf8 29. Qh4 Qe3+ 30. Kh1 Qe6 31. Qd8+ Kf7 32. Qxb6 Qxc4 33. Qf2+ Bf6
+34. Qf5 Qe6 35. Qxe6+ Kxe6 36. g4 Nd5 37. Re1+ Kxd6 38. Kg2 c5 39. Kg3 Be5+ 40.
+Kg2 c4 41. h4 c3 42. Kf3 c2 43. Rc1 Nb4 44. g5 Bb2 45. g6 Ke7 46. Rxc2 Nxc2 47.
+Ke4 Bg7 48. Kd5 Ne3+ 49. Kc5 a5 50. Kb5 Bc3 51. h5 Nf5 52. Kc4 Bb4 53. Kd5 Kf6
+54. Ke4 Ng3+ 55. Kd5 Nxh5 0-1
+
+[Event "Ct. Lleida indiv. Absolut B"]
+[Site "?"]
+[Date "2011.10.16"]
+[Round "3.9"]
+[White "Borras Camarasa, M."]
+[Black "Sole Gonzalez, E."]
+[Result "1/2-1/2"]
+[ECO "C41"]
+[WhiteElo "1631"]
+[PlyCount "121"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+
+1. e4 e5 2. Nf3 d6 3. Bc4 Nf6 4. Ng5 d5 5. exd5 Bd6 6. O-O O-O 7. d3 Be7 8. Nc3
+h6 9. Nf3 Nbd7 10. Re1 Bd6 11. Be3 Ng4 12. Qd2 Nxe3 13. Rxe3 f5 14. Re2 a6 15.
+a4 b6 16. Rae1 Bb7 17. h3 Rf6 18. Nh4 Qe8 19. f4 Qh5 20. fxe5 Nxe5 21. Nf3
+Nxf3+ 22. gxf3 Qxf3 23. Re6 Bc5+ 24. d4 Qg3+ 25. Kh1 Rxe6 26. Rxe6 Qxh3+ 27.
+Kg1 Qg4+ 28. Kf1 Bxd4 29. d6 Qg1+ 30. Ke2 Qg2+ 31. Kd1 Bxc3 32. Qxg2 Bxg2 33.
+Re8+ Kh7 34. Rxa8 Bxa8 35. dxc7 Bb7 36. Be6 Bxb2 37. Bxf5+ g6 38. c8=Q Bxc8 39.
+Bxc8 a5 40. Ke2 Kg7 41. Kf3 Kf6 42. Kg4 h5+ 43. Kh4 Bc3 44. Bd7 Be1+ 45. Kh3 g5
+46. Be8 h4 47. Bh5 Ke5 48. Bg4 Kd4 49. Bf5 Kc3 50. Kg4 Bd2 51. Kh3 Kd4 52. Bc8
+Ke3 53. Bd7 Kf4 54. Bc8 Be3 55. Bd7 Bf2 56. c4 Kf3 57. Bg4+ Ke3 58. Bd7 Bg3 59.
+Kg4 Bf4 60. Kh3 Kf2 61. Bg4 1/2-1/2
+
+[Event "Ct. Lleida indiv. Absolut B"]
+[Site "?"]
+[Date "2011.11.06"]
+[Round "6.9"]
+[White "Boldu Quiros, J."]
+[Black "Borras Camarasa, M."]
+[Result "1-0"]
+[ECO "B30"]
+[BlackElo "1631"]
+[PlyCount "49"]
+[EventDate "2011.??.??"]
+[EventType "swiss"]
+
+1. e4 c5 2. Nf3 Nc6 3. c3 d5 4. exd5 Qxd5 5. d3 Bg4 6. Be2 Nf6 7. h3 Bf5 8. d4
+cxd4 9. Nxd4 Nxd4 10. Qxd4 Qxg2 11. Rf1 Bxh3 12. Be3 Bg4 13. f3 Bh3 14. Rg1 Qh2
+15. Bf4 Rd8 16. Bb5+ Bd7 17. Bxh2 Bxb5 18. Qxa7 Nd5 19. Na3 Ba6 20. O-O-O g6
+21. Qc5 Bh6+ 22. f4 Nxf4 23. Rxd8+ Kxd8 24. Qd4+ Kc8 25. Qxh8+ 1-0

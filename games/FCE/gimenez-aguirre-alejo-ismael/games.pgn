@@ -1,0 +1,162 @@
+[Event "Lliga Catalana DH"]
+[Site "lichess.org"]
+[Date "2026.01.31"]
+[Round "3.5"]
+[White "Gimenez Aguirre, Alejo Ismael"]
+[Black "Gonzalez Garcia, Marc"]
+[Result "1/2-1/2"]
+[ECO "B40"]
+[WhiteElo "2279"]
+[BlackElo "2095"]
+[PlyCount "109"]
+
+1. e4 c5 2. Nf3 e6 3. Nc3 Nc6 4. Bb5 Nd4 5. Bd3 a6 6. O-O Nc6 7. Re1 d6
+8. b3 Nf6 9. Bb2 e5 10. Nd5 Be7 11. c3 O-O 12. Rc1 Nxd5 13. exd5 Nb8 14. Bb1 f5
+15. d4 cxd4 16. cxd4 e4 17. Nd2 Bg5 18. Rc3 Nd7 19. f3 e3 20. Nc4 Nf6 21. Nxe3
+Bxe3+ 22. Rcxe3 Nxd5 23. R3e2 Bd7 24. Qd2 b6 25. Bd3 b5 26. Rc1 Rc8 27. Rxc8
+Bxc8 28. a4 Bd7 29. g3 g6 30. axb5 axb5 31. Re1 Re8 32. Rxe8+ Bxe8 33. Kf2 Bc6
+34. Bf1 Kg7 35. Bc1 Kg8 36. h4 f4 37. Qe2 Qf6 38. Bh3 Qxd4+ 39. Kg2 Ne3+ 40.
+Kh2 Qc3 41. Bd2 Bxf3 42. Qf2 Qd3 43. Be6+ Kf8 44. Qxf3 Qf1 45. Qa8+ Ke7 46.
+Bxe3 fxe3 47. Bg4 Qd3 48. Qb7+ Kf6 49. Qxh7 Qd2+ 50. Kh3 e2 51. Qh8+ Kf7 52.
+Qh7+ Kf6 53. Qh8+ Kf7 54. Qh7+ Kf6 55. Qh8+ 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.02.07"]
+[Round "4.5"]
+[White "Cesar Maestre, Bernardo"]
+[Black "Gimenez Aguirre, Alejo Ismael"]
+[Result "1-0"]
+[TimeControl "90min + 30sec"]
+[WhiteTitle "IM"]
+[BlackTitle "IM"]
+[WhiteElo "2378"]
+[BlackElo "2255"]
+
+1. e4 {[%clk 01:30:56]} {[%emt 00:00:03]} c5 {[%clk 01:29:58]} {[%emt
+00:01:02]} 2. Nf3 {[%clk 01:31:15]} {[%emt 00:00:11]} g6 {[%clk 01:29:49]}
+{[%emt 00:00:40]} 3. c3 {[%clk 01:31:40]} {[%emt 00:00:05]} Bg7 {[%clk
+01:29:49]} {[%emt 00:00:30]} 4. d4 {[%clk 01:32:04]} {[%emt 00:00:06]} cxd4
+{[%clk 01:30:01]} {[%emt 00:00:18]} 5. cxd4 {[%clk 01:32:30]} {[%emt 00:00:04]}
+d5 {[%clk 01:30:23]} {[%emt 00:00:08]} 6. e5 {[%clk 01:32:56]} {[%emt
+00:00:04]} Nc6 {[%clk 01:28:42]} {[%emt 00:02:11]} 7. h3 {[%clk 01:32:23]}
+{[%emt 00:01:03]} f6 {[%clk 01:26:54]} {[%emt 00:02:18]} 8. Bb5 {[%clk
+01:26:47]} {[%emt 00:06:06]} Bd7 {[%clk 01:24:03]} {[%emt 00:03:21]} 9. O-O
+{[%clk 01:23:08]} {[%emt 00:04:08]} fxe5 {[%clk 01:02:31]} {[%emt 00:22:02]} 10.
+Bxc6 {[%clk 01:22:11]} {[%emt 00:01:28]} Bxc6 {[%clk 01:00:30]} {[%emt
+00:02:31]} 11. Nxe5 {[%clk 01:19:05]} {[%emt 00:03:35]} Bxe5 {[%clk 00:59:01]}
+{[%emt 00:02:00]} 12. dxe5 {[%clk 01:19:28]} {[%emt 00:00:06]} d4 {[%clk
+00:59:26]} {[%emt 00:00:05]} 13. Qg4 {[%clk 01:10:47]} {[%emt 00:09:12]} Qb6
+{[%clk 00:51:31]} {[%emt 00:08:25]} 14. Rd1 {[%clk 01:02:47]} {[%emt 00:08:30]}
+Rd8 {[%clk 00:50:59]} {[%emt 00:01:02]} 15. Na3 {[%clk 01:01:51]} {[%emt
+00:01:26]} Rd5 {[%clk 00:49:57]} {[%emt 00:01:32]} 16. Nc4 {[%clk 00:55:12]}
+{[%emt 00:07:09]} Qd8 {[%clk 00:35:08]} {[%emt 00:15:19]} 17. Bf4 {[%clk
+00:38:23]} {[%emt 00:17:19]} Kf8 {[%clk 00:32:15]} {[%emt 00:03:24]} 18. Rd3
+{[%clk 00:33:48]} {[%emt 00:05:04]} Kg7 {[%clk 00:31:36]} {[%emt 00:01:08]} 19.
+Rad1 {[%clk 00:31:10]} {[%emt 00:03:09]} h5 {[%clk 00:31:31]} {[%emt 00:00:35]}
+20. Qh4 {[%clk 00:23:41]} {[%emt 00:07:58]} Bb5 {[%clk 00:26:50]} {[%emt
+00:05:11]} 21. b3 {[%clk 00:22:53]} {[%emt 00:01:19]} Kh7 {[%clk 00:22:36]}
+{[%emt 00:04:43]} 22. R3d2 {[%clk 00:18:24]} {[%emt 00:05:00]} Bc6 {[%clk
+00:19:55]} {[%emt 00:03:11]} 23. a4 {[%clk 00:13:54]} {[%emt 00:05:00]} a6
+{[%clk 00:19:27]} {[%emt 00:00:58]} 24. a5 {[%clk 00:12:01]} {[%emt 00:02:23]}
+d3 {[%clk 00:13:50]} {[%emt 00:06:07]} 25. Qg3 {[%clk 00:11:38]} {[%emt
+00:00:52]} e6 {[%clk 00:12:29]} {[%emt 00:01:52]} 26. Bg5 {[%clk 00:10:37]}
+{[%emt 00:01:31]} Qc7 {[%clk 00:12:05]} {[%emt 00:00:55]} 27. Qf4 {[%clk
+00:10:14]} {[%emt 00:00:53]} Rd7 {[%clk 00:10:45]} {[%emt 00:01:50]} 28. Nd6
+{[%clk 00:09:26]} {[%emt 00:01:18]} Qxa5 {[%clk 00:10:01]} {[%emt 00:01:15]} 29.
+Rxd3 {[%clk 00:09:12]} {[%emt 00:00:43]} Rg7 {[%clk 00:10:12]} {[%emt
+00:00:19]} 30. Nf7 {[%clk 00:09:15]} {[%emt 00:00:26]} Qc7 {[%clk 00:08:38]}
+{[%emt 00:02:05]} 31. Nxh8 {[%clk 00:09:30]} {[%emt 00:00:14]} Kxh8 {[%clk
+00:09:07]} {[%emt 00:00:02]} 32. Rd8 {[%clk 00:07:28]} {[%emt 00:02:31]} Rf7
+{[%clk 00:07:38]} {[%emt 00:02:00]} 33. Bf6+ {[%clk 00:07:04]} {[%emt
+00:00:54]} Kh7 {[%clk 00:08:01]} {[%emt 00:00:07]} 34. Rxg8 {[%clk 00:07:03]}
+{[%emt 00:00:31]} Kxg8 {[%clk 00:08:01]} {[%emt 00:00:29]} 35. Qh6 {[%clk
+00:07:26]} {[%emt 00:00:07]} Rxf6 {[%clk 00:08:00]} {[%emt 00:00:32]} 36. exf6
+{[%clk 00:07:51]} {[%emt 00:00:04]} Be8 {[%clk 00:08:27]} {[%emt 00:00:03]} 37.
+Rd8 {[%clk 00:08:09]} {[%emt 00:00:12]} Qc1+ {[%clk 00:08:53]} {[%emt
+00:00:04]} 38. Qxc1 {[%clk 00:08:31]} {[%emt 00:00:09]} 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.02.21"]
+[Round "6.5"]
+[White "Gimenez Aguirre, Alejo Ismael"]
+[Black "Dominguez Pons, Eric"]
+[Result "0-1"]
+[ECO "B56"]
+[WhiteElo "2255"]
+[BlackElo "2333"]
+[PlyCount "96"]
+[EventDate "2026.01.17"]
+
+1. e4 c5 2. Nf3 d6 3. d4 Nf6 4. Nc3 cxd4 5. Nxd4 e5 6. Nf3 Be7 7. Bg5 Be6 8.
+Bxf6 Bxf6 9. Qd2 Nc6 10. Be2 O-O 11. O-O Qb6 12. Rfd1 Rfd8 13. Nd5 Bxd5 14.
+exd5 Nd4 15. c3 Nxf3+ 16. Bxf3 a5 17. a4 g6 18. Be4 Bg7 19. g4 Rf8 20. Kh1 Qd8
+21. Rg1 Bf6 22. c4 Bg5 23. Qd3 Qb6 24. Kg2 Kg7 25. Ra3 Qc7 26. Kf1 Rac8 27. Rc3
+Qd7 28. Qc2 Rh8 29. Rgg3 Bf4 30. Rg2 Qe7 31. Qb3 h5 32. gxh5 Rxh5 33. h3 f5 34.
+Bc2 e4 35. Bd1 Rh7 36. Qb6 Rc5 37. Be2 Kf6 38. Rb3 g5 39. Qa7 e3 40. Qb8 Rc7
+41. fxe3 Bxe3 42. Rg3 Bf4 43. Rgf3 Kg7 44. Bd3 Rh8 45. Qa7 b5 46. Qb6 bxc4 47.
+Rc3 Re8 48. Bxc4 Rxc4 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "https://lichess.org/broadcast/"]
+[Date "2026.02.28"]
+[Round "7.3"]
+[White "Bogdanov, Artyom"]
+[Black "Gimenez Aguirre, Alejo Ismael"]
+[Result "1-0"]
+[ECO "B10"]
+[WhiteElo "2405"]
+[BlackElo "2255"]
+[PlyCount "87"]
+[EventDate "2026.01.24"]
+
+1. e4 c6 2. Nf3 d5 3. Nc3 Nf6 4. e5 Ne4 5. Ne2 Qb6 6. d4 c5 7. dxc5 Qxc5 8.
+Ned4 Nc6 9. c3 Nxd4 10. Qxd4 Bd7 11. Be3 Qxd4 12. Nxd4 Rc8 13. Nb3 b6 14. Ba6
+Rc7 15. Nd4 Nc5 16. Be2 e6 17. Nb5 Rb7 18. b4 Na4 19. Bd4 Be7 20. Nd6+ Bxd6 21.
+exd6 f6 22. f4 b5 23. g4 O-O 24. Rg1 Rc8 25. g5 f5 26. Rg3 Rc6 27. Be5 Ra6 28.
+g6 h6 29. Rd3 Be8 30. Kd2 Nb6 31. Rd4 Ra4 32. h4 Nc8 33. a3 Rb6 34. c4 bxc4 35.
+Bxc4 Nxd6 36. Bd3 Nb5 37. Rc1 Bxg6 38. Rc8+ Kh7 39. Bxb5 Rxb5 40. Rc7 h5 41.
+Rxg7+ Kh6 42. Rd3 d4 43. Rg3 Bh7 44. Rf7 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.03.07"]
+[Round "8"]
+[Board "5"]
+[White "Fernández Díaz, Cristian"]
+[Black "Gimenez Aguirre, Alejo Ismael"]
+[Result "1-0"]
+[ECO "A00"]
+[WhiteElo "2239"]
+[BlackElo "2236"]
+[PlyCount "1"]
+[GameId "2285743381012562"]
+[WhiteTeam "Mollet"]
+[BlackTeam "Platja d'Aro"]
+
+1. g4 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "Sabadell"]
+[Date "2026.03.21"]
+[Round "10.4"]
+[White "Gimenez Aguirre, Alejo Esmael"]
+[Black "Moskalenko, Viktor"]
+[Result "1/2-1/2"]
+[ECO "C07"]
+[WhiteElo "2316"]
+[BlackElo "2455"]
+[PlyCount "74"]
+[EventDate "2026.03.21"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+[WhiteTeam "Platja d'Aro"]
+[BlackTeam "Colon Sabadell"]
+
+1. e4 e6 2. d4 d5 3. Nd2 c5 4. exd5 Qxd5 5. Ngf3 cxd4 6. Bc4 Qd8 7. O-O Nc6 8.
+Nb3 Nf6 9. Nfxd4 Nxd4 10. Nxd4 Bc5 11. c3 O-O 12. Qe2 Bxd4 13. cxd4 Qxd4 14.
+Rd1 Qe4 15. Be3 Nd5 16. Rd4 Qe5 17. Bxd5 exd5 18. Qb5 a6 19. Qb6 Qe6 20. Qc7
+Qc6 21. Rc1 Qxc7 22. Rxc7 b5 23. Kf1 Be6 24. Ke1 Rfc8 25. Rxc8+ Rxc8 26. Kd2 f6
+27. a4 Kf7 28. axb5 axb5 29. Rb4 Bd7 30. Rd4 Bc6 31. Kc3 Ke6 32. Kb4 Bd7 33. b3
+Rc2 34. Rd1 Bc6 35. Bd4 h5 36. Re1+ Kf7 37. h4 Bd7 1/2-1/2

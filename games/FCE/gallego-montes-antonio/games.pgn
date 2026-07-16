@@ -1,0 +1,572 @@
+[Event "Vilafranca del Penedes op 11th"]
+[Site "Vilafranca del Penedes"]
+[Date "2017.04.07"]
+[Round "2"]
+[White "Gual Pascual, Antonio"]
+[Black "Gallego Montes, Antonio"]
+[Result "1-0"]
+[ECO "A40"]
+[WhiteElo "2483"]
+[BlackElo "2057"]
+[PlyCount "39"]
+[EventDate "2017.03.31"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 e6 2. Bf4 f5 3. e3 b6 4. Be2 Bb7 5. Bf3 Bxf3 6. Nxf3 Nf6 7. O-O Bd6 8. c4
+Bxf4 9. exf4 O-O 10. Nc3 c6 11. Re1 Na6 12. g3 Nc7 13. b4 d5 14. c5 Ne4 15. Ne2
+Qe8 16. Ne5 Rf6 17. f3 Rh6 18. fxe4 Qh5 19. h4 dxe4 20. Nc3 1-0
+
+[Event "Vilafranca del Penedes op 11th"]
+[Site "Vilafranca del Penedes"]
+[Date "2017.05.05"]
+[Round "5"]
+[White "Gallego Montes, Antonio"]
+[Black "Martinez Gutierrez, Bernat"]
+[Result "1-0"]
+[ECO "B22"]
+[WhiteElo "2057"]
+[BlackElo "2172"]
+[PlyCount "31"]
+[EventDate "2017.03.31"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nc6 3. c3 d5 4. exd5 Qxd5 5. d4 Bg4 6. Be2 e6 7. Na3 cxd4 8.
+Nb5 Qd7 9. Nbxd4 Nxd4 10. Nxd4 Bxe2 11. Qxe2 Bc5 12. Be3 Ne7 13. Rd1 Nd5 14.
+Nf5 Bxe3 15. Nxe3 O-O-O 16. c4 1-0
+
+[Event "Vilafranca del Penedes op 11th"]
+[Site "Vilafranca del Penedes"]
+[Date "2017.05.12"]
+[Round "6"]
+[White "Lerch Gallemi, Jose Maria"]
+[Black "Gallego Montes, Antonio"]
+[Result "1-0"]
+[ECO "C00"]
+[WhiteElo "2320"]
+[BlackElo "2057"]
+[PlyCount "63"]
+[EventDate "2017.03.31"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 e6 2. e4 d5 3. exd5 exd5 4. cxd5 Nf6 5. Bb5+ Bd7 6. Bc4 Qe7+ 7. Ne2 Qe4
+8. Qb3 b5 9. Bxb5 Qxg2 10. Rg1 Qxh2 11. d3 Bc5 12. Be3 Bxe3 13. fxe3 O-O 14.
+Nbc3 Qh4+ 15. Kd2 c6 16. Bc4 cxd5 17. Nxd5 Nxd5 18. Bxd5 Bc6 19. Qc3 g6 20.
+Bxc6 Nxc6 21. Qxc6 Rfd8 22. Rh1 Qe7 23. Rac1 Rab8 24. b3 Rb6 25. Qc5 Qe4 26.
+Qc4 Qf5 27. Rhf1 Qa5+ 28. Nc3 Rb7 29. Rf4 Rbd7 30. d4 Rc7 31. Qa4 Qg5 32. Ne4
+1-0
+
+[Event "Vilafranca del Penedes op 11th"]
+[Site "Vilafranca del Penedes"]
+[Date "2017.05.19"]
+[Round "7"]
+[White "Gallego Montes, Antonio"]
+[Black "Vilella Bertran, Joan"]
+[Result "1/2-1/2"]
+[ECO "C02"]
+[WhiteElo "2057"]
+[BlackElo "2204"]
+[PlyCount "38"]
+[EventDate "2017.03.31"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Qb6 5. Nf3 Nc6 6. a3 Bd7 7. b4 cxb4 8. cxb4
+Rc8 9. Be2 Nh6 10. O-O Nf5 11. Be3 Be7 12. Bd3 O-O 13. Bxf5 exf5 14. Nc3 Be6
+15. Rc1 a6 16. Qd3 Na7 17. g3 Rc6 18. h4 Rfc8 19. Rfd1 h6 1/2-1/2
+
+[Event "Vilafranca del Penedes op 11th"]
+[Site "Vilafranca del Penedes"]
+[Date "2017.05.26"]
+[Round "8"]
+[White "Canovas Quesada, Joan Josep"]
+[Black "Gallego Montes, Antonio"]
+[Result "1-0"]
+[ECO "B01"]
+[WhiteElo "1996"]
+[BlackElo "2057"]
+[PlyCount "77"]
+[EventDate "2017.03.31"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d4 Nf6 5. Nf3 Nc6 6. d5 Nb4 7. Bb5+ c6 8.
+dxc6 bxc6 9. Bd3 Nxd3+ 10. Qxd3 Ba6 11. Qd4 e6 12. Qa4 Qxa4 13. Nxa4 Ne4 14.
+Ng5 Nxg5 15. Bxg5 f6 16. Be3 Bb5 17. Nc5 Bxc5 18. Bxc5 O-O-O 19. a4 Ba6 20.
+Bxa7 Kb7 21. Bc5 Rd5 22. b4 Rhd8 23. Be3 h6 24. f3 f5 25. Kf2 g5 26. g3 Bc4 27.
+h4 f4 28. gxf4 gxf4 29. Bxf4 Rf5 30. Bxh6 e5 31. Rhg1 e4 32. Rg3 Rd6 33. Bg5
+Re6 34. f4 Rd5 35. Re3 Rd2+ 36. Kg3 Rxc2 37. f5 Re8 38. Rae1 Bd3 39. Rxd3 1-0
+
+[Event "Barcelona Primavera La Lira op 10th"]
+[Site "Barcelona"]
+[Date "2017.04.20"]
+[Round "1"]
+[White "Gallego Montes, Antonio"]
+[Black "Alcaraz Salas, Ricard"]
+[Result "1-0"]
+[ECO "C02"]
+[WhiteElo "1916"]
+[BlackElo "1659"]
+[PlyCount "39"]
+[EventDate "2017.04.20"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Be3 Qb6 6. Qd2 cxd4 7. cxd4 Nge7 8. Nc3
+Nf5 9. Nf3 Nxe3 10. fxe3 Bd7 11. Rc1 Bb4 12. Bd3 O-O 13. O-O f5 14. exf6 Rxf6
+15. Ng5 h6 16. Nh7 Rxf1+ 17. Rxf1 Nxd4 18. exd4 Qxd4+ 19. Kh1 Bb5 20. Nxb5 1-0
+
+[Event "Barcelona Primavera La Lira op 10th"]
+[Site "Barcelona"]
+[Date "2017.04.27"]
+[Round "2"]
+[White "Lasanta Rica, Cesar"]
+[Black "Gallego Montes, Antonio"]
+[Result "1-0"]
+[ECO "A90"]
+[WhiteElo "2186"]
+[BlackElo "1916"]
+[PlyCount "69"]
+[EventDate "2017.04.20"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 e6 2. c4 f5 3. g3 Nf6 4. Bg2 c6 5. Nf3 b6 6. O-O Bb7 7. Nc3 Bb4 8. Qc2
+O-O 9. b3 d5 10. Na4 Nbd7 11. Nb2 Ne4 12. Nd3 Bc3 13. Bb2 Bxb2 14. Qxb2 c5 15.
+cxd5 exd5 16. dxc5 bxc5 17. e3 Qa5 18. Rac1 Bc6 19. Rfd1 Rab8 20. Nf4 Ndf6 21.
+Ne5 c4 22. Nxc6 c3 23. Qc2 Qc5 24. Nxb8 Rxb8 25. Bxe4 Nxe4 26. Nxd5 Rc8 27. f3
+Nd2 28. Qxc3 Qxc3 29. Rxc3 Rxc3 30. Nxc3 Nxf3+ 31. Kg2 Ne5 32. h3 h6 33. Nd5
+Kf7 34. Rc1 Nd3 35. Rc7+ 1-0
+
+[Event "Barcelona Primavera La Lira op 10th"]
+[Site "Barcelona"]
+[Date "2017.05.04"]
+[Round "3"]
+[White "Gallego Montes, Antonio"]
+[Black "Navarro Cardenas, Jose Adrian"]
+[Result "1-0"]
+[ECO "C57"]
+[WhiteElo "1916"]
+[BlackElo "1735"]
+[PlyCount "23"]
+[EventDate "2017.04.20"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Ng5 d5 5. exd5 Nxd5 6. Nxf7 Kxf7 7. Qf3+ Ke6
+8. Nc3 Ncb4 9. a3 c6 10. axb4 Bxb4 11. Bxd5+ cxd5 12. Qg4+ 1-0
+
+[Event "Barcelona Primavera La Lira op 10th"]
+[Site "Barcelona"]
+[Date "2017.05.11"]
+[Round "4"]
+[White "Salvany Rius, Joaquim"]
+[Black "Gallego Montes, Antonio"]
+[Result "1-0"]
+[ECO "B01"]
+[WhiteElo "1807"]
+[BlackElo "1916"]
+[PlyCount "81"]
+[EventDate "2017.04.20"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 d5 2. exd5 Qxd5 3. c4 Qe4+ 4. Qe2 Qg6 5. Nf3 Nc6 6. a3 Bg4 7. Qe3 O-O-O
+8. Be2 Bxf3 9. Bxf3 Rd6 10. O-O Nd4 11. Be4 f5 12. Bd3 e5 13. f3 Re6 14. b4 c5
+15. Bb2 Nf6 16. Nc3 Nh5 17. Nd5 Bd6 18. g4 e4 19. bxc5 exd3 20. Qxd4 Be5 21.
+Qxd3 Bxb2 22. Rab1 fxg4 23. Qxg6 Bd4+ 24. Kg2 gxf3+ 25. Rxf3 Rxg6+ 26. Kh3 Bxc5
+27. Rf5 Rf8 28. Rbf1 Rxf5 29. Rxf5 Rh6 30. Kg4 g6 31. Rf7 Bxa3 32. Kg5 Bc1 33.
+Kxh6 Bxd2+ 34. Kxh7 g5 35. Kg6 Nf4+ 36. Nxf4 gxf4 37. h4 a5 38. h5 a4 39. h6 a3
+40. h7 Bc3 41. Rf6 1-0
+
+[Event "Barcelona Gotic op 1st"]
+[Site "Barcelona"]
+[Date "2017.04.25"]
+[Round "1"]
+[White "Tortosa Moros, Joan"]
+[Black "Gallego Montes, Antonio"]
+[Result "1-0"]
+[ECO "C18"]
+[WhiteElo "1590"]
+[BlackElo "1916"]
+[PlyCount "75"]
+[EventDate "2017.04.25"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Qa5 7. Bd2 Qa4 8. Qb1
+c4 9. f4 Nc6 10. Nf3 Nge7 11. Be2 f6 12. O-O Bd7 13. Qb2 O-O-O 14. Rfb1 b6 15.
+Ra2 Kc7 16. Kh1 Rdf8 17. Be3 h5 18. Nh4 Be8 19. Bf3 Ng6 20. Nxg6 Bxg6 21. Bd1
+Be8 22. Bf3 Bg6 23. Bd1 Be8 24. Bf3 h4 25. h3 Bg6 26. Bg4 Kd7 27. Qb5 Qxb5 28.
+Rxb5 Bh5 29. Rxd5+ Ke7 30. Rd6 Nd8 31. Bxh5 Rxh5 32. a4 Rg8 33. a5 Nb7 34. Rc6
+Nxa5 35. Rc7+ Kd8 36. Rxa7 g5 37. Rb2 gxf4 38. Rxb6 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.13"]
+[Round "1"]
+[White "Gallego Montes, Antonio"]
+[Black "Grasa Solanas, Oscar"]
+[Result "1-0"]
+[ECO "D00"]
+[WhiteElo "1908"]
+[BlackElo "1676"]
+[PlyCount "43"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 d5 2. d4 dxe4 3. Nc3 Nf6 4. f3 Bf5 5. Bg5 exf3 6. Qxf3 Qc8 7. Bc4 h6 8.
+Bxf6 gxf6 9. Nge2 Bxc2 10. O-O Bg7 11. Rac1 Bh7 12. Qg3 Rg8 13. Nd5 f5 14. Qxc7
+Nc6 15. Bb5 Kf8 16. Rxc6 Qxc7 17. Rxc7 e6 18. Ne7 Rh8 19. Rfc1 Rd8 20. Rxb7 f4
+21. Rcc7 Bf6 22. Nc6 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.14"]
+[Round "2"]
+[White "Flemming, Klaus"]
+[Black "Gallego Montes, Antonio"]
+[Result "1/2-1/2"]
+[ECO "A84"]
+[WhiteElo "1766"]
+[BlackElo "1908"]
+[PlyCount "58"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. Nf3 e6 2. c4 b6 3. g3 Bb7 4. Bg2 f5 5. O-O Nf6 6. d4 d5 7. Qa4+ Qd7 8. Qxd7+
+Nbxd7 9. Ng5 Ke7 10. Nc3 h6 11. Nh3 g5 12. f4 g4 13. Nf2 Kf7 14. Nd3 c6 15. b3
+Rc8 16. Bb2 Ba6 17. cxd5 Nxd5 18. Nxd5 cxd5 19. Rfc1 Bd6 20. Rxc8 Rxc8 21. Rc1
+Rxc1+ 22. Nxc1 Nb8 23. e3 Bb4 24. Kf2 Nc6 25. Bf1 Bxf1 26. Kxf1 Ke8 27. Ke2 Kd7
+28. Nd3 Bd6 29. Kd2 Nb4 1/2-1/2
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.15"]
+[Round "3"]
+[White "Gallego Montes, Antonio"]
+[Black "Gimenez Canadas, Carlos"]
+[Result "1-0"]
+[ECO "B22"]
+[WhiteElo "1908"]
+[BlackElo "1764"]
+[PlyCount "53"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nc6 3. c3 Nf6 4. e5 Nd5 5. Bc4 Nb6 6. Bb3 d5 7. d4 e6 8. O-O
+cxd4 9. cxd4 Be7 10. Nc3 O-O 11. Bc2 f6 12. Qd3 f5 13. a3 Bd7 14. g4 Qe8 15.
+Kh1 g6 16. Bh6 Rf7 17. Rg1 Bf8 18. gxf5 Rxf5 19. Bxf8 Rxf8 20. Ng5 Ne7 21. Qh3
+Rxf2 22. Qxh7+ Kf8 23. Qh8+ Ng8 24. Raf1 Rxf1 25. Rxf1+ Ke7 26. Qg7+ Kd8 27.
+Rf8 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.16"]
+[Round "4"]
+[White "Robaina Bordon, Hector"]
+[Black "Gallego Montes, Antonio"]
+[Result "1/2-1/2"]
+[ECO "A43"]
+[WhiteElo "1805"]
+[BlackElo "1908"]
+[PlyCount "28"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. d4 c5 2. c3 e5 3. dxe5 Nc6 4. Nf3 Nge7 5. Bg5 h6 6. Bh4 Qb6 7. Qc2 d5 8.
+exd6 Nf5 9. Bg3 Bxd6 10. Nbd2 Be6 11. Bxd6 Nxd6 12. e3 O-O-O 13. Be2 Rhe8 14.
+a4 Kb8 1/2-1/2
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.17"]
+[Round "5"]
+[White "Gallego Montes, Antonio"]
+[Black "Martinez Buendia, Andres"]
+[Result "0-1"]
+[ECO "B50"]
+[WhiteElo "1908"]
+[BlackElo "1804"]
+[PlyCount "80"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. c3 g6 4. d4 cxd4 5. Qxd4 Nf6 6. e5 Nc6 7. Bb5 Nh5 8. Be3
+Bd7 9. Bxc6 Bxc6 10. exd6 Bg7 11. Qb4 Qxd6 12. Qxd6 exd6 13. Nbd2 a5 14. O-O-O
+b5 15. Rhe1 O-O 16. g4 Nf6 17. h3 b4 18. Bd4 bxc3 19. Bxc3 Rfc8 20. Kb1 a4 21.
+Nd4 Nd5 22. Nxc6 Nxc3+ 23. bxc3 Rxc6 24. Ne4 Be5 25. Kc2 f5 26. gxf5 gxf5 27.
+f4 Bxf4 28. Rf1 fxe4 29. Rxf4 Rac8 30. Rg1+ Kh8 31. Rg3 d5 32. Kb2 a3+ 33. Kb3
+Rb6+ 34. Kc2 Rb2+ 35. Kd1 Rxa2 36. Rf5 Rb8 37. Kc1 Ra1+ 38. Kd2 a2 39. Rf7 Rh1
+40. Rgg7 Rh2+ 0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.18"]
+[Round "6"]
+[White "Valdes Centurion, Mario Alberto"]
+[Black "Gallego Montes, Antonio"]
+[Result "1-0"]
+[ECO "C01"]
+[BlackElo "1908"]
+[PlyCount "105"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 d5 2. exd5 Nf6 3. c4 e6 4. Nc3 exd5 5. d4 Nc6 6. Nf3 Bb4 7. Bd3 Be6 8.
+Ng5 dxc4 9. Nxe6 fxe6 10. Bxc4 Qxd4 11. Qxd4 Nxd4 12. O-O O-O-O 13. Bg5 h6 14.
+Bh4 c6 15. a3 Bxc3 16. bxc3 b5 17. cxd4 bxc4 18. Bxf6 gxf6 19. Rfd1 Rd6 20.
+Rac1 Rhd8 21. Rxc4 e5 22. d5 Kc7 23. Rdc1 Rxd5 24. Rxc6+ Kb7 25. Kf1 Rd1+ 26.
+Ke2 R8d2+ 27. Ke3 Rd3+ 28. Ke4 Rxc1 29. Rxc1 Rxa3 30. Rc2 Ra4+ 31. Kf5 Rf4+ 32.
+Kg6 a5 33. g3 Rf3 34. Kxh6 a4 35. h4 a3 36. g4 Rb3 37. Ra2 Kc6 38. g5 fxg5 39.
+hxg5 Rh3+ 40. Kg7 Kd5 41. Kf7 Rh7+ 42. Kf6 Ra7 43. g6 e4 44. g7 Ra6+ 45. Kf7
+Ra7+ 46. Kg8 Kc4 47. Kh8 Ra8+ 48. g8=Q+ Rxg8+ 49. Kxg8 Kb3 50. Re2 a2 51. Re1
+Kb2 52. Kf7 Kc3 53. Ke6 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.19"]
+[Round "7"]
+[White "Gallego Montes, Antonio"]
+[Black "Volart Buil, Jordi"]
+[Result "1-0"]
+[ECO "C40"]
+[WhiteElo "1908"]
+[BlackElo "1754"]
+[PlyCount "125"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Qe7 3. Bc4 c6 4. O-O h6 5. d4 d6 6. h3 Nf6 7. dxe5 dxe5 8. Re1
+Qc7 9. a4 Be7 10. b3 O-O 11. Nh4 Nbd7 12. Nf5 Re8 13. Qf3 Nb6 14. Nxe7+ Qxe7
+15. Ba3 Qc7 16. Bd3 Be6 17. Nd2 Rad8 18. a5 Nbd7 19. Bc4 Nf8 20. Bd3 Ng6 21.
+Bc1 Nf4 22. Bf1 b5 23. axb6 axb6 24. Nc4 b5 25. Nxe5 Qxe5 26. Bxf4 Qh5 27. Be2
+Qxf3 28. Bxf3 Ra8 29. Kf1 Nd7 30. Bd6 Nb6 31. Be2 f6 32. Bd3 g5 33. Bb4 Nd7 34.
+Bc3 Kf7 35. b4 Ra4 36. f3 Rea8 37. Ke2 Nb6 38. Ke3 Bc4 39. Kd4 Rxa1 40. Rxa1
+Rd8+ 41. Ke3 Bxd3 42. Ra7+ Rd7 43. Rxd7+ Nxd7 44. cxd3 Ke6 45. f4 c5 46. bxc5
+Nxc5 47. f5+ Kf7 48. Kd4 Na6 49. g4 b4 50. Bb2 Ke7 51. Kd5 Nb8 52. Kc4 Nd7 53.
+Kxb4 Kd6 54. d4 Kc6 55. e5 Kd5 56. e6 Nb8 57. Kb5 Nc6 58. Kb6 Ne7 59. Kc7 h5
+60. Kd7 hxg4 61. hxg4 Nc6 62. e7 Nb8+ 63. Kc8 1-0
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.20"]
+[Round "8"]
+[White "Calafell Marques, Josep"]
+[Black "Gallego Montes, Antonio"]
+[Result "0-1"]
+[ECO "B01"]
+[WhiteElo "1762"]
+[BlackElo "1908"]
+[PlyCount "94"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d4 Nf6 5. Bd2 Qb6 6. Nf3 Bg4 7. Be2 a6 8.
+Na4 Qc6 9. b3 Nbd7 10. c4 e6 11. Nc3 O-O-O 12. O-O h6 13. a3 g5 14. b4 Bxf3 15.
+gxf3 g4 16. b5 Qd6 17. bxa6 Qxa6 18. c5 Qa8 19. Rc1 h5 20. Nb5 c6 21. Nd6+ Bxd6
+22. cxd6 Nd5 23. Rc4 N7b6 24. Rc5 Kd7 25. f4 Qxa3 26. Ra5 Qxd6 27. f5 Ra8 28.
+fxe6+ fxe6 29. Rxa8 Rxa8 30. Qb1 Rh8 31. f4 gxf3 32. Rxf3 Rg8+ 33. Kh1 Kc8 34.
+Qh7 Rf8 35. Qxh5 Rxf3 36. Qe8+ Kc7 37. Bxf3 Nc4 38. Be1 Qe7 39. Qxe7+ Nxe7 40.
+Be2 Ne3 41. Bf2 N7f5 42. Bd3 Kd6 43. h4 Ng4 44. Bg1 Nxh4 45. Be4 b5 46. Bh2+
+Nxh2 47. Kxh2 Nf5 0-1
+
+[Event "Barcelona Sant Marti op-B 19th"]
+[Site "Barcelona"]
+[Date "2017.07.21"]
+[Round "9"]
+[White "Gallego Montes, Antonio"]
+[Black "Chandrasekhar, MK."]
+[Result "1/2-1/2"]
+[ECO "D00"]
+[WhiteElo "1908"]
+[BlackElo "1794"]
+[PlyCount "46"]
+[EventDate "2017.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. e4 d5 2. d4 dxe4 3. Nc3 Nf6 4. f3 exf3 5. Qxf3 c6 6. h3 e6 7. Bg5 Be7 8.
+O-O-O Nbd7 9. Kb1 Nd5 10. Ne4 N7f6 11. Nc5 b5 12. Bd3 Qb6 13. Qf2 a5 14. Nf3 a4
+15. a3 b4 16. Ka1 h6 17. Bd2 Bd6 18. Rhf1 Ra5 19. Ne5 Rxc5 20. dxc5 Bxc5 21.
+Qg3 bxa3 22. Nc4 axb2+ 23. Kb1 Qa7 1/2-1/2
+
+[Event "Sants Hostafrancs i La Bordeta op"]
+[Site "?"]
+[Date "2005.08.27"]
+[Round "1"]
+[White "Gallego Montes, A."]
+[Black "Borges Mateos, J."]
+[Result "0-1"]
+[ECO "B22"]
+[WhiteElo "2467"]
+[BlackElo "2031"]
+[PlyCount "74"]
+[EventDate "2005.??.??"]
+
+1. e4 c5 2. Nf3 e6 3. c3 d5 4. exd5 Qxd5 5. d4 cxd4 6. cxd4 Nf6 7. Nc3 Qd8 8.
+Bg5 Be7 9. Qb3 O-O 10. Rd1 Nc6 11. Bd3 b6 12. O-O Bb7 13. a3 Na5 14. Qc2 Bxf3
+15. gxf3 Rc8 16. Qe2 Nd5 17. Qe4 g6 18. Bh6 Re8 19. Nxd5 exd5 20. Qf4 Bd6 21.
+Qg5 Nc4 22. Qxd8 Rexd8 23. Bc1 a5 24. a4 Bb4 25. b3 Nd6 26. Be3 Re8 27. Rc1 Ba3
+28. Rxc8 Rxc8 29. Bd2 Bb4 30. Rd1 Bxd2 31. Rxd2 Rc3 32. Bc2 Rxf3 33. Kg2 Rc3
+34. f3 Ne8 35. Kf2 Nc7 36. Bd1 Ne6 37. Kg3 Kg7 0-1
+
+[Event "Vila de Salou op"]
+[Site "?"]
+[Date "2005.05.20"]
+[Round "1.12"]
+[White "Cicak, S."]
+[Black "Gallego Montes, A."]
+[Result "1-0"]
+[ECO "B01"]
+[WhiteElo "2530"]
+[BlackElo "2040"]
+[PlyCount "33"]
+[EventDate "2005.??.??"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd6 4. d4 Nf6 5. Nf3 a6 6. Bd3 Nc6 7. Ne4 Nxe4 8.
+Bxe4 g6 9. O-O Bg7 10. c3 e5 11. Bxc6+ Qxc6 12. Nxe5 Bxe5 13. dxe5 Be6 14. Bg5
+Qd5 15. Qe2 Qc4 16. Qf3 h6 17. Qf6 1-0

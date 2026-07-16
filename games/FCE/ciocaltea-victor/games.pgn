@@ -1,0 +1,117 @@
+[Event "Catalunya - IT Bucharest m"]
+[Site "Platja d'Aro"]
+[Date "1980.??.??"]
+[Round "1.2"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Ciocaltea, Victor"]
+[Result "1/2-1/2"]
+[ECO "A41"]
+[PlyCount "45"]
+[EventDate "1980.09.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. c4 g6 2. Nc3 Bg7 3. Nf3 d6 4. g3 e5 5. d4 Nd7 6. Bg2 Nh6 7. O-O O-O 8. e3 f5
+9. dxe5 dxe5 10. b3 Nf7 11. Bb2 c6 12. Qd2 e4 13. Nd4 Re8 14. Rad1 Nde5 15. h3
+Qg5 16. Nce2 Qh6 17. Bc3 Ng5 18. h4 Ngf7 19. f3 exf3 20. Nxf3 Nxf3+ 21. Rxf3
+Be6 22. Bxg7 Qxg7 23. Rf4 1/2-1/2
+
+[Event "Catalunya - IT Bucharest m"]
+[Site "Platja d'Aro"]
+[Date "1980.??.??"]
+[Round "2.2"]
+[White "Ciocaltea, Victor"]
+[Black "Medina Garcia, Antonio"]
+[Result "1/2-1/2"]
+[ECO "C73"]
+[PlyCount "43"]
+[EventDate "1980.09.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 d6 5. Bxc6+ bxc6 6. d4 f6 7. Nc3 g6 8. Qe2
+Bg7 9. dxe5 fxe5 10. Bg5 Bf6 11. Qc4 Bd7 12. h4 h6 13. Be3 Ne7 14. O-O-O Qc8
+15. Nd2 a5 16. f3 Bg7 17. b3 Be6 18. Qd3 O-O 19. a3 Qb7 20. Na4 c5 21. Nc4 Rfd8
+22. h5 1/2-1/2
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1981.07.??"]
+[Round "?"]
+[White "Durao, Joaquim"]
+[Black "Ciocaltea, Victor"]
+[Result "0-1"]
+[ECO "B15"]
+[PlyCount "68"]
+[EventDate "1981.07.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 c6 4. f4 d5 5. e5 h5 6. Nf3 Bg4 7. Be2 e6 8. Be3 Nh6
+9. g3 Nf5 10. Bf2 Nd7 11. h3 Bxf3 12. Bxf3 Bf8 13. Qd2 b5 14. O-O-O Nb6 15. g4
+Nc4 16. Qd3 Qa5 17. Nb1 Bh6 18. g5 Bf8 19. Qb3 Qb6 20. Be2 Be7 21. Nd2 O-O 22.
+Nf1 c5 23. Ng3 Nxg3 24. Qxg3 Qa5 25. Qb3 Rfc8 26. Rhg1 Rab8 27. Kb1 Nd2+ 28.
+Rxd2 Qxd2 29. Qf3 Qa5 30. Qg3 c4 31. Be1 b4 32. Bxh5 Rc6 33. Bd1 Ra6 34. a3 Qb6
+0-1
+
+[Event "Vulca Int"]
+[Site "Barcelona"]
+[Date "1982.??.??"]
+[Round "?"]
+[White "Eslon, Jaan"]
+[Black "Ciocaltea, Victor"]
+[Result "0-1"]
+[ECO "B33"]
+[PlyCount "91"]
+[EventDate "1982.??.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Ne2 Nc6 3. Nbc3 Nf6 4. d4 cxd4 5. Nxd4 e5 6. Ndb5 d6 7. a4 Be6 8.
+Bg5 a6 9. Bxf6 gxf6 10. Na3 Qb6 11. Nc4 Qb4 12. Ne3 Bh6 13. Rb1 Bxe3 14. fxe3
+Rg8 15. Qd2 Ne7 16. Bd3 d5 17. exd5 Nxd5 18. O-O O-O-O 19. Qe1 Qg4 20. Rf2 Kb8
+21. b4 Nxc3 22. Qxc3 Bd5 23. Bf1 Rc8 24. Qe1 Be4 25. Rc1 Qd7 26. b5 axb5 27.
+axb5 Qd6 28. c4 f5 29. Rb2 b6 30. Ra1 Qc5 31. Rd2 Rcd8 32. Rad1 Rxd2 33. Qxd2
+f4 34. Re1 Bxg2 35. Bxg2 f3 36. Re2 fxe2 37. Qxe2 e4 38. h3 Qe5 39. Qf2 f5 40.
+Qh4 Qg3 41. Qxg3+ Rxg3 42. Kf2 Rg7 43. h4 Kc7 44. Bh3 Rf7 45. Kg3 Kd6 46. Kf4
+0-1
+
+[Event "Berga op"]
+[Site "Berga"]
+[Date "1983.??.??"]
+[Round "8"]
+[White "Ciocaltea, Victor"]
+[Black "Gros Fernandez, Jordi"]
+[Result "1-0"]
+[ECO "B93"]
+[PlyCount "47"]
+[EventDate "1983.08.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. f4 Nbd7 7. Nf3 Qc7 8. a4
+b6 9. Bd3 Bb7 10. O-O e5 11. Kh1 Be7 12. Nh4 Nxe4 13. Bxe4 Bxh4 14. fxe5 dxe5
+15. Nd5 Qc4 16. Qf3 f5 17. Nf6+ Bxf6 18. Bxb7 Ra7 19. Bd5 Qc5 20. Be3 e4 21.
+Qh5+ g6 22. Bxc5 gxh5 23. Bg1 Ke7 24. c3 1-0
+
+[Event "Manresa op"]
+[Site "Manresa"]
+[Date "1983.??.??"]
+[Round "?"]
+[White "Ciocaltea, Victor"]
+[Black "Magem Badals, Jordi"]
+[Result "1-0"]
+[ECO "B50"]
+[PlyCount "75"]
+[EventDate "1983.09.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. c3 Nf6 4. Bb5+ Bd7 5. Bxd7+ Qxd7 6. d3 e6 7. O-O Nc6 8.
+Qe2 Be7 9. Rd1 O-O 10. Nbd2 b5 11. Nf1 Qb7 12. Ng3 d5 13. e5 Nd7 14. h4 c4 15.
+d4 Rfe8 16. Bf4 b4 17. Re1 a5 18. Qd2 a4 19. Bg5 a3 20. bxa3 bxc3 21. Qxc3 Qa7
+22. Bxe7 Rxe7 23. Nh5 Rb8 24. Qe3 h6 25. Qf4 Nf8 26. Qg4 Ng6 27. Nxg7 Kxg7 28.
+h5 Rg8 29. hxg6 Kf8 30. Qf4 Rxg6 31. Rab1 Rb7 32. Nh4 Rg7 33. Qxh6 Nxd4 34.
+Rbd1 Rb2 35. Re3 Kg8 36. Rh3 Ne2+ 37. Kh1 Qxf2 38. Qh8+ 1-0

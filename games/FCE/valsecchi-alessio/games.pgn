@@ -1,0 +1,918 @@
+[Event "Lliga Catalana eq. DH gr 1"]
+[Site "?"]
+[Date "2016.01.23"]
+[Round "1.3"]
+[White "Granados Gomez, Manuel"]
+[Black "Valsecchi, Alessio"]
+[Result "0-1"]
+[ECO "A36"]
+[WhiteElo "2382"]
+[BlackElo "2482"]
+[PlyCount "86"]
+[EventDate "2016.??.??"]
+[EventType "team"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2016.02.19"]
+
+1. c4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. d3 d6 6. e4 e6 7. Nge2 Nge7 8. O-O
+O-O 9. Be3 Nd4 10. Qd2 Nec6 11. Bh6 Bxh6 12. Qxh6 Rb8 13. Qd2 Qa5 14. Rfd1 b5
+15. Nxd4 Nxd4 16. Nxb5 Qxd2 17. Rxd2 Nxb5 18. cxb5 Rxb5 19. d4 cxd4 20. Rxd4
+Rxb2 21. Rxd6 e5 22. Rd5 Be6 23. Rxe5 Rc8 24. f4 Bg4 25. Ra5 Rcc2 26. Bf1 Bf3
+27. Ra3 Bxe4 28. Re1 Bc6 29. Ra6 Bg2 30. Rxa7 Bxf1 31. Kxf1 Rf2+ 32. Kg1 Rg2+
+33. Kh1 Rxh2+ 34. Kg1 Rbg2+ 35. Kf1 Rf2+ 36. Kg1 Rhg2+ 37. Kh1 Rxg3 38. Ra4 h5
+39. Re5 Rgf3 40. Ree4 Kg7 41. Kg1 h4 42. a3 Rf1+ 43. Kh2 R3f2+ 0-1
+
+[Event "Lliga Catalana eq. DH gr 1"]
+[Site "?"]
+[Date "2016.02.13"]
+[Round "4.4"]
+[White "Garcia Jimenez, Francisco Javier"]
+[Black "Valsecchi, Alessio"]
+[Result "0-1"]
+[ECO "B24"]
+[WhiteElo "2276"]
+[BlackElo "2482"]
+[PlyCount "62"]
+[EventDate "2016.??.??"]
+[EventType "team"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2016.03.03"]
+
+1. e4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. d3 Rb8 6. a4 d6 7. Nge2 e6 8. O-O
+Nge7 9. Be3 Nd4 10. Nb5 Nxe2+ 11. Qxe2 a6 12. Nc3 Nc6 13. f4 Nd4 14. Qf2 O-O
+15. Nd1 f5 16. c3 Nc6 17. e5 dxe5 18. Bxc5 Rf7 19. Ne3 Rd7 20. Rfd1 exf4 21.
+gxf4 b6 22. Ba3 Bb7 23. Nc4 b5 24. axb5 axb5 25. Nb6 Rxd3 26. Rxd3 Qxd3 27. Bf1
+Qd8 28. Bc5 e5 29. Qe2 exf4 30. Qe6+ Kh8 31. Bxb5 Ne5 0-1
+
+[Event "Lliga Catalana eq. DH gr 1"]
+[Site "?"]
+[Date "2016.02.27"]
+[Round "6.4"]
+[White "Valsecchi, Alessio"]
+[Black "Vehi Bach, Victor Manuel"]
+[Result "1-0"]
+[ECO "E48"]
+[WhiteElo "2482"]
+[BlackElo "2316"]
+[PlyCount "73"]
+[EventDate "2016.??.??"]
+[EventType "team"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2016.03.11"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Bd3 d5 6. cxd5 exd5 7. Nge2 Re8 8.
+Bd2 c6 9. O-O Bd6 10. f3 a5 11. Rc1 Na6 12. Qe1 Nc7 13. Kh1 Ne6 14. Qh4 Be7 15.
+Qf2 c5 16. g4 b6 17. a4 Ba6 18. Nb5 Qd7 19. b3 Rec8 20. Rg1 g6 21. Nec3 Nc7 22.
+Qg2 Bb7 23. Be1 Ne6 24. Bg3 Qd8 25. Rgf1 Bf8 26. Be2 Qd7 27. Be5 Qd8 28. f4 Ne4
+29. Nxe4 dxe4 30. f5 Ng5 31. fxg6 hxg6 32. Rcd1 Nf3 33. Bc4 Qg5 34. Qh3 Bg7 35.
+Nd6 Rc7 36. Bf4 Qe7 37. Nxf7 1-0
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.22"]
+[Round "1"]
+[White "Claramunt Bassegoda, Marcel"]
+[Black "Valsecchi, Alessio"]
+[Result "0-1"]
+[ECO "B23"]
+[WhiteElo "1977"]
+[BlackElo "2506"]
+[PlyCount "52"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nc3 Nc6 3. f4 g6 4. Nf3 Bg7 5. Bc4 e6 6. O-O Nge7 7. d3 O-O 8. Qe1
+d5 9. Bb3 Na5 10. Qg3 c4 11. dxc4 dxc4 12. Ba4 a6 13. Rd1 Qc7 14. Be3 b5 15.
+Qf2 Qb7 16. Ne5 Nac6 17. Ng4 f5 18. Ne5 Nxe5 19. fxe5 fxe4 20. Qd2 Nf5 21. Bc5
+Qc6 22. Bxf8 Bxf8 23. Kh1 bxa4 24. Ne2 e3 25. Nd4 Qe4 26. Qc3 e2 0-1
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.23"]
+[Round "2"]
+[White "Valsecchi, Alessio"]
+[Black "Cortes Lizano, Jesus"]
+[Result "1-0"]
+[ECO "B05"]
+[WhiteElo "2506"]
+[BlackElo "2204"]
+[PlyCount "47"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. Nf3 Bg4 5. Be2 e6 6. h3 Bh5 7. O-O Be7 8. a4
+O-O 9. a5 c5 10. exd6 Bxd6 11. dxc5 Bxc5 12. Ne5 Bxe2 13. Qxe2 Qc7 14. Nd3 Be7
+15. Ra4 Na6 16. b3 Ndb4 17. Nxb4 Bxb4 18. Bb2 Be7 19. Na3 Rfd8 20. Rg4 Bf8 21.
+Nc4 b5 22. axb6 axb6 23. Bf6 Rd5 24. Rxg7+ 1-0
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.24"]
+[Round "3"]
+[White "Arjun, Kalyan"]
+[Black "Valsecchi, Alessio"]
+[Result "1/2-1/2"]
+[ECO "C78"]
+[WhiteElo "2347"]
+[BlackElo "2506"]
+[PlyCount "63"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O b5 6. Bb3 Bc5 7. c3 d6 8. d4
+Bb6 9. Be3 O-O 10. Nbd2 h6 11. h3 exd4 12. cxd4 Ne7 13. Re1 Bb7 14. d5 c6 15.
+dxc6 Nxc6 16. a4 Bxe3 17. Rxe3 Qb6 18. Qf1 Rae8 19. axb5 axb5 20. Rd1 Na5 21.
+Bc2 Rc8 22. Bd3 d5 23. e5 d4 24. Ree1 Nd5 25. Ne4 Nf4 26. Bxb5 Rcd8 27. g3
+Nxh3+ 28. Qxh3 Qxb5 29. Nxd4 Qxe5 30. Nc3 Qf6 31. Qf5 Qxf5 32. Nxf5 1/2-1/2
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.25"]
+[Round "4"]
+[White "Valsecchi, Alessio"]
+[Black "Iniyan, Panneerseluam"]
+[Result "1/2-1/2"]
+[ECO "E68"]
+[WhiteElo "2506"]
+[BlackElo "2380"]
+[PlyCount "62"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. Nf3 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 O-O 5. d4 d6 6. Nc3 Nbd7 7. O-O e5 8. e4
+exd4 9. Nxd4 Re8 10. h3 Nc5 11. Re1 a5 12. Ndb5 Bd7 13. Bf4 Bc6 14. Qc2 Nfd7
+15. Rad1 Na6 16. a3 Nb6 17. c5 Nxc5 18. Nxc7 Bxc3 19. Nxa8 Bxe1 20. Nxb6 Bxf2+
+21. Qxf2 Qxb6 22. Rxd6 Na4 23. Qxb6 Nxb6 24. Rd4 Nd7 25. Bd2 a4 26. Bc3 f6 27.
+Rb4 Ne5 28. Bf1 Nf3+ 29. Kf2 Ng5 30. Bg2 Nxe4+ 31. Bxe4 Rxe4 1/2-1/2
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.26"]
+[Round "5"]
+[White "Srijit, Paul"]
+[Black "Valsecchi, Alessio"]
+[Result "1/2-1/2"]
+[ECO "B92"]
+[WhiteElo "2247"]
+[BlackElo "2506"]
+[PlyCount "70"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Be2 Be7 7. O-O O-O 8.
+Be3 Nc6 9. f4 e5 10. Nb3 a5 11. a4 Nb4 12. Bf3 Be6 13. Kh1 Rc8 14. Rf2 Nd7 15.
+Rd2 exf4 16. Bxf4 Bg5 17. Ne2 Qf6 18. Bxg5 Qxg5 19. Nbd4 Ne5 20. b3 Nxf3 21.
+Nxf3 Qe3 22. Ng3 Bg4 23. c4 Rcd8 24. Re2 Qc5 25. Qg1 Nd3 26. Rd1 Ne5 27. Qe3 f5
+28. exf5 Nxf3 29. gxf3 Rde8 30. Qd3 Bh3 31. Rde1 Rxe2 32. Rxe2 Bxf5 33. Nxf5
+Qxf5 34. Qxf5 Rxf5 35. Kg2 Kf7 1/2-1/2
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.27"]
+[Round "6"]
+[White "Valsecchi, Alessio"]
+[Black "Sanchez, Louis"]
+[Result "1-0"]
+[ECO "A13"]
+[WhiteElo "2506"]
+[BlackElo "2229"]
+[PlyCount "84"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. Nf3 d5 2. c4 e6 3. g3 dxc4 4. Na3 Bxa3 5. bxa3 Ne7 6. Qa4+ Bd7 7. Qxc4 Bc6
+8. Bg2 O-O 9. Bb2 Nd7 10. O-O Ng6 11. Qc2 Nb6 12. Rac1 Qd7 13. h4 f6 14. h5 Ne7
+15. e4 Bb5 16. Rfe1 Nc6 17. d4 Nc4 18. Ba1 N6a5 19. e5 Bc6 20. exf6 gxf6 21.
+Bc3 Rad8 22. Nh4 Bxg2 23. Nxg2 Nc6 24. Qe2 Nd6 25. Nf4 e5 26. dxe5 fxe5 27. Nd3
+Nd4 28. Bxd4 exd4 29. Ne5 Qf5 30. Rxc7 Rde8 31. f4 Qh3 32. Qf3 Kh8 33. Qd3 Qxh5
+34. Qxd4 Rf6 35. Kg2 a6 36. Nf3 Qg6 37. Rxe8+ Nxe8 38. Nh4 Qh5 39. Re7 Kg8 40.
+Rxe8+ Qxe8 41. Qxf6 Qe2+ 42. Kh3 h5 1-0
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.28"]
+[Round "7"]
+[White "Jerez Perez, Alfonso"]
+[Black "Valsecchi, Alessio"]
+[Result "1-0"]
+[ECO "C28"]
+[WhiteElo "2405"]
+[BlackElo "2506"]
+[PlyCount "141"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nc3 Nc6 3. Bc4 Nf6 4. d3 Na5 5. Nf3 Nxc4 6. dxc4 Bb4 7. Qd3 d6 8.
+Bd2 Nd7 9. a3 Nc5 10. Qe3 Bxc3 11. Bxc3 Qe7 12. O-O-O a5 13. Nd2 Na4 14. Nb3
+Nxc3 15. Qxc3 a4 16. Nd2 O-O 17. Nf1 f5 18. exf5 Rxf5 19. f3 b6 20. Ne3 Rf7 21.
+Nd5 Qg5+ 22. Rd2 Be6 23. Kb1 Qh4 24. h3 Ra5 25. Qb4 Rc5 26. Qxa4 b5 27. Qa8+
+Rf8 28. Qa7 Bf7 29. Rhd1 e4 30. fxe4 Qxe4 31. Rd4 Qxg2 32. Nf6+ Kh8 33. Nd7 Ra8
+34. Qxa8+ Qxa8 35. Nxc5 Bxc4 36. Ne4 h6 37. Nc3 Kh7 38. Rg1 Be6 39. h4 Qa7 40.
+Rgd1 Qb7 41. Re1 Bg8 42. Rg4 c6 43. b3 Bf7 44. Kb2 d5 45. Reg1 g6 46. Rf4 Kg7
+47. Re1 c5 48. Nxb5 Qxb5 49. Re7 g5 50. hxg5 hxg5 51. Rfxf7+ Kg6 52. Rg7+ Kf5
+53. Ref7+ Kg4 54. Rf2 c4 55. Rg2+ Kf4 56. R7xg5 cxb3 57. cxb3 Qc6 58. R5g4+ Kf5
+59. Rd4 Ke5 60. Rgd2 Qf6 61. Rxd5+ Ke4+ 62. Ka2 Qf1 63. R5d4+ Ke5 64. Rc4 Qe1
+65. Rdc2 Kd5 66. a4 Kd6 67. Rc5 Qd1 68. a5 Qf1 69. Rc6+ Kd7 70. a6 Qe1 71. R6c4
+1-0
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.29"]
+[Round "8"]
+[White "Valsecchi, Alessio"]
+[Black "Rohit, Krishna S"]
+[Result "1-0"]
+[ECO "D45"]
+[WhiteElo "2506"]
+[BlackElo "2137"]
+[PlyCount "145"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 e6 4. Nc3 c6 5. e3 Nbd7 6. Qc2 Be7 7. Be2 O-O 8. O-O
+b6 9. Rd1 Bb7 10. b3 Rc8 11. Bb2 Qc7 12. Rac1 Rfd8 13. Bd3 Bd6 14. Qe2 h6 15.
+cxd5 exd5 16. Nb5 Qb8 17. Nxd6 Qxd6 18. Bf5 Rc7 19. Ne5 Nf8 20. Qe1 Re7 21. b4
+Ne8 22. Qc3 Rc7 23. Qb3 f6 24. Nf3 Qe7 25. a4 Nd6 26. Bd3 b5 27. Bc3 a6 28. Re1
+Qf7 29. Re2 Nd7 30. a5 Nf8 31. Qb1 Re8 32. Nd2 Rce7 33. Nb3 Rd8 34. Rce1 Ne6
+35. f3 Bc8 36. Rc1 Nc4 37. Be1 f5 38. Bg3 Nf8 39. Bf2 Kh8 40. Rce1 Rde8 41. Qc1
+Qf6 42. Bg3 Nd7 43. e4 Qf7 44. Qc2 Na3 45. Qc3 Nc4 46. Bh4 Re6 47. Nc1 Qh5 48.
+Bg3 fxe4 49. fxe4 dxe4 50. Bxe4 Nf6 51. Bf3 Qf7 52. Be5 Nd5 53. Bxd5 cxd5 54.
+Nd3 Rg8 55. Rf2 Qa7 56. Ref1 Rc6 57. Nc5 Qe7 58. Qg3 Nxe5 59. Re1 Rg6 60. Qxe5
+Qd8 61. Rf4 Bh3 62. Re2 Bg4 63. Re3 Rg5 64. Qe7 Qb8 65. Rf2 Bh5 66. Nxa6 Qc8
+67. Nc5 Re8 68. Qb7 Qg4 69. Rxe8+ Bxe8 70. Qe7 Qd1+ 71. Rf1 Qxd4+ 72. Kh1 Bh5
+73. Ne6 1-0
+
+[Event "Andorra op 35th"]
+[Site "Escaldes"]
+[Date "2017.07.30"]
+[Round "9"]
+[White "Farran Martos, Francesco Xavier"]
+[Black "Valsecchi, Alessio"]
+[Result "0-1"]
+[ECO "B81"]
+[WhiteElo "2412"]
+[BlackElo "2506"]
+[PlyCount "68"]
+[EventDate "2017.07.22"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. g4 h6 7. Bg2 a6 8. h3
+Qc7 9. Be3 Nc6 10. f4 Na5 11. Qe2 Nc4 12. O-O-O e5 13. Nf5 g6 14. g5 hxg5 15.
+fxe5 gxf5 16. Bxg5 Nxb2 17. Kxb2 Qa5 18. exf6 Qb4+ 19. Kc1 Qxc3 20. exf5+ Kd8
+21. Rd3 Qa1+ 22. Kd2 Qxa2 23. Re1 Qa4 24. Qe3 Qb4+ 25. Rc3 Bd7 26. Kd1 Rc8 27.
+Rb3 Qc5 28. Qxc5 Rxc5 29. Be3 Rb5 30. Bb6+ Kc8 31. Rc3+ Kb8 32. Rc7 Bc6 33.
+Bxc6 Rb1+ 34. Ke2 Rxb6 0-1
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.20"]
+[Round "3"]
+[White "Gonzalez Santamartina, Jorge"]
+[Black "Valsecchi, Alessio"]
+[Result "0-1"]
+[ECO "A33"]
+[WhiteElo "2099"]
+[BlackElo "2493"]
+[PlyCount "62"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. c4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e6 6. Ndb5 d6 7. Bf4 e5 8.
+Bg5 a6 9. Na3 Be6 10. g3 Qb6 11. Na4 Qa5+ 12. Bd2 Qc7 13. Bg2 d5 14. c5 Be7 15.
+O-O O-O 16. b4 Ne4 17. Nc2 f5 18. e3 Rad8 19. Nc3 Nxd2 20. Qxd2 d4 21. exd4
+Nxd4 22. Nxd4 Rxd4 23. Qb2 Rfd8 24. Rfd1 Bf6 25. a3 e4 26. Qc2 Rc4 27. Rxd8+
+Qxd8 28. Qb3 Bxc3 29. Rc1 Qf6 30. Bf1 Rxc5 31. Qa4 Rc8 0-1
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.21"]
+[Round "4"]
+[White "Valsecchi, Alessio"]
+[Black "Roig Aguilar, Alejandro"]
+[Result "1-0"]
+[ECO "B38"]
+[WhiteElo "2493"]
+[BlackElo "2243"]
+[PlyCount "91"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. c4 Bg7 6. Be3 Nf6 7. Nc3 O-O 8.
+Be2 d6 9. O-O Bd7 10. h3 Nxd4 11. Bxd4 Bc6 12. Qc2 a5 13. Rad1 Nd7 14. Bxg7
+Kxg7 15. Bg4 Ne5 16. c5 Nxg4 17. hxg4 Qc8 18. cxd6 Qxg4 19. dxe7 Rfe8 20. Nd5
+Bxd5 21. Qc3+ Kg8 22. exd5 Rxe7 23. d6 Rd7 24. Rfe1 Qg5 25. Re5 Qd8 26. Qd4 Qf8
+27. a4 Rad8 28. Rd5 Qg7 29. Qb6 Qf6 30. R1d4 Rc8 31. Qxa5 Rc1+ 32. Rd1 Rxd1+
+33. Rxd1 Rxd6 34. Rxd6 Qxd6 35. g3 Kg7 36. Qb5 Qe7 37. Qc4 Qe5 38. b3 Kf6 39.
+Kg2 h5 40. b4 g5 41. a5 Ke7 42. b5 Qb8 43. Qc5+ Kd7 44. Qd5+ Kc8 45. Qf5+ Kc7
+46. Qe5+ 1-0
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.22"]
+[Round "5"]
+[White "Escalante Ramirez, Brian Sebastian"]
+[Black "Valsecchi, Alessio"]
+[Result "1-0"]
+[ECO "B81"]
+[WhiteElo "2326"]
+[BlackElo "2493"]
+[PlyCount "95"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. g4 h6 7. h4 Be7 8. Rg1
+d5 9. exd5 Nxd5 10. Nxd5 Qxd5 11. Bg2 Qc4 12. c3 Nd7 13. g5 hxg5 14. hxg5 Nc5
+15. Bf1 Qd5 16. Be3 Bd7 17. Nb5 Qc6 18. Qd4 Kf8 19. O-O-O Rd8 20. Nd6 Be8 21.
+Qxc5 Rxd6 22. Qxc6 Bxc6 23. Bxa7 Rxd1+ 24. Kxd1 Bd5 25. Bg2 Bxg2 26. Rxg2 Rh1+
+27. Kc2 Re1 28. b4 b5 29. Be3 Bd6 30. Rg4 f5 31. gxf6 gxf6 32. Rh4 Ke8 33. Rh7
+Re2+ 34. Kb3 Bg3 35. Bc5 Bf4 36. Re7+ Kd8 37. Rb7 Bc1 38. Rxb5 Rb2+ 39. Kc4
+Rxa2 40. Rb8+ Kc7 41. Rf8 Bg5 42. Kb5 f5 43. Rf7+ Kd8 44. Kc6 Ra6+ 45. Bb6+ Ke8
+46. Ra7 Rxa7 47. Bxa7 e5 48. b5 1-0
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.24"]
+[Round "7"]
+[White "Mordechai, Hanan"]
+[Black "Valsecchi, Alessio"]
+[Result "0-1"]
+[ECO "B81"]
+[WhiteElo "2326"]
+[BlackElo "2493"]
+[PlyCount "100"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e6 6. g4 h6 7. h4 Be7 8. Qf3
+Nfd7 9. g5 Ne5 10. Qg2 Nbc6 11. Nxc6 Nxc6 12. Be3 Qa5 13. O-O-O Bd7 14. g6 Rf8
+15. gxf7+ Rxf7 16. f4 Rc8 17. Kb1 Nd8 18. Qd2 a6 19. Be2 Kf8 20. Rhg1 Bc6 21.
+e5 dxe5 22. fxe5 Bb4 23. Bd4 Rd7 24. a3 Bxc3 25. Qxc3 Qxc3 26. Bxc3 Rxd1+ 27.
+Rxd1 Bd5 28. Rf1+ Kg8 29. Kc1 Bc4 30. Bxc4 Rxc4 31. Rd1 Nf7 32. Rd7 Rxh4 33.
+Rxb7 h5 34. Rb6 Rh1+ 35. Kd2 Ng5 36. Rxa6 h4 37. Ra8+ Kh7 38. Ke2 Ne4 39. Ra4
+Nxc3+ 40. bxc3 g5 41. Kf3 Kg6 42. Ra8 Rh3+ 43. Kg2 Rxc3 44. a4 Kf5 45. Rf8+
+Kxe5 46. Rf3 Rxc2+ 47. Kh3 Ke4 48. Rb3 Kf4 49. Rb4+ Kf5 50. Rb8 Rc3+ 0-1
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.25"]
+[Round "8"]
+[White "Garriga Cazorla, Pere"]
+[Black "Valsecchi, Alessio"]
+[Result "0-1"]
+[ECO "D46"]
+[WhiteElo "2405"]
+[BlackElo "2493"]
+[PlyCount "98"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. Nf3 c6 5. e3 Nbd7 6. Qc2 Bd6 7. Bd3 O-O 8. O-O
+dxc4 9. Bxc4 b5 10. Be2 Bb7 11. e4 e5 12. dxe5 Nxe5 13. Nd4 Ng6 14. Nf5 Bc7 15.
+Bg5 Re8 16. Rad1 Qb8 17. Bxf6 gxf6 18. g3 Bc8 19. Bg4 Be6 20. Qc1 Kh8 21. Nh6
+Re7 22. Bf5 Ne5 23. f4 Nc4 24. Kh1 Bb6 25. Bxe6 fxe6 26. Ng4 Rg7 27. Nxf6 Ne3
+28. Nh5 Rf7 29. Ne2 Qe8 30. Qc3+ e5 31. Rfe1 Rf8 32. Qxe5+ Qxe5 33. fxe5 Nxd1
+34. Rxd1 Rae8 35. Nf6 Rxe5 36. Nd7 Rd8 37. Nxe5 Rxd1+ 38. Kg2 Rd2 39. Kf3 Rxb2
+40. Nxc6 Rxa2 41. e5 Bc5 42. e6 Kg7 43. Nf4 Kf6 44. Ke4 Rd2 45. g4 b4 46. h4 b3
+47. g5+ Kg7 48. Nh5+ Kf8 49. Nf6 b2 0-1
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.26"]
+[Round "9"]
+[White "Valsecchi, Alessio"]
+[Black "Diaz Camallonga, Carles"]
+[Result "1-0"]
+[ECO "E48"]
+[WhiteElo "2493"]
+[BlackElo "2437"]
+[PlyCount "101"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. d4 e6 2. c4 Nf6 3. Nc3 Bb4 4. e3 O-O 5. Bd3 d5 6. cxd5 exd5 7. Nge2 Re8 8.
+Bd2 Bd6 9. O-O a6 10. Rc1 Nbd7 11. f3 c5 12. Qe1 Nf8 13. Qf2 b6 14. g4 Ne6 15.
+Kh1 g6 16. Bb1 Ra7 17. Rg1 Bb8 18. Qg2 Rae7 19. Rcf1 Ng7 20. Qf2 Re6 21. a3 Bb7
+22. Ng3 R6e7 23. Nce2 Qd6 24. Rg2 Bc7 25. Rfg1 Bc8 26. h3 a5 27. Nf4 Qc6 28.
+Nd3 Ba6 29. f4 Bxd3 30. Bxd3 Qd7 31. Nf5 Ne4 32. Nxe7+ Rxe7 33. Bxe4 Rxe4 34.
+dxc5 bxc5 35. Qf3 a4 36. Rd1 Qe6 37. f5 Qe5 38. Bc3 d4 39. exd4 cxd4 40. Rxd4
+Rxd4 41. Qa8+ Ne8 42. Bxd4 Qxd4 43. Qxe8+ Kg7 44. Qc6 Be5 45. Qf3 Qc4 46. Rf2
+f6 47. Kg2 Qc1 48. Qe4 Kh6 49. fxg6 hxg6 50. h4 Bxb2 51. Rc2 1-0
+
+[Event "Barcelona Sants op 19th"]
+[Site "Barcelona"]
+[Date "2017.08.27"]
+[Round "10"]
+[White "Valsecchi, Alessio"]
+[Black "Trent, Lawrence"]
+[Result "1/2-1/2"]
+[ECO "E65"]
+[WhiteElo "2493"]
+[BlackElo "2439"]
+[PlyCount "71"]
+[EventDate "2017.08.18"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 180 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.10.06"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.06"]
+[SourceQuality "1"]
+
+1. Nf3 Nf6 2. c4 g6 3. d4 Bg7 4. g3 O-O 5. Bg2 c5 6. O-O d6 7. Nc3 Nc6 8. dxc5
+dxc5 9. Be3 Qa5 10. Qa4 Nd7 11. Qxa5 Nxa5 12. Nd2 Bxc3 13. bxc3 Kg7 14. Rfd1
+Rb8 15. Nb3 Nxc4 16. Bxc5 Nxc5 17. Nxc5 Nd6 18. e4 b6 19. e5 bxc5 20. exd6 exd6
+21. Rxd6 Rb2 22. Rc6 Be6 23. Rxc5 Rd8 24. a4 Rdd2 25. Rf1 Bf5 26. Rc7 Rd7 27.
+Rxd7 Bxd7 28. c4 Rc2 29. Bd5 a5 30. Ra1 Kf6 31. Kg2 Be6 32. Rd1 Ra2 33. c5
+Bxd5+ 34. Rxd5 Rxa4 35. c6 Rc4 36. Rxa5 1/2-1/2
+
+[Event "Badalona op"]
+[Site "Badalona"]
+[Date "2013.08.04"]
+[Round "3"]
+[White "Alsina Leal, D."]
+[Black "Valsecchi, A."]
+[Result "1/2-1/2"]
+[ECO "C69"]
+[WhiteElo "2538"]
+[BlackElo "2412"]
+[PlyCount "98"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. O-O f6 6. d4 exd4 7. Nxd4 c5 8.
+Ne2 Qxd1 9. Rxd1 Bd7 10. Be3 O-O-O 11. Nbc3 Re8 12. f3 Bc6 13. Kf2 b6 14. a4 a5
+15. Nb5 Kb7 16. Nf4 Nh6 17. Nd5 Bxb5 18. axb5 Nf7 19. Nc3 Bd6 20. f4 h5 21. h4
+Nh6 22. Rd5 g6 23. Rad1 Rhf8 24. g3 Re6 25. Kg2 Rfe8 26. Kf3 Nf7 27. Bf2 Kc8
+28. R1d2 Bf8 29. Re2 Bg7 30. b3 Nd6 31. f5 gxf5 32. exf5 Rxe2 33. Nxe2 Bh6 34.
+c4 Nf7 35. Nc3 Ne5+ 36. Kg2 Ng4 37. Rd3 Re5 38. Rf3 Kb7 39. Bg1 Bd2 40. Nd5 c6
+41. bxc6+ Kxc6 42. Rd3 Bb4 43. Be3 b5 44. Bf4 Re2+ 45. Kf3 Rf2+ 46. Ke4 Re2+
+47. Kf3 Rf2+ 48. Ke4 Re2+ 49. Kf3 Rf2+ 1/2-1/2
+
+[Event "Badalona op"]
+[Site "Badalona"]
+[Date "2013.08.05"]
+[Round "4"]
+[White "Valsecchi, A."]
+[Black "Guerra Mendez, JA."]
+[Result "1/2-1/2"]
+[ECO "E17"]
+[WhiteElo "2412"]
+[BlackElo "2516"]
+[PlyCount "183"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. Nf3 Nf6 2. c4 b6 3. g3 Bb7 4. Bg2 e6 5. O-O Be7 6. Nc3 O-O 7. Re1 d5 8. cxd5
+exd5 9. d4 Na6 10. Bf4 c6 11. Ne5 Nc7 12. Qa4 b5 13. Qb3 Ne6 14. Rad1 Qb6 15.
+Be3 Rfd8 16. Bh3 a5 17. a3 a4 18. Qc2 c5 19. Nf3 c4 20. Ng5 Nxg5 21. Bxg5 h6
+22. Bxf6 Bxf6 23. e3 Bc6 24. Bg2 b4 25. axb4 Qxb4 26. Ra1 Ra5 27. Ra3 Rb8 28.
+Re2 g6 29. Qd2 Qb6 30. Ra1 Qa7 31. h4 Rd8 32. h5 gxh5 33. e4 Bg5 34. Qc2 dxe4
+35. d5 Bxd5 36. Nxd5 Rdxd5 37. Qxc4 Rd4 38. Qc6 e3 39. fxe3 Rg4 40. Qd6 Ra6 41.
+Qd5 Rxg3 42. Kh1 Rxe3 43. Rxe3 Qxe3 44. Qe4 Qg3 45. Ra3 Qb8 46. Qb7 Qd6 47. Bd5
+Be7 48. Rf3 Rb6 49. Qc8+ Bf8 50. Bxf7+ Kh8 51. Bd5 Rb8 52. Qf5 Qe7 53. Qf6+
+Qxf6 54. Rxf6 Kg7 55. Ra6 Rxb2 56. Rxa4 Bd6 57. Rh4 Rd2 58. Rxh5 Kg6 59. Bf3
+Bf4 60. Rd5 Rh2+ 61. Kg1 Rb2 62. Be4+ Kg7 63. Rf5 Bg5 64. Kf1 Rb4 65. Bd3 Rd4
+66. Ke2 Rh4 67. Kf2 Rh2+ 68. Kg3 Rd2 69. Be4 Re2 70. Bf3 Re1 71. Bh5 Rh1 72.
+Bf3 Rg1+ 73. Kf2 Ra1 74. Bh5 Rh1 75. Bf3 Rh4 76. Rb5 Kg6 77. Rb6+ Bf6 78. Kg3
+Rd4 79. Rb5 Rd3 80. Kg2 Rd2+ 81. Kg3 Bd4 82. Be4+ Kf6 83. Kg4 Be5 84. Rb6+ Bd6
+85. Rb5 Rd4 86. Rf5+ Ke6 87. Kf3 Ra4 88. Rb5 Ra1 89. Kf2 Rc1 90. Rh5 Bf4 91.
+Rf5 Bg5 92. Rb5 1/2-1/2
+
+[Event "Badalona op"]
+[Site "Badalona"]
+[Date "2013.08.06"]
+[Round "5"]
+[White "Valdes Romero, L."]
+[Black "Valsecchi, A."]
+[Result "0-1"]
+[ECO "A13"]
+[WhiteElo "2440"]
+[BlackElo "2412"]
+[PlyCount "76"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. Nf3 Nf6 2. g3 d5 3. Bg2 e6 4. c4 dxc4 5. Qa4+ c6 6. Qxc4 b5 7. Qc2 Bb7 8.
+Nc3 Nbd7 9. O-O Be7 10. a4 a6 11. d3 O-O 12. e4 Rc8 13. h3 a5 14. Rd1 Ba6 15.
+Bf1 b4 16. Ne2 c5 17. Nf4 Nb8 18. Be3 Nfd7 19. Qb3 Bb7 20. Qa2 Kh8 21. Bg2 Qe8
+22. h4 Nc6 23. Ne2 Ba6 24. Nc1 Nde5 25. Nxe5 Nxe5 26. Bf4 Bf6 27. Bxe5 Bxe5 28.
+Nb3 Qd8 29. Rac1 Qb6 30. Bf1 h6 31. Kg2 f5 32. f4 fxe4 33. dxe4 c4 34. Nd2 Bxf4
+35. Nxc4 Bxc4 36. Rxc4 Bxg3 37. Rd2 Rcd8 38. Rxd8 Qf2+ 0-1
+
+[Event "Badalona op"]
+[Site "Badalona"]
+[Date "2013.08.07"]
+[Round "6"]
+[White "Valsecchi, A."]
+[Black "Escobar Forero, A."]
+[Result "1-0"]
+[ECO "A46"]
+[WhiteElo "2412"]
+[BlackElo "2466"]
+[PlyCount "91"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. Nf3 d6 3. Nc3 Bf5 4. g3 h6 5. Bg2 d5 6. O-O e6 7. Bf4 c6 8. Nd2
+Be7 9. e4 Bh7 10. Re1 O-O 11. a3 a5 12. Qe2 Re8 13. Rad1 a4 14. Nf1 Qb6 15. Bc1
+dxe4 16. Nxe4 Nbd7 17. Nxf6+ Nxf6 18. Ne3 Bf8 19. c4 Qb3 20. Rd2 Rad8 21. Qd1
+Qxd1 22. Nxd1 Rd7 23. Nc3 Ra8 24. Red1 Bf5 25. h3 g5 26. Re2 Bg7 27. Be3 Ne8
+28. d5 cxd5 29. cxd5 Bxc3 30. bxc3 Rc8 31. g4 Bg6 32. Rd4 exd5 33. Rxd5 Re7 34.
+Rd4 b5 35. Rb2 Nc7 36. Rd6 Be4 37. Bd4 Bxg2 38. Rxh6 f6 39. Kxg2 Nd5 40. Bxf6
+Rh7 41. Rxh7 Kxh7 42. Bxg5 Nxc3 43. Bd2 Ne4 44. Bb4 Rc4 45. f3 Nf6 46. Rd2 1-0
+
+[Event "Badalona op"]
+[Site "Badalona"]
+[Date "2013.08.08"]
+[Round "7"]
+[White "Valsecchi, A."]
+[Black "Fluvia Poyatos, Joan"]
+[Result "0-1"]
+[ECO "B22"]
+[WhiteElo "2412"]
+[BlackElo "2491"]
+[PlyCount "60"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. c3 d5 3. exd5 Qxd5 4. d4 Nf6 5. Nf3 Bg4 6. Nbd2 e6 7. Bc4 Qd7 8.
+Qb3 a6 9. Ne5 Qc7 10. Qa4+ Nc6 11. Bb5 Rc8 12. Bxc6+ bxc6 13. Nxg4 Nxg4 14.
+dxc5 Qe5+ 15. Qe4 Bxc5 16. h3 Nxf2 17. Qxe5 Nd3+ 18. Ke2 Nxe5 19. Ne4 Be7 20.
+Bf4 Ng6 21. Nd6+ Bxd6 22. Bxd6 f6 23. Rhd1 Kf7 24. Rd4 e5 25. Ra4 Rhd8 26. Bc5
+Nf4+ 27. Kf3 Rb8 28. Rb1 Rd3+ 29. Kf2 Rd2+ 30. Kf3 Rbd8 0-1
+
+[Event "Badalona op"]
+[Site "Badalona"]
+[Date "2013.08.09"]
+[Round "8"]
+[White "Lorenzo de la Riva, L."]
+[Black "Valsecchi, A."]
+[Result "1/2-1/2"]
+[ECO "A14"]
+[WhiteElo "2449"]
+[BlackElo "2412"]
+[PlyCount "116"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. Nf3 d5 2. g3 Nf6 3. Bg2 e6 4. c4 Be7 5. O-O O-O 6. b3 c5 7. e3 Nc6 8. Bb2 d4
+9. exd4 cxd4 10. Re1 a5 11. d3 Re8 12. Na3 Bb4 13. Re2 e5 14. Nc2 Bf8 15. h3
+Bf5 16. Nh4 Bd7 17. Na3 Ra6 18. Nb5 Qc8 19. Kh2 g5 20. Nf3 g4 21. hxg4 Bxg4 22.
+Qd2 h6 23. a3 Bh5 24. Rae1 Nb8 25. Kg1 Nbd7 26. Rxe5 Nxe5 27. Rxe5 Rd8 28.
+Nfxd4 Bg6 29. Qf4 Qb8 30. Nc6 Rxc6 31. Bxc6 Nh5 32. Qh4 Bg7 33. Bd5 Bxe5 34.
+Bxe5 Qxe5 35. Qxd8+ Kg7 36. Bf3 Nxg3 37. Qd4 Qxd4 38. Nxd4 Nf5 39. Nxf5+ Bxf5
+40. Bxb7 Bxd3 41. c5 Kf6 42. Bd5 Bb5 43. Kg2 Ke5 44. Bxf7 Kd4 45. Kg3 Kxc5 46.
+Kf4 Kd6 47. Kf5 Bd3+ 48. Kf6 Bc2 49. f4 Kc5 50. b4+ axb4 51. axb4+ Kxb4 52. Bg6
+Bd1 53. Kg7 h5 54. f5 h4 55. f6 Bb3 56. Bf5 Kc5 57. Kh6 Kd6 58. Kg5 Ke5 1/2-1/2
+
+[Event "Badalona op"]
+[Site "Badalona"]
+[Date "2013.08.10"]
+[Round "9"]
+[White "Valsecchi, A."]
+[Black "Arenas, D."]
+[Result "1-0"]
+[ECO "E90"]
+[WhiteElo "2412"]
+[BlackElo "2443"]
+[PlyCount "73"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. Nc3 O-O 5. e4 d6 6. h3 e5 7. d5 Na6 8. Bg5 Qe8
+9. g4 Kh8 10. Nd2 Ng8 11. h4 f5 12. gxf5 gxf5 13. Be2 Nf6 14. a3 Nc5 15. Qc2
+Nfxe4 16. Ndxe4 fxe4 17. O-O-O Rxf2 18. Be3 Nd3+ 19. Kb1 Rg2 20. h5 Nf4 21.
+Qxe4 Qf8 22. Bd3 Nxd3 23. Qxg2 Nf4 24. Qf3 Bf5+ 25. Ka1 Bh6 26. Rhg1 a6 27. c5
+Re8 28. cxd6 cxd6 29. Rdf1 Bd3 30. Rf2 Qf5 31. Qd1 b5 32. Qd2 a5 33. Nxb5 Bxb5
+34. Qxa5 Qd3 35. Qa7 Bc4 36. Rxf4 Qb3 37. Rxc4 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.13"]
+[Round "1"]
+[White "Valsecchi, A."]
+[Black "Saez Coma, A."]
+[Result "1/2-1/2"]
+[ECO "A25"]
+[WhiteElo "2412"]
+[BlackElo "2025"]
+[PlyCount "81"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. c4 Nf6 2. g3 e5 3. Bg2 Nc6 4. Nc3 Bb4 5. Nf3 Bxc3 6. dxc3 h6 7. O-O O-O 8.
+Ne1 d6 9. Nc2 Bd7 10. e4 Qc8 11. Ne3 Bh3 12. Bxh3 Qxh3 13. f3 Qd7 14. b3 Ne7
+15. a4 Rad8 16. Ra2 Qe6 17. Rd2 Rd7 18. g4 Rfd8 19. Nf5 Nxf5 20. gxf5 Qe8 21.
+Rg2 Kh8 22. Kh1 Nh7 23. Qe1 f6 24. Qh4 c6 25. Rfg1 Qf8 26. Rg6 b6 27. R1g3 d5
+28. cxd5 cxd5 29. exd5 Rxd5 30. Be3 Rd1+ 31. Kg2 R8d7 32. Qg4 Ng5 33. b4 Qd8
+34. Bxg5 fxg5 35. Qh5 R7d2+ 36. Kh3 Rxh2+ 37. Kxh2 Qd2+ 38. Rg2 Qf4+ 39. Rg3
+Qd2+ 40. Rg2 Qf4+ 41. Rg3 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.14"]
+[Round "2"]
+[White "Lien, KH."]
+[Black "Valsecchi, A."]
+[Result "0-1"]
+[ECO "B40"]
+[WhiteElo "1910"]
+[BlackElo "2412"]
+[PlyCount "38"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nf3 e6 3. b3 b6 4. Bb2 Bb7 5. Nc3 a6 6. Be2 Ne7 7. O-O Ng6 8. d4
+cxd4 9. Nxd4 Qc7 10. Bd3 Bc5 11. Nce2 O-O 12. Kh1 Nc6 13. Nxc6 Bxc6 14. f4 f5
+15. exf5 Nh4 16. h3 Bxg2+ 17. Kh2 Bxf1 18. Qxf1 exf5 19. b4 Be7 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.15"]
+[Round "3"]
+[White "Valsecchi, A."]
+[Black "Leiro Giralt, D."]
+[Result "1-0"]
+[ECO "D01"]
+[WhiteElo "2412"]
+[BlackElo "2220"]
+[PlyCount "27"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d5 2. Nc3 Nf6 3. Bg5 Nbd7 4. f3 h6 5. Bh4 c5 6. e4 dxe4 7. d5 exf3 8.
+Nxf3 Nb6 9. Qd2 Nbxd5 10. O-O-O e6 11. Bb5+ Bd7 12. Nxd5 Bxb5 13. Nxf6+ gxf6
+14. Qxd8+ 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.16"]
+[Round "4"]
+[White "Valsecchi, A."]
+[Black "Hayrapetyan, H."]
+[Result "0-1"]
+[ECO "B22"]
+[WhiteElo "2412"]
+[BlackElo "2486"]
+[PlyCount "138"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. c3 d5 3. exd5 Qxd5 4. Nf3 Nf6 5. d4 e6 6. Be2 Nc6 7. O-O Be7 8. Be3
+cxd4 9. Nxd4 Nxd4 10. Qxd4 Qxd4 11. Bxd4 Bd7 12. Bf3 Bc6 13. Bxc6+ bxc6 14. Nd2
+c5 15. Be5 O-O-O 16. Nc4 Rd5 17. Rfe1 Rhd8 18. h3 Ne8 19. a4 g5 20. Na5 f6 21.
+Bg3 e5 22. Nc6 R8d7 23. b4 Kb7 24. b5 Nd6 25. Rad1 Nf5 26. Rxd5 Rxd5 27. Nxe7
+Nxe7 28. c4 Rd7 29. f3 Ng6 30. Bf2 Nf4 31. a5 Ne6 32. g3 Rd3 33. f4 gxf4 34.
+gxf4 Nxf4 35. Bxc5 Rg3+ 36. Kf2 Rc3 37. a6+ Kb8 38. Bd6+ Kc8 39. b6 Nxh3+ 40.
+Kf1 axb6 41. Ra1 Rg3 42. Ra4 Rg8 43. Rb4 Rg1+ 44. Ke2 Ra1 45. Rxb6 h5 46. c5
+Nf4+ 47. Kf3 Nd5 48. Rb8+ Kd7 49. Ke4 Ra4+ 50. Kf5 Rxa6 51. Rb7+ Kc6 52. Rh7
+Ra1 53. Rxh5 Rf1+ 54. Ke4 Rf4+ 55. Kd3 Rd4+ 56. Kc2 Ne3+ 57. Kc3 Kd5 58. Bb8
+Ke6 59. Rh8 Nd5+ 60. Kb3 Rb4+ 61. Ka3 Rc4 62. Bd6 e4 63. Kb3 Rc3+ 64. Kb2 e3
+65. Re8+ Kf5 66. Bf8 Rc4 67. Bh6 Rxc5 68. Bxe3 Nxe3 69. Rxe3 Kg4 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.17"]
+[Round "5"]
+[White "Forsaa, E."]
+[Black "Valsecchi, A."]
+[Result "1/2-1/2"]
+[ECO "A21"]
+[WhiteElo "2293"]
+[BlackElo "2412"]
+[PlyCount "50"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. c4 g6 2. Nc3 Bg7 3. g3 e5 4. Bg2 c6 5. e4 d6 6. Nge2 Be6 7. b3 Ne7 8. d4
+exd4 9. Nxd4 Qd7 10. Bf4 Be5 11. Qd2 Bh3 12. Bxh3 Qxh3 13. O-O-O O-O 14. Bxe5
+dxe5 15. Nf3 f6 16. Qd6 Nc8 17. Qc7 Nb6 18. Nh4 Qe6 19. Rd8 N8d7 20. Rxf8+ Rxf8
+21. Qxb7 Rb8 22. Qc7 Rc8 23. Qb7 Rb8 24. Qc7 Rc8 25. Qb7 Rb8 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.18"]
+[Round "6"]
+[White "Garcia Blanco, O."]
+[Black "Valsecchi, A."]
+[Result "1-0"]
+[ECO "D42"]
+[WhiteElo "2253"]
+[BlackElo "2412"]
+[PlyCount "65"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. c4 Nf6 5. Nc3 e6 6. Nf3 Nc6 7. cxd5 Nxd5 8.
+Bd3 Be7 9. O-O O-O 10. Re1 Bf6 11. Be4 Nce7 12. Qd3 Ng6 13. g3 Qd6 14. h4 Rd8
+15. h5 Nf8 16. Ng5 g6 17. Qf3 Qe7 18. Nxh7 Nxh7 19. hxg6 Nf8 20. Bxd5 Bxd4 21.
+gxf7+ Qxf7 22. Qxf7+ Kxf7 23. Bf3 Nh7 24. Nb5 Bb6 25. Bf4 Nf6 26. Nd6+ Ke7 27.
+Rad1 Rd7 28. g4 Bc5 29. g5 Ng8 30. Nf5+ Kf7 31. Bh5+ Kf8 32. Rc1 Rd5 33. Rxc5
+1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.19"]
+[Round "7"]
+[White "Valsecchi, A."]
+[Black "Salomon, J."]
+[Result "1-0"]
+[ECO "D01"]
+[WhiteElo "2412"]
+[BlackElo "2211"]
+[PlyCount "75"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. Nc3 d5 3. Bg5 Bf5 4. Bxf6 exf6 5. e3 c6 6. Nge2 Bd6 7. Ng3 Bg6 8.
+f4 Qe7 9. Qf3 Bxc2 10. Rc1 Be4 11. Ncxe4 dxe4 12. Qg4 Nd7 13. Nf5 Qf8 14. Nxg7+
+Kd8 15. Nf5 h5 16. Qd1 Nb6 17. Qb3 Kc7 18. Kf2 Rd8 19. Be2 Kb8 20. Ng3 Qe7 21.
+Bxh5 Nd5 22. Nf5 Qc7 23. Qxd5 cxd5 24. Rxc7 Bxc7 25. Bxf7 Rhf8 26. Bh5 Ba5 27.
+Bd1 Rc8 28. Bb3 Bd2 29. h4 Rc1 30. Rxc1 Bxc1 31. Bxd5 Bxb2 32. h5 b5 33. g4 a5
+34. h6 b4 35. Ne7 Rh8 36. g5 fxg5 37. fxg5 Kc7 38. g6 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.20"]
+[Round "8"]
+[White "Vehi Bach, VM."]
+[Black "Valsecchi, A."]
+[Result "0-1"]
+[ECO "B12"]
+[WhiteElo "2308"]
+[BlackElo "2412"]
+[PlyCount "70"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c6 2. d4 d5 3. e5 c5 4. dxc5 Nc6 5. Nf3 e6 6. a3 Bxc5 7. b4 Bb6 8. Bb2 f6
+9. Nbd2 Nge7 10. exf6 gxf6 11. b5 Ne5 12. Nxe5 fxe5 13. Qh5+ Ng6 14. Bxe5 O-O
+15. Bd3 Qh4 16. Bxg6 Qxh5 17. Bxh5 Rf5 18. f4 Rxh5 19. a4 a6 20. bxa6 Rxa6 21.
+Ke2 Bd7 22. Nf3 Bc6 23. Ng5 d4 24. Nf3 Rf5 25. Rhd1 Bxa4 26. Rdb1 Ba7 27. Kd2
+b5 28. Bxd4 Bxd4 29. Nxd4 Rxf4 30. Ke3 e5 31. Ne2 Rh6 32. h3 Rg6 33. Rg1 Bxc2
+34. Ra8+ Kg7 35. Rc1 Re4+ 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.21"]
+[Round "9"]
+[White "Valsecchi, A."]
+[Black "Christiansen, JS."]
+[Result "1-0"]
+[ECO "B77"]
+[WhiteElo "2412"]
+[BlackElo "2155"]
+[PlyCount "69"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. e4 c5 2. Nc3 Nc6 3. Nf3 g6 4. d4 cxd4 5. Nxd4 Bg7 6. Be3 d6 7. Bc4 Bd7 8.
+Bb3 Nf6 9. f3 O-O 10. Qd2 Rc8 11. O-O-O Nxd4 12. Bxd4 b5 13. h4 a5 14. Bxf6
+Bxf6 15. h5 Re8 16. hxg6 hxg6 17. Bxf7+ Kxf7 18. Rh7+ Bg7 19. Rdh1 Rh8 20. Qf4+
+Kg8 21. Rxh8+ Bxh8 22. Nd5 Qf8 23. Qg5 Re8 24. Rh6 Bg7 25. Qxg6 Qf7 26. Rh8+
+Kxh8 27. Qxf7 Bh6+ 28. Kd1 Rg8 29. Nxe7 Rg7 30. Ng6+ Kh7 31. Nf8+ Kh8 32. Qh5
+Be8 33. Qxh6+ Kg8 34. Ne6 Rg6 35. Qf8+ 1-0

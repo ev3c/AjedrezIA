@@ -1,0 +1,952 @@
+[Event "Camp. España indiv. Final"]
+[Site "Barcelona"]
+[Date "1951.09.17"]
+[Round "2"]
+[White "Diez del Corral Rivas, Jesus Maria"]
+[Black "Ribera Arnal, Angel"]
+[Result "0-1"]
+[ECO "B24"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "50"]
+[EventDate "1951.09.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nc3 Nc6 3. g3 d6 4. Bg2 e5 5. d3 Be6 6. f4 g6 7. Nge2 Bg7 8. O-O
+Qd7 9. Nd5 O-O-O 10. c3 h5 $5 (10... Nge7 {parece más normal.}) 11. Be3 (11.
+fxe5 $142 dxe5 12. Be3 $14) 11... h4 12. fxe5 Nxe5 13. Bg5 f6 (13... hxg3 {era
+interesante...} 14. Bxd8 gxh2+ 15. Kh1 Qxd8 16. Ndf4 Bd7 17. d4 Ng4 18. Qb3 Qe8
+{y a cambio de la calidad el negro tiene ventaja.}) 14. Nxf6 $6 Nxf6 15. Bxf6
+Bxf6 16. Rxf6 hxg3 17. hxg3 Ng4 $1 {parece buena, pero aún existe otra mejor...
+} (17... Qh7 $3 {Parece que contra esta jugadael blanco no tiene opción.}) 18.
+Rf3 g5 (18... Qh7 $142) 19. Qd2 Rdg8 20. Re1 $2 (20. Raf1 $142) 20... Qh7 {
+Llega un poco tarde... pero a tiempo.} 21. b4 Qh2+ (21... Rf8 $144) 22. Kf1 Rf8
+23. Ng1 Ne5 $6 (23... Qxg3 $3 {Esta era determinante.} 24. Ke2 (24. Qe2 $4 Nh2#
+) 24... Rxf3 25. Bxf3 Rh2+ {etc.}) 24. Qxg5 $2 (24. Rf2 $142 {pero
+insuficiente.}) 24... Nxf3 25. Nxf3 Rxf3+ 0-1
+
+[Event "Camp. España indiv. Final"]
+[Site "Barcelona"]
+[Date "1951.09.18"]
+[Round "3"]
+[White "Pomar Salamanca, Arturo"]
+[Black "Diez del Corral Rivas, Jesus Maria"]
+[Result "0-1"]
+[ECO "C03"]
+[PlyCount "56"]
+[EventDate "1951.09.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. e4 e6 2. d4 d5 3. Nd2 f5 4. exf5 exf5 5. Bd3 Nc6 6. c3 Nf6 7. Ne2 Bd6 8. Qc2
+Ne4 9. Nf1 O-O 10. f3 Qh4+ 11. g3 Qh5 12. fxe4 fxe4 13. Bxe4 dxe4 14. Nf4 Qf3
+15. Rg1 g5 16. Nd5 Be6 17. Nfe3 Bxd5 18. Nxd5 e3 19. Nxe3 Nxd4 20. Qd2 Rae8 21.
+Qxd4 Qf2+ 22. Kd1 Qxg1+ 23. Kc2 Be5 24. Qd5+ Kh8 25. Ng4 Bg7 26. Rb1 Rd8 27.
+Qxd8 Rxd8 28. Bxg5 Qg2+ 0-1
+
+[Event "Catalunya - Castilla m"]
+[Site "Barcelona"]
+[Date "1953.??.??"]
+[Round "?"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Diez del Corral Rivas, Jesus Maria"]
+[Result "1-0"]
+[ECO "C02"]
+[PlyCount "67"]
+[EventDate "1953.03.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. Nf3 Nc6 5. Bd3 Qb6 6. O-O cxd4 7. c3 Nge7 8. cxd4
+Bd7 9. Be3 Qxb2 10. Nbd2 Qa3 11. Nb3 Nf5 12. Bxf5 exf5 13. Ng5 Be6 14. Qh5 g6
+15. Qf3 Be7 16. Nh3 a5 17. Rfc1 Rc8 18. Nf4 a4 19. Nc5 Bxc5 20. Rxc5 b6 21.
+Rxd5 Bxd5 22. Nxd5 h6 23. h4 Qb2 24. Rd1 Kf8 25. h5 Kg7 26. hxg6 fxg6 27. Nf4
+Qxa2 28. d5 Nxe5 29. Bd4 Qb3 30. Bxe5+ Kf7 31. Rd3 Rc1+ 32. Kh2 Qb1 33. d6 Rh1+
+34. Kg3 1-0
+
+[Event "C. A. Barcelona - R. Madrid C. F. m"]
+[Site "Barcelona"]
+[Date "1956.03.18"]
+[Round "1.1"]
+[White "Diez del Corral Rivas, Jesus Maria"]
+[Black "Albareda Creus, Miguel"]
+[Result "0-1"]
+[ECO "E87"]
+[PlyCount "60"]
+[EventDate "1956.03.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 O-O 5. f3 d6 6. Be3 e5 7. d5 Ne8 8. Qc2 f5
+9. O-O-O Nd7 10. exf5 gxf5 11. g4 fxg4 12. Bd3 Qh4 13. fxg4 Nc5 14. Bxc5 dxc5
+15. Nge2 Bxg4 16. Rhg1 Kh8 17. h3 Bf3 18. Rde1 Nd6 19. Ng3 Nxc4 20. Nce4 b5 21.
+Bxc4 bxc4 22. Qxc4 Rf4 23. Re3 Rg8 24. Kb1 Bh6 25. d6 Bxe4+ 26. Rxe4 cxd6 27.
+Rxf4 Qxf4 28. Qxg8+ Kxg8 29. Nh5+ Qg5 30. Nf6+ Kf7 0-1
+
+[Event "Camp. España indiv."]
+[Site "Barcelona"]
+[Date "1956.??.??"]
+[Round "?"]
+[White "Albareda Creus, Miguel"]
+[Black "Diez del Corral Rivas, Jesus Maria"]
+[Result "1-0"]
+[ECO "B59"]
+[PlyCount "163"]
+[EventDate "1956.09.??"]
+[EventType "tourn"]
+[EventRounds "14"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Be2 e5 7. Nb3 Be7 8.
+O-O O-O 9. Be3 Be6 10. Bf3 a5 11. Nd5 Bxd5 12. exd5 Nb4 13. c3 Na6 14. Qd3 Nd7
+15. Bg4 a4 16. Nd2 Nac5 17. Qc2 g6 18. Bxd7 Nxd7 19. f3 f5 20. c4 Bg5 21. Qd3
+Bxe3+ 22. Qxe3 Qh4 23. b4 Rac8 24. Rac1 Qd4 25. Rfe1 Qxe3+ 26. Rxe3 Rc7 27. c5
+dxc5 28. bxc5 Rxc5 29. Rxc5 Nxc5 30. Rxe5 Rd8 31. Nc4 Nd3 32. Re7 Rxd5 33. Rxb7
+Rc5 34. Rd7 Nc1 35. Nb6 a3 36. Nd5 Kf8 37. Nf6 Rc6 38. Nxh7+ Ke8 39. Ra7 Nd3
+40. h4 Rc1+ 41. Kh2 Rc3 42. Nf6+ Kf8 43. Nd5 Rc5 44. Nc7 Nf4 45. h5 gxh5 46.
+Ra4 Rxc7 47. Rxf4 Rc5 48. Ra4 Rc3 49. Ra5 Kg7 50. Rxf5 Kg6 51. Ra5 Rd3 52. Kg3
+Rc3 53. Kh4 Rc2 54. Ra6+ Kf7 55. Rxa3 Rxg2 56. Kxh5 Kf6 57. Ra5 Rg3 58. Ra3 Kf5
+59. Kh4 Rg1 60. Ra4 Rg2 61. Kh3 Rg1 62. Rg4 Ra1 63. a4 Ra3 64. Kg3 Ra1 65. Rb4
+Rg1+ 66. Kf2 Ra1 67. Ke3 Ra3+ 68. Kf2 Ra1 69. f4 Rh1 70. Rd4 Kg4 71. Ke3 Rh5
+72. Rd1 Rh3+ 73. Ke4 Ra3 74. Rd4 Ra1 75. Kd5 Rh1 76. Kc5 Rh5+ 77. Kb4 Kf3 78.
+a5 Ke3 79. Rc4 Kd3 80. a6 Rh1 81. Kb5 Rb1+ 82. Rb4 1-0
+
+[Event "Torneo entrenamiento Olimp. Munich"]
+[Site "Barcelona"]
+[Date "1958.08.08"]
+[Round "5"]
+[White "Diez del Corral Rivas, Jesus Maria"]
+[Black "Ribera Arnal, Angel"]
+[Result "1/2-1/2"]
+[ECO "A08"]
+[PlyCount "136"]
+[EventDate "1958.08.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. d3 d5 4. Nbd2 Nc6 5. g3 Nf6 6. Bg2 Be7 7. O-O O-O 8. Re1
+Qc7 9. c3 b6 10. e5 Nd7 11. Qe2 Ba6 12. Nf1 b5 13. h4 c4 14. d4 b4 15. Bg5 bxc3
+16. bxc3 Rfb8 17. N1h2 Rb5 18. Qe3 Rab8 19. Bh3 Qd8 20. Ng4 Rb2 21. Qf4 Rc2 22.
+Ne3 Rcb2 23. Bxe7 Nxe7 24. Ng5 Qe8 25. h5 h6 26. Nf3 Kh8 27. g4 Ng8 28. g5 Qe7
+29. Nxd5 exd5 30. e6 fxe6 31. Rxe6 Qf8 32. Qe3 Rb1+ 33. Rxb1 Rxb1+ 34. Kg2 Rb6
+35. Nh4 Qd8 36. Ng6+ Kh7 37. Re8 Qxg5+ 38. Qxg5 hxg5 39. Bxd7 Bb5 40. Bxb5 Rxb5
+41. Rd8 Ra5 42. a4 Rxa4 43. Nf8+ Kh6 44. Ne6 Kh7 45. Nxg5+ Kh6 46. f4 Kxh5 47.
+Rxg8 Kg4 48. Nf7 Ra2+ 49. Kf1 Rc2 50. Ne5+ Kxf4 51. Rxg7 Rxc3 52. Ke2 Rc2+ 53.
+Kd1 Ra2 54. Nc6 a5 55. Re7 c3 56. Kc1 a4 57. Nb4 Rd2 58. Nxd5+ Kg5 59. Re5+ Kg6
+60. Re6+ Kf7 61. Rf6+ Ke8 62. Rd6 a3 63. Nc7+ Ke7 64. Nb5 Rb2 65. Nxa3 Kxd6 66.
+Nc4+ Kd5 67. Nxb2 cxb2+ 68. Kxb2 Kxd4 1/2-1/2
+
+[Event "Camp. Europa eq. sf. España-Suiza m"]
+[Site "Barcelona"]
+[Date "1961.??.??"]
+[Round "?"]
+[White "Walther, Edgar"]
+[Black "Diez del Corral Rivas, Jesus Maria"]
+[Result "0-1"]
+[ECO "C06"]
+[PlyCount "52"]
+[EventDate "1961.02.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 Qb6 8. Nf3
+cxd4 9. cxd4 f6 10. exf6 Nxf6 11. O-O Bd6 12. Nc3 Bd7 13. Be3 O-O 14. a3 Qd8 $1
+15. Bg5 Qe8 16. Re1 Qh5 17. h3 Nxd4 18. Nxd4 Qxg5 19. Nxe6 Bxe6 20. Rxe6 Bc5 $1
+21. Re2 Nh5 $1 22. Rc2 Rxf2 23. Rxf2 Rf8 24. Bf1 Bxf2+ 25. Kh1 Ng3+ 26. Kh2 Qf4
+0-1
+
+[Event "Camp. Europa eq. prel. gr. 1"]
+[Site "Barcelona"]
+[Date "1967.??.??"]
+[Round "1.3"]
+[White "Diez del Corral Rivas, Jesus Maria"]
+[Black "Walther, Edgar"]
+[Result "1-0"]
+[ECO "B16"]
+[PlyCount "81"]
+[EventDate "1967.09.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Nxf6+ gxf6 6. Be2 Bf5 7. Bf3 e6 8.
+Ne2 Nd7 9. O-O Bd6 10. Ng3 Bg6 11. c4 Qc7 12. Re1 O-O-O 13. Qa4 Kb8 14. c5 Bxg3
+15. hxg3 h5 16. b4 h4 17. g4 e5 18. Bd2 exd4 19. Re7 Rhe8 20. Rae1 Nxc5 21.
+Rxc7 Rxe1+ 22. Bxe1 Nxa4 23. Re7 Nc3 24. Bd2 Nxa2 25. b5 Rc8 26. Rd7 Nc3 27.
+Bf4+ Ka8 28. bxc6 bxc6 29. Rxd4 a6 30. Rc4 Nb1 31. Bxc6+ Ka7 32. Be3+ Kb8 33.
+Rb4+ Kc7 34. Bb7 Re8 35. Bxa6 Na3 36. Rb3 Nc2 37. Bf4+ Kd8 38. Rb8+ Ke7 39.
+Bd6+ Kd7 40. Bb5+ Kxd6 41. Rxe8 1-0
+
+[Event "Camp. Europa eq. prel. gr. 1"]
+[Site "Barcelona"]
+[Date "1967.??.??"]
+[Round "2.3"]
+[White "Prins, Lodewijk"]
+[Black "Diez del Corral Rivas, Jesus Maria"]
+[Result "0-1"]
+[ECO "C00"]
+[PlyCount "66"]
+[EventDate "1967.09.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. b3 d5 3. Bb2 Nf6 4. e5 Ng8 5. g3 c5 6. Bg2 Nc6 7. Nf3 h5 8. O-O Be7
+9. d4 Nh6 10. dxc5 Bxc5 11. Nbd2 Nf5 12. c4 h4 13. gxh4 Nxh4 14. Nxh4 Qxh4 15.
+Nf3 Qh5 16. cxd5 exd5 17. Qxd5 Bh3 18. Qe4 O-O-O 19. Rac1 Bxg2 20. Kxg2 Qh3+
+21. Kh1 Rd2 22. Qf4 Rxb2 23. Ng5 Qd3 24. Nxf7 Qd5+ 25. Kg1 Rf8 26. Qg4+ Kb8 27.
+e6 Nd4 28. Rfd1 Qxe6 29. Rxd4 Qxg4+ 30. Rxg4 Bxf2+ 31. Kh1 Rxf7 32. Rf1 Rxa2
+33. Rg2 Bd4 0-1
+
+[Event "Camp. Europa eq. prel. gr. 1"]
+[Site "Barcelona"]
+[Date "1967.??.??"]
+[Round "3.3"]
+[White "Diez del Corral Rivas, Jesus Maria"]
+[Black "Willaert, Robert"]
+[Result "1/2-1/2"]
+[ECO "A57"]
+[PlyCount "74"]
+[EventDate "1967.09.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 g6 5. Nc3 Bg7 6. e4 d6 7. Nf3 O-O 8. Be2 a6
+9. bxa6 Bxa6 10. O-O Nbd7 11. Bxa6 Rxa6 12. Qe2 Rb6 13. Nd2 Qa8 14. Nc4 Rb4 15.
+Bd2 Qa6 16. b3 Ne5 17. Nd1 Rxb3 18. axb3 Qxa1 19. Nc3 Qa6 20. Nxe5 Qxe2 21.
+Nxe2 dxe5 22. f3 Ra8 23. Be3 Nd7 24. Rc1 Ra3 25. Rc3 h5 26. Nc1 Kh7 27. Bxc5
+Nxc5 28. Rxc5 Bh6 29. Kf2 Kg7 30. h4 f6 31. Rc7 Bxc1 32. Rxc1 Rxb3 33. Rc2 Kf7
+34. g3 Rb4 35. Rc7 Kf8 36. Ke3 Rb3+ 37. Ke2 Rb2+ 1/2-1/2
+
+[Event "Camp. España eq. Final"]
+[Site "Igualada"]
+[Date "1971.09.23"]
+[Round "1"]
+[White "Diez del Corral Rivas, Jesus Maria"]
+[Black "Simon Padros, Emilio"]
+[Result "1-0"]
+[ECO "A61"]
+[PlyCount "75"]
+[EventDate "1971.09.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e6 4. Nc3 exd5 5. cxd5 d6 6. Nf3 g6 7. Bg5 h6 8. Bh4
+Bg7 9. Nd2 g5 10. Bg3 Nh5 11. Qa4+ Kf8 12. e3 Nxg3 13. hxg3 Nd7 14. Qc2 Ne5 15.
+Be2 a6 16. a4 b6 17. O-O g4 18. f4 gxf3 19. gxf3 Qg5 20. Kf2 Qf5 21. Qxf5 Bxf5
+22. Nde4 Ke7 23. g4 Bxe4 24. Nxe4 Nd7 25. Ng3 Bxb2 26. Rab1 Bf6 27. Nf5+ Kd8
+28. Nxd6 Kc7 29. Ne4 Be5 30. f4 Bd6 31. Rh1 Rag8 32. Bxa6 Rxg4 33. Bb5 Nb8 34.
+Nxd6 Kxd6 35. Be2 Rg6 36. Rxb6+ Kc7 37. Rxg6 fxg6 38. e4 1-0
+
+[Event "Camp. España eq. Final"]
+[Site "Igualada"]
+[Date "1971.09.24"]
+[Round "2"]
+[White "Diez del Corral Rivas, Jesus Maria"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1-0"]
+[ECO "C41"]
+[PlyCount "98"]
+[EventDate "1971.09.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 d6 2. d4 e5 3. Nf3 Nd7 4. Bc4 Be7 5. O-O c6 6. a4 a5 7. Re1 Ngf6 8. Bf1
+O-O 9. b3 exd4 10. Nxd4 d5 11. e5 Ne4 12. f3 Nec5 13. Bb2 Re8 14. f4 Nf8 15. c4
+dxc4 16. Bxc4 Nce6 17. Ne2 Qxd1 18. Rxd1 Nc5 19. Nd4 Nce6 20. Nxe6 Bxe6 21. Nd2
+Bc5+ 22. Kf1 Be3 23. Bxe6 Nxe6 24. g3 Bxd2 25. Rxd2 Rad8 26. Rad1 Rxd2 27. Rxd2
+g6 28. Ba3 Rd8 29. Rxd8+ Nxd8 30. Bc5 Ne6 31. Bb6 h5 32. Ke2 f6 33. exf6 Kf7
+34. Ke3 Kxf6 35. Ke4 Nf8 36. Bxa5 Nd7 37. Bc3+ Ke6 38. Bd4 c5 39. Bg7 Nb8 40.
+h3 Nc6 41. Bc3 Nd8 42. Ba5 Nf7 43. Bc7 Nh6 44. Be5 Nf5 45. Kf3 Kd5 46. g4 Ne7
+47. Bf6 Nc6 48. f5 gxf5 49. gxh5 Ke6 1-0
+
+[Event "Camp. España eq. prev."]
+[Site "Igualada"]
+[Date "1971.09.20"]
+[Round "1"]
+[White "Diez del Corral Rivas, Jesus Maria"]
+[Black "Balsells Bergada, Francisco"]
+[Result "1-0"]
+[ECO "B73"]
+[PlyCount "67"]
+[EventDate "1971.09.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be2 Bg7 7. O-O O-O 8.
+Be3 Nc6 9. Qd2 Nxd4 10. Bxd4 a6 11. a4 Bd7 12. a5 Bc6 13. Qe3 Qd7 14. Rad1 Ne8
+15. Bxg7 Nxg7 16. Qh6 Bb5 17. Nxb5 axb5 18. Rd3 f6 19. Rh3 Kf7 20. Qe3 h5 21.
+Qb3+ e6 22. Bxb5 Qc7 23. Rc3 Qxa5 24. f4 Ke7 25. Rg3 Qb6+ 26. Kh1 g5 27. f5 e5
+28. Qd5 Rac8 29. c4 h4 30. Rc3 Rc5 31. Qd2 Nh5 32. b4 Rcc8 33. Qd5 Ng7 34. c5
+1-0
+
+[Event "Camp. España eq. prev."]
+[Site "Igualada"]
+[Date "1971.09.22"]
+[Round "3"]
+[White "Coret, V."]
+[Black "Diez del Corral Rivas, Jesus Maria"]
+[Result "0-1"]
+[ECO "C18"]
+[PlyCount "60"]
+[EventDate "1971.09.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Ne7 7. Qg4 cxd4 8.
+Qxg7 Rg8 9. Qxh7 Qc7 10. Ne2 Nbc6 11. f4 Bd7 12. Qd3 dxc3 13. Ng3 O-O-O 14. Be2
+Nf5 15. Nxf5 exf5 16. O-O d4 17. Bf3 Be6 18. Rb1 Qa5 (18... f6) 19. a4 $2 (19.
+Rd1) 19... Qxa4 20. Ba3 Qxa3 21. Rxb7 Rd7 $6 (21... Qa4 $1) 22. Rb5 $2 (22. Qb5
+Rxb7 23. Qxc6+ Rc7 24. Qa8+ Kd7 25. Qxg8 d3 $1) 22... Nb4 23. Rb1 a5 (23...
+Nxd3 $4 24. Rb8+ Kc7 25. R1b7#) 24. Rc5+ (24. Rb6 Qa2) 24... Kd8 25. Qb5 Ke7
+26. Qb6 Qb2 27. Rd1 Qxc2 28. Rxd4 Qc1+ 29. Kf2 Nd3+ 30. Rxd3 Qc2+ 0-1
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1972.??.??"]
+[Round "?"]
+[White "Diez del Corral Rivas, Jesus Maria"]
+[Black "Ljubojevic, Ljubomir"]
+[Result "1/2-1/2"]
+[ECO "B98"]
+[PlyCount "58"]
+[EventDate "1972.03.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Be7 8. Qf3
+h6 9. Bh4 Nbd7 10. Bf2 Qc7 11. Bd3 b5 12. a3 Rb8 13. O-O O-O 14. Rae1 b4 15.
+axb4 Rxb4 16. e5 Bb7 17. exf6 Bxf6 18. Nxe6 fxe6 19. Qg4 Ne5 20. Qxe6+ Qf7 21.
+Qxf7+ Nxf7 22. Ne4 Bxb2 23. Re2 a5 24. Rb1 a4 25. c3 Bxe4 26. cxb4 Bxd3 27.
+Rbxb2 a3 28. Rbd2 Bxe2 29. Rxe2 Rb8 1/2-1/2
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1972.??.??"]
+[Round "?"]
+[White "Diez del Corral Rivas, Jesus Maria"]
+[Black "Medina Garcia, Antonio"]
+[Result "1-0"]
+[ECO "D35"]
+[PlyCount "75"]
+[EventDate "1972.03.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. Bg5 Be7 5. cxd5 exd5 6. e3 c6 7. Bd3 Nbd7 8.
+Nge2 h6 9. Bh4 O-O 10. O-O Re8 11. Rb1 a5 12. f3 b5 13. Bf2 b4 14. Na4 c5 15.
+b3 Ba6 16. Rc1 cxd4 17. Nxd4 Ne5 18. Bxa6 Rxa6 19. Bg3 Bd6 20. Nf5 Bf8 21. Qd4
+Rae6 22. Nc5 Bxc5 23. Rxc5 Nc6 24. Qd2 Qb6 25. Rfc1 Ne5 26. Bxe5 Rxe5 27. Rc6
+Qd8 28. Nd6 Rf8 29. Qd4 Re6 30. Nf5 Rxc6 31. Rxc6 Kh7 32. Qf4 Ng8 33. Qe5 Nf6
+34. Qf4 Ng8 35. h4 Re8 36. Nd6 Rf8 37. Nxf7 Qe8 38. Qf5+ 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1972.??.??"]
+[Round "?"]
+[White "Diez del Corral Rivas, Jesus Maria"]
+[Black "Pfleger, Helmut"]
+[Result "1-0"]
+[ECO "C84"]
+[PlyCount "101"]
+[EventDate "1972.03.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 d6 7. c3 O-O 8. Nbd2
+Bg4 9. Re1 Nd7 10. h3 Bh5 11. Nf1 Nc5 12. Bxc6 bxc6 13. Ng3 Bxf3 14. Qxf3 Ne6
+15. Nf5 Bg5 16. d4 g6 17. dxe5 Bxc1 18. Raxc1 gxf5 19. exf5 Ng7 20. f6 Ne8 21.
+Rcd1 Kh8 22. Re4 Rg8 23. Rh4 Rg5 24. Rh6 c5 25. Qe4 Rg6 26. Qh4 Nxf6 27. exf6
+Qg8 28. Rxg6 Qxg6 29. Re1 Rg8 30. g3 Qc2 31. Qh6 Qxb2 32. Re8 Qb1+ 33. Kg2 Qg6
+34. Qxg6 hxg6 35. Re7 Rf8 36. Rxc7 g5 37. Rd7 Kh7 38. Rxd6 Kg6 39. Rxa6 Rd8 40.
+Rc6 Ra8 41. Rxc5 Kxf6 42. g4 Rxa2 43. Rf5+ Kg6 44. c4 Rc2 45. c5 f6 46. Kg3 Rc1
+47. f3 Rh1 48. Kg2 Rc1 49. Kf2 Kf7 50. Ke3 Ke6 51. Kd4 1-0
+
+[Event "Olot Tancat"]
+[Site "Olot"]
+[Date "1972.??.??"]
+[Round "?"]
+[White "Mariotti, Sergio"]
+[Black "Diez del Corral Rivas, Jesus Maria"]
+[Result "1/2-1/2"]
+[ECO "C06"]
+[PlyCount "80"]
+[EventDate "1972.03.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 cxd4 8. cxd4
+Nb6 9. a3 a5 10. h4 Bd7 11. Nf3 a4 12. Bg5 Qb8 13. h5 h6 14. Bf4 Qd8 15. g4 Nc4
+16. Qc2 Qb6 17. Rb1 Qb3 18. Qxb3 axb3 19. Nc1 N6a5 20. Nd2 Ba4 21. Rh3 Rc8 22.
+Bxc4 dxc4 23. Ne2 Bc6 24. Rc1 b5 25. a4 Bb4 26. axb5 Bxb5 27. Nc3 Bc6 28. Ke2
+Rd8 29. Be3 Bxc3 30. Rc2 O-O 31. Rh4 Bd5 32. g5 hxg5 33. Bxg5 f6 34. Be3 Kh7
+35. Ne4 Bxe4 36. Rxe4 f5 37. Rf4 Rd5 38. Rc1 Rfd8 39. Rh4 R8d7 40. Rf4 Rd8
+1/2-1/2
+
+[Event "Camp. España eq. Final A"]
+[Site "Barcelona"]
+[Date "1973.??.??"]
+[Round "3"]
+[White "Diez del Corral Rivas, Jesus Maria"]
+[Black "Visier Segovia, Fernando"]
+[Result "1-0"]
+[ECO "B42"]
+[PlyCount "49"]
+[EventDate "1973.09.??"]
+[EventType "team"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Bd3 Nc6 6. Nxc6 bxc6 7. O-O d5 8.
+Qe2 Nf6 9. Nd2 Be7 10. b3 Bb7 11. Bb2 O-O 12. Rae1 Re8 13. f4 c5 14. e5 Nd7 15.
+f5 exf5 16. e6 Bf6 17. exf7+ Kxf7 18. Qh5+ Kg8 19. Bxf5 Rxe1 20. Qxh7+ Kf8 21.
+Rxe1 Bxb2 22. Nf3 Bf6 23. Qh8+ Kf7 24. Qh5+ Kf8 25. Bg6 1-0
+
+[Event "Camp. España eq. Final A"]
+[Site "Barcelona"]
+[Date "1973.??.??"]
+[Round "4"]
+[White "Llado Lumbera, Jaime"]
+[Black "Diez del Corral Rivas, Jesus Maria"]
+[Result "0-1"]
+[ECO "C00"]
+[PlyCount "58"]
+[EventDate "1973.09.??"]
+[EventType "team"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d3 b6 3. Nf3 Bb7 4. Be2 c5 5. c3 d6 6. Nbd2 Be7 7. O-O Nd7 8. Re1
+Ngf6 9. Bf1 O-O 10. g3 Qc7 11. Bg2 Ne5 12. Qc2 Nfd7 13. d4 cxd4 14. Nxd4 Nc5
+15. f4 Ng4 16. h3 Nf6 17. Kh2 Rac8 18. Nf1 Ba6 19. Re3 d5 20. e5 Nfe4 21. Bd2
+Qd7 22. Rae1 f5 23. exf6 Bxf6 24. Nf3 d4 25. Nxd4 Bxd4 26. Bxe4 Nxe4 27. Rxe4
+Bf2 28. Qd1 Bxe1 29. Rxe1 Rcd8 0-1
+
+[Event "Ciudad de Hospitalet"]
+[Site "Hospitalet de Llobregat"]
+[Date "1973.10.21"]
+[Round "1"]
+[White "Diez del Corral Rivas, Jesus Maria"]
+[Black "Smejkal, Jan"]
+[Result "0-1"]
+[ECO "C85"]
+[WhiteElo "2495"]
+[BlackElo "2595"]
+[PlyCount "108"]
+[EventDate "1973.10.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Bxc6 dxc6 7. Qe1 c5 8.
+b3 Nd7 9. Bb2 Bd6 10. d3 O-O 11. a4 Re8 12. Nbd2 Nb8 13. Nc4 Nc6 14. Kh1 Bd7
+15. a5 Re6 16. Qd2 Qe7 17. Ne3 Rh6 18. Rae1 Nd4 19. Nd5 Qd8 20. Nxd4 exd4 21.
+e5 Bc6 22. exd6 Bxd5 23. Qe2 Re6 24. Qh5 Qxd6 25. Bc1 Rae8 26. Bd2 h6 27. Qd1
+Qc6 28. f3 b5 29. Rxe6 Bxe6 30. Re1 c4 31. bxc4 bxc4 32. Qb1 c3 33. Bf4 Ba2 34.
+Qa1 Bd5 35. Be5 Qc5 36. Bg3 Rxe1+ 37. Qxe1 Qxa5 38. Be5 c5 39. h4 Qd8 40. Qg3
+f6 41. Bc7 Qd7 42. Bb6 Qc6 43. Qb8+ Kh7 44. Kh2 Bb3 45. cxb3 c2 46. Qf4 Qxb6
+47. Qf5+ Kh8 48. Qc8+ Kh7 49. Qf5+ Kg8 50. Qd5+ Kh8 51. Qc4 c1=Q 52. Qxc1 Qxb3
+53. Qxc5 Qxd3 54. h5 Qb5 0-1
+
+[Event "Ciudad de Hospitalet"]
+[Site "Hospitalet de Llobregat"]
+[Date "1973.10.22"]
+[Round "2"]
+[White "Hug, Werner"]
+[Black "Diez del Corral Rivas, Jesus Maria"]
+[Result "1/2-1/2"]
+[ECO "C15"]
+[WhiteElo "2440"]
+[BlackElo "2495"]
+[PlyCount "89"]
+[EventDate "1973.10.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. Nge2 dxe4 5. a3 Be7 6. Nxe4 Nc6 7. c3 Nf6 8.
+N2g3 b6 9. Bd3 Bb7 10. O-O Qd7 11. Qe2 h5 12. Nxf6+ gxf6 13. Nxh5 O-O-O 14. Ba6
+Bxa6 15. Qxa6+ Kb8 16. Ng3 Rh4 17. Re1 Bd6 18. f4 Rdh8 19. Nf1 Bxf4 20. Bxf4
+Rxf4 21. Rad1 Rfh4 22. Qe2 Qd6 23. Qf3 f5 24. g3 Rh3 25. Rd2 Rg8 26. Kg2 Rh4
+27. Kf2 Rh7 28. Ke2 Na5 29. Kd3 Qd7 30. Kc2 Nc4 31. Rf2 Qb5 32. Kc1 Rg4 33.
+Ree2 Rhg7 34. Ne3 Nxe3 35. Qxe3 Qd5 36. Kc2 Re4 37. Qf3 Rgg4 38. Rxe4 Rxe4 39.
+Qd3 Re1 40. Re2 Ra1 41. c4 Qc6 42. Kb3 a5 43. d5 a4+ 44. Kc2 Qd6 45. Rd2
+1/2-1/2
+
+[Event "Ciudad de Hospitalet"]
+[Site "Hospitalet de Llobregat"]
+[Date "1973.10.23"]
+[Round "3"]
+[White "Diez del Corral Rivas, Jesus Maria"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1/2-1/2"]
+[ECO "B18"]
+[WhiteElo "2495"]
+[BlackElo "2435"]
+[PlyCount "43"]
+[EventDate "1973.10.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. h4 h6 7. Bc4 Nf6 8. Nh3
+e6 9. Nf4 Bh7 10. O-O Bd6 11. Ngh5 O-O 12. Nxf6+ Qxf6 13. Nh5 Qxh4 14. g3 Qh3
+15. Re1 Bg6 16. Nf4 Bxf4 17. Bxf4 Nd7 18. Re3 Nf6 19. Bf1 Qf5 20. Bd3 Qh3 21.
+Bf1 Qf5 22. Bd3 1/2-1/2
+
+[Event "Ciudad de Hospitalet"]
+[Site "Hospitalet de Llobregat"]
+[Date "1973.10.24"]
+[Round "4"]
+[White "Kurajica, Bojan"]
+[Black "Diez del Corral Rivas, Jesus Maria"]
+[Result "0-1"]
+[ECO "C19"]
+[WhiteElo "2475"]
+[BlackElo "2495"]
+[PlyCount "83"]
+[EventDate "1973.10.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 Ne7 5. a3 Bxc3+ 6. bxc3 c5 7. Nf3 Nbc6 8. a4
+Qa5 9. Bd2 Bd7 10. Be2 O-O 11. O-O Qc7 12. Re1 b6 13. Bd3 h6 14. Bxh6 gxh6 15.
+Qd2 Kg7 16. Qf4 Ng8 17. Re3 Kh8 18. Nh4 Nce7 19. Rh3 f5 20. g4 Rf7 21. Kh1 Raf8
+22. gxf5 c4 23. Be2 Rxf5 24. Nxf5 Nxf5 25. Rg1 Be8 26. Bg4 Qh7 27. Bxf5 Rxf5
+28. Qe3 Bg6 29. Rhg3 Ne7 30. f3 Rf8 31. Qc1 Bh5 32. Rf1 Ng6 33. Qa3 Qf7 34. Qd6
+Ne7 35. Qa3 Nf5 36. Rh3 Rg8 37. Qc1 Qg6 38. Qd2 Kh7 39. Qf2 Qg5 40. Ra1 Be8 41.
+a5 bxa5 42. Rxa5 0-1
+
+[Event "Ciudad de Hospitalet"]
+[Site "Hospitalet de Llobregat"]
+[Date "1973.10.26"]
+[Round "5"]
+[White "Diez del Corral Rivas, Jesus Maria"]
+[Black "Lengyel, Levente"]
+[Result "1/2-1/2"]
+[ECO "D65"]
+[WhiteElo "2495"]
+[BlackElo "2450"]
+[PlyCount "107"]
+[EventDate "1973.10.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. Nf3 Nf6 5. Bg5 O-O 6. e3 Nbd7 7. Rc1 a6 8. cxd5
+exd5 9. Bd3 c6 10. Qc2 Re8 11. O-O Nf8 12. Na4 Nh5 13. Bxe7 Rxe7 14. Ne5 g6 15.
+Qb3 Ng7 16. Nc5 f6 17. Nf3 Kh8 18. Rfe1 Nfe6 19. Qc3 Nc7 20. a4 a5 21. b4 axb4
+22. Qxb4 Nce8 23. Nd2 Ne6 24. Ndb3 Nd6 25. a5 Nxc5 26. dxc5 Nf7 27. Qc3 Kg7 28.
+Ra1 Qc7 29. Nd4 Nd8 30. Reb1 Qe5 31. Rb6 Rc7 32. Re1 Re7 33. f4 Qc7 34. h3 Ne6
+35. Nb3 Bd7 36. Qb4 Be8 37. a6 bxa6 38. Bxa6 Ra7 39. Bd3 Bd7 40. Na5 Be8 41. g3
+Nf8 42. Re2 Ne6 43. Kh2 Nd8 44. Nb3 Bd7 45. Nd4 Ne6 46. Nf3 Re8 47. f5 gxf5 48.
+Bxf5 Nxc5 49. Qxc5 Bxf5 50. Rxc6 Qe7 51. Qd4 Rc7 52. Rxc7 Qxc7 53. Rf2 Be4 54.
+Nd2 1/2-1/2
+
+[Event "Ciudad de Hospitalet"]
+[Site "Hospitalet de Llobregat"]
+[Date "1973.10.27"]
+[Round "6"]
+[White "Diez del Corral Rivas, Jesus Maria"]
+[Black "Medina Garcia, Antonio"]
+[Result "1-0"]
+[ECO "D01"]
+[WhiteElo "2495"]
+[BlackElo "2395"]
+[PlyCount "81"]
+[EventDate "1973.10.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. d4 Nf6 2. Nc3 d5 3. Bg5 Bf5 4. e3 Nbd7 5. Bd3 Bg6 6. Nge2 c6 7. h4 Qb6 8.
+Qd2 e6 9. Bf4 Bxd3 10. cxd3 c5 11. Rc1 cxd4 12. exd4 Be7 13. h5 Rc8 14. h6 g6
+15. O-O O-O 16. Rc2 Rc6 17. Rfc1 Rfc8 18. f3 Qa6 19. a3 b5 20. b4 Qb7 21. g4
+Ne8 22. Kg2 Kf8 23. Ra2 a6 24. Rcc2 Qb6 25. Nb1 Bf6 26. Rxc6 Qxc6 27. Be3 Nb6
+28. Nc1 Na4 29. Nb3 Be7 30. Nc5 Nxc5 31. dxc5 e5 32. d4 e4 33. Qe2 Nc7 34. Nc3
+Re8 35. Rd2 f5 36. gxf5 gxf5 37. fxe4 fxe4 38. Qh5 Bf6 39. Bf4 Ne6 40. Rf2 Kg8
+41. Bd6 1-0
+
+[Event "Ciudad de Hospitalet"]
+[Site "Hospitalet de Llobregat"]
+[Date "1973.10.29"]
+[Round "7"]
+[White "Westerinen, Heikki MJ"]
+[Black "Diez del Corral Rivas, Jesus Maria"]
+[Result "0-1"]
+[ECO "C19"]
+[WhiteElo "2435"]
+[BlackElo "2495"]
+[PlyCount "130"]
+[EventDate "1973.10.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 Ne7 5. a3 Bxc3+ 6. bxc3 c5 7. Nf3 Nbc6 8. a4
+Qa5 9. Bd2 Bd7 10. Be2 Qc7 11. O-O b6 12. Re1 h6 13. Bf1 Rc8 14. Bf4 Na5 15. h4
+cxd4 16. Ba6 dxc3 17. Bxc8 Qxc8 18. Bc1 Qc4 19. Re3 Nf5 20. Rd3 O-O 21. Nd4
+Bxa4 22. Nxf5 exf5 23. Ra3 Qe4 24. Rdxc3 b5 25. Rg3 f4 26. Rg4 Bxc2 27. Qf1 Nc4
+28. Rxf4 Qxe5 29. Rg3 f5 30. Rff3 f4 31. Rg4 Qa1 32. Rfxf4 Re8 33. Kh2 Qe5 34.
+Be3 Rf8 35. g3 Rxf4 36. gxf4 Qf6 37. Qd1 Bf5 38. Rg3 Qxh4+ 39. Kg2 Qf6 40. Bxa7
+d4 41. Qa1 Be4+ 42. f3 Ne3+ 43. Kf2 Qh4 44. Qg1 Bd3 45. Bxd4 Nf5 46. Bxg7 Qxg3+
+47. Qxg3 Nxg3 48. Bxh6 Nf5 49. Bg5 Kf7 50. Ke1 b4 51. Kd2 Bc4 52. Bd8 b3 53.
+Ba5 Ne3 54. Bc3 Nd5 55. Be5 Ke6 56. Kc1 Kf5 57. Kb2 Nxf4 58. Bh8 Nd5 59. Bg7
+Kf4 60. Bh6+ Kxf3 61. Bg7 Ke4 62. Bh8 Kd3 63. Bg7 Ne3 64. Bf6 Bd5 65. Bg5 Nd1+
+0-1
+
+[Event "Ciudad de Hospitalet"]
+[Site "Hospitalet de Llobregat"]
+[Date "1973.10.30"]
+[Round "8"]
+[White "Diez del Corral Rivas, Jesus Maria"]
+[Black "Dominguez, Julio"]
+[Result "1-0"]
+[ECO "C90"]
+[WhiteElo "2495"]
+[BlackElo "2200"]
+[PlyCount "69"]
+[EventDate "1973.10.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 d6 7. c3 O-O 8. Nbd2
+b5 9. Bb3 Na5 10. Bc2 c5 11. Re1 Nc6 12. Nf1 Re8 13. h3 h6 14. Ne3 Bf8 15. Nh2
+Be6 16. Nhg4 Nh7 17. Nf5 Rc8 18. Qf3 Qd7 19. Bb3 a5 20. Qg3 Kh8 21. Bxe6 Qxe6
+22. f4 Ne7 23. Nxe7 Qxe7 24. a4 b4 25. f5 Nf6 26. Ne3 Qa7 27. Nc4 bxc3 28. bxc3
+Rb8 29. Bd2 Nd7 30. Na3 Qc7 31. Nb5 Qd8 32. c4 Ra8 33. Rf1 f6 34. Qg6 Be7 35.
+Bxh6 1-0
+
+[Event "Ciudad de Hospitalet"]
+[Site "Hospitalet de Llobregat"]
+[Date "1973.10.31"]
+[Round "9"]
+[White "Collado Galarza, Jose"]
+[Black "Diez del Corral Rivas, Jesus Maria"]
+[Result "0-1"]
+[ECO "B68"]
+[WhiteElo "2200"]
+[BlackElo "2495"]
+[PlyCount "160"]
+[EventDate "1973.10.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bg5 e6 7. Qd2 a6 8.
+O-O-O Bd7 9. f4 Be7 10. Be2 Nxd4 11. Qxd4 Bc6 12. Bf3 O-O 13. Kb1 Qa5 14. Qd2
+Kh8 15. Qe3 Rac8 16. e5 dxe5 17. fxe5 Ng8 18. Bxc6 Rxc6 19. Bxe7 Nxe7 20. Rd7
+Nf5 21. Qf4 Rb6 22. Qd2 h5 23. Re1 Rc8 24. Ne4 Qb5 25. b3 Rbc6 26. Ng5 Qb6 27.
+Rd8+ Rxd8 28. Qxd8+ Qxd8 29. Nxf7+ Kg8 30. Nxd8 Rb6 31. c4 Kf8 32. c5 Rb4 33.
+Nxe6+ Ke7 34. Nc7 Rd4 35. Kc2 Rd7 36. Na8 Ke6 37. Nb6 Rd4 38. h3 Rf4 39. Kd3
+Ne7 40. Re2 Nc6 41. Nc4 g5 42. a3 Nd4 43. Rb2 Kd5 44. b4 Nc6 45. Nd6 Nxe5+ 46.
+Kc3 b5 47. Rd2+ Kc6 48. Re2 Kd5 49. Ne8 Rc4+ 50. Kb3 Kd4 51. Rc2 Kd3 52. Rf2
+Rc3+ 53. Ka2 g4 54. hxg4 hxg4 55. Rb2 Kd4 56. Nd6 Nd3 57. Rd2 Ke3 58. g3 Rc1
+59. Rh2 Kd4 60. Kb3 Rb1+ 61. Ka2 Rd1 62. Nf5+ Ke4 63. Nh6 Ne5 64. Rc2 Kd5 65.
+Nxg4 Nc4 66. Nf2 Rg1 67. g4 Rg3 68. Ka1 Rxa3+ 69. Ra2 Re3 70. Rc2 a5 71. bxa5
+b4 72. a6 b3 73. Rxc4 Kxc4 74. a7 Re1+ 75. Kb2 Re2+ 76. Kc1 Ra2 77. Ne4 Rxa7
+78. c6 Kb4 79. Nf6 Ka3 80. Nd5 Rh7 0-1
+
+[Event "Ciudad de Hospitalet"]
+[Site "Hospitalet de Llobregat"]
+[Date "1973.11.02"]
+[Round "10"]
+[White "Diez del Corral Rivas, Jesus Maria"]
+[Black "Van Seters, Frits"]
+[Result "1-0"]
+[ECO "B44"]
+[WhiteElo "2495"]
+[BlackElo "2325"]
+[PlyCount "89"]
+[EventDate "1973.10.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nb5 d6 6. c4 a6 7. N5c3 Nf6 8. Be2
+Be7 9. O-O O-O 10. Bf4 b6 11. Nd2 Bb7 12. Rc1 Rc8 13. Re1 Ne5 14. Bg3 Rc7 15.
+f4 Ng6 16. Bf2 Rc8 17. g3 Rb8 18. a4 Qc7 19. Bf3 Rfd8 20. Qe2 Ba8 21. b4 Bf8
+22. h4 Qd7 23. Red1 Qe8 24. h5 Ne7 25. Nb3 d5 26. cxd5 exd5 27. e5 Nd7 28. Qxa6
+Nc6 29. Nxd5 Nxb4 30. Qc4 Rbc8 31. Qb5 Rxc1 32. Nxc1 Nxe5 33. fxe5 Qxb5 34.
+axb5 Bxd5 35. Bxb6 Rb8 36. Bxd5 Nxd5 37. Rxd5 Rxb6 38. Nb3 Be7 39. Na5 Kf8 40.
+Nc6 Ke8 41. Kf2 h6 42. Ke3 Bg5+ 43. Kd4 Rb7 44. Kc4 Rd7 45. b6 1-0
+
+[Event "Ciudad de Hospitalet"]
+[Site "Hospitalet de Llobregat"]
+[Date "1973.11.03"]
+[Round "11"]
+[White "Hamann, Svend"]
+[Black "Diez del Corral Rivas, Jesus Maria"]
+[Result "1/2-1/2"]
+[ECO "E64"]
+[WhiteElo "2475"]
+[BlackElo "2495"]
+[PlyCount "15"]
+[EventDate "1973.10.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[EventCategory "7"]
+[Source "ChessBase"]
+[SourceDate "2000.11.22"]
+
+1. c4 Nf6 2. Nc3 g6 3. g3 Bg7 4. Bg2 d6 5. d4 O-O 6. Nf3 c5 7. dxc5 dxc5 8.
+Qxd8 1/2-1/2
+
+[Event "Barcelona zt"]
+[Site "Barcelona"]
+[Date "1975.??.??"]
+[Round "1"]
+[White "Pachman, Ludek"]
+[Black "Diez del Corral Rivas, Jesus Maria"]
+[Result "1/2-1/2"]
+[ECO "A58"]
+[WhiteElo "2510"]
+[BlackElo "2515"]
+[PlyCount "64"]
+[EventDate "1975.??.??"]
+[EventType "tourn"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[EventCategory "8"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. Nc3 d6 6. e4 g6 7. bxa6 Bg7 8. Nf3
+O-O 9. h3 Nfd7 10. Bf4 Qb6 11. Qd2 Bxa6 12. Bxa6 Nxa6 13. O-O Rfb8 14. Rab1 Nc7
+15. Qc2 Nb5 16. Nxb5 Qxb5 17. b3 Ra3 18. Bc1 Ra7 19. Bg5 Qa6 20. a4 Rab7 21.
+Rfe1 Kf8 22. Bd2 Kg8 23. Bf4 c4 24. bxc4 Rb2 25. Rxb2 Rxb2 26. Qc1 Qxa4 27. e5
+Rc2 28. Qe3 Rxc4 29. Bh6 Qb4 30. exd6 Qxd6 31. Bxg7 Kxg7 32. Qxe7 Qxd5 1/2-1/2
+
+[Event "Barcelona zt"]
+[Site "Barcelona"]
+[Date "1975.??.??"]
+[Round "2"]
+[White "Hutchings, Stuart"]
+[Black "Diez del Corral Rivas, Jesus Maria"]
+[Result "1/2-1/2"]
+[ECO "C05"]
+[WhiteElo "2330"]
+[BlackElo "2515"]
+[PlyCount "75"]
+[EventDate "1975.??.??"]
+[EventType "tourn"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[EventCategory "8"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 a5 8. O-O a4
+9. f4 cxd4 10. cxd4 g6 11. g4 Qh4 12. Kh1 Qxg4 13. Qe1 Be7 14. Nf3 Nb4 15. Bb1
+b6 16. a3 Nc6 17. Bd3 Ba6 18. Bxa6 Rxa6 19. Qf2 Na5 20. Be3 Nc4 21. f5 Qe4 22.
+Bh6 gxf5 23. Nf4 Qe3 24. Qg2 Bf8 25. Nxd5 Qxh6 26. Nc7+ Kd8 27. Nxa6 Ne3 28.
+Qe2 Nxf1 29. Rxf1 Rg8 30. Qc4 Qh3 31. Rf2 Bh6 32. Qc7+ Ke7 33. Qd6+ Ke8 34. Nb8
+Be3 35. Qxd7+ Kf8 36. Qd8+ Kg7 37. Qf6+ Kf8 38. Qd8+ 1/2-1/2
+
+[Event "Barcelona zt"]
+[Site "Barcelona"]
+[Date "1975.??.??"]
+[Round "3"]
+[White "Diez del Corral Rivas, Jesus Maria"]
+[Black "Keene, Raymond"]
+[Result "1-0"]
+[ECO "C16"]
+[WhiteElo "2515"]
+[BlackElo "2505"]
+[PlyCount "57"]
+[EventDate "1975.??.??"]
+[EventType "tourn"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[EventCategory "8"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 b6 5. a3 Bxc3+ 6. bxc3 Qd7 7. Nh3 Ba6 8. Bd3
+c5 9. Qg4 f5 10. Qh5+ g6 11. Qh4 Bxd3 12. cxd3 Nc6 13. dxc5 bxc5 14. O-O Nxe5
+15. d4 Nc6 16. Re1 cxd4 17. cxd4 Kf8 18. Nf4 Kf7 19. Nxe6 Re8 20. Ng5+ Kg7 21.
+Rxe8 Qxe8 22. Bd2 Qe2 23. Nf3 Qe4 24. Qg3 Qe7 25. Rc1 Qb7 26. Qd6 Nge7 27. Bg5
+Rf8 28. Re1 Rf7 29. Ne5 1-0
+
+[Event "Barcelona zt"]
+[Site "Barcelona"]
+[Date "1975.??.??"]
+[Round "4"]
+[White "Janetschek, Karl"]
+[Black "Diez del Corral Rivas, Jesus Maria"]
+[Result "0-1"]
+[ECO "C06"]
+[WhiteElo "2355"]
+[BlackElo "2515"]
+[PlyCount "128"]
+[EventDate "1975.??.??"]
+[EventType "tourn"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[EventCategory "8"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 Qb6 8. Nf3
+cxd4 9. cxd4 f6 10. exf6 Nxf6 11. O-O Bd6 12. Bd2 O-O 13. Bc3 Bd7 14. Ne5 Bxe5
+15. dxe5 Ng4 16. Bd4 Nxd4 17. Nxd4 Rf4 18. Nf3 Raf8 19. Qe2 Qd8 20. h3 Nh6 21.
+Kh2 Be8 22. Ng1 Qb6 23. f3 Nf5 24. Bxf5 R4xf5 25. Rfe1 Bb5 26. Qd2 d4 27. Re4
+Rd8 28. Ne2 d3 29. Nc3 Bc6 30. Re3 Rf4 31. Rd1 Rfd4 32. Rf1 Qc5 33. a3 a5 34.
+Rf2 b5 35. Nb1 b4 36. axb4 axb4 37. Qd1 d2 38. Ree2 Qc1 39. Rf1 Bb5 40. Rxd2
+Qxd1 41. Rfxd1 Bd3 42. Kg3 g5 43. Kf2 R4d5 44. Ke3 Rxe5+ 45. Kf2 Red5 46. Ke3
+Bg6 47. Rxd5 exd5 48. Nd2 Re8+ 49. Kf2 Ra8 50. Nb3 Ra2 51. Rd2 Kf7 52. Ke3 Ke6
+53. Kd4 Kd6 54. Re2 Bf7 55. Nc1 Ra8 56. Nd3 b3 57. Kc3 Rc8+ 58. Kxb3 d4+ 59.
+Kb4 Rb8+ 60. Ka4 Bb3+ 61. Ka5 Bc4 62. Rd2 Bxd3 63. Rxd3 Kc5 64. Ka6 Rxb2 0-1
+
+[Event "Barcelona zt"]
+[Site "Barcelona"]
+[Date "1975.??.??"]
+[Round "5"]
+[White "Diez del Corral Rivas, Jesus Maria"]
+[Black "Sosonko, Gennadi"]
+[Result "1/2-1/2"]
+[ECO "B73"]
+[WhiteElo "2515"]
+[BlackElo "2470"]
+[PlyCount "57"]
+[EventDate "1975.??.??"]
+[EventType "tourn"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[EventCategory "8"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be2 Bg7 7. O-O Nc6 8.
+Be3 O-O 9. Qd2 Bd7 10. Rad1 Rc8 11. f3 a6 12. Nxc6 Bxc6 13. Nd5 Nxd5 14. exd5
+Ba4 15. Bd3 Qd7 16. b3 Bc3 17. Qf2 Bb5 18. Bh6 Rfe8 19. f4 Bxd3 20. Rxd3 Bf6
+21. f5 Qxf5 22. Qxf5 gxf5 23. c4 b5 24. cxb5 axb5 25. Rxf5 Rc3 26. Rxc3 Bxc3
+27. Rf4 e6 28. Re4 Ra8 29. dxe6 1/2-1/2
+
+[Event "Barcelona zt"]
+[Site "Barcelona"]
+[Date "1975.??.??"]
+[Round "6"]
+[White "Jakobsen, Ole"]
+[Black "Diez del Corral Rivas, Jesus Maria"]
+[Result "1/2-1/2"]
+[ECO "E64"]
+[WhiteElo "2435"]
+[BlackElo "2515"]
+[PlyCount "98"]
+[EventDate "1975.??.??"]
+[EventType "tourn"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[EventCategory "8"]
+
+1. Nf3 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 O-O 5. O-O c5 6. d4 Na6 7. Nc3 d6 8. d5
+Nc7 9. a4 b6 10. h3 a6 11. e4 Nd7 12. Bf4 Rb8 13. Qe2 f6 14. Rfb1 a5 15. Be3
+Ne5 16. Nd2 Nf7 17. f4 e5 18. dxe6 Bxe6 19. Re1 Re8 20. Rad1 f5 21. Kh2 Bxc3
+22. bxc3 Bd7 23. Ra1 Qf6 24. Qd3 Re6 25. Qc2 Rbe8 26. Rab1 Na8 27. Bf2 h5 28.
+Qd3 Bc6 29. exf5 Bxg2 30. Kxg2 Rxe1 31. Rxe1 Rxe1 32. Bxe1 Qxf5 33. Qxf5 gxf5
+34. Nf1 Nc7 35. Ne3 Nh6 36. Kf3 Kf7 37. Nd5 Ne8 38. Nxb6 Nf6 39. Ke3 Ke6 40.
+Kd3 Nhg8 41. Nd5 Ne7 42. Ne3 Nc8 43. Nd1 Nb6 44. Nb2 Kf7 45. Ke3 h4 46. gxh4
+Kg6 47. Kf3 Kh5 48. Ke3 Ne4 49. Kf3 Kg6 1/2-1/2
+
+[Event "Barcelona zt"]
+[Site "Barcelona"]
+[Date "1975.??.??"]
+[Round "7"]
+[White "Diez del Corral Rivas, Jesus Maria"]
+[Black "Eslon, Jaan"]
+[Result "1-0"]
+[ECO "B02"]
+[WhiteElo "2515"]
+[BlackElo "2435"]
+[PlyCount "117"]
+[EventDate "1975.??.??"]
+[EventType "tourn"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+[EventCategory "8"]
+
+1. e4 Nf6 2. e5 Nd5 3. Bc4 Nb6 4. Bb3 d5 5. a4 e6 6. d4 c5 7. c3 cxd4 8. cxd4
+Nc6 9. Nf3 Be7 10. Nc3 O-O 11. Bc2 Nb4 12. Bb1 Nc4 13. O-O Bd7 14. Na2 f5 15.
+exf6 gxf6 16. b3 Nxa2 17. Rxa2 Nd6 18. Re2 Kh8 19. Rfe1 Qe8 20. Bf4 Qh5 21.
+Rxe6 Bxe6 22. Rxe6 Nc8 23. Qe1 Qf7 24. Nh4 a5 25. Bd3 Bb4 26. Qe2 Nd6 27. Bxd6
+Rfe8 28. Re3 Bxd6 29. g3 Rxe3 30. Qxe3 Re8 31. Qh6 Bf8 32. Qf4 Qh5 33. Kg2 Qf7
+34. Nf5 Rc8 35. Be2 Rd8 36. Bf3 Bg7 37. h4 Bf8 38. h5 Bg7 39. Ne3 h6 40. Nf5
+Kh7 41. Be2 Kh8 42. Bd3 Kg8 43. Qg4 Kh8 44. Nh4 f5 45. Bxf5 Qf6 46. Ng6+ Kg8
+47. Be6+ Kh7 48. Nf4 Qg5 49. Qf3 Bf6 50. Bxd5 Kh8 51. Qe4 b6 52. Qe6 Qg7 53.
+Ng6+ Kh7 54. Be4 Rxd4 55. Ne7+ Rxe4 56. Qxe4+ Kh8 57. Ng6+ Kh7 58. Kh2 Bd4 59.
+Ne7+ 1-0
+
+[Event "Camp. España eq. 1 Div."]
+[Site "Barcelona"]
+[Date "1975.??.??"]
+[Round "4"]
+[White "Diez del Corral Rivas, Jesus Maria"]
+[Black "Pares Vives, Jose"]
+[Result "1-0"]
+[ECO "A08"]
+[PlyCount "129"]
+[EventDate "1975.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. d3 d5 4. Nbd2 Nf6 5. g3 Nc6 6. Bg2 Be7 7. O-O O-O 8. Re1
+Qc7 9. Nf1 a5 10. e5 Nd7 11. Bf4 a4 12. h4 a3 13. b3 b5 14. h5 Nb6 15. h6 g6
+16. N1h2 d4 17. Ng4 Nd5 18. Bg5 Bb7 19. Qd2 Ncb4 20. Bxe7 Qxe7 21. Ng5 Nc3 22.
+Nf6+ Kh8 23. Bxb7 Qxb7 24. Nfxh7 Rfb8 25. Nf6 Nbxa2 26. Qf4 Qe7 27. Nd7 Rf8 28.
+Nxf8 Rxf8 29. Ne4 Nxe4 30. dxe4 Nb4 31. Qd2 Ra8 32. f4 Nc6 33. Kg2 Kh7 34. f5
+Nxe5 35. Qf4 Nc6 36. fxg6+ fxg6 37. Rf1 Ra7 38. Rf2 g5 39. Qg4 Ne5 40. Qh5 c4
+41. bxc4 Nxc4 42. Kh2 b4 43. e5 Nxe5 44. Qe2 Ng6 45. Qe4 e5 46. Raf1 Qb7 47.
+Qg4 Qd5 48. Rf6 a2 49. Qf5 Qg8 50. Ra1 g4 51. Kg2 Qd5+ 52. Kg1 Qg8 53. Qe4 Ra3
+54. Qxg4 b3 55. Qd7+ Kh8 56. cxb3 Rxb3 57. Rxa2 Rxg3+ 58. Kh2 Rg5 59. Ra8 Rh5+
+60. Kg1 Nf8+ 61. Qg7+ Qxg7+ 62. hxg7+ Kxg7 63. Rfxf8 d3 64. Rfd8 e4 65. Ra4 1-0
+
+[Event "Camp. España eq. 1 Div."]
+[Site "Barcelona"]
+[Date "1975.??.??"]
+[Round "5"]
+[White "Medina Garcia, Antonio"]
+[Black "Diez del Corral Rivas, Jesus Maria"]
+[Result "1/2-1/2"]
+[ECO "C05"]
+[PlyCount "57"]
+[EventDate "1975.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 a5 8. O-O a4
+9. a3 Nb6 10. Nf3 Nc4 11. Re1 b5 12. Rb1 Bd7 13. Bxc4 bxc4 14. Be3 cxd4 15.
+Nexd4 Na5 16. Ng5 h6 17. Qh5 g6 18. Qh3 Nb7 19. Nc2 Be7 20. f4 Nc5 21. Re2 Nd3
+22. Nf3 Qc7 23. Qg3 O-O-O 24. Nb4 Nc5 25. Rf1 Ne4 26. Qe1 Bb5 27. Nd4 Qd7 28.
+Rf3 f5 29. exf6 1/2-1/2

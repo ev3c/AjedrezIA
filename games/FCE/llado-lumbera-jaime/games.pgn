@@ -1,0 +1,1824 @@
+[Event "Barcelona sim"]
+[Site "Barcelona"]
+[Date "1935.12.14"]
+[Round "?"]
+[White "Llado Lumbera, Jaime"]
+[Black "Capablanca, Jose Raul"]
+[Result "0-1"]
+[ECO "E91"]
+[PlyCount "50"]
+[EventDate "1935.??.??"]
+[EventType "simul"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "2002.11.25"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 O-O 5. Nf3 c5 6. Be2 d6 7. O-O Bg4 8. Be3
+Nc6 9. h3 Bxf3 10. Bxf3 Nd7 11. d5 Nd4 12. Be2 e5 13. Bd3 f5 14. f4 fxe4 15.
+Bxe4 Bh6 16. Bxd4 cxd4 17. Nb5 Nc5 18. Bc2 exf4 19. Kh1 f3 20. Rxf3 Rxf3 21.
+Qxf3 Qh4 22. Rf1 Rf8 23. Qe2 Rxf1+ 24. Qxf1 d3 25. Bxd3 Bf4 0-1
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "Barcelona"]
+[Date "1935.08.06"]
+[Round "2"]
+[White "Llado Lumbera, Jaime"]
+[Black "Grau, Andreu"]
+[Result "1/2-1/2"]
+[ECO "D05"]
+[PlyCount "60"]
+[EventDate "1935.??.??"]
+[EventType "tourn"]
+[EventRounds "14"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 Nf6 3. e3 e6 4. Bd3 c5 5. c3 b6 6. Nbd2 Bb7 7. Qe2 Nbd7 8. e4
+dxe4 9. Nxe4 Nxe4 10. Bxe4 Bxe4 11. Qxe4 Be7 12. O-O O-O 13. Be3 Nf6 14. Qc2
+Qc7 15. Rad1 Rfd8 16. h3 h6 17. dxc5 Bxc5 18. Bxc5 Qxc5 19. Rxd8+ Rxd8 20. Rd1
+Rxd1+ 21. Qxd1 Qd5 22. Qa4 Qd7 23. Qb3 Qd3 24. Nd4 Ne4 25. Qc2 Qxc2 26. Nxc2
+Kf8 27. f3 Nc5 28. b4 Na4 29. c4 Nb2 30. Ne3 f5 1/2-1/2
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "Barcelona"]
+[Date "1935.08.09"]
+[Round "3"]
+[White "Vilardebo Picurena, Josep"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1-0"]
+[ECO "D36"]
+[PlyCount "81"]
+[EventDate "1935.??.??"]
+[EventType "tourn"]
+[EventRounds "14"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 e6 4. Bg5 Nbd7 5. cxd5 exd5 6. Nc3 c6 7. e3 Be7 8.
+Qc2 O-O 9. Bd3 Re8 10. h3 Nf8 11. Ne5 Nh5 12. Bxe7 Qxe7 13. O-O g6 14. Rae1 f5
+15. Kh2 Nf6 16. Rg1 Ng4+ 17. Nxg4 fxg4 18. f3 Qd6+ 19. f4 Qe6 20. h4 g3+ 21.
+Kxg3 Qg4+ 22. Kf2 Qxh4+ 23. g3 Qg4 24. Rh1 Qd7 25. Rh6 Qg7 26. Reh1 Bg4 27.
+R6h4 Bd7 28. g4 Re7 29. Kf3 Rae8 30. Nd1 Qf7 31. Rh6 Qf6 32. R1h3 Rf7 33. Qh2
+Qe6 34. R3h4 Qe7 35. Qg3 Ne6 36. Bxg6 Ng5+ 37. Kg2 hxg6 38. fxg5 Qe4+ 39. Kg1
+Rf3 40. Qd6 Rf1+ 41. Kxf1 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "Barcelona"]
+[Date "1935.08.23"]
+[Round "7"]
+[White "Llado Lumbera, Jaime"]
+[Black "Ribera Arnal, Angel"]
+[Result "1-0"]
+[ECO "D35"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "83"]
+[EventDate "1935.??.??"]
+[EventType "tourn"]
+[EventRounds "14"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 e6 4. Nc3 Nbd7 5. cxd5 exd5 6. Bf4 c6 7. e3 Be7 8.
+Bd3 O-O 9. O-O Nh5 10. Bg3 Nxg3 11. hxg3 Nf6 12. Qc2 Re8 13. a3 Bd6 14. Rae1
+Be6 15. Ng5 h6 (15... g6 $142) 16. Bh7+ Kh8 17. Nxe6 Rxe6 18. Bf5 Re7 19. e4
+dxe4 20. Nxe4 Nd5 (20... Qa5) 21. Qb3 Qc7 22. Nxd6 Qxd6 23. Bd3 Rae8 24. Rxe7
+Rxe7 (24... Qxe7) 25. Bc4 Nf6 $6 (25... g6 $142) 26. Bxf7 Qxd4 27. Rd1 Qe4 28.
+Rd8+ Kh7 29. Bg8+ Kg6 30. Rd6 Qf5 (30... Rd7 $1 $15) 31. Be6 Qe4 32. f3 Qb1+ $2
+(32... Qe2 $142) 33. Kh2 Kh7 34. Rd8 Qe1 $4 35. Bg8+ Kh8 36. Bf7+ Ne8 37. Bg6
+Qe5 38. f4 Qf6 39. Rxe8+ Rxe8 40. Bxe8 Qe7 41. Bg6 Qf6 42. Qf7 1-0
+
+[Event "Camp. Catalunya indiv. sf."]
+[Site "Barcelona"]
+[Date "1944.02.18"]
+[Round "?"]
+[White "Ribera Arnal, Angel"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1/2-1/2"]
+[ECO "A43"]
+[PlyCount "62"]
+[EventDate "1944.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 c5 2. dxc5 e6 3. e4 Bxc5 4. Bc4 Qb6 5. Qe2 Nc6 6. Nf3 Nd4 7. Nxd4 Bxd4 8.
+c3 Bc5 9. O-O Ne7 10. Nd2 Ng6 11. Nf3 O-O 12. b4 Be7 13. Bd2 Qc7 14. Rac1 b6
+15. Nd4 Bb7 16. f3 Nf4 17. Bxf4 Qxf4 18. Rfd1 Bg5 19. Rc2 Qe3+ 20. Qxe3 Bxe3+
+21. Kf1 Bxd4 22. cxd4 Rac8 23. Bb3 Rfd8 24. Rdc1 Rxc2 25. Rxc2 Rc8 26. Rxc8+
+Bxc8 27. Ke2 Kf8 28. Kd3 Ba6+ 29. Bc4 b5 30. Bb3 Bb7 31. d5 e5 1/2-1/2
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1945.??.??"]
+[Round "?"]
+[White "Valles Bergada, Vicente"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1-0"]
+[ECO "C53"]
+[PlyCount "65"]
+[EventDate "1945.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Qe7 5. d4 exd4 6. O-O d3 7. e5 h6 8. b4
+Bb6 9. a4 a5 10. b5 Nd8 11. Nd4 g6 12. Ba3 Bc5 13. f4 Ne6 14. Qxd3 Bxa3 15.
+Nxa3 Nc5 16. Qc2 d6 17. Rae1 dxe5 18. Rxe5 Ne6 19. Bxe6 Bxe6 20. Nxe6 fxe6 21.
+Qxg6+ Qf7 22. Rxe6+ Ne7 23. Qe4 Rd8 24. f5 Kd7 25. Nc4 Kc8 26. Rxe7 Qf6 27.
+Nxa5 Qb6+ 28. Kh1 Qxa5 29. Qe5 Kb8 30. f6 Qb6 31. f7 Rhf8 32. Re8 Qf2 33. Rxf2
+1-0
+
+[Event "RCD Español"]
+[Site "Barcelona"]
+[Date "1945.??.02"]
+[Round "?"]
+[White "Llado Lumbera, Jaime"]
+[Black "Ribera Arnal, Angel"]
+[Result "1/2-1/2"]
+[ECO "B73"]
+[PlyCount "80"]
+[EventDate "1945.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be2 Bg7 7. Be3 O-O 8.
+O-O Nc6 9. f3 d5 10. Nxc6 bxc6 11. e5 Nd7 12. f4 e6 13. Na4 Qe7 14. c3 Bb7 15.
+b4 f6 16. Nc5 Rfb8 17. Bg4 f5 18. Be2 a5 19. a3 Bf8 20. Nb3 a4 21. Na5 c5 22.
+Qxa4 d4 23. cxd4 Nb6 24. Qc2 Nd5 25. Bd2 cxb4 26. Nxb7 Rxb7 27. axb4 Rxa1 28.
+Rxa1 Nxb4 29. Bxb4 Qxb4 30. Rd1 Qb2 31. Qc4 Qb3 32. Qxb3 Rxb3 33. Bc4 Rb6 34.
+h4 Kf7 35. Kf2 Rb2+ 36. Kf3 Rc2 37. Bd3 Rb2 38. g4 fxg4+ 39. Kxg4 Be7 40. h5
+Rg2+ 1/2-1/2
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1946.09.08"]
+[Round "1"]
+[White "Viade, Joaquin"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1-0"]
+[ECO "D02"]
+[PlyCount "89"]
+[EventDate "1946.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 c6 3. Bf4 Bf5 4. e3 Nd7 5. Bd3 e6 6. Bxf5 exf5 7. Qd3 g6 8.
+Nbd2 Ngf6 9. Bg5 Qb6 10. O-O Ne4 11. Bf4 Bg7 12. c4 O-O 13. c5 Qd8 14. Qc2 h6
+15. b4 g5 16. Bg3 Qf6 17. Rab1 a6 18. Nb3 Qe6 19. Na5 Nxg3 20. hxg3 Rab8 21. a4
+Rfc8 22. Rfc1 Bf6 23. b5 cxb5 24. axb5 axb5 25. Rxb5 Qa6 26. Rcb1 b6 27. Qxf5
+bxa5 28. Qxd7 Rxb5 29. Rxb5 Rd8 30. Qb7 Qxb7 31. Rxb7 Ra8 32. Ne1 a4 33. Nc2 a3
+34. Rb1 a2 35. Ra1 Ra4 36. Ne1 Bd8 37. Nd3 Ra3 38. Nc1 Rc3 39. Nxa2 Ra3 40. Rb1
+Rxa2 41. Rb8 Ra1+ 42. Kh2 Rf1 43. Rxd8+ Kg7 44. Rxd5 Rxf2 45. c6 1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1947.??.??"]
+[Round "?"]
+[White "Llado Lumbera, Jaime"]
+[Black "Colomer Candano, Jesus Maria"]
+[Result "0-1"]
+[ECO "C56"]
+[PlyCount "82"]
+[EventDate "1947.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Bc4 Nf6 5. O-O Nxe4 6. Re1 d5 7. Bxd5 Qxd5 8.
+Nc3 Qa5 9. Nxe4 Be6 10. Neg5 O-O-O 11. Nxe6 fxe6 12. Rxe6 Qf5 13. Qe2 h6 14.
+Nh4 d3 15. cxd3 Qxd3 16. Qxd3 Rxd3 17. Be3 Be7 18. Ng6 Rhd8 19. Bd4 Bb4 20. Bc3
+Bxc3 21. bxc3 Rxc3 22. g3 Rc2 23. a3 b6 24. Kg2 a6 25. Rae1 Rdd2 26. Re8+ Kb7
+27. Rf8 b5 28. Rf7 a5 29. Re3 b4 30. axb4 axb4 31. Ne5 Re2 32. Nxc6 Rxe3 33.
+Nxb4 Rb2 34. Nd5 Re5 35. Rxc7+ Kb8 36. Rd7 Kc8 37. Rd6 Ree2 38. Kh3 Rxf2 39.
+Rg6 h5 40. Kh4 Rxh2+ 41. Kg5 Rb5 0-1
+
+[Event "Torneo inaugural C. A. Condal"]
+[Site "Barcelona"]
+[Date "1947.11.29"]
+[Round "?"]
+[White "Ribera Arnal, Angel"]
+[Black "Llado Lumbera, Jaime"]
+[Result "0-1"]
+[ECO "E94"]
+[PlyCount "86"]
+[EventDate "1947.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 Nbd7 7. O-O e5 8. d5
+Nc5 9. Qc2 a5 10. Be3 Ng4 11. Bxc5 dxc5 12. Nd2 Nh6 13. Nb3 Qe7 14. Nb5 f5 15.
+f3 f4 16. Rad1 Nf7 17. Rd2 b6 18. a3 Nd6 19. Nc1 g5 20. Na2 h5 21. Rb1 g4 22.
+b4 axb4 23. axb4 Rf6 24. bxc5 bxc5 25. Nac3 Rg6 26. Na4 Nf7 27. Rbd1 Ng5 28.
+fxg4 hxg4 29. d6 cxd6 30. Rxd6 $2 (30. Nb6 $1 $14) 30... Ne6 31. Nb6 Rb8 32.
+Nxc8 Rxc8 33. Qd3 f3 34. Bf1 Rf8 35. Qd5 Kh7 36. Qd2 Qh4 37. g3 Qh5 38. Qd5 Qh6
+39. Qd2 Qh5 40. Qd5 Rff6 41. Rd2 f2+ 42. Kh1 Rh6 43. h4 Nf4 0-1
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1948.05.??"]
+[Round "10"]
+[White "Llado Lumbera, Jaime"]
+[Black "Bas Rosello, Jose Maria"]
+[Result "0-1"]
+[ECO "D02"]
+[PlyCount "90"]
+[EventDate "1948.??.??"]
+[EventType "tourn"]
+[EventRounds "17"]
+[EventCountry "ESP"]
+
+1. Nf3 d5 2. d4 Nf6 3. g3 g6 4. Bg2 Bg7 5. O-O O-O 6. Nbd2 c5 7. c3 cxd4 8.
+cxd4 Nc6 9. b3 Qb6 10. Bb2 Bf5 11. e3 Rac8 12. Ne5 Rfd8 13. h3 Rc7 14. g4 Bc2
+15. Qe2 Nxe5 16. dxe5 Ne4 17. Bd4 Nc3 18. Qe1 Qa6 19. Kh2 Bd3 20. Rh1 Ne2 21.
+f4 Rc2 22. Nf3 Rdc8 23. Qb4 Be4 24. Ne1 Nxd4 25. Qxd4 Qe2 26. Rg1 Rd2 27. Qxa7
+Rcc2 28. Qb6 Bxg2 29. Qd8+ Bf8 30. Rxg2 Qf3 31. Qxd5 Rxd5 32. Nxc2 Rd1 33. Rxd1
+Qxd1 34. Nd4 Qd3 35. Nc2 e6 36. Kg3 Bc5 37. Kf3 Qf1+ 38. Kg3 Bb4 39. Nxb4 Qe1+
+40. Rf2 Qxe3+ 41. Rf3 Qg1+ 42. Kh4 Qe1+ 43. Kg5 h6+ 44. Kf6 Qxb4 45. f5 Kf8 0-1
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1948.05.??"]
+[Round "12"]
+[White "Llado Lumbera, Jaime"]
+[Black "Bordell Rosell, Roman"]
+[Result "0-1"]
+[ECO "B90"]
+[PlyCount "122"]
+[EventDate "1948.??.??"]
+[EventType "tourn"]
+[EventRounds "17"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. a4 Nc6 7. Be2 g6 8. Be3
+Bg7 9. O-O O-O 10. h3 Qc7 11. Nxc6 bxc6 12. a5 Rb8 13. Bb6 Qb7 14. Rb1 Nd7 15.
+Na4 c5 16. Qd5 Ne5 17. f4 Nc6 18. c3 Bd7 19. Qd1 Nd8 20. Bf3 Bc6 21. Qc2 Ne6
+22. g3 Rfc8 23. Ra1 Nf8 24. Rfe1 Nd7 25. Re2 f5 26. Bg2 fxe4 27. Bxe4 Bxe4 28.
+Qxe4 Qxe4 29. Rxe4 Nxb6 30. Nxb6 Re8 31. Re6 Kf7 32. Rae1 Be5 33. R6xe5 dxe5
+34. Rxe5 Red8 35. Nc4 Rbc8 36. Kf2 Rc7 37. Ke2 e6 38. Nd2 Rd5 39. Re4 Kf6 40.
+Rc4 Ke7 41. b4 Rcd7 42. Nf3 Kd6 43. Nd2 cxb4 44. cxb4 Ke7 45. Nb3 Kf7 46. Nc5
+Rc7 47. Ke3 Rc6 48. g4 h6 49. Rc3 Rd1 50. Rb3 Rh1 51. Ke4 Rd6 52. Nd3 Kf6 53.
+b5 axb5 54. Rxb5 g5 55. fxg5+ hxg5 56. Nf2 Re1+ 57. Kf3 Rd5 58. Rb6 Rxa5 59.
+Ne4+ Kf7 60. Nd6+ Ke7 61. Nc4 Ra4 $138 0-1
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1948.??.??"]
+[Round "15"]
+[White "Cherta Clos, Pere"]
+[Black "Llado Lumbera, Jaime"]
+[Result "0-1"]
+[ECO "E72"]
+[PlyCount "60"]
+[EventDate "1948.??.??"]
+[EventType "tourn"]
+[EventRounds "17"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. g3 O-O 6. Bg2 Nbd7 7. Nge2 e5 8. O-O
+Re8 9. Re1 a5 10. b3 c6 11. Bb2 exd4 12. Nxd4 Nc5 13. f3 Qb6 14. Kh1 a4 15.
+Nce2 d5 16. cxd5 cxd5 17. e5 Rxe5 18. Qd2 a3 19. Bc3 Bd7 20. Rac1 Ree8 21. Bb4
+Ne6 22. Nc2 Bf8 23. Bc3 Bg7 24. Ncd4 Rec8 25. Nxe6 fxe6 26. Bd4 Qd6 27. Qg5 Qf8
+28. Qe3 Bh6 29. f4 Bg7 30. Bf3 Rc6 {( irrep. )} 0-1
+
+[Event "Barcelona prov. - Barcelona Ciud. m"]
+[Site "?"]
+[Date "1949.??.??"]
+[Round "?"]
+[White "Ridameya Tatche, Jose"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1-0"]
+[ECO "B06"]
+[PlyCount "67"]
+[EventDate "1949.??.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. e4 d6 2. d4 g6 3. Bd3 Bg7 4. Ne2 Nf6 5. c3 O-O 6. f3 e5 7. Bg5 c6 8. Qd2 h6
+9. Be3 Qe7 10. Na3 Nbd7 11. O-O-O Kh7 12. g4 d5 13. Ng3 dxe4 14. Nxe4 Nxe4 15.
+Bxe4 Nf6 16. Bc2 Nd5 17. Rde1 Nxe3 18. Qxe3 Qc7 19. dxe5 Re8 20. f4 Bxg4 21.
+Rhg1 Bh5 22. Qh3 Kh8 23. Nc4 Qc8 24. Qg3 Qd8 25. Nd6 Qc7 26. f5 Rg8 27. Bb3
+gxf5 28. Qf4 Bg6 29. h4 Rgf8 30. h5 Bh7 31. Nxf5 Bxf5 32. Qxf5 Qc8 33. Qe4 f5
+34. exf6 $138 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1949.01.22"]
+[Round "2"]
+[White "Ribera Arnal, Angel"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1-0"]
+[ECO "E90"]
+[PlyCount "115"]
+[EventDate "1949.??.??"]
+[EventType "tourn"]
+[EventRounds "17"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. h3 Nbd7 7. Be3 e5 8. d5
+Nh5 9. Qd2 f5 10. exf5 gxf5 11. Bh6 e4 12. Bxg7 Nxg7 13. Nd4 Ne5 14. O-O-O Bd7
+15. f3 exf3 16. gxf3 Qf6 17. Be2 Kh8 18. f4 Nf7 19. Bf3 Rab8 20. Rhg1 Rg8 21.
+Rg3 a6 22. Be2 Rbe8 23. Rdg1 Nh6 24. Nf3 Re7 25. Ng5 Rge8 26. R1g2 Rc8 27. Re3
+Rxe3 28. Qxe3 Re8 29. Qf2 Re7 30. Qh4 c5 31. Bd1 b5 32. Re2 Rxe2 33. Qxh6 Qxh6
+34. Nf7+ Kg8 35. Nxh6+ Kf8 36. Bxe2 b4 37. Nd1 Ke7 38. Ne3 Kf6 39. Bd3 a5 40.
+Kd2 a4 41. Nhxf5 Bxf5 42. Nxf5 Nxf5 43. Bxf5 Kxf5 44. Ke3 a3 45. bxa3 bxa3 46.
+Kf3 h5 47. Kg3 Kf6 48. Kh4 Kg6 49. f5+ Kxf5 50. Kxh5 Ke4 51. Kg4 Kd3 52. h4
+Kxc4 53. h5 Kc3 54. h6 Kb2 55. h7 Kxa2 56. h8=Q c4 57. Qd4 Kb1 58. Qxc4 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1949.??.??"]
+[Round "3"]
+[White "Llorens Llorens, Rafael"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1-0"]
+[ECO "C48"]
+[PlyCount "131"]
+[EventDate "1949.??.??"]
+[EventType "tourn"]
+[EventRounds "17"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nc3 Nc6 4. Bb5 Bc5 5. O-O Qe7 6. d3 h6 7. Nd5 Nxd5 8.
+exd5 Nd4 9. Nxd4 Bxd4 10. c3 Bb6 11. d4 O-O 12. Re1 d6 13. Qe2 Bd7 14. a4 a6
+15. Bc4 Rae8 16. dxe5 Qxe5 17. Qxe5 Rxe5 18. Rxe5 dxe5 19. Be3 Bxe3 20. fxe3
+Bf5 21. a5 Rd8 22. Ra4 Kf8 23. Rb4 Bc8 24. e4 Ke7 25. Bd3 Kd6 26. Ra4 c6 27.
+dxc6 Kxc6 28. Rc4+ Kd6 29. Rb4 Kc7 30. Bc4 Rd1+ 31. Kf2 Rd2+ 32. Kf3 f5 33. Be2
+fxe4+ 34. Ke3 Rd5 35. Rc4+ Kd8 36. b4 Bf5 37. h3 Kd7 38. Bg4 Rd3+ 39. Kf2 Bxg4
+40. hxg4 Kd6 41. Rc8 Rd2+ 42. Kf1 Rc2 43. Rg8 Rxc3 44. Rxg7 Rc7 45. Rg6+ Kd5
+46. Rxh6 Kd4 47. g5 Kd3 48. Rd6+ Ke3 49. g3 Rc1+ 50. Kg2 Ke2 51. g6 e3 52. g7
+Rc8 53. Rd7 e4 54. Rxb7 Kd1 55. Rd7+ Ke1 56. Re7 e2 57. Rxe4 Rd8 58. Kf3 Rd3+
+59. Kf4 Rd8 60. Kf5 Kf2 61. Kg6 Rd3 62. Rxe2+ Kxe2 63. g8=Q Rxg3+ 64. Kf7 Rxg8
+65. Kxg8 Kd3 66. b5 1-0
+
+[Event "Barcelona-Paris m"]
+[Site "Barcelona"]
+[Date "1949.10.30"]
+[Round "1.4"]
+[White "Llado Lumbera, Jaime"]
+[Black "Betbeder, Louis"]
+[Result "0-1"]
+[ECO "B45"]
+[PlyCount "70"]
+[EventDate "1949.10.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e6 6. Ndb5 Bb4 7. a3 Bxc3+ 8.
+Nxc3 O-O 9. Be2 d5 10. exd5 exd5 11. O-O d4 12. Na2 Bf5 13. Bg5 Rc8 14. Rc1 h6
+15. Bh4 Re8 16. Bf3 g5 17. Bg3 Qb6 18. b3 Qc5 19. h4 g4 20. Bxc6 Rxc6 21. Nb4
+Rce6 22. Nd3 Bxd3 23. Qxd3 Ne4 24. Kh2 Nc3 25. a4 f5 26. Qd2 Kg7 27. Rfe1 Ne2
+28. Rcd1 f4 29. Bxf4 Nxf4 30. Qxf4 Rxe1 31. Qxg4+ Kh8 32. Rd3 R1e4 33. Qh3 Qe5+
+34. g3 Rf8 35. Rd2 Re2 0-1
+
+[Event "Barcelona-Paris m"]
+[Site "Barcelona"]
+[Date "1949.??.??"]
+[Round "2.4"]
+[White "Betbeder, Louis"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1-0"]
+[ECO "B08"]
+[PlyCount "105"]
+[EventDate "1949.10.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nc3 g6 3. e4 d6 4. Nf3 Bg7 5. Bc4 O-O 6. O-O c6 7. Re1 b5 8. Bf1
+b4 9. Nb1 Qc7 10. a3 c5 11. axb4 cxb4 12. Bd2 Bb7 13. Bd3 a5 14. c3 Nc6 15. d5
+bxc3 16. Bxc3 Nb4 17. Na3 Nxd3 18. Qxd3 Ba6 19. Qd2 a4 20. Nd4 Qd7 21. f3 e5
+22. Nc6 Bb7 23. Rec1 Bxc6 24. dxc6 Qxc6 25. Bb4 Qb6+ 26. Kh1 Rfd8 27. Nc4 Qa6
+28. b3 d5 29. Rxa4 Qe6 30. Ba5 Rdb8 31. exd5 Nxd5 32. Qa2 h5 33. Bd2 Rxa4 34.
+Qxa4 e4 35. Re1 f5 36. h3 Re8 37. fxe4 fxe4 38. Nd6 Rd8 39. Nxe4 Nb6 40. Qa2
+Qd5 41. Bg5 Ra8 42. Qc2 Nd7 43. Rd1 Qe6 44. Bf4 Ra1 45. Rxa1 Bxa1 46. Ng5 Qe1+
+47. Kh2 Qe8 48. Qc4+ Kh8 49. b4 Bf6 50. b5 Qe7 51. Ne6 g5 52. Qc8+ Kh7 53. Qxd7
+1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1950.??.??"]
+[Round "13"]
+[White "Medina Garcia, Antonio"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1-0"]
+[ECO "B17"]
+[Annotator "Saborido, Rafael "]
+[PlyCount "55"]
+[EventDate "1950.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nd7 5. Nf3 Ngf6 6. Ng3 e6 7. Bd3 Be7 8.
+O-O O-O 9. Qe2 c5 10. c3 b6 11. Bg5 Bb7 12. Rad1 Qc7 13. Rfe1 Rfd8 14. Ne5 Nf8
+15. dxc5 Qxc5 16. c4 Rac8 17. a3 Ne8 18. b4 Qc7 19. Bc1 Nd6 20. Nh5 Ng6 21. Bb2
+Ne8 22. Nxf7 $3 Kxf7 (22... Qc6 23. Be4 Qxe4 24. Qxe4 Bxe4 25. Nxd8 Bc2 26. Rd2
+) (22... Rxd3 23. Qxe6 Qxc4 24. Nh6+ Kh8 25. Rxd3) 23. Qxe6+ Kf8 24. Bxg6 hxg6
+25. Nf4 Be4 26. Qxe4 Rxd1 27. Nxg6+ Kg8 28. Nxe7+ 1-0
+
+[Event "Berga Tancat"]
+[Site "Berga"]
+[Date "1951.08.16"]
+[Round "2"]
+[White "Ribera Arnal, Angel"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1/2-1/2"]
+[ECO "E86"]
+[PlyCount "65"]
+[EventDate "1951.08.??"]
+[EventType "tourn"]
+[EventRounds "13"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d6 4. e4 Bg7 5. f3 O-O 6. Be3 Nbd7 7. Qd2 e5 8. Nge2
+c6 9. Rd1 Qc7 10. b3 Ne8 11. g3 f5 12. Bg2 Ndf6 13. O-O Qe7 14. Kh1 Nh5 15. f4
+fxe4 16. fxe5 dxe5 17. Rxf8+ Qxf8 18. d5 Nef6 19. dxc6 bxc6 20. Nxe4 Bg4 21.
+Rf1 Qe8 22. N2c3 Rd8 23. Qf2 a6 24. h3 Nxe4 25. Nxe4 Bf5 26. g4 Bxe4 27. Bxe4
+Nf6 28. Bg2 Qe6 29. Bg5 Rf8 30. Qc5 Ne4 31. Rxf8+ Bxf8 32. Qe3 Nxg5 33. Qxg5
+1/2-1/2
+
+[Event "Barcelona Int"]
+[Site "Barcelona"]
+[Date "1952.??.??"]
+[Round "9"]
+[White "Rossetto, Hector D"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1-0"]
+[ECO "E95"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "85"]
+[EventDate "1952.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Be2 O-O 6. Nf3 Nbd7 7. O-O e5 8. Re1
+Ng4 (8... exd4) 9. d5 f6 $6 (9... f5) 10. h3 Nh6 11. Be3 Nf7 12. Qc2 a5 13. a3
+Nc5 14. b4 axb4 15. axb4 Rxa1 16. Rxa1 Na6 17. Qb3 f5 18. c5 f4 19. Bd2 dxc5
+20. Bxa6 cxb4 21. Bxb7 bxc3 22. Bxc8 cxd2 23. Be6 Kh8 24. Bxf7 Rxf7 25. Nxd2
+Bf8 26. Qb7 Kg7 27. Ra8 Qf6 28. Re8 Bd6 29. Qc6 Re7 30. Rc8 Rf7 31. Kf1 Rf8 32.
+Re8 Rf7 33. Nf3 Re7 34. Qa8 Rxe8 35. Qxe8 h6 36. Qd7+ Kg8 37. Ke2 Kf8 38. Qh7
+Ke8 $2 $16 (38... Qg7 $142) 39. Kf1 (39. Qxh6 $2 Bf8 $1 $13) 39... h5 40. h4
+Be7 $2 (40... Qf7 $142) 41. Kg1 (41. Qg8+ $142) 41... Kd8 $2 (41... Bd6 $142)
+42. Qg8+ Kd7 43. Qxg6 $1 1-0
+
+[Event "Berga Tancat"]
+[Site "Berga"]
+[Date "1952.10.??"]
+[Round "6"]
+[White "Toran Albero, Roman"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1-0"]
+[ECO "B08"]
+[PlyCount "37"]
+[EventDate "1952.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. Nf3 g6 3. Nc3 Bg7 4. e4 d6 5. h3 O-O 6. Be3 c6 7. Qd2 b5 8. Bd3 a6
+9. a4 Bb7 10. Bh6 b4 11. Ne2 c5 12. Bxg7 Kxg7 13. Ng3 d5 14. e5 Ne4 15. Qe3
+Nxg3 16. fxg3 cxd4 17. Nxd4 Nc6 18. h4 h5 19. Nf5+ 1-0
+
+[Event "Berga Tancat"]
+[Site "Berga"]
+[Date "1952.10.??"]
+[Round "10"]
+[White "Sanz Aguado, Jose"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1-0"]
+[ECO "E70"]
+[PlyCount "87"]
+[EventDate "1952.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Bg5 O-O 6. Qd2 Re8 7. f3 c6 8. Nge2
+Qa5 9. h4 Nbd7 10. a3 a6 11. Bh6 Bh8 12. b4 Qc7 13. h5 e5 14. hxg6 hxg6 15. d5
+Nb6 16. Qg5 Nh7 17. Qh4 Bf6 18. Qh2 Nxc4 19. g4 g5 20. Ng3 Ne3 21. Bg7 Bxg7 22.
+Qxh7+ Kf8 23. Nh5 f6 24. Nxf6 Qf7 25. Nxe8 Kxe8 26. Ra2 Nxf1 27. Rxf1 Ke7 28.
+Qh1 Bd7 29. Rh2 a5 30. Ke2 axb4 31. axb4 Ra3 32. Rc1 Rb3 33. Rh7 Rb2+ 34. Kd3
+Rxb4 35. Ra1 c5 36. Kc2 Qf6 37. Ra8 Be8 38. Rc8 Kd7 39. Ra8 Qe7 40. Qa1 Bg6 41.
+Rh3 Qf7 42. Qa5 Bf6 43. Rhh8 Qe7 44. Rhc8 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1952.??.??"]
+[Round "13"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Llado Lumbera, Jaime"]
+[Result "0-1"]
+[ECO "B07"]
+[PlyCount "90"]
+[EventDate "1952.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Bg5 Bg7 5. Qd2 h6 6. Be3 c6 7. f3 Qc7 8. O-O-O
+b5 9. e5 b4 10. Nb5 cxb5 11. exf6 Bxf6 12. Bxb5+ Bd7 13. Bd3 Qa5 14. Bc4 d5 15.
+Bb3 Nc6 16. Ne2 Qb5 17. Nf4 e6 18. Rhe1 O-O 19. Qe2 Qxe2 20. Nxe2 Kg7 21. Ba4
+Nb8 22. Bxd7 Nxd7 23. Bf4 Rfc8 24. Kb1 Rc6 25. Nc1 Rac8 26. Re2 a5 27. Be5 Bxe5
+28. dxe5 g5 29. Nb3 a4 30. Nd4 Rb6 31. g3 Nc5 32. h4 a3 33. b3 g4 34. Rf1 gxf3
+35. Rxf3 Ne4 36. Rg2 Rc3 37. Rd3 Rc7 38. g4 Rb8 39. g5 hxg5 40. Nf3 f6 41. hxg5
+fxe5 42. Nxe5 Rf8 43. Rg1 Rf5 44. Ng4 Rxg5 45. Rg2 Rf7 0-1
+
+[Event "Camp. España indiv."]
+[Site "Tarragona / Reus / Valls"]
+[Date "1954.??.??"]
+[Round "4"]
+[White "Mora Corbera, Jaime"]
+[Black "Llado Lumbera, Jaime"]
+[Result "0-1"]
+[ECO "B26"]
+[PlyCount "96"]
+[EventDate "1954.07.??"]
+[EventType "tourn"]
+[EventRounds "17"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. d3 e6 6. Be3 d6 7. Qd2 Nd4 8. Nd1
+Ne7 9. h4 h5 10. Nh3 Bd7 11. Rb1 e5 12. c3 Bxh3 13. Rxh3 Ne6 14. f4 d5 15. fxe5
+d4 16. Bf4 Nc6 17. c4 a5 18. Nf2 Nxe5 19. Qe2 O-O 20. Bd2 Bf6 21. Kf1 Ng7 22.
+Kg1 Qd7 23. Rh2 b5 24. cxb5 Qxb5 25. Rf1 Qxb2 26. g4 hxg4 27. Nd1 Qb6 28. Bg5
+Nh5 29. Qd2 Qe6 30. Bxf6 Nxf6 31. h5 Kg7 32. hxg6 Rh8 33. Rxh8 Rxh8 34. gxf7
+Kxf7 35. Rf5 Rh5 36. Qxa5 Rxf5 37. Qc7+ Kg6 38. exf5+ Qxf5 39. Nf2 Qf4 40. Qxc5
+Qxf2+ 41. Kxf2 Nxd3+ 42. Ke2 Nxc5 43. a4 Kf5 44. a5 Nfe4 45. Kd1 Ke5 46. Bf1 g3
+47. Ke1 d3 48. Kd1 Kd4 0-1
+
+[Event "Camp. España indiv."]
+[Site "Tarragona / Reus / Valls"]
+[Date "1954.??.??"]
+[Round "11"]
+[White "Llado Lumbera, Jaime"]
+[Black "Toran Albero, Roman"]
+[Result "1/2-1/2"]
+[ECO "B13"]
+[PlyCount "128"]
+[EventDate "1954.07.??"]
+[EventType "tourn"]
+[EventRounds "17"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Bd3 Nc6 5. c3 Nf6 6. Bf4 Bg4 7. f3 Bh5 8. Ne2
+e6 9. O-O Bd6 10. Qd2 Bg6 11. Bxd6 Qxd6 12. Nf4 Bxd3 13. Nxd3 O-O 14. Re1 Rfc8
+15. Qf4 Qxf4 16. Nxf4 Na5 17. Nd2 Nc4 18. Nxc4 Rxc4 19. Nd3 Rc7 20. Re2 Rac8
+21. Kf2 Ne8 22. g4 Nd6 23. h4 b5 24. h5 h6 25. Kg3 a5 26. a3 Kf8 27. Kf4 Ke7
+28. Kg3 Rb8 29. Kh4 Rb6 30. Rf1 Kf8 31. f4 Ne4 32. f5 exf5 33. Rxf5 Nf6 34. Nf4
+Rd7 35. Ree5 Rbd6 36. Kg3 Rd8 37. Kf3 R8d7 38. g5 hxg5 39. Rxg5 Rd8 40. Rgf5
+R8d7 41. Ke2 Kg8 42. Kd3 Kh7 43. Kc2 Ng4 44. Re8 Rf6 45. Rxf6 Nxf6 46. Re5 Kh6
+47. Rf5 Rd6 48. Nd3 Nxh5 49. Ne5 Re6 50. Rxf7 Nf6 51. Rb7 g5 52. Rxb5 g4 53.
+Nxg4+ Nxg4 54. Rxa5 Ne3+ 55. Kd3 Nc4 56. Rxd5 Nxb2+ 57. Kc2 Re2+ 58. Kb3 Nd1
+59. Rd6+ Kg5 60. Rc6 Rb2+ 61. Ka4 Kf5 62. d5 Ke5 63. c4 Rb8 64. Ka5 Nb2 1/2-1/2
+
+[Event "Camp. España indiv."]
+[Site "Barcelona"]
+[Date "1956.??.??"]
+[Round "6"]
+[White "Toran Albero, Roman"]
+[Black "Llado Lumbera, Jaime"]
+[Result "0-1"]
+[ECO "E67"]
+[PlyCount "148"]
+[EventDate "1956.09.??"]
+[EventType "tourn"]
+[EventRounds "14"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. g3 g6 3. Bg2 Bg7 4. O-O O-O 5. d4 d6 6. c4 Nbd7 7. Qc2 e5 8. Rd1
+Re8 9. Nc3 c6 10. e4 Ng4 11. h3 Nh6 12. Be3 f6 13. b4 Nf7 14. c5 exd4 15. Bxd4
+dxc5 16. Bxc5 a5 17. b5 Qc7 18. Be3 cxb5 19. Qb3 a4 20. Nxb5 Qa5 21. Qc4 Nde5
+22. Nxe5 Be6 23. Qc7 Qxb5 24. Nxf7 Bxf7 25. Rd7 Rac8 26. Qd6 Re6 27. Qd2 Be8
+28. Rd5 Qc4 29. Rd1 Qc7 30. h4 Rc6 31. Bh3 Ra8 32. Bd7 Rc2 33. Qb4 Bf8 34. Qd4
+Bf7 35. Rb5 Qc3 36. Qb6 Qc7 37. Qxf6 Bg7 38. Qe7 Bf8 39. Qg5 Qd8 40. e5 Qxg5
+41. Bxg5 Bxa2 42. e6 Re2 43. Bf6 a3 44. Rxb7 Bxe6 45. Bb5 Rc2 46. h5 Rac8 47.
+Bd7 Bxd7 48. Rdxd7 R8c6 49. Be5 R2c5 50. Bd4 Rc4 51. hxg6 hxg6 52. Ra7 Rd6 53.
+Rxd6 Bxd6 54. Bf6 Bc5 55. Ra6 Kf7 56. Be5 Rc2 57. Rf6+ Ke7 58. Kg2 Re2 59. Bc3
+Re6 60. Rf3 Ra6 61. Rd3 a2 62. Rd1 Ke6 63. Ba1 Be7 64. f4 Bf6 65. Kf3 Ra3+ 66.
+Ke4 Bxa1 67. Rxa1 Ra4+ 68. Kf3 Kd5 69. Kg4 Ke4 70. Kg5 Ra6 71. Kg4 Ra5 72. Kh3
+Kf5 73. Kh4 Ra8 74. Kh3 Ra7 0-1
+
+[Event "Camp. España indiv."]
+[Site "Barcelona"]
+[Date "1956.??.??"]
+[Round "7"]
+[White "Llado Lumbera, Jaime"]
+[Black "Albareda Creus, Miguel"]
+[Result "1-0"]
+[ECO "B30"]
+[PlyCount "101"]
+[EventDate "1956.09.??"]
+[EventType "tourn"]
+[EventRounds "14"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 bxc6 5. O-O d6 6. d4 cxd4 7. Qxd4 c5 8.
+Qd3 e6 9. Rd1 Be7 10. c4 Nf6 11. Nc3 O-O 12. Bf4 Bb7 13. Bxd6 Bxd6 14. Qxd6
+Qxd6 15. Rxd6 Bxe4 16. Nd2 Bb7 17. Nb3 Rfc8 18. Na5 Be4 19. f3 Bg6 20. Rad1 Kf8
+21. R1d2 Ne8 22. Rb6 h5 23. Rb7 Rd8 24. Rbd7 Rxd7 25. Rxd7 Nf6 26. Rd2 e5 27.
+Nd5 e4 28. Nxf6 gxf6 29. fxe4 Bxe4 30. Nb3 Rc8 31. Rd6 f5 32. Kf2 Rb8 33. Rxa6
+Rb4 34. Ra5 Bb1 35. Rxc5 Bxa2 36. Nd2 Rxb2 37. Ke3 f4+ 38. Kd3 Bb1+ 39. Nxb1
+Rxb1 40. Rxh5 Rg1 41. Ke4 Rxg2 42. Kxf4 Rc2 43. c5 Kg7 44. Ke4 Kg6 45. Kd3 Rc1
+46. Rd5 f5 47. h4 Kf6 48. Kd4 Rd1+ 49. Kc4 Rh1 50. c6 Ke6 51. Rd4 1-0
+
+[Event "Camp. España indiv."]
+[Site "Barcelona"]
+[Date "1956.??.??"]
+[Round "11"]
+[White "Llado Lumbera, Jaime"]
+[Black "Pomar Salamanca, Arturo"]
+[Result "1-0"]
+[ECO "B02"]
+[PlyCount "65"]
+[EventDate "1956.09.??"]
+[EventType "tourn"]
+[EventRounds "14"]
+[EventCountry "ESP"]
+
+1. e4 Nf6 2. e5 Nd5 3. c4 Nb6 4. d4 d6 5. exd6 Qxd6 6. Be3 Qg6 7. Nc3 e5 8. c5
+exd4 9. Qxd4 Nc6 10. Qd2 Nd7 11. Nd5 Bxc5 12. Bxc5 Nxc5 13. Qe3+ Ne6 14. Bd3
+Qxg2 15. Nxc7+ Kd8 16. Be4 Qg4 17. Nxa8 Re8 18. h3 Qh5 19. Ne2 Qa5+ 20. Nc3 Nc5
+21. O-O-O+ Bd7 22. Qf4 Nxe4 23. Nxe4 Qe5 24. Qxe5 Nxe5 25. Nd6 Re7 26. f4 Ng6
+27. Rhe1 Rxe1 28. Rxe1 Nxf4 29. Nxf7+ Kc8 30. Nd6+ Kb8 31. Re7 Nd3+ 32. Kd2 Nc5
+33. b4 1-0
+
+[Event "Camp. España indiv."]
+[Site "Barcelona"]
+[Date "1956.??.??"]
+[Round "14"]
+[White "Franco Raymundo, Eduardo"]
+[Black "Llado Lumbera, Jaime"]
+[Result "0-1"]
+[ECO "A53"]
+[PlyCount "140"]
+[EventDate "1956.09.??"]
+[EventType "tourn"]
+[EventRounds "14"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 d6 3. Nc3 e5 4. dxe5 dxe5 5. Qxd8+ Kxd8 6. Bg5 Be7 7. Nf3 Nbd7
+8. Rd1 Ke8 9. Nb5 Bd8 10. g3 a6 11. Nc3 h6 12. Bc1 c6 13. Bg2 Bc7 14. O-O g6
+15. b3 Kf8 16. Ba3+ Kg7 17. Nd2 Nf8 18. Nde4 Nxe4 19. Nxe4 Ne6 20. Nd6 Bxd6 21.
+Rxd6 Re8 22. e3 Nf8 23. Rfd1 Be6 24. R1d2 g5 25. Bb2 f6 26. f4 Ng6 27. Rxe6
+Rxe6 28. f5 Ree8 29. fxg6 Rad8 30. Re2 f5 31. Kf2 Kxg6 32. Ke1 f4 33. Rd2 Rxd2
+34. Kxd2 h5 35. Ba3 h4 36. Ke1 g4 37. Be4+ Kg5 38. gxh4+ Kxh4 39. Bg6 Rg8 40.
+Bd3 Kh3 41. exf4 exf4 42. Bd6 Kxh2 43. Bxf4+ g3 44. Bc7 Rg7 45. Bb8 Rg8 46. Bc7
+Rc8 47. Bf4 Rf8 48. Bc7 Re8+ 49. Kd2 Kh3 50. Bf5+ Kh4 51. Bb6 g2 52. Kc3 Re1
+53. Bc8 Re7 54. Bf2+ Kg5 55. Kb4 Re8 56. Bh3 Re2 57. Bb6 a5+ 58. Ka3 Kf4 59.
+Bc8 Kf3 60. Bxb7 Re6 61. Ka4 $4 Ke2 62. Kxa5 Re3 63. Bxc6 g1=Q 64. a4 Qg5+ 65.
+c5 Rxb3 66. Ka6 Qf5 67. Bb7 Rc3 68. c6 Qe6 69. c7 Rxc7 70. a5 Qd7 0-1
+
+[Event "La Pobla de Lillet Nacional"]
+[Site "La Pobla de Lillet"]
+[Date "1957.07.22"]
+[Round "3"]
+[White "Llado Lumbera, Jaime"]
+[Black "Ribera Arnal, Angel"]
+[Result "1-0"]
+[ECO "B52"]
+[PlyCount "61"]
+[EventDate "1957.07.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Qxd7 5. O-O Nc6 6. b3 Nf6 7. Re1 e6 8.
+Bb2 Be7 9. d4 cxd4 10. Nxd4 O-O 11. c4 Rfd8 12. Nc3 Rac8 13. Qd2 Ne5 14. Rad1
+$14 a6 15. Qe2 Ng6 16. Rd2 b6 17. g3 Qb7 18. f4 e5 19. fxe5 dxe5 20. Nf3 Bb4
+21. Rc2 $6 b5 22. cxb5 axb5 23. Kh1 Bxc3 24. Rxc3 Rxc3 25. Bxc3 b4 26. Bd2 h6
+27. Qc4 Qa7 28. Re2 Qxa2 29. Bxb4 Qb1+ 30. Kg2 Rd3 $4 31. Nd2 1-0
+
+[Event "La Pobla de Lillet Nacional"]
+[Site "La Pobla de Lillet"]
+[Date "1957.07.23"]
+[Round "4"]
+[White "Albareda Creus, Miguel"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1-0"]
+[ECO "C86"]
+[PlyCount "125"]
+[EventDate "1957.07.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Qe2 O-O 7. Bxc6 dxc6 8.
+Nxe5 Qd4 9. Nf3 Qc5 10. e5 Ne8 11. d4 Qb6 12. Nbd2 c5 13. d5 Qg6 14. Ne4 Bf5
+15. Re1 Rd8 16. c4 Bxe4 17. Qxe4 Qxe4 18. Rxe4 f6 19. Bf4 h6 20. Rae1 f5 21.
+R4e2 g5 22. Bc1 Ng7 23. e6 Kh7 24. Ne5 Ne8 25. Nf7 Rc8 26. h4 Kg6 27. hxg5 hxg5
+28. Re3 Nd6 29. Nxd6 cxd6 30. Rb3 b5 31. cxb5 c4 32. Rb4 axb5 33. Rxb5 Rb8 34.
+Ra5 Ra8 35. Bd2 Rxa5 36. Bxa5 Ra8 37. Bc3 Rxa2 38. f3 Ra7 39. Kf2 Rb7 40. Ra1
+Bf6 41. Ke3 Rb5 42. Rd1 Rb3 43. Re1 f4+ 44. Ke4 Rb5 45. Ra1 Rb3 46. Ra8 Rb7 47.
+Rg8+ Kh7 48. Rc8 Kg6 49. Rg8+ Kh7 50. Rf8 Bxc3 51. bxc3 Kg6 52. Kd4 Kh5 53.
+Rh8+ Kg6 54. Rd8 Kf6 55. Rxd6 Rb2 56. Rd7 Rxg2 57. Rf7+ Kg6 58. Rf8 Re2 59.
+Kxc4 Kg7 60. Rf7+ Kg6 61. Kd4 Rd2+ 62. Ke5 Rd3 63. Rf8 1-0
+
+[Event "La Pobla de Lillet Nacional"]
+[Site "La Pobla de Lillet"]
+[Date "1957.07.28"]
+[Round "9"]
+[White "Vila Sala, Salvador"]
+[Black "Llado Lumbera, Jaime"]
+[Result "0-1"]
+[ECO "E95"]
+[PlyCount "98"]
+[EventDate "1957.07.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 c6 7. O-O Nbd7 8. Re1
+e5 9. Qc2 Qe7 10. Be3 Ng4 11. Bg5 f6 12. Bd2 Nh6 13. Rad1 Nf7 14. b4 Re8 15. a3
+g5 16. dxe5 dxe5 17. c5 Nf8 18. Bc4 Be6 19. Ne2 h5 20. Ng3 h4 21. Nf5 Bxf5 22.
+exf5 Red8 23. Bc3 Kh8 24. Nd2 Nh6 25. Ne4 Nh7 26. Nd6 Bf8 27. Be6 Qg7 28. Ne4
+Be7 29. Rxd8+ Rxd8 30. Rd1 Nf8 31. Rxd8 Bxd8 32. Qd1 Nxe6 33. fxe6 Qe7 34. Nd6
+Qxe6 35. Nxb7 Be7 36. Qh5 Kg7 37. Qe8 Nf7 38. b5 cxb5 39. h3 g4 40. hxg4 Qxg4
+41. Qxb5 h3 42. Qf1 Qc8 43. Qb5 hxg2 44. Kxg2 Ng5 45. f4 Qh3+ 46. Kg1 Qg3+ 47.
+Kf1 Qxf4+ 48. Kg2 Qf3+ 49. Kh2 Qf2+ 0-1
+
+[Event "Tarragona Int"]
+[Site "Tarragona"]
+[Date "1957.12.13"]
+[Round "1"]
+[White "Darga, Klaus"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1-0"]
+[ECO "B07"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "83"]
+[EventDate "1957.12.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 c6 4. f4 g6 5. Nf3 Bg7 6. Bd3 Bg4 7. h3 Bxf3 8. Qxf3
+Qb6 9. e5 dxe5 10. fxe5 Nfd7 11. Be3 O-O 12. O-O-O c5 13. Nd5 Qd8 14. Bg5 Nc6
+15. Bb5 f6 16. exf6 exf6 17. Bf4 $2 (17. Be3) 17... Nxd4 18. Qf1 Ne5 19. Ne3
+Qa5 20. Bc4+ Kh8 21. Kb1 b5 (21... Nxc4) 22. Bd5 Rad8 23. h4 h5 24. c3 Rxd5 $2
+25. Nxd5 Ndc6 26. Bxe5 Nxe5 27. Nf4 b4 28. c4 Kh7 29. Ne6 Re8 30. Nxg7 Kxg7 31.
+Rd6 Rf8 32. Qe2 Rf7 33. Rhd1 Qc7 34. Qe4 Re7 35. Qd5 Qc8 36. Rf1 Rf7 37. Rf4
+Qe8 38. Re6 (38. Qxc5 $142) 38... Qc8 39. Rxe5 $6 {Y aquí Lladó,
+incomprensiblemente, abandonó, cuando tenía 39. ... Dc7  Veamos qué pasaría...}
+(39. Qd6 $142) 39... Qc7 $1 40. Qxc5 (40. Ree4 $2 Rd7 41. Qe6 Qd8 $11) 40...
+Qxe5 41. Qxe5 fxe5 42. Rxf7+ {con ventaja.} 1-0
+
+[Event "Tarragona Int"]
+[Site "Tarragona"]
+[Date "1957.12.19"]
+[Round "7"]
+[White "Llado Lumbera, Jaime"]
+[Black "O' Kelly de Galway, Alberic"]
+[Result "0-1"]
+[ECO "B20"]
+[PlyCount "56"]
+[EventDate "1957.12.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. d3 Nc6 3. Nd2 g6 4. Ngf3 Bg7 5. g3 e5 6. Bg2 d6 7. O-O Nge7 8. c3
+O-O 9. a4 Rb8 10. Re1 h6 11. Nf1 Be6 12. Be3 f5 13. exf5 Nxf5 14. Bc1 Qc7 15.
+Ne3 Rbe8 16. Nd2 Kh7 17. Nxf5 gxf5 18. f4 exf4 19. gxf4 Qf7 20. Re3 Bd5 21. Nf3
+Bf6 22. Bd2 Rg8 23. Rxe8 Rxe8 24. Qf1 Ne7 25. Be1 Bc6 26. Bd2 Rg8 27. Kh1 Rxg2
+28. Kxg2 Qg6+ 0-1
+
+[Event "Tarragona Int"]
+[Site "Tarragona"]
+[Date "1957.12.21"]
+[Round "9"]
+[White "Llado Lumbera, Jaime"]
+[Black "Perez Perez, Francisco Jose"]
+[Result "1-0"]
+[ECO "B90"]
+[PlyCount "137"]
+[EventDate "1957.12.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 a6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. a4 e5 7. Nde2 Be7 8. g3
+Bg4 9. Bg2 Qd7 10. O-O Nc6 11. f3 Be6 12. Nd5 Bxd5 13. exd5 Nb4 14. f4 e4 15.
+Nc3 O-O 16. Nxe4 Nbxd5 17. c4 Nb6 18. b3 d5 19. Nxf6+ Bxf6 20. Rb1 Rfd8 21. c5
+Nc8 22. b4 Ne7 23. Be3 Rac8 24. Bf2 d4 25. Qb3 Nd5 26. Bxd5 Qxd5 27. Qxd5 Rxd5
+28. Rfd1 h5 29. a5 Re8 30. Re1 Kf8 31. Kg2 d3 32. Red1 Re2 33. Rb3 Rb2 34. Rxb2
+Bxb2 35. Be1 Rd4 36. Kf3 d2 37. Rxd2 Rxb4 38. Rc2 Rb3+ 39. Ke4 Bf6 40. c6 bxc6
+41. Rxc6 Rb2 42. Kf3 Rb3+ 43. Ke2 Rb2+ 44. Bd2 Ra2 45. Kd3 Ra3+ 46. Kc2 Ra2+
+47. Kd1 Ra1+ 48. Ke2 Ra2 49. Ke3 Ra3+ 50. Ke2 Ra2 51. Kd3 Ra3+ 52. Kc4 Ra2 53.
+Bb4+ Ke8 54. Rxa6 Rxh2 55. Ra8+ Kd7 56. Kd5 Kc7 57. Ra7+ Kb8 58. Rxf7 Rg2 59.
+Kc6 Rc2+ 60. Bc5 Kc8 61. Rf8+ Bd8 62. a6 Ra2 63. Bb6 Rc2+ 64. Kd5 Rd2+ 65. Ke4
+Re2+ 66. Kf3 Rd2 67. Rxd8+ Rxd8 68. Bxd8 Kxd8 69. a7 1-0
+
+[Event "Torneo entrenamiento Olimp. Munich"]
+[Site "Barcelona"]
+[Date "1958.??.??"]
+[Round "?"]
+[White "Menvielle Lacourrelle, Augusto"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1-0"]
+[ECO "C33"]
+[PlyCount "65"]
+[EventDate "1958.08.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. f4 exf4 3. Nc3 Qh4+ 4. Ke2 Nf6 5. Nf3 Qh5 6. e5 Ng8 7. Nd5 Na6 8.
+Kf2 Ne7 9. Nxf4 Qh6 10. d4 Qb6 11. Bc4 h6 12. Re1 c6 13. Be3 Nf5 14. Qd3 Nxe3
+15. Rxe3 Nc7 16. Bxf7+ Kxf7 17. Qg6+ Ke7 18. e6 Nxe6 19. Rae1 Kd8 20. Nxe6+
+dxe6 21. Ne5 Kc7 22. Nf7 Qxd4 23. Nxh8 Bc5 24. Kf1 Bd7 25. Nf7 Rf8 26. Rf3 b5
+27. c3 Qg1+ 28. Ke2 Qxh2 29. Qxg7 Qh4 30. Ne5 Qe4+ 31. Kd2 Qd5+ 32. Rd3 Rf2+
+33. Kc1 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1959.12.27"]
+[Round "2"]
+[White "Ribera Arnal, Angel"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1-0"]
+[ECO "E91"]
+[PlyCount "61"]
+[EventDate "1959.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 Nbd7 7. O-O c6 8. h3
+e5 9. Be3 Qe7 10. Qc2 Ne8 11. Rad1 f5 12. c5 f4 13. cxd6 Nxd6 14. dxe5 Nxe5 15.
+Bc5 Nxf3+ 16. Bxf3 Be5 17. Rd2 Be6 18. Rfd1 Rfd8 19. Ne2 Qc7 20. Nd4 Bf7 21.
+Bg4 Nc4 22. Ne6 Rxd2 23. Rxd2 Qa5 24. b4 Qa6 25. Rd7 Nb6 26. Nc7 Bxc7 27. Rxc7
+Qxa2 28. Qc3 Na4 29. Qf6 Nxc5 30. bxc5 Qb1+ 31. Kh2 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1960.01.10"]
+[Round "5"]
+[White "Llado Lumbera, Jaime"]
+[Black "Saborido Carre, Rafael"]
+[Result "1-0"]
+[ECO "C68"]
+[PlyCount "107"]
+[EventDate "1960.??.??"]
+[EventType "tourn"]
+[EventRounds "14"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. d4 exd4 6. Qxd4 Qxd4 7. Nxd4 Bd7
+8. Bg5 f6 9. Be3 O-O-O 10. Nc3 Ne7 11. f3 Ng6 12. Kf2 Ne5 13. b3 c5 14. Nde2 c4
+15. h3 cxb3 16. axb3 Be6 17. g4 Nc6 18. h4 Nb4 19. Rac1 Bf7 20. h5 Bd6 21. h6
+g5 22. Bd4 Be7 23. Kg2 c5 24. Be3 Kc7 25. Ng3 Be6 26. e5 fxe5 27. Nge4 Rhg8 28.
+Bxc5 Bxc5 29. Nxc5 Rd2+ 30. Kg3 Bf7 31. N3e4 Rxc2 32. Nd3 Rxc1 33. Rxc1+ Nc6
+34. Nxe5 Bxb3 35. Nf6 Rf8 36. Nxh7 Rh8 37. Nxg5 Rxh6 38. f4 a5 39. f5 a4 40.
+Ne4 Kb6 41. g5 Rh8 42. Nxc6 bxc6 43. Nc5 Kb5 44. Nxb3 axb3 45. Rc3 Kb4 46. Rxc6
+Rb8 47. Rc1 b2 48. Rb1 Kc3 49. f6 Rb3 50. Kg4 Kc2 51. Rxb2+ Rxb2 52. f7 Rb4+
+53. Kf5 Rb5+ 54. Kf6 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1960.01.24"]
+[Round "8"]
+[White "Perez Perez, Francisco Jose"]
+[Black "Llado Lumbera, Jaime"]
+[Result "0-1"]
+[ECO "B07"]
+[PlyCount "88"]
+[EventDate "1960.??.??"]
+[EventType "tourn"]
+[EventRounds "14"]
+[EventCountry "ESP"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 e5 4. dxe5 dxe5 5. Qxd8+ Kxd8 6. Bc4 Ke8 7. Nf3 Bd6
+8. Bg5 Nbd7 9. O-O-O a6 10. Nh4 h6 11. Bd2 Nc5 12. f3 g6 13. Rhe1 Be7 14. g3 c6
+15. Ng2 b5 16. Bf1 Be6 17. Kb1 a5 18. Ne3 Nfd7 19. Bg2 f6 20. f4 Nb6 21. fxe5
+fxe5 22. Ncd5 Bd8 23. Nxb6 Bxb6 24. Bc3 Bc7 25. Nd5 Bb8 26. b3 Rf8 27. Rd2 Ra7
+28. Ne3 Bc7 29. Red1 Nd7 30. Rf1 Bb6 31. Rxf8+ Kxf8 32. Nd1 Bc5 33. Nf2 Ke7 34.
+Nd3 Bd6 35. Rf2 c5 36. Kc1 c4 37. Ne1 cxb3 38. cxb3 a4 39. b4 Rc7 40. Kb2 a3+
+41. Kc2 Bxb4 42. Rf3 Bxa2 43. Bf1 Be6 44. Bxb5 a2 0-1
+
+[Event "Camp. España eq. Final"]
+[Site "Barcelona"]
+[Date "1960.??.??"]
+[Round "1"]
+[White "Toran Albero, Roman"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1-0"]
+[ECO "E70"]
+[PlyCount "73"]
+[EventDate "1960.09.??"]
+[EventType "team"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Bg5 c6 6. Be2 Nbd7 7. Nf3 e5 8. d5 c5
+9. Nd2 h6 10. Be3 Nb8 11. a3 Na6 12. Rb1 O-O 13. Nf1 Nc7 14. b4 b6 15. g4 Nh7
+16. h4 f5 17. gxf5 gxf5 18. exf5 Bxf5 19. Bd3 e4 20. Nxe4 Nf6 21. Nfg3 Bxe4 22.
+Nxe4 Nxe4 23. Bxe4 Qe7 24. Qg4 Rae8 25. Rg1 Kh8 26. f3 Rg8 27. Ke2 Qf6 28. Qg6
+Rxe4 29. fxe4 Qc3 30. Rbc1 Qb2+ 31. Bd2 cxb4 32. axb4 a5 33. Rcf1 axb4 34. Rf7
+Ne8 35. Re7 Qd4 36. Rxe8 Qxc4+ 37. Kf3 1-0
+
+[Event "Camp. España eq."]
+[Site "Barcelona"]
+[Date "1964.??.??"]
+[Round "1"]
+[White "Llado Lumbera, Jaime"]
+[Black "Perdigo Ralle, Alberto"]
+[Result "1-0"]
+[ECO "C78"]
+[PlyCount "105"]
+[EventDate "1964.08.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Bc5 6. c3 Ba7 7. d4 b5 8. Bb3
+Qe7 9. Bg5 d6 10. Bd5 Bd7 11. Nh4 h6 12. Nf5 Qd8 13. Be3 Nxd5 14. Nxg7+ Kf8 15.
+exd5 Ne7 16. Nh5 Nf5 17. Ng3 exd4 18. cxd4 Qf6 19. Nc3 Re8 20. Nxf5 Qxf5 21.
+Qd2 Qf6 22. Ne2 Re4 23. Ng3 Rg4 24. f3 Rg6 25. Kh1 h5 26. Ne2 h4 27. Nf4 Rg3
+28. Kg1 Rg7 29. Rf2 Bb6 30. Kh1 Qf5 31. b4 Rhg8 32. Qc2 Qxc2 33. Rxc2 Rg5 34.
+Rac1 Bc8 35. Kg1 Bb7 36. Rxc7 Bxc7 37. Rxc7 Ba8 38. Ra7 Bxd5 39. Nxd5 Rxg2+ 40.
+Kf1 R8g6 41. Ra8+ Kg7 42. Nf4 Rxh2 43. Nxg6 fxg6 44. Bf2 Rh1+ 45. Kg2 Rb1 46.
+Rxa6 Rb2 47. Rxd6 h3+ 48. Kxh3 Rxf2 49. Kg3 Rxa2 50. Rd5 Rd2 51. Kf4 Rd1 52.
+Ke3 Re1+ 53. Kd2 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1966.??.??"]
+[Round "1"]
+[White "Llado Lumbera, Jaime"]
+[Black "Bautista Sanchez, Juan"]
+[Result "1-0"]
+[ECO "B40"]
+[PlyCount "77"]
+[EventDate "1966.??.??"]
+[EventType "tourn"]
+[EventRounds "16"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. d3 d6 4. Nbd2 Nc6 5. g3 Be7 6. Bg2 Nf6 7. O-O O-O 8. Re1
+Qc7 9. c3 e5 10. Nf1 Be6 11. Ne3 Rad8 12. Nh4 d5 13. Qe2 d4 14. Nef5 c4 15.
+dxc4 dxc3 16. bxc3 Na5 17. Bg5 Bxc4 18. Qb2 Ba6 19. Nxe7+ Qxe7 20. Qb4 Nc6 21.
+Qxe7 Nxe7 22. Bxf6 gxf6 23. Rad1 Bc4 24. Rb1 b6 25. a4 Rd2 26. Red1 Rfd8 27.
+Rxd2 Rxd2 28. Bf1 Bxf1 29. Kxf1 Nc6 30. Nf5 Kf8 31. Ne3 Ra2 32. Rd1 Ke7 33.
+Nf5+ Ke8 34. Rd6 Ne7 35. Ng7+ Kf8 36. Nh5 Ng6 37. Nxf6 Rxa4 38. Rd7 Kg7 39.
+Ne8+ 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1966.??.??"]
+[Round "2"]
+[White "Bravo Aragay, Gaspar"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1/2-1/2"]
+[ECO "E87"]
+[PlyCount "77"]
+[EventDate "1966.??.??"]
+[EventType "tourn"]
+[EventRounds "16"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 e5 7. d5 Nh5 8. Qd2 c5
+9. dxc6 Nxc6 10. O-O-O Be6 11. Nd5 f5 12. Ne2 fxe4 13. fxe4 Bg4 14. Bg5 Qd7 15.
+h3 Rxf1 16. Rhxf1 Bxe2 17. Qxe2 Ng3 18. Qf3 Nxf1 19. Rxf1 Nd4 20. Qf2 Qe6 21.
+Ne7+ Kh8 22. Nd5 Rc8 23. Kb1 Rxc4 24. Qf7 h6 25. Bd8 Rc8 26. Qe7 Qxe7 27. Bxe7
+Nc6 28. Bxd6 Kg8 29. a3 Rd8 30. Bc5 Rd7 31. Kc2 Rf7 32. Rxf7 Kxf7 33. Nb4 Nxb4+
+34. Bxb4 Ke6 35. Kd3 b5 36. b3 Kf6 37. a4 a6 38. axb5 axb5 39. Bc5 1/2-1/2
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1966.??.??"]
+[Round "3"]
+[White "Llado Lumbera, Jaime"]
+[Black "Menvielle Lacourrelle, Augusto"]
+[Result "1/2-1/2"]
+[ECO "C63"]
+[PlyCount "92"]
+[EventDate "1966.??.??"]
+[EventType "tourn"]
+[EventRounds "16"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 f5 4. d3 fxe4 5. dxe4 Nf6 6. Bxc6 bxc6 7. Nxe5 Qe7
+8. Nd3 Qxe4+ 9. Qe2 Qxe2+ 10. Kxe2 Bd6 11. f3 O-O 12. Bf4 Bxf4 13. Nxf4 Ba6+
+14. Nd3 Nd5 15. Kd2 Bxd3 16. cxd3 Rab8 17. b3 Rfe8 18. Na3 c5 19. Rhe1 Nf4 20.
+g3 Ne6 21. Nc2 a5 22. f4 g6 23. Re4 Ra8 24. Rae1 Kf7 25. Ra4 Red8 26. Rf1 Rf8
+27. Re4 Kg7 28. Ne3 Nd4 29. Re7+ Rf7 30. Rxf7+ Kxf7 31. Nc2 a4 32. Nxd4 cxd4
+33. b4 Rb8 34. a3 c5 35. Rb1 Rb5 36. Kc2 d6 37. g4 Kf6 38. h3 h5 39. bxc5 Rxc5+
+40. Kd2 hxg4 41. hxg4 Rc3 42. Rb4 Rxa3 43. Rxd4 Ke6 44. Re4+ Kf7 45. Rc4 Ra1
+46. Rc7+ Ke6 1/2-1/2
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1966.??.??"]
+[Round "4"]
+[White "Puig Pulido, Pedro"]
+[Black "Llado Lumbera, Jaime"]
+[Result "0-1"]
+[ECO "C41"]
+[PlyCount "64"]
+[EventDate "1966.??.??"]
+[EventType "tourn"]
+[EventRounds "16"]
+[EventCountry "ESP"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 e5 4. Nf3 Nbd7 5. Bc4 Be7 6. a4 O-O 7. O-O c6 8. Ba2
+h6 9. Nh4 Kh7 10. Nf5 Nb6 11. dxe5 dxe5 12. Qf3 Bxf5 13. Qxf5+ g6 14. Qh3 Nh5
+15. a5 Nc8 16. Rd1 Qe8 17. Bxh6 Kxh6 18. g4 Nd6 19. gxh5 g5 20. Rd3 f5 21. Rad1
+Rd8 22. exf5 Nxf5 23. Rxd8 Bxd8 24. Ne4 Nd4 25. Nd6 Qe7 26. Rxd4 exd4 27. Nf5+
+Rxf5 28. Qxf5 Qf6 29. Qd7 Bxa5 30. Bg8 g4 31. Qh7+ Kg5 32. Bf7 Bc7 $138 0-1
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1966.??.??"]
+[Round "5"]
+[White "Llado Lumbera, Jaime"]
+[Black "Subira, Melchor"]
+[Result "1/2-1/2"]
+[ECO "C85"]
+[PlyCount "118"]
+[EventDate "1966.??.??"]
+[EventType "tourn"]
+[EventRounds "16"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Bxc6 dxc6 7. Qe1 Be6 8.
+d3 Nd7 9. Be3 c5 10. Nbd2 f6 11. c3 Nb6 12. d4 cxd4 13. cxd4 Nc4 14. d5 Nxd2
+15. Qxd2 Bd7 16. Rfc1 O-O 17. Bc5 Bg4 18. Bxe7 Qxe7 19. Ne1 Rfd8 20. f3 Bh5 21.
+Qc3 c6 22. dxc6 bxc6 23. Nc2 Qa7+ 24. Ne3 Be8 25. Qc5 Qb7 26. b4 Qb5 27. Nc4
+Rab8 28. a3 Rd4 29. Qxb5 cxb5 30. Ne3 Bf7 31. Rd1 Bb3 32. Rdc1 Rd3 33. Nf5 Bc4
+34. Rd1 Rbd8 35. Ne3 Kf7 36. a4 R8d4 37. Rxd3 Rxd3 38. Kf2 Rd2+ 39. Kg3 g6 40.
+Rd1 Ra2 41. Rd7+ Ke6 42. Rc7 Rxa4 43. Nxc4 bxc4 44. Rxc4 Kd7 45. Rc5 Ra3 46. b5
+axb5 47. Rxb5 Ra7 48. Rb8 Ke6 49. Rh8 Rg7 50. Re8+ Kd7 51. Rh8 Ke6 52. Kh3 f5
+53. g3 Ra7 54. exf5+ gxf5 55. Re8+ Re7 56. Rxe7+ Kxe7 57. g4 Kf6 58. Kg3 h6 59.
+Kf2 e4 1/2-1/2
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1967.??.??"]
+[Round "1"]
+[White "Perdigo Ralle, Alberto"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1-0"]
+[ECO "C41"]
+[PlyCount "81"]
+[EventDate "1967.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 e5 4. Nf3 Nbd7 5. Bc4 Be7 6. O-O O-O 7. Qe2 c6 8. a4
+Qe8 9. dxe5 dxe5 10. Ne1 h6 11. Nd3 Nh7 12. f4 exf4 13. Bxf4 Nc5 14. Be3 Ne6
+15. e5 Nc7 16. Qf2 b6 17. Nf4 Bf5 18. g4 Be6 19. Bd3 Nd5 20. Ncxd5 cxd5 21. h3
+Qc8 22. Nh5 Bc5 23. Rae1 Ng5 24. Qg3 Bxe3+ 25. Rxe3 d4 26. Re2 Bc4 27. h4 Bxd3
+28. cxd3 Ne6 29. g5 g6 30. gxh6 Kh8 31. Nf4 Nxf4 32. Qxf4 Qe6 33. Qg5 f5 34.
+Rg2 Rg8 35. h5 gxh5 36. Qxf5 Rxg2+ 37. Kxg2 Rg8+ 38. Kh3 Qd5 39. Rf3 Qd8 40. e6
+Qd6 41. Rf4 $138 1-0
+
+[Event "Camp. Catalunya indiv."]
+[Site "?"]
+[Date "1967.??.??"]
+[Round "3"]
+[White "Tejero Royo, Fermin"]
+[Black "Llado Lumbera, Jaime"]
+[Result "0-1"]
+[ECO "B07"]
+[PlyCount "94"]
+[EventDate "1967.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. e4 d6 2. d4 Nf6 3. Bd3 e5 4. c3 Nbd7 5. Ne2 Be7 6. O-O d5 7. exd5 Nxd5 8. f4
+exd4 9. Nxd4 N7f6 10. Na3 O-O 11. Nc4 Bc5 12. Ne5 Bxd4+ 13. cxd4 Ne7 14. Be3
+Bf5 15. g4 Bxd3 16. Qxd3 Ned5 17. f5 Nxe3 18. Qxe3 Nd5 19. Qb3 Rb8 20. Rae1 c6
+21. Re2 Qb6 22. Qxb6 axb6 23. g5 f6 24. gxf6 Nxf6 25. Nc4 Nd5 26. a4 Rf6 27.
+Re6 Rff8 28. Nd6 Rfd8 29. Ne4 Rd7 30. f6 gxf6 31. Kh1 Rf8 32. Ng3 Kf7 33. Re4
+Re7 34. Rh4 Ke8 35. Nf5 Rd7 36. Ra1 Kd8 37. a5 bxa5 38. Rxa5 Kc7 39. Ra3 Re8
+40. Kg1 Re1+ 41. Kf2 Rb1 42. Rb3 Ne7 43. Nxe7 Rxe7 44. Rh6 Rf7 45. h4 Rd1 46.
+Ke3 f5 47. h5 f4+ 0-1
+
+[Event "Camp. Catalunya indiv."]
+[Site "?"]
+[Date "1967.??.??"]
+[Round "6"]
+[White "Baixauli Cullare, Julio"]
+[Black "Llado Lumbera, Jaime"]
+[Result "0-1"]
+[ECO "A24"]
+[PlyCount "76"]
+[EventDate "1967.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. c4 Nf6 2. Nc3 g6 3. e4 d6 4. g3 Bg7 5. Bg2 O-O 6. Nge2 e5 7. O-O Nc6 8. h3
+h5 9. d4 Nh7 10. d5 Nb8 11. Be3 Nd7 12. Rb1 f5 13. exf5 gxf5 14. f4 h4 15. b4
+hxg3 16. Rb3 a5 17. a3 axb4 18. axb4 Nb6 19. c5 Na4 20. Nxa4 Rxa4 21. Qc2 Bd7
+22. b5 Qa8 23. c6 bxc6 24. bxc6 Ra2 25. Qc4 Bc8 26. Rb8 Qa6 27. Qxa6 Bxa6 28.
+Rxf8+ Nxf8 29. Nc1 Ra1 30. Rf3 exf4 31. Bd2 Bd4+ 32. Kh1 Be3 33. Rxe3 fxe3 34.
+Bxe3 Ng6 35. h4 Be2 36. Bh3 Nxh4 37. Bg5 Bf3+ 38. Kg1 Bxd5 0-1
+
+[Event "Camp. Europa eq. prel. gr. 1"]
+[Site "Barcelona"]
+[Date "1967.??.??"]
+[Round "1.6"]
+[White "Weiss, Hans"]
+[Black "Llado Lumbera, Jaime"]
+[Result "0-1"]
+[ECO "C41"]
+[PlyCount "154"]
+[EventDate "1967.09.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 e5 4. Nf3 Nbd7 5. Bc4 Be7 6. O-O O-O 7. a4 c6 8. b3
+h6 9. Qe2 Nh7 10. Bb2 Ng5 11. Rad1 Qe8 12. d5 c5 13. Nb5 Qd8 14. Nxg5 hxg5 15.
+Qe3 a6 16. Nc3 g6 17. Bd3 f6 18. Bc1 Rf7 19. g3 Rh7 20. g4 Nf8 21. f3 Bd7 22.
+Kg2 Qe8 23. Qe2 Rb8 24. Rh1 Bd8 25. Bd2 b5 26. axb5 axb5 27. Ra1 b4 28. Nd1 Bb6
+29. Nb2 Ra8 30. Nc4 Bc7 31. Qe1 Qb8 32. Be3 Rxa1 33. Qxa1 Bb5 34. Qa2 Bxc4 35.
+Bxc4 Bb6 36. Ra1 Ra7 37. Qb2 Qa8 38. Rxa7 Qxa7 39. Bb5 c4 40. Bxb6 Qxb6 41.
+bxc4 Qe3 42. Qxb4 Qe2+ 43. Kg3 f5 44. gxf5 g4 45. Qc3 Nh7 46. c5 Qxb5 47. c6
+Qf1 48. Qe3 Qh3+ 49. Kf2 Qxh2+ 50. Ke1 g3 51. c7 g2 52. c8=Q+ Nf8 53. fxg6
+g1=Q+ 54. Qxg1 Qxg1+ 55. Ke2 Qxg6 56. c4 Qg2+ 57. Ke3 Qg1+ 58. Ke2 Qh2+ 59. Ke3
+Qc2 60. f4 Qb3+ 61. Kf2 Qa2+ 62. Kf3 Qb3+ 63. Kg4 Qe3 64. fxe5 Qxe4+ 65. Kh3
+Qxe5 66. Kg4 Kf7 67. Kf3 Ke7 68. Qb7+ Nd7 69. Kg4 Qd4+ 70. Kf5 Qf2+ 71. Ke4 Qc5
+72. Qc6 Qa7 73. Kf5 Nc5 74. Kg6 Qb7 75. Qb5 Qxb5 76. cxb5 Nd7 77. Kf5 Nb6 0-1
+
+[Event "Camp. Europa eq. prel. gr. 1"]
+[Site "Barcelona"]
+[Date "1967.??.??"]
+[Round "2.5"]
+[White "Llado Lumbera, Jaime"]
+[Black "Scholl, Eduard"]
+[Result "1/2-1/2"]
+[ECO "B40"]
+[PlyCount "80"]
+[EventDate "1967.09.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. d3 Nc6 4. Be2 d5 5. Nbd2 Nge7 6. O-O g6 7. Nb3 b6 8. exd5
+exd5 9. a4 Bg7 10. a5 Bb7 11. axb6 axb6 12. Rxa8 Bxa8 13. d4 c4 14. Na1 O-O 15.
+Bf4 b5 16. c3 b4 17. Nc2 bxc3 18. bxc3 Nc8 19. Qa1 Nd6 20. Bxd6 Qxd6 21. Rb1
+Rb8 22. Rxb8+ Qxb8 23. Ne3 Qa7 24. Qb2 Ne7 25. h3 Nc8 26. Ng4 Nd6 27. Bd1 Bb7
+28. Bc2 Qa5 29. h4 Qb5 30. Qa1 h5 31. Nge5 Bc8 32. Qc1 Bf5 33. Bxf5 Nxf5 34.
+Qg5 Qb6 35. Nd7 Qc7 36. Nf6+ Bxf6 37. Qxf6 Qe7 38. Qc6 Qe6 39. Qa8+ Kg7 40. g3
+Ne7 1/2-1/2
+
+[Event "Camp. Europa eq. prel. gr. 1"]
+[Site "Barcelona"]
+[Date "1967.??.??"]
+[Round "3.5"]
+[White "Llado Lumbera, Jaime"]
+[Black "Vandezande, Albert"]
+[Result "1-0"]
+[ECO "C85"]
+[PlyCount "103"]
+[EventDate "1967.09.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Bxc6 dxc6 7. Qe1 Nd7 8.
+d3 O-O 9. Be3 c5 10. Nbd2 Bf6 11. a4 Qe7 12. Nc4 Nb8 13. a5 Nc6 14. Nfd2 g6 15.
+f3 Bh4 16. g3 Bg5 17. Bxg5 Qxg5 18. Qe3 Qe7 19. Qh6 Be6 20. f4 exf4 21. gxf4
+Bxc4 22. Nxc4 f5 23. e5 Nd4 24. Rf2 Rad8 25. Rc1 Ne6 26. Qh3 Qd7 27. Qf3 Qd5
+28. Qxd5 Rxd5 29. h3 Kg7 30. Kh2 Kh6 31. Rg1 Rfd8 32. Kg3 Kh5 33. Kf3 Kh4 34.
+Ke3 h6 35. Ke2 Rd4 36. Rgf1 Kh5 37. b3 Rf8 38. Ne3 Kh4 39. Ng2+ Kh5 40. h4 Rd5
+41. Ne3 Rd4 42. c3 Rd7 43. Rg1 Rfd8 44. Kf3 g5 45. hxg5 hxg5 46. Rh2+ Kg6 47.
+fxg5 f4 48. Rh6+ Kf7 49. Nf5 Rxd3+ 50. Ke4 Nf8 51. e6+ Nxe6 52. Rf6+ 1-0
+
+[Event "Camp. Catalunya indiv."]
+[Site "?"]
+[Date "1968.??.??"]
+[Round "?"]
+[White "Buxade Roca, Guillermo"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1-0"]
+[ECO "C41"]
+[PlyCount "99"]
+[EventDate "1968.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 e5 4. Nf3 Nbd7 5. Bc4 Be7 6. O-O O-O 7. Qe2 c6 8. a4
+Qe8 9. dxe5 dxe5 10. Ne1 Bc5 11. Nd3 Bd4 12. Bd2 a5 13. Kh1 Nb6 14. Bb3 Be6 15.
+Bxe6 Qxe6 16. Nd1 Nbd7 17. f3 Nh5 18. Be3 c5 19. c3 Bxe3 20. Nxe3 c4 21. Nf2
+Rac8 22. g3 Nc5 23. Nxc4 Nb3 24. Ra3 Qh6 25. Kg2 Rxc4 26. Rxb3 Qc6 27. Rb5 Rc5
+28. Rd1 Nf6 29. Rxc5 Qxc5 30. Qb5 Qc7 31. Rd3 h6 32. Nd1 Rd8 33. Ne3 Rxd3 34.
+Qxd3 Qc5 35. Nc4 b5 36. Qd8+ Kh7 37. Nd6 Qe3 38. Nxf7 Qe2+ 39. Kh3 Qf1+ 40. Kh4
+g5+ 41. Nxg5+ Kg6 42. Nh7 Nxh7 43. Qg8+ Kf6 44. Qxh7 Qxf3 45. Qxh6+ Ke7 46.
+Qg7+ Kd6 47. Qg6+ Kc5 48. axb5 Kxb5 49. Qe8+ Kc4 50. Qxe5 1-0
+
+[Event "Camp. Catalunya indiv."]
+[Site "?"]
+[Date "1968.??.??"]
+[Round "?"]
+[White "Llado Lumbera, Jaime"]
+[Black "Saborido Carre, Rafael"]
+[Result "1/2-1/2"]
+[ECO "B40"]
+[PlyCount "91"]
+[EventDate "1968.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. Be2 Nc6 4. O-O Nf6 5. d3 d5 6. Nbd2 Be7 7. c3 O-O 8. h3
+e5 9. Nh2 Be6 10. Bf3 Qd7 11. Re1 Rfd8 12. Qe2 b5 13. exd5 Nxd5 14. Nb3 Rac8
+15. Be3 c4 16. dxc4 bxc4 17. Bxd5 Qxd5 18. Rad1 Qb5 19. Na1 Rd3 20. Rxd3 cxd3
+21. Qd2 e4 22. Nf1 Ne5 23. b3 a5 24. Bd4 f5 25. Bxe5 Qxe5 26. Qxd3 Qxc3 27. Qe2
+Bf6 28. Rd1 Rd8 29. Rxd8+ Bxd8 30. Qd2 Qxd2 31. Nxd2 Kf7 32. Nc2 Bb6 33. Kf1
+Ke7 34. Na3 Kd6 35. Ndc4+ Kc5 36. Nxb6 Kxb6 37. Nc2 Kc5 38. Ke2 f4 39. h4 h6
+40. Kd2 a4 41. Kc3 axb3 42. axb3 g5 43. hxg5 hxg5 44. b4+ Kd5 45. Nd4 Bd7 46.
+Nb3 1/2-1/2
+
+[Event "Camp. Catalunya indiv."]
+[Site "?"]
+[Date "1968.??.??"]
+[Round "?"]
+[White "Soria Berbegal, Victoriano"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1-0"]
+[ECO "A55"]
+[PlyCount "107"]
+[EventDate "1968.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 d6 3. Nc3 e5 4. Nf3 Nbd7 5. e4 Be7 6. Be2 O-O 7. O-O c6 8. Qc2
+h6 9. Rd1 Qe8 10. b4 Nh7 11. Rb1 Ng5 12. Be3 Nxf3+ 13. Bxf3 Nf6 14. b5 Bg4 15.
+Qe2 Bxf3 16. Qxf3 Nd7 17. bxc6 bxc6 18. d5 c5 19. Nb5 Qd8 20. Bd2 a6 21. Na3
+Bg5 22. Be1 Qc7 23. Rb3 Rab8 24. Rdb1 Rxb3 25. Rxb3 Rb8 26. g3 Rxb3 27. Qxb3
+Qb6 28. h4 Be7 29. Nc2 Qxb3 30. axb3 Bd8 31. Kf1 Kf8 32. Ke2 Ke8 33. Ne3 g6 34.
+f3 h5 35. g4 Nf6 36. Kd3 hxg4 37. fxg4 Nd7 38. Ke2 Bf6 39. Kf3 Bg7 40. Ba5 Nf8
+41. Nd1 Kd7 42. Nf2 Bh6 43. g5 Bg7 44. Nd3 Kc8 45. b4 cxb4 46. Nxb4 Kb7 47. Nc6
+f6 48. Nd8+ Kc8 49. Nf7 fxg5 50. hxg5 Nh7 51. Nxd6+ Kd7 52. c5 Bf8 53. Nf7 Ke8
+54. c6 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1969.??.??"]
+[Round "?"]
+[White "Anguera Maestro, Jaime"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1-0"]
+[ECO "A54"]
+[PlyCount "67"]
+[EventDate "1969.??.??"]
+[EventType "tourn"]
+[EventRounds "15"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 d6 3. Nc3 Nbd7 4. Nf3 e5 5. Bg5 Be7 6. e3 c6 7. Qc2 O-O 8.
+O-O-O Qa5 9. Kb1 a6 10. Bd3 Re8 11. dxe5 dxe5 12. Bf5 Qc7 13. g4 Nf8 14. Bxc8
+Raxc8 15. Bxf6 Bxf6 16. Ne4 Be7 17. h4 Rcd8 18. Rc1 Qd7 19. g5 Qe6 20. h5 Rd7
+21. Rcg1 Red8 22. g6 fxg6 23. hxg6 h6 24. Rh5 Nxg6 25. Nc3 e4 26. Nxe4 Qf7 27.
+Rh3 Qf5 28. Rhg3 Bh4 29. Rxg6 Qxf3 30. a3 Re7 31. R6g4 Qh3 32. Ka2 Rf7 33. Qc3
+Rdd7 34. Qe5 $138 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1969.??.??"]
+[Round "?"]
+[White "Bautista Sanchez, Juan"]
+[Black "Llado Lumbera, Jaime"]
+[Result "0-1"]
+[ECO "C73"]
+[PlyCount "72"]
+[EventDate "1969.??.??"]
+[EventType "tourn"]
+[EventRounds "15"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 d6 5. Bxc6+ bxc6 6. d4 f6 7. Be3 Ne7 8.
+Nc3 Ng6 9. Qd3 Be6 10. h4 h5 11. O-O-O Be7 12. dxe5 Nxe5 13. Nxe5 fxe5 14. f4
+exf4 15. Bxf4 O-O 16. Qg3 Bg4 17. Rd4 Bxh4 18. Rxh4 Rxf4 19. Qxf4 Qxh4 20. Qf1
+Rf8 21. Qc4+ Kh8 22. b3 Qe1+ 23. Kb2 Rf1 24. b4 Qc1+ 25. Kb3 Rf2 26. Qxc6 Rxc2
+27. Rd5 Rb2+ 28. Ka3 Rd2+ 29. Kb3 Bd1+ 30. Kc4 Be2+ 31. Kb3 Qb2+ 32. Ka4 Bd1+
+33. Ka5 Qxa2+ 34. Na4 Rxd5+ 35. exd5 Bxa4 36. Qxa4 Qxd5+ 0-1
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1969.??.??"]
+[Round "?"]
+[White "Llado Lumbera, Jaime"]
+[Black "Serrano Blanco, Vicente"]
+[Result "0-1"]
+[ECO "B40"]
+[PlyCount "87"]
+[EventDate "1969.??.??"]
+[EventType "tourn"]
+[EventRounds "15"]
+[EventCountry "ESP"]
+[Source "Opening Master"]
+[SourceDate "2010.09.01"]
+
+1. e4 c5 2. Nf3 e6 3. d3 d5 4. Nbd2 Nc6 5. Be2 g6 6. O-O Bg7 7. Re1 Nge7 8. Bf1
+O-O 9. g3 Qc7 10. Bg2 b5 11. Nf1 Bb7 12. Qe2 d4 13. e5 h6 14. h4 Kh7 15. N1h2
+Rae8 16. Ng4 Nd5 17. a3 f5 18. exf6 Nxf6 19. Nxf6+ Bxf6 20. Nd2 Bg7 21. h5 g5
+22. Ne4 Nd8 23. Bd2 e5 24. b4 c4 25. c3 Ne6 26. Rac1 Rc8 27. Bh3 Qe7 28. Bxe6
+Qxe6 29. cxd4 Qh3 30. Bxg5 exd4 31. Bh4 Rf4 32. gxf4 cxd3 33. Qd2 Rxc1 34. Qxc1
+Qxh4 35. Qd1 d2 36. Qxd2 Qg4+ 37. Kh2 Qxh5+ 38. Kg3 Qg6+ 39. Kf3 h5 40. Ke2
+Qxe4+ 41. Kd1 Qf3+ 42. Qe2 Qb3+ 43. Qc2+ Qxc2+ 44. Kxc2 0-1
+
+[Event "Trofeo "Dicen" III"]
+[Site "Barcelona"]
+[Date "1969.??.??"]
+[Round "?"]
+[White "Castillo"]
+[Black "Llado Lumbera, Jaime"]
+[Result "0-1"]
+[ECO "A53"]
+[PlyCount "88"]
+[EventDate "1969.??.??"]
+[EventType "k.o."]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 d6 3. Nc3 Nbd7 4. e4 e5 5. d5 Be7 6. Be3 O-O 7. g3 Ne8 8. Qd2
+a5 9. Nge2 b6 10. b3 Nc5 11. Bg2 f5 12. f4 exf4 13. gxf4 fxe4 14. O-O-O Nf6 15.
+Nd4 Bd7 16. Kb1 Qe8 17. Rdf1 Ng4 18. Bh3 Nxe3 19. Qxe3 Bxh3 20. Qxh3 Bf6 21.
+Qe3 Bxd4 22. Qxd4 Qf7 23. Rfg1 Qf6 24. Nb5 Qxd4 25. Nxd4 Rae8 26. f5 Rf6 27.
+Ne6 Re7 28. Rg4 e3 29. Nd4 e2 30. Re1 Nd3 31. Rxe2 Rxe2 32. Nxe2 Rxf5 33. Ng3
+Rf2 34. h4 Rb2+ 35. Ka1 Rg2 36. Kb1 Ne5 37. Rg5 h6 38. Rxe5 dxe5 39. Nf5 Rf2
+40. Ne3 Rf4 41. Kc2 g5 42. hxg5 h5 43. d6 cxd6 44. Nd5 h4 0-1
+
+[Event "Copa Catalana Mem. Agusti Pujol eq."]
+[Site "?"]
+[Date "1970.??.??"]
+[Round "?"]
+[White "Llaverias Duch, Jose"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1-0"]
+[ECO "E86"]
+[PlyCount "61"]
+[EventDate "1970.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 c6 7. Nge2 e5 8. Ng3
+Nbd7 9. Be2 h5 10. h4 a6 11. a4 Nh7 12. Qd2 Bf6 13. O-O-O Bxh4 14. Nxh5 gxh5
+15. g3 Bf6 16. Rxh5 Re8 17. Rdh1 Ndf8 18. d5 c5 19. Bd1 Bg7 20. f4 Nf6 21. R5h4
+Ng6 22. f5 Nxh4 23. Rxh4 Nh7 24. Qh2 Ng5 25. Bh5 Bd7 26. Rg4 f6 27. Bg6 Qe7 28.
+Qh4 Bf8 29. Kb1 Bg7 30. Rxg5 fxg5 31. Bxg5 1-0
+
+[Event "Trofeo "Dicen" IV"]
+[Site "Barcelona"]
+[Date "1970.??.??"]
+[Round "?"]
+[White "Pujol Sans, Manuel"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1-0"]
+[ECO "B07"]
+[PlyCount "71"]
+[EventDate "1970.??.??"]
+[EventType "k.o."]
+[EventCountry "ESP"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 e5 4. dxe5 dxe5 5. Qxd8+ Kxd8 6. Bg5 Be7 7. O-O-O+
+Nfd7 8. Bxe7+ Kxe7 9. Nd5+ Kd8 10. Bc4 c6 11. Ne3 f6 12. Ne2 g6 13. h4 Kc7 14.
+f3 Nb6 15. Bb3 a5 16. a3 Na6 17. h5 g5 18. Ng3 Nc5 19. Ba2 Nbd7 20. Ngf5 b5 21.
+Rd6 Rb8 22. Rhd1 a4 23. c3 Rf8 24. Ng7 Nb6 25. Rxf6 Bd7 26. Rh6 Rh8 27. Be6
+Bxe6 28. Nxe6+ Nxe6 29. Rxe6 Rbe8 30. Rdd6 Rxe6 31. Rxe6 Nd7 32. Kc2 Rd8 33.
+Ng4 Nc5 34. Rxe5 Nb3 35. c4 bxc4 36. Kc3 1-0
+
+[Event "Camp. España eq. Final"]
+[Site "Igualada"]
+[Date "1971.09.24"]
+[Round "2"]
+[White "Diez del Corral Rivas, Jesus Maria"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1-0"]
+[ECO "C41"]
+[PlyCount "98"]
+[EventDate "1971.09.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 d6 2. d4 e5 3. Nf3 Nd7 4. Bc4 Be7 5. O-O c6 6. a4 a5 7. Re1 Ngf6 8. Bf1
+O-O 9. b3 exd4 10. Nxd4 d5 11. e5 Ne4 12. f3 Nec5 13. Bb2 Re8 14. f4 Nf8 15. c4
+dxc4 16. Bxc4 Nce6 17. Ne2 Qxd1 18. Rxd1 Nc5 19. Nd4 Nce6 20. Nxe6 Bxe6 21. Nd2
+Bc5+ 22. Kf1 Be3 23. Bxe6 Nxe6 24. g3 Bxd2 25. Rxd2 Rad8 26. Rad1 Rxd2 27. Rxd2
+g6 28. Ba3 Rd8 29. Rxd8+ Nxd8 30. Bc5 Ne6 31. Bb6 h5 32. Ke2 f6 33. exf6 Kf7
+34. Ke3 Kxf6 35. Ke4 Nf8 36. Bxa5 Nd7 37. Bc3+ Ke6 38. Bd4 c5 39. Bg7 Nb8 40.
+h3 Nc6 41. Bc3 Nd8 42. Ba5 Nf7 43. Bc7 Nh6 44. Be5 Nf5 45. Kf3 Kd5 46. g4 Ne7
+47. Bf6 Nc6 48. f5 gxf5 49. gxh5 Ke6 1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1972.11.12"]
+[Round "3"]
+[White "Ribera Arnal, Angel"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1/2-1/2"]
+[ECO "A55"]
+[PlyCount "151"]
+[EventDate "1972.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 d6 3. Nc3 Nbd7 4. e4 e5 5. Nf3 Be7 6. Be2 O-O 7. O-O c6 8. Bg5
+h6 9. Bh4 Nh7 10. Bg3 Ng5 11. Qd2 Nxf3+ 12. Bxf3 Bg5 13. Qd1 Qf6 14. dxe5 dxe5
+15. Qc2 Nc5 16. Rad1 Ne6 17. Ne2 Re8 18. Qc3 Nf8 19. Rd3 g6 20. Rfd1 h5 21. Rd6
+Qg7 22. h4 Bf6 23. c5 Be6 24. a3 a5 25. R6d3 a4 26. Qb4 Bb3 27. R1d2 Reb8 28.
+Nc1 Be6 29. Qc3 g5 30. hxg5 Qxg5 31. Be2 Ng6 32. Bh2 h4 33. Bf1 Kg7 34. Ne2 Qg4
+35. Rf3 Qxe4 36. Re3 Qf5 37. Qb4 Bg5 38. f4 exf4 39. Nd4 Qf6 40. Nxe6+ fxe6 41.
+Re4 Kh6 42. Rd6 Re8 43. Qxb7 Qf5 44. Qb4 Rab8 45. Qc4 Rxb2 46. Rexe6 Rxe6 47.
+Qxe6 Qxe6 48. Rxe6 Kg7 49. Rxc6 f3 50. gxf3 Be3+ 51. Kh1 Rb1 52. Kg2 h3+ 53.
+Kxh3 Rxf1 54. Kg4 Rc1 55. Bd6 Rc4+ 56. Kf5 Nh4+ 57. Ke6 Nxf3 58. Ra6 Ng5+ 59.
+Kd5 Rd4+ 60. Kc6 Nf7 61. Kb5 Bc1 62. Rxa4 Nxd6+ 63. cxd6 Rxd6 64. Rg4+ Kf7 65.
+a4 Rd5+ 66. Kc6 Rf5 67. Re4 Bg5 68. Rd4 Be7 69. Rd5 Rf6+ 70. Kb7 Ke6 71. Rb5
+Rf7 72. a5 Bh4+ 73. Kc6 Ra7 74. Rb4 Bd8 75. Re4+ Kf5 76. Ra4 1/2-1/2
+
+[Event "Camp. España eq. Final A"]
+[Site "Barcelona"]
+[Date "1973.??.??"]
+[Round "4"]
+[White "Llado Lumbera, Jaime"]
+[Black "Diez del Corral Rivas, Jesus Maria"]
+[Result "0-1"]
+[ECO "C00"]
+[PlyCount "58"]
+[EventDate "1973.09.??"]
+[EventType "team"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d3 b6 3. Nf3 Bb7 4. Be2 c5 5. c3 d6 6. Nbd2 Be7 7. O-O Nd7 8. Re1
+Ngf6 9. Bf1 O-O 10. g3 Qc7 11. Bg2 Ne5 12. Qc2 Nfd7 13. d4 cxd4 14. Nxd4 Nc5
+15. f4 Ng4 16. h3 Nf6 17. Kh2 Rac8 18. Nf1 Ba6 19. Re3 d5 20. e5 Nfe4 21. Bd2
+Qd7 22. Rae1 f5 23. exf6 Bxf6 24. Nf3 d4 25. Nxd4 Bxd4 26. Bxe4 Nxe4 27. Rxe4
+Bf2 28. Qd1 Bxe1 29. Rxe1 Rcd8 0-1
+
+[Event "Camp. España eq. Final A"]
+[Site "Barcelona"]
+[Date "1973.??.??"]
+[Round "7"]
+[White "Visier Segovia, Fernando"]
+[Black "Llado Lumbera, Jaime"]
+[Result "0-1"]
+[ECO "A54"]
+[PlyCount "68"]
+[EventDate "1973.09.??"]
+[EventType "team"]
+[EventRounds "7"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. c4 d6 3. d4 Nbd7 4. Nc3 e5 5. Bg5 Be7 6. e3 O-O 7. Bd3 c6 8. Qc2
+h6 9. Bh4 exd4 10. Nxd4 d5 11. cxd5 Nxd5 12. Bxe7 Nxe7 13. O-O Ne5 14. Be2 a6
+15. f4 Nd7 16. Kh1 Nf6 17. Bf3 Ng6 18. Rae1 Qe7 19. Ne4 Re8 20. Nxf6+ Qxf6 21.
+Nxc6 bxc6 22. Bxc6 Bf5 23. Qa4 Bc2 24. Qxc2 Rac8 25. Rc1 Re6 26. Qb3 Rexc6 27.
+Rxc6 Qxc6 28. h3 Qe4 29. Rf2 Nh4 30. Kh2 Nf5 31. Qb6 Rc1 32. Qxa6 Qxe3 33. Rf1
+Rc2 34. Qa8+ Kh7 0-1
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1974.11.10"]
+[Round "1"]
+[White "Ribera Arnal, Angel"]
+[Black "Llado Lumbera, Jaime"]
+[Result "0-1"]
+[ECO "A53"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "156"]
+[EventDate "1974.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 d6 3. Nc3 e5 4. e3 Nbd7 5. Bd3 Be7 6. Nge2 O-O 7. Ng3 exd4 8.
+exd4 d5 9. O-O dxc4 10. Bxc4 Nb6 11. Bb3 c6 12. Bg5 h6 13. Bf4 Nbd5 14. Be5 Be6
+15. Qe2 Qd7 16. Rad1 Rfe8 17. Rfe1 Bg4 18. f3 Be6 19. Qd2 Rad8 20. Kh1 b5 21.
+Bc2 Bf8 22. a3 g6 23. Nce4 Nxe4 24. Nxe4 Bf5 25. Bb3 Bxe4 26. fxe4 Nb6 27. Qf2
+Bg7 28. Rf1 Nc4 29. Bxg7 Kxg7 30. e5 $2 (30. d5 $1 $16) 30... Qe6 31. Rc1 Rd7
+32. Rc3 c5 33. Bxc4 bxc4 34. Qf6+ Kg8 35. Qxe6 Rxe6 36. dxc5 Rd4 37. b4 $2 (37.
+h3 Rxe5 38. b4 $14) 37... cxb3 38. Rxb3 Rd7 39. h3 Rxe5 40. c6 Rc7 41. Rc1 Re6
+42. Rb7 Rcxc6 43. Rxc6 Rxc6 44. Rxa7 h5 45. Rd7 Rc1+ 46. Kh2 Ra1 47. Rd3 h4 48.
+Rd4 g5 49. Rd5 f6 50. Ra5 Kf7 51. g4 hxg3+ 52. Kxg3 Rg1+ 53. Kf2 Rb1 54. Kg3
+Rb3+ 55. Kg4 Rc3 56. Kf5 Rf3+ 57. Kg4 Rf4+ 58. Kg3 Rc4 59. a4 Rc3+ 60. Kg2 Kg6
+61. Ra8 (61. Rb5 $142) 61... Kf5 62. a5 Kf4 63. a6 Rg3+ 64. Kh2 Ra3 65. a7 f5
+66. Kg2 Ra2+ 67. Kf1 Kf3 68. Ke1 f4 69. Rg8 Rxa7 70. Rxg5 Ra1+ 71. Kd2 Rh1 72.
+Rh5 $4 (72. Rf5 $1 Rxh3 73. Rf8 $1 $11) 72... Kg3 73. Rg5+ Kf2 74. Rg4 f3 75.
+h4 Rg1 76. Ra4 Kg3 77. Ra3 Rh1 78. h5 Rxh5 0-1
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1975.12.14"]
+[Round "9"]
+[White "Llado Lumbera, Jaime"]
+[Black "Medina Garcia, Antonio"]
+[Result "0-1"]
+[ECO "C68"]
+[PlyCount "120"]
+[EventDate "1975.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. d4 exd4 6. Qxd4 Qxd4 7. Nxd4 Bd7
+8. Be3 O-O-O 9. Nc3 Ne7 10. f3 g6 11. Bg5 Re8 12. Bf6 Rg8 13. Kf2 c5 14. Nde2
+Nc6 15. Nd5 Nb4 16. Nxb4 cxb4 17. g4 Re6 18. g5 h6 19. h4 Rc6 20. Rhc1 hxg5 21.
+hxg5 Bc5+ 22. Bd4 Be6 23. Ke3 Rh8 24. c3 Rh2 25. cxb4 Rxe2+ 26. Kxe2 Bxd4 27.
+Rxc6 bxc6 28. Rc1 Bxa2 29. Rxc6 Kb7 30. Rc2 Bb3 31. Rc1 Bxb2 32. Rb1 Bc4+ 33.
+Ke3 Bg7 34. Rc1 Be6 35. f4 Bf8 36. Kd4 Bxb4 37. Rb1 c5+ 38. Ke5 Kc6 39. f5 Bc3+
+40. Kf4 Ba2 41. Rd1 Bd4 42. Rd2 Bb3 43. Rd3 Bc4 44. Rh3 gxf5 45. exf5 Kd5 46.
+Rh6 Be5+ 47. Ke3 Bd4+ 48. Kf4 Be5+ 49. Ke3 Bb2 50. Kf4 Bc1+ 51. Kg4 Be2+ 52.
+Kh4 Be3 53. Rf6 Ke5 54. Rxf7 Kf4 55. Kh3 Kxg5 56. Kg3 Bd4 57. Re7 Bd3 58. Kf3
+Kxf5 59. Rh7 Ke5 60. Rh5+ Kd6 0-1
+
+[Event "Camp. Catalunya indiv. Pref. esp."]
+[Site "?"]
+[Date "1975.??.??"]
+[Round "?"]
+[White "Vehi Bach, Victor Manuel"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1-0"]
+[ECO "B07"]
+[PlyCount "51"]
+[EventDate "1975.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. e4 d6 2. Nc3 e5 3. Nf3 c5 4. Bc4 Be6 5. d3 h6 6. Ne2 Qd7 7. Ng3 g6 8. c3 Be7
+9. Bxe6 fxe6 10. O-O Nc6 11. d4 Nf6 12. d5 Nd8 13. Nh4 Kf7 14. f4 exf4 15. Bxf4
+e5 16. Be3 Kg7 17. Rf3 Nf7 18. Qf1 Ng5 19. Rf2 Raf8 20. Qe2 Qg4 21. Nhf5+ gxf5
+22. Nxf5+ Kh7 23. Bxg5 hxg5 24. Nxe7 Qxe4 25. Qf1 Ng4 26. Rf7+ 1-0
+
+[Event "Copa Catalana Mem. Agusti Pujol eq."]
+[Site "?"]
+[Date "1975.06.01"]
+[Round "?"]
+[White "Llado Lumbera, Jaime"]
+[Black "Medina Garcia, Antonio"]
+[Result "1/2-1/2"]
+[ECO "C68"]
+[PlyCount "101"]
+[EventDate "1975.??.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. d4 exd4 6. Qxd4 Qxd4 7. Nxd4 Bd7
+8. Be3 Ne7 9. Nc3 O-O-O 10. f3 Ng6 11. Kf2 Ne5 12. b3 h5 13. h4 Be7 14. Rad1 g6
+15. Bf4 f6 16. Nde2 Rde8 17. Be3 b5 18. Nf4 Rhf8 19. Nd3 Nxd3+ 20. cxd3 f5 21.
+exf5 gxf5 22. Bf4 Bb4 23. Ne2 Re6 24. d4 Rfe8 25. Be5 Bc5 26. f4 Be7 27. Ng1
+Rg6 28. Nf3 Be6 29. Ng5 Bd5 30. Rhe1 Kd7 31. Re3 a5 32. Rde1 Bb4 33. R1e2 Bg8
+34. Rg3 Be7 35. Rge3 Bb4 36. g3 Ra8 37. Nf3 Bd5 38. Ne1 Bxe1+ 39. Kxe1 a4 40.
+b4 Re8 41. Rd3 Reg8 42. Kf2 Re8 43. Rc2 Reg8 44. Rc5 Re6 45. Rdc3 Rc8 46. Re3
+Rg6 47. Rcc3 Re8 48. Red3 Reg8 49. Rc5 Re8 50. Rdc3 Rc8 51. Kg1 1/2-1/2
+
+[Event "Copa Catalana Mem. Agusti Pujol eq."]
+[Site "?"]
+[Date "1975.??.??"]
+[Round "?"]
+[White "Martin"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1-0"]
+[ECO "C40"]
+[PlyCount "85"]
+[EventDate "1975.??.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Qe7 3. Nc3 c6 4. d4 d6 5. h3 h6 6. Bc4 g6 7. O-O Bg7 8. a4 Nf6
+9. b3 Qc7 10. Ba3 Bf8 11. Qd3 Nbd7 12. a5 Be7 13. dxe5 dxe5 14. Bxe7 Kxe7 15.
+Rad1 Kf8 16. b4 Kg7 17. Bb3 Rf8 18. Qc4 a6 19. Nd5 Qd8 20. Nxf6 Qxf6 21. Rd3
+Qe7 22. Qc3 Re8 23. Nd2 c5 24. Ba4 cxb4 25. Qb2 Nc5 26. Bxe8 Nxd3 27. cxd3 Qxe8
+28. f4 Kg8 29. Qxb4 exf4 30. Nc4 Qc6 31. Nb6 Rb8 32. Nd5 Kg7 33. Qd4+ f6 34.
+Rxf4 Bf5 35. Nb4 Qc7 36. exf5 Rd8 37. Qe3 Rd7 38. fxg6 Qxa5 39. Re4 Qd8 40. Re8
+Qc7 41. Nd5 Qd6 42. Nf4 Rc7 43. Ne6+ 1-0
+
+[Event "Trofeo "Dicen" IX"]
+[Site "?"]
+[Date "1975.??.??"]
+[Round "?"]
+[White "Soria Berbegal, Victoriano"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1-0"]
+[ECO "A53"]
+[PlyCount "83"]
+[EventDate "1975.??.??"]
+[EventType "swiss"]
+[EventCountry "ESP"]
+
+1. d4 Nf6 2. c4 d6 3. Nc3 Nbd7 4. e4 e5 5. Be3 Be7 6. f3 O-O 7. Nge2 c6 8. Qd2
+Re8 9. d5 Nb6 10. b3 cxd5 11. cxd5 Nbd7 12. g4 Nf8 13. Ng3 a6 14. Be2 Ng6 15.
+h4 Nd7 16. g5 f6 17. Nf5 Ndf8 18. O-O-O b5 19. Kb1 Nf4 20. Nxe7+ Qxe7 21. Bxf4
+exf4 22. Qxf4 Ng6 23. Qd2 Qe5 24. gxf6 Qxf6 25. Qd4 Qxd4 26. Rxd4 Nf4 27. Bf1
+Bd7 28. Ne2 Rf8 29. Nxf4 Rxf4 30. Be2 Re8 31. Rd2 Re5 32. Bd1 Rh5 33. Rdh2 Kf7
+34. Kc2 Kf6 35. Kd3 Ke5 36. Ke3 b4 37. Rg1 Rfxh4 38. Rxh4 Rxh4 39. Rxg7 Bc8 40.
+Rc7 Bf5 41. exf5 Kxf5 42. Rxh7 1-0
+
+[Event "Camp. España eq. 2 Div."]
+[Site "Barcelona"]
+[Date "1975.06.28"]
+[Round "4"]
+[White "Llado Lumbera, Jaime"]
+[Black "Ribera Arnal, Angel"]
+[Result "1/2-1/2"]
+[ECO "A08"]
+[PlyCount "145"]
+[EventDate "1975.06.??"]
+[EventType "team"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. d3 d5 4. Nbd2 Nc6 5. g3 Bd6 6. Bg2 Nge7 7. O-O Bd7 8. Re1
+Qc7 9. Qe2 f6 10. Nf1 O-O 11. Ne3 Nd4 12. Qd1 dxe4 13. dxe4 Nxf3+ 14. Bxf3 Nc6
+15. Bg2 Rad8 16. c3 Be8 17. Qe2 Bf7 18. Nc4 Be7 19. Bf4 e5 20. Bc1 Qc8 21. Ne3
+Bd6 22. h4 Ne7 23. h5 Be6 24. h6 g6 25. Bf3 Kh8 26. Nc4 Bb8 27. a4 b6 28. Be3
+Ng8 29. Kg2 g5 30. Bh5 Bh3+ 31. Kh2 Nxh6 32. f3 Be6 33. Rh1 Kg7 34. Kg2 Ng8 35.
+Rh2 Qd7 36. Rah1 h6 37. Bc1 Qd3 38. Qxd3 Rxd3 39. Ne3 Rfd8 40. Bg4 Bxg4 41.
+fxg4 Kg6 42. Kf2 R3d7 43. Ke2 Bd6 44. Nd5 Bf8 45. Be3 Ne7 46. c4 Nc6 47. Rf2
+Bg7 48. Rhf1 Rd6 49. Bd2 Kf7 50. Bc3 a5 51. Kd3 Re6 52. Ke3 Nd4 53. Kd2 Kg6 54.
+Rh2 Rh8 55. Ke3 Rc8 56. Kf2 Rh8 57. Bd2 Bf8 58. Be3 Be7 59. Ra1 Bd8 60. Rh3 Rh7
+61. Rah1 Re8 62. Bd2 Reh8 63. Rh5 Ne6 64. Bc3 Ng7 65. Kf3 Nxh5 66. gxh5+ Kf7
+67. g4 Ke6 68. Rf1 Rd7 69. Ke3 Rhh7 70. Rf5 Ra7 71. Kd3 Rhd7 72. Rf1 Ra8 73.
+Ra1 1/2-1/2
+
+[Event "Camp. España eq. 2 Div."]
+[Site "Barcelona"]
+[Date "1975.??.??"]
+[Round "7"]
+[White "Ruiz Gutierrez, Manuel"]
+[Black "Llado Lumbera, Jaime"]
+[Result "0-1"]
+[ECO "B07"]
+[PlyCount "80"]
+[EventDate "1975.06.??"]
+[EventType "team"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d6 2. e4 Nf6 3. Nc3 e5 4. dxe5 dxe5 5. Qxd8+ Kxd8 6. Nf3 Bd6 7. Bg5 c6 8.
+O-O-O Kc7 9. Bc4 Rf8 10. Rd2 Ne8 11. Rhd1 f6 12. Bh4 Nd7 13. Bg3 Nb6 14. Bb3
+Bg4 15. Rd3 Nd7 16. h3 Bh5 17. Bh2 Nc5 18. Re3 a5 19. g4 Bg6 20. Nh4 b5 21.
+Nxg6 hxg6 22. a4 b4 23. Ne2 g5 24. Bg3 Rh8 25. Rh1 Nxb3+ 26. cxb3 Bc5 27. Rd3
+Nd6 28. f3 Rh7 29. Rdd1 Rah8 30. Ng1 Nb7 31. Kc2 Bxg1 32. Rdxg1 Rxh3 33. Rxh3
+Rxh3 34. Kd3 Nc5+ 35. Kc4 Ne6 36. Rg2 Rh1 37. Rh2 Rxh2 38. Bxh2 Nd4 39. Bg3
+Nxf3 40. Kc5 Nd4 0-1
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1976.??.??"]
+[Round "?"]
+[White "Medina Garcia, Antonio"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1-0"]
+[ECO "C40"]
+[PlyCount "109"]
+[EventDate "1976.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Qe7 3. Nc3 c6 4. d4 d6 5. h3 h6 6. a4 Nf6 7. Be2 Nbd7 8. O-O
+Qd8 9. Bc4 Be7 10. Qe2 O-O 11. Rd1 Qe8 12. a5 Nh7 13. b4 Ng5 14. d5 Nxf3+ 15.
+Qxf3 c5 16. bxc5 Nxc5 17. Be3 Na6 18. Qg3 Kh8 19. f4 Bf6 20. Rab1 Nc7 21. f5
+Qd8 22. Rb3 Ne8 23. Ra1 Bh4 24. Qf3 Bg5 25. Bf2 Be7 26. Nb5 a6 27. Bb6 Qd7 28.
+Nc3 Nf6 29. Na4 Nh7 30. Bd3 Qe8 31. Be3 Bd7 32. Nb6 Rb8 33. Rab1 Bd8 34. Nc4
+Bc7 35. Bb6 Qc8 36. Qf2 Bb5 37. Rb4 Nf6 38. Ba7 Ra8 39. Nb6 Bxb6 40. Bxb6 Bxd3
+41. cxd3 Nd7 42. Be3 b5 43. axb6 Qb7 44. Rc4 Rfc8 45. Rbc1 Rxc4 46. Rxc4 Nc5
+47. Bxc5 dxc5 48. Qxc5 Rb8 49. d6 Kh7 50. Rb4 Rc8 51. Qd5 Qd7 52. b7 Rb8 53.
+Qxe5 Rxb7 54. Rxb7 Qxb7 55. Qd4 1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1977.11.13"]
+[Round "4"]
+[White "Llado Lumbera, Jaime"]
+[Black "Medina Garcia, Antonio"]
+[Result "0-1"]
+[ECO "C68"]
+[PlyCount "86"]
+[EventDate "1977.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. d4 exd4 6. Qxd4 Qxd4 7. Nxd4 Bd7
+8. Be3 O-O-O 9. Nc3 Re8 10. f3 Bb4 11. Nde2 f5 12. Kf2 Nf6 13. exf5 Bxf5 14.
+Rac1 Rhf8 15. h3 h6 16. a3 Bd6 17. Bd4 Bh7 18. g4 Rf7 19. Rhf1 Nd7 20. Nd1 c5
+21. Be3 g5 22. Ng1 Ne5 23. b3 Ref8 24. Ke2 Be4 25. Nc3 Bxf3+ 26. Nxf3 Nxf3 27.
+Ne4 b6 28. Rcd1 Be5 29. Rf2 Bd4 30. Rdf1 Bxe3 31. Rxf3 Bf4 32. Nf2 Re8+ 33. Kd1
+Rfe7 34. Nd3 Bd6 35. Rf6 Re6 36. Rxe6 Rxe6 37. Rf3 c4 38. Nb2 cxb3 39. Rxb3 b5
+40. Rd3 Rf6 41. Ke2 Rf4 42. Rb3 Kd7 43. Nd3 Ra4 $138 0-1
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1978.??.??"]
+[Round "1"]
+[White "Salvany Rius, Joaquim"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1-0"]
+[ECO "C41"]
+[PlyCount "83"]
+[EventDate "1978.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 e5 4. Nf3 Nbd7 5. Bc4 Be7 6. O-O O-O 7. Qe2 c6 8. a4
+a5 9. h3 h6 10. Rd1 Qe8 11. dxe5 dxe5 12. Nh4 Kh7 13. Nf5 Nc5 14. Qf3 Ng8 15.
+Be3 g6 16. Nd6 Bxd6 17. Rxd6 Ne6 18. Qg3 f6 19. Rad1 Qe7 20. Bxe6 Bxe6 21. Bc5
+Qf7 22. Rxe6 Qxe6 23. Bxf8 Rxf8 24. Qd3 f5 25. Qd7+ Qf7 26. Qxf7+ Rxf7 27. Rd8
+Nf6 28. Ra8 fxe4 29. Rxa5 Re7 30. Kf1 Kg7 31. Ke2 Kf7 32. Ke3 b6 33. Ra6 Rb7
+34. Nxe4 Nd5+ 35. Ke2 Ke6 36. a5 Nf4+ 37. Kf3 Rf7 38. axb6 Nd3+ 39. Ke2 Nf4+
+40. Kf1 Kd5 41. Ra7 Rf8 42. Nf6+ 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1978.??.??"]
+[Round "2"]
+[White "Pares Vives, Jose"]
+[Black "Llado Lumbera, Jaime"]
+[Result "1-0"]
+[ECO "E94"]
+[PlyCount "77"]
+[EventDate "1978.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. Nf3 Nf6 2. c4 g6 3. Nc3 Bg7 4. d4 d6 5. e4 O-O 6. Be2 Nbd7 7. O-O e5 8. Qc2
+c6 9. Rd1 Qc7 10. h3 Re8 11. d5 c5 12. a3 a6 13. b4 b6 14. Be3 Nf8 15. Rdb1 Nh5
+16. a4 a5 17. bxc5 bxc5 18. Rb3 Nf4 19. Bf1 Qe7 20. Rab1 g5 21. g3 Nxh3+ 22.
+Bxh3 Bxh3 23. Bxg5 f6 24. Rb7 Qd8 25. Bd2 Bg4 26. Nh4 Bc8 27. Nf5 Bxf5 28. exf5
+Re7 29. Ne4 Ra6 30. Rb8 Qd7 31. g4 Re8 32. R8b7 Qc8 33. Qb3 Rd8 34. Qh3 Nd7 35.
+Kg2 Rf8 36. Qb3 Ra8 37. Nxd6 Qd8 38. Qh3 Nb8 39. Rh1 1-0
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1978.??.??"]
+[Round "9"]
+[White "Llado Lumbera, Jaime"]
+[Black "Martin Gonzalez, Angel"]
+[Result "0-1"]
+[ECO "B51"]
+[PlyCount "117"]
+[EventDate "1978.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. c3 Ngf6 5. Qe2 a6 6. Ba4 e6 7. O-O Be7 8. d3
+O-O 9. h3 Qc7 10. Re1 b5 11. Bc2 Bb7 12. Nbd2 Rfe8 13. Nf1 h6 14. g4 Bf8 15.
+Ng3 g6 16. Be3 Bg7 17. d4 cxd4 18. cxd4 Bc6 19. Bd3 Nb6 20. Nd2 Qb7 21. b3 Rac8
+22. a4 Nbd7 23. a5 Rc7 24. b4 Nb8 25. Rab1 Bd7 26. Nb3 Nc6 27. Qd2 Kh7 28. f4
+Bf8 29. g5 hxg5 30. fxg5 Ng8 31. Rf1 Kg7 32. Qf2 Bc8 33. Bd2 Qa7 34. h4 d5 35.
+Nc5 Nxa5 36. Bf4 e5 37. Be3 Nc6 38. exd5 Nxd4 39. Bxd4 exd4 40. Nge4 Bh3 41. d6
+Bxf1 42. Rxf1 Rd7 43. h5 Rxe4 44. Bxe4 Bxd6 45. Nxd7 Qxd7 46. h6+ Kh8 47. Qxf7
+Qxf7 48. Rxf7 Ne7 49. Kg2 Bxb4 50. Kf3 a5 51. Rf8+ Kh7 52. Rb8 a4 53. Rxb5 Bd6
+54. Ra5 a3 55. Ra6 Bb4 56. Ra4 Bc5 57. Ra8 Bb4 58. Ra4 Bc5 59. Kg4 0-1
+
+[Event "Camp. Catalunya indiv. Final"]
+[Site "?"]
+[Date "1978.??.??"]
+[Round "11"]
+[White "Llado Lumbera, Jaime"]
+[Black "Ayza Ballester, Jordi"]
+[Result "0-1"]
+[ECO "B51"]
+[PlyCount "134"]
+[EventDate "1978.??.??"]
+[EventType "tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. c3 Ngf6 5. Qe2 a6 6. Ba4 b5 7. Bc2 e5 8. O-O
+Be7 9. d3 O-O 10. Re1 Re8 11. a4 Bb7 12. Nbd2 Bf8 13. Nf1 d5 14. Ng3 dxe4 15.
+dxe4 c4 16. a5 Nc5 17. Nd2 Qc7 18. Ndf1 h6 19. Ne3 Rad8 20. Nd5 Qc6 21. Nxf6+
+Qxf6 22. Be3 Qc6 23. Qf3 Nd3 24. Bxd3 Rxd3 25. Qf5 Qd6 26. Qg4 Qc6 27. Qe2 Red8
+28. Red1 f5 29. Bb6 Rxd1+ 30. Rxd1 Rxd1+ 31. Qxd1 f4 32. Nf1 Qxe4 33. f3 Qc6
+34. Qe2 Bc5+ 35. Bxc5 Qxc5+ 36. Qf2 Qxf2+ 37. Kxf2 Kf7 38. Nd2 Bd5 39. Nb1 Kf6
+40. Na3 e4 41. Nc2 Ke5 42. Nb4 Bb7 43. Ke2 g5 44. Kf2 h5 45. h3 Kf5 46. Nc2 Ke5
+47. Nd4 b4 48. Ne2 b3 49. Nd4 Kf6 50. Ne2 Ke5 51. Nd4 g4 52. hxg4 hxg4 53. fxg4
+Kf6 54. g3 e3+ 55. Ke2 fxg3 56. Kxe3 Kg5 57. Nf5 Kxg4 58. Nxg3 Kxg3 59. Kd4 Bf3
+60. Kxc4 Bd1 61. Kd4 Kf4 62. c4 Kf5 63. Kd5 Bf3+ 64. Kd4 Ke6 65. Kc5 Ke5 66.
+Kb4 Bd1 67. Kc5 Ke4 0-1
+
+[Event "Camp. España eq. 1 Div."]
+[Site "Centelles"]
+[Date "1978.??.??"]
+[Round "7"]
+[White "Llado Lumbera, Jaime"]
+[Black "Gonzalez Mestres, Luis"]
+[Result "0-1"]
+[ECO "B40"]
+[PlyCount "90"]
+[EventDate "1978.08.??"]
+[EventType "team"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. d3 Nc6 4. Be2 d5 5. Nbd2 Bd6 6. O-O Nge7 7. Re1 Qc7 8.
+Nf1 d4 9. c3 f6 10. cxd4 cxd4 11. N1d2 O-O 12. Nc4 Bb4 13. Bd2 Bxd2 14. Nfxd2
+b5 15. Na3 Rb8 16. Nc2 a5 17. b3 Ba6 18. a4 b4 19. Rf1 Ng6 20. g3 Nge5 21. Ne1
+Qd6 22. f4 Nd7 23. f5 Nce5 24. Qb1 Rbc8 25. Ng2 Rc3 26. Nf4 Nc5 27. fxe6 Nxe6
+28. Nc4 Bxc4 29. bxc4 Nxf4 30. Rxf4 b3 31. Rf1 Rb8 32. Qd1 b2 33. Rb1 Rbb3 34.
+Qd2 Qa3 35. Kg2 Nxd3 36. Bxd3 Rxd3 37. Qxa5 Rxg3+ 38. Kh1 Rg5 39. Qd8+ Kf7 40.
+Qxd4 Rc3 41. e5 Rc1 42. Qd5+ Kg6 43. Qe4+ f5 44. Qe2 Qc5 45. h4 Rg1+ 0-1
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1981.11.22"]
+[Round "5"]
+[White "Llado Lumbera, Jaime"]
+[Black "Medina Garcia, Antonio"]
+[Result "1/2-1/2"]
+[ECO "C68"]
+[PlyCount "97"]
+[EventDate "1981.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. d4 exd4 6. Qxd4 Qxd4 7. Nxd4 Bd7
+8. Be3 O-O-O 9. f3 Ne7 10. Kf2 c5 11. Ne2 Nc6 12. Nd2 f5 13. Ng3 fxe4 14. Ndxe4
+b6 15. Rhd1 h6 16. Ne2 Re8 17. Rac1 Be7 18. Bd2 Rhf8 19. Bc3 Rf7 20. Kg1 g5 21.
+N2g3 Nb4 22. Bxb4 cxb4 23. c4 Bc6 24. c5 b5 25. Nd6+ Bxd6 26. cxd6 Kb7 27. dxc7
+Rxc7 28. Rd6 h5 29. Rh6 h4 30. Nf5 Rd8 31. Nd6+ Kb8 32. Nf5 Bb7 33. Rb1 Rd2 34.
+Rd6 Rcc2 35. Rxd2 Rxd2 36. Ne3 h3 37. gxh3 Bxf3 38. Rf1 Be4 39. Rf2 Rd3 40. Nf1
+Rd1 41. Rd2 Rb1 42. Kf2 Bf5 43. Ng3 Bxh3 44. Ne4 g4 45. Ng3 Kc7 46. Ke3 Kc6 47.
+Rf2 a5 48. Kd4 Rd1+ 49. Ke5 1/2-1/2

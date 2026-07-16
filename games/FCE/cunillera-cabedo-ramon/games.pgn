@@ -1,0 +1,793 @@
+[Event "C. E. Comtal"]
+[Site "Barcelona"]
+[Date "1927.??.??"]
+[Round "?"]
+[White "Cunillera Cabedo, Ramon"]
+[Black "Soler Bordas, Placid"]
+[Result "1-0"]
+[ECO "C01"]
+[PlyCount "61"]
+[EventDate "1927.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. exd5 exd5 5. Nf3 Ne7 6. Bd3 Bg4 7. O-O Nbc6 8.
+Be3 f5 9. a3 Bd6 10. Nb5 f4 11. Bd2 a6 12. Nxd6+ Qxd6 13. c3 O-O-O 14. Be2 Ng6
+15. b4 Rde8 16. Re1 Re7 17. b5 axb5 18. a4 b4 19. cxb4 Nxb4 20. Qb3 Nc6 21.
+Rab1 Kd7 22. Ne5+ Ngxe5 23. dxe5 Nxe5 24. Bb4 c5 25. Bxc5 Qxc5 26. Bxg4+ Nxg4
+27. Qxb7+ Ke8 28. Qxe7+ Qxe7 29. Rb8+ Kf7 30. Rxe7+ Kxe7 31. Rxh8 1-0
+
+[Event "C. E. Ruy López"]
+[Site "Barcelona"]
+[Date "1928.??.??"]
+[Round "?"]
+[White "Vilardebo Picurena, Josep"]
+[Black "Cunillera Cabedo, Ramon"]
+[Result "1-0"]
+[ECO "C83"]
+[PlyCount "59"]
+[EventDate "1928.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Nxe4 6. d4 b5 7. Bb3 d5 8. dxe5
+Be6 9. c3 Be7 10. Bf4 O-O 11. Nbd2 f5 12. exf6 Nxf6 13. Re1 Bf7 14. Ng5 Na5 15.
+Bc2 c5 16. Qe2 Nc6 17. Ne6 Qd7 18. Nxf8 Rxf8 19. Bg5 Bd8 20. Bxf6 Bxf6 21. Qf3
+Ne5 22. Qf5 Qxf5 23. Bxf5 g6 24. f4 Nc4 25. Nxc4 dxc4 26. Be6 Kg7 27. g4 b4 28.
+g5 Be7 29. Bxc4 Bxc4 30. Rxe7+ 1-0
+
+[Event "Camp. Catalunya indiv. ( prev. gr. B )"]
+[Site "Barcelona"]
+[Date "1928.??.??"]
+[Round "?"]
+[White "Alderete, Felix"]
+[Black "Cunillera Cabedo, Ramon"]
+[Result "1-0"]
+[ECO "C01"]
+[PlyCount "89"]
+[EventDate "1928.??.??"]
+[EventType "tourn"]
+[EventRounds "6"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. Bd3 Bd6 5. Nf3 Nf6 6. O-O O-O 7. Bg5 Bg4 8.
+Nbd2 Nbd7 9. c3 c6 10. Qc2 Qc7 11. Rfe1 Rfe8 12. Bh4 h6 13. Bg3 Bf4 14. Nh4 Nh5
+15. Nf1 Nxg3 16. Nxg3 Nf6 17. Nf1 Rad8 18. h3 Bc8 19. Bf5 Bxf5 20. Nxf5 Ne4 21.
+g3 Qd7 22. g4 g6 23. N5g3 Re7 24. Nxe4 dxe4 25. Rxe4 Bg5 26. Rae1 Rde8 27. Ng3
+Bh4 28. Rxe7 Rxe7 29. Rxe7 Qxe7 30. Qe2 Qxe2 31. Nxe2 Kf8 32. f4 Ke7 33. Kg2
+Ke6 34. Kf3 f5 35. Nc1 fxg4+ 36. hxg4 Be7 37. Nd3 Kd5 38. Ne5 g5 39. f5 Bd6 40.
+Nd3 a5 41. Ke3 b5 42. b3 Bf8 43. Ne5 Bg7 44. c4+ Kd6 45. Ke4 1-0
+
+[Event "Barcelona sim"]
+[Site "Barcelona"]
+[Date "1928.??.??"]
+[Round "?"]
+[White "Alekhine, Alexander"]
+[Black "Cunillera Cabedo, Ramon"]
+[Result "1-0"]
+[ECO "C15"]
+[PlyCount "71"]
+[EventDate "1928.01.24"]
+[EventType "simul"]
+[EventCountry "ESP"]
+[Source "ChessBase"]
+[SourceDate "1998.11.10"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. Bd3 c5 5. exd5 cxd4 6. Bb5+ Bd7 7. Bxd7+ Qxd7
+8. Qxd4 Bxc3+ 9. Qxc3 Nf6 10. dxe6 Qxe6+ 11. Qe3 Qxe3+ 12. Bxe3 Nc6 13. O-O-O
+O-O 14. Nf3 Rfc8 15. a3 Ng4 16. Rhe1 Re8 17. Rd3 Nxe3 18. Rdxe3 Red8 19. Rd1
+Rxd1+ 20. Kxd1 Rd8+ 21. Ke2 Kf8 22. c3 h6 23. Rd3 Ke7 24. Rxd8 Nxd8 25. Kd3 Ne6
+26. g3 g6 27. b4 h5 28. Ke4 Kd6 29. c4 f5+ 30. Kd3 a6 31. Nd4 Ng5 32. f3 Nf7
+33. f4 Nh6 34. Nf3 Ng4 35. Kd4 b6 36. a4 1-0
+
+[Event "Torneo de Altura José O. Badía CAB"]
+[Site "Barcelona"]
+[Date "1929.04.16"]
+[Round "1"]
+[White "Casanovas, Vicente"]
+[Black "Cunillera Cabedo, Ramon"]
+[Result "1/2-1/2"]
+[ECO "D24"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "143"]
+[EventDate "1929.??.??"]
+[EventType "tourn"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 dxc4 4. Nc3 e6 5. Bg5 Nbd7 6. e4 Be7 7. Bxc4 c6 8. a4
+O-O 9. O-O Ne8 10. Bxe7 Qxe7 11. Qc2 a5 12. Rfe1 Qb4 13. Bf1 Nc7 14. Ra3 Qd6
+15. e5 Qe7 16. Ne4 h6 17. Nfd2 Nd5 18. Nc4 c5 19. dxc5 Nxc5 20. Ncd6 Nxe4 21.
+Qxe4 f5 22. Qf3 Bd7 23. Bb5 Bxb5 24. Nxb5 Qb4 25. Rb1 Rac8 26. Nd6 Qxb2 $6 (
+26... Rc2 $142) 27. Rf1 $2 (27. Raa1 $142 $11) 27... Rc1 28. g3 Rxf1+ 29. Kxf1
+Qxe5 $6 (29... f4 $1 $19) 30. Nxb7 Rb8 (30... f4 $142) 31. Rb3 Rc8 32. Rb1 Rc3
+33. Qd1 Qe4 34. Kg1 Rd3 35. Qe1 Nc3 36. Qxe4 Nxe4 37. Nxa5 Ra3 38. Rb2 Rxa4 39.
+Nc6 Kf7 40. Rc2 Kf6 41. Kg2 Ra3 42. Nd4 Rc3 43. Re2 Rd3 44. Nf3 Rd1 45. Rc2 g5
+46. h3 g4 47. hxg4 fxg4 48. Nh2 h5 49. Re2 Kf5 50. Nf1 Rd4 51. Ra2 Ng5 52. Nh2
+Rd1 53. Re2 Kf6 54. Ra2 Rd3 55. Kf1 Nf3 56. Ke2 Rb3 57. Nf1 Nd4+ 58. Kd2 Rf3
+59. Ke1 Ra3 $5 (59... Rd3 $142) 60. Rxa3 Nc2+ 61. Kd2 Nxa3 62. Kd3 Ke5 63. Nd2
+Nb5 64. Nc4+ Kf5 65. Ne3+ Kf6 66. Ng2 Nd6 67. Kd4 Kg5 68. Ne3 h4 69. gxh4+ Kxh4
+70. Nd1 Kg5 71. Ke3 (71. Ke5 $142) 71... Kf5 72. Nc3 1/2-1/2
+
+[Event "Torneo de Altura José O. Badía CAB"]
+[Site "Barcelona"]
+[Date "1929.04.19"]
+[Round "2"]
+[White "Cunillera Cabedo, Ramon"]
+[Black "Garcia Castella, Antonio"]
+[Result "0-1"]
+[ECO "B13"]
+[PlyCount "76"]
+[EventDate "1929.??.??"]
+[EventType "tourn"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Bd3 Nc6 5. c3 Nf6 6. Bf4 e6 7. Nf3 Bd6 8. Bg3
+O-O 9. Ne5 Qc7 10. f4 Ne4 11. Nd2 f5 12. Bh4 Be7 13. Bf2 Bd7 14. h3 Rae8 15.
+Qe2 a5 16. a4 Rc8 17. Ndf3 Nxe5 18. Nxe5 Nxc3 19. Qf3 Ne4 20. g4 Bb4+ 21. Ke2
+Nd2 22. Qg2 Be8 23. gxf5 Bh5+ 24. Ke3 Nb3 25. Rad1 Bxd1 26. Rxd1 Nxd4 27. fxe6
+Nxe6 28. Bxh7+ Kxh7 29. Qg6+ Kh8 30. Qxe6 Rf6 31. Qxd5 Qc5+ 32. Qxc5 Bxc5+ 33.
+Ke2 Bxf2 34. Kxf2 Rxf4+ 35. Ke3 Rxa4 36. Rg1 Re8 37. Rg5 Rb4 38. Rh5+ Kg8 0-1
+
+[Event "Torneo de Altura José O. Badía CAB"]
+[Site "Barcelona"]
+[Date "1929.04.23"]
+[Round "3"]
+[White "Domenech Guerrero, Rafael"]
+[Black "Cunillera Cabedo, Ramon"]
+[Result "0-1"]
+[ECO "D05"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "116"]
+[EventDate "1929.??.??"]
+[EventType "tourn"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nd2 Nf6 3. Ngf3 Nbd7 4. e3 e6 5. Bd3 c5 6. c3 Be7 7. O-O O-O 8. e4
+dxe4 9. Nxe4 Nxe4 10. Bxe4 Nf6 11. Bd3 b6 12. dxc5 Bxc5 13. Bg5 Bb7 14. Qc2
+Bxf3 15. gxf3 (15. Bxh7+ Kh8 $36) 15... h6 16. Bh4 Be7 17. Rad1 Qc8 18. Kh1 Qb7
+19. Qe2 Rad8 20. Bxf6 Bxf6 21. Qe4 Qxe4 22. fxe4 Rd6 23. Kg2 Rfd8 24. Bc2 Rd2
+25. Rxd2 Rxd2 26. Bb3 Rxb2 27. c4 Bd4 28. Kg3 e5 29. f3 Be3 30. Rh1 Bf4+ 31.
+Kh3 Kf8 32. Kg4 Rxh2 $2 (32... g6 $142 $19) 33. Rxh2 Bxh2 34. Ba4 Ke7 35. Bc6
+a5 36. Bd5 g6 37. Bc6 h5+ 38. Kh4 Bf4 39. Bd5 Bd2 40. a4 Be1+ 41. Kh3 f6 42.
+Bc6 g5 43. Bd5 Kd6 44. Bf7 h4 45. Be8 Kc5 46. Bf7 Kb4 47. Be8 Kxc4 48. Bd7 Kd4
+49. Kg2 Ke3 50. Be6 b5 51. axb5 a4 52. b6 Ba5 53. b7 Bc7 {Y aquí el blanco
+abandonó. Veamos qué podía haber pasado.} 54. Bd5 a3 55. Be6 g4 $3 56. fxg4
+Kxe4 57. Kh3 Kd3 58. Kxh4 e4 $19 0-1
+
+[Event "Torneo de Altura José O. Badía CAB"]
+[Site "Barcelona"]
+[Date "1929.04.26"]
+[Round "4"]
+[White "Cunillera Cabedo, Ramon"]
+[Black "Ribera Arnal, Angel"]
+[Result "1-0"]
+[ECO "B13"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "79"]
+[EventDate "1929.??.??"]
+[EventType "tourn"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. exd5 Qxd5 4. Nc3 Qd8 5. Nf3 Bf5 6. Be2 e6 7. O-O Nf6 8.
+Bg5 Be7 9. Ne5 Nbd7 10. f4 h6 11. Bh4 Ne4 12. Nxe4 Bxe4 13. Bxe7 Qxe7 14. Bd3
+Bxd3 15. Qxd3 Nxe5 16. fxe5 O-O-O (16... O-O $142) 17. Rf2 Qc7 18. Qe3 Rhe8 19.
+Raf1 Re7 20. c3 h5 21. b3 g6 22. Qg5 b6 23. a4 Rdd7 24. Qe3 c5 25. Rc1 Qc6 (
+25... Kb8 $142) 26. Qf3 Qxf3 27. Rxf3 cxd4 28. cxd4+ Rc7 (28... Kb7 $142) 29.
+Rfc3 Rxc3 30. Rxc3+ Rc7 31. Rc4 a6 32. Kf2 b5 33. axb5 axb5 34. Rc5 b4 $2 (
+34... Kd7 $142) 35. Ke3 Kd7 36. Rxc7+ Kxc7 37. Kd3 Kb6 38. Kc4 Ka5 39. h4 Kb6
+40. Kxb4 1-0
+
+[Event "Torneo de Altura José O. Badía CAB"]
+[Site "Barcelona"]
+[Date "1929.05.31"]
+[Round "6"]
+[White "Cunillera Cabedo, Ramon"]
+[Black "Del Valle Figueras, Augusto"]
+[Result "1/2-1/2"]
+[ECO "C00"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "86"]
+[EventDate "1929.??.??"]
+[EventType "tourn"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 a5 3. a3 c6 4. Nf3 d5 5. e5 b6 6. Bd3 Ba6 7. O-O Bxd3 8. Qxd3 h6
+9. Be3 Ne7 10. Nh4 Nd7 11. f4 c5 12. f5 exf5 13. Nxf5 Nc6 14. e6 Nf6 15. Qb5
+Rc8 16. exf7+ Kxf7 17. dxc5 d4 18. Qc4+ Kg6 19. Qd3 Kf7 20. Nxd4 Bxc5 (20...
+Nxd4) 21. Qb3+ Kg6 22. Ne6 Bxe3+ 23. Qxe3 Qd6 24. Nc3 Rhe8 25. Rae1 Kf7 26.
+Rxf6+ $6 gxf6 27. Qxh6 (27. Ne4 Qxe6 28. Qxh6) 27... Rxe6 28. Qh7+ Ke8 29. Qg6+
+Kd7 30. Qh7+ Re7 $2 (30... Ne7 $1 $19) 31. Qh3+ Re6 32. Qh7+ Qe7 33. Rd1+ Rd6
+34. Rxd6+ Kxd6 35. Qd3+ Nd4 $8 36. Qxd4+ Kc6 37. Qd5+ Kc7 38. Qe4 Qc5+ 39. Kf1
+Rd8 40. Qf4+ Kc8 41. Qe4 Kb8 42. Qf4+ Kc8 43. Qe4 Kb8 (43... Rd2 $142 $15)
+1/2-1/2
+
+[Event "Torneo de Altura José O. Badía CAB"]
+[Site "Barcelona"]
+[Date "1929.05.07"]
+[Round "7"]
+[White "Casas Casas, Jaime"]
+[Black "Cunillera Cabedo, Ramon"]
+[Result "0-1"]
+[ECO "C42"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "58"]
+[EventDate "1929.??.??"]
+[EventType "tourn"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. d4 d5 6. Bd3 Be7 7. O-O Nc6 8. c4
+Nf6 9. Nc3 Bg4 10. Be3 dxc4 11. Bxc4 Bb4 12. Re1 O-O 13. a3 Ba5 14. d5 Ne5 15.
+Ba2 Nxf3+ 16. gxf3 Bh5 17. b4 Qd7 (17... Bb6) 18. Bc5 Bb6 19. Bc4 Rfd8 20. Re3
+Qh3 21. Qe2 Re8 22. Qf1 Qf5 23. Bd3 Qf4 24. Rae1 Bxf3 25. Qh3 Rxe3 26. Rxe3
+Qg5+ 27. Kf1 (27. Qg3 $143) 27... Bxd5 28. f4 Qxf4+ 29. Ke2 Be6 0-1
+
+[Event "Torneo de Altura José O. Badía CAB"]
+[Site "Barcelona"]
+[Date "1929.05.10"]
+[Round "8"]
+[White "Cunillera Cabedo, Ramon"]
+[Black "Comas, Joan"]
+[Result "0-1"]
+[ECO "B13"]
+[PlyCount "84"]
+[EventDate "1929.??.??"]
+[EventType "tourn"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Bd3 Nc6 5. c3 Nf6 6. Bg5 e6 7. Nd2 Be7 8.
+Ngf3 a6 9. O-O Qc7 10. Re1 Bd6 11. Nf1 Bd7 12. Qe2 h6 13. Bh4 Nh5 14. Ne3 Nf4
+15. Qd2 Nxd3 16. Qxd3 Ne7 17. Rac1 g5 18. Bg3 Bxg3 19. fxg3 b5 20. Ne5 f5 21.
+g4 O-O 22. Rf1 Kg7 23. gxf5 exf5 24. g4 Qc8 25. Nxd7 Qxd7 26. Nxf5+ Nxf5 27.
+gxf5 Rae8 28. Qh3 Rf6 29. Rce1 Rxe1 30. Rxe1 Rxf5 31. Re5 Kg6 32. Qe3 Rxe5 33.
+Qxe5 Qg4+ 34. Kf2 Qf5+ 35. Qxf5+ Kxf5 36. Kf3 h5 37. a3 g4+ 38. Kg3 Kg5 39. h4+
+Kf5 40. b3 Ke4 41. Kf2 Kd3 42. c4 Kxd4 0-1
+
+[Event "Torneo de Altura José O. Badía CAB"]
+[Site "Barcelona"]
+[Date "1929.05.20"]
+[Round "9"]
+[White "Cunillera Cabedo, Ramon"]
+[Black "Devesa Zaragoza, Josep"]
+[Result "1/2-1/2"]
+[ECO "D61"]
+[PlyCount "54"]
+[EventDate "1929.??.??"]
+[EventType "tourn"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 e6 4. Bg5 Nbd7 5. e3 Be7 6. Nc3 O-O 7. Qc2 c5 8. dxc5
+Nxc5 9. cxd5 exd5 10. Rd1 Be6 11. Bd3 h6 12. Bh4 Rc8 13. O-O Nfe4 14. Bxe7 Qxe7
+15. Nxe4 Nxe4 16. Qb1 Bg4 17. Be2 Rfd8 18. Nd4 Bxe2 19. Nxe2 Qe5 20. Nd4 Rc4
+21. Nf3 Qd6 22. Rc1 Ng5 23. Nd4 Ne6 24. Nxe6 Qxe6 25. b3 Rxc1 26. Rxc1 Rc8 27.
+Rxc8+ Qxc8 1/2-1/2
+
+[Event "Torneo de Altura José O. Badía CAB"]
+[Site "Barcelona"]
+[Date "1929.05.28"]
+[Round "11"]
+[White "Cunillera Cabedo, Ramon"]
+[Black "Soler Bordas, Placid"]
+[Result "1/2-1/2"]
+[ECO "C10"]
+[PlyCount "70"]
+[EventDate "1929.??.??"]
+[EventType "tourn"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Nxf6+ Qxf6 6. Nf3 h6 7. Bd3 c5 8.
+O-O Bd7 9. Be4 Bc6 10. d5 exd5 11. Bxd5 Be7 12. c3 O-O 13. Qb3 Bxd5 14. Qxd5
+Nc6 15. Be3 Rad8 16. Qc4 b6 17. Rad1 Bd6 18. Rfe1 Bc7 19. Qg4 Rd6 20. Rxd6 Qxd6
+21. g3 f5 22. Qc4+ Kh7 23. Bf4 Qd7 24. Bxc7 Qxc7 25. Qe6 Rf6 26. Qe8 Qf7 27.
+Qxf7 Rxf7 28. Re6 Rf6 29. Rxf6 gxf6 30. Nh4 Ne5 31. Nxf5 Nd3 32. Ne7 Nxb2 33.
+Kf1 Na4 34. Nd5 Kg6 35. Ke1 Kf5 1/2-1/2
+
+[Event "C. E. Comtal Social m"]
+[Site "Barcelona"]
+[Date "1930.??.??"]
+[Round "?"]
+[White "Cunillera Cabedo, Ramon"]
+[Black "Sererols Eroles, Manuel"]
+[Result "1-0"]
+[ECO "C42"]
+[PlyCount "31"]
+[EventDate "1930.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. Nc3 Nxc3 6. dxc3 Be7 7. Bc4 Be6
+8. Bxe6 fxe6 9. Nd4 e5 10. Ne6 Qd7 11. Nxg7+ Kd8 12. Qd5 c6 13. Qf7 Kc8 14. Nf5
+Bd8 15. Bh6 Na6 16. Bg7 1-0
+
+[Event "C. E. Comtal Social m"]
+[Site "Barcelona"]
+[Date "1930.??.??"]
+[Round "?"]
+[White "Sererols Eroles, Manuel"]
+[Black "Cunillera Cabedo, Ramon"]
+[Result "0-1"]
+[ECO "B30"]
+[PlyCount "92"]
+[EventDate "1930.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. Nc3 e6 4. g3 Nf6 5. Bg2 Be7 6. O-O O-O 7. d4 cxd4 8.
+Nxd4 Qb6 9. Nb3 a6 10. Be3 Qc7 11. Qe2 Na5 12. Nxa5 Qxa5 13. a3 d6 14. f4 Bd7
+15. Bf3 Bc6 16. Qf2 Qc7 17. Rad1 Nd7 18. Rd3 f5 19. exf5 Bxf3 20. fxe6 Ne5 21.
+fxe5 Be4 22. Qe2 Rxf1+ 23. Qxf1 Rf8 24. Qe2 Bxd3 25. Qxd3 dxe5 26. Nd5 Qd6 27.
+Qb3 b5 28. Nxe7+ Qxe7 29. Bg5 Qc5+ 30. Be3 Qc4 31. e7 Rc8 32. Qxc4+ bxc4 33.
+Bc5 Kf7 34. Bb4 Rc6 35. Kf2 Rh6 36. h4 Rg6 37. Kf3 h5 38. Bc5 e4+ 39. Kf2 Rf6+
+40. Kg2 Ke8 41. Kg1 Rf5 42. Be3 Kxe7 43. Bf4 Ke6 44. Kf2 g5 45. hxg5 Rxf4+ 46.
+gxf4 h4 0-1
+
+[Event "Camp. Catalunya eq. ( 1 cat. )"]
+[Site "?"]
+[Date "1930.??.??"]
+[Round "1"]
+[White "Cunillera Cabedo, Ramon"]
+[Black "Manye"]
+[Result "1-0"]
+[ECO "C66"]
+[PlyCount "66"]
+[EventDate "1930.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O d6 5. d4 exd4 6. Nxd4 Bd7 7. Nc3 Be7 8.
+Re1 O-O 9. b3 Nxd4 10. Qxd4 Bxb5 11. Nxb5 Nd7 12. c3 Bf6 13. Qd2 Re8 14. Bb2
+Nc5 15. f3 a6 16. Nd4 Bxd4+ 17. cxd4 Nd7 18. Rac1 Rc8 19. Rc2 c6 20. Rec1 Nf6
+21. d5 c5 22. Qg5 h6 23. Qh4 Nh7 24. Qxd8 Rexd8 25. b4 b6 26. e5 dxe5 27. bxc5
+b5 28. d6 f6 29. Ba3 a5 30. c6 b4 31. d7 Rc7 32. Bb2 Ng5 33. f4 Nf7 1-0
+
+[Event "Camp. Catalunya eq. ( 1 cat. )"]
+[Site "?"]
+[Date "1930.??.??"]
+[Round "8"]
+[White "Cunillera Cabedo, Ramon"]
+[Black "Vilardebo Picurena, Josep"]
+[Result "0-1"]
+[ECO "B45"]
+[PlyCount "72"]
+[EventDate "1930.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 e6 3. Nc3 Nc6 4. d4 cxd4 5. Nxd4 Nf6 6. Bg5 Be7 7. Ndb5 O-O 8.
+Nd6 Qa5 9. Qd2 Bxd6 10. Bxf6 Bb4 11. Qg5 Bxc3+ 12. bxc3 Qxg5 13. Bxg5 h6 14.
+Be3 f5 15. Bc5 Rf7 16. Bd3 fxe4 17. Bxe4 d5 18. Bd3 b6 19. Bb5 bxc5 20. Bxc6
+Rb8 21. O-O Rc7 22. Ba4 Rcb7 23. Be8 g5 24. f4 Rb2 25. fxg5 hxg5 26. Rfc1 Ba6
+27. Bh5 e5 28. Re1 e4 29. Be2 Bc8 30. Rec1 Bd7 31. Kf2 Ba4 32. Bd1 d4 33. cxd4
+cxd4 34. Ke1 e3 35. c3 Bxd1 36. Rxd1 dxc3 0-1
+
+[Event "Camp. Catalunya eq. ( 1 cat. )"]
+[Site "?"]
+[Date "1930.??.??"]
+[Round "18"]
+[White "Cunillera Cabedo, Ramon"]
+[Black "Casas Casas, Jaime"]
+[Result "1/2-1/2"]
+[ECO "B46"]
+[PlyCount "114"]
+[EventDate "1930.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e6 5. Nc3 a6 6. a3 Nf6 7. Bg5 Be7 8. Be2
+Nxe4 9. Bxe7 Nxc3 10. Bxd8 Nxd1 11. Nxc6 bxc6 12. Bc7 Nxb2 13. Be5 Na4 14. Bxg7
+Rg8 15. Be5 Rg5 16. Bg3 Nc3 17. Bd3 a5 18. Bxh7 f5 19. h4 Rg4 20. h5 Nd5 21.
+Bg6+ Kf8 22. h6 Ba6 23. Bd6+ Kg8 24. h7+ Kg7 25. Bxf5 exf5 26. h8=Q+ Rxh8 27.
+Be5+ Kg6 28. Bxh8 Rxg2 29. Bd4 Rg4 30. O-O-O Be2 31. Rdg1 Bf3 32. Rxg4+ fxg4
+33. Rh8 Kf5 34. Ra8 d6 35. Rxa5 c5 36. Bg7 Ne3 37. Bf8 Nc4 38. Ra6 Bb7 39. Ra7
+Bd5 40. a4 Ke4 41. a5 Kf3 42. Bxd6 Nxd6 43. Rd7 Kxf2 44. Rxd6 Bf3 45. Rd2+ Ke3
+46. Rd3+ Kf2 47. a6 Be4 48. Rc3 g3 49. Rxc5 g2 50. Rg5 g1=Q+ 51. Rxg1 Kxg1 52.
+Kd2 Kf2 53. Kc3 Ke3 54. a7 Kf4 55. Kd4 Kf5 56. c4 Ba8 57. Kc5 Ke6 1/2-1/2
+
+[Event "Copa Barcelona"]
+[Site "Barcelona"]
+[Date "1930.??.??"]
+[Round "?"]
+[White "Cunillera Cabedo, Ramon"]
+[Black "Vara, Santiago"]
+[Result "1-0"]
+[ECO "C15"]
+[PlyCount "33"]
+[EventDate "1930.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. exd5 Bxc3+ 5. bxc3 exd5 6. Nf3 Nf6 7. Ba3 Be6
+8. Rb1 b6 9. Ne5 c6 10. Bd3 Qc7 11. O-O Nfd7 12. f4 Nxe5 13. fxe5 Nd7 14. Bd6
+Qc8 15. Qh5 Nb8 16. Qg5 Qd7 17. Qxg7 1-0
+
+[Event "Copa Barcelona"]
+[Site "Barcelona"]
+[Date "1930.??.??"]
+[Round "?"]
+[White "Saura"]
+[Black "Cunillera Cabedo, Ramon"]
+[Result "0-1"]
+[ECO "C42"]
+[PlyCount "48"]
+[EventDate "1930.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. d4 d5 6. Bd3 Nc6 7. O-O Bg4 8.
+Re1 Be7 9. c3 f5 10. Nbd2 O-O 11. Qc2 Bd6 12. c4 Nxd2 13. Nxd2 Nxd4 14. Qc3 Qf6
+15. c5 Be5 16. Qb4 Rae8 17. Nf1 Nc6 18. Qb3 Bxh2+ 19. Kxh2 Qh4+ 20. Kg1 Rxe1
+21. Qxd5+ Kh8 22. f3 Bh5 23. Bxf5 Rd8 24. Qb3 Nd4 0-1
+
+[Event "C. E. Comtal Social"]
+[Site "Barcelona"]
+[Date "1931.??.??"]
+[Round "?"]
+[White "Sererols Eroles, Manuel"]
+[Black "Cunillera Cabedo, Ramon"]
+[Result "1/2-1/2"]
+[ECO "D37"]
+[PlyCount "56"]
+[EventDate "1931.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Be7 5. e3 O-O 6. Bd3 c5 7. O-O Nc6 8. b3 b6
+9. Bb2 dxc4 10. bxc4 Bb7 11. d5 Nb4 12. e4 Ne8 13. a3 Nxd3 14. Qxd3 exd5 15.
+exd5 Bf6 16. Rfe1 Nc7 17. Re2 b5 18. Nxb5 Nxb5 19. cxb5 Bxb2 20. Rxb2 Qxd5 21.
+Qxd5 Bxd5 22. Rc2 c4 23. Ne5 Rfb8 24. Nxc4 Bxc4 25. Rxc4 Rxb5 26. Rac1 g6 27.
+g3 Rb3 28. Ra4 Rb7 1/2-1/2
+
+[Event "Barcelona sim"]
+[Site "Barcelona"]
+[Date "1931.02.04"]
+[Round "?"]
+[White "Tartakower, Saviely"]
+[Black "Cunillera Cabedo, Ramon"]
+[Result "1/2-1/2"]
+[ECO "B12"]
+[PlyCount "64"]
+[EventDate "1931.02.07"]
+[EventType "simul"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. f3 e6 4. Be3 dxe4 5. Nd2 exf3 6. Qxf3 Nf6 7. Bd3 Nbd7 8.
+O-O-O Be7 9. Ne2 Nd5 10. Rdf1 N7f6 11. c3 b5 12. Bg5 Bb7 13. g4 Rf8 14. h4 Qc7
+15. Bxf6 Nxf6 16. g5 Nd7 17. Bxh7 c5 18. Be4 Rb8 19. Bxb7 Qxb7 20. Qxb7 Rxb7
+21. Ne4 cxd4 22. Nxd4 Nc5 23. Nxc5 Bxc5 24. Nf3 g6 25. h5 gxh5 26. Rxh5 Rg8 27.
+Re1 Bd6 28. Kc2 a6 29. Rh7 Rc7 30. Kd3 Rc5 31. Rg1 Be7 32. Rh5 Rf5 1/2-1/2
+
+[Event "C. E. Joventut-C. E. Comtal m amistos"]
+[Site "Barcelona"]
+[Date "1931.04.11"]
+[Round "?"]
+[White "Cunillera Cabedo, Ramon"]
+[Black "Alberola, Ferran"]
+[Result "0-1"]
+[ECO "C54"]
+[PlyCount "146"]
+[EventDate "1931.04.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. cxd4 Bb4+ 7. Nc3 Nxe4 8.
+O-O Bxc3 9. d5 Ne5 10. Qe2 Nxf3+ 11. gxf3 O-O 12. fxe4 Be5 13. f4 Bd4+ 14. Kh1
+d6 15. Qd2 Bb6 16. a4 a5 17. Ra3 f6 18. Rg3 Qe7 19. Qg2 Bd7 20. b3 Kh8 21. Bb2
+Rae8 22. Bd3 c6 23. Bc3 cxd5 24. exd5 Qf7 25. f5 Re7 26. Rf4 Re3 27. Rxe3 Bxe3
+28. Rg4 b6 29. Re4 Re8 30. Qf3 Rxe4 31. Qxe4 Qe8 32. Kg2 Qxe4+ 33. Bxe4 Kg8 34.
+Kf3 Bc5 35. h4 Kf7 36. h5 Bc8 37. Be1 Ba6 38. Bc2 Ke7 39. Be4 h6 40. Bf2 Kd7
+41. Be1 Kc7 42. Bc2 Bf1 43. Bd1 Bd3 44. Kf4 Kb7 45. Bc3 Ka6 46. Be1 b5 47. Bd2
+bxa4 48. bxa4 Kb6 49. Be1 Bd4 50. Bd2 Be5+ 51. Kg4 Bc4 52. Be3+ Ka6 53. Bc2 Bc3
+54. Be4 Bb3 55. Bd3+ Kb7 56. Bf4 Bb4 57. Kf3 Bxd5+ 58. Be4 Kc6 59. Ke3 Bd2+ 60.
+Kd4 Bxe4 61. Bxd2 Bc2 62. Bxa5 Bxa4 63. Bd8 Kd7 64. Ba5 Bd1 65. Ke4 Bxh5 66.
+Kf4 Bd1 67. Bb4 h5 68. Ba3 Bc2 69. Bb4 h4 70. Be1 h3 71. Bg3 Bd1 72. Bh2 d5 73.
+Bg3 Bc2 0-1
+
+[Event "C. E. Comtal Social"]
+[Site "Barcelona"]
+[Date "1932.??.??"]
+[Round "?"]
+[White "Cunillera Cabedo, Ramon"]
+[Black "Grau, Andreu"]
+[Result "1-0"]
+[ECO "B73"]
+[PlyCount "53"]
+[EventDate "1932.??.??"]
+[EventType "game"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Be2 g6 7. Be3 Bg7 8.
+O-O O-O 9. Qd2 a6 10. f3 Nd7 11. Nd5 Bxd4 12. Bxd4 Nxd4 13. Qxd4 Ne5 14. f4 Nc6
+15. Qe3 Qa5 16. b4 Qd8 17. f5 Ne5 18. Nxe7+ Qxe7 19. f6 Nf3+ 20. Rxf3 Qe5 21.
+Qh6 Qd4+ 22. Kh1 Qxa1+ 23. Rf1 Qxf6 24. Rxf6 Re8 25. Bc4 Be6 26. Bxe6 Rxe6 27.
+Rxe6 1-0
+
+[Event "Camp. Catalunya eq. ( 1 cat. )"]
+[Site "?"]
+[Date "1932.??.??"]
+[Round "7"]
+[White "Cunillera Cabedo, Ramon"]
+[Black "Solano, A."]
+[Result "1-0"]
+[ECO "B13"]
+[PlyCount "47"]
+[EventDate "1932.??.??"]
+[EventType "team"]
+[EventRounds "18"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Bd3 Nf6 5. c3 e6 6. Nf3 Bd6 7. O-O O-O 8. Bg5
+h6 9. Bh4 Nbd7 10. Qe2 Qc7 11. Bg3 a6 12. Bxd6 Qxd6 13. Ne5 b5 14. f4 Re8 15.
+a3 Rb8 16. Nd2 Nb6 17. Rf2 Bb7 18. g4 Nfd7 19. Bc2 Nxe5 20. fxe5 Qe7 21. Raf1
+Rf8 22. Rf6 gxf6 23. exf6 Qd6 24. Qd3 1-0
+
+[Event "Camp. Catalunya eq. ( 1 cat. )"]
+[Site "?"]
+[Date "1932.03.01"]
+[Round "8"]
+[White "Forcada, J."]
+[Black "Cunillera Cabedo, Ramon"]
+[Result "0-1"]
+[ECO "D10"]
+[PlyCount "76"]
+[EventDate "1932.??.??"]
+[EventType "team"]
+[EventRounds "18"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 c6 3. Nc3 e5 4. a3 e4 5. e3 Be7 6. Bd2 f5 7. Nge2 Nf6 8. Nf4 Bd6
+9. c5 Bc7 10. g3 O-O 11. Qb3 Bxf4 12. exf4 Nbd7 13. Be2 Kh8 14. Nd1 b6 15. Qc2
+bxc5 16. dxc5 d4 17. Qc4 d3 18. Bf1 Qe7 19. b4 Nd5 20. Ne3 N7f6 21. Bh3 Be6 22.
+Qc1 Nxe3 23. fxe3 Nd5 24. Qb2 a5 25. O-O Rab8 26. Rab1 axb4 27. axb4 Rb5 28.
+Qe5 Bd7 29. Qd4 Rfb8 30. Rfd1 Qf6 31. Qc4 Be6 32. Qc1 Nxb4 33. Bxb4 Rxb4 34.
+Rxb4 Rxb4 35. Qa3 Qb2 36. Qa8+ Rb8 37. Qxc6 Qe2 38. Rf1 Rb2 0-1
+
+[Event "Camp. Catalunya eq. ( 1 cat. )"]
+[Site "?"]
+[Date "1932.??.??"]
+[Round "9"]
+[White "Cunillera Cabedo, Ramon"]
+[Black "Balague Casals, Antoni"]
+[Result "1-0"]
+[ECO "C61"]
+[PlyCount "49"]
+[EventDate "1932.??.??"]
+[EventType "team"]
+[EventRounds "18"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nd4 4. Bc4 Nxf3+ 5. Qxf3 Nf6 6. Nc3 Be7 7. d3 c6 8.
+Qg3 O-O 9. Qxe5 d5 10. exd5 Bd6 11. Qg5 Re8+ 12. Be3 Re5 13. Qg3 Rxd5 14. f4
+Rf5 15. Qf3 Qc7 16. g4 Ra5 17. h3 g6 18. O-O-O Bd7 19. Ne4 Nxe4 20. dxe4 b5 21.
+e5 Bxe5 22. Bxf7+ Kxf7 23. fxe5+ Kg8 24. Bh6 Rxa2 25. Qb3+ 1-0
+
+[Event "Camp. Catalunya eq. ( 1 cat. )"]
+[Site "?"]
+[Date "1932.??.??"]
+[Round "10"]
+[White "Cunillera Cabedo, Ramon"]
+[Black "Casas Casas, Jaime"]
+[Result "1-0"]
+[ECO "B03"]
+[PlyCount "73"]
+[EventDate "1932.??.??"]
+[EventType "team"]
+[EventRounds "18"]
+[EventCountry "ESP"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. f4 dxe5 5. fxe5 Bf5 6. Nf3 e6 7. c3 c5 8. Bd3
+Bxd3 9. Qxd3 cxd4 10. cxd4 Nc6 11. O-O Be7 12. Nc3 Rc8 13. a3 O-O 14. Qe4 Nxd4
+15. Nxd4 Rxc3 16. bxc3 Nxc3 17. Nxe6 fxe6 18. Rxf8+ Bxf8 19. Qg4 Bc5+ 20. Kh1
+Qd1+ 21. Qxd1 Nxd1 22. g3 Nf2+ 23. Kg2 Nd3 24. Bf4 Nxf4+ 25. gxf4 Kf7 26. Kf3
+Ke7 27. Rc1 b6 28. a4 Kd7 29. Rd1+ Kc6 30. Kg4 b5 31. axb5+ Kxb5 32. f5 exf5+
+33. Kxf5 a5 34. Ke6 a4 35. Kd7 a3 36. e6 Ka4 37. e7 1-0
+
+[Event "Camp. Catalunya eq. ( 1 cat. )"]
+[Site "?"]
+[Date "1932.??.??"]
+[Round "13"]
+[White "Cunillera Cabedo, Ramon"]
+[Black "Benach, Antoni"]
+[Result "1-0"]
+[ECO "C42"]
+[PlyCount "49"]
+[EventDate "1932.??.??"]
+[EventType "team"]
+[EventRounds "18"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. d4 Be7 6. Bd3 d5 7. O-O O-O 8.
+Re1 f5 9. c4 c6 10. Qb3 b6 11. Nc3 Bb7 12. cxd5 cxd5 13. Nxe4 fxe4 14. Bxe4 Kh8
+15. Bc2 Bf6 16. Qd3 g6 17. Bh6 Re8 18. Rxe8+ Qxe8 19. Re1 Qf7 20. Qe3 Nd7 21.
+Ng5 Bxg5 22. Bxg5 Rc8 23. Ba4 Bc6 24. Bxc6 Rxc6 25. Qe8+ 1-0
+
+[Event "C. E. Comtal Social"]
+[Site "Barcelona"]
+[Date "1933.??.??"]
+[Round "?"]
+[White "Cunillera Cabedo, Ramon"]
+[Black "Sans"]
+[Result "1-0"]
+[ECO "B38"]
+[PlyCount "85"]
+[EventDate "1933.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. c4 Bg7 6. Be3 d6 7. Be2 Nf6 8. Nc3
+O-O 9. O-O Bd7 10. Nb3 b6 11. f4 Qc8 12. h3 Kh8 13. Qd2 Be6 14. Qe1 Ng8 15. g4
+f5 16. exf5 gxf5 17. g5 Bf7 18. Qd2 e5 19. Nb5 Rd8 20. Nxd6 Qe6 21. Nxf7+ Qxf7
+22. Qc2 Nd4 23. Bxd4 exd4 24. Bd3 Ne7 25. Rae1 Rac8 26. Qe2 Ng6 27. Qf2 Ne7 28.
+Nc1 b5 29. b3 a6 30. Re2 Rc7 31. Rfe1 Rdc8 32. Re6 Nd5 33. cxd5 Rxc1 34. Qe2
+Rxe1+ 35. Qxe1 Kg8 36. d6 Rd8 37. Re7 Qg6 38. d7 Bf8 39. Qe5 Bxe7 40. Qxe7 Qb6
+41. Bxf5 d3+ 42. Kf1 d2 43. Be6+ 1-0
+
+[Event "C. E. Vic-C. E. Comtal m amistos"]
+[Site "Vic"]
+[Date "1933.04.02"]
+[Round "?"]
+[White "Rabassa"]
+[Black "Cunillera Cabedo, Ramon"]
+[Result "0-1"]
+[ECO "D35"]
+[PlyCount "64"]
+[EventDate "1933.04.??"]
+[EventType "match"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bf4 c6 5. e3 Bd6 6. Bxd6 Qxd6 7. Bd3 Nbd7 8.
+cxd5 exd5 9. Nf3 O-O 10. O-O Re8 11. Ne2 Ne4 12. Bxe4 dxe4 13. Nd2 Nf6 14. Qc2
+Bf5 15. Ng3 Bg6 16. a3 h5 17. Qc5 Qc7 18. Rac1 a6 19. b4 Rad8 20. Ne2 Rd5 21.
+Qc2 Ng4 22. Nf4 Rg5 23. h3 Nf6 24. Nxg6 Rxg6 25. Qc5 Rd8 26. Nc4 Rd5 27. Qb6
+Qb8 28. Na5 Rdg5 29. f4 exf3 30. Rf2 Rxg2+ 31. Rxg2 Rxg2+ 32. Kf1 Rg1+ 0-1
+
+[Event "C. E. Comtal Torneo Maestros catalanes"]
+[Site "Barcelona"]
+[Date "1934.??.??"]
+[Round "?"]
+[White "Catala Vallve, Xavier"]
+[Black "Cunillera Cabedo, Ramon"]
+[Result "0-1"]
+[ECO "D52"]
+[PlyCount "84"]
+[EventDate "1934.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 e6 4. Nc3 Nbd7 5. Bg5 c6 6. e3 Qa5 7. Bxf6 Nxf6 8.
+Nd2 Bb4 9. Qc2 O-O 10. Bd3 Re8 11. f4 c5 12. O-O cxd4 13. exd4 dxc4 14. Bxc4
+Qd8 15. Nf3 b6 16. a3 Bxc3 17. bxc3 Bb7 18. Ne5 Rc8 19. Rac1 Re7 20. Qb2 Rec7
+21. Qb3 Bd5 22. Bxd5 Qxd5 23. Qb2 Rxc3 24. Nf3 Qa5 25. f5 exf5 26. Ne5 Qd5 27.
+Nf3 Qc4 28. Rxc3 Qxc3 29. Qb5 g6 30. Re1 Ne4 31. Qd7 Qc7 32. Qd5 Qc2 33. Rf1
+Qe2 34. h3 Rc2 35. Qd8+ Kg7 36. Nh4 Qe3+ 37. Kh2 Qg3+ 38. Kg1 Qe3+ 39. Kh2 Qg3+
+40. Kg1 Ng5 41. Rxf5 Rc1+ 42. Rf1 Nxh3+ 0-1
+
+[Event "C. E. Comtal Torneo Maestros catalanes"]
+[Site "Barcelona"]
+[Date "1934.??.??"]
+[Round "?"]
+[White "Cunillera Cabedo, Ramon"]
+[Black "Simon, Angel"]
+[Result "1-0"]
+[ECO "C78"]
+[PlyCount "103"]
+[EventDate "1934.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O b5 6. Bb3 d6 7. Ng5 d5 8. exd5
+Nd4 9. Re1 Bd6 10. c3 Nxb3 11. axb3 O-O 12. c4 Nxd5 13. d4 Nf4 14. Bxf4 exf4
+15. Ne4 Bb7 16. Nxd6 Qxd6 17. d5 Rad8 18. Nc3 bxc4 19. bxc4 c6 20. Qd4 cxd5 21.
+cxd5 Rd7 22. f3 h6 23. Rad1 Rfd8 24. Re5 Qg6 25. Qxf4 f6 26. Re6 Bxd5 27. Rxa6
+Qc2 28. Qd2 Qb3 29. Ra3 Qb4 30. Nxd5 Qxd2 31. Rxd2 Rxd5 32. Rxd5 Rxd5 33. Re3
+Kf7 34. Kf2 Rd2+ 35. Re2 Rd1 36. Kg3 g5 37. Kf2 f5 38. Ke3 h5 39. Rd2 f4+ 40.
+Kd3 Re1 41. b4 Re3+ 42. Kc4 g4 43. Rd4 Kg6 44. Rxf4 Kg5 45. Rd4 Ra3 46. fxg4
+hxg4 47. Rd2 Ra8 48. b5 Kf4 49. b6 Rh8 50. b7 g3 51. hxg3+ Kxg3 52. Kb5 1-0
+
+[Event "C. E. Comtal Torneo Maestros catalanes"]
+[Site "Barcelona"]
+[Date "1934.??.??"]
+[Round "?"]
+[White "Cunillera Cabedo, Ramon"]
+[Black "Sunyer"]
+[Result "1-0"]
+[ECO "C17"]
+[PlyCount "35"]
+[EventDate "1934.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. Bd2 cxd4 6. Nb5 Be7 7. Qg4 g5 8. Nf3
+Nc6 9. Nbxd4 h5 10. Qg3 h4 11. Qg4 Nxd4 12. Nxd4 f5 13. exf6 Bxf6 14. Bb5+ Kf7
+15. Nf3 e5 16. Nxg5+ Kf8 17. Bb4+ Be7 18. Qf3+ 1-0
+
+[Event "C. E. Comtal Int"]
+[Site "Barcelona"]
+[Date "1934.??.??"]
+[Round "1"]
+[White "Cunillera Cabedo, Ramon"]
+[Black "Sererols Eroles, Manuel"]
+[Result "1/2-1/2"]
+[ECO "C82"]
+[PlyCount "70"]
+[EventDate "1934.06.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Nxe4 6. d4 b5 7. Bb3 d5 8. dxe5
+Be6 9. c3 Bc5 10. Bc2 O-O 11. Nbd2 f5 12. exf6 Nxf6 13. Nb3 Bd6 14. Bg5 Qd7 15.
+Nbd4 Nxd4 16. Nxd4 Rae8 17. Qd3 Ne4 18. Bh4 Bf5 19. Nxf5 Qxf5 20. f3 Bc5+ 21.
+Kh1 Nd6 22. Rae1 Qxd3 23. Bxd3 Rxe1 24. Rxe1 Nf5 25. Bxf5 Rxf5 26. Bg3 Bb6 27.
+Re8+ Rf8 28. Re7 Rf7 29. Re5 d4 30. Re8+ Rf8 31. Rxf8+ Kxf8 32. cxd4 Bxd4 33.
+Bxc7 Bxb2 34. Kg1 Ke7 35. Kf2 Kd7 1/2-1/2
+
+[Event "C. E. Comtal Int"]
+[Site "Barcelona"]
+[Date "1934.??.??"]
+[Round "2"]
+[White "Tartakower, Saviely"]
+[Black "Cunillera Cabedo, Ramon"]
+[Result "1-0"]
+[ECO "D43"]
+[PlyCount "35"]
+[EventDate "1934.06.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 e6 4. Bg5 h6 5. Bxf6 Qxf6 6. Nc3 c6 7. Qb3 Nd7 8. e4
+dxe4 9. Nxe4 Qf4 10. Bd3 e5 11. O-O exd4 12. Nxd4 Ne5 13. Bc2 Be7 14. g3 Qg4
+15. f4 Ng6 16. f5 Bc5 17. Qe3 Bxd4 18. Qxd4 1-0
+
+[Event "C. E. Comtal Int"]
+[Site "Barcelona"]
+[Date "1934.??.??"]
+[Round "5"]
+[White "Cunillera Cabedo, Ramon"]
+[Black "Lilienthal, Andor"]
+[Result "1/2-1/2"]
+[ECO "C14"]
+[PlyCount "114"]
+[EventDate "1934.06.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Be7 5. e5 Nfd7 6. Bxe7 Qxe7 7. f4 O-O 8.
+Nf3 c5 9. Bd3 f6 10. O-O cxd4 11. Nb5 Nc6 12. Nbxd4 Nxd4 13. Nxd4 fxe5 14. fxe5
+Rxf1+ 15. Qxf1 Nxe5 16. Re1 Nxd3 17. Qxd3 Bd7 18. Qe3 Re8 19. Nf3 b6 20. Ne5
+Bc8 21. Rf1 Ba6 22. Rf7 Rf8 23. Rxf8+ Qxf8 24. Qf2 Bb5 25. Qxf8+ Kxf8 26. Kf2
+Ke7 27. Ke3 Kd6 28. Kd4 Be8 29. c4 a5 30. b4 axb4 31. cxd5 exd5 32. Nd3 Bg6 33.
+Nxb4 Be4 34. g3 g5 35. a3 h5 36. Na2 h4 37. Nc3 Bg2 38. Nd1 Ke6 39. Ne3 Bf3 40.
+Nf1 Kd6 41. Ne3 hxg3 42. hxg3 Kc6 43. a4 Kd6 44. Nf5+ Ke6 45. Ne3 Be4 46. Nd1
+Bc2 47. Nc3 Bb3 48. Nb5 Bxa4 49. Nc7+ Kf5 50. Nxd5 b5 51. Ne3+ Ke6 52. Nd5 Kf5
+53. Ne3+ Kg6 54. g4 Kf6 55. Nd5+ Ke6 56. Nc3 Kf6 57. Ne4+ Kg6 1/2-1/2
+
+[Event "C. E. Comtal Int"]
+[Site "Barcelona"]
+[Date "1934.??.??"]
+[Round "6"]
+[White "Koltanowski, George"]
+[Black "Cunillera Cabedo, Ramon"]
+[Result "1/2-1/2"]
+[ECO "D05"]
+[PlyCount "74"]
+[EventDate "1934.06.??"]
+[EventType "tourn"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. Nf3 Nf6 3. e3 e6 4. Bd3 Be7 5. Nbd2 Nbd7 6. O-O b6 7. Ne5 Bb7 8. f4
+O-O 9. Qf3 c5 10. c3 Qc7 11. g4 g6 12. g5 Ne8 13. Qh3 Ng7 14. Ndf3 Nf5 15. Bd2
+f6 16. gxf6 Bxf6 17. Kh1 Rae8 18. Rg1 Re7 19. Rg2 Rg7 20. Rag1 Nxe5 21. fxe5
+Bd8 22. Ng5 Bxg5 23. Rxg5 Rff7 24. Be1 Kf8 25. Bxf5 Rxf5 26. Rxf5+ exf5 27. Bh4
+Qd7 28. Bf6 Rg8 29. Qh6+ Ke8 30. h4 Ba6 31. Qf4 Bd3 32. Bg5 Be4+ 33. Kh2 Kf7
+34. e6+ Kxe6 35. Qe5+ Kf7 36. Qf6+ Ke8 37. Qe5+ Kf7 1/2-1/2

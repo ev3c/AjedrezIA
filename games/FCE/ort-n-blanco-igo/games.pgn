@@ -1,0 +1,68 @@
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.01.31"]
+[Round "3.6"]
+[White "Bernardo L�pez, Roger"]
+[Black "Ort�n Blanco, ��igo"]
+[Result "1-0"]
+[ECO "B67"]
+[PlyCount "83"]
+[EventDate "2026.??.??"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Bg5 e6 7. Qd2 a6 8.
+O-O-O Bd7 9. f4 b5 10. Bxf6 gxf6 11. Kb1 Qb6 12. Nxc6 Bxc6 13. f5 b4 14. Ne2 e5
+15. Ng3 h5 16. h4 Bh6 17. Qxd6 Rd8 18. Qxd8+ Qxd8 19. Rxd8+ Kxd8 20. Bxa6 Ke7
+21. Bd3 Rg8 22. Rh3 Be3 23. Nf1 Bf2 24. Ne3 Bxe3 25. Rxe3 Rxg2 26. a3 bxa3 27.
+b4 Rh2 28. Ka2 Rxh4 29. Kxa3 Rh1 30. b5 Ba8 31. Kb4 Kd6 32. c4 h4 33. c5+ Kd7
+34. c6+ Kd6 35. Bc4 Bxc6 36. Rd3+ Kc7 37. bxc6 Kxc6 38. Bb5+ Kc7 39. Rd7+ Kc8
+40. Kc5 h3 41. Kb6 Re1 42. Rd3 {1-0 White wins.} 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.02.28"]
+[Round "7.6"]
+[White "Ba�os, �scar Francisco"]
+[Black "Ort�n Blanco, ��igo"]
+[Result "1/2-1/2"]
+[ECO "E14"]
+[WhiteElo "2110"]
+[BlackElo "2280"]
+[PlyCount "174"]
+[EventDate "2026.01.27"]
+
+1. Nf3 d5 2. e3 Nf6 3. c4 e6 4. b3 c5 5. Bb2 Be7 6. Nc3 O-O 7. d4 b6 8. Bd3 Bb7
+9. O-O Nbd7 10. Qe2 Rc8 11. Rfd1 Qc7 12. Rac1 cxd4 13. exd4 Qf4 14. Qe3 Bd6 15.
+Qxf4 Bxf4 16. Rc2 dxc4 17. bxc4 e5 18. Nxe5 Bxe5 19. dxe5 Nxe5 20. Nb5 Nxd3 21.
+Bxf6 gxf6 22. Rxd3 Be4 23. Rg3+ Kh8 24. Rc1 Rfd8 25. Rgc3 a6 26. Na3 Rd2 27. f3
+Bf5 28. Nc2 Re8 29. Ne3 Bd3 30. Nd5 b5 31. cxb5 Bxb5 32. Nxf6 Re6 33. Rc8+ Kg7
+34. Nh5+ Kh6 35. Nf4 Rf6 36. g3 Rxa2 37. R1c5 Rd6 38. Rd5 Rxd5 39. Nxd5 Kg7 40.
+Rc7 Be2 41. Rc3 a5 42. Ne3 Bxf3 43. Nf5+ Kf6 44. Rxf3 Ke5 45. Ne7 a4 46. Nc6+
+Kd6 47. Rc3 a3 48. Na5 Ra1+ 49. Kg2 a2 50. Ra3 Kc5 51. Nb7+ Kb6 52. Nd6 Rd1 53.
+Nc8+ Kb7 54. Rxa2 Kxc8 55. Ra7 Rd7 56. Ra8+ Kc7 57. Rh8 f6 58. Rf8 Kd6 59.
+Rxf6+ Ke7 60. Rf2 Ke6 61. Kh3 Rd4 62. Rf4 Rd2 63. g4 h6 64. Rf5 Ke7 65. Kg3 Rc2
+66. h3 Rc3+ 67. Rf3 Rc5 68. Kh4 Rd5 69. Kg3 Ra5 70. h4 Rb5 71. h5 Ra5 72. Rb3
+Kf7 73. Rb4 Ra7 74. Kf4 Kg7 75. Rb5 Rf7+ 76. Rf5 Re7 77. Re5 Rf7+ 78. Ke4 Ra7
+79. Re6 Ra4+ 80. Kf5 Ra5+ 81. Re5 Ra7 82. Rd5 Rf7+ 83. Ke4 Re7+ 84. Kf4 Rf7+
+85. Rf5 Re7 86. g5 hxg5+ 87. Kxg5 Ra7 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2026.03.07"]
+[Round "8.4"]
+[White "Alonso Bouza, Julio Javier"]
+[Black "Ort�n Blanco, ��igo"]
+[Result "0-1"]
+[ECO "B22"]
+[WhiteElo "2345"]
+[BlackElo "2241"]
+[PlyCount "100"]
+[EventDate "2024.05.18"]
+
+1. e4 c5 2. d3 Nc6 3. f4 g6 4. Nf3 Bg7 5. Be2 Nf6 6. c3 d6 7. O-O O-O 8. a4 c4
+9. Na3 cxd3 10. Bxd3 Be6 11. f5 Qb6+ 12. Kh1 Bb3 13. Qe1 Ne5 14. Nxe5 dxe5 15.
+Nc4 Qc7 16. Nd2 Rfd8 17. Qe2 Rxd3 18. Qxd3 Rd8 19. Qe3 Bc2 20. fxg6 hxg6 21.
+Qxa7 Nxe4 22. Nf3 Rd6 23. Qa8+ Rd8 24. Qa7 Rd6 25. a5 Bd3 26. Re1 f5 27. Ng5
+Nc5 28. Be3 Nb3 29. Qa8+ Rd8 30. Ne6 Rxa8 31. Nxc7 Rxa5 32. Rxa5 Nxa5 33. Bc5
+Kf7 34. Nd5 Nb3 35. Ba3 e6 36. Nc7 e4 37. Bd6 Bh6 38. Bg3 Bd2 39. Rd1 e3 40.
+Be1 Bc2 41. Bxd2 exd2 42. Rxd2 Nxd2 43. Nb5 Ke7 44. Nd4 Be4 45. Kg1 Nc4 46. b3
+Ne3 47. g3 e5 48. Ne2 Bc2 49. b4 Bd3 50. Nc1 Bc4 0-1

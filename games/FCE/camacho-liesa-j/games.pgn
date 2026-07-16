@@ -1,0 +1,108 @@
+[Event "Obert Barcelona A"]
+[Site "?"]
+[Date "1993.??.??"]
+[Round "?"]
+[White "Camacho Liesa, J."]
+[Black "Viñas Racionero, J."]
+[Result "1-0"]
+[ECO "C07"]
+[PlyCount "53"]
+[EventDate "1993.??.??"]
+
+1. e4 e6 2. d4 d5 3. Nd2 c5 4. Ngf3 cxd4 5. Nxd4 Nf6 6. e5 Nfd7 7. f4 Nxe5 8.
+Nxe6 Bxe6 9. fxe5 Qh4+ 10. g3 Qd4 11. Nf3 Qe4+ 12. Qe2 Nc6 13. Bf4 Nb4 14. Qxe4
+dxe4 15. Bb5+ Bd7 16. Bxd7+ Kxd7 17. O-O-O+ Ke8 18. Ng5 Rc8 19. Rd2 Nd3+ 20.
+Kb1 Nxf4 21. gxf4 e3 22. Rd3 Rc4 23. e6 f6 24. Nf7 Rxf4 25. Rxe3 Rg8 26. Rd1
+Be7 27. Rc3 1-0
+
+[Event "Ct. Catalunya equips 1 Div."]
+[Site "?"]
+[Date "2004.??.??"]
+[Round "5"]
+[White "Garcia Clemente, JF."]
+[Black "Camacho Liesa, J."]
+[Result "1/2-1/2"]
+[ECO "C88"]
+[PlyCount "22"]
+[EventDate "2004.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. a4
+Bb7 9. d3 d6 10. Nbd2 Na5 11. Ba2 c5 1/2-1/2
+
+[Event "Lliga Catalana eq. DH"]
+[Site "?"]
+[Date "2014.04.05"]
+[Round "11.9"]
+[White "Garcia Jimenez, FJ."]
+[Black "Camacho Liesa, J."]
+[Result "1-0"]
+[ECO "C24"]
+[WhiteElo "2362"]
+[BlackElo "2137"]
+[PlyCount "99"]
+[EventDate "2014.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Bc4 Nf6 3. d4 exd4 4. e5 d5 5. Bb5+ c6 6. exf6 cxb5 7. Qe2+ Be6 8.
+Nf3 Bb4+ 9. c3 dxc3 10. Qxb5+ Nc6 11. bxc3 Qxf6 12. Bg5 Bxc3+ 13. Kf1 Bxa1 14.
+Bxf6 Bxf6 15. h3 O-O 16. Kg1 Rab8 17. Kh2 a6 18. Qa4 d4 19. Nbd2 Bd5 20. Re1
+Rfe8 21. Qc2 Rxe1 22. Nxe1 Re8 23. Nd3 Be7 24. Kg1 Bd6 25. Qb2 b5 26. Nf3 Bc4
+27. Qd2 h6 28. g4 Bd5 29. Nh4 Ne5 30. Nxe5 Bxe5 31. Nf5 Bc4 32. g5 hxg5 33.
+Qxg5 Bf6 34. Qg4 Be6 35. Qe4 Bd7 36. Qd3 Re1+ 37. Kg2 Bc6+ 38. f3 Re5 39. Nxd4
+Rd5 40. Qc2 Rg5+ 41. Kf1 Bxd4 42. Qxc6 Rg6 43. Qe8+ Kh7 44. Qxf7 b4 45. Qf5 Bf6
+46. Kf2 Kh6 47. Qf4+ Rg5 48. h4 a5 49. hxg5+ Bxg5 50. Qd4 1-0
+
+[Event "Lliga Catalana DH Final A"]
+[Site "?"]
+[Date "2015.03.14"]
+[Round "8.10"]
+[White "Camacho Liesa, J."]
+[Black "Llobet Reus, P."]
+[Result "0-1"]
+[ECO "B07"]
+[WhiteElo "2109"]
+[BlackElo "2288"]
+[PlyCount "70"]
+[EventDate "2015.??.??"]
+[EventType "team"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Be2 Bg7 5. Be3 c6 6. a4 Nbd7 7. Qd2 Qa5 8. Ra3
+e5 9. h3 O-O 10. Nf3 Qc7 11. O-O exd4 12. Nxd4 Re8 13. Ndb5 cxb5 14. Nxb5 Qb8
+15. f3 Ne5 16. Qxd6 Qxd6 17. Nxd6 Rd8 18. Nb5 Be6 19. Nxa7 Bc4 20. Bd3 Bxd3 21.
+cxd3 Rxd3 22. Rxd3 Nxd3 23. b3 Bf8 24. Rd1 Nc5 25. e5 Ne8 26. Rd5 Rxa7 27. Rd8
+b6 28. Rxe8 Kg7 29. b4 Nxa4 30. Bd4 Bxb4 31. e6+ f6 32. Rd8 Re7 33. Rd7 Rxd7
+34. exd7 Be7 35. g4 Nc5 0-1
+
+[Event "Catalunya-chT GpA final"]
+[Site "Barcelona"]
+[Date "2017.03.11"]
+[Round "1.10"]
+[White "Ramirez Carrizo, Victor Jose"]
+[Black "Camacho Liesa, Joan"]
+[Result "1-0"]
+[ECO "C32"]
+[WhiteElo "2132"]
+[BlackElo "2047"]
+[PlyCount "73"]
+[EventDate "2017.03.11"]
+[EventType "team-tourn"]
+[EventRounds "11"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 177 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.04.27"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.04.27"]
+[SourceQuality "1"]
+[WhiteTeam "Barbera"]
+[BlackTeam "Sant Andreu"]
+[WhiteTeamCountry "ESP"]
+[BlackTeamCountry "ESP"]
+
+1. e4 e5 2. f4 d5 3. exd5 e4 4. d3 Nf6 5. dxe4 Bc5 6. Nc3 O-O 7. Bd3 Ng4 8. Nf3
+Nf2 9. Qe2 Nxh1 10. Be3 Bb4 11. O-O-O Qe7 12. Bd4 c6 13. e5 g6 14. Ne4 Nd7 15.
+d6 Qd8 16. Rxh1 b5 17. Qe3 c5 18. Nxc5 Nxc5 19. Bxc5 Bxc5 20. Qxc5 Qb6 21. Qxb6
+axb6 22. Bxb5 Rxa2 23. Kb1 Be6 24. b3 Rfa8 25. Ba4 R2xa4 26. bxa4 Rxa4 27. Rd1
+Bd7 28. Rd4 Ra7 29. Ng5 h6 30. Ne4 f5 31. Nf6+ Kf7 32. Nxd7 Rxd7 33. Kb2 Ke6
+34. Kb3 g5 35. g3 h5 36. Kb4 Rb7 37. d7 1-0

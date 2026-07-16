@@ -1,0 +1,110 @@
+[Event "Camp. Catalunya eq. m Desemp."]
+[Site "Barcelona"]
+[Date "1932.??.??"]
+[Round "?"]
+[White "Garcia Castella, Antonio"]
+[Black "Vinuesa, J."]
+[Result "1-0"]
+[ECO "C54"]
+[PlyCount "33"]
+[EventDate "1932.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. cxd4 Bb4+ 7. Nc3 Nxe4 8.
+O-O Bxc3 9. d5 Ba5 10. dxc6 dxc6 11. Qa4 Bb6 12. Bxf7+ Kxf7 13. Qxe4 g6 14. Bg5
+Qe8 15. Qf4+ Bf5 16. Rfe1 Qf8 17. Qc4+ 1-0
+
+[Event "Camp. Catalunya indiv. elim."]
+[Site "?"]
+[Date "1933.??.??"]
+[Round "?"]
+[White "Vinuesa, J."]
+[Black "Grau, Andreu"]
+[Result "0-1"]
+[ECO "C53"]
+[PlyCount "62"]
+[EventDate "1933.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Bb6 5. d4 Qe7 6. a3 Nf6 7. O-O d6 8. d5
+Nb8 9. Qc2 Bg4 10. Be2 Nbd7 11. b4 O-O 12. Bg5 h6 13. Bh4 g5 14. Nxg5 Bxe2 15.
+Qxe2 hxg5 16. Bxg5 Kh7 17. Qf3 Rh8 18. Qg3 Rag8 19. Nd2 Rg6 20. Nf3 Qe8 21.
+Rae1 Qg8 22. h4 Kg7 23. Bxf6+ Kxf6 24. Qh3 Ke7 25. a4 Rg3 26. Qf5 Rxg2+ 27. Kh1
+Bxf2 28. Ng5 Rxg5 29. Qxf2 Rgh5 30. Qg2 Rxh4+ 31. Kg1 Rg4 0-1
+
+[Event "Camp. Catalunya indiv. elim."]
+[Site "?"]
+[Date "1933.??.??"]
+[Round "?"]
+[White "Vinuesa, J."]
+[Black "Vallve Piñol, Josep"]
+[Result "0-1"]
+[ECO "B30"]
+[PlyCount "56"]
+[EventDate "1933.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 c5 2. Nf3 Nc6 3. Nc3 Nd4 4. Bc4 e6 5. d3 a6 6. a3 b5 7. Ba2 Bb7 8. Nxd4
+cxd4 9. Ne2 Bc5 10. O-O Nf6 11. Ng3 O-O 12. e5 Nd5 13. Qg4 f5 14. exf6 Nxf6 15.
+Qg5 Nd5 16. Qxd8 Raxd8 17. Bg5 Rc8 18. Rac1 Nf4 19. Bxf4 Rxf4 20. Rfe1 Rg4 21.
+Ne4 Bxe4 22. Rxe4 Rxe4 23. dxe4 d3 24. Kf1 Rf8 25. cxd3 Rxf2+ 26. Ke1 Bd4 27.
+Rc7 Rxb2 28. Rxd7 Bc3+ 0-1
+
+[Event "Camp. Catalunya indiv. elim."]
+[Site "?"]
+[Date "1933.??.??"]
+[Round "3"]
+[White "Sunyer Roig, Juli"]
+[Black "Vinuesa, J."]
+[Result "1-0"]
+[ECO "C54"]
+[PlyCount "59"]
+[EventDate "1933.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nf6 3. Bc4 Bc5 4. c3 Nc6 5. d4 exd4 6. cxd4 Bb4+ 7. Bd2 Bxd2+
+8. Nbxd2 d5 9. exd5 Nxd5 10. Qc2 O-O 11. O-O Nce7 12. Rfe1 Bf5 13. Ne4 Bg6 14.
+Qb3 b6 15. Ne5 Bxe4 16. Rxe4 Qd6 17. Rae1 Kh8 18. Rh4 f5 19. Bxd5 Nxd5 20. Qxd5
+Qxd5 21. Ng6+ Kg8 22. Ne7+ Kf7 23. Nxd5 c6 24. Re7+ Kg6 25. Nf4+ Kg5 26. Rxg7+
+Kf6 27. Rhxh7 Rg8 28. Nh5+ Ke6 29. Rh6+ Kd5 30. Rxg8 1-0
+
+[Event "Camp. Catalunya indiv. elim."]
+[Site "?"]
+[Date "1933.??.??"]
+[Round "11"]
+[White "Comas, Joan"]
+[Black "Vinuesa, J."]
+[Result "1-0"]
+[ECO "D51"]
+[PlyCount "57"]
+[EventDate "1933.??.??"]
+[EventType "tourn"]
+[EventCountry "ESP"]
+
+1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. Nc3 Nbd7 5. Bg5 Be7 6. e3 Ne4 7. Nxe4 dxe4 8.
+Bxe7 Qxe7 9. Nd2 f5 10. Be2 Nf6 11. Qc2 c5 12. dxc5 Qxc5 13. O-O-O Bd7 14. Kb1
+O-O 15. h3 Be8 16. Nb3 Qc7 17. Nd4 Bf7 18. Nb5 Qe7 19. Rd2 a6 20. Nd6 Rad8 21.
+Rhd1 Rd7 22. c5 Rfd8 23. Bc4 Ne8 24. Nxf7 Rxd2 25. Rxd2 Rxd2 26. Qxd2 Kxf7 27.
+Qd4 Qf6 28. Qd7+ Qe7 29. Bxe6+ 1-0
+
+[Event "Camp. Catalunya eq."]
+[Site "?"]
+[Date "1934.??.??"]
+[Round "?"]
+[White "Vinuesa, J."]
+[Black "Estrada"]
+[Result "1-0"]
+[ECO "C57"]
+[PlyCount "39"]
+[EventDate "1934.??.??"]
+[EventType "team"]
+[EventCountry "ESP"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Ng5 d5 5. exd5 Nxd5 6. Nxf7 Kxf7 7. Qf3+ Ke6
+8. Nc3 Nce7 9. O-O c6 10. d4 b5 11. Bb3 Ng6 12. Re1 Bb4 13. Nxd5 cxd5 14. c3
+Be7 15. dxe5 Nxe5 16. Rxe5+ Kxe5 17. Bf4+ Ke6 18. Re1+ Kd7 19. Qxd5+ Ke8 20.
+Qf7+ 1-0

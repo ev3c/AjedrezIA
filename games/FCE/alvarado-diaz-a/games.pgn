@@ -1,0 +1,708 @@
+[Event "Sants op A"]
+[Site "?"]
+[Date "2012.08.18"]
+[Round "2"]
+[White "Alvarado Diaz, A."]
+[Black "Perez Mitjans, O."]
+[Result "0-1"]
+[ECO "A00"]
+[PlyCount "118"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+
+1. g3 e5 2. d4 exd4 3. Qxd4 Nc6 4. Qd3 Nf6 5. Nf3 Bc5 6. Bg2 O-O 7. O-O Re8 8.
+Nc3 a6 9. Bg5 h6 10. Bf4 d6 11. a3 a5 12. Nd1 Be6 13. Be3 Qc8 14. Bxc5 dxc5 15.
+Qb5 Ne4 16. Nc3 Na7 17. Qd3 Nd6 18. Rad1 Nc6 19. Qe3 a4 20. Qf4 Nc4 21. Nd5
+Nxb2 22. Rd2 Bxd5 23. Rxd5 Rxe2 24. Rxc5 Qd7 25. Qc1 Qd6 26. Rc3 Ra6 27. Qxb2
+Rb6 28. Qc1 g5 29. Qd1 Qxd1 30. Rxd1 Rb2 31. Ne1 Nd4 32. Bf1 Re4 33. Kg2 Ne6
+34. Bd3 Re5 35. Nf3 Rc5 36. Rxc5 Nxc5 37. Bf5 Ra2 38. Rd8+ Kg7 39. Rc8 c6 40.
+Ra8 Rxa3 41. Ra5 Rc3 42. Nd2 b5 43. Ra7 b4 44. Ne4 Rxc2 45. Nxg5 b3 46. Rxf7+
+Kg8 47. Bh7+ Kh8 48. Rf8+ Kg7 49. Rf7+ Kh8 50. Rf8+ Kg7 51. Rg8+ Kf6 52. Rg6+
+Ke7 53. Nf3 a3 54. Rg7+ Kd6 55. Ra7 a2 56. Nd4 Rd2 57. Nf5+ Ke5 58. Ne3 Rd7 59.
+f4+ Kd4 0-1
+
+[Event "Sants op A"]
+[Site "?"]
+[Date "2012.08.24"]
+[Round "8"]
+[White "Alvarado Diaz, A."]
+[Black "Mascaro March, P."]
+[Result "0-1"]
+[ECO "E15"]
+[PlyCount "52"]
+[EventDate "2012.??.??"]
+[EventType "swiss"]
+[EventRounds "10"]
+
+1. Nf3 Nf6 2. g3 b6 3. d4 e6 4. c4 Ba6 5. Qc2 c5 6. d5 exd5 7. cxd5 g6 8. Bg2
+Bg7 9. O-O O-O 10. Nc3 d6 11. Re1 b5 12. e4 b4 13. Nd1 Nbd7 14. a3 Qb6 15. axb4
+Rfe8 16. Bh3 cxb4 17. Be3 Nc5 18. Bxc5 dxc5 19. Nd2 Nxd5 20. Rc1 Rad8 21. Nf3
+b3 22. Qxc5 Qxc5 23. Rxc5 Nb4 24. Ra5 Nc2 25. Ne3 Nxe1 26. Nxe1 Bxb2 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.13"]
+[Round "1"]
+[White "Alvarado Diaz, A."]
+[Black "Maltsev, L."]
+[Result "1-0"]
+[ECO "A01"]
+[WhiteElo "2313"]
+[BlackElo "1985"]
+[PlyCount "85"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. b3 e5 2. Bb2 Nc6 3. c4 f5 4. g3 Nf6 5. Bg2 d6 6. a3 a5 7. e3 g6 8. Ne2 Bg7
+9. O-O O-O 10. Nbc3 Qe7 11. Rc1 Kh8 12. d4 e4 13. Nf4 Qf7 14. f3 exf3 15. Qxf3
+Ne7 16. Nb5 Neg8 17. Nd5 Ne8 18. Nbc3 Ngf6 19. Nf4 c6 20. Qe2 Nc7 21. b4 axb4
+22. axb4 Ne6 23. d5 Nxf4 24. exf4 Bd7 25. Qd2 Rfe8 26. Rfe1 Rxe1+ 27. Rxe1 Re8
+28. h3 Rxe1+ 29. Qxe1 Qe8 30. Qd2 cxd5 31. cxd5 Ne4 32. Nxe4 fxe4 33. Bxg7+
+Kxg7 34. Qd4+ Kg8 35. Kf2 e3+ 36. Qxe3 Qxe3+ 37. Kxe3 h5 38. Kf3 Kf7 39. g4
+hxg4+ 40. hxg4 Kf6 41. g5+ Kf7 42. Kg3 Bf5 43. Bh3 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.14"]
+[Round "2"]
+[White "Dvirnyy, D."]
+[Black "Alvarado Diaz, A."]
+[Result "1-0"]
+[ECO "B38"]
+[WhiteElo "2549"]
+[BlackElo "2313"]
+[PlyCount "87"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. Nf3 Nf6 2. c4 g6 3. Nc3 c5 4. d4 cxd4 5. Nxd4 Nc6 6. e4 Bg7 7. Be3 Qa5 8.
+Nb3 Qd8 9. Be2 O-O 10. O-O d6 11. Rc1 a5 12. Nd2 Bd7 13. Ndb1 a4 14. Na3 Nb4
+15. f3 Qa5 16. Qd2 Be6 17. Rfd1 Rfc8 18. Bf1 Nd7 19. Nd5 Nc6 20. Qf2 Nc5 21.
+Nb5 Bxd5 22. exd5 Ne5 23. Bd4 Qd8 24. Rc3 Qd7 25. Qe2 g5 26. Qc2 e6 27. Be3 Ng6
+28. dxe6 Nxe6 29. Nxd6 Rc6 30. Nf5 Qc7 31. Nxg7 Kxg7 32. Rd5 h6 33. g3 Ne7 34.
+Rd1 Ra5 35. Bf2 Ng6 36. b4 axb3 37. axb3 Rca6 38. c5 Ra2 39. Qe4 R6a3 40. Bc4
+Rxf2 41. Kxf2 Qxc5+ 42. Qe3 Ra2+ 43. Kg1 Qa3 44. b4 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.15"]
+[Round "3"]
+[White "Alvarado Diaz, A."]
+[Black "Blandon, LG."]
+[Result "1/2-1/2"]
+[ECO "E64"]
+[WhiteElo "2313"]
+[BlackElo "1993"]
+[PlyCount "109"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d6 5. Nf3 O-O 6. Nc3 c5 7. d5 e6 8. O-O Na6
+9. h3 exd5 10. cxd5 Re8 11. Nd2 Nc7 12. a4 b6 13. Qb3 Ba6 14. Re1 Nd7 15. Nb5
+Bxb5 16. axb5 a6 17. bxa6 b5 18. Ra5 c4 19. Qb4 Nc5 20. Nxc4 bxc4 21. Qxc4 Rxa6
+22. Rxa6 N5xa6 23. b3 Qb8 24. Ba3 Nb5 25. Bxd6 Nxd6 26. Qxa6 Qb4 27. Rf1 h5 28.
+h4 Nb5 29. e3 Qxb3 30. Qc6 Rd8 31. Qb6 Rxd5 32. Bxd5 Qxd5 33. Rb1 Nc3 34. Qb8+
+Kh7 35. Qb7 Qf5 36. Rb4 Be5 37. Kg2 Kg7 38. Rc4 Qd3 39. Qc6 Nd5 40. Qc5 Bf6 41.
+Ra4 Nc3 42. Qc4 Qd7 43. Ra6 Qb7+ 44. Qc6 Qxc6+ 45. Rxc6 Nd5 46. e4 Ne7 47. Rc7
+Kf8 48. f4 Bd4 49. Kf3 f5 50. Rd7 fxe4+ 51. Kxe4 Bf6 52. Rxe7 Bxe7 53. f5 gxf5+
+54. Kxf5 Kg7 55. g4 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.16"]
+[Round "4"]
+[White "Basencyan, M."]
+[Black "Alvarado Diaz, A."]
+[Result "0-1"]
+[ECO "A40"]
+[WhiteElo "2130"]
+[BlackElo "2313"]
+[PlyCount "148"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 g6 2. c4 Bg7 3. Nc3 c5 4. d5 Bxc3+ 5. bxc3 f5 6. h4 Nf6 7. h5 Rg8 8. hxg6
+hxg6 9. Nf3 Qa5 10. Qb3 d6 11. Ng5 Nbd7 12. Bf4 Nb6 13. f3 Bd7 14. e3 O-O-O 15.
+Bd3 Qa6 16. Qc2 Rh8 17. Kf2 Rxh1 18. Rxh1 Nxc4 19. Qe2 b5 20. Bxc4 bxc4 21. Qd2
+Qb7 22. e4 fxe4 23. fxe4 Rf8 24. g3 Bg4 25. Qc2 Kc7 26. Rb1 Qa6 27. Qb2 Nd7 28.
+Qb5 Qxb5 29. Rxb5 a6 30. Rb2 Ne5 31. Ke3 Nd3 32. Rh2 Rb8 33. Ne6+ Kd7 34. Bg5
+Bxe6 35. dxe6+ Kxe6 36. Rh7 Rb7 37. Rg7 Ne5 38. Kf4 a5 39. a4 Nc6 40. Rxg6+ Kd7
+41. Bh6 Ne5 42. Rg8 Rb1 43. Ra8 Rf1+ 44. Ke3 Rf3+ 45. Kd2 Rxg3 46. Rxa5 Rg2+
+47. Kd1 Ra2 48. Ra7+ Kc6 49. Bf8 Nd3 50. a5 Nf2+ 51. Ke1 Nxe4 52. Bxe7 d5 53.
+Bf6 Nxf6 54. Ra6+ Kd7 55. Rxf6 Rxa5 56. Rf4 Ra1+ 57. Kd2 Rh1 58. Rg4 Ke6 59.
+Rg6+ Ke5 60. Rc6 Rh2+ 61. Kd1 Ke4 62. Rxc5 Kd3 63. Rxd5+ Kxc3 64. Rb5 Rh1+ 65.
+Ke2 Kc2 66. Rc5 c3 67. Rb5 Rh8 68. Rb7 Re8+ 69. Kf2 Kc1 70. Rb6 c2 71. Rb7 Re5
+72. Rb8 Kd2 73. Rd8+ Kc3 74. Rc8+ Kb3 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.17"]
+[Round "5"]
+[White "Alvarado Diaz, A."]
+[Black "Perez Mitjans, O."]
+[Result "0-1"]
+[ECO "D07"]
+[WhiteElo "2313"]
+[BlackElo "2495"]
+[PlyCount "80"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 d5 2. Nf3 Nc6 3. c4 Bg4 4. Nc3 e6 5. cxd5 exd5 6. Bf4 Bd6 7. Bg3 Bxf3 8.
+gxf3 Nge7 9. e3 O-O 10. a3 f5 11. f4 Nb8 12. Qb3 c6 13. Qxb7 Nd7 14. Bh4 Nf6
+15. b4 Kh8 16. Be2 Ng6 17. Bg5 Qe8 18. h4 h6 19. Kd2 a5 20. b5 c5 21. dxc5 Bxc5
+22. Bf3 Rb8 23. Qc6 d4 24. Nd5 dxe3+ 25. fxe3 Nxd5 26. Qxc5 Rxb5 27. Qd4 Nxe3
+28. Rae1 Nc4+ 29. Qxc4 Qb8 30. Rc1 Rb2+ 31. Rc2 Rc8 32. Qxc8+ Qxc8 33. Rxb2
+hxg5 34. hxg5+ Kg8 35. Bd5+ Kf8 36. Rc1 Qd8 37. Rb5 Nxf4 38. Rcc5 Qxg5 39. Kc3
+Qg3+ 40. Kd4 Ne2+ 0-1
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.18"]
+[Round "6"]
+[White "Dalo, H."]
+[Black "Alvarado Diaz, A."]
+[Result "1/2-1/2"]
+[ECO "A57"]
+[WhiteElo "2148"]
+[BlackElo "2313"]
+[PlyCount "51"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. b6 d6 6. a4 Qxb6 7. Nc3 Nbd7 8. Nf3
+g6 9. Nd2 Bg7 10. g3 O-O 11. Bg2 Ne8 12. O-O Nc7 13. a5 Qa7 14. Nc4 Rb8 15. Na4
+Nf6 16. Nab6 Bd7 17. Re1 Bb5 18. e4 Bxc4 19. Nxc4 Nd7 20. f4 Rb4 21. Ra4 Nb5
+22. e5 Qc7 23. e6 fxe6 24. dxe6 Nf6 25. Rxb4 cxb4 26. Nb6 1/2-1/2
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.19"]
+[Round "7"]
+[White "Alvarado Diaz, A."]
+[Black "Herms Agullo, J."]
+[Result "1-0"]
+[ECO "A00"]
+[WhiteElo "2313"]
+[BlackElo "2130"]
+[PlyCount "67"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. a3 e5 2. c4 f5 3. e3 Nf6 4. d4 e4 5. Nc3 c6 6. Nh3 Bd6 7. c5 Bc7 8. Bc4 d5
+9. cxd6 Qxd6 10. Ng5 Nd5 11. Bxd5 cxd5 12. Qh5+ g6 13. Qh6 Qd7 14. Bd2 Bd8 15.
+Nh3 Na6 16. Nf4 Nc7 17. h4 Rg8 18. Rc1 b6 19. Nce2 Ba6 20. Ng3 Bc4 21. f3 exf3
+22. gxf3 Nb5 23. Kf2 Nd6 24. Bb4 Bc7 25. Nge2 a5 26. Bxd6 Bxd6 27. Qg5 Be7 28.
+Qg1 a4 29. Nc3 Bf6 30. Qh2 Rc8 31. Ncxd5 Bd8 32. Rc3 Qb5 33. Nb4 Be7 34. Nfd5
+1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.20"]
+[Round "8"]
+[White "Christiansen, JS."]
+[Black "Alvarado Diaz, A."]
+[Result "1-0"]
+[ECO "A31"]
+[WhiteElo "2155"]
+[BlackElo "2313"]
+[PlyCount "87"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 c5 7. O-O cxd4 8. Nxd4
+Nc6 9. Nc2 Be6 10. b3 Qa5 11. Bd2 Rfc8 12. Kh1 Nd7 13. Qe1 Qd8 14. Rd1 a5 15.
+Be3 Qe8 16. Na4 Rab8 17. f4 Nf6 18. Bd3 Bd7 19. Nb6 Rd8 20. a3 h5 21. b4 axb4
+22. axb4 e6 23. h3 Nh7 24. Be2 Bc8 25. b5 Ne7 26. Qb4 Bf8 27. Rxd6 Nd5 28. Rxd8
+Qxd8 29. Qd2 Nhf6 30. exd5 Ne4 31. Qe1 exd5 32. Nxd5 Be6 33. Bb6 Qc8 34. Bd3
+Nd6 35. Nf6+ Kh8 36. Bd4 Bg7 37. Be5 Qd8 38. Qc3 Rc8 39. Nxh5 gxh5 40. Bxg7+
+Kg8 41. c5 Ne8 42. Bd4 Qh4 43. Be2 Bd5 44. Bf3 1-0
+
+[Event "Sant Marti op A"]
+[Site "Barcelona"]
+[Date "2013.07.21"]
+[Round "9"]
+[White "Alvarado Diaz, A."]
+[Black "Dukaczewski, P."]
+[Result "1-0"]
+[ECO "A12"]
+[WhiteElo "2313"]
+[BlackElo "2226"]
+[PlyCount "101"]
+[EventDate "2013.??.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+
+1. g3 d5 2. Bg2 Nf6 3. Nf3 c6 4. O-O Bf5 5. b3 e6 6. Bb2 Be7 7. c4 O-O 8. d3 h6
+9. Nbd2 a5 10. a3 Na6 11. Rc1 Bh7 12. Rc2 Nd7 13. Qa1 Bf6 14. Bxf6 Qxf6 15.
+Qxf6 Nxf6 16. Rb2 Nd7 17. Bh3 Rfd8 18. b4 axb4 19. axb4 Nc7 20. Rc1 Kf8 21.
+cxd5 Nxd5 22. Nc4 Ke7 23. Nd4 Ra4 24. Na5 c5 25. Ndc6+ bxc6 26. Nxc6+ Ke8 27.
+Nxd8 Kxd8 28. bxc5 Kc7 29. Bg2 f6 30. Bxd5 exd5 31. c6 Nb6 32. Rxb6 Kxb6 33. c7
+Bf5 34. c8=Q Bxc8 35. Rxc8 d4 36. Kg2 Ra7 37. Rc4 Rd7 38. h4 h5 39. Kf3 g5 40.
+Rc8 gxh4 41. gxh4 Rd5 42. Kf4 Re5 43. e3 dxe3 44. fxe3 Rd5 45. d4 Kb7 46. Rf8
+Rd6 47. Kf5 Rd5+ 48. Kxf6 Ra5 49. e4 Kc7 50. d5 Kd7 51. Ke5 1-0
+
+[Event "Andorra op"]
+[Site "Erts - La Massana"]
+[Date "2014.07.22"]
+[Round "4.18"]
+[White "Kvisla, JL."]
+[Black "Alvarado Diaz, A."]
+[Result "0-1"]
+[ECO "A15"]
+[WhiteElo "2158"]
+[BlackElo "2354"]
+[PlyCount "80"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+
+1. Nf3 Nf6 2. c4 g6 3. b4 Bg7 4. Bb2 O-O 5. g3 a5 6. b5 c6 7. Na3 d5 8. Bg2 e6
+9. O-O Bd7 10. d3 cxb5 11. Nxb5 Bxb5 12. cxb5 a4 13. Ba3 Re8 14. Rb1 Nbd7 15.
+Qd2 Qb6 16. Rfc1 Ra5 17. Qc2 Rxb5 18. Rxb5 Qxb5 19. Rb1 Qc6 20. Nd4 Qxc2 21.
+Nxc2 Rc8 22. Nd4 b6 23. Rb4 Ra8 24. Rb5 Rc8 25. Bh3 Bf8 26. Bxf8 Kxf8 27. Rb4
+e5 28. Nf3 Rc2 29. Rxa4 Rxe2 30. Ra7 e4 31. dxe4 dxe4 32. Ng5 Ne5 33. Kf1 Rb2
+34. Bg2 e3 35. fxe3 Nfg4 36. Be4 h6 37. Nh3 f5 38. Ba8 Nxe3+ 39. Kg1 N5g4 40.
+Nf4 Rb1# 0-1
+
+[Event "Andorra op"]
+[Site "Erts - La Massana"]
+[Date "2014.07.23"]
+[Round "5.16"]
+[White "Alvarado Diaz, A."]
+[Black "Hagen, AG."]
+[Result "1/2-1/2"]
+[ECO "E06"]
+[WhiteElo "2354"]
+[BlackElo "2203"]
+[PlyCount "94"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+
+1. d4 Nf6 2. c4 e6 3. g3 d5 4. Nf3 Bb4+ 5. Bd2 Be7 6. Bg2 c6 7. Qc2 O-O 8. O-O
+b6 9. Rd1 Bb7 10. Bf4 Na6 11. Ne5 Nd7 12. Nd3 Bf6 13. Ne1 Qe7 14. e4 Rfd8 15.
+cxd5 cxd5 16. e5 Bg5 17. Bxg5 Qxg5 18. Bf1 Qe7 19. Nc3 Rdc8 20. Rac1 Nc7 21.
+Bd3 Nf8 22. Qe2 Ne8 23. f4 Rc7 24. Nf3 Rac8 25. Rf1 a6 26. Rf2 b5 27. Rcf1 b4
+28. Nd1 Bc6 29. f5 exf5 30. Bxf5 Bb5 31. Bd3 Rc2 32. Qe3 Rxf2 33. Nxf2 Ne6 34.
+Bxb5 axb5 35. Rc1 Rxc1+ 36. Qxc1 Qa7 37. Qd2 Qxa2 38. Qxb4 N8c7 39. Nd1 Qb1 40.
+Qd2 h6 41. Kf2 Ng5 42. Nxg5 hxg5 43. Ke2 Qe4+ 44. Qe3 Qc2+ 45. Qd2 Qe4+ 46. Qe3
+Qc2+ 47. Qd2 Qe4+ 1/2-1/2
+
+[Event "Andorra op"]
+[Site "Erts - La Massana"]
+[Date "2014.07.24"]
+[Round "6.18"]
+[White "Hardarson, JT."]
+[Black "Alvarado Diaz, A."]
+[Result "0-1"]
+[ECO "A58"]
+[WhiteElo "2045"]
+[BlackElo "2354"]
+[PlyCount "42"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. bxa6 g6 6. Nc3 Bg7 7. Nf3 O-O 8. e4
+Qa5 9. Bd2 Bxa6 10. g3 d6 11. Qc2 Nbd7 12. Nb5 Qb6 13. a4 Ng4 14. Be2 c4 15.
+O-O Bxb5 16. Nh4 Nde5 17. h3 Nxf2 18. Rxf2 Nd3 19. Bxd3 cxd3 20. Qb3 Bd4 21.
+Raf1 Bxa4 0-1
+
+[Event "Andorra op"]
+[Site "Erts - La Massana"]
+[Date "2014.07.25"]
+[Round "7.7"]
+[White "Alvarado Diaz, A."]
+[Black "Arizmendi Martinez, JL."]
+[Result "1/2-1/2"]
+[ECO "A64"]
+[WhiteElo "2354"]
+[BlackElo "2553"]
+[PlyCount "31"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+
+1. d4 e6 2. c4 Nf6 3. g3 c5 4. d5 exd5 5. cxd5 d6 6. Nc3 g6 7. Bg2 Bg7 8. Nf3
+O-O 9. O-O a6 10. a4 Nbd7 11. h3 Re8 12. Nd2 Nh5 13. Nde4 Ndf6 14. Nd2 Nd7 15.
+Nde4 Ndf6 16. Nd2 1/2-1/2
+
+[Event "Andorra op"]
+[Site "Erts - La Massana"]
+[Date "2014.07.26"]
+[Round "8.7"]
+[White "Glud, JV."]
+[Black "Alvarado Diaz, A."]
+[Result "1-0"]
+[ECO "A25"]
+[WhiteElo "2538"]
+[BlackElo "2354"]
+[PlyCount "59"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+
+1. c4 e5 2. g3 Nc6 3. Bg2 Bc5 4. Nc3 d6 5. e3 a6 6. Nge2 Ba7 7. O-O h5 8. Nd5
+h4 9. b4 Nf6 10. Bb2 Nxd5 11. cxd5 Ne7 12. d4 f6 13. Rc1 Bf5 14. e4 Bg4 15. f3
+Bd7 16. f4 Bg4 17. Bf3 Bh3 18. Rf2 Qd7 19. Qe1 hxg3 20. hxg3 O-O-O 21. fxe5
+fxe5 22. dxe5 Bxf2+ 23. Qxf2 Kb8 24. e6 Bxe6 25. dxe6 Qxe6 26. Nf4 Qh6 27. e5
+g5 28. exd6 cxd6 29. Bxh8 Rxh8 30. Qb6 1-0
+
+[Event "Andorra op"]
+[Site "Erts - La Massana"]
+[Date "2014.07.27"]
+[Round "9.17"]
+[White "Alvarado Diaz, A."]
+[Black "Rivera, I."]
+[Result "1-0"]
+[ECO "E68"]
+[WhiteElo "2354"]
+[BlackElo "2190"]
+[PlyCount "55"]
+[EventDate "2014.07.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "AND"]
+
+1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. g3 O-O 5. Bg2 d6 6. Nc3 Nbd7 7. O-O e5 8. e4
+exd4 9. Nxd4 Re8 10. h3 Nc5 11. Re1 a5 12. Qc2 Bd7 13. Be3 h6 14. f4 c6 15.
+Rad1 Qc7 16. Nb3 Nxb3 17. axb3 Kh7 18. Qd2 Bf8 19. Qf2 Ra6 20. e5 Ng8 21. Qd2
+c5 22. Ne4 Re6 23. Nxc5 dxc5 24. Qxd7 Re7 25. Qd5 Rc6 26. Qd8 Bg7 27. Bxc6 Qxc6
+28. Qd5 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "Barcelona"]
+[Date "2024.01.20"]
+[Round "1.1"]
+[White "Asis Gargatagli, Hipolito"]
+[Black "Alvarado Diaz, Alejandro"]
+[Result "0-1"]
+[ECO "C60"]
+[WhiteElo "2562"]
+[BlackElo "2550"]
+[Annotator "Travesset,Joaquim"]
+[PlyCount "94"]
+[EventDate "2024.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nge7 4. Nc3 Ng6 5. h4 Be7 6. h5 Nh4 7. Nxh4 Bxh4 8.
+Qg4 Bf6 9. Nd5 Nd4 10. Ba4 b5 11. c3 bxa4 12. cxd4 d6 13. Qd1 exd4 14. Qxa4+
+Bd7 15. Qa5 c6 16. Nxf6+ Qxf6 17. h6 Qg6 18. Kf1 Qxe4 19. hxg7 Rg8 20. Qg5 Bf5
+21. Qf6 Qg4 22. f3 Qxg7 23. Qxg7 Rxg7 24. Rh4 Bd3+ 25. Kg1 c5 26. b4 Kd7 27.
+bxc5 Rag8 28. c6+ Kxc6 29. Rh2 Kd5 30. Ba3 Re8 31. Rc1 Re2 32. g4 Rxh2 33. Kxh2
+f5 34. Rc8 fxg4 35. fxg4 Rxg4 36. Rd8 Rg6 37. Rd7 Rh6+ 38. Kg3 a6 39. Bb4 Rf6
+40. Kh4 h6 41. a3 Rg6 42. Kh5 Kc6 43. Ra7 Rf6 44. Kh4 Bc4 45. Ra8 Bd3 46. Rd8
+Rg6 47. Kh5 a5 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.01.27"]
+[Round "2.1"]
+[White "Rojano Alfonso, Carlos"]
+[Black "Alvarado Diaz, Alejandro"]
+[Result "0-1"]
+[ECO "A80"]
+[WhiteElo "2369"]
+[BlackElo "2550"]
+[Annotator "Daniel"]
+[PlyCount "82"]
+[EventDate "2024.??.??"]
+[WhiteTeam "Vila Olímpica"]
+[BlackTeam "Llinars"]
+
+1. d4 f5 2. Nf3 Nf6 3. Bf4 e6 4. h3 b6 5. e3 Bb7 6. Bd3 Nc6 7. c3 Ne7 8. Nbd2
+Ng6 9. Bh2 Bd6 10. Qc2 Bxh2 11. Rxh2 c5 12. O-O-O Qc7 13. Rhh1 O-O 14. Rhg1
+Rab8 15. Kb1 b5 16. dxc5 Qxc5 17. g4 b4 18. c4 Ne4 19. Nb3 Qe7 20. gxf5 Nc5 21.
+fxg6 Bxf3 22. gxh7+ Kh8 23. Rd2 Nxd3 24. Qxd3 d5 25. cxd5 exd5 26. Ka1 a5 27.
+Nd4 Be4 28. Qa6 Rf6 29. Qe2 Rbf8 30. f4 a4 31. Nf3 Rc8 32. Ne5 a3 33. Rd3 Qc5
+34. Qd2 Bxd3 35. Nxd3 axb2+ 36. Kb1 Qc3 37. Rd1 Re6 38. Nxb4 d4 39. exd4 Qf3
+40. d5 Re2 41. Qd3 Rc1+ 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "Barcelona"]
+[Date "2024.02.03"]
+[Round "3.1"]
+[White "Alvarado Diaz, Alejandro"]
+[Black "Cuartas Medina, Jaime Alexander"]
+[Result "1-0"]
+[ECO "D94"]
+[WhiteElo "2550"]
+[BlackElo "2603"]
+[PlyCount "111"]
+[EventDate "2024.??.??"]
+[TimeControl "90+30"]
+[WhiteClock "0:14:28"]
+[BlackClock "0:20:49"]
+
+1. Nf3 {[%emt 0:00:21]} d5 {[%emt 0:00:06]} 2. c4 {[%emt 0:01:06]} c6 {[%emt 0:
+00:05]} 3. e3 {[%emt 0:01:05]} Nf6 {[%emt 0:00:09]} 4. Nc3 {[%emt 0:00:53]} g6
+{[%emt 0:00:36]} 5. Be2 {[%emt 0:01:28]} Bg7 {[%emt 0:00:09]} 6. O-O {[%emt 0:
+00:18]} O-O {[%emt 0:00:07]} 7. d4 {[%emt 0:01:12]} e6 {[%emt 0:00:28]} 8. b3 {
+[%emt 0:01:50]} Nbd7 {[%emt 0:00:09]} 9. Ba3 {[%emt 0:01:09]} Re8 {[%emt 0:00:
+08]} 10. Rc1 {[%emt 0:00:29]} b6 {[%emt 0:00:34]} 11. Ne5 {[%emt 0:01:22]} Bb7
+{[%emt 0:07:07]} 12. f4 {[%emt 0:03:41]} c5 {[%emt 0:02:17]} 13. Bf3 {[%emt 0:
+02:30]} cxd4 {[%emt 0:06:45]} 14. exd4 {[%emt 0:00:56]} Ne4 {[%emt 0:00:27]}
+15. Bxe4 {[%emt 0:17:08]} dxe4 {[%emt 0:00:14]} 16. Nb5 {[%emt 0:00:54]} Bf8 {
+[%emt 0:11:06]} 17. Bxf8 {[%emt 0:05:00]} Rxf8 {[%emt 0:00:24]} 18. d5 {
+[%emt 0:10:29]} exd5 {[%emt 0:04:30]} 19. Nd6 {[%emt 0:00:49]} Nc5 {[%emt 0:13:
+35]} 20. Nxb7 {[%emt 0:01:02]} Nxb7 {[%emt 0:00:10]} 21. cxd5 {[%emt 0:00:51]}
+f6 {[%emt 0:04:42]} 22. Nc6 {[%emt 0:04:14]} Qd7 {[%emt 0:00:16]} 23. b4 {
+[%emt 0:02:34]} Nd6 {[%emt 0:05:34]} 24. Qb3 {[%emt 0:00:44]} b5 {[%emt 0:00:
+56]} 25. Rc5 {[%emt 0:03:19]} a6 {[%emt 0:00:11]} 26. a4 {[%emt 0:00:28]} Rfe8
+{[%emt 0:02:07]} 27. Re1 {[%emt 0:00:58]} Nb7 {[%emt 0:04:30]} 28. axb5 {
+[%emt 0:02:32]} Nxc5 {[%emt 0:00:16]} 29. bxc5 {[%emt 0:00:04]} axb5 {[%emt 0:
+00:05]} 30. d6+ {[%emt 0:01:39]} Kg7 {[%emt 0:00:21]} 31. Qd5 {[%emt 0:01:33]}
+Ra4 {[%emt 0:04:40]} 32. Nd4 {[%emt 0:10:03]} Qf7 {[%emt 0:03:48]} 33. Qxf7+ {
+[%emt 0:01:32]} Kxf7 {[%emt 0:00:06]} 34. Nxb5 {[%emt 0:00:09]} Rea8 {[%emt 0:
+09:35]} 35. d7 {[%emt 0:04:53]} Ra1 {[%emt 0:01:19]} 36. Rxa1 {[%emt 0:00:56]}
+Rxa1+ {[%emt 0:00:05]} 37. Kf2 {[%emt 0:00:01]} Ke7 {[%emt 0:00:35]} 38. c6 {
+[%emt 0:00:10]} Rc1 {[%emt 0:04:35]} 39. Nd4 {[%emt 0:01:03]} Rd1 {[%emt 0:00:
+33]} 40. Ke3 {[%emt 0:03:28]} f5 {[%emt 0:00:07]} 41. Nb5 {[%emt 0:00:05]} Rd3+
+{[%emt 0:00:06]} 42. Ke2 {[%emt 0:00:05]} Rd5 {[%emt 0:01:48]} 43. Na7 {
+[%emt 0:00:21]} Kd8 {[%emt 0:00:19]} 44. g4 {[%emt 0:00:06]} fxg4 {[%emt 0:03:
+57]} 45. Ke3 {[%emt 0:00:09]} Ra5 {[%emt 0:00:04]} 46. c7+ {[%emt 0:00:12]}
+Kxc7 {[%emt 0:01:55]} 47. d8=Q+ {[%emt 0:00:10]} Kxd8 {[%emt 0:00:01]} 48. Nc6+
+{[%emt 0:00:05]} Kd7 {[%emt 0:00:05]} 49. Nxa5 {[%emt 0:00:05]} Ke6 {[%emt 0:
+00:01]} 50. Kxe4 {[%emt 0:00:12]} h5 {[%emt 0:00:01]} 51. Nc4 {[%emt 0:00:30]}
+h4 {[%emt 0:01:27]} 52. Ne3 {[%emt 0:00:16]} g3 {[%emt 0:00:10]} 53. hxg3 {
+[%emt 0:00:08]} hxg3 {[%emt 0:00:06]} 54. Kf3 {[%emt 0:00:09]} Kf6 {[%emt 0:00:
+05]} 55. Kxg3 {[%emt 0:00:06]} g5 {[%emt 0:00:03]} 56. f5 {[%emt 0:00:04]} 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.02.10"]
+[Round "4.1"]
+[White "Khamrakulov, Ibragim S"]
+[Black "Alvarado Diaz, Alejandro"]
+[Result "1/2-1/2"]
+[ECO "C56"]
+[WhiteElo "2413"]
+[BlackElo "2477"]
+[PlyCount "91"]
+[EventDate "2024.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d4 exd4 5. e5 d5 6. Bb5 Ne4 7. Nxd4 Bd7 8.
+Bxc6 bxc6 9. O-O Bc5 10. Be3 Bb6 11. Nd2 Nxd2 12. Qxd2 O-O 13. Bg5 Qe8 14. Rfe1
+Kh8 15. h4 c5 16. Ne2 Qxe5 17. Nc3 Qd4 18. Nxd5 Be6 19. Nxb6 axb6 20. b3 h6 21.
+Bf4 Qxd2 22. Bxd2 c4 23. bxc4 Ra4 24. c5 bxc5 25. Be3 Rxh4 26. f4 Ra8 27. a4
+Ra6 28. a5 Bd5 29. c4 Be6 30. Bd2 Rg4 31. Re5 Rd6 32. Be3 Bxc4 33. Rxc5 Bd3 34.
+Kf2 f5 35. g3 Rgg6 36. Rxc7 Be4 37. Rc8+ Kh7 38. Rb8 Rd3 39. Rb6 Rxb6 40. axb6
+g5 41. Rb1 Rd7 42. Rc1 Kg6 43. fxg5 hxg5 44. Rc5 Bd5 45. Rc7 Rxc7 46. bxc7
+1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.02.17"]
+[Round "5.1"]
+[White "Alvarado Diaz, Alejandro"]
+[Black "Jerez Perez, Alfonso"]
+[Result "1-0"]
+[ECO "A16"]
+[WhiteElo "2550"]
+[BlackElo "2398"]
+[PlyCount "47"]
+[EventDate "2024.??.??"]
+
+1. Nf3 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. h4 h6 6. Qb3 Nb6 7. d4 Bg7 8. e4
+O-O 9. Be3 a5 10. Qc2 a4 11. Rd1 a3 12. bxa3 Bg4 13. Be2 Bxf3 14. gxf3 h5 15.
+f4 e6 16. d5 exd5 17. Nxd5 Nxd5 18. Rxd5 Qc8 19. Rg5 Rxa3 20. e5 Qe6 21. Bc4
+Qc6 22. Qxg6 Qxh1+ 23. Ke2 Rxe3+ 24. fxe3 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.02.24"]
+[Round "6.1"]
+[White "DE LA RIVA AGUADO, OSCAR."]
+[Black "ALVARADO DIAZ, ALEJANDRO."]
+[Result "0-1"]
+[ECO "C47"]
+[WhiteElo "2523"]
+[BlackElo "2550"]
+[PlyCount "84"]
+[EventDate "2024.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. d4 Bb4 5. d5 Ne7 6. Nxe5 d6 7. Nd3 Bxc3+ 8.
+bxc3 Nxe4 9. c4 O-O 10. f3 Nf6 11. Be2 c6 12. dxc6 bxc6 13. O-O Re8 14. Nf2 Ng6
+15. Bd3 Ba6 16. Qd2 Ne5 17. Qf4 Nh5 18. Qd4 Qf6 19. Be3 Qe6 20. Rfe1 Bxc4 21.
+f4 Nxd3 22. cxd3 Bd5 23. g4 c5 24. Qa4 Nf6 25. f5 Qd7 26. Qxd7 Nxd7 27. Bf4
+Rxe1+ 28. Rxe1 Bxa2 29. Bxd6 c4 30. Re7 Nb6 31. dxc4 Nxc4 32. Bc5 a5 33. Ne4 a4
+34. Nc3 Bb3 35. Rb7 h6 36. Kf2 Ne5 37. Kg3 Rd8 38. Ne4 Rd3+ 39. Kh4 Bd5 40.
+Rb8+ Kh7 41. Rd8 Nf3+ 42. Kg3 Ng5+ 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.03.02"]
+[Round "7.1"]
+[White "Alvarado Diaz, Alejandro"]
+[Black "Ayats Llobera, Gerard"]
+[Result "0-1"]
+[ECO "A05"]
+[WhiteElo "2489"]
+[BlackElo "2428"]
+[PlyCount "101"]
+[EventDate "2024.??.??"]
+
+1. Nf3 Nf6 2. e3 g6 3. d4 Bg7 4. Be2 O-O 5. O-O b6 6. b3 Bb7 7. Bb2 e6 8. c4 d5
+9. Nbd2 Nbd7 10. cxd5 exd5 11. b4 a6 12. a4 c6 13. Nb3 Ne4 14. Nfd2 f5 15. Qc2
+Qf6 16. Nxe4 fxe4 17. Bg4 Qf7 18. Bxd7 Qxd7 19. Ba3 Rf6 20. Qe2 a5 21. Rfc1 Ba6
+22. Qe1 Rf5 23. Nd2 axb4 24. Bxb4 c5 25. dxc5 Bxa1 26. c6 Qc7 27. Rxa1 Bc4 28.
+Rc1 Qxc6 29. Nb3 Qxa4 30. Nd4 Rf7 31. Bc3 Qd7 32. Bb2 h6 33. h3 Kh7 34. Ra1
+Rxa1 35. Qxa1 Qa7 36. Qc1 Qa2 37. Nc6 Qb3 38. Ne5 Ra7 39. Kh2 h5 40. Bd4 g5 41.
+h4 gxh4 42. Kh3 Ra2 43. Qe1 Re2 44. Qc1 Rxf2 45. Kxh4 Rf1 46. Qd2 Rh1+ 47. Kg3
+Qa2 48. Bb2 Qa7 49. Ng6 Qc7+ 50. Nf4 Rb1 51. Bf6 {Ilegible} 0-1
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.03.09"]
+[Round "8.1"]
+[White "GARRIGA CAZORLA, PERE."]
+[Black "ALVARADO DIAZ, ALEJANDRO."]
+[Result "1-0"]
+[ECO "D38"]
+[WhiteElo "2549"]
+[BlackElo "2550"]
+[PlyCount "149"]
+[EventDate "2024.04.13"]
+[EventType "team"]
+[EventRounds "11"]
+[EventCountry "CAT"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. cxd5 exd5 6. Bg5 h6 7. Bh4 O-O 8. e3
+Bf5 9. Be2 c6 10. Qb3 Bxc3+ 11. Qxc3 Nbd7 12. Nd2 Re8 13. O-O Re6 14. Bg3 Bg6
+15. h3 a5 16. Rfc1 Qe7 17. a3 b5 18. b3 Nb6 19. Bh4 Bf5 20. Bd1 g5 21. Bg3 Nfd7
+22. Nf3 f6 23. Nd2 Kg7 24. Bc7 Ra7 25. Bxb6 Nxb6 26. Qc5 Qc7 27. Bc2 Bxc2 28.
+Qxc2 a4 29. bxa4 Rxa4 30. Nf1 Nc8 31. Ng3 Ne7 32. Qd3 Rc4 33. a4 Rxa4 34. Rxa4
+bxa4 35. Qa6 Kg6 36. Qxa4 h5 37. Qc2+ Kh6 38. Nxh5 Ng6 39. Ng3 Nh4 40. Qe2 Qf7
+41. Qa6 Qe8 42. Qd3 Qg6 43. Qxg6+ Kxg6 44. Nf1 Kf7 45. Nd2 Ke7 46. Nb3 f5 47.
+Nc5 Rf6 48. Ra1 f4 49. Ra7+ Ke8 50. Rg7 fxe3 51. fxe3 Rg6 52. Rxg6 Nxg6 53. Ne6
+g4 54. hxg4 Ke7 55. Nf4 Nf8 56. Kf2 Kf6 57. Kg3 Kg5 58. Nh3+ Kg6 59. g5 Kf5 60.
+Kf3 Nd7 61. g4+ Kg6 62. Kf4 c5 63. dxc5 Nxc5 64. Ke5 Na4 65. Kxd5 Nc3+ 66. Kd4
+Ne2+ 67. Ke5 Ng3 68. e4 Nf1 69. Kf4 Nd2 70. Ng1 Nb3 71. Nf3 Nc5 72. Nh4+ Kf7
+73. Kf5 Ne6 74. g6+ Ke7 75. Ke5 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "Barcelona, Spain"]
+[Date "2024.03.16"]
+[Round "9.1"]
+[White "Alvarado Diaz, Alejandro"]
+[Black "Pomes Marcet, Joan"]
+[Result "1-0"]
+[ECO "D11"]
+[WhiteElo "2489"]
+[BlackElo "2235"]
+[PlyCount "129"]
+[EventDate "2024.??.??"]
+[TimeControl "90+30"]
+[WhiteClock "0:01:11"]
+[BlackClock "0:05:04"]
+
+1. d4 {[%emt 0:01:27]} d5 {[%emt 0:00:10]} 2. c4 {[%emt 0:00:41]} c6 {[%emt 0:
+00:09]} 3. Nf3 {[%emt 0:00:22]} Nf6 {[%emt 0:00:23]} 4. Qc2 {[%emt 0:00:41]}
+Na6 {[%emt 0:04:23]} 5. cxd5 {[%emt 0:02:29]} Nb4 {[%emt 0:01:05]} 6. Qb3 {
+[%emt 0:00:20]} Nbxd5 {[%emt 0:00:11]} 7. Nbd2 {[%emt 0:03:38]} Qb6 {[%emt 0:
+10:06]} 8. a3 {[%emt 0:01:37]} Qxb3 {[%emt 0:02:56]} 9. Nxb3 {[%emt 0:00:12]}
+a5 {[%emt 0:00:45]} 10. e3 {[%emt 0:07:50]} g6 {[%emt 0:15:05]} 11. Bd2 {
+[%emt 0:06:21]} a4 {[%emt 0:03:26]} 12. Nc5 {[%emt 0:00:26]} Bg7 {[%emt 0:00:
+32]} 13. Rc1 {[%emt 0:09:49]} O-O {[%emt 0:02:23]} 14. Be2 {[%emt 0:00:55]} Nd7
+{[%emt 0:23:26]} 15. Nd3 {[%emt 0:00:54]} e6 {[%emt 0:03:22]} 16. O-O {[%emt 0:
+01:24]} Re8 {[%emt 0:00:59]} 17. e4 {[%emt 0:02:48]} N5f6 {[%emt 0:01:32]} 18.
+e5 {[%emt 0:00:30]} Nd5 {[%emt 0:02:19]} 19. Rfe1 {[%emt 0:04:46]} h6 {[%emt 0:
+01:06]} 20. Bf1 {[%emt 0:03:49]} Rd8 {[%emt 0:02:01]} 21. h4 {[%emt 0:03:05]}
+Kh7 {[%emt 0:03:40]} 22. Red1 {[%emt 0:03:20]} Bf8 {[%emt 0:00:55]} 23. Be1 {
+[%emt 0:00:29]} N7b6 {[%emt 0:08:18]} 24. g3 {[%emt 0:02:42]} Bd7 {[%emt 0:01:
+15]} 25. Nd2 {[%emt 0:00:32]} Be8 {[%emt 0:00:29]} 26. Ne4 {[%emt 0:00:10]} Nc8
+{[%emt 0:00:45]} 27. Bg2 {[%emt 0:04:49]} Ra7 {[%emt 0:01:07]} 28. Rc2 {
+[%emt 0:04:20]} Kg7 {[%emt 0:00:30]} 29. Nc1 {[%emt 0:03:18]} Be7 {[%emt 0:01:
+00]} 30. Bh3 {[%emt 0:00:56]} b6 {[%emt 0:02:29]} 31. Ne2 {[%emt 0:02:49]} Rc7
+{[%emt 0:01:44]} 32. Rdc1 {[%emt 0:00:56]} Na7 {[%emt 0:00:44]} 33. Rc4 {
+[%emt 0:00:35]} b5 {[%emt 0:02:46]} 34. R4c2 {[%emt 0:00:17]} Rb7 {[%emt 0:00:
+33]} 35. Nc5 {[%emt 0:01:31]} Bxc5 {[%emt 0:00:40]} 36. Rxc5 {[%emt 0:00:05]}
+Ne7 {[%emt 0:00:29]} 37. Ba5 {[%emt 0:02:20]} Rdd7 {[%emt 0:01:16]} 38. R5c2 {
+[%emt 0:00:30]} Nd5 {[%emt 0:01:13]} 39. Bg2 {[%emt 0:01:07]} Rb8 {[%emt 0:00:
+30]} 40. Rd1 {[%emt 0:00:32]} Ne7 {[%emt 0:00:49]} 41. Bb4 {[%emt 0:00:20]} Nd5
+{[%emt 0:01:07]} 42. Bc5 {[%emt 0:01:17]} Nc8 {[%emt 0:00:15]} 43. g4 {[%emt 0:
+05:51]} Rd8 {[%emt 0:00:31]} 44. Ng3 {[%emt 0:00:26]} Ncb6 {[%emt 0:00:34]} 45.
+Ne4 {[%emt 0:00:13]} Nc8 {[%emt 0:00:44]} 46. Bf1 {[%emt 0:02:36]} Bd7 {
+[%emt 0:00:26]} 47. Rd3 {[%emt 0:01:20]} Rb7 {[%emt 0:00:35]} 48. Rf3 {[%emt 0:
+00:19]} Be8 {[%emt 0:00:16]} 49. Kh2 {[%emt 0:00:25]} Rb8 {[%emt 0:00:51]} 50.
+Kg3 {[%emt 0:00:17]} Rb7 {[%emt 0:00:07]} 51. Rd3 {[%emt 0:00:30]} Rbd7 {
+[%emt 0:00:15]} 52. Bh3 {[%emt 0:00:43]} Rb7 {[%emt 0:00:35]} 53. f4 {[%emt 0:
+00:18]} f5 {[%emt 0:00:30]} 54. exf6+ {[%emt 0:01:22]} Nxf6 {[%emt 0:00:23]}
+55. Nxf6 {[%emt 0:00:03]} Kxf6 {[%emt 0:00:07]} 56. g5+ {[%emt 0:00:28]} Kg7 {
+[%emt 0:00:09]} 57. Bxe6 {[%emt 0:00:36]} Nd6 {[%emt 0:00:04]} 58. Re3 {
+[%emt 0:01:55]} hxg5 {[%emt 0:01:39]} 59. hxg5 {[%emt 0:00:50]} Bf7 {[%emt 0:
+00:04]} 60. Kf2 {[%emt 0:11:36]} Nc4 {[%emt 0:01:22]} 61. Re1 {[%emt 0:00:57]}
+Bxe6 {[%emt 0:01:12]} 62. Rxe6 {[%emt 0:00:04]} Rf7 {[%emt 0:00:26]} 63. Kg3 {
+[%emt 0:00:15]} Rc8 {[%emt 0:00:27]} 64. d5 {[%emt 0:00:26]} cxd5 {[%emt 0:00:
+42]} 65. Bd4+ {[%emt 0:00:35]} 1-0
+
+[Event "Lliga Catalana DH"]
+[Site "Barcelona, Spain"]
+[Date "2024.04.06"]
+[Round "10.1"]
+[White "Aroshidze, Levan"]
+[Black "Alvarado Diaz, Alejandro"]
+[Result "1/2-1/2"]
+[ECO "C70"]
+[WhiteElo "2543"]
+[BlackElo "2480"]
+[PlyCount "69"]
+[EventDate "2024.??.??"]
+[TimeControl "90+30"]
+[WhiteClock "0:24:58"]
+[BlackClock "0:03:20"]
+
+1. e4 {[%emt 0:00:05]} e5 {[%emt 0:00:50]} 2. Nf3 {[%emt 0:00:06]} Nc6 {
+[%emt 0:00:17]} 3. Bb5 {[%emt 0:00:07]} a6 {[%emt 0:00:46]} 4. Ba4 {[%emt 0:00:
+07]} Nge7 {[%emt 0:00:31]} 5. c3 {[%emt 0:01:56]} Ng6 {[%emt 0:00:56]} 6. d4 {
+[%emt 0:03:09]} exd4 {[%emt 0:00:59]} 7. cxd4 {[%emt 0:00:10]} Bb4+ {[%emt 0:
+00:52]} 8. Nc3 {[%emt 0:05:52]} d5 {[%emt 0:01:25]} 9. exd5 {[%emt 0:06:18]}
+Bxc3+ {[%emt 0:00:21]} 10. bxc3 {[%emt 0:00:07]} Qxd5 {[%emt 0:00:06]} 11. O-O
+{[%emt 0:06:25]} O-O {[%emt 0:00:42]} 12. Bb3 {[%emt 0:23:48]} Qh5 {[%emt 0:01:
+45]} 13. Ng5 {[%emt 0:00:13]} Qxd1 {[%emt 0:01:24]} 14. Rxd1 {[%emt 0:00:06]}
+h6 {[%emt 0:12:56]} 15. Ne4 {[%emt 0:00:57]} Na5 {[%emt 0:00:28]} 16. Bc2 {
+[%emt 0:01:30]} Rd8 {[%emt 0:09:21]} 17. f3 {[%emt 0:20:32]} Be6 {[%emt 0:04:
+00]} 18. Kf2 {[%emt 0:02:01]} b6 {[%emt 0:01:23]} 19. g3 {[%emt 0:03:48]} Rac8
+{[%emt 0:01:35]} 20. h4 {[%emt 0:03:04]} f5 {[%emt 0:15:18]} 21. Nd2 {[%emt 0:
+00:43]} c5 {[%emt 0:00:49]} 22. dxc5 {[%emt 0:05:45]} Rxc5 {[%emt 0:01:14]} 23.
+Nb3 {[%emt 0:00:08]} Rxd1 {[%emt 0:02:38]} 24. Bxd1 {[%emt 0:02:59]} Rxc3 {
+[%emt 0:07:48]} 25. Nxa5 {[%emt 0:06:53]} bxa5 {[%emt 0:00:46]} 26. Bb2 {
+[%emt 0:00:02]} Rd3 {[%emt 0:01:48]} 27. Be2 {[%emt 0:00:08]} Rd2 {[%emt 0:00:
+14]} 28. Bc1 {[%emt 0:02:22]} Rc2 {[%emt 0:00:40]} 29. Ke1 {[%emt 0:00:32]} Bc4
+{[%emt 0:00:46]} 30. Bxc4+ {[%emt 0:02:26]} Rxc4 {[%emt 0:00:04]} 31. Rb1 {
+[%emt 0:00:24]} Kh7 {[%emt 0:03:58]} 32. Bd2 {[%emt 0:01:13]} Ne5 {[%emt 0:00:
+16]} 33. Rb3 {[%emt 0:00:19]} a4 {[%emt 0:03:40]} 34. Re3 {[%emt 0:00:07]} Nc6
+{[%emt 0:01:49]} 35. Rc3 {[%emt 0:00:24]} 1/2-1/2
+
+[Event "Lliga Catalana DH"]
+[Site "?"]
+[Date "2024.04.13"]
+[Round "11.1"]
+[White "Alvarado Diaz, Alejandro"]
+[Black "Edouard, Romain"]
+[Result "1/2-1/2"]
+[ECO "A48"]
+[WhiteElo "2480"]
+[BlackElo "2524"]
+[PlyCount "24"]
+[EventDate "2024.04.13"]
+[EventType "team"]
+[EventRounds "11"]
+[EventCountry "CAT"]
+
+1. Nf3 c5 2. e3 g6 3. d4 Bg7 4. Be2 Nf6 5. O-O cxd4 6. exd4 O-O 7. c3 d6 8. Re1
+Nbd7 9. Bf1 b6 10. a4 a6 11. h3 Bb7 12. Bf4 Re8 1/2-1/2

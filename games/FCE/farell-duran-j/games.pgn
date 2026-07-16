@@ -1,0 +1,321 @@
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.13"]
+[Round "1.40"]
+[White "Peiron Lluch, JD."]
+[Black "Farell Duran, J."]
+[Result "1-0"]
+[ECO "B09"]
+[WhiteElo "1990"]
+[BlackElo "1766"]
+[PlyCount "63"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. f4 e6 5. Nf3 a6 6. Be2 Bg7 7. O-O Nc6 8. e5 Nd7
+9. Be3 d5 10. Qd2 Ne7 11. Bd3 c6 12. Qf2 Nf5 13. Bd2 Qc7 14. g4 Ne7 15. f5 gxf5
+16. gxf5 Rg8 17. Kh1 Nxf5 18. Bxf5 exf5 19. Ng5 Nf8 20. Bf4 Be6 21. Na4 h6 22.
+Nf3 b6 23. Rg1 Ng6 24. Nh4 Nxf4 25. Qxf4 O-O-O 26. Nxf5 Bxf5 27. Qxf5+ Kb7 28.
+Raf1 Rdf8 29. Qh7 f5 30. exf6 Bxf6 31. Qxc7+ Kxc7 32. Rxg8 1-0
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.14"]
+[Round "2.48"]
+[White "Farell Duran, J."]
+[Black "Flores Muñoz, D."]
+[Result "0-1"]
+[ECO "A07"]
+[WhiteElo "1766"]
+[BlackElo "1899"]
+[PlyCount "58"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. Nf3 d5 2. g3 Nf6 3. Bg2 e6 4. O-O Bd6 5. d3 O-O 6. c4 c6 7. b3 e5 8. cxd5
+cxd5 9. Bb2 d4 10. Nbd2 Nc6 11. Nc4 Bc7 12. Rc1 Be6 13. Ng5 Bxc4 14. bxc4 h6
+15. Ne4 Nxe4 16. Bxe4 Kh8 17. e3 dxe3 18. fxe3 Qg5 19. Rf3 f5 20. Qf1 f4 21.
+exf4 exf4 22. Rc2 Qc5+ 23. d4 Nxd4 24. Qf2 Nxf3+ 25. Bxf3 Qxf2+ 26. Rxf2 Bb6
+27. gxf4 Bxf2+ 28. Kxf2 Rxf4 29. c5 Raf8 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.15"]
+[Round "3.67"]
+[White "Pozanco Villalba, V."]
+[Black "Farell Duran, J."]
+[Result "0-1"]
+[ECO "E61"]
+[WhiteElo "1700"]
+[BlackElo "1766"]
+[PlyCount "74"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. d4 Nf6 2. e3 g6 3. Nf3 Bg7 4. c4 d6 5. h3 O-O 6. Nc3 b6 7. Bd3 Nbd7 8. e4
+Bb7 9. Qc2 c5 10. d5 Re8 11. O-O Ne5 12. Nxe5 dxe5 13. Rd1 a6 14. Bg5 Qc7 15.
+Bxf6 Bxf6 16. Be2 Rad8 17. Bg4 h5 18. Be2 Bc8 19. Rf1 Bg5 20. Qd1 h4 21. Qc2
+Kg7 22. Rad1 Bd7 23. Qb3 f5 24. f3 Be3+ 25. Kh1 f4 26. Rd3 Rf8 27. Nd1 Bd4 28.
+Nf2 b5 29. Qc2 bxc4 30. Ra3 a5 31. Bxc4 Rb8 32. b3 a4 33. Nd3 Qc8 34. bxa4 Bxh3
+35. gxh3 Qxh3+ 36. Qh2 Qxf1+ 37. Qg1 Qxg1# 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.16"]
+[Round "4.54"]
+[White "Farell Duran, J."]
+[Black "Fungueiriño Pique, D."]
+[Result "1/2-1/2"]
+[ECO "A30"]
+[WhiteElo "1766"]
+[BlackElo "1864"]
+[PlyCount "91"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. Nf3 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 c5 5. O-O Nc6 6. d3 O-O 7. Bd2 d6 8. Bc3
+Bd7 9. Nbd2 Qc8 10. Re1 Bg4 11. Nf1 Bh3 12. Ne3 Bxg2 13. Kxg2 Ng4 14. Nxg4 Bxc3
+15. bxc3 Qxg4 16. Qd2 Kg7 17. h3 Qc8 18. e4 e5 19. d4 Rd8 20. Qe3 b6 21. d5 Na5
+22. Nd2 Rf8 23. f4 f6 24. fxe5 fxe5 25. Qg5 Qd8 26. Qe3 Qe7 27. Rf1 Rxf1 28.
+Rxf1 Rf8 29. Qe2 Rxf1 30. Nxf1 Qd7 31. Ne3 Nb7 32. Qd2 Nd8 33. Ng4 Qe7 34. Qh6+
+Kh8 35. h4 Nf7 36. Qc1 Kg7 37. Qh1 h5 38. Nf2 Nh6 39. Qh3 a6 40. Qc8 Qf7 41. a4
+a5 42. Qh3 Qe7 43. g4 hxg4 44. Nxg4 Nxg4 45. Qxg4 Kh6 46. Kg3 1/2-1/2
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.17"]
+[Round "5.57"]
+[White "Ramon Herraez, A."]
+[Black "Farell Duran, J."]
+[Result "0-1"]
+[ECO "A48"]
+[WhiteElo "1832"]
+[BlackElo "1766"]
+[PlyCount "134"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. d4 Nf6 2. Bf4 g6 3. Nf3 Bg7 4. e3 O-O 5. Be2 d6 6. O-O Nbd7 7. c4 c5 8. dxc5
+Nxc5 9. Nc3 b6 10. Rc1 Bb7 11. Re1 a6 12. b3 Rc8 13. Qc2 Nfe4 14. Nxe4 Bxe4 15.
+Qd1 Bb2 16. Nd2 Bxc1 17. Qxc1 Bd3 18. Qa1 f6 19. Bg4 Rc7 20. Bh6 Re8 21. b4 Nd7
+22. Be6+ Kh8 23. Nf3 Ne5 24. Nxe5 dxe5 25. Bf7 Bxc4 26. Bxe8 Qxe8 27. f4 Qb5
+28. Qd1 Rd7 29. Qb1 Rd2 30. fxe5 Qxe5 31. Qc1 Qb2 32. Qxb2 Rxb2 33. a3 Kg8 34.
+Bf4 Ra2 35. Bc7 b5 36. Bd8 Kf7 37. Ba5 Ke6 38. Rd1 Bd5 39. g3 Rg2+ 40. Kf1 Rxh2
+41. Ke1 Rh1+ 42. Kd2 Rxd1+ 43. Kxd1 h5 44. Ke2 Kf5 45. Kf2 e6 46. Bb6 Kg4 47.
+Bd8 f5 48. Bc7 h4 49. gxh4 Kxh4 50. Bg3+ Kg4 51. Bd6 g5 52. Bc7 Kh3 53. Be5 g4
+54. Bf4 Kh4 55. Be5 Kg5 56. Bc3 f4 57. exf4+ Kxf4 58. Bd2+ Kf5 59. Be3 Bf3 60.
+Bc5 Ke4 61. Be3 Kd5 62. Bc1 e5 63. Bb2 e4 64. Bc1 Kc4 65. Be3 Kb3 66. Bc1 Kc2
+67. Be3 Kb2 0-1
+
+[Event "Sant Marti op B"]
+[Site "Barcelona"]
+[Date "2014.07.18"]
+[Round "6.43"]
+[White "Farell Duran, J."]
+[Black "Subirana Santos, M."]
+[Result "1-0"]
+[ECO "A15"]
+[WhiteElo "1766"]
+[BlackElo "1912"]
+[PlyCount "115"]
+[EventDate "2014.07.13"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[Source "Chessbase"]
+[SourceDate "2014.08.07"]
+
+1. Nf3 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d6 5. d3 Nc6 6. Bd2 O-O 7. O-O h6 8. Bc3
+a6 9. Nbd2 e5 10. Qc2 Rb8 11. Rab1 Ne7 12. Rfd1 c5 13. Nf1 b5 14. b3 b4 15. Bd2
+Bb7 16. e4 Bc8 17. Ne3 Nh5 18. h3 f5 19. exf5 gxf5 20. Nf1 Ng6 21. Re1 Bb7 22.
+Qc1 e4 23. dxe4 fxe4 24. N3h2 Qf6 25. Ng4 Qf7 26. Bxh6 Ne5 27. Bxg7 Nxg4 28.
+hxg4 Nxg7 29. Qe3 Ne6 30. Re2 Nd4 31. Qg5+ Qg7 32. Qxg7+ Kxg7 33. Rd2 Rf6 34.
+Re1 Rh8 35. Bxe4 Bxe4 36. Rxe4 Nf3+ 37. Kg2 Nxd2 38. Nxd2 Rhf8 39. f4 Kf7 40.
+f5 Re8 41. Rxe8 Kxe8 42. Ne4 Rf8 43. Nxd6+ Ke7 44. Ne4 Rd8 45. f6+ Kf7 46. g5
+Rd3 47. Nxc5 Rd2+ 48. Kf3 Rxa2 49. Nd3 a5 50. c5 Rc2 51. Ke4 Rc3 52. Ne5+ Kf8
+53. g6 Rxg3 54. Nd7+ Ke8 55. f7+ Kxd7 56. f8=Q Rg5 57. Qf7+ Kc6 58. Qf6+ 1-0
+
+[Event "Montcada op B"]
+[Site "Montcada i Reixac"]
+[Date "2016.06.25"]
+[Round "1"]
+[White "Elizondo, Marquet Juan Marcos"]
+[Black "Farell Duran, Josep"]
+[Result "0-1"]
+[ECO "B10"]
+[WhiteElo "1867"]
+[BlackElo "1543"]
+[PlyCount "72"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. e4 c6 2. Nc3 d5 3. Nf3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg4 6. h3 Bxf3 7. Qxf3 Nf6 8.
+Bc4 e6 9. O-O Nbd7 10. Re1 Bc5 11. c3 O-O 12. d4 Bd6 13. Ne4 Nxe4 14. Qxe4 Nf6
+15. Qh4 Be7 16. Bd3 g6 17. Bh6 Nd5 18. Qe4 Re8 19. f4 Bf8 20. Bg5 Be7 21. h4
+Nf6 22. Qf3 Kg7 23. Bxf6+ Bxf6 24. h5 Qc7 25. Qg4 Kf8 26. Re2 Rad8 27. Rae1 Re7
+28. Kh1 Rd5 29. hxg6 hxg6 30. Kg1 Rh5 31. Bxg6 Rh4 32. Qg3 fxg6 33. Rxe6 Qxf4
+34. Rxf6+ Qxf6 35. Rf1 Rh1+ 36. Kxh1 Qxf1+ 0-1
+
+[Event "Montcada op B"]
+[Site "Montcada i Reixac"]
+[Date "2016.06.27"]
+[Round "3"]
+[White "Farell Duran, Josep"]
+[Black "Rios Torondell, Jaume"]
+[Result "0-1"]
+[ECO "A37"]
+[WhiteElo "1543"]
+[BlackElo "1902"]
+[PlyCount "62"]
+[EventDate "2016.06.??"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+
+1. Nf3 c5 2. c4 g6 3. g3 Bg7 4. Bg2 Nc6 5. O-O e6 6. Nc3 Nge7 7. Rb1 d5 8. cxd5
+exd5 9. d3 O-O 10. Bg5 Be6 11. a3 Qd7 12. Bxe7 Qxe7 13. Qd2 h6 14. Rfc1 Rad8
+15. Nh4 Nd4 16. b3 b6 17. e3 Nxb3 18. Rxb3 d4 19. Nd5 Bxd5 20. Bxd5 Rxd5 21. e4
+Rh5 22. Nf3 f5 23. Re1 fxe4 24. Rxe4 Qf7 25. Rf4 Qxb3 26. Rxf8+ Bxf8 27. g4 Rh3
+28. Kg2 Qd5 29. Kxh3 Qxf3+ 30. Kh4 Be7+ 31. g5 hxg5+ 0-1
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.01.14"]
+[Round "1"]
+[White "Farell Duran, Josep"]
+[Black "Martinez Ferrer, Albert"]
+[Result "0-1"]
+[ECO "A03"]
+[WhiteElo "1539"]
+[BlackElo "1835"]
+[PlyCount "64"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. f4 d5 2. Nf3 Bf5 3. e3 Nf6 4. Bb5+ c6 5. Be2 Nbd7 6. c4 e6 7. b3 Bd6 8. O-O
+O-O 9. Bb2 Qb6 10. d4 Qc7 11. c5 Be7 12. Ne5 h6 13. Bd3 Bxd3 14. Qxd3 Ne4 15.
+Nd2 Nxd2 16. Qxd2 Nf6 17. Qe2 Ne4 18. Rfc1 f6 19. Ng4 Qd7 20. Nf2 Nxf2 21. Qxf2
+f5 22. Bc3 Kh7 23. Be1 g5 24. fxg5 Bxg5 25. Qf3 Rg8 26. Bg3 Rg6 27. Bf4 Rag8
+28. Rc2 Bf6 29. Rf1 Qg7 30. Bg3 Rg4 31. h3 Rxg3 32. Qh5 Rxe3 0-1
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.01.21"]
+[Round "2"]
+[White "Granados Tello, Roman"]
+[Black "Farell Duran, Josep"]
+[Result "0-1"]
+[ECO "A30"]
+[WhiteElo "1916"]
+[BlackElo "1539"]
+[PlyCount "105"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. c4 e6 2. g3 d5 3. Bg2 Nf6 4. Nf3 c5 5. O-O Nc6 6. cxd5 exd5 7. d3 Bd6 8. Nc3
+h6 9. Nd2 Be6 10. e4 dxe4 11. Ndxe4 O-O 12. Nxf6+ Qxf6 13. Ne4 Qd8 14. Nxd6
+Qxd6 15. Bf4 Qd7 16. Qh5 b6 17. h3 Rad8 18. g4 f6 19. Be3 Bf7 20. Qh4 Bd5 21.
+Rfd1 Rfe8 22. Qg3 Bxg2 23. Qxg2 Qd5 24. Qg3 Nd4 25. Bxd4 Qxd4 26. Rd2 Re7 27.
+Rad1 Rde8 28. Kg2 Qd5+ 29. Qf3 Qxf3+ 30. Kxf3 g5 31. d4 c4 32. a4 a6 33. d5 Rd8
+34. d6 Re6 35. d7 Kf7 36. Rd6 Ke7 37. R6d4 b5 38. axb5 axb5 39. Rd5 Re5 40.
+Rxe5+ fxe5 41. Ke4 Rxd7 42. Rxd7+ Kxd7 43. Kxe5 Kc6 44. f4 gxf4 45. Kxf4 b4 46.
+h4 c3 47. bxc3 b3 48. g5 hxg5+ 49. Kxg5 b2 50. h5 b1=Q 51. Kh6 Qf5 52. c4 Kc5
+53. Kg7 0-1
+
+[Event "Igualada op 12th"]
+[Site "Igualada"]
+[Date "2017.01.28"]
+[Round "3"]
+[White "Farell Duran, Josep"]
+[Black "Jimenez Sanchez, Juan Rafael"]
+[Result "1/2-1/2"]
+[ECO "A02"]
+[WhiteElo "1539"]
+[BlackElo "1740"]
+[PlyCount "90"]
+[EventDate "2017.01.14"]
+[EventType "swiss"]
+[EventRounds "8"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. f4 Nf6 2. Nf3 d6 3. e3 e5 4. fxe5 dxe5 5. Nxe5 Bd6 6. Nf3 Bg4 7. Be2 Ne4 8.
+O-O Qe7 9. d3 Ng3 10. hxg3 Bxg3 11. e4 Qc5+ 12. d4 Qh5 13. Nbd2 Nc6 14. Bc4 O-O
+15. c3 Rad8 16. Bd5 Rxd5 17. exd5 Ne7 18. Re1 Ng6 19. Nf1 Bd6 20. Qd3 Nf4 21.
+Bxf4 Bxf4 22. N3h2 Bc8 23. Qf3 Qg5 24. Re4 Bd6 25. Rae1 Qxd5 26. Re8 Qxa2 27.
+Rxf8+ Bxf8 28. Re8 Bd7 29. Re2 c6 30. Qf4 Qc4 31. Qe4 Qb3 32. Nf3 h6 33. Ng3 a5
+34. Ne5 Be6 35. Rf2 Qd1+ 36. Kh2 Bd6 37. Qf3 Qb1 38. Nxf7 Bxg3+ 39. Kxg3 Qg6+
+40. Kh2 Bxf7 41. Qf5 Qd6+ 42. g3 Bd5 43. Qc8+ Kh7 44. Qf5+ Kg8 45. Qc8+ Kh7
+1/2-1/2
+
+[Event "Montcada op-C 25th"]
+[Site "Montcada"]
+[Date "2017.06.26"]
+[Round "1"]
+[White "Ferres Saez, Joan"]
+[Black "Farell Duran, Josep"]
+[Result "1-0"]
+[ECO "A53"]
+[WhiteElo "1765"]
+[BlackElo "1483"]
+[PlyCount "71"]
+[EventDate "2017.06.26"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "ESP"]
+[SourceTitle "EXT 2018"]
+[Source "ChessBase"]
+[SourceDate "2017.10.13"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.10.13"]
+[SourceQuality "1"]
+
+1. Nf3 Nf6 2. g3 d6 3. Bg2 e5 4. O-O Be7 5. c4 c6 6. d4 Qc7 7. Nc3 O-O 8. Qc2
+Bg4 9. e3 Nbd7 10. b3 h6 11. Bb2 Rfe8 12. Rac1 Bh5 13. a3 Bg6 14. Qd2 Ne4 15.
+Nxe4 Bxe4 16. Rfd1 Bxf3 17. Bxf3 Rad8 18. Be4 Nf6 19. Bf5 g6 20. Bh3 Ne4 21.
+Qc2 Ng5 22. Bg2 Bf6 23. dxe5 Bxe5 24. Bxe5 dxe5 25. h4 Ne6 26. b4 Rd7 27. Rxd7
+Qxd7 28. Rd1 Qc7 29. Bh3 f5 30. g4 e4 31. gxf5 gxf5 32. Bxf5 Qg7+ 33. Kh1 Kh8
+34. Qxe4 Rd8 35. Rg1 Rd1 36. Rxd1 1-0

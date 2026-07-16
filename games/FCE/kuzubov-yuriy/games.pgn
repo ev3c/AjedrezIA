@@ -1,0 +1,283 @@
+[Event "Benasque op 37th"]
+[Site "Benasque"]
+[Date "2017.07.06"]
+[Round "1"]
+[White "Markovitz, Neil"]
+[Black "Kuzubov, Yuriy"]
+[Result "0-1"]
+[ECO "A09"]
+[WhiteElo "1976"]
+[BlackElo "2646"]
+[PlyCount "42"]
+[EventDate "2017.07.06"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. Nf3 d5 2. c4 d4 3. b4 g5 4. Bb2 Bg7 5. Nxg5 e5 6. Ne4 f5 7. Nc5 b6 8. Qa4+
+Kf7 9. Nd3 Ne7 10. h4 Bb7 11. e3 Re8 12. Be2 Nd7 13. Na3 a5 14. b5 Be4 15. exd4
+exd4 16. c5 Bxd3 17. Qb3+ Nd5 18. Qxd5+ Kf8 19. O-O-O Bxe2 20. Qxf5+ Kg8 21.
+Rde1 Nxc5 0-1
+
+[Event "Benasque op 37th"]
+[Site "Benasque"]
+[Date "2017.07.07"]
+[Round "2"]
+[White "Kuzubov, Yuriy"]
+[Black "Bayon Fernandez, Rogelio"]
+[Result "1-0"]
+[ECO "D31"]
+[WhiteElo "2646"]
+[BlackElo "2192"]
+[PlyCount "77"]
+[EventDate "2017.07.06"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. e3 e6 5. Bd3 Nbd7 6. b3 e5 7. Nge2 Bd6 8. cxd5
+cxd5 9. Nb5 Bb4+ 10. Bd2 Bxd2+ 11. Qxd2 O-O 12. dxe5 Nxe5 13. O-O Nfg4 14. f3
+Nf6 15. Rad1 Re8 16. Bb1 Qb6 17. Nbd4 Bd7 18. Nf4 Rad8 19. g4 Nxf3+ 20. Nxf3
+Bxg4 21. Qd4 Rxe3 22. Qxb6 axb6 23. Rd3 Rxd3 24. Bxd3 Ne4 25. Nd4 Nc5 26. Bc2
+Ne6 27. Ndxe6 fxe6 28. h3 Bf5 29. Bxf5 exf5 30. Rd1 d4 31. Ne6 Rd6 32. Nxd4 Kf7
+33. Kf2 Kf6 34. h4 g6 35. Ke3 h6 36. a4 g5 37. hxg5+ hxg5 38. Rh1 Kg6 39. Rh6+
+1-0
+
+[Event "Benasque op 37th"]
+[Site "Benasque"]
+[Date "2017.07.08"]
+[Round "3"]
+[White "Ladron de Guevara Pinto, Paolo"]
+[Black "Kuzubov, Yuriy"]
+[Result "1/2-1/2"]
+[ECO "C42"]
+[WhiteElo "2346"]
+[BlackElo "2646"]
+[PlyCount "96"]
+[EventDate "2017.07.06"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. Nc3 Nxc3 6. dxc3 Be7 7. Be3 Nd7
+8. Qd2 O-O 9. O-O-O c6 10. h4 Re8 11. Bd3 Qa5 12. Kb1 Ne5 13. Nxe5 dxe5 14. Bc4
+b5 15. Bb3 Qc7 16. c4 Rb8 17. cxb5 cxb5 18. Qd5 Be6 19. Qe4 Bc4 20. Bg5 Bf8 21.
+Rh3 Rec8 22. c3 Qb7 23. Bc2 Qxe4 24. Bxe4 a5 25. Bf5 Rc6 26. Be4 Rd6 27. Rhh1
+a4 28. Rxd6 Bxd6 29. Rd1 Bc5 30. Be3 Bxe3 31. fxe3 Kf8 32. Bc2 Ke7 33. b3 Be6
+34. Kb2 Ra8 35. Bd3 axb3 36. axb3 Rd8 37. Be2 Rxd1 38. Bxd1 Kd6 39. Be2 Kc5 40.
+b4+ Kc6 41. e4 f6 42. Kc2 Bf7 43. Kd2 g5 44. g3 Be6 45. Ke3 Kb6 46. Bf1 Kc6 47.
+Be2 Bb3 48. Bd3 Be6 1/2-1/2
+
+[Event "Benasque op 37th"]
+[Site "Benasque"]
+[Date "2017.07.10"]
+[Round "5"]
+[White "Pardo Simon, David"]
+[Black "Kuzubov, Yuriy"]
+[Result "0-1"]
+[ECO "E54"]
+[WhiteElo "2475"]
+[BlackElo "2646"]
+[PlyCount "190"]
+[EventDate "2017.07.06"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Bd3 d5 6. Nf3 c5 7. O-O cxd4 8. exd4
+dxc4 9. Bxc4 b6 10. Bg5 Bb7 11. Qe2 Bxc3 12. bxc3 Nbd7 13. Rac1 Qc7 14. Bd3 Ng4
+15. Be4 Bxe4 16. Qxe4 Ngf6 17. Qe2 Qc6 18. c4 Qe4 19. Rfe1 Qxe2 20. Rxe2 Rfc8
+21. a4 Rc6 22. a5 Rac8 23. axb6 axb6 24. Nd2 h6 25. Bxf6 Nxf6 26. Re5 Ne8 27.
+Rb5 Rd8 28. Nf3 Nd6 29. Rb4 Nf5 30. Rd1 Rcd6 31. g3 g5 32. h3 Nxd4 33. Nxd4
+Rxd4 34. Rxd4 Rxd4 35. Rxb6 Rxc4 36. Kg2 Kg7 37. g4 h5 38. gxh5 Kh6 39. Rb7 Rf4
+40. Kg3 e5 41. Re7 f6 42. Re8 Kxh5 43. Rg8 e4 44. Kg2 Kh6 45. Ra8 Kg6 46. Ra4
+Kf5 47. Ra5+ Ke6 48. Ra6+ Kd5 49. Ra5+ Kc4 50. Ra4+ Kb5 51. Rd4 Kc5 52. Ra4 Rh4
+53. Ra6 Rh6 54. Kg3 Kd5 55. Ra5+ Ke6 56. Ra4 Rh4 57. Ra6+ Kf5 58. Ra5+ Kg6 59.
+Ra8 Rh7 60. Ra5 Rd7 61. Kg2 Rd2 62. Kg1 f5 63. Re5 Kf6 64. Re8 Rd1+ 65. Kg2 Re1
+66. Rf8+ Ke5 67. Rg8 Kf6 68. Rf8+ Kg6 69. Rg8+ Kh6 70. Kg3 Re2 71. Re8 Kg7 72.
+Kg2 Kf7 73. Re5 Kf6 74. Re8 f4 75. Kg1 Re1+ 76. Kh2 f3 77. Rf8+ Ke5 78. Re8+
+Kd4 79. Rd8+ Kc3 80. Ra8 Rf1 81. Ra2 Kd4 82. Ra4+ Kd3 83. Ra2 Kc3 84. Kg3 Rg1+
+85. Kh2 Rg2+ 86. Kh1 Kb3 87. Rd2 Kc4 88. Rc2+ Kd5 89. Rd2+ Ke5 90. Ra2 Kf4 91.
+Rb2 g4 92. hxg4 Kxg4 93. Ra2 Kh3 94. Rb2 e3 95. Rb8 Rxf2 0-1
+
+[Event "Benasque op 37th"]
+[Site "Benasque"]
+[Date "2017.07.11"]
+[Round "6"]
+[White "Kuzubov, Yuriy"]
+[Black "Kantans, Toms"]
+[Result "1-0"]
+[ECO "A40"]
+[WhiteElo "2646"]
+[BlackElo "2531"]
+[PlyCount "61"]
+[EventDate "2017.07.06"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 g6 3. Nd2 Bg7 4. e4 d6 5. Ngf3 O-O 6. Bd3 c5 7. d5 e6 8. O-O
+Re8 9. h3 Na6 10. Re1 Bd7 11. Nf1 exd5 12. cxd5 c4 13. Bc2 Nc5 14. Ng3 Bb5 15.
+Bg5 h6 16. Bd2 Nfd7 17. Bc3 Ba6 18. Bxg7 Kxg7 19. b4 cxb3 20. axb3 Ne5 21. Nd4
+Qf6 22. Qd2 Kh7 23. b4 Ncd3 24. Bxd3 Nxd3 25. Rxa6 Qxd4 26. Ra3 Qxb4 27. Rxd3
+Qxd2 28. Rxd2 b5 29. Rb1 Rab8 30. Ra2 Re7 31. Rb4 1-0
+
+[Event "Benasque op 37th"]
+[Site "Benasque"]
+[Date "2017.07.12"]
+[Round "7"]
+[White "Vocaturo, Daniele"]
+[Black "Kuzubov, Yuriy"]
+[Result "1/2-1/2"]
+[ECO "E20"]
+[WhiteElo "2592"]
+[BlackElo "2646"]
+[PlyCount "109"]
+[EventDate "2017.07.06"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 c5 5. g3 Ne4 6. Qc2 cxd4 7. Nxd4 Nxc3 8.
+bxc3 Be7 9. Bg2 O-O 10. O-O d6 11. Rd1 a6 12. c5 Qc7 13. cxd6 Bxd6 14. Rb1 Nd7
+15. Be3 Ne5 16. Bf4 Nc4 17. Bxd6 Nxd6 18. Nf3 Rb8 19. Ng5 Nf5 20. e4 Ne7 21. e5
+Ng6 22. f4 b5 23. Rd6 h6 24. Ne4 Ne7 25. Rbd1 Nf5 26. R6d3 Bb7 27. Qf2 Rbd8 28.
+Nd6 Bxg2 29. Kxg2 Nxd6 30. exd6 Qd7 31. Qb6 Rc8 32. Qxa6 Ra8 33. Qb6 Rxa2+ 34.
+R1d2 Rxd2+ 35. Rxd2 Rc8 36. Rd3 Rc4 37. h4 h5 38. Kh2 b4 39. Rd4 Rxc3 40. Qxb4
+Rc1 41. Qb8+ Kh7 42. Qb2 Qc6 43. Qg2 Rc2 44. Rd2 Qxg2+ 45. Rxg2 Rc8 46. Ra2 Kg6
+47. Kg2 Kf6 48. Kf3 Rc3+ 49. Ke4 Rc4+ 50. Ke3 Rc3+ 51. Ke4 Rc4+ 52. Ke3 Rc8 53.
+Ke4 Rc4+ 54. Ke3 Rc3+ 55. Ke4 1/2-1/2
+
+[Event "Benasque op 37th"]
+[Site "Benasque"]
+[Date "2017.07.13"]
+[Round "8"]
+[White "Kuzubov, Yuriy"]
+[Black "Gopal, Geetha Narayanan"]
+[Result "1/2-1/2"]
+[ECO "A48"]
+[WhiteElo "2646"]
+[BlackElo "2580"]
+[PlyCount "118"]
+[EventDate "2017.07.06"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. Nf3 g6 3. Bg5 Bg7 4. Nbd2 c5 5. e3 cxd4 6. exd4 O-O 7. Be2 Nc6 8.
+c3 d6 9. O-O h6 10. Bh4 e5 11. Nc4 exd4 12. Nxd4 Nxd4 13. Qxd4 Re8 14. Bf3 g5
+15. Bg3 Ne4 16. Qd1 d5 17. Bxe4 dxe4 18. Nd6 Re7 19. Qd5 Qb6 20. h4 Qc6 21. Qd2
+gxh4 22. Bxh4 Re5 23. Nxc8 Rxc8 24. Rad1 b5 25. Bg3 Re6 26. Qf4 Rce8 27. Qf5
+Rf6 28. Qh5 Rg6 29. Qd5 a5 30. Qxc6 Rxc6 31. a3 b4 32. axb4 axb4 33. cxb4 Rb6
+34. Bd6 Bxb2 35. Bc5 Rb5 36. Rb1 Bg7 37. Rb3 Bf8 38. Rc1 Reb8 39. Rbc3 f5 40.
+g3 Kf7 41. Kf1 R8b7 42. Ke2 Be7 43. Rh1 Bg5 44. Rd1 Be7 45. Bxe7 Kxe7 46. Rc5
+Rxc5 47. bxc5 Rc7 48. Rc1 Ke6 49. Ke3 Kd5 50. Rd1+ Ke5 51. Rc1 Kd5 52. Kf4 Rxc5
+53. Rxc5+ Kxc5 54. Kxf5 Kd4 55. g4 e3 56. fxe3+ Kxe3 57. Kg6 Kf4 58. Kh5 Kg3
+59. Kxh6 Kxg4 1/2-1/2
+
+[Event "Benasque op 37th"]
+[Site "Benasque"]
+[Date "2017.07.14"]
+[Round "9"]
+[White "Prohaszka, Peter"]
+[Black "Kuzubov, Yuriy"]
+[Result "1/2-1/2"]
+[ECO "A40"]
+[WhiteElo "2601"]
+[BlackElo "2646"]
+[PlyCount "169"]
+[EventDate "2017.07.06"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 g6 2. Nf3 Bg7 3. g3 c5 4. c3 Qa5 5. Nbd2 cxd4 6. Nb3 Qb6 7. cxd4 Nf6 8.
+Bg2 O-O 9. O-O d6 10. Re1 Bf5 11. Bg5 Nc6 12. d5 Nb4 13. Nfd4 Bd7 14. e4 a5 15.
+a3 a4 16. axb4 axb3 17. Rxa8 Rxa8 18. Nxb3 Ng4 19. Rf1 Qxb4 20. Nc1 Qxb2 21.
+Nd3 Qd4 22. Qb1 b5 23. Bxe7 Ne5 24. Nb4 Nc4 25. Bg5 h6 26. Bc1 Ra1 27. Qc2 Qc3
+28. Qxc3 Bxc3 29. Nc6 g5 30. h4 f6 31. hxg5 hxg5 32. Be3 Nxe3 33. Rxa1 Bxa1 34.
+fxe3 Bc3 35. Bf1 b4 36. Bc4 Kf7 37. Kf2 Bg4 38. Bb3 Bh5 39. Nd4 Ke7 40. Ba4 Kd8
+41. Ne6+ Kc8 42. Nd4 Kb7 43. Nf5 Be5 44. Nd4 Kb6 45. Nf3 Bg6 46. Bc2 Bc3 47.
+Ke2 Be8 48. Nd4 Bh5+ 49. Kf2 Kc5 50. Nf5 Be5 51. Bb3 Be8 52. Ke2 Bb5+ 53. Kd2
+Bc4 54. Kc2 Be2 55. Kd2 Bg4 56. Kd3 Bxf5 57. exf5 Bxg3 58. Ke2 g4 59. Kf1 Be5
+60. Kf2 g3+ 61. Kg2 Kb5 62. Kf3 Kb6 63. Kg2 Kc7 64. Kh3 Kb6 65. Kg2 Ka7 66. Kf3
+Kb8 67. Kg2 Kc8 68. Kf3 Kd8 69. Kg2 Ke7 70. Kh3 Kf8 71. Ba4 Kg7 72. Bb3 Kh6 73.
+Ba4 Kh5 74. Bd1+ Kg5 75. Bc2 Bf4 76. exf4+ Kxf4 77. Kg2 Kg4 78. Bd3 b3 79. Bc4
+b2 80. Bd3 Kf4 81. Bb1 Kg4 82. Bc2 Kh4 83. Bb1 Kg4 84. Bc2 Kf4 85. Bb1 1/2-1/2
+
+[Event "Benasque op 37th"]
+[Site "Benasque"]
+[Date "2017.07.15"]
+[Round "10"]
+[White "Kuzubov, Yuriy"]
+[Black "Gascon del Nogal, Jose Rafael"]
+[Result "1-0"]
+[ECO "D24"]
+[WhiteElo "2646"]
+[BlackElo "2489"]
+[PlyCount "65"]
+[EventDate "2017.07.06"]
+[EventType "swiss"]
+[EventRounds "10"]
+[EventCountry "ESP"]
+[SourceTitle "CBM 179 Extra"]
+[Source "ChessBase"]
+[SourceDate "2017.08.23"]
+[SourceVersion "1"]
+[SourceVersionDate "2017.08.23"]
+[SourceQuality "1"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 dxc4 5. e4 Bb4 6. Bxc4 Nxe4 7. O-O Nxc3 8.
+bxc3 Be7 9. Ne5 O-O 10. Qg4 Nc6 11. Re1 Nxe5 12. dxe5 f5 13. exf6 Rxf6 14. Bg5
+Rf7 15. Rad1 Qf8 16. Bxe7 Qxe7 17. Re3 Rf8 18. Bd3 e5 19. Qg3 g6 20. Rxe5 Qf6
+21. Qe3 Kh8 22. Re7 Bg4 23. Re1 Rad8 24. Bc4 Rd7 25. f3 Bf5 26. Re5 Qb6 27. Rc5
+Kg7 28. Qe5+ Kh6 29. Kf1 Re8 30. Qf4+ Kg7 31. Rxe8 Bd3+ 32. Bxd3 Qxc5 33. Be2
+1-0
