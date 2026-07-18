@@ -4137,7 +4137,7 @@ body.puzzle-mode-active .btn-icon.mini-puzzle-board-btn {
         box-sizing: border-box;
     }
 
-    /* Orden en columna: Config → Aperturas → Partidas Maestras → Problemas (por ID, HTML tiene puzzles antes que famous) */
+    /* Orden en columna: Config → Aperturas → Partidas Maestras → Lliga CAT → Problemas → Aprende */
     #config-panel {
         order: 4 !important;
     }
@@ -4150,8 +4150,12 @@ body.puzzle-mode-active .btn-icon.mini-puzzle-board-btn {
         order: 6 !important;
     }
 
-    #puzzles-panel {
+    #cat-league-panel {
         order: 7 !important;
+    }
+
+    #puzzles-panel {
+        order: 8 !important;
     }
 
     body.puzzle-panel-open #puzzles-panel {
@@ -4179,16 +4183,16 @@ body.puzzle-mode-active .btn-icon.mini-puzzle-board-btn {
     }
 
     #actions-panel {
-        order: 8 !important;
+        order: 10 !important;
     }
 
     #stats-panel {
-        order: 9 !important;
+        order: 11 !important;
     }
 
     /* Email: justo después del panel Estadísticas */
     .sidebar-email {
-        order: 10 !important;
+        order: 12 !important;
         margin-top: 4px;
         font-size: 0.76rem;
         font-weight: 400;
@@ -4200,7 +4204,7 @@ body.puzzle-mode-active .btn-icon.mini-puzzle-board-btn {
     }
 
     .sidebar-feedback-link {
-        order: 10 !important;
+        order: 12 !important;
         font-size: 0.76rem;
         font-weight: 400;
         padding: 0 0 10px;
@@ -4212,7 +4216,7 @@ body.puzzle-mode-active .btn-icon.mini-puzzle-board-btn {
 
     /* Footer legacy */
     .app-footer {
-        order: 10 !important;
+        order: 12 !important;
         margin-top: 4px;
     }
 
@@ -5905,7 +5909,7 @@ body.learn-mode-active #captured-below { display: none !important; }
 
 /* Móvil: reorden del panel */
 @media (max-width: 1024px) and (orientation: portrait) {
-    #learn-panel { order: 8 !important; }
+    #learn-panel { order: 9 !important; }
     body.learn-panel-open #learn-panel { order: 2 !important; }
     body.learn-panel-open #clock-panel { display: none !important; }
     .learn-lesson-list { max-height: 220px; }

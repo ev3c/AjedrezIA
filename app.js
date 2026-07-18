@@ -7596,7 +7596,13 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
-    '3.5.1': [
+    '3.5.2.0': [
+        'Smartphone Android: al pulsar el botón Atrás se pregunta «¿Quieres salir de AjedrezIA?»',
+        'El modal permite aceptar la salida o cancelarla para continuar en la aplicación',
+        'Partidas Maestras: la lista «Selecciona una partida» de la biblioteca se ordena alfabéticamente por rival',
+        'Nuevo panel «Partides Lliga CAT»: permite elegir jugadores de la biblioteca Federació Catalana d\'Escacs, seleccionar sus partidas y cargarlas en el tablero',
+    ],
+    '3.5.1.0': [
         'Corregido: en móvil, el panel «Problemas de Ajedrez» y su desplegable «Categoría» podían quedar bloqueados tras cerrar el panel «Partidas Maestras»',
         'Revisados todos los paneles colapsables en modo smartphone (Aperturas, Partidas Maestras, Problemas de Ajedrez, Aprende Ajedrez, Configuración, Acciones, Estadísticas)',
         '... y más mejoras en AjedrezIA ...',
@@ -11333,6 +11339,41 @@ function showConfirmDialog(message, onConfirm, confirmLabel, onCancel) {
     });
 }
 
+function setupAndroidBackExitConfirmation() {
+    const isAndroidSmartphone =
+        /Android/i.test(navigator.userAgent) &&
+        window.matchMedia('(max-width: 768px)').matches;
+    if (!isAndroidSmartphone || !window.history || !window.history.pushState) return;
+
+    const guardKey = 'ajedreziaExitGuard';
+    const guardedUrl = window.location.href;
+    let exitInProgress = false;
+
+    // Añade una entrada interna para que el botón «Atrás» de Android dispare
+    // popstate antes de abandonar la web/PWA. No duplica entradas al recargar.
+    if (!history.state || !history.state[guardKey]) {
+        history.pushState({ [guardKey]: true }, '', guardedUrl);
+    }
+
+    window.addEventListener('popstate', function handleAndroidBack() {
+        if (exitInProgress) return;
+
+        showConfirmDialog(
+            '¿Quieres salir de AjedrezIA?',
+            function() {
+                exitInProgress = true;
+                autoSaveGame();
+                history.back();
+            },
+            'Aceptar',
+            function() {
+                // Al cancelar se repone la entrada consumida por el botón Atrás.
+                history.pushState({ [guardKey]: true }, '', guardedUrl);
+            }
+        );
+    });
+}
+
 // Si se está navegando el historial de la partida (currentMoveIndex !== -1) y
 // el jugador intenta mover una pieza, pregunta antes de descartar los
 // movimientos posteriores y continuar la partida desde la posición vista.
@@ -11719,6 +11760,11 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('library-game-select').addEventListener('change', onLibraryGameSelect);
     document.getElementById('load-famous-game').addEventListener('click', loadFamousGame);
 
+    populateFcePlayerSelect();
+    document.getElementById('fce-player-select').addEventListener('change', onFcePlayerSelect);
+    document.getElementById('fce-game-select').addEventListener('change', onFceGameSelect);
+    document.getElementById('load-fce-game').addEventListener('click', loadFceGame);
+
     // Problemas de ajedrez
     loadPuzzleStats();
     applyPuzzleCategory(loadPuzzleCategory());
@@ -12015,6 +12061,7 @@ document.addEventListener('DOMContentLoaded', () => {
         setTimeout(checkRemoteVersion, 2000);
     }
 
+    setupAndroidBackExitConfirmation();
     setTimeout(maybeShowIntroVideoOnStartup, 0);
 });
 
@@ -12881,10 +12928,26 @@ function populateLibraryGameSelect(playerId, playerName) {
     defaultOpt.textContent = `— ${playerName} (${games.length.toLocaleString()} partidas) —`;
     libSel.appendChild(defaultOpt);
 
-    const fragment = document.createDocumentFragment();
-    for (const g of games) {
+    const getOpponent = g => {
         const isWhite = g.white && g.white.toLowerCase().includes(playerId.toLowerCase());
-        const opponent = isWhite ? g.black : g.white;
+        return isWhite ? g.black : g.white;
+    };
+    const sortedGames = [...games].sort((a, b) => {
+        const opponentDiff = (getOpponent(a) || '').localeCompare(
+            getOpponent(b) || '',
+            'es',
+            { sensitivity: 'base' }
+        );
+        if (opponentDiff) return opponentDiff;
+        const dateDiff = (a.date || '').localeCompare(b.date || '');
+        if (dateDiff) return dateDiff;
+        return (a.event || '').localeCompare(b.event || '', 'es', { sensitivity: 'base' });
+    });
+
+    const fragment = document.createDocumentFragment();
+    for (const g of sortedGames) {
+        const isWhite = g.white && g.white.toLowerCase().includes(playerId.toLowerCase());
+        const opponent = getOpponent(g);
         const colorIcon = isWhite ? '♔' : '♚';
         const resultIcon = g.result === '1-0' ? (isWhite ? '✓' : '✗') :
                            g.result === '0-1' ? (isWhite ? '✗' : '✓') : '½';
@@ -12903,6 +12966,196 @@ function onLibraryGameSelect() {
     const libSel = document.getElementById('library-game-select');
     const btn = document.getElementById('load-famous-game');
     if (btn) btn.disabled = !libSel || !libSel.value;
+}
+
+// Biblioteca de partidas de la Federació Catalana d'Escacs (panel Lliga CAT)
+const fceGamesCache = {};
+
+function populateFcePlayerSelect() {
+    const select = document.getElementById('fce-player-select');
+    if (!select) return;
+
+    fetch('games/FCE/index.json')
+        .then(r => r.ok ? r.json() : null)
+        .then(data => {
+            if (!Array.isArray(data) || data.length === 0) return;
+            const sorted = [...data].sort((a, b) =>
+                a.name.localeCompare(b.name, 'es', { sensitivity: 'base' })
+            );
+            const fragment = document.createDocumentFragment();
+            for (const player of sorted) {
+                const opt = document.createElement('option');
+                opt.value = player.id;
+                opt.textContent = `${player.name} (${player.gameCount.toLocaleString()})`;
+                fragment.appendChild(opt);
+            }
+            select.appendChild(fragment);
+        })
+        .catch(() => { /* biblioteca FCE no disponible */ });
+}
+
+function showFceGameSection(show) {
+    const section = document.getElementById('fce-game-section');
+    const btn = document.getElementById('load-fce-game');
+    if (section) section.style.display = show ? '' : 'none';
+    if (btn) btn.style.display = show ? '' : 'none';
+}
+
+function onFcePlayerSelect() {
+    const playerSelect = document.getElementById('fce-player-select');
+    const playerId = playerSelect.value;
+    const gameSelect = document.getElementById('fce-game-select');
+
+    if (!playerId) {
+        showFceGameSection(false);
+        gameSelect.innerHTML = '<option value="">— Elegir partida —</option>';
+        return;
+    }
+
+    showFceGameSection(true);
+    const playerName = playerSelect.options[playerSelect.selectedIndex].textContent
+        .replace(/\s*\([\d.,]+\)$/, '');
+    loadFcePlayerGames(playerId, playerName);
+}
+
+function loadFcePlayerGames(playerId, playerName) {
+    const gameSelect = document.getElementById('fce-game-select');
+    const btn = document.getElementById('load-fce-game');
+
+    if (fceGamesCache[playerId]) {
+        populateFceGameSelect(playerId, playerName);
+        return;
+    }
+
+    gameSelect.innerHTML = '';
+    const loadingOpt = document.createElement('option');
+    loadingOpt.value = '';
+    loadingOpt.textContent = `⏳ Cargando partidas de ${playerName}…`;
+    gameSelect.appendChild(loadingOpt);
+    gameSelect.disabled = true;
+    if (btn) btn.disabled = true;
+
+    fetch('games/FCE/' + playerId + '/games.pgn')
+        .then(r => {
+            if (!r.ok) throw new Error('No se pudo cargar el archivo PGN de FCE');
+            return r.text();
+        })
+        .then(pgnText => {
+            const blocks = pgnText.split(/(?=\[Event\s+")/);
+            const games = blocks.map(b => b.trim()).filter(b => b.startsWith('[Event'));
+            fceGamesCache[playerId] = games.map((pgn, idx) => ({
+                idx,
+                pgn,
+                white: extractPGNHeader(pgn, 'White'),
+                black: extractPGNHeader(pgn, 'Black'),
+                result: extractPGNHeader(pgn, 'Result'),
+                event: extractPGNHeader(pgn, 'Event'),
+                date: extractPGNHeader(pgn, 'Date')
+            }));
+
+            // Evita que una descarga lenta sustituya las partidas de otro jugador.
+            if (document.getElementById('fce-player-select').value === playerId) {
+                gameSelect.disabled = false;
+                populateFceGameSelect(playerId, playerName);
+            }
+        })
+        .catch(err => {
+            if (document.getElementById('fce-player-select').value !== playerId) return;
+            gameSelect.disabled = false;
+            gameSelect.innerHTML = '<option value="">❌ Error al cargar partidas</option>';
+            onFceGameSelect();
+            console.warn('loadFcePlayerGames error:', err);
+        });
+}
+
+function normalizeFcePlayerName(value) {
+    return String(value || '')
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, ' ')
+        .trim();
+}
+
+function populateFceGameSelect(playerId, playerName) {
+    const gameSelect = document.getElementById('fce-game-select');
+    const games = fceGamesCache[playerId] || [];
+    const playerNorm = normalizeFcePlayerName(playerName);
+    const isPlayerWhite = game => {
+        const whiteNorm = normalizeFcePlayerName(game.white);
+        return whiteNorm === playerNorm ||
+            (whiteNorm && playerNorm && (
+                whiteNorm.includes(playerNorm) || playerNorm.includes(whiteNorm)
+            ));
+    };
+    const getOpponent = game => isPlayerWhite(game) ? game.black : game.white;
+    const sortedGames = [...games].sort((a, b) => {
+        const opponentDiff = (getOpponent(a) || '').localeCompare(
+            getOpponent(b) || '',
+            'es',
+            { sensitivity: 'base' }
+        );
+        if (opponentDiff) return opponentDiff;
+        const dateDiff = (a.date || '').localeCompare(b.date || '');
+        if (dateDiff) return dateDiff;
+        return (a.event || '').localeCompare(b.event || '', 'es', { sensitivity: 'base' });
+    });
+
+    gameSelect.innerHTML = '';
+    const defaultOpt = document.createElement('option');
+    defaultOpt.value = '';
+    defaultOpt.textContent = `— ${playerName} (${games.length.toLocaleString()} partidas) —`;
+    gameSelect.appendChild(defaultOpt);
+
+    const fragment = document.createDocumentFragment();
+    for (const game of sortedGames) {
+        const isWhite = isPlayerWhite(game);
+        const opponent = getOpponent(game);
+        const colorIcon = isWhite ? '♔' : '♚';
+        const resultIcon = game.result === '1-0' ? (isWhite ? '✓' : '✗') :
+                           game.result === '0-1' ? (isWhite ? '✗' : '✓') : '½';
+        const year = game.date ? game.date.slice(0, 4) : '';
+        const opt = document.createElement('option');
+        opt.value = 'fce:' + playerId + ':' + game.idx;
+        opt.textContent = `${colorIcon} vs ${opponent || '?'} ${resultIcon}${year ? ' ' + year : ''}${game.event ? ' — ' + game.event : ''}`;
+        fragment.appendChild(opt);
+    }
+    gameSelect.appendChild(fragment);
+    gameSelect.value = '';
+    onFceGameSelect();
+}
+
+function onFceGameSelect() {
+    const gameSelect = document.getElementById('fce-game-select');
+    const btn = document.getElementById('load-fce-game');
+    if (btn) btn.disabled = !gameSelect || !gameSelect.value;
+}
+
+function loadFceGame() {
+    const key = document.getElementById('fce-game-select').value;
+    if (!key || !key.startsWith('fce:')) return;
+
+    const parts = key.split(':');
+    const playerId = parts[1];
+    const gameIdx = parseInt(parts[2], 10);
+    const games = fceGamesCache[playerId];
+    const selectedGame = games && !isNaN(gameIdx) ? games[gameIdx] : null;
+    if (!selectedGame || !selectedGame.pgn) return;
+
+    if (puzzleMode) endPuzzleMode();
+    if (learnMode) endLearnMode();
+    dismissPostGameAnalysisUI();
+    hideVariantsPopup(false);
+
+    const title = `${selectedGame.white || '?'} vs ${selectedGame.black || '?'}${selectedGame.event ? ' — ' + selectedGame.event : ''}${selectedGame.date ? ' (' + selectedGame.date.slice(0, 4) + ')' : ''}`;
+    parsePGNAndLoad(selectedGame.pgn, title);
+    shareContext = 'maestra';
+    updateShareButton();
+
+    const boardContainer = document.querySelector('.board-container');
+    if (boardContainer) {
+        setTimeout(() => boardContainer.scrollIntoView({ behavior: 'smooth', block: 'start' }), 80);
+    }
 }
 
 function onFamousGameSelect() {
@@ -13100,7 +13353,7 @@ function setGameButtonsDisabled(disabled) {
         'undo-move', 'undo-move-sidebar',
         'hint-move', 'hint-move-sidebar',
         'export-pgn', 'import-pgn',
-        'load-famous-game',
+        'load-famous-game', 'load-fce-game',
         'analyze-game', 'analyze-game-sidebar',
         'show-known-variants',
         'start-opening-quiz'

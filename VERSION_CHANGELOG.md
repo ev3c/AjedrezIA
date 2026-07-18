@@ -2,6 +2,21 @@
 
 ---
 
+## v3.5.2 — 2026-07-18
+
+### Confirmación de salida en Android
+- En smartphones Android, al pulsar el botón Atrás del sistema se muestra el modal
+  «¿Quieres salir de AjedrezIA?».
+- «Aceptar» guarda la partida y sale de la aplicación; «Cancelar» cierra el modal
+  y permite continuar.
+- En «Partidas Maestras», la lista «Selecciona una partida» de la biblioteca se
+  muestra ordenada alfabéticamente por rival.
+- Añadido el panel colapsable «Partidas Lliga CAT» debajo de «Partidas Maestras».
+  Su selector muestra los jugadores de `games/FCE/`; al elegir uno aparecen sus
+  partidas, ordenadas alfabéticamente por rival, y el botón «Cargar Partida».
+
+---
+
 ## v3.5.1 — 2026-07-16
 
 ### Fix — panel "Problemas de Ajedrez" no se abría en móvil
