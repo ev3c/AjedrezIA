@@ -7596,13 +7596,14 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
-    '3.5.2.0': [
+    '3.5.2': [
         'Smartphone Android: al pulsar el botón Atrás se pregunta «¿Quieres salir de AjedrezIA?»',
         'El modal permite aceptar la salida o cancelarla para continuar en la aplicación',
         'Partidas Maestras: la lista «Selecciona una partida» de la biblioteca se ordena alfabéticamente por rival',
         'Nuevo panel «Partides Lliga CAT»: permite elegir jugadores de la biblioteca Federació Catalana d\'Escacs, seleccionar sus partidas y cargarlas en el tablero',
+        '... y más mejoras en AjedrezIA ...',
     ],
-    '3.5.1.0': [
+    '3.5.1': [
         'Corregido: en móvil, el panel «Problemas de Ajedrez» y su desplegable «Categoría» podían quedar bloqueados tras cerrar el panel «Partidas Maestras»',
         'Revisados todos los paneles colapsables en modo smartphone (Aperturas, Partidas Maestras, Problemas de Ajedrez, Aprende Ajedrez, Configuración, Acciones, Estadísticas)',
         '... y más mejoras en AjedrezIA ...',
