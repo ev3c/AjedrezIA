@@ -2,6 +2,38 @@
 
 ---
 
+## v3.5.4 — 2026-07-21
+
+### Nombres de jugadores FCE
+- En el selector de «Partides Lliga CAT», los nombres con formato
+  «A. Apellido» hasta «Z. Apellido» se muestran como «Apellido, inicial» y se
+  agrupan por el apellido.
+- Se conserva, separado por un guion, el detalle del club cuando está disponible.
+- En «Partidas Maestras», el menú de partidas permite ordenar por rival
+  alfabéticamente o por fecha, de más reciente a más antigua.
+- Los menús de partidas de «Partidas Maestras» y «Partides Lliga CAT» se
+  muestran como una tabla cuyas columnas Rival, Resultado, Año y Torneo se
+  pueden pulsar para ordenar los resultados en ambos sentidos.
+- Se eliminan los controles «Ordenar por» y los botones «Cargar Partida»:
+  ahora cada partida se carga automáticamente al seleccionarla.
+- Al cargar una partida desde la biblioteca de «Partidas Maestras» o desde
+  «Partides Lliga CAT», el selector «Partidas Seleccionadas» vuelve a
+  «— Elegir partida —».
+
+---
+
+## v3.5.3 — 2026-07-20
+
+### Selector alfabético y navegación Android
+- El selector de jugadores de «Partides Lliga CAT» agrupa los nombres en
+  secciones expandibles de la A a la Z.
+- En Android, el botón Atrás cierra primero cualquier modal abierto y siempre
+  solicita confirmación antes de salir de AjedrezIA.
+- En smartphones, Facebook recibe directamente el PNG mostrado en la
+  previsualización, evitando recortes o imágenes antiguas de la tarjeta web.
+
+---
+
 ## v3.5.2 — 2026-07-18
 
 ### Confirmación de salida en Android

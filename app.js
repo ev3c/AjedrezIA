@@ -6168,7 +6168,6 @@ function setAnalysisModeActive(active) {
     if (!active) {
         updateUndoButton();
         checkForGameInProgress();
-        onLibraryGameSelect();
     }
 }
 
@@ -7596,6 +7595,14 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '3.5.4': [
+        'Los menús de partidas de Partidas Maestras y Lliga CAT muestran columnas clicables para ordenar por Rival, Resultado, Año o Torneo',
+        'Partidas Maestras y Lliga CAT cargan automáticamente cada partida al seleccionarla',
+        'Partides Lliga CAT: jugadores agrupados en secciones alfabéticas expandibles de A a Z',
+        'Smartphone Android: el botón Atrás cierra primero cualquier modal abierto y siempre solicita confirmación antes de salir',
+        'Facebook en smartphone: comparte directamente el PNG generado para evitar recortes o imágenes antiguas en la publicación',
+        '... y más mejoras en AjedrezIA ...',
+    ],
     '3.5.2': [
         'Smartphone Android: al pulsar el botón Atrás se pregunta «¿Quieres salir de AjedrezIA?»',
         'El modal permite aceptar la salida o cancelarla para continuar en la aplicación',
@@ -11340,6 +11347,61 @@ function showConfirmDialog(message, onConfirm, confirmLabel, onCancel) {
     });
 }
 
+function closeTopModalForAndroidBack() {
+    const selectors = [
+        '#mobile-select-backdrop.open',
+        '.login-modal-overlay',
+        '.message-overlay',
+        '.known-variants-overlay',
+        '#analysis-overlay'
+    ];
+    const overlays = [...document.querySelectorAll(selectors.join(','))]
+        .filter(element => {
+            const style = window.getComputedStyle(element);
+            return style.display !== 'none' &&
+                style.visibility !== 'hidden' &&
+                style.opacity !== '0' &&
+                element.getClientRects().length > 0;
+        })
+        .sort((a, b) => {
+            const zA = parseInt(window.getComputedStyle(a).zIndex, 10) || 0;
+            const zB = parseInt(window.getComputedStyle(b).zIndex, 10) || 0;
+            if (zA !== zB) return zA - zB;
+            return a.compareDocumentPosition(b) & Node.DOCUMENT_POSITION_FOLLOWING ? -1 : 1;
+        });
+
+    const overlay = overlays.at(-1);
+    if (!overlay) return false;
+
+    // Simula pulsar fuera del modal para ejecutar su cierre y limpieza habitual.
+    overlay.dispatchEvent(new MouseEvent('click', {
+        bubbles: true,
+        cancelable: true,
+        view: window
+    }));
+
+    const styleAfterClick = document.contains(overlay) ? window.getComputedStyle(overlay) : null;
+    const remainsVisible = Boolean(
+        styleAfterClick &&
+        styleAfterClick.display !== 'none' &&
+        styleAfterClick.visibility !== 'hidden' &&
+        styleAfterClick.opacity !== '0'
+    );
+    if (remainsVisible) {
+        const closeControl = [...overlay.querySelectorAll(
+            '.login-modal-close, .message-close-btn, .sheet-close, ' +
+            '#analysis-close-x, #analysis-close, [aria-label="Cerrar"], ' +
+            'button[title="Cerrar"], [id$="-cancel"]'
+        )].find(button => {
+            const style = window.getComputedStyle(button);
+            return style.display !== 'none' && style.visibility !== 'hidden';
+        });
+        if (closeControl) closeControl.click();
+    }
+
+    return true;
+}
+
 function setupAndroidBackExitConfirmation() {
     const isAndroidSmartphone =
         /Android/i.test(navigator.userAgent) &&
@@ -11357,7 +11419,21 @@ function setupAndroidBackExitConfirmation() {
     }
 
     window.addEventListener('popstate', function handleAndroidBack() {
-        if (exitInProgress) return;
+        if (exitInProgress) {
+            // Primer Atrás consume la entrada protectora; el segundo abandona
+            // realmente la web o cierra la PWA.
+            setTimeout(() => history.back(), 0);
+            return;
+        }
+
+        // Se repone inmediatamente la entrada protectora. Así, incluso si el
+        // usuario vuelve a pulsar Atrás con el diálogo abierto, nunca sale sin
+        // pasar por una confirmación.
+        history.pushState({ [guardKey]: true }, '', guardedUrl);
+
+        // Si hay un modal abierto, Atrás actúa como su cruz o como pulsar fuera.
+        // La siguiente pulsación, ya sin modal, mostrará la confirmación de salida.
+        if (closeTopModalForAndroidBack()) return;
 
         showConfirmDialog(
             '¿Quieres salir de AjedrezIA?',
@@ -11367,10 +11443,7 @@ function setupAndroidBackExitConfirmation() {
                 history.back();
             },
             'Aceptar',
-            function() {
-                // Al cancelar se repone la entrada consumida por el botón Atrás.
-                history.pushState({ [guardKey]: true }, '', guardedUrl);
-            }
+            function() {}
         );
     });
 }
@@ -11757,14 +11830,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     // famous-game-select: auto-carga al seleccionar (sin botón)
     document.getElementById('famous-game-select').addEventListener('change', onFamousGameSelect);
-    // library-game-select: habilita botón "Cargar"
+    // Las partidas de las bibliotecas se cargan automáticamente al seleccionarlas
     document.getElementById('library-game-select').addEventListener('change', onLibraryGameSelect);
-    document.getElementById('load-famous-game').addEventListener('click', loadFamousGame);
 
     populateFcePlayerSelect();
     document.getElementById('fce-player-select').addEventListener('change', onFcePlayerSelect);
     document.getElementById('fce-game-select').addEventListener('change', onFceGameSelect);
-    document.getElementById('load-fce-game').addEventListener('click', loadFceGame);
 
     // Problemas de ajedrez
     loadPuzzleStats();
@@ -12086,6 +12157,12 @@ function initCustomDropdowns() {
         if (!select.closest('.custom-select-wrap')) {
             const wrap = document.createElement('div');
             wrap.className = 'custom-select-wrap';
+            if (select.classList.contains('select-alphabetic')) {
+                wrap.classList.add('custom-select-alphabetic');
+            }
+            if (select.classList.contains('select-game-table')) {
+                wrap.classList.add('custom-select-game-table');
+            }
             select.parentNode.insertBefore(wrap, select);
             wrap.appendChild(select);
 
@@ -12101,6 +12178,8 @@ function initCustomDropdowns() {
             wrap.appendChild(list);
 
             function getLabel() {
+                const ariaLabel = select.getAttribute('aria-label');
+                if (ariaLabel) return ariaLabel;
                 const section = select.closest('.config-section, .clock-controls, .panel-body');
                 const lbl = section ? section.querySelector('label') : null;
                 return lbl ? lbl.textContent.replace(/:?\s*$/, '') : '';
@@ -12116,6 +12195,8 @@ function initCustomDropdowns() {
             function buildList() {
                 list.innerHTML = '';
                 const mobile = window.matchMedia(mobileQuery).matches;
+                const alphabetic = select.classList.contains('select-alphabetic');
+                const gameTable = select.classList.contains('select-game-table');
                 if (mobile) {
                     const hdr = document.createElement('div');
                     hdr.className = 'sheet-header';
@@ -12130,29 +12211,163 @@ function initCustomDropdowns() {
                     hdr.appendChild(btn);
                     list.appendChild(hdr);
                 }
+
+                const hasGameRows = gameTable && [...select.options].some(opt => opt.value);
+                if (hasGameRows) {
+                    const tableHeader = document.createElement('div');
+                    tableHeader.className = 'custom-select-table-header';
+                    const columns = [
+                        { key: 'opponent', label: 'Rival' },
+                        { key: 'result', label: 'Resultado' },
+                        { key: 'year', label: 'Año' },
+                        { key: 'event', label: 'Torneo' }
+                    ];
+                    const activeSort = select.dataset.tableSort || 'opponent';
+                    const activeDirection = select.dataset.tableSortDirection || 'asc';
+                    for (const column of columns) {
+                        const button = document.createElement('button');
+                        button.type = 'button';
+                        button.className = 'custom-select-table-sort';
+                        const active = column.key === activeSort;
+                        button.textContent = column.label + (active ? (activeDirection === 'asc' ? ' ▲' : ' ▼') : '');
+                        button.setAttribute('aria-label', `Ordenar por ${column.label}`);
+                        button.setAttribute('aria-sort', active
+                            ? (activeDirection === 'asc' ? 'ascending' : 'descending')
+                            : 'none');
+                        button.addEventListener('click', event => {
+                            event.stopPropagation();
+                            const sameColumn = select.dataset.tableSort === column.key;
+                            select.dataset.tableSort = column.key;
+                            select.dataset.tableSortDirection = sameColumn
+                                ? (select.dataset.tableSortDirection === 'asc' ? 'desc' : 'asc')
+                                : (column.key === 'year' || column.key === 'result' ? 'desc' : 'asc');
+
+                            buildList();
+                        });
+                        tableHeader.appendChild(button);
+                    }
+                    list.appendChild(tableHeader);
+                }
+
+                function appendOption(opt, parent) {
+                    if (gameTable && hasGameRows && !opt.value) return;
+                    const o = document.createElement('div');
+                    o.className = 'custom-select-option' + (opt.value === select.value ? ' selected' : '');
+                    if (gameTable && opt.value && opt.dataset.opponent) {
+                        o.classList.add('custom-select-table-row');
+                        const values = [
+                            opt.dataset.opponent,
+                            opt.dataset.result || '—',
+                            opt.dataset.year || '—',
+                            opt.dataset.event || '—'
+                        ];
+                        for (const value of values) {
+                            const cell = document.createElement('span');
+                            cell.textContent = value;
+                            cell.title = value;
+                            o.appendChild(cell);
+                        }
+                        o.setAttribute('aria-label', opt.textContent);
+                    } else {
+                        o.textContent = opt.textContent;
+                    }
+                    o.dataset.value = opt.value;
+                    o.tabIndex = 0;
+                    o.addEventListener('click', () => selectOption(opt.value));
+                    parent.appendChild(o);
+                }
+
+                if (gameTable) {
+                    const options = [...select.options];
+                    if (!hasGameRows) {
+                        for (const opt of options) appendOption(opt, list);
+                        return;
+                    }
+
+                    const sortKey = select.dataset.tableSort || 'opponent';
+                    const direction = select.dataset.tableSortDirection === 'desc' ? -1 : 1;
+                    const sortedOptions = options.filter(opt => opt.value).sort((a, b) => {
+                        let difference;
+                        if (sortKey === 'result') {
+                            difference = Number(a.dataset.resultOrder || 0) - Number(b.dataset.resultOrder || 0);
+                        } else {
+                            const aValue = sortKey === 'year'
+                                ? (a.dataset.date || a.dataset.year || '')
+                                : (a.dataset[sortKey] || '');
+                            const bValue = sortKey === 'year'
+                                ? (b.dataset.date || b.dataset.year || '')
+                                : (b.dataset[sortKey] || '');
+                            difference = aValue.localeCompare(bValue, 'es', {
+                                sensitivity: 'base',
+                                numeric: true
+                            });
+                        }
+                        if (difference) return difference * direction;
+                        return (a.dataset.opponent || '').localeCompare(
+                            b.dataset.opponent || '',
+                            'es',
+                            { sensitivity: 'base' }
+                        );
+                    });
+                    for (const opt of sortedOptions) appendOption(opt, list);
+                    return;
+                }
+
                 for (const node of select.children) {
                     if (node.tagName === 'OPTGROUP') {
+                        if (alphabetic) {
+                            const groupButton = document.createElement('button');
+                            groupButton.type = 'button';
+                            groupButton.className = 'custom-select-optgroup custom-select-optgroup-expandable';
+                            groupButton.textContent = node.label;
+                            groupButton.setAttribute('aria-expanded', 'false');
+
+                            const groupOptions = document.createElement('div');
+                            groupOptions.className = 'custom-select-group-options';
+                            let rendered = false;
+
+                            function renderGroupOptions() {
+                                if (rendered) return;
+                                for (const opt of node.children) appendOption(opt, groupOptions);
+                                rendered = true;
+                            }
+
+                            function setExpanded(expanded) {
+                                if (expanded) renderGroupOptions();
+                                groupButton.classList.toggle('expanded', expanded);
+                                groupOptions.classList.toggle('open', expanded);
+                                groupButton.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+                            }
+
+                            groupButton.addEventListener('click', () => {
+                                const expand = !groupButton.classList.contains('expanded');
+                                list.querySelectorAll('.custom-select-optgroup-expandable.expanded').forEach(other => {
+                                    if (other === groupButton) return;
+                                    other.classList.remove('expanded');
+                                    other.setAttribute('aria-expanded', 'false');
+                                    const otherOptions = other.nextElementSibling;
+                                    if (otherOptions) otherOptions.classList.remove('open');
+                                });
+                                setExpanded(expand);
+                            });
+
+                            list.appendChild(groupButton);
+                            list.appendChild(groupOptions);
+
+                            const containsSelection = [...node.children].some(opt => opt.value === select.value);
+                            if (containsSelection) setExpanded(true);
+                            continue;
+                        }
+
                         const g = document.createElement('div');
                         g.className = 'custom-select-optgroup';
                         g.textContent = node.label;
                         list.appendChild(g);
                         for (const opt of node.children) {
-                            const o = document.createElement('div');
-                            o.className = 'custom-select-option' + (opt.value === select.value ? ' selected' : '');
-                            o.textContent = opt.textContent;
-                            o.dataset.value = opt.value;
-                            o.tabIndex = 0;
-                            o.addEventListener('click', () => selectOption(opt.value));
-                            list.appendChild(o);
+                            appendOption(opt, list);
                         }
                     } else if (node.tagName === 'OPTION') {
-                        const o = document.createElement('div');
-                        o.className = 'custom-select-option' + (node.value === select.value ? ' selected' : '');
-                        o.textContent = node.textContent;
-                        o.dataset.value = node.value;
-                        o.tabIndex = 0;
-                        o.addEventListener('click', () => selectOption(node.value));
-                        list.appendChild(o);
+                        appendOption(node, list);
                     }
                 }
             }
@@ -12847,9 +13062,7 @@ function populateFamousPlayerSelect() {
 
 function _showLibrarySection(show) {
     const section = document.getElementById('library-game-section');
-    const btn = document.getElementById('load-famous-game');
     if (section) section.style.display = show ? '' : 'none';
-    if (btn) btn.style.display = show ? '' : 'none';
 }
 
 function onFamousPlayerSelect() {
@@ -12873,7 +13086,6 @@ function onFamousPlayerSelect() {
 
 function loadLibraryPlayerGames(playerId, playerName) {
     const libSel = document.getElementById('library-game-select');
-    const btn = document.getElementById('load-famous-game');
 
     // Si ya está en caché, poblar directamente
     if (libraryGamesCache[playerId]) {
@@ -12888,7 +13100,6 @@ function loadLibraryPlayerGames(playerId, playerName) {
     loadingOpt.textContent = `⏳ Cargando partidas de ${playerName}…`;
     libSel.appendChild(loadingOpt);
     libSel.disabled = true;
-    if (btn) btn.disabled = true;
 
     fetch('games/jugadors/' + playerId + '/games.pgn')
         .then(r => {
@@ -12919,9 +13130,10 @@ function loadLibraryPlayerGames(playerId, playerName) {
         });
 }
 
-function populateLibraryGameSelect(playerId, playerName) {
+function populateLibraryGameSelect(playerId, playerName, preserveSelection = false) {
     const libSel = document.getElementById('library-game-select');
     const games = libraryGamesCache[playerId] || [];
+    const previousValue = preserveSelection ? libSel.value : '';
 
     libSel.innerHTML = '';
     const defaultOpt = document.createElement('option');
@@ -12933,7 +13145,7 @@ function populateLibraryGameSelect(playerId, playerName) {
         const isWhite = g.white && g.white.toLowerCase().includes(playerId.toLowerCase());
         return isWhite ? g.black : g.white;
     };
-    const sortedGames = [...games].sort((a, b) => {
+    const alphabeticCompare = (a, b) => {
         const opponentDiff = (getOpponent(a) || '').localeCompare(
             getOpponent(b) || '',
             'es',
@@ -12943,7 +13155,47 @@ function populateLibraryGameSelect(playerId, playerName) {
         const dateDiff = (a.date || '').localeCompare(b.date || '');
         if (dateDiff) return dateDiff;
         return (a.event || '').localeCompare(b.event || '', 'es', { sensitivity: 'base' });
+    };
+    const sortMode = document.getElementById('library-game-sort')?.value || 'alphabetic';
+    const normalizedDate = game => {
+        const match = String(game.date || '').match(/^(\d{4})\.(\d{2}|\?\?)\.(\d{2}|\?\?)/);
+        if (!match) return '';
+        return match[1] + (match[2] === '??' ? '00' : match[2]) +
+            (match[3] === '??' ? '00' : match[3]);
+    };
+    const resultRank = game => {
+        const isWhite = game.white && game.white.toLowerCase().includes(playerId.toLowerCase());
+        if (game.result === '1-0') return isWhite ? 3 : 1;
+        if (game.result === '0-1') return isWhite ? 1 : 3;
+        if (game.result === '1/2-1/2') return 2;
+        return 0;
+    };
+    const sortedGames = [...games].sort((a, b) => {
+        if (sortMode === 'date') {
+            const dateDiff = normalizedDate(b).localeCompare(normalizedDate(a));
+            return dateDiff || alphabeticCompare(a, b);
+        }
+        if (sortMode === 'result') {
+            return resultRank(b) - resultRank(a) || alphabeticCompare(a, b);
+        }
+        if (sortMode === 'event') {
+            const eventDiff = (a.event || '').localeCompare(
+                b.event || '',
+                'es',
+                { sensitivity: 'base' }
+            );
+            return eventDiff || alphabeticCompare(a, b);
+        }
+        return alphabeticCompare(a, b);
     });
+    const tableSortModes = {
+        alphabetic: ['opponent', 'asc'],
+        result: ['result', 'desc'],
+        date: ['year', 'desc'],
+        event: ['event', 'asc']
+    };
+    [libSel.dataset.tableSort, libSel.dataset.tableSortDirection] =
+        tableSortModes[sortMode] || tableSortModes.alphabetic;
 
     const fragment = document.createDocumentFragment();
     for (const g of sortedGames) {
@@ -12956,21 +13208,50 @@ function populateLibraryGameSelect(playerId, playerName) {
         const opt = document.createElement('option');
         opt.value = 'lib:' + playerId + ':' + g.idx;
         opt.textContent = `${colorIcon} vs ${opponent || '?'} ${resultIcon}${year ? ' ' + year : ''}${g.event ? ' — ' + g.event : ''}`;
+        opt.dataset.opponent = `${colorIcon} vs ${opponent || '?'}`;
+        opt.dataset.result = g.result === '1/2-1/2' ? '½-½' : `${resultIcon} ${g.result || '—'}`;
+        opt.dataset.resultOrder = String(resultRank(g));
+        opt.dataset.year = /^\d{4}$/.test(year) ? year : '—';
+        opt.dataset.date = normalizedDate(g);
+        opt.dataset.event = g.event && g.event !== '?' ? g.event : '—';
         fragment.appendChild(opt);
     }
     libSel.appendChild(fragment);
-    libSel.value = '';
+    libSel.value = previousValue && [...libSel.options].some(opt => opt.value === previousValue)
+        ? previousValue
+        : '';
     onLibraryGameSelect();
 }
 
 function onLibraryGameSelect() {
     const libSel = document.getElementById('library-game-select');
-    const btn = document.getElementById('load-famous-game');
-    if (btn) btn.disabled = !libSel || !libSel.value;
+    if (libSel && libSel.value) loadFamousGame();
+}
+
+function resetSelectedFamousGameSelect() {
+    const select = document.getElementById('famous-game-select');
+    if (!select) return;
+
+    select.value = '';
+    localStorage.removeItem('selectedFamousGame');
+    select.dispatchEvent(new Event('change', { bubbles: true }));
 }
 
 // Biblioteca de partidas de la Federació Catalana d'Escacs (panel Lliga CAT)
 const fceGamesCache = {};
+
+function formatFcePlayerDisplayName(name) {
+    const original = String(name || '').trim();
+    const match = original.match(/^((?:[A-Z]\.\s*)+)([^,]+)(?:,\s*(.+))?$/i);
+    if (!match) return original;
+
+    const initials = (match[1].match(/[A-Z](?=\.)/gi) || [])
+        .map(initial => initial.toUpperCase() + '.')
+        .join(' ');
+    const surname = match[2].trim();
+    const detail = match[3] ? match[3].trim() : '';
+    return `${surname}, ${initials}${detail ? ' — ' + detail : ''}`;
+}
 
 function populateFcePlayerSelect() {
     const select = document.getElementById('fce-player-select');
@@ -12980,15 +13261,41 @@ function populateFcePlayerSelect() {
         .then(r => r.ok ? r.json() : null)
         .then(data => {
             if (!Array.isArray(data) || data.length === 0) return;
-            const sorted = [...data].sort((a, b) =>
-                a.name.localeCompare(b.name, 'es', { sensitivity: 'base' })
+            const sorted = data.map(player => ({
+                ...player,
+                displayName: formatFcePlayerDisplayName(player.name)
+            })).sort((a, b) =>
+                a.displayName.localeCompare(b.displayName, 'es', { sensitivity: 'base' })
             );
-            const fragment = document.createDocumentFragment();
+            const groups = new Map();
             for (const player of sorted) {
-                const opt = document.createElement('option');
-                opt.value = player.id;
-                opt.textContent = `${player.name} (${player.gameCount.toLocaleString()})`;
-                fragment.appendChild(opt);
+                const normalizedName = player.displayName
+                    .normalize('NFD')
+                    .replace(/[\u0300-\u036f]/g, '')
+                    .toUpperCase();
+                const initialMatch = normalizedName.match(/[A-Z]/);
+                const initial = initialMatch ? initialMatch[0] : '#';
+                if (!groups.has(initial)) groups.set(initial, []);
+                groups.get(initial).push(player);
+            }
+
+            const fragment = document.createDocumentFragment();
+            const initials = [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'];
+            if (groups.has('#')) initials.push('#');
+            for (const initial of initials) {
+                const players = groups.get(initial);
+                if (!players || players.length === 0) continue;
+                const optgroup = document.createElement('optgroup');
+                optgroup.label = initial;
+                for (const player of players) {
+                    const opt = document.createElement('option');
+                    opt.value = player.id;
+                    opt.textContent = `${player.displayName} (${player.gameCount.toLocaleString()})`;
+                    opt.dataset.playerName = player.name;
+                    opt.dataset.playerLabel = player.displayName;
+                    optgroup.appendChild(opt);
+                }
+                fragment.appendChild(optgroup);
             }
             select.appendChild(fragment);
         })
@@ -12997,9 +13304,7 @@ function populateFcePlayerSelect() {
 
 function showFceGameSection(show) {
     const section = document.getElementById('fce-game-section');
-    const btn = document.getElementById('load-fce-game');
     if (section) section.style.display = show ? '' : 'none';
-    if (btn) btn.style.display = show ? '' : 'none';
 }
 
 function onFcePlayerSelect() {
@@ -13014,27 +13319,27 @@ function onFcePlayerSelect() {
     }
 
     showFceGameSection(true);
-    const playerName = playerSelect.options[playerSelect.selectedIndex].textContent
-        .replace(/\s*\([\d.,]+\)$/, '');
-    loadFcePlayerGames(playerId, playerName);
+    const selectedOption = playerSelect.options[playerSelect.selectedIndex];
+    const fallbackName = selectedOption.textContent.replace(/\s*\([\d.,]+\)$/, '');
+    const playerName = selectedOption.dataset.playerName || fallbackName;
+    const playerLabel = selectedOption.dataset.playerLabel || fallbackName;
+    loadFcePlayerGames(playerId, playerName, playerLabel);
 }
 
-function loadFcePlayerGames(playerId, playerName) {
+function loadFcePlayerGames(playerId, playerName, playerLabel) {
     const gameSelect = document.getElementById('fce-game-select');
-    const btn = document.getElementById('load-fce-game');
 
     if (fceGamesCache[playerId]) {
-        populateFceGameSelect(playerId, playerName);
+        populateFceGameSelect(playerId, playerName, playerLabel);
         return;
     }
 
     gameSelect.innerHTML = '';
     const loadingOpt = document.createElement('option');
     loadingOpt.value = '';
-    loadingOpt.textContent = `⏳ Cargando partidas de ${playerName}…`;
+    loadingOpt.textContent = `⏳ Cargando partidas de ${playerLabel}…`;
     gameSelect.appendChild(loadingOpt);
     gameSelect.disabled = true;
-    if (btn) btn.disabled = true;
 
     fetch('games/FCE/' + playerId + '/games.pgn')
         .then(r => {
@@ -13057,7 +13362,7 @@ function loadFcePlayerGames(playerId, playerName) {
             // Evita que una descarga lenta sustituya las partidas de otro jugador.
             if (document.getElementById('fce-player-select').value === playerId) {
                 gameSelect.disabled = false;
-                populateFceGameSelect(playerId, playerName);
+                populateFceGameSelect(playerId, playerName, playerLabel);
             }
         })
         .catch(err => {
@@ -13078,9 +13383,11 @@ function normalizeFcePlayerName(value) {
         .trim();
 }
 
-function populateFceGameSelect(playerId, playerName) {
+function populateFceGameSelect(playerId, playerName, playerLabel) {
     const gameSelect = document.getElementById('fce-game-select');
     const games = fceGamesCache[playerId] || [];
+    gameSelect.dataset.tableSort = 'opponent';
+    gameSelect.dataset.tableSortDirection = 'asc';
     const playerNorm = normalizeFcePlayerName(playerName);
     const isPlayerWhite = game => {
         const whiteNorm = normalizeFcePlayerName(game.white);
@@ -13105,7 +13412,7 @@ function populateFceGameSelect(playerId, playerName) {
     gameSelect.innerHTML = '';
     const defaultOpt = document.createElement('option');
     defaultOpt.value = '';
-    defaultOpt.textContent = `— ${playerName} (${games.length.toLocaleString()} partidas) —`;
+    defaultOpt.textContent = `— ${playerLabel} (${games.length.toLocaleString()} partidas) —`;
     gameSelect.appendChild(defaultOpt);
 
     const fragment = document.createDocumentFragment();
@@ -13119,6 +13426,12 @@ function populateFceGameSelect(playerId, playerName) {
         const opt = document.createElement('option');
         opt.value = 'fce:' + playerId + ':' + game.idx;
         opt.textContent = `${colorIcon} vs ${opponent || '?'} ${resultIcon}${year ? ' ' + year : ''}${game.event ? ' — ' + game.event : ''}`;
+        opt.dataset.opponent = `${colorIcon} vs ${opponent || '?'}`;
+        opt.dataset.result = game.result === '1/2-1/2' ? '½-½' : `${resultIcon} ${game.result || '—'}`;
+        opt.dataset.resultOrder = resultIcon === '✓' ? '3' : (resultIcon === '½' ? '2' : '1');
+        opt.dataset.year = /^\d{4}$/.test(year) ? year : '—';
+        opt.dataset.date = game.date || '';
+        opt.dataset.event = game.event && game.event !== '?' ? game.event : '—';
         fragment.appendChild(opt);
     }
     gameSelect.appendChild(fragment);
@@ -13128,8 +13441,7 @@ function populateFceGameSelect(playerId, playerName) {
 
 function onFceGameSelect() {
     const gameSelect = document.getElementById('fce-game-select');
-    const btn = document.getElementById('load-fce-game');
-    if (btn) btn.disabled = !gameSelect || !gameSelect.value;
+    if (gameSelect && gameSelect.value) loadFceGame();
 }
 
 function loadFceGame() {
@@ -13143,6 +13455,7 @@ function loadFceGame() {
     const selectedGame = games && !isNaN(gameIdx) ? games[gameIdx] : null;
     if (!selectedGame || !selectedGame.pgn) return;
 
+    resetSelectedFamousGameSelect();
     if (puzzleMode) endPuzzleMode();
     if (learnMode) endLearnMode();
     dismissPostGameAnalysisUI();
@@ -13222,6 +13535,7 @@ function loadFamousGame() {
         const g = games[gameIdx];
         if (!g || !g.pgn) return;
 
+        resetSelectedFamousGameSelect();
         if (puzzleMode) endPuzzleMode();
         if (learnMode) endLearnMode();
         dismissPostGameAnalysisUI();
@@ -14392,10 +14706,42 @@ function fallbackCopy(text, callback) {
     finally { document.body.removeChild(ta); }
 }
 
-function shareFacebookClick(fbUrl, msg) {
+async function shareFacebookClick(fbUrl, msg) {
     if (window.grantEloOnShareComplete) window.grantEloOnShareComplete();
     // El texto llega con \n literales desde el atributo onclick: los restauramos.
     const text = (msg || '').replace(/\\n/g, '\n');
+    const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+
+    // En smartphone se comparte el PNG exacto que muestra la previsualización.
+    // El sharer web de Facebook solo recibe una URL y vuelve a construir la
+    // tarjeta Open Graph, lo que puede provocar recortes o imágenes en caché.
+    if (isMobile && navigator.share) {
+        const imgEl = document.getElementById('share-modal-preview');
+        if (imgEl && imgEl.src) {
+            try {
+                const response = await fetch(imgEl.src);
+                const blob = await response.blob();
+                const imageBlob = blob.type === 'image/png'
+                    ? blob
+                    : new Blob([blob], { type: 'image/png' });
+                const file = new File([imageBlob], 'ajedrezia-facebook.png', { type: 'image/png' });
+                const canShareFile = !navigator.canShare || navigator.canShare({ files: [file] });
+                if (canShareFile) {
+                    await navigator.share({
+                        title: 'AjedrezIA',
+                        text,
+                        files: [file]
+                    });
+                    return;
+                }
+            } catch (error) {
+                // Si el usuario cancela el diálogo nativo, no se abre además
+                // el sharer web de Facebook.
+                if (error && error.name === 'AbortError') return;
+            }
+        }
+    }
+
     const copy = () => {
         if (navigator.clipboard && navigator.clipboard.writeText) {
             navigator.clipboard.writeText(text).catch(() => {});

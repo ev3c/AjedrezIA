@@ -436,18 +436,17 @@ try {
                     </div>
                     <div class="famous-panel-divider"><span class="fpd-title">📚 Biblioteca de jugadores</span><span class="fpd-sub">~250 jugadores · ~268.000 partidas</span></div>
                     <div class="config-section">
-                        <label>Selecciona un jugador:</label>
+                        <label class="famous-section-label">Selecciona un jugador:</label>
                         <select id="famous-player-select" class="select">
                             <option value="">— Todos los jugadores —</option>
                         </select>
                     </div>
                     <div class="config-section" id="library-game-section" style="display:none">
-                        <label>Selecciona una partida:</label>
-                        <select id="library-game-select" class="select">
+                        <label class="famous-section-label">Selecciona una partida:</label>
+                        <select id="library-game-select" class="select select-game-table" aria-label="Selecciona una partida">
                             <option value="">— Elegir partida —</option>
                         </select>
                     </div>
-                    <button id="load-famous-game" class="btn btn-primary" style="display:none" disabled>Cargar Partida</button>
                     </div>
                 </div>
 
@@ -455,18 +454,17 @@ try {
                     <h2 class="panel-toggle">🏁 Partides Lliga CAT <span class="panel-arrow">▲</span></h2>
                     <div class="panel-body">
                         <div class="config-section">
-                            <label>Selecciona un jugador:</label>
-                            <select id="fce-player-select" class="select">
+                            <label class="famous-section-label">Selecciona un jugador:</label>
+                            <select id="fce-player-select" class="select select-alphabetic">
                                 <option value="">— Todos los jugadores —</option>
                             </select>
                         </div>
                         <div class="config-section" id="fce-game-section" style="display:none">
-                            <label>Selecciona una partida:</label>
-                            <select id="fce-game-select" class="select">
+                            <label class="famous-section-label">Selecciona una partida:</label>
+                            <select id="fce-game-select" class="select select-game-table" aria-label="Selecciona una partida">
                                 <option value="">— Elegir partida —</option>
                             </select>
                         </div>
-                        <button id="load-fce-game" class="btn btn-primary" style="display:none" disabled>Cargar Partida</button>
                     </div>
                 </div>
 
