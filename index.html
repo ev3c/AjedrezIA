@@ -119,7 +119,7 @@ try {
                     <h2 class="panel-toggle">📖 Entrenar Aperturas <span class="panel-arrow">▲</span></h2>
                     <div class="panel-body">
                     <div class="config-section">
-                        <label>Selecciona una apertura:</label>
+                        <label class="famous-section-label">Selecciona una apertura:</label>
                         <select id="opening-select" class="select">
                             <option value="">— Modo libre —</option>
                             <optgroup label="1.e4 e5 — Juego Abierto">
@@ -194,7 +194,7 @@ try {
                     <h2 class="panel-toggle">🧩 Problemas de Ajedrez <span class="panel-arrow">▲</span></h2>
                     <div class="panel-body">
                     <div class="config-section">
-                        <label>Categoría:</label>
+                        <label class="famous-section-label">Categoría:</label>
                         <select id="puzzle-theme-select" class="select">
                             <option value="all">— Todas —</option>
                             <option value="mate1">♔ Mate en 1</option>
@@ -220,9 +220,6 @@ try {
                         <p id="puzzle-theme-label" class="training-moves"></p>
                         <p id="puzzle-instruction" class="training-desc" style="font-style:normal;color:#1e40af;font-weight:600;"></p>
                         <div id="puzzle-feedback" class="puzzle-feedback" style="display:none;"></div>
-                        <div style="margin-top:8px;">
-                            <button id="load-puzzle" class="btn btn-primary" style="width:100%">🧩 Cargar Problemas</button>
-                        </div>
                         <div class="puzzle-actions" style="margin-top:6px;">
                             <button id="puzzle-hint" class="btn btn-yellow btn-sm" disabled>💡 Pista</button>
                             <button id="puzzle-solution" class="btn btn-blue btn-sm" disabled>👁 Ver solución</button>
@@ -454,6 +451,7 @@ try {
                     <h2 class="panel-toggle">🏁 Partides Lliga CAT <span class="panel-arrow">▲</span></h2>
                     <div class="panel-body">
                         <div class="config-section">
+                            <div id="fce-library-summary" class="fce-library-summary" aria-live="polite">Cargando biblioteca…</div>
                             <label class="famous-section-label">Selecciona un jugador:</label>
                             <select id="fce-player-select" class="select select-alphabetic">
                                 <option value="">— Todos los jugadores —</option>

@@ -4063,6 +4063,10 @@ function bindPuzzleToBoardAndUI(opts) {
 
     var turnColor = game.currentTurn === 'white' ? 'white' : 'black';
     playerColor = turnColor;
+    // En problemas, el lado al que le toca mover se muestra siempre abajo.
+    manualBoardFlipped = false;
+    var flipBoardBtn = document.getElementById('flip-board-btn');
+    if (flipBoardBtn) flipBoardBtn.classList.remove('flipped');
 
     lastMoveSquares = { from: null, to: null };
     bestMoveSquares = { from: null, to: null };
@@ -4138,7 +4142,7 @@ function applyOnlineFromQueryString() {
 
     // Limpiar la URL sin recargar
     const cleanUrl = window.location.pathname;
-    history.replaceState(null, '', cleanUrl);
+    history.replaceState(history.state, '', cleanUrl);
 
     const colorRaw   = inviteData && inviteData.c ? inviteData.c : 'random';
     const tcRaw      = inviteData && inviteData.t ? inviteData.t : '5+0';
@@ -4283,7 +4287,7 @@ function applyMovesFromQueryString() {
         setTimeout(function () { makeAIMove(_aiGen); }, 500);
     }
     try {
-        history.replaceState(null, '', window.location.pathname + (window.location.hash || ''));
+        history.replaceState(history.state, '', window.location.pathname + (window.location.hash || ''));
     } catch (e) { /* file:// o restricción */ }
 }
 
@@ -4300,7 +4304,7 @@ function applyMasterFromQueryString() {
     if (!famous || !famous.pgn) {
         showMessage('Enlace: partida maestra desconocida. Clave: ' + String(raw).trim(), 'warning', 4000);
         try {
-            history.replaceState(null, '', window.location.pathname + (window.location.hash || ''));
+            history.replaceState(history.state, '', window.location.pathname + (window.location.hash || ''));
         } catch (e) { /* file:// o restricción */ }
         return false;
     }
@@ -4353,7 +4357,7 @@ function applyMasterFromQueryString() {
         setTimeout(() => boardContainer.scrollIntoView({ behavior: 'smooth', block: 'start' }), 80);
     }
     try {
-        history.replaceState(null, '', window.location.pathname + (window.location.hash || ''));
+        history.replaceState(history.state, '', window.location.pathname + (window.location.hash || ''));
     } catch (e) { /* file:// o restricción */ }
     return true;
 }
@@ -4371,7 +4375,7 @@ function applyOpeningFromQueryString() {
     if (!OPENING_TRAINING[key]) {
         showMessage('Enlace: apertura desconocida. Clave: ' + String(raw).trim(), 'warning', 4000);
         try {
-            history.replaceState(null, '', window.location.pathname + (window.location.hash || ''));
+            history.replaceState(history.state, '', window.location.pathname + (window.location.hash || ''));
         } catch (e) { /* file:// o restricción */ }
         return false;
     }
@@ -4398,7 +4402,7 @@ function applyOpeningFromQueryString() {
         setTimeout(function () { boardContainer.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 80);
     }
     try {
-        history.replaceState(null, '', window.location.pathname + (window.location.hash || ''));
+        history.replaceState(history.state, '', window.location.pathname + (window.location.hash || ''));
     } catch (e) { /* file:// o restricción */ }
     return true;
 }
@@ -4420,7 +4424,7 @@ async function applyPuzzleFromQueryString() {
     if (!p || !p.fen) {
         showMessage('Enlace: problema de ajedrez desconocido. Id: ' + id, 'warning', 4000);
         try {
-            history.replaceState(null, '', window.location.pathname + (window.location.hash || ''));
+            history.replaceState(history.state, '', window.location.pathname + (window.location.hash || ''));
         } catch (e) { /* file:// o restricción */ }
         return false;
     }
@@ -4469,7 +4473,7 @@ async function applyPuzzleFromQueryString() {
         setTimeout(function () { boardContainer.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 80);
     }
     try {
-        history.replaceState(null, '', window.location.pathname + (window.location.hash || ''));
+        history.replaceState(history.state, '', window.location.pathname + (window.location.hash || ''));
     } catch (e) { /* file:// o restricción */ }
     return true;
 }
@@ -4539,7 +4543,7 @@ function applyPuzzleInlineFromQueryString() {
     if (!p || !p.fen) {
         showMessage('Enlace de problema inválido o corrupto.', 'warning', 4000);
         try {
-            history.replaceState(null, '', window.location.pathname + (window.location.hash || ''));
+            history.replaceState(history.state, '', window.location.pathname + (window.location.hash || ''));
         } catch (e) { /* file:// o restricción */ }
         return false;
     }
@@ -4564,7 +4568,7 @@ function applyPuzzleInlineFromQueryString() {
         setTimeout(function () { boardContainer.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 80);
     }
     try {
-        history.replaceState(null, '', window.location.pathname + (window.location.hash || ''));
+        history.replaceState(history.state, '', window.location.pathname + (window.location.hash || ''));
     } catch (e) { /* file:// o restricción */ }
     return true;
 }
@@ -7595,12 +7599,21 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
-    '3.5.4': [
-        'Los menús de partidas de Partidas Maestras y Lliga CAT muestran columnas clicables para ordenar por Rival, Resultado, Año o Torneo',
-        'Partidas Maestras y Lliga CAT cargan automáticamente cada partida al seleccionarla',
+    '3.5.21': [
+        'El texto de compartir muestra bajo el enlace hashtags comunes para Facebook, X, Instagram y TikTok',
+        'Compartir permite elegir entre imagen y vídeo antes de publicar',
+        'Los vídeos reproducen las jugadas de aperturas y partidas, y la solución de los problemas',
+        'TikTok, Instagram y Correo comparten el archivo elegido mediante el menú nativo en smartphone',
+        'Los menús de partidas muestran B ♔ o N ♚ para el color; en Lliga CAT el orden alfabético usa solo el nombre del rival',
+        'Partides Lliga CAT muestra el número aproximado de jugadores y partidas de la biblioteca',
+        'Problemas de Ajedrez carga automáticamente un problema al seleccionar la categoría',
         'Partides Lliga CAT: jugadores agrupados en secciones alfabéticas expandibles de A a Z',
         'Smartphone Android: el botón Atrás cierra primero cualquier modal abierto y siempre solicita confirmación antes de salir',
-        'Facebook en smartphone: comparte directamente el PNG generado para evitar recortes o imágenes antiguas en la publicación',
+        '... y más mejoras en AjedrezIA ...',
+    ],
+    '3.5.4': [
+        'Partidas Maestras: selector para ordenar las partidas por rival alfabéticamente o por fecha más reciente',
+        'Partides Lliga CAT: los jugadores se muestran como «Apellido, inicial» y quedan agrupados por apellido',
         '... y más mejoras en AjedrezIA ...',
     ],
     '3.5.2': [
@@ -11165,6 +11178,16 @@ function updateStatsDisplay() {
 
 // Registrar resultado de partida
 function recordGameResult(result) {
+    if (game) {
+        if (result === 'draw') {
+            game.shareResult = '1/2-1/2';
+        } else if (playerColor === 'white' || playerColor === 'black') {
+            const winnerColor = result === 'win'
+                ? playerColor
+                : (playerColor === 'white' ? 'black' : 'white');
+            game.shareResult = winnerColor === 'black' ? '0-1' : '1-0';
+        }
+    }
     if (playerColor === 'both') return 0;
     if (result === 'win') {
         stats.wins++;
@@ -11405,17 +11428,23 @@ function closeTopModalForAndroidBack() {
 function setupAndroidBackExitConfirmation() {
     const isAndroidSmartphone =
         /Android/i.test(navigator.userAgent) &&
-        window.matchMedia('(max-width: 768px)').matches;
+        (
+            window.matchMedia('(max-width: 1024px)').matches ||
+            window.matchMedia('(pointer: coarse)').matches ||
+            Boolean(navigator.userAgentData && navigator.userAgentData.mobile)
+        );
     if (!isAndroidSmartphone || !window.history || !window.history.pushState) return;
 
     const guardKey = 'ajedreziaExitGuard';
-    const guardedUrl = window.location.href;
     let exitInProgress = false;
 
     // Añade una entrada interna para que el botón «Atrás» de Android dispare
     // popstate antes de abandonar la web/PWA. No duplica entradas al recargar.
-    if (!history.state || !history.state[guardKey]) {
-        history.pushState({ [guardKey]: true }, '', guardedUrl);
+    if (!history.state || typeof history.state !== 'object' || !history.state[guardKey]) {
+        const currentState = history.state && typeof history.state === 'object'
+            ? history.state
+            : {};
+        history.pushState({ ...currentState, [guardKey]: true }, '', window.location.href);
     }
 
     window.addEventListener('popstate', function handleAndroidBack() {
@@ -11429,7 +11458,8 @@ function setupAndroidBackExitConfirmation() {
         // Se repone inmediatamente la entrada protectora. Así, incluso si el
         // usuario vuelve a pulsar Atrás con el diálogo abierto, nunca sale sin
         // pasar por una confirmación.
-        history.pushState({ [guardKey]: true }, '', guardedUrl);
+        const cleanGuardedUrl = window.location.pathname + (window.location.hash || '');
+        history.pushState({ [guardKey]: true }, '', cleanGuardedUrl);
 
         // Si hay un modal abierto, Atrás actúa como su cruz o como pulsar fuera.
         // La siguiente pulsación, ya sin modal, mostrará la confirmación de salida.
@@ -11841,13 +11871,9 @@ document.addEventListener('DOMContentLoaded', () => {
     loadPuzzleStats();
     applyPuzzleCategory(loadPuzzleCategory());
     document.getElementById('puzzle-theme-select').addEventListener('change', function() {
+        hideVariantsPopup(false);
         puzzleFilter.theme = this.value;
         savePuzzleCategory(this.value);
-    });
-    document.getElementById('load-puzzle').addEventListener('click', function() {
-        hideVariantsPopup(false);
-        puzzleFilter.theme = document.getElementById('puzzle-theme-select').value;
-        savePuzzleCategory(puzzleFilter.theme);
         startNewPuzzle(true);
     });
     document.getElementById('puzzle-hint').addEventListener('click', puzzleShowHint);
@@ -11856,7 +11882,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('puzzle-board-solution').addEventListener('click', puzzleShowSolution);
 
     (function() {
-        const PUZZLE_SCROLL_BOARD_IDS = ['load-puzzle', 'puzzle-hint', 'puzzle-solution'];
+        const PUZZLE_SCROLL_BOARD_IDS = ['puzzle-hint', 'puzzle-solution'];
         document.getElementById('puzzles-panel').addEventListener('click', function(e) {
             const btn = e.target.closest('button');
             if (!btn) return;
@@ -11871,7 +11897,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 scrollToResponsivePanel(panel);
             }
         });
-        // Al cambiar categoría no se mueve el panel ni se hace scroll
     })();
     document.getElementById('puzzle-prev-board').addEventListener('click', function() {
         puzzleFilter.theme = document.getElementById('puzzle-theme-select').value;
@@ -12140,6 +12165,15 @@ document.addEventListener('DOMContentLoaded', () => {
 function initCustomDropdowns() {
     const mobileQuery = '(max-width: 1024px) and (orientation: portrait), (max-width: 768px)';
     const isMobile = window.matchMedia(mobileQuery).matches;
+    const reselectableSelectIds = new Set([
+        'opening-select',
+        'puzzle-theme-select',
+        'famous-game-select',
+        'famous-player-select',
+        'library-game-select',
+        'fce-player-select',
+        'fce-game-select'
+    ]);
 
     if (!document.getElementById('mobile-select-backdrop')) {
         const bd = document.createElement('div');
@@ -12157,6 +12191,9 @@ function initCustomDropdowns() {
         if (!select.closest('.custom-select-wrap')) {
             const wrap = document.createElement('div');
             wrap.className = 'custom-select-wrap';
+            if (reselectableSelectIds.has(select.id)) {
+                wrap.classList.add('custom-select-reselect');
+            }
             if (select.classList.contains('select-alphabetic')) {
                 wrap.classList.add('custom-select-alphabetic');
             }
@@ -12217,6 +12254,7 @@ function initCustomDropdowns() {
                     const tableHeader = document.createElement('div');
                     tableHeader.className = 'custom-select-table-header';
                     const columns = [
+                        { key: 'side', label: '♔/♚', ariaLabel: 'color' },
                         { key: 'opponent', label: 'Rival' },
                         { key: 'result', label: 'Resultado' },
                         { key: 'year', label: 'Año' },
@@ -12230,7 +12268,7 @@ function initCustomDropdowns() {
                         button.className = 'custom-select-table-sort';
                         const active = column.key === activeSort;
                         button.textContent = column.label + (active ? (activeDirection === 'asc' ? ' ▲' : ' ▼') : '');
-                        button.setAttribute('aria-label', `Ordenar por ${column.label}`);
+                        button.setAttribute('aria-label', `Ordenar por ${column.ariaLabel || column.label}`);
                         button.setAttribute('aria-sort', active
                             ? (activeDirection === 'asc' ? 'ascending' : 'descending')
                             : 'none');
@@ -12256,6 +12294,7 @@ function initCustomDropdowns() {
                     if (gameTable && opt.value && opt.dataset.opponent) {
                         o.classList.add('custom-select-table-row');
                         const values = [
+                            opt.dataset.side || '—',
                             opt.dataset.opponent,
                             opt.dataset.result || '—',
                             opt.dataset.year || '—',
@@ -13208,7 +13247,8 @@ function populateLibraryGameSelect(playerId, playerName, preserveSelection = fal
         const opt = document.createElement('option');
         opt.value = 'lib:' + playerId + ':' + g.idx;
         opt.textContent = `${colorIcon} vs ${opponent || '?'} ${resultIcon}${year ? ' ' + year : ''}${g.event ? ' — ' + g.event : ''}`;
-        opt.dataset.opponent = `${colorIcon} vs ${opponent || '?'}`;
+        opt.dataset.side = `${isWhite ? 'B' : 'N'} ${colorIcon}`;
+        opt.dataset.opponent = opponent || '?';
         opt.dataset.result = g.result === '1/2-1/2' ? '½-½' : `${resultIcon} ${g.result || '—'}`;
         opt.dataset.resultOrder = String(resultRank(g));
         opt.dataset.year = /^\d{4}$/.test(year) ? year : '—';
@@ -13261,6 +13301,16 @@ function populateFcePlayerSelect() {
         .then(r => r.ok ? r.json() : null)
         .then(data => {
             if (!Array.isArray(data) || data.length === 0) return;
+            const summary = document.getElementById('fce-library-summary');
+            if (summary) {
+                const formatCount = value => String(Math.trunc(value))
+                    .replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+                const totalGames = data.reduce(
+                    (total, player) => total + (Number(player.gameCount) || 0),
+                    0
+                );
+                summary.textContent = `~${formatCount(data.length)} jugadores · ~${formatCount(totalGames)} partidas`;
+            }
             const sorted = data.map(player => ({
                 ...player,
                 displayName: formatFcePlayerDisplayName(player.name)
@@ -13299,7 +13349,10 @@ function populateFcePlayerSelect() {
             }
             select.appendChild(fragment);
         })
-        .catch(() => { /* biblioteca FCE no disponible */ });
+        .catch(() => {
+            const summary = document.getElementById('fce-library-summary');
+            if (summary) summary.textContent = 'Biblioteca no disponible';
+        });
 }
 
 function showFceGameSection(show) {
@@ -13396,7 +13449,11 @@ function populateFceGameSelect(playerId, playerName, playerLabel) {
                 whiteNorm.includes(playerNorm) || playerNorm.includes(whiteNorm)
             ));
     };
-    const getOpponent = game => isPlayerWhite(game) ? game.black : game.white;
+    const cleanOpponent = value => String(value || '')
+        .replace(/^[♔♚]\s*/, '')
+        .replace(/^\s*vs\.?\s+/i, '')
+        .trim();
+    const getOpponent = game => cleanOpponent(isPlayerWhite(game) ? game.black : game.white);
     const sortedGames = [...games].sort((a, b) => {
         const opponentDiff = (getOpponent(a) || '').localeCompare(
             getOpponent(b) || '',
@@ -13426,7 +13483,8 @@ function populateFceGameSelect(playerId, playerName, playerLabel) {
         const opt = document.createElement('option');
         opt.value = 'fce:' + playerId + ':' + game.idx;
         opt.textContent = `${colorIcon} vs ${opponent || '?'} ${resultIcon}${year ? ' ' + year : ''}${game.event ? ' — ' + game.event : ''}`;
-        opt.dataset.opponent = `${colorIcon} vs ${opponent || '?'}`;
+        opt.dataset.side = `${isWhite ? 'B' : 'N'} ${colorIcon}`;
+        opt.dataset.opponent = opponent || '?';
         opt.dataset.result = game.result === '1/2-1/2' ? '½-½' : `${resultIcon} ${game.result || '—'}`;
         opt.dataset.resultOrder = resultIcon === '✓' ? '3' : (resultIcon === '½' ? '2' : '1');
         opt.dataset.year = /^\d{4}$/.test(year) ? year : '—';
@@ -13707,7 +13765,7 @@ function setOnlineActionsLocked(locked) {
         'start-opening-training',
         'view-opening',
         // Problemas
-        'load-puzzle', 'puzzle-hint', 'puzzle-solution',
+        'puzzle-hint', 'puzzle-solution',
     ];
     if (locked) {
         idsToLock.forEach(function(id) {
@@ -13721,7 +13779,7 @@ function setOnlineActionsLocked(locked) {
         ['new-game', 'new-game-mobile', 'copy-pgn', 'copy-pgn-board',
          'export-pgn', 'import-pgn', 'load-famous-game',
          'share-board', 'share-sidebar',
-         'load-puzzle', 'resume-game', 'resume-game-sidebar'].forEach(function(id) {
+         'resume-game', 'resume-game-sidebar'].forEach(function(id) {
             const el = document.getElementById(id);
             if (el) el.disabled = false;
         });
@@ -14706,41 +14764,46 @@ function fallbackCopy(text, callback) {
     finally { document.body.removeChild(ta); }
 }
 
+async function shareLinkWithSelectedMedia(targetUrl, msg, baseName) {
+    if (window.grantEloOnShareComplete) window.grantEloOnShareComplete();
+    const text = (msg || '').replace(/\\n/g, '\n');
+    if (shareSelectedFormat !== 'video') {
+        window.open(targetUrl, '_blank', 'noopener,noreferrer');
+        return;
+    }
+
+    const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+    const openedOnDesktop = !isMobile;
+    if (openedOnDesktop) window.open(targetUrl, '_blank', 'noopener,noreferrer');
+    try {
+        const file = await getSelectedShareMediaFile(baseName || 'ajedrezia');
+        const canShareFile = navigator.share && (!navigator.canShare || navigator.canShare({ files: [file] }));
+        if (isMobile && canShareFile) {
+            await navigator.share({ title: 'AjedrezIA', text, files: [file] });
+            return;
+        }
+
+        const downloadUrl = URL.createObjectURL(file);
+        const link = document.createElement('a');
+        link.href = downloadUrl;
+        link.download = file.name;
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
+        setTimeout(() => URL.revokeObjectURL(downloadUrl), 1000);
+        if (navigator.clipboard) await navigator.clipboard.writeText(text).catch(() => {});
+        if (!openedOnDesktop) window.open(targetUrl, '_blank', 'noopener,noreferrer');
+        showMessage('🎬 Vídeo descargado y texto copiado para la publicación', 'success', 3500);
+    } catch (error) {
+        if (error && error.name === 'AbortError') return;
+        if (!openedOnDesktop) window.open(targetUrl, '_blank', 'noopener,noreferrer');
+    }
+}
+
 async function shareFacebookClick(fbUrl, msg) {
     if (window.grantEloOnShareComplete) window.grantEloOnShareComplete();
     // El texto llega con \n literales desde el atributo onclick: los restauramos.
     const text = (msg || '').replace(/\\n/g, '\n');
-    const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-
-    // En smartphone se comparte el PNG exacto que muestra la previsualización.
-    // El sharer web de Facebook solo recibe una URL y vuelve a construir la
-    // tarjeta Open Graph, lo que puede provocar recortes o imágenes en caché.
-    if (isMobile && navigator.share) {
-        const imgEl = document.getElementById('share-modal-preview');
-        if (imgEl && imgEl.src) {
-            try {
-                const response = await fetch(imgEl.src);
-                const blob = await response.blob();
-                const imageBlob = blob.type === 'image/png'
-                    ? blob
-                    : new Blob([blob], { type: 'image/png' });
-                const file = new File([imageBlob], 'ajedrezia-facebook.png', { type: 'image/png' });
-                const canShareFile = !navigator.canShare || navigator.canShare({ files: [file] });
-                if (canShareFile) {
-                    await navigator.share({
-                        title: 'AjedrezIA',
-                        text,
-                        files: [file]
-                    });
-                    return;
-                }
-            } catch (error) {
-                // Si el usuario cancela el diálogo nativo, no se abre además
-                // el sharer web de Facebook.
-                if (error && error.name === 'AbortError') return;
-            }
-        }
-    }
 
     const copy = () => {
         if (navigator.clipboard && navigator.clipboard.writeText) {
@@ -14755,7 +14818,31 @@ async function shareFacebookClick(fbUrl, msg) {
         }
     };
     copy();
-    setTimeout(() => { window.open(fbUrl, '_blank', 'noopener,noreferrer'); }, 300);
+    const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+    const openedOnDesktop = shareSelectedFormat === 'video' && !isMobile;
+    if (openedOnDesktop) window.open(fbUrl, '_blank', 'noopener,noreferrer');
+    if (shareSelectedFormat === 'video') {
+        try {
+            const file = await getSelectedShareMediaFile('ajedrezia-facebook');
+            const canShareFile = navigator.share && (!navigator.canShare || navigator.canShare({ files: [file] }));
+            if (canShareFile) {
+                await navigator.share({ title: 'AjedrezIA', text, files: [file] });
+                return;
+            }
+            const downloadUrl = URL.createObjectURL(file);
+            const link = document.createElement('a');
+            link.href = downloadUrl;
+            link.download = file.name;
+            document.body.appendChild(link);
+            link.click();
+            link.remove();
+            setTimeout(() => URL.revokeObjectURL(downloadUrl), 1000);
+            showMessage('🎬 Vídeo descargado — súbelo al abrir Facebook', 'success', 3500);
+        } catch (error) {
+            if (error && error.name === 'AbortError') return;
+        }
+    }
+    if (!openedOnDesktop) setTimeout(() => { window.open(fbUrl, '_blank', 'noopener,noreferrer'); }, 300);
 }
 
 async function shareInstagramClick(msg) {
@@ -14763,22 +14850,39 @@ async function shareInstagramClick(msg) {
     const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
     const text = (msg || '').replace(/\\n/g, '\n');
 
-    // En móvil: intentar Web Share API con imagen si está disponible
+    // En móvil: compartir el formato elegido (imagen o vídeo).
     if (isMobile && navigator.share) {
-        const imgEl = document.getElementById('share-modal-preview');
-        if (imgEl && imgEl.src) {
-            try {
-                const resp = await fetch(imgEl.src);
-                const blob = await resp.blob();
-                const file = new File([blob], 'ajedrezia.png', { type: 'image/png' });
-                if (navigator.canShare && navigator.canShare({ files: [file] })) {
+        try {
+            const file = await getSelectedShareMediaFile('ajedrezia-instagram');
+            if (file) {
+                const canShareFile = !navigator.canShare || navigator.canShare({ files: [file] });
+                if (canShareFile) {
                     await navigator.share({ files: [file], text });
                     return;
                 }
-            } catch (e) {}
-        }
+            }
+        } catch (e) {}
         // Fallback móvil: share de texto
         try { await navigator.share({ text }); return; } catch (e) {}
+    }
+
+    // En escritorio los navegadores no copian vídeo al portapapeles: se descarga.
+    if (shareSelectedFormat === 'video') {
+        try {
+            const file = await getSelectedShareMediaFile('ajedrezia-instagram');
+            const downloadUrl = URL.createObjectURL(file);
+            const link = document.createElement('a');
+            link.href = downloadUrl;
+            link.download = file.name;
+            document.body.appendChild(link);
+            link.click();
+            link.remove();
+            setTimeout(() => URL.revokeObjectURL(downloadUrl), 1000);
+            if (navigator.clipboard) await navigator.clipboard.writeText(text);
+        } catch (e) {}
+        showMessage('🎬 Vídeo descargado — súbelo al abrir Instagram', 'success', 3500);
+        setTimeout(() => { window.open('https://www.instagram.com/', '_blank', 'noopener,noreferrer'); }, 400);
+        return;
     }
 
     // Escritorio (o fallback): copiar imagen al portapapeles y abrir Instagram
@@ -14800,13 +14904,109 @@ async function shareInstagramClick(msg) {
     setTimeout(() => { window.open('https://www.instagram.com/', '_blank', 'noopener,noreferrer'); }, 400);
 }
 
+async function shareTikTokClick(msg) {
+    if (window.grantEloOnShareComplete) window.grantEloOnShareComplete();
+    const text = (msg || '').replace(/\\n/g, '\n');
+    const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+
+    if (!isMobile) {
+        // TikTok no permite rellenar su publicador web mediante parámetros de
+        // URL. Se abre mientras aún existe el gesto del usuario para evitar el
+        // bloqueo de ventanas; después se prepara el texto y descarga el PNG.
+        window.open('https://www.tiktok.com/upload?lang=es', '_blank', 'noopener,noreferrer');
+
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(text).catch(() => fallbackCopy(text));
+        } else {
+            fallbackCopy(text);
+        }
+
+        try {
+            const file = await getSelectedShareMediaFile('ajedrezia-tiktok');
+            if (file) {
+                const downloadUrl = URL.createObjectURL(file);
+                const link = document.createElement('a');
+                link.href = downloadUrl;
+                link.download = file.name;
+                document.body.appendChild(link);
+                link.click();
+                link.remove();
+                setTimeout(() => URL.revokeObjectURL(downloadUrl), 1000);
+            }
+        } catch (error) {}
+
+        showMessage('TikTok abierto · texto copiado y archivo descargado para tu nuevo post', 'success', 4000);
+        return;
+    }
+
+    if (navigator.share) {
+        try {
+            const file = await getSelectedShareMediaFile('ajedrezia-tiktok');
+            if (file) {
+                const canShareFile = !navigator.canShare || navigator.canShare({ files: [file] });
+                if (canShareFile) {
+                    await navigator.share({ title: 'AjedrezIA', text, files: [file] });
+                    return;
+                }
+            }
+        } catch (error) {
+            if (error && error.name === 'AbortError') return;
+        }
+
+        try {
+            await navigator.share({ title: 'AjedrezIA', text });
+            return;
+        } catch (error) {
+            if (error && error.name === 'AbortError') return;
+        }
+    }
+
+    showMessage('TikTok no está disponible en el menú de compartir de este dispositivo', 'info', 3500);
+}
+
+async function shareEmailClick(emailUrl, msg) {
+    if (window.grantEloOnShareComplete) window.grantEloOnShareComplete();
+    const text = (msg || '').replace(/\\n/g, '\n');
+    const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+
+    if (isMobile && navigator.share) {
+        try {
+            const file = await getSelectedShareMediaFile('ajedrezia-correo');
+            if (file) {
+                const canShareFile = !navigator.canShare || navigator.canShare({ files: [file] });
+                if (canShareFile) {
+                    await navigator.share({
+                        title: 'AjedrezIA ♟',
+                        text,
+                        files: [file]
+                    });
+                    return;
+                }
+            }
+        } catch (error) {
+            if (error && error.name === 'AbortError') return;
+        }
+    }
+
+    if (/^mailto:/i.test(emailUrl)) {
+        window.location.href = emailUrl;
+    } else {
+        window.open(emailUrl, '_blank', 'noopener,noreferrer');
+    }
+}
+
 if (typeof window !== 'undefined') {
     window.grantEloOnShareComplete = grantEloOnShareComplete;
     window.copyShareMsg = copyShareMsg;
     window.copyShareUrl = copyShareUrl;
     window.copyShareImage = copyShareImage;
+    window.shareLinkWithSelectedMedia = shareLinkWithSelectedMedia;
     window.shareFacebookClick = shareFacebookClick;
     window.shareInstagramClick = shareInstagramClick;
+    window.shareTikTokClick = shareTikTokClick;
+    window.shareEmailClick = shareEmailClick;
+    window.selectShareFormat = selectShareFormat;
+    window.downloadShareVideo = downloadShareVideo;
 }
 
 function getShareEloSuffix() {
@@ -14821,6 +15021,7 @@ const SHARE_KIND_LABEL = {
     maestra:  'Partida maestra',
     home:     'AjedrezIA'
 };
+const SHARE_HASHTAGS = '#Ajedrez #Chess #ChessPuzzle #ChessTactics #ChessTraining #LearnChess #AprenderAjedrez #ChessOpening #Checkmate #ChessCommunity #ChessPlayer #JaqueMate #PuzzleOfTheDay #ChessLife #AjedrezIA';
 
 /** Texto del botón Compartir según shareContext (flujo activo) */
 const SHARE_COMPARTIR_LABEL = {
@@ -14845,13 +15046,13 @@ function formatUnifiedShareMessage(url, kind, shareDetail) {
 
     if (kind === 'apertura') {
         if (det) {
-            return '¡Echa un vistazo en AjedrezIA!\nApertura: ' + det + '\n\n♟ ' + u;
+            return '¡Echa un vistazo en AjedrezIA!\nApertura: ' + det + '\n\n♟ ' + u + '\n\n' + SHARE_HASHTAGS;
         }
-        return '¡Echa un vistazo en AjedrezIA!\n' + (SHARE_KIND_LABEL.apertura) + '\n\n♟ ' + u;
+        return '¡Echa un vistazo en AjedrezIA!\n' + (SHARE_KIND_LABEL.apertura) + '\n\n♟ ' + u + '\n\n' + SHARE_HASHTAGS;
     }
     const typeName = SHARE_KIND_LABEL[kind] || SHARE_KIND_LABEL.home;
     const extra = det ? ('\n' + det) : '';
-    return '¡Echa un vistazo en AjedrezIA!\n' + typeName + extra + '\n\n♟ ' + u;
+    return '¡Echa un vistazo en AjedrezIA!\n' + typeName + extra + '\n\n♟ ' + u + '\n\n' + SHARE_HASHTAGS;
 }
 
 function getShareOpeningNameDetail() {
@@ -14886,6 +15087,24 @@ function getCurrentShareImageParams() {
     return { fen, flip, mv };
 }
 
+function getShareGameWinnerColor() {
+    const storedResult = game && (game.shareResult || game.pgnResult);
+    if (storedResult === '0-1') return 'black';
+    if (storedResult === '1-0') return 'white';
+
+    try {
+        if (game && game.isCheckmate && game.isCheckmate()) {
+            return game.currentTurn === 'white' ? 'black' : 'white';
+        }
+    } catch (e) {}
+
+    const lastMove = game && game.moveHistory && game.moveHistory[game.moveHistory.length - 1];
+    if (lastMove && String(lastMove).includes('#')) {
+        return game.moveHistory.length % 2 === 0 ? 'black' : 'white';
+    }
+    return 'white';
+}
+
 /**
  * Prepara SOLO la imagen de la tarjeta (no la URL que se comparte): la URL del
  * mensaje es siempre el enlace limpio de la app (?puzzle=/?opening=/?master=/?moves=).
@@ -14907,14 +15126,22 @@ function buildSharePreview(kind, cardT, cardS, fenOverride, appKV) {
     const pos = getCurrentShareImageParams();
     const fen = (fenOverride && String(fenOverride).trim()) ? String(fenOverride).trim() : pos.fen;
     const mv = (pos.mv && !fenOverride) ? pos.mv : '';
+    const isGameCard = kind === 'partida' || kind === 'maestra';
+    const shareFlip = isGameCard
+        ? (getShareGameWinnerColor() === 'black' ? '1' : '')
+        : pos.flip;
 
     const img = new URLSearchParams();
     if (fen) img.set('fen', fen);
-    if (pos.flip) img.set('flip', '1');
+    if (shareFlip) img.set('flip', '1');
     if (kind) img.set('kind', kind);
     if (cardT) img.set('t', cardT);
     if (cardS) img.set('s', cardS);
     if (mv) img.set('mv', mv);
+    // Facebook conserva durante mucho tiempo la tarjeta de una URL ya
+    // rastreada. Un identificador único obliga a descargar la posición y la
+    // imagen actuales en cada acción de compartir.
+    img.set('cb', `${APP_VERSION}-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`);
 
     // URL de share.php (usada en WhatsApp/X/FB para que los bots lean los OG tags).
     // Incluye todos los parámetros de imagen MÁS el parámetro de apertura de la app,
@@ -14926,7 +15153,7 @@ function buildSharePreview(kind, cardT, cardS, fenOverride, appKV) {
     return {
         shareUrl,
         previewImage: `board-image.php?${img.toString()}`,
-        previewParams: { fen: fen, flip: pos.flip === '1', kind: kind, t: cardT || '', s: cardS || '', mv: mv }
+        previewParams: { fen: fen, flip: shareFlip === '1', kind: kind, t: cardT || '', s: cardS || '', mv: mv }
     };
 }
 
@@ -14967,7 +15194,8 @@ function sharePreviewFenToBoard(placement) {
 
 async function renderShareBoardDataURL(p) {
     await preloadSharePreviewPieces();
-    const W = 1200, H = 630, BOARD = 540, BX = 48, BY = (H - BOARD) / 2, SQ = BOARD / 8;
+    const boardOnly = !!p.videoBoardOnly;
+    const W = boardOnly ? 630 : 1200, H = 630, BOARD = 540, BX = 48, BY = (H - BOARD) / 2, SQ = BOARD / 8;
     const canvas = document.createElement('canvas');
     canvas.width = W; canvas.height = H;
     const ctx = canvas.getContext('2d');
@@ -14984,6 +15212,7 @@ async function renderShareBoardDataURL(p) {
     const flip = !!p.flip;
 
     const hl = [];
+    let arrowMove = null;
     const mv = p.mv || '';
     if (mv.length >= 4) {
         const f = 'abcdefgh';
@@ -14991,6 +15220,9 @@ async function renderShareBoardDataURL(p) {
         const tc = f.indexOf(mv[2]), tr = 8 - parseInt(mv[3]);
         if (fc >= 0) hl.push([fr, fc]);
         if (tc >= 0) hl.push([tr, tc]);
+        if (fc >= 0 && tc >= 0 && fr >= 0 && fr < 8 && tr >= 0 && tr < 8) {
+            arrowMove = { fr, fc, tr, tc };
+        }
     }
     const FEN_TO_CODE = { K:'wK',Q:'wQ',R:'wR',B:'wB',N:'wN',P:'wP',k:'bK',q:'bQ',r:'bR',b:'bB',n:'bN',p:'bP' };
 
@@ -15014,6 +15246,74 @@ async function renderShareBoardDataURL(p) {
         }
     }
 
+    // Flecha de la última jugada. Solo se activa cuando el llamador proporciona
+    // arrowColor (los vídeos); la imagen estática conserva su aspecto anterior.
+    if (arrowMove && p.arrowColor) {
+        const displayRow = row => flip ? 7 - row : row;
+        const displayCol = col => flip ? 7 - col : col;
+        const x1 = BX + (displayCol(arrowMove.fc) + 0.5) * SQ;
+        const y1 = BY + (displayRow(arrowMove.fr) + 0.5) * SQ;
+        const x2 = BX + (displayCol(arrowMove.tc) + 0.5) * SQ;
+        const y2 = BY + (displayRow(arrowMove.tr) + 0.5) * SQ;
+        const dx = x2 - x1, dy = y2 - y1;
+        const len = Math.sqrt(dx * dx + dy * dy) || 1;
+        const ux = dx / len, uy = dy / len;
+        const nx = -uy, ny = ux;
+        // Las mismas proporciones que usa showMoveArrow() en el tablero web.
+        const sw0 = SQ * 0.03;
+        const sw1 = SQ * 0.10;
+        const hw = SQ * 0.26;
+        const hl = SQ * 0.34;
+        const gap = SQ * 0.14;
+        const bx1 = x1 + ux * gap, by1 = y1 + uy * gap;
+        const hx = x2 - ux * hl, hy = y2 - uy * hl;
+        const points = [
+            [bx1 + nx * sw0, by1 + ny * sw0],
+            [hx + nx * sw1, hy + ny * sw1],
+            [hx + nx * hw, hy + ny * hw],
+            [x2, y2],
+            [hx - nx * hw, hy - ny * hw],
+            [hx - nx * sw1, hy - ny * sw1],
+            [bx1 - nx * sw0, by1 - ny * sw0]
+        ];
+        const isBlue = p.arrowColor === 'blue';
+        const colors = isBlue
+            ? ['rgba(29,78,216,0.75)', 'rgba(59,130,246,0.90)', 'rgba(147,197,253,0.98)']
+            : ['rgba(232,168,0,0.75)', 'rgba(255,224,51,0.90)', 'rgba(255,241,118,0.98)'];
+        const gradient = ctx.createLinearGradient(x1, y1, x2, y2);
+        gradient.addColorStop(0, colors[0]);
+        gradient.addColorStop(0.55, colors[1]);
+        gradient.addColorStop(1, colors[2]);
+        const tracePolygon = () => {
+            ctx.beginPath();
+            ctx.moveTo(points[0][0], points[0][1]);
+            for (let i = 1; i < points.length; i++) ctx.lineTo(points[i][0], points[i][1]);
+            ctx.closePath();
+        };
+
+        ctx.save();
+        ctx.lineJoin = 'round';
+        // Sombra desplazada, contorno oscuro y cuerpo con gradiente: mismo
+        // diseño visual que la flecha SVG de la aplicación.
+        ctx.save();
+        ctx.translate(SQ * 0.03, SQ * 0.05);
+        tracePolygon();
+        ctx.fillStyle = 'rgba(0,0,0,0.28)';
+        ctx.fill();
+        ctx.restore();
+        tracePolygon();
+        ctx.strokeStyle = isBlue ? 'rgba(30,64,175,0.55)' : 'rgba(120,70,0,0.55)';
+        ctx.lineWidth = SQ * 0.04;
+        ctx.stroke();
+        tracePolygon();
+        ctx.fillStyle = gradient;
+        ctx.fill();
+        ctx.strokeStyle = isBlue ? 'rgba(147,197,253,0.5)' : 'rgba(255,240,100,0.5)';
+        ctx.lineWidth = SQ * 0.02;
+        ctx.stroke();
+        ctx.restore();
+    }
+
     // Coordenadas fuera del tablero
     const cfs = Math.round(SQ * 0.22);
     const filesCoord = flip ? ['h','g','f','e','d','c','b','a'] : ['a','b','c','d','e','f','g','h'];
@@ -15032,58 +15332,479 @@ async function renderShareBoardDataURL(p) {
     ctx.textBaseline = 'alphabetic';
     ctx.textAlign = 'left';
 
-    const tx = BX + BOARD + 44;
-    const tw = W - tx - 48;
-    ctx.textBaseline = 'alphabetic';
-    ctx.fillStyle = '#7fb069'; ctx.font = 'bold 30px Arial, sans-serif';
-    ctx.fillText('\u265E AjedrezIA', tx, 92);
-    const KIND_LABEL = { partida:'Partida', apertura:'Apertura', problema:'Problema de ajedrez y 30 más', maestra:'Partida maestra' };
-    ctx.fillStyle = '#c9c2ba'; ctx.font = '20px Arial, sans-serif';
-    ctx.fillText(KIND_LABEL[p.kind] || 'Ajedrez', tx, 134);
+    if (!boardOnly) {
+        const tx = BX + BOARD + 44;
+        const tw = W - tx - 48;
+        ctx.textBaseline = 'alphabetic';
+        ctx.fillStyle = '#7fb069'; ctx.font = 'bold 30px Arial, sans-serif';
+        ctx.fillText('\u265E AjedrezIA', tx, 92);
+        const KIND_LABEL = { partida:'Partida', apertura:'Apertura', problema:'Problema de ajedrez y 30 más', maestra:'Partida maestra' };
+        ctx.fillStyle = '#c9c2ba'; ctx.font = '20px Arial, sans-serif';
+        ctx.fillText(KIND_LABEL[p.kind] || 'Ajedrez', tx, 134);
 
-    // Respeta saltos de línea explícitos ('\n') como líneas independientes;
-    // dentro de cada una aplica word-wrap normal si excede el ancho disponible.
-    const wrap = (text, font, maxW, maxLines) => {
-        ctx.font = font;
-        const lines = [];
-        const paragraphs = String(text || '').split(/\r\n|\r|\n/);
-        for (const para of paragraphs) {
-            const words = para.split(/\s+/).filter(Boolean);
-            let cur = '';
-            for (const w of words) {
-                const tryLine = cur ? (cur + ' ' + w) : w;
-                if (ctx.measureText(tryLine).width > maxW && cur) { lines.push(cur); cur = w; }
-                else cur = tryLine;
+        // Respeta saltos de línea explícitos ('\n') como líneas independientes;
+        // dentro de cada una aplica word-wrap normal si excede el ancho disponible.
+        const wrap = (text, font, maxW, maxLines) => {
+            ctx.font = font;
+            const lines = [];
+            const paragraphs = String(text || '').split(/\r\n|\r|\n/);
+            for (const para of paragraphs) {
+                const words = para.split(/\s+/).filter(Boolean);
+                let cur = '';
+                for (const w of words) {
+                    const tryLine = cur ? (cur + ' ' + w) : w;
+                    if (ctx.measureText(tryLine).width > maxW && cur) { lines.push(cur); cur = w; }
+                    else cur = tryLine;
+                    if (lines.length >= maxLines) break;
+                }
                 if (lines.length >= maxLines) break;
+                lines.push(cur);
             }
-            if (lines.length >= maxLines) break;
-            lines.push(cur);
-        }
-        return lines.slice(0, maxLines);
-    };
+            return lines.slice(0, maxLines);
+        };
 
-    let ty = 192;
-    const titleFont = 'bold 36px Arial, sans-serif';
-    ctx.fillStyle = '#ffffff';
-    for (const ln of wrap(p.t, titleFont, tw, 3)) {
-        ctx.font = titleFont;
-        ctx.fillText(ln, tx, ty);
-        ty += 46;
-    }
-    if (p.s) {
-        ty += 12;
-        const subFont = '24px Arial, sans-serif';
-        ctx.fillStyle = '#f0d9b5';
-        for (const ln of wrap(p.s, subFont, tw, 2)) {
-            ctx.font = subFont;
+        let ty = 192;
+        const titleFont = 'bold 36px Arial, sans-serif';
+        ctx.fillStyle = '#ffffff';
+        for (const ln of wrap(p.t, titleFont, tw, 3)) {
+            ctx.font = titleFont;
             ctx.fillText(ln, tx, ty);
-            ty += 34;
+            ty += 46;
         }
+        if (p.s) {
+            ty += 12;
+            const subFont = '24px Arial, sans-serif';
+            ctx.fillStyle = '#f0d9b5';
+            for (const ln of wrap(p.s, subFont, tw, 2)) {
+                ctx.font = subFont;
+                ctx.fillText(ln, tx, ty);
+                ty += 34;
+            }
+        }
+        ctx.fillStyle = '#8a827a'; ctx.font = '20px Arial, sans-serif';
+        ctx.fillText('ajedrezia.com', tx, H - 40);
     }
-    ctx.fillStyle = '#8a827a'; ctx.font = '20px Arial, sans-serif';
-    ctx.fillText('ajedrezia.com', tx, H - 40);
 
     try { return canvas.toDataURL('image/png'); } catch (e) { return null; }
+}
+
+async function renderShareVideoIntroDataURL(previewParams) {
+    // Reutiliza literalmente el panel de texto situado a la derecha de la
+    // tarjeta compartida y lo adapta al formato cuadrado del vídeo.
+    const fullCardUrl = await renderShareBoardDataURL({
+        ...previewParams,
+        mv: '',
+        arrowColor: null,
+        videoBoardOnly: false
+    });
+    if (!fullCardUrl) return null;
+    const image = await loadShareVideoFrame(fullCardUrl);
+    const canvas = document.createElement('canvas');
+    canvas.width = 630;
+    canvas.height = 630;
+    const context = canvas.getContext('2d');
+    const textPanelX = 48 + 540;
+    context.drawImage(image, textPanelX, 0, 1200 - textPanelX, 630, 0, 0, 630, 630);
+    return canvas.toDataURL('image/png');
+}
+
+let shareSelectedFormat = 'image';
+let shareVideoBlob = null;
+let shareVideoUrl = '';
+let shareVideoPromise = null;
+let shareVideoGeneration = 0;
+
+function resetShareVideoState() {
+    shareVideoGeneration++;
+    shareSelectedFormat = 'image';
+    shareVideoBlob = null;
+    shareVideoPromise = null;
+    if (shareVideoUrl) URL.revokeObjectURL(shareVideoUrl);
+    shareVideoUrl = '';
+}
+
+function applyUciToShareGame(chess, uci) {
+    if (!chess || !uci || uci.length < 4) return false;
+    const fromCol = uci.charCodeAt(0) - 97;
+    const fromRow = 8 - parseInt(uci[1]);
+    const toCol = uci.charCodeAt(2) - 97;
+    const toRow = 8 - parseInt(uci[3]);
+    const promotions = { q: 'queen', r: 'rook', b: 'bishop', n: 'knight' };
+    if (chess.makeMove(fromRow, fromCol, toRow, toCol, promotions[uci[4]])) return true;
+
+    // Respaldo para la generación visual: algunas líneas de problemas llegan
+    // desde bases externas con metadatos FEN incompletos y el validador puede
+    // rechazar una jugada final aunque la secuencia UCI sea correcta. Aplicarla
+    // directamente evita que el vídeo pierda esa jugada y las posteriores.
+    const piece = chess.getPiece(fromRow, fromCol);
+    if (!piece || toRow < 0 || toRow > 7 || toCol < 0 || toCol > 7) return false;
+
+    if (piece.type === 'pawn' && fromCol !== toCol && !chess.getPiece(toRow, toCol)) {
+        chess.board[fromRow][toCol] = null;
+    }
+    if (piece.type === 'king' && Math.abs(toCol - fromCol) === 2) {
+        const rookFromCol = toCol > fromCol ? 7 : 0;
+        const rookToCol = toCol > fromCol ? toCol - 1 : toCol + 1;
+        chess.board[toRow][rookToCol] = chess.board[fromRow][rookFromCol];
+        chess.board[fromRow][rookFromCol] = null;
+    }
+
+    chess.board[toRow][toCol] = piece;
+    chess.board[fromRow][fromCol] = null;
+    const promotionType = promotions[uci[4]];
+    if (piece.type === 'pawn' && promotionType && (toRow === 0 || toRow === 7)) {
+        const pieceSet = getPieceSet();
+        const key = `${piece.color === 'white' ? 'WHITE' : 'BLACK'}_${promotionType.toUpperCase()}`;
+        piece.type = promotionType;
+        piece.piece = pieceSet[key];
+    }
+    chess.currentTurn = chess.currentTurn === 'white' ? 'black' : 'white';
+    chess.enPassantTarget = null;
+    return true;
+}
+
+function buildShareVideoSequence(info) {
+    const base = info && info.previewParams ? { ...info.previewParams } : null;
+    if (!base) return [];
+
+    let initialFen = '';
+    let moves = [];
+    let labelPrefix = 'Jugada';
+
+    if (shareContext === 'problema' && currentPuzzle) {
+        initialFen = getPuzzleChallengeFen(currentPuzzle) || currentPuzzle.fen;
+        moves = Array.isArray(currentPuzzle.solution) ? [...currentPuzzle.solution] : [];
+        labelPrefix = 'Solución';
+    } else if (shareContext === 'apertura') {
+        const selectedKey = document.getElementById('opening-select')?.value;
+        const opening = (selectedKey && OPENING_TRAINING[selectedKey]) || trainingOpening;
+        const openingMoves = opening && opening.moves
+            ? String(opening.moves).trim().split(/\s+/).filter(Boolean)
+            : [];
+        const playedMoves = game && Array.isArray(game.moveHistoryUCI)
+            ? [...game.moveHistoryUCI]
+            : [];
+        // Si durante «Ver Apertura» se eligió una variante, el historial real
+        // deja de coincidir con la línea principal. En ese caso el vídeo debe
+        // reproducir la variante completa que se mostró en el tablero. Si el
+        // replay normal aún está a medias, mantenemos la línea principal completa.
+        const includesVariant = playedMoves.some((move, index) => openingMoves[index] !== move);
+        moves = (includesVariant || playedMoves.length > openingMoves.length)
+            ? playedMoves
+            : openingMoves;
+        const initial = new ChessGame();
+        initialFen = initial.toFEN();
+    } else {
+        moves = game && Array.isArray(game.moveHistoryUCI) ? [...game.moveHistoryUCI] : [];
+        if (game && game.gameStateHistory && game.gameStateHistory[0]) {
+            initialFen = ChessGame.stateToFEN(game.gameStateHistory[0], 1);
+        } else {
+            const initial = new ChessGame();
+            initialFen = initial.toFEN();
+        }
+    }
+
+    if (!initialFen) initialFen = base.fen;
+    const chess = new ChessGame();
+    chess.loadFromFEN(initialFen);
+    const frames = [{ ...base, fen: chess.toFEN(), mv: '', videoLabel: 'Posición inicial' }];
+
+    moves.forEach((uci, index) => {
+        if (!applyUciToShareGame(chess, uci)) return;
+        const fullMove = Math.floor(index / 2) + 1;
+        const moveLabel = shareContext === 'problema'
+            ? `${labelPrefix} ${index + 1} de ${moves.length}`
+            : `${labelPrefix} ${fullMove}${index % 2 ? '…' : '.'}`;
+        frames.push({ ...base, fen: chess.toFEN(), mv: uci, videoLabel: moveLabel });
+    });
+
+    if (frames.length === 1 && base.fen) frames[0].fen = base.fen;
+    return frames;
+}
+
+function loadShareVideoFrame(dataUrl) {
+    return new Promise((resolve, reject) => {
+        const image = new Image();
+        image.onload = () => resolve(image);
+        image.onerror = reject;
+        image.src = dataUrl;
+    });
+}
+
+function updateShareVideoStatus(text, progress) {
+    const status = document.getElementById('share-video-status');
+    const fill = document.getElementById('share-video-progress-fill');
+    if (status) status.textContent = text || '';
+    if (fill) fill.style.width = `${Math.max(0, Math.min(100, progress || 0))}%`;
+}
+
+async function generateShareVideo() {
+    if (shareVideoBlob) return shareVideoBlob;
+    if (shareVideoPromise) return shareVideoPromise;
+
+    const generation = ++shareVideoGeneration;
+    shareVideoPromise = (async () => {
+        if (!window.MediaRecorder || !HTMLCanvasElement.prototype.captureStream) {
+            throw new Error('Este navegador no permite generar vídeo');
+        }
+
+        const info = getShareInfo();
+        const frames = buildShareVideoSequence(info);
+        if (!frames.length) throw new Error('No hay movimientos para generar el vídeo');
+
+        const canvas = document.createElement('canvas');
+        canvas.width = 630;
+        canvas.height = 630;
+        const context = canvas.getContext('2d');
+        const stream = canvas.captureStream(24);
+        const videoTrack = stream.getVideoTracks()[0];
+        // Priorizar MP4/H.264 en todos los navegadores. La captura explícita de
+        // cada fotograma evita el problema anterior del canvas estático.
+        const webmTypes = ['video/webm;codecs=vp9', 'video/webm;codecs=vp8', 'video/webm'];
+        const mp4Types = ['video/mp4;codecs=avc1', 'video/mp4;codecs=avc1.42E01E', 'video/mp4;codecs=h264', 'video/mp4'];
+        const mimeCandidates = [...mp4Types, ...webmTypes];
+        const mimeType = mimeCandidates.find(type => MediaRecorder.isTypeSupported(type)) || '';
+        const recorder = new MediaRecorder(stream, mimeType ? { mimeType, videoBitsPerSecond: 4500000 } : undefined);
+        const chunks = [];
+        recorder.ondataavailable = event => { if (event.data && event.data.size) chunks.push(event.data); };
+        const stopped = new Promise(resolve => { recorder.onstop = resolve; });
+        recorder.start(250);
+
+        const holdRecordedFrame = async (image, duration) => {
+            const deadline = performance.now() + duration;
+            while (performance.now() < deadline) {
+                const remaining = deadline - performance.now();
+                await new Promise(resolve => setTimeout(resolve, Math.min(200, Math.max(1, remaining))));
+                // Repintar el mismo plano obliga a MediaRecorder a conservar
+                // toda su duración, incluso cuando el contenido es estático.
+                context.drawImage(image, 0, 0, canvas.width, canvas.height);
+                if (videoTrack && typeof videoTrack.requestFrame === 'function') {
+                    videoTrack.requestFrame();
+                }
+            }
+        };
+
+        const totalFrames = frames.length + 1;
+        const introDataUrl = await renderShareVideoIntroDataURL(info.previewParams);
+        if (introDataUrl) {
+            const introImage = await loadShareVideoFrame(introDataUrl);
+            context.clearRect(0, 0, canvas.width, canvas.height);
+            context.drawImage(introImage, 0, 0, canvas.width, canvas.height);
+            await new Promise(resolve => requestAnimationFrame(resolve));
+            if (videoTrack && typeof videoTrack.requestFrame === 'function') videoTrack.requestFrame();
+            updateShareVideoStatus(`Generando vídeo… 1 de ${totalFrames}`, 100 / totalFrames);
+            await holdRecordedFrame(introImage, 3000);
+        }
+
+        const frameDuration = frames.length > 40 ? 600 : (frames.length > 15 ? 850 : 1200);
+        for (let index = 0; index < frames.length; index++) {
+            if (generation !== shareVideoGeneration) {
+                recorder.stop();
+                await stopped;
+                throw new Error('Generación cancelada');
+            }
+            const frame = frames[index];
+            const dataUrl = await renderShareBoardDataURL({
+                ...frame,
+                videoBoardOnly: true,
+                arrowColor: shareContext === 'problema' ? 'blue' : 'yellow'
+            });
+            if (!dataUrl) continue;
+            const image = await loadShareVideoFrame(dataUrl);
+            context.clearRect(0, 0, canvas.width, canvas.height);
+            context.drawImage(image, 0, 0, canvas.width, canvas.height);
+            // Asegura que MediaRecorder reciba cada cambio del canvas. Algunos
+            // navegadores no emiten cuadros nuevos mientras el dibujo se hace
+            // desde tareas asíncronas, aunque captureStream tenga una tasa fija.
+            await new Promise(resolve => requestAnimationFrame(resolve));
+            if (videoTrack && typeof videoTrack.requestFrame === 'function') {
+                videoTrack.requestFrame();
+            }
+            updateShareVideoStatus(
+                `Generando vídeo… ${index + 2} de ${totalFrames}`,
+                ((index + 2) / totalFrames) * 100
+            );
+            const isFinalFrame = index === frames.length - 1;
+            const currentFrameDuration = isFinalFrame
+                ? 5000
+                : index === 0
+                    ? (shareContext === 'problema' ? 6000 : 1400)
+                    : frameDuration;
+            await holdRecordedFrame(image, currentFrameDuration);
+        }
+
+        recorder.stop();
+        await stopped;
+        stream.getTracks().forEach(track => track.stop());
+        const type = recorder.mimeType || 'video/webm';
+        const blob = new Blob(chunks, { type });
+        if (!blob.size) throw new Error('No se pudo crear el vídeo');
+        return blob;
+    })();
+
+    try {
+        shareVideoBlob = await shareVideoPromise;
+        return shareVideoBlob;
+    } finally {
+        shareVideoPromise = null;
+    }
+}
+
+async function selectShareFormat(format) {
+    shareSelectedFormat = format === 'video' ? 'video' : 'image';
+    const imageButton = document.getElementById('share-format-image');
+    const videoButton = document.getElementById('share-format-video');
+    const image = document.getElementById('share-modal-preview');
+    const video = document.getElementById('share-modal-video');
+    const progress = document.getElementById('share-video-progress');
+    imageButton?.classList.toggle('active', shareSelectedFormat === 'image');
+    videoButton?.classList.toggle('active', shareSelectedFormat === 'video');
+    if (image) image.style.display = shareSelectedFormat === 'image' ? '' : 'none';
+    if (video) video.style.display = shareSelectedFormat === 'video' ? '' : 'none';
+    if (progress) progress.style.display = shareSelectedFormat === 'video' && !shareVideoBlob ? '' : 'none';
+
+    if (shareSelectedFormat !== 'video') {
+        if (video) video.pause();
+        return;
+    }
+    if (!video) return;
+    if (shareVideoBlob) {
+        if (!shareVideoUrl) shareVideoUrl = URL.createObjectURL(shareVideoBlob);
+        if (video.src !== shareVideoUrl) video.src = shareVideoUrl;
+        if (progress) progress.style.display = 'none';
+        await video.play().catch(() => {});
+        return;
+    }
+
+    videoButton.disabled = true;
+    updateShareVideoStatus('Preparando vídeo…', 0);
+    try {
+        const blob = await generateShareVideo();
+        if (shareSelectedFormat !== 'video') return;
+        if (shareVideoUrl) URL.revokeObjectURL(shareVideoUrl);
+        shareVideoUrl = URL.createObjectURL(blob);
+        video.src = shareVideoUrl;
+        video.style.display = '';
+        if (progress) progress.style.display = 'none';
+        await video.play().catch(() => {});
+    } catch (error) {
+        shareSelectedFormat = 'image';
+        imageButton?.classList.add('active');
+        videoButton?.classList.remove('active');
+        if (image) image.style.display = '';
+        if (video) video.style.display = 'none';
+        if (progress) progress.style.display = 'none';
+        showMessage(error.message || 'No se pudo generar el vídeo', 'warning', 3500);
+    } finally {
+        videoButton.disabled = false;
+    }
+}
+
+function getShareVideoBaseName(prefix) {
+    const parts = [prefix || 'ajedrezia-video'];
+    const headers = game && game.shareHeaders ? game.shareHeaders : {};
+    const getSurname = function(playerName) {
+        const name = String(playerName || '').trim();
+        if (!name || name === '?') return '';
+        const surname = name.includes(',')
+            ? name.split(',')[0].trim()
+            : name.split(/\s+/).pop();
+        return surname
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '')
+            .replace(/[^a-zA-Z0-9]+/g, '-')
+            .replace(/^-+|-+$/g, '');
+    };
+    const whiteSurname = getSurname(headers.White);
+    const blackSurname = getSurname(headers.Black);
+    const tournament = String(headers.Event || '').trim();
+    const date = String(headers.Date || '').trim();
+    const yearMatch = date.match(/\b(?:18|19|20)\d{2}\b/);
+
+    if (whiteSurname && blackSurname) {
+        parts.push(`${whiteSurname}-vs-${blackSurname}`);
+    }
+    if (tournament && tournament !== '?') {
+        const safeTournament = tournament
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '')
+            .replace(/[^a-zA-Z0-9]+/g, '-')
+            .replace(/^-+|-+$/g, '');
+        if (safeTournament) parts.push(safeTournament);
+    }
+    if (yearMatch) parts.push(yearMatch[0]);
+
+    return parts.join('-');
+}
+
+async function downloadShareVideo(event) {
+    if (event) {
+        event.preventDefault();
+        event.stopPropagation();
+    }
+    if (!shareVideoBlob) return;
+    const type = shareVideoBlob.type || 'video/webm';
+    const extension = type.includes('mp4') ? 'mp4' : 'webm';
+    const saveMime = extension === 'mp4' ? 'video/mp4' : 'video/webm';
+    const kindName = shareContext === 'problema'
+        ? 'problema'
+        : shareContext === 'apertura'
+            ? 'apertura'
+            : 'partida';
+    const suggestedBaseName = getShareVideoBaseName(`ajedrezia-${kindName}`);
+    const suggestedName = `${suggestedBaseName}.${extension}`;
+    const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+
+    // En Chrome y Edge para PC abre el explorador nativo de Windows, donde el
+    // usuario elige simultáneamente la carpeta y el nombre del archivo.
+    if (!isMobile && typeof window.showSaveFilePicker === 'function') {
+        try {
+            const handle = await window.showSaveFilePicker({
+                suggestedName,
+                types: [{
+                    description: extension === 'mp4' ? 'Vídeo MP4' : 'Vídeo WebM',
+                    accept: { [saveMime]: [`.${extension}`] }
+                }]
+            });
+            const writable = await handle.createWritable();
+            await writable.write(shareVideoBlob);
+            await writable.close();
+            return;
+        } catch (error) {
+            if (error && error.name === 'AbortError') return;
+            // Si el navegador bloquea la API, continuar con la descarga clásica.
+        }
+    }
+
+    const enteredName = window.prompt('Nombre del vídeo:', suggestedBaseName);
+    if (enteredName === null) return;
+    const safeName = enteredName
+        .trim()
+        .replace(/\.(mp4|webm)$/i, '')
+        .replace(/[<>:"/\\|?*\u0000-\u001f]/g, '-')
+        .replace(/[.\s]+$/g, '') || suggestedBaseName;
+    if (!shareVideoUrl) shareVideoUrl = URL.createObjectURL(shareVideoBlob);
+    const link = document.createElement('a');
+    link.href = shareVideoUrl;
+    link.download = `${safeName}.${extension}`;
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+}
+
+async function getSelectedShareMediaFile(baseName) {
+    if (shareSelectedFormat === 'video') {
+        const blob = await generateShareVideo();
+        const type = blob.type || 'video/webm';
+        const extension = type.includes('mp4') ? 'mp4' : 'webm';
+        return new File([blob], `${getShareVideoBaseName(baseName)}.${extension}`, { type });
+    }
+    const image = document.getElementById('share-modal-preview');
+    if (!image || !image.src) return null;
+    const response = await fetch(image.src);
+    const blob = await response.blob();
+    const png = blob.type === 'image/png' ? blob : new Blob([blob], { type: 'image/png' });
+    return new File([png], `${baseName}.png`, { type: 'image/png' });
 }
 
 // Sustituye el src de la previsualización del modal por la imagen dibujada en
@@ -15270,6 +15991,12 @@ function shareInviteOnline(colorLabel, timeLabel, colorRaw, tcRaw) {
                 </span>
                 <span class="share-app-label">Instagram</span>
             </a>
+            <a href="#" class="share-app-item" onclick="window.shareTikTokClick('${fbMsgAttr}');return false;">
+                <span class="share-app-circle share-app-circle--tiktok">
+                    <svg viewBox="0 0 24 24" width="25" height="25" fill="white"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.9 2.9 0 1 1-2-2.76V9.4a6.4 6.4 0 1 0 5.45 6.33V8.79a8.2 8.2 0 0 0 4.77 1.52V6.88a4.9 4.9 0 0 1-1-.19Z"/></svg>
+                </span>
+                <span class="share-app-label">TikTok</span>
+            </a>
             <a href="${gmailHref}" class="share-app-item" target="_blank" rel="noopener noreferrer" onclick="${eloGrant}">
                 <span class="share-app-circle share-app-circle--gmail">
                     <svg viewBox="0 0 24 24" width="27" height="27" fill="white"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
@@ -15295,6 +16022,7 @@ function shareContent() {
             return;
         }
     }
+    resetShareVideoState();
     const { url, shareUrl, label, shareKind, shareDetail, previewImage, previewParams } = getShareInfo();
     // shareUrl -> share.php con OG tags (para que WhatsApp/X/FB muestren la imagen del tablero).
     // url      -> URL limpia de la app (para el texto del mensaje y el correo).
@@ -15324,7 +16052,6 @@ function shareContent() {
     const fbMsgAttr = shareMsg.replace(/\\/g, '\\\\').replace(/'/g, "\\'").replace(/\n/g, '\\n')
         .replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
     const gmailHref = mailtoUrl.replace(/&/g, '&amp;');
-    const eloGrant = "if(window.grantEloOnShareComplete)window.grantEloOnShareComplete();";
 
     // Previsualización de la imagen de la tarjeta (la misma que verán en
     // WhatsApp / Facebook / X). Se muestra entre el texto y los botones.
@@ -15333,6 +16060,19 @@ function shareContent() {
     const previewHtml = previewImage
         ? `<img id="share-modal-preview" src="${previewImage.replace(/&/g,'&amp;').replace(/"/g,'&quot;')}" alt="${msgAttr}" class="share-preview-img" loading="lazy" title="Pulsa para copiar la imagen" style="cursor:pointer" onclick="copyShareImage(this)" onerror="this.style.display='none'">`
         : '';
+    const mediaSelectorHtml = previewImage
+        ? `<div class="share-format-toggle" role="group" aria-label="Formato para compartir">
+                <button type="button" id="share-format-image" class="share-format-btn active" onclick="selectShareFormat('image')">🖼 Imagen</button>
+                <button type="button" id="share-format-video" class="share-format-btn" onclick="selectShareFormat('video')">▶ Vídeo</button>
+           </div>
+           <div id="share-video-progress" class="share-video-progress" style="display:none">
+                <span id="share-video-status">Preparando vídeo…</span>
+                <span class="share-video-progress-track"><span id="share-video-progress-fill"></span></span>
+           </div>`
+        : '';
+    const videoHtml = previewImage
+        ? `<video id="share-modal-video" class="share-preview-video" muted loop playsinline style="display:none" title="Pulsa para descargar el vídeo" onclick="downloadShareVideo(event)"></video>`
+        : '';
 
     const htmlMsg = `
         <strong>${titleLine}</strong>
@@ -15340,9 +16080,11 @@ function shareContent() {
         <button type="button" class="share-msg-btn${previewImage ? ' share-msg-btn--compact' : ''}" data-msg="${msgAttr}" onclick="copyShareMsg(this)">
             <span class="share-msg-text">${msgAttr.replace(/\n/g,'<br>')}</span>
         </button>
+        ${mediaSelectorHtml}
         ${previewHtml}
+        ${videoHtml}
         <div class="share-apps-row">
-            <a href="${waHref}" class="share-app-item" target="_blank" rel="noopener noreferrer" onclick="${eloGrant}">
+            <a href="${waHref}" class="share-app-item" target="_blank" rel="noopener noreferrer" onclick="window.shareLinkWithSelectedMedia('${waHref}','${fbMsgAttr}','ajedrezia-whatsapp');return false;">
                 <span class="share-app-circle share-app-circle--whatsapp">
                     <svg viewBox="0 0 24 24" width="28" height="28" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
                 </span>
@@ -15360,13 +16102,19 @@ function shareContent() {
                 </span>
                 <span class="share-app-label">Instagram</span>
             </a>
-            <a href="${gmailHref}" class="share-app-item" target="_blank" rel="noopener noreferrer" onclick="${eloGrant}">
+            <a href="#" class="share-app-item" onclick="window.shareTikTokClick('${fbMsgAttr}');return false;">
+                <span class="share-app-circle share-app-circle--tiktok">
+                    <svg viewBox="0 0 24 24" width="25" height="25" fill="white"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.9 2.9 0 1 1-2-2.76V9.4a6.4 6.4 0 1 0 5.45 6.33V8.79a8.2 8.2 0 0 0 4.77 1.52V6.88a4.9 4.9 0 0 1-1-.19Z"/></svg>
+                </span>
+                <span class="share-app-label">TikTok</span>
+            </a>
+            <a href="#" class="share-app-item" onclick="window.shareEmailClick('${gmailHref}','${fbMsgAttr}');return false;">
                 <span class="share-app-circle share-app-circle--gmail">
                     <svg viewBox="0 0 24 24" width="27" height="27" fill="white"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
                 </span>
                 <span class="share-app-label">Correo</span>
             </a>
-            <a href="${twHref}" class="share-app-item" target="_blank" rel="noopener noreferrer" onclick="${eloGrant}">
+            <a href="${twHref}" class="share-app-item" target="_blank" rel="noopener noreferrer" onclick="window.shareLinkWithSelectedMedia('${twHref}','${fbMsgAttr}','ajedrezia-twitter');return false;">
                 <span class="share-app-circle share-app-circle--twitter">
                     <svg viewBox="0 0 24 24" width="22" height="22" fill="white"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.845L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
                 </span>
@@ -15610,6 +16358,8 @@ function parsePGNAndLoad(pgnRaw, gameTitle) {
         // Crear nueva partida y reproducir movimientos
         stopClock();
         game = new ChessGame();
+        game.shareResult = pgnResult;
+        game.shareHeaders = { ...headers };
         gameGeneration++;
         currentMoveIndex = -1;
         currentOpeningName = '';
@@ -15721,6 +16471,14 @@ function parsePGNAndLoad(pgnRaw, gameTitle) {
         lastMoveSquares = { from: null, to: null };
         const openingLog = document.getElementById('opening-log');
         if (openingLog) openingLog.remove();
+
+        // Las partidas cargadas se presentan siempre con las blancas abajo y
+        // las negras arriba, independientemente del color elegido previamente
+        // para jugar contra la IA. Se conserva playerColor para no alterar la
+        // lógica de una posible continuación de la partida.
+        manualBoardFlipped = playerColor === 'black';
+        const flipBoardBtn = document.getElementById('flip-board-btn');
+        if (flipBoardBtn) flipBoardBtn.classList.toggle('flipped', manualBoardFlipped);
 
         renderBoard();
         updateCapturedPieces();

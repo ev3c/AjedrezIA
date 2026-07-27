@@ -31,6 +31,7 @@ $kind  = preg_replace('/[^a-z]/', '', strtolower(gp('kind')));
 $t     = mb_substr(trim(gp('t')), 0, 120);
 $s     = mb_substr(trim(gp('s')), 0, 120);
 $mv    = substr(preg_replace('/[^a-h1-8]/', '', strtolower(gp('mv'))), 0, 4);
+$cb    = substr(preg_replace('/[^A-Za-z0-9_\-]/', '', gp('cb')), 0, 40);
 
 $moves   = preg_replace('/[^a-h1-8nbrqkNBRQKO=,\-]/', '', gp('moves'));
 $opening = preg_replace('/[^A-Za-z0-9_\-]/', '', gp('opening'));
@@ -79,7 +80,7 @@ function buildShareQuery($params) {
 }
 
 $genericParams = [
-    'fen' => $fen, 'flip' => $flip, 'kind' => $kind, 't' => $t, 's' => $s, 'mv' => $mv,
+    'fen' => $fen, 'flip' => $flip, 'kind' => $kind, 't' => $t, 's' => $s, 'mv' => $mv, 'cb' => $cb,
     'moves' => $moves, 'opening' => $opening, 'puzzle' => $puzzle, 'p' => $ppay, 'master' => $master,
 ];
 
@@ -90,7 +91,7 @@ if ($fen !== '' || $t !== '') {
     $desc  = $s !== '' ? $s : ($kindLabel . ' en AjedrezIA. Juega y aprende ajedrez.');
 
     $imgParams = [
-        'fen' => $fen, 'flip' => $flip, 'kind' => $kind, 't' => $t, 's' => $s, 'mv' => $mv,
+        'fen' => $fen, 'flip' => $flip, 'kind' => $kind, 't' => $t, 's' => $s, 'mv' => $mv, 'cb' => $cb,
     ];
     $image    = $base . 'board-image.php' . buildShareQuery($imgParams);
     $appUrl   = buildAppUrl($base, $moves, $opening, $puzzle, $ppay, $master);
@@ -111,6 +112,7 @@ if ($fen !== '' || $t !== '') {
 function h($s) { return htmlspecialchars($s, ENT_QUOTES, 'UTF-8'); }
 
 header('Content-Type: text/html; charset=UTF-8');
+header('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -126,6 +128,7 @@ header('Content-Type: text/html; charset=UTF-8');
 <meta property="og:title" content="<?= h($title) ?>">
 <meta property="og:description" content="<?= h($desc) ?>">
 <meta property="og:image" content="<?= h($image) ?>">
+<meta property="og:image:url" content="<?= h($image) ?>">
 <meta property="og:image:secure_url" content="<?= h($image) ?>">
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200">

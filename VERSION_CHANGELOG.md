@@ -2,6 +2,216 @@
 
 ---
 
+## v3.5.21 — 2026-07-28
+
+### Variantes en vídeos de aperturas
+- El vídeo reproduce todos los movimientos de la variante elegida durante
+  «Ver Apertura», además de los movimientos comunes de la línea principal.
+- Si no se elige una variante, se mantiene la reproducción completa de la
+  apertura seleccionada.
+
+---
+
+## v3.5.20 — 2026-07-27
+
+### Botón Atrás en Android
+- Corregida la protección del historial al abrir enlaces compartidos, evitando
+  que se pierda o se duplique tras limpiar los parámetros de la URL.
+- La detección incluye smartphones Android con pantalla ancha o en horizontal.
+- Atrás cierra primero cualquier modal abierto; la siguiente pulsación muestra
+  la confirmación antes de salir.
+
+---
+
+## v3.5.19 — 2026-07-27
+
+### Hashtags al compartir
+- El texto preparado para Facebook, X, Instagram y TikTok incorpora los
+  hashtags `#Ajedrez #Chess #ChessPuzzle #ChessTactics #ChessTraining
+  #LearnChess #AprenderAjedrez #ChessOpening #Checkmate #ChessCommunity
+  #ChessPlayer #JaqueMate #PuzzleOfTheDay #ChessLife #AjedrezIA`.
+- Los hashtags se muestran debajo del enlace.
+- Se aplican a partidas, aperturas y problemas.
+- El nombre sugerido de los vídeos de partidas incluye los apellidos de ambos
+  jugadores (`apellido-vs-apellido`), el torneo y el año disponibles en las
+  cabeceras PGN.
+- Los menús «Selecciona una apertura» y «Categoría» adoptan el estilo visual
+  de «Partidas Seleccionadas».
+
+---
+
+## v3.5.18 — 2026-07-27
+
+### Orientación al compartir partidas
+- Las imágenes y vídeos de partidas colocan en la parte inferior las piezas
+  del jugador ganador.
+- Si ganan negras (`0-1`), se gira el tablero; si ganan blancas, quedan blancas
+  abajo.
+- En tablas, partidas en curso o sin resultado conocido se muestran blancas
+  abajo por defecto.
+
+---
+
+## v3.5.17 — 2026-07-27
+
+### Volver a seleccionar una opción
+- Los menús de partidas, jugadores, aperturas y categorías de problemas
+  permiten elegir de nuevo la opción actualmente seleccionada.
+- Al repetirla se vuelve a ejecutar su carga, tanto en PC como en smartphone.
+
+---
+
+## v3.5.16 — 2026-07-27
+
+### Restauración de «Continuar partida»
+- Restaurado el comportamiento de «Continuar partida» utilizado en la versión
+  3.5.4.
+- Al continuar mientras se navega por el historial, se recupera la última
+  posición de la partida y se reanudan el reloj y la IA cuando corresponde.
+
+---
+
+## v3.5.15 — 2026-07-27
+
+### Duración del plano final
+- El último plano se repinta durante cinco segundos para que los grabadores del
+  navegador conserven íntegramente su duración.
+- Se aplica a vídeos de problemas, partidas y aperturas.
+
+---
+
+## v3.5.14 — 2026-07-24
+
+### Vídeos MP4
+- La generación de vídeos prioriza MP4 con codificación H.264 para facilitar
+  su reproducción y publicación en redes sociales.
+- En equipos sin codificador MP4 disponible se conserva WebM como respaldo para
+  no impedir la creación del vídeo.
+
+---
+
+## v3.5.13 — 2026-07-24
+
+### Guardar vídeos en PC
+- En Chrome y Edge para PC, al pulsar el vídeo se abre el explorador nativo del
+  sistema para elegir la carpeta y el nombre del archivo.
+- Si el navegador no ofrece acceso al selector del sistema, se mantiene la
+  descarga clásica con solicitud de nombre.
+
+---
+
+## v3.5.12 — 2026-07-24
+
+### Nombres y duración de vídeos
+- Al pulsar el vídeo para descargarlo, se solicita primero el nombre del
+  archivo y se conserva automáticamente la extensión compatible.
+- Los vídeos de aperturas utilizan siempre la línea completa de movimientos de
+  la apertura actualmente seleccionada.
+- El último fotograma de problemas, partidas y aperturas permanece visible
+  durante cinco segundos exactos.
+
+---
+
+## v3.5.11 — 2026-07-24
+
+### Orientación de problemas
+- Al cargar un problema, el color al que corresponde mover se muestra siempre
+  en la parte inferior del tablero.
+- Si juegan blancas, las blancas aparecen abajo; si juegan negras, aparecen las
+  negras.
+
+---
+
+## v3.5.10 — 2026-07-24
+
+### Orientación de partidas cargadas
+- Las partidas cargadas desde las bibliotecas o mediante PGN se muestran
+  siempre con las piezas blancas abajo y las negras arriba.
+- La orientación visual no modifica el color configurado para continuar la
+  partida.
+
+---
+
+## v3.5.9 — 2026-07-24
+
+### Vídeos cuadrados
+- El vídeo generado adopta un formato cuadrado y, durante la reproducción de
+  aperturas, problemas y partidas, muestra únicamente el tablero.
+- El primer fotograma muestra durante tres segundos el texto descriptivo que
+  anteriormente permanecía a la derecha del tablero.
+- Tras la introducción continúa la animación completa con los tiempos y flechas
+  configurados.
+- El plano final permanece visible durante cinco segundos.
+
+---
+
+## v3.5.8 — 2026-07-24
+
+### Descarga y diseño de vídeos
+- Al pulsar sobre la previsualización del vídeo se descarga directamente el
+  archivo generado.
+- Las flechas de movimiento de los vídeos comparten las proporciones, el
+  gradiente, la sombra y el contorno de las flechas del tablero web/app.
+- Se conserva el color amarillo para partidas y aperturas, y azul para
+  problemas.
+
+---
+
+## v3.5.7 — 2026-07-23
+
+### Corrección de vídeos descargados
+- Corregido un problema por el que el archivo descargado podía conservar
+  únicamente la posición inicial.
+- Cada cambio del tablero solicita ahora expresamente un nuevo fotograma.
+- Chromium utiliza WebM estable y Safari prioriza su grabador MP4 nativo.
+
+---
+
+## v3.5.6 — 2026-07-23
+
+### Compartir vídeos
+- La ventana «Compartir» permite elegir entre imagen y vídeo.
+- Los vídeos de aperturas y partidas reproducen las jugadas desde la posición
+  inicial; los de problemas reproducen la solución desde la posición del reto.
+- Cada jugada muestra una flecha amarilla en partidas y aperturas, y una flecha
+  azul en los problemas.
+- El vídeo se genera localmente en WebM o MP4 según el navegador, muestra el progreso y puede
+  reproducirse dentro de la propia ventana antes de compartirlo.
+- En smartphone, TikTok, Instagram y Correo reciben el archivo elegido mediante
+  el menú nativo. Facebook usa también el menú nativo al seleccionar vídeo.
+- En PC, TikTok, Instagram y Facebook descargan el WebM para subirlo manualmente
+  y conservan el texto preparado para la publicación.
+
+---
+
+## v3.5.5 — 2026-07-22
+
+### Bibliotecas de partidas y smartphone
+- «Partides Lliga CAT» muestra sobre el selector el número aproximado de
+  jugadores y partidas disponibles en la biblioteca.
+- Los menús de partidas de «Partidas Maestras» y «Partides Lliga CAT» se
+  muestran como tablas con B ♔ o N ♚ para el color y columnas pulsables para
+  ordenar por Rival, Resultado, Año o Torneo.
+- En «Partides Lliga CAT», el orden alfabético considera exclusivamente el
+  nombre del rival, sin tener en cuenta los iconos de color ni «vs».
+- Las partidas se cargan automáticamente al seleccionarlas; se eliminan los
+  controles «Ordenar por» y los botones «Cargar Partida».
+- «Problemas de Ajedrez» carga automáticamente un problema al seleccionar una
+  categoría y elimina el botón «Cargar Problemas».
+- TikTok usa el menú nativo con el PNG en smartphone; en PC abre TikTok Upload,
+  copia el texto y descarga la imagen para seleccionarla en el nuevo post.
+- Los botones sociales se ajustan al ancho disponible.
+- En smartphone, «Correo» envía el texto y la imagen PNG generada mediante el
+  menú nativo para adjuntarlos en Gmail u otra aplicación de correo.
+- Al cargar desde cualquiera de las dos bibliotecas, «Partidas Seleccionadas»
+  vuelve a «— Elegir partida —».
+- Los títulos, menús y contenidos de ambas bibliotecas comparten el tamaño y
+  estilo de «Partidas Seleccionadas».
+- En smartphone, Facebook vuelve a utilizar el publicador web y cada
+  publicación usa una URL nueva para evitar imágenes antiguas o genéricas.
+
+---
+
 ## v3.5.4 — 2026-07-21
 
 ### Nombres de jugadores FCE
@@ -11,14 +221,6 @@
 - Se conserva, separado por un guion, el detalle del club cuando está disponible.
 - En «Partidas Maestras», el menú de partidas permite ordenar por rival
   alfabéticamente o por fecha, de más reciente a más antigua.
-- Los menús de partidas de «Partidas Maestras» y «Partides Lliga CAT» se
-  muestran como una tabla cuyas columnas Rival, Resultado, Año y Torneo se
-  pueden pulsar para ordenar los resultados en ambos sentidos.
-- Se eliminan los controles «Ordenar por» y los botones «Cargar Partida»:
-  ahora cada partida se carga automáticamente al seleccionarla.
-- Al cargar una partida desde la biblioteca de «Partidas Maestras» o desde
-  «Partides Lliga CAT», el selector «Partidas Seleccionadas» vuelve a
-  «— Elegir partida —».
 
 ---
 
