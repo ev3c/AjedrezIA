@@ -1,30 +1,3 @@
-﻿[Event "Berlin"]
-[Site "Berlin"]
-[Date "1902"]
-[Round ""]
-[White "Nimzowitsch"]
-[Black "Lange"]
-[Result "1/2-1/2"]
-[ECO "-"]
-[FEN "1k1r3r/1ppqp1b1/3p3p/3P2p1/pNP1P3/P3B2P/5QP1/5R1K w - - 0 1"]
-[Setup "1"]
-
-1. Nc6+ bxc6 2. Rb1+ Kc8 3. Ba7 Qe8 4. Qf7 Qxf7 5. dxc6 Qf1+ 6. Rxf1 Bd4 7. Bxd4
-e5 8. Ba7 Rdf8 9. Rb1 Kd8  1/2-1/2
-
-[Event "Nuremberg"]
-[Site "Nuremberg"]
-[Date "1904"]
-[Round ""]
-[White "Nimzowitsch"]
-[Black "Goffer"]
-[Result "1-0"]
-[ECO "-"]
-[FEN "r4rk1/p4ppp/4pB2/4N2Q/B1pP4/3pP2n/q4PPK/8 w - - 0 1"]
-[Setup "1"]
-
-1. Be8 Raxe8 2. Qh6 gxh6 3. Ng4  1-0
-
 [Event "Nuremberg"]
 [Site "Nuremberg"]
 [Date "1904"]
@@ -77,19 +50,6 @@ f5 exf5 16. Ng5 f4 17. Rxf4 Nxf4 18. Qxf4 Be6 19. Rf1 Qb6 20. Nf5 Nxf5 21. Bxf5
 Qc7 22. Bxe6 fxe6 23. Nxe6 Qe7 24. Qf5 Kd7 25. Nf8+ Kc7 26. Ng6 Qe8 27. Nxh8
 Qxh8 28. Qe6 Kb6 29. Qe7 Qh6 30. Qc5+ Ka6 31. b4 b5 32. h3 h4 33. Kh1 Qe6 34.
 Rf7 Qh6 35. a4 Qe6 36. a5 Qe8 37. Rxa7+ Rxa7 38. Qb6#  1-0
-
-[Event "Vienna"]
-[Site "Vienna"]
-[Date "1905"]
-[Round ""]
-[White "Nimzowitsch"]
-[Black "NN"]
-[Result "1-0"]
-[ECO "-"]
-[FEN "6rk/1pq3np/1n2p1pQ/3p2P1/rPpN1RP1/P3B2P/2P2P2/7K w - - 0 1"]
-[Setup "1"]
-
-1. Rf6 Qe5 2. Rxg6 Qe4+ 3. Nf3 Qxg6 4. Ne5 Qe4+ 5. f3 Qxe5 6. g6  1-0
 
 [Event "Barmen B"]
 [Site "Barmen"]
@@ -206,8 +166,6 @@ Nd3+ 21. Kb1 Nf2  0-1
 9. cxd5 cxd5 10. Bf4 a6 11. Rc1 b5 12. Qb3 Nc6 13. Nxc6 Bxc6 14. h3 Qd7 15. Kh2
 Nh5 16. Bd2 f5 17. Qd1 b4 18. Nb1 Bb5 19. Rg1 Bd6 20. e4 fxe4 21. Qxh5 Rxf2 22.
 Qg5 Raf8 23. Kh1 R8f5 24. Qe3 Bd3 25. Rce1 h6  0-1
-
-
 
 [Event "It"]
 [Site "Berlin"]
@@ -8413,4 +8371,3 @@ f6 31. a4 Bd7 32. a5 bxa5 33. Nxa5 Rf7 34. Nb3 Bb5 35. Kb4 a6 36. d5 Kg8
 37. Nd4 Be8 38. Ra1 Ra8 39. Ka5 Rd7 40. Kb6 Rf7 41. Kb7 Rd8 42. Rxa6 
 Rdd7 43. Kb6 Rf8 44. Ne6 Bf7 45. Nc5 Be8 46. Ra8 Kf7 47. Nxd7 Bxd7 
 48. Bd8 Kg6 49. Kc7 Bb5 50. Ra5 Be8 51. Be7 1-0
-

@@ -1,4 +1,4 @@
-﻿[Event "Vienna"]
+[Event "Vienna"]
 [Site "Vienna"]
 [Date "1859.??.??"]
 [Round "?"]
@@ -1369,19 +1369,6 @@ bxc6 0-1
 [Site "Dublin"]
 [Date "1865.??.??"]
 [Round "?"]
-[White "Cronhelm, E."]
-[Black "Steinitz, William"]
-[Result "0-1"]
-[ECO "A00"]
-[PlyCount "0"]
-[EventDate "1865.??.??"]
-
- 0-1
-
-[Event "Dublin"]
-[Site "Dublin"]
-[Date "1865.??.??"]
-[Round "?"]
 [White "MacDonnell, George Alcock"]
 [Black "Steinitz, William"]
 [Result "1/2-1/2"]
@@ -2692,19 +2679,6 @@ Rg3+ 0-1
 1. e4 e5 2. Nc3 Nc6 3. f4 Bb4 4. Nf3 Bxc3 5. bxc3 Qe7 6. fxe5 Nxe5 7. d4 Nxf3+
 8. Qxf3 d5 9. e5 Be6 10. Bd3 c6 11. Rb1 b5 12. O-O h5 13. a4 a6 14. Qg3 g6 15.
 Ra1 Kd7 16. axb5 Kc7 17. Ba3 Qd7 18. Bd6+ Kd8 19. Qg5+ Kc8 20. bxa6 1-0
-
-[Event "Baden-Baden"]
-[Site "Baden-Baden"]
-[Date "1870.??.??"]
-[Round "8"]
-[White "Winawer, Szymon"]
-[Black "Steinitz, William"]
-[Result "0-1"]
-[ECO "A00"]
-[PlyCount "0"]
-[EventDate "1870.??.??"]
-
- 0-1
 
 [Event "Baden-Baden"]
 [Site "Baden-Baden"]
@@ -4776,19 +4750,6 @@ dxe4 22. Red1 Qc7 23. Qh3 Re5 24. Rd7 Qxd7 25. Nh6+ gxh6 26. Qxd7 Bd5 27. Bxh6
 [Event "Vienna"]
 [Site "Vienna"]
 [Date "1882.??.??"]
-[Round "19"]
-[White "Noa, Josef"]
-[Black "Steinitz, William"]
-[Result "0-1"]
-[ECO "A00"]
-[PlyCount "0"]
-[EventDate "1882.??.??"]
-
- 0-1
-
-[Event "Vienna"]
-[Site "Vienna"]
-[Date "1882.??.??"]
 [Round "20"]
 [White "Steinitz, William"]
 [Black "Mackenzie, George Henry"]
@@ -4859,19 +4820,6 @@ h5 15. Bf5 Qh6 16. Bxh6 Rxh6 17. Bc8 Na6 18. Bxb7 Rd8 19. Qe2 Nc7 20. Qc4 Kf8
 21. Rad1 Rb8 22. Bxc6 g5 23. Rd7 Ne6 24. Ng3 Rb4 25. Qa6 Rf4 26. Bd5 Bc5 27.
 Qc8+ Kg7 28. Rxe6 Bxf2+ 29. Kh1 h4 30. Re8 Ne7 31. Rdxe7 hxg3 32. Rg8+ Kf6 33.
 Qc6+ Kxe7 34. Re8# 1-0
-
-[Event "Vienna"]
-[Site "Vienna"]
-[Date "1882.??.??"]
-[Round "24"]
-[White "Fleissig, Bernhard"]
-[Black "Steinitz, William"]
-[Result "0-1"]
-[ECO "A00"]
-[PlyCount "0"]
-[EventDate "1882.??.??"]
-
- 0-1
 
 [Event "Vienna"]
 [Site "Vienna"]
@@ -5576,19 +5524,6 @@ Bd7 28. Rb3 d5 29. Ba6 c5 30. g3 cxd4 31. gxf4 Bxa5 32. Bb7 Rd8 33. Ra1 Bb6 34.
 Bxd5 Bf5 35. Bc4 d3 36. Rb5 Bg4 37. Rd5 Rc8 38. Bb3 Bxf2 39. Kg2 Bb6 40. Bd1
 Be6 41. Rh5 e3 42. f5 Bd5+ 43. Bf3 Rc2+ 44. Kg3 Bxf3 45. Kxf3 Rf2+ 46. Ke4 e2
 47. Kxd3 Rf1 0-1
-
-[Event "London"]
-[Site "London"]
-[Date "1883.??.??"]
-[Round "16"]
-[White "Steinitz, William"]
-[Black "Skipworth, Arthur"]
-[Result "1-0"]
-[ECO "A00"]
-[PlyCount "0"]
-[EventDate "1883.??.??"]
-
- 1-0
 
 [Event "London"]
 [Site "London"]
@@ -10755,19 +10690,6 @@ Rxf5 22. Nd3 Qh4 23. Rf2 c5 24. Rh2 Qe7 25. Rg2 Kh7 26. Qg4 Qf7 27. Nxc5 Bxe5
 [Event "London"]
 [Site "London"]
 [Date "1899.??.??"]
-[Round "9"]
-[White "Steinitz, William"]
-[Black "Teichmann, Richard"]
-[Result "1-0"]
-[ECO "A00"]
-[PlyCount "0"]
-[EventDate "1899.??.??"]
-
- 1-0
-
-[Event "London"]
-[Site "London"]
-[Date "1899.??.??"]
 [Round "10"]
 [White "Steinitz, William"]
 [Black "Maroczy, Geza"]
@@ -11121,8 +11043,6 @@ Kb2 Ke7 34. Kc1 Kf7 35. Rf1 Rh4 36. Rf2 Kf6 37. Nf1 Rd7 38. Ne3 h5 39. Rg2 Rg7
 Rf1 Re2 47. Nd1 b4+ 48. axb4 axb4+ 49. Kb2 Rdd2 50. Kb1 Rxc2 51. h4 Rcd2 52.
 Kc1 Rd3 0-1
 
-
-
 [Event "The Hague sim"]
 [Site "The Hague sim"]
 [Date "1873.??.??"]
@@ -11297,8 +11217,6 @@ Kh1 Qxf3+ 22. Bg2 Qxg4 23. Bd5+ cxd5 24. Qxd5+ Kh8 25. Rg2 Qh3+ 26. Rh2 Qf5 27.
 Qxb7 Qf7 28. Qe4 Qf5 29. Qb7 Qf7 30. Qe4 Qf5 31. Qb7 Nc7 32. Rg1 Bxg1 33. Qxc7
 Bd4 34. Bxd4 Qe4+ 35. Rg2 Qxd4 36. Ne5 Qd1+ 37. Kh2 Qh5+ 38. Kg1 g5 39. Rh2
 Qd1+ 40. Kf2 Qd2+ 41. Kg1 Qe3+ 42. Rf2 Rac8 0-1
-
-
 
 [Event "Haarlem sim"]
 [Site "Haarlem sim"]
@@ -11722,253 +11640,6 @@ Nxe5 Nf6 9. Nxc6 bxc6 10. O-O O-O 11. Nc3 Qd7 12. Bf4 Rae8 13. Qf3 Bc5+ 14. Kh1
 Bd4 15. Nd1 Re6 16. c3 Be5 17. Bg5 c5 18. Nf2 Qd6 19. g3 h5 20. Rad1 Nh7 21.
 Be3 Rf6 22. Qxh5 Bxg3 23. hxg3 Rh6 24. Bxh6 gxh6 25. Ng4 1-0
 
-
-
-[Event "?"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "?"]
-[White "About this Publication"]
-[Black "?"]
-[Result "*"]
-[Annotator "Craig Pritchett"]
-[PlyCount "1"]
-[EventType "tourn"]
-
-{Wilhelm Steinitz was the first undisputed World Chess Champion, and a true
-legend of the game. Steinitz played chess in precisely the same highly
-innovative, risk-taking, hard-hitting, yet thoroughly concrete way as any
-modern great. Allied to his near-nerveless will-to-win and attacking flair,
-his exceptional ability to evaluate positions, develop masterful plans and
-manoeuvre for advantage created numerous games of long-lasting, insightful
-brilliance. In this book, Craig Pritchett leads you through an unforgettable
-learning experience that builds on the extraordinary life and games of one of
-the greatest players in chess history, many of whose most profound discoveries
-remain at the very heart of the game in the 21st century.} 1. Z0 {Move by Move
-provides an ideal platform to study chess. By continually challenging the
-reader to answer probing questions throughout the book, the Move by Move
-format greatly encourages the learning and practising of vital skills just as
-much as the traditional assimilation of knowledge. Carefully selected
-questions and answers are designed to keep you actively involved and allow you
-to monitor your progress as you learn. This is an excellent way to improve
-your chess skills and knowledge.  Learn from the games of a chess legend
-Important ideas absorbed by continued practice Utilizes an ideal approach to
-chess study} (1. Z0 {About the Author Craig Pritchett is an International
-Master. Twice Scottish Champion, he has represented his country, four times on
-top board, in nine Chess Olympiads. He was a longstanding chess correspondent
-for the Scottish newspaper, The Herald (1972-2006), and completed a five year
-term as Schools Chess Development Director for Chess Scotland (2003-2008).
-2015 Scottish Seniors (50+) Champion, he won the gold medal for the best board
-one performance at the European Seniors (60+) Team Championships in 2011. Also
-by the author: Starting Out: Sicilian Scheveningen Play the English Chess for
-Rookies Chess Secrets: Heroes of Classical Chess Chess Secrets: Giants of
-Innovation Chess Secrets: Great Chess Romantics}) *
-
-[Event "?"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "?"]
-[White "Foreword"]
-[Black "?"]
-[Result "*"]
-[Annotator "Craig Pritchett"]
-[PlyCount "1"]
-[EventType "tourn"]
-
-{Move by Move is a series of opening books which uses a question-and-answer
-format. One of our main aims of the series is to replicate - as much as
-possible - lessons between chess teachers and students.} 1. Z0 {All the way
-through, readers will be challenged to answer searching questions, to test
-their skills in chess openings and indeed in other key aspects of the game.
-It's our firm belief that practising your skills like this is an excellent way
-to study chess openings, and to study chess in general. --- Many thanks go to
-all those who have been kind enough to offer inspiration, advice and
-assistance in the creation of Move by Move. We're really excited by this
-series and hope that readers will share our enthusiasm.} (1. Z0 {Craig
-Pritchett, Everyman Chess}) *
-
-[Event "?"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "?"]
-[White "Introduction"]
-[Black "?"]
-[Result "*"]
-[Annotator "Craig Pritchett"]
-[PlyCount "1"]
-[EventType "tourn"]
-
-{The first world champion, Wilhelm Steinitz (1836-1900), is famously
-associated with the view that chess is an inherently ‘balanced’ game, in
-which opponents must jockey for ‘small advantages’ before launching
-all-out winning attempts. Steinitz considered that any attack needs to be
-rooted in objective, soundly-based positional factors to be truly effective.
-Revolutionary thought in his day, we all now understand that effective attacks,
-indeed all good plans in chess, require robust positional justification.
-Steinitz made a huge contribution to the development of what we now consider
-to be the main guiding principles of modern positional chess and especially
-good planning. Because we can’t calculate ‘everything’ at a chessboard,
-we need good ‘plans’ to help inform most of our move-bymove
-decision-making. Success in chess requires not just raw calculating power, but
-also good judgement, evaluation, planning and manoeuvring skills, to help us
-reach those truly decisive moments in games when a player’s tactical skills
-actually tend to be at their highest premium. None of the above causes the
-21st century player to bat an eyelid. Indeed it was only revolutionary
-thinking in Steinitz’s day because the allout, open kingside,
-gambit-attacking style that prevailed in the early- to mid-19th century began
-to lose its attraction as Steinitz and others significantly stiffened
-‘defences’. In this new world, Steinitz began to investigate the closed as
-well as the old open games and to conceive unusually subtle and invariably
-flexible plans drawn from a pragmatic mix of dynamic and static positional
-factors that he, more than anyone, understood were often in a constant state
-of flux and might rapidly vary. If Steinitz’s greatest achievement was to
-address this new complexity and show us how to fuse the best of an essentially
-open, combinational and direct attacking past with a new and profound
-understanding of the widest array of material, time, structural and spatial
-positional factors, we mustn’t, however, forget other aspects of his
-considerable playing strength. In addition to his obvious mastery of
-positional play and tactics, Steinitz also possessed a genius for the
-development of new ideas in the opening, an uncommon ability to size up his
-opponents’ psychological state and a near-nerveless fighting spirit. In
-elaborating his principles of positional play, planning and manoeuvre,
-Steinitz not unjustifiably considered himself to be in the vanguard of the
-development of a new ‘modern school’. As he was the world’s best player
-for the better part of at least two decades, he had an outstandingly
-successful strike rate. One of the most original and successful players that
-the game has ever seen, Steinitz produced many ideas and games of long-lasting
-and insightful brilliance that still bear comparison with those of any
-subsequent, modern great and remain just as instructive} 1. Z0 {How to enjoy
-this book – and learn from it! This book has a chronological structure that
-enables the reader to follow developments in Steinitz’s life and games as
-they actually unfolded. As such, the book can be enjoyed as a traditional
-games collection and biography. Using the Move by Move series’ question and
-answer technique in the game annotations, I also challenge readers to reflect
-on and seek to improve their own understanding and skills-set. To readers who
-take up that challenge, do try to approach it enjoyably! Above all, allow
-yourself to be inspired by Steinitz. Embrace his innovative spirit and
-occasionally expect to get things wrong, not always right, just as he did.
-Like any 21st century modern, Steinitz saw near-endless scope to devise and
-test new ideas in chess and he always fought like a tiger, once he had made
-his choices. Prepared to take calculated, but not knowingly unsound risks,
-Steinitz also had the strength of mind to drop any idea, if he sensed it had
-been ‘refuted’ in the court of exhaustive analytical test. I rest my case.
-Good luck in your own personal quest to release your own inner Steinitz –
-and win more points! Craig Pritchett Dunbar, September 2015} *
-
-[Event "?"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "?"]
-[White "Early Years (1857-1866)"]
-[Black "CHAPTER ONE:"]
-[Result "*"]
-[Annotator "Craig Pritchett"]
-[PlyCount "0"]
-[EventType "tourn"]
-
-{Chapter One Early Years (1857-1866) Steinitz’s biographer, Kurt Landsberger,
-could establish only relatively sketchy information about Steinitz’s
-earliest years. Born into a poor Jewish family, in the “overcrowded,
-unsanitary [Prague] ghetto”, Wilhelm, originally ‘Wolf’, was the seventh
-of thirteen siblings, six of whom died at a very early age. His mother died
-when he was 9. He may have learned to play chess at about 12 and possibly
-moved out of his father’s home by 15, one year after his father remarried.
-He seems to have had a difficult relationship with his father, who apparently
-frowned on his early chess activities, which may have included playing chess
-for small sums in chess-playing Prague coffee houses in his later teens, but
-probably didn’t completely abandon his early schooling. Faced with a long
-string of such ‘maybe’s’, and no apparent record of any actual chess
-games, Ludwig Bachmann simply begins his four volume (mainly chess) biography,
-in 1857, at the point when Steinitz resolved to move from Prague to Vienna,
-the capital of the Austro-Hungarian Empire. There, in 1858, Steinitz enrolled
-as a university student, but despite clear evidence of academic merit,
-especially in maths, he failed to take all of his first year exams and had to
-abandon his studies. By that time, however, it seems that Steinitz was
-beginning to take chess very seriously, possibly already with a view to
-devoting his life to the game. Chess was no easy calling, however, for someone
-of scant private means and Steinitz appears to have enjoyed no more than a
-precarious living during these early Vienna years. He joined the Vienna Chess
-Club, one of the strongest in Europe, which gave him access to wealthier
-‘clients’ willing to pay him modest sums for ‘lessons’ and stakes
-games (on which there might be frequent bets). Steinitz also played in the
-annual Vienna Club tournaments, Austria’s strongest national events,
-eventually establishing clear Austrian supremacy: he placed third in 1859,
-second in 1860 and then clear first in 1861, scoring +30 -1 (Bachmann) over 34
-games (Landsberger). As a result of his Vienna 1861 victory, Steinitz was
-asked to represent Austria, at London 1862, which provided him with an
-opportunity to compete with some of the world’s best players, in the
-strongest international tournament to be staged since the great
-match-tournament, won by Adolf Anderssen, at London 1851. Following a
-creditable sixth place at London 1862, Steinitz remained in the British
-capital, where he lived until his emigration to the USA, in the early 1880s.
-London’s many chess clubs, divans and coffee houses offered richer pickings
-to the budding ‘professional’ chess player than elsewhere, and at least as
-stiff, top-class opposition. Steinitz rapidly gained a deserved reputation as
-London’s best player in the next few years. Steinitz took his first
-professional steps in Viennese chess just as his almost exact contemporary,
-Paul Morphy (1837-1884), was completing his dramatic, and quite separate rise
-to the chess world’s pinnacle. At New York 1857, the prodigiously talented
-and socially charming young American had almost effortlessly won the first U.S.
-Championship Congress. Throughout most of 1858 and into early 1859, Morphy
-then trounced all-comers, in Paris and London. This brilliant series ended
-with a resounding, 8-3 match win against Anderssen, still then widely regarded
-as Europe’s strongest player, shortly after which Morphy abruptly announced
-his chess ‘retirement’. The youthful Morphy’s virtuosic technique,
-splendid combinations and powerful attacks, especially in open games, dazzled
-the chess world. Born into a wealthy New Orleans family, Morphy could not,
-however, bear the thought of playing chess ‘professionally’, as it did not
-square with his upper-class sense of a Louisianan gentleman’s duty or
-station in life. Before his European trip, Morphy had obtained a degree in law
-and announced his intention to practise at law on his return. Sadly he failed
-as a lawyer and continued to cut himself off from competitive chess. An
-intensely private man, he became increasingly reclusive and eventually
-developed a socially debilitating form of actual mental illness. The
-impecunious Steinitz came from a vastly different world from that of Morphy.
-Without private means, Steinitz could only hope to succeed in chess by
-embracing a fully professional approach and making his chess activities work
-economically. He modelled his playing style on Morphy, whose accent on rapid
-piece development, exploitation of open attacking lines, crisp combinations
-and prodigiously quick and accurate, strategic and tactical sight of the board,
-he rapidly absorbed, so much so that his prowess in handling open king’s
-pawn games and gambits soon earned him the nickname, ‘the Austrian Morphy’.
-Steinitz took this playing style into London 1862, where he first met and
-played against Anderssen and Louis Paulsen, two of the world’s greatest
-players, who finished respectively in first and second places. There he found
-that he could relate to Anderssen’s broadly similar playing style, but found
-Paulsen’s closed games of manoeuvre much harder to fathom. Paulsen liked to
-slow down play and invite attacks against defensively resilient pawn
-structures. He had a predilection for the acceptance of most conventional
-gambits, defending resourcefully and eventually confounding attackers with
-powerful counterattacks. Steinitz later acknowledged that it took a great deal
-of persuasion by the two leading players of the then predominant open
-attacking (or ‘romantic’) style, Anderssen and the Hungarian player,
-Ignatz Kolisch, to convince him that Paulsen’s closed style of play
-shouldn’t be underestimated. Looking back, in his International Chess
-Magazine (July 1891), Steinitz reflected that these wholly fruitful debates
-taught him for the first time “to recognize that chess genius is not
-confined to [ ... ] more or less deep and brilliant finishing strokes after
-the original balance of power and position has been overthrown, but that it
-also requires the exercise of still more extraordinary powers [ ... ] to
-maintain that balance or [ ... ] disturb it at the [appropriate moment]”.
-This notion of the existence of a natural ‘balance’ in chess proved to be
-especially fruitful for the young Steinitz. While his style didn’t change
-overnight, Bachmann contends that while Steinitz remained largely attached to
-open attacking methods, his game also began from that point to develop signs
-of the more nuanced positional strengths that were to become marked in his
-later years. Bachmann points in those earlier years to Steinitz’s
-“remarkable defensive staying power in difficult positions and tenacity both
-in holding fast to and in the systematic development of small advantages to
-the point where they offer the prospect of potentially won games”. 1.--
-Steinitz’s playing strength certainly developed apace in his early London
-years, bringing him not only considerable success, but also a growing
-reputation as one of the world’s top four or five players, and as a possible
-threat to the ageing Anderssen’s reassertion of his reputational primacy in
-a world that could no longer count upon a return by Morphy. By 1866,
-Steinitz’s standing was such that he gained sufficient London backing to
-challenge Anderssen in a formal stakes match. Although Anderssen was favourite
-to win, Steinitz won convincingly, if relatively narrowly, by the remarkably
-belligerent score of +8 -6, with no drawn games.}  *
-
 [Event "Wien"]
 [Site "Vienna"]
 [Date "1859.??.??"]
@@ -12239,114 +11910,6 @@ in their minds and objectively. Grapple with the fundamental strategic
 purposes of the opening, not just the latest variations or largely illusory
 ‘blockbuster’ moves – aiming primarily to understand and generate
 generally playable game-plans, including their links to the middlegame.} 1-0
-
-[Event "?"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "?"]
-[White "Achieving Supremacy (1867-187"]
-[Black "CHAPTER TWO:"]
-[Result "*"]
-[PlyCount "0"]
-[EventType "tourn"]
-
-{Chapter Two Achieving Supremacy (1867-1876) Steinitz may have defeated Adolf
-Anderssen in their 1866 match, but in the eyes of many he hadn’t yet clearly
-demonstrated his superiority over the old master. Many considered that the
-match might easily have gone either way. Steinitz had only forged ahead by
-winning the last two games of the match and the two-point margin was itself
-quite narrow over only 14 games. Of even greater significance was Steinitz’s
-relatively inferior record in international tournaments. Having taken first
-place at London 1851, the first great international tournament ever held, and
-at London 1862, Anderssen had a claim to fame that was hard to match. Steinitz
-finished sixth at London 1862 and was yet to win any great international
-tournament. Others, too, of Steinitz’s own generation, including Kolisch and
-Louis Paulsen, had shown that they might eventually have the full measure of
-the German champion. In the absence of any formal process to decide a ‘world
-champion’, and all but occasional opportunities to play in wellorganized
-national and international tournaments (though these became more frequent
-during the 1860s), it was, however, near-impossible to decide between the
-competing reputational claims of perhaps four or five players to be considered
-the de facto champion, a state of affairs that certainly continued into the
-early 1870s. In the year after his match with Anderssen, Steinitz obtained two
-opportunities to promote his tournament reputation, at Dundee and Paris. At
-Dundee, however, despite a fine score (7/9), he could only secure second place,
-a half-point behind another exceptionally gifted young player, Gustav Neumann,
-one of Anderssen’s chess students. At the stronger Paris event, Steinitz
-placed only third, behind the winner, Kolisch, and the rising Polish star,
-Szymon Winawer, although he did manage to outdistance fourth-placed Neumann.
-Throughout the late-1860s, while unbeaten in one-to-one match play, Steinitz
-still had a point to prove in tournament chess. He had to wait three years for
-his next big tournament chance, at Baden-Baden 1870. During those years,
-Steinitz’s chess life, with its predominant mix of stakes chess, lessons,
-exhibitions and occasionally more serious tournament or match play, continued
-much as it had done before his match with Anderssen. At a personal level,
-Steinitz now had a wife, Caroline (b.1847), with whom he lived in apparently
-secure, if economically modest circumstances in a working-class area of East
-London, and became more rooted. While Landsberger believes that the couple may
-not have formally married, they certainly lived together as man and wife and
-remained together as a family with their daughter, Flora, who was born towards
-the very end the match with Anderssen. Baden-Baden 1870 was an outstanding
-event that brought together an even stronger field than had competed at Paris.
-Once again, Steinitz, who finished in second place, was an unlucky bridesmaid.
-While he comfortably outclassed such leading lights as Blackburne, Neumann,
-Louis Paulsen and Winawer, he had to concede first place to the rejuvenated
-and evergreen Anderssen, who outdistanced him by a half-point and against whom
-he lost both of their individual games. By Steinitz’s own later admission,
-his Baden-Baden performance had been highly disappointing and often quite
-erratic. The experience, however, convinced him to work much harder and embark
-on a fundamental overhaul of his playing style. Whatever Steinitz did worked
-wonders. In 1872, he won his first international tournament in London and
-trounced the young Johannes Zukertort, +7 -1 =4, in match play. At Vienna 1873,
-Steinitz then won one of the greatest tournaments of the age, scoring an
-astonishing, +20 -2 =5, and defeating Blackburne, 2-0, in a tie-break. That
-Steinitz and Blackburne tied, however, was more a quirk of the unusual
-tournament regulations than a reflection of merit. The main event was decided
-on a mini-match basis (each player met all the others in two-, or at most
-3-game encounters). While Steinitz and Blackburne tied 10/11 (in mini-matches),
-Blackburne, scoring +20 -9 =3, had laboured much harder than Steinitz to do
-that. Steinitz’s magnificent result at Vienna 1873 marked a significant
-breakthrough and his reputation soared. Writing in July 1874, in his recently
-commissioned column in The Field , Steinitz at last felt bold enough to
-suggest, in reply to a reader’s query about the world’s ‘best’ player,
-that “pro tem ... Steinitz, who has not yet lost any set match on even terms,
-and who has come out victorious in the last two international tournaments,
-London 1872 and Vienna 1873 could claim the title of champion”. This quite
-balanced view of Steinitz’s relative primacy was no doubt widely accepted,
-subject to his modest rider that nevertheless “probably little difference
-exists between several first-class players”. Steinitz’s change in
-tournament fortune was matched by positive changes in his playing style. At
-Vienna 1873, Steinitz notably extended his range of openings, building on a
-successful adoption of 1 d4 in his two final white games in the Zukertort
-match, to include a series of English and Queen’s Pawn openings. This marked
-a move away from his early preference for the old open games and gambits
-towards the more strategicallybased, closed openings, with their greater
-emphasis on positional understanding, good planning and the manoeuvring arts
-than direct tactics and towards the style to which he shifted almost
-exclusively in his more mature years. Steinitz never completely gave up on one
-or two of the old open games and even gambits, especially those that had more
-interesting and underinvestigated strategic roots and provided ample scope for
-his genius for opening innovation, such as the Kieseritzky and Salvio Gambits
-and his own bamboozling Steinitz Gambit. Gradually, however, more Spanish
-Games and Queen’s Gambits crept into Steinitz’s repertoire. He became an
-increasingly all-round and even more exceptionally inventive player, whose
-profound chess understanding, allied to his relish for surprise and experiment,
-must have made him despairingly difficult to prepare against. During these
-years, Steinitz’s column in The Field , which he conducted from 1873-1882,
-rapidly became an international exemplar for a new level of deeply analytic,
-incisive and highly objective game annotations. As he gradually became the
-reputational world ‘champion’ by ever-wider acclaim, Steinitz’s stock as
-a chess writer also soared. Chess players around the globe followed his
-detailed commentaries on the top events and best games played in them avidly,
-including the two great games played by correspondence between the London and
-Vienna chess clubs (1873- 1874), and all seven games played in the
-Steinitz-Blackburne match (London 1876). Steinitz’s seven point winning
-margin against Blackburne, without conceding either a draw or a loss, was, of
-course, remarkable. Adding these seven straight wins to his finishing run of
-sixteen wins, at Vienna 1873, meant that Steinitz had won twenty-three
-successive games at the very highest level. Few doubted Steinitz’s claim to
-be considered the de facto champion in 1876 – pro tem perhaps, yet supreme!} 
-*
 
 [Event "Paris"]
 [Site "?"]
@@ -12712,137 +12275,6 @@ Rd8 22. Re1 Rd5 23. Re4 Qh6 (23... Rc5) 24. h4 g5 $2 25. e6 fxe6 26. Qa4+ Ke7
 R8d6 38. Rxh7 Rc5 39. Rg6 Kf8 40. h5 Rdd5 41. Rxe6 Rxh5 42. Rxh5 Rxh5 43. a4
 Rc5 44. Re3 Rc4 45. Kf2 Kf7 46. Ke2 Kf6 47. Kd3 Rxa4 48. c4 Ra1 49. c5 Ra4 50.
 Re4 Ra1 51. Kc4 Ra4+ 52. Kd5 Ra3 53. c6 1-0
-
-[Event "?"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "?"]
-[White "Attaining the Unchallenged , Crown (1877-1886)"]
-[Black "CHAPTER THREE:"]
-[Result "*"]
-[PlyCount "0"]
-[EventType "tourn"]
-
-{Chapter Three Attaining the Unchallenged Crown (1877-1886)  Having achieved
-widespread acclaim as the world’s leading player in the years leading up to
-and including his crushing 1876 match victory against Blackburne, Steinitz
-then effectively withdrew from all serious match and tournament chess until
-the second great Vienna tournament of 1882. During this period, he continued
-to study the game and extended his serious chess writing, primarily in The
-Field , whose increasingly expansive columns he conducted throughout this
-period until 1882. Steinitz’s income from chess writing, allied to
-exhibition and lecturing engagements and private instruction (he counted a
-number of wealthy and well-placed establishment figures among his clients,
-including Lord Randolph Churchill) must have significantly improved in these
-years. At any rate, rather than battle for prizes and prestige in the next
-great international tournament at Paris 1878, Steinitz covered the event,
-solely as an on-site reporting journalist. While this may have made good
-financial sense, Steinitz was nevertheless aware that by continuing to take
-extended leave from top tournament and match play, he put his pre-eminent
-reputation at risk without being able to defend it. Steinitz accordingly
-announced in The Field that he “would acknowledge the [Paris] winner as his
-perfect equal [and that if he] had not played [him] before, the winner will be
-entitled to consider himself the superior”. Perhaps fortunately for
-Steinitz’s reputation, the winner, Zukertort, still had a poor, head-to-head
-record against him. As the 1870s wore on, Steinitz’s chess understanding and
-writing grew in beneficial tandem and his reputation as a great teacher and
-communicator, as well as the world’s leading chess player, also soared. In
-1875, he had written in The Field , that “first-class players [ ... ] are
-mostly guided [ ... ] by certain principles of judgement, which only want
-expression to be made accessible to the generality of students”. Steinitz
-had a genius for teasing out and clearly explaining such ‘principles of
-judgement’, along with their subtle, ever-changing and often difficult
-interaction with concrete variations that attracted students everywhere.
-Gradually, however, Steinitz’s competitive urge began to reassert itself. As
-the 1880s opened, it became clear that Zukertort’s star had dramatically
-risen and that his claim to rival Steinitz’s supremacy could no longer be
-denied. Following his outstanding victory at Paris 1878, Zukertort had
-decisively defeated the French champion, Johannes Rosenthal, +7 =11 -1, at
-London 1880 and Blackburne, +7 =5 -2, at London 1881. Most neutrals now
-considered that Steinitz had a moral duty to return to the board to
-demonstrate his supremacy or lose it to Zukertort by default. Steinitz
-returned to the fray, taking up an invitation to play at the second great
-Vienna tournament, in 1882. The year 1882 proved to be one of momentous change
-for Steinitz. Despite almost six years’ absence from the top-class game,
-Steinitz emphatically reasserted his de facto primacy at Vienna 1882, where he
-finished in a well-merited share of first and second places with Winawer,
-comfortably ahead of Zukertort (fourth/fifth equal). Shortly after the
-tournament ended, however, and despite the pride in Steinitz’s performance
-that most British chess players took in an essentially British achievement,
-Steinitz suddenly resigned as the country’s foremost columnist in The Field .
-Although Steinitz had become embroiled in an editorial dispute that seems to
-have developed towards the end of play at Vienna, it remains unclear exactly
-why this had to happen, who may have been most at fault and why there
-couldn’t have been a reconciliation (as there had been before on one or two
-occasions). Matters worsened (from a British perspective) when, later in 1882,
-Steinitz travelled to America to embark on a long-planned tour of the New
-World chess clubs, whose considerable financial and personal success
-apparently persuaded him that his professional future best lay in the USA.
-Steinitz organized his emigration in 1883, shortly after returning to London
-from his American tour and after competing in the next big international
-tournament at London 1883. Back on the chess board, Zukertort reinforced his
-claim to superiority over Steinitz, by finished in clear first place, at
-London 1883, where he scored an exceptional 22/26, which left second-placed
-Steinitz fully three points behind him. Virtually all of the world’s top
-players had played both in Vienna and London and there was no longer any real
-doubt that these two great players really must slug it out in matchplay. After
-two further gruelling years of difficult negotiation, in which neither side
-ever willingly agreed that he was the ‘challenger’, the parties and their
-backers finally signed the contract that committed them to play in a grand
-contest in which the winner would be the first to score 10 wins (draws not
-counting) in the first ever, formally organized match for the world
-championship, at New York, St. Louis and New Orleans 1886. Purely personal
-issues aside, transatlantic travel, venue and cost complications added
-considerably to the negotiating challenges and delay in bringing the match
-about. If only Steinitz and The Field had been able to resolve their
-differences, what might have been? America’s gain was a considerable loss to
-Great Britain. The match stakes, at $2,000 (or around £400) a side, were set
-at an unusually high level that was greatly in excess of sums staked in
-previous broadly comparable contests. In their 1876 match, for example,
-Steinitz and Blackburne had played for stakes of £60 a side, in itself a not
-inconsiderable sum and around the previous maximum at that time. It is, of
-course, hard to assess the effective purchasing power of money for goods,
-services, rents and property, in what was a very early industrial, far more
-unequal and economically insecure Victorian age. Such stakes, however, must
-have seemed quite eye-wateringly high to the mass of the USA and UK’s
-population. In 1884, the Third Reform Act in Great Britain extended the
-suffrage to include all males who either owned property worth at least £10 or
-paid rent of £10 or more a year, which still excluded some 40% of the male
-population. In his Chess History and Reminiscences , Henry Bird was
-sufficiently moved by the size of the purse at stake to conclude that the
-players’ equal contribution towards it was “a sum neither party could
-afford to lose, even though they could tax their chess supporters for it”.
-Bearing in mind that the winner would normally expect to refund his own
-financial backers fully, usually with interest drawn from the loser’s stake,
-the first world title match clearly did not offer quite the kind of $million 
-(plus) purses, with reasonable financial guarantees in place for both players,
-that we have since seen in the late 20th and early 21st centuries. The
-unfortunate 1886 loser obtained only his (at least quite generous) expenses
-and a share of the take at the gate. Both players therefore had to play for
-the big prize with one eye on how they might continue to secure regular,
-ongoing income from other sources. In Steinitz’s case, he added to his usual
-chess activities a new, privately-owned, International Chess Magazine , which
-ran from 1885- 1891. Remarkably, he even felt constrained to regularly edit
-the magazine’s content (much of it his own), while he took on Zukertort.
-Steinitz, who started the great match as very slight favourite, eventually
-overwhelmed his opponent, after a poor start, in which he went three wins down
-in the first five games. Although six years older than Zukertort, Steinitz 
-(aged 49) proved to be the stronger match player, not just technically
-superior, but also the more fearless fighter and fitter physically, eventually
-running out clear winner, scoring 10-5 in wins (with 5 draws). Steinitz
-regularly outplayed Zukertort in a match that featured mainly closed and
-semi-closed games of a confusingly structural and manoeuvring nature that gave
-his opponent little chance to demonstrate his undoubted talent for
-combinational brilliancy. Steinitz showed a marked superiority in the opening,
-which he played with greater variety, enterprise and ingenuity than Zukertort,
-and whose transitions into typical middlegames he understood and played much
-more profoundly. Towards the end of the match, Zukertort’s weaker nerves and
-physical frailty began to tell even more than Steinitz’s incessant
-onslaughts. Completely exhausted, his final loss in a Steinitz Gambit, which
-Steinitz had studiously reserved for such a moment of obvious frailty (see
-notes to Game 8) was calamitous. In Steinitz, however, Zukertort faced a
-‘champion’, once again at the very top of his game, an unstoppable
-juggernaut.}  *
 
 [Event "Wien International-02 25years WienerSK"]
 [Site "Vienna"]
@@ -13487,156 +12919,6 @@ Qxa1 31. Rxa1 Bxa1 $19) 29. Raxd1 (29. Rfxd1 exd1=Q+ 30. Rxd1 Qxc3 $19 {Euwe})
 29... Qxc3 {Time: Zukertort: 1h    Steinitz: 1h 4min Zeit: Zukertort: 1h   
 Steinitz: 1h 4min} 0-1
 
-[Event "?"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "?"]
-[White "Remaing at the Pinnacle , (1887-1892)."]
-[Black "CHAPTER FOUR"]
-[Result "*"]
-[PlyCount "0"]
-[EventType "tourn"]
-
-{Chapter Four Remaing at the Pinnacle (1887-1892) Steinitz, who reached his
-fiftieth birthday shortly after winning the world title in 1886, was aware
-that increasing age might be one of his fiercest challengers in the next few
-years. Thankfully his health and playing strength held up remarkably well, at
-least into the early 1890s. In this period, Steinitz twice defeated Mikhail
-Chigorin (1850-1908) and Isidor Gunsberg (1854-1930) once, in three world
-championship matches. In addition to publishing his monthly International
-Chess Magazine (1885-1891), he also completed Volume 1 of his Modern Chess
-Instructor (1889) and extensive game annotations for the commemorative book of
-the marathon, 38-round 6th American Chess Congress, at New York 1889. No one
-could fault Steinitz’s industry. His move to America refreshed him. He had
-never felt wholly settled in Great Britain. While Steinitz mostly got on well
-with his fellow London chess professionals, this tiny pioneering band faced
-constant financial insecurity, in an age dominated by an almost exclusively
-amateur ethos that neither highly valued nor cared much to promote
-‘professionalism’ in chess. Chess was no easy calling, even for the
-world’s best player in the chess world’s greatest capital. Moreover, as a
-foreigner and a Jew, Steinitz also had to endure all too frequent
-anti-foreigner and anti-Jewish prejudice in some of the bitterest attacks by
-one or two of his actual enemies. At any rate, following the loss of his
-financially lucrative column in The Field and his inability to replace it with
-anything suitably commensurate, Steinitz was to find a warmer welcome for his
-talents in the New World, where the main chess clubs clamoured to attract him
-on generous terms for often lengthy local engagements. Steinitz’s economic
-circumstances, and even his health, seemed to benefit, at least in his first
-decade or so in the USA. In an interview with The New York Tribune , in 1886,
-the newly crowned, first world champion recorded that while he had “never 
-[been able to] think of becoming a [British] citizen”, he had already, early
-on, decided to apply for naturalization in the USA. He became a US citizen, in
-1888, shortly before the start of his first world title defence against
-Chigorin. In these years, Steinitz and one or two other US and European chess
-professionals, enjoyed especially generous patronage by the wealthy Havana
-Chess Club. Steinitz and Mackenzie were frequent New York visitors. Inspired
-by the success of such tours and, since 1886, Steinitz’s star appeal as the
-first official world champion, the club’s well-heeled patrons resolved to
-promote further world title matches. Mackenzie declined an initial invitation
-to challenge Steinitz for his crown. Undaunted, the Havana Club asked Steinitz
-to choose a challenger. These were more ‘gentlemanly’ days. Steinitz chose
-well. The only top player to boast a plus score (3/4) against Steinitz,
-Chigorin earned his challenge on merit. The result was a splendid encounter
-that Steinitz colourfully billed in his International Chess Magazine as “a
-fight between an old master of a young school and a young master of an old
-school [which] the young school won in spite of the age of its master”.
-Chigorin, it should be said, didn’t much care for this characterization.
-Though Chigorin liked to attack and to champion the ‘old’ Evans Gambit, he
-also played in a genuinely ‘modern’ style. No throwback to an outmoded
-romantic attacking past, Chigorin openly admired Steinitz’s strategic depth,
-masterly planning and manoeuvring skills and focus on tenacious, ever-concrete
-calculation. However, while he shared Steinitz’s forward-looking spirit,
-Chigorin didn’t quite have his great opponent’s all-round virtuosity and
-simply wasn’t good enough to defeat him. Steinitz won an extraordinarily
-bloodthirsty match, by 10 wins to 6 losses, with one draw, the high count of
-decisive games no doubt due almost entirely to the highly experimental and
-often risky way in which both players battled for the full point. This is the
-match in which Steinitz eight times ventured his quasi-outrageous defence to
-Chigorin’s Evans Gambit: 1 e4 e5 2 Nf3 Nc6 3 Bc4 Bc5 4 b4 Bxb4 5 c3 Ba5 6
-0-0 Qf6!?. Not to be outdone, Chigorin countered six times with an early form
-of Chigorin’s Defence: 1 Nf3 d5 2 d4 Bg4, with four games then continuing 3
-c4 Nc6. Some of the most chaotic positions ever seen in world championship
-combat occurred in this match, leading to not a few errors, rather more of
-them committed by Chigorin. Since the mid-1870s, Steinitz had consciously
-considered himself to be in the vanguard of what he increasingly referred to
-as a new “modern school”. By the late 1870s, and certainly through the
-1880s, most top players came to acknowledge Steinitz’s pivotal role in
-driving that ‘modern school’ forward. Despite a growing sense that
-something new was afoot and the very ubiquity of the term, however, the many
-changes being brought about by the ‘modern school’ still lacked clear
-definition. That it stood in contrast to older, more open, direct attacking
-styles of play, often involving gambits and even greater material sacrifice,
-in a bid to topple kings fast, was vaguely understood, but what more was it?
-Steinitz’s many writings, up to the mid-1880s, had been more piecemeal than
-comprehensive about all this. In the first four issues of his International
-Chess Magazine (January-April 1885), however, Steinitz consolidated many of
-his most important insights in a four-part essay on ‘Paul Morphy and His
-Time’. This significant piece of work makes clear that, in contrast to the
-past, the new ‘modern school’ rested primarily on three main foundations:
-1. The recent development of vastly improved means of defence and
-counterattack, which had rendered the old ‘romantic’ attacking style,
-especially highly speculative gambit play, largely outmoded. 2. An
-understanding that chess didn’t teeter on an unpredictable tactical
-knife-edge, but was much more broadly balanced in a strategically complex way
-that called for the application of more subtly judged planning and manoeuvring
-skills. 3. An increasing realization that the scope in chess for innovation
-and test by concrete analysis was, in effect, near-endless. Steinitz (and
-others) increasingly demonstrated in their games that sacrifices that were not
-based on some previously achieved strategic advantage might be riddled with
-flaws. Steinitz therefore concluded that, in the absence of grave errors, a
-resourceful, well-planned defence might expect to repel the “indiscriminate
-and chiefly tactical kingside attack”, while simultaneously laying the
-ground for a successful counterattack. In the modern game, he noted, “the
-assault against the kingside [now] forms the exception” rather than “the
-rule”, having been “superseded by strategical manoeuvres, marches and
-counter-marches for gaining and accumulating small advantages at any point on
-the board” – not excluding material amassed from the acceptance of most of
-the old-style gambits! Steinitz insisted that the successful player must first
-seek to alter the balance in a game in his or her favour before launching any
-all-out attack. He or she should do this by developing sound and flexible
-plans, rooted in the widest range of concrete positional factors (material,
-time, space and pawn-structural judgements), and transformed into manoeuvres
-that continually adjust to changing circumstances as a game flows. Steinitz
-considered that successful “calculations and combinations” tend to emerge
-from “delicate shades in the application of position judgement”, likening
-them to ways in which “melody [melts] into the harmony and dramatic
-expression of Richard Wagner’s [new revolutionary] music”. More than that,
-however, Steinitz also believed that to be truly successful, the modern player
-must never fear new paths, always ready to take calculated risks and to
-innovate. By innovation, he meant primarily a search for new, often bold
-systems of play, rather than one-off variations. He trusted that the game’s
-breadth, depth and complexity not only provided ample opportunity in which
-such experiment might flourish, but that it also generally favoured the
-innovator. Steinitz was aware of the value of surprise in chess. In response
-to critics of some of his riskier systems, he liked to point out that to
-establish the true value of most playable ideas often required many hundreds
-of hours of practical test and analysis. All of this has since become an
-accepted and enduringly modern chess credo. In 1889, Chigorin, who shared much
-of this new understanding, couldn’t yet match Steinitz’s exceptional
-profundity, energy, passion and positional skills-set. While Chigorin
-contributed gamely to a memorable first title challenge, he remained no more
-than a worthy challenger. In 1890-91, however, the Russian champion moved up a
-gear, winning both games in a cable match against Steinitz, in two
-challengeable lines of the Evans Gambit and Two Knights Defence that Steinitz
-had recommended in his Modern Chess Instructor . Chigorin still had an eye on
-the possibility of a successful return match. Chigorin was indeed to remain
-Steinitz’s main challenger over the next few years and he fared much better
-in their second title match, at Havana 1891-92, throughout most of which he
-retained a narrow lead. No longer quite at his absolute best, Steinitz only
-managed to snatch victory in that match at a very late stage, by 10 wins to 8 
-(with 5 draws), scoring three wins and one draw in the last four games. Aged
-55, Steinitz suffered increasing physical problems. He had a powerful upper
-body, but infirm lower limbs, complained of arthritis and needed a cane to
-walk steadily. Between the two Chigorin matches, Steinitz also defended his
-title, against a challenge by Gunsberg, at New York 1890-91. Played for lower
-stakes and limited to 20 games, this match failed to catch the public’s
-imagination as much as the Chigorin contests. Hard to beat, Gunsberg was
-renowned more for his assured technique than creative enterprise. He had tied
-a lively match with Chigorin, at Havana 1890, and deserved his challenge, but
-he didn’t have Chigorin’s combinational flair or star quality. Playing
-well within himself, Steinitz won this second title defence, 10.5- 8.5, at a
-relative canter.}  *
-
 [Event "World-ch02 Steinitz-Chigorin +10-6=1"]
 [Site "Havana"]
 [Date "1889.02.19"]
@@ -14228,139 +13510,6 @@ wide range of possible plans, none of them sacrosanct. Recognise that most
 of possibilities. Plan flexibly – be on guard constantly for all changes in
 detail and critical turning points!} 1-0
 
-[Event "?"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "?"]
-[White "Gradual Decline (1893-1900)"]
-[Black "CHAPTER FIVE:"]
-[Result "*"]
-[PlyCount "0"]
-[EventType "tourn"]
-
-{Chapter Five Gradual Decline (1893-1900) The year 1892 marked the high point
-in Steinitz’s over the board fortunes. Undisputed world champion since 1886,
-he had since defended his title three times, twice against his most highly
-regarded challenger, Mikhail Chigorin, and once against his next best
-available opponent, Isidor Gunsberg. Pleading the demands of his medical
-practice, the newly established German star, Siegbert Tarrasch (1862-1934),
-had declined an invitation by the Havana Chess Club to challenge Steinitz in a
-match that might have replaced the Gunsberg challenge. In 1892, Steinitz’s
-eventual conqueror, the precociously talented Emanuel Lasker (1868-1941),
-conceded publicly that he did not yet consider his achievements sufficient to
-justify a title contest. In the last (December 1891) issue of his
-International Chess Magazine , Steinitz wrote that after the second Chigorin
-title defence, “a match between myself and any other master is now almost
-out of the question, at least for some time to come”. Stressing his age,
-continuing health problems and his demanding literary undertakings, Steinitz
-reminded readers that he had “already announced [ ... ] before [his Gunsberg]
-match [his] intention of retiring from public contests”. In his late-fifties,
-Steinitz was under no illusion about his ability to sustain his chess playing
-dominance for many more years. His words nevertheless held out the possibility
-of defending his title at some point. Steinitz’s chess mind still wholly
-alert, his relish for the chessboard battle at the very top had not yet
-significantly dwindled. Yet there had been some difficult moments in
-Steinitz’s recent personal, as well as chess playing past. In his
-International Chess Magazine (February 1888), Steinitz had regretfully
-announced that his “most cherished hopes [were] dead and buried in the grave
-of [his] daughter [Flora] [ ... ] at the age of 21 years from rheumatism of
-the heart”. His daughter’s death clearly came as a devastating personal
-blow. He also missed Flora’s invaluable assistance as an involved co-worker
-on the production of his magazine. In May 1892, only four years later,
-Steinitz’s wife, Caroline, also died, aged 45, as an apparent result of
-hepatitis. Two such bleak personal catastrophes, coming in a period during
-which Steinitz attained his greatest standing in the chess world, must have
-taken their toll on his spirit. With the demise of Steinitz’s International
-Chess Magazine , after seven continuous years of successful publication, it
-also seemed as if an important chess-historical moment had passed.
-Steinitz’s wide-ranging and instructive observations on top players’
-styles and historical trends in chess, allied to his deeply insightful game
-annotations, including in-depth commentary on all of the games played in all
-four of Steinitz’s (1886-1892) world championship matches, had set rigorous
-new standards that had been universally acclaimed. Steinitz cited over-work,
-apologised for a fourmonth delay in meeting his most recent publication dates 
-(though this enabled him to include full coverage of his second Chigorin match,
-which ended in February 1892, in the final issue), and expressed a fervent
-hope that he might restart the magazine in a year or two, but it didn’t
-happen. By 1894, the question was more ‘when’ rather than ‘whether’
-Steinitz’s reign would end. Following spectacularly successful match and
-tournament results in Europe and America, Steinitz’s youngest potential
-successor, Emanuel Lasker, was at last sure that he might dethrone the world
-champion, who was more than twice his age. Tarrasch, who had (disappointingly)
-tied, 9-9 in wins, with four draws, in a tremendous match against Chigorin, at
-St. Petersburg 1893, still shied away from a title match, due to his medical
-commitments. Unburdened by such off-board concerns, Lasker, who had
-temporarily postponed his ambition to take a PhD in maths (he eventually
-obtained his doctorate in 1902), took on and defeated Steinitz, at New York,
-Philadelphia and Montreal 1894, scoring 10-4 in wins, with 5 draws. Aged 58,
-Steinitz had finally lost his world title to a worthy successor. He took his
-defeat gracefully, recognising not just that his age and everincreasing
-physical infirmities had been telling factors, but that an opponent, whose
-time had clearly come, had convincingly outplayed him. From that point on,
-Steinitz’s chess went into gradual, but thankfully far from precipitous
-decline. He no longer won great tournaments, but still won many prizes.
-Steinitz’s last truly great chess achievement came at the stellar,
-all-play-all, six-game, mini-match series, at St. Petersburg 1895/96,
-contested by the world’s top four available players. Steinitz finished
-second on 9.5/18, behind Lasker (11.5), but ahead of Pillsbury (8) and
-Chigorin (7). Tarrasch had been invited to make this a five-player event, but
-again declined because of the demands of his medical practice. Probably
-unwisely, and in the absence of anyone else who dared challenge the new
-champion, Steinitz pressed Lasker to agree to a world title rematch. This
-eventually took place, at Moscow 1896-97, and proved to be a mismatch. Lasker
-won crushingly against the then 60-year-old exchampion, 10-2 in wins, with 5
-draws. Given his age and problematic physical condition, Steinitz’s poor
-form was no doubt partly affected by his apparent difficulty in coping with a
-cold Russian winter, but this was an inescapably one-sided drubbing. At the
-end, thoroughly worn out both physically and in spirit, Steinitz suffered a
-serious nervous collapse that required a period of enforced hospitalization.
-Thankfully he recovered sufficiently robustly to resume his professional life
-fairly quickly, without any obvious deterioration in his mental health.
-Steinitz’s last years, however, also became increasingly difficult
-financially. His income, which had been at a relatively affluent high point,
-up to around 1894, when he still rented a sizeable house in a desirable
-out-of-New York, suburban location, began to dip, eventually quite alarmingly.
-His cherished plan to follow up Part 1 of his Modern Chess Instructor with two
-similarly weighty volumes collapsed, though he did manage to publish an
-attenuated Part 2, in 1895. By 1899, Steinitz’s declining economic and
-physical health had prompted chess friends to organize charitable help for him,
-his second wife and their two infant children. Steinitz’s death certificate
-records the twin causes of his death, in 1900, as “chronic endocardia 
-(mitral stenosis)” and “acute melancholia”. This was a truly sad end,
-but not one we need dwell on. Nowadays such an outstanding world champion, as
-Steinitz, could certainly expect to gain much greater financial reward. In the
-harsher, Victorian world, in which he actually lived, whose dominant élites
-were almost wholly unreceptive to the very idea of ‘professionalism’ in
-chess, Steinitz’s achievement in surviving as the first recognisably
-successful ‘modern’ professional chess player – in the complete absence
-of any inherited wealth – is a much more celebratory landmark. Although
-Steinitz might at times be irascible, fall in and out with perceived enemies
-and no doubt have better managed some of his business arrangements, he faced a
-daunting social, as well as purely economic challenge. We should simply be
-glad that this extraordinary man stuck at it! Born with no silver spoon in his
-mouth, Steinitz often had to put up with a lot. Landsberger, for example,
-recounts that, in December 1898, following an apparent swing among members of
-the Manhattan Chess Club against supporting engagements for professional
-players, Steinitz felt compelled to resign his longstanding and patently
-merited honorary membership. More in sorrow than anger, Steinitz mentioned
-that he particularly “deplored [ ... ] a speech by a judge at the club’s
-annual general meeting” that included [the judge’s] deeply offensive words
-that “gentlemen [should be able] to play a game of chess without
-prostituting it by playing for money”. Steinitz and the judge both
-apparently agreed not to read any personal slight into their underlying views,
-but the prejudice against ‘professionals’ continued. Back on the
-chessboard, at any rate, Steinitz’s successor, Emanuel Lasker, greatly
-admired his illustrious predecessor and certainly understood that he had
-dethroned a revolutionary giant. In challenging Steinitz in 1894, Lasker
-believed that he might only hope to defeat Steinitz by confronting him with
-his own, hard-wrought principles and playing style. Quoted in Lasker and His
-Contemporaries , Lasker revealed in 1906 that he especially valued “the fine
-conception of ‘balance’ that Steinitz had discovered [and] resolved to
-make no attacks until the balance had been disturbed in my favour”. For the
-first time in a match, the old champion met a player of at least equivalent
-chess-playing skill, who could even more importantly hoist him by his own
-petard – though the age gap, too, made a difference.}  *
-
 [Event "World-ch05 Lasker-Steinitz +10-5=4"]
 [Site "NY, Philadelphia & Montreal"]
 [Date "1894.05.19"]
@@ -14691,8 +13840,6 @@ and manoeuvre that marked a quantum break with the socalled ‘romantic’ age.
 He also recognised that Steinitz was simply a born fighter, who, while trying
 to order his tactics in a correct positional context, nevertheless revelled in
 combinations and considered them central to success in chess} 1-0
-
-
 
 [Event "Hastings"]
 [Site "Hastings ENG"]
@@ -15203,4 +14350,3 @@ O-O-O 16. Qa5) (15... Kf8 16. Nf2 Qg6 17. g4 {[pgndiagram] And White will win
 material} Re8 18. Bxf5 Bxf5 19. Nh4) 16. Bxh6 Nxh6 17. Rxh6 $1 {Winning the
 piece or the queen} gxh6 18. Nxf6+ Kf8 19. Nxg4 {[pgndiagram] An impressive
 victory which allowed Steinitz to capture the crown.} 1-0
-

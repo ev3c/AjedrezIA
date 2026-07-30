@@ -24,22 +24,22 @@
     "id": "alekhine",
     "name": "Alekhine, Alexander",
     "file": "alekhine/games.pgn",
-    "gameCount": 3372,
-    "sizeMB": 1.88
+    "gameCount": 3330,
+    "sizeMB": 2.03
   },
   {
     "id": "anand",
     "name": "Anand, Viswanathan",
     "file": "anand/games.pgn",
-    "gameCount": 7734,
-    "sizeMB": 1.89
+    "gameCount": 7543,
+    "sizeMB": 4.97
   },
   {
     "id": "anderssen",
     "name": "Anderssen, Adolf",
     "file": "anderssen/games.pgn",
-    "gameCount": 1385,
-    "sizeMB": 0.79
+    "gameCount": 1384,
+    "sizeMB": 0.78
   },
   {
     "id": "andersson-tecnica",
@@ -66,15 +66,15 @@
     "id": "aronian",
     "name": "Aronian",
     "file": "aronian/games.pgn",
-    "gameCount": 5382,
-    "sizeMB": 2.13
+    "gameCount": 5121,
+    "sizeMB": 3.51
   },
   {
     "id": "aronians-beauty-of-chess",
     "name": "Aronian's Beauty of Chess",
     "file": "aronians-beauty-of-chess/games.pgn",
-    "gameCount": 290,
-    "sizeMB": 0.48
+    "gameCount": 29,
+    "sizeMB": 0.26
   },
   {
     "id": "ashley-140-annotated-games",
@@ -123,7 +123,7 @@
     "name": "Balashov Yuri",
     "file": "balashov-yuri/games.pgn",
     "gameCount": 1787,
-    "sizeMB": 1.0
+    "sizeMB": 1
   },
   {
     "id": "barbero-gerardo",
@@ -220,7 +220,7 @@
     "id": "borges",
     "name": "Borges",
     "file": "borges/games.pgn",
-    "gameCount": 30,
+    "gameCount": 29,
     "sizeMB": 0.02
   },
   {
@@ -241,8 +241,8 @@
     "id": "braitt",
     "name": "Braitt",
     "file": "braitt/games.pgn",
-    "gameCount": 300,
-    "sizeMB": 0.17
+    "gameCount": 279,
+    "sizeMB": 0.16
   },
   {
     "id": "breyer-gyula",
@@ -269,8 +269,8 @@
     "id": "burger-karl",
     "name": "Burger Karl",
     "file": "burger-karl/games.pgn",
-    "gameCount": 354,
-    "sizeMB": 0.21
+    "gameCount": 353,
+    "sizeMB": 0.2
   },
   {
     "id": "burn-amos",
@@ -283,29 +283,22 @@
     "id": "capablanca",
     "name": "Capablanca, José Raúl",
     "file": "capablanca/games.pgn",
-    "gameCount": 1933,
-    "sizeMB": 1.68
+    "gameCount": 1926,
+    "sizeMB": 1.67
   },
   {
     "id": "carlsen",
     "name": "Carlsen, Magnus",
     "file": "carlsen/games.pgn",
-    "gameCount": 9764,
-    "sizeMB": 2.12
-  },
-  {
-    "id": "carlsen-chess24-attacking-without-s",
-    "name": "Carlsen - Chess24 Attacking Without Sacrificing, Magnus Carlsen 2020",
-    "file": "carlsen-chess24-attacking-without-s/games.pgn",
-    "gameCount": 5,
-    "sizeMB": 0.01
+    "gameCount": 9706,
+    "sizeMB": 7.37
   },
   {
     "id": "caruana",
     "name": "Caruana",
     "file": "caruana/games.pgn",
     "gameCount": 5317,
-    "sizeMB": 2.22
+    "sizeMB": 3.81
   },
   {
     "id": "chandler-murray-g",
@@ -318,7 +311,7 @@
     "id": "charousek-rudolf",
     "name": "Charousek Rudolf",
     "file": "charousek-rudolf/games.pgn",
-    "gameCount": 172,
+    "gameCount": 171,
     "sizeMB": 0.1
   },
   {
@@ -332,8 +325,8 @@
     "id": "chiburdanidze",
     "name": "Chiburdanidze",
     "file": "chiburdanidze/games.pgn",
-    "gameCount": 30,
-    "sizeMB": 0.02
+    "gameCount": 23,
+    "sizeMB": 0.01
   },
   {
     "id": "chigorin",
@@ -360,7 +353,7 @@
     "id": "cruz",
     "name": "Cruz",
     "file": "cruz/games.pgn",
-    "gameCount": 306,
+    "gameCount": 295,
     "sizeMB": 0.19
   },
   {
@@ -392,6 +385,13 @@
     "sizeMB": 0.62
   },
   {
+    "id": "deep-blue",
+    "name": "Deep Blue",
+    "file": "deep-blue/games.pgn",
+    "gameCount": 12,
+    "sizeMB": 0.01
+  },
+  {
     "id": "ding-liren",
     "name": "Ding Liren",
     "file": "ding-liren/games.pgn",
@@ -409,15 +409,15 @@
     "id": "dubov-annotated",
     "name": "Dubov Annotated",
     "file": "dubov-annotated/games.pgn",
-    "gameCount": 1407,
-    "sizeMB": 2.07
+    "gameCount": 1387,
+    "sizeMB": 2.05
   },
   {
     "id": "duras-72-annotated-games",
     "name": "Duras 72 Annotated Games",
     "file": "duras-72-annotated-games/games.pgn",
-    "gameCount": 72,
-    "sizeMB": 0.24
+    "gameCount": 70,
+    "sizeMB": 0.23
   },
   {
     "id": "duras-oldrich",
@@ -444,8 +444,8 @@
     "id": "eliskases",
     "name": "Eliskases",
     "file": "eliskases/games.pgn",
-    "gameCount": 1179,
-    "sizeMB": 0.74
+    "gameCount": 1081,
+    "sizeMB": 0.67
   },
   {
     "id": "eliskases-erich",
@@ -459,7 +459,7 @@
     "name": "Erigaisi",
     "file": "erigaisi/games.pgn",
     "gameCount": 3579,
-    "sizeMB": 2.14
+    "sizeMB": 2.6
   },
   {
     "id": "erigaisi-chess-notes",
@@ -472,7 +472,7 @@
     "id": "euwe",
     "name": "Euwe, Max",
     "file": "euwe/games.pgn",
-    "gameCount": 2330,
+    "gameCount": 2329,
     "sizeMB": 1.49
   },
   {
@@ -515,14 +515,14 @@
     "name": "Firouzja",
     "file": "firouzja/games.pgn",
     "gameCount": 4350,
-    "sizeMB": 2.18
+    "sizeMB": 3.18
   },
   {
     "id": "fischer",
     "name": "Fischer, Robert James",
     "file": "fischer/games.pgn",
-    "gameCount": 1377,
-    "sizeMB": 2.81
+    "gameCount": 1341,
+    "sizeMB": 1.03
   },
   {
     "id": "flohr",
@@ -536,7 +536,7 @@
     "name": "Franco Games",
     "file": "franco-games/games.pgn",
     "gameCount": 7,
-    "sizeMB": 0.0
+    "sizeMB": 0
   },
   {
     "id": "ftacnik-lubomir",
@@ -584,8 +584,8 @@
     "id": "german",
     "name": "German",
     "file": "german/games.pgn",
-    "gameCount": 331,
-    "sizeMB": 0.2
+    "gameCount": 307,
+    "sizeMB": 0.19
   },
   {
     "id": "gipslis",
@@ -606,14 +606,14 @@
     "name": "Gligoric Svetosar",
     "file": "gligoric-svetosar/games.pgn",
     "gameCount": 2916,
-    "sizeMB": 1.74
+    "sizeMB": 1.67
   },
   {
     "id": "goglidze",
     "name": "Goglidze",
     "file": "goglidze/games.pgn",
-    "gameCount": 38,
-    "sizeMB": 0.03
+    "gameCount": 35,
+    "sizeMB": 0.02
   },
   {
     "id": "granda-zuniga",
@@ -627,14 +627,14 @@
     "name": "Grischuk",
     "file": "grischuk/games.pgn",
     "gameCount": 5898,
-    "sizeMB": 2.09
+    "sizeMB": 3.99
   },
   {
     "id": "grivas-480-annotated-games",
     "name": "Grivas 480 Annotated Games",
     "file": "grivas-480-annotated-games/games.pgn",
-    "gameCount": 480,
-    "sizeMB": 1.35
+    "gameCount": 477,
+    "sizeMB": 1.34
   },
   {
     "id": "grunfeld-ernst",
@@ -647,7 +647,7 @@
     "id": "gufeld",
     "name": "Gufeld",
     "file": "gufeld/games.pgn",
-    "gameCount": 106,
+    "gameCount": 100,
     "sizeMB": 0.06
   },
   {
@@ -661,8 +661,8 @@
     "id": "gukesh-masterful-moves-gukesh",
     "name": "Gukesh Masterful Moves Gukesh",
     "file": "gukesh-masterful-moves-gukesh/games.pgn",
-    "gameCount": 195,
-    "sizeMB": 0.39
+    "gameCount": 160,
+    "sizeMB": 0.29
   },
   {
     "id": "gulko-all-games",
@@ -682,8 +682,8 @@
     "id": "hebden-mark",
     "name": "Hebden Mark",
     "file": "hebden-mark/games.pgn",
-    "gameCount": 987,
-    "sizeMB": 0.65
+    "gameCount": 986,
+    "sizeMB": 0.64
   },
   {
     "id": "hodgson-julian",
@@ -711,14 +711,14 @@
     "name": "Hort",
     "file": "hort/games.pgn",
     "gameCount": 3086,
-    "sizeMB": 1.72
+    "sizeMB": 1.76
   },
   {
     "id": "howell-400-annotated-games",
     "name": "Howell 400 Annotated Games",
     "file": "howell-400-annotated-games/games.pgn",
-    "gameCount": 400,
-    "sizeMB": 1.73
+    "gameCount": 396,
+    "sizeMB": 1.71
   },
   {
     "id": "huebner",
@@ -738,8 +738,8 @@
     "id": "ivanchuk-annotated-games",
     "name": "Ivanchuk Annotated Games",
     "file": "ivanchuk-annotated-games/games.pgn",
-    "gameCount": 2585,
-    "sizeMB": 4.23
+    "gameCount": 2494,
+    "sizeMB": 2.28
   },
   {
     "id": "ivanchuk-vasily",
@@ -773,14 +773,14 @@
     "id": "jiangchuan-ye-china",
     "name": "Jiangchuan Ye China",
     "file": "jiangchuan-ye-china/games.pgn",
-    "gameCount": 456,
+    "gameCount": 450,
     "sizeMB": 0.29
   },
   {
     "id": "jun-xu",
     "name": "Jun Xu",
     "file": "jun-xu/games.pgn",
-    "gameCount": 392,
+    "gameCount": 381,
     "sizeMB": 0.27
   },
   {
@@ -795,28 +795,28 @@
     "name": "kamsky 2004",
     "file": "kamsky-2004/games.pgn",
     "gameCount": 4,
-    "sizeMB": 0.0
+    "sizeMB": 0
   },
   {
     "id": "kamsky-g",
     "name": "Kamsky G",
     "file": "kamsky-g/games.pgn",
-    "gameCount": 485,
-    "sizeMB": 0.35
+    "gameCount": 483,
+    "sizeMB": 0.34
   },
   {
     "id": "karpov",
     "name": "Karpov, Anatoly",
     "file": "karpov/games.pgn",
-    "gameCount": 4823,
-    "sizeMB": 2.13
+    "gameCount": 4818,
+    "sizeMB": 3.31
   },
   {
     "id": "kasparov",
     "name": "Kasparov, Garry",
     "file": "kasparov/games.pgn",
     "gameCount": 3496,
-    "sizeMB": 1.99
+    "sizeMB": 2.2
   },
   {
     "id": "keene-raymond",
@@ -829,15 +829,15 @@
     "id": "keres",
     "name": "Keres, Paul",
     "file": "keres/games.pgn",
-    "gameCount": 3694,
-    "sizeMB": 2.99
+    "gameCount": 3617,
+    "sizeMB": 2.14
   },
   {
     "id": "khalifman",
     "name": "Khalifman, Alexander",
     "file": "khalifman/games.pgn",
-    "gameCount": 2683,
-    "sizeMB": 1.64
+    "gameCount": 2682,
+    "sizeMB": 1.63
   },
   {
     "id": "khmelnitsky-igor",
@@ -864,8 +864,8 @@
     "id": "korchnoi",
     "name": "Korchnoi, Viktor",
     "file": "korchnoi/games.pgn",
-    "gameCount": 8153,
-    "sizeMB": 2.26
+    "gameCount": 8132,
+    "sizeMB": 5.26
   },
   {
     "id": "kotov-alexander",
@@ -892,8 +892,8 @@
     "id": "kramnik",
     "name": "Kramnik, Vladimir",
     "file": "kramnik/games.pgn",
-    "gameCount": 3334,
-    "sizeMB": 2.35
+    "gameCount": 3330,
+    "sizeMB": 2.74
   },
   {
     "id": "krasenkov-mikhail",
@@ -927,15 +927,15 @@
     "id": "lasker",
     "name": "Lasker, Emanuel",
     "file": "lasker/games.pgn",
-    "gameCount": 1076,
-    "sizeMB": 1.37
+    "gameCount": 1022,
+    "sizeMB": 1.28
   },
   {
     "id": "lautier-2002-sim",
     "name": "Lautier 2002  Sim",
     "file": "lautier-2002-sim/games.pgn",
     "gameCount": 3,
-    "sizeMB": 0.0
+    "sizeMB": 0
   },
   {
     "id": "lautier-joel",
@@ -948,8 +948,8 @@
     "id": "leitao",
     "name": "Leitao",
     "file": "leitao/games.pgn",
-    "gameCount": 850,
-    "sizeMB": 0.51
+    "gameCount": 814,
+    "sizeMB": 0.48
   },
   {
     "id": "leko-peter",
@@ -976,8 +976,8 @@
     "id": "lima",
     "name": "Lima",
     "file": "lima/games.pgn",
-    "gameCount": 730,
-    "sizeMB": 0.42
+    "gameCount": 695,
+    "sizeMB": 0.4
   },
   {
     "id": "lipke-paul",
@@ -1039,8 +1039,8 @@
     "id": "mecking",
     "name": "Mecking",
     "file": "mecking/games.pgn",
-    "gameCount": 1261,
-    "sizeMB": 0.79
+    "gameCount": 1216,
+    "sizeMB": 0.76
   },
   {
     "id": "mecking-henrique",
@@ -1081,8 +1081,8 @@
     "id": "milos",
     "name": "Milos",
     "file": "milos/games.pgn",
-    "gameCount": 1305,
-    "sizeMB": 0.78
+    "gameCount": 1232,
+    "sizeMB": 0.73
   },
   {
     "id": "milos-gilberto",
@@ -1095,8 +1095,8 @@
     "id": "mohr-georg-velimirovic-zorica-ana-f",
     "name": "Mohr Georg Velimirovic Zorica Ana Forgotten Genius The Life and",
     "file": "mohr-georg-velimirovic-zorica-ana-f/games.pgn",
-    "gameCount": 86,
-    "sizeMB": 0.07
+    "gameCount": 46,
+    "sizeMB": 0.05
   },
   {
     "id": "monticelli-mario",
@@ -1116,8 +1116,8 @@
     "id": "morphy",
     "name": "Morphy, Paul",
     "file": "morphy/games.pgn",
-    "gameCount": 683,
-    "sizeMB": 0.7
+    "gameCount": 562,
+    "sizeMB": 0.59
   },
   {
     "id": "murey-yacok",
@@ -1130,7 +1130,7 @@
     "id": "myagmarsuren-lhamsuren",
     "name": "Myagmarsuren Lhamsuren",
     "file": "myagmarsuren-lhamsuren/games.pgn",
-    "gameCount": 154,
+    "gameCount": 153,
     "sizeMB": 0.1
   },
   {
@@ -1145,14 +1145,14 @@
     "name": "Nakamura",
     "file": "nakamura/games.pgn",
     "gameCount": 8699,
-    "sizeMB": 2.2
+    "sizeMB": 6.26
   },
   {
     "id": "nepomniachtchi",
     "name": "Nepomniachtchi",
     "file": "nepomniachtchi/games.pgn",
-    "gameCount": 4373,
-    "sizeMB": 2.12
+    "gameCount": 4372,
+    "sizeMB": 3.06
   },
   {
     "id": "nezhmetdinov",
@@ -1172,7 +1172,7 @@
     "id": "nimzowitsch",
     "name": "Nimzowitsch, Aaron",
     "file": "nimzowitsch/games.pgn",
-    "gameCount": 479,
+    "gameCount": 476,
     "sizeMB": 0.3
   },
   {
@@ -1243,7 +1243,7 @@
     "name": "Petrosian, Tigran",
     "file": "petrosian/games.pgn",
     "gameCount": 1750,
-    "sizeMB": 2.1
+    "sizeMB": 0.99
   },
   {
     "id": "petursson-margeir",
@@ -1284,8 +1284,8 @@
     "id": "polgar-judit",
     "name": "Polgar Judit",
     "file": "polgar-judit/games.pgn",
-    "gameCount": 2214,
-    "sizeMB": 1.56
+    "gameCount": 2211,
+    "sizeMB": 1.55
   },
   {
     "id": "polgar-zsofia",
@@ -1319,8 +1319,8 @@
     "id": "praggnanandhaa",
     "name": "Praggnanandhaa, R.",
     "file": "praggnanandhaa/games.pgn",
-    "gameCount": 2740,
-    "sizeMB": 2.7
+    "gameCount": 2736,
+    "sizeMB": 2.68
   },
   {
     "id": "purdy-46-annotated-games-of-cpurdy",
@@ -1361,15 +1361,15 @@
     "id": "reti",
     "name": "Reti",
     "file": "reti/games.pgn",
-    "gameCount": 784,
+    "gameCount": 781,
     "sizeMB": 0.51
   },
   {
     "id": "reti-225-annotated-games",
     "name": "Reti 225 Annotated Games",
     "file": "reti-225-annotated-games/games.pgn",
-    "gameCount": 225,
-    "sizeMB": 1.32
+    "gameCount": 223,
+    "sizeMB": 1.31
   },
   {
     "id": "ribeiro",
@@ -1480,15 +1480,15 @@
     "id": "schlechter",
     "name": "Schlechter, Carl",
     "file": "schlechter/games.pgn",
-    "gameCount": 699,
-    "sizeMB": 0.42
+    "gameCount": 683,
+    "sizeMB": 0.41
   },
   {
     "id": "segal",
     "name": "Segal",
     "file": "segal/games.pgn",
-    "gameCount": 808,
-    "sizeMB": 0.46
+    "gameCount": 772,
+    "sizeMB": 0.43
   },
   {
     "id": "shabalov-alexander",
@@ -1502,35 +1502,35 @@
     "name": "shirov Neuilly2001",
     "file": "shirov-neuilly2001/games.pgn",
     "gameCount": 4,
-    "sizeMB": 0.0
+    "sizeMB": 0
   },
   {
     "id": "sindarov-javokhir-1480-tournament-g",
     "name": "Sindarov Javokhir 1480 tournament games",
     "file": "sindarov-javokhir-1480-tournament-g/games.pgn",
-    "gameCount": 1480,
-    "sizeMB": 1.03
+    "gameCount": 1454,
+    "sizeMB": 1.02
   },
   {
     "id": "smyslov",
     "name": "Smyslov, Vasily",
     "file": "smyslov/games.pgn",
-    "gameCount": 2990,
-    "sizeMB": 2.07
+    "gameCount": 2912,
+    "sizeMB": 1.99
   },
   {
     "id": "souza-mendes",
     "name": "Souza Mendes",
     "file": "souza-mendes/games.pgn",
-    "gameCount": 563,
-    "sizeMB": 0.35
+    "gameCount": 539,
+    "sizeMB": 0.34
   },
   {
     "id": "spassky",
     "name": "Spassky, Boris",
     "file": "spassky/games.pgn",
-    "gameCount": 4667,
-    "sizeMB": 2.89
+    "gameCount": 4540,
+    "sizeMB": 2.54
   },
   {
     "id": "spielmann",
@@ -1543,43 +1543,43 @@
     "id": "spielmannl-350-annotated-games",
     "name": "Spielmannl 350 Annotated Games",
     "file": "spielmannl-350-annotated-games/games.pgn",
-    "gameCount": 356,
-    "sizeMB": 0.94
+    "gameCount": 353,
+    "sizeMB": 0.92
   },
   {
     "id": "steinitz",
     "name": "Steinitz, Wilhelm",
     "file": "steinitz/games.pgn",
-    "gameCount": 689,
-    "sizeMB": 0.62
+    "gameCount": 675,
+    "sizeMB": 0.57
   },
   {
     "id": "suetin",
     "name": "Suetin",
     "file": "suetin/games.pgn",
-    "gameCount": 94,
+    "gameCount": 86,
     "sizeMB": 0.06
   },
   {
     "id": "sunye",
     "name": "Sunye",
     "file": "sunye/games.pgn",
-    "gameCount": 1125,
-    "sizeMB": 0.71
+    "gameCount": 1054,
+    "sizeMB": 0.65
   },
   {
     "id": "svidler-2900-annotated-games",
     "name": "Svidler 2900 Annotated Games",
     "file": "svidler-2900-annotated-games/games.pgn",
-    "gameCount": 2923,
-    "sizeMB": 4.79
+    "gameCount": 2912,
+    "sizeMB": 4.77
   },
   {
     "id": "tal",
     "name": "Tal, Mikhail",
     "file": "tal/games.pgn",
-    "gameCount": 4606,
-    "sizeMB": 3.44
+    "gameCount": 2874,
+    "sizeMB": 2.07
   },
   {
     "id": "tkatchiev2004",
@@ -1592,15 +1592,15 @@
     "id": "tolush",
     "name": "Tolush",
     "file": "tolush/games.pgn",
-    "gameCount": 59,
+    "gameCount": 57,
     "sizeMB": 0.03
   },
   {
     "id": "topalov",
     "name": "Topalov, Veselin",
     "file": "topalov/games.pgn",
-    "gameCount": 1351,
-    "sizeMB": 3.84
+    "gameCount": 1344,
+    "sizeMB": 1.38
   },
   {
     "id": "torre-carlos",
@@ -1620,7 +1620,7 @@
     "id": "trompowsky",
     "name": "Trompowsky",
     "file": "trompowsky/games.pgn",
-    "gameCount": 214,
+    "gameCount": 203,
     "sizeMB": 0.12
   },
   {
@@ -1628,7 +1628,7 @@
     "name": "Van Den Bergen 2005",
     "file": "van-den-bergen-2005/games.pgn",
     "gameCount": 6,
-    "sizeMB": 0.0
+    "sizeMB": 0
   },
   {
     "id": "varuzhan-akobian",
@@ -1641,22 +1641,22 @@
     "id": "velimirovic-forgotten-genius",
     "name": "Velimirovic Forgotten Genius",
     "file": "velimirovic-forgotten-genius/games.pgn",
-    "gameCount": 86,
-    "sizeMB": 0.07
+    "gameCount": 46,
+    "sizeMB": 0.05
   },
   {
     "id": "vescovi",
     "name": "Vescovi",
     "file": "vescovi/games.pgn",
-    "gameCount": 1625,
-    "sizeMB": 0.95
+    "gameCount": 1525,
+    "sizeMB": 0.88
   },
   {
     "id": "vidit-s-450-annotated-games",
     "name": "Vidit, S - 450 annotated Games",
     "file": "vidit-s-450-annotated-games/games.pgn",
-    "gameCount": 461,
-    "sizeMB": 1.88
+    "gameCount": 450,
+    "sizeMB": 1.84
   },
   {
     "id": "vyzhmanavin-alexei",
@@ -1676,22 +1676,22 @@
     "id": "wei",
     "name": "Wei",
     "file": "wei/games.pgn",
-    "gameCount": 404,
-    "sizeMB": 2.25
+    "gameCount": 392,
+    "sizeMB": 2.22
   },
   {
     "id": "wei-yi",
     "name": "Wei Yi",
     "file": "wei-yi/games.pgn",
-    "gameCount": 1806,
-    "sizeMB": 1.22
+    "gameCount": 1805,
+    "sizeMB": 1.21
   },
   {
     "id": "wesley-so",
     "name": "Wesley So",
     "file": "wesley-so/games.pgn",
     "gameCount": 4417,
-    "sizeMB": 2.08
+    "sizeMB": 2.98
   },
   {
     "id": "wojtkiewicz-aleksander",
@@ -1711,8 +1711,8 @@
     "id": "yermolinsky",
     "name": "Yermolinsky",
     "file": "yermolinsky/games.pgn",
-    "gameCount": 83,
-    "sizeMB": 0.1
+    "gameCount": 55,
+    "sizeMB": 0.07
   },
   {
     "id": "yermolinsky-alex",
@@ -1760,7 +1760,7 @@
     "id": "znoskoborovsky-eugene",
     "name": "Znosko-Borovsky Eugene",
     "file": "znoskoborovsky-eugene/games.pgn",
-    "gameCount": 214,
+    "gameCount": 209,
     "sizeMB": 0.13
   },
   {

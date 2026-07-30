@@ -3996,6 +3996,11 @@ body.puzzle-mode-active .btn-icon.mini-puzzle-board-btn {
         max-height: 420px;
     }
 
+    .custom-select-wrap.custom-select-wide .custom-select-list {
+        right: auto;
+        width: min(560px, calc(100vw - 32px));
+    }
+
     .custom-select-wrap.custom-select-game-table .select {
         position: absolute;
         opacity: 0;

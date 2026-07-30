@@ -1,4 +1,4 @@
-﻿[Event "Levitov Christmas Q1"]
+[Event "Levitov Christmas Q1"]
 [Date "2020.11.10."]
 [WhiteTitle "GM"]
 [BlackTitle "GM"]
@@ -1141,25 +1141,6 @@ bxa3 bxa3 42. Ne4 a2 43. Nxc5+ Ke7 44. Nb3 Nxb3 0-1
 [White "Navara,D"]
 [Black "Sindarov,Javokhir"]
 
-[Event "Weissenhaus Play-In Swiss"]
-[Date "2025.0.6."]
-[WhiteTitle "GM"]
-[BlackTitle "GM"]
-[WhiteElo "2671"]
-[BlackElo "2692"]
-[Result "1/2-1/2"]
-[FEN "nrnkbbqr/pppppppp/8/8/8/8/PPPPPPPP/NRNKBBQR w HBhb - 0 1"]
-
-1. e4 e5 2. f3 Nab6 3. d4 exd4 4. Qxd4 Ne7 5. c4 O-O-O 6. c5 Na8 7. Bg3 Nc6 8.
-Qc3 d5 9. cxd6 Bxd6 10. Bxd6 Qf8 11. Nd3 Qxd6 12. O-O-O f6 13. Nc2 Bf7 14. Be2
-Nb6 15. b3 Nd4 16. Nxd4 Qxd4 17. Qxd4 Rxd4 18. Nc5 Rhd8 19. Kc2 Rxd1 20. Rxd1
-Rxd1 21. Bxd1 Nd7 22. Nxd7 Kxd7 23. Kc3 Kd6 24. f4 a5 25. Be2 c6 26. a3 b6 27.
-g3 h6 28. h4 Bg8 29. Bd3 Be6 30. Be2 Bf7 31. Bd3 Be6 32. Be2 Bf7 33. Bd3 Be6 1/2-1/2
-
-
-[White "Sindarov,Javokhir"]
-[Black "Diaz Mino,Pablo"]
-
 [Event "Titled Tue 21st Jan Late"]
 [Date "2025.0.21."]
 [WhiteTitle "GM"]
@@ -1525,29 +1506,6 @@ bxc5 22. Qe3 Nc4 23. Qxc5 Rxd6 24. Rxd6 Bf8 25. Rad1 Nxd6 26. Rxd6 Qb8 0-1
 
 [White "Sindarov,Javokhir"]
 [Black "Wei Yi"]
-
-[Event "Weissenhaus Play-In KO"]
-[Date "2025.0.7."]
-[WhiteTitle "GM"]
-[BlackTitle "GM"]
-[WhiteElo "2692"]
-[BlackElo "2751"]
-[Result "1/2-1/2"]
-[FEN "bqrnkrnb/pppppppp/8/8/8/8/PPPPPPPP/BQRNKRNB w FCfc - 0 1"]
-
-1. c4 g6 2. g3 b6 3. Bxa8 Qxa8 4. Nf3 c5 5. O-O Nf6 6. b3 O-O 7. Ne3 Ne6 8. d4
-cxd4 9. Nxd4 Ng5 10. h4 Nge4 11. Rfd1 h5 12. Nf3 d6 13. Nd5 Rfe8 14. Bxf6 Nxf6
-15. Nxf6+ Bxf6 16. Rd5 a6 17. e4 b5 18. c5 dxc5 19. Rdxc5 e6 20. Kg2 Kg7 21. Qd3
-Rxc5 22. Rxc5 Rc8 23. Rxc8 Qxc8 24. Qd6 Qb7 25. Qd3 Qc7 26. Qe3 Qc2 27. e5 Be7
-28. Qd2 Qe4 29. Qd4 Qc6 30. Qf4 a5 31. Kg1 Qc2 32. Qd2 Qb1+ 33. Kg2 Bb4 34. Qf4
-Be7 35. Qd2 Qe4 36. Qxa5 b4 37. Qc7 Kf8 38. Qc4 Qa8 39. Qe2 Kg7 40. Kg1 Qd5 41.
-Qe3 Qd1+ 42. Kg2 Qd5 43. Qf4 Qa8 44. Qd2 Qe4 45. Qe3 Qc2 46. Qd2 Qe4 47. Qf4 Qa8
-48. Qd2 Qc6 49. Qd3 Qa8 50. Qd7 Kf8 51. Qd2 Qe4 52. Qf4 Qa8 53. Qd2 Qe4 54. Qf4
-Qa8 55. Qd2 1/2-1/2
-
-
-[White "Sindarov,Javokhir"]
-[Black "Borhy,Marcell"]
 
 [Event "World Youth U16 Olympiad"]
 [Date "2018.10.26."]
@@ -2091,24 +2049,6 @@ Kg5 Kg8 48. g4 hxg4 49. fxg4 Kh7 50. Rh2 Rg8 51. Kf4 Kh6 52. Rh1 c4 53. Rh2 Bd7
 
 [White "Wei Yi"]
 [Black "Sindarov,Javokhir"]
-
-[Event "Weissenhaus Play-In KO"]
-[Date "2025.0.7."]
-[WhiteTitle "GM"]
-[BlackTitle "GM"]
-[WhiteElo "2751"]
-[BlackElo "2692"]
-[Result "0-1"]
-[FEN "nbbrkqnr/pppppppp/8/8/8/8/PPPPPPPP/NBBRKQNR w HDhd - 0 1"]
-
-1. c4 c6 2. d4 d5 3. Nf3 dxc4 4. b3 e5 5. bxc4 exd4 6. Nb3 Nf6 7. e3 dxe3 8.
-Rxd8+ Kxd8 9. Qd3+ Qd6 10. Qxd6+ Bxd6 11. Bxe3 Bb4+ 12. Ke2 Be6 13. Rd1+ Kc8 14.
-Ne5 Nb6 15. Bxb6 axb6 16. Nd4 Bd7 17. Nxd7 Nxd7 18. Bf5 Rd8 19. f4 g6 20. Bc2
-Bc5 21. Nf3 Kc7 22. Ng5 Re8+ 23. Kf1 Nf6 24. Re1 Ra8 0-1
-
-
-[White "Sindarov,Javokhir"]
-[Black "Gray,Euan"]
 
 [Event "World Youth U16 Olympiad"]
 [Date "2014.11.14."]
@@ -7856,28 +7796,6 @@ Qh8# 1-0
 [White "Sindarov,Javokhir"]
 [Black "Makarian,Rudik"]
 
-[Event "Weissenhaus Play-In Swiss"]
-[Date "2025.0.6."]
-[WhiteTitle "GM"]
-[BlackTitle "IM"]
-[WhiteElo "2692"]
-[BlackElo "2547"]
-[Result "1/2-1/2"]
-[FEN "rnnkqbbr/pppppppp/8/8/8/8/PPPPPPPP/RNNKQBBR w HAha - 0 1"]
-
-1. e4 e5 2. Nb3 Nc6 3. f3 f6 4. Nc3 Nb6 5. Bb5 O-O-O 6. O-O-O a6 7. Bxc6 dxc6 8.
-Kb1 Bb4 9. Nc1 Qe7 10. Bxb6 cxb6 11. a3 Bc5 12. Na4 Bxa3 13. bxa3 Qxa3 14. Nb2
-Be6 15. Qe3 Qxe3 16. dxe3 b5 17. f4 exf4 18. exf4 Kc7 19. Ncd3 b6 20. f5 Bc8 21.
-g4 Rhe8 22. Rhe1 c5 23. Nf4 Rxd1+ 24. Nxd1 Kc6 25. Nc3 g6 26. Re2 gxf5 27. gxf5
-b4 28. Ncd5 Bxf5 29. Nxf6 Rf8 30. exf5 Rxf6 31. Re6+ Rxe6 32. Nxe6 Kd6 33. Ng5
-Ke5 34. Nxh7 Kxf5 35. Nf8 b5 36. h4 c4 37. h5 a5 38. h6 Kf6 39. Nd7+ Kg6 40.
-Ne5+ Kxh6 41. Nc6 Kg5 42. Nxa5 Kf4 43. Nc6 b3 44. c3 Ke3 45. Kb2 Kd2 46. Nb4 Ke3
-47. Nd5+ Kd3 48. Nb4+ Kd2 49. Nd5 Kd3 50. Nf4+ Kd2 51. Nd5 Kd3 1/2-1/2
-
-
-[White "Ochirbat,Lkhagvajamts"]
-[Black "Sindarov,Javokhir"]
-
 [Event "Titled Tue 21st Jan Late"]
 [Date "2025.0.21."]
 [WhiteTitle "FM"]
@@ -8186,26 +8104,6 @@ Nf6 41. f3 gxf3 42. gxf3 Ne6 43. Ke3 Kc5 44. f4 Nc7 45. Nc3 Ncd5+ 46. Nxd5 Kxd5
 
 [White "Sindarov,Javokhir"]
 [Black "Praggnanandhaa,R"]
-
-[Event "Weissenhaus Play-In KO"]
-[Date "2025.0.7."]
-[WhiteTitle "GM"]
-[BlackTitle "GM"]
-[WhiteElo "2692"]
-[BlackElo "2741"]
-[Result "1-0"]
-[FEN "nbrkqnbr/pppppppp/8/8/8/8/PPPPPPPP/NBRKQNBR w HChc - 0 1"]
-
-1. d4 d5 2. e4 dxe4 3. Qxe4 O-O-O 4. O-O-O h5 5. Nb3 e6 6. h4 c6 7. Bh2 Bxh2 8.
-Nxh2 Nd7 9. Qe2 Bh7 10. Nf3 Bf5 11. Ng5 Nc7 12. c3 Bxb1 13. Kxb1 Kb8 14. Rhe1
-Qe7 15. g3 Qf6 16. Ka1 e5 17. dxe5 Nxe5 18. Nc5 b6 19. f4 bxc5 20. fxe5 Qe7 21.
-Rxd8+ Rxd8 22. Qxh5 f6 23. Nf3 Qd7 24. a3 Qd5 25. Qg4 Qb3 26. exf6 gxf6 27. Qe4
-Nb5 28. Qf4+ Kb7 29. Nd2 Qc2 30. Nb1 f5 31. h5 Rd7 32. h6 Ka6 33. Rh1 Rb7 34.
-Qc4 Qg2 35. Rh4 Qxg3 36. h7 1-0
-
-
-[White "Gledura,B"]
-[Black "Sindarov,Javokhir"]
 
 [Event "1st Sharjah Masters 2017"]
 [Date "2017.2.25."]
@@ -8889,26 +8787,6 @@ Nf6+ 54. Kd3 Nxh5 55. Bxh6 Kd6 56. Kc3 Kc6 57. Kb4 Nf6 58. Kxa4 Nd7 59. Be3 Ne5
 
 [White "Praggnanandhaa,R"]
 [Black "Sindarov,Javokhir"]
-
-[Event "Weissenhaus Play-In KO"]
-[Date "2025.0.7."]
-[WhiteTitle "GM"]
-[BlackTitle "GM"]
-[WhiteElo "2741"]
-[BlackElo "2692"]
-[Result "0-1"]
-[FEN "rbbkqnrn/pppppppp/8/8/8/8/PPPPPPPP/RBBKQNRN w GAga - 0 1"]
-
-1. e4 d6 2. c3 e5 3. Bc2 Ne6 4. Nhg3 a5 5. d3 Ng6 6. Be3 a4 7. Nf5 Qb5 8. O-O-O
-O-O 9. h4 Re8 10. h5 Ngf4 11. g3 Nxh5 12. Qe2 Nf6 13. Qf3 d5 14. Nxg7 Nxg7 15.
-Qxf6 Ra6 16. Qh4 d4 17. c4 Qd7 18. Bd2 Qg4 19. Qh1 b5 20. cxb5 Rb6 21. Bxa4 Bd7
-22. Ba5 Bxb5 23. Bc2 Rc6 24. Rd2 Qe6 25. Kb1 Rxc2 26. Rxc2 Bxd3 27. Nd2 Qa6 28.
-b4 Bxc2+ 29. Kxc2 c5 30. a3 Rc8 31. Kd1 c4 32. Qf3 c3 33. Nb3 d3 34. Nc5 Rxc5
-35. bxc5 Qc4 36. Ke1 d2+ 37. Kd1 Qa4+ 38. Ke2 Qxa5 39. Rb1 Bc7 40. Rb4 Qa6+ 0-1
-
-
-[White "Sindarov,Javokhir"]
-[Black "Yangutov,Aleksey"]
 
 [Event "22nd Voronezh Master Open"]
 [Date "2018.5.14."]
@@ -11417,30 +11295,6 @@ c5 Rc3 54. Kd4 Rc1 55. Rxa5 g3 56. Ra2 h4 57. c6 Rxc6 58. Ke4 Kg5 59. Kf3 Rc3+
 [White "Sindarov,Javokhir"]
 [Black "Ebrahimi Herab,Hamidreza"]
 
-[Event "Weissenhaus Play-In Swiss"]
-[Date "2025.0.6."]
-[WhiteTitle "GM"]
-[BlackTitle "FM"]
-[WhiteElo "2692"]
-[BlackElo "2412"]
-[Result "1-0"]
-[FEN "qrbbknrn/pppppppp/8/8/8/8/PPPPPPPP/QRBBKNRN w GBgb - 0 1"]
-
-1. Nhg3 Nhg6 2. d4 b6 3. e4 e5 4. dxe5 Nxe5 5. Ne3 Ne6 6. b3 d6 7. O-O Bg5 8.
-Nd5 Bxc1 9. Rxc1 c6 10. Nf5 Kd7 11. Nde3 g6 12. Nh6 Ba6 13. c4 Rgf8 14. Be2 Nf4
-15. Rc2 Kc7 16. Rd1 Rbd8 17. Bf1 Qc8 18. c5 bxc5 19. Bxa6 Qxa6 20. Rdd2 Ne6 21.
-b4 Nd4 22. bxc5 Nxc2 23. cxd6+ Kb8 24. Rxc2 f6 25. f4 Nd3 26. Nc4 Nxf4 27. Qf1
-Qa4 28. Rc3 Ka8 29. Qxf4 Qd1+ 30. Kf2 Qh5 31. h3 g5 32. Qe3 Qxh6 33. Nb6+ Kb7
-34. Rb3 Rf7 35. Nd7+ Ka8 36. Nb6+ Kb7 37. Nd5+ Kc8 38. Ne7+ Kd7 39. Nf5 Qg6 40.
-Qc5 Ke8 41. Qxc6+ Rfd7 42. Re3 g4 43. hxg4 Kf8 44. Qd5 Qf7 45. Rc3 Qxd5 46. exd5
-Kf7 47. Ke3 Rb8 48. Rc7 Rb7 49. Rc2 Kg6 50. Kf3 Kg5 51. Rc8 Rg7 52. Nxg7 Rxg7
-53. Rc7 Rg8 54. Rxh7 a5 55. d7 Rd8 56. Rg7+ Kh6 57. Re7 Kg6 58. Kf4 f5 59. g5 a4
-60. a3 Kh5 61. Re6 1-0
-
-
-[White "Sindarov,Javokhir"]
-[Black "Morefield,Jason P"]
-
 [Event "Titled Tue 21st Jan Late"]
 [Date "2025.0.21."]
 [WhiteTitle "GM"]
@@ -11763,20 +11617,6 @@ Ke1 1/2-1/2
 [White "Korobov,A"]
 [Black "Sindarov,Javokhir"]
 
-[Event "Julius Baer Gen Cup D3 W"]
-[Date "2024.8.28."]
-[WhiteTitle "GM"]
-[BlackTitle "GM"]
-[WhiteElo "2650"]
-[BlackElo "2677"]
-[Result "1-0"]
-
-1-0
-
-
-[White "Sadikhov,U"]
-[Black "Sindarov,Javokhir"]
-
 [Event "39th ECC Open 2024"]
 [Date "2024.9.22."]
 [WhiteTitle "GM"]
@@ -11794,29 +11634,6 @@ Rg4 Qe3 0-1
 
 [White "Sindarov,Javokhir"]
 [Black "Yu Yangyi"]
-
-[Event "Weissenhaus Play-In KO"]
-[Date "2025.0.8."]
-[WhiteTitle "GM"]
-[BlackTitle "GM"]
-[WhiteElo "2692"]
-[BlackElo "2715"]
-[Result "1-0"]
-[FEN "rkrnqbbn/pppppppp/8/8/8/8/PPPPPPPP/RKRNQBBN w CAca - 0 1"]
-
-1. e4 e5 2. Ng3 Bc5 3. Bc4 f6 4. Bxg8 Qxg8 5. f3 d6 6. Nf5 Nc6 7. Bxc5 dxc5 8.
-Nc3 Re8 9. d3 O-O-O 10. Nd5 Ng6 11. g3 Kb8 12. Qc3 Qf8 13. O-O Rd7 14. Rf2 Nd4
-15. Nde3 Nh8 16. Qa3 Nf7 17. Nxd4 cxd4 18. Qxf8 Rxf8 19. Nc4 Nd6 20. Nd2 c5 21.
-f4 Re8 22. b3 Kc7 23. a4 Kc6 24. Raf1 b6 25. h4 Nf7 26. Kg2 a6 27. Kh3 b5 28.
-Ra1 Kb6 29. Rff1 Nd6 30. Ra2 Ra7 31. Rfa1 b4 32. Rf1 Kc6 33. Nf3 Nf7 34. Raa1
-Rae7 35. Rae1 Kd7 36. Nd2 Nd6 37. h5 f5 38. Nf3 fxe4 39. Nxe5+ Rxe5 40. fxe5
-Rxe5 41. dxe4 Rxh5+ 42. Kg2 Re5 43. Rf8 c4 44. Kf3 a5 45. Rg8 g5 46. Rg7+ Kc6
-47. Rxh7 Re6 48. e5 Nf5 49. Ra7 Kb6 50. Rf7 Ne3 51. Rxe3 dxe3 52. Rf6 Rc6 53.
-Kxe3 cxb3 54. cxb3 Kc5 55. Rxc6+ Kxc6 56. Kd4 1-0
-
-
-[White "Isakov,An"]
-[Black "Sindarov,Javokhir"]
 
 [Event "Chigorin Memorial 2014"]
 [Date "2014.9.21."]
@@ -12277,20 +12094,6 @@ Rg6+ 105. Kd5 1/2-1/2
 [White "Sindarov,Javokhir"]
 [Black "Korobov,A"]
 
-[Event "Julius Baer Gen Cup D3 W"]
-[Date "2024.8.28."]
-[WhiteTitle "GM"]
-[BlackTitle "GM"]
-[WhiteElo "2677"]
-[BlackElo "2650"]
-[Result "0-1"]
-
-0-1
-
-
-[White "Sindarov,Javokhir"]
-[Black "Murzin,Volodar"]
-
 [Event "TechM GCL 2024"]
 [Date "2024.9.5."]
 [WhiteTitle "GM"]
@@ -12332,26 +12135,6 @@ Qc5 35. b4 Qa7 36. Bf4 Bh8 37. Bf3 a5 38. bxa5 Qxa5 39. Qf7+ Bg7 40. Bxh6 1-0
 
 
 [White "Yu Yangyi"]
-[Black "Sindarov,Javokhir"]
-
-[Event "Weissenhaus Play-In KO"]
-[Date "2025.0.8."]
-[WhiteTitle "GM"]
-[BlackTitle "GM"]
-[WhiteElo "2715"]
-[BlackElo "2692"]
-[Result "1/2-1/2"]
-[FEN "rbnkrnbq/pppppppp/8/8/8/8/PPPPPPPP/RBNKRNBQ w EAea - 0 1"]
-
-1. c3 e5 2. g3 c6 3. e4 Nb6 4. Ne3 Bc7 5. a4 a5 6. Bc2 Ne6 7. Nb3 g6 8. f3 Qg7
-9. Bf2 f6 10. d4 exd4 11. cxd4 f5 12. d5 Nd4 13. O-O-O Nxc2 14. Nxc2 fxe4 15.
-fxe4 cxd5 16. exd5 Rxe1 17. Qxe1 Nxd5 18. Bd4 Qe7 19. Qd2 b6 20. Re1 Qf8 21. Qe2
-Kc8 22. Qb5 Nb4 23. Nxb4 axb4 24. Re3 Bxb3 25. Rxb3 Ra5 26. Qxb4 Qf1+ 27. Kc2
-Qe2+ 28. Qd2 Qe4+ 29. Qd3 Qg2+ 30. Qd2 Qe4+ 31. Qd3 Qg2+ 32. Kb1 Qh1+ 33. Kc2
-Qg2+ 1/2-1/2
-
-
-[White "Ioualalen,Lotfi"]
 [Black "Sindarov,Javokhir"]
 
 [Event "Sharjah Rapid 2014"]
@@ -12629,20 +12412,6 @@ g7 1-0
 
 
 [White "Korobov,A"]
-[Black "Sindarov,Javokhir"]
-
-[Event "Julius Baer Gen Cup D3 W"]
-[Date "2024.8.28."]
-[WhiteTitle "GM"]
-[BlackTitle "GM"]
-[WhiteElo "2650"]
-[BlackElo "2677"]
-[Result "1-0"]
-
-1-0
-
-
-[White "Anton Guijarro,D"]
 [Black "Sindarov,Javokhir"]
 
 [Event "FIDE Grand Swiss 2021"]
@@ -14466,31 +14235,6 @@ d6 Bf5+ 61. Ke7 Kb7 62. d7 1-0
 [White "Pranesh,M"]
 [Black "Sindarov,Javokhir"]
 
-[Event "Weissenhaus Play-In Swiss"]
-[Date "2025.0.6."]
-[WhiteTitle "GM"]
-[BlackTitle "GM"]
-[WhiteElo "2586"]
-[BlackElo "2692"]
-[Result "1/2-1/2"]
-[FEN "rqknrnbb/pppppppp/8/8/8/8/PPPPPPPP/RQKNRNBB w EAea - 0 1"]
-
-1. f4 f5 2. g3 g6 3. e4 fxe4 4. Bxe4 c6 5. d4 Qc7 6. Nd2 Nf7 7. c3 O-O-O 8. Qc2
-d6 9. Ne3 e5 10. d5 exf4 11. gxf4 c5 12. O-O-O Nd7 13. Bg2 Kb8 14. Ne4 Nf6 15.
-Bf2 Nxe4 16. Bxe4 Nh6 17. Bh4 Rc8 18. f5 gxf5 19. Nxf5 Ng4 20. Rg1 Ne5 21. Nh6
-Bg7 22. Nxg8 Rxg8 23. Kb1 Rgf8 24. Bxh7 Nf3 25. Rg4 Qd7 26. h3 Nxh4 27. Rxh4 Rf6
-28. Bd3 Rcf8 29. Rh7 Rf2 30. Qb3 Rg2 31. Be4 Rff2 32. Bxg2 Qf5+ 33. Ka1 Qxh7 34.
-Bf1 Be5 35. a3 Ka8 36. a4 a6 37. a5 Rf4 38. Bd3 Qxh3 39. Qb6 Qf3 40. Bc2 Rb4 41.
-Qd8+ Ka7 42. Rd3 Qf1+ 43. Rd1 Qf3 44. Rd3 Qf4 45. Kb1 Rb5 46. Qc7 Qf1+ 47. Rd1
-Qf2 48. Rd3 Qe1+ 49. Ka2 Qc1 50. Bb3 Qe1 51. Rf3 c4 52. Bxc4 Qd1 53. Bxb5 Qxd5+
-54. Bc4 Qxf3 55. Qb6+ Kb8 56. Bxa6 Qc6 57. Qd8+ Ka7 58. Be2 Qa4+ 59. Kb1 Qe4+
-60. Ka2 Qa4+ 61. Kb1 Qe4+ 62. Ka2 Qxe2 63. Qb6+ Kb8 64. Qd8+ Ka7 65. Qb6+ Kb8
-66. Qd8+ Ka7 1/2-1/2
-
-
-[White "Szpar,Milosz"]
-[Black "Sindarov,Javokhir"]
-
 [Event "Titled Tue 21st Jan Late"]
 [Date "2025.0.21."]
 [WhiteTitle "IM"]
@@ -14822,20 +14566,6 @@ Rb7 Qe8 48. Rxb6 Rc8 49. Qd4 Qe2 50. Qe4 Qd2 51. Qd3 Qg5 52. Rd6 Rb8 53. c3 Qxa5
 [White "Puranik,A"]
 [Black "Sindarov,Javokhir"]
 
-[Event "CrunchLab Masters Div 3 L"]
-[Date "2024.6.21."]
-[WhiteTitle "GM"]
-[BlackTitle "GM"]
-[WhiteElo "2634"]
-[BlackElo "2674"]
-[Result "0-1"]
-
-0-1
-
-
-[White "Makarian,Rudik"]
-[Black "Sindarov,Javokhir"]
-
 [Event "Julius Baer Gen Cup D3 L"]
 [Date "2024.8.29."]
 [WhiteTitle "IM"]
@@ -14877,24 +14607,6 @@ Nxa3+ 47. Kb3 Nc4 48. g4 hxg4 49. Nxg4 Ne5 50. Nf6 Nd3 51. h5 gxh5 52. Nxh5 Nxf2
 
 [White "Sindarov,Javokhir"]
 [Black "Fedoseev,Vl3"]
-
-[Event "Weissenhaus Play-In KO"]
-[Date "2025.0.8."]
-[WhiteTitle "GM"]
-[BlackTitle "GM"]
-[WhiteElo "2692"]
-[BlackElo "2717"]
-[Result "1-0"]
-[FEN "bnrnkrqb/pppppppp/8/8/8/8/PPPPPPPP/BNRNKRQB w FCfc - 0 1"]
-
-1. g3 f5 2. c4 c5 3. b3 Nbc6 4. f4 b6 5. Nf2 g6 6. Nc3 Bf6 7. Bf3 Ne6 8. e3 Nc7
-9. Qg2 g5 10. fxg5 Qxg5 11. O-O Qh6 12. a3 e6 13. b4 O-O 14. bxc5 bxc5 15. g4
-Kh8 16. g5 Bxg5 17. Nce4+ Bf6 18. Nxf6 e5 19. Nxd7 Rg8 20. Ng4 Rxg4 21. Bxg4 Nd4
-22. Qg3 Rg8 23. Qxe5+ Rg7 24. Bxd4 cxd4 25. Rxf5 Ne6 26. Rcf1 1-0
-
-
-[White "Sindarov,Javokhir"]
-[Black "Wang,Wesley"]
 
 [Event "World Youth U16 Olympiad"]
 [Date "2018.10.28."]
@@ -15391,20 +15103,6 @@ Qh5 gxf4 29. Ng4 f3 30. Kf2 Bd7 31. b4 Be8 32. Qxh6 Rf5 33. Qxe6+ Rff7 34. Rh1 1
 [White "Sindarov,Javokhir"]
 [Black "Puranik,A"]
 
-[Event "CrunchLab Masters Div 3 L"]
-[Date "2024.6.21."]
-[WhiteTitle "GM"]
-[BlackTitle "GM"]
-[WhiteElo "2674"]
-[BlackElo "2634"]
-[Result "1-0"]
-
-1-0
-
-
-[White "Sindarov,Javokhir"]
-[Black "Makarian,Rudik"]
-
 [Event "Julius Baer Gen Cup D3 L"]
 [Date "2024.8.29."]
 [WhiteTitle "GM"]
@@ -15461,24 +15159,6 @@ Bd3 Ng4 9. Ne4 f5 10. Be2 h5 11. h3 fxe4 12. hxg4 Bc5 13. b4 Qd4 14. bxc5 O-O
 
 [White "Fedoseev,Vl3"]
 [Black "Sindarov,Javokhir"]
-
-[Event "Weissenhaus Play-In KO"]
-[Date "2025.0.8."]
-[WhiteTitle "GM"]
-[BlackTitle "GM"]
-[WhiteElo "2717"]
-[BlackElo "2692"]
-[Result "1-0"]
-[FEN "rkbqnrnb/pppppppp/8/8/8/8/PPPPPPPP/RKBQNRNB w FAfa - 0 1"]
-
-1. e4 e5 2. g3 d6 3. d4 exd4 4. Qxd4 Ne7 5. f4 g6 6. Qd3 f5 7. Bd2 Nf6 8. exf5
-Bxf5 9. Qb3 Be4 10. Ngf3 Qd7 11. Nd3 O-O-O 12. O-O-O Rde8 13. Bc3 Bd5 14. Qa3
-Nc6 15. Bxf6 Bxf6 16. Nfe5 Bxe5 17. Nxe5 dxe5 18. Rxd5 Qe7 19. Rc5 exf4 20. Bxc6
-bxc6 21. Qa6+ Kb8 22. Rc3 Rf5 23. a4 fxg3 24. Rb3+ Rb5 25. axb5 1-0
-
-
-[White "Sindarov,Javokhir"]
-[Black "Kunal,M"]
 
 [Event "21st Dubai Open 2019"]
 [Date "2019.3.5."]
@@ -15688,30 +15368,6 @@ Be6 22. e5 Ne8 23. exd6 Bxd6 24. Rxd6 Nxd6 25. Rd1 Rc8 26. Rd3 Qa5 27. Bxd6 Rxc3
 
 [White "Sindarov,Javokhir"]
 [Black "Fedoseev,Vl3"]
-
-[Event "Weissenhaus Play-In KO"]
-[Date "2025.0.8."]
-[WhiteTitle "GM"]
-[BlackTitle "GM"]
-[WhiteElo "2692"]
-[BlackElo "2717"]
-[Result "1/2-1/2"]
-[FEN "bbnrqnkr/pppppppp/8/8/8/8/PPPPPPPP/BBNRQNKR w HDhd - 0 1"]
-
-1. e4 c5 2. Ne3 b6 3. c3 e5 4. Ne2 Ne7 5. d4 cxd4 6. cxd4 d5 7. exd5 Nxd5 8.
-Nxd5 Bxd5 9. dxe5 Qxe5 10. b3 Qg5 11. Ng3 Ng6 12. h4 Qe7 13. h5 Qxe1+ 14. Rxe1
-Nf4 15. h6 g6 16. Bxh8 Kxh8 17. Be4 Be6 18. O-O Kg8 19. Rd1 Bd6 20. Bf3 f5 21.
-Ne2 Nxe2+ 22. Bxe2 Kf7 23. Bc4 Bxc4 24. bxc4 Ke7 25. Rfe1+ Kd7 26. Rd5 Rc8 27.
-Rd4 Kc7 28. Red1 Rd8 29. g3 Kc6 30. Kg2 Rd7 31. a4 Rd8 32. Rd5 a5 33. Kh3 Rd7
-34. Re1 Re7 35. Rxe7 Bxe7 36. f3 Bf8 37. Rd8 Bxh6 38. Rh8 Kc5 39. Rxh7 Be3 40.
-Rg7 Kb4 41. Rxg6 Kxa4 42. Re6 Bd4 43. g4 fxg4+ 44. fxg4 Kb4 45. g5 a4 46. Rd6
-Bc5 47. g6 Bxd6 48. g7 a3 49. g8=Q a2 50. Qg1 Bc5 51. Qc1 Kb3 52. Qd1+ Kb2 53.
-Qd2+ Kb3 54. Qd3+ Kb2 55. Qd2+ Kb3 56. Qc1 Bb4 57. Qd1+ Kb2 58. Qd4+ Bc3 59.
-Qxb6+ Kc2 60. Qg6+ Kb3 61. Qb6+ Kc2 62. Qg6+ Kb2 63. Qb6+ Kc2 1/2-1/2
-
-
-[White "Vokhidov,Shamsiddin"]
-[Black "Sindarov,Javokhir"]
 
 [Event "World Rapid 2022"]
 [Date "2022.11.27."]
@@ -15970,33 +15626,6 @@ Kf1 73. Bf4 g4 74. Kf5 Re7 1/2-1/2
 [White "Fedoseev,Vl3"]
 [Black "Sindarov,Javokhir"]
 
-[Event "Weissenhaus Play-In KO"]
-[Date "2025.0.8."]
-[WhiteTitle "GM"]
-[BlackTitle "GM"]
-[WhiteElo "2717"]
-[BlackElo "2692"]
-[Result "1/2-1/2"]
-[FEN "nbbrnqkr/pppppppp/8/8/8/8/PPPPPPPP/NBBRNQKR w HDhd - 0 1"]
-
-1. d4 d5 2. Bf4 Bf5 3. e3 Nb6 4. Nd3 c6 5. Bxb8 Rxb8 6. Nb3 e6 7. Nbc5 Qe7 8. c3
-Nd6 9. Qe2 O-O 10. f3 Bxd3 11. Nxd3 Nd7 12. O-O e5 13. dxe5 Nxe5 14. Nxe5 Qxe5
-15. Qd3 f5 16. b3 Rbd8 17. Rfe1 g6 18. a4 Rfe8 19. Qd4 a6 20. Bd3 Kg7 21. Qxe5+
-Rxe5 22. c4 dxc4 23. Bxc4 Kf6 24. Kf2 Ke7 25. Be2 a5 26. h4 Nf7 27. Bc4 Nd6 28.
-Bd3 Rd5 29. Bc2 Rc5 30. Re2 Nf7 31. Rb1 Rc3 32. b4 axb4 33. Rxb4 Nd6 34. e4 fxe4
-35. Bxe4 Kf6 36. Bb1 Rc4 37. Reb2 b5 38. axb5 cxb5 39. R4b3 Rd4 40. Kg3 Nc4 41.
-Re2 R8d5 42. Re4 Nd6 43. Re1 b4 44. Rbe3 Rd1 45. Re6+ Kg7 46. Re7+ Kf8 47. R7e2
-Rxe1 48. Rxe1 b3 49. Kf4 b2 50. Re2 Nc4 51. Rc2 Rd4+ 52. Kg3 Kg7 53. Ba2 Ne3 54.
-Rxb2 Nf5+ 55. Kf2 Rxh4 56. Rb7+ Kf6 57. Bd5 h5 58. Be4 Rh1 59. g4 hxg4 60. fxg4
-Rh2+ 61. Kf3 Nd4+ 62. Kg3 Re2 63. Rb6+ Ne6 64. Bd5 Re5 65. Bb3 g5 66. Kf3 Ke7
-67. Rxe6+ Rxe6 68. Bxe6 Kxe6 69. Ke4 Kf6 70. Kd5 Kf7 71. Ke5 Ke7 72. Kf5 Kf7 73.
-Kxg5 Kg7 74. Kf5 Kf7 75. Kg5 Kg7 76. Kh5 Kh7 77. Kh4 Kh6 78. g5+ Kg6 79. Kg4 Kg7
-80. Kf5 Kf7 81. g6+ Kg7 82. Kg5 Kg8 83. Kf6 Kf8 84. g7+ Kg8 85. Kg6 1/2-1/2
-
-
-[White "Srihari,L"]
-[Black "Sindarov,Javokhir"]
-
 [Event "World Youth U16 Olympiad"]
 [Date "2019.10.1."]
 [BlackTitle "GM"]
@@ -16186,31 +15815,6 @@ Nc7 28. Rd1 Ba4 29. Rd3 g6 30. Bd6 Ne8 31. Bxe7 Bxe7 32. Bd5+ Kg7 33. Nef5+ 1-0
 
 [White "Sindarov,Javokhir"]
 [Black "Fedoseev,Vl3"]
-
-[Event "Weissenhaus Play-In KO"]
-[Date "2025.0.8."]
-[WhiteTitle "GM"]
-[BlackTitle "GM"]
-[WhiteElo "2692"]
-[BlackElo "2717"]
-[Result "0-1"]
-[FEN "brnnkbrq/pppppppp/8/8/8/8/PPPPPPPP/BRNNKBRQ w GBgb - 0 1"]
-
-1. g3 g6 2. b4 Bg7 3. Bxg7 Qxg7 4. Bg2 Ne6 5. O-O O-O 6. e3 Nd6 7. Nc3 Nc4 8.
-Nb3 Nxd2 9. Nxd2 Qxc3 10. Ne4 Qc4 11. h4 h5 12. a3 b6 13. Rfc1 a5 14. Rb3 axb4
-15. axb4 c5 16. Nd2 Qe2 17. Rd3 cxb4 18. e4 Nc5 19. Bf3 Nxd3 20. Bxe2 Nxc1 21.
-Bd1 Na2 22. g4 Nc3 23. Qf3 hxg4 24. Qxg4 b5 25. Bf3 Rb6 26. h5 Rd6 27. Qg5 Rf6
-28. Qe5 Re6 29. Qg5 Bxe4 30. Nxe4 Nxe4 31. Qxb5 Nf6 32. hxg6 fxg6 33. Qxb4 Kg7
-34. Qd4 Rd6 35. Qe5 Re6 36. Qd4 Rd6 37. Qc5 Rb8 38. c4 Rb3 39. Kg2 Rbd3 40. Qg5
-Re6 41. c5 Rd4 42. Qc1 Ra6 43. Qe3 e5 44. Qxe5 Rd2 45. Qe7+ Kg8 46. c6 dxc6 47.
-Qxf6 Raa2 48. Qxg6+ Kf8 49. Qf6+ Kg8 50. Kg3 Rxf2 51. Qg6+ Kf8 52. Qf6+ Kg8 53.
-Qxc6 Rxf3+ 54. Qxf3 Ra7 55. Qd5+ Kh7 56. Qe4+ Kg8 57. Qd5+ Kh7 58. Kg4 Rg7+ 59.
-Kh5 Re7 60. Qf5+ Kg7 61. Qf4 Re6 62. Qg5+ Kf7 63. Qd2 Ke7 64. Qd5 Rd6 65. Qc5
-Kd7 66. Kg5 Rc6 67. Qb5 Kd6 68. Kf5 Rc5+ 0-1
-
-
-[White "Sindarov,Javokhir"]
-[Black "Harutyunyan,Tigran K."]
 
 [Event "World Blitz 2022"]
 [Date "2022.11.30."]
@@ -17404,27 +17008,6 @@ Nxd5 35. Bg2 b4 36. Rc1 c3 37. a3 Rxa3 38. Rxa3 bxa3 39. Bxd5 Bxd5 40. Rxc3 a2
 
 [White "Sindarov,Javokhir"]
 [Black "Samunenkov,Ihor"]
-
-[Event "Weissenhaus Play-In Swiss"]
-[Date "2025.0.6."]
-[WhiteTitle "GM"]
-[BlackTitle "GM"]
-[WhiteElo "2692"]
-[BlackElo "2541"]
-[Result "1-0"]
-[FEN "nqbnrbkr/pppppppp/8/8/8/8/PPPPPPPP/NQBNRBKR w HEhe - 0 1"]
-
-1. c4 c5 2. Nc3 Nc6 3. g3 g6 4. h4 h6 5. b3 Bg7 6. Bb2 d6 7. Bg2 e5 8. Nc2 h5 9.
-Ne3 Nc7 10. Ne4 Rd8 11. Ng5 Ne6 12. Nd5 Nxg5 13. hxg5 Bf5 14. Be4 Bxe4 15. Qxe4
-Qc8 16. Kg2 Qe6 17. Rh4 Ne7 18. d3 Nxd5 19. cxd5 Qe7 20. Bc1 b5 21. Reh1 Qd7 22.
-Bd2 a6 23. R1h2 Re8 24. Kg1 Rf8 25. R4h3 Rc8 26. Kg2 Re8 27. Rh1 Rc8 28. Rc1 O-O
-29. Rh4 Rc7 30. g4 hxg4 31. Rxg4 Rfc8 32. Rh4 Qe8 33. Rch1 c4 34. Rh7 f5 35.
-gxf6 Bxf6 36. Rxc7 Rxc7 37. dxc4 bxc4 38. bxc4 Bg7 39. Rh3 Qf7 40. Rf3 Qe8 41.
-Be3 Kh7 42. c5 dxc5 43. d6 Rc6 44. Qd5 1-0
-
-
-[White "Sindarov,Javokhir"]
-[Black "Injac,Teodora"]
 
 [Event "Titled Tue 21st Jan Late"]
 [Date "2025.0.21."]
@@ -18915,20 +18498,6 @@ Rf7 22. Qa8 Rf8 1/2-1/2
 [White "Grebnev,Aleksey"]
 [Black "Sindarov,Javokhir"]
 
-[Event "World Rapid 2023"]
-[Date "2023.11.26."]
-[WhiteTitle "IM"]
-[BlackTitle "GM"]
-[WhiteElo "2525"]
-[BlackElo "2701"]
-[Result "1/2-1/2"]
-
-1/2-1/2
-
-
-[White "Sindarov,Javokhir"]
-[Black "Cheng,Bo"]
-
 [Event "World Rapid 2022"]
 [Date "2022.11.27."]
 [WhiteTitle "GM"]
@@ -20162,25 +19731,6 @@ Bf6 22. N6f4 Be5 23. Nd3 Qe7 24. Nc3 Bg7 25. Bf2 Nc5 26. Nxc5 dxc5 27. Nd5 Qf8
 
 [White "Sindarov,Javokhir"]
 [Black "Tabatabaei,M"]
-
-[Event "Weissenhaus Play-In Swiss"]
-[Date "2025.0.6."]
-[WhiteTitle "GM"]
-[BlackTitle "GM"]
-[WhiteElo "2692"]
-[BlackElo "2668"]
-[Result "1-0"]
-[FEN "bnnrqbkr/pppppppp/8/8/8/8/PPPPPPPP/BNNRQBKR w HDhd - 0 1"]
-
-1. e4 e5 2. b3 b6 3. Nc3 g6 4. Nd5 Bxd5 5. exd5 Bg7 6. d4 e4 7. Ne2 O-O 8. h4
-Nd6 9. Bb2 f5 10. Nf4 Qf7 11. Bc1 Rde8 12. Be3 h6 13. g3 Bf6 14. Qd2 Kg7 15. Be2
-Rh8 16. c4 Nc8 17. O-O-O h5 18. Kb1 Ne7 19. Rc1 a5 20. c5 bxc5 21. Rxc5 c6 22.
-Bc4 cxd5 23. Nxd5 Nxd5 24. Bxd5 Qe7 25. Qxa5 Rc8 26. Rhc1 Rxc5 27. Rxc5 g5 28.
-hxg5 Bxg5 29. Bxg5 Qxg5 30. Bxe4 Qg4 31. Bc2 Nc6 32. Qc3 Ne7 33. d5+ 1-0
-
-
-[White "Vasquez Schroeder,R"]
-[Black "Sindarov,Javokhir"]
 
 [Event "Titled Tue 21st Jan Late"]
 [Date "2025.0.21."]
@@ -22915,26 +22465,6 @@ Rxc1+ 22. Bxc1 Qc8 23. Bd2 Ne5 24. Qb1 Qc5 25. Kf1 Nd7 26. Bf3 Bc3 27. Bc1 Qb4
 [White "Srihari,L R"]
 [Black "Sindarov,Javokhir"]
 
-[Event "Weissenhaus Play-In Swiss"]
-[Date "2025.0.6."]
-[WhiteTitle "IM"]
-[BlackTitle "GM"]
-[WhiteElo "2494"]
-[BlackElo "2692"]
-[Result "0-1"]
-[FEN "rbbqnnkr/pppppppp/8/8/8/8/PPPPPPPP/RBBQNNKR w HAha - 0 1"]
-
-1. d4 d5 2. c3 Nf6 3. Ng3 c6 4. Nf3 Ng6 5. O-O O-O 6. Re1 Bg4 7. e4 dxe4 8. Nxe4
-Nh4 9. Qd3 Ng6 10. h3 Bxf3 11. Qxf3 Nxe4 12. Bxe4 e5 13. dxe5 Nxe5 14. Qh5 Ng6
-15. Bg5 Qb6 16. Qe2 Bf4 17. h4 Bxg5 18. hxg5 Rfe8 19. Qc2 Nf8 20. Rad1 Rad8 21.
-g3 Qc5 22. Qc1 Ne6 23. Bg2 Nxg5 24. Rxe8+ Rxe8 25. Rd7 b5 26. Rc7 h6 27. Rxc6
-Nh3+ 28. Kh2 Qxf2 29. Qf1 Re1 30. Rc8+ Kh7 31. Qd3+ g6 32. Kxh3 Re3 33. Qd6 Qf5+
-34. Kh2 Qxc8 35. Qf4 Qe6 36. a4 bxa4 37. Qxa4 Qe5 0-1
-
-
-[White "Sindarov,Javokhir"]
-[Black "Perez Ponsa,F"]
-
 [Event "Titled Tue 21st Jan Late"]
 [Date "2025.0.21."]
 [WhiteTitle "GM"]
@@ -25584,28 +25114,6 @@ Bb6 62. Kb7 Kf8 63. Bc4 Ke7 64. Kc6 Ba5 65. Bb3 Bb6 66. f8=Q+ Kxf8 67. Kxd6 Ke8
 [White "Grischuk,A"]
 [Black "Sindarov,Javokhir"]
 
-[Event "Weissenhaus Play-In Swiss"]
-[Date "2025.0.6."]
-[WhiteTitle "GM"]
-[BlackTitle "GM"]
-[WhiteElo "2687"]
-[BlackElo "2692"]
-[Result "0-1"]
-[FEN "rkrnbqnb/pppppppp/8/8/8/8/PPPPPPPP/RKRNBQNB w CAca - 0 1"]
-
-1. e4 c5 2. Ne3 Nc6 3. f4 d6 4. g4 Bd7 5. c3 g6 6. Bg3 Nf6 7. h3 Ne8 8. Ne2 Nc7
-9. Qf2 f5 10. exf5 gxf5 11. g5 e5 12. d3 Re8 13. Re1 Qg8 14. Nc4 e4 15. Nxd6
-exd3 16. Nxe8 Bxe8 17. Ng1 O-O-O 18. Nf3 Qc4 19. Nd2 Qa4 20. Rc1 b6 21. Qf3 Nb5
-22. Qd1 Qa5 23. a4 Nxc3+ 24. bxc3 Bxc3 25. Rxc3 Qxc3 26. Qc1 Qa5 27. Bxc6 Bxc6
-28. Ra3 Bxa4 29. Qc3 Qb5+ 30. Kc1 Qc6 31. Qe5 Kb7 32. Qxf5 Qh1+ 33. Kb2 Qd1 34.
-Qe4+ Bc6 35. Qe1 Qc2+ 36. Ka1 c4 37. Ra2 Qc3+ 38. Kb1 Re8 39. Qc1 Qxc1+ 40. Kxc1
-c3 41. Ra3 cxd2+ 42. Kxd2 Bb5 43. f5 Re2+ 44. Kd1 Rg2 45. Bh4 Bc4 46. f6 b5 47.
-Rxd3 Bxd3 48. f7 Rg1+ 49. Kd2 Rf1 0-1
-
-
-[White "Yoo,Christopher Woojin"]
-[Black "Sindarov,Javokhir"]
-
 [Event "Titled Tue 21st Jan Late"]
 [Date "2025.0.21."]
 [WhiteTitle "GM"]
@@ -28018,27 +27526,6 @@ Be5 22. Qe1 Kf8 23. Bxe6 Re7 24. Bb3 Nf7 25. Ne6+ Rxe6 26. Bxe6 Qxe6 27. Nf4 Qd6
 [White "Sindarov,Javokhir"]
 [Black "Tang,Andrew"]
 
-[Event "Weissenhaus Play-In Swiss"]
-[Date "2025.0.6."]
-[WhiteTitle "GM"]
-[BlackTitle "GM"]
-[WhiteElo "2692"]
-[BlackElo "2529"]
-[Result "1-0"]
-[FEN "rbknqnbr/pppppppp/8/8/8/8/PPPPPPPP/RBKNQNBR w HAha - 0 1"]
-
-1. e4 e5 2. Nc3 Nc6 3. Ne3 Ne6 4. f3 f6 5. a3 a6 6. Nf5 Ba7 7. Bxa7 Nxa7 8. Ba2
-Qf8 9. Qf2 Nc6 10. O-O Ned4 11. Bxg8 Qxg8 12. Ne3 Qf7 13. Ncd5 Ne6 14. c3 Ne7
-15. d4 d6 16. Nxe7+ Qxe7 17. d5 Nf4 18. Kh1 g6 19. b4 O-O 20. Qc2 Rf7 21. c4
-Raf8 22. g3 Nh5 23. Rae1 f5 24. exf5 gxf5 25. f4 exf4 26. Ng2 Qg5 27. Nxf4 Nxf4
-28. Rxf4 Re7 29. Ref1 Ref7 30. c5 Qg6 31. Qd3 Qf6 32. g4 Qe5 33. gxf5 dxc5 34.
-bxc5 Rd8 35. Rd4 Rdf8 36. Re4 Qf6 37. d6 cxd6 38. cxd6 Rd7 39. Re6 Qb2 40. f6
-Kh8 41. Re7 1-0
-
-
-[White "Sindarov,Javokhir"]
-[Black "Naroditsky,D"]
-
 [Event "Titled Tue 28th Jan Late"]
 [Date "2025.0.28."]
 [WhiteTitle "GM"]
@@ -29702,7 +29189,3 @@ Kg2 Nf5 22. Rxc8 Rxc8 23. Re8+ Rxe8 24. Qxe8+ Qf8 25. Qb5 Qd6 26. Qe8+ Qf8 27.
 Qe5 Qd6 28. g4 Qxe5 29. Nxe5 Nxd4 30. Nd7 b5 31. axb5 Nxb5 32. Nf6+ Kg7 33. Nxd5
 a4 34. Kf3 a3 35. bxa3 Nxa3 36. Ke4 Nc4 37. Kd4 Nd6 38. Ke5 Nc4+ 39. Kd4 Nd6 40.
 Ke5 Nc4+ 1/2-1/2
-
-
-
-

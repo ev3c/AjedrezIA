@@ -2746,34 +2746,6 @@
 
 1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e5 7. Nf3 h6 8. Nd2 b5 9. Nf1 9... Bb7 10. Bf3 Nbd7 11. Ne3 Nb6 12. O-O Rc8 13. Qd3 g6 14. Rd1 Be7 15. a4 b4 16. Na2 a5 17. c3 17... b3 18. Nb4 axb4 19. a5 bxc3 20. axb6 c2 21. Rd2 Qxb6 22. Ra3 O-O 23. Rxb3 Qa7 24. Ra3 Qd4 25. Qb3 Qxd2 26. Bxd2 c1=Q+ 27. Bxc1 Rxc1+ 28. Nf1 Bxe4 29. Qe3 Rc4 30. Qxh6 d5 31. Bxe4 Ng4 32. Qh3 Rxe4 33. Rc3 Rb4 34. Rc2 Kg7 35. Qd3 Nf6 36. Qg3 e4 37. Qe5 Re8 38. Ne3 38... d4 39. Ng4 d3 40. Rc1 Bd8 41. Qc3 Rb7 42. Ne3 Rc7 43. Qd2 Rxc1+ 44. Qxc1 Bb6 45. Kf1 Bxe3 46. Qxe3 Rb8 47. Qd4 Rb5 48. Ke1 Rg5 49. g3 Rd5 50. Qc3 d2+ 51. Kd1 Rd3 52. Qe5 Rd5 53. Qf4 g5 54. Qe3 Kg6 55. h3 55... Rd3 56. Qb6 Kg7 57. b4 Nd5 0-1
 
-[Event "Gashimov Memorial 5th"]
-[Site "Shamkir"]
-[Date "2018.04.26"]
-[Round "7"]
-[White "Carlsen, Magnus"]
-[Black "Topalov, Veselin"]
-[Result "1-0"]
-[ECO "A28"]
-[WhiteElo "2843"]
-[BlackElo "2749"]
-[Annotator "Marin,Mihail"]
-[SetUp "1"]
-[FEN "r4rk1/1p4p1/2pppqnp/p3p3/P3P3/2PPNNPn/1P2QP1P/R4R1K w - - 0 20"]
-[PlyCount "111"]
-[EventDate "2018.04.19"]
-[EventType "tourn"]
-[EventRounds "9"]
-[EventCountry "AZE"]
-[EventCategory "21"]
-[SourceTitle "CBM 184"]
-[Source "ChessBase"]
-[SourceDate "2018.05.16"]
-[SourceVersion "1"]
-[SourceVersionDate "2018.05.16"]
-[SourceQuality "1"]
-
-20. Nd2 d5 21. Qh5 21... Ng5 22. h4 Nf3 23. Nxf3 Qxf3+ 24. Qxf3 Rxf3 25. Kg2 Rf7 26. Rfe1 h5 27. Nf1 Kf8 28. Nd2 Ke7 29. Re2 Kd6 30. Nf3 Raf8 31. Ng5 Re7 32. Rae1 Rfe8 33. Nf3 Nh8 34. d4 exd4 35. Nxd4 g6 36. Re3 Nf7 37. e5+ Kd7 38. Rf3 Nh6 39. Rf6 Rg7 40. b4 axb4 41. cxb4 Ng8 42. Rf3 Nh6 43. a5 Nf5 44. Nb3 Kc7 45. Nc5 Kb8 46. Rb1 Ka7 47. Rd3 Rc7 48. Ra3 Nd4 49. Rd1 Nf5 50. Kh3 Nh6 51. f3 Rf7 52. Rd4 Nf5 53. Rd2 Rh7 54. Rb3 Ree7 55. Rdd3 Rh8 56. Rb1 Rhh7 57. b5 cxb5 58. Rxb5 d4 59. Rb6 Rc7 60. Nxe6 Rc3 61. Nf4 Rhc7 62. Nd5 Rxd3 63. Nxc7 Kb8 64. Nb5 Kc8 65. Rxg6 Rxf3 66. Kg2 Rb3 67. Nd6+ Nxd6 68. Rxd6 Re3 69. e6 Kc7 70. Rxd4 Rxe6 71. Rd5 Rh6 72. Kf3 Kb8 73. Kf4 Ka7 74. Kg5 Rh8 75. Kf6 1-0
-
 [Event "Norway Chess 1st"]
 [Site "Stavanger"]
 [Date "2013.05.08"]
@@ -2979,58 +2951,6 @@
 [SourceQuality "1"]
 
 1. c4 g6 2. g3 Bg7 3. Bg2 Nf6 4. Nc3 O-O 5. Nf3 d6 6. d4 Nc6 7. O-O e5 8. dxe5 dxe5 9. Bg5 Be6 10. Qa4 Qb8 11. Bxf6 Bxf6 12. Nd2 Bg7 13. Rfd1 13... Rd8 14. Nb3 Nd4 15. Nc5 c6 16. e3 Bg4 17. exd4 exd4 18. N3e4 Bxd1 19. Rxd1 Qc7 20. Qb3 b6 21. Nd3 Rab8 22. c5 bxc5 23. Qc4 Qa5 24. Nexc5 Bf8 25. b4 Qa3 26. Ne5 Qxb4 27. Qxf7+ Kh8 28. Qf6+ Bg7 29. Qg5 Re8 30. Nxc6 Qc4 31. Nxb8 Qe2 32. Qd2 1-0
-
-[Event " 111/"]
-[Site "Monaco"]
-[Date "2011.??.??"]
-[Round "?"]
-[White "Carlsen, Magnus"]
-[Black "Topalov, Veselin"]
-[Result "*"]
-[ECO "B23"]
-[WhiteElo "2815"]
-[BlackElo "2775"]
-[Annotator "GM Lubomir Kavalek/Huffington Post"]
-[SetUp "1"]
-[FEN "3q2k1/p4p2/2p1r2p/3p2p1/3Pn3/7P/PP2RPPB/3Q2K1 w - - 0 23"]
-[PlyCount "59"]
-[EventDate "2011.??.??"]
-[EventType "game "]
-[EventCountry "MNC"]
-[SourceTitle "CI1-130"]
-[Source "Chess Informant"]
-[SourceDate "2017.02.02"]
-[SourceVersion "1"]
-[SourceVersionDate "2017.02.02"]
-[SourceQuality "2"]
-
-23. f3 Nd6 24. Rxe6 fxe6 25. Qa4 Qd7 26. Qb4 Nc8 27. Qb8 Kf7 28. Be5 Kg8 29. b4 Kf7 30. a4 Ke7 31. a5 Kd8 32. a6 Ke8 33. Kh2 Kf7 34. Qb7 Ke8 35. g4 Ne7 36. Qb8+ Nc8 37. Kg3 Kd8 38. Qb7 Nd6 39. Qxd7+ Kxd7 40. Bxd6 Kxd6 41. f4 Ke7 42. h4 Kf6 43. hxg5+ 43... hxg5 44. fxg5+ Kxg5 45. Kf3 Kg6 46. Kf4 Kf6 47. g5+ Kg6 48. Ke5 Kxg5 49. Kxe6 Kf4 50. Kd6 Ke4 51. Kxc6 Kxd4 52. b5 *
-
-[Event " 106/17"]
-[Site "Nice"]
-[Date "2009.??.??"]
-[Round "?"]
-[White "Carlsen, Magnus"]
-[Black "Topalov, Veselin"]
-[Result "*"]
-[ECO "A33"]
-[WhiteElo "2776"]
-[BlackElo "2796"]
-[Annotator "RR"]
-[SetUp "1"]
-[FEN "4Rb2/6k1/6p1/2p1P3/2Bp1Pp1/3P4/5K2/7r w - - 0 1"]
-[PlyCount "45"]
-[EventDate "2009.??.??"]
-[EventType "game"]
-[EventCountry "FRA"]
-[SourceTitle "CI1-130"]
-[Source "Chess Informant"]
-[SourceDate "2017.02.02"]
-[SourceVersion "1"]
-[SourceVersionDate "2017.02.02"]
-[SourceQuality "2"]
-
-1. Re6 1... Kh6 2. Bd5 Rh2+ 3. Kg3 Rh3+ 4. Kxg4 Rxd3 5. f5 5... Re3 6. Rxg6+ Kh7 7. Bg8+ 7... Kh8 8. Kf4 Rc3 9. f6 d3 10. Ke3 c4 11. Be6 Kh7 12. Bf5 Rc2 13. Rg2+ 13... Kh6 14. Rxc2 dxc2 15. Bxc2 Kg5 16. Kd4 Ba3 17. Kxc4 Bb2 18. Kd5 Kf4 19. f7 Ba3 20. e6 Kg5 21. Kc6 Kf6 22. Kd7 Kg7 23. e7 *
 
 [Event "Bucharest Kings 6th"]
 [Site "Bucharest"]
@@ -4436,25 +4356,6 @@
 [SourceQuality "2"]
 
 1. c4 Nf6 2. Nc3 g6 3. e4 d6 4. d4 Bg7 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Ne7 9. Ne1 Nd7 10. Nd3 f5 11. Bd2 Nf6 12. f3 c6 13. dxc6 bxc6 14. Be3 14... Be6 15. b3 a5 16. Bf2 c5 17. exf5 gxf5 18. Qd2 Nc6 19. Rae1 Ra7 20. Bd1 Re7 21. Kh1 Kh8 22. Bh4 Qe8 23. f4 e4 24. Nf2 Nd4 25. h3 Rd7 26. Na4 Ra7 27. Qe3 Qc6 *
-
-[Event "125/163"]
-[Site "Stavanger"]
-[Date "2015.??.??"]
-[Round "?"]
-[White "Giri, Anish"]
-[Black "Topalov, Veselin"]
-[Result "1-0"]
-[WhiteElo "2773"]
-[BlackElo "2798"]
-[Annotator "Milanovic,Danilo"]
-[SetUp "1"]
-[FEN "3r4/1R1N1ppk/3bp3/1p5P/8/1P6/4PPKP/8 w - - 0 1"]
-[PlyCount "41"]
-[EventDate "2015.??.??"]
-[EventType "game"]
-[EventCountry "NOR"]
-
-1. b4 Bxb4 2. Ne5 Rd5 3. Nxf7 Rxh5 4. f4 Kg6 5. Ne5+ Kh7 6. Nf7 6... Kg6 7. Ne5+ Kh7 8. Nf3 Rf5 9. Ng5+ Kh6 10. Kf3 Bd2 11. e3 b4 12. Nxe6 Rh5 13. Nxg7 Rxh2 14. Nf5+ Kg6 15. Ne7+ 15... Kf6 16. Nd5+ Ke6 17. Ke4 Rh3 18. Rb6+ Kd7 19. Kd3 Bc1 20. Rxb4 Kd6 21. Kd4 1-0
 
 [Event "Gibraltar Masters 15th"]
 [Site "Caleta"]
@@ -26979,25 +26880,6 @@
 
 1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 dxe4 5. Nxe4 Be7 6. Bxf6 gxf6 7. Qd2 b6 8. g3 Bb7 9. Bg2 Qc8 10. f4 O-O 11. Bf3 Nc6 12. O-O-O Rd8 13. Qg2 Nxd4 14. Nxf6+ Bxf6 15. Bxb7 Qd7 16. Nf3 16... Rab8 17. c3 17... Rxb7 18. Nxd4 Qd5 1/2-1/2
 
-[Event " 110/261"]
-[Site "Khanty Mansiysk"]
-[Date "2010.??.??"]
-[Round "?"]
-[White "Topalov, Veselin"]
-[Black "So, Wesley"]
-[Result "1/2-1/2"]
-[WhiteElo "2803"]
-[BlackElo "2668"]
-[Annotator "Krasenkow,Michal"]
-[SetUp "1"]
-[FEN "7k/pp3R2/2b3pp/4r1P1/4P3/1B4K1/P5P1/8 w - - 0 1"]
-[PlyCount "35"]
-[EventDate "2010.??.??"]
-[EventType "game"]
-[EventCountry "RUS"]
-
-1. gxh6 Rxe4 2. Kh3 2... Re5 3. g3 3... Rc5 4. Kg4 a5 5. Rg7 a4 6. Be6 Re5 7. Bc8 7... Bd5 8. a3 b5 9. Ra7 9... Re8 10. Bb7 Re4+ 11. Kg5 Re7 12. Ra8+ Kh7 13. Bxd5 Re5+ 14. Kf6 Rxd5 15. g4 Rc5 16. Rb8 Rc6+ 17. Kg5 Rc5+ 18. Kf6 1/2-1/2
-
 [Event "Elenite 64/423"]
 [Site "?"]
 [Date "1995.??.??"]
@@ -28473,28 +28355,6 @@
 
 1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. Bg5 h6 6. Bxf6 Qxf6 7. e3 Nd7 8. Rc1 g6 9. Be2 Bg7 10. cxd5 10... exd5 11. b4 a6 12. a4 O-O 13. b5 axb5 14. axb5 Qd6 15. O-O Nb6 16. Qb3 Rb8 17. Nd1 Bf5 18. Nb2 Rfc8 19. Nd3 Bxd3 20. Qxd3 c5 21. dxc5 Rxc5 22. h4 Na4 23. h5 Rbc8 24. Rxc5 Nxc5 25. Qc2 gxh5 26. Nd4 Qg6 27. Nf5 Bf8 28. Rd1 Qe6 29. Rc1 Nb3 30. Qxc8 Nxc1 31. Qxc1 Qxf5 32. Qc7 Qb1+ 33. Bf1 d4 34. exd4 Qd1 35. Qe5 Bg7 36. Qe8+ Bf8 37. Qd8 Kg7 38. Qd5 b6 39. Qe5+ Kg8 40. Qf6 Bg7 41. Qxb6 Bxd4 42. Qxh6 Qg4 43. Qd6 Qd1 44. Qd8+ Kh7 45. Qc7 Kg7 46. b6 Qg4 47. b7 Qh4 48. g3 Qf6 49. Qc2 Qe5 50. Qd3 Ba7 51. Qf3 Qf6 52. Qe2 Qc3 53. Kh2 Qd4 54. Qf3 Bb8 55. Kh3 Bc7 56. Be2 Bb8 57. Bd1 f5 58. Be2 f4 59. Qxh5 Qxf2 60. Qg5+ Kf7 0-1
 
-[Event "Morelia/Linares 23rd"]
-[Site "Morella Linares"]
-[Date "2006.02.18"]
-[Round "1"]
-[White "10.05 Svidler, Peter"]
-[Black "Topalov, Veselin"]
-[Result "1-0"]
-[ECO "C67"]
-[WhiteElo "2765"]
-[BlackElo "2801"]
-[Annotator "Karsten Müller"]
-[SetUp "1"]
-[FEN "5b2/3k3r/2p2Pp1/pp4B1/2p3KP/P1P5/1P6/4R3 w - - 0 42"]
-[PlyCount "51"]
-[EventDate "2006.02.18"]
-[EventType "tourn"]
-[EventRounds "14"]
-[EventCountry "ESP"]
-[EventCategory "20"]
-
-42. a4 bxa4 43. Re5 c5 44. Bf4 Rh8 45. Bg3 Bh6 46. Re7+ Kc6 47. Bf4 Bxf4 48. Kxf4 Rh5 49. Re5 Rxh4+ 50. Kg5 Rh5+ 51. Kxg6 Rxe5 52. f7 Re6+ 53. Kg5 Re5+ 54. Kg4 Re4+ 55. Kg3 Re3+ 56. Kf2 a3 57. f8=Q axb2 58. Qc8+ Kb5 59. Qb7+ Ka4 60. Kxe3 60... Ka3 61. Qb5 a4 62. Qxc5+ Kb3 63. Qb4+ Kc2 64. Qxa4+ Kxc3 65. Qa5+ Kc2 66. Qf5+ Kc1 67. Qf1+ 1-0
-
 [Event "Kiev rapid"]
 [Site "Kiev"]
 [Date "2013.06.05"]
@@ -28514,34 +28374,6 @@
 [EventCategory "19"]
 
 1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 d6 5. c3 Be7 6. Nbd2 O-O 7. O-O a6 8. Bxc6 8... bxc6 9. d4 exd4 10. cxd4 a5 11. Qc2 Bd7 12. a4 Qb8 13. b3 Qb7 14. Ba3 Rfe8 15. Rfe1 Bf8 16. h3 h6 17. Rac1 Ra6 18. Re3 Rb8 19. Bb2 Be7 20. Rc3 Bd8 21. Ba3 Rb6 22. Re1 Be6 23. Ree3 Nd7 24. Nc4 Bxc4 25. bxc4 c5 26. dxc5 Rb1+ 27. Kh2 Bf6 28. cxd6 Bxc3 29. Qxc3 cxd6 30. Bxd6 Rb3 31. Qxa5 Rxe3 32. fxe3 Ra8 33. Qb5 Qa7 34. a5 Nf8 35. Qd5 Qxa5 36. c5 Rc8 37. Ne5 Qa7 38. Nc6 Rxc6 39. Qxc6 Ne6 40. Qd5 Qa4 41. c6 Qc2 42. Bf4 g5 43. Bg3 1-0
-
-[Event "Linares"]
-[Site "Linares"]
-[Date "1998.03.04"]
-[Round "10"]
-[White "Topalov, Veselin"]
-[Black "Shirov, Alexei"]
-[Result "0-1"]
-[ECO "D85"]
-[WhiteElo "2740"]
-[BlackElo "2710"]
-[Annotator "Williams"]
-[SetUp "1"]
-[FEN "8/8/4kpp1/3p1b2/p6P/2B5/6P1/7K w - - 0 47"]
-[PlyCount "14"]
-[EventDate "1998.02.22"]
-[EventType "tourn"]
-[EventRounds "12"]
-[EventCountry "ESP"]
-[EventCategory "21"]
-[SourceTitle "CBM 064"]
-[Source "ChessBase"]
-[SourceDate "1998.06.02"]
-[SourceVersion "1"]
-[SourceVersionDate "1998.06.02"]
-[SourceQuality "1"]
-
-47. Kg1 Bh3 48. gxh3 48... Kf5 49. Kf2 Ke4 50. Bxf6 50... d4 51. Be7 51... Kd3 52. Bc5 Kc4 53. Be7 53... Kb3 0-1
 
 [Event "Candidates Tournament"]
 [Site "Moscow"]

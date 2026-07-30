@@ -20,28 +20,6 @@
 
 1. e4 c5 2. c3 d6 3. d4 Nf6 4. dxc5 Nc6 5. Bb5 5... Nxe4 6. cxd6 Nxd6 7. Bxc6+ bxc6 8. Nf3 Ba6 9. Qa4 Qc8 10. Nd4 Nb5 11. Nxb5 Qe6+ 12. Be3 Bxb5 13. Qf4 g5 14. Qf3 Bg7 15. Na3 Bd3 16. Qg3 Rd8 17. Qxg5 Rg8 18. O-O-O Qxa2 19. Nc2 Kf8 20. Bc5 Qe6 21. Rhe1 Rd5 22. Rxe6 Rxg5 23. Bxe7+ Ke8 24. Bxg5+ fxe6 25. Rxd3 1-0
 
-[Event "Ballyclare"]
-[Site "?"]
-[Date "1989.??.??"]
-[Round "?"]
-[White "Dagdelen, Ahmet Aras"]
-[Black "Carlsen, Magnus vs. Bacrot"]
-[Result "0-1"]
-[Annotator "Parma,Bruno"]
-[SetUp "1"]
-[FEN "2rqkb1r/1b1n1ppp/pn1pp3/1p6/3NP1PP/2NBBP2/PPP2Q2/2KR3R b k - 0 1"]
-[PlyCount "63"]
-[EventDate "1971.??.??"]
-[EventType "game"]
-[SourceTitle "200 Traps In The Opening"]
-[Source "Galencze"]
-[SourceDate "2015.04.17"]
-[SourceVersion "1"]
-[SourceVersionDate "2015.04.17"]
-[SourceQuality "1"]
-
-1... Rxc3 2. bxc3 Qc7 3. Ne2 d5 4. e5 4... Na4 5. f4 b4 6. cxb4 6... Bxb4 7. Bd4 O-O 8. c3 8... Ndc5 9. Bc2 Ne4 10. Bxe4 dxe4 11. Rh3 11... Qc4 12. Kd2 Ba5 13. Ra1 Rd8 14. Ke1 Bc6 15. Kf1 15... Bb5 16. Rb1 Bxc3 17. Rxb5 axb5 18. Bxc3 Rd3 19. Rxd3 exd3 20. Bd2 dxe2+ 21. Qxe2 Qd5 22. Qg2 Qd3+ 23. Ke1 h6 24. g5 h5 25. Qb7 Qb1+ 26. Ke2 Qxa2 27. Qa8+ Kh7 28. Qe4+ g6 29. Qb4 Qc2 30. Qf8 Nc3+ 31. Kf3 Qd3+ 32. Be3 Qe2+ 0-1
-
 [Event "Armenian Championship, Yerevan"]
 [Site "?"]
 [Date "2023.08.13"]
@@ -112,29 +90,6 @@
 [SourceQuality "1"]
 
 1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 a6 6. Bc4 6... e6 7. Bb3 7... Nbd7 8. f4 8... Nc5 9. Qf3 Be7 10. O-O O-O 11. Be3 11... Qc7 12. Rae1 12... Re8 13. g4 b5 14. g5 Nfd7 15. f5 15... Ne5 16. Qh5 g6 17. Qh4 17... Bf8 18. fxg6 18... Nxg6 19. Qh5 b4 20. Nce2 Bb7 21. Ng3 Nxe4 22. Qh3 22... Nxg3 23. hxg3 Bg7 24. Re2 Be4 25. Nxe6 fxe6 26. Bxe6+ Kh8 27. Rf7 Re7 28. Qxh7+ Kxh7 29. Rh2+ Nh4 30. Rxh4+ Kg6 31. Rf6+ Bxf6 32. Rh6+ Kg7 33. gxf6+ Kf8 34. Rh8# 1-0
-
-[Event "ch"]
-[Site "Prague"]
-[Date "1983.??.??"]
-[Round "?"]
-[White "Carlsen, Magnus vs. Bacrot"]
-[Black "Peacock, James Reid"]
-[Result "1-0"]
-[Annotator "Parma,Bruno"]
-[SetUp "1"]
-[FEN "3r1rk1/1p2qpp1/p1nNp1np/4P2Q/P3N3/1P2R3/3P1PPP/2R3K1 w - - 0 1"]
-[PlyCount "37"]
-[EventDate "1986.??.??"]
-[EventType "game"]
-[EventCountry "CZE"]
-[SourceTitle "200 Traps In The Opening"]
-[Source "Galencze"]
-[SourceDate "2015.04.17"]
-[SourceVersion "1"]
-[SourceVersionDate "2015.04.17"]
-[SourceQuality "1"]
-
-1. Rxc6 bxc6 2. d4 Rb8 3. g3 Rfd8 4. Rf3 Rf8 5. h4 Rb4 6. Rd3 Qa7 7. Qg4 Kh8 8. Qd1 Ne7 9. g4 f5 10. exf6 gxf6 11. Qd2 Nd5 12. Nc5 Qh7 13. Nxe6 Rg8 14. Rg3 Qb1+ 15. Kh2 Kh7 16. Nf5 Rg6 17. Nf8+ Kg8 18. Nxg6 Qf1 19. Rg1 1-0
 
 [Event "?"]
 [Site "Budapest"]
@@ -3333,29 +3288,6 @@
 
 1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O 4... Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8. Qxd8+ Kxd8 9. h3 Ke8 10. Nc3 h5 11. Bf4 Be7 12. Rad1 Be6 13. Ng5 Rh6 14. g3 14... Bxg5 15. Bxg5 Rg6 16. h4 f6 17. exf6 gxf6 18. Bf4 Nxh4 19. f3 Rd8 20. Kf2 Rxd1 21. Nxd1 Nf5 22. Rh1 Bxa2 23. Rxh5 23... Be6 24. g4 24... Nd6 25. Rh7 Nf7 26. Ne3 Kd8 27. Nf5 c5 28. Ng3 Ne5 29. Rh8+ 29... Rg8 30. Bxe5 fxe5 31. Rh5 Bxg4 32. fxg4 Rxg4 33. Rxe5 b6 34. Ne4 Rh4 35. Ke2 Rh6 36. b3 Kd7 37. Kd2 Kc6 38. Nc3 a6 39. Re4 Rh2+ 40. Kc1 Rh1+ 41. Kb2 Rh6 42. Nd1 Rg6 43. Ne3 Rh6 44. Re7 44... Rh2 45. Re6+ Kb7 46. Kc3 Rh4 47. Kb2 47... Rh2 48. Nd5 48... Rd2 49. Nf6 49... Rf2 50. Kc3 Rf4 51. Ne4 Rh4 52. Nf2 Rh2 53. Rf6 Rh7 54. Nd3 Rh3 55. Kd2 Rh2+ 56. Rf2 Rh4 57. c4 Rh3 58. Kc2 Rh7 59. Nb2 Rh5 60. Re2 60... Rg5 61. Nd1 61... b5 62. Nc3 62... c6 63. Ne4 Rh5 64. Nf6 Rg5 65. Re7+ Kb6 66. Nd7+ Ka5 67. Re4 67... Rg2+ 68. Kc1 68... Rg1+ 69. Kd2 Rg2+ 70. Ke1 bxc4 71. Rxc4 71... Rg3 72. Nxc5 72... Kb5 73. Rc2 a5 74. Kf2 74... Rh3 75. Rc1 Kb4 76. Ke2 Rc3 77. Nd3+ Kxb3 78. Ra1 Kc4 79. Nf2 Kb5 80. Rb1+ Kc4 81. Ne4 Ra3 82. Nd2+ Kd5 83. Rh1 a4 84. Rh5+ Kd4 85. Rh4+ Kc5 86. Kd1 Kb5 87. Kc2 Rg3 88. Ne4 Rg2+ 89. Kd3 a3 90. Nc3+ Kb6 91. Ra4 a2 92. Nxa2 Rg3+ 93. Kc2 Rg2+ 94. Kb3 Rg3+ 95. Nc3 Rh3 96. Rb4+ Kc7 97. Rg4 Rh7 98. Kc4 Rf7 99. Rg5 Kb6 100. Na4+ Kc7 101. Kc5 Kd7 102. Kb6 Rf1 103. Nc5+ Ke7 104. Kxc6 Rd1 105. Rg6 Kf7 106. Rh6 Rg1 107. Kd5 Rg5+ 108. Kd4 Rg6 109. Rh1 Rg2 110. Ne4 Ra2 111. Rf1+ Ke7 112. Nc3 Rh2 113. Nd5+ Kd6 114. Rf6+ Kd7 115. Nf4 Rh1 116. Rg6 Rd1+ 117. Nd3 Ke7 118. Ra6 Kd7 119. Ke4 Ke7 120. Rc6 Kd7 121. Rc1 Rxc1 122. Nxc1 1/2-1/2
 
-[Event "3rd Chess 2015"]
-[Site "Norway"]
-[Date "2015.06.22"]
-[Round "6.1"]
-[White "Carlsen, Magnus"]
-[Black "Nakamura, Hikaru"]
-[Result "1/2-1/2"]
-[WhiteElo "2876"]
-[BlackElo "2802"]
-[Annotator "Dejan Bojkov & Alexander Delchev"]
-[Variant "chess 960"]
-[SetUp "1"]
-[FEN "rnknqbbr/pppppppp/8/8/8/8/PPPPPPPP/RNKNQBBR w HAha - 0 1"]
-[PlyCount "238"]
-[EventDate "2015.??.??"]
-[EventType "simul"]
-[EventRounds "2"]
-[EventCountry "NOR"]
-[WhiteClock "1:03:05"]
-[BlackClock "0:46:49"]
-
-1. d4 f5 2. f4 g5 3. fxg5 h6 4. Ndc3 4... d5 5. g4 5... fxg4 6. e4 dxe4 7. Nd2 hxg5 8. O-O-O Nd7 9. Ndxe4 Nf7 10. d5 a6 11. Bd4 Rh6 12. Be2 12... Nfe5 13. Nxg5 Rg6 14. Ne6 14... Bxe6 15. dxe6 Rxe6 16. Bxe5 Rxe5 17. Qg3 Bh6+ 18. Kb1 Re3 19. Qxg4 O-O-O 20. Nd5 Re5 21. Bxa6 21... c6 22. Nb6+ Kc7 23. Nxd7 Rxd7 24. Rxd7+ Qxd7 25. Qxd7+ Kxd7 26. Bxb7 26... Ra5 27. Re1 27... Bg5 28. Rg1 Bf6 29. Rg8 Rb5 30. Bc8+ Kc7 31. b3 Re5 32. Kc1 Re2 33. h3 33... e6 34. Ba6 34... Re3 35. Kd2 Rxh3 36. Bd3 Rh2+ 37. Ke3 Bc3 38. a4 Kd6 39. Rg6 Rh3+ 40. Ke4 Rh4+ 41. Kf3 Rh3+ 42. Kg2 Rh7 43. Rg4 43... Rg7 44. Bg6 c5 45. Kf3 Ba5 46. Ke2 c4 47. Rd4+ Ke7 48. Be4 cxb3 49. cxb3 Rg3 50. Bf3 Rg1 51. b4 Bc7 52. Rc4 Bd6 53. Be4 53... Rg3 54. Kd2 Rb3 55. b5 Be5 56. Bc2 Rb2 57. Rc6 Kd7 58. Ra6 Bd6 59. Kc3 Be5+ 60. Kd3 Bf4 61. a5 Bc7 62. Ra7 Kd6 63. Ra6+ Kd7 64. b6 Bxb6 65. axb6 Kc6 66. Ba4+ Kb7 67. Ra7+ Kxb6 68. Re7 Kc5 69. Rxe6 Rb4 70. Bc2 Rd4+ 71. Ke3 Rd8 72. Be4 Rd6 73. Re5+ Kb6 74. Bd5 Kc5 75. Ke4 Rd8 76. Bf7+ Kc6 77. Rh5 Rd1 78. Bb3 Rd2 79. Bd5+ Kc5 80. Bf7+ Kc6 81. Bb3 Kd6 82. Ke3 Rb2 83. Bc4 Rg2 84. Bd3 Rg1 85. Kd4 Rd1 86. Rh6+ Ke7 87. Ra6 Kd7 88. Ke4 Ke7 89. Bc4 Rd6 90. Ra7+ Rd7 91. Ra5 Rd1 92. Ke5 Re1+ 93. Kd4 Rd1+ 94. Bd3 Kd6 95. Ra6+ Ke7 96. Ke4 Rd2 97. Ke3 Rd1 98. Ke4 Rd2 99. Bc4 Rd6 100. Ra5 Rd1 101. Ke5 Re1+ 102. Kd5 Rd1+ 103. Kc5 Kf6 104. Ra6+ Kf5 105. Re6 Rc1 106. Re2 Rd1 107. Bb3 Rd8 108. Bc2+ Kf4 109. Re4+ Kf3 110. Rc4 Rf8 111. Kb4 Ke2 112. Kc3 Ke3 113. Re4+ Kf3 114. Rd4 Rc8+ 115. Rc4 Re8 116. Rb4 Re3+ 117. Kb2 Re2 118. Rb3+ Kf2 119. Rc3 Re7 1/2-1/2
-
 [Event "Bullet Chess Losers"]
 [Site "Chess.com INT"]
 [Date "2023.07.21"]
@@ -5671,34 +5603,6 @@
 
 1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O 4... Nxe4 5. Re1 5... Nd6 6. Nxe5 Be7 7. Bf1 7... Nf5 8. Nf3 8... O-O 9. d4 d5 10. c3 10... Bd6 11. Bd3 11... Nce7 12. Nbd2 12... c6 13. Nf1 Ng6 14. Qc2 14... Nfh4 15. Nxh4 Qxh4 16. g3 Qd8 17. Ne3 Re8 18. Bd2 Nf8 19. Nf5 Bc7 20. Rxe8 Qxe8 21. Re1 Be6 22. Qc1 22... f6 23. Qd1 23... Qd7 24. Qf3 Re8 25. h4 Bf7 26. Rf1 Bg6 27. h5 Bxf5 28. Bxf5 Qf7 29. Kg2 29... g6 30. Bd3 f5 31. Rh1 31... Ne6 32. hxg6 32... hxg6 33. g4 33... Bf4 34. Be3 34... fxg4 35. Qxg4 Kg7 36. Rh5 Bxe3 37. fxe3 Nf8 38. Rh3 38... Kg8 39. Rf3 Qe6 40. Qf4 40... Kg7 41. b3 41... Qe7 42. c4 Rd8 43. Rh3 43... Rd6 44. Qh6+ Kg8 45. cxd5 cxd5 46. e4 Qg7 47. Qe3 Qe7 48. e5 Rc6 49. Qh6 Qg7 50. Qh4 a6 51. Rf3 Qd7 52. b4 b5 53. a3 Qc7 54. Kg3 Kg7 55. Bb1 Nh7 56. Ba2 56... Qd7 57. Bb3 Rc1 58. Kh2 Rb1 59. Bc2 Rb2 60. Rc3 Qf7 61. Kg3 61... Nf8 62. Rf3 Qe6 63. Qd8 63... Nd7 64. Rf2 64... Ra2 65. Kh2 65... Qg4 66. Qe7+ Kh6 67. Qd8 67... Qh5+ 68. Kg2 Qg4+ 1-0
 
-[Event "Tata Steel-A 74th"]
-[Site "Wijk aan Zee"]
-[Date "2012.01.16"]
-[Round "3"]
-[White "Carlsen, Magnus"]
-[Black "Aronian, Levon"]
-[Result "1-0"]
-[WhiteElo "2835"]
-[BlackElo "2805"]
-[Annotator "Stohl,Igor"]
-[Variant "chess 960"]
-[SetUp "1"]
-[FEN "rbqnnkbr/pppppppp/8/8/8/8/PPPPPPPP/RBQNNKBR w HAha - 0 1"]
-[PlyCount "135"]
-[EventDate "2012.01.14"]
-[EventType "tourn"]
-[EventRounds "13"]
-[EventCountry "NED"]
-[EventCategory "21"]
-[SourceTitle "CBM 147"]
-[Source "ChessBase"]
-[SourceDate "2012.03.16"]
-[SourceVersion "1"]
-[SourceVersionDate "2012.03.16"]
-[SourceQuality "1"]
-
-1. d4 c5 2. dxc5 Qxc5 3. f3 Qc7 4. Qd2 f5 5. c4 Bxc4 6. Bxf5 Nd6 7. Bc2 Nc6 8. Rc1 Bf7 9. Bb3 O-O 10. Bxf7+ Nxf7 11. e4 e6 12. Ne3 a6 13. Bf2 13... Nfe5 14. Nd3 Nxd3 15. Qxd3 b5 16. Qd2 Qb7 17. O-O Bf4 18. Bg3 Bxg3 19. hxg3 Rac8 20. Ng4 20... Ne7 21. Qg5 21... Ng6 22. Rxc8 22... Rxc8 23. Rd1 Rc2 24. Qd8+ Nf8 25. Kh2 Rc5 26. Rd6 26... b4 27. Rb6 Qa7 28. e5 Rc8 29. Qe7 Ng6 30. Qxb4 h5 31. Rb7 Qc5 32. Qe4 hxg4 33. Qxg6 Qd5 34. Rb3 gxf3 35. Rxf3 Rf8 36. Rd3 Qxe5 37. Rxd7 Rf5 38. Rd8+ Rf8 39. Rd7 Rf5 40. Rd8+ Rf8 41. Rxf8+ Kxf8 42. b4 Qe2 43. a4 Qa2 44. a5 Qc4 45. Qb1 Kg8 46. Qe1 Kh7 47. Qe3 Qxb4 48. Qd3+ g6 49. Qxa6 Qc5 50. Qb6 Qh5+ 51. Kg1 Qd1+ 52. Kf2 Qd2+ 53. Kf3 g5 54. Qxe6 Qxa5 55. Kg4 Qa8 56. Qf7+ Kh8 57. Qh5+ Kg7 58. Qxg5+ Kh8 59. Kh3 Qa1 60. Qd8+ Kg7 61. Qe7+ Kg8 62. g4 Qc3+ 63. Kh4 Qb2 64. Qe8+ Kg7 65. Qd7+ Kg6 66. Qd6+ Kg7 67. Qd5 Kg6 68. Qg8+ 1-0
-
 [Event "FIDE World Cup"]
 [Site "Baku"]
 [Date "2023.08.11"]
@@ -5794,34 +5698,6 @@
 [EventCountry "NOR"]
 
 1. d3 Nf6 2. g3 d5 3. Nf3 c6 4. Bg2 Bg4 5. h3 Bh5 6. Nbd2 Nbd7 7. g4 Bg6 8. Nh4 e5 9. e3 Bd6 10. Qe2 a5 11. a3 Qe7 12. b3 O-O 13. Bb2 Rfe8 14. Nxg6 hxg6 15. g5 Nh7 16. h4 b5 17. h5 Nxg5 18. hxg6 fxg6 19. Nf3 Nxf3+ 20. Bxf3 e4 21. dxe4 dxe4 22. Bg2 Be5 23. O-O-O Bxb2+ 24. Kxb2 a4 25. b4 Ne5 26. Rd4 Nc4+ 27. Rxc4 bxc4 28. Qxc4+ Qe6 29. Qxe6+ Rxe6 30. Bf1 Ree8 31. Bc4+ Kf8 32. Rh4 g5 33. Rh5 Rad8 34. Rxg5 Rd6 35. Kc3 Rf6 36. Rg2 Rd8 37. Rg4 Rxf2 38. Rxe4 Re8 39. Rh4 Rxe3+ 40. Bd3 Ke7 41. Rg4 Kf7 42. Kd4 Ref3 43. Kc5 Rf6 44. Kb6 R2f4 45. Rg5 Rd4 46. Ra5 Rd7 47. Rxa4 g5 48. Ra5 c5+ 49. Kxc5 g4 50. Kc4 Rf4+ 51. Kb3 Kf6 52. Ra6+ Kg5 53. Rg6+ Kh5 54. Rg8 Rd5 55. b5 Kh4 56. a4 g3 57. b6 Rdd4 58. a5 Rb4+ 59. Kc3 Kh3 60. Rh8+ Kg2 61. a6 Rxb6 62. a7 Ra4 63. a8=Q+ Rxa8 64. Be4+ Kf2 65. Bxa8 g2 66. Rf8+ Kg1 67. Rg8 Kf2 68. Rxg2+ Ke3 1/2-1/2
-
-[Event "Tata Steel-A 85th"]
-[Site "Wijk aan Zee"]
-[Date "2023.01.28"]
-[Round "12"]
-[White "Carlsen, Magnus"]
-[Black "Praggnanandhaa, Rameshbabu"]
-[Result "1/2-1/2"]
-[ECO "D40"]
-[WhiteElo "2859"]
-[BlackElo "2684"]
-[Annotator "Praggnanandhaa, Rameshbabu"]
-[SetUp "1"]
-[FEN "2r3k1/p4pp1/1p5p/8/P2Nn3/1Pp1P2P/5PP1/3R2K1 b - - 0 1"]
-[PlyCount "135"]
-[EventDate "2023.01.13"]
-[EventType "tourn"]
-[EventRounds "13"]
-[EventCountry "NED"]
-[EventCategory "20"]
-[SourceTitle "CBM 212"]
-[Source "ChessBase"]
-[SourceDate "2023.02.28"]
-[SourceVersion "1"]
-[SourceVersionDate "2023.02.28"]
-[SourceQuality "1"]
-
-1... Nd2 2. Rc1 a5 3. Rc2 Nb1 4. Rc1 Nd2 5. Rc2 Nb1 6. Nb5 Kf8 7. f3 Rd8 8. Nd4 8... Rc8 9. Rc1 9... Na3 10. Nc2 Nxc2 11. Rxc2 Rc5 12. Kf2 b5 13. axb5 Rxb5 14. Rxc3 g6 15. f4 h5 16. Rc8+ Kg7 17. Ra8 Rxb3 18. Rxa5 Rb2+ 19. Kf3 Rb3 20. Ra7 Rc3 21. Re7 Rb3 22. Kg3 Rb2 23. Kf3 Rb3 24. g4 hxg4+ 25. hxg4 Rb1 26. Rd7 Rf1+ 27. Ke4 Rg1 28. g5 Ra1 29. Ke5 Ra3 30. e4 Ra5+ 31. Kd6 Ra6+ 32. Ke5 Ra5+ 33. Rd5 Ra4 34. Rc5 Ra1 35. Rc2 Rf1 36. Rc7 Re1 37. Ra7 Rg1 38. Ra4 Rf1 39. Ra6 Re1 40. Kd4 Rd1+ 41. Ke3 Re1+ 42. Kf3 Rf1+ 43. Kg3 Re1 44. e5 Re3+ 45. Kf2 Rb3 46. Rd6 Ra3 47. Rd8 Rc3 48. Ke2 Ra3 49. Rd3 Ra1 50. Ke3 Re1+ 51. Kd4 Rf1 52. Ke4 Ra1 53. Rd7 Ra4+ 54. Rd4 Ra5 55. Rc4 Kf8 56. Rc8+ Kg7 57. Rc7 Kf8 58. Kd4 Ra4+ 59. Rc4 Ra5 60. Rc8+ Kg7 61. e6 fxe6 62. Rc5 Ra7 63. Ke5 Rf7 64. Rc4 Rf5+ 65. Kxe6 Kg8 66. Rc8+ Kg7 67. Rc7+ Kg8 68. Rc8+ Kg7 1/2-1/2
 
 [Event "Tata Steel-A 74th"]
 [Site "Wijk aan Zee"]
@@ -8826,34 +8702,6 @@
 
 1. b3 d5 2. Nf3 Nf6 3. Bb2 c5 4. e3 e6 5. Bb5+ Nbd7 6. O-O a6 7. Be2 Be7 8. c4 O-O 9. cxd5 Nxd5 10. Nc3 Nxc3 11. dxc3 b6 12. Qc2 Bb7 13. Rfd1 Qc7 14. Bd3 g6 15. Be4 c4 16. Bxb7 Qxb7 17. Rd4 cxb3 18. axb3 Bf6 19. Rd2 Nc5 20. c4 Bxb2 21. Qxb2 Rad8 22. Rxd8 Rxd8 23. h4 Qe7 24. h5 gxh5 25. Qe5 Nxb3 26. Rxa6 Qc5 27. Qg3+ Kf8 28. Ng5 h6 29. Nh7+ Ke7 30. Ra7+ Rd7 31. Qh4+ Kd6 32. Qf4+ Ke7 33. Qf6+ Kd6 34. Rxd7+ Kxd7 35. Qxf7+ Qe7 36. Nf6+ Kd8 37. Qg6 Na5 38. Qxh6 Nxc4 39. Nxh5 b5 40. Nf4 Kd7 41. Qh5 Kc6 42. Qf3+ Kb6 43. Qe4 Ka5 44. Nxe6 Qb4 45. Qc2 Qe1+ 46. Kh2 Nd2 47. Kg3 Nf1+ 48. Kf4 Nd2 49. Kg3 Nf1+ 50. Kg4 Nd2 51. Qc3+ b4 52. Qc5+ Ka4 53. Nd4 b3 54. Qb5+ Ka3 55. Qxb3+ Nxb3 56. Nc2+ 1/2-1/2
 
-[Event "Gashimov Memorial 5th"]
-[Site "Shamkir"]
-[Date "2018.04.26"]
-[Round "7"]
-[White "Carlsen, Magnus"]
-[Black "Topalov, Veselin"]
-[Result "1-0"]
-[ECO "A28"]
-[WhiteElo "2843"]
-[BlackElo "2749"]
-[Annotator "Marin,Mihail"]
-[SetUp "1"]
-[FEN "r4rk1/1p4p1/2pppqnp/p3p3/P3P3/2PPNNPn/1P2QP1P/R4R1K w - - 0 20"]
-[PlyCount "111"]
-[EventDate "2018.04.19"]
-[EventType "tourn"]
-[EventRounds "9"]
-[EventCountry "AZE"]
-[EventCategory "21"]
-[SourceTitle "CBM 184"]
-[Source "ChessBase"]
-[SourceDate "2018.05.16"]
-[SourceVersion "1"]
-[SourceVersionDate "2018.05.16"]
-[SourceQuality "1"]
-
-20. Nd2 d5 21. Qh5 21... Ng5 22. h4 Nf3 23. Nxf3 Qxf3+ 24. Qxf3 Rxf3 25. Kg2 Rf7 26. Rfe1 h5 27. Nf1 Kf8 28. Nd2 Ke7 29. Re2 Kd6 30. Nf3 Raf8 31. Ng5 Re7 32. Rae1 Rfe8 33. Nf3 Nh8 34. d4 exd4 35. Nxd4 g6 36. Re3 Nf7 37. e5+ Kd7 38. Rf3 Nh6 39. Rf6 Rg7 40. b4 axb4 41. cxb4 Ng8 42. Rf3 Nh6 43. a5 Nf5 44. Nb3 Kc7 45. Nc5 Kb8 46. Rb1 Ka7 47. Rd3 Rc7 48. Ra3 Nd4 49. Rd1 Nf5 50. Kh3 Nh6 51. f3 Rf7 52. Rd4 Nf5 53. Rd2 Rh7 54. Rb3 Ree7 55. Rdd3 Rh8 56. Rb1 Rhh7 57. b5 cxb5 58. Rxb5 d4 59. Rb6 Rc7 60. Nxe6 Rc3 61. Nf4 Rhc7 62. Nd5 Rxd3 63. Nxc7 Kb8 64. Nb5 Kc8 65. Rxg6 Rxf3 66. Kg2 Rb3 67. Nd6+ Nxd6 68. Rxd6 Re3 69. e6 Kc7 70. Rxd4 Rxe6 71. Rd5 Rh6 72. Kf3 Kb8 73. Kf4 Ka7 74. Kg5 Rh8 75. Kf6 1-0
-
 [Event "World-ch Carlsen-Caruana"]
 [Site "London"]
 [Date "2018.11.21"]
@@ -9233,33 +9081,6 @@
 [SourceQuality "1"]
 
 1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6 5. d3 O-O 6. c3 d5 7. exd5 Nxd5 8. Re1 Bg4 9. Nbd2 Nb6 10. h3 Bh5 11. Bb3 Qxd3 12. Nxe5 Qf5 13. Nef3 Rad8 14. Qe2 Qc8 15. Qb5 Nd7 16. Nh4 16... a6 17. Qf1 Be7 18. Nf5 18... Rfe8 19. Nxe7+ Rxe7 20. Rxe7 Nxe7 21. Ne4 Bg6 22. f3 22... h6 23. Bf4 Nc6 24. Re1 24... Bxe4 25. fxe4 25... Nce5 26. Bg3 Re8 27. Rd1 27... Nc5 28. Bxe5 28... Nxb3 29. Bxg7 Kxg7 30. axb3 Rxe4 31. Qf3 Re7 32. Rd4 Qe6 33. Rg4+ Kh7 34. Qd3+ 34... f5 35. Rf4 Kg6 36. Qg3+ 36... Kh7 37. Qd3 Kg6 38. Kh1 Qe1+ 39. Rf1 Qe5 40. b4 c6 41. Qd8 Re8 42. Qd3 Re7 43. Qd2 Re6 44. Qf2 Re7 45. Rd1 f4 46. Kg1 Qe2 47. Rd6+ Kg5 48. Rd2 Qe1+ 49. Qxe1 Rxe1+ 50. Kf2 Rb1 51. Kf3 Rf1+ 52. Ke2 Rb1 53. Kf3 Rf1+ 54. Ke2 Rb1 55. Kf3 1-0
-
-[Event "World-ch Carlsen-Caruana"]
-[Site "London"]
-[Date "2018.11.24"]
-[Round "11"]
-[White "Carlsen, Magnus"]
-[Black "Caruana, Fabiano"]
-[Result "1/2-1/2"]
-[ECO "C42"]
-[WhiteElo "2835"]
-[BlackElo "2832"]
-[Annotator "Gelfand,Boris"]
-[SetUp "1"]
-[FEN "6k1/6pp/8/p2B1p2/8/4BK2/1r3PPP/8 b - - 0 1"]
-[PlyCount "109"]
-[EventDate "2018.11.09"]
-[EventType "match"]
-[EventRounds "12"]
-[EventCountry "CAN"]
-[SourceTitle "CBM 187"]
-[Source "ChessBase"]
-[SourceDate "2018.12.11"]
-[SourceVersion "1"]
-[SourceVersionDate "2018.12.11"]
-[SourceQuality "1"]
-
-1... Kh8 2. Bd4 Rb1 3. Ke2 a4 4. g3 a3 5. Kd2 h5 6. h4 Kh7 7. Bc4 7... g6 8. Kc2 Re1 9. Be3 9... f4 10. Bxf4 10... a2 11. Bxa2 Re2+ 12. Kb3 Rxf2 13. Bb1 Re2 14. Kc4 Kg7 15. Kd5 Re1 16. Bc2 Re2 17. Bd3 Re1 18. Be4 Rd1+ 19. Ke5 Re1 20. Bd2 Re2 21. Bc3 Kh6 22. Bb4 Rf2 23. Bc5 Rf1 24. Bb4 Rf2 25. Be7 Rf1 26. Bf6 Rg1 27. Bg5+ Kg7 28. Bf4 Re1 29. Kd5 Rd1+ 30. Ke6 Re1 31. Ke5 31... Re2 32. Kd5 Re1 33. Bd3 Kh7 34. Kd4 Kg7 35. Be3 Ra1 36. Ke4 Ra4+ 37. Kf3 Ra3 38. Bb5 Rb3 39. Be8 Rb1 40. Bc6 Rb4 41. Bd2 Rb6 42. Bc3+ Kh6 43. Bd5 Rb1 44. Kf4 Rf1+ 45. Ke5 Rg1 46. Bd2+ Kg7 47. Bf4 Re1+ 48. Kd6 Kf6 49. Bf3 Kf5 50. Kd5 Rf1 51. Be4+ Kg4 52. Bxg6 52... Rxf4 53. gxf4 Kxf4 54. Bxh5 Kg3 55. Bd1 Kxh4 1/2-1/2
 
 [Event "Zagreb SuperUnited Rapid"]
 [Site "Zagreb"]
@@ -10901,27 +10722,6 @@
 
 1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. f3 e5 6. Nb3 6... Be7 7. c4 a5 8. Be3 a4 9. Nc1 9... O-O 10. Nc3 Qa5 11. Qd2 Na6 12. Be2 12... Nc5 13. O-O Bd7 14. Rb1 14... Rfc8 15. b4 axb3 16. axb3 16... Qd8 17. Nd3 Ne6 18. Nb4 Bc6 19. Rfd1 19... h5 20. Bf1 20... h4 21. Qf2 21... Nd7 22. g3 22... Ra3 23. Bh3 23... Rca8 24. Nc2 R3a6 25. Nb4 Ra5 26. Nc2 b6 27. Rd2 27... Qc7 28. Rbd1 Bf8 29. gxh4 29... Nf4 30. Bxf4 30... exf4 31. Bxd7 Qxd7 32. Nb4 32... Ra3 33. Nxc6 Qxc6 34. Nb5 Rxb3 35. Nd4 Qxc4 36. Nxb3 Qxb3 37. Qe2 37... Be7 38. Kg2 38... Qe6 39. h5 Ra3 40. Rd3 40... Ra2 41. R3d2 Ra3 42. Rd3 Ra7 43. Rd5 Rc7 44. Qd2 Qf6 45. Rf5 Qh4 46. Rc1 46... Ra7 47. Qxf4 Ra2+ 48. Kh1 Qf2 49. Rc8+ Kh7 50. Qh6+ 1-0
 
-[Event "Skilling op KO"]
-[Site "chess24.com INT"]
-[Date "2020.11.26"]
-[Round "1.24"]
-[White "Carlsen, Magnus"]
-[Black "Giri, Anish"]
-[Result "1/2-1/2"]
-[WhiteElo "2862"]
-[BlackElo "2764"]
-[Annotator "Collins,Sam"]
-[Variant "chess 960"]
-[SetUp "1"]
-[FEN "nnqrbbkr/pppppppp/8/8/8/8/PPPPPPPP/NNQRBBKR w HDhd - 0 1"]
-[PlyCount "100"]
-[EventDate "2020.11.25"]
-[EventType "k.o. "]
-[EventRounds "3"]
-[EventCountry "USA"]
-
-1. c4 c5 2. Nc3 e6 3. Nc2 Nb6 4. e3 d5 5. cxd5 Nxd5 6. d4 cxd4 7. Nxd4 Nc6 8. Nxd5 Rxd5 9. Nf3 Qd8 10. Rxd5 Qxd5 11. a3 Bd6 12. Be2 O-O 13. O-O Ne7 14. Bc3 14... Ba4 15. Qb1 Rc8 16. Rc1 Ng6 17. h3 b6 18. Bd3 Be7 19. Be4 Qd7 20. Ne5 Nxe5 21. Bxe5 Rxc1+ 22. Qxc1 Qd1+ 23. Qxd1 Bxd1 24. Bc6 Bb3 25. Kf1 Bf6 26. Bxf6 Bc4+ 27. Ke1 gxf6 28. Kd2 28... Kf8 29. Kc3 Bf1 30. f4 Ke7 31. Kd4 Kd6 32. Bf3 f5 33. e4 fxe4 34. Kxe4 f5+ 35. Kd4 h6 36. b4 Bb5 37. g4 Bf1 38. gxf5 exf5 39. h4 Bb5 40. Bd1 Bd7 41. Bb3 Bc8 42. Bc2 Be6 43. Bb1 Bc8 44. Bd3 Bd7 45. Kc4 Kc6 46. Bf1 Be6+ 47. Kd4 Kd6 48. Bg2 Bc8 49. Bd5 Bd7 50. Bb7 Be6 1/2-1/2
-
 [Event "Shamkir 136/45"]
 [Site "?"]
 [Date "2018.??.??"]
@@ -11134,34 +10934,6 @@
 [SourceQuality "1"]
 
 1. c4 c5 2. g3 g6 3. Bg2 Bg7 4. Nc3 Nc6 5. b3 e5 6. Bb2 Nge7 7. d3 d6 8. Nf3 O-O 9. O-O h6 10. Nd2 Be6 11. Nd5 Qd7 12. a3 Bh3 13. Bxh3 Qxh3 14. b4 Qd7 15. bxc5 dxc5 16. e4 16... Rab8 17. Bc3 b5 18. cxb5 Rxb5 19. Nxe7+ Qxe7 20. Nc4 Qd7 21. Rb1 a6 22. Qc2 Rd8 23. Rfd1 h5 24. h4 Kh7 25. Kg2 f6 26. Nb6 Qa7 27. Nd5 Ne7 28. Ne3 Bh6 29. Nc4 Qd7 30. Ba5 Rdb8 31. a4 Rxb1 32. Rxb1 Rxb1 33. Qxb1 Nc6 34. Bc3 Bf8 35. Nb6 Qb7 36. a5 Nb4 37. Bxb4 cxb4 38. Qb3 Kg7 39. Qc4 Be7 40. Kf3 f5 41. Ke2 fxe4 42. dxe4 Bd6 43. Kd3 Qe7 44. Qxa6 Qf7 45. Nd5 Qf3+ 46. Ne3 Bc5 47. Qb7+ Kh6 48. Qc8 Bf8 49. a6 Qxf2 50. a7 1-0
-
-[Event "Sinquefield Cup 1st"]
-[Site "Saint Louis"]
-[Date "2013.09.09"]
-[Round "1"]
-[White "Carlsen, Magnus"]
-[Black "Kamsky, Gata"]
-[Result "1-0"]
-[ECO "D15"]
-[WhiteElo "2862"]
-[BlackElo "2741"]
-[Annotator "Ramirez Alvarez,Alejandro"]
-[SetUp "1"]
-[FEN "r4b2/3p3p/2p2k2/1p3p2/3P1P2/4NK2/1PP4P/4R3 w - - 0 30"]
-[PlyCount "98"]
-[EventDate "2013.09.09"]
-[EventType "tourn"]
-[EventRounds "6"]
-[EventCountry "USA"]
-[EventCategory "22"]
-[SourceTitle "CBM 157"]
-[Source "ChessBase"]
-[SourceDate "2013.11.12"]
-[SourceVersion "1"]
-[SourceVersionDate "2013.11.12"]
-[SourceQuality "1"]
-
-30. Rg1 Ra2 31. b3 c5 32. Rg8 32... Kf7 33. Rg2 cxd4 34. Nxf5 d3 35. cxd3 Ra1 36. Nd4 b4 37. Rg5 Rb1 38. Rf5+ Ke8 39. Rb5 Rf1+ 40. Ke4 Re1+ 41. Kf5 Rd1 42. Re5+ 42... Kf7 43. Rd5 Rxd3 44. Rxd7+ Ke8 45. Rd5 Rh3 46. Re5+ Kf7 47. Re2 Bg7 48. Nc6 Rh5+ 49. Kg4 Rc5 50. Nd8+ Kg6 51. Ne6 h5+ 52. Kf3 Rc3+ 53. Ke4 Bf6 54. Re3 h4 55. h3 Rc1 56. Nf8+ Kf7 57. Nd7 Ke6 58. Nb6 Rd1 59. f5+ Kf7 60. Nc4 Rd4+ 61. Kf3 Bg5 62. Re4 Rd3+ 63. Kg4 Rg3+ 64. Kh5 Be7 65. Ne5+ Kf6 66. Ng4+ Kf7 67. Re6 Rxh3 68. Ne5+ Kg7 69. Rxe7+ Kf6 70. Nc6 Kxf5 71. Na5 Rh1 72. Rb7 72... Ra1 73. Rb5+ Kf4 74. Rxb4+ Kg3 75. Rg4+ Kf2 76. Nc4 h3 77. Rh4 Kg3 78. Rg4+ Kf2 1-0
 
 [Event "Tata Steel-A 77th"]
 [Site "Wijk aan Zee"]
@@ -11550,33 +11322,6 @@
 [BlackTeamCountry "RUS"]
 
 1. d4 Nf6 2. Nf3 d5 3. c4 e6 4. Nc3 Be7 5. Bf4 O-O 6. e3 c5 7. dxc5 Bxc5 8. Qc2 8... Nc6 9. a3 Qa5 10. Rd1 10... Rd8 11. Be2 11... Ne4 12. O-O 12... Nxc3 13. bxc3 h6 14. a4 14... Ne7 15. Ne5 15... Bd6 16. cxd5 Nxd5 17. Bf3 17... Nxf4 18. exf4 Bxe5 19. Rxd8+ Qxd8 20. fxe5 Qc7 21. Rb1 Rb8 22. Qd3 Bd7 23. a5 Bc6 24. Qd6 Qxd6 25. exd6 Bxf3 26. gxf3 Kf8 27. c4 Ke8 28. a6 b6 29. c5 Kd7 30. cxb6 axb6 31. a7 Ra8 32. Rxb6 Rxa7 33. Kg2 e5 34. Rb4 f5 35. Rb6 Ke6 36. d7+ Kxd7 37. Rb5 Ke6 38. Rb6+ Kf7 39. Rb5 Kf6 40. Rb6+ Kg5 41. Rb5 Kf4 42. Rb4+ e4 43. fxe4 fxe4 44. h3 Ra5 45. Rb7 Rg5+ 46. Kf1 Rg6 47. Rb4 Rg5 48. Rb7 Rg6 49. Rb4 1-0
-
-[Event "Wch Rapid"]
-[Site "Almaty"]
-[Date "2022.12.28"]
-[Round "10"]
-[White "Carlsen, Magnus"]
-[Black "Keymer, Vincent"]
-[Result "1-0"]
-[WhiteElo "2834"]
-[BlackElo "2590"]
-[Annotator "Nielsen, Peter Heine"]
-[Variant "chess 960"]
-[SetUp "1"]
-[FEN "nqbnrbkr/pppppppp/8/8/8/8/PPPPPPPP/NQBNRBKR w HEhe - 0 1"]
-[PlyCount "98"]
-[EventDate "2022.12.26"]
-[EventType "swiss "]
-[EventRounds "13"]
-[EventCountry "KAZ"]
-[SourceTitle "Mega2023 Update 08"]
-[Source "Chessbase"]
-[SourceDate "2022.12.30"]
-[SourceVersion "1"]
-[SourceVersionDate "2022.12.30"]
-[SourceQuality "1"]
-
-1. d4 d5 2. Nb3 2... e5 3. dxe5 Rxe5 4. Bf4 4... Re8 5. Nc3 Bb4 6. Bd2 6... Nb6 7. e4 Bxc3 8. Bxc3 8... dxe4 9. Qd1 9... f5 10. Qd4 Ne6 11. Qe5 O-O 12. Nc5 Re7 13. Rd1 13... Rff7 14. Be2 Nf8 15. Qf4 Ng6 16. Qg3 16... f4 17. Rd8+ Rf8 18. Rxf8+ Kxf8 19. Qg5 c6 20. h4 f3 21. gxf3 Nf4 22. Bf1 22... exf3 23. Nd3 Nxd3 24. Bxd3 h6 25. Qg3 Qxg3+ 26. fxg3 Na4 27. Bd2 27... Kg8 28. b3 Nb2 29. Bg6 Nd1 30. O-O Bg4 31. Bd3 f2+ 32. Kg2 b5 33. a4 a6 34. axb5 axb5 35. Bb4 Re5 36. Bd2 Re8 37. Bf4 b4 38. Bd2 38... c5 39. Bf4 Kf7 40. Bd6 Ne3+ 41. Kxf2 Nxf1 42. Bxf1 Rc8 43. Be5 Bf5 44. Bc4+ Kg6 45. Ke3 Bxc2 46. g4 Re8 47. Kf4 Rf8+ 48. Ke3 Re8 49. Kf4 Rd8 1-0
 
 [Event "Julius Baer Rapid Div 1 W"]
 [Site "Chess.com INT"]
@@ -12258,32 +12003,6 @@
 [EventType "game"]
 
 1. e4 c5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bb5 Qc7 5. Bxc6 dxc6 6. e5 Nd5 7. Ne4 7... Bg4 8. O-O 8... e6 9. c4 9... Nb4 10. d4 Rd8 11. Qb3 11... Bxf3 12. gxf3 12... Rxd4 13. Be3 13... Rd3 14. Qa4 Na6 15. Rfd1 Rxd1+ 16. Rxd1 Qxe5 17. Qb3 Qc7 18. Qd3 18... Be7 19. Bf4 Qc8 20. Nd6+ 20... Bxd6 21. Qxd6 f6 22. a3 Rf8 23. b4 cxb4 24. axb4 Rf7 25. b5 25... cxb5 26. cxb5 Nc5 27. Rc1 27... b6 28. Be3 Rc7 29. Kg2 Kf7 30. Rc4 Qd7 31. Qg3 e5 32. Rg4 Kg8 33. Qh4 Ne6 34. Rg3 34... f5 35. Rh3 Nf8 36. Qb4 f4 37. Bd2 Qf7 38. Rh4 Rc4 39. Qb2 Rc5 40. Rg4 Ne6 41. Qb1 h5 42. Rg6 Rxb5 43. Qe4 Rd5 44. Qxd5 Qxg6+ 45. Kf1 Qb1+ 46. Kg2 Qf5 47. Bc3 Kh7 48. h4 Nf8 1/2-1/2
-
-[Event "Speed Chess"]
-[Site "Chess.com INT"]
-[Date "2022.12.13"]
-[Round "2.13"]
-[White "Carlsen, Magnus"]
-[Black "Caruana, Fabiano"]
-[Result "1/2-1/2"]
-[ECO "E05"]
-[WhiteElo "2859"]
-[BlackElo "2766"]
-[SetUp "1"]
-[FEN "5r2/4R3/k1p3bp/3p2p1/3Pp1P1/4P1NP/6P1/6K1 w - - 0 1"]
-[PlyCount "95"]
-[EventDate "2022.11.23"]
-[EventType "k.o. "]
-[EventRounds "4"]
-[EventCountry "USA"]
-[SourceTitle "Mega2023 Update 08"]
-[Source "Chessbase"]
-[SourceDate "2022.12.30"]
-[SourceVersion "1"]
-[SourceVersionDate "2022.12.30"]
-[SourceQuality "1"]
-
-1. Re6 Be8 2. Rxh6 Kb5 3. Rh7 Kc4 4. Ra7 Bg6 5. Ra6 Rf6 6. Ra3 Kb4 7. Ra1 Kc3 8. Rf1 Re6 9. Rf8 Kd2 10. Nf1+ Kd3 11. Kf2 Re7 12. Rg8 Re6 13. Ke1 Rf6 14. Rg7 Re6 15. Ra7 Re8 16. Ra3+ Kc2 17. Ra6 Rc8 18. Ke2 Be8 19. Ra5 Kc3 20. Ng3 Rb8 21. Rc5+ Kb2 22. Nh5 Bxh5 23. gxh5 Rh8 24. g4 Rh6 25. Kf2 Re6 26. Kg3 Rf6 27. h4 Rf3+ 28. Kg2 gxh4 29. h6 Rxe3 30. h7 h3+ 31. Kh2 Re2+ 32. Kxh3 32... Re1 33. Kg2 Re2+ 34. Kg3 Re3+ 35. Kh4 Re1 36. Kg5 Rh1 37. Kg6 Rh4 38. Rxc6 e3 39. Re6 39... Rxg4+ 40. Kh5 Rg1 41. Rxe3 Rh1+ 42. Kg6 Rg1+ 43. Kf7 Rh1 44. Kg8 Rg1+ 45. Kh8 Rg4 46. Re5 Rxd4 47. Kg7 Rg4+ 48. Kh6 1/2-1/2
 
 [Event "Gashimov Memorial-A 1st"]
 [Site "Shamkir"]
@@ -13718,36 +13437,6 @@
 
 1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5 5. Be3 5... Qf6 6. c3 6... Nge7 7. Bc4 7... Ne5 8. Be2 8... Qg6 9. O-O d6 10. f4 10... Qxe4 11. Bf2 11... Bxd4 12. cxd4 12... N5g6 13. g3 13... O-O 14. Nc3 Qf5 15. d5 a6 16. Re1 Kh8 17. Rc1 Bd7 18. Bf3 Rac8 19. Qb3 b5 20. Ne2 Qh3 21. Nd4 Bg4 22. Bg2 Qh5 23. h4 23... Ng8 24. Rc6 24... Nf6 25. Rxa6 Bd7 26. Nxb5 Rb8 27. a4 Ng4 28. Bf3 Qh6 29. Qc4 29... Nxh4 30. Bxg4 Bxg4 31. gxh4 Bf3 32. f5 Qh5 33. Qf4 Bxd5 34. Nxc7 Bb7 35. Rb6 35... f6 36. Bd4 Qf7 37. Ne6 Rg8 38. Kf2 Rbc8 39. Bc3 Bd5 40. a5 Rc4 41. Nd4 Ba8 42. Qxd6 Qh5 43. Qf4 Rcc8 44. Rbe6 1-0
 
-[Event "Global Chess League"]
-[Site "Dubai"]
-[Date "2023.06.23"]
-[Round "2.1"]
-[White "Carlsen, Magnus"]
-[Black "Anand, Viswanathan"]
-[Result "1-0"]
-[WhiteElo "2853"]
-[BlackElo "2754"]
-[Variant "chess 960"]
-[SetUp "1"]
-[FEN "qnrkbrnb/pppppppp/8/8/8/8/PPPPPPPP/QNRKBRNB w FCfc - 0 1"]
-[PlyCount "87"]
-[EventDate "2023.06.22"]
-[EventType "team-tourn "]
-[EventRounds "10"]
-[EventCountry "UAE"]
-[SourceTitle "Mega2023 Update 35"]
-[Source "Chessbase"]
-[SourceDate "2023.07.07"]
-[SourceVersion "1"]
-[SourceVersionDate "2023.07.07"]
-[SourceQuality "1"]
-[WhiteTeam "SG Alpine Warriors"]
-[BlackTeam "Ganges Grandmasters"]
-[WhiteTeamCountry "IND"]
-[BlackTeamCountry "IND"]
-
-1. Nf3 g6 2. g3 c5 3. d3 3... Nc6 4. Bc3 Nf6 5. O-O d6 6. Nbd2 Bd7 7. b3 e5 8. Nc4 8... Qb8 9. a4 O-O 10. e3 Bh3 11. Rfe1 h6 12. Nfd2 Rcd8 13. Rb1 Qc7 14. e4 Nd4 15. Ne3 Be6 16. Ndc4 Nh7 17. Bxd4 cxd4 18. Nd5 Bxd5 19. exd5 f5 20. c3 dxc3 21. Qxc3 Qf7 22. Qd2 f4 23. Be4 Ng5 24. Qe2 Qd7 25. Kh1 Rf6 26. Rg1 Rdf8 27. g4 Nh3 28. f3 Nxg1 29. Rxg1 g5 30. h4 gxh4 31. Qf2 Qg7 32. Qxa7 Qe7 33. Kh2 R6f7 34. Qb6 Rd8 35. Rc1 Bf6 36. Nd2 Rg7 37. Bf5 h5 38. gxh5 e4 39. Nxe4 Bb2 40. Rc2 Ba3 41. h6 Rg3 42. Rc7 Qf8 43. Bh7+ Kh8 44. Qd4+ 1-0
-
 [Event "Leuven GCT rapid"]
 [Site "Leuven"]
 [Date "2017.06.29"]
@@ -14415,27 +14104,6 @@
 [SourceQuality "1"]
 
 1. c4 e5 2. g3 d5 3. cxd5 Qxd5 4. Nf3 Nc6 5. Nc3 Qd8 6. Bg2 Nf6 7. O-O Be7 8. b4 e4 9. Ng5 Bxb4 10. Ngxe4 Nxe4 11. Nxe4 O-O 12. a3 Be7 13. Bb2 13... Re8 14. Rc1 Bf8 15. e3 Bf5 16. Nc5 Rb8 17. d4 Na5 18. e4 18... Bg6 19. f4 19... b6 20. Na6 Bxe4 21. Bxe4 Rxe4 22. Nxb8 Qxb8 23. Re1 23... Rxe1+ 24. Qxe1 Qd8 25. Qc3 c6 26. Qf3 b5 27. d5 cxd5 28. Rd1 28... Nc4 29. Rxd5 Qe7 30. Bd4 Qe1+ 31. Kg2 Qe8 32. Bxa7 Bxa3 33. Bf2 Bf8 34. Qd3 Qa8 35. Kh3 Qc8+ 36. f5 Be7 37. Rxb5 h5 38. Rd5 g5 39. Kg2 Qc6 40. Kg1 Bd6 41. Rd4 Ne5 42. Rxd6 Nf3+ 43. Kh1 1-0
-
-[Event "NIC Classic KO"]
-[Site "chess24.com INT"]
-[Date "2021.05.02"]
-[Round "3.24"]
-[White "Carlsen, Magnus"]
-[Black "Nakamura, Hikaru"]
-[Result "1/2-1/2"]
-[ECO "B27"]
-[WhiteElo "2847"]
-[BlackElo "2736"]
-[Annotator "Collins,Sam"]
-[SetUp "1"]
-[FEN "r2qr1k1/1p2ppbp/pn1n2p1/3P4/5B2/2N2BPP/PP2QP2/2R1R1K1 w - - 0 18"]
-[PlyCount "86"]
-[EventDate "2021.04.27"]
-[EventType "k.o. "]
-[EventRounds "3"]
-[EventCountry "GER"]
-
-18. b3 Rc8 19. Qd2 Nd7 20. Na4 20... Rxc1 21. Qxc1 21... Bd4 22. Qd2 Bg7 23. h4 23... h5 24. Nb2 24... Nb5 25. Re3 Nd4 26. Bg2 e5 27. dxe6 Nxe6 28. Nc4 28... Nxf4 29. Rxe8+ Qxe8 30. Qxf4 b5 31. Ne3 Qe5 32. Qxe5 Bxe5 33. b4 Bd6 34. Bb7 Nb8 35. Nd5 Kf8 36. Kg2 Ke8 37. f3 f5 38. Kf2 38... Kd7 39. Nf4 Kc7 40. Bd5 Bxf4 41. gxf4 Kd6 42. Bf7 Nc6 43. a3 Ne7 44. Ke1 Kd7 45. Kd1 Kd6 46. Kd2 Kd7 47. Kd3 Kd6 48. Kc2 Kd7 49. Kb3 Kd6 50. a4 Nc6 51. axb5 axb5 52. Kc3 52... Ne7 53. Kd2 Nd5 54. Bxg6 Nxb4 55. Bxh5 Nd5 56. Be8 Nxf4 57. Bxb5 Ke5 58. Bf1 Ng6 59. h5 Nh4 60. Ke2 Nxf3 1/2-1/2
 
 [Event "Sinquefield Cup 1st"]
 [Site "Saint Louis"]
@@ -22220,25 +21888,6 @@
 
 1. e4 c5 2. Nf3 e6 3. c3 Nf6 4. e5 Nd5 5. Bc4 Nb6 6. Bb3 d6 7. d4 cxd4 8. cxd4 dxe5 9. Nxe5 Nc6 10. Nxc6 bxc6 11. O-O Be7 12. Nc3 O-O 13. Qf3 13... Ba6 14. Rd1 Nd5 15. Ne4 Qb6 16. Qg3 16... Qb8 17. Bg5 f6 18. Bd2 Qxg3 19. hxg3 Bd3 20. Nc3 20... Rfc8 21. Rac1 Kf7 22. Na4 Bb5 23. Nc5 Bxc5 24. Rxc5 Nb6 25. Re1 Re8 26. Ra1 Red8 27. a4 Bc4 28. Bxc4 Rxd4 29. a5 Rxc4 30. axb6 1/2-1/2
 
-[Event "Riyadh 135/117"]
-[Site "?"]
-[Date "2017.??.??"]
-[Round "?"]
-[White "Carlsen, Magnus"]
-[Black "Karjakin, Sergey"]
-[Result "1-0"]
-[ECO "C48"]
-[WhiteElo "2837"]
-[BlackElo "2760"]
-[Annotator "Jobava,Baadur"]
-[SetUp "1"]
-[FEN "2rr2k1/4qppp/1p2p1n1/pN6/P1RR2n1/1P2P3/5PPP/4QBK1 b - - 0 23"]
-[PlyCount "59"]
-[EventDate "2017.??.??"]
-[EventType "blitz"]
-
-23... Rxc4 24. bxc4 Nf6 25. Qd2 Rb8 26. g3 Ne5 27. Bg2 h6 28. f4 Ned7 29. Na7 Qa3 30. Nc6 Rf8 31. h3 31... Nc5 32. Kh2 Nxa4 33. Rd8 33... g6 34. Qd4 34... Kg7 35. c5 35... Rxd8 36. Nxd8 Nxc5 37. Qd6 Qd3 38. Nxe6+ fxe6 39. Qe7+ Kg8 40. Qxf6 a4 41. e4 Qd7 42. Qxg6+ Qg7 43. Qe8+ Qf8 44. Qc6 44... Qd8 45. f5 a3 46. fxe6 Kg7 47. e7 Qxe7 48. Qxb6 Nd3 49. Qa5 49... Qc5 50. Qa6 Ne5 51. Qe6 51... h5 52. h4 52... a2 1-0
-
 [Event "EU-Cup 38th"]
 [Site "Durres"]
 [Date "2023.10.05"]
@@ -22266,32 +21915,6 @@
 [BlackTeamCountry "CZE"]
 
 1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. Nc3 Bb4 5. e3 5... Bb7 6. Bd3 O-O 7. O-O c5 8. Na4 cxd4 9. exd4 Re8 10. a3 Bf8 11. Bf4 d6 12. Re1 Nbd7 13. Rc1 e5 14. dxe5 Bxf3 15. Qxf3 Nxe5 16. Bxe5 16... dxe5 17. Nc3 g6 18. Be4 18... Nxe4 19. Qxe4 Rc8 20. b4 20... Qd4 21. Qxd4 21... exd4 22. Rxe8 Rxe8 23. Nd5 Re2 24. Kf1 Ra2 25. Rd1 25... Rxa3 26. Rxd4 Ra4 27. Nf6+ Kg7 28. Ne8+ Kg8 29. Nf6+ Kg7 30. Ne8+ Kg8 1-0
-
-[Event " 111/"]
-[Site "Monaco"]
-[Date "2011.??.??"]
-[Round "?"]
-[White "Carlsen, Magnus"]
-[Black "Topalov, Veselin"]
-[Result "*"]
-[ECO "B23"]
-[WhiteElo "2815"]
-[BlackElo "2775"]
-[Annotator "GM Lubomir Kavalek/Huffington Post"]
-[SetUp "1"]
-[FEN "3q2k1/p4p2/2p1r2p/3p2p1/3Pn3/7P/PP2RPPB/3Q2K1 w - - 0 23"]
-[PlyCount "59"]
-[EventDate "2011.??.??"]
-[EventType "game "]
-[EventCountry "MNC"]
-[SourceTitle "CI1-130"]
-[Source "Chess Informant"]
-[SourceDate "2017.02.02"]
-[SourceVersion "1"]
-[SourceVersionDate "2017.02.02"]
-[SourceQuality "2"]
-
-23. f3 Nd6 24. Rxe6 fxe6 25. Qa4 Qd7 26. Qb4 Nc8 27. Qb8 Kf7 28. Be5 Kg8 29. b4 Kf7 30. a4 Ke7 31. a5 Kd8 32. a6 Ke8 33. Kh2 Kf7 34. Qb7 Ke8 35. g4 Ne7 36. Qb8+ Nc8 37. Kg3 Kd8 38. Qb7 Nd6 39. Qxd7+ Kxd7 40. Bxd6 Kxd6 41. f4 Ke7 42. h4 Kf6 43. hxg5+ 43... hxg5 44. fxg5+ Kxg5 45. Kf3 Kg6 46. Kf4 Kf6 47. g5+ Kg6 48. Ke5 Kxg5 49. Kxe6 Kf4 50. Kd6 Ke4 51. Kxc6 Kxd4 52. b5 *
 
 [Event "Carlsen Inv Prelim"]
 [Site "chess24.com INT"]
@@ -22495,26 +22118,6 @@
 [SourceQuality "1"]
 
 1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. h4 h6 7. Nf3 Nd7 8. h5 Bh7 9. Bd3 Bxd3 10. Qxd3 e6 11. Bf4 11... Ngf6 12. O-O-O Be7 13. Ne4 13... Qa5 14. Kb1 O-O 15. Nxf6+ Nxf6 16. Ne5 16... Rad8 17. Qe2 17... c5 18. Ng6 fxg6 19. Qxe6+ Kh8 20. hxg6 20... Ng8 21. Bxh6 gxh6 22. Rxh6+ Nxh6 23. Qxe7 Nf7 24. gxf7 24... Kg7 25. Rd3 25... Rd6 26. Rg3+ 26... Rg6 27. Qe5+ Kxf7 28. Qf5+ Rf6 29. Qd7# 0-1
-
-[Event "Norway sim"]
-[Site "chess.com INT"]
-[Date "2014.12.14"]
-[Round "1"]
-[White "Carlsen, Magnus"]
-[Black "Petersen, Caleb"]
-[Result "1-0"]
-[ECO "A03"]
-[WhiteElo "2862"]
-[Annotator "GM Mihail Marin"]
-[SetUp "1"]
-[FEN "5rk1/2p3pp/p3p2q/PnbpN3/Q3P3/2PP1N1P/1r3PP1/R4RK1 w - - 0 24"]
-[PlyCount "57"]
-[EventDate "2014.12.14"]
-[EventType "rapid"]
-[EventRounds "1"]
-[EventCountry "USA"]
-
-24. Rae1 Nxc3 25. Qc6 Bb4 26. Kh1 dxe4 27. dxe4 Ne2 28. Rb1 Rxb1 29. Rxb1 Bd6 30. Qxa6 30... Nf4 31. Qb5 c5 32. a6 Bxe5 33. Nxe5 Qg5 34. Ng4 h5 35. Ne3 Nxg2 36. Nxg2 Rxf2 37. Rg1 Kh7 38. Qd3 Qe5 39. Qe3 Ra2 40. Qf4 Qc3 41. Ne3 Qf6 42. Qxf6 42... gxf6 43. Rc1 Rxa6 44. Kg2 Ra2+ 45. Rc2 Ra5 46. Kf3 Kg6 47. h4 Rb5 48. Ra2 Rb1 49. Rc2 Rb5 50. Rc3 f5 51. exf5+ exf5 52. Rd3 1-0
 
 [Event "Chessable Masters GpA"]
 [Site "chess24.com INT"]
@@ -23196,25 +22799,6 @@
 
 1. e4 e5 2. Nf3 d6 3. d4 exd4 4. Nxd4 Nf6 5. Nc3 Be7 6. g3 d5 7. e5 Ng4 8. Bg2 c6 9. f4 9... Nh6 10. O-O Qc7 11. f5 Qxe5 12. Bxh6 O-O 13. Bf4 Qf6 14. g4 Bc5 15. Nce2 Nd7 16. Kh1 h6 17. c3 Ne5 18. Ng3 Nc4 19. b3 Nb6 20. Nh5 Qh4 21. Bg3 21... Qg5 22. h4 Qd8 23. Qd2 Bd6 24. Bxd6 Qxd6 25. f6 Bxg4 26. fxg7 Bxh5 27. Nf5 1-0
 
-[Event "?"]
-[Site "Stavanger"]
-[Date "2020.??.??"]
-[Round "?"]
-[White "Carlsen, Magnus"]
-[Black "Tari, Aryan"]
-[Result "1-0"]
-[WhiteElo "2863"]
-[BlackElo "2633"]
-[Annotator "Perunovic.Milos"]
-[SetUp "1"]
-[FEN "8/p7/4N1K1/2n2P1p/8/6k1/P7/8 b - - 0 1"]
-[PlyCount "52"]
-[EventDate "2020.??.??"]
-[EventType "swiss"]
-[EventCountry "NOR"]
-
-1... Nd7 2. Kxh5 Kf3 3. Kg5 Ke4 4. Nc7 a5 5. Nb5 Kd3 6. Kg6 a4 7. Kf7 Ne5+ 8. Kf6 Nf3 9. Ke7 9... Kc2 10. f6 Ng5 11. Nd4+ Kb2 12. Ne6 Nh7 13. f7 Kxa2 14. Ng5 a3 15. Nxh7 Kb1 16. f8=Q a2 17. Qf5+ Kb2 18. Qe5+ Kb1 19. Qe4+ Kb2 20. Qe2+ Kb1 21. Nf6 a1=Q 22. Nd5 Qg7+ 23. Kd6 Qf8+ 24. Ke5 Qe8+ 25. Kd4 Qxe2 26. Nc3+ Ka1 27. Nxe2 1-0
-
 [Event "94/"]
 [Site "Biel"]
 [Date "2005.??.??"]
@@ -23263,27 +22847,6 @@
 [SourceQuality "1"]
 
 1. d4 Nf6 2. c4 e6 3. Nf3 c5 4. Nc3 cxd4 5. Nxd4 Qb6 6. g3 Bc5 7. e3 Nc6 8. Bg2 8... Nxd4 9. exd4 Bxd4 10. O-O O-O 11. Bg5 11... e5 12. c5 Qxc5 13. Bxf6 gxf6 14. Nd5 14... d6 15. Qh5 Kg7 16. Be4 h6 17. Rac1 Bxf2+ 18. Kg2 Qd4 19. Qh4 f5 20. Qf6+ Kg8 21. Ne7+ Kh7 22. Bxf5+ Bxf5 23. Qxf5+ 23... Kg7 24. Rxf2 e4 25. Rc4 25... Qxc4 26. Qf6+ Kh7 27. Nf5 1-0
-
-[Event "Legends of Chess Final"]
-[Site "chess24.com INT"]
-[Date "2020.08.01"]
-[Round "1.21"]
-[White "Carlsen, Magnus"]
-[Black "Svidler, Peter"]
-[Result "1-0"]
-[ECO "B84"]
-[WhiteElo "2863"]
-[BlackElo "2723"]
-[Annotator "Roiz,M"]
-[SetUp "1"]
-[FEN "8/5r2/6k1/7n/7P/8/4RPPK/8 b - - 0 1"]
-[PlyCount "51"]
-[EventDate "2020.07.31"]
-[EventType "k.o. "]
-[EventRounds "2"]
-[EventCountry "GER"]
-
-1... Nf4 2. Rd2 Nh5 3. g3 Nf6 4. Kg2 Rd7 5. Ra2 5... Rd5 6. Ra4 Re5 7. g4 Re4 8. Rxe4 Nxe4 9. Kf3 Nd6 10. Kf4 Nf7 11. Ke4 Kf6 12. f4 Nd6+ 13. Kd5 Nb5 14. h5 Nc3+ 15. Kd4 Nb5+ 16. Kc4 Nd6+ 17. Kc5 Ke6 18. Kc6 18... Nf7 19. Kc7 Nh6 20. g5 Nf7 21. g6 21... Nh6 22. Kd8 Kf5 23. Ke7 Kxf4 24. Kf8 Kg5 25. g7 Kxh5 26. g8=Q Nxg8 1-0
 
 [Event "Bilbao Masters 9th"]
 [Site "Bilbao"]
@@ -23353,59 +22916,6 @@
 [SourceQuality "1"]
 
 1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 Nbd7 7. Qe2 h6 8. Bh4 g6 9. f4 Qc7 10. O-O-O 10... Bg7 11. g4 11... e5 12. fxe5 Nxe5 13. h3 13... Be6 14. Qf2 14... Nfd7 15. Bb5 15... O-O 16. Bxd7 Qxd7 17. Nf5 17... gxf5 18. gxf5 Kh7 19. Rhg1 Bh8 20. Bg3 20... Rac8 21. Bf4 21... Qe7 22. fxe6 22... fxe6 23. Qg3 23... Rg8 24. Qf2 Rgf8 25. Qg3 Rg8 26. Qf2 Rgf8 1-0
-
-[Event "Opera Euro Rapid KO"]
-[Site "chess24.com INT"]
-[Date "2021.02.10"]
-[Round "1.22"]
-[White "Carlsen, Magnus"]
-[Black "Dubov, Daniil"]
-[Result "0-1"]
-[ECO "C55"]
-[WhiteElo "2862"]
-[BlackElo "2710"]
-[Annotator "Edouard,Romain"]
-[SetUp "1"]
-[FEN "3r2k1/1p3pp1/p4qbp/3PR3/2NQ4/7P/PP4P1/6K1 w - - 0 1"]
-[PlyCount "51"]
-[EventDate "2021.02.09"]
-[EventType "k.o. "]
-[EventRounds "3"]
-[EventCountry "GER"]
-[SourceTitle "CBM 201"]
-[Source "ChessBase"]
-[SourceDate "2021.04.30"]
-[SourceVersion "1"]
-[SourceVersionDate "2021.04.30"]
-[SourceQuality "1"]
-
-1. d6 Bf5 2. Nb6 Be6 3. d7 Kh8 4. a4 g6 5. Qc3 Kg7 6. a5 h5 7. h4 Rxd7 8. Nxd7 Bxd7 9. Qd4 Bc6 10. b4 Bb5 11. Kh2 Ba4 12. Rd5 Bc6 13. Qxf6+ Kxf6 14. Rc5 Ke6 15. Kg3 f6 16. Kf2 Bd5 17. g3 g5 18. g4 hxg4 19. h5 Be4 20. Rc7 f5 21. h6 f4 22. h7 g3+ 23. Ke1 f3 24. h8=Q f2+ 25. Ke2 Bd3+ 26. Ke3 0-1
-
-[Event "Speed Chess"]
-[Site "Chess.com INT"]
-[Date "2022.12.07"]
-[Round "1.26"]
-[White "Carlsen, Magnus"]
-[Black "Gukesh, Dommaraju"]
-[Result "1-0"]
-[ECO "A11"]
-[WhiteElo "2859"]
-[BlackElo "2725"]
-[SetUp "1"]
-[FEN "5rk1/2q1bppp/3p1n2/1rp1p1B1/4P3/2PP1N2/2Q2PPP/R3R1K1 w - - 0 20"]
-[PlyCount "51"]
-[EventDate "2022.11.23"]
-[EventType "k.o. "]
-[EventRounds "4"]
-[EventCountry "USA"]
-[SourceTitle "Mega2023 Update 08"]
-[Source "Chessbase"]
-[SourceDate "2022.12.30"]
-[SourceVersion "1"]
-[SourceVersionDate "2022.12.30"]
-[SourceQuality "1"]
-
-20. Bxf6 Bxf6 21. Nd2 Qc6 22. Qa4 Rfb8 23. Nc4 Be7 24. g3 24... Qc8 25. Qd1 g6 26. Kg2 Bf8 27. Qf3 Rb3 28. Rec1 28... Qe6 29. Ra7 R8b7 30. Rxb7 Rxb7 31. Ra1 h5 32. Ra8 Kg7 33. Ne3 Rc7 34. Nd5 Rc8 35. Ra7 Rb8 36. h3 Rd8 37. g4 hxg4 38. hxg4 Rd7 39. Ra8 f6 40. g5 f5 41. Qh3 Rf7 42. Re8 Qxe8 43. Qh6+ Kg8 44. Qxg6+ Kh8 45. Nf6 1-0
 
 [Event "?"]
 [Site "Stavanger"]
@@ -23589,30 +23099,6 @@
 [SourceQuality "1"]
 
 1. g3 Nf6 2. Bg2 d5 3. Nf3 g6 4. b3 Bg7 5. Bb2 O-O 6. c4 c6 7. O-O a5 8. d3 Bg4 9. Nbd2 Nbd7 10. a3 Re8 11. h3 Bxf3 12. Nxf3 e5 13. cxd5 Nxd5 14. Qc2 Qe7 15. e3 Rac8 16. Nd2 b5 17. Rac1 N7b6 18. Ne4 f5 19. Nc5 Qd6 20. e4 Ne7 21. h4 Rf8 22. Rfe1 f4 23. Bh3 Rce8 24. Ne6 Rf7 25. Nxg7 1-0
-
-[Event "chess24.com 148/"]
-[Site "?"]
-[Date "2021.??.??"]
-[Round "?"]
-[White "Carlsen, Magnus"]
-[Black "Artemiev, Vladislav"]
-[Result "*"]
-[ECO "B45"]
-[WhiteElo "2847"]
-[BlackElo "2709"]
-[SetUp "1"]
-[FEN "r5k1/5p2/2p3p1/1p5p/4P2P/Pp1R4/2r2PP1/1R4K1 w - - 0 34"]
-[PlyCount "49"]
-[EventDate "2021.??.??"]
-[EventType "blitz"]
-[SourceTitle "Chess Informant 148"]
-[Source "Chess Informant"]
-[SourceDate "2021.06.26"]
-[SourceVersion "1"]
-[SourceVersionDate "2021.06.26"]
-[SourceQuality "2"]
-
-34. Rbxb3 Ra4 35. Rdc3 35... Rc4 36. Rxc2 Rxc2 37. f3 37... Kf8 38. Kh2 Ke7 39. Kh3 39... Ke6 40. Rd3 Rc4 41. Kg3 Ke5 42. Rd7 Rc3 43. Ra7 43... f6 44. Ra8 Kd6 45. Kf4 Kc7 46. g4 Kb7 47. Rg8 hxg4 48. fxg4 Rxa3 49. Rxg6 b4 50. Rxf6 50... b3 51. Rf7+ Kb6 52. Rf8 Ra7 53. Rb8+ Rb7 54. Rd8 c5 55. Ke3 c4 56. Rd1 c3 57. Rb1 Kc5 58. Kd3 *
 
 [Event "Wch Blitz"]
 [Site "Doha"]
@@ -23959,34 +23445,6 @@
 
 1. d4 Nf6 2. Bf4 d5 3. e3 c5 4. c3 Nc6 5. Nd2 e6 6. Ngf3 Bd6 7. Bg3 7... O-O 8. Bb5 a6 9. Bxc6 9... bxc6 10. Qa4 Rb8 11. Qa3 11... Bxg3 12. hxg3 cxd4 13. cxd4 a5 14. O-O 14... Qb6 15. b3 15... Ba6 16. Rfc1 Nd7 17. Qd6 Qa7 18. Rxc6 Bb5 19. Rc7 Rb7 20. Rac1 a4 21. Rxb7 Qxb7 22. Rc7 Qb8 23. Rxd7 Bxd7 24. Qxd7 1-0
 
-[Event "Biel GM 41st"]
-[Site "Biel"]
-[Date "2008.07.25"]
-[Round "5"]
-[White "Carlsen, Magnus"]
-[Black "Dominguez Perez, Leinier"]
-[Result "1/2-1/2"]
-[ECO "B81"]
-[WhiteElo "2775"]
-[BlackElo "2708"]
-[Annotator "Kuzmin,Alexey"]
-[SetUp "1"]
-[FEN "7k/6p1/3BBpKp/8/7P/6P1/5r2/8 b - - 0 61"]
-[PlyCount "46"]
-[EventDate "2008.07.20"]
-[EventType "tourn"]
-[EventRounds "10"]
-[EventCountry "SUI"]
-[EventCategory "18"]
-[SourceTitle "CBM 126"]
-[Source "ChessBase"]
-[SourceDate "2008.10.01"]
-[SourceVersion "1"]
-[SourceVersionDate "2008.10.01"]
-[SourceQuality "1"]
-
-61... Re2 62. Bg4 62... Re8 63. Bf5 Kg8 64. Bc2 Re3 65. Bb1 Kh8 66. Kf7 Rb3 67. Be4 Re3 68. Bf5 Rc3 69. g4 Rc6 70. Bf8 Rc7+ 71. Kg6 Kg8 72. Bb4 Rb7 73. Bd6 73... Kh8 74. Bf8 Kg8 75. Ba3 75... Kh8 76. Be6 Rb6 77. Kf7 Rb7+ 78. Be7 h5 79. gxh5 f5 80. Bxf5 Rxe7+ 81. Kxe7 Kg8 82. Bd3 Kh8 83. Kf8 g5 84. hxg6 1/2-1/2
-
 [Event "102/"]
 [Site "Baku"]
 [Date "2008.??.??"]
@@ -24049,33 +23507,6 @@
 [SourceQuality "2"]
 
 1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb7 5. Bg2 Bb4+ 6. Bd2 Bxd2+ 7. Qxd2 O-O 8. Nc3 Ne4 9. Qd3 Nxc3 10. Ng5 Ne4 11. Nxe4 Nc6 12. O-O f5 13. Nc3 f4 14. Qd2 Qf6 15. Rad1 Na5 16. Bxb7 Nxb7 17. e3 f3 18. e4 Qg6 19. h4 Nd6 20. Qd3 Rf4 21. Rfe1 Raf8 22. Re3 Nxc4 23. Qxc4 Rxh4 24. Rdd3 Qxg3+ *
-
-[Event "Leon 22nd"]
-[Site "Leon"]
-[Date "2009.06.06"]
-[Round "1.3"]
-[White "Carlsen, Magnus"]
-[Black "Wang, Yue"]
-[Result "1-0"]
-[ECO "E55"]
-[WhiteElo "2770"]
-[BlackElo "2738"]
-[Annotator "ChessBase"]
-[SetUp "1"]
-[FEN "3r4/p4k2/Pp6/1Bpr1pBp/2N4P/2Pn1R2/KP6/5b2 b - - 0 1"]
-[PlyCount "47"]
-[EventDate "2009.06.05"]
-[EventType "k.o. "]
-[EventRounds "2"]
-[EventCountry "ESP"]
-[SourceTitle "CBM 130 Extra"]
-[Source "ChessBase"]
-[SourceDate "2009.07.02"]
-[SourceVersion "2"]
-[SourceVersionDate "2009.07.15"]
-[SourceQuality "1"]
-
-1... Be2 2. Bxd8 2... Bxf3 3. Bxb6 axb6 4. Bc6 Be4 5. a7 Rd8 6. Nd6+ Rxd6 7. Bxe4 7... Rd8 8. a8=Q Rxa8+ 9. Bxa8 Ne5 10. Kb3 f4 11. Kc2 Kg7 12. Kd2 Ng6 13. Kd3 Nxh4 14. Ke4 f3 15. Ke3 Kf6 16. b4 16... c4 17. Bd5 17... Kf5 18. Bxc4 Kg4 19. Kf2 Ng6 20. Be6+ Kf4 21. Bf7 Ne5 22. Bxh5 Nd3+ 23. Kf1 Kg3 24. Bf7 Nf2 1-0
 
 [Event "111/"]
 [Site "Wijk aan Zee"]
@@ -24331,32 +23762,6 @@
 
 1. d4 Nf6 2. c4 e6 3. g3 c5 4. Nf3 cxd4 5. Nxd4 Qc7 6. Nc3 a6 7. Bg2 Qxc4 8. O-O Nc6 9. Nb3 d5 10. Bf4 Be7 11. Rc1 Qb4 12. e4 12... Nxe4 13. Nxe4 dxe4 14. a3 Qb5 15. Bxe4 O-O 16. Qc2 h6 17. Rfd1 e5 18. Be3 Be6 19. Nc5 Bxc5 20. Qxc5 Rfd8 21. Qxb5 axb5 22. Bb6 Rxd1+ 23. Rxd1 1-0
 
-[Event " 106/17"]
-[Site "Nice"]
-[Date "2009.??.??"]
-[Round "?"]
-[White "Carlsen, Magnus"]
-[Black "Topalov, Veselin"]
-[Result "*"]
-[ECO "A33"]
-[WhiteElo "2776"]
-[BlackElo "2796"]
-[Annotator "RR"]
-[SetUp "1"]
-[FEN "4Rb2/6k1/6p1/2p1P3/2Bp1Pp1/3P4/5K2/7r w - - 0 1"]
-[PlyCount "45"]
-[EventDate "2009.??.??"]
-[EventType "game"]
-[EventCountry "FRA"]
-[SourceTitle "CI1-130"]
-[Source "Chess Informant"]
-[SourceDate "2017.02.02"]
-[SourceVersion "1"]
-[SourceVersionDate "2017.02.02"]
-[SourceQuality "2"]
-
-1. Re6 1... Kh6 2. Bd5 Rh2+ 3. Kg3 Rh3+ 4. Kxg4 Rxd3 5. f5 5... Re3 6. Rxg6+ Kh7 7. Bg8+ 7... Kh8 8. Kf4 Rc3 9. f6 d3 10. Ke3 c4 11. Be6 Kh7 12. Bf5 Rc2 13. Rg2+ 13... Kh6 14. Rxc2 dxc2 15. Bxc2 Kg5 16. Kd4 Ba3 17. Kxc4 Bb2 18. Kd5 Kf4 19. f7 Ba3 20. e6 Kg5 21. Kc6 Kf6 22. Kd7 Kg7 23. e7 *
-
 [Event "Shamkir 120/134"]
 [Site "?"]
 [Date "2014.??.??"]
@@ -24448,32 +23853,6 @@
 [SourceQuality "1"]
 
 1. d4 d5 2. Bf4 c5 3. e3 Nc6 4. c3 Nf6 5. Nd2 e6 6. Ngf3 Bd6 7. Bg3 O-O 8. Bb5 Ne7 9. Bd3 b6 10. e4 Bxg3 11. hxg3 dxe4 12. Nxe4 Ng6 13. dxc5 13... Bb7 14. Nxf6+ Qxf6 15. cxb6 e5 16. Bxg6 hxg6 17. Qd7 17... Qxb6 18. Ng5 18... Bxg2 19. O-O-O 19... Rab8 20. b3 Qxf2 21. Qg4 Rfc8 22. Kb1 Rxc3 23. Qb4 Rcc8 1-0
-
-[Event "90/230"]
-[Site "Moscow"]
-[Date "2004.??.??"]
-[Round "?"]
-[White "Carlsen, Magnus"]
-[Black "Rustemov, Alexander"]
-[Result "1/2-1/2"]
-[ECO "C02"]
-[WhiteElo "2484"]
-[BlackElo "2585"]
-[Annotator "Rustemov,Alexander"]
-[SetUp "1"]
-[FEN "4k3/2b2p2/1pr3pp/p4P1P/P2BK1P1/2P5/8/1R6 w - - 0 1"]
-[PlyCount "45"]
-[EventDate "2004.??.??"]
-[EventType "game"]
-[EventCountry "RUS"]
-[SourceTitle "CI1-130"]
-[Source "Chess Informant"]
-[SourceDate "2017.02.02"]
-[SourceVersion "1"]
-[SourceVersionDate "2017.02.02"]
-[SourceQuality "2"]
-
-1. hxg6 1... fxg6 2. Rh1 Kf7 3. Kd5 Rd6+ 4. Kc4 gxf5 5. gxf5 Bd8 6. f6 Bxf6 7. Rxh6 Be7 8. Rxd6 Bxd6 9. Kb5 9... Ke6 10. Bxb6 Kd7 11. c4 Kc8 12. Bxa5 Kb7 13. Bb4 Bf4 14. c5 Ka7 15. c6 Kb8 16. a5 Ka7 17. a6 Ka8 18. Bc5 Bb8 19. Kc4 Bc7 20. Kd5 Bd8 21. Ke6 Bc7 22. Kd7 Ba5 23. Be7 1/2-1/2
 
 [Event "97/"]
 [Site "Biel"]
@@ -24637,27 +24016,6 @@
 [SourceQuality "1"]
 
 1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. a4 b4 9. d4 d6 10. dxe5 dxe5 11. Qxd8 Rxd8 12. Nbd2 Bd6 13. a5 h6 14. Bc4 Re8 15. Nb3 15... Be6 16. Bd3 Red8 17. Bf1 Kf8 18. Nfd2 Nd7 19. Nc4 Nc5 20. Nxc5 Bxc5 21. c3 f6 22. Be3 Bxe3 0-1
-
-[Event "Wch Blitz"]
-[Site "Berlin"]
-[Date "2015.10.13"]
-[Round "2"]
-[White "Carlsen, Magnus"]
-[Black "Akopian, Vladimir"]
-[Result "1-0"]
-[ECO "B51"]
-[WhiteElo "2850"]
-[BlackElo "2648"]
-[Annotator "Dave Smerdon"]
-[SetUp "1"]
-[FEN "5b2/5pk1/1p5p/1P1Q3p/3P4/8/5PP1/3q1BK1 w - - 0 1"]
-[PlyCount "44"]
-[EventDate "2015.10.13"]
-[EventType "swiss "]
-[EventRounds "21"]
-[EventCountry "GER"]
-
-1. Qe5+ Kg8 2. Qf6 Bg7 3. Qxb6 Bxd4 4. Qxh6 Qg4 5. Qd6 Qd1 6. Qd8+ Kh7 7. Qc7 Kg7 8. b6 Qg4 9. b7 Qh4 10. g3 Qf6 11. Qc2 Qe5 12. Qd3 Ba7 13. Qf3 Qf6 14. Qe2 Qc3 15. Kh2 Qd4 16. Qf3 Bb8 17. Kh3 Bc7 18. Be2 Bb8 19. Bd1 19... f5 20. Be2 f4 21. Qxh5 21... Qxf2 22. Qg5+ Kf7 1-0
 
 [Event "chess24.com 151/"]
 [Site "?"]
@@ -25059,33 +24417,6 @@
 
 1. Nf3 d5 2. d4 Nf6 3. c4 c6 4. Nc3 e6 5. g3 dxc4 6. Bg2 Nbd7 7. O-O b5 8. Bg5 Bb7 9. a4 a6 10. Ne5 Qb6 11. b3 11... Rd8 12. a5 Qc7 13. Nxd7 Rxd7 14. Bxf6 gxf6 15. bxc4 f5 16. e3 Bb4 17. Qb3 Bxa5 18. Ne2 O-O 19. cxb5 axb5 20. Rfc1 0-1
 
-[Event "MrDodgy Online Inv Gp-A 3rd"]
-[Site "Chess.com INT"]
-[Date "2022.11.25"]
-[Round "14"]
-[White "Carlsen, Magnus"]
-[Black "Salgado Lopez, Ivan"]
-[Result "1-0"]
-[ECO "C00"]
-[WhiteElo "2859"]
-[BlackElo "2591"]
-[SetUp "1"]
-[FEN "7k/2R5/4R3/6r1/p7/2P5/2r2P2/5K2 w - - 0 1"]
-[PlyCount "39"]
-[EventDate "2022.11.25"]
-[EventType "tourn "]
-[EventRounds "15"]
-[EventCountry "GER"]
-[EventCategory "15"]
-[SourceTitle "Mega2023 Update 04"]
-[Source "Chessbase"]
-[SourceDate "2022.12.03"]
-[SourceVersion "1"]
-[SourceVersionDate "2022.12.03"]
-[SourceQuality "1"]
-
-1. Ra6 Rg4 2. c4 Rg7 3. Rxg7 Kxg7 4. Rxa4 Kf6 5. Kg2 Ke5 6. Ra5+ Ke6 7. Rc5 Kd6 8. Rd5+ Ke6 9. Rd4 Ke5 10. Rh4 Rc3 11. c5 Kf5 12. Rh8 Kf4 13. Rc8 Ke5 14. c6 Kd6 15. f3 Rc5 16. Kg3 Rg5+ 17. Kh4 Rg1 18. f4 Ke7 19. c7 Rc1 20. Kg5 1-0
-
 [Event "?"]
 [Site "Морелия/Линарес"]
 [Date "2007.02.24"]
@@ -25263,31 +24594,6 @@
 [SourceQuality "1"]
 
 1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. Nf3 dxe5 5. Nxe5 c6 6. Be2 6... Bf5 7. O-O Nd7 8. Nf3 e6 9. c4 Nb4 10. a3 Nc2 11. Ra2 Nxd4 12. Qxd4 c5 13. Qc3 Bxb1 14. Bg5 f6 15. Rxb1 fxg5 16. Qe3 Be7 17. Rd1 17... Bf6 18. b4 Qe7 19. Rad2 Nf8 20. Rd6 1-0
-
-[Event " 111/"]
-[Site "Monaco"]
-[Date "2011.??.??"]
-[Round "?"]
-[White "Carlsen, Magnus"]
-[Black "Karjakin, Sergey"]
-[Result "*"]
-[ECO "C88"]
-[WhiteElo "2815"]
-[BlackElo "2776"]
-[SetUp "1"]
-[FEN "3r2k1/3n3p/4r1p1/1p1bpp2/4Nn2/2P2N1P/1PB2PP1/3RR1K1 w - - 0 30"]
-[PlyCount "39"]
-[EventDate "2011.??.??"]
-[EventType "game "]
-[EventCountry "MNC"]
-[SourceTitle "CI1-130"]
-[Source "Chess Informant"]
-[SourceDate "2017.02.02"]
-[SourceVersion "1"]
-[SourceVersionDate "2017.02.02"]
-[SourceQuality "2"]
-
-30. Nfg5 30... Re7 31. g3 Bxe4 32. Bxe4 fxe4 33. gxf4 Rf8 34. Nxe4 Rxf4 35. b4 35... Nf6 36. Nd6 Rf3 37. Nxb5 Rxh3 38. c4 Rh4 39. Nd6 Nh5 40. b5 Nf4 41. b6 Rg4+ 42. Kf1 Rh4 43. f3 Rh1+ 44. Kf2 Rh2+ 45. Kg1 45... Rc2 46. Kh1 46... Nh3 47. Ne4 Rxc4 48. Rd8+ Kg7 49. Rb1 *
 
 [Event "chess24.com 152/"]
 [Site "?"]
@@ -25720,25 +25026,6 @@
 
 1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 O-O 5. Nc3 Nc6 6. e3 d6 7. Nge2 e5 8. O-O 8... exd4 9. exd4 9... Re8 10. h3 Ne7 11. Re1 c6 12. Bf4 d5 13. c5 13... Nf5 14. Qd3 h5 15. Be5 Rxe5 16. dxe5 Nd7 17. f4 Nxc5 *
 
-[Event "NB 9/c"]
-[Site "Wijk aan Zee"]
-[Date "2019.??.??"]
-[Round "?"]
-[White "Carlsen, Magnus"]
-[Black "Kramnik, Vladimir"]
-[Result "1/2-1/2"]
-[WhiteElo "2835"]
-[BlackElo "2777"]
-[Annotator "Cvetkovic,Srdjan"]
-[SetUp "1"]
-[FEN "4r1k1/2prqp2/1pRb1npp/pP1p4/P2P1N1P/4PQP1/3N1P2/2R3K1 w - - 0 1"]
-[PlyCount "33"]
-[EventDate "2019.??.??"]
-[EventType "game"]
-[EventCountry "NED"]
-
-1. h5 1... Kg7 2. hxg6 fxg6 3. Nxd5 Nxd5 4. Qxd5 Bxg3 5. Qg2 Bd6 6. Nc4 Rf8 7. Ne5 Bxe5 8. Qxg6+ Kh8 9. Qxh6+ Kg8 10. dxe5 Qxe5 11. Rg6+ Kf7 12. Rc4 Qa1+ 13. Kg2 Rh8 14. Rf4+ Ke8 15. Re6+ Re7 16. Rxe7+ Kxe7 17. Re4+ 1/2-1/2
-
 [Event "chess24.com 154/"]
 [Site "?"]
 [Date "2022.??.??"]
@@ -25928,31 +25215,6 @@
 
 1. Nf3 d5 2. g3 g6 3. Bg2 Bg7 4. d4 4... c6 5. O-O Nf6 6. b3 6... O-O 7. Bb2 Bf5 8. c4 Nbd7 9. Nc3 9... dxc4 10. bxc4 Nb6 11. c5 11... Nc4 12. Bc1 12... Nd5 13. Qb3 13... Na5 14. Qa3 14... Nc4 15. Qb3 Na5 16. Qa3 Nc4 *
 
-[Event "Internet 96/"]
-[Site "?"]
-[Date "2006.??.??"]
-[Round "?"]
-[White "Carlsen, Magnus"]
-[Black "Doettling, Fabian"]
-[Result "*"]
-[ECO "B12"]
-[WhiteElo "2625"]
-[BlackElo "2542"]
-[Annotator "Bologan,Viktor"]
-[SetUp "1"]
-[FEN "2k5/1p3r2/p1p1b2p/P1PpPqp1/3Q4/4BP1P/5RPK/8 b - - 0 37"]
-[PlyCount "29"]
-[EventDate "2006.??.??"]
-[EventType "blitz"]
-[SourceTitle "CI1-130"]
-[Source "Chess Informant"]
-[SourceDate "2017.02.02"]
-[SourceVersion "1"]
-[SourceVersionDate "2017.02.02"]
-[SourceQuality "2"]
-
-37... Qg6 38. g4 h5 39. Qd2 Rg7 40. Kg3 Rg8 41. Kg2 41... hxg4 42. hxg4 42... d4 43. Qxd4 43... Bd5 44. e6 Qxe6 45. Kg3 Qe7 46. Rh2 Qf7 47. f4 gxf4+ 48. Qxf4 Qe7 49. Rh5 Rf8 50. Rh7 Rxf4 51. Rxe7 Re4 *
-
 [Event "chess24.com "]
 [Site "?"]
 [Date "2021.??.??"]
@@ -25976,30 +25238,6 @@
 
 1. e4 c5 2. Nf3 Nc6 3. Nc3 e5 4. Bc4 Be7 5. d3 Nf6 6. Ng5 O-O 7. f4 d5 8. exd5 Nd4 9. O-O Bg4 10. Qe1 exf4 11. Bxf4 h6 12. d6 Bxd6 13. Bxd6 Qxd6 14. Nxf7 Rxf7 15. Ne4 Qc6 1/2-1/2
 
-[Event "Krasnaya Polyana 149/29"]
-[Site "?"]
-[Date "2021.??.??"]
-[Round "?"]
-[White "Carlsen, Magnus"]
-[Black "Fedoseev, Vladimir"]
-[Result "1-0"]
-[WhiteElo "2847"]
-[BlackElo "2696"]
-[Annotator "Ivanisevic,Ivan"]
-[SetUp "1"]
-[FEN "3r2k1/1b3p2/1q5p/2RPp2p/1p4P1/4Q3/1P3PB1/6K1 w - - 0 1"]
-[PlyCount "29"]
-[EventDate "2021.??.??"]
-[EventType "game"]
-[SourceTitle "Chess Informant 151"]
-[Source "Chess Informant"]
-[SourceDate "2022.04.05"]
-[SourceVersion "1"]
-[SourceVersionDate "2022.04.05"]
-[SourceQuality "2"]
-
-1. Rc8 1... Qd6 2. Rxd8+ Qxd8 3. Qxh6 Bxd5 4. Qd2 hxg4 5. Qxd5 Qxd5 6. Bxd5 Kg7 7. Kg2 f5 8. Kg3 Kf6 9. Kh4 e4 10. Bc6 Ke5 11. Kg3 Kd4 12. Kf4 Kd3 13. Kxf5 e3 14. fxe3 Kxe3 15. b3 1-0
-
 [Event "chess24.com 146/"]
 [Site "?"]
 [Date "2020.??.??"]
@@ -26016,45 +25254,6 @@
 [EventType "blitz"]
 
 1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Nc3 b5 6. Bd3 Qb6 7. Nf3 Nc6 8. O-O Qb8 9. Re1 Nge7 10. e5 Bb7 11. Be4 Qc7 12. Bf4 12... f5 13. exf6 Qxf4 14. fxe7 Bxe7 15. Qd3 O-O-O *
-
-[Event "chess.com 146/"]
-[Site "?"]
-[Date "2020.??.??"]
-[Round "?"]
-[White "Carlsen, Magnus"]
-[Black "Maghsoodloo, Parham"]
-[Result "*"]
-[ECO "C11"]
-[WhiteElo "2862"]
-[BlackElo "2676"]
-[SetUp "1"]
-[FEN "8/1P1N4/P1k5/1p3K2/8/6b1/8/8 w - - 0 1"]
-[PlyCount "27"]
-[EventDate "2020.??.??"]
-[EventType "blitz"]
-
-1. Ne5+ 1... Kc7 2. Ke4 b4 3. Nd7 Kc6 4. Kd3 4... Bc7 5. Kc4 Bd6 6. Kb3 Bc7 7. Kxb4 Bd6+ 8. Kc4 Bc7 9. Kd3 Bd6 10. Ke4 Bc7 11. Kf5 Bd6 12. Ne5+ Kc7 13. Ke6 Bc5 14. Nc6 *
-
-[Event "73rd Tata Steel"]
-[Site "Wijk aan Zee NED"]
-[Date "2011.01.23"]
-[Round "8"]
-[White "Carlsen, Magnus"]
-[Black "Nakamura, Hikaru"]
-[Result "1-0"]
-[ECO "B92"]
-[WhiteElo "2814"]
-[BlackElo "2751"]
-[Annotator "GM Lubomir Kavalek/Huffington Post"]
-[SetUp "1"]
-[FEN "2r3k1/1b6/1q1p2B1/1r1Pp3/4Qn2/4RN1P/5PP1/4R1K1 b - - 0 1"]
-[PlyCount "26"]
-[EventDate "2011.01.14"]
-[EventType "swiss"]
-[EventRounds "12"]
-[EventCountry "NED"]
-
-1... Rf8 2. Nxe5 2... dxe5 3. Rg3 Rxd5 4. Qb1 Qxb1 5. Bxb1+ Kh8 6. Be4 Rd7 7. Bxb7 Rxb7 8. Rxe5 Rh7 9. Re4 Rhf7 10. Kh2 Kh7 11. Rf3 Kg6 12. h4 12... Nh5 13. Rxf7 Rxf7 14. Re2 1-0
 
 [Event "113/111"]
 [Site "London"]
@@ -26079,29 +25278,6 @@
 [SourceQuality "2"]
 
 1. e4 e6 2. Nc3 d5 3. d4 Nf6 4. e5 Nfd7 5. Nce2 c5 6. c3 Nc6 7. Nf3 Be7 8. a3 a5 9. h4 9... b5 10. Nf4 Ba6 11. Bd3 Qb6 12. Be3 *
-
-[Event "?"]
-[Site "Bilbao"]
-[Date "2016.??.??"]
-[Round "?"]
-[White "Carlsen, Magnus"]
-[Black "So, Wesley"]
-[Result "1-0"]
-[WhiteElo "2855"]
-[BlackElo "2770"]
-[Annotator "Kapnisis,Spyridon"]
-[SetUp "1"]
-[FEN "1r4k1/1r3pp1/3pbn1p/6q1/3PPR2/6NP/3Q2PK/3B1R2 w - - 0 30"]
-[PlyCount "23"]
-[EventDate "2016.??.??"]
-[EventType "simul"]
-[EventRounds "4"]
-[EventCountry "ESP"]
-[SourceTitle "Bilbao by Spyros Kapnisi"]
-[Source "Chess Informant"]
-[SourceDate "2016.08.22"]
-
-30. h4 Qg6 31. Rxf6 gxf6 32. Qf4 Rb2 33. Bh5 Qg7 34. Bf3 Ra8 35. d5 Bc8 36. Nh5 Qf8 37. Nxf6+ Kh8 38. Rc1 Kg7 39. e5 dxe5 40. Nh5+ Kh7 41. Be4+ 1-0
 
 [Event "World-ch Carlsen-Caruana"]
 [Site "London"]
@@ -29264,29 +28440,6 @@
 
 1. c4 e5 2. Nc3 2... Nf6 3. Nf3 Nc6 4. g3 d5 5. cxd5 Nxd5 6. Bg2 Nb6 7. O-O Be7 8. a3 8... a5 9. d3 O-O 10. Be3 Be6 11. Rc1 11... a4 12. Nd2 12... f5 13. Bxb6 cxb6 14. Nxa4 14... Bg5 15. Nc3 e4 16. Kh1 16... Qd7 17. Rb1 17... Rad8 18. Nc4 18... Qf7 19. b3 19... exd3 20. exd3 f4 21. Ne4 21... Be7 22. gxf4 Qxf4 23. a4 Nb4 24. Qe2 Qh6 25. Rbd1 25... Nd5 26. Rg1 Kh8 27. Bf1 27... Rf4 28. Ne5 28... Rdf8 29. f3 Rh4 30. d4 Nf4 31. Qd2 Bxb3 32. Rb1 32... Bxa4 33. Bb5 33... Bxb5 34. Rxb5 Qe6 35. Qb2 35... Bd8 36. Ng5 36... Qe8 37. Rb3 37... Bxg5 38. Rxg5 Ne6 39. Rg4 39... Rxg4 40. fxg4 40... Qd8 41. Rh3 41... Qd5+ 42. Kg1 Qe4 43. Qb4 Rf6 0-1
 
-[Event "?"]
-[Site "Bilbao"]
-[Date "2016.??.??"]
-[Round "?"]
-[White "Giri, Anish"]
-[Black "Carlsen, Magnus"]
-[Result "1/2-1/2"]
-[WhiteElo "2785"]
-[BlackElo "2855"]
-[Annotator "Kapnisis,Spyridon"]
-[SetUp "1"]
-[FEN "6k1/4qpp1/p1p2np1/1p2b3/8/1PN1P1PP/PB3P2/3Q2K1 b - - 0 22"]
-[PlyCount "80"]
-[EventDate "2016.??.??"]
-[EventType "simul"]
-[EventRounds "4"]
-[EventCountry "ESP"]
-[SourceTitle "Bilbao by Spyros Kapnisi"]
-[Source "Chess Informant"]
-[SourceDate "2016.08.22"]
-
-22... c5 23. Qd3 Kh7 24. Nd1 Bxb2 25. Nxb2 Qe6 26. g4 26... Qc6 27. Qe2 Ne4 28. Qc2 28... Ng5 29. f4 Ne6 30. Qg2 Qd6 31. Qe2 Qd5 32. Qg2 Qd6 33. h4 33... Nc7 34. h5 gxh5 35. gxh5 Qe7 36. Qf3 36... Qd7 37. Nd1 Qd5 38. Qe2 Qf5 39. Nf2 Nd5 40. Kg2 c4 41. bxc4 bxc4 42. Kg3 c3 43. Qxa6 c2 44. Qd3 Ne7 45. Qc4 Qxh5 46. Qxc2+ Nf5+ 47. Kg2 Qg6+ 48. Kh2 Qg3+ 49. Kh1 g6 50. Qe2 Nxe3 51. Ne4 51... Qxf4 52. Qh2+ Qxh2+ 53. Kxh2 Nc4 54. Kg3 Kg7 55. a4 f5 56. Ng5 Kf6 57. Kh4 Na5 58. Nh7+ Kg7 59. Ng5 Nc6 60. Ne6+ Kf6 61. Ng5 Ke5 62. Nh3 1/2-1/2
-
 [Event "Chessable Masters Final"]
 [Site "chess24.com INT"]
 [Date "2020.07.04"]
@@ -30228,24 +29381,6 @@
 [SourceQuality "2"]
 
 1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. Nc3 Nxc3 6. dxc3 Be7 7. Bf4 Nc6 8. Qd2 O-O 9. O-O-O Bf5 10. Rg1 10... Qd7 11. h3 Rae8 12. Kb1 12... Bf6 13. g4 Be4 14. Rg3 Bxf3 15. Rxf3 Ne5 16. Re3 Qa4 17. Qd4 Qxd4 18. cxd4 Ng6 19. Rxe8 Rxe8 20. Bc1 *
-
-[Event "Kolkata "]
-[Site "?"]
-[Date "2019.??.??"]
-[Round "?"]
-[White "Harikrishna, Penteala"]
-[Black "Carlsen, Magnus"]
-[Result "*"]
-[WhiteElo "2731"]
-[BlackElo "2870"]
-[Annotator "Delchev,Aleksander"]
-[SetUp "1"]
-[FEN "2r1r1k1/1b1q1ppp/p2b1n2/2pp4/P7/2N1PB2/1PQ2PPP/2RRB1K1 b - - 0 18"]
-[PlyCount "23"]
-[EventDate "2019.??.??"]
-[EventType "blitz"]
-
-18... d4 19. Bxb7 Qxb7 20. exd4 Qb8 21. d5 21... Bxh2+ 22. Kf1 Be5 23. Rd3 Bd4 24. Rcd1 h6 25. Rg3 Rcd8 26. Bd2 Kh8 27. Bc1 Qe5 28. Qd2 Bxc3 29. Rxc3 Ne4 *
 
 [Event "Sigeman & Co 12th"]
 [Site "Malmo/Copenhagen"]
@@ -32636,30 +31771,6 @@
 
 1. Nf3 Nf6 2. c4 e6 3. Nc3 d5 4. d4 dxc4 5. e4 Bb4 6. Bg5 b5 7. a4 c6 8. e5 h6 9. exf6 hxg5 10. fxg7 Rg8 11. g3 Bb7 12. Bg2 c5 13. O-O g4 14. axb5 14... gxf3 15. Bxf3 Bxf3 16. Qxf3 Nd7 17. dxc5 Bxc3 18. bxc3 Nxc5 19. Rfd1 19... Qc8 20. Rd6 Qb7 21. Qh5 Rc8 22. Rc6 Nd3 23. Rxc8+ 23... Qxc8 24. Rxa7 1-0
 
-[Event "NB 3/c chess24.com "]
-[Site "?"]
-[Date "2020.??.??"]
-[Round "?"]
-[White "Kramnik, Vladimir"]
-[Black "Carlsen, Magnus"]
-[Result "1/2-1/2"]
-[WhiteElo "2753"]
-[BlackElo "2863"]
-[Annotator "Arsovic,Goran"]
-[SetUp "1"]
-[FEN "8/5k2/5bp1/7p/4N3/7K/8/8 w - - 0 1"]
-[PlyCount "34"]
-[EventDate "2020.??.??"]
-[EventType "rapid"]
-[SourceTitle "Chess Informant 145"]
-[Source "Chess Informant"]
-[SourceDate "2020.09.25"]
-[SourceVersion "1"]
-[SourceVersionDate "2020.09.25"]
-[SourceQuality "2"]
-
-1. Ng3 h4 2. Ne4 Ke6 3. Kg4 Ke5 4. Nf2 4... Kd4 5. Kf3 Be5 6. Nh3 6... Bg3 7. Ng5 Ke5 8. Kg4 Bf2 9. Nh7 Ke4 10. Nf8 g5 11. Ne6 Be3 12. Nxg5+ Bxg5 13. Kh3 Kf3 14. Kh2 Bf4+ 15. Kh1 h3 16. Kg1 h2+ 17. Kh1 Kg3 1/2-1/2
-
 [Event "Gausdal Classics GM"]
 [Site "Gausdal"]
 [Date "2007.04.25"]
@@ -34549,25 +33660,6 @@
 
 1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. d3 b5 6. Bb3 Be7 7. a4 Rb8 8. axb5 axb5 9. Nc3 O-O 10. Nd5 Nxd5 11. exd5 Nd4 12. Nxd4 exd4 13. O-O d6 14. Bd2 Bd7 15. Ra5 15... Rb7 16. Re1 Bg5 17. Re4 Bf6 18. Qa1 Bf5 19. Re1 Be5 20. h3 Qh4 21. Qd1 Bd7 22. Qf3 Re8 23. Re4 Qd8 24. Qd1 h6 25. f4 Bf6 26. Rxe8+ Qxe8 27. Qe1 *
 
-[Event "3rd GRENKE Chess Classic"]
-[Site "Baden-Baden GER"]
-[Date "2015.02.04"]
-[Round "3.3"]
-[White "Naiditsch, Arkadij"]
-[Black "Carlsen, Magnus"]
-[Result "1-0"]
-[ECO "B06"]
-[WhiteElo "2706"]
-[BlackElo "2865"]
-[Annotator "Arkadij Naiditsch"]
-[SetUp "1"]
-[FEN "8/4b1k1/3p2p1/pB3p2/P4r1p/5N2/5PK1/1R6 w - - 0 41"]
-[PlyCount "41"]
-[EventDate "2015.02.02"]
-[EventCountry "GER"]
-
-41. Rd1 Rg4+ 42. Kf1 42... h3 43. Rd3 Bf6 44. Nh2 44... Rh4 45. Kg1 Bd4 46. Rf3 Kf6 47. Nf1 Be5 48. Ne3 Kg5 49. Kh1 49... Kf6 50. Nc4 g5 51. Nxa5 g4 52. Rd3 f4 53. Nc4 Rh7 54. Nxe5 dxe5 55. a5 Rc7 56. Ra3 Rc1+ 57. Kh2 Rc2 58. a6 Rxf2+ 59. Kh1 g3 60. a7 Rd2 61. Ra1 1-0
-
 [Event "97/"]
 [Site "Sarajevo"]
 [Date "2006.??.??"]
@@ -35145,60 +34237,6 @@
 
 1. c4 e5 2. Nc3 Nf6 3. g3 Bb4 4. Bg2 O-O 5. e4 Bxc3 6. bxc3 c6 7. Ne2 d5 8. cxd5 cxd5 9. exd5 Nxd5 10. O-O Nc6 11. Rb1 Nb6 12. d4 Bf5 13. Rb3 13... Be6 14. d5 14... Bxd5 15. Bxd5 Nxd5 16. Ba3 Re8 17. Rxb7 Qc8 18. Rb5 Nb6 19. Rc5 Qe6 20. Qb3 Rad8 21. Qxe6 Rxe6 22. Bc1 f6 23. Be3 Rd7 24. Rb1 Kf7 25. Rcb5 Nc4 26. Bc5 Nd8 27. R1b4 Nd2 28. Kg2 Rc6 29. Be3 Nc4 30. Rb8 Ne6 31. Bc1 Rcc7 32. Ra8 Rd1 33. Ra4 a5 34. Be3 Nxe3+ 35. fxe3 Rd2 36. Kf1 Rb7 37. Ke1 Rbb2 38. Ra7+ Kg6 39. Nc1 Rxh2 40. Rh4 Rhg2 41. Rh1 Rxg3 42. Rxa5 Rxe3+ 43. Kd1 Rxc3 44. Ra4 Nf4 45. Ra7 Ng2 46. Rg1 Kf5 0-1
 
-[Event "Baerum Fischer Random Rapid "]
-[Site "Batumi"]
-[Date "2018.02.12"]
-[Round "7"]
-[White "Nakamura, Hikaru"]
-[Black "Carlsen, Magnus"]
-[Result "0-1"]
-[WhiteElo "2781"]
-[BlackElo "2843"]
-[Annotator "Fernandez,Daniel Howard"]
-[Variant "chess 960"]
-[SetUp "1"]
-[FEN "rnknqbbr/pppppppp/8/8/8/8/PPPPPPPP/RNKNQBBR w HAha - 0 1"]
-[PlyCount "92"]
-[EventDate "2018.02.09"]
-[EventType "match "]
-[EventRounds "8"]
-[EventCountry "RUS"]
-[SourceTitle "CBM 184"]
-[Source "ChessBase"]
-[SourceDate "2018.05.16"]
-[SourceVersion "1"]
-[SourceVersionDate "2018.05.16"]
-[SourceQuality "1"]
-
-1. f4 f6 2. e4 e5 3. fxe5 fxe5 4. Nbc3 Ne6 5. Nd5 5... c6 6. N5e3 d6 7. g3 Nd7 8. Bh3 O-O-O 9. d3 Kb8 10. Qf2 Ndc5 11. Nc3 Nd4 12. Ne2 12... Nxe2+ 13. Qxe2 d5 14. exd5 cxd5 15. Ng4 15... d4 16. Bg2 Bd6 17. h3 Rc8 18. Bf2 18... h5 19. Nh2 e4 20. O-O 20... e3 21. Be1 Ne6 22. Nf3 g5 23. c3 g4 24. Nxd4 24... Nxd4 25. cxd4 gxh3 26. Be4 h4 27. Qxe3 Bh7 28. Rf3 28... Qh5 29. Bf2 Rhf8 30. Rxf8 Rxf8 31. Bxh7 Qxh7 32. g4 h2+ 33. Kh1 Qg8 34. Bxh4 34... Qxg4 35. Bf2 Qg8 36. Bh4 Qd5+ 37. Qe4 Qf7 38. Qg2 Qf4 39. Bg5 Qxd4 40. Bh6 Re8 41. Rd1 Qxd3 42. Rf1 Ka8 43. Rc1 Bb8 44. Qd2 Qe4+ 45. Qg2 Qe1+ 46. Qf1 Qe6 0-1
-
-[Event "Fischer Random Rapid "]
-[Site "Batumi"]
-[Date "2018.02.10"]
-[Round "3"]
-[White "Nakamura, Hikaru"]
-[Black "Carlsen, Magnus"]
-[Result "1/2-1/2"]
-[WhiteElo "2781"]
-[BlackElo "2843"]
-[Annotator "Fernandez,D"]
-[Variant "chess 960"]
-[SetUp "1"]
-[FEN "rbqnnkbr/pppppppp/8/8/8/8/PPPPPPPP/RBQNNKBR w HAha - 0 1"]
-[PlyCount "87"]
-[EventDate "2018.02.09"]
-[EventType "match "]
-[EventRounds "8"]
-[EventCountry "RUS"]
-[SourceTitle "CBM 184"]
-[Source "ChessBase"]
-[SourceDate "2018.05.16"]
-[SourceVersion "1"]
-[SourceVersionDate "2018.05.16"]
-[SourceQuality "1"]
-
-1. f3 c6 2. c4 e5 3. d4 d6 4. Bd3 Ne6 5. e3 Nf6 6. Qc3 exd4 7. exd4 h5 8. Be3 Bh7 9. d5 9... cxd5 10. cxd5 Qxc3 11. Nxc3 Nc5 12. Bxh7 Rxh7 13. Rc1 13... a6 14. Bg5 h4 15. Bxf6 gxf6 16. Ne4 Kg7 17. Nxc5 17... dxc5 18. Rxc5 Ba7 19. Rc3 Rh5 20. Rd3 Re5 21. f4 Re4 22. Nf3 Rc8 23. Rc3 Rce8 24. Rc2 Rxf4 25. d6 25... Rd8 26. Rd2 Re4 27. d7 f5 28. g3 hxg3 29. hxg3 Re7 30. Rdh2 Rexd7 31. Rh7+ Kf6 32. Kg2 32... Be3 33. Rf1 Rg8 34. Kh3 Rd5 35. Nh4 Rg5 36. g4 f4 37. Ng2 Rd3 38. Kh4 Rg7 39. g5+ Rxg5 40. Nxe3 Rxe3 41. Rxf4+ Kg6 42. Rhxf7 Rh5+ 43. Kg4 Rg5+ 44. Kh4 1/2-1/2
-
 [Event "Chess.com Speed Chess"]
 [Site "Chess.com INT"]
 [Date "2023.09.22"]
@@ -35272,33 +34310,6 @@
 [SourceQuality "1"]
 
 1. e4 c5 2. Nf3 e6 3. c3 Nf6 4. Bd3 d5 5. e5 Nfd7 6. Bc2 c4 7. O-O Nc6 8. Re1 Qc7 9. Qe2 g5 10. d4 cxd3 11. Bxd3 g4 12. Nd4 Qxe5 13. Qd1 Qf6 14. Be3 h5 15. Bb5 e5 16. c4 a6 17. Nc3 axb5 18. Nxd5 Qg6 19. Nxb5 Rb8 20. Ndc7+ Kd8 21. Bb6 Bb4 22. Re3 Ke7 23. Nd5+ Kf8 24. Bc7 Bc5 25. Re2 Ra8 26. Qd2 Kg7 27. b4 Bd4 28. Nxd4 exd4 29. b5 d3 30. Re3 Nd8 31. Ne7 Qg5 32. f4 gxf3 33. Bg3 Ne6 34. Nd5 h4 35. Qc3+ Nf6 36. Rxf3 hxg3 37. Rxg3 Rh6 38. Rf1 Qxg3 39. hxg3 d2 40. Nxf6 d1=Q 41. Rxd1 Rxf6 42. Rf1 1-0
-
-[Event "Baerum Fischer Random Rapid "]
-[Site "Batumi"]
-[Date "2018.02.09"]
-[Round "2"]
-[White "Nakamura, Hikaru"]
-[Black "Carlsen, Magnus"]
-[Result "1/2-1/2"]
-[WhiteElo "2781"]
-[BlackElo "2843"]
-[Annotator "Fernandez,Daniel Howard"]
-[Variant "chess 960"]
-[SetUp "1"]
-[FEN "nnqrbbkr/pppppppp/8/8/8/8/PPPPPPPP/NNQRBBKR w HDhd - 0 1"]
-[PlyCount "83"]
-[EventDate "2018.02.09"]
-[EventType "match "]
-[EventRounds "8"]
-[EventCountry "RUS"]
-[SourceTitle "CBM 184"]
-[Source "ChessBase"]
-[SourceDate "2018.05.16"]
-[SourceVersion "1"]
-[SourceVersionDate "2018.05.16"]
-[SourceQuality "1"]
-
-1. e4 c5 2. d4 cxd4 3. Rxd4 d6 4. c4 b5 5. Nb3 Nc6 6. Rd1 bxc4 7. Bxc4 Nb6 8. Be2 g6 9. Bc3 f6 10. h4 h5 11. Rh3 Bf7 12. Rg3 12... Ne5 13. Bxe5 dxe5 14. Rc3 Rxd1+ 15. Qxd1 Qa8 16. N1d2 Bh6 17. Rc7 Qb8 18. Qc2 O-O 19. Ba6 19... Bxd2 20. Nxd2 Rd8 21. Nf1 21... Rd7 22. Rxd7 Nxd7 23. Bc4 Qd6 24. Ne3 Qd4 25. b4 25... Nb6 26. Bxf7+ Kxf7 27. Qb3+ Kf8 28. Qb1 Nc8 29. Nf1 Nd6 30. Ng3 Nb5 31. a3 Qc4 32. Qd1 Nd4 33. Qd2 Kg7 34. Kh2 Qc2 35. Qe3 a6 36. f4 exf4 37. Qxd4 fxg3+ 38. Kxg3 Qb3+ 39. Kh2 Qxa3 40. Qc5 Kf8 41. Qc8+ Kf7 42. Qc4+ 1/2-1/2
 
 [Event "Norway Chess Armageddon 11th"]
 [Site "Stavanger"]
@@ -35374,33 +34385,6 @@
 [SourceQuality "1"]
 
 1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. c3 d5 9. exd5 Nxd5 10. Nxe5 Nxe5 11. Rxe5 c6 12. d3 Bd6 13. Re1 Bf5 14. Qf3 Qh4 15. g3 Qh3 16. Nd2 Rae8 17. Ne4 Bg4 18. Qg2 Qxg2+ 19. Kxg2 f5 20. Bf4 Bxf4 21. gxf4 fxe4 22. dxe4 Bf3+ 23. Kxf3 Rxf4+ 24. Kg3 Rfxe4 25. Rxe4 Rxe4 26. Rc1 26... Kf8 27. c4 Ne7 28. Kf3 Rh4 29. cxb5 axb5 30. Rd1 Nf5 31. Bc2 Nd4+ 32. Kg3 g5 33. Rd2 33... Ke7 34. f3 Nxc2 35. Rxc2 Kd6 36. Rd2+ Ke6 37. Rc2 Kd6 38. Rd2+ Ke6 39. Rc2 Kd6 1/2-1/2
-
-[Event "Baerum Fischer Random Rapid "]
-[Site "Batumi"]
-[Date "2018.02.11"]
-[Round "6"]
-[White "Nakamura, Hikaru"]
-[Black "Carlsen, Magnus"]
-[Result "0-1"]
-[WhiteElo "2781"]
-[BlackElo "2843"]
-[Annotator "Fernandez,Daniel Howard"]
-[Variant "chess 960"]
-[SetUp "1"]
-[FEN "nqbnrbkr/pppppppp/8/8/8/8/PPPPPPPP/NQBNRBKR w HEhe - 0 1"]
-[PlyCount "78"]
-[EventDate "2018.02.09"]
-[EventType "match "]
-[EventRounds "8"]
-[EventCountry "RUS"]
-[SourceTitle "CBM 184"]
-[Source "ChessBase"]
-[SourceDate "2018.05.16"]
-[SourceVersion "1"]
-[SourceVersionDate "2018.05.16"]
-[SourceQuality "1"]
-
-1. e4 e5 2. Nb3 c5 3. Ne3 Nc6 4. h4 h5 5. g3 b5 6. d3 d6 7. Bg2 7... Be6 8. f4 8... exf4 9. gxf4 Nb6 10. c3 c4 11. Nd4 11... Nxd4 12. cxd4 Be7 13. d5 Bd7 14. d4 Qd8 15. Bd2 Bxh4 16. Rf1 Bg3 17. e5 h4 18. Rf3 Bc8 19. Nf1 19... Bg4 20. Ra3 b4 21. Rxa7 21... Qb8 22. Ra6 22... Qb7 23. Nxg3 Qxa6 24. Ne4 c3 25. bxc3 Nc4 26. Bf1 Nxd2 27. Nxd2 Qc8 28. Rh2 28... bxc3 29. Nc4 Bf3 30. Ne3 dxe5 31. fxe5 Qd8 32. Qf5 Bxd5 33. Qf4 Be6 34. Bh3 Rh6 35. Bxe6 fxe6 36. Ng4 Rg6 37. Rg2 Rf8 38. Qe4 Rf5 39. Nf6+ Rfxf6 0-1
 
 [Event "NIC Classic KO"]
 [Site "chess24.com INT"]
@@ -36401,31 +35385,6 @@
 [SourceQuality "1"]
 
 1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. d4 a6 5. Bxd7+ Bxd7 6. dxc5 dxc5 7. Nc3 e6 8. Bf4 8... Ne7 9. Ne5 9... Ng6 10. Qh5 10... Bc6 11. Bg3 11... Nxe5 12. Bxe5 c4 13. O-O 13... Qa5 14. Qg5 h6 15. Qg3 15... f6 16. Qg6+ 16... Ke7 17. Bf4 17... Be8 18. Qg3 Kf7 19. Rad1 Bc6 20. Rd2 20... e5 21. Be3 Bb4 22. f4 Rhe8 23. f5 Bc5 24. Rfd1 Rad8 25. Rxd8 25... Bxe3+ 26. Qxe3 Rxd8 27. Rxd8 Qxd8 28. Kf2 Qd6 29. a3 a5 30. Kf3 30... Kg8 31. g3 31... b5 32. Ke2 32... b4 33. axb4 axb4 34. Nd1 34... Ba4 35. b3 35... cxb3 36. cxb3 Qa6+ 37. Kd2 Bb5 38. Qc5 Qa2+ 39. Qc2 39... Qa7 40. Qc8+ Kh7 41. Kc1 Qa1+ 42. Kc2 Qd4 0-1
-
-[Event "107/55"]
-[Site "London"]
-[Date "2009.??.??"]
-[Round "?"]
-[White "Ni, Hua"]
-[Black "Carlsen, Magnus"]
-[Result "0-1"]
-[WhiteElo "2665"]
-[BlackElo "2801"]
-[Annotator "Paunovic,Tomislav"]
-[SetUp "1"]
-[FEN "3q4/1p3kp1/p1b2p1p/4pP2/2p1P3/2N1Q3/PPP2KPP/8 b - - 0 1"]
-[PlyCount "29"]
-[EventDate "2009.??.??"]
-[EventType "game"]
-[EventCountry "CAN"]
-[SourceTitle "Chess Informant 141"]
-[Source "Chess Informant"]
-[SourceDate "2019.09.15"]
-[SourceVersion "1"]
-[SourceVersionDate "2019.09.15"]
-[SourceQuality "2"]
-
-1... Qd6 2. a3 a5 3. Kf3 Kg8 4. g3 b5 5. Ke2 b4 6. axb4 axb4 7. Nd1 Ba4 8. b3 8... cxb3 9. cxb3 Qa6+ 10. Kd2 Bb5 11. Qc5 Qa2+ 12. Qc2 12... Qa7 13. Qc8+ 13... Kh7 14. Kc1 Qa1+ 15. Kc2 Qd4 0-1
 
 [Event "London Classic"]
 [Site "London"]
@@ -39621,31 +38580,6 @@
 
 1. e4 c5 2. Nf3 Nc6 3. Nc3 g6 4. d4 cxd4 5. Nxd4 Bg7 6. Be3 Nf6 7. Bc4 O-O 8. Bb3 e6 9. O-O d5 10. exd5 Nxd5 11. Nxd5 exd5 12. c3 Na5 13. Qd3 Nxb3 14. axb3 a6 15. Qd2 Re8 16. Rfe1 Bd7 17. Nc2 Bc6 18. Bd4 f6 19. Rxe8+ Qxe8 20. h3 Qf7 21. Nb4 Bf8 22. Nxc6 bxc6 23. b4 Bd6 24. b5 cxb5 25. Bxf6 a5 26. Bd4 Qf4 27. Qxf4 1/2-1/2
 
-[Event "Karlsruhe/Baden-Baden 140/51"]
-[Site "Karlsruhe"]
-[Date "2019.??.??"]
-[Round "?"]
-[White "Svidler, Peter"]
-[Black "Carlsen, Magnus"]
-[Result "0-1"]
-[WhiteElo "2735"]
-[BlackElo "2845"]
-[Annotator "Milanovic,Danilo"]
-[SetUp "1"]
-[FEN "3r1q1k/1p4pp/1p3r2/2p1n3/4Qp2/P1PP4/BP4PP/2R2RK1 b - - 0 1"]
-[PlyCount "21"]
-[EventDate "2019.??.??"]
-[EventType "game"]
-[EventCountry "GER"]
-[SourceTitle "Chess Informant 141"]
-[Source "Chess Informant"]
-[SourceDate "2019.09.15"]
-[SourceVersion "1"]
-[SourceVersionDate "2019.09.15"]
-[SourceQuality "2"]
-
-1... Ng4 2. Rce1 Ne3 3. Rf2 3... Re8 4. Qxb7 g5 5. Rfe2 5... g4 6. Rf2 Qh6 7. Qc7 Ref8 8. h3 gxh3 9. g3 fxg3 10. Rxf6 h2+ 11. Kh1 g2# 0-1
-
 [Event "FIDE Grand Prix"]
 [Site "Baku"]
 [Date "2008.??.??"]
@@ -41401,29 +40335,6 @@
 
 1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. c3 d5 9. exd5 Nxd5 10. Nxe5 Nxe5 11. Rxe5 c6 12. d3 Bd6 13. Re1 Bf5 14. Qf3 Qh4 15. g3 Qh3 16. Be3 16... Bxd3 17. Nd2 Qf5 18. Bd4 18... Rae8 19. Kg2 Qxf3+ 20. Kxf3 Re6 21. Rac1 21... h6 22. Kg2 22... Rg6 23. Ne4 23... Nf4+ 24. Kf3 Bxe4+ 25. Rxe4 25... Nd3 26. Rd1 26... Nxb2 27. Rd2 Ba3 28. Bb6 28... Rd6 29. Rxd6 Bxd6 30. Re2 30... Nd3 31. Rd2 Ne5+ 32. Kg2 Be7 33. f4 Nc4 34. Bxc4 bxc4 35. Rd7 35... Bf6 36. Rc7 Bxc3 37. Rxc6 Rb8 38. a4 38... Bb2 39. Ba5 39... c3 40. Bxc3 Bxc3 41. Rxc3 Rb4 42. a5 Rb5 43. Ra3 Rb2+ 44. Kh3 f5 45. Rc3 Rb5 46. Ra3 g5 47. fxg5 hxg5 48. Kg2 Kg7 49. h4 g4 50. Rc3 Rxa5 51. Rc6 Ra2+ 52. Kg1 a5 53. Ra6 a4 54. Kh1 Kf7 55. Kg1 Ra1+ 56. Kg2 Ra3 57. Kh2 Ra2+ 58. Kg1 Ke7 59. Kh1 a3 60. Kg1 1/2-1/2
 
-[Event "?"]
-[Site "Bilbao"]
-[Date "2016.??.??"]
-[Round "?"]
-[White "Wei, Yi"]
-[Black "Carlsen, Magnus"]
-[Result "0-1"]
-[WhiteElo "2696"]
-[BlackElo "2855"]
-[Annotator "Kapnisis,Spyridon"]
-[SetUp "1"]
-[FEN "2k3r1/2r2p1p/pR4p1/1p2B3/8/1Pn2N2/P1P3PP/2K5 b - - 0 29"]
-[PlyCount "63"]
-[EventDate "2016.??.??"]
-[EventType "simul"]
-[EventRounds "4"]
-[EventCountry "ESP"]
-[SourceTitle "Bilbao by Spyros Kapnisi"]
-[Source "Chess Informant"]
-[SourceDate "2016.08.22"]
-
-29... Rd8 30. Kb2 30... Nd5 31. Bxc7 Kxc7 32. Rxa6 Kb7 33. Ra3 Ne3 34. c4 34... bxc4 35. Ne5 35... Rd2+ 36. Kc3 Rc2+ 37. Kd4 37... Nf5+ 38. Kd5 38... c3 39. Kc5 Nd6 40. Nc6 40... Ne4+ 41. Kb5 Kc7 42. Ra7+ Kd6 43. Ra4 43... f5 44. Kb6 Rxg2 45. Rd4+ Ke6 46. a4 Ra2 47. a5 Rb2 48. Kc7 48... Nc5 49. Rc4 Na6+ 50. Kb6 Rxb3+ 51. Kxa6 Kd5 52. Rb4 c2 53. Ne7+ Kc5 54. Rxb3 c1=Q 55. Rb6 Qc4+ 56. Kb7 Qe4+ 57. Nc6 Qd5 58. Kc7 Qd6+ 59. Kb7 Qd7+ 60. Kb8 f4 0-1
-
 [Event "Gausdal GM-A"]
 [Site "Gausdal"]
 [Date "2005.04.16"]
@@ -41610,25 +40521,6 @@
 
 1. e4 c5 2. Nf3 2... Nc6 3. c3 Nf6 4. e5 Nd5 5. Bc4 Nb6 6. Bb3 c4 7. Bc2 d6 8. exd6 Qxd6 9. O-O Bg4 10. Re1 10... e6 11. b3 11... Be7 12. Na3 cxb3 13. axb3 Qd7 14. Nc4 14... Nxc4 15. bxc4 O-O 16. d4 Rfd8 17. Be4 Bh5 18. Bf4 18... Bg6 19. Bxc6 Qxc6 20. Ne5 Qc8 21. Qf3 Bd6 22. c5 22... Bxe5 23. Bxe5 f6 24. Bd6 a5 25. h4 h5 26. c4 a4 27. Re3 b6 28. cxb6 Qxc4 29. b7 Qxd4 30. Rd1 30... Qxd1+ 31. Qxd1 Rab8 32. Rxe6 Rxb7 33. Qxa4 Bf7 34. Be7 Re8 35. Re3 35... Rbxe7 36. Rxe7 Rxe7 37. f3 Re8 38. Kf2 Re5 39. Qc6 Re6 40. Qc8+ Re8 41. Qf5 Re5 42. Qd3 Rd5 43. Qe3 Re5 44. Qd4 Kh7 45. Qd7 Bg6 46. Qd6 Rb5 47. Qd4 Re5 48. Qc4 Rf5 49. Qd4 Re5 1/2-1/2
 
-[Event "Accentus GM Tournament"]
-[Site "lichess.org"]
-[Date "2018.??.??"]
-[Round "9.1"]
-[White "Mamedyarov, Shakhriyar"]
-[Black "Carlsen, Magnus"]
-[Result "1-0"]
-[WhiteElo "2808"]
-[BlackElo "2843"]
-[Annotator "GM Dejan Bojkov"]
-[SetUp "1"]
-[FEN "1r4k1/1r3p1p/6p1/3RP3/5P1P/b5P1/6BK/3R4 b - - 0 38"]
-[PlyCount "38"]
-[EventDate "2020.??.??"]
-[EventType "game"]
-[EventCountry "SUI"]
-
-38... Be7 39. Kh3 39... Rc7 40. h5 gxh5 41. f5 f6 42. e6 Rb3 43. Rd7 Rbc3 44. Ra1 Kg7 45. Ra8 Kh6 46. Re8 Bb4 47. Rb8 47... Be7 48. Be4 R3c4 49. Bd5 R4c5 50. Be4 Rc4 51. Bd5 R4c5 52. Rb7 Rxd7 53. Rxd7 Ra5 54. Bc6 54... Ba3 55. Rf7 Re5 56. Kh4 56... Bc1 57. e7 1-0
-
 [Event "Wch Rapid"]
 [Site "Moscow"]
 [Date "2019.12.28"]
@@ -41699,25 +40591,6 @@
 [EventCountry "NOR"]
 
 1. d4 Nf6 2. c4 e6 3. g3 d5 4. Nf3 4... Bb4+ 5. Nbd2 O-O 6. Bg2 dxc4 7. Qc2 Nc6 8. Qxc4 Ne4 9. Qd3 Nxd2 10. Bxd2 Qe7 11. O-O Rd8 12. Bxb4 Nxb4 13. Qc4 13... Nd5 14. Rac1 c6 15. Rfd1 Bd7 16. Ne5 Be8 17. Nd3 Nb6 18. Qc3 Nd7 19. Qa5 Qd6 20. e3 f6 21. b4 a6 22. Nc5 Nxc5 23. bxc5 Qe7 24. Rb1 Bg6 25. Rb4 Rd7 26. Rd2 Rc8 27. h4 Rcc7 28. Qa4 Bf7 29. Qd1 g6 30. Rbb2 Kg7 31. Rbc2 Rd8 32. Qa1 Rcd7 33. Bh3 Rd5 34. e4 R5d7 35. Qc3 Rc7 36. a3 Qf8 37. Rd3 Qe7 38. Re2 Rcd7 39. Ree3 Rc7 40. f4 Qf8 41. Re1 Kg8 42. Kh2 Re8 43. Rde3 Rce7 44. R1e2 e5 45. dxe5 fxe5 46. f5 Rd8 47. Rf3 Rd4 48. fxg6 hxg6 49. Ref2 Qe8 50. Qe3 Kg7 51. h5 1-0
-
-[Event "Chess 2021"]
-[Site "Chess.com"]
-[Date "2021.09.16"]
-[Round "17"]
-[White "Carlsen, Magnus"]
-[Black "Karjakin, Sergey"]
-[Result "1-0"]
-[WhiteElo "2855"]
-[BlackElo "2758"]
-[Annotator "GM Dejan Bojkov"]
-[SetUp "1"]
-[FEN "1r1qr1k1/p4pp1/1pp1b1np/P2pp3/1P2P3/1NPPB3/2Q2PPP/RR4K1 b - - 0 18"]
-[PlyCount "70"]
-[EventDate "2021.??.??"]
-[EventType "game"]
-[EventCountry "NOR"]
-
-18... Re7 19. c4 19... d4 20. Bd2 f5 21. axb6 axb6 22. f3 22... Rf7 23. Rf1 23... Kh7 24. exf5 Bxf5 25. Be1 25... Qg5 26. Rd1 26... h5 27. Bd2 Qh4 28. Rde1 Ra8 29. Ra1 Raf8 30. Ra6 30... e4 31. Nxd4 31... exf3 32. Nxf3 Bh3 33. Rf2 Rxf3 34. gxf3 Rf5 35. d4 Qxd4 36. Ra3 Rf7 37. Re3 37... Bf5 38. Qc3 Qd8 39. Re1 Rd7 40. Qe3 Rd4 41. Qg5 Qxg5+ 42. Bxg5 Rxc4 43. Rb2 b5 44. Kf2 c5 45. bxc5 Rxc5 46. Rc1 Rd5 47. Rd2 Rxd2+ 48. Bxd2 Ne5 49. Rc7 b4 50. Rb7 Be6 51. Re7 Nd3+ 52. Ke3 Bc4 53. Kd4 1-0
 
 [Event "NOR-ch playoff"]
 [Site "Oslo"]
@@ -42335,33 +41208,6 @@
 [SourceQuality "1"]
 
 1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O 4... Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8. Qxd8+ Kxd8 9. h3 Ke8 10. Nc3 h5 11. Bf4 Be7 12. Rad1 Be6 13. Ng5 Rh6 14. g3 14... Bxg5 15. Bxg5 Rg6 16. h4 f6 17. exf6 gxf6 18. Bf4 Nxh4 19. f3 Rd8 20. Kf2 Rxd1 21. Nxd1 Nf5 22. Rh1 Bxa2 23. Rxh5 23... Be6 24. g4 24... Nd6 25. Rh7 Nf7 26. Ne3 Kd8 27. Nf5 c5 28. Ng3 Ne5 29. Rh8+ 29... Rg8 30. Bxe5 fxe5 31. Rh5 Bxg4 32. fxg4 Rxg4 33. Rxe5 b6 34. Ne4 Rh4 35. Ke2 Rh6 36. b3 Kd7 37. Kd2 Kc6 38. Nc3 a6 39. Re4 Rh2+ 40. Kc1 Rh1+ 41. Kb2 Rh6 42. Nd1 Rg6 43. Ne3 Rh6 44. Re7 44... Rh2 45. Re6+ Kb7 46. Kc3 Rh4 47. Kb2 47... Rh2 48. Nd5 48... Rd2 49. Nf6 49... Rf2 50. Kc3 Rf4 51. Ne4 Rh4 52. Nf2 Rh2 53. Rf6 Rh7 54. Nd3 Rh3 55. Kd2 Rh2+ 56. Rf2 Rh4 57. c4 Rh3 58. Kc2 Rh7 59. Nb2 Rh5 60. Re2 60... Rg5 61. Nd1 61... b5 62. Nc3 62... c6 63. Ne4 Rh5 64. Nf6 Rg5 65. Re7+ Kb6 66. Nd7+ Ka5 67. Re4 67... Rg2+ 68. Kc1 68... Rg1+ 69. Kd2 Rg2+ 70. Ke1 bxc4 71. Rxc4 71... Rg3 72. Nxc5 72... Kb5 73. Rc2 a5 74. Kf2 74... Rh3 75. Rc1 Kb4 76. Ke2 Rc3 77. Nd3+ Kxb3 78. Ra1 Kc4 79. Nf2 Kb5 80. Rb1+ Kc4 81. Ne4 Ra3 82. Nd2+ Kd5 83. Rh1 a4 84. Rh5+ Kd4 85. Rh4+ Kc5 86. Kd1 Kb5 87. Kc2 Rg3 88. Ne4 Rg2+ 89. Kd3 a3 90. Nc3+ Kb6 91. Ra4 a2 92. Nxa2 Rg3+ 93. Kc2 Rg2+ 94. Kb3 Rg3+ 95. Nc3 Rh3 96. Rb4+ Kc7 97. Rg4 Rh7 98. Kc4 Rf7 99. Rg5 Kb6 100. Na4+ Kc7 101. Kc5 Kd7 102. Kb6 Rf1 103. Nc5+ Ke7 104. Kxc6 Rd1 105. Rg6 Kf7 106. Rh6 Rg1 107. Kd5 Rg5+ 108. Kd4 Rg6 109. Rh1 Rg2 110. Ne4 Ra2 111. Rf1+ Ke7 112. Nc3 Rh2 113. Nd5+ Kd6 114. Rf6+ Kd7 115. Nf4 Rh1 116. Rg6 Rd1+ 117. Nd3 Ke7 118. Ra6 Kd7 119. Ke4 Ke7 120. Rc6 Kd7 121. Rc1 Rxc1 122. Nxc1 1/2-1/2
-
-[Event "Baerum Fischer Random Rapid "]
-[Site "Batumi"]
-[Date "2018.02.12"]
-[Round "8"]
-[White "Carlsen, Magnus"]
-[Black "Nakamura, Hikaru"]
-[Result "0-1"]
-[WhiteElo "2843"]
-[BlackElo "2781"]
-[Annotator "Fernandez,Daniel Howard"]
-[Variant "chess 960"]
-[SetUp "1"]
-[FEN "rnknqbbr/pppppppp/8/8/8/8/PPPPPPPP/RNKNQBBR w HAha - 0 1"]
-[PlyCount "238"]
-[EventDate "2018.02.09"]
-[EventType "match "]
-[EventRounds "8"]
-[EventCountry "RUS"]
-[SourceTitle "CBM 184"]
-[Source "ChessBase"]
-[SourceDate "2018.05.16"]
-[SourceVersion "1"]
-[SourceVersionDate "2018.05.16"]
-[SourceQuality "1"]
-
-1. d4 f5 2. f4 g5 3. fxg5 h6 4. Ndc3 4... d5 5. g4 5... fxg4 6. e4 dxe4 7. Nd2 hxg5 8. O-O-O Nd7 9. Ndxe4 Nf7 10. d5 a6 11. Bd4 Rh6 12. Be2 12... Nfe5 13. Nxg5 Rg6 14. Ne6 14... Bxe6 15. dxe6 Rxe6 16. Bxe5 Rxe5 17. Qg3 Bh6+ 18. Kb1 Re3 19. Qxg4 O-O-O 20. Nd5 Re5 21. Bxa6 21... c6 22. Nb6+ Kc7 23. Nxd7 Rxd7 24. Rxd7+ Qxd7 25. Qxd7+ Kxd7 26. Bxb7 26... Ra5 27. Re1 27... Bg5 28. Rg1 Bf6 29. Rg8 Rb5 30. Bc8+ Kc7 31. b3 Re5 32. Kc1 Re2 33. h3 33... e6 34. Ba6 34... Re3 35. Kd2 Rxh3 36. Bd3 Rh2+ 37. Ke3 Bc3 38. a4 Kd6 39. Rg6 Rh3+ 40. Ke4 Rh4+ 41. Kf3 Rh3+ 42. Kg2 Rh7 43. Rg4 43... Rg7 44. Bg6 c5 45. Kf3 Ba5 46. Ke2 c4 47. Rd4+ Ke7 48. Be4 cxb3 49. cxb3 Rg3 50. Bf3 Rg1 51. b4 Bc7 52. Rc4 Bd6 53. Be4 53... Rg3 54. Kd2 Rb3 55. b5 Be5 56. Bc2 Rb2 57. Rc6 Kd7 58. Ra6 Bd6 59. Kc3 Be5+ 60. Kd3 Bf4 61. a5 Bc7 62. Ra7 Kd6 63. Ra6+ Kd7 64. b6 Bxb6 65. axb6 Kc6 66. Ba4+ Kb7 67. Ra7+ Kxb6 68. Re7 Kc5 69. Rxe6 Rb4 70. Bc2 Rd4+ 71. Ke3 Rd8 72. Be4 Rd6 73. Re5+ Kb6 74. Bd5 Kc5 75. Ke4 Rd8 76. Bf7+ Kc6 77. Rh5 Rd1 78. Bb3 Rd2 79. Bd5+ Kc5 80. Bf7+ Kc6 81. Bb3 Kd6 82. Ke3 Rb2 83. Bc4 Rg2 84. Bd3 Rg1 85. Kd4 Rd1 86. Rh6+ Ke7 87. Ra6 Kd7 88. Ke4 Ke7 89. Bc4 Rd6 90. Ra7+ Rd7 91. Ra5 Rd1 92. Ke5 Re1+ 93. Kd4 Rd1+ 94. Bd3 Kd6 95. Ra6+ Ke7 96. Ke4 Rd2 97. Ke3 Rd1 98. Ke4 Rd2 99. Bc4 Rd6 100. Ra5 Rd1 101. Ke5 Re1+ 102. Kd5 Rd1+ 103. Kc5 Kf6 104. Ra6+ Kf5 105. Re6 Rc1 106. Re2 Rd1 107. Bb3 Rd8 108. Bc2+ Kf4 109. Re4+ Kf3 110. Rc4 Rf8 111. Kb4 Ke2 112. Kc3 Ke3 113. Re4+ Kf3 114. Rd4 Rc8+ 115. Rc4 Re8 116. Rb4 Re3+ 117. Kb2 Re2 118. Rb3+ Kf2 119. Rc3 Re7 0-1
 
 [Event "Bullet Chess Winners"]
 [Site "Chess.com INT"]
@@ -43352,35 +42198,6 @@
 
 1. b3 g6 2. Bb2 Nf6 3. Nc3 Bg7 4. d4 c5 5. e3 cxd4 6. exd4 d5 7. Qd2 Nc6 8. f3 h5 9. Bb5 Qd6 10. Nge2 Bh6 11. Qd1 11... Bf5 12. Bc1 Bxc1 13. Rxc1 Rc8 14. Qd2 O-O 15. Bxc6 15... bxc6 16. Na4 Rfe8 17. O-O e5 18. c3 18... h4 19. dxe5 Rxe5 20. b4 Rce8 21. Nd4 h3 22. g3 22... Bc8 23. Nc5 Nd7 24. Nd3 24... R5e7 25. Rfe1 c5 26. bxc5 26... Nxc5 27. Nf4 27... Rxe1+ 28. Rxe1 Rxe1+ 29. Qxe1 Ne6 30. Nfxe6 30... Bxe6 31. Kf2 31... Bd7 32. Qb1 Qc7 33. Qb3 Bc8 34. a3 34... a5 35. Qb2 35... Ba6 36. Nc2 Qa7+ 37. Ne3 Bc4 38. f4 Kh7 39. g4 39... Qe7 40. Qc1 40... Qe4 41. f5 Qf4+ 42. Kg1 gxf5 43. gxf5 Bd3 44. Qe1 Bxf5 45. Nxf5 45... Qxf5 46. Qg3 Kh6 47. Qb8 47... Qf3 48. Qh8+ Kg6 49. Qg8+ Kf6 50. Qd8+ 50... Kf5 0-1
 
-[Event "Nanjing Pearl Spring 3rd"]
-[Site "Nanjing"]
-[Date "2010.10.29"]
-[Round "9"]
-[White "01.01 Topalov, Veselin"]
-[Black "Carlsen, Magnus"]
-[Result "0-1"]
-[ECO "E00"]
-[WhiteElo "2803"]
-[BlackElo "2826"]
-[Annotator "Müller,Karsten"]
-[SetUp "1"]
-[FEN "6k1/pr3pp1/1r2pn1p/2R1n3/3N4/4P1P1/P2N1PKP/2R5 b - - 0 25"]
-[PlyCount "17"]
-[EventDate "2010.10.20"]
-[EventType "tourn"]
-[EventRounds "10"]
-[EventCountry "CHN"]
-[EventCategory "21"]
-[SourceTitle "CBM 139"]
-[Source "ChessBase"]
-[SourceDate "2010.11.18"]
-[SourceVersion "1"]
-[SourceVersionDate "2010.11.18"]
-[SourceQuality "1"]
-[TimeControl "40/7200:20/3600:900+30"]
-
-25... Rb2 26. R1c2 26... Nd3 27. Rc8+ Kh7 28. N4f3 a5 29. h3 a4 30. a3 g5 31. Rxb2 31... Rxb2 32. Rc3 32... Nxf2 33. Rc7 33... N2e4 0-1
-
 [Event "Norway Chess 3rd"]
 [Site "Stavanger"]
 [Date "2015.06.16"]
@@ -43406,33 +42223,6 @@
 [SourceQuality "1"]
 
 1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. Bg5 h6 6. Bxf6 Qxf6 7. e3 Nd7 8. Rc1 g6 9. Be2 Bg7 10. cxd5 10... exd5 11. b4 a6 12. a4 O-O 13. b5 axb5 14. axb5 Qd6 15. O-O Nb6 16. Qb3 Rb8 17. Nd1 Bf5 18. Nb2 Rfc8 19. Nd3 Bxd3 20. Qxd3 c5 21. dxc5 Rxc5 22. h4 Na4 23. h5 Rbc8 24. Rxc5 Nxc5 25. Qc2 gxh5 26. Nd4 Qg6 27. Nf5 Bf8 28. Rd1 Qe6 29. Rc1 Nb3 30. Qxc8 Nxc1 31. Qxc1 Qxf5 32. Qc7 Qb1+ 33. Bf1 d4 34. exd4 Qd1 35. Qe5 Bg7 36. Qe8+ Bf8 37. Qd8 Kg7 38. Qd5 b6 39. Qe5+ Kg8 40. Qf6 Bg7 41. Qxb6 Bxd4 42. Qxh6 Qg4 43. Qd6 Qd1 44. Qd8+ Kh7 45. Qc7 Kg7 46. b6 Qg4 47. b7 Qh4 48. g3 Qf6 49. Qc2 Qe5 50. Qd3 Ba7 51. Qf3 Qf6 52. Qe2 Qc3 53. Kh2 Qd4 54. Qf3 Bb8 55. Kh3 Bc7 56. Be2 Bb8 57. Bd1 f5 58. Be2 f4 59. Qxh5 Qxf2 60. Qg5+ Kf7 0-1
-
-[Event "Sigeman & Co 12th"]
-[Site "Malmo/Copenhagen"]
-[Date "2004.04.02"]
-[Round "3"]
-[White "13.04 Hillarp Persson, Tiger"]
-[Black "Carlsen, Magnus"]
-[Result "0-1"]
-[WhiteElo "2513"]
-[BlackElo "2552"]
-[Annotator "Mueller,Karsten"]
-[SetUp "1"]
-[FEN "8/p6r/3p4/3B1k2/5p2/5N2/PP6/1K6 b - - 0 47"]
-[PlyCount "35"]
-[EventDate "2004.04.30"]
-[EventType "tourn"]
-[EventRounds "9"]
-[EventCountry "SWE"]
-[EventCategory "13"]
-[SourceTitle "CBM 101_01"]
-[Source "ChessBase"]
-[SourceDate "2004.05.28"]
-[SourceVersion "1"]
-[SourceVersionDate "2004.05.28"]
-[SourceQuality "1"]
-
-47... Rc7 48. b4 Rc3 49. Kb2 Rd3 50. Bc6 d5 51. Ne1 Rd1 52. Nf3 Rd3 53. Ne1 Rd1 54. Nf3 Ke4 55. Kc2 Rd3 56. Nd2+ Ke3 57. Nb3 57... d4 58. b5 58... f3 59. a4 59... Rxb3 60. Kxb3 d3 61. a5 f2 62. Bg2 d2 63. Kc2 Ke2 64. Bf1+ Ke1 0-1
 
 [Event "Aimchess Rapid Div 1 W"]
 [Site "Chess.com INT"]
@@ -45617,49 +44407,6 @@
 
 1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e6 7. Be3 Be7 8. g4 b5 9. g5 Nfd7 10. a3 Bxg5 11. Qd2 Bxe3 12. Qxe3 Qh4 13. Rg1 g6 14. O-O-O 14... Qe7 15. f4 15... Bb7 16. Kb1 Nc6 17. Ncxb5 axb5 18. Nxc6 Bxc6 19. Qc3 O-O 20. Qxc6 d5 21. exd5 21... Rfc8 22. d6 Qd8 23. Qxb5 23... Rcb8 24. Qc4 24... Rxa3 25. Qc7 Qe8 26. Rg5 26... Ra4 27. Ra5 27... Rab4 28. b3 R4b7 29. Qc3 Qd8 30. Bf3 Rb4 31. Qc7 Qf6 32. Ra8 32... Rxa8 33. Bxa8 Qf5 34. Kb2 Rb5 35. Qxd7 Rc5 36. Rc1 Qxf4 37. Qe8+ Kg7 38. d7 1-0
 
-[Event "London "]
-[Site "?"]
-[Date "2015.??.??"]
-[Round "?"]
-[White "Carlsen, Magnus"]
-[Black "Vachier Lagrave, Maxime"]
-[Result "1-0"]
-[WhiteElo "2850"]
-[BlackElo "2765"]
-[Annotator "Mueller,Karsten"]
-[SetUp "1"]
-[FEN "8/8/3k4/7K/6P1/4R2p/8/7r b - - 0 51"]
-[PlyCount "16"]
-[EventDate "2015.??.??"]
-[EventType "rapid"]
-
-51... Rf1 52. Rxh3 Ke7 53. Kg6 53... Rf6+ 54. Kg7 Rf7+ 55. Kg6 Rf6+ 56. Kg5 Ra6 57. Rf3 Ra8 58. Kh6 Rh8+ 59. Kg7 1-0
-
-[Event "Shamkir 120/123"]
-[Site "?"]
-[Date "2014.??.??"]
-[Round "?"]
-[White "Carlsen, Magnus"]
-[Black "Caruana, Fabiano"]
-[Result "1-0"]
-[WhiteElo "2881"]
-[BlackElo "2783"]
-[Annotator "Sulskis,Sarunas"]
-[SetUp "1"]
-[FEN "5r2/1p4bk/2nN2p1/2P1pbqp/8/1PP1P1BP/4P1B1/2QR2K1 w - - 0 1"]
-[PlyCount "43"]
-[EventDate "2014.??.??"]
-[EventType "match"]
-[EventRounds "2"]
-[SourceTitle "Chess Informant 141"]
-[Source "Chess Informant"]
-[SourceDate "2019.09.15"]
-[SourceVersion "1"]
-[SourceVersionDate "2019.09.15"]
-[SourceQuality "2"]
-
-1. e4 1... Qxg3 2. Rd3 2... Qh4 3. exf5 gxf5 4. e4 fxe4 5. Bxe4+ Kh8 6. Qe3 Rf4 7. Bg2 Qe7 8. Qe2 Qh4 9. b4 e4 10. Nxe4 Ne5 11. Rd5 Kg8 12. b5 Rf5 13. c6 bxc6 14. bxc6 Qe7 15. Nd6 Rg5 16. Nb5 Qe6 17. Rd8+ Kh7 18. Qe4+ Rg6 19. c7 Qa6 20. c8=Q Qa1+ 21. Kf2 21... Qb2+ 22. Ke1 1-0
-
 [Event "?"]
 [Site "?"]
 [Date "2016.??.??"]
@@ -45749,25 +44496,6 @@
 
 1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 d5 5. cxd5 exd5 6. Bg5 h6 7. Bh4 Nc6 8. e3 g5 9. Bg3 h5 10. Bd3 10... h4 11. Be5 Nxe5 12. dxe5 Nd7 13. a3 Ba5 14. f4 Bb6 15. Nf3 15... c6 16. Nxg5 16... Nxe5 17. O-O 17... Ng4 18. Kh1 18... Nxe3 19. Rae1 Kf8 20. Rxe3 Bxe3 21. Ne2 21... Qf6 22. Rf3 Bb6 23. Nc3 Bg4 24. Rf1 Re8 25. Na4 Bd4 26. Nc5 Re7 27. b4 h3 28. gxh3 Bxh3 29. Nxh3 Rxh3 30. Qg2 Rhe3 31. Rg1 Qg7 32. Qf2 Qxg1+ 33. Qxg1 Re1 0-1
 
-[Event "?"]
-[Site "Kallithea"]
-[Date "2008.??.??"]
-[Round "?"]
-[White "Huzman, Alexander"]
-[Black "Carlsen, Magnus"]
-[Result "*"]
-[WhiteElo "2590"]
-[BlackElo "2786"]
-[Annotator "Shyam,Sundar Mohanraj"]
-[SetUp "1"]
-[FEN "r6r/3k1ppp/4n3/pp1PP3/2q5/1Q3NP1/P4PKP/R7 w - - 0 24"]
-[PlyCount "14"]
-[EventDate "2008.??.??"]
-[EventType "team-tourn"]
-[EventCountry "GRE"]
-
-24. dxe6+ Kxe6 25. Nd4+ 25... Kd5 26. Qf3+ Kxd4 27. Qe3+ 27... Kd5 28. Rd1+ Ke6 29. Rd6+ Ke7 30. Qg5+ Ke8 *
-
 [Event "Espana 92/91"]
 [Site "?"]
 [Date "2004.??.??"]
@@ -45790,44 +44518,6 @@
 [SourceQuality "2"]
 
 1. e4 c5 2. Nf3 Nc6 3. c3 Nf6 4. e5 Nd5 5. d4 cxd4 6. cxd4 d6 7. Bc4 Nb6 8. Bb3 d5 9. Nh4 e6 10. Nf3 Bd7 11. Nc3 Rc8 12. O-O h6 13. h4 g6 14. g3 Bb4 15. Bc2 Ne7 16. Ne2 Nf5 17. Bd3 Be7 18. Kg2 Nc4 19. Rh1 Qb6 20. b3 Na5 21. Nf4 Nc6 22. Bxf5 gxf5 23. Nh5 Nb4 24. Nf6+ Kd8 25. Ne1 Qa6 26. a3 Bb5 27. Bxh6 Rxh6 28. axb4 Qb6 29. Qd2 29... Rh8 30. Nf3 Bxb4 31. Qg5 Kc7 32. Rac1+ Bc6 33. h5 33... Bf8 34. h6 Qxb3 35. h7 Qa3 36. Qg8 Be7 37. Qxf7 Rcf8 38. Qg7 Kd8 39. Ra1 1-0
-
-[Event "Saint Louis 122/47"]
-[Site "?"]
-[Date "2014.??.??"]
-[Round "?"]
-[White "Carlsen, Magnus"]
-[Black "Vachier Lagrave, Maxime"]
-[Result "1/2-1/2"]
-[WhiteElo "2877"]
-[BlackElo "2768"]
-[Annotator "Tadic,Branko"]
-[SetUp "1"]
-[FEN "7k/p4R1p/1bp3p1/8/B5PP/5P2/PKP4r/8 b - - 0 1"]
-[PlyCount "39"]
-[EventDate "2014.??.??"]
-[EventType "match"]
-[EventRounds "2"]
-
-1... h5 2. gxh5 2... Rxh4 3. Bxc6 gxh5 4. Be4 Rh1 5. f4 5... Rh3 6. c3 6... h4 7. f5 7... Re3 8. Re7 Ba5 9. c4 h3 10. Re6 h2 11. Bd5 11... Rxe6 12. fxe6 Bd8 13. Kb3 Kg7 14. Kb4 Kf6 15. Kb5 h1=Q 16. Bxh1 Kxe6 17. c5 Kd7 18. Ka6 Kc7 19. Kxa7 Be7 20. c6 Bc5+ 1/2-1/2
-
-[Event "?"]
-[Site "Wijk aan Zee"]
-[Date "2023.??.??"]
-[Round "?"]
-[White "Carlsen, Magnus"]
-[Black "Praggnanandhaa, Rameshbabu"]
-[Result "*"]
-[WhiteElo "2859"]
-[BlackElo "2684"]
-[Annotator "Shyam,Sundar Mohanraj"]
-[SetUp "1"]
-[FEN "r2qr1k1/5pb1/pp2b2p/3pN1pP/N2P4/P3R3/1P3PP1/3QR1K1 w - - 0 24"]
-[PlyCount "14"]
-[EventDate "2023.??.??"]
-[EventType "team-tourn"]
-[EventCountry "NED"]
-
-24. Rb3 Qc7 25. Nxb6 25... Rab8 26. Na4 Rxb3 27. Qxb3 Bxe5 28. dxe5 28... Qa5 29. Qd1 Bg4 30. f3 Bd7 *
 
 [Event "EU-Cup 37th"]
 [Site "Mayrhofen"]
@@ -151420,19 +150110,6 @@ Bxd5 23. Bxe4 Rad8 24. Bxd5 Rxd5 25. Be3 Red8 26. dxc5 Bxc5
 32. Rc8+ Kh7 33. Qa4 Qxb2 34. Qe4+ Rf5 35. Kh2 Nf4 36. Rc2 Qa1
 37. g4 Qf1 38. Ne1 Nh5 39. gxf5 exf5 40. Qc4 1-0
 
-[Event "Chapter Introduction"]
-[Site "Game 1"]
-[Date "????.??.??"]
-[Round "?"]
-[White "Chapter Introduction"]
-[Black "Game 1"]
-[Result "*"]
-[SetUp "1"]
-[FEN "1r6/5ppk/5b1p/3q1P1P/p2p4/P2Q4/1P2R3/1K1R4 w - - 0 37"]
-
-37.Qe4 37...Rxb2+ 38.Kxb2 d3+ 39.Kc1 Qc5+ 40.Kd2 Qc2+ 41.Ke1 Bh4+ 
-*
-
 [Event "Chapter Games 1-2"]
 [Site "Game 1"]
 [Date "????.??.??"]
@@ -151559,18 +150236,6 @@ Bxd5 23. Bxe4 Rad8 24. Bxd5 Rxd5 25. Be3 Red8 26. dxc5 Bxc5
 *
 
 [Event "Chapter Games 11-12"]
-[Site "Game 1"]
-[Date "????.??.??"]
-[Round "?"]
-[White "Chapter Games 11-12"]
-[Black "Game 1"]
-[Result "*"]
-
-
-1.e4 c5 2.Nf3 Nc6 3.Bb5 g6 4.Bxc6 dxc6 5.d3 Bg7 6.h3 Nf6 7.Nc3 7...b6 8.Be3 e5 9.0-0 9...0-0 10.a3 10...Qe7 11.Qb1 11...Nh5 12.b4 f5 13.bxc5 f4 14.Bd2 14...bxc5 15.Qb3+ 15...Be6 16.Qa4 16...Rac8 17.Qa5 17...g5 18.Na4 g4 19.hxg4 Bxg4 20.Qxc5 Qf6 21.Nh2 21...f3 22.Nxg4 Qg6 23.Qe7 23...fxg2 24.Rfb1 24...Qxg4 25.Qg5 Qe2 26.Qe3 26...Qg4 27.Qg5 Qxg5 28.Bxg5 Nf4 29.Bxf4 29...exf4 30.Kxg2 f3+ 31.Kf1 31...Rf4 32.c3 32...Rd8 33.d4 33...Bh6 34.Ke1 Rxe4+ 35.Kd1 35...c5 36.Kc2 36...cxd4 37.Kd3 Re2 38.c4 Rxf2 39.Rd1 39...Re2 40.-- 40...Re3+ 41.Kc2 d3+
-*
-
-[Event "Chapter Games 11-12"]
 [Site "Game 2"]
 [Date "????.??.??"]
 [Round "?"]
@@ -151645,19 +150310,6 @@ Bxd5 23. Bxe4 Rad8 24. Bxd5 Rxd5 25. Be3 Red8 26. dxc5 Bxc5
 1.d4 e6 2.c4 f5 3.g3 Nf6 4.Bg2 d5 5.Nf3 Bd6 6.Nc3 c6 7.Bf4 7...Bxf4 8.gxf4 0-0 9.e3 9...Bd7 10.Qb3 Qc7 11.0-0 Be8 12.Rfc1 12...Qe7 13.Qa3 13...Qxa3 14.bxa3 Nbd7 15.Rab1 15...Rb8 16.a4 16...a5 17.Rb2 Ne4 18.Nxe4 dxe4 19.Ng5 19...Rf6 20.f3 20...h6 21.Nh3 exf3 22.Bxf3 Rf7 23.Nf2 23...c5 24.Nd3 24...cxd4 25.exd4 Nf6 26.Nc5 26...Ne4 27.Nxe6 Bxa4 28.d5 Bd7 29.Bxe4 29...fxe4 30.Nc5 Bg4 31.Re1 31...Rc8 32.Nxe4 Rxf4 33.Nd6 Rcf8 34.Rb3 34...R8f6 35.Ne4 35...Rg6 36.Rg3 36...b6 37.d6 37...Kh7 38.Nf2 38...Rxc4 39.Nxg4 Rgxg4 40.Rxg4 Rxg4+ 41.Kf2 41...Rd4 42.Re6 Kg8 43.Ke3 Rd1 44.d7 44...Rxd7 45.Rxb6 Rd5 46.Rb2 Kh7 47.Ke4 Rh5 48.Kf4 Rh4+ 49.Kg3 g5 50.Rb7+ 50...Kg6 51.Rb6+ Kh5 52.h3 52...Ra4 53.Rc6 53...Ra3+ 54.Kg2 Rxa2+ 55.Kg3 a4 56.Ra6 a3 57.Kf3 57...Rb2 58.Kg3 58...a2 59.Kf3 59...a1=Q 60.Rxa1 Kh4 61.Ra6 61...h5
 *
 
-[Event "Chapter Games 17-18"]
-[Site "Game 2"]
-[Date "????.??.??"]
-[Round "?"]
-[White "Chapter Games 17-18"]
-[Black "Game 2"]
-[Result "*"]
-[SetUp "1"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
-
-1.e4 g6 2.d4 Bg7 3.Nc3 d6 4.Be3 4...a6 5.Nf3 b5 6.Bd3 6...Nd7 7.e5 7...Bb7 8.e6 8...fxe6 9.Ng5 Nf8 10.0-0 10...Qd7 11.Re1 Nf6 12.a4 12...b4 13.Na2 13...Qxa4 14.Qe2 14...h6 15.Nf3 Kf7 16.Bd2 b3 17.Nc3 17...Qd7 18.cxb3 18...Rb8 19.Ra3 Nd5 20.Ne4 Kg8 21.h4 21...Qe8 22.Bxa6 Bxa6 23.Qxa6 Bf6 24.Qc4 Nd7 25.Nc3 N7b6 26.Qe2 Qf7 27.Ne4 27...Rf8 28.Nxf6+ 28...exf6 29.Qxe6 Qxe6 30.Rxe6 Kf7 31.Re1 Rb8 32.Rc1 32...Nc8 33.Ne1 Nce7 34.Nd3 34...g5 35.hxg5 hxg5 36.b4 36...Rh4 37.Bc3 Rbh8 38.g3 38...Rh1+ 39.Kg2 R8h2+ 40.Kf3 40...g4+ 41.Kxg4 41...Rxc1 42.Nxc1 Rxf2 43.Be1 43...f5+ 44.Kh3 Rxb2 45.Nd3 Rc2 46.b5 Nf6 47.Rb3 Re2 48.b6 48...cxb6 49.Rxb6 49...Ne4 50.-- 50...Ng5+ 51.Kh4 Nf3+
-*
-
 [Event "Chapter Games 19-20"]
 [Site "Game 1"]
 [Date "????.??.??"]
@@ -151709,19 +150361,6 @@ Bxd5 23. Bxe4 Rad8 24. Bxd5 Rxd5 25. Be3 Red8 26. dxc5 Bxc5
 *
 
 [Event "Chapter Games 21-22"]
-[Site "Game 3"]
-[Date "????.??.??"]
-[Round "?"]
-[White "Chapter Games 21-22"]
-[Black "Game 3"]
-[Result "*"]
-[SetUp "1"]
-[FEN "rnb1kbnr/pp3ppp/1q2p3/3p4/3N2Q1/4P1P1/PPP2PBP/RNB1K2R w KQkq - 0 8"]
-
-8.0-0 Nf6 9.Qe2 e5 10.Qb5+ 10...Bd7 11.Qxb6 axb6 12.Nb3 Nc6 13.Bd2 13...Bd6 14.Nc3 Ne7 15.a4 15...0-0 16.Nb5 Bxb5 17.axb5 Rac8 18.Bc3 18...h5 19.Rfd1 Rfd8 20.Nd2 20...h4 21.Nf3 hxg3 22.hxg3 e4 23.Ng5 23...Ng6 24.Ra7 Rb8 25.Bd4 25...Bc5 26.Bxc5 26...bxc5 27.c4 Ne7 28.cxd5 28...Nc8 29.Ra4 29...Nb6 30.Ra3 Nc4 31.Rc3 31...Nd6 32.Rxc5 Ra8 33.Bh3 33...Re8 34.Rc7 34...Kf8 35.b6 35...Re5 36.Ne6+ 36...fxe6 37.dxe6 37...Nfe8 38.Rd7 Raa5 39.b4 39...Rad5 40.Ra1 Rb5 41.Ra8 Rxb6 42.Bg4 42...Rd5 43.Kg2 Rxb4 44.Ra1 Rbb5 45.Be2 45...Rb2 46.Bg4 Rdd2 47.Kh3 Rxf2 48.Kh4 Rh2+ 49.Bh3 49...g5+ 50.Kh5 50...Rxh3+ 51.Kg6 Rf2 52.e7+ Kg8 53.Rxd6 53...Rh7 54.Rd8 Rf6+ 55.Kxg5 Rg7+ 56.Kh5 Kh7
-*
-
-[Event "Chapter Games 21-22"]
 [Site "Game 4"]
 [Date "????.??.??"]
 [Round "?"]
@@ -151757,32 +150396,6 @@ Bxd5 23. Bxe4 Rad8 24. Bxd5 Rxd5 25. Be3 Red8 26. dxc5 Bxc5
 [FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
 
 1.d4 Nf6 2.Bf4 g6 3.Nc3 Bg7 4.e4 d6
-*
-
-[Event "Chapter Games 23-24"]
-[Site "Game 3"]
-[Date "????.??.??"]
-[Round "?"]
-[White "Chapter Games 23-24"]
-[Black "Game 3"]
-[Result "*"]
-[SetUp "1"]
-[FEN "rnbqkb1r/ppp1pp1p/3p1np1/8/3PPB2/2N5/PPP2PPP/R2QKBNR b KQkq - 0 4"]
-
-4...c6 5.Nf3 Bg7 6.Qd2 0-0 7.h3 7...Qa5 8.e5 8...dxe5 9.dxe5 Nd5 10.Nxd5 Qxd2+ 11.Bxd2 cxd5 12.0-0-0 Nc6 13.Bc3 13...e6 14.h4 14...h6 15.Bd3 15...Bd7 16.Rhe1 Rfc8 17.Rd2 17...Rab8 18.Rde2 b5 19.Nd4 b4 20.Nxc6 Bxc6 21.Bd4 21...Bb5 22.Kd2 22...h5 23.f4 Bf8 24.g4 24...hxg4 25.Rg1 25...Bc5 26.Bxc5 Rxc5 27.Rxg4 27...Kf8 28.Rh2 Bxd3 29.Kxd3 29...Rc4 30.h5 gxh5 31.Rxh5 Ke7 32.Rgh4 32...Rg8 33.f5 Rg3+ 34.Kd2 Rg2+ 35.Kd1 35...Rcxc2 36.f6+ 36...Kd7 37.Rxb4 a5 38.Rb8 Rcf2 39.Ke1 39...Kc6 40.Rc8+ 40...Kb5 41.Rh7 d4 42.Rg8 42...Re2+ 43.Kf1 Rgf2+ 44.Kg1 Rf4 45.Rxf7 Rxe5 46.Rc7 Rxf6 47.Rb8+ Ka6 48.Rc6+ Ka7 49.Rg8 Rf7 50.Rg6 Re1+ 51.Kg2 d3 52.Rd6 Re2+ 53.Kh3 d2 54.Rg8 54...Kb7 55.Rgd8 d1=Q 56.Rxd1 Rxb2 57.Re1 Rf6 58.Rd6 Rxa2 59.Kg3 59...Rb2 60.Re5 Rb3+ 61.Kg2 a4 62.Ra5 62...a3 63.Rda6 63...Rff3 64.Ra7+ 64...Kc6 65.R7a6+ Kd7 66.Ra7+ Kd6 67.R7a6+ Ke7 68.Re5 68...Rfc3 69.Rexe6+ Kd7 70.Kf2 70...Rb2+ 71.Re2 Rh3 72.Kg2 72...Rxe2+ 73.Kxh3 a2 74.Kg3 Kc7 75.Kf3 Kb7 76.Ra4 76...Rh2 77.Ke3 Kb6 78.Kd3 Kb5 79.Ra8 Kb4
-*
-
-[Event "Chapter Games 23-24"]
-[Site "Game 4"]
-[Date "????.??.??"]
-[Round "?"]
-[White "Chapter Games 23-24"]
-[Black "Game 4"]
-[Result "*"]
-[SetUp "1"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
-
-1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e5 6.Ndb5 d6 7.Nd5 7...Nxd5 8.exd5 Ne7 9.c4 Ng6 10.Qa4 Bd7 11.Qb4 11...Bf5 12.Qa4 12...Bd7 13.Qb4 Bf5 14.h4 h5 15.Bg5 15...Qb8 16.Be2 16...a6 17.Nc3 Qc7 18.g3 Be7 19.Be3 19...e4 20.0-0 0-0 21.Bxh5 Ne5 22.Be2 22...Qd7 23.Qa4 Qc8 24.c5 24...dxc5 25.Nxe4 25...c4 26.Nc3 26...b5 27.Qd1 b4 28.Na4 28...Be4 29.Qd4 29...Qf5 30.f4 30...Qg6 31.Bf2 Nd3 32.h5 32...Qf5 33.Bg4 33...Qxg4 34.Qxe4 Bd6 35.Qg2 Rae8 36.Bd4 36...Qxh5 37.Qf3 Qg6 38.Kh1 38...Re4 39.Bf2 Rfe8 40.-- 40...Nxf2+ 
 *
 
 [Event "Chapter Games 25-26"]
@@ -197233,3 +195846,123 @@ Bxd5 23. Bxe4 Rad8 24. Bxd5 Rxd5 25. Be3 Red8 26. dxc5 Bxc5
 22.exf4 Kxe6 23.fxe5 Kxe5 24.Rd7 Kxe4 25.Re7+ Kf4 26.Rf1+ Kg3 27.Rxf6 Rhg8
 28.Rxb7 Kxh4 29.Rb3 Raf8 30.Rxc6 Rf1+ 31.Kd2 Rf2+ 32.Ke3 Rxg2 33.Rxa6 g5
 34.a4 Rg3+ 35.Ke4 Rxb3 36.cxb3 g4 37.Ke3 0-1
+
+[Event "Grand Chess Tour Paris Rapid"]
+[Site "Paris FRA"]
+[Date "2016.06.10"]
+[Round "6"]
+[White "Veselin Topalov"]
+[Black "Magnus Carlsen"]
+[Result "0-1"]
+[ECO "C78"]
+[WhiteElo "2761"]
+[BlackElo "2855"]
+[Annotator "GM Magnus Carlsen"]
+[PlyCount "82"]
+[EventDate "2016.06.08"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 b5 7. Bb3 d6 8. a3
+O-O 9. Nc3 Na5 10. Ba2 Be6 11. d4 Bxa2 12. Rxa2 Nc6 13. d5 Nb8 14. Qe2 Nbd7 15.
+Rd1 Qc8 16. Nh4 {Forcing the next move} g6 17. g3 Ne8 18. Ng2 Ng7 {Preparing a
+possible ...f5. I would love to have a pawn on b7. Because on b5 is a bit of a
+weakness in this situations.} 19. Bh6 Nf6 {Intending a possible ...Ng4} 20. Ne3
+(20. f3 Qh3 21. Be3 {And black could try ...Nd7 & ...f5}) 20... Qh3 21. Bxg7
+Kxg7 22. b4 h5 23. a4 (23. Rb1) 23... a5 $1 24. Rb1 axb4 25. Rxb4 bxa4 26.
+Raxa4 {Black manages to exchange his weaknesses on the queenside.} Ng4 27. Nf1
+(27. Nxg4 hxg4 28. Qf1 Qh6) 27... h4 28. f3 hxg3 29. hxg3 (29. fxg4 gxh2+ {
+With the idea ...Qxc3}) 29... Nf6 {Now we have that situation of attacking
+with equal material!} 30. Qg2 Qh6 31. Qh2 Qg5 32. Qd2 Qh5 33. g4 Qh8 $3 {Now
+the dark squares are decisivedly weakened} 34. Nb5 Nh7 35. Qh2 (35. Nxc7 Ng5)
+35... Rfb8 36. c4 (36. Rxa8 Rxa8 37. Nxc7 Ra1 (37... Ra7 38. Nb5 Ra1) 38. Rb7
+Qd8 $5) 36... Qd8 {With a great position!} 37. Ne3 Bg5 38. Qe2 Bf4 39. Ng2 Bg3
+40. Qe3 Ng5 41. Kf1 Qh8 (41... Qh8 42. Qxg5 Qh1+) 0-1
+
+[Event "Bilbao - 9th Masters Final"]
+[Site "Bilbao ESP"]
+[Date "2016.07.15"]
+[Round "3.2"]
+[White "Carlsen, Magnus"]
+[Black "Karjakin, Sergey"]
+[Result "1-0"]
+[ECO "B50"]
+[WhiteElo "2855"]
+[BlackElo "2773"]
+[Annotator "GM Magnus Carlsen"]
+[PlyCount "79"]
+[EventDate "2016.??.??"]
+
+1. e4 c5 2. Nf3 d6 3. c3 Nf6 4. Be2 g6 $1 (4... Nxe4 5. Qa4+) (4... Nc6) (4...
+Nbd7) (4... Bd7) 5. O-O Bg7 6. Bb5+ Nc6 {Is also an excellente move} ({In case
+} 6... Bd7 7. Bxd7+ Qxd7 8. Re1 {It looks like white has lost a tempo. But
+once you get these structures with white goes d4, black takes and then ...d5.
+Then the bishop is misplaced on g7. It also weakens his kingside which also
+makes the h-pawn advance a lot stronger. So there is some point to it.}) ({
+Black has also other ways to play like...} 6... Nfd7 7. d4 O-O {Then ...Nc6
+later on trying to play some Benoni-like structure. Just also not bad for
+black. I won a rapid game against Fressinet.}) 7. d4 Qb6 8. Ba4 cxd4 9. cxd4
+O-O 10. d5 (10. Nc3 Bg4 $1) 10... Nb8 (10... Na5 {Also good for black}) 11. Nc3
+Bg4 $1 (11... Bd7 12. Bc2 {The white bishop is misplaced on a4} Bg4) 12. h3
+Bxf3 13. Qxf3 Nbd7 {It looks armonious for black.} 14. Rb1 Rfc8 15. Bc2 {So I
+decided to go for a kingside attack} Ne5 16. Qe2 Nfd7 17. Bg5 {So I'm asking
+questions} h6 (17... Bf6 {Is fine}) 18. Bh4 (18. Bxe7 f6) 18... g5 19. Bg3 Qa6
+(19... Ng6 {It was the obvious move} 20. Nd1 (20. Kh1 $5) 20... Nf4 21. Bxf4
+gxf4) 20. Qd1 Rc4 (20... Nc4 21. Bd3 Nc5 22. Be2 Bxc3 23. bxc3 Nxe4 24. Qd4 {
+I was not to convinced}) 21. Kh1 (21. f4 Rd4 22. Qxd4 (22. Qe1 Nd3) 22... Nf3+)
+21... Rac8 (21... Ng6 22. Bd3) 22. f4 gxf4 23. Bxf4 Qb6 24. Qh5 Nf6 25. Qf5 Qd8
+{With the idea ...Qd7} 26. Bb3 Rd4 27. Bxe5 dxe5 28. Rbd1 {Challenging the
+rook on d4} Qd7 29. Qf3 {Ready to take on d4} Rb4 {With the idea a5-a4} 30. Rd2
+Rf8 {Preparing ...Ne8-d7} (30... a5 31. Bd1) 31. g4 $1 a5 32. Rg2 Nh7 (32... a4
+33. Bd1 a3 34. bxa3) 33. h4 Rb6 34. g5 Kh8 (34... Rg6 35. Rfg1 hxg5 36. hxg5)
+35. Rfg1 f5 {Trying to muddy the waters} 36. Qh3 Rb4 37. gxh6 Bxh6 38. Qg3 Nf6
+39. Qg6 Ng4 40. Rxg4 (40. Rxg4 Rb6 41. Qxb6 $18 (41. d6 Rxd6)) 1-0
+
+[Event "Bilbao Masters"]
+[Site "Bilbao ESP"]
+[Date "2016.07.16"]
+[Round "4"]
+[White "Magnus Carlsen"]
+[Black "Wesley So"]
+[Result "1-0"]
+[ECO "C65"]
+[WhiteElo "2855"]
+[BlackElo "2770"]
+[Annotator "GM Magnus Carlsen"]
+[PlyCount "51"]
+[EventDate "2016.07.13"]
+
+{Can you survive without castling against the Wolrd Champion?} 1. e4 e5 2. Nf3
+Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. Qe2 (6. Nbd2 Bg4 7. h3 Bh5 8. g4 (8.
+Nf1) 8... Bg6 9. Nxe5 Qd4) 6... Qe7 7. Nbd2 Bg4 8. h3 Bh5 9. a3 (9. Nf1 {With
+the idea Nf1-g3. But Qe2 would be a waste in that case of ...Bxf3.}) (9. g4)
+9... Nd7 (9... a5 {black won't be able to castle queenside}) 10. b4 Bd6 (10...
+Bd4 11. Rb1 Bc3 12. O-O Bxd2 13. Bxd2 Bxf3 14. Qxf3 $14) 11. Nc4 f6 12. Ne3 {
+Now the point of a3-b4 is obvious because if the bishop was on c5 he had
+chopped ...Bxe3} a5 13. Nf5 Qf8 (13... Qf7 14. Rb1 axb4 15. axb4 {The a file
+won't be too useful for black}) 14. bxa5 (14. Nxd6+ {This would be a huge a
+strategical concession}) 14... Rxa5 15. O-O {Now is all about time.} Qf7 16. a4
+Nc5 (16... O-O 17. Bh6 $3 gxh6 18. Nxh6+) 17. Qe1 $1 {Attacking Ra5 and
+freeing the Nf3} b6 (17... Rxa4 18. Rxa4 Nxa4 19. Qa5 Nb6 20. Nxd6+) 18. Nd2
+Rxa4 19. Nc4 $1 Bf8 (19... Rxa1 20. Ncxd6+ cxd6 21. Nxd6+) (19... Kd7 20. Rxa4
+Nxa4 21. Ncxd6 cxd6 22. Qb4) (19... Be7 20. Be3 Rxa1 (20... Kd7 21. Rxa4 (21.
+Nxb6+) 21... Nxa4 22. f4) (20... O-O 21. Bh6 (21. Nxe7+ Qxe7 22. Bxc5 {wins a
+piece})) 21. Qxa1 O-O 22. Bh6) 20. Be3 Kd7 (20... Rxa1 21. Qxa1) 21. Qc3 {
+Threatening 22.Nxb6+ cxb6 23.Bxc5 Rxa1 24.Rxa1 winning!} Nxe4 (21... Rxc4 22.
+dxc4 Nxe4 23. Qd3+ Nd6 24. g4 Bg6 25. Rfd1 $16 {The rook on h8 and the bishop
+f8 do not play.}) 22. Nxb6+ $1 (22. dxe4 Qxc4) 22... cxb6 23. dxe4 Qc4 (23...
+Rxa1 24. Rxa1) 24. Qd2+ Kc7 25. g4 Bg6 26. Rfd1 {So I guess the lesson from
+this game is you should castle pretty early on. And sometimes delaying
+development in order to attain some positional goals can be profitable. But
+very often it is very risky. And most of all it forces you to play so
+precisely later on that it is just something that a lot of people want to do.
+You can see from this game that Wesley So is a very good player. So it feels
+like he can't break these rules from time to time because he is so good that
+he knows when to break them and when not to break them. Except sometimes he
+even he gets it wrong like in this game he couldn't really balance development
+and postional things. Actually I'm pretty proud of this game for playing very
+energetically, and you could say I wasn't too brave in this game. I didn't
+have to sacrifice so much material. But then again you don't always have to be.
+Sometimes it is enough to be able to sacrifice one pawn or to sacrifice some
+positional considerations for more time gains that you have to make. If you
+are brave to do it. And you follow it up well playing energetically taking
+your chances of exploiting your tactical opportunities that you have I think
+you can do very well.} 1-0

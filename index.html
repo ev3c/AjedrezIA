@@ -194,6 +194,7 @@ try {
                     <h2 class="panel-toggle">🧩 Problemas de Ajedrez <span class="panel-arrow">▲</span></h2>
                     <div class="panel-body">
                     <div class="config-section">
+                        <div class="fce-library-summary">~5,5 millones de problemas</div>
                         <label class="famous-section-label">Categoría:</label>
                         <select id="puzzle-theme-select" class="select">
                             <option value="all">— Todas —</option>
@@ -238,7 +239,7 @@ try {
                     <div class="panel-body">
                     <div class="config-section">
                         <label class="famous-section-label">⭐ Partidas Seleccionadas</label>
-                        <select id="famous-game-select" class="select">
+                        <select id="famous-game-select" class="select select-wide">
                             <option value="">— Elegir partida —</option>
                             <optgroup label="♔ Partidas Inmortales y Clásicas">
                                 <option value="immortal">La Partida Inmortal (Anderssen, 1851) (1-0)</option>
@@ -330,7 +331,7 @@ try {
                                 <option value="cand26-vaishali-lagno-r14">Vaishali vs Lagno R14 (1-0)</option>
                                 <option value="cand26-divya-deshmukh-assaubayeva-r14">Divya Deshmukh vs Assaubayeva R14 (1/2-1/2)</option>
                             </optgroup>
-                            <optgroup label="👑 Kasparov (11)">
+                            <optgroup label="👑 Kasparov (22)">
                                 <option value="kasparov-topalov">vs Topalov, Wijk aan Zee 1999 (1-0)</option>
                                 <option value="kasparov-shirov-94">vs Shirov, Horgen 1994 (1-0)</option>
                                 <option value="kasparov-portisch-83">vs Portisch, Niksic 1983 (1-0)</option>
@@ -340,8 +341,33 @@ try {
                                 <option value="karpov-kasparov-85">Karpov vs Kasparov, 1985 G16 (0-1)</option>
                                 <option value="karpov-kasparov-85-g24">Karpov vs Kasparov, 1985 G24 (0-1)</option>
                                 <option value="karpov-kasparov-87">Karpov vs Kasparov, 1987 G24 (1-0)</option>
-                                <option value="kasparov-deepblue">vs Deep Blue, 1997 (1-0)</option>
+                                <option value="deepblue-kasparov-96">Deep Blue vs Kasparov, 1996 G1 (1-0)</option>
+                                <option value="kasparov-deepblue-96-g2">Kasparov vs Deep Blue, 1996 G2 (1-0)</option>
+                                <option value="deepblue-kasparov-96-g3">Deep Blue vs Kasparov, 1996 G3 (½-½)</option>
+                                <option value="kasparov-deepblue-96-g4">Kasparov vs Deep Blue, 1996 G4 (½-½)</option>
+                                <option value="deepblue-kasparov-96-g5">Deep Blue vs Kasparov, 1996 G5 (0-1)</option>
+                                <option value="kasparov-deepblue-96-g6">Kasparov vs Deep Blue, 1996 G6 (1-0)</option>
+                                <option value="kasparov-deepblue-97-g1">Kasparov vs Deep Blue, 1997 G1 (1-0)</option>
+                                <option value="deepblue-kasparov-97-g2">Deep Blue vs Kasparov, 1997 G2 (1-0)</option>
+                                <option value="kasparov-deepblue-97-g3">Kasparov vs Deep Blue, 1997 G3 (½-½)</option>
+                                <option value="deepblue-kasparov-97-g4">Deep Blue vs Kasparov, 1997 G4 (½-½)</option>
+                                <option value="kasparov-deepblue-97-g5">Kasparov vs Deep Blue, 1997 G5 (½-½)</option>
+                                <option value="kasparov-deepblue">Deep Blue vs Kasparov, 1997 G6 (1-0)</option>
                                 <option value="polgar-kasparov">Polgar vs Kasparov, 2002 (1-0)</option>
+                            </optgroup>
+                            <optgroup label="🖥️ Deep Blue (12)">
+                                <option value="deepblue-kasparov-96">vs Kasparov, 1996 G1 (1-0)</option>
+                                <option value="kasparov-deepblue-96-g2">Kasparov vs Deep Blue, 1996 G2 (1-0)</option>
+                                <option value="deepblue-kasparov-96-g3">vs Kasparov, 1996 G3 (½-½)</option>
+                                <option value="kasparov-deepblue-96-g4">Kasparov vs Deep Blue, 1996 G4 (½-½)</option>
+                                <option value="deepblue-kasparov-96-g5">vs Kasparov, 1996 G5 (0-1)</option>
+                                <option value="kasparov-deepblue-96-g6">Kasparov vs Deep Blue, 1996 G6 (1-0)</option>
+                                <option value="kasparov-deepblue-97-g1">Kasparov vs Deep Blue, 1997 G1 (1-0)</option>
+                                <option value="deepblue-kasparov-97-g2">vs Kasparov, 1997 G2 (1-0)</option>
+                                <option value="kasparov-deepblue-97-g3">Kasparov vs Deep Blue, 1997 G3 (½-½)</option>
+                                <option value="deepblue-kasparov-97-g4">vs Kasparov, 1997 G4 (½-½)</option>
+                                <option value="kasparov-deepblue-97-g5">Kasparov vs Deep Blue, 1997 G5 (½-½)</option>
+                                <option value="kasparov-deepblue">vs Kasparov, 1997 G6 (1-0)</option>
                             </optgroup>
                             <optgroup label="👑 Fischer (8)">
                                 <option value="game-of-century">vs D. Byrne, 1956 — Partida del Siglo (0-1)</option>
@@ -422,7 +448,6 @@ try {
                                 <option value="ivanchuk-yusupov">Ivanchuk vs Yusupov, 1991 (0-1)</option>
                                 <option value="polgar-kasparov">Polgar vs Kasparov, 2002 (1-0)</option>
                                 <option value="geller-euwe">Geller vs Euwe, 1953 (0-1)</option>
-                                <option value="deepblue-kasparov-96">Deep Blue vs Kasparov, 1996 (1-0)</option>
                                 <option value="bogolyubov-monticelli">Bogolyubov vs Monticelli, 1930 (0-1)</option>
                                 <option value="torre-lasker">Torre vs Lasker, 1925 (1-0)</option>
                                 <option value="vallejo-shirov">Vallejo vs Shirov, 2002 (1-0)</option>
@@ -431,10 +456,10 @@ try {
                             </optgroup>
                         </select>
                     </div>
-                    <div class="famous-panel-divider"><span class="fpd-title">📚 Biblioteca de jugadores</span><span class="fpd-sub">~250 jugadores · ~268.000 partidas</span></div>
+                    <div class="famous-panel-divider"><span class="fpd-title">📚 Biblioteca de jugadores</span><span id="famous-library-summary" class="fpd-sub">~253 jugadores · ~264.236 partidas</span></div>
                     <div class="config-section">
                         <label class="famous-section-label">Selecciona un jugador:</label>
-                        <select id="famous-player-select" class="select">
+                        <select id="famous-player-select" class="select select-alphabetic">
                             <option value="">— Todos los jugadores —</option>
                         </select>
                     </div>
@@ -557,7 +582,7 @@ try {
                        <div class="board-action-buttons">
                            <button id="resign-game" class="btn-icon btn-danger" title="Abandonar">🏳️</button>
                            <button id="offer-draw" class="btn-icon btn-warning" title="Pedir Tablas">🤝</button>
-                           <button id="resume-game" class="btn-icon btn-success" title="Continuar Partida" disabled>▶</button>
+                           <button id="resume-game" class="btn-icon btn-success" title="Continuar Partida">▶</button>
                            <button id="undo-move" class="btn-icon btn-primary" title="Deshacer Movimiento">↺</button>
                            <button id="hint-move" class="btn-icon btn-yellow" title="Sugerencia de IA">💡</button>
                            <button id="analyze-game" class="btn-icon btn-orange" title="Analizar Partida">📊</button>
@@ -810,7 +835,7 @@ try {
                            <button id="resign-game-sidebar" class="btn btn-danger">🏳️ Abandonar</button>
                            <button id="offer-draw-sidebar" class="btn btn-warning">🤝 Pedir Tablas</button>
                            <button id="view-analysis" class="btn btn-primary" style="display: none;">📊 Ver análisis post-partida</button>
-                           <button id="resume-game-sidebar" class="btn btn-success" disabled>▶ Continuar Partida</button>
+                           <button id="resume-game-sidebar" class="btn btn-success">▶ Continuar Partida</button>
                            <button id="undo-move-sidebar" class="btn btn-primary">↺ Deshacer Movimiento</button>
                            <button id="hint-move-sidebar" class="btn btn-yellow">💡 Sugerencia de IA</button>
                            <button id="analyze-game-sidebar" class="btn btn-orange">📊 Analizar Partida</button>

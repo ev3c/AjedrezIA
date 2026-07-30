@@ -1,4 +1,4 @@
-﻿[Event "m"]
+[Event "m"]
 [Site "Rio de Janeiro"]
 [Date "1919.??.??"]
 [Round "?"]
@@ -11,7 +11,6 @@
 8. 0-0 Qxh4 9. Rxf4 Bd6 10. Nc3 Bxe5 11. dxe5 c6 12. Be3 Rh7 13. Bc5 b6
 14. Ba3 d5 15. Nxd5 cxd5 16. Qxd5 Qd8 17. Bb5+ Bd7 18. Qe6+
 1-0
-
 
 [Event "Buenos Aires-Rio"]
 [Site "tel"]
@@ -30,7 +29,6 @@ Bf8 26. Bd2 f4 27. Bxf4 Bg7 28. Rf3 Bxe5 29. Bxe5 Rxe5 30. Rfe3 Rbe8 31. Bc2
 Kg7 32. Bxg6 Rxe3 33. Rxe3 Rxe3 34. fxe3 fxg6 35. b4 Kf6 36. Kf2 Ke5 37. Kf3
 Kf5
 1/2-1/2
-
 
 [Event "Buenos Aires-Rio"]
 [Site "tel"]
@@ -52,7 +50,6 @@ Rxe8 26. cxd4 Bxd3 27. Qxd3 Qxd4 28. Qxd4 Bxd4 29. Be3 Bxe3 30. fxe3 Rxe3
 Kf5 49. Rh8 a5 50. g4+ Ke4 51. Re8+ Kf3 52. Rf8+ Rf4 53. Rf5
 1/2-1/2
 
-
 [Event "m"]
 [Site "Rio de Janeiro"]
 [Date "1920.??.??"]
@@ -72,7 +69,6 @@ Re2+ 38. Rxe2 Qxe2+ 39. Kh3 d3 40. a6 Qxf3 41. a7 Qf1+ 42. Kh4 Kh7 43. Qc5
 d2 44. Qc2+ g6 45. a8Q d1Q
 0-1
 
-
 [Event "m"]
 [Site "Rio de Janeiro"]
 [Date "1920.??.??"]
@@ -89,7 +85,6 @@ Rg8 20. Rg6 f6 21. Rxg8+ Rxg8 22. Bf4 f5 23. Nf3 fxe4 24. Bxe4 Bxe4 25. Rxe4
 Qf7 26. Qe2 Nf6 27. Re7 Qh5 28. Qe6 Nd5 29. Ng5 Nxe7 30. Qxe7 Rxg5 31. Bxg5
 Qg6 32. Qf6+
 1-0
-
 
 [Event "m"]
 [Site "Rio de Janeiro"]
@@ -109,43 +104,6 @@ Bd8 33. Bc1 Nb6 34. Bd1 Na4 35. Bg4 Qe7 36. Be6 Qf6 37. Qxf6 Bxf6 38. Bd2
 Nb6 39. Nf3 Kf8 40. Ne1 Nd8 41. Bf5 g6 42. Bh3 Ke7 43. Nc2
 1-0
 
-
-[Event "nt"]
-[Site "Rio de Janeiro"]
-[Date "1921.??.??"]
-[Round "?"]
-[White "Souza Mendes, Joao"]
-[Black "Trompowsky, Octavio"]
-[Result "0-1"]
-[ECO "D05"]
-
-1. d4 d5 2. e3 e6 3. Bd3 c5 4. c3 Nf6 5. Nd2 Nc6 6. f4 h5 7. Qf3 cxd4
-8. exd4 Bd6 9. Ne2 g6 10. h3 h4 11. Qe3 Ne7 12. Nf3 Nf5 13. Qf2 a6 14. g4
-hxg3ep 15. Nxg3 Nxg3 16. Qxg3 Ne4 17. Qg2 Bd7 18. Be3 Qe7 19. 0-0-0 Bc6
-20. Ne5 Qc7 21. Kb1 b5 22. Nxc6 Qxc6 23. Rde1 Ke7 24. Bc1 f5 25. h4 Rag8
-26. Reg1 Kf7 27. Be2 b4 28. cxb4 Bxb4 29. Bf3 Qc4 30. Qc2 Qxc2+ 31. Kxc2
-Rc8+ 32. Kb1 Rxc1+ 33. Kxc1 Rc8+ 34. Kd1 Nf2+ 35. Ke2 Rc2+ 36. Ke3 Nxh1
-37. Bxh1 Rxb2 38. Rg2 Rxg2 39. Bxg2 Be1
-0-1
-
-
-[Event "m"]
-[Site "Rio de Janeiro"]
-[Date "1922.??.??"]
-[Round "?"]
-[White "Barboza de Oliveira, Ant"]
-[Black "Trompowsky, Octavio"]
-[Result "0-1"]
-[ECO "B26"]
-
-1. e4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. Nge2 d6 6. d3 e6 7. Be3 Qb6
-8. Qc1 Nge7 9. a3 Nd4 10. Rb1 a5 11. Nf4 Bd7 12. h4 h6 13. 0-0 Bc6 14. Qd2
-a4 15. Nce2 d5 16. exd5 exd5 17. Bxd4 cxd4 18. b4 axb3ep 19. Rxb3 Qc5
-20. Qb4 Ra5 21. c3 Nf5 22. Nxd4 Nxd4 23. cxd4 Bxd4 24. Re1+ Kf8 25. Qd2
-Kg7 26. Re7 Bxf2+ 27. Kh2 Qxe7 28. Qxf2 Rha8 29. Qb2+ Kh7
-0-1
-
-
 [Event "m"]
 [Site "Rio de Janeiro"]
 [Date "1922.??.??"]
@@ -162,7 +120,6 @@ b4 20. axb4 Bxb4 21. Nxa4 Nxa4+ 22. bxa4 Rxa4 23. Kb3 Rha8 24. c3 Bd6
 25. Bf1 Rb8+ 26. Kxa4 Bc2+ 27. Ka5 Bxd1 28. Nd2 Rb2
 0-1
 
-
 [Event "m"]
 [Site "Rio de Janeiro"]
 [Date "1922.??.??"]
@@ -177,7 +134,6 @@ b4 20. axb4 Bxb4 21. Nxa4 Nxa4+ 22. bxa4 Rxa4 23. Kb3 Rha8 24. c3 Bd6
 0-0 14. Nxe4 Bxe4 15. Qxe4 Qxc5 16. Qxe5 Qxc2 17. Rac1 Qg6 18. Rxc6 Rfe8
 19. Re6 Ne4 20. Rxg6 Rxe5 21. Bxd8 hxg6 22. Bxc7 Rc5 23. Bf4
 1-0
-
 
 [Event "m"]
 [Site "Rio de Janeiro"]
@@ -194,7 +150,6 @@ b4 20. axb4 Bxb4 21. Nxa4 Nxa4+ 22. bxa4 Rxa4 23. Kb3 Rha8 24. c3 Bd6
 Kg8 20. Rxe7 Qb6+ 21. Be3 Qb1+ 22. Kf2 Qxc2+ 23. Kg3 Ng7 24. d6+ Be6 25. Bxe6+
 1-0
 
-
 [Event "nt"]
 [Site "Rio de Janeiro"]
 [Date "1922.??.??"]
@@ -209,25 +164,6 @@ Be7 8. Bxc6 bxc6 9. b3 0-0 10. Bb2 Qc8 11. Qd3 Re8 12. f4 Qb7 13. e5 Nd5
 14. Qf3 Rab8 15. Kh1 Nxc3 16. Qxc3 Bf8 17. Rae1 Qa6 18. a3 dxe5 19. fxe5
 Rxe5 20. Qf3 Rxe1 21. Qxf7+ Kh8 22. Rxe1 Rd8 23. Nf5
 1-0
-
-
-[Event "DF ch"]
-[Site "Rio de Janeiro"]
-[Date "1923.??.??"]
-[Round "?"]
-[White "Carlos, Heitor"]
-[Black "Trompowsky, Octavio"]
-[Result "0-1"]
-[ECO "A46"]
-
-1. d4 Nf6 2. Nf3 e6 3. Bg5 h6 4. Bxf6 gxf6 5. e4 d5 6. e5 c5 7. c3 Nc6
-8. Be2 Bd7 9. 0-0 fxe5 10. Nxe5 Nxe5 11. dxe5 Rg8 12. f4 Bc6 13. Bf3 c4
-14. b4 cxb3ep 15. axb3 Bc5+ 16. Kh1 Qh4 17. Qd2 0-0-0 18. Na3 Rg7 19. b4
-Bb6 20. Nc2 Bb5 21. Be2 Bxe2 22. Qxe2 Rdg8 23. Ne3 Rg3 24. Rf3 Qh5 25. Re1
-Rxf3 26. gxf3 Qg6 27. Ng2 h5 28. c4 dxc4 29. Qxc4+ Kb8 30. Qf1 h4 31. Nxh4
-Qh5 32. Ng2 Rh8 33. h4 Qg6 34. Kh2 Rg8 35. Kh1 Qg3
-0-1
-
 
 [Event "DF ch"]
 [Site "Rio de Janeiro"]
@@ -245,7 +181,6 @@ d4 14. Bd2 Qd6 15. a3 Nh5 16. Rc1 Nf4 17. g3 Ne6 18. Nh3 Kd7 19. Rf2 Ne7
 Qxe6 26. Rxf7 Rg2 27. Rf2 Rhg8 28. Bf4 Nd5 29. Bg3 Ne3 30. Qe1 Qe7 31. Qb4
 Qg7 32. Rxg2 hxg2+ 33. Kg1 Rf8 34. Bf2 Rxf2 35. Kxf2 Qf6+
 0-1
-
 
 [Event "DF ch"]
 [Site "Rio de Janeiro"]
@@ -265,7 +200,6 @@ Bd7 27. g5 hxg5 28. h6 Nf5 29. Nxf5 exf5 30. hxg7 Kxg7 31. Bxf8+ Kxf8
 Ke8 38. Rh2
 1-0
 
-
 [Event "m"]
 [Site "Rio de Janeiro"]
 [Date "1923.??.??"]
@@ -283,7 +217,6 @@ Qxf2+ 27. Kxf2 Nf8 28. Bd3 Ne6 29. Bb1 Kf8 30. Ke3 Bc6 31. Ne2 Ke7 32. R6d2
 Red8 33. Ba2 Rxd2 34. Rxd2 Rd8 35. Rxd8 Nxd8
 1/2-1/2
 
-
 [Event "m"]
 [Site "Rio de Janeiro"]
 [Date "1923.??.??"]
@@ -299,7 +232,6 @@ Ng6 14. Nb3 Bb4 15. Bd4 Be6 16. a3 Bxb3 17. cxb3 Rxd4 18. Rxd4 Bc5 19. Rd1
 Rd8 20. Ne2 Nf4 21. Kf1 Bxd4 22. Rxd4 Rxd4 23. Nxd4 c5 24. Nf5 g6 25. Ne7+
 Kd7 26. g3 Nd3 27. Nd5 Ke6 28. Nf4+ Nxf4 29. gxf4
 1/2-1/2
-
 
 [Event "m"]
 [Site "Rio de Janeiro"]
@@ -323,7 +255,6 @@ Bc5 55. Ke4 Bd6 56. Kd4 Ke7 57. Ra7+ Kf6 58. Rh7 Kg5 59. Ke4 b4 60. Rd7
 Bg3 61. Rf7 Be1 62. Ke5 Bc3+ 63. Kxe6 b3 64. Rf5+ Kg6 65. Rb5 b2
 1/2-1/2
 
-
 [Event "free"]
 [Site "Rio de Janeiro"]
 [Date "1924.??.??"]
@@ -342,7 +273,6 @@ Kh8 27. Qc6 Ng5 28. Nxh4 Nxh3+ 29. gxh3 Qxh4 30. Qxd6 Rxf5 31. Ra8+ Kh7
 Ke2 38. Qe4+ Kd2 39. Rxg7 Rh5 40. c3 f3
 0-1
 
-
 [Event "m"]
 [Site "Rio de Janeiro"]
 [Date "1924.??.??"]
@@ -360,7 +290,6 @@ Qc8 27. g4 Rh8 28. g5 Nd7 29. Rd2 Nf8 30. Rxd8 Bxd8 31. Rd1 Ne6 32. gxf6+
 Bxf6 33. Ng4 Rxh4 34. Nxf6 Kxf6 35. Rd6 Qh8 36. Kf1 Ke7
 0-1
 
-
 [Event "Sulamericano"]
 [Site "Montevideo"]
 [Date "1925.??.??"]
@@ -377,7 +306,6 @@ Re6 20. Rdf1 Rd7 21. Bxe5 Nxe4 22. Qxe4 Bxe5 23. Rf8+ Kg7 24. Qf3 Qd6
 25. Rf7+ Rxf7 26. Qxf7+ Kh6 27. Qf8+ Qxf8 28. Rxf8 Bd4 29. Kf1 Re5 30. Rf7
 Rf5+ 31. Rxf5 gxf5 32. Ke2 Kg5 33. Kf3 Be5 34. Ne7 a6 35. h4+ Kh5 36. Nxf5
 1-0
-
 
 [Event "Sulamericano"]
 [Site "Montevideo"]
@@ -397,7 +325,6 @@ Rc8 32. Kb3 Rf6 33. h6 g6 34. d5 Rc7 35. Nc6 Kf8 36. Rg5 Kf7 37. Re5 Kf8
 38. Rh1 Nf5 39. Kc3 Nd6 40. Rhe1 Rd7 41. a5 b5 42. c5 Nf5 43. Re8+
 1-0
 
-
 [Event "Sulamericano"]
 [Site "Montevideo"]
 [Date "1925.??.??"]
@@ -413,7 +340,6 @@ d6 8. f4 Nbd7 9. Nf3 Qe7 10. 0-0 h6 11. e5 Ng8 12. f5 0-0-0 13. exd6 Qxd6
 20. Qxe6 Qxe6 21. Rxe6 Nf4 22. Re3 Nxd3 23. Rxd3 Ba6 24. Re1 Bxc4 25. Rde3
 Rf7 26. dxc5 bxc5 27. Nd2 Bd5 28. Ne4 Kc7 29. Nxc5 Nxc5 30. Bxc5
 1/2-1/2
-
 
 [Event "Sulamericano"]
 [Site "Montevideo"]
@@ -433,7 +359,6 @@ Qd4+ 33. Kf1 Rf8+ 34. Rf7 Rxf7+ 35. Bxf7 Kg7 36. Bh5 Kf6 37. Qxd4+ cxd4
 38. Ke2
 1-0
 
-
 [Event "Sulamericano"]
 [Site "Montevideo"]
 [Date "1925.??.??"]
@@ -452,7 +377,6 @@ Nxf4 32. Qc3 Rf8 33. Bc6 Qc8 34. Re8 Rxe8 35. Rxe8+ Qxe8 36. Bxe8 Ne2+
 37. Kf2 Nxc3 38. bxc3 Rg5 39. Bd7 Rg4
 0-1
 
-
 [Event "Sulamericano"]
 [Site "Montevideo"]
 [Date "1925.??.??"]
@@ -468,7 +392,6 @@ Nxf4 32. Qc3 Rf8 33. Bc6 Qc8 34. Re8 Rxe8 35. Rxe8+ Qxe8 36. Bxe8 Ne2+
 Nxe2 20. Kxe2 Rc7 21. Rad1 Rfc8 22. Bb3 Bc5 23. Qd2
 1/2-1/2
 
-
 [Event "Sulamericano"]
 [Site "Montevideo"]
 [Date "1925.??.??"]
@@ -481,7 +404,6 @@ Nxe2 20. Kxe2 Rc7 21. Rad1 Rfc8 22. Bb3 Bc5 23. Qd2
 1. Nf3 f5 2. Nc3 Nf6 3. d3 e6 4. e4 d6 5. e5 dxe5 6. Nxe5 Bb4 7. a3 Bc5
 8. Bf4 0-0 9. h3 c6 10. Be2 Qd4 11. Bg3 Nd5 12. Nxd5 Qxd5 13. Bf3 Qd8
 0-1
-
 
 [Event "Sulamericano"]
 [Site "Montevideo"]
@@ -500,7 +422,6 @@ Be6 19. Nd2 Rd7 20. a4 a6 21. a5 h6 22. Be3 Rhd8 23. Rb2 Re7 24. Bc5 Ree8
 31. g4 h5 32. Kf4 hxg4 33. hxg4 Rh8 34. Bf2 Bd7 35. g5 Rh5 36. Nc5 Bc6
 37. Rd4 Rhxg5 38. e6 Rxc5
 0-1
-
 
 [Event "cons"]
 [Site "Rio de Janeiro"]
@@ -522,7 +443,6 @@ Kh8 39. Qxg7+ Kxg7 40. Bb7 Rgd8 41. Rec2 Rd1+ 42. Rxd1 Rxd1+ 43. Kh2 Rd2
 Rd4
 1/2-1/2
 
-
 [Event "m"]
 [Site "Rio de Janeiro"]
 [Date "1925.??.??"]
@@ -537,24 +457,6 @@ Rd4
 14. Qxe5 dxe5 15. Bc4+ Nd5 16. Bxd8 bxc4 17. Nfxd5 cxd5 18. Nxd5 Nc6 19. Ne7+
 Nxe7 20. Bxe7
 1-0
-
-
-[Event "ARG-BRA"]
-[Site "tel"]
-[Date "1925.??.??"]
-[Round "?"]
-[White "Trompowsky, Octavio"]
-[Black "Subira y del Rio, Mariano"]
-[Result "1/2-1/2"]
-[ECO "A50"]
-
-1. d4 Nf6 2. Nf3 b6 3. c4 Bb7 4. Nc3 g6 5. Bf4 Bg7 6. e3 d6 7. Bd3 Nbd7
-8. e4 Nh5 9. Be3 e5 10. d5 0-0 11. Qc2 Nc5 12. g4 Nf4 13. Bxf4 exf4 14. 0-0-0
-a5 15. g5 Bc8 16. h3 f5 17. gxf6ep Qxf6 18. Rdg1 Bd7 19. h4 Rab8 20. h5
-b5 21. cxb5 Nxd3+ 22. Qxd3 Bxb5 23. Qd2 a4 24. a3 Bd7 25. hxg6 h6 26. Rh5
-Rb3 27. e5 dxe5 28. Nxe5 Bf5 29. Nc6 Qd6 30. Nd4
-1/2-1/2
-
 
 [Event "BRA-URU"]
 [Site "tel"]
@@ -574,7 +476,6 @@ Ng4 32. Rc2 Rb8 33. Rb6 Rbd8 34. Kh4 Rb8 35. Ba2 Rbd8 36. b4 Ne3 37. Rb2
 Nf5+ 38. Kh3 Nd6 39. a5 Nc8 40. b5 Nxb6
 0-1
 
-
 [Event "BRA-URU"]
 [Site "tel"]
 [Date "1926.??.??"]
@@ -592,7 +493,6 @@ Nh5 26. Rf2 Ng3 27. Bd3 e5 28. fxe5 dxe5 29. Ne3 Qd6 30. Rh4 Ne4 31. Bxe4
 Bxe4 32. Qxa5 Rfg6 33. Qd2 Qe7 34. Rh5 Qf7 35. Rh4 Qa7 36. g4 f4 37. Nc4
 Rg5 38. Kf1 Bd5 39. Rh6 Qg7
 1/2-1/2
-
 
 [Event "cons"]
 [Site "Rio de Janeiro"]
@@ -612,7 +512,6 @@ g5 32. Ke4 gxf4 33. Kxf4 Rd7 34. Bd3 h6 35. h4 Re7 36. Rc6 Re8 37. g5
 hxg5+ 38. hxg5 Bb4 39. Kf5
 1/2-1/2
 
-
 [Event "blind/simul"]
 [Site "Rio de Janeiro"]
 [Date "1927.??.??"]
@@ -628,7 +527,6 @@ hxg5+ 38. hxg5 Bb4 39. Kf5
 Nxc3 20. Bxf6 gxf6 21. Nxd7 Qxd7 22. Qd2 Nd5 23. Rxc8 Rxc8 24. Qxh6 f5
 25. Rh3 Ne7 26. Rg3+ Ng6 27. h5 Qxd4 28. hxg6 Qa1+ 29. Ke2
 1-0
-
 
 [Event "blind/simul"]
 [Site "Rio de Janeiro"]
@@ -647,24 +545,6 @@ Bb6 27. Ne6 Rfe8 28. Be3 Ne7 29. Bxc5 dxc5 30. d6 Ng8 31. Be4 Ra7 32. Rad1
 Rb8 33. Bc6 Nh6 34. d7 Nf7 35. Nxg5 Rxd7 36. Rxd7 Nxg5 37. Ree7
 1-0
 
-
-[Event "DF IC"]
-[Site "Rio de Janeiro"]
-[Date "1928.??.??"]
-[Round "?"]
-[White "Trompowsky, Octavio"]
-[Black "Cruz Filho, Oswaldo"]
-[Result "1-0"]
-[ECO "D53"]
-
-1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 Nbd7 6. Rc1 c6 7. f4 0-0
-8. Nf3 dxc4 9. Bxc4 b5 10. Bd3 Bb7 11. 0-0 a6 12. Bb1 Rc8 13. Qd3 c5 14. Ne5
-g6 15. Rcd1 cxd4 16. exd4 Nd5 17. Ne4 Bxg5 18. fxg5 Nxe5 19. dxe5 Qb6+
-20. Rf2 Rcd8 21. Qh3 h5 22. gxh6ep Ne3 23. Rxd8 Rxd8 24. Nd6 Rxd6 25. exd6
-Nd1 26. Qh4 Qxf2+ 27. Qxf2 Nxf2 28. d7
-1-0
-
-
 [Event "nt"]
 [Site "Rio de Janeiro"]
 [Date "1928.??.??"]
@@ -679,7 +559,6 @@ e6 8. d4 cxd4 9. Nxd4 Bd7 10. Bf4 a6 11. 0-0-0 Be7 12. Rhe1 Qc8 13. Qxc8+
 Bxc8 14. Nf5 exf5 15. Nd5 0-0 16. Rxe7 Nc6 17. Rc7 Be6 18. Rxb7 a5 19. Nc7
 Rac8 20. Nxe6 fxe6 21. Rdd7
 1-0
-
 
 [Event "m"]
 [Site "Rio de Janeiro"]
@@ -699,7 +578,6 @@ Rxc6+ 32. Kd2 Kf8 33. Nc3 Rb8 34. Ra4 Rb2+ 35. Kd3 Rxg2 36. Rf3 Bg4 37. Re3
 Bf5+ 38. Ne4 Rg4
 0-1
 
-
 [Event "DF IC"]
 [Site "Rio de Janeiro"]
 [Date "1929.10.??"]
@@ -717,7 +595,6 @@ Bf5+ 38. Ne4 Rg4
 32. a4 c6 33. a5 Bh5 34. g3 Qc7 35. Re1 Be8 36. Qb4 Ra8 37. Ra1
 1-0
 
-
 [Event "DF IC"]
 [Site "Rio de Janeiro"]
 [Date "1929.10.??"]
@@ -734,7 +611,6 @@ g5 21. Rxe6 cxb2 22. Rce1 Bc5 23. Bf2 Bxd4 24. Bxd4 Rfd8 25. Bxf6 Qxd3
 26. Bxd3 fxe6 27. Bxd8 Rxd8 28. Bb1 Rd2 29. Kf1 Bd5
 0-1
 
-
 [Event "DF IC"]
 [Site "Rio de Janeiro"]
 [Date "1929.10.??"]
@@ -750,7 +626,6 @@ Kxf8 15. h5 Kg7 16. hxg6 hxg6 17. Rxh8 Kxh8 18. Nf7+ Kg7 19. Nd6 Bd7 20. Be2
 a6 21. Bf3 Ra7 22. Ke2 Rc7 23. Rh1 g5 24. Bxd5 cxd5 25. Bxg5 Nc6 26. Bf6+
 Kg6 27. Rh8 b4 28. Rg8+ Kh5 29. Rg5+ Kh4 30. Nf7 Be8 31. Rxf5+ Kg4 32. Nh6#
 1-0
-
 
 [Event "Circulo-Fluminense"]
 [Site "radio"]
@@ -770,7 +645,6 @@ h5 32. Rd6+ Ke7 33. Rc6 Kf7 34. Bg5 a5 35. Rc7+ Kg6 36. h4 a4 37. d6 axb3
 38. axb3 c4 39. d7 cxb3 40. Rc8 b2 41. d8Q Rxc8 42. Qxd4
 1-0
 
-
 [Event "DF ch"]
 [Site "Rio de Janeiro"]
 [Date "1931.??.??"]
@@ -787,7 +661,6 @@ Rac8 21. 0-0 Ne4 22. Qb2 Rf6 23. Nd2 Nc5 24. Qc2 Rg6 25. f3 Ne6 26. Rc1
 Qc5 27. Qb3 f4 28. Kf2 fxe3+
 0-1
 
-
 [Event "DF ch"]
 [Site "Rio de Janeiro"]
 [Date "1931.??.??"]
@@ -803,7 +676,6 @@ Qc5 27. Qb3 f4 28. Kf2 fxe3+
 20. Rab1 Kh8 21. Qd1 Rg8 22. Qh5 Nf5 23. Kh2 Raf8 24. g4 Nh4 25. g5 Nf3+
 26. Kh1 Bxg5 27. fxg5 Qd6 28. Be1 Rxg5 29. Qxg5 Nxg5
 0-1
-
 
 [Event "DF ch"]
 [Site "Rio de Janeiro"]
@@ -823,7 +695,6 @@ Qxe3 32. d5 Qf3+ 33. Qxf3 exf3 34. Rxg7 Rxg7 35. Rg1 Rg6 36. Rxg6 hxg6
 37. d6
 1-0
 
-
 [Event "DF ch"]
 [Site "Rio de Janeiro"]
 [Date "1931.??.??"]
@@ -838,7 +709,6 @@ d6 8. Ne2 Nbd7 9. 0-0 e5 10. f4 0-0 11. Ng3 Re8 12. Bd2 a6 13. Rae1 Bc6
 14. Nf5 b5 15. fxe5 dxe5 16. c5 Rb8 17. Bg5 Kh8 18. d5 Ba8 19. c6 Nc5
 20. Nxg7 Kxg7 21. Bxf6+ Qxf6 22. Rxf6
 1-0
-
 
 [Event "nt"]
 [Site "Rio de Janeiro"]
@@ -856,7 +726,6 @@ d6 8. Ne2 Nbd7 9. 0-0 e5 10. f4 0-0 11. Ng3 Re8 12. Bd2 a6 13. Rae1 Bc6
 Ng5 26. Ra3 Qxa3 27. Bxa3 f3+ 28. Rxf3 Rxf3 29. Bxf8 Rf2+ 30. Kh1 Nf3
 0-1
 
-
 [Event "ABX-Jaque Mate"]
 [Site "cable"]
 [Date "1933.??.??"]
@@ -873,7 +742,6 @@ Ne8 21. Be7 Bxf5 22. Bxa3 cxb3 23. axb3 Bd7 24. Bd3 Be6 25. Bxb5 Bxb3
 26. Bxe8 Rxe8 27. Bd6 Qb7 28. Bxe5 Nc4 29. Qd5 Qxd5 30. exd5 Nxe5 31. Rxe5
 Rxe5 32. Nxe5 Bxd5 33. c4 f6 34. Nd7 Bc6 35. Nb6
 1/2-1/2
-
 
 [Event "ABX-Jaque Mate"]
 [Site "cable"]
@@ -896,7 +764,6 @@ Rxh6 50. Nxb7 Rh5 51. Nd6 Rd5 52. Nf7 Ra5+ 53. Kb4 Rb5+ 54. Ka4 Bb1 55. Ne5
 Bxa2 56. Nxc6+ Kc8 57. Na7+ Kd8 58. Nc6+ Kc8 59. Ka3 Bb1
 1/2-1/2
 
-
 [Event "bank tt"]
 [Site "Rio de Janeiro"]
 [Date "1934.10.??"]
@@ -913,7 +780,6 @@ Rh6 21. a4 a6 22. Rfb1 Rf8 23. b5 axb5 24. axb5 Bd8 25. Ra7 Rf7 26. bxc6
 Rxc6 27. Qb5 Rc7 28. Ba5
 1-0
 
-
 [Event "bank tt"]
 [Site "Rio de Janeiro"]
 [Date "1934.10.??"]
@@ -928,7 +794,6 @@ Rxc6 27. Qb5 Rc7 28. Ba5
 14. Qa3 a6 15. Nd2 f5 16. e4 f4 17. e5 0-0-0 18. Ne4 Nb6 19. axb5 axb5
 20. Nd6+ Rxd6 21. exd6 Qd7 22. Qc5
 1-0
-
 
 [Event "simul"]
 [Site "Recife"]
@@ -948,7 +813,6 @@ Rb5 33. Re2 Be6 34. Rbe1 Re8 35. Nc5 Qb6 36. Nxe6+ fxe6 37. Qd3 Kf7 38. Rc1
 Rc8 39. Kf1 Rc5 40. Rec2 Rc3 41. Rxc3
 1-0
 
-
 [Event "BRA-Berliner G."]
 [Site "Berlin"]
 [Date "1936.08.??"]
@@ -965,7 +829,6 @@ Nc5 21. g3 g4 22. f4 Ne4 23. Be1 Rg7 24. Qa4+ Rd7 25. fxe5 Qxe5 26. Nf4
 Bxc3 27. Rc1 Nc5 28. Qc2 Bxe1 29. Rxe1 Rdc7 30. Kg2 Nd7 31. Qa4 Kf7 32. h3
 Nf6 33. hxg4 Nxg4 34. Kf3 b5 35. Qb4 Rc4 36. Qb1 Rc2
 0-1
-
 
 [Event "ol"]
 [Site "Muenchen"]
@@ -985,7 +848,6 @@ Ne7 32. g4 f5 33. g5 Kd7 34. Kd2 Ke6 35. Kd3 Nd5 36. Ra4 Nc7 37. b6 Nb5
 38. Rc4 Rd8 39. a4 Nd6 40. Rc7 Rd7
 1/2-1/2
 
-
 [Event "ol"]
 [Site "Muenchen"]
 [Date "1936.08.??"]
@@ -1003,7 +865,6 @@ Bc4 21. Qf3 Bxc3 22. Bxc4 Bd2 23. Rc2 exf4 24. Rxd2 Rxc4 25. Qxf4 Rxe4
 Qxe2 32. Rg1 Qe4 33. Qe1 f5 34. Qc3+ f6 35. Qd2 Rg5 36. Re1 Qc6
 1/2-1/2
 
-
 [Event "ol"]
 [Site "Muenchen"]
 [Date "1936.08.??"]
@@ -1017,7 +878,6 @@ Qxe2 32. Rg1 Qe4 33. Qe1 f5 34. Qc3+ f6 35. Qd2 Rg5 36. Re1 Qc6
 0-0 8. e3 b6 9. Be2 Bb7 10. Rd1 h6 11. 0-0 Ne7 12. e4 Ng6 13. Bc1 Qc7
 14. a3 a5 15. g3 Rad8 16. b3 Ng4 17. h3 Qxg3+
 0-1
-
 
 [Event "ol"]
 [Site "Muenchen"]
@@ -1034,7 +894,6 @@ Qf6 14. h5 Re8 15. hxg6 hxg6 16. 0-0-0 b5 17. Bb3 Qg7 18. Rh4 Nf6 19. Rdh1
 Be6 20. Qh2 Kf8 21. Rh8+ Ke7 22. Qc7+ Bd7 23. Qe5+ Kd8 24. R1h7
 1-0
 
-
 [Event "ol"]
 [Site "Muenchen"]
 [Date "1936.08.??"]
@@ -1050,7 +909,6 @@ Re8 15. Bf4 Kg7 16. Ne5 Nf8 17. Bxh6+ Kg8 18. h4 N6h7 19. h5 g5 20. Bxf8
 Nxf8 21. h6 f5 22. Qe2 Bf6 23. h7+ Nxh7 24. Rxh7
 1-0
 
-
 [Event "ol"]
 [Site "Muenchen"]
 [Date "1936.08.??"]
@@ -1065,7 +923,6 @@ Nxf8 21. h6 f5 22. Qe2 Bf6 23. h7+ Nxh7 24. Rxh7
 14. Bc2 Qa5 15. Ne5 Bc3 16. Bxc3 Qxc3 17. Rad1 Qa5 18. c5 Qc7 19. f4 b6
 20. g4 a5 21. Bd3 Bb7 22. g5 Nd5 23. cxb6 Qxb6 24. Bxh7+
 1-0
-
 
 [Event "ol"]
 [Site "Muenchen"]
@@ -1085,7 +942,6 @@ Qh8 33. Qh4 Rd8 34. Kf2 Kc8 35. b4 Qg7 36. Qe7 Rg8 37. Ke3 Qg1+ 38. Kd2
 Rg2+ 39. Be2 Qd4+ 40. Kc1 Rg1+
 0-1
 
-
 [Event "ol"]
 [Site "Muenchen"]
 [Date "1936.08.??"]
@@ -1104,7 +960,6 @@ Rd6 32. Rc7 Nf7 33. Re7 Ng5 34. Rc1 Re6 35. Rxe6 Nxe6 36. Nd7 Rd8 37. Nxf6+
 Kf7 38. Nxe4
 1-0
 
-
 [Event "ol"]
 [Site "Muenchen"]
 [Date "1936.08.??"]
@@ -1119,7 +974,6 @@ Kf7 38. Nxe4
 Qb8 15. Bb1 d5 16. cxd5 Nxd5 17. Qc2 f5 18. Qb3 Rcd8 19. Nbd4 Nxd4 20. Nxd4
 Rf6 21. 0-0 Rg6 22. g3 h5 23. Nxf5 Bf6 24. Ne7+ Nxe7 25. Qxe6+ Kh7 26. Bxf6
 1-0
-
 
 [Event "bank tt"]
 [Site "Rio de Janeiro"]
@@ -1138,7 +992,6 @@ a4 26. Kf1 f5 27. exf5 Re2 28. Rxc5 bxc5 29. Ba2+ Kh8 30. Be6 Ba6 31. Kg1
 Rd8
 0-1
 
-
 [Event "bank tt"]
 [Site "Rio de Janeiro"]
 [Date "1937.??.??"]
@@ -1152,7 +1005,6 @@ Rd8
 0-0 8. Qh5 g6 9. Qf3 f5 10. Nge2 Nd7 11. h4 h5 12. Nf4 Kg7 13. Qg3 Nf6
 14. 0-0-0 a5 15. d5 b5 16. dxc6 bxc4 17. Rxd6
 1-0
-
 
 [Event "bank tt"]
 [Site "Rio de Janeiro"]
@@ -1172,7 +1024,6 @@ Nd3 32. Re3 Bd5 33. Bh5 Red8 34. Rf6 Kg7 35. Be5 Nxe5 36. dxe5 Ra7 37. Re1
 Re7 38. Rg6+ Kh7 39. Rxa6 Rxe5 40. Rf1 Be6 41. Rf6 Bf5 42. Rxf5 Rxf5 43. Bg6+
 1-0
 
-
 [Event "DF IC"]
 [Site "Rio de Janeiro"]
 [Date "1937.07.??"]
@@ -1190,7 +1041,6 @@ Rd7 26. Qc3 Nd5 27. Qc4 Nf6 28. Re2 Rad8 29. Bc2 Qe5 30. f4 Rd1+ 31. Kg2
 Qa5 32. Bxd1 Rxd1 33. Qc2 Rd7 34. Ng3 a6 35. f5 Ng5 36. e4
 1-0
 
-
 [Event "DF ch"]
 [Site "Rio de Janeiro"]
 [Date "1937.09.??"]
@@ -1205,7 +1055,6 @@ Nc6 8. 0-0-0 0-0 9. Nxc6 bxc6 10. e5 Nd5 11. Nxd5 cxd5 12. exd6 Qxd6 13. Qxd5
 Qb6 14. b3 Be6 15. Qf3 Qc5 16. Qe3 Qa3+ 17. Kd2 Qa5+ 18. Ke2 Qxa2 19. Rd2
 Rfd8 20. f3 Rxd2+ 21. Qxd2 Rc8 22. Kd1 Rxc2 23. Qxc2 Bxb3
 0-1
-
 
 [Event "DF ch"]
 [Site "Rio de Janeiro"]
@@ -1224,7 +1073,6 @@ f6 20. Nd5 Qe6 21. Re1 g5 22. Qf2 c6 23. Nd4 Qe5 24. Nc3 Bc5 25. Kd3 a5
 f5
 0-1
 
-
 [Event "DF ch"]
 [Site "Rio de Janeiro"]
 [Date "1937.09.??"]
@@ -1242,7 +1090,6 @@ f5 27. Rxd6 fxg4 28. Qxb4 Rab8 29. Qb1+ f5 30. Rb6 Bd5 31. Bg3 Rbc8 32. Rc1
 Qa8 33. Rc5 Rxc5 34. dxc5 Bxg2 35. Rb8 Qf3 36. Rxe8 Bh3 37. Rxe6+ Kf7
 38. Re7+ Kxe7 39. Bh4+ Kf7 40. Qb3+ Kg7 41. Bf6+ Kg6 42. Qg8+
 1/2-1/2
-
 
 [Event "DF ch"]
 [Site "Rio de Janeiro"]
@@ -1265,7 +1112,6 @@ Rxd1 50. Rxd1 Kd3 51. Kf3 Kc2 52. Ke2 d3+ 53. Kxe3 Kxd1 54. g6 Kc1 55. g7
 d1Q 56. g8Q Qe2+ 57. Kd4 d2 58. Qc8+ Kb1
 0-1
 
-
 [Event "DF ch"]
 [Site "Rio de Janeiro"]
 [Date "1937.09.??"]
@@ -1284,7 +1130,6 @@ Qf6 26. Rd2 Qg7 27. Bf5 Re7 28. Qd1 Qf6 29. g4 Qc6 30. f3 f6 31. Be4 Qc7
 38. Rxc7
 1-0
 
-
 [Event "DF ch"]
 [Site "Rio de Janeiro"]
 [Date "1937.09.??"]
@@ -1299,7 +1144,6 @@ Nf6 8. Qb3 Bc5 9. e3 Bc6 10. Bb5 0-0 11. Nf3 Bxf3 12. gxf3 Nbd7 13. f4
 Ng4 14. Bxd7 Qxd7 15. h3 Nf6 16. Bd2 a5 17. Qb5 Qe7 18. 0-0-0 Rfc8 19. Kb1
 a4 20. Rhg1 a3 21. Rg5 Nd7 22. Be1 Nb6 23. Re5 Qc7 24. Rxc5 Qxc5 25. Rd8+
 1-0
-
 
 [Event "DF ch"]
 [Site "Rio de Janeiro"]
@@ -1317,7 +1161,6 @@ a4 20. Rhg1 a3 21. Rg5 Nd7 22. Be1 Nb6 23. Re5 Qc7 24. Rxc5 Qxc5 25. Rd8+
 26. h6+ Kg6 27. Ng3 b5 28. Rh5 b4 29. Rxf6+ Kxf6 30. Qxg5+ Kf7 31. Qg7+
 Ke8 32. Nf5 Rc8 33. Nxd6+ Qxd6 34. Rxe5+ Kd8 35. Rf5 Ke8 36. e5
 1-0
-
 
 [Event "Sulamericano"]
 [Site "Sao Paulo"]
@@ -1339,7 +1182,6 @@ h5 43. Bd1 Ng6 44. Bxh5 Nxh4+ 45. Kg4 Ng2 46. Kg3 Ne1 47. Bf3 Nd3 48. Bxb7
 a5 49. Ba6 Nxb2 50. Kf3 Kd6
 1/2-1/2
 
-
 [Event "Sulamericano"]
 [Site "Sao Paulo"]
 [Date "1937.11.??"]
@@ -1358,7 +1200,6 @@ c4 33. bxc4 Qxc4 34. Qxc4 Bxc4 35. Rxb7 Rxb7 36. Rd2 Rb1 37. Rc2 Bf1 38. Bxf1
 Rxf1 39. Rc7 Rf2+ 40. Kh3 Kf7 41. Rxa7 Re2 42. Ra4 f5 43. exf5 gxf5 44. h5
 1/2-1/2
 
-
 [Event "Sulamericano"]
 [Site "Sao Paulo"]
 [Date "1937.11.??"]
@@ -1373,7 +1214,6 @@ Qb6 8. Be2 Qxb3 9. axb3 Be7 10. 0-0 0-0 11. Nf3 Nd7 12. Bd2 a6 13. Rfc1
 Re8 14. b4 dxc4 15. Bxc4 Nb6 16. Bf1 Bd7 17. Ne5 Bd6 18. Nd3 e5 19. dxe5
 Bxe5 20. Nxe5 Rxe5 21. Bc3 Ree8
 1/2-1/2
-
 
 [Event "Sulamericano"]
 [Site "Sao Paulo"]
@@ -1396,7 +1236,6 @@ Rxc5 44. Rxc5 Bxc5 45. gxh4 gxh4 46. Kxh4 Bd4 47. Kg4 Bc3 48. Kf5 Nd4+
 Kc8 55. e7 Bc7 56. Rf3
 1-0
 
-
 [Event "Sulamericano"]
 [Site "Sao Paulo"]
 [Date "1937.11.??"]
@@ -1416,7 +1255,6 @@ Ra4 38. Rxc6 Rxb4 39. Nc5 Rc4 40. Rc7 Kg8 41. Nxa6 Ra4 42. Rb7 Rxa5 43. Nc7
 Ra2 44. f3
 1-0
 
-
 [Event "Sulamericano"]
 [Site "Sao Paulo"]
 [Date "1937.11.??"]
@@ -1432,7 +1270,6 @@ c5 14. Ba2 cxd4 15. Rxd4 Nf6 16. Rfd1 b5 17. Bb1 Bb7 18. Ne5 Rfd8 19. Qd3
 Rxd4 20. Qxd4 Rc8 21. f3 g6 22. Kf2 Nd5 23. Ng4 f6 24. e4 e5 25. Qd2 Nb6
 26. Qd6
 1-0
-
 
 [Event "Sulamericano"]
 [Site "Sao Paulo"]
@@ -1450,7 +1287,6 @@ g6 21. f4 exf4 22. Rxf4 f5 23. Rf2 Ne7 24. Ba1 g5 25. Ng2 fxe4 26. Rxf8+
 Kxf8 27. Rf1+ Kg8 28. Qf2 Ng6 29. Bxe4 Nf4 30. Nxf4 Qxe4 31. Nd5
 1-0
 
-
 [Event "Sulamericano"]
 [Site "Sao Paulo"]
 [Date "1937.11.??"]
@@ -1467,7 +1303,6 @@ e4 21. Bxe4 Qe5 22. Bf5 Bd6 23. g3 Bb7 24. e4 Red8 25. Qe2 Kf8 26. Nf3
 Qe8 27. Qd2 Kg7 28. Nd4 Be5 29. Nf3 Bd6 30. Nh4 Qe5 31. Rfe1 Bc5 32. Kg2
 Rh8 33. Bh3 Rad8 34. Nf5+ Kf8 35. Qa5 Qe8 36. Qc7
 1-0
-
 
 [Event "Sulamericano"]
 [Site "Sao Paulo"]
@@ -1487,7 +1322,6 @@ Ng5 32. Qf5 Re6 33. Bb4 Qe8 34. Rd6 Re5 35. Qg4 Qf7 36. Rd3 c5 37. h4
 cxb4 38. hxg5 Rxg5 39. Qc8+ Kh7 40. Kg2 Qb3 41. Rd8 Rxa5 42. Rh8+
 1/2-1/2
 
-
 [Event "Sulamericano"]
 [Site "Sao Paulo"]
 [Date "1937.11.??"]
@@ -1501,7 +1335,6 @@ cxb4 38. hxg5 Rxg5 39. Qc8+ Kh7 40. Kg2 Qb3 41. Rd8 Rxa5 42. Rh8+
 8. Be2 d5 9. cxd5 cxd4 10. Nxd4 Nxd5 11. Nxd5 Bxd2+ 12. Qxd2 Bxd5 13. 0-0
 Nd7 14. f3 Ne5 15. e4 Bb7 16. Qe3 Rc8 17. Rad1 Qe7
 1/2-1/2
-
 
 [Event "TNS"]
 [Site "Rio de Janeiro"]
@@ -1518,26 +1351,6 @@ Nd7 14. f3 Ne5 15. e4 Bb7 16. Qe3 Rc8 17. Rad1 Qe7
 gxf6 20. Bxh6 Rxe2 21. Qd3 Rxb2 22. Qf3 Rd8 23. Nf4 Qf5 24. Qc6 Rb6 25. Qf3
 Kh7 26. g4 Rg8 27. g5 fxg5
 0-1
-
-
-[Event "TNS"]
-[Site "Rio de Janeiro"]
-[Date "1938.01.??"]
-[Round "?"]
-[White "Silva Rocha, Adhemar da"]
-[Black "Trompowsky, Octavio"]
-[Result "0-1"]
-[ECO "A43"]
-
-1. d4 c5 2. d5 b5 3. e4 Qb6 4. a4 b4 5. c4 bxc3ep 6. bxc3 g6 7. a5 Qc7
-8. Bc4 Bg7 9. Ne2 Nf6 10. Bf4 d6 11. Nd2 Nbd7 12. Qa4 0-0 13. Rb1 Nh5
-14. Bg5 Ne5 15. Bb5 h6 16. Bh4 g5 17. Bg3 a6 18. Bc6 Nd3+ 19. Kf1 Rb8
-20. Rxb8 Qxb8 21. Qb3 Qxb3 22. Nxb3 f5 23. exf5 Bxf5 24. f3 Rb8 25. Ba4
-Bg6 26. Be1 Nb2 27. g4 Nf6 28. Nxc5 dxc5 29. Bg3 Rf8 30. Bc6 Nxg4 31. Kg2
-Ne3+ 32. Kf2 Nec4 33. Ra1 Be4 34. f4 gxf4 35. Bh4 Bf6 36. Rg1+ Kh7 37. Bxf6
-Nd3+
-0-1
-
 
 [Event "TNS"]
 [Site "Rio de Janeiro"]
@@ -1562,7 +1375,6 @@ Qc2+ 62. Kb4 Qd2+ 63. Rc3 Qxd4+ 64. Rc4 Qd2+ 65. Kb3 Kf6 66. Rc8 Ke6 67. Rc6+
 Kd5 68. Rc8 Qd1+ 69. Ka3 Qf3+ 70. Ka2 Qg4
 0-1
 
-
 [Event "TNS"]
 [Site "Rio de Janeiro"]
 [Date "1938.01.??"]
@@ -1578,27 +1390,6 @@ Nbd5 15. Rc1 Nxc3 16. Qd2 Qc7 17. Rxc3 Bd6 18. Bxf6 gxf6 19. Nh4 e5 20. Bf5
 e4 21. Qe2 Bxf5 22. Nxf5 Bf8 23. Qg4+ Kh7 24. h4 Rad8 25. Rh3 Rd5 26. Rg3
 Qxg3 27. Nxg3
 1-0
-
-
-[Event "TNS"]
-[Site "Rio de Janeiro"]
-[Date "1938.01.??"]
-[Round "?"]
-[White "Vasconcellos, Edwaldo"]
-[Black "Trompowsky, Octavio"]
-[Result "0-1"]
-[ECO "E14"]
-
-1. Nf3 Nf6 2. d4 e6 3. c4 b6 4. e3 Bb7 5. a3 Ne4 6. Nbd2 f5 7. h4 Be7
-8. Nxe4 fxe4 9. Ng5 0-0 10. Qg4 Bxg5 11. hxg5 g6 12. b4 Rf5 13. Qh4 Qe7
-14. f4 exf3ep 15. e4 f2+ 16. Ke2 Rf7 17. Be3 Qf8 18. Kd3 a5 19. b5 c6
-20. Be2 d5 21. cxd5 exd5 22. e5 cxb5 23. Bxf2 Bc8 24. g4 Na6 25. Be3 b4
-26. Raf1 Raa7 27. Rf6 Rxf6 28. gxf6 bxa3 29. Bh6 Qe8 30. Bg7 h5 31. gxh5
-Rc7 32. hxg6 Qxg6+ 33. Ke3 Rc3+ 34. Kf2 Qf5+ 35. Kg2 Rh3 36. Qh8+ Rxh8
-37. Rxh8+ Kf7 38. Bh5+ Qxh5 39. Rxh5 a2 40. Rh1 Bf5 41. Ra1 Bb1 42. Bh6
-Nb4 43. Bc1 Nc2 44. Bb2 b5
-0-1
-
 
 [Event "BRA ch"]
 [Site "Rio de Janeiro"]
@@ -1619,7 +1410,6 @@ Qg7 38. Qa5 f5 39. Qa8 Rc7 40. Rh8 Re7 41. Kh1 Rd7 42. Qe8+ Kf6 43. Rf8+
 Ke5 44. Qb8+
 1-0
 
-
 [Event "BRA ch"]
 [Site "Rio de Janeiro"]
 [Date "1938.02.??"]
@@ -1639,7 +1429,6 @@ Qa3 38. Nf1 Kh6 39. Qa2 Qc5 40. Rd2 Ra3 41. Qd5 Qxd5 42. Rxd5 Rxa4 43. Rxe5
 Ra5 44. f4 Kh5 45. Nd2 Ra1 46. Ke2 Ra2 47. Rd5 Kg4 48. Rd7 h6 49. Rd6
 Kh5 50. Kf3 Ra1 51. h3 Rc1 52. Kg3 Rc5 53. Nf1 Rxb5 54. Kf3
 1-0
-
 
 [Event "BRA ch"]
 [Site "Rio de Janeiro"]
@@ -1662,27 +1451,6 @@ Qf6 50. Bf3 h4 51. gxh4 Qxh4 52. Qd6 Rh8 53. Qe5+ Qf6 54. Qc7 Qh4 55. Qe5+
 Qf6
 1/2-1/2
 
-
-[Event "BRA ch"]
-[Site "Rio de Janeiro"]
-[Date "1938.02.??"]
-[Round "7"]
-[White "Trompowsky, Octavio"]
-[Black "Cruz, Walter"]
-[Result "1/2-1/2"]
-[ECO "E24"]
-
-1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. a3 Bxc3+ 5. bxc3 b6 6. f3 Bb7 7. Bg5
-d6 8. e3 Nbd7 9. Bd3 c5 10. Ne2 h6 11. Bh4 0-0 12. 0-0 Qc8 13. Bf2 d5
-14. cxd5 exd5 15. Ng3 g6 16. e4 Kg7 17. e5 Ng8 18. f4 f5 19. exf6ep+ Ndxf6
-20. f5 g5 21. h4 gxh4 22. Nh5+ Kh7 23. Re1 Qc7 24. Qf3 c4 25. Bc2 Qf7
-26. Nxf6+ Nxf6 27. Re6 Ne4 28. Qe3 Qh5 29. Bd1 Qg5 30. Qxg5 Nxg5 31. Re7+
-Rf7 32. Rxf7+ Nxf7 33. Bh5 Nd6 34. Bg6+ Kg7 35. Bxh4 Ne4 36. Re1 Rf8 37. Bh5
-Bc6 38. f6+ Kh7 39. f7 Kg7 40. Re3 Bd7 41. Be7 Rxf7 42. Bxf7 Kxf7 43. Bd8
-Bg4 44. Bc7 Ke7 45. Bb8 Kd7
-1/2-1/2
-
-
 [Event "Sulamericano"]
 [Site "Montevideo"]
 [Date "1938.03.??"]
@@ -1701,7 +1469,6 @@ Re8 32. Nxf7 Kxf7 33. Ne5+ Kg8 34. h6 Qf6 35. h7+ Kh8 36. Qh5 g6 37. Nxg6+
 Kg7 38. h8Q+ Rxh8 39. Nxh8 Ra8 40. g5 Qe6 41. f5
 1-0
 
-
 [Event "Sulamericano"]
 [Site "Montevideo"]
 [Date "1938.03.??"]
@@ -1719,7 +1486,6 @@ Kg7 38. h8Q+ Rxh8 39. Nxh8 Ra8 40. g5 Qe6 41. f5
 Bxd5 32. Nxf5 Rxe6 33. Bxe6 Nxe6 34. Ne3
 1/2-1/2
 
-
 [Event "Sulamericano"]
 [Site "Montevideo"]
 [Date "1938.03.??"]
@@ -1734,7 +1500,6 @@ Bxd5 32. Nxf5 Rxe6 33. Bxe6 Nxe6 34. Ne3
 Ng6 15. 0-0 Qh4 16. h3 N4e5 17. Qe2 Bd7 18. Bc2 Rae8 19. a4 Qg3 20. Nh5
 Qh4 21. Nf4 Qg3 22. Nh5
 1/2-1/2
-
 
 [Event "Sulamericano"]
 [Site "Montevideo"]
@@ -1753,7 +1518,6 @@ Ke8 26. Be5 f5 27. Bd6 Rf7 28. Bxc7 Rcxc7 29. Bxe6 Rf6 30. Bxf5 Bxf5 31. exf5
 Rxf5 32. Re1+ Re7 33. Rde2 Rxe2+ 34. Rxe2+ Kf7 35. Re5 Rf4 36. Re4 Rf5
 1/2-1/2
 
-
 [Event "Sulamericano"]
 [Site "Montevideo"]
 [Date "1938.03.??"]
@@ -1768,7 +1532,6 @@ Rxf5 32. Re1+ Re7 33. Rde2 Rxe2+ 34. Rxe2+ Kf7 35. Re5 Rf4 36. Re4 Rf5
 0-0 14. Nh4 Bxg2 15. Kxg2 Qc7 16. Nf3 f5 17. b3 Qd6 18. Rcd1 a6 19. Qd3
 b5 20. Nd2
 1/2-1/2
-
 
 [Event "Sulamericano"]
 [Site "Montevideo"]
@@ -1788,7 +1551,6 @@ Qxa4 32. Rxe4 Rxe4 33. Qxe4 Kg7 34. Qg4+ Kf8 35. Qf4 Qa3 36. Qxc7 Qxe3
 37. Qb8+ Qe8 38. Qxe8+ Kxe8 39. Kg3 Kd7 40. Kf4 Kd6 41. Ke4 Kc5 42. Kd3
 h6 43. g4 Kd6
 1/2-1/2
-
 
 [Event "Sulamericano"]
 [Site "Montevideo"]
@@ -1810,7 +1572,6 @@ Ra1 44. Rc4 Ra3+ 45. Kxe4 Rxh3 46. Rc6 Rh4+ 47. f4 Bb4 48. Ng3+ Kg4 49. Rg6+
 Kh3 50. Ne2 Rg4 51. Rxh6+ Kg2 52. Rg6
 1-0
 
-
 [Event "Sulamericano"]
 [Site "Montevideo"]
 [Date "1938.03.??"]
@@ -1826,7 +1587,6 @@ cxd6 15. Bc4 Nc6 16. Rhe1 Bd7 17. Rad1 Na5 18. Bd3 Rc8 19. Ba6 Ne4+ 20. Kg1
 Rxc3 21. Qb1 Nxg3 22. hxg3 Ba4 23. Qb4 Qc6 24. d5 Qc5 25. Qxa4 Rxa3 26. Qd7
 f4 27. Qe7 Ra8 28. gxf4 Rxe3 29. Rxe3 Qxe3+ 30. Kh2 Nb3 31. Qxd6
 1-0
-
 
 [Event "Sulamericano"]
 [Site "Montevideo"]
@@ -1844,7 +1604,6 @@ Bg6 20. Bg2 h5 21. e3 Nc2 22. Re2 hxg4 23. hxg4 Qh7 24. Rc1 Rd6 25. Rexc2
 Rd3 26. Qxa5 Red8 27. Re2 f6 28. Qb4 Qh4 29. f3 Rd1+ 30. Re1 R8d2
 0-1
 
-
 [Event "Sulamericano"]
 [Site "Montevideo"]
 [Date "1938.03.??"]
@@ -1859,7 +1618,6 @@ Qd5 8. Qa4+ Nc6 9. Nxc6 Bxc3+ 10. bxc3 Bd7 11. e3 Bxc6 12. Qxc4 Qxc4 13. Bxc4
 Ne4 14. Rc1 g5 15. Bg3 Nxg3 16. hxg3 Bxg2 17. Rh2 Bf3 18. Be2 Bxe2 19. Kxe2
 Kf8 20. Rb1 Rb8
 1/2-1/2
-
 
 [Event "Sulamericano"]
 [Site "Montevideo"]
@@ -1879,7 +1637,6 @@ Qe8 33. Qc4+ Kg7 34. e6+ Kh6 35. Rc7 Bb5 36. Bg7+ Kg5 37. Rc5+ Rf5 38. h4+
 Kxh4 39. g3+
 1-0
 
-
 [Event "Sulamericano"]
 [Site "Montevideo"]
 [Date "1938.03.??"]
@@ -1894,7 +1651,6 @@ Kxh4 39. g3+
 Qc3 14. Qc1 Qa5 15. Be2 e5 16. 0-0 exd4 17. exd4 Rd8 18. Nf3 Bg4 19. Qf4
 Qf5 20. Qc7 Qd7 21. Qa5
 1/2-1/2
-
 
 [Event "Sulamericano"]
 [Site "Montevideo"]
@@ -1914,7 +1670,6 @@ cxb4 32. Bf3 Ra3 33. Qd2 Qa5 34. Qd4 Rxa2+ 35. Kh1 Rc8 36. Rg1 Qa3 37. Rd3
 b3 38. Qb6
 1-0
 
-
 [Event "Sulamericano"]
 [Site "Montevideo"]
 [Date "1938.03.??"]
@@ -1931,7 +1686,6 @@ Qxg5 20. Rhg1 Qf6 21. Nf4 Kf8 22. Nce2 Qd6 23. Nxg6+ fxg6 24. Nf4 Ne7
 25. Bb3 Bh6 26. Nd3 Bc6 27. Qh3 Bg7 28. Nc1 Bd5 29. Ba4 Red8 30. f3 Bf7
 0-1
 
-
 [Event "Sulamericano"]
 [Site "Montevideo"]
 [Date "1938.03.??"]
@@ -1946,7 +1700,6 @@ Qxg5 20. Rhg1 Qf6 21. Nf4 Kf8 22. Nce2 Qd6 23. Nxg6+ fxg6 24. Nf4 Ne7
 14. a3 Bxg3 15. Nxg3 Nd6 16. h3 Re8 17. Nf5 Nxf5 18. Bxf5 Nf6 19. Ne5
 Bxf5 20. Qxf5 g6 21. Qf4 Kg7 22. Rac1 Rad8 23. Rc2 Rd6 24. Rb1
 1/2-1/2
-
 
 [Event "DF IC"]
 [Site "Rio de Janeiro"]
@@ -1966,7 +1719,6 @@ Rd4 31. Rf3 f6 32. Rf2 Qf7 33. Qf3 Qe8 34. Re2 Rxe2 35. Nxe2 Rd5 36. Kg4
 Qe5 37. Nc3 h5+ 38. Kh4 Qxf5
 0-1
 
-
 [Event "DF IC"]
 [Site "Rio de Janeiro"]
 [Date "1938.07.??"]
@@ -1984,7 +1736,6 @@ Qb4 27. Nxd7 Nxd7 28. Qf1 Qd4+ 29. Kh1 Nd6 30. Bg4 f5 31. Rd1 fxg4 32. Qe2
 Qf6 33. Qxg4 Ne5 34. Qe6 Qxe6 35. dxe6 Rf4 36. Rd5 Nf3
 0-1
 
-
 [Event "DF IC"]
 [Site "Rio de Janeiro"]
 [Date "1938.07.??"]
@@ -2001,7 +1752,6 @@ Qf6 33. Qxg4 Ne5 34. Qe6 Qxe6 35. dxe6 Rf4 36. Rd5 Nf3
 26. Qxf4 Ne5 27. Rg3 Ng6 28. Qg4 Rad8 29. Ba2 Bd7 30. Qxg6 Be8 31. Qxg7#
 1-0
 
-
 [Event "DF IC"]
 [Site "Rio de Janeiro"]
 [Date "1938.07.??"]
@@ -2016,7 +1766,6 @@ Ne4 8. Nxe4 dxe4 9. Nd2 Bb4 10. a3 Bxd2+ 11. Qxd2 Nf6 12. Bc4 0-0 13. 0-0
 Nh5 14. Be5 Re8 15. Qe2 Nf6 16. f3 exf3 17. Qxf3 Be6 18. Bd3 Ng4 19. Bf4
 f5 20. h3 Nf6 21. Bg5 g6 22. g4 Bd5 23. Qf4 Be4 24. Bxf6
 1-0
-
 
 [Event "DF ch"]
 [Site "Rio de Janeiro"]
@@ -2037,7 +1786,6 @@ Qe7 8. g3 Ne4 9. Qc2 f5 10. b3 Nb8 11. Nd2 d5 12. Bb2 Nf6 13. Bg2 0-0
 44. Qa3 Nb7 45. Qh3
 1-0
 
-
 [Event "DF ch"]
 [Site "Rio de Janeiro"]
 [Date "1938.09.??"]
@@ -2056,7 +1804,6 @@ Nf6 32. Bc4 Bc8 33. f3 Nh5 34. R1g5 Rh8 35. Kd3 Rh7 36. Qb8 Bd7 37. Qe5
 Bc8 38. Qf5+ Kg8 39. Bxe6+ Bxe6 40. Rxe6
 1-0
 
-
 [Event "DF ch"]
 [Site "Rio de Janeiro"]
 [Date "1938.09.??"]
@@ -2072,7 +1819,6 @@ Qc7 15. Na4 Qxa5 16. Qxc4 Rc8 17. Qe2 Ne4 18. Bd3 Bd6 19. Bd2 Nxd2 20. Nxd2
 Qc7 21. f4 a5 22. Nc4 0-0 23. Rdc1 g6 24. b3 Bc6 25. Nab2 Ra8 26. Nxa5
 Rxa5 27. Rxa5 Qxa5 28. Rxc6 Qa1+ 29. Nd1 Bb8 30. Qd2 Nf6 31. Ra6
 1-0
-
 
 [Event "DF ch"]
 [Site "Rio de Janeiro"]
@@ -2092,7 +1838,6 @@ Qxe5 32. Ng6+ Rxg6 33. Qxg6 Nf6 34. Rxf6 gxf6 35. Rxf6 Qe8 36. Re6 Qd7
 37. Bxh6
 1-0
 
-
 [Event "Sulamericano"]
 [Site "Rio de Janeiro"]
 [Date "1938.11.??"]
@@ -2109,7 +1854,6 @@ Rfe8 20. Rd4 Qxa2 21. Qb4 Qa6 22. h4 Qb6 23. Qxb6 axb6 24. Rb1 Ra6 25. Rdb4
 Kf7
 0-1
 
-
 [Event "Sulamericano"]
 [Site "Rio de Janeiro"]
 [Date "1938.11.??"]
@@ -2125,7 +1869,6 @@ Nxe4 15. Bxe7 Nxd2 16. Kxd2 Qxe7 17. Rhc1 0-0 18. Rc6 Nd7 19. Qe3 Nc5
 20. Nd4 Qf6 21. Nf3 Bb7 22. Qxc5 Bxc6 23. Qxc6 e4 24. Rc1 exf3 25. Bf1
 Qd4+ 26. Bd3 Qxf2+
 0-1
-
 
 [Event "Sulamericano"]
 [Site "Rio de Janeiro"]
@@ -2145,7 +1888,6 @@ Rh4 32. Ne4 Qd8 33. Qc5 Kg7 34. Rbd3 Rf4 35. Qc3 Qe7 36. d6 Qe8 37. Nc5
 Rf5 38. Nxd7 Qxd7 39. Qc7 Rf7 40. Qxd7 Rxd7 41. Rb1 Bc6 42. Rb6
 1-0
 
-
 [Event "Sulamericano"]
 [Site "Rio de Janeiro"]
 [Date "1938.11.??"]
@@ -2163,7 +1905,6 @@ Bxe4 26. fxe4 Qxe4 27. Bd3 Rxf1+ 28. Bxf1 Nd4 29. Bd3 Qxd3 30. Rxd3 Ne2+
 31. Kg2 Nxg3 32. hxg3 Bxb2
 0-1
 
-
 [Event "Sulamericano"]
 [Site "Rio de Janeiro"]
 [Date "1938.11.??"]
@@ -2180,7 +1921,6 @@ Rb8 21. Rf2 Qd7 22. Raf1 Rbf8 23. fxe5 dxe5 24. exf5 Bxg2 25. Rxg2 Nxf5
 26. Nxf5 Rxf5 27. Rfg1 Rf4 28. Qe1 Qf5 29. Qg3 Qf7 30. Qg5 Rf5 31. Qh6
 Rf6
 1/2-1/2
-
 
 [Event "Sulamericano"]
 [Site "Rio de Janeiro"]
@@ -2201,7 +1941,6 @@ Kf7 38. Rc6 Rd2 39. Kh1 Be3 40. b4 axb4 41. Rxb4 Rxa2 42. Rb3 Bc5 43. Rb1
 Nc3 44. Rc1 Nxe2 45. Bxe2 Rxe2 46. Ra1 h5 47. Ra7+ Kg8 48. Rd7 f4 49. Rcc7
 f3 50. Rxg7+ Kf8 51. Rgd7 Ke8 52. Rd1 f2
 0-1
-
 
 [Event "Sulamericano"]
 [Site "Rio de Janeiro"]
@@ -2225,7 +1964,6 @@ Qd5+ 55. Ke3 Qf3+ 56. Kd4 Qf2+ 57. Kd3 Qf5+ 58. Kc4 Qf1 59. Kd3 Nf3 60. Ke3
 Qh3 61. Nf4 Nh4+
 1/2-1/2
 
-
 [Event "Sulamericano"]
 [Site "Rio de Janeiro"]
 [Date "1938.11.??"]
@@ -2242,7 +1980,6 @@ Ba6 21. Qc2 Kh8 22. h4 Qg7 23. Bb1 Rf5 24. Ng5 Raf8 25. f4 h6 26. g4 hxg5
 27. hxg5+ Kg8 28. gxf5 exf5 29. Rh6 Qe7 30. Kf2 Ne6 31. Rdh1 Ng7 32. g6
 1-0
 
-
 [Event "Sulamericano"]
 [Site "Rio de Janeiro"]
 [Date "1938.11.??"]
@@ -2256,7 +1993,6 @@ Ba6 21. Qc2 Kh8 22. h4 Qg7 23. Bb1 Rf5 24. Ng5 Raf8 25. f4 h6 26. g4 hxg5
 8. Bd3 c5 9. Be3 Nbd7 10. Ne2 b6 11. 0-0 Re8 12. Ng3 Nf8 13. h3 Ng6 14. f4
 exd4 15. cxd4 d5 16. f5 Nf8 17. e5 dxc4 18. Bxc4 Nd5 19. Qh5 b5 20. Bg5
 1-0
-
 
 [Event "Sulamericano"]
 [Site "Rio de Janeiro"]
@@ -2275,7 +2011,6 @@ Ng6 26. Rg1 Be6 27. Bxe6 Qxe6 28. Kf2 Rf6 29. Rg5 h6 30. Rg1 Kh7 31. Qd3
 Rf8 32. Qd4 Qe7 33. Rg3
 1/2-1/2
 
-
 [Event "TNS"]
 [Site "Rio de Janeiro"]
 [Date "1938.11.??"]
@@ -2291,7 +2026,6 @@ Rf8 32. Qd4 Qe7 33. Rg3
 20. Nh5 Qd3 21. Rf3 Qd2 22. f5 cxd4 23. fxg6 Nxg6 24. Rxf7 Ng5 25. Rg7+
 Kh8 26. Rxg6
 1-0
-
 
 [Event "TNS"]
 [Site "Rio de Janeiro"]
@@ -2312,7 +2046,6 @@ d4 39. Bg5 f6 40. Bxf6 Ra7 41. e5 Nc7 42. Rh8+ Kf7 43. Rh7+ Kg6 44. Rg7+
 Kh6 45. Rg4 Nd5 46. Bg7++
 1-0
 
-
 [Event "BRA ch"]
 [Site "Rio de Janeiro"]
 [Date "1939.??.??"]
@@ -2330,7 +2063,6 @@ Bxd4 21. Qxd4 Qxc2 22. Nc3 Bc6 23. Rfc1 Qb3 24. Nxd5 Bxd5 25. Rxc8 Rxc8
 32. Bb4 Qe8 33. h3 Qg6 34. Kh2 Re2 35. Qxg6+ Kxg6 36. Kg3 Rxb2 37. Bd6
 Rc2 38. h4 b5 39. Kh3 Rc3+ 40. g3 Rc2 41. Bb4 Bf3
 0-1
-
 
 [Event "BRA ch"]
 [Site "Rio de Janeiro"]
@@ -2350,7 +2082,6 @@ Bd7 32. Kb2 Ra4 33. Bb5 Rxh4 34. Bxd7 Kxd7 35. Kc2 Kd6 36. Kd3 Ke5 37. Rb1
 Kxf5 38. Rg1 h5 39. Rg8 Ra4 40. Rh8 h4
 0-1
 
-
 [Event "BRA ch"]
 [Site "Rio de Janeiro"]
 [Date "1939.??.??"]
@@ -2367,7 +2098,6 @@ Rxc8 20. Rxc8+ Ne8 21. Nxb7 h5 22. Nd6 Kh7 23. Rxe8 Qd7 24. Rb8 Bc7 25. Rb7
 Qc6 26. b5 Qc2 27. Rc1 Qxd3 28. Rbxc7 h4 29. Nxf7 Qf5 30. Ng5+ Kg6 31. R7c6
 Kh5 32. Rxe6 Qd5 33. Re5 Qb7 34. h3 hxg3 35. Nf3+ Kg6 36. Rc6+ Kh7 37. Ng5+
 1-0
-
 
 [Event "BRA ch"]
 [Site "Rio de Janeiro"]
@@ -2387,7 +2117,6 @@ Qg6 33. Ree4 Rxe6 34. dxe6 h5 35. Bc1 Rf8 36. Bb2+ Kh7 37. Kg1 Rf3 38. Bc1
 Qf5 39. Rhf4 Rxf4 40. Rxf4 Qxe6
 0-1
 
-
 [Event "BRA ch"]
 [Site "Rio de Janeiro"]
 [Date "1939.??.??"]
@@ -2406,7 +2135,6 @@ bxc6 32. Nxb6 Ng5 33. Rd4 Ne4 34. Bxh4 Re6 35. Bg3 c5 36. Rd8+ Kh7 37. Nc4
 Rf6 38. Kg1 Be2 39. Re1
 1-0
 
-
 [Event "BRA ch"]
 [Site "Rio de Janeiro"]
 [Date "1939.??.??"]
@@ -2421,7 +2149,6 @@ Rf6 38. Kg1 Be2 39. Re1
 14. Nf3 f5 15. cxd5 cxd5 16. Rc1 b5 17. Qb3 Nb6 18. Ne5 Bb7 19. a4 Nc4
 20. Rc2 Na5
 0-1
-
 
 [Event "BRA ch"]
 [Site "Rio de Janeiro"]
@@ -2439,7 +2166,6 @@ Bb5 21. Rd6 Bxc5 22. Nxc3 Bc6 23. Bc4 Bxd6 24. Rxd6 Rad8 25. Rxe6 Qc5
 26. Bb3 Qg1+ 27. Ke2 Qc1 28. Qe3 Qh1 29. Qg3 Bxg2 30. Rd6 Rxd6 31. exd6
 Re8+ 32. Kd2 Bc6 33. Nd1 Rd8 34. Qd3 Qxh4
 0-1
-
 
 [Event "BRA ch"]
 [Site "Rio de Janeiro"]
@@ -2459,7 +2185,6 @@ Bc6 33. Bxc6 Qxc6 34. Qd3 Kc7 35. Nc3 a6 36. Nd5+ Kb8 37. Rb1 Ka7 38. Rb6
 Qd7 39. Rfb1 Rb8 40. Qb3 Bd6 41. Rd1 Rhd8 42. Rb1 Qxh3 43. Rxb7+ Ka8 44. Qb6
 1/2-1/2
 
-
 [Event "clock simul"]
 [Site "Rio de Janeiro"]
 [Date "1939.05.??"]
@@ -2478,7 +2203,6 @@ Bd7 27. e3 Rxc4 28. Qxc4 Bb5 29. Qxb3 Rxe3 30. Qc2 Bxf1 31. Rxf1 Bxb2
 Kh8 38. Bg6
 1/2-1/2
 
-
 [Event "cons"]
 [Site "Rio de Janeiro"]
 [Date "1939.05.??"]
@@ -2492,25 +2216,6 @@ Kh8 38. Bg6
 Bxd5 8. a3 Ba5 9. Nf3 f5 10. Bd3 g6 11. 0-0 0-0 12. Bc4 Na6 13. Qb3 Nc7
 14. Qxb7 Rb8 15. Qxa7 Ra8 16. Qb7 Rb8 17. Qa7 Ra8
 1/2-1/2
-
-
-[Event "cons"]
-[Site "Rio de Janeiro"]
-[Date "1939.05.??"]
-[Round "?"]
-[White "W. Cruz & Silva Rocha"]
-[Black "Alekhine & Trompowsky"]
-[Result "0-1"]
-[ECO "D83"]
-
-1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Bf4 Bg7 5. e3 0-0 6. Rc1 c5 7. dxc5 Qa5
-8. cxd5 Rd8 9. Qa4 Qxa4 10. Nxa4 Nxd5 11. Bb5 Nxf4 12. exf4 Be6 13. b3
-Bd5 14. f3 Bc6 15. Bxc6 Nxc6 16. Ne2 Nb4 17. 0-0 Nxa2 18. Rcd1 Rac8 19. g4
-f5 20. Kf2 Nb4 21. h4 Kf7 22. Rh1 h5 23. gxh5 gxh5 24. Ng3 Bd4+ 25. Ke2
-Kg6 26. Nf1 b5 27. cxb6ep axb6 28. Rd2 Nc2 29. Kd1 b5 30. Nb2 Na1 31. Nd3
-Nxb3 32. Rc2 Bc3 33. Rg2+ Kf7 34. Ke2 Ra8
-0-1
-
 
 [Event "cons"]
 [Site "Rio de Janeiro"]
@@ -2531,7 +2236,6 @@ Qxa7 39. Bxa7 Rc8 40. Bb6 Nf6 41. Rc4 Kf7 42. Bxa5 b3 43. c7 Ke6 44. Rb4
 Kd7 45. Kg1 Kc6 46. Kf2
 1-0
 
-
 [Event "cons"]
 [Site "Rio de Janeiro"]
 [Date "1939.06.??"]
@@ -2545,7 +2249,6 @@ Kd7 45. Kg1 Kc6 46. Kf2
 8. Nf3 Nc6 9. Bf4 Bc5 10. Ne4 Bb4+ 11. Nc3 Bc5 12. Bg3 f5 13. Be2 f4 14. Bh4
 Qxh4 15. Nxh4 Bxf2+ 16. Kd2 Be3+ 17. Ke1 Bf2+
 1/2-1/2
-
 
 [Event "DF IC"]
 [Site "Rio de Janeiro"]
@@ -2563,7 +2266,6 @@ Rde7 20. d5 Re4 21. Qa5 Qc4 22. Rfb1 Bf4 23. Rxb7+ Kc8 24. R7b4 Qd3 25. Qa8+
 Kd7 26. Qc6+ Ke7 27. Rxe4+
 1-0
 
-
 [Event "ol 1"]
 [Site "Buenos Aires"]
 [Date "1939.08.??"]
@@ -2579,7 +2281,6 @@ Rac8 14. Nd2 d5 15. g4 dxc4 16. Nxc4 g6 17. e4 Red8 18. g5 Nh5 19. Ne3
 Nf4 20. Bf1 e5 21. d5 c6 22. d6 Qe8 23. Ng4 Nh5 24. Bc4 Kg7 25. Nh6 Qf8
 26. Bxf7 c5 27. f3 c4 28. Qd2 Rc5 29. Qe3 Rdc8 30. f4 b5 31. fxe5
 1-0
-
 
 [Event "ol 1"]
 [Site "Buenos Aires"]
@@ -2601,7 +2302,6 @@ Nf4 20. Bf1 e5 21. d5 c6 22. d6 Qe8 23. Ng4 Nh5 24. Bc4 Kg7 25. Nh6 Qf8
 Rb1+
 0-1
 
-
 [Event "ol 1"]
 [Site "Buenos Aires"]
 [Date "1939.08.??"]
@@ -2618,7 +2318,6 @@ Qc4 20. Qf3 Rc7 21. Bxe6 Qxe6 22. f5 Qc4 23. Bh6 Rb8 24. Qe3 b5 25. fxg6
 hxg6 26. Rf4 Qe6 27. Rf3 b4 28. Bg5 Bh8 29. cxb4 Rxb4 30. Raf1 Rxe4 31. Qf2
 Re2 32. Qh4 Rc4 33. Qh6 Bg7 34. Qh3 Qxh3 35. Rxh3 Rcc2
 0-1
-
 
 [Event "ol 1"]
 [Site "Buenos Aires"]
@@ -2639,7 +2338,6 @@ Qe1+ 38. Qf1 Qxe4 39. Nxe6 Rxe6 40. Rxe6 fxe6 41. Qe2 Qf5 42. Rg3 e5 43. Qa2+
 Kg7 44. Qe2 Qf4 45. Rg2
 1/2-1/2
 
-
 [Event "ol 1"]
 [Site "Buenos Aires"]
 [Date "1939.08.??"]
@@ -2657,7 +2355,6 @@ Bf4 26. gxf5 Bxe3 27. Bc4+ Kg7 28. Be6 gxf5 29. d5 Bg5 30. Nxg5 Qxg5 31. Qb2+
 Kg6 32. Kf1 Nd4 33. Bxc8 Rxc8 34. Rg1 Rc1+ 35. Qxc1 Qxg1+ 36. Kxg1 Ne2+
 37. Kf1 Nxc1 38. d6 Kf7 39. Rc4 Nb3 40. Rc7+ Ke6 41. Rxb7
 1/2-1/2
-
 
 [Event "ol A"]
 [Site "Buenos Aires"]
@@ -2679,7 +2376,6 @@ Rg8 45. Rd1 Kf7 46. Re1 Ke7 47. Rd1 Rg7 48. Re1 Kf7 49. Rd1 Kg8 50. Re1
 Kh8 51. Rd1 Kh7 52. Re1 Rd7 53. Rd1 Qe3+ 54. Qxe3 dxe3+ 55. Ke1
 1/2-1/2
 
-
 [Event "ol A"]
 [Site "Buenos Aires"]
 [Date "1939.08.??"]
@@ -2699,7 +2395,6 @@ f4 38. Re2+ Kd3 39. gxf4 gxf4 40. Rd2+ Kc4 41. Kd1 Re8 42. Kc2 Kb5 43. Ra5+
 Kb6 44. a4 Rbe7 45. c4 Re2 46. cxd5 f3 47. dxc6 Rxd2+ 48. Kxd2 Re2+ 49. Kd3
 Kxc6 50. Rc5+ Kd6 51. Rc2 Re1 52. Ra2 Rb1 53. a5
 1-0
-
 
 [Event "ol A"]
 [Site "Buenos Aires"]
@@ -2722,7 +2417,6 @@ Ke7 50. Ke1 Be5 51. Kf2 g5 52. Bb3 Bb2 53. Ke3 Bc6 54. Kd3 Bg2 55. Ng1
 Kd6
 0-1
 
-
 [Event "ol A"]
 [Site "Buenos Aires"]
 [Date "1939.08.??"]
@@ -2743,7 +2437,6 @@ Kd7 44. b3 c5 45. Bd2 Ke6 46. Be1 Kf7 47. Ke3 Kg6 48. Ke4 Bd6 49. Bd2
 Bc7 50. g4 hxg4 51. Rh6+
 1-0
 
-
 [Event "ol A"]
 [Site "Buenos Aires"]
 [Date "1939.08.??"]
@@ -2759,7 +2452,6 @@ Bc7 50. g4 hxg4 51. Rh6+
 20. dxe5 Qg5 21. Kg2 h4 22. Rh1 hxg3 23. Rxh8+ Nxh8 24. Rh1 Nf7 25. Bh5
 Qg7 26. Bg6 Bd7 27. Rh7 Qxe5 28. Bxf7+ Kd8 29. Qc3
 1-0
-
 
 [Event "ol A"]
 [Site "Buenos Aires"]
@@ -2779,7 +2471,6 @@ Nf8 20. Bxe6 Rxe6 21. Rxe6 Nxe6 22. Nf5 Rd8 23. Ne7+ Kf8 24. Ng6+ Ke8
 Rb1+ 37. Kf2 Rb2+ 38. Kf3 Rc2 39. Rc4 Kd6 40. h4
 1/2-1/2
 
-
 [Event "ol A"]
 [Site "Buenos Aires"]
 [Date "1939.08.??"]
@@ -2796,7 +2487,6 @@ Qc7 21. Rfd1 Nc5 22. Bd4 Rac8 23. Be3 Ba6 24. Be4 Nxe4 25. Qxe4 Qxc4 26. Qxc4
 Rxc4 27. Rd7 Rc3 28. Rxa7 Be2 29. Bd4 Rxa3 30. Rxa3 Bxd1 31. Bxb6 Kh7
 32. Kf2 Kg6 33. Rd3 Bc2 34. Rc3 Bb1
 1/2-1/2
-
 
 [Event "ol A"]
 [Site "Buenos Aires"]
@@ -2816,7 +2506,6 @@ Bf8 32. b4 a5 33. a3 axb4 34. axb4 Ra8 35. Rd2 Ra1 36. Nd3 Rd5 37. Nc5
 b5 38. Rcc2 Bxc5 39. dxc5 Rxd2+ 40. Rxd2 Rb1
 1/2-1/2
 
-
 [Event "ol A"]
 [Site "Buenos Aires"]
 [Date "1939.08.??"]
@@ -2833,7 +2522,6 @@ b5 38. Rcc2 Bxc5 39. dxc5 Rxd2+ 40. Rxd2 Rb1
 26. Kg3 Nh7 27. Qh2 f6 28. Rh1 Bd6 29. Ne2 Bxe4 30. Ng1 Bxf3 31. Nxf3
 gxf4+ 32. Bxf4 Bxf4+ 33. Kxf4 Qc7+ 34. Ke4 Qc6+
 0-1
-
 
 [Event "ol A"]
 [Site "Buenos Aires"]
@@ -2853,7 +2541,6 @@ Ndc5 21. Rd1 Nxb3 22. dxe6 Nxa1 23. Nxf4 Rxf4 24. Bxf4 Qxe6 25. Bd3 Qf6
 38. Rxe8 Kxe8 39. Bxc8 Qe3
 0-1
 
-
 [Event "ol A"]
 [Site "Buenos Aires"]
 [Date "1939.08.??"]
@@ -2869,7 +2556,6 @@ Nxh5 14. Qxh5 Be6 15. d5 cxd5 16. Bxd5 Rac8 17. Bxe6 Rxc3+ 18. Kb1 Rxe6
 19. bxc3 Qxc3 20. Qe2 Bc7 21. Qc2 Rb6+ 22. Kc1 Qa3+ 23. Kd2 Rb2 24. Rc1
 Rxc2+ 25. Rxc2 Ba5+ 26. Ke2 g6 27. Rhc1 Qd6 28. g3 Kg7 29. Kf1 Bd2
 0-1
-
 
 [Event "ol A"]
 [Site "Buenos Aires"]
@@ -2888,7 +2574,6 @@ Ke7 26. Bc5+ Ke8 27. Kf2 Nd7 28. Bd6 c5 29. e5 Bb7 30. Rc1 Bd5 31. f4
 Bxg2 32. Kxg2 c4 33. a5 c3 34. Kf3 c2 35. Ke2 Nb8 36. Kd2
 1-0
 
-
 [Event "free"]
 [Site "Rio de Janeiro"]
 [Date "1939.12.??"]
@@ -2906,7 +2591,6 @@ Nxf3+ 14. Nxf3 Be6 15. Qxd8 Rfxd8 16. Nfd4 Bc4 17. Rfd1 b5 18. b3 Bxe2
 Rh8 32. Nxc3 Rb2 33. Kf1 Bxc3
 0-1
 
-
 [Event "BRA ch"]
 [Site "Rio de Janeiro"]
 [Date "1940.04.??"]
@@ -2921,7 +2605,6 @@ b6 8. Bd3 Bb7 9. Ne2 Qh4 10. 0-0 0-0 11. f3 Ng5 12. Bd2 Rf6 13. Be1 Qh6
 14. Bg3 d6 15. e4 fxe4 16. fxe4 Nxe4 17. Bf4 Ng5 18. Qd2 Qh3 19. d5 Qg4
 20. Bxg5 Rxf1+ 21. Rxf1 h6 22. Bxh6 Na6 23. Rf3
 1-0
-
 
 [Event "BRA ch"]
 [Site "Rio de Janeiro"]
@@ -2940,7 +2623,6 @@ Bc8 26. Qh4 f5 27. exf5 Bf6 28. Qh3 Kh8 29. Bf3 Bd7 30. Be4 Ref7 31. g4
 Rg8 32. Kh1 Rfg7 33. g5 Bd8 34. g6 Qe7 35. Bg5 Bxf5 36. Bxf5
 1-0
 
-
 [Event "BRA ch"]
 [Site "Rio de Janeiro"]
 [Date "1940.04.??"]
@@ -2956,7 +2638,6 @@ Kh7 15. f3 Nh6 16. f4 exf4 17. Bxf4 Ng4 18. Bxg4 Bxg4 19. Qd2 Qe7 20. Rae1
 b6 21. Nb5 Rfc8 22. Nd4 h4 23. Nc6 Qf8 24. e5 dxe5 25. Bxe5 Bh6 26. Bf4
 Re8 27. Rxe8 Rxe8 28. Bxh6 Qc5+ 29. Kh1 Re2 30. Rxf7+
 1-0
-
 
 [Event "BRA ch"]
 [Site "Rio de Janeiro"]
@@ -2974,7 +2655,6 @@ Re8 27. Rxe8 Rxe8 28. Bxh6 Qc5+ 29. Kh1 Re2 30. Rxf7+
 Rae8 26. Rfe1 c5 27. Rxe6 Rxe6 28. Re1 Rf6 29. c3 Ra6 30. a4 dxc3 31. dxc3
 c4 32. bxc4 Rxa4 33. c5 Rf4+ 34. Kg3 Rc4 35. Ra1 Rxc3+ 36. Kf4
 1/2-1/2
-
 
 [Event "BRA ch"]
 [Site "Rio de Janeiro"]
@@ -3001,7 +2681,6 @@ Be5 75. Kxc5 cxd5 76. Kxd5 Bxb2 77. Bc5 Bc1 78. Ke5 Ke8 79. Ke6 Bb2 80. b4
 Ba3 81. Bd6 Bb2 82. Bc7 h6 83. b5 Bc3 84. b6 Ba5 85. Kd6
 1-0
 
-
 [Event "BRA ch"]
 [Site "Rio de Janeiro"]
 [Date "1940.04.??"]
@@ -3019,7 +2698,6 @@ Raf8 27. Qc4+ Kh8 28. Kd1 Be6 29. Qc5 Qd7 30. Kd2 Bg4 31. Rc2 Qf7 32. Qc4
 Qf3 33. Rc3 h6 34. Kd1 Rxe2
 0-1
 
-
 [Event "BRA ch"]
 [Site "Rio de Janeiro"]
 [Date "1940.04.??"]
@@ -3036,7 +2714,6 @@ Nc6 8. Nf3 d6 9. Bb2 b6 10. 0-0 Ba6 11. Nd2 Rc8 12. Qe2 Na5 13. e4 Qc7
 26. Rg3 Rxf1+ 27. Bxf1 Rf6 28. Bc1 Qf7 29. Be2 Ng7 30. h4 Kf8 31. Qh6
 Ke8 32. Nf3 Bxc4 33. Ng5 Qg8 34. Bxc4 Nxc4 35. Nh7 Rf7 36. Rxg6
 1-0
-
 
 [Event "DF IC"]
 [Site "Rio de Janeiro"]
@@ -3056,25 +2733,6 @@ Qc4 32. Qxc4 Rxc4 33. Bg3 Ne4 34. Rxf5 Nxg3+ 35. hxg3 h6 36. g5 hxg5 37. Rxg5
 Kg8 38. Rd1 Rd4 39. Rf1 Rd2 40. a4 Ree2 41. Rh5 c4
 0-1
 
-
-[Event "ACB"]
-[Site "Rio de Janeiro"]
-[Date "1941.03.??"]
-[Round "?"]
-[White "Tardin, Rene"]
-[Black "Trompowsky, Octavio"]
-[Result "1-0"]
-[ECO "A18"]
-
-1. c4 Nf6 2. Nc3 e6 3. e4 d5 4. e5 d4 5. exf6 dxc3 6. fxg7 cxd2+ 7. Bxd2
-Bxg7 8. Qc2 Nc6 9. Nf3 Qe7 10. 0-0-0 Bd7 11. Bc3 Bxc3 12. Qxc3 0-0-0 13. g3
-e5 14. Bg2 Qc5 15. Rd2 Bf5 16. Rhd1 Nb4 17. b3 Nd3+ 18. Rxd3 Qa3+ 19. Kb1
-Rxd3 20. Rxd3 f6 21. Nh4 Bxd3+ 22. Qxd3 c6 23. Qf5+ Kc7 24. Qxf6 Rd8 25. Qxe5+
-Kb6 26. c5+ Ka6 27. Qe2+ b5 28. cxb6ep+ Kxb6 29. Qe3+ Kb7 30. Qc1 Qd6
-31. Nf5 Qf6 32. g4 a6 33. f4 Kc7 34. Ne7 Rd6 35. Nd5+ Rxd5 36. Bxd5
-1-0
-
-
 [Event "ACB"]
 [Site "Rio de Janeiro"]
 [Date "1941.03.??"]
@@ -3091,7 +2749,6 @@ Bf7 20. Rac1 Nd5 21. Nd2 Kd8 22. Ne4 Rb6 23. Nd6 Rxd6 24. Bxd6 Re8 25. Rc4
 e5 26. Rec1 N5b6 27. Rc7 Re6 28. dxe5 fxe5 29. Bb4 a6 30. Bxd7
 1-0
 
-
 [Event "ACB"]
 [Site "Rio de Janeiro"]
 [Date "1941.03.??"]
@@ -3106,7 +2763,6 @@ e5 26. Rec1 N5b6 27. Rc7 Re6 28. dxe5 fxe5 29. Bb4 a6 30. Bxd7
 14. Nxd4 Nxc3 15. Bh5+ Kd8 16. Nxe6+ Kc8 17. bxc3 h6 18. Bf4 Bc6 19. Bc7
 Qb7 20. Be8
 1-0
-
 
 [Event "ACB"]
 [Site "Rio de Janeiro"]
@@ -3127,7 +2783,6 @@ Bd5 38. Kf2 Ke8 39. Ke2 Kd7 40. Kd3 Kc6 41. Kc3 Nf5 42. Rd2 Nd6 43. a4
 Nc8 44. Rd1 Nb6 45. Kd4 Bb3 46. Rc1+ Kd6 47. b5
 1/2-1/2
 
-
 [Event "Minas TC"]
 [Site "Belo Horizonte"]
 [Date "1941.05.??"]
@@ -3147,7 +2802,6 @@ Rh4 33. Qe4 Qxe4 34. Bxe4 Nh5 35. Rxf7+ Kb6 36. Rg6 Rxe4 37. Rxd6+ Ka5
 44. Kg4 Rg1+ 45. Kf5 Ng2
 0-1
 
-
 [Event "Minas TC"]
 [Site "Belo Horizonte"]
 [Date "1941.05.??"]
@@ -3163,7 +2817,6 @@ Ng6 14. Bd3 Nf8 15. f5 Qf7 16. Be3 Nd7 17. a4 a5 18. Qd2 Bb7 19. Bf4 0-0-0
 20. Rfe1 Ba6 21. Bf1 Bxc4 22. Bd3 Nc5 23. Be2 Rhe8 24. Qc2 Rxe4 25. g3
 Rde8 26. Bxc4 Qxc4 27. Red1 Re2
 0-1
-
 
 [Event "Minas TC"]
 [Site "Belo Horizonte"]
@@ -3184,7 +2837,6 @@ Bxe3 33. Rh5 Bxd2 34. Rxh6 Bxh6 35. Qe6+ Kh8 36. Bc3+ d4 37. Bxd4+ Bg7
 Nf8 44. Qxa7 Ng6 45. Qxb6
 1-0
 
-
 [Event "Minas TC"]
 [Site "Belo Horizonte"]
 [Date "1941.05.??"]
@@ -3201,7 +2853,6 @@ Nf8 15. Ne5 N6d7 16. f4 a6 17. 0-0 f6 18. Nf3 f5 19. g4 Nf6 20. Ne5 Ne4
 Bb5 27. Rf4 Bd3 28. Qg2 Nd7 29. Rg4 Nxe5 30. Rxg7+ Kh8 31. dxe5 Qxe5 32. Rg6
 Kh7 33. Rxh6+
 1-0
-
 
 [Event "BRA tt"]
 [Site "Rio de Janeiro"]
@@ -3223,7 +2874,6 @@ Qxb4 44. Qe4 Qb2+ 45. Kf3 Qxa2 46. Qxc6 Qb1 47. Qa4 Rd8 48. Qa7 Qh1+ 49. Kg4
 Qg2+ 50. Kf4 Qg5+ 51. Kf3 Rd3+ 52. Ke2 Qd2+ 53. Kf1 Qd1+ 54. Re1 Qf3
 0-1
 
-
 [Event "CXRJ-Fluminense"]
 [Site "Rio de Janeiro"]
 [Date "1942.09.??"]
@@ -3243,7 +2893,6 @@ f4+ 37. Kg4 f3 38. Rd1 Qa5 39. Kf4 Qf5+ 40. Ke3 g5 41. Rh1+ Kg7 42. Rd8
 Qf4+ 43. Kf2 e3+
 0-1
 
-
 [Event "CXRJ"]
 [Site "Rio de Janeiro"]
 [Date "1943.05.??"]
@@ -3260,7 +2909,6 @@ Kg6 20. c3 a5 21. Bc5 Bb7 22. Rxa8 Bxa8 23. Kf2 Kf5 24. Bd6 h5 25. g3
 g5 26. Ke3 Bd5 27. a3 e5 28. Bb8 Ke6 29. Bc7 a4 30. Bd8 Bb3 31. Kd3 Bd1
 32. Ke3 g4 33. f4 Bc2 34. fxe5 fxe5 35. Bg5 Bg6 36. Bd8 Kd5 37. Bf6 e4
 1/2-1/2
-
 
 [Event "CXRJ"]
 [Site "Rio de Janeiro"]
@@ -3279,7 +2927,6 @@ g6 26. Bxg6 Re7 27. Bd3 Bd7 28. Rcf1 Rae8 29. Qf2 Bg4 30. Rg3 Bf5 31. d6
 Rf7 32. Bc4 Be6 33. Nxe6 Nxe6 34. d7 Rd8 35. Rf3 Rdxd7 36. Rf5 Qe4 37. Rxf6
 1-0
 
-
 [Event "CXRJ"]
 [Site "Rio de Janeiro"]
 [Date "1943.05.??"]
@@ -3295,7 +2942,6 @@ Bb4 8. Qc2 d5 9. e3 0-0 10. Bd3 Bxd2+ 11. Qxd2 Nb4 12. 0-0 b6 13. a3 Nxd3
 Ne4 20. Ke2 Rfc8 21. Ne1 f5 22. f3 Rc1 23. Nd2 Nxd2 24. Kxd2 Rb1 25. Nd3
 Rd8 26. Kc3 Rd1 27. Nc5 Rc1+
 0-1
-
 
 [Event "CXRJ"]
 [Site "Rio de Janeiro"]
@@ -3315,7 +2961,6 @@ a5 14. Nf3 a4 15. Nd2 d6 16. g3 Ra6 17. Kd1 Ke7 18. Bg2 Bf5 19. Bd5 Rc8
 Kg5 38. Nf5 Ba6 39. Nxd6 Be2 40. a5 f5 41. e5
 1-0
 
-
 [Event "CXRJ"]
 [Site "Rio de Janeiro"]
 [Date "1943.05.??"]
@@ -3333,7 +2978,6 @@ fxg4 21. hxg4 Qg5 22. Rh2 Nxe5 23. dxe5 Bc5 24. Bd4 Bxd4 25. Qxd4 Bd7
 32. Ke2 a5 33. R1h2 b4 34. Kf2 Rfb8 35. Nxg6 hxg6 36. Qd3 Kf7 37. Rh7
 Rg8 38. R2h6 Raf8 39. Qa6 Ra8 40. Qb7+ Qe7 41. Rxg7+ Rxg7 42. Qxa8
 1-0
-
 
 [Event "CXRJ"]
 [Site "Rio de Janeiro"]
@@ -3353,7 +2997,6 @@ Nf6 32. Qb7 d5 33. Qxa6 Bxa3 34. Rxa3 d4 35. Bxh6 Qxc2 36. Bg5 Nh7 37. Bh4
 Qc1+ 38. Kh2 Rc2 39. Qa8+ Nf8 40. Rb3 Qf1 41. Qxf8+ Kh7
 0-1
 
-
 [Event "CXRJ"]
 [Site "Rio de Janeiro"]
 [Date "1943.05.??"]
@@ -3370,7 +3013,6 @@ Qc1+ 38. Kh2 Rc2 39. Qa8+ Nf8 40. Rb3 Qf1 41. Qxf8+ Kh7
 Bh3 26. Rxf8+ Bxf8 27. Qf3 Qg7 28. Nf6 e4 29. Ngxe4 Bc8 30. Qf4 Bh3 31. Ng5
 Bg2+ 32. Kxg2 h6 33. h4 Be7 34. Ne4 Ne5 35. Qxe5
 1-0
-
 
 [Event "CXRJ"]
 [Site "Rio de Janeiro"]
@@ -3390,7 +3032,6 @@ Kh7 32. Qg3 Rg8 33. Qh3 Bxg2 34. Qf5+ Qg6 35. Qxg6+ fxg6 36. Rc1 Be3 37. Rc7+
 Kxh6 38. Rc2 Bxf3 39. Bxa8 Rxa8
 0-1
 
-
 [Event "CXRJ"]
 [Site "Rio de Janeiro"]
 [Date "1943.05.??"]
@@ -3409,7 +3050,6 @@ b5 26. Kh2 a5 27. Rg1 Kh8 28. g4 b4 29. Qd2 b3 30. Kg3 a4 31. Rg2 Rb8
 38. Rxh5 Bg8 39. Qd4 b2 40. Rh6
 1-0
 
-
 [Event "Olimpiada Tricolor"]
 [Site "Rio de Janeiro"]
 [Date "1943.07.??"]
@@ -3427,7 +3067,6 @@ Nf6 20. Bxd5 Nxd5 21. Rc2 Nxe3 22. fxe3 Qxe3+ 23. Kh1 Qxd4 24. Qxe7 b6
 31. R7c4 Qd5 32. Rc8 Re4 33. R1c4 Re1+ 34. Kh2 Qd6+
 0-1
 
-
 [Event "free"]
 [Site "Rio de Janeiro"]
 [Date "1943.07.??"]
@@ -3444,7 +3083,6 @@ Ng8 20. Nf5 f6 21. Rd1 d5 22. exd5 Rae8 23. Be3 Nc4 24. b3 Ne5 25. Qg3
 Ng6 26. Rd2 Qc3 27. Rad1 Re5 28. Rxd3 Qc2 29. Nd4 Qxa2 30. Nc6 Ree8 31. d6
 Ne5 32. Nxe5 Rxe5 33. d7 Rd8 34. Bb6 Qe2 35. f4
 1-0
-
 
 [Event "free"]
 [Site "Rio de Janeiro"]
@@ -3467,7 +3105,6 @@ Ra4 50. Rc1 Rd4+ 51. Ke3 Re4+ 52. Kd2 a5 53. Ra1 a4 54. Kc3 Rc4+ 55. Kd2
 Rb4 56. Kc3 Rb3+ 57. Kc2 Kd4 58. Kc1 a3 59. Ra2 Bd3
 0-1
 
-
 [Event "Olimpiada Tricolor"]
 [Site "Rio de Janeiro"]
 [Date "1944.06.??"]
@@ -3482,7 +3119,6 @@ Nxf6 8. Nxf6+ Bxf6 9. c3 0-0 10. Bd3 c5 11. dxc5 Qc7 12. Qe2 Qxc5 13. Rd1
 Rd8 14. 0-0 g6 15. Be4 Rb8 16. Rxd8+ Bxd8 17. Qd2 Bc7 18. Rd1 b6 19. Qh6
 Qf8 20. Qh4 f5 21. Bc6 Qg7 22. Qc4 Kh8 23. Bd7
 1-0
-
 
 [Event "DF IC"]
 [Site "Rio de Janeiro"]
@@ -3502,7 +3138,6 @@ Qxa2 26. Ne5 Qxe2 27. Qxf7+ Kh8 28. Qc7 Bg6 29. Nxg6+ hxg6 30. Qf7 Be5
 37. Kh1 Bxe3 38. Qe6 Qd1+ 39. Kh2 Qe2+ 40. Kh1 Qf1+
 0-1
 
-
 [Event "DF IC"]
 [Site "Rio de Janeiro"]
 [Date "1945.07.??"]
@@ -3520,7 +3155,6 @@ Rd8 26. Nf3 Qd6 27. h3 c5 28. Re5 cxd4 29. Qe2 Nd5 30. Qe4 Nf6 31. Qh4
 Rc5 32. g4 Rxe5 33. Nxe5 Nd5 34. g5 Qe7 35. f4 Re8 36. Qg3 hxg5 37. fxg5
 Qc7 38. g6 f6 39. Qh4 fxe5 40. Qh7+ Kf8
 0-1
-
 
 [Event "DF IC"]
 [Site "Rio de Janeiro"]
@@ -3540,7 +3174,6 @@ bxc5 32. bxc5+ Kd7 33. Ne5+ Kc8 34. Nxc6 Nb5+ 35. Kc4 Kd7 36. Rxf5 exf5
 37. Rxe8 Kxe8 38. d5 Kd7 39. Nb8+
 1-0
 
-
 [Event "Unesco"]
 [Site "Montevideo"]
 [Date "1954.11.??"]
@@ -3554,7 +3187,6 @@ bxc5 32. bxc5+ Kd7 33. Ne5+ Kc8 34. Nxc6 Nb5+ 35. Kc4 Kd7 36. Rxf5 exf5
 Bxc3+ 8. Nxc3 d5 9. exd5 Nxd5 10. Ne4 f5 11. Ng5 0-0 12. Be2 h6 13. Nf3
 e5 14. 0-0 Be6 15. Bc4 Nc7
 1/2-1/2
-
 
 [Event "Unesco"]
 [Site "Montevideo"]
@@ -3572,7 +3204,6 @@ Na5 20. Qxc7 Bxb5 21. Qxd6 Rxd6 22. Rxb5 a6 23. Rbb1 b5 24. Rc7 Nc6 25. Rc1
 Nb4 26. a3 Nd5 27. Rb7 Red8 28. Kf1 Re6 29. Rc5 Rf6 30. Nf3 Re6 31. Ne5
 Rf6 32. Ke2 g5 33. g3 h5 34. e4 Nb6 35. Nc6
 1-0
-
 
 [Event "Unesco"]
 [Site "Montevideo"]
@@ -3593,7 +3224,6 @@ Bc6 38. Rc7 Kh7 39. g5 Rg6 40. Ra7 Rg8 41. Ra3 Ra8 42. Rh3+ Kg6 43. Kf2
 Ra2 44. g4 Rxc2+ 45. Ke1 Rxc5 46. Rh8
 1/2-1/2
 
-
 [Event "Unesco"]
 [Site "Montevideo"]
 [Date "1954.11.??"]
@@ -3612,7 +3242,6 @@ Bf6 32. Nfd3 Re8 33. Nf4 Nb3 34. Qe1 Nc5 35. Qd2 Qb1 36. Kf2 Rc8 37. Nfe2
 Nd7 38. Nd3 Rh8 39. Ne1 Rh1 40. Ng1 Ne5 41. Kg2
 0-1
 
-
 [Event "Unesco"]
 [Site "Montevideo"]
 [Date "1954.11.??"]
@@ -3627,7 +3256,6 @@ Nc6 8. Nb3 h5 9. f4 Bb4 10. Bd2 b5 11. Qe1 Be7 12. Nd1 Bb7 13. Ne3 Qb6
 14. Kh1 Nd4 15. Nxd4 Qxd4 16. Bc3 Qb6 17. e5 Ng4 18. Nxg4 hxg4 19. Qg3
 0-0-0 20. Be1 Rh4 21. Bb4 Rdh8 22. Bxe7 Rh3
 0-1
-
 
 [Event "Unesco"]
 [Site "Montevideo"]
@@ -3644,27 +3272,6 @@ dxe4 14. Nd2 Nf6 15. Rae1 Bf5 16. f3 Rad8 17. fxe4 Bxe4 18. Ndxe4 Nxe4
 19. Nxe4 Qxe4 20. Qxe4 Rxe4
 1/2-1/2
 
-
-[Event "Unesco"]
-[Site "Montevideo"]
-[Date "1954.11.??"]
-[Round "7"]
-[White "Munoz, Jose"]
-[Black "Trompowsky, Octavio"]
-[Result "0-1"]
-[ECO "A85"]
-
-1. Nf3 f5 2. d4 Nf6 3. c4 e6 4. Nc3 Bb4 5. Bd2 0-0 6. g3 b6 7. Bg2 Bb7
-8. 0-0 d6 9. Qb3 Bxc3 10. Bxc3 Ne4 11. Ne1 Qe8 12. Nd3 Nd7 13. Rae1 Qh5
-14. Nf4 Qh6 15. d5 Ndc5 16. Qc2 e5 17. Nh3 Rae8 18. e3 Nxc3 19. Qxc3 e4
-20. b4 Nd3 21. Rd1 Ne5 22. Kh1 g5 23. Ng1 g4 24. h4 gxh3ep 25. Bxh3 Qh5
-26. Rd2 Nf3 27. Nxf3 Qxh3+ 28. Nh2 Kf7 29. f3 Bc8 30. fxe4 Rxe4 31. Rf3
-Qh6 32. c5 Rfe8 33. cxd6 cxd6 34. Re2 Kg8 35. Rf4 R4e5 36. Rh4 Qg6 37. g4
-f4 38. Nf1 Bb7 39. Reh2 Bxd5+ 40. Kg1 fxe3 41. Re2 Qe6 42. Ng3 Rc8 43. Qe1
-Bf3 44. Reh2 Rc7 45. Nf5 e2 46. Nh6+ Kh8 47. Nf5 Rxf5 48. gxf5 Qe3+
-0-1
-
-
 [Event "Unesco"]
 [Site "Montevideo"]
 [Date "1954.11.??"]
@@ -3679,7 +3286,6 @@ Nc6 8. Nf3 Na5 9. Qa4 b6 10. Bg5 d6 11. Nd2 Rb8 12. e4 h6 13. Be3 fxe4
 14. Nxe4 Nxe4 15. Bxe4 Bd7 16. Qc2 Nxc4 17. Bc1 Qf6 18. 0-0 d5 19. Bd3
 e5 20. Bh7+ Kh8 21. Qg6 Bh3
 0-1
-
 
 [Event "Unesco"]
 [Site "Montevideo"]
@@ -3696,7 +3302,6 @@ h5 15. Ne5 Nbd7 16. Bg5 Qc7 17. Nxg6 fxg6 18. e5 Bg7 19. exf6 Nxf6 20. Bxf6
 Qf7 21. Bxg7 Kxg7 22. Rh3 Qf5 23. Bb1 b6 24. Rg3 Ba6 25. Qd2 e5 26. Bxf5
 exd4+ 27. Ne4
 1-0
-
 
 [Event "Unesco"]
 [Site "Montevideo"]
@@ -3715,7 +3320,6 @@ Qc7 27. Qd2 Bd7 28. Rh3 Nc4 29. Bxc4 Qxc4 30. hxg6 fxg6 31. Rb1 Bb5 32. Rbb3
 Qc7 33. Rbc3 Bc4 34. Nf3 Qg7 35. Ng5 Rc6 36. Rh4 h6 37. Rch3 Kd7 38. a4
 Kc8 39. Qd1 Kb8 40. Qg4 h5 41. Qf3 Rhc8 42. Qd1
 1/2-1/2
-
 
 [Event "Unesco"]
 [Site "Montevideo"]
@@ -3738,7 +3342,6 @@ Nxh2 50. Kxh2 Kg7 51. Ra1 Ra8 52. Ra6 Kf7 53. Kh3 Ke7 54. Kg4 Kd7 55. Rxh6
 a5 56. Rb6 a4 57. Rxb5 a3 58. Rb1 a2 59. Ra1 Kc6 60. c4
 1/2-1/2
 
-
 [Event "Unesco"]
 [Site "Montevideo"]
 [Date "1954.11.??"]
@@ -3756,7 +3359,6 @@ Rf8 27. Bxg4 Qxg4 28. Nd6 Ba6 29. Rf2 Nd7 30. b4 Rxf2 31. Qxf2 Nf8 32. Rxc6
 Qd1+ 33. Kg2 Bf1+ 34. Qxf1 Qxf1+ 35. Kxf1 Rxc6 36. Bd4 Rc2 37. a3 Nd7
 38. h3 Rd2 39. Be3 Rd3 40. Ke2 Rxa3
 0-1
-
 
 [Event "Unesco"]
 [Site "Montevideo"]
@@ -3778,7 +3380,6 @@ Ra4 44. Kf5 Rxb4 45. Rg7+ Kd6 46. Rxa7 Rb1 47. Ra6+ Ke7 48. g5 Rf1+ 49. Kxe5
 Rg1 50. Ra7+ Kf8 51. Ke6 Rxg5 52. Kf6
 1-0
 
-
 [Event "Unesco"]
 [Site "Montevideo"]
 [Date "1954.11.??"]
@@ -3798,7 +3399,6 @@ Nc5 39. Rd1 Re8 40. Rc7 Rd8 41. Rg7+ Kh8 42. Kg2 Nd7 43. Rc1 Nf8 44. Rcc7
 a5 45. a4 Rb8 46. Kf3
 1-0
 
-
 [Event "Unesco"]
 [Site "Montevideo"]
 [Date "1954.11.??"]
@@ -3812,7 +3412,6 @@ a5 45. a4 Rb8 46. Kf3
 b6 8. e5 Rg8 9. Ne4 Bg7 10. e3 Bb7 11. Bd3 Nc6 12. 0-0 Nb4 13. Nfg5 h6
 14. Qh5 Rf8 15. Rxf7 Qxg5 16. Rxf8++ Kxf8 17. Nxg5
 1-0
-
 
 [Event "Unesco"]
 [Site "Montevideo"]
@@ -3831,7 +3430,6 @@ Nd2 26. f4 exf4 27. Nxf4 Rxf4 28. gxf4 Ndf3+ 29. Kh1 Qh5 30. h3 Nxh3 31. Qxf3
 Nxf2++ 32. Kg1 Ng4 33. Bh3 Qc5+ 34. Kh1
 1-0
 
-
 [Event "Unesco"]
 [Site "Montevideo"]
 [Date "1954.11.??"]
@@ -3845,7 +3443,6 @@ Nxf2++ 32. Kg1 Ng4 33. Bh3 Qc5+ 34. Kh1
 8. a4 Bg7 9. 0-0 0-0 10. Qe2 Nb6 11. Ba2 Bg4 12. h3 Bd7 13. a5 Na4 14. Nxa4
 Bxa4 15. Bc4 Bd7 16. Kh2 Rad8 17. c3 Bc8 18. Bd2 Rfe8 19. Qd3
 1/2-1/2
-
 
 [Event "CXSP-Olimpico"]
 [Site "Rio de Janeiro"]
@@ -3862,7 +3459,6 @@ Bxh8 14. Be2 Bd7 15. Bxe5 Bxe5 16. Qxb7 Bxc3+ 17. bxc3 Qd8 18. Qe4+ Kf8
 19. 0-0-0 Rb8 20. Qd4 Be6 21. Rh1 f6 22. Qe4 Bg8 23. Rh6 Qe7 24. Qf5 d5
 25. Rxf6+ Bf7 26. Bh5 Qa3+ 27. Kd1 Qa4+ 28. Ke1
 1-0
-
 
 [Event "DF IC"]
 [Site "Rio de Janeiro"]
@@ -3881,7 +3477,6 @@ Bxh8 14. Be2 Bd7 15. Bxe5 Bxe5 16. Qxb7 Bxc3+ 17. bxc3 Qd8 18. Qe4+ Kf8
 32. Rxf4 Bg6 33. Rxf8+ Bxf8 34. Qf4 Be7 35. Be4 Nd7 36. Bxg6 hxg6 37. Rxg6
 1-0
 
-
 [Event "Rio-Sao Paulo"]
 [Site "Sao Paulo"]
 [Date "1955.12.??"]
@@ -3898,5 +3493,3 @@ Qc6 20. Rd4 Be7 21. Ne4 Qb7 22. Bf4 Rc4 23. Nd6+ Bxd6 24. Rxd6 Rc7 25. Qe3
 Nc6 26. g4 Rh4 27. Qg3 Rh7 28. Bg5 Qc8 29. Qf4 Na5 30. R1d3 Rc4 31. R6d4
 Rh8 32. Rxd7 Qxd7 33. Rxd7 f6 34. Qd2 Nc6 35. Qd6
 1-0
-
-

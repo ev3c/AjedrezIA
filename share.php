@@ -9,8 +9,8 @@
  * a las PERSONAS a la app real (index.html con los parámetros adecuados).
  *
  * Parámetros genéricos:
- *   fen, flip, kind, t (título), s (subtítulo), mv (última jugada UCI)  -> imagen + textos
- *   moves | opening | puzzle | p | master                              -> a dónde abrir la app
+ *   fen, flip, kind, t (título), s (subtítulo), meta, mv (última jugada UCI) -> imagen + textos
+ *   m | moves | opening | puzzle | p | master                          -> a dónde abrir la app
  *
  * Compatibilidad: share.php?master=opera  sigue funcionando (enlaces antiguos).
  */
@@ -30,9 +30,11 @@ $flip  = gp('flip') === '1' ? '1' : '';
 $kind  = preg_replace('/[^a-z]/', '', strtolower(gp('kind')));
 $t     = mb_substr(trim(gp('t')), 0, 120);
 $s     = mb_substr(trim(gp('s')), 0, 120);
+$meta  = mb_substr(trim(gp('meta')), 0, 420);
 $mv    = substr(preg_replace('/[^a-h1-8]/', '', strtolower(gp('mv'))), 0, 4);
 $cb    = substr(preg_replace('/[^A-Za-z0-9_\-]/', '', gp('cb')), 0, 40);
 
+$packedMoves = preg_replace('/[^A-Za-z0-9_\-]/', '', gp('m'));
 $moves   = preg_replace('/[^a-h1-8nbrqkNBRQKO=,\-]/', '', gp('moves'));
 $opening = preg_replace('/[^A-Za-z0-9_\-]/', '', gp('opening'));
 $puzzle  = preg_replace('/[^A-Za-z0-9_\-]/', '', gp('puzzle'));
@@ -61,7 +63,8 @@ $appUrl   = $base;
 $shareUrl = $base . 'share.php';
 
 // Construye la URL del destino real (la app) a partir del parámetro presente.
-function buildAppUrl($base, $moves, $opening, $puzzle, $ppay, $master) {
+function buildAppUrl($base, $packedMoves, $moves, $opening, $puzzle, $ppay, $master) {
+    if ($packedMoves !== '') return $base . '?m=' . rawurlencode($packedMoves);
     if ($moves !== '')   return $base . '?moves='  . rawurlencode($moves);
     if ($opening !== '') return $base . '?opening='. rawurlencode($opening);
     if ($puzzle !== '')  return $base . '?puzzle=' . rawurlencode($puzzle);
@@ -80,21 +83,21 @@ function buildShareQuery($params) {
 }
 
 $genericParams = [
-    'fen' => $fen, 'flip' => $flip, 'kind' => $kind, 't' => $t, 's' => $s, 'mv' => $mv, 'cb' => $cb,
-    'moves' => $moves, 'opening' => $opening, 'puzzle' => $puzzle, 'p' => $ppay, 'master' => $master,
+    'fen' => $fen, 'flip' => $flip, 'kind' => $kind, 't' => $t, 's' => $s, 'meta' => $meta, 'mv' => $mv, 'cb' => $cb,
+    'm' => $packedMoves, 'moves' => $moves, 'opening' => $opening, 'puzzle' => $puzzle, 'p' => $ppay, 'master' => $master,
 ];
 
-if ($fen !== '' || $t !== '') {
+if ($fen !== '' || $t !== '' || $packedMoves !== '' || $moves !== '') {
     // -- Modo genérico (partida / apertura / problema / maestra en tiempo real) --
     $kindLabel = isset($KIND_LABEL[$kind]) ? $KIND_LABEL[$kind] : 'Ajedrez';
     $title = ($t !== '' ? $t : $kindLabel) . ' — AjedrezIA';
     $desc  = $s !== '' ? $s : ($kindLabel . ' en AjedrezIA. Juega y aprende ajedrez.');
 
     $imgParams = [
-        'fen' => $fen, 'flip' => $flip, 'kind' => $kind, 't' => $t, 's' => $s, 'mv' => $mv, 'cb' => $cb,
+        'fen' => $fen, 'flip' => $flip, 'kind' => $kind, 't' => $t, 's' => $s, 'meta' => $meta, 'mv' => $mv, 'cb' => $cb,
     ];
     $image    = $base . 'board-image.php' . buildShareQuery($imgParams);
-    $appUrl   = buildAppUrl($base, $moves, $opening, $puzzle, $ppay, $master);
+    $appUrl   = buildAppUrl($base, $packedMoves, $moves, $opening, $puzzle, $ppay, $master);
     $shareUrl = $base . 'share.php' . buildShareQuery($genericParams);
 } elseif ($master !== '') {
     // -- Compatibilidad: enlaces antiguos share.php?master=clave --------------

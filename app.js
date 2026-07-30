@@ -217,8 +217,8 @@ let analysisAbortRequested = false;
 let dragState = null;
 
 const ANALYSIS_DISABLED_IDS = ['start-opening-training', 'start-opening-quiz', 'load-famous-game',
-    'resign-game', 'offer-draw', 'resume-game', 'undo-move', 'hint-move', 'analyze-game',
-    'resign-game-sidebar', 'offer-draw-sidebar', 'view-analysis', 'resume-game-sidebar', 'undo-move-sidebar', 'hint-move-sidebar', 'analyze-game-sidebar',
+    'resign-game', 'offer-draw', 'undo-move', 'hint-move', 'analyze-game',
+    'resign-game-sidebar', 'offer-draw-sidebar', 'view-analysis', 'undo-move-sidebar', 'hint-move-sidebar', 'analyze-game-sidebar',
     'copy-pgn', 'copy-pgn-board', 'export-pgn', 'import-pgn',
     'nav-first', 'nav-prev', 'nav-next', 'nav-last',
     'puzzle-hint', 'puzzle-solution', 'puzzle-prev-board', 'puzzle-next-board',
@@ -1606,9 +1606,49 @@ const FAMOUS_GAMES = {
         name: 'La Partida Inmortal',
         pgn: '[Event "London"]\n[Site "London"]\n[Date "1851"]\n[White "Adolf Anderssen"]\n[Black "Lionel Kieseritzky"]\n[Result "1-0"]\n\n1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 b5 5.Bxb5 Nf6 6.Nf3 Qh6 7.d3 Nh5 8.Nh4 Qg5 9.Nf5 c6 10.g4 Nf6 11.Rg1 cxb5 12.h4 Qg6 13.h5 Qg5 14.Qf3 Ng8 15.Bxf4 Qf6 16.Nc3 Bc5 17.Nd5 Qxb2 18.Bd6 Bxg1 19.e5 Qxa1+ 20.Ke2 Na6 21.Nxg7+ Kd8 22.Qf6+ Nxf6 23.Be7# 1-0'
     },
+    'kasparov-deepblue-97-g1': {
+        name: 'Kasparov vs Deep Blue, 1997 partida 1',
+        pgn: '[Event "IBM Man-Machine"]\n[Site "New York"]\n[Date "1997.05.03"]\n[Round "1"]\n[White "Garry Kasparov"]\n[Black "Deep Blue"]\n[WhiteElo "2795"]\n[Result "1-0"]\n\n1.Nf3 d5 2.g3 Bg4 3.b3 Nd7 4.Bb2 e6 5.Bg2 Ngf6 6.O-O c6 7.d3 Bd6 8.Nbd2 O-O 9.h3 Bh5 10.e3 h6 11.Qe1 Qa5 12.a3 Bc7 13.Nh4 g5 14.Nhf3 e5 15.e4 Rfe8 16.Nh2 Qb6 17.Qc1 a5 18.Re1 Bd6 19.Ndf1 dxe4 20.dxe4 Bc5 21.Ne3 Rad8 22.Nhf1 g4 23.hxg4 Nxg4 24.f3 Nxe3 25.Nxe3 Be7 26.Kh1 Bg5 27.Re2 a4 28.b4 f5 29.exf5 e4 30.f4 Bxe2 31.fxg5 Ne5 32.g6 Bf3 33.Bc3 Qb5 34.Qf1 Qxf1+ 35.Rxf1 h5 36.Kg1 Kf8 37.Bh3 b5 38.Kf2 Kg7 39.g4 Kh6 40.Rg1 hxg4 41.Bxg4 Bxg4 42.Nxg4+ Nxg4+ 43.Rxg4 Rd5 44.f6 Rd1 45.g7 1-0'
+    },
+    'deepblue-kasparov-97-g2': {
+        name: 'Deep Blue vs Kasparov, 1997 partida 2',
+        pgn: '[Event "IBM Man-Machine"]\n[Site "New York"]\n[Date "1997.05.04"]\n[Round "2"]\n[White "Deep Blue"]\n[Black "Garry Kasparov"]\n[BlackElo "2795"]\n[Result "1-0"]\n\n1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 O-O 9.h3 h6 10.d4 Re8 11.Nbd2 Bf8 12.Nf1 Bd7 13.Ng3 Na5 14.Bc2 c5 15.b3 Nc6 16.d5 Ne7 17.Be3 Ng6 18.Qd2 Nh7 19.a4 Nh4 20.Nxh4 Qxh4 21.Qe2 Qd8 22.b4 Qc7 23.Rec1 c4 24.Ra3 Rec8 25.Rca1 Qd8 26.f4 Nf6 27.fxe5 dxe5 28.Qf1 Ne8 29.Qf2 Nd6 30.Bb6 Qe8 31.R3a2 Be7 32.Bc5 Bf8 33.Nf5 Bxf5 34.exf5 f6 35.Bxd6 Bxd6 36.axb5 axb5 37.Be4 Rxa2 38.Qxa2 Qd7 39.Qa7 Rc7 40.Qb6 Rb7 41.Ra8+ Kf7 42.Qa6 Qc7 43.Qc6 Qb6+ 44.Kf1 Rb8 45.Ra6 1-0'
+    },
+    'kasparov-deepblue-97-g3': {
+        name: 'Kasparov vs Deep Blue, 1997 partida 3',
+        pgn: '[Event "IBM Man-Machine"]\n[Site "New York"]\n[Date "1997.05.06"]\n[Round "3"]\n[White "Garry Kasparov"]\n[Black "Deep Blue"]\n[WhiteElo "2795"]\n[Result "1/2-1/2"]\n\n1.d3 e5 2.Nf3 Nc6 3.c4 Nf6 4.a3 d6 5.Nc3 Be7 6.g3 O-O 7.Bg2 Be6 8.O-O Qd7 9.Ng5 Bf5 10.e4 Bg4 11.f3 Bh5 12.Nh3 Nd4 13.Nf2 h6 14.Be3 c5 15.b4 b6 16.Rb1 Kh8 17.Rb2 a6 18.bxc5 bxc5 19.Bh3 Qc7 20.Bg4 Bg6 21.f4 exf4 22.gxf4 Qa5 23.Bd2 Qxa3 24.Ra2 Qb3 25.f5 Qxd1 26.Bxd1 Bh7 27.Nh3 Rfb8 28.Nf4 Bd8 29.Nfd5 Nc6 30.Bf4 Ne5 31.Ba4 Nxd5 32.Nxd5 a5 33.Bb5 Ra7 34.Kg2 g5 35.Bxe5+ dxe5 36.f6 Bg6 37.h4 gxh4 38.Kh3 Kg8 39.Kxh4 Kh7 40.Kg4 Bc7 41.Nxc7 Rxc7 42.Rxa5 Rd8 43.Rf3 Kh8 44.Kh4 Kg8 45.Ra3 Kh8 46.Ra6 Kh7 47.Ra3 Kh8 48.Ra6 1/2-1/2'
+    },
+    'deepblue-kasparov-97-g4': {
+        name: 'Deep Blue vs Kasparov, 1997 partida 4',
+        pgn: '[Event "IBM Man-Machine"]\n[Site "New York"]\n[Date "1997.05.07"]\n[Round "4"]\n[White "Deep Blue"]\n[Black "Garry Kasparov"]\n[BlackElo "2795"]\n[Result "1/2-1/2"]\n\n1.e4 c6 2.d4 d6 3.Nf3 Nf6 4.Nc3 Bg4 5.h3 Bh5 6.Bd3 e6 7.Qe2 d5 8.Bg5 Be7 9.e5 Nfd7 10.Bxe7 Qxe7 11.g4 Bg6 12.Bxg6 hxg6 13.h4 Na6 14.O-O-O O-O-O 15.Rdg1 Nc7 16.Kb1 f6 17.exf6 Qxf6 18.Rg3 Rde8 19.Re1 Rhf8 20.Nd1 e5 21.dxe5 Qf4 22.a3 Ne6 23.Nc3 Ndc5 24.b4 Nd7 25.Qd3 Qf7 26.b5 Ndc5 27.Qe3 Qf4 28.bxc6 bxc6 29.Rd1 Kc7 30.Ka1 Qxe3 31.fxe3 Rf7 32.Rh3 Ref8 33.Nd4 Rf2 34.Rb1 Rg2 35.Nce2 Rxg4 36.Nxe6+ Nxe6 37.Nd4 Nxd4 38.exd4 Rxd4 39.Rg1 Rc4 40.Rxg6 Rxc2 41.Rxg7+ Kb6 42.Rb3+ Kc5 43.Rxa7 Rf1+ 44.Rb1 Rff2 45.Rb4 Rc1+ 46.Rb1 Rcc2 47.Rb4 Rc1+ 48.Rb1 Rxb1+ 49.Kxb1 Re2 50.Re7 Rh2 51.Rh7 Kc4 52.Rc7 c5 53.e6 Rxh4 54.e7 Re4 55.a4 Kb3 56.Kc1 1/2-1/2'
+    },
+    'kasparov-deepblue-97-g5': {
+        name: 'Kasparov vs Deep Blue, 1997 partida 5',
+        pgn: '[Event "IBM Man-Machine"]\n[Site "New York"]\n[Date "1997.05.10"]\n[Round "5"]\n[White "Garry Kasparov"]\n[Black "Deep Blue"]\n[WhiteElo "2795"]\n[Result "1/2-1/2"]\n\n1.Nf3 d5 2.g3 Bg4 3.Bg2 Nd7 4.h3 Bxf3 5.Bxf3 c6 6.d3 e6 7.e4 Ne5 8.Bg2 dxe4 9.Bxe4 Nf6 10.Bg2 Bb4+ 11.Nd2 h5 12.Qe2 Qc7 13.c3 Be7 14.d4 Ng6 15.h4 e5 16.Nf3 exd4 17.Nxd4 O-O-O 18.Bg5 Ng4 19.O-O-O Rhe8 20.Qc2 Kb8 21.Kb1 Bxg5 22.hxg5 N6e5 23.Rhe1 c5 24.Nf3 Rxd1+ 25.Rxd1 Nc4 26.Qa4 Rd8 27.Re1 Nb6 28.Qc2 Qd6 29.c4 Qg6 30.Qxg6 fxg6 31.b3 Nxf2 32.Re6 Kc7 33.Rxg6 Rd7 34.Nh4 Nc8 35.Bd5 Nd6 36.Re6 Nb5 37.cxb5 Rxd5 38.Rg6 Rd7 39.Nf5 Ne4 40.Nxg7 Rd1+ 41.Kc2 Rd2+ 42.Kc1 Rxa2 43.Nxh5 Nd2 44.Nf4 Nxb3+ 45.Kb1 Rd2 46.Re6 c4 47.Re3 Kb6 48.g6 Kxb5 49.g7 Kb4 1/2-1/2'
+    },
     'kasparov-deepblue': {
-        name: 'Kasparov vs Deep Blue, partida 6',
-        pgn: '[Event "IBM Man-Machine"]\n[Site "New York"]\n[Date "1997"]\n[White "Deep Blue"]\n[Black "Garry Kasparov"]\n[BlackElo "2785"]\n[Result "1-0"]\n\n1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Ng5 Ngf6 6.Bd3 e6 7.N1f3 h6 8.Nxe6 Qe7 9.O-O fxe6 10.Bg6+ Kd8 11.Bf4 b5 12.a4 Bb7 13.Re1 Nd5 14.Bg3 Kc8 15.axb5 cxb5 16.Qd3 Bc6 17.Bf5 exf5 18.Rxe7 Bxe7 19.c4 1-0'
+        name: 'Deep Blue vs Kasparov, 1997 partida 6',
+        pgn: '[Event "IBM Man-Machine"]\n[Site "New York"]\n[Date "1997.05.11"]\n[Round "6"]\n[White "Deep Blue"]\n[Black "Garry Kasparov"]\n[BlackElo "2795"]\n[Result "1-0"]\n\n1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Ng5 Ngf6 6.Bd3 e6 7.N1f3 h6 8.Nxe6 Qe7 9.O-O fxe6 10.Bg6+ Kd8 11.Bf4 b5 12.a4 Bb7 13.Re1 Nd5 14.Bg3 Kc8 15.axb5 cxb5 16.Qd3 Bc6 17.Bf5 exf5 18.Rxe7 Bxe7 19.c4 1-0'
+    },
+    'kasparov-deepblue-96-g2': {
+        name: 'Kasparov vs Deep Blue, 1996 partida 2',
+        pgn: '[Event "ACM Man-Machine"]\n[Site "Philadelphia"]\n[Date "1996.02.11"]\n[Round "2"]\n[White "Garry Kasparov"]\n[Black "Deep Blue"]\n[WhiteElo "2795"]\n[Result "1-0"]\n\n1.Nf3 d5 2.d4 e6 3.g3 c5 4.Bg2 Nc6 5.O-O Nf6 6.c4 dxc4 7.Ne5 Bd7 8.Na3 cxd4 9.Naxc4 Bc5 10.Qb3 O-O 11.Qxb7 Nxe5 12.Nxe5 Rb8 13.Qf3 Bd6 14.Nc6 Bxc6 15.Qxc6 e5 16.Rb1 Rb6 17.Qa4 Qb8 18.Bg5 Be7 19.b4 Bxb4 20.Bxf6 gxf6 21.Qd7 Qc8 22.Qxa7 Rb8 23.Qa4 Bc3 24.Rxb8 Qxb8 25.Be4 Qc7 26.Qa6 Kg7 27.Qd3 Rb8 28.Bxh7 Rb2 29.Be4 Rxa2 30.h4 Qc8 31.Qf3 Ra1 32.Rxa1 Bxa1 33.Qh5 Qh8 34.Qg4+ Kf8 35.Qc8+ Kg7 36.Qg4+ Kf8 37.Bd5 Ke7 38.Bc6 Kf8 39.Bd5 Ke7 40.Qf3 Bc3 41.Bc4 Qc8 42.Qd5 Qe6 43.Qb5 Qd7 44.Qc5+ Qd6 45.Qa7+ Qd7 46.Qa8 Qc7 47.Qa3+ Qd6 48.Qa2 f5 49.Bxf7 e4 50.Bh5 Qf6 51.Qa3+ Kd7 52.Qa7+ Kd8 53.Qb8+ Kd7 54.Be8+ Ke7 55.Bb5 Bd2 56.Qc7+ Kf8 57.Bc4 Bc3 58.Kg2 Be1 59.Kf1 Bc3 60.f4 exf3 61.exf3 Bd2 62.f4 Ke8 63.Qc8+ Ke7 64.Qc5+ Kd8 65.Bd3 Be3 66.Qxf5 Qc6 67.Qf8+ Kc7 68.Qe7+ Kc8 69.Bf5+ Kb8 70.Qd8+ Kb7 71.Qd7+ Qxd7 72.Bxd7 Kc7 73.Bb5 1-0'
+    },
+    'deepblue-kasparov-96-g3': {
+        name: 'Deep Blue vs Kasparov, 1996 partida 3',
+        pgn: '[Event "ACM Man-Machine"]\n[Site "Philadelphia"]\n[Date "1996.02.13"]\n[Round "3"]\n[White "Deep Blue"]\n[Black "Garry Kasparov"]\n[BlackElo "2795"]\n[Result "1/2-1/2"]\n\n1.e4 c5 2.c3 d5 3.exd5 Qxd5 4.d4 Nf6 5.Nf3 Bg4 6.Be2 e6 7.O-O Nc6 8.Be3 cxd4 9.cxd4 Bb4 10.a3 Ba5 11.Nc3 Qd6 12.Ne5 Bxe2 13.Qxe2 Bxc3 14.bxc3 Nxe5 15.Bf4 Nf3+ 16.Qxf3 Qd5 17.Qd3 Rc8 18.Rfc1 Qc4 19.Qxc4 Rxc4 20.Rcb1 b6 21.Bb8 Ra4 22.Rb4 Ra5 23.Rc4 O-O 24.Bd6 Ra8 25.Rc6 b5 26.Kf1 Ra4 27.Rb1 a6 28.Ke2 h5 29.Kd3 Rd8 30.Be7 Rd7 31.Bxf6 gxf6 32.Rb3 Kg7 33.Ke3 e5 34.g3 exd4+ 35.cxd4 Re7+ 36.Kf3 Rd7 37.Rd3 Raxd4 38.Rxd4 Rxd4 39.Rxa6 b4 1/2-1/2'
+    },
+    'kasparov-deepblue-96-g4': {
+        name: 'Kasparov vs Deep Blue, 1996 partida 4',
+        pgn: '[Event "ACM Man-Machine"]\n[Site "Philadelphia"]\n[Date "1996.02.14"]\n[Round "4"]\n[White "Garry Kasparov"]\n[Black "Deep Blue"]\n[WhiteElo "2795"]\n[Result "1/2-1/2"]\n\n1.Nf3 d5 2.d4 c6 3.c4 e6 4.Nbd2 Nf6 5.e3 Nbd7 6.Bd3 Bd6 7.e4 dxe4 8.Nxe4 Nxe4 9.Bxe4 O-O 10.O-O h6 11.Bc2 e5 12.Re1 exd4 13.Qxd4 Bc5 14.Qc3 a5 15.a3 Nf6 16.Be3 Bxe3 17.Rxe3 Bg4 18.Ne5 Re8 19.Rae1 Be6 20.f4 Qc8 21.h3 b5 22.f5 Bxc4 23.Nxc4 bxc4 24.Rxe8+ Nxe8 25.Re4 Nf6 26.Rxc4 Nd5 27.Qe5 Qd7 28.Rg4 f6 29.Qd4 Kh7 30.Re4 Rd8 31.Kh1 Qc7 32.Qf2 Qb8 33.Ba4 c5 34.Bc6 c4 35.Rxc4 Nb4 36.Bf3 Nd3 37.Qh4 Qxb2 38.Qg3 Qxa3 39.Rc7 Qf8 40.Ra7 Ne5 41.Rxa5 Qf7 42.Rxe5 fxe5 43.Qxe5 Re8 44.Qf4 Qf6 45.Bh5 Rf8 46.Bg6+ Kh8 47.Qc7 Qd4 48.Kh2 Ra8 49.Bh5 Qf6 50.Bg6 Rg8 1/2-1/2'
+    },
+    'deepblue-kasparov-96-g5': {
+        name: 'Deep Blue vs Kasparov, 1996 partida 5',
+        pgn: '[Event "ACM Man-Machine"]\n[Site "Philadelphia"]\n[Date "1996.02.16"]\n[Round "5"]\n[White "Deep Blue"]\n[Black "Garry Kasparov"]\n[BlackElo "2795"]\n[Result "0-1"]\n\n1.e4 e5 2.Nf3 Nf6 3.Nc3 Nc6 4.d4 exd4 5.Nxd4 Bb4 6.Nxc6 bxc6 7.Bd3 d5 8.exd5 cxd5 9.O-O O-O 10.Bg5 c6 11.Qf3 Be7 12.Rae1 Re8 13.Ne2 h6 14.Bf4 Bd6 15.Nd4 Bg4 16.Qg3 Bxf4 17.Qxf4 Qb6 18.c4 Bd7 19.cxd5 cxd5 20.Rxe8+ Rxe8 21.Qd2 Ne4 22.Bxe4 dxe4 23.b3 Rd8 24.Qc3 f5 25.Rd1 Be6 26.Qe3 Bf7 27.Qc3 f4 28.Rd2 Qf6 29.g3 Rd5 30.a3 Kh7 31.Kg2 Qe5 32.f3 e3 33.Rd3 e2 34.gxf4 e1=Q 35.fxe5 Qxc3 36.Rxc3 Rxd4 37.b4 Bc4 38.Kf2 g5 39.Re3 Be6 40.Rc3 Bc4 41.Re3 Rd2+ 42.Ke1 Rd3 43.Kf2 Kg6 44.Rxd3 Bxd3 45.Ke3 Bc2 46.Kd4 Kf5 47.Kd5 h5 0-1'
+    },
+    'kasparov-deepblue-96-g6': {
+        name: 'Kasparov vs Deep Blue, 1996 partida 6',
+        pgn: '[Event "ACM Man-Machine"]\n[Site "Philadelphia"]\n[Date "1996.02.17"]\n[Round "6"]\n[White "Garry Kasparov"]\n[Black "Deep Blue"]\n[WhiteElo "2795"]\n[Result "1-0"]\n\n1.Nf3 d5 2.d4 c6 3.c4 e6 4.Nbd2 Nf6 5.e3 c5 6.b3 Nc6 7.Bb2 cxd4 8.exd4 Be7 9.Rc1 O-O 10.Bd3 Bd7 11.O-O Nh5 12.Re1 Nf4 13.Bb1 Bd6 14.g3 Ng6 15.Ne5 Rc8 16.Nxd7 Qxd7 17.Nf3 Bb4 18.Re3 Rfd8 19.h4 Nge7 20.a3 Ba5 21.b4 Bc7 22.c5 Re8 23.Qd3 g6 24.Re2 Nf5 25.Bc3 h5 26.b5 Nce7 27.Bd2 Kg7 28.a4 Ra8 29.a5 a6 30.b6 Bb8 31.Bc2 Nc6 32.Ba4 Re7 33.Bc3 Ne5 34.dxe5 Qxa4 35.Nd4 Nxd4 36.Qxd4 Qd7 37.Bd2 Re8 38.Bg5 Rc8 39.Bf6+ Kh7 40.c6 bxc6 41.Qc5 Kh6 42.Rb2 Qb7 43.Rb4 1-0'
     },
     'opera': {
         name: 'La Partida de la Ópera',
@@ -4250,12 +4290,86 @@ function applyOnlineFromQueryString() {
     return true;
 }
 
-/** Reproduce UCI de ?moves= (coma o +) sobre la partida actual; limpia la URL al terminar. */
+/**
+ * Codifica movimientos UCI en binario (15 bits por jugada) y Base64URL.
+ * Formato v1: byte de versión + dos bytes por movimiento.
+ */
+function encodeMovesBase64Url(moves) {
+    if (!Array.isArray(moves) || moves.length === 0) return '';
+    const promotionCodes = { q: 1, r: 2, b: 3, n: 4 };
+    const bytes = new Uint8Array(1 + moves.length * 2);
+    bytes[0] = 1;
+
+    for (let index = 0; index < moves.length; index++) {
+        const uci = String(moves[index] || '').trim().toLowerCase();
+        if (!/^[a-h][1-8][a-h][1-8][qrbn]?$/.test(uci)) return '';
+        const from = (parseInt(uci[1], 10) - 1) * 8 + (uci.charCodeAt(0) - 97);
+        const to = (parseInt(uci[3], 10) - 1) * 8 + (uci.charCodeAt(2) - 97);
+        if (from === to) return '';
+        const promotion = promotionCodes[uci[4]] || 0;
+        const packed = from | (to << 6) | (promotion << 12);
+        bytes[1 + index * 2] = packed >> 8;
+        bytes[2 + index * 2] = packed & 0xff;
+    }
+
+    let binary = '';
+    for (const byte of bytes) binary += String.fromCharCode(byte);
+    return btoa(binary)
+        .replace(/\+/g, '-')
+        .replace(/\//g, '_')
+        .replace(/=+$/g, '');
+}
+
+function decodeMovesBase64Url(encoded) {
+    if (!encoded) return [];
+    let base64 = String(encoded).replace(/-/g, '+').replace(/_/g, '/');
+    while (base64.length % 4) base64 += '=';
+
+    let binary;
+    try {
+        binary = atob(base64);
+    } catch (error) {
+        return [];
+    }
+    if (binary.length < 3 || binary.charCodeAt(0) !== 1 || (binary.length - 1) % 2) {
+        return [];
+    }
+
+    const files = 'abcdefgh';
+    const promotionChars = ['', 'q', 'r', 'b', 'n'];
+    const moves = [];
+    for (let offset = 1; offset < binary.length; offset += 2) {
+        const packed = (binary.charCodeAt(offset) << 8) | binary.charCodeAt(offset + 1);
+        if (packed & 0x8000) return [];
+        const from = packed & 0x3f;
+        const to = (packed >> 6) & 0x3f;
+        const promotion = (packed >> 12) & 0x07;
+        if (promotion > 4 || from === to) return [];
+        moves.push(
+            files[from % 8] + (Math.floor(from / 8) + 1) +
+            files[to % 8] + (Math.floor(to / 8) + 1) +
+            promotionChars[promotion]
+        );
+    }
+    return moves;
+}
+
+/** Reproduce UCI de ?m= (Base64URL) o del formato antiguo ?moves= (coma/+). */
 function applyMovesFromQueryString() {
     const params = new URLSearchParams(window.location.search);
+    const compact = params.get('m');
     const raw = params.get('moves');
-    if (!raw || !game) return;
-    const list = raw.split(/[,+]/g).map(function (s) { return s.trim().toLowerCase(); }).filter(function (s) { return s.length >= 4; });
+    if ((!compact && !raw) || !game) return;
+    let list = compact ? decodeMovesBase64Url(compact) : [];
+    if (list.length === 0 && raw) {
+        list = raw.split(/[,+]/g)
+            .map(function (s) { return s.trim().toLowerCase(); })
+            .filter(function (s) { return s.length >= 4; });
+    }
+    if (list.length === 0) {
+        showMessage('El enlace de la partida no contiene movimientos válidos', 'warning', 4000);
+        return;
+    }
     for (var i = 0; i < list.length; i++) {
         var uci = list[i];
         var c = puzzleUCItoCoords(uci);
@@ -5725,10 +5839,7 @@ function getLongestLine(prefix) {
 function continueTrainingFromVariant(variant, fromKey) {
     cancelTrainingTimeout();
     setGameButtonsDisabled(true);
-    ['resume-game', 'resume-game-sidebar'].forEach(id => {
-        const el = document.getElementById(id);
-        if (el) { el.disabled = true; el.onclick = null; }
-    });
+    showContinueButton();
 
     const baseMoves = fromKey ? fromKey.split(' ') : (game.moveHistoryUCI || []);
     const currentHistory = game.moveHistoryUCI || [];
@@ -7599,6 +7710,15 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '3.5.37': [
+        'El selector de jugadores de Partidas Maestras se agrupa en letras A-Z expandibles como Partides Lliga CAT',
+        'Las imágenes de partidas muestran resultado, ELO, torneo, fecha, ronda, lugar, apertura y movimientos',
+        'Añadido Deep Blue como jugador en Partidas Seleccionadas con sus doce partidas contra Kasparov',
+        'Continuar Partida permanece activo en partidas, aperturas, problemas y partidas cargadas',
+        'La partida continúa exactamente desde la posición visible y descarta los movimientos posteriores',
+        'Los enlaces de partidas usan movimientos binarios compactos codificados en Base64URL',
+        '... y más mejoras en AjedrezIA ...',
+    ],
     '3.5.21': [
         'El texto de compartir muestra bajo el enlace hashtags comunes para Facebook, X, Instagram y TikTok',
         'Compartir permite elegir entre imagen y vídeo antes de publicar',
@@ -11769,14 +11889,13 @@ document.addEventListener('DOMContentLoaded', () => {
     ['resume-game', 'resume-game-sidebar'].forEach(id => {
         const el = document.getElementById(id);
         if (el) el.addEventListener('click', function() {
-            if (this.onclick) return;
             showConfirmDialog('¿Quieres continuar la partida desde esta posición?', function() {
                 const diffSelect = document.getElementById('ai-difficulty');
                 const selectedDifficulty = diffSelect ? parseInt(diffSelect.value) : null;
                 const selectedLabel = diffSelect
                     ? diffSelect.options[diffSelect.selectedIndex].text.split('(')[0].trim()
                     : null;
-                resumeGame(true);
+                continueGameFromCurrentPosition();
                 // Continuar contra la IA seleccionada actualmente en "Nueva Partida"
                 // (en lugar de la dificultad que tuviera guardada la partida).
                 if (selectedDifficulty != null && !isNaN(selectedDifficulty)) {
@@ -11964,14 +12083,14 @@ document.addEventListener('DOMContentLoaded', () => {
         autoSaveGame();
     });
 
-    // Restaurar partida en curso, enlace compartido ?moves= / ?puzzle= / ?opening= / ?master=, o iniciar nueva
+    // Restaurar partida en curso, enlace compartido ?m= / ?moves= / ?puzzle= / ?opening= / ?master=, o iniciar nueva
     applyBoardTheme();
     const autoSavedGame = localStorage.getItem('auto_saved_game');
     const spInit = new URLSearchParams(window.location.search);
     if (spInit.has('online')) {
         startNewGame();
         applyOnlineFromQueryString();
-    } else if (spInit.get('moves')) {
+    } else if (spInit.get('m') || spInit.get('moves')) {
         startNewGame({ skipInitialAI: true });
         applyMovesFromQueryString();
     } else if (spInit.get('puzzle')) {
@@ -12199,6 +12318,9 @@ function initCustomDropdowns() {
             }
             if (select.classList.contains('select-game-table')) {
                 wrap.classList.add('custom-select-game-table');
+            }
+            if (select.classList.contains('select-wide')) {
+                wrap.classList.add('custom-select-wide');
             }
             select.parentNode.insertBefore(wrap, select);
             wrap.appendChild(select);
@@ -12797,10 +12919,7 @@ function startNewGame(options) {
     updateMoveHistory();
     updateUndoButton();
     updateEvalBar();
-    ['resume-game', 'resume-game-sidebar'].forEach(id => {
-        const el = document.getElementById(id);
-        if (el) el.disabled = true;
-    });
+    showContinueButton();
 
     SoundFX.start();
     updateShareButton();
@@ -13082,17 +13201,55 @@ function populateFamousPlayerSelect() {
     });
 
     // Solo biblioteca de jugadores (cargada async desde index.json)
-    fetch('games/jugadors/index.json')
+    fetch(`games/jugadors/index.json?v=${encodeURIComponent(APP_VERSION)}`, { cache: 'no-store' })
         .then(r => r.ok ? r.json() : null)
         .then(data => {
             if (!Array.isArray(data) || data.length === 0) return;
-            const sorted = [...data].sort((a, b) => a.name.localeCompare(b.name, 'es'));
-            const fragment = document.createDocumentFragment();
+            // La colección Chess24 está fusionada en Carlsen. El filtro evita
+            // que una copia antigua de index.json almacenada por un proxy o
+            // navegador vuelva a mostrarla como jugador independiente.
+            const players = data.filter(
+                player => player.id !== 'carlsen-chess24-attacking-without-s'
+            );
+            const summary = document.getElementById('famous-library-summary');
+            if (summary) {
+                const formatCount = value => String(Math.trunc(value))
+                    .replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+                const totalGames = players.reduce(
+                    (sum, player) => sum + (Number(player.gameCount) || 0),
+                    0
+                );
+                summary.textContent =
+                    `~${formatCount(players.length)} jugadores · ~${formatCount(totalGames)} partidas`;
+            }
+            const sorted = [...players].sort((a, b) => a.name.localeCompare(b.name, 'es'));
+            const groups = new Map();
             for (const player of sorted) {
-                const opt = document.createElement('option');
-                opt.value = 'lib:' + player.id;
-                opt.textContent = `${player.name} (${player.gameCount.toLocaleString()})`;
-                fragment.appendChild(opt);
+                const normalizedName = String(player.name || '')
+                    .normalize('NFD')
+                    .replace(/[\u0300-\u036f]/g, '')
+                    .toUpperCase();
+                const initialMatch = normalizedName.match(/[A-Z]/);
+                const initial = initialMatch ? initialMatch[0] : '#';
+                if (!groups.has(initial)) groups.set(initial, []);
+                groups.get(initial).push(player);
+            }
+
+            const fragment = document.createDocumentFragment();
+            const initials = [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'];
+            if (groups.has('#')) initials.push('#');
+            for (const initial of initials) {
+                const groupedPlayers = groups.get(initial);
+                if (!groupedPlayers || groupedPlayers.length === 0) continue;
+                const optgroup = document.createElement('optgroup');
+                optgroup.label = initial;
+                for (const player of groupedPlayers) {
+                    const opt = document.createElement('option');
+                    opt.value = 'lib:' + player.id;
+                    opt.textContent = `${player.name} (${player.gameCount.toLocaleString()})`;
+                    optgroup.appendChild(opt);
+                }
+                fragment.appendChild(optgroup);
             }
             select.appendChild(fragment);
         })
@@ -13149,14 +13306,20 @@ function loadLibraryPlayerGames(playerId, playerName) {
             const blocks = pgnText.split(/(?=\[Event\s+")/);
             const games = blocks.map(b => b.trim()).filter(b => b.startsWith('[Event'));
 
-            libraryGamesCache[playerId] = games.map((pgn, idx) => ({
-                idx, pgn,
+            libraryGamesCache[playerId] = games.map(pgn => ({
+                pgn,
                 white:  extractPGNHeader(pgn, 'White'),
                 black:  extractPGNHeader(pgn, 'Black'),
                 result: extractPGNHeader(pgn, 'Result'),
                 event:  extractPGNHeader(pgn, 'Event'),
                 date:   extractPGNHeader(pgn, 'Date')
-            }));
+            }))
+                // Algunos PGN procedentes de libros usan "Chapter…" como si
+                // fuera el nombre de un jugador. No son jugadores ni partidas
+                // catalogadas correctamente y no deben aparecer en el menú.
+                .filter(game => !/^chapter\b/i.test(game.white || '') &&
+                    !/^chapter\b/i.test(game.black || ''))
+                .map((game, idx) => ({ ...game, idx }));
 
             libSel.disabled = false;
             populateLibraryGameSelect(playerId, playerName);
@@ -13265,7 +13428,7 @@ function populateLibraryGameSelect(playerId, playerName, preserveSelection = fal
 
 function onLibraryGameSelect() {
     const libSel = document.getElementById('library-game-select');
-    if (libSel && libSel.value) loadFamousGame();
+    if (libSel && libSel.value) loadFamousGame('library');
 }
 
 function resetSelectedFamousGameSelect() {
@@ -13493,7 +13656,11 @@ function populateFceGameSelect(playerId, playerName, playerLabel) {
         fragment.appendChild(opt);
     }
     gameSelect.appendChild(fragment);
-    gameSelect.value = '';
+    // Si el jugador solo tiene una partida, seleccionarla y abrirla sin
+    // obligar al usuario a desplegar un segundo menú.
+    gameSelect.value = games.length === 1 && gameSelect.options.length > 1
+        ? gameSelect.options[1].value
+        : '';
     onFceGameSelect();
 }
 
@@ -13535,7 +13702,7 @@ function onFamousGameSelect() {
     const key = document.getElementById('famous-game-select').value;
     if (!key) return;
     localStorage.setItem('selectedFamousGame', key);
-    loadFamousGame();
+    loadFamousGame('selected');
 }
 
 function movePanelBelowEvalBar(panelId) {
@@ -13573,13 +13740,16 @@ function restoreFamousPanelPosition() {
     restorePanelPosition('famous-panel');
 }
 
-function loadFamousGame() {
-    // Leer del library-game-select (biblioteca) o del famous-game-select (seleccionadas)
+function loadFamousGame(source) {
+    // Cargar siempre desde el selector que inició la acción. De este modo una
+    // selección previa de la biblioteca no bloquea «Partidas Seleccionadas».
     const libSel = document.getElementById('library-game-select');
     const famSel = document.getElementById('famous-game-select');
-    // Si se llamó desde el botón "Cargar", usar library-game-select
-    // Si se llamó desde auto-load de famous-game-select, ese select ya tiene el valor
-    const select = (libSel && libSel.value) ? libSel : famSel;
+    const select = source === 'selected'
+        ? famSel
+        : source === 'library'
+            ? libSel
+            : ((libSel && libSel.value) ? libSel : famSel);
     const key = select ? select.value : '';
     if (!key) return;
 
@@ -13797,14 +13967,7 @@ function setPuzzleActionsLocked(locked) {
         var el = document.getElementById(id);
         if (el) el.disabled = locked;
     });
-    if (locked) {
-        ['resume-game', 'resume-game-sidebar'].forEach(function(id) {
-            var el = document.getElementById(id);
-            if (el) el.disabled = true;
-        });
-    } else {
-        checkForGameInProgress();
-    }
+    showContinueButton();
 }
 
 function showContinueButton() {
@@ -13812,49 +13975,93 @@ function showContinueButton() {
     // En partidas online no se ofrece "Continuar Partida": no se puede salir,
     // navegar o reanudar a otro estado mientras la partida online está activa.
     if (_onlineGame && _onlineGame.status === 'active') {
-        resumeBtns.forEach(btn => { btn.disabled = true; btn.onclick = null; });
+        resumeBtns.forEach(btn => { btn.disabled = true; });
         return;
     }
     resumeBtns.forEach(btn => { btn.disabled = false; });
-    const handler = function() {
-        resumeBtns.forEach(btn => { btn.disabled = true; btn.onclick = null; });
+}
 
-        // Restaurar a la última posición si se estaba navegando
-        const states = game.gameStateHistory || [];
-        if (states.length > 0 && currentMoveIndex !== -1) {
-            const last = states[states.length - 1];
-            game.board = JSON.parse(JSON.stringify(last.board));
-            game.currentTurn = last.currentTurn;
-            game.capturedPieces = JSON.parse(JSON.stringify(last.capturedPieces));
-            game.enPassantTarget = last.enPassantTarget ? { ...last.enPassantTarget } : null;
-            game.castlingRights = JSON.parse(JSON.stringify(last.castlingRights));
-            currentMoveIndex = -1;
-        }
+// Convierte la posición que se está viendo en una partida normal jugable.
+// Si se navegó hacia atrás, conserva solo los movimientos anteriores a esa
+// posición; si se está al final, elimina únicamente el snapshot final extra
+// que añaden las partidas PGN cargadas.
+function continueGameFromCurrentPosition() {
+    if (!game) {
+        showMessage('No hay una posición para continuar', 'warning', 2000);
+        return false;
+    }
+    if (_onlineGame && _onlineGame.status === 'active') {
+        showMessage('No puedes cambiar de posición durante una partida online', 'warning', 2500);
+        return false;
+    }
 
-        game.gameOver = false;
-        const finished = game.isCheckmate() || game.isStalemate();
-        game.gameOver = finished;
+    const continuingPuzzle = puzzleMode;
+    if (!continuingPuzzle && (playerColorSetting === 'white' || playerColorSetting === 'black')) {
+        playerColor = playerColorSetting;
+    }
 
-        if (finished) {
-            showLoadedGameMessage('Partida finalizada', true, null);
-        }
+    cancelTrainingTimeout();
+    cancelPuzzleSolutionAnimation();
+    gameGeneration++;
+    puzzleGeneration++;
+    trainingActive = false;
+    trainingFreeMode = false;
+    trainingPaused = false;
+    trainingResumeCallback = null;
+    quizMode = false;
+    if (puzzleMode) endPuzzleMode();
+    if (learnMode) endLearnMode();
+    hideVariantsPopup(false);
+    dismissPostGameAnalysisUI();
+    hideBoardBanner();
+    hideMoveInsight();
 
-        renderBoard();
-        updateCapturedPieces();
-        updateMoveHistory();
-        updateNavigationButtons();
-        updateEvalBar();
-        autoSaveGame();
+    const historyLength = (game.moveHistoryUCI || game.moveHistory || []).length;
+    const retainedMoves = currentMoveIndex === -1
+        ? historyLength
+        : Math.max(0, Math.min(currentMoveIndex, historyLength));
+    if (typeof game.truncateHistory === 'function') {
+        game.truncateHistory(retainedMoves);
+    }
 
-    if (!game.gameOver) {
-        startClock();
-            if (playerColor !== 'both' && game.currentTurn !== playerColor) {
-                const _aiGen = gameGeneration;
-                setTimeout(() => makeAIMove(_aiGen), 800);
-            }
-        }
-    };
-    resumeBtns.forEach(btn => { btn.onclick = handler; });
+    currentMoveIndex = -1;
+    selectedSquare = null;
+    bestMoveSquares = { from: null, to: null };
+    game.gameOver = false;
+    game.shareResult = '*';
+    shareContext = 'partida';
+    syncPlayerColorUI();
+
+    const positionFinished = game.isCheckmate() || game.isStalemate();
+    game.gameOver = positionFinished;
+
+    setGameButtonsDisabled(false);
+    showContinueButton();
+    renderBoard();
+    updateCapturedPieces();
+    updateMoveHistory();
+    updateUndoButton();
+    updateNavigationButtons();
+    updateEvalBar();
+    updateShareButton();
+    autoSaveGame();
+
+    if (positionFinished) {
+        stopClock();
+        showLoadedGameMessage('Esta posición ya está finalizada', true, null);
+        return false;
+    }
+
+    startClock();
+    if (playerColor !== 'both' && game.currentTurn !== playerColor) {
+        showMessage('Turno de la IA…', 'info', 1400);
+        const aiGeneration = gameGeneration;
+        setTimeout(() => makeAIMove(aiGeneration), 800);
+    } else {
+        const side = game.currentTurn === 'white' ? 'blancas' : 'negras';
+        showMessage(`Continúa la partida: mueven ${side}`, 'success', 2200);
+    }
+    return true;
 }
 
 function startOpeningTraining() {
@@ -15107,7 +15314,7 @@ function getShareGameWinnerColor() {
 
 /**
  * Prepara SOLO la imagen de la tarjeta (no la URL que se comparte): la URL del
- * mensaje es siempre el enlace limpio de la app (?puzzle=/?opening=/?master=/?moves=).
+ * mensaje es siempre el enlace limpio de la app (?puzzle=/?opening=/?master=/?m=).
  * Los parámetros de posición (fen/t/s/mv) se usan internamente para la imagen:
  *   - previewParams : para dibujarla en el navegador (canvas) en el modal.
  *   - previewImage  : board-image.php (respaldo del src si el servidor tiene PHP).
@@ -15122,7 +15329,56 @@ function getShareGameWinnerColor() {
  *                Si es null se comparte BASE_PATH (genérico).
  *   fenOverride: FEN explícito para problemas (en vez de la posición en pantalla).
  */
-function buildSharePreview(kind, cardT, cardS, fenOverride, appKV) {
+function getShareGameCardMetadata() {
+    if (!game) return '';
+    const headers = game.shareHeaders || {};
+    const result = game.shareResult || headers.Result || '*';
+    const resultLabels = {
+        '1-0': '1-0 · Ganan blancas',
+        '0-1': '0-1 · Ganan negras',
+        '1/2-1/2': '½-½ · Tablas',
+        '*': 'En curso'
+    };
+
+    let whiteElo = String(headers.WhiteElo || '').trim();
+    let blackElo = String(headers.BlackElo || '').trim();
+    if (!whiteElo && !blackElo && playerColor !== 'both') {
+        const humanElo = String(stats.elo || '');
+        const computerElo = String(AI_ELO_MAP[aiDifficulty] || 1200);
+        whiteElo = playerColor === 'white' ? humanElo : computerElo;
+        blackElo = playerColor === 'black' ? humanElo : computerElo;
+    }
+
+    const lines = [];
+    if (whiteElo || blackElo) {
+        lines.push(`ELO: ♔ ${whiteElo || '—'} · ♚ ${blackElo || '—'}`);
+    }
+    lines.push(`Resultado: ${resultLabels[result] || result}`);
+
+    const event = String(headers.Event || '').trim();
+    if (event && event !== '?') lines.push(`Torneo: ${event}`);
+
+    const date = String(headers.Date || '').trim();
+    const round = String(headers.Round || '').trim();
+    const site = String(headers.Site || '').trim();
+    const dateParts = [];
+    if (date && date !== '?') dateParts.push(`Fecha: ${date}`);
+    if (round && round !== '?') dateParts.push(`Ronda: ${round}`);
+    if (dateParts.length) lines.push(dateParts.join(' · '));
+    if (site && site !== '?' && site !== event) lines.push(`Lugar: ${site}`);
+
+    const eco = String(headers.ECO || '').trim();
+    const opening = String(currentOpeningName || '').trim();
+    if (eco || opening) {
+        lines.push(`Apertura: ${[eco, opening].filter(Boolean).join(' · ')}`);
+    }
+
+    const plies = (game.moveHistoryUCI || game.moveHistory || []).length;
+    if (plies) lines.push(`Movimientos: ${Math.ceil(plies / 2)}`);
+    return lines.join('\n');
+}
+
+function buildSharePreview(kind, cardT, cardS, fenOverride, appKV, cardMeta) {
     const pos = getCurrentShareImageParams();
     const fen = (fenOverride && String(fenOverride).trim()) ? String(fenOverride).trim() : pos.fen;
     const mv = (pos.mv && !fenOverride) ? pos.mv : '';
@@ -15137,6 +15393,7 @@ function buildSharePreview(kind, cardT, cardS, fenOverride, appKV) {
     if (kind) img.set('kind', kind);
     if (cardT) img.set('t', cardT);
     if (cardS) img.set('s', cardS);
+    if (cardMeta) img.set('meta', cardMeta);
     if (mv) img.set('mv', mv);
     // Facebook conserva durante mucho tiempo la tarjeta de una URL ya
     // rastreada. Un identificador único obliga a descargar la posición y la
@@ -15145,7 +15402,7 @@ function buildSharePreview(kind, cardT, cardS, fenOverride, appKV) {
 
     // URL de share.php (usada en WhatsApp/X/FB para que los bots lean los OG tags).
     // Incluye todos los parámetros de imagen MÁS el parámetro de apertura de la app,
-    // de modo que share.php redirija a ?puzzle=, ?master=, ?opening=, ?moves=, etc.
+    // de modo que share.php redirija a ?puzzle=, ?master=, ?opening=, ?m=, etc.
     const shareQ = new URLSearchParams(img.toString());
     if (appKV && appKV.key && appKV.val) shareQ.set(appKV.key, appKV.val);
     const shareUrl = `${SHARE_BASE}share.php?${shareQ.toString()}`;
@@ -15153,7 +15410,15 @@ function buildSharePreview(kind, cardT, cardS, fenOverride, appKV) {
     return {
         shareUrl,
         previewImage: `board-image.php?${img.toString()}`,
-        previewParams: { fen: fen, flip: shareFlip === '1', kind: kind, t: cardT || '', s: cardS || '', mv: mv }
+        previewParams: {
+            fen: fen,
+            flip: shareFlip === '1',
+            kind: kind,
+            t: cardT || '',
+            s: cardS || '',
+            meta: cardMeta || '',
+            mv: mv
+        }
     };
 }
 
@@ -15371,7 +15636,19 @@ async function renderShareBoardDataURL(p) {
             ctx.fillText(ln, tx, ty);
             ty += 46;
         }
-        if (p.s) {
+        if (p.meta) {
+            ty += 8;
+            const metaFont = '20px Arial, sans-serif';
+            const metaLines = wrap(p.meta, metaFont, tw, 7);
+            metaLines.forEach(ln => {
+                const isResult = /^Resultado:/i.test(ln);
+                const isElo = /^ELO:/i.test(ln);
+                ctx.font = isResult || isElo ? `bold ${metaFont}` : metaFont;
+                ctx.fillStyle = isResult ? '#9dcc85' : (isElo ? '#f0d9b5' : '#d2cbc4');
+                ctx.fillText(ln, tx, ty);
+                ty += 29;
+            });
+        } else if (p.s) {
             ty += 12;
             const subFont = '24px Arial, sans-serif';
             ctx.fillStyle = '#f0d9b5';
@@ -15568,7 +15845,12 @@ async function generateShareVideo() {
         const chunks = [];
         recorder.ondataavailable = event => { if (event.data && event.data.size) chunks.push(event.data); };
         const stopped = new Promise(resolve => { recorder.onstop = resolve; });
-        recorder.start(250);
+        // No usar timeslice: en móvil, los fragmentos MP4/WebM periódicos se
+        // concatenan correctamente para el reproductor del navegador, pero
+        // Facebook, TikTok, Instagram y X pueden leer solo parte de ellos al
+        // importar el archivo. Al emitir los datos al detener la grabación se
+        // obtiene un único vídeo finalizado con toda su línea temporal.
+        recorder.start();
 
         const holdRecordedFrame = async (image, duration) => {
             const deadline = performance.now() + duration;
@@ -15884,7 +16166,15 @@ function getShareInfo() {
             const cardT = g.name || 'Partida maestra';
             const cardS = 'Revívela jugada a jugada';
             const url = `${BASE_PATH}?master=${encodeURIComponent(famousKey)}`;
-            const { shareUrl, previewImage, previewParams } = buildSharePreview('maestra', cardT, cardS, null, { key: 'master', val: famousKey });
+            const cardMeta = getShareGameCardMetadata();
+            const { shareUrl, previewImage, previewParams } = buildSharePreview(
+                'maestra',
+                cardT,
+                cardS,
+                null,
+                { key: 'master', val: famousKey },
+                cardMeta
+            );
             return { url, shareUrl, label: SHARE_COMPARTIR_LABEL.maestra, shareKind: 'maestra', shareDetail: g.name || null, previewImage, previewParams };
         }
     }
@@ -15904,13 +16194,28 @@ function getShareInfo() {
     }
 
     if (game && game.moveHistory && game.moveHistory.length > 0) {
-        const movesUCI = (game.moveHistoryUCI || []).join(',');
+        const moveList = game.moveHistoryUCI || [];
+        const compactMoves = encodeMovesBase64Url(moveList);
+        const movesUCI = moveList.join(',');
         const fgt = document.getElementById('famous-game-title');
         const vsDetail = (fgt && fgt.textContent) ? fgt.textContent.replace(/\n/g, ' ').replace(/\s+/g, ' ').trim() : null;
         const cardT = vsDetail || 'Mi partida';
         const cardS = 'Revívela jugada a jugada';
-        const url = `${BASE_PATH}?moves=${encodeURIComponent(movesUCI)}`;
-        const { shareUrl, previewImage, previewParams } = buildSharePreview('partida', cardT, cardS, null, { key: 'moves', val: movesUCI });
+        const appParam = compactMoves
+            ? { key: 'm', val: compactMoves }
+            : { key: 'moves', val: movesUCI };
+        const url = compactMoves
+            ? `${BASE_PATH}?m=${compactMoves}`
+            : `${BASE_PATH}?moves=${encodeURIComponent(movesUCI)}`;
+        const cardMeta = getShareGameCardMetadata();
+        const { shareUrl, previewImage, previewParams } = buildSharePreview(
+            'partida',
+            cardT,
+            cardS,
+            null,
+            appParam,
+            cardMeta
+        );
         return { url, shareUrl, label: SHARE_COMPARTIR_LABEL.partida, shareKind: 'partida', shareDetail: vsDetail || null, previewImage, previewParams };
     }
 
@@ -16526,7 +16831,7 @@ function parsePGNAndLoad(pgnRaw, gameTitle) {
         }
 
         showLoadedGameMessage(msg, isFinished, pgnResult);
-        if (!isFinished) showContinueButton();
+        showContinueButton();
 
         // Abrir el overlay de análisis si se importaron anotaciones
         if (importedAnalysis.length > 0) {
@@ -16730,17 +17035,10 @@ function parseSANMove(san, gameState, allCandidates) {
 
 // Funciones para reanudar partida
 function checkForGameInProgress() {
-    const raw = localStorage.getItem('auto_saved_game');
-    let inProgress = false;
-    if (raw) {
-        try { inProgress = !JSON.parse(raw).gameOver; } catch (e) {}
-    }
-    // Durante una partida online no se permite reanudar otra partida.
-    const onlineActive = !!(_onlineGame && _onlineGame.status === 'active');
-    ['resume-game', 'resume-game-sidebar'].forEach(id => {
-        const el = document.getElementById(id);
-        if (el) el.disabled = onlineActive || !inProgress;
-    });
+    // "Continuar Partida" actúa sobre la posición visible, no únicamente
+    // sobre una partida autoguardada. Por eso permanece disponible en
+    // partidas, aperturas, problemas y PGN cargados.
+    showContinueButton();
 }
 
 function resumeGame(silent) {

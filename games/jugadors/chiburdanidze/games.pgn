@@ -1,17 +1,3 @@
-﻿[Event "Kishinev"]
-[Site "Kishinev"]
-[Date "1973"]
-[Round ""]
-[White "Palchinskaya"]
-[Black "Chiburdanidze"]
-[Result "0-1"]
-[ECO "-"]
-[FEN "3r4/pb1r2kp/6p1/1Pp1qp2/2B5/P1P4P/2Q2RP1/5RK1 b - - 1 32"]
-[Setup "1"]
-
-32... Qe3 33. a4 Rd2 34. Qc1 Bxg2 35. Kxg2 Rxf2+ 36. Rxf2 Qxc1  0-1
-
-
 [Event "URS-Ch"]
 [Site "Tbilisi"]
 [Date "1973"]
@@ -25,23 +11,6 @@
 bxc3 dxe5 9. d5 e4 10. Ng5 Ne5 11. Nxe4 Qc7 12. Qd4 Bd7 13. Ba3 f6 14. d6 Qc6
 15. dxe7 Bxe7 16. Bxe7 Kxe7 17. Qb4+ Kf7 18. f4 Rhe8 19. fxe5 Rxe5 20. O-O-O
 Rxe4 21. Rxd7+ Ke8 22. Re7+  1-0
-
-
-[Event "Odessa"]
-[Site "Odessa"]
-[Date "1973"]
-[Round ""]
-[White "Belavenec"]
-[Black "Chiburdanidze"]
-[Result "0-1"]
-[ECO "-"]
-[FEN "3q2k1/1p3p1p/2p3p1/p3p3/P3Pn2/1PN2P1P/2P2QPK/8 b - - 0 27"]
-[Setup "1"]
-
-27... Qd4 28. Qxd4 exd4 29. Nb1 d3 30. cxd3 Nxd3 31. g3 Kf8 32. Kg2 Ke7 33. f4
-Kd6 34. Kf3 Kc5 35. Ke3 Nc1 36. Nd2 Kb4 37. Nc4 Nxb3 38. Nd6 b5 39. Nxf7 bxa4
-40. Ne5 a3  0-1
-
 
 [Event "Belgrade"]
 [Site "Belgrade"]
@@ -58,7 +27,6 @@ Kf8 15. Bd3 Be8 16. Rfe1 Rac8 17. Qf3 Rd5 18. Qh3 Rxe5 19. Qh8+ Ng8 20. Bxe7+
 Kxe7 21. Qxg8 Rg5 22. Qh7 Bc6 23. Qh4 f6 24. Be4 Qa5 25. f4 Qc5+ 26. Kh1 Rh5
 27. Qg4 Kf8 28. Bxc6 Rxc6 29. Rd8+ Ke7 30. Red1 Rd5 31. R1xd5 exd5 32. Qd7# 
 1-0
-
 
 [Event "URS-Ch"]
 [Site "Tbilisi"]
@@ -78,7 +46,6 @@ Rxe6 Qh5 28. Re3 h6 29. Nf3 Qg4+ 30. Kf2 Qxf4 31. Re8+ Rf8 32. Qxb5 Qc1 33.
 Rxf8+ Bxf8 34. d4 f4 35. Qe5+ Bg7 36. Qe2 Qb1 37. a3 Qg6 38. Nh4 Qc6 39. Ng2
 Qb6 40. Nxf4 Qf6 41. Kf3 Qf8 42. d5 Qf7 43. Qe7 Qf5 44. Qe8+  1-0
 
-
 [Event "URS-Ch"]
 [Site "Tbilisi"]
 [Date "1973"]
@@ -95,38 +62,6 @@ Rac1 Qb8 16. Rfe1 Nc5 17. Bc2 O-O 18. Ne4 Nd7 19. Neg5 g6 20. h4 Rd8 21. h5 Bf8
 22. hxg6 hxg6 23. Nxf7 Kxf7 24. Ng5+ Ke7 25. Nxe6 Ndxe5 26. Nxd8 Kxd8 27. Bxe5
 Qxe5 28. Qxe5 Nxe5 29. Rxe5 Bd6 30. Rd5 Ke7 31. Re1+ Be6 32. Bb3 Kd7 33. Rxd6+ 
 1-0
-
-
-[Event "URS-Ch"]
-[Site "Tbilisi"]
-[Date "1974"]
-[Round ""]
-[White "Ranniku"]
-[Black "Chiburdanidze"]
-[Result "0-1"]
-[ECO "-"]
-[FEN "r1b4k/1p1n2b1/p1pPBn2/2P1pP1p/PP3ppq/2NQ3P/5BP1/R4R1K b - - 0 29"]
-[Setup "1"]
-
-29... g3 30. Bg1 Nf8 31. Bxc8 Rxc8 32. Rae1 N8h7 33. Ne4 Nxe4 34. Rxe4 Ng5 35.
-Rfxf4 exf4 36. d7 Nxh3 37. dxc8=Q+ Kh7 38. Bh2 Nf2+ 39. Kg1 gxh2+ 40. Kf1 h1=Q+
-41. Ke2  0-1
-
-
-[Event "Braschov"]
-[Site "Braschov"]
-[Date "1974"]
-[Round ""]
-[White "Chiburdanidze"]
-[Black "Teodorescu"]
-[Result "1-0"]
-[ECO "-"]
-[FEN "6r1/k2r1p1q/1p2pQpP/pPp1P1B1/P1Pp4/3P3R/2n1KR2/8 w - - 0 63"]
-[Setup "1"]
-
-63. Rhf3 Kb8 64. Qxf7 Rxf7 65. Rxf7 Qh8 66. R2f6 Re8 67. h7 Ne3 68. Kf3 Kc8 69.
-Bh6 Kd8 70. Ra7 Nc2 71. Ra8+ Ke7 72. Rxe8+ Qxe8  1-0
-
 
 [Event "Leselidze"]
 [Site "Leselidze"]
@@ -146,7 +81,6 @@ Kc2 b5 35. Kd3 Rg8 36. a4 bxa4 37. Ra1 Kc6 38. Rxa4 Kb7 39. Rb4+ Ka7 40. Rb6
 Rb7 41. Rxb7+ Kxb7 42. Nxf6 Rh8 43. Kc4 Kc6 44. b4 Bh6 45. Nxh5 Bd2 46. Nf6 Rf8
 47. Nd5 Kd7 48. Kd3  1-0
 
-
 [Event "URS-Ch"]
 [Site "Tbilisi"]
 [Date "1974"]
@@ -164,7 +98,6 @@ Kg8 28. Rd8 Rc8 29. Qg5+ Kh8 30. Qxe5+ Kg8 31. Qg5+ Kh8 32. Qf6+ Kg8 33. Rd5
 Rfd8 34. Rg5+ Kf8 35. Rf1 Qc7 36. Qh6+ Ke7 37. Rxf7+ Kxf7 38. Rg7+ Ke8 39.
 Qxe6+  1-0
 
-
 [Event "URS-CupT"]
 [Site "Tbilisi"]
 [Date "1976"]
@@ -179,40 +112,6 @@ Qxe6+  1-0
 Bf4 Re8 16. Qf3 a5 17. Rac1 h6 18. Rd3 Bf8 19. Be3 a4 20. Ne4 Nbd7 21. Rcd1 Qa5
 22. Nxf6+ Nxf6 23. Bxh6 axb3 24. axb3 Qb4 25. Bg5 Be7 26. h4 Qd6 27. h5 c5 28.
 h6 cxd4 29. h7+  1-0
-
-
-[Event "URS-Ch"]
-[Site "Toliatti"]
-[Date "1976"]
-[Round ""]
-[White "Chiburdanidze"]
-[Black "Dudkova"]
-[Result "1-0"]
-[ECO "-"]
-[FEN "8/7p/6pB/3k4/1p3R2/2q5/5P1P/5NK1 w - - 0 43"]
-[Setup "1"]
-
-43. Ne3+ Ke6 44. Re4+ Kd7 45. Re7+ Kc6 46. Rc7+ Kxc7 47. Nd5+ Kd6 48. Nxc3 bxc3
-49. Kg2 Kd5 50. Kf3 Kc4 51. h4 Kb3 52. Kg4 c2 53. Be3  1-0
-
-
-[Event "URS-Ch"]
-[Site "Tbilisi"]
-[Date "1976"]
-[Round ""]
-[White "Gurieli"]
-[Black "Chiburdanidze"]
-[Result "0-1"]
-[ECO "-"]
-[FEN "2r2r2/pp4k1/4p1pp/3b1p2/3P4/P2B2P1/1P3PP1/2R2RK1 b - - 0 26"]
-[Setup "1"]
-
-26... Kf6 27. b4 Rfd8 28. Be2 Bb3 29. Bf3 b6 30. Rxc8 Rxc8 31. Rb1 Rc3 32. Re1
-Bc4 33. Re3 Rc1+ 34. Kh2 Rc2 35. Re1 Rxf2 36. Rc1 b5 37. a4 Rb2 38. axb5 Rxb4
-39. Ra1 Bxb5 40. d5 exd5 41. Bxd5 Ra4 42. Rc1 Rd4 43. Rc5 a6 44. Bf3 Rd6 45.
-Kg1 Rb6 46. Kf2 a5 47. Bd5 a4 48. Ke3 Bd7 49. Ra5 Be6 50. Bf3 Rb3+ 51. Kd4 a3
-52. Ra6 a2 53. g4 Rb1  0-1
-
 
 [Event "Interzonal Tournament"]
 [Site "Tbilisi"]
@@ -231,7 +130,6 @@ Rg8 27. g3 Nf5 28. Kd2 Rg4 29. Rg1 c5 30. f4 Ke7 31. Ke2 Nf8 32. Kf3 Nh6 33.
 dxc5 bxc5 34. c4 d4 35. Ra3 Nd7 36. Rxa7 Rg8 37. g4 Rb8 38. b3 Rg8 39. Rg2 Rf8
 40. Rg1 Rg8  1-0
 
-
 [Event "Interzonal Tournament"]
 [Site "Tbilisi"]
 [Date "1976"]
@@ -248,7 +146,6 @@ Qxd6 Rc8 22. Qxc6 Bxc6 23. Be2 Ng6 24. Nf2 Nhf4 25. Bf1 e5 26. Nd3 Nxd3 27.
 Bxd3 Nf4 28. Bf1 Bd7 29. Bxf4 exf4 30. Rxd7 Kxd7 31. Bh3+ Kc7 32. Bxc8 Kxc8 33.
 c3 bxc3 34. b3 Kd7 35. Kc2 Ke6 36. Kxc3 f5 37. gxf6 Kxf6 38. a3 g5 39. b4 axb4+
 40. axb4 g4  1-0
-
 
 [Event "Interzonal Tournament"]
 [Site "Tbilisi"]
@@ -268,7 +165,6 @@ Rd1 34. Rf4 Kh7 35. h5 g5 36. hxg6+ Kxg6 37. b3 Rd6 38. Re5 Rd2 39. Re7 Rd3 40.
 Rff7 Rxd4 41. Kg3 Rc6 42. f4 Rc2 43. Rg7+ Kf6 44. g5+ hxg5 45. Rgf7+ Kg6 46.
 f5+ Kh6 47. Rh7#  1-0
 
-
 [Event "Candidates Qf G/04"]
 [Site "Tbilisi"]
 [Date "1977"]
@@ -287,7 +183,6 @@ Kxh2 g5 29. Nh3 g4 30. Nf4 Bh6 31. Bc1 Kh7 32. Rg1 Rg8 33. Rg2 Rg7 34. Ra2 Rag8
 fxg3 h3 42. Rh2 Rxg3+ 43. Rxg3 Rxg3+ 44. Kh1 Qg6 45. Qf1 Qg4 46. Be1 Rf3 47.
 Rf2 Rd3  1/2-1/2
 
-
 [Event "Candidates Qf G/09"]
 [Site "Tbilisi"]
 [Date "1977"]
@@ -302,7 +197,6 @@ Be7 9. Be2 O-O 10. O-O b6 11. Be3 Bb7 12. Qb3 Nd7 13. Rac1 Nc5 14. Qc2 Qb8 15.
 Nab1 b5 16. cxb5 axb5 17. Bxb5 Nb4 18. Qe2 Nxa2 19. Nxa2 Rxa2 20. Nc3 Ra8 21.
 f3 Rc8 22. Rcd1 Nb3 23. Na4 Bd8 24. Rd3 Na5 25. Rc3 Rxc3 26. Nxc3 Bf6 27. Rd1
 Be5 28. Na4 d5 29. exd5 Bxh2+ 30. Kh1 Qe5 31. Nb6 Qh5 32. g4  1-0
-
 
 [Event "Candidates Sf G/02"]
 [Site "Tallinn"]
@@ -328,7 +222,6 @@ Rb5 66. Qg3+ Kd7 67. Qa3 Rd5 68. Qb4 Rf5 69. Qb7+ Kd8 70. Qb8+ Kd7 71. Kd4 Rd5+
 Qf7+ Kd6 79. Qe8 Rc5+ 80. Kb4 Rd5 81. Qd8+ Ke5 82. Qe7 Kf5 83. Kc3 Ke5 84. Qf8
 Rd7 85. Qh8+ Kf5 86. Kc4 Rd5 87. Qg7  1-0
 
-
 [Event "Candidates Sf G/10"]
 [Site "Tallinn"]
 [Date "1977"]
@@ -344,7 +237,6 @@ Be3 Nf8 16. h4 a6 17. Ne2 b5 18. Nf4 Qd6 19. Nxc6 dxe4 20. d5 N8d7 21. Na5 Qb8
 22. Nxb7 Qxb7 23. d6 Bd8 24. Nd5 Nxd5 25. Qxd5 Qxd5 26. Rxd5 Nf6 27. Rdd1 Ba5
 28. Bh3 h5 29. Rc6 Ng4 30. Bxg4 hxg4 31. d7 Reb8 32. Bc5 b4 33. Bd6 Rd8 34. Be7
 Rdb8 35. Rd5 Bd8 36. Rc8 Kh7 37. Bxd8 Rxc8 38. dxc8=Q Rxc8 39. Bg5  1-0
-
 
 [Event "Candidates Sf G/11"]
 [Site "Tallinn"]
@@ -362,25 +254,6 @@ Nf7 16. bxc5 Nxc5 17. Nxc5 bxc5 18. e4 Bh6 19. Bxh6 Nxh6 20. Qa4 Nf7 21. Nb5 f5
 28. Nc3 Rb3 29. Nd1 Kg7 30. Ne3 Kf6 31. Ra2 Bf5 32. h4 Nh6 33. Bf3 Bb1 34. Ra1
 Nf5 35. Bd1 Rb2 36. Ba4 Nxe3 37. fxe3 Kf5 38. Bd7+ Ke4 39. a4 Bd3 40. a5 Kxe3
 41. Ra3  0-1
-
-
-[Event "Lvov"]
-[Site "Lvov"]
-[Date "1977"]
-[Round ""]
-[White "Zatulovskaya"]
-[Black "Chiburdanidze"]
-[Result "0-1"]
-[ECO "-"]
-[FEN "8/8/p4bp1/1p1k1p1p/1P6/P2P3P/6P1/2BK4 b - - 0 44"]
-[Setup "1"]
-
-44... g5 45. Ke2 g4 46. Kf2 Be5 47. Ke2 f4 48. hxg4 hxg4 49. Kf1 Ke6 50. Ke2 Kf5
-51. Kf1 Bd4 52. Ke2 Ke5 53. Kf1 f3 54. gxf3 gxf3 55. Bh6 Kd5 56. Bf8 Ke6 57.
-Ke1 Ke5 58. Kf1 Kf4 59. Bh6+ Kg4 60. Bf8 Bb2 61. Bc5 Bxa3 62. d4 Kf5 63. d5 a5
-64. d6 Ke6 65. d7 Kxd7 66. Kf2 Bxb4 67. Bd4 Kc6 68. Kxf3 Kd5 69. Bf6 Kc4 70.
-Ke2 Bc3 71. Be7 a4 72. Kd1 Kb3 73. Kc1 a3  0-1
-
 
 [Event "Candidates Final G/04"]
 [Site "Bad Kissingen"]
@@ -400,7 +273,6 @@ c5 Rxb3 34. c6 Rb1+ 35. Kf2 Rc1 36. c7 f4 37. Bxf4 Rc2+ 38. Ke1 Nd5 39. Re8 Nb6
 40. Be5 Kf7 41. Rb8 g5 42. Rh8 Kg6 43. Rf8 Rc6 44. g4 h5 45. Rf6+ Kh7 46. gxh5
 Kg8 47. Rh6  1-0
 
-
 [Event "Candidates Final G/11"]
 [Site "Bad Kissingen"]
 [Date "1978"]
@@ -418,7 +290,6 @@ Qf6 28. Ra7 Ba6 29. Nxc3 Bxd3 30. Rc1 Bf5 31. Raa1 d4 32. exd4 Rxd4 33. Na4
 Rcd8 34. b4 e5 35. Re1 Be4 36. Nc5 Bd5 37. Ra3 Kg8 38. Rae3 Qg5 39. Rg3 Qf5 40.
 Rge3 Bxg2 41. Rxe5 Qxh3 42. Re8+ Kg7 43. f4 Bc6 44. Rxd8 Qh1+ 45. Kf2 Qh2+ 46.
 Ke3 Qxf4+  0-1
-
 
 [Event "Vilnius"]
 [Site "Vilnius"]
@@ -438,7 +309,6 @@ Ne7 22. gxf6 Nxg6 23. bxc3 Rf8 24. Nxb5 h3 25. Nd4 hxg2 26. Qf3 Nh4 27. Qg3 Qh7
 40. Kf5 Rf1 41. Kg5 Bc4 42. f5 c5 43. Kf6 Rc1 44. Re8 Bb3 45. Ra6+ Kd5 46. Re5+
 Kd4 47. Rd6+ Kc4 48. Ke7 Kb4 49. Rb6+ Ka3 50. f6  1-0
 
-
 [Event "WCh G/04"]
 [Site "Pitsunda"]
 [Date "1978"]
@@ -454,7 +324,6 @@ Qh5 9. Nxc4 Bh3 10. Nf3 Bxg2 11. Kxg2 Bg7 12. d3 O-O 13. h3 Qd5 14. Bd2 Rfd8
 cxb4 22. Rfe1 Nd7 23. Qc2 Nc5 24. b3 a6 25. Nf3 b5 26. axb5 axb5 27. Ne3 Na4
 28. Qa2 Nc3 29. Qa5 Nxd1 30. Rxd1 Qxb3 31. Qxb5 Rc3 32. Qb7 Rcxd3 33. Rxd3 Rxd3
 34. Nd5 Rxf3  0-1
-
 
 [Event "WCh G/05"]
 [Site "Pitsunda"]
@@ -473,7 +342,6 @@ hxg4 22. Be2 f5 23. exf5 Bxf5 24. c3 Nd5 25. Bd3 Bxd3 26. Qxd3+ Kg8 27. Qf5 Nf6
 b3 Bf8 35. Qf4 Qg6 36. bxa4 Rxa4 37. Rxa4 Qb1+ 38. Kh2 Qh7+ 39. Bh4 Qxh4+ 40.
 Kg1 Qh5 41. Ra8  1-0
 
-
 [Event "WCh G/09"]
 [Site "Pitsunda"]
 [Date "1978"]
@@ -490,7 +358,6 @@ Na4 Ne4 22. Qd3 Nd6 23. Nb6 Qb7 24. Nd5 Rc6 25. c5 Nc8 26. b4 e6 27. Nb6 e4 28.
 Qd2 Nxb6 29. cxb6 Bc3 30. Qd7 Rxb6 31. Bxb6 Qxb6 32. a3 Be5 33. Kg2 e3 34. fxe3
 Qxe3 35. Qd3 Qg5 36. Rf3 Rc8 37. Rd2 Kg7 38. Rxf7+ Kh6 39. h4  1-0
 
-
 [Event "Olympiad"]
 [Site "Buenos Aires"]
 [Date "1978"]
@@ -506,7 +373,6 @@ Bh7 9. Bd3 Bxd3 10. Qxd3 Ngf6 11. Bd2 Qc7 12. O-O-O e6 13. c4 O-O-O 14. Qe2 c5
 Nb3 Qc6 22. f3 Rxd1+ 23. Rxd1 Rd8 24. Rxd8+ Kxd8 25. Nxc5 Qxc5 26. g4 Ke7 27.
 Kc2 g6 28. b4 Qc6 29. b5 Qc5 30. Kb3 Qc7 31. Bb4+ Kd7 32. Qd2+ Kc8 33. hxg6
 fxg6 34. Qxh6 Qd7 35. Qe3 b6 36. Kc2  1-0
-
 
 [Event "Baku"]
 [Site "Baku"]
@@ -525,6 +391,3 @@ Bb4 Bxc6 29. Bxf8 Bb7 30. Qf7 Qxf8 31. Qxb7 d3 32. a5 e4 33. a6 e3 34. Qxc8
 Qxc8 35. a7 Qa8 36. b6 e2 37. b7 exf1=Q+ 38. Kxf1 Qxb7 39. a8=Q+ Qxa8 40. Rxa8+
 Ng8 41. Rd8 h6 42. Rxd3 Nf6 43. Kf2 Kh7 44. Kf3 Kg6 45. Kf4 Nh5+ 46. Ke5 Kg5
 47. Rd4 Nf6 48. h4+ Kh5 49. Kf5 Ng8 50. Rd7  1-0
-
-
-

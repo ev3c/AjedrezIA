@@ -2,6 +2,171 @@
 
 ---
 
+## v3.5.37 — 2026-07-29
+
+### Problemas de Ajedrez
+- Añadida sobre «Categoría» la etiqueta «~5,5 millones de problemas».
+
+---
+
+## v3.5.36 — 2026-07-29
+
+### Partidas Maestras
+- El menú «Selecciona un jugador» adopta el mismo formato alfabético
+  expandible A–Z que el menú de Partides Lliga CAT.
+- Los jugadores se agrupan por su inicial y solo se despliega un grupo cada
+  vez para facilitar la navegación.
+
+---
+
+## v3.5.35 — 2026-07-29
+
+### Biblioteca de jugadores
+- Añadido Deep Blue al menú «Selecciona un jugador» de Partidas Maestras.
+- Su colección contiene las doce partidas contra Garry Kasparov de los
+  encuentros de 1996 y 1997.
+- La biblioteca pasa a tener aproximadamente 253 jugadores y 264.236 partidas.
+
+---
+
+## v3.5.34 — 2026-07-29
+
+### Imágenes de partidas compartidas
+- Las imágenes generadas de partidas muestran ahora el resultado, los ELO de
+  blancas y negras, torneo, fecha, ronda, lugar, apertura y número de
+  movimientos cuando esos datos están disponibles.
+- La información adicional se incluye tanto en la previsualización generada
+  por el navegador como en la imagen servida a las redes sociales.
+
+---
+
+## v3.5.33 — 2026-07-29
+
+### Partidas seleccionadas
+- Añadido el grupo «Deep Blue» como jugador, con sus doce partidas contra
+  Garry Kasparov de 1996 y 1997.
+
+---
+
+## v3.5.32 — 2026-07-29
+
+### Partidas seleccionadas
+- Añadidas las doce partidas completas de Deep Blue contra Garry Kasparov:
+  las seis del encuentro de Filadelfia de 1996 y las seis de la revancha de
+  Nueva York de 1997.
+- Las partidas se muestran juntas y ordenadas dentro del grupo de Kasparov.
+
+---
+
+## v3.5.31 — 2026-07-29
+
+### Partides Lliga CAT
+- Al seleccionar un jugador que solo tiene una partida, esta se abre
+  automáticamente sin tener que elegirla en «Selecciona una partida».
+
+---
+
+## v3.5.30 — 2026-07-29
+
+### Biblioteca de jugadores
+- Las entradas de libros o cursos cuyo supuesto jugador empieza por
+  «Chapter» ya no aparecen en el menú «Selecciona una partida».
+
+---
+
+## v3.5.29 — 2026-07-29
+
+### Continuar desde cualquier posición
+- «Continuar Partida» permanece disponible en partidas, aperturas, problemas y
+  partidas cargadas, incluidas las posiciones finalizadas.
+- Al navegar por el historial, la continuación parte exactamente de la
+  posición visible y descarta únicamente los movimientos posteriores.
+- Al salir de una apertura, problema o lección se desactivan sus reglas de
+  entrenamiento y la posición pasa a ser una partida normal.
+- Si es el turno del jugador, la aplicación espera su movimiento; si es el
+  turno contrario, la IA seleccionada mueve automáticamente.
+
+---
+
+## v3.5.28 — 2026-07-28
+
+### Selector de jugadores
+- Eliminada definitivamente la entrada independiente «Carlsen - Chess24» del
+  menú «Selecciona un jugador».
+- El índice de jugadores se solicita sin caché y con la versión actual para
+  impedir que navegadores o proxies muestren una copia anterior.
+
+---
+
+## v3.5.27 — 2026-07-28
+
+### Enlaces de partidas más cortos
+- Los nuevos enlaces empaquetan cada movimiento UCI en 15 bits y codifican la
+  secuencia en Base64URL mediante el parámetro `?m=`.
+- El tamaño de la lista de movimientos se reduce aproximadamente un 60 %.
+- Los enlaces existentes con `?moves=e2e4,e7e5,...` continúan funcionando sin
+  cambios.
+- `share.php` conserva el formato compacto al redirigir desde Facebook, X,
+  WhatsApp y otras redes sociales.
+
+---
+
+## v3.5.26 — 2026-07-28
+
+### Fusión de la colección Carlsen
+- Fusionada `carlsen-chess24-attacking-without-s` dentro de `carlsen`.
+- Añadidas 3 partidas nuevas y omitida 1 partida duplicada.
+- La entrada independiente de Chess24 se elimina de «Seleccionar un jugador».
+- Carlsen contiene ahora 9.706 partidas, todas validadas con el motor de
+  AjedrezIA.
+
+---
+
+## v3.5.25 — 2026-07-28
+
+### Depuración de la Biblioteca de jugadores
+- Revisadas las 266.953 partidas de `games/jugadors` utilizando el mismo motor
+  y parser SAN con los que AjedrezIA carga las partidas.
+- Eliminadas 2.728 partidas con errores graves: movimientos ilegales, SAN no
+  cargable o ausencia de movimientos reconocibles.
+- La biblioteca conserva 264.225 partidas válidas repartidas entre 253
+  jugadores.
+- Regenerado `games/jugadors/index.json`; los menús «Seleccionar un jugador» y
+  «Seleccionar una partida» muestran los recuentos depurados.
+- Añadida una herramienta reproducible y un informe de auditoría con todas las
+  partidas retiradas.
+
+---
+
+## v3.5.24 — 2026-07-28
+
+### Menú Partidas Seleccionadas
+- El desplegable en PC es más ancho para mostrar mejor los nombres completos
+  de las partidas sin alterar el ancho del panel lateral.
+- En smartphone continúa adaptándose al ancho completo de la pantalla.
+
+---
+
+## v3.5.23 — 2026-07-28
+
+### Partidas Seleccionadas
+- Al elegir una partida de «Partidas Seleccionadas» se carga siempre esa
+  partida, aunque la biblioteca mantenga un jugador y una partida seleccionados.
+- Cada selector identifica ahora explícitamente qué origen inició la carga.
+
+---
+
+## v3.5.22 — 2026-07-28
+
+### Vídeos completos al compartir desde móvil
+- Corregido el problema por el que Facebook, TikTok, Instagram y X podían
+  importar únicamente una parte del vídeo generado en el smartphone.
+- MediaRecorder genera ahora un archivo continuo y finalizado, sin fragmentos
+  temporales que los importadores de las redes sociales puedan truncar.
+- Se conserva íntegramente el último plano de cinco segundos.
+
+---
+
 ## v3.5.21 — 2026-07-28
 
 ### Variantes en vídeos de aperturas

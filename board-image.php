@@ -29,6 +29,7 @@ $flip = isset($_GET['flip']) && $_GET['flip'] === '1';
 $kind = isset($_GET['kind']) ? preg_replace('/[^a-z]/', '', strtolower($_GET['kind'])) : '';
 $t    = isset($_GET['t']) ? mb_substr(trim((string)$_GET['t']), 0, 120) : '';
 $s    = isset($_GET['s']) ? mb_substr(trim((string)$_GET['s']), 0, 120) : '';
+$meta = isset($_GET['meta']) ? mb_substr(trim((string)$_GET['meta']), 0, 420) : '';
 $mv   = isset($_GET['mv']) ? substr(preg_replace('/[^a-h1-8]/', '', strtolower($_GET['mv'])), 0, 4) : '';
 
 $placement = explode(' ', trim($fen))[0];
@@ -247,7 +248,16 @@ if ($t !== '') {
     $ty = 220;
 }
 
-if ($s !== '') {
+if ($meta !== '') {
+    $ty += 10;
+    foreach (array_slice(wrapText($meta, 38), 0, 7) as $ln) {
+        $isResult = stripos($ln, 'Resultado:') === 0;
+        $isElo = stripos($ln, 'ELO:') === 0;
+        $lineColor = $isResult ? $green : ($isElo ? $cream : $grey2);
+        drawText($im, 17, $tx, $ty, $lineColor, $isResult || $isElo, $ln);
+        $ty += 29;
+    }
+} elseif ($s !== '') {
     $ty += 14;
     foreach (array_slice(wrapText($s, 30), 0, 2) as $ln) {
         drawText($im, 21, $tx, $ty, $cream, false, $ln);

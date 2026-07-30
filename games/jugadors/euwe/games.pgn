@@ -1,4 +1,4 @@
-﻿[Event "Venice"]
+[Event "Venice"]
 [Site "Venice ITA"]
 [Date "1948.10.??"]
 [Round "5"]
@@ -750,8 +750,6 @@ to find the knock out punch}) 36... Qxc4+ 37. Ka5 Qc3+ 38. Kxa6 Bc4+ 39. Kb7
 Qb3+ 40. Bb6 Qf3+ 41. Kb8 Ba6 42. Red1+ Ke8 {[pgndiagram] In this game Euwe
 display his customary opening preparation, together with resourcefulness in
 tactical positions. - Kasparov} 0-1
-
-
 
 [Event "Amsterdam m1"]
 [Site "Amsterdam"]
@@ -16410,19 +16408,6 @@ Nb1 41. Rb3 1-0
 [Event "NLD-ch m"]
 [Site "Amsterdam"]
 [Date "1948.??.??"]
-[Round "3"]
-[White "Van Scheltinga, Theo D"]
-[Black "Euwe, Max"]
-[Result "1/2-1/2"]
-[ECO "A00"]
-[PlyCount "0"]
-[EventDate "1948.??.??"]
-
- 1/2-1/2
-
-[Event "NLD-ch m"]
-[Site "Amsterdam"]
-[Date "1948.??.??"]
 [Round "4"]
 [White "Euwe, Max"]
 [Black "Van Scheltinga, Theo D"]
@@ -21534,8 +21519,6 @@ Ke3 Nc4+ 73. Kd3 Na5 74. Bd1 Nc6 75. Re4 Nb4+ 76. Ke3 Nd5+ 77. Kf3 Nc3 78. Re1
 Nxd1 79. Rxd1 b4 80. Ke4 b3 81. Rd7 Kb4 82. Kd3 Rxf4 83. Rb7+ Ka3 84. Kc3 Rf3+
 85. Kc4 Ka2 86. Ra7+ Kb1 87. Rb7 Kc2 88. Kd4 b2 89. Rc7+ Kb1 90. Ra7 Kc2 91.
 Rc7+ Kb3 92. Rb7+ Ka2 93. Ra7+ Ra3 94. Rxf7 b1=Q 95. Rf2+ Ka1 0-1
-
-
 
 [Event "Amsterdam m2"]
 [Site "Amsterdam"]
@@ -41523,7 +41506,6 @@ Rc7+ Kb3 92. Rb7+ Ka2 93. Ra7+ Ra3 94. Rxf7 b1=Q 95. Rf2+ Ka1 0-1
 87.Rb7 Kc2 88.Kd4 b2 89.Rc7+ Kb1 90.Ra7 Kc2 91.Rc7+ Kb3 92.Rb7+ Ka2 93.Ra7+ Ra3
 94.Rxf7 b1=Q 95.Rf2+ Ka1  0-1
 
-
 [Event "Gothenburg-B"]
 [Site "Gothenburg"]
 [Date "1920.??.??"]
@@ -43044,4 +43026,3 @@ axb4 Be7 16. O-O f6 17. Qc2 Kh8 18. c5 Ra3 19. Bc4 f5 20. Nxe7 Qxe7 21. Bd5 Rc3
 28. Rg4 Qxf3 29. Rg3 Qe4 30. Ra1 h6 31. b5 Ne7 32. c6 Rf8 33. Qb4 Re8 34. c7
 Nd5 35. Qd6 Nf4 36. Qd8 Ne2+ 37. Kf1 Nxg3+ 38. hxg3 Qh1+ 39. Ke2 Qh5+ 40. Kd2
 Qf7 41. Ke1 1-0
-

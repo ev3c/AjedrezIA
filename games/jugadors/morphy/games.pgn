@@ -1,936 +1,3 @@
-﻿% BOOKTITLE = Morphy: Move By Move
-[Event "?"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "?"]
-[White "About this Publication"]
-[Black "?"]
-[Result "*"]
-[Annotator "Zenón Franco"]
-[PlyCount "1"]
-[SourceTitle "Morphy Move By Move"]
-[Source "Everyman Chess"]
-[SourceDate "2016.09.01"]
-
-{Paul Morphy is a chess legend and without doubt one of the greatest players
-in the history of the game. His understanding of the game was years ahead of
-his time and in his era he was easily the best player in the world. His chess
-career was brief but brilliant and he influenced all the great champions who
-came after him. His legacy includes a treasure trove of wonderful strategic
-and attacking games which are highly instructive for all aspiring chess
-players. In this book, Grandmaster Zenón Franco examines in detail Morphy's
-chess style, selects and studies his favourite Morphy games, and demonstrates
-how we can all improve our chess by learning from Morphy's masterpieces.} 1.
--- {Move by Move provides an ideal platform to study chess. By continually
-challenging the reader to answer probing questions throughout the book, the
-Move by Move format greatly encourages the learning and practising of vital
-skills just as much as the traditional assimilation of knowledge. Carefully
-selected questions and answers are designed to keep you actively involved and
-allow you to monitor your progress as you learn. This is an excellent way to
-improve your chess skills and knowledge.} *
-
-[Event "?"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "?"]
-[White "About the Author"]
-[Black "?"]
-[Result "*"]
-[Annotator "Zenón Franco"]
-[PlyCount "1"]
-[SourceTitle "Morphy Move By Move"]
-[Source "Everyman Chess"]
-[SourceDate "2016.09.01"]
-
-{Zenón Franco is a Grandmaster from Paraguay, now living in Spain. He
-represented Paraguay, on top board, in seven Chess Olympiads, and won
-individual gold medals at Lucerne 1982 and Novi Sad 1990. He's an experienced
-trainer and has written numerous books on chess.} 1. -- {Also by the Author:
-Anand: Move by Move; Rubinstein: Move by Move; Spassky: Move by Move; Test
-Your Chess.} *
-
-[Event "?"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "?"]
-[White "Introduction"]
-[Black "?"]
-[Result "*"]
-[Annotator "Zenón Franco"]
-[PlyCount "1"]
-[SourceTitle "Morphy Move By Move"]
-[Source "Everyman Chess"]
-[SourceDate "2016.09.01"]
-
-{It is a pleasure to write about a chess player whose career was as unusual as
-that of Paul Morphy, who was considered without question to be the best in the
-world in his day. --- He became number one, not through a 'normal' process
-of experience and learning, but almost overnight. In fact his career was the
-shortest of all those who can be considered the number one of their time.
-Between his first game in the first USA Championship in 1857 and the last game
-of his match against Adolf Anderssen, there was a space of only one year and
-three months. Even so, Morphy's superiority over the rest was overwhelming.
---- Morphy is possibly the easiest to understand of the players who have been
-the best of their time. As Max Euwe pointed out, his style was based on three
-basic elements: 1. rapid development of the pieces; 2. control of the centre;
-and 3. open lines. --- It seems simple, yet it can't be so, since the other
-masters of the day couldn't manage it when they confronted him; only Morphy
-grasped it. He was ahead of his time. One of his rivals Henry Bird said:
-"When one plays with Morphy the sensation is as queer as the first electric
-shock, or first love, or chloroform, or any entirely novel experience."} 1.
--- {Morphy read all the literature that was available in those days, but this
-didn't amount to much; that alone wasn't enough. As a standard of comparison,
-let's keep in mind that Robert Fischer said in 1968 that part of his own
-mastery was due to his having read around a thousand books and having taken
-the best out of each of them. --- All the masters agree that Morphy's
-beautiful combinations were based on the fact that he was the first positional
-player, even though that sounds paradoxical. His teachings were perfected
-later by Steinitz, but Morphy was the first, the most revolutionary. And we
-are left with an obvious question: How did he discover it? How did he learn?
---- As with two other world number ones whose careers I have had the good
-fortune to study, Akiba Rubinstein and Boris Spassky, Morphy's written legacy
-is almost non-existent. Unfortunately, he left little or no evidence of how he
-chose his moves, how he evaluated the positions, etc. Thus we have to let his
-games speak for him.} (1. -- {The Structure of this Book: -- In the first
-chapter I examine Morphy's style of play, with testimony from various world
-champions, along with my own conclusions. Then some practical examples of his
-style are given. --- The rest of the book features a selection of his games,
-ordered chronologically, with some biographical data. Extracts from games and
-some supplementary games are added.}) (1. -- {Zenón Franco, Ponteareas,
-September 2016.}) (1. -- {For Yudania}) (1. -- {Translated by Phil Adams}) (1.
--- {With special thanks to Jonathan Tait for his very useful suggestions and
-improvements.}) *
-
-[Event "?"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "?"]
-[White "1. Paul Morphy's Style of Play"]
-[Black "?"]
-[Result "*"]
-[Annotator "Zenón Franco"]
-[PlyCount "1"]
-[SourceTitle "Morphy Move By Move"]
-[Source "Everyman Chess"]
-[SourceDate "2016.09.01"]
-
-{I believe that brilliance is something that all we chess players associate
-with the name of Morphy, from the very first time that we see some of his
-games, which as a rule takes place not long after learning to play. --- Those
-spectacular sacrifices of material leading to mate seemed magical to us.
-Lasker was one of several champions who emphasized the positional basis of
-Morphy's game; he wrote: "Morphy discovered that the brilliant move of a
-master is essentially conditional not on a sudden and inexplicable realization,
-but on the placing of the pieces on the board. He introduced the rule:
-brilliant moves and deep winning manoeuvres are possible only in those
-positions where the opponent can be opposed with an abundance of active energy.
-"} 1. -- {Capablanca commented something in the same vein: "The greatest
-stylist was Morphy. He did not look for complicated combinations, but he also
-did not avoid them, which really is the correct way of playing (...) His main
-strength lay not in his combinative gift, but in his positional play and
-general style. Morphy gained most of his wins by playing directly and simply,
-and it is this simple and logical method that constitutes the true brilliance
-of his play, if it is considered from the viewpoint of the great masters."
---- Alekhine pointed out that: "...at that time, finally, when Anderssen was
-alive, and with brilliance alone it was hardly possible to surprise anyone.
-The strength, the invincible strength of Morphy - this was the reason for
-his success and the guarantee of his immortality!". Morphy's invincible
-strength, in the opinion of Alekhine was his "deeply considered positional
-play, primarily of an aggressive character."} (1. -- {Euwe agreed with the
-world champions who preceded him: "Many people consider Morphy to be the
-greatest combinative player of all time. But Morphy owed his remarkable
-achievements not only to his admittedly tremendous combinative talents, but
-also to the fact that he was the first perfect positional player - in so far
-as one can speak of perfection in a human being. Moreover, he had excellent
-technique. --- "In the maturity of his positional insight, Morphy was half a
-century ahead of his time. While others racked their brains for the right
-procedure, Morphy simply knew what to do. Unlike his contemporaries who played
-for complications on the off-chance of finding something, he struck only when
-the position was ripe. When he did strike, the blow was hard and often settled
-the game outright." --- Botvinnik emphasized that: "To this day Morphy is
-an unsurpassed master of the open games. Just how great his significance was
-is evident from the fact that after Morphy nothing substantially new has been
-created in this field." --- What Botvinnik said was confirmed by Adolf
-Anderssen himself, who admitted that he could not compete with Morphy in open
-positions - none other than Anderssen, the protagonist of the 'Immortal'
-and the 'Evergreen' games.}) (1. -- {Fischer was not backward in giving
-praise: "Morphy was perhaps the most accurate chess player who ever lived.
-He had complete sight of the board and never blundered, in spite of the fact
-that he played quite rapidly, rarely taking more than five minutes to decide a
-move. (His opponents, in those days before chess clocks, often took hours.)"
---- Smyslov noted that: "He played with inspiration, without striving to
-penetrate into the psychology of the opponent; he played, if one can express
-it so, 'pure chess'. His harmonious positional understanding and deep
-intuition would have made Morphy a highly dangerous opponent even for any
-player of our times." --- As Kasparov pointed out, almost all world
-champions (Botvinnik is the exception) saw their own game reflected in
-Morphy's, their own vision of the game and their own strength; at times they
-seemed to be talking about themselves. For this to be so general is something
-surprising and unique. --- Kasparov explained Morphy's strength in this way:
-"I think that it was a combination of a unique natural talent and brilliant
-erudition. His play was the next, more mature stage in the development of
-chess. Morphy had a well-developed 'feeling for position', and therefore
-he can be confidently regarded as the 'first swallow' - the prototype of
-the strong 20th century grandmaster." --- Fischer also mentioned the only
-fallibility shown by Morphy: "Perhaps his only weakness was in closed games
-like the Dutch Defence. But even then, he was usually victorious because of
-his resourcefulness." --- There can be little doubt that if Morphy had
-continued to play he would also have excelled in closed positions.}) (1. -- {
-The five-time World Champion Viswanathan Anand was asked who he would play
-against, considering the whole history of chess, he answered: "I'd probably
-go for Morphy. He was the first player who made everything seem effortless. In
-fact I was shocked to see a collection of all his games, because usually we
-see only the best ones in which the chess looks like effortless. If you saw
-all his games you realized, first of all he was human, and second, his
-opponents were not all that bad. --- "Of course there are the ones (where)
-they look amateurish, but there are also the ones where they look... suddenly
-you can see the beginning of modern chess. You suddenly see pawn structures
-and you think: they only discovered this in the 1920s. --- "Suddenly you see
-the early versions of this and so on. (...) Somehow they were knocking at the
-doors but they hadn't worked out the details." --- Nigel Short wrote: "My
-first hero was Paul Morphy. (...) I think he was just way ahead of his time. I
-liked his economy. He didn't waste time with his moves: they were very
-purposeful. In a sense they are classic games: they teach you to attack, not
-mess around. (...) He was a hero and then at some stage I thought his games
-were not very sophisticated and his opponents were bad, and I should look at
-something better. I now think that he was so much in advance of his
-contemporaries, just a genius. Some of the ideas were quite deep and he had a
-fantastic calculating ability." --- On another occasion he added: "Morphy
-had this tremendous feeling for the initiative. (...) All this playing against
-weak pawns and shuffling around is nonsense; it's checkmate that wins the game.
-Morphy demonstrates economy of development, control of the centre and the use
-of open lines."}) (1. -- {I wish to add what I believe was an essential
-characteristic of Morphy's practical play, and that is his ability to maintain
-the tension, to abstain from committal decisions except when he had a concrete
-reason to do so. That characteristic was vital for him to succeed in the many
-games he played 'at odds'; i.e. granting his opponent a material advantage
-at the start of the game. --- In some games, almost always simultaneous played
-at odds, rather than in 'serious' ones, Morphy seemed almost to be playing
-a game of 'chicken', from which he almost always emerged the winner. In
-those games the competitive and/or practical element was more important than
-objectivity. --- Finally, let us note Anderssen's observation: "Morphy
-treats chess with the seriousness and conscientiousness of an artist... For
-him a game of chess is a sacred duty"; and he said about his play:
-"Morphy's play seemed to me like something from another world."}) *
-
-[Event "New Orleans"]
-[Site "?"]
-[Date "1849.??.??"]
-[Round "?"]
-[White "Morphy, P."]
-[Black "Rousseau, E."]
-[Result "1-0"]
-[ECO "C39"]
-[Annotator "Zenón Franco"]
-[SetUp "1"]
-[FEN "rnb2bnr/pp1pk3/2p2q1p/8/2B1PpQP/2N5/PPPP2P1/R1B1K2R w KQ - 0 10"]
-[PlyCount "15"]
-[EventDate "1849.??.??"]
-[SourceTitle "Morphy Move By Move"]
-[Source "Everyman Chess"]
-[SourceDate "2016.09.01"]
-
-{Morphy on the Attack --- Here we have a typical King's Gambit scenario; White
-has sacrificed a piece to expose the enemy king.} 10. e5 $2 {With this
-surprising method of opening the e-file Morphy wants to win by direct attack.
-There will be no material compensation. This move is reminiscent of a boxer,
-staking everything in search of a knockout in the final round.} ({It is not
-possible to regain the piece yet with} 10. Bxg8 $2 {in view of} h5 $1 {.
-Nevertheless, White has very reasonable compensation. So far he has only one
-pawn for the piece, but the f4-pawn looks as if it will fall soon. However,
-the most important factor is that it will take the black king some time to
-reach a safe haven.}) ({Morphy was only twelve years old when he played this
-game. With greater maturity he would surely have gone for} 10. d4 $1 {, a
-developing move which also builds a strong centre. Then after} Kd8 (10... Qxd4
-$2 {would allow} 11. Bxg8 {, since the g6-square is now accessible to the
-white queen}) {, White could play} 11. Bxf4 {, not fearing} d5 {on account of}
-12. Qg3 dxc4 $2 13. Be5 {. --- The move chosen by the young Morphy, in his
-first meeting with a well-known master, is inferior, but is testament to his
-tremendous imagination and his quest for the initiative at all costs.}) 10...
-Qxe5+ 11. Kd1 Kd8 {This move is fine;} ({although} 11... Nf6 {was also
-adequate, enabling the black queen to retreat to h5.}) 12. Re1 ({With the
-c8-bishop defended,} 12. Bxg8 $2 {would fail to} d6 ({or} 12... d5) 13. Qg6 Bf5
-14. Qf7 Bg4+ {and wins; of course Morphy's idea was not to take on g8 but to
-attack.}) 12... Qc5 $2 {So Morphy emerges the winner from this game of
-"chicken".} ({After} 12... Qg7 $1) ({or} 12... Nf6 $1 {, he would have met
-insoluble difficulties in justifying his daring 10th move.}) 13. Bxg8 d5 $4 {
-This natural move is actually a fatal mistake;} (13... d6 {was better, and then
-} 14. Qg6 ({or} 14. Be6 {with some advantage.})) {Not even the mature Morphy
-could have handled this phase of the game with greater skill.} 14. Re8+ $1 {
-An attractive way to draw out the enemy king, based on the key follow-up on
-move 16.} Kxe8 15. Qxc8+ Ke7 16. Nxd5+ $1 {This is the essential follow-up to
-14 Re8+!;} ({rather than} 16. Qxb7+ $2 Nd7 17. Qxa8 {, which surrenders the
-initiative and hands Black a mating attack after} Qg1+ 18. Ke2 Qxg2+ 19. Ke1
-Qg1+ 20. Ke2 f3+ $1 21. Kxf3 Ne5+ 22. Ke2 ({or} 22. Kf4 Qf2+ 23. Kxe5 Bg7#)
-22... Qg2+ 23. Ke3 Qf3+ 24. Kd4 Qf2+ 25. Kxe5 Bg7# {.}) 16... Kd6 17. Qc7# 1-0
-
-[Event "blindfold game, New York"]
-[Site "?"]
-[Date "1857.??.??"]
-[Round "?"]
-[White "Schulten, JW."]
-[Black "Morphy, P."]
-[Result "0-1"]
-[ECO "C29"]
-[Annotator "Zenón Franco"]
-[SetUp "1"]
-[FEN "r3r1k1/p2n1ppp/b1pq4/3P3n/B2P3P/1PK2P2/P1P1N3/R1BQR3 b - - 0 17"]
-[PlyCount "17"]
-[EventDate "1857.??.??"]
-[SourceTitle "Morphy Move By Move"]
-[Source "Everyman Chess"]
-[SourceDate "2016.09.01"]
-
-{White is two pawns up, which can be reduced to one by 17...Qxd5, attacking f3
-and with ideas of ...Nb6, or by 17...cxd5, opening the c-file. While these are
-both good moves, Morphy chooses the most direct way, concentrating more forces
-against White's main weakness, which is his king. ---} 17... Nb6 $1 {With this
-fresh pawn sacrifice we see a scenario which will be repeated time and time
-again. Morphy gains a superiority in forces in the area that becomes the focus
-of the struggle, not flinching from further sacrifices of material. Simple,
-isn't it? Perhaps, but it has to work, and this will only happen if it is
-supported by precise analysis. Let's not forget that the knight on h5 is not
-carrying out any function, either in attack or defence. From a "normal"
-position such as f6 it would defend the rook on e8, which as we shall see
-would be very useful.} 18. Bxc6 Rac8 {This "human" move, bringing more pieces
-into the attack, is an inaccuracy, or even an error.} ({The unlikely-looking} 
-18... Rec8 $1 {is preferred by the analysis engines, and it is the best move,
-for purely tactical reasons: in the ensuing tactical duel it will be important
-for Black not to have an undefended rook on e8.}) 19. Kd2 $2 {In this case it
-makes no difference which rook goes to c8.} ({Instead,} 19. Kb2 $1 {was better,
-with the possible continuation} Rxc6 20. dxc6 Bxe2 {, and now the fact that
-the rook on e8 will be undefended grants White a vital tempo - he can play} 21.
-Rb1 $1 {, preparing a retreat for the white monarch} ({not} 21. Rxe2 $2 {, when
-} Na4+ $1 {wins}) {. Then after} 21... Na4+ ({or} 21... Ng3 22. Qd2) 22. Ka1
-Nc3 23. Qd2 {, Black would have some compensation for the sacrificed material,
-but no clearly advantageous continuation.}) 19... Rxc6 $1 ({Here there are
-equally strong alternatives, such as the simple} 19... Nxd5 20. Bxe8 Qb4+ 21.
-c3 Rxc3 $1 {and wins.}) 20. dxc6 Bxe2 21. Rxe2 Qxd4+ 22. Ke1 Qg1+ 23. Kd2 Rd8+
-24. Kc3 Qc5+ ({Naturally} 24... Qxd1 {wins, but Morphy chooses a slightly
-quicker way.}) 25. Kb2 Na4+ $1 ({The ending after} 25... Rxd1 $2 26. Re8+ Qf8
-27. Rxf8+ Kxf8 28. Be3 Rxa1 29. Kxa1 ({or} 29. Bxb6 Re1) 29... Ke7 {is winning
-for Black, but Morphy had another idea in mind.}) ({There is a mate after} 
-25... Na4+ 26. bxa4 ({while} 26. Kb1 {sees Black conclude with} Nc3+ 27. Kb2
-Nxd1+ {etc.})) 0-1
-
-[Event "blindfold simul, New Orleans"]
-[Site "?"]
-[Date "1858.??.??"]
-[Round "?"]
-[White "Morphy, P."]
-[Black "Amateur"]
-[Result "1-0"]
-[ECO "C55"]
-[Annotator "Zenón Franco"]
-[SetUp "1"]
-[FEN "r1bqk2r/ppp1bppp/2n5/3n2N1/2Bp4/8/PPP2PPP/RNBQ1RK1 w kq - 0 8"]
-[PlyCount "23"]
-[EventDate "1858.??.??"]
-[SourceTitle "Morphy Move By Move"]
-[Source "Everyman Chess"]
-[SourceDate "2016.09.01"]
-
-{This position is very similar to the one arising from the Fegatello (or
-"Fried Liver") Attack in the Two Knights Defence after 1 e4 e5 2 Nf3 Nc6 3 Bc4
-Nf6 4 Ng5 d5 5 exd5 Nxd5?!. The differences are that Black has an extra pawn
-on d4 and his bishop is already developed on e7. White's task is to
-demonstrate that what his own gains are more important: he is already castled
-and can quickly bring his c1-bishop and f1-rook into play. ---} 8. Nxf7 $1 {
-In this version of the Fried Liver Attack, White has greater piece activity,
-but speed is essential. Black must not be allowed to castle. Here the knight
-sacrifice takes place in more favourable circumstances than on move six in the
-Two Knights Defence.} Kxf7 9. Qf3+ Ke6 ({Handing the piece back with} 9... Bf6
-10. Bxd5+ {would be dismal: White has a big advantage after} Be6 11. Bxe6+ Kxe6
-12. Bf4) 10. Nc3 $1 {The priority is development, bringing the remaining
-pieces into the attack as quickly as possible.} ({One of the greatest admirers
-of Morphy's play also reached this position in a simultaneous display. The
-finish was similar:} 10. Re1+ Ne5 11. Bf4 Bf6 12. Nc3 $1 {(rapid development,
-just like Morphy)} c6 13. Rxe5+ Kf7 ({or} 13... Bxe5 14. Re1) 14. Nxd5 Be6 15.
-Rxe6 Kxe6 16. Nxf6+ Ke7 17. Re1+ Kf8 18. Qa3+ {1-0 R.J.Fischer-T.Rouse,
-Chicago (simul) 1964.}) 10... dxc3 11. Re1+ Ne5 12. Bf4 Bd6 13. Bxe5 ({In
-order to win it would be sufficient to regain the sacrificed material with} 13.
-Qxd5+ Kd7 14. Bxe5 {. Morphy chooses a more forceful way; all the white pieces
-are in the game except the rook on a1. Morphy brings this piece into play and
-is able to outnumber the enemy forces in the centre of the battlefield.}) 13...
-Bxe5 14. Rxe5+ $1 {Completing the three preconditions cited by Euwe: after
-rapid development of the pieces, control of the centre, and opening of lines
-comes the mating attack.} Kxe5 15. Re1+ Kd4 16. Bxd5 Rf8 17. Qd3+ ({Here} 17.
-Qxc3+ {was slightly quicker, with mate in three moves, but this does not
-matter - the black king cannot escape.}) 17... Kc5 18. b4+ Kxb4 19. Qd4+ ({
-It is mate in four:} 19. Qd4+ Ka5 20. Qxc3+ Ka4 21. Re4+ Kb5 22. Rb4+ Ka6 23.
-Qa3# {.}) 1-0
-
-[Event "London (A)"]
-[Site "?"]
-[Date "1859.??.??"]
-[Round "?"]
-[White "Morphy, P."]
-[Black "Lowenthal, JJ."]
-[Result "1-0"]
-[ECO "C51"]
-[Annotator "Zenón Franco"]
-[SetUp "1"]
-[FEN "4r2r/pp1kq1pp/3p3n/3P4/2N1PQ2/8/P4PPP/3R1RK1 w - - 0 22"]
-[PlyCount "19"]
-[EventDate "1859.??.??"]
-[SourceTitle "Morphy Move By Move"]
-[Source "Everyman Chess"]
-[SourceDate "2016.09.01"]
-
-22. Rb1 $1 {In a few moves all the white pieces will be attacking the black
-king.} ({White is a pawn up and with the simple} 22. Rfe1 {his advantage would
-be beyond doubt.}) ({Another idea is to return the pawn to open lines with} 22.
-e5 $1 dxe5 23. Qe3 {. Morphy chooses something even more forceful.}) 22... b6
-23. Rfc1 $1 ({With} 23. Rfc1 {another attacking piece comes into play,
-threatening} -- 24. Rxb6 axb6 25. Nxb6+ {mating.}) 23... Qf6 24. Qe3 Ng4 25.
-Nxb6+ $1 {Destruction of the defence, opening lines in decisive fashion.} axb6
-({Or} 25... Ke7 26. Rc7+ $1 Kf8 27. Nd7+ {.}) 26. Rc7+ $1 Kd8 ({If} 26... Kxc7
-{then} 27. Qxb6+ Kc8 ({or} 27... Kd7 28. Qa7+) 28. Qb8+ {and mates.}) 27. Qxb6
-Qxf2+ 28. Qxf2 Nxf2 29. Ra7 Nh3+ ({Something similar to the game happens after
-} 29... Kc8 30. Kxf2 {. Note that} Rxe4 {loses simply to} 31. Ra8+ {.}) 30.
-gxh3 Kc8 31. Kf2 {. Black is defenceless against the plan of Ke3 and Rbb7,
-followed by the advance of the a-pawn to a6, and Ra8 mate.} 1-0
-
-[Event "New Orleans (simul)"]
-[Site "?"]
-[Date "1858.??.??"]
-[Round "?"]
-[White "Morphy, P."]
-[Black "Ross, P."]
-[Result "1-0"]
-[ECO "C34"]
-[Annotator "Zenón Franco"]
-[SetUp "1"]
-[FEN "rnb1qr1k/pp1p2pp/2pQ1pn1/6B1/2B1P3/2P2N2/PPP3PP/4RRK1 w - - 0 12"]
-[PlyCount "25"]
-[EventDate "1858.??.??"]
-[SourceTitle "Morphy Move By Move"]
-[Source "Everyman Chess"]
-[SourceDate "2016.09.01"]
-
-{Morphy and the Initiative --- White has the advantage - his pawn structure is
-not favourable for an endgame, but "before the ending the gods have placed the
-middlegame" (Tarrasch) and White has all his pieces in play, whereas Black's
-queenside remains dormant. ---} 12. e5 $1 {With such a big dynamic advantage,
-opening lines should be the priority.} ({Based on what we've seen so far, we
-can assume that the thirteen-year-old Morphy would have been reluctant to
-settle for the quiet move} 12. Bd2 {, even though this guarantees a clear
-advantage, and would look for something better.}) 12... f5 ({Calculation
-confirms that opening the position with} 12... fxg5 {helps White: he can
-respond with} 13. Nxg5 Na6 {, developing a piece, is no better in view of} ({
-when} 13... h6 {is refuted by the nice shot} 14. Qxg6 $1 {, exploiting the
-weakness of Black's back rank.} (14. --)) 14. Rxf8+ Nxf8 ({in this line} 14...
-Qxf8 {runs into} 15. Re4 {, with similar ideas}) 15. Rf1 Ng6 16. Rf3 {,
-threatening} -- 17. Qxg6 hxg6 18. Rh3# {, among other things.}) 13. Nd4 $1 {
-White's g5-bishop is now safe and Black cannot prevent further lines being
-opened with gain of time; the safety of the black king is becoming an ever
-greater problem.} f4 14. e6 $1 dxe6 15. Nxe6 Bxe6 16. Rxe6 Qc8 {The relief
-that Black gains from the piece exchange does not compensate for the opening
-of the e-file, as Morphy highlights with his next move.} 17. Rxg6 $1 hxg6 18.
-Qxg6 Qf5 ({If} 18... Qe8 {, the confinement of the black king means that White
-can play} 19. Qxe8 Rxe8 20. Rxf4 g6 ({or} 20... Kh7 21. Bf7) 21. Bf6+ {and
-mates.}) 19. Rxf4 $1 {The prettiest and, at the same time, the quickest finish.
-} Qxg6 ({There is no salvation in} 19... Qc5+ 20. Kh1 {, threatening 21 Qh5
-mate and 21 Rh4 mate.}) 20. Rxf8+ Kh7 21. Bg8+ Kh8 22. Bf7+ Kh7 23. Bxg6+ Kxg6
-24. Bf4 1-0
-
-[Event "Mobile"]
-[Site "?"]
-[Date "1855.??.??"]
-[Round "?"]
-[White "Meek, AB."]
-[Black "Morphy, P."]
-[Result "0-1"]
-[ECO "C44"]
-[Annotator "Zenón Franco"]
-[SetUp "1"]
-[FEN "r1bq3r/ppp2k1p/2np2p1/1Q6/3pP3/8/PPP2PPP/RNB1K2R b KQ - 0 10"]
-[PlyCount "23"]
-[EventDate "1855.??.??"]
-[SourceTitle "Morphy Move By Move"]
-[Source "Everyman Chess"]
-[SourceDate "2016.09.01"]
-
-{Morphy's king is rather exposed - something which is rarely seen in his games
-- but this is not a serious problem here, since White doesn't have any pieces
-in threatening positions. It will soon become dramatically clear that it is in
-fact the white king that is in more danger. ---} 10... Re8 $1 {The Morphy
-formula: rapid mobilization of the forces. This move also enables the black
-king to retreat without imprisoning the rook on h8. Now White must decide what
-to do about his attacked pawn.} 11. Qb3+ $2 {A very strange decision; moving
-his only developed piece makes a poor impression.} ({If Morphy had had the
-white pieces he would probably have chosen} 11. O-O $1 {, so that after} Rxe4
-12. Qd5+ Re6 13. Bg5 Qf8 14. c3 {, he would have gained some compensation.})
-11... d5 ({The strange thing about White's last move is that even the natural} 
-11... Kg7 {would have left Black with a great advantage, highlighting the
-futility of the check. But Morphy wants more and increases the pressure in the
-centre.}) 12. f3 $6 {This weakens White's position, especially the e1-h4
-diagonal, and allows lines to be opened in Black's favour.} ({Again} 12. O-O {
-was preferable, even though after} Rxe4 13. Nd2 Re8 14. Nf3 {, Black stands
-well and has several good continuations such as} Qd6 {, followed by ...Bd7.} ({
-Morphy might also have considered returning the pawn with} 14... Bg4 {,
-intending} 15. Qxb7 Qd7 {, when Black threatens to capture on f3, while after}
-16. Qb3 Rab8 {, all his pieces are active.})) 12... Na5 ({The alternative was} 
-12... Qh4+ 13. g3 Qh3 {. Morphy's choice is more unpleasant for White from the
-practical viewpoint: where should he move his queen?}) 13. Qd3 $2 {White fails
-to withstand the tension. This is the most obvious move, reinforcing e4, but
-Black's initiative very soon becomes a whirlwind.} ({Instead, it was better to
-play} 13. Qb5 c6 14. Qe2 {, when the threat of an eventual b2-b4 provides
-White with some defensive resources; e.g. after} dxe4 $6 ({this time Black
-should prefer} 14... Qh4+ 15. g3 Qh3 {with the advantage}) 15. O-O $1 {.})
-13... dxe4 14. fxe4 Qh4+ 15. g3 Rxe4+ $2 {Black has an extra pawn and an
-attack, which can be conducted in various ways, but priority will be
-concentrate forces against the enemy king. Nevertheless, and surprisingly,
-Morphy's move is a mistake;} (15... Qxe4+ {was better, as Black doesn't need
-the queen anymore.}) {EXERCISE: Why was 15...Rxe4+? incorrect?} 16. Kf2 ({
-ANSWER: It is easy to overlook the defensive move} 16. Be3 $1 {; then after}
-Qg4 (16... Rxe3+ {can be met by} 17. Qxe3) 17. O-O+ Bf5 {, Black is better but
-it is still a fight.}) 16... Qe7 {It was not necessary to defend the rook with
-the queen.} ({It was more precise to play} 16... Qf6+ $1 17. Kg2 {, when Black
-has} ({while after} 17. Bf4 Bf5 {is strong;} (17... --)) 17... Bh3+ $1 ({
-in addition to} 17... Bf5) 18. Kxh3 Qe6+ 19. Kg2 Re2+ 20. Kf1 {and now, for
-instance,} Re1+ 21. Kg2 Qd5+ {.}) 17. Nd2 $2 ({White misses the opportunity to
-complicate the struggle and improve his development at the same time with} 17.
-Bg5 $1 {, when the position would no longer be clear.}) 17... Re3 $1 18. Qb5 {
-White is trying to keep the e2-square defended.} ({If} 18. Qxd4 {, Black wins
-with} Re2+ 19. Kg1 Bh3 {etc.}) 18... c6 $1 {Access to e2 is worth much more
-than the inactive knight on a5.} 19. Qf1 ({After} 19. Qxa5 Re2+ {, it is mate
-in two moves.}) 19... Bh3 $1 {The quickest way to bring the a8-rook decisively
-into the attack.} 20. Qd1 ({Or} 20. Qxh3 Re2+ 21. Kf3 ({or} 21. Kf1 Re1+) 21...
-Qe3+ 22. Kg4 h5+ {and mates.}) 20... Rf8 21. Nf3 Ke8 0-1
-
-[Event "blindfold game, New York"]
-[Site "?"]
-[Date "1857.??.??"]
-[Round "?"]
-[White "Morphy, P."]
-[Black "Schulten, JW."]
-[Result "1-0"]
-[ECO "C51"]
-[Annotator "Zenón Franco"]
-[SetUp "1"]
-[FEN "r2q1knr/pp2nppp/2pp4/1B1Pb3/8/2N2Q1P/PB3PP1/R4RK1 w - - 0 16"]
-[PlyCount "19"]
-[EventDate "1857.??.??"]
-[SourceTitle "Morphy Move By Move"]
-[Source "Everyman Chess"]
-[SourceDate "2016.09.01"]
-
-{Black's king has lost the right to castle and to do so artificially would
-cost several moves. For now he is two pawns up, although White can regain one
-by taking on c6. ---} 16. Bd3 ({Objectively it was probably better to regain a
-pawn with} 16. dxc6 bxc6 17. Bxc6 {, but the exchanges would alleviate Black's
-mobility problems after} Nxc6 18. Qxc6 g6 ({or first} 18... Rb8 {. Morphy
-prefers keep the tension by sacrificing a third pawn. --- This seems akin to a
-game of "chicken", don't you think? When he gave simultaneous displays, played
-blindfold, or gave material odds, this was not an unusual scenario in Morphy's
-games.})) 16... Nf6 {Two pawns up is enough, Black seems to be thinking, and
-he's not wrong.} ({It was possible to accept the third pawn:} 16... Nxd5 17.
-Nxd5 Bxb2 18. Rab1 Bf6 {, but then White could play, for example,} 19. Nxf6
-Qxf6 20. Rxb7 {and even in the endgame after} Qxf3 21. gxf3 {, the difference
-in activity between the two sides would be huge. White would likely regain
-another pawn and Black's winning prospects would be problematic.}) 17. Rae1 {
-Is this the best move? Possibly not, but what Morphy was seeking here was to
-create tension, by giving Black various options and thus the chance of making
-a mistake.} ({Of course} 17. dxc6 bxc6 {did not feature in White's plans,
-which were to mobilize all his forces.}) 17... Bxc3 {Black finally takes the
-offered pawn, which was a correct decision;} ({as was} 17... Nexd5 {.}) 18.
-Bxc3 Nfxd5 19. Ba1 {Black is now three pawns up, but the situation is not as
-clear as it might appear. Although there are no immediate threats, the white
-bishops are powerful, Black's pieces rooks are not in play and his other
-pieces are not well coordinated either. White plans to double rooks on the
-e-file, increasing the pressure.} f6 {This blunts White's dark-squared bishop,
-at least for the moment, and plans to play ...Kf7 and ...Re8 as soon as
-possible.} 20. Re6 Qd7 21. Rfe1 {White has managed to activate his pieces, but.
-.. "three pawns are three pawns".} b5 $2 {Once again we see Morphy's opponent
-unable to withstand the tension. He doesn't have time to prevent Bc4 in this
-manner.} ({It was preferable to continue with his original idea of} 21... Kf7 {
-, overprotecting f6;}) ({or else play} 21... Ng6 $1 {, as the complications
-after} 22. Bxf6 $1 {don't appear to be fatal for Black; e.g.} gxf6 23. Bc4 {
-(now 21...b5 becomes more comprehensible)} Kg7 24. Bxd5 Rhf8 {.}) 22. Rxe7 $1 {
-Now the black king's defences are demolished.} Nxe7 23. Bxf6 $1 Nd5 24. Be7+
-Kg8 ({If} 24... Ke8 {then} 25. Qh5+ g6 26. Bxg6+ ({or} 26. Qxg6+ {and mates.}))
-25. Bf5 1-0
-
-[Event "London"]
-[Site "?"]
-[Date "1858.??.??"]
-[Round "?"]
-[White "Barnes, TW."]
-[Black "Morphy, P."]
-[Result "0-1"]
-[ECO "C77"]
-[Annotator "Zenón Franco"]
-[SetUp "1"]
-[FEN "r3k2r/2p2ppp/p1np1q2/bp1B4/3pP1b1/2P2N2/PP3PPP/R1BQ1RK1 b kq - 0 12"]
-[PlyCount "37"]
-[EventDate "1858.??.??"]
-[SourceTitle "Morphy Move By Move"]
-[Source "Everyman Chess"]
-[SourceDate "2016.09.01"]
-
-{In this position Morphy's king is the one that has remained in the centre,
-while his opponent's king is castled. The pin on the black knight might
-therefore seem serious at first sight; Morphy demonstrates that this is not
-the case. ---} 12... Ne5 $1 {Forced;} (12... Bd7 $2 13. Nxd4 Nxd4 14. Bxa8 {
-is no use.}) 13. Bxa8 $2 {"Too greedy..." (Karsten Müller).} ({The position
-would be balanced after} 13. Bg5 $1 Qxg5 14. Nxg5 Bxd1 15. Bxa8 Be2 16. cxd4 (
-16. Rfe1 $2 d3 {is worse for White}) 16... Bxf1 17. Kxf1 Ke7 {.}) 13... Nxf3+
-14. gxf3 Bxf3 15. Qd2 dxc3 16. Qg5 ({If} 16. Bc6+ Kf8 $1 {is possible, however,
-as after} ({then not} 16... Ke7 $2 {on account of} 17. e5 $1 cxd2 (17... dxe5 {
-allows mate after} 18. Qd7+) ({while if} 17... Qg6+ {then} 18. Qg5+ {is
-decisive}) ({or} 17... Qe6 18. Qg5+) 18. exf6+ gxf6 19. Bxf3 {and wins.}) 17.
-e5 ({or} 17. Qg5 cxb2 18. Qxf6 gxf6 {as in the game}) 17... cxd2 18. exf6 Bxc6
-19. b4 gxf6 $1 {, opening the g-file, White has no time for} 20. Bxd2 {due to
-the threat of} Rg8+ {and mates.}) 16... cxb2 17. Bc6+ Ke7 18. Qxf6+ ({Now} 18.
-e5 dxe5 {is futile.}) 18... gxf6 19. Bf4 Rg8+ 20. Bg3 bxa1=Q 21. Rxa1 f5 $1 {
-As well as a decisive advantage in material, Black has the initiative.} 22. a4
-({Or} 22. Kf1 Bc3 23. Rc1 b4 {with an easy win. The rest is straightforward.})
-22... Bb6 23. axb5 f4 24. bxa6 fxg3 25. hxg3 Rxg3+ 26. Kh2 Rg6 27. Rf1 $2 {
-Allowing a quick mate;} ({but White would not survive after} 27. Ra3 Rg2+ 28.
-Kh3 Rxf2 29. a7 Bxa7 30. Rxa7 Rc2 {either, and if} 31. Rxc7+ {then} Kf6 {and}
-32. -- Bxe4 {.}) 27... Bd4 28. Kh3 Be5 29. Kh4 Bf4 30. a7 Rh6# 0-1
-
-[Event "London"]
-[Site "?"]
-[Date "1858.??.??"]
-[Round "?"]
-[White "Owen, J."]
-[Black "Morphy, P."]
-[Result "0-1"]
-[ECO "D40"]
-[Annotator "Zenón Franco"]
-[SetUp "1"]
-[FEN "6k1/1p2q1pp/1Q2p3/pP1p1r2/8/P3P3/2r2PPP/2R2RK1 b - - 0 24"]
-[PlyCount "47"]
-[EventDate "1858.??.??"]
-[SourceTitle "Morphy Move By Move"]
-[Source "Everyman Chess"]
-[SourceDate "2016.09.01"]
-
-{The material is equal, Black's rooks are more active than White's, but the
-white queen is more active and the black king is more exposed. Which is the
-most important factor here? With his following move Morphy provides the answer.
----} 24... Rfxf2 $1 {Tactics "help" Morphy, but this help does not fall from a
-clear sky. Let us recall what Lasker said: "the brilliant move of a master is
-essentially conditional not on a sudden and inexplicable realization, but on
-the placing of the pieces on the board."} 25. Rxc2 Rxc2 26. Qxa5 {The
-structure has changed greatly since the initial position. With his next move
-Black takes a great step towards changing the evaluation in his favour.} h6 $1
-{Now there can be no doubts as to which king is the weaker. Morphy threatens
-to win with 27...Qg5.} 27. Rf2 Rc1+ 28. Rf1 Qc5 $1 {With Black's king safe it
-is now possible to involve the queen in the attack.} 29. Qd2 Rc3 $1 (29...
-Rxf1+ 30. Kxf1 Qxb5+ {was advantageous, but on the principle of "when you see
-a good move, look for a better one", Morphy seeks more than just a queen
-ending with an extra pawn - he wants to win a pawn and at the same time keep
-the rooks on.}) 30. Qd4 Qxd4 $1 ({Here} 30... Qxa3 {was strong too, but Morphy
-sees a simpler way to win.}) 31. exd4 Rxa3 32. Rc1 Kf7 $1 {This reminds me of
-Rubinstein's 25 Kf2! in his famous game with Lasker, St Petersburg 1909.} ({
-Activating the king is more practical and perhaps more accurate than} 32... Rb3
-33. Rc8+ Kh7 34. Re8 Re3 35. Kf2 Re4 36. b6 Kg6 {, which would also be
-advantageous.}) 33. Rc7+ Kf6 34. Rxb7 Rd3 35. Kf2 Rxd4 {The two connected
-central pawns supported by their king and rook are decisive.} 36. Ke3 e5 37. b6
-Rb4 38. Rb8 Ke7 $1 {The black king heads towards the dangerous white pawn. The
-loss of both Black's kingside pawns is unimportant: his central passed pawns
-are further forward and will advance with the help of their king and the rook.
-It is an easy win for Black.} 39. b7 Kd7 40. Rg8 Rxb7 41. Rxg7+ Kc6 42. Rg6+
-Kc5 43. Rxh6 Rb3+ 44. Ke2 e4 45. Rh8 Kd4 46. Rg8 Rb2+ 47. Kd1 Kd3 0-1
-
-[Event "London (simul)"]
-[Site "?"]
-[Date "1859.??.??"]
-[Round "?"]
-[White "Morphy, P."]
-[Black "Bird, HE."]
-[Result "1-0"]
-[ECO "C35"]
-[Annotator "Zenón Franco"]
-[SetUp "1"]
-[FEN "rn1qr3/ppp2kpp/5n2/8/4P2N/3P3b/PPP4p/RNBQ1R1K w - - 0 12"]
-[PlyCount "65"]
-[EventDate "1859.??.??"]
-[SourceTitle "Morphy Move By Move"]
-[Source "Everyman Chess"]
-[SourceDate "2016.09.01"]
-
-{White is currently a pawn down, but the black pawn on h2 appears doomed and
-then the strong white centre would start to be important. Morphy opts for
-another solution. ---} 12. Qh5+ ({Capturing the intruder on h2 is not so
-simple:} 12. Rf2 Kg8 13. Qf3 ({the immediate} 13. Rxh2 $2 {loses to} Ng4) 13...
-Qd7 14. Rxh2 ({further preparatory moves such as} 14. Nc3 {are possible, but
-after} Nc6 15. Rxh2 Be6 16. Rg2 Ng4 {, followed by ...Rf8, it is Black who has
-the initiative}) 14... Bg4 15. Qg2 {can be met by} Be6 $1 {(threatening to win
-material with 16...Ng4)} 16. Qg3 Nc6 {, when Black is ahead on development and
-the white king has no pawn protection.}) 12... Kg8 13. Rxf6 $1 {This is the
-idea, completely transforming the situation. In return for the exchange White
-is able to weaken the black kingside, open the g-file, create a weakness on f6,
-etc. It is not clear whether White will be objectively better, but his game is
-easier, more pleasant.} gxf6 14. Nc3 Re5 $6 {Black benefits little from
-driving the white queen back because, as we shall see, the rook is badly
-placed here and the back rank is left weak.} ({It was better to redeploy his
-precariously placed piece with} 14... Be6 $1 {, and at the same time control
-the square d5. After, for instance,} 15. Bf4 Nc6 16. Kxh2 Re7 $1 {,
-anticipating Rg1+, the position would offer chances to both sides.}) 15. Qf3
-Qd7 ({The clumsy position of the rook on e5 means that} 15... Be6 {is not so
-good now. White can play} 16. d4 $1 {, since} Qxd4 17. Qg3+ Kh8 18. Bh6 {
-forces Black to return the exchange:} Rg5 19. Bxg5 fxg5 20. Qxg5 {, when White
-would have the initiative; then if} Nc6 {, White could play} 21. Ng6+ $1 hxg6
-22. Qh6+ Kg8 23. Qxg6+ {and the e6-bishop is lost.}) 16. Bf4 Nc6 {Returning
-the exchange is again almost forced now.} ({If} 16... Re8 17. Bxh2 {, the pawn
-on f6 is threatened and the g-file available for White's remaining rook with a
-raging attack; for example,} Rf8 18. Rg1+ Kh8 19. Qh5 Rg8 20. Rxg8+ Kxg8 21.
-Nd5 {and there is no defence.}) ({It is no better to play} 16... Bg4 17. Qg2
-Rh5 {(controlling d5 and f5)} ({if} 17... Re8 {instead, then} 18. Nd5) {
-, since after} 18. Nf5 Rxf5 19. exf5 Qxf5 20. Rf1 Nd7 21. Nd5 {(threatening
-forks on e7 and e3)} Qh5 22. Ne3 f5 23. Bxc7 {(threatening to take on f5)} Rf8
-24. Qxb7 {, material is now equal, while the black position is very weak.}) 17.
-Kxh2 {This keeps all options open and enables the rook to use the g1-square;} (
-{but in this case it appears that it was better for White to "content himself"
-with} 17. Bxe5 Nxe5 ({it is worse to play} 17... fxe5 {, as after} 18. Kxh2 Bg4
-19. Rg1 h5 20. Nd5 {, all the white pieces are in the game}) 18. Qxf6 Ng4 19.
-Qf3 Qd4 {and now} 20. Nf5 {, when material is once again equal and White's
-advantage is clear.}) 17... Bg4 18. Rg1 h5 $2 {As often happened with Morphy's
-opponents, Bird fails to withstand the tension of the struggle.} (18... Rg5 $1
-{was much more tenacious: after} 19. Qg3 h5 20. Bxg5 fxg5 21. Nf5 {, White is
-slightly better, but the struggle can continue with} Rf8 ({or} 21... Nd4 {
-. In contrast, Black's position now goes rapidly downhill.})) 19. Bxe5 fxe5 20.
-Nd5 Nd4 $2 21. Nf6+ Kh8 ({Or} 21... Kf7 22. Qf2 {.}) 22. Qe3 ({Another way was
-to launch an immediate assault with} 22. Ng6+ $1 Kg7 23. Nxh5+ {, when} Kxg6 ({
-and} 23... Kh6 24. Qf6 Qe6 25. Rxg4 {is no better}) 24. Rxg4+ {just wins.})
-22... Qg7 23. Nxh5 {The last shred of protection is stripped away from the
-black king. White now has the attack and a material advantage as well, so the
-rest is very simple for Morphy.} Qh7 24. Rxg4 Qxh5 25. Qh3 Kh7 26. c3 Ne6 27.
-Rg6 ({Also good was} 27. Ng6 Qxh3+ 28. Kxh3 {and the e5-pawn falls.}) 27... Re8
-({Here} 27... Qe2+ {would change nothing: after} 28. Rg2 Qh5 {, White can play}
-29. Rg3 {.}) 28. Rxe6 Rxe6 29. Qxe6 Qxh4+ 30. Qh3 Qxh3+ 31. Kxh3 {The pawn
-endgame with an extra pawn is easily won.} c5 32. Kg4 Kg6 33. Kf3 Kf6 34. Ke3
-Ke6 35. d4 exd4+ 36. cxd4 cxd4+ 37. Kxd4 Kd6 38. e5+ Ke6 39. Ke4 Ke7 40. Kd5
-Kd7 41. e6+ Ke7 42. Ke5 a6 43. a3 Ke8 44. Kd6 1-0
-
-[Event "London"]
-[Site "?"]
-[Date "1858.??.??"]
-[Round "?"]
-[White "Morphy, P."]
-[Black "Barnes, TW."]
-[Result "1-0"]
-[ECO "C42"]
-[Annotator "Zenón Franco"]
-[SetUp "1"]
-[FEN "r2nk1r1/ppp1bb1p/8/q2pp3/8/1BP1B2Q/PPP2PPP/3R1RK1 w q - 0 19"]
-[PlyCount "39"]
-[EventDate "1858.??.??"]
-[SourceTitle "Morphy Move By Move"]
-[Source "Everyman Chess"]
-[SourceDate "2016.09.01"]
-
-{In the final two examples in this section, the characteristic of Morphy's
-style that we have already identified, his tendency to complicate and/or keep
-the tension, stands out even more clearly. --- White is a piece down for a
-pawn. The main defect of Black's game is that his king is still not secure. At
-present this is not obvious, as the white pieces are not active enough.
-However, Morphy highlights this factor with his next two moves. ---} 19. f4 $1
-{First of all White needs to open lines.} ({He could win a second pawn with} 
-19. Qxh7 {, but} c6 {leaves Black's position very solid and White's
-compensation would be insufficient; for instance, after} 20. f4 e4 21. f5 Bf6
-22. Qh6 Be5 {.}) 19... e4 ({Exchanging a piece before closing the centre with} 
-19... Bc5 20. Bxc5 Qxc5+ 21. Kh1 e4 {fails to improve the situation, as White
-can play} 22. Bxd5 Bxd5 23. Qh5+ {and 24 Rxd5.}) 20. Rxd5 $1 ({Riskier and
-more ambitious than} 20. Bxd5 Bxd5 21. Qh5+ Nf7 22. Rxd5 {, as after} Qa6 ({
-the engines are not afraid to distance the queen from the action with} 22...
-Qxa2 {; this continuation is "inhuman", and while it might be objectively
-correct, Black seems to have a simpler defence}) 23. f5 ({if} 23. Qxh7 {then}
-Qg6) 23... Qf6 24. Qxh7 Rh8 25. Qg6 Qxg6 26. fxg6 Nd6 {, Black seems to be
-okay.}) 20... Bxd5 21. Qh5+ Kf8 {The choice between this move, which loses the
-right to castle, and the self-pinning 21...Rg6 is a difficult one. Objectively,
-they seem to be of similar strength, but from the practical viewpoint the rook
-move is more complex and thus less advisable.} ({A possible continuation might
-be} 21... Rg6 22. Bxd5 Bc5 23. Kh1 {and Black is faced with another difficult
-decision.} Bxe3 $1 {, sacrificing his queen, is better, and after} ({After the
-natural} 23... Qa6 {, White has} 24. Re1 Bxe3 25. f5 $1 {and his initiative is
-very dangerous; for instance,} Nf7 26. fxg6 Qxg6 ({or} 26... hxg6 27. Qh4 $1
-Kf8 28. h3 Bc5 29. Qf4) 27. Qxg6 hxg6 28. Rxe3 O-O-O 29. Be6+ Kb8 30. Kg1 {
-, and in all cases White comes out the winner.}) 24. Bf7+ Nxf7 25. Qxa5 O-O-O
-26. Qf5+ Rd7 27. Qxe4 Bd2 {, chances are approximately equal.}) 22. Bxd5 Rg7
-23. b4 {White must dislodge the black queen so that he can advance his f-pawn.}
-Qa6 24. f5 Nf7 $2 {Once again the opponent cracks under the pressure. The
-knight move looks like a good idea, reinforcing the defences, but it fails
-tactically.} ({It was essential to play} 24... Qf6 $1 25. Bd4 Qg5 {, when} 26.
-Bxg7+ Kxg7 27. Qe8 Bf6 28. Kh1 {leads to a complex position.}) 25. f6 $1 Bxf6
-26. b5 $1 Qd6 27. Bxf7 {The refutation, threatening 28 Bc5.} b6 28. Bh6 {
-White has a material advantage and more active pieces, so the game is won.} Ke7
-29. Bxg7 Bxg7 30. Bb3 Rf8 31. Rf7+ Rxf7 32. Qxf7+ Kd8 33. Qxg7 Qd1+ 34. Kf2
-Qd2+ 35. Kg3 e3 36. Qf6+ Kc8 37. Be6+ Kb7 38. Qf3+ 1-0
-
-[Event "odds game, New Orleans"]
-[Site "?"]
-[Date "1863.??.??"]
-[Round "?"]
-[White "Morphy, P."]
-[Black "Maurian, C."]
-[Result "1-0"]
-[Annotator "Zenón Franco"]
-[SetUp "1"]
-[FEN "r5k1/2RR3N/2p1rp2/5p2/1pb5/6P1/P6P/6K1 w - - 0 34"]
-[PlyCount "5"]
-[EventDate "1863.??.??"]
-[SourceTitle "Morphy Move By Move"]
-[Source "Everyman Chess"]
-[SourceDate "2016.09.01"]
-
-{In this game Morphy played without his queen's knight but, as we can see, he
-managed to regain the material and now his three remaining pieces are
-attacking the black king. How to keep up the pressure? ---} 34. a4 $3 {With
-this surprising move, which presents Black with two passed pawns, White
-prevents the deadly rook invasion on a1 and puts Black under pressure again.} (
-{There are possible mating patterns here; for instance, after} 34. Rg7+ Kh8 {
-, White could play} 35. Nf8 {, threatening 36 Ng6 mate, and the knight is
-taboo in view of mate in two with the rooks; but Black has} Re1+ 36. Kf2 Re2+
-37. Kg1 (37. Kf3 $4 {allows the entry of the other rook with lethal effect:}
-Ra3+ 38. Kf4 Rf2#) 37... Re1+ {and draws, since the attempt to flee with} 38.
-Kg2 $4 {loses to} Rxa2+ 39. Kh3 Bf1+ 40. Kh4 Rxh2# {.}) 34... bxa3 $2 {We
-already know why this loses.} ({Black can seek another invasion route with} 
-34... Rae8 {, which is good enough to draw if he manages to find the right
-moves:} 35. Rg7+ Kh8 36. Nf8 $1 {(threatening 37 Ng6 mate, or 37 Rh7+ Kg8 38
-Rcg7 mate if the knight is taken; but Black has a narrow path to survival by
-harassing the white king)} Re1+ 37. Kg2 Bf1+ $1 38. Kf3 ({not} 38. Kf2 $4 R8e2+
-39. Kf3 Bg2+ 40. Kf4 Rf1#) 38... Be2+ $1 39. Kf2 $1 Bh5 $1 {(threatening 40...R8e2 mate)} 40. Rh7+ Kg8 41. Rxh5 R1e2+ {, and now} 42. Kf3 R8e3+ (42... R2e3+
-$2 {leads to an inferior rook ending after} 43. Kf4 Re2 44. Kxf5 R2e5+ 45. Kg6
-Rxh5 46. Kxh5 Rxf8 47. Rxc6 Rb8 48. Kg6 b3 49. Rc1) 43. Kf4 Re5 {(threatening
-44...Rf2 mate)} 44. Rh8+ Kxh8 45. Ng6+ Kg8 46. Nxe5 fxe5+ 47. Kxf5 Rxh2 48.
-Rxc6 Ra2 {should be a draw.}) ({However, the simplest way to defend was to let
-the bishop cover the g6-square from d3 by playing} 34... f4 $1 {;} 35. Rd4 {
-(one more example)} ({e.g. after} 35. Rg7+ Kh8 36. Nf8 Re1+ 37. Kf2 Rf1+ 38.
-Kg2 f3+ 39. Kh3 Bd3 {.}) ({If instead} 35. gxf4 {, then} b3 (35... Rae8 $2 {
-fails to} 36. f5 $1) 36. Rb7 b2 $1 ({not} 36... Kh8 $2 {due to} 37. Nf8 $1 {
-again}) 37. Rxb2 Kh8 {and Black is okay; e.g.} 38. Rb4 Rg8+ 39. Kf2 Bd5 {
-(intending ...Rge8)} 40. Rbb7 Rg2+ 41. Kf1 Ree2 42. Rd8+ Bg8 43. Nxf6 Rgf2+ 44.
-Kg1 Rg2+ {with perpetual check.}) 35... b3 $1 (35... Bd5 $1 {is also fine}) 36.
-Rxc4 b2 37. Nxf6+ Kf8 $1 ({better than} 37... Rxf6 $6 38. Rb7) 38. Rb4 Re1+ 39.
-Kf2 b1=Q 40. Rxb1 Rxb1 41. Rd7 $1 {, followed by Nh7+, Nf6+ etc with another
-draw.}) 35. Rg7+ Kh8 36. Nf8 $1 1-0
-
-[Event "Paris (match)"]
-[Site "?"]
-[Date "1858.??.??"]
-[Round "6"]
-[White "Anderssen, A."]
-[Black "Morphy, P."]
-[Result "0-1"]
-[ECO "A20"]
-[Annotator "Zenón Franco"]
-[SetUp "1"]
-[FEN "7k/p5rp/1p1P4/2r2p2/q1NQpP2/P1R4P/6P1/7K b - - 0 39"]
-[PlyCount "7"]
-[EventDate "1858.??.??"]
-[SourceTitle "Morphy Move By Move"]
-[Source "Everyman Chess"]
-[SourceDate "2016.09.01"]
-
-{Morphy on the Defensive --- Finally, let's look at three examples of another
-important facet of Morphy's play, complementing his recognized mastery of the
-attack - this is his great resourcefulness in defence. --- Black's position is
-in danger. He is the exchange up but is faced with the threat of 40 Rg3. The
-pin on the g7-rook is unpleasant and the black queen's mobility is restricted
-both by the need to watch out for Ne5 and hinder the advance of the passed
-d-pawn. All this means that Black's defence is far from easy. --- So how can
-Black defend? ---} 39... e3 $1 {An elegant way to prevent 40 Rg3. Now White
-needs to realize that he must forget about winning and instead seek a way to
-draw.} ({The natural} 39... Rc8 $2 {loses to} 40. Qf6 $1 Qe8 {fails as well to}
-({with the threat of} 40... -- 41. Ne5 Rxc3 42. Qf8+ Rg8 43. Nf7# (43. --)) ({
-while} 40... Kg8 {loses to} 41. Qe6+) 41. d7 ({or} 41. Ne5 Rxc3 42. d7) 41...
-Qxd7 42. Ne5 Qe8 43. Nf7+ Kg8 44. Nh6+ Kh8 45. Nxf5 {etc.}) ({Black has no
-time to unpin the rook with} 39... h6 $2 {and ...Kh7, as after} 40. Rg3 Qd7 {
-, White can regroup his forces and win with} 41. Ne5 Qb7 42. d7 {.}) ({Finally,
-} 39... Kg8 $2 {is refuted by} 40. Rg3 $1 Rxg3 41. d7 {.}) 40. Rxe3 $2 {
-Anderssen fails to adapt to the altered situation.} ({With} 40. Qf6 $1 {
-he could have made a draw; for instance:} Rxc4 ({Black loses if he tries} 40...
-Qd1+ $2 41. Kh2 Qd5 {, since} 42. Nxe3 {defends g2, and then} Qf7 43. Qd4 $1 {
-is very strong; e.g.} Rxc3 44. Qxc3 h6 (44... Qd7 {meets the same reply}) 45.
-Qe5 {, followed by 46 Nxf5 or 46 Nd5 with a decisive initiative.}) 41. Qf8+ Rg8
-42. Qf6+ {etc.}) ({Surprisingly,} 40. Qxe3 $1 {is also sufficient, thanks to
-the strength of the passed pawn. For example,} Rxc4 41. Rxc4 Qxc4 42. Qe8+ Qg8
-({or} 42... Rg8 43. Qe5+) 43. d7 {ends in a draw by perpetual check after} Rxg2
-44. d8=Q Rg1+ {etc.}) 40... Rxc4 {As simple as that - the queen controls e8
-and there is no time to create counterplay.} 41. Qf6 Rc1+ 42. Kh2 Qxf4+ 0-1
-
-[Event "London (D)"]
-[Site "?"]
-[Date "1859.??.??"]
-[Round "?"]
-[White "Morphy, P."]
-[Black "Lowenthal, JJ."]
-[Result "1/2-1/2"]
-[ECO "C51"]
-[Annotator "Zenón Franco"]
-[SetUp "1"]
-[FEN "8/8/3b2k1/8/1pp1KP2/p7/P6P/2B5 w - - 0 40"]
-[PlyCount "9"]
-[EventDate "1859.??.??"]
-[SourceTitle "Morphy Move By Move"]
-[Source "Everyman Chess"]
-[SourceDate "2016.09.01"]
-
-{The endgame looks unpleasant for White. His own pawns present no danger,
-whereas the black pawns look very menacing. To discover the most secure
-defence it is essential to possess a solid knowledge of the endgame, which
-Morphy now exhibits. ---} 40. Bxa3 $1 {Calculating that he cannot be prevented
-from reaching a 'fortress' position.} bxa3 41. Kd4 Bxf4 42. Kxc4 Bxh2 43. Kb3
-Bd6 44. Kc2 {. Reaching a theoretical draw; the white king cannot be dislodged
-from b1 and c2.} 1/2-1/2
-
-[Event "odds game, Philadelphia"]
-[Site "?"]
-[Date "1859.??.??"]
-[Round "?"]
-[White "Morphy, P."]
-[Black "Thomas, WG."]
-[Result "1/2-1/2"]
-[Annotator "Zenón Franco"]
-[SetUp "1"]
-[FEN "8/8/4R1p1/7p/1b2bk1K/7P/6P1/8 w - - 0 45"]
-[PlyCount "10"]
-[EventDate "1859.??.??"]
-[SourceTitle "Morphy Move By Move"]
-[Source "Everyman Chess"]
-[SourceDate "2016.09.01"]
-
-{This game began with Morphy giving odds of a knight. His position now looks
-desperate, since Black threatens mate in two with 45...Be1+. Morphy finds the
-only way to save the game. ---} 45. g3+ $1 {This is the correct move order,
-improving the 45 Rxe4 variation below.} ({Note that} 45. Rxe4+ $2 Kxe4 46. Kg5
-{fails to draw, since Black manages to hang on to a vital pawn after} Be7+ 47.
-Kxg6 h4 48. Kh5 Kf4 {and will win by capturing the pawns on g2 and h3 and
-queening his h-pawn. The point is that, even though Black has the 'wrong
-bishop' in respect of the h1-square, the white king will be unable to reach g1.
-}) ({Black also wins after} 45. Rf6+ $2 Bf5 46. g3+ Ke5 47. Rf7 Ke6 {,
-followed by 48...Be7+.}) 45... Kf5 46. Rxe4 $1 Kxe4 47. Kg5 {This is the
-difference; Black is unable to save his pawn by ...h5-h4, so the exchange of
-all the remaining pawns is inevitable.} Kf3 48. Kxg6 Kxg3 49. Kxh5 Kxh3 1/2-1/2
-
-[Event "?"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "?"]
-[White "2. Games Against Family"]
-[Black "?"]
-[Result "*"]
-[Annotator "Zenón Franco"]
-[PlyCount "1"]
-[SourceTitle "Morphy Move By Move"]
-[Source "Everyman Chess"]
-[SourceDate "2016.09.01"]
-
-{Paul Charles Morphy was born in New Orleans on the 22nd of June 1837.
-According to his uncle Ernest, Paul learned to play without anyone teaching
-him how to move the pieces, just by watching how his uncle and his father were
-playing. Curiously, this beginning is very similar to the one that legend
-attributes to José Raúl Capablanca.} 1. -- {Chess was played by all the
-family; and Morphy's father Alonzo Michael, his brother Edward, and his uncle
-Ernest - who was one of the best chess players in the city - were his
-first opponents. --- Let us look at some games from that period, in which the
-stamp of Paul Morphy is already clear.} *
-
 [Event "1. New Orleans"]
 [Site "?"]
 [Date "1849.??.??"]
@@ -1369,25 +436,6 @@ chess. When he received the invitation to the First American Congress, which
 would begin on the 5th of October 1857 in New York, he hesitated to accept,
 because he was affected by the recent death of his father, but he eventually
 agreed to participate.} 0-1
-
-[Event "?"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "?"]
-[White "3. First US Chess Congress"]
-[Black "?"]
-[Result "*"]
-[Annotator "Zenón Franco"]
-[PlyCount "1"]
-[SourceTitle "Morphy Move By Move"]
-[Source "Everyman Chess"]
-[SourceDate "2016.09.01"]
-
-{The first American Chess Congress took as its model the London tournament of
-1851, with preliminary matches where the player who was first to three wins
-progressed (draws not counting), with the final being the first to five wins.
-The country's best sixteen players took part.} 1. -- {Morphy's first opponent
-was James Thompson. Let's look at the first game of this match.} *
 
 [Event "5. First American Congress, New York"]
 [Site "?"]
@@ -1892,41 +940,6 @@ Rxf2 30. Rc8+ Ng8 31. Ne5 {Resignation by Black would be far from premature.}
 Rg7 32. Nxg6+ Kh7 33. Nf8+ Kh6 34. Nxd7 Rxd7 35. Rcxg8 Rxf4 36. Bxe6 Re7 {
 It's now mate in four moves.} 37. R8g6+ Kh7 38. Bg8+ Kh8 39. Rh6+ Rh7 40. Rxh7#
 1-0
-
-[Event "First American Congress, New York"]
-[Site "?"]
-[Date "1857.??.??"]
-[Round "4.2"]
-[White "Paulsen, L."]
-[Black "Morphy, P."]
-[Result "*"]
-[ECO "C67"]
-[Annotator "Zenón Franco"]
-[SetUp "1"]
-[FEN "5rk1/2p2ppp/p1pb2r1/3b3q/4N3/2PQ3P/PP1B1PP1/R3R1K1 b - - 0 21"]
-[PlyCount "6"]
-[EventDate "1857.??.??"]
-[SourceTitle "Morphy Move By Move"]
-[Source "Everyman Chess"]
-[SourceDate "2016.09.01"]
-
-{In those days there were no chess clocks. Morphy played quickly; his rivals
-did not. Hence the games could last for more than ten hours. The second game
-in fact lasted fifteen hours, twelve of which were used up by Paulsen. It
-ended in a draw, which can be considered a surprise. Let's look at part of
-this game. --- It is easy to see that the opening has not gone well for White:
-four black pieces are in very menacing positions, pointed in the direction of
-the white king. It would be no surprise if the game were to be over in a few
-moves. ---} 21... Rxg2+ $1 {The prettiest way to win;} ({the less spectacular} 
-21... f5 22. Ng3 Qh4 {is very strong too.}) 22. Kxg2 f5 23. f3 Qg6+ $2 {
-A typical case of mixing up the move order. Löwenthal commented: "As soon as
-the second player had touched the queen, he remarked that, had he taken the
-knight, the contest could not have been prolonged a dozen moves. Black's error
-consisted in reversing what should have been his 23rd and 24th moves."} ({
-After the obvious} 23... fxe4 24. Rxe4 (24. fxe4 Qg6+ 25. Kh1 Rf2 {leads to a
-quicker mate}) 24... Qg6+ 25. Kh1 Rxf3 ({or} 25... Qg3 {, Black mates in a few
-moves.})) 24. Ng5 {. Now White will emerge the exchange up, although Morphy's
-tenacious defence enabled him to draw after 53 moves.} *
 
 [Event "9. First American Congress, New York"]
 [Site "?"]
@@ -2997,43 +2010,6 @@ Both} 22. Ka1) ({and} 22. Re7+ {win more quickly (both mate in nine according
 to the engines), but by now that doesn't matter.}) 22... Qxc6 23. Ka1+ Kc7 24.
 Qa5+ Kc8 25. Qxa7 Nd7 26. Bd2 1-0
 
-[Event "?"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "?"]
-[White "4. The Visit to London"]
-[Black "?"]
-[Result "*"]
-[Annotator "Zenón Franco"]
-[PlyCount "1"]
-[SourceTitle "Morphy Move By Move"]
-[Source "Everyman Chess"]
-[SourceDate "2016.09.01"]
-
-{Morphy wanted to play a match against Howard Staunton, and his American
-supporters were equally keen to bring this about. The New Orleans Chess Club,
-together with the American Chess Federation and the New Yorkers, invited
-Staunton to travel to New Orleans to play Morphy, but Staunton rejected the
-offer, claiming that his many occupations prevented him from doing so, amongst
-these a work on Shakespeare that he was writing. --- In the press, Staunton
-was more incisive; in the Illustrated London News he wrote that Morphy should
-first measure himself against other masters. --- And so he did. On the 20th of
-June 1858, two days before his twenty-first birthday, Morphy arrived in
-Birmingham, and once more challenged Staunton, who was now forty-eight.
-Staunton once again put him off. The explanation was clear to Fischer, writing
-just over a century later: "Staunton appears to have been afraid to meet
-Morphy and I think his fears were well-founded. Morphy would have beaten him,
-but it wouldn't have been the one-sided encounter that many writers now think
-it would. It would have been a great struggle."} 1. -- {Morphy and Thomas
-Barnes did play two consultation games against Staunton and John Owen, both of
-which ended in victory for Morphy and Barnes, although of course these can't
-really be counted as games between Morphy and Staunton. --- During his stay in
-London Morphy played several games against the masters Samuel Boden, Thomas
-Barnes and Henry Bird, of which we saw a few fragments in Chapter One. Later
-he played against a familiar but far stronger opponent, Johann Löwenthal. ---
-Before looking at the games from that match, let's examine three games played
-during his stay in London - first, one of his most spectacular victories.} *
-
 [Event "16. London"]
 [Site "?"]
 [Date "1858.??.??"]
@@ -3466,62 +2442,6 @@ coup de grâce? --- ANSWER:} 31. e7 $1 {Preventing ...Re7 and preparing to
 remove the blockading queen with 32 Re6.} c4 ({Of course} 31... Rxe7 $2 {
 loses to} 32. Rxe7+ Qxe7 33. f6+ {.}) 32. Qg3 c3 33. Re6 Qd4+ 34. Qf2 Qxd5 35.
 f6+ ({It's mate after} 35. f6+ Kh8 36. g7+ Kg8 37. f7+ Kxg7 38. Qf6# {.}) 1-0
-
-[Event "London (match)"]
-[Site "?"]
-[Date "1858.??.??"]
-[Round "3"]
-[White "Lowenthal, JJ."]
-[Black "Morphy, P."]
-[Result "0-1"]
-[ECO "C42"]
-[Annotator "Zenón Franco"]
-[SetUp "1"]
-[FEN "6k1/p3Rb1p/2p3p1/4Qp2/2P5/7P/P4PP1/1q1r1BK1 w - - 0 30"]
-[PlyCount "102"]
-[EventDate "1858.??.??"]
-[SourceTitle "Morphy Move By Move"]
-[Source "Everyman Chess"]
-[SourceDate "2016.09.01"]
-
-{The 17th of July 1858 saw the start of the first serious encounter of
-Morphy's stay in Europe, a match with Johann Löwenthal. Although Morphy had
-beaten him on the other side of the Atlantic, Löwenthal was a professional
-player and shortly before had defeated Adolf Anderssen in Manchester.
-Furthermore, not long after the match against Morphy, in August 1858
-Löwenthal achieved the greatest success of his career, winning the British
-Chess Association Congress knockout tournament in Birmingham. --- In the first
-game of their match, Morphy achieved a good position and, as usual, played to
-win, taking risks and objectively standing worse on a number of occasions, but
-it ended in a draw. --- The second game of the match is given in Supplementary
-Game 19.1; we shall see that, in spite of his victory, Morphy's play was not
-yet at its highest level. --- In the third game Löwenthal gained the
-advantage; he could have agreed a draw but went on playing, apparently
-believing that his position was sound and that he could press without risk,
-but Morphy soon showed that this was not an easy task. Let's now look briefly
-at an extract from this game. ---} {Here Löwenthal could still have forced a
-draw with 30 Re8+, but...} 30. Qe2 $2 {White is relying on his rook on the
-seventh and the passivity of the black bishop to be able to keep playing for a
-win;} ({but in reality} 30. Qe2 {doesn't threat} -- 31. Rxa7 {since} Re1 {
-then wins.}) 30... Kf8 $1 {Taking the initiative by threatening 31...Rxf1+. In
-a few moves the situation is completely turned round.} 31. Re5 f4 32. f3 Qc1
-33. h4 h6 34. c5 Kg7 $1 {Surprisingly, White no longer has any useful moves,
-and when his pawn moves run out he will find himself in zugzwang.} 35. Re4
-Qxc5+ 36. Kh2 Qc1 37. Kg1 Rd2 38. Qa6 Rxa2 39. Qd3 Rd2 40. Qa6 Rd1 41. g3 fxg3
-42. Kg2 Qc5 43. Kxg3 Qg1+ 44. Bg2 Rd2 45. Qf1 Qxf1 {Again playing like
-Capablanca in the following century. Morphy could keep the queens on and
-proceed with advantage, but heading for the endgame is the simplest way.} 46.
-Bxf1 Kf6 47. Bc4 Bxc4 48. Rxc4 Rd6 {The rook ending two pawns up is clearly
-winning. Morphy didn't conduct it in entirely exemplary fashion, and in fact
-gave Löwenthal the chance of a theoretical draw at one point, but still...}
-49. Kf4 Re6 50. Rd4 Ke7 51. Ra4 Kd6 52. Rxa7 c5 53. Ra1 c4 54. h5 gxh5 55. Kf5
-Re3 56. Kf4 Re8 57. Ra6+ Kd5 58. Rxh6 c3 59. Rxh5+ Kd4 60. Rh7 Rc8 $6 ({
-Inserting} 60... Rf8+ {first makes things much easier.}) 61. Rd7+ Kc4 62. Ke3
-Re8+ $2 {Giving White a chance.} (62... Kb3 {still wins.}) 63. Kf2 c2 64. Rc7+
-Kd3 65. Rd7+ Kc3 66. Rc7+ Kd2 67. Rd7+ Kc1 68. Rb7 $2 {The rook should go back
-to the c-file, when White can hold; whereas now Black is winning again.} Re5
-69. f4 Re4 70. Kf3 Rc4 71. Rh7 Kd2 72. Rh1 c1=Q 73. Rxc1 Rxc1 74. Ke4 Re1+ 75.
-Kd4 Ke2 76. f5 Kf3 77. Kd5 Kf4 78. f6 Kg5 79. f7 Rf1 80. Ke6 Kg6 0-1
 
 [Event "19. London (match)"]
 [Site "?"]
@@ -4145,34 +3065,6 @@ c3 44. Rc4 {and wins.}) 42. f5 Ke5 43. Re7+ Kd6 44. f6 Rb8 45. g5 Rf8 46. Kf4
 c4 47. bxc4 bxc4 48. Kf5 c3 49. Re3 {. --- And so the match ended 10-4 in
 Morphy's favour (+9, =2, -3). "I am convinced that I was vanquished by
 superior strength," was Löwenthal's comment on it all.} 1-0
-
-[Event "?"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "?"]
-[White "5. The Journey to Paris"]
-[Black "?"]
-[Result "*"]
-[Annotator "Zenón Franco"]
-[PlyCount "1"]
-[SourceTitle "Morphy Move By Move"]
-[Source "Everyman Chess"]
-[SourceDate "2016.09.01"]
-
-{Since it had proved impossible to arrange to a match with Staunton in London,
-Morphy travelled to Paris to challenge the strongest French players. --- In
-informal games one of his opponents was Jules Arnous de Rivière, one of the
-best French players from the 1850s to the 1870s. Morphy beat him 7½-1½.} 1.
--- {More testing was the match with Daniel Harrwitz, preceded by a casual game
-that Morphy lost through a serious blunder as early as the tenth move. The 5th
-of September saw the start of their formal match, which was scheduled to last
-until one or other player had scored seven wins. Harrwitz demonstrated that he
-was a worthy opponent by winning the first game, after a long struggle that
-finished in a rook endgame. --- In the second Morphy stood better but, playing
-in a manner that was most unusual for him in serious games, he burnt his
-bridges, unjustifiably rushing a pawn break that left his structure damaged.
-Although another long struggle ensued, Morphy ended up with another loss, so
-that Harrwitz now led 2-0. --- Let's now look at the third game.} *
 
 [Event "23. Paris (match)"]
 [Site "?"]
@@ -5014,30 +3906,6 @@ looking for a brilliancy.} 15. Qxe6+ fxe6 16. Bxf6 {is an easy winning ending.
 {EXERCISE: What was the key to Morphy's idea? --- ANSWER:} 16. Qb8+ $3 {
 Do you recall the move 12 Qb7!! in the note to Black's ninth move?} Nxb8 17.
 Rd8# {. "A sparkling finish!" (Euwe)} 1-0
-
-[Event "?"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "?"]
-[White "6. The Match Against Anderssen"]
-[Black "?"]
-[Result "*"]
-[Annotator "Zenón Franco"]
-[PlyCount "1"]
-[SourceTitle "Morphy Move By Move"]
-[Source "Everyman Chess"]
-[SourceDate "2016.09.01"]
-
-{December arrived at last, and with it the match against Anderssen. This
-contest between the two best players of the time was also to be decided by the
-first player to score seven wins.} 1. -- {The first game was played on the
-20th of December 1858. Just as in his two previous serious matches, against
-Löwenthal and Harrwitz, Morphy began with a defeat. --- The second game ended
-in a draw, as we shall see in Supplementary Game 29.1. Once again the match
-had not begun well for Morphy, but just as in the previous two matches, once
-Morphy started to win games he was unstoppable. He won no less than five games
-running, including several of high quality. --- Let's look at game three of
-the match.} *
 
 [Event "28. Paris (match)"]
 [Site "?"]
@@ -5930,31 +4798,6 @@ Baden-Baden tournament in 1870 (ahead of Steinitz, whom he beat in both their
 games), and was always amongst the top ten. When Anderssen retired in 1879, he
 was still number five.} 1-0
 
-[Event "?"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "?"]
-[White "7. Retirement"]
-[Black "?"]
-[Result "*"]
-[Annotator "Zenón Franco"]
-[PlyCount "1"]
-[SourceTitle "Morphy Move By Move"]
-[Source "Everyman Chess"]
-[SourceDate "2016.09.01"]
-
-{On his return to New York, Morphy was received with the same admiration and
-recognition as Robert Fischer in 1972 after defeating Boris Spassky in
-Reykjavik. --- Kasparov commented that "for the first time in the history of
-chess a victory was recognized as an event of national importance!"} 1. -- {
-Morphy continued playing just as much but no longer 'officially'. He gave
-blindfold simultaneous displays and played games or whole matches at the odds
-of 'pawn and move' or even a knight, even against some of his opponents
-from 1857; he won all these matches. --- Let's look at a game from the last
-informal match (back in Paris) that he played against the best player in
-France, Jules Arnous de Rivière - a match which Morphy, already in
-retirement, won 9-3.} *
-
 [Event "34. Paris"]
 [Site "?"]
 [Date "1863.??.??"]
@@ -6080,41 +4923,6 @@ Qg7+ {. "It was unthinkable for a Morphy game to finish without fireworks."
 ({Mate follows with} 34. Qxg6+ Ke5 35. Qf5# {. --- On the 10th of July 1884,
 Paul Morphy died from a stroke in his native city of New Orleans. He was only
 47 years old.}) 1-0
-
-[Event "?"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "?"]
-[White "Paul Morphy's results"]
-[Black "?"]
-[Result "*"]
-[Annotator "Zenón Franco"]
-[PlyCount "1"]
-[SourceTitle "Morphy Move By Move"]
-[Source "Everyman Chess"]
-[SourceDate "2016.09.01"]
-
-1. -- {The only games of Morphy's that could be considered "official" are:}
-(1. -- {First American Chess Congress, New York, 6 October-10 November 1857
---- Rd.1: P.Morphy 3-0 J.Thompson --- Rd.2: P.Morphy 3-0 A.B.Meek ---
-Semi-final: P.Morphy 3½-½ T.Lichtenhein --- Final: P.Morphy 6-2 L.Paulsen 
-(+5, =2, -1)}) (1. -- {Match, London, 19 July-22 August 1858 --- P.Morphy 10-4
-J.Löwenthal (+9, =2, -3)}) (1. -- {Match, London, September 1858 --- P.Morphy
-5½-2½ D.Harrwitz (+5, =1, -2)}) (1. -- {Match, Paris, 20-28 December 1858
---- P.Morphy 8-3 A.Anderssen (+7, =2, -2)}) (1. -- {Match, Paris,
-February-March 1859 --- P.Morphy 7½-½ A.Mongredien}) (1. -- {Morphy played
-many games at various odds - a knight; pawn and move; pawn and two moves;
-pawn and three moves - and won most of them. He also played multiple games
-blindfold with success. --- His most remarkable results giving odds of the
-queen's knight were against two former rivals: --- New York, May 1959: Morphy
-5½-3½ J.Thompson (+5, =1, -3) --- New York, July 1959: Morphy 6½-2½ T.Lichtenhein (+6, =1, -4)}) (1. -- {Other significant results: --- New Orleans,
-May 1850: P.Morphy 3-0 J.Löwenthal (or 2½-½) --- New York, 28-30 November
-1857 (Morphy giving pawn and move): P.Morphy 4½-½ C.H.Stanley --- London,
-April 1959 (Morphy giving the queen's knight): P.Morphy 7-2 T.H.Worrall (+7,
-=0, -2) --- New York, May 1859 (Morphy giving the queen's knight): P.Morphy
-5½-½ F.Perrin --- London, August 1959 (Morphy giving pawn and move): P.Morphy 6-1 J.Owen (+5, =2, -0)}) *
-
-
 
 [Event "?"]
 [Site "New Orleans"]
@@ -6272,17 +5080,6 @@ Be3+ c5 21.Bxc5+ Ka5 22.Rg3 b5 23.Ra3# 1-0
 c6 9.Bc4 d5 10.exd5 cxd5 11.Qe2+ Be6 12.Bb3 O-O 13.d4 Ne4 14.Bc2 f5 15.
 Nbd2 Nc6 16.c4 Bxd4+ 17.Nxd4 Nxd4 18.Qd3 Qb6 19.Kh1 Nxc2 20.Qxc2 Nf2+ 
 21.Kg1 Nh3+ 22.Kh1 Qg1+ 23.Rxg1 Nf2# 0-1
-
-[Event "?"]
-[Site "New Orleans (game position)"]
-[Date "1849.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "McConnell"]
-[Result "1-0"]
-[FEN "7k/8/2p2r2/5p2/4PP2/2K1Q3/7P/6Nq w - - 0 1"]
-
- 1-0
 
 [Event "?"]
 [Site "1849 (1855?)"]
@@ -6456,19 +5253,6 @@ hxg3 22.hxg3 Rh8 23.Nc4 Qc5 24.e5 b5 25.Nd2 Rh3 26.Ne4 Qb6 27.Bxf7 Bb7
 [Round "?"]
 [White "Maurian,C"]
 [Black "Morphy,P (odds)"]
-[Result "0-1"]
-[FEN "1nbqkbnr/ppppp1pp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQk - 0 1"]
-
-1.e4 g6 2.d4 c5 3.d5 Bg7 4.Bd3 b5 5.c4 b4 6.a3 Qa5 7.Qd2 d6 8.Ne2 Nh6 
-9.O-O O-O 10.Qc2 Ng4 11.Bg5 Be5 12.h3 Nh2 13.Bh6 Rf7 14.Rd1 Bxh3 15.
-gxh3 Nf3+ 16.Kh1 Qd8 17.Nd2 Qd7 18.Ng1 Nxg1 19.Kxg1 Qxh3 0-1
-
-[Event "?"]
-[Site "New Orleans"]
-[Date "1854.??.??"]
-[Round "?"]
-[White "Maurian,C"]
-[Black "Morphy,P (odds)"]
 [Result "1-0"]
 [FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/2BQKBNR w Kkq - 0 1"]
 
@@ -6509,64 +5293,6 @@ h1=Q 46.g8=Q 1/2-1/2
 Bxf6 9.h4 Na5 10.g5 Be7 11.h5 Nd7 12.Bd3 Nb6 13.Qc2 h6 14.gxh6 gxh6 15.
 Rg1+ Kh8 16.Rg6 Rf6 17.Qg2 Qf8 18.Nh4 Qf7 19.f5 Bd7 20.Bxh6 Rg8 21.Bg5 
 Rfxg6 22.Nxg6+ Rxg6 23.hxg6 Qg7 24.Qh1+ Kg8 25.f6 1-0
-
-[Event "?"]
-[Site "New Orleans"]
-[Date "1854.??.??"]
-[Round "?"]
-[White "Maurian,C"]
-[Black "Morphy,P (odds)"]
-[Result "1-0"]
-[FEN "1nbqkbnr/ppppp1pp/8/8/4P3/8/PPPP1PPP/RNBQKBNR w KQk - 0 2"]
-
-2.d4 e6 3.Bd3 g6 4.Nf3 c5 5.c3 d5 6.e5 Nc6 7.Qa4 c4 8.Bg5 Qb6 9.Bxc4 
-dxc4 10.b3 cxb3 11.axb3 Bd7 12.Nbd2 Nxe5 13.Qxa7 Nd3+ 14.Ke2 Qb5 15.c4 
-Qf5 16.Qxb7 Ne7 17.Ra8+ Nc8 18.Rxc8+ Bxc8 19.Qxc8+ Kf7 20.Qc7+ Kg8 21.
-g4 Qxg4 22.Kxd3 Qf5+ 23.Ke2 h6 24.Bf4 g5 25.Bd6 Rh7 26.Qd8 Rf7 27.Rf1 
-Qc2 28.Ne5 Rf4 29.f3 g4 30.Nxg4 Rxd4 31.Qxf8+ Kh7 32.Qf7+ 1-0
-
-[Event "?"]
-[Site "New Orleans"]
-[Date "1854.??.??"]
-[Round "?"]
-[White "Maurian,C"]
-[Black "Morphy,P (odds)"]
-[Result "0-1"]
-[FEN "1nbqkbnr/ppppp1pp/8/8/4P3/8/PPPP1PPP/RNBQKBNR w KQk - 0 2"]
-
-2.d4 e6 3.c4 Nc6 4.d5 Ne5 5.f4 Ng6 6.Be3 Bb4+ 7.Nc3 e5 8.Qh5 Nf6 9.Qg5 
-Be7 10.f5 Nxd5 11.Qh5 Nxe3 12.Kf2 O-O 13.Kxe3 Bg5+ 14.Kf3 Nf4 15.Qg4 h5 
-16.Qg3 Bh4 0-1
-
-[Event "?"]
-[Site "New Orleans"]
-[Date "1854.??.??"]
-[Round "?"]
-[White "Maurian,C"]
-[Black "Morphy,P (odds)"]
-[Result "1-0"]
-[FEN "1nbqkbnr/ppppp1pp/8/8/4P3/8/PPPP1PPP/RNBQKBNR w KQk - 0 2"]
-
-2.d4 e6 3.Bd3 d5 4.e5 c5 5.Nf3 c4 6.Be2 b5 7.O-O Nh6 8.Be3 Nf5 9.a4 b4 
-10.Nbd2 Be7 11.h3 h5 12.Nh2 g6 13.Nxc4 dxc4 14.Bxc4 Na6 15.d5 Nxe3 16.
-fxe3 Qb6 17.Bb5+ Kd8 18.dxe6+ Kc7 19.Rf7 Qxe6 20.Qd6+ Qxd6 21.exd6+ 
-Kxd6 22.Rd1+ Ke6 23.Bc4+ Ke5 24.Rxe7+ Kf5 25.Rf7+ Ke5 26.Nf3+ Ke4 27.
-Rd4+ Kxe3 28.Re7+ Be6 29.Rxe6# 1-0
-
-[Event "?"]
-[Site "New Orleans"]
-[Date "1854.??.??"]
-[Round "?"]
-[White "Maurian,C"]
-[Black "Morphy,P (odds)"]
-[Result "0-1"]
-[FEN "1nbqkbnr/ppppp1pp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQk - 0 1"]
-
-1.e4 Nh6 2.d4 Nf7 3.Bc4 e6 4.Nc3 c6 5.Bd3 Bb4 6.Nf3 d5 7.O-O Nd7 8.a3 
-Ba5 9.b4 Bc7 10.e5 g5 11.Ne1 Qe7 12.f4 Bb6 13.Be2 gxf4 14.Bxf4 Ndxe5 
-15.Bxe5 Nxe5 16.Kh1 Ng6 17.Bh5 Qh4 18.Qg4 Qxg4 19.Bxg4 Bxd4 20.Rf3 h5 
-21.Bxe6 Bxe6 22.Rd3 Bb6 23.Nf3 Nf4 24.Rd2 Be3 25.Rdd1 Rg8 26.Re1 d4 27.
-Rad1 Nxg2 28.Rxe3 dxe3 29.Rg1 Bg4 0-1
 
 [Event "?"]
 [Site "New Orleans"]
@@ -6627,33 +5353,6 @@ Bb5 Bd7 9.Bxc6 Bxc6 10.Qxa5 Nf6 11.d3 O-O {12.Kg1 b6 13.Qb4 a5 14.Qb2
 ... Game unfinished.} *
 
 [Event "?"]
-[Site "New Orleans"]
-[Date "1854.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Maurian,C (odds)"]
-[Result "0-1"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNB1KBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O d6 5.c3 Nf6 6.b4 Bb6 7.a4 a6 8.a5 Ba7 
-9.b5 axb5 10.Bxb5 O-O 11.d4 Nxe4 12.Re1 f5 13.Bb2 Qf6 14.a6 Ne7 15.axb7 
-Bxb7 16.Na3 Ng5 17.Nd2 e4 18.Nac4 f4 19.Na5 e3 20.Nf1 exf2+ 21.Kxf2 
-Ne4+ 22.Kg1 f3 23.Nxb7 f2+ 24.Kh1 fxe1=Q 25.Rxe1 Nf2+ 26.Kg1 Nd3 0-1
-
-[Event "?"]
-[Site "New Orleans 1854?"]
-[Date "1854.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Morphy,Alonzo (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/1NBQKBNR w Kkq - 0 1"]
-
-1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Nxd5 6.Nxf7 Kxf7 7.Qf3+ Ke6 
-8.Nc3 Nd4 9.Bxd5+ Kd6 10.Qf7 Be6 11.Bxe6 Nxe6 12.Ne4+ Kd5 13.c4+ Kxe4 
-14.Qxe6 Qd4 15.Qg4+ Kd3 16.Qe2+ Kc2 17.d3+ Kxc1 18.O-O# 1-0
-
-[Event "?"]
 [Site "Mobile"]
 [Date "1855.??.??"]
 [Round "?"]
@@ -6705,21 +5404,6 @@ cxd4 Bxd4 9.Nc3 Ng4 10.h3 Nge5 11.Qh5 h6 12.Nxf7 Nxf7 13.Qg6 Nce5 14.
 Bxf7+ Rxf7 15.Qg3 Rf6 16.Nd5 Rg6 17.Qb3 Be6 18.Qxb7 Bxh3 19.Ne7+ Qxe7 
 20.Qxa8+ Kh7 21.Kh2 Rxg2+ 22.Kxh3 Qe6+ 23.Kxg2 Qg4+ 24.Kh1 Qh3+ 25.Kg1 
 Nf3# 0-1
-
-[Event "?"]
-[Site "New Orleans"]
-[Date "1855.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Maurian\LeCarp (odds)"]
-[Result "1/2-1/2"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.O-O Nf6 7.Ng5 O-O 8.f4 
-d5 9.exd5 Nxd5 10.Ba3 Nxf4 11.Nxf7 Rxf7 12.Qb3 Qxd2 13.Bxf7+ Kh8 14.Rf2 
-Bb6 15.Qxb6 Nh3+ 16.gxh3 Qg5+ 17.Rg2 Qxg2+ 18.Kxg2 axb6 19.Bb2 Bf5 20.
-Rf1 Be4+ 21.Kg3 Rd8 22.Be6 h6 23.Rf7 Rd3+ 24.Kg4 Rd8 25.Rxc7 Re8 26.Bd7 
-Rf8 27.Bxc6 Rf4+ 28.Kg3 bxc6 29.c4 Rf3+ 30.Kg4 Rf4+ 1/2-1/2
 
 [Event "?"]
 [Site "New Orleans"]
@@ -6806,21 +5490,6 @@ Kh8 15.Bxe6 Qxe6 16.fxg7+ Kxg7 17.Ngf5+ Kh8 18.Qg5 Qg6 19.Nxg6+ fxg6
 [Date "1856.??.??"]
 [Round "?"]
 [White "Morphy,P"]
-[Black "Amateur (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Bc4 Nf6 3.Nf3 d6 4.d4 d5 5.exd5 Bg4 6.dxe5 Bxf3 7.gxf3 Nfd7 
-8.O-O Bc5 9.e6 Ne5 10.exf7+ Nxf7 11.Bb5+ c6 12.dxc6 bxc6 13.Re1+ Be7 
-14.Bd3 O-O 15.f4 Bd6 16.Qh5 h6 17.Qg6 Re8 18.Bd2 Nd7 19.Bc3 Nf6 20.
-Rxe8+ Nxe8 21.Re1 Be7 22.Bc4 Bf6 23.Qxf7+ Kh7 24.Qg8+ Kg6 25.Bd3+ Kh5 
-26.Qf7+ Kg4 27.Qg6+ Kh4 28.Qg3+ Kh5 29.Bg6# 1-0
-
-[Event "?"]
-[Site "New Orleans"]
-[Date "1856.??.??"]
-[Round "?"]
-[White "Morphy,P"]
 [Black "Knight,T (odds)"]
 [Result "1-0"]
 [FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/2BQKBNR w Kkq - 0 1"]
@@ -6828,37 +5497,6 @@ Rxe8+ Nxe8 21.Re1 Be7 22.Bc4 Bf6 23.Qxf7+ Kh7 24.Qg8+ Kg6 25.Bd3+ Kh5
 1.e4 e5 2.f4 exf4 3.Nf3 g5 4.Bc4 Qe7 5.d4 d5 6.Bxd5 c6 7.Bxf7+ Qxf7 8.
 Ne5 Qf6 9.Qh5+ Ke7 10.h4 gxh4 11.O-O Bh6 12.b3 Nd7 13.Ba3+ c5 14.Rd1 
 Nxe5 15.Bxc5+ Ke6 16.Qe8+ Ne7 17.d5# 1-0
-
-[Event "?"]
-[Site "New Orleans"]
-[Date "1856.??.??"]
-[Round "?"]
-[White "Maurian,C"]
-[Black "Morphy,P (odds)"]
-[Result "1-0"]
-[FEN "r1bqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Nf3 d5 3.Nxe5 Nf6 4.exd5 Bd6 5.Bb5+ c6 6.dxc6 O-O 7.Nf3 Re8+ 
-8.Be2 Qe7 9.Nc3 Bb4 10.d4 Nd5 11.Bd2 Bxc3 12.bxc3 bxc6 13.Ne5 f6 14.Nd3 
-Ba6 15.f3 Rad8 16.Rf1 Rd6 17.Rf2 Re6 18.Kf1 g5 19.Nc1 Qa3 20.c4 Nc3 21.
-Bxc3 Qxc3 22.d5 Re3 23.Nb3 Bxc4 24.Bxc4 Qxc4+ 25.Kg1 cxd5 26.Qd2 Re2 
-27.Qd3 R8e3 28.Qxc4 dxc4 29.Nd2 Re1+ 30.Rxe1 Rxe1+ 31.Rf1 Re2 32.Rd1 c3 
-33.Kf1 Rxd2 34.Rxd2 cxd2 35.Ke2 Kf7 36.Kxd2 Ke6 37.Kd3 Kd5 38.c4+ Kc5 
-39.Ke4 Kxc4 40.Kf5 Kc3 41.Kxf6 h6 42.Kg6 Kb4 43.Kxh6 Ka3 44.Kxg5 Kxa2 
-45.h4 a5 46.h5 Kb1 47.h6 a4 48.h7 a3 49.h8=Q a2 50.f4 a1=Q 51.Qxa1+ 
-Kxa1 52.f5 1-0
-
-[Event "?"]
-[Site "?"]
-[Date "1857.??.??"]
-[Round "?"]
-[White "Amateur"]
-[Black "Morphy,P (odds) (ending)"]
-[Result "0-1"]
-[FEN "k1r1r3/1p4pq/p7/5n2/3nB3/P7/RPP2PPP/2B1QRK1 b - - 0 1"]
-
-1...Rxe4 2.Qxe4 Ng3 3.Qxd4 Ne2+ 4.Kh1 Qxh2+ 5.Kxh2 Rh8+ 6.Bh6 Rxh6+ 7.
-Qh4 Rxh4# 0-1
 
 [Event "?"]
 [Site "New Orleans"]
@@ -6888,48 +5526,6 @@ dxc6 b6 15.Rcd1 Qf6 16.Rfe1 a6 17.Qa3 O-O 18.Qb3 b5 19.Bd5 Bg4 20.h3
 Be6 21.Re3 Rae8 22.Nd2 Qh6 23.Ne4 Kh8 24.Qa3 f5 25.Bxe6 Rxe6 26.Nxd6 
 Rxd6 27.Red3 Rfd8 28.Rxd6 Rxd6 29.Rxd6 cxd6 30.c7 Qe6 31.Qxd6 Qc8 32.
 Qd8+ Qxd8 33.cxd8=Q# 1-0
-
-[Event "?"]
-[Site "New Orleans"]
-[Date "1857.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Maurian,C (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.f4 exf4 3.Nf3 g5 4.Bc4 g4 5.d4 gxf3 6.Qxf3 d5 7.Bxd5 c6 8.
-Bxf7+ Kxf7 9.Qh5+ Kg7 10.Bxf4 Be7 11.O-O Qxd4+ 12.Kh1 Qxe4 13.Rae1 Qg6 
-14.Rxe7+ Kf8 15.Bd6+ Nf6 16.Rxf6+ Qxf6 17.Qe8# 1-0
-
-[Event "?"]
-[Site "New Orleans"]
-[Date "1857.??.??"]
-[Round "?"]
-[White "Maurian,C"]
-[Black "Morphy,P (odds)"]
-[Result "0-1"]
-[FEN "r1bqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5 Nf6 6.Bc4 d5 7.Bxd5 Nxd5 8.
-exd5 f3 9.O-O Qxh4 10.d4 f2+ 11.Rxf2 g3 12.Rf4 Qh2+ 13.Kf1 Qh1+ 14.Ke2 
-Qxg2+ 15.Kd3 Qh3 16.Qe1 Bf5+ 17.Kc4 O-O-O 18.Qa5 a6 19.Nc3 Bxc2 20.Rxf7 
-Bd6 21.Nb5 axb5+ 22.Kxb5 Kb8 23.Bg5 Bxe5 24.Bxd8 Rxd8 25.Qc3 Rxd5+ 26.
-Kc4 Rxd4+ 27.Qxd4 Qe6+ 28.Qd5 Bd3+ 0-1
-
-[Event "?"]
-[Site "New Orleans?"]
-[Date "1857.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Worrall,T? (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.f4 exf4 3.Nf3 g5 4.Bc4 g4 5.d4 gxf3 6.O-O Bh6 7.Qxf3 Nc6 8.
-Bxf7+ Kxf7 9.Qh5+ Kg7 10.Bxf4 Bxf4 11.Rxf4 Nh6 12.Raf1 Qe8 13.Qh4 d6 
-14.Qf6+ Kg8 15.Qxh6 Bd7 16.R1f3 Ne7 17.h4 Ng6 18.h5 Bg4 19.hxg6 hxg6 
-20.Rf8+ Qxf8 21.Rxf8+ Rxf8 22.Qxg6# 1-0
 
 [Event "?"]
 [Site "New York"]
@@ -7096,20 +5692,6 @@ d4 Bg7 9.e5 Nh5 10.Kg1 Bb7 11.Be2 Rg8 12.Ne1 f3 13.Bxf3 Bxf3 14.Qxf3
 Nc6 15.Nd5 O-O-O 16.Ne7+ Kb8 17.Nxg8 Rxg8 18.Qxf7 Rf8 19.Qb3+ Kc8 20.
 Nf3 Qg6 21.c3 g4 22.Nh4 Qd3 23.Bg5 Nf4 24.Bxf4 Rxf4 25.Re1 Qd2 26.Nf3 
 gxf3 {...} 0-1
-
-[Event "?"]
-[Site "New York"]
-[Date "1857.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Reif,A"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Bc4 Bc5 5.c3 dxc3 6.O-O d6 7.Qb3 Qe7 8.
-Bg5 Nf6 9.Rae1 O-O 10.Kh1 Ne5 11.Nxe5 dxe5 12.f4 Bb6 13.Qxc3 Bd4 14.Qg3 
-Be6 15.fxe5 Bxc4 16.Bxf6 Qxf6 17.exf6 g6 18.Qg5 Bxf1 19.e5 Bxg2+ 20.
-Kxg2 Kh8 21.Re4 Rad8 22.Qh6 Rg8 23.Qxh7+ Kxh7 24.Rh4# 1-0
 
 [Event "?"]
 [Site "New York"]
@@ -7432,179 +6014,6 @@ Ne4 {...} 1-0
 [Site "New York"]
 [Date "1857.??.??"]
 [Round "?"]
-[White "Richardson,H"]
-[Black "Morphy,P (odds)"]
-[Result "0-1"]
-[FEN "rnbqkbnr/ppppp1pp/8/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"]
-
-2.d4 d6 3.Bd3 Be6 4.Nf3 Bg4 5.h3 Bh5 6.g4 Bf7 7.Ng5 Nh6 8.d5 c6 9.Nc3 
-Qd7 10.Qf3 g6 11.Bc4 Qc8 12.Nxf7 Nxf7 13.dxc6 Ne5 14.Qe2 Nbxc6 15.Be3 
-Bg7 16.O-O-O Qd7 17.Bb3 Na5 18.Ba4 Nac6 19.f4 Nf7 20.e5 O-O 21.Bd4 e6 
-22.Bxc6 Qxc6 23.Rhe1 dxe5 24.Bxe5 Nxe5 25.fxe5 Qc5 26.Qb5 Rac8 27.Rd7 
-a6 28.Qxb7 Bh6+ 29.Kb1 Rb8 30.Qc7 Qb4 31.b3 Rbc8 32.Qd6 Qxc3 33.Qxe6+ 
-Kh8 34.Red1 Qxc2+ 35.Ka1 Bc1 0-1
-
-[Event "?"]
-[Site "New York"]
-[Date "1857.??.??"]
-[Round "?"]
-[White "Richardson,H"]
-[Black "Morphy,P (odds)"]
-[Result "0-1"]
-[FEN "rnbqkbnr/ppppp1pp/8/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"]
-
-2.d4 e6 3.Bd3 c5 4.e5 g6 5.c3 Nc6 6.Nf3 d5 7.Be3 Qb6 8.Qc2 Bd7 9.Bg5 
-Nge7 10.Be3 c4 11.Be2 Nf5 12.Nbd2 Nxe3 13.fxe3 Bh6 14.Nf1 O-O 15.Qd2 
-Rf7 16.Ng3 Raf8 17.O-O Qd8 18.Rae1 b5 19.Bd1 a5 20.a3 Qb6 21.b4 axb4 
-22.cxb4 Ra8 23.Qb2 Qa7 24.a4 bxa4 25.Bxa4 Nxb4 26.Qxb4 Qxa4 27.Qxa4 
-Rxa4 28.Rf2 Ra3 29.Nf1 Ba4 30.g4 Rb7 31.g5 Bf8 32.Rc1 c3 33.Ne1 c2 34.
-Nd2 Rc3 35.Nef3 Rbc7 0-1
-
-[Event "?"]
-[Site "New York"]
-[Date "1857.??.??"]
-[Round "?"]
-[White "Perrin,F"]
-[Black "Morphy,P (odds)"]
-[Result "0-1"]
-[FEN "rnbqkbnr/ppppp1pp/8/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"]
-
-2.d4 d6 3.Bd3 Be6 4.Qh5+ Bf7 5.Qb5+ Nd7 6.Qxb7 e5 7.d5 Ngf6 8.Nc3 Be7 
-9.Nb5 O-O 10.Qxc7 Qe8 11.Nxd6 Bxd6 12.Qxd6 Kh8 13.Nf3 Bxd5 14.exd5 e4 
-15.Qe6 Qh5 16.Bxe4 Rae8 17.Qc6 Nxe4 18.Be3 Nxf2 19.Kxf2 Ne5 20.Qxe8 
-Qxe8 21.h3 Qh5 22.Rhe1 Nxf3 23.gxf3 Qxf3+ 24.Kg1 Qg3+ 25.Kh1 Qxh3+ 26.
-Kg1 Qg3+ 27.Kh1 Rf5 0-1
-
-[Event "?"]
-[Site "New York"]
-[Date "1857.??.??"]
-[Round "?"]
-[White "Perrin,F"]
-[Black "Morphy,P (odds)"]
-[Result "0-1"]
-[FEN "rnbqkbnr/ppppp1pp/8/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"]
-
-2.d4 e6 3.Bd3 c5 4.e5 g6 5.c3 Nc6 6.Be3 Qb6 7.Qd2 d5 8.exd6 Bxd6 9.Na3 
-cxd4 10.Bxd4 Nxd4 11.Nc4 Qc7 12.Nxd6+ Qxd6 13.cxd4 Ne7 14.Nf3 O-O 15.
-O-O Bd7 16.Be4 Rf4 17.Rae1 Raf8 18.Ne5 Bb5 19.g3 Rxe4 20.Rxe4 Bxf1 21.
-Kxf1 Qd5 22.Qc2 Nf5 23.Qc4 Qxe4 24.Qxe6+ Kg7 25.Qd7+ Kh6 26.Nf7+ Kh5 
-27.Ne5 Ne3+ 28.Ke2 Nc4+ 29.Kd1 Qb1+ 30.Ke2 Qc2+ 31.Ke1 Qd2+ 32.Kf1 
-Qxf2# 0-1
-
-[Event "?"]
-[Site "New York"]
-[Date "1857.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Julien,D (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.f4 exf4 3.Nf3 g5 4.Bc4 Bg7 5.O-O h6 6.c3 d6 7.Qb3 Qe7 8.d4 c6 
-9.Bd2 Nd7 10.Rae1 Nb6 11.Bd3 Bg4 12.a4 Bxf3 13.Rxf3 Nd7 14.Qxb7 Rb8 15.
-Qxc6 Rxb2 16.e5 Rxd2 17.Qc8+ Qd8 18.exd6+ Be5 19.Rxe5+ Nxe5 20.Bb5+ 1-0
-
-[Event "?"]
-[Site "New York"]
-[Date "1857.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Julien,D (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Nf3 d6 3.d4 exd4 4.Bc4 c5 5.c3 dxc3 6.O-O Be6 7.Bxe6 fxe6 8.
-Qb3 Qd7 9.Ng5 e5 10.f4 Nc6 11.fxe5 Nxe5 12.Bf4 Nf6 13.Bxe5 dxe5 14.Rad1 
-Bd6 15.Rxd6 Qxd6 16.Qf7+ Kd8 17.Qxb7 Qd7 18.Qxa8+ Qc8 19.Nf7+ Ke7 20.
-Qxa7+ Nd7 21.Nxh8 Qxh8 22.Rd1 Qc8 23.bxc3 1-0
-
-[Event "?"]
-[Site "New York"]
-[Date "1857.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Julien,D (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 c5 2.d4 cxd4 3.Nf3 Nc6 4.Bc4 e5 5.c3 Bc5 6.b4 Bb6 7.b5 Na5 8.Bxf7+ 
-Kxf7 9.Nxe5+ Kf8 10.Qh5 Qf6 11.Ba3+ Ne7 12.f4 d3 13.O-O-O Be3+ 14.Kb1 
-Bxf4 15.Rhf1 g6 16.Rxf4 Qxf4 17.Nxg6+ hxg6 18.Qxh8+ Kf7 19.Qh7+ Kf8 20.
-Qxe7+ Kg8 21.Qd8+ Kg7 22.Qxa5 1-0
-
-[Event "?"]
-[Site "New York"]
-[Date "1857.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Perrin,F (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Bc5 6.O-O Nf6 7.d4 exd4 8.
-cxd4 Bb6 9.Ba3 d6 10.e5 dxe5 11.Qb3 Qd7 12.dxe5 Ne4 13.Rad1 Nd4 14.Nxd4 
-Bxd4 15.Rxd4 Qxd4 16.Bxf7+ Kd8 17.Rd1 Nd2 18.Qc2 Bd7 19.e6 Ba4 20.Rxd2 
-Bxc2 21.Rxd4+ Kc8 22.e7 b6 23.e8=Q+ 1-0
-
-[Event "?"]
-[Site "New York"]
-[Date "1857.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Amateur (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.f4 exf4 3.Nf3 g5 4.Bc4 g4 5.O-O gxf3 6.Qxf3 Qf6 7.e5 Qxe5 8.
-Bxf7+ Kxf7 9.d4 Qxd4+ 10.Be3 Qf6 11.Qh5+ Qg6 12.Rxf4+ Nf6 13.Rxf6+ Kxf6 
-14.Bd4+ Ke7 15.Re1+ Kf7 16.Qd5+ Qe6 17.Qf3+ Ke8 18.Qh5+ Kd8 19.Rxe6 
-dxe6 20.Bxh8 1-0
-
-[Event "?"]
-[Site "New York"]
-[Date "1857.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Amateur (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Nf3 Nc6 3.d4 Nxd4 4.Nxe5 Ne6 5.Bc4 Nf6 6.Nxf7 Kxf7 7.Bxe6+ 
-Kxe6 8.e5 Bc5 9.O-O Nd5 10.Qg4+ Kxe5 11.Bg5 Qf8 12.Rad1 Kd6 13.Qe4 Qf7 
-14.c4 Kc6 15.Rxd5 Kb6 16.Rxc5 c6 17.Qe5 Re8 1-0
-
-[Event "?"]
-[Site "New York"]
-[Date "1857.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "McConnell,J (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Bc5 6.O-O Nf6 7.d4 exd4 8.
-cxd4 Bb6 9.Ba3 d6 10.e5 Ne4 11.Re1 d5 12.Bb5 Bg4 13.Rc1 Qd7 14.Qa4 Bxf3 
-15.Rxc6 O-O-O 16.e6 fxe6 17.Rxb6 1-0
-
-[Event "?"]
-[Site "New York"]
-[Date "1857.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Amateur (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Bc5 6.O-O d6 7.d4 exd4 8.
-cxd4 Bb6 9.Bb2 Bg4 10.Bb5 Bd7 11.d5 Ne5 12.Bxd7+ Qxd7 13.Bxe5 dxe5 14.
-Nxe5 Qb5 15.Rb1 Qa5 16.Qg4 Ne7 17.Qd7+ Kf8 18.Rb3 Bd4 19.Nf3 Bc5 20.Rc1 
-c6 21.d6 Bxd6 22.Qxd6 Rd8 23.Qg3 b6 24.Qc7 Rc8 25.Rd3 Re8 26.Rd8 Qa6 
-27.Rcd1 1-0
-
-[Event "?"]
-[Site "New York"]
-[Date "1857.??.??"]
-[Round "?"]
 [White "Morphy,P"]
 [Black "Perrin,A (odds)"]
 [Result "1-0"]
@@ -7614,39 +6023,6 @@ c6 21.d6 Bxd6 22.Qxd6 Rd8 23.Qg3 b6 24.Qc7 Rc8 25.Rd3 Re8 26.Rd8 Qa6
 8.Ne4 Qf5 9.Re1 Be6 10.d4 Be7 11.Nfg5 Nd7 12.Nxf7 Ngf6 13.Nfd6+ Kf8 14.
 Nxf5 Nxe4+ 15.Rxe4 Bxf5 16.Qh5 g6 17.Qh6+ Ke8 18.Rxe7+ Kxe7 19.Qg7+ Kd6 
 20.Bxf4+ Ne5 21.Bxe5# 1-0
-
-[Event "?"]
-[Site "New York"]
-[Date "1857.??.??"]
-[Round "?"]
-[White "Marache,N"]
-[Black "Morphy,P (odds)"]
-[Result "0-1"]
-[FEN "rnbqkbnr/ppppp1pp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
-
-1.e4 e6 2.d4 d5 3.exd5 exd5 4.Bd3 Nf6 5.Nf3 Bd6 6.O-O O-O 7.c4 c6 8.c5 
-Bc7 9.Ne5 Bxe5 10.dxe5 Ng4 11.h3 Nxe5 12.Bxh7+ Kxh7 13.Qh5+ Kg8 14.Qxe5 
-Nd7 15.Qg3 Nxc5 16.Bg5 Qe8 17.Nd2 Bd7 18.Rae1 Qg6 19.Be7 Qxg3 20.fxg3 
-Rxf1+ 21.Kxf1 Nd3 22.Re3 c5 23.b3 Re8 24.a4 d4 25.Rxd3 Rxe7 26.Nf3 a5 
-27.Kf2 b5 28.axb5 Bxb5 29.Rd2 Re3 30.Rb2 Rc3 31.g4 a4 32.bxa4 Bxa4 33.
-g5 Rc2+ 34.Rxc2 Bxc2 35.Ke1 Be4 36.Kd2 Bxf3 37.gxf3 Kf7 38.Kd3 Kg6 39.
-h4 Kh5 40.Ke4 Kxh4 41.f4 g6 42.Kd3 Kg4 43.Ke4 d3 44.Kxd3 Kxf4 45.Kc4 
-Kxg5 46.Kxc5 Kf5 47.Kd4 g5 0-1
-
-[Event "?"]
-[Site "New York"]
-[Date "1857.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Amateur (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.O-O d6 7.d4 exd4 8.Qb3 
-Be6 9.Bxe6 fxe6 10.cxd4 Bb6 11.d5 Na5 12.Qc3 e5 13.Ng5 h6 14.Ne6 Qe7 
-15.Be3 Nf6 16.Bxb6 axb6 17.Rae1 Rc8 18.f4 Kd7 19.fxe5 dxe5 20.Qxe5 Nc4 
-21.Qc3 b5 22.Qh3 Ke8 23.e5 Nxe5 24.Rxe5 Kf7 25.Ng5+ hxg5 26.Rxe7+ Kxe7 
-27.Qe6+ 1-0
 
 [Event "?"]
 [Site "New York"]
@@ -7947,51 +6323,6 @@ Rac1 g5 15.Qxc3 Nxc3 16.Bxg5 Ne2+ 17.Kh1 Nxc1 18.Rxc1 Rfe8 19.Bf6 b5
 Ra2 27.Rc1 Rea8 28.Bg5 Ra1 29.Bb1 c2 0-1
 
 [Event "?"]
-[Site "New York m"]
-[Date "1857.??.??"]
-[Round "1"]
-[White "Stanley,C"]
-[Black "Morphy,P (odds)"]
-[Result "1/2-1/2"]
-[FEN "rnbqkbnr/ppppp1pp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
-
-1.e4 d6 2.d4 Nf6 3.Nc3 e6 4.Bd3 Nc6 5.Be3 e5 6.d5 Ne7 7.h3 Ng6 8.Nce2 
-Nh4 9.Rh2 Be7 10.g3 Ng6 11.f4 exf4 12.Nxf4 Ne5 13.Nf3 O-O 14.Nxe5 dxe5 
-15.Ng2 c6 16.c4 Bb4+ 17.Bd2 Qb6 18.Bxb4 Nxe4 19.Nf4 Qg1+ 20.Ke2 Qxh2+ 
-21.Ke3 Qg1+ 22.Kxe4 Qd4+ 23.Kf3 c5 24.Bc3 Rxf4+ 25.gxf4 Qxf4+ 26.Kg2 
-Bxh3+ 27.Kxh3 Qh6+ 28.Kg2 Qg5+ 29.Kh2 Qh4+ 1/2-1/2
-
-[Event "?"]
-[Site "New York m"]
-[Date "1857.??.??"]
-[Round "2"]
-[White "Stanley,C"]
-[Black "Morphy,P (odds)"]
-[Result "0-1"]
-[FEN "rnbqkbnr/ppppp1pp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
-
-1.e4 d6 2.d4 Nf6 3.Bd3 e5 4.dxe5 dxe5 5.h3 Bc5 6.Nf3 Nc6 7.Nc3 Be6 8.
-O-O Qe7 9.Bb5 O-O 10.Bxc6 bxc6 11.Bg5 Bc4 12.Re1 Rad8 13.Qc1 h6 14.Be3 
-Bd6 15.Nh4 Nxe4 16.Ng6 Qf6 17.Nxf8 Nxc3 18.Nd7 Rxd7 19.bxc3 Qg6 20.Qd1 
-Be6 21.Kh1 Rf7 22.Rb1 e4 23.Rb8+ Kh7 24.Rg1 h5 25.f4 exf3 26.gxf3 Qf5 
-27.Qd3 Qxd3 28.cxd3 Rxf3 29.Bd4 Rxh3+ 30.Kg2 c5 0-1
-
-[Event "?"]
-[Site "New York m"]
-[Date "1857.??.??"]
-[Round "5"]
-[White "Stanley,C"]
-[Black "Morphy,P (odds)"]
-[Result "0-1"]
-[FEN "rnbqkbnr/ppppp1pp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
-
-1.e4 e6 2.d4 d5 3.e5 c5 4.Be3 Qb6 5.b3 Nc6 6.Nf3 cxd4 7.Bxd4 Nxd4 8.
-Nxd4 Bc5 9.c3 Ne7 10.Bb5+ Nc6 11.Bxc6+ bxc6 12.Qh5+ g6 13.Qg4 O-O 14.
-O-O Ba6 15.Qxe6+ Kh8 16.Rd1 Rae8 17.Qg4 Rxe5 18.Nd2 Bc8 19.Qg3 Bd6 20.
-Qd3 Ba6 21.Qc2 Rh5 22.N2f3 c5 23.Ne2 Rxf3 24.gxf3 Qd8 25.c4 Rxh2 26.
-Rxd5 Qh4 27.Qc3+ Kg8 28.Ng3 Qh3 0-1
-
-[Event "?"]
 [Site "New York m (blind)"]
 [Date "1857.??.??"]
 [Round "1"]
@@ -8025,17 +6356,6 @@ Bd8 21.Nd5 Kh8 22.Rd1 Bxc7 23.Nxc7 Rfd8 24.a3 Kg8 25.c5 f6 26.Rd2 Ne1
 g6 34.a4 Ng8 35.Nc4 Ne7 36.b6 axb6 37.Nxb6 Rcxc7 38.Nxd7 Rxd7 39.dxe7 
 Kxe7 40.Re3+ Kf7 41.Rb3 Ke6 42.Rb6+ Kd5 43.Rxf6 Kxc5 44.f5 gxf5 45.
 Rxf5+ Kb4 46.a5 Rc7 47.Rh5 Kc4 48.Ke3 Kb4 49.h4 Rc3+ 50.Kd4 1/2-1/2
-
-[Event "?"]
-[Site "New York? (ending)"]
-[Date "1857.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Amateur"]
-[Result "1-0"]
-[FEN "1rk2b1r/pppq2p1/3pN2p/5Q2/8/8/PP3PPP/2B1R1K1 w - - 0 1"]
-
-1.Nc5 Qe6 2.Qxe6+ Kd8 3.Qe8# 1-0
 
 [Event "?"]
 [Site "18??"]
@@ -8725,24 +7045,6 @@ Rxc8+ Rxc8 27.Qxd5 h6 28.Nf7+ Kh7 29.Qf5+ Qg6 30.Qxc8 Qb1+ 31.Qc1 Qf5
 [Site "London"]
 [Date "1858.??.??"]
 [Round "?"]
-[White "Medley,G"]
-[Black "Morphy,P (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/ppppp1pp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
-
-1.e4 d6 2.d4 Nf6 3.Bc4 Nc6 4.Nc3 e5 5.d5 Ne7 6.Nf3 Ng6 7.Bg5 h6 8.Bxf6 
-Qxf6 9.Bb5+ Kf7 10.Nd2 Nh4 11.g3 Ng2+ 12.Ke2 Bh3 13.f3 Qg5 14.Qg1 a6 
-15.Bd3 h5 16.Qf2 g6 17.Rag1 Bh6 18.Nf1 Qc1 19.Nd1 b5 20.Rxg2 Rhc8 21.
-Nfe3 c5 22.dxc6 Rxc6 23.Re1 Bxe3 24.Nxe3 Qxb2 25.Rgg1 Rac8 26.Rc1 Be6 
-27.Rgd1 Rc3 28.Kf1 Bh3+ 29.Ke1 Be6 30.Nd5 R3c5 31.c3 Qa3 32.Qd2 Bxd5 
-33.exd5 Rxc3 34.Rxc3 Rxc3 35.Be4 Qc5 36.Ke2 b4 37.Qh6 Ke7 38.Qg5+ Kd7 
-39.Qd2 g5 40.Qxg5 Kc7 41.Qd2 a5 42.h3 a4 43.g4 hxg4 44.hxg4 Kb6 45.g5 
-Qc4+ 46.Ke1 1-0
-
-[Event "?"]
-[Site "London"]
-[Date "1858.??.??"]
-[Round "?"]
 [White "Lowenthal\Medley"]
 [Black "Morphy\Mongredien"]
 [Result "1/2-1/2"]
@@ -9032,72 +7334,6 @@ Nxe5 15.O-O Qf4 16.h4 Nxf3+ 17.Qxf3 Qxh4 18.Qxd5+ Be6 0-1
 [Event "?"]
 [Site "London m"]
 [Date "1858.??.??"]
-[Round "2"]
-[White "Owen,J"]
-[Black "Morphy,P (odds)"]
-[Result "1/2-1/2"]
-[FEN "rnbqkbnr/ppppp1pp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
-
-1.e4 d6 2.d4 Nf6 3.Bc4 Nc6 4.Nc3 e6 5.Nf3 d5 6.Bd3 Bb4 7.Bg5 dxe4 8.
-Bxe4 Bd7 9.O-O O-O 10.Ne5 Qe8 11.Bxf6 Rxf6 12.Ng4 Rf8 13.f4 Qe7 14.Rf3 
-Nxd4 15.Rh3 Nf5 16.Ne5 Be8 17.g4 Nh4 18.Qe1 Ng6 19.Nxg6 hxg6 20.Qg3 Rd8 
-21.Rf1 Rd2 22.Kh1 Qd8 23.Qe1 Bb5 24.Nxb5 Rxf4 25.Rxf4 Rd1 26.Qf1 Rxf1+ 
-27.Rxf1 Qg5 28.Bd3 Qd5+ 29.Rhf3 Kh7 30.a3 Bd2 31.Kg2 e5 32.Rd1 e4 33.
-Rh3+ Kg8 34.c4 Qg5 35.Be2 e3 36.Nxc7 Qf4 37.Bf3 Qxc7 38.Bd5+ Kf8 39.
-Rf1+ Ke7 40.Rf7+ Kd6 41.Rxe3 Bxe3 42.Rxc7 Kxc7 43.Kf3 Bc1 44.b3 Bxa3 
-45.h4 1/2-1/2
-
-[Event "?"]
-[Site "London m"]
-[Date "1858.??.??"]
-[Round "3"]
-[White "Owen,J"]
-[Black "Morphy,P (odds)"]
-[Result "0-1"]
-[FEN "rnbqkbnr/ppppp1pp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
-
-1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Nc6 5.Nh3 cxd4 6.Bb5 dxc3 7.bxc3 Bc5 8.O-O 
-Nge7 9.Ng5 O-O 10.Qh5 h6 11.Nf3 Bd7 12.Bd3 Qe8 13.Qg4 Rxf3 14.Qxf3 Nxe5 
-15.Qg3 Nxd3 16.Qxd3 Bb5 17.Qh3 Bxf1 18.Qxe6+ Kh7 19.Kxf1 Qh5 20.Bf4 Rf8 
-21.Bg3 Nf5 0-1
-
-[Event "?"]
-[Site "London m"]
-[Date "1858.??.??"]
-[Round "4"]
-[White "Owen,J"]
-[Black "Morphy,P (odds)"]
-[Result "0-1"]
-[FEN "rnbqkbnr/ppppp1pp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
-
-1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Nc6 5.Nf3 Qb6 6.Bd3 g6 7.O-O Bd7 8.a4 a5 
-9.Na3 c4 10.Bc2 Nh6 11.Nb5 Nf7 12.b3 cxb3 13.Bxb3 Be7 14.Re1 O-O 15.
-Bxd5 exd5 16.e6 Be8 17.exf7+ Rxf7 18.Bg5 Bd7 19.Rb1 Qd8 20.Bxe7 Rxe7 
-21.Qb3 Bf5 22.Rbc1 Bd3 23.Na3 Be2 24.c4 Bxf3 25.Rxe7 Qxe7 26.Qxf3 dxc4 
-27.Qc3 Re8 28.Qxc4+ Kg7 29.Nc2 Qg5 30.Rd1 Re4 31.Qc3 Qf6 32.Qd2 Qd6 33.
-g3 h5 34.f3 Re7 35.Qg5 Ne5 36.Kf2 Nxf3 37.Kxf3 Qc6+ 38.d5 Rf7+ 39.Kg2 
-Qxc2+ 40.Rd2 Qe4+ 41.Kh3 Qe1 42.d6 Qf1+ 43.Rg2 Rd7 44.Qe5+ Qf6 45.Qb2 
-Rxd6 46.Qxb7+ Kh6 47.Qb5 g5 0-1
-
-[Event "?"]
-[Site "London m"]
-[Date "1858.??.??"]
-[Round "5"]
-[White "Owen,J"]
-[Black "Morphy,P (odds)"]
-[Result "0-1"]
-[FEN "rnbqkbnr/ppppp1pp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
-
-1.e4 e6 2.d4 d5 3.Bd3 g6 4.Nf3 c5 5.c3 Nc6 6.O-O Qb6 7.exd5 exd5 8.Re1+ 
-Be7 9.Ng5 Nf6 10.Nxh7 Rxh7 11.Bxg6+ Rf7 12.Bg5 Bg4 13.Qc2 Kf8 14.Bxf7 
-Kxf7 15.h3 Bh5 16.Bxf6 Bg6 17.Qe2 Bxf6 18.Qe6+ Kg7 19.Qd7+ Kh8 20.Qd6 
-Kg7 21.Nd2 cxd4 22.Nf3 Ne5 23.Qa3 Nxf3+ 24.gxf3 dxc3 25.bxc3 Rg8 26.Re3 
-Kh8 27.Kh1 d4 28.cxd4 Bxd4 29.Rae1 Bxe3 30.Rxe3 Qb1+ 31.Kh2 Be4 32.Qc3+ 
-Rg7 33.Re1 Qb6 34.Re3 Qd6+ 35.Kh1 Bxf3+ 36.Rxf3 Qd1+ 37.Kh2 Qg1# 0-1
-
-[Event "?"]
-[Site "London m"]
-[Date "1858.??.??"]
 [Round "6"]
 [White "Owen,J"]
 [Black "Morphy,P (odds)"]
@@ -9125,69 +7361,6 @@ Bd7 9.Bd5 dxc3 10.Nxc3 Be7 11.Nb5 Bd8 12.f4 Ne7 13.Nc3 Bg4 14.Qb3 c6
 Ke7 21.f5 Qh5 22.Bg5+ Kd7 23.Qg3 Bc7 24.Qxe5 Rae8 25.Qxg7 Bxd6 26.Ne5+ 
 Kc8 27.Qd7+ Kb8 28.Qxd6+ Ka8 29.Bf4 Qxf5 30.Nxc6 Bh3 31.gxh3 Qe4+ 32.
 Kg1 Nxf4 33.Rxf4 Rhg8+ 0-1
-
-[Event "?"]
-[Site "New Orleans"]
-[Date "1858.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Maurian,C (odds)"]
-[Result "0-1"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.f4 exf4 3.Nf3 d5 4.exd5 Qxd5 5.Be2 Nf6 6.O-O Be7 7.d4 O-O 8.
-Bxf4 c6 9.c4 Qd8 10.Qc2 Bg4 11.Rad1 Bh5 12.Ne5 Bg6 13.Qb3 Qb6 14.Qh3 
-Na6 15.c5 Qd8 16.Bxa6 bxa6 17.Nxc6 Qe8 18.Nxe7+ Qxe7 19.Bd6 Qe6 20.Bxf8 
-Qxh3 21.gxh3 Kxf8 22.d5 Rd8 23.c6 Rxd5 24.c7 Rg5+ 25.Kf2 Rf5+ 26.Ke3 
-Re5+ 27.Kd4 Re8 28.Kc4 Ke7 29.Rfe1+ Be4 30.Kc5 Rc8 31.Rxe4+ Nxe4+ 32.
-Kc6 Nc5 33.b4 Ne6 34.Rd7+ Kf6 35.a4 Rxc7+ 36.Rxc7 Nxc7 37.Kxc7 Ke6 38.
-b5 axb5 39.axb5 f5 40.Kb7 f4 41.Kxa7 f3 42.b6 f2 43.b7 f1=Q 44.b8=Q 
-Qa1+ 0-1
-
-[Event "?"]
-[Site "New Orleans"]
-[Date "1858.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Worrall,T (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Be7 6.d4 Nf6 7.dxe5 Ng4 8.
-O-O Ngxe5 9.Nxe5 Nxe5 10.Bb3 O-O 11.f4 Bc5+ 12.Kh1 Ng6 13.f5 Ne5 14.f6 
-gxf6 15.Bh6 d6 16.Qe1 Be6 17.Qg3+ Ng6 18.h4 Kh8 19.h5 Rg8 20.hxg6 Rxg6 
-21.Qh4 Bxb3 22.axb3 Qe7 23.Rf5 Re8 24.Re1 Reg8 25.Rh5 Rxg2 26.Bg5 Rg7 
-27.Bxf6 1-0
-
-[Event "?"]
-[Site "New Orleans"]
-[Date "1858.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Worrall,T (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.f4 d5 3.exd5 e4 4.Bc4 Bd6 5.Ne2 Bg4 6.O-O f5 7.d4 Nf6 8.h3 
-Bxe2 9.Qxe2 O-O 10.Bb3 Kh8 11.c4 c5 12.dxc6 Nxc6 13.Be3 Bc7 14.Rad1 Bb6 
-15.c5 Bc7 16.d5 Na5 17.d6 Bb8 18.Be6 Nc6 19.Bxf5 a5 20.g4 Nb4 21.a3 
-Nbd5 22.g5 Nxe3 23.Qxe3 Nh5 24.Bg4 g6 25.f5 b6 26.Qc3+ Kg8 27.Qc4+ Kh8 
-28.Qd4+ Ng7 29.f6 Rf7 30.fxg7+ Rxg7 31.Rf7 1-0
-
-[Event "?"]
-[Site "New Orleans"]
-[Date "1858.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Worrall,T (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e6 2.f4 d5 3.e5 Nc6 4.d4 Nh6 5.Nf3 Be7 6.c3 f6 7.Bd3 O-O 8.O-O Qe8 
-9.h3 Qh5 10.Qe1 Bd7 11.Bd2 Rae8 12.Qg3 f5 13.Rae1 Kh8 14.Be2 Qg6 15.Qh2 
-Nd8 16.Kh1 a6 17.b3 b6 18.Rg1 Qf7 19.g4 c5 20.g5 Ng8 21.h4 g6 22.h5 Qg7 
-23.Nh4 cxd4 24.Nxg6+ hxg6 25.hxg6+ Nh6 26.gxh6 Qg8 27.g7+ Kh7 28.Bh5
-1-0
 
 [Event "?"]
 [Site "New Orleans"]
@@ -9232,21 +7405,6 @@ Qxd5 Kc7 15.c4 Qe6 16.Qxa8 Nc6 17.cxb5 Qd5 18.Qxc6+ Qxc6 19.bxc6 Kxc6
 a5 9.f5 Qf6 10.Qh5 a4 11.Bd5 c6 12.Nxh7 Kxh7 13.Bg5 Qe5 14.Nd2 cxd5 15.
 Nf3 Qe8 16.f6 Bg4 17.Qh4 Bxf3 18.fxg7 d3+ 19.Kh1 Bxg2+ 20.Kxg2 Kxg7 21.
 Bxh6+ Kh7 22.Bxf8+ Kg8 23.Be7 Nc6 24.Qg5+ Kh7 25.Rf4 1-0
-
-[Event "?"]
-[Site "New Orleans"]
-[Date "1858.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Worrall,T (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.f4 d5 3.exd5 Qxd5 4.Nf3 e4 5.Ne5 Be6 6.Bc4 Qd6 7.Qe2 Nf6 8.d4 
-Bxc4 9.Nxc4 Qe6 10.O-O Nc6 11.c3 Bd6 12.f5 Qe7 13.Bg5 O-O-O 14.b4 Nb8 
-15.a4 c6 16.b5 Qc7 17.h3 Rde8 18.Bxf6 gxf6 19.Rfb1 b6 20.a5 cxb5 21.
-axb6 Bh2+ 22.Kh1 axb6 23.Rxb5 Nc6 24.Rab1 Bf4 25.Nxb6+ Kd8 26.Nd5 Qd6 
-27.Qa2 1-0
 
 [Event "?"]
 [Site "New Orleans (player 1)"]
@@ -9607,20 +7765,6 @@ Ba2 Kxb7 47.Rxd6 Ra8 {...} 0-1
 9.O-O exd5 10.exd5 Ng4 11.h3 Ne5 12.f4 Nxd3 13.Qxd3 Bf5 14.Qf3 Qb6 15.
 g4 Bc2 16.Nb5 Rae8 17.Be3 Bd3 18.b3 Bxe2 19.Qxe2 Bd4 20.Rf3 Bxa1 21.Qd3 
 Nc7 22.f5 Nxb5 23.cxb5 Rxe3 0-1
-
-[Event "?"]
-[Site "Paris"]
-[Date "1858.??.??"]
-[Round "?"]
-[White "Devinck,F"]
-[Black "Morphy,P (odds)"]
-[Result "0-1"]
-[FEN "rnbqkbnr/ppppp1pp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
-
-1.e4 d6 2.d4 Nf6 3.Bd3 e5 4.dxe5 dxe5 5.Bg5 Bc5 6.Nf3 h6 7.Bh4 Bg4 8.
-O-O Nbd7 9.Nbd2 g5 10.Bg3 h5 11.Qe1 Qe7 12.h4 Nh7 13.c3 O-O-O 14.b4 Bb6 
-15.a4 a6 16.Qb1 Rhf8 17.a5 Ba7 18.b5 Bxf3 19.Nxf3 Rxf3 20.gxf3 gxh4 21.
-b6 cxb6 22.axb6 Bxb6 23.Rxa6 bxa6 24.Bxa6+ Kc7 25.Qb5 hxg3 0-1
 
 [Event "?"]
 [Site "Paris (1858 or 1859)"]
@@ -10073,34 +8217,6 @@ O-O O-O 9.Nbc3 d5 10.e5 f6 11.f4 fxe5 12.fxe5 a6 13.Qd2 Nb4 14.Bg5 Nxd3
 33.g4 b6 34.h4 b5 35.Ke3 b3 36.a3 1-0
 
 [Event "?"]
-[Site "Baltimore"]
-[Date "1859.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Arnold,W (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e6 2.f4 Bc5 3.d4 Bb6 4.Nf3 d5 5.e5 f6 6.Bd3 Nc6 7.c3 Bd7 8.O-O Qe7 
-9.Be3 Nh6 10.h3 O-O 11.g4 fxe5 12.fxe5 Nf7 13.Qe2 Qe8 14.Rf2 Ne7 15.
-Raf1 Ng6 16.Bxg6 hxg6 17.Ng5 Qe7 18.Rxf7 Rxf7 19.Rxf7 Qe8 20.Qf2 c6 21.
-Qh4 1-0
-
-[Event "?"]
-[Site "Baltimore"]
-[Date "1859.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Nicholson,C (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.f4 exf4 3.Nf3 g5 4.Bc4 Bg7 5.O-O h6 6.c3 d6 7.Qb3 Qf6 8.d4 
-Ne7 9.Bd2 O-O 10.Bd3 Nbc6 11.Rae1 Bg4 12.h4 Bxf3 13.Rxf3 b6 14.hxg5 
-hxg5 15.Rh3 Na5 16.Qd1 Ng6 17.g3 fxg3 18.Rxg3 Bh6 19.e5 dxe5 20.Bxg5 
-Bxg5 21.Qh5 Ne7 22.Qh7# 1-0
-
-[Event "?"]
 [Site "Boston"]
 [Date "1859.??.??"]
 [Round "?"]
@@ -10260,21 +8376,6 @@ exd4 9.cxd4 Bb6 10.Bg5 Bb7 11.Nc3 Ne7 12.Re1 h6 13.Bh4 g5 14.Bg3 Kf8
 Qc6 c4 22.Bc2 Bc7 23.Rad1 Qe7 24.Bxg6 Kxg6 25.d5 Bxe5 26.Nxe5+ Kg7 27.
 Ng6 Qd8 28.Nxh8 Kxh8 29.d6 Kg7 30.a4 Rd7 31.axb5 axb5 32.Qxb5 Rxd6 33.
 Rxd6 Qxd6 34.Qxc4 h5 35.h3 Nd7 36.Re3 Ne5 37.Rxe5 Qxe5 38.Qc3 1-0
-
-[Event "?"]
-[Site "London"]
-[Date "1859.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Pindar,E (odds)"]
-[Result "0-1"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 d5 2.exd5 Qxd5 3.c4 Qd8 4.d4 e5 5.Bd3 Bb4+ 6.Bd2 Bxd2+ 7.Qxd2 Nc6 
-8.Ne2 Nf6 9.d5 Nd4 10.Ng3 O-O 11.O-O Re8 12.Rae1 Qd6 13.f4 c5 14.fxe5 
-Rxe5 15.Rxe5 Qxe5 16.Re1 Qd6 17.Qg5 Bd7 18.Rf1 Re8 19.b4 b6 20.Qh4 h6 
-21.bxc5 bxc5 22.h3 Re3 23.Ne4 Nxe4 24.Qd8+ Qf8 25.Qxd7 Rxd3 26.Re1 Nf6 
-27.Qc7 Nf5 0-1
 
 [Event "?"]
 [Site "London (player 1)"]
@@ -10507,36 +8608,6 @@ to.} 1/2-1/2
 [Date "1859.??.??"]
 [Round "?"]
 [White "Morphy,P"]
-[Black "Lichtenhein,T (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Bc5 6.O-O Nf6 7.d4 exd4 8.
-cxd4 Bb6 9.Ba3 d6 10.e5 dxe5 11.Qb3 Be6 12.Bxe6 fxe6 13.Qxe6+ Ne7 14.
-Nxe5 Rf8 15.Rfe1 Nfd5 16.Qg4 g6 17.Qh4 a5 18.Qxh7 Bxd4 19.Nxg6 c5 20.
-Nxf8 Kxf8 21.Rad1 Ke8 22.Bxc5 Bxc5 23.Qg8+ Kd7 24.Rxd5+ Nxd5 25.Qxd5+ 
-Bd6 26.Qxb7+ Qc7 27.Qxa8 1-0
-
-[Event "?"]
-[Site "New York"]
-[Date "1859.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Lichtenhein,T (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Bc5 6.O-O Bb6 7.d4 d6 8.dxe5 
-dxe5 9.Qb3 Qf6 10.Bg5 Qg6 11.Bb5 Be6 12.Qa4 Bd7 13.Rad1 f6 14.Rxd7 Kxd7 
-15.Bxc6+ bxc6 16.Rd1+ Ke7 17.Nxe5 Qxg5 18.Rd7+ Ke8 19.Qxc6 Qxe5 20.
-Rxc7+ Kf8 21.Qxa8+ Qe8 22.Rc8 Qxc8 23.Qxc8+ Kf7 24.c4 g5 25.c5 Ba5 26.
-c6 1-0
-
-[Event "?"]
-[Site "New York"]
-[Date "1859.??.??"]
-[Round "?"]
-[White "Morphy,P"]
 [Black "Thompson,J (odds)"]
 [Result "1-0"]
 [FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
@@ -10544,78 +8615,6 @@ c6 1-0
 1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.O-O Nf6 7.Ng5 O-O 8.f4 
 h6 9.Nxf7 Rxf7 10.Bxf7+ Kxf7 11.fxe5 Bb6+ 12.d4 Nxe5 13.Qh5+ Ng6 14.e5 
 c5 15.exf6 gxf6 16.Bxh6 d5 17.Bg5 1-0
-
-[Event "?"]
-[Site "New York"]
-[Date "1859.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Thompson,J (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.O-O Bb6 7.d4 d6 8.dxe5 
-Nxe5 9.Nxe5 dxe5 10.Bxf7+ Ke7 11.Qb3 Nf6 12.Ba3+ c5 13.Rad1 Qc7 14.f4 
-Rf8 15.Bc4 Rd8 16.Rde1 Bd7 17.Bc1 Rf8 18.fxe5 Qxe5 19.Bf4 Qh5 20.Rd1 
-Kd8 21.e5 Ne8 22.Qa4 Qg4 23.e6 Nf6 24.Rxd7+ Kc8 25.Qc6+ bxc6 26.Ba6#
-1-0
-
-[Event "?"]
-[Site "New York"]
-[Date "1859.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Thompson,J (odds)"]
-[Result "0-1"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.Qc2 Nf6 7.O-O d6 8.d4 
-Bb6 9.dxe5 Nxe5 10.Nxe5 dxe5 11.Ba3 c5 12.f4 O-O 13.f5 Qc7 14.h3 Bd7 
-15.Rae1 Bc6 16.g4 Rad8 17.g5 Nh5 18.g6 Nf4 19.gxf7+ Kh8 20.Bc1 Nd3 21.
-Bg5 Nxe1 22.Rxe1 Rd6 23.Qe2 Rxf7 24.Qh5 Rff6 25.Rf1 Qd7 26.Re1 Bd8 27.
-Bxf6 Bxf6 28.Bf7 Rd3 29.Bc4 Rg3+ 30.Kh2 Qd2+ 0-1
-
-[Event "?"]
-[Site "New York"]
-[Date "1859.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Thompson,J (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6 5.a4 a6 6.d4 exd4 7.c3 d6 8.Qb3 
-Qe7 9.O-O Be6 10.a5 Ba7 11.b5 Bxc4 12.Qxc4 Ne5 13.Nxe5 dxe5 14.bxa6 c6 
-15.Rb1 Rb8 16.axb7 Rxb7 17.Qxc6+ Rd7 18.Rb7 Kd8 19.Ba3 Qe6 20.Rxd7+ 
-Qxd7 21.Qa8+ Qc8 22.Qxa7 Qc7 23.Qa8+ Kd7 24.Rb1 1-0
-
-[Event "?"]
-[Site "New York"]
-[Date "1859.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Thompson,J (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Nf3 d6 3.d4 Nc6 4.c3 Nf6 5.Bd3 Bg4 6.O-O exd4 7.cxd4 Bxf3 8.
-gxf3 Nxd4 9.Qa4+ Nc6 10.Bb5 Qd7 11.Rd1 a6 12.e5 Nh5 13.Bg5 h6 14.Rac1 
-Rc8 15.Qe4 f5 16.exf6+ 1-0
-
-[Event "?"]
-[Site "New York"]
-[Date "1859.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Ware,G (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.f4 exf4 3.Nf3 g5 4.Bc4 Bg7 5.h4 h6 6.d4 d6 7.c3 Qe7 8.O-O Bg4 
-9.Qb3 c6 10.Bd2 Bxf3 11.Rxf3 Nf6 12.Re1 Ng4 13.Ref1 O-O 14.hxg5 hxg5 
-15.Bd3 Nh6 16.Rh3 Na6 17.Qd1 f5 18.Qb3+ Rf7 19.Re1 Qd7 20.exf5 Re8 21.
-Rxe8+ Qxe8 22.f6 d5 23.fxg7 Kxg7 24.Qd1 g4 25.Rxh6 Kxh6 26.Qxg4 Rf6 27.
-Bxf4+ Rxf4 28.Qxf4+ 1-0
 
 [Event "?"]
 [Site "New York"]
@@ -10653,86 +8652,6 @@ Qc5 Qd1+ 34.Kh2 Rd7 1-0
 [Date "1859.??.??"]
 [Round "?"]
 [White "Morphy,P"]
-[Black "Perrin,F (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Bc4 d6 5.c3 d3 6.Qb3 Qf6 7.O-O h6 8.Be3 
-g5 9.Nd4 Rh7 10.f4 g4 11.e5 Qe7 12.e6 fxe6 13.Nxe6 Nf6 14.Rae1 Bxe6 15.
-Bxe6 Rb8 16.Bf5 Kd8 17.Bxa7 Nxa7 18.Rxe7 Rxe7 19.Bxd3 Nc6 20.Bf5 d5 21.
-Bxg4 Nxg4 22.Qxd5+ Ke8 23.Qh5+ Rf7 24.Re1+ Be7 25.Qxg4 Rd8 26.Qg8+ Rf8 
-27.Qg6+ Kd7 28.Qe6+ Ke8 29.Qxh6 Rd6 30.Qh5+ Kd8 31.g3 Kc8 32.b4 Bf6 33.
-Re8+ Rxe8 34.Qxe8+ Nd8 35.Qe3 Rc6 36.Kg2 Rxc3 37.Qe4 Rc6 38.g4 Re6 39.
-Qf5 Kb8 40.g5 Bd4 41.Qf8 Rd6 42.f5 1-0
-
-[Event "?"]
-[Site "New York"]
-[Date "1859.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Lichtenhein,T (odds)"]
-[Result "0-1"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.O-O Nf6 7.d4 O-O 8.Qc2 
-exd4 9.cxd4 h6 10.d5 Ne7 11.Bb2 d6 12.h3 Ng6 13.Nd4 Qe7 14.Nb3 Bb6 15.
-Rae1 Nh5 16.Nd2 Kh8 17.Nf3 Nh4 18.Nxh4 Qxh4 19.Kh2 Nf4 20.Qc3 Rg8 21.
-Qg3 Qg5 22.Qxg5 hxg5 23.g3 Ng6 24.f4 gxf4 25.gxf4 f6 26.Kg3 Bd7 27.h4 
-Rae8 28.h5 Nf8 29.Rh1 Nh7 30.Kf3 Re7 31.Re2 Rge8 32.Bd3 c6 33.h6 g5 34.
-fxg5 Nxg5+ 35.Kf4 Nh7 36.Rg2 Rg8 37.Rg7 Rgxg7 38.hxg7+ Kxg7 39.Rxh7+ 
-Kxh7 40.e5+ f5 41.e6 Bxe6 42.dxe6 Rxe6 43.Bxf5+ Rg6 0-1
-
-[Event "?"]
-[Site "New York"]
-[Date "1859.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Lichtenhein,T (odds)"]
-[Result "0-1"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.f4 exf4 3.Nf3 d5 4.exd5 Bd6 5.Bc4 h6 6.d4 c6 7.dxc6 Nxc6 8.
-Bd3 Nge7 9.c4 Bb4+ 10.Kf1 Bd6 11.d5 Nb8 12.b4 b6 13.Qb3 a5 14.c5 bxc5 
-15.bxc5 Bxc5 16.Bxf4 Qxd5 17.Bb5+ Nd7 18.Qc2 Ba6 19.Bxa6 Rxa6 20.Rd1 
-Qf5 21.Qc4 Ra7 22.h3 O-O 23.g4 Nb6 24.Qc1 Qe4 0-1
-
-[Event "?"]
-[Site "New York"]
-[Date "1859.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Lichtenhein,T (odds)"]
-[Result "1/2-1/2"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d4 exd4 6.O-O Nxe4 7.Bxf7+ Kxf7 
-8.cxd4 d5 9.dxc5 Bg4 10.Ng5+ Qxg5 11.f3 Qg6 12.fxg4+ Ke6 13.Bf4 Qf6 14.
-Be3 Qd8 15.Qf3 Rf8 16.Qh3 Ng5 17.Qh5 h6 18.h4 Ne4 19.Qg6+ Rf6 20.Qxg7 
-Qe7 21.Rxf6+ Qxf6 22.Qxc7 Qf7 23.Qxf7+ Kxf7 24.Bxh6 Kg6 25.Bf4 d4 26.
-h5+ Kh7 27.g5 d3 28.Rf1 d2 29.Bxd2 Nxd2 30.Rf7+ Kg8 31.Rxb7 Ne4 32.h6 
-Rc8 33.b4 Nxb4 34.Rxb4 Nxg5 35.Rb7 Rxc5 36.Rxa7 Kh8 37.a4 Rc6 38.a5 
-Rxh6 39.a6 Ne4 40.Ra8+ Kg7 41.a7 Ra6 42.Re8 Rxa7 43.Rxe4 1/2-1/2
-
-[Event "?"]
-[Site "New York"]
-[Date "1859.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Lichtenhein,T (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Bc5 6.O-O Bb6 7.d4 d6 8.dxe5 
-Nxe5 9.Nxe5 dxe5 10.Bxf7+ Ke7 11.Qb3 Nf6 12.Ba3+ c5 13.Rad1 Qc7 14.f4 
-Bg4 15.Rde1 Rhf8 16.Bc4 Bh5 17.h3 Bf7 18.Bxf7 Rxf7 19.fxe5 Qxe5 20.Rf5 
-Qe6 21.c4 Rc8 22.Bb2 Nd7 23.Qg3 Bc7 24.Qh4+ Ke8 25.Ref1 Rxf5 26.Rxf5 
-Qh6 27.Qf2 Bd8 28.Rf7 Bf6 29.Qf5 Be7 30.Rxg7 Qd6 31.e5 {and wins} 1-0
-
-[Event "?"]
-[Site "New York"]
-[Date "1859.??.??"]
-[Round "?"]
-[White "Morphy,P"]
 [Black "Stone,J (odds)"]
 [Result "1-0"]
 [FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
@@ -10748,55 +8667,6 @@ Qxh4 28.Bxh7+ Kxh7 29.Qf5+ Kh8 30.Rh3 1-0
 [Date "1859.??.??"]
 [Round "?"]
 [White "Morphy,P"]
-[Black "Richardson,H (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.O-O d6 7.d4 exd4 8.
-cxd4 Nf6 9.Qb3 O-O 10.e5 dxe5 11.dxe5 Nh5 12.Ba3 Ne7 13.Rad1 Qe8 14.Ng5 
-Bf5 15.e6 fxe6 16.Bxe6+ Bxe6 17.Qxe6+ Kh8 18.Bxe7 Rf6 19.Bxf6 Qxe6 20.
-Nxe6 Nxf6 21.Rd8+ Rxd8 22.Nxd8 b5 23.Rb1 a6 24.a4 Bb6 25.axb5 axb5 26.
-Rxb5 h6 27.g3 Ne4 28.Kg2 Kg8 29.f3 Nf6 30.Nc6 Kf7 31.Re5 Ng8 32.f4 g6 
-33.Kf3 Kf6 34.g4 Bg1 35.h4 Bb6 36.g5+ hxg5 37.hxg5+ Kf7 38.f5 gxf5 39.
-Rxf5+ Kg6 40.Kg4 Be3 41.Ne5+ Kg7 42.Rf7+ Kh8 43.Ng6# 1-0
-
-[Event "?"]
-[Site "New York"]
-[Date "1859.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Julien,D (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Nf3 d6 3.d4 exd4 4.Bc4 Nc6 5.c3 Ne5 6.Nxe5 dxe5 7.Qb3 Qe7 8.
-f4 dxc3 9.O-O c6 10.fxe5 Be6 11.Bxe6 fxe6 12.Bg5 Qxg5 13.Qxb7 Bc5+ 14.
-Kh1 Qxe5 15.Qxa8+ Kd7 16.Qb7+ Qc7 17.Rad1+ Bd6 18.Rxd6+ Kxd6 19.Rd1+
-1-0
-
-[Event "?"]
-[Site "New York"]
-[Date "1859.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Cheney,G (odds)"]
-[Result "0-1"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 d5 5.exd5 Nxb4 6.O-O Nf6 7.d4 exd4 8.
-Re1+ Be7 9.d6 cxd6 10.Ba3 Nc6 11.Nxd4 O-O 12.Nxc6 bxc6 13.Qe2 Qa5 14.
-Bb2 Rb8 15.Rab1 Bd8 16.Bc3 Qxc3 17.Rxb8 Ba5 18.Reb1 Bb6 19.a4 Re8 20.
-Qd3 Qxd3 21.Bxd3 Bd7 22.Rxe8+ Bxe8 23.Ra1 g6 24.a5 Bc5 25.h3 Nd5 26.Rb1 
-Nb4 27.Be4 f5 28.c3 fxe4 29.cxb4 Bd4 30.Rd1 Be5 31.Re1 d5 32.f3 Bd4+ 
-33.Kf1 e3 34.Rc1 a6 35.Ke2 Kf7 36.f4 Ke6 37.Kd3 Ba7 38.g4 d4 39.Ke4 Kd6 
-40.f5 gxf5+ 41.gxf5 c5 42.bxc5+ Bxc5 43.f6 Bg6+ 44.Kf4 d3 45.Rxc5 Kxc5 
-46.Kxe3 Kc4 0-1
-
-[Event "?"]
-[Site "New York"]
-[Date "1859.??.??"]
-[Round "?"]
-[White "Morphy,P"]
 [Black "Mead,C (odds)"]
 [Result "1-0"]
 [FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
@@ -10806,21 +8676,6 @@ Na5 9.Bxf7+ Kf8 10.Qd5 c6 11.Qxg5 Qxg5 12.Nxg5 h6 13.Bxf4 Ke7 14.Bxg8
 Rxg8 15.Nf3 Nc4 16.b3 Nb6 17.a4 Bg4 18.Nd2 Rad8 19.a5 Nd7 20.Nc4 Nf8 
 21.Bg3 d5 22.Bh4+ Kd7 23.Nb6+ Ke8 24.Rae1 Ne6 25.exd5 Rxd5 26.Nxd5 cxd5 
 27.h3 Bxh3 28.gxh3 Bf6+ 29.Kh1 Bxh4 30.Rxe6+ Kd7 31.Rxh6 1-0
-
-[Event "?"]
-[Site "New York"]
-[Date "1859.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Montgomery,H (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Nf3 d6 3.d4 exd4 4.Bc4 Be7 5.c3 d3 6.Qb3 Be6 7.Bxe6 fxe6 8.
-Nd4 Bf6 9.Nxe6 Qc8 10.f4 Nc6 11.e5 dxe5 12.fxe5 Bxe5 13.O-O Nf6 14.
-Nxg7+ Kd8 15.Bg5 Qd7 16.Ne6+ Ke7 17.Nc5 Nd4 18.cxd4 Qxd4+ 19.Kh1 Qxc5 
-20.Rxf6 Bxf6 21.Re1+ Kf8 22.Bh6+ Bg7 23.Qe6 Bxh6 24.Rf1+ Qf2 25.Rxf2+ 
-Bf4 26.Rxf4+ Kg7 27.Qf6+ Kg8 28.Qg5# 1-0
 
 [Event "?"]
 [Site "New York"]
@@ -10847,18 +8702,6 @@ Nc3 Bh6 9.Nd5 Qd6 10.e5 Qc6 11.Bb5 Qxc2 12.O-O a6 13.Bd3 Qc6 14.Be4 Qc4
 
 1.e4 e5 2.f4 exf4 3.Nf3 g5 4.Bc4 g4 5.d4 gxf3 6.Qxf3 Bh6 7.O-O Ne7 8.
 Bxf4 Bxf4 9.Bxf7+ Kxf7 10.Qxf4+ Kg7 11.Qf6+ Kg8 12.Qf7# 1-0
-
-[Event "?"]
-[Site "New York"]
-[Date "1859.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Fuller,W (odds) (ending)"]
-[Result "1-0"]
-[FEN "r4k2/ppp1r1pp/2n2q1P/b7/2B2BR1/2P3Q1/PP5P/1N3K2 w - - 0 1"]
-
-1.Rg6 Qxg6 2.Qxg6 hxg6 3.h7 Re1+ 4.Kxe1 Ke7 5.Bg8 Kf6 6.h8=Q Ne7 7.Qh4+
-1-0
 
 [Event "?"]
 [Site "New York 1859 or 1860"]
@@ -10894,114 +8737,6 @@ bxc4 22.Qe2 d5 23.Qh5 Rxf5 24.exf5 d4 25.g6 h6 26.Bxh6 dxc3 27.Bxg7
 Kxg7 28.Qh7+ Kf6 29.Qf7+ Ke5 30.Qe6+ Kf4 31.Rf2+ Bf3 32.Qe2 Qd5 33.Qxe7 
 Rh8 34.Qc7+ Kg5 35.Qh7 Qd1+ 36.Rf1 Qxf1+ 37.Kxf1 Rxh7 38.gxh7 cxb2 39.
 h8=Q b1=Q+ 0-1
-
-[Event "?"]
-[Site "New York m"]
-[Date "1859.??.??"]
-[Round "1"]
-[White "Morphy,P"]
-[Black "Thompson,J (odds)"]
-[Result "0-1"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 c5 2.f4 e6 3.Nf3 Nc6 4.c3 d5 5.e5 Qc7 6.Bd3 Be7 7.Bc2 d4 8.Qe2 h6 
-9.O-O Bd7 10.b3 Qb6 11.Kh1 g5 12.fxg5 hxg5 13.d3 g4 14.Ng5 f5 15.exf6 
-Nxf6 16.Nxe6 Bxe6 17.Qxe6 Nd8 18.Qf5 Qe6 19.Qg6+ Nf7 20.cxd4 Qe2 21.Ba3 
-Rh6 22.Qg7 Qxc2 23.Rfe1 O-O-O 24.Rac1 Qf2 25.Bxc5 Bxc5 26.Rf1 Qxd4 27.
-Rf5 b6 28.Qxf7 Rxh2+ 29.Kxh2 g3+ 30.Kxg3 Qg4+ 31.Kh2 Qh4# 0-1
-
-[Event "?"]
-[Site "New York m"]
-[Date "1859.??.??"]
-[Round "2"]
-[White "Morphy,P"]
-[Black "Thompson,J (odds)"]
-[Result "0-1"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 c5 2.f4 e6 3.Nf3 Nc6 4.c3 d5 5.e5 d4 6.Bb5 Bd7 7.Qe2 Qb6 8.Bd3 f6 
-9.b3 Be7 10.f5 Nxe5 11.Nxe5 fxe5 12.Qh5+ Kd8 13.cxd4 Nf6 14.Qe2 exd4 
-15.O-O e5 16.Qxe5 Bd6 17.Qe1 Re8 18.Qh4 Bb5 19.Qh3 Bxd3 20.Qxd3 Kd7 21.
-b4 c4 22.Qxc4 d3+ 23.Kh1 Ne4 24.g3 Rac8 25.Qd5 Qc6 26.Qxc6+ Rxc6 27.Bb2 
-Be5 28.Bxe5 Rxe5 29.Rae1 Nf2+ 30.Kg2 Rxe1 31.Rxe1 Ne4 32.h3 Nf6 33.Re3 
-Rd6 34.Kf3 Nd5 35.Re4 Nc3 36.Rh4 Nb1 37.Ke3 Na3 38.Rxh7 Nc4+ 39.Kf2 
-Nxd2 40.Rxg7+ Kc6 41.Rg6 Ne4+ 42.Ke3 Nc5 43.Kd2 Kb5 44.g4 Kc4 45.g5 
-Ne4+ 46.Ke3 Rd7 0-1
-
-[Event "?"]
-[Site "New York m"]
-[Date "1859.??.??"]
-[Round "3"]
-[White "Morphy,P"]
-[Black "Thompson,J (odds)"]
-[Result "0-1"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.Qb3 Qf6 7.d4 Bb6 8.
-dxe5 Nxe5 9.Nxe5 Qxe5 10.Bxf7+ Kf8 11.O-O Nf6 12.Ba3+ d6 13.Rae1 Ng4 
-14.g3 Qf6 15.Bc4 Ne5 16.Be2 Nf3+ 17.Kh1 Bh3 18.Rd1 Bxf1 19.Bxf1 Qh6 20.
-h3 Nd2 21.Qb5 Nxf1 22.Qxf1 Ke7 23.e5 Kd7 24.Bxd6 Rae8 25.Kh2 Kc8 26.c4 
-cxd6 27.exd6 Ref8 28.c5 Bxc5 29.Qc4 Qg5 0-1
-
-[Event "?"]
-[Site "New York m"]
-[Date "1859.??.??"]
-[Round "4"]
-[White "Morphy,P"]
-[Black "Thompson,J (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.f4 d5 2.e3 Nf6 3.Nf3 Bg4 4.h3 Bxf3 5.Qxf3 c5 6.b3 e6 7.Bb2 Ne4 8.
-O-O-O Nc6 9.d3 Nd6 10.g4 d4 11.Bg2 Qc7 12.Rhe1 Rc8 13.c4 b5 14.Kb1 a5 
-15.exd4 cxd4 16.cxb5 Nxb5 17.Rc1 Nba7 18.Rc4 Qd6 19.Rec1 Kd7 20.Bxd4 
-Qb8 21.Rxc6 Nxc6 22.Rxc6 Ba3 23.f5 Rhe8 24.fxe6+ fxe6 25.Bxg7 Qh2 26.
-Qf2 Qb8 27.Qd4+ Bd6 28.Rb6 Qc7 29.Rb7 Qxb7 30.Bxb7 Rc7 31.Be4 1-0
-
-[Event "?"]
-[Site "New York m"]
-[Date "1859.??.??"]
-[Round "5"]
-[White "Morphy,P"]
-[Black "Thompson,J (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.f4 d5 2.e3 Nf6 3.Nf3 Bg4 4.Be2 c5 5.O-O Nc6 6.b3 e6 7.Bb2 Be7 8.h3 
-Bxf3 9.Bxf3 d4 10.Qe1 Qb6 11.Rb1 Nb4 12.Qe2 Rd8 13.a3 Nbd5 14.Kh1 dxe3 
-15.dxe3 h5 16.c4 Nc7 17.b4 cxb4 18.axb4 Bxb4 19.Bd4 Rxd4 20.exd4 a5 21.
-c5 Qa7 22.Qe5 Ncd5 23.Bxd5 Nxd5 24.Qxg7 Rf8 25.f5 Qa6 26.Qe5 f6 27.Qg3 
-Qc6 28.fxe6 Ne7 29.Qb8+ Qc8 30.Qd6 Qc6 31.Rxb4 axb4 32.Ra1 Nc8 33.Ra8 
-b3 34.d5 1-0
-
-[Event "?"]
-[Site "New York m"]
-[Date "1859.??.??"]
-[Round "6"]
-[White "Morphy,P"]
-[Black "Thompson,J (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.f4 f5 2.Nf3 Nf6 3.e3 e6 4.Be2 Be7 5.O-O b6 6.b3 d5 7.Bb2 Ba6 8.c4 O-O 
-9.Rc1 c5 10.Qe1 Nc6 11.Ng5 Qd7 12.cxd5 Bxe2 13.dxc6 Qxc6 14.Qxe2 Rad8 
-15.Rfd1 h6 16.Nf3 Rd5 17.Ne5 Qe8 18.d3 Bd6 19.e4 fxe4 20.dxe4 Rxd1+ 21.
-Rxd1 Bc7 22.g3 b5 23.Kg2 Qa8 24.Nd7 Nxe4 25.Nxf8 Nc3+ 26.Qf3 Qxf3+ 27.
-Kxf3 Nxd1 28.Nxe6 Bb6 29.Bxg7 c4 30.bxc4 bxc4 31.Bd4 Kf7 32.Bxb6 axb6 
-33.Nd4 Nc3 34.a3 Nb1 35.Nc2 b5 36.Ke3 Kf6 37.g4 Nc3 38.h4 Nd5+ 39.Ke4 
-Nc3+ 40.Kf3 Nb1 41.g5+ hxg5 42.fxg5+ Kg6 43.Kg4 c3 44.h5+ Kg7 45.Kf5 
-Nxa3 46.h6+ Kh8 47.Nxa3 b4 48.g6 bxa3 49.Kf6 Kg8 50.h7+ Kh8 51.Kf7 1-0
-
-[Event "?"]
-[Site "New York m"]
-[Date "1859.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Thompson,J ( ) (odds)"]
-[Result "1-0"]
-[FEN "4k3/pp2n1K1/6RP/8/8/1b6/8/8 w - - 0 1"]
-
-1.Re6 Bxe6 2.h7 1-0
 
 [Event "?"]
 [Site "Paris"]
@@ -11149,57 +8884,6 @@ Kc8 20.Nc5+ Kb8 21.Nd7+ Kc8 22.Nb6+ Kb8 23.Qc8+ Rxc8 24.Nd7# 1-0
 [Site "Paris"]
 [Date "1859.??.??"]
 [Round "?"]
-[White "Ehrmann,A"]
-[Black "Morphy,P (odds)"]
-[Result "1/2-1/2"]
-[FEN "rnbqkbnr/ppppp1pp/8/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"]
-
-2.d4 e6 3.Bd3 c5 4.dxc5 Qa5+ 5.c3 Qxc5 6.Ne2 Nc6 7.Be3 Qh5 8.f4 Nf6 9.
-Ng3 Qh4 10.Qe2 Ng4 11.Bf2 Nxf2 12.Qxf2 Bd6 13.e5 Bc7 14.Ne4 Qe7 15.Nbd2 
-O-O 16.Qg3 d5 17.Ng5 h6 18.Ngf3 Qf7 19.O-O Bd7 20.Nh4 Ne7 21.Bc2 Nf5 
-22.Nxf5 exf5 23.Rae1 b5 24.Kh1 Bb6 25.Qd3 a6 26.Bb3 Be6 27.Nf3 Rfb8 28.
-Nh4 Bd8 29.Nf3 Bb6 30.Bc2 g6 31.Re2 d4 32.b3 dxc3 33.Nh4 b4 34.g4 Rd8 
-35.Qg3 Kh7 36.gxf5 gxf5 37.Qh3 Rf8 38.Rg2 Rad8 39.Nf3 Rg8 40.Ng5+ Rxg5 
-41.fxg5 Qf8 42.gxh6 Rd2 43.Rxd2 cxd2 44.Qg2 Qxh6 45.Qb7+ Qg7 46.Qxg7+ 
-Kxg7 47.Kg2 Bd4 48.Rd1 Bd5+ 49.Kh3 Be3 50.Bxf5 Bf3 51.Bg4 Bxd1 52.Bxd1 
-Bf4 53.e6 Kf6 54.Bg4 d1=Q 55.Bxd1 Kxe6 56.Kg2 Ke5 1/2-1/2
-
-[Event "?"]
-[Site "Paris"]
-[Date "1859.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Delannoy,A (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e6 2.f4 d5 3.e5 c5 4.Nf3 Nc6 5.c3 Qb6 6.Bd3 d4 7.Qe2 Nh6 8.b3 Bd7 
-9.Bb2 Be7 10.g4 O-O 11.h3 Qd8 12.O-O-O Kh8 13.Bc2 Nb8 14.cxd4 Bc6 15.f5 
-exf5 16.gxf5 cxd4 17.f6 d3 18.fxg7+ Kxg7 19.Rhg1+ Kh8 20.Bxd3 Bxf3 21.
-Qxf3 Qc8+ 22.Kb1 Qe6 23.Qe4 Nf5 24.Bc4 Qc8 25.Bxf7 Rxf7 26.e6+ Rf6 27.
-Qxf5 Qf8 28.Rdf1 Nc6 29.Qxf6+ Bxf6 30.Rxf6 Qg7 1-0
-
-[Event "?"]
-[Site "Paris"]
-[Date "1859.??.??"]
-[Round "?"]
-[White "Devinck,F"]
-[Black "Morphy,P (odds)"]
-[Result "1/2-1/2"]
-[FEN "rnbqkbnr/ppppp1pp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
-
-1.e4 e6 2.d4 d5 3.exd5 exd5 4.c4 Nf6 5.Nc3 Bb4 6.Bd3 Nc6 7.a3 Bxc3+ 8.
-bxc3 O-O 9.Ne2 Be6 10.cxd5 Bxd5 11.O-O Na5 12.h3 a6 13.Ng3 g6 14.Bg5 
-Qd7 15.Qc2 b5 16.Rab1 Nc4 17.Bxc4 Bxc4 18.Rfe1 Rae8 19.Re5 Rxe5 20.dxe5 
-Nd5 21.Re1 Qe6 22.Qd2 Re8 23.Qd4 Kh8 24.Ne4 Kg8 25.Nf6+ Nxf6 26.Bxf6 
-Bd5 27.Qh4 a5 28.Qh6 Qf7 29.Re3 c5 30.Rg3 Be4 31.h4 Rb8 32.h5 b4 33.
-cxb4 cxb4 34.axb4 axb4 35.hxg6 Bxg6 36.Qd2 b3 37.Qb2 Qc4 38.Rc3 Qxc3 
-39.Qxc3 b2 40.Qc4+ Bf7 41.Qg4+ Bg6 42.Qe6+ 1/2-1/2
-
-[Event "?"]
-[Site "Paris"]
-[Date "1859.??.??"]
-[Round "?"]
 [White "Morphy,P(bl_sim)"]
 [Black "Bousserolles,A"]
 [Result "1-0"]
@@ -11320,44 +9004,6 @@ Nec6 9.Qd2 Be7 10.O-O O-O 11.Rad1 Nd7 12.Nd4 Nxd4 13.Bxd4 f5 14.exf5
 Bxf5 15.Bc4+ Kh8 16.Nd5 Nf6 17.Nxe7 Qxe7 18.Rfe1 Qd7 19.Qg5 h6 20.Qh4 
 Rae8 21.c3 Re4 22.Rxe4 Nxe4 23.Qxh6+ Bh7 24.Re1 c5 25.Rxe4 cxd4 26.Qh5 
 g6 27.Qh6 Re8 28.Qf4 Kg7 29.Rxe8 Qxe8 30.Qxd4+ 1-0
-
-[Event "?"]
-[Site "Philadelphia"]
-[Date "1859.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Thomas,W (odds)"]
-[Result "1/2-1/2"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Nf3 d6 3.d4 f5 4.Bc4 fxe4 5.Nxe5 dxe5 6.Qh5+ g6 7.Qxe5+ Qe7 
-8.Bb5+ Bd7 9.Qxh8 Bxb5 10.Qxg8 Qb4+ 11.Bd2 Qc4 12.Qxc4 Bxc4 13.b3 Ba6 
-14.c4 Nc6 15.d5 Nd4 16.O-O-O Ba3+ 17.Kb1 c6 18.Bc1 Bxc1 19.Rxd4 Bg5 20.
-Rxe4+ Kd7 21.dxc6+ bxc6 22.Rd1+ Kc7 23.f4 Bf6 24.Re6 Rd8 25.Kc2 Rxd1 
-26.Kxd1 Bd8 27.Re8 Bc8 28.Rh8 h5 29.Rh7+ Kb6 30.Kd2 Bf5 31.b4 a5 32.a3 
-axb4 33.axb4 Bf6 34.h3 Bg7 35.Ke3 Bc3 36.c5+ Kb5 37.Rb7+ Kc4 38.Rb6 
-Bxb4 39.Rxc6 Bxc5+ 40.Kf3 Kd4 41.Ra6 Be4+ 42.Kg3 Ke3 43.Re6 Bb4 44.Kh4 
-Kxf4 45.g3+ Kf5 46.Rxe4 Kxe4 47.Kg5 Kf3 48.Kxg6 Kxg3 49.Kxh5 Kxh3
-1/2-1/2
-
-[Event "?"]
-[Site "Philadelphia"]
-[Date "1859.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Thomas,W (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.f4 d5 3.exd5 Qxd5 4.Nf3 e4 5.Ne5 Be6 6.Bc4 Qd6 7.Qe2 Nc6 8.
-Bb5 Nf6 9.b3 Bd7 10.Bb2 Be7 11.O-O-O a6 12.Bc4 Be6 13.d4 exd3 14.Rxd3 
-Bxc4 15.bxc4 Qe6 16.f5 Qxf5 17.Nxc6 bxc6 18.Re3 Qg5 19.h4 Qh6 20.Kb1 
-O-O 21.Rxe7 Rab8 22.Ka1 Qf4 23.Rf1 Qd6 24.Re3 Rfd8 25.Be5 Qd7 26.Bxf6 
-gxf6 27.Rg3+ Kh8 28.Rd3 Qe8 29.Rxd8 Qxd8 30.Qf3 Kg7 31.Qg4+ Kh8 32.Qf4 
-Kg7 33.h5 f5 34.h6+ Kh8 35.c3 Qf6 36.Qd4 Qxd4 37.cxd4 Rb4 38.Rxf5 Rxc4 
-39.Rxf7 Kg8 40.Rg7+ Kf8 41.Rxh7 Rxd4 42.Rxc7 Rd1+ 43.Kb2 Rd2+ 44.Kb3 
-Rxg2 45.a4 a5 46.h7 Rh2 47.Kc4 Rh5 48.Ra7 Rh4+ 49.Kc5 Rh5+ 50.Kxc6 Rh6+ 
-51.Kb5 Rh5+ 52.Kb6 Rh6+ 53.Kxa5 1-0
 
 [Event "?"]
 [Site "Philadelphia (player 1)"]
@@ -11670,53 +9316,6 @@ Qd2 58.g7 Qe1+ 59.Kg4 Qg1+ 60.Kf5 Qc5+ 61.Kf6 Qd4+ 62.Ke7 Qc5+ 63.Kd7
 Qd4+ 64.Kc8 1-0
 
 [Event "?"]
-[Site "Paris"]
-[Date "1863.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "St.Leon,C (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.f4 exf4 3.Nf3 g5 4.Bc4 g4 5.d4 gxf3 6.Qxf3 Bh6 7.O-O Qf6 8.e5 
-Qg7 9.Bxf4 Bxf4 10.Qxf4 Nh6 11.Rf3 Rg8 12.Rg3 Qf8 13.Rxg8 Nxg8 14.Rf1 
-Nh6 15.g4 d6 16.e6 f6 17.g5 Qg7 18.Qxf6 Qxf6 19.Rxf6 Ng8 20.Rf7 c6 21.
-Rg7 Ne7 22.Rxh7 Kd8 23.Rh8+ Kc7 24.Re8 d5 25.Rxe7+ Kd6 26.Re8 dxc4 27.
-Rxc8 Kxe6 28.h4 Kf5 29.Rg8 1-0
-
-[Event "?"]
-[Site "Paris"]
-[Date "1863.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Maurian,C (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.b3 e5 2.Bb2 Nc6 3.e3 d5 4.g3 f5 5.Nh3 Nf6 6.Bb5 Bd6 7.f4 Qe7 8.O-O 
-O-O 9.c4 a6 10.Bxc6 bxc6 11.fxe5 Bxe5 12.d4 Bd6 13.c5 Qxe3+ 14.Kg2 Be7 
-15.Re1 Ng4 16.Bc1 Qc3 17.Bd2 Qxd4 18.Rxe7 Qxc5 19.Qe2 d4 20.b4 Qd5+ 21.
-Kg1 d3 22.Bc3 Rf7 23.Re8+ Rf8 24.Qe7 Qf7 25.Ng5 Qxe7 26.Rxe7 Nf6 27.
-Rae1 a5 28.Rxc7 Re8 29.Rd1 axb4 30.Bxf6 gxf6 31.Nxh7 Re6 32.Rxd3 Ba6 
-33.Rdd7 Bc4 34.a4 bxa3 35.Rg7+ Kh8 36.Nf8 1-0
-
-[Event "?"]
-[Site "Havana"]
-[Date "1864.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Medina,A (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e6 2.f4 d5 3.e5 Bc5 4.d4 Bb6 5.Be3 Ne7 6.Nf3 Nf5 7.Bf2 Qe7 8.c3 c5 
-9.g4 Nh6 10.Bh4 Qc7 11.h3 Nc6 12.Be2 cxd4 13.cxd4 Ba5+ 14.Kf2 Bd7 15.a3 
-Qc8 16.b4 Bd8 17.Bg3 Bb6 18.Rc1 Qd8 19.Kg2 f6 20.Bh4 Qe7 21.Rf1 Qf7 22.
-Kh2 Ng8 23.Qd2 Nge7 24.g5 f5 25.g6 Nxg6 26.Ng5 Qg8 27.Bh5 Kf8 28.Rxc6 
-bxc6 29.b5 c5 30.dxc5 Bxc5 31.Rc1 Be7 32.Rc7 Be8 33.Bxg6 hxg6 34.Rxe7 
-Rxh4 35.Qb4 Rxh3+ 36.Nxh3 1-0
-
-[Event "?"]
 [Site "Havana (player 1)"]
 [Date "1864.??.??"]
 [Round "?"]
@@ -11772,21 +9371,6 @@ Nxf6 Rxg2+ 27.Kf1 Rg7 28.Re8+ Rxe8 29.Qxe8+ Bg8 30.h4 h6 31.Qf8 h5 32.
 Nxg8 Kh7 33.Nf6+ Kh6 34.Ne8 Kg6 35.Qf6+ Kh7 36.Qxg7# 1-0
 
 [Event "?"]
-[Site "New Orleans"]
-[Date "1864.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Maurian,C (odds)"]
-[Result "0-1"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Bc5 6.O-O d6 7.d4 exd4 8.
-cxd4 Bb6 9.Bb2 Bg4 10.Bb5 Kf8 11.Bxc6 bxc6 12.h3 h5 13.Qd3 Bxf3 14.Qxf3 
-Rh6 15.a4 a5 16.Rac1 Ne7 17.Qe3 f5 18.Qg5 fxe4 19.Rfe1 Nd5 20.Qf5+ Nf6 
-21.Rxe4 Qd7 22.Re6 Qf7 23.d5 Nxd5 24.Bxg7+ Kxg7 25.Qxf7+ Kxf7 26.Rxh6 
-Nf6 27.g4 hxg4 28.hxg4 Nxg4 29.Rh7+ Kg6 30.Rh3 Bxf2+ 0-1
-
-[Event "?"]
 [Site "New Orleans 1864?"]
 [Date "1864.??.??"]
 [Round "?"]
@@ -11799,99 +9383,6 @@ Nf6 27.g4 hxg4 28.hxg4 Nxg4 29.Rh7+ Kg6 30.Rh3 Bxf2+ 0-1
 cxd4 Bb6 9.d5 Ne5 10.Nxe5 dxe5 11.Bb2 Qe7 12.Qb3 Nf6 13.Kh1 Ng4 14.Qg3 
 Qc5 15.Bb3 Nxf2+ 16.Rxf2 Qxf2 17.Qxe5+ Kd8 18.Qxg7 Re8 19.Bf6+ Kd7 20.
 Qxf7+ Kd6 21.e5+ Rxe5 22.Qf8+ 1-0
-
-[Event "?"]
-[Site "?"]
-[Date "1865.??.??"]
-[Round "?"]
-[White "N.N."]
-[Black "Morphy,P (odds)"]
-[Result "0-1"]
-[FEN "r1bqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Bc4 Bc5 3.Nf3 d6 4.b4 Bxb4 5.c3 Bc5 6.Qb3 Qf6 7.O-O Nh6 8.d4 
-Bb6 9.dxe5 Qg6 10.Ng5 O-O 11.e6 fxe6 12.Bxe6+ Kh8 13.Bxc8 Raxc8 14.Qe6 
-Qh5 15.Nf3 Ng4 16.h3 Nxf2 17.Rxf2 Rce8 18.Qd5 Qxd5 19.exd5 Re2 20.Kh2 
-Bxf2 21.Nbd2 Be3 22.Nc4 Bxc1 23.Rxc1 Rxf3 0-1
-
-[Event "?"]
-[Site "New Orleans"]
-[Date "1866.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Maurian,C (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Bc5 6.O-O d6 7.d4 exd4 8.
-cxd4 Bb6 9.d5 Na5 10.e5 Nxc4 11.Qa4+ Qd7 12.Qxc4 Ne7 13.Re1 dxe5 14.
-Nxe5 Qxd5 15.Qa4+ Bd7 16.Nxd7 Qxd7 17.Rxe7+ Kxe7 18.Ba3+ Ke8 19.Re1+ 
-Be3 20.Qb3 Kd8 21.Qxb7 Rc8 22.fxe3 Qd3 23.Bb4 f5 24.Re2 Re8 25.Rd2 Rxe3 
-26.Rxd3+ Rxd3 27.Be7+ Kd7 28.Qb5+ 1-0
-
-[Event "?"]
-[Site "New Orleans"]
-[Date "1866.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Maurian,C (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Bc5 6.O-O d6 7.d4 exd4 8.
-cxd4 Bb6 9.d5 Na5 10.e5 Nxc4 11.Qa4+ Bd7 12.Qxc4 Ne7 13.e6 fxe6 14.dxe6 
-Bc6 15.Bg5 h6 16.Qh4 Bxf3 17.gxf3 d5 18.f4 Bd4 19.Rad1 c5 20.f5 Qd6 21.
-Rfe1 g6 22.Rxd4 cxd4 23.f6 Nf5 24.Qh3 Rc8 25.f7+ Kf8 26.Bf6 Qf4 27.Bxh8 
-Rc6 28.Qxf5 Qxf5 29.e7+ Kxf7 30.e8=Q# 1-0
-
-[Event "?"]
-[Site "New Orleans"]
-[Date "1866.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Maurian,C (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.O-O Nf6 7.d4 O-O 8.Qc2 
-exd4 9.cxd4 d5 10.exd5 Ne7 11.Ba3 Bf5 12.Qa4 Bb6 13.Rfe1 Ne4 14.Bxe7 
-Qxe7 15.Bd3 Rae8 16.Qc2 Qb4 17.Bxe4 Bxe4 18.Rxe4 f5 19.a3 Qa5 20.Rxe8 
-Rxe8 21.Qxf5 Bxd4 22.Rb1 Re2 23.Qc8+ Kf7 24.Qg4 Rb2 25.Qe6+ Kf8 26.Rxb2 
-Bxb2 27.Ng5 1-0
-
-[Event "?"]
-[Site "New Orleans"]
-[Date "1866.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Maurian,C (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Bc5 6.O-O d6 7.d4 exd4 8.
-cxd4 Bb6 9.d5 Na5 10.e5 Nxc4 11.Qa4+ Bd7 12.Qxc4 Bf5 13.Re1 Ne7 14.Bg5 
-dxe5 15.Bxe7 Qxe7 16.Rxe5 Qxe5 17.Nxe5 O-O 18.g4 Rae8 19.Re1 Bc8 20.Kg2 
-f5 21.g5 f4 22.Nf3 Rd8 23.d6+ Kh8 24.Ne5 f3+ 25.Kg3 1-0
-
-[Event "?"]
-[Site "New Orleans"]
-[Date "1867.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Maurian,C (odds)"]
-[Result "1/2-1/2"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Bc5 6.O-O d6 7.d4 exd4 8.
-cxd4 Bb6 9.d5 Na5 10.e5 Nxc4 11.Qa4+ Qd7 12.Qxc4 Ne7 13.Re1 Qg4 14.Re4 
-Qg6 15.exd6 cxd6 16.Qe2 Bd8 17.Nh4 Qf6 18.Bb2 Qg5 19.Qb5+ Kf8 20.Rae1 
-a6 21.Qe2 Bd7 22.Nf3 Qxd5 23.Rxe7 Be6 24.Bxg7+ Kxe7 25.Rd1 Qxa2 26.Qe4 
-Bc7 27.Qh4+ Kd7 28.Ne5+ Ke8 29.Ng4 Bd8 30.Nf6+ Bxf6 31.Bxf6 Rg8 32.Qb4 
-Qc2 33.Qxd6 Rxg2+ 34.Kxg2 Qc6+ 35.Qxc6+ bxc6 36.Kg3 Bd5 37.Kf4 Kd7 38.
-Rg1 Re8 39.Rg7 Re2 40.Rxh7 Rxf2+ 41.Ke5 a5 42.Rh8 a4 43.Ra8 Bb3 44.h4 
-Re2+ 45.Kf4 Rg2 46.Ke5 Re2+ 47.Kf4 Bd1 48.Rd8+ Ke6 49.Rxd1 Kxf6 50.Rd6+ 
-Kg7 51.Rxc6 a3 52.Ra6 Ra2 53.Kg5 Ra1 54.Ra7 a2 55.Kh5 Kf6 56.Kh6 Rh1 
-57.Ra6+ Ke5 58.Rxa2 Rxh4+ 59.Kg5 Re4 60.Rf2 1/2-1/2
 
 [Event "?"]
 [Site "New Orleans"]
@@ -11923,97 +9414,9 @@ c4 53.Rh7+ Kf8 54.Kd2 Rf3 55.Rc7 Rd3+ 56.Kc2 Rd4 57.Rh7 Rg4 58.Kc3 Rg6
 [Result "1-0"]
 [FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
 
-1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Bc5 6.O-O d6 7.d4 exd4 8.
-cxd4 Bb6 9.d5 Ne5 10.Nxe5 dxe5 11.Bb2 Qf6 12.Bb5+ Kf8 13.Kh1 Nh6 14.Be2 
-Qf4 15.f3 f6 16.Rc1 Nf7 17.Rc3 Qh6 18.Ba3+ Ke8 19.Qc2 Bd7 20.Rb1 Qg6 
-21.Bb5 f5 22.Bxd7+ Kxd7 23.Qa4+ c6 24.dxc6+ bxc6 25.exf5 Qf6 26.Rd1+ 
-Bd4 27.f4 Kc7 28.fxe5 Nxe5 29.Rxd4 Rhd8 30.Qa5+ Kc8 31.Qa6+ Kc7 32.Rb3 
-Rdb8 33.Qa5+ Kc8 34.Bd6 1-0
-
-[Event "?"]
-[Site "New Orleans"]
-[Date "1869.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Maurian,C (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.Nf3 d5 3.exd5 e4 4.Qe2 Be7 5.Qxe4 Nf6 6.Qa4+ Bd7 7.Qb3 Bg4 
-8.Ne5 O-O 9.Bc4 Bh5 10.d4 Re8 11.O-O Ne4 12.Qxb7 Nd7 13.Nc6 Qc8 14.Qxc8 
-Raxc8 15.Ba6 Rb8 16.Nxb8 Nxb8 17.Bb5 Rd8 18.Re1 f5 19.f3 Bb4 20.c3 Nxc3 
-21.bxc3 Bxc3 22.Bf4 Bxd4+ 23.Kh1 Bxa1 24.Rxa1 Bf7 25.Bxc7 Rxd5 26.Bc4
-1-0
-
-[Event "?"]
-[Site "New Orleans"]
-[Date "1869.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Maurian,C (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.f4 exf4 3.Nf3 g5 4.Bc4 g4 5.d4 gxf3 6.Qxf3 d6 7.O-O Be6 8.d5 
-Bc8 9.Bxf4 Qd7 10.e5 Qg4 11.Qe3 Be7 12.exd6 cxd6 13.Rae1 h5 14.Bxd6 Qd7 
-15.Bxe7 Nxe7 16.Bb5 1-0
-
-[Event "?"]
-[Site "New Orleans"]
-[Date "1869.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Maurian,C (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
 1.f4 e6 2.Nf3 g6 3.e3 Bg7 4.Be2 Ne7 5.O-O f5 6.Qe1 b6 7.d3 Bb7 8.c3 
 Nbc6 9.e4 fxe4 10.dxe4 O-O 11.Qg3 Qe8 12.Be3 e5 13.fxe5 Nd8 14.Bc4+ Kh8 
 15.Ng5 Bh6 16.Qh4 Kg7 17.Ne6+ Nxe6 18.Bxh6+ Kh8 19.Bxe6 1-0
-
-[Event "?"]
-[Site "New Orleans"]
-[Date "1869.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Maurian,C (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.b3 e5 2.Bb2 Nc6 3.e3 d5 4.g3 Nf6 5.Bg2 Be7 6.Ne2 Be6 7.O-O O-O 8.f4 
-exf4 9.Nxf4 Ne4 10.d3 Bf6 11.dxe4 Bxb2 12.Rb1 dxe4 13.Nxe6 Qe7 14.Nxf8 
-Rd8 15.Qh5 Qe5 16.Qxf7+ Kh8 17.Nd7 1-0
-
-[Event "?"]
-[Site "New Orleans"]
-[Date "1869.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Maurian,C (odds)"]
-[Result "0-1"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.b3 e5 2.Bb2 Nc6 3.e3 d5 4.g3 f5 5.Nh3 Nf6 6.Bg2 Be7 7.O-O O-O 8.Rc1 
-e4 9.f3 Ne8 10.d4 Bf6 11.c4 Ne7 12.cxd5 Nxd5 13.Qe2 Nd6 14.Ba3 Re8 15.
-fxe4 Nxe4 16.Kh1 Kh8 17.Nf4 Nxf4 18.gxf4 Be6 19.Bxe4 fxe4 20.Rg1 Bd5 
-21.Qg4 c6 22.Rg3 g6 23.f5 Qd7 24.Rf1 gxf5 25.Qh5 Rg8 26.Rxf5 Bf7 27.Qh3 
-Be6 28.Qh6 Bg7 29.Rxg7 Qxg7 30.Qxg7+ Rxg7 31.Rf2 Rag8 0-1
-
-[Event "?"]
-[Site "New Orleans"]
-[Date "1869.??.??"]
-[Round "?"]
-[White "Morphy,P"]
-[Black "Maurian,C (odds)"]
-[Result "1-0"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR w KQkq - 0 1"]
-
-1.e4 e5 2.f4 exf4 3.Nf3 g5 4.Bc4 Bg7 5.c3 h6 6.Qb3 Qe7 7.d4 d6 8.O-O c6 
-9.Bd2 Be6 10.d5 Bg4 11.e5 cxd5 12.Bxd5 Nc6 13.exd6 Qd7 14.Rae1+ Kf8 15.
-Nd4 Nxd4 16.cxd4 Bxd4+ 17.Kh1 Bc5 18.Qc3 Qxd6 19.Qxh8 Qxd5 20.Bc3 Be3 
-21.Rxe3 fxe3 22.Bb4+ Ke8 23.Qxg8+ Kd7 24.Rxf7+ Kc6 25.Rc7+ 1-0
-
-
 
 [Event "New Orleans"]
 [Site "New Orleans"]

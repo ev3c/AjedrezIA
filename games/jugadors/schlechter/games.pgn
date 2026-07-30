@@ -1,4 +1,4 @@
-﻿[Event "?"]
+[Event "?"]
 [Site "Vienna"]
 [Date "1893.??.??"]
 [Round "?"]
@@ -242,17 +242,6 @@ c5 10. Ne5 cxd4 11. exd4 dxc4 12. Bxc4 Ne4 13. Bxe7 Qxe7 14. Nxe4 Bxe4
 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. d3 Nf6 6. d4 Be7 7. Bd3 O-O 8. O-O Bg4 
 9. Bg5 Nc6 10. c3 Nd5 11. Be3 Bf6 12. Nbd2 Re8 13. Re1 Nde7 14. Qc2 Ng6 
 15. h3 Bxf3 16. Nxf3 d5 17. Bxg6 hxg6 18. Bf4 Qd7 1/2-1/2
-
-[Event "?"]
-[Site "Leipzig"]
-[Date "1894.??.??"]
-[Round "12"]
-[White "Scheve, T."]
-[Black "Schlechter, C."]
-[Result "0-1"]
-[ECO "B00"]
-
-{source: "LEIPZIG 1894", The Chess Player 1982, p44. 0-1, forfeit.} 0-1
 
 [Event "?"]
 [Site "Leipzig"]
@@ -1887,26 +1876,6 @@ Qc3+ 48. Kg4 Qxb4+ 49. Kg5 Qe7+ 50. Kh6 Qxf8+ 51. Kh7 Qf5 52. Rh6 Qxc2
 [Event "?"]
 [Site "Cologne"]
 [Date "1898.??.??"]
-[Round "01"]
-[White "Heinrichsen, A."]
-[Black "Schlechter, C."]
-[Result "1/2-1/2"]
-
-{Score missing} 1/2-1/2
-
-[Event "?"]
-[Site "Cologne"]
-[Date "1898.??.??"]
-[Round "02"]
-[White "Schlechter, C."]
-[Black "Burn, A."]
-[Result "1/2-1/2"]
-
-{Score missing} 1/2-1/2
-
-[Event "?"]
-[Site "Cologne"]
-[Date "1898.??.??"]
 [Round "03"]
 [White "Charousek, R."]
 [Black "Schlechter, C."]
@@ -1940,66 +1909,6 @@ Qxg6+ Kh8 29. Bf4 Bc7 30. Qh6+ $2 1-0
 [Event "?"]
 [Site "Cologne"]
 [Date "1898.??.??"]
-[Round "05"]
-[White "Fritz, A."]
-[Black "Schlechter, C."]
-[Result "0-1"]
-
-{Score missing} 0-1
-
-[Event "?"]
-[Site "Cologne"]
-[Date "1898.??.??"]
-[Round "06"]
-[White "Schlechter, C."]
-[Black "Schallop, E."]
-[Result "1-0"]
-
-{Score missing} 1-0
-
-[Event "?"]
-[Site "Cologne"]
-[Date "1898.??.??"]
-[Round "07"]
-[White "Schiffers, E."]
-[Black "Schlechter, C."]
-[Result "1/2-1/2"]
-
-{Score missing} 1/2-1/2
-
-[Event "?"]
-[Site "Cologne"]
-[Date "1898.??.??"]
-[Round "08"]
-[White "Berger, J."]
-[Black "Schlechter, C."]
-[Result "1/2-1/2"]
-
-{Score missing} 1/2-1/2
-
-[Event "?"]
-[Site "Cologne"]
-[Date "1898.??.??"]
-[Round "09"]
-[White "Schlechter, C."]
-[Black "Albin, A."]
-[Result "1/2-1/2"]
-
-{Score missing} 1/2-1/2
-
-[Event "?"]
-[Site "Cologne"]
-[Date "1898.??.??"]
-[Round "10"]
-[White "Showalter, J."]
-[Black "Schlechter, C."]
-[Result "1/2-1/2"]
-
-{Score missing} 1/2-1/2
-
-[Event "?"]
-[Site "Cologne"]
-[Date "1898.??.??"]
 [Round "11"]
 [White "Schlechter, C."]
 [Black "Steinitz, W."]
@@ -2011,26 +1920,6 @@ Qxg6+ Kh8 29. Bf4 Bc7 30. Qh6+ $2 1-0
 Rad1 Be7 13. c5 $2 dxc5 14. Qg3 Bd6 15. Qxg7 Ke7 16. Nf4 Rg8 $2 17. 
 Ng6+ $1 Kd7 18. Rxd6+ Kxd6 19. Rd1+ Bd5 20. Qxe5+ Kd7 21. Nxd5 cxd5 
 22. Rxd5+ Kc6 23. Ne7+ Kb6 24. Rd6+ 1-0
-
-[Event "?"]
-[Site "Cologne"]
-[Date "1898.??.??"]
-[Round "12"]
-[White "Chigorin, M."]
-[Black "Schlechter, C."]
-[Result "1/2-1/2"]
-
-{Score missing} 1/2-1/2
-
-[Event "?"]
-[Site "Cologne"]
-[Date "1898.??.??"]
-[Round "13"]
-[White "Schlechter, C."]
-[Black "Cohn, W."]
-[Result "1/2-1/2"]
-
-{Score missing} 1/2-1/2
 
 [Event "?"]
 [Site "Cologne"]
@@ -4575,19 +4464,6 @@ Qxd5 g6 19. Bd2 c6 20. Qxc6 Rc8 21. Qa4 b5 22. Qxb5 Nd6 23. Qa4 Rc4
 [Event "?"]
 [Site "Monte Carlo"]
 [Date "1902.??.??"]
-[Round "16"]
-[White "Schlechter, C."]
-[Black "Albin, A."]
-[Result "1/2-1/2"]
-[SetUp "1"]
-[FEN "Rn6/1r6/2p2b2/2Pp1ppk/1P1P4/2NNP1P1/8/6K1 w - - 0 1"]
-
-1. b5 Kg4 2. Kg2 f4 3. gxf4 gxf4 4. Nxf4 Bxd4 5. exd4 Kxf4 6. b6 Ke3 
-7. Nxd5+ Kxd4 8. Ra7 Rd7 1/2-1/2
-
-[Event "?"]
-[Site "Monte Carlo"]
-[Date "1902.??.??"]
 [Round "17"]
 [White "Schlechter, C."]
 [Black "Von Popiel, I."]
@@ -4635,16 +4511,6 @@ Rd8 axb3 38. Rb8 Kd6 39. Rxb6+ Kc7 40. Rxb3 Bc6 41. Ra3 Bb7 42. Ra5 Kd6
 43. Rb5 Bg2 44. Rb6+ Kc7 45. Rf6 Bb7 46. h4 Ba8 47. Rf7 Kd6 48. Rxe7 
 Kxe7 49. Nd3 Kd6 50. Nf2 Bg2 51. Ne4+ Kc6 52. Ke5 Bf1 53. Nd2 Bd3 54. 
 Kf6 Kd6 55. Kg7 Ke5 56. Kxh7 Kf4 57. Nb3 1-0
-
-[Event "?"]
-[Site "Monte Carlo"]
-[Date "1902.??.??"]
-[Round "20"]
-[White "Wolf, H."]
-[Black "Schlechter, C."]
-[Result "1/2-1/2"]
-
-{Drawn by mutual agreement.} 1/2-1/2
 
 [Event "?"]
 [Site "Monte Carlo"]
@@ -6388,16 +6254,6 @@ Kd8 25. Nxf8 1-0
 [Event "?"]
 [Site "Vienna"]
 [Date "1904.??.??"]
-[Round "09"]
-[White "Vidmar, M."]
-[Black "Schlechter, C."]
-[Result "0-1"]
-
-{Forfeit - game not played} 0-1
-
-[Event "?"]
-[Site "Vienna"]
-[Date "1904.??.??"]
 [Round "10"]
 [White "Wolf, H."]
 [Black "Schlechter, C."]
@@ -6410,16 +6266,6 @@ Bxf3 14. Bxf3 g5 15. a4 Nf6 16. Qb3 Nbd5 17. c4 Nb4 18. Bd2 Qxd4+ 19.
 Rf2 Nd3 20. Qxb7+ Kd7 21. Qc6+ Ke7 22. Bc3 Qxf2+ 23. Kh1 Rd6 24. Qxc7+ 
 Nd7 25. Bxh8 Qe3 26. h3 g4 27. Bc6 Nf2+ 28. Kg1 Nd1+ 29. Kh1 Qe1+ 30. 
 Kh2 g3# 0-1
-
-[Event "?"]
-[Site "Vienna"]
-[Date "1904.??.??"]
-[Round "11"]
-[White "Schlechter, C."]
-[Black "Loewy Jr, L."]
-[Result "1-0"]
-
-{Forfeit - game not played} 1-0
 
 [Event "?"]
 [Site "Vienna"]
@@ -6451,16 +6297,6 @@ Bd6 8. Nf3 Nxe4 9. Be2 O-O 10. O-O c5 11. Nbd2 cxd4 12. Nxe4 Qxe4 13.
 Bd3 Qg4 14. Nxd4 Qxd1 15. Rxd1 Bc5 16. Be3 Nc6 17. Nf5 Bxe3+ 18. Nxe3 
 Be6 19. Be4 Rad8 20. b3 Rxd1+ 21. Rxd1 Rd8 22. Rxd8+ Nxd8 23. Nc2 f5 
 24. Bf3 Kf7 25. Nd4 Bd7 1/2-1/2
-
-[Event "?"]
-[Site "Vienna"]
-[Date "1904.??.??"]
-[Round "14"]
-[White "Marco.G"]
-[Black "Schlechter, C."]
-[Result "0-1"]
-
-{Forfeit - game not played} 0-1
 
 [Event "?"]
 [Site "Vienna"]
@@ -12046,4 +11882,3 @@ Nfd5 20. Bxe7 Kxe7 21. Nd3 Rhe8 22. Nxd5+ Nxd5 23. b4 g6 24. Bc2 f6
 25. Bb3 Red8 26. Ra3 a6 27. Ba4 Rac8 28. e4 Nc7 29. Bxc6 Bxc6 30. Rxc6 
 Nb5 31. Rxc8 Rxc8 32. Rxa6 Nxd4+ 33. Ke3 Nc2+ 34. Kd2 Nd4 35. Ke3 Nc2+ 
 36. Kd2 Nd4 1/2-1/2
-

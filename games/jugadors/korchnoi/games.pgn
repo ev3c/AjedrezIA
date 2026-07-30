@@ -45469,19 +45469,6 @@ Nxd4 8. Nxd4 cxd4 9. O-O-O Ne7 10. Qxd4 Nc6 11. Qg4 O-O 12. Nf3 Bd7
 Nxa2 25. Kxa2 Rc6 26. d4 Qa6+ 27. Kb1 Qf1+ 0-1
 
 [Event "?"]
-[Site "Cannes ,MCL 04"]
-[Date "1986.??.??"]
-[Round "08"]
-[White "Kortchnoi, V."]
-[Black "Andruet, G."]
-[Result "1/2-1/2"]
-[ECO "B00"]
-[WhiteElo "2635"]
-[BlackElo "2410"]
-
-1/2-1/2
-
-[Event "?"]
 [Site "Cannes"]
 [Date "1986.??.??"]
 [Round "09"]
@@ -144926,24 +144913,6 @@ Nc4 37. Re1 h5 38. Ra1 b2 39. Bxb2 Nxb2 40. Ra2 Nd3 41. b6 Rb8 0-1
 
 1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Nxe4 6. d4 b5 7. Bb3 d5 8. dxe5 Be6 9. Nbd2 9... Nc5 10. c3 g6 11. Qe2 Bg7 12. Nd4 Nxe5 13. f4 Nc4 14. f5 gxf5 15. Nxf5 Rg8 16. Nxc4 dxc4 17. Bc2 Nd3 18. Bh6 Bf8 19. Rad1 Qd5 20. Bxd3 cxd3 21. Rxd3 Qc6 22. Bxf8 Qb6+ 23. Kh1 Kxf8 24. Qf3 Re8 25. Nh6 Rg7 26. Rd7 Rb8 27. Nxf7 Bxd7 28. Nd8+ 1-0
 
-[Event "?"]
-[Site "Biel"]
-[Date "1992.??.??"]
-[Round "?"]
-[White "Karpov, A.."]
-[Black "Korchnoi, V.."]
-[Result "1-0"]
-[ECO "E15"]
-[Annotator "Jacob Aagaard"]
-[SetUp "1"]
-[FEN "rn3rk1/pb3ppp/1p2p3/2bn4/3N4/PP4P1/1B2PPBP/RN3RK1 w - - 0 15"]
-[PlyCount "77"]
-[EventDate "1992.??.??"]
-[EventType "team-tourn"]
-[EventCountry "SUI"]
-
-15. Nb5 15... Nc6 16. b4 Be7 17. e4 Nf6 18. e5 Nd5 19. N1c3 Nxc3 20. Bxc3 Nd8 21. Bxb7 21... Nxb7 22. Rfd1 Rfd8 23. Rxd8+ Bxd8 24. Rd1 a6 25. Rd7 axb5 26. Rxb7 Kf8 27. Bd4 Ra6 28. h4 h5 29. Kf1 Ke8 30. Ke2 Kf8 31. Rb8 Ke8 32. Rb7 Kf8 33. Kf1 Ke8 34. Kg2 Kf8 35. Rb8 Ke7 36. Rb7+ Kf8 37. Be3 Ke8 38. Kf1 Kf8 39. Rb8 Ke7 40. Bg5+ f6 41. exf6+ gxf6 42. Bxf6+ Kxf6 43. Rxd8 Rxa3 44. Rh8 Rb3 45. Rxh5 Rxb4 46. Kg2 Kg6 47. Re5 Kf6 48. f4 Rb2+ 49. Kf3 b4 50. Rb5 b3 51. Kg4 Rb1 52. Kh5 b2 53. g4 1-0
-
 [Event "World Championship "]
 [Site "Merano"]
 [Date "1981.??.??"]
@@ -145591,29 +145560,6 @@ Nc4 37. Re1 h5 38. Ra1 b2 39. Bxb2 Nxb2 40. Ra2 Nd3 41. b6 Rb8 0-1
 
 1. c4 e6 2. Nc3 d5 3. d4 Be7 4. cxd5 4... exd5 5. Bf4 c6 6. e3 Bf5 7. g4 Be6 8. h3 8... Nf6 9. Bd3 9... c5 10. Nf3 O-O 11. Kf1 11... Nc6 12. Kg2 Rc8 13. Rc1 13... Re8 14. dxc5 Bxc5 15. Nb5 Bf8 16. Nfd4 16... Nxd4 17. Rxc8 Qxc8 18. exd4 18... Qd7 19. Nc7 19... Rc8 20. Nxe6 fxe6 21. Re1 a6 22. g5 Ne4 23. Qg4 23... Bb4 24. Re2 Rf8 25. f3 25... Qf7 26. Be5 26... Nd2 27. a3 27... Nxf3 28. g6 28... hxg6 29. Bg3 29... Be7 30. Rf2 30... Ne1+ 31. Kh1 31... Qxf2 32. Bxf2 Nxd3 33. Qxe6+ Rf7 34. Bg3 Nxb2 35. Qxd5 Bf6 36. Bd6 g5 37. Qb3 37... Bxd4 38. Qe6 g6 39. Qe8+ Kg7 40. Be5+ Bxe5 41. Qxe5+ Kh7 42. Qxb2 1-0
 
-[Event "18"]
-[Site "Wijk aan Zee"]
-[Date "1968.??.??"]
-[Round "8"]
-[White "Korchnoi, V."]
-[Black "Tal, M."]
-[Result "1-0"]
-[ECO "E50"]
-[Annotator "Garry Kasparov"]
-[SetUp "1"]
-[FEN "1rr3k1/1p3ppp/pq2bn2/2Rpn3/1P1N4/2P1P3/1B2BPPP/R2Q2K1 w - - 0 19"]
-[PlyCount "81"]
-[EventDate "1968.??.??"]
-[EventType "game"]
-[EventCountry "NED"]
-[SourceTitle "My Great Predecessors V"]
-[Source "Everyman Chess "]
-[SourceDate "2017.01.01"]
-[SourceVersionDate "2017.01.01"]
-[SourceQuality "1"]
-
-19. Nxe6 fxe6 20. c4 Nxc4 21. Bxf6 gxf6 22. Bxc4 dxc4 23. Qg4+ Kh8 24. Qd4 24... Qd8 25. Qxc4 Rxc5 26. bxc5 Qd7 27. Qf4 Rf8 28. h4 Qd5 29. Rb1 e5 30. Qf5 a5 31. Rb6 a4 32. Rd6 Qf7 33. Rd7 Qg6 34. Qe6 Qb1+ 35. Kh2 Qe4 36. g3 Qc2 37. Kg2 Qe4+ 38. Kf1 Qb1+ 39. Ke2 Qc2+ 40. Kf3 Qxc5 41. Rxb7 Qc8 42. Rd7 Qe8 43. Qxe8 Rxe8 44. Ra7 Rb8 45. h5 Kg8 46. Rxa4 Rb7 47. Kg4 Kg7 48. Ra2 Kh6 49. Kf5 Rb6 50. e4 Rc6 51. f4 exf4 52. gxf4 Rc5+ 53. Kxf6 Kxh5 54. e5 Kg4 55. f5 h5 56. Ra4+ Kg3 57. e6 h4 58. e7 Rc8 59. Kf7 1-0
-
 [Event "Candidates match"]
 [Site "Amsterdam"]
 [Date "1968.??.??"]
@@ -145945,29 +145891,6 @@ Nc4 37. Re1 h5 38. Ra1 b2 39. Bxb2 Nxb2 40. Ra2 Nd3 41. b6 Rb8 0-1
 
 1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Nge2 6... e5 7. Bg5 c6 8. Qd2 Nbd7 9. O-O-O Qa5 10. Kb1 a6 11. Nd5 Qxd2 12. Ne7+ Kh8 13. Rxd2 Nb6 14. dxe5 dxe5 15. c5 Nbd7 16. Be3 Re8 17. Nxc8 Raxc8 18. Nc1 Bf8 19. Nb3 Kg7 20. g3 Rc7 21. Bh3 Be7 22. Rhd1 Nf8 23. Na5 Ne6 24. Bxe6 fxe6 25. Nc4 1-0
 
-[Event "World Championship Match"]
-[Site "Merano"]
-[Date "1981.??.??"]
-[Round "15"]
-[White "Korchnoi, V."]
-[Black "Karpov, A."]
-[Result "1/2-1/2"]
-[ECO "A29"]
-[Annotator "Garry Kasparov"]
-[SetUp "1"]
-[FEN "r4rk1/pp1q1ppp/8/4b3/3p4/1P2P1PP/P4PB1/2RQ1RK1 w - - 0 20"]
-[PlyCount "42"]
-[EventDate "1981.??.??"]
-[EventType "game"]
-[EventCountry "ITA"]
-[SourceTitle "My Great Predecessors V"]
-[Source "Everyman Chess "]
-[SourceDate "2017.01.01"]
-[SourceVersionDate "2017.01.01"]
-[SourceQuality "1"]
-
-20. Rc5 20... Bf6 21. Rd5 21... Qc7 22. exd4 Rad8 23. Qc1 Qb6 24. Rxd8 Rxd8 25. d5 g6 26. Bf3 Kg7 27. Re1 Rd7 28. Qf4 Re7 29. Rxe7 Bxe7 30. Kg2 a5 31. h4 h5 32. Be2 Bc5 33. Bc4 Qf6 34. Qd2 b6 35. a4 Qe5 36. Qd3 Qf6 37. Qd2 Qe5 38. Be2 Qe4+ 39. Bf3 Qe5 40. Bd1 Qe4+ 1/2-1/2
-
 [Event "Candidates final"]
 [Site "Moscow"]
 [Date "1974.??.??"]
@@ -145991,27 +145914,6 @@ Nc4 37. Re1 h5 38. Ra1 b2 39. Bxb2 Nxb2 40. Ra2 Nd3 41. b6 Rb8 0-1
 
 1. d4 Nf6 2. Nf3 e6 3. g3 b6 4. Bg2 Bb7 5. c4 Be7 6. Nc3 O-O 7. Qc2 c5 8. d5 exd5 9. Ng5 9... Nc6 10. Nxd5 g6 11. Qd2 Nxd5 12. Bxd5 Rb8 13. Nxh7 Re8 14. Qh6 Ne5 15. Ng5 Bxg5 16. Bxg5 Qxg5 17. Qxg5 Bxd5 18. O-O 18... Bxc4 19. f4 1-0
 
-[Event "10. Candidates Tournament, Curaçao"]
-[Site "?"]
-[Date "1962.??.??"]
-[Round "12"]
-[White "Korchnoi, V."]
-[Black "Fischer, R."]
-[Result "0-1"]
-[Annotator "Garry Kasparov"]
-[SetUp "1"]
-[FEN "5r2/2q1nnkp/3p2p1/1B1P1p2/1P2p3/4P1P1/Q2N1P1P/R5K1 w - - 0 31"]
-[PlyCount "28"]
-[EventDate "1962.??.??"]
-[EventType "game"]
-[SourceTitle "My Great Predecessors V"]
-[Source "Everyman Chess "]
-[SourceDate "2017.01.01"]
-[SourceVersionDate "2017.01.01"]
-[SourceQuality "1"]
-
-31. Bc6 31... Nxc6 32. Rc1 Qa7 33. Qxa7 Nxa7 34. Rc7 Nb5 35. Rb7 Nc3 36. Nc4 Kf6 37. b5 Ne5 38. Nxd6 Rd8 39. Rb6 Kg5 40. Ra6 Nxd5 41. b6 Nb4 42. Ra4 Rxd6 43. Rxb4 Rd1+ 44. Kg2 Nf3 0-1
-
 [Event "World Ch. , City"]
 [Site "Baguio"]
 [Date "1978.??.??"]
@@ -146028,24 +145930,6 @@ Nc4 37. Re1 h5 38. Ra1 b2 39. Bxb2 Nxb2 40. Ra2 Nd3 41. b6 Rb8 0-1
 
 1. c4 e6 2. Nc3 d5 3. d4 Nf6 4. cxd5 exd5 5. Bg5 Be7 6. e3 O-O 7. Bd3 Nbd7 8. Nf3 Re8 9. Qc2 c6 10. O-O Nf8 11. Bxf6 Bxf6 12. b4 Bg4 13. Nd2 Rc8 14. Bf5 Bxf5 15. Qxf5 Qd7 16. Qxd7 Nxd7 17. a4 Be7 18. Rfb1 Nf6 19. a5 19... a6 20. Na4 Bf8 21. Nc5 Re7 22. Kf1 Ne8 23. Ke2 Nd6 24. Kd3 Rce8 25. Re1 g6 26. Re2 f6 27. Rae1 Bh6 28. Ndb3 Bf8 29. Nd2 Bh6 30. h3 Kf7 31. g4 Bf8 32. f3 Rd8 33. Ndb3 Nb5 34. Rf1 Bh6 35. f4 Bf8 36. Nd2 Nd6 37. Rfe1 h6 38. Rf1 Rb8 39. Ra1 Rbe8 40. Rae1 Rb8 41. e4 dxe4+ 42. Ndxe4 Nb5 43. Nc3 Rxe2 44. Rxe2 Bxc5 45. bxc5 Rd8 46. Nxb5 axb5 47. f5 gxf5 48. gxf5 Rg8 49. Kc3 Re8 50. Rd2 Re4 51. Kb4 Ke8 52. a6 bxa6 53. Ka5 Kd7 54. Kb6 b4 55. d5 cxd5 56. Rxd5+ Kc8 57. Rd3 a5 58. Rg3 b3 59. Kc6 59... Kb8 60. Rxb3+ Ka7 61. Rb7+ Ka6 62. Rb6+ Ka7 63. Kb5 a4 64. Rxf6 Rf4 65. Rxh6 a3 66. Ra6+ Kb8 67. Rxa3 Rxf5 68. Rg3 Rf6 69. Rg8+ Kc7 70. Rg7+ Kc8 71. Rh7 1-0
 
-[Event "?"]
-[Site "Horgen"]
-[Date "1995.??.??"]
-[Round "?"]
-[White "Korchnoi, V.."]
-[Black "Yusupov, A.."]
-[Result "1/2-1/2"]
-[ECO "E11"]
-[Annotator "Jacob Aagaard"]
-[SetUp "1"]
-[FEN "r1b2rk1/1pp1qpp1/p2b1n1p/3Pp3/8/2N3P1/PPQBPPBP/2R2RK1 w - - 0 14"]
-[PlyCount "97"]
-[EventDate "1995.??.??"]
-[EventType "team-tourn"]
-[EventCountry "SUI"]
-
-14. Nd1 14... Bg4 15. e4 c6 16. Ne3 16... cxd5 17. Nxg4 Nxg4 18. exd5 Rae8 19. Rfe1 Nf6 20. Qb3 Qd7 21. Re2 Re7 22. Ba5 Rfe8 23. Bc3 h5 24. Qc4 Qf5 25. Rce1 Rc8 26. Qb3 Rce8 27. Bb4 Qd7 28. Bd2 Bc5 29. Bg5 Qf5 30. h4 e4 31. Qc2 Rc7 32. Bxf6 Qxf6 33. Rxe4 Rxe4 34. Rxe4 g6 35. Qd2 Re7 36. Rc4 Bd6 37. Kh2 Re8 38. f4 Kg7 39. Bf3 Kg8 40. Kg2 Kg7 41. Qc3 Re7 42. Qc2 Re8 43. a3 Kg8 44. Qb3 Re7 45. Rc8+ Kg7 46. Qb6 Rd7 47. Be4 Be7 48. Qxf6+ Kxf6 49. Kf3 Bd6 50. Ke2 Rc7 51. Rd8 Ke7 52. Ra8 Rd7 53. Kf3 f5 54. Bd3 Rd8 55. Ra7 Rd7 56. b4 Bb8 57. Ra8 Rd8 58. Bc4 Kd6 59. a4 Rc8 60. a5 Rxc4 61. Rxb8 Rxb4 62. Rg8 1/2-1/2
-
 [Event "Candidates "]
 [Site "Wijk aan Zee"]
 [Date "1991.??.??"]
@@ -146061,42 +145945,6 @@ Nc4 37. Re1 h5 38. Ra1 b2 39. Bxb2 Nxb2 40. Ra2 Nd3 41. b6 Rb8 0-1
 [EventCountry "NED"]
 
 1. Nf3 Nf6 2. c4 c5 3. Nc3 Nc6 4. d4 cxd4 5. Nxd4 e6 6. a3 6... Nxd4 7. Qxd4 b6 8. Qf4 8... Bb7 9. e4 d6 10. Bd3 10... Be7 11. Qg3 O-O 12. Bh6 Ne8 13. Bd2 13... Rc8 14. O-O Bf6 15. Rac1 g6 16. b3 16... a6 17. Qe3 17... Bg7 18. Na4 Rc6 19. Be2 Nf6 20. Rfd1 20... Nd7 21. Bc3 Qe7 22. Bxg7 Kxg7 23. Nb2 Rd8 24. Rc2 Rcc8 25. Rcd2 Nf6 26. f3 Rb8 27. a4 Qc7 28. Nd3 Ne8 29. Nf2 29... Qc5 30. Qc3+ e5 31. Kf1 b5 32. b4 Qc7 33. axb5 axb5 34. c5 Kg8 35. Bxb5 dxc5 36. Qxc5 36... Rxd2 37. Rxd2 Qxc5 38. bxc5 Nc7 39. Bc4 Ba6 40. Bxa6 Nxa6 41. Nd3 Rd8 42. Ke2 Kf8 43. Rb2 Ke8 44. Ke3 Rc8 45. Ra2 1-0
-
-[Event "133000"]
-[Site "Reykjavik"]
-[Date "1988.??.??"]
-[Round "?"]
-[White "Korchnoi, V.."]
-[Black "Nunn, J.."]
-[Result "0-1"]
-[ECO "E70"]
-[Annotator "Jacob Aagaard"]
-[SetUp "1"]
-[FEN "r1bq1rk1/3nppbp/p2p1np1/1PpP2B1/4PP2/2N5/PP1N2PP/R2QKB1R b KQ - 0 10"]
-[PlyCount "76"]
-[EventDate "1988.??.??"]
-[EventType "game"]
-[EventCountry "ISL"]
-
-10... Nh5 11. Qf3 11... f6 12. Bh4 Nxf4 13. Qxf4 g5 14. Qf2 14... gxh4 15. Qxh4 Ne5 16. Be2 axb5 17. Bxb5 Qa5 18. Qg3 Qb4 19. Rb1 Rxa2 20. Nxa2 Qxb5 21. Nc3 Qa6 22. Kd1 f5 23. Rf1 Rf6 24. exf5 Bxf5 25. Rxf5 Rxf5 26. Kc2 Kh8 27. Nb3 Bh6 28. Ra1 Rf2+ 29. Kb1 Rf1+ 30. Kc2 Rxa1 31. Nxa1 Qxa1 32. Qh3 Qc1+ 33. Kb3 c4+ 34. Ka2 Nd3 35. Qc8+ Kg7 36. Qb7 Bg5 37. Ne4 Bf6 38. Nxd6 Kg6 39. Nc8 c3 40. d6 Qxb2+ 41. Qxb2 cxb2 42. d7 Nb4+ 43. Kb1 Nc6 44. g4 Kg5 45. h3 Kh4 46. Nb6 h6 47. Nd5 Kxh3 48. Kc2 0-1
-
-[Event ""]
-[Site "Brussels"]
-[Date "1991.??.??"]
-[Round "4"]
-[White "Korchnoi, V.."]
-[Black "Timman, J.."]
-[Result "1/2-1/2"]
-[ECO "A19"]
-[Annotator "Jacob Aagaard"]
-[SetUp "1"]
-[FEN "r1b1k2r/1p4pp/p1nppp2/2B2n2/2P5/2N5/PP3PPP/2KR1B1R w kq - 0 17"]
-[PlyCount "53"]
-[EventDate "1991.??.??"]
-[EventType "team-tourn"]
-[EventCountry "BEL"]
-
-17. Bxd6 17... Nxd6 18. Rxd6 Ke7 19. c5 19... Bd7 20. g3 Rac8 21. Bh3 Ne5 22. Rhd1 Rhd8 23. Bg2 Rxc5 24. Bxb7 a5 25. Be4 Ng4 26. R6d2 f5 27. Bg2 Nf6 28. f4 Rb8 29. Re1 h6 30. Rd4 Rb4 31. Red1 g5 32. a3 Rxd4 33. Rxd4 Ng4 34. h4 Ne3 35. Bf3 gxh4 36. gxh4 Bc6 37. Be2 Nd5 38. Kd2 Nxc3 39. bxc3 Be4 40. Rc4 Rd5+ 41. Ke3 Kd6 42. Rc8 Rc5 43. Ba6 1/2-1/2
 
 [Event "ECC"]
 [Site "Rethymnon GRE"]
@@ -146474,116 +146322,6 @@ Nc4 37. Re1 h5 38. Ra1 b2 39. Bxb2 Nxb2 40. Ra2 Nd3 41. b6 Rb8 0-1
 
 1. c4 c5 2. Nf3 Nf6 3. Nc3 Nc6 4. d4 cxd4 5. Nxd4 e6 6. g3 Bc5 7. Nb3 Bb4 8. Bg2 d5 9. cxd5 Nxd5 10. a3 Bxc3+ 11. bxc3 O-O 12. Qc2 Qc7 13. c4 Ne5 14. Nd2 b5 15. c5 Bb7 16. O-O Rac8 17. Nb3 a5 18. Bd2 Nc4 19. e4 19... Ne7 20. a4 Ba6 21. axb5 Bxb5 22. Rfc1 Nc6 23. Bc3 Rfd8 24. Bf1 a4 25. Bxc4 Bxc4 26. Rxa4 Bb5 27. Ra3 Rd3 28. Raa1 h5 29. Nd2 Nd4 30. Bxd4 Rxd4 31. Qc3 Rcd8 32. Nb3 Rxe4 33. Qa5 Qxa5 34. Nxa5 Ra4 35. Rxa4 Bxa4 36. c6 Kf8 37. c7 Rc8 38. Rc5 Ke7 39. Nc4 Bd7 40. Kg2 Rh8 41. Nb6 41... Kd6 42. c8=Q Bxc8 43. Rxc8 Rxc8 44. Nxc8+ Kc7 45. Ne7 45... Kd7 46. Ng8 h4 47. g4 Ke8 48. Kh3 Kf8 49. Nh6 49... gxh6 50. Kxh4 Kg7 51. Kg3 Kg6 52. Kf4 f6 53. h3 1/2-1/2
 
-[Event ""]
-[Site "Moscow"]
-[Date "1974.??.??"]
-[Round "?"]
-[White "Korchnoi, Viktor"]
-[Black "Karpov, Anatoly"]
-[Result "1-0"]
-[WhiteElo "2670"]
-[BlackElo "2700"]
-[Annotator "Mueller,Karsten"]
-[SetUp "1"]
-[FEN "5R2/8/2K5/p4pk1/P7/6p1/8/8 w - - 0 52"]
-[PlyCount "55"]
-[EventDate "1974.??.??"]
-[EventType "game"]
-[EventCountry "RUS"]
-[SourceTitle "Endgame Strategy Muller"]
-[Source "Chess Informant"]
-[SourceDate "2016.08.22"]
-
-52. Rg8+ Kf4 53. Kb5 Kf3 54. Kxa5 f4 55. Kb4 Kg2 56. a5 f3 57. a6 f2 58. a7 f1=Q 59. a8=Q+ Qf3 60. Qa2+ Qf2 61. Qd5+ Qf3 62. Qd2+ 62... Qf2 63. Kc3 Kg1 64. Qd1+ Kg2 65. Qd3 Qc5+ 66. Kb3 Qb6+ 67. Kc2 Qc6+ 68. Kd2 Qh6+ 69. Qe3 Qh4 70. Rb8 Qf6 71. Rb6 71... Qf5 72. Rb2 Kh2 73. Qh6+ Kg1 74. Qb6+ Kh2 75. Qb8 Kh3 76. Qh8+ Kg4 77. Rb4+ Kf3 78. Qh1+ Kf2 79. Rb2 1-0
-
-[Event "City "]
-[Site "Baguio"]
-[Date "1978.??.??"]
-[Round "?"]
-[White "Korchnoi, Viktor"]
-[Black "Karpov, Anatoly"]
-[Result "1-0"]
-[WhiteElo "2665"]
-[BlackElo "2725"]
-[Annotator "Mueller,Karsten"]
-[SetUp "1"]
-[FEN "6r1/1p3k2/2p2p1p/PpP2P2/3P4/3K3P/4R3/8 w - - 0 49"]
-[PlyCount "45"]
-[EventDate "1978.??.??"]
-[EventType "game"]
-[EventCountry "PHI"]
-[SourceTitle "Endgame Strategy Muller"]
-[Source "Chess Informant"]
-[SourceDate "2016.08.22"]
-
-49. Kc3 49... Re8 50. Rd2 Re4 51. Kb4 Ke8 52. a6 bxa6 53. Ka5 Kd7 54. Kb6 b4 55. d5 cxd5 56. Rxd5+ Kc8 57. Rd3 a5 58. Rg3 b3 59. Kc6 Kb8 60. Rxb3+ Ka7 61. Rb7+ Ka6 62. Rb6+ Ka7 63. Kb5 a4 64. Rxf6 Rf4 65. Rxh6 a3 66. Ra6+ Kb8 67. Rxa3 Rxf5 68. Rg3 Rf6 69. Rg8+ Kc7 70. Rg7+ Kc8 71. Rh7 1-0
-
-[Event ""]
-[Site "London"]
-[Date "1983.??.??"]
-[Round "?"]
-[White "Korchnoi, Viktor"]
-[Black "Kasparov, Garry"]
-[Result "0-1"]
-[WhiteElo "2610"]
-[BlackElo "2690"]
-[Annotator "Mueller,Karsten"]
-[SetUp "1"]
-[FEN "8/5K2/3r4/7k/8/3P2p1/1R6/8 w - - 0 58"]
-[PlyCount "40"]
-[EventDate "1983.??.??"]
-[EventType "game"]
-[EventCountry "CAN"]
-[SourceTitle "Endgame Strategy Muller"]
-[Source "Chess Informant"]
-[SourceDate "2016.08.22"]
-
-58. Rd2 Kg4 59. d4 Kf5 60. Ke7 Rd5 61. Rd3 Kf4 62. Ke6 Rg5 63. d5 63... Rg6+ 64. Ke7 g2 65. Rd1 Ke5 66. d6 66... Re6+ 67. Kd7 Rxd6+ 68. Rxd6 g1=Q 69. Re6+ Kf5 70. Rd6 Qa7+ 71. Kd8 Ke5 72. Rg6 72... Qa5+ 73. Kd7 Qa4+ 74. Ke7 Qh4+ 75. Kf8 Qd8+ 76. Kf7 Kf5 77. Rh6 Qd7+ 0-1
-
-[Event "?"]
-[Site "Bad Homburg"]
-[Date "1998.??.??"]
-[Round "?"]
-[White "Korchnoi, Viktor"]
-[Black "Torre, Eugenio"]
-[Result "1-0"]
-[WhiteElo "2625"]
-[BlackElo "2560"]
-[Annotator "Mueller,Karsten"]
-[SetUp "1"]
-[FEN "8/8/p7/1kp5/2NnP3/2KP4/P7/8 w - - 0 56"]
-[PlyCount "29"]
-[EventDate "1998.??.??"]
-[EventType "team-tourn"]
-[EventCountry "GER"]
-[SourceTitle "Endgame Strategy Muller"]
-[Source "Chess Informant"]
-[SourceDate "2016.08.22"]
-
-56. Na3+ 56... Kc6 57. Kd2 Kd6 58. Nc4+ Kc6 59. Na5+ Kb5 60. Nb3 Ne6 61. Kc3 Nd8 62. a4+ Kc6 63. Kc4 Nb7 64. e5 a5 65. d4 cxd4 66. Nxd4+ Kb6 67. Ne6 Kc6 68. Kd4 Kb6 69. Kd5 Ka7 70. Nc5 1-0
-
-[Event ""]
-[Site "Odessa"]
-[Date "1974.??.??"]
-[Round "?"]
-[White "Korchnoi, Viktor"]
-[Black "Petrosian, Tigran"]
-[Result "1-0"]
-[WhiteElo "2670"]
-[BlackElo "2640"]
-[Annotator "Mueller,Karsten"]
-[SetUp "1"]
-[FEN "8/7p/1p4k1/p1p2pP1/P1P1nK1P/1P1B4/8/8 w - - 0 41"]
-[PlyCount "21"]
-[EventDate "1974.??.??"]
-[EventType "game"]
-[EventCountry "UKR"]
-[SourceTitle "Endgame Strategy Muller"]
-[Source "Chess Informant"]
-[SourceDate "2016.08.22"]
-
-41. Bxe4 41... fxe4 42. Kxe4 42... Kh5 43. Kf5 43... Kxh4 44. g6 hxg6+ 45. Kxg6 Kg4 46. Kf6 Kf4 47. Ke6 Ke4 48. Kd6 Kd4 49. Kc6 Kc3 50. Kxb6 Kxb3 51. Kb5 1-0
-
 [Event "Czech Coal Match"]
 [Site "Marianske Lazne CZE"]
 [Date "2009.11.29"]
@@ -146790,24 +146528,6 @@ Nc4 37. Re1 h5 38. Ra1 b2 39. Bxb2 Nxb2 40. Ra2 Nd3 41. b6 Rb8 0-1
 [SourceQuality "1"]
 
 1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 b6 5. Qg4 5... Bf8 6. Nf3 6... Qd7 7. a3 7... Ba6 8. Bxa6 Nxa6 9. O-O Ne7 10. Ne2 Nb8 11. Bg5 Nbc6 12. b3 Nf5 13. Ng3 13... h6 14. Bd2 g6 15. Qf4 15... Be7 16. Rfd1 g5 17. Qg4 Nxg3 18. Qxg3 O-O-O 19. Bb4 f5 20. exf6 20... Bxf6 21. Rac1 h5 22. c4 22... g4 23. Ne5 23... Bxe5 24. dxe5 d4 25. Qf4 25... a5 26. Bd2 Qh7 27. Re1 27... Rhf8 28. Qg3 d3 29. c5 b5 30. Qe3 Rd5 31. Bc3 b4 32. axb4 axb4 33. Bd2 Qf5 34. Rf1 Rxe5 35. Qh6 Kb7 36. Rc4 Rf7 37. Bxb4 Re2 38. Bd2 e5 39. Be3 d2 40. Ra4 40... Rxf2 0-1
-
-[Event "?"]
-[Site "Lugano"]
-[Date "1989.??.??"]
-[Round "?"]
-[White "Miles, A.."]
-[Black "Korchnoi, V.."]
-[Result "0-1"]
-[ECO "D37"]
-[Annotator "Jacob Aagaard"]
-[SetUp "1"]
-[FEN "2r2rk1/1p3pp1/1p1b1np1/pP1Pp3/4P3/P2Q4/1Bq1BPPP/RR4K1 b - - 0 21"]
-[PlyCount "99"]
-[EventDate "1989.??.??"]
-[EventType "team-tourn"]
-[EventCountry "SUI"]
-
-21... Nxe4 22. Qxc2 Rxc2 23. Bd3 Rxb2 24. Rxb2 Nc5 25. Bc2 Rc8 26. Re1 Nd7 27. a4 Kf8 28. g3 f5 29. f3 Kf7 30. Kg2 30... Rc4 31. Ra2 Nf6 32. Rd1 Ke7 33. Rd3 Kd7 34. Rd1 Rc5 35. Bb3 Rc3 36. Bc2 Bc5 37. Rd3 Rc4 38. d6 e4 39. fxe4 fxe4 40. Bb3 Rb4 41. Rc3 Kxd6 42. h4 Ke5 43. Bf7 Rb1 44. Bxg6 44... Nd5 45. Rcc2 Ne3+ 46. Kh3 Nxc2 47. Rxc2 Rb4 48. Ra2 Bd4 49. Kg2 Bb2 50. h5 Kd4 51. Kf2 Kc3 52. Ke3 Kb3 53. Bf7+ Kc2 54. g4 Kc3 55. Bg6 Bc1+ 56. Ke2 Bg5 57. Bf5 Rd4 58. Bg6 Kb4 59. Bf5 Rd3 60. Ke1 Rd4 61. Ke2 e3 62. Kf3 Rf4+ 63. Kg2 Rc4 64. Kf3 Kb3 65. Ra1 Rf4+ 66. Kg3 Rf2 67. Be6+ Kc3 68. Rc1+ Kd4 69. Kh3 e2 70. Kg3 Rf1 0-1
 
 [Event "14"]
 [Site "Bucharest"]
@@ -147477,25 +147197,6 @@ Nc4 37. Re1 h5 38. Ra1 b2 39. Bxb2 Nxb2 40. Ra2 Nd3 41. b6 Rb8 0-1
 
 1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 dxe4 5. Nxe4 Nbd7 6. Nxf6+ Nxf6 7. Nf3 h6 8. Bxf6 Qxf6 9. Bb5+ c6 10. Bd3 Bd7 11. Qe2 Bd6 12. O-O-O O-O-O 13. Kb1 Kb8 14. Be4 g5 15. Nd2 Qe7 16. Nc4 f5 17. Bd3 c5 18. dxc5 Bxc5 19. Ne5 Rhg8 20. Nxd7+ 1/2-1/2
 
-[Event "Leningrad"]
-[Site "?"]
-[Date "1967.??.??"]
-[Round "?"]
-[White "Szabo, Laszlo"]
-[Black "Korchnoi, Viktor"]
-[Result "0-1"]
-[Annotator "Mueller,Karsten"]
-[SetUp "1"]
-[FEN "8/8/8/8/4K2P/8/2k2P2/3r4 b - - 0 72"]
-[PlyCount "27"]
-[EventDate "1967.??.??"]
-[EventType "team-tourn"]
-[SourceTitle "Endgame Strategy Muller"]
-[Source "Chess Informant"]
-[SourceDate "2016.08.22"]
-
-72... Kc3 73. h5 Kc4 74. f4 74... Re1+ 75. Kf5 Kd5 76. h6 Rh1 77. Kg6 Ke6 78. h7 78... Rg1+ 79. Kh6 Kf7 80. h8=N+ 80... Kf6 81. Kh7 Rg7+ 82. Kh6 Rg4 83. Kh7 Rxf4 84. Kg8 84... Ra4 85. Kh7 Rg4 0-1
-
 [Event "?"]
 [Site "Titograd"]
 [Date "1984.??.??"]
@@ -147720,20 +147421,6 @@ Nc4 37. Re1 h5 38. Ra1 b2 39. Bxb2 Nxb2 40. Ra2 Nd3 41. b6 Rb8 0-1
 [EventCountry "RUS"]
 
 1. c4 c5 2. Nf3 Nf6 3. Nc3 Nc6 4. e3 e6 5. d4 d5 6. cxd5 exd5 7. Be2 Bd6 8. dxc5 Bxc5 9. O-O O-O 10. b3 Be6 11. Bb2 Qe7 12. a3 Rfd8 13. Na4 Bd6 14. b4 Ng4 15. Rc1 Nce5 16. Nxe5 Nxe5 17. Qd4 f6 18. Nc3 Nc6 19. Qh4 Be5 20. Bd3 f5 21. Qxe7 Nxe7 22. Na4 Bxb2 23. Nxb2 Rac8 24. Na4 Rxc1 25. Rxc1 d4 26. exd4 26... Rxd4 27. Bf1 Kf7 28. g3 f4 29. Nc5 Bd5 30. Nd3 g5 31. b5 Be4 32. Nb4 32... Ke6 33. gxf4 gxf4 34. Nc2 Rd8 35. Bh3+ Kf6 36. Ne1 Rd4 37. Bg2 Nf5 38. Bxe4 Rxe4 39. Nf3 Ra4 40. Rc7 Rxa3 41. Kg2 Ra2 42. Rxh7 42... Ne3+ 43. Kh3 Rxf2 44. Nh4 b6 45. Rxa7 Rb2 46. Ra8 Nd5 47. Rf8+ Ke5 48. Ng6+ Ke4 49. Re8+ Kd4 50. Rd8 Kc5 51. Rf8 Rf2 52. Rf5 Kd4 53. Rf8 Rf1 54. Nh4 Kc4 55. Kg4 Rg1+ 56. Kf5 Kxb5 57. Nf3 Rd1 58. h4 Rh1 59. Ke4 Nc3+ 60. Kxf4 Kc4 61. Kg5 Ne4+ 62. Kg6 b5 63. h5 b4 64. Rc8+ Kd3 1/2-1/2
-
-[Event "continued"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "?"]
-[White "Korchnoi, V."]
-[Black "Beliavsky, A."]
-[Result "*"]
-[SetUp "1"]
-[FEN "r1bq1rk1/pp3ppp/3b1n2/3pn3/8/1PN1PN2/PBQ1BPPP/R3K2R b KQ - 0 12"]
-[PlyCount "23"]
-[EventType "team-tourn"]
-
-12... Nxf3+ 13. Bxf3 d4 14. exd4 14... Re8+ 15. Kf1 15... Qa5 16. Qd1 Bb4 17. Rc1 Bd7 18. a3 Bxc3 19. Rxc3 Nd5 20. Bxd5 20... Qxd5 21. a4 Rac8 22. f3 Rxc3 23. Bxc3 Re3 *
 
 [Event ""]
 [Site "Frankfurt"]
@@ -148216,97 +147903,6 @@ Nc4 37. Re1 h5 38. Ra1 b2 39. Bxb2 Nxb2 40. Ra2 Nd3 41. b6 Rb8 0-1
 
 1. d4 Nf6 2. c4 e6 3. g3 Bb4+ 4. Bd2 Qe7 5. Bg2 Nc6 6. Nf3 Bxd2+ 7. Nbxd2 d6 8. O-O O-O 9. e4 e5 10. d5 Nb8 11. b4 a5 12. a3 Na6 13. Qb3 c6 14. dxc6 bxc6 15. Qc3 Bg4 16. Nh4 Rfb8 17. Rfb1 Nc7 18. h3 Bd7 19. bxa5 g6 20. Rb6 Ne6 21. Rab1 Rd8 22. Nb3 c5 23. a6 Bc8 24. Qa5 Nd7 25. Nd2 Nxb6 26. Rxb6 Nc7 27. a7 Ne6 28. Rb8 Rxa7 29. Qc3 Nd4 30. Kh2 Be6 31. Rxd8+ Qxd8 32. Nhf3 Qa8 33. Nxd4 cxd4 34. Qb4 Ra6 35. Bf1 Kg7 36. c5 dxc5 37. Qxc5 Ra5 38. Bb5 f6 39. a4 Ra7 40. f4 exf4 41. gxf4 Qb8 42. Kg2 Rf7 43. f5 Qf4 44. Qxd4 gxf5 45. Qf2 Qxf2+ 46. Kxf2 fxe4 47. Nxe4 Bxh3 48. a5 Ra7 49. a6 Bc8 50. Nc5 Rc7 51. Na4 Bd7 52. Bxd7 Rxd7 53. Nc5 Ra7 54. Ke3 h5 0-1
 
-[Event "Leningrad"]
-[Site "?"]
-[Date "1967.??.??"]
-[Round "?"]
-[White "Suetin, A."]
-[Black "Korchnoi, V."]
-[Result "0-1"]
-[Annotator "Noam A. Manella & Zeev Zohar"]
-[SetUp "1"]
-[FEN "4nrk1/pp1rbppp/4p3/q3P3/3B4/2N1Q1R1/PPP3PP/3R3K b - - 0 20"]
-[PlyCount "41"]
-[EventDate "1967.??.??"]
-[EventType "team-tourn"]
-[SourceTitle "Play Unconventional Ches"]
-[Source "Everyman Chess"]
-[SourceDate "2015.03.02"]
-[SourceVersion "1"]
-[SourceVersionDate "2015.03.02"]
-[SourceQuality "1"]
-
-20... h5 21. Rf1 21... Qb4 22. Ne2 22... Qc4 23. c3 g6 24. Rgf3 Ng7 25. b3 Qa6 26. Ng3 h4 27. Ne4 Nf5 28. Qf4 Qxa2 29. Bc5 Qe2 30. R3f2 Qd3 31. Rf3 Qe2 32. R3f2 Qd3 33. Rd2 Qxd2 34. Nxd2 Bxc5 35. Ne4 Be3 36. Nf6+ Kg7 37. Qc4 Rdd8 38. Ng4 Bb6 39. Nf2 Bxf2 40. Rxf2 Ne3 0-1
-
-[Event "?"]
-[Site "Reykjavik"]
-[Date "1987.??.??"]
-[Round "?"]
-[White "Olafsson, H."]
-[Black "Korchnoi, V."]
-[Result "*"]
-[Annotator "Noam A. Manella & Zeev Zohar"]
-[SetUp "1"]
-[FEN "r2q1rk1/1p3ppp/pnp2n2/3pNb2/3P1P2/4P3/PP2NPBP/R2Q1RK1 b - - 0 13"]
-[PlyCount "27"]
-[EventDate "1987.??.??"]
-[EventType "team-tourn"]
-[EventCountry "ISL"]
-[SourceTitle "Play Unconventional Ches"]
-[Source "Everyman Chess"]
-[SourceDate "2015.03.02"]
-[SourceVersion "1"]
-[SourceVersionDate "2015.03.02"]
-[SourceQuality "1"]
-
-13... Ng4 14. Ng3 Nh6 15. Qh5 Bg6 16. Nxg6 fxg6 17. Qd1 Nc4 18. b3 Nd6 19. Bh3 Qh4 20. Kg2 Rae8 21. Rc1 Ndf7 22. Rc2 22... g5 23. fxg5 Nxg5 24. Qh5 Qxh5 25. Nxh5 Nxh3 26. Kxh3 Rxe3+ *
-
-[Event "?"]
-[Site "Groningen"]
-[Date "1993.??.??"]
-[Round "?"]
-[White "Serper, G."]
-[Black "Korchnoi, V."]
-[Result "*"]
-[Annotator "Noam A. Manella & Zeev Zohar"]
-[SetUp "1"]
-[FEN "r1bqk2r/ppp1bppp/1nn5/4p3/8/2N2NP1/PP1PPPBP/1RBQ1RK1 b kq - 0 8"]
-[PlyCount "25"]
-[EventDate "1993.??.??"]
-[EventType "team-tourn"]
-[EventCountry "NED"]
-[SourceTitle "Play Unconventional Ches"]
-[Source "Everyman Chess"]
-[SourceDate "2015.03.02"]
-[SourceVersion "1"]
-[SourceVersionDate "2015.03.02"]
-[SourceQuality "1"]
-
-8... g5 9. d3 h5 10. a3 10... h4 11. b4 hxg3 12. hxg3 a6 13. b5 Nd4 14. Nxd4 14... exd4 15. bxa6 15... Rxa6 16. Nb5 Na4 17. e3 c6 18. Nxd4 Nc3 19. Qc2 Nxb1 20. Qxb1 Qd6 *
-
-[Event "Interzonal"]
-[Site "Zagreb"]
-[Date "1987.??.??"]
-[Round "?"]
-[White "Korchnoi, V."]
-[Black "Hulak, K."]
-[Result "*"]
-[Annotator "Noam A. Manella & Zeev Zohar"]
-[SetUp "1"]
-[FEN "r1bq1rk1/pppnn1bp/3p4/3Pp1p1/2P1Pp2/2N2P2/PP2BBPP/R2QNRK1 w - - 0 13"]
-[PlyCount "19"]
-[EventDate "1987.??.??"]
-[EventType "game"]
-[EventCountry "CRO"]
-[SourceTitle "Play Unconventional Ches"]
-[Source "Everyman Chess"]
-[SourceDate "2015.03.02"]
-[SourceVersion "1"]
-[SourceVersionDate "2015.03.02"]
-[SourceQuality "1"]
-
-13. Nb5 a6 14. Na7 Rxa7 15. Bxa7 b6 16. b4 Bb7 17. c5 dxc5 18. Rc1 Nc8 19. bxc5 Ba8 20. c6 Nf6 21. Bxb6 Nxb6 22. Bxa6 *
-
 [Event "27. Candidates Match"]
 [Site "Buenos Aires"]
 [Date "1980.??.??"]
@@ -148328,29 +147924,6 @@ Nc4 37. Re1 h5 38. Ra1 b2 39. Bxb2 Nxb2 40. Ra2 Nd3 41. b6 Rb8 0-1
 [SourceQuality "1"]
 
 1. Nf3 Nf6 2. c4 b6 3. g3 e6 4. Bg2 Be7 5. O-O Bb7 6. d4 O-O 7. d5 7... exd5 8. Nh4 8... c6 9. cxd5 Nxd5 10. Nf5 10... Bc5 11. e4 Ne7 12. Nxg7 12... Kxg7 13. b4 Bxb4 14. Qd4+ f6 15. Qxb4 c5 16. Qd2 Nbc6 17. Bb2 Ba6 18. Rd1 Ne5 19. Na3 N7c6 20. Qe3 20... Qe7 21. f4 Nc4 22. Nxc4 Bxc4 23. e5 fxe5 24. Bxc6 dxc6 25. Rd7 Qxd7 26. Qxe5+ Kf7 27. Qf6+ 27... Kg8 28. Qg5+ Kf7 29. Re1 Qe6 30. Qg7+ Ke8 31. Rxe6+ Bxe6 32. Bf6 Bf7 33. Bg5 33... Kd7 34. Bh6 c4 35. Qxh7 c5 36. Bxf8 36... Rxf8 37. Qg7 Ke7 38. Qe5+ Kd7 39. g4 39... Re8 40. Qf6 Bd5 41. g5 Re2 42. h4 42... b5 43. Qf5+ Kd6 44. Qf8+ Kc6 45. Qc8+ Kd6 46. Qd8+ Kc6 47. Qa8+ Kd6 48. Qf8+ Kc6 49. a3 Re3 50. h5 c3 51. Qf6+ Be6 52. Kf2 c2 53. Qb2 Rh3 54. Kg2 Bf5 55. Qf6+ Kc7 56. Qxf5 c1=Q 57. Qe5+ Kb6 58. Kxh3 b4 59. axb4 cxb4 60. h6 Qh1+ 61. Kg4 Qd1+ 62. Kf5 Qc2+ 63. Kf6 b3 64. h7 Qxh7 65. Qe3+ Kc6 66. Qxb3 Qh8+ 67. Ke7 Qh4 68. Qc4+ Kb6 69. Qb4+ Kc6 70. Qe4+ Kb5 71. Kf7 a5 72. g6 Qg4 73. Qe5+ 1-0
-
-[Event "Candidates Match"]
-[Site "Moscow"]
-[Date "1974.??.??"]
-[Round "21"]
-[White "Korchnoi, V.."]
-[Black "Karpov, A.."]
-[Result "1-0"]
-[ECO "E17"]
-[Annotator "Garry Kasparov"]
-[SetUp "1"]
-[FEN "r2q1rk1/pb1pbp1p/1pn3p1/2pB2N1/2P5/6P1/PP1QPP1P/R1B1K2R b KQ - 0 12"]
-[PlyCount "14"]
-[EventDate "1974.??.??"]
-[EventType "game"]
-[EventCountry "RUS"]
-[SourceTitle "My Great Predecessors V"]
-[Source "Everyman Chess "]
-[SourceDate "2017.01.01"]
-[SourceVersionDate "2017.01.01"]
-[SourceQuality "1"]
-
-12... Rb8 13. Nxh7 Re8 14. Qh6 Ne5 15. Ng5 Bxg5 16. Bxg5 Qxg5 17. Qxg5 Bxd5 18. O-O Bxc4 19. f4 1-0
 
 [Event "Olympiad, Lucerne"]
 [Site "Olympiad, Lucerne"]
