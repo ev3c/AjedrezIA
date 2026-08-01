@@ -31,6 +31,7 @@ const APPLE_REDIRECT_URI = IS_LOCAL
 const EMAILJS_PUBLIC_KEY  = 'dAMru_0p8fJMCiuKj';
 const EMAILJS_SERVICE_ID  = 'service_nrzs4zq';
 const EMAILJS_TEMPLATE_ID = 'template_3627zca';
+const EMAILJS_TO_EMAIL    = 'ajedrezia@gmail.com';
 // ─────────────────────────────────────────────────────────────────────
 // ─────────────────────────────────────────────────────────────────────────────
 
@@ -4017,6 +4018,7 @@ function getDifficultyLabel(diff) {
 }
 
 async function startNewPuzzle(resetIndex, navDir) {
+    if (!requireAuthenticatedUser()) return;
     // Si cambia tema o la caché está vacía, carga desde la API
     if (resetIndex || puzzleApiCache.length === 0) {
         await fetchPuzzlesFromAPI(puzzleFilter.theme, 30);
@@ -7521,6 +7523,22 @@ function isHumanTurn() {
     return playerColor === 'both' || game.currentTurn === playerColor;
 }
 
+function updateNewGamePickerLabels(color, opponent) {
+    const colorNames = { white: 'Blancas', black: 'Negras', random: 'Aleatorio' };
+    const opponentNames = {
+        ai: 'IA',
+        online: 'On-line',
+        mail: 'Por Correo',
+        pvp: 'Persona vs Persona'
+    };
+    const colorLabel = document.getElementById('juegas-con-label');
+    const oppLabel = document.getElementById('juegas-contra-label');
+    const c = color || playerColorSetting || 'white';
+    const o = opponent || lastNewGameOpponent || gameOpponent || 'ai';
+    if (colorLabel) colorLabel.textContent = 'Juegas con: ' + (colorNames[c] || '');
+    if (oppLabel) oppLabel.textContent = 'Juegas Contra: ' + (opponentNames[o] || '');
+}
+
 function syncPlayerColorUI() {
     var hidden = document.getElementById('player-color');
     if (hidden) hidden.value = playerColor;
@@ -7556,6 +7574,10 @@ function syncPlayerColorUI() {
         pvpBtn.setAttribute('aria-pressed',    isPvP  ? 'true' : 'false');
         onlineBtn.setAttribute('aria-pressed', isOnl  ? 'true' : 'false');
         if (mailBtn) mailBtn.setAttribute('aria-pressed', isMail ? 'true' : 'false');
+    }
+
+    if (!_newGameDialogOpen) {
+        updateNewGamePickerLabels(playerColorSetting, lastNewGameOpponent || gameOpponent);
     }
 
     // Mostrar/ocultar selector de color y dificultad según oponente
@@ -7710,6 +7732,14 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '3.5.51': [
+        'Al abrir AjedrezIA se pide Iniciar Sesión, Registrarse o Acceder como Invitado',
+        'Los vídeos se generan más despacio para ver mejor cada movimiento',
+        'Nueva Partida: con On-line, Comenzar abre la lista de jugadores online',
+        'Nueva Partida: con Por Correo, Comenzar abre el modal Invitar online',
+        'Modal Nueva Partida: las etiquetas Juegas con y Juegas Contra muestran la opción seleccionada',
+        '... y más mejoras en AjedrezIA ...',
+    ],
     '3.5.37': [
         'El selector de jugadores de Partidas Maestras se agrupa en letras A-Z expandibles como Partides Lliga CAT',
         'Las imágenes de partidas muestran resultado, ELO, torneo, fecha, ronda, lugar, apertura y movimientos',
@@ -8279,6 +8309,8 @@ function hideHelpIntroModal() {
 
 function maybeShowIntroVideoOnStartup() {
     try {
+        // Sin sesión, el modal de acceso tiene prioridad al abrir la página.
+        if (!getOnlineUser()) return;
         if (localStorage.getItem(HELP_INTRO_YOUTUBE_HIDDEN_KEY) === '1') return;
         var intro = HELP_VIDEO_CATALOG[0];
         if (!intro || intro.key !== 'intro' || !intro.videoId) return;
@@ -8545,8 +8577,102 @@ function getOnlineUser() {
     }
 }
 
+function isAuthenticatedUser() {
+    const user = getOnlineUser();
+    if (!user || !user.id) return false;
+    const provider = user.provider || '';
+    return provider === 'nickname' ||
+        provider === 'google' ||
+        provider === 'guest' ||
+        provider === 'apple';
+}
+
+function updateAppAccessLock() {
+    const authed = isAuthenticatedUser();
+    document.body.classList.toggle('app-access-locked', !authed);
+
+    const closeBtn = document.getElementById('login-modal-close');
+    if (closeBtn) closeBtn.style.display = authed ? '' : 'none';
+
+    const overlay = document.getElementById('login-modal-overlay');
+    if (!overlay) return;
+    if (!authed) {
+        updateLoginModalUI();
+        overlay.classList.add('is-open');
+    }
+}
+
+function requireAuthenticatedUser() {
+    if (isAuthenticatedUser()) return true;
+    updateAppAccessLock();
+    return false;
+}
+
+function rememberKnownOnlineUser(userId) {
+    let knownUserIds = [];
+    try {
+        knownUserIds = JSON.parse(localStorage.getItem('known_online_user_ids') || '[]');
+        if (!Array.isArray(knownUserIds)) knownUserIds = [];
+    } catch (e) {
+        knownUserIds = [];
+    }
+    const wasKnown = !!userId && knownUserIds.includes(userId);
+    if (userId && !wasKnown) {
+        knownUserIds.push(userId);
+        try {
+            localStorage.setItem('known_online_user_ids', JSON.stringify(knownUserIds.slice(-100)));
+        } catch (e) {}
+    }
+    return wasKnown;
+}
+
+const APP_OPEN_NOTIFY_MIN_MS = 5 * 60 * 1000;
+const APP_LAST_OPEN_KEY = 'ajedrezia_last_open_at';
+
+/** Solo avisa «Abrir AjedrezIA» si pasaron ≥5 min desde la última apertura. */
+function shouldNotifyAppOpen() {
+    const now = Date.now();
+    let lastOpen = 0;
+    try {
+        lastOpen = parseInt(localStorage.getItem(APP_LAST_OPEN_KEY) || '0', 10) || 0;
+    } catch (e) {}
+
+    const shouldNotify = lastOpen > 0 && (now - lastOpen) >= APP_OPEN_NOTIFY_MIN_MS;
+    try {
+        localStorage.setItem(APP_LAST_OPEN_KEY, String(now));
+    } catch (e) {}
+    return shouldNotify;
+}
+
+/** Detecta el tipo de enlace con el que se abrió AjedrezIA. */
+function getAppOpenOriginInfo() {
+    const params = new URLSearchParams(
+        (typeof location !== 'undefined' && location.search) ? location.search : ''
+    );
+    const url = (typeof location !== 'undefined' && location.href)
+        ? location.href
+        : 'https://www.ajedrezia.com/';
+
+    if (params.has('online')) {
+        return { type: 'Invitación online', detail: params.get('online') || '', url: url };
+    }
+    if (params.get('m') || params.get('moves')) {
+        return { type: 'Partida', detail: params.get('m') || params.get('moves') || '', url: url };
+    }
+    if (params.get('puzzle') || params.get('p')) {
+        return { type: 'Problema', detail: params.get('puzzle') || params.get('p') || '', url: url };
+    }
+    if (params.get('opening')) {
+        return { type: 'Apertura', detail: params.get('opening') || '', url: url };
+    }
+    if (params.get('master')) {
+        return { type: 'Partida maestra', detail: params.get('master') || '', url: url };
+    }
+    return { type: 'www.ajedrezia.com', detail: '', url: url };
+}
+
 function setOnlineUser(user) {
-    const isFirstLoginLocal = !getOnlineUser();
+    const isFirstLoginLocal = !rememberKnownOnlineUser(user.id);
 
     localStorage.setItem('online_user', JSON.stringify(user));
 
@@ -8568,6 +8694,7 @@ function setOnlineUser(user) {
     updateLoginModalUI();
     updateOnlineButtonTooltip();
     updateLoginStatusButton();
+    updateAppAccessLock();
 
     // Si el usuario llegó desde un enlace ?online= y tuvo que loguearse, retomar el flujo
     const pending = sessionStorage.getItem('_pendingOnline');
@@ -8665,7 +8792,7 @@ function saveUserToDB(user, isFirstLoginLocal) {
 
     if (!endpoint) {
         // En local usamos localStorage para detectar si es nuevo
-        notifyNewUser(user, isFirstLoginLocal ? 'nuevo' : 'login');
+        notifyUserConnection(user, isFirstLoginLocal ? 'new' : 'reconnect');
         return;
     }
 
@@ -8681,48 +8808,98 @@ function saveUserToDB(user, isFirstLoginLocal) {
     })
     .then(function(r) { return r.json(); })
     .then(function(data) {
-        notifyNewUser(user, data.is_new ? 'nuevo' : 'login');
+        notifyUserConnection(user, data.is_new ? 'new' : 'reconnect');
     })
     .catch(function() {
-        notifyNewUser(user, isFirstLoginLocal ? 'nuevo' : 'login');
+        notifyUserConnection(user, isFirstLoginLocal ? 'new' : 'reconnect');
     });
 }
 
-function notifyNewUser(user, type) {
-    if (typeof emailjs === 'undefined') return;
+function notifyUserConnection(user, type) {
+    if (!user) return;
 
-    const isNuevo   = type === 'nuevo';
-    const ts        = new Date().toLocaleString('es-ES', { timeZone: 'Europe/Madrid' });
-    const subjectTx = isNuevo ? 'Nuevo usuario en AjedrezIA' : 'Reconexión en AjedrezIA';
-    const introTx   = isNuevo
-        ? 'Se ha registrado un NUEVO usuario en AjedrezIA.'
-        : 'Se ha vuelto a conectar en AjedrezIA.';
+    const messages = {
+        new: {
+            subject: 'Nueva conexión en AjedrezIA',
+            intro: 'Se ha conectado un NUEVO usuario en AjedrezIA.'
+        },
+        reconnect: {
+            subject: 'Reconexión en AjedrezIA',
+            intro: 'Un usuario registrado se ha vuelto a conectar en AjedrezIA.'
+        },
+        open: {
+            subject: 'Abrir AjedrezIA',
+            intro: 'Un usuario con una sesión ya registrada ha vuelto a abrir AjedrezIA.'
+        },
+        logout: {
+            subject: 'Sesión cerrada en AjedrezIA',
+            intro: 'Un usuario ha cerrado sesión en AjedrezIA.'
+        }
+    };
+    const message = messages[type] || messages.reconnect;
+    const ts = new Date().toLocaleString('es-ES', { timeZone: 'Europe/Madrid' });
+    const origin = (type === 'open') ? getAppOpenOriginInfo() : null;
 
-    const body = [
-        introTx,
+    const bodyLines = [
+        message.intro,
         '────────────────────────────────',
         'E-mail registrado : ' + (user.email    || '—'),
         'Nombre completo   : ' + (user.name     || '—'),
         'Proveedor OAuth   : ' + (user.provider || '—').toUpperCase(),
         'ID de usuario     : ' + (user.id       || '—'),
         'Fecha y hora      : ' + ts,
+    ];
+    if (origin) {
+        bodyLines.push('Tipo de enlace    : ' + (origin.type || 'www.ajedrezia.com'));
+        if (origin.detail) bodyLines.push('Detalle enlace    : ' + origin.detail);
+        bodyLines.push('URL de origen     : ' + (origin.url || '—'));
+    }
+    bodyLines.push(
         '────────────────────────────────',
-        'AjedrezIA — https://www.ajedrezia.com/',
-    ].join('\n');
+        'AjedrezIA — https://www.ajedrezia.com/'
+    );
+    const body = bodyLines.join('\n');
 
+    const payload = {
+        type:     type || 'reconnect',
+        email:    user.email    || '',
+        name:     user.name     || '',
+        provider: user.provider || '',
+        id:       user.id       || '',
+        origin_type:   origin ? (origin.type || '') : '',
+        origin_detail: origin ? (origin.detail || '') : '',
+        origin_url:    origin ? (origin.url || '') : '',
+    };
+
+    if (!IS_LOCAL) {
+        fetch(BASE_PATH + 'api/notify-new-user.php', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload),
+        }).catch(function() {});
+        return;
+    }
+
+    if (typeof emailjs === 'undefined') return;
     emailjs.init({ publicKey: EMAILJS_PUBLIC_KEY });
     emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, {
-        subject: subjectTx,
-        body:    body,
+        to_email: (typeof EMAILJS_TO_EMAIL !== 'undefined' ? EMAILJS_TO_EMAIL : 'ajedrezia@gmail.com'),
+        subject:  message.subject,
+        body:     body,
     }).catch(function() {});
 }
 
 function clearOnlineUser() {
+    const user = getOnlineUser();
+    if (user) {
+        notifyUserConnection(user, 'logout');
+    }
     localStorage.removeItem('online_user');
     stopHeartbeat();
     updateLoginModalUI();
     updateOnlineButtonTooltip();
     updateLoginStatusButton();
+    updateAppAccessLock();
 }
 
 // ── Notificaciones de escritorio ───────────────────────────────────────────
@@ -9087,23 +9264,25 @@ function fetchAndRenderUsers() {
 }
 
 function renderUsersList(users, listEl, subtitleEl) {
-    const online     = users.filter(function(u) { return u.online; }).length;
-    const available  = users.filter(function(u) { return u.online && u.status !== 'busy'; }).length;
+    const allUsers = Array.isArray(users) ? users : [];
+    const registeredDisplay = allUsers.length + 10000;
+    const visibleUsers = allUsers.filter(function(u) { return !!u.online; });
+    const online = visibleUsers.length;
+    const available = visibleUsers.filter(function(u) { return u.status !== 'busy'; }).length;
     if (subtitleEl) subtitleEl.textContent =
-        users.length + ' jugador' + (users.length !== 1 ? 'es' : '') +
-        ' registrado' + (users.length !== 1 ? 's' : '') +
+        registeredDisplay.toLocaleString('es-ES') + ' jugadores registrados' +
         ' · ' + online + ' online' +
         (available !== online ? ' (' + available + ' disponible' + (available !== 1 ? 's' : '') + ')' : '') +
         (IS_LOCAL ? ' (datos de ejemplo)' : '');
 
-    if (users.length === 0) {
-        listEl.innerHTML = '<p class="users-empty">Aún no hay jugadores registrados.</p>';
+    if (visibleUsers.length === 0) {
+        listEl.innerHTML = '<p class="users-empty">No hay jugadores online ahora mismo.</p>';
         return;
     }
 
     const currentUser = getOnlineUser();
     listEl.innerHTML  = '';
-    users.forEach(function(u) {
+    visibleUsers.forEach(function(u) {
         const isMe    = currentUser && currentUser.id === u.id;
         const isBusy  = u.online && u.status === 'busy';
         const initial = (u.nick || '?')[0].toUpperCase();
@@ -10629,6 +10808,7 @@ function showUserProfileModal() {
     provEl.textContent =
         user.provider === 'google'   ? '🔵 Conectado con Google' :
         user.provider === 'apple'    ? '🍎 Conectado con Apple'  :
+        user.provider === 'guest'    ? '👤 Acceso como Invitado' :
         user.provider === 'nickname' ? '👤 Conectado con Nickname' : '';
     modal.appendChild(provEl);
 
@@ -10701,6 +10881,7 @@ function updateLoginModalUI() {
             providerEl.textContent =
                 user.provider === 'google'   ? '🔵 Conectado con Google' :
                 user.provider === 'apple'    ? '🍎 Conectado con Apple'  :
+                user.provider === 'guest'    ? '👤 Acceso como Invitado' :
                 user.provider === 'nickname' ? '👤 Conectado con Nickname' :
                                                '';
         }
@@ -10751,7 +10932,8 @@ function showLoginModal() {
     if (closeBtn) closeBtn.focus();
 }
 
-function hideLoginModal() {
+function hideLoginModal(force) {
+    if (!force && !isAuthenticatedUser()) return;
     const overlay = document.getElementById('login-modal-overlay');
     if (overlay) overlay.classList.remove('is-open');
     loginSetLoading(false);
@@ -10992,6 +11174,48 @@ function signInWithNickname(rawNick) {
     return true;
 }
 
+function signInAsGuest() {
+    let id = localStorage.getItem('guest_user_id');
+    let name = localStorage.getItem('guest_user_name');
+    if (!id) {
+        id = 'guest-' + (
+            window.crypto && typeof window.crypto.randomUUID === 'function'
+                ? window.crypto.randomUUID()
+                : Date.now().toString(36) + '-' + Math.random().toString(36).slice(2, 10)
+        );
+        localStorage.setItem('guest_user_id', id);
+    }
+    if (!name) {
+        name = 'Invitado-' + id.replace(/[^a-z0-9]/gi, '').slice(-6).toUpperCase();
+        localStorage.setItem('guest_user_name', name);
+    }
+
+    playerNickname = name;
+    const nicknameEl = document.getElementById('player-nickname');
+    if (nicknameEl) {
+        nicknameEl.value = name;
+        nicknameEl.disabled = true;
+        nicknameEl.title = 'Nickname asignado al acceso como invitado';
+    }
+    saveSettings();
+    setOnlineUser({
+        provider: 'guest',
+        id,
+        name,
+        email: '',
+        photo: null,
+        token: '',
+        expiry: Date.now() + 365 * 24 * 60 * 60 * 1000,
+    });
+
+    if (_postLoginShowOnlineMenu) {
+        _postLoginShowOnlineMenu = false;
+    } else {
+        hideLoginModal();
+    }
+    showMessage('Acceso como ' + name + ' 🎉', 'success', 3000);
+}
+
 // ── Flujo Google OAuth ─────────────────────────────────────────────────────
 
 function signInWithGoogle() {
@@ -11145,20 +11369,22 @@ async function signInWithApple() {
         const overlay = document.getElementById('login-modal-overlay');
         if (!overlay) return;
 
-        document.getElementById('login-modal-close').addEventListener('click', hideLoginModal);
+        document.getElementById('login-modal-close').addEventListener('click', function() {
+            hideLoginModal();
+        });
 
         overlay.addEventListener('click', function(e) {
-            if (e.target === overlay) hideLoginModal();
+            if (e.target === overlay && isAuthenticatedUser()) hideLoginModal();
         });
 
         document.addEventListener('keydown', function(e) {
-            if (e.key === 'Escape' && overlay.classList.contains('is-open')) hideLoginModal();
+            if (e.key === 'Escape' && overlay.classList.contains('is-open') && isAuthenticatedUser()) {
+                hideLoginModal();
+            }
         });
 
         document.getElementById('login-google-btn').addEventListener('click', signInWithGoogle);
-        document.getElementById('login-apple-btn').addEventListener('click', function() {
-            loginSetError('🍎 Inicio de sesión con Apple — En construcción.');
-        });
+        document.getElementById('login-guest-btn').addEventListener('click', signInAsGuest);
 
         // ── Nickname (input + flecha azul) ────────────────────────────
         const nickForm  = document.getElementById('login-nick-form');
@@ -11217,7 +11443,6 @@ async function signInWithApple() {
             }
             saveSettings();
             showMessage('Sesión cerrada correctamente.', 'info', 2500);
-            hideLoginModal();
         });
 
         document.getElementById('login-invite-btn').addEventListener('click', function() {
@@ -11241,12 +11466,16 @@ async function signInWithApple() {
         // Al cargar la página, si ya hay sesión guardada restaura el nickname y bloquea el campo
         const existingUser = getOnlineUser();
         const nicknameEl = document.getElementById('player-nickname');
-        if (existingUser && existingUser.email) {
-            playerNickname = existingUser.email.split('@')[0];
+        if (existingUser && (existingUser.email || existingUser.provider === 'guest')) {
+            playerNickname = existingUser.provider === 'guest'
+                ? existingUser.name
+                : existingUser.email.split('@')[0];
             if (nicknameEl) {
                 nicknameEl.value = playerNickname;
                 nicknameEl.disabled = true;
-                nicknameEl.title = 'Nickname vinculado a tu cuenta online';
+                nicknameEl.title = existingUser.provider === 'guest'
+                    ? 'Nickname asignado al acceso como invitado'
+                    : 'Nickname vinculado a tu cuenta online';
             }
         } else {
             if (nicknameEl) {
@@ -11257,7 +11486,14 @@ async function signInWithApple() {
 
         updateOnlineButtonTooltip();
         updateLoginStatusButton();
-        if (getOnlineUser()) startHeartbeat();
+        updateAppAccessLock();
+        if (getOnlineUser()) {
+            rememberKnownOnlineUser(existingUser.id);
+            if (shouldNotifyAppOpen()) {
+                notifyUserConnection(existingUser, 'open');
+            }
+            startHeartbeat();
+        }
     });
 })();
 
@@ -11516,6 +11752,10 @@ function closeTopModalForAndroidBack() {
     const overlay = overlays.at(-1);
     if (!overlay) return false;
 
+    if (overlay.id === 'login-modal-overlay' && !isAuthenticatedUser()) {
+        return true;
+    }
+
     // Simula pulsar fuera del modal para ejecutar su cierre y limpieza habitual.
     overlay.dispatchEvent(new MouseEvent('click', {
         bubbles: true,
@@ -11736,6 +11976,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     b.classList.toggle('player-color-option--selected', sel);
                     b.setAttribute('aria-pressed', sel ? 'true' : 'false');
                 });
+                updateNewGamePickerLabels(c, null);
                 saveSettings();
                 return;
             }
@@ -11769,6 +12010,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (tSec) tSec.style.display = (m === 'mail') ? 'none' : '';
                 // Guardar inmediatamente para que al reabrir el modal aparezca seleccionado.
                 lastNewGameOpponent = m;
+                updateNewGamePickerLabels(null, m);
                 saveSettings();
                 return;
             }
@@ -12278,7 +12520,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     setupAndroidBackExitConfirmation();
-    setTimeout(maybeShowIntroVideoOnStartup, 0);
 });
 
 function initCustomDropdowns() {
@@ -12598,6 +12839,7 @@ async function getAIMove() {
 }
 
 function confirmNewGame() {
+    if (!requireAuthenticatedUser()) return;
     dismissPostGameAnalysisUI();
 
     // Partida en curso con movimientos → advertir pérdida de ELO
@@ -12698,6 +12940,8 @@ function showNewGameDialog() {
         });
     }
 
+    updateNewGamePickerLabels(playerColorSetting, lastNewGameOpponent);
+
     // — Nivel de Dificultad: visible solo cuando el oponente es IA —
     if (aiSection) aiSection.style.display = (lastNewGameOpponent === 'ai') ? '' : 'none';
 
@@ -12779,25 +13023,26 @@ function showNewGameDialog() {
         lastNewGameOpponent = selected;
 
         // ─────────────────────────────────────────────────────────────────────
-        // Online: delegar al modal de sesión, que muestra automáticamente
-        // la vista de inicio de sesión o la de "Invitar / Buscar jugador"
-        // dependiendo de si ya hay un usuario autenticado. Si no hay sesión,
-        // marcamos un flag para que tras el login el modal NO se cierre y
-        // el usuario vea directamente "Invitar / Buscar".
+        // On-line: abrir la lista de jugadores online.
         if (selected === 'online') {
-            if (!getOnlineUser()) {
-                _postLoginShowOnlineMenu = true;
-            }
+            if (!requireAuthenticatedUser()) return;
             saveSettings();
             close();
-            showLoginModal();
+            showUsersModal();
             return;
         }
-        // Por Correo: función en construcción — cerrar modal y mostrar aviso
+        // Por Correo: abrir el modal Invitar online (compartir enlace).
         if (selected === 'mail') {
+            if (!requireAuthenticatedUser()) return;
             saveSettings();
             close();
-            showMessage('✉️ <strong>Por Correo</strong><br><br>🚧 Función en construcción.<br>Próximamente disponible.', 'info', 0);
+            const colorRaw = playerColorSetting || 'white';
+            const tcRaw = (timePerPlayer != null && incrementPerMove != null)
+                ? (timePerPlayer + '+' + incrementPerMove)
+                : '5+0';
+            const colorLabel = { white: 'Blancas ♔', black: 'Negras ♚', random: 'Aleatorio 🎲' }[colorRaw] || '';
+            const timeLabel = timeLabelFor(tcRaw);
+            shareInviteOnline(colorLabel, timeLabel, colorRaw, tcRaw);
             return;
         }
         // Aplicar al estado global la selección realizada en el modal
@@ -12838,6 +13083,7 @@ function showNewGameDialog() {
 }
 
 function startNewGame(options) {
+    if (!requireAuthenticatedUser()) return;
     // Si había una partida online activa y no la estamos iniciando ahora desde startOnlineGame, abandonarla
     if (_onlineGame && (!options || options.fromOnlineStart !== true)) {
         leaveOnlineGame('abort');
@@ -15460,10 +15706,13 @@ function sharePreviewFenToBoard(placement) {
 async function renderShareBoardDataURL(p) {
     await preloadSharePreviewPieces();
     const boardOnly = !!p.videoBoardOnly;
+    const renderScale = Math.max(1, Number(p.renderScale) || 1);
     const W = boardOnly ? 630 : 1200, H = 630, BOARD = 540, BX = 48, BY = (H - BOARD) / 2, SQ = BOARD / 8;
     const canvas = document.createElement('canvas');
-    canvas.width = W; canvas.height = H;
+    canvas.width = Math.round(W * renderScale);
+    canvas.height = Math.round(H * renderScale);
     const ctx = canvas.getContext('2d');
+    ctx.scale(renderScale, renderScale);
 
     const grad = ctx.createLinearGradient(0, 0, 0, H);
     grad.addColorStop(0, '#3a3531'); grad.addColorStop(1, '#1f1b18');
@@ -15665,23 +15914,30 @@ async function renderShareBoardDataURL(p) {
     try { return canvas.toDataURL('image/png'); } catch (e) { return null; }
 }
 
-async function renderShareVideoIntroDataURL(previewParams) {
+async function renderShareVideoIntroDataURL(previewParams, outputSize) {
     // Reutiliza literalmente el panel de texto situado a la derecha de la
     // tarjeta compartida y lo adapta al formato cuadrado del vídeo.
+    const size = outputSize || 1080;
+    const renderScale = size / 630;
     const fullCardUrl = await renderShareBoardDataURL({
         ...previewParams,
         mv: '',
         arrowColor: null,
-        videoBoardOnly: false
+        videoBoardOnly: false,
+        renderScale
     });
     if (!fullCardUrl) return null;
     const image = await loadShareVideoFrame(fullCardUrl);
     const canvas = document.createElement('canvas');
-    canvas.width = 630;
-    canvas.height = 630;
+    canvas.width = size;
+    canvas.height = size;
     const context = canvas.getContext('2d');
-    const textPanelX = 48 + 540;
-    context.drawImage(image, textPanelX, 0, 1200 - textPanelX, 630, 0, 0, 630, 630);
+    const textPanelX = (48 + 540) * renderScale;
+    context.drawImage(
+        image,
+        textPanelX, 0, image.width - textPanelX, image.height,
+        0, 0, size, size
+    );
     return canvas.toDataURL('image/png');
 }
 
@@ -15829,11 +16085,13 @@ async function generateShareVideo() {
         const frames = buildShareVideoSequence(info);
         if (!frames.length) throw new Error('No hay movimientos para generar el vídeo');
 
+        const VIDEO_SIZE = 1080;
+        const VIDEO_RENDER_SCALE = VIDEO_SIZE / 630;
         const canvas = document.createElement('canvas');
-        canvas.width = 630;
-        canvas.height = 630;
+        canvas.width = VIDEO_SIZE;
+        canvas.height = VIDEO_SIZE;
         const context = canvas.getContext('2d');
-        const stream = canvas.captureStream(24);
+        const stream = canvas.captureStream(30);
         const videoTrack = stream.getVideoTracks()[0];
         // Priorizar MP4/H.264 en todos los navegadores. La captura explícita de
         // cada fotograma evita el problema anterior del canvas estático.
@@ -15841,7 +16099,11 @@ async function generateShareVideo() {
         const mp4Types = ['video/mp4;codecs=avc1', 'video/mp4;codecs=avc1.42E01E', 'video/mp4;codecs=h264', 'video/mp4'];
         const mimeCandidates = [...mp4Types, ...webmTypes];
         const mimeType = mimeCandidates.find(type => MediaRecorder.isTypeSupported(type)) || '';
-        const recorder = new MediaRecorder(stream, mimeType ? { mimeType, videoBitsPerSecond: 4500000 } : undefined);
+        const recorderOptions = {
+            videoBitsPerSecond: 10000000,
+            ...(mimeType ? { mimeType } : {})
+        };
+        const recorder = new MediaRecorder(stream, recorderOptions);
         const chunks = [];
         recorder.ondataavailable = event => { if (event.data && event.data.size) chunks.push(event.data); };
         const stopped = new Promise(resolve => { recorder.onstop = resolve; });
@@ -15867,7 +16129,7 @@ async function generateShareVideo() {
         };
 
         const totalFrames = frames.length + 1;
-        const introDataUrl = await renderShareVideoIntroDataURL(info.previewParams);
+        const introDataUrl = await renderShareVideoIntroDataURL(info.previewParams, VIDEO_SIZE);
         if (introDataUrl) {
             const introImage = await loadShareVideoFrame(introDataUrl);
             context.clearRect(0, 0, canvas.width, canvas.height);
@@ -15878,7 +16140,8 @@ async function generateShareVideo() {
             await holdRecordedFrame(introImage, 3000);
         }
 
-        const frameDuration = frames.length > 40 ? 600 : (frames.length > 15 ? 850 : 1200);
+        // Ritmo pausado para que cada jugada pueda verse con claridad.
+        const frameDuration = frames.length > 40 ? 900 : (frames.length > 15 ? 1300 : 1800);
         for (let index = 0; index < frames.length; index++) {
             if (generation !== shareVideoGeneration) {
                 recorder.stop();
@@ -15889,6 +16152,7 @@ async function generateShareVideo() {
             const dataUrl = await renderShareBoardDataURL({
                 ...frame,
                 videoBoardOnly: true,
+                renderScale: VIDEO_RENDER_SCALE,
                 arrowColor: shareContext === 'problema' ? 'blue' : 'yellow'
             });
             if (!dataUrl) continue;
@@ -15910,7 +16174,7 @@ async function generateShareVideo() {
             const currentFrameDuration = isFinalFrame
                 ? 5000
                 : index === 0
-                    ? (shareContext === 'problema' ? 6000 : 1400)
+                    ? (shareContext === 'problema' ? 6000 : 2000)
                     : frameDuration;
             await holdRecordedFrame(image, currentFrameDuration);
         }
@@ -16265,11 +16529,6 @@ function shareInviteOnline(colorLabel, timeLabel, colorRaw, tcRaw) {
     const eloGrant = "if(window.grantEloOnShareComplete)window.grantEloOnShareComplete();";
     const msgAttr = shareMsg.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
     const waHref  = 'https://wa.me/?text=' + encodeURIComponent(shareMsg);
-    const twHref  = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(shareMsg);
-    const fbShareUrl  = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url) + '&quote=' + encodeURIComponent(shareMsg);
-    // Escape JS (\, ', \n) + escape HTML (&, ", <, >) porque va dentro de onclick="..."
-    const fbMsgAttr   = shareMsg.replace(/\\/g,'\\\\').replace(/'/g,"\\'").replace(/\n/g,'\\n')
-        .replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
     const gmailHref   = mailtoUrl.replace(/&/g,'&amp;');
 
     const htmlMsg = `
@@ -16284,35 +16543,11 @@ function shareInviteOnline(colorLabel, timeLabel, colorRaw, tcRaw) {
                 </span>
                 <span class="share-app-label">WhatsApp</span>
             </a>
-            <a href="#" class="share-app-item" onclick="window.shareFacebookClick('${fbShareUrl}','${fbMsgAttr}');return false;">
-                <span class="share-app-circle share-app-circle--facebook">
-                    <svg viewBox="0 0 24 24" width="26" height="26" fill="white"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-                </span>
-                <span class="share-app-label">Facebook</span>
-            </a>
-            <a href="#" class="share-app-item" onclick="window.shareInstagramClick('${fbMsgAttr}');return false;">
-                <span class="share-app-circle share-app-circle--instagram">
-                    <svg viewBox="0 0 24 24" width="26" height="26" fill="white"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
-                </span>
-                <span class="share-app-label">Instagram</span>
-            </a>
-            <a href="#" class="share-app-item" onclick="window.shareTikTokClick('${fbMsgAttr}');return false;">
-                <span class="share-app-circle share-app-circle--tiktok">
-                    <svg viewBox="0 0 24 24" width="25" height="25" fill="white"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.9 2.9 0 1 1-2-2.76V9.4a6.4 6.4 0 1 0 5.45 6.33V8.79a8.2 8.2 0 0 0 4.77 1.52V6.88a4.9 4.9 0 0 1-1-.19Z"/></svg>
-                </span>
-                <span class="share-app-label">TikTok</span>
-            </a>
             <a href="${gmailHref}" class="share-app-item" target="_blank" rel="noopener noreferrer" onclick="${eloGrant}">
                 <span class="share-app-circle share-app-circle--gmail">
                     <svg viewBox="0 0 24 24" width="27" height="27" fill="white"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
                 </span>
                 <span class="share-app-label">Correo</span>
-            </a>
-            <a href="${twHref}" class="share-app-item" target="_blank" rel="noopener noreferrer" onclick="${eloGrant}">
-                <span class="share-app-circle share-app-circle--twitter">
-                    <svg viewBox="0 0 24 24" width="22" height="22" fill="white"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.845L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-                </span>
-                <span class="share-app-label">Twitter/X</span>
             </a>
         </div>
         `;
@@ -17042,6 +17277,7 @@ function checkForGameInProgress() {
 }
 
 function resumeGame(silent) {
+    if (!requireAuthenticatedUser()) return;
     // En partidas online no se permite reanudar otra partida guardada:
     // la partida online en curso es prioritaria.
     if (_onlineGame && _onlineGame.status === 'active') {
@@ -17978,6 +18214,7 @@ function executeFreeTrainingMove(fromRow, fromCol, toRow, toCol, promotionPiece)
 }
 
 function handleSquareClick(row, col) {
+    if (!isAuthenticatedUser()) return;
     if (dragState) return;
     if (analysisActive) return;
     if (game.gameOver && !puzzleMode && !(learnMode && learnActive)) return;

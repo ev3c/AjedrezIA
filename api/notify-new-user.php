@@ -24,7 +24,10 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST')    { http_response_code(405); echo js
 
 $raw  = file_get_contents('php://input');
 $data = json_decode($raw, true);
-if (!$data || empty($data['email'])) { http_response_code(400); echo json_encode(['ok'=>false,'error'=>'Missing data']); exit; }
+$isGuest = ($data['provider'] ?? '') === 'guest';
+if (!$data || (empty($data['email']) && !$isGuest && empty($data['id']))) {
+    http_response_code(400); echo json_encode(['ok'=>false,'error'=>'Missing data']); exit;
+}
 
 // ── Configuración SMTP Hostinger ──────────────────────────────────────
 define('SMTP_HOST', 'smtp.hostinger.com');
@@ -33,22 +36,49 @@ define('SMTP_USER', 'info@ajedrezia.com');
 define('SMTP_PASS', 'Hostinguer.1993');
 define('SMTP_FROM', 'info@ajedrezia.com');
 define('SMTP_NAME', 'AjedrezIA');
-define('NOTIFY_TO', 'ev3c.android@gmail.com');
+define('NOTIFY_TO', 'ajedrezia@gmail.com');
 
 // ── Datos del usuario ─────────────────────────────────────────────────
-$type     = in_array($data['type'] ?? '', ['nuevo','login']) ? $data['type'] : 'login';
+$typeRaw  = trim($data['type'] ?? 'reconnect');
+$typeMap  = [
+    'new'       => 'new',
+    'nuevo'     => 'new',
+    'reconnect' => 'reconnect',
+    'login'     => 'reconnect',
+    'open'      => 'open',
+    'logout'    => 'logout',
+];
+$type     = $typeMap[$typeRaw] ?? 'reconnect';
 $email    = filter_var(trim($data['email']    ?? ''), FILTER_SANITIZE_EMAIL);
 $name     = htmlspecialchars(trim($data['name']     ?? ''), ENT_QUOTES, 'UTF-8');
 $provider = htmlspecialchars(trim($data['provider'] ?? ''), ENT_QUOTES, 'UTF-8');
 $uid      = htmlspecialchars(trim($data['id']       ?? ''), ENT_QUOTES, 'UTF-8');
+$originType   = htmlspecialchars(trim($data['origin_type']   ?? ''), ENT_QUOTES, 'UTF-8');
+$originDetail = htmlspecialchars(trim($data['origin_detail'] ?? ''), ENT_QUOTES, 'UTF-8');
+$originUrl    = htmlspecialchars(trim($data['origin_url']    ?? ''), ENT_QUOTES, 'UTF-8');
 $ts       = date('d/m/Y H:i:s');
 $ip       = $_SERVER['HTTP_X_FORWARDED_FOR'] ?? $_SERVER['REMOTE_ADDR'] ?? 'desconocida';
 
-$isNuevo    = ($type === 'nuevo');
-$subjectTxt = $isNuevo ? 'Nuevo usuario en AjedrezIA' : 'Sesión iniciada en AjedrezIA';
-$introTxt   = $isNuevo
-    ? 'Se ha registrado un NUEVO usuario en AjedrezIA.'
-    : 'Un usuario ha iniciado sesión en AjedrezIA.';
+$messages = [
+    'new' => [
+        'subject' => 'Nueva conexión en AjedrezIA',
+        'intro'   => 'Se ha conectado un NUEVO usuario en AjedrezIA.',
+    ],
+    'reconnect' => [
+        'subject' => 'Reconexión en AjedrezIA',
+        'intro'   => 'Un usuario registrado se ha vuelto a conectar en AjedrezIA.',
+    ],
+    'open' => [
+        'subject' => 'Abrir AjedrezIA',
+        'intro'   => 'Un usuario con una sesión ya registrada ha vuelto a abrir AjedrezIA.',
+    ],
+    'logout' => [
+        'subject' => 'Sesión cerrada en AjedrezIA',
+        'intro'   => 'Un usuario ha cerrado sesión en AjedrezIA.',
+    ],
+];
+$subjectTxt = $messages[$type]['subject'];
+$introTxt   = $messages[$type]['intro'];
 
 $body  = $introTxt . "\n\n";
 $body .= "────────────────────────────────\n";
@@ -58,6 +88,15 @@ $body .= "Proveedor OAuth   : " . strtoupper($provider) . "\n";
 $body .= "ID de usuario     : {$uid}\n";
 $body .= "Fecha y hora      : {$ts}\n";
 $body .= "IP de origen      : {$ip}\n";
+if ($type === 'open') {
+    $body .= "Tipo de enlace    : " . ($originType !== '' ? $originType : 'www.ajedrezia.com') . "\n";
+    if ($originDetail !== '') {
+        $body .= "Detalle enlace    : {$originDetail}\n";
+    }
+    if ($originUrl !== '') {
+        $body .= "URL de origen     : {$originUrl}\n";
+    }
+}
 $body .= "────────────────────────────────\n\n";
 $body .= "AjedrezIA — https://www.ajedrezia.com/\n";
 

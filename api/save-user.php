@@ -20,7 +20,8 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST')    { http_response_code(405); echo js
 
 $raw  = file_get_contents('php://input');
 $data = json_decode($raw, true);
-if (!$data || empty($data['id']) || empty($data['email'])) {
+$isGuest = $data && (($data['provider'] ?? '') === 'guest');
+if (!$data || empty($data['id']) || (empty($data['email']) && !$isGuest)) {
     http_response_code(400); echo json_encode(['ok'=>false,'error'=>'Missing data']); exit;
 }
 

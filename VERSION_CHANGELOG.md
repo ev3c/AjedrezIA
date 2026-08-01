@@ -2,6 +2,127 @@
 
 ---
 
+## v3.5.51 — 2026-08-01
+
+### Generación de vídeo
+- Los movimientos permanecen más tiempo en pantalla para facilitar su lectura.
+- La salida mejora a 1080 × 1080, 30 FPS y hasta 10 Mbps.
+
+---
+
+## v3.5.50 — 2026-08-01
+
+### Iniciar Sesión
+- El botón «Acceder como Invitado» tiene ahora un fondo verde pastel.
+
+---
+
+## v3.5.49 — 2026-08-01
+
+### Invitar online
+- En el modal Invitar online solo se muestran WhatsApp y Correo.
+
+---
+
+## v3.5.48 — 2026-08-01
+
+### Avisos de apertura
+- «Abrir AjedrezIA» solo se envía si han pasado más de 5 minutos desde la
+  última apertura.
+- El mensaje incluye el tipo de enlace de origen: www.ajedrezia.com,
+  Problema, Apertura, Partida, Partida maestra o Invitación online, junto
+  con la URL.
+
+---
+
+## v3.5.47 — 2026-07-31
+
+### Jugadores online
+- El contador muestra jugadores registrados + 10.000.
+- En la lista solo aparecen jugadores online (se ocultan los offline).
+
+---
+
+## v3.5.46 — 2026-07-31
+
+### Modal Nueva Partida
+- Con On-line seleccionado, «Comenzar» abre la lista de jugadores online.
+- Con Por Correo seleccionado, «Comenzar» abre el modal Invitar online.
+
+---
+
+## v3.5.45 — 2026-07-31
+
+### Modal Nueva Partida
+- «Juegas con:» muestra Blancas, Negras o Aleatorio según el botón
+  seleccionado.
+- «Juegas Contra:» muestra IA, On-line, Por Correo o Persona vs Persona
+  según el botón seleccionado.
+
+---
+
+## v3.5.44 — 2026-07-31
+
+### Acceso obligatorio
+- No se puede usar AjedrezIA sin iniciar sesión con usuario, Google o como
+  invitado.
+- El modal de acceso permanece visible y no se puede cerrar hasta autenticarse.
+
+---
+
+## v3.5.43 — 2026-07-31
+
+### Avisos de conexión
+- Se envía «Sesión cerrada en AjedrezIA» cuando un usuario cierra sesión.
+
+---
+
+## v3.5.42 — 2026-07-31
+
+### Avisos de conexión
+- «Abrir AjedrezIA» solo se envía si han pasado más de 5 minutos desde la
+  última vez que el usuario abrió la web.
+
+---
+
+## v3.5.41 — 2026-07-31
+
+### Avisos de conexión
+- Se envía «Nueva conexión» cuando se registra y conecta un usuario nuevo.
+- Se envía «Reconexión» cuando vuelve a conectarse un usuario existente.
+- Se envía «Abrir AjedrezIA» cuando se reabre la web con una sesión ya
+  registrada.
+- Los accesos como invitado quedan registrados correctamente en el servidor.
+
+---
+
+## v3.5.40 — 2026-07-31
+
+### Inicio de AjedrezIA
+- El vídeo introductorio deja de mostrarse automáticamente al abrir la
+  aplicación.
+
+---
+
+## v3.5.39 — 2026-07-31
+
+### Inicio automático
+- Al abrir AjedrezIA sin una sesión activa se muestra automáticamente el modal
+  «Iniciar Sesión».
+- El vídeo introductorio no se superpone al modal de acceso.
+
+---
+
+## v3.5.38 — 2026-07-31
+
+### Inicio de sesión
+- «Jugar Online» pasa a llamarse «Iniciar Sesión».
+- El texto introductorio comienza ahora por «Para jugar».
+- «Continuar con Apple» se sustituye por «Acceder como Invitado», que crea un
+  acceso de invitado funcional con un nombre identificativo persistente.
+
+---
+
 ## v3.5.37 — 2026-07-29
 
 ### Problemas de Ajedrez
