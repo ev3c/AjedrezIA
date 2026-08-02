@@ -7732,7 +7732,7 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
-    '3.5.51': [
+    '3.5.52': [
         'Al abrir AjedrezIA se pide Iniciar Sesión, Registrarse o Acceder como Invitado',
         'Los vídeos se generan más despacio para ver mejor cada movimiento',
         'Nueva Partida: con On-line, Comenzar abre la lista de jugadores online',
@@ -8871,22 +8871,36 @@ function notifyUserConnection(user, type) {
         origin_url:    origin ? (origin.url || '') : '',
     };
 
-    if (!IS_LOCAL) {
-        fetch(BASE_PATH + 'api/notify-new-user.php', {
+    const sendWithServer = function() {
+        if (IS_LOCAL) return Promise.reject(new Error('Servidor no disponible en local'));
+        return fetch(BASE_PATH + 'api/notify-new-user.php', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(payload),
-        }).catch(function() {});
+        }).then(function(response) {
+            if (!response.ok) throw new Error('Error HTTP ' + response.status);
+            return response.json();
+        }).then(function(result) {
+            if (!result || !result.ok) throw new Error('El servidor no pudo enviar el aviso');
+            return result;
+        });
+    };
+
+    // EmailJS funciona tanto en localhost como en producción. El endpoint PHP
+    // queda como respaldo exclusivo de producción si EmailJS no está disponible
+    // o rechaza el envío.
+    if (typeof emailjs === 'undefined') {
+        sendWithServer().catch(function() {});
         return;
     }
-
-    if (typeof emailjs === 'undefined') return;
     emailjs.init({ publicKey: EMAILJS_PUBLIC_KEY });
     emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, {
-        to_email: (typeof EMAILJS_TO_EMAIL !== 'undefined' ? EMAILJS_TO_EMAIL : 'ajedrezia@gmail.com'),
+        to_email: EMAILJS_TO_EMAIL,
         subject:  message.subject,
         body:     body,
-    }).catch(function() {});
+    }).catch(function() {
+        sendWithServer().catch(function() {});
+    });
 }
 
 function clearOnlineUser() {

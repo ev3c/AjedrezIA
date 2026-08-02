@@ -2,6 +2,14 @@
 
 ---
 
+## v3.5.52 — 2026-08-02
+
+### Avisos de conexión
+- EmailJS envía también desde `www.ajedrezia.com`, igual que en localhost.
+- El envío SMTP del servidor queda como respaldo automático si EmailJS falla.
+
+---
+
 ## v3.5.51 — 2026-08-01
 
 ### Generación de vídeo
