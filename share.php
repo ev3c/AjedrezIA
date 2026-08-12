@@ -41,7 +41,16 @@ $puzzle  = preg_replace('/[^A-Za-z0-9_\-]/', '', gp('puzzle'));
 $ppay    = preg_replace('/[^A-Za-z0-9_\-\.]/', '', gp('p'));
 $master  = preg_replace('/[^a-z0-9\-]/', '', gp('master'));
 
-$KIND_LABEL = [
+$langParam = strtolower(gp('lang'));
+$acceptLang = isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) ? strtolower($_SERVER['HTTP_ACCEPT_LANGUAGE']) : 'es';
+$shareLang = ($langParam === 'en' || ($langParam === '' && strpos($acceptLang, 'en') === 0)) ? 'en' : 'es';
+
+$KIND_LABEL = $shareLang === 'en' ? [
+    'partida'  => 'Game',
+    'apertura' => 'Opening',
+    'problema' => 'Chess puzzle and 30 more',
+    'maestra'  => 'Master game',
+] : [
     'partida'  => 'Partida',
     'apertura' => 'Apertura',
     'problema' => 'Problema de ajedrez y 30 más',
@@ -56,8 +65,12 @@ $isBot = (bool) preg_match(
 );
 
 // ---- Valores por defecto --------------------------------------------------
-$title    = 'AjedrezIA — Juega y aprende ajedrez';
-$desc     = 'Juega contra la IA, resuelve problemas y estudia aperturas y partidas maestras.';
+$title    = $shareLang === 'en'
+    ? 'AjedrezIA — Play and learn chess'
+    : 'AjedrezIA — Juega y aprende ajedrez';
+$desc     = $shareLang === 'en'
+    ? 'Play against the AI, solve puzzles and study openings and master games.'
+    : 'Juega contra la IA, resuelve problemas y estudia aperturas y partidas maestras.';
 $image    = $base . 'share-img/default.png';
 $appUrl   = $base;
 $shareUrl = $base . 'share.php';
@@ -89,9 +102,9 @@ $genericParams = [
 
 if ($fen !== '' || $t !== '' || $packedMoves !== '' || $moves !== '') {
     // -- Modo genérico (partida / apertura / problema / maestra en tiempo real) --
-    $kindLabel = isset($KIND_LABEL[$kind]) ? $KIND_LABEL[$kind] : 'Ajedrez';
+    $kindLabel = isset($KIND_LABEL[$kind]) ? $KIND_LABEL[$kind] : ($shareLang === 'en' ? 'Chess' : 'Ajedrez');
     $title = ($t !== '' ? $t : $kindLabel) . ' — AjedrezIA';
-    $desc  = $s !== '' ? $s : ($kindLabel . ' en AjedrezIA. Juega y aprende ajedrez.');
+    $desc  = $s !== '' ? $s : ($kindLabel . ($shareLang === 'en' ? ' on AjedrezIA. Play and learn chess.' : ' en AjedrezIA. Juega y aprende ajedrez.'));
 
     $imgParams = [
         'fen' => $fen, 'flip' => $flip, 'kind' => $kind, 't' => $t, 's' => $s, 'meta' => $meta, 'mv' => $mv, 'cb' => $cb,
@@ -118,7 +131,7 @@ header('Content-Type: text/html; charset=UTF-8');
 header('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
 ?>
 <!DOCTYPE html>
-<html lang="es">
+<html lang="<?= $shareLang === 'en' ? 'en' : 'es' ?>">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">

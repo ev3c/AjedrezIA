@@ -18,8 +18,18 @@
 <!-- Aplicar zoom guardado antes de pintar la página (evita flash al cargar) -->
 <script>
 try {
-    var _z = JSON.parse(localStorage.getItem('chess_settings') || '{}').boardZoom;
+    var _s = JSON.parse(localStorage.getItem('chess_settings') || '{}');
+    var _z = _s.boardZoom;
     if (_z >= 70 && _z <= 120) document.documentElement.style.zoom = _z / 100;
+    var _lang = localStorage.getItem('ajedrezia_lang');
+    if (_lang !== 'en' && _lang !== 'es') {
+        _lang = _s.language === 'en' ? 'en' : '';
+    }
+    if (_lang !== 'en' && _lang !== 'es') {
+        var _nav = String((navigator.languages && navigator.languages[0]) || navigator.language || navigator.userLanguage || '').toLowerCase();
+        _lang = _nav.indexOf('es') === 0 ? 'es' : 'en';
+    }
+    document.documentElement.lang = _lang;
 } catch(e) {}
 </script>
 
@@ -107,70 +117,75 @@ try {
     <!-- End Google Tag Manager (noscript) -->
     <div class="container">
         <header>
-            <h1>♔ AjedrezIA ♚ <span class="version-tag" id="app-version"></span></h1>
+            <h1>♔ AjedrezIA ♚ <span class="version-tag" id="app-version"></span>
+                <span class="lang-switch" id="lang-switch" role="group" aria-label="Language">
+                    <button type="button" class="lang-btn" data-lang="es" title="Español">ES</button>
+                    <button type="button" class="lang-btn" data-lang="en" title="English">EN</button>
+                </span>
+            </h1>
             <p id="famous-game-title" class="famous-game-title"></p>
         </header>
 
         <div class="game-container">
             <div class="sidebar sidebar-left">
-                <button id="new-game" class="btn btn-success btn-new-game-top btn-new-game--desktop">♟ Nueva Partida</button>
+                <button id="new-game" class="btn btn-success btn-new-game-top btn-new-game--desktop" data-i18n="newGame">♟ Nueva Partida</button>
 
                 <div class="panel panel-collapsible collapsed" id="openings-panel">
-                    <h2 class="panel-toggle">📖 Entrenar Aperturas <span class="panel-arrow">▲</span></h2>
+                    <h2 class="panel-toggle"><span data-i18n="panel.openings">📖 Entrenar Aperturas</span> <span class="panel-arrow">▲</span></h2>
                     <div class="panel-body">
                     <div class="config-section">
-                        <label class="famous-section-label">Selecciona una apertura:</label>
+                        <label class="famous-section-label" data-i18n="opening.select">Selecciona una apertura:</label>
                         <select id="opening-select" class="select">
-                            <option value="">— Modo libre —</option>
-                            <optgroup label="1.e4 e5 — Juego Abierto">
-                                <option value="italiana">Apertura Italiana (Giuoco Piano) [C54]</option>
-                                <option value="gambito-evans">Gambito Evans [C51]</option>
-                                <option value="española">Apertura Española (Ruy López) [C60]</option>
-                                <option value="escocesa">Apertura Escocesa [C45]</option>
-                                <option value="petrov">Defensa Petrov [C42]</option>
-                                <option value="cuatro-caballos">Cuatro Caballos [C47]</option>
-                                <option value="vienesa">Apertura Vienesa [C25]</option>
-                                <option value="gambito-rey">Gambito de Rey [C30]</option>
-                                <option value="dos-caballos">Dos Caballos [C55]</option>
-                                <option value="philidor">Defensa Philidor [C41]</option>
+                            <option value="" data-i18n="opening.freeMode">— Modo libre —</option>
+                            <optgroup data-i18n="opening.groupOpen" label="1.e4 e5 — Juego Abierto">
+                                <option value="italiana" data-i18n="opening.italiana">Apertura Italiana (Giuoco Piano) [C54]</option>
+                                <option value="gambito-evans" data-i18n="opening.evans">Gambito Evans [C51]</option>
+                                <option value="española" data-i18n="opening.espanola">Apertura Española (Ruy López) [C60]</option>
+                                <option value="escocesa" data-i18n="opening.escocesa">Apertura Escocesa [C45]</option>
+                                <option value="petrov" data-i18n="opening.petrov">Defensa Petrov [C42]</option>
+                                <option value="cuatro-caballos" data-i18n="opening.fourKnights">Cuatro Caballos [C47]</option>
+                                <option value="vienesa" data-i18n="opening.vienna">Apertura Vienesa [C25]</option>
+                                <option value="gambito-rey" data-i18n="opening.kingsGambit">Gambito de Rey [C30]</option>
+                                <option value="dos-caballos" data-i18n="opening.twoKnights">Dos Caballos [C55]</option>
+                                <option value="philidor" data-i18n="opening.philidor">Defensa Philidor [C41]</option>
                             </optgroup>
-                            <optgroup label="1.e4 — Semiabiertas">
-                                <option value="siciliana">Defensa Siciliana [B20]</option>
-                                <option value="francesa">Defensa Francesa [C00]</option>
-                                <option value="caro-kann">Defensa Caro-Kann [B10]</option>
-                                <option value="escandinava">Defensa Escandinava [B01]</option>
-                                <option value="pirc">Defensa Pirc [B07]</option>
-                                <option value="alekhine">Defensa Alekhine [B02]</option>
-                                <option value="moderna">Defensa Moderna [B06]</option>
+                            <optgroup data-i18n="opening.groupSemi" label="1.e4 — Semiabiertas">
+                                <option value="siciliana" data-i18n="opening.sicilian">Defensa Siciliana [B20]</option>
+                                <option value="francesa" data-i18n="opening.french">Defensa Francesa [C00]</option>
+                                <option value="caro-kann" data-i18n="opening.caroKann">Defensa Caro-Kann [B10]</option>
+                                <option value="escandinava" data-i18n="opening.scandinavian">Defensa Escandinava [B01]</option>
+                                <option value="pirc" data-i18n="opening.pirc">Defensa Pirc [B07]</option>
+                                <option value="alekhine" data-i18n="opening.alekhine">Defensa Alekhine [B02]</option>
+                                <option value="moderna" data-i18n="opening.modern">Defensa Moderna [B06]</option>
                             </optgroup>
-                            <optgroup label="1.d4 — Gambito de Dama">
-                                <option value="gda">Gambito de Dama Aceptado [D20]</option>
-                                <option value="gdr-ortodoxa">GDR Ortodoxa [D60]</option>
-                                <option value="eslava">Defensa Eslava [D10]</option>
-                                <option value="semi-eslava">Semi-Eslava [D43]</option>
-                                <option value="grunfeld">Defensa Grünfeld [D85]</option>
+                            <optgroup data-i18n="opening.groupQG" label="1.d4 — Gambito de Dama">
+                                <option value="gda" data-i18n="opening.qga">Gambito de Dama Aceptado [D20]</option>
+                                <option value="gdr-ortodoxa" data-i18n="opening.qgd">GDR Ortodoxa [D60]</option>
+                                <option value="eslava" data-i18n="opening.slav">Defensa Eslava [D10]</option>
+                                <option value="semi-eslava" data-i18n="opening.semiSlav">Semi-Eslava [D43]</option>
+                                <option value="grunfeld" data-i18n="opening.grunfeld">Defensa Grünfeld [D85]</option>
                             </optgroup>
-                            <optgroup label="1.d4 Kf6 2.c4— Defensas Indias">
-                                <option value="india-rey">India de Rey [E60]</option>
-                                <option value="nimzo-india">Nimzo-India [E20]</option>
-                                <option value="india-dama">India de Dama [E12]</option>
-                                <option value="bogo-india">Bogo-India [E11]</option>
-                                <option value="benoni">Benoni Moderna [A60]</option>
-                                <option value="budapest">Gambito Budapest [A52]</option>
-                                <option value="holandesa">Defensa Holandesa [A80]</option>
+                            <optgroup data-i18n="opening.groupIndian" label="1.d4 Kf6 2.c4— Defensas Indias">
+                                <option value="india-rey" data-i18n="opening.kingsIndian">India de Rey [E60]</option>
+                                <option value="nimzo-india" data-i18n="opening.nimzo">Nimzo-India [E20]</option>
+                                <option value="india-dama" data-i18n="opening.queensIndian">India de Dama [E12]</option>
+                                <option value="bogo-india" data-i18n="opening.bogo">Bogo-India [E11]</option>
+                                <option value="benoni" data-i18n="opening.benoni">Benoni Moderna [A60]</option>
+                                <option value="budapest" data-i18n="opening.budapest">Gambito Budapest [A52]</option>
+                                <option value="holandesa" data-i18n="opening.dutch">Defensa Holandesa [A80]</option>
                             </optgroup>
-                            <optgroup label="1.d4 — Sistemas">
-                                <option value="londres">Sistema Londres [D02]</option>
-                                <option value="colle">Sistema Colle [D05]</option>
-                                <option value="trompowsky">Apertura Trompowsky [A45]</option>
-                                <option value="torre">Ataque Torre [A46]</option>
+                            <optgroup data-i18n="opening.groupSystems" label="1.d4 — Sistemas">
+                                <option value="londres" data-i18n="opening.london">Sistema Londres [D02]</option>
+                                <option value="colle" data-i18n="opening.colle">Sistema Colle [D05]</option>
+                                <option value="trompowsky" data-i18n="opening.trompowsky">Apertura Trompowsky [A45]</option>
+                                <option value="torre" data-i18n="opening.torre">Ataque Torre [A46]</option>
                             </optgroup>
-                            <optgroup label="Otras Aperturas">
-                                <option value="inglesa">Apertura Inglesa [A20]</option>
-                                <option value="reti">Apertura Réti [A09]</option>
-                                <option value="catalana">Apertura Catalana [E01]</option>
-                                <option value="larsen">Apertura Larsen [A01]</option>
-                                <option value="bird">Apertura Bird [A02]</option>
+                            <optgroup data-i18n="opening.groupOther" label="Otras Aperturas">
+                                <option value="inglesa" data-i18n="opening.english">Apertura Inglesa [A20]</option>
+                                <option value="reti" data-i18n="opening.reti">Apertura Réti [A09]</option>
+                                <option value="catalana" data-i18n="opening.catalan">Apertura Catalana [E01]</option>
+                                <option value="larsen" data-i18n="opening.larsen">Apertura Larsen [A01]</option>
+                                <option value="bird" data-i18n="opening.bird">Apertura Bird [A02]</option>
                             </optgroup>
                         </select>
                     </div>
@@ -180,9 +195,9 @@ try {
                         <p id="opening-training-desc" class="training-desc"></p>
                         <div id="opening-winrate" class="opening-winrate" style="display:none;"></div>
                     </div>
-                    <button id="start-opening-training" class="btn btn-primary" style="margin-bottom:8px;margin-top:8px;width:100%">♟ Iniciar Entrenamiento</button>
-                    <button id="show-known-variants" class="btn btn-secondary" disabled>📖 Variantes Conocidas</button>
-                    <button id="start-opening-quiz" class="btn btn-warning" disabled>🧠 Quiz: Adivina el Movimiento</button>
+                    <button id="start-opening-training" class="btn btn-primary" style="margin-bottom:8px;margin-top:8px;width:100%" data-i18n="opening.startTraining">♟ Iniciar Entrenamiento</button>
+                    <button id="show-known-variants" class="btn btn-secondary" disabled data-i18n="opening.knownVariants">📖 Variantes Conocidas</button>
+                    <button id="start-opening-quiz" class="btn btn-warning" disabled data-i18n="opening.quiz">🧠 Quiz: Adivina el Movimiento</button>
                     <div id="quiz-score" class="quiz-score" style="display:none;">
                         <span class="quiz-correct">✓ <span id="quiz-correct-count">0</span></span>
                         <span class="quiz-wrong">✗ <span id="quiz-wrong-count">0</span></span>
@@ -191,29 +206,29 @@ try {
                 </div>
 
                 <div class="panel panel-collapsible collapsed" id="puzzles-panel">
-                    <h2 class="panel-toggle">🧩 Problemas de Ajedrez <span class="panel-arrow">▲</span></h2>
+                    <h2 class="panel-toggle"><span data-i18n="panel.puzzles">🧩 Problemas de Ajedrez</span> <span class="panel-arrow">▲</span></h2>
                     <div class="panel-body">
                     <div class="config-section">
-                        <div class="fce-library-summary">~5,5 millones de problemas</div>
-                        <label class="famous-section-label">Categoría:</label>
+                        <div class="fce-library-summary" data-i18n="puzzle.millions">~5,5 millones de problemas</div>
+                        <label class="famous-section-label" data-i18n="puzzle.category">Categoría:</label>
                         <select id="puzzle-theme-select" class="select">
-                            <option value="all">— Todas —</option>
-                            <option value="mate1">♔ Mate en 1</option>
-                            <option value="mate2">♔ Mate en 2</option>
-                            <option value="mate3">♔ Mate en 3</option>
-                            <option value="mate4">♔ Mate en 4</option>
-                            <option value="mate5">♔ Mate en 5</option>
-                            <option value="fork">⚔️ Horquilla / Doble ataque</option>
-                            <option value="pin">📌 Clavada</option>
-                            <option value="sacrifice">💎 Sacrificio</option>
-                            <option value="attack">⚡ Ataque</option>
-                            <option value="defense">🛡️ Defensa</option>
-                            <option value="endgame">♟ Finales</option>
-                            <option value="center">🎯 Control central</option>
-                            <option value="capture">🔄 Captura táctica</option>
-                            <option value="development">📐 Desarrollo</option>
-                            <option value="tactic">🧠 Táctica general</option>
-                            <option value="other">🎲 Otros</option>
+                            <option value="all" data-i18n="puzzle.all">— Todas —</option>
+                            <option value="mate1" data-i18n="puzzle.mate1">♔ Mate en 1</option>
+                            <option value="mate2" data-i18n="puzzle.mate2">♔ Mate en 2</option>
+                            <option value="mate3" data-i18n="puzzle.mate3">♔ Mate en 3</option>
+                            <option value="mate4" data-i18n="puzzle.mate4">♔ Mate en 4</option>
+                            <option value="mate5" data-i18n="puzzle.mate5">♔ Mate en 5</option>
+                            <option value="fork" data-i18n="puzzle.fork">⚔️ Horquilla / Doble ataque</option>
+                            <option value="pin" data-i18n="puzzle.pin">📌 Clavada</option>
+                            <option value="sacrifice" data-i18n="puzzle.sacrifice">💎 Sacrificio</option>
+                            <option value="attack" data-i18n="puzzle.attack">⚡ Ataque</option>
+                            <option value="defense" data-i18n="puzzle.defense">🛡️ Defensa</option>
+                            <option value="endgame" data-i18n="puzzle.endgame">♟ Finales</option>
+                            <option value="center" data-i18n="puzzle.center">🎯 Control central</option>
+                            <option value="capture" data-i18n="puzzle.capture">🔄 Captura táctica</option>
+                            <option value="development" data-i18n="puzzle.development">📐 Desarrollo</option>
+                            <option value="tactic" data-i18n="puzzle.tactic">🧠 Táctica general</option>
+                            <option value="other" data-i18n="puzzle.other">🎲 Otros</option>
                         </select>
                     </div>
                     <div id="puzzle-info" style="margin-top:8px;">
@@ -222,8 +237,8 @@ try {
                         <p id="puzzle-instruction" class="training-desc" style="font-style:normal;color:#1e40af;font-weight:600;"></p>
                         <div id="puzzle-feedback" class="puzzle-feedback" style="display:none;"></div>
                         <div class="puzzle-actions" style="margin-top:6px;">
-                            <button id="puzzle-hint" class="btn btn-yellow btn-sm" disabled>💡 Pista</button>
-                            <button id="puzzle-solution" class="btn btn-blue btn-sm" disabled>👁 Ver solución</button>
+                            <button id="puzzle-hint" class="btn btn-yellow btn-sm" disabled data-i18n="puzzle.hint">💡 Pista</button>
+                            <button id="puzzle-solution" class="btn btn-blue btn-sm" disabled data-i18n="puzzle.solution">👁 Ver solución</button>
                         </div>
                     </div>
                     <div id="puzzle-stats" class="puzzle-stats">
@@ -235,13 +250,13 @@ try {
                 </div>
 
                 <div class="panel panel-collapsible collapsed" id="famous-panel">
-                    <h2 class="panel-toggle">🏆 Partidas Maestras <span class="panel-arrow">▲</span></h2>
+                    <h2 class="panel-toggle"><span data-i18n="panel.famous">🏆 Partidas Maestras</span> <span class="panel-arrow">▲</span></h2>
                     <div class="panel-body">
                     <div class="config-section">
-                        <label class="famous-section-label">⭐ Partidas Seleccionadas</label>
+                        <label class="famous-section-label" data-i18n="famous.selected">⭐ Partidas Seleccionadas</label>
                         <select id="famous-game-select" class="select select-wide">
-                            <option value="">— Elegir partida —</option>
-                            <optgroup label="♔ Partidas Inmortales y Clásicas">
+                            <option value="" data-i18n="famous.choose">— Elegir partida —</option>
+                            <optgroup data-i18n="famous.immortalGroup" label="♔ Partidas Inmortales y Clásicas">
                                 <option value="immortal">La Partida Inmortal (Anderssen, 1851) (1-0)</option>
                                 <option value="evergreen">La Siempre Verde (Anderssen, 1852) (1-0)</option>
                                 <option value="opera">La Partida de la Ópera (Morphy, 1858) (1-0)</option>
@@ -253,7 +268,7 @@ try {
                                 <option value="nezhmetdinov-chernikov">Nezhmetdinov vs Chernikov (1962) (1-0)</option>
                                 <option value="mcdonell-labourdonnais">McDonnell vs La Bourdonnais (1834) (0-1)</option>
                             </optgroup>
-                            <optgroup label="⚔️ Campeonatos del Mundo">
+                            <optgroup data-i18n="famous.worldChamps" label="⚔️ Campeonatos del Mundo">
                                 <option value="steinitz-zukertort-86">Steinitz vs Zukertort, 1886 G1 — Primer campeonato (0-1)</option>
                                 <option value="spassky-fischer-72-g1">Spassky vs Fischer, 1972 G1 (1-0)</option>
                                 <option value="fischer-spassky">Fischer vs Spassky, 1972 G6 (1-0)</option>
@@ -273,7 +288,7 @@ try {
                                 <option value="capablanca-alekhine-27">Capablanca vs Alekhine, 1927 G34 (1-0)</option>
                                 <option value="petrosian-spassky-66">Petrosian vs Spassky, 1966 G10 (1-0)</option>
                             </optgroup>
-                            <optgroup label="🏆 FIDE Candidates 2026 Cyprus">
+                            <optgroup data-i18n="famous.candidates" label="🏆 FIDE Candidates 2026 Cyprus">
                                 <option value="cand26-caruana-nakamura-r1">Caruana vs Nakamura R1 (1-0)</option>
                                 <option value="cand26-sindarov-esipenko-r1">Sindarov vs Esipenko R1 (1-0)</option>
                                 <option value="cand26-zhu-tan-r1">Zhu vs Tan R1 (1/2-1/2)</option>
@@ -442,7 +457,7 @@ try {
                                 <option value="botvinnik-capablanca">Botvinnik vs Capablanca, 1938 (1-0)</option>
                                 <option value="smyslov-reshevsky">Smyslov vs Reshevsky, 1945 (1-0)</option>
                             </optgroup>
-                            <optgroup label="🌟 Otros Maestros">
+                            <optgroup data-i18n="famous.otherMasters" label="🌟 Otros Maestros">
                                 <option value="short-timman">Short vs Timman, 1991 (1-0)</option>
                                 <option value="topalov-shirov">Topalov vs Shirov, 1998 (0-1)</option>
                                 <option value="ivanchuk-yusupov">Ivanchuk vs Yusupov, 1991 (0-1)</option>
@@ -456,45 +471,45 @@ try {
                             </optgroup>
                         </select>
                     </div>
-                    <div class="famous-panel-divider"><span class="fpd-title">📚 Biblioteca de jugadores</span><span id="famous-library-summary" class="fpd-sub">~253 jugadores · ~264.236 partidas</span></div>
+                    <div class="famous-panel-divider"><span class="fpd-title" data-i18n="famous.library">📚 Biblioteca de jugadores</span><span id="famous-library-summary" class="fpd-sub">~253 jugadores · ~264.236 partidas</span></div>
                     <div class="config-section">
-                        <label class="famous-section-label">Selecciona un jugador:</label>
+                        <label class="famous-section-label" data-i18n="famous.selectPlayer">Selecciona un jugador:</label>
                         <select id="famous-player-select" class="select select-alphabetic">
-                            <option value="">— Todos los jugadores —</option>
+                            <option value="" data-i18n="famous.allPlayers">— Todos los jugadores —</option>
                         </select>
                     </div>
                     <div class="config-section" id="library-game-section" style="display:none">
-                        <label class="famous-section-label">Selecciona una partida:</label>
-                        <select id="library-game-select" class="select select-game-table" aria-label="Selecciona una partida">
-                            <option value="">— Elegir partida —</option>
+                        <label class="famous-section-label" data-i18n="famous.selectGame">Selecciona una partida:</label>
+                        <select id="library-game-select" class="select select-game-table" data-i18n-aria="famous.selectGame" aria-label="Selecciona una partida">
+                            <option value="" data-i18n="famous.choose">— Elegir partida —</option>
                         </select>
                     </div>
                     </div>
                 </div>
 
                 <div class="panel panel-collapsible collapsed" id="cat-league-panel">
-                    <h2 class="panel-toggle">🏁 Partides Lliga CAT <span class="panel-arrow">▲</span></h2>
+                    <h2 class="panel-toggle"><span data-i18n="panel.catLeague">🏁 Partides Lliga CAT</span> <span class="panel-arrow">▲</span></h2>
                     <div class="panel-body">
                         <div class="config-section">
-                            <div id="fce-library-summary" class="fce-library-summary" aria-live="polite">Cargando biblioteca…</div>
-                            <label class="famous-section-label">Selecciona un jugador:</label>
+                            <div id="fce-library-summary" class="fce-library-summary" aria-live="polite" data-i18n="famous.loadingLibrary">Cargando biblioteca…</div>
+                            <label class="famous-section-label" data-i18n="famous.selectPlayer">Selecciona un jugador:</label>
                             <select id="fce-player-select" class="select select-alphabetic">
-                                <option value="">— Todos los jugadores —</option>
+                                <option value="" data-i18n="famous.allPlayers">— Todos los jugadores —</option>
                             </select>
                         </div>
                         <div class="config-section" id="fce-game-section" style="display:none">
-                            <label class="famous-section-label">Selecciona una partida:</label>
-                            <select id="fce-game-select" class="select select-game-table" aria-label="Selecciona una partida">
-                                <option value="">— Elegir partida —</option>
+                            <label class="famous-section-label" data-i18n="famous.selectGame">Selecciona una partida:</label>
+                            <select id="fce-game-select" class="select select-game-table" data-i18n-aria="famous.selectGame" aria-label="Selecciona una partida">
+                                <option value="" data-i18n="famous.choose">— Elegir partida —</option>
                             </select>
                         </div>
                     </div>
                 </div>
 
                 <div class="panel panel-collapsible collapsed" id="learn-panel">
-                    <h2 class="panel-toggle"><span>📚 Aprende Ajedrez <span class="under-construction-badge">🚧 En construcción</span></span> <span class="panel-arrow">▲</span></h2>
+                    <h2 class="panel-toggle"><span><span data-i18n="panel.learn">📚 Aprende Ajedrez</span> <span class="under-construction-badge" data-i18n="underConstruction">🚧 En construcción</span></span> <span class="panel-arrow">▲</span></h2>
                     <div class="panel-body">
-                        <div class="learn-under-construction">🚧 Sección en construcción: puede haber lecciones incompletas o cambios frecuentes.</div>
+                        <div class="learn-under-construction" data-i18n="learn.underConstruction">🚧 Sección en construcción: puede haber lecciones incompletas o cambios frecuentes.</div>
                         <div class="learn-progress-bar"><div id="learn-progress-fill" class="learn-progress-fill" style="width:0%"></div></div>
                         <div id="learn-lesson-list" class="learn-lesson-list"></div>
                         <div id="learn-active-info" class="learn-active-info" style="display:none;">
@@ -503,8 +518,8 @@ try {
                             <p id="learn-panel-instruction" class="learn-instruction"></p>
                             <div id="learn-panel-feedback" class="learn-feedback" style="display:none;"></div>
                             <div class="learn-btn-row">
-                                <button id="learn-hint-btn" class="btn btn-yellow btn-sm" disabled>💡 Pista</button>
-                                <button id="learn-exit-btn" class="btn btn-secondary btn-sm">✕ Salir</button>
+                                <button id="learn-hint-btn" class="btn btn-yellow btn-sm" disabled data-i18n="learn.hint">💡 Pista</button>
+                                <button id="learn-exit-btn" class="btn btn-secondary btn-sm" data-i18n="learn.exit">✕ Salir</button>
                             </div>
                         </div>
                     </div>
@@ -533,24 +548,24 @@ try {
                 </div>
                        <!-- Navegación de problemas bajo el tablero -->
                        <div id="puzzle-board-nav" class="puzzle-board-nav" style="display:none;">
-                           <button id="puzzle-prev-board" class="puzzle-board-nav-btn" type="button" title="Problema anterior">
+                           <button id="puzzle-prev-board" class="puzzle-board-nav-btn" type="button" data-i18n-title="puzzle.prev" title="Problema anterior">
                                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
                            </button>
                            <span id="puzzle-board-nav-label" class="puzzle-board-nav-label"></span>
-                           <button id="puzzle-next-board" class="puzzle-board-nav-btn" type="button" title="Siguiente problema">
+                           <button id="puzzle-next-board" class="puzzle-board-nav-btn" type="button" data-i18n-title="puzzle.next" title="Siguiente problema">
                                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
                            </button>
-                           <button id="puzzle-close-board" class="puzzle-board-nav-btn puzzle-board-close-btn" type="button" title="Cerrar problemas">
+                           <button id="puzzle-close-board" class="puzzle-board-nav-btn puzzle-board-close-btn" type="button" data-i18n-title="puzzle.close" title="Cerrar problemas">
                                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
                            </button>
                        </div>
                        <!-- Navegación de errores del análisis (visible al analizar) -->
                        <div id="analysis-errors-nav" class="analysis-errors-nav" style="display: none;">
-                           <button id="analysis-nav-summary" class="analysis-nav-btn analysis-nav-summary-btn" title="Ver resumen del análisis">📊</button>
-                           <button id="analysis-nav-prev" class="analysis-nav-btn" title="Error anterior">‹</button>
+                           <button id="analysis-nav-summary" class="analysis-nav-btn analysis-nav-summary-btn" data-i18n-title="analysis.summaryNav" title="Ver resumen del análisis">📊</button>
+                           <button id="analysis-nav-prev" class="analysis-nav-btn" data-i18n-title="analysis.prevError" title="Error anterior">‹</button>
                            <span id="analysis-nav-label" class="analysis-nav-label"></span>
-                           <button id="analysis-nav-next" class="analysis-nav-btn" title="Siguiente error">›</button>
-                           <button id="analysis-nav-close" class="analysis-nav-btn analysis-nav-list-btn" title="Cerrar análisis">✕</button>
+                           <button id="analysis-nav-next" class="analysis-nav-btn" data-i18n-title="analysis.nextError" title="Siguiente error">›</button>
+                           <button id="analysis-nav-close" class="analysis-nav-btn analysis-nav-list-btn" data-i18n-title="analysis.close" title="Cerrar análisis">✕</button>
                        </div>
                        <!-- Mini-reloj compacto bajo el tablero + ELO a la derecha -->
                        <div class="mini-clock-elo-row" id="mini-clock-elo-row">
@@ -564,41 +579,41 @@ try {
                                    <span class="mini-clock-time" id="mini-black-time">3:00</span>
                                </div>
                            </div>
-                          <div class="mini-elo-display" title="Tu ELO">
+                          <div class="mini-elo-display" data-i18n-title="stats.eloTitle" title="Tu ELO">
                               <span class="mini-elo-label">ELO:&nbsp;</span><span class="mini-elo-value" id="mini-elo-value">1200</span>
                           </div>
-                          <button id="flip-board-btn" class="btn-flip-board" title="Girar tablero">
+                          <button id="flip-board-btn" class="btn-flip-board" data-i18n-title="flipBoard" title="Girar tablero">
                               <span class="fhalf fhalf--dark">♚</span><span class="fhalf fhalf--light">♔</span>
                           </button>
-                          <button id="puzzle-board-hint" class="btn-icon btn-yellow mini-puzzle-board-btn" title="Pista" disabled aria-label="Pista">💡</button>
-                          <button id="puzzle-board-solution" class="btn-icon btn-blue mini-puzzle-board-btn" title="Ver solución" disabled aria-label="Ver solución">👁</button>
-                          <button id="share-board" class="btn-icon btn-share mini-share-btn" title="Compartir">🔗</button>
+                          <button id="puzzle-board-hint" class="btn-icon btn-yellow mini-puzzle-board-btn" data-i18n-title="puzzle.hint" data-i18n-aria="puzzle.hint" title="Pista" disabled aria-label="Pista">💡</button>
+                          <button id="puzzle-board-solution" class="btn-icon btn-blue mini-puzzle-board-btn" data-i18n-title="puzzle.solution" data-i18n-aria="puzzle.solution" title="Ver solución" disabled aria-label="Ver solución">👁</button>
+                          <button id="share-board" class="btn-icon btn-share mini-share-btn" data-i18n-title="action.shareShort" title="Compartir">🔗</button>
                        </div>
                        <div id="captured-below" class="captured-below">
-                           <span class="captured-label captured-label-white">Blancas: <span id="captured-white"></span></span>
-                           <span class="captured-label captured-label-black">Negras: <span id="captured-black"></span></span>
+                           <span class="captured-label captured-label-white"><span data-i18n="captured.white">Blancas: </span><span id="captured-white"></span></span>
+                           <span class="captured-label captured-label-black"><span data-i18n="captured.black">Negras: </span><span id="captured-black"></span></span>
                        </div>
                        <!-- Botones de acción (solo iconos) debajo del tablero -->
                        <div class="board-action-buttons">
-                           <button id="resign-game" class="btn-icon btn-danger" title="Abandonar">🏳️</button>
-                           <button id="offer-draw" class="btn-icon btn-warning" title="Pedir Tablas">🤝</button>
-                           <button id="resume-game" class="btn-icon btn-success" title="Continuar Partida">▶</button>
-                           <button id="undo-move" class="btn-icon btn-primary" title="Deshacer Movimiento">↺</button>
-                           <button id="hint-move" class="btn-icon btn-yellow" title="Sugerencia de IA">💡</button>
-                           <button id="analyze-game" class="btn-icon btn-orange" title="Analizar Partida">📊</button>
-                           <button id="copy-pgn-board" class="btn-icon btn-primary" title="Copiar PGN">📋</button>
+                           <button id="resign-game" class="btn-icon btn-danger" data-i18n-title="action.resign" title="Abandonar">🏳️</button>
+                           <button id="offer-draw" class="btn-icon btn-warning" data-i18n-title="action.draw" title="Pedir Tablas">🤝</button>
+                           <button id="resume-game" class="btn-icon btn-success" data-i18n-title="action.continue" title="Continuar Partida">▶</button>
+                           <button id="undo-move" class="btn-icon btn-primary" data-i18n-title="action.undo" title="Deshacer Movimiento">↺</button>
+                           <button id="hint-move" class="btn-icon btn-yellow" data-i18n-title="action.hint" title="Sugerencia de IA">💡</button>
+                           <button id="analyze-game" class="btn-icon btn-orange" data-i18n-title="action.analyze" title="Analizar Partida">📊</button>
+                           <button id="copy-pgn-board" class="btn-icon btn-primary" data-i18n-title="action.copyPgn" title="Copiar PGN">📋</button>
                 </div>
                        <div id="thinking-indicator" class="thinking-indicator" style="display: none;">
                            <div class="spinner"></div>
-                           <p>La IA está calculando...</p>
+                           <p data-i18n="thinking">La IA está calculando...</p>
                        </div>
                        <!-- Historial de movimientos con navegación -->
                        <div class="move-navigator">
-                           <button id="nav-first" class="nav-btn" title="Ir al inicio">⏮</button>
-                           <button id="nav-prev" class="nav-btn" title="Movimiento anterior">◀</button>
+                           <button id="nav-first" class="nav-btn" data-i18n-title="nav.first" title="Ir al inicio">⏮</button>
+                           <button id="nav-prev" class="nav-btn" data-i18n-title="nav.prev" title="Movimiento anterior">◀</button>
                            <div id="move-history-display" class="move-history-display"></div>
-                           <button id="nav-next" class="nav-btn" title="Siguiente movimiento">▶</button>
-                           <button id="nav-last" class="nav-btn" title="Ir al final">⏭</button>
+                           <button id="nav-next" class="nav-btn" data-i18n-title="nav.next" title="Siguiente movimiento">▶</button>
+                           <button id="nav-last" class="nav-btn" data-i18n-title="nav.last" title="Ir al final">⏭</button>
                        </div>
                        <!-- Barra de evaluación horizontal (solo responsive, bajo movimientos) -->
                        <div class="eval-bar-container eval-bar-mobile" id="eval-bar-mobile">
@@ -609,7 +624,7 @@ try {
                        </div>
                        <div id="promotion-overlay" class="promotion-overlay" style="display: none;">
                            <div class="promotion-dialog">
-                               <p class="promotion-title">Promocionar peón a:</p>
+                               <p class="promotion-title" data-i18n="promo.title">Promocionar peón a:</p>
                                <div class="promotion-pieces" id="promotion-pieces"></div>
                            </div>
                        </div>
@@ -619,28 +634,28 @@ try {
                 <div id="analysis-overlay" class="analysis-overlay" style="display: none;">
                     <div class="analysis-modal">
                         <div class="analysis-title-bar">
-                            <h3 class="analysis-title">📊 Análisis post-partida</h3>
-                            <button id="analysis-close-x" class="analysis-close-x" title="Cerrar">✕</button>
+                            <h3 class="analysis-title" data-i18n="analysis.title">📊 Análisis post-partida</h3>
+                            <button id="analysis-close-x" class="analysis-close-x" data-i18n-title="close" title="Cerrar">✕</button>
                         </div>
-                        <div id="analysis-loading" class="analysis-loading">Movimientos analizados: 0 / 0</div>
+                        <div id="analysis-loading" class="analysis-loading" data-i18n="analysis.loadingDefault">Movimientos analizados: 0 / 0</div>
                         <div id="analysis-content" class="analysis-content" style="display: none;">
                             <div id="analysis-summary" class="analysis-summary"></div>
                             <div id="analysis-mistakes" class="analysis-mistakes"></div>
-                            <button id="analysis-close" class="btn btn-primary">Cerrar</button>
+                            <button id="analysis-close" class="btn btn-primary" data-i18n="close">Cerrar</button>
                         </div>
                     </div>
                 </div>
 
                 <div class="panel panel-collapsible" id="clock-panel">
-                    <h2 class="panel-toggle">⏱️ Reloj de Ajedrez <span class="panel-arrow">▲</span></h2>
+                    <h2 class="panel-toggle"><span data-i18n="panel.clock">⏱️ Reloj de Ajedrez</span> <span class="panel-arrow">▲</span></h2>
                     <div class="panel-body">
                     <div id="chess-clock" class="chess-clock">
                         <div class="clock-player">
-                            <div class="clock-label">Blancas</div>
+                            <div class="clock-label" data-i18n="clock.white">Blancas</div>
                             <div class="clock-time" id="white-time">3:00</div>
                         </div>
                         <div class="clock-player">
-                            <div class="clock-label">Negras</div>
+                            <div class="clock-label" data-i18n="clock.black">Negras</div>
                             <div class="clock-time" id="black-time">3:00</div>
                         </div>
                     </div>
@@ -649,7 +664,7 @@ try {
 
                        <div class="panel panel-collapsible online-chat-panel" id="online-chat-panel" style="display:none;">
                            <h2 class="panel-toggle">
-                               💬 Chat <span class="online-chat-opponent" id="online-chat-opponent"></span>
+                               💬 <span data-i18n="panel.chat">Chat</span> <span class="online-chat-opponent" id="online-chat-opponent"></span>
                                <span class="online-chat-badge" id="online-chat-badge" style="display:none;">0</span>
                                <span class="panel-arrow">▲</span>
                            </h2>
@@ -657,22 +672,30 @@ try {
                                <div class="online-chat-messages" id="online-chat-messages" aria-live="polite"></div>
                                <form class="online-chat-form" id="online-chat-form" autocomplete="off">
                                    <input type="text" id="online-chat-input" class="online-chat-input"
-                                          placeholder="Escribe un mensaje…" maxlength="500"
-                                          aria-label="Mensaje para el oponente">
-                                   <button type="submit" class="online-chat-send" id="online-chat-send" title="Enviar">➤</button>
+                                          data-i18n-placeholder="chat.placeholder" placeholder="Escribe un mensaje…" maxlength="500"
+                                          data-i18n-aria="chat.aria" aria-label="Mensaje para el oponente">
+                                   <button type="submit" class="online-chat-send" id="online-chat-send" data-i18n-title="chat.send" title="Enviar">➤</button>
                                </form>
                            </div>
                        </div>
 
-                <button id="new-game-mobile" type="button" class="btn btn-success btn-new-game-top btn-new-game--mobile" aria-label="Nueva Partida">♟ Nueva Partida</button>
+                <button id="new-game-mobile" type="button" class="btn btn-success btn-new-game-top btn-new-game--mobile" data-i18n="newGame" data-i18n-aria="newGame" aria-label="Nueva Partida">♟ Nueva Partida</button>
 
                 <div class="panel panel-collapsible collapsed" id="config-panel">
-                    <h2 class="panel-toggle" id="config-toggle">⚙️ Configuración <span class="panel-arrow">▲</span></h2>
+                    <h2 class="panel-toggle" id="config-toggle"><span data-i18n="panel.config">⚙️ Configuración</span> <span class="panel-arrow">▲</span></h2>
                     <div class="panel-body" id="config-body">
+
+                    <div class="config-section">
+                        <label for="language-select" data-i18n="config.language">Idioma:</label>
+                        <select id="language-select" class="select">
+                            <option value="es">Español</option>
+                            <option value="en">English</option>
+                        </select>
+                    </div>
 
                     <div class="config-section config-row-nickname">
                         <input type="hidden" id="player-nickname" value="Jugador">
-                        <button id="login-status-btn" class="login-status-btn" type="button" title="Iniciar sesión online">
+                        <button id="login-status-btn" class="login-status-btn" type="button" data-i18n-title="login.startTitle" title="Iniciar sesión online">
                             <span class="login-status-avatar" id="login-status-avatar">👤</span>
                             <span class="login-status-text" id="login-status-text">Iniciar Sesión</span>
                         </button>
@@ -680,18 +703,18 @@ try {
 
                     <div class="config-section config-player-color nueva-partida-config" id="color-picker-section">
                         <label id="juegas-con-label">Juegas con:</label>
-                        <div class="player-color-picker" id="player-color-picker" role="group" aria-label="Juegas con">
-                            <button type="button" class="player-color-option player-color-option--selected" data-color="white" id="player-color-btn-white" title="Blancas" aria-label="Jugar con blancas" aria-pressed="true">
+                        <div class="player-color-picker" id="player-color-picker" role="group" data-i18n-aria="config.playAs" aria-label="Juegas con">
+                            <button type="button" class="player-color-option player-color-option--selected" data-color="white" id="player-color-btn-white" data-i18n-title="color.white" data-i18n-aria="color.playWhite" title="Blancas" aria-label="Jugar con blancas" aria-pressed="true">
                                 <span class="player-color-pawn-wrap">
                                     <img id="player-color-pawn-white" class="player-color-pawn-img" src="pieces/cburnett/wP.svg" alt="">
                                 </span>
                             </button>
-                            <button type="button" class="player-color-option" data-color="black" id="player-color-btn-black" title="Negras" aria-label="Jugar con negras" aria-pressed="false">
+                            <button type="button" class="player-color-option" data-color="black" id="player-color-btn-black" data-i18n-title="color.black" data-i18n-aria="color.playBlack" title="Negras" aria-label="Jugar con negras" aria-pressed="false">
                                 <span class="player-color-pawn-wrap">
                                     <img id="player-color-pawn-black" class="player-color-pawn-img" src="pieces/cburnett/bP.svg" alt="">
                                 </span>
                             </button>
-                            <button type="button" class="player-color-option" data-color="random" id="player-color-btn-random" title="Aleatorio" aria-label="Color aleatorio" aria-pressed="false">
+                            <button type="button" class="player-color-option" data-color="random" id="player-color-btn-random" data-i18n-title="color.random" data-i18n-aria="color.playRandom" title="Aleatorio" aria-label="Color aleatorio" aria-pressed="false">
                                 <span class="player-color-pawn-wrap">
                                     <span class="player-color-pawn-txt is-visible" aria-hidden="true">🎲</span>
                                 </span>
@@ -702,23 +725,23 @@ try {
 
                     <div class="config-section config-opponent nueva-partida-config">
                         <label id="juegas-contra-label">Juegas Contra:</label>
-                        <div class="player-color-picker" id="player-opponent-picker" role="group" aria-label="Juegas contra">
-                            <button type="button" class="player-color-option player-color-option--selected" data-mode="ai" id="opponent-btn-ai" title="Inteligencia Artificial" aria-label="Jugar contra IA" aria-pressed="true">
+                        <div class="player-color-picker" id="player-opponent-picker" role="group" data-i18n-aria="config.playVs" aria-label="Juegas contra">
+                            <button type="button" class="player-color-option player-color-option--selected" data-mode="ai" id="opponent-btn-ai" data-i18n-title="opp.aiTitle" data-i18n-aria="opp.aiTitle" title="Inteligencia Artificial" aria-label="Jugar contra IA" aria-pressed="true">
                                 <span class="player-color-pawn-wrap">
                                     <span class="player-color-pawn-txt is-visible" aria-hidden="true">💻</span>
                                 </span>
                             </button>
-                            <button type="button" class="player-color-option" data-mode="online" id="opponent-btn-online" title="Jugar online" aria-label="Jugar online" aria-pressed="false">
+                            <button type="button" class="player-color-option" data-mode="online" id="opponent-btn-online" data-i18n-title="opp.onlineTitle" data-i18n-aria="opp.onlineTitle" title="Jugar online" aria-label="Jugar online" aria-pressed="false">
                                 <span class="player-color-pawn-wrap">
                                     <span class="player-color-pawn-txt is-visible" aria-hidden="true">🌐</span>
                                 </span>
                             </button>
-                            <button type="button" class="player-color-option" data-mode="mail" id="opponent-btn-mail" title="Por correo" aria-label="Jugar por correo" aria-pressed="false">
+                            <button type="button" class="player-color-option" data-mode="mail" id="opponent-btn-mail" data-i18n-title="opp.mailTitle" data-i18n-aria="opp.mailTitle" title="Por correo" aria-label="Jugar por correo" aria-pressed="false">
                                 <span class="player-color-pawn-wrap">
                                     <span class="player-color-pawn-txt is-visible" aria-hidden="true">✉️</span>
                                 </span>
                             </button>
-                            <button type="button" class="player-color-option" data-mode="pvp" id="opponent-btn-pvp" title="Persona vs persona" aria-label="Persona vs persona" aria-pressed="false">
+                            <button type="button" class="player-color-option" data-mode="pvp" id="opponent-btn-pvp" data-i18n-title="opp.pvpTitle" data-i18n-aria="opp.pvpTitle" title="Persona vs persona" aria-label="Persona vs persona" aria-pressed="false">
                                 <span class="player-color-pawn-wrap">
                                     <span class="player-color-pawn-txt is-visible" aria-hidden="true">🧑</span>
                                 </span>
@@ -727,59 +750,59 @@ try {
                     </div>
 
                     <div class="config-section nueva-partida-config" id="ai-settings">
-                        <label>Nivel de Dificultad:</label>
+                        <label data-i18n="config.difficulty">Nivel de Dificultad:</label>
                         <select id="ai-difficulty" class="select">
-                            <option value="1" selected>Muy Fácil (~400 ELO)</option>
-                            <option value="2">Fácil (~600 ELO)</option>
-                            <option value="3">Principiante (~800 ELO)</option>
-                            <option value="4">Aficionado (~1000 ELO)</option>
-                            <option value="5">Intermedio (~1200 ELO)</option>
-                            <option value="6">Avanzado (~1500 ELO)</option>
-                            <option value="7">Experto (~1800 ELO)</option>
-                            <option value="8">Maestro (~2200 ELO)</option>
+                            <option value="1" selected data-i18n="level.1">Muy Fácil (~400 ELO)</option>
+                            <option value="2" data-i18n="level.2">Fácil (~600 ELO)</option>
+                            <option value="3" data-i18n="level.3">Principiante (~800 ELO)</option>
+                            <option value="4" data-i18n="level.4">Aficionado (~1000 ELO)</option>
+                            <option value="5" data-i18n="level.5">Intermedio (~1200 ELO)</option>
+                            <option value="6" data-i18n="level.6">Avanzado (~1500 ELO)</option>
+                            <option value="7" data-i18n="level.7">Experto (~1800 ELO)</option>
+                            <option value="8" data-i18n="level.8">Maestro (~2200 ELO)</option>
                         </select>
                     </div>
 
                     <div class="config-section nueva-partida-config">
-                        <label for="time-control">Control de Tiempo:</label>
+                        <label for="time-control" data-i18n="config.time">Control de Tiempo:</label>
                         <select id="time-control" class="select">
-                            <optgroup label="⚡ Bullet">
-                                <option value="1+0">1 min</option>
-                                <option value="1+1">1 min + 1 seg</option>
-                                <option value="2+1">2 min + 1 seg</option>
+                            <optgroup data-i18n="time.bullet" label="⚡ Bullet">
+                                <option value="1+0" data-i18n="time.1min">1 min</option>
+                                <option value="1+1" data-i18n="time.1plus1">1 min + 1 seg</option>
+                                <option value="2+1" data-i18n="time.2plus1">2 min + 1 seg</option>
                             </optgroup>
-                            <optgroup label="⚔️ Blitz">
-                                <option value="3+0">3 min</option>
-                                <option value="3+2">3 min + 2 seg</option>
-                                <option value="5+0">5 min</option>
-                                <option value="5+3">5 min + 3 seg</option>
+                            <optgroup data-i18n="time.blitz" label="⚔️ Blitz">
+                                <option value="3+0" data-i18n="time.3min">3 min</option>
+                                <option value="3+2" data-i18n="time.3plus2">3 min + 2 seg</option>
+                                <option value="5+0" data-i18n="time.5min">5 min</option>
+                                <option value="5+3" data-i18n="time.5plus3">5 min + 3 seg</option>
                             </optgroup>
-                            <optgroup label="🎯 Rápidas">
-                                <option value="10+0">10 min</option>
-                                <option value="10+5">10 min + 5 seg</option>
-                                <option value="15+10">15 min + 10 seg</option>
-                                <option value="30+0">30 min</option>
+                            <optgroup data-i18n="time.rapid" label="🎯 Rápidas">
+                                <option value="10+0" data-i18n="time.10min">10 min</option>
+                                <option value="10+5" data-i18n="time.10plus5">10 min + 5 seg</option>
+                                <option value="15+10" data-i18n="time.15plus10">15 min + 10 seg</option>
+                                <option value="30+0" data-i18n="time.30min">30 min</option>
                             </optgroup>
-                            <optgroup label="♔ Clásicas">
-                                <option value="60+0" selected>60 min</option>
-                                <option value="90+30">90 min + 30 seg</option>
+                            <optgroup data-i18n="time.classic" label="♔ Clásicas">
+                                <option value="60+0" selected data-i18n="time.60min">60 min</option>
+                                <option value="90+30" data-i18n="time.90plus30">90 min + 30 seg</option>
                             </optgroup>
                         </select>
                     </div>
 
                     <div class="config-section">
-                        <label>Tema del Tablero:</label>
+                        <label data-i18n="config.theme">Tema del Tablero:</label>
                         <select id="board-theme" class="select">
-                            <option value="classic">Clásico</option>
-                            <option value="wood">Madera</option>
-                            <option value="blue">Azul</option>
-                            <option value="green">Verde</option>
-                            <option value="gray">Gris</option>
+                            <option value="classic" data-i18n="theme.classic">Clásico</option>
+                            <option value="wood" data-i18n="theme.wood">Madera</option>
+                            <option value="blue" data-i18n="theme.blue">Azul</option>
+                            <option value="green" data-i18n="theme.green">Verde</option>
+                            <option value="gray" data-i18n="theme.gray">Gris</option>
                         </select>
                     </div>
 
                     <div class="config-section">
-                        <label>Estilo de Piezas:</label>
+                        <label data-i18n="config.pieces">Estilo de Piezas:</label>
                         <div class="piece-style-wrapper">
                             <img id="piece-style-preview" class="piece-style-preview" src="pieces/cburnett/bP.svg" alt="Preview">
                             <select id="piece-style" class="select">
@@ -795,59 +818,59 @@ try {
                                 <option value="horsey">Horsey</option>
                                 <option value="pixel">Pixel Art</option>
                                 <option value="fantasy">Fantasy</option>
-                                <option value="letter">Letras</option>
+                                <option value="letter" data-i18n="pieces.letter">Letras</option>
                             </select>
                         </div>
                     </div>
 
                     <div class="config-section config-checkbox">
-                        <label><input type="checkbox" id="show-coordinates"> Coordenadas en Casillas</label>
+                        <label><input type="checkbox" id="show-coordinates"><span data-i18n="config.coords"> Coordenadas en Casillas</span></label>
                     </div>
 
                     <div class="config-section config-checkbox">
-                        <label><input type="checkbox" id="board-3d" checked> Tablero 3D</label>
-                        <label><input type="checkbox" id="move-arrow-toggle" checked> Flecha movimiento</label>
+                        <label><input type="checkbox" id="board-3d" checked><span data-i18n="config.board3d"> Tablero 3D</span></label>
+                        <label><input type="checkbox" id="move-arrow-toggle" checked><span data-i18n="config.moveArrow"> Flecha movimiento</span></label>
                     </div>
 
                     <div class="config-section config-checkbox">
-                        <label><input type="checkbox" id="show-move-insights"> Mensajes de Ayuda</label>
+                        <label><input type="checkbox" id="show-move-insights"><span data-i18n="config.helpMsgs"> Mensajes de Ayuda</span></label>
                     </div>
 
                     <div class="config-section config-checkbox">
-                        <label><input type="checkbox" id="sound-enabled" checked> Sonidos</label>
+                        <label><input type="checkbox" id="sound-enabled" checked><span data-i18n="config.sounds"> Sonidos</span></label>
                     </div>
 
                     <div class="config-section">
-                        <label>🔍 Zoom — <span id="zoom-value">100%</span></label>
+                        <label><span data-i18n="config.zoom">🔍 Zoom — </span><span id="zoom-value">100%</span></label>
                         <input type="range" id="zoom-slider" min="70" max="120" step="10" value="100" class="zoom-slider">
                     </div>
 
                     <div class="config-section">
-                        <button type="button" id="config-help-btn" class="btn btn-secondary" style="width:100%">❓ Ayuda en Vídeo</button>
+                        <button type="button" id="config-help-btn" class="btn btn-secondary" style="width:100%" data-i18n="config.videoHelp">❓ Ayuda en Vídeo</button>
                     </div>
 
                     </div>
                 </div>
 
                        <div class="panel panel-collapsible collapsed" id="actions-panel">
-                           <h2 class="panel-toggle">⚡ Acciones <span class="panel-arrow">▲</span></h2>
+                           <h2 class="panel-toggle"><span data-i18n="panel.actions">⚡ Acciones</span> <span class="panel-arrow">▲</span></h2>
                            <div class="panel-body">
-                           <button id="resign-game-sidebar" class="btn btn-danger">🏳️ Abandonar</button>
-                           <button id="offer-draw-sidebar" class="btn btn-warning">🤝 Pedir Tablas</button>
-                           <button id="view-analysis" class="btn btn-primary" style="display: none;">📊 Ver análisis post-partida</button>
-                           <button id="resume-game-sidebar" class="btn btn-success">▶ Continuar Partida</button>
-                           <button id="undo-move-sidebar" class="btn btn-primary">↺ Deshacer Movimiento</button>
-                           <button id="hint-move-sidebar" class="btn btn-yellow">💡 Sugerencia de IA</button>
-                           <button id="analyze-game-sidebar" class="btn btn-orange">📊 Analizar Partida</button>
-                           <button id="copy-pgn" class="btn btn-primary">📋 Copiar PGN</button>
-                           <button id="export-pgn" class="btn btn-primary">📄 Exportar PGN</button>
-                           <button id="import-pgn" class="btn btn-primary">📥 Importar PGN</button>
-                           <button id="share-sidebar" class="btn btn-share">🔗 Compartir partida (+10 ELO)</button>
+                           <button id="resign-game-sidebar" class="btn btn-danger" data-i18n="action.resignBtn">🏳️ Abandonar</button>
+                           <button id="offer-draw-sidebar" class="btn btn-warning" data-i18n="action.drawBtn">🤝 Pedir Tablas</button>
+                           <button id="view-analysis" class="btn btn-primary" style="display: none;" data-i18n="action.viewAnalysis">📊 Ver análisis post-partida</button>
+                           <button id="resume-game-sidebar" class="btn btn-success" data-i18n="action.continueBtn">▶ Continuar Partida</button>
+                           <button id="undo-move-sidebar" class="btn btn-primary" data-i18n="action.undoBtn">↺ Deshacer Movimiento</button>
+                           <button id="hint-move-sidebar" class="btn btn-yellow" data-i18n="action.hintBtn">💡 Sugerencia de IA</button>
+                           <button id="analyze-game-sidebar" class="btn btn-orange" data-i18n="action.analyzeBtn">📊 Analizar Partida</button>
+                           <button id="copy-pgn" class="btn btn-primary" data-i18n="action.copyBtn">📋 Copiar PGN</button>
+                           <button id="export-pgn" class="btn btn-primary" data-i18n="action.exportBtn">📄 Exportar PGN</button>
+                           <button id="import-pgn" class="btn btn-primary" data-i18n="action.importBtn">📥 Importar PGN</button>
+                           <button id="share-sidebar" class="btn btn-share" data-i18n="action.share">🔗 Compartir partida (+10 ELO)</button>
                            </div>
                        </div>
 
                        <div class="panel panel-collapsible collapsed" id="stats-panel">
-                           <h2 class="panel-toggle">📊 Estadísticas <span class="panel-arrow">▲</span></h2>
+                           <h2 class="panel-toggle"><span data-i18n="panel.stats">📊 Estadísticas</span> <span class="panel-arrow">▲</span></h2>
                            <div class="panel-body">
                            <div class="stat-item stat-elo">
                                <div class="stat-label">ELO</div>
@@ -855,15 +878,15 @@ try {
                            </div>
                            <div class="stats-container">
                                <div class="stat-item stat-wins">
-                                   <div class="stat-label">Ganadas</div>
+                                   <div class="stat-label" data-i18n="stats.wins">Ganadas</div>
                                    <div class="stat-value" id="stat-wins">0</div>
                                </div>
                                <div class="stat-item stat-draws">
-                                   <div class="stat-label">Tablas</div>
+                                   <div class="stat-label" data-i18n="stats.draws">Tablas</div>
                                    <div class="stat-value" id="stat-draws">0</div>
                                </div>
                                <div class="stat-item stat-losses">
-                                   <div class="stat-label">Perdidas</div>
+                                   <div class="stat-label" data-i18n="stats.losses">Perdidas</div>
                                    <div class="stat-value" id="stat-losses">0</div>
                                </div>
                            </div>
@@ -877,7 +900,7 @@ try {
 
                        <button type="button" id="feedback-open-btn" class="sidebar-feedback-link">
                            <span class="sidebar-feedback-icon" aria-hidden="true">📧</span>
-                           <span class="sidebar-feedback-text">Informar de errores/mejoras</span>
+                           <span class="sidebar-feedback-text" data-i18n="feedback.link">Informar de errores/mejoras</span>
                        </button>
 
                        <footer class="app-footer">
@@ -893,14 +916,14 @@ try {
     <!-- Menú Ayuda: elegir panel / tema para abrir su vídeo tutorial -->
     <div id="help-menu-overlay" class="login-modal-overlay help-menu-overlay" role="dialog" aria-modal="true" aria-labelledby="help-menu-heading">
         <div class="login-modal-card help-menu-card">
-            <button type="button" class="login-modal-close" id="help-menu-close" title="Cerrar" aria-label="Cerrar">✕</button>
-            <h2 class="login-modal-title" id="help-menu-heading">Ayuda en vídeo</h2>
-            <p class="login-modal-subtitle help-menu-intro">Elige un tema para ver el tutorial en YouTube.</p>
+            <button type="button" class="login-modal-close" id="help-menu-close" data-i18n-title="close" data-i18n-aria="close" title="Cerrar" aria-label="Cerrar">✕</button>
+            <h2 class="login-modal-title" id="help-menu-heading" data-i18n="help.menu">Ayuda en vídeo</h2>
+            <p class="login-modal-subtitle help-menu-intro" data-i18n="help.intro">Elige un tema para ver el tutorial en YouTube.</p>
             <div class="help-menu-buttons">
-                <button type="button" id="help-menu-tutorial-completo-btn" class="btn btn-secondary help-menu-item-btn help-menu-tutorial-completo-btn">📚 Tutorial Completo</button>
+                <button type="button" id="help-menu-tutorial-completo-btn" class="btn btn-secondary help-menu-item-btn help-menu-tutorial-completo-btn" data-i18n="help.fullTutorial">📚 Tutorial Completo</button>
                 <ul class="help-menu-list" id="help-menu-list"></ul>
-                <button type="button" id="help-menu-analysis-btn" class="btn btn-secondary help-menu-item-btn help-menu-analysis-btn">📊 Análisis</button>
-                <button type="button" id="help-menu-share-btn" class="btn btn-secondary help-menu-item-btn help-menu-share-btn">📤 Compartir</button>
+                <button type="button" id="help-menu-analysis-btn" class="btn btn-secondary help-menu-item-btn help-menu-analysis-btn" data-i18n="help.analysis">📊 Análisis</button>
+                <button type="button" id="help-menu-share-btn" class="btn btn-secondary help-menu-item-btn help-menu-share-btn" data-i18n="help.share">📤 Compartir</button>
             </div>
         </div>
     </div>
@@ -909,18 +932,18 @@ try {
     <div id="help-modal-overlay" class="login-modal-overlay help-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="help-modal-title">
         <div class="login-modal-card help-modal-card" id="help-modal-card">
             <div class="help-modal-drag-handle" id="help-modal-drag-handle" role="presentation">
-                <button type="button" class="login-modal-close help-modal-close-in-drag" id="help-modal-close" title="Cerrar" aria-label="Cerrar">✕</button>
-                <h2 class="login-modal-title" id="help-modal-title">Ayuda · Introducción</h2>
+                <button type="button" class="login-modal-close help-modal-close-in-drag" id="help-modal-close" data-i18n-title="close" data-i18n-aria="close" title="Cerrar" aria-label="Cerrar">✕</button>
+                <h2 class="login-modal-title" id="help-modal-title" data-i18n="help.titleIntro">Ayuda · Introducción</h2>
             </div>
             <div class="help-modal-video-wrap">
                 <iframe id="help-modal-iframe" width="1536" height="864" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen src="about:blank"></iframe>
             </div>
             <div class="help-modal-open-wrap">
-                <button type="button" id="help-modal-sound-btn" class="btn btn-primary help-modal-open-secondary help-modal-sound-btn" style="display:none">Activar sonido</button>
-                <button type="button" id="help-modal-open-youtube" class="btn btn-secondary help-modal-open-secondary">Abrir en YouTube</button>
+                <button type="button" id="help-modal-sound-btn" class="btn btn-primary help-modal-open-secondary help-modal-sound-btn" style="display:none" data-i18n="help.enableSound">Activar sonido</button>
+                <button type="button" id="help-modal-open-youtube" class="btn btn-secondary help-modal-open-secondary" data-i18n="help.openYoutube">Abrir en YouTube</button>
             </div>
             <div class="help-modal-footer">
-                <label class="help-modal-dont-show"><input type="checkbox" id="help-intro-hide-again"> No volver a mostrar</label>
+                <label class="help-modal-dont-show"><input type="checkbox" id="help-intro-hide-again"><span data-i18n="help.dontShow"> No volver a mostrar</span></label>
             </div>
         </div>
     </div>
@@ -928,42 +951,42 @@ try {
     <!-- Modal de inicio de sesión online -->
     <div id="login-modal-overlay" class="login-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="login-modal-title">
         <div class="login-modal-card">
-            <button class="login-modal-close" id="login-modal-close" title="Cerrar" aria-label="Cerrar">✕</button>
+            <button class="login-modal-close" id="login-modal-close" data-i18n-title="close" data-i18n-aria="close" title="Cerrar" aria-label="Cerrar">✕</button>
 
             <!-- Spinner de carga durante el proceso OAuth -->
             <div class="login-modal-loading" id="login-modal-loading" style="display:none;">
                 <div class="login-spinner"></div>
-                <p class="login-loading-text">Conectando…</p>
+                <p class="login-loading-text" data-i18n="login.connecting">Conectando…</p>
             </div>
 
             <!-- Vista A: no autenticado -->
             <div id="login-view-out">
                 <div class="login-modal-chess-icon" aria-hidden="true">♔</div>
-                <h2 class="login-modal-title" id="login-modal-title">Iniciar Sesión</h2>
-                <p class="login-modal-subtitle">Para usar AjedrezIA debes iniciar sesión con tu usuario, Google o acceder como invitado.</p>
+                <h2 class="login-modal-title" id="login-modal-title" data-i18n="login.start">Iniciar Sesión</h2>
+                <p class="login-modal-subtitle" data-i18n="login.subtitle">Para usar AjedrezIA debes iniciar sesión con tu usuario, Google o acceder como invitado.</p>
                 <div class="login-modal-error" id="login-modal-error" style="display:none;"></div>
 
                 <form class="login-nick-form" id="login-nick-form" autocomplete="off">
-                    <label for="login-nick-input" class="login-nick-label">Usuario:</label>
+                    <label for="login-nick-input" class="login-nick-label" data-i18n="login.user">Usuario:</label>
                     <div class="login-nick-row">
                         <input id="login-nick-input" type="text" class="login-nick-input"
-                               placeholder="Tu nickname" maxlength="20"
+                               data-i18n-placeholder="login.nickPlaceholder" placeholder="Tu nickname" maxlength="20"
                                autocomplete="off" inputmode="text" spellcheck="false">
                     </div>
-                    <label for="login-pwd-input" class="login-nick-label" style="margin-top:10px;">Contraseña:</label>
+                    <label for="login-pwd-input" class="login-nick-label" style="margin-top:10px;" data-i18n="login.password">Contraseña:</label>
                     <div class="login-nick-row">
                         <div class="login-pwd-wrap">
                             <input id="login-pwd-input" type="password" class="login-nick-input login-pwd-input"
-                                   placeholder="Tu contraseña" maxlength="50" name="pwd_x"
+                                   data-i18n-placeholder="login.pwdPlaceholder" placeholder="Tu contraseña" maxlength="50" name="pwd_x"
                                    autocomplete="off" autocorrect="off" autocapitalize="off"
                                    data-lpignore="true" data-form-type="other">
-                            <button type="button" id="login-pwd-eye" class="login-pwd-eye" title="Ver contraseña" aria-label="Mostrar/ocultar contraseña">
+                            <button type="button" id="login-pwd-eye" class="login-pwd-eye" data-i18n-title="login.showPwd" data-i18n-aria="login.showPwd" title="Ver contraseña" aria-label="Mostrar/ocultar contraseña">
                                 <span id="eye-open">👁️</span>
                                 <span id="eye-closed" style="display:none;">🙈</span>
                             </button>
                         </div>
                         <button type="submit" id="login-nick-btn" class="login-nick-btn"
-                                title="Continuar" aria-label="Continuar">
+                                data-i18n-title="continue" data-i18n-aria="continue" title="Continuar" aria-label="Continuar">
                             <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
                                 <path d="M5 12h13M13 6l6 6-6 6" stroke="currentColor"
                                       stroke-width="2.6" fill="none"
@@ -973,7 +996,7 @@ try {
                     </div>
                 </form>
 
-                <div class="login-divider"><span>o</span></div>
+                <div class="login-divider"><span data-i18n="login.or">o</span></div>
 
                 <div class="login-modal-buttons">
                     <button class="login-btn login-btn-google" id="login-google-btn" type="button">
@@ -983,16 +1006,16 @@ try {
                             <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/>
                             <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
                         </svg>
-                        Continuar con Google
+                        <span data-i18n="login.google">Continuar con Google</span>
                     </button>
                     <button class="login-btn login-btn-guest" id="login-guest-btn" type="button">
                         <svg class="login-btn-icon" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
                             <path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm0 2c-4.42 0-8 2.24-8 5v1h16v-1c0-2.76-3.58-5-8-5z"/>
                         </svg>
-                        Acceder como Invitado
+                        <span data-i18n="login.guest">Acceder como Invitado</span>
                     </button>
                 </div>
-                <p class="login-modal-legal">Al continuar aceptas los <a href="#" class="login-modal-link">Términos de servicio</a> y la <a href="#" class="login-modal-link">Política de privacidad</a>.</p>
+                <p class="login-modal-legal"><span data-i18n="login.legalBefore">Al continuar aceptas los </span><a href="#" class="login-modal-link" data-i18n="login.terms">Términos de servicio</a><span data-i18n="login.legalAnd"> y la </span><a href="#" class="login-modal-link" data-i18n="login.privacy">Política de privacidad</a>.</p>
             </div>
 
             <!-- Vista B: autenticado -->
@@ -1002,8 +1025,8 @@ try {
                 <p class="login-user-email" id="login-user-email"></p>
                 <p class="login-user-provider" id="login-user-provider"></p>
                 <div class="login-modal-buttons" style="margin-top:22px;">
-                    <button class="login-btn login-btn-play" id="login-invite-btn" type="button">⚔️ Invitar a partida online</button>
-                    <button class="login-btn login-btn-secondary" id="login-play-btn" type="button">🌐 Buscar jugador online</button>
+                    <button class="login-btn login-btn-play" id="login-invite-btn" type="button" data-i18n="login.inviteOnline">⚔️ Invitar a partida online</button>
+                    <button class="login-btn login-btn-secondary" id="login-play-btn" type="button" data-i18n="login.findPlayer">🌐 Buscar jugador online</button>
                 </div>
             </div>
         </div>
@@ -1012,9 +1035,9 @@ try {
     <!-- Modal de usuarios online -->
     <div id="users-modal-overlay" class="login-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="users-modal-title">
         <div class="login-modal-card users-modal-card">
-            <button class="login-modal-close" id="users-modal-close" title="Cerrar" aria-label="Cerrar">✕</button>
-            <h2 class="login-modal-title" id="users-modal-title">🌐 Jugadores Registrados</h2>
-            <p class="login-modal-subtitle" id="users-modal-subtitle">Buscando jugadores…</p>
+            <button class="login-modal-close" id="users-modal-close" data-i18n-title="close" data-i18n-aria="close" title="Cerrar" aria-label="Cerrar">✕</button>
+            <h2 class="login-modal-title" id="users-modal-title" data-i18n="users.title">🌐 Jugadores Registrados</h2>
+            <p class="login-modal-subtitle" id="users-modal-subtitle" data-i18n="users.searching">Buscando jugadores…</p>
 
             <div id="users-modal-loading" class="login-modal-loading" style="display:none;">
                 <div class="login-spinner"></div>
@@ -1023,7 +1046,7 @@ try {
             <div id="users-list" class="users-list"></div>
 
             <button class="login-btn login-btn-play" id="users-refresh-btn" type="button" style="margin-top:14px;">
-                🔄 Actualizar
+                🔄 <span data-i18n="users.refresh">Actualizar</span>
             </button>
         </div>
     </div>
@@ -1031,49 +1054,49 @@ try {
     <!-- Modal: enviar invitación a un jugador -->
     <div id="invite-send-overlay" class="login-modal-overlay" role="dialog" aria-modal="true">
         <div class="login-modal-card invite-card">
-            <button class="login-modal-close" id="invite-send-close" title="Cerrar" aria-label="Cerrar">✕</button>
-            <h2 class="login-modal-title">⚔️ Invitar a jugar</h2>
+            <button class="login-modal-close" id="invite-send-close" data-i18n-title="close" data-i18n-aria="close" title="Cerrar" aria-label="Cerrar">✕</button>
+            <h2 class="login-modal-title" data-i18n="invite.title">⚔️ Invitar a jugar</h2>
             <p class="login-modal-subtitle" id="invite-send-target">…</p>
 
             <div class="invite-form">
                 <div class="invite-field">
-                    <label class="invite-label">Juego con:</label>
+                    <label class="invite-label" data-i18n="invite.playAs">Juego con:</label>
                     <div class="invite-color-picker" id="invite-color-picker" role="radiogroup">
                         <button type="button" class="invite-color-btn is-selected" data-color="white" aria-pressed="true">
-                            <img src="pieces/cburnett/wK.svg" alt="" class="invite-color-img"><span>Blancas</span>
+                            <img src="pieces/cburnett/wK.svg" alt="" class="invite-color-img"><span data-i18n="color.white">Blancas</span>
                         </button>
                         <button type="button" class="invite-color-btn" data-color="black" aria-pressed="false">
-                            <img src="pieces/cburnett/bK.svg" alt="" class="invite-color-img"><span>Negras</span>
+                            <img src="pieces/cburnett/bK.svg" alt="" class="invite-color-img"><span data-i18n="color.black">Negras</span>
                         </button>
                         <button type="button" class="invite-color-btn" data-color="random" aria-pressed="false">
-                            <span class="invite-color-emoji">🎲</span><span>Aleatorio</span>
+                            <span class="invite-color-emoji">🎲</span><span data-i18n="color.random">Aleatorio</span>
                         </button>
                     </div>
                 </div>
 
                 <div class="invite-field">
-                    <label class="invite-label" for="invite-time-select">Reloj / Tiempo:</label>
+                    <label class="invite-label" for="invite-time-select" data-i18n="invite.clock">Reloj / Tiempo:</label>
                     <select id="invite-time-select" class="select">
-                        <optgroup label="⚡ Bullet">
-                            <option value="1+0">1 min</option>
-                            <option value="1+1">1 min + 1 seg</option>
-                            <option value="2+1">2 min + 1 seg</option>
+                        <optgroup data-i18n="time.bullet" label="⚡ Bullet">
+                            <option value="1+0" data-i18n="time.1min">1 min</option>
+                            <option value="1+1" data-i18n="time.1plus1">1 min + 1 seg</option>
+                            <option value="2+1" data-i18n="time.2plus1">2 min + 1 seg</option>
                         </optgroup>
-                        <optgroup label="⚔️ Blitz">
-                            <option value="3+0">3 min</option>
-                            <option value="3+2">3 min + 2 seg</option>
-                            <option value="5+0" selected>5 min</option>
-                            <option value="5+3">5 min + 3 seg</option>
+                        <optgroup data-i18n="time.blitz" label="⚔️ Blitz">
+                            <option value="3+0" data-i18n="time.3min">3 min</option>
+                            <option value="3+2" data-i18n="time.3plus2">3 min + 2 seg</option>
+                            <option value="5+0" selected data-i18n="time.5min">5 min</option>
+                            <option value="5+3" data-i18n="time.5plus3">5 min + 3 seg</option>
                         </optgroup>
-                        <optgroup label="🎯 Rápidas">
-                            <option value="10+0">10 min</option>
-                            <option value="10+5">10 min + 5 seg</option>
-                            <option value="15+10">15 min + 10 seg</option>
-                            <option value="30+0">30 min</option>
+                        <optgroup data-i18n="time.rapid" label="🎯 Rápidas">
+                            <option value="10+0" data-i18n="time.10min">10 min</option>
+                            <option value="10+5" data-i18n="time.10plus5">10 min + 5 seg</option>
+                            <option value="15+10" data-i18n="time.15plus10">15 min + 10 seg</option>
+                            <option value="30+0" data-i18n="time.30min">30 min</option>
                         </optgroup>
-                        <optgroup label="♔ Clásicas">
-                            <option value="60+0">60 min</option>
-                            <option value="90+30">90 min + 30 seg</option>
+                        <optgroup data-i18n="time.classic" label="♔ Clásicas">
+                            <option value="60+0" data-i18n="time.60min">60 min</option>
+                            <option value="90+30" data-i18n="time.90plus30">90 min + 30 seg</option>
                         </optgroup>
                     </select>
                 </div>
@@ -1082,8 +1105,8 @@ try {
             <div class="invite-error" id="invite-send-error" style="display:none;"></div>
 
             <div class="login-modal-buttons" style="margin-top:18px;">
-                <button class="login-btn login-btn-play" id="invite-send-btn" type="button">📨 Enviar invitación</button>
-                <button class="login-btn login-btn-signout" id="invite-send-cancel" type="button">Cancelar</button>
+                <button class="login-btn login-btn-play" id="invite-send-btn" type="button" data-i18n="invite.send">📨 Enviar invitación</button>
+                <button class="login-btn login-btn-signout" id="invite-send-cancel" type="button" data-i18n="cancel">Cancelar</button>
             </div>
         </div>
     </div>
@@ -1091,15 +1114,15 @@ try {
     <!-- Aviso: informar de errores/mejoras (tras 10 min de uso) -->
     <div id="feedback-prompt-overlay" class="login-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="feedback-prompt-title">
         <div class="login-modal-card feedback-prompt-card">
-            <button class="login-modal-close" id="feedback-prompt-close" title="Cerrar" aria-label="Cerrar">✕</button>
-            <h2 class="login-modal-title" id="feedback-prompt-title">📧 Informar de errores/mejoras</h2>
-            <p class="login-modal-subtitle">¿Has encontrado algún fallo o tienes una idea para mejorar AjedrezIA? Tu opinión nos ayuda mucho.</p>
+            <button class="login-modal-close" id="feedback-prompt-close" data-i18n-title="close" data-i18n-aria="close" title="Cerrar" aria-label="Cerrar">✕</button>
+            <h2 class="login-modal-title" id="feedback-prompt-title" data-i18n="feedback.title">📧 Informar de errores/mejoras</h2>
+            <p class="login-modal-subtitle" data-i18n="feedback.prompt">¿Has encontrado algún fallo o tienes una idea para mejorar AjedrezIA? Tu opinión nos ayuda mucho.</p>
             <div class="login-modal-buttons" style="margin-top:18px;">
-                <button class="login-btn login-btn-play" id="feedback-prompt-open-btn" type="button">📨 Informar</button>
-                <button class="login-btn login-btn-signout" id="feedback-prompt-dismiss-btn" type="button">Ahora no</button>
+                <button class="login-btn login-btn-play" id="feedback-prompt-open-btn" type="button" data-i18n="feedback.report">📨 Informar</button>
+                <button class="login-btn login-btn-signout" id="feedback-prompt-dismiss-btn" type="button" data-i18n="feedback.notNow">Ahora no</button>
             </div>
             <div class="feedback-prompt-footer">
-                <label class="help-modal-dont-show"><input type="checkbox" id="feedback-prompt-hide-again"> No volver a mostrar</label>
+                <label class="help-modal-dont-show"><input type="checkbox" id="feedback-prompt-hide-again"><span data-i18n="help.dontShow"> No volver a mostrar</span></label>
             </div>
         </div>
     </div>
@@ -1107,26 +1130,26 @@ try {
     <!-- Modal: informar de errores o mejoras -->
     <div id="feedback-modal-overlay" class="login-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="feedback-modal-title">
         <div class="login-modal-card feedback-card">
-            <button class="login-modal-close" id="feedback-modal-close" title="Cerrar" aria-label="Cerrar">✕</button>
-            <h2 class="login-modal-title" id="feedback-modal-title">📧 Informar de errores/mejoras</h2>
-            <p class="login-modal-subtitle">Cuéntanos qué falla o qué se podría mejorar. Se enviará por correo al equipo de AjedrezIA.</p>
+            <button class="login-modal-close" id="feedback-modal-close" data-i18n-title="close" data-i18n-aria="close" title="Cerrar" aria-label="Cerrar">✕</button>
+            <h2 class="login-modal-title" id="feedback-modal-title" data-i18n="feedback.title">📧 Informar de errores/mejoras</h2>
+            <p class="login-modal-subtitle" data-i18n="feedback.form">Cuéntanos qué falla o qué se podría mejorar. Se enviará por correo al equipo de AjedrezIA.</p>
 
             <div class="invite-form">
                 <div class="invite-field">
-                    <label class="invite-label" for="feedback-error-text">Error:</label>
-                    <textarea id="feedback-error-text" class="feedback-textarea" rows="3" placeholder="Describe aquí el error encontrado (opcional)"></textarea>
+                    <label class="invite-label" for="feedback-error-text" data-i18n="feedback.error">Error:</label>
+                    <textarea id="feedback-error-text" class="feedback-textarea" rows="3" data-i18n-placeholder="feedback.errorPh" placeholder="Describe aquí el error encontrado (opcional)"></textarea>
                 </div>
                 <div class="invite-field">
-                    <label class="invite-label" for="feedback-improve-text">Mejora:</label>
-                    <textarea id="feedback-improve-text" class="feedback-textarea" rows="3" placeholder="Describe aquí tu sugerencia de mejora (opcional)"></textarea>
+                    <label class="invite-label" for="feedback-improve-text" data-i18n="feedback.improve">Mejora:</label>
+                    <textarea id="feedback-improve-text" class="feedback-textarea" rows="3" data-i18n-placeholder="feedback.improvePh" placeholder="Describe aquí tu sugerencia de mejora (opcional)"></textarea>
                 </div>
             </div>
 
             <div class="invite-error" id="feedback-modal-error" style="display:none;"></div>
 
             <div class="login-modal-buttons" style="margin-top:18px;">
-                <button class="login-btn login-btn-play" id="feedback-send-btn" type="button">📨 Enviar</button>
-                <button class="login-btn login-btn-signout" id="feedback-cancel-btn" type="button">Cancelar</button>
+                <button class="login-btn login-btn-play" id="feedback-send-btn" type="button" data-i18n="invite.send">📨 Enviar</button>
+                <button class="login-btn login-btn-signout" id="feedback-cancel-btn" type="button" data-i18n="cancel">Cancelar</button>
             </div>
         </div>
     </div>
@@ -1135,9 +1158,9 @@ try {
     <div id="invite-waiting-overlay" class="login-modal-overlay" role="dialog" aria-modal="true">
         <div class="login-modal-card">
             <div class="login-spinner" style="margin: 0 auto 18px;"></div>
-            <h2 class="login-modal-title">Esperando respuesta…</h2>
+            <h2 class="login-modal-title" data-i18n="invite.waiting">Esperando respuesta…</h2>
             <p class="login-modal-subtitle" id="invite-waiting-info">…</p>
-            <button class="login-btn login-btn-signout" id="invite-waiting-cancel" type="button" style="margin-top:18px;">Cancelar invitación</button>
+            <button class="login-btn login-btn-signout" id="invite-waiting-cancel" type="button" style="margin-top:18px;" data-i18n="invite.cancel">Cancelar invitación</button>
         </div>
     </div>
 
@@ -1145,15 +1168,15 @@ try {
     <div id="invite-incoming-overlay" class="login-modal-overlay" role="dialog" aria-modal="true">
         <div class="login-modal-card invite-incoming-card">
             <div class="invite-incoming-icon">⚔️</div>
-            <h2 class="login-modal-title">Te reto a una partida on-line</h2>
+            <h2 class="login-modal-title" data-i18n="invite.challenge">Te reto a una partida on-line</h2>
             <p class="invite-from-line"><strong id="invite-incoming-from">…</strong> <span id="invite-incoming-elo" class="invite-elo-tag"></span></p>
             <div class="invite-summary">
-                <div class="invite-summary-row"><span>Juego con:</span><strong id="invite-incoming-color">…</strong></div>
-                <div class="invite-summary-row"><span>Reloj / Tiempo:</span><strong id="invite-incoming-time">…</strong></div>
+                <div class="invite-summary-row"><span data-i18n="invite.playAs">Juego con:</span><strong id="invite-incoming-color">…</strong></div>
+                <div class="invite-summary-row"><span data-i18n="invite.clock">Reloj / Tiempo:</span><strong id="invite-incoming-time">…</strong></div>
             </div>
             <div class="login-modal-buttons" style="margin-top:18px;">
-                <button class="login-btn login-btn-play" id="invite-accept-btn" type="button">✅ Aceptar</button>
-                <button class="login-btn login-btn-signout" id="invite-reject-btn" type="button">✖ Rechazar</button>
+                <button class="login-btn login-btn-play" id="invite-accept-btn" type="button" data-i18n="invite.accept">✅ Aceptar</button>
+                <button class="login-btn login-btn-signout" id="invite-reject-btn" type="button" data-i18n="invite.reject">✖ Rechazar</button>
             </div>
         </div>
     </div>
@@ -1162,11 +1185,11 @@ try {
     <div id="draw-offer-overlay" class="login-modal-overlay" role="dialog" aria-modal="true" style="display:none;">
         <div class="login-modal-card abandon-confirm-card">
             <div class="invite-incoming-icon">🤝</div>
-            <h2 class="login-modal-title" id="draw-offer-title">Tu rival ofrece tablas</h2>
-            <p class="login-modal-subtitle" id="draw-offer-subtitle">¿Aceptas las tablas?</p>
+            <h2 class="login-modal-title" id="draw-offer-title" data-i18n="draw.title">Tu rival ofrece tablas</h2>
+            <p class="login-modal-subtitle" id="draw-offer-subtitle" data-i18n="draw.subtitle">¿Aceptas las tablas?</p>
             <div class="login-modal-buttons" style="margin-top:22px;">
-                <button class="login-btn login-btn-play" id="draw-offer-accept" type="button">Aceptar tablas</button>
-                <button class="login-btn login-btn-signout" id="draw-offer-reject" type="button">Rechazar</button>
+                <button class="login-btn login-btn-play" id="draw-offer-accept" type="button" data-i18n="draw.acceptBtn">Aceptar tablas</button>
+                <button class="login-btn login-btn-signout" id="draw-offer-reject" type="button" data-i18n="draw.rejectBtn">Rechazar</button>
             </div>
         </div>
     </div>
@@ -1175,11 +1198,11 @@ try {
     <div id="abandon-confirm-overlay" class="login-modal-overlay" role="dialog" aria-modal="true" style="display:none;">
         <div class="login-modal-card abandon-confirm-card">
             <div class="invite-incoming-icon">⚠️</div>
-            <h2 class="login-modal-title">¿Abandonar la partida?</h2>
-            <p class="login-modal-subtitle">Se registrará como derrota y el rival ganará la partida.</p>
+            <h2 class="login-modal-title" data-i18n="resign.title">¿Abandonar la partida?</h2>
+            <p class="login-modal-subtitle" data-i18n="resign.subtitle">Se registrará como derrota y el rival ganará la partida.</p>
             <div class="login-modal-buttons" style="margin-top:22px;">
-                <button class="login-btn login-btn-danger" id="abandon-confirm-accept" type="button">Abandonar</button>
-                <button class="login-btn login-btn-signout" id="abandon-confirm-cancel" type="button">Cancelar</button>
+                <button class="login-btn login-btn-danger" id="abandon-confirm-accept" type="button" data-i18n="resign.confirmBtn">Abandonar</button>
+                <button class="login-btn login-btn-signout" id="abandon-confirm-cancel" type="button" data-i18n="cancel">Cancelar</button>
             </div>
         </div>
     </div>
@@ -1187,7 +1210,7 @@ try {
     <div id="rotate-device-overlay" class="rotate-device-overlay">
         <div class="rotate-device-message">
             <span class="rotate-icon">📱</span>
-            <p>Gira el dispositivo a vertical para jugar</p>
+            <p data-i18n="rotateDevice">Gira el dispositivo a vertical para jugar</p>
         </div>
     </div>
 
@@ -1200,6 +1223,8 @@ try {
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
 
     <script>
+        document.write('<script src="i18n.js?v=' + APP_VERSION + '"><\/script>');
+        document.write('<script src="i18n-content.js?v=' + APP_VERSION + '"><\/script>');
         document.write('<script src="chess-logic.js?v=' + APP_VERSION + '"><\/script>');
         document.write('<script src="app.js?v=' + APP_VERSION + '"><\/script>');
     </script>

@@ -3889,8 +3889,9 @@ async function fetchPuzzlesFromAPI(theme, limit = 20) {
     scrollToBoard();
     var loadingMsg = document.getElementById('puzzle-loading-msg');
     if (loadingMsg) {
-        var themeLabel = theme === 'all' ? 'Todos los Problemas' : 'Problemas de ' + getThemeLabel(theme);
-        loadingMsg.textContent = 'Cargando ' + themeLabel + '…';
+        loadingMsg.textContent = theme === 'all'
+            ? t('puzzle.loadingAll')
+            : t('puzzle.loadingTheme', { theme: getThemeLabel(theme) });
         loadingMsg.style.display = 'flex';
     }
     try {
@@ -4011,25 +4012,24 @@ function updatePuzzleNavButtons() {
     if (nextBoard) nextBoard.disabled = dis;
     if (boardNav) boardNav.style.display = 'flex';
     if (boardLabel && currentPuzzle) {
-        boardLabel.textContent = getThemeLabel(currentPuzzle.theme) + ' (' + (puzzleSequentialIndex + 1) + ' de ' + len + ')';
+        boardLabel.textContent = t('puzzle.nav', { theme: getThemeLabel(currentPuzzle.theme), n: puzzleSequentialIndex + 1, total: len });
     }
 }
 
 function getThemeLabel(theme) {
-    var labels = {
-        'mate1': '♔ Mate en 1', 'mate2': '♔ Mate en 2', 'mate3': '♔ Mate en 3',
-        'mate4': '♔ Mate en 4', 'mate5': '♔ Mate en 5',
-        'fork': '⚔️ Horquilla', 'pin': '📌 Clavada', 'sacrifice': '💎 Sacrificio',
-        'attack': '⚡ Ataque', 'defense': '🛡️ Defensa', 'endgame': '♟ Final',
-        'center': '🎯 Centro', 'capture': '🔄 Captura', 'development': '📐 Desarrollo',
-        'tactic': '🧠 Táctica', 'other': '🎲 Otros'
+    var keys = {
+        'mate1': 'puzzle.mate1', 'mate2': 'puzzle.mate2', 'mate3': 'puzzle.mate3',
+        'mate4': 'puzzle.mate4', 'mate5': 'puzzle.mate5',
+        'fork': 'puzzle.fork', 'pin': 'puzzle.pin', 'sacrifice': 'puzzle.sacrifice',
+        'attack': 'puzzle.attack', 'defense': 'puzzle.defense', 'endgame': 'puzzle.endgame',
+        'center': 'puzzle.center', 'capture': 'puzzle.capture', 'development': 'puzzle.development',
+        'tactic': 'puzzle.tactic', 'other': 'puzzle.other'
     };
-    return labels[theme] || theme;
+    return keys[theme] ? t(keys[theme]) : theme;
 }
 
 function getDifficultyLabel(diff) {
-    var labels = { 1: '⭐ Fácil', 2: '⭐⭐ Media', 3: '⭐⭐⭐ Difícil', 4: '⭐⭐⭐⭐ Experto' };
-    return labels[diff] || '';
+    return t('puzzle.diff.' + diff, null, '');
 }
 
 async function startNewPuzzle(resetIndex, navDir) {
@@ -4041,7 +4041,7 @@ async function startNewPuzzle(resetIndex, navDir) {
 
     var filtered = getFilteredPuzzles();
     if (filtered.length === 0) {
-        showMessage('No hay problemas con estos filtros', 'info', 2500);
+        showMessage(t('noPuzzles'), 'info', 2500);
         return;
     }
 
@@ -4208,8 +4208,8 @@ function applyOnlineFromQueryString() {
     const inviterElo = inviteData && inviteData.e ? parseInt(inviteData.e, 10) : 0;
     // El receptor juega el color opuesto al invitante (o random si fue random)
     const myColorRaw = colorRaw === 'white' ? 'black' : colorRaw === 'black' ? 'white' : 'random';
-    const colorLabel = { white: 'Blancas ♔', black: 'Negras ♚', random: 'Aleatorio 🎲' }[colorRaw] || '';
-    const myColorLabel = { white: 'Blancas ♔', black: 'Negras ♚', random: 'Aleatorio 🎲' }[myColorRaw] || '';
+    const colorLabel = inviteColorLabel(colorRaw) || '';
+    const myColorLabel = inviteColorLabel(myColorRaw) || '';
     const tcLabel = timeLabelFor(tcRaw);
 
     // Fallback: abrir el modal de jugadores preconfigurado (flujo anterior)
@@ -4231,7 +4231,7 @@ function applyOnlineFromQueryString() {
         // No retarse a uno mismo
         const self = getOnlineUser();
         if (self && self.id === inviterId) {
-            showMessage('Este enlace lo enviaste tú. Compártelo con otro jugador.', 'info', 4000);
+            showMessage(t('shareOwnLink'), 'info', 4000);
             return;
         }
 
@@ -4384,7 +4384,7 @@ function applyMovesFromQueryString() {
             .filter(function (s) { return s.length >= 4; });
     }
     if (list.length === 0) {
-        showMessage('El enlace de la partida no contiene movimientos válidos', 'warning', 4000);
+        showMessage(t('msg.invalidLinkMoves'), 'warning', 4000);
         return;
     }
     for (var i = 0; i < list.length; i++) {
@@ -4394,7 +4394,7 @@ function applyMovesFromQueryString() {
         var ok = game.makeMove(c.fromRow, c.fromCol, c.toRow, c.toCol, prom);
         if (!ok) {
             console.warn('Movimiento inválido al reproducir enlace compartido:', uci);
-            showMessage('No se pudo reproducir toda la partida del enlace. Movimiento ilegal: ' + uci, 'warning', 4000);
+            showMessage(t('msg.illegalLinkMove', { uci: uci }), 'warning', 4000);
             break;
         }
         lastMoveSquares = { from: { row: c.fromRow, col: c.fromCol }, to: { row: c.toRow, col: c.toCol } };
@@ -4433,7 +4433,7 @@ function applyMasterFromQueryString() {
     const key = decodeURIComponent(String(raw).trim()).toLowerCase();
     const famous = FAMOUS_GAMES[key];
     if (!famous || !famous.pgn) {
-        showMessage('Enlace: partida maestra desconocida. Clave: ' + String(raw).trim(), 'warning', 4000);
+        showMessage(t('msg.unknownMaster', { key: String(raw).trim() }), 'warning', 4000);
         try {
             history.replaceState(history.state, '', window.location.pathname + (window.location.hash || ''));
         } catch (e) { /* file:// o restricción */ }
@@ -4504,7 +4504,7 @@ function applyOpeningFromQueryString() {
     if (raw == null || String(raw).trim() === '') return false;
     const key = decodeURIComponent(String(raw).trim()).toLowerCase();
     if (!OPENING_TRAINING[key]) {
-        showMessage('Enlace: apertura desconocida. Clave: ' + String(raw).trim(), 'warning', 4000);
+        showMessage(t('msg.unknownOpening', { key: String(raw).trim() }), 'warning', 4000);
         try {
             history.replaceState(history.state, '', window.location.pathname + (window.location.hash || ''));
         } catch (e) { /* file:// o restricción */ }
@@ -4553,7 +4553,7 @@ async function applyPuzzleFromQueryString() {
         p = CHESS_PUZZLES.find(function (q) { return q.id && String(q.id) === id; });
     }
     if (!p || !p.fen) {
-        showMessage('Enlace: problema de ajedrez desconocido. Id: ' + id, 'warning', 4000);
+        showMessage(t('msg.unknownPuzzle', { id: id }), 'warning', 4000);
         try {
             history.replaceState(history.state, '', window.location.pathname + (window.location.hash || ''));
         } catch (e) { /* file:// o restricción */ }
@@ -4583,8 +4583,11 @@ async function applyPuzzleFromQueryString() {
                 puzzleApiCache = [puzzleApiCache[0]].concat(extras);
                 const boardLabel = document.getElementById('puzzle-board-nav-label');
                 if (boardLabel && currentPuzzle === puzzleApiCache[0]) {
-                    boardLabel.textContent = (getThemeLabel(currentPuzzle.theme) || 'Problema') +
-                        ' (1 de ' + puzzleApiCache.length + ')';
+                    boardLabel.textContent = t('puzzle.nav', {
+                        theme: getThemeLabel(currentPuzzle.theme) || t('puzzle.generic'),
+                        n: 1,
+                        total: puzzleApiCache.length
+                    });
                 }
             }
         } catch(e) { /* API no disponible, continuar solo con el puzzle compartido */ }
@@ -4672,7 +4675,7 @@ function applyPuzzleInlineFromQueryString() {
     if (raw == null || String(raw).trim() === '') return false;
     const p = decodePuzzlePayload(String(raw).trim());
     if (!p || !p.fen) {
-        showMessage('Enlace de problema inválido o corrupto.', 'warning', 4000);
+        showMessage(t('msg.invalidPuzzleLink'), 'warning', 4000);
         try {
             history.replaceState(history.state, '', window.location.pathname + (window.location.hash || ''));
         } catch (e) { /* file:// o restricción */ }
@@ -4774,7 +4777,7 @@ function puzzleCheckMove(fromRow, fromCol, toRow, toCol, promoType) {
                 puzzleSolved();
             }, 800);
         } else {
-            showPuzzleFeedback('¡Correcto! Continúa...', 'correct');
+            showPuzzleFeedback(t('puzzle.correctContinue'), 'correct');
             setTimeout(function() {
                 if (gen !== puzzleGeneration) return;
                 document.querySelectorAll('.puzzle-correct-move').forEach(function(s) { s.classList.remove('puzzle-correct-move'); });
@@ -4787,7 +4790,7 @@ function puzzleCheckMove(fromRow, fromCol, toRow, toCol, promoType) {
         if (puzzleWrongMoves === 1) {
             eloLost = getPuzzleEloByStar();
             applyEloChange(-eloLost);
-            showBoardBanner('¡Error en Problema! (' + formatPuzzleEloLabel(-eloLost) + ')', 'puzzle-failed');
+            showBoardBanner(t('puzzle.errorBanner', { elo: formatPuzzleEloLabel(-eloLost) }), 'puzzle-failed');
             setTimeout(hideBoardBanner, PUZZLE_BOARD_BANNER_MS);
         }
         selectedSquare = null;
@@ -4806,7 +4809,7 @@ function puzzleCheckMove(fromRow, fromCol, toRow, toCol, promoType) {
                     sq.classList.add('puzzle-hint');
                 }
             });
-            var failHint = 'Incorrecto. Las casillas marcadas muestran el movimiento correcto. Inténtalo de nuevo.';
+            var failHint = t('puzzle.wrongHint');
             if (eloLost > 0) failHint += ' (' + formatPuzzleEloLabel(-eloLost) + ')';
             showPuzzleFeedback(failHint, 'wrong');
             setTimeout(function() {
@@ -4840,7 +4843,7 @@ function puzzlePlayOpponentMove() {
         showMoveArrow(coords.fromRow, coords.fromCol, coords.toRow, coords.toCol);
         if (oppCapturedBefore) showCaptureAnimation(coords.toRow, coords.toCol, oppCapturedBefore);
         else if (oppEnPassant && oppEnPassant.piece) showCaptureAnimation(oppEnPassant.row, oppEnPassant.col, oppEnPassant.piece);
-        showPuzzleFeedback('Tu turno. Encuentra el mejor movimiento.', 'info');
+        showPuzzleFeedback(t('puzzle.yourTurn'), 'info');
     }
 }
 
@@ -4887,19 +4890,19 @@ function puzzleSolved() {
     renderBoard();
     var total = puzzleCorrectMoves + puzzleWrongMoves;
     var pct = total > 0 ? Math.round(puzzleCorrectMoves / total * 100) : 100;
-    var streakMsg = puzzleStats.streak > 0 ? ' | Racha: ' + puzzleStats.streak : '';
+    var streakMsg = puzzleStats.streak > 0 ? t('puzzle.streak', { n: puzzleStats.streak }) : '';
     var eloMsg;
     if (eloGained > 0) {
         eloMsg = ' (' + formatPuzzleEloLabel(eloGained) + ')';
     } else if (puzzleWrongMoves > 0) {
         var eloLostOnError = getPuzzleEloByStar();
-        eloMsg = ' — hubo fallos (' + formatPuzzleEloLabel(-eloLostOnError) + ')';
+        eloMsg = t('puzzle.hadErrors', { elo: formatPuzzleEloLabel(-eloLostOnError) });
     } else {
         eloMsg = '';
     }
-    var sidebarMsg = '🎉 ¡Problema resuelto!' + eloMsg + ' Aciertos: ' + puzzleCorrectMoves + ' | Fallos: ' + puzzleWrongMoves + ' | Precisión: ' + pct + '%' + streakMsg;
+    var sidebarMsg = t('puzzle.solvedSidebar', { elo: eloMsg, ok: puzzleCorrectMoves, fail: puzzleWrongMoves, pct: pct, streak: streakMsg });
     showPuzzleFeedback(sidebarMsg, 'correct');
-    showBoardBanner('🎉 ¡Problema Resuelto!' + eloMsg, 'puzzle-solved');
+    showBoardBanner(t('puzzle.solvedBanner') + eloMsg, 'puzzle-solved');
     updatePuzzleNavButtons();
 }
 
@@ -4912,7 +4915,7 @@ function puzzleFailed() {
     updatePuzzleStatsUI();
     var eloLost = getPuzzleEloByStar();
     applyEloChange(-eloLost);
-    var failMsg = '❌ No resuelto — La solución era: ' + formatPuzzleSolution();
+    var failMsg = t('puzzle.unsolved', { sol: formatPuzzleSolution() });
     var failBanner = failMsg + ' (' + formatPuzzleEloLabel(-eloLost) + ')';
     showPuzzleFeedback(failMsg + ' (' + formatPuzzleEloLabel(-eloLost) + ')', 'wrong');
     showBoardBanner(failBanner, 'puzzle-failed');
@@ -5099,7 +5102,7 @@ function puzzleShowHint() {
     };
     renderBoard();
     showMoveArrow(c.fromRow, c.fromCol, c.toRow, c.toCol, { color: 'blue', force: true });
-    showPuzzleFeedback('💡 Mueve la pieza señalada con la flecha azul', 'info');
+    showPuzzleFeedback(t('puzzle.hintArrow'), 'info');
 }
 
 function puzzleShowSolution() {
@@ -5119,8 +5122,8 @@ function puzzleShowSolution() {
         cancelPuzzleSolutionAnimation();
         var gen = puzzleGeneration;
         var eloLabel = formatPuzzleEloLabel(-eloLost);
-        showBoardBanner('💡 Ver solución (' + eloLabel + ')', 'puzzle-solution');
-        showPuzzleFeedback('💡 Ver solución (' + eloLabel + ')', 'solution');
+        showBoardBanner(t('puzzle.seeSolution', { elo: eloLabel }), 'puzzle-solution');
+        showPuzzleFeedback(t('puzzle.seeSolution', { elo: eloLabel }), 'solution');
 
         var playbackStarted = false;
         function startSolutionPlayback() {
@@ -5132,9 +5135,9 @@ function puzzleShowSolution() {
             }
             if (gen !== puzzleGeneration || !currentPuzzle) return;
             hideBoardBanner();
-            showPuzzleFeedback('💡 Reproduciendo la solución…', 'solution');
+            showPuzzleFeedback(t('puzzle.playingSolution'), 'solution');
             playPuzzleSolutionAnimation(function() {
-                showPuzzleFeedback('💡 Solución: ' + formatPuzzleSolution() + ' — Inténtalo ahora', 'solution');
+                showPuzzleFeedback(t('puzzle.solutionNow', { sol: formatPuzzleSolution() }), 'solution');
             });
         }
 
@@ -5145,9 +5148,9 @@ function puzzleShowSolution() {
     }
 
     cancelPuzzleSolutionAnimation();
-    showPuzzleFeedback('💡 Reproduciendo la solución…', 'solution');
+    showPuzzleFeedback(t('puzzle.playingSolution'), 'solution');
     playPuzzleSolutionAnimation(function() {
-        showPuzzleFeedback('💡 Solución: ' + formatPuzzleSolution(), 'solution');
+        showPuzzleFeedback(t('puzzle.solutionOnly', { sol: formatPuzzleSolution() }), 'solution');
     });
 }
 
@@ -5190,10 +5193,10 @@ function showLearnBoardBanner(lesson, label) {
     const el = document.getElementById('learn-board-banner');
     if (!el) return;
     const iconHtml = learnPieceIconHtml(lesson.id);
-    const labelText = label || 'Ejercicio';
+    const labelText = label || t('learn.exercise');
     el.innerHTML = '<span class="learn-board-banner-label">' + labelText + ': </span>'
         + iconHtml
-        + '<span class="learn-board-banner-title">' + lesson.title + '</span>';
+        + '<span class="learn-board-banner-title">' + learnField(lesson, 'title') + '</span>';
     el.style.display = 'flex';
 }
 
@@ -5266,19 +5269,19 @@ function startLearnLesson(lesson) {
     updateEvalBar();
     hideBoardBanner();
     if (lesson.category === 'piezas') {
-        showLearnBoardBanner(lesson, 'Ejercicio de Piezas');
+        showLearnBoardBanner(lesson, t('learn.banner.piezas'));
     } else if (lesson.category === 'basico') {
-        showLearnBoardBanner(lesson, 'Ejercicio Básico');
+        showLearnBoardBanner(lesson, t('learn.banner.basico'));
     } else if (lesson.category === 'intermedio') {
-        showLearnBoardBanner(lesson, 'Ejercicio Intermedio');
+        showLearnBoardBanner(lesson, t('learn.banner.intermedio'));
     } else if (lesson.category === 'avanzado') {
-        showLearnBoardBanner(lesson, 'Ejercicio Avanzado');
+        showLearnBoardBanner(lesson, t('learn.banner.avanzado'));
     } else {
         hideLearnBoardBanner();
     }
 
-    document.getElementById('learn-panel-lesson-title').textContent = lesson.title;
-    document.getElementById('learn-panel-description').textContent = lesson.description;
+    document.getElementById('learn-panel-lesson-title').textContent = learnField(lesson, 'title');
+    document.getElementById('learn-panel-description').textContent = learnField(lesson, 'description');
     const activeInfo = document.getElementById('learn-active-info');
     if (activeInfo) activeInfo.style.display = 'block';
     const hintBtn = document.getElementById('learn-hint-btn');
@@ -5366,27 +5369,41 @@ function learnShowStep() {
     if (!step) return;
     learnStarIndex = 0;
     loadLearnStepBoard(step);
-    const titleEl = document.getElementById('learn-panel-lesson-title');
-    const instrEl = document.getElementById('learn-panel-instruction');
+    updateLearnI18n();
     const feedbackEl = document.getElementById('learn-panel-feedback');
     const hintBtn = document.getElementById('learn-hint-btn');
-    const totalSteps = currentLesson.steps.length;
-    const stepNum = learnStepIndex + 1;
-    if (titleEl) {
-        var stepTitle = step.title || ('Ejercicio ' + stepNum);
-        titleEl.textContent = stepTitle + ' (' + stepNum + '/' + totalSteps + ')';
-    }
-    if (instrEl) {
-        var txt = step.instruction;
-        if (learnStepHasStars(step)) {
-            txt += ' (' + step.stars.length + (step.stars.length === 1 ? ' estrella' : ' estrellas') + ')';
-        }
-        instrEl.textContent = txt;
-    }
     if (feedbackEl) { feedbackEl.style.display = 'none'; feedbackEl.textContent = ''; }
     if (hintBtn) hintBtn.disabled = false;
     renderBoard();
     learnFlashStarHint();
+}
+
+function updateLearnI18n() {
+    if (!currentLesson) return;
+    const step = currentLesson.steps[learnStepIndex];
+    const titleEl = document.getElementById('learn-panel-lesson-title');
+    const instrEl = document.getElementById('learn-panel-instruction');
+    const descEl = document.getElementById('learn-panel-description');
+    const totalSteps = currentLesson.steps.length;
+    const stepNum = learnStepIndex + 1;
+    if (descEl) descEl.textContent = learnField(currentLesson, 'description');
+    if (titleEl && step) {
+        var stepTitle = learnStepField(currentLesson, learnStepIndex, 'title') || t('learn.exerciseN', { n: stepNum });
+        titleEl.textContent = stepTitle + ' (' + stepNum + '/' + totalSteps + ')';
+    }
+    if (instrEl && step) {
+        var txt = learnStepField(currentLesson, learnStepIndex, 'instruction');
+        if (learnStepHasStars(step)) {
+            txt += ' (' + step.stars.length + ' ' + (step.stars.length === 1 ? t('learn.star') : t('learn.stars')) + ')';
+        }
+        instrEl.textContent = txt;
+    }
+    if (learnActive) {
+        if (currentLesson.category === 'piezas') showLearnBoardBanner(currentLesson, t('learn.banner.piezas'));
+        else if (currentLesson.category === 'basico') showLearnBoardBanner(currentLesson, t('learn.banner.basico'));
+        else if (currentLesson.category === 'intermedio') showLearnBoardBanner(currentLesson, t('learn.banner.intermedio'));
+        else if (currentLesson.category === 'avanzado') showLearnBoardBanner(currentLesson, t('learn.banner.avanzado'));
+    }
 }
 
 // Muestra brevemente una flecha verde desde la pieza hasta la estrella actual.
@@ -5480,7 +5497,7 @@ function learnCheckMove(fromRow, fromCol, toRow, toCol, promoType) {
                 learnFlashStarHint();
             }, 450);
         } else {
-            if (step.comment) learnShowFeedback(step.comment, 'correct');
+            if (step.comment) learnShowFeedback(learnStepField(currentLesson, learnStepIndex, 'comment'), 'correct');
             learnAdvanceAfterStepSuccess(gen, step);
         }
         return;
@@ -5513,13 +5530,13 @@ function learnCheckMove(fromRow, fromCol, toRow, toCol, promoType) {
         showMoveArrow(fromRow, fromCol, toRow, toCol);
         if (capturedBefore) showCaptureAnimation(toRow, toCol, capturedBefore);
 
-        if (step.comment) learnShowFeedback(step.comment, 'correct');
+        if (step.comment) learnShowFeedback(learnStepField(currentLesson, learnStepIndex, 'comment'), 'correct');
 
         learnAdvanceAfterStepSuccess(gen, step);
     } else {
         selectedSquare = null;
         renderBoard();
-        learnShowFeedback('Movimiento incorrecto. ¡Inténtalo de nuevo!', 'wrong');
+        learnShowFeedback(t('learn.wrongMove'), 'wrong');
         setTimeout(function() {
             const el = document.getElementById('learn-panel-feedback');
             if (el && el.classList.contains('learn-feedback--wrong')) {
@@ -5534,9 +5551,9 @@ function learnCompleted(gen) {
     learnActive = false;
     learnProgress[currentLesson.id] = 'completed';
     saveLearnProgress();
-    learnShowFeedback('🎉 ' + currentLesson.successMessage, 'success');
+    learnShowFeedback('🎉 ' + learnField(currentLesson, 'successMessage'), 'success');
     hideLearnBoardBanner();
-    showBoardBanner('¡Lección Completada! 🎉', 'puzzle-white-turn');
+    showBoardBanner(t('learn.completedBanner'), 'puzzle-white-turn');
     setTimeout(hideBoardBanner, 3000);
     renderLearnLessonList();
 }
@@ -5584,9 +5601,9 @@ function renderLearnLessonList() {
     if (fill) fill.style.width = pct + '%';
     const selCat = 'all';
     const CATS = {
-        piezas: '♟ Piezas', basico: '⚡ Básico', intermedio: '🎓 Intermedio',
-        avanzado: '🏆 Avanzado', jaque: '⚠️ Jaque', mate: '♔ Mate',
-        tacticas: '⚔️ Tácticas', ejercicios: '⭐ Ejercicios de Estrellas'
+        piezas: t('learn.cat.piezas'), basico: t('learn.cat.basico'), intermedio: t('learn.cat.intermedio'),
+        avanzado: t('learn.cat.avanzado'), jaque: t('learn.cat.jaque'), mate: t('learn.cat.mate'),
+        tacticas: t('learn.cat.tacticas'), ejercicios: t('learn.cat.ejercicios')
     };
     const filtered = selCat === 'all' ? LEARN_LESSONS : LEARN_LESSONS.filter(function(l) { return l.category === selCat; });
     if (filtered.length === 0) { listEl.innerHTML = ''; return; }
@@ -5607,7 +5624,7 @@ function renderLearnLessonList() {
             html += '<button class="learn-lesson-btn' + (done ? ' done' : '') + (active ? ' active' : '') + '" data-id="' + l.id + '">'
                 + '<span class="learn-lesson-check">' + (done ? '✓' : '○') + '</span>'
                 + learnPieceIconHtml(l.id)
-                + '<span class="learn-lesson-name">' + l.title + '</span>'
+                + '<span class="learn-lesson-name">' + learnField(l, 'title') + '</span>'
                 + '</button>';
         });
     });
@@ -5761,11 +5778,11 @@ function showVariantsPopup(variants, variantsKey, onSelectCallback) {
 
     const header = document.createElement('div');
     header.className = 'variants-popup-header';
-    header.textContent = `📖 Variantes conocidas (${variants.length})`;
+    header.textContent = t('opening.variantsTitle', { n: variants.length });
     if (onSelectCallback) {
         const hint = document.createElement('div');
         hint.className = 'variants-popup-hint';
-        hint.textContent = 'Selecciona una variante para continuar';
+        hint.textContent = t('opening.variantsHint');
         header.appendChild(hint);
     }
     const closeBtn = document.createElement('span');
@@ -6073,7 +6090,7 @@ function showOpeningName(name) {
             const varBtn = document.createElement('button');
             varBtn.className = 'opening-variants-btn';
             varBtn.textContent = `⤵ ${variants.length}`;
-            varBtn.title = `Ver ${variants.length} variantes`;
+            varBtn.title = t('opening.seeVariants', { n: variants.length });
             varBtn.dataset.variantsKey = entryKey;
             varBtn.onclick = showEntryVariants;
             wrapper.appendChild(varBtn);
@@ -6416,17 +6433,17 @@ function showPostGameAnalysisChoiceDialog(totalMoves) {
         modal.style.textAlign = 'center';
 
         const title = document.createElement('p');
-        title.textContent = 'Ya hay un análisis de esta partida.';
+        title.textContent = t('analysis.exists');
         title.style.cssText = 'font-size:1rem;color:#333;margin-bottom:8px;font-weight:600;';
 
         const analyzedCount = analysisAnalyzedUpTo + 1;
         const statusText = analysisComplete
-            ? `Análisis completo (${analyzedCount}/${totalMoves} movimientos)`
-            : `Análisis parcial (${analyzedCount}/${totalMoves} movimientos)`;
+            ? t('analysis.complete', { done: analyzedCount, total: totalMoves })
+            : t('analysis.partial', { done: analyzedCount, total: totalMoves });
         const statusColor = analysisComplete ? '#059669' : '#d97706';
 
         const subtitle = document.createElement('p');
-        subtitle.innerHTML = `<span style="color:${statusColor};font-weight:600;">${statusText}</span><br><span style="color:#666;">¿Qué quieres hacer?</span>`;
+        subtitle.innerHTML = `<span style="color:${statusColor};font-weight:600;">${statusText}</span><br><span style="color:#666;">${t('analysis.whatToDo')}</span>`;
         subtitle.style.cssText = 'font-size:0.9rem;margin-bottom:18px;';
 
         const btnRow = document.createElement('div');
@@ -6434,19 +6451,19 @@ function showPostGameAnalysisChoiceDialog(totalMoves) {
 
         const btnExisting = document.createElement('button');
         btnExisting.className = 'btn btn-primary';
-        btnExisting.textContent = 'Ver análisis existente';
+        btnExisting.textContent = t('analysis.viewExisting');
         btnExisting.style.marginTop = '0';
         btnExisting.addEventListener('click', () => { overlay.remove(); resolve('existing'); });
 
         const btnNew = document.createElement('button');
         btnNew.className = 'btn btn-orange';
-        btnNew.textContent = 'Nuevo análisis';
+        btnNew.textContent = t('analysis.new');
         btnNew.style.marginTop = '0';
         btnNew.addEventListener('click', () => { overlay.remove(); resolve('new'); });
 
         const btnCancel = document.createElement('button');
         btnCancel.className = 'btn btn-secondary';
-        btnCancel.textContent = 'Cancelar';
+        btnCancel.textContent = t('cancel');
         btnCancel.style.marginTop = '0';
         btnCancel.addEventListener('click', () => { overlay.remove(); resolve('cancel'); });
 
@@ -6466,7 +6483,7 @@ function showPostGameAnalysisChoiceDialog(totalMoves) {
 async function executePostGameAnalysisOnline(uciMoves, startFrom = 0) {
     // Pedir confirmación antes de analizar online
     const confirmed = await new Promise(resolve => {
-        const msg = `<strong>Iniciar Análisis de Partida</strong><br><span style="font-size:0.9em;color:#555;">Se analizarán ${uciMoves.length} movimientos online.<br>Esto puede tardar unos segundos.</span>`;
+        const msg = `<strong>${t('analysis.startTitle')}</strong><br><span style="font-size:0.9em;color:#555;">${t('analysis.startBody', { n: uciMoves.length })}</span>`;
         showMessage(msg, 'info', 0);
         const overlay2 = document.getElementById('message-overlay');
         if (overlay2) {
@@ -6478,11 +6495,11 @@ async function executePostGameAnalysisOnline(uciMoves, startFrom = 0) {
                 btnRow.style.cssText = 'display:flex;gap:12px;justify-content:center;margin-top:14px;';
                 const acceptBtn = document.createElement('button');
                 acceptBtn.style.cssText = 'padding:9px 28px;background:#667eea;color:#fff;border:none;border-radius:6px;font-size:0.95rem;font-weight:600;cursor:pointer;';
-                acceptBtn.textContent = 'Aceptar';
+                acceptBtn.textContent = t('accept');
                 acceptBtn.onclick = () => { hideMessage(); resolve(true); };
                 const cancelBtn = document.createElement('button');
                 cancelBtn.style.cssText = 'padding:9px 28px;background:#e5e7eb;color:#374151;border:none;border-radius:6px;font-size:0.95rem;font-weight:600;cursor:pointer;';
-                cancelBtn.textContent = 'Cancelar';
+                cancelBtn.textContent = t('cancel');
                 cancelBtn.onclick = () => { hideMessage(); resolve(false); };
                 btnRow.appendChild(acceptBtn);
                 btnRow.appendChild(cancelBtn);
@@ -6616,12 +6633,12 @@ async function executePostGameAnalysisOnline(uciMoves, startFrom = 0) {
 
 async function analyzeGamePostGame() {
     if (!game || !game.gameStateHistory || game.gameStateHistory.length === 0) {
-        showMessage('No hay partida para analizar', 'warning', 2000);
+        showMessage(t('msg.noGameAnalyze'), 'warning', 2000);
         return;
     }
     const uciMoves = game.moveHistoryUCI || [];
     if (uciMoves.length === 0) {
-        showMessage('No hay movimientos para analizar', 'warning', 2000);
+        showMessage(t('msg.noMovesAnalyze'), 'warning', 2000);
         return;
     }
 
@@ -6850,7 +6867,7 @@ function showAnalysisErrorPartial(message) {
         if (loading) loading.textContent = message;
         const okBtn = document.createElement('button');
         okBtn.className = 'btn btn-primary';
-        okBtn.textContent = 'OK';
+        okBtn.textContent = t('ok');
         okBtn.style.cssText = 'margin-top:12px;min-width:80px;';
         okBtn.addEventListener('click', () => { okBtn.remove(); resolve(); });
         if (overlay) {
@@ -7593,19 +7610,19 @@ function isHumanTurn() {
 }
 
 function updateNewGamePickerLabels(color, opponent) {
-    const colorNames = { white: 'Blancas', black: 'Negras', random: 'Aleatorio' };
+    const colorNames = { white: t('color.white'), black: t('color.black'), random: t('color.random') };
     const opponentNames = {
-        ai: 'IA',
-        online: 'On-line',
-        mail: 'Por Correo',
-        pvp: 'Persona vs Persona'
+        ai: t('opp.ai'),
+        online: t('opp.online'),
+        mail: t('opp.mail'),
+        pvp: t('opp.pvp')
     };
     const colorLabel = document.getElementById('juegas-con-label');
     const oppLabel = document.getElementById('juegas-contra-label');
     const c = color || playerColorSetting || 'white';
     const o = opponent || lastNewGameOpponent || gameOpponent || 'ai';
-    if (colorLabel) colorLabel.textContent = 'Juegas con: ' + (colorNames[c] || '');
-    if (oppLabel) oppLabel.textContent = 'Juegas Contra: ' + (opponentNames[o] || '');
+    if (colorLabel) colorLabel.textContent = t('config.playAs') + ' ' + (colorNames[c] || '');
+    if (oppLabel) oppLabel.textContent = t('config.playVs') + ' ' + (opponentNames[o] || '');
 }
 
 function syncPlayerColorUI() {
@@ -7686,7 +7703,8 @@ function saveSettings() {
         incrementPerMove: incrementPerMove,
         soundEnabled: SoundFX.isEnabled(),
         playerNickname: playerNickname,
-        boardZoom: boardZoom
+        boardZoom: boardZoom,
+        language: currentLang
     };
     localStorage.setItem('chess_settings', JSON.stringify(settings));
 }
@@ -7732,6 +7750,7 @@ function loadSavedSettings() {
             boardZoom = (settings.boardZoom >= 70 && settings.boardZoom <= 120) ? settings.boardZoom : 100;
             timePerPlayer = settings.timePerPlayer != null ? settings.timePerPlayer : 60;
             incrementPerMove = settings.incrementPerMove != null ? settings.incrementPerMove : 0;
+            currentLang = detectAppLanguage();
             
             // Migrar niveles antiguos (1-20) a nuevos (1-8)
             if (aiDifficulty > 8) {
@@ -7801,6 +7820,9 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '3.5.71': [
+        'Interfaz bilingüe Español / English, con selector ES/EN y detección del navegador',
+    ],
     '3.5.68': [
         'Nueva escala aproximada de IA: 400, 600, 800, 1000, 1200, 1500, 1800 y 2200 ELO',
         'Apertura completada muestra debajo el nombre de la apertura',
@@ -8130,13 +8152,13 @@ function checkNewVersion() {
     if (!savedVersion || compareVersions(APP_VERSION, savedVersion) > 0) {
         const allVersions = Object.keys(VERSION_CHANGELOG)
             .sort((a, b) => compareVersions(b, a));
-        let msg = `<strong>🆕 Nueva Versión ${APP_VERSION}</strong>`;
+        let msg = `<strong>${t('newVersion', { v: APP_VERSION })}</strong>`;
         allVersions.forEach(v => {
             const changes = VERSION_CHANGELOG[v] || [];
             msg += `<div style="margin-top:10px;"><strong>v${v}</strong></div>`;
             if (changes.length) {
                 msg += '<ul style="text-align:left;margin:6px 0 0;padding-left:18px;font-size:0.9em;">';
-                changes.forEach(c => msg += `<li>${c}</li>`);
+                changes.forEach(c => msg += `<li>${t(c, null, c)}</li>`);
                 msg += '</ul>';
             }
         });
@@ -8297,7 +8319,7 @@ function showHelpMenu() {
         if (HELP_VIDEO_CATALOG[0] && HELP_VIDEO_CATALOG[0].videoId) {
             showHelpVideoModal(HELP_VIDEO_CATALOG[0]);
         } else {
-            showHelpTopicComingSoon('Ayuda');
+            showHelpTopicComingSoon(t('help.menu'));
         }
         return;
     }
@@ -8313,15 +8335,15 @@ function showHelpMenu() {
             var btn = document.createElement('button');
             btn.type = 'button';
             btn.className = 'btn btn-secondary help-menu-item-btn';
-            btn.textContent = entry.title;
+            btn.textContent = helpVideoTitle(entry);
             if (!entry.videoId) {
                 btn.classList.add('help-menu-item-btn--pending');
-                btn.title = 'Vídeo disponible próximamente';
+                btn.title = t('help.video.soon');
             }
             btn.addEventListener('click', function() {
                 hideHelpMenu();
                 if (!entry.videoId) {
-                    showHelpTopicComingSoon(entry.title);
+                    showHelpTopicComingSoon(helpVideoTitle(entry));
                 } else {
                     showHelpVideoModal(entry);
                 }
@@ -8350,12 +8372,12 @@ function showHelpVideoModal(entry, options) {
     }
 
     var titleEl = document.getElementById('help-modal-title');
-    if (titleEl) titleEl.textContent = entry.title;
+    if (titleEl) titleEl.textContent = helpVideoTitle(entry);
 
     var iframe = document.getElementById('help-modal-iframe');
     if (iframe) {
         iframe.src = getHelpYoutubeEmbedUrl(entry, { autoplay: !!options.autoplay });
-        iframe.title = entry.title + ' — YouTube';
+        iframe.title = helpVideoTitle(entry) + ' — YouTube';
     }
 
     var footer = overlay.querySelector('.help-modal-footer');
@@ -8427,10 +8449,9 @@ function maybeShowIntroVideoOnStartup() {
             });
             if (
                 tutorialCompletoBtn &&
-                tutorialCompletoCatalogEntry &&
-                tutorialCompletoCatalogEntry.title
+                tutorialCompletoCatalogEntry
             ) {
-                tutorialCompletoBtn.textContent = tutorialCompletoCatalogEntry.title;
+                tutorialCompletoBtn.textContent = helpVideoTitle(tutorialCompletoCatalogEntry);
             }
             if (tutorialCompletoBtn) {
                 tutorialCompletoBtn.addEventListener('click', function() {
@@ -8440,7 +8461,7 @@ function maybeShowIntroVideoOnStartup() {
                     hideHelpMenu();
                     if (!tcEntry || !tcEntry.videoId) {
                         showHelpTopicComingSoon(
-                            tcEntry && tcEntry.title ? tcEntry.title : 'Tutorial Completo'
+                            tcEntry ? helpVideoTitle(tcEntry) : t('help.fullTutorial')
                         );
                     } else {
                         showHelpVideoModal(tcEntry);
@@ -8451,8 +8472,8 @@ function maybeShowIntroVideoOnStartup() {
             var analysisCatalogEntry = HELP_VIDEO_CATALOG.find(function(e) {
                 return e.key === 'analysis';
             });
-            if (analysisHelpBtn && analysisCatalogEntry && analysisCatalogEntry.title) {
-                analysisHelpBtn.textContent = analysisCatalogEntry.title;
+            if (analysisHelpBtn && analysisCatalogEntry) {
+                analysisHelpBtn.textContent = helpVideoTitle(analysisCatalogEntry);
             }
             if (analysisHelpBtn) {
                 analysisHelpBtn.addEventListener('click', function() {
@@ -8464,9 +8485,7 @@ function maybeShowIntroVideoOnStartup() {
                         showHelpVideoModal(analysisEntry);
                     } else {
                         showHelpTopicComingSoon(
-                            analysisEntry && analysisEntry.title
-                                ? analysisEntry.title
-                                : '📊 Análisis'
+                            analysisEntry ? helpVideoTitle(analysisEntry) : t('help.analysis')
                         );
                     }
                 });
@@ -8475,8 +8494,8 @@ function maybeShowIntroVideoOnStartup() {
             var shareCatalogEntry = HELP_VIDEO_CATALOG.find(function(e) {
                 return e.key === 'share';
             });
-            if (shareHelpBtn && shareCatalogEntry && shareCatalogEntry.title) {
-                shareHelpBtn.textContent = shareCatalogEntry.title;
+            if (shareHelpBtn && shareCatalogEntry) {
+                shareHelpBtn.textContent = helpVideoTitle(shareCatalogEntry);
             }
             if (shareHelpBtn) {
                 shareHelpBtn.addEventListener('click', function() {
@@ -8488,7 +8507,7 @@ function maybeShowIntroVideoOnStartup() {
                         showHelpVideoModal(shareEntry);
                     } else {
                         showHelpTopicComingSoon(
-                            shareEntry && shareEntry.title ? shareEntry.title : '📤 Compartir'
+                            shareEntry ? helpVideoTitle(shareEntry) : t('help.share')
                         );
                     }
                 });
@@ -8732,19 +8751,19 @@ function getAppOpenOriginInfo() {
         : 'https://www.ajedrezia.com/';
 
     if (params.has('online')) {
-        return { type: 'Invitación online', detail: params.get('online') || '', url: url };
+        return { type: t('link.type.invite'), detail: params.get('online') || '', url: url };
     }
     if (params.get('m') || params.get('moves')) {
-        return { type: 'Partida', detail: params.get('m') || params.get('moves') || '', url: url };
+        return { type: t('link.type.game'), detail: params.get('m') || params.get('moves') || '', url: url };
     }
     if (params.get('puzzle') || params.get('p')) {
-        return { type: 'Problema', detail: params.get('puzzle') || params.get('p') || '', url: url };
+        return { type: t('link.type.puzzle'), detail: params.get('puzzle') || params.get('p') || '', url: url };
     }
     if (params.get('opening')) {
-        return { type: 'Apertura', detail: params.get('opening') || '', url: url };
+        return { type: t('link.type.opening'), detail: params.get('opening') || '', url: url };
     }
     if (params.get('master')) {
-        return { type: 'Partida maestra', detail: params.get('master') || '', url: url };
+        return { type: t('link.type.master'), detail: params.get('master') || '', url: url };
     }
     return { type: 'www.ajedrezia.com', detail: '', url: url };
 }
@@ -8786,7 +8805,7 @@ function setOnlineUser(user) {
             const inviterNick= inv.n ? String(inv.n) : '';
             const inviterElo = inv.e ? parseInt(inv.e, 10) : 0;
             const myColor    = colorRaw === 'white' ? 'black' : colorRaw === 'black' ? 'white' : 'random';
-            const myLabel    = { white: 'Blancas ♔', black: 'Negras ♚', random: 'Aleatorio 🎲' }[myColor] || '';
+            const myLabel    = inviteColorLabel(myColor) || '';
             const tcLabel    = timeLabelFor(tcRaw);
 
             setTimeout(function() {
@@ -8830,7 +8849,7 @@ function setOnlineUser(user) {
 function resolveDirectedInviteFromLink(inviterId, inviterNick, inviterElo, colorRaw, tcRaw) {
     const self = getOnlineUser();
     if (self && self.id === inviterId) {
-        showMessage('Este enlace lo enviaste tú. Compártelo con otro jugador.', 'info', 4000);
+        showMessage(t('shareOwnLink'), 'info', 4000);
         return;
     }
     if (IS_LOCAL) {
@@ -9021,10 +9040,10 @@ function showDesktopInviteNotification(nick, elo, colorLabel, timeLabel) {
     if (Notification.permission !== 'granted') return;
     if (document.visibilityState === 'visible' && document.hasFocus()) return;
 
-    var body = '♟ ' + (nick || 'Jugador') + ' (ELO ' + (elo || '?') + ')'
-        + '\nJuegas: ' + colorLabel + ' · ' + timeLabel;
+    var body = '♟ ' + (nick || t('playerDefault')) + ' (ELO ' + (elo || '?') + ')'
+        + '\n' + t('config.playAs') + ' ' + colorLabel + ' · ' + timeLabel;
 
-    var notif = new Notification('⚔️ ¡Te retan a una partida!', {
+    var notif = new Notification(t('invite.challenge'), {
         body: body,
         icon: './icons/icon-192.png',
         tag: 'ajedrezia-invite',   // reemplaza notificaciones anteriores del mismo tag
@@ -9388,14 +9407,17 @@ function renderUsersList(users, listEl, subtitleEl) {
     const visibleUsers = allUsers.filter(function(u) { return !!u.online; });
     const online = visibleUsers.length;
     const available = visibleUsers.filter(function(u) { return u.status !== 'busy'; }).length;
+    const locale = currentLang === 'en' ? 'en-US' : 'es-ES';
     if (subtitleEl) subtitleEl.textContent =
-        registeredDisplay.toLocaleString('es-ES') + ' jugadores registrados' +
-        ' · ' + online + ' online' +
-        (available !== online ? ' (' + available + ' disponible' + (available !== 1 ? 's' : '') + ')' : '') +
-        (IS_LOCAL ? ' (datos de ejemplo)' : '');
+        t('users.registered', { n: registeredDisplay.toLocaleString(locale) }) +
+        ' · ' + t('users.online', { n: online }) +
+        (available !== online
+            ? ' (' + (available === 1 ? t('users.available', { n: available }) : t('users.availablePlural', { n: available })) + ')'
+            : '') +
+        (IS_LOCAL ? t('users.sample') : '');
 
     if (visibleUsers.length === 0) {
-        listEl.innerHTML = '<p class="users-empty">No hay jugadores online ahora mismo.</p>';
+        listEl.innerHTML = '<p class="users-empty">' + t('users.empty') + '</p>';
         return;
     }
 
@@ -9411,9 +9433,9 @@ function renderUsersList(users, listEl, subtitleEl) {
         if (u.online) rowClass += isBusy ? ' is-busy' : ' is-online';
         row.className = rowClass;
 
-        var statusLabel = 'Offline';
-        if (u.online) statusLabel = isBusy ? 'Ocupado' : 'Online';
-        if (isMe && u.online) statusLabel = isBusy ? 'Ocupado (tú)' : 'Online (tú)';
+        var statusLabel = t('user.offline');
+        if (u.online) statusLabel = isBusy ? t('user.busy') : t('user.onlineStatus');
+        if (isMe && u.online) statusLabel = isBusy ? t('user.busyYou') : t('user.onlineYou');
 
         row.innerHTML =
             '<div class="user-row-avatar">' + initial + '</div>' +
@@ -9481,7 +9503,7 @@ const TIME_LABELS = {
     '60+0':'Clásica 60 min','90+30':'Clásica 90+30',
 };
 
-function timeLabelFor(tc) { return TIME_LABELS[tc] || tc; }
+function timeLabelFor(tc) { return t('tc.' + tc, null, TIME_LABELS[tc] || tc); }
 
 // ── Bots siempre online ────────────────────────────────────────────────────
 // Jugadores sintéticos que aparecen siempre disponibles en la lista de
@@ -9572,9 +9594,8 @@ function startBotGame(bot, color, timeControl) {
     saveSettings();
 
     showMessage(
-        '🤖 <strong>Partida contra ' + meta.nick + '</strong><br>' +
-        'ELO ' + meta.elo +
-        ' · Juegas con ' + (resolvedColor === 'white' ? 'Blancas' : 'Negras') +
+        t('vsBot', { nick: meta.nick, elo: meta.elo }) +
+        ' · ' + t('online.playAs', { color: resolvedColor === 'white' ? t('color.white') : t('color.black') }) +
         ' · ' + timeLabelFor(tcRaw),
         'success', 3000
     );
@@ -9680,7 +9701,7 @@ function showGenericInviteModal() {
     _inviteTarget        = null;
     _inviteSelectedColor = localStorage.getItem('invite_color') || 'white';
     const savedTc        = localStorage.getItem('invite_tc')    || '5+0';
-    document.getElementById('invite-send-target').textContent = 'Elige color y tiempo para tu invitación';
+    document.getElementById('invite-send-target').textContent = t('invite.pickColorTime');
     document.querySelectorAll('#invite-color-picker .invite-color-btn').forEach(function(b) {
         b.classList.toggle('is-selected', b.dataset.color === _inviteSelectedColor);
         b.setAttribute('aria-pressed', b.dataset.color === _inviteSelectedColor);
@@ -9695,7 +9716,7 @@ function sendInvite() {
     // Modo genérico: construir share con los datos elegidos
     if (_inviteGenericMode) {
         const tc = document.getElementById('invite-time-select').value;
-        const colorLabel = { white: 'Blancas ♔', black: 'Negras ♚', random: 'Aleatorio 🎲' }[_inviteSelectedColor] || '';
+        const colorLabel = inviteColorLabel(_inviteSelectedColor) || '';
         hideInviteSendModal();
         shareInviteOnline(colorLabel, timeLabelFor(tc), _inviteSelectedColor, tc);
         return;
@@ -9795,7 +9816,7 @@ function startOutgoingPolling() {
                 } else if (data.status === 'rejected' || data.status === 'expired' || data.status === 'cancelled') {
                     stopOutgoingPolling();
                     hideInviteWaitingModal();
-                    showMessage('La invitación fue ' + (data.status === 'rejected' ? 'rechazada' : 'cancelada') + '.', 'info', 3000);
+                    showMessage(t('msg.inviteStatus', { status: data.status === 'rejected' ? t('status.rejected') : t('status.cancelled') }), 'info', 3000);
                     _outgoingInviteId = null;
                 }
             })
@@ -9987,11 +10008,11 @@ function respondInvite(action) {
     if (invite._viaLink) {
         hideIncomingInvite();
         if (action !== 'accept') {
-            showMessage('Invitación rechazada.', 'info', 2500);
+            showMessage(t('inviteRejected'), 'info', 2500);
             return;
         }
         if (!me) {
-            showMessage('Debes iniciar sesión para aceptar.', 'warning', 3000);
+            showMessage(t('mustLogin'), 'warning', 3000);
             showLoginModal();
             return;
         }
@@ -10035,7 +10056,7 @@ function respondInvite(action) {
             startOutgoingPolling();
         })
         .catch(function() {
-            showMessage('⚠️ No se pudo enviar la invitación al invitador.', 'warning', 3500);
+            showMessage(t('msg.inviteSendFail'), 'warning', 3500);
         });
         return;
     }
@@ -10061,7 +10082,7 @@ function respondInvite(action) {
         }
     })
     .catch(function() {
-        if (action === 'accept') showMessage('⚠️ No se pudo aceptar la invitación.', 'warning', 3000);
+        if (action === 'accept') showMessage(t('msg.inviteAcceptFail'), 'warning', 3000);
     });
 
     hideIncomingInvite();
@@ -10108,9 +10129,8 @@ function startOnlineGame(opponent, myColor, timeControl, gameId) {
     _drawOfferShown   = false;
 
     showMessage(
-        '🌐 <strong>Partida online iniciada</strong><br>' +
-        'Oponente: ' + (opponent.nick || opponent.name) +
-        ' · Juegas con ' + (myColor === 'white' ? 'Blancas' : 'Negras') +
+        t('online.started', { nick: opponent.nick || opponent.name }) +
+        ' · ' + t('online.playAs', { color: myColor === 'white' ? t('color.white') : t('color.black') }) +
         ' · ' + timeLabelFor(timeControl),
         'success', 3500
     );
@@ -10151,7 +10171,7 @@ function sendOnlineMove(uci, statusAfter) {
     .then(function(r) { return r.json(); })
     .then(function(data) {
         if (!data.ok) {
-            showMessage('⚠️ No se pudo sincronizar el movimiento.', 'warning', 3000);
+            showMessage(t('msg.moveSyncFail'), 'warning', 3000);
             return;
         }
         _onlineGame.totalMovesApplied = data.total_moves;
@@ -10167,7 +10187,7 @@ function sendOnlineMove(uci, statusAfter) {
         }
     })
     .catch(function() {
-        showMessage('⚠️ Error de conexión al enviar movimiento.', 'warning', 3000);
+        showMessage(t('msg.moveNetFail'), 'warning', 3000);
     });
 }
 
@@ -10189,7 +10209,7 @@ function showDrawOfferModal(opponentNick) {
     const titleEl    = document.getElementById('draw-offer-title');
     const subtitleEl = document.getElementById('draw-offer-subtitle');
     if (titleEl)    titleEl.textContent    = opponentNick + ' ofrece tablas';
-    if (subtitleEl) subtitleEl.textContent = '¿Aceptas las tablas?';
+    if (subtitleEl) subtitleEl.textContent = t('draw.subtitle');
     overlay.style.display = 'flex';
 
     const acceptBtn = document.getElementById('draw-offer-accept');
@@ -10228,9 +10248,9 @@ function respondDrawOffer(action) {
             const eloDelta = recordGameResult('draw');
             SoundFX.draw(); clearAutoSavedGame();
             updateUndoButton();
-            showBoardBanner(`½ TABLAS — Acordadas${formatEloDelta(eloDelta)}`, 'stalemate');
+            showBoardBanner(t('banner.drawAgreed') + formatEloDelta(eloDelta), 'stalemate');
         } else {
-            showMessage('Has rechazado las tablas.', 'info', 2000);
+            showMessage(t('drawRejected'), 'info', 2000);
         }
         return;
     }
@@ -10253,12 +10273,12 @@ function respondDrawOffer(action) {
             const eloDelta = recordGameResult('draw');
             SoundFX.draw(); clearAutoSavedGame();
             updateUndoButton();
-            showBoardBanner(`½ TABLAS — Acordadas${formatEloDelta(eloDelta)}`, 'stalemate');
+            showBoardBanner(t('banner.drawAgreed') + formatEloDelta(eloDelta), 'stalemate');
         } else if (action === 'reject') {
-            showMessage('Has rechazado la oferta de tablas.', 'info', 2000);
+            showMessage(t('drawOfferRejected'), 'info', 2000);
         }
     })
-    .catch(function() { showMessage('Error al responder la oferta de tablas.', 'warning', 2000); });
+    .catch(function() { showMessage(t('msg.drawReplyFail'), 'warning', 2000); });
 }
 
 function pollOnlineGame() {
@@ -10367,11 +10387,11 @@ function onOnlineGameEnded(status, reason) {
             clearAutoSavedGame();
         }
     }
-    let txt = 'Partida online finalizada';
-    if      (status === 'white_wins') txt = '♔ Ganan blancas';
-    else if (status === 'black_wins') txt = '♚ Ganan negras';
-    else if (status === 'draw')       txt = '½–½ Tablas';
-    else if (status === 'aborted')    txt = '⚠️ Partida abortada';
+    let txt = t('online.finished');
+    if      (status === 'white_wins') txt = t('online.whiteWins');
+    else if (status === 'black_wins') txt = t('online.blackWins');
+    else if (status === 'draw')       txt = t('online.draw');
+    else if (status === 'aborted')    txt = t('online.aborted');
     if (reason) txt += ' (' + reason + ')';
     updateUndoButton();
     if (status === 'aborted') {
@@ -10520,9 +10540,9 @@ function sendChatMessage() {
         if (!data.ok) {
             if (node) {
                 node.style.opacity = '0.55';
-                node.title = 'No enviado: ' + (data.error || 'error');
+                node.title = t('chat.notSent', { err: data.error || 'error' });
             }
-            showMessage('⚠️ No se pudo enviar el mensaje: ' + (data.error || 'error'), 'warning', 3000);
+            showMessage(t('msg.chatFail', { err: data.error || 'error' }), 'warning', 3000);
             return;
         }
         // Re-etiquetar la burbuja con el id real y actualizar la hora.
@@ -10539,8 +10559,8 @@ function sendChatMessage() {
     })
     .catch(function() {
         const node = document.querySelector('.online-chat-msg[data-id="' + tempId + '"]');
-        if (node) { node.style.opacity = '0.55'; node.title = 'Error de red'; }
-        showMessage('⚠️ Error de red al enviar el mensaje.', 'warning', 3000);
+        if (node) { node.style.opacity = '0.55'; node.title = t('chat.netError'); }
+        showMessage(t('msg.chatNet'), 'warning', 3000);
     });
 }
 
@@ -10642,14 +10662,14 @@ function updateOnlineBanner() {
         document.body.appendChild(banner);
     }
     const opp = _onlineGame.opponent || {};
-    const turnTxt = (game && game.currentTurn === _onlineGame.myColor) ? 'Tu turno' : 'Espera al rival…';
+    const turnTxt = (game && game.currentTurn === _onlineGame.myColor) ? t('online.yourTurn') : t('online.wait');
     banner.innerHTML =
         '<span class="online-banner-dot"></span>' +
         '<span class="online-banner-text">' +
             '<strong>vs ' + escHtml(opp.nick || opp.name || 'Oponente') + '</strong>' +
             ' · ' + turnTxt +
         '</span>' +
-        '<button class="online-banner-leave" id="online-banner-leave" title="Abandonar partida">✖</button>';
+        '<button class="online-banner-leave" id="online-banner-leave" title="' + t('online.leaveTitle') + '">✖</button>';
     document.getElementById('online-banner-leave').onclick = function() {
         showAbandonConfirm();
     };
@@ -10657,7 +10677,7 @@ function updateOnlineBanner() {
 
 function showAbandonConfirm() {
     const overlay = document.getElementById('abandon-confirm-overlay');
-    if (!overlay) { if (confirm('¿Abandonar la partida online?')) leaveOnlineGame('resign'); return; }
+    if (!overlay) { if (confirm(t('online.confirmLeave'))) leaveOnlineGame('resign'); return; }
     overlay.style.display = 'flex';
     const accept = document.getElementById('abandon-confirm-accept');
     const cancel = document.getElementById('abandon-confirm-cancel');
@@ -10679,7 +10699,7 @@ function showAbandonConfirm() {
         SoundFX.lose();
         clearAutoSavedGame();
         updateUndoButton();
-        showBoardBanner(`🏳️ HAS ABANDONADO${formatEloDelta(eloDelta)}`, 'checkmate');
+        showBoardBanner(t('banner.resigned') + formatEloDelta(eloDelta), 'checkmate');
     };
     cancel.onclick = close;
     overlay.onclick = function(e) { if (e.target === overlay) close(); };
@@ -10783,14 +10803,14 @@ function sendFeedback() {
     const errBox = document.getElementById('feedback-modal-error');
 
     if (!errorText && !improveText) {
-        if (errBox) { errBox.textContent = 'Escribe al menos un error o una mejora antes de enviar.'; errBox.style.display = 'block'; }
+        if (errBox) { errBox.textContent = t('feedbackEmpty'); errBox.style.display = 'block'; }
         return;
     }
     if (errBox) errBox.style.display = 'none';
 
     const sendBtn = document.getElementById('feedback-send-btn');
     const originalLabel = sendBtn ? sendBtn.textContent : '';
-    if (sendBtn) { sendBtn.disabled = true; sendBtn.textContent = 'Enviando…'; }
+    if (sendBtn) { sendBtn.disabled = true; sendBtn.textContent = t('sending'); }
 
     fetch(BASE_PATH + 'api/send-feedback.php', {
         method: 'POST',
@@ -10804,14 +10824,14 @@ function sendFeedback() {
     .then(function(data) {
         if (data && data.ok) {
             hideFeedbackModal();
-            showMessage('¡Gracias! Tu mensaje se ha enviado correctamente.', 'success', 3000);
+            showMessage(t('thanksFeedback'), 'success', 3000);
         } else {
-            if (errBox) { errBox.textContent = 'No se pudo enviar el mensaje. Inténtalo de nuevo más tarde.'; errBox.style.display = 'block'; }
+            if (errBox) { errBox.textContent = t('feedbackFail'); errBox.style.display = 'block'; }
         }
     })
     .catch(function(err) {
         console.error('sendFeedback error:', err);
-        if (errBox) { errBox.textContent = 'Error de conexión al enviar el mensaje.'; errBox.style.display = 'block'; }
+        if (errBox) { errBox.textContent = t('feedbackNet'); errBox.style.display = 'block'; }
     })
     .finally(function() {
         if (sendBtn) { sendBtn.disabled = false; sendBtn.textContent = originalLabel; }
@@ -10878,8 +10898,8 @@ function updateLoginStatusButton() {
     } else {
         btn.classList.remove('is-logged-in');
         avatarEl.textContent = '👤';
-        textEl.textContent   = 'Iniciar Sesión';
-        btn.title = 'Iniciar sesión online';
+        textEl.textContent   = t('login.start');
+        btn.title = t('login.startTitle');
     }
 }
 
@@ -10927,14 +10947,14 @@ function showUserProfileModal() {
     provEl.textContent =
         user.provider === 'google'   ? '🔵 Conectado con Google' :
         user.provider === 'apple'    ? '🍎 Conectado con Apple'  :
-        user.provider === 'guest'    ? '👤 Acceso como Invitado' :
+        user.provider === 'guest'    ? t('login.guestProvider') :
         user.provider === 'nickname' ? '👤 Conectado con Nickname' : '';
     modal.appendChild(provEl);
 
     // Botón cerrar sesión
     const signoutBtn = document.createElement('button');
     signoutBtn.className = 'btn btn-secondary';
-    signoutBtn.textContent = 'Cerrar sesión';
+        signoutBtn.textContent = t('login.signOut');
     signoutBtn.style.cssText = 'width:100%;margin-top:0;';
     signoutBtn.addEventListener('click', function() {
         overlay.remove();
@@ -10947,7 +10967,7 @@ function showUserProfileModal() {
             nicknameEl.title = '';
         }
         saveSettings();
-        showMessage('Sesión cerrada correctamente.', 'info', 2500);
+        showMessage(t('signedOut'), 'info', 2500);
         updateLoginStatusButton();
         updateLoginModalUI();
         updateOnlineButtonTooltip();
@@ -11000,7 +11020,7 @@ function updateLoginModalUI() {
             providerEl.textContent =
                 user.provider === 'google'   ? '🔵 Conectado con Google' :
                 user.provider === 'apple'    ? '🍎 Conectado con Apple'  :
-                user.provider === 'guest'    ? '👤 Acceso como Invitado' :
+                user.provider === 'guest'    ? t('login.guestProvider') :
                 user.provider === 'nickname' ? '👤 Conectado con Nickname' :
                                                '';
         }
@@ -11113,12 +11133,12 @@ function openInExternalBrowser() {
     // Fallback universal: copiar la URL y avisar
     if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(currentUrl).then(function() {
-            alert('Enlace copiado. Pégalo en Chrome, Firefox o Safari para iniciar sesión.');
+            alert(t('browser.copyLink'));
         }).catch(function() {
-            window.prompt('Copia este enlace y ábrelo en Chrome, Firefox o Safari:', currentUrl);
+            window.prompt(t('browser.promptLink'), currentUrl);
         });
     } else {
-        window.prompt('Copia este enlace y ábrelo en Chrome, Firefox o Safari:', currentUrl);
+        window.prompt(t('browser.promptLink'), currentUrl);
     }
 }
 
@@ -11159,7 +11179,7 @@ function showUnsupportedBrowserWarningIfNeeded() {
                     'background:#1f2937; color:#fff;">Abrir en Chrome</button>' +
                 '<button type="button" id="login-copy-url-btn" class="login-btn" ' +
                     'style="flex:1 1 auto; min-width:140px; padding:9px 12px; font-size:0.85rem; ' +
-                    'background:#e5e7eb; color:#1f2937;">Copiar enlace</button>' +
+                    'background:#e5e7eb; color:#1f2937;">' + t('copyLink') + '</button>' +
             '</div>';
         const errEl = document.getElementById('login-modal-error');
         if (errEl) container.insertBefore(warn, errEl);
@@ -11172,8 +11192,8 @@ function showUnsupportedBrowserWarningIfNeeded() {
             const u = window.location.href;
             if (navigator.clipboard && navigator.clipboard.writeText) {
                 navigator.clipboard.writeText(u).then(function() {
-                    copyBtn.textContent = '✔ Copiado';
-                    setTimeout(function() { copyBtn.textContent = 'Copiar enlace'; }, 1800);
+                    copyBtn.textContent = t('copied');
+                    setTimeout(function() { copyBtn.textContent = t('copyLink'); }, 1800);
                 }).catch(function() { window.prompt('Copia el enlace:', u); });
             } else {
                 window.prompt('Copia el enlace:', u);
@@ -11240,7 +11260,7 @@ function signInWithNickname(rawNick) {
         } else {
             hideLoginModal();
         }
-        showMessage('¡Bienvenido, ' + nick + '! 🎉', 'success', 3000);
+        showMessage(t('welcome', { name: nick }), 'success', 3000);
     }
 
     if (IS_LOCAL) {
@@ -11332,7 +11352,7 @@ function signInAsGuest() {
     } else {
         hideLoginModal();
     }
-    showMessage('Acceso como ' + name + ' 🎉', 'success', 3000);
+    showMessage(t('guestAccess', { name: name }), 'success', 3000);
 }
 
 // ── Flujo Google OAuth ─────────────────────────────────────────────────────
@@ -11398,7 +11418,7 @@ function signInWithGoogle() {
                 } else {
                     hideLoginModal();
                 }
-                showMessage('¡Bienvenido, ' + info.name + '! 🎉', 'success', 3000);
+                showMessage(t('welcome', { name: info.name }), 'success', 3000);
             } catch (err) {
                 loginSetLoading(false);
                 loginSetError(err.message || 'Error al obtener el perfil.');
@@ -11473,7 +11493,7 @@ async function signInWithApple() {
         } else {
             hideLoginModal();
         }
-        showMessage('¡Bienvenido, ' + fullName + '! 🎉', 'success', 3000);
+        showMessage(t('welcome', { name: fullName }), 'success', 3000);
     } catch (err) {
         loginSetLoading(false);
         if (err && err.error === 'popup_closed_by_user') return;
@@ -11561,7 +11581,7 @@ async function signInWithApple() {
                 nicknameEl.title = '';
             }
             saveSettings();
-            showMessage('Sesión cerrada correctamente.', 'info', 2500);
+            showMessage(t('signedOut'), 'info', 2500);
         });
 
         document.getElementById('login-invite-btn').addEventListener('click', function() {
@@ -11572,7 +11592,7 @@ async function signInWithApple() {
             const tcRaw      = (timePerPlayer != null && incrementPerMove != null)
                                    ? (timePerPlayer + '+' + incrementPerMove)
                                    : '5+0';
-            const colorLabel = { white: 'Blancas ♔', black: 'Negras ♚', random: 'Aleatorio 🎲' }[colorRaw] || '';
+            const colorLabel = inviteColorLabel(colorRaw) || '';
             const timeLabel  = timeLabelFor(tcRaw);
             shareInviteOnline(colorLabel, timeLabel, colorRaw, tcRaw);
         });
@@ -11705,11 +11725,11 @@ function formatEloDelta(delta) {
 
 function resignGame() {
     if (!game || game.gameOver) {
-        showMessage('No hay partida en curso', 'warning', 2000);
+        showMessage(t('noGame'), 'warning', 2000);
         return;
     }
     if (!game.moveHistory || game.moveHistory.length === 0) {
-        showMessage('La partida aún no ha empezado', 'warning', 2000);
+        showMessage(t('gameNotStarted'), 'warning', 2000);
         return;
     }
     const _oppEloR = (_onlineGame && _onlineGame.opponent && _onlineGame.opponent.elo != null)
@@ -11724,17 +11744,17 @@ function resignGame() {
         SoundFX.lose();
         clearAutoSavedGame();
         updateUndoButton();
-        showBoardBanner(`🏳️ HAS ABANDONADO${formatEloDelta(eloDelta)}`, 'checkmate');
+        showBoardBanner(t('banner.resigned') + formatEloDelta(eloDelta), 'checkmate');
     });
 }
 
 function offerDraw() {
     if (!game || game.gameOver) {
-        showMessage('No hay partida en curso', 'warning', 2000);
+        showMessage(t('noGame'), 'warning', 2000);
         return;
     }
     if (!game.moveHistory || game.moveHistory.length < 2) {
-        showMessage('Es muy pronto para pedir tablas', 'warning', 2000);
+        showMessage(t('msg.tooSoonDraw'), 'warning', 2000);
         return;
     }
 
@@ -11742,7 +11762,7 @@ function offerDraw() {
     if (_onlineGame && _onlineGame.status === 'active') {
         const me = getOnlineUser();
         if (!me || IS_LOCAL) {
-            showMessage('Oferta de tablas enviada (simulación)', 'info', 2000);
+            showMessage(t('msg.drawSim'), 'info', 2000);
             return;
         }
         fetch(BASE_PATH + 'api/offer-draw.php', {
@@ -11752,17 +11772,17 @@ function offerDraw() {
         .then(function(r) { return r.json(); })
         .then(function(data) {
             if (data.ok) {
-                showMessage('🤝 Oferta de tablas enviada al oponente…', 'info', 3000);
+                showMessage(t('msg.drawSent'), 'info', 3000);
                 // Deshabilitar botón temporalmente para evitar spam
                 ['offer-draw', 'offer-draw-sidebar'].forEach(function(id) {
                     const el = document.getElementById(id);
                     if (el) { el.disabled = true; setTimeout(function() { el.disabled = false; }, 10000); }
                 });
             } else {
-                showMessage('No se pudo enviar la oferta de tablas.', 'warning', 2000);
+                showMessage(t('msg.drawSendFail'), 'warning', 2000);
             }
         })
-        .catch(function() { showMessage('Error de conexión al ofrecer tablas.', 'warning', 2000); });
+        .catch(function() { showMessage(t('msg.drawNet'), 'warning', 2000); });
         return;
     }
 
@@ -11793,7 +11813,7 @@ function offerDraw() {
             SoundFX.draw();
             clearAutoSavedGame();
             updateUndoButton();
-            showBoardBanner(`½ TABLAS — Aceptadas${formatEloDelta(eloDelta)}`, 'stalemate');
+            showBoardBanner(t('banner.drawAccepted') + formatEloDelta(eloDelta), 'stalemate');
         } else {
             const evalText = aiEval > 1.0 ? ' (tiene ventaja)' : '';
             showMessage(`El rival rechaza las tablas${evalText}`, 'warning', 2000);
@@ -11825,13 +11845,13 @@ function showConfirmDialog(message, onConfirm, confirmLabel, onCancel) {
 
     const confirmBtn = document.createElement('button');
     confirmBtn.className = 'btn btn-success';
-    confirmBtn.textContent = confirmLabel || 'Confirmar';
+    confirmBtn.textContent = confirmLabel || t('confirm');
     confirmBtn.style.marginTop = '0';
     confirmBtn.addEventListener('click', () => { overlay.remove(); onConfirm(); });
 
     const cancelBtn = document.createElement('button');
     cancelBtn.className = 'btn btn-secondary';
-    cancelBtn.textContent = 'Cancelar';
+    cancelBtn.textContent = t('cancel');
     cancelBtn.style.marginTop = '0';
     cancelBtn.addEventListener('click', () => { overlay.remove(); if (onCancel) onCancel(); });
 
@@ -11861,24 +11881,24 @@ function showContinueAiLevelDialog(onConfirm) {
 
     const title = document.createElement('h3');
     title.className = 'game-list-title';
-    title.textContent = 'Continuar Partida';
+    title.textContent = t('continue.title');
     modal.appendChild(title);
 
     const text = document.createElement('p');
-    text.textContent = 'Configura la IA y el tiempo para continuar desde esta posición:';
+    text.textContent = t('continue.text');
     text.style.cssText = 'font-size:0.95rem;color:#4b5563;margin:0 0 14px;';
     modal.appendChild(text);
 
     const levelLabel = document.createElement('label');
     levelLabel.setAttribute('for', 'continue-ai-difficulty');
-    levelLabel.textContent = 'Nivel de dificultad:';
+    levelLabel.textContent = t('continue.level');
     levelLabel.style.cssText = 'display:block;text-align:left;font-weight:600;margin:0 0 6px;';
     modal.appendChild(levelLabel);
 
     const levelSelect = document.createElement('select');
     levelSelect.id = 'continue-ai-difficulty';
     levelSelect.className = 'select';
-    levelSelect.setAttribute('aria-label', 'Nivel de dificultad de la IA');
+    levelSelect.setAttribute('aria-label', t('aria.aiLevel'));
     const sourceSelect = document.getElementById('ai-difficulty');
     if (sourceSelect) {
         levelSelect.innerHTML = sourceSelect.innerHTML;
@@ -11887,7 +11907,7 @@ function showContinueAiLevelDialog(onConfirm) {
         Object.keys(AI_ELO_MAP).forEach(function(level) {
             const option = document.createElement('option');
             option.value = level;
-            option.textContent = 'Nivel ' + level + ' (~' + AI_ELO_MAP[level] + ' ELO)';
+            option.textContent = t('level.n', { n: level, elo: AI_ELO_MAP[level] });
             levelSelect.appendChild(option);
         });
         levelSelect.value = String(aiDifficulty);
@@ -11896,14 +11916,14 @@ function showContinueAiLevelDialog(onConfirm) {
 
     const timeLabel = document.createElement('label');
     timeLabel.setAttribute('for', 'continue-time-control');
-    timeLabel.textContent = 'Tiempo partida:';
+    timeLabel.textContent = t('continue.time');
     timeLabel.style.cssText = 'display:block;text-align:left;font-weight:600;margin:14px 0 6px;';
     modal.appendChild(timeLabel);
 
     const timeSelect = document.createElement('select');
     timeSelect.id = 'continue-time-control';
     timeSelect.className = 'select';
-    timeSelect.setAttribute('aria-label', 'Tiempo de la partida');
+    timeSelect.setAttribute('aria-label', t('aria.gameTime'));
     const sourceTimeSelect = document.getElementById('time-control');
     if (sourceTimeSelect) {
         timeSelect.innerHTML = sourceTimeSelect.innerHTML;
@@ -11919,7 +11939,7 @@ function showContinueAiLevelDialog(onConfirm) {
 
     const continueBtn = document.createElement('button');
     continueBtn.className = 'btn btn-success';
-    continueBtn.textContent = '▶ Continuar';
+    continueBtn.textContent = t('continue.btn');
     continueBtn.style.marginTop = '0';
     continueBtn.addEventListener('click', function() {
         const selectedDifficulty = parseInt(levelSelect.value, 10);
@@ -11934,7 +11954,7 @@ function showContinueAiLevelDialog(onConfirm) {
 
     const cancelBtn = document.createElement('button');
     cancelBtn.className = 'btn btn-secondary';
-    cancelBtn.textContent = 'Cancelar';
+    cancelBtn.textContent = t('cancel');
     cancelBtn.style.marginTop = '0';
     cancelBtn.addEventListener('click', function() { overlay.remove(); });
 
@@ -12048,13 +12068,13 @@ function setupAndroidBackExitConfirmation() {
         if (closeTopModalForAndroidBack()) return;
 
         showConfirmDialog(
-            '¿Quieres salir de AjedrezIA?',
+            t('exitApp'),
             function() {
                 exitInProgress = true;
                 autoSaveGame();
                 history.back();
             },
-            'Aceptar',
+            t('accept'),
             function() {}
         );
     });
@@ -12097,6 +12117,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Cargar configuraciones guardadas
     loadSavedSettings();
+    persistAppLanguage(currentLang);
+    applyI18n();
     syncPlayerColorUI();
     updatePlayerColorPawnImages();
 
@@ -12168,7 +12190,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('learn-hint-btn').addEventListener('click', function() {
         if (!currentLesson || !learnActive) return;
         const step = currentLesson.steps[learnStepIndex];
-        if (step && step.hint) learnShowFeedback('💡 ' + step.hint, 'correct');
+        if (step && step.hint) learnShowFeedback('💡 ' + learnStepField(currentLesson, learnStepIndex, 'hint'), 'correct');
     });
     document.getElementById('learn-exit-btn').addEventListener('click', function() {
         endLearnMode();
@@ -12270,6 +12292,18 @@ document.addEventListener('DOMContentLoaded', () => {
         aiDifficulty = parseInt(e.target.value);
         console.log('Nivel de dificultad cambiado a:', aiDifficulty);
         saveSettings();
+    });
+    const languageSelect = document.getElementById('language-select');
+    if (languageSelect) {
+        languageSelect.value = currentLang;
+        languageSelect.addEventListener('change', function(e) {
+            setAppLanguage(e.target.value, true);
+        });
+    }
+    document.querySelectorAll('.lang-btn').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+            setAppLanguage(btn.getAttribute('data-lang'), true);
+        });
     });
     document.getElementById('zoom-slider').addEventListener('input', (e) => {
         boardZoom = parseInt(e.target.value);
@@ -12634,7 +12668,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (locked) {
                 e.stopPropagation();
                 e.preventDefault();
-                showMessage('Cierra Modo Análisis para continuar', 'warning', 2000);
+                showMessage(t('msg.closeAnalysis'), 'warning', 2000);
                 return;
             }
         }
@@ -13116,7 +13150,7 @@ function showNewGameDialog() {
 
     const title = document.createElement('h3');
     title.className = 'game-list-title';
-    title.textContent = 'Nueva Partida';
+    title.textContent = t('newGameTitle');
     modal.appendChild(title);
 
     const content = document.createElement('div');
@@ -13219,7 +13253,7 @@ function showNewGameDialog() {
 
     const startBtn = document.createElement('button');
     startBtn.className = 'btn btn-success';
-    startBtn.textContent = 'Comenzar';
+    startBtn.textContent = t('start');
     startBtn.style.marginTop = '0';
     startBtn.style.flex = '1';
     startBtn.addEventListener('click', () => {
@@ -13268,7 +13302,7 @@ function showNewGameDialog() {
             const tcRaw = (timePerPlayer != null && incrementPerMove != null)
                 ? (timePerPlayer + '+' + incrementPerMove)
                 : '5+0';
-            const colorLabel = { white: 'Blancas ♔', black: 'Negras ♚', random: 'Aleatorio 🎲' }[colorRaw] || '';
+            const colorLabel = inviteColorLabel(colorRaw) || '';
             const timeLabel = timeLabelFor(tcRaw);
             shareInviteOnline(colorLabel, timeLabel, colorRaw, tcRaw);
             return;
@@ -13295,7 +13329,7 @@ function showNewGameDialog() {
 
     const cancelBtn = document.createElement('button');
     cancelBtn.className = 'btn btn-secondary';
-    cancelBtn.textContent = 'Cancelar';
+    cancelBtn.textContent = t('cancel');
     cancelBtn.style.marginTop = '0';
     cancelBtn.style.flex = '1';
     cancelBtn.addEventListener('click', close);
@@ -13422,7 +13456,7 @@ function onOpeningSelect() {
 
     if (!key) {
         info.style.display = 'none';
-        btn.textContent = '♟ Iniciar Entrenamiento';
+        btn.textContent = t('opening.startTraining');
         variantsBtn.disabled = true;
         quizBtn.disabled = true;
         quizScore.style.display = 'none';
@@ -13434,10 +13468,10 @@ function onOpeningSelect() {
     if (!opening) return;
 
     trainingOpening = opening;
-    document.getElementById('opening-training-name').textContent = opening.name;
+    document.getElementById('opening-training-name').textContent = openingNameOf(key, opening);
     document.getElementById('opening-training-moves').textContent = opening.san;
     const descEl = document.getElementById('opening-training-desc');
-    descEl.textContent = opening.desc || '';
+    descEl.textContent = openingDescOf(key, opening) || '';
     descEl.style.display = opening.desc ? 'block' : 'none';
     var wrEl = document.getElementById('opening-winrate');
     if (opening.wr && opening.wr.length === 3) {
@@ -13452,7 +13486,7 @@ function onOpeningSelect() {
         wrEl.style.display = 'none';
     }
     info.style.display = 'block';
-    btn.textContent = '👁 Ver Apertura';
+    btn.textContent = t('opening.view');
     variantsBtn.disabled = false;
     quizBtn.disabled = false;
     quizScore.style.display = 'none';
@@ -13582,7 +13616,7 @@ function showKnownVariants() {
     }
 
     if (allVariants.length === 0) {
-        showMessage('No se encontraron variantes conocidas', 'warning', 2000);
+        showMessage(t('msg.noVariants'), 'warning', 2000);
         return;
     }
 
@@ -13988,7 +14022,7 @@ function populateFcePlayerSelect() {
         })
         .catch(() => {
             const summary = document.getElementById('fce-library-summary');
-            if (summary) summary.textContent = 'Biblioteca no disponible';
+            if (summary) summary.textContent = t('lib.unavailable');
         });
 }
 
@@ -14027,7 +14061,7 @@ function loadFcePlayerGames(playerId, playerName, playerLabel) {
     gameSelect.innerHTML = '';
     const loadingOpt = document.createElement('option');
     loadingOpt.value = '';
-    loadingOpt.textContent = `⏳ Cargando partidas de ${playerLabel}…`;
+    loadingOpt.textContent = t('lib.loadingGames', { name: playerLabel });
     gameSelect.appendChild(loadingOpt);
     gameSelect.disabled = true;
 
@@ -14331,28 +14365,29 @@ function loadFamousGame(source) {
 }
 
 function showLoadedGameMessage(title, isFinished, pgnResult, openingContinueGameOnly) {
-    const turnLabel = game.currentTurn === 'white' ? 'Blancas' : 'Negras';
-    let msg = `<strong>${title.replace(/\n/g, '<br>')}</strong>`;
+    const turnLabel = game.currentTurn === 'white' ? t('turn.white') : t('turn.black');
+    const openingCompleted = title === t('opening.completed') || title === I18N.es['opening.completed'];
+    let msg = `<strong>${(openingCompleted ? t('opening.completed') : title).replace(/\n/g, '<br>')}</strong>`;
     let msgType = 'info';
 
     if (isFinished) {
         if (game.isCheckmate()) {
-            const winner = game.currentTurn === 'white' ? 'Negras' : 'Blancas';
-            msg += `<br>¡Jaque Mate! Ganan las ${winner}`;
+            const winner = game.currentTurn === 'white' ? t('turn.black') : t('turn.white');
+            msg += `<br>${t('checkmate', { winner: winner })}`;
             msgType = 'success';
         } else if (game.isStalemate()) {
-            msg += `<br>Tablas por ahogado`;
+            msg += `<br>${t('stalemate')}`;
         } else if (pgnResult === '1-0') {
-            msg += `<br>Negras abandonan — Ganan Blancas`;
+            msg += `<br>${t('whiteResigns')}`;
         } else if (pgnResult === '0-1') {
-            msg += `<br>Blancas abandonan — Ganan Negras`;
+            msg += `<br>${t('blackResigns')}`;
         } else if (pgnResult === '1/2-1/2') {
-            msg += `<br>Tablas por acuerdo`;
+            msg += `<br>${t('drawAgreed')}`;
         } else {
-            msg += `<br>Partida finalizada`;
+            msg += `<br>${t('gameOver')}`;
         }
     } else {
-        if (title === 'Apertura completada') {
+        if (openingCompleted) {
             const completedOpeningName = trainingOpening && trainingOpening.name
                 ? trainingOpening.name
                 : currentOpeningName;
@@ -14360,26 +14395,26 @@ function showLoadedGameMessage(title, isFinished, pgnResult, openingContinueGame
                 msg += `<div class="completed-opening-name">${completedOpeningName}</div>`;
             }
             if (!openingContinueGameOnly) {
-                msg += `<br><span style="font-size:0.85em;color:#9ca3af;">Pulsa variantes sobre el tablero para reemprender apertura</span>`;
+                msg += `<br><span style="font-size:0.85em;color:#9ca3af;">${t('opening.pressVariants')}</span>`;
                 msg += `<img class="opening-variants-example" src="assets/opening-variants-example.png" ` +
-                    `alt="Ejemplo de variantes mostradas sobre el tablero">`;
+                    `alt="${t('opening.variantsExampleAlt')}">`;
             }
-            msg += `<br>Turno: ${turnLabel}`;
+            msg += `<br>${t('turn.label', { side: turnLabel })}`;
             msg += `<div class="opening-continue-prompt">` +
                 `<button type="button" class="opening-choice-btn opening-continue-game-btn" ` +
-                    `onclick="hideMessage();document.getElementById('resume-game')?.click();">▶ Continuar Partida</button>`;
+                    `onclick="hideMessage();document.getElementById('resume-game')?.click();">${t('opening.continueGame')}</button>`;
             if (!openingContinueGameOnly) {
                 msg += `<button type="button" class="opening-choice-btn" ` +
-                    `onclick="continueOpeningFromCompletedPosition();">📖 Continuar Apertura</button>`;
+                    `onclick="continueOpeningFromCompletedPosition();">${t('opening.continueOpening')}</button>`;
             }
             msg +=
                 `</div>`;
         } else {
-            msg += `<br>Turno: ${turnLabel}`;
-            msg += `<br>Pulsa Continuar Partida`;
+            msg += `<br>${t('turn.label', { side: turnLabel })}`;
+            msg += `<br>${t('pressContinue')}`;
         }
     }
-    msg += `<br><span style="font-size:0.85em;opacity:0.8;">Pulsa ◀ ▶ para navegar</span>`;
+    msg += `<br><span style="font-size:0.85em;opacity:0.8;">${t('nav.hint')}</span>`;
 
     showMessage(msg, msgType, 0);
 }
@@ -14507,11 +14542,11 @@ function showContinueButton() {
 // que añaden las partidas PGN cargadas.
 function continueGameFromCurrentPosition() {
     if (!game) {
-        showMessage('No hay una posición para continuar', 'warning', 2000);
+        showMessage(t('noPosition'), 'warning', 2000);
         return false;
     }
     if (_onlineGame && _onlineGame.status === 'active') {
-        showMessage('No puedes cambiar de posición durante una partida online', 'warning', 2500);
+        showMessage(t('onlineCantChange'), 'warning', 2500);
         return false;
     }
 
@@ -14568,18 +14603,18 @@ function continueGameFromCurrentPosition() {
 
     if (positionFinished) {
         stopClock();
-        showLoadedGameMessage('Esta posición ya está finalizada', true, null);
+        showLoadedGameMessage(t('positionFinished'), true, null);
         return false;
     }
 
     startClock();
     if (playerColor !== 'both' && game.currentTurn !== playerColor) {
-        showMessage('Turno de la IA…', 'info', 1400);
+        showMessage(t('aiTurn'), 'info', 1400);
         const aiGeneration = gameGeneration;
         setTimeout(() => makeAIMove(aiGeneration), 800);
     } else {
-        const side = game.currentTurn === 'white' ? 'blancas' : 'negras';
-        showMessage(`Continúa la partida: mueven ${side}`, 'success', 2200);
+        const side = game.currentTurn === 'white' ? t('side.white') : t('side.black');
+        showMessage(t('continueSides', { side: side }), 'success', 2200);
     }
     return true;
 }
@@ -14743,7 +14778,9 @@ function startOpeningQuiz() {
 
     shareContext = 'apertura';
     updateShareButton();
-    showMessage(`<strong>Quiz: ${trainingOpening.name}</strong><br>Juega todos los movimientos correctos (blancas y negras)<br><br><strong>Movimientos:</strong> ${trainingOpening.san}`, 'info', 0);
+    const openingKey = document.getElementById('opening-select') && document.getElementById('opening-select').value;
+    const openingTitle = openingKey ? openingNameOf(openingKey, trainingOpening) : trainingOpening.name;
+    showMessage(t('quiz.intro', { name: openingTitle, san: trainingOpening.san }), 'info', 0);
 }
 
 function quizCheckMove(fromRow, fromCol, toRow, toCol, promotionPiece) {
@@ -14825,7 +14862,7 @@ function quizCheckMove(fromRow, fromCol, toRow, toCol, promotionPiece) {
                     sq.classList.add('quiz-hint');
                 }
             });
-            showMessage('Incorrecto. Las casillas marcadas muestran el movimiento correcto. Inténtalo de nuevo.', 'warning', 0);
+            showMessage(t('puzzle.wrongHint'), 'warning', 0);
             setTimeout(() => {
                 document.querySelectorAll('.quiz-hint').forEach(s => s.classList.remove('quiz-hint'));
             }, 8000);
@@ -14846,8 +14883,10 @@ function quizFinished() {
     if (quizEloDelta !== 0) {
         applyEloChange(quizEloDelta);
     }
+    const openingKeyDone = document.getElementById('opening-select') && document.getElementById('opening-select').value;
+    const openingTitleDone = openingKeyDone ? openingNameOf(openingKeyDone, trainingOpening) : trainingOpening.name;
     showMessage(
-        `<strong>Quiz completado: ${trainingOpening.name}</strong><br>Aciertos: ${quizCorrect} | Fallos: ${quizWrong} | Precisión: ${pct}%<br>ELO quiz: ${quizEloDelta >= 0 ? '+' : ''}${quizEloDelta}`,
+        t('quiz.done', { name: openingTitleDone, ok: quizCorrect, fail: quizWrong, pct: pct, elo: (quizEloDelta >= 0 ? '+' : '') + quizEloDelta }),
         'success',
         0,
         () => {
@@ -14934,11 +14973,11 @@ function applyBoard3D() {
 function undoMove() {
     // En partidas online no se permite deshacer movimientos.
     if (_onlineGame && _onlineGame.status === 'active') {
-        showMessage('No puedes deshacer movimientos en partida online', 'warning', 2000);
+        showMessage(t('msg.undoOnline'), 'warning', 2000);
         return;
     }
     if (!game.canUndo()) {
-        showMessage('No hay movimientos para deshacer', 'warning', 2000);
+        showMessage(t('msg.noUndo'), 'warning', 2000);
         return;
     }
 
@@ -14987,7 +15026,7 @@ function updateUndoButton() {
 
 async function getHint() {
     if (game.gameOver) {
-        showMessage('El juego ha terminado', 'warning', 2000);
+        showMessage(t('msg.gameEnded'), 'warning', 2000);
         return;
     }
     
@@ -15007,7 +15046,7 @@ async function getHint() {
             }
         }
     } catch (error) {
-        showMessage('Error al obtener sugerencia: ' + error.message, 'error', 3000);
+        showMessage(t('msg.hintFail', { err: error.message }), 'error', 3000);
     } finally {
         showThinkingIndicator(false);
     }
@@ -15071,13 +15110,13 @@ function saveGame() {
     };
 
     const savedGames = readSavedGames();
-    const defaultName = `Partida ${savedGames.length + 1}`;
+    const defaultName = t('gameN', { n: savedGames.length + 1 });
     
     showSaveDialog(defaultName, (gameName) => {
         gameState.name = gameName;
         savedGames.push(gameState);
         localStorage.setItem('saved_games', JSON.stringify(savedGames));
-        showMessage('Partida guardada correctamente', 'success', 2000);
+        showMessage(t('msg.gameSaved'), 'success', 2000);
     });
 }
 
@@ -15095,12 +15134,12 @@ function showSaveDialog(defaultName, onSave) {
     modal.className = 'game-list-modal';
 
     const title = document.createElement('h3');
-    title.textContent = 'Guardar Partida';
+    title.textContent = t('saveGame');
     title.className = 'game-list-title';
     modal.appendChild(title);
 
     const label = document.createElement('label');
-    label.textContent = 'Nombre:';
+    label.textContent = t('nameLabel');
     label.style.cssText = 'display:block;margin-bottom:8px;color:#555;font-weight:600;font-size:0.9rem;';
     modal.appendChild(label);
 
@@ -15116,7 +15155,7 @@ function showSaveDialog(defaultName, onSave) {
 
     const saveBtn = document.createElement('button');
     saveBtn.className = 'btn btn-success';
-    saveBtn.textContent = '💾 Guardar';
+    saveBtn.textContent = t('save');
     saveBtn.style.marginTop = '0';
     saveBtn.addEventListener('click', () => {
         const name = input.value.trim() || defaultName;
@@ -15126,7 +15165,7 @@ function showSaveDialog(defaultName, onSave) {
 
     const cancelBtn = document.createElement('button');
     cancelBtn.className = 'btn btn-secondary';
-    cancelBtn.textContent = 'Cancelar';
+    cancelBtn.textContent = t('cancel');
     cancelBtn.style.marginTop = '0';
     cancelBtn.addEventListener('click', () => overlay.remove());
 
@@ -15162,7 +15201,7 @@ function loadGame() {
     const savedGames = readSavedGames();
     
     if (savedGames.length === 0) {
-        showMessage('No hay partidas guardadas', 'warning', 2000);
+        showMessage(t('msg.noSaved'), 'warning', 2000);
         return;
     }
 
@@ -15183,7 +15222,7 @@ function showGameList(savedGames) {
     modal.className = 'game-list-modal';
 
     const title = document.createElement('h3');
-    title.textContent = 'Partidas Guardadas';
+    title.textContent = t('savedGames');
     title.className = 'game-list-title';
     modal.appendChild(title);
 
@@ -15196,18 +15235,18 @@ function showGameList(savedGames) {
 
         const name = document.createElement('span');
         name.className = 'game-list-name';
-        name.textContent = g.name || `Partida ${idx + 1}`;
+        name.textContent = g.name || t('gameN', { n: idx + 1 });
 
         const info = document.createElement('span');
         info.className = 'game-list-info';
         const date = new Date(g.timestamp).toLocaleDateString();
         const moves = (g.moveHistory || []).length;
-        info.textContent = `${date} · ${moves} mov.`;
+        info.textContent = `${date} · ` + t('movesCount', { n: moves });
 
         const deleteBtn = document.createElement('button');
         deleteBtn.className = 'game-list-delete';
         deleteBtn.textContent = '✕';
-        deleteBtn.title = 'Eliminar partida';
+        deleteBtn.title = t('deleteGame');
         deleteBtn.addEventListener('click', (e) => {
             e.stopPropagation();
             savedGames.splice(idx, 1);
@@ -15216,7 +15255,7 @@ function showGameList(savedGames) {
             if (savedGames.length > 0) {
                 showGameList(savedGames);
             } else {
-                showMessage('No quedan partidas guardadas', 'info', 2000);
+                showMessage(t('msg.noSavedLeft'), 'info', 2000);
             }
         });
 
@@ -15236,7 +15275,7 @@ function showGameList(savedGames) {
 
     const closeBtn = document.createElement('button');
     closeBtn.className = 'btn btn-secondary';
-    closeBtn.textContent = 'Cancelar';
+    closeBtn.textContent = t('cancel');
     closeBtn.style.marginTop = '12px';
     closeBtn.style.width = '100%';
     closeBtn.addEventListener('click', () => overlay.remove());
@@ -15310,7 +15349,7 @@ function loadGameByIndex(savedGames, index) {
 
 function exportPGN() {
     if (game.moveHistory.length === 0) {
-        showMessage('No hay movimientos para exportar', 'warning', 2000);
+        showMessage(t('msg.noExport'), 'warning', 2000);
         return;
     }
 
@@ -15319,7 +15358,7 @@ function exportPGN() {
     const filename = `partida_${new Date().toISOString().slice(0,10)}_${String(new Date().getHours()).padStart(2,'0')}${String(new Date().getMinutes()).padStart(2,'0')}.pgn`;
 
     if (hasAnalysis) {
-        showMessage('📊 Se añade Análisis de Partida al PGN', 'info', 2500);
+        showMessage(t('msg.pgnAnalysisAdded'), 'info', 2500);
     }
 
     exportPGNDirectMobile(pgn, filename);
@@ -15327,7 +15366,7 @@ function exportPGN() {
 
 function copyPGN() {
     if (game.moveHistory.length === 0) {
-        showMessage('No hay movimientos para copiar', 'warning', 2000);
+        showMessage(t('msg.noCopy'), 'warning', 2000);
         return;
     }
     const hasAnalysis = analysisErrorsList && analysisErrorsList.length > 0;
@@ -15375,9 +15414,9 @@ function pgnAnnotationForMove(moveIndex) {
     const err = analysisErrorsList.find(e => e.moveIndex === moveIndex);
     if (!err) return '';
     const nag = err.type === 'blunder' ? '$4' : '$6';
-    const label = err.type === 'blunder' ? 'Error grave' : 'Imprecisión';
+    const label = err.type === 'blunder' ? t('analysis.blunder') : t('analysis.inaccuracy');
     const bestSan = uciToSan(err.bestMove, err.moveIndex);
-    return ` ${nag} {${label} (${err.loss.toFixed(1)}). Mejor: ${bestSan}}`;
+    return ` ${nag} {${label} (${err.loss.toFixed(1)}). ${t('analysis.better', { san: bestSan })}}`;
 }
 
 // ─────────────────────────────────────────────────────────
@@ -15397,18 +15436,18 @@ function copyShareMsg(btn) {
         var msgSpan = btn.querySelector('.share-msg-text');
         if (msgSpan) {
             var origHTML = msgSpan.innerHTML;
-            msgSpan.innerHTML = '✓ Copiado';
+            msgSpan.innerHTML = t('copiedCheck');
             setTimeout(function () { msgSpan.innerHTML = origHTML; }, 1800);
         } else {
             var lbl = btn.querySelector('.share-app-label');
             if (lbl) {
                 var orig = lbl.textContent;
-                lbl.textContent = '¡Copiado!';
+                lbl.textContent = t('copiedExcl');
                 setTimeout(function () { lbl.textContent = orig; }, 1800);
             } else {
                 var origTxt = btn.textContent;
-                btn.textContent = '✓ Copiado';
-                setTimeout(function () { btn.textContent = origTxt || '📋 Copiar'; }, 1800);
+                btn.textContent = t('copiedCheck');
+                setTimeout(function () { btn.textContent = origTxt || t('copyClipboard'); }, 1800);
             }
         }
     }
@@ -15426,7 +15465,7 @@ function copyShareUrl(btn) {
     function done() {
         if (window.grantEloOnShareComplete) window.grantEloOnShareComplete();
         var orig = btn.textContent;
-        btn.textContent = '✓ Copiado';
+        btn.textContent = t('copiedCheck');
         setTimeout(function () { btn.textContent = orig; }, 1500);
     }
     if (navigator.clipboard && navigator.clipboard.writeText) {
@@ -15521,7 +15560,7 @@ async function shareLinkWithSelectedMedia(targetUrl, msg, baseName) {
         setTimeout(() => URL.revokeObjectURL(downloadUrl), 1000);
         if (navigator.clipboard) await navigator.clipboard.writeText(text).catch(() => {});
         if (!openedOnDesktop) window.open(targetUrl, '_blank', 'noopener,noreferrer');
-        showMessage('🎬 Vídeo descargado y texto copiado para la publicación', 'success', 3500);
+        showMessage(t('msg.videoDlCopy'), 'success', 3500);
     } catch (error) {
         if (error && error.name === 'AbortError') return;
         if (!openedOnDesktop) window.open(targetUrl, '_blank', 'noopener,noreferrer');
@@ -15565,7 +15604,7 @@ async function shareFacebookClick(fbUrl, msg) {
             link.click();
             link.remove();
             setTimeout(() => URL.revokeObjectURL(downloadUrl), 1000);
-            showMessage('🎬 Vídeo descargado — súbelo al abrir Facebook', 'success', 3500);
+            showMessage(t('msg.videoFb'), 'success', 3500);
         } catch (error) {
             if (error && error.name === 'AbortError') return;
         }
@@ -15608,7 +15647,7 @@ async function shareInstagramClick(msg) {
             setTimeout(() => URL.revokeObjectURL(downloadUrl), 1000);
             if (navigator.clipboard) await navigator.clipboard.writeText(text);
         } catch (e) {}
-        showMessage('🎬 Vídeo descargado — súbelo al abrir Instagram', 'success', 3500);
+        showMessage(t('msg.videoIg'), 'success', 3500);
         setTimeout(() => { window.open('https://www.instagram.com/', '_blank', 'noopener,noreferrer'); }, 400);
         return;
     }
@@ -15628,7 +15667,7 @@ async function shareInstagramClick(msg) {
             } catch (e2) {}
         }
     }
-    showMessage('📸 Imagen copiada — ábrela en Instagram y pégala en tu historia o post', 'success', 3500);
+    showMessage(t('msg.imgIg'), 'success', 3500);
     setTimeout(() => { window.open('https://www.instagram.com/', '_blank', 'noopener,noreferrer'); }, 400);
 }
 
@@ -15663,7 +15702,7 @@ async function shareTikTokClick(msg) {
             }
         } catch (error) {}
 
-        showMessage('TikTok abierto · texto copiado y archivo descargado para tu nuevo post', 'success', 4000);
+        showMessage(t('msg.tiktokOk'), 'success', 4000);
         return;
     }
 
@@ -15689,7 +15728,7 @@ async function shareTikTokClick(msg) {
         }
     }
 
-    showMessage('TikTok no está disponible en el menú de compartir de este dispositivo', 'info', 3500);
+    showMessage(t('msg.tiktokNo'), 'info', 3500);
 }
 
 async function shareEmailClick(emailUrl, msg) {
@@ -15738,33 +15777,26 @@ if (typeof window !== 'undefined') {
 }
 
 function getShareEloSuffix() {
-    return ' (+' + SHARE_ELO_BONUS + ' ELO)';
+    return t('share.eloSuffix', { n: SHARE_ELO_BONUS });
 }
 
-/** Etiqueta de tipo (línea 2 del mensaje unificado) */
-const SHARE_KIND_LABEL = {
-    problema: 'Problema de ajedrez y 30 más',
-    partida:  'Partida',
-    apertura: 'Apertura',
-    maestra:  'Partida maestra',
-    home:     'AjedrezIA'
-};
 const SHARE_HASHTAGS = '#Ajedrez #Chess #ChessPuzzle #ChessTactics #ChessTraining #LearnChess #AprenderAjedrez #ChessOpening #Checkmate #ChessCommunity #ChessPlayer #JaqueMate #PuzzleOfTheDay #ChessLife #AjedrezIA';
 
+/** Etiqueta de tipo (línea 2 del mensaje unificado) */
+function shareKindLabel(kind) {
+    return t('share.kind.' + (kind || 'home'));
+}
+
 /** Texto del botón Compartir según shareContext (flujo activo) */
-const SHARE_COMPARTIR_LABEL = {
-    partida:  '🔗 Compartir partida',
-    apertura: '🔗 Compartir apertura',
-    problemas: '🔗 Compartir problemas',
-    maestra:  '🔗 Compartir partida maestra',
-    generico: '🔗 Compartir'
-};
+function shareCompartirLabel(ctx) {
+    return t('share.btn.' + (ctx || 'generico'));
+}
 
 /**
  * Formato único (WhatsApp, Gmail, copiar, Twitter) para todo lo compartible:
  *   L1: ¡Echa un vistazo en AjedrezIA!
  *   L2: Tipo (partida, apertura, problema, partida maestra, …)
- *   L3: Detalle opcional (título del puzzle, nombre de apertura, título de maestra, “vs” en partida, …)
+ *   L3: Detalle opcional
  *   (una línea en blanco)
  *   Última: ♟ + URL
  */
@@ -15774,23 +15806,27 @@ function formatUnifiedShareMessage(url, kind, shareDetail) {
 
     if (kind === 'apertura') {
         if (det) {
-            return '¡Echa un vistazo en AjedrezIA!\nApertura: ' + det + '\n\n♟ ' + u + '\n\n' + SHARE_HASHTAGS;
+            return t('share.look') + '\n' + t('share.openingNamed', { name: det }) + '\n\n♟ ' + u + '\n\n' + SHARE_HASHTAGS;
         }
-        return '¡Echa un vistazo en AjedrezIA!\n' + (SHARE_KIND_LABEL.apertura) + '\n\n♟ ' + u + '\n\n' + SHARE_HASHTAGS;
+        return t('share.look') + '\n' + shareKindLabel('apertura') + '\n\n♟ ' + u + '\n\n' + SHARE_HASHTAGS;
     }
-    const typeName = SHARE_KIND_LABEL[kind] || SHARE_KIND_LABEL.home;
+    const typeName = shareKindLabel(kind);
     const extra = det ? ('\n' + det) : '';
-    return '¡Echa un vistazo en AjedrezIA!\n' + typeName + extra + '\n\n♟ ' + u + '\n\n' + SHARE_HASHTAGS;
+    return t('share.look') + '\n' + typeName + extra + '\n\n♟ ' + u + '\n\n' + SHARE_HASHTAGS;
 }
 
 function getShareOpeningNameDetail() {
     const key = document.getElementById('opening-select') && document.getElementById('opening-select').value;
-    if (trainingOpening && trainingOpening.name) return String(trainingOpening.name).trim();
-    if (key && OPENING_TRAINING[key] && OPENING_TRAINING[key].name) return String(OPENING_TRAINING[key].name).trim();
+    if (key && OPENING_TRAINING[key]) return openingNameOf(key, OPENING_TRAINING[key]);
+    if (trainingOpening && trainingOpening.name) {
+        const sel = document.getElementById('opening-select');
+        if (sel && sel.value) return openingNameOf(sel.value, trainingOpening);
+        return String(trainingOpening.name).trim();
+    }
     const os = document.getElementById('opening-select');
     if (os && os.options[os.selectedIndex]) {
-        const t = os.options[os.selectedIndex].textContent.replace(/\s+/g, ' ').trim();
-        if (t && t !== '— Modo libre —') return t;
+        const txt = os.options[os.selectedIndex].textContent.replace(/\s+/g, ' ').trim();
+        if (txt && txt !== t('opening.freeMode')) return txt;
     }
     return null;
 }
@@ -15855,10 +15891,10 @@ function getShareGameCardMetadata() {
     const headers = game.shareHeaders || {};
     const result = game.shareResult || headers.Result || '*';
     const resultLabels = {
-        '1-0': '1-0 · Ganan blancas',
-        '0-1': '0-1 · Ganan negras',
-        '1/2-1/2': '½-½ · Tablas',
-        '*': 'En curso'
+        '1-0': t('pgn.whiteWins'),
+        '0-1': t('pgn.blackWins'),
+        '1/2-1/2': t('pgn.draw'),
+        '*': t('pgn.inProgress')
     };
 
     let whiteElo = String(headers.WhiteElo || '').trim();
@@ -15874,17 +15910,17 @@ function getShareGameCardMetadata() {
     if (whiteElo || blackElo) {
         lines.push(`ELO: ♔ ${whiteElo || '—'} · ♚ ${blackElo || '—'}`);
     }
-    lines.push(`Resultado: ${resultLabels[result] || result}`);
+    lines.push(t('pgn.result', { result: resultLabels[result] || result }));
 
     const event = String(headers.Event || '').trim();
-    if (event && event !== '?') lines.push(`Torneo: ${event}`);
+    if (event && event !== '?') lines.push(t('pgn.tournament', { event: event }));
 
     const date = String(headers.Date || '').trim();
     const round = String(headers.Round || '').trim();
     const site = String(headers.Site || '').trim();
     const dateParts = [];
-    if (date && date !== '?') dateParts.push(`Fecha: ${date}`);
-    if (round && round !== '?') dateParts.push(`Ronda: ${round}`);
+    if (date && date !== '?') dateParts.push(t('pgn.date', { date: date }));
+    if (round && round !== '?') dateParts.push(t('pgn.round', { round: round }));
     if (dateParts.length) lines.push(dateParts.join(' · '));
     if (site && site !== '?' && site !== event) lines.push(`Lugar: ${site}`);
 
@@ -16219,7 +16255,7 @@ async function renderShareBoardDataURL(p) {
             const metaFont = '20px Arial, sans-serif';
             const metaLines = wrap(p.meta, metaFont, tw, 7);
             metaLines.forEach(ln => {
-                const isResult = /^Resultado:/i.test(ln);
+                const isResult = /^(Resultado:|Result:)/i.test(ln);
                 const isElo = /^ELO:/i.test(ln);
                 ctx.font = isResult || isElo ? `bold ${metaFont}` : metaFont;
                 ctx.fillStyle = isResult ? '#9dcc85' : (isElo ? '#f0d9b5' : '#d2cbc4');
@@ -16838,7 +16874,7 @@ function getShareInfo() {
         }
         const appKV = id ? { key: 'puzzle', val: id } : (encodePuzzlePayload(currentPuzzle) ? { key: 'p', val: encodePuzzlePayload(currentPuzzle) } : null);
         const { shareUrl, previewImage, previewParams } = buildSharePreview('problema', cardT, cardS, puzzleFen, appKV);
-        return { url, shareUrl, label: SHARE_COMPARTIR_LABEL.problemas, shareKind: 'problema', shareDetail: puzzleDetail, previewImage, previewParams };
+        return { url, shareUrl, label: shareCompartirLabel('problemas'), shareKind: 'problema', shareDetail: puzzleDetail, previewImage, previewParams };
     }
 
     if (shareContext === 'maestra') {
@@ -16857,7 +16893,7 @@ function getShareInfo() {
                 { key: 'master', val: famousKey },
                 cardMeta
             );
-            return { url, shareUrl, label: SHARE_COMPARTIR_LABEL.maestra, shareKind: 'maestra', shareDetail: g.name || null, previewImage, previewParams };
+            return { url, shareUrl, label: shareCompartirLabel('maestra'), shareKind: 'maestra', shareDetail: g.name || null, previewImage, previewParams };
         }
     }
 
@@ -16869,10 +16905,10 @@ function getShareInfo() {
             const cardS = 'Aprende esta apertura paso a paso';
             const url = `${BASE_PATH}?opening=${encodeURIComponent(openingKey)}`;
             const { shareUrl, previewImage, previewParams } = buildSharePreview('apertura', cardT, cardS, null, { key: 'opening', val: openingKey });
-            return { url, shareUrl, label: SHARE_COMPARTIR_LABEL.apertura, shareKind: 'apertura', shareDetail: nameDetail, previewImage, previewParams };
+            return { url, shareUrl, label: shareCompartirLabel('apertura'), shareKind: 'apertura', shareDetail: nameDetail, previewImage, previewParams };
         }
         const { shareUrl, previewImage, previewParams } = buildSharePreview('apertura', 'Apertura', 'Aprende aperturas en AjedrezIA');
-        return { url: BASE_PATH, shareUrl, label: SHARE_COMPARTIR_LABEL.apertura, shareKind: 'apertura', shareDetail: null, previewImage, previewParams };
+        return { url: BASE_PATH, shareUrl, label: shareCompartirLabel('apertura'), shareKind: 'apertura', shareDetail: null, previewImage, previewParams };
     }
 
     if (game && game.moveHistory && game.moveHistory.length > 0) {
@@ -16898,11 +16934,11 @@ function getShareInfo() {
             appParam,
             cardMeta
         );
-        return { url, shareUrl, label: SHARE_COMPARTIR_LABEL.partida, shareKind: 'partida', shareDetail: vsDetail || null, previewImage, previewParams };
+        return { url, shareUrl, label: shareCompartirLabel('partida'), shareKind: 'partida', shareDetail: vsDetail || null, previewImage, previewParams };
     }
 
     const { shareUrl, previewImage, previewParams } = buildSharePreview('partida', 'AjedrezIA', 'Juega y aprende ajedrez');
-    return { url: BASE_PATH, shareUrl, label: SHARE_COMPARTIR_LABEL.partida, shareKind: 'partida', shareDetail: null, previewImage, previewParams };
+    return { url: BASE_PATH, shareUrl, label: shareCompartirLabel('partida'), shareKind: 'partida', shareDetail: null, previewImage, previewParams };
 }
 
 function updateShareButton() {
@@ -16929,16 +16965,16 @@ function shareInviteOnline(colorLabel, timeLabel, colorRaw, tcRaw) {
         const me = getOnlineUser();
         if (me && me.id) {
             payloadObj.i = me.id;
-            payloadObj.n = (me.email ? me.email.split('@')[0] : (me.name || 'Jugador'));
+            payloadObj.n = (me.email ? me.email.split('@')[0] : (me.name || t('playerDefault')));
             payloadObj.e = (typeof stats !== 'undefined' && stats.elo) ? stats.elo : 1200;
         }
         try { encoded = btoa(JSON.stringify(payloadObj)); } catch(e) {}
     }
     const url = 'https://www.ajedrezia.com/?online=' + encoded;
     const details = [colorLabel, timeLabel].filter(Boolean).join(' · ');
-    const shareMsg = '¡Te reto a una partida en AjedrezIA!\nPartida online' +
+    const shareMsg = t('share.inviteMsg') +
         (details ? ' · ' + details : '') + '\n\n♟ ' + url;
-    const titleLine = 'Invitar online (+10 ELO)';
+    const titleLine = t('share.inviteTitle');
     const gmailSubj = 'AjedrezIA ♟';
     const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
     const mailtoUrl = isMobile
@@ -16965,7 +17001,7 @@ function shareInviteOnline(colorLabel, timeLabel, colorRaw, tcRaw) {
                 <span class="share-app-circle share-app-circle--gmail">
                     <svg viewBox="0 0 24 24" width="27" height="27" fill="white"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
                 </span>
-                <span class="share-app-label">Correo</span>
+                <span class="share-app-label">${t('share.email')}</span>
             </a>
         </div>
         `;
@@ -16976,7 +17012,7 @@ function shareContent() {
     if (shareContext === 'partida') {
         const mh = game && game.moveHistory;
         if (!mh || mh.length === 0) {
-            showMessage('No hay movimientos para compartir', 'info', 3000);
+            showMessage(t('msg.noShareMoves'), 'info', 3000);
             return;
         }
     }
@@ -17070,7 +17106,7 @@ function shareContent() {
                 <span class="share-app-circle share-app-circle--gmail">
                     <svg viewBox="0 0 24 24" width="27" height="27" fill="white"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
                 </span>
-                <span class="share-app-label">Correo</span>
+                <span class="share-app-label">${t('share.email')}</span>
             </a>
             <a href="${twHref}" class="share-app-item" target="_blank" rel="noopener noreferrer" onclick="window.shareLinkWithSelectedMedia('${twHref}','${fbMsgAttr}','ajedrezia-twitter');return false;">
                 <span class="share-app-circle share-app-circle--twitter">
@@ -17150,12 +17186,12 @@ function showExportPGNDialog(defaultName, pgn) {
     modal.className = 'game-list-modal';
 
     const title = document.createElement('h3');
-    title.textContent = 'Exportar PGN';
+    title.textContent = t('exportPgn');
     title.className = 'game-list-title';
     modal.appendChild(title);
 
     const label = document.createElement('label');
-    label.textContent = 'Nombre del archivo:';
+    label.textContent = t('fileName');
     label.style.cssText = 'display:block;margin-bottom:8px;color:#555;font-weight:600;font-size:0.9rem;';
     modal.appendChild(label);
 
@@ -17171,7 +17207,7 @@ function showExportPGNDialog(defaultName, pgn) {
 
     const saveBtn = document.createElement('button');
     saveBtn.className = 'btn btn-success';
-    saveBtn.textContent = '💾 Guardar';
+    saveBtn.textContent = t('save');
     saveBtn.style.marginTop = '0';
     saveBtn.addEventListener('click', async () => {
         let filename = input.value.trim() || defaultName;
@@ -17182,7 +17218,7 @@ function showExportPGNDialog(defaultName, pgn) {
             if ('showSaveFilePicker' in window) {
                 const handle = await window.showSaveFilePicker({
                     suggestedName: filename,
-                    types: [{ description: 'Archivo PGN', accept: { 'application/x-chess-pgn': ['.pgn'] } }]
+                    types: [{ description: t('pgnFile'), accept: { 'application/x-chess-pgn': ['.pgn'] } }]
                 });
                 const writable = await handle.createWritable();
                 await writable.write(pgn);
@@ -17199,7 +17235,7 @@ function showExportPGNDialog(defaultName, pgn) {
 
     const cancelBtn = document.createElement('button');
     cancelBtn.className = 'btn btn-secondary';
-    cancelBtn.textContent = 'Cancelar';
+    cancelBtn.textContent = t('cancel');
     cancelBtn.style.marginTop = '0';
     cancelBtn.addEventListener('click', () => overlay.remove());
 
@@ -17309,7 +17345,7 @@ function parsePGNAndLoad(pgnRaw, gameTitle) {
             .filter(m => m.length > 0 && m.match(/^[a-hKQRBNO0]/));
 
         if (moves.length === 0) {
-            showMessage('No se encontraron movimientos en el PGN', 'error', 3000);
+            showMessage(t('msg.noPgnMoves'), 'error', 3000);
             return;
         }
 
@@ -17453,15 +17489,15 @@ function parsePGNAndLoad(pgnRaw, gameTitle) {
         if (headers['White'] || headers['Black']) {
             msg += `${headers['White'] || '?'} vs ${headers['Black'] || '?'}\n`;
         }
-        if (headers['Date'] && headers['Date'] !== '?') msg += `Fecha: ${headers['Date']}\n`;
+        if (headers['Date'] && headers['Date'] !== '?') msg += t('pgn.date', { date: headers['Date'] }) + '\n';
         if (headers['Site'] && headers['Site'] !== '?') msg += `${headers['Site']}\n`;
         if (pgnResult && pgnResult !== '*') {
-            const resultText = pgnResult === '1-0' ? '1-0 (Ganan blancas)' :
-                               pgnResult === '0-1' ? '0-1 (Ganan negras)' :
-                               '½-½ (Tablas)';
-            msg += `Resultado: ${resultText}\n`;
+            const resultText = pgnResult === '1-0' ? t('pgn.whiteWinsParen') :
+                               pgnResult === '0-1' ? t('pgn.blackWinsParen') :
+                               t('pgn.drawParen');
+            msg += t('pgn.result', { result: resultText }) + '\n';
         }
-        if (headers['ECO']) msg += `Apertura: ${headers['ECO']}\n`;
+        if (headers['ECO']) msg += t('pgn.opening', { eco: headers['ECO'] }) + '\n';
         const fullMoves = Math.ceil(movesPlayed / 2);
         const totalFullMoves = Math.ceil(moves.length / 2);
         msg += `Movimientos: ${fullMoves}`;
@@ -17498,7 +17534,7 @@ function parsePGNAndLoad(pgnRaw, gameTitle) {
 
     } catch (error) {
         console.error('Error al importar PGN:', error);
-        showMessage('Error al importar el archivo PGN', 'error', 3000);
+        showMessage(t('msg.pgnImportFail'), 'error', 3000);
     }
 }
 
@@ -17699,14 +17735,14 @@ function resumeGame(silent) {
     // En partidas online no se permite reanudar otra partida guardada:
     // la partida online en curso es prioritaria.
     if (_onlineGame && _onlineGame.status === 'active') {
-        if (!silent) showMessage('No puedes continuar otra partida durante una partida online', 'warning', 2500);
+        if (!silent) showMessage(t('msg.onlineCantContinue'), 'warning', 2500);
         return;
     }
 
     const autoSavedGame = localStorage.getItem('auto_saved_game');
 
     if (!autoSavedGame) {
-        if (!silent) showMessage('No hay partida en curso para continuar', 'warning', 2000);
+        if (!silent) showMessage(t('msg.noContinue'), 'warning', 2000);
         return;
     }
     
@@ -17839,11 +17875,11 @@ function resumeGame(silent) {
             setTimeout(() => makeAIMove(_aiGen), 800);
         }
         
-        if (!silent) showMessage('Partida continuada correctamente', 'success', 2000);
+        if (!silent) showMessage(t('msg.continued'), 'success', 2000);
         updateShareButton();
     } catch (error) {
         console.error('Error al reanudar partida:', error);
-        if (!silent) showMessage('Error al continuar la partida', 'error', 3000);
+        if (!silent) showMessage(t('msg.continueFail'), 'error', 3000);
         localStorage.removeItem('auto_saved_game');
         checkForGameInProgress();
         startNewGame();
@@ -17936,7 +17972,7 @@ function startClock() {
                     setOnlineActionsLocked(false);
                 }
                 updateUndoButton();
-                showBoardBanner(`⏱️ TIEMPO AGOTADO — Ganan Negras${formatEloDelta(eloDelta)}`, 'checkmate');
+                showBoardBanner(t('banner.timeoutBlack') + formatEloDelta(eloDelta), 'checkmate');
                 return;
             }
         } else {
@@ -17961,7 +17997,7 @@ function startClock() {
                     setOnlineActionsLocked(false);
                 }
                 updateUndoButton();
-                showBoardBanner(`⏱️ TIEMPO AGOTADO — Ganan Blancas${formatEloDelta(eloDelta)}`, 'checkmate');
+                showBoardBanner(t('banner.timeoutWhite') + formatEloDelta(eloDelta), 'checkmate');
                 return;
             }
         }
@@ -18932,7 +18968,10 @@ function getMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece, mo
     var backRank = color === 'white' ? 7 : 0;
     var enemyBackRank = color === 'white' ? 0 : 7;
     var pieceValues = { pawn: 1, knight: 3, bishop: 3, rook: 5, queen: 9, king: 0 };
-    var capName = { pawn: 'peón', knight: 'caballo', bishop: 'alfil', rook: 'torre', queen: 'dama', king: 'rey' };
+    var capName = {
+        pawn: pieceName('pawn'), knight: pieceName('knight'), bishop: pieceName('bishop'),
+        rook: pieceName('rook'), queen: pieceName('queen'), king: pieceName('king')
+    };
 
     // --- Funciones auxiliares ---
     function isSquareAttackedBy(r, c, attackerColor) {
@@ -19007,8 +19046,8 @@ function getMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece, mo
     //  1. ENROQUE (prioridad máxima, retorno directo)
     // =============================================
     if (type === 'king' && Math.abs(fromCol - toCol) === 2) {
-        var side = toCol > fromCol ? 'corto' : 'largo';
-        insights.push({ text: '🏰 ¡Enroque ' + side + '! Rey a salvo y torre activa', type: 'great' });
+        var side = toCol > fromCol ? t('insight.castleShort') : t('insight.castleLong');
+        insights.push({ text: t('insight.castle', { side: side }), type: 'great' });
     }
 
     // =============================================
@@ -19017,15 +19056,15 @@ function getMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece, mo
     var givesCheck = game.isInCheck(enemyColor);
     if (givesCheck) {
         if (capturedPiece) {
-            insights.push({ text: '⚡ ¡Captura con jaque! Ganas tempo y material', type: 'great' });
+            insights.push({ text: t('insight.checkCapture'), type: 'great' });
         } else if (type === 'knight') {
-            insights.push({ text: '⚡ ¡Jaque de caballo! Difícil de bloquear', type: 'great' });
+            insights.push({ text: t('insight.checkKnight'), type: 'great' });
         } else if (type === 'pawn') {
-            insights.push({ text: '⚡ ¡Jaque de peón! Amenaza inesperada', type: 'great' });
+            insights.push({ text: t('insight.checkPawn'), type: 'great' });
         } else if (type === 'rook' || type === 'bishop') {
-            insights.push({ text: '⚡ ¡Jaque! Obligas al rival a reaccionar', type: 'great' });
+            insights.push({ text: t('insight.checkReact'), type: 'great' });
         } else {
-            insights.push({ text: '⚡ ¡Jaque! Presión directa sobre el rey', type: 'great' });
+            insights.push({ text: t('insight.checkPressure'), type: 'great' });
         }
     }
 
@@ -19052,29 +19091,29 @@ function getMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece, mo
         }
 
         if (capturedPiece.type === 'queen') {
-            insights.push({ text: '💎 ¡Capturas la dama! Ventaja decisiva', type: 'great' });
+            insights.push({ text: t('insight.takeQueen'), type: 'great' });
         } else if (capVal > myVal + 1) {
-            insights.push({ text: '💎 ¡Ganas ' + capName[capturedPiece.type] + '! Ventaja de material clara', type: 'great' });
+            insights.push({ text: t('insight.winPiece', { piece: capName[capturedPiece.type] }), type: 'great' });
         } else if (capVal > myVal) {
-            insights.push({ text: '💎 Capturas ' + capName[capturedPiece.type] + ' — ¡buen cambio!', type: 'great' });
+            insights.push({ text: t('insight.goodTrade', { piece: capName[capturedPiece.type] }), type: 'great' });
         } else if (capVal === myVal) {
             if (isRecapture) {
-                insights.push({ text: '🔄 ¡Recuperas pieza! Cambio de ' + capName[capturedPiece.type] + ' por ' + capName[type], type: 'good' });
+                insights.push({ text: t('insight.recaptureTrade', { got: capName[capturedPiece.type], gave: capName[type] }), type: 'good' });
             } else {
-                insights.push({ text: '🔄 Cambio de ' + capName[capturedPiece.type] + ' por ' + capName[type], type: 'info' });
+                insights.push({ text: t('insight.trade', { got: capName[capturedPiece.type], gave: capName[type] }), type: 'info' });
             }
         } else if (capVal < myVal) {
             if (isRecapture) {
-                insights.push({ text: '🔄 ¡Recuperas pieza! Capturas ' + capName[capturedPiece.type], type: 'good' });
+                insights.push({ text: t('insight.recapture', { piece: capName[capturedPiece.type] }), type: 'good' });
             } else if (capturedPiece.type === 'pawn') {
-                insights.push({ text: '💎 ¡Captura limpia! Ganas un peón', type: 'good' });
+                insights.push({ text: t('insight.cleanPawn'), type: 'good' });
             } else if (capVal >= 3) {
-                insights.push({ text: '💎 ¡Captura limpia! Te llevas el ' + capName[capturedPiece.type], type: 'great' });
+                insights.push({ text: t('insight.cleanPiece', { piece: capName[capturedPiece.type] }), type: 'great' });
             } else {
-                insights.push({ text: '💎 Captura limpia — ganas ' + capName[capturedPiece.type], type: 'good' });
+                insights.push({ text: t('insight.cleanWin', { piece: capName[capturedPiece.type] }), type: 'good' });
             }
         } else {
-            insights.push({ text: '⚔️ Capturas ' + capName[capturedPiece.type], type: 'good' });
+            insights.push({ text: t('insight.capture', { piece: capName[capturedPiece.type] }), type: 'good' });
         }
     }
 
@@ -19097,9 +19136,9 @@ function getMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece, mo
             }
         }
         if (attacked.indexOf('king') !== -1 && attacked.length >= 2) {
-            insights.push({ text: '🐴 ¡Horquilla al rey! El rival perderá material', type: 'great' });
+            insights.push({ text: t('insight.forkKing'), type: 'great' });
         } else if (attacked.length >= 2) {
-            insights.push({ text: '🐴 ¡Horquilla! Atacas ' + capName[attacked[0]] + ' y ' + capName[attacked[1]], type: 'great' });
+            insights.push({ text: t('insight.forkTwo', { a: capName[attacked[0]], b: capName[attacked[1]] }), type: 'great' });
         }
     }
 
@@ -19117,7 +19156,7 @@ function getMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece, mo
             }
         }
         if (pForkTargets.length >= 2) {
-            insights.push({ text: '♟ ¡Horquilla de peón! Atacas ' + capName[pForkTargets[0]] + ' y ' + capName[pForkTargets[1]], type: 'great' });
+            insights.push({ text: t('insight.pawnFork', { a: capName[pForkTargets[0]], b: capName[pForkTargets[1]] }), type: 'great' });
         }
     }
 
@@ -19142,10 +19181,10 @@ function getMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece, mo
             if (firstPiece && secondPiece &&
                 firstPiece.color === enemyColor && secondPiece.color === enemyColor) {
                 if (secondPiece.type === 'king' && pieceValues[firstPiece.type] >= 1) {
-                    insights.push({ text: '📌 ¡Clavada! El ' + capName[firstPiece.type] + ' enemigo no puede moverse', type: 'great' });
+                    insights.push({ text: t('insight.pin', { piece: capName[firstPiece.type] }), type: 'great' });
                     pinDetected = true;
                 } else if (pieceValues[secondPiece.type] > pieceValues[firstPiece.type] && pieceValues[firstPiece.type] >= 3) {
-                    insights.push({ text: '📌 ¡Enfilada! Amenazas ' + capName[firstPiece.type] + ' y ' + capName[secondPiece.type] + ' detrás', type: 'great' });
+                    insights.push({ text: t('insight.skewer', { a: capName[firstPiece.type], b: capName[secondPiece.type] }), type: 'great' });
                     pinDetected = true;
                 }
             }
@@ -19169,7 +19208,7 @@ function getMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece, mo
                         if (type === 'bishop' && bpp.type === 'queen') isBattery = true;
                         if (type === 'rook' && bpp.type === 'queen') isBattery = true;
                         if (isBattery) {
-                            insights.push({ text: '🔋 ¡Batería! ' + capName[type] + ' y ' + capName[bpp.type] + ' apuntan juntas', type: 'great' });
+                            insights.push({ text: t('insight.battery', { a: capName[type], b: capName[bpp.type] }), type: 'great' });
                         }
                     }
                     break;
@@ -19185,11 +19224,11 @@ function getMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece, mo
 
     // --- Desarrollo de piezas menores ---
     if ((type === 'knight' || type === 'bishop') && fromRow === backRank && moveCount <= 20) {
-        var pName = type === 'knight' ? 'caballo' : 'alfil';
+        var pName = pieceName(type);
         if (isCenter || isExtCenter) {
-            insights.push({ text: '📐 Desarrollas ' + pName + ' hacia el centro — ¡buena actividad!', type: 'good' });
+            insights.push({ text: t('insight.devCenter', { piece: pName }), type: 'good' });
         } else {
-            insights.push({ text: '📐 Desarrollas ' + pName + ' — una pieza más lista para jugar', type: 'good' });
+            insights.push({ text: t('insight.devPiece', { piece: pName }), type: 'good' });
         }
     }
 
@@ -19198,13 +19237,13 @@ function getMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece, mo
         var fianchettoSquares = [[5,1],[5,6],[2,1],[2,6]];
         var isFianchetto = fianchettoSquares.some(function(s) { return s[0] === toRow && s[1] === toCol; });
         if (isFianchetto) {
-            insights.push({ text: '🏹 ¡Fianchetto! Tu alfil domina la gran diagonal', type: 'good' });
+            insights.push({ text: t('insight.fianchetto'), type: 'good' });
         }
     }
 
     // --- Dama temprana ---
     if (type === 'queen' && fromRow === backRank && moveCount <= 8 && !capturedPiece) {
-        insights.push({ text: '⚠️ Dama temprana — puede ser atacada y perder tiempos', type: 'warning' });
+        insights.push({ text: t('insight.earlyQueen'), type: 'warning' });
     }
 
     // --- Repetición de pieza en apertura ---
@@ -19221,7 +19260,7 @@ function getMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece, mo
                 var prevTo = lastPlayerMoves[1].substring(2, 4);
                 var currFrom = lastPlayerMoves[0].substring(0, 2);
                 if (prevTo === currFrom) {
-                    insights.push({ text: '⚠️ Mueves la misma pieza dos veces — desarrolla las demás', type: 'warning' });
+                    insights.push({ text: t('insight.samePiece'), type: 'warning' });
                 }
             }
         }
@@ -19238,7 +19277,7 @@ function getMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece, mo
             }
         }
         if (undeveloped >= 2) {
-            insights.push({ text: '⚠️ Aún tienes ' + undeveloped + ' piezas en casa — ¡necesitan salir!', type: 'warning' });
+            insights.push({ text: t('insight.undeveloped', { n: undeveloped }), type: 'warning' });
         }
     }
 
@@ -19260,7 +19299,7 @@ function getMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece, mo
             kingCastled = true;
         }
         if (developed >= 4 && kingCastled) {
-            insights.push({ text: '✅ ¡Desarrollo completo! Piezas activas y rey enrocado', type: 'great' });
+            insights.push({ text: t('insight.devComplete'), type: 'great' });
         }
     }
 
@@ -19269,15 +19308,15 @@ function getMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece, mo
     // =============================================
     if (type === 'pawn') {
         if (toRow === 0 || toRow === 7) {
-            insights.push({ text: '👑 ¡Coronación! Tu peón se transforma en pieza mayor', type: 'great' });
+            insights.push({ text: t('insight.promo'), type: 'great' });
         } else if ((color === 'white' && toRow <= 1) || (color === 'black' && toRow >= 6)) {
-            insights.push({ text: '♟ ¡Peón a punto de coronar! Amenaza imparable', type: 'great' });
+            insights.push({ text: t('insight.almostPromo'), type: 'great' });
         } else if (isCenter && moveCount <= 10) {
             var doublePush = Math.abs(fromRow - toRow) === 2;
             if (doublePush) {
-                insights.push({ text: '🎯 Peón doble al centro — ¡controlas casillas clave!', type: 'good' });
+                insights.push({ text: t('insight.doubleCenter'), type: 'good' });
             } else {
-                insights.push({ text: '🎯 Peón al centro — espacio y control', type: 'good' });
+                insights.push({ text: t('insight.centerPawn'), type: 'good' });
             }
         }
 
@@ -19300,9 +19339,9 @@ function getMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece, mo
             if (isPassed && toRow !== backRank) {
                 var distToPromo = Math.abs(toRow - promoRow);
                 if (distToPromo <= 3) {
-                    insights.push({ text: '♟ ¡Peón pasado avanzado! Muy peligroso', type: 'great' });
+                    insights.push({ text: t('insight.passedAdv'), type: 'great' });
                 } else {
-                    insights.push({ text: '♟ Peón pasado — sin peones rivales que lo frenen', type: 'good' });
+                    insights.push({ text: t('insight.passed'), type: 'good' });
                 }
             }
         }
@@ -19319,7 +19358,7 @@ function getMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece, mo
                 if (hasAdjacentPawn) break;
             }
             if (!hasAdjacentPawn) {
-                insights.push({ text: '⚠️ Peón aislado — no tiene peones aliados que lo protejan', type: 'warning' });
+                insights.push({ text: t('insight.isolated'), type: 'warning' });
             }
         }
 
@@ -19331,7 +19370,7 @@ function getMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece, mo
                 if (dpp && dpp.type === 'pawn' && dpp.color === color) pawnsInCol++;
             }
             if (pawnsInCol >= 2) {
-                insights.push({ text: '⚠️ Peones doblados en la misma columna — estructura débil', type: 'warning' });
+                insights.push({ text: t('insight.doubled'), type: 'warning' });
             }
         }
     }
@@ -19345,7 +19384,7 @@ function getMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece, mo
             if (tdr === toRow) continue;
             var tdp = game.getPiece(tdr, toCol);
             if (tdp && tdp.type === 'rook' && tdp.color === color) {
-                insights.push({ text: '🗼 ¡Torres dobladas! Poder duplicado en la columna', type: 'great' });
+                insights.push({ text: t('insight.doubledRooks'), type: 'great' });
                 break;
             }
         }
@@ -19362,7 +19401,7 @@ function getMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece, mo
                         if (game.getPiece(toRow, tcc)) { pathClear = false; break; }
                     }
                     if (pathClear) {
-                        insights.push({ text: '🗼 Torres conectadas — se apoyan mutuamente', type: 'good' });
+                        insights.push({ text: t('insight.connectedRooks'), type: 'good' });
                         break;
                     }
                 }
@@ -19371,7 +19410,7 @@ function getMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece, mo
 
         // Torre en 7ª fila
         if (toRow === (color === 'white' ? 1 : 6)) {
-            insights.push({ text: '🗼 ¡Torre en séptima fila! Ataca peones y encierra al rey', type: 'great' });
+            insights.push({ text: t('insight.rook7'), type: 'great' });
         }
 
         // Columna abierta / semi-abierta
@@ -19385,9 +19424,9 @@ function getMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece, mo
                 }
             }
             if (!hasOwnPawn && !hasEnemyPawn) {
-                insights.push({ text: '🗼 Torre en columna abierta — ¡máxima influencia!', type: 'good' });
+                insights.push({ text: t('insight.rookOpen'), type: 'good' });
             } else if (!hasOwnPawn && hasEnemyPawn) {
-                insights.push({ text: '🗼 Torre en columna semi-abierta — presión sobre el peón rival', type: 'good' });
+                insights.push({ text: t('insight.rookSemi'), type: 'good' });
             }
         }
 
@@ -19408,7 +19447,7 @@ function getMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece, mo
                             if (!tIsPassed) break;
                         }
                         if (tIsPassed) {
-                            insights.push({ text: '🗼 Torre apoyando peón pasado — ¡combinación ganadora!', type: 'great' });
+                            insights.push({ text: t('insight.rookPassed'), type: 'great' });
                         }
                     }
                     break;
@@ -19422,7 +19461,7 @@ function getMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece, mo
     // =============================================
     if (type === 'knight') {
         if (isCenter && moveCount > 5) {
-            insights.push({ text: '🐴 Caballo centralizado — controla hasta 8 casillas', type: 'good' });
+            insights.push({ text: t('insight.knightCenter'), type: 'good' });
         }
     }
 
@@ -19439,7 +19478,7 @@ function getMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece, mo
                 }
             }
             if (!canBeAttackedByPawn) {
-                insights.push({ text: '🐴 ¡Puesto avanzado! Caballo protegido e inamovible', type: 'great' });
+                insights.push({ text: t('insight.outpost'), type: 'great' });
             }
         }
     }
@@ -19456,11 +19495,11 @@ function getMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece, mo
             }
         }
         if (totalPieces <= 4 && (isCenter || isExtCenter)) {
-            insights.push({ text: '👑 Rey activo en el final — ¡pieza decisiva!', type: 'good' });
+            insights.push({ text: t('insight.kingEnd'), type: 'good' });
         } else if (totalPieces <= 4) {
-            insights.push({ text: '👑 Activas el rey — en el final es una pieza fuerte', type: 'good' });
+            insights.push({ text: t('insight.kingActivate'), type: 'good' });
         } else if (totalPieces > 4 && !isEndgame) {
-            insights.push({ text: '⚠️ Rey expuesto en el medio juego — puede ser peligroso', type: 'warning' });
+            insights.push({ text: t('insight.kingExposed'), type: 'warning' });
         }
     }
 
@@ -19475,15 +19514,15 @@ function getMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece, mo
         var isDefended = isSquareDefendedBy(toRow, toCol, color);
 
         if (isAttacked && !isDefended && movedValue >= 5) {
-            insights.push({ text: '🚨 ¡Tu ' + capName[type] + ' puede ser capturada gratis!', type: 'danger' });
+            insights.push({ text: t('insight.hangingFree', { piece: capName[type] }), type: 'danger' });
         } else if (isAttacked && !isDefended && movedValue >= 3) {
-            insights.push({ text: '🚨 ¡' + capName[type].charAt(0).toUpperCase() + capName[type].slice(1) + ' en peligro! Está sin protección', type: 'danger' });
+            insights.push({ text: t('insight.hangingDanger', { piece: capName[type].charAt(0).toUpperCase() + capName[type].slice(1) }), type: 'danger' });
         } else if (isAttacked && !isDefended && movedValue > 0) {
-            insights.push({ text: '⚠️ Tu ' + capName[type] + ' queda en casilla atacada', type: 'warning' });
+            insights.push({ text: t('insight.attacked', { piece: capName[type] }), type: 'warning' });
         } else if (isAttacked && isDefended && movedValue > 1) {
             var minAtk = minAttackerValue(toRow, toCol, enemyColor);
             if (minAtk < movedValue) {
-                insights.push({ text: '⚠️ Tu ' + capName[type] + ' puede caer ante pieza de menor valor', type: 'warning' });
+                insights.push({ text: t('insight.lesserThreat', { piece: capName[type] }), type: 'warning' });
             }
         }
     }
@@ -19509,7 +19548,7 @@ function getMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece, mo
                 var stillDefended = isSquareDefendedBy(hi, hj, color);
                 var isHanging = isSquareAttackedBy(hi, hj, enemyColor);
                 if (isHanging && !stillDefended) {
-                    insights.push({ text: '⚠️ Cuidado: tu ' + capName[hp.type] + ' ha quedado sin defensa', type: 'warning' });
+                    insights.push({ text: t('insight.leftHanging', { piece: capName[hp.type] }), type: 'warning' });
                     foundHanging = true;
                     break;
                 }
@@ -19530,13 +19569,13 @@ function getMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece, mo
         if (kingOnKingside && (fromCol >= 5 && fromCol <= 7)) {
             var pawnAdvanced = color === 'white' ? (toRow < fromRow) : (toRow > fromRow);
             if (pawnAdvanced && Math.abs(fromRow - backRank) <= 2) {
-                insights.push({ text: '⚠️ Avanzar peones del enroque debilita la defensa del rey', type: 'warning' });
+                insights.push({ text: t('insight.castlePawns'), type: 'warning' });
             }
         }
         if (kingOnQueenside && (fromCol >= 0 && fromCol <= 2)) {
             var pawnAdv2 = color === 'white' ? (toRow < fromRow) : (toRow > fromRow);
             if (pawnAdv2 && Math.abs(fromRow - backRank) <= 2) {
-                insights.push({ text: '⚠️ Avanzar peones del enroque debilita la defensa del rey', type: 'warning' });
+                insights.push({ text: t('insight.castlePawns'), type: 'warning' });
             }
         }
     }
@@ -19544,7 +19583,7 @@ function getMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece, mo
     // --- Caballo en el borde ---
     if (type === 'knight' && !capturedPiece) {
         if (toCol === 0 || toCol === 7 || toRow === 0 || toRow === 7) {
-            insights.push({ text: '⚠️ Caballo en el borde — pierde movilidad y fuerza', type: 'warning' });
+            insights.push({ text: t('insight.knightRim'), type: 'warning' });
         }
     }
 
@@ -19563,7 +19602,7 @@ function getMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece, mo
             }
         }
         if (blockedDirs >= 3) {
-            insights.push({ text: '⚠️ Alfil atrapado entre tus peones — busca abrirle diagonales', type: 'warning' });
+            insights.push({ text: t('insight.badBishop'), type: 'warning' });
         }
     }
 
@@ -19579,7 +19618,7 @@ function getMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece, mo
         }
         if (myKingPos && myKingPos.row === backRank && (myKingPos.col === 4 || myKingPos.col === 3)) {
             if (!isEndgame) {
-                insights.push({ text: '⚠️ Tu rey sigue en el centro sin enrocar — ¡búscale refugio!', type: 'warning' });
+                insights.push({ text: t('insight.kingCenter'), type: 'warning' });
             }
         }
     }
@@ -19592,9 +19631,9 @@ function getMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece, mo
         var enemyMat = countMaterial(enemyColor);
         var diff = myMat - enemyMat;
         if (diff >= 5 && moveCount > 20) {
-            insights.push({ text: '💪 Ventaja material clara — simplifica y gana', type: 'info' });
+            insights.push({ text: t('insight.matPlus'), type: 'info' });
         } else if (diff <= -5 && moveCount > 20) {
-            insights.push({ text: '🔍 Desventaja material — busca complicaciones tácticas', type: 'info' });
+            insights.push({ text: t('insight.matMinus'), type: 'info' });
         }
     }
 
@@ -19603,11 +19642,11 @@ function getMoveInsight(fromRow, fromCol, toRow, toCol, piece, capturedPiece, mo
     // =============================================
     if (insights.length === 0 && !capturedPiece) {
         if (isCenter) {
-            insights.push({ text: '🎯 Controlas el centro del tablero', type: 'good' });
+            insights.push({ text: t('insight.centerCtrl'), type: 'good' });
         } else if (isExtCenter && moveCount <= 15) {
-            insights.push({ text: '♟ Refuerzas tu influencia en el centro', type: 'info' });
+            insights.push({ text: t('insight.centerInfl'), type: 'info' });
         } else if (type === 'pawn' && isEndgame) {
-            insights.push({ text: '♟ Avanza peones en el final — cada paso cuenta', type: 'info' });
+            insights.push({ text: t('insight.endPawn'), type: 'info' });
         }
     }
 
@@ -19691,7 +19730,7 @@ function showExampleMoveInsight() {
     el.style.animation = 'none';
     el.offsetHeight; // forzar reflow para reiniciar la animación
     el.className = 'move-insight insight-good';
-    el.textContent = '💡 Ejemplo: ¡buena jugada! Controlas el centro del tablero.';
+    el.textContent = t('insight.example');
     el.style.display = 'block';
     el.style.animation = 'insightFadeIn 0.35s ease-out';
 
@@ -20169,7 +20208,7 @@ function hideBoardBanner() {
 function handleGameResult(result) {
     if (puzzleMode) return;
     if (result.status === 'checkmate') {
-        const winner = result.winner === 'white' ? 'Blancas' : 'Negras';
+        const winner = result.winner === 'white' ? t('color.white') : t('color.black');
         stopClock();
         clearAutoSavedGame();
         let eloDelta = 0;
@@ -20180,21 +20219,21 @@ function handleGameResult(result) {
             eloDelta = recordGameResult('loss');
             setTimeout(() => SoundFX.lose(), 200);
         }
-        showBoardBanner(`♚ ¡JAQUE MATE! — Ganan ${winner}${formatEloDelta(eloDelta)}`, 'checkmate');
+        showBoardBanner(t('banner.checkmate', { winner: winner }) + formatEloDelta(eloDelta), 'checkmate');
     } else if (result.status === 'stalemate') {
         stopClock();
         clearAutoSavedGame();
         const eloDelta = recordGameResult('draw');
-        showBoardBanner(`½ TABLAS — Ahogado${formatEloDelta(eloDelta)}`, 'stalemate');
+        showBoardBanner(t('banner.stalemate') + formatEloDelta(eloDelta), 'stalemate');
         setTimeout(() => SoundFX.draw(), 200);
     } else if (result.status === 'threefold') {
         stopClock();
         clearAutoSavedGame();
         const eloDelta = recordGameResult('draw');
-        showBoardBanner(`½ TABLAS — Triple repetición${formatEloDelta(eloDelta)}`, 'stalemate');
+        showBoardBanner(t('banner.threefold') + formatEloDelta(eloDelta), 'stalemate');
         setTimeout(() => SoundFX.draw(), 200);
     } else if (result.status === 'check') {
-        showBoardBanner('♔ ¡JAQUE!', 'check');
+        showBoardBanner(t('banner.check'), 'check');
         setTimeout(hideBoardBanner, 1500);
     }
 
@@ -20284,14 +20323,14 @@ async function makeAIMove(expectedGen) {
             
                 handleGameResult(result);
             } else {
-                showMessage('Error al parsear el movimiento de la IA', 'error', 3000);
+                showMessage(t('msg.aiParse'), 'error', 3000);
             }
         } else {
-            showMessage('La IA no pudo generar un movimiento válido', 'error', 3000);
+            showMessage(t('msg.aiInvalid'), 'error', 3000);
         }
     } catch (error) {
         console.error('Error en movimiento de IA:', error);
-        showMessage('Error al obtener movimiento de la IA: ' + error.message, 'error', 3000);
+        showMessage(t('msg.aiFail', { err: error.message }), 'error', 3000);
     } finally {
         showThinkingIndicator(false);
     }

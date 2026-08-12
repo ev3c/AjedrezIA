@@ -2,6 +2,37 @@
 
 ---
 
+## v3.5.71 — 2026-08-12
+
+### Idiomas
+- Al iniciar, si el navegador está en español la app se muestra en español;
+  en cualquier otro idioma se muestra en inglés.
+- La elección (automática o con ES/EN) se recuerda entre sesiones.
+
+---
+
+## v3.5.70 — 2026-08-12
+
+### Idiomas
+- Todo el contenido dinámico usa el mismo sistema bilingüe ES/EN: mensajes,
+  banners, compartir, problemas, quiz, lecciones, aperturas, análisis e
+  insights de jugada.
+- Las lecciones de Aprende Ajedrez y las descripciones de aperturas se
+  traducen al cambiar de idioma.
+
+---
+
+## v3.5.69 — 2026-08-12
+
+### Idiomas
+- AjedrezIA es bilingüe: Español e English.
+- El idioma se detecta del navegador y se puede cambiar con ES/EN o en
+  Configuración. La elección se guarda.
+- Se traducen menús, modales, botones y mensajes principales. Los nombres
+  propios de partidas y nicks se mantienen.
+
+---
+
 ## v3.5.68 — 2026-08-12
 
 ### Aperturas

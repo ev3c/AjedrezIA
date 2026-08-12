@@ -8,6 +8,8 @@ const ASSETS_TO_CACHE = [
     './version.js',
     './style.css',
     './app.js',
+    './i18n.js',
+    './i18n-content.js',
     './chess-logic.js',
     './manifest.json',
     './icons/icon-192.png',
