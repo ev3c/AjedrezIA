@@ -190,7 +190,7 @@ let _postLoginShowOnlineMenu = false; // si el login se abrió desde "Comenzar o
 let playerNickname = 'Jugador';
 let selectedSquare = null;
 let gameMode = 'vs-ai'; // vs-ai, vs-human, puzzle (compatibilidad)
-let aiDifficulty = 1; // Nivel Stockfish (0-20)
+let aiDifficulty = 1; // Nivel de fuerza de la IA (1-8)
 let boardTheme = 'classic';
 let pieceStyle = 'staunty';
 let boardZoom = 100; // zoom del tablero en %: 70..120
@@ -238,8 +238,23 @@ let stats = {
     gamesPlayed: 0
 };
 
-// ELO aproximado de la IA por nivel de dificultad
-const AI_ELO_MAP = { 1: 400, 2: 700, 3: 1000, 4: 1200, 5: 1500, 6: 1800, 7: 2200, 8: 2500 };
+// Fuerza objetivo aproximada por nivel. Las probabilidades de libro y de
+// Stockfish evitan que los niveles bajos jueguen siempre la mejor jugada.
+const AI_ELO_MAP = { 1: 400, 2: 600, 3: 800, 4: 1000, 5: 1200, 6: 1500, 7: 1800, 8: 2200 };
+const AI_STRENGTH_PROFILES = {
+    1: { bookChance: 0.05, depth: 1, fullEval: false, quiescence: false, randomness: 3.00, apiChance: 0.00, apiDepth: 0 },
+    2: { bookChance: 0.15, depth: 1, fullEval: false, quiescence: false, randomness: 1.80, apiChance: 0.00, apiDepth: 0 },
+    3: { bookChance: 0.30, depth: 1, fullEval: true,  quiescence: false, randomness: 1.00, apiChance: 0.00, apiDepth: 0 },
+    4: { bookChance: 0.45, depth: 2, fullEval: true,  quiescence: false, randomness: 0.55, apiChance: 0.00, apiDepth: 0 },
+    5: { bookChance: 0.60, depth: 2, fullEval: true,  quiescence: true,  randomness: 0.32, apiChance: 0.00, apiDepth: 0 },
+    6: { bookChance: 0.72, depth: 3, fullEval: true,  quiescence: true,  randomness: 0.20, apiChance: 0.40, apiDepth: 1 },
+    7: { bookChance: 0.85, depth: 3, fullEval: true,  quiescence: true,  randomness: 0.10, apiChance: 0.70, apiDepth: 3 },
+    8: { bookChance: 0.95, depth: 4, fullEval: true,  quiescence: true,  randomness: 0.04, apiChance: 0.90, apiDepth: 6 },
+};
+
+function getAIStrengthProfile() {
+    return AI_STRENGTH_PROFILES[aiDifficulty] || AI_STRENGTH_PROFILES[4];
+}
 
 // Factor K según estándar FIDE:
 //   K=40 → jugador nuevo (< 30 partidas) o ELO < 1000
@@ -5763,7 +5778,7 @@ function showVariantsPopup(variants, variantsKey, onSelectCallback) {
             trainingResumeCallback = null;
             hideVariantsPopup(false);
             setGameButtonsDisabled(false);
-            showLoadedGameMessage('Apertura completada', false);
+            showLoadedGameMessage('Apertura completada', false, null, true);
             showContinueButton();
         } else {
             hideVariantsPopup(true);
@@ -5890,7 +5905,7 @@ function continueTrainingFromVariant(variant, fromKey) {
 
     if (remainingMoves.length === 0) {
         setGameButtonsDisabled(false);
-        showLoadedGameMessage('Apertura completada', false);
+        showLoadedGameMessage('Apertura completada', false, null, true);
         showContinueButton();
         return;
     }
@@ -5902,7 +5917,7 @@ function continueTrainingFromVariant(variant, fromKey) {
                 trainingResumeCallback = null;
                 trainingTimeoutId = null;
                 setGameButtonsDisabled(false);
-                showLoadedGameMessage('Apertura completada', false);
+                showLoadedGameMessage('Apertura completada', false, null, true);
                 showContinueButton();
             }
             return;
@@ -5927,7 +5942,7 @@ function continueTrainingFromVariant(variant, fromKey) {
             trainingResumeCallback = null;
             trainingTimeoutId = null;
             setGameButtonsDisabled(false);
-            showLoadedGameMessage('Apertura completada', false);
+            showLoadedGameMessage('Apertura completada', false, null, true);
             showContinueButton();
             return;
         }
@@ -6179,20 +6194,39 @@ function getOpeningBookMove() {
 // Función para obtener el mejor movimiento (libro + Stockfish API + fallback local)
 async function getStockfishBestMove() {
     console.log('Motor de ajedrez - Nivel:', aiDifficulty);
+    const strength = getAIStrengthProfile();
 
-    // Intentar libro de aperturas primero (variedad)
+    // En finales técnicos básicos la IA debe saber rematar con independencia
+    // del nivel seleccionado. Se usa análisis fuerte y, si no hay conexión,
+    // un perfil local preciso sin errores aleatorios.
+    if (isTechnicalEndgameForAI()) {
+        try {
+            return await getStockfishAPIMove(12);
+        } catch (error) {
+            console.warn('Motor online no disponible para final técnico; usando cálculo local:', error);
+            return await getLocalBestMove({
+                depth: 4,
+                fullEval: true,
+                quiescence: true,
+                randomness: 0,
+            });
+        }
+    }
+
+    // Los jugadores débiles conocen menos teoría: no usar siempre el libro.
     const bookMove = getOpeningBookMove();
-    if (bookMove) {
+    if (bookMove && Math.random() < strength.bookChance) {
         return bookMove;
     }
     
-    // Intentar usar Stockfish API (niveles 5+: Avanzado y superiores)
-    if (aiDifficulty >= 5) {
+    // Los niveles altos alternan Stockfish con el motor local. Así incluso
+    // Stockfish a poca profundidad no juega infaliblemente la mejor jugada.
+    if (strength.apiChance > 0 && Math.random() < strength.apiChance) {
         try {
             return await getStockfishAPIMove();
         } catch (error) {
             console.warn('Stockfish API falló, usando motor local:', error);
-    return await getLocalBestMove();
+            return await getLocalBestMove();
         }
     }
     
@@ -6200,20 +6234,51 @@ async function getStockfishBestMove() {
     return await getLocalBestMove();
 }
 
-// Obtener movimiento desde motor público (stockfish.online → chess-api.com fallback)
-async function getStockfishAPIMove() {
-    const fen = game.toFEN();
+function isTechnicalEndgameForAI() {
+    const aiColor = game.currentTurn;
+    const enemyColor = aiColor === 'white' ? 'black' : 'white';
+    const own = { queen: 0, rook: 0, bishop: 0, knight: 0, pawn: 0 };
+    let enemyNonKing = 0;
+    let totalNonKing = 0;
+    let pawnNearPromotion = false;
 
-    const API_LEVELS = {
-        5: { depth: 1  },   // ~1500 ELO
-        6: { depth: 2  },   // ~1800 ELO
-        7: { depth: 6  },   // ~2200 ELO
-        8: { depth: 10 }    // ~2500 ELO
-    };
-    const params = API_LEVELS[aiDifficulty] || { depth: 15 };
+    for (let row = 0; row < 8; row++) {
+        for (let col = 0; col < 8; col++) {
+            const piece = game.getPiece(row, col);
+            if (!piece || piece.type === 'king') continue;
+            totalNonKing++;
+            if (piece.color === aiColor) {
+                if (Object.prototype.hasOwnProperty.call(own, piece.type)) own[piece.type]++;
+                if (piece.type === 'pawn') {
+                    const squaresToPromote = piece.color === 'white' ? row : 7 - row;
+                    if (squaresToPromote <= 2) pawnNearPromotion = true;
+                }
+            } else if (piece.color === enemyColor) {
+                enemyNonKing++;
+            }
+        }
+    }
+
+    const hasBasicMatingMaterial =
+        own.queen > 0 ||
+        own.rook > 0 ||
+        own.bishop >= 2 ||
+        (own.bishop > 0 && own.knight > 0);
+    const kingOnlyOpponent = enemyNonKing === 0 &&
+        (hasBasicMatingMaterial || own.pawn > 0);
+    const simplePromotionEnding = pawnNearPromotion && totalNonKing <= 8;
+
+    return kingOnlyOpponent || simplePromotionEnding;
+}
+
+// Obtener movimiento desde motor público (stockfish.online → chess-api.com fallback)
+async function getStockfishAPIMove(depthOverride) {
+    const fen = game.toFEN();
+    const params = getAIStrengthProfile();
+    const apiDepth = Math.max(1, depthOverride || params.apiDepth || 1);
 
     try {
-        const result = await analyzeWithStockfishOnline(fen, params.depth);
+        const result = await analyzeWithStockfishOnline(fen, apiDepth);
         console.log('stockfish.online movimiento:', result.move, 'Eval:', result.eval);
         return result.move;
     } catch (e) {
@@ -6223,7 +6288,7 @@ async function getStockfishAPIMove() {
     const response = await fetch('https://chess-api.com/v1', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ fen, depth: params.depth, maxThinkingTime: 100 })
+        body: JSON.stringify({ fen, depth: apiDepth, maxThinkingTime: 100 })
     });
     if (!response.ok) throw new Error(`API error: ${response.status}`);
     const data = await response.json();
@@ -6917,7 +6982,7 @@ const KING_END_TABLE = [
 ];
 
 // Análisis local mejorado (fallback)
-async function getLocalBestMove() {
+async function getLocalBestMove(profileOverride) {
     console.log('Usando análisis local mejorado - Nivel:', aiDifficulty);
     
     // Obtener todos los movimientos válidos
@@ -6927,36 +6992,13 @@ async function getLocalBestMove() {
         throw new Error('No hay movimientos válidos');
     }
     
-    // Determinar profundidad de búsqueda según nivel
-    let depth = 1;
-    let useFullEval = true;
-    let randomnessFactor = 0;
-    
-    let useQuiescence = false;
-
-    if (aiDifficulty <= 1) {
-        // ~400 ELO: solo material básico, muchos errores
-        depth = 1;
-        useFullEval = false;
-        randomnessFactor = 0.7;
-    } else if (aiDifficulty <= 2) {
-        // ~700 ELO: eval posicional, errores frecuentes
-        depth = 1;
-        useFullEval = true;
-        randomnessFactor = 0.4;
-    } else if (aiDifficulty <= 3) {
-        // ~1000 ELO: táctica a 2 jugadas + quiescence
-        depth = 2;
-        useFullEval = true;
-        useQuiescence = true;
-        randomnessFactor = 0.12;
-    } else {
-        // ~1200 ELO: táctica a 3 jugadas + quiescence
-        depth = 3;
-        useFullEval = true;
-        useQuiescence = true;
-        randomnessFactor = 0.08;
-    }
+    // Perfil calibrado por nivel: profundidad, calidad de evaluación y error
+    // aleatorio se ajustan de forma independiente.
+    const strength = profileOverride || getAIStrengthProfile();
+    const depth = strength.depth;
+    const useFullEval = strength.fullEval;
+    const useQuiescence = strength.quiescence;
+    const randomnessFactor = strength.randomness;
     
     console.log(`Evaluando con profundidad ${depth}, aleatoriedad ${randomnessFactor}`);
     
@@ -7294,6 +7336,7 @@ function evaluatePosition(forColor) {
     let score = 0;
     let friendlyBishops = 0, enemyBishops = 0;
     let friendlyRooks = 0, enemyRooks = 0;
+    let friendlyQueens = 0, enemyQueens = 0;
     let friendlyKnights = 0, enemyKnights = 0;
     const enemyColor = forColor === 'white' ? 'black' : 'white';
     const friendlyPawnCols = new Array(8).fill(0);
@@ -7317,6 +7360,7 @@ function evaluatePosition(forColor) {
                 if (piece.type === 'bishop') friendlyBishops++;
                 if (piece.type === 'knight') friendlyKnights++;
                 if (piece.type === 'rook') friendlyRooks++;
+                if (piece.type === 'queen') friendlyQueens++;
                 if (piece.type === 'pawn') { friendlyPawnCols[col]++; friendlyPawnRows.push({ row, col }); }
                 if (piece.type === 'king') { friendlyKingRow = row; friendlyKingCol = col; }
             } else {
@@ -7324,6 +7368,7 @@ function evaluatePosition(forColor) {
                 if (piece.type === 'bishop') enemyBishops++;
                 if (piece.type === 'knight') enemyKnights++;
                 if (piece.type === 'rook') enemyRooks++;
+                if (piece.type === 'queen') enemyQueens++;
                 if (piece.type === 'pawn') { enemyPawnCols[col]++; enemyPawnRows.push({ row, col }); }
                 if (piece.type === 'king') { enemyKingRow = row; enemyKingCol = col; }
             }
@@ -7408,6 +7453,30 @@ function evaluatePosition(forColor) {
     if (!isEndgame()) {
         score += evalKingSafety(friendlyKingRow, friendlyKingCol, forColor);
         score -= evalKingSafety(enemyKingRow, enemyKingCol, enemyColor);
+    }
+
+    // Técnica de mate elemental: con dama o torre contra rey, empujar al rey
+    // rival hacia el borde y acercar el rey propio. El término simétrico
+    // permite que minimax también defienda correctamente estas posiciones.
+    const enemyOnlyKing = enemyQueens + enemyRooks + enemyBishops +
+        enemyKnights + enemyPawnRows.length === 0;
+    const friendlyOnlyKing = friendlyQueens + friendlyRooks + friendlyBishops +
+        friendlyKnights + friendlyPawnRows.length === 0;
+    if (enemyOnlyKing && (friendlyQueens > 0 || friendlyRooks > 0)) {
+        const edgeDistance = Math.min(enemyKingRow, 7 - enemyKingRow, enemyKingCol, 7 - enemyKingCol);
+        const kingDistance = Math.max(
+            Math.abs(friendlyKingRow - enemyKingRow),
+            Math.abs(friendlyKingCol - enemyKingCol)
+        );
+        score += (3 - edgeDistance) * 120 + (7 - kingDistance) * 35;
+    }
+    if (friendlyOnlyKing && (enemyQueens > 0 || enemyRooks > 0)) {
+        const edgeDistance = Math.min(friendlyKingRow, 7 - friendlyKingRow, friendlyKingCol, 7 - friendlyKingCol);
+        const kingDistance = Math.max(
+            Math.abs(friendlyKingRow - enemyKingRow),
+            Math.abs(friendlyKingCol - enemyKingCol)
+        );
+        score -= (3 - edgeDistance) * 120 + (7 - kingDistance) * 35;
     }
     
     return score;
@@ -7732,6 +7801,15 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '3.5.68': [
+        'Nueva escala aproximada de IA: 400, 600, 800, 1000, 1200, 1500, 1800 y 2200 ELO',
+        'Apertura completada muestra debajo el nombre de la apertura',
+        'Apertura completada ofrece botones amarillos Continuar Partida y Continuar Apertura',
+        'Continuar Partida permite elegir el nivel de la IA antes de reanudar',
+        'Apertura completada muestra un botón Continuar Partida dentro del modal',
+        'Imágenes y vídeos: muestran coordenadas, piezas, tema y el modo 3D seleccionados',
+        '... y más mejoras en AjedrezIA ...',
+    ],
     '3.5.52': [
         'Al abrir AjedrezIA se pide Iniciar Sesión, Registrarse o Acceder como Invitado',
         'Los vídeos se generan más despacio para ver mejor cada movimiento',
@@ -9002,6 +9080,19 @@ function sendHeartbeat() {
 
 // ── Modal de usuarios online ───────────────────────────────────────────────
 
+// Fecha de referencia a partir de la cual la comunidad "crece" un 3% cada
+// día (usuarios registrados mostrados y jugadores online ocupados). Es un
+// crecimiento simulado, compuesto diariamente, para dar sensación de una
+// comunidad viva sin depender de datos reales.
+const COMMUNITY_GROWTH_EPOCH = new Date('2026-08-11T00:00:00');
+const COMMUNITY_DAILY_GROWTH_RATE = 1.03;
+
+function getCommunityGrowthFactor() {
+    const msPerDay = 24 * 60 * 60 * 1000;
+    const daysElapsed = Math.max(0, Math.floor((Date.now() - COMMUNITY_GROWTH_EPOCH.getTime()) / msPerDay));
+    return Math.pow(COMMUNITY_DAILY_GROWTH_RATE, daysElapsed);
+}
+
 function buildGeneratedDemoUsers(startNum, count) {
     var words = [
         'rapid', 'blitz', 'storm', 'tactic', 'master', 'knight', 'bishop', 'rook',
@@ -9206,20 +9297,30 @@ function fetchAndRenderUsers() {
             { id:'demo149', nick:'diagonal_libre',      elo:1650 },
             { id:'demo150', nick:'centro_avanzado',     elo:2050 },
         ];
-        // 180 jugadores adicionales (80 aparecen como ocupados)
-        const demoExtra = buildGeneratedDemoUsers(151, 180);
+        // El tamaño del grupo "extra" y su proporción de ocupados crecen un
+        // 3% cada día desde COMMUNITY_GROWTH_EPOCH para simular una
+        // comunidad que va ganando actividad con el tiempo.
+        const growthFactor = getCommunityGrowthFactor();
+        const EXTRA_DEMO_BASE_COUNT = 180;
+        const EXTRA_DEMO_BASE_BUSY = 80;
+        const extraDemoCount = Math.round(EXTRA_DEMO_BASE_COUNT * growthFactor);
+        const extraDemoBusyCount = Math.min(extraDemoCount, Math.round(EXTRA_DEMO_BASE_BUSY * growthFactor));
+
+        // Grupo adicional de jugadores de ejemplo (una parte aparece como ocupados)
+        const demoExtra = buildGeneratedDemoUsers(151, extraDemoCount);
         const demoExtraBusySet = new Set(
             demoExtra.slice().sort(function() { return Math.random() - 0.5; })
-                .slice(0, 80)
+                .slice(0, extraDemoBusyCount)
                 .map(function(u) { return u.id; })
         );
 
-        // Asignar estado online/ocupado aleatoriamente (15 online, 3 de ellos ocupados)
-        // usando el minuto actual como semilla ligera para variar en cada apertura del modal
-        // 4 demo aleatorios aparecen como ocupados; el resto siempre offline.
-        // Los jugadores falsos nunca se muestran como disponibles (verde).
+        // Asignar estado online/ocupado aleatoriamente sobre el grupo base;
+        // esta cantidad también crece un 3% diario (con tope en el tamaño
+        // del grupo). Los jugadores falsos nunca se muestran como
+        // disponibles (verde), solo ocupados u offline.
+        const baseBusyCount = Math.min(demoBase.length, Math.round(25 * growthFactor));
         const shuffled = demoBase.slice().sort(function() { return Math.random() - 0.5; });
-        const busySet  = new Set(shuffled.slice(0, 25).map(function(u) { return u.id; }));
+        const busySet  = new Set(shuffled.slice(0, baseBusyCount).map(function(u) { return u.id; }));
         const mockUsers = [
             currentUser ? {
                 id: currentUser.id,
@@ -9279,7 +9380,11 @@ function fetchAndRenderUsers() {
 
 function renderUsersList(users, listEl, subtitleEl) {
     const allUsers = Array.isArray(users) ? users : [];
-    const registeredDisplay = allUsers.length + 10000;
+    // El "padding" de usuarios registrados también crece un 3% diario desde
+    // COMMUNITY_GROWTH_EPOCH, para reflejar el crecimiento de la comunidad.
+    const REGISTERED_USERS_BASE_OFFSET = 10000;
+    const registeredOffset = Math.round(REGISTERED_USERS_BASE_OFFSET * getCommunityGrowthFactor());
+    const registeredDisplay = allUsers.length + registeredOffset;
     const visibleUsers = allUsers.filter(function(u) { return !!u.online; });
     const online = visibleUsers.length;
     const available = visibleUsers.filter(function(u) { return u.status !== 'busy'; }).length;
@@ -11740,6 +11845,109 @@ function showConfirmDialog(message, onConfirm, confirmLabel, onCancel) {
     });
 }
 
+function showContinueAiLevelDialog(onConfirm) {
+    let overlay = document.getElementById('game-list-overlay');
+    if (overlay) overlay.remove();
+
+    overlay = document.createElement('div');
+    overlay.id = 'game-list-overlay';
+    overlay.className = 'message-overlay';
+    overlay.style.display = 'flex';
+    document.body.appendChild(overlay);
+
+    const modal = document.createElement('div');
+    modal.className = 'game-list-modal continue-ai-level-modal';
+    modal.style.textAlign = 'center';
+
+    const title = document.createElement('h3');
+    title.className = 'game-list-title';
+    title.textContent = 'Continuar Partida';
+    modal.appendChild(title);
+
+    const text = document.createElement('p');
+    text.textContent = 'Configura la IA y el tiempo para continuar desde esta posición:';
+    text.style.cssText = 'font-size:0.95rem;color:#4b5563;margin:0 0 14px;';
+    modal.appendChild(text);
+
+    const levelLabel = document.createElement('label');
+    levelLabel.setAttribute('for', 'continue-ai-difficulty');
+    levelLabel.textContent = 'Nivel de dificultad:';
+    levelLabel.style.cssText = 'display:block;text-align:left;font-weight:600;margin:0 0 6px;';
+    modal.appendChild(levelLabel);
+
+    const levelSelect = document.createElement('select');
+    levelSelect.id = 'continue-ai-difficulty';
+    levelSelect.className = 'select';
+    levelSelect.setAttribute('aria-label', 'Nivel de dificultad de la IA');
+    const sourceSelect = document.getElementById('ai-difficulty');
+    if (sourceSelect) {
+        levelSelect.innerHTML = sourceSelect.innerHTML;
+        levelSelect.value = sourceSelect.value || String(aiDifficulty);
+    } else {
+        Object.keys(AI_ELO_MAP).forEach(function(level) {
+            const option = document.createElement('option');
+            option.value = level;
+            option.textContent = 'Nivel ' + level + ' (~' + AI_ELO_MAP[level] + ' ELO)';
+            levelSelect.appendChild(option);
+        });
+        levelSelect.value = String(aiDifficulty);
+    }
+    modal.appendChild(levelSelect);
+
+    const timeLabel = document.createElement('label');
+    timeLabel.setAttribute('for', 'continue-time-control');
+    timeLabel.textContent = 'Tiempo partida:';
+    timeLabel.style.cssText = 'display:block;text-align:left;font-weight:600;margin:14px 0 6px;';
+    modal.appendChild(timeLabel);
+
+    const timeSelect = document.createElement('select');
+    timeSelect.id = 'continue-time-control';
+    timeSelect.className = 'select';
+    timeSelect.setAttribute('aria-label', 'Tiempo de la partida');
+    const sourceTimeSelect = document.getElementById('time-control');
+    if (sourceTimeSelect) {
+        timeSelect.innerHTML = sourceTimeSelect.innerHTML;
+    }
+    const currentTimeControl = timePerPlayer + '+' + incrementPerMove;
+    if (Array.from(timeSelect.options).some(function(option) { return option.value === currentTimeControl; })) {
+        timeSelect.value = currentTimeControl;
+    }
+    modal.appendChild(timeSelect);
+
+    const btnRow = document.createElement('div');
+    btnRow.style.cssText = 'display:flex;gap:8px;margin-top:18px;';
+
+    const continueBtn = document.createElement('button');
+    continueBtn.className = 'btn btn-success';
+    continueBtn.textContent = '▶ Continuar';
+    continueBtn.style.marginTop = '0';
+    continueBtn.addEventListener('click', function() {
+        const selectedDifficulty = parseInt(levelSelect.value, 10);
+        const selectedOption = levelSelect.options[levelSelect.selectedIndex];
+        const selectedLabel = selectedOption
+            ? selectedOption.textContent.split('(')[0].trim()
+            : null;
+        const selectedTimeControl = timeSelect.value;
+        overlay.remove();
+        onConfirm(selectedDifficulty, selectedLabel, selectedTimeControl);
+    });
+
+    const cancelBtn = document.createElement('button');
+    cancelBtn.className = 'btn btn-secondary';
+    cancelBtn.textContent = 'Cancelar';
+    cancelBtn.style.marginTop = '0';
+    cancelBtn.addEventListener('click', function() { overlay.remove(); });
+
+    btnRow.appendChild(continueBtn);
+    btnRow.appendChild(cancelBtn);
+    modal.appendChild(btnRow);
+    overlay.appendChild(modal);
+    overlay.addEventListener('click', function(e) {
+        if (e.target === overlay) overlay.remove();
+    });
+    levelSelect.focus();
+}
+
 function closeTopModalForAndroidBack() {
     const selectors = [
         '#mobile-select-backdrop.open',
@@ -12145,21 +12353,27 @@ document.addEventListener('DOMContentLoaded', () => {
     ['resume-game', 'resume-game-sidebar'].forEach(id => {
         const el = document.getElementById(id);
         if (el) el.addEventListener('click', function() {
-            showConfirmDialog('¿Quieres continuar la partida desde esta posición?', function() {
+            showContinueAiLevelDialog(function(selectedDifficulty, selectedLabel, selectedTimeControl) {
                 const diffSelect = document.getElementById('ai-difficulty');
-                const selectedDifficulty = diffSelect ? parseInt(diffSelect.value) : null;
-                const selectedLabel = diffSelect
-                    ? diffSelect.options[diffSelect.selectedIndex].text.split('(')[0].trim()
-                    : null;
-                continueGameFromCurrentPosition();
-                // Continuar contra la IA seleccionada actualmente en "Nueva Partida"
-                // (en lugar de la dificultad que tuviera guardada la partida).
                 if (selectedDifficulty != null && !isNaN(selectedDifficulty)) {
                     aiDifficulty = selectedDifficulty;
                     if (diffSelect) diffSelect.value = selectedDifficulty;
                 }
+                if (selectedTimeControl) {
+                    const timeParts = selectedTimeControl.split('+').map(Number);
+                    if (timeParts.length === 2 && !isNaN(timeParts[0]) && !isNaN(timeParts[1])) {
+                        timePerPlayer = timeParts[0];
+                        incrementPerMove = timeParts[1];
+                        whiteTime = timePerPlayer * 60;
+                        blackTime = timePerPlayer * 60;
+                        updateClockDisplay();
+                        const timeControlSelect = document.getElementById('time-control');
+                        if (timeControlSelect) timeControlSelect.value = selectedTimeControl;
+                    }
+                }
+                saveSettings();
+                continueGameFromCurrentPosition();
                 const _elo = AI_ELO_MAP[aiDifficulty] || 1200;
-                showMessage('Juegas contra ' + (selectedLabel || ('IA Nv.' + aiDifficulty)) + ' (' + _elo + ' ELO)', 'success', 2500);
                 // Actualizar también el título de la partida con la IA/ELO vigentes
                 if (playerColor !== 'both' && !_onlineGame && shareContext !== 'maestra') {
                     const _oppLabel = `AjedrezIA (${selectedLabel || ('Nv.' + aiDifficulty)} · ${_elo} ELO)`;
@@ -12168,7 +12382,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     const _blackLabel = playerColor === 'black' ? _humanLabel : _oppLabel;
                     setFamousGameTitle(`♔ ${_whiteLabel}  vs  ♚ ${_blackLabel}`);
                 }
-            }, 'Aceptar');
+            });
         });
     });
     ['undo-move', 'undo-move-sidebar'].forEach(id => {
@@ -14116,7 +14330,7 @@ function loadFamousGame(source) {
     }
 }
 
-function showLoadedGameMessage(title, isFinished, pgnResult) {
+function showLoadedGameMessage(title, isFinished, pgnResult, openingContinueGameOnly) {
     const turnLabel = game.currentTurn === 'white' ? 'Blancas' : 'Negras';
     let msg = `<strong>${title.replace(/\n/g, '<br>')}</strong>`;
     let msgType = 'info';
@@ -14139,14 +14353,60 @@ function showLoadedGameMessage(title, isFinished, pgnResult) {
         }
     } else {
         if (title === 'Apertura completada') {
-            msg += `<br><span style="font-size:0.85em;color:#9ca3af;">Pulsa variantes sobre el tablero para reemprender apertura</span>`;
+            const completedOpeningName = trainingOpening && trainingOpening.name
+                ? trainingOpening.name
+                : currentOpeningName;
+            if (completedOpeningName) {
+                msg += `<div class="completed-opening-name">${completedOpeningName}</div>`;
+            }
+            if (!openingContinueGameOnly) {
+                msg += `<br><span style="font-size:0.85em;color:#9ca3af;">Pulsa variantes sobre el tablero para reemprender apertura</span>`;
+                msg += `<img class="opening-variants-example" src="assets/opening-variants-example.png" ` +
+                    `alt="Ejemplo de variantes mostradas sobre el tablero">`;
+            }
+            msg += `<br>Turno: ${turnLabel}`;
+            msg += `<div class="opening-continue-prompt">` +
+                `<button type="button" class="opening-choice-btn opening-continue-game-btn" ` +
+                    `onclick="hideMessage();document.getElementById('resume-game')?.click();">▶ Continuar Partida</button>`;
+            if (!openingContinueGameOnly) {
+                msg += `<button type="button" class="opening-choice-btn" ` +
+                    `onclick="continueOpeningFromCompletedPosition();">📖 Continuar Apertura</button>`;
+            }
+            msg +=
+                `</div>`;
+        } else {
+            msg += `<br>Turno: ${turnLabel}`;
+            msg += `<br>Pulsa Continuar Partida`;
         }
-        msg += `<br>Turno: ${turnLabel}`;
-        msg += `<br>Pulsa Continuar Partida`;
     }
     msg += `<br><span style="font-size:0.85em;opacity:0.8;">Pulsa ◀ ▶ para navegar</span>`;
 
     showMessage(msg, msgType, 0);
+}
+
+function continueOpeningFromCompletedPosition() {
+    hideMessage();
+    const history = game && Array.isArray(game.moveHistoryUCI) ? game.moveHistoryUCI : [];
+    const key = history.join(' ');
+    const variants = getOpeningVariants(history);
+
+    if (variants.length > 0) {
+        trainingActive = true;
+        trainingPaused = true;
+        trainingResumeCallback = null;
+        showVariantsPopup(variants, key, function(selectedVariant) {
+            trainingResumeCallback = null;
+            continueTrainingFromVariant(selectedVariant, key);
+        });
+        const popup = document.getElementById('variants-popup');
+        if (popup) popup.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        return;
+    }
+
+    // Si la línea no tiene más variantes conocidas, volver a reproducir la
+    // apertura seleccionada mediante su botón habitual.
+    const openingBtn = document.getElementById('start-opening-training');
+    if (openingBtn) openingBtn.click();
 }
 
 function setGameButtonsDisabled(disabled) {
@@ -14769,6 +15029,7 @@ function parseUCIMove(uciMove) {
     const fromRank = uciMove[1];
     const toFile = uciMove[2];
     const toRank = uciMove[3];
+    const promotion = ({ q: 'queen', r: 'rook', b: 'bishop', n: 'knight' })[uciMove[4]] || null;
     
     const fromCol = files.indexOf(fromFile);
     const fromRow = 8 - parseInt(fromRank);
@@ -14779,7 +15040,7 @@ function parseUCIMove(uciMove) {
         return null;
     }
     
-    return { fromRow, fromCol, toRow, toCol };
+    return { fromRow, fromCol, toRow, toCol, promotion };
 }
 
 function moveToUCI(fromRow, fromCol, toRow, toCol, promotionPiece) {
@@ -15677,7 +15938,11 @@ function buildSharePreview(kind, cardT, cardS, fenOverride, appKV, cardMeta) {
             t: cardT || '',
             s: cardS || '',
             meta: cardMeta || '',
-            mv: mv
+            mv: mv,
+            videoTheme: boardTheme,
+            videoPieceStyle: pieceStyle,
+            video3D: !!board3D,
+            showSquareCoordinates: !!showCoordinates
         }
     };
 }
@@ -15686,18 +15951,34 @@ function buildSharePreview(kind, cardT, cardS, fenOverride, appKV, cardMeta) {
 // Así el modal muestra la imagen aunque el servidor local no ejecute PHP
 // (file://, python http.server, Live Server...). El enlace para redes sigue
 // usando board-image.php (los robots necesitan render en servidor).
-const SHARE_PREVIEW_PIECES = {};
-let sharePreviewPiecesPromise = null;
-function preloadSharePreviewPieces() {
-    if (sharePreviewPiecesPromise) return sharePreviewPiecesPromise;
+const SHARE_PREVIEW_PIECE_SETS = {};
+const sharePreviewPiecePromises = {};
+function preloadSharePreviewPieces(style) {
+    const selectedStyle = SVG_PIECE_SETS.includes(style) ? style : '';
+    const cacheKey = selectedStyle || 'share-default';
+    if (sharePreviewPiecePromises[cacheKey]) return sharePreviewPiecePromises[cacheKey];
+    const pieceSet = {};
     const codes = ['wK','wQ','wR','wB','wN','wP','bK','bQ','bR','bB','bN','bP'];
-    sharePreviewPiecesPromise = Promise.all(codes.map(code => new Promise(resolve => {
+    sharePreviewPiecePromises[cacheKey] = Promise.all(codes.map(code => new Promise(resolve => {
         const img = new Image();
-        img.onload = () => { SHARE_PREVIEW_PIECES[code] = img; resolve(); };
-        img.onerror = () => resolve();
-        img.src = `share-img/pieces/${code}.png`;
-    })));
-    return sharePreviewPiecesPromise;
+        img.onload = () => { pieceSet[code] = img; resolve(); };
+        img.onerror = () => {
+            // Si un juego de piezas está incompleto, usar la pieza estándar
+            // de la tarjeta compartida para no dejar casillas vacías.
+            if (!selectedStyle) { resolve(); return; }
+            const fallback = new Image();
+            fallback.onload = () => { pieceSet[code] = fallback; resolve(); };
+            fallback.onerror = () => resolve();
+            fallback.src = `share-img/pieces/${code}.png`;
+        };
+        img.src = selectedStyle
+            ? `pieces/${selectedStyle}/${code}.svg`
+            : `share-img/pieces/${code}.png`;
+    }))).then(() => {
+        SHARE_PREVIEW_PIECE_SETS[cacheKey] = pieceSet;
+        return pieceSet;
+    });
+    return sharePreviewPiecePromises[cacheKey];
 }
 
 function sharePreviewFenToBoard(placement) {
@@ -15718,7 +15999,7 @@ function sharePreviewFenToBoard(placement) {
 }
 
 async function renderShareBoardDataURL(p) {
-    await preloadSharePreviewPieces();
+    const pieceImages = await preloadSharePreviewPieces(p.videoPieceStyle || '');
     const boardOnly = !!p.videoBoardOnly;
     const renderScale = Math.max(1, Number(p.renderScale) || 1);
     const W = boardOnly ? 630 : 1200, H = 630, BOARD = 540, BX = 48, BY = (H - BOARD) / 2, SQ = BOARD / 8;
@@ -15738,6 +16019,14 @@ async function renderShareBoardDataURL(p) {
     const placement = ((p.fen || '').split(' ')[0]) || 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR';
     const board = sharePreviewFenToBoard(placement);
     const flip = !!p.flip;
+    const videoThemes = {
+        classic: ['#f0d9b5', '#b58863'],
+        wood:    ['#deb887', '#8b4513'],
+        blue:    ['#dee3e6', '#8ca2ad'],
+        green:   ['#ffffdd', '#86a666'],
+        gray:    ['#e8e8e8', '#999999']
+    };
+    const themeColors = videoThemes[p.videoTheme] || ['#eadab5', '#b07a48'];
 
     const hl = [];
     let arrowMove = null;
@@ -15759,7 +16048,7 @@ async function renderShareBoardDataURL(p) {
             const mr = flip ? 7 - r : r, mc = flip ? 7 - c : c;
             const x = BX + c * SQ, y = BY + r * SQ;
             const isLight = ((mr + mc) % 2) === 0;
-            ctx.fillStyle = isLight ? '#eadab5' : '#b07a48';
+            ctx.fillStyle = isLight ? themeColors[0] : themeColors[1];
             ctx.fillRect(x, y, SQ, SQ);
             if (hl.some(sq => sq[0] === mr && sq[1] === mc)) {
                 ctx.fillStyle = 'rgba(246,224,122,0.55)';
@@ -15767,9 +16056,35 @@ async function renderShareBoardDataURL(p) {
             }
             const piece = board[mr][mc];
             const code = piece && FEN_TO_CODE[piece];
-            if (code && SHARE_PREVIEW_PIECES[code]) {
+            if (code && pieceImages[code]) {
                 const ps = SQ * 0.85, po = (SQ - ps) / 2;
-                ctx.drawImage(SHARE_PREVIEW_PIECES[code], x + po, y + po, ps, ps);
+                if (p.video3D) {
+                    ctx.save();
+                    ctx.shadowColor = 'rgba(0,0,0,0.58)';
+                    ctx.shadowBlur = SQ * 0.10;
+                    ctx.shadowOffsetY = SQ * 0.09;
+                    ctx.drawImage(pieceImages[code], x + po, y + po - SQ * 0.025, ps, ps);
+                    ctx.restore();
+                } else {
+                    ctx.drawImage(pieceImages[code], x + po, y + po, ps, ps);
+                }
+            }
+            if (p.showSquareCoordinates) {
+                const files = 'abcdefgh';
+                const coordinate = files[mc] + String(8 - mr);
+                ctx.save();
+                ctx.font = `bold ${Math.round(SQ * 0.18)}px monospace`;
+                ctx.textAlign = 'right';
+                ctx.textBaseline = 'top';
+                ctx.lineJoin = 'round';
+                ctx.lineWidth = Math.max(2, SQ * 0.035);
+                ctx.strokeStyle = 'rgba(0,0,0,0.78)';
+                ctx.fillStyle = 'rgba(255,255,255,0.92)';
+                const coordX = x + SQ - SQ * 0.07;
+                const coordY = y + SQ * 0.055;
+                ctx.strokeText(coordinate, coordX, coordY);
+                ctx.fillText(coordinate, coordX, coordY);
+                ctx.restore();
             }
         }
     }
@@ -15923,6 +16238,85 @@ async function renderShareBoardDataURL(p) {
         }
         ctx.fillStyle = '#8a827a'; ctx.font = '20px Arial, sans-serif';
         ctx.fillText('ajedrezia.com', tx, H - 40);
+    }
+
+    if (p.video3D) {
+        const projected = document.createElement('canvas');
+        projected.width = canvas.width;
+        projected.height = canvas.height;
+        const pctx = projected.getContext('2d');
+        const fullSourceW = canvas.width;
+        const sourceW = boardOnly ? fullSourceW : Math.round(630 * renderScale);
+        const sourceH = canvas.height;
+        const topY = Math.round(sourceH * 0.10);
+        const bottomY = Math.round(sourceH * 0.89);
+        const projectedH = bottomY - topY;
+
+        const bg = pctx.createLinearGradient(0, 0, 0, sourceH);
+        bg.addColorStop(0, '#3a3531');
+        bg.addColorStop(1, '#171411');
+        pctx.fillStyle = bg;
+        pctx.fillRect(0, 0, fullSourceW, sourceH);
+
+        // En la tarjeta horizontal, conservar intacto el panel informativo de
+        // la derecha y aplicar perspectiva únicamente al área del tablero.
+        if (!boardOnly && fullSourceW > sourceW) {
+            pctx.drawImage(
+                canvas,
+                sourceW, 0, fullSourceW - sourceW, sourceH,
+                sourceW, 0, fullSourceW - sourceW, sourceH
+            );
+        }
+
+        // Sombra única bajo toda la superficie proyectada.
+        pctx.save();
+        pctx.shadowColor = 'rgba(0,0,0,0.72)';
+        pctx.shadowBlur = sourceH * 0.055;
+        pctx.shadowOffsetY = sourceH * 0.045;
+        pctx.fillStyle = '#171411';
+        pctx.beginPath();
+        pctx.moveTo(sourceW * 0.11, topY);
+        pctx.lineTo(sourceW * 0.89, topY);
+        pctx.lineTo(sourceW * 0.99, bottomY);
+        pctx.lineTo(sourceW * 0.01, bottomY);
+        pctx.closePath();
+        pctx.fill();
+        pctx.restore();
+
+        // Proyección trapezoidal por franjas: reproduce la inclinación rotateX
+        // del tablero web sin depender de capturas del DOM.
+        const strip = 2;
+        for (let sy = 0; sy < sourceH; sy += strip) {
+            const ratio = sy / sourceH;
+            const widthScale = 0.78 + ratio * 0.20;
+            const targetW = sourceW * widthScale;
+            const targetX = (sourceW - targetW) / 2;
+            const targetY = topY + ratio * projectedH;
+            const targetStripH = Math.max(1, projectedH * strip / sourceH + 0.6);
+            pctx.drawImage(
+                canvas,
+                0, sy, sourceW, Math.min(strip, sourceH - sy),
+                targetX, targetY, targetW, targetStripH
+            );
+        }
+
+        // Canto inferior del tablero para reforzar su volumen.
+        const bottomW = sourceW * 0.98;
+        const bottomX = (sourceW - bottomW) / 2;
+        const edgeH = sourceH * 0.025;
+        const edge = pctx.createLinearGradient(0, bottomY, 0, bottomY + edgeH);
+        edge.addColorStop(0, '#7b4a1e');
+        edge.addColorStop(1, '#2a1a0a');
+        pctx.fillStyle = edge;
+        pctx.beginPath();
+        pctx.moveTo(bottomX, bottomY);
+        pctx.lineTo(bottomX + bottomW, bottomY);
+        pctx.lineTo(bottomX + bottomW * 0.985, bottomY + edgeH);
+        pctx.lineTo(bottomX + bottomW * 0.015, bottomY + edgeH);
+        pctx.closePath();
+        pctx.fill();
+
+        try { return projected.toDataURL('image/png'); } catch (e) { return null; }
     }
 
     try { return canvas.toDataURL('image/png'); } catch (e) { return null; }
@@ -16101,6 +16495,12 @@ async function generateShareVideo() {
 
         const VIDEO_SIZE = 1080;
         const VIDEO_RENDER_SCALE = VIDEO_SIZE / 630;
+        // Congelar la apariencia elegida al comenzar para que todo el vídeo
+        // mantenga el mismo tema, piezas y perspectiva.
+        const selectedVideoTheme = boardTheme;
+        const selectedVideoPieceStyle = pieceStyle;
+        const selectedVideo3D = !!board3D;
+        const selectedVideoCoordinates = !!showCoordinates;
         const canvas = document.createElement('canvas');
         canvas.width = VIDEO_SIZE;
         canvas.height = VIDEO_SIZE;
@@ -16167,6 +16567,10 @@ async function generateShareVideo() {
                 ...frame,
                 videoBoardOnly: true,
                 renderScale: VIDEO_RENDER_SCALE,
+                videoTheme: selectedVideoTheme,
+                videoPieceStyle: selectedVideoPieceStyle,
+                video3D: selectedVideo3D,
+                showSquareCoordinates: selectedVideoCoordinates,
                 arrowColor: shareContext === 'problema' ? 'blue' : 'yellow'
             });
             if (!dataUrl) continue;
@@ -19837,7 +20241,13 @@ async function makeAIMove(expectedGen) {
                     const epRow = aiPieceBefore.color === 'white' ? move.toRow + 1 : move.toRow - 1;
                     aiEnPassantCapture = { row: epRow, col: move.toCol, piece: game.getPiece(epRow, move.toCol) };
                 }
-                const result = game.makeMove(move.fromRow, move.fromCol, move.toRow, move.toCol);
+                const result = game.makeMove(
+                    move.fromRow,
+                    move.fromCol,
+                    move.toRow,
+                    move.toCol,
+                    move.promotion || undefined
+                );
 
                 // — Sonido del movimiento de la IA —
                 if (result) {
@@ -19845,6 +20255,7 @@ async function makeAIMove(expectedGen) {
                     const isCapture = !!aiCaptureBefore || (aiPieceBefore && aiPieceBefore.type === 'pawn' && move.fromCol !== move.toCol && !aiCaptureBefore);
                     if      (result.status === 'checkmate') SoundFX.lose();
                     else if (result.status === 'check')     SoundFX.check();
+                    else if (move.promotion)                SoundFX.promotion();
                     else if (isCastle)                      SoundFX.castle();
                     else if (isCapture)                     SoundFX.capture();
                     else                                    SoundFX.move();

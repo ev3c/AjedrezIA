@@ -2,6 +2,138 @@
 
 ---
 
+## v3.5.68 — 2026-08-12
+
+### Aperturas
+- Debajo del texto «Pulsa variantes sobre el tablero para reemprender
+  apertura» aparece una imagen de ejemplo del menú de variantes.
+
+---
+
+## v3.5.67 — 2026-08-12
+
+### Aperturas
+- Tras continuar una variante, el segundo mensaje «Apertura completada»
+  muestra únicamente la opción «Continuar Partida».
+
+---
+
+## v3.5.66 — 2026-08-12
+
+### Técnica de finales
+- Todos los niveles usan máxima precisión en mates elementales: dama y rey
+  contra rey, torre y rey contra rey y dos torres contra rey.
+- También se refuerzan los finales simples con peones próximos a coronar.
+- La IA respeta la pieza de promoción indicada por el motor.
+- Si el motor online no está disponible, la evaluación local empuja al rey
+  rival hacia el borde, acerca el rey propio y evita errores aleatorios.
+
+---
+
+## v3.5.65 — 2026-08-11
+
+### Fuerza de la IA
+- Recalibrados los ocho niveles para que la fuerza jugada se acerque más a
+  la de jugadores humanos.
+- Los niveles bajos conocen menos jugadas de apertura y cometen más errores
+  controlados; los altos incorporan Stockfish de manera gradual.
+- Nueva escala aproximada: 400, 600, 800, 1000, 1200, 1500, 1800 y 2200 ELO.
+
+---
+
+## v3.5.63 — 2026-08-08
+
+### Continuar partida
+- Se elimina el mensaje emergente «Juegas contra» con el nivel y ELO de la IA.
+
+---
+
+## v3.5.62 — 2026-08-08
+
+### Apertura completada
+- El nombre de la apertura aparece debajo del título del modal.
+
+---
+
+## v3.5.61 — 2026-08-08
+
+### Apertura completada
+- El botón «Continuar Partida» se muestra en color verde.
+
+---
+
+## v3.5.60 — 2026-08-08
+
+### Continuar partida
+- El modal permite elegir el tiempo de la partida junto al nivel de la IA.
+- Al continuar, ambos relojes comienzan con el tiempo seleccionado.
+
+---
+
+## v3.5.59 — 2026-08-08
+
+### Apertura completada
+- El modal ofrece los botones «Continuar Partida» y «Continuar Apertura» con
+  fondo amarillo pastel.
+- «Continuar Apertura» muestra las variantes disponibles; si no hay más,
+  vuelve a reproducir la apertura seleccionada.
+
+---
+
+## v3.5.58 — 2026-08-08
+
+### Continuar Partida
+- Al pulsar «Continuar Partida» se muestra un selector con los ocho niveles
+  de IA antes de reanudar desde la posición visible.
+- El nivel elegido se guarda y se aplica antes de calcular la siguiente
+  jugada de la IA.
+
+---
+
+## v3.5.57 — 2026-08-08
+
+### Apertura completada
+- El botón del modal muestra únicamente el icono ▶.
+- Al pulsarlo se ejecuta exactamente el mismo flujo que el botón «Continuar
+  Partida» de Acciones, incluida su confirmación.
+
+---
+
+## v3.5.56 — 2026-08-08
+
+### Apertura completada
+- La indicación «Pulsa Continuar Partida» se sustituye por «Pulsa», el botón
+  interactivo «Continuar Partida» y «para continuar la partida».
+
+---
+
+## v3.5.55 — 2026-08-07
+
+### Coordenadas en imágenes y vídeos
+- Si «Coordenadas en Casillas» está activado, las imágenes y todos los
+  fotogramas del vídeo muestran la coordenada dentro de cada casilla.
+- Las coordenadas respetan la orientación y los modos 2D/3D.
+
+---
+
+## v3.5.54 — 2026-08-07
+
+### Apariencia de las imágenes
+- Las imágenes generadas usan el estilo de piezas y el tema seleccionados.
+- Si «Tablero 3D» está activado, la imagen incluye la misma perspectiva,
+  volumen y sombras que el vídeo.
+
+---
+
+## v3.5.53 — 2026-08-07
+
+### Apariencia de los vídeos
+- Los vídeos usan el estilo de piezas y el tema de tablero seleccionados.
+- Si «Tablero 3D» está activado, la grabación incluye perspectiva, marco,
+  volumen y sombras.
+
+---
+
 ## v3.5.52 — 2026-08-02
 
 ### Avisos de conexión
