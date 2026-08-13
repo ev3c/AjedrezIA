@@ -7852,7 +7852,7 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
-    '3.5.74': [
+    '3.6.00': [
         'Interfaz en Español / English / Català, con selector ES/CAT/EN y detección del idioma del navegador',
         '... y más mejoras en AjedrezIA ...',
     ],
