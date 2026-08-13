@@ -1861,6 +1861,15 @@ body.puzzle-mode-active .btn-icon.mini-puzzle-board-btn {
     background: white;
 }
 
+/* El tablero no debe invertirse con idiomas RTL (árabe). */
+html[dir="rtl"] .board-container,
+html[dir="rtl"] .board-wrapper,
+html[dir="rtl"] .chess-board,
+html[dir="rtl"] #chess-board {
+    direction: ltr;
+    unicode-bidi: isolate;
+}
+
 .board-banner {
     display: none;
     position: absolute;

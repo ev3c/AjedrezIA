@@ -492,7 +492,7 @@ try {
                     <h2 class="panel-toggle"><span data-i18n="panel.catLeague">🏁 Partides Lliga CAT</span> <span class="panel-arrow">▲</span></h2>
                     <div class="panel-body">
                         <div class="config-section">
-                            <div id="fce-library-summary" class="fce-library-summary" aria-live="polite" data-i18n="famous.loadingLibrary">Cargando biblioteca…</div>
+                            <div id="fce-library-summary" class="fce-library-summary" aria-live="polite">~x jugadores · ~x partidas</div>
                             <label class="famous-section-label" data-i18n="famous.selectPlayer">Selecciona un jugador:</label>
                             <select id="fce-player-select" class="select select-alphabetic">
                                 <option value="" data-i18n="famous.allPlayers">— Todos los jugadores —</option>
@@ -689,9 +689,19 @@ try {
                     <div class="config-section">
                         <label for="language-select" data-i18n="config.language">Idioma:</label>
                         <select id="language-select" class="select">
-                            <option value="es">Español</option>
-                            <option value="ca">Català</option>
-                            <option value="en">English</option>
+                            <option value="es">ES Español</option>
+                            <option value="ca">CAT Català</option>
+                            <option value="en">EN English</option>
+                            <option value="de">DE Deutsch</option>
+                            <option value="fr">FR Français</option>
+                            <option value="it">IT Italiano</option>
+                            <option value="pt">PT Português</option>
+                            <option value="zh">CN 中文</option>
+                            <option value="ru">RU Русский</option>
+                            <option value="ar">SA العربية</option>
+                            <option value="ja">JP 日本語</option>
+                            <option value="hi">IN हिन्दी</option>
+                            <option value="ko">KR 한국어</option>
                         </select>
                     </div>
 
@@ -1227,6 +1237,7 @@ try {
     <script>
         document.write('<script src="i18n.js?v=' + APP_VERSION + '"><\/script>');
         document.write('<script src="i18n-content.js?v=' + APP_VERSION + '"><\/script>');
+        document.write('<script src="i18n-extra.js?v=' + APP_VERSION + '"><\/script>');
         document.write('<script src="chess-logic.js?v=' + APP_VERSION + '"><\/script>');
         document.write('<script src="app.js?v=' + APP_VERSION + '"><\/script>');
     </script>

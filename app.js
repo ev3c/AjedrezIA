@@ -4057,6 +4057,7 @@ function refreshDynamicI18n() {
         if (oppEl && typeof _onlineGame !== 'undefined' && _onlineGame && _onlineGame.opponent) {
             oppEl.textContent = 'vs ' + opponentName(_onlineGame.opponent);
         }
+        if (typeof refreshLibrarySummaries === 'function') refreshLibrarySummaries();
     } catch (e) {}
 }
 
@@ -7852,6 +7853,11 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '3.6.01': [
+        'Nuevos idiomas en Configuración → Idioma: Deutsch, Français, Italiano, Português, 中文, Русский, العربية, 日本語, हिन्दी y 한국어',
+        'Smartphone Android: Atrás cierra desplegables, paneles y modales en modo responsive antes de preguntar si quieres salir',
+        '... y más mejoras en AjedrezIA ...',
+    ],
     '3.6.00': [
         'Interfaz en Español / English / Català, con selector ES/CAT/EN y detección del idioma del navegador',
         '... y más mejoras en AjedrezIA ...',
@@ -8945,6 +8951,32 @@ function saveUserToDB(user, isFirstLoginLocal) {
     });
 }
 
+function fetchOriginCountry() {
+    const ctrl = typeof AbortController === 'function' ? new AbortController() : null;
+    const timer = setTimeout(function() {
+        if (ctrl) ctrl.abort();
+    }, 2500);
+    const opts = { cache: 'no-store' };
+    if (ctrl) opts.signal = ctrl.signal;
+    return fetch('https://get.geojs.io/v1/ip/geo.json', opts)
+        .then(function(r) { return r.ok ? r.json() : null; })
+        .then(function(data) {
+            clearTimeout(timer);
+            if (!data) return '';
+            const code = String(data.country || '').toUpperCase();
+            if (!code || code === 'XX') return data.country_name || data.name || '';
+            let name = data.country_name || data.name || code;
+            try {
+                name = new Intl.DisplayNames(['es'], { type: 'region' }).of(code) || name;
+            } catch (e) {}
+            return name + ' (' + code + ')';
+        })
+        .catch(function() {
+            clearTimeout(timer);
+            return '';
+        });
+}
+
 function notifyUserConnection(user, type) {
     if (!user) return;
 
@@ -8970,67 +9002,69 @@ function notifyUserConnection(user, type) {
     const ts = new Date().toLocaleString('es-ES', { timeZone: 'Europe/Madrid' });
     const origin = (type === 'open') ? getAppOpenOriginInfo() : null;
 
-    const bodyLines = [
-        message.intro,
-        '────────────────────────────────',
-        'E-mail registrado : ' + (user.email    || '—'),
-        'Nombre completo   : ' + (user.name     || '—'),
-        'Proveedor OAuth   : ' + (user.provider || '—').toUpperCase(),
-        'ID de usuario     : ' + (user.id       || '—'),
-        'Fecha y hora      : ' + ts,
-    ];
-    if (origin) {
-        bodyLines.push('Tipo de enlace    : ' + (origin.type || 'www.ajedrezia.com'));
-        if (origin.detail) bodyLines.push('Detalle enlace    : ' + origin.detail);
-        bodyLines.push('URL de origen     : ' + (origin.url || '—'));
-    }
-    bodyLines.push(
-        '────────────────────────────────',
-        'AjedrezIA — https://www.ajedrezia.com/'
-    );
-    const body = bodyLines.join('\n');
+    const sendNotice = function(country) {
+        const bodyLines = [
+            message.intro,
+            '────────────────────────────────',
+            'E-mail registrado : ' + (user.email    || '—'),
+            'Nombre completo   : ' + (user.name     || '—'),
+            'Proveedor OAuth   : ' + (user.provider || '—').toUpperCase(),
+            'ID de usuario     : ' + (user.id       || '—'),
+            'Fecha y hora      : ' + ts,
+            'País de origen    : ' + (country || 'desconocido'),
+        ];
+        if (origin) {
+            bodyLines.push('Tipo de enlace    : ' + (origin.type || 'www.ajedrezia.com'));
+            if (origin.detail) bodyLines.push('Detalle enlace    : ' + origin.detail);
+            bodyLines.push('URL de origen     : ' + (origin.url || '—'));
+        }
+        bodyLines.push(
+            '────────────────────────────────',
+            'AjedrezIA — https://www.ajedrezia.com/'
+        );
+        const body = bodyLines.join('\n');
 
-    const payload = {
-        type:     type || 'reconnect',
-        email:    user.email    || '',
-        name:     user.name     || '',
-        provider: user.provider || '',
-        id:       user.id       || '',
-        origin_type:   origin ? (origin.type || '') : '',
-        origin_detail: origin ? (origin.detail || '') : '',
-        origin_url:    origin ? (origin.url || '') : '',
-    };
+        const payload = {
+            type:     type || 'reconnect',
+            email:    user.email    || '',
+            name:     user.name     || '',
+            provider: user.provider || '',
+            id:       user.id       || '',
+            origin_type:   origin ? (origin.type || '') : '',
+            origin_detail: origin ? (origin.detail || '') : '',
+            origin_url:    origin ? (origin.url || '') : '',
+        };
 
-    const sendWithServer = function() {
-        if (IS_LOCAL) return Promise.reject(new Error('Servidor no disponible en local'));
-        return fetch(BASE_PATH + 'api/notify-new-user.php', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(payload),
-        }).then(function(response) {
-            if (!response.ok) throw new Error('Error HTTP ' + response.status);
-            return response.json();
-        }).then(function(result) {
-            if (!result || !result.ok) throw new Error('El servidor no pudo enviar el aviso');
-            return result;
+        const sendWithServer = function() {
+            if (IS_LOCAL) return Promise.reject(new Error('Servidor no disponible en local'));
+            return fetch(BASE_PATH + 'api/notify-new-user.php', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload),
+            }).then(function(response) {
+                if (!response.ok) throw new Error('Error HTTP ' + response.status);
+                return response.json();
+            }).then(function(result) {
+                if (!result || !result.ok) throw new Error('El servidor no pudo enviar el aviso');
+                return result;
+            });
+        };
+
+        if (typeof emailjs === 'undefined') {
+            sendWithServer().catch(function() {});
+            return;
+        }
+        emailjs.init({ publicKey: EMAILJS_PUBLIC_KEY });
+        emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, {
+            to_email: EMAILJS_TO_EMAIL,
+            subject:  message.subject,
+            body:     body,
+        }).catch(function() {
+            sendWithServer().catch(function() {});
         });
     };
 
-    // EmailJS funciona tanto en localhost como en producción. El endpoint PHP
-    // queda como respaldo exclusivo de producción si EmailJS no está disponible
-    // o rechaza el envío.
-    if (typeof emailjs === 'undefined') {
-        sendWithServer().catch(function() {});
-        return;
-    }
-    emailjs.init({ publicKey: EMAILJS_PUBLIC_KEY });
-    emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, {
-        to_email: EMAILJS_TO_EMAIL,
-        subject:  message.subject,
-        body:     body,
-    }).catch(function() {
-        sendWithServer().catch(function() {});
-    });
+    fetchOriginCountry().then(sendNotice);
 }
 
 function clearOnlineUser() {
@@ -12000,22 +12034,164 @@ function showContinueAiLevelDialog(onConfirm) {
     levelSelect.focus();
 }
 
+function guardedAppUrl() {
+    return window.location.pathname + window.location.search + (window.location.hash || '');
+}
+
+function isVisibleOverlay(element) {
+    if (!element || !document.contains(element)) return false;
+    const style = window.getComputedStyle(element);
+    return style.display !== 'none' &&
+        style.visibility !== 'hidden' &&
+        style.opacity !== '0' &&
+        element.getClientRects().length > 0;
+}
+
+function closeAndroidCustomSelect() {
+    const list = document.querySelector('.custom-select-list.open');
+    if (!list) {
+        const bd = document.getElementById('mobile-select-backdrop');
+        if (bd && bd.classList.contains('open')) {
+            bd.click();
+            return true;
+        }
+        return false;
+    }
+    const expanded = list.querySelector('.custom-select-optgroup-expandable.expanded');
+    if (expanded) {
+        expanded.click();
+        return true;
+    }
+    const wrap = list.closest('.custom-select-wrap');
+    const trigger = wrap && wrap.querySelector('.custom-select-trigger');
+    list.classList.remove('open');
+    if (trigger) trigger.classList.remove('open');
+    const bd = document.getElementById('mobile-select-backdrop');
+    if (bd) bd.classList.remove('open');
+    return true;
+}
+
+function closeAndroidVariantsPopup() {
+    const popup = document.getElementById('variants-popup');
+    if (!popup) return false;
+    const closeBtn = popup.querySelector('.variants-popup-close');
+    if (closeBtn) closeBtn.click();
+    else if (typeof hideVariantsPopup === 'function') hideVariantsPopup(true);
+    return true;
+}
+
+function closeResponsiveOverlayPanel() {
+    const overlayPanels = [
+        ['learn-panel-open', 'learn-panel'],
+        ['puzzle-panel-open', 'puzzles-panel'],
+        ['openings-panel-open', 'openings-panel'],
+        ['famous-panel-open', 'famous-panel']
+    ];
+    for (const [cls, id] of overlayPanels) {
+        if (!document.body.classList.contains(cls)) continue;
+        const panel = document.getElementById(id);
+        const toggle = panel && panel.querySelector('.panel-toggle');
+        if (toggle) {
+            toggle.click();
+            return true;
+        }
+    }
+
+    const isPhone = window.matchMedia(
+        '(max-width: 1024px) and (orientation: portrait), (max-width: 768px)'
+    ).matches;
+    if (!isPhone) return false;
+    const cat = document.getElementById('cat-league-panel');
+    if (cat && !cat.classList.contains('collapsed')) {
+        const toggle = cat.querySelector('.panel-toggle');
+        if (toggle) {
+            toggle.click();
+            return true;
+        }
+    }
+    return false;
+}
+
 function closeTopModalForAndroidBack() {
+    const helpVideo = document.getElementById('help-modal-overlay');
+    if (helpVideo && helpVideo.classList.contains('is-open')) {
+        hideHelpIntroModal();
+        return true;
+    }
+    const helpMenu = document.getElementById('help-menu-overlay');
+    if (helpMenu && helpMenu.classList.contains('is-open')) {
+        hideHelpMenu();
+        return true;
+    }
+    const users = document.getElementById('users-modal-overlay');
+    if (users && users.classList.contains('is-open')) {
+        hideUsersModal();
+        return true;
+    }
+    const waiting = document.getElementById('invite-waiting-overlay');
+    if (waiting && waiting.classList.contains('is-open')) {
+        cancelOutgoingInvite();
+        return true;
+    }
+    const incoming = document.getElementById('invite-incoming-overlay');
+    if (incoming && incoming.classList.contains('is-open')) {
+        const reject = document.getElementById('invite-reject-btn');
+        if (reject) reject.click();
+        else incoming.classList.remove('is-open');
+        return true;
+    }
+    const send = document.getElementById('invite-send-overlay');
+    if (send && send.classList.contains('is-open')) {
+        if (typeof hideInviteSendModal === 'function') hideInviteSendModal();
+        else send.classList.remove('is-open');
+        return true;
+    }
+    const feedback = document.getElementById('feedback-modal-overlay');
+    if (feedback && feedback.classList.contains('is-open')) {
+        if (typeof hideFeedbackModal === 'function') hideFeedbackModal();
+        else feedback.classList.remove('is-open');
+        return true;
+    }
+    const prompt = document.getElementById('feedback-prompt-overlay');
+    if (prompt && prompt.classList.contains('is-open')) {
+        if (typeof hideFeedbackPrompt === 'function') hideFeedbackPrompt();
+        else prompt.classList.remove('is-open');
+        return true;
+    }
+    const abandon = document.getElementById('abandon-confirm-overlay');
+    if (abandon && isVisibleOverlay(abandon)) {
+        const cancel = document.getElementById('abandon-confirm-cancel');
+        if (cancel) cancel.click();
+        else abandon.style.display = 'none';
+        return true;
+    }
+    const drawOffer = document.getElementById('draw-offer-overlay');
+    if (drawOffer && isVisibleOverlay(drawOffer)) {
+        const reject = document.getElementById('draw-offer-reject');
+        if (reject) reject.click();
+        else drawOffer.style.display = 'none';
+        return true;
+    }
+
+    const login = document.getElementById('login-modal-overlay');
+    if (login && login.classList.contains('is-open') && !isAuthenticatedUser()) {
+        return false;
+    }
+
+    const analysis = document.getElementById('analysis-overlay');
+    if (analysis && isVisibleOverlay(analysis) && typeof dismissPostGameAnalysisUI === 'function') {
+        dismissPostGameAnalysisUI();
+        return true;
+    }
+
     const selectors = [
-        '#mobile-select-backdrop.open',
-        '.login-modal-overlay',
+        '.login-modal-overlay.is-open',
         '.message-overlay',
         '.known-variants-overlay',
         '#analysis-overlay'
     ];
     const overlays = [...document.querySelectorAll(selectors.join(','))]
-        .filter(element => {
-            const style = window.getComputedStyle(element);
-            return style.display !== 'none' &&
-                style.visibility !== 'hidden' &&
-                style.opacity !== '0' &&
-                element.getClientRects().length > 0;
-        })
+        .filter(isVisibleOverlay)
         .sort((a, b) => {
             const zA = parseInt(window.getComputedStyle(a).zIndex, 10) || 0;
             const zB = parseInt(window.getComputedStyle(b).zIndex, 10) || 0;
@@ -12026,25 +12202,13 @@ function closeTopModalForAndroidBack() {
     const overlay = overlays.at(-1);
     if (!overlay) return false;
 
-    if (overlay.id === 'login-modal-overlay' && !isAuthenticatedUser()) {
-        return true;
-    }
-
-    // Simula pulsar fuera del modal para ejecutar su cierre y limpieza habitual.
     overlay.dispatchEvent(new MouseEvent('click', {
         bubbles: true,
         cancelable: true,
         view: window
     }));
 
-    const styleAfterClick = document.contains(overlay) ? window.getComputedStyle(overlay) : null;
-    const remainsVisible = Boolean(
-        styleAfterClick &&
-        styleAfterClick.display !== 'none' &&
-        styleAfterClick.visibility !== 'hidden' &&
-        styleAfterClick.opacity !== '0'
-    );
-    if (remainsVisible) {
+    if (isVisibleOverlay(overlay)) {
         const closeControl = [...overlay.querySelectorAll(
             '.login-modal-close, .message-close-btn, .sheet-close, ' +
             '#analysis-close-x, #analysis-close, [aria-label="Cerrar"], ' +
@@ -12059,6 +12223,18 @@ function closeTopModalForAndroidBack() {
     return true;
 }
 
+function consumeAndroidBackAction() {
+    if (closeAndroidCustomSelect()) return true;
+    if (closeAndroidVariantsPopup()) return true;
+    const login = document.getElementById('login-modal-overlay');
+    if (login && login.classList.contains('is-open') && typeof isAuthenticatedUser === 'function' && !isAuthenticatedUser()) {
+        return false;
+    }
+    if (closeTopModalForAndroidBack()) return true;
+    if (closeResponsiveOverlayPanel()) return true;
+    return false;
+}
+
 function setupAndroidBackExitConfirmation() {
     const isAndroidSmartphone =
         /Android/i.test(navigator.userAgent) &&
@@ -12071,9 +12247,8 @@ function setupAndroidBackExitConfirmation() {
 
     const guardKey = 'ajedreziaExitGuard';
     let exitInProgress = false;
+    let backLock = false;
 
-    // Añade una entrada interna para que el botón «Atrás» de Android dispare
-    // popstate antes de abandonar la web/PWA. No duplica entradas al recargar.
     if (!history.state || typeof history.state !== 'object' || !history.state[guardKey]) {
         const currentState = history.state && typeof history.state === 'object'
             ? history.state
@@ -12083,21 +12258,17 @@ function setupAndroidBackExitConfirmation() {
 
     window.addEventListener('popstate', function handleAndroidBack() {
         if (exitInProgress) {
-            // Primer Atrás consume la entrada protectora; el segundo abandona
-            // realmente la web o cierra la PWA.
             setTimeout(() => history.back(), 0);
             return;
         }
 
-        // Se repone inmediatamente la entrada protectora. Así, incluso si el
-        // usuario vuelve a pulsar Atrás con el diálogo abierto, nunca sale sin
-        // pasar por una confirmación.
-        const cleanGuardedUrl = window.location.pathname + (window.location.hash || '');
-        history.pushState({ [guardKey]: true }, '', cleanGuardedUrl);
+        history.pushState({ [guardKey]: true }, '', guardedAppUrl());
 
-        // Si hay un modal abierto, Atrás actúa como su cruz o como pulsar fuera.
-        // La siguiente pulsación, ya sin modal, mostrará la confirmación de salida.
-        if (closeTopModalForAndroidBack()) return;
+        if (backLock) return;
+        backLock = true;
+        setTimeout(function() { backLock = false; }, 280);
+
+        if (consumeAndroidBackAction()) return;
 
         showConfirmDialog(
             t('exitApp'),
@@ -12149,7 +12320,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Cargar configuraciones guardadas
     loadSavedSettings();
-    persistAppLanguage(currentLang);
     applyI18n();
     syncPlayerColorUI();
     updatePlayerColorPawnImages();
@@ -13751,17 +13921,12 @@ function populateFamousPlayerSelect() {
             const players = data.filter(
                 player => player.id !== 'carlsen-chess24-attacking-without-s'
             );
-            const summary = document.getElementById('famous-library-summary');
-            if (summary) {
-                const formatCount = value => String(Math.trunc(value))
-                    .replace(/\B(?=(\d{3})+(?!\d))/g, '.');
-                const totalGames = players.reduce(
-                    (sum, player) => sum + (Number(player.gameCount) || 0),
-                    0
-                );
-                summary.textContent =
-                    `~${formatCount(players.length)} jugadores · ~${formatCount(totalGames)} partidas`;
-            }
+            const totalGames = players.reduce(
+                (sum, player) => sum + (Number(player.gameCount) || 0),
+                0
+            );
+            famousLibraryCounts = { players: players.length, games: totalGames };
+            setLibrarySummary('famous-library-summary', famousLibraryCounts);
             const sorted = [...players].sort((a, b) => a.name.localeCompare(b.name, 'es'));
             const groups = new Map();
             for (const player of sorted) {
@@ -13996,6 +14161,27 @@ function formatFcePlayerDisplayName(name) {
     return `${surname}, ${initials}${detail ? ' — ' + detail : ''}`;
 }
 
+let famousLibraryCounts = { players: 253, games: 264236 };
+let fceLibraryCounts = null;
+
+function formatLibraryCount(value) {
+    return String(Math.trunc(value)).replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+}
+
+function setLibrarySummary(elId, counts) {
+    const el = document.getElementById(elId);
+    if (!el || !counts) return;
+    el.textContent = t('lib.summary', {
+        players: formatLibraryCount(counts.players),
+        games: formatLibraryCount(counts.games)
+    });
+}
+
+function refreshLibrarySummaries() {
+    setLibrarySummary('famous-library-summary', famousLibraryCounts);
+    setLibrarySummary('fce-library-summary', fceLibraryCounts);
+}
+
 function populateFcePlayerSelect() {
     const select = document.getElementById('fce-player-select');
     if (!select) return;
@@ -14004,16 +14190,12 @@ function populateFcePlayerSelect() {
         .then(r => r.ok ? r.json() : null)
         .then(data => {
             if (!Array.isArray(data) || data.length === 0) return;
-            const summary = document.getElementById('fce-library-summary');
-            if (summary) {
-                const formatCount = value => String(Math.trunc(value))
-                    .replace(/\B(?=(\d{3})+(?!\d))/g, '.');
-                const totalGames = data.reduce(
-                    (total, player) => total + (Number(player.gameCount) || 0),
-                    0
-                );
-                summary.textContent = `~${formatCount(data.length)} jugadores · ~${formatCount(totalGames)} partidas`;
-            }
+            const totalGames = data.reduce(
+                (total, player) => total + (Number(player.gameCount) || 0),
+                0
+            );
+            fceLibraryCounts = { players: data.length, games: totalGames };
+            setLibrarySummary('fce-library-summary', fceLibraryCounts);
             const sorted = data.map(player => ({
                 ...player,
                 displayName: formatFcePlayerDisplayName(player.name)

@@ -4,11 +4,15 @@
 // Para añadir un idioma nuevo:
 //  1. Añade el código a I18N_LANGS (ej. 'fr').
 //  2. Añade la traducción como siguiente columna en cada fila de I18N_PAIRS
-//     y en i18n-content.js (mismo orden que I18N_LANGS).
-//  3. Añade el botón/opción en index.html (data-lang="fr").
+//     y en i18n-content.js (mismo orden que I18N_LANGS),
+//     O registra un diccionario con registerI18nLang('fr', { clave: 'texto' })
+//     en i18n-extra.js (generado por tools/build-i18n-extra.mjs).
+//  3. Añade la opción en el menú Idioma de index.html.
+//     Los botones de cabecera (ES/CAT/EN) son independientes.
 //  4. Las claves nuevas se registran con registerI18n([['clave', 'es', 'en', ...]]).
 
-const I18N_LANGS = ['es', 'en', 'ca'];
+const I18N_LANGS = ['es', 'en', 'ca', 'de', 'fr', 'it', 'pt', 'zh', 'ru', 'ar', 'ja', 'hi', 'ko'];
+const I18N_RTL = { ar: true };
 const I18N = {};
 I18N_LANGS.forEach(function(lang) { I18N[lang] = {}; });
 
@@ -24,6 +28,14 @@ function registerI18n(pairs) {
             const val = row[i + 1];
             if (val != null) I18N[lang][key] = val;
         });
+    });
+}
+
+function registerI18nLang(lang, dict) {
+    if (!isSupportedLang(lang) || !dict) return;
+    if (!I18N[lang]) I18N[lang] = {};
+    Object.keys(dict).forEach(function(key) {
+        I18N[lang][key] = dict[key];
     });
 }
 
@@ -450,6 +462,7 @@ const I18N_PAIRS = [
     ['learn.wrongMove', 'Movimiento incorrecto. ¡Inténtalo de nuevo!', 'Wrong move. Try again!', 'Moviment incorrecte. Torna-ho a provar!'],
     ['learn.completedBanner', '¡Lección Completada! 🎉', 'Lesson complete! 🎉', 'Lliçó completada! 🎉'],
     ['opening.view', '👁 Ver Apertura', '👁 View opening', '👁 Veure l\'obertura'],
+    ['lib.summary', '~{players} jugadores · ~{games} partidas', '~{players} players · ~{games} games', '~{players} jugadors · ~{games} partides'],
     ['lib.unavailable', 'Biblioteca no disponible', 'Library unavailable', 'Biblioteca no disponible'],
     ['lib.loadingGames', '⏳ Cargando partidas de {name}…', '⏳ Loading games by {name}…', '⏳ Carregant partides de {name}…'],
     ['quiz.intro', '<strong>Quiz: {name}</strong><br>Juega todos los movimientos correctos (blancas y negras)<br><br><strong>Movimientos:</strong> {san}', '<strong>Quiz: {name}</strong><br>Play every correct move (White and Black)<br><br><strong>Moves:</strong> {san}', '<strong>Quiz: {name}</strong><br>Juga tots els moviments correctes (blanques i negres)<br><br><strong>Moviments:</strong> {san}'],
@@ -719,6 +732,7 @@ const I18N_PAIRS = [
     ['invite.sentTo', 'Invitación enviada a {nick} ({time})', 'Invitation sent to {nick} ({time})', 'Invitació enviada a {nick} ({time})'],
     ['invite.willInvite', 'Vas a invitar a {nick} (ELO {elo})', 'You are inviting {nick} (ELO {elo})', 'Convidaràs {nick} (ELO {elo})'],
     ['changelog.more', '... y más mejoras en AjedrezIA ...', '... and more improvements in AjedrezIA ...', '... i més millores a AjedrezIA ...'],
+    ['changelog.3.6.01', 'Nuevos idiomas en Configuración: Deutsch, Français, Italiano, Português, 中文, Русский, العربية, 日本語, हिन्दी y 한국어', 'New languages in Settings: Deutsch, Français, Italiano, Português, 中文, Русский, العربية, 日本語, हिन्दी and 한국어', 'Idiomes nous a Configuració: Deutsch, Français, Italiano, Português, 中文, Русский, العربية, 日本語, हिन्दी i 한국어'],
     ['changelog.3.6.00', 'El botón Acceder como Invitado se muestra en el idioma seleccionado (español, inglés o catalán)', 'The Continue as Guest button is shown in the selected language (Spanish, English or Catalan)', 'El botó Accedir com a convidat es mostra en l\'idioma seleccionat (espanyol, anglès o català)'],
     ['changelog.3.5.74', 'Nuevo idioma: Català (CAT), con toda la interfaz, lecciones, aperturas, banners y tarjetas de compartir', 'New language: Catalan (CAT), covering the whole UI, lessons, openings, banners and share cards', 'Idioma nou: Català (CAT), amb tota la interfície, lliçons, obertures, bàners i targetes de compartir'],
     ['changelog.3.5.73', 'La imagen y el vídeo de compartir usan el idioma de la interfaz (español o inglés)', 'Share image and video use the interface language (Spanish or English)', 'La imatge i el vídeo de compartir fan servir l\'idioma de la interfície (espanyol o anglès)'],
@@ -727,7 +741,7 @@ const I18N_PAIRS = [
 
 registerI18n(I18N_PAIRS);
 
-let currentLang = 'es';
+let currentLang = 'en';
 
 function detectBrowserLanguage() {
     const navs = ((navigator.languages && navigator.languages.length)
@@ -737,31 +751,28 @@ function detectBrowserLanguage() {
     for (let i = 0; i < navs.length; i++) {
         const nav = navs[i];
         if (nav === 'cat' || nav.indexOf('cat-') === 0) return 'ca';
+        if (nav === 'jp' || nav.indexOf('jp-') === 0) return 'ja';
+        if (nav === 'kr' || nav.indexOf('kr-') === 0) return 'ko';
+        if (nav === 'cn' || nav.indexOf('cn-') === 0) return 'zh';
         for (let j = 0; j < I18N_LANGS.length; j++) {
             const lang = I18N_LANGS[j];
             if (nav === lang || nav.indexOf(lang + '-') === 0) return lang;
         }
     }
-    return isSupportedLang('en') ? 'en' : I18N_LANGS[0];
+    return 'en';
 }
 
 function detectAppLanguage() {
     try {
-        const dedicated = localStorage.getItem('ajedrezia_lang');
-        if (isSupportedLang(dedicated)) return dedicated;
-    } catch (e) {}
-    try {
-        const saved = JSON.parse(localStorage.getItem('chess_settings') || '{}').language;
-        // 'en' guardado es una elección real. 'es' puede ser el valor por defecto
-        // del detector antiguo (cualquier idioma ≠ inglés → español).
-        if (saved === 'en' && isSupportedLang('en')) return 'en';
-        if (isSupportedLang(saved) && saved !== 'es') return saved;
+        const saved = localStorage.getItem('ajedrezia_lang_pref');
+        if (isSupportedLang(saved)) return saved;
     } catch (e) {}
     return detectBrowserLanguage();
 }
 
 function persistAppLanguage(lang) {
-    currentLang = isSupportedLang(lang) ? lang : I18N_LANGS[0];
+    currentLang = isSupportedLang(lang) ? lang : 'en';
+    try { localStorage.setItem('ajedrezia_lang_pref', currentLang); } catch (e) {}
     try { localStorage.setItem('ajedrezia_lang', currentLang); } catch (e) {}
     try {
         const settings = JSON.parse(localStorage.getItem('chess_settings') || '{}');
@@ -834,7 +845,9 @@ function learnStepField(lesson, stepIndex, field) {
 }
 
 function applyI18n() {
-    document.documentElement.lang = currentLang || I18N_LANGS[0];
+    const lang = currentLang || I18N_LANGS[0];
+    document.documentElement.lang = lang;
+    document.documentElement.dir = I18N_RTL[lang] ? 'rtl' : 'ltr';
     document.title = t('meta.title');
     const desc = document.querySelector('meta[name="description"]');
     if (desc) desc.setAttribute('content', t('meta.description'));
@@ -852,6 +865,12 @@ function applyI18n() {
         if (!key) return;
         if (el.tagName === 'OPTGROUP') {
             el.label = t(key);
+            return;
+        }
+        if (el.tagName === 'OPTION') {
+            const text = t(key);
+            el.text = text;
+            el.label = text;
             return;
         }
         el.textContent = t(key);
@@ -883,6 +902,26 @@ function applyI18n() {
     if (typeof updateLearnI18n === 'function') updateLearnI18n();
     if (typeof updateOnlineBanner === 'function') updateOnlineBanner();
     if (typeof refreshDynamicI18n === 'function') refreshDynamicI18n();
+    refreshI18nSelectDisplays();
+}
+
+function refreshI18nSelectDisplays() {
+    const redrawn = new Set();
+    document.querySelectorAll('select').forEach(function(select) {
+        const selected = select.options[select.selectedIndex];
+        const wrap = select.closest('.custom-select-wrap');
+        const trigger = wrap && wrap.querySelector('.custom-select-trigger');
+        if (trigger && selected) trigger.textContent = selected.text;
+
+        // Chrome/Edge no repintan el <select> cerrado al cambiar option.text.
+        if (!selected || !selected.hasAttribute('data-i18n')) return;
+        if (redrawn.has(select) || !select.parentNode) return;
+        redrawn.add(select);
+        const parent = select.parentNode;
+        const next = select.nextSibling;
+        parent.removeChild(select);
+        parent.insertBefore(select, next);
+    });
 }
 
 function opponentName(obj) {
@@ -890,7 +929,7 @@ function opponentName(obj) {
 }
 
 function setAppLanguage(lang, persist) {
-    currentLang = isSupportedLang(lang) ? lang : I18N_LANGS[0];
+    currentLang = isSupportedLang(lang) ? lang : 'en';
     applyI18n();
     if (persist !== false) {
         persistAppLanguage(currentLang);
@@ -899,5 +938,4 @@ function setAppLanguage(lang, persist) {
 }
 
 currentLang = detectAppLanguage();
-persistAppLanguage(currentLang);
 if (document.body) applyI18n();

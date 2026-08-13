@@ -2,6 +2,30 @@
 
 ---
 
+## v3.6.01 — 2026-08-13
+
+### Idiomas
+- El menú Idioma de Configuración incluye Deutsch, Français, Italiano,
+  Português, 中文, Русский, العربية, 日本語, हिन्दी y 한국어.
+- La interfaz, lecciones, aperturas y tarjetas de compartir se traducen
+  a esos idiomas. En la cabecera se mantienen solo ES, CAT y EN.
+- Si hay un idioma guardado se usa ese; si no, el del navegador cuando
+  está en la lista; si no, inglés.
+- Partidas Maestras y Partides Lliga CAT muestran el recuento
+  (~x jugadores · ~x partidas) en el idioma activo.
+- El menú Partidas Seleccionadas traduce «Elegir partida» al cambiar
+  de idioma.
+
+### Avisos
+- Los mensajes de nueva conexión, abrir AjedrezIA, reconexión y sesión
+  cerrada incluyen el país de origen.
+
+### Móvil
+- En Android, el botón Atrás cierra desplegables, paneles y modales en
+  modo responsive antes de preguntar si quieres salir.
+
+---
+
 ## v3.5.71 — 2026-08-12
 
 ### Idiomas

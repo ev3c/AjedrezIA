@@ -43,14 +43,20 @@ $master  = preg_replace('/[^a-z0-9\-]/', '', gp('master'));
 
 $langParam = strtolower(gp('lang'));
 $acceptLang = isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) ? strtolower($_SERVER['HTTP_ACCEPT_LANGUAGE']) : 'es';
-if (in_array($langParam, ['en', 'es', 'ca'], true)) {
+$shareLangs = ['es', 'en', 'ca', 'de', 'fr', 'it', 'pt', 'zh', 'ru', 'ar', 'ja', 'hi', 'ko'];
+if (in_array($langParam, $shareLangs, true)) {
     $shareLang = $langParam;
-} elseif (strpos($acceptLang, 'ca') === 0 || strpos($acceptLang, 'cat') === 0) {
-    $shareLang = 'ca';
-} elseif (strpos($acceptLang, 'en') === 0) {
-    $shareLang = 'en';
 } else {
-    $shareLang = 'es';
+    $shareLang = 'en';
+    $aliases = ['cat' => 'ca', 'jp' => 'ja', 'kr' => 'ko', 'cn' => 'zh'];
+    foreach ($aliases as $alias => $code) {
+        if (strpos($acceptLang, $alias) === 0) { $shareLang = $code; break; }
+    }
+    if ($shareLang === 'en') {
+        foreach ($shareLangs as $code) {
+            if (strpos($acceptLang, $code) === 0) { $shareLang = $code; break; }
+        }
+    }
 }
 
 $KIND_LABELS = [
@@ -84,8 +90,108 @@ $KIND_LABELS = [
         'desc'     => 'Juega contra la IA, resuelve problemas y estudia aperturas y partidas maestras.',
         'suffix'   => ' en AjedrezIA. Juega y aprende ajedrez.',
     ],
+    'de' => [
+        'partida'  => 'Partie',
+        'apertura' => 'Eröffnung',
+        'problema' => 'Schachaufgabe und 30 weitere',
+        'maestra'  => 'Meisterpartie',
+        'chess'    => 'Schach',
+        'title'    => 'AjedrezIA — Spiele und lerne Schach',
+        'desc'     => 'Spiele gegen die KI, löse Aufgaben und studiere Eröffnungen und Meisterpartien.',
+        'suffix'   => ' auf AjedrezIA. Spiele und lerne Schach.',
+    ],
+    'fr' => [
+        'partida'  => 'Partie',
+        'apertura' => 'Ouverture',
+        'problema' => 'Problème d\'échecs et 30 de plus',
+        'maestra'  => 'Partie de maître',
+        'chess'    => 'Échecs',
+        'title'    => 'AjedrezIA — Joue et apprends les échecs',
+        'desc'     => 'Joue contre l\'IA, résous des problèmes et étudie les ouvertures et les parties de maîtres.',
+        'suffix'   => ' sur AjedrezIA. Joue et apprends les échecs.',
+    ],
+    'it' => [
+        'partida'  => 'Partita',
+        'apertura' => 'Apertura',
+        'problema' => 'Problema di scacchi e altri 30',
+        'maestra'  => 'Partita magistrale',
+        'chess'    => 'Scacchi',
+        'title'    => 'AjedrezIA — Gioca e impara gli scacchi',
+        'desc'     => 'Gioca contro l\'IA, risolvi problemi e studia aperture e partite magistrali.',
+        'suffix'   => ' su AjedrezIA. Gioca e impara gli scacchi.',
+    ],
+    'pt' => [
+        'partida'  => 'Partida',
+        'apertura' => 'Abertura',
+        'problema' => 'Problema de xadrez e mais 30',
+        'maestra'  => 'Partida de mestre',
+        'chess'    => 'Xadrez',
+        'title'    => 'AjedrezIA — Joga e aprende xadrez',
+        'desc'     => 'Joga contra a IA, resolve problemas e estuda aberturas e partidas de mestres.',
+        'suffix'   => ' no AjedrezIA. Joga e aprende xadrez.',
+    ],
+    'zh' => [
+        'partida'  => '对局',
+        'apertura' => '开局',
+        'problema' => '象棋谜题及另外30题',
+        'maestra'  => '名局',
+        'chess'    => '国际象棋',
+        'title'    => 'AjedrezIA — 下棋并学习国际象棋',
+        'desc'     => '与人工智能对弈、解题，并学习开局与名局。',
+        'suffix'   => '，尽在 AjedrezIA。下棋并学习国际象棋。',
+    ],
+    'ru' => [
+        'partida'  => 'Партия',
+        'apertura' => 'Дебют',
+        'problema' => 'Шахматная задача и ещё 30',
+        'maestra'  => 'Партия мастера',
+        'chess'    => 'Шахматы',
+        'title'    => 'AjedrezIA — Играй и учись шахматам',
+        'desc'     => 'Играй против ИИ, решай задачи и изучай дебюты и партии мастеров.',
+        'suffix'   => ' на AjedrezIA. Играй и учись шахматам.',
+    ],
+    'ar' => [
+        'partida'  => 'مباراة',
+        'apertura' => 'افتتاح',
+        'problema' => 'لغز شطرنج و30 أخرى',
+        'maestra'  => 'مباراة أستاذ',
+        'chess'    => 'شطرنج',
+        'title'    => 'AjedrezIA — العب وتعلّم الشطرنج',
+        'desc'     => 'العب ضد الذكاء الاصطناعي، حل الألغاز وادرس الافتتاحات ومباريات الأساتذة.',
+        'suffix'   => ' على AjedrezIA. العب وتعلّم الشطرنج.',
+    ],
+    'ja' => [
+        'partida'  => '対局',
+        'apertura' => 'オープニング',
+        'problema' => 'チェスの問題とさらに30問',
+        'maestra'  => '名局',
+        'chess'    => 'チェス',
+        'title'    => 'AjedrezIA — チェスを指して学ぶ',
+        'desc'     => 'AIと対局し、問題を解き、オープニングと名局を学びましょう。',
+        'suffix'   => ' — AjedrezIA。チェスを指して学ぶ。',
+    ],
+    'hi' => [
+        'partida'  => 'खेल',
+        'apertura' => 'ओपनिंग',
+        'problema' => 'शतरंज पहेली और 30 और',
+        'maestra'  => 'मास्टर गेम',
+        'chess'    => 'शतरंज',
+        'title'    => 'AjedrezIA — शतरंज खेलें और सीखें',
+        'desc'     => 'AI से खेलें, पहेलियाँ हल करें और ओपनिंग व मास्टर खेलों का अध्ययन करें।',
+        'suffix'   => ' AjedrezIA पर। शतरंज खेलें और सीखें।',
+    ],
+    'ko' => [
+        'partida'  => '대국',
+        'apertura' => '오프닝',
+        'problema' => '체스 퍼즐과 30개 더',
+        'maestra'  => '명국',
+        'chess'    => '체스',
+        'title'    => 'AjedrezIA — 체스를 두고 배우기',
+        'desc'     => 'AI와 대국하고, 퍼즐을 풀며, 오프닝과 명국을 공부하세요.',
+        'suffix'   => ' — AjedrezIA. 체스를 두고 배우기.',
+    ],
 ];
-$KIND_LABEL = $KIND_LABELS[$shareLang];
+$KIND_LABEL = isset($KIND_LABELS[$shareLang]) ? $KIND_LABELS[$shareLang] : $KIND_LABELS['en'];
 
 // ---- ¿Robot de redes sociales? (no se le redirige) -----------------------
 $ua = isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : '';

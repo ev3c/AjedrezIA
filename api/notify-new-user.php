@@ -57,7 +57,8 @@ $originType   = htmlspecialchars(trim($data['origin_type']   ?? ''), ENT_QUOTES,
 $originDetail = htmlspecialchars(trim($data['origin_detail'] ?? ''), ENT_QUOTES, 'UTF-8');
 $originUrl    = htmlspecialchars(trim($data['origin_url']    ?? ''), ENT_QUOTES, 'UTF-8');
 $ts       = date('d/m/Y H:i:s');
-$ip       = $_SERVER['HTTP_X_FORWARDED_FOR'] ?? $_SERVER['REMOTE_ADDR'] ?? 'desconocida';
+$ip       = notify_client_ip();
+$country  = notify_country_from_ip($ip);
 
 $messages = [
     'new' => [
@@ -88,6 +89,7 @@ $body .= "Proveedor OAuth   : " . strtoupper($provider) . "\n";
 $body .= "ID de usuario     : {$uid}\n";
 $body .= "Fecha y hora      : {$ts}\n";
 $body .= "IP de origen      : {$ip}\n";
+$body .= "País de origen    : {$country}\n";
 if ($type === 'open') {
     $body .= "Tipo de enlace    : " . ($originType !== '' ? $originType : 'www.ajedrezia.com') . "\n";
     if ($originDetail !== '') {
@@ -99,6 +101,57 @@ if ($type === 'open') {
 }
 $body .= "────────────────────────────────\n\n";
 $body .= "AjedrezIA — https://www.ajedrezia.com/\n";
+
+function notify_client_ip(): string {
+    $xff = $_SERVER['HTTP_X_FORWARDED_FOR'] ?? '';
+    if ($xff !== '') {
+        foreach (array_map('trim', explode(',', $xff)) as $candidate) {
+            if (filter_var($candidate, FILTER_VALIDATE_IP)) return $candidate;
+        }
+    }
+    $remote = $_SERVER['REMOTE_ADDR'] ?? '';
+    return filter_var($remote, FILTER_VALIDATE_IP) ? $remote : 'desconocida';
+}
+
+function notify_country_label(string $code, string $fallback = ''): string {
+    $code = strtoupper(trim($code));
+    if ($code === '' || $code === 'XX' || $code === 'T1') {
+        return $fallback !== '' ? $fallback : '';
+    }
+    $name = $fallback;
+    if (class_exists('Locale')) {
+        $disp = Locale::getDisplayRegion('und_' . $code, 'es');
+        if (is_string($disp) && $disp !== '' && strtoupper($disp) !== $code) {
+            $name = $disp;
+        }
+    }
+    if ($name === '') $name = $code;
+    return $name . ' (' . $code . ')';
+}
+
+function notify_country_from_ip(string $ip): string {
+    $cf = strtoupper(trim($_SERVER['HTTP_CF_IPCOUNTRY'] ?? ''));
+    $fromCf = notify_country_label($cf);
+    if ($fromCf !== '') return $fromCf;
+
+    if (!filter_var($ip, FILTER_VALIDATE_IP, FILTER_FLAG_NO_PRIV_RANGE | FILTER_FLAG_NO_RES_RANGE)) {
+        return 'local / desconocido';
+    }
+
+    $ctx = stream_context_create([
+        'http' => ['timeout' => 2, 'ignore_errors' => true],
+        'ssl'  => ['verify_peer' => true],
+    ]);
+    $json = @file_get_contents('https://get.geojs.io/v1/ip/geo/' . rawurlencode($ip) . '.json', false, $ctx);
+    if (!is_string($json) || $json === '') return 'desconocido';
+    $data = json_decode($json, true);
+    if (!is_array($data)) return 'desconocido';
+    $label = notify_country_label(
+        (string) ($data['country'] ?? ''),
+        (string) ($data['country_name'] ?? $data['name'] ?? '')
+    );
+    return $label !== '' ? $label : 'desconocido';
+}
 
 // ── Envío SMTP ────────────────────────────────────────────────────────
 function smtp_send(string $subject, string $body): bool {
