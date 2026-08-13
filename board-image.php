@@ -34,13 +34,43 @@ $mv   = isset($_GET['mv']) ? substr(preg_replace('/[^a-h1-8]/', '', strtolower($
 
 $placement = explode(' ', trim($fen))[0];
 
-$KIND_LABEL = [
-    'partida'  => 'Partida',
-    'apertura' => 'Apertura',
-    'problema' => 'Problema de ajedrez y 30 más',
-    'maestra'  => 'Partida maestra',
+$langParam = isset($_GET['lang']) ? strtolower((string)$_GET['lang']) : '';
+$acceptLang = isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) ? strtolower($_SERVER['HTTP_ACCEPT_LANGUAGE']) : 'es';
+if (in_array($langParam, ['en', 'es', 'ca'], true)) {
+    $shareLang = $langParam;
+} elseif (strpos($acceptLang, 'ca') === 0 || strpos($acceptLang, 'cat') === 0) {
+    $shareLang = 'ca';
+} elseif (strpos($acceptLang, 'en') === 0) {
+    $shareLang = 'en';
+} else {
+    $shareLang = 'es';
+}
+
+$KIND_LABELS = [
+    'en' => [
+        'partida'  => 'Game',
+        'apertura' => 'Opening',
+        'problema' => 'Chess puzzle and 30 more',
+        'maestra'  => 'Master game',
+        'chess'    => 'Chess',
+    ],
+    'ca' => [
+        'partida'  => 'Partida',
+        'apertura' => 'Obertura',
+        'problema' => 'Problema d\'escacs i 30 més',
+        'maestra'  => 'Partida mestra',
+        'chess'    => 'Escacs',
+    ],
+    'es' => [
+        'partida'  => 'Partida',
+        'apertura' => 'Apertura',
+        'problema' => 'Problema de ajedrez y 30 más',
+        'maestra'  => 'Partida maestra',
+        'chess'    => 'Ajedrez',
+    ],
 ];
-$kindLabel = isset($KIND_LABEL[$kind]) ? $KIND_LABEL[$kind] : 'Ajedrez';
+$KIND_LABEL = $KIND_LABELS[$shareLang];
+$kindLabel = isset($KIND_LABEL[$kind]) ? $KIND_LABEL[$kind] : $KIND_LABEL['chess'];
 
 // ---- Utilidades -----------------------------------------------------------
 function fontFile($bold) {
@@ -251,7 +281,7 @@ if ($t !== '') {
 if ($meta !== '') {
     $ty += 10;
     foreach (array_slice(wrapText($meta, 38), 0, 7) as $ln) {
-        $isResult = stripos($ln, 'Resultado:') === 0;
+        $isResult = stripos($ln, 'Resultado:') === 0 || stripos($ln, 'Result:') === 0 || stripos($ln, 'Resultat:') === 0;
         $isElo = stripos($ln, 'ELO:') === 0;
         $lineColor = $isResult ? $green : ($isElo ? $cream : $grey2);
         drawText($im, 17, $tx, $ty, $lineColor, $isResult || $isElo, $ln);

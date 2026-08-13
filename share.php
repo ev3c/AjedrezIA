@@ -43,19 +43,49 @@ $master  = preg_replace('/[^a-z0-9\-]/', '', gp('master'));
 
 $langParam = strtolower(gp('lang'));
 $acceptLang = isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) ? strtolower($_SERVER['HTTP_ACCEPT_LANGUAGE']) : 'es';
-$shareLang = ($langParam === 'en' || ($langParam === '' && strpos($acceptLang, 'en') === 0)) ? 'en' : 'es';
+if (in_array($langParam, ['en', 'es', 'ca'], true)) {
+    $shareLang = $langParam;
+} elseif (strpos($acceptLang, 'ca') === 0 || strpos($acceptLang, 'cat') === 0) {
+    $shareLang = 'ca';
+} elseif (strpos($acceptLang, 'en') === 0) {
+    $shareLang = 'en';
+} else {
+    $shareLang = 'es';
+}
 
-$KIND_LABEL = $shareLang === 'en' ? [
-    'partida'  => 'Game',
-    'apertura' => 'Opening',
-    'problema' => 'Chess puzzle and 30 more',
-    'maestra'  => 'Master game',
-] : [
-    'partida'  => 'Partida',
-    'apertura' => 'Apertura',
-    'problema' => 'Problema de ajedrez y 30 más',
-    'maestra'  => 'Partida maestra',
+$KIND_LABELS = [
+    'en' => [
+        'partida'  => 'Game',
+        'apertura' => 'Opening',
+        'problema' => 'Chess puzzle and 30 more',
+        'maestra'  => 'Master game',
+        'chess'    => 'Chess',
+        'title'    => 'AjedrezIA — Play and learn chess',
+        'desc'     => 'Play against the AI, solve puzzles and study openings and master games.',
+        'suffix'   => ' on AjedrezIA. Play and learn chess.',
+    ],
+    'ca' => [
+        'partida'  => 'Partida',
+        'apertura' => 'Obertura',
+        'problema' => 'Problema d\'escacs i 30 més',
+        'maestra'  => 'Partida mestra',
+        'chess'    => 'Escacs',
+        'title'    => 'AjedrezIA — Juga i aprèn escacs',
+        'desc'     => 'Juga contra la IA, resol problemes i estudia obertures i partides mestres.',
+        'suffix'   => ' a AjedrezIA. Juga i aprèn escacs.',
+    ],
+    'es' => [
+        'partida'  => 'Partida',
+        'apertura' => 'Apertura',
+        'problema' => 'Problema de ajedrez y 30 más',
+        'maestra'  => 'Partida maestra',
+        'chess'    => 'Ajedrez',
+        'title'    => 'AjedrezIA — Juega y aprende ajedrez',
+        'desc'     => 'Juega contra la IA, resuelve problemas y estudia aperturas y partidas maestras.',
+        'suffix'   => ' en AjedrezIA. Juega y aprende ajedrez.',
+    ],
 ];
+$KIND_LABEL = $KIND_LABELS[$shareLang];
 
 // ---- ¿Robot de redes sociales? (no se le redirige) -----------------------
 $ua = isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : '';
@@ -65,12 +95,8 @@ $isBot = (bool) preg_match(
 );
 
 // ---- Valores por defecto --------------------------------------------------
-$title    = $shareLang === 'en'
-    ? 'AjedrezIA — Play and learn chess'
-    : 'AjedrezIA — Juega y aprende ajedrez';
-$desc     = $shareLang === 'en'
-    ? 'Play against the AI, solve puzzles and study openings and master games.'
-    : 'Juega contra la IA, resuelve problemas y estudia aperturas y partidas maestras.';
+$title    = $KIND_LABEL['title'];
+$desc     = $KIND_LABEL['desc'];
 $image    = $base . 'share-img/default.png';
 $appUrl   = $base;
 $shareUrl = $base . 'share.php';
@@ -97,17 +123,19 @@ function buildShareQuery($params) {
 
 $genericParams = [
     'fen' => $fen, 'flip' => $flip, 'kind' => $kind, 't' => $t, 's' => $s, 'meta' => $meta, 'mv' => $mv, 'cb' => $cb,
+    'lang' => $shareLang,
     'm' => $packedMoves, 'moves' => $moves, 'opening' => $opening, 'puzzle' => $puzzle, 'p' => $ppay, 'master' => $master,
 ];
 
 if ($fen !== '' || $t !== '' || $packedMoves !== '' || $moves !== '') {
     // -- Modo genérico (partida / apertura / problema / maestra en tiempo real) --
-    $kindLabel = isset($KIND_LABEL[$kind]) ? $KIND_LABEL[$kind] : ($shareLang === 'en' ? 'Chess' : 'Ajedrez');
+    $kindLabel = isset($KIND_LABEL[$kind]) ? $KIND_LABEL[$kind] : $KIND_LABEL['chess'];
     $title = ($t !== '' ? $t : $kindLabel) . ' — AjedrezIA';
-    $desc  = $s !== '' ? $s : ($kindLabel . ($shareLang === 'en' ? ' on AjedrezIA. Play and learn chess.' : ' en AjedrezIA. Juega y aprende ajedrez.'));
+    $desc  = $s !== '' ? $s : ($kindLabel . $KIND_LABEL['suffix']);
 
     $imgParams = [
         'fen' => $fen, 'flip' => $flip, 'kind' => $kind, 't' => $t, 's' => $s, 'meta' => $meta, 'mv' => $mv, 'cb' => $cb,
+        'lang' => $shareLang,
     ];
     $image    = $base . 'board-image.php' . buildShareQuery($imgParams);
     $appUrl   = buildAppUrl($base, $packedMoves, $moves, $opening, $puzzle, $ppay, $master);
@@ -131,7 +159,7 @@ header('Content-Type: text/html; charset=UTF-8');
 header('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
 ?>
 <!DOCTYPE html>
-<html lang="<?= $shareLang === 'en' ? 'en' : 'es' ?>">
+<html lang="<?= htmlspecialchars($shareLang, ENT_QUOTES, 'UTF-8') ?>">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">

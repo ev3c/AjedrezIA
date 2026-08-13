@@ -1,0 +1,38 @@
+---
+description: Textos nuevos siempre en todos los idiomas soportados (ES, EN, CA)
+alwaysApply: true
+---
+
+# i18n obligatorio en código nuevo
+
+Idiomas actuales: `I18N_LANGS = ['es', 'en', 'ca']`.
+
+Cualquier texto visible al usuario en código **nuevo o modificado** debe existir en **los tres idiomas**. No hardcodear strings de UI en JS, HTML ni PHP.
+
+## Dónde registrar
+
+- UI, botones, mensajes, banners, changelog: `i18n.js` (`I18N_PAIRS`)
+- Lecciones y aperturas: `i18n-content.js`
+- Formato de cada fila: `['clave', 'español', 'english', 'català']` (mismo orden que `I18N_LANGS`)
+
+## Cómo usarlo
+
+- HTML: `data-i18n="clave"` (también `data-i18n-html`, `data-i18n-title`, `data-i18n-placeholder`, `data-i18n-aria`)
+- JS: `t('clave')` o `t('clave', {n: 3})` con `{n}` en las traducciones
+- PHP de compartir (`share.php`, `board-image.php`): mismas claves / mismo idioma de interfaz
+
+## Prohibido
+
+```js
+el.textContent = 'Nueva partida';
+alert('Jugada ilegal');
+```
+
+```js
+el.textContent = t('newGame');
+alert(t('illegalMove'));
+```
+
+No traducir: FEN, UCI, códigos de pieza, IDs internos, CSS, nombres de archivo.
+
+Si se añade un idioma a `I18N_LANGS`, hay que añadir la columna en **todas** las filas y el botón/opción en `index.html`.

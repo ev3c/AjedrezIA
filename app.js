@@ -196,7 +196,7 @@ let pieceStyle = 'staunty';
 let boardZoom = 100; // zoom del tablero en %: 70..120
 let showCoordinates = false;
 let showMoveInsights = false;
-let board3D = true;
+let board3D = false;
 let moveArrowEnabled = true;
 let clockEnabled = true; // Reloj siempre activado
 let timePerPlayer = 60; // minutos (base)
@@ -4028,6 +4028,38 @@ function getThemeLabel(theme) {
     return keys[theme] ? t(keys[theme]) : theme;
 }
 
+function refreshDynamicI18n() {
+    try {
+        if (typeof puzzleMode !== 'undefined' && puzzleMode && currentPuzzle && game) {
+            const turnColor = game.currentTurn === 'white' ? 'white' : 'black';
+            const instr = document.getElementById('puzzle-instruction');
+            if (instr) instr.textContent = t(turnColor === 'white' ? 'puzzle.playWhite' : 'puzzle.playBlack');
+            if (typeof updatePuzzleNavButtons === 'function') updatePuzzleNavButtons();
+            const titleEl = document.getElementById('puzzle-title');
+            if (titleEl && currentPuzzle.title) {
+                const list = typeof getFilteredPuzzles === 'function' ? getFilteredPuzzles() : [];
+                titleEl.textContent = currentPuzzle.title + t('puzzle.counter', {
+                    n: puzzleSequentialIndex + 1,
+                    total: list.length
+                });
+            }
+            const themeEl = document.getElementById('puzzle-theme-label');
+            if (themeEl) {
+                themeEl.textContent = getThemeLabel(currentPuzzle.theme) + ' — ' + getDifficultyLabel(currentPuzzle.difficulty);
+            }
+        }
+        if (typeof learnMode !== 'undefined' && learnMode && currentLesson && typeof showLearnBoardBanner === 'function') {
+            showLearnBoardBanner(currentLesson);
+        }
+        const chatEmpty = document.querySelector('.online-chat-empty');
+        if (chatEmpty) chatEmpty.textContent = t('chat.empty');
+        const oppEl = document.getElementById('online-chat-opponent');
+        if (oppEl && typeof _onlineGame !== 'undefined' && _onlineGame && _onlineGame.opponent) {
+            oppEl.textContent = 'vs ' + opponentName(_onlineGame.opponent);
+        }
+    } catch (e) {}
+}
+
 function getDifficultyLabel(diff) {
     return t('puzzle.diff.' + diff, null, '');
 }
@@ -4140,15 +4172,15 @@ function bindPuzzleToBoardAndUI(opts) {
     if (!suppressScroll) scrollToBoard();
 
     var list = getFilteredPuzzles();
-    var counterText = ' (' + (puzzleSequentialIndex + 1) + ' de ' + list.length + ')';
+    var counterText = t('puzzle.counter', { n: puzzleSequentialIndex + 1, total: list.length });
     document.getElementById('puzzle-title').textContent = currentPuzzle.title + counterText;
     document.getElementById('puzzle-theme-label').textContent =
         getThemeLabel(currentPuzzle.theme) + ' — ' + getDifficultyLabel(currentPuzzle.difficulty);
     document.getElementById('puzzle-instruction').textContent =
-        'Juegan ' + (turnColor === 'white' ? 'BLANCAS' : 'NEGRAS') + '. Encuentra el mejor movimiento.';
+        t(turnColor === 'white' ? 'puzzle.playWhite' : 'puzzle.playBlack');
 
     // Banner temporal sobre el tablero: turno + estrellas ELO y puntos al resolver
-    const puzzleSide = turnColor === 'white' ? '♔ Juegan Blancas' : '♚ Juegan Negras';
+    const puzzleSide = t(turnColor === 'white' ? 'puzzle.bannerWhite' : 'puzzle.bannerBlack');
     const puzzleBannerType = turnColor === 'white' ? 'puzzle-white-turn' : 'puzzle-black-turn';
     showBoardBanner(puzzleSide + ' ' + getPuzzleEloBannerSuffix(), puzzleBannerType);
     setTimeout(hideBoardBanner, PUZZLE_BOARD_BANNER_MS);
@@ -5465,8 +5497,8 @@ function learnCheckMove(fromRow, fromCol, toRow, toCol, promoType) {
             selectedSquare = null;
             renderBoard();
             learnShowFeedback(isLegal
-                ? 'Muévete a la casilla con la estrella ★.'
-                : 'Movimiento incorrecto. ¡Inténtalo de nuevo!', 'wrong');
+                ? t('learn.goToStar')
+                : t('learn.wrongMove'), 'wrong');
             setTimeout(function() {
                 const el = document.getElementById('learn-panel-feedback');
                 if (el && el.classList.contains('learn-feedback--wrong')) el.style.display = 'none';
@@ -5795,7 +5827,7 @@ function showVariantsPopup(variants, variantsKey, onSelectCallback) {
             trainingResumeCallback = null;
             hideVariantsPopup(false);
             setGameButtonsDisabled(false);
-            showLoadedGameMessage('Apertura completada', false, null, true);
+            showLoadedGameMessage(t('opening.completed'), false, null, true);
             showContinueButton();
         } else {
             hideVariantsPopup(true);
@@ -5922,7 +5954,7 @@ function continueTrainingFromVariant(variant, fromKey) {
 
     if (remainingMoves.length === 0) {
         setGameButtonsDisabled(false);
-        showLoadedGameMessage('Apertura completada', false, null, true);
+        showLoadedGameMessage(t('opening.completed'), false, null, true);
         showContinueButton();
         return;
     }
@@ -5934,7 +5966,7 @@ function continueTrainingFromVariant(variant, fromKey) {
                 trainingResumeCallback = null;
                 trainingTimeoutId = null;
                 setGameButtonsDisabled(false);
-                showLoadedGameMessage('Apertura completada', false, null, true);
+                showLoadedGameMessage(t('opening.completed'), false, null, true);
                 showContinueButton();
             }
             return;
@@ -5959,7 +5991,7 @@ function continueTrainingFromVariant(variant, fromKey) {
             trainingResumeCallback = null;
             trainingTimeoutId = null;
             setGameButtonsDisabled(false);
-            showLoadedGameMessage('Apertura completada', false, null, true);
+            showLoadedGameMessage(t('opening.completed'), false, null, true);
             showContinueButton();
             return;
         }
@@ -6890,7 +6922,7 @@ function showAnalysisError() {
     if (overlay && loading && content && summary) {
         loading.style.display = 'none';
         content.style.display = 'block';
-        summary.innerHTML = '<p style="color:#ef4444;">No se pudo conectar con el servidor de análisis. Comprueba tu conexión e inténtalo de nuevo.</p>';
+        summary.innerHTML = '<p style="color:#ef4444;">' + t('analysis.connectFail') + '</p>';
         if (mistakes) mistakes.innerHTML = '';
         const closeFn = () => { overlay.style.display = 'none'; setAnalysisModeActive(false); };
         const closeBtn = document.getElementById('analysis-close');
@@ -7745,7 +7777,7 @@ function loadSavedSettings() {
             pieceStyle = settings.pieceStyle != null ? settings.pieceStyle : 'staunty';
             showCoordinates = settings.showCoordinates !== undefined ? settings.showCoordinates : false;
             showMoveInsights = settings.showMoveInsights !== undefined ? settings.showMoveInsights : false;
-            board3D = settings.board3D !== undefined ? settings.board3D : true;
+            board3D = settings.board3D !== undefined ? settings.board3D : false;
             moveArrowEnabled = settings.moveArrowEnabled !== undefined ? settings.moveArrowEnabled : true;
             boardZoom = (settings.boardZoom >= 70 && settings.boardZoom <= 120) ? settings.boardZoom : 100;
             timePerPlayer = settings.timePerPlayer != null ? settings.timePerPlayer : 60;
@@ -7820,8 +7852,9 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
-    '3.5.71': [
-        'Interfaz bilingüe Español / English, con selector ES/EN y detección del navegador',
+    '3.5.74': [
+        'Interfaz en Español / English / Català, con selector ES/CAT/EN y detección del idioma del navegador',
+        '... y más mejoras en AjedrezIA ...',
     ],
     '3.5.68': [
         'Nueva escala aproximada de IA: 400, 600, 800, 1000, 1200, 1500, 1800 y 2200 ELO',
@@ -8615,7 +8648,7 @@ function showMessage(message, type = 'info', duration = 3000, onClose = null) {
     
     const messageBox = document.createElement('div');
     messageBox.className = `message-box message-${type}`;
-    if (typeof message === 'string' && message.indexOf('🆕 Nueva Versión') !== -1) {
+    if (typeof message === 'string' && message.indexOf('🆕') !== -1) {
         messageBox.classList.add('message-box-changelog');
     }
     
@@ -8779,7 +8812,7 @@ function setOnlineUser(user) {
         if (nicknameEl) {
             nicknameEl.value = playerNickname;
             nicknameEl.disabled = true;
-            nicknameEl.title = 'Nickname vinculado a tu cuenta online';
+            nicknameEl.title = t('login.nickLinked');
         }
         saveSettings();
     }
@@ -9407,7 +9440,7 @@ function renderUsersList(users, listEl, subtitleEl) {
     const visibleUsers = allUsers.filter(function(u) { return !!u.online; });
     const online = visibleUsers.length;
     const available = visibleUsers.filter(function(u) { return u.status !== 'busy'; }).length;
-    const locale = currentLang === 'en' ? 'en-US' : 'es-ES';
+    const locale = currentLang === 'en' ? 'en-US' : (currentLang === 'ca' ? 'ca-ES' : 'es-ES');
     if (subtitleEl) subtitleEl.textContent =
         t('users.registered', { n: registeredDisplay.toLocaleString(locale) }) +
         ' · ' + t('users.online', { n: online }) +
@@ -9462,7 +9495,7 @@ function renderUsersList(users, listEl, subtitleEl) {
 }
 
 function renderUsersError(listEl, subtitleEl) {
-    if (listEl)     listEl.innerHTML = '<p class="users-empty">Error al cargar los jugadores. Inténtalo de nuevo.</p>';
+    if (listEl)     listEl.innerHTML = '<p class="users-empty">' + t('users.loadFail') + '</p>';
     if (subtitleEl) subtitleEl.textContent = '';
 }
 
@@ -9661,13 +9694,13 @@ function sendDirectInvite(target) {
     })
     .then(function(r) { return r.json(); })
     .then(function(data) {
-        if (!data.ok) throw new Error(data.error || 'Error al enviar');
+        if (!data.ok) throw new Error(data.error || t('msg.inviteSendGeneric'));
         _outgoingInviteId = data.invite_id;
         startOutgoingPolling();
     })
     .catch(function(e) {
         hideInviteWaitingModal();
-        showMessage(e.message || 'No se pudo enviar la invitación.', 'error', 4000);
+        showMessage(e.message || t('msg.inviteSendError'), 'error', 4000);
     });
 }
 
@@ -9677,7 +9710,7 @@ function showInviteSendModal(target) {
     _inviteSelectedColor = localStorage.getItem('invite_color') || 'white';
     const savedTc        = localStorage.getItem('invite_tc')    || '5+0';
     document.getElementById('invite-send-target').textContent =
-        'Vas a invitar a ' + (target.nick || target.name) + ' (ELO ' + target.elo + ')';
+        t('invite.willInvite', { nick: target.nick || target.name, elo: target.elo });
     document.querySelectorAll('#invite-color-picker .invite-color-btn').forEach(function(b) {
         b.classList.toggle('is-selected', b.dataset.color === _inviteSelectedColor);
         b.setAttribute('aria-pressed', b.dataset.color === _inviteSelectedColor);
@@ -9764,14 +9797,14 @@ function sendInvite() {
     })
     .then(function(r) { return r.json(); })
     .then(function(data) {
-        if (!data.ok) throw new Error(data.error || 'Error al enviar');
+        if (!data.ok) throw new Error(data.error || t('msg.inviteSendGeneric'));
         _outgoingInviteId = data.invite_id;
         hideInviteSendModal();
         showInviteWaitingModal(target.nick || target.name, payload.time_label);
         startOutgoingPolling();
     })
     .catch(function(e) {
-        errEl.textContent = e.message || 'No se pudo enviar la invitación.';
+        errEl.textContent = e.message || t('msg.inviteSendError');
         errEl.style.display = 'block';
     });
 }
@@ -9779,7 +9812,7 @@ function sendInvite() {
 // ── Modal de espera ────────────────────────────────────────────────────────
 function showInviteWaitingModal(nick, timeLabel) {
     document.getElementById('invite-waiting-info').textContent =
-        'Invitación enviada a ' + nick + ' (' + timeLabel + ')';
+        t('invite.sentTo', { nick: nick, time: timeLabel });
     document.getElementById('invite-waiting-overlay').classList.add('is-open');
 }
 
@@ -9810,7 +9843,7 @@ function startOutgoingPolling() {
                 if (data.status === 'accepted') {
                     stopOutgoingPolling();
                     hideInviteWaitingModal();
-                    const target = _inviteTarget || { id: 'opponent', nick: 'Oponente', name: 'Oponente' };
+                    const target = _inviteTarget || { id: 'opponent', nick: t('opponent'), name: t('opponent') };
                     const tc     = document.getElementById('invite-time-select').value;
                     startOnlineGame(target, _inviteSelectedColor, tc, data.game_id || null);
                 } else if (data.status === 'rejected' || data.status === 'expired' || data.status === 'cancelled') {
@@ -9954,7 +9987,7 @@ let _currentIncoming = null;
 function showIncomingInvite(invite) {
     _currentIncoming = invite;
     const myColor = invertColor(invite.from_color);
-    const colorLabel = myColor === 'white' ? 'Blancas' : 'Negras';
+    const colorLabel = myColor === 'white' ? t('color.white') : t('color.black');
     const timeLabel  = invite.time_label || timeLabelFor(invite.time_control);
 
     document.getElementById('invite-incoming-from').textContent  = invite.from_nick || 'Jugador';
@@ -9987,7 +10020,7 @@ function showLinkInviteModal(linkData, inviterUser) {
     const myColor = invertColor(fromColor);
     document.getElementById('invite-incoming-from').textContent  = fromNick;
     document.getElementById('invite-incoming-elo').textContent   = 'ELO ' + fromElo;
-    document.getElementById('invite-incoming-color').textContent = myColor === 'white' ? 'Blancas' : (myColor === 'black' ? 'Negras' : 'Aleatorio');
+    document.getElementById('invite-incoming-color').textContent = myColor === 'white' ? t('color.white') : (myColor === 'black' ? t('color.black') : t('color.random'));
     document.getElementById('invite-incoming-time').textContent  = _currentIncoming.time_label;
     document.getElementById('invite-incoming-overlay').classList.add('is-open');
 }
@@ -10050,7 +10083,7 @@ function respondInvite(action) {
         })
         .then(function(r) { return r.json(); })
         .then(function(data) {
-            if (!data.ok) throw new Error(data.error || 'Error al enviar');
+            if (!data.ok) throw new Error(data.error || t('msg.inviteSendGeneric'));
             _outgoingInviteId = data.invite_id;
             showInviteWaitingModal(invite.from_nick, payload.time_label);
             startOutgoingPolling();
@@ -10208,7 +10241,7 @@ function showDrawOfferModal(opponentNick) {
     if (!overlay) return;
     const titleEl    = document.getElementById('draw-offer-title');
     const subtitleEl = document.getElementById('draw-offer-subtitle');
-    if (titleEl)    titleEl.textContent    = opponentNick + ' ofrece tablas';
+    if (titleEl)    titleEl.textContent    = t('invite.offersDraw', { name: opponentNick });
     if (subtitleEl) subtitleEl.textContent = t('draw.subtitle');
     overlay.style.display = 'flex';
 
@@ -10308,7 +10341,7 @@ function pollOnlineGame() {
             if (data.draw_offer === opponentColor && !_drawOfferShown) {
                 _drawOfferShown = true;
                 const opp = _onlineGame.opponent || {};
-                showDrawOfferModal(opp.nick || opp.name || 'Tu rival');
+                showDrawOfferModal(opponentName(opp));
             } else if (!data.draw_offer) {
                 // La oferta fue cancelada/resuelta: cerrar modal si estaba abierto
                 if (_drawOfferShown) { hideDrawOfferModal(); _drawOfferShown = false; }
@@ -10436,11 +10469,11 @@ function openOnlineChat(opponent) {
     panel.classList.remove('collapsed');
 
     const oppEl = document.getElementById('online-chat-opponent');
-    if (oppEl) oppEl.textContent = opponent ? ('vs ' + (opponent.nick || opponent.name || 'Oponente')) : '';
+    if (oppEl) oppEl.textContent = opponent ? ('vs ' + opponentName(opponent)) : '';
 
     const msgsEl = document.getElementById('online-chat-messages');
     if (msgsEl) {
-        msgsEl.innerHTML = '<p class="online-chat-empty">Saluda a tu rival. Los mensajes desaparecen 48 h después.</p>';
+        msgsEl.innerHTML = '<p class="online-chat-empty">' + t('chat.empty') + '</p>';
     }
     // Input y botón siempre habilitados durante la partida: en modo local
     // el render es optimista y en producción se envía al backend.
@@ -10666,7 +10699,7 @@ function updateOnlineBanner() {
     banner.innerHTML =
         '<span class="online-banner-dot"></span>' +
         '<span class="online-banner-text">' +
-            '<strong>vs ' + escHtml(opp.nick || opp.name || 'Oponente') + '</strong>' +
+            '<strong>vs ' + escHtml(opponentName(opp)) + '</strong>' +
             ' · ' + turnTxt +
         '</span>' +
         '<button class="online-banner-leave" id="online-banner-leave" title="' + t('online.leaveTitle') + '">✖</button>';
@@ -11225,11 +11258,11 @@ function signInWithNickname(rawNick) {
     const nick = (rawNick || '').trim();
 
     if (!nick) {
-        loginSetError('Escribe un nickname para continuar.');
+        loginSetError(t('login.needNick'));
         return false;
     }
     if (!NICKNAME_RE.test(nick)) {
-        loginSetError('Nickname no válido. Usa 3–20 caracteres: letras, números, "_", "-" o ".".');
+        loginSetError(t('login.badNick'));
         return false;
     }
 
@@ -11271,7 +11304,7 @@ function signInWithNickname(rawNick) {
             localStorage.setItem(pwdKey, pwd);
         } else if (storedPwd !== '' && storedPwd !== pwd) {
             loginSetLoading(false);
-            loginSetError('Contraseña incorrecta.');
+            loginSetError(t('login.badPassword'));
             return false;
         } else if (storedPwd === '' && pwd !== '') {
             localStorage.setItem(pwdKey, pwd);
@@ -11291,9 +11324,9 @@ function signInWithNickname(rawNick) {
         if (!data.ok) {
             loginSetLoading(false);
             if (data.error === 'wrong_password') {
-                loginSetError('Contraseña incorrecta.');
+                loginSetError(t('login.badPassword'));
             } else {
-                loginSetError(data.error || 'Error al iniciar sesión.');
+                loginSetError(data.error || t('login.fail'));
             }
             return;
         }
@@ -11307,7 +11340,7 @@ function signInWithNickname(rawNick) {
     })
     .catch(() => {
         loginSetLoading(false);
-        loginSetError('No se pudo conectar al servidor.');
+        loginSetError(t('login.noServer'));
     });
 
     return true;
@@ -11334,7 +11367,7 @@ function signInAsGuest() {
     if (nicknameEl) {
         nicknameEl.value = name;
         nicknameEl.disabled = true;
-        nicknameEl.title = 'Nickname asignado al acceso como invitado';
+        nicknameEl.title = t('login.nickGuest');
     }
     saveSettings();
     setOnlineUser({
@@ -11368,7 +11401,7 @@ function signInWithGoogle() {
         return;
     }
     if (typeof google === 'undefined' || !google.accounts || !google.accounts.oauth2) {
-        loginSetError('No se pudo cargar Google Sign-In. Comprueba tu conexión a internet o usa otro navegador.');
+        loginSetError(t('login.googleLoadFail'));
         return;
     }
     loginSetError('');
@@ -11378,7 +11411,7 @@ function signInWithGoogle() {
     // embebidos que Google rechaza silenciosamente), liberamos la UI tras 45s.
     const safetyTimeout = setTimeout(function() {
         loginSetLoading(false);
-        loginSetError('No hemos recibido respuesta de Google. Si usas un navegador antiguo o dentro de una app, abre esta web en Chrome, Firefox o Safari.');
+        loginSetError(t('login.googleNoReply'));
         showUnsupportedBrowserWarningIfNeeded();
     }, 45000);
 
@@ -11391,7 +11424,7 @@ function signInWithGoogle() {
             if (response.error) {
                 loginSetLoading(false);
                 if (response.error !== 'access_denied') {
-                    loginSetError('Error de Google: ' + (response.error_description || response.error));
+                    loginSetError(t('login.googleError', { err: response.error_description || response.error }));
                 }
                 return;
             }
@@ -11399,7 +11432,7 @@ function signInWithGoogle() {
                 const res = await fetch('https://www.googleapis.com/oauth2/v3/userinfo', {
                     headers: { Authorization: 'Bearer ' + response.access_token }
                 });
-                if (!res.ok) throw new Error('No se pudo obtener el perfil de Google.');
+                if (!res.ok) throw new Error(t('login.googleProfileFail'));
                 const info = await res.json();
                 setOnlineUser({
                     provider: 'google',
@@ -11421,7 +11454,7 @@ function signInWithGoogle() {
                 showMessage(t('welcome', { name: info.name }), 'success', 3000);
             } catch (err) {
                 loginSetLoading(false);
-                loginSetError(err.message || 'Error al obtener el perfil.');
+                loginSetError(err.message || t('login.profileFail'));
             }
         },
         error_callback: function(err) {
@@ -11429,10 +11462,10 @@ function signInWithGoogle() {
             loginSetLoading(false);
             // El "popup_failed_to_open" ocurre típicamente en navegadores in-app y Mi Browser antiguo.
             if (err && (err.type === 'popup_failed_to_open' || err.type === 'popup_closed')) {
-                loginSetError('No se pudo abrir el inicio de sesión de Google. Abre AjedrezIA en Chrome, Firefox o Safari.');
+                loginSetError(t('login.googleOpenFail'));
                 showUnsupportedBrowserWarningIfNeeded();
             } else if (err && err.message) {
-                loginSetError('Error de Google: ' + err.message);
+                loginSetError(t('login.googleError', { err: err.message }));
             }
         },
     });
@@ -11442,7 +11475,7 @@ function signInWithGoogle() {
     } catch (e) {
         clearTimeout(safetyTimeout);
         loginSetLoading(false);
-        loginSetError('No se pudo iniciar el flujo de Google. Abre AjedrezIA en Chrome, Firefox o Safari.');
+        loginSetError(t('login.googleFlowFail'));
         showUnsupportedBrowserWarningIfNeeded();
     }
 }
@@ -11451,7 +11484,7 @@ function signInWithGoogle() {
 
 async function signInWithApple() {
     if (typeof AppleID === 'undefined' || !AppleID.auth) {
-        loginSetError('No se pudo cargar Apple Sign In. Comprueba tu conexión a internet.');
+        loginSetError(t('login.appleLoadFail'));
         return;
     }
     loginSetError('');
@@ -11497,7 +11530,7 @@ async function signInWithApple() {
     } catch (err) {
         loginSetLoading(false);
         if (err && err.error === 'popup_closed_by_user') return;
-        loginSetError(err.message || 'Error al iniciar sesión con Apple.');
+        loginSetError(err.message || t('login.appleFail'));
     }
 }
 
@@ -11613,8 +11646,8 @@ async function signInWithApple() {
                 nicknameEl.value = playerNickname;
                 nicknameEl.disabled = true;
                 nicknameEl.title = existingUser.provider === 'guest'
-                    ? 'Nickname asignado al acceso como invitado'
-                    : 'Nickname vinculado a tu cuenta online';
+                    ? t('login.nickGuest')
+                    : t('login.nickLinked');
             }
         } else {
             if (nicknameEl) {
@@ -11736,7 +11769,7 @@ function resignGame() {
         ? _onlineGame.opponent.elo
         : (AI_ELO_MAP[aiDifficulty] || 1200);
     const _deltaR = calcEloChange(stats.elo, _oppEloR, 0, stats.gamesPlayed);
-    showConfirmDialog(`Partida en curso (${_deltaR} ELO si abandonas)`, () => {
+    showConfirmDialog(t('confirm.resignInGame', { n: _deltaR }), () => {
         game.gameOver = true;
         stopClock();
         const eloDelta = recordGameResult('loss'); // _onlineGame aún activo → ELO real del oponente
@@ -11786,7 +11819,7 @@ function offerDraw() {
         return;
     }
 
-    showConfirmDialog('¿Quieres ofrecer tablas?', () => {
+    showConfirmDialog(t('confirm.offerDraw'), () => {
         const aiColor = playerColor === 'white' ? 'black' : 'white';
         const aiEval = evaluatePosition(aiColor) / 100;
 
@@ -11815,8 +11848,7 @@ function offerDraw() {
             updateUndoButton();
             showBoardBanner(t('banner.drawAccepted') + formatEloDelta(eloDelta), 'stalemate');
         } else {
-            const evalText = aiEval > 1.0 ? ' (tiene ventaja)' : '';
-            showMessage(`El rival rechaza las tablas${evalText}`, 'warning', 2000);
+            showMessage(aiEval > 1.0 ? t('msg.drawRejectedAdvantage') : t('msg.drawRejectedPlain'), 'warning', 2000);
         }
     });
 }
@@ -12085,14 +12117,14 @@ function setupAndroidBackExitConfirmation() {
 // movimientos posteriores y continuar la partida desde la posición vista.
 function confirmContinueFromHistoryIfNeeded(proceedFn) {
     if (currentMoveIndex === -1) { proceedFn(); return; }
-    showConfirmDialog('¿Quieres continuar la partida desde aquí?', function() {
+    showConfirmDialog(t('confirm.continueHere'), function() {
         if (game && typeof game.truncateHistory === 'function') {
             game.truncateHistory(currentMoveIndex);
         }
         currentMoveIndex = -1;
         updateMoveHistory();
         proceedFn();
-    }, 'Aceptar', function() {
+    }, t('accept'), function() {
         selectedSquare = null;
         renderBoard();
     });
@@ -13116,7 +13148,7 @@ function confirmNewGame() {
             : (AI_ELO_MAP[aiDifficulty] || 1200);
         const delta = calcEloChange(stats.elo, opponentElo, 0, stats.gamesPlayed);
         showConfirmDialog(
-            `Partida en curso (${delta} ELO si abandonas)`,
+            t('confirm.resignInGame', { n: delta }),
             () => {
                 // Aplicar la pérdida de ELO como si fuera una derrota
                 game.gameOver = true;
@@ -13389,7 +13421,7 @@ function startNewGame(options) {
     const _diffElo = AI_ELO_MAP[aiDifficulty] || 1200;
     const _opp = _onlineGame && _onlineGame.opponent;
     const _opponentLabel = _opp
-        ? `${_opp.nick || _opp.name || 'Oponente'} (${_opp.elo != null ? _opp.elo : '?'})`
+        ? `${opponentName(_opp)} (${_opp.elo != null ? _opp.elo : '?'})`
         : `AjedrezIA (${_diffLabel} · ${_diffElo} ELO)`;
     const _humanLabel = `${playerNickname} (${stats.elo})`;
     const _whiteLabel = (playerColor === 'white' || playerColor === 'both') ? _humanLabel : _opponentLabel;
@@ -13545,7 +13577,7 @@ function viewOpening() {
             setGameButtonsDisabled(false);
             // shareContext sigue en "apertura" (Compartir apertura) tras el replay
             updateShareButton();
-            showLoadedGameMessage('Apertura completada', false);
+            showLoadedGameMessage(t('opening.completed'), false);
             showContinueButton();
             const history = game.moveHistoryUCI || [];
             const variants = getOpeningVariants(history);
@@ -13633,7 +13665,7 @@ function showKnownVariants() {
 
     const header = document.createElement('div');
     header.className = 'known-variants-header';
-    header.innerHTML = `<span>📖 Variantes de: ${trainingOpening.name}</span>`;
+    header.innerHTML = `<span>${t('opening.variantsOf', { name: trainingOpening.name })}</span>`;
     const closeBtn = document.createElement('span');
     closeBtn.className = 'variants-popup-close';
     closeBtn.textContent = '✕';
@@ -13776,7 +13808,7 @@ function onFamousPlayerSelect() {
     if (!selectedPlayer) {
         _showLibrarySection(false);
         const libSel = document.getElementById('library-game-select');
-        if (libSel) libSel.innerHTML = '<option value="">— Elegir partida —</option>';
+        if (libSel) libSel.innerHTML = '<option value="">' + t('famous.choose') + '</option>';
         return;
     }
 
@@ -13834,7 +13866,7 @@ function loadLibraryPlayerGames(playerId, playerName) {
         })
         .catch(err => {
             libSel.disabled = false;
-            libSel.innerHTML = '<option value="">❌ Error al cargar partidas</option>';
+            libSel.innerHTML = '<option value="">' + t('famous.loadFail') + '</option>';
             onLibraryGameSelect();
             console.warn('loadLibraryPlayerGames error:', err);
         });
@@ -14038,7 +14070,7 @@ function onFcePlayerSelect() {
 
     if (!playerId) {
         showFceGameSection(false);
-        gameSelect.innerHTML = '<option value="">— Elegir partida —</option>';
+        gameSelect.innerHTML = '<option value="">' + t('famous.choose') + '</option>';
         return;
     }
 
@@ -14092,7 +14124,7 @@ function loadFcePlayerGames(playerId, playerName, playerLabel) {
         .catch(err => {
             if (document.getElementById('fce-player-select').value !== playerId) return;
             gameSelect.disabled = false;
-            gameSelect.innerHTML = '<option value="">❌ Error al cargar partidas</option>';
+            gameSelect.innerHTML = '<option value="">' + t('famous.loadFail') + '</option>';
             onFceGameSelect();
             console.warn('loadFcePlayerGames error:', err);
         });
@@ -14727,7 +14759,7 @@ function startOpeningTraining() {
         setGameButtonsDisabled(false);
         // shareContext sigue en "apertura" para compartir el enlace de la apertura tras completar
         updateShareButton();
-        showLoadedGameMessage('Apertura completada', false);
+        showLoadedGameMessage(t('opening.completed'), false);
         showContinueButton();
     }
 
@@ -15342,7 +15374,7 @@ function loadGameByIndex(savedGames, index) {
         autoSaveGame();
     
         const numMoves = (game.moveHistory || []).length;
-        showLoadedGameMessage(`Partida cargada: ${numMoves} movimientos`, isFinished, null);
+        showLoadedGameMessage(t('msg.gameLoaded', { n: numMoves }), isFinished, null);
         if (!isFinished) showContinueButton();
     }
 }
@@ -15372,8 +15404,8 @@ function copyPGN() {
     const hasAnalysis = analysisErrorsList && analysisErrorsList.length > 0;
     const pgn = buildPGNContent();
     const successMsg = hasAnalysis
-        ? 'PGN copiado al portapapeles<br>📊 Se añade Análisis de Partida al PGN'
-        : 'PGN copiado al portapapeles';
+        ? t('msg.pgnCopiedAnalysis')
+        : t('msg.pgnCopied');
     navigator.clipboard.writeText(pgn).then(() => {
         showMessage(successMsg, 'success', 2500);
     }).catch(() => {
@@ -15394,7 +15426,7 @@ async function exportPGNDirectMobile(pgn, suggestedName) {
         if ('showSaveFilePicker' in window) {
             const handle = await window.showSaveFilePicker({
                 suggestedName: suggestedName,
-                types: [{ description: 'Archivo PGN', accept: { 'application/x-chess-pgn': ['.pgn'] } }]
+                types: [{ description: t('pgnFileDesc'), accept: { 'application/x-chess-pgn': ['.pgn'] } }]
             });
             const writable = await handle.createWritable();
             await writable.write(pgn);
@@ -15482,7 +15514,7 @@ function flashImageCopied(img, ok) {
     try {
         const rect = img.getBoundingClientRect();
         const badge = document.createElement('div');
-        badge.textContent = ok ? '✓ Imagen copiada' : 'No se pudo copiar la imagen';
+        badge.textContent = ok ? t('share.imageCopied') : t('share.imageCopyFail');
         badge.style.cssText = 'position:fixed;z-index:100000;padding:8px 14px;border-radius:8px;' +
             'font:600 14px Arial,sans-serif;color:#fff;pointer-events:none;' +
             'background:' + (ok ? 'rgba(40,120,60,0.92)' : 'rgba(150,50,50,0.92)') + ';' +
@@ -15922,16 +15954,16 @@ function getShareGameCardMetadata() {
     if (date && date !== '?') dateParts.push(t('pgn.date', { date: date }));
     if (round && round !== '?') dateParts.push(t('pgn.round', { round: round }));
     if (dateParts.length) lines.push(dateParts.join(' · '));
-    if (site && site !== '?' && site !== event) lines.push(`Lugar: ${site}`);
+    if (site && site !== '?' && site !== event) lines.push(t('pgn.site', { site: site }));
 
     const eco = String(headers.ECO || '').trim();
     const opening = String(currentOpeningName || '').trim();
     if (eco || opening) {
-        lines.push(`Apertura: ${[eco, opening].filter(Boolean).join(' · ')}`);
+        lines.push(t('pgn.opening', { eco: [eco, opening].filter(Boolean).join(' · ') }));
     }
 
     const plies = (game.moveHistoryUCI || game.moveHistory || []).length;
-    if (plies) lines.push(`Movimientos: ${Math.ceil(plies / 2)}`);
+    if (plies) lines.push(t('pgn.movesCount', { n: Math.ceil(plies / 2) }));
     return lines.join('\n');
 }
 
@@ -15948,6 +15980,7 @@ function buildSharePreview(kind, cardT, cardS, fenOverride, appKV, cardMeta) {
     if (fen) img.set('fen', fen);
     if (shareFlip) img.set('flip', '1');
     if (kind) img.set('kind', kind);
+    if (typeof currentLang === 'string' && currentLang) img.set('lang', currentLang);
     if (cardT) img.set('t', cardT);
     if (cardS) img.set('s', cardS);
     if (cardMeta) img.set('meta', cardMeta);
@@ -16217,9 +16250,8 @@ async function renderShareBoardDataURL(p) {
         ctx.textBaseline = 'alphabetic';
         ctx.fillStyle = '#7fb069'; ctx.font = 'bold 30px Arial, sans-serif';
         ctx.fillText('\u265E AjedrezIA', tx, 92);
-        const KIND_LABEL = { partida:'Partida', apertura:'Apertura', problema:'Problema de ajedrez y 30 más', maestra:'Partida maestra' };
         ctx.fillStyle = '#c9c2ba'; ctx.font = '20px Arial, sans-serif';
-        ctx.fillText(KIND_LABEL[p.kind] || 'Ajedrez', tx, 134);
+        ctx.fillText(p.kind ? shareKindLabel(p.kind) : t('share.kind.chess'), tx, 134);
 
         // Respeta saltos de línea explícitos ('\n') como líneas independientes;
         // dentro de cada una aplica word-wrap normal si excede el ancho disponible.
@@ -16255,7 +16287,7 @@ async function renderShareBoardDataURL(p) {
             const metaFont = '20px Arial, sans-serif';
             const metaLines = wrap(p.meta, metaFont, tw, 7);
             metaLines.forEach(ln => {
-                const isResult = /^(Resultado:|Result:)/i.test(ln);
+                const isResult = /^(Resultado:|Result:|Resultat:)/i.test(ln);
                 const isElo = /^ELO:/i.test(ln);
                 ctx.font = isResult || isElo ? `bold ${metaFont}` : metaFont;
                 ctx.fillStyle = isResult ? '#9dcc85' : (isElo ? '#f0d9b5' : '#d2cbc4');
@@ -16446,12 +16478,12 @@ function buildShareVideoSequence(info) {
 
     let initialFen = '';
     let moves = [];
-    let labelPrefix = 'Jugada';
+    let labelPrefix = t('share.videoMove');
 
     if (shareContext === 'problema' && currentPuzzle) {
         initialFen = getPuzzleChallengeFen(currentPuzzle) || currentPuzzle.fen;
         moves = Array.isArray(currentPuzzle.solution) ? [...currentPuzzle.solution] : [];
-        labelPrefix = 'Solución';
+        labelPrefix = t('share.videoSolution');
     } else if (shareContext === 'apertura') {
         const selectedKey = document.getElementById('opening-select')?.value;
         const opening = (selectedKey && OPENING_TRAINING[selectedKey]) || trainingOpening;
@@ -16484,13 +16516,13 @@ function buildShareVideoSequence(info) {
     if (!initialFen) initialFen = base.fen;
     const chess = new ChessGame();
     chess.loadFromFEN(initialFen);
-    const frames = [{ ...base, fen: chess.toFEN(), mv: '', videoLabel: 'Posición inicial' }];
+    const frames = [{ ...base, fen: chess.toFEN(), mv: '', videoLabel: t('share.videoStart') }];
 
     moves.forEach((uci, index) => {
         if (!applyUciToShareGame(chess, uci)) return;
         const fullMove = Math.floor(index / 2) + 1;
         const moveLabel = shareContext === 'problema'
-            ? `${labelPrefix} ${index + 1} de ${moves.length}`
+            ? t('share.videoMoveN', { label: labelPrefix, n: index + 1, total: moves.length })
             : `${labelPrefix} ${fullMove}${index % 2 ? '…' : '.'}`;
         frames.push({ ...base, fen: chess.toFEN(), mv: uci, videoLabel: moveLabel });
     });
@@ -16522,12 +16554,12 @@ async function generateShareVideo() {
     const generation = ++shareVideoGeneration;
     shareVideoPromise = (async () => {
         if (!window.MediaRecorder || !HTMLCanvasElement.prototype.captureStream) {
-            throw new Error('Este navegador no permite generar vídeo');
+            throw new Error(t('share.videoBrowser'));
         }
 
         const info = getShareInfo();
         const frames = buildShareVideoSequence(info);
-        if (!frames.length) throw new Error('No hay movimientos para generar el vídeo');
+        if (!frames.length) throw new Error(t('msg.noShareMoves'));
 
         const VIDEO_SIZE = 1080;
         const VIDEO_RENDER_SCALE = VIDEO_SIZE / 630;
@@ -16586,7 +16618,7 @@ async function generateShareVideo() {
             context.drawImage(introImage, 0, 0, canvas.width, canvas.height);
             await new Promise(resolve => requestAnimationFrame(resolve));
             if (videoTrack && typeof videoTrack.requestFrame === 'function') videoTrack.requestFrame();
-            updateShareVideoStatus(`Generando vídeo… 1 de ${totalFrames}`, 100 / totalFrames);
+            updateShareVideoStatus(t('share.generatingVideo', { n: 1, total: totalFrames }), 100 / totalFrames);
             await holdRecordedFrame(introImage, 3000);
         }
 
@@ -16596,7 +16628,7 @@ async function generateShareVideo() {
             if (generation !== shareVideoGeneration) {
                 recorder.stop();
                 await stopped;
-                throw new Error('Generación cancelada');
+                throw new Error(t('share.videoCancelled'));
             }
             const frame = frames[index];
             const dataUrl = await renderShareBoardDataURL({
@@ -16621,7 +16653,7 @@ async function generateShareVideo() {
                 videoTrack.requestFrame();
             }
             updateShareVideoStatus(
-                `Generando vídeo… ${index + 2} de ${totalFrames}`,
+                t('share.generatingVideo', { n: index + 2, total: totalFrames }),
                 ((index + 2) / totalFrames) * 100
             );
             const isFinalFrame = index === frames.length - 1;
@@ -16638,7 +16670,7 @@ async function generateShareVideo() {
         stream.getTracks().forEach(track => track.stop());
         const type = recorder.mimeType || 'video/webm';
         const blob = new Blob(chunks, { type });
-        if (!blob.size) throw new Error('No se pudo crear el vídeo');
+        if (!blob.size) throw new Error(t('share.videoFail'));
         return blob;
     })();
 
@@ -16677,7 +16709,7 @@ async function selectShareFormat(format) {
     }
 
     videoButton.disabled = true;
-    updateShareVideoStatus('Preparando vídeo…', 0);
+    updateShareVideoStatus(t('share.preparingVideo'), 0);
     try {
         const blob = await generateShareVideo();
         if (shareSelectedFormat !== 'video') return;
@@ -16694,7 +16726,7 @@ async function selectShareFormat(format) {
         if (image) image.style.display = '';
         if (video) video.style.display = 'none';
         if (progress) progress.style.display = 'none';
-        showMessage(error.message || 'No se pudo generar el vídeo', 'warning', 3500);
+        showMessage(error.message || t('share.videoFail'), 'warning', 3500);
     } finally {
         videoButton.disabled = false;
     }
@@ -16762,7 +16794,7 @@ async function downloadShareVideo(event) {
             const handle = await window.showSaveFilePicker({
                 suggestedName,
                 types: [{
-                    description: extension === 'mp4' ? 'Vídeo MP4' : 'Vídeo WebM',
+                    description: extension === 'mp4' ? t('share.videoMp4') : t('share.videoWebm'),
                     accept: { [saveMime]: [`.${extension}`] }
                 }]
             });
@@ -16857,14 +16889,14 @@ function getShareInfo() {
         const catLabel = (themeSel && themeSel.selectedOptions[0] && themeSel.selectedOptions[0].text)
             ? themeSel.selectedOptions[0].text
             : getThemeLabel(currentPuzzle.theme || 'tactic');
-        const turnLabel = playerColor === 'black' ? '♚ Juegan Negras' : '♔ Juegan Blancas';
+        const turnLabel = playerColor === 'black' ? t('puzzle.bannerBlack') : t('puzzle.bannerWhite');
         // Tipo de problema y turno en líneas separadas (tanto en el mensaje
         // de texto como en la tarjeta de imagen, que respeta el salto '\n').
         const puzzleDetail = catLabel + '\n' + turnLabel;
         // La 3ª línea de la tarjeta muestra el mismo detalle que va debajo de
         // "Problema de ajedrez" en el mensaje de Compartir (categoría / turno).
         const cardT = puzzleDetail;
-        const cardS = '¿Encuentras la mejor jugada?';
+        const cardS = t('share.findBest');
         let url;
         if (id) {
             url = `${BASE_PATH}?puzzle=${encodeURIComponent(id)}`;
@@ -16881,8 +16913,8 @@ function getShareInfo() {
         const famousKey = document.getElementById('famous-game-select').value;
         const g = famousKey && FAMOUS_GAMES[famousKey];
         if (g) {
-            const cardT = g.name || 'Partida maestra';
-            const cardS = 'Revívela jugada a jugada';
+            const cardT = g.name || t('share.kind.maestra');
+            const cardS = t('share.replay');
             const url = `${BASE_PATH}?master=${encodeURIComponent(famousKey)}`;
             const cardMeta = getShareGameCardMetadata();
             const { shareUrl, previewImage, previewParams } = buildSharePreview(
@@ -16901,13 +16933,13 @@ function getShareInfo() {
         const openingKey = document.getElementById('opening-select').value;
         if (openingKey) {
             const nameDetail = getShareOpeningNameDetail();
-            const cardT = nameDetail || 'Apertura';
-            const cardS = 'Aprende esta apertura paso a paso';
+            const cardT = nameDetail || t('share.kind.apertura');
+            const cardS = t('share.learnStep');
             const url = `${BASE_PATH}?opening=${encodeURIComponent(openingKey)}`;
             const { shareUrl, previewImage, previewParams } = buildSharePreview('apertura', cardT, cardS, null, { key: 'opening', val: openingKey });
             return { url, shareUrl, label: shareCompartirLabel('apertura'), shareKind: 'apertura', shareDetail: nameDetail, previewImage, previewParams };
         }
-        const { shareUrl, previewImage, previewParams } = buildSharePreview('apertura', 'Apertura', 'Aprende aperturas en AjedrezIA');
+        const { shareUrl, previewImage, previewParams } = buildSharePreview('apertura', t('share.kind.apertura'), t('share.learnOpenings'));
         return { url: BASE_PATH, shareUrl, label: shareCompartirLabel('apertura'), shareKind: 'apertura', shareDetail: null, previewImage, previewParams };
     }
 
@@ -16917,8 +16949,8 @@ function getShareInfo() {
         const movesUCI = moveList.join(',');
         const fgt = document.getElementById('famous-game-title');
         const vsDetail = (fgt && fgt.textContent) ? fgt.textContent.replace(/\n/g, ' ').replace(/\s+/g, ' ').trim() : null;
-        const cardT = vsDetail || 'Mi partida';
-        const cardS = 'Revívela jugada a jugada';
+        const cardT = vsDetail || t('share.myGame');
+        const cardS = t('share.replay');
         const appParam = compactMoves
             ? { key: 'm', val: compactMoves }
             : { key: 'moves', val: movesUCI };
@@ -16937,7 +16969,7 @@ function getShareInfo() {
         return { url, shareUrl, label: shareCompartirLabel('partida'), shareKind: 'partida', shareDetail: vsDetail || null, previewImage, previewParams };
     }
 
-    const { shareUrl, previewImage, previewParams } = buildSharePreview('partida', 'AjedrezIA', 'Juega y aprende ajedrez');
+    const { shareUrl, previewImage, previewParams } = buildSharePreview('partida', 'AjedrezIA', t('share.playLearn'));
     return { url: BASE_PATH, shareUrl, label: shareCompartirLabel('partida'), shareKind: 'partida', shareDetail: null, previewImage, previewParams };
 }
 
@@ -17052,25 +17084,25 @@ function shareContent() {
     // La previsualización se dibuja en el navegador (canvas) para que se vea en
     // local aunque no haya PHP; board-image.php queda como respaldo del src.
     const previewHtml = previewImage
-        ? `<img id="share-modal-preview" src="${previewImage.replace(/&/g,'&amp;').replace(/"/g,'&quot;')}" alt="${msgAttr}" class="share-preview-img" loading="lazy" title="Pulsa para copiar la imagen" style="cursor:pointer" onclick="copyShareImage(this)" onerror="this.style.display='none'">`
+        ? `<img id="share-modal-preview" src="${previewImage.replace(/&/g,'&amp;').replace(/"/g,'&quot;')}" alt="${msgAttr}" class="share-preview-img" loading="lazy" title="${t('share.copyImageTitle')}" style="cursor:pointer" onclick="copyShareImage(this)" onerror="this.style.display='none'">`
         : '';
     const mediaSelectorHtml = previewImage
-        ? `<div class="share-format-toggle" role="group" aria-label="Formato para compartir">
-                <button type="button" id="share-format-image" class="share-format-btn active" onclick="selectShareFormat('image')">🖼 Imagen</button>
-                <button type="button" id="share-format-video" class="share-format-btn" onclick="selectShareFormat('video')">▶ Vídeo</button>
+        ? `<div class="share-format-toggle" role="group" aria-label="${t('share.formatAria')}">
+                <button type="button" id="share-format-image" class="share-format-btn active" onclick="selectShareFormat('image')">${t('share.formatImage')}</button>
+                <button type="button" id="share-format-video" class="share-format-btn" onclick="selectShareFormat('video')">${t('share.formatVideo')}</button>
            </div>
            <div id="share-video-progress" class="share-video-progress" style="display:none">
-                <span id="share-video-status">Preparando vídeo…</span>
+                <span id="share-video-status">${t('share.preparingVideo')}</span>
                 <span class="share-video-progress-track"><span id="share-video-progress-fill"></span></span>
            </div>`
         : '';
     const videoHtml = previewImage
-        ? `<video id="share-modal-video" class="share-preview-video" muted loop playsinline style="display:none" title="Pulsa para descargar el vídeo" onclick="downloadShareVideo(event)"></video>`
+        ? `<video id="share-modal-video" class="share-preview-video" muted loop playsinline style="display:none" title="${t('share.downloadVideoTitle')}" onclick="downloadShareVideo(event)"></video>`
         : '';
 
     const htmlMsg = `
         <strong>${titleLine}</strong>
-        <span class="share-copy-hint" style="display:block;font-size:0.82em;color:#7fb069;text-align:center;margin:2px 0 4px;opacity:0.9;">Pulsa texto / imagen para Copiar</span>
+        <span class="share-copy-hint" style="display:block;font-size:0.82em;color:#7fb069;text-align:center;margin:2px 0 4px;opacity:0.9;">${t('share.copyHint')}</span>
         <button type="button" class="share-msg-btn${previewImage ? ' share-msg-btn--compact' : ''}" data-msg="${msgAttr}" onclick="copyShareMsg(this)">
             <span class="share-msg-text">${msgAttr.replace(/\n/g,'<br>')}</span>
         </button>
@@ -17500,12 +17532,13 @@ function parsePGNAndLoad(pgnRaw, gameTitle) {
         if (headers['ECO']) msg += t('pgn.opening', { eco: headers['ECO'] }) + '\n';
         const fullMoves = Math.ceil(movesPlayed / 2);
         const totalFullMoves = Math.ceil(moves.length / 2);
-        msg += `Movimientos: ${fullMoves}`;
         if (movesPlayed < moves.length) {
-            msg += ` de ${totalFullMoves}`;
+            msg += t('pgn.movesOf', { n: fullMoves, total: totalFullMoves });
             if (failedMove) {
-                msg += `\n⚠ Error en ${failedMove}`;
+                msg += '\n' + t('pgn.errorAt', { move: failedMove });
             }
+        } else {
+            msg += t('pgn.movesCount', { n: fullMoves });
         }
         if (headers['WhiteElo'] || headers['BlackElo']) {
             msg += `\nELO: ${headers['WhiteElo'] || '?'} / ${headers['BlackElo'] || '?'}`;
@@ -17516,7 +17549,7 @@ function parsePGNAndLoad(pgnRaw, gameTitle) {
             resolveAnalysisUCI(importedAnalysis);
             analysisErrorsList = importedAnalysis;
             analysisErrorsCurrentIndex = 0;
-            msg += '\n📊 Análisis Existente incluido en el PGN';
+            msg += '\n' + t('pgn.analysisIncluded');
         }
 
         showLoadedGameMessage(msg, isFinished, pgnResult);
@@ -18662,7 +18695,7 @@ function executeFreeTrainingMove(fromRow, fromCol, toRow, toCol, promotionPiece)
         trainingActive = false;
         trainingFreeMode = false;
         setGameButtonsDisabled(false);
-        showLoadedGameMessage('No hay más variantes en la base de datos', false);
+        showLoadedGameMessage(t('opening.noMoreVariants'), false);
         showContinueButton();
     }
 }
@@ -19939,7 +19972,7 @@ function updateMoveHistory() {
     historyDisplay.innerHTML = '';
     
     if (!game || !game.moveHistory || game.moveHistory.length === 0) {
-        historyDisplay.innerHTML = '<span style="color: #999; font-size: 0.85rem;">No hay movimientos</span>';
+        historyDisplay.innerHTML = '<span style="color: #999; font-size: 0.85rem;">' + t('msg.noMoves') + '</span>';
         updateNavigationButtons();
         return;
     }
