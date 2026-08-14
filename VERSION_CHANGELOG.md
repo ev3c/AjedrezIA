@@ -2,6 +2,21 @@
 
 ---
 
+## v3.6.03 — 2026-08-14
+
+### Correo
+- Los avisos de conexión y el feedback se entregan solo en info@ajedrezia.com.
+  Ya no se envían a ajedrezia@gmail.com (cuenta que no existe).
+
+---
+
+## v3.6.02 — 2026-08-14
+
+### Versiones
+- El historial de versiones se incrementa con cada cambio publicado.
+
+---
+
 ## v3.6.01 — 2026-08-13
 
 ### Idiomas

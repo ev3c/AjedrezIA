@@ -1,0 +1,17 @@
+---
+description: Incrementar VERSION_CHANGELOG en app.js en cada respuesta
+alwaysApply: true
+---
+
+# Historial de versiones en cada prompt
+
+Cada vez que respondas un prompt de este proyecto, **incrementa** `VERSION_CHANGELOG` en `app.js` y alinea `APP_VERSION` en `version.js`.
+
+## Cómo
+
+1. Sube el parche: `3.6.01` → `3.6.02` (o el actual + 1).
+2. Añade la clave nueva **al principio** de `VERSION_CHANGELOG` en `app.js`, con 1–6 viñetas en español de lo hecho en ese prompt y cierra con `'... y más mejoras en AjedrezIA ...'`.
+3. Pon el mismo número en `const APP_VERSION` de `version.js`.
+4. Si el cambio es visible para el usuario, añade también la entrada en `VERSION_CHANGELOG.md`.
+
+No omitas el incremento aunque el cambio sea pequeño. Si el prompt no modifica la app, igual registra una viñeta breve de lo acordado o configurado.

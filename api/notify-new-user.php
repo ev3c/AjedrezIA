@@ -36,7 +36,16 @@ define('SMTP_USER', 'info@ajedrezia.com');
 define('SMTP_PASS', 'Hostinguer.1993');
 define('SMTP_FROM', 'info@ajedrezia.com');
 define('SMTP_NAME', 'AjedrezIA');
-define('NOTIFY_TO', 'ajedrezia@gmail.com');
+define('NOTIFY_TO', 'info@ajedrezia.com');
+
+function notify_mail_to(): string {
+    $to = strtolower(trim(NOTIFY_TO));
+    $dead = ['ajedrezia@gmail.com', 'ajedrezia.com@gmail.com', 'ev3c.android@gmail.com'];
+    if ($to === '' || in_array($to, $dead, true)) {
+        return 'info@ajedrezia.com';
+    }
+    return NOTIFY_TO;
+}
 
 // ── Datos del usuario ─────────────────────────────────────────────────
 $typeRaw  = trim($data['type'] ?? 'reconnect');
@@ -167,11 +176,11 @@ function smtp_send(string $subject, string $body): bool {
     $s(base64_encode(SMTP_USER)); $r();
     $s(base64_encode(SMTP_PASS)); $r();
     $s('MAIL FROM:<' . SMTP_FROM . '>'); $r();
-    $s('RCPT TO:<'  . NOTIFY_TO  . '>'); $r();
+    $s('RCPT TO:<'  . notify_mail_to() . '>'); $r();
     $s('DATA'); $r();
 
     $msg  = 'From: ' . SMTP_NAME . ' <' . SMTP_FROM . ">\r\n";
-    $msg .= 'To: ' . NOTIFY_TO . "\r\n";
+    $msg .= 'To: ' . notify_mail_to() . "\r\n";
     $msg .= 'Subject: =?UTF-8?B?' . base64_encode($subject) . "?=\r\n";
     $msg .= "MIME-Version: 1.0\r\n";
     $msg .= "Content-Type: text/plain; charset=UTF-8\r\n";

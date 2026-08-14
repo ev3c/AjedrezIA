@@ -42,7 +42,16 @@ define('SMTP_USER', 'info@ajedrezia.com');
 define('SMTP_PASS', 'Hostinguer.1993');
 define('SMTP_FROM', 'info@ajedrezia.com');
 define('SMTP_NAME', 'AjedrezIA');
-define('FEEDBACK_TO', 'ajedrezia.com@gmail.com');
+define('FEEDBACK_TO', 'info@ajedrezia.com');
+
+function feedback_mail_to(): string {
+    $to = strtolower(trim(FEEDBACK_TO));
+    $dead = ['ajedrezia@gmail.com', 'ajedrezia.com@gmail.com', 'ev3c.android@gmail.com'];
+    if ($to === '' || in_array($to, $dead, true)) {
+        return 'info@ajedrezia.com';
+    }
+    return FEEDBACK_TO;
+}
 
 $ts = date('d/m/Y H:i:s');
 $ip = $_SERVER['HTTP_X_FORWARDED_FOR'] ?? $_SERVER['REMOTE_ADDR'] ?? 'desconocida';
@@ -72,11 +81,11 @@ function smtp_send_feedback(string $subject, string $body): bool {
     $s(base64_encode(SMTP_USER)); $r();
     $s(base64_encode(SMTP_PASS)); $r();
     $s('MAIL FROM:<' . SMTP_FROM . '>'); $r();
-    $s('RCPT TO:<'  . FEEDBACK_TO . '>'); $r();
+    $s('RCPT TO:<'  . feedback_mail_to() . '>'); $r();
     $s('DATA'); $r();
 
     $msg  = 'From: ' . SMTP_NAME . ' <' . SMTP_FROM . ">\r\n";
-    $msg .= 'To: ' . FEEDBACK_TO . "\r\n";
+    $msg .= 'To: ' . feedback_mail_to() . "\r\n";
     $msg .= 'Subject: =?UTF-8?B?' . base64_encode($subject) . "?=\r\n";
     $msg .= "MIME-Version: 1.0\r\n";
     $msg .= "Content-Type: text/plain; charset=UTF-8\r\n";

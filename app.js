@@ -27,14 +27,6 @@ const APPLE_REDIRECT_URI = IS_LOCAL
     ? 'http://localhost:8000/'
     : 'https://www.ajedrezia.com/';
 
-// ── EmailJS — rellena con tus credenciales de emailjs.com ─────────────
-const EMAILJS_PUBLIC_KEY  = 'dAMru_0p8fJMCiuKj';
-const EMAILJS_SERVICE_ID  = 'service_nrzs4zq';
-const EMAILJS_TEMPLATE_ID = 'template_3627zca';
-const EMAILJS_TO_EMAIL    = 'ajedrezia@gmail.com';
-// ─────────────────────────────────────────────────────────────────────
-// ─────────────────────────────────────────────────────────────────────────────
-
 // ─────────────────────────────────────────────────────────
 // SISTEMA DE SONIDO — Web Audio API (sin archivos externos)
 // ─────────────────────────────────────────────────────────
@@ -7853,7 +7845,7 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
-    '3.6.01': [
+    '3.6.03': [
         'Nuevos idiomas en Configuración → Idioma: Deutsch, Français, Italiano, Português, 中文, Русский, العربية, 日本語, हिन्दी y 한국어',
         'Smartphone Android: Atrás cierra desplegables, paneles y modales en modo responsive antes de preguntar si quieres salir',
         '... y más mejoras en AjedrezIA ...',
@@ -8951,80 +8943,14 @@ function saveUserToDB(user, isFirstLoginLocal) {
     });
 }
 
-function fetchOriginCountry() {
-    const ctrl = typeof AbortController === 'function' ? new AbortController() : null;
-    const timer = setTimeout(function() {
-        if (ctrl) ctrl.abort();
-    }, 2500);
-    const opts = { cache: 'no-store' };
-    if (ctrl) opts.signal = ctrl.signal;
-    return fetch('https://get.geojs.io/v1/ip/geo.json', opts)
-        .then(function(r) { return r.ok ? r.json() : null; })
-        .then(function(data) {
-            clearTimeout(timer);
-            if (!data) return '';
-            const code = String(data.country || '').toUpperCase();
-            if (!code || code === 'XX') return data.country_name || data.name || '';
-            let name = data.country_name || data.name || code;
-            try {
-                name = new Intl.DisplayNames(['es'], { type: 'region' }).of(code) || name;
-            } catch (e) {}
-            return name + ' (' + code + ')';
-        })
-        .catch(function() {
-            clearTimeout(timer);
-            return '';
-        });
-}
-
 function notifyUserConnection(user, type) {
-    if (!user) return;
+    if (!user || IS_LOCAL) return;
 
-    const messages = {
-        new: {
-            subject: 'Nueva conexión en AjedrezIA',
-            intro: 'Se ha conectado un NUEVO usuario en AjedrezIA.'
-        },
-        reconnect: {
-            subject: 'Reconexión en AjedrezIA',
-            intro: 'Un usuario registrado se ha vuelto a conectar en AjedrezIA.'
-        },
-        open: {
-            subject: 'Abrir AjedrezIA',
-            intro: 'Un usuario con una sesión ya registrada ha vuelto a abrir AjedrezIA.'
-        },
-        logout: {
-            subject: 'Sesión cerrada en AjedrezIA',
-            intro: 'Un usuario ha cerrado sesión en AjedrezIA.'
-        }
-    };
-    const message = messages[type] || messages.reconnect;
-    const ts = new Date().toLocaleString('es-ES', { timeZone: 'Europe/Madrid' });
     const origin = (type === 'open') ? getAppOpenOriginInfo() : null;
-
-    const sendNotice = function(country) {
-        const bodyLines = [
-            message.intro,
-            '────────────────────────────────',
-            'E-mail registrado : ' + (user.email    || '—'),
-            'Nombre completo   : ' + (user.name     || '—'),
-            'Proveedor OAuth   : ' + (user.provider || '—').toUpperCase(),
-            'ID de usuario     : ' + (user.id       || '—'),
-            'Fecha y hora      : ' + ts,
-            'País de origen    : ' + (country || 'desconocido'),
-        ];
-        if (origin) {
-            bodyLines.push('Tipo de enlace    : ' + (origin.type || 'www.ajedrezia.com'));
-            if (origin.detail) bodyLines.push('Detalle enlace    : ' + origin.detail);
-            bodyLines.push('URL de origen     : ' + (origin.url || '—'));
-        }
-        bodyLines.push(
-            '────────────────────────────────',
-            'AjedrezIA — https://www.ajedrezia.com/'
-        );
-        const body = bodyLines.join('\n');
-
-        const payload = {
+    fetch(BASE_PATH + 'api/notify-new-user.php', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
             type:     type || 'reconnect',
             email:    user.email    || '',
             name:     user.name     || '',
@@ -9033,38 +8959,8 @@ function notifyUserConnection(user, type) {
             origin_type:   origin ? (origin.type || '') : '',
             origin_detail: origin ? (origin.detail || '') : '',
             origin_url:    origin ? (origin.url || '') : '',
-        };
-
-        const sendWithServer = function() {
-            if (IS_LOCAL) return Promise.reject(new Error('Servidor no disponible en local'));
-            return fetch(BASE_PATH + 'api/notify-new-user.php', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(payload),
-            }).then(function(response) {
-                if (!response.ok) throw new Error('Error HTTP ' + response.status);
-                return response.json();
-            }).then(function(result) {
-                if (!result || !result.ok) throw new Error('El servidor no pudo enviar el aviso');
-                return result;
-            });
-        };
-
-        if (typeof emailjs === 'undefined') {
-            sendWithServer().catch(function() {});
-            return;
-        }
-        emailjs.init({ publicKey: EMAILJS_PUBLIC_KEY });
-        emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, {
-            to_email: EMAILJS_TO_EMAIL,
-            subject:  message.subject,
-            body:     body,
-        }).catch(function() {
-            sendWithServer().catch(function() {});
-        });
-    };
-
-    fetchOriginCountry().then(sendNotice);
+        }),
+    }).catch(function() {});
 }
 
 function clearOnlineUser() {
