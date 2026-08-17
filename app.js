@@ -7845,6 +7845,11 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '3.6.08': [
+        'Los bots online usan los mismos ELO que el menú Nivel de dificultad: 400, 600, 800, 1000, 1200, 1500, 1800 y 2200',
+        'El vídeo de un problema muestra una cuenta atrás de 5 segundos sobre el tablero antes de la solución',
+        '... y más mejoras en AjedrezIA ...',
+    ],
     '3.6.03': [
         'Nuevos idiomas en Configuración → Idioma: Deutsch, Français, Italiano, Português, 中文, Русский, العربية, 日本語, हिन्दी y 한국어',
         'Smartphone Android: Atrás cierra desplegables, paneles y modales en modo responsive antes de preguntar si quieres salir',
@@ -8757,7 +8762,7 @@ function rememberKnownOnlineUser(userId) {
 const APP_OPEN_NOTIFY_MIN_MS = 5 * 60 * 1000;
 const APP_LAST_OPEN_KEY = 'ajedrezia_last_open_at';
 
-/** Solo avisa «Abrir AjedrezIA» si pasaron ≥5 min desde la última apertura. */
+/** Avisa «Acceso a la web» en la primera apertura y si pasaron ≥5 min. */
 function shouldNotifyAppOpen() {
     const now = Date.now();
     let lastOpen = 0;
@@ -8765,7 +8770,7 @@ function shouldNotifyAppOpen() {
         lastOpen = parseInt(localStorage.getItem(APP_LAST_OPEN_KEY) || '0', 10) || 0;
     } catch (e) {}
 
-    const shouldNotify = lastOpen > 0 && (now - lastOpen) >= APP_OPEN_NOTIFY_MIN_MS;
+    const shouldNotify = lastOpen === 0 || (now - lastOpen) >= APP_OPEN_NOTIFY_MIN_MS;
     try {
         localStorage.setItem(APP_LAST_OPEN_KEY, String(now));
     } catch (e) {}
@@ -8944,18 +8949,19 @@ function saveUserToDB(user, isFirstLoginLocal) {
 }
 
 function notifyUserConnection(user, type) {
-    if (!user || IS_LOCAL) return;
+    if (IS_LOCAL) return;
+    if (!user && type !== 'access' && type !== 'open') return;
 
-    const origin = (type === 'open') ? getAppOpenOriginInfo() : null;
+    const origin = (type === 'open' || type === 'access') ? getAppOpenOriginInfo() : null;
     fetch(BASE_PATH + 'api/notify-new-user.php', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
             type:     type || 'reconnect',
-            email:    user.email    || '',
-            name:     user.name     || '',
-            provider: user.provider || '',
-            id:       user.id       || '',
+            email:    (user && user.email)    || '',
+            name:     (user && user.name)     || '',
+            provider: (user && user.provider) || '',
+            id:       (user && user.id)       || '',
             origin_type:   origin ? (origin.type || '') : '',
             origin_detail: origin ? (origin.detail || '') : '',
             origin_url:    origin ? (origin.url || '') : '',
@@ -9040,13 +9046,7 @@ function stopHeartbeat() {
 }
 
 function isUserBusy() {
-    // Ocupado jugando online
-    if (_onlineGame && _onlineGame.status === 'active') return true;
-    // Ocupado jugando vs IA (hay movimientos, partida no terminada, no modo persona vs persona)
-    if (game && !game.gameOver
-        && game.moveHistory && game.moveHistory.length > 0
-        && playerColor !== 'both') return true;
-    return false;
+    return !!(_onlineGame && _onlineGame.status === 'active');
 }
 
 function sendHeartbeat() {
@@ -9474,13 +9474,13 @@ function timeLabelFor(tc) { return t('tc.' + tc, null, TIME_LABELS[tc] || tc); }
 // local con el nivel asociado (mismo motor que "Nueva Partida → IA").
 const BOT_USERS = [
     { id: 'bot_400',  nick: 'Bot_400',  elo: 400,  level: 1 },
-    { id: 'bot_700',  nick: 'Bot_700',  elo: 700,  level: 2 },
-    { id: 'bot_1000', nick: 'Bot_1000', elo: 1000, level: 3 },
-    { id: 'bot_1200', nick: 'Bot_1200', elo: 1200, level: 4 },
-    { id: 'bot_1500', nick: 'Bot_1500', elo: 1500, level: 5 },
-    { id: 'bot_1800', nick: 'Bot_1800', elo: 1800, level: 6 },
-    { id: 'bot_2200', nick: 'Bot_2200', elo: 2200, level: 7 },
-    { id: 'bot_2500', nick: 'Bot_2500', elo: 2500, level: 8 },
+    { id: 'bot_600',  nick: 'Bot_600',  elo: 600,  level: 2 },
+    { id: 'bot_800',  nick: 'Bot_800',  elo: 800,  level: 3 },
+    { id: 'bot_1000', nick: 'Bot_1000', elo: 1000, level: 4 },
+    { id: 'bot_1200', nick: 'Bot_1200', elo: 1200, level: 5 },
+    { id: 'bot_1500', nick: 'Bot_1500', elo: 1500, level: 6 },
+    { id: 'bot_1800', nick: 'Bot_1800', elo: 1800, level: 7 },
+    { id: 'bot_2200', nick: 'Bot_2200', elo: 2200, level: 8 },
 ];
 
 function isBotId(id) {
@@ -9496,8 +9496,7 @@ function getBotById(id) {
 // ya los devolviera, se eliminan duplicados (gana la versión sintética).
 function withBots(users) {
     const list = Array.isArray(users) ? users.slice() : [];
-    const botIds = new Set(BOT_USERS.map(function(b) { return b.id; }));
-    const filtered = list.filter(function(u) { return !botIds.has(String(u.id).toLowerCase()); });
+    const filtered = list.filter(function(u) { return !isBotId(u.id); });
     const bots = BOT_USERS.map(function(b) {
         return {
             id: b.id,
@@ -10101,6 +10100,7 @@ function startOnlineGame(opponent, myColor, timeControl, gameId) {
     if (typeof startNewGame === 'function') startNewGame({ fromOnlineStart: true });
     startOnlineGamePolling();
     updateOnlineBanner();
+    sendHeartbeat();
     // Bloquear acciones que no deben usarse durante una partida online
     setOnlineActionsLocked(true);
     // Abrir panel de chat con el oponente (sólo visible en modo PC por CSS)
@@ -10381,6 +10381,7 @@ function leaveOnlineGame(reason) {
     _onlineGame = null;
     updateOnlineBanner();
     setOnlineActionsLocked(false);
+    sendHeartbeat();
     // Cerrar el chat (se mantendría visible pero vacío si no lo cerramos)
     closeOnlineChat();
 }
@@ -11589,12 +11590,12 @@ async function signInWithApple() {
         updateOnlineButtonTooltip();
         updateLoginStatusButton();
         updateAppAccessLock();
-        if (getOnlineUser()) {
+        if (existingUser) {
             rememberKnownOnlineUser(existingUser.id);
-            if (shouldNotifyAppOpen()) {
-                notifyUserConnection(existingUser, 'open');
-            }
             startHeartbeat();
+        }
+        if (shouldNotifyAppOpen()) {
+            notifyUserConnection(existingUser, 'access');
         }
     });
 })();
@@ -16618,6 +16619,25 @@ function loadShareVideoFrame(dataUrl) {
     });
 }
 
+function drawShareVideoCountdownOverlay(ctx, size, number) {
+    ctx.save();
+    ctx.fillStyle = 'rgba(0, 0, 0, 0.34)';
+    ctx.fillRect(0, 0, size, size);
+    const fontSize = Math.round(size * 0.22);
+    ctx.font = `700 ${fontSize}px system-ui, "Segoe UI", sans-serif`;
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.lineJoin = 'round';
+    ctx.miterLimit = 2;
+    ctx.lineWidth = Math.max(6, Math.round(size * 0.014));
+    ctx.strokeStyle = 'rgba(0, 0, 0, 0.85)';
+    ctx.fillStyle = '#ffffff';
+    const text = String(number);
+    ctx.strokeText(text, size / 2, size / 2);
+    ctx.fillText(text, size / 2, size / 2);
+    ctx.restore();
+}
+
 function updateShareVideoStatus(text, progress) {
     const status = document.getElementById('share-video-status');
     const fill = document.getElementById('share-video-progress-fill');
@@ -16674,9 +16694,17 @@ async function generateShareVideo() {
         // obtiene un único vídeo finalizado con toda su línea temporal.
         recorder.start();
 
+        const abortIfCancelled = async () => {
+            if (generation === shareVideoGeneration) return;
+            recorder.stop();
+            await stopped;
+            throw new Error(t('share.videoCancelled'));
+        };
+
         const holdRecordedFrame = async (image, duration) => {
             const deadline = performance.now() + duration;
             while (performance.now() < deadline) {
+                await abortIfCancelled();
                 const remaining = deadline - performance.now();
                 await new Promise(resolve => setTimeout(resolve, Math.min(200, Math.max(1, remaining))));
                 // Repintar el mismo plano obliga a MediaRecorder a conservar
@@ -16684,6 +16712,23 @@ async function generateShareVideo() {
                 context.drawImage(image, 0, 0, canvas.width, canvas.height);
                 if (videoTrack && typeof videoTrack.requestFrame === 'function') {
                     videoTrack.requestFrame();
+                }
+            }
+        };
+
+        const holdRecordedFrameWithCountdown = async (image, seconds) => {
+            for (let n = seconds; n >= 1; n--) {
+                await abortIfCancelled();
+                const deadline = performance.now() + 1000;
+                while (performance.now() < deadline) {
+                    await abortIfCancelled();
+                    const remaining = deadline - performance.now();
+                    await new Promise(resolve => setTimeout(resolve, Math.min(200, Math.max(1, remaining))));
+                    context.drawImage(image, 0, 0, canvas.width, canvas.height);
+                    drawShareVideoCountdownOverlay(context, canvas.width, n);
+                    if (videoTrack && typeof videoTrack.requestFrame === 'function') {
+                        videoTrack.requestFrame();
+                    }
                 }
             }
         };
@@ -16703,11 +16748,7 @@ async function generateShareVideo() {
         // Ritmo pausado para que cada jugada pueda verse con claridad.
         const frameDuration = frames.length > 40 ? 900 : (frames.length > 15 ? 1300 : 1800);
         for (let index = 0; index < frames.length; index++) {
-            if (generation !== shareVideoGeneration) {
-                recorder.stop();
-                await stopped;
-                throw new Error(t('share.videoCancelled'));
-            }
+            await abortIfCancelled();
             const frame = frames[index];
             const dataUrl = await renderShareBoardDataURL({
                 ...frame,
@@ -16735,10 +16776,15 @@ async function generateShareVideo() {
                 ((index + 2) / totalFrames) * 100
             );
             const isFinalFrame = index === frames.length - 1;
+            if (shareContext === 'problema' && index === 0) {
+                await holdRecordedFrameWithCountdown(image, 5);
+                if (isFinalFrame) await holdRecordedFrame(image, 5000);
+                continue;
+            }
             const currentFrameDuration = isFinalFrame
                 ? 5000
                 : index === 0
-                    ? (shareContext === 'problema' ? 6000 : 2000)
+                    ? 2000
                     : frameDuration;
             await holdRecordedFrame(image, currentFrameDuration);
         }
@@ -18081,6 +18127,7 @@ function startClock() {
                     stopOnlineGamePolling();
                     updateOnlineBanner();
                     setOnlineActionsLocked(false);
+                    sendHeartbeat();
                 }
                 updateUndoButton();
                 showBoardBanner(t('banner.timeoutBlack') + formatEloDelta(eloDelta), 'checkmate');
@@ -18106,6 +18153,7 @@ function startClock() {
                     stopOnlineGamePolling();
                     updateOnlineBanner();
                     setOnlineActionsLocked(false);
+                    sendHeartbeat();
                 }
                 updateUndoButton();
                 showBoardBanner(t('banner.timeoutWhite') + formatEloDelta(eloDelta), 'checkmate');
@@ -20357,6 +20405,7 @@ function handleGameResult(result) {
         stopOnlineGamePolling();
         updateOnlineBanner();
         setOnlineActionsLocked(false);
+        sendHeartbeat();
     }
 }
 

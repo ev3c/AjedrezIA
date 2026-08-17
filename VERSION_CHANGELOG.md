@@ -2,6 +2,48 @@
 
 ---
 
+## v3.6.08 — 2026-08-17
+
+### Online
+- Los bots de la lista (Bot_400 … Bot_2200) coinciden con los ELO del
+  menú Nivel de dificultad: 400, 600, 800, 1000, 1200, 1500, 1800 y
+  2200.
+
+---
+
+## v3.6.07 — 2026-08-17
+
+### Online
+- Un jugador real aparece como ocupado solo si está jugando una partida
+  online. Jugar contra la IA, problemas o aperturas no lo marca ocupado.
+
+---
+
+## v3.6.06 — 2026-08-17
+
+### Avisos
+- Al abrir AjedrezIA se envía a info@ajedrezia.com el aviso «Acceso a
+  la web», tanto si hay sesión como si el visitante aún no ha entrado.
+
+---
+
+## v3.6.05 — 2026-08-16
+
+### Vídeo
+- El número de la cuenta atrás en los vídeos de problemas es más
+  pequeño, para tapar menos el tablero.
+
+---
+
+## v3.6.04 — 2026-08-16
+
+### Vídeo
+- En los problemas de ajedrez, el vídeo muestra una cuenta atrás de 5
+  segundos (5, 4, 3, 2, 1) sobre el tablero antes de reproducir la
+  solución.
+
+---
+
 ## v3.6.03 — 2026-08-14
 
 ### Correo

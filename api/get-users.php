@@ -38,17 +38,31 @@ $rows = $pdo->query("
         name,
         elo,
         last_login,
-        CASE WHEN last_seen >= DATE_SUB(NOW(), INTERVAL 90 SECOND) THEN 1 ELSE 0 END AS online,
-        COALESCE(status, 'available') AS status
+        CASE WHEN last_seen >= DATE_SUB(NOW(), INTERVAL 90 SECOND) THEN 1 ELSE 0 END AS online
     FROM ajedrezia_users
     ORDER BY online DESC, elo DESC
 ")->fetchAll(PDO::FETCH_ASSOC);
 
-$users = array_map(function($r) {
+$inGameIds = [];
+try {
+    $gameRows = $pdo->query("
+        SELECT white_id, black_id
+        FROM ajedrezia_games
+        WHERE status = 'active'
+    ")->fetchAll(PDO::FETCH_ASSOC);
+    foreach ($gameRows as $g) {
+        if (!empty($g['white_id'])) $inGameIds[$g['white_id']] = true;
+        if (!empty($g['black_id'])) $inGameIds[$g['black_id']] = true;
+    }
+} catch (PDOException $e) { /* tabla aún no creada */ }
+
+$users = array_map(function($r) use ($inGameIds) {
     $nick   = strstr($r['email'], '@', true) ?: $r['name'] ?: '?';
     $online = (bool)$r['online'];
-    // Si el heartbeat expiró el usuario ya no está online, status pasa a 'offline'
-    $status = $online ? ($r['status'] ?: 'available') : 'offline';
+    // Un jugador real solo aparece ocupado si tiene una partida online activa.
+    $status = $online
+        ? (isset($inGameIds[$r['id']]) ? 'busy' : 'available')
+        : 'offline';
     return [
         'id'         => $r['id'],
         'nick'       => $nick,
@@ -66,13 +80,13 @@ $users = array_map(function($r) {
 // con el nivel correspondiente al ELO del bot.
 $bots = [
     ['id'=>'bot_400',  'nick'=>'Bot_400',  'elo'=>400 ],
-    ['id'=>'bot_700',  'nick'=>'Bot_700',  'elo'=>700 ],
+    ['id'=>'bot_600',  'nick'=>'Bot_600',  'elo'=>600 ],
+    ['id'=>'bot_800',  'nick'=>'Bot_800',  'elo'=>800 ],
     ['id'=>'bot_1000', 'nick'=>'Bot_1000', 'elo'=>1000],
     ['id'=>'bot_1200', 'nick'=>'Bot_1200', 'elo'=>1200],
     ['id'=>'bot_1500', 'nick'=>'Bot_1500', 'elo'=>1500],
     ['id'=>'bot_1800', 'nick'=>'Bot_1800', 'elo'=>1800],
     ['id'=>'bot_2200', 'nick'=>'Bot_2200', 'elo'=>2200],
-    ['id'=>'bot_2500', 'nick'=>'Bot_2500', 'elo'=>2500],
 ];
 foreach ($bots as $b) {
     $users[] = [

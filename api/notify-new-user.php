@@ -24,8 +24,11 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST')    { http_response_code(405); echo js
 
 $raw  = file_get_contents('php://input');
 $data = json_decode($raw, true);
-$isGuest = ($data['provider'] ?? '') === 'guest';
-if (!$data || (empty($data['email']) && !$isGuest && empty($data['id']))) {
+if (!is_array($data)) $data = [];
+$typeRaw  = trim($data['type'] ?? 'reconnect');
+$isGuest  = ($data['provider'] ?? '') === 'guest';
+$isAccess = in_array($typeRaw, ['access', 'acceso', 'open', 'web'], true);
+if (empty($data['email']) && !$isGuest && empty($data['id']) && !$isAccess) {
     http_response_code(400); echo json_encode(['ok'=>false,'error'=>'Missing data']); exit;
 }
 
@@ -48,13 +51,15 @@ function notify_mail_to(): string {
 }
 
 // ── Datos del usuario ─────────────────────────────────────────────────
-$typeRaw  = trim($data['type'] ?? 'reconnect');
 $typeMap  = [
     'new'       => 'new',
     'nuevo'     => 'new',
     'reconnect' => 'reconnect',
     'login'     => 'reconnect',
-    'open'      => 'open',
+    'open'      => 'access',
+    'access'    => 'access',
+    'acceso'    => 'access',
+    'web'       => 'access',
     'logout'    => 'logout',
 ];
 $type     = $typeMap[$typeRaw] ?? 'reconnect';
@@ -78,9 +83,9 @@ $messages = [
         'subject' => 'Reconexión en AjedrezIA',
         'intro'   => 'Un usuario registrado se ha vuelto a conectar en AjedrezIA.',
     ],
-    'open' => [
-        'subject' => 'Abrir AjedrezIA',
-        'intro'   => 'Un usuario con una sesión ya registrada ha vuelto a abrir AjedrezIA.',
+    'access' => [
+        'subject' => 'Acceso a la web',
+        'intro'   => 'Alguien ha abierto AjedrezIA.',
     ],
     'logout' => [
         'subject' => 'Sesión cerrada en AjedrezIA',
@@ -90,16 +95,18 @@ $messages = [
 $subjectTxt = $messages[$type]['subject'];
 $introTxt   = $messages[$type]['intro'];
 
+$hasSession = ($email !== '' || $uid !== '' || $provider !== '');
 $body  = $introTxt . "\n\n";
 $body .= "────────────────────────────────\n";
-$body .= "E-mail registrado : {$email}\n";
-$body .= "Nombre completo   : {$name}\n";
-$body .= "Proveedor OAuth   : " . strtoupper($provider) . "\n";
-$body .= "ID de usuario     : {$uid}\n";
+$body .= "Sesión            : " . ($hasSession ? 'iniciada' : 'no iniciada') . "\n";
+$body .= "E-mail registrado : " . ($email !== '' ? $email : '—') . "\n";
+$body .= "Nombre completo   : " . ($name !== '' ? $name : '—') . "\n";
+$body .= "Proveedor OAuth   : " . ($provider !== '' ? strtoupper($provider) : '—') . "\n";
+$body .= "ID de usuario     : " . ($uid !== '' ? $uid : '—') . "\n";
 $body .= "Fecha y hora      : {$ts}\n";
 $body .= "IP de origen      : {$ip}\n";
 $body .= "País de origen    : {$country}\n";
-if ($type === 'open') {
+if ($type === 'access') {
     $body .= "Tipo de enlace    : " . ($originType !== '' ? $originType : 'www.ajedrezia.com') . "\n";
     if ($originDetail !== '') {
         $body .= "Detalle enlace    : {$originDetail}\n";
