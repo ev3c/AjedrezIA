@@ -1,0 +1,13 @@
+[Event "Live Chess"]
+[Site "AjedrezIA v3.6.09"]
+[Date "2026-08-24"]
+[White "Faustino Oro"]
+[Black "Magnus Carlsen"]
+[Result "1-0"]
+[PlyCount "87"]
+[WhiteElo "3283"]
+[BlackElo "3294"]
+[Round "5"]
+[ECO "B40"]
+
+1. e4 c5 2. Nf3 e6 3. d3 Nc6 4. g3 d5 5. Qe2 Nf6 6. Bg2 Be7 7. O-O O-O 8. e5 Ne8 9. c4 b5 10. cxb5 Na5 11. Nc3 a6 12. Bd2 axb5 13. Nxb5 Ba6 14. Nc3 Nc6 15. Rfd1 Qb8 16. b3 Nc7 17. Bf1 Nb5 18. Nxb5 Bxb5 19. Bc3 Ra3 20. Bb2 Ra7 21. Bc3 h6 22. h4 Qb7 23. Qd2 Rfa8 24. a4 Ba6 25. Rab1 d4 26. Bb2 Qxb3 27. Bxd4 Qxa4 28. Be3 Nb4 29. d4 Bxf1 30. Rxf1 Qc6 31. dxc5 Nd5 32. Nd4 Qc8 33. c6 Ra2 34. Qd3 Nxe3 35. Qxe3 Bc5 36. Rfc1 R2a5 37. Qe4 Bxd4 38. Qxd4 Rd5 39. Qb6 Qf8 40. c7 Rc8 41. Qb7 Rd7 42. Qxc8 Qxc8 43. Rb8 Rxc7 44. Rxc8+ 1-0

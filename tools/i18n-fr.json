@@ -1483,5 +1483,6 @@
   "op.escocesa-gambito.name": "Gambit écossais",
   "op.escocesa-gambito.desc": "Un gambit qui sacrifie d4 pour le développement et le contrôle de f7. Semblable au gambit danois, avec un jeu ouvert et tactique.",
   "op.holandesa-staunton.name": "Gambit Staunton",
-  "op.holandesa-staunton.desc": "Un gambit agressif qui cherche à ouvrir des lignes contre le roi noir affaibli par ...f5. Jeu tactique avec compensation pour le pion."
+  "op.holandesa-staunton.desc": "Un gambit agressif qui cherche à ouvrir des lignes contre le roi noir affaibli par ...f5. Jeu tactique avec compensation pour le pion.",
+  "opening.tapVariant": "Appuie pour voir la variante"
 }

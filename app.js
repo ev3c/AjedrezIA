@@ -273,6 +273,7 @@ function calcEloChange(playerElo, opponentElo, result, gamesPlayed) {
 function applyEloChange(delta) {
     stats.elo = Math.max(100, stats.elo + delta);
     saveStats();
+    pushEloToServer();
     const el = document.getElementById('stat-elo');
     if (el) {
         el.textContent = stats.elo;
@@ -1998,6 +1999,10 @@ const FAMOUS_GAMES = {
     'nakamura-carlsen-16': {
         name: 'Nakamura vs Carlsen, Zúrich 2014 — Defensa tenaz',
         pgn: '[Event "Zurich Chess Challenge"]\n[Site "Zurich"]\n[Date "2014.02.01"]\n[White "Hikaru Nakamura"]\n[Black "Magnus Carlsen"]\n[WhiteElo "2772"]\n[BlackElo "2881"]\n[Result "0-1"]\n\n1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.f3 d5 5.a3 Be7 6.e4 dxe4 7.fxe4 e5 8.d5 Bc5 9.Bg5 O-O 10.Nf3 Bg4 11.h3 Bxf3 12.Qxf3 Nbd7 13.O-O-O Bd4 14.Ne2 c5 15.g4 a5 16.Kb1 Ra6 17.Ng3 g6 18.h4 a4 19.Rh2 Qa5 20.Bd2 Qc7 21.g5 Ne8 22.h5 Rb6 23.Bc1 Rb3 24.Qg4 Nb6 25.Be2 Nd6 26.Rdh1 Bxb2 27.Bxb2 Nbxc4 28.Bxc4 Nxc4 29.hxg6 Qb6 30.g7 Rd8 31.Qh4 Rxb2+ 32.Ka1 Rxh2 33.Rxh2 Qg6 34.Nf5 Re8 35.Qg4 Qb6 36.Qh3 Qg6 37.d6 Nxd6 38.Nxd6 Rd8 39.Nc4 Qxe4 40.Qh5 Rd3 41.Rh4 Qf5 42.Qe2 b5 43.Nd2 Qxg5 44.Qxd3 Qxh4 45.Ne4 Kxg7 46.Qf3 Qf4 47.Qg2+ Kf8 48.Kb2 h5 49.Nd2 h4 50.Kc2 b4 51.axb4 cxb4 52.Qa8+ Kg7 53.Qxa4 h3 54.Qb3 h2 55.Qd5 e4 56.Qh5 e3 57.Nf3 e2 58.Kb3 f6 59.Ne1 Qg3+ 60.Ka4 Qg1 61.Qxe2 Qa7+ 0-1'
+    },
+    'oro-carlsen-2026': {
+        name: 'Faustino Oro vs Magnus Carlsen, 2026',
+        pgn: '[Event "Live Chess"]\n[Site "AjedrezIA"]\n[Date "2026.08.24"]\n[Round "5"]\n[White "Faustino Oro"]\n[Black "Magnus Carlsen"]\n[WhiteElo "3283"]\n[BlackElo "3294"]\n[Result "1-0"]\n[ECO "B40"]\n[PlyCount "87"]\n\n1. e4 c5 2. Nf3 e6 3. d3 Nc6 4. g3 d5 5. Qe2 Nf6 6. Bg2 Be7 7. O-O O-O 8. e5 Ne8 9. c4 b5 10. cxb5 Na5 11. Nc3 a6 12. Bd2 axb5 13. Nxb5 Ba6 14. Nc3 Nc6 15. Rfd1 Qb8 16. b3 Nc7 17. Bf1 Nb5 18. Nxb5 Bxb5 19. Bc3 Ra3 20. Bb2 Ra7 21. Bc3 h6 22. h4 Qb7 23. Qd2 Rfa8 24. a4 Ba6 25. Rab1 d4 26. Bb2 Qxb3 27. Bxd4 Qxa4 28. Be3 Nb4 29. d4 Bxf1 30. Rxf1 Qc6 31. dxc5 Nd5 32. Nd4 Qc8 33. c6 Ra2 34. Qd3 Nxe3 35. Qxe3 Bc5 36. Rfc1 R2a5 37. Qe4 Bxd4 38. Qxd4 Rd5 39. Qb6 Qf8 40. c7 Rc8 41. Qb7 Rd7 42. Qxc8 Qxc8 43. Rb8 Rxc7 44. Rxc8+ 1-0'
     },
     // ── FIDE Candidates 2026 Cyprus ─────────────────────────────────────
     'cand26-caruana-nakamura-r1': {
@@ -4426,6 +4431,20 @@ function applyMovesFromQueryString() {
     }
     selectedSquare = null;
     currentMoveIndex = -1;
+    shareContext = 'partida';
+    stopClock();
+    const positionFinished = !!(game.isCheckmate && game.isCheckmate())
+        || !!(game.isStalemate && game.isStalemate());
+    game.gameOver = true;
+    game.shareResult = positionFinished
+        ? (game.isCheckmate()
+            ? (game.currentTurn === 'white' ? '0-1' : '1-0')
+            : '1/2-1/2')
+        : '*';
+    // Blancas abajo, igual que un PGN cargado: se mira la partida, no se sigue.
+    manualBoardFlipped = playerColor === 'black';
+    const flipBoardBtn = document.getElementById('flip-board-btn');
+    if (flipBoardBtn) flipBoardBtn.classList.toggle('flipped', manualBoardFlipped);
     renderBoard();
     if (lastMoveSquares.from && lastMoveSquares.to) {
         showMoveArrow(lastMoveSquares.from.row, lastMoveSquares.from.col,
@@ -4436,12 +4455,9 @@ function applyMovesFromQueryString() {
     updateUndoButton();
     updateEvalBar();
     updateNavigationButtons();
-    shareContext = 'partida';
+    showLoadedGameMessage(t('share.myGame'), positionFinished, game.shareResult);
+    showContinueButton();
     updateShareButton();
-    if (!game.gameOver && playerColor !== 'both' && game.currentTurn !== playerColor) {
-        const _aiGen = gameGeneration;
-        setTimeout(function () { makeAIMove(_aiGen); }, 500);
-    }
     try {
         history.replaceState(history.state, '', window.location.pathname + (window.location.hash || ''));
     } catch (e) { /* file:// o restricción */ }
@@ -5735,8 +5751,115 @@ function getOpeningVariants(history) {
     return variants;
 }
 
+let _openingPreviewSnapshot = null;
+let _openingPreviewRestoreTimer = null;
+
+function beginOpeningPositionPreview() {
+    if (_openingPreviewSnapshot || !game) return;
+    _openingPreviewSnapshot = {
+        board: JSON.parse(JSON.stringify(game.board)),
+        currentTurn: game.currentTurn,
+        capturedPieces: JSON.parse(JSON.stringify(game.capturedPieces)),
+        enPassantTarget: game.enPassantTarget ? { ...game.enPassantTarget } : null,
+        castlingRights: JSON.parse(JSON.stringify(game.castlingRights)),
+        lastMoveSquares: lastMoveSquares && lastMoveSquares.from
+            ? {
+                from: { row: lastMoveSquares.from.row, col: lastMoveSquares.from.col },
+                to: { row: lastMoveSquares.to.row, col: lastMoveSquares.to.col }
+            }
+            : { from: null, to: null }
+    };
+}
+
+function endOpeningPositionPreview() {
+    if (_openingPreviewRestoreTimer) {
+        clearTimeout(_openingPreviewRestoreTimer);
+        _openingPreviewRestoreTimer = null;
+    }
+    if (!_openingPreviewSnapshot || !game) {
+        _openingPreviewSnapshot = null;
+        return;
+    }
+    const s = _openingPreviewSnapshot;
+    game.board = s.board;
+    game.currentTurn = s.currentTurn;
+    game.capturedPieces = s.capturedPieces;
+    game.enPassantTarget = s.enPassantTarget;
+    game.castlingRights = s.castlingRights;
+    lastMoveSquares = s.lastMoveSquares;
+    _openingPreviewSnapshot = null;
+    renderBoard();
+    updateCapturedPieces();
+    const prevArrow = document.getElementById('move-arrow-svg');
+    if (prevArrow) prevArrow.remove();
+    if (lastMoveSquares.from && lastMoveSquares.to) {
+        showMoveArrow(
+            lastMoveSquares.from.row, lastMoveSquares.from.col,
+            lastMoveSquares.to.row, lastMoveSquares.to.col
+        );
+    }
+}
+
+function scheduleEndOpeningPositionPreview() {
+    if (_openingPreviewRestoreTimer) clearTimeout(_openingPreviewRestoreTimer);
+    _openingPreviewRestoreTimer = setTimeout(function () {
+        _openingPreviewRestoreTimer = null;
+        endOpeningPositionPreview();
+        clearVariantHighlight();
+    }, 50);
+}
+
+function previewOpeningUciLine(uciMoves, highlightUci, arrowColor) {
+    if (!game || typeof ChessGame !== 'function') return false;
+    if (_openingPreviewRestoreTimer) {
+        clearTimeout(_openingPreviewRestoreTimer);
+        _openingPreviewRestoreTimer = null;
+    }
+    beginOpeningPositionPreview();
+    const tmp = new ChessGame();
+    let lastOk = null;
+    const list = Array.isArray(uciMoves) ? uciMoves : [];
+    for (let i = 0; i < list.length; i++) {
+        const uci = list[i];
+        if (!uci || uci.length < 4) continue;
+        const c = puzzleUCItoCoords(uci);
+        const prom = uci.length > 4 ? mapUciPromoToPiece(uci[4]) : undefined;
+        if (!tmp.makeMove(c.fromRow, c.fromCol, c.toRow, c.toCol, prom)) break;
+        lastOk = uci;
+    }
+    game.board = JSON.parse(JSON.stringify(tmp.board));
+    game.currentTurn = tmp.currentTurn;
+    game.capturedPieces = JSON.parse(JSON.stringify(tmp.capturedPieces));
+    game.enPassantTarget = tmp.enPassantTarget ? { ...tmp.enPassantTarget } : null;
+    game.castlingRights = JSON.parse(JSON.stringify(tmp.castlingRights));
+    const arrowUci = highlightUci || lastOk;
+    if (arrowUci && arrowUci.length >= 4) {
+        lastMoveSquares = {
+            from: { row: 8 - parseInt(arrowUci[1]), col: arrowUci.charCodeAt(0) - 97 },
+            to: { row: 8 - parseInt(arrowUci[3]), col: arrowUci.charCodeAt(2) - 97 }
+        };
+    } else {
+        lastMoveSquares = { from: null, to: null };
+    }
+    renderBoard();
+    updateCapturedPieces();
+    if (lastMoveSquares.from && lastMoveSquares.to) {
+        showMoveArrow(
+            lastMoveSquares.from.row, lastMoveSquares.from.col,
+            lastMoveSquares.to.row, lastMoveSquares.to.col,
+            { color: arrowColor || undefined, persist: true, force: true }
+        );
+        const arrowSvg = document.getElementById('move-arrow-svg');
+        if (arrowSvg) arrowSvg.dataset.variantArrow = '1';
+    }
+    return true;
+}
+
 function highlightVariantSquares(v) {
-    clearVariantHighlight();
+    const popup = document.getElementById('variants-popup');
+    const prefix = (popup && popup.dataset.variantsKey) ? popup.dataset.variantsKey : '';
+    const prefixMoves = prefix ? prefix.split(' ').filter(Boolean) : [];
+    previewOpeningUciLine(prefixMoves.concat(v.move), v.move, 'green');
     const fromCol = v.from.charCodeAt(0) - 97;
     const fromRow = 8 - parseInt(v.from[1]);
     const toCol = v.to.charCodeAt(0) - 97;
@@ -5745,10 +5868,6 @@ function highlightVariantSquares(v) {
     const toSq = document.querySelector(`.square[data-row="${toRow}"][data-col="${toCol}"]`);
     if (fromSq) fromSq.classList.add('variant-highlight');
     if (toSq) toSq.classList.add('variant-highlight');
-    // Flecha verde con el movimiento sugerido (persiste mientras dura el hover)
-    showMoveArrow(fromRow, fromCol, toRow, toCol, { color: 'green', persist: true, force: true });
-    const arrowSvg = document.getElementById('move-arrow-svg');
-    if (arrowSvg) arrowSvg.dataset.variantArrow = '1';
 }
 
 function clearVariantHighlight() {
@@ -5842,9 +5961,10 @@ function showVariantsPopup(variants, variantsKey, onSelectCallback) {
         item.title = `${moveLabel} — ${descPart}`;
         item._variantData = v;
         item.addEventListener('mouseenter', () => highlightVariantSquares(v));
-        item.addEventListener('mouseleave', clearVariantHighlight);
+        item.addEventListener('mouseleave', scheduleEndOpeningPositionPreview);
         item.addEventListener('touchstart', () => highlightVariantSquares(v), { passive: true });
         item.onclick = () => {
+            endOpeningPositionPreview();
             clearVariantHighlight();
             hideVariantsPopup(false);
             if (onSelectCallback) {
@@ -5867,7 +5987,7 @@ function showVariantsPopup(variants, variantsKey, onSelectCallback) {
     }, { passive: true });
     list.addEventListener('touchend', () => {
         _touchedItem = null;
-        clearVariantHighlight();
+        scheduleEndOpeningPositionPreview();
     }, { passive: true });
 
     popup.appendChild(list);
@@ -5877,6 +5997,7 @@ function showVariantsPopup(variants, variantsKey, onSelectCallback) {
 }
 
 function hideVariantsPopup(resumeTraining) {
+    endOpeningPositionPreview();
     clearVariantHighlight();
     const popup = document.getElementById('variants-popup');
     if (popup) popup.remove();
@@ -5896,6 +6017,7 @@ function getLongestLine(prefix) {
 }
 
 function continueTrainingFromVariant(variant, fromKey) {
+    endOpeningPositionPreview();
     cancelTrainingTimeout();
     setGameButtonsDisabled(true);
     showContinueButton();
@@ -6131,17 +6253,30 @@ function showOpeningName(name) {
         const tRow = 8 - parseInt(lastUCI[3]);
         const tCol = lastUCI.charCodeAt(2) - 97;
         wrapper.addEventListener('mouseenter', () => {
-            showMoveArrow(fRow, fCol, tRow, tCol, { persist: true, force: true });
-            const arrowSvg = document.getElementById('move-arrow-svg');
-            if (arrowSvg) arrowSvg.dataset.variantArrow = '1';
+            if (trainingTimeoutId) {
+                showMoveArrow(fRow, fCol, tRow, tCol, { persist: true, force: true });
+                const arrowSvg = document.getElementById('move-arrow-svg');
+                if (arrowSvg) arrowSvg.dataset.variantArrow = '1';
+                return;
+            }
+            previewOpeningUciLine(moves, lastUCI);
         });
         wrapper.addEventListener('mouseleave', () => {
-            const arrowSvg = document.getElementById('move-arrow-svg');
-            if (arrowSvg && arrowSvg.dataset.variantArrow === '1') arrowSvg.remove();
+            if (trainingTimeoutId) {
+                const arrowSvg = document.getElementById('move-arrow-svg');
+                if (arrowSvg && arrowSvg.dataset.variantArrow === '1') arrowSvg.remove();
+                return;
+            }
+            scheduleEndOpeningPositionPreview();
         });
     }
 
     log.appendChild(wrapper);
+    if (log.classList.contains('opening-log--done')) {
+        wrapper.title = t('opening.tapToSeeVariants');
+        const tapHint = log.querySelector('.opening-tap-variants-hint');
+        if (tapHint) log.appendChild(tapHint);
+    }
     log.style.display = 'flex';
     // Desplaza el log para mostrar la última entrada sin mover el tablero
     requestAnimationFrame(() => { log.scrollTop = log.scrollHeight; });
@@ -7845,6 +7980,14 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '3.6.19': [
+        'Partidas Seleccionadas incluye Faustino Oro vs Magnus Carlsen (2026)',
+        'Al pasar por la lista de variantes de una apertura terminada se muestra «Pulsa para ver las variantes»',
+        'La imagen de una partida seleccionada muestra el nombre clásico y Jugador X (ELO) vs Jugador Y (ELO)',
+        'La imagen de compartir una partida muestra Jugador X (ELO) vs Jugador Y (ELO)',
+        'La imagen de compartir un problema muestra las estrellas de dificultad',
+        '... y más mejoras en AjedrezIA ...',
+    ],
     '3.6.08': [
         'Los bots online usan los mismos ELO que el menú Nivel de dificultad: 400, 600, 800, 1000, 1200, 1500, 1800 y 2200',
         'El vídeo de un problema muestra una cuenta atrás de 5 segundos sobre el tablero antes de la solución',
@@ -8937,10 +9080,12 @@ function saveUserToDB(user, isFirstLoginLocal) {
             provider: user.provider || '',
             email:    user.email    || '',
             name:     user.name     || '',
+            elo:      (typeof stats !== 'undefined' && stats.elo != null) ? stats.elo : 1200,
         }),
     })
     .then(function(r) { return r.json(); })
     .then(function(data) {
+        if (data && data.ok && data.elo != null) applyServerElo(data.elo);
         notifyUserConnection(user, data.is_new ? 'new' : 'reconnect');
     })
     .catch(function() {
@@ -9052,11 +9197,10 @@ function isUserBusy() {
 function sendHeartbeat() {
     const user = getOnlineUser();
     if (!user || IS_LOCAL) return;
-    const currentElo = (typeof stats !== 'undefined' && stats.elo) ? stats.elo : 1200;
     fetch(BASE_PATH + 'api/heartbeat.php', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ id: user.id, elo: currentElo, busy: isUserBusy() }),
+        body: JSON.stringify({ id: user.id, busy: isUserBusy() }),
     }).catch(function() {});
 }
 
@@ -11617,6 +11761,41 @@ function loadStats() {
     updateStatsDisplay();
 }
 
+function applyServerElo(elo) {
+    const n = parseInt(elo, 10);
+    if (!Number.isFinite(n)) return;
+    stats.elo = Math.max(100, Math.min(4000, n));
+    saveStats();
+}
+
+let _eloSyncTimer = null;
+function pushEloToServer() {
+    if (typeof IS_LOCAL !== 'undefined' && IS_LOCAL) return;
+    const me = typeof getOnlineUser === 'function' ? getOnlineUser() : null;
+    if (!me || !me.id) return;
+    if (_eloSyncTimer) clearTimeout(_eloSyncTimer);
+    _eloSyncTimer = setTimeout(function() {
+        _eloSyncTimer = null;
+        fetch(BASE_PATH + 'api/save-elo.php', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ id: me.id, elo: stats.elo }),
+        }).catch(function() {});
+    }, 400);
+}
+
+function loadEloFromServer() {
+    if (typeof IS_LOCAL !== 'undefined' && IS_LOCAL) return;
+    const me = typeof getOnlineUser === 'function' ? getOnlineUser() : null;
+    if (!me || !me.id) return;
+    fetch(BASE_PATH + 'api/get-user.php?id=' + encodeURIComponent(me.id))
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+            if (data && data.ok && data.elo != null) applyServerElo(data.elo);
+        })
+        .catch(function() {});
+}
+
 // Guardar estadísticas
 function saveStats() {
     localStorage.setItem('chess_stats', JSON.stringify(stats));
@@ -11664,11 +11843,6 @@ function recordGameResult(result) {
     const score = result === 'win' ? 1 : result === 'draw' ? 0.5 : 0;
     const delta = calcEloChange(stats.elo, opponentElo, score, stats.gamesPlayed);
     applyEloChange(delta);
-    // Persistir cambio de ELO en el servidor (solo una vez por partida online)
-    if (_onlineGame && _onlineGame.id && !IS_LOCAL && !_onlineEloApplied) {
-        _onlineEloApplied = true;
-        pushOnlineEloUpdate(_onlineGame.id, delta);
-    }
     return delta;
 }
 
@@ -12223,6 +12397,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Cargar estadísticas
     loadStats();
+    loadEloFromServer();
 
     // Panel colapsable de Configuración
     document.querySelectorAll('.panel-collapsible').forEach(panel => {
@@ -14505,11 +14680,9 @@ function showLoadedGameMessage(title, isFinished, pgnResult, openingContinueGame
             if (completedOpeningName) {
                 msg += `<div class="completed-opening-name">${completedOpeningName}</div>`;
             }
-            if (!openingContinueGameOnly) {
-                msg += `<br><span style="font-size:0.85em;color:#9ca3af;">${t('opening.pressVariants')}</span>`;
-                msg += `<img class="opening-variants-example" src="assets/opening-variants-example.png" ` +
-                    `alt="${t('opening.variantsExampleAlt')}">`;
-            }
+            msg += `<br><span style="font-size:0.85em;color:#9ca3af;">${t('opening.pressVariants')}</span>`;
+            msg += `<img class="opening-variants-example" src="assets/opening-variants-example.png" ` +
+                `alt="${t('opening.variantsExampleAlt')}">`;
             msg += `<br>${t('turn.label', { side: turnLabel })}`;
             msg += `<div class="opening-continue-prompt">` +
                 `<button type="button" class="opening-choice-btn opening-continue-game-btn" ` +
@@ -14528,6 +14701,26 @@ function showLoadedGameMessage(title, isFinished, pgnResult, openingContinueGame
     msg += `<br><span style="font-size:0.85em;opacity:0.8;">${t('nav.hint')}</span>`;
 
     showMessage(msg, msgType, 0);
+    if (openingCompleted) markOpeningLogReadyForVariants();
+}
+
+function markOpeningLogReadyForVariants() {
+    const log = document.getElementById('opening-log');
+    if (!log) return;
+    log.classList.add('opening-log--done');
+    let hint = log.querySelector('.opening-tap-variants-hint');
+    if (!hint) {
+        hint = document.createElement('div');
+        hint.className = 'opening-tap-variants-hint';
+        hint.setAttribute('data-i18n', 'opening.tapToSeeVariants');
+        hint.setAttribute('aria-hidden', 'true');
+        log.appendChild(hint);
+    }
+    const label = t('opening.tapToSeeVariants');
+    hint.textContent = label;
+    log.querySelectorAll('.opening-entry').forEach(function(entry) {
+        entry.title = label;
+    });
 }
 
 function continueOpeningFromCompletedPosition() {
@@ -15980,24 +16173,93 @@ function getShareGameWinnerColor() {
     return 'white';
 }
 
-/**
- * Prepara SOLO la imagen de la tarjeta (no la URL que se comparte): la URL del
- * mensaje es siempre el enlace limpio de la app (?puzzle=/?opening=/?master=/?m=).
- * Los parámetros de posición (fen/t/s/mv) se usan internamente para la imagen:
- *   - previewParams : para dibujarla en el navegador (canvas) en el modal.
- *   - previewImage  : board-image.php (respaldo del src si el servidor tiene PHP).
- *   kind        : partida | apertura | problema | maestra
- *   cardT       : título grande de la tarjeta
- *   cardS       : subtítulo de la tarjeta
- *   fenOverride : FEN explícito (problemas) en vez de la posición en pantalla
- */
-/**
- * Prepara la imagen de la tarjeta y la URL de share.php para WhatsApp/X/FB.
- *   appKV      : { key, val } parámetro de apertura de la app (?puzzle=, ?master=…).
- *                Si es null se comparte BASE_PATH (genérico).
- *   fenOverride: FEN explícito para problemas (en vez de la posición en pantalla).
- */
-function getShareGameCardMetadata() {
+/** Nombre (ELO) para el título de la imagen de compartir partida. */
+function formatSharePlayerLabel(name, elo) {
+    const n = String(name || '').trim();
+    const cleanName = (!n || n === '?') ? t('playerDefault') : n;
+    const e = elo == null || elo === '' ? '' : String(elo).trim();
+    if (!e || e === '?' || e === '—' || e === '-') return cleanName;
+    return cleanName + ' (' + e + ')';
+}
+
+function getShareGamePlayersVsLine(opts) {
+    const headers = (game && game.shareHeaders) || {};
+    let whiteName = String(headers.White || '').trim();
+    let blackName = String(headers.Black || '').trim();
+    let whiteElo = String(headers.WhiteElo || '').trim();
+    let blackElo = String(headers.BlackElo || '').trim();
+    const headerWhiteOk = !!(whiteName && whiteName !== '?');
+    const headerBlackOk = !!(blackName && blackName !== '?');
+    const headersOnly = !!(opts && opts.headersOnly);
+
+    const humanName = (typeof playerNickname === 'string' && playerNickname.trim())
+        ? playerNickname.trim()
+        : t('playerDefault');
+    const humanElo = (stats && stats.elo != null) ? String(stats.elo) : '';
+
+    const opp = (typeof _onlineGame !== 'undefined' && _onlineGame) ? _onlineGame.opponent : null;
+    let oppName = '';
+    let oppElo = '';
+    if (opp) {
+        oppName = typeof opponentName === 'function'
+            ? opponentName(opp)
+            : String(opp.nick || opp.name || '').trim();
+        oppElo = opp.elo != null ? String(opp.elo) : '';
+    }
+
+    if (headerWhiteOk && headerBlackOk) {
+        return formatSharePlayerLabel(whiteName, whiteElo)
+            + ' vs '
+            + formatSharePlayerLabel(blackName, blackElo);
+    }
+
+    if (headersOnly) return '';
+
+    if (playerColor === 'both') {
+        if (!headerWhiteOk) {
+            whiteName = t('color.white');
+            whiteElo = whiteElo || humanElo;
+        }
+        if (!headerBlackOk) {
+            blackName = t('color.black');
+            blackElo = blackElo || humanElo;
+        }
+        return formatSharePlayerLabel(whiteName, whiteElo)
+            + ' vs '
+            + formatSharePlayerLabel(blackName, blackElo);
+    }
+
+    if (!oppName) {
+        oppName = 'AjedrezIA';
+        if (!oppElo) oppElo = String(AI_ELO_MAP[aiDifficulty] || 1200);
+    }
+
+    if (playerColor === 'black') {
+        if (!headerWhiteOk) {
+            whiteName = oppName;
+            whiteElo = whiteElo || oppElo;
+        }
+        if (!headerBlackOk) {
+            blackName = humanName;
+            blackElo = blackElo || humanElo;
+        }
+    } else {
+        if (!headerWhiteOk) {
+            whiteName = humanName;
+            whiteElo = whiteElo || humanElo;
+        }
+        if (!headerBlackOk) {
+            blackName = oppName;
+            blackElo = blackElo || oppElo;
+        }
+    }
+
+    return formatSharePlayerLabel(whiteName, whiteElo)
+        + ' vs '
+        + formatSharePlayerLabel(blackName, blackElo);
+}
+
+function getShareGameCardMetadata(opts) {
     if (!game) return '';
     const headers = game.shareHeaders || {};
     const result = game.shareResult || headers.Result || '*';
@@ -16018,7 +16280,7 @@ function getShareGameCardMetadata() {
     }
 
     const lines = [];
-    if (whiteElo || blackElo) {
+    if (!(opts && opts.skipElo) && (whiteElo || blackElo)) {
         lines.push(`ELO: ♔ ${whiteElo || '—'} · ♚ ${blackElo || '—'}`);
     }
     lines.push(t('pgn.result', { result: resultLabels[result] || result }));
@@ -16046,6 +16308,12 @@ function getShareGameCardMetadata() {
     return lines.join('\n');
 }
 
+/**
+ * Prepara la imagen de la tarjeta y la URL de share.php para WhatsApp/X/FB.
+ *   appKV      : { key, val } parámetro de apertura de la app (?puzzle=, ?master=…).
+ *                Si es null se comparte BASE_PATH (genérico).
+ *   fenOverride: FEN explícito para problemas (en vez de la posición en pantalla).
+ */
 function buildSharePreview(kind, cardT, cardS, fenOverride, appKV, cardMeta) {
     const pos = getCurrentShareImageParams();
     const fen = (fenOverride && String(fenOverride).trim()) ? String(fenOverride).trim() : pos.fen;
@@ -16356,7 +16624,7 @@ async function renderShareBoardDataURL(p) {
         let ty = 192;
         const titleFont = 'bold 36px Arial, sans-serif';
         ctx.fillStyle = '#ffffff';
-        for (const ln of wrap(p.t, titleFont, tw, 3)) {
+        for (const ln of wrap(p.t, titleFont, tw, 5)) {
             ctx.font = titleFont;
             ctx.fillText(ln, tx, ty);
             ty += 46;
@@ -17014,13 +17282,13 @@ function getShareInfo() {
             ? themeSel.selectedOptions[0].text
             : getThemeLabel(currentPuzzle.theme || 'tactic');
         const turnLabel = playerColor === 'black' ? t('puzzle.bannerBlack') : t('puzzle.bannerWhite');
-        // Tipo de problema y turno en líneas separadas (tanto en el mensaje
+        const diff = Math.max(1, Math.min(4, parseInt(currentPuzzle.difficulty, 10) || 1));
+        const diffLabel = t('puzzle.diff.' + diff);
+        // Tipo, turno y estrellas de dificultad (tanto en el mensaje
         // de texto como en la tarjeta de imagen, que respeta el salto '\n').
-        const puzzleDetail = catLabel + '\n' + turnLabel;
-        // La 3ª línea de la tarjeta muestra el mismo detalle que va debajo de
-        // "Problema de ajedrez" en el mensaje de Compartir (categoría / turno).
-        const cardT = puzzleDetail;
-        const cardS = t('share.findBest');
+        const puzzleDetail = catLabel + '\n' + turnLabel + '\n' + diffLabel;
+        const cardT = catLabel + '\n' + turnLabel;
+        const cardS = diffLabel + '\n' + t('share.findBest');
         let url;
         if (id) {
             url = `${BASE_PATH}?puzzle=${encodeURIComponent(id)}`;
@@ -17037,10 +17305,12 @@ function getShareInfo() {
         const famousKey = document.getElementById('famous-game-select').value;
         const g = famousKey && FAMOUS_GAMES[famousKey];
         if (g) {
-            const cardT = g.name || t('share.kind.maestra');
+            const classicName = g.name || t('share.kind.maestra');
+            const vsLine = getShareGamePlayersVsLine({ headersOnly: true });
+            const cardT = vsLine ? (classicName + '\n' + vsLine) : classicName;
             const cardS = t('share.replay');
             const url = `${BASE_PATH}?master=${encodeURIComponent(famousKey)}`;
-            const cardMeta = getShareGameCardMetadata();
+            const cardMeta = getShareGameCardMetadata({ skipElo: true });
             const { shareUrl, previewImage, previewParams } = buildSharePreview(
                 'maestra',
                 cardT,
@@ -17049,7 +17319,8 @@ function getShareInfo() {
                 { key: 'master', val: famousKey },
                 cardMeta
             );
-            return { url, shareUrl, label: shareCompartirLabel('maestra'), shareKind: 'maestra', shareDetail: g.name || null, previewImage, previewParams };
+            const shareDetail = [classicName, vsLine].filter(Boolean).join('\n');
+            return { url, shareUrl, label: shareCompartirLabel('maestra'), shareKind: 'maestra', shareDetail: shareDetail || null, previewImage, previewParams };
         }
     }
 
@@ -17071,9 +17342,8 @@ function getShareInfo() {
         const moveList = game.moveHistoryUCI || [];
         const compactMoves = encodeMovesBase64Url(moveList);
         const movesUCI = moveList.join(',');
-        const fgt = document.getElementById('famous-game-title');
-        const vsDetail = (fgt && fgt.textContent) ? fgt.textContent.replace(/\n/g, ' ').replace(/\s+/g, ' ').trim() : null;
-        const cardT = vsDetail || t('share.myGame');
+        const vsLine = getShareGamePlayersVsLine();
+        const cardT = vsLine || t('share.myGame');
         const cardS = t('share.replay');
         const appParam = compactMoves
             ? { key: 'm', val: compactMoves }
@@ -17081,7 +17351,7 @@ function getShareInfo() {
         const url = compactMoves
             ? `${BASE_PATH}?m=${compactMoves}`
             : `${BASE_PATH}?moves=${encodeURIComponent(movesUCI)}`;
-        const cardMeta = getShareGameCardMetadata();
+        const cardMeta = getShareGameCardMetadata({ skipElo: true });
         const { shareUrl, previewImage, previewParams } = buildSharePreview(
             'partida',
             cardT,
@@ -17090,7 +17360,7 @@ function getShareInfo() {
             appParam,
             cardMeta
         );
-        return { url, shareUrl, label: shareCompartirLabel('partida'), shareKind: 'partida', shareDetail: vsDetail || null, previewImage, previewParams };
+        return { url, shareUrl, label: shareCompartirLabel('partida'), shareKind: 'partida', shareDetail: vsLine || null, previewImage, previewParams };
     }
 
     const { shareUrl, previewImage, previewParams } = buildSharePreview('partida', 'AjedrezIA', t('share.playLearn'));
@@ -18828,6 +19098,7 @@ function executeFreeTrainingMove(fromRow, fromCol, toRow, toCol, promotionPiece)
 
 function handleSquareClick(row, col) {
     if (!isAuthenticatedUser()) return;
+    if (_openingPreviewSnapshot) return;
     if (dragState) return;
     if (analysisActive) return;
     if (game.gameOver && !puzzleMode && !(learnMode && learnActive)) return;
@@ -18932,6 +19203,7 @@ function handleSquareClick(row, col) {
 
 function handleDragStart(e, row, col) {
     if (e.button !== 0) return;
+    if (_openingPreviewSnapshot) return;
     if (analysisActive || !game || (game.gameOver && !puzzleMode && !(learnMode && learnActive))) return;
     if ('ontouchstart' in window && e.pointerType === 'touch') return;
 

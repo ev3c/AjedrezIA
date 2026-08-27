@@ -28,7 +28,7 @@ function gp($k) { return isset($_GET[$k]) ? (string)$_GET[$k] : ''; }
 $fen   = substr(gp('fen'), 0, 100);
 $flip  = gp('flip') === '1' ? '1' : '';
 $kind  = preg_replace('/[^a-z]/', '', strtolower(gp('kind')));
-$t     = mb_substr(trim(gp('t')), 0, 120);
+$t     = mb_substr(trim(gp('t')), 0, 220);
 $s     = mb_substr(trim(gp('s')), 0, 120);
 $meta  = mb_substr(trim(gp('meta')), 0, 420);
 $mv    = substr(preg_replace('/[^a-h1-8]/', '', strtolower(gp('mv'))), 0, 4);

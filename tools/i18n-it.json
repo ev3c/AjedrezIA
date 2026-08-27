@@ -1483,5 +1483,6 @@
   "op.escocesa-gambito.name": "Gambetto scozzese",
   "op.escocesa-gambito.desc": "Gambetto che sacrifica d4 per sviluppo e controllo di f7. Simile al gambetto danese, con gioco aperto e tattico.",
   "op.holandesa-staunton.name": "Gambetto Staunton",
-  "op.holandesa-staunton.desc": "Gambetto aggressivo che cerca di aprire linee contro il re nero indebolito da ...f5. Gioco tattico con compenso per il pedone."
+  "op.holandesa-staunton.desc": "Gambetto aggressivo che cerca di aprire linee contro il re nero indebolito da ...f5. Gioco tattico con compenso per il pedone.",
+  "opening.tapVariant": "Tocca per vedere la variante"
 }

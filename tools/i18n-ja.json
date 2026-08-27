@@ -1483,5 +1483,6 @@
   "op.escocesa-gambito.name": "スコッチ・ギャンビット",
   "op.escocesa-gambito.desc": "展開と f7 支配のために d4 を捨てるギャンビット。デニッシュ・ギャンビットに似たオープンで戦術的な指し方です。",
   "op.holandesa-staunton.name": "スタウントン・ギャンビット",
-  "op.holandesa-staunton.desc": "...f5 で弱った黒キングに対してラインを開く攻撃的ギャンビット。ポーンの代償がある戦術的な指し方です。"
+  "op.holandesa-staunton.desc": "...f5 で弱った黒キングに対してラインを開く攻撃的ギャンビット。ポーンの代償がある戦術的な指し方です。",
+  "opening.tapVariant": "タップして変化を見る"
 }

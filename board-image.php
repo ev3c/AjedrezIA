@@ -27,7 +27,7 @@ $SQ = $BOARD / 8.0;
 $fen  = isset($_GET['fen'])  ? substr((string)$_GET['fen'], 0, 100) : 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR';
 $flip = isset($_GET['flip']) && $_GET['flip'] === '1';
 $kind = isset($_GET['kind']) ? preg_replace('/[^a-z]/', '', strtolower($_GET['kind'])) : '';
-$t    = isset($_GET['t']) ? mb_substr(trim((string)$_GET['t']), 0, 120) : '';
+$t    = isset($_GET['t']) ? mb_substr(trim((string)$_GET['t']), 0, 220) : '';
 $s    = isset($_GET['s']) ? mb_substr(trim((string)$_GET['s']), 0, 120) : '';
 $meta = isset($_GET['meta']) ? mb_substr(trim((string)$_GET['meta']), 0, 420) : '';
 $mv   = isset($_GET['mv']) ? substr(preg_replace('/[^a-h1-8]/', '', strtolower($_GET['mv'])), 0, 4) : '';
@@ -270,7 +270,7 @@ drawText($im, 18, $tx, 134, $grey,  false, $kindLabel);
 
 $ty = 196;
 if ($t !== '') {
-    foreach (array_slice(wrapText($t, 24), 0, 3) as $ln) {
+    foreach (array_slice(wrapText($t, 24), 0, 5) as $ln) {
         drawText($im, 30, $tx, $ty, $white, true, $ln);
         $ty += 46;
     }

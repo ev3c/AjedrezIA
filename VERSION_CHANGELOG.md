@@ -2,6 +2,97 @@
 
 ---
 
+## v3.6.19 — 2026-08-27
+
+### Partidas Seleccionadas
+- Faustino Oro vs Magnus Carlsen (2026) está en Selected Games,
+  en el grupo de Carlsen y en Otros Maestros.
+
+---
+
+## v3.6.18 — 2026-08-27
+
+### Aperturas
+- Al terminar una apertura, pasar por la lista de variantes encima del
+  tablero muestra «Pulsa para ver las variantes».
+
+---
+
+## v3.6.17 — 2026-08-26
+
+### Aperturas
+- El segundo aviso de Apertura completada muestra también el texto
+  «Pulsa variantes sobre el tablero…» y la imagen de ejemplo.
+
+---
+
+## v3.6.16 — 2026-08-26
+
+### Aperturas
+- Al terminar una apertura, pasar por las líneas de variantes sobre el
+  tablero muestra todas las piezas en la posición de ese movimiento.
+
+---
+
+## v3.6.15 — 2026-08-26
+
+### Compartir
+- Al abrir una partida desde un enlace externo se muestra solo hasta el
+  último movimiento, sin que la IA la continúe. Para seguir jugando hay
+  que pulsar Continuar Partida.
+
+---
+
+## v3.6.14 — 2026-08-26
+
+### Compartir
+- La imagen de una partida seleccionada muestra el nombre clásico
+  y, debajo, Jugador X (ELO) vs Jugador Y (ELO).
+
+---
+
+## v3.6.13 — 2026-08-26
+
+### Compartir
+- La imagen de una partida seleccionada muestra los jugadores con su
+  ELO: Jugador X (ELO) vs Jugador Y (ELO).
+
+---
+
+## v3.6.12 — 2026-08-26
+
+### Compartir
+- La imagen de una partida muestra los jugadores con su ELO:
+  Jugador X (ELO) vs Jugador Y (ELO).
+
+---
+
+## v3.6.11 — 2026-08-26
+
+### Compartir
+- La imagen de un problema muestra las estrellas de dificultad
+  (Fácil, Media, Difícil o Experto), igual que en el tablero.
+
+---
+
+## v3.6.10 — 2026-08-26
+
+### ELO
+- El ELO de cada usuario se guarda y carga en el servidor de
+  www.ajedrezia.com. Al iniciar sesión o abrir la app con cuenta, se
+  usa el ELO online; partidas, problemas y compartir lo actualizan
+  también en el servidor.
+
+---
+
+## v3.6.09 — 2026-08-25
+
+### PGN
+- Faustino Oro vs Magnus Carlsen (2026) se guarda en el formato de
+  exportación de AjedrezIA (cabeceras Site/Date/PlyCount y jugadas SAN).
+
+---
+
 ## v3.6.08 — 2026-08-17
 
 ### Online

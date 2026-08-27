@@ -85,17 +85,22 @@ $now      = date('Y-m-d H:i:s');
 $ip       = substr($_SERVER['HTTP_X_FORWARDED_FOR'] ?? $_SERVER['REMOTE_ADDR'] ?? '', 0, 45);
 
 // ── Comprobar si el usuario ya existe ─────────────────────────────────
-$check = $pdo->prepare('SELECT login_count FROM ajedrezia_users WHERE id = ?');
+$check = $pdo->prepare('SELECT login_count, elo FROM ajedrezia_users WHERE id = ?');
 $check->execute([$uid]);
 $existing = $check->fetch(PDO::FETCH_ASSOC);
 $is_new   = ($existing === false);
 
+$seedElo = isset($data['elo']) ? (int)$data['elo'] : 1200;
+if ($seedElo < 100) $seedElo = 100;
+if ($seedElo > 4000) $seedElo = 4000;
+
 // ── Upsert usuario ────────────────────────────────────────────────────
 // Nota: actualizamos también email/provider para soportar el cambio de nick
 // en cuentas tipo "nickname" (email sintético <nick>@nickname.local).
+// El ELO del servidor no se pisa en reconexiones: es la fuente de verdad.
 $pdo->prepare("
-    INSERT INTO ajedrezia_users (id, provider, email, name, first_login, last_login, login_count, last_ip)
-    VALUES (?, ?, ?, ?, ?, ?, 1, ?)
+    INSERT INTO ajedrezia_users (id, provider, email, name, first_login, last_login, login_count, last_ip, elo)
+    VALUES (?, ?, ?, ?, ?, ?, 1, ?, ?)
     ON DUPLICATE KEY UPDATE
         last_login  = VALUES(last_login),
         login_count = login_count + 1,
@@ -103,7 +108,7 @@ $pdo->prepare("
         name        = VALUES(name),
         email       = VALUES(email),
         provider    = VALUES(provider)
-")->execute([$uid, $provider, $email, $name, $now, $now, $ip]);
+")->execute([$uid, $provider, $email, $name, $now, $now, $ip, $seedElo]);
 
 // ── Registrar en historial ────────────────────────────────────────────
 $pdo->prepare("
@@ -111,7 +116,12 @@ $pdo->prepare("
     VALUES (?, ?, ?, ?, ?)
 ")->execute([$uid, $email, $provider, $now, $ip]);
 
+$eloRow = $pdo->prepare('SELECT elo FROM ajedrezia_users WHERE id = ?');
+$eloRow->execute([$uid]);
+$eloNow = $eloRow->fetchColumn();
+
 echo json_encode([
     'ok'     => true,
     'is_new' => $is_new,
+    'elo'    => (int)($eloNow !== false ? $eloNow : $seedElo),
 ]);

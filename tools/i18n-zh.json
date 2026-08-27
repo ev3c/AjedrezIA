@@ -1483,5 +1483,6 @@
   "op.escocesa-gambito.name": "苏格兰弃兵",
   "op.escocesa-gambito.desc": "弃 d4 以换取出子和对 f7 的控制。类似丹麦弃兵，开放而富于战术。",
   "op.holandesa-staunton.name": "斯汤顿弃兵",
-  "op.holandesa-staunton.desc": "凶悍弃兵，寻求打开线路攻击因 ...f5 而削弱的黑王。战术着法，弃兵有补偿。"
+  "op.holandesa-staunton.desc": "凶悍弃兵，寻求打开线路攻击因 ...f5 而削弱的黑王。战术着法，弃兵有补偿。",
+  "opening.tapVariant": "点击查看变例"
 }

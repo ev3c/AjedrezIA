@@ -1483,5 +1483,6 @@
   "op.escocesa-gambito.name": "스카치 갬빗",
   "op.escocesa-gambito.desc": "전개와 f7 장악을 위해 d4를 희생하는 갬빗. 대니시 갬빗과 비슷한 오픈되고 전술적인 수입니다.",
   "op.holandesa-staunton.name": "스턴턴 갬빗",
-  "op.holandesa-staunton.desc": "...f5로 약해진 흑 킹에 대해 라인을 열려는 공격적 갬빗. 폰에 대한 보상이 있는 전술적 수입니다."
+  "op.holandesa-staunton.desc": "...f5로 약해진 흑 킹에 대해 라인을 열려는 공격적 갬빗. 폰에 대한 보상이 있는 전술적 수입니다.",
+  "opening.tapVariant": "눌러서 변화 보기"
 }

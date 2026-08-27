@@ -35,12 +35,11 @@ try {
 } catch (PDOException $e) { /* ya existe */ }
 
 $uid    = substr(trim($data['id']), 0, 128);
-$elo    = isset($data['elo'])  ? (int)$data['elo']  : 1200;
 $busy   = !empty($data['busy']);
 $status = $busy ? 'busy' : 'available';
 
 $pdo->prepare("
-    UPDATE ajedrezia_users SET last_seen = NOW(), elo = ?, status = ? WHERE id = ?
-")->execute([$elo, $status, $uid]);
+    UPDATE ajedrezia_users SET last_seen = NOW(), status = ? WHERE id = ?
+")->execute([$status, $uid]);
 
 echo json_encode(['ok' => true]);

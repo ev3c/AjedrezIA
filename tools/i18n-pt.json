@@ -1483,5 +1483,6 @@
   "op.escocesa-gambito.name": "Gambito escocês",
   "op.escocesa-gambito.desc": "Gambito que sacrifica d4 por desenvolvimento e controlo de f7. Semelhante ao gambito dinamarquês, com jogo aberto e tático.",
   "op.holandesa-staunton.name": "Gambito Staunton",
-  "op.holandesa-staunton.desc": "Gambito agressivo que procura abrir linhas contra o rei preto enfraquecido por ...f5. Jogo tático com compensação pelo peão."
+  "op.holandesa-staunton.desc": "Gambito agressivo que procura abrir linhas contra o rei preto enfraquecido por ...f5. Jogo tático com compensação pelo peão.",
+  "opening.tapVariant": "Toca para ver a variante"
 }

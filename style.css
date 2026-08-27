@@ -2307,6 +2307,26 @@ html[dir="rtl"] #chess-board {
     color: #bbb;
 }
 
+.opening-tap-variants-hint {
+    display: none;
+    position: sticky;
+    bottom: 0;
+    z-index: 3;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #f0d9b5;
+    background: rgba(31, 27, 24, 0.92);
+    padding: 6px 10px;
+    border-radius: 6px;
+    pointer-events: none;
+    letter-spacing: 0.2px;
+}
+
+.opening-log--done:hover .opening-tap-variants-hint {
+    display: block;
+}
+
 .opening-fade-in {
     animation: openingIn 0.4s ease forwards;
 }

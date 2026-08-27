@@ -106,6 +106,7 @@ const I18N_PAIRS = [
     ['opening.quiz', '🧠 Quiz: Adivina el Movimiento', '🧠 Quiz: Guess the Move', '🧠 Quiz: Endevina el moviment'],
     ['opening.completed', 'Apertura completada', 'Opening completed', 'Obertura completada'],
     ['opening.pressVariants', 'Pulsa variantes sobre el tablero para reemprender apertura', 'Tap variations on the board to resume the opening', 'Prem variants sobre el tauler per reprendre l\'obertura'],
+    ['opening.tapToSeeVariants', 'Pulsa para ver las variantes', 'Tap to see the variations', 'Prem per veure les variants'],
     ['opening.continueGame', '▶ Continuar Partida', '▶ Continue Game', '▶ Continua la partida'],
     ['opening.continueOpening', '📖 Continuar Apertura', '📖 Continue Opening', '📖 Continua l\'obertura'],
     ['opening.variantsHint', 'Selecciona una variante para continuar', 'Select a variation to continue', 'Selecciona una variant per continuar'],

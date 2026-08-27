@@ -414,6 +414,12 @@
     "ca": "Selecciona una variant per continuar"
   },
   {
+    "key": "opening.tapVariant",
+    "es": "Pulsa para ver la variante",
+    "en": "Tap to view the variation",
+    "ca": "Prem per veure la variant"
+  },
+  {
     "key": "opening.variantsTitle",
     "es": "📖 Variantes conocidas ({n})",
     "en": "📖 Known variations ({n})",

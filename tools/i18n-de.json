@@ -1483,5 +1483,6 @@
   "op.escocesa-gambito.name": "Schottisches Gambit",
   "op.escocesa-gambito.desc": "Ein Gambit, das d4 für Entwicklung und Kontrolle von f7 opfert. Ähnlich dem Dänischen Gambit mit offenem, taktischem Spiel.",
   "op.holandesa-staunton.name": "Staunton-Gambit",
-  "op.holandesa-staunton.desc": "Ein aggressives Gambit, das Linien gegen den durch ...f5 geschwächten schwarzen König öffnen will. Taktisches Spiel mit Kompensation für den Bauern."
+  "op.holandesa-staunton.desc": "Ein aggressives Gambit, das Linien gegen den durch ...f5 geschwächten schwarzen König öffnen will. Taktisches Spiel mit Kompensation für den Bauern.",
+  "opening.tapVariant": "Tippe, um die Variante zu sehen"
 }
