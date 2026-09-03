@@ -1484,5 +1484,12 @@
   "op.escocesa-gambito.desc": "Gambito que sacrifica d4 por desenvolvimento e controlo de f7. Semelhante ao gambito dinamarquês, com jogo aberto e tático.",
   "op.holandesa-staunton.name": "Gambito Staunton",
   "op.holandesa-staunton.desc": "Gambito agressivo que procura abrir linhas contra o rei preto enfraquecido por ...f5. Jogo tático com compensação pelo peão.",
-  "opening.tapVariant": "Toca para ver a variante"
+  "opening.tapVariant": "Toca para ver a variante",
+  "changelog.3.6.20": "No PC, os vídeos para partilhar geram-se mais depressa, com o mesmo ritmo na reprodução",
+  "changelog.openHint": "Ver histórico de versões",
+  "changelog.3.6.21": "O histórico de versões abre ao carregar no número da versão, não ao iniciar",
+  "changelog.3.6.22": "O início de sessão não aparece ao abrir; sem sessão, mostra-se a cada 5 minutos",
+  "changelog.3.6.23": "Ao entrar em www.ajedrezia.com não aparece o modal Iniciar sessão",
+  "changelog.3.6.24": "Os problemas de xadrez podem jogar-se sem abrir o modal Iniciar sessão",
+  "changelog.3.6.25": "Nas peças capturadas mostra-se o valor total das brancas e das pretas"
 }

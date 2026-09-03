@@ -1484,5 +1484,12 @@
   "op.escocesa-gambito.desc": "Un gambit qui sacrifie d4 pour le développement et le contrôle de f7. Semblable au gambit danois, avec un jeu ouvert et tactique.",
   "op.holandesa-staunton.name": "Gambit Staunton",
   "op.holandesa-staunton.desc": "Un gambit agressif qui cherche à ouvrir des lignes contre le roi noir affaibli par ...f5. Jeu tactique avec compensation pour le pion.",
-  "opening.tapVariant": "Appuie pour voir la variante"
+  "opening.tapVariant": "Appuie pour voir la variante",
+  "changelog.3.6.20": "Sur PC, les vidéos à partager sont générées plus vite, avec le même rythme à la lecture",
+  "changelog.openHint": "Voir l’historique des versions",
+  "changelog.3.6.21": "L’historique des versions s’ouvre en appuyant sur le numéro de version, pas au démarrage",
+  "changelog.3.6.22": "La connexion n’apparaît plus au démarrage ; sans session, elle s’affiche toutes les 5 minutes",
+  "changelog.3.6.23": "En ouvrant www.ajedrezia.com, la fenêtre Connexion ne s’affiche pas",
+  "changelog.3.6.24": "Les problèmes d’échecs se jouent sans ouvrir la fenêtre Connexion",
+  "changelog.3.6.25": "Les pièces prises affichent la valeur totale capturée par les Blancs et les Noirs"
 }

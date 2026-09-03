@@ -1484,5 +1484,12 @@
   "op.escocesa-gambito.desc": "Gambetto che sacrifica d4 per sviluppo e controllo di f7. Simile al gambetto danese, con gioco aperto e tattico.",
   "op.holandesa-staunton.name": "Gambetto Staunton",
   "op.holandesa-staunton.desc": "Gambetto aggressivo che cerca di aprire linee contro il re nero indebolito da ...f5. Gioco tattico con compenso per il pedone.",
-  "opening.tapVariant": "Tocca per vedere la variante"
+  "opening.tapVariant": "Tocca per vedere la variante",
+  "changelog.3.6.20": "Su PC i video da condividere si generano più in fretta, con lo stesso ritmo in riproduzione",
+  "changelog.openHint": "Vedi cronologia versioni",
+  "changelog.3.6.21": "La cronologia versioni si apre toccando il numero di versione, non all’avvio",
+  "changelog.3.6.22": "L’accesso non compare all’avvio; senza sessione viene mostrato ogni 5 minuti",
+  "changelog.3.6.23": "Aprendo www.ajedrezia.com non viene mostrata la finestra Accedi",
+  "changelog.3.6.24": "I problemi di scacchi si possono fare senza aprire la finestra Accedi",
+  "changelog.3.6.25": "Nelle pezzi catturati si mostra il valore totale di Bianco e Nero"
 }

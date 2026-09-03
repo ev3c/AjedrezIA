@@ -1484,5 +1484,12 @@
   "op.escocesa-gambito.desc": "Ein Gambit, das d4 für Entwicklung und Kontrolle von f7 opfert. Ähnlich dem Dänischen Gambit mit offenem, taktischem Spiel.",
   "op.holandesa-staunton.name": "Staunton-Gambit",
   "op.holandesa-staunton.desc": "Ein aggressives Gambit, das Linien gegen den durch ...f5 geschwächten schwarzen König öffnen will. Taktisches Spiel mit Kompensation für den Bauern.",
-  "opening.tapVariant": "Tippe, um die Variante zu sehen"
+  "opening.tapVariant": "Tippe, um die Variante zu sehen",
+  "changelog.3.6.20": "Am PC werden geteilte Videos schneller erzeugt, mit demselben Tempo bei der Wiedergabe",
+  "changelog.openHint": "Versionsverlauf anzeigen",
+  "changelog.3.6.21": "Der Versionsverlauf öffnet sich beim Tippen auf die Versionsnummer, nicht beim Start",
+  "changelog.3.6.22": "Die Anmeldung erscheint nicht beim Start; ohne Sitzung wird sie alle 5 Minuten angezeigt",
+  "changelog.3.6.23": "Beim Öffnen von www.ajedrezia.com wird das Anmeldefenster nicht angezeigt",
+  "changelog.3.6.24": "Schachaufgaben können ohne das Anmeldefenster gespielt werden",
+  "changelog.3.6.25": "Bei den geschlagenen Figuren wird der Gesamtwert für Weiß und Schwarz angezeigt"
 }

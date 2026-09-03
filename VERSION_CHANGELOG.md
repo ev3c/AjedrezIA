@@ -2,6 +2,69 @@
 
 ---
 
+## v3.6.27 — 2026-09-04
+
+### Tablero
+- Las piezas se pueden mover arrastrándolas o pulsando la casilla
+  de origen y luego la de destino.
+
+---
+
+## v3.6.26 — 2026-09-04
+
+### Tablero
+- Las piezas solo se mueven arrastrándolas, no al pulsar la casilla
+  de origen y luego la de destino.
+
+---
+
+## v3.6.25 — 2026-09-04
+
+### Tablero
+- En piezas comidas, blancas y negras muestran el valor total
+  de las piezas capturadas (peón 1, caballo/alfil 3, torre 5, dama 9).
+
+---
+
+## v3.6.24 — 2026-09-04
+
+### Problemas
+- Entrar en Problemas de Ajedrez ya no abre el modal Iniciar Sesión.
+
+---
+
+## v3.6.23 — 2026-09-04
+
+### Acceso
+- Al entrar en www.ajedrezia.com no se muestra el modal Iniciar Sesión.
+  El tablero arranca o reanuda la partida sin pedir sesión.
+
+---
+
+## v3.6.22 — 2026-09-04
+
+### Acceso
+- El modal de inicio de sesión ya no aparece al abrir la app.
+  Si no hay sesión, se muestra cada 5 minutos y se puede cerrar.
+
+---
+
+## v3.6.21 — 2026-09-04
+
+### Interfaz
+- El historial de versiones ya no aparece al abrir la app;
+  se muestra al pulsar el número de versión (vX.X.XX).
+
+---
+
+## v3.6.20 — 2026-08-27
+
+### Compartir
+- En PC, los vídeos de compartir se generan más rápido (WebCodecs),
+  con el mismo ritmo al reproducirlos. En móvil se mantiene MediaRecorder.
+
+---
+
 ## v3.6.19 — 2026-08-27
 
 ### Partidas Seleccionadas

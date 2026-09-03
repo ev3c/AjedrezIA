@@ -1484,5 +1484,12 @@
   "op.escocesa-gambito.desc": "전개와 f7 장악을 위해 d4를 희생하는 갬빗. 대니시 갬빗과 비슷한 오픈되고 전술적인 수입니다.",
   "op.holandesa-staunton.name": "스턴턴 갬빗",
   "op.holandesa-staunton.desc": "...f5로 약해진 흑 킹에 대해 라인을 열려는 공격적 갬빗. 폰에 대한 보상이 있는 전술적 수입니다.",
-  "opening.tapVariant": "눌러서 변화 보기"
+  "opening.tapVariant": "눌러서 변화 보기",
+  "changelog.3.6.20": "PC에서는 공유 영상이 더 빨리 만들어지며, 재생 리듬은 그대로입니다",
+  "changelog.openHint": "버전 기록 보기",
+  "changelog.3.6.21": "버전 기록은 시작 시가 아니라 버전 번호를 누르면 열립니다",
+  "changelog.3.6.22": "시작 시 로그인이 나타나지 않으며, 세션이 없으면 5분마다 표시됩니다",
+  "changelog.3.6.23": "www.ajedrezia.com 에 들어가면 로그인 창이 나타나지 않습니다",
+  "changelog.3.6.24": "로그인 창을 열지 않고 체스 퍼즐을 풀 수 있습니다",
+  "changelog.3.6.25": "잡은 말에 백과 흑의 총 점수가 표시됩니다"
 }

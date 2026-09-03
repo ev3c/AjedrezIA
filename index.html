@@ -117,7 +117,7 @@ try {
     <!-- End Google Tag Manager (noscript) -->
     <div class="container">
         <header>
-            <h1>♔ AjedrezIA ♚ <span class="version-tag" id="app-version"></span>
+            <h1>♔ AjedrezIA ♚ <span class="version-tag" id="app-version" data-i18n-title="changelog.openHint"></span>
                 <span class="lang-switch" id="lang-switch" role="group" aria-label="Language">
                     <button type="button" class="lang-btn" data-lang="es" title="Español">ES</button>
                     <button type="button" class="lang-btn" data-lang="ca" title="Català">CAT</button>
@@ -593,8 +593,8 @@ try {
                           <button id="share-board" class="btn-icon btn-share mini-share-btn" data-i18n-title="action.shareShort" title="Compartir">🔗</button>
                        </div>
                        <div id="captured-below" class="captured-below">
-                           <span class="captured-label captured-label-white"><span data-i18n="captured.white">Blancas: </span><span id="captured-white"></span></span>
-                           <span class="captured-label captured-label-black"><span data-i18n="captured.black">Negras: </span><span id="captured-black"></span></span>
+                           <span class="captured-label captured-label-white"><span data-i18n="captured.white">Blancas: </span><span id="captured-white"></span><span id="captured-white-value" class="captured-value"></span></span>
+                           <span class="captured-label captured-label-black"><span data-i18n="captured.black">Negras: </span><span id="captured-black"></span><span id="captured-black-value" class="captured-value"></span></span>
                        </div>
                        <!-- Botones de acción (solo iconos) debajo del tablero -->
                        <div class="board-action-buttons">
@@ -1239,6 +1239,7 @@ try {
         document.write('<script src="i18n-content.js?v=' + APP_VERSION + '"><\/script>');
         document.write('<script src="i18n-extra.js?v=' + APP_VERSION + '"><\/script>');
         document.write('<script src="chess-logic.js?v=' + APP_VERSION + '"><\/script>');
+        document.write('<script src="vendor/webm-muxer.min.js?v=' + APP_VERSION + '"><\/script>');
         document.write('<script src="app.js?v=' + APP_VERSION + '"><\/script>');
     </script>
 </body>

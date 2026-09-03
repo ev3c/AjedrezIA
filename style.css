@@ -37,6 +37,13 @@ header h1 {
     vertical-align: baseline;
     text-shadow: none;
     letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+.version-tag:hover,
+.version-tag:focus {
+    text-decoration: underline;
+    outline: none;
 }
 
 .lang-switch {
@@ -1188,6 +1195,12 @@ body.puzzle-mode-active .mini-clock-elo-row {
 
 #captured-white, #captured-black {
     font-weight: 500;
+}
+
+.captured-value {
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    margin-left: 2px;
 }
 
 /* Historial de movimientos eliminado */

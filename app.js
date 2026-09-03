@@ -4063,7 +4063,6 @@ function getDifficultyLabel(diff) {
 }
 
 async function startNewPuzzle(resetIndex, navDir) {
-    if (!requireAuthenticatedUser()) return;
     // Si cambia tema o la caché está vacía, carga desde la API
     if (resetIndex || puzzleApiCache.length === 0) {
         await fetchPuzzlesFromAPI(puzzleFilter.theme, 30);
@@ -7980,6 +7979,13 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '3.6.27': [
+        'En piezas comidas se muestra el valor total capturado por blancas y por negras',
+        'El inicio de sesión no aparece al abrir la app; se muestra cada 5 minutos si no hay sesión',
+        'El historial de versiones se abre al pulsar el número de versión, no al iniciar',
+        'En PC los vídeos de compartir se generan más rápido, con el mismo ritmo al reproducirlos',
+        '... y más mejoras en AjedrezIA ...',
+    ],
     '3.6.19': [
         'Partidas Seleccionadas incluye Faustino Oro vs Magnus Carlsen (2026)',
         'Al pasar por la lista de variantes de una apertura terminada se muestra «Pulsa para ver las variantes»',
@@ -8326,25 +8332,20 @@ function scrollToResponsivePanel(panelEl) {
     setTimeout(() => panelEl.scrollIntoView({ behavior: 'smooth', block: 'start' }), 80);
 }
 
-function checkNewVersion() {
-    const savedVersion = localStorage.getItem('app_version');
-    if (!savedVersion || compareVersions(APP_VERSION, savedVersion) > 0) {
-        const allVersions = Object.keys(VERSION_CHANGELOG)
-            .sort((a, b) => compareVersions(b, a));
-        let msg = `<strong>${t('newVersion', { v: APP_VERSION })}</strong>`;
-        allVersions.forEach(v => {
-            const changes = VERSION_CHANGELOG[v] || [];
-            msg += `<div style="margin-top:10px;"><strong>v${v}</strong></div>`;
-            if (changes.length) {
-                msg += '<ul style="text-align:left;margin:6px 0 0;padding-left:18px;font-size:0.9em;">';
-                changes.forEach(c => msg += `<li>${t(c, null, c)}</li>`);
-                msg += '</ul>';
-            }
-        });
-        setTimeout(() => showMessage(msg, 'success', 0, () => {
-            localStorage.setItem('app_version', APP_VERSION);
-        }), 500);
-    }
+function showVersionChangelog() {
+    const allVersions = Object.keys(VERSION_CHANGELOG)
+        .sort((a, b) => compareVersions(b, a));
+    let msg = `<strong>${t('newVersion', { v: APP_VERSION })}</strong>`;
+    allVersions.forEach(v => {
+        const changes = VERSION_CHANGELOG[v] || [];
+        msg += `<div style="margin-top:10px;"><strong>v${v}</strong></div>`;
+        if (changes.length) {
+            msg += '<ul style="text-align:left;margin:6px 0 0;padding-left:18px;font-size:0.9em;">';
+            changes.forEach(c => msg += `<li>${t(c, null, c)}</li>`);
+            msg += '</ul>';
+        }
+    });
+    showMessage(msg, 'success', 0);
 }
 
 const HELP_INTRO_YOUTUBE_HIDDEN_KEY = 'help_intro_youtube_hidden';
@@ -8863,24 +8864,48 @@ function isAuthenticatedUser() {
         provider === 'apple';
 }
 
+const LOGIN_REMIND_MS = 5 * 60 * 1000;
+let loginRemindTimer = null;
+
+function stopLoginRemindTimer() {
+    if (loginRemindTimer) {
+        clearInterval(loginRemindTimer);
+        loginRemindTimer = null;
+    }
+}
+
+function maybeShowLoginReminder() {
+    if (isAuthenticatedUser()) {
+        stopLoginRemindTimer();
+        return;
+    }
+    const overlay = document.getElementById('login-modal-overlay');
+    if (overlay && overlay.classList.contains('is-open')) return;
+    showLoginModal();
+}
+
+function startLoginRemindTimer() {
+    if (loginRemindTimer || isAuthenticatedUser()) return;
+    loginRemindTimer = setInterval(maybeShowLoginReminder, LOGIN_REMIND_MS);
+}
+
 function updateAppAccessLock() {
     const authed = isAuthenticatedUser();
-    document.body.classList.toggle('app-access-locked', !authed);
+    document.body.classList.remove('app-access-locked');
 
     const closeBtn = document.getElementById('login-modal-close');
-    if (closeBtn) closeBtn.style.display = authed ? '' : 'none';
+    if (closeBtn) closeBtn.style.display = '';
 
-    const overlay = document.getElementById('login-modal-overlay');
-    if (!overlay) return;
-    if (!authed) {
-        updateLoginModalUI();
-        overlay.classList.add('is-open');
+    if (authed) {
+        stopLoginRemindTimer();
+        return;
     }
+    startLoginRemindTimer();
 }
 
 function requireAuthenticatedUser() {
     if (isAuthenticatedUser()) return true;
-    updateAppAccessLock();
+    showLoginModal();
     return false;
 }
 
@@ -11179,8 +11204,7 @@ function showLoginModal() {
     if (closeBtn) closeBtn.focus();
 }
 
-function hideLoginModal(force) {
-    if (!force && !isAuthenticatedUser()) return;
+function hideLoginModal() {
     const overlay = document.getElementById('login-modal-overlay');
     if (overlay) overlay.classList.remove('is-open');
     loginSetLoading(false);
@@ -11621,11 +11645,11 @@ async function signInWithApple() {
         });
 
         overlay.addEventListener('click', function(e) {
-            if (e.target === overlay && isAuthenticatedUser()) hideLoginModal();
+            if (e.target === overlay) hideLoginModal();
         });
 
         document.addEventListener('keydown', function(e) {
-            if (e.key === 'Escape' && overlay.classList.contains('is-open') && isAuthenticatedUser()) {
+            if (e.key === 'Escape' && overlay.classList.contains('is-open')) {
                 hideLoginModal();
             }
         });
@@ -12245,8 +12269,9 @@ function closeTopModalForAndroidBack() {
     }
 
     const login = document.getElementById('login-modal-overlay');
-    if (login && login.classList.contains('is-open') && !isAuthenticatedUser()) {
-        return false;
+    if (login && login.classList.contains('is-open')) {
+        hideLoginModal();
+        return true;
     }
 
     const analysis = document.getElementById('analysis-overlay');
@@ -12298,8 +12323,9 @@ function consumeAndroidBackAction() {
     if (closeAndroidCustomSelect()) return true;
     if (closeAndroidVariantsPopup()) return true;
     const login = document.getElementById('login-modal-overlay');
-    if (login && login.classList.contains('is-open') && typeof isAuthenticatedUser === 'function' && !isAuthenticatedUser()) {
-        return false;
+    if (login && login.classList.contains('is-open')) {
+        hideLoginModal();
+        return true;
     }
     if (closeTopModalForAndroidBack()) return true;
     if (closeResponsiveOverlayPanel()) return true;
@@ -12382,12 +12408,21 @@ document.addEventListener('DOMContentLoaded', () => {
     // Inicializar motor Stockfish
     initStockfish();
 
-    // Mostrar versión
+    // Mostrar versión; el historial solo se abre al pulsar vX.X.XX
     const versionEl = document.getElementById('app-version');
-    if (versionEl) versionEl.textContent = 'v' + APP_VERSION;
-
-    // Comprobar si hay nueva versión
-    checkNewVersion();
+    if (versionEl) {
+        versionEl.textContent = 'v' + APP_VERSION;
+        versionEl.setAttribute('role', 'button');
+        versionEl.tabIndex = 0;
+        versionEl.addEventListener('click', showVersionChangelog);
+        versionEl.addEventListener('keydown', event => {
+            if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault();
+                showVersionChangelog();
+            }
+        });
+    }
+    try { localStorage.setItem('app_version', APP_VERSION); } catch (e) {}
 
     // Cargar configuraciones guardadas
     loadSavedSettings();
@@ -12913,6 +12948,7 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
         startNewGame();
     }
+    hideLoginModal();
     if (!spInit.get('puzzle')) {
         checkForGameInProgress();
         updateShareButton();
@@ -13619,7 +13655,6 @@ function showNewGameDialog() {
 }
 
 function startNewGame(options) {
-    if (!requireAuthenticatedUser()) return;
     // Si había una partida online activa y no la estamos iniciando ahora desde startOnlineGame, abandonarla
     if (_onlineGame && (!options || options.fromOnlineStart !== true)) {
         leaveOnlineGame('abort');
@@ -16731,37 +16766,40 @@ async function renderShareBoardDataURL(p) {
         pctx.closePath();
         pctx.fill();
 
+        if (p.asCanvas) return projected;
         try { return projected.toDataURL('image/png'); } catch (e) { return null; }
     }
 
+    if (p.asCanvas) return canvas;
     try { return canvas.toDataURL('image/png'); } catch (e) { return null; }
 }
 
-async function renderShareVideoIntroDataURL(previewParams, outputSize) {
+async function renderShareVideoIntroDataURL(previewParams, outputSize, asCanvas) {
     // Reutiliza literalmente el panel de texto situado a la derecha de la
     // tarjeta compartida y lo adapta al formato cuadrado del vídeo.
     const size = outputSize || 1080;
     const renderScale = size / 630;
-    const fullCardUrl = await renderShareBoardDataURL({
+    const fullCard = await renderShareBoardDataURL({
         ...previewParams,
         mv: '',
         arrowColor: null,
         videoBoardOnly: false,
-        renderScale
+        renderScale,
+        asCanvas: true
     });
-    if (!fullCardUrl) return null;
-    const image = await loadShareVideoFrame(fullCardUrl);
+    if (!fullCard) return null;
     const canvas = document.createElement('canvas');
     canvas.width = size;
     canvas.height = size;
     const context = canvas.getContext('2d');
     const textPanelX = (48 + 540) * renderScale;
     context.drawImage(
-        image,
-        textPanelX, 0, image.width - textPanelX, image.height,
+        fullCard,
+        textPanelX, 0, fullCard.width - textPanelX, fullCard.height,
         0, 0, size, size
     );
-    return canvas.toDataURL('image/png');
+    if (asCanvas) return canvas;
+    try { return canvas.toDataURL('image/png'); } catch (e) { return null; }
 }
 
 let shareSelectedFormat = 'image';
@@ -16878,15 +16916,6 @@ function buildShareVideoSequence(info) {
     return frames;
 }
 
-function loadShareVideoFrame(dataUrl) {
-    return new Promise((resolve, reject) => {
-        const image = new Image();
-        image.onload = () => resolve(image);
-        image.onerror = reject;
-        image.src = dataUrl;
-    });
-}
-
 function drawShareVideoCountdownOverlay(ctx, size, number) {
     ctx.save();
     ctx.fillStyle = 'rgba(0, 0, 0, 0.34)';
@@ -16913,157 +16942,369 @@ function updateShareVideoStatus(text, progress) {
     if (fill) fill.style.width = `${Math.max(0, Math.min(100, progress || 0))}%`;
 }
 
-async function generateShareVideo() {
-    if (shareVideoBlob) return shareVideoBlob;
-    if (shareVideoPromise) return shareVideoPromise;
+const SHARE_VIDEO_FPS = 30;
+const SHARE_VIDEO_BITRATE = 10000000;
 
-    const generation = ++shareVideoGeneration;
-    shareVideoPromise = (async () => {
-        if (!window.MediaRecorder || !HTMLCanvasElement.prototype.captureStream) {
-            throw new Error(t('share.videoBrowser'));
+function isShareVideoMobileClient() {
+    return /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent || '');
+}
+
+function canUseShareVideoFastPath() {
+    if (isShareVideoMobileClient()) return false;
+    if (typeof VideoEncoder !== 'function' || typeof VideoFrame !== 'function') return false;
+    const muxer = typeof WebMMuxer !== 'undefined' ? WebMMuxer : null;
+    return !!(muxer && typeof muxer.Muxer === 'function' && typeof muxer.ArrayBufferTarget === 'function');
+}
+
+function getShareVideoMoveDurationMs(moveCount) {
+    return moveCount > 40 ? 900 : (moveCount > 15 ? 1300 : 1800);
+}
+
+function getShareVideoBoardRenderOptions(frame, session) {
+    return {
+        ...frame,
+        videoBoardOnly: true,
+        renderScale: session.renderScale,
+        videoTheme: session.theme,
+        videoPieceStyle: session.pieceStyle,
+        video3D: session.board3D,
+        showSquareCoordinates: session.coordinates,
+        arrowColor: shareContext === 'problema' ? 'blue' : 'yellow',
+        asCanvas: true
+    };
+}
+
+async function pickShareVideoEncoderConfig(width, height) {
+    if (typeof VideoEncoder === 'undefined') return null;
+    const base = {
+        width,
+        height,
+        bitrate: SHARE_VIDEO_BITRATE,
+        framerate: SHARE_VIDEO_FPS,
+        latencyMode: 'quality'
+    };
+    const candidates = [
+        { codec: 'vp09.00.10.08', hardwareAcceleration: 'prefer-hardware', muxerCodec: 'V_VP9' },
+        { codec: 'vp8', hardwareAcceleration: 'prefer-hardware', muxerCodec: 'V_VP8' },
+        { codec: 'vp09.00.10.08', hardwareAcceleration: 'prefer-software', muxerCodec: 'V_VP9' },
+        { codec: 'vp8', hardwareAcceleration: 'prefer-software', muxerCodec: 'V_VP8' },
+        { codec: 'vp8', muxerCodec: 'V_VP8' }
+    ];
+    for (const extra of candidates) {
+        const { muxerCodec, ...codecOptions } = extra;
+        const config = { ...base, ...codecOptions };
+        try {
+            if (typeof VideoEncoder.isConfigSupported === 'function') {
+                const support = await VideoEncoder.isConfigSupported(config);
+                if (!support || !support.supported) continue;
+                return { encoderConfig: support.config || config, muxerCodec };
+            }
+            return { encoderConfig: config, muxerCodec };
+        } catch (e) {}
+    }
+    return null;
+}
+
+function waitShareVideoEncoderQueue(encoder, limit) {
+    if (encoder.encodeQueueSize <= limit) return Promise.resolve();
+    return new Promise(resolve => {
+        let settled = false;
+        const finish = () => {
+            if (settled) return;
+            if (encoder.encodeQueueSize > limit) return;
+            settled = true;
+            if (typeof encoder.removeEventListener === 'function') {
+                encoder.removeEventListener('dequeue', finish);
+            }
+            resolve();
+        };
+        if (typeof encoder.addEventListener === 'function') {
+            encoder.addEventListener('dequeue', finish);
         }
-
-        const info = getShareInfo();
-        const frames = buildShareVideoSequence(info);
-        if (!frames.length) throw new Error(t('msg.noShareMoves'));
-
-        const VIDEO_SIZE = 1080;
-        const VIDEO_RENDER_SCALE = VIDEO_SIZE / 630;
-        // Congelar la apariencia elegida al comenzar para que todo el vídeo
-        // mantenga el mismo tema, piezas y perspectiva.
-        const selectedVideoTheme = boardTheme;
-        const selectedVideoPieceStyle = pieceStyle;
-        const selectedVideo3D = !!board3D;
-        const selectedVideoCoordinates = !!showCoordinates;
-        const canvas = document.createElement('canvas');
-        canvas.width = VIDEO_SIZE;
-        canvas.height = VIDEO_SIZE;
-        const context = canvas.getContext('2d');
-        const stream = canvas.captureStream(30);
-        const videoTrack = stream.getVideoTracks()[0];
-        // Priorizar MP4/H.264 en todos los navegadores. La captura explícita de
-        // cada fotograma evita el problema anterior del canvas estático.
-        const webmTypes = ['video/webm;codecs=vp9', 'video/webm;codecs=vp8', 'video/webm'];
-        const mp4Types = ['video/mp4;codecs=avc1', 'video/mp4;codecs=avc1.42E01E', 'video/mp4;codecs=h264', 'video/mp4'];
-        const mimeCandidates = [...mp4Types, ...webmTypes];
-        const mimeType = mimeCandidates.find(type => MediaRecorder.isTypeSupported(type)) || '';
-        const recorderOptions = {
-            videoBitsPerSecond: 10000000,
-            ...(mimeType ? { mimeType } : {})
+        const poll = () => {
+            if (settled) return;
+            finish();
+            if (!settled) setTimeout(poll, 8);
         };
-        const recorder = new MediaRecorder(stream, recorderOptions);
-        const chunks = [];
-        recorder.ondataavailable = event => { if (event.data && event.data.size) chunks.push(event.data); };
-        const stopped = new Promise(resolve => { recorder.onstop = resolve; });
-        // No usar timeslice: en móvil, los fragmentos MP4/WebM periódicos se
-        // concatenan correctamente para el reproductor del navegador, pero
-        // Facebook, TikTok, Instagram y X pueden leer solo parte de ellos al
-        // importar el archivo. Al emitir los datos al detener la grabación se
-        // obtiene un único vídeo finalizado con toda su línea temporal.
-        recorder.start();
+        setTimeout(poll, 8);
+    });
+}
 
-        const abortIfCancelled = async () => {
-            if (generation === shareVideoGeneration) return;
-            recorder.stop();
-            await stopped;
-            throw new Error(t('share.videoCancelled'));
-        };
+function prepareShareVideoSession() {
+    const info = getShareInfo();
+    const frames = buildShareVideoSequence(info);
+    if (!frames.length) throw new Error(t('msg.noShareMoves'));
+    const size = 1080;
+    return {
+        info,
+        frames,
+        size,
+        renderScale: size / 630,
+        theme: boardTheme,
+        pieceStyle,
+        board3D: !!board3D,
+        coordinates: !!showCoordinates,
+        frameDuration: getShareVideoMoveDurationMs(frames.length),
+        totalFrames: frames.length + 1
+    };
+}
 
-        const holdRecordedFrame = async (image, duration) => {
-            const deadline = performance.now() + duration;
-            while (performance.now() < deadline) {
-                await abortIfCancelled();
-                const remaining = deadline - performance.now();
-                await new Promise(resolve => setTimeout(resolve, Math.min(200, Math.max(1, remaining))));
-                // Repintar el mismo plano obliga a MediaRecorder a conservar
-                // toda su duración, incluso cuando el contenido es estático.
-                context.drawImage(image, 0, 0, canvas.width, canvas.height);
-                if (videoTrack && typeof videoTrack.requestFrame === 'function') {
-                    videoTrack.requestFrame();
-                }
-            }
-        };
-
-        const holdRecordedFrameWithCountdown = async (image, seconds) => {
-            for (let n = seconds; n >= 1; n--) {
-                await abortIfCancelled();
-                const deadline = performance.now() + 1000;
-                while (performance.now() < deadline) {
-                    await abortIfCancelled();
-                    const remaining = deadline - performance.now();
-                    await new Promise(resolve => setTimeout(resolve, Math.min(200, Math.max(1, remaining))));
-                    context.drawImage(image, 0, 0, canvas.width, canvas.height);
-                    drawShareVideoCountdownOverlay(context, canvas.width, n);
-                    if (videoTrack && typeof videoTrack.requestFrame === 'function') {
-                        videoTrack.requestFrame();
-                    }
-                }
-            }
-        };
-
-        const totalFrames = frames.length + 1;
-        const introDataUrl = await renderShareVideoIntroDataURL(info.previewParams, VIDEO_SIZE);
-        if (introDataUrl) {
-            const introImage = await loadShareVideoFrame(introDataUrl);
-            context.clearRect(0, 0, canvas.width, canvas.height);
-            context.drawImage(introImage, 0, 0, canvas.width, canvas.height);
+async function encodeShareVideoCanvasHold(encoder, canvas, durationMs, clock, abortIfCancelled, getEncodeError) {
+    const frameDurationUs = Math.round(1_000_000 / SHARE_VIDEO_FPS);
+    const total = Math.max(1, Math.round(durationMs * SHARE_VIDEO_FPS / 1000));
+    for (let i = 0; i < total; i++) {
+        await abortIfCancelled();
+        const encodeError = getEncodeError();
+        if (encodeError) throw encodeError;
+        await waitShareVideoEncoderQueue(encoder, 12);
+        await abortIfCancelled();
+        const frame = new VideoFrame(canvas, {
+            timestamp: clock.timestampUs,
+            duration: frameDurationUs
+        });
+        encoder.encode(frame, { keyFrame: i === 0 });
+        frame.close();
+        clock.timestampUs += frameDurationUs;
+        if (i % 10 === 0) {
             await new Promise(resolve => requestAnimationFrame(resolve));
-            if (videoTrack && typeof videoTrack.requestFrame === 'function') videoTrack.requestFrame();
-            updateShareVideoStatus(t('share.generatingVideo', { n: 1, total: totalFrames }), 100 / totalFrames);
-            await holdRecordedFrame(introImage, 3000);
+        }
+    }
+}
+
+async function generateShareVideoFast(session, generation) {
+    const picked = await pickShareVideoEncoderConfig(session.size, session.size);
+    if (!picked) throw new Error('no-webcodecs-config');
+
+    const canvas = document.createElement('canvas');
+    canvas.width = session.size;
+    canvas.height = session.size;
+    const context = canvas.getContext('2d', { alpha: false });
+    const target = new WebMMuxer.ArrayBufferTarget();
+    const muxer = new WebMMuxer.Muxer({
+        target,
+        video: {
+            codec: picked.muxerCodec,
+            width: session.size,
+            height: session.size,
+            frameRate: SHARE_VIDEO_FPS
+        },
+        firstTimestampBehavior: 'offset'
+    });
+
+    let encodeError = null;
+    const encoder = new VideoEncoder({
+        output: (chunk, meta) => {
+            try { muxer.addVideoChunk(chunk, meta); }
+            catch (err) { encodeError = err; }
+        },
+        error: err => { encodeError = err; }
+    });
+    encoder.configure(picked.encoderConfig);
+    const clock = { timestampUs: 0 };
+
+    const abortIfCancelled = async () => {
+        if (generation === shareVideoGeneration) return;
+        try { if (encoder.state !== 'closed') encoder.close(); } catch (e) {}
+        throw new Error(t('share.videoCancelled'));
+    };
+    const getEncodeError = () => encodeError;
+
+    try {
+        const introCanvas = await renderShareVideoIntroDataURL(session.info.previewParams, session.size, true);
+        if (introCanvas) {
+            context.clearRect(0, 0, canvas.width, canvas.height);
+            context.drawImage(introCanvas, 0, 0, canvas.width, canvas.height);
+            updateShareVideoStatus(t('share.generatingVideo', { n: 1, total: session.totalFrames }), 100 / session.totalFrames);
+            await encodeShareVideoCanvasHold(encoder, canvas, 3000, clock, abortIfCancelled, getEncodeError);
         }
 
-        // Ritmo pausado para que cada jugada pueda verse con claridad.
-        const frameDuration = frames.length > 40 ? 900 : (frames.length > 15 ? 1300 : 1800);
-        for (let index = 0; index < frames.length; index++) {
+        for (let index = 0; index < session.frames.length; index++) {
             await abortIfCancelled();
-            const frame = frames[index];
-            const dataUrl = await renderShareBoardDataURL({
-                ...frame,
-                videoBoardOnly: true,
-                renderScale: VIDEO_RENDER_SCALE,
-                videoTheme: selectedVideoTheme,
-                videoPieceStyle: selectedVideoPieceStyle,
-                video3D: selectedVideo3D,
-                showSquareCoordinates: selectedVideoCoordinates,
-                arrowColor: shareContext === 'problema' ? 'blue' : 'yellow'
-            });
-            if (!dataUrl) continue;
-            const image = await loadShareVideoFrame(dataUrl);
-            context.clearRect(0, 0, canvas.width, canvas.height);
-            context.drawImage(image, 0, 0, canvas.width, canvas.height);
-            // Asegura que MediaRecorder reciba cada cambio del canvas. Algunos
-            // navegadores no emiten cuadros nuevos mientras el dibujo se hace
-            // desde tareas asíncronas, aunque captureStream tenga una tasa fija.
-            await new Promise(resolve => requestAnimationFrame(resolve));
-            if (videoTrack && typeof videoTrack.requestFrame === 'function') {
-                videoTrack.requestFrame();
-            }
-            updateShareVideoStatus(
-                t('share.generatingVideo', { n: index + 2, total: totalFrames }),
-                ((index + 2) / totalFrames) * 100
+            const boardCanvas = await renderShareBoardDataURL(
+                getShareVideoBoardRenderOptions(session.frames[index], session)
             );
-            const isFinalFrame = index === frames.length - 1;
+            if (!boardCanvas) continue;
+            context.clearRect(0, 0, canvas.width, canvas.height);
+            context.drawImage(boardCanvas, 0, 0, canvas.width, canvas.height);
+            updateShareVideoStatus(
+                t('share.generatingVideo', { n: index + 2, total: session.totalFrames }),
+                ((index + 2) / session.totalFrames) * 100
+            );
+            const isFinalFrame = index === session.frames.length - 1;
             if (shareContext === 'problema' && index === 0) {
-                await holdRecordedFrameWithCountdown(image, 5);
-                if (isFinalFrame) await holdRecordedFrame(image, 5000);
+                for (let n = 5; n >= 1; n--) {
+                    await abortIfCancelled();
+                    context.drawImage(boardCanvas, 0, 0, canvas.width, canvas.height);
+                    drawShareVideoCountdownOverlay(context, canvas.width, n);
+                    await encodeShareVideoCanvasHold(encoder, canvas, 1000, clock, abortIfCancelled, getEncodeError);
+                }
+                if (isFinalFrame) {
+                    context.drawImage(boardCanvas, 0, 0, canvas.width, canvas.height);
+                    await encodeShareVideoCanvasHold(encoder, canvas, 5000, clock, abortIfCancelled, getEncodeError);
+                }
                 continue;
             }
             const currentFrameDuration = isFinalFrame
                 ? 5000
                 : index === 0
                     ? 2000
-                    : frameDuration;
-            await holdRecordedFrame(image, currentFrameDuration);
+                    : session.frameDuration;
+            await encodeShareVideoCanvasHold(encoder, canvas, currentFrameDuration, clock, abortIfCancelled, getEncodeError);
         }
 
-        recorder.stop();
-        await stopped;
-        stream.getTracks().forEach(track => track.stop());
-        const type = recorder.mimeType || 'video/webm';
-        const blob = new Blob(chunks, { type });
+        await abortIfCancelled();
+        await encoder.flush();
+        if (encoder.state !== 'closed') encoder.close();
+        muxer.finalize();
+        const blob = new Blob([target.buffer], { type: 'video/webm' });
         if (!blob.size) throw new Error(t('share.videoFail'));
         return blob;
+    } catch (error) {
+        try { if (encoder.state !== 'closed') encoder.close(); } catch (e) {}
+        throw error;
+    }
+}
+
+async function generateShareVideoRealtime(session, generation) {
+    if (!window.MediaRecorder || !HTMLCanvasElement.prototype.captureStream) {
+        throw new Error(t('share.videoBrowser'));
+    }
+
+    const canvas = document.createElement('canvas');
+    canvas.width = session.size;
+    canvas.height = session.size;
+    const context = canvas.getContext('2d', { alpha: false });
+    const stream = canvas.captureStream(SHARE_VIDEO_FPS);
+    const videoTrack = stream.getVideoTracks()[0];
+    // Priorizar MP4/H.264 en todos los navegadores. La captura explícita de
+    // cada fotograma evita el problema anterior del canvas estático.
+    const webmTypes = ['video/webm;codecs=vp9', 'video/webm;codecs=vp8', 'video/webm'];
+    const mp4Types = ['video/mp4;codecs=avc1', 'video/mp4;codecs=avc1.42E01E', 'video/mp4;codecs=h264', 'video/mp4'];
+    const mimeCandidates = [...mp4Types, ...webmTypes];
+    const mimeType = mimeCandidates.find(type => MediaRecorder.isTypeSupported(type)) || '';
+    const recorderOptions = {
+        videoBitsPerSecond: SHARE_VIDEO_BITRATE,
+        ...(mimeType ? { mimeType } : {})
+    };
+    const recorder = new MediaRecorder(stream, recorderOptions);
+    const chunks = [];
+    recorder.ondataavailable = event => { if (event.data && event.data.size) chunks.push(event.data); };
+    const stopped = new Promise(resolve => { recorder.onstop = resolve; });
+    // No usar timeslice: en móvil, los fragmentos MP4/WebM periódicos se
+    // concatenan correctamente para el reproductor del navegador, pero
+    // Facebook, TikTok, Instagram y X pueden leer solo parte de ellos al
+    // importar el archivo. Al emitir los datos al detener la grabación se
+    // obtiene un único vídeo finalizado con toda su línea temporal.
+    recorder.start();
+
+    const abortIfCancelled = async () => {
+        if (generation === shareVideoGeneration) return;
+        recorder.stop();
+        await stopped;
+        throw new Error(t('share.videoCancelled'));
+    };
+
+    const holdRecordedFrame = async (image, duration) => {
+        const deadline = performance.now() + duration;
+        while (performance.now() < deadline) {
+            await abortIfCancelled();
+            const remaining = deadline - performance.now();
+            await new Promise(resolve => setTimeout(resolve, Math.min(200, Math.max(1, remaining))));
+            // Repintar el mismo plano obliga a MediaRecorder a conservar
+            // toda su duración, incluso cuando el contenido es estático.
+            context.drawImage(image, 0, 0, canvas.width, canvas.height);
+            if (videoTrack && typeof videoTrack.requestFrame === 'function') {
+                videoTrack.requestFrame();
+            }
+        }
+    };
+
+    const holdRecordedFrameWithCountdown = async (image, seconds) => {
+        for (let n = seconds; n >= 1; n--) {
+            await abortIfCancelled();
+            const deadline = performance.now() + 1000;
+            while (performance.now() < deadline) {
+                await abortIfCancelled();
+                const remaining = deadline - performance.now();
+                await new Promise(resolve => setTimeout(resolve, Math.min(200, Math.max(1, remaining))));
+                context.drawImage(image, 0, 0, canvas.width, canvas.height);
+                drawShareVideoCountdownOverlay(context, canvas.width, n);
+                if (videoTrack && typeof videoTrack.requestFrame === 'function') {
+                    videoTrack.requestFrame();
+                }
+            }
+        }
+    };
+
+    const introCanvas = await renderShareVideoIntroDataURL(session.info.previewParams, session.size, true);
+    if (introCanvas) {
+        context.clearRect(0, 0, canvas.width, canvas.height);
+        context.drawImage(introCanvas, 0, 0, canvas.width, canvas.height);
+        await new Promise(resolve => requestAnimationFrame(resolve));
+        if (videoTrack && typeof videoTrack.requestFrame === 'function') videoTrack.requestFrame();
+        updateShareVideoStatus(t('share.generatingVideo', { n: 1, total: session.totalFrames }), 100 / session.totalFrames);
+        await holdRecordedFrame(introCanvas, 3000);
+    }
+
+    for (let index = 0; index < session.frames.length; index++) {
+        await abortIfCancelled();
+        const boardCanvas = await renderShareBoardDataURL(
+            getShareVideoBoardRenderOptions(session.frames[index], session)
+        );
+        if (!boardCanvas) continue;
+        context.clearRect(0, 0, canvas.width, canvas.height);
+        context.drawImage(boardCanvas, 0, 0, canvas.width, canvas.height);
+        // Asegura que MediaRecorder reciba cada cambio del canvas. Algunos
+        // navegadores no emiten cuadros nuevos mientras el dibujo se hace
+        // desde tareas asíncronas, aunque captureStream tenga una tasa fija.
+        await new Promise(resolve => requestAnimationFrame(resolve));
+        if (videoTrack && typeof videoTrack.requestFrame === 'function') {
+            videoTrack.requestFrame();
+        }
+        updateShareVideoStatus(
+            t('share.generatingVideo', { n: index + 2, total: session.totalFrames }),
+            ((index + 2) / session.totalFrames) * 100
+        );
+        const isFinalFrame = index === session.frames.length - 1;
+        if (shareContext === 'problema' && index === 0) {
+            await holdRecordedFrameWithCountdown(boardCanvas, 5);
+            if (isFinalFrame) await holdRecordedFrame(boardCanvas, 5000);
+            continue;
+        }
+        const currentFrameDuration = isFinalFrame
+            ? 5000
+            : index === 0
+                ? 2000
+                : session.frameDuration;
+        await holdRecordedFrame(boardCanvas, currentFrameDuration);
+    }
+
+    recorder.stop();
+    await stopped;
+    stream.getTracks().forEach(track => track.stop());
+    const type = recorder.mimeType || 'video/webm';
+    const blob = new Blob(chunks, { type });
+    if (!blob.size) throw new Error(t('share.videoFail'));
+    return blob;
+}
+
+async function generateShareVideo() {
+    if (shareVideoBlob) return shareVideoBlob;
+    if (shareVideoPromise) return shareVideoPromise;
+
+    const generation = ++shareVideoGeneration;
+    shareVideoPromise = (async () => {
+        const session = prepareShareVideoSession();
+        if (canUseShareVideoFastPath()) {
+            try {
+                return await generateShareVideoFast(session, generation);
+            } catch (error) {
+                if (generation !== shareVideoGeneration) throw error;
+                if (error && error.message === t('share.videoCancelled')) throw error;
+                console.warn('Fast share video failed, falling back to MediaRecorder', error);
+            }
+        }
+        return await generateShareVideoRealtime(session, generation);
     })();
 
     try {
@@ -18158,7 +18399,6 @@ function checkForGameInProgress() {
 }
 
 function resumeGame(silent) {
-    if (!requireAuthenticatedUser()) return;
     // En partidas online no se permite reanudar otra partida guardada:
     // la partida online en curso es prioritaria.
     if (_onlineGame && _onlineGame.status === 'active') {
@@ -18982,10 +19222,9 @@ function renderBoard() {
                 }
             }
             
-            // Event listener para clics
             square.addEventListener('click', () => handleSquareClick(displayRow, displayCol));
-
             square.addEventListener('mousedown', (e) => handleDragStart(e, displayRow, displayCol));
+            square.addEventListener('touchstart', (e) => handleTouchDragStart(e, displayRow, displayCol), { passive: false });
             
             boardElement.appendChild(square);
         }
@@ -19097,10 +19336,9 @@ function executeFreeTrainingMove(fromRow, fromCol, toRow, toCol, promotionPiece)
 }
 
 function handleSquareClick(row, col) {
-    if (!isAuthenticatedUser()) return;
     if (_openingPreviewSnapshot) return;
     if (dragState) return;
-    if (analysisActive) return;
+    if (analysisActive || !game) return;
     if (game.gameOver && !puzzleMode && !(learnMode && learnActive)) return;
 
     if (learnMode && learnActive) {
@@ -19119,21 +19357,20 @@ function handleSquareClick(row, col) {
         handleFreeTrainingClick(row, col);
         return;
     }
-    
-    // Quiz mode: player must play both white and black moves
+
     if (quizMode) {
-    const clickedPiece = game.getPiece(row, col);
-    
-    if (selectedSquare) {
-        const validMoves = game.getValidMoves(selectedSquare.row, selectedSquare.col);
-        const targetMove = validMoves.find(m => m.row === row && m.col === col);
-        
-        if (targetMove) {
+        const clickedPiece = game.getPiece(row, col);
+
+        if (selectedSquare) {
+            const validMoves = game.getValidMoves(selectedSquare.row, selectedSquare.col);
+            const targetMove = validMoves.find(m => m.row === row && m.col === col);
+
+            if (targetMove) {
                 const piece = game.getPiece(selectedSquare.row, selectedSquare.col);
                 const isPromotion = piece && piece.type === 'pawn' && (row === 0 || row === 7);
                 if (isPromotion) {
                     pendingPromotionMove = { fromRow: selectedSquare.row, fromCol: selectedSquare.col, toRow: row, toCol: col, isQuiz: true };
-            selectedSquare = null;
+                    selectedSquare = null;
                     showPromotionDialog(piece.color);
                     return;
                 }
@@ -19153,15 +19390,14 @@ function handleSquareClick(row, col) {
         return;
     }
 
-    // Solo permitir mover las piezas del jugador (siempre vs IA)
     if (!isHumanTurn()) return;
-    
+
     const clickedPiece = game.getPiece(row, col);
-    
+
     if (selectedSquare) {
         const validMoves = game.getValidMoves(selectedSquare.row, selectedSquare.col);
         const targetMove = validMoves.find(m => m.row === row && m.col === col);
-        
+
         if (targetMove) {
             const piece = game.getPiece(selectedSquare.row, selectedSquare.col);
             const isPromotion = piece && piece.type === 'pawn' && (row === 0 || row === 7);
@@ -19184,16 +19420,13 @@ function handleSquareClick(row, col) {
                 executeMove(fromRow, fromCol, row, col);
             });
         } else if (clickedPiece && clickedPiece.color === game.currentTurn) {
-            // Seleccionar otra pieza propia
             selectedSquare = { row, col };
             highlightValidMoves(row, col);
         } else {
-            // Deseleccionar
             selectedSquare = null;
             renderBoard();
         }
-    } else if (clickedPiece && clickedPiece.color === playerColor) {
-        // Seleccionar una pieza
+    } else if (clickedPiece && clickedPiece.color === game.currentTurn) {
         selectedSquare = { row, col };
         highlightValidMoves(row, col);
     }
@@ -19205,7 +19438,6 @@ function handleDragStart(e, row, col) {
     if (e.button !== 0) return;
     if (_openingPreviewSnapshot) return;
     if (analysisActive || !game || (game.gameOver && !puzzleMode && !(learnMode && learnActive))) return;
-    if ('ontouchstart' in window && e.pointerType === 'touch') return;
 
     const piece = game.getPiece(row, col);
     if (!piece) return;
@@ -19335,6 +19567,8 @@ function handleDragEnd(e) {
     }
 
     if (dropRow === fromRow && dropCol === fromCol) {
+        selectedSquare = { row: fromRow, col: fromCol };
+        highlightValidMoves(fromRow, fromCol);
         return;
     }
 
@@ -19380,8 +19614,43 @@ function handleDragEnd(e) {
     }
 }
 
+function handleTouchDragStart(e, row, col) {
+    if (!e.changedTouches || !e.changedTouches[0]) return;
+    const touch = e.changedTouches[0];
+    handleDragStart({
+        button: 0,
+        currentTarget: e.currentTarget,
+        clientX: touch.clientX,
+        clientY: touch.clientY,
+        preventDefault() { e.preventDefault(); }
+    }, row, col);
+}
+
+function handleTouchDragMove(e) {
+    if (!dragState) return;
+    if (!e.touches || !e.touches[0]) return;
+    const touch = e.touches[0];
+    handleDragMove({
+        clientX: touch.clientX,
+        clientY: touch.clientY,
+        preventDefault() { e.preventDefault(); }
+    });
+}
+
+function handleTouchDragEnd(e) {
+    if (!dragState) return;
+    const touch = e.changedTouches && e.changedTouches[0];
+    handleDragEnd({
+        clientX: touch ? touch.clientX : 0,
+        clientY: touch ? touch.clientY : 0
+    });
+}
+
 document.addEventListener('mousemove', handleDragMove);
 document.addEventListener('mouseup', handleDragEnd);
+document.addEventListener('touchmove', handleTouchDragMove, { passive: false });
+document.addEventListener('touchend', handleTouchDragEnd);
+document.addEventListener('touchcancel', handleTouchDragEnd);
 
 var moveInsightTimeout = null;
 var moveInsightFadeTimeout = null;
@@ -20355,12 +20624,50 @@ function addTimeIncrement() {
     }
 }
 
+const CAPTURED_MATERIAL_VALUES = {
+    WHITE_PAWN: 1, BLACK_PAWN: 1,
+    WHITE_KNIGHT: 3, BLACK_KNIGHT: 3,
+    WHITE_BISHOP: 3, BLACK_BISHOP: 3,
+    WHITE_ROOK: 5, BLACK_ROOK: 5,
+    WHITE_QUEEN: 9, BLACK_QUEEN: 9,
+    WHITE_KING: 0, BLACK_KING: 0
+};
+
+function getCapturedSymbolValue(symbol) {
+    if (!symbol) return 0;
+    const sets = [];
+    if (typeof PIECES !== 'undefined') sets.push(PIECES);
+    if (typeof PIECE_SETS !== 'undefined') {
+        Object.keys(PIECE_SETS).forEach(name => sets.push(PIECE_SETS[name]));
+    }
+    if (typeof getPieceSet === 'function') sets.push(getPieceSet());
+    for (let i = 0; i < sets.length; i++) {
+        const set = sets[i];
+        if (!set) continue;
+        for (const key in CAPTURED_MATERIAL_VALUES) {
+            if (set[key] === symbol) return CAPTURED_MATERIAL_VALUES[key];
+        }
+    }
+    return 0;
+}
+
+function sumCapturedMaterial(symbols) {
+    if (!symbols || !symbols.length) return 0;
+    return symbols.reduce((total, symbol) => total + getCapturedSymbolValue(symbol), 0);
+}
+
 function updateCapturedPieces() {
     const whiteElement = document.getElementById('captured-white');
     const blackElement = document.getElementById('captured-black');
+    const whiteValue = document.getElementById('captured-white-value');
+    const blackValue = document.getElementById('captured-black-value');
     if (!whiteElement || !blackElement) return;
-    whiteElement.textContent = game.capturedPieces.white.join(' ') || '-';
-    blackElement.textContent = game.capturedPieces.black.join(' ') || '-';
+    const whiteCaptured = (game && game.capturedPieces && game.capturedPieces.white) || [];
+    const blackCaptured = (game && game.capturedPieces && game.capturedPieces.black) || [];
+    whiteElement.textContent = whiteCaptured.join(' ') || '-';
+    blackElement.textContent = blackCaptured.join(' ') || '-';
+    if (whiteValue) whiteValue.textContent = String(sumCapturedMaterial(whiteCaptured));
+    if (blackValue) blackValue.textContent = String(sumCapturedMaterial(blackCaptured));
 }
 
 function updateMoveHistory() {
