@@ -208,6 +208,10 @@ let analysisErrorsCurrentIndex = 0;
 let analysisActive = false;
 let analysisAbortRequested = false;
 let dragState = null;
+let pendingTouchDrag = null;
+let lastTouchAt = 0;
+let suppressBoardClickUntil = 0;
+const TOUCH_DRAG_THRESHOLD_PX = 14;
 
 const ANALYSIS_DISABLED_IDS = ['start-opening-training', 'start-opening-quiz', 'load-famous-game',
     'resign-game', 'offer-draw', 'undo-move', 'hint-move', 'analyze-game',
@@ -7979,6 +7983,10 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '3.6.28': [
+        'En móvil el arrastre ya no deja una pieza flotante y vuelve a mover al soltar',
+        '... y más mejoras en AjedrezIA ...',
+    ],
     '3.6.27': [
         'En piezas comidas se muestra el valor total capturado por blancas y por negras',
         'El inicio de sesión no aparece al abrir la app; se muestra cada 5 minutos si no hay sesión',
@@ -19338,6 +19346,7 @@ function executeFreeTrainingMove(fromRow, fromCol, toRow, toCol, promotionPiece)
 function handleSquareClick(row, col) {
     if (_openingPreviewSnapshot) return;
     if (dragState) return;
+    if (Date.now() < suppressBoardClickUntil) return;
     if (analysisActive || !game) return;
     if (game.gameOver && !puzzleMode && !(learnMode && learnActive)) return;
 
@@ -19434,8 +19443,38 @@ function handleSquareClick(row, col) {
 
 // --- Drag & Drop ---
 
+function clearDragGhosts() {
+    document.querySelectorAll('.drag-ghost').forEach(function(el) { el.remove(); });
+}
+
+function highlightValidMovesLive(row, col) {
+    const squares = document.querySelectorAll('.square');
+    squares.forEach(function(square) {
+        square.classList.remove('selected', 'valid-move', 'has-piece');
+        const r = parseInt(square.dataset.row, 10);
+        const c = parseInt(square.dataset.col, 10);
+        if (r === row && c === col) square.classList.add('selected');
+    });
+    if (!game) return;
+    game.getValidMoves(row, col).forEach(function(move) {
+        squares.forEach(function(square) {
+            const r = parseInt(square.dataset.row, 10);
+            const c = parseInt(square.dataset.col, 10);
+            if (r === move.row && c === move.col) {
+                square.classList.add('valid-move');
+                if (game.getPiece(r, c)) square.classList.add('has-piece');
+            }
+        });
+    });
+}
+
 function handleDragStart(e, row, col) {
     if (e.button !== 0) return;
+    // El mousedown sintético tras un toque en móvil/responsive crea un segundo
+    // fantasma que se queda flotando si no llega el mouseup.
+    if (!e._fromTouch && Date.now() - lastTouchAt < 800) return;
+    if (e.sourceCapabilities && e.sourceCapabilities.firesTouchEvents && !e._fromTouch) return;
+    if (dragState) return;
     if (_openingPreviewSnapshot) return;
     if (analysisActive || !game || (game.gameOver && !puzzleMode && !(learnMode && learnActive))) return;
 
@@ -19452,6 +19491,7 @@ function handleDragStart(e, row, col) {
     e.preventDefault();
 
     const squareEl = e.currentTarget;
+    if (!squareEl || !squareEl.querySelector) return;
     const pieceEl = squareEl.querySelector('.piece, .piece-svg');
     if (!pieceEl) return;
 
@@ -19461,6 +19501,7 @@ function handleDragStart(e, row, col) {
     // Dividimos por el zoom para convertir al espacio de coordenadas correcto.
     const zf = parseFloat(document.documentElement.style.zoom) || 1;
     const szZ = rect.width / zf;
+    clearDragGhosts();
     const ghost = pieceEl.cloneNode(true);
     ghost.className = pieceEl.className + ' drag-ghost';
     ghost.style.width = szZ * 0.85 + 'px';
@@ -19474,10 +19515,7 @@ function handleDragStart(e, row, col) {
     const validMoves = game.getValidMoves(row, col);
 
     selectedSquare = { row, col };
-    highlightValidMoves(row, col);
-
-    const newPieceEl = document.querySelector(`.square[data-row="${row}"][data-col="${col}"] .piece, .square[data-row="${row}"][data-col="${col}"] .piece-svg`);
-    if (newPieceEl) newPieceEl.style.opacity = '0.25';
+    highlightValidMovesLive(row, col);
 
     dragState = {
         fromRow: row,
@@ -19488,8 +19526,13 @@ function handleDragStart(e, row, col) {
     };
 }
 
+function isSyntheticMouseAfterTouch(e) {
+    return !e._fromTouch && Date.now() - lastTouchAt < 800;
+}
+
 function handleDragMove(e) {
     if (!dragState) return;
+    if (isSyntheticMouseAfterTouch(e)) return;
     e.preventDefault();
     const zf = parseFloat(document.documentElement.style.zoom) || 1;
     const szZ = dragState.squareSize / zf;
@@ -19524,10 +19567,14 @@ let _board3dTouchHandler = null;
 
 function handleDragEnd(e) {
     if (!dragState) return;
+    if (isSyntheticMouseAfterTouch(e)) return;
 
     const { fromRow, fromCol, ghost, validMoves } = dragState;
-    ghost.remove();
+    if (ghost) ghost.remove();
+    clearDragGhosts();
     dragState = null;
+    pendingTouchDrag = null;
+    suppressBoardClickUntil = Date.now() + 450;
 
     let dropRow, dropCol;
 
@@ -19561,7 +19608,7 @@ function handleDragEnd(e) {
         gridCol = Math.max(0, Math.min(7, gridCol));
         gridRow = Math.max(0, Math.min(7, gridRow));
 
-        const isFlipped = playerColor === 'black';
+        const isFlipped = (playerColor === 'black') !== !!manualBoardFlipped;
         dropCol = isFlipped ? 7 - gridCol : gridCol;
         dropRow = isFlipped ? 7 - gridRow : gridRow;
     }
@@ -19615,42 +19662,81 @@ function handleDragEnd(e) {
 }
 
 function handleTouchDragStart(e, row, col) {
+    lastTouchAt = Date.now();
     if (!e.changedTouches || !e.changedTouches[0]) return;
+    if (dragState) return;
+    const piece = game && game.getPiece(row, col);
+    if (!piece) return;
     const touch = e.changedTouches[0];
-    handleDragStart({
-        button: 0,
-        currentTarget: e.currentTarget,
-        clientX: touch.clientX,
-        clientY: touch.clientY,
-        preventDefault() { e.preventDefault(); }
-    }, row, col);
+    pendingTouchDrag = {
+        row: row,
+        col: col,
+        x: touch.clientX,
+        y: touch.clientY,
+        target: e.currentTarget
+    };
 }
 
 function handleTouchDragMove(e) {
-    if (!dragState) return;
+    lastTouchAt = Date.now();
+    if (dragState) {
+        if (!e.touches || !e.touches[0]) return;
+        e.preventDefault();
+        const touch = e.touches[0];
+        handleDragMove({
+            clientX: touch.clientX,
+            clientY: touch.clientY,
+            _fromTouch: true,
+            preventDefault() { e.preventDefault(); }
+        });
+        return;
+    }
+    if (!pendingTouchDrag) return;
     if (!e.touches || !e.touches[0]) return;
     const touch = e.touches[0];
-    handleDragMove({
+    const dx = touch.clientX - pendingTouchDrag.x;
+    const dy = touch.clientY - pendingTouchDrag.y;
+    if ((dx * dx) + (dy * dy) < TOUCH_DRAG_THRESHOLD_PX * TOUCH_DRAG_THRESHOLD_PX) return;
+    handleDragStart({
+        button: 0,
+        currentTarget: pendingTouchDrag.target,
         clientX: touch.clientX,
         clientY: touch.clientY,
+        _fromTouch: true,
         preventDefault() { e.preventDefault(); }
-    });
+    }, pendingTouchDrag.row, pendingTouchDrag.col);
+    if (dragState) {
+        e.preventDefault();
+        pendingTouchDrag = null;
+    }
 }
 
 function handleTouchDragEnd(e) {
+    pendingTouchDrag = null;
     if (!dragState) return;
     const touch = e.changedTouches && e.changedTouches[0];
     handleDragEnd({
         clientX: touch ? touch.clientX : 0,
-        clientY: touch ? touch.clientY : 0
+        clientY: touch ? touch.clientY : 0,
+        _fromTouch: true
     });
+}
+
+function handleTouchDragCancel() {
+    pendingTouchDrag = null;
+    if (!dragState) return;
+    if (dragState.ghost) dragState.ghost.remove();
+    clearDragGhosts();
+    dragState = null;
+    if (selectedSquare) highlightValidMoves(selectedSquare.row, selectedSquare.col);
+    else renderBoard();
 }
 
 document.addEventListener('mousemove', handleDragMove);
 document.addEventListener('mouseup', handleDragEnd);
 document.addEventListener('touchmove', handleTouchDragMove, { passive: false });
 document.addEventListener('touchend', handleTouchDragEnd);
-document.addEventListener('touchcancel', handleTouchDragEnd);
+document.addEventListener('touchcancel', handleTouchDragCancel);
 
 var moveInsightTimeout = null;
 var moveInsightFadeTimeout = null;

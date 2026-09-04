@@ -2,6 +2,14 @@
 
 ---
 
+## v3.6.28 — 2026-09-04
+
+### Tablero
+- En modo smartphone, pulsar una pieza ya no deja otra flotando.
+  El arrastre vuelve a mover al soltar; el clic origen-destino se mantiene.
+
+---
+
 ## v3.6.27 — 2026-09-04
 
 ### Tablero

@@ -2239,14 +2239,17 @@ html[dir="rtl"] #chess-board {
     transform: rotate(180deg) scale(1.15);
 }
 
-.drag-ghost {
-    position: fixed;
+.drag-ghost,
+.piece.drag-ghost,
+.piece-svg.drag-ghost {
+    position: fixed !important;
     z-index: 9999;
     pointer-events: none;
     opacity: 0.9;
     filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.4));
     transform: scale(1.1);
-    transition: none;
+    transition: none !important;
+    margin: 0;
 }
 
 /* Contenedor de aperturas */
@@ -6117,6 +6120,11 @@ body.app-access-locked .container {
 /* Animación suave al activar/desactivar */
 #chess-board {
     transition: transform 0.4s ease, box-shadow 0.4s ease;
+    touch-action: none;
+}
+
+#chess-board .square {
+    touch-action: none;
 }
 
 /* El rotateX hace que el borde inferior del tablero se extienda

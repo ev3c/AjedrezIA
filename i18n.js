@@ -734,6 +734,7 @@ const I18N_PAIRS = [
     ['invite.willInvite', 'Vas a invitar a {nick} (ELO {elo})', 'You are inviting {nick} (ELO {elo})', 'Convidaràs {nick} (ELO {elo})'],
     ['changelog.more', '... y más mejoras en AjedrezIA ...', '... and more improvements in AjedrezIA ...', '... i més millores a AjedrezIA ...'],
     ['changelog.openHint', 'Ver historial de versiones', 'View version history', 'Veure l\'historial de versions'],
+    ['changelog.3.6.28', 'En móvil el arrastre ya no deja una pieza flotante y vuelve a mover al soltar', 'On mobile, dragging no longer leaves a floating piece and drops the move again', 'Al mòbil l\'arrossegament ja no deixa una peça flotant i torna a moure en deixar anar'],
     ['changelog.3.6.27', 'Las piezas se mueven arrastrándolas o pulsando origen y destino', 'Pieces move by dragging or by tapping origin and destination', 'Les peces es mouen arrossegant-les o prement origen i destí'],
     ['changelog.3.6.26', 'Las piezas solo se mueven arrastrándolas, no al pulsar origen y destino', 'Pieces only move by dragging, not by tapping origin and destination', 'Les peces només es mouen arrossegant-les, no en prémer origen i destí'],
     ['changelog.3.6.25', 'En piezas comidas se muestra el valor total capturado por blancas y por negras', 'Captured pieces now show the total material value for White and Black', 'A les peces menjades es mostra el valor total capturat per blanques i negres'],
