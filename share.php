@@ -33,6 +33,9 @@ $s     = mb_substr(trim(gp('s')), 0, 120);
 $meta  = mb_substr(trim(gp('meta')), 0, 420);
 $mv    = substr(preg_replace('/[^a-h1-8]/', '', strtolower(gp('mv'))), 0, 4);
 $cb    = substr(preg_replace('/[^A-Za-z0-9_\-]/', '', gp('cb')), 0, 40);
+$kl    = mb_substr(trim(gp('kl')), 0, 80);
+$card  = preg_replace('/[^a-f0-9]/', '', strtolower(gp('card')));
+$lay   = gp('lay') === 'left' ? 'left' : 'top';
 
 $packedMoves = preg_replace('/[^A-Za-z0-9_\-]/', '', gp('m'));
 $moves   = preg_replace('/[^a-h1-8nbrqkNBRQKO=,\-]/', '', gp('moves'));
@@ -229,7 +232,7 @@ function buildShareQuery($params) {
 
 $genericParams = [
     'fen' => $fen, 'flip' => $flip, 'kind' => $kind, 't' => $t, 's' => $s, 'meta' => $meta, 'mv' => $mv, 'cb' => $cb,
-    'lang' => $shareLang,
+    'lang' => $shareLang, 'kl' => $kl, 'card' => $card, 'lay' => $lay,
     'm' => $packedMoves, 'moves' => $moves, 'opening' => $opening, 'puzzle' => $puzzle, 'p' => $ppay, 'master' => $master,
 ];
 
@@ -241,9 +244,12 @@ if ($fen !== '' || $t !== '' || $packedMoves !== '' || $moves !== '') {
 
     $imgParams = [
         'fen' => $fen, 'flip' => $flip, 'kind' => $kind, 't' => $t, 's' => $s, 'meta' => $meta, 'mv' => $mv, 'cb' => $cb,
-        'lang' => $shareLang,
+        'lang' => $shareLang, 'kl' => $kl, 'lay' => $lay,
     ];
     $image    = $base . 'board-image.php' . buildShareQuery($imgParams);
+    if (strlen($card) === 24 && is_file(__DIR__ . '/share-cache/' . $card . '.png')) {
+        $image = $base . 'share-card.php?id=' . $card;
+    }
     $appUrl   = buildAppUrl($base, $packedMoves, $moves, $opening, $puzzle, $ppay, $master);
     $shareUrl = $base . 'share.php' . buildShareQuery($genericParams);
 } elseif ($master !== '') {
@@ -257,6 +263,10 @@ if ($fen !== '' || $t !== '' || $packedMoves !== '' || $moves !== '') {
     }
     $appUrl   = $base . '?master=' . rawurlencode($master);
     $shareUrl = $base . 'share.php?master=' . rawurlencode($master);
+}
+
+if (strlen($card) === 24 && is_file(__DIR__ . '/share-cache/' . $card . '.png')) {
+    $image = $base . 'share-card.php?id=' . $card;
 }
 
 function h($s) { return htmlspecialchars($s, ENT_QUOTES, 'UTF-8'); }
@@ -281,8 +291,8 @@ header('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
 <meta property="og:image:url" content="<?= h($image) ?>">
 <meta property="og:image:secure_url" content="<?= h($image) ?>">
 <meta property="og:image:type" content="image/png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
+<meta property="og:image:width" content="<?= $lay === 'left' ? '1280' : '720' ?>">
+<meta property="og:image:height" content="<?= $lay === 'left' ? '720' : '1280' ?>">
 <meta property="og:image:alt" content="<?= h($title) ?>">
 <meta property="og:url" content="<?= h($shareUrl) ?>">
 

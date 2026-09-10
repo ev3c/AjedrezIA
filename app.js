@@ -222,7 +222,7 @@ const ANALYSIS_DISABLED_IDS = ['start-opening-training', 'start-opening-quiz', '
     'show-known-variants',
     'player-color-btn-white', 'player-color-btn-black', 'player-color-btn-random',
     'opponent-btn-ai', 'opponent-btn-pvp', 'opponent-btn-online', 'opponent-btn-mail',
-    'ai-difficulty', 'opening-select', 'famous-game-select', 'library-game-select', 'time-control',
+    'ai-difficulty', 'opening-select', 'trap-select', 'famous-game-select', 'library-game-select', 'time-control',
     'piece-style', 'puzzle-theme-select'];
 
 // Estadísticas del jugador
@@ -2363,6 +2363,116 @@ const OPENING_TRAINING = {
     'panov': { name: 'Caro-Kann: Panov Profunda', moves: 'e2e4 c7c6 d2d4 d7d5 e4d5 c6d5 c2c4 g8f6 b1c3 e7e6', san: '1.e4 c6 2.d4 d5 3.exd5 cxd5 4.c4 Nf6 5.Nc3 e6', desc: 'Estructura tipo GDR con Peón Aislado de Dama. Juego dinámico donde ambos bandos tienen planes claros: ataque vs bloqueo.', wr: [35, 36, 29] },
     'escocesa-gambito': { name: 'Gambito Escocés', moves: 'e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f1c4', san: '1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Bc4', desc: 'Gambito que sacrifica d4 por desarrollo y control de f7. Similar al Gambito Danés con juego abierto y táctico.', wr: [40, 28, 32] },
     'holandesa-staunton': { name: 'Gambito Staunton', moves: 'd2d4 f7f5 e2e4', san: '1.d4 f5 2.e4', desc: 'Gambito agresivo que busca abrir líneas contra el rey negro debilitado por ...f5. Juego táctico con compensación por el peón.', wr: [42, 25, 33] },
+
+    // --- Trampas de apertura (sólidas y espectaculares) ---
+    'trampa-legal': {
+        name: 'Mate de Legal',
+        moves: 'e2e4 e7e5 g1f3 b8c6 f1c4 d7d6 b1c3 c8g4 f3e5 g4d1 c4f7 e8e7 c3d5',
+        san: '1.e4 e5 2.Nf3 Nc6 3.Bc4 d6 4.Nc3 Bg4 5.Nxe5 Bxd1 6.Bxf7+ Ke7 7.Nd5#',
+        desc: 'Clásica trampa de la Italiana: las blancas «regalan» la dama y dan mate.',
+        side: 'white', dubious: false,
+        why: 'Tras ...Bg4, Nxe5 descubre el alfil hacia f7. Si las negras comen la dama, Bxf7+ y Nd5# coordinan alfil y caballo contra el rey en e7.',
+        refute: 'No capturar la dama: ...Nxe5 defiende. 5...dxe5 o 5...Nxe5 evitan el mate y las blancas solo han cambiado pieza.'
+    },
+    'trampa-blackburne': {
+        name: 'Trampa de Blackburne (Shilling)',
+        moves: 'e2e4 e7e5 g1f3 b8c6 f1c4 c6d4 f3e5 d8g5 e5f7 g5g2 h1f1 g2e4 c4e2 d4f3',
+        san: '1.e4 e5 2.Nf3 Nc6 3.Bc4 Nd4 4.Nxe5 Qg5 5.Nxf7 Qxg2 6.Rf1 Qxe4+ 7.Be2 Nf3#',
+        desc: 'Las negras ceboan el peón e5. Si las blancas se lo comen, Qg5 gana o da mate.',
+        side: 'black', dubious: true,
+        why: '4.Nxe5? deja f2 y g2 débiles. Qg5 ataca e5 y g2; si Nxf7, ...Qxg2 y ...Qxe4+ acaban en Nf3#.',
+        refute: '4.Nxd4, 4.c3 o 4.O-O son correctas. ...Nd4 es dudoso si las blancas no caen: pierden tiempos.'
+    },
+    'trampa-arca-noe': {
+        name: 'Trampa del Arca de Noé',
+        moves: 'e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 d7d6 d2d4 b7b5 a4b3 c6d4 f3d4 e5d4 d1d4 c7c5 d4d5 c8e6 d5c6 e6d7 c6d5 c5c4',
+        san: '1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 d6 5.d4 b5 6.Bb3 Nxd4 7.Nxd4 exd4 8.Qxd4 c5 9.Qd5 Be6 10.Qc6+ Bd7 11.Qd5 c4',
+        desc: 'En la Española, ...c5-c4 encierra el alfil de b3.',
+        side: 'black', dubious: false,
+        why: 'Tras Qxd4 prematura, ...c5 y ...c4 cierran la retirada del alfil. El alfil de casillas blancas queda cazado por la cadena de peones (el «arca»).',
+        refute: 'No recapturar de dama en d4. 8.c3 o 5.c3 mantienen el alfil con casillas de escape.'
+    },
+    'trampa-lasker': {
+        name: 'Trampa de Lasker (Albin)',
+        moves: 'd2d4 d7d5 c2c4 e7e5 d4e5 d5d4 e2e3 f8b4 c1d2 d4e3 d2b4 e3f2 e1e2 f2g1n h1g1 c8g4',
+        san: '1.d4 d5 2.c4 e5 3.dxe5 d4 4.e3 Bb4+ 5.Bd2 dxe3 6.Bxb4 exf2+ 7.Ke2 fxg1=N+ 8.Rxg1 Bg4+',
+        desc: 'En el Contragambito Albin, coronar caballo gana de forma espectacular.',
+        side: 'black', dubious: false,
+        why: '4.e3? y 6.Bxb4?? permiten ...exf2+ y coronar caballo (no dama). Tras Rxg1, ...Bg4+ gana la dama o sigue un ataque decisivo.',
+        refute: '4.Nf3 es la línea principal. Tras 5...dxe3, 6.fxe3 (no Bxb4) mantiene la pieza y un peón de más.'
+    },
+    'trampa-fishing': {
+        name: 'Caña de pescar (Fishing Pole)',
+        moves: 'e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 e1g1 f6g4 h2h3 h7h5 h3g4 h5g4',
+        san: '1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Ng4 5.h3 h5 6.hxg4 hxg4',
+        desc: 'Las negras ceboan el caballo en g4 y abren la columna h contra el rey enrocado.',
+        side: 'black', dubious: true,
+        why: 'Si las blancas comen en g4, ...hxg4 abre h8-h1. La dama irá a h4 y la torre ataca al rey; el caballo de f3 a menudo no puede cubrir h2.',
+        refute: 'Ignorar el caballo: d3, Re1 o c3. Comer en g4 es el error. ...Ng4 no es teoría seria si las blancas no pican.'
+    },
+    'trampa-pastor': {
+        name: 'Mate del pastor',
+        moves: 'e2e4 e7e5 d1h5 b8c6 f1c4 g8f6 h5f7',
+        san: '1.e4 e5 2.Qh5 Nc6 3.Bc4 Nf6 4.Qxf7#',
+        desc: 'Ataque precoz a f7 con dama y alfil. Solo gana si las negras no defienden f7.',
+        side: 'white', dubious: true,
+        why: 'Qh5 y Bc4 apuntan a f7, el punto más débil. ...Nf6 ataca la dama pero no cubre f7: Qxf7#.',
+        refute: '3...g6 echa la dama; luego ...Nf6 y ...Bg7. También 2...Nc6 3.Bc4 Qe7 o 3...g6. El mate del pastor es fácil de parar.'
+    },
+    'trampa-budapest': {
+        name: 'Trampa de Budapest (Kieninger)',
+        moves: 'd2d4 g8f6 c2c4 e7e5 d4e5 f6g4 c1f4 b8c6 g1f3 f8b4 b1d2 d8e7 a2a3 g4e5 a3b4 e5d3',
+        san: '1.d4 Nf6 2.c4 e5 3.dxe5 Ng4 4.Bf4 Nc6 5.Nf3 Bb4+ 6.Nbd2 Qe7 7.a3 Ngxe5 8.axb4 Nd3#',
+        desc: 'Si las blancas comen el alfil en b4, el caballo da mate en d3.',
+        side: 'black', dubious: false,
+        why: 'Bb4+ y Qe7 clavan el caballo de d2. Tras ...Nxe5, axb4 destapa d3: el caballo entra con mate porque e2 y c2 no lo cubren bien.',
+        refute: '7.e3 o 8.Nxe5 (en vez de axb4). El Gambito Budapest es jugable; el mate solo aparece si las blancas son codiciosas.'
+    },
+    'trampa-elefante': {
+        name: 'Trampa del elefante (GDR)',
+        moves: 'd2d4 d7d5 c2c4 e7e6 b1c3 g8f6 c1g5 b8d7 c4d5 e6d5 c3d5 f6d5 g5d8 f8b4 d1d2 b4d2 e1d2 e8d8',
+        san: '1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Nbd7 5.cxd5 exd5 6.Nxd5 Nxd5 7.Bxd8 Bb4+ 8.Qd2 Bxd2+ 9.Kxd2 Kxd8',
+        desc: 'Las blancas «ganan» la dama y pierden una pieza: Bb4+ recupera con ventaja.',
+        side: 'black', dubious: false,
+        why: '6.Nxd5?? no es gratis: ...Nxd5 y si Bxd8, ...Bb4+ obliga Qd2 y las negras recapturan dama y rey, quedando una pieza de más.',
+        refute: '6.e3 o 6.Nf3. Nxd5 solo es correcto si el alfil de f8 no puede dar el jaque en b4.'
+    },
+    'trampa-damiano': {
+        name: 'Trampa de Damiano',
+        moves: 'e2e4 e7e5 g1f3 f7f6 f3e5 f6e5 d1h5 e8e7 h5e5 e7f7 f1c4',
+        san: '1.e4 e5 2.Nf3 f6 3.Nxe5 fxe5 4.Qh5+ Ke7 5.Qxe5+ Kf7 6.Bc4+',
+        desc: '...f6 defiende e5 muy mal. Las blancas sacrifican el caballo y cazan al rey.',
+        side: 'white', dubious: true,
+        why: '3.Nxe5! funciona porque 4.Qh5+ recupera el caballo y más. El rey en e7/f7 queda en el centro y Bc4+ sigue el ataque.',
+        refute: 'Las negras no deben jugar 2...f6 ni 3...fxe5. Tras 3.Nxe5, ...Qe7 es menos malo. La Defensa Damiano es débil de salida.'
+    },
+    'trampa-fegatello': {
+        name: 'Ataque Fegatello (Fried Liver)',
+        moves: 'e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 d7d5 e4d5 f6d5 g5f7 e8f7 d1f3',
+        san: '1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Nxd5 6.Nxf7 Kxf7 7.Qf3+',
+        desc: 'Sacrificio en f7 contra ...Nxd5. El rey negro queda expuesto.',
+        side: 'white', dubious: false,
+        why: 'Nxf7 destierra al rey. Qf3+ gana el caballo de d5 o sigue el ataque (Ke6 Nc3). Compensación clara por la pieza.',
+        refute: '5...Na5 (Polerio) en vez de ...Nxd5. El Fegatello solo es fuerte si las negras recapturan de caballo en d5.'
+    },
+    'trampa-caro': {
+        name: 'Trampa de la Caro-Kann (Nd6#)',
+        moves: 'e2e4 c7c6 d2d4 d7d5 b1c3 d5e4 c3e4 b8d7 d1e2 g8f6 e4d6',
+        san: '1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Qe2 Ngf6 6.Nd6#',
+        desc: 'Qe2 espera ...Ngf6?? y el caballo da mate en d6.',
+        side: 'white', dubious: false,
+        why: 'Qe2 clava de forma invisible e7: el rey no puede huir y d6 queda sin defensa. ...Ngf6 tapa la retirada y Nd6 es mate.',
+        refute: '5...Ndf6, 5...e6 o 5...Qc7. Nunca ...Ngf6 ante Qe2 en esta línea.'
+    },
+    'trampa-englund': {
+        name: 'Trampa del Gambito Englund',
+        moves: 'd2d4 e7e5 d4e5 b8c6 g1f3 d8e7 c1f4 e7b4 f4d2 b4b2 d2c3 f8b4',
+        san: '1.d4 e5 2.dxe5 Nc6 3.Nf3 Qe7 4.Bf4 Qb4+ 5.Bd2 Qxb2 6.Bc3 Bb4',
+        desc: 'La dama come en b2 y ...Bb4 pincha el alfil que «defendía» a1.',
+        side: 'black', dubious: true,
+        why: '6.Bc3 parece cubrir a1, pero ...Bb4 clava el alfil. La dama en b2 ataca la torre y el pin gana material.',
+        refute: '6.Nc3 (no Bc3) o no jugar Bf4 tan pronto. El Englund es dudoso: si las blancas desarrollan, el peón de más cuenta.'
+    },
 };
 
 // ===== LECCIONES DE AJEDREZ =====
@@ -4556,7 +4666,7 @@ function applyOpeningFromQueryString() {
     }
     const select = document.getElementById('opening-select');
     if (!select) return false;
-    select.value = key;
+    setSelectedOpeningKey(key);
     try {
         localStorage.setItem('selectedOpening', key);
     } catch (e) { /* private mode */ }
@@ -5942,7 +6052,7 @@ function showVariantsPopup(variants, variantsKey, onSelectCallback) {
             trainingResumeCallback = null;
             hideVariantsPopup(false);
             setGameButtonsDisabled(false);
-            showLoadedGameMessage(t('opening.completed'), false, null, true);
+            showOpeningCompletedMessage(true);
             showContinueButton();
         } else {
             hideVariantsPopup(true);
@@ -6072,7 +6182,7 @@ function continueTrainingFromVariant(variant, fromKey) {
 
     if (remainingMoves.length === 0) {
         setGameButtonsDisabled(false);
-        showLoadedGameMessage(t('opening.completed'), false, null, true);
+        showOpeningCompletedMessage(true);
         showContinueButton();
         return;
     }
@@ -6084,7 +6194,7 @@ function continueTrainingFromVariant(variant, fromKey) {
                 trainingResumeCallback = null;
                 trainingTimeoutId = null;
                 setGameButtonsDisabled(false);
-                showLoadedGameMessage(t('opening.completed'), false, null, true);
+                showOpeningCompletedMessage(true);
                 showContinueButton();
             }
             return;
@@ -6103,13 +6213,13 @@ function continueTrainingFromVariant(variant, fromKey) {
             const epRow = opnPieceBefore.color === 'white' ? toRow + 1 : toRow - 1;
             opnEnPassant = { row: epRow, col: toCol, piece: game.getPiece(epRow, toCol) };
         }
-        const result = game.makeMove(fromRow, fromCol, toRow, toCol);
+        const result = game.makeMove(fromRow, fromCol, toRow, toCol, uci.length > 4 ? mapUciPromoToPiece(uci[4]) : undefined);
         if (!result) {
             trainingPaused = false;
             trainingResumeCallback = null;
             trainingTimeoutId = null;
             setGameButtonsDisabled(false);
-            showLoadedGameMessage(t('opening.completed'), false, null, true);
+            showOpeningCompletedMessage(true);
             showContinueButton();
             return;
         }
@@ -7983,6 +8093,12 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '3.6.37': [
+        'Nueva categoría Trampas de apertura: trucos para blancas y negras, con por qué funcionan y cómo evitarlos',
+        'La imagen de compartir se guarda en 16:9 (horizontal) o 9:16 (vertical)',
+        'Al compartir en Facebook la imagen es la misma del modal, en el idioma de la interfaz',
+        '... y más mejoras en AjedrezIA ...',
+    ],
     '3.6.28': [
         'En móvil el arrastre ya no deja una pieza flotante y vuelve a mover al soltar',
         '... y más mejoras en AjedrezIA ...',
@@ -12762,13 +12878,15 @@ document.addEventListener('DOMContentLoaded', () => {
     // Entrenador de aperturas
     const savedOpening = localStorage.getItem('selectedOpening');
     if (savedOpening) {
-        document.getElementById('opening-select').value = savedOpening;
+        setSelectedOpeningKey(savedOpening);
         onOpeningSelect();
     }
     document.getElementById('opening-select').addEventListener('change', onOpeningSelect);
+    const trapSelect = document.getElementById('trap-select');
+    if (trapSelect) trapSelect.addEventListener('change', onOpeningSelect);
     document.getElementById('show-known-variants').addEventListener('click', showKnownVariants);
     document.getElementById('start-opening-training').addEventListener('click', function() {
-        var key = document.getElementById('opening-select').value;
+        var key = getSelectedOpeningKey();
         if (key) {
             viewOpening();
         } else {
@@ -13107,6 +13225,7 @@ function initCustomDropdowns() {
     const isMobile = window.matchMedia(mobileQuery).matches;
     const reselectableSelectIds = new Set([
         'opening-select',
+        'trap-select',
         'puzzle-theme-select',
         'famous-game-select',
         'famous-player-select',
@@ -13759,12 +13878,62 @@ function startNewGame(options) {
     }
 }
 
-function onOpeningSelect() {
-    const select = document.getElementById('opening-select');
+function isOpeningTrapKey(key) {
+    return !!(key && OPENING_TRAINING[key] && (OPENING_TRAINING[key].side === 'white' || OPENING_TRAINING[key].side === 'black'));
+}
+
+function isCurrentOpeningTrap() {
+    if (isOpeningTrapKey(getSelectedOpeningKey())) return true;
+    return !!(trainingOpening && (trainingOpening.side === 'white' || trainingOpening.side === 'black'));
+}
+
+function showOpeningCompletedMessage(openingContinueGameOnly) {
+    if (isCurrentOpeningTrap()) return;
+    showLoadedGameMessage(t('opening.completed'), false, null, openingContinueGameOnly);
+}
+
+function getSelectedOpeningKey() {
+    const trapSel = document.getElementById('trap-select');
+    if (trapSel && trapSel.value) return trapSel.value;
+    const openingSel = document.getElementById('opening-select');
+    return (openingSel && openingSel.value) || '';
+}
+
+function setSelectedOpeningKey(key) {
+    const openingSel = document.getElementById('opening-select');
+    const trapSel = document.getElementById('trap-select');
+    const isTrap = isOpeningTrapKey(key);
+    if (openingSel) openingSel.value = (!key || isTrap) ? '' : key;
+    if (trapSel) trapSel.value = (key && isTrap) ? key : '';
+    try { localStorage.setItem('selectedOpening', key || ''); } catch (e) {}
+    syncOpeningSelectTriggers();
+}
+
+function syncOpeningSelectTriggers() {
+    ['opening-select', 'trap-select'].forEach(function(id) {
+        const select = document.getElementById(id);
+        if (!select) return;
+        const selected = select.options[select.selectedIndex];
+        const wrap = select.closest('.custom-select-wrap');
+        const trigger = wrap && wrap.querySelector('.custom-select-trigger');
+        if (trigger && selected) trigger.textContent = selected.text;
+    });
+}
+
+function onOpeningSelect(ev) {
+    const openingSel = document.getElementById('opening-select');
+    const trapSel = document.getElementById('trap-select');
+    const fromTrap = ev && ev.target && ev.target.id === 'trap-select';
+    if (fromTrap && trapSel && trapSel.value) {
+        if (openingSel) openingSel.value = '';
+    } else if (ev && ev.target && ev.target.id === 'opening-select' && openingSel && openingSel.value) {
+        if (trapSel) trapSel.value = '';
+    }
+    syncOpeningSelectTriggers();
     const info = document.getElementById('opening-training-info');
     const btn = document.getElementById('start-opening-training');
     const variantsBtn = document.getElementById('show-known-variants');
-    const key = select.value;
+    const key = getSelectedOpeningKey();
 
     const quizBtn = document.getElementById('start-opening-quiz');
     const quizScore = document.getElementById('quiz-score');
@@ -13778,6 +13947,12 @@ function onOpeningSelect() {
         quizBtn.disabled = true;
         quizScore.style.display = 'none';
         trainingOpening = null;
+        const trapMetaOff = document.getElementById('opening-trap-meta');
+        const whyOff = document.getElementById('opening-training-why');
+        const refuteOff = document.getElementById('opening-training-refute');
+        if (trapMetaOff) { trapMetaOff.innerHTML = ''; trapMetaOff.style.display = 'none'; }
+        if (whyOff) { whyOff.textContent = ''; whyOff.style.display = 'none'; }
+        if (refuteOff) { refuteOff.textContent = ''; refuteOff.style.display = 'none'; }
         return;
     }
 
@@ -13790,6 +13965,42 @@ function onOpeningSelect() {
     const descEl = document.getElementById('opening-training-desc');
     descEl.textContent = openingDescOf(key, opening) || '';
     descEl.style.display = opening.desc ? 'block' : 'none';
+    const trapMeta = document.getElementById('opening-trap-meta');
+    const whyEl = document.getElementById('opening-training-why');
+    const refuteEl = document.getElementById('opening-training-refute');
+    if (opening.side === 'white' || opening.side === 'black') {
+        const sideLabel = opening.side === 'white' ? t('opening.trapForWhite') : t('opening.trapForBlack');
+        const sideClass = opening.side === 'white' ? 'opening-trap-badge--white' : 'opening-trap-badge--black';
+        let html = '<span class="opening-trap-badge ' + sideClass + '">' + sideLabel + '</span>';
+        if (opening.dubious) {
+            html += '<span class="opening-trap-badge opening-trap-badge--dubious">' + t('opening.trapDubious') + '</span>';
+        }
+        trapMeta.innerHTML = html;
+        trapMeta.style.display = 'flex';
+    } else {
+        trapMeta.innerHTML = '';
+        trapMeta.style.display = 'none';
+    }
+    const whyText = openingWhyOf(key, opening);
+    if (whyEl) {
+        if (whyText) {
+            whyEl.textContent = t('opening.trapWhy') + ' ' + whyText;
+            whyEl.style.display = 'block';
+        } else {
+            whyEl.textContent = '';
+            whyEl.style.display = 'none';
+        }
+    }
+    const refuteText = openingRefuteOf(key, opening);
+    if (refuteEl) {
+        if (refuteText) {
+            refuteEl.textContent = t('opening.trapRefute') + ' ' + refuteText;
+            refuteEl.style.display = 'block';
+        } else {
+            refuteEl.textContent = '';
+            refuteEl.style.display = 'none';
+        }
+    }
     var wrEl = document.getElementById('opening-winrate');
     if (opening.wr && opening.wr.length === 3) {
         var w = opening.wr[0], d = opening.wr[1], b = opening.wr[2];
@@ -13862,7 +14073,7 @@ function viewOpening() {
             setGameButtonsDisabled(false);
             // shareContext sigue en "apertura" (Compartir apertura) tras el replay
             updateShareButton();
-            showLoadedGameMessage(t('opening.completed'), false);
+            showOpeningCompletedMessage();
             showContinueButton();
             const history = game.moveHistoryUCI || [];
             const variants = getOpeningVariants(history);
@@ -13888,7 +14099,7 @@ function viewOpening() {
             const epRow = trnPieceBefore.color === 'white' ? toRow + 1 : toRow - 1;
             trnEnPassant = { row: epRow, col: toCol, piece: game.getPiece(epRow, toCol) };
         }
-        const result = game.makeMove(fromRow, fromCol, toRow, toCol);
+        const result = game.makeMove(fromRow, fromCol, toRow, toCol, uci.length > 4 ? mapUciPromoToPiece(uci[4]) : undefined);
         if (result) {
             lastMoveSquares = { from: { row: fromRow, col: fromCol }, to: { row: toRow, col: toCol } };
             renderBoard();
@@ -14804,7 +15015,7 @@ function setGameButtonsDisabled(disabled) {
         'start-opening-quiz'
     ];
     const openingBtns = ['show-known-variants', 'start-opening-quiz'];
-    const noOpening = !document.getElementById('opening-select').value;
+    const noOpening = !getSelectedOpeningKey();
     ids.forEach(id => {
         const el = document.getElementById(id);
         if (el) el.disabled = disabled || (!disabled && noOpening && openingBtns.includes(id));
@@ -15036,7 +15247,7 @@ function startOpeningTraining() {
             const epRow = op2PieceBefore.color === 'white' ? toRow + 1 : toRow - 1;
             op2EnPassant = { row: epRow, col: toCol, piece: game.getPiece(epRow, toCol) };
         }
-        const result = game.makeMove(fromRow, fromCol, toRow, toCol);
+        const result = game.makeMove(fromRow, fromCol, toRow, toCol, uci.length > 4 ? mapUciPromoToPiece(uci[4]) : undefined);
         if (result) {
             lastMoveSquares = { from: { row: fromRow, col: fromCol }, to: { row: toRow, col: toCol } };
             renderBoard();
@@ -15074,7 +15285,7 @@ function startOpeningTraining() {
         setGameButtonsDisabled(false);
         // shareContext sigue en "apertura" para compartir el enlace de la apertura tras completar
         updateShareButton();
-        showLoadedGameMessage(t('opening.completed'), false);
+        showOpeningCompletedMessage();
         showContinueButton();
     }
 
@@ -15125,7 +15336,7 @@ function startOpeningQuiz() {
 
     shareContext = 'apertura';
     updateShareButton();
-    const openingKey = document.getElementById('opening-select') && document.getElementById('opening-select').value;
+    const openingKey = getSelectedOpeningKey();
     const openingTitle = openingKey ? openingNameOf(openingKey, trainingOpening) : trainingOpening.name;
     showMessage(t('quiz.intro', { name: openingTitle, san: trainingOpening.san }), 'info', 0);
 }
@@ -15209,7 +15420,6 @@ function quizCheckMove(fromRow, fromCol, toRow, toCol, promotionPiece) {
                     sq.classList.add('quiz-hint');
                 }
             });
-            showMessage(t('puzzle.wrongHint'), 'warning', 0);
             setTimeout(() => {
                 document.querySelectorAll('.quiz-hint').forEach(s => s.classList.remove('quiz-hint'));
             }, 8000);
@@ -15230,7 +15440,7 @@ function quizFinished() {
     if (quizEloDelta !== 0) {
         applyEloChange(quizEloDelta);
     }
-    const openingKeyDone = document.getElementById('opening-select') && document.getElementById('opening-select').value;
+    const openingKeyDone = getSelectedOpeningKey();
     const openingTitleDone = openingKeyDone ? openingNameOf(openingKeyDone, trainingOpening) : trainingOpening.name;
     showMessage(
         t('quiz.done', { name: openingTitleDone, ok: quizCorrect, fail: quizWrong, pct: pct, elo: (quizEloDelta >= 0 ? '+' : '') + quizEloDelta }),
@@ -15914,6 +16124,48 @@ async function shareLinkWithSelectedMedia(targetUrl, msg, baseName) {
     }
 }
 
+async function getSharePreviewPngBlob() {
+    if (lastSharePreviewParams) {
+        try {
+            const dataUrl = await renderShareBoardDataURL(lastSharePreviewParams);
+            if (dataUrl) {
+                const res = await fetch(dataUrl);
+                if (res.ok) return await res.blob();
+            }
+        } catch (e) {}
+    }
+    const file = await getSelectedShareMediaFile('ajedrezia-facebook');
+    return file || null;
+}
+
+async function publishShareCardForFacebook(socialUrl) {
+    if (!socialUrl) return null;
+    let blob;
+    try {
+        blob = await getSharePreviewPngBlob();
+    } catch (e) {
+        return null;
+    }
+    if (!blob) return null;
+    const fd = new FormData();
+    fd.append('image', blob, 'card.png');
+    try {
+        const res = await fetch('share-card-save.php', { method: 'POST', body: fd });
+        if (!res.ok) return null;
+        const data = await res.json();
+        if (!data || !data.id) return null;
+        const sharePage = new URL(socialUrl, SHARE_BASE);
+        sharePage.searchParams.set('card', data.id);
+        sharePage.searchParams.set('lay', getShareCardLayout());
+        if (typeof currentLang === 'string' && currentLang) {
+            sharePage.searchParams.set('lang', currentLang);
+        }
+        return sharePage.href;
+    } catch (e) {
+        return null;
+    }
+}
+
 async function shareFacebookClick(fbUrl, msg) {
     if (window.grantEloOnShareComplete) window.grantEloOnShareComplete();
     // El texto llega con \n literales desde el atributo onclick: los restauramos.
@@ -15933,6 +16185,17 @@ async function shareFacebookClick(fbUrl, msg) {
     };
     copy();
     const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+    if (shareSelectedFormat !== 'video') {
+        try {
+            const parsed = new URL(fbUrl, location.href);
+            const socialUrl = parsed.searchParams.get('u');
+            const hosted = await publishShareCardForFacebook(socialUrl);
+            if (hosted) {
+                parsed.searchParams.set('u', hosted);
+                fbUrl = parsed.toString();
+            }
+        } catch (e) {}
+    }
     const openedOnDesktop = shareSelectedFormat === 'video' && !isMobile;
     if (openedOnDesktop) window.open(fbUrl, '_blank', 'noopener,noreferrer');
     if (shareSelectedFormat === 'video') {
@@ -16120,6 +16383,7 @@ if (typeof window !== 'undefined') {
     window.shareTikTokClick = shareTikTokClick;
     window.shareEmailClick = shareEmailClick;
     window.selectShareFormat = selectShareFormat;
+    window.setShareCardLayout = setShareCardLayout;
     window.downloadShareVideo = downloadShareVideo;
 }
 
@@ -16163,12 +16427,16 @@ function formatUnifiedShareMessage(url, kind, shareDetail) {
 }
 
 function getShareOpeningNameDetail() {
-    const key = document.getElementById('opening-select') && document.getElementById('opening-select').value;
+    const key = getSelectedOpeningKey();
     if (key && OPENING_TRAINING[key]) return openingNameOf(key, OPENING_TRAINING[key]);
     if (trainingOpening && trainingOpening.name) {
-        const sel = document.getElementById('opening-select');
-        if (sel && sel.value) return openingNameOf(sel.value, trainingOpening);
+        if (key) return openingNameOf(key, trainingOpening);
         return String(trainingOpening.name).trim();
+    }
+    const trapSel = document.getElementById('trap-select');
+    if (trapSel && trapSel.value && trapSel.options[trapSel.selectedIndex]) {
+        const txt = trapSel.options[trapSel.selectedIndex].textContent.replace(/\s+/g, ' ').trim();
+        if (txt && txt !== t('opening.trapNone')) return txt;
     }
     const os = document.getElementById('opening-select');
     if (os && os.options[os.selectedIndex]) {
@@ -16371,10 +16639,13 @@ function buildSharePreview(kind, cardT, cardS, fenOverride, appKV, cardMeta) {
     if (shareFlip) img.set('flip', '1');
     if (kind) img.set('kind', kind);
     if (typeof currentLang === 'string' && currentLang) img.set('lang', currentLang);
+    if (kind) img.set('kl', shareKindLabel(kind));
     if (cardT) img.set('t', cardT);
     if (cardS) img.set('s', cardS);
     if (cardMeta) img.set('meta', cardMeta);
     if (mv) img.set('mv', mv);
+    const shareLayout = getShareCardLayout();
+    img.set('lay', shareLayout);
     // Facebook conserva durante mucho tiempo la tarjeta de una URL ya
     // rastreada. Un identificador único obliga a descargar la posición y la
     // imagen actuales en cada acción de compartir.
@@ -16401,7 +16672,8 @@ function buildSharePreview(kind, cardT, cardS, fenOverride, appKV, cardMeta) {
             videoTheme: boardTheme,
             videoPieceStyle: pieceStyle,
             video3D: !!board3D,
-            showSquareCoordinates: !!showCoordinates
+            showSquareCoordinates: !!showCoordinates,
+            layout: shareLayout
         }
     };
 }
@@ -16461,7 +16733,18 @@ async function renderShareBoardDataURL(p) {
     const pieceImages = await preloadSharePreviewPieces(p.videoPieceStyle || '');
     const boardOnly = !!p.videoBoardOnly;
     const renderScale = Math.max(1, Number(p.renderScale) || 1);
-    const W = boardOnly ? 630 : 1200, H = 630, BOARD = 540, BX = 48, BY = (H - BOARD) / 2, SQ = BOARD / 8;
+    const layoutTop = !boardOnly && ((p.layout || getShareCardLayout()) !== 'left');
+    let W, H, BOARD, BX, BY;
+    if (boardOnly) {
+        W = 630; H = 630; BOARD = 540; BX = 48; BY = (H - BOARD) / 2;
+    } else if (layoutTop) {
+        // 9:16 vertical
+        W = 720; H = 1280; BOARD = 640; BX = 36; BY = 28;
+    } else {
+        // 16:9 horizontal
+        W = 1280; H = 720; BOARD = 600; BX = 48; BY = (H - BOARD) / 2;
+    }
+    const SQ = BOARD / 8;
     const canvas = document.createElement('canvas');
     canvas.width = Math.round(W * renderScale);
     canvas.height = Math.round(H * renderScale);
@@ -16626,25 +16909,28 @@ async function renderShareBoardDataURL(p) {
         ctx.font = `bold ${cfs}px Arial, sans-serif`;
         // Números (1-8): margen izquierdo
         const rank = String(flip ? i + 1 : 8 - i);
-        ctx.fillText(rank, BX / 2, BY + i * SQ + SQ / 2);
-        // Letras (a-h): margen inferior
-        const bottomMid = BY + BOARD + (H - BY - BOARD) / 2;
-        ctx.fillText(filesCoord[i], BX + i * SQ + SQ / 2, bottomMid);
+        ctx.fillText(rank, BX - Math.max(8, Math.round(cfs * 0.7)), BY + i * SQ + SQ / 2);
+        const fileLabelY = layoutTop
+            ? BY + BOARD + Math.round(SQ * 0.16)
+            : BY + BOARD + (H - BY - BOARD) / 2;
+        ctx.fillText(filesCoord[i], BX + i * SQ + SQ / 2, fileLabelY);
     }
     ctx.textBaseline = 'alphabetic';
     ctx.textAlign = 'left';
 
     if (!boardOnly) {
-        const tx = BX + BOARD + 44;
-        const tw = W - tx - 48;
+        const tx = layoutTop ? 56 : (BX + BOARD + 44);
+        const tw = layoutTop ? (W - 112) : (W - tx - 48);
+        const alignCenter = layoutTop;
         ctx.textBaseline = 'alphabetic';
-        ctx.fillStyle = '#7fb069'; ctx.font = 'bold 30px Arial, sans-serif';
-        ctx.fillText('\u265E AjedrezIA', tx, 92);
-        ctx.fillStyle = '#c9c2ba'; ctx.font = '20px Arial, sans-serif';
-        ctx.fillText(p.kind ? shareKindLabel(p.kind) : t('share.kind.chess'), tx, 134);
+        ctx.textAlign = alignCenter ? 'center' : 'left';
+        const ax = alignCenter ? W / 2 : tx;
+        const vTextY = layoutTop ? (BY + BOARD + Math.round(SQ * 0.48) + 120) : 100;
+        ctx.fillStyle = '#7fb069'; ctx.font = 'bold 38px Arial, sans-serif';
+        ctx.fillText('\u265E AjedrezIA', ax, vTextY);
+        ctx.fillStyle = '#c9c2ba'; ctx.font = '26px Arial, sans-serif';
+        ctx.fillText(p.kind ? shareKindLabel(p.kind) : t('share.kind.chess'), ax, layoutTop ? (vTextY + 42) : 148);
 
-        // Respeta saltos de línea explícitos ('\n') como líneas independientes;
-        // dentro de cada una aplica word-wrap normal si excede el ancho disponible.
         const wrap = (text, font, maxW, maxLines) => {
             ctx.font = font;
             const lines = [];
@@ -16664,38 +16950,39 @@ async function renderShareBoardDataURL(p) {
             return lines.slice(0, maxLines);
         };
 
-        let ty = 192;
-        const titleFont = 'bold 36px Arial, sans-serif';
+        let ty = layoutTop ? (vTextY + 96) : 218;
+        const titleFont = 'bold 44px Arial, sans-serif';
         ctx.fillStyle = '#ffffff';
         for (const ln of wrap(p.t, titleFont, tw, 5)) {
             ctx.font = titleFont;
-            ctx.fillText(ln, tx, ty);
-            ty += 46;
+            ctx.fillText(ln, ax, ty);
+            ty += 54;
         }
         if (p.meta) {
-            ty += 8;
-            const metaFont = '20px Arial, sans-serif';
+            ty += 10;
+            const metaFont = '26px Arial, sans-serif';
             const metaLines = wrap(p.meta, metaFont, tw, 7);
             metaLines.forEach(ln => {
                 const isResult = /^(Resultado:|Result:|Resultat:)/i.test(ln);
                 const isElo = /^ELO:/i.test(ln);
                 ctx.font = isResult || isElo ? `bold ${metaFont}` : metaFont;
                 ctx.fillStyle = isResult ? '#9dcc85' : (isElo ? '#f0d9b5' : '#d2cbc4');
-                ctx.fillText(ln, tx, ty);
-                ty += 29;
+                ctx.fillText(ln, ax, ty);
+                ty += 36;
             });
         } else if (p.s) {
-            ty += 12;
-            const subFont = '24px Arial, sans-serif';
+            ty += 14;
+            const subFont = '30px Arial, sans-serif';
             ctx.fillStyle = '#f0d9b5';
             for (const ln of wrap(p.s, subFont, tw, 2)) {
                 ctx.font = subFont;
-                ctx.fillText(ln, tx, ty);
-                ty += 34;
+                ctx.fillText(ln, ax, ty);
+                ty += 40;
             }
         }
-        ctx.fillStyle = '#8a827a'; ctx.font = '20px Arial, sans-serif';
-        ctx.fillText('ajedrezia.com', tx, H - 40);
+        ctx.fillStyle = '#8a827a'; ctx.font = '24px Arial, sans-serif';
+        ctx.fillText('ajedrezia.com', ax, H - 36);
+        ctx.textAlign = 'left';
     }
 
     if (p.video3D) {
@@ -16704,8 +16991,9 @@ async function renderShareBoardDataURL(p) {
         projected.height = canvas.height;
         const pctx = projected.getContext('2d');
         const fullSourceW = canvas.width;
-        const sourceW = boardOnly ? fullSourceW : Math.round(630 * renderScale);
-        const sourceH = canvas.height;
+        const boardBandH = layoutTop ? (BY + BOARD + Math.round(SQ * 0.52)) : H;
+        const sourceW = boardOnly ? fullSourceW : (layoutTop ? fullSourceW : Math.round((BX + BOARD + 20) * renderScale));
+        const sourceH = layoutTop ? Math.round(boardBandH * renderScale) : canvas.height;
         const topY = Math.round(sourceH * 0.10);
         const bottomY = Math.round(sourceH * 0.89);
         const projectedH = bottomY - topY;
@@ -16716,13 +17004,18 @@ async function renderShareBoardDataURL(p) {
         pctx.fillStyle = bg;
         pctx.fillRect(0, 0, fullSourceW, sourceH);
 
-        // En la tarjeta horizontal, conservar intacto el panel informativo de
-        // la derecha y aplicar perspectiva únicamente al área del tablero.
-        if (!boardOnly && fullSourceW > sourceW) {
+        // Conservar el panel de texto (derecha en horizontal, debajo en vertical).
+        if (!boardOnly && layoutTop && canvas.height > sourceH) {
             pctx.drawImage(
                 canvas,
-                sourceW, 0, fullSourceW - sourceW, sourceH,
-                sourceW, 0, fullSourceW - sourceW, sourceH
+                0, sourceH, fullSourceW, canvas.height - sourceH,
+                0, sourceH, fullSourceW, canvas.height - sourceH
+            );
+        } else if (!boardOnly && !layoutTop && fullSourceW > sourceW) {
+            pctx.drawImage(
+                canvas,
+                sourceW, 0, fullSourceW - sourceW, canvas.height,
+                sourceW, 0, fullSourceW - sourceW, canvas.height
             );
         }
 
@@ -16786,12 +17079,13 @@ async function renderShareVideoIntroDataURL(previewParams, outputSize, asCanvas)
     // Reutiliza literalmente el panel de texto situado a la derecha de la
     // tarjeta compartida y lo adapta al formato cuadrado del vídeo.
     const size = outputSize || 1080;
-    const renderScale = size / 630;
+    const renderScale = size / 720;
     const fullCard = await renderShareBoardDataURL({
         ...previewParams,
         mv: '',
         arrowColor: null,
         videoBoardOnly: false,
+        layout: 'left',
         renderScale,
         asCanvas: true
     });
@@ -16800,7 +17094,7 @@ async function renderShareVideoIntroDataURL(previewParams, outputSize, asCanvas)
     canvas.width = size;
     canvas.height = size;
     const context = canvas.getContext('2d');
-    const textPanelX = (48 + 540) * renderScale;
+    const textPanelX = (48 + 600) * renderScale;
     context.drawImage(
         fullCard,
         textPanelX, 0, fullCard.width - textPanelX, fullCard.height,
@@ -16810,6 +17104,46 @@ async function renderShareVideoIntroDataURL(previewParams, outputSize, asCanvas)
     try { return canvas.toDataURL('image/png'); } catch (e) { return null; }
 }
 
+function getShareCardLayout() {
+    try {
+        const v = localStorage.getItem('ajedrezia_share_layout');
+        if (v === 'left' || v === 'top') return v;
+    } catch (e) {}
+    return 'top';
+}
+
+function updateShareLayoutToggleUi() {
+    const layout = getShareCardLayout();
+    document.querySelectorAll('.share-layout-opt').forEach(function(btn) {
+        btn.classList.toggle('is-active', btn.getAttribute('data-layout') === layout);
+    });
+    const toggle = document.getElementById('share-layout-toggle');
+    if (toggle) {
+        toggle.setAttribute('aria-label', layout === 'left' ? t('share.layoutLeft') : t('share.layoutTop'));
+        toggle.title = layout === 'left' ? t('share.layoutLeft') : t('share.layoutTop');
+    }
+    const row = document.getElementById('share-preview-row');
+    if (row) {
+        row.classList.toggle('is-landscape', layout === 'left');
+        row.classList.toggle('is-portrait', layout !== 'left');
+    }
+}
+
+function setShareCardLayout(layout, ev) {
+    if (ev) {
+        ev.preventDefault();
+        ev.stopPropagation();
+    }
+    const next = layout === 'left' ? 'left' : 'top';
+    try { localStorage.setItem('ajedrezia_share_layout', next); } catch (e) {}
+    updateShareLayoutToggleUi();
+    if (lastSharePreviewParams) {
+        lastSharePreviewParams.layout = next;
+        applySharePreviewCanvas(lastSharePreviewParams);
+    }
+}
+
+let lastSharePreviewParams = null;
 let shareSelectedFormat = 'image';
 let shareVideoBlob = null;
 let shareVideoUrl = '';
@@ -16878,7 +17212,7 @@ function buildShareVideoSequence(info) {
         moves = Array.isArray(currentPuzzle.solution) ? [...currentPuzzle.solution] : [];
         labelPrefix = t('share.videoSolution');
     } else if (shareContext === 'apertura') {
-        const selectedKey = document.getElementById('opening-select')?.value;
+        const selectedKey = getSelectedOpeningKey();
         const opening = (selectedKey && OPENING_TRAINING[selectedKey]) || trainingOpening;
         const openingMoves = opening && opening.moves
             ? String(opening.moves).trim().split(/\s+/).filter(Boolean)
@@ -17329,11 +17663,13 @@ async function selectShareFormat(format) {
     const videoButton = document.getElementById('share-format-video');
     const image = document.getElementById('share-modal-preview');
     const video = document.getElementById('share-modal-video');
+    const layoutToggle = document.getElementById('share-layout-toggle');
     const progress = document.getElementById('share-video-progress');
     imageButton?.classList.toggle('active', shareSelectedFormat === 'image');
     videoButton?.classList.toggle('active', shareSelectedFormat === 'video');
     if (image) image.style.display = shareSelectedFormat === 'image' ? '' : 'none';
     if (video) video.style.display = shareSelectedFormat === 'video' ? '' : 'none';
+    if (layoutToggle) layoutToggle.style.display = shareSelectedFormat === 'image' ? '' : 'none';
     if (progress) progress.style.display = shareSelectedFormat === 'video' && !shareVideoBlob ? '' : 'none';
 
     if (shareSelectedFormat !== 'video') {
@@ -17484,6 +17820,7 @@ async function getSelectedShareMediaFile(baseName) {
 // el navegador (si se puede); si falla, deja la de board-image.php.
 function applySharePreviewCanvas(previewParams) {
     if (!previewParams) return;
+    lastSharePreviewParams = previewParams;
     renderShareBoardDataURL(previewParams).then(dataUrl => {
         if (!dataUrl) return;
         let tries = 0;
@@ -17574,7 +17911,7 @@ function getShareInfo() {
     }
 
     if (shareContext === 'apertura') {
-        const openingKey = document.getElementById('opening-select').value;
+        const openingKey = getSelectedOpeningKey();
         if (openingKey) {
             const nameDetail = getShareOpeningNameDetail();
             const cardT = nameDetail || t('share.kind.apertura');
@@ -17726,8 +18063,15 @@ function shareContent() {
     // WhatsApp / Facebook / X). Se muestra entre el texto y los botones.
     // La previsualización se dibuja en el navegador (canvas) para que se vea en
     // local aunque no haya PHP; board-image.php queda como respaldo del src.
+    const layout = getShareCardLayout();
     const previewHtml = previewImage
-        ? `<img id="share-modal-preview" src="${previewImage.replace(/&/g,'&amp;').replace(/"/g,'&quot;')}" alt="${msgAttr}" class="share-preview-img" loading="lazy" title="${t('share.copyImageTitle')}" style="cursor:pointer" onclick="copyShareImage(this)" onerror="this.style.display='none'">`
+        ? `<div class="share-preview-row ${layout === 'left' ? 'is-landscape' : 'is-portrait'}" id="share-preview-row">
+                <img id="share-modal-preview" src="${previewImage.replace(/&/g,'&amp;').replace(/"/g,'&quot;')}" alt="${msgAttr}" class="share-preview-img" loading="lazy" title="${t('share.copyImageTitle')}" style="cursor:pointer" onclick="copyShareImage(this)" onerror="this.style.display='none'">
+                <div class="share-layout-toggle" id="share-layout-toggle" role="group" aria-label="${t('share.layoutAria')}">
+                    <button type="button" class="share-layout-opt${layout === 'top' ? ' is-active' : ''}" data-layout="top" title="${t('share.layoutTop')}" aria-label="${t('share.layoutTop')}" onclick="setShareCardLayout('top', event)">♀</button>
+                    <button type="button" class="share-layout-opt${layout === 'left' ? ' is-active' : ''}" data-layout="left" title="${t('share.layoutLeft')}" aria-label="${t('share.layoutLeft')}" onclick="setShareCardLayout('left', event)">♂</button>
+                </div>
+           </div>`
         : '';
     const mediaSelectorHtml = previewImage
         ? `<div class="share-format-toggle" role="group" aria-label="${t('share.formatAria')}">

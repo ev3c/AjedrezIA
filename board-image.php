@@ -3,8 +3,8 @@
  * Generador dinámico de la imagen de tarjeta (Open Graph) para CUALQUIER
  * posición: partidas, aperturas, problemas y partidas maestras.
  *
- * Devuelve un PNG 1200x630 (formato tarjeta de Facebook / X / WhatsApp) con el
- * tablero a la izquierda y un panel de texto a la derecha.
+ * Devuelve un PNG 16:9 (1280x720, tablero a la izquierda) o 9:16
+ * (720x1280, tablero arriba) para Facebook / X / WhatsApp.
  *
  * Parámetros (GET):
  *   fen   posición (FEN; basta el campo de piezas).   Obligatorio.
@@ -19,8 +19,12 @@
  */
 
 // ---- Lienzo y geometría ---------------------------------------------------
-$W = 1200; $H = 630;
-$BOARD = 540; $BX = 48; $BY = (int)(($H - $BOARD) / 2);
+$layEarly = (isset($_GET['lay']) && $_GET['lay'] === 'left') ? 'left' : 'top';
+if ($layEarly === 'top') {
+    $W = 720; $H = 1280; $BOARD = 640; $BX = 36; $BY = 28;
+} else {
+    $W = 1280; $H = 720; $BOARD = 600; $BX = 48; $BY = (int)(($H - $BOARD) / 2);
+}
 $SQ = $BOARD / 8.0;
 
 // ---- Parámetros -----------------------------------------------------------
@@ -31,19 +35,27 @@ $t    = isset($_GET['t']) ? mb_substr(trim((string)$_GET['t']), 0, 220) : '';
 $s    = isset($_GET['s']) ? mb_substr(trim((string)$_GET['s']), 0, 120) : '';
 $meta = isset($_GET['meta']) ? mb_substr(trim((string)$_GET['meta']), 0, 420) : '';
 $mv   = isset($_GET['mv']) ? substr(preg_replace('/[^a-h1-8]/', '', strtolower($_GET['mv'])), 0, 4) : '';
+$kl   = isset($_GET['kl']) ? mb_substr(trim((string)$_GET['kl']), 0, 80) : '';
+$lay  = (isset($_GET['lay']) && $_GET['lay'] === 'left') ? 'left' : 'top';
 
 $placement = explode(' ', trim($fen))[0];
 
 $langParam = isset($_GET['lang']) ? strtolower((string)$_GET['lang']) : '';
 $acceptLang = isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) ? strtolower($_SERVER['HTTP_ACCEPT_LANGUAGE']) : 'es';
-if (in_array($langParam, ['en', 'es', 'ca'], true)) {
+$shareLangs = ['es', 'en', 'ca', 'de', 'fr', 'it', 'pt', 'zh', 'ru', 'ar', 'ja', 'hi', 'ko'];
+if (in_array($langParam, $shareLangs, true)) {
     $shareLang = $langParam;
-} elseif (strpos($acceptLang, 'ca') === 0 || strpos($acceptLang, 'cat') === 0) {
-    $shareLang = 'ca';
-} elseif (strpos($acceptLang, 'en') === 0) {
-    $shareLang = 'en';
 } else {
-    $shareLang = 'es';
+    $shareLang = 'en';
+    $aliases = ['cat' => 'ca', 'jp' => 'ja', 'kr' => 'ko', 'cn' => 'zh'];
+    foreach ($aliases as $alias => $code) {
+        if (strpos($acceptLang, $alias) === 0) { $shareLang = $code; break; }
+    }
+    if ($shareLang === 'en') {
+        foreach ($shareLangs as $code) {
+            if (strpos($acceptLang, $code) === 0) { $shareLang = $code; break; }
+        }
+    }
 }
 
 $KIND_LABELS = [
@@ -68,9 +80,79 @@ $KIND_LABELS = [
         'maestra'  => 'Partida maestra',
         'chess'    => 'Ajedrez',
     ],
+    'de' => [
+        'partida'  => 'Partie',
+        'apertura' => 'Eröffnung',
+        'problema' => 'Schachaufgabe und 30 weitere',
+        'maestra'  => 'Meisterpartie',
+        'chess'    => 'Schach',
+    ],
+    'fr' => [
+        'partida'  => 'Partie',
+        'apertura' => 'Ouverture',
+        'problema' => 'Problème d\'échecs et 30 de plus',
+        'maestra'  => 'Partie de maître',
+        'chess'    => 'Échecs',
+    ],
+    'it' => [
+        'partida'  => 'Partita',
+        'apertura' => 'Apertura',
+        'problema' => 'Problema di scacchi e altri 30',
+        'maestra'  => 'Partita magistrale',
+        'chess'    => 'Scacchi',
+    ],
+    'pt' => [
+        'partida'  => 'Partida',
+        'apertura' => 'Abertura',
+        'problema' => 'Problema de xadrez e mais 30',
+        'maestra'  => 'Partida de mestre',
+        'chess'    => 'Xadrez',
+    ],
+    'zh' => [
+        'partida'  => '对局',
+        'apertura' => '开局',
+        'problema' => '象棋谜题及另外30题',
+        'maestra'  => '名局',
+        'chess'    => '国际象棋',
+    ],
+    'ru' => [
+        'partida'  => 'Партия',
+        'apertura' => 'Дебют',
+        'problema' => 'Шахматная задача и ещё 30',
+        'maestra'  => 'Партия мастера',
+        'chess'    => 'Шахматы',
+    ],
+    'ar' => [
+        'partida'  => 'مباراة',
+        'apertura' => 'افتتاح',
+        'problema' => 'لغز شطرنج و30 أخرى',
+        'maestra'  => 'مباراة أستاذ',
+        'chess'    => 'شطرنج',
+    ],
+    'ja' => [
+        'partida'  => '対局',
+        'apertura' => 'オープニング',
+        'problema' => 'チェスの問題とさらに30問',
+        'maestra'  => '名局',
+        'chess'    => 'チェス',
+    ],
+    'hi' => [
+        'partida'  => 'खेल',
+        'apertura' => 'ओपनिंग',
+        'problema' => 'शतरंज पहेली और 30 और',
+        'maestra'  => 'मास्टर गेम',
+        'chess'    => 'शतरंज',
+    ],
+    'ko' => [
+        'partida'  => '대국',
+        'apertura' => '오프닝',
+        'problema' => '체스 퍼즐과 30개 더',
+        'maestra'  => '명국',
+        'chess'    => '체스',
+    ],
 ];
-$KIND_LABEL = $KIND_LABELS[$shareLang];
-$kindLabel = isset($KIND_LABEL[$kind]) ? $KIND_LABEL[$kind] : $KIND_LABEL['chess'];
+$KIND_LABEL = isset($KIND_LABELS[$shareLang]) ? $KIND_LABELS[$shareLang] : $KIND_LABELS['en'];
+$kindLabel = ($kl !== '') ? $kl : (isset($KIND_LABEL[$kind]) ? $KIND_LABEL[$kind] : $KIND_LABEL['chess']);
 
 // ---- Utilidades -----------------------------------------------------------
 function fontFile($bold) {
@@ -242,7 +324,7 @@ if ($coordFont) {
         $bb  = imagettfbbox($cfs, 0, $coordFont, $rankLabel);
         $tw  = abs($bb[2] - $bb[0]);
         $th  = abs($bb[5] - $bb[1]);
-        $rx  = (int)round(($BX - $tw) / 2);                    // centrado en margen izq
+        $rx  = (int)round($BX - $tw - 6);
         $ry  = (int)round($BY + $i * $SQ + $SQ / 2 + $th / 2);
         imagettftext($im, $cfs, 0, $rx, $ry, $cCol, $coordFont, $rankLabel);
 
@@ -251,13 +333,16 @@ if ($coordFont) {
         $bb  = imagettfbbox($cfs, 0, $coordFont, $fileLabel);
         $tw  = abs($bb[2] - $bb[0]);
         $fx  = (int)round($BX + $i * $SQ + $SQ / 2 - $tw / 2);
-        $fy  = (int)round($BY + $BOARD + ($H - $BY - $BOARD + $cfs) / 2);
+        if ($lay === 'top') {
+            $fy = (int)round($BY + $BOARD + $cfs + 2);
+        } else {
+            $fy = (int)round($BY + $BOARD + ($H - $BY - $BOARD + $cfs) / 2);
+        }
         imagettftext($im, $cfs, 0, $fx, $fy, $cCol, $coordFont, $fileLabel);
     }
 }
 
-// ---- Panel de texto a la derecha -----------------------------------------
-$tx = $BX + $BOARD + 44;
+// ---- Panel de texto -------------------------------------------------------
 $green = imagecolorallocate($im, 0x7f, 0xb0, 0x69);
 $white = imagecolorallocate($im, 0xff, 0xff, 0xff);
 $cream = imagecolorallocate($im, 0xf0, 0xd9, 0xb5);
@@ -265,37 +350,54 @@ $grey  = imagecolorallocate($im, 0xc9, 0xc2, 0xba);
 $grey2 = imagecolorallocate($im, 0xa8, 0x9f, 0x96);
 $grey3 = imagecolorallocate($im, 0x8a, 0x82, 0x7a);
 
-drawText($im, 26, $tx, 92,  $green, true, "\xE2\x99\x9E AjedrezIA"); // ♞
-drawText($im, 18, $tx, 134, $grey,  false, $kindLabel);
+if ($lay === 'top') {
+    $tx = 48;
+    $wrapTitle = 26;
+    $wrapMeta = 34;
+    $wrapSub = 30;
+    $brandY = (int)round($BY + $BOARD + $SQ * 0.42 + 120);
+    $kindY = $brandY + 44;
+    $ty = $kindY + 56;
+} else {
+    $tx = $BX + $BOARD + 44;
+    $wrapTitle = 20;
+    $wrapMeta = 32;
+    $wrapSub = 26;
+    $brandY = 100;
+    $kindY = 148;
+    $ty = 218;
+}
 
-$ty = 196;
+drawText($im, 34, $tx, $brandY, $green, true, "\xE2\x99\x9E AjedrezIA"); // ♞
+drawText($im, 24, $tx, $kindY, $grey,  false, $kindLabel);
+
 if ($t !== '') {
-    foreach (array_slice(wrapText($t, 24), 0, 5) as $ln) {
-        drawText($im, 30, $tx, $ty, $white, true, $ln);
-        $ty += 46;
+    foreach (array_slice(wrapText($t, $wrapTitle), 0, 5) as $ln) {
+        drawText($im, 38, $tx, $ty, $white, true, $ln);
+        $ty += 54;
     }
 } else {
-    $ty = 220;
+    $ty += 24;
 }
 
 if ($meta !== '') {
     $ty += 10;
-    foreach (array_slice(wrapText($meta, 38), 0, 7) as $ln) {
-        $isResult = stripos($ln, 'Resultado:') === 0 || stripos($ln, 'Result:') === 0 || stripos($ln, 'Resultat:') === 0;
+    foreach (array_slice(wrapText($meta, $wrapMeta), 0, 7) as $ln) {
+        $isResult = preg_match('/^(Resultado:|Result:|Resultat:|Ergebnis:|Résultat:|Risultato:|Resultado:|结果:|Результат:|النتيجة:|結果:|परिणाम:|결과:)/u', $ln) === 1;
         $isElo = stripos($ln, 'ELO:') === 0;
         $lineColor = $isResult ? $green : ($isElo ? $cream : $grey2);
-        drawText($im, 17, $tx, $ty, $lineColor, $isResult || $isElo, $ln);
-        $ty += 29;
+        drawText($im, 22, $tx, $ty, $lineColor, $isResult || $isElo, $ln);
+        $ty += 36;
     }
 } elseif ($s !== '') {
     $ty += 14;
-    foreach (array_slice(wrapText($s, 30), 0, 2) as $ln) {
-        drawText($im, 21, $tx, $ty, $cream, false, $ln);
-        $ty += 34;
+    foreach (array_slice(wrapText($s, $wrapSub), 0, 2) as $ln) {
+        drawText($im, 27, $tx, $ty, $cream, false, $ln);
+        $ty += 40;
     }
 }
 
-drawText($im, 17, $tx, $H - 40, $grey3, false, 'ajedrezia.com');
+drawText($im, 22, $tx, $H - 40, $grey3, false, 'ajedrezia.com');
 
 // ---- Salida ---------------------------------------------------------------
 header('Content-Type: image/png');

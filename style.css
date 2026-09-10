@@ -454,6 +454,55 @@ header h1 {
     font-style: italic;
 }
 
+.opening-trap-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 4px 0 6px;
+}
+
+.opening-trap-badge {
+    display: inline-block;
+    font-size: 0.68rem;
+    font-weight: 700;
+    line-height: 1.2;
+    padding: 3px 7px;
+    border-radius: 999px;
+}
+
+.opening-trap-badge--white {
+    background: #f3f4f6;
+    color: #1f2937;
+    border: 1px solid #d1d5db;
+}
+
+.opening-trap-badge--black {
+    background: #374151;
+    color: #f9fafb;
+    border: 1px solid #1f2937;
+}
+
+.opening-trap-badge--dubious {
+    background: #fef3c7;
+    color: #92400e;
+    border: 1px solid #f59e0b;
+}
+
+.training-why,
+.training-refute {
+    font-size: 0.74rem;
+    line-height: 1.5;
+    margin-top: 6px;
+}
+
+.training-why {
+    color: #1f2937;
+}
+
+.training-refute {
+    color: #4b5563;
+}
+
 .opening-winrate {
     margin-top: 6px;
     font-size: 0.72rem;
@@ -2862,6 +2911,21 @@ html[dir="rtl"] #chess-board {
     margin: 2px 0 4px;
     opacity: 0.9;
 }
+.share-preview-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4px;
+    width: 100%;
+    max-width: 760px;
+    margin: 8px auto 6px;
+}
+.share-preview-row.is-portrait {
+    max-width: 360px;
+}
+.share-preview-row.is-landscape {
+    max-width: 760px;
+}
 .share-preview-img {
     display: block;
     width: 100%;
@@ -2871,6 +2935,39 @@ html[dir="rtl"] #chess-board {
     border-radius: 10px;
     border: 1px solid #d1d5db;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+.share-preview-row .share-preview-img,
+.share-preview-row .share-preview-video {
+    margin: 0;
+    flex: 1 1 auto;
+    min-width: 0;
+    max-width: calc(100% - 28px);
+}
+.share-layout-toggle {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 2px;
+    border: 1px solid #d1d5db;
+    border-radius: 7px;
+    background: #f3f4f6;
+}
+.share-layout-opt {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    border: 0;
+    border-radius: 5px;
+    background: transparent;
+    color: #6b7280;
+    font-size: 0.78rem;
+    line-height: 20px;
+    cursor: pointer;
+}
+.share-layout-opt.is-active {
+    background: #7fb069;
+    color: #fff;
 }
 .share-preview-video {
     display: block;
@@ -4891,7 +4988,8 @@ html[dir="rtl"] #chess-board {
         font-size: 1rem;
     }
 
-    .training-name, .training-moves, .training-desc {
+    .training-name, .training-moves, .training-desc,
+    .training-why, .training-refute {
         font-size: 0.88rem;
     }
 

@@ -101,6 +101,26 @@ const I18N_PAIRS = [
     ['opening.catalan', 'Apertura Catalana [E01]', 'Catalan Opening [E01]', 'Obertura catalana [E01]'],
     ['opening.larsen', 'Apertura Larsen [A01]', 'Larsen’s Opening [A01]', 'Obertura Larsen [A01]'],
     ['opening.bird', 'Apertura Bird [A02]', 'Bird’s Opening [A02]', 'Obertura Bird [A02]'],
+    ['opening.selectTraps', 'Trampas de apertura:', 'Opening traps:', 'Trampes d\'obertura:'],
+    ['opening.trapNone', '— Elige una trampa —', '— Choose a trap —', '— Tria una trampa —'],
+    ['opening.groupTraps', 'Trampas de apertura', 'Opening traps', 'Trampes d\'obertura'],
+    ['opening.trapLegal', 'Mate de Legal (blancas)', 'Legal’s mate (White)', 'Mat de Legal (blanques)'],
+    ['opening.trapElephant', 'Trampa del elefante (negras)', 'Elephant trap (Black)', 'Trampa de l\'elefant (negres)'],
+    ['opening.trapNoah', 'Arca de Noé (negras)', 'Noah’s Ark trap (Black)', 'Arca de Noè (negres)'],
+    ['opening.trapLasker', 'Trampa de Lasker (negras)', 'Lasker trap (Black)', 'Trampa de Lasker (negres)'],
+    ['opening.trapBudapest', 'Budapest Kieninger (negras)', 'Budapest Kieninger (Black)', 'Budapest Kieninger (negres)'],
+    ['opening.trapCaro', 'Caro-Kann Nd6# (blancas)', 'Caro-Kann Nd6# (White)', 'Caro-Kann Nd6# (blanques)'],
+    ['opening.trapFried', 'Fegatello / Fried Liver (blancas)', 'Fried Liver (White)', 'Fegatello / Fried Liver (blanques)'],
+    ['opening.trapBlackburne', 'Blackburne Shilling (negras)', 'Blackburne Shilling (Black)', 'Blackburne Shilling (negres)'],
+    ['opening.trapFishing', 'Caña de pescar (negras)', 'Fishing Pole (Black)', 'Canya de pescar (negres)'],
+    ['opening.trapScholar', 'Mate del pastor (blancas)', 'Scholar’s mate (White)', 'Mat del pastor (blanques)'],
+    ['opening.trapDamiano', 'Trampa de Damiano (blancas)', 'Damiano trap (White)', 'Trampa de Damiano (blanques)'],
+    ['opening.trapEnglund', 'Gambito Englund (negras)', 'Englund Gambit trap (Black)', 'Gambit Englund (negres)'],
+    ['opening.trapForWhite', '♔ Buena para blancas', '♔ Good for White', '♔ Bona per a blanques'],
+    ['opening.trapForBlack', '♚ Buena para negras', '♚ Good for Black', '♚ Bona per a negres'],
+    ['opening.trapDubious', 'Espectacular / dudosa si no pican', 'Spectacular / dubious if they do not fall for it', 'Espectacular / dubtosa si no piquen'],
+    ['opening.trapWhy', 'Por qué funciona:', 'Why it works:', 'Per què funciona:'],
+    ['opening.trapRefute', 'Cómo evitarla:', 'How to avoid it:', 'Com evitar-la:'],
     ['opening.startTraining', '♟ Iniciar Entrenamiento', '♟ Start Training', '♟ Inicia l\'entrenament'],
     ['opening.knownVariants', '📖 Variantes Conocidas', '📖 Known Variations', '📖 Variants conegudes'],
     ['opening.quiz', '🧠 Quiz: Adivina el Movimiento', '🧠 Quiz: Guess the Move', '🧠 Quiz: Endevina el moviment'],
@@ -695,6 +715,9 @@ const I18N_PAIRS = [
     ['msg.pgnCopiedAnalysis', 'PGN copiado al portapapeles<br>📊 Se añade Análisis de Partida al PGN', 'PGN copied to the clipboard<br>📊 Game analysis is added to the PGN', 'PGN copiat al porta-retalls<br>📊 S\'afegeix l\'anàlisi de la partida al PGN'],
     ['msg.noMoves', 'No hay movimientos', 'No moves', 'No hi ha moviments'],
     ['share.copyImageTitle', 'Pulsa para copiar la imagen', 'Tap to copy the image', 'Prem per copiar la imatge'],
+    ['share.layoutAria', 'Disposición de la imagen', 'Image layout', 'Disposició de la imatge'],
+    ['share.layoutTop', 'Imagen vertical 9:16', 'Vertical 9:16 image', 'Imatge vertical 9:16'],
+    ['share.layoutLeft', 'Imagen horizontal 16:9', 'Horizontal 16:9 image', 'Imatge horitzontal 16:9'],
     ['share.formatAria', 'Formato para compartir', 'Share format', 'Format per compartir'],
     ['share.formatImage', '🖼 Imagen', '🖼 Image', '🖼 Imatge'],
     ['share.formatVideo', '▶ Vídeo', '▶ Video', '▶ Vídeo'],
@@ -734,6 +757,15 @@ const I18N_PAIRS = [
     ['invite.willInvite', 'Vas a invitar a {nick} (ELO {elo})', 'You are inviting {nick} (ELO {elo})', 'Convidaràs {nick} (ELO {elo})'],
     ['changelog.more', '... y más mejoras en AjedrezIA ...', '... and more improvements in AjedrezIA ...', '... i més millores a AjedrezIA ...'],
     ['changelog.openHint', 'Ver historial de versiones', 'View version history', 'Veure l\'historial de versions'],
+    ['changelog.3.6.37', 'Al terminar una trampa de apertura ya no se muestra el modal Apertura completada', 'Finishing an opening trap no longer shows the Opening completed modal', 'En acabar una trampa d\'obertura ja no es mostra el modal Obertura completada'],
+    ['changelog.3.6.36', 'En el quiz de aperturas ya no aparece el aviso de movimiento incorrecto', 'The opening quiz no longer shows the incorrect-move warning', 'Al quiz d\'obertures ja no apareix l\'avís de moviment incorrecte'],
+    ['changelog.3.6.35', 'En Entrenar Aperturas las trampas tienen su propio menú, aparte de Selecciona una apertura', 'In Train Openings, traps have their own menu, separate from Select an opening', 'A Entrena obertures les trampes tenen el seu propi menú, a part de Selecciona una obertura'],
+    ['changelog.3.6.34', 'Nueva categoría Trampas de apertura: trucos para blancas y negras, con por qué funcionan y cómo evitarlos', 'New Opening traps category: tricks for White and Black, with why they work and how to avoid them', 'Nova categoria Trampes d\'obertura: trucs per a blanques i negres, amb per què funcionen i com evitar-los'],
+    ['changelog.3.6.33', 'En la imagen vertical el texto queda más abajo, sin cambiar los números del vídeo', 'On the vertical image the text sits lower, without changing the video numbers', 'A la imatge vertical el text queda més avall, sense canviar els números del vídeo'],
+    ['changelog.3.6.32', 'La imagen de compartir se guarda en 16:9 (horizontal) o 9:16 (vertical)', 'The share image is saved as 16:9 (landscape) or 9:16 (portrait)', 'La imatge per compartir es desa en 16:9 (horitzontal) o 9:16 (vertical)'],
+    ['changelog.3.6.31', 'Botones arriba/izquierda más pequeños, números más pegados al tablero y texto más grande en la tarjeta', 'Smaller top/left buttons, ranks closer to the board and larger text on the share card', 'Botons dalt/esquerra més petits, números més enganxats al tauler i text més gran a la targeta'],
+    ['changelog.3.6.30', 'La tarjeta de compartir puede mostrar el tablero arriba (más grande) o a la izquierda, y recuerda la última elección', 'The share card can show a larger board on top or on the left, and remembers the last choice', 'La targeta de compartir pot mostrar el tauler a dalt (més gran) o a l\'esquerra, i recorda l\'última elecció'],
+    ['changelog.3.6.29', 'Al compartir en Facebook la imagen es la misma del modal, en el idioma de la interfaz', 'Facebook shares use the same card image as the modal, in the interface language', 'En compartir a Facebook la imatge és la mateixa del modal, en l\'idioma de la interfície'],
     ['changelog.3.6.28', 'En móvil el arrastre ya no deja una pieza flotante y vuelve a mover al soltar', 'On mobile, dragging no longer leaves a floating piece and drops the move again', 'Al mòbil l\'arrossegament ja no deixa una peça flotant i torna a moure en deixar anar'],
     ['changelog.3.6.27', 'Las piezas se mueven arrastrándolas o pulsando origen y destino', 'Pieces move by dragging or by tapping origin and destination', 'Les peces es mouen arrossegant-les o prement origen i destí'],
     ['changelog.3.6.26', 'Las piezas solo se mueven arrastrándolas, no al pulsar origen y destino', 'Pieces only move by dragging, not by tapping origin and destination', 'Les peces només es mouen arrossegant-les, no en prémer origen i destí'],
@@ -842,6 +874,14 @@ function openingNameOf(key, opening) {
 
 function openingDescOf(key, opening) {
     return t('op.' + key + '.desc', null, (opening && opening.desc) || '');
+}
+
+function openingWhyOf(key, opening) {
+    return t('op.' + key + '.why', null, (opening && opening.why) || '');
+}
+
+function openingRefuteOf(key, opening) {
+    return t('op.' + key + '.refute', null, (opening && opening.refute) || '');
 }
 
 function learnField(lesson, field) {

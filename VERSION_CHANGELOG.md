@@ -2,6 +2,78 @@
 
 ---
 
+## v3.6.37 — 2026-09-10
+
+### Aperturas
+- Al terminar una **trampa** no se muestra el modal «Apertura completada».
+
+---
+
+## v3.6.36 — 2026-09-10
+
+### Aperturas
+- En **Quiz: Adivina el movimiento** ya no se muestra el aviso
+  de movimiento incorrecto; las casillas siguen marcando la jugada.
+
+---
+
+## v3.6.35 — 2026-09-10
+
+### Aperturas
+- **Trampas de apertura** es un menú propio, debajo de
+  «Selecciona una apertura», con las 12 trampas.
+
+---
+
+## v3.6.34 — 2026-09-09
+
+### Aperturas
+- Nueva categoría **Trampas**: 12 líneas (sólidas y espectaculares)
+  para blancas o negras, con por qué funcionan y cómo evitarlas.
+
+---
+
+## v3.6.33 — 2026-09-09
+
+### Compartir
+- En la imagen vertical el texto baja, dejando más aire bajo el tablero.
+  Los números del modo vídeo no cambian.
+
+---
+
+## v3.6.32 — 2026-09-09
+
+### Compartir
+- La imagen se guarda en **16:9** (tablero a la izquierda, 1280×720)
+  o **9:16** (tablero arriba, 720×1280).
+
+---
+
+## v3.6.31 — 2026-09-09
+
+### Compartir
+- Los botones ♀ / ♂ son más pequeños, los números van más pegados
+  al tablero y el texto de la tarjeta es más grande.
+
+---
+
+## v3.6.30 — 2026-09-09
+
+### Compartir
+- El tablero de la imagen es más grande, con el texto debajo.
+  Un icono ♀ / ♂ a la derecha cambia a imagen arriba o a la izquierda
+  y recuerda la última elección.
+
+---
+
+## v3.6.29 — 2026-09-09
+
+### Compartir
+- Al pulsar Facebook, la imagen de la tarjeta es la misma que se ve
+  en el modal, en el idioma de la interfaz.
+
+---
+
 ## v3.6.28 — 2026-09-04
 
 ### Tablero

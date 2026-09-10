@@ -190,10 +190,31 @@ try {
                             </optgroup>
                         </select>
                     </div>
+                    <div class="config-section">
+                        <label class="famous-section-label" data-i18n="opening.selectTraps">Trampas de apertura:</label>
+                        <select id="trap-select" class="select">
+                            <option value="" data-i18n="opening.trapNone">— Elige una trampa —</option>
+                            <option value="trampa-legal" data-i18n="opening.trapLegal">Mate de Legal (blancas)</option>
+                            <option value="trampa-elefante" data-i18n="opening.trapElephant">Trampa del elefante (negras)</option>
+                            <option value="trampa-arca-noe" data-i18n="opening.trapNoah">Arca de Noé (negras)</option>
+                            <option value="trampa-lasker" data-i18n="opening.trapLasker">Trampa de Lasker (negras)</option>
+                            <option value="trampa-budapest" data-i18n="opening.trapBudapest">Budapest Kieninger (negras)</option>
+                            <option value="trampa-caro" data-i18n="opening.trapCaro">Caro-Kann Nd6# (blancas)</option>
+                            <option value="trampa-fegatello" data-i18n="opening.trapFried">Fegatello / Fried Liver (blancas)</option>
+                            <option value="trampa-blackburne" data-i18n="opening.trapBlackburne">Blackburne Shilling (negras)</option>
+                            <option value="trampa-fishing" data-i18n="opening.trapFishing">Caña de pescar (negras)</option>
+                            <option value="trampa-pastor" data-i18n="opening.trapScholar">Mate del pastor (blancas)</option>
+                            <option value="trampa-damiano" data-i18n="opening.trapDamiano">Trampa de Damiano (blancas)</option>
+                            <option value="trampa-englund" data-i18n="opening.trapEnglund">Gambito Englund (negras)</option>
+                        </select>
+                    </div>
                     <div id="opening-training-info" class="opening-training-info" style="display:none;">
                         <p id="opening-training-name" class="training-name"></p>
+                        <div id="opening-trap-meta" class="opening-trap-meta" style="display:none;"></div>
                         <p id="opening-training-moves" class="training-moves"></p>
                         <p id="opening-training-desc" class="training-desc"></p>
+                        <p id="opening-training-why" class="training-why" style="display:none;"></p>
+                        <p id="opening-training-refute" class="training-refute" style="display:none;"></p>
                         <div id="opening-winrate" class="opening-winrate" style="display:none;"></div>
                     </div>
                     <button id="start-opening-training" class="btn btn-primary" style="margin-bottom:8px;margin-top:8px;width:100%" data-i18n="opening.startTraining">♟ Iniciar Entrenamiento</button>
