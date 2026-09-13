@@ -2,6 +2,83 @@
 
 ---
 
+## v3.6.46 — 2026-09-13
+
+### Compartir
+- Hashtags del texto de compartir actualizados
+  (más idiomas y #ChessOnline / #ChessOpenings).
+
+---
+
+## v3.6.45 — 2026-09-13
+
+### Online
+- En **Jugadores registrados** el botón Actualizar
+  ya no muestra el icono de refresh dos veces.
+
+---
+
+## v3.6.44 — 2026-09-13
+
+### Compartir
+- El **texto** y la **imagen** de una trampa incluyen
+  `?opening=` para abrirla desde el enlace.
+
+---
+
+## v3.6.43 — 2026-09-13
+
+### Compartir
+- El **vídeo** muestra las animaciones de **captura** y de
+  **jaque / mate** al rey, como en el tablero.
+
+---
+
+## v3.6.42 — 2026-09-13
+
+### Tablero
+- Al **jaque mate** el rey tiembla y su casilla se ilumina
+  en rojo (también hay halo en jaque).
+
+---
+
+## v3.6.41 — 2026-09-13
+
+### Aperturas
+- **24 trampas con nombre** nuevas: Frankenstein-Drácula, Cochrane,
+  Greco, cadete, Winter, Marshall, Muzio, Allgaier, letón, Jerome,
+  Staunton, Grünfeld, Riga, Max Lange, gambito de elefante, Napoleón,
+  Wayward Queen, Rousseau, Winawer, Nakhmanson, Philidor, portugués,
+  Monkey’s Bum y Schliemann.
+
+---
+
+## v3.6.40 — 2026-09-13
+
+### Aperturas
+- **12 trampas nuevas** y menú agrupado por categoría:
+  jaque mate, ganar dama, ganar pieza, cazar pieza y ataque al rey.
+
+---
+
+## v3.6.39 — 2026-09-11
+
+### Aperturas
+- El enlace `?opening=` de una **trampa** reproduce la línea
+  entera, sin el popup de variantes de otra apertura.
+
+---
+
+## v3.6.38 — 2026-09-10
+
+### Aperturas
+- **13 trampas nuevas** en el menú: siberiana, Magnus Smith,
+  Monticelli, Tarrasch, Cambridge Springs, Mortimer, Würzburger,
+  mate de la Ópera, Traxler, Stafford, Matovinsky, Halosar y
+  mate del loco.
+
+---
+
 ## v3.6.37 — 2026-09-10
 
 ### Aperturas

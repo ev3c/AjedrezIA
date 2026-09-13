@@ -488,6 +488,36 @@ header h1 {
     border: 1px solid #f59e0b;
 }
 
+.opening-trap-badge--cat-mate {
+    background: #fee2e2;
+    color: #991b1b;
+    border: 1px solid #ef4444;
+}
+
+.opening-trap-badge--cat-dama {
+    background: #ede9fe;
+    color: #5b21b6;
+    border: 1px solid #8b5cf6;
+}
+
+.opening-trap-badge--cat-pieza {
+    background: #dbeafe;
+    color: #1e40af;
+    border: 1px solid #3b82f6;
+}
+
+.opening-trap-badge--cat-cazar {
+    background: #ccfbf1;
+    color: #115e59;
+    border: 1px solid #14b8a6;
+}
+
+.opening-trap-badge--cat-ataque {
+    background: #ffedd5;
+    color: #9a3412;
+    border: 1px solid #f97316;
+}
+
 .training-why,
 .training-refute {
     font-size: 0.74rem;
@@ -2130,6 +2160,60 @@ html[dir="rtl"] #chess-board {
 .square.last-move {
     background-color: rgba(255, 255, 0, 0.4) !important;
     box-shadow: inset 0 0 10px rgba(255, 255, 0, 0.6);
+}
+
+.square.in-check::before,
+.square.checkmate::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 1;
+    background: radial-gradient(circle at 50% 50%,
+        rgba(235, 20, 20, 0.62) 0%,
+        rgba(220, 0, 0, 0.28) 46%,
+        transparent 74%);
+}
+
+.square.checkmate::before {
+    background: radial-gradient(circle at 50% 50%,
+        rgba(255, 16, 16, 0.78) 0%,
+        rgba(200, 0, 0, 0.38) 50%,
+        transparent 78%);
+    animation: mate-halo-pulse 1.05s ease-out 1;
+}
+
+.square.in-check .piece,
+.square.checkmate .piece {
+    position: relative;
+    z-index: 2;
+}
+
+.piece.checkmate-king-shake {
+    animation: king-mate-shake 0.68s ease-in-out 1;
+}
+
+@keyframes king-mate-shake {
+    0%, 100% { translate: 0 0; }
+    10% { translate: -9% 0; }
+    22% { translate: 8% 0; }
+    34% { translate: -7% 0; }
+    46% { translate: 5% 0; }
+    58% { translate: -3% 0; }
+    72% { translate: 2% 0; }
+}
+
+@keyframes mate-halo-pulse {
+    0% { opacity: 0.35; }
+    35% { opacity: 1; }
+    100% { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .piece.checkmate-king-shake,
+    .square.checkmate::before {
+        animation: none;
+    }
 }
 
 .square.variant-highlight {
@@ -6140,6 +6224,11 @@ body.app-access-locked .container {
         linear-gradient(135deg, rgba(255,255,255,0.18) 0%, transparent 50%, rgba(0,0,0,0.15) 100%)
         border-box;
     pointer-events: none;
+}
+
+.board-3d-mode .square.in-check::before,
+.board-3d-mode .square.checkmate::before {
+    transform: translateZ(2px);
 }
 
 /* Piezas SVG: elevan con sombra para simular volumen */

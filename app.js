@@ -197,6 +197,7 @@ let whiteTime = 3600; // segundos
 let blackTime = 3600; // segundos
 let clockInterval = null;
 let lastMoveSquares = { from: null, to: null }; // Guardar último movimiento para resaltar
+let kingMateShakePlayed = false;
 let bestMoveSquares = { from: null, to: null }; // Movimiento recomendado por el análisis (verde)
 let _analysisHoverSnapshot = null;              // Snapshot del tablero antes de un hover en el panel
 let currentMoveIndex = -1; // Índice del movimiento actual en visualización (-1 = posición actual)
@@ -2371,6 +2372,7 @@ const OPENING_TRAINING = {
         san: '1.e4 e5 2.Nf3 Nc6 3.Bc4 d6 4.Nc3 Bg4 5.Nxe5 Bxd1 6.Bxf7+ Ke7 7.Nd5#',
         desc: 'Clásica trampa de la Italiana: las blancas «regalan» la dama y dan mate.',
         side: 'white', dubious: false,
+        cat: 'mate',
         why: 'Tras ...Bg4, Nxe5 descubre el alfil hacia f7. Si las negras comen la dama, Bxf7+ y Nd5# coordinan alfil y caballo contra el rey en e7.',
         refute: 'No capturar la dama: ...Nxe5 defiende. 5...dxe5 o 5...Nxe5 evitan el mate y las blancas solo han cambiado pieza.'
     },
@@ -2380,6 +2382,7 @@ const OPENING_TRAINING = {
         san: '1.e4 e5 2.Nf3 Nc6 3.Bc4 Nd4 4.Nxe5 Qg5 5.Nxf7 Qxg2 6.Rf1 Qxe4+ 7.Be2 Nf3#',
         desc: 'Las negras ceboan el peón e5. Si las blancas se lo comen, Qg5 gana o da mate.',
         side: 'black', dubious: true,
+        cat: 'mate',
         why: '4.Nxe5? deja f2 y g2 débiles. Qg5 ataca e5 y g2; si Nxf7, ...Qxg2 y ...Qxe4+ acaban en Nf3#.',
         refute: '4.Nxd4, 4.c3 o 4.O-O son correctas. ...Nd4 es dudoso si las blancas no caen: pierden tiempos.'
     },
@@ -2389,6 +2392,7 @@ const OPENING_TRAINING = {
         san: '1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 d6 5.d4 b5 6.Bb3 Nxd4 7.Nxd4 exd4 8.Qxd4 c5 9.Qd5 Be6 10.Qc6+ Bd7 11.Qd5 c4',
         desc: 'En la Española, ...c5-c4 encierra el alfil de b3.',
         side: 'black', dubious: false,
+        cat: 'cazar',
         why: 'Tras Qxd4 prematura, ...c5 y ...c4 cierran la retirada del alfil. El alfil de casillas blancas queda cazado por la cadena de peones (el «arca»).',
         refute: 'No recapturar de dama en d4. 8.c3 o 5.c3 mantienen el alfil con casillas de escape.'
     },
@@ -2398,6 +2402,7 @@ const OPENING_TRAINING = {
         san: '1.d4 d5 2.c4 e5 3.dxe5 d4 4.e3 Bb4+ 5.Bd2 dxe3 6.Bxb4 exf2+ 7.Ke2 fxg1=N+ 8.Rxg1 Bg4+',
         desc: 'En el Contragambito Albin, coronar caballo gana de forma espectacular.',
         side: 'black', dubious: false,
+        cat: 'dama',
         why: '4.e3? y 6.Bxb4?? permiten ...exf2+ y coronar caballo (no dama). Tras Rxg1, ...Bg4+ gana la dama o sigue un ataque decisivo.',
         refute: '4.Nf3 es la línea principal. Tras 5...dxe3, 6.fxe3 (no Bxb4) mantiene la pieza y un peón de más.'
     },
@@ -2407,6 +2412,7 @@ const OPENING_TRAINING = {
         san: '1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Ng4 5.h3 h5 6.hxg4 hxg4',
         desc: 'Las negras ceboan el caballo en g4 y abren la columna h contra el rey enrocado.',
         side: 'black', dubious: true,
+        cat: 'ataque',
         why: 'Si las blancas comen en g4, ...hxg4 abre h8-h1. La dama irá a h4 y la torre ataca al rey; el caballo de f3 a menudo no puede cubrir h2.',
         refute: 'Ignorar el caballo: d3, Re1 o c3. Comer en g4 es el error. ...Ng4 no es teoría seria si las blancas no pican.'
     },
@@ -2416,6 +2422,7 @@ const OPENING_TRAINING = {
         san: '1.e4 e5 2.Qh5 Nc6 3.Bc4 Nf6 4.Qxf7#',
         desc: 'Ataque precoz a f7 con dama y alfil. Solo gana si las negras no defienden f7.',
         side: 'white', dubious: true,
+        cat: 'mate',
         why: 'Qh5 y Bc4 apuntan a f7, el punto más débil. ...Nf6 ataca la dama pero no cubre f7: Qxf7#.',
         refute: '3...g6 echa la dama; luego ...Nf6 y ...Bg7. También 2...Nc6 3.Bc4 Qe7 o 3...g6. El mate del pastor es fácil de parar.'
     },
@@ -2425,6 +2432,7 @@ const OPENING_TRAINING = {
         san: '1.d4 Nf6 2.c4 e5 3.dxe5 Ng4 4.Bf4 Nc6 5.Nf3 Bb4+ 6.Nbd2 Qe7 7.a3 Ngxe5 8.axb4 Nd3#',
         desc: 'Si las blancas comen el alfil en b4, el caballo da mate en d3.',
         side: 'black', dubious: false,
+        cat: 'mate',
         why: 'Bb4+ y Qe7 clavan el caballo de d2. Tras ...Nxe5, axb4 destapa d3: el caballo entra con mate porque e2 y c2 no lo cubren bien.',
         refute: '7.e3 o 8.Nxe5 (en vez de axb4). El Gambito Budapest es jugable; el mate solo aparece si las blancas son codiciosas.'
     },
@@ -2434,6 +2442,7 @@ const OPENING_TRAINING = {
         san: '1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Nbd7 5.cxd5 exd5 6.Nxd5 Nxd5 7.Bxd8 Bb4+ 8.Qd2 Bxd2+ 9.Kxd2 Kxd8',
         desc: 'Las blancas «ganan» la dama y pierden una pieza: Bb4+ recupera con ventaja.',
         side: 'black', dubious: false,
+        cat: 'pieza',
         why: '6.Nxd5?? no es gratis: ...Nxd5 y si Bxd8, ...Bb4+ obliga Qd2 y las negras recapturan dama y rey, quedando una pieza de más.',
         refute: '6.e3 o 6.Nf3. Nxd5 solo es correcto si el alfil de f8 no puede dar el jaque en b4.'
     },
@@ -2443,6 +2452,7 @@ const OPENING_TRAINING = {
         san: '1.e4 e5 2.Nf3 f6 3.Nxe5 fxe5 4.Qh5+ Ke7 5.Qxe5+ Kf7 6.Bc4+',
         desc: '...f6 defiende e5 muy mal. Las blancas sacrifican el caballo y cazan al rey.',
         side: 'white', dubious: true,
+        cat: 'ataque',
         why: '3.Nxe5! funciona porque 4.Qh5+ recupera el caballo y más. El rey en e7/f7 queda en el centro y Bc4+ sigue el ataque.',
         refute: 'Las negras no deben jugar 2...f6 ni 3...fxe5. Tras 3.Nxe5, ...Qe7 es menos malo. La Defensa Damiano es débil de salida.'
     },
@@ -2452,6 +2462,7 @@ const OPENING_TRAINING = {
         san: '1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Nxd5 6.Nxf7 Kxf7 7.Qf3+',
         desc: 'Sacrificio en f7 contra ...Nxd5. El rey negro queda expuesto.',
         side: 'white', dubious: false,
+        cat: 'ataque',
         why: 'Nxf7 destierra al rey. Qf3+ gana el caballo de d5 o sigue el ataque (Ke6 Nc3). Compensación clara por la pieza.',
         refute: '5...Na5 (Polerio) en vez de ...Nxd5. El Fegatello solo es fuerte si las negras recapturan de caballo en d5.'
     },
@@ -2461,6 +2472,7 @@ const OPENING_TRAINING = {
         san: '1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Qe2 Ngf6 6.Nd6#',
         desc: 'Qe2 espera ...Ngf6?? y el caballo da mate en d6.',
         side: 'white', dubious: false,
+        cat: 'mate',
         why: 'Qe2 clava de forma invisible e7: el rey no puede huir y d6 queda sin defensa. ...Ngf6 tapa la retirada y Nd6 es mate.',
         refute: '5...Ndf6, 5...e6 o 5...Qc7. Nunca ...Ngf6 ante Qe2 en esta línea.'
     },
@@ -2470,8 +2482,499 @@ const OPENING_TRAINING = {
         san: '1.d4 e5 2.dxe5 Nc6 3.Nf3 Qe7 4.Bf4 Qb4+ 5.Bd2 Qxb2 6.Bc3 Bb4',
         desc: 'La dama come en b2 y ...Bb4 pincha el alfil que «defendía» a1.',
         side: 'black', dubious: true,
+        cat: 'pieza',
         why: '6.Bc3 parece cubrir a1, pero ...Bb4 clava el alfil. La dama en b2 ataca la torre y el pin gana material.',
         refute: '6.Nc3 (no Bc3) o no jugar Bf4 tan pronto. El Englund es dudoso: si las blancas desarrollan, el peón de más cuenta.'
+    },
+    'trampa-siberiana': {
+        name: 'Trampa siberiana (Smith-Morra)',
+        moves: 'e2e4 c7c5 d2d4 c5d4 c2c3 d4c3 b1c3 b8c6 g1f3 e7e6 f1c4 d8c7 d1e2 g8f6 e1g1 f6g4 h2h3 c6d4 f3d4 c7h2',
+        san: '1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 Nc6 5.Nf3 e6 6.Bc4 Qc7 7.Qe2 Nf6 8.O-O Ng4 9.h3 Nd4 10.Nxd4 Qh2#',
+        desc: 'En el Smith-Morra, ...Ng4 y ...Nd4. Si h3 y Nxd4, mate en h2.',
+        side: 'black', dubious: false,
+        cat: 'mate',
+        why: 'La dama en c7 y el caballo en g4 apuntan a h2. Tras Nxd4 el caballo de f3 desaparece y Qh2 es mate: g4 cubre h2.',
+        refute: 'No jugar 9.h3. 9.g3 o 8.h3 antes de Qe2 evitan el mate. El Smith-Morra sigue siendo jugable.'
+    },
+    'trampa-magnus-smith': {
+        name: 'Trampa de Magnus Smith (Siciliana)',
+        moves: 'e2e4 c7c5 g1f3 b8c6 d2d4 c5d4 f3d4 g8f6 b1c3 d7d6 f1c4 g7g6 d4c6 b7c6 e4e5 d6e5 c4f7 e8f7 d1d8',
+        san: '1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 d6 6.Bc4 g6 7.Nxc6 bxc6 8.e5 dxe5 9.Bxf7+ Kxf7 10.Qxd8',
+        desc: 'Tras ...g6 y ...dxe5, Bxf7+ gana la dama.',
+        side: 'white', dubious: false,
+        cat: 'dama',
+        why: 'e5 abre la diagonal del alfil hacia f7 y destapa d8. Si el rey come en f7, Qxd8. El peón e5 también ataca el caballo de f6.',
+        refute: 'No recapturar en e5. 8...Nd7 o 8...Ng4. En la Siciliana, ...g6 y Bc4 piden cuidado con e5.'
+    },
+    'trampa-monticelli': {
+        name: 'Trampa de Monticelli (Bogo-India)',
+        moves: 'd2d4 g8f6 c2c4 e7e6 g1f3 f8b4 c1d2 b4d2 d1d2 b7b6 g2g3 c8b7 f1g2 e8g8 b1c3 f6e4 d2c2 e4c3 f3g5 d8g5 g2b7 c3e2 c2e2',
+        san: '1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Bd2 Bxd2+ 5.Qxd2 b6 6.g3 Bb7 7.Bg2 O-O 8.Nc3 Ne4 9.Qc2 Nxc3 10.Ng5 Qxg5 11.Bxb7 Nxe2+ 12.Qxe2',
+        desc: 'Ng5 amenaza el alfil de b7. Si la dama come el caballo, Bxb7 gana pieza.',
+        side: 'white', dubious: false,
+        cat: 'pieza',
+        why: 'Tras ...Nxc3, Ng5 ignora el caballo y ataca b7 y h7. Qxg5 permite Bxb7; el alfil de g2 barre la diagonal larga.',
+        refute: 'No comer en g5. 10...Ne4 o 10...g6. En la Bogo, ...Nxc3 no gana la dama: hay que mirar Bxb7.'
+    },
+    'trampa-tarrasch': {
+        name: 'Trampa de Tarrasch (Española abierta)',
+        moves: 'e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4 d2d4 b7b5 a4b3 d7d5 d4e5 c8e6 c2c3 f8e7 f1e1 e8g8 f3d4 d8d7 d4e6 d7e6 e1e4',
+        san: '1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4 6.d4 b5 7.Bb3 d5 8.dxe5 Be6 9.c3 Be7 10.Re1 O-O 11.Nd4 Qd7 12.Nxe6 Qxe6 13.Rxe4',
+        desc: '...Qd7 pierde el caballo de e4: Nxe6 y Rxe4.',
+        side: 'white', dubious: false,
+        cat: 'pieza',
+        why: 'La torre en e1 clava de forma indirecta. Tras Nxe6, si Qxe6 o fxe6, Rxe4 come el caballo que ya no está defendido.',
+        refute: '11...Nxe5 o 11...Na5, no ...Qd7. La Española abierta es sana si las negras no desclavan mal.'
+    },
+    'trampa-cambridge': {
+        name: 'Cambridge Springs (...Ne4)',
+        moves: 'd2d4 d7d5 c2c4 e7e6 b1c3 g8f6 c1g5 b8d7 e2e3 c7c6 g1f3 d8a5 f1d3 f6e4 d3e4 d5e4 f3d2 a5g5',
+        san: '1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Nbd7 5.e3 c6 6.Nf3 Qa5 7.Bd3 Ne4 8.Bxe4 dxe4 9.Nd2 Qxg5',
+        desc: 'Qa5 y ...Ne4 cazan el alfil de g5 si las blancas juegan Bd3.',
+        side: 'black', dubious: false,
+        cat: 'pieza',
+        why: 'La dama en a5 clava el caballo de c3. ...Ne4 ataca el alfil; si Bxe4 dxe4 y Qxg5, las negras ganan pieza.',
+        refute: '7.Nd2 o 7.Qc2, no Bd3. El Cambridge Springs es teoría: el error es dejar colgado el alfil de g5.'
+    },
+    'trampa-mortimer': {
+        name: 'Trampa de Mortimer (Española)',
+        moves: 'e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 d2d3 c6e7 f3e5 c7c6 b5a4 d8a5 c2c3 a5e5',
+        san: '1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3 Ne7 5.Nxe5 c6 6.Ba4 Qa5+ 7.c3 Qxe5',
+        desc: 'Si las blancas comen en e5, ...c6 y ...Qa5+ recuperan el caballo.',
+        side: 'black', dubious: false,
+        cat: 'pieza',
+        why: '...Ne7 tapa y prepara ...c6. Nxe5 parece gratis, pero Qa5+ jaquea y come el caballo de e5.',
+        refute: 'No jugar 5.Nxe5. 5.O-O o 5.Nbd2. ...Ne7 es pasivo si las blancas no pican.'
+    },
+    'trampa-wurzburger': {
+        name: 'Trampa de Würzburger (Viena)',
+        moves: 'e2e4 e7e5 b1c3 g8f6 f2f4 d7d5 f4e5 f6e4 d2d3 d8h4 g2g3 e4g3 g1f3 h4h5 c3d5 g3h1 d5c7 e8d8 c7a8',
+        san: '1.e4 e5 2.Nc3 Nf6 3.f4 d5 4.fxe5 Nxe4 5.d3 Qh4+ 6.g3 Nxg3 7.Nf3 Qh5 8.Nxd5 Nxh1 9.Nxc7+ Kd8 10.Nxa8',
+        desc: 'Si el caballo come la torre de h1, Nxc7+ y Nxa8 dejan a las blancas con ventaja.',
+        side: 'white', dubious: false,
+        cat: 'pieza',
+        why: 'Nxd5 ataca c7 y el centro. Nxh1 es codicioso: el jaque en c7 y la torre de a8 compensan de sobra el material de h1.',
+        refute: '8...Qg6 o 8...Qd8, no ...Nxh1. El Gambito de Viena es jugable; comer la torre es el error.'
+    },
+    'trampa-opera': {
+        name: 'Mate de la Ópera (Morphy)',
+        moves: 'e2e4 e7e5 g1f3 d7d6 d2d4 c8g4 d4e5 g4f3 d1f3 d6e5 f1c4 g8f6 f3b3 d8e7 b1c3 c7c6 c1g5 b7b5 c3b5 c6b5 c4b5 b8d7 e1c1 a8d8 d1d7 d8d7 h1d1 e7e6 b5d7 f6d7 b3b8 d7b8 d1d8',
+        san: '1.e4 e5 2.Nf3 d6 3.d4 Bg4 4.dxe5 Bxf3 5.Qxf3 dxe5 6.Bc4 Nf6 7.Qb3 Qe7 8.Nc3 c6 9.Bg5 b5 10.Nxb5 cxb5 11.Bxb5+ Nbd7 12.O-O-O Rd8 13.Rxd7 Rxd7 14.Rd1 Qe6 15.Bxd7+ Nxd7 16.Qb8+ Nxb8 17.Rd8#',
+        desc: 'La partida de Morphy en la Ópera: sacrificio de dama y mate de torre en d8.',
+        side: 'white', dubious: false,
+        cat: 'mate',
+        why: 'Las negras retrasan el desarrollo. El sacrificio Nxb5 abre el rey; Qb8+ desvía el caballo y Rd8 es mate en la última fila.',
+        refute: 'No ...Bg4 ni ...b5. 3...Nd7 o 3...Nf6. La Philidor es sólida si se desarrolla en vez de cazar peones.'
+    },
+    'trampa-stafford': {
+        name: 'Gambito Stafford',
+        moves: 'e2e4 e7e5 g1f3 g8f6 f3e5 b8c6 e5c6 d7c6 d2d3 f8c5 c1g5 f6e4 g5d8 c5f2 e1e2 c8g4',
+        san: '1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6 4.Nxc6 dxc6 5.d3 Bc5 6.Bg5 Nxe4 7.Bxd8 Bxf2+ 8.Ke2 Bg4#',
+        desc: 'Si las blancas clavan con Bg5, ...Nxe4 y el alfil dan mate.',
+        side: 'black', dubious: true,
+        cat: 'mate',
+        why: 'Bg5?? deja f2 débil. ...Nxe4 abre el alfil de c5: Bxf2+ y Bg4# coordinan alfil y caballo contra el rey en e2.',
+        refute: 'No Bg5. 5.d3 Be2, o 3.d4 / 4.Nf3. El Stafford es dudoso si las blancas desarrollan sin picar.'
+    },
+    'trampa-matovinsky': {
+        name: 'Gambito Matovinsky (Owen)',
+        moves: 'e2e4 b7b6 d2d4 c8b7 f1d3 f7f5 e4f5 b7g2 d1h5 g7g6 f5g6 g8f6 g6h7 f6h5 d3g6',
+        san: '1.e4 b6 2.d4 Bb7 3.Bd3 f5 4.exf5 Bxg2 5.Qh5+ g6 6.fxg6 Nf6 7.gxh7+ Nxh5 8.Bg6#',
+        desc: '...f5 y comer en g2 llevan al mate de alfil en g6.',
+        side: 'white', dubious: true,
+        cat: 'mate',
+        why: 'Qh5+ obliga ...g6. El peón abre h7 y el alfil de d3 llega a g6 con mate, aunque las negras coman la dama.',
+        refute: 'No ...f5 ni ...Bxg2. 3...e6 o 3...Nf6. La Owen es jugable; el gambito Matovinsky es el error negro.'
+    },
+    'trampa-traxler': {
+        name: 'Contragambito Traxler',
+        moves: 'e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 f8c5 g5f7 c5f2 e1f2 f6e4 f2e1 d8h4 g2g3 e4g3',
+        san: '1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 Bc5 5.Nxf7 Bxf2+ 6.Kxf2 Nxe4+ 7.Ke1 Qh4+ 8.g3 Nxg3',
+        desc: 'Contra Ng5, ...Bc5 sacrifica en f2 y caza al rey blanco.',
+        side: 'black', dubious: false,
+        cat: 'ataque',
+        why: 'Nxf7 come en f7 pero deja el rey al descubierto. Bxf2+ y Nxe4+ sacan al rey; Qh4+ y Nxg3 destrozan el flanco de rey.',
+        refute: '5.Bxf7+ (no Nxf7) y 6.Kf1. El Traxler es agudo; Nxf7 es el error que lo enciende.'
+    },
+    'trampa-halosar': {
+        name: 'Trampa de Halosar (Blackmar-Diemer)',
+        moves: 'd2d4 d7d5 e2e4 d5e4 b1c3 g8f6 f2f3 e4f3 d1f3 d8d4 c1e3 d4b4 e1c1 c8g4 c3b5 g4f3 b5c7',
+        san: '1.d4 d5 2.e4 dxe4 3.Nc3 Nf6 4.f3 exf3 5.Qxf3 Qxd4 6.Be3 Qb4 7.O-O-O Bg4 8.Nb5 Bxf3 9.Nxc7#',
+        desc: 'Si las negras comen la dama en f3, Nb5 y Nxc7 es mate.',
+        side: 'white', dubious: true,
+        cat: 'mate',
+        why: 'El enroque largo pone la torre en d1. Nb5 amenaza c7 y la dama. Bxf3 ignora Nxc7#: el rey está ahogado por sus peones y el alfil de f8.',
+        refute: 'No ...Bg4 ni Qxd4 tan pronto. 7...c6. El gambito Ryder es dudoso; el mate solo aparece si las negras son codiciosas.'
+    },
+    'trampa-loco': {
+        name: 'Mate del loco',
+        moves: 'f2f3 e7e5 g2g4 d8h4',
+        san: '1.f3 e5 2.g4 Qh4#',
+        desc: 'El mate más rápido: f3 y g4 abren el rey blanco.',
+        side: 'black', dubious: true,
+        cat: 'mate',
+        why: 'f3 quita la casilla g2 al rey y g4 abre h4-e1. La dama entra en h4 y no hay defensa.',
+        refute: 'No jugar f3 y g4. Cualquier desarrollo normal (e4, d4, Nf3) evita el mate del loco.'
+    },
+    'trampa-lolli': {
+        name: 'Ataque Lolli',
+        moves: 'e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 d7d5 e4d5 f6d5 d2d4 e5d4 e1g1 f8e7 g5f7 e8f7 d1f3',
+        san: '1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Nxd5 6.d4 exd4 7.O-O Be7 8.Nxf7 Kxf7 9.Qf3+',
+        desc: 'Como el Fegatello, pero con d4: el sacrificio en f7 saca al rey.',
+        side: 'white', dubious: false,
+        cat: 'ataque',
+        why: 'd4 abre el centro antes de Nxf7. Qf3+ recupera el caballo de d5 o sigue el ataque contra el rey en f7.',
+        refute: '5...Na5 (Polerio) o 6...Bb4+. El Lolli solo es fuerte si las negras recapturan de caballo en d5.'
+    },
+    'trampa-halloween': {
+        name: 'Gambito Halloween',
+        moves: 'e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f3e5 c6e5 d2d4 e5c6 d4d5 c6e5 f2f4 e5g6 e4e5 f6g8 d5d6',
+        san: '1.e4 e5 2.Nf3 Nc6 3.Nc3 Nf6 4.Nxe5 Nxe5 5.d4 Nc6 6.d5 Ne5 7.f4 Ng6 8.e5 Ng8 9.d6',
+        desc: 'Las blancas entregan un caballo por peones centrales que empujan al rey.',
+        side: 'white', dubious: true,
+        cat: 'ataque',
+        why: 'Los peones d y e ganan tiempos contra los caballos. d6 abre el rey y atasca el desarrollo negro.',
+        refute: '4...Nxe5 5.d4 Ng6 (no Nc6) o devolver el caballo a tiempo. El Halloween es dudoso si las negras no retroceden mal.'
+    },
+    'trampa-danes': {
+        name: 'Gambito danés (codicioso)',
+        moves: 'e2e4 e7e5 d2d4 e5d4 c2c3 d4c3 f1c4 c3b2 c1b2 g8f6 e4e5 d8e7 d1e2 f6g8 g1f3',
+        san: '1.e4 e5 2.d4 exd4 3.c3 dxc3 4.Bc4 cxb2 5.Bxb2 Nf6 6.e5 Qe7 7.Qe2 Ng8 8.Nf3',
+        desc: 'Si las negras comen los dos peones, el desarrollo blanco aplasta.',
+        side: 'white', dubious: true,
+        cat: 'ataque',
+        why: 'Los alfiles en c4 y b2 apuntan a f7 y g7. e5 echa el caballo y Qe2 clava ideas en e-file.',
+        refute: 'Rechazar con 3...d5 o 4...d6 (no cxb2). El danés es un gambito: dos peones de más cuentan si se desarrolla.'
+    },
+    'trampa-ponziani': {
+        name: 'Trampa de Ponziani (Fraser)',
+        moves: 'e2e4 e7e5 g1f3 b8c6 c2c3 g8f6 d2d4 e5d4 e4e5 d8e7 c3d4 d7d6 f1b5 c8d7 e1g1 d6e5 d4e5 c6e5 f1e1',
+        san: '1.e4 e5 2.Nf3 Nc6 3.c3 Nf6 4.d4 exd4 5.e5 Qe7 6.cxd4 d6 7.Bb5 Bd7 8.O-O dxe5 9.dxe5 Nxe5 10.Re1',
+        desc: '...Nxe5 clava el caballo a la dama: Re1 gana pieza.',
+        side: 'white', dubious: false,
+        cat: 'pieza',
+        why: 'La dama en e7 y el caballo en e5 quedan en la misma columna. Re1 pincha y el caballo cae o se pierde la dama.',
+        refute: 'No ...Nxe5. 8...dxe5 9.dxe5 Nd5 o 5...Nd5. En la Ponziani, la dama en e7 pide cuidado con la columna e.'
+    },
+    'trampa-escandinava': {
+        name: 'Trampa de la Escandinava (alfil)',
+        moves: 'e2e4 d7d5 e4d5 d8d5 b1c3 d5a5 d2d4 g8f6 g1f3 c8g4 f3e5 b8c6 e5g4 f6g4 d1g4',
+        san: '1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 Nf6 5.Nf3 Bg4 6.Ne5 Nc6 7.Nxg4 Nxg4 8.Qxg4',
+        desc: '...Bg4 y ...Nc6 permiten Ne5 y Nxg4: se pierde el alfil.',
+        side: 'white', dubious: false,
+        cat: 'pieza',
+        why: 'Ne5 ataca el alfil y c6. Si ...Nc6 no defiende g4, Nxg4 y Qxg4 ganan pieza.',
+        refute: '6...Be6 o 6...Bh5. No ...Nc6 ante Ne5. En la Escandinava el alfil de g4 debe tener retirada.'
+    },
+    'trampa-alekhine': {
+        name: 'Trampa de Alekhine (c7)',
+        moves: 'e2e4 g8f6 e4e5 f6d5 c2c4 d5b6 d2d4 b8c6 d4d5 c6e5 c4c5 b6c4 d1d4 f7f6 f2f4 e5c6 d4c4',
+        san: '1.e4 Nf6 2.e5 Nd5 3.c4 Nb6 4.d4 Nc6 5.d5 Nxe5 6.c5 Nc4 7.Qd4 f6 8.f4 Nc6 9.Qxc4',
+        desc: '...Nc6 y los caballos quedan cazados: Qd4 y Qxc4 ganan pieza.',
+        side: 'white', dubious: false,
+        cat: 'pieza',
+        why: 'c5 y Qd4 atacan los dos caballos a la vez. ...f6 no salva el de c4.',
+        refute: '4...d6 (línea principal), no ...Nc6. Los caballos necesitan casillas; c5 las quita.'
+    },
+    'trampa-inglesa': {
+        name: 'Trampa de la Inglesa (Nxe5)',
+        moves: 'c2c4 e7e5 b1c3 g8f6 g1f3 b8c6 g2g3 d7d5 c4d5 f6d5 f1g2 c6d4 f3e5 d4c2 d1c2',
+        san: '1.c4 e5 2.Nc3 Nf6 3.Nf3 Nc6 4.g3 d5 5.cxd5 Nxd5 6.Bg2 Nd4 7.Nxe5 Nxc2+ 8.Qxc2',
+        desc: '...Nd4 parece un tenedor; Nxe5 y Qxc2 ganan el caballo.',
+        side: 'white', dubious: false,
+        cat: 'pieza',
+        why: 'Nxe5 come en el centro y deja c2 cubierto por la dama. Nxc2+ no es gratis: Qxc2 recupera.',
+        refute: '6...Nxc3 o 6...Be6, no ...Nd4. El caballo en d4 no gana c2 si e5 cae primero.'
+    },
+    'trampa-from': {
+        name: 'Gambito From (Bird)',
+        moves: 'f2f4 e7e5 f4e5 d7d6 e5d6 f8d6 g1f3 g7g5 d2d4 g5g4 f3e5 d6e5 d4e5 d8d1 e1d1',
+        san: '1.f4 e5 2.fxe5 d6 3.exd6 Bxd6 4.Nf3 g5 5.d4 g4 6.Ne5 Bxe5 7.dxe5 Qxd1+',
+        desc: 'Si las blancas ponen el caballo en e5, ...Bxe5 y ...Qxd1 ganan la dama.',
+        side: 'black', dubious: true,
+        cat: 'dama',
+        why: 'g4 echa el caballo. Ne5 parece central, pero Bxe5 dxe5 destapa d1: la dama está indefensa.',
+        refute: '6.Nd2 o 6.Ng1, no Ne5. El Gambito From es dudoso si las blancas desarrollan sin picar.'
+    },
+    'trampa-grob': {
+        name: 'Trampa del Grob (Spike)',
+        moves: 'g2g4 d7d5 f1g2 c8g4 c2c4 c7c6 c4d5 c6d5 d1b3 g8f6 b3b7 b8d7 g2d5',
+        san: '1.g4 d5 2.Bg2 Bxg4 3.c4 c6 4.cxd5 cxd5 5.Qb3 Nf6 6.Qxb7 Nbd7 7.Bxd5',
+        desc: 'Qb3 come en b7 y Bxd5 recupera el alfil con ventaja.',
+        side: 'white', dubious: true,
+        cat: 'pieza',
+        why: 'Qb3 ataca b7 y d5. Tras Qxb7, Bxd5 pincha el centro y amenaza a8 y f7.',
+        refute: 'No ...Bxg4 tan pronto, o 5...e6. El Grob es dudoso; comer en g4 es el cebo.'
+    },
+    'trampa-sokolsky': {
+        name: 'Trampa Sokolsky (1.b4)',
+        moves: 'b2b4 e7e5 c1b2 f8b4 b2e5 g8f6 c2c3 b4a5 d1a4 b8c6 e5f6 d8f6 a4a5',
+        san: '1.b4 e5 2.Bb2 Bxb4 3.Bxe5 Nf6 4.c3 Ba5 5.Qa4 Nc6 6.Bxf6 Qxf6 7.Qxa5',
+        desc: '...Nc6 permite Bxf6 y Qxa5: se pierde el alfil.',
+        side: 'white', dubious: false,
+        cat: 'pieza',
+        why: 'Qa4 clava ideas sobre a5. Bxf6 quita el defensor y Qxa5 come el alfil colgado.',
+        refute: '5...c6 o 4...Be7, no ...Nc6. El alfil en a5 necesita una casilla segura.'
+    },
+    'trampa-fajarowicz': {
+        name: 'Trampa Fajarowicz (Budapest)',
+        moves: 'd2d4 g8f6 c2c4 e7e5 d4e5 f6e4 b1d2 f8b4 a2a3 e4f2 e1f2 d8h4 g2g3 h4d4 f2e1 d4e5',
+        san: '1.d4 Nf6 2.c4 e5 3.dxe5 Ne4 4.Nd2 Bb4 5.a3 Nxf2 6.Kxf2 Qh4+ 7.g3 Qd4+ 8.Ke1 Qxe5+',
+        desc: '...Nxf2 y la dama cazan al rey; se recupera el peón con ataque.',
+        side: 'black', dubious: false,
+        cat: 'ataque',
+        why: 'Nxf2 destierra al rey. Qh4+ y Qd4+ fuerzan g3 y Ke1; Qxe5+ recupera e5 con el rey en el centro.',
+        refute: '5.Ngf3 o 4.Nf3, no a3 que pierde f2. El Fajarowicz es jugable; a3 es el error.'
+    },
+    'trampa-hillbilly': {
+        name: 'Ataque Hillbilly (Caro-Kann)',
+        moves: 'e2e4 c7c6 f1c4 d7d5 c4b3 d5e4 d1h5 e7e6 b1c3 g8f6 h5e5 f8e7 c3e4 b8d7 e4d6',
+        san: '1.e4 c6 2.Bc4 d5 3.Bb3 dxe4 4.Qh5 e6 5.Nc3 Nf6 6.Qe5 Be7 7.Nxe4 Nbd7 8.Nd6+',
+        desc: 'Qe5 y el caballo entran en d6: el rey negro no puede enrocar.',
+        side: 'white', dubious: true,
+        cat: 'ataque',
+        why: 'Qh5-e5 clava e7. Nxe4 y Nd6+ ocupan el hueco; el rey queda en e8 y f7 cae.',
+        refute: '3...Nf6 o 4...g6 echan la dama. El Hillbilly no es teoría: si las negras desarrollan, el peón de más cuenta.'
+    },
+    'trampa-frankenstein': {
+        name: 'Frankenstein-Drácula (Vienesa)',
+        moves: 'e2e4 e7e5 b1c3 g8f6 f1c4 f6e4 d1h5 e4d6 c4b3 b8c6 c3b5 g7g6 h5f3 f7f5 f3d5 d8e7 b5c7 e8d8 c7a8',
+        san: '1.e4 e5 2.Nc3 Nf6 3.Bc4 Nxe4 4.Qh5 Nd6 5.Bb3 Nc6 6.Nb5 g6 7.Qf3 f5 8.Qd5 Qe7 9.Nxc7+ Kd8 10.Nxa8',
+        desc: 'En la Vienesa, Nb5 y Nxc7+ cazan la torre de a8.',
+        side: 'white', dubious: true,
+        cat: 'pieza',
+        why: 'Qh5 y Qd5 clavan el rey. Nb5 amenaza c7; si ...Qe7, Nxc7+ y Nxa8 ganan la torre.',
+        refute: '5...Be7 o 6...Nxb5. El Frankenstein-Drácula es agudo; no hay que dejar c7 sin defensa.'
+    },
+    'trampa-cochrane': {
+        name: 'Gambito Cochrane (Petrov)',
+        moves: 'e2e4 e7e5 g1f3 g8f6 f3e5 d7d6 e5f7 e8f7 d2d4 f6e4 d1h5 g7g6 h5d5 f7e8 d5e4',
+        san: '1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nxf7 Kxf7 5.d4 Nxe4 6.Qh5+ g6 7.Qd5+ Ke8 8.Qxe4',
+        desc: 'Nxf7 saca al rey; Qh5+ y Qd5+ recuperan el caballo.',
+        side: 'white', dubious: true,
+        cat: 'ataque',
+        why: 'El rey en f7 no puede enrocar. Qh5+ obliga ...g6 y Qd5+ come el caballo de e4.',
+        refute: '4...Qe7 (no Nxf7 si no se quiere el gambito). Tras Nxf7, 5...c5 o devolver pieza. El Cochrane es dudoso.'
+    },
+    'trampa-greco': {
+        name: 'Trampa de Greco (Italiana)',
+        moves: 'e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c2c3 g8f6 d2d4 e5d4 c3d4 c5b4 b1c3 f6e4 e1g1 e4c3 b2c3 b4c3 d1b3 c3a1 c4f7 e8f8 c1g5',
+        san: '1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d4 exd4 6.cxd4 Bb4+ 7.Nc3 Nxe4 8.O-O Nxc3 9.bxc3 Bxc3 10.Qb3 Bxa1 11.Bxf7+ Kf8 12.Bg5',
+        desc: 'Si las negras comen la torre en a1, Bxf7+ y Bg5 cazan al rey.',
+        side: 'white', dubious: false,
+        cat: 'ataque',
+        why: 'Qb3 ataca f7 y b7. Bxa1 ignora Bxf7+; Bg5 clava y el rey no tiene casillas seguras.',
+        refute: '10...d5 (no Bxa1). Greco es correcto si las negras no son codiciosas con la torre.'
+    },
+    'trampa-cadete': {
+        name: 'Mate del cadete (Escocesa)',
+        moves: 'e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 c2c3 d4c3 b1c3 d7d6 f1c4 c8g4 e1g1 c6e5 f3e5 g4d1 c4f7 e8e7 c3d5',
+        san: '1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.c3 dxc3 5.Nxc3 d6 6.Bc4 Bg4 7.O-O Ne5 8.Nxe5 Bxd1 9.Bxf7+ Ke7 10.Nd5#',
+        desc: 'Como Legal: comer la dama permite Bxf7+ y Nd5 mate.',
+        side: 'white', dubious: false,
+        cat: 'mate',
+        why: 'Nxe5 descubre el alfil hacia f7. Bxd1 ignora Bxf7+ y Nd5#: el rey está ahogado en e7.',
+        refute: 'No ...Bxd1. 8...dxe5. En el gambito escocés el alfil de g4 no puede comer la dama.'
+    },
+    'trampa-winter': {
+        name: 'Trampa de Winter (Caro-Kann)',
+        moves: 'e2e4 c7c6 d2d4 d7d5 b1c3 d5e4 c3e4 g8f6 d1d3 e7e5 d4e5 d8a5 c1d2 a5e5 e1c1 f6e4 d3d8 e8d8 d2g5 d8e8 d1d8',
+        san: '1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nf6 5.Qd3 e5 6.dxe5 Qa5+ 7.Bd2 Qxe5 8.O-O-O Nxe4 9.Qd8+ Kxd8 10.Bg5+ Ke8 11.Rd8#',
+        desc: '...Nxe4 permite Qd8+ y Rd8 mate.',
+        side: 'white', dubious: false,
+        cat: 'mate',
+        why: 'El enroque largo pone la torre en d1. Qd8+ obliga al rey; Bg5+ y Rd8# cierran e8 y d8.',
+        refute: 'No ...Nxe4 ni 5...e5. 5...Nbd7 o 5...e6. Qd3 pide cuidado con la columna d.'
+    },
+    'trampa-marshall': {
+        name: 'Trampa de Marshall (Francesa)',
+        moves: 'e2e4 e7e6 d2d4 d7d5 b1c3 d5e4 c3e4 c8d7 g1f3 d7c6 f1d3 g8f6 e4f6 d8f6 c1g5 c6f3 d1d2 f6d4 d3b5',
+        san: '1.e4 e6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bd7 5.Nf3 Bc6 6.Bd3 Nf6 7.Nxf6+ Qxf6 8.Bg5 Bxf3 9.Qd2 Qxd4 10.Bb5+',
+        desc: '...Qxd4 y Bxf3 dejan la dama: Bb5+ la gana.',
+        side: 'white', dubious: false,
+        cat: 'dama',
+        why: 'Bg5 echa la dama. Qd2 cubre y espera Qxd4; Bb5+ saca al rey y la dama de d4 cae.',
+        refute: '7...gxf6 o 8...Qf5, no Bxf3 y Qxd4. En la Rubinstein la dama no debe ir a d4.'
+    },
+    'trampa-muzio': {
+        name: 'Gambito Muzio (Gambito de Rey)',
+        moves: 'e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 f1c4 g5g4 e1g1 g4f3 d1f3 d8f6 e4e5 f6e5 c4f7 e8f7 d2d4',
+        san: '1.e4 e5 2.f4 exf4 3.Nf3 g5 4.Bc4 g4 5.O-O gxf3 6.Qxf3 Qf6 7.e5 Qxe5 8.Bxf7+ Kxf7 9.d4',
+        desc: 'Las blancas entregan el caballo y Bxf7+ saca al rey.',
+        side: 'white', dubious: true,
+        cat: 'ataque',
+        why: 'O-O y Qxf3 abren f. e5 echa la dama; Bxf7+ y d4 abren el centro contra el rey en f7.',
+        refute: '4...Bg7 (no g4) o rechazar el gambito. El Muzio es espectacular y dudoso.'
+    },
+    'trampa-allgaier': {
+        name: 'Gambito Allgaier (Gambito de Rey)',
+        moves: 'e2e4 e7e5 f2f4 e5f4 g1f3 g7g5 h2h4 g5g4 f3g5 h7h6 g5f7 e8f7 f1c4 f7e8 d2d4',
+        san: '1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ng5 h6 6.Nxf7 Kxf7 7.Bc4+ Ke8 8.d4',
+        desc: 'Nxf7 obliga al rey; Bc4+ y d4 siguen el ataque.',
+        side: 'white', dubious: true,
+        cat: 'ataque',
+        why: 'Ng5 y Nxf7 quitan el enroque. Bc4+ y d4 abren diagonales hacia e8.',
+        refute: '4...Bg7 o 5...Nf6 (no h6). El Allgaier sacrifica el caballo: si las negras desarrollan, el material cuenta.'
+    },
+    'trampa-leton': {
+        name: 'Gambito letón (Qxg2)',
+        moves: 'e2e4 e7e5 g1f3 f7f5 f3e5 d8f6 e5c4 f5e4 b1c3 f6g6 d2d3 e4d3 f1d3 g6g2 d1h5 e8d8 d3e4',
+        san: '1.e4 e5 2.Nf3 f5 3.Nxe5 Qf6 4.Nc4 fxe4 5.Nc3 Qg6 6.d3 exd3 7.Bxd3 Qxg2 8.Qh5+ Kd8 9.Be4',
+        desc: 'Si la dama come en g2, Qh5+ y Be4 la cazan.',
+        side: 'white', dubious: false,
+        cat: 'ataque',
+        why: 'Qh5+ saca al rey a d8. Be4 ataca la dama de g2 y el rey; la dama no tiene escape bueno.',
+        refute: 'No ...Qxg2. 3...Nf6 o rechazar 2...f5. El letón es débil; comer en g2 es el error extra.'
+    },
+    'trampa-jerome': {
+        name: 'Gambito Jerome',
+        moves: 'e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 c4f7 e8f7 f3e5 c6e5 d1h5 e5g6 h5d5 f7e8 d5c5',
+        san: '1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.Bxf7+ Kxf7 5.Nxe5+ Nxe5 6.Qh5+ Ng6 7.Qd5+ Ke8 8.Qxc5',
+        desc: 'Bxf7+ y Qh5+ recuperan la pieza: Qxc5 come el alfil.',
+        side: 'white', dubious: true,
+        cat: 'ataque',
+        why: 'Qh5+ da jaque doble de ideas. ...Ng6 permite Qd5+ y Qxc5: se recupera el alfil.',
+        refute: '6...Ke6 o 5...Kf8. El Jerome es muy dudoso; esta línea solo «funciona» si las negras retroceden mal.'
+    },
+    'trampa-staunton': {
+        name: 'Gambito Staunton (Holandesa)',
+        moves: 'd2d4 f7f5 e2e4 f5e4 b1c3 g8f6 c1g5 d7d5 g5f6 e7f6 d1h5 g7g6 h5d5',
+        san: '1.d4 f5 2.e4 fxe4 3.Nc3 Nf6 4.Bg5 d5 5.Bxf6 exf6 6.Qh5+ g6 7.Qxd5',
+        desc: '...d5 permite Bxf6 y Qxd5: se pierde el peón y la estructura.',
+        side: 'white', dubious: false,
+        cat: 'pieza',
+        why: 'Bg5 clava. Bxf6 rompe e7; Qh5+ obliga ...g6 y Qxd5 come el peón colgado.',
+        refute: '4...Nc6 o 4...g6, no ...d5 tan pronto. La Holandesa debe cubrir d5 antes de abrir.'
+    },
+    'trampa-grunfeld': {
+        name: 'Trampa de la Grünfeld (Bg4)',
+        moves: 'd2d4 g8f6 c2c4 g7g6 b1c3 d7d5 c4d5 f6d5 e2e4 d5c3 b2c3 f8g7 f1c4 c7c5 g1e2 b8c6 c1e3 e8g8 e1g1 c8g4 f2f3 c6a5 c4f7 f8f7 f3g4',
+        san: '1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.cxd5 Nxd5 5.e4 Nxc3 6.bxc3 Bg7 7.Bc4 c5 8.Ne2 Nc6 9.Be3 O-O 10.O-O Bg4 11.f3 Na5 12.Bxf7+ Rxf7 13.fxg4',
+        desc: '...Bg4 y ...Na5 permiten Bxf7+ y fxg4: se pierde el alfil.',
+        side: 'white', dubious: false,
+        cat: 'pieza',
+        why: 'f3 echa el alfil. ...Na5 ataca c4, pero Bxf7+ intercala y fxg4 come el alfil.',
+        refute: '10...Qc7 o 10...Na5 (sin Bg4). En la Grünfeld el alfil de c8 no debe ir a g4 tan pronto.'
+    },
+    'trampa-riga': {
+        name: 'Variante de Riga (Española)',
+        moves: 'e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4 d2d4 e5d4 f1e1 d7d5 f3d4 f8d6 d4c6 d6h2 g1h1 d8h4 e1e4 d5e4 d1d8 h4d8 c6d8 e8d8 h1h2',
+        san: '1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4 6.d4 exd4 7.Re1 d5 8.Nxd4 Bd6 9.Nxc6 Bxh2+ 10.Kh1 Qh4 11.Rxe4+ dxe4 12.Qd8+ Qxd8 13.Nxd8 Kxd8 14.Kxh2',
+        desc: '...Bxh2+ y ...Qh4 parecen mate; Qd8+ gana pieza.',
+        side: 'white', dubious: false,
+        cat: 'pieza',
+        why: 'Rxe4+ abre d8. Qd8+ obliga el cambio de damas; Nxd8 y Kxh2 dejan un alfil de más.',
+        refute: '9...Qd7 o 8...Be7, no ...Bd6 y Bxh2+. La Riga es una trampa para las negras si pican el rey.'
+    },
+    'trampa-maxlange': {
+        name: 'Ataque Max Lange',
+        moves: 'e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 d2d4 e5d4 e1g1 f8c5 e4e5 d7d5 e5f6 d5c4 f1e1 c8e6 f3g5 d8d5 b1c3 d5f5 c3e4',
+        san: '1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.d4 exd4 5.O-O Bc5 6.e5 d5 7.exf6 dxc4 8.Re1+ Be6 9.Ng5 Qd5 10.Nc3 Qf5 11.Nce4',
+        desc: 'e5 y Re1+ abren el rey; Ng5 y Nce4 atacan e6 y f6.',
+        side: 'white', dubious: false,
+        cat: 'ataque',
+        why: 'exf6 rompe el enroque. Re1+ clava e6; Ng5 y Nce4 recargan f6 y e6.',
+        refute: '5...Nxe4 (no Bc5) o 8...Kf8. El Max Lange es correcto; las negras deben conocer la defensa.'
+    },
+    'trampa-gambito-elefante': {
+        name: 'Gambito de elefante',
+        moves: 'e2e4 e7e5 g1f3 d7d5 f3e5 f8d6 d2d4 d5e4 f1c4 d6e5 d1h5 d8e7 h5e5',
+        san: '1.e4 e5 2.Nf3 d5 3.Nxe5 Bd6 4.d4 dxe4 5.Bc4 Bxe5 6.Qh5 Qe7 7.Qxe5',
+        desc: '...Bxe5 permite Qh5 y Qxe5: se pierde el alfil.',
+        side: 'white', dubious: false,
+        cat: 'pieza',
+        why: 'Qh5 da jaque y ataca e5. Qe7 no cubre: Qxe5 gana la pieza.',
+        refute: '3...dxe4 (no Bd6) o 5...Nf6. El gambito de elefante no es la trampa del elefante del GDR.'
+    },
+    'trampa-napoleon': {
+        name: 'Mate de Napoleón',
+        moves: 'e2e4 e7e5 d1f3 b8c6 f1c4 f8c5 f3f7',
+        san: '1.e4 e5 2.Qf3 Nc6 3.Bc4 Bc5 4.Qxf7#',
+        desc: 'Como el pastor, con dama por f3: Qxf7 es mate si no se cubre f7.',
+        side: 'white', dubious: true,
+        cat: 'mate',
+        why: 'Qf3 y Bc4 apuntan a f7. ...Bc5 no defiende f7: Qxf7#.',
+        refute: '2...Nf6 o 3...g6. El mate de Napoleón es el del pastor por otra casilla.'
+    },
+    'trampa-wayward': {
+        name: 'Ataque Wayward Queen',
+        moves: 'e2e4 e7e5 d1h5 b8c6 f1c4 g8f6 h5f7',
+        san: '1.e4 e5 2.Qh5 Nc6 3.Bc4 Nf6 4.Qxf7#',
+        desc: '2.Qh5 y Bc4: ...Nf6 no cubre f7 y Qxf7 es mate.',
+        side: 'white', dubious: true,
+        cat: 'mate',
+        why: 'Qh5 ya mira f7. ...Nf6 ataca la dama pero no cubre f7: Qxf7#.',
+        refute: '3...g6 echa la dama; luego ...Nf6. 2...Nc6 3.Bc4 Qe7. Igual que el mate del pastor.'
+    },
+    'trampa-rousseau': {
+        name: 'Gambito Rousseau',
+        moves: 'e2e4 e7e5 g1f3 b8c6 f1c4 f7f5 d2d4 f5e4 f3e5 c6e5 d4e5 d7d5 d1d5',
+        san: '1.e4 e5 2.Nf3 Nc6 3.Bc4 f5 4.d4 fxe4 5.Nxe5 Nxe5 6.dxe5 d5 7.Qxd5',
+        desc: '...fxe4 y ...d5 permiten Nxe5 y Qxd5: se pierde el peón.',
+        side: 'white', dubious: false,
+        cat: 'pieza',
+        why: 'Nxe5 y dxe5 limpian el centro. ...d5 parece cerrar, pero Qxd5 come gratis.',
+        refute: '4...d6 o 3...Nf6 (no ...f5). El Rousseau debilita el rey negro.'
+    },
+    'trampa-winawer': {
+        name: 'Winawer (peón envenenado)',
+        moves: 'e2e4 e7e6 d2d4 d7d5 b1c3 f8b4 e4e5 c7c5 a2a3 b4c3 b2c3 g8e7 d1g4 d8c7 g4g7 h8g8 g7h7',
+        san: '1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 c5 5.a3 Bxc3+ 6.bxc3 Ne7 7.Qg4 Qc7 8.Qxg7 Rg8 9.Qxh7',
+        desc: 'Qg4 come g7 y h7: el rey negro queda al descubierto.',
+        side: 'white', dubious: true,
+        cat: 'ataque',
+        why: 'Qg4 ataca g7. Tras Qxg7 y Qxh7 las blancas tienen dos peones y el rey negro no enroca.',
+        refute: '7...O-O o 7...Kf8 (no Qc7 si no se quiere el peón). El peón envenenado es teoría: las negras tienen compensación.'
+    },
+    'trampa-nakhmanson': {
+        name: 'Gambito Nakhmanson',
+        moves: 'e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 d2d4 e5d4 e1g1 f6e4 b1c3 d4c3 c4f7 e8f7 d1d5 f7e8 f1e1',
+        san: '1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.d4 exd4 5.O-O Nxe4 6.Nc3 dxc3 7.Bxf7+ Kxf7 8.Qd5+ Ke8 9.Re1',
+        desc: 'Bxf7+ y Qd5+ sacan al rey; Re1 clava el caballo de e4.',
+        side: 'white', dubious: true,
+        cat: 'ataque',
+        why: 'Nc3 sacrifica otro caballo. Bxf7+ y Qd5+ echan al rey; Re1 pincha e4 y e8.',
+        refute: '5...Bc5 (Max Lange) o 6...Nxc3. El Nakhmanson es un gambito: no hay que comer todo.'
+    },
+    'trampa-philidor-cg': {
+        name: 'Contragambito Philidor',
+        moves: 'e2e4 e7e5 g1f3 d7d6 d2d4 f7f5 d4e5 f5e4 f3g5 d6d5 e5e6',
+        san: '1.e4 e5 2.Nf3 d6 3.d4 f5 4.dxe5 fxe4 5.Ng5 d5 6.e6',
+        desc: '...f5 abre el rey; e6 clava f7 y atasca el desarrollo.',
+        side: 'white', dubious: false,
+        cat: 'ataque',
+        why: 'Ng5 y e6 amenazan f7. El peón en e6 no se puede comer bien; el alfil de c8 y el rey sufren.',
+        refute: '3...Nf6 o 3...exd4 (Philidor normal), no ...f5. El contragambito debilita e8-h5.'
+    },
+    'trampa-portuguesa': {
+        name: 'Gambito portugués (Escandinava)',
+        moves: 'e2e4 d7d5 e4d5 g8f6 d2d4 c8g4 f2f3 g4f5 g2g4 f5g6 c2c4 e7e6 b1c3 e6d5 g4g5 f6d7 c3d5',
+        san: '1.e4 d5 2.exd5 Nf6 3.d4 Bg4 4.f3 Bf5 5.g4 Bg6 6.c4 e6 7.Nc3 exd5 8.g5 Nfd7 9.Nxd5',
+        desc: '...Bg4 y ...e6 permiten g4-g5 y Nxd5: se pierde el peón.',
+        side: 'white', dubious: false,
+        cat: 'pieza',
+        why: 'f3 y g4 echan el alfil. g5 echa el caballo y Nxd5 come en el centro.',
+        refute: '4...Bxf3 o 3...Nxd5. El portugués cede el alfil; g4-g5 castiga si no se desarrolla.'
+    },
+    'trampa-monkeys': {
+        name: 'Monkey’s Bum (Moderna)',
+        moves: 'e2e4 g7g6 f1c4 f8g7 d1f3 e7e6 d2d4 g7d4 g1e2 d4g7 b1c3',
+        san: '1.e4 g6 2.Bc4 Bg7 3.Qf3 e6 4.d4 Bxd4 5.Ne2 Bg7 6.Nbc3',
+        desc: 'Si el alfil come en d4, Ne2 y Nbc3 ganan tiempos de ataque.',
+        side: 'white', dubious: true,
+        cat: 'ataque',
+        why: 'Qf3 mira f7. ...Bxd4 gana un peón pero pierde tiempos; Ne2 y Nbc3 desarrollan con amenaza.',
+        refute: '3...Nf6 (no ...e6 y Bxd4). El Monkey’s Bum es un cebo: el peón de d4 no es gratis.'
+    },
+    'trampa-schliemann': {
+        name: 'Schliemann / Jaenisch',
+        moves: 'e2e4 e7e5 g1f3 b8c6 f1b5 f7f5 b1c3 f5e4 c3e4 d7d5 f3e5 d5e4 e5c6 b7c6 b5c6 c8d7 c6a8',
+        san: '1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.Nc3 fxe4 5.Nxe4 d5 6.Nxe5 dxe4 7.Nxc6 bxc6 8.Bxc6+ Bd7 9.Bxa8',
+        desc: '...bxc6 permite Bxc6+ y Bxa8: se pierde la torre.',
+        side: 'white', dubious: false,
+        cat: 'pieza',
+        why: 'Nxc6 ataca la dama y la torre. bxc6 recaptura mal: Bxc6+ y Bxa8 ganan la calidad.',
+        refute: '7...Qg5 (no bxc6). El Schliemann es jugable; recapturar de peón en c6 es el error.'
     },
 };
 
@@ -4664,24 +5167,23 @@ function applyOpeningFromQueryString() {
         } catch (e) { /* file:// o restricción */ }
         return false;
     }
-    const select = document.getElementById('opening-select');
-    if (!select) return false;
     setSelectedOpeningKey(key);
     try {
         localStorage.setItem('selectedOpening', key);
     } catch (e) { /* private mode */ }
     onOpeningSelect();
+    if (!trainingOpening) trainingOpening = OPENING_TRAINING[key];
     hideVariantsPopup(false);
-    viewOpening();
-    updateShareButton();
+    const panel = document.getElementById('openings-panel');
+    if (panel && panel.classList.contains('collapsed')) {
+        panel.classList.remove('collapsed');
+    }
     if (window.matchMedia('(max-width: 1024px) and (orientation: portrait)').matches) {
-        const panel = document.getElementById('openings-panel');
-        if (panel && panel.classList.contains('collapsed')) {
-            panel.classList.remove('collapsed');
-        }
         document.body.classList.add('openings-panel-open');
         movePanelBelowEvalBar('openings-panel');
     }
+    viewOpening();
+    updateShareButton();
     const boardContainer = document.querySelector('.board-container');
     if (boardContainer) {
         setTimeout(function () { boardContainer.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 80);
@@ -5824,7 +6326,7 @@ function detectOpening() {
         showOpeningName('Variante desconocida');
     }
 
-    if (trainingActive) {
+    if (trainingActive && !isCurrentOpeningTrap()) {
         const variants = getOpeningVariants(history);
         if (variants.length > 1) {
             const key = history.join(' ');
@@ -8093,6 +8595,12 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '3.6.46': [
+        'Animaciones en el video de compartir: jaque mate, captura y movimientos',
+        'Al jaque mate el rey tiembla y su casilla se ilumina en rojo',
+        'Añadidas 61 trampas de apertura',
+        '... y más mejoras en AjedrezIA ...',
+    ],
     '3.6.37': [
         'Nueva categoría Trampas de apertura: trucos para blancas y negras, con por qué funcionan y cómo evitarlos',
         'La imagen de compartir se guarda en 16:9 (horizontal) o 9:16 (vertical)',
@@ -13972,6 +14480,16 @@ function onOpeningSelect(ev) {
         const sideLabel = opening.side === 'white' ? t('opening.trapForWhite') : t('opening.trapForBlack');
         const sideClass = opening.side === 'white' ? 'opening-trap-badge--white' : 'opening-trap-badge--black';
         let html = '<span class="opening-trap-badge ' + sideClass + '">' + sideLabel + '</span>';
+        const catKey = {
+            mate: 'opening.trapCatMate',
+            dama: 'opening.trapCatQueen',
+            pieza: 'opening.trapCatPiece',
+            cazar: 'opening.trapCatTrap',
+            ataque: 'opening.trapCatAttack'
+        }[opening.cat];
+        if (catKey) {
+            html += '<span class="opening-trap-badge opening-trap-badge--cat opening-trap-badge--cat-' + opening.cat + '">' + t(catKey) + '</span>';
+        }
         if (opening.dubious) {
             html += '<span class="opening-trap-badge opening-trap-badge--dubious">' + t('opening.trapDubious') + '</span>';
         }
@@ -14075,13 +14593,15 @@ function viewOpening() {
             updateShareButton();
             showOpeningCompletedMessage();
             showContinueButton();
-            const history = game.moveHistoryUCI || [];
-            const variants = getOpeningVariants(history);
-            if (variants.length > 0) {
-                const key = history.join(' ');
-                showVariantsPopup(variants, key, (selectedVariant) => {
-                    continueTrainingFromVariant(selectedVariant, key);
-                });
+            if (!isCurrentOpeningTrap()) {
+                const history = game.moveHistoryUCI || [];
+                const variants = getOpeningVariants(history);
+                if (variants.length > 0) {
+                    const key = history.join(' ');
+                    showVariantsPopup(variants, key, (selectedVariant) => {
+                        continueTrainingFromVariant(selectedVariant, key);
+                    });
+                }
             }
             return;
         }
@@ -14981,7 +15501,7 @@ function continueOpeningFromCompletedPosition() {
     hideMessage();
     const history = game && Array.isArray(game.moveHistoryUCI) ? game.moveHistoryUCI : [];
     const key = history.join(' ');
-    const variants = getOpeningVariants(history);
+    const variants = isCurrentOpeningTrap() ? [] : getOpeningVariants(history);
 
     if (variants.length > 0) {
         trainingActive = true;
@@ -15447,6 +15967,7 @@ function quizFinished() {
         'success',
         0,
         () => {
+            if (isCurrentOpeningTrap()) return;
             const history = game.moveHistoryUCI || [];
             const variants = getOpeningVariants(history);
             if (variants.length > 0) {
@@ -16391,7 +16912,7 @@ function getShareEloSuffix() {
     return t('share.eloSuffix', { n: SHARE_ELO_BONUS });
 }
 
-const SHARE_HASHTAGS = '#Ajedrez #Chess #ChessPuzzle #ChessTactics #ChessTraining #LearnChess #AprenderAjedrez #ChessOpening #Checkmate #ChessCommunity #ChessPlayer #JaqueMate #PuzzleOfTheDay #ChessLife #AjedrezIA';
+const SHARE_HASHTAGS = '#Ajedrez #Chess #शतरंज #Xadrez #Catur #Échecs #Schach #CờVua #Satranç #Ahedres #ChessPuzzle #ChessTactics #ChessTraining #LearnChess #AprenderAjedrez #ChessOpening #Checkmate #ChessCommunity #ChessPlayer #JaqueMate #ChessOnline #ChessOpenings #AjedrezIA';
 
 /** Etiqueta de tipo (línea 2 del mensaje unificado) */
 function shareKindLabel(kind) {
@@ -16415,11 +16936,12 @@ function formatUnifiedShareMessage(url, kind, shareDetail) {
     const u = (url && String(url).trim()) ? String(url).trim() : BASE_PATH;
     const det = (shareDetail && String(shareDetail).trim()) ? String(shareDetail).trim() : '';
 
-    if (kind === 'apertura') {
+    if (kind === 'apertura' || kind === 'trampa') {
+        const trap = kind === 'trampa' || isOpeningTrapKey(getSelectedOpeningKey());
         if (det) {
-            return t('share.look') + '\n' + t('share.openingNamed', { name: det }) + '\n\n♟ ' + u + '\n\n' + SHARE_HASHTAGS;
+            return t('share.look') + '\n' + t(trap ? 'share.trapNamed' : 'share.openingNamed', { name: det }) + '\n\n♟ ' + u + '\n\n' + SHARE_HASHTAGS;
         }
-        return t('share.look') + '\n' + shareKindLabel('apertura') + '\n\n♟ ' + u + '\n\n' + SHARE_HASHTAGS;
+        return t('share.look') + '\n' + shareKindLabel(trap ? 'trampa' : 'apertura') + '\n\n♟ ' + u + '\n\n' + SHARE_HASHTAGS;
     }
     const typeName = shareKindLabel(kind);
     const extra = det ? ('\n' + det) : '';
@@ -16625,6 +17147,14 @@ function getShareGameCardMetadata(opts) {
  *                Si es null se comparte BASE_PATH (genérico).
  *   fenOverride: FEN explícito para problemas (en vez de la posición en pantalla).
  */
+function shareAppLinkText(appKV) {
+    if (!appKV || !appKV.key || appKV.val == null || appKV.val === '') return '';
+    if (appKV.key !== 'opening' && appKV.key !== 'puzzle' && appKV.key !== 'master') return '';
+    const val = String(appKV.val);
+    if (!/^[A-Za-z0-9_\-]+$/.test(val) || val.length > 40) return '';
+    return 'ajedrezia.com/?' + appKV.key + '=' + val;
+}
+
 function buildSharePreview(kind, cardT, cardS, fenOverride, appKV, cardMeta) {
     const pos = getCurrentShareImageParams();
     const fen = (fenOverride && String(fenOverride).trim()) ? String(fenOverride).trim() : pos.fen;
@@ -16639,11 +17169,14 @@ function buildSharePreview(kind, cardT, cardS, fenOverride, appKV, cardMeta) {
     if (shareFlip) img.set('flip', '1');
     if (kind) img.set('kind', kind);
     if (typeof currentLang === 'string' && currentLang) img.set('lang', currentLang);
-    if (kind) img.set('kl', shareKindLabel(kind));
+    const kindLabel = kind ? shareKindLabel(kind) : '';
+    if (kind) img.set('kl', kindLabel);
     if (cardT) img.set('t', cardT);
     if (cardS) img.set('s', cardS);
     if (cardMeta) img.set('meta', cardMeta);
     if (mv) img.set('mv', mv);
+    const shareLink = shareAppLinkText(appKV);
+    if (shareLink) img.set('u', shareLink);
     const shareLayout = getShareCardLayout();
     img.set('lay', shareLayout);
     // Facebook conserva durante mucho tiempo la tarjeta de una URL ya
@@ -16668,6 +17201,8 @@ function buildSharePreview(kind, cardT, cardS, fenOverride, appKV, cardMeta) {
             t: cardT || '',
             s: cardS || '',
             meta: cardMeta || '',
+            link: shareLink,
+            kindLabel: kindLabel,
             mv: mv,
             videoTheme: boardTheme,
             videoPieceStyle: pieceStyle,
@@ -16796,20 +17331,28 @@ async function renderShareBoardDataURL(p) {
                 ctx.fillStyle = 'rgba(246,224,122,0.55)';
                 ctx.fillRect(x, y, SQ, SQ);
             }
+            const anim = p.videoAnim;
+            if (anim && anim.check && anim.king && anim.king.row === mr && anim.king.col === mc) {
+                drawShareVideoKingHalo(ctx, x, y, SQ, anim.check === 'mate', anim.haloOpacity);
+            }
             const piece = board[mr][mc];
             const code = piece && FEN_TO_CODE[piece];
             if (code && pieceImages[code]) {
                 const ps = SQ * 0.85, po = (SQ - ps) / 2;
+                const shakeX = (anim && anim.king && anim.king.row === mr && anim.king.col === mc)
+                    ? (anim.shakeX || 0) * SQ
+                    : 0;
+                ctx.save();
+                if (shakeX) ctx.translate(shakeX, 0);
                 if (p.video3D) {
-                    ctx.save();
                     ctx.shadowColor = 'rgba(0,0,0,0.58)';
                     ctx.shadowBlur = SQ * 0.10;
                     ctx.shadowOffsetY = SQ * 0.09;
                     ctx.drawImage(pieceImages[code], x + po, y + po - SQ * 0.025, ps, ps);
-                    ctx.restore();
                 } else {
                     ctx.drawImage(pieceImages[code], x + po, y + po, ps, ps);
                 }
+                ctx.restore();
             }
             if (p.showSquareCoordinates) {
                 const files = 'abcdefgh';
@@ -16899,6 +17442,10 @@ async function renderShareBoardDataURL(p) {
         ctx.restore();
     }
 
+    if (p.videoAnim) {
+        drawShareVideoCaptureOverlay(ctx, p, pieceImages, BX, BY, SQ, flip);
+    }
+
     // Coordenadas fuera del tablero
     const cfs = Math.round(SQ * 0.22);
     const filesCoord = flip ? ['h','g','f','e','d','c','b','a'] : ['a','b','c','d','e','f','g','h'];
@@ -16929,7 +17476,7 @@ async function renderShareBoardDataURL(p) {
         ctx.fillStyle = '#7fb069'; ctx.font = 'bold 38px Arial, sans-serif';
         ctx.fillText('\u265E AjedrezIA', ax, vTextY);
         ctx.fillStyle = '#c9c2ba'; ctx.font = '26px Arial, sans-serif';
-        ctx.fillText(p.kind ? shareKindLabel(p.kind) : t('share.kind.chess'), ax, layoutTop ? (vTextY + 42) : 148);
+        ctx.fillText(p.kindLabel || (p.kind ? shareKindLabel(p.kind) : t('share.kind.chess')), ax, layoutTop ? (vTextY + 42) : 148);
 
         const wrap = (text, font, maxW, maxLines) => {
             ctx.font = font;
@@ -16980,8 +17527,24 @@ async function renderShareBoardDataURL(p) {
                 ty += 40;
             }
         }
-        ctx.fillStyle = '#8a827a'; ctx.font = '24px Arial, sans-serif';
-        ctx.fillText('ajedrezia.com', ax, H - 36);
+        const footerLink = (p.link && String(p.link).trim()) || 'ajedrezia.com';
+        if (p.link) {
+            ty += 18;
+            const qAt = footerLink.indexOf('?');
+            const linkLines = qAt > 0
+                ? [footerLink.slice(0, qAt), footerLink.slice(qAt)]
+                : [footerLink];
+            const linkFont = 'bold 26px Arial, sans-serif';
+            ctx.fillStyle = '#9dcc85';
+            ctx.font = linkFont;
+            for (const ln of linkLines) {
+                ctx.fillText(ln, ax, ty);
+                ty += 34;
+            }
+        }
+        ctx.fillStyle = '#8a827a';
+        ctx.font = footerLink.length > 28 ? '18px Arial, sans-serif' : '22px Arial, sans-serif';
+        ctx.fillText(footerLink, ax, H - 36);
         ctx.textAlign = 'left';
     }
 
@@ -17199,6 +17762,189 @@ function applyUciToShareGame(chess, uci) {
     return true;
 }
 
+function sharePieceToFenChar(piece) {
+    if (!piece || !piece.type) return '';
+    const map = { king: 'k', queen: 'q', rook: 'r', bishop: 'b', knight: 'n', pawn: 'p' };
+    const ch = map[piece.type];
+    if (!ch) return '';
+    return piece.color === 'white' ? ch.toUpperCase() : ch;
+}
+
+function inspectShareUciCapture(chess, uci) {
+    if (!chess || !uci || uci.length < 4) return null;
+    const fromCol = uci.charCodeAt(0) - 97;
+    const fromRow = 8 - parseInt(uci[1], 10);
+    const toCol = uci.charCodeAt(2) - 97;
+    const toRow = 8 - parseInt(uci[3], 10);
+    if (fromRow < 0 || fromRow > 7 || toRow < 0 || toRow > 7 || toCol < 0 || toCol > 7) return null;
+    const mover = chess.getPiece(fromRow, fromCol);
+    if (!mover) return null;
+    const dest = chess.getPiece(toRow, toCol);
+    if (dest) {
+        const fenChar = sharePieceToFenChar(dest);
+        return fenChar ? { row: toRow, col: toCol, fenChar } : null;
+    }
+    if (mover.type === 'pawn' && fromCol !== toCol && !dest) {
+        const ep = chess.getPiece(fromRow, toCol);
+        const fenChar = sharePieceToFenChar(ep);
+        return fenChar ? { row: fromRow, col: toCol, fenChar } : null;
+    }
+    return null;
+}
+
+function shareGameCheckInfo(chess) {
+    if (!chess || typeof chess.isInCheck !== 'function') {
+        return { check: null, king: null };
+    }
+    const color = chess.currentTurn;
+    let king = null;
+    for (let row = 0; row < 8; row++) {
+        for (let col = 0; col < 8; col++) {
+            const piece = chess.getPiece(row, col);
+            if (piece && piece.type === 'king' && piece.color === color) {
+                king = { row, col };
+                break;
+            }
+        }
+        if (king) break;
+    }
+    if (typeof chess.isCheckmate === 'function' && chess.isCheckmate()) {
+        return { check: 'mate', king };
+    }
+    if (chess.isInCheck(color)) return { check: 'check', king };
+    return { check: null, king };
+}
+
+const SHARE_VIDEO_CAPTURE_MS = 950;
+const SHARE_VIDEO_MATE_SHAKE_MS = 680;
+const SHARE_VIDEO_MATE_HALO_MS = 1050;
+
+function prefersShareVideoReduceMotion() {
+    return typeof matchMedia === 'function'
+        && matchMedia('(prefers-reduced-motion: reduce)').matches;
+}
+
+function shareVideoCubicBezier(x1, y1, x2, y2, t) {
+    let x = t;
+    for (let i = 0; i < 6; i++) {
+        const cx = 3 * x1;
+        const bx = 3 * (x2 - x1) - cx;
+        const ax = 1 - cx - bx;
+        const current = ((ax * x + bx) * x + cx) * x;
+        const dx = (3 * ax * x + 2 * bx) * x + cx;
+        if (Math.abs(dx) < 1e-6) break;
+        x -= (current - t) / dx;
+        if (x < 0) x = 0;
+        else if (x > 1) x = 1;
+    }
+    const cy = 3 * y1;
+    const by = 3 * (y2 - y1) - cy;
+    const ay = 1 - cy - by;
+    return ((ay * x + by) * x + cy) * x;
+}
+
+function shareVideoShakeX(t) {
+    const keys = [
+        [0, 0], [0.10, -0.09], [0.22, 0.08], [0.34, -0.07],
+        [0.46, 0.05], [0.58, -0.03], [0.72, 0.02], [1, 0]
+    ];
+    if (t <= 0 || t >= 1) return 0;
+    for (let i = 1; i < keys.length; i++) {
+        if (t <= keys[i][0]) {
+            const [t0, v0] = keys[i - 1];
+            const [t1, v1] = keys[i];
+            return v0 + (v1 - v0) * ((t - t0) / (t1 - t0));
+        }
+    }
+    return 0;
+}
+
+function shareVideoMateHaloOpacity(t) {
+    if (t <= 0) return 0.35;
+    if (t >= 1) return 1;
+    if (t < 0.35) return 0.35 + 0.65 * (t / 0.35);
+    return 1;
+}
+
+function shareVideoAnimDurationMs(frame, reduceMotion) {
+    if (!frame || reduceMotion) return 0;
+    let ms = 0;
+    if (frame.capture) ms = Math.max(ms, SHARE_VIDEO_CAPTURE_MS);
+    if (frame.check === 'mate') ms = Math.max(ms, SHARE_VIDEO_MATE_SHAKE_MS, SHARE_VIDEO_MATE_HALO_MS);
+    return ms;
+}
+
+function getShareVideoAnim(frame, elapsedMs, reduceMotion) {
+    const anim = {
+        capture: frame && frame.capture ? frame.capture : null,
+        captureT: 1,
+        check: frame && frame.check ? frame.check : null,
+        king: frame && frame.king ? frame.king : null,
+        shakeX: 0,
+        haloOpacity: frame && frame.check ? 1 : 0,
+        reduceMotion: !!reduceMotion
+    };
+    if (!frame || reduceMotion) return anim;
+    if (frame.capture) {
+        anim.captureT = Math.min(1, Math.max(0, elapsedMs / SHARE_VIDEO_CAPTURE_MS));
+    }
+    if (frame.check === 'mate') {
+        anim.shakeX = shareVideoShakeX(Math.min(1, Math.max(0, elapsedMs / SHARE_VIDEO_MATE_SHAKE_MS)));
+        anim.haloOpacity = shareVideoMateHaloOpacity(Math.min(1, Math.max(0, elapsedMs / SHARE_VIDEO_MATE_HALO_MS)));
+    }
+    return anim;
+}
+
+function drawShareVideoKingHalo(ctx, x, y, sq, isMate, opacity) {
+    const a = Math.max(0, Math.min(1, opacity == null ? 1 : opacity));
+    if (a <= 0) return;
+    const cx = x + sq / 2;
+    const cy = y + sq / 2;
+    const grad = ctx.createRadialGradient(cx, cy, sq * 0.04, cx, cy, sq * (isMate ? 0.78 : 0.74));
+    if (isMate) {
+        grad.addColorStop(0, `rgba(255, 16, 16, ${0.78 * a})`);
+        grad.addColorStop(0.50, `rgba(200, 0, 0, ${0.38 * a})`);
+        grad.addColorStop(1, 'rgba(200, 0, 0, 0)');
+    } else {
+        grad.addColorStop(0, `rgba(235, 20, 20, ${0.62 * a})`);
+        grad.addColorStop(0.46, `rgba(220, 0, 0, ${0.28 * a})`);
+        grad.addColorStop(1, 'rgba(220, 0, 0, 0)');
+    }
+    ctx.fillStyle = grad;
+    ctx.fillRect(x, y, sq, sq);
+}
+
+function drawShareVideoCaptureOverlay(ctx, p, pieceImages, bx, by, sq, flip) {
+    const anim = p && p.videoAnim;
+    if (!anim || !anim.capture || anim.reduceMotion || anim.captureT >= 1) return;
+    const FEN_TO_CODE = { K: 'wK', Q: 'wQ', R: 'wR', B: 'wB', N: 'wN', P: 'wP', k: 'bK', q: 'bQ', r: 'bR', b: 'bB', n: 'bN', p: 'bP' };
+    const code = FEN_TO_CODE[anim.capture.fenChar];
+    const img = code && pieceImages[code];
+    if (!img) return;
+    const t = Math.max(0, Math.min(1, anim.captureT));
+    const ease = shareVideoCubicBezier(0.22, 0.8, 0.3, 1.4, t);
+    const opacity = (1 - t) * (1 - t);
+    const scale = 1 + 1.2 * ease;
+    const rot = (12 * Math.PI / 180) * ease;
+    const displayRow = flip ? 7 - anim.capture.row : anim.capture.row;
+    const displayCol = flip ? 7 - anim.capture.col : anim.capture.col;
+    const cx = bx + (displayCol + 0.5) * sq;
+    const cy = by + (displayRow + 0.5) * sq;
+    const ps = sq * 0.85;
+    ctx.save();
+    ctx.translate(cx, cy);
+    ctx.rotate(rot);
+    ctx.scale(scale, scale);
+    ctx.globalAlpha = opacity;
+    if (p.video3D) {
+        ctx.shadowColor = 'rgba(0,0,0,0.45)';
+        ctx.shadowBlur = sq * 0.10;
+        ctx.shadowOffsetY = sq * 0.09;
+    }
+    ctx.drawImage(img, -ps / 2, -ps / 2, ps, ps);
+    ctx.restore();
+}
+
 function buildShareVideoSequence(info) {
     const base = info && info.previewParams ? { ...info.previewParams } : null;
     if (!base) return [];
@@ -17243,15 +17989,34 @@ function buildShareVideoSequence(info) {
     if (!initialFen) initialFen = base.fen;
     const chess = new ChessGame();
     chess.loadFromFEN(initialFen);
-    const frames = [{ ...base, fen: chess.toFEN(), mv: '', videoLabel: t('share.videoStart') }];
+    const startCheck = shareGameCheckInfo(chess);
+    const frames = [{
+        ...base,
+        fen: chess.toFEN(),
+        mv: '',
+        videoLabel: t('share.videoStart'),
+        capture: null,
+        check: startCheck.check,
+        king: startCheck.king
+    }];
 
     moves.forEach((uci, index) => {
+        const capture = inspectShareUciCapture(chess, uci);
         if (!applyUciToShareGame(chess, uci)) return;
         const fullMove = Math.floor(index / 2) + 1;
         const moveLabel = shareContext === 'problema'
             ? t('share.videoMoveN', { label: labelPrefix, n: index + 1, total: moves.length })
             : `${labelPrefix} ${fullMove}${index % 2 ? '…' : '.'}`;
-        frames.push({ ...base, fen: chess.toFEN(), mv: uci, videoLabel: moveLabel });
+        const checkInfo = shareGameCheckInfo(chess);
+        frames.push({
+            ...base,
+            fen: chess.toFEN(),
+            mv: uci,
+            videoLabel: moveLabel,
+            capture,
+            check: checkInfo.check,
+            king: checkInfo.king
+        });
     });
 
     if (frames.length === 1 && base.fen) frames[0].fen = base.fen;
@@ -17302,7 +18067,9 @@ function getShareVideoMoveDurationMs(moveCount) {
     return moveCount > 40 ? 900 : (moveCount > 15 ? 1300 : 1800);
 }
 
-function getShareVideoBoardRenderOptions(frame, session) {
+function getShareVideoBoardRenderOptions(frame, session, elapsedMs) {
+    const reduceMotion = !!(session && session.reduceMotion);
+    const elapsed = elapsedMs == null ? SHARE_VIDEO_MATE_HALO_MS : elapsedMs;
     return {
         ...frame,
         videoBoardOnly: true,
@@ -17312,6 +18079,7 @@ function getShareVideoBoardRenderOptions(frame, session) {
         video3D: session.board3D,
         showSquareCoordinates: session.coordinates,
         arrowColor: shareContext === 'problema' ? 'blue' : 'yellow',
+        videoAnim: getShareVideoAnim(frame, elapsed, reduceMotion),
         asCanvas: true
     };
 }
@@ -17386,6 +18154,7 @@ function prepareShareVideoSession() {
         pieceStyle,
         board3D: !!board3D,
         coordinates: !!showCoordinates,
+        reduceMotion: prefersShareVideoReduceMotion(),
         frameDuration: getShareVideoMoveDurationMs(frames.length),
         totalFrames: frames.length + 1
     };
@@ -17411,6 +18180,47 @@ async function encodeShareVideoCanvasHold(encoder, canvas, durationMs, clock, ab
             await new Promise(resolve => requestAnimationFrame(resolve));
         }
     }
+}
+
+async function encodeShareVideoAnimatedHold(encoder, destCanvas, destCtx, frame, session, durationMs, clock, abortIfCancelled, getEncodeError) {
+    const frameDurationUs = Math.round(1_000_000 / SHARE_VIDEO_FPS);
+    const total = Math.max(1, Math.round(durationMs * SHARE_VIDEO_FPS / 1000));
+    const animMs = shareVideoAnimDurationMs(frame, session.reduceMotion);
+    const animCount = animMs > 0 ? Math.min(total, Math.round(animMs * SHARE_VIDEO_FPS / 1000)) : 0;
+    for (let i = 0; i < animCount; i++) {
+        await abortIfCancelled();
+        const encodeError = getEncodeError();
+        if (encodeError) throw encodeError;
+        const elapsed = (i + 0.5) * (1000 / SHARE_VIDEO_FPS);
+        const boardCanvas = await renderShareBoardDataURL(
+            getShareVideoBoardRenderOptions(frame, session, elapsed)
+        );
+        if (!boardCanvas) continue;
+        destCtx.clearRect(0, 0, destCanvas.width, destCanvas.height);
+        destCtx.drawImage(boardCanvas, 0, 0, destCanvas.width, destCanvas.height);
+        await waitShareVideoEncoderQueue(encoder, 12);
+        await abortIfCancelled();
+        const videoFrame = new VideoFrame(destCanvas, {
+            timestamp: clock.timestampUs,
+            duration: frameDurationUs
+        });
+        encoder.encode(videoFrame, { keyFrame: i === 0 });
+        videoFrame.close();
+        clock.timestampUs += frameDurationUs;
+        if (i % 3 === 0) {
+            await new Promise(resolve => requestAnimationFrame(resolve));
+        }
+    }
+    const remaining = total - animCount;
+    if (remaining <= 0) return;
+    const settled = await renderShareBoardDataURL(
+        getShareVideoBoardRenderOptions(frame, session, Math.max(animMs, SHARE_VIDEO_MATE_HALO_MS))
+    );
+    if (!settled) return;
+    destCtx.clearRect(0, 0, destCanvas.width, destCanvas.height);
+    destCtx.drawImage(settled, 0, 0, destCanvas.width, destCanvas.height);
+    const remainingMs = remaining * (1000 / SHARE_VIDEO_FPS);
+    await encodeShareVideoCanvasHold(encoder, destCanvas, remainingMs, clock, abortIfCancelled, getEncodeError);
 }
 
 async function generateShareVideoFast(session, generation) {
@@ -17462,25 +18272,26 @@ async function generateShareVideoFast(session, generation) {
 
         for (let index = 0; index < session.frames.length; index++) {
             await abortIfCancelled();
-            const boardCanvas = await renderShareBoardDataURL(
-                getShareVideoBoardRenderOptions(session.frames[index], session)
-            );
-            if (!boardCanvas) continue;
-            context.clearRect(0, 0, canvas.width, canvas.height);
-            context.drawImage(boardCanvas, 0, 0, canvas.width, canvas.height);
+            const frame = session.frames[index];
             updateShareVideoStatus(
                 t('share.generatingVideo', { n: index + 2, total: session.totalFrames }),
                 ((index + 2) / session.totalFrames) * 100
             );
             const isFinalFrame = index === session.frames.length - 1;
             if (shareContext === 'problema' && index === 0) {
+                const boardCanvas = await renderShareBoardDataURL(
+                    getShareVideoBoardRenderOptions(frame, session)
+                );
+                if (!boardCanvas) continue;
                 for (let n = 5; n >= 1; n--) {
                     await abortIfCancelled();
+                    context.clearRect(0, 0, canvas.width, canvas.height);
                     context.drawImage(boardCanvas, 0, 0, canvas.width, canvas.height);
                     drawShareVideoCountdownOverlay(context, canvas.width, n);
                     await encodeShareVideoCanvasHold(encoder, canvas, 1000, clock, abortIfCancelled, getEncodeError);
                 }
                 if (isFinalFrame) {
+                    context.clearRect(0, 0, canvas.width, canvas.height);
                     context.drawImage(boardCanvas, 0, 0, canvas.width, canvas.height);
                     await encodeShareVideoCanvasHold(encoder, canvas, 5000, clock, abortIfCancelled, getEncodeError);
                 }
@@ -17491,7 +18302,10 @@ async function generateShareVideoFast(session, generation) {
                 : index === 0
                     ? 2000
                     : session.frameDuration;
-            await encodeShareVideoCanvasHold(encoder, canvas, currentFrameDuration, clock, abortIfCancelled, getEncodeError);
+            await encodeShareVideoAnimatedHold(
+                encoder, canvas, context, frame, session,
+                currentFrameDuration, clock, abortIfCancelled, getEncodeError
+            );
         }
 
         await abortIfCancelled();
@@ -17561,6 +18375,37 @@ async function generateShareVideoRealtime(session, generation) {
         }
     };
 
+    const holdRecordedAnimatedFrame = async (frame, duration) => {
+        const start = performance.now();
+        const deadline = start + duration;
+        const animMs = shareVideoAnimDurationMs(frame, session.reduceMotion);
+        let settled = null;
+        while (performance.now() < deadline) {
+            await abortIfCancelled();
+            const elapsed = performance.now() - start;
+            let image;
+            if (elapsed < animMs) {
+                image = await renderShareBoardDataURL(
+                    getShareVideoBoardRenderOptions(frame, session, elapsed)
+                );
+            } else {
+                if (!settled) {
+                    settled = await renderShareBoardDataURL(
+                        getShareVideoBoardRenderOptions(frame, session, Math.max(animMs, SHARE_VIDEO_MATE_HALO_MS))
+                    );
+                }
+                image = settled;
+            }
+            if (!image) break;
+            context.clearRect(0, 0, canvas.width, canvas.height);
+            context.drawImage(image, 0, 0, canvas.width, canvas.height);
+            if (videoTrack && typeof videoTrack.requestFrame === 'function') {
+                videoTrack.requestFrame();
+            }
+            await new Promise(resolve => requestAnimationFrame(resolve));
+        }
+    };
+
     const holdRecordedFrameWithCountdown = async (image, seconds) => {
         for (let n = seconds; n >= 1; n--) {
             await abortIfCancelled();
@@ -17590,25 +18435,23 @@ async function generateShareVideoRealtime(session, generation) {
 
     for (let index = 0; index < session.frames.length; index++) {
         await abortIfCancelled();
-        const boardCanvas = await renderShareBoardDataURL(
-            getShareVideoBoardRenderOptions(session.frames[index], session)
-        );
-        if (!boardCanvas) continue;
-        context.clearRect(0, 0, canvas.width, canvas.height);
-        context.drawImage(boardCanvas, 0, 0, canvas.width, canvas.height);
-        // Asegura que MediaRecorder reciba cada cambio del canvas. Algunos
-        // navegadores no emiten cuadros nuevos mientras el dibujo se hace
-        // desde tareas asíncronas, aunque captureStream tenga una tasa fija.
-        await new Promise(resolve => requestAnimationFrame(resolve));
-        if (videoTrack && typeof videoTrack.requestFrame === 'function') {
-            videoTrack.requestFrame();
-        }
+        const frame = session.frames[index];
         updateShareVideoStatus(
             t('share.generatingVideo', { n: index + 2, total: session.totalFrames }),
             ((index + 2) / session.totalFrames) * 100
         );
         const isFinalFrame = index === session.frames.length - 1;
         if (shareContext === 'problema' && index === 0) {
+            const boardCanvas = await renderShareBoardDataURL(
+                getShareVideoBoardRenderOptions(frame, session)
+            );
+            if (!boardCanvas) continue;
+            context.clearRect(0, 0, canvas.width, canvas.height);
+            context.drawImage(boardCanvas, 0, 0, canvas.width, canvas.height);
+            await new Promise(resolve => requestAnimationFrame(resolve));
+            if (videoTrack && typeof videoTrack.requestFrame === 'function') {
+                videoTrack.requestFrame();
+            }
             await holdRecordedFrameWithCountdown(boardCanvas, 5);
             if (isFinalFrame) await holdRecordedFrame(boardCanvas, 5000);
             continue;
@@ -17618,7 +18461,7 @@ async function generateShareVideoRealtime(session, generation) {
             : index === 0
                 ? 2000
                 : session.frameDuration;
-        await holdRecordedFrame(boardCanvas, currentFrameDuration);
+        await holdRecordedAnimatedFrame(frame, currentFrameDuration);
     }
 
     recorder.stop();
@@ -17913,12 +18756,14 @@ function getShareInfo() {
     if (shareContext === 'apertura') {
         const openingKey = getSelectedOpeningKey();
         if (openingKey) {
+            const isTrap = isOpeningTrapKey(openingKey);
             const nameDetail = getShareOpeningNameDetail();
-            const cardT = nameDetail || t('share.kind.apertura');
-            const cardS = t('share.learnStep');
+            const cardT = nameDetail || (isTrap ? t('share.kind.trampa') : t('share.kind.apertura'));
+            const cardS = isTrap ? t('share.learnTrap') : t('share.learnStep');
             const url = `${BASE_PATH}?opening=${encodeURIComponent(openingKey)}`;
-            const { shareUrl, previewImage, previewParams } = buildSharePreview('apertura', cardT, cardS, null, { key: 'opening', val: openingKey });
-            return { url, shareUrl, label: shareCompartirLabel('apertura'), shareKind: 'apertura', shareDetail: nameDetail, previewImage, previewParams };
+            const shareKind = isTrap ? 'trampa' : 'apertura';
+            const { shareUrl, previewImage, previewParams } = buildSharePreview(shareKind, cardT, cardS, null, { key: 'opening', val: openingKey });
+            return { url, shareUrl, label: shareCompartirLabel('apertura'), shareKind, shareDetail: nameDetail, previewImage, previewParams };
         }
         const { shareUrl, previewImage, previewParams } = buildSharePreview('apertura', t('share.kind.apertura'), t('share.learnOpenings'));
         return { url: BASE_PATH, shareUrl, label: shareCompartirLabel('apertura'), shareKind: 'apertura', shareDetail: null, previewImage, previewParams };
@@ -19427,12 +20272,33 @@ function showCaptureAnimation(capRow, capCol, capturedPiece) {
     setTimeout(() => { if (container.parentNode) container.remove(); }, 1150);
 }
 
+function kingCheckHighlightState() {
+    if (!game || typeof game.isCheckmate !== 'function' || typeof game.isInCheck !== 'function') {
+        return null;
+    }
+    if (game.isCheckmate()) return 'mate';
+    if (game.isInCheck(game.currentTurn)) return 'check';
+    return null;
+}
+
+function applyKingCheckHighlight(square, pieceEl, piece, state) {
+    if (!state || !piece || piece.type !== 'king' || piece.color !== game.currentTurn) return;
+    square.classList.add(state === 'mate' ? 'checkmate' : 'in-check');
+    if (state !== 'mate') return;
+    pieceEl.classList.add('checkmate-king');
+    if (kingMateShakePlayed) return;
+    pieceEl.classList.add('checkmate-king-shake');
+    kingMateShakePlayed = true;
+}
+
 function renderBoard() {
     const boardElement = document.getElementById('chess-board');
     boardElement.innerHTML = '';
     
     // Aplicar clase de estilo de piezas al tablero
     boardElement.className = 'chess-board board-theme-' + boardTheme + ' piece-style-' + pieceStyle;
+    const kingCheckState = kingCheckHighlightState();
+    if (kingCheckState !== 'mate') kingMateShakePlayed = false;
     
     const isFlipped = (playerColor === 'black') !== manualBoardFlipped;
     const files = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
@@ -19546,6 +20412,7 @@ function renderBoard() {
                     pieceImg.alt = piece.piece;
                     if (rotateForBothMode) pieceImg.classList.add('piece-rotate-180');
                     square.appendChild(pieceImg);
+                    applyKingCheckHighlight(square, pieceImg, piece, kingCheckState);
                 } else {
                     // Usar emoji/texto
                 const pieceElement = document.createElement('span');
@@ -19555,6 +20422,7 @@ function renderBoard() {
                     if (rotateForBothMode) pieceElement.classList.add('piece-rotate-180');
                 pieceElement.textContent = piece.piece;
                 square.appendChild(pieceElement);
+                    applyKingCheckHighlight(square, pieceElement, piece, kingCheckState);
                 }
             }
 

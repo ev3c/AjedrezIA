@@ -36,6 +36,7 @@ $s    = isset($_GET['s']) ? mb_substr(trim((string)$_GET['s']), 0, 120) : '';
 $meta = isset($_GET['meta']) ? mb_substr(trim((string)$_GET['meta']), 0, 420) : '';
 $mv   = isset($_GET['mv']) ? substr(preg_replace('/[^a-h1-8]/', '', strtolower($_GET['mv'])), 0, 4) : '';
 $kl   = isset($_GET['kl']) ? mb_substr(trim((string)$_GET['kl']), 0, 80) : '';
+$u    = isset($_GET['u']) ? preg_replace('/[^A-Za-z0-9_\-\.\/\?=]/', '', mb_substr(trim((string)$_GET['u']), 0, 80)) : '';
 $lay  = (isset($_GET['lay']) && $_GET['lay'] === 'left') ? 'left' : 'top';
 
 $placement = explode(' ', trim($fen))[0];
@@ -62,6 +63,7 @@ $KIND_LABELS = [
     'en' => [
         'partida'  => 'Game',
         'apertura' => 'Opening',
+        'trampa'   => 'Opening trap',
         'problema' => 'Chess puzzle and 30 more',
         'maestra'  => 'Master game',
         'chess'    => 'Chess',
@@ -69,6 +71,7 @@ $KIND_LABELS = [
     'ca' => [
         'partida'  => 'Partida',
         'apertura' => 'Obertura',
+        'trampa'   => 'Trampa d\'obertura',
         'problema' => 'Problema d\'escacs i 30 més',
         'maestra'  => 'Partida mestra',
         'chess'    => 'Escacs',
@@ -76,6 +79,7 @@ $KIND_LABELS = [
     'es' => [
         'partida'  => 'Partida',
         'apertura' => 'Apertura',
+        'trampa'   => 'Trampa de apertura',
         'problema' => 'Problema de ajedrez y 30 más',
         'maestra'  => 'Partida maestra',
         'chess'    => 'Ajedrez',
@@ -397,7 +401,19 @@ if ($meta !== '') {
     }
 }
 
-drawText($im, 22, $tx, $H - 40, $grey3, false, 'ajedrezia.com');
+$footerLink = ($u !== '') ? $u : 'ajedrezia.com';
+if ($u !== '') {
+    $ty += 18;
+    $linkGreen = imagecolorallocate($im, 0x9d, 0xcc, 0x85);
+    $qAt = strpos($u, '?');
+    $linkLines = ($qAt !== false) ? [substr($u, 0, $qAt), substr($u, $qAt)] : [$u];
+    foreach ($linkLines as $ln) {
+        drawText($im, 22, $tx, $ty, $linkGreen, true, $ln);
+        $ty += 34;
+    }
+}
+
+drawText($im, 20, $tx, $H - 40, $grey3, false, $footerLink);
 
 // ---- Salida ---------------------------------------------------------------
 header('Content-Type: image/png');

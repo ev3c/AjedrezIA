@@ -34,6 +34,7 @@ $meta  = mb_substr(trim(gp('meta')), 0, 420);
 $mv    = substr(preg_replace('/[^a-h1-8]/', '', strtolower(gp('mv'))), 0, 4);
 $cb    = substr(preg_replace('/[^A-Za-z0-9_\-]/', '', gp('cb')), 0, 40);
 $kl    = mb_substr(trim(gp('kl')), 0, 80);
+$u     = preg_replace('/[^A-Za-z0-9_\-\.\/\?=]/', '', mb_substr(trim(gp('u')), 0, 80));
 $card  = preg_replace('/[^a-f0-9]/', '', strtolower(gp('card')));
 $lay   = gp('lay') === 'left' ? 'left' : 'top';
 
@@ -66,6 +67,7 @@ $KIND_LABELS = [
     'en' => [
         'partida'  => 'Game',
         'apertura' => 'Opening',
+        'trampa'   => 'Opening trap',
         'problema' => 'Chess puzzle and 30 more',
         'maestra'  => 'Master game',
         'chess'    => 'Chess',
@@ -76,6 +78,7 @@ $KIND_LABELS = [
     'ca' => [
         'partida'  => 'Partida',
         'apertura' => 'Obertura',
+        'trampa'   => 'Trampa d\'obertura',
         'problema' => 'Problema d\'escacs i 30 més',
         'maestra'  => 'Partida mestra',
         'chess'    => 'Escacs',
@@ -86,6 +89,7 @@ $KIND_LABELS = [
     'es' => [
         'partida'  => 'Partida',
         'apertura' => 'Apertura',
+        'trampa'   => 'Trampa de apertura',
         'problema' => 'Problema de ajedrez y 30 más',
         'maestra'  => 'Partida maestra',
         'chess'    => 'Ajedrez',
@@ -232,7 +236,7 @@ function buildShareQuery($params) {
 
 $genericParams = [
     'fen' => $fen, 'flip' => $flip, 'kind' => $kind, 't' => $t, 's' => $s, 'meta' => $meta, 'mv' => $mv, 'cb' => $cb,
-    'lang' => $shareLang, 'kl' => $kl, 'card' => $card, 'lay' => $lay,
+    'lang' => $shareLang, 'kl' => $kl, 'u' => $u, 'card' => $card, 'lay' => $lay,
     'm' => $packedMoves, 'moves' => $moves, 'opening' => $opening, 'puzzle' => $puzzle, 'p' => $ppay, 'master' => $master,
 ];
 
@@ -244,7 +248,7 @@ if ($fen !== '' || $t !== '' || $packedMoves !== '' || $moves !== '') {
 
     $imgParams = [
         'fen' => $fen, 'flip' => $flip, 'kind' => $kind, 't' => $t, 's' => $s, 'meta' => $meta, 'mv' => $mv, 'cb' => $cb,
-        'lang' => $shareLang, 'kl' => $kl, 'lay' => $lay,
+        'lang' => $shareLang, 'kl' => $kl, 'u' => $u, 'lay' => $lay,
     ];
     $image    = $base . 'board-image.php' . buildShareQuery($imgParams);
     if (strlen($card) === 24 && is_file(__DIR__ . '/share-cache/' . $card . '.png')) {

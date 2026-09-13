@@ -194,18 +194,77 @@ try {
                         <label class="famous-section-label" data-i18n="opening.selectTraps">Trampas de apertura:</label>
                         <select id="trap-select" class="select">
                             <option value="" data-i18n="opening.trapNone">— Elige una trampa —</option>
-                            <option value="trampa-legal" data-i18n="opening.trapLegal">Mate de Legal (blancas)</option>
-                            <option value="trampa-elefante" data-i18n="opening.trapElephant">Trampa del elefante (negras)</option>
-                            <option value="trampa-arca-noe" data-i18n="opening.trapNoah">Arca de Noé (negras)</option>
-                            <option value="trampa-lasker" data-i18n="opening.trapLasker">Trampa de Lasker (negras)</option>
-                            <option value="trampa-budapest" data-i18n="opening.trapBudapest">Budapest Kieninger (negras)</option>
-                            <option value="trampa-caro" data-i18n="opening.trapCaro">Caro-Kann Nd6# (blancas)</option>
-                            <option value="trampa-fegatello" data-i18n="opening.trapFried">Fegatello / Fried Liver (blancas)</option>
-                            <option value="trampa-blackburne" data-i18n="opening.trapBlackburne">Blackburne Shilling (negras)</option>
-                            <option value="trampa-fishing" data-i18n="opening.trapFishing">Caña de pescar (negras)</option>
-                            <option value="trampa-pastor" data-i18n="opening.trapScholar">Mate del pastor (blancas)</option>
-                            <option value="trampa-damiano" data-i18n="opening.trapDamiano">Trampa de Damiano (blancas)</option>
-                            <option value="trampa-englund" data-i18n="opening.trapEnglund">Gambito Englund (negras)</option>
+                            <optgroup data-i18n="opening.trapCatMate" label="Jaque mate">
+                                <option value="trampa-legal" data-i18n="opening.trapLegal">Mate de Legal (blancas)</option>
+                                <option value="trampa-blackburne" data-i18n="opening.trapBlackburne">Blackburne Shilling (negras)</option>
+                                <option value="trampa-pastor" data-i18n="opening.trapScholar">Mate del pastor (blancas)</option>
+                                <option value="trampa-caro" data-i18n="opening.trapCaro">Caro-Kann Nd6# (blancas)</option>
+                                <option value="trampa-budapest" data-i18n="opening.trapBudapest">Budapest Kieninger (negras)</option>
+                                <option value="trampa-siberiana" data-i18n="opening.trapSiberian">Trampa siberiana (negras)</option>
+                                <option value="trampa-stafford" data-i18n="opening.trapStafford">Gambito Stafford (negras)</option>
+                                <option value="trampa-matovinsky" data-i18n="opening.trapMatovinsky">Matovinsky (blancas)</option>
+                                <option value="trampa-halosar" data-i18n="opening.trapHalosar">Halosar (blancas)</option>
+                                <option value="trampa-opera" data-i18n="opening.trapOpera">Mate de la Ópera (blancas)</option>
+                                <option value="trampa-loco" data-i18n="opening.trapFool">Mate del loco (negras)</option>
+                                <option value="trampa-cadete" data-i18n="opening.trapCadet">Mate del cadete (blancas)</option>
+                                <option value="trampa-winter" data-i18n="opening.trapWinter">Winter Caro-Kann (blancas)</option>
+                                <option value="trampa-napoleon" data-i18n="opening.trapNapoleon">Mate de Napoleón (blancas)</option>
+                                <option value="trampa-wayward" data-i18n="opening.trapWayward">Wayward Queen (blancas)</option>
+                            </optgroup>
+                            <optgroup data-i18n="opening.trapCatQueen" label="Ganar dama">
+                                <option value="trampa-lasker" data-i18n="opening.trapLasker">Trampa de Lasker (negras)</option>
+                                <option value="trampa-magnus-smith" data-i18n="opening.trapMagnusSmith">Magnus Smith (blancas)</option>
+                                <option value="trampa-from" data-i18n="opening.trapFrom">Gambito From (negras)</option>
+                                <option value="trampa-marshall" data-i18n="opening.trapMarshall">Marshall Francesa (blancas)</option>
+                            </optgroup>
+                            <optgroup data-i18n="opening.trapCatPiece" label="Ganar pieza">
+                                <option value="trampa-elefante" data-i18n="opening.trapElephant">Trampa del elefante (negras)</option>
+                                <option value="trampa-monticelli" data-i18n="opening.trapMonticelli">Monticelli (blancas)</option>
+                                <option value="trampa-tarrasch" data-i18n="opening.trapTarrasch">Tarrasch Española (blancas)</option>
+                                <option value="trampa-cambridge" data-i18n="opening.trapCambridge">Cambridge Springs (negras)</option>
+                                <option value="trampa-mortimer" data-i18n="opening.trapMortimer">Mortimer (negras)</option>
+                                <option value="trampa-wurzburger" data-i18n="opening.trapWurzburger">Würzburger (blancas)</option>
+                                <option value="trampa-englund" data-i18n="opening.trapEnglund">Gambito Englund (negras)</option>
+                                <option value="trampa-ponziani" data-i18n="opening.trapPonziani">Ponziani Fraser (blancas)</option>
+                                <option value="trampa-escandinava" data-i18n="opening.trapScandi">Escandinava alfil (blancas)</option>
+                                <option value="trampa-alekhine" data-i18n="opening.trapAlekhine">Alekhine c7 (blancas)</option>
+                                <option value="trampa-inglesa" data-i18n="opening.trapEnglish">Inglesa Nxe5 (blancas)</option>
+                                <option value="trampa-grob" data-i18n="opening.trapGrob">Grob / Spike (blancas)</option>
+                                <option value="trampa-sokolsky" data-i18n="opening.trapSokolsky">Sokolsky 1.b4 (blancas)</option>
+                                <option value="trampa-frankenstein" data-i18n="opening.trapFrankenstein">Frankenstein-Drácula (blancas)</option>
+                                <option value="trampa-staunton" data-i18n="opening.trapStaunton">Staunton Holandesa (blancas)</option>
+                                <option value="trampa-grunfeld" data-i18n="opening.trapGrunfeld">Grünfeld Bg4 (blancas)</option>
+                                <option value="trampa-riga" data-i18n="opening.trapRiga">Riga Española (blancas)</option>
+                                <option value="trampa-gambito-elefante" data-i18n="opening.trapElephGambit">Gambito de elefante (blancas)</option>
+                                <option value="trampa-rousseau" data-i18n="opening.trapRousseau">Rousseau (blancas)</option>
+                                <option value="trampa-portuguesa" data-i18n="opening.trapPortuguese">Portugués Escandinava (blancas)</option>
+                                <option value="trampa-schliemann" data-i18n="opening.trapSchliemann">Schliemann / Jaenisch (blancas)</option>
+                            </optgroup>
+                            <optgroup data-i18n="opening.trapCatTrap" label="Cazar pieza">
+                                <option value="trampa-arca-noe" data-i18n="opening.trapNoah">Arca de Noé (negras)</option>
+                            </optgroup>
+                            <optgroup data-i18n="opening.trapCatAttack" label="Ataque al rey">
+                                <option value="trampa-fegatello" data-i18n="opening.trapFried">Fegatello / Fried Liver (blancas)</option>
+                                <option value="trampa-lolli" data-i18n="opening.trapLolli">Ataque Lolli (blancas)</option>
+                                <option value="trampa-damiano" data-i18n="opening.trapDamiano">Trampa de Damiano (blancas)</option>
+                                <option value="trampa-traxler" data-i18n="opening.trapTraxler">Traxler (negras)</option>
+                                <option value="trampa-fishing" data-i18n="opening.trapFishing">Caña de pescar (negras)</option>
+                                <option value="trampa-halloween" data-i18n="opening.trapHalloween">Gambito Halloween (blancas)</option>
+                                <option value="trampa-danes" data-i18n="opening.trapDanish">Gambito danés (blancas)</option>
+                                <option value="trampa-fajarowicz" data-i18n="opening.trapFajarowicz">Fajarowicz (negras)</option>
+                                <option value="trampa-hillbilly" data-i18n="opening.trapHillbilly">Hillbilly Caro-Kann (blancas)</option>
+                                <option value="trampa-cochrane" data-i18n="opening.trapCochrane">Cochrane Petrov (blancas)</option>
+                                <option value="trampa-greco" data-i18n="opening.trapGreco">Greco Italiana (blancas)</option>
+                                <option value="trampa-muzio" data-i18n="opening.trapMuzio">Muzio Gambito de Rey (blancas)</option>
+                                <option value="trampa-allgaier" data-i18n="opening.trapAllgaier">Allgaier Gambito de Rey (blancas)</option>
+                                <option value="trampa-leton" data-i18n="opening.trapLatvian">Gambito letón (blancas)</option>
+                                <option value="trampa-jerome" data-i18n="opening.trapJerome">Jerome (blancas)</option>
+                                <option value="trampa-maxlange" data-i18n="opening.trapMaxLange">Max Lange (blancas)</option>
+                                <option value="trampa-winawer" data-i18n="opening.trapWinawer">Winawer peón envenenado (blancas)</option>
+                                <option value="trampa-nakhmanson" data-i18n="opening.trapNakhmanson">Nakhmanson (blancas)</option>
+                                <option value="trampa-philidor-cg" data-i18n="opening.trapPhilidorCg">Contragambito Philidor (blancas)</option>
+                                <option value="trampa-monkeys" data-i18n="opening.trapMonkeys">Monkey’s Bum (blancas)</option>
+                            </optgroup>
                         </select>
                     </div>
                     <div id="opening-training-info" class="opening-training-info" style="display:none;">
@@ -956,7 +1015,7 @@ try {
             <p class="login-modal-subtitle help-menu-intro" data-i18n="help.intro">Elige un tema para ver el tutorial en YouTube.</p>
             <div class="help-menu-buttons">
                 <button type="button" id="help-menu-tutorial-completo-btn" class="btn btn-secondary help-menu-item-btn help-menu-tutorial-completo-btn" data-i18n="help.fullTutorial">📚 Tutorial Completo</button>
-                <ul class="help-menu-list" id="help-menu-list"></ul>
+            <ul class="help-menu-list" id="help-menu-list"></ul>
                 <button type="button" id="help-menu-analysis-btn" class="btn btn-secondary help-menu-item-btn help-menu-analysis-btn" data-i18n="help.analysis">📊 Análisis</button>
                 <button type="button" id="help-menu-share-btn" class="btn btn-secondary help-menu-item-btn help-menu-share-btn" data-i18n="help.share">📤 Compartir</button>
             </div>
@@ -1081,7 +1140,7 @@ try {
             <div id="users-list" class="users-list"></div>
 
             <button class="login-btn login-btn-play" id="users-refresh-btn" type="button" style="margin-top:14px;">
-                🔄 <span data-i18n="users.refresh">Actualizar</span>
+                <span data-i18n="users.refresh">🔄 Actualizar</span>
             </button>
         </div>
     </div>
