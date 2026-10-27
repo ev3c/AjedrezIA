@@ -590,9 +590,9 @@ try {
                 </div>
 
                 <div class="panel panel-collapsible collapsed" id="learn-panel">
-                    <h2 class="panel-toggle"><span><span data-i18n="panel.learn">📚 Aprende Ajedrez</span> <span class="under-construction-badge" data-i18n="underConstruction">🚧 En construcción</span></span> <span class="panel-arrow">▲</span></h2>
+                    <h2 class="panel-toggle"><span><span data-i18n="panel.learn">📚 Aprende Ajedrez</span> <span class="under-construction-badge" data-i18n="underConstruction">(beta)</span></span> <span class="panel-arrow">▲</span></h2>
                     <div class="panel-body">
-                        <div class="learn-under-construction" data-i18n="learn.underConstruction">🚧 Sección en construcción: puede haber lecciones incompletas o cambios frecuentes.</div>
+                        <div class="learn-under-construction" data-i18n="learn.underConstruction">Versión beta: puede haber lecciones incompletas o cambios frecuentes.</div>
                         <div class="learn-progress-bar"><div id="learn-progress-fill" class="learn-progress-fill" style="width:0%"></div></div>
                         <div id="learn-lesson-list" class="learn-lesson-list"></div>
                         <div id="learn-active-info" class="learn-active-info" style="display:none;">
@@ -1057,7 +1057,7 @@ try {
             <div id="login-view-out">
                 <div class="login-modal-chess-icon" aria-hidden="true">♔</div>
                 <h2 class="login-modal-title" id="login-modal-title" data-i18n="login.start">Iniciar Sesión</h2>
-                <p class="login-modal-subtitle" data-i18n="login.subtitle">Para usar AjedrezIA debes iniciar sesión con tu usuario, Google o acceder como invitado.</p>
+                <p class="login-modal-subtitle" data-i18n="login.subtitle">Inicia sesión con tu usuario, Google o como invitado para jugar online o invitar por correo.</p>
                 <div class="login-modal-error" id="login-modal-error" style="display:none;"></div>
 
                 <form class="login-nick-form" id="login-nick-form" autocomplete="off">
@@ -1317,6 +1317,7 @@ try {
     <script>
         document.write('<script src="i18n.js?v=' + APP_VERSION + '"><\/script>');
         document.write('<script src="i18n-content.js?v=' + APP_VERSION + '"><\/script>');
+        document.write('<script src="i18n-variants.js?v=' + APP_VERSION + '"><\/script>');
         document.write('<script src="i18n-extra.js?v=' + APP_VERSION + '"><\/script>');
         document.write('<script src="chess-logic.js?v=' + APP_VERSION + '"><\/script>');
         document.write('<script src="vendor/webm-muxer.min.js?v=' + APP_VERSION + '"><\/script>');

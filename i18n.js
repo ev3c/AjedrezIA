@@ -4,7 +4,7 @@
 // Para añadir un idioma nuevo:
 //  1. Añade el código a I18N_LANGS (ej. 'fr').
 //  2. Añade la traducción como siguiente columna en cada fila de I18N_PAIRS
-//     y en i18n-content.js (mismo orden que I18N_LANGS),
+//     y en i18n-content.js / i18n-variants.js (mismo orden que I18N_LANGS),
 //     O registra un diccionario con registerI18nLang('fr', { clave: 'texto' })
 //     en i18n-extra.js (generado por tools/build-i18n-extra.mjs).
 //  3. Añade la opción en el menú Idioma de index.html.
@@ -53,8 +53,8 @@ const I18N_PAIRS = [
     ['panel.config', '⚙️ Configuración', '⚙️ Settings', '⚙️ Configuració'],
     ['panel.actions', '⚡ Acciones', '⚡ Actions', '⚡ Accions'],
     ['panel.stats', '📊 Estadísticas', '📊 Statistics', '📊 Estadístiques'],
-    ['underConstruction', '🚧 En construcción', '🚧 Under construction', '🚧 En construcció'],
-    ['learn.underConstruction', '🚧 Sección en construcción: puede haber lecciones incompletas o cambios frecuentes.', '🚧 Section under construction: some lessons may be incomplete or change often.', '🚧 Secció en construcció: pot haver-hi lliçons incompletes o canvis freqüents.'],
+    ['underConstruction', '(beta)', '(beta)', '(beta)', '(Beta)', '(bêta)', '(beta)', '(beta)', '(测试版)', '(бета)', '(تجريبي)', '(ベータ)', '(बीटा)', '(베타)'],
+    ['learn.underConstruction', 'Versión beta: puede haber lecciones incompletas o cambios frecuentes.', 'Beta version: some lessons may be incomplete or change often.', 'Versió beta: pot haver-hi lliçons incompletes o canvis freqüents.', 'Beta-Version: einige Lektionen können unvollständig sein oder sich oft ändern.', 'Version bêta : certaines leçons peuvent être incomplètes ou changer souvent.', 'Versione beta: alcune lezioni possono essere incomplete o cambiare spesso.', 'Versão beta: algumas lições podem estar incompletas ou mudar com frequência.', '测试版：部分课程可能不完整或经常变动。', 'Бета-версия: некоторые уроки могут быть неполными или часто меняться.', 'إصدار تجريبي: قد تكون بعض الدروس ناقصة أو تتغيّر كثيراً.', 'ベータ版：一部のレッスンは未完成、または頻繁に変わることがあります。', 'बीटा संस्करण: कुछ पाठ अधूरे हो सकते हैं या अक्सर बदल सकते हैं।', '베타: 일부 레슨이 미완성이거나 자주 바뀔 수 있습니다.'],
     ['opening.select', 'Selecciona una apertura:', 'Select an opening:', 'Selecciona una obertura:'],
     ['opening.freeMode', '— Modo libre —', '— Free mode —', '— Mode lliure —'],
     ['opening.groupOpen', '1.e4 e5 — Juego Abierto', '1.e4 e5 — Open Games', '1.e4 e5 — Joc obert'],
@@ -185,6 +185,7 @@ const I18N_PAIRS = [
     ['opening.continueOpening', '📖 Continuar Apertura', '📖 Continue Opening', '📖 Continua l\'obertura'],
     ['opening.variantsHint', 'Selecciona una variante para continuar', 'Select a variation to continue', 'Selecciona una variant per continuar'],
     ['opening.variantsTitle', '📖 Variantes conocidas ({n})', '📖 Known variations ({n})', '📖 Variants conegudes ({n})'],
+    ['opening.unknownVariant', 'Variante desconocida', 'Unknown variation', 'Variant desconeguda'],
     ['opening.variantsExampleAlt', 'Ejemplo de variantes mostradas sobre el tablero', 'Example of variations shown on the board', 'Exemple de variants mostrades sobre el tauler'],
     ['puzzle.millions', '~5,5 millones de problemas', '~5.5 million puzzles', '~5,5 milions de problemes'],
     ['puzzle.category', 'Categoría:', 'Category:', 'Categoria:'],
@@ -333,7 +334,7 @@ const I18N_PAIRS = [
     ['accept', 'Aceptar', 'Accept', 'Accepta'],
     ['ok', 'OK', 'OK', 'OK'],
     ['continue', 'Continuar', 'Continue', 'Continua'],
-    ['login.subtitle', 'Para usar AjedrezIA debes iniciar sesión con tu usuario, Google o acceder como invitado.', 'To use AjedrezIA you must sign in with your username, Google, or continue as a guest.', 'Per fer servir AjedrezIA has d\'iniciar sessió amb el teu usuari, Google o accedir com a convidat.'],
+    ['login.subtitle', 'Inicia sesión con tu usuario, Google o como invitado para jugar online o invitar por correo.', 'Sign in with your username, Google, or as a guest to play online or invite by email.', 'Inicia sessió amb el teu usuari, Google o com a convidat per jugar en línia o convidar per correu.', 'Melde dich mit Benutzername, Google oder als Gast an, um online zu spielen oder per E-Mail einzuladen.', 'Connecte-toi avec ton identifiant, Google ou en invité pour jouer en ligne ou inviter par e-mail.', 'Accedi con il tuo utente, Google o come ospite per giocare online o invitare per e-mail.', 'Inicia sessão com o teu utilizador, Google ou como convidado para jogar online ou convidar por e-mail.', '使用用户名、Google 或访客身份登录，以便在线对弈或通过邮件邀请。', 'Войди с ником, через Google или как гость, чтобы играть онлайн или пригласить по почте.', 'سجّل الدخول باسمك أو عبر Google أو كضيف للعب عبر الإنترنت أو الدعوة بالبريد.', 'オンライン対局やメール招待には、ユーザー名、Google、またはゲストでサインインしてください。', 'ऑनलाइन खेलने या ईमेल से आमंत्रित करने के लिए यूज़रनेम, Google या अतिथि से साइन इन करें।', '온라인 대국이나 이메일 초대를 하려면 사용자 이름, Google 또는 게스트로 로그인하세요.'],
     ['login.connecting', 'Conectando…', 'Connecting…', 'Connectant…'],
     ['login.user', 'Usuario:', 'Username:', 'Usuari:'],
     ['login.password', 'Contraseña:', 'Password:', 'Contrasenya:'],
@@ -375,6 +376,7 @@ const I18N_PAIRS = [
     ['feedback.errorPh', 'Describe aquí el error encontrado (opcional)', 'Describe the bug you found (optional)', 'Descriu aquí l\'error trobat (opcional)'],
     ['feedback.improvePh', 'Describe aquí tu sugerencia de mejora (opcional)', 'Describe your suggestion (optional)', 'Descriu aquí el teu suggeriment de millora (opcional)'],
     ['feedback.send', 'Enviar', 'Send', 'Envia'],
+    ['feedback.osLine', 'Sistema operativo: {os}', 'Operating system: {os}', 'Sistema operatiu: {os}', 'Betriebssystem: {os}', 'Système d’exploitation : {os}', 'Sistema operativo: {os}', 'Sistema operativo: {os}', '操作系统：{os}', 'Операционная система: {os}', 'نظام التشغيل: {os}', 'OS: {os}', 'ऑपरेटिंग सिस्टम: {os}', '운영 체제: {os}'],
     ['draw.acceptBtn', 'Aceptar tablas', 'Accept draw', 'Accepta les taules'],
     ['draw.rejectBtn', 'Rechazar', 'Decline', 'Rebutja'],
     ['resign.confirmBtn', 'Abandonar', 'Resign', 'Abandonar'],
@@ -460,6 +462,7 @@ const I18N_PAIRS = [
     ['changelog.3.5.71', 'Al abrir AjedrezIA, el idioma sigue el del navegador (español o inglés) y se recuerda entre sesiones', 'On launch, AjedrezIA follows the browser language (Spanish or English) and remembers it between sessions', 'En obrir AjedrezIA, l\'idioma segueix el del navegador (espanyol o anglès) i es recorda entre sessions'],
     ['changelog.3.5.70', 'Todo el contenido dinámico (mensajes, lecciones, aperturas, problemas y compartir) usa el sistema bilingüe ES/EN', 'All dynamic content (messages, lessons, openings, puzzles and sharing) uses the ES/EN bilingual system', 'Tot el contingut dinàmic (missatges, lliçons, obertures, problemes i compartir) fa servir el sistema bilingüe ES/EN'],
     ['start', 'Comenzar', 'Start', 'Comença'],
+    ['newGame.sendInvite', 'Enviar invitación', 'Send invitation', 'Envia la invitació', 'Einladung senden', 'Envoyer l\'invitation', 'Invia invito', 'Enviar convite', '发送邀请', 'Отправить приглашение', 'إرسال الدعوة', '招待を送る', 'आमंत्रण भेजें', '초대 보내기'],
     ['save', '💾 Guardar', '💾 Save', '💾 Desa'],
     ['nameLabel', 'Nombre:', 'Name:', 'Nom:'],
     ['fileName', 'Nombre del archivo:', 'File name:', 'Nom de l\'arxiu:'],
@@ -813,6 +816,13 @@ const I18N_PAIRS = [
     ['invite.sentTo', 'Invitación enviada a {nick} ({time})', 'Invitation sent to {nick} ({time})', 'Invitació enviada a {nick} ({time})'],
     ['invite.willInvite', 'Vas a invitar a {nick} (ELO {elo})', 'You are inviting {nick} (ELO {elo})', 'Convidaràs {nick} (ELO {elo})'],
     ['changelog.more', '... y más mejoras en AjedrezIA ...', '... and more improvements in AjedrezIA ...', '... i més millores a AjedrezIA ...'],
+    ['changelog.3.6.55', 'El informe a info@ajedrezia.com incluye el sistema operativo', 'Reports to info@ajedrezia.com now include the operating system', 'L’informe a info@ajedrezia.com inclou el sistema operatiu', 'Meldungen an info@ajedrezia.com enthalten das Betriebssystem', 'Le signalement à info@ajedrezia.com inclut le système d’exploitation', 'La segnalazione a info@ajedrezia.com include il sistema operativo', 'O relatório para info@ajedrezia.com inclui o sistema operativo', '发送到 info@ajedrezia.com 的反馈现在包含操作系统', 'Сообщения на info@ajedrezia.com включают операционную систему', 'التقرير إلى info@ajedrezia.com يتضمن نظام التشغيل', 'info@ajedrezia.com への報告に OS が含まれます', 'info@ajedrezia.com पर रिपोर्ट में ऑपरेटिंग सिस्टम शामिल है', 'info@ajedrezia.com 제보에 운영 체제가 포함됩니다'],
+    ['changelog.3.6.54', 'En Aprende Ajedrez el aviso muestra (beta) en lugar de En construcción', 'In Learn Chess the label shows (beta) instead of Under construction', 'A Aprèn escacs l’avís mostra (beta) en lloc d’En construcció', 'Unter Schach lernen steht (Beta) statt Im Aufbau', 'Dans Apprends les échecs, le libellé affiche (bêta) au lieu de En construction', 'In Impara gli scacchi l’etichetta mostra (beta) al posto di In costruzione', 'Em Aprende xadrez o aviso mostra (beta) em vez de Em construção', '在“学习国际象棋”中，标签显示为 (测试版) 而非“正在建设中”', 'В «Учи шахматы» метка показывает (бета) вместо «В разработке»', 'في «تعلّم الشطرنج» يظهر (تجريبي) بدل «قيد الإنشاء»', '「チェスを学ぶ」の表示を「工事中」から (ベータ) に変更', '«शतरंज सीखो» में लेबल «निर्माणाधीन» की जगह (बीटा) दिखाता है', '체스 배우기 표시가 공사 중 대신 (베타)로 바뀝니다'],
+    ['changelog.3.6.53', 'El modal de compartir se puede desplazar si no cabe en la pantalla', 'The share modal can be scrolled if it does not fit on the screen', 'El modal de compartir es pot desplaçar si no cap a la pantalla', 'Das Teilen-Fenster lässt sich scrollen, wenn es nicht auf den Bildschirm passt', 'La fenêtre de partage défile si elle ne tient pas à l’écran', 'La finestra di condivisione si può scorrere se non entra nello schermo', 'O modal de partilha pode ser deslocado se não couber no ecrã', '分享窗口在屏幕放不下时可滚动', 'Окно «Поделиться» прокручивается, если не помещается на экране', 'يمكن تمرير نافذة المشاركة إذا لم تتسع للشاشة', '共有画面が収まらないときはスクロールできます', 'शेयर विंडो स्क्रीन में न समाए तो स्क्रॉल की जा सकती है', '공유 창이 화면에 안 맞으면 스크롤할 수 있습니다'],
+    ['changelog.3.6.52', 'En el móvil, Facebook abre la misma tarjeta clicable que en el PC, en vertical o apaisado', 'On mobile, Facebook opens the same clickable card as on PC, in portrait or landscape', 'Al mòbil, Facebook obre la mateixa targeta clicable que al PC, en vertical o apaïsada', 'Am Handy öffnet Facebook dieselbe klickbare Karte wie am PC, hoch oder quer', 'Sur mobile, Facebook ouvre la même carte cliquable que sur PC, en vertical ou paysage', 'Sul cellulare Facebook apre la stessa scheda cliccabile del PC, in verticale o orizzontale', 'No telemóvel, o Facebook abre o mesmo cartão clicável que no PC, na vertical ou horizontal', '手机上分享到 Facebook 时，与电脑一样显示可点击的竖图或横图', 'На телефоне Facebook открывает ту же кликабельную карточку, что и на ПК, вертикально или горизонтально', 'على الجوال يفتح فيسبوك نفس البطاقة القابلة للنقر كما على الحاسوب، عمودية أو أفقية', 'スマホでもPCと同じく、Facebookでクリックできる縦または横のカードが開きます', 'मोबाइल पर Facebook वही क्लिक करने योग्य कार्ड खोलता है जो PC पर, पोर्ट्रेट या लैंडस्केप', '모바일에서도 PC처럼 Facebook에 클릭 가능한 세로 또는 가로 카드가 열립니다'],
+    ['changelog.3.6.51', 'Los textos nuevos de la interfaz están en todos los idiomas soportados', 'New interface strings are in all supported languages', 'Els textos nous de la interfície són en tots els idiomes compatibles', 'Neue Texte der Oberfläche gibt es in allen unterstützten Sprachen', 'Les nouveaux textes de l’interface sont dans toutes les langues prises en charge', 'I nuovi testi dell’interfaccia sono in tutte le lingue supportate', 'Os textos novos da interface estão em todos os idiomas suportados', '新的界面文案已覆盖所有支持的语言', 'Новые тексты интерфейса есть на всех поддерживаемых языках', 'النصوص الجديدة للواجهة متوفرة بجميع اللغات المدعومة', '新しい画面テキストは対応言語すべてにあります', 'नए इंटरफ़ेस पाठ सभी समर्थित भाषाओं में हैं', '새 인터페이스 문구가 지원되는 모든 언어에 있습니다'],
+    ['changelog.3.6.50', 'En Nueva Partida, con Por correo el botón muestra Enviar invitación', 'In New Game, By email shows the Send invitation button', 'A Nova partida, amb Per correu el botó mostra Envia la invitació', 'In Neue Partie zeigt „Per E-Mail“ die Schaltfläche „Einladung senden“', 'Dans Nouvelle partie, « Par e-mail » affiche le bouton « Envoyer l’invitation »', 'In Nuova partita, « Per e-mail » mostra il pulsante « Invia invito »', 'Em Nova partida, « Por e-mail » mostra o botão « Enviar convite »', '在新对局中，选择“通过邮件”时按钮显示为“发送邀请”', 'В «Новая партия» при выборе «По почте» кнопка показывает «Отправить приглашение»', 'في «مباراة جديدة»، مع «بالبريد» يظهر الزر «إرسال الدعوة»', '新規対局で「メール」を選ぶと、ボタンが「招待を送る」になります', 'नई पार्टी में «ईमेल से» चुनने पर बटन «आमंत्रण भेजें» दिखाता है', '새 대국에서 이메일 대국을 고르면 버튼이 «초대 보내기»로 바뀝니다'],
+    ['changelog.3.6.49', 'El inicio de sesión solo se pide para partida online o invitación por correo; en partida por correo se elige el control de tiempo', 'Sign-in is only asked for an online game or an email invite; correspondence games now include a time control', 'L\'inici de sessió només es demana per a una partida en línia o una invitació per correu; a la partida per correu es pot triar el control de temps', 'Anmeldung nur für eine Online-Partie oder eine E-Mail-Einladung; Fernpartien haben jetzt eine Bedenkzeit', 'La connexion n’est demandée que pour une partie en ligne ou une invitation par e-mail ; les parties par correspondance ont un contrôle du temps', 'L’accesso è chiesto solo per una partita online o un invito via e-mail; le partite per corrispondenza includono il controllo del tempo', 'O início de sessão só é pedido para uma partida online ou um convite por e-mail; nas partidas por correio escolhe-se o controlo de tempo', '仅在线对局或邮件邀请时才要求登录；通信棋现在也可选择时限', 'Вход нужен только для онлайн-партии или приглашения по почте; в партии по переписке можно выбрать контроль времени', 'يُطلب تسجيل الدخول فقط للعب عبر الإنترنت أو الدعوة بالبريد؛ وفي لعب المراسلة يمكن اختيار توقيت المباراة', 'サインインはオンライン対局またはメール招待のときだけ。通信対局でも持ち時間を選べます', 'साइन इन केवल ऑनलाइन खेल या ईमेल आमंत्रण के लिए; पत्राचार खेल में समय नियंत्रण चुना जा सकता है', '로그인은 온라인 대국이나 이메일 초대에만 필요하며, 통신 대국에서도 시간 제한을 고를 수 있습니다'],
     ['changelog.openHint', 'Ver historial de versiones', 'View version history', 'Veure l\'historial de versions'],
     ['changelog.3.6.46', 'Hashtags del texto de compartir actualizados, con más idiomas', 'Share-text hashtags updated, with more languages', 'Hashtags del text per compartir actualitzats, amb més idiomes'],
     ['changelog.3.6.45', 'En Jugadores registrados el botón Actualizar ya no muestra el icono dos veces', 'In Registered players the Refresh button no longer shows the icon twice', 'A Jugadors registrats el botó Actualitza ja no mostra la icona dues vegades'],
@@ -938,6 +948,30 @@ function openingNameOf(key, opening) {
     return t('op.' + key + '.name', null, (opening && opening.name) || key);
 }
 
+function variantDescKey(desc) {
+    return 'var.' + String(desc || '').toLowerCase()
+        .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+        .replace(/:/g, '.')
+        .replace(/[^a-z0-9.]+/g, '-')
+        .replace(/^[-.]+|[-.]+$/g, '');
+}
+
+function openingVariantDescOf(rawName) {
+    if (!rawName) return '';
+    if (rawName === 'Variante desconocida') return t('opening.unknownVariant');
+    const idx = rawName.indexOf(' — ');
+    const desc = idx >= 0 ? rawName.slice(idx + 3) : rawName;
+    return t(variantDescKey(desc), null, desc);
+}
+
+function openingVariantFullOf(rawName) {
+    if (!rawName) return '';
+    if (rawName === 'Variante desconocida') return t('opening.unknownVariant');
+    const idx = rawName.indexOf(' — ');
+    if (idx < 0) return openingVariantDescOf(rawName);
+    return rawName.slice(0, idx) + ' — ' + openingVariantDescOf(rawName);
+}
+
 function openingDescOf(key, opening) {
     return t('op.' + key + '.desc', null, (opening && opening.desc) || '');
 }
@@ -1019,6 +1053,7 @@ function applyI18n() {
     if (typeof updateLearnI18n === 'function') updateLearnI18n();
     if (typeof updateOnlineBanner === 'function') updateOnlineBanner();
     if (typeof refreshDynamicI18n === 'function') refreshDynamicI18n();
+    if (typeof applyInfoMailtoOs === 'function') applyInfoMailtoOs();
     refreshI18nSelectDisplays();
 }
 

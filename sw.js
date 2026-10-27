@@ -10,6 +10,7 @@ const ASSETS_TO_CACHE = [
     './app.js',
     './i18n.js',
     './i18n-content.js',
+    './i18n-variants.js',
     './chess-logic.js',
     './vendor/webm-muxer.min.js',
     './manifest.json',

@@ -2,6 +2,83 @@
 
 ---
 
+## v3.6.55 — 2026-10-27
+
+### Comentarios
+- El informe enviado a **info@ajedrezia.com** incluye el **sistema operativo**.
+
+---
+
+## v3.6.54 — 2026-10-27
+
+### Aprende Ajedrez
+- El aviso del panel muestra **(beta)** en lugar de En construcción.
+
+---
+
+## v3.6.53 — 2026-10-27
+
+### Compartir
+- El modal de compartir se puede **desplazar** si no cabe en la pantalla.
+
+---
+
+## v3.6.52 — 2026-10-27
+
+### Compartir
+- En el **móvil**, compartir imagen en Facebook abre la misma **tarjeta clicable**
+  que en el PC (enlace con previsualización, no una foto suelta).
+- La imagen respeta el formato **vertical (9:16)** o **apaisado (16:9)**.
+
+---
+
+## v3.6.51 — 2026-10-27
+
+### Idiomas
+- Los textos nuevos (inicio de sesión, partida por correo y changelog)
+  están en **todos los idiomas soportados**.
+
+---
+
+## v3.6.50 — 2026-10-27
+
+### Nueva Partida
+- Con **Por correo**, el botón principal muestra **Enviar invitación**
+  en lugar de Comenzar.
+
+---
+
+## v3.6.49 — 2026-10-27
+
+### Inicio de sesión
+- Solo se pide iniciar sesión al jugar **online** o al **invitar por correo**.
+- Contra la IA, persona vs persona, puzzles y el resto de la app se puede usar
+  sin cuenta.
+
+### Por correo
+- En el modal Nueva Partida se puede elegir el **control de tiempo**
+  también en partida por correo.
+
+---
+
+## v3.6.48 — 2026-09-14
+
+### Herramientas
+- Eliminados scripts de un solo uso en `tools/`
+  (merges FCE, optgroups e informes).
+  Se mantienen el generador de variantes y
+  las herramientas de i18n e imágenes.
+
+---
+
+## v3.6.47 — 2026-09-13
+
+### Aperturas
+- Las **variantes** del popup, el log y el listado
+  se muestran en **español, inglés o catalán**.
+
+---
+
 ## v3.6.46 — 2026-09-13
 
 ### Compartir

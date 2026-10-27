@@ -79,15 +79,15 @@
   },
   {
     "key": "underConstruction",
-    "es": "🚧 En construcción",
-    "en": "🚧 Under construction",
-    "ca": "🚧 En construcció"
+    "es": "(beta)",
+    "en": "(beta)",
+    "ca": "(beta)"
   },
   {
     "key": "learn.underConstruction",
-    "es": "🚧 Sección en construcción: puede haber lecciones incompletas o cambios frecuentes.",
-    "en": "🚧 Section under construction: some lessons may be incomplete or change often.",
-    "ca": "🚧 Secció en construcció: pot haver-hi lliçons incompletes o canvis freqüents."
+    "es": "Versión beta: puede haber lecciones incompletas o cambios frecuentes.",
+    "en": "Beta version: some lessons may be incomplete or change often.",
+    "ca": "Versió beta: pot haver-hi lliçons incompletes o canvis freqüents."
   },
   {
     "key": "opening.select",

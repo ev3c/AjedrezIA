@@ -3,7 +3,7 @@
  * Guarda la PNG del modal de compartir (dibujada en el navegador, en el
  * idioma de la interfaz) para que Facebook pueda usarla como og:image.
  *
- * POST multipart: campo "image" (PNG, máx. 2 MB).
+ * POST multipart: campo "image" (PNG, máx. 4 MB).
  * Respuesta JSON: { "id": "hex24" }
  */
 
@@ -29,7 +29,7 @@ if (!$file || !isset($file['tmp_name']) || !is_uploaded_file($file['tmp_name']))
     echo json_encode(['error' => 'file']);
     exit;
 }
-if (!empty($file['error']) || ($file['size'] > 2 * 1024 * 1024)) {
+if (!empty($file['error']) || ($file['size'] > 4 * 1024 * 1024)) {
     http_response_code(400);
     echo json_encode(['error' => 'size']);
     exit;

@@ -1,38 +1,34 @@
 ---
-description: Textos nuevos siempre en todos los idiomas soportados (ES, EN, CA)
+description: Textos nuevos siempre en todos los idiomas soportados
 alwaysApply: true
 ---
 
 # i18n obligatorio en código nuevo
 
-Idiomas actuales: `I18N_LANGS = ['es', 'en', 'ca']`.
+Idiomas: `I18N_LANGS = ['es', 'en', 'ca', 'de', 'fr', 'it', 'pt', 'zh', 'ru', 'ar', 'ja', 'hi', 'ko']`.
 
-Cualquier texto visible al usuario en código **nuevo o modificado** debe existir en **los tres idiomas**. No hardcodear strings de UI en JS, HTML ni PHP.
+Cualquier texto visible al usuario en código **nuevo o modificado** debe existir en **todos** esos idiomas. No hardcodear strings de UI.
 
 ## Dónde registrar
 
-- UI, botones, mensajes, banners, changelog: `i18n.js` (`I18N_PAIRS`)
-- Lecciones y aperturas: `i18n-content.js`
-- Formato de cada fila: `['clave', 'español', 'english', 'català']` (mismo orden que `I18N_LANGS`)
+- ES / EN / CA: `i18n.js` (`I18N_PAIRS`), lecciones en `i18n-content.js`
+- DE FR IT PT ZH RU AR JA HI KO: `tools/i18n-{lang}.json` y regenerar `i18n-extra.js` con `node tools/build-i18n-extra.mjs`
+- Formato ES/EN/CA: `['clave', 'español', 'english', 'català']`
 
 ## Cómo usarlo
 
-- HTML: `data-i18n="clave"` (también `data-i18n-html`, `data-i18n-title`, `data-i18n-placeholder`, `data-i18n-aria`)
+- HTML: `data-i18n="clave"` (también `-html`, `-title`, `-placeholder`, `-aria`)
 - JS: `t('clave')` o `t('clave', {n: 3})` con `{n}` en las traducciones
-- PHP de compartir (`share.php`, `board-image.php`): mismas claves / mismo idioma de interfaz
+- PHP de compartir: mismas claves / mismo idioma de interfaz
 
 ## Prohibido
 
 ```js
 el.textContent = 'Nueva partida';
-alert('Jugada ilegal');
 ```
 
 ```js
 el.textContent = t('newGame');
-alert(t('illegalMove'));
 ```
 
 No traducir: FEN, UCI, códigos de pieza, IDs internos, CSS, nombres de archivo.
-
-Si se añade un idioma a `I18N_LANGS`, hay que añadir la columna en **todas** las filas y el botón/opción en `index.html`.

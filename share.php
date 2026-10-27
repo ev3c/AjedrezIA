@@ -269,8 +269,17 @@ if ($fen !== '' || $t !== '' || $packedMoves !== '' || $moves !== '') {
     $shareUrl = $base . 'share.php?master=' . rawurlencode($master);
 }
 
-if (strlen($card) === 24 && is_file(__DIR__ . '/share-cache/' . $card . '.png')) {
+$ogW = $lay === 'left' ? 1280 : 720;
+$ogH = $lay === 'left' ? 720 : 1280;
+$cardFile = __DIR__ . '/share-cache/' . $card . '.png';
+if (strlen($card) === 24 && is_file($cardFile)) {
     $image = $base . 'share-card.php?id=' . $card;
+    $sz = @getimagesize($cardFile);
+    if (is_array($sz) && !empty($sz[0]) && !empty($sz[1])) {
+        $ogW = (int) $sz[0];
+        $ogH = (int) $sz[1];
+        $lay = ($ogW >= $ogH) ? 'left' : 'top';
+    }
 }
 
 function h($s) { return htmlspecialchars($s, ENT_QUOTES, 'UTF-8'); }
@@ -295,8 +304,8 @@ header('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
 <meta property="og:image:url" content="<?= h($image) ?>">
 <meta property="og:image:secure_url" content="<?= h($image) ?>">
 <meta property="og:image:type" content="image/png">
-<meta property="og:image:width" content="<?= $lay === 'left' ? '1280' : '720' ?>">
-<meta property="og:image:height" content="<?= $lay === 'left' ? '720' : '1280' ?>">
+<meta property="og:image:width" content="<?= (int) $ogW ?>">
+<meta property="og:image:height" content="<?= (int) $ogH ?>">
 <meta property="og:image:alt" content="<?= h($title) ?>">
 <meta property="og:url" content="<?= h($shareUrl) ?>">
 

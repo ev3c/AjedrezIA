@@ -179,6 +179,7 @@ let gameOpponent = 'ai';          // oponente seleccionado: 'ai'|'pvp'|'online'|
 let lastNewGameOpponent = 'ai';   // última selección hecha en el modal Nueva Partida ('ai'|'pvp'|'online'|'mail')
 let _newGameDialogOpen = false;   // true mientras la ventana de Nueva Partida está abierta
 let _postLoginShowOnlineMenu = false; // si el login se abrió desde "Comenzar online" sin sesión: tras login, dejar visible el menú online
+let _pendingAfterLogin = null; // 'mail' | null — continuar invitación por correo tras iniciar sesión
 let playerNickname = 'Jugador';
 let selectedSquare = null;
 let gameMode = 'vs-ai'; // vs-ai, vs-human, puzzle (compatibilidad)
@@ -4672,6 +4673,7 @@ function refreshDynamicI18n() {
             oppEl.textContent = 'vs ' + opponentName(_onlineGame.opponent);
         }
         if (typeof refreshLibrarySummaries === 'function') refreshLibrarySummaries();
+        if (typeof refreshOpeningVariantI18n === 'function') refreshOpeningVariantI18n();
     } catch (e) {}
 }
 
@@ -6534,6 +6536,7 @@ function showVariantsPopup(variants, variantsKey, onSelectCallback) {
     popup.id = 'variants-popup';
     popup.className = 'variants-popup';
     if (variantsKey) popup.dataset.variantsKey = variantsKey;
+    popup._onSelectCallback = onSelectCallback || null;
 
     const header = document.createElement('div');
     header.className = 'variants-popup-header';
@@ -6571,7 +6574,7 @@ function showVariantsPopup(variants, variantsKey, onSelectCallback) {
         item.className = 'variants-popup-item';
         const san = uciToSanCurrent(v.move);
         const moveLabel = isWhiteMove ? `${moveNum}.${san}` : `${moveNum}...${san}`;
-        const descPart = v.name.split(' — ')[1] || v.name;
+        const descPart = typeof openingVariantDescOf === 'function' ? openingVariantDescOf(v.name) : (v.name.split(' — ')[1] || v.name);
         item.innerHTML = `<span class="variant-move">${moveLabel}</span> <span class="variant-name">${descPart}</span>`;
         item.title = `${moveLabel} — ${descPart}`;
         item._variantData = v;
@@ -6619,6 +6622,22 @@ function hideVariantsPopup(resumeTraining) {
     if (resumeTraining && trainingPaused && trainingResumeCallback) {
         trainingResumeCallback();
     }
+}
+
+function refreshOpeningVariantI18n() {
+    document.querySelectorAll('#opening-log .opening-banner').forEach(function(el) {
+        const raw = el.dataset.rawName;
+        if (raw) el.textContent = openingVariantFullOf(raw);
+    });
+    const popup = document.getElementById('variants-popup');
+    if (popup) {
+        const key = popup.dataset.variantsKey || '';
+        const cb = popup._onSelectCallback;
+        const variants = getOpeningVariants(key ? key.split(' ') : []);
+        showVariantsPopup(variants, key, cb);
+    }
+    const overlay = document.getElementById('known-variants-overlay');
+    if (overlay && trainingOpening) showKnownVariants();
 }
 
 function getLongestLine(prefix) {
@@ -6808,7 +6827,8 @@ function showOpeningName(name) {
 
     const banner = document.createElement('div');
     banner.className = 'opening-banner';
-    banner.textContent = name;
+    banner.dataset.rawName = name;
+    banner.textContent = typeof openingVariantFullOf === 'function' ? openingVariantFullOf(name) : name;
     wrapper.appendChild(banner);
 
     const history = game.moveHistoryUCI || [];
@@ -8400,6 +8420,13 @@ function updateNewGamePickerLabels(color, opponent) {
     if (oppLabel) oppLabel.textContent = t('config.playVs') + ' ' + (opponentNames[o] || '');
 }
 
+function updateNewGameStartButtonLabel(mode) {
+    const btn = document.getElementById('new-game-start-btn');
+    if (!btn) return;
+    const m = mode || lastNewGameOpponent || 'ai';
+    btn.textContent = (m === 'mail') ? t('newGame.sendInvite') : t('start');
+}
+
 function syncPlayerColorUI() {
     var hidden = document.getElementById('player-color');
     if (hidden) hidden.value = playerColor;
@@ -8595,6 +8622,44 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '3.6.55': [
+        'changelog.3.6.55',
+        'changelog.more',
+    ],
+    '3.6.54': [
+        'changelog.3.6.54',
+        'changelog.more',
+    ],
+    '3.6.53': [
+        'changelog.3.6.53',
+        'changelog.more',
+    ],
+    '3.6.52': [
+        'changelog.3.6.52',
+        'changelog.more',
+    ],
+    '3.6.51': [
+        'changelog.3.6.51',
+        'changelog.more',
+    ],
+    '3.6.50': [
+        'changelog.3.6.50',
+        'changelog.more',
+    ],
+    '3.6.49': [
+        'changelog.3.6.49',
+        'changelog.more',
+    ],
+    '3.6.48': [
+        'Limpieza de scripts de un solo uso en tools/ (merges FCE, optgroups e informes)',
+        'Se mantienen el generador de variantes i18n y las herramientas de idiomas e imágenes',
+        '... y más mejoras en AjedrezIA ...',
+    ],
+    '3.6.47': [
+        'Las variantes de apertura se muestran en el idioma seleccionado (ES / EN / CAT)',
+        'El log, el popup y el listado de variantes conocidas se actualizan al cambiar de idioma',
+        '... y más mejoras en AjedrezIA ...',
+    ],
     '3.6.46': [
         'Animaciones en el video de compartir: jaque mate, captura y movimientos',
         'Al jaque mate el rey tiembla y su casilla se ilumina en rojo',
@@ -9427,6 +9492,10 @@ function showMessage(message, type = 'info', duration = 3000, onClose = null) {
     
     const messageBox = document.createElement('div');
     messageBox.className = `message-box message-${type}`;
+    const isShareModal = typeof message === 'string' &&
+        (message.indexOf('share-apps-row') !== -1 || message.indexOf('share-preview-row') !== -1);
+    overlay.classList.toggle('has-share-modal', isShareModal);
+    if (isShareModal) messageBox.classList.add('message-box-share');
     if (typeof message === 'string' && message.indexOf('🆕') !== -1) {
         messageBox.classList.add('message-box-changelog');
     }
@@ -9507,32 +9576,20 @@ function stopLoginRemindTimer() {
 }
 
 function maybeShowLoginReminder() {
-    if (isAuthenticatedUser()) {
-        stopLoginRemindTimer();
-        return;
-    }
-    const overlay = document.getElementById('login-modal-overlay');
-    if (overlay && overlay.classList.contains('is-open')) return;
-    showLoginModal();
+    // El inicio de sesión solo se pide para partida online o invitación por correo.
 }
 
 function startLoginRemindTimer() {
-    if (loginRemindTimer || isAuthenticatedUser()) return;
-    loginRemindTimer = setInterval(maybeShowLoginReminder, LOGIN_REMIND_MS);
+    // Desactivado: no recordar el login periódicamente.
 }
 
 function updateAppAccessLock() {
-    const authed = isAuthenticatedUser();
     document.body.classList.remove('app-access-locked');
 
     const closeBtn = document.getElementById('login-modal-close');
     if (closeBtn) closeBtn.style.display = '';
 
-    if (authed) {
-        stopLoginRemindTimer();
-        return;
-    }
-    startLoginRemindTimer();
+    stopLoginRemindTimer();
 }
 
 function requireAuthenticatedUser() {
@@ -11562,6 +11619,56 @@ function hideFeedbackModal() {
     if (overlay) overlay.classList.remove('is-open');
 }
 
+function getClientOS() {
+    const ua = navigator.userAgent || '';
+    const plat = navigator.platform || '';
+    try {
+        const uaPlat = navigator.userAgentData && navigator.userAgentData.platform;
+        if (uaPlat === 'Windows' || /Windows NT 10/i.test(ua)) return /Windows NT 10/i.test(ua) ? 'Windows 10/11' : 'Windows';
+        if (uaPlat === 'macOS') return 'macOS';
+        if (uaPlat === 'Android') {
+            const m = ua.match(/Android ([\d.]+)/);
+            return m ? ('Android ' + m[1]) : 'Android';
+        }
+        if (uaPlat === 'iOS') return /iPad/i.test(ua) ? 'iPadOS' : 'iOS';
+        if (uaPlat === 'Chrome OS') return 'Chrome OS';
+        if (uaPlat === 'Linux') return 'Linux';
+        if (uaPlat) return String(uaPlat);
+    } catch (e) {}
+    if (/Windows NT 10/i.test(ua)) return 'Windows 10/11';
+    if (/Windows NT 6\.3/i.test(ua)) return 'Windows 8.1';
+    if (/Windows NT 6\.2/i.test(ua)) return 'Windows 8';
+    if (/Windows NT 6\.1/i.test(ua)) return 'Windows 7';
+    if (/Windows/i.test(ua) || /^Win/i.test(plat)) return 'Windows';
+    if (/iPhone|iPod/i.test(ua)) {
+        const m = ua.match(/OS (\d+)[._](\d+)/);
+        return m ? ('iOS ' + m[1] + '.' + m[2]) : 'iOS';
+    }
+    if (/iPad/i.test(ua) || (plat === 'MacIntel' && navigator.maxTouchPoints > 1)) {
+        const m = ua.match(/OS (\d+)[._](\d+)/);
+        return m ? ('iPadOS ' + m[1] + '.' + m[2]) : 'iPadOS';
+    }
+    if (/Android/i.test(ua)) {
+        const m = ua.match(/Android ([\d.]+)/);
+        return m ? ('Android ' + m[1]) : 'Android';
+    }
+    if (/CrOS/i.test(ua)) return 'Chrome OS';
+    if (/Mac OS X/i.test(ua) || /Mac/i.test(plat)) {
+        const m = ua.match(/Mac OS X (\d+)[._](\d+)/);
+        return m ? ('macOS ' + m[1] + '.' + m[2]) : 'macOS';
+    }
+    if (/Linux/i.test(ua) || /Linux/i.test(plat)) return 'Linux';
+    return plat || 'desconocido';
+}
+
+function applyInfoMailtoOs() {
+    const osLine = t('feedback.osLine', { os: getClientOS() });
+    const href = 'mailto:info@ajedrezia.com?body=' + encodeURIComponent('\n\n---\n' + osLine + '\n');
+    document.querySelectorAll('a[href^="mailto:info@ajedrezia.com"]').forEach(function(a) {
+        a.setAttribute('href', href);
+    });
+}
+
 function sendFeedback() {
     const errorText   = (document.getElementById('feedback-error-text').value || '').trim();
     const improveText = (document.getElementById('feedback-improve-text').value || '').trim();
@@ -11580,7 +11687,12 @@ function sendFeedback() {
     fetch(BASE_PATH + 'api/send-feedback.php', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ error: errorText, mejora: improveText, url: location.href }),
+        body: JSON.stringify({
+            error: errorText,
+            mejora: improveText,
+            url: location.href,
+            os: getClientOS()
+        }),
     })
     .then(function(r) {
         if (!r.ok) throw new Error('HTTP ' + r.status);
@@ -11605,6 +11717,7 @@ function sendFeedback() {
 
 (function initFeedbackModal() {
     document.addEventListener('DOMContentLoaded', function() {
+        applyInfoMailtoOs();
         const openBtn = document.getElementById('feedback-open-btn');
         const overlay = document.getElementById('feedback-modal-overlay');
         if (!openBtn || !overlay) return;
@@ -11843,6 +11956,27 @@ function hideLoginModal() {
     // Si el modal se cierra (manual o programáticamente sin completar login)
     // descartamos cualquier intención pendiente de abrir el menú online.
     _postLoginShowOnlineMenu = false;
+    _pendingAfterLogin = null;
+}
+
+function afterLoginUi() {
+    const pending = _pendingAfterLogin;
+    _pendingAfterLogin = null;
+    if (pending === 'mail') {
+        hideLoginModal();
+        const colorRaw = playerColorSetting || 'white';
+        const tcRaw = (timePerPlayer != null && incrementPerMove != null)
+            ? (timePerPlayer + '+' + incrementPerMove)
+            : '5+0';
+        shareInviteOnline(inviteColorLabel(colorRaw) || '', timeLabelFor(tcRaw), colorRaw, tcRaw);
+        return true;
+    }
+    if (_postLoginShowOnlineMenu) {
+        _postLoginShowOnlineMenu = false;
+        return false;
+    }
+    hideLoginModal();
+    return false;
 }
 
 // ── Detección de navegadores incompatibles ────────────────────────────────
@@ -12019,12 +12153,7 @@ function signInWithNickname(rawNick) {
             expiry:   Date.now() + 365 * 24 * 60 * 60 * 1000,
         });
         loginSetLoading(false);
-        if (_postLoginShowOnlineMenu) {
-            _postLoginShowOnlineMenu = false;
-        } else {
-            hideLoginModal();
-        }
-        showMessage(t('welcome', { name: nick }), 'success', 3000);
+        if (!afterLoginUi()) showMessage(t('welcome', { name: nick }), 'success', 3000);
     }
 
     if (IS_LOCAL) {
@@ -12111,12 +12240,7 @@ function signInAsGuest() {
         expiry: Date.now() + 365 * 24 * 60 * 60 * 1000,
     });
 
-    if (_postLoginShowOnlineMenu) {
-        _postLoginShowOnlineMenu = false;
-    } else {
-        hideLoginModal();
-    }
-    showMessage(t('guestAccess', { name: name }), 'success', 3000);
+    if (!afterLoginUi()) showMessage(t('guestAccess', { name: name }), 'success', 3000);
 }
 
 // ── Flujo Google OAuth ─────────────────────────────────────────────────────
@@ -12175,14 +12299,7 @@ function signInWithGoogle() {
                     expiry:   Date.now() + (response.expires_in || 3600) * 1000,
                 });
                 loginSetLoading(false);
-                if (_postLoginShowOnlineMenu) {
-                    _postLoginShowOnlineMenu = false;
-                    // Mantener el modal abierto: setOnlineUser ya cambió a la vista
-                    // "Invitar a partida online / Buscar jugador online".
-                } else {
-                    hideLoginModal();
-                }
-                showMessage(t('welcome', { name: info.name }), 'success', 3000);
+                if (!afterLoginUi()) showMessage(t('welcome', { name: info.name }), 'success', 3000);
             } catch (err) {
                 loginSetLoading(false);
                 loginSetError(err.message || t('login.profileFail'));
@@ -12250,14 +12367,7 @@ async function signInWithApple() {
             expiry:   payload.exp ? payload.exp * 1000 : Date.now() + 3600000,
         });
         loginSetLoading(false);
-        if (_postLoginShowOnlineMenu) {
-            _postLoginShowOnlineMenu = false;
-            // Mantener el modal abierto: setOnlineUser ya cambió a la vista
-            // "Invitar a partida online / Buscar jugador online".
-        } else {
-            hideLoginModal();
-        }
-        showMessage(t('welcome', { name: fullName }), 'success', 3000);
+        if (!afterLoginUi()) showMessage(t('welcome', { name: fullName }), 'success', 3000);
     } catch (err) {
         loginSetLoading(false);
         if (err && err.error === 'popup_closed_by_user') return;
@@ -13189,17 +13299,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
                 var aiSettingsEl = document.getElementById('ai-settings');
                 if (aiSettingsEl) aiSettingsEl.style.display = (m === 'ai') ? '' : 'none';
-                // Ocultar Control de Tiempo en modo Por Correo
                 var tcEl = document.getElementById('time-control');
                 var tSec = tcEl ? tcEl.closest('.config-section') : null;
-                if (tSec) tSec.style.display = (m === 'mail') ? 'none' : '';
+                if (tSec) tSec.style.display = '';
                 // Guardar inmediatamente para que al reabrir el modal aparezca seleccionado.
                 lastNewGameOpponent = m;
                 updateNewGamePickerLabels(null, m);
+                updateNewGameStartButtonLabel(m);
                 saveSettings();
                 return;
             }
             if (m === 'online') {
+                _postLoginShowOnlineMenu = true;
                 showLoginModal();
                 return;
             }
@@ -14046,7 +14157,6 @@ async function getAIMove() {
 }
 
 function confirmNewGame() {
-    if (!requireAuthenticatedUser()) return;
     dismissPostGameAnalysisUI();
 
     // Partida en curso con movimientos → advertir pérdida de ELO
@@ -14152,8 +14262,8 @@ function showNewGameDialog() {
     // — Nivel de Dificultad: visible solo cuando el oponente es IA —
     if (aiSection) aiSection.style.display = (lastNewGameOpponent === 'ai') ? '' : 'none';
 
-    // — Control de Tiempo: oculto en modo Por Correo —
-    if (timeSection) timeSection.style.display = (lastNewGameOpponent === 'mail') ? 'none' : '';
+    // — Control de Tiempo: visible también en partida por correo —
+    if (timeSection) timeSection.style.display = '';
 
     // — Restaurar valores de los <select> según el estado guardado —
     const diffSelectEl = aiSection ? aiSection.querySelector('#ai-difficulty') : null;
@@ -14197,8 +14307,9 @@ function showNewGameDialog() {
     btnRow.style.cssText = 'display:flex;gap:8px;margin-top:8px;';
 
     const startBtn = document.createElement('button');
+    startBtn.id = 'new-game-start-btn';
     startBtn.className = 'btn btn-success';
-    startBtn.textContent = t('start');
+    startBtn.textContent = (lastNewGameOpponent === 'mail') ? t('newGame.sendInvite') : t('start');
     startBtn.style.marginTop = '0';
     startBtn.style.flex = '1';
     startBtn.addEventListener('click', () => {
@@ -14230,17 +14341,20 @@ function showNewGameDialog() {
         lastNewGameOpponent = selected;
 
         // ─────────────────────────────────────────────────────────────────────
-        // On-line: abrir la lista de jugadores online.
+        // On-line: iniciar sesión si hace falta y abrir la lista de jugadores.
         if (selected === 'online') {
-            if (!requireAuthenticatedUser()) return;
             saveSettings();
             close();
+            if (!isAuthenticatedUser()) {
+                _postLoginShowOnlineMenu = true;
+                showLoginModal();
+                return;
+            }
             showUsersModal();
             return;
         }
-        // Por Correo: abrir el modal Invitar online (compartir enlace).
+        // Por Correo: iniciar sesión si hace falta y abrir la invitación (con control de tiempo).
         if (selected === 'mail') {
-            if (!requireAuthenticatedUser()) return;
             saveSettings();
             close();
             const colorRaw = playerColorSetting || 'white';
@@ -14249,6 +14363,11 @@ function showNewGameDialog() {
                 : '5+0';
             const colorLabel = inviteColorLabel(colorRaw) || '';
             const timeLabel = timeLabelFor(tcRaw);
+            if (!isAuthenticatedUser()) {
+                _pendingAfterLogin = 'mail';
+                showLoginModal();
+                return;
+            }
             shareInviteOnline(colorLabel, timeLabel, colorRaw, tcRaw);
             return;
         }
@@ -14681,7 +14800,11 @@ function showKnownVariants() {
 
     const header = document.createElement('div');
     header.className = 'known-variants-header';
-    header.innerHTML = `<span>${t('opening.variantsOf', { name: trainingOpening.name })}</span>`;
+    const variantsOfKey = typeof getSelectedOpeningKey === 'function' ? getSelectedOpeningKey() : '';
+    const variantsOfName = variantsOfKey
+        ? openingNameOf(variantsOfKey, trainingOpening)
+        : (typeof openingVariantFullOf === 'function' ? openingVariantFullOf(trainingOpening.name) : trainingOpening.name);
+    header.innerHTML = `<span>${t('opening.variantsOf', { name: variantsOfName })}</span>`;
     const closeBtn = document.createElement('span');
     closeBtn.className = 'variants-popup-close';
     closeBtn.textContent = '✕';
@@ -14704,7 +14827,7 @@ function showKnownVariants() {
 
         const nameParts = item.variant.name.split(' — ');
         const algebraicMove = nameParts[0] || `${moveLabel}${item.variant.from}${item.variant.to}`;
-        const descPart = nameParts[1] || item.variant.name;
+        const descPart = typeof openingVariantDescOf === 'function' ? openingVariantDescOf(item.variant.name) : (nameParts[1] || item.variant.name);
 
         row.innerHTML = `<span class="kv-indent">${indent}${item.isCurrent ? '▶' : '├'} </span><span class="kv-move">${algebraicMove}</span> <span class="kv-name">${descPart}</span>`;
         list.appendChild(row);
@@ -15448,9 +15571,12 @@ function showLoadedGameMessage(title, isFinished, pgnResult, openingContinueGame
         }
     } else {
         if (openingCompleted) {
-            const completedOpeningName = trainingOpening && trainingOpening.name
-                ? trainingOpening.name
-                : currentOpeningName;
+            const completedOpeningKey = typeof getSelectedOpeningKey === 'function' ? getSelectedOpeningKey() : '';
+            const completedOpeningName = completedOpeningKey && trainingOpening
+                ? openingNameOf(completedOpeningKey, trainingOpening)
+                : (typeof openingVariantFullOf === 'function'
+                    ? openingVariantFullOf(currentOpeningName)
+                    : currentOpeningName);
             if (completedOpeningName) {
                 msg += `<div class="completed-opening-name">${completedOpeningName}</div>`;
             }
@@ -16648,6 +16774,7 @@ async function shareLinkWithSelectedMedia(targetUrl, msg, baseName) {
 async function getSharePreviewPngBlob() {
     if (lastSharePreviewParams) {
         try {
+            lastSharePreviewParams.layout = getShareCardLayout();
             const dataUrl = await renderShareBoardDataURL(lastSharePreviewParams);
             if (dataUrl) {
                 const res = await fetch(dataUrl);
@@ -16687,6 +16814,65 @@ async function publishShareCardForFacebook(socialUrl) {
     }
 }
 
+function isUsableSharePopup(popup) {
+    return !!(popup && popup !== window && !popup.closed);
+}
+
+function openFacebookSharePopup() {
+    const w = 626;
+    const h = 700;
+    const sw = (window.screen && screen.width) || window.innerWidth || 800;
+    const sh = (window.screen && screen.height) || window.innerHeight || 600;
+    const left = Math.max(0, Math.round((sw - w) / 2));
+    const top = Math.max(0, Math.round((sh - h) / 2));
+    const features = 'width=' + w + ',height=' + h + ',left=' + left + ',top=' + top + ',scrollbars=yes,resizable=yes';
+    let popup = null;
+    try {
+        popup = window.open('about:blank', 'ajedrezia_fb_share', features);
+    } catch (e) {
+        popup = null;
+    }
+    if (!isUsableSharePopup(popup)) {
+        try { popup = window.open('about:blank', '_blank', features); } catch (e) { popup = null; }
+    }
+    if (!isUsableSharePopup(popup)) return null;
+    try {
+        popup.document.open();
+        popup.document.write(
+            '<!DOCTYPE html><title>AjedrezIA</title>' +
+            '<body style="margin:0;background:#1f1b18;color:#e7e0d8;font-family:sans-serif;' +
+            'display:flex;align-items:center;justify-content:center;height:100vh">&#9822;</body>'
+        );
+        popup.document.close();
+    } catch (e) {}
+    return popup;
+}
+
+function navigateFacebookSharePopup(popup, fbUrl) {
+    if (isUsableSharePopup(popup)) {
+        try {
+            popup.location.href = fbUrl;
+            try { popup.focus(); } catch (e2) {}
+            return;
+        } catch (e) {
+            try { popup.close(); } catch (e2) {}
+        }
+    }
+    let opened = null;
+    try { opened = window.open(fbUrl, '_blank', 'noopener,noreferrer'); } catch (e) { opened = null; }
+    if (isUsableSharePopup(opened)) {
+        try { opened.focus(); } catch (e) {}
+        return;
+    }
+    const a = document.createElement('a');
+    a.href = fbUrl;
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+}
+
 async function shareFacebookClick(fbUrl, msg) {
     if (window.grantEloOnShareComplete) window.grantEloOnShareComplete();
     // El texto llega con \n literales desde el atributo onclick: los restauramos.
@@ -16706,39 +16892,49 @@ async function shareFacebookClick(fbUrl, msg) {
     };
     copy();
     const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+
+    // Imagen: misma tarjeta OG clicable que en el PC (nunca un archivo nativo).
+    // El popup se abre en el clic; si se espera al POST, iOS/Android bloquean la ventana.
     if (shareSelectedFormat !== 'video') {
+        const popup = openFacebookSharePopup();
         try {
             const parsed = new URL(fbUrl, location.href);
+            parsed.searchParams.set('display', 'popup');
             const socialUrl = parsed.searchParams.get('u');
             const hosted = await publishShareCardForFacebook(socialUrl);
             if (hosted) {
                 parsed.searchParams.set('u', hosted);
-                fbUrl = parsed.toString();
+            } else if (socialUrl) {
+                const fallback = new URL(socialUrl, SHARE_BASE);
+                fallback.searchParams.set('lay', getShareCardLayout());
+                parsed.searchParams.set('u', fallback.href);
             }
+            fbUrl = parsed.toString();
         } catch (e) {}
+        navigateFacebookSharePopup(popup, fbUrl);
+        return;
     }
-    const openedOnDesktop = shareSelectedFormat === 'video' && !isMobile;
+
+    const openedOnDesktop = !isMobile;
     if (openedOnDesktop) window.open(fbUrl, '_blank', 'noopener,noreferrer');
-    if (shareSelectedFormat === 'video') {
-        try {
-            const file = await getSelectedShareMediaFile('ajedrezia-facebook');
-            const canShareFile = navigator.share && (!navigator.canShare || navigator.canShare({ files: [file] }));
-            if (canShareFile) {
-                await navigator.share({ title: 'AjedrezIA', text, files: [file] });
-                return;
-            }
-            const downloadUrl = URL.createObjectURL(file);
-            const link = document.createElement('a');
-            link.href = downloadUrl;
-            link.download = file.name;
-            document.body.appendChild(link);
-            link.click();
-            link.remove();
-            setTimeout(() => URL.revokeObjectURL(downloadUrl), 1000);
-            showMessage(t('msg.videoFb'), 'success', 3500);
-        } catch (error) {
-            if (error && error.name === 'AbortError') return;
+    try {
+        const file = await getSelectedShareMediaFile('ajedrezia-facebook');
+        const canShareFile = navigator.share && (!navigator.canShare || navigator.canShare({ files: [file] }));
+        if (canShareFile) {
+            await navigator.share({ title: 'AjedrezIA', text, files: [file] });
+            return;
         }
+        const downloadUrl = URL.createObjectURL(file);
+        const link = document.createElement('a');
+        link.href = downloadUrl;
+        link.download = file.name;
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
+        setTimeout(() => URL.revokeObjectURL(downloadUrl), 1000);
+        showMessage(t('msg.videoFb'), 'success', 3500);
+    } catch (error) {
+        if (error && error.name === 'AbortError') return;
     }
     if (!openedOnDesktop) setTimeout(() => { window.open(fbUrl, '_blank', 'noopener,noreferrer'); }, 300);
 }
@@ -17131,7 +17327,11 @@ function getShareGameCardMetadata(opts) {
     if (site && site !== '?' && site !== event) lines.push(t('pgn.site', { site: site }));
 
     const eco = String(headers.ECO || '').trim();
-    const opening = String(currentOpeningName || '').trim();
+    const opening = String(
+        typeof openingVariantFullOf === 'function'
+            ? openingVariantFullOf(currentOpeningName)
+            : (currentOpeningName || '')
+    ).trim();
     if (eco || opening) {
         lines.push(t('pgn.opening', { eco: [eco, opening].filter(Boolean).join(' · ') }));
     }

@@ -2850,6 +2850,32 @@ html[dir="rtl"] #chess-board {
     margin-bottom: 0;
 }
 
+/* Modal compartir: si no cabe, el overlay se desplaza (centrado si sobra espacio). */
+.message-overlay.has-share-modal {
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+    padding: 0;
+    touch-action: pan-y;
+}
+.message-overlay.has-share-modal::before,
+.message-overlay.has-share-modal::after {
+    content: '';
+    flex: 1 0 8px;
+    pointer-events: none;
+}
+.message-box-share {
+    flex: 0 1 auto;
+    width: min(92vw, 600px);
+    max-width: 100%;
+    margin: 8px;
+    box-sizing: border-box;
+    overflow: visible;
+}
+
 /* Mensaje a compartir (modal share): texto desde ¡Echa un vistazo… hasta ♟ URL */
 /* ── Share modal – estilo hoja nativa de compartir ─────────────────── */
 .share-apps-row {
