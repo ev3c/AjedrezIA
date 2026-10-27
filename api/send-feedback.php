@@ -28,6 +28,16 @@ $data = json_decode($raw, true);
 $errorText   = trim($data['error']  ?? '');
 $improveText = trim($data['mejora'] ?? '');
 $pageUrl     = trim($data['url']    ?? '');
+$os          = trim((string) ($data['os'] ?? ''));
+$os          = preg_replace('/[\x00-\x1F\x7F]/u', '', $os);
+if (function_exists('mb_substr')) {
+    $os = mb_substr($os, 0, 80);
+} else {
+    $os = substr($os, 0, 80);
+}
+if ($os === '') {
+    $os = 'desconocido';
+}
 
 if ($errorText === '' && $improveText === '') {
     http_response_code(400);
@@ -64,6 +74,7 @@ $body .= "───────────────────────�
 $body .= "Página     : {$pageUrl}\n";
 $body .= "Fecha y hora : {$ts}\n";
 $body .= "IP de origen : {$ip}\n";
+$body .= "Sistema operativo : {$os}\n";
 $body .= "────────────────────────────────\n\n";
 $body .= "AjedrezIA — https://www.ajedrezia.com/\n";
 
