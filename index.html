@@ -31,6 +31,33 @@ try {
     }
     document.documentElement.lang = _lang;
 } catch(e) {}
+
+// Apariencia clara/oscura antes de pintar (evita destello claro en modo oscuro)
+(function() {
+    var KEY = 'ajedrezia_ui_theme';
+    var mql = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+    function stored() {
+        try { var v = localStorage.getItem(KEY); return v === 'light' || v === 'dark' ? v : 'auto'; } catch (e) { return 'auto'; }
+    }
+    function apply(pref) {
+        var dark = pref === 'dark' || (pref === 'auto' && mql && mql.matches);
+        document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+        var meta = document.querySelector('meta[name="theme-color"]');
+        if (meta) meta.setAttribute('content', dark ? '#0f1115' : '#e5e7eb');
+    }
+    window.ajedreziaGetUiTheme = stored;
+    window.ajedreziaApplyUiTheme = function(pref) {
+        if (pref) { try { localStorage.setItem(KEY, pref); } catch (e) {} }
+        apply(stored());
+    };
+    if (mql) {
+        var onChange = function() { if (stored() === 'auto') apply('auto'); };
+        if (mql.addEventListener) mql.addEventListener('change', onChange);
+        else if (mql.addListener) mql.addListener(onChange);
+    }
+    apply(stored());
+    document.addEventListener('DOMContentLoaded', function() { apply(stored()); });
+})();
 </script>
 
 <!-- Google Tag Manager --
@@ -72,7 +99,7 @@ try {
     <link rel="apple-touch-icon" href="icons/icon-192.png">
     <link rel="manifest" href="manifest.json">
     <script src="version.js"></script>
-    <script>document.write('<link rel="stylesheet" href="style.css?v=' + APP_VERSION + '">');</script>
+    <script>document.write('<link rel="stylesheet" href="style.css?v=' + APP_VERSION + '"><link rel="stylesheet" href="theme-dark.css?v=' + APP_VERSION + '">');</script>
     <script>
     // Salvavidas de actualización para PWAs antiguas instaladas en ajedrezia.com:
     // si version.js cargado en memoria está obsoleto respecto al del servidor,
@@ -129,10 +156,10 @@ try {
 
         <div class="game-container">
             <div class="sidebar sidebar-left">
-                <button id="new-game" class="btn btn-success btn-new-game-top btn-new-game--desktop" data-i18n="newGame">♟ Nueva Partida</button>
+                <button id="new-game" data-icon="plus" class="btn btn-success btn-new-game-top btn-new-game--desktop" data-i18n="newGame">♟ Nueva Partida</button>
 
                 <div class="panel panel-collapsible collapsed" id="openings-panel">
-                    <h2 class="panel-toggle"><span data-i18n="panel.openings">📖 Entrenar Aperturas</span> <span class="panel-arrow">▲</span></h2>
+                    <h2 class="panel-toggle"><span data-icon="book" data-i18n="panel.openings">📖 Entrenar Aperturas</span> <span class="panel-arrow" data-icon="chevronUp">▲</span></h2>
                     <div class="panel-body">
                     <div class="config-section">
                         <label class="famous-section-label" data-i18n="opening.select">Selecciona una apertura:</label>
@@ -276,9 +303,9 @@ try {
                         <p id="opening-training-refute" class="training-refute" style="display:none;"></p>
                         <div id="opening-winrate" class="opening-winrate" style="display:none;"></div>
                     </div>
-                    <button id="start-opening-training" class="btn btn-primary" style="margin-bottom:8px;margin-top:8px;width:100%" data-i18n="opening.startTraining">♟ Iniciar Entrenamiento</button>
-                    <button id="show-known-variants" class="btn btn-secondary" disabled data-i18n="opening.knownVariants">📖 Variantes Conocidas</button>
-                    <button id="start-opening-quiz" class="btn btn-warning" disabled data-i18n="opening.quiz">🧠 Quiz: Adivina el Movimiento</button>
+                    <button id="start-opening-training" data-icon="play" class="btn btn-primary" style="margin-bottom:8px;margin-top:8px;width:100%" data-i18n="opening.startTraining">♟ Iniciar Entrenamiento</button>
+                    <button id="show-known-variants" data-icon="book" class="btn btn-secondary" disabled data-i18n="opening.knownVariants">📖 Variantes Conocidas</button>
+                    <button id="start-opening-quiz" data-icon="help" class="btn btn-warning" disabled data-i18n="opening.quiz">🧠 Quiz: Adivina el Movimiento</button>
                     <div id="quiz-score" class="quiz-score" style="display:none;">
                         <span class="quiz-correct">✓ <span id="quiz-correct-count">0</span></span>
                         <span class="quiz-wrong">✗ <span id="quiz-wrong-count">0</span></span>
@@ -287,7 +314,7 @@ try {
                 </div>
 
                 <div class="panel panel-collapsible collapsed" id="puzzles-panel">
-                    <h2 class="panel-toggle"><span data-i18n="panel.puzzles">🧩 Problemas de Ajedrez</span> <span class="panel-arrow">▲</span></h2>
+                    <h2 class="panel-toggle"><span data-icon="puzzle" data-i18n="panel.puzzles">🧩 Problemas de Ajedrez</span> <span class="panel-arrow" data-icon="chevronUp">▲</span></h2>
                     <div class="panel-body">
                     <div class="config-section">
                         <div class="fce-library-summary" data-i18n="puzzle.millions">~5,5 millones de problemas</div>
@@ -318,8 +345,8 @@ try {
                         <p id="puzzle-instruction" class="training-desc" style="font-style:normal;color:#1e40af;font-weight:600;"></p>
                         <div id="puzzle-feedback" class="puzzle-feedback" style="display:none;"></div>
                         <div class="puzzle-actions" style="margin-top:6px;">
-                            <button id="puzzle-hint" class="btn btn-yellow btn-sm" disabled data-i18n="puzzle.hint">💡 Pista</button>
-                            <button id="puzzle-solution" class="btn btn-blue btn-sm" disabled data-i18n="puzzle.solution">👁 Ver solución</button>
+                            <button id="puzzle-hint" data-icon="hint" class="btn btn-yellow btn-sm" disabled data-i18n="puzzle.hint">💡 Pista</button>
+                            <button id="puzzle-solution" data-icon="eye" class="btn btn-blue btn-sm" disabled data-i18n="puzzle.solution">👁 Ver solución</button>
                         </div>
                     </div>
                     <div id="puzzle-stats" class="puzzle-stats">
@@ -331,7 +358,7 @@ try {
                 </div>
 
                 <div class="panel panel-collapsible collapsed" id="famous-panel">
-                    <h2 class="panel-toggle"><span data-i18n="panel.famous">🏆 Partidas Maestras</span> <span class="panel-arrow">▲</span></h2>
+                    <h2 class="panel-toggle"><span data-icon="trophy" data-i18n="panel.famous">🏆 Partidas Maestras</span> <span class="panel-arrow" data-icon="chevronUp">▲</span></h2>
                     <div class="panel-body">
                     <div class="config-section">
                         <label class="famous-section-label" data-i18n="famous.selected">⭐ Partidas Seleccionadas</label>
@@ -571,7 +598,7 @@ try {
                 </div>
 
                 <div class="panel panel-collapsible collapsed" id="cat-league-panel">
-                    <h2 class="panel-toggle"><span data-i18n="panel.catLeague">🏁 Partides Lliga CAT</span> <span class="panel-arrow">▲</span></h2>
+                    <h2 class="panel-toggle"><span data-icon="award" data-i18n="panel.catLeague">🏁 Partides Lliga CAT</span> <span class="panel-arrow" data-icon="chevronUp">▲</span></h2>
                     <div class="panel-body">
                         <div class="config-section">
                             <div id="fce-library-summary" class="fce-library-summary" aria-live="polite">~x jugadores · ~x partidas</div>
@@ -590,7 +617,7 @@ try {
                 </div>
 
                 <div class="panel panel-collapsible collapsed" id="learn-panel">
-                    <h2 class="panel-toggle"><span><span data-i18n="panel.learn">📚 Aprende Ajedrez</span> <span class="under-construction-badge" data-i18n="underConstruction">(beta)</span></span> <span class="panel-arrow">▲</span></h2>
+                    <h2 class="panel-toggle"><span><span data-icon="cap" data-i18n="panel.learn">📚 Aprende Ajedrez</span> <span class="under-construction-badge" data-i18n="underConstruction">(beta)</span></span> <span class="panel-arrow" data-icon="chevronUp">▲</span></h2>
                     <div class="panel-body">
                         <div class="learn-under-construction" data-i18n="learn.underConstruction">Versión beta: puede haber lecciones incompletas o cambios frecuentes.</div>
                         <div class="learn-progress-bar"><div id="learn-progress-fill" class="learn-progress-fill" style="width:0%"></div></div>
@@ -601,8 +628,8 @@ try {
                             <p id="learn-panel-instruction" class="learn-instruction"></p>
                             <div id="learn-panel-feedback" class="learn-feedback" style="display:none;"></div>
                             <div class="learn-btn-row">
-                                <button id="learn-hint-btn" class="btn btn-yellow btn-sm" disabled data-i18n="learn.hint">💡 Pista</button>
-                                <button id="learn-exit-btn" class="btn btn-secondary btn-sm" data-i18n="learn.exit">✕ Salir</button>
+                                <button id="learn-hint-btn" data-icon="hint" class="btn btn-yellow btn-sm" disabled data-i18n="learn.hint">💡 Pista</button>
+                                <button id="learn-exit-btn" data-icon="close" class="btn btn-secondary btn-sm" data-i18n="learn.exit">✕ Salir</button>
                             </div>
                         </div>
                     </div>
@@ -644,11 +671,11 @@ try {
                        </div>
                        <!-- Navegación de errores del análisis (visible al analizar) -->
                        <div id="analysis-errors-nav" class="analysis-errors-nav" style="display: none;">
-                           <button id="analysis-nav-summary" class="analysis-nav-btn analysis-nav-summary-btn" data-i18n-title="analysis.summaryNav" title="Ver resumen del análisis">📊</button>
+                           <button id="analysis-nav-summary" data-icon="chart" class="analysis-nav-btn analysis-nav-summary-btn" data-i18n-title="analysis.summaryNav" title="Ver resumen del análisis">📊</button>
                            <button id="analysis-nav-prev" class="analysis-nav-btn" data-i18n-title="analysis.prevError" title="Error anterior">‹</button>
                            <span id="analysis-nav-label" class="analysis-nav-label"></span>
                            <button id="analysis-nav-next" class="analysis-nav-btn" data-i18n-title="analysis.nextError" title="Siguiente error">›</button>
-                           <button id="analysis-nav-close" class="analysis-nav-btn analysis-nav-list-btn" data-i18n-title="analysis.close" title="Cerrar análisis">✕</button>
+                           <button id="analysis-nav-close" data-icon="close" class="analysis-nav-btn analysis-nav-list-btn" data-i18n-title="analysis.close" title="Cerrar análisis">✕</button>
                        </div>
                        <!-- Mini-reloj compacto bajo el tablero + ELO a la derecha -->
                        <div class="mini-clock-elo-row" id="mini-clock-elo-row">
@@ -668,9 +695,9 @@ try {
                           <button id="flip-board-btn" class="btn-flip-board" data-i18n-title="flipBoard" title="Girar tablero">
                               <span class="fhalf fhalf--dark">♚</span><span class="fhalf fhalf--light">♔</span>
                           </button>
-                          <button id="puzzle-board-hint" class="btn-icon btn-yellow mini-puzzle-board-btn" data-i18n-title="puzzle.hint" data-i18n-aria="puzzle.hint" title="Pista" disabled aria-label="Pista">💡</button>
-                          <button id="puzzle-board-solution" class="btn-icon btn-blue mini-puzzle-board-btn" data-i18n-title="puzzle.solution" data-i18n-aria="puzzle.solution" title="Ver solución" disabled aria-label="Ver solución">👁</button>
-                          <button id="share-board" class="btn-icon btn-share mini-share-btn" data-i18n-title="action.shareShort" title="Compartir">🔗</button>
+                          <button id="puzzle-board-hint" data-icon="hint" class="btn-icon btn-yellow mini-puzzle-board-btn" data-i18n-title="puzzle.hint" data-i18n-aria="puzzle.hint" title="Pista" disabled aria-label="Pista">💡</button>
+                          <button id="puzzle-board-solution" data-icon="eye" class="btn-icon btn-blue mini-puzzle-board-btn" data-i18n-title="puzzle.solution" data-i18n-aria="puzzle.solution" title="Ver solución" disabled aria-label="Ver solución">👁</button>
+                          <button id="share-board" data-icon="link" class="btn-icon btn-share mini-share-btn" data-i18n-title="action.shareShort" title="Compartir">🔗</button>
                        </div>
                        <div id="captured-below" class="captured-below">
                            <span class="captured-label captured-label-white"><span data-i18n="captured.white">Blancas: </span><span id="captured-white"></span><span id="captured-white-value" class="captured-value"></span></span>
@@ -678,13 +705,13 @@ try {
                        </div>
                        <!-- Botones de acción (solo iconos) debajo del tablero -->
                        <div class="board-action-buttons">
-                           <button id="resign-game" class="btn-icon btn-danger" data-i18n-title="action.resign" title="Abandonar">🏳️</button>
-                           <button id="offer-draw" class="btn-icon btn-warning" data-i18n-title="action.draw" title="Pedir Tablas">🤝</button>
-                           <button id="resume-game" class="btn-icon btn-success" data-i18n-title="action.continue" title="Continuar Partida">▶</button>
-                           <button id="undo-move" class="btn-icon btn-primary" data-i18n-title="action.undo" title="Deshacer Movimiento">↺</button>
-                           <button id="hint-move" class="btn-icon btn-yellow" data-i18n-title="action.hint" title="Sugerencia de IA">💡</button>
-                           <button id="analyze-game" class="btn-icon btn-orange" data-i18n-title="action.analyze" title="Analizar Partida">📊</button>
-                           <button id="copy-pgn-board" class="btn-icon btn-primary" data-i18n-title="action.copyPgn" title="Copiar PGN">📋</button>
+                           <button id="resign-game" data-icon="flag" class="btn-icon btn-danger" data-i18n-title="action.resign" title="Abandonar">🏳️</button>
+                           <button id="offer-draw" data-icon="handshake" class="btn-icon btn-warning" data-i18n-title="action.draw" title="Pedir Tablas">🤝</button>
+                           <button id="resume-game" data-icon="play" class="btn-icon btn-success" data-i18n-title="action.continue" title="Continuar Partida">▶</button>
+                           <button id="undo-move" data-icon="undo" class="btn-icon btn-primary" data-i18n-title="action.undo" title="Deshacer Movimiento">↺</button>
+                           <button id="hint-move" data-icon="hint" class="btn-icon btn-yellow" data-i18n-title="action.hint" title="Sugerencia de IA">💡</button>
+                           <button id="analyze-game" data-icon="chart" class="btn-icon btn-orange" data-i18n-title="action.analyze" title="Analizar Partida">📊</button>
+                           <button id="copy-pgn-board" data-icon="clipboard" class="btn-icon btn-primary" data-i18n-title="action.copyPgn" title="Copiar PGN">📋</button>
                 </div>
                        <div id="thinking-indicator" class="thinking-indicator" style="display: none;">
                            <div class="spinner"></div>
@@ -692,11 +719,11 @@ try {
                        </div>
                        <!-- Historial de movimientos con navegación -->
                        <div class="move-navigator">
-                           <button id="nav-first" class="nav-btn" data-i18n-title="nav.first" title="Ir al inicio">⏮</button>
-                           <button id="nav-prev" class="nav-btn" data-i18n-title="nav.prev" title="Movimiento anterior">◀</button>
+                           <button id="nav-first" data-icon="first" class="nav-btn" data-i18n-title="nav.first" title="Ir al inicio">⏮</button>
+                           <button id="nav-prev" data-icon="prev" class="nav-btn" data-i18n-title="nav.prev" title="Movimiento anterior">◀</button>
                            <div id="move-history-display" class="move-history-display"></div>
-                           <button id="nav-next" class="nav-btn" data-i18n-title="nav.next" title="Siguiente movimiento">▶</button>
-                           <button id="nav-last" class="nav-btn" data-i18n-title="nav.last" title="Ir al final">⏭</button>
+                           <button id="nav-next" data-icon="next" class="nav-btn" data-i18n-title="nav.next" title="Siguiente movimiento">▶</button>
+                           <button id="nav-last" data-icon="last" class="nav-btn" data-i18n-title="nav.last" title="Ir al final">⏭</button>
                        </div>
                        <!-- Barra de evaluación horizontal (solo responsive, bajo movimientos) -->
                        <div class="eval-bar-container eval-bar-mobile" id="eval-bar-mobile">
@@ -717,8 +744,8 @@ try {
                 <div id="analysis-overlay" class="analysis-overlay" style="display: none;">
                     <div class="analysis-modal">
                         <div class="analysis-title-bar">
-                            <h3 class="analysis-title" data-i18n="analysis.title">📊 Análisis post-partida</h3>
-                            <button id="analysis-close-x" class="analysis-close-x" data-i18n-title="close" title="Cerrar">✕</button>
+                            <h3 class="analysis-title" data-icon="chart" data-i18n="analysis.title">📊 Análisis post-partida</h3>
+                            <button id="analysis-close-x" data-icon="close" class="analysis-close-x" data-i18n-title="close" title="Cerrar">✕</button>
                         </div>
                         <div id="analysis-loading" class="analysis-loading" data-i18n="analysis.loadingDefault">Movimientos analizados: 0 / 0</div>
                         <div id="analysis-content" class="analysis-content" style="display: none;">
@@ -730,7 +757,7 @@ try {
                 </div>
 
                 <div class="panel panel-collapsible" id="clock-panel">
-                    <h2 class="panel-toggle"><span data-i18n="panel.clock">⏱️ Reloj de Ajedrez</span> <span class="panel-arrow">▲</span></h2>
+                    <h2 class="panel-toggle"><span data-icon="timer" data-i18n="panel.clock">⏱️ Reloj de Ajedrez</span> <span class="panel-arrow" data-icon="chevronUp">▲</span></h2>
                     <div class="panel-body">
                     <div id="chess-clock" class="chess-clock">
                         <div class="clock-player">
@@ -747,9 +774,9 @@ try {
 
                        <div class="panel panel-collapsible online-chat-panel" id="online-chat-panel" style="display:none;">
                            <h2 class="panel-toggle">
-                               💬 <span data-i18n="panel.chat">Chat</span> <span class="online-chat-opponent" id="online-chat-opponent"></span>
+                               <span data-icon="chat" data-i18n="panel.chat">Chat</span> <span class="online-chat-opponent" id="online-chat-opponent"></span>
                                <span class="online-chat-badge" id="online-chat-badge" style="display:none;">0</span>
-                               <span class="panel-arrow">▲</span>
+                               <span class="panel-arrow" data-icon="chevronUp">▲</span>
                            </h2>
                            <div class="panel-body online-chat-body">
                                <div class="online-chat-messages" id="online-chat-messages" aria-live="polite"></div>
@@ -757,15 +784,15 @@ try {
                                    <input type="text" id="online-chat-input" class="online-chat-input"
                                           data-i18n-placeholder="chat.placeholder" placeholder="Escribe un mensaje…" maxlength="500"
                                           data-i18n-aria="chat.aria" aria-label="Mensaje para el oponente">
-                                   <button type="submit" class="online-chat-send" id="online-chat-send" data-i18n-title="chat.send" title="Enviar">➤</button>
+                                   <button type="submit" class="online-chat-send" id="online-chat-send" data-icon="send" data-i18n-title="chat.send" title="Enviar">➤</button>
                                </form>
                            </div>
                        </div>
 
-                <button id="new-game-mobile" type="button" class="btn btn-success btn-new-game-top btn-new-game--mobile" data-i18n="newGame" data-i18n-aria="newGame" aria-label="Nueva Partida">♟ Nueva Partida</button>
+                <button id="new-game-mobile" data-icon="plus" type="button" class="btn btn-success btn-new-game-top btn-new-game--mobile" data-i18n="newGame" data-i18n-aria="newGame" aria-label="Nueva Partida">♟ Nueva Partida</button>
 
                 <div class="panel panel-collapsible collapsed" id="config-panel">
-                    <h2 class="panel-toggle" id="config-toggle"><span data-i18n="panel.config">⚙️ Configuración</span> <span class="panel-arrow">▲</span></h2>
+                    <h2 class="panel-toggle" id="config-toggle"><span data-icon="settings" data-i18n="panel.config">⚙️ Configuración</span> <span class="panel-arrow" data-icon="chevronUp">▲</span></h2>
                     <div class="panel-body" id="config-body">
 
                     <div class="config-section">
@@ -896,6 +923,15 @@ try {
                     </div>
 
                     <div class="config-section">
+                        <label for="ui-theme" data-i18n="config.appearance">Apariencia:</label>
+                        <select id="ui-theme" class="select">
+                            <option value="auto" data-i18n="appearance.auto">Automática (sistema)</option>
+                            <option value="light" data-i18n="appearance.light">Clara</option>
+                            <option value="dark" data-i18n="appearance.dark">Oscura</option>
+                        </select>
+                    </div>
+
+                    <div class="config-section">
                         <label data-i18n="config.pieces">Estilo de Piezas:</label>
                         <div class="piece-style-wrapper">
                             <img id="piece-style-preview" class="piece-style-preview" src="pieces/cburnett/bP.svg" alt="Preview">
@@ -940,31 +976,31 @@ try {
                     </div>
 
                     <div class="config-section">
-                        <button type="button" id="config-help-btn" class="btn btn-secondary" style="width:100%" data-i18n="config.videoHelp">❓ Ayuda en Vídeo</button>
+                        <button type="button" id="config-help-btn" data-icon="help" class="btn btn-secondary" style="width:100%" data-i18n="config.videoHelp">❓ Ayuda en Vídeo</button>
                     </div>
 
                     </div>
                 </div>
 
                        <div class="panel panel-collapsible collapsed" id="actions-panel">
-                           <h2 class="panel-toggle"><span data-i18n="panel.actions">⚡ Acciones</span> <span class="panel-arrow">▲</span></h2>
+                           <h2 class="panel-toggle"><span data-icon="zap" data-i18n="panel.actions">⚡ Acciones</span> <span class="panel-arrow" data-icon="chevronUp">▲</span></h2>
                            <div class="panel-body">
-                           <button id="resign-game-sidebar" class="btn btn-danger" data-i18n="action.resignBtn">🏳️ Abandonar</button>
-                           <button id="offer-draw-sidebar" class="btn btn-warning" data-i18n="action.drawBtn">🤝 Pedir Tablas</button>
-                           <button id="view-analysis" class="btn btn-primary" style="display: none;" data-i18n="action.viewAnalysis">📊 Ver análisis post-partida</button>
-                           <button id="resume-game-sidebar" class="btn btn-success" data-i18n="action.continueBtn">▶ Continuar Partida</button>
-                           <button id="undo-move-sidebar" class="btn btn-primary" data-i18n="action.undoBtn">↺ Deshacer Movimiento</button>
-                           <button id="hint-move-sidebar" class="btn btn-yellow" data-i18n="action.hintBtn">💡 Sugerencia de IA</button>
-                           <button id="analyze-game-sidebar" class="btn btn-orange" data-i18n="action.analyzeBtn">📊 Analizar Partida</button>
-                           <button id="copy-pgn" class="btn btn-primary" data-i18n="action.copyBtn">📋 Copiar PGN</button>
-                           <button id="export-pgn" class="btn btn-primary" data-i18n="action.exportBtn">📄 Exportar PGN</button>
-                           <button id="import-pgn" class="btn btn-primary" data-i18n="action.importBtn">📥 Importar PGN</button>
-                           <button id="share-sidebar" class="btn btn-share" data-i18n="action.share">🔗 Compartir partida (+10 ELO)</button>
+                           <button id="resign-game-sidebar" data-icon="flag" class="btn btn-danger" data-i18n="action.resignBtn">🏳️ Abandonar</button>
+                           <button id="offer-draw-sidebar" data-icon="handshake" class="btn btn-warning" data-i18n="action.drawBtn">🤝 Pedir Tablas</button>
+                           <button id="view-analysis" data-icon="chart" class="btn btn-primary" style="display: none;" data-i18n="action.viewAnalysis">📊 Ver análisis post-partida</button>
+                           <button id="resume-game-sidebar" data-icon="play" class="btn btn-success" data-i18n="action.continueBtn">▶ Continuar Partida</button>
+                           <button id="undo-move-sidebar" data-icon="undo" class="btn btn-primary" data-i18n="action.undoBtn">↺ Deshacer Movimiento</button>
+                           <button id="hint-move-sidebar" data-icon="hint" class="btn btn-yellow" data-i18n="action.hintBtn">💡 Sugerencia de IA</button>
+                           <button id="analyze-game-sidebar" data-icon="chart" class="btn btn-orange" data-i18n="action.analyzeBtn">📊 Analizar Partida</button>
+                           <button id="copy-pgn" data-icon="clipboard" class="btn btn-primary" data-i18n="action.copyBtn">📋 Copiar PGN</button>
+                           <button id="export-pgn" data-icon="fileDown" class="btn btn-primary" data-i18n="action.exportBtn">📄 Exportar PGN</button>
+                           <button id="import-pgn" data-icon="upload" class="btn btn-primary" data-i18n="action.importBtn">📥 Importar PGN</button>
+                           <button id="share-sidebar" data-icon="link" class="btn btn-share" data-i18n="action.share">🔗 Compartir partida (+10 ELO)</button>
                            </div>
                        </div>
 
                        <div class="panel panel-collapsible collapsed" id="stats-panel">
-                           <h2 class="panel-toggle"><span data-i18n="panel.stats">📊 Estadísticas</span> <span class="panel-arrow">▲</span></h2>
+                           <h2 class="panel-toggle"><span data-icon="chart" data-i18n="panel.stats">📊 Estadísticas</span> <span class="panel-arrow" data-icon="chevronUp">▲</span></h2>
                            <div class="panel-body">
                            <div class="stat-item stat-elo">
                                <div class="stat-label">ELO</div>
@@ -1109,7 +1145,6 @@ try {
                         <span data-i18n="login.guest">Acceder como Invitado</span>
                     </button>
                 </div>
-                <p class="login-modal-legal"><span data-i18n="login.legalBefore">Al continuar aceptas los </span><a href="#" class="login-modal-link" data-i18n="login.terms">Términos de servicio</a><span data-i18n="login.legalAnd"> y la </span><a href="#" class="login-modal-link" data-i18n="login.privacy">Política de privacidad</a>.</p>
             </div>
 
             <!-- Vista B: autenticado -->
@@ -1321,6 +1356,7 @@ try {
         document.write('<script src="i18n-extra.js?v=' + APP_VERSION + '"><\/script>');
         document.write('<script src="chess-logic.js?v=' + APP_VERSION + '"><\/script>');
         document.write('<script src="vendor/webm-muxer.min.js?v=' + APP_VERSION + '"><\/script>');
+        document.write('<script src="icons.js?v=' + APP_VERSION + '"><\/script>');
         document.write('<script src="app.js?v=' + APP_VERSION + '"><\/script>');
     </script>
 </body>

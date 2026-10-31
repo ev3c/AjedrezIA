@@ -7286,14 +7286,16 @@ async function executePostGameAnalysisOnline(uciMoves, startFrom = 0) {
             if (msgBox) {
                 const existingClose = msgBox.querySelector('.message-close-btn');
                 if (existingClose) existingClose.remove();
+                const existingAction = msgBox.querySelector('.message-action');
+                if (existingAction) existingAction.remove();
                 const btnRow = document.createElement('div');
                 btnRow.style.cssText = 'display:flex;gap:12px;justify-content:center;margin-top:14px;';
                 const acceptBtn = document.createElement('button');
-                acceptBtn.style.cssText = 'padding:9px 28px;background:#667eea;color:#fff;border:none;border-radius:6px;font-size:0.95rem;font-weight:600;cursor:pointer;';
+                acceptBtn.style.cssText = 'padding:9px 28px;background:var(--accent);color:#fff;border:none;border-radius:6px;font-size:0.95rem;font-weight:600;cursor:pointer;';
                 acceptBtn.textContent = t('accept');
                 acceptBtn.onclick = () => { hideMessage(); resolve(true); };
                 const cancelBtn = document.createElement('button');
-                cancelBtn.style.cssText = 'padding:9px 28px;background:#e5e7eb;color:#374151;border:none;border-radius:6px;font-size:0.95rem;font-weight:600;cursor:pointer;';
+                cancelBtn.style.cssText = 'padding:9px 28px;background:var(--color-surface-2);color:var(--color-text);border:1px solid var(--color-border-strong);border-radius:6px;font-size:0.95rem;font-weight:600;cursor:pointer;';
                 cancelBtn.textContent = t('cancel');
                 cancelBtn.onclick = () => { hideMessage(); resolve(false); };
                 btnRow.appendChild(acceptBtn);
@@ -8484,7 +8486,7 @@ function applyBoardZoom(zoom) {
     if (slider) {
         slider.value = zoom;
         const pct = (zoom - 70) / (120 - 70) * 100;
-        slider.style.background = `linear-gradient(to right, #6366f1 ${pct.toFixed(1)}%, #c7d2fe ${pct.toFixed(1)}%)`;
+        slider.style.background = `linear-gradient(to right, var(--accent) ${pct.toFixed(1)}%, var(--accent-border) ${pct.toFixed(1)}%)`;
     }
 }
 
@@ -8622,6 +8624,17 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '3.6.65': [
+        'changelog.3.6.63',
+        'changelog.3.6.62',
+        'changelog.3.6.61',
+        'changelog.3.6.60',
+        'changelog.3.6.59',
+        'changelog.3.6.58',
+        'changelog.3.6.57',
+        'changelog.3.6.56',
+        'changelog.more',
+    ],
     '3.6.55': [
         'changelog.3.6.55',
         'changelog.more',
@@ -9035,7 +9048,8 @@ function showVersionChangelog() {
     let msg = `<strong>${t('newVersion', { v: APP_VERSION })}</strong>`;
     allVersions.forEach(v => {
         const changes = VERSION_CHANGELOG[v] || [];
-        msg += `<div style="margin-top:10px;"><strong>v${v}</strong></div>`;
+        const label = v === '3.6.65' ? '3.6.56 – 3.6.65' : v;
+        msg += `<div style="margin-top:10px;"><strong>v${label}</strong></div>`;
         if (changes.length) {
             msg += '<ul style="text-align:left;margin:6px 0 0;padding-left:18px;font-size:0.9em;">';
             changes.forEach(c => msg += `<li>${t(c, null, c)}</li>`);
@@ -9508,9 +9522,19 @@ function showMessage(message, type = 'info', duration = 3000, onClose = null) {
     if (duration === 0) {
         const closeBtn = document.createElement('button');
         closeBtn.className = 'message-close-btn';
+        closeBtn.type = 'button';
         closeBtn.textContent = '✕';
         closeBtn.onclick = hideMessage;
         messageBox.appendChild(closeBtn);
+        const hasOwnButtons = isShareModal || /<button\b/i.test(String(message));
+        if (!hasOwnButtons) {
+            const action = document.createElement('button');
+            action.type = 'button';
+            action.className = 'message-action';
+            action.textContent = String(message).indexOf('notice-action-start') !== -1 ? t('start') : t('ok');
+            action.onclick = hideMessage;
+            messageBox.appendChild(action);
+        }
     }
     
     overlay.innerHTML = '';
@@ -9920,17 +9944,17 @@ function sendHeartbeat() {
 
 // ── Modal de usuarios online ───────────────────────────────────────────────
 
-// Fecha de referencia a partir de la cual la comunidad "crece" un 3% cada
-// día (usuarios registrados mostrados y jugadores online ocupados). Es un
-// crecimiento simulado, compuesto diariamente, para dar sensación de una
-// comunidad viva sin depender de datos reales.
-const COMMUNITY_GROWTH_EPOCH = new Date('2026-08-11T00:00:00');
-const COMMUNITY_DAILY_GROWTH_RATE = 1.03;
+// Crecimiento simulado de la comunidad (registrados mostrados y ocupados).
+// Hasta el 2026-10-31 iba al 3% diario desde el 2026-08-11 (81 días).
+// A partir de esa fecha sube un 0,3% compuesto cada día, sin rebajar la cifra ya alcanzada.
+const COMMUNITY_GROWTH_EPOCH = new Date('2026-10-31T00:00:00');
+const COMMUNITY_DAILY_GROWTH_RATE = 1.003;
+const COMMUNITY_GROWTH_BASE = Math.pow(1.03, 81);
 
 function getCommunityGrowthFactor() {
     const msPerDay = 24 * 60 * 60 * 1000;
     const daysElapsed = Math.max(0, Math.floor((Date.now() - COMMUNITY_GROWTH_EPOCH.getTime()) / msPerDay));
-    return Math.pow(COMMUNITY_DAILY_GROWTH_RATE, daysElapsed);
+    return COMMUNITY_GROWTH_BASE * Math.pow(COMMUNITY_DAILY_GROWTH_RATE, daysElapsed);
 }
 
 function buildGeneratedDemoUsers(startNum, count) {
@@ -10137,9 +10161,9 @@ function fetchAndRenderUsers() {
             { id:'demo149', nick:'diagonal_libre',      elo:1650 },
             { id:'demo150', nick:'centro_avanzado',     elo:2050 },
         ];
-        // El tamaño del grupo "extra" y su proporción de ocupados crecen un
-        // 3% cada día desde COMMUNITY_GROWTH_EPOCH para simular una
-        // comunidad que va ganando actividad con el tiempo.
+        // El tamaño del grupo "extra" y su proporción de ocupados siguen
+        // getCommunityGrowthFactor() para simular una comunidad que va
+        // ganando actividad con el tiempo.
         const growthFactor = getCommunityGrowthFactor();
         const EXTRA_DEMO_BASE_COUNT = 180;
         const EXTRA_DEMO_BASE_BUSY = 80;
@@ -10155,8 +10179,8 @@ function fetchAndRenderUsers() {
         );
 
         // Asignar estado online/ocupado aleatoriamente sobre el grupo base;
-        // esta cantidad también crece un 3% diario (con tope en el tamaño
-        // del grupo). Los jugadores falsos nunca se muestran como
+        // esta cantidad también sigue el crecimiento diario (con tope en el
+        // tamaño del grupo). Los jugadores falsos nunca se muestran como
         // disponibles (verde), solo ocupados u offline.
         const baseBusyCount = Math.min(demoBase.length, Math.round(25 * growthFactor));
         const shuffled = demoBase.slice().sort(function() { return Math.random() - 0.5; });
@@ -10220,8 +10244,8 @@ function fetchAndRenderUsers() {
 
 function renderUsersList(users, listEl, subtitleEl) {
     const allUsers = Array.isArray(users) ? users : [];
-    // El "padding" de usuarios registrados también crece un 3% diario desde
-    // COMMUNITY_GROWTH_EPOCH, para reflejar el crecimiento de la comunidad.
+    // El "padding" de usuarios registrados sigue el mismo crecimiento diario,
+    // para reflejar el crecimiento de la comunidad.
     const REGISTERED_USERS_BASE_OFFSET = 10000;
     const registeredOffset = Math.round(REGISTERED_USERS_BASE_OFFSET * getCommunityGrowthFactor());
     const registeredDisplay = allUsers.length + registeredOffset;
@@ -13363,6 +13387,12 @@ document.addEventListener('DOMContentLoaded', () => {
         saveSettings();
     });
 
+    const uiThemeSelect = document.getElementById('ui-theme');
+    if (uiThemeSelect && typeof window.ajedreziaApplyUiTheme === 'function') {
+        uiThemeSelect.value = window.ajedreziaGetUiTheme();
+        uiThemeSelect.addEventListener('change', (e) => window.ajedreziaApplyUiTheme(e.target.value));
+    }
+
     document.getElementById('board-theme').addEventListener('change', (e) => {
         boardTheme = e.target.value;
         saveSettings();
@@ -15972,7 +16002,7 @@ function startOpeningQuiz() {
     document.getElementById('quiz-correct-count').textContent = '0';
     document.getElementById('quiz-wrong-count').textContent = '0';
     document.getElementById('quiz-score').style.display = 'flex';
-    document.getElementById('opening-training-moves').style.display = 'none';
+    document.getElementById('opening-training-moves').style.display = '';
 
     renderBoard();
     updateCapturedPieces();
@@ -15984,7 +16014,12 @@ function startOpeningQuiz() {
     updateShareButton();
     const openingKey = getSelectedOpeningKey();
     const openingTitle = openingKey ? openingNameOf(openingKey, trainingOpening) : trainingOpening.name;
-    showMessage(t('quiz.intro', { name: openingTitle, san: trainingOpening.san }), 'info', 0);
+    const quizMoveCount = quizMoves.filter(Boolean).length;
+    showMessage(t('quiz.intro', { name: openingTitle, n: quizMoveCount, san: trainingOpening.san }), 'info', 0, () => {
+        if (!quizMode) return;
+        const movesEl = document.getElementById('opening-training-moves');
+        if (movesEl) movesEl.style.display = 'none';
+    });
 }
 
 function quizCheckMove(fromRow, fromCol, toRow, toCol, promotionPiece) {
@@ -16089,7 +16124,14 @@ function quizFinished() {
     const openingKeyDone = getSelectedOpeningKey();
     const openingTitleDone = openingKeyDone ? openingNameOf(openingKeyDone, trainingOpening) : trainingOpening.name;
     showMessage(
-        t('quiz.done', { name: openingTitleDone, ok: quizCorrect, fail: quizWrong, pct: pct, elo: (quizEloDelta >= 0 ? '+' : '') + quizEloDelta }),
+        t('quiz.done', {
+            name: openingTitleDone,
+            ok: quizCorrect,
+            fail: quizWrong,
+            pct: pct,
+            elo: (quizEloDelta >= 0 ? '+' : '') + quizEloDelta,
+            san: trainingOpening.san
+        }),
         'success',
         0,
         () => {

@@ -424,8 +424,8 @@
   "lib.summary": "~{players} joueurs · ~{games} parties",
   "lib.unavailable": "Bibliothèque indisponible",
   "lib.loadingGames": "⏳ Chargement des parties de {name}…",
-  "quiz.intro": "<strong>Quiz : {name}</strong><br>Joue tous les coups corrects (blancs et noirs)<br><br><strong>Coups :</strong> {san}",
-  "quiz.done": "<strong>Quiz terminé : {name}</strong><br>Réussites : {ok} | Erreurs : {fail} | Précision : {pct}%<br>ELO du quiz : {elo}",
+  "quiz.intro": "<span class=\"notice-action-start\"></span><p class=\"notice-kicker\">Quiz</p><strong>{name}</strong><p class=\"notice-body\">Tu joues les deux camps, un coup à la fois. En cas d’erreur, les cases sont marquées et tu peux réessayer.</p><p class=\"notice-line\"><span>Ligne</span>{san}</p><p class=\"notice-count\"><b>{n}</b><span>coups</span></p>",
+  "quiz.done": "<p class=\"notice-kicker\">Quiz</p><strong>Quiz terminé</strong><p class=\"notice-body\">{name}</p><div class=\"quiz-stats\"><div><b>{ok}</b><span>Réussites</span></div><div><b>{fail}</b><span>Erreurs</span></div><div><b>{pct}%</b><span>Précision</span></div><div><b>{elo}</b><span>ELO</span></div></div><p class=\"notice-line\"><span>Ligne</span>{san}</p>",
   "insight.example": "💡 Exemple : joli coup ! Tu contrôles le centre de l'échiquier.",
   "msg.invalidLinkMoves": "Le lien de la partie ne contient pas de coups valides",
   "msg.illegalLinkMove": "Impossible de rejouer toute la partie du lien. Coup illégal : {uci}",
@@ -1500,5 +1500,16 @@
   "changelog.3.6.53": "La fenêtre de partage défile si elle ne tient pas à l’écran",
   "changelog.3.6.54": "Dans Apprends les échecs, le libellé affiche (bêta) au lieu de En construction",
   "feedback.osLine": "Système d’exploitation : {os}",
-  "changelog.3.6.55": "Le signalement à info@ajedrezia.com inclut le système d’exploitation"
+  "changelog.3.6.55": "Le signalement à info@ajedrezia.com inclut le système d’exploitation",
+  "changelog.3.6.56": "Échiquier plus lisible : les surlignages ne masquent plus la couleur des cases, les repères s’adaptent à la taille et le focus clavier est visible",
+  "changelog.3.6.57": "Style visuel unifié : une seule couleur d’accent, des boutons hiérarchisés et des en-têtes de panneau plus légers",
+  "config.appearance": "Apparence :",
+  "appearance.auto": "Automatique (système)",
+  "appearance.light": "Claire",
+  "appearance.dark": "Sombre",
+  "changelog.3.6.58": "Mode sombre (automatique, clair ou sombre dans Paramètres) et icônes vectorielles à la place des emojis sur les boutons et panneaux",
+  "changelog.3.6.59": "Avis plus clairs : le quiz ne montre plus la solution, le résultat est en chiffres, et chaque avis a un titre sombre, un texte gris et un bouton",
+  "changelog.3.6.60": "Le quiz affiche de nouveau la ligne de coups, dans l’avis et dans le panneau de l’ouverture",
+  "changelog.3.6.61": "Commencer dans le quiz masque les coups affichés sous le nom de l’ouverture",
+  "changelog.3.6.62": "La connexion n’affiche plus le texte des conditions et de la confidentialité"
 }

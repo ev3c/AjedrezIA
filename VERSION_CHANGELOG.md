@@ -2,6 +2,48 @@
 
 ---
 
+## v3.6.56 – v3.6.65 — 2026-10-31
+
+### Paneles
+- Los títulos desplegables tienen un fondo índigo suave (`--accent-soft`). El texto sigue en el color de texto y el icono en el acento.
+
+### Inicio de sesión
+- Se quita el texto «Al continuar aceptas los Términos de servicio y la Política de privacidad».
+
+### Quiz
+- Al pulsar **Comenzar**, se ocultan los movimientos que aparecen bajo el nombre de la apertura. La línea sigue en el aviso.
+- El aviso de inicio muestra la **línea de movimientos**.
+- Esa misma línea permanece visible en el panel de la apertura mientras dura el quiz.
+- El aviso explica que se juegan los dos bandos y cuántos movimientos hay, con un botón **Comenzar**.
+- Al terminar, aciertos, fallos, precisión y ELO van en cifras, y la línea completa aparece en el resultado.
+
+### Avisos
+- Todos los cuadros de aviso usan título oscuro y texto gris, con el color solo en el borde. Los que no se cierran solos tienen un botón **OK** (además de la ✕).
+
+### Modo oscuro
+- Nueva opción **Apariencia** en Configuración: Automática (sigue al sistema), Clara u Oscura. Se aplica antes de pintar la página, sin destello claro.
+- `theme-dark.css` se genera desde `style.css` con `node tools/build-dark-theme.mjs` (fondos claros → oscuros, textos oscuros → claros, bordes atenuados). El tablero y las piezas conservan sus colores.
+- La barra de la app en móvil (`theme-color`) cambia con la apariencia.
+
+### Iconos
+- Los emojis de cabeceras de panel, botones de acción, barra bajo el tablero, navegación de jugadas y flechas de plegado se sustituyen por **iconos SVG** monocromos (`icons.js`, trazos estilo Lucide) que heredan el color del botón.
+- Funciona con todos los idiomas: el emoji de la traducción se elimina y se antepone el icono, también cuando el texto cambia desde JS.
+
+### Estilo visual unificado
+- **Variables de diseño** en `:root` (colores, radios, sombras, tamaños de letra y fuentes) como base para futuros cambios y un posible modo oscuro.
+- **Un solo color de acento** (índigo): desaparece el degradado morado de modales, pestañas, barras de progreso y botones de login.
+- **Botones con jerarquía**: verde sólido solo para Nueva partida y Compartir; acento suave para acciones principales; neutro para el resto; verde y rojo suaves para Continuar y Abandonar. Sin saltos al pasar el ratón.
+- **Cabeceras de panel claras** (texto oscuro con línea fina) en lugar de bloques gris oscuro, para que el tablero destaque.
+- Fuente del sistema en todas las plataformas y una sola fuente monoespaciada para la notación.
+
+### Estilo del tablero y accesibilidad
+- El **último movimiento**, la casilla seleccionada y la mejor jugada se superponen al color de la casilla en lugar de taparlo (se distingue claro/oscuro en todos los temas, también en 3D).
+- Los **puntos de movimiento** y los **aros de captura** escalan con el tamaño del tablero y usan un verde oscuro translúcido.
+- **Foco de teclado visible** (`:focus-visible`) en botones, enlaces, slider de zoom y casillas.
+- Más **contraste** en textos secundarios grises (botones de cerrar, avisos vacíos, textos del login, etiquetas del historial).
+
+---
+
 ## v3.6.55 — 2026-10-27
 
 ### Comentarios

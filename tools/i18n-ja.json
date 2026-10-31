@@ -424,8 +424,8 @@
   "lib.summary": "約 {players} 人 · 約 {games} 局",
   "lib.unavailable": "ライブラリは利用できません",
   "lib.loadingGames": "⏳ {name} の対局を読み込み中…",
-  "quiz.intro": "<strong>クイズ：{name}</strong><br>正しい手をすべて指してください（白と黒）<br><br><strong>手順：</strong> {san}",
-  "quiz.done": "<strong>クイズ完了：{name}</strong><br>正解：{ok} | ミス：{fail} | 正答率：{pct}%<br>クイズ ELO：{elo}",
+  "quiz.intro": "<span class=\"notice-action-start\"></span><p class=\"notice-kicker\">クイズ</p><strong>{name}</strong><p class=\"notice-body\">白と黒の両方を、1手ずつ指します。間違えるとマスが示され、やり直すことができます。</p><p class=\"notice-line\"><span>手順</span>{san}</p><p class=\"notice-count\"><b>{n}</b><span>手</span></p>",
+  "quiz.done": "<p class=\"notice-kicker\">クイズ</p><strong>クイズ完了</strong><p class=\"notice-body\">{name}</p><div class=\"quiz-stats\"><div><b>{ok}</b><span>正解</span></div><div><b>{fail}</b><span>ミス</span></div><div><b>{pct}%</b><span>正答率</span></div><div><b>{elo}</b><span>ELO</span></div></div><p class=\"notice-line\"><span>手順</span>{san}</p>",
   "insight.example": "💡 例：好手！盤のセンターを支配しています。",
   "msg.invalidLinkMoves": "対局リンクに有効な手がありません",
   "msg.illegalLinkMove": "リンクの対局を最後まで再現できませんでした。非合法手：{uci}",
@@ -1500,5 +1500,16 @@
   "changelog.3.6.53": "共有画面が収まらないときはスクロールできます",
   "changelog.3.6.54": "「チェスを学ぶ」の表示を「工事中」から (ベータ) に変更",
   "feedback.osLine": "OS: {os}",
-  "changelog.3.6.55": "info@ajedrezia.com への報告に OS が含まれます"
+  "changelog.3.6.55": "info@ajedrezia.com への報告に OS が含まれます",
+  "changelog.3.6.56": "盤面がより見やすく：ハイライトがマスの色を隠さず、移動マーカーが盤サイズに合わせて拡大縮小し、キーボードフォーカスが表示されます",
+  "changelog.3.6.57": "ビジュアルを統一：アクセントカラーを1色に、ボタンの階層を明確にし、パネル見出しを軽くしました",
+  "config.appearance": "外観：",
+  "appearance.auto": "自動（システム）",
+  "appearance.light": "ライト",
+  "appearance.dark": "ダーク",
+  "changelog.3.6.58": "ダークモード（設定で自動・ライト・ダークを選択）と、ボタンやパネルの絵文字をベクターアイコンに置き換え",
+  "changelog.3.6.59": "通知を見やすく：クイズは答えを先に出さず、結果は数字で表示。すべての通知は濃い見出し、灰色の本文、ボタン付きです",
+  "changelog.3.6.60": "クイズの手順を、通知とオープニングパネルに再び表示します",
+  "changelog.3.6.61": "クイズで開始を押すと、オープニング名の下の手順が隠れます",
+  "changelog.3.6.62": "ログイン画面から利用規約とプライバシーの文を削除"
 }

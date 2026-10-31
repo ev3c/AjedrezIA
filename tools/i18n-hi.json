@@ -424,8 +424,8 @@
   "lib.summary": "~{players} खिलाड़ी · ~{games} गेम",
   "lib.unavailable": "लाइब्रेरी उपलब्ध नहीं",
   "lib.loadingGames": "⏳ {name} के गेम लोड हो रहे हैं…",
-  "quiz.intro": "<strong>क्विज़: {name}</strong><br>हर सही चाल खेलो (सफ़ेद और काला)<br><br><strong>चालें:</strong> {san}",
-  "quiz.done": "<strong>क्विज़ पूरा: {name}</strong><br>सही: {ok} | गलत: {fail} | सटीकता: {pct}%<br>क्विज़ ELO: {elo}",
+  "quiz.intro": "<span class=\"notice-action-start\"></span><p class=\"notice-kicker\">क्विज़</p><strong>{name}</strong><p class=\"notice-body\">आप दोनों पक्षों से एक-एक चाल खेलते हैं। गलत होने पर खाने चिह्नित होते हैं और आप दोबारा कोशिश कर सकते हैं।</p><p class=\"notice-line\"><span>पंक्ति</span>{san}</p><p class=\"notice-count\"><b>{n}</b><span>चालें</span></p>",
+  "quiz.done": "<p class=\"notice-kicker\">क्विज़</p><strong>क्विज़ पूरा</strong><p class=\"notice-body\">{name}</p><div class=\"quiz-stats\"><div><b>{ok}</b><span>सही</span></div><div><b>{fail}</b><span>गलत</span></div><div><b>{pct}%</b><span>सटीकता</span></div><div><b>{elo}</b><span>ELO</span></div></div><p class=\"notice-line\"><span>पंक्ति</span>{san}</p>",
   "insight.example": "💡 उदाहरण: बढ़िया चाल! तुम बोर्ड के केंद्र को नियंत्रित करते हो।",
   "msg.invalidLinkMoves": "गेम लिंक में मान्य चालें नहीं हैं",
   "msg.illegalLinkMove": "पूरा लिंक किया गेम नहीं चलाया जा सका। अवैध चाल: {uci}",
@@ -1500,5 +1500,16 @@
   "changelog.3.6.53": "शेयर विंडो स्क्रीन में न समाए तो स्क्रॉल की जा सकती है",
   "changelog.3.6.54": "«शतरंज सीखो» में लेबल «निर्माणाधीन» की जगह (बीटा) दिखाता है",
   "feedback.osLine": "ऑपरेटिंग सिस्टम: {os}",
-  "changelog.3.6.55": "info@ajedrezia.com पर रिपोर्ट में ऑपरेटिंग सिस्टम शामिल है"
+  "changelog.3.6.55": "info@ajedrezia.com पर रिपोर्ट में ऑपरेटिंग सिस्टम शामिल है",
+  "changelog.3.6.56": "साफ़ बोर्ड: हाइलाइट अब खाने का रंग नहीं छिपाते, चाल चिह्न बोर्ड के आकार के अनुसार बदलते हैं और कीबोर्ड फ़ोकस दिखता है",
+  "changelog.3.6.57": "एकीकृत दृश्य शैली: एक ही उभार रंग, स्पष्ट क्रम वाले बटन और हल्के पैनल शीर्षक",
+  "config.appearance": "रूप:",
+  "appearance.auto": "स्वचालित (सिस्टम)",
+  "appearance.light": "हल्का",
+  "appearance.dark": "गहरा",
+  "changelog.3.6.58": "डार्क मोड (सेटिंग्स में स्वचालित, हल्का या गहरा) और बटनों व पैनलों पर इमोजी की जगह वेक्टर आइकन",
+  "changelog.3.6.59": "स्पष्ट सूचनाएँ: क्विज़ अब उत्तर पहले नहीं दिखाता, परिणाम अंकों में है, और हर सूचना में गहरा शीर्षक, धूसर पाठ और एक बटन है",
+  "changelog.3.6.60": "क्विज़ चालों की पंक्ति फिर दिखाता है, सूचना में और ओपनिंग पैनल में",
+  "changelog.3.6.61": "क्विज़ में शुरू दबाने पर ओपनिंग नाम के नीचे की चालें छिप जाती हैं",
+  "changelog.3.6.62": "साइन-इन से नियम और गोपनीयता का पाठ हटा दिया गया"
 }

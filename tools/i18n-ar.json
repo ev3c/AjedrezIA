@@ -424,8 +424,8 @@
   "lib.summary": "~{players} لاعبين · ~{games} مباريات",
   "lib.unavailable": "المكتبة غير متاحة",
   "lib.loadingGames": "⏳ جارٍ تحميل مباريات {name}…",
-  "quiz.intro": "<strong>اختبار: {name}</strong><br>العب كل نقلة صحيحة (الأبيض والأسود)<br><br><strong>النقلات:</strong> {san}",
-  "quiz.done": "<strong>اكتمل الاختبار: {name}</strong><br>إصابات: {ok} | أخطاء: {fail} | دقة: {pct}%<br>ELO الاختبار: {elo}",
+  "quiz.intro": "<span class=\"notice-action-start\"></span><p class=\"notice-kicker\">اختبار</p><strong>{name}</strong><p class=\"notice-body\">تلعب بالطرفين، نقلة نقلة. إذا أخطأت تُعلَّم المربعات ويمكنك المحاولة مرة أخرى.</p><p class=\"notice-line\"><span>الخط</span>{san}</p><p class=\"notice-count\"><b>{n}</b><span>النقلات</span></p>",
+  "quiz.done": "<p class=\"notice-kicker\">اختبار</p><strong>اكتمل الاختبار</strong><p class=\"notice-body\">{name}</p><div class=\"quiz-stats\"><div><b>{ok}</b><span>إصابات</span></div><div><b>{fail}</b><span>أخطاء</span></div><div><b>{pct}%</b><span>الدقة</span></div><div><b>{elo}</b><span>ELO</span></div></div><p class=\"notice-line\"><span>الخط</span>{san}</p>",
   "insight.example": "💡 مثال: نقلة رائعة! تسيطر على وسط الرقعة.",
   "msg.invalidLinkMoves": "رابط المباراة لا يحتوي نقلات صالحة",
   "msg.illegalLinkMove": "تعذّر إعادة تشغيل المباراة كاملة من الرابط. نقلة غير قانونية: {uci}",
@@ -1500,5 +1500,16 @@
   "changelog.3.6.53": "يمكن تمرير نافذة المشاركة إذا لم تتسع للشاشة",
   "changelog.3.6.54": "في «تعلّم الشطرنج» يظهر (تجريبي) بدل «قيد الإنشاء»",
   "feedback.osLine": "نظام التشغيل: {os}",
-  "changelog.3.6.55": "التقرير إلى info@ajedrezia.com يتضمن نظام التشغيل"
+  "changelog.3.6.55": "التقرير إلى info@ajedrezia.com يتضمن نظام التشغيل",
+  "changelog.3.6.56": "رقعة أوضح: التظليل لم يعد يخفي لون المربع، وعلامات النقلات تتكيف مع الحجم، وتركيز لوحة المفاتيح مرئي",
+  "changelog.3.6.57": "نمط بصري موحّد: لون إبراز واحد، وأزرار بتسلسل واضح، وعناوين لوحات أخف",
+  "config.appearance": "المظهر:",
+  "appearance.auto": "تلقائي (النظام)",
+  "appearance.light": "فاتح",
+  "appearance.dark": "داكن",
+  "changelog.3.6.58": "الوضع الداكن (تلقائي أو فاتح أو داكن من الإعدادات) وأيقونات متجهة بدل الرموز التعبيرية في الأزرار واللوحات",
+  "changelog.3.6.59": "تنبيهات أوضح: الاختبار لم يعد يعرض الحل، والنتيجة بالأرقام، وكل التنبيهات بعنوان داكن ونص رمادي وزر",
+  "changelog.3.6.60": "يعرض الاختبار خط النقلات من جديد، في التنبيه وفي لوحة الافتتاح",
+  "changelog.3.6.61": "عند الضغط على ابدأ في الاختبار تُخفى النقلات تحت اسم الافتتاح",
+  "changelog.3.6.62": "لم تعد شاشة تسجيل الدخول تعرض نص الشروط والخصوصية"
 }
