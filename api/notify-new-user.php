@@ -70,6 +70,7 @@ $uid      = htmlspecialchars(trim($data['id']       ?? ''), ENT_QUOTES, 'UTF-8')
 $originType   = htmlspecialchars(trim($data['origin_type']   ?? ''), ENT_QUOTES, 'UTF-8');
 $originDetail = htmlspecialchars(trim($data['origin_detail'] ?? ''), ENT_QUOTES, 'UTF-8');
 $originUrl    = htmlspecialchars(trim($data['origin_url']    ?? ''), ENT_QUOTES, 'UTF-8');
+$os           = htmlspecialchars(trim($data['os']           ?? ''), ENT_QUOTES, 'UTF-8');
 $ts       = date('d/m/Y H:i:s');
 $ip       = notify_client_ip();
 $country  = notify_country_from_ip($ip);
@@ -106,6 +107,7 @@ $body .= "ID de usuario     : " . ($uid !== '' ? $uid : '—') . "\n";
 $body .= "Fecha y hora      : {$ts}\n";
 $body .= "IP de origen      : {$ip}\n";
 $body .= "País de origen    : {$country}\n";
+$body .= "Sistema operativo : " . ($os !== '' ? $os : '—') . "\n";
 if ($type === 'access') {
     $body .= "Tipo de enlace    : " . ($originType !== '' ? $originType : 'www.ajedrezia.com') . "\n";
     if ($originDetail !== '') {

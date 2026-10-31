@@ -8624,7 +8624,7 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
-    '3.6.65': [
+    '3.6.66': [
         'changelog.3.6.63',
         'changelog.3.6.62',
         'changelog.3.6.61',
@@ -9848,6 +9848,7 @@ function notifyUserConnection(user, type) {
             origin_type:   origin ? (origin.type || '') : '',
             origin_detail: origin ? (origin.detail || '') : '',
             origin_url:    origin ? (origin.url || '') : '',
+            os:            getClientOS(),
         }),
     }).catch(function() {});
 }

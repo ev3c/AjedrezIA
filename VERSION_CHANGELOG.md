@@ -2,6 +2,13 @@
 
 ---
 
+## v3.6.66 — 2026-10-31
+
+### Acceso a la web
+- El aviso que se envía a info@ajedrezia.com al abrir el sitio incluye el sistema operativo.
+
+---
+
 ## v3.6.56 – v3.6.65 — 2026-10-31
 
 ### Paneles
