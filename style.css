@@ -109,6 +109,82 @@ header h1 {
     outline-offset: -3px;
 }
 
+.install-prompt {
+    display: none;
+    justify-content: center;
+    margin: 2px 0 10px;
+}
+
+.install-prompt.is-visible {
+    display: flex;
+}
+
+.install-prompt-bubble {
+    position: relative;
+    max-width: min(420px, 92vw);
+    background: #1f2937;
+    color: #fff;
+    border-radius: 16px;
+    padding: 12px 36px 12px 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+}
+
+.install-prompt-bubble::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 8px solid transparent;
+    border-top-width: 0;
+    border-bottom-color: #1f2937;
+}
+
+.install-prompt-text {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    font-size: 0.95rem;
+    font-weight: 600;
+    line-height: 1.35;
+    text-align: center;
+    cursor: pointer;
+}
+
+.install-prompt-close {
+    position: absolute;
+    top: 4px;
+    right: 6px;
+    width: 28px;
+    height: 28px;
+    border: 0;
+    border-radius: 999px;
+    background: transparent;
+    color: #e5e7eb;
+    font-size: 1.15rem;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.install-prompt-close:hover,
+.install-prompt-close:focus-visible {
+    background: rgba(255, 255, 255, 0.12);
+}
+
+html[dir="rtl"] .install-prompt-bubble {
+    padding: 12px 16px 12px 36px;
+}
+
+html[dir="rtl"] .install-prompt-close {
+    right: auto;
+    left: 6px;
+}
+
 .lang-switch {
     display: inline-flex;
     align-items: center;
@@ -5968,6 +6044,17 @@ body.app-access-locked .container {
 
 /* ── Informar de errores/mejoras ────────────────────────────────────── */
 .feedback-card { max-width: 440px; }
+.feedback-card > .login-modal-buttons,
+.feedback-prompt-card > .login-modal-buttons {
+    flex-direction: row;
+    align-items: stretch;
+}
+.feedback-card > .login-modal-buttons > .login-btn,
+.feedback-prompt-card > .login-modal-buttons > .login-btn {
+    flex: 1 1 0;
+    width: auto;
+    min-width: 0;
+}
 .feedback-prompt-card {
     max-width: 400px;
     display: flex;

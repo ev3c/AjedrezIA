@@ -2,6 +2,47 @@
 
 ---
 
+## v3.6.71 — 2026-11-01
+
+### Acceso a la web
+- El aviso a info@ajedrezia.com incluye la **medida de la pantalla**.
+
+### Instalación
+- En la **primera visita**, si la web no está instalada como app, se muestra una viñeta para instalarla.
+
+---
+
+## v3.6.70 — 2026-10-31
+
+### Informar de errores/mejoras
+- Los botones **Enviar** y **Cancelar** van uno al lado del otro.
+
+---
+
+## v3.6.69 — 2026-10-31
+
+### Informar de errores/mejoras
+- El botón del formulario dice **Enviar**.
+
+---
+
+## v3.6.68 — 2026-10-31
+
+### Acceso a la web
+- El aviso a info@ajedrezia.com se envía cada vez que se abre la web.
+
+### Jugadores en línea
+- Si un jugador inicia sesión, Chrome en Windows muestra su nombre. Al pulsar la notificación se le invita a una partida.
+
+---
+
+## v3.6.67 — 2026-10-31
+
+### Acceso a la web
+- El aviso a info@ajedrezia.com al abrir el sitio obtiene el sistema operativo en el servidor, a partir del navegador de la visita.
+
+---
+
 ## v3.6.66 — 2026-10-31
 
 ### Acceso a la web

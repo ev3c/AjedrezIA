@@ -1511,5 +1511,10 @@
   "changelog.3.6.59": "Klarere Hinweise: das Quiz zeigt die Lösung nicht mehr, das Ergebnis steht in Zahlen, und alle Hinweise haben dunklen Titel, grauen Text und eine Schaltfläche",
   "changelog.3.6.60": "Das Quiz zeigt die Zugfolge wieder, im Hinweis und im Eröffnungspanel",
   "changelog.3.6.61": "Start im Quiz blendet die Züge unter dem Eröffnungsnamen aus",
-  "changelog.3.6.62": "Die Anmeldung zeigt den Text zu Nutzungsbedingungen und Datenschutz nicht mehr"
+  "changelog.3.6.62": "Die Anmeldung zeigt den Text zu Nutzungsbedingungen und Datenschutz nicht mehr",
+  "user.cameOnlineBody": "Klicken, um zu einer Partie einzuladen",
+  "feedback.screenLine": "Bildschirm: {screen}",
+  "install.prompt": "Möchtest du die Website als App installieren?",
+  "changelog.3.6.71": "Die Meldung an info@ajedrezia.com enthält die Bildschirmgröße",
+  "changelog.3.6.71.install": "Beim ersten Besuch erscheint eine Sprechblase zum Installieren, wenn die Website nicht als App installiert ist"
 }

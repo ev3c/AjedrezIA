@@ -70,7 +70,12 @@ $uid      = htmlspecialchars(trim($data['id']       ?? ''), ENT_QUOTES, 'UTF-8')
 $originType   = htmlspecialchars(trim($data['origin_type']   ?? ''), ENT_QUOTES, 'UTF-8');
 $originDetail = htmlspecialchars(trim($data['origin_detail'] ?? ''), ENT_QUOTES, 'UTF-8');
 $originUrl    = htmlspecialchars(trim($data['origin_url']    ?? ''), ENT_QUOTES, 'UTF-8');
-$os           = htmlspecialchars(trim($data['os']           ?? ''), ENT_QUOTES, 'UTF-8');
+$osRaw        = ajz_client_os((string) ($data['os'] ?? ''), (string) ($data['ua'] ?? ''));
+$os           = htmlspecialchars($osRaw, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
+if ($os === '') $os = 'desconocido';
+$screenRaw    = ajz_client_screen((string) ($data['screen'] ?? ''));
+$screen       = htmlspecialchars($screenRaw, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
+if ($screen === '') $screen = 'desconocida';
 $ts       = date('d/m/Y H:i:s');
 $ip       = notify_client_ip();
 $country  = notify_country_from_ip($ip);
@@ -107,7 +112,8 @@ $body .= "ID de usuario     : " . ($uid !== '' ? $uid : '—') . "\n";
 $body .= "Fecha y hora      : {$ts}\n";
 $body .= "IP de origen      : {$ip}\n";
 $body .= "País de origen    : {$country}\n";
-$body .= "Sistema operativo : " . ($os !== '' ? $os : '—') . "\n";
+$body .= "Sistema operativo : {$os}\n";
+$body .= "Pantalla          : {$screen}\n";
 if ($type === 'access') {
     $body .= "Tipo de enlace    : " . ($originType !== '' ? $originType : 'www.ajedrezia.com') . "\n";
     if ($originDetail !== '') {
@@ -204,3 +210,61 @@ function smtp_send(string $subject, string $body): bool {
 
 $sent = smtp_send($subjectTxt, $body);
 echo json_encode(['ok' => $sent, 'method' => 'smtp']);
+
+function ajz_os_from_ua(string $ua, string $platformHint = ''): string {
+    $hint = trim($platformHint, "\"' \t");
+    if (preg_match('/Windows NT 10/i', $ua)) return 'Windows 10/11';
+    if (preg_match('/Windows NT 6\.3/i', $ua)) return 'Windows 8.1';
+    if (preg_match('/Windows NT 6\.2/i', $ua)) return 'Windows 8';
+    if (preg_match('/Windows NT 6\.1/i', $ua)) return 'Windows 7';
+    if (preg_match('/Windows/i', $ua) || strcasecmp($hint, 'Windows') === 0) return 'Windows';
+    if (preg_match('/Android ([\d.]+)/i', $ua, $m)) return 'Android ' . $m[1];
+    if (preg_match('/Android/i', $ua) || strcasecmp($hint, 'Android') === 0) return 'Android';
+    if (preg_match('/iPad/i', $ua) || strcasecmp($hint, 'iPadOS') === 0) {
+        if (preg_match('/OS (\d+)[._](\d+)/', $ua, $m)) return 'iPadOS ' . $m[1] . '.' . $m[2];
+        return 'iPadOS';
+    }
+    if (preg_match('/iPhone|iPod/i', $ua) || strcasecmp($hint, 'iOS') === 0) {
+        if (preg_match('/OS (\d+)[._](\d+)/', $ua, $m)) return 'iOS ' . $m[1] . '.' . $m[2];
+        return 'iOS';
+    }
+    if (preg_match('/CrOS/i', $ua) || strcasecmp($hint, 'Chrome OS') === 0) return 'Chrome OS';
+    if (preg_match('/Mac OS X (\d+)[._](\d+)/', $ua, $m)) return 'macOS ' . $m[1] . '.' . $m[2];
+    if (preg_match('/Mac OS X|Macintosh/i', $ua) || strcasecmp($hint, 'macOS') === 0) return 'macOS';
+    if (preg_match('/Linux/i', $ua) || strcasecmp($hint, 'Linux') === 0) return 'Linux';
+    if ($hint !== '') return $hint;
+    return '';
+}
+
+function ajz_client_screen(string $posted): string {
+    $posted = trim((string) (preg_replace('/[\x00-\x1F\x7F]/u', '', $posted) ?? ''));
+    $posted = preg_replace('/[^\d×xX\s\(\)\.,@]/u', '', $posted) ?? '';
+    $posted = trim(preg_replace('/\s+/', ' ', $posted) ?? '');
+    if (function_exists('mb_substr')) {
+        $posted = mb_substr($posted, 0, 80);
+    } else {
+        $posted = substr($posted, 0, 80);
+    }
+    $blank = ($posted === '' || $posted === '-' || $posted === '--' || $posted === '—');
+    return $blank ? '' : $posted;
+}
+
+function ajz_client_os(string $posted, string $postedUa = ''): string {
+    $posted = trim((string) (preg_replace('/[\x00-\x1F\x7F]/u', '', $posted) ?? ''));
+    if (function_exists('mb_substr')) {
+        $posted = mb_substr($posted, 0, 80);
+    } else {
+        $posted = substr($posted, 0, 80);
+    }
+    $blank = ($posted === '' || $posted === '-' || $posted === '--' || $posted === '—');
+    if (!$blank) return $posted;
+
+    $ua = trim($postedUa);
+    if ($ua === '') {
+        $ua = (string) ($_SERVER['HTTP_USER_AGENT'] ?? '');
+    }
+    $hint = (string) ($_SERVER['HTTP_SEC_CH_UA_PLATFORM'] ?? '');
+    $label = ajz_os_from_ua($ua, $hint);
+    if ($label === '') $label = 'desconocido';
+    return $label;
+}

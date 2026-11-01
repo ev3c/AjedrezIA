@@ -151,6 +151,14 @@ try {
                     <button type="button" class="lang-btn" data-lang="en" title="English">EN</button>
                 </span>
             </h1>
+            <div id="install-prompt" class="install-prompt" hidden>
+                <div class="install-prompt-bubble" role="status">
+                    <button type="button" class="install-prompt-close" id="install-prompt-close" data-i18n-title="close" data-i18n-aria="close" title="Cerrar" aria-label="Cerrar">✕</button>
+                    <button type="button" class="install-prompt-text" id="install-prompt-action">
+                        <span data-i18n="install.prompt">¿Quieres instalar la web como app?</span>
+                    </button>
+                </div>
+            </div>
             <p id="famous-game-title" class="famous-game-title"></p>
         </header>
 
@@ -1277,7 +1285,7 @@ try {
             <div class="invite-error" id="feedback-modal-error" style="display:none;"></div>
 
             <div class="login-modal-buttons" style="margin-top:18px;">
-                <button class="login-btn login-btn-play" id="feedback-send-btn" type="button" data-i18n="invite.send">📨 Enviar</button>
+                <button class="login-btn login-btn-play" id="feedback-send-btn" type="button" data-i18n="feedback.send">Enviar</button>
                 <button class="login-btn login-btn-signout" id="feedback-cancel-btn" type="button" data-i18n="cancel">Cancelar</button>
             </div>
         </div>

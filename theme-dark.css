@@ -47,6 +47,20 @@ html[data-theme="dark"] .version-tag {
     color: #ededed;
 }
 
+html[data-theme="dark"] .install-prompt-bubble {
+    background: #312e81;
+    color: #e0e7ff;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+html[data-theme="dark"] .install-prompt-bubble::before {
+    border-bottom-color: #312e81;
+}
+
+html[data-theme="dark"] .install-prompt-close {
+    color: #c7d2fe;
+}
+
 html[data-theme="dark"] :focus-visible,
 html[data-theme="dark"] .zoom-slider:focus-visible,
 html[data-theme="dark"] .share-app-item:focus-visible,

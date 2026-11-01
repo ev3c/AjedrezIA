@@ -8624,6 +8624,28 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '3.6.71': [
+        'changelog.3.6.71',
+        'changelog.3.6.71.install',
+        'changelog.more',
+    ],
+    '3.6.70': [
+        'changelog.3.6.70',
+        'changelog.more',
+    ],
+    '3.6.69': [
+        'changelog.3.6.69',
+        'changelog.more',
+    ],
+    '3.6.68': [
+        'changelog.3.6.68',
+        'changelog.3.6.68.login',
+        'changelog.more',
+    ],
+    '3.6.67': [
+        'changelog.3.6.67',
+        'changelog.more',
+    ],
     '3.6.66': [
         'changelog.3.6.63',
         'changelog.3.6.62',
@@ -9640,22 +9662,9 @@ function rememberKnownOnlineUser(userId) {
     return wasKnown;
 }
 
-const APP_OPEN_NOTIFY_MIN_MS = 5 * 60 * 1000;
-const APP_LAST_OPEN_KEY = 'ajedrezia_last_open_at';
-
-/** Avisa «Acceso a la web» en la primera apertura y si pasaron ≥5 min. */
+/** Avisa «Acceso a la web» en cada apertura. */
 function shouldNotifyAppOpen() {
-    const now = Date.now();
-    let lastOpen = 0;
-    try {
-        lastOpen = parseInt(localStorage.getItem(APP_LAST_OPEN_KEY) || '0', 10) || 0;
-    } catch (e) {}
-
-    const shouldNotify = lastOpen === 0 || (now - lastOpen) >= APP_OPEN_NOTIFY_MIN_MS;
-    try {
-        localStorage.setItem(APP_LAST_OPEN_KEY, String(now));
-    } catch (e) {}
-    return shouldNotify;
+    return true;
 }
 
 /** Detecta el tipo de enlace con el que se abrió AjedrezIA. */
@@ -9849,6 +9858,8 @@ function notifyUserConnection(user, type) {
             origin_detail: origin ? (origin.detail || '') : '',
             origin_url:    origin ? (origin.url || '') : '',
             os:            getClientOS(),
+            ua:            navigator.userAgent || '',
+            screen:        getClientScreenSize(),
         }),
     }).catch(function() {});
 }
@@ -9876,11 +9887,46 @@ function clearOnlineUser() {
 function requestNotificationPermission() {
     if (!('Notification' in window)) return;
     if (Notification.permission === 'granted' || Notification.permission === 'denied') return;
-    // El diálogo del sistema requiere un gesto del usuario; lo diferimos 1 s
-    // para que el modal de login ya haya cerrado y el contexto sea visible.
-    setTimeout(function() {
-        Notification.requestPermission().catch(function() {});
-    }, 1000);
+    try {
+        var req = Notification.requestPermission();
+        if (req && typeof req.catch === 'function') req.catch(function() {});
+    } catch (e) {}
+}
+
+/**
+ * Aviso de Chrome (toast de Windows) con el nombre de quien acaba de entrar.
+ * Al pulsarlo se le invita a una partida con el color y el tiempo actuales.
+ */
+function showUserCameOnline(user) {
+    var nick = (user && (user.nick || user.name)) || t('playerDefault');
+    if (showChromeUserNotification(user, nick)) return;
+    showOnlineToast(nick + ' — ' + t('user.cameOnlineBody'), 'connect', function() {
+        sendDirectInvite(user);
+    });
+}
+
+function showChromeUserNotification(user, nick) {
+    if (!user || !('Notification' in window)) return false;
+    if (Notification.permission !== 'granted') {
+        requestNotificationPermission();
+        return false;
+    }
+    try {
+        var notif = new Notification(nick, {
+            body: t('user.cameOnlineBody'),
+            icon: './icons/icon-192.png',
+            tag: 'ajedrezia-online-' + String(user.id || nick),
+            requireInteraction: true
+        });
+        notif.addEventListener('click', function() {
+            try { window.focus(); } catch (e) {}
+            notif.close();
+            sendDirectInvite(user);
+        });
+        return true;
+    } catch (e) {
+        return false;
+    }
 }
 
 /**
@@ -10695,6 +10741,7 @@ let _knownOnlineUserIds = null;     // Set con los IDs online conocidos; null = 
 function startOnlinePresencePolling() {
     stopOnlinePresencePolling();
     if (IS_LOCAL) return;
+    requestNotificationPermission();
     _onlinePresencePollTimer = setInterval(checkOnlinePresence, 30000);
     checkOnlinePresence();
 }
@@ -10736,7 +10783,7 @@ function checkOnlinePresence() {
             realOnline.forEach(function(u) {
                 const uid = String(u.id);
                 if (!_knownOnlineUserIds.has(uid)) {
-                    showOnlineToast('🟢 ' + (u.nick || u.name || 'Jugador') + ' se ha conectado', 'connect');
+                    showUserCameOnline(u);
                 }
             });
 
@@ -10754,7 +10801,7 @@ function checkOnlinePresence() {
         .catch(function(){});
 }
 
-function showOnlineToast(msg, type) {
+function showOnlineToast(msg, type, onClick) {
     // Toast no intrusivo en la esquina, sin bloquear el juego
     let container = document.getElementById('online-toast-container');
     if (!container) {
@@ -10769,13 +10816,21 @@ function showOnlineToast(msg, type) {
     const toast = document.createElement('div');
     toast.className = 'online-toast online-toast--' + type;
     toast.textContent = msg;
+    if (typeof onClick === 'function') {
+        toast.style.pointerEvents = 'auto';
+        toast.style.cursor = 'pointer';
+        toast.addEventListener('click', function() {
+            onClick();
+            if (toast.parentNode) toast.remove();
+        });
+    }
     container.appendChild(toast);
     // Aparición suave
     requestAnimationFrame(function() { toast.classList.add('online-toast--visible'); });
     setTimeout(function() {
         toast.classList.remove('online-toast--visible');
         setTimeout(function() { if (toast.parentNode) toast.remove(); }, 400);
-    }, 3500);
+    }, onClick ? 12000 : 3500);
 }
 
 function checkIncomingInvites() {
@@ -11686,9 +11741,31 @@ function getClientOS() {
     return plat || 'desconocido';
 }
 
+function getClientScreenSize() {
+    const sw = (typeof screen !== 'undefined' && screen.width) ? screen.width : 0;
+    const sh = (typeof screen !== 'undefined' && screen.height) ? screen.height : 0;
+    const vw = window.innerWidth || 0;
+    const vh = window.innerHeight || 0;
+    const dpr = (typeof window.devicePixelRatio === 'number' && window.devicePixelRatio > 0)
+        ? window.devicePixelRatio
+        : 1;
+    let label = '';
+    if (sw && sh) label = sw + '×' + sh;
+    if (vw && vh && (vw !== sw || vh !== sh)) {
+        label = label ? (label + ' (' + vw + '×' + vh + ')') : (vw + '×' + vh);
+    }
+    if (!label && vw && vh) label = vw + '×' + vh;
+    if (label && dpr && dpr !== 1) {
+        const dprLabel = (Math.round(dpr * 100) / 100);
+        label += ' @' + dprLabel + 'x';
+    }
+    return label || 'desconocida';
+}
+
 function applyInfoMailtoOs() {
     const osLine = t('feedback.osLine', { os: getClientOS() });
-    const href = 'mailto:info@ajedrezia.com?body=' + encodeURIComponent('\n\n---\n' + osLine + '\n');
+    const screenLine = t('feedback.screenLine', { screen: getClientScreenSize() });
+    const href = 'mailto:info@ajedrezia.com?body=' + encodeURIComponent('\n\n---\n' + osLine + '\n' + screenLine + '\n');
     document.querySelectorAll('a[href^="mailto:info@ajedrezia.com"]').forEach(function(a) {
         a.setAttribute('href', href);
     });
@@ -11716,7 +11793,9 @@ function sendFeedback() {
             error: errorText,
             mejora: improveText,
             url: location.href,
-            os: getClientOS()
+            os: getClientOS(),
+            ua: navigator.userAgent || '',
+            screen: getClientScreenSize()
         }),
     })
     .then(function(r) {
@@ -11743,6 +11822,7 @@ function sendFeedback() {
 (function initFeedbackModal() {
     document.addEventListener('DOMContentLoaded', function() {
         applyInfoMailtoOs();
+        initInstallPrompt();
         const openBtn = document.getElementById('feedback-open-btn');
         const overlay = document.getElementById('feedback-modal-overlay');
         if (!openBtn || !overlay) return;
@@ -11773,6 +11853,89 @@ function sendFeedback() {
         }
     });
 })();
+
+const INSTALL_PROMPT_SEEN_KEY = 'ajedrezia_install_prompt_seen';
+let _deferredPwaInstall = null;
+
+window.addEventListener('beforeinstallprompt', function(e) {
+    e.preventDefault();
+    _deferredPwaInstall = e;
+});
+
+window.addEventListener('appinstalled', function() {
+    _deferredPwaInstall = null;
+    hideInstallPrompt(true);
+});
+
+function isPwaInstalled() {
+    try {
+        if (window.matchMedia && (
+            window.matchMedia('(display-mode: standalone)').matches ||
+            window.matchMedia('(display-mode: fullscreen)').matches ||
+            window.matchMedia('(display-mode: minimal-ui)').matches
+        )) return true;
+        if (navigator.standalone === true) return true;
+        if (document.referrer && document.referrer.indexOf('android-app://') === 0) return true;
+    } catch (_e) {}
+    return false;
+}
+
+function hideInstallPrompt(remember) {
+    const el = document.getElementById('install-prompt');
+    if (el) {
+        el.hidden = true;
+        el.classList.remove('is-visible');
+    }
+    if (remember) {
+        try { localStorage.setItem(INSTALL_PROMPT_SEEN_KEY, '1'); } catch (_e) {}
+    }
+}
+
+function maybeShowInstallPrompt() {
+    if (isPwaInstalled()) return;
+    try {
+        if (localStorage.getItem(INSTALL_PROMPT_SEEN_KEY) === '1') return;
+    } catch (_e) {}
+    const el = document.getElementById('install-prompt');
+    if (!el) return;
+    el.hidden = false;
+    el.classList.add('is-visible');
+}
+
+function tryInstallFromPrompt() {
+    if (_deferredPwaInstall && typeof _deferredPwaInstall.prompt === 'function') {
+        const ev = _deferredPwaInstall;
+        _deferredPwaInstall = null;
+        Promise.resolve(ev.prompt()).then(function() {
+            return ev.userChoice;
+        }).catch(function() {}).then(function() {
+            hideInstallPrompt(true);
+        });
+        return;
+    }
+    hideInstallPrompt(true);
+}
+
+function initInstallPrompt() {
+    const el = document.getElementById('install-prompt');
+    if (!el) return;
+    const closeBtn = document.getElementById('install-prompt-close');
+    const actionBtn = document.getElementById('install-prompt-action');
+    if (closeBtn) {
+        closeBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            hideInstallPrompt(true);
+        });
+    }
+    if (actionBtn) {
+        actionBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            tryInstallFromPrompt();
+        });
+    }
+    setTimeout(maybeShowInstallPrompt, 500);
+}
 
 function updateOnlineButtonTooltip() {
     const btn = document.getElementById('opponent-btn-online');
