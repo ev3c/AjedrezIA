@@ -8625,25 +8625,9 @@ function scrollToBoard() {
 
 const VERSION_CHANGELOG = {
     '3.6.71': [
-        'changelog.3.6.71',
         'changelog.3.6.71.install',
-        'changelog.more',
-    ],
-    '3.6.70': [
         'changelog.3.6.70',
-        'changelog.more',
-    ],
-    '3.6.69': [
-        'changelog.3.6.69',
-        'changelog.more',
-    ],
-    '3.6.68': [
-        'changelog.3.6.68',
         'changelog.3.6.68.login',
-        'changelog.more',
-    ],
-    '3.6.67': [
-        'changelog.3.6.67',
         'changelog.more',
     ],
     '3.6.66': [
