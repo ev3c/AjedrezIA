@@ -5015,6 +5015,13 @@ html[dir="rtl"] #chess-board {
         box-sizing: border-box;
     }
 
+    #online-now-mobile {
+        order: 3 !important;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
     /* Orden en columna: Config → Aperturas → Partidas Maestras → Lliga CAT → Problemas → Aprende */
     #config-panel {
         order: 4 !important;

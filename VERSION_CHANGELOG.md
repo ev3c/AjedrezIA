@@ -2,6 +2,27 @@
 
 ---
 
+## v3.6.92 — 2026-11-02
+
+### Conectados
+- Al cerrar la página, el jugador sale de Conectados al momento.
+
+---
+
+## v3.6.91 — 2026-11-02
+
+### Conectados
+- El aviso verde de quien se conecta solo dice su nombre y «conectado», y no se puede pulsar.
+
+---
+
+## v3.6.90 — 2026-11-02
+
+### Móvil
+- En el móvil, Conectados aparece debajo de Nueva partida.
+
+---
+
 ## v3.6.89 — 2026-11-02
 
 ### Partida online

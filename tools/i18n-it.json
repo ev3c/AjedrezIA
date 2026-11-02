@@ -1512,7 +1512,7 @@
   "changelog.3.6.60": "Il quiz mostra di nuovo la linea di mosse, nell’avviso e nel pannello dell’apertura",
   "changelog.3.6.61": "Premendo Inizia nel quiz si nascondono le mosse sotto il nome dell’apertura",
   "changelog.3.6.62": "L’accesso non mostra più il testo su termini e privacy",
-  "user.cameOnlineBody": "Clicca per invitare a una partita",
+  "user.cameOnlineBody": "{name} connesso",
   "feedback.screenLine": "Schermo: {screen}",
   "install.prompt": "Vuoi installare il sito come app?",
   "changelog.3.6.71": "L’avviso a info@ajedrezia.com include la misura dello schermo",

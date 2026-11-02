@@ -34,7 +34,7 @@ try {
     $pdo->exec("ALTER TABLE ajedrezia_users ADD COLUMN status VARCHAR(20) DEFAULT 'available'");
 } catch (PDOException $e) { /* ya existe */ }
 
-// Online = last_seen dentro de los últimos 90 segundos
+// Online solo con un latido reciente. Al cerrar la página last_seen queda vacío.
 $rows = $pdo->query("
     SELECT
         id,
@@ -44,7 +44,7 @@ $rows = $pdo->query("
         last_login,
         status,
         CASE WHEN last_seen >= DATE_SUB(NOW(), INTERVAL 3 MINUTE)
-              OR (id LIKE 'guest-%' AND last_login >= DATE_SUB(NOW(), INTERVAL 3 MINUTE))
+              AND COALESCE(status, '') <> 'offline'
          THEN 1 ELSE 0 END AS online
     FROM ajedrezia_users
     ORDER BY online DESC, elo DESC

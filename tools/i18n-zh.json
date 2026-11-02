@@ -1512,7 +1512,7 @@
   "changelog.3.6.60": "测验再次显示着法，出现在提示和开局面板中",
   "changelog.3.6.61": "在测验中按开始后，开局名称下方的着法会被隐藏",
   "changelog.3.6.62": "登录界面不再显示条款和隐私文本",
-  "user.cameOnlineBody": "点击即可邀请对局",
+  "user.cameOnlineBody": "{name} 已上线",
   "feedback.screenLine": "屏幕：{screen}",
   "install.prompt": "要把网站安装成应用吗？",
   "changelog.3.6.71": "发给 info@ajedrezia.com 的通知包含屏幕尺寸",

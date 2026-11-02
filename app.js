@@ -8625,7 +8625,13 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
-    '3.6.89': [
+    '3.6.92': [
+        'changelog.3.6.92',
+        'changelog.more',
+    ],
+    '3.6.91': [
+        'changelog.3.6.91',
+        'changelog.3.6.90',
         'changelog.3.6.89',
         'changelog.3.6.88',
         'changelog.3.6.87',
@@ -8647,9 +8653,6 @@ const VERSION_CHANGELOG = {
         'changelog.3.6.73.list',
         'changelog.3.6.72',
         'changelog.3.6.72.list',
-        'changelog.more',
-    ],
-    '3.6.71': [
         'changelog.3.6.71.install',
         'changelog.3.6.70',
         'changelog.3.6.68.login',
@@ -9079,7 +9082,8 @@ function showVersionChangelog() {
     let msg = `<strong>${t('newVersion', { v: APP_VERSION })}</strong>`;
     allVersions.forEach(v => {
         const changes = VERSION_CHANGELOG[v] || [];
-        const label = v === '3.6.65' ? '3.6.56 – 3.6.65' : v;
+        const label = v === '3.6.91' ? '3.6.71 – 3.6.91'
+            : (v === '3.6.65' ? '3.6.56 – 3.6.65' : v);
         msg += `<div style="margin-top:10px;"><strong>v${label}</strong></div>`;
         if (changes.length) {
             msg += '<ul style="text-align:left;margin:6px 0 0;padding-left:18px;font-size:0.9em;">';
@@ -9911,34 +9915,25 @@ function requestNotificationPermission() {
 }
 
 /**
- * Aviso de Chrome (toast de Windows) con el nombre de quien acaba de entrar.
- * Al pulsarlo se le invita a una partida con el color y el tiempo actuales.
+ * Aviso con el nombre de quien acaba de entrar. No se puede pulsar.
  */
 function showUserCameOnline(user) {
     var nick = (user && (user.nick || user.name)) || t('playerDefault');
-    if (showChromeUserNotification(user, nick)) return;
-    showOnlineToast(nick + ' — ' + t('user.cameOnlineBody'), 'connect', function() {
-        sendDirectInvite(user);
-    });
+    var msg = t('user.cameOnlineBody', { name: nick });
+    if (showChromeUserNotification(user, nick, msg)) return;
+    showOnlineToast(msg, 'connect');
 }
 
-function showChromeUserNotification(user, nick) {
+function showChromeUserNotification(user, nick, msg) {
     if (!user || !('Notification' in window)) return false;
     if (Notification.permission !== 'granted') {
         requestNotificationPermission();
         return false;
     }
     try {
-        var notif = new Notification(nick, {
-            body: t('user.cameOnlineBody'),
+        new Notification(msg || nick, {
             icon: './icons/icon-192.png',
-            tag: 'ajedrezia-online-' + String(user.id || nick),
-            requireInteraction: true
-        });
-        notif.addEventListener('click', function() {
-            try { window.focus(); } catch (e) {}
-            notif.close();
-            sendDirectInvite(user);
+            tag: 'ajedrezia-online-' + String(user.id || nick)
         });
         return true;
     } catch (e) {
@@ -10867,7 +10862,7 @@ function startOnlineNowPolling() {
     _onlineNowTimer = setInterval(function() {
         if (document.visibilityState === 'hidden') return;
         refreshOnlineNowList();
-    }, 5000);
+    }, 2000);
     if (!startOnlineNowPolling._visibilityBound) {
         startOnlineNowPolling._visibilityBound = true;
         document.addEventListener('visibilitychange', function() {
@@ -10913,8 +10908,45 @@ function refreshOnlineNowList() {
     attempt(0);
 }
 
+let _seenOnlineIds = null;
+let _presenceHealAt = 0;
+
+function announceDisconnects(users) {
+    const me = getOnlineUser();
+    const realOnline = (Array.isArray(users) ? users : []).filter(function(u) {
+        return u && u.online && isRealUser(u) && (!me || String(u.id) !== String(me.id));
+    });
+    const currentIds = new Set(realOnline.map(function(u) { return String(u.id); }));
+    if (_seenOnlineIds === null) {
+        _seenOnlineIds = currentIds;
+        return;
+    }
+    _seenOnlineIds.forEach(function(uid) {
+        if (currentIds.has(uid)) return;
+        const gone = users.find(function(u) { return String(u.id) === uid; });
+        const nick = gone ? (gone.nick || gone.name || t('playerDefault')) : t('playerDefault');
+        showOnlineToast('🔴 ' + t('user.wentOffline', { name: nick }), 'disconnect');
+    });
+    _seenOnlineIds = currentIds;
+}
+
+function ensureSelfPresence(users) {
+    const me = getOnlineUser();
+    if (!me || document.visibilityState === 'hidden') return;
+    const row = (Array.isArray(users) ? users : []).find(function(u) {
+        return String(u.id) === String(me.id);
+    });
+    if (row && row.online && row.status !== 'offline') return;
+    const now = Date.now();
+    if (now - _presenceHealAt < 4000) return;
+    _presenceHealAt = now;
+    sendHeartbeat();
+}
+
 function renderOnlineNowList(users) {
     if (arguments.length) _onlineNowCache = Array.isArray(users) ? users : [];
+    announceDisconnects(_onlineNowCache);
+    ensureSelfPresence(_onlineNowCache);
     const online = connectedUsersLikeStrip(_onlineNowCache);
     const sig = (typeof currentLang !== 'undefined' ? currentLang : '') + '#' + online.map(function(u) {
         return [u.id, u.nick, u.status, u.elo].join(':');
@@ -10998,15 +11030,6 @@ function checkOnlinePresence() {
                 const uid = String(u.id);
                 if (!_knownOnlineUserIds.has(uid)) {
                     showUserCameOnline(u);
-                }
-            });
-
-            // Detectar desconectados
-            _knownOnlineUserIds.forEach(function(uid) {
-                if (!currentIds.has(uid)) {
-                    const gone = users.find(function(u) { return String(u.id) === uid; });
-                    const nick = gone ? (gone.nick || gone.name || 'Jugador') : 'Jugador';
-                    showOnlineToast('🔴 ' + nick + ' se ha desconectado', 'disconnect');
                 }
             });
 
@@ -11558,7 +11581,6 @@ function notifyOnlineGameClosed() {
     const meId = me.id;
     const gameId = _onlineGame.id;
     const endBody = JSON.stringify({ game_id: gameId, user_id: meId, reason: reason });
-    const freeBody = JSON.stringify({ id: meId, busy: false, name: me.name || '', provider: me.provider || '' });
     function beacon(url, body) {
         let sent = false;
         try {
@@ -11569,7 +11591,26 @@ function notifyOnlineGameClosed() {
         }
     }
     beacon(siteApi('end-game.php'), endBody);
-    beacon(siteApi('heartbeat.php'), freeBody);
+}
+
+/** Al cerrar la pestaña, Conectados deja de mostrar a este jugador. */
+function notifyUserOffline() {
+    const user = getOnlineUser();
+    if (!user || !user.id) return;
+    const body = JSON.stringify({
+        id: user.id,
+        offline: true,
+        name: user.name || '',
+        provider: user.provider || '',
+    });
+    const url = siteApi('heartbeat.php');
+    let sent = false;
+    try {
+        if (navigator.sendBeacon) sent = navigator.sendBeacon(url, new Blob([body], { type: 'text/plain' }));
+    } catch (e) {}
+    if (!sent) {
+        try { fetch(url, { method: 'POST', body: body, keepalive: true }); } catch (e2) {}
+    }
 }
 
 // ── Chat de partida online ────────────────────────────────────────────────
@@ -14118,7 +14159,13 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('beforeunload', () => {
         autoSaveGame();
     });
-    window.addEventListener('pagehide', notifyOnlineGameClosed);
+    window.addEventListener('pagehide', function() {
+        notifyOnlineGameClosed();
+        notifyUserOffline();
+    });
+    window.addEventListener('pageshow', function() {
+        sendHeartbeat();
+    });
 
     // Restaurar partida en curso, enlace compartido ?m= / ?moves= / ?puzzle= / ?opening= / ?master=, o iniciar nueva
     applyBoardTheme();

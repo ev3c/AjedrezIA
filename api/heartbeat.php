@@ -38,9 +38,16 @@ try {
 
 $uid      = substr(trim($data['id']), 0, 128);
 $busy     = !empty($data['busy']);
-$status   = $busy ? 'busy' : 'available';
+$offline  = !empty($data['offline']);
+$status   = $offline ? 'offline' : ($busy ? 'busy' : 'available');
 $name     = substr(trim($data['name'] ?? ''), 0, 255);
 $provider = substr(trim($data['provider'] ?? ''), 0, 20);
+
+if ($offline) {
+    $pdo->prepare("UPDATE ajedrezia_users SET last_seen = NULL, status = 'offline' WHERE id = ?")->execute([$uid]);
+    echo json_encode(['ok' => true]);
+    exit;
+}
 
 $upd = $pdo->prepare("
     UPDATE ajedrezia_users SET last_seen = NOW(), status = ? WHERE id = ?
