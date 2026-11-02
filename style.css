@@ -1214,6 +1214,75 @@ body.puzzle-mode-active .mini-clock-elo-row {
     display: none;
 }
 
+.online-now {
+    margin: 0 0 12px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    background: var(--color-surface);
+    overflow: hidden;
+}
+.online-now--mobile { display: none; }
+.online-now-title {
+    margin: 0;
+    padding: 8px 10px 2px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+}
+.online-now-list {
+    max-height: 220px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 6px 8px 8px;
+}
+.online-now .user-row {
+    padding: 6px 8px;
+    gap: 8px;
+}
+.online-now .user-row-info {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    min-width: 0;
+}
+.online-now .user-row-nick {
+    font-size: 0.82rem;
+    flex: 0 1 auto;
+    min-width: 0;
+}
+.online-now .user-row-elo {
+    font-size: 0.68rem;
+    margin-top: 0;
+    flex-shrink: 0;
+}
+.online-now .users-empty {
+    padding: 8px 4px 10px;
+    font-size: 0.78rem;
+}
+
+.new-game-modal .direct-invite-card {
+    margin-top: 8px;
+    cursor: default;
+}
+.new-game-modal .direct-invite-card .user-row-info {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    min-width: 0;
+}
+.new-game-modal .direct-invite-card .user-row-nick {
+    flex: 0 1 auto;
+    min-width: 0;
+}
+.new-game-modal .direct-invite-card .user-row-elo {
+    margin-top: 0;
+    flex-shrink: 0;
+}
+
 .btn:disabled {
     background: var(--color-surface-2);
     border-color: var(--color-border);
@@ -2763,6 +2832,9 @@ html[dir="rtl"] #chess-board {
     .btn-new-game--mobile {
         display: block !important;
     }
+
+    .online-now--desktop { display: none !important; }
+    .online-now--mobile { display: block !important; }
 
     .known-variants-overlay {
         align-items: flex-end;
@@ -5629,6 +5701,7 @@ body.app-access-locked .container {
     border-color: #4285F4;
 }
 .login-btn-guest {
+    display: none !important;
     background: #b8e6c8;
     color: #1f5c3a;
     border: 1.5px solid #9fd4b0;
@@ -5963,6 +6036,22 @@ body.app-access-locked .container {
 .is-busy .status-dot { background: #f97316; }
 .is-busy .status-label { color: #c2410c; }
 .user-row.is-busy { cursor: default; }
+
+/* Conectados reales, igual que bajo Nueva partida: nombre y ELO en una línea, sin icono */
+.users-list .user-row--live .user-row-info {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+}
+.users-list .user-row--live .user-row-nick {
+    font-size: 0.82rem;
+    flex: 0 1 auto;
+}
+.users-list .user-row--live .user-row-elo {
+    font-size: 0.68rem;
+    margin-top: 0;
+    flex-shrink: 0;
+}
 
 .users-empty {
     text-align: center;

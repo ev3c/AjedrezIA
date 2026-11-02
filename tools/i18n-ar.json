@@ -1516,5 +1516,9 @@
   "feedback.screenLine": "الشاشة: {screen}",
   "install.prompt": "هل تريد تثبيت الموقع كتطبيق؟",
   "changelog.3.6.71": "يتضمن التنبيه إلى info@ajedrezia.com مقاس الشاشة",
-  "changelog.3.6.71.install": "في أول زيارة، إذا لم يكن الموقع مثبتاً كتطبيق، تظهر فقاعة لتثبيته"
+  "changelog.3.6.71.install": "في أول زيارة، إذا لم يكن الموقع مثبتاً كتطبيق، تظهر فقاعة لتثبيته",
+  "user.free": "متاح",
+  "user.freeYou": "متاح (أنت)",
+  "onlineNow.title": "متصلون",
+  "onlineNow.empty": "لا أحد متصل الآن"
 }

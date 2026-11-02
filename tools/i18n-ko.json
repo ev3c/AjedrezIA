@@ -1516,5 +1516,9 @@
   "feedback.screenLine": "화면: {screen}",
   "install.prompt": "이 사이트를 앱으로 설치할까요?",
   "changelog.3.6.71": "info@ajedrezia.com 알림에 화면 크기가 포함됩니다",
-  "changelog.3.6.71.install": "첫 방문 때 사이트가 앱으로 설치되어 있지 않으면 설치 말풍선이 나타납니다"
+  "changelog.3.6.71.install": "첫 방문 때 사이트가 앱으로 설치되어 있지 않으면 설치 말풍선이 나타납니다",
+  "user.free": "대기",
+  "user.freeYou": "대기 (나)",
+  "onlineNow.title": "온라인",
+  "onlineNow.empty": "지금 온라인인 사람이 없습니다"
 }

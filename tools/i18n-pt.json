@@ -1516,5 +1516,9 @@
   "feedback.screenLine": "Ecrã: {screen}",
   "install.prompt": "Queres instalar o site como aplicação?",
   "changelog.3.6.71": "O aviso para info@ajedrezia.com inclui o tamanho do ecrã",
-  "changelog.3.6.71.install": "Na primeira visita, se o site não estiver instalado como app, aparece um balão para o instalar"
+  "changelog.3.6.71.install": "Na primeira visita, se o site não estiver instalado como app, aparece um balão para o instalar",
+  "user.free": "Livre",
+  "user.freeYou": "Livre (tu)",
+  "onlineNow.title": "Ligados",
+  "onlineNow.empty": "Ninguém ligado agora"
 }

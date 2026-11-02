@@ -8,6 +8,17 @@
     "background_color": "#e5e7eb",
     "theme_color": "#1f2937",
     "lang": "es",
+    "prefer_related_applications": false,
+    "related_applications": [
+        {
+            "platform": "webapp",
+            "url": "https://www.ajedrezia.com/manifest.json"
+        },
+        {
+            "platform": "webapp",
+            "url": "https://ajedrezia.com/manifest.json"
+        }
+    ],
     "icons": [
         {
             "src": "icons/icon-192.png",

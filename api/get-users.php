@@ -1,5 +1,7 @@
 <?php
 header('Content-Type: application/json; charset=utf-8');
+header('Cache-Control: no-store, no-cache, must-revalidate');
+header('Pragma: no-cache');
 
 $allowedOrigins = [
     'https://www.ajedrezia.com',
@@ -10,7 +12,9 @@ $allowedOrigins = [
     'http://127.0.0.1:8000',
 ];
 $origin = $_SERVER['HTTP_ORIGIN'] ?? '';
-header('Access-Control-Allow-Origin: ' . (in_array($origin, $allowedOrigins, true) ? $origin : 'https://www.ajedrezia.com'));
+$originAllowed = in_array($origin, $allowedOrigins, true)
+    || preg_match('#^http://(127\.0\.0\.1|localhost)(:\d+)?$#', $origin);
+header('Access-Control-Allow-Origin: ' . ($originAllowed ? $origin : 'https://www.ajedrezia.com'));
 header('Vary: Origin');
 header('Access-Control-Allow-Methods: GET, OPTIONS');
 header('Access-Control-Allow-Headers: Content-Type');
@@ -38,30 +42,22 @@ $rows = $pdo->query("
         name,
         elo,
         last_login,
-        CASE WHEN last_seen >= DATE_SUB(NOW(), INTERVAL 90 SECOND) THEN 1 ELSE 0 END AS online
+        status,
+        CASE WHEN last_seen >= DATE_SUB(NOW(), INTERVAL 3 MINUTE)
+              OR (id LIKE 'guest-%' AND last_login >= DATE_SUB(NOW(), INTERVAL 3 MINUTE))
+         THEN 1 ELSE 0 END AS online
     FROM ajedrezia_users
     ORDER BY online DESC, elo DESC
 ")->fetchAll(PDO::FETCH_ASSOC);
 
-$inGameIds = [];
-try {
-    $gameRows = $pdo->query("
-        SELECT white_id, black_id
-        FROM ajedrezia_games
-        WHERE status = 'active'
-    ")->fetchAll(PDO::FETCH_ASSOC);
-    foreach ($gameRows as $g) {
-        if (!empty($g['white_id'])) $inGameIds[$g['white_id']] = true;
-        if (!empty($g['black_id'])) $inGameIds[$g['black_id']] = true;
-    }
-} catch (PDOException $e) { /* tabla aún no creada */ }
-
-$users = array_map(function($r) use ($inGameIds) {
-    $nick   = strstr($r['email'], '@', true) ?: $r['name'] ?: '?';
+$users = array_map(function($r) {
+    $nick   = (strpos((string)$r['id'], 'guest-') === 0 && !empty($r['name']))
+        ? $r['name']
+        : (strstr($r['email'], '@', true) ?: $r['name'] ?: '?');
     $online = (bool)$r['online'];
-    // Un jugador real solo aparece ocupado si tiene una partida online activa.
+    // Ocupado solo si el jugador está en línea y su sesión indica partida online.
     $status = $online
-        ? (isset($inGameIds[$r['id']]) ? 'busy' : 'available')
+        ? (($r['status'] ?? '') === 'busy' ? 'busy' : 'available')
         : 'offline';
     return [
         'id'         => $r['id'],

@@ -177,6 +177,7 @@ let playerColorSetting = 'white'; // preferencia del selector de color: 'white'|
 let manualBoardFlipped = false;   // volteo manual del tablero con el botón ⇅
 let gameOpponent = 'ai';          // oponente seleccionado: 'ai'|'pvp'|'online'|'mail'
 let lastNewGameOpponent = 'ai';   // última selección hecha en el modal Nueva Partida ('ai'|'pvp'|'online'|'mail')
+let _directInviteTarget = null;  // conectado elegido: Comenzar le envía la invitación
 let _newGameDialogOpen = false;   // true mientras la ventana de Nueva Partida está abierta
 let _postLoginShowOnlineMenu = false; // si el login se abrió desde "Comenzar online" sin sesión: tras login, dejar visible el menú online
 let _pendingAfterLogin = null; // 'mail' | null — continuar invitación por correo tras iniciar sesión
@@ -218,7 +219,7 @@ const TOUCH_DRAG_THRESHOLD_PX = 14;
 const ANALYSIS_DISABLED_IDS = ['start-opening-training', 'start-opening-quiz', 'load-famous-game',
     'resign-game', 'offer-draw', 'undo-move', 'hint-move', 'analyze-game',
     'resign-game-sidebar', 'offer-draw-sidebar', 'view-analysis', 'undo-move-sidebar', 'hint-move-sidebar', 'analyze-game-sidebar',
-    'copy-pgn', 'copy-pgn-board', 'export-pgn', 'import-pgn',
+    'copy-pgn', 'export-pgn', 'import-pgn',
     'nav-first', 'nav-prev', 'nav-next', 'nav-last',
     'puzzle-hint', 'puzzle-solution', 'puzzle-prev-board', 'puzzle-next-board',
     'show-known-variants',
@@ -8624,6 +8625,30 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
+    '3.6.89': [
+        'changelog.3.6.89',
+        'changelog.3.6.88',
+        'changelog.3.6.87',
+        'changelog.3.6.86',
+        'changelog.3.6.85',
+        'changelog.3.6.84',
+        'changelog.3.6.83',
+        'changelog.3.6.82',
+        'changelog.3.6.81',
+        'changelog.3.6.80',
+        'changelog.3.6.79',
+        'changelog.3.6.78',
+        'changelog.3.6.77',
+        'changelog.3.6.76',
+        'changelog.3.6.76.guestBtn',
+        'changelog.3.6.76.guestClick',
+        'changelog.3.6.75',
+        'changelog.3.6.73',
+        'changelog.3.6.73.list',
+        'changelog.3.6.72',
+        'changelog.3.6.72.list',
+        'changelog.more',
+    ],
     '3.6.71': [
         'changelog.3.6.71.install',
         'changelog.3.6.70',
@@ -9697,6 +9722,7 @@ function setOnlineUser(user) {
     saveUserToDB(user, isFirstLoginLocal);
 
     startHeartbeat();
+    refreshOnlineNowList();
     requestNotificationPermission();
     updateLoginModalUI();
     updateOnlineButtonTooltip();
@@ -9792,18 +9818,14 @@ function resolveDirectedInviteFromLink(inviterId, inviterNick, inviterElo, color
         .catch(function() { showUsersModal(); });
 }
 
-function saveUserToDB(user, isFirstLoginLocal) {
-    const endpoint = IS_LOCAL
-        ? null
-        : (BASE_PATH + 'api/save-user.php');
+function siteApi(file) {
+    return (IS_LOCAL ? 'api/' : (BASE_PATH + 'api/')) + file;
+}
 
-    if (!endpoint) {
-        // En local usamos localStorage para detectar si es nuevo
-        notifyUserConnection(user, isFirstLoginLocal ? 'new' : 'reconnect');
-        return;
-    }
-
-    fetch(endpoint, {
+function saveUserToDB(user, isFirstLoginLocal, opts) {
+    var quiet = !!(opts && opts.quiet);
+    var presence = !!(opts && opts.presence);
+    fetch(siteApi('save-user.php'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -9812,15 +9834,18 @@ function saveUserToDB(user, isFirstLoginLocal) {
             email:    user.email    || '',
             name:     user.name     || '',
             elo:      (typeof stats !== 'undefined' && stats.elo != null) ? stats.elo : 1200,
+            presence: presence,
         }),
     })
     .then(function(r) { return r.json(); })
     .then(function(data) {
         if (data && data.ok && data.elo != null) applyServerElo(data.elo);
-        notifyUserConnection(user, data.is_new ? 'new' : 'reconnect');
+        if (!quiet) notifyUserConnection(user, data && data.is_new ? 'new' : 'reconnect');
+        sendHeartbeat();
     })
     .catch(function() {
-        notifyUserConnection(user, isFirstLoginLocal ? 'new' : 'reconnect');
+        if (!quiet) notifyUserConnection(user, isFirstLoginLocal ? 'new' : 'reconnect');
+        sendHeartbeat();
     });
 }
 
@@ -9855,10 +9880,18 @@ function clearOnlineUser() {
     }
     localStorage.removeItem('online_user');
     stopHeartbeat();
+    refreshOnlineNowList();
     updateLoginModalUI();
     updateOnlineButtonTooltip();
     updateLoginStatusButton();
     updateAppAccessLock();
+}
+
+function continueAsGuestAfterSignOut() {
+    clearOnlineUser();
+    signInAsGuest({ silent: true });
+    const user = getOnlineUser();
+    showMessage(t('signedOutGuest', { name: (user && user.name) || '' }), 'info', 3000);
 }
 
 // ── Notificaciones de escritorio ───────────────────────────────────────────
@@ -9948,7 +9981,7 @@ let _heartbeatTimer = null;
 function startHeartbeat() {
     stopHeartbeat();
     sendHeartbeat();
-    _heartbeatTimer = setInterval(sendHeartbeat, 30000);
+    _heartbeatTimer = setInterval(sendHeartbeat, 20000);
     startIncomingPolling();
     startOnlinePresencePolling();
 }
@@ -9965,11 +9998,18 @@ function isUserBusy() {
 
 function sendHeartbeat() {
     const user = getOnlineUser();
-    if (!user || IS_LOCAL) return;
-    fetch(BASE_PATH + 'api/heartbeat.php', {
+    if (!user || !user.id) return;
+    fetch(siteApi('heartbeat.php'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ id: user.id, busy: isUserBusy() }),
+        body: JSON.stringify({
+            id: user.id,
+            busy: isUserBusy(),
+            name: user.name || '',
+            provider: user.provider || '',
+        }),
+    }).then(function() {
+        refreshOnlineNowList();
     }).catch(function() {});
 }
 
@@ -10008,6 +10048,42 @@ function buildGeneratedDemoUsers(startNum, count) {
     return list;
 }
 
+/** Misma lista que bajo Nueva partida: reales, en línea, libres antes que ocupados. */
+function connectedUsersLikeStrip(users) {
+    return applySelfOnlineStatus(users)
+        .filter(function(u) { return u.online && isRealUser(u); })
+        .sort(function(a, b) {
+            var rankA = a.status === 'busy' ? 1 : 0;
+            var rankB = b.status === 'busy' ? 1 : 0;
+            if (rankA !== rankB) return rankA - rankB;
+            return (a.nick || a.name || '').localeCompare(b.nick || b.name || '', 'es', { sensitivity: 'base' });
+        });
+}
+
+/** Conectados reales, después los bots desde Bot_400, y al final el resto en línea. */
+function composeUsersModalList(apiUsers, extras) {
+    var connected = connectedUsersLikeStrip(apiUsers);
+    var seen = {};
+    connected.forEach(function(u) { seen[String(u.id)] = true; });
+    var bots = BOT_USERS.map(function(b) {
+        return {
+            id: b.id,
+            nick: b.nick,
+            name: 'Bot',
+            elo: b.elo,
+            online: true,
+            status: 'available',
+            isBot: true,
+        };
+    });
+    var rest = (Array.isArray(extras) ? extras : []).filter(function(u) {
+        if (!u || !u.online || seen[String(u.id)] || isBotId(u.id) || u.isBot) return false;
+        if (isRealUser(u)) return false;
+        return true;
+    });
+    return connected.concat(bots).concat(rest);
+}
+
 function showUsersModal() {
     const overlay = document.getElementById('users-modal-overlay');
     if (!overlay) return;
@@ -10029,11 +10105,10 @@ function fetchAndRenderUsers() {
     loadingEl.style.display = 'flex';
     listEl.innerHTML = '';
 
-    const endpoint = IS_LOCAL
-        ? null
-        : (BASE_PATH + 'api/get-users.php');
+    const endpoint = siteApi('get-users.php');
+    let localSamples = [];
 
-    if (!endpoint) {
+    if (IS_LOCAL) {
         // Datos de ejemplo en modo local
         const currentUser = getOnlineUser();
         const currentElo  = (typeof stats !== 'undefined' && stats.elo) ? stats.elo : 1200;
@@ -10220,7 +10295,8 @@ function fetchAndRenderUsers() {
             currentUser ? {
                 id: currentUser.id,
                 nick: (currentUser.email || '').split('@')[0] || currentUser.name || 'tú',
-                name: currentUser.name, elo: currentElo, online: true, status: 'available',
+                name: currentUser.name, elo: currentElo, online: true,
+                status: isUserBusy() ? 'busy' : 'available',
             } : null,
             ...demoBase.map(function(d) {
                 var isBusy = busySet.has(d.id);
@@ -10253,28 +10329,29 @@ function fetchAndRenderUsers() {
             if (rankA !== rankB) return rankA - rankB;
             return (a.nick || '').localeCompare(b.nick || '', 'es', { sensitivity: 'base' });
         });
-        setTimeout(function() {
-            loadingEl.style.display = 'none';
-            renderUsersList(withBots(mockUsers), listEl, subtitleEl);
-        }, 600);
-        return;
+        localSamples = mockUsers;
     }
 
-    fetch(endpoint)
+    fetch(endpoint + '?t=' + Date.now(), { cache: 'no-store', headers: { 'Accept': 'application/json' } })
         .then(function(r) { return r.json(); })
         .then(function(data) {
             loadingEl.style.display = 'none';
-            if (!data.ok || !data.users) { renderUsersError(listEl, subtitleEl); return; }
-            renderUsersList(withBots(data.users), listEl, subtitleEl);
+            if (!data || !data.ok || !data.users) {
+                if (IS_LOCAL) renderUsersList(composeUsersModalList([], localSamples), listEl, subtitleEl);
+                else renderUsersError(listEl, subtitleEl);
+                return;
+            }
+            renderUsersList(composeUsersModalList(data.users, IS_LOCAL ? localSamples : []), listEl, subtitleEl);
         })
         .catch(function() {
             loadingEl.style.display = 'none';
-            renderUsersError(listEl, subtitleEl);
+            if (IS_LOCAL) renderUsersList(composeUsersModalList([], localSamples), listEl, subtitleEl);
+            else renderUsersError(listEl, subtitleEl);
         });
 }
 
 function renderUsersList(users, listEl, subtitleEl) {
-    const allUsers = Array.isArray(users) ? users : [];
+    const allUsers = applySelfOnlineStatus(Array.isArray(users) ? users : []);
     // El "padding" de usuarios registrados sigue el mismo crecimiento diario,
     // para reflejar el crecimiento de la comunidad.
     const REGISTERED_USERS_BASE_OFFSET = 10000;
@@ -10309,16 +10386,31 @@ function renderUsersList(users, listEl, subtitleEl) {
         if (u.online) rowClass += isBusy ? ' is-busy' : ' is-online';
         row.className = rowClass;
 
-        var statusLabel = t('user.offline');
-        if (u.online) statusLabel = isBusy ? t('user.busy') : t('user.onlineStatus');
-        if (isMe && u.online) statusLabel = isBusy ? t('user.busyYou') : t('user.onlineYou');
+        var live = isRealUser(u);
+        if (live) row.className += ' user-row--live';
 
-        row.innerHTML =
-            '<div class="user-row-avatar">' + initial + '</div>' +
-            '<div class="user-row-info">' +
-                '<div class="user-row-nick">' + escHtml(u.nick) + '</div>' +
+        var statusLabel = t('user.offline');
+        if (live) {
+            statusLabel = isMe
+                ? (isBusy ? t('user.busyYou') : t('user.freeYou'))
+                : (isBusy ? t('user.busy') : t('user.free'));
+        } else if (u.online) {
+            statusLabel = isBusy ? t('user.busy') : t('user.onlineStatus');
+            if (isMe) statusLabel = isBusy ? t('user.busyYou') : t('user.onlineYou');
+        }
+
+        var nick = escHtml(u.nick || u.name || '');
+        var infoHtml = live
+            ? '<div class="user-row-info">' +
+                '<span class="user-row-nick">' + nick + '</span>' +
+                '<span class="user-row-elo">ELO ' + u.elo + '</span>' +
+              '</div>'
+            : '<div class="user-row-avatar">' + initial + '</div>' +
+              '<div class="user-row-info">' +
+                '<div class="user-row-nick">' + nick + '</div>' +
                 '<div class="user-row-elo">ELO ' + u.elo + '</div>' +
-            '</div>' +
+              '</div>';
+        row.innerHTML = infoHtml +
             '<div class="user-row-status">' +
                 '<span class="status-dot"></span>' +
                 '<span class="status-label">' + statusLabel + '</span>' +
@@ -10366,6 +10458,7 @@ function escHtml(str) {
 
 let _inviteTarget        = null;     // usuario al que vamos a invitar
 let _inviteSelectedColor = 'white';  // color elegido en el formulario
+let _inviteSelectedTc    = '5+0';
 let _inviteGenericMode   = false;    // true cuando se abre el modal sin jugador destino (invitación compartible)
 let _outgoingInviteId    = null;     // id de la invitación que estamos esperando
 let _outgoingPollTimer   = null;
@@ -10380,6 +10473,21 @@ const TIME_LABELS = {
 };
 
 function timeLabelFor(tc) { return t('tc.' + tc, null, TIME_LABELS[tc] || tc); }
+
+/** Mismos minutos que la opción elegida en Nueva partida (p. ej. «60 min»). */
+function nuevaPartidaTimeLabel(tc) {
+    const sel = document.getElementById('time-control');
+    if (sel && tc) {
+        const opt = Array.prototype.find.call(sel.options, function(o) { return o.value === String(tc); });
+        if (opt) {
+            const key = opt.getAttribute('data-i18n');
+            if (key) return t(key);
+            const text = (opt.textContent || '').trim();
+            if (text) return text;
+        }
+    }
+    return timeLabelFor(tc);
+}
 
 // ── Bots siempre online ────────────────────────────────────────────────────
 // Jugadores sintéticos que aparecen siempre disponibles en la lista de
@@ -10491,9 +10599,12 @@ function sendDirectInvite(target) {
     if (!target) return;
 
     const colorRaw = playerColorSetting || 'white';
-    const tcRaw    = (timePerPlayer != null && incrementPerMove != null)
-        ? (timePerPlayer + '+' + incrementPerMove)
-        : (localStorage.getItem('invite_tc') || '5+0');
+    const tcRaw = (function() {
+        const sel = document.getElementById('time-control');
+        if (sel && sel.value && sel.value.indexOf('+') !== -1) return sel.value;
+        if (timePerPlayer != null && incrementPerMove != null) return timePerPlayer + '+' + incrementPerMove;
+        return localStorage.getItem('invite_tc') || '5+0';
+    })();
 
     // ── Bot: no se envía invitación al servidor, se arranca partida IA local ──
     if (target.isBot || isBotId(target.id)) {
@@ -10516,21 +10627,13 @@ function sendDirectInvite(target) {
         to_id:        target.id,
         from_color:   colorRaw,
         time_control: tcRaw,
-        time_label:   timeLabelFor(tcRaw),
+        time_label:   nuevaPartidaTimeLabel(tcRaw),
     };
-
-    if (IS_LOCAL) {
-        showInviteWaitingModal(target.nick || target.name, payload.time_label);
-        setTimeout(function() {
-            hideInviteWaitingModal();
-            startOnlineGame(target, colorRaw, tcRaw, null);
-        }, 1500);
-        return;
-    }
+    _inviteSelectedTc = tcRaw;
 
     showInviteWaitingModal(target.nick || target.name, payload.time_label);
 
-    fetch(BASE_PATH + 'api/send-invite.php', {
+    fetch(siteApi('send-invite.php'), {
         method: 'POST', headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
     })
@@ -10619,21 +10722,11 @@ function sendInvite() {
         to_id:        target.id,
         from_color:   _inviteSelectedColor,
         time_control: tc,
-        time_label:   timeLabelFor(tc),
+        time_label:   nuevaPartidaTimeLabel(tc),
     };
+    _inviteSelectedTc = tc;
 
-    if (IS_LOCAL) {
-        // Simulación: el oponente acepta automáticamente en 1.5s (sin sync real)
-        hideInviteSendModal();
-        showInviteWaitingModal(target.nick || target.name, payload.time_label);
-        setTimeout(function() {
-            hideInviteWaitingModal();
-            startOnlineGame(target, _inviteSelectedColor, tc, null);
-        }, 1500);
-        return;
-    }
-
-    fetch(BASE_PATH + 'api/send-invite.php', {
+    fetch(siteApi('send-invite.php'), {
         method: 'POST', headers: {'Content-Type':'application/json'},
         body: JSON.stringify(payload),
     })
@@ -10664,8 +10757,8 @@ function hideInviteWaitingModal() {
 
 function cancelOutgoingInvite() {
     stopOutgoingPolling();
-    if (_outgoingInviteId && !IS_LOCAL) {
-        fetch(BASE_PATH + 'api/respond-invite.php', {
+    if (_outgoingInviteId) {
+        fetch(siteApi('respond-invite.php'), {
             method:'POST', headers:{'Content-Type':'application/json'},
             body: JSON.stringify({ invite_id: _outgoingInviteId, action: 'reject' }),
         }).catch(function(){});
@@ -10678,7 +10771,7 @@ function startOutgoingPolling() {
     stopOutgoingPolling();
     _outgoingPollTimer = setInterval(function() {
         if (!_outgoingInviteId) return stopOutgoingPolling();
-        fetch(BASE_PATH + 'api/get-invite-status.php?invite_id=' + _outgoingInviteId)
+        fetch(siteApi('get-invite-status.php') + '?invite_id=' + encodeURIComponent(_outgoingInviteId) + '&t=' + Date.now())
             .then(function(r) { return r.json(); })
             .then(function(data) {
                 if (!data.ok) return;
@@ -10686,7 +10779,9 @@ function startOutgoingPolling() {
                     stopOutgoingPolling();
                     hideInviteWaitingModal();
                     const target = _inviteTarget || { id: 'opponent', nick: t('opponent'), name: t('opponent') };
-                    const tc     = document.getElementById('invite-time-select').value;
+                    const tc = _inviteSelectedTc
+                        || (document.getElementById('invite-time-select') && document.getElementById('invite-time-select').value)
+                        || '5+0';
                     startOnlineGame(target, _inviteSelectedColor, tc, data.game_id || null);
                 } else if (data.status === 'rejected' || data.status === 'expired' || data.status === 'cancelled') {
                     stopOutgoingPolling();
@@ -10706,8 +10801,7 @@ function stopOutgoingPolling() {
 // ── Polling de invitaciones entrantes ──────────────────────────────────────
 function startIncomingPolling() {
     stopIncomingPolling();
-    if (IS_LOCAL) return;
-    _incomingPollTimer = setInterval(checkIncomingInvites, 5000);
+    _incomingPollTimer = setInterval(checkIncomingInvites, 2000);
     checkIncomingInvites();
 }
 
@@ -10742,6 +10836,142 @@ function stopOnlinePresencePolling() {
 function isRealUser(u) {
     const uid = String(u.id);
     return !u.isBot && !uid.startsWith('bot_') && !uid.startsWith('demo');
+}
+
+/** El jugador con sesión iniciada está ocupado solo durante una partida online. */
+function applySelfOnlineStatus(users) {
+    const list = Array.isArray(users) ? users.slice() : [];
+    const me = getOnlineUser();
+    if (!me) return list;
+    const mine = {
+        id: me.id,
+        nick: (me.email || '').split('@')[0] || me.name || t('playerDefault'),
+        name: me.name || '',
+        elo: (typeof stats !== 'undefined' && stats.elo != null) ? stats.elo : 1200,
+        online: true,
+        status: isUserBusy() ? 'busy' : 'available',
+    };
+    const idx = list.findIndex(function(u) { return String(u.id) === String(me.id); });
+    if (idx >= 0) list[idx] = Object.assign({}, list[idx], mine);
+    else list.unshift(mine);
+    return list;
+}
+
+let _onlineNowCache = [];
+let _onlineNowTimer = null;
+let _onlineNowSig = '';
+
+function startOnlineNowPolling() {
+    if (_onlineNowTimer) clearInterval(_onlineNowTimer);
+    refreshOnlineNowList();
+    _onlineNowTimer = setInterval(function() {
+        if (document.visibilityState === 'hidden') return;
+        refreshOnlineNowList();
+    }, 5000);
+    if (!startOnlineNowPolling._visibilityBound) {
+        startOnlineNowPolling._visibilityBound = true;
+        document.addEventListener('visibilitychange', function() {
+            if (document.visibilityState === 'visible') refreshOnlineNowList();
+        });
+    }
+}
+
+let _onlineNowSeq = 0;
+
+function refreshOnlineNowList() {
+    const seq = ++_onlineNowSeq;
+    const urls = IS_LOCAL
+        ? [
+            'api/get-users.php?t=' + Date.now(),
+            'api/online-now.json?t=' + Date.now(),
+        ]
+        : [BASE_PATH + 'api/get-users.php?t=' + Date.now()];
+    function attempt(i) {
+        if (i >= urls.length) {
+            if (seq !== _onlineNowSeq) return;
+            renderOnlineNowList(_onlineNowCache.length ? _onlineNowCache : []);
+            return;
+        }
+        fetch(urls[i], {
+            cache: 'no-store',
+            headers: { 'Accept': 'application/json' },
+        })
+            .then(function(r) {
+                if (!r.ok) throw new Error('HTTP ' + r.status);
+                return r.json();
+            })
+            .then(function(data) {
+                if (seq !== _onlineNowSeq) return;
+                if (!data || !Array.isArray(data.users)) throw new Error('bad');
+                renderOnlineNowList(data.users);
+            })
+            .catch(function() {
+                if (seq !== _onlineNowSeq) return;
+                attempt(i + 1);
+            });
+    }
+    attempt(0);
+}
+
+function renderOnlineNowList(users) {
+    if (arguments.length) _onlineNowCache = Array.isArray(users) ? users : [];
+    const online = connectedUsersLikeStrip(_onlineNowCache);
+    const sig = (typeof currentLang !== 'undefined' ? currentLang : '') + '#' + online.map(function(u) {
+        return [u.id, u.nick, u.status, u.elo].join(':');
+    }).join('|');
+    if (sig === _onlineNowSig && document.getElementById('online-now-desktop')) return;
+    _onlineNowSig = sig;
+    ['online-now-desktop', 'online-now-mobile'].forEach(function(id) {
+        const host = document.getElementById(id);
+        if (!host) return;
+        host.innerHTML = '';
+        const title = document.createElement('p');
+        title.className = 'online-now-title';
+        title.textContent = t('onlineNow.title');
+        host.appendChild(title);
+        const list = document.createElement('div');
+        list.className = 'online-now-list';
+        if (!online.length) {
+            list.innerHTML = '<p class="users-empty">' + t('onlineNow.empty') + '</p>';
+        } else {
+            const me = getOnlineUser();
+            online.forEach(function(u) {
+                const isMe = me && String(me.id) === String(u.id);
+                const isBusy = u.status === 'busy';
+                const row = document.createElement('div');
+                row.className = 'user-row ' + (isBusy ? 'is-busy' : 'is-online');
+                const statusLabel = isMe
+                    ? (isBusy ? t('user.busyYou') : t('user.freeYou'))
+                    : (isBusy ? t('user.busy') : t('user.free'));
+                row.innerHTML =
+                    '<div class="user-row-info">' +
+                        '<span class="user-row-nick">' + escHtml(u.nick || u.name || '') + '</span>' +
+                        '<span class="user-row-elo">ELO ' + (u.elo != null ? u.elo : '') + '</span>' +
+                    '</div>' +
+                    '<div class="user-row-status">' +
+                        '<span class="status-dot"></span>' +
+                        '<span class="status-label">' + escHtml(statusLabel) + '</span>' +
+                    '</div>';
+                if (!isMe && !isBusy) {
+                    row.addEventListener('click', function() {
+                        if (!getOnlineUser()) { showLoginModal(); return; }
+                        showNewGameDialog({
+                            directTarget: {
+                                id: u.id,
+                                nick: u.nick || u.name || '',
+                                name: u.name || u.nick || '',
+                                elo: u.elo,
+                                status: u.status || 'available',
+                                isBot: !!u.isBot,
+                            },
+                        });
+                    });
+                }
+                list.appendChild(row);
+            });
+        }
+        host.appendChild(list);
+    });
 }
 
 function checkOnlinePresence() {
@@ -10820,7 +11050,7 @@ function showOnlineToast(msg, type, onClick) {
 function checkIncomingInvites() {
     const me = getOnlineUser();
     if (!me) return;
-    fetch(BASE_PATH + 'api/get-invites.php?user_id=' + encodeURIComponent(me.id))
+    fetch(siteApi('get-invites.php') + '?user_id=' + encodeURIComponent(me.id) + '&t=' + Date.now(), { cache: 'no-store' })
         .then(function(r) { return r.json(); })
         .then(function(data) {
             if (!data.ok || !data.invites || data.invites.length === 0) return;
@@ -10839,7 +11069,7 @@ function showIncomingInvite(invite) {
     _currentIncoming = invite;
     const myColor = invertColor(invite.from_color);
     const colorLabel = myColor === 'white' ? t('color.white') : t('color.black');
-    const timeLabel  = invite.time_label || timeLabelFor(invite.time_control);
+    const timeLabel = nuevaPartidaTimeLabel(invite.time_control) || invite.time_label || '';
 
     document.getElementById('invite-incoming-from').textContent  = invite.from_nick || 'Jugador';
     document.getElementById('invite-incoming-elo').textContent   = 'ELO ' + (invite.from_elo || '?');
@@ -10866,13 +11096,13 @@ function showLinkInviteModal(linkData, inviterUser) {
         from_elo:     fromElo,
         from_color:   fromColor,
         time_control: tc,
-        time_label:   timeLabelFor(tc),
+        time_label:   nuevaPartidaTimeLabel(tc),
     };
     const myColor = invertColor(fromColor);
     document.getElementById('invite-incoming-from').textContent  = fromNick;
     document.getElementById('invite-incoming-elo').textContent   = 'ELO ' + fromElo;
     document.getElementById('invite-incoming-color').textContent = myColor === 'white' ? t('color.white') : (myColor === 'black' ? t('color.black') : t('color.random'));
-    document.getElementById('invite-incoming-time').textContent  = _currentIncoming.time_label;
+    document.getElementById('invite-incoming-time').textContent  = nuevaPartidaTimeLabel(tc);
     document.getElementById('invite-incoming-overlay').classList.add('is-open');
 }
 
@@ -10906,18 +11136,10 @@ function respondInvite(action) {
         _inviteTarget        = { id: invite.from_id, nick: invite.from_nick, name: invite.from_nick, elo: invite.from_elo };
         _inviteSelectedColor = myColor;
         const tc = invite.time_control;
+        _inviteSelectedTc = tc;
 
         const tcSelect = document.getElementById('invite-time-select');
         if (tcSelect) tcSelect.value = tc;
-
-        if (IS_LOCAL) {
-            showInviteWaitingModal(invite.from_nick, invite.time_label);
-            setTimeout(function() {
-                hideInviteWaitingModal();
-                startOnlineGame(_inviteTarget, myColor, tc, null);
-            }, 1500);
-            return;
-        }
 
         const payload = {
             from_id:      me.id,
@@ -10926,9 +11148,9 @@ function respondInvite(action) {
             to_id:        invite.from_id,
             from_color:   myColor,
             time_control: tc,
-            time_label:   timeLabelFor(tc),
+            time_label:   nuevaPartidaTimeLabel(tc),
         };
-        fetch(BASE_PATH + 'api/send-invite.php', {
+        fetch(siteApi('send-invite.php'), {
             method:'POST', headers:{'Content-Type':'application/json'},
             body: JSON.stringify(payload),
         })
@@ -10953,7 +11175,7 @@ function respondInvite(action) {
         accepter_elo:  (typeof stats !== 'undefined' && stats.elo) ? stats.elo : 1200,
     };
 
-    fetch(BASE_PATH + 'api/respond-invite.php', {
+    fetch(siteApi('respond-invite.php'), {
         method:'POST', headers:{'Content-Type':'application/json'},
         body: JSON.stringify(payload),
     })
@@ -11023,6 +11245,7 @@ function startOnlineGame(opponent, myColor, timeControl, gameId) {
     startOnlineGamePolling();
     updateOnlineBanner();
     sendHeartbeat();
+    refreshOnlineNowList();
     // Bloquear acciones que no deben usarse durante una partida online
     setOnlineActionsLocked(true);
     // Abrir panel de chat con el oponente (sólo visible en modo PC por CSS)
@@ -11031,8 +11254,7 @@ function startOnlineGame(opponent, myColor, timeControl, gameId) {
 
 // ── Enviar movimiento al servidor ─────────────────────────────────────────
 function sendOnlineMove(uci, statusAfter) {
-    if (!_onlineGame || !_onlineGame.id || IS_LOCAL) {
-        // En local solo aumentamos el contador para ignorar el push posterior
+    if (!_onlineGame || !_onlineGame.id) {
         if (_onlineGame) _onlineGame.totalMovesApplied++;
         return;
     }
@@ -11044,7 +11266,7 @@ function sendOnlineMove(uci, statusAfter) {
     if (statusAfter === 'checkmate')   result = 'checkmate';
     else if (statusAfter === 'stalemate') result = 'stalemate';
 
-    fetch(BASE_PATH + 'api/send-move.php', {
+    fetch(siteApi('send-move.php'), {
         method: 'POST', headers: {'Content-Type':'application/json'},
         body: JSON.stringify({
             game_id: _onlineGame.id,
@@ -11069,6 +11291,7 @@ function sendOnlineMove(uci, statusAfter) {
         if (data.status && data.status !== 'active') {
             _onlineGame.status = data.status;
             stopOnlineGamePolling();
+            sendHeartbeat();
         }
     })
     .catch(function() {
@@ -11079,7 +11302,7 @@ function sendOnlineMove(uci, statusAfter) {
 // ── Polling del estado de la partida ──────────────────────────────────────
 function startOnlineGamePolling() {
     stopOnlineGamePolling();
-    if (IS_LOCAL || !_onlineGame || !_onlineGame.id) return;
+    if (!_onlineGame || !_onlineGame.id) return;
     _onlineGamePollTimer = setInterval(pollOnlineGame, 1500);
     pollOnlineGame();
 }
@@ -11127,7 +11350,7 @@ function hideDrawOfferModal() {
 }
 
 function respondDrawOffer(action) {
-    if (!_onlineGame || IS_LOCAL) {
+    if (!_onlineGame || !_onlineGame.id) {
         if (action === 'accept') {
             game.gameOver = true; stopClock();
             const eloDelta = recordGameResult('draw');
@@ -11141,7 +11364,7 @@ function respondDrawOffer(action) {
     }
     const me = getOnlineUser();
     if (!me) return;
-    fetch(BASE_PATH + 'api/respond-draw.php', {
+    fetch(siteApi('respond-draw.php'), {
         method: 'POST', headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ game_id: _onlineGame.id, user_id: me.id, action: action }),
     })
@@ -11159,6 +11382,7 @@ function respondDrawOffer(action) {
             SoundFX.draw(); clearAutoSavedGame();
             updateUndoButton();
             showBoardBanner(t('banner.drawAgreed') + formatEloDelta(eloDelta), 'stalemate');
+            sendHeartbeat();
         } else if (action === 'reject') {
             showMessage(t('drawOfferRejected'), 'info', 2000);
         }
@@ -11170,9 +11394,10 @@ function pollOnlineGame() {
     if (!_onlineGame || !_onlineGame.id) return;
     const me = getOnlineUser();
     if (!me) return;
-    fetch(BASE_PATH + 'api/get-game.php?game_id=' + _onlineGame.id +
+    fetch(siteApi('get-game.php') + '?game_id=' + _onlineGame.id +
                       '&user_id=' + encodeURIComponent(me.id) +
-                      '&since_count=' + _onlineGame.totalMovesApplied)
+                      '&since_count=' + _onlineGame.totalMovesApplied +
+                      '&t=' + Date.now(), { cache: 'no-store' })
         .then(function(r) { return r.json(); })
         .then(function(data) {
             if (!data.ok) return;
@@ -11277,25 +11502,33 @@ function onOnlineGameEnded(status, reason) {
     else if (status === 'black_wins') txt = t('online.blackWins');
     else if (status === 'draw')       txt = t('online.draw');
     else if (status === 'aborted')    txt = t('online.aborted');
-    if (reason) txt += ' (' + reason + ')';
+    // Solo el rival puede cerrar la partida mientras sondeamos: quien la deja corta su propio sondeo.
+    const oppName = (_onlineGame && _onlineGame.opponent) ? opponentName(_onlineGame.opponent) : '';
+    if (reason === 'resign') txt = t('online.oppResigned', { name: oppName });
+    else if (reason === 'abort') txt = t('online.oppLeft', { name: oppName });
+    else if (reason) txt += ' (' + reason + ')';
     updateUndoButton();
     if (status === 'aborted') {
-        showMessage('🌐 ' + txt, 'info', 3000);
+        if (!game.gameOver) { game.gameOver = true; stopClock(); }
+        showBoardBanner('🌐 ' + txt, 'stalemate');
+        showMessage('🌐 ' + txt, 'warning', 6000);
     } else {
         showBoardBanner('🌐 ' + txt + formatEloDelta(eloDelta), status === 'draw' ? 'stalemate' : 'checkmate');
     }
     setTimeout(updateOnlineBanner, 100);
     setOnlineActionsLocked(false);
+    sendHeartbeat();
 }
 
 function leaveOnlineGame(reason) {
     if (!_onlineGame) return;
-    if (_onlineGame.id && !IS_LOCAL) {
+    if (_onlineGame.id && _onlineGame.status === 'active') {
         const me = getOnlineUser();
         if (me) {
-            fetch(BASE_PATH + 'api/end-game.php', {
+            fetch(siteApi('end-game.php'), {
                 method: 'POST', headers: {'Content-Type':'application/json'},
                 body: JSON.stringify({ game_id: _onlineGame.id, user_id: me.id, reason: reason || 'abort' }),
+                keepalive: true,
             }).catch(function(){});
         }
     }
@@ -11304,8 +11537,39 @@ function leaveOnlineGame(reason) {
     updateOnlineBanner();
     setOnlineActionsLocked(false);
     sendHeartbeat();
+    refreshOnlineNowList();
     // Cerrar el chat (se mantendría visible pero vacío si no lo cerramos)
     closeOnlineChat();
+}
+
+/** Al cerrar o recargar la pestaña en plena partida online, el rival recibe el aviso. */
+function notifyOnlineGameClosed() {
+    if (!_onlineGame || !_onlineGame.id || _onlineGame.status !== 'active') return;
+    const me = getOnlineUser();
+    if (!me) return;
+    const started = !!(game && game.moveHistory && game.moveHistory.length > 0);
+    const reason = started ? 'resign' : 'abort';
+    if (started && !game.gameOver) {
+        game.gameOver = true;
+        try { recordGameResult('loss'); } catch (e) {}
+        try { clearAutoSavedGame(); } catch (e) {}
+    }
+    _onlineGame.status = 'aborted';
+    const meId = me.id;
+    const gameId = _onlineGame.id;
+    const endBody = JSON.stringify({ game_id: gameId, user_id: meId, reason: reason });
+    const freeBody = JSON.stringify({ id: meId, busy: false, name: me.name || '', provider: me.provider || '' });
+    function beacon(url, body) {
+        let sent = false;
+        try {
+            if (navigator.sendBeacon) sent = navigator.sendBeacon(url, new Blob([body], { type: 'text/plain' }));
+        } catch (e) {}
+        if (!sent) {
+            try { fetch(url, { method: 'POST', body: body, keepalive: true }); } catch (e2) {}
+        }
+    }
+    beacon(siteApi('end-game.php'), endBody);
+    beacon(siteApi('heartbeat.php'), freeBody);
 }
 
 // ── Chat de partida online ────────────────────────────────────────────────
@@ -11340,7 +11604,7 @@ function openOnlineChat(opponent) {
     renderChatBadge();
     wireChatHandlersOnce();
 
-    if (_onlineGame && _onlineGame.id && !IS_LOCAL) startChatPolling();
+    if (_onlineGame && _onlineGame.id) startChatPolling();
 }
 
 function closeOnlineChat() {
@@ -11393,8 +11657,7 @@ function sendChatMessage() {
     if (!input) return;
     const text = String(input.value || '').trim();
     if (!text) return;
-    if (!_onlineGame || !_onlineGame.id || IS_LOCAL) {
-        // En local: render optimista sin backend
+    if (!_onlineGame || !_onlineGame.id) {
         appendChatMessage({ id: 'local-' + Date.now(), user_id: 'me', nick: 'Tú', message: text, created_at: new Date().toISOString() }, true);
         input.value = '';
         return;
@@ -11411,7 +11674,7 @@ function sendChatMessage() {
     input.value = '';
     input.focus();
 
-    fetch(BASE_PATH + 'api/send-chat.php', {
+    fetch(siteApi('send-chat.php'), {
         method: 'POST', headers: {'Content-Type':'application/json'},
         body: JSON.stringify({
             game_id: _onlineGame.id,
@@ -11451,8 +11714,8 @@ function sendChatMessage() {
 }
 
 function pollChat() {
-    if (!_onlineGame || !_onlineGame.id || IS_LOCAL) return;
-    fetch(BASE_PATH + 'api/get-chat.php?game_id=' + _onlineGame.id + '&since_id=' + _chatLastId)
+    if (!_onlineGame || !_onlineGame.id) return;
+    fetch(siteApi('get-chat.php') + '?game_id=' + _onlineGame.id + '&since_id=' + _chatLastId + '&t=' + Date.now(), { cache: 'no-store' })
         .then(function(r) { return r.json(); })
         .then(function(data) {
             if (!data.ok || !Array.isArray(data.messages) || data.messages.length === 0) return;
@@ -11839,15 +12102,31 @@ function sendFeedback() {
 })();
 
 const INSTALL_PROMPT_SEEN_KEY = 'ajedrezia_install_prompt_seen';
+const PWA_INSTALLED_KEY = 'ajedrezia_pwa_installed';
 let _deferredPwaInstall = null;
+
+function markPwaInstalled() {
+    try { localStorage.setItem(PWA_INSTALLED_KEY, '1'); } catch (_e) {}
+}
+
+function forgetPwaInstalled() {
+    try { localStorage.removeItem(PWA_INSTALLED_KEY); } catch (_e) {}
+}
+
+function hasPwaInstalledFlag() {
+    try { return localStorage.getItem(PWA_INSTALLED_KEY) === '1'; } catch (_e) { return false; }
+}
 
 window.addEventListener('beforeinstallprompt', function(e) {
     e.preventDefault();
     _deferredPwaInstall = e;
+    forgetPwaInstalled();
+    if (!isPwaInstalled()) showInstallPromptIfNeeded();
 });
 
 window.addEventListener('appinstalled', function() {
     _deferredPwaInstall = null;
+    markPwaInstalled();
     hideInstallPrompt(true);
 });
 
@@ -11856,7 +12135,8 @@ function isPwaInstalled() {
         if (window.matchMedia && (
             window.matchMedia('(display-mode: standalone)').matches ||
             window.matchMedia('(display-mode: fullscreen)').matches ||
-            window.matchMedia('(display-mode: minimal-ui)').matches
+            window.matchMedia('(display-mode: minimal-ui)').matches ||
+            window.matchMedia('(display-mode: window-controls-overlay)').matches
         )) return true;
         if (navigator.standalone === true) return true;
         if (document.referrer && document.referrer.indexOf('android-app://') === 0) return true;
@@ -11875,8 +12155,12 @@ function hideInstallPrompt(remember) {
     }
 }
 
-function maybeShowInstallPrompt() {
-    if (isPwaInstalled()) return;
+function showInstallPromptIfNeeded() {
+    if (isPwaInstalled() || hasPwaInstalledFlag()) {
+        if (isPwaInstalled()) markPwaInstalled();
+        hideInstallPrompt(false);
+        return;
+    }
     try {
         if (localStorage.getItem(INSTALL_PROMPT_SEEN_KEY) === '1') return;
     } catch (_e) {}
@@ -11884,6 +12168,30 @@ function maybeShowInstallPrompt() {
     if (!el) return;
     el.hidden = false;
     el.classList.add('is-visible');
+}
+
+function maybeShowInstallPrompt() {
+    if (isPwaInstalled()) {
+        markPwaInstalled();
+        hideInstallPrompt(false);
+        return;
+    }
+    const related = (typeof navigator.getInstalledRelatedApps === 'function')
+        ? navigator.getInstalledRelatedApps().catch(function() { return null; })
+        : Promise.resolve(null);
+    related.then(function(apps) {
+        if (isPwaInstalled()) {
+            markPwaInstalled();
+            hideInstallPrompt(false);
+            return;
+        }
+        if (apps && apps.length) {
+            markPwaInstalled();
+            hideInstallPrompt(false);
+            return;
+        }
+        showInstallPromptIfNeeded();
+    });
 }
 
 function tryInstallFromPrompt() {
@@ -12008,19 +12316,7 @@ function showUserProfileModal() {
     signoutBtn.style.cssText = 'width:100%;margin-top:0;';
     signoutBtn.addEventListener('click', function() {
         overlay.remove();
-        clearOnlineUser();
-        playerNickname = 'Jugador';
-        const nicknameEl = document.getElementById('player-nickname');
-        if (nicknameEl) {
-            nicknameEl.value = playerNickname;
-            nicknameEl.disabled = false;
-            nicknameEl.title = '';
-        }
-        saveSettings();
-        showMessage(t('signedOut'), 'info', 2500);
-        updateLoginStatusButton();
-        updateLoginModalUI();
-        updateOnlineButtonTooltip();
+        continueAsGuestAfterSignOut();
     });
     modal.appendChild(signoutBtn);
 
@@ -12038,7 +12334,7 @@ function updateLoginModalUI() {
     if (!viewOut || !viewIn) return;
 
     const user = getOnlineUser();
-    if (user) {
+    if (user && user.provider !== 'guest') {
         viewOut.style.display = 'none';
         viewIn.style.display  = 'block';
 
@@ -12378,7 +12674,8 @@ function signInWithNickname(rawNick) {
     return true;
 }
 
-function signInAsGuest() {
+function signInAsGuest(opts) {
+    const silent = !!(opts && opts.silent);
     let id = localStorage.getItem('guest_user_id');
     let name = localStorage.getItem('guest_user_name');
     if (!id) {
@@ -12412,6 +12709,10 @@ function signInAsGuest() {
         expiry: Date.now() + 365 * 24 * 60 * 60 * 1000,
     });
 
+    if (silent) {
+        hideLoginModal();
+        return;
+    }
     if (!afterLoginUi()) showMessage(t('guestAccess', { name: name }), 'success', 3000);
 }
 
@@ -12609,7 +12910,7 @@ async function signInWithApple() {
         const loginStatusBtn = document.getElementById('login-status-btn');
         if (loginStatusBtn) loginStatusBtn.addEventListener('click', function() {
             const user = getOnlineUser();
-            if (user) {
+            if (user && user.provider !== 'guest') {
                 showUserProfileModal();
             } else {
                 showLoginModal();
@@ -12618,16 +12919,7 @@ async function signInWithApple() {
 
         const loginSignoutBtn = document.getElementById('login-signout-btn');
         if (loginSignoutBtn) loginSignoutBtn.addEventListener('click', function() {
-            clearOnlineUser();
-            playerNickname = 'Jugador';
-            const nicknameEl = document.getElementById('player-nickname');
-            if (nicknameEl) {
-                nicknameEl.value = playerNickname;
-                nicknameEl.disabled = false;
-                nicknameEl.title = '';
-            }
-            saveSettings();
-            showMessage(t('signedOut'), 'info', 2500);
+            continueAsGuestAfterSignOut();
         });
 
         document.getElementById('login-invite-btn').addEventListener('click', function() {
@@ -12648,8 +12940,12 @@ async function signInWithApple() {
             showUsersModal();
         });
 
-        // Al cargar la página, si ya hay sesión guardada restaura el nickname y bloquea el campo
-        const existingUser = getOnlineUser();
+        // Al entrar, si no hay cuenta, se accede como el mismo Invitado-XXXXXX ya guardado.
+        let existingUser = getOnlineUser();
+        if (!isAuthenticatedUser()) {
+            signInAsGuest({ silent: true });
+            existingUser = getOnlineUser();
+        }
         const nicknameEl = document.getElementById('player-nickname');
         if (existingUser && (existingUser.email || existingUser.provider === 'guest')) {
             playerNickname = existingUser.provider === 'guest'
@@ -12674,11 +12970,15 @@ async function signInWithApple() {
         updateAppAccessLock();
         if (existingUser) {
             rememberKnownOnlineUser(existingUser.id);
+            if (existingUser.provider === 'guest') {
+                saveUserToDB(existingUser, false, { quiet: true, presence: true });
+            }
             startHeartbeat();
         }
         if (shouldNotifyAppOpen()) {
             notifyUserConnection(existingUser, 'access');
         }
+        startOnlineNowPolling();
     });
 })();
 
@@ -12786,8 +13086,8 @@ function recordGameResult(result) {
 
 function pushOnlineEloUpdate(gameId, delta) {
     const me = getOnlineUser();
-    if (!me || !gameId || IS_LOCAL) return;
-    fetch(BASE_PATH + 'api/update-elo.php', {
+    if (!me || !gameId) return;
+    fetch(siteApi('update-elo.php'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ game_id: gameId, user_id: me.id, delta: delta }),
@@ -12837,11 +13137,11 @@ function offerDraw() {
     // ── Partida online: enviar oferta al oponente vía servidor ───────────
     if (_onlineGame && _onlineGame.status === 'active') {
         const me = getOnlineUser();
-        if (!me || IS_LOCAL) {
+        if (!me || !_onlineGame.id) {
             showMessage(t('msg.drawSim'), 'info', 2000);
             return;
         }
-        fetch(BASE_PATH + 'api/offer-draw.php', {
+        fetch(siteApi('offer-draw.php'), {
             method: 'POST', headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ game_id: _onlineGame.id, user_id: me.id }),
         })
@@ -13663,7 +13963,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     document.getElementById('export-pgn').addEventListener('click', exportPGN);
     document.getElementById('import-pgn').addEventListener('click', importPGN);
-    ['copy-pgn', 'copy-pgn-board'].forEach(id => {
+    ['copy-pgn'].forEach(id => {
         const el = document.getElementById(id);
         if (el) el.addEventListener('click', copyPGN);
     });
@@ -13818,6 +14118,7 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('beforeunload', () => {
         autoSaveGame();
     });
+    window.addEventListener('pagehide', notifyOnlineGameClosed);
 
     // Restaurar partida en curso, enlace compartido ?m= / ?moves= / ?puzzle= / ?opening= / ?master=, o iniciar nueva
     applyBoardTheme();
@@ -14366,10 +14667,12 @@ function confirmNewGame() {
     showNewGameDialog();
 }
 
-function showNewGameDialog() {
+function showNewGameDialog(opts) {
     let overlay = document.getElementById('new-game-overlay');
     if (overlay) overlay.remove();
 
+    _directInviteTarget = (opts && opts.directTarget) || null;
+    const previewOpponent = _directInviteTarget ? 'online' : lastNewGameOpponent;
     _newGameDialogOpen = true;
 
     overlay = document.createElement('div');
@@ -14429,16 +14732,40 @@ function showNewGameDialog() {
     const opponentPickerEl = opponentSection ? opponentSection.querySelector('#player-opponent-picker') : null;
     if (opponentPickerEl) {
         opponentPickerEl.querySelectorAll('.player-color-option').forEach(b => {
-            const sel = b.getAttribute('data-mode') === lastNewGameOpponent;
+            const sel = b.getAttribute('data-mode') === previewOpponent;
             b.classList.toggle('player-color-option--selected', sel);
             b.setAttribute('aria-pressed', sel ? 'true' : 'false');
         });
     }
 
-    updateNewGamePickerLabels(playerColorSetting, lastNewGameOpponent);
+    updateNewGamePickerLabels(playerColorSetting, previewOpponent);
+
+    // Un conectado concreto: bajo «Juegas contra» va su ficha, no los botones.
+    let directCard = null;
+    if (_directInviteTarget && opponentPickerEl) {
+        opponentPickerEl.style.display = 'none';
+        const challenged = _directInviteTarget;
+        const challengedBusy = challenged.status === 'busy';
+        const challengedNick = escHtml(challenged.nick || challenged.name || '');
+        const challengedStatus = challengedBusy ? t('user.busy') : t('user.free');
+        directCard = document.createElement('div');
+        directCard.className = 'user-row direct-invite-card ' + (challengedBusy ? 'is-busy' : 'is-online');
+        directCard.innerHTML =
+            '<div class="user-row-info">' +
+                '<span class="user-row-nick">' + challengedNick + '</span>' +
+                '<span class="user-row-elo">ELO ' + (challenged.elo != null ? challenged.elo : '') + '</span>' +
+            '</div>' +
+            '<div class="user-row-status">' +
+                '<span class="status-dot"></span>' +
+                '<span class="status-label">' + escHtml(challengedStatus) + '</span>' +
+            '</div>';
+        opponentPickerEl.insertAdjacentElement('afterend', directCard);
+        const oppLabel = opponentSection.querySelector('#juegas-contra-label');
+        if (oppLabel) oppLabel.textContent = t('config.playVs');
+    }
 
     // — Nivel de Dificultad: visible solo cuando el oponente es IA —
-    if (aiSection) aiSection.style.display = (lastNewGameOpponent === 'ai') ? '' : 'none';
+    if (aiSection) aiSection.style.display = (previewOpponent === 'ai') ? '' : 'none';
 
     // — Control de Tiempo: visible también en partida por correo —
     if (timeSection) timeSection.style.display = '';
@@ -14473,6 +14800,9 @@ function showNewGameDialog() {
 
     function close() {
         _newGameDialogOpen = false;
+        _directInviteTarget = null;
+        if (directCard) directCard.remove();
+        if (opponentPickerEl) opponentPickerEl.style.display = '';
         restoreSections();
         // Sincronizar la visibilidad real según el oponente efectivo,
         // por si el usuario marcó "online" en la previsualización.
@@ -14487,7 +14817,7 @@ function showNewGameDialog() {
     const startBtn = document.createElement('button');
     startBtn.id = 'new-game-start-btn';
     startBtn.className = 'btn btn-success';
-    startBtn.textContent = (lastNewGameOpponent === 'mail') ? t('newGame.sendInvite') : t('start');
+    startBtn.textContent = (previewOpponent === 'mail') ? t('newGame.sendInvite') : t('start');
     startBtn.style.marginTop = '0';
     startBtn.style.flex = '1';
     startBtn.addEventListener('click', () => {
@@ -14515,6 +14845,16 @@ function showNewGameDialog() {
                 incrementPerMove = parts[1];
             }
         }
+        // Un conectado concreto: Comenzar le envía la invitación.
+        // Nueva partida, sin ese destino, sigue abriendo la lista si el modo es online.
+        if (_directInviteTarget) {
+            const target = _directInviteTarget;
+            saveSettings();
+            close();
+            sendDirectInvite(target);
+            return;
+        }
+
         // Juegas contra
         lastNewGameOpponent = selected;
 
@@ -15861,7 +16201,7 @@ function setOnlineActionsLocked(locked) {
         'analyze-game', 'analyze-game-sidebar',
         'view-analysis',
         // PGN y compartir
-        'copy-pgn', 'copy-pgn-board',
+        'copy-pgn',
         'export-pgn', 'import-pgn',
         'share-board', 'share-sidebar',
         // Partidas famosas
@@ -15883,7 +16223,7 @@ function setOnlineActionsLocked(locked) {
         // Restaurar el estado coherente normal: los botones de partida vuelven a estar
         // habilitados; aperturas/quiz se reactivan según haya selección de apertura.
         setGameButtonsDisabled(false);
-        ['new-game', 'new-game-mobile', 'copy-pgn', 'copy-pgn-board',
+        ['new-game', 'new-game-mobile', 'copy-pgn',
          'export-pgn', 'import-pgn', 'load-famous-game',
          'share-board', 'share-sidebar',
          'resume-game', 'resume-game-sidebar'].forEach(function(id) {
@@ -15900,7 +16240,7 @@ function setOnlineActionsLocked(locked) {
 
 function setPuzzleActionsLocked(locked) {
     setGameButtonsDisabled(locked);
-    ['copy-pgn', 'copy-pgn-board', 'view-analysis'].forEach(function(id) {
+    ['copy-pgn', 'view-analysis'].forEach(function(id) {
         var el = document.getElementById(id);
         if (el) el.disabled = locked;
     });

@@ -165,6 +165,7 @@ try {
         <div class="game-container">
             <div class="sidebar sidebar-left">
                 <button id="new-game" data-icon="plus" class="btn btn-success btn-new-game-top btn-new-game--desktop" data-i18n="newGame">♟ Nueva Partida</button>
+                <div id="online-now-desktop" class="online-now online-now--desktop" aria-live="polite"></div>
 
                 <div class="panel panel-collapsible collapsed" id="openings-panel">
                     <h2 class="panel-toggle"><span data-icon="book" data-i18n="panel.openings">📖 Entrenar Aperturas</span> <span class="panel-arrow" data-icon="chevronUp">▲</span></h2>
@@ -719,7 +720,6 @@ try {
                            <button id="undo-move" data-icon="undo" class="btn-icon btn-primary" data-i18n-title="action.undo" title="Deshacer Movimiento">↺</button>
                            <button id="hint-move" data-icon="hint" class="btn-icon btn-yellow" data-i18n-title="action.hint" title="Sugerencia de IA">💡</button>
                            <button id="analyze-game" data-icon="chart" class="btn-icon btn-orange" data-i18n-title="action.analyze" title="Analizar Partida">📊</button>
-                           <button id="copy-pgn-board" data-icon="clipboard" class="btn-icon btn-primary" data-i18n-title="action.copyPgn" title="Copiar PGN">📋</button>
                 </div>
                        <div id="thinking-indicator" class="thinking-indicator" style="display: none;">
                            <div class="spinner"></div>
@@ -798,6 +798,7 @@ try {
                        </div>
 
                 <button id="new-game-mobile" data-icon="plus" type="button" class="btn btn-success btn-new-game-top btn-new-game--mobile" data-i18n="newGame" data-i18n-aria="newGame" aria-label="Nueva Partida">♟ Nueva Partida</button>
+                <div id="online-now-mobile" class="online-now online-now--mobile" aria-live="polite"></div>
 
                 <div class="panel panel-collapsible collapsed" id="config-panel">
                     <h2 class="panel-toggle" id="config-toggle"><span data-icon="settings" data-i18n="panel.config">⚙️ Configuración</span> <span class="panel-arrow" data-icon="chevronUp">▲</span></h2>
@@ -1146,7 +1147,7 @@ try {
                         </svg>
                         <span data-i18n="login.google">Continuar con Google</span>
                     </button>
-                    <button class="login-btn login-btn-guest" id="login-guest-btn" type="button">
+                    <button class="login-btn login-btn-guest" id="login-guest-btn" type="button" hidden>
                         <svg class="login-btn-icon" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
                             <path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm0 2c-4.42 0-8 2.24-8 5v1h16v-1c0-2.76-3.58-5-8-5z"/>
                         </svg>

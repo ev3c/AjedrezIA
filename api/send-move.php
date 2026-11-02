@@ -96,6 +96,11 @@ try {
         (int)$d['game_id']
     ]);
 
+    if ($finalStatus !== 'active') {
+        $pdo->prepare("UPDATE ajedrezia_users SET status = 'available' WHERE id IN (?, ?)")
+            ->execute([$game['white_id'], $game['black_id']]);
+    }
+
     $pdo->commit();
     echo json_encode([
         'ok' => true,

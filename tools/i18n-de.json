@@ -1516,5 +1516,9 @@
   "feedback.screenLine": "Bildschirm: {screen}",
   "install.prompt": "Möchtest du die Website als App installieren?",
   "changelog.3.6.71": "Die Meldung an info@ajedrezia.com enthält die Bildschirmgröße",
-  "changelog.3.6.71.install": "Beim ersten Besuch erscheint eine Sprechblase zum Installieren, wenn die Website nicht als App installiert ist"
+  "changelog.3.6.71.install": "Beim ersten Besuch erscheint eine Sprechblase zum Installieren, wenn die Website nicht als App installiert ist",
+  "user.free": "Frei",
+  "user.freeYou": "Frei (du)",
+  "onlineNow.title": "Online",
+  "onlineNow.empty": "Gerade ist niemand online"
 }

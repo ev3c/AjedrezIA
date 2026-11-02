@@ -10,7 +10,9 @@ $allowedOrigins = [
     'http://127.0.0.1:8000',
 ];
 $origin = $_SERVER['HTTP_ORIGIN'] ?? '';
-header('Access-Control-Allow-Origin: ' . (in_array($origin, $allowedOrigins, true) ? $origin : 'https://www.ajedrezia.com'));
+$originAllowed = in_array($origin, $allowedOrigins, true)
+    || preg_match('#^http://(127\.0\.0\.1|localhost)(:\d+)?$#', $origin);
+header('Access-Control-Allow-Origin: ' . ($originAllowed ? $origin : 'https://www.ajedrezia.com'));
 header('Vary: Origin');
 header('Access-Control-Allow-Methods: POST, OPTIONS');
 header('Access-Control-Allow-Headers: Content-Type');
@@ -93,28 +95,38 @@ $is_new   = ($existing === false);
 $seedElo = isset($data['elo']) ? (int)$data['elo'] : 1200;
 if ($seedElo < 100) $seedElo = 100;
 if ($seedElo > 4000) $seedElo = 4000;
+$presence = !empty($data['presence']);
 
 // ── Upsert usuario ────────────────────────────────────────────────────
 // Nota: actualizamos también email/provider para soportar el cambio de nick
 // en cuentas tipo "nickname" (email sintético <nick>@nickname.local).
 // El ELO del servidor no se pisa en reconexiones: es la fuente de verdad.
-$pdo->prepare("
-    INSERT INTO ajedrezia_users (id, provider, email, name, first_login, last_login, login_count, last_ip, elo)
-    VALUES (?, ?, ?, ?, ?, ?, 1, ?, ?)
-    ON DUPLICATE KEY UPDATE
-        last_login  = VALUES(last_login),
-        login_count = login_count + 1,
-        last_ip     = VALUES(last_ip),
-        name        = VALUES(name),
-        email       = VALUES(email),
-        provider    = VALUES(provider)
-")->execute([$uid, $provider, $email, $name, $now, $now, $ip, $seedElo]);
+// presence: el invitado ya abierto solo refresca la presencia, sin sumar un acceso.
+if ($presence && !$is_new) {
+    $pdo->prepare("
+        UPDATE ajedrezia_users
+           SET last_login = ?, last_seen = ?, name = ?, provider = ?
+         WHERE id = ?
+    ")->execute([$now, $now, $name, $provider, $uid]);
+} else {
+    $pdo->prepare("
+        INSERT INTO ajedrezia_users (id, provider, email, name, first_login, last_login, last_seen, login_count, last_ip, elo)
+        VALUES (?, ?, ?, ?, ?, ?, ?, 1, ?, ?)
+        ON DUPLICATE KEY UPDATE
+            last_login  = VALUES(last_login),
+            last_seen   = VALUES(last_seen),
+            login_count = login_count + 1,
+            last_ip     = VALUES(last_ip),
+            name        = VALUES(name),
+            email       = VALUES(email),
+            provider    = VALUES(provider)
+    ")->execute([$uid, $provider, $email, $name, $now, $now, $now, $ip, $seedElo]);
 
-// ── Registrar en historial ────────────────────────────────────────────
-$pdo->prepare("
-    INSERT INTO ajedrezia_login_history (user_id, email, provider, login_at, ip)
-    VALUES (?, ?, ?, ?, ?)
-")->execute([$uid, $email, $provider, $now, $ip]);
+    $pdo->prepare("
+        INSERT INTO ajedrezia_login_history (user_id, email, provider, login_at, ip)
+        VALUES (?, ?, ?, ?, ?)
+    ")->execute([$uid, $email, $provider, $now, $ip]);
+}
 
 $eloRow = $pdo->prepare('SELECT elo FROM ajedrezia_users WHERE id = ?');
 $eloRow->execute([$uid]);

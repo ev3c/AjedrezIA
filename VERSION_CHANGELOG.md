@@ -2,6 +2,133 @@
 
 ---
 
+## v3.6.89 — 2026-11-02
+
+### Partida online
+- Al terminar la partida online, los dos jugadores vuelven a estar libres.
+
+---
+
+## v3.6.88 — 2026-11-02
+
+### Partida online
+- Al retar a un conectado, Nueva partida muestra su ficha en lugar de los botones de oponente.
+
+---
+
+## v3.6.87 — 2026-11-02
+
+### Tablero
+- Quitado el botón Copiar PGN de debajo del tablero.
+
+---
+
+## v3.6.86 — 2026-11-01
+
+### Partida online
+- Al abandonar o cerrar una partida online, el rival recibe el aviso.
+- Las jugadas, las tablas y el chat se sincronizan también en la vista local.
+
+---
+
+## v3.6.85 — 2026-11-01
+
+### Partida online
+- En Jugadores registrados, los conectados se ven como bajo Nueva partida y aparecen antes de Bot_400.
+
+---
+
+## v3.6.84 — 2026-11-01
+
+### Partida online
+- El aviso Te reto usa los minutos elegidos en Nueva partida.
+
+---
+
+## v3.6.83 — 2026-11-01
+
+### Partida online
+- El jugador invitado ve el aviso para aceptar la partida.
+
+---
+
+## v3.6.82 — 2026-11-01
+
+### Partida online
+- Al pulsar un conectado, Nueva partida abre con Juegas contra On-line.
+
+---
+
+## v3.6.81 — 2026-11-01
+
+### Partida online
+- Al pulsar un conectado se abre Nueva partida con IA y Comenzar envía la invitación.
+- Nueva partida sigue mostrando la lista de usuarios.
+
+---
+
+## v3.6.80 — 2026-11-01
+
+### Jugadores en línea
+- En Conectados, el nombre y el ELO van en la misma línea, sin icono.
+
+---
+
+## v3.6.79 — 2026-11-01
+
+### Sesión
+- Al cerrar sesión se continúa como Invitado-XXXXXX.
+
+---
+
+## v3.6.78 — 2026-11-01
+
+### Jugadores en línea
+- Al abrir la web, tu Invitado-XXXXXX se anuncia y los demás lo ven en Conectados.
+
+---
+
+## v3.6.77 — 2026-11-01
+
+### Jugadores en línea
+- Los invitados que tienen la web abierta aparecen en Conectados.
+
+---
+
+## v3.6.76 — 2026-11-01
+
+### Sesión
+- Al entrar se accede como **Invitado-XXXXXX**. Si esa cuenta ya existía, se usa la misma.
+- En Iniciar sesión ya no aparece **Acceder como invitado**.
+- Pulsar **Invitado-XXXXXX** en Configuración abre Iniciar sesión.
+
+---
+
+## v3.6.75 — 2026-11-01
+
+### Jugadores en línea
+- La lista de conectados también muestra a los demás jugadores que están en línea.
+
+---
+
+## v3.6.73 — 2026-11-01
+
+### Instalación
+- Si la web ya está instalada como app, no aparece la viñeta para instalarla.
+
+### Jugadores en línea
+- La lista de jugadores conectados se actualiza sola.
+
+---
+
+## v3.6.72 — 2026-11-01
+
+### Jugadores en línea
+- Quien ha iniciado sesión aparece **ocupado** solo si está jugando una partida en línea.
+- Debajo de **Nueva partida** se ve quién está conectado, libre u ocupado.
+
+---
+
 ## v3.6.71 — 2026-11-01
 
 ### Acceso a la web

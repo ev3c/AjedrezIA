@@ -24,3 +24,6 @@ _trash/
 api-key.txt
 config.json
 
+# Copia local de los jugadores en línea (la genera tools/online-now-sync.py)
+api/online-now.json
+

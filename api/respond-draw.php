@@ -35,8 +35,10 @@ try {
             UPDATE ajedrezia_games
             SET status = 'draw', result_reason = 'draw_agreed', ended_at = NOW(),
                 draw_offer = '', draw_offer_at = NULL
-            WHERE id = ?
-        ")->execute([(int)$d['game_id']]);
+        WHERE id = ?
+    ")->execute([(int)$d['game_id']]);
+        $pdo->prepare("UPDATE ajedrezia_users SET status = 'available' WHERE id IN (?, ?)")
+            ->execute([$game['white_id'], $game['black_id']]);
         $pdo->commit();
         echo json_encode(['ok' => true, 'result' => 'draw']);
     } else {

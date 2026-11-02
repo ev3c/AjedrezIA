@@ -116,6 +116,12 @@ self.addEventListener('message', (event) => {
 self.addEventListener('fetch', (event) => {
     const url = new URL(event.request.url);
 
+    // La lista de conectados y el resto de la API tienen que llegar siempre frescos.
+    if (url.origin === location.origin && url.pathname.indexOf('/api/') !== -1) {
+        event.respondWith(fetch(new Request(event.request, { cache: 'no-store' })));
+        return;
+    }
+
     // Recursos externos: red con fallback a caché
     if (url.origin !== location.origin) {
         event.respondWith(

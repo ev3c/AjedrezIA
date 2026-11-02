@@ -33,6 +33,9 @@ try {
     $pdo->prepare("UPDATE ajedrezia_games SET status = ?, result_reason = ?, ended_at = NOW() WHERE id = ?")
         ->execute([$finalStatus, substr($reason, 0, 32), (int)$d['game_id']]);
 
+    $pdo->prepare("UPDATE ajedrezia_users SET status = 'available' WHERE id IN (?, ?)")
+        ->execute([$game['white_id'], $game['black_id']]);
+
     echo json_encode(['ok' => true, 'status' => $finalStatus]);
 } catch (PDOException $e) {
     http_response_code(500);

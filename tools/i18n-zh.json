@@ -1516,5 +1516,9 @@
   "feedback.screenLine": "屏幕：{screen}",
   "install.prompt": "要把网站安装成应用吗？",
   "changelog.3.6.71": "发给 info@ajedrezia.com 的通知包含屏幕尺寸",
-  "changelog.3.6.71.install": "首次访问时，若网站尚未安装为应用，会显示安装提示气泡"
+  "changelog.3.6.71.install": "首次访问时，若网站尚未安装为应用，会显示安装提示气泡",
+  "user.free": "空闲",
+  "user.freeYou": "空闲（你）",
+  "onlineNow.title": "在线",
+  "onlineNow.empty": "当前没有人在线"
 }

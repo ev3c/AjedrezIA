@@ -1516,5 +1516,9 @@
   "feedback.screenLine": "画面: {screen}",
   "install.prompt": "このサイトをアプリとしてインストールしますか？",
   "changelog.3.6.71": "info@ajedrezia.com への通知に画面サイズを含めます",
-  "changelog.3.6.71.install": "初回訪問時、サイトがアプリ未インストールならインストールの吹き出しを表示します"
+  "changelog.3.6.71.install": "初回訪問時、サイトがアプリ未インストールならインストールの吹き出しを表示します",
+  "user.free": "空き",
+  "user.freeYou": "空き（あなた）",
+  "onlineNow.title": "オンライン",
+  "onlineNow.empty": "今オンラインの人はいません"
 }

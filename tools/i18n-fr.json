@@ -1516,5 +1516,9 @@
   "feedback.screenLine": "Écran : {screen}",
   "install.prompt": "Veux-tu installer le site comme application ?",
   "changelog.3.6.71": "L’avis à info@ajedrezia.com inclut la taille de l’écran",
-  "changelog.3.6.71.install": "À la première visite, si le site n’est pas installé comme appli, une bulle propose de l’installer"
+  "changelog.3.6.71.install": "À la première visite, si le site n’est pas installé comme appli, une bulle propose de l’installer",
+  "user.free": "Libre",
+  "user.freeYou": "Libre (toi)",
+  "onlineNow.title": "En ligne",
+  "onlineNow.empty": "Personne en ligne pour le moment"
 }

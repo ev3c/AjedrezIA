@@ -10,7 +10,9 @@ $allowedOrigins = [
     'http://127.0.0.1:8000',
 ];
 $origin = $_SERVER['HTTP_ORIGIN'] ?? '';
-header('Access-Control-Allow-Origin: ' . (in_array($origin, $allowedOrigins, true) ? $origin : 'https://www.ajedrezia.com'));
+$originAllowed = in_array($origin, $allowedOrigins, true)
+    || preg_match('#^http://(127\.0\.0\.1|localhost)(:\d+)?$#', $origin);
+header('Access-Control-Allow-Origin: ' . ($originAllowed ? $origin : 'https://www.ajedrezia.com'));
 header('Vary: Origin');
 header('Access-Control-Allow-Methods: POST, OPTIONS');
 header('Access-Control-Allow-Headers: Content-Type');
@@ -34,12 +36,32 @@ try {
     $pdo->exec("ALTER TABLE ajedrezia_users ADD COLUMN status VARCHAR(20) DEFAULT 'available'");
 } catch (PDOException $e) { /* ya existe */ }
 
-$uid    = substr(trim($data['id']), 0, 128);
-$busy   = !empty($data['busy']);
-$status = $busy ? 'busy' : 'available';
+$uid      = substr(trim($data['id']), 0, 128);
+$busy     = !empty($data['busy']);
+$status   = $busy ? 'busy' : 'available';
+$name     = substr(trim($data['name'] ?? ''), 0, 255);
+$provider = substr(trim($data['provider'] ?? ''), 0, 20);
 
-$pdo->prepare("
+$upd = $pdo->prepare("
     UPDATE ajedrezia_users SET last_seen = NOW(), status = ? WHERE id = ?
-")->execute([$status, $uid]);
+");
+$upd->execute([$status, $uid]);
+
+if ($upd->rowCount() === 0 && strpos($uid, 'guest-') === 0) {
+    $now = date('Y-m-d H:i:s');
+    $pdo->prepare("
+        INSERT INTO ajedrezia_users
+            (id, provider, email, name, first_login, last_login, last_seen, login_count, last_ip, elo, status)
+        VALUES (?, ?, '', ?, ?, ?, ?, 1, '', 1200, ?)
+    ")->execute([
+        $uid,
+        $provider !== '' ? $provider : 'guest',
+        $name,
+        $now,
+        $now,
+        $now,
+        $status,
+    ]);
+}
 
 echo json_encode(['ok' => true]);
