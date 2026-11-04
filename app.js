@@ -8625,11 +8625,14 @@ function scrollToBoard() {
 }
 
 const VERSION_CHANGELOG = {
-    '3.6.92': [
-        'changelog.3.6.92',
+    '3.6.95': [
+        'changelog.3.6.94',
+        'changelog.3.6.94.clock',
+        'changelog.3.6.93',
         'changelog.more',
     ],
-    '3.6.91': [
+    '3.6.92': [
+        'changelog.3.6.92',
         'changelog.3.6.91',
         'changelog.3.6.90',
         'changelog.3.6.89',
@@ -10043,24 +10046,108 @@ function buildGeneratedDemoUsers(startNum, count) {
     return list;
 }
 
-/** Misma lista que bajo Nueva partida: reales, en línea, libres antes que ocupados. */
-function connectedUsersLikeStrip(users) {
-    return applySelfOnlineStatus(users)
-        .filter(function(u) { return u.online && isRealUser(u); })
-        .sort(function(a, b) {
-            var rankA = a.status === 'busy' ? 1 : 0;
-            var rankB = b.status === 'busy' ? 1 : 0;
-            if (rankA !== rankB) return rankA - rankB;
-            return (a.nick || a.name || '').localeCompare(b.nick || b.name || '', 'es', { sensitivity: 'base' });
-        });
+/** Reales en línea (libres antes que ocupados) y, detrás, los de ejemplo que están ocupados. */
+let _stickyFakeBusy = null;
+
+function fakeBusyFrom(users) {
+    return (Array.isArray(users) ? users : []).filter(function(u) {
+        if (!u || !u.online || u.status !== 'busy') return false;
+        if (u.isBot || isBotId(u.id) || String(u.id || '').indexOf('bot_') === 0) return false;
+        return !isRealUser(u);
+    });
 }
 
-/** Conectados reales, después los bots desde Bot_400, y al final el resto en línea. */
-function composeUsersModalList(apiUsers, extras) {
-    var connected = connectedUsersLikeStrip(apiUsers);
+function nickStartToken(nick) {
+    var s = String(nick || '').trim();
+    var i = s.indexOf('_');
+    var start = i === -1 ? s : s.slice(0, i);
+    return start.toLocaleLowerCase('es');
+}
+
+function fnvGuestCode(seed) {
+    var h = 2166136261;
+    var s = String(seed);
+    for (var i = 0; i < s.length; i++) {
+        h ^= s.charCodeAt(i);
+        h = Math.imul(h, 16777619);
+    }
+    return ('00000000' + (h >>> 0).toString(16)).slice(-6).toUpperCase();
+}
+
+function reservedRealGuestNicks(users) {
+    var set = {};
+    (users || []).forEach(function(u) {
+        if (!u || !isRealUser(u)) return;
+        [u.nick, u.name].forEach(function(raw) {
+            var m = /^Invitado-([A-Za-z0-9]{6})$/i.exec(String(raw || '').trim());
+            if (m) set['INVITADO-' + m[1].toUpperCase()] = true;
+        });
+    });
+    return set;
+}
+
+/** Quienes comparten el primer tramo del nombre pasan a Invitado-XXXXXX. */
+function guestNicksForSharedStarts(users) {
+    var fakes = (users || []).filter(function(u) {
+        if (!u || u.isBot || isBotId(u.id) || String(u.id || '').indexOf('bot_') === 0) return false;
+        return !isRealUser(u);
+    });
+    var counts = {};
+    fakes.forEach(function(u) {
+        var start = nickStartToken(u.nick || u.name);
+        if (!start) return;
+        counts[start] = (counts[start] || 0) + 1;
+    });
+    var used = reservedRealGuestNicks(users);
+    var nickById = {};
+    fakes.slice().sort(function(a, b) {
+        return String(a.id).localeCompare(String(b.id), 'en');
+    }).forEach(function(u) {
+        var start = nickStartToken(u.nick || u.name);
+        if (!start || counts[start] < 2) return;
+        var n = 0;
+        var nick;
+        do {
+            nick = 'Invitado-' + fnvGuestCode(String(u.id) + ':' + n);
+            n++;
+        } while (used[nick.toUpperCase()] && n < 1000);
+        used[nick.toUpperCase()] = true;
+        nickById[String(u.id)] = nick;
+    });
+    return nickById;
+}
+
+function busyFakesForList(apiUsers) {
+    var incoming = fakeBusyFrom(apiUsers);
+    if (incoming.length) {
+        if (!_stickyFakeBusy) _stickyFakeBusy = incoming.slice();
+    } else if (!_stickyFakeBusy) {
+        _stickyFakeBusy = fakeBusyFrom(getClientCommunityUsers()).slice();
+    }
+    var base = _stickyFakeBusy || [];
+    var catalog = [];
     var seen = {};
-    connected.forEach(function(u) { seen[String(u.id)] = true; });
-    var bots = BOT_USERS.map(function(b) {
+    function add(u) {
+        if (!u) return;
+        var id = String(u.id);
+        if (seen[id]) return;
+        seen[id] = true;
+        catalog.push(u);
+    }
+    if (incoming.length) (apiUsers || []).forEach(add);
+    else getClientCommunityUsers().forEach(add);
+    (apiUsers || []).forEach(function(u) { if (u && isRealUser(u)) add(u); });
+    base.forEach(add);
+    var nickById = guestNicksForSharedStarts(catalog);
+    return base.map(function(u) {
+        var nick = nickById[String(u.id)];
+        if (!nick) return u;
+        return Object.assign({}, u, { nick: nick, name: nick });
+    });
+}
+
+function clientBotUsers() {
+    return BOT_USERS.map(function(b) {
         return {
             id: b.id,
             nick: b.nick,
@@ -10071,12 +10158,39 @@ function composeUsersModalList(apiUsers, extras) {
             isBot: true,
         };
     });
+}
+
+function connectedUsersLikeStrip(users) {
+    var real = applySelfOnlineStatus(users).filter(function(u) {
+        return u.online && isRealUser(u);
+    });
+    function byNick(a, b) {
+        return (a.nick || a.name || '').localeCompare(b.nick || b.name || '', 'es', { sensitivity: 'base' });
+    }
+    var free = real.filter(function(u) { return u.status !== 'busy'; }).sort(byNick);
+    var busy = real.filter(function(u) { return u.status === 'busy'; }).sort(byNick);
+    var seen = {};
+    free.concat(busy).forEach(function(u) { seen[String(u.id)] = true; });
+    var bots = clientBotUsers().filter(function(u) { return !seen[String(u.id)]; });
+    bots.forEach(function(u) { seen[String(u.id)] = true; });
+    var fakes = busyFakesForList(users).filter(function(u) {
+        return !seen[String(u.id)];
+    });
+    fakes.sort(byNick);
+    return free.concat(bots).concat(busy).concat(fakes);
+}
+
+/** Libres, después Bot_XXX, después los ocupados. */
+function composeUsersModalList(apiUsers, extras) {
+    var connected = connectedUsersLikeStrip(apiUsers);
+    var seen = {};
+    connected.forEach(function(u) { seen[String(u.id)] = true; });
     var rest = (Array.isArray(extras) ? extras : []).filter(function(u) {
         if (!u || !u.online || seen[String(u.id)] || isBotId(u.id) || u.isBot) return false;
         if (isRealUser(u)) return false;
         return true;
     });
-    return connected.concat(bots).concat(rest);
+    return connected.concat(rest);
 }
 
 function showUsersModal() {
@@ -10091,6 +10205,236 @@ function hideUsersModal() {
     if (overlay) overlay.classList.remove('is-open');
 }
 
+function buildClientCommunityUsers() {
+    // Datos de ejemplo en modo local
+    const currentUser = getOnlineUser();
+    const currentElo  = (typeof stats !== 'undefined' && stats.elo) ? stats.elo : 1200;
+    const demoBase = [
+        { id:'demo001', nick:'jugador_demo',      elo:1450 },
+        { id:'demo002', nick:'ajedrez_fan',       elo:1320 },
+        { id:'demo003', nick:'magnus_junior',     elo:1180 },
+        { id:'demo004', nick:'caballo_loco',      elo:1675 },
+        { id:'demo005', nick:'reina_blanca',      elo:1890 },
+        { id:'demo006', nick:'gambit_master',     elo:2100 },
+        { id:'demo007', nick:'peoncito',          elo:980  },
+        { id:'demo008', nick:'torre_negra',       elo:1540 },
+        { id:'demo009', nick:'alfil_rapido',      elo:1265 },
+        { id:'demo010', nick:'enroque_corto',     elo:1410 },
+        { id:'demo011', nick:'jaque_mate_99',     elo:1750 },
+        { id:'demo012', nick:'capablanca_ii',     elo:2250 },
+        { id:'demo013', nick:'tablero_loco',      elo:1120 },
+        { id:'demo014', nick:'siciliana_pro',     elo:1830 },
+        { id:'demo015', nick:'rey_solitario',     elo:1050 },
+        { id:'demo016', nick:'dama_furiosa',      elo:1620 },
+        { id:'demo017', nick:'pasapeon',          elo:1370 },
+        { id:'demo018', nick:'al_passant',        elo:1495 },
+        { id:'demo019', nick:'fianchetto',        elo:1985 },
+        { id:'demo020', nick:'novato_2026',       elo:880  },
+        { id:'demo021', nick:'gran_maestro',      elo:2400 },
+        { id:'demo022', nick:'apertura_inglesa',  elo:1710 },
+        { id:'demo023', nick:'defensa_francesa',  elo:1565 },
+        { id:'demo024', nick:'mate_pastor',       elo:1230 },
+        { id:'demo025', nick:'bobby_fan',         elo:1920 },
+        { id:'demo026', nick:'ataque_indio',      elo:1480 },
+        { id:'demo027', nick:'gambito_rey',       elo:1355 },
+        { id:'demo028', nick:'nimzo_defense',     elo:1790 },
+        { id:'demo029', nick:'grünfeld_pro',      elo:2030 },
+        { id:'demo030', nick:'caro_kann_fan',     elo:1640 },
+        { id:'demo031', nick:'peon_pasado',       elo:1160 },
+        { id:'demo032', nick:'torres_gemelas',    elo:1520 },
+        { id:'demo033', nick:'bishop_hunter',     elo:1395 },
+        { id:'demo034', nick:'zugzwang_king',     elo:2180 },
+        { id:'demo035', nick:'blitz_relámpago',   elo:1870 },
+        { id:'demo036', nick:'pio_xieco',         elo:945  },
+        { id:'demo037', nick:'ruy_lopez_fan',     elo:1725 },
+        { id:'demo038', nick:'italiana_clásica',  elo:1580 },
+        { id:'demo039', nick:'española_cerrada',  elo:1440 },
+        { id:'demo040', nick:'dragón_siciliano',  elo:1960 },
+        { id:'demo041', nick:'kan_siciliano',     elo:1305 },
+        { id:'demo042', nick:'scheveningue_fan',  elo:1670 },
+        { id:'demo043', nick:'berlin_defense',    elo:2050 },
+        { id:'demo044', nick:'petroff_draw',      elo:1100 },
+        { id:'demo045', nick:'escocesa_clásica',  elo:1755 },
+        { id:'demo046', nick:'cuatro_caballos',   elo:1215 },
+        { id:'demo047', nick:'vienna_gambit',     elo:1600 },
+        { id:'demo048', nick:'london_system',     elo:1885 },
+        { id:'demo049', nick:'catalan_abierto',   elo:2140 },
+        { id:'demo050', nick:'nimzovich_fan',     elo:1340 },
+        { id:'demo051', nick:'enroque_largo',     elo:1465 },
+        { id:'demo052', nick:'sacrificio_alfil',  elo:1810 },
+        { id:'demo053', nick:'tenedor_doble',     elo:1130 },
+        { id:'demo054', nick:'clavada_perfecta',  elo:1690 },
+        { id:'demo055', nick:'ataque_polgar',     elo:2300 },
+        { id:'demo056', nick:'defensa_pirc',      elo:1550 },
+        { id:'demo057', nick:'moderna_defense',   elo:1420 },
+        { id:'demo058', nick:'benko_gambit',      elo:1780 },
+        { id:'demo059', nick:'benoni_defense',    elo:1970 },
+        { id:'demo060', nick:'slav_defense',      elo:1270 },
+        { id:'demo061', nick:'holandesa_fan',     elo:1625 },
+        { id:'demo062', nick:'budapest_gambit',   elo:2085 },
+        { id:'demo063', nick:'budapest_trap',     elo:1025 },
+        { id:'demo064', nick:'botvinnik_fan',     elo:1840 },
+        { id:'demo065', nick:'tal_sacrificador',  elo:2220 },
+        { id:'demo066', nick:'karpov_defensor',   elo:1500 },
+        { id:'demo067', nick:'spassky_1972',      elo:1360 },
+        { id:'demo068', nick:'anand_rápido',      elo:1935 },
+        { id:'demo069', nick:'carlsen_endgame',   elo:2350 },
+        { id:'demo070', nick:'kasparov_ataque',   elo:2260 },
+        { id:'demo071', nick:'fischer_random',    elo:1715 },
+        { id:'demo072', nick:'kramnik_solido',    elo:1590 },
+        { id:'demo073', nick:'topalov_agresivo',  elo:1845 },
+        { id:'demo074', nick:'leko_defensivo',    elo:1475 },
+        { id:'demo075', nick:'giri_draws',        elo:2015 },
+        { id:'demo076', nick:'nepo_blitz',        elo:1930 },
+        { id:'demo077', nick:'ding_liren_fan',    elo:2195 },
+        { id:'demo078', nick:'pragg_joven',       elo:1655 },
+        { id:'demo079', nick:'so_wesley',         elo:1820 },
+        { id:'demo080', nick:'nakamura_speed',    elo:2120 },
+        { id:'demo081', nick:'mvl_francés',       elo:1765 },
+        { id:'demo082', nick:'aronian_creativo',  elo:2045 },
+        { id:'demo083', nick:'grischuk_blitz',    elo:1605 },
+        { id:'demo084', nick:'mamedyarov_sharp',  elo:1385 },
+        { id:'demo085', nick:'gelfand_solido',    elo:1530 },
+        { id:'demo086', nick:'ivanchuk_genio',    elo:2170 },
+        { id:'demo087', nick:'shirov_fuego',      elo:1900 },
+        { id:'demo088', nick:'polgar_dama',       elo:2285 },
+        { id:'demo089', nick:'hou_yifan',         elo:1745 },
+        { id:'demo090', nick:'ju_wenjun',         elo:1625 },
+        { id:'demo091', nick:'peon_d4',           elo:1070 },
+        { id:'demo092', nick:'peon_e4',           elo:1145 },
+        { id:'demo093', nick:'ajedrecista_99',    elo:1320 },
+        { id:'demo094', nick:'táctico_feroz',     elo:1430 },
+        { id:'demo095', nick:'posicional_puro',   elo:1870 },
+        { id:'demo096', nick:'estratega_mayor',   elo:2095 },
+        { id:'demo097', nick:'blunder_king',      elo:860  },
+        { id:'demo098', nick:'endgame_wizard',    elo:1990 },
+        { id:'demo099', nick:'opening_bookworm',  elo:1560 },
+        { id:'demo100', nick:'chess960_fan',      elo:1705 },
+    ];
+    // 50 jugadores adicionales siempre ocupados
+    const demoBusy = [
+        { id:'demo101', nick:'ruy_lopez_pro',       elo:1480 },
+        { id:'demo102', nick:'defensa_caro',        elo:1730 },
+        { id:'demo103', nick:'apertura_italiana',   elo:1195 },
+        { id:'demo104', nick:'gambito_dama',        elo:2060 },
+        { id:'demo105', nick:'nimzo_india',         elo:1885 },
+        { id:'demo106', nick:'grunfeld_fan',        elo:1340 },
+        { id:'demo107', nick:'king_indian',         elo:2155 },
+        { id:'demo108', nick:'queens_gambit',       elo:1560 },
+        { id:'demo109', nick:'french_defense',      elo:1420 },
+        { id:'demo110', nick:'pirc_defense',        elo:975  },
+        { id:'demo111', nick:'dragon_siciliano',    elo:1810 },
+        { id:'demo112', nick:'najdorf_maestro',     elo:2230 },
+        { id:'demo113', nick:'scheveningen',        elo:1665 },
+        { id:'demo114', nick:'ataque_ingles',       elo:1390 },
+        { id:'demo115', nick:'torre_blanca',        elo:1075 },
+        { id:'demo116', nick:'peón_pasado',         elo:1920 },
+        { id:'demo117', nick:'gambito_rey',         elo:2300 },
+        { id:'demo118', nick:'defensa_petroff',     elo:1545 },
+        { id:'demo119', nick:'apertura_escocesa',   elo:1280 },
+        { id:'demo120', nick:'bishop_pair',         elo:1640 },
+        { id:'demo121', nick:'opposite_color',      elo:1870 },
+        { id:'demo122', nick:'zugzwang_fan',        elo:1135 },
+        { id:'demo123', nick:'pawn_structure',      elo:2010 },
+        { id:'demo124', nick:'diagonal_attack',     elo:1760 },
+        { id:'demo125', nick:'rook_endgame',        elo:1455 },
+        { id:'demo126', nick:'fork_tactic',         elo:1325 },
+        { id:'demo127', nick:'pin_master',          elo:1990 },
+        { id:'demo128', nick:'skewer_pro',          elo:1580 },
+        { id:'demo129', nick:'discovered_check',    elo:2080 },
+        { id:'demo130', nick:'double_attack',       elo:1715 },
+        { id:'demo131', nick:'ajedrez_clasico',     elo:1260 },
+        { id:'demo132', nick:'partida_rapida',      elo:1830 },
+        { id:'demo133', nick:'blitz_master',        elo:2190 },
+        { id:'demo134', nick:'bullet_player',       elo:1500 },
+        { id:'demo135', nick:'correspondence_pro',  elo:1350 },
+        { id:'demo136', nick:'análisis_profundo',   elo:1945 },
+        { id:'demo137', nick:'tiempo_crítico',      elo:1125 },
+        { id:'demo138', nick:'jaque_perpetuo',      elo:1780 },
+        { id:'demo139', nick:'ahogado_fan',         elo:2270 },
+        { id:'demo140', nick:'enroque_largo',       elo:1615 },
+        { id:'demo141', nick:'peón_cadena',         elo:1440 },
+        { id:'demo142', nick:'isla_peones',         elo:1070 },
+        { id:'demo143', nick:'doblado_peón',        elo:1695 },
+        { id:'demo144', nick:'rey_activo',          elo:1860 },
+        { id:'demo145', nick:'caballo_bordeado',    elo:2140 },
+        { id:'demo146', nick:'alfil_malo',          elo:1385 },
+        { id:'demo147', nick:'par_torres',          elo:1525 },
+        { id:'demo148', nick:'columna_abierta',     elo:1975 },
+        { id:'demo149', nick:'diagonal_libre',      elo:1650 },
+        { id:'demo150', nick:'centro_avanzado',     elo:2050 },
+    ];
+    // El tamaño del grupo "extra" y su proporción de ocupados siguen
+    // getCommunityGrowthFactor() para simular una comunidad que va
+    // ganando actividad con el tiempo.
+    const growthFactor = getCommunityGrowthFactor();
+    const EXTRA_DEMO_BASE_COUNT = 180;
+    const EXTRA_DEMO_BASE_BUSY = 80;
+    const extraDemoCount = Math.round(EXTRA_DEMO_BASE_COUNT * growthFactor);
+    const extraDemoBusyCount = Math.min(extraDemoCount, Math.round(EXTRA_DEMO_BASE_BUSY * growthFactor));
+
+    // Grupo adicional de jugadores de ejemplo (una parte aparece como ocupados)
+    const demoExtra = buildGeneratedDemoUsers(151, extraDemoCount);
+    const demoExtraBusySet = new Set(
+        demoExtra.slice().sort(function() { return Math.random() - 0.5; })
+            .slice(0, extraDemoBusyCount)
+            .map(function(u) { return u.id; })
+    );
+
+    // Asignar estado online/ocupado aleatoriamente sobre el grupo base;
+    // esta cantidad también sigue el crecimiento diario (con tope en el
+    // tamaño del grupo). Los jugadores falsos nunca se muestran como
+    // disponibles (verde), solo ocupados u offline.
+    const baseBusyCount = Math.min(demoBase.length, Math.round(25 * growthFactor));
+    const shuffled = demoBase.slice().sort(function() { return Math.random() - 0.5; });
+    const busySet  = new Set(shuffled.slice(0, baseBusyCount).map(function(u) { return u.id; }));
+    const mockUsers = [
+        currentUser ? {
+            id: currentUser.id,
+            nick: (currentUser.email || '').split('@')[0] || currentUser.name || 'tú',
+            name: currentUser.name, elo: currentElo, online: true,
+            status: isUserBusy() ? 'busy' : 'available',
+        } : null,
+        ...demoBase.map(function(d) {
+            var isBusy = busySet.has(d.id);
+            return {
+                id: d.id, nick: d.nick, name: 'Demo', elo: d.elo,
+                online: isBusy,
+                status: isBusy ? 'busy' : 'offline',
+            };
+        }),
+        ...demoBusy.map(function(d) {
+            return {
+                id: d.id, nick: d.nick, name: 'Demo', elo: d.elo,
+                online: true,
+                status: 'busy',
+            };
+        }),
+        ...demoExtra.map(function(d) {
+            var isBusy = demoExtraBusySet.has(d.id);
+            return {
+                id: d.id, nick: d.nick, name: 'Demo', elo: d.elo,
+                online: isBusy,
+                status: isBusy ? 'busy' : 'offline',
+            };
+        }),
+    ].filter(Boolean).sort(function(a, b) {
+        var rankA = (a.online && a.status === 'available') ? 0
+                  : (a.online && a.status === 'busy'       ? 1 : 2);
+        var rankB = (b.online && b.status === 'available') ? 0
+                  : (b.online && b.status === 'busy'       ? 1 : 2);
+        if (rankA !== rankB) return rankA - rankB;
+        return (a.nick || '').localeCompare(b.nick || '', 'es', { sensitivity: 'base' });
+    });
+    return mockUsers;
+}
+
+let _clientCommunityCache = null;
+function getClientCommunityUsers() {
+    if (!_clientCommunityCache) _clientCommunityCache = buildClientCommunityUsers();
+    return _clientCommunityCache;
+}
+
 function fetchAndRenderUsers() {
     const listEl     = document.getElementById('users-list');
     const subtitleEl = document.getElementById('users-modal-subtitle');
@@ -10101,246 +10445,21 @@ function fetchAndRenderUsers() {
     listEl.innerHTML = '';
 
     const endpoint = siteApi('get-users.php');
-    let localSamples = [];
-
-    if (IS_LOCAL) {
-        // Datos de ejemplo en modo local
-        const currentUser = getOnlineUser();
-        const currentElo  = (typeof stats !== 'undefined' && stats.elo) ? stats.elo : 1200;
-        const demoBase = [
-            { id:'demo001', nick:'jugador_demo',      elo:1450 },
-            { id:'demo002', nick:'ajedrez_fan',       elo:1320 },
-            { id:'demo003', nick:'magnus_junior',     elo:1180 },
-            { id:'demo004', nick:'caballo_loco',      elo:1675 },
-            { id:'demo005', nick:'reina_blanca',      elo:1890 },
-            { id:'demo006', nick:'gambit_master',     elo:2100 },
-            { id:'demo007', nick:'peoncito',          elo:980  },
-            { id:'demo008', nick:'torre_negra',       elo:1540 },
-            { id:'demo009', nick:'alfil_rapido',      elo:1265 },
-            { id:'demo010', nick:'enroque_corto',     elo:1410 },
-            { id:'demo011', nick:'jaque_mate_99',     elo:1750 },
-            { id:'demo012', nick:'capablanca_ii',     elo:2250 },
-            { id:'demo013', nick:'tablero_loco',      elo:1120 },
-            { id:'demo014', nick:'siciliana_pro',     elo:1830 },
-            { id:'demo015', nick:'rey_solitario',     elo:1050 },
-            { id:'demo016', nick:'dama_furiosa',      elo:1620 },
-            { id:'demo017', nick:'pasapeon',          elo:1370 },
-            { id:'demo018', nick:'al_passant',        elo:1495 },
-            { id:'demo019', nick:'fianchetto',        elo:1985 },
-            { id:'demo020', nick:'novato_2026',       elo:880  },
-            { id:'demo021', nick:'gran_maestro',      elo:2400 },
-            { id:'demo022', nick:'apertura_inglesa',  elo:1710 },
-            { id:'demo023', nick:'defensa_francesa',  elo:1565 },
-            { id:'demo024', nick:'mate_pastor',       elo:1230 },
-            { id:'demo025', nick:'bobby_fan',         elo:1920 },
-            { id:'demo026', nick:'ataque_indio',      elo:1480 },
-            { id:'demo027', nick:'gambito_rey',       elo:1355 },
-            { id:'demo028', nick:'nimzo_defense',     elo:1790 },
-            { id:'demo029', nick:'grünfeld_pro',      elo:2030 },
-            { id:'demo030', nick:'caro_kann_fan',     elo:1640 },
-            { id:'demo031', nick:'peon_pasado',       elo:1160 },
-            { id:'demo032', nick:'torres_gemelas',    elo:1520 },
-            { id:'demo033', nick:'bishop_hunter',     elo:1395 },
-            { id:'demo034', nick:'zugzwang_king',     elo:2180 },
-            { id:'demo035', nick:'blitz_relámpago',   elo:1870 },
-            { id:'demo036', nick:'pio_xieco',         elo:945  },
-            { id:'demo037', nick:'ruy_lopez_fan',     elo:1725 },
-            { id:'demo038', nick:'italiana_clásica',  elo:1580 },
-            { id:'demo039', nick:'española_cerrada',  elo:1440 },
-            { id:'demo040', nick:'dragón_siciliano',  elo:1960 },
-            { id:'demo041', nick:'kan_siciliano',     elo:1305 },
-            { id:'demo042', nick:'scheveningue_fan',  elo:1670 },
-            { id:'demo043', nick:'berlin_defense',    elo:2050 },
-            { id:'demo044', nick:'petroff_draw',      elo:1100 },
-            { id:'demo045', nick:'escocesa_clásica',  elo:1755 },
-            { id:'demo046', nick:'cuatro_caballos',   elo:1215 },
-            { id:'demo047', nick:'vienna_gambit',     elo:1600 },
-            { id:'demo048', nick:'london_system',     elo:1885 },
-            { id:'demo049', nick:'catalan_abierto',   elo:2140 },
-            { id:'demo050', nick:'nimzovich_fan',     elo:1340 },
-            { id:'demo051', nick:'enroque_largo',     elo:1465 },
-            { id:'demo052', nick:'sacrificio_alfil',  elo:1810 },
-            { id:'demo053', nick:'tenedor_doble',     elo:1130 },
-            { id:'demo054', nick:'clavada_perfecta',  elo:1690 },
-            { id:'demo055', nick:'ataque_polgar',     elo:2300 },
-            { id:'demo056', nick:'defensa_pirc',      elo:1550 },
-            { id:'demo057', nick:'moderna_defense',   elo:1420 },
-            { id:'demo058', nick:'benko_gambit',      elo:1780 },
-            { id:'demo059', nick:'benoni_defense',    elo:1970 },
-            { id:'demo060', nick:'slav_defense',      elo:1270 },
-            { id:'demo061', nick:'holandesa_fan',     elo:1625 },
-            { id:'demo062', nick:'budapest_gambit',   elo:2085 },
-            { id:'demo063', nick:'budapest_trap',     elo:1025 },
-            { id:'demo064', nick:'botvinnik_fan',     elo:1840 },
-            { id:'demo065', nick:'tal_sacrificador',  elo:2220 },
-            { id:'demo066', nick:'karpov_defensor',   elo:1500 },
-            { id:'demo067', nick:'spassky_1972',      elo:1360 },
-            { id:'demo068', nick:'anand_rápido',      elo:1935 },
-            { id:'demo069', nick:'carlsen_endgame',   elo:2350 },
-            { id:'demo070', nick:'kasparov_ataque',   elo:2260 },
-            { id:'demo071', nick:'fischer_random',    elo:1715 },
-            { id:'demo072', nick:'kramnik_solido',    elo:1590 },
-            { id:'demo073', nick:'topalov_agresivo',  elo:1845 },
-            { id:'demo074', nick:'leko_defensivo',    elo:1475 },
-            { id:'demo075', nick:'giri_draws',        elo:2015 },
-            { id:'demo076', nick:'nepo_blitz',        elo:1930 },
-            { id:'demo077', nick:'ding_liren_fan',    elo:2195 },
-            { id:'demo078', nick:'pragg_joven',       elo:1655 },
-            { id:'demo079', nick:'so_wesley',         elo:1820 },
-            { id:'demo080', nick:'nakamura_speed',    elo:2120 },
-            { id:'demo081', nick:'mvl_francés',       elo:1765 },
-            { id:'demo082', nick:'aronian_creativo',  elo:2045 },
-            { id:'demo083', nick:'grischuk_blitz',    elo:1605 },
-            { id:'demo084', nick:'mamedyarov_sharp',  elo:1385 },
-            { id:'demo085', nick:'gelfand_solido',    elo:1530 },
-            { id:'demo086', nick:'ivanchuk_genio',    elo:2170 },
-            { id:'demo087', nick:'shirov_fuego',      elo:1900 },
-            { id:'demo088', nick:'polgar_dama',       elo:2285 },
-            { id:'demo089', nick:'hou_yifan',         elo:1745 },
-            { id:'demo090', nick:'ju_wenjun',         elo:1625 },
-            { id:'demo091', nick:'peon_d4',           elo:1070 },
-            { id:'demo092', nick:'peon_e4',           elo:1145 },
-            { id:'demo093', nick:'ajedrecista_99',    elo:1320 },
-            { id:'demo094', nick:'táctico_feroz',     elo:1430 },
-            { id:'demo095', nick:'posicional_puro',   elo:1870 },
-            { id:'demo096', nick:'estratega_mayor',   elo:2095 },
-            { id:'demo097', nick:'blunder_king',      elo:860  },
-            { id:'demo098', nick:'endgame_wizard',    elo:1990 },
-            { id:'demo099', nick:'opening_bookworm',  elo:1560 },
-            { id:'demo100', nick:'chess960_fan',      elo:1705 },
-        ];
-        // 50 jugadores adicionales siempre ocupados
-        const demoBusy = [
-            { id:'demo101', nick:'ruy_lopez_pro',       elo:1480 },
-            { id:'demo102', nick:'defensa_caro',        elo:1730 },
-            { id:'demo103', nick:'apertura_italiana',   elo:1195 },
-            { id:'demo104', nick:'gambito_dama',        elo:2060 },
-            { id:'demo105', nick:'nimzo_india',         elo:1885 },
-            { id:'demo106', nick:'grunfeld_fan',        elo:1340 },
-            { id:'demo107', nick:'king_indian',         elo:2155 },
-            { id:'demo108', nick:'queens_gambit',       elo:1560 },
-            { id:'demo109', nick:'french_defense',      elo:1420 },
-            { id:'demo110', nick:'pirc_defense',        elo:975  },
-            { id:'demo111', nick:'dragon_siciliano',    elo:1810 },
-            { id:'demo112', nick:'najdorf_maestro',     elo:2230 },
-            { id:'demo113', nick:'scheveningen',        elo:1665 },
-            { id:'demo114', nick:'ataque_ingles',       elo:1390 },
-            { id:'demo115', nick:'torre_blanca',        elo:1075 },
-            { id:'demo116', nick:'peón_pasado',         elo:1920 },
-            { id:'demo117', nick:'gambito_rey',         elo:2300 },
-            { id:'demo118', nick:'defensa_petroff',     elo:1545 },
-            { id:'demo119', nick:'apertura_escocesa',   elo:1280 },
-            { id:'demo120', nick:'bishop_pair',         elo:1640 },
-            { id:'demo121', nick:'opposite_color',      elo:1870 },
-            { id:'demo122', nick:'zugzwang_fan',        elo:1135 },
-            { id:'demo123', nick:'pawn_structure',      elo:2010 },
-            { id:'demo124', nick:'diagonal_attack',     elo:1760 },
-            { id:'demo125', nick:'rook_endgame',        elo:1455 },
-            { id:'demo126', nick:'fork_tactic',         elo:1325 },
-            { id:'demo127', nick:'pin_master',          elo:1990 },
-            { id:'demo128', nick:'skewer_pro',          elo:1580 },
-            { id:'demo129', nick:'discovered_check',    elo:2080 },
-            { id:'demo130', nick:'double_attack',       elo:1715 },
-            { id:'demo131', nick:'ajedrez_clasico',     elo:1260 },
-            { id:'demo132', nick:'partida_rapida',      elo:1830 },
-            { id:'demo133', nick:'blitz_master',        elo:2190 },
-            { id:'demo134', nick:'bullet_player',       elo:1500 },
-            { id:'demo135', nick:'correspondence_pro',  elo:1350 },
-            { id:'demo136', nick:'análisis_profundo',   elo:1945 },
-            { id:'demo137', nick:'tiempo_crítico',      elo:1125 },
-            { id:'demo138', nick:'jaque_perpetuo',      elo:1780 },
-            { id:'demo139', nick:'ahogado_fan',         elo:2270 },
-            { id:'demo140', nick:'enroque_largo',       elo:1615 },
-            { id:'demo141', nick:'peón_cadena',         elo:1440 },
-            { id:'demo142', nick:'isla_peones',         elo:1070 },
-            { id:'demo143', nick:'doblado_peón',        elo:1695 },
-            { id:'demo144', nick:'rey_activo',          elo:1860 },
-            { id:'demo145', nick:'caballo_bordeado',    elo:2140 },
-            { id:'demo146', nick:'alfil_malo',          elo:1385 },
-            { id:'demo147', nick:'par_torres',          elo:1525 },
-            { id:'demo148', nick:'columna_abierta',     elo:1975 },
-            { id:'demo149', nick:'diagonal_libre',      elo:1650 },
-            { id:'demo150', nick:'centro_avanzado',     elo:2050 },
-        ];
-        // El tamaño del grupo "extra" y su proporción de ocupados siguen
-        // getCommunityGrowthFactor() para simular una comunidad que va
-        // ganando actividad con el tiempo.
-        const growthFactor = getCommunityGrowthFactor();
-        const EXTRA_DEMO_BASE_COUNT = 180;
-        const EXTRA_DEMO_BASE_BUSY = 80;
-        const extraDemoCount = Math.round(EXTRA_DEMO_BASE_COUNT * growthFactor);
-        const extraDemoBusyCount = Math.min(extraDemoCount, Math.round(EXTRA_DEMO_BASE_BUSY * growthFactor));
-
-        // Grupo adicional de jugadores de ejemplo (una parte aparece como ocupados)
-        const demoExtra = buildGeneratedDemoUsers(151, extraDemoCount);
-        const demoExtraBusySet = new Set(
-            demoExtra.slice().sort(function() { return Math.random() - 0.5; })
-                .slice(0, extraDemoBusyCount)
-                .map(function(u) { return u.id; })
-        );
-
-        // Asignar estado online/ocupado aleatoriamente sobre el grupo base;
-        // esta cantidad también sigue el crecimiento diario (con tope en el
-        // tamaño del grupo). Los jugadores falsos nunca se muestran como
-        // disponibles (verde), solo ocupados u offline.
-        const baseBusyCount = Math.min(demoBase.length, Math.round(25 * growthFactor));
-        const shuffled = demoBase.slice().sort(function() { return Math.random() - 0.5; });
-        const busySet  = new Set(shuffled.slice(0, baseBusyCount).map(function(u) { return u.id; }));
-        const mockUsers = [
-            currentUser ? {
-                id: currentUser.id,
-                nick: (currentUser.email || '').split('@')[0] || currentUser.name || 'tú',
-                name: currentUser.name, elo: currentElo, online: true,
-                status: isUserBusy() ? 'busy' : 'available',
-            } : null,
-            ...demoBase.map(function(d) {
-                var isBusy = busySet.has(d.id);
-                return {
-                    id: d.id, nick: d.nick, name: 'Demo', elo: d.elo,
-                    online: isBusy,
-                    status: isBusy ? 'busy' : 'offline',
-                };
-            }),
-            ...demoBusy.map(function(d) {
-                return {
-                    id: d.id, nick: d.nick, name: 'Demo', elo: d.elo,
-                    online: true,
-                    status: 'busy',
-                };
-            }),
-            ...demoExtra.map(function(d) {
-                var isBusy = demoExtraBusySet.has(d.id);
-                return {
-                    id: d.id, nick: d.nick, name: 'Demo', elo: d.elo,
-                    online: isBusy,
-                    status: isBusy ? 'busy' : 'offline',
-                };
-            }),
-        ].filter(Boolean).sort(function(a, b) {
-            var rankA = (a.online && a.status === 'available') ? 0
-                      : (a.online && a.status === 'busy'       ? 1 : 2);
-            var rankB = (b.online && b.status === 'available') ? 0
-                      : (b.online && b.status === 'busy'       ? 1 : 2);
-            if (rankA !== rankB) return rankA - rankB;
-            return (a.nick || '').localeCompare(b.nick || '', 'es', { sensitivity: 'base' });
-        });
-        localSamples = mockUsers;
-    }
 
     fetch(endpoint + '?t=' + Date.now(), { cache: 'no-store', headers: { 'Accept': 'application/json' } })
         .then(function(r) { return r.json(); })
         .then(function(data) {
             loadingEl.style.display = 'none';
             if (!data || !data.ok || !data.users) {
-                if (IS_LOCAL) renderUsersList(composeUsersModalList([], localSamples), listEl, subtitleEl);
+                if (IS_LOCAL) renderUsersList(composeUsersModalList([]), listEl, subtitleEl);
                 else renderUsersError(listEl, subtitleEl);
                 return;
             }
-            renderUsersList(composeUsersModalList(data.users, IS_LOCAL ? localSamples : []), listEl, subtitleEl);
+            renderUsersList(composeUsersModalList(data.users), listEl, subtitleEl);
         })
         .catch(function() {
             loadingEl.style.display = 'none';
-            if (IS_LOCAL) renderUsersList(composeUsersModalList([], localSamples), listEl, subtitleEl);
+            if (IS_LOCAL) renderUsersList(composeUsersModalList([]), listEl, subtitleEl);
             else renderUsersError(listEl, subtitleEl);
         });
 }
@@ -10970,11 +11089,14 @@ function renderOnlineNowList(users) {
             online.forEach(function(u) {
                 const isMe = me && String(me.id) === String(u.id);
                 const isBusy = u.status === 'busy';
+                const isBot = !!(u.isBot || isBotId(u.id));
                 const row = document.createElement('div');
                 row.className = 'user-row ' + (isBusy ? 'is-busy' : 'is-online');
-                const statusLabel = isMe
-                    ? (isBusy ? t('user.busyYou') : t('user.freeYou'))
-                    : (isBusy ? t('user.busy') : t('user.free'));
+                const statusLabel = isBot
+                    ? t('user.onlineStatus')
+                    : (isMe
+                        ? (isBusy ? t('user.busyYou') : t('user.freeYou'))
+                        : (isBusy ? t('user.busy') : t('user.free')));
                 row.innerHTML =
                     '<div class="user-row-info">' +
                         '<span class="user-row-nick">' + escHtml(u.nick || u.name || '') + '</span>' +
@@ -11305,11 +11427,8 @@ function sendOnlineMove(uci, statusAfter) {
             return;
         }
         _onlineGame.totalMovesApplied = data.total_moves;
-        // Reloj autoritativo del servidor tras aplicar el movimiento
         if (typeof data.white_time_ms === 'number' && typeof data.black_time_ms === 'number') {
-            whiteTime = Math.ceil(data.white_time_ms / 1000);
-            blackTime = Math.ceil(data.black_time_ms / 1000);
-            updateClockDisplay();
+            adoptOnlineClock(data.white_time_ms, data.black_time_ms, game.currentTurn, true);
         }
         if (data.status && data.status !== 'active') {
             _onlineGame.status = data.status;
@@ -11459,35 +11578,110 @@ function pollOnlineGame() {
         .catch(function(){});
 }
 
-// Sincroniza whiteTime / blackTime locales con los valores autoritativos del servidor.
-// Usa el "ahora" del servidor para neutralizar el desfase de reloj entre cliente y servidor.
-function syncOnlineClock(data) {
-    if (!_onlineGame || _onlineGame.status !== 'active') return;
+// Reloj online: el servidor guarda el tiempo al último movimiento y el cliente
+// solo descuenta lo transcurrido. No hay un contador local que compita con el sondeo.
+let _onlineClockAnchor = null;
+let _onlineClockTimer = null;
 
-    let whiteMs = data.white_time_ms;
-    let blackMs = data.black_time_ms;
+function clockSecondsFromMs(ms) {
+    if (ms <= 0) return 0;
+    return Math.ceil(ms / 1000);
+}
 
-    // Si ya hubo un primer movimiento, descontar el tiempo transcurrido al jugador en turno
-    if (data.last_move_ms && data.server_now_ms) {
-        const elapsedMs = Math.max(0, data.server_now_ms - data.last_move_ms);
-        if (data.current_turn === 'white') whiteMs = Math.max(0, whiteMs - elapsedMs);
-        else                                blackMs = Math.max(0, blackMs - elapsedMs);
+function onlineClockRemaining() {
+    const a = _onlineClockAnchor;
+    if (!a) return null;
+    let whiteMs = a.whiteMs;
+    let blackMs = a.blackMs;
+    if (a.running && a.lastMove && a.serverNow) {
+        const serverNow = a.serverNow + (performance.now() - a.perfAt);
+        const elapsed = Math.max(0, serverNow - a.lastMove);
+        if (a.turn === 'white') whiteMs = Math.max(0, whiteMs - elapsed);
+        else blackMs = Math.max(0, blackMs - elapsed);
     }
-    // Si last_move_ms es null aún no se ha jugado: ningún reloj corre, los valores ya son los iniciales.
+    return { whiteMs: whiteMs, blackMs: blackMs, turn: a.turn, running: a.running };
+}
 
-    const newWhiteSec = Math.ceil(whiteMs / 1000);
-    const newBlackSec = Math.ceil(blackMs / 1000);
-
-    // Solo aplicar si la diferencia es notable (≥1 s) para evitar saltos visuales por jitter
-    if (Math.abs(newWhiteSec - whiteTime) >= 1) whiteTime = newWhiteSec;
-    if (Math.abs(newBlackSec - blackTime) >= 1) blackTime = newBlackSec;
-
+function paintOnlineClock() {
+    const rem = onlineClockRemaining();
+    if (!rem) return;
+    whiteTime = clockSecondsFromMs(rem.whiteMs);
+    blackTime = clockSecondsFromMs(rem.blackMs);
     updateClockDisplay();
+}
 
-    // Si aún no se ha hecho el primer movimiento, asegurarnos de que el reloj local NO corre
-    if (!data.last_move_ms && clockInterval) stopClock();
-    // Si ya se ha hecho el primer movimiento y la partida sigue activa, mantener el tick local fluido
-    else if (data.last_move_ms && !clockInterval && !game.gameOver) startClock();
+function startOnlineClockPaint() {
+    if (_onlineClockTimer) return;
+    _onlineClockTimer = setInterval(paintOnlineClock, 200);
+}
+
+function stopOnlineClockPaint() {
+    if (_onlineClockTimer) {
+        clearInterval(_onlineClockTimer);
+        _onlineClockTimer = null;
+    }
+}
+
+function adoptOnlineClock(whiteMs, blackMs, turn, running) {
+    const prev = _onlineClockAnchor;
+    const perfAt = performance.now();
+    const serverNow = prev ? prev.serverNow + (perfAt - prev.perfAt) : Date.now();
+    _onlineClockAnchor = {
+        whiteMs: whiteMs,
+        blackMs: blackMs,
+        turn: turn || 'white',
+        running: !!running,
+        serverNow: serverNow,
+        perfAt: perfAt,
+        lastMove: running ? serverNow : 0,
+    };
+    if (clockInterval) stopClock();
+    paintOnlineClock();
+    if (running && _onlineGame && _onlineGame.status === 'active' && !game.gameOver) startOnlineClockPaint();
+    else stopOnlineClockPaint();
+}
+
+function noteOnlineClockAfterLocalMove() {
+    const rem = onlineClockRemaining();
+    const moves = (game && (game.moveHistory || game.moveHistoryUCI) || []).length;
+    const incr = moves > 1 ? (incrementPerMove || 0) * 1000 : 0;
+    let whiteMs = rem ? rem.whiteMs : whiteTime * 1000;
+    let blackMs = rem ? rem.blackMs : blackTime * 1000;
+    const moved = game.currentTurn === 'white' ? 'black' : 'white';
+    if (moved === 'white') whiteMs += incr;
+    else blackMs += incr;
+    adoptOnlineClock(whiteMs, blackMs, game.currentTurn, true);
+}
+
+function syncOnlineClock(data) {
+    if (data && data.status && data.status !== 'active') {
+        if (typeof data.white_time_ms === 'number' && typeof data.black_time_ms === 'number') {
+            whiteTime = clockSecondsFromMs(data.white_time_ms);
+            blackTime = clockSecondsFromMs(data.black_time_ms);
+            updateClockDisplay();
+        }
+        stopOnlineClockPaint();
+        return;
+    }
+    if (!_onlineGame || _onlineGame.status !== 'active') {
+        stopOnlineClockPaint();
+        return;
+    }
+    if (clockInterval) stopClock();
+    const running = !!data.last_move_ms;
+    const perfAt = performance.now();
+    _onlineClockAnchor = {
+        whiteMs: data.white_time_ms,
+        blackMs: data.black_time_ms,
+        turn: data.current_turn || (game && game.currentTurn) || 'white',
+        running: running,
+        serverNow: data.server_now_ms || Date.now(),
+        perfAt: perfAt,
+        lastMove: data.last_move_ms || 0,
+    };
+    paintOnlineClock();
+    if (running && !game.gameOver) startOnlineClockPaint();
+    else stopOnlineClockPaint();
 }
 
 function applyRemoteUCI(uci) {
@@ -11515,7 +11709,7 @@ function onOnlineGameEnded(status, reason) {
         else if (status === 'black_wins') result = (_onlineGame && _onlineGame.myColor === 'black') ? 'win' : 'loss';
         else if (status === 'draw')       result = 'draw';
         if (result) {
-            if (!game.gameOver) { game.gameOver = true; stopClock(); }
+            if (!game.gameOver) { game.gameOver = true; stopClock(); stopOnlineClockPaint(); }
             eloDelta = recordGameResult(result);
             clearAutoSavedGame();
         }
@@ -11529,7 +11723,9 @@ function onOnlineGameEnded(status, reason) {
     const oppName = (_onlineGame && _onlineGame.opponent) ? opponentName(_onlineGame.opponent) : '';
     if (reason === 'resign') txt = t('online.oppResigned', { name: oppName });
     else if (reason === 'abort') txt = t('online.oppLeft', { name: oppName });
+    else if (reason === 'timeout') txt = status === 'white_wins' ? t('banner.timeoutWhite') : t('banner.timeoutBlack');
     else if (reason) txt += ' (' + reason + ')';
+    stopOnlineClockPaint();
     updateUndoButton();
     if (status === 'aborted') {
         if (!game.gameOver) { game.gameOver = true; stopClock(); }
@@ -11556,6 +11752,8 @@ function leaveOnlineGame(reason) {
         }
     }
     stopOnlineGamePolling();
+    stopOnlineClockPaint();
+    _onlineClockAnchor = null;
     _onlineGame = null;
     updateOnlineBanner();
     setOnlineActionsLocked(false);
@@ -20589,6 +20787,7 @@ function clearAutoSavedGame() {
 
 // Funciones del reloj de ajedrez
 function startClock() {
+    if (_onlineGame && _onlineGame.status === 'active') return;
     stopClock();
     clockInterval = setInterval(() => {
         if (game.currentTurn === 'white') {
@@ -22558,8 +22757,12 @@ function executeMove(fromRow, fromCol, toRow, toCol, promotionPiece) {
     lastMoveSquares = { from: { row: fromRow, col: fromCol }, to: { row: toRow, col: toCol } };
     bestMoveSquares = { from: null, to: null };
     selectedSquare = null;
-    if (!clockInterval) startClock();
-    addTimeIncrement();
+    if (_onlineGame && _onlineGame.status === 'active') {
+        if (!_applyingRemoteMove) noteOnlineClockAfterLocalMove();
+    } else {
+        if (!clockInterval) startClock();
+        addTimeIncrement();
+    }
 
     // — Sonido del movimiento —
     if (result) {

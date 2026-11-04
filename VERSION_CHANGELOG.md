@@ -2,6 +2,28 @@
 
 ---
 
+## v3.6.95 — 2026-11-04
+
+### Conectados
+- Quienes comparten el comienzo del nombre pasan a Invitado-XXXXXX, sin repetir invitados reales que están desconectados.
+
+---
+
+## v3.6.94 — 2026-11-04
+
+### Conectados
+- Los Bot_XXX aparecen justo después de los jugadores libres.
+- El reloj de la partida online cuenta seguido, sin saltos.
+
+---
+
+## v3.6.93 — 2026-11-04
+
+### Conectados
+- En Conectados y en Jugadores registrados también se ven los jugadores ocupados.
+
+---
+
 ## v3.6.92 — 2026-11-02
 
 ### Conectados

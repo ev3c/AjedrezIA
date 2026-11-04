@@ -240,9 +240,8 @@ for ($n = 117; $n <= 296; $n++) {
     ];
 }
 
-// Semilla aleatoria basada en la hora actual para que cambie en cada visita
-// pero sea reproducible dentro de la misma llamada (consistencia visual).
-mt_srand(intval(date('His')));
+// La misma selección dura una hora, para que la lista no cambie en cada refresco.
+mt_srand(intval(date('YmdH')));
 
 // 25 ocupados entre los demo originales + 80 entre los 180 nuevos
 $oldIndices = range(0, $oldDemoCount - 1);
@@ -254,6 +253,36 @@ shuffle($newIndices);
 $busyNew = array_slice($newIndices, 0, 80);
 
 $busySet = array_flip(array_merge($busyOld, $busyNew));
+
+// Mismo comienzo de nombre → Invitado-XXXXXX, sin pisar invitados reales.
+$reservedGuest = [];
+foreach ($users as $u) {
+    foreach (['nick', 'name'] as $field) {
+        $raw = isset($u[$field]) ? trim((string)$u[$field]) : '';
+        if (preg_match('/^Invitado-([A-Za-z0-9]{6})$/i', $raw, $m)) {
+            $reservedGuest['INVITADO-' . strtoupper($m[1])] = true;
+        }
+    }
+}
+$startCount = [];
+foreach ($demoUsers as $d) {
+    $st = ajz_nick_start($d['nick']);
+    if ($st === '') continue;
+    if (!isset($startCount[$st])) $startCount[$st] = 0;
+    $startCount[$st]++;
+}
+$usedGuest = $reservedGuest;
+foreach ($demoUsers as $idx => $d) {
+    $st = ajz_nick_start($d['nick']);
+    if ($st === '' || empty($startCount[$st]) || $startCount[$st] < 2) continue;
+    $n = 0;
+    do {
+        $nick = 'Invitado-' . ajz_guest_code($d['id'] . ':' . $n);
+        $n++;
+    } while (isset($usedGuest[strtoupper($nick)]) && $n < 1000);
+    $usedGuest[strtoupper($nick)] = true;
+    $demoUsers[$idx]['nick'] = $nick;
+}
 
 foreach ($demoUsers as $i => $d) {
     $isBusy = isset($busySet[$i]);
@@ -279,3 +308,22 @@ usort($users, function($a, $b) {
 });
 
 echo json_encode(['ok' => true, 'users' => $users]);
+
+function ajz_nick_start($nick) {
+    $nick = trim((string)$nick);
+    $pos = strpos($nick, '_');
+    $start = ($pos === false) ? $nick : substr($nick, 0, $pos);
+    if (function_exists('mb_strtolower')) return mb_strtolower($start, 'UTF-8');
+    return strtolower($start);
+}
+
+function ajz_guest_code($seed) {
+    $h = 2166136261;
+    $s = (string)$seed;
+    $len = strlen($s);
+    for ($i = 0; $i < $len; $i++) {
+        $h ^= ord($s[$i]);
+        $h = ($h * 16777619) & 0xFFFFFFFF;
+    }
+    return strtoupper(substr(sprintf('%08x', $h), -6));
+}

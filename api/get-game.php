@@ -29,6 +29,25 @@ try {
     $game = $stmt->fetch(PDO::FETCH_ASSOC);
     if (!$game) { http_response_code(404); echo json_encode(['ok'=>false,'error'=>'not_found']); exit; }
 
+    // Si el jugador en turno ya agotó su tiempo, la partida termina aunque no envíe jugada.
+    if ($game['status'] === 'active' && !empty($game['last_move_at']) && trim((string)$game['moves']) !== '') {
+        $elapsedRow = $pdo->prepare("SELECT TIMESTAMPDIFF(MICROSECOND, ?, NOW(3)) AS us");
+        $elapsedRow->execute([$game['last_move_at']]);
+        $elapsedMs = (int)floor(((int)$elapsedRow->fetch(PDO::FETCH_ASSOC)['us']) / 1000);
+        $bank = ($game['current_turn'] === 'white') ? (int)$game['white_time_ms'] : (int)$game['black_time_ms'];
+        if ($bank >= 0 && $elapsedMs >= $bank) {
+            $finalStatus = ($game['current_turn'] === 'white') ? 'black_wins' : 'white_wins';
+            $whiteMs = ($game['current_turn'] === 'white') ? 0 : (int)$game['white_time_ms'];
+            $blackMs = ($game['current_turn'] === 'black') ? 0 : (int)$game['black_time_ms'];
+            $pdo->prepare("UPDATE ajedrezia_games SET status = ?, result_reason = 'timeout', ended_at = ?, white_time_ms = ?, black_time_ms = ? WHERE id = ? AND status = 'active'")
+                ->execute([$finalStatus, date('Y-m-d H:i:s'), $whiteMs, $blackMs, $id]);
+            $pdo->prepare("UPDATE ajedrezia_users SET status = 'available' WHERE id IN (?, ?)")
+                ->execute([$game['white_id'], $game['black_id']]);
+            $stmt->execute([$id]);
+            $game = $stmt->fetch(PDO::FETCH_ASSOC);
+        }
+    }
+
     $movesArr   = $game['moves'] ? explode(' ', trim($game['moves'])) : [];
     $totalMoves = count($movesArr);
     $newMoves   = ($since > 0 && $since <= $totalMoves) ? array_slice($movesArr, $since) : $movesArr;
